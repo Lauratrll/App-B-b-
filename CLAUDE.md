@@ -3,7 +3,7 @@
 > Ce fichier est lu par Claude Code à chaque session. Ne pas supprimer.
 > Mis à jour au fur et à mesure du développement.
 
----
+\---
 
 ## 🎯 Vision du projet
 
@@ -14,11 +14,12 @@ Positionnement : zéro jargon médical, parentalité consciente, solutions actio
 **Fondatrice :** Ancienne planneuse stratégique reconvertie, micro-entrepreneuse, en formation de réflexologie émotionnelle bébé. Pas de compétences techniques — Claude Code est le bras armé du développement.
 
 **Modèle économique :**
-- Abonnement mensuel : 5,90 €/mois
-- Abonnement annuel : 50,90 €/an (4,24 €/mois)
-- Aucune pub, aucun partenariat commercial dans l'app
 
----
+* Abonnement mensuel : 5,90 €/mois
+* Abonnement annuel : 50,90 €/an (4,24 €/mois)
+* Aucune pub, aucun partenariat commercial dans l'app
+
+\---
 
 ## 🛠️ Stack technique
 
@@ -34,11 +35,11 @@ Langue          : Français uniquement
 Format cible    : Mobile-first, max-width 390px
 ```
 
-**Repo GitHub :** [à compléter]
-**URL Vercel :** [à compléter]
-**Supabase project URL :** [à compléter]
+**Repo GitHub :** https://github.com/Lauratrll/App-B-b-
+**URL Vercel :** https://app-b-b-i6ai.vercel.app
+**Supabase project URL :** https://lhwbnfkmpglygttxzyib.supabase.co
 
----
+\---
 
 ## 📁 Structure du projet
 
@@ -52,8 +53,8 @@ Format cible    : Mobile-first, max-width 390px
     /soin           → Module Prends soin de toi
     /saison         → Module Conseil de saison
     /coucher        → Module Préparer le coucher
-    /audio          → Module Partager & rassurer
-    /jeux           → Module Jeux & stimulation
+    /audio          → Module Partager \& rassurer
+    /jeux           → Module Jeux \& stimulation
     /profil         → Profil bébé
     /epingles       → Protocoles épinglés
     /abonnement     → Gestion abonnement Stripe
@@ -64,11 +65,11 @@ Format cible    : Mobile-first, max-width 390px
   /supabase.ts      → Client Supabase
   /stripe.ts        → Client Stripe
   /utils.ts         → Fonctions utilitaires (calcul mois bébé, saison, etc.)
-/skills             → Fichiers SKILL_*.md (référence éditoriale et technique)
+/skills             → Fichiers SKILL\_\*.md (référence éditoriale et technique)
 /content            → Fichiers JSON des protocoles par mois
 ```
 
----
+\---
 
 ## 🗄️ Schéma base de données Supabase
 
@@ -77,70 +78,70 @@ Format cible    : Mobile-first, max-width 390px
 
 ```sql
 -- Utilisateurs (géré par Supabase Auth)
-auth.users (id, email, created_at)
+auth.users (id, email, created\_at)
 
 -- Profils bébé
 CREATE TABLE profiles (
-  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-  user_id UUID REFERENCES auth.users(id) ON DELETE CASCADE,
-  baby_name TEXT NOT NULL,
+  id UUID PRIMARY KEY DEFAULT gen\_random\_uuid(),
+  user\_id UUID REFERENCES auth.users(id) ON DELETE CASCADE,
+  baby\_name TEXT NOT NULL,
   birthdate DATE NOT NULL,
-  created_at TIMESTAMPTZ DEFAULT now(),
-  updated_at TIMESTAMPTZ DEFAULT now()
+  created\_at TIMESTAMPTZ DEFAULT now(),
+  updated\_at TIMESTAMPTZ DEFAULT now()
 );
--- baby_name et birthdate permettent de calculer côté client :
--- mois_actuel = différence en mois entre birthdate et aujourd'hui
+-- baby\_name et birthdate permettent de calculer côté client :
+-- mois\_actuel = différence en mois entre birthdate et aujourd'hui
 -- saison = selon le mois calendaire actuel
 
 -- Abonnements
 CREATE TABLE subscriptions (
-  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-  user_id UUID REFERENCES auth.users(id) ON DELETE CASCADE,
-  stripe_customer_id TEXT UNIQUE,
-  stripe_subscription_id TEXT UNIQUE,
+  id UUID PRIMARY KEY DEFAULT gen\_random\_uuid(),
+  user\_id UUID REFERENCES auth.users(id) ON DELETE CASCADE,
+  stripe\_customer\_id TEXT UNIQUE,
+  stripe\_subscription\_id TEXT UNIQUE,
   plan TEXT CHECK (plan IN ('monthly', 'annual')),
-  status TEXT CHECK (status IN ('active', 'cancelled', 'past_due', 'trialing')),
-  current_period_end TIMESTAMPTZ,
-  created_at TIMESTAMPTZ DEFAULT now(),
-  updated_at TIMESTAMPTZ DEFAULT now()
+  status TEXT CHECK (status IN ('active', 'cancelled', 'past\_due', 'trialing')),
+  current\_period\_end TIMESTAMPTZ,
+  created\_at TIMESTAMPTZ DEFAULT now(),
+  updated\_at TIMESTAMPTZ DEFAULT now()
 );
 
 -- Contenu (protocoles, modules — alimenté hors ligne, pas par les users)
 CREATE TABLE content (
-  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  id UUID PRIMARY KEY DEFAULT gen\_random\_uuid(),
   mois INTEGER CHECK (mois BETWEEN 0 AND 24),
   module TEXT CHECK (module IN ('guide', 'soin', 'saison', 'coucher', 'audio', 'jeux')),
   categorie TEXT,
   situation TEXT,
   data JSONB NOT NULL,
-  created_at TIMESTAMPTZ DEFAULT now(),
-  updated_at TIMESTAMPTZ DEFAULT now()
+  created\_at TIMESTAMPTZ DEFAULT now(),
+  updated\_at TIMESTAMPTZ DEFAULT now()
 );
 
 -- Épinglés
 CREATE TABLE pinned (
-  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-  user_id UUID REFERENCES auth.users(id) ON DELETE CASCADE,
-  content_id UUID REFERENCES content(id) ON DELETE CASCADE,
-  created_at TIMESTAMPTZ DEFAULT now(),
-  UNIQUE(user_id, content_id)
+  id UUID PRIMARY KEY DEFAULT gen\_random\_uuid(),
+  user\_id UUID REFERENCES auth.users(id) ON DELETE CASCADE,
+  content\_id UUID REFERENCES content(id) ON DELETE CASCADE,
+  created\_at TIMESTAMPTZ DEFAULT now(),
+  UNIQUE(user\_id, content\_id)
 );
 ```
 
----
+\---
 
 ## 🧭 Les 6 modules de l'app
 
 Chaque mois contient les mêmes 6 modules — seul le contenu change.
 
-| # | Module | Description |
-|---|--------|-------------|
-| 1 | 🧭 Guide-moi ! | 8 catégories × 4 situations = 32 protocoles différenciés par mois |
-| 2 | 🌸 Prends soin de toi | 6 gestes parentaux (réflexo, méditation, écriture, réalité, couple, soin) |
-| 3 | 🌿 Conseil de saison | 2 conseils adaptés à l'âge + saison en cours |
-| 4 | 🌙 Préparer le coucher | Rituel personnalisé selon thème développemental |
-| 5 | 💜 Partager & rassurer | 3 scripts audio par trimestre |
-| 6 | 🎯 Jeux & stimulation | 3 activités adaptées à l'âge |
+|#|Module|Description|
+|-|-|-|
+|1|🧭 Guide-moi !|8 catégories × 4 situations = 32 protocoles différenciés par mois|
+|2|🌸 Prends soin de toi|6 gestes parentaux (réflexo, méditation, écriture, réalité, couple, soin)|
+|3|🌿 Conseil de saison|2 conseils adaptés à l'âge + saison en cours|
+|4|🌙 Préparer le coucher|Rituel personnalisé selon thème développemental|
+|5|💜 Partager \& rassurer|3 scripts audio par trimestre|
+|6|🎯 Jeux \& stimulation|3 activités adaptées à l'âge|
 
 ### Structure d'un protocole Guide-moi ! (JSONB)
 
@@ -149,28 +150,28 @@ Chaque mois contient les mêmes 6 modules — seul le contenu change.
   "titre": "Crise de colère intense depuis 20 min",
   "explication": "...",
   "ancrage": "...",
-  "action_immediate": {
+  "action\_immediate": {
     "titre": "Action immédiate",
     "couleur": "#FCEBEB",
-    "couleur_texte": "#A32D2D",
-    "etapes": ["...", "..."]
+    "couleur\_texte": "#A32D2D",
+    "etapes": \["...", "..."]
   },
-  "action_complementaire": {
+  "action\_complementaire": {
     "titre": "Geste doux — réflexologie",
     "couleur": "#E1F5EE",
-    "couleur_texte": "#085041",
-    "etapes": ["...", "..."]
+    "couleur\_texte": "#085041",
+    "etapes": \["...", "..."]
   },
-  "action_parent": {
-    "etapes": ["...", "..."]
+  "action\_parent": {
+    "etapes": \["...", "..."]
   },
   "preventif": "...",
-  "erreurs": ["...", "..."],
-  "cadre_securite": "..."
+  "erreurs": \["...", "..."],
+  "cadre\_securite": "..."
 }
 ```
 
----
+\---
 
 ## ⚙️ Fonctions utilitaires clés
 
@@ -178,7 +179,7 @@ Chaque mois contient les mêmes 6 modules — seul le contenu change.
 // Calcul du mois de bébé
 function getBabyMonth(birthdate: Date): number {
   const today = new Date()
-  const months = (today.getFullYear() - birthdate.getFullYear()) * 12
+  const months = (today.getFullYear() - birthdate.getFullYear()) \* 12
     + today.getMonth() - birthdate.getMonth()
   return Math.max(0, Math.min(24, months))
 }
@@ -186,20 +187,20 @@ function getBabyMonth(birthdate: Date): number {
 // Calcul de la saison (hémisphère nord)
 function getSeason(date: Date): 'printemps' | 'ete' | 'automne' | 'hiver' {
   const month = date.getMonth() + 1
-  if (month >= 3 && month <= 5) return 'printemps'
-  if (month >= 6 && month <= 8) return 'ete'
-  if (month >= 9 && month <= 11) return 'automne'
+  if (month >= 3 \&\& month <= 5) return 'printemps'
+  if (month >= 6 \&\& month <= 8) return 'ete'
+  if (month >= 9 \&\& month <= 11) return 'automne'
   return 'hiver'
 }
 
 // Vérification abonnement actif
 function isSubscriptionActive(subscription: Subscription): boolean {
   return subscription.status === 'active'
-    && new Date(subscription.current_period_end) > new Date()
+    \&\& new Date(subscription.current\_period\_end) > new Date()
 }
 ```
 
----
+\---
 
 ## 🔐 Règles de sécurité Supabase (Row Level Security)
 
@@ -209,17 +210,17 @@ Toujours activer RLS sur toutes les tables utilisateur.
 -- profiles : utilisateur voit uniquement son propre profil
 ALTER TABLE profiles ENABLE ROW LEVEL SECURITY;
 CREATE POLICY "own profile" ON profiles
-  FOR ALL USING (auth.uid() = user_id);
+  FOR ALL USING (auth.uid() = user\_id);
 
 -- subscriptions : idem
 ALTER TABLE subscriptions ENABLE ROW LEVEL SECURITY;
 CREATE POLICY "own subscription" ON subscriptions
-  FOR ALL USING (auth.uid() = user_id);
+  FOR ALL USING (auth.uid() = user\_id);
 
 -- pinned : idem
 ALTER TABLE pinned ENABLE ROW LEVEL SECURITY;
 CREATE POLICY "own pinned" ON pinned
-  FOR ALL USING (auth.uid() = user_id);
+  FOR ALL USING (auth.uid() = user\_id);
 
 -- content : lecture authentifiée (protégée par vérification abonnement côté app)
 ALTER TABLE content ENABLE ROW LEVEL SECURITY;
@@ -227,7 +228,7 @@ CREATE POLICY "content readable" ON content
   FOR SELECT USING (true);
 ```
 
----
+\---
 
 ## 🚫 Règles absolues pour Claude Code
 
@@ -238,25 +239,28 @@ CREATE POLICY "content readable" ON content
 5. **Langue française uniquement** dans tous les textes de l'app
 6. **Jamais de conseil médical direct** — toujours renvoyer vers le médecin dans le cadre de sécurité
 7. **Vérifier l'abonnement actif** avant d'afficher tout contenu protégé
+8. **Droits d'auteur — règle absolue** : tout le contenu de l'app est original et créé spécifiquement pour ce projet. Ne jamais reproduire, paraphraser ou s'inspirer directement de textes existants protégés (livres, articles, méthodes brevetées, protocoles d'autres praticiens). Les approches générales (réflexologie, attachement, neurosciences) s'appuient sur des connaissances scientifiques du domaine public — les formulations sont toujours originales. En cas de doute sur une source, ne pas l'utiliser.
+9. Prévoir une plateforme adaptée pour un très grand nombre d'utilisateurs
 
----
+\---
 
 ## 📅 État d'avancement
 
-| Mois  | Guide-moi ! | Soin | Saison | Coucher | Audio | Jeux |
-|-------|-------------|------|--------|---------|-------|------|
-| 0     | ✅ complet  | ✅   | ✅     | ✅      | ✅    | ✅   |
-| 14    | ✅ complet  | ✅   | ✅     | ✅      | ✅    | ✅   |
-| 1–13  | ⏳ à faire  | ⏳   | ⏳     | ⏳      | ⏳    | ⏳   |
-| 15–24 | ⏳ à faire  | ⏳   | ⏳     | ⏳      | ⏳    | ⏳   |
+|Mois|Guide-moi !|Soin|Saison|Coucher|Audio|Jeux|
+|-|-|-|-|-|-|-|
+|0|✅ complet|✅|✅|✅|✅|✅|
+|14|✅ complet|✅|✅|✅|✅|✅|
+|1–13|⏳ à faire|⏳|⏳|⏳|⏳|⏳|
+|15–24|⏳ à faire|⏳|⏳|⏳|⏳|⏳|
 
----
+\---
 
 ## 🔗 Ressources
 
-- Skills éditoriaux : `/skills/SKILL_protocole.md`, `/skills/SKILL_contenu.md`
-- Skills techniques : `/skills/SKILL_bdd.md`, `/skills/SKILL_ui.md`
-- Contenu JSON : `/content/mois-00/`, `/content/mois-14/`
-- Doc Supabase : https://supabase.com/docs
-- Doc Stripe : https://stripe.com/docs
-- Doc Next.js : https://nextjs.org/docs
+* Skills éditoriaux : `/skills/SKILL\_protocole.md`, `/skills/SKILL\_contenu.md`
+* Skills techniques : `/skills/SKILL\_bdd.md`, `/skills/SKILL\_ui.md`
+* Contenu JSON : `/content/mois-00/`, `/content/mois-14/`
+* Doc Supabase : https://supabase.com/docs
+* Doc Stripe : https://stripe.com/docs
+* Doc Next.js : https://nextjs.org/docs
+
