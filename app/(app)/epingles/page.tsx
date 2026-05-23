@@ -29,17 +29,37 @@ export default async function EpinglesPage() {
         <p className="text-2xl" aria-hidden>📌</p>
         <h1 className="text-2xl font-semibold">Mes épingles</h1>
         <p className="text-sm text-neutral-600">
-          {guides.length}/{PIN_QUOTAS.guide} Guide-moi !{" "}
-          · {couchers.length}/{PIN_QUOTAS.coucher} Coucher
+          {couchers.length}/{PIN_QUOTAS.coucher} Coucher{" "}
+          · {guides.length}/{PIN_QUOTAS.guide} Guide-moi !
         </p>
       </header>
 
       {pins.length === 0 ? (
         <p className="rounded-xl bg-neutral-50 p-5 text-sm text-neutral-700">
           Aucune épingle pour le moment. Tu peux épingler jusqu&apos;à{" "}
-          {PIN_QUOTAS.guide} protocoles du Guide-moi ! et{" "}
-          {PIN_QUOTAS.coucher} rituels Coucher pour les retrouver ici en un clic.
+          {PIN_QUOTAS.coucher} rituels Coucher et{" "}
+          {PIN_QUOTAS.guide} protocoles du Guide-moi ! pour les retrouver ici en un clic.
         </p>
+      ) : null}
+
+      {/* Section Coucher (en premier) */}
+      {couchers.length > 0 ? (
+        <section className="space-y-3">
+          <h2 className="text-sm font-semibold uppercase tracking-wide text-neutral-500">
+            🌙 Préparer le coucher
+          </h2>
+          <ul className="space-y-2">
+            {couchers.map((pin) => (
+              <PinCard
+                key={pin.id}
+                pin={pin}
+                moisActuel={moisActuel}
+                href={`/epingle/${pin.content_id}`}
+                fallbackTitre={`Rituel du coucher du mois ${pin.mois}`}
+              />
+            ))}
+          </ul>
+        </section>
       ) : null}
 
       {/* Section Guide-moi ! */}
@@ -68,26 +88,6 @@ export default async function EpinglesPage() {
               </ul>
             </div>
           ))}
-        </section>
-      ) : null}
-
-      {/* Section Coucher */}
-      {couchers.length > 0 ? (
-        <section className="space-y-3">
-          <h2 className="text-sm font-semibold uppercase tracking-wide text-neutral-500">
-            🌙 Préparer le coucher
-          </h2>
-          <ul className="space-y-2">
-            {couchers.map((pin) => (
-              <PinCard
-                key={pin.id}
-                pin={pin}
-                moisActuel={moisActuel}
-                href={`/epingle/${pin.content_id}`}
-                fallbackTitre={`Rituel du coucher du mois ${pin.mois}`}
-              />
-            ))}
-          </ul>
         </section>
       ) : null}
     </section>
