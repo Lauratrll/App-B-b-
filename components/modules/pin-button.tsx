@@ -1,4 +1,4 @@
-import { togglePinAction } from "@/lib/pinned";
+import { togglePinAction } from "@/lib/pinned-actions";
 
 export function PinButton({
   contentId,

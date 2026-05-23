@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef } from "react";
-import { removePinAction } from "@/lib/pinned";
+import { removePinAction } from "@/lib/pinned-actions";
 
 export function RemovePinButton({
   pinId,
