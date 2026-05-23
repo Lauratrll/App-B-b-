@@ -1,0 +1,389 @@
+{
+  "mois": 14,
+  "tranche_age": "14 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 14 — L'Explorateur · Adapter le quotidien à la saison en cours",
+  "description": "À 14 mois, ton enfant marche et veut tout explorer. La saison détermine ce qui est possible dehors et comment l'habiller. L'app sélectionne automatiquement la variante selon le mois en cours.",
+  "logique_selection": {
+    "regle": "À partir de 12 mois, l'app sélectionne la saison selon le MOIS CIVIL EN COURS (date du jour), pas selon le mois de naissance.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_14",
+      "titre": "Au printemps avec un enfant de 14 mois",
+      "ambiance": "Le retour de la lumière, températures douces, terrain de jeu sensoriel inépuisable",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ancrage": "Une heure dehors par jour change le sommeil, l'humeur et le développement moteur. C'est gratuit, puissant, nécessaire.",
+      "principes": [
+        "Une heure dehors par jour minimum — la lumière régule le sommeil",
+        "Marche pieds nus sur surfaces variées pour la proprioception",
+        "Vigilance pollens si terrain allergique familial"
+      ],
+      "habillage": {
+        "principe": "Habillage en couches — les températures varient beaucoup entre matin et après-midi",
+        "guide_temperature": [
+          {
+            "temperature": "5-10°C",
+            "tenue": "Body manches longues + sweat + pantalon + chaussettes + bonnet léger + veste épaisse + chaussures fermées"
+          },
+          {
+            "temperature": "10-15°C",
+            "tenue": "Body manches longues + pantalon + chaussettes + veste légère ou pull + chaussures fermées"
+          },
+          {
+            "temperature": "15-20°C",
+            "tenue": "Body manches courtes + pantalon léger + sandales fermées + casquette si soleil"
+          },
+          {
+            "temperature": "> 20°C",
+            "tenue": "Body manches courtes + short ou pantalon en lin + sandales + chapeau + lunettes anti-UV + SPF 50 sur zones exposées"
+          }
+        ]
+      },
+      "sorties": {
+        "frequence_conseillee": "1h à 2h dehors par jour",
+        "moments_ideaux": [
+          "9h-11h : lumière du matin qui régule le sommeil",
+          "15h-17h : après la sieste",
+          "Éviter 12h-15h en plein soleil"
+        ],
+        "activites_specifiques": [
+          "Marche pieds nus dans l'herbe ou le sable — proprioception",
+          "Jardinage simple : planter des graines de basilic ou de radis",
+          "Cueillette de pâquerettes et pissenlits",
+          "Pique-nique au sol",
+          "Observation des oiseaux et premiers insectes"
+        ]
+      },
+      "particularites_sante": {
+        "vigilance": [
+          "Pollens : nez qui coule clair, yeux qui pleurent → médecin",
+          "Coups de soleil dès avril, même par temps couvert — SPF 50 minéral",
+          "Tiques en zone naturelle : inspecter le corps au retour (cou, plis, derrière les oreilles)"
+        ],
+        "vitamine_d": "Supplémentation maintenue selon prescription pédiatrique."
+      },
+      "rituel_lumiere": {
+        "titre": "Lumière du matin",
+        "description": "10-15 min dès le réveil. Ouvrir les rideaux, petit-déjeuner près de la fenêtre, sortir avant la crèche si possible. Même par temps couvert."
+      },
+      "alimentation_maman": [
+        "Jeunes pousses : épinards, mâche, cresson — riches en fer",
+        "Asperges, radis, petits pois — drainage doux",
+        "Fraises et premiers fruits rouges",
+        "Hydratation : 2L/jour avec les températures qui remontent"
+      ],
+      "amenagement_chambre": [
+        "Turbulette 1.0 TOG quand la chambre est à 18-20°C",
+        "Aérer 15 min le matin",
+        "Vérifier les moustiquaires avant les premières chaleurs",
+        "Température chambre : 18-19°C"
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_14",
+      "titre": "En été avec un enfant de 14 mois",
+      "ambiance": "Chaleur, journées longues, énergie débordante — gestion thermique au cœur de la saison",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ancrage": "L'été à 14 mois, c'est l'âge d'or de l'extérieur. Ta vigilance bascule sur la chaleur, l'hydratation et le soleil — le bénéfice de cette saison libre est immense.",
+      "principes": [
+        "Hydratation = priorité — proposer de l'eau régulièrement",
+        "Pas de soleil direct entre 12h et 16h",
+        "SPF 50 minéral obligatoire, renouvelé toutes les 2h",
+        "Décaler l'heure du coucher si chaleur excessive"
+      ],
+      "habillage": {
+        "principe": "Coton léger, ample, manches couvrantes pour le soleil",
+        "guide_temperature": [
+          {
+            "temperature": "20-25°C",
+            "tenue": "Body manches courtes + short ou pantalon léger en lin + sandales + chapeau"
+          },
+          {
+            "temperature": "25-30°C",
+            "tenue": "Tee-shirt manches courtes (manches couvrant les épaules) + short coton + sandales + chapeau + lunettes anti-UV"
+          },
+          {
+            "temperature": "30-35°C",
+            "tenue": "Tee-shirt anti-UV (UPF50+) + short + sandales + chapeau + lunettes. Ombre constante. SPF 50 renouvelée toutes les 2h."
+          },
+          {
+            "temperature": "> 35°C / Canicule",
+            "tenue": "Tee-shirt léger + couche/short. Rester à l'intérieur frais ou à l'ombre profonde."
+          }
+        ],
+        "regle_or": "Tester la nuque : tiède = ok. Chaude et moite = trop habillé. Mouchoir humide sur la nuque rafraîchit instantanément."
+      },
+      "sorties": {
+        "frequence_conseillee": "2-3 sorties courtes — matin tôt et soir",
+        "moments_ideaux": [
+          "7h-10h : fraîcheur matinale — la meilleure plage",
+          "18h-20h30 : descente des températures",
+          "Pas de sortie entre 11h et 17h en plein été"
+        ],
+        "activites_specifiques": [
+          "Jeux d'eau dehors : bassine, arrosoir, éponges",
+          "Marche pieds nus sur le sable mouillé tôt le matin",
+          "Cueillette de fraises ou framboises au jardin",
+          "Bulles de savon dans l'herbe",
+          "Pique-nique à l'ombre"
+        ]
+      },
+      "particularites_sante": {
+        "vigilance": [
+          "Déshydratation : urines foncées, lèvres sèches, somnolence — proposer eau souvent",
+          "Coup de chaleur : visage rouge, peau chaude, somnolence → 15 immédiatement",
+          "Coup de soleil possible en 20 min sans protection",
+          "Voiture stationnée : hyperthermie en quelques minutes — jamais seul, même 2 min"
+        ],
+        "hydratation": {
+          "principe": "À 14 mois, proposer de l'eau toutes les 30-45 min en été. L'enfant ne demande pas toujours — anticiper.",
+          "signes_bonne_hydratation": [
+            "Couches mouillées au moins toutes les 3-4h",
+            "Lèvres et langue humides",
+            "Tonus et humeur conservés",
+            "Urines claires et abondantes"
+          ],
+          "signes_alerte": [
+            "Couches sèches sur 5-6h",
+            "Pleurs sans larmes",
+            "Yeux cernés ou enfoncés",
+            "Somnolence inhabituelle"
+          ]
+        },
+        "protection_solaire": "SPF 50 minéral (oxyde de zinc, dioxyde de titane). Renouvelée toutes les 2h ou après bain. Chapeau et tee-shirt UV pour les longues expositions."
+      },
+      "rituel_fraicheur": {
+        "titre": "Rituel de fraîcheur du soir",
+        "description": "Bain tiède (eau à 32-34°C) de 10 min vers 18h30. Sécher délicatement, laisser nu 5 min dans pièce ventilée. Habiller en coton fin. La baisse de température corporelle favorise l'endormissement."
+      },
+      "alimentation_maman": [
+        "Hydratation MASSIVE : 2,5 à 3L/jour, plus si allaitement",
+        "Fruits gorgés d'eau : pastèque, melon, concombre, tomates",
+        "Repas froids : taboulé, gaspacho, salade composée",
+        "Limiter alcool et caféine — déshydratent"
+      ],
+      "amenagement_chambre": [
+        "Fermer volets et fenêtres en journée si l'extérieur dépasse l'intérieur",
+        "Ouvrir grand le soir et la nuit",
+        "Ventilateur orienté vers le mur (jamais sur l'enfant)",
+        "Climatisation à 24-26°C, enfant pas dans le flux direct",
+        "Viser 22-25°C en chambre (ne pas chercher 18°C l'été)"
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_14",
+      "titre": "En automne avec un enfant de 14 mois",
+      "ambiance": "Lumière qui décline, virus qui circulent, premières feuilles mortes",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#7A3E2E",
+      "emoji": "🍂",
+      "ancrage": "L'automne à 14 mois, c'est souvent l'entrée en crèche et les premiers rhumes en série. C'est aussi la plus belle saison sensorielle : feuilles, marrons, brouillards.",
+      "principes": [
+        "Adaptation à la baisse de luminosité — accepter une sieste plus tôt",
+        "Saison de pics viraux : l'immunité se construit, c'est normal",
+        "Variations thermiques fortes : habiller en couches"
+      ],
+      "habillage": {
+        "principe": "Habillage en couches — l'enfant qui marche se réchauffe vite",
+        "guide_temperature": [
+          {
+            "temperature": "0-5°C",
+            "tenue": "Body manches longues + sweat épais + pantalon doublé + chaussettes épaisses + bonnet + écharpe légère + manteau d'hiver + gants"
+          },
+          {
+            "temperature": "5-10°C",
+            "tenue": "Body manches longues + sweat + pantalon + chaussettes + bonnet + veste mi-saison épaisse"
+          },
+          {
+            "temperature": "10-15°C",
+            "tenue": "Body manches longues + sweat léger + pantalon + chaussettes + bonnet (matin) + veste légère"
+          },
+          {
+            "temperature": "15-20°C",
+            "tenue": "Tee-shirt + sweat fin + pantalon + petit gilet"
+          }
+        ]
+      },
+      "sorties": {
+        "frequence_conseillee": "1h à 1h30 dehors quotidiens — la luminosité de midi est précieuse",
+        "moments_ideaux": [
+          "11h-15h : lumière maximale, températures plus douces"
+        ],
+        "activites_specifiques": [
+          "Ramassage de feuilles mortes — vocabulaire riche",
+          "Bain dans les feuilles",
+          "Collection de marrons, glands, châtaignes",
+          "Promenade après la pluie : escargots, limaces",
+          "Cueillette de pommes au verger",
+          "Bottes en caoutchouc et flaques"
+        ]
+      },
+      "particularites_sante": {
+        "vigilance": [
+          "Bronchiolite à 14 mois : surveiller toux, respiration sifflante",
+          "Gastro-entérites virales : hydratation prioritaire",
+          "Otites fréquentes après les rhumes traînants",
+          "5 à 10 rhumes par hiver sont normaux à cet âge"
+        ],
+        "signes_consultation": [
+          "Fièvre > 39°C résistante au paracétamol",
+          "Respiration rapide (> 50/min) ou sifflante",
+          "Tirage : creux entre les côtes, sous les côtes",
+          "Refus de boire pendant 12h",
+          "Pâleur, lèvres bleues : 15 immédiatement"
+        ],
+        "vitamine_d": "Supplémentation impérative en automne — fabrication cutanée chute avec le déclin du soleil."
+      },
+      "rituel_lumiere": {
+        "titre": "Capter la lumière qui décline",
+        "description": "Sortir 30 min minimum entre 11h et 14h chaque jour, même nuageux. La luminosité reste 100x plus forte qu'à l'intérieur. Allumer les lumières chez soi dès 16h."
+      },
+      "alimentation_maman": [
+        "Soupes chaudes : courge, carotte, poireau",
+        "Légumes racines : carottes, panais, betteraves",
+        "Poissons gras (saumon, sardines) : oméga-3 et vitamine D",
+        "Pommes, poires, raisin de saison",
+        "Aliments fermentés (yaourts, kéfir) : santé intestinale"
+      ],
+      "amenagement_chambre": [
+        "Vérifier l'isolation des fenêtres avant les grands froids",
+        "Hygrométrie : 50-60% (chauffage dessèche)",
+        "Température chambre : 18-19°C la nuit",
+        "Turbulette 2.5 TOG dès que la chambre passe sous 19°C",
+        "Aérer 10 min/jour"
+      ],
+      "moral_lumiere_decroissante": {
+        "titre": "Protéger ton moral en saison sombre",
+        "actions": [
+          "Sortir 30 min minimum chaque jour entre 11h et 15h",
+          "Allumer les lumières dès 16h",
+          "Lampe de luminothérapie 10 000 lux : 20 min/matin si humeur baisse",
+          "Si tristesse persiste > 2 semaines : consulter (réactivation du baby blues fréquente et traitable)"
+        ]
+      }
+    },
+    "hiver": {
+      "id": "saison_hiver_14",
+      "titre": "En hiver avec un enfant de 14 mois",
+      "ambiance": "Froid, peu de lumière, virus à leur pic, intérieur chaleureux à organiser",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ancrage": "Le froid n'est pas l'ennemi. Sortir 20-30 min par jour reste essentiel, même à -2°C bien habillé. L'enfermement est plus délétère que le froid.",
+      "principes": [
+        "Le froid n'est pas l'ennemi — bien habillé, l'enfant supporte jusqu'à -5°C",
+        "Pic des virus respiratoires : vigilance sans paranoïa",
+        "Sortir entre 11h et 14h reste obligatoire",
+        "Air sec du chauffage : hydratation cutanée et hygrométrie"
+      ],
+      "habillage": {
+        "principe": "Couches multiples — l'enfant qui marche se réchauffe vite avec l'effort",
+        "guide_temperature": [
+          {
+            "temperature": "< -5°C",
+            "tenue": "Body manches longues + tee-shirt thermique + sweat polaire + pantalon doublé + combinaison de ski + bottes fourrées + bonnet + cache-cou + moufles + chaussettes épaisses. Sortie courte (15 min max)."
+          },
+          {
+            "temperature": "-5 à 0°C",
+            "tenue": "Body manches longues + sweat épais + pantalon doublé + chaussettes épaisses + bottes fourrées + bonnet + écharpe + manteau d'hiver + moufles"
+          },
+          {
+            "temperature": "0-5°C",
+            "tenue": "Body manches longues + sweat + pantalon + chaussettes + chaussures fermées + bonnet + manteau d'hiver + écharpe + gants"
+          },
+          {
+            "temperature": "5-10°C",
+            "tenue": "Body manches longues + sweat + pantalon + chaussettes + chaussures + bonnet + veste chaude"
+          }
+        ],
+        "regle_or": "Tester la nuque (tiède = ok). Vérifier aussi les extrémités au retour : pieds, mains, nez tièdes."
+      },
+      "sorties": {
+        "frequence_conseillee": "30 min à 1h dehors quotidiens",
+        "moments_ideaux": [
+          "11h-14h : lumière maximale, température la moins basse"
+        ],
+        "activites_specifiques": [
+          "Premières expériences de neige — proprioception inédite",
+          "Glaçons à manipuler à l'extérieur",
+          "Promenade en forêt sèche : arbres nus, empreintes au sol",
+          "À la maison : transvasements, peinture, pâte à modeler",
+          "Tente ou cabane sous les meubles"
+        ]
+      },
+      "particularites_sante": {
+        "vigilance": [
+          "Bronchiolite : surveiller toux, respiration sifflante",
+          "Grippe en pic janvier-février",
+          "Gastro-entérites virales : hygiène mains stricte",
+          "Peau sèche par chauffage : crème hydratante quotidienne",
+          "Asthme parfois déclenché par froid sec"
+        ],
+        "signes_consultation": [
+          "Fièvre > 39°C résistante au paracétamol",
+          "Respiration rapide (> 50/min) ou sifflante",
+          "Tirage : creux entre côtes, sous côtes",
+          "Refus de boire pendant 12h",
+          "Pâleur, somnolence inhabituelle, lèvres bleues : 15 immédiatement"
+        ],
+        "vitamine_d": "Supplémentation IMPÉRATIVE en hiver — fabrication cutanée nulle."
+      },
+      "rituel_lumiere": {
+        "titre": "Aller chercher la lumière",
+        "description": "Sortir 20-30 min entre 11h et 14h chaque jour. Même par grand froid : 15-20 min en mouvement actif. Même temps gris : la luminosité reste essentielle. Si impossible : 30 min près d'une fenêtre exposée sud."
+      },
+      "alimentation_maman": [
+        "Soupes et bouillons : réconfort + hydratation",
+        "Légumes d'hiver : choux, courges, poireaux, betteraves",
+        "Agrumes : vitamine C",
+        "Poissons gras : oméga-3, vitamine D",
+        "Aliments anti-anémie : viande rouge, lentilles, épinards"
+      ],
+      "amenagement_chambre": [
+        "Température : 18-20°C la nuit, pas plus",
+        "Hygrométrie : 50-60% — hygromètre indispensable",
+        "Humidificateur à froid si trop sec (entretien strict)",
+        "Aérer 10 min/jour",
+        "Turbulette 3.0 TOG si chambre 16-18°C, 2.5 TOG si 18-20°C"
+      ],
+      "moral_hiver": {
+        "titre": "Tenir le moral en hiver",
+        "actions": [
+          "Lampe de luminothérapie 10 000 lux : 20 min/matin si humeur baisse",
+          "Sortir même par mauvais temps",
+          "Activité physique douce : marche, yoga, natation",
+          "Maintenir un contact social hebdomadaire — isolement augmente la dépression",
+          "Si tristesse persistante : consulter (réactivation du baby blues fréquente et traitable)"
+        ]
+      }
+    }
+  }
+}
