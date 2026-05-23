@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { redirect } from "next/navigation";
+import { getCurrentUser } from "@/lib/auth";
 import { loginAction } from "./actions";
 
 const ERROR_MESSAGES: Record<string, string> = {
@@ -6,11 +8,16 @@ const ERROR_MESSAGES: Record<string, string> = {
   identifiants_invalides: "Email ou mot de passe incorrect.",
 };
 
-export default function LoginPage({
+export default async function LoginPage({
   searchParams,
 }: {
   searchParams: { error?: string; registered?: string; reset?: string };
 }) {
+  // Si déjà connectée, redirect direct vers le dashboard (pas besoin
+  // de re-saisir les identifiants à chaque visite).
+  const user = await getCurrentUser();
+  if (user) redirect("/dashboard");
+
   const errorMsg = searchParams.error
     ? (ERROR_MESSAGES[searchParams.error] ?? "Une erreur est survenue.")
     : null;

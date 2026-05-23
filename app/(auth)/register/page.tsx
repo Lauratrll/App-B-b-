@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { redirect } from "next/navigation";
+import { getCurrentUser } from "@/lib/auth";
 import { registerAction } from "./actions";
 
 const ERROR_MESSAGES: Record<string, string> = {
@@ -9,11 +11,14 @@ const ERROR_MESSAGES: Record<string, string> = {
   inscription_echouee: "L'inscription a échoué. Réessayez dans un instant.",
 };
 
-export default function RegisterPage({
+export default async function RegisterPage({
   searchParams,
 }: {
   searchParams: { error?: string };
 }) {
+  const user = await getCurrentUser();
+  if (user) redirect("/dashboard");
+
   const errorMsg = searchParams.error
     ? (ERROR_MESSAGES[searchParams.error] ?? "Une erreur est survenue.")
     : null;

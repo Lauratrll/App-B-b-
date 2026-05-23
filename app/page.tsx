@@ -1,6 +1,12 @@
 import Link from "next/link";
+import { redirect } from "next/navigation";
+import { getCurrentUser } from "@/lib/auth";
 
-export default function HomePage() {
+export default async function HomePage() {
+  // Si déjà connectée, on saute la landing : direct sur le dashboard
+  const user = await getCurrentUser();
+  if (user) redirect("/dashboard");
+
   return (
     <main className="flex min-h-dvh flex-col items-center justify-center gap-8 px-6 py-12 text-center">
       <div className="space-y-3">

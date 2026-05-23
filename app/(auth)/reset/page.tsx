@@ -1,11 +1,16 @@
 import Link from "next/link";
+import { redirect } from "next/navigation";
+import { getCurrentUser } from "@/lib/auth";
 import { resetAction } from "./actions";
 
-export default function ResetPage({
+export default async function ResetPage({
   searchParams,
 }: {
   searchParams: { error?: string };
 }) {
+  const user = await getCurrentUser();
+  if (user) redirect("/dashboard");
+
   const errorMsg = searchParams.error === "email_manquant"
     ? "Merci de renseigner votre email."
     : null;
