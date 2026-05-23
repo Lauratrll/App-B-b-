@@ -2,49 +2,14 @@ import Link from "next/link";
 import { requireProfile } from "@/lib/auth";
 import { getBabyMonth, getSeason } from "@/lib/utils";
 
+// Couleurs conformes au SKILL_ui.md (section "Cases modules — validé")
 const MODULES = [
-  {
-    href: "/guide",
-    title: "Guide-​moi !",
-    subtitle: "Protocoles",
-    bg: "#F1E2CF",
-    text: "#5C4636",
-  },
-  {
-    href: "/coucher",
-    title: "Préparer le coucher",
-    subtitle: "Rituel du soir",
-    bg: "#D9E4E8",
-    text: "#3D4E58",
-  },
-  {
-    href: "/soin",
-    title: "Prendre soin de moi",
-    subtitle: "Gestes parentaux",
-    bg: "#F0D6CE",
-    text: "#6E3F3F",
-  },
-  {
-    href: "/saison",
-    title: "Conseil de saison",
-    subtitle: "Adapté au mois",
-    bg: "#D5E2CE",
-    text: "#3F5639",
-  },
-  {
-    href: "/audio",
-    title: "Partager & rassurer",
-    subtitle: "Scripts audio",
-    bg: "#D5D8E8",
-    text: "#3F4366",
-  },
-  {
-    href: "/jeux",
-    title: "Jeux & stimulation",
-    subtitle: "Activités du mois",
-    bg: "#E9DBC4",
-    text: "#5C4936",
-  },
+  { href: "/guide", title: "Guide-moi !", subtitle: "Protocoles", bg: "#EDE0D4" },
+  { href: "/coucher", title: "Préparer le coucher", subtitle: "Rituel du soir", bg: "#E4EEF0" },
+  { href: "/soin", title: "Prendre soin de moi", subtitle: "Gestes parentaux", bg: "#F5E4DE" },
+  { href: "/saison", title: "Conseil de saison", subtitle: "Adapté au mois", bg: "#DCE8E4" },
+  { href: "/audio", title: "Partager & rassurer", subtitle: "Scripts audio", bg: "#E8EEF2" },
+  { href: "/jeux", title: "Jeux & stimulation", subtitle: "Activités du mois", bg: "#EDE4D4" },
 ] as const;
 
 const SEASON_LABELS: Record<string, string> = {
@@ -62,11 +27,11 @@ export default async function DashboardPage() {
   return (
     <section className="space-y-5">
       <header className="space-y-1">
-        <p className="text-sm text-neutral-500">Bonjour 👋</p>
-        <h1 className="font-serif text-2xl font-semibold">
+        <p className="text-sm text-eucal">Bonjour 👋</p>
+        <h1 className="font-display text-2xl font-semibold text-charcoal">
           {profile.baby_name}, {babyMonth} mois
         </h1>
-        <p className="text-xs uppercase tracking-widest text-neutral-500">
+        <p className="text-[10px] font-semibold uppercase tracking-[0.15em] text-eucal">
           {SEASON_LABELS[season]}
         </p>
       </header>
@@ -76,13 +41,19 @@ export default async function DashboardPage() {
           <li key={m.href}>
             <Link
               href={m.href}
-              className="flex aspect-square flex-col items-center justify-center gap-2 rounded-2xl p-4 text-center transition-transform active:scale-95"
-              style={{ backgroundColor: m.bg, color: m.text }}
+              className="flex h-[130px] flex-col items-center justify-center gap-1.5 rounded-[14px] border border-black/[0.07] px-3 py-3 text-center transition-transform active:scale-[0.97]"
+              style={{ backgroundColor: m.bg }}
             >
-              <p className="font-serif text-lg font-semibold leading-tight">
+              <p
+                className="font-display font-semibold leading-[1.15] text-charcoal"
+                style={{ fontSize: 17, letterSpacing: "-0.01em" }}
+              >
                 {m.title}
               </p>
-              <p className="text-[9px] font-semibold uppercase tracking-[0.15em] opacity-70">
+              <p
+                className="text-[9px] font-semibold uppercase text-eucal"
+                style={{ letterSpacing: "0.15em" }}
+              >
                 {m.subtitle}
               </p>
             </Link>
