@@ -274,6 +274,32 @@ const FILE_HANDLERS = {
   "06-jeux.json": { module: "jeux", fn: decomposeJeux },
 };
 
+// Mots-clés permettant de deviner le nom attendu quand un fichier est mal nommé
+const NAME_HINTS = [
+  { keyword: "guide", expected: "01-guide.json" },
+  { keyword: "protocole", expected: "01-guide.json" },
+  { keyword: "coucher", expected: "02-coucher.json" },
+  { keyword: "soin", expected: "03-soin.json" },
+  { keyword: "prendre_soin", expected: "03-soin.json" },
+  { keyword: "saison", expected: "04-saison.json" },
+  { keyword: "audio", expected: "05-audio.json" },
+  { keyword: "partager", expected: "05-audio.json" },
+  { keyword: "rassurer", expected: "05-audio.json" },
+  { keyword: "jeux", expected: "06-jeux.json" },
+  { keyword: "jeu", expected: "06-jeux.json" },
+];
+
+function suggestExpectedName(filename) {
+  const lower = filename.toLowerCase();
+  for (const { keyword, expected } of NAME_HINTS) {
+    if (lower.includes(keyword)) return expected;
+  }
+  return null;
+}
+
+// Compteur global de fichiers ignorés
+const ignoredFiles = [];
+
 // ----- Import par mois ----------------------------------------------------
 
 async function importMois(mois, dir) {
@@ -281,7 +307,12 @@ async function importMois(mois, dir) {
   for (const f of files) {
     const handler = FILE_HANDLERS[f];
     if (!handler) {
-      console.log(`  - ${f} : aucun handler, skip`);
+      const suggestion = suggestExpectedName(f);
+      const hint = suggestion
+        ? ` → as-tu voulu dire "${suggestion}" ?`
+        : ` → noms attendus : ${Object.keys(FILE_HANDLERS).join(", ")}`;
+      console.warn(`  ⚠️  ${f} : nom de fichier non reconnu${hint}`);
+      ignoredFiles.push({ mois, file: f, suggestion });
       continue;
     }
     const path = join(dir, f);
@@ -354,6 +385,21 @@ async function main() {
     .from("content")
     .select("*", { count: "exact", head: true });
   console.log(`✅ Import terminé. Lignes totales dans content : ${count ?? "?"}`);
+
+  if (ignoredFiles.length > 0) {
+    console.log("");
+    console.warn(
+      `⚠️  ${ignoredFiles.length} fichier(s) ignoré(s) — vérifie les noms :`,
+    );
+    for (const { mois, file, suggestion } of ignoredFiles) {
+      const m = String(mois).padStart(2, "0");
+      console.warn(
+        `   • mois-${m}/${file}${
+          suggestion ? ` → renomme en "${suggestion}"` : ""
+        }`,
+      );
+    }
+  }
 }
 
 main().catch((err) => {
