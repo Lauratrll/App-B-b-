@@ -1,6 +1,8 @@
 import Link from "next/link";
+import { Suspense } from "react";
 import { getCurrentProfile, requireUser } from "@/lib/auth";
 import { getBabyMonth } from "@/lib/utils";
+import { PinToast } from "@/components/modules/pin-toast";
 
 export default async function AppLayout({
   children,
@@ -13,6 +15,9 @@ export default async function AppLayout({
 
   return (
     <div className="flex min-h-dvh flex-col">
+      <Suspense fallback={null}>
+        <PinToast />
+      </Suspense>
       <header className="flex items-center justify-between border-b border-neutral-200 px-5 py-3">
         <div className="text-sm">
           {profile ? (

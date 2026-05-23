@@ -97,11 +97,11 @@ export async function getGuideProtocole(
   mois: number,
   categorie: string,
   ordre: number,
-): Promise<ProtocoleGuide | null> {
+): Promise<{ contentId: string; protocole: ProtocoleGuide } | null> {
   const supabase = createClient();
   const { data, error } = await supabase
     .from("content")
-    .select("data")
+    .select("id, data")
     .eq("mois", mois)
     .eq("module", "guide")
     .eq("categorie", categorie)
@@ -109,7 +109,10 @@ export async function getGuideProtocole(
     .maybeSingle();
 
   if (error || !data) return null;
-  return data.data as ProtocoleGuide;
+  return {
+    contentId: data.id as string,
+    protocole: data.data as ProtocoleGuide,
+  };
 }
 
 // =========================================================================
@@ -159,18 +162,45 @@ export type CoucherModule = {
   consulter_si?: string;
 };
 
-export async function getCoucher(mois: number): Promise<CoucherModule | null> {
+export async function getCoucher(
+  mois: number,
+): Promise<{ contentId: string; coucher: CoucherModule } | null> {
   const supabase = createClient();
   const { data, error } = await supabase
     .from("content")
-    .select("data")
+    .select("id, data")
     .eq("mois", mois)
     .eq("module", "coucher")
     .eq("categorie", "_full")
     .maybeSingle();
 
   if (error || !data) return null;
-  return data.data as CoucherModule;
+  return {
+    contentId: data.id as string,
+    coucher: data.data as CoucherModule,
+  };
+}
+
+// Récupère n'importe quel contenu par son id (pour la page /epingle/[id]).
+export type ContentRow = {
+  id: string;
+  mois: number;
+  module: string;
+  categorie: string | null;
+  situation: string | null;
+  ordre: number;
+  data: Record<string, unknown>;
+};
+
+export async function getContentById(id: string): Promise<ContentRow | null> {
+  const supabase = createClient();
+  const { data, error } = await supabase
+    .from("content")
+    .select("id, mois, module, categorie, situation, ordre, data")
+    .eq("id", id)
+    .maybeSingle();
+  if (error || !data) return null;
+  return data as ContentRow;
 }
 
 // ---- Soin ----------------------------------------------------------------

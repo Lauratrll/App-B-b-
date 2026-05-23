@@ -3,7 +3,9 @@ import { notFound } from "next/navigation";
 import { requireProfile } from "@/lib/auth";
 import { getBabyMonth } from "@/lib/utils";
 import { getGuideMeta, getGuideProtocole } from "@/lib/content";
+import { isPinned } from "@/lib/pinned";
 import { ProtocoleView } from "@/components/modules/protocole-view";
+import { PinButton } from "@/components/modules/pin-button";
 
 export default async function ProtocolePage({
   params,
@@ -19,17 +21,28 @@ export default async function ProtocolePage({
   const categorie = meta?.categories.find((c) => c.id === params.categorie);
   if (!categorie) notFound();
 
-  const protocole = await getGuideProtocole(mois, params.categorie, ordre);
-  if (!protocole) notFound();
+  const result = await getGuideProtocole(mois, params.categorie, ordre);
+  if (!result) notFound();
+  const { contentId, protocole } = result;
+
+  const pinned = await isPinned(contentId);
+  const returnUrl = `/guide/${params.categorie}/${ordre}`;
 
   return (
     <section className="space-y-5">
-      <Link
-        href={`/guide/${params.categorie}`}
-        className="inline-flex items-center gap-1 text-xs text-neutral-500"
-      >
-        ← {categorie.icone} {categorie.nom}
-      </Link>
+      <div className="flex items-center justify-between">
+        <Link
+          href={`/guide/${params.categorie}`}
+          className="inline-flex items-center gap-1 text-xs text-neutral-500"
+        >
+          ← {categorie.icone} {categorie.nom}
+        </Link>
+        <PinButton
+          contentId={contentId}
+          isPinned={pinned}
+          returnUrl={returnUrl}
+        />
+      </div>
 
       <ProtocoleView protocole={protocole} />
 
