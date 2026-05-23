@@ -44,7 +44,25 @@ const CONTENT_DIR = join(process.cwd(), "content");
 
 function decomposeGuide(json, mois) {
   const rows = [];
-  const { protocoles, ...meta } = json;
+  const { protocoles, categories, ...rest } = json;
+
+  // Normaliser la metadata top-level :
+  //  - titre_rubrique fallback sur titre
+  //  - categories : normaliser icone/emoji et sous_titre/description
+  const normalizedCategories = Array.isArray(categories)
+    ? categories.map((c) => ({
+        id: c.id,
+        nom: c.nom,
+        icone: c.icone ?? c.emoji ?? "",
+        sous_titre: c.sous_titre ?? c.description ?? "",
+      }))
+    : [];
+
+  const meta = {
+    ...rest,
+    titre_rubrique: rest.titre_rubrique ?? rest.titre,
+    categories: normalizedCategories,
+  };
   rows.push({
     mois,
     module: "guide",
@@ -53,16 +71,47 @@ function decomposeGuide(json, mois) {
     ordre: 0,
     data: meta,
   });
-  (protocoles || []).forEach((p, i) => {
-    rows.push({
-      mois,
-      module: "guide",
-      categorie: p.categorie ?? null,
-      situation: p.situation ?? null,
-      ordre: i,
-      data: p,
+
+  // Mode A : protocoles au top-level (mois 3, 6, 9, 14)
+  if (Array.isArray(protocoles)) {
+    protocoles.forEach((p, i) => {
+      rows.push({
+        mois,
+        module: "guide",
+        categorie: p.categorie ?? null,
+        situation: p.situation ?? null,
+        ordre: i,
+        data: p,
+      });
     });
-  });
+  }
+  // Mode B : protocoles imbriqués dans categories[i].protocoles (mois 0)
+  else if (
+    Array.isArray(categories) &&
+    categories.some((c) => Array.isArray(c.protocoles))
+  ) {
+    let ordre = 0;
+    categories.forEach((c) => {
+      (c.protocoles || []).forEach((p) => {
+        // Normaliser le protocole vers la structure standard
+        const situation = p.situation ?? p.titre;
+        const normalized = {
+          ...p,
+          categorie: c.id,
+          situation,
+          principe: p.principe ?? p.a_retenir, // mois 0 utilise a_retenir
+        };
+        rows.push({
+          mois,
+          module: "guide",
+          categorie: c.id,
+          situation,
+          ordre: ordre++,
+          data: normalized,
+        });
+      });
+    });
+  }
   return rows;
 }
 
@@ -143,7 +192,9 @@ function decomposeAudio(json, mois) {
 
 function decomposeJeux(json, mois) {
   const rows = [];
-  const { activites, ...meta } = json;
+  const { activites, activites_socle, activites_complementaires, ...meta } =
+    json;
+
   rows.push({
     mois,
     module: "jeux",
@@ -152,16 +203,51 @@ function decomposeJeux(json, mois) {
     ordre: 0,
     data: meta,
   });
-  (activites || []).forEach((a) => {
-    rows.push({
-      mois,
-      module: "jeux",
-      categorie: "activite",
-      situation: a.id ?? null,
-      ordre: a.numero ?? 0,
-      data: a,
+
+  // Mode A : tableau activites au top-level (mois 3, 6, 9, 14)
+  if (Array.isArray(activites)) {
+    activites.forEach((a) => {
+      rows.push({
+        mois,
+        module: "jeux",
+        categorie: "activite",
+        situation: a.id ?? null,
+        ordre: a.numero ?? 0,
+        data: a,
+      });
     });
-  });
+  }
+  // Mode B : activites_socle + activites_complementaires (mois 0)
+  else {
+    let ordre = 0;
+    if (activites_socle && Array.isArray(activites_socle.activites)) {
+      activites_socle.activites.forEach((a) => {
+        rows.push({
+          mois,
+          module: "jeux",
+          categorie: "activite_socle",
+          situation: a.id ?? null,
+          ordre: ordre++,
+          data: a,
+        });
+      });
+    }
+    if (
+      activites_complementaires &&
+      Array.isArray(activites_complementaires.activites)
+    ) {
+      activites_complementaires.activites.forEach((a) => {
+        rows.push({
+          mois,
+          module: "jeux",
+          categorie: "activite_complementaire",
+          situation: a.id ?? null,
+          ordre: ordre++,
+          data: a,
+        });
+      });
+    }
+  }
   return rows;
 }
 

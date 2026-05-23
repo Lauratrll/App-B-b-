@@ -36,9 +36,11 @@ export function ProtocoleView({ protocole }: { protocole: ProtocoleGuide }) {
         <h1 className="text-2xl font-semibold leading-tight">
           {protocole.titre}
         </h1>
-        <p className="text-sm italic text-neutral-500">
-          {protocole.situation}
-        </p>
+        {protocole.situation && protocole.situation !== protocole.titre ? (
+          <p className="text-sm italic text-neutral-500">
+            {protocole.situation}
+          </p>
+        ) : null}
       </header>
 
       <section className="space-y-2">

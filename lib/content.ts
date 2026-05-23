@@ -433,25 +433,58 @@ export async function getAudioScript(
 
 // ---- Jeux ----------------------------------------------------------------
 
+export type ActiviteType = "standard" | "socle" | "complementaire";
+
 export type ActiviteJeu = {
   id: string;
   numero?: number;
-  titre: string;
+  // Variantes des mois 3+ :
+  titre?: string;
   duree?: string;
   frequence?: string;
   developpe?: string[];
   materiel?: string[];
   description?: string;
   comment_jouer?: string[];
+  // Variantes du mois 0 :
+  nom?: string;
+  pourquoi?: string;
+  comment_faire?: string[];
+  pour_le_co_parent?: string;
+  variante?: string;
+  ce_qui_marche_le_mieux?: string;
+  alternative_si_il_deteste?: string;
+  principe_pikler?: string;
+  zones_speciales?: string[];
+  [key: string]: unknown;
 };
+
+export type PrincipeFondamental = { titre: string; texte: string };
+
+export type FenetreEveilCalme = {
+  titre: string;
+  intro?: string;
+  signes_phase_propice?: string[];
+  signes_phase_a_eviter?: string[];
+  duree_eveil_max?: string;
+};
+
+export type ElementNonRecommande = {
+  element: string;
+  raison: string;
+  alternative?: string;
+};
+
+export type ErreurJeu = string | { erreur: string; consequence: string };
 
 export type JeuxMeta = {
   mois: number;
   titre_rubrique?: string;
   sous_titre?: string;
+  description?: string;
+  // Variantes mois 3+ :
   adjectif_du_mois?: string;
   qualification_du_mois?: string;
-  description?: string;
   principes_cles?: string[];
   geste_reflexo_du_mois?: {
     titre: string;
@@ -466,6 +499,29 @@ export type JeuxMeta = {
     intro?: string;
     creneaux: Array<{ horaire: string; activite: string }>;
   };
+  // Variantes mois 0 :
+  ancrage?: string;
+  principes_fondamentaux?: PrincipeFondamental[];
+  reperer_phase_eveil_calme?: FenetreEveilCalme;
+  ce_qui_n_est_pas_recommande_a_cet_age?: {
+    titre: string;
+    intro?: string;
+    elements: ElementNonRecommande[];
+  };
+  rythme_d_une_journee_d_eveil_type?: {
+    titre: string;
+    intro?: string;
+    exemple: string[];
+  };
+  geste_reflexologie_du_mois?: {
+    titre: string;
+    intro?: string;
+    comment_faire: string[];
+    ce_qu_il_fait?: string;
+  };
+  erreurs_a_eviter?: ErreurJeu[];
+  consulter_si?: string;
+  phrases_ancrage?: string[];
   [key: string]: unknown;
 };
 
@@ -475,6 +531,7 @@ export type ActiviteListItem = {
   titre: string;
   duree?: string;
   developpe?: string[];
+  type: ActiviteType;
 };
 
 export async function getJeuxMeta(mois: number): Promise<JeuxMeta | null> {
@@ -495,22 +552,30 @@ export async function getJeuxActivites(mois: number): Promise<ActiviteListItem[]
   const supabase = createClient();
   const { data, error } = await supabase
     .from("content")
-    .select("ordre, situation, data")
+    .select("ordre, situation, categorie, data")
     .eq("mois", mois)
     .eq("module", "jeux")
-    .eq("categorie", "activite")
+    .in("categorie", ["activite", "activite_socle", "activite_complementaire"])
     .order("ordre", { ascending: true });
 
   if (error || !data) return [];
 
   return data.map((row) => {
     const d = row.data as ActiviteJeu;
+    const cat = row.categorie as string;
+    const type: ActiviteType =
+      cat === "activite_socle"
+        ? "socle"
+        : cat === "activite_complementaire"
+          ? "complementaire"
+          : "standard";
     return {
       id: row.situation as string,
       ordre: (row.ordre as number) ?? 0,
-      titre: d.titre,
+      titre: d.titre ?? d.nom ?? "",
       duree: d.duree,
       developpe: d.developpe,
+      type,
     };
   });
 }
