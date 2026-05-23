@@ -1,0 +1,150 @@
+{
+  "mois": 9,
+  "tranche_age": "9 mois",
+  "rubrique": "jeux",
+  "titre_rubrique": "Jeux & stimulation",
+  "sous_titre": "Mois 9 — Le mois du Curieux",
+  "adjectif_du_mois": "Le Curieux",
+  "qualification_du_mois": "À 9 mois, ton bébé pose un nouveau regard sur le monde : il pointe ce qu'il veut, il cherche activement ce que tu lui caches, il imite tes gestes simples, il se déplace pour aller chercher ce qui l'intéresse. C'est le mois de la curiosité active — où chaque objet, chaque visage, chaque déplacement devient une enquête. La permanence de l'objet est consolidée, l'angoisse de séparation est à son pic, et la motricité globale ouvre des terrains d'exploration nouveaux.",
+  "description": "4 activités simples, sans matériel coûteux, pour accompagner cette phase de curiosité active et d'exploration motrice.",
+  "principes_cles": [
+    "À 9 mois, suivre l'initiative de bébé : c'est lui qui choisit l'objet, le temps, l'intensité — toi tu accompagnes",
+    "Le jeu se fait dans la phase d'éveil calme (yeux clairs, corps détendu, regard disponible) — pas avant la sieste, pas après une journée en collectivité saturée",
+    "Nommer ce que bébé fait et ce qu'il regarde nourrit le langage en construction : la fenêtre du pointage s'ouvre, c'est précieux"
+  ],
+  "activites": [
+    {
+      "id": "boite_a_objets_caches",
+      "numero": 1,
+      "titre": "La boîte à objets cachés",
+      "duree": "10-15 minutes",
+      "frequence": "Quotidien, idéalement en plusieurs micro-sessions de 5 min",
+      "developpe": ["Permanence de l'objet (consolidation)", "Motricité fine (pince supérieure)", "Patience et anticipation", "Mémoire à court terme"],
+      "materiel": [
+        "Une boîte en tissu ou en bois (boîte à chaussures, panier en osier, boîte de mouchoirs vide)",
+        "3-4 objets familiers de bébé (cube, balle texturée, petit doudou, hochet)",
+        "Un foulard léger ou un torchon",
+        "Un tapis ferme au sol"
+      ],
+      "description": "À 9 mois, la permanence de l'objet est acquise mais elle se consolide dans toutes ses variantes : objet caché derrière, dessous, dans un contenant, partiellement visible. Cette activité propose à bébé d'expérimenter activement la recherche d'objets dissimulés — une compétence qui structure sa pensée logique naissante et qui apaise indirectement l'angoisse de séparation (« ce qui disparaît revient »).",
+      "comment_jouer": [
+        "Installer bébé bien assis sur le tapis, face à toi à 30-40 cm",
+        "Lui montrer un objet familier, le nommer doucement (« regarde, c'est le cube rouge »)",
+        "Placer l'objet dans la boîte sous ses yeux — fermer (ou couvrir avec le foulard)",
+        "Attendre. Sans intervenir. Observer ce qu'il fait : il tend la main, soulève, cherche",
+        "S'il bloque, soulever légèrement le foulard pour qu'il aperçoive un bout — laisser ses doigts terminer la recherche",
+        "Quand il trouve : célébrer doucement par la voix, sans applaudir bruyamment — la satisfaction est intérieure",
+        "Variations : cacher l'objet plus complètement avec le temps · changer d'objet à chaque essai · ajouter une deuxième cachette pour qu'il choisisse"
+      ],
+      "vigilance_securite": "Objets toujours grands (paume ouverte) — pas de petites pièces (risque ingestion : règle du tube cylindrique de papier toilette = en dessous, c'est trop petit). Surveillance constante. Foulards en coton léger uniquement, jamais d'écharpe longue."
+    },
+    {
+      "id": "parcours_quatre_pattes",
+      "numero": 2,
+      "titre": "Parcours d'exploration motrice",
+      "duree": "15-20 minutes",
+      "frequence": "Quotidien si possible, en plusieurs courtes sessions",
+      "developpe": ["Motricité globale", "Coordination quatre pattes", "Schéma corporel", "Confiance dans le déplacement autonome"],
+      "materiel": [
+        "Un espace dégagé de 2 m² minimum au sol (tapis ferme ou parquet propre)",
+        "Un coussin ferme et bas (style coussin de canapé) — obstacle bas à franchir",
+        "Un grand carton ouvert aux deux extrémités — tunnel improvisé",
+        "3-4 jouets attractifs à placer aux points d'arrivée"
+      ],
+      "description": "À 9 mois, la motricité globale explose : quatre pattes (souvent acquis ou en cours), position assise stable, debout avec appui, parfois premiers déplacements latéraux le long du canapé. Ce parcours propose un environnement qui stimule le déplacement sans le forcer — un terrain d'exploration où bébé choisit son chemin.",
+      "comment_jouer": [
+        "Délimiter une zone de jeu au sol avec 2-3 obstacles bas (coussin à franchir, tunnel à traverser, marche basse stable)",
+        "Placer un jouet attractif au bout du parcours, visible depuis le point de départ",
+        "Poser bébé en position de départ, en couches simples (pyjama léger, pas de combinaison qui entrave)",
+        "S'asseoir au bout du parcours, sourire visible — ne pas appeler, juste être là",
+        "L'observer sans intervenir : il choisit son trajet, sa vitesse, ses essais",
+        "Verbaliser ce qu'il fait : « tu pousses avec ta jambe, tu cherches ton équilibre, tu y arrives »",
+        "Ne jamais aider physiquement à franchir un obstacle — proposer un trajet plus simple si bébé bloque vraiment"
+      ],
+      "vigilance_securite": "Surveillance constante. Aucun obstacle instable. Sol antidérapant pour éviter glissades. Si bébé se hisse debout sur un meuble, vérifier la stabilité dudit meuble (ancrage mural pour les commodes, étagères). Pas de tapis fins qui glissent."
+    },
+    {
+      "id": "livre_pointage",
+      "numero": 3,
+      "titre": "Le livre du pointage",
+      "duree": "5-10 minutes",
+      "frequence": "1 à 2 fois par jour, dans des moments calmes",
+      "developpe": ["Pointage protodéclaratif (geste pré-linguistique)", "Vocabulaire passif (compréhension)", "Attention conjointe", "Tour de rôle (base de la conversation)"],
+      "materiel": [
+        "Un livre cartonné illustré pour bébé (illustrations simples, fond uni, 1 à 3 objets par page)",
+        "Tes genoux ou un fauteuil",
+        "Un environnement calme (pas d'écran, pas de musique)"
+      ],
+      "description": "À 9 mois, le pointage commence à émerger — d'abord en réception (bébé regarde ce que tu pointes), puis en émission (il pointe lui-même pour montrer ou demander). Ce geste pré-linguistique est l'un des prédicteurs les plus solides du développement du langage. Cette activité l'installe quotidiennement, sans pression de performance.",
+      "comment_jouer": [
+        "Installer bébé sur tes genoux, livre face à vous deux",
+        "Ouvrir une page. Pointer une image avec ton index (geste précis, doigt tendu) en la nommant : « le chien »",
+        "Marquer un temps. Regarder bébé. Voir s'il suit ton pointage du regard",
+        "Reprendre : « le chien — il fait wouf-wouf »",
+        "Tourner la page. Recommencer avec une seule image par page d'abord",
+        "Variantes après quelques séances : « où est le chien ? » — attendre qu'il regarde dans la bonne direction",
+        "Si bébé pointe quelque chose lui-même, célébrer par le nommage : « oui, c'est le ballon ! » — sans corriger sa cible, même si c'est inattendu"
+      ]
+    },
+    {
+      "id": "plateau_tri_sensoriel",
+      "numero": 4,
+      "titre": "Le plateau de tri sensoriel",
+      "duree": "10-15 minutes",
+      "frequence": "2-3 fois par semaine",
+      "developpe": ["Motricité fine (pince pouce-index)", "Catégorisation précoce (mêmes/différents)", "Concentration soutenue", "Autonomie dans l'exploration"],
+      "materiel": [
+        "Un plateau bas (style plateau de cuisine, en bois ou plastique souple)",
+        "2 contenants distincts (bols, ramequins, paniers)",
+        "4-6 objets non avalables, regroupables visuellement : 3 cubes en bois + 3 balles en tissu, ou 3 anneaux + 3 cuillères en bois",
+        "Une serviette propre sous le plateau"
+      ],
+      "description": "Inspiré de la pédagogie Montessori, ce plateau propose à bébé un matériel structuré qu'il manipule en autonomie. À 9 mois, il ne s'agit pas encore de trier intentionnellement (cette capacité arrive vers 15-18 mois), mais d'expérimenter le geste précis de saisir, transporter, déposer — base du développement de la pince fine et de la concentration.",
+      "comment_jouer": [
+        "Installer bébé bien assis face au plateau, dos soutenu (chaise haute basse, ou au sol contre le canapé)",
+        "Montrer une fois le geste : prendre un cube, le déposer dans le bol — sans commentaire excessif",
+        "Reculer légèrement et observer — sans intervenir 5 minutes minimum",
+        "Bébé va peut-être : tout vider, tout remettre, transférer d'un bol à l'autre, mettre dans la bouche, jeter par terre",
+        "Toutes ces actions sont valides — c'est l'exploration qui développe, pas l'objectif final",
+        "Quand l'attention diminue, ranger le plateau ensemble, calmement : « on range, on remet à sa place »"
+      ],
+      "vigilance_securite": "Tous les objets doivent passer le test du tube de papier toilette (s'ils passent dedans, c'est trop petit). Surveillance constante. Cordons, élastiques, petites pièces interdits. Une fois rangé, le plateau se met hors de portée pour préserver son caractère « précieux »."
+    }
+  ],
+  "geste_reflexo_du_mois": {
+    "titre": "Le voyage des extrémités à la curiosité",
+    "intro": "Mini-rituel réflexo court à intégrer aux interactions quotidiennes. À 9 mois, bébé explore activement avec ses mains — c'est le moment idéal pour renforcer la conscience corporelle par le toucher réflexe, en particulier les zones liées à la respiration et à la concentration.",
+    "duree": "2-3 minutes",
+    "moment": "Pendant le change, après le bain, ou dans un moment de pause calme",
+    "etapes": [
+      "Prendre un pied dans tes mains, lui dire « voici ton pied gauche, qui t'emmène partout »",
+      "Effleurer doucement chaque orteil du gros au petit, en les nommant un par un",
+      "Glissé doux et lent du talon vers les orteils, 3 fois — réveille la conscience plantaire qui sert au quatre pattes",
+      "Passer à l'autre pied, même séquence",
+      "Remonter aux mains, prendre une main : « voici ta main, qui touche, qui prend, qui montre »",
+      "Ouvrir doucement chaque doigt, du pouce à l'auriculaire — particulièrement le pouce et l'index (zone du pointage)",
+      "Terminer en joignant ses deux mains à hauteur de son ventre — câlin de fin"
+    ],
+    "ce_que_ca_fait": "Stimule les zones réflexes du système nerveux et du schéma corporel. Aide bébé à intégrer la conscience de ses extrémités qui deviennent ses outils d'exploration. Ouvre la voie au geste du pointage et à la pince pouce-index. Crée un mini-rituel sensoriel apaisant à reprendre quotidiennement."
+  },
+  "rythme_journee_type": {
+    "titre": "Repères d'une journée à 9 mois",
+    "intro": "Un repère, pas un protocole rigide. Chaque bébé a son tempo — celui-ci sert juste de balise. À 9 mois, la plupart des bébés sont sur 2 siestes (parfois encore 3 en transition, parfois déjà 1 longue chez les plus avancés). Si bébé est en garde, le rythme suit celui de la collectivité, et le soir + week-end servent de repère familial.",
+    "elements": [
+      "7h-7h30 : réveil, tétée ou biberon",
+      "8h-8h30 : repas (purée ou morceaux + lait selon habitudes)",
+      "8h30-9h30 : éveil calme, jeu au sol, premiers échanges du matin",
+      "9h30-10h30 : première sieste (45 min à 1h en moyenne)",
+      "10h30-12h : éveil + sortie idéale (parc, marche, motricité)",
+      "12h-12h30 : repas midi (diversification + lait éventuel)",
+      "13h-15h : grande sieste de l'après-midi (1h30 à 2h)",
+      "15h-15h30 : tétée, biberon ou goûter selon habitudes",
+      "15h30-17h30 : éveil long, jeu, sortie possible, motricité libre",
+      "17h30-18h30 : début du sas du soir, ambiance calme",
+      "18h30-19h : repas du soir (diversification + lait)",
+      "19h-20h : rituel du coucher complet (voir module Préparer le coucher)",
+      "20h : coucher"
+    ],
+    "note": "À 9 mois, la transition vers 1 sieste n'arrive en général qu'entre 12 et 18 mois — pas plus tôt. Si bébé refuse la sieste du matin pendant 1 semaine, tester la transition vers 1 sieste longue. S'il craque à 11h ou est sur-fatigué l'après-midi, c'est qu'il était trop tôt — revenir aux 2 siestes."
+  }
+}

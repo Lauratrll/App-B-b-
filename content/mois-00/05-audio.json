@@ -1,0 +1,61 @@
+{
+  "mois": 0,
+  "tranche_age": "0-4 semaines (applicable T1 : M0-M2)",
+  "rubrique": "partager_rassurer",
+  "titre_rubrique": "Partager & rassurer",
+  "sous_titre": "Trimestre 1 — Accueillir l'histoire de ta venue",
+  "trimestre": "T1 — Mois 0 à 2",
+  "intention_pedagogique": "Les premiers mois, l'enfant porte avec lui la mémoire émotionnelle de sa conception, de sa grossesse, et de sa naissance. Lui parler de cette histoire — avec ses joies, ses incertitudes, ses difficultés — l'aide à déposer ce qui n'a pas à être porté. Ces 3 scripts proposent de nommer ce qui s'est passé, doucement, avec ta voix.",
+  "comment_utiliser": [
+    "Lire seul(e) d'abord, à voix basse, pour repérer les passages qui te touchent",
+    "Choisir un moment calme : après la tétée, avant la sieste, peau à peau",
+    "Voix grave et lente — environ 30% plus lentement que ton rythme habituel",
+    "Respecter les pauses indiquées (silences de 5 à 10 secondes — c'est là que l'émotion remonte)",
+    "Une lecture par script tous les 15 jours suffit, sur les 3 mois du trimestre",
+    "C'est normal de pleurer en lisant — c'est même souhaitable. L'émotion qui circule chez toi circule chez bébé."
+  ],
+  "scripts": [
+    {
+      "id": "histoire_venue",
+      "numero": 1,
+      "titre": "L'histoire de ta venue",
+      "duree_estimee": "~7 minutes",
+      "contexte_ideal": "Peau à peau, bébé éveillé calme ou endormi sur toi",
+      "theme": "Conception · Grossesse · Désir d'enfant",
+      "champ_inspiration": "Haptonomie périnatale (Veldman), psychologie périnatale (Golse), communication consciente",
+      "couleur": "#EEEDFE",
+      "couleur_texte": "#3C3489",
+      "intention": "Permettre à ton bébé d'entendre l'histoire de sa conception et de sa grossesse — avec tout ce qui l'a précédée. Ce que tu as désiré, attendu, espéré. Ce qui a peut-être été difficile. Lui dire qu'il est arrivé, et que c'était attendu — même si l'attente a été complexe.",
+      "preparation_parent": "Lis-le seul(e) une première fois. Adapte les passages qui ne correspondent pas à ton histoire — ce script est une trame, pas un texte sacré. Pleure si tu en as besoin. C'est ton histoire que tu vas lui raconter.",
+      "texte": "[Prénom]...\n\nIl y a une histoire que je veux te raconter.\n\nC'est l'histoire de toi.\n\nC'est l'histoire de comment tu es arrivé(e).\n\n[Pause - 5 secondes]\n\nBien avant que tu sois là, tu existais déjà.\n\nTu existais dans une pensée. Dans un espoir. Peut-être dans un doute aussi.\n\nIl y a eu un moment — un jour, une nuit, une semaine — où l'idée que tu pourrais exister est apparue.\n\nPeut-être que c'était simple. Peut-être que c'était compliqué. Peut-être que ça a pris du temps.\n\nMais à un moment, tu as commencé.\n\n[Pause - 5 secondes]\n\nDans mon ventre, tu as grandi.\n\nTu étais minuscule, puis un peu plus grand, puis un peu plus.\n\nTu entendais déjà ma voix. Tu entendais déjà les bruits du monde. Tu entendais peut-être déjà la voix de ton autre parent.\n\nTu as senti aussi ce que je vivais. Mes joies. Mes fatigues. Mes peurs aussi, parfois.\n\nJe veux que tu saches une chose importante : tu n'as pas à porter ce que j'ai pu vivre pendant ta grossesse.\n\nMes émotions de ce temps-là, c'étaient les miennes.\n\nElles ne sont pas à toi.\n\nTu peux les déposer maintenant.\n\n[Pause - 10 secondes]\n\nPendant ces mois, j'ai pensé à toi tellement souvent.\n\nJ'ai imaginé ton visage. J'ai imaginé tes mains. J'ai imaginé comment ça serait, de te rencontrer.\n\nParfois j'avais peur. Peur que quelque chose n'aille pas. Peur de ne pas savoir faire. Peur de ne pas être à la hauteur.\n\nMais sous toutes ces peurs, il y avait une chose constante.\n\nJe t'attendais.\n\nMême quand je doutais, je t'attendais.\n\nMême quand j'étais épuisé(e), je t'attendais.\n\nMême quand j'avais peur, je t'attendais.\n\n[Pause - 5 secondes]\n\nEt aujourd'hui, tu es là.\n\nTu respires. Tu existes. Tu es toi.\n\nTu n'as pas eu à te justifier d'être là. Tu n'as pas eu à mériter ta place.\n\nTu es arrivé(e). C'est suffisant.\n\n[Pause - 5 secondes]\n\nL'histoire de ta venue est belle, [prénom].\n\nMême avec ses parts d'ombre. Même avec ses moments difficiles.\n\nC'est ton histoire. Elle t'appartient.\n\nEt elle commence comme ça : tu étais désiré(e). Tu es arrivé(e). Tu es là.\n\nBienvenue."
+    },
+    {
+      "id": "ta_naissance",
+      "numero": 2,
+      "titre": "Ta naissance — ce qui s'est passé, ce qui se passe maintenant",
+      "duree_estimee": "~8 minutes",
+      "contexte_ideal": "Bébé dans tes bras, lumière tamisée, moment calme du soir",
+      "theme": "Naissance · Difficultés périnatales · Première rencontre",
+      "champ_inspiration": "Psychologie périnatale, mémoire prénatale, parole au bébé",
+      "couleur": "#EEEDFE",
+      "couleur_texte": "#3C3489",
+      "intention": "Nommer ce qui s'est passé à la naissance — surtout si c'était difficile (césarienne, déclenchement, séparation, réanimation, complication). Le bébé porte la mémoire de cet événement. Le mettre en mots libère.",
+      "preparation_parent": "Si ta naissance a été difficile — pour toi ou pour bébé — ce script peut être très chargé. Lis-le d'abord seul(e). Si tu as besoin, fais-le lire par le co-parent ou par une personne de confiance. Adapte les passages selon ton histoire.",
+      "texte": "[Prénom]...\n\nJe voudrais te parler du jour où tu es né(e).\n\nCe jour-là, beaucoup de choses se sont passées.\n\nPeut-être que ça s'est déroulé comme tu l'avais préparé dans mon ventre.\n\nPeut-être que ça a été différent.\n\nPeut-être que ça a été beau et long.\n\nPeut-être que ça a été rapide et inattendu.\n\nPeut-être qu'il y a eu des moments où on a eu peur — toi, moi, ou les personnes autour de nous.\n\n[Pause - 5 secondes]\n\nJe veux te dire quelque chose d'important.\n\nSi ta naissance a été difficile, ce n'est pas ta faute.\n\nTu n'as rien fait de mal. Tu n'as pas mal choisi. Tu n'as pas mal commencé.\n\nTu as fait du mieux que tu pouvais avec ce qui t'était demandé.\n\nMoi aussi, j'ai fait du mieux que je pouvais.\n\nLes personnes qui nous ont accompagnés ont fait du mieux qu'elles pouvaient.\n\n[Pause - 10 secondes]\n\nS'il y a eu des moments où on a été séparés...\n\ns'il y a eu des moments où je n'ai pas pu te prendre tout de suite dans mes bras...\n\ns'il y a eu des moments où d'autres mains que les miennes se sont occupées de toi...\n\nce n'était pas un abandon.\n\nC'était la vie qui s'organisait pour qu'on soit tous les deux en sécurité.\n\n[Pause - 5 secondes]\n\nMaintenant, écoute ce que je te dis.\n\nLe jour de ta naissance est passé.\n\nIl appartient au passé. Il ne se rejouera plus.\n\nTu peux le déposer.\n\nTu peux laisser ton corps relâcher ce qu'il a peut-être retenu de ce jour-là.\n\nTu n'as plus besoin d'être en alerte. Tu n'as plus besoin de te tenir prêt(e).\n\nC'est terminé.\n\n[Pause - 10 secondes]\n\nMaintenant, c'est aujourd'hui.\n\nAujourd'hui, tu es dans mes bras.\n\nAujourd'hui, tu respires librement.\n\nAujourd'hui, tu es en sécurité.\n\nMon corps est là pour le tien. Ma voix est là pour la tienne. Ma chaleur est là pour la tienne.\n\nTu peux te détendre, [prénom].\n\nTu peux laisser ton petit corps se relâcher complètement.\n\nTu n'as plus à te battre. Tu n'as plus à te tendre. Tu n'as plus à survivre.\n\nTu peux simplement vivre.\n\nLà, contre moi.\n\nMaintenant.\n\nEt encore demain.\n\nEt après-demain.\n\nEt tous les jours qui viennent.\n\n[Pause - 5 secondes]\n\nTu es accueilli(e), [prénom].\n\nVraiment accueilli(e).\n\nTu peux dormir tranquille."
+    },
+    {
+      "id": "ce_qui_etait_avant",
+      "numero": 3,
+      "titre": "Ce qui était avant toi — et qui n'est pas à toi",
+      "duree_estimee": "~9 minutes",
+      "contexte_ideal": "Seul(e) d'abord, puis avec bébé quand tu te sens prêt(e). Peut être fait à voix très basse.",
+      "theme": "Fausses couches antérieures · Deuils périnataux · Histoire familiale · Constellations familiales",
+      "champ_inspiration": "Approche systémique des constellations familiales, psychologie transgénérationnelle, mémoire transgénérationnelle",
+      "couleur": "#EEEDFE",
+      "couleur_texte": "#3C3489",
+      "intention": "Nommer ce qui a précédé l'arrivée du bébé — fausses couches, IVG, bébés perdus, autres deuils périnataux dans la famille. Reconnaître ces êtres qui ont existé. Libérer le bébé actuel de la charge de 'remplacer' ou de 'compenser'.",
+      "preparation_parent": "Ce script est le plus délicat. Il aborde des sujets qui peuvent réveiller des deuils non faits. Lis-le seul(e) plusieurs fois avant. Si tu sens que c'est trop, c'est un signal que tu peux toi-même bénéficier d'un accompagnement (sage-femme, psychologue périnatale, thérapeute spécialisé deuil périnatal). Ce script n'est pas une obligation — c'est une proposition.",
+      "texte": "[Prénom]...\n\nAvant que tu sois là, il y a eu d'autres histoires.\n\nDans chaque famille, dans chaque corps, dans chaque lignée — il y a eu d'autres histoires.\n\n[Pause - 5 secondes]\n\nPeut-être qu'avant toi, il y a eu d'autres êtres qui ont commencé à venir.\n\nDes êtres qui n'ont pas pu rester. Des êtres qui sont partis très vite, très tôt, parfois sans qu'on sache.\n\nDes bébés perdus. Des grossesses arrêtées. Des choix difficiles.\n\nCes êtres-là ont existé.\n\nMême s'ils n'ont pas eu le temps de naître, ils ont existé.\n\nMême si personne ne leur a donné de prénom, ils ont existé.\n\nMême si personne n'en parle, ils ont existé.\n\n[Pause - 10 secondes]\n\nCe soir, je veux les nommer.\n\nPas pour les regretter. Pas pour s'attrister.\n\nJuste pour reconnaître qu'ils ont été là.\n\nJe les reconnais.\n\nIls ont leur place dans notre histoire familiale.\n\nIls ne sont pas oubliés.\n\n[Pause - 10 secondes]\n\nEt toi, [prénom]...\n\nÉcoute bien ce que je vais te dire.\n\nTu n'es pas leur remplaçant(e).\n\nTu n'es pas là pour combler ce qui a manqué.\n\nTu n'es pas là pour réparer ce qui a été perdu.\n\nTu n'es pas là pour porter leur deuil.\n\nTu es là pour toi.\n\nTu es venu(e) avec ta propre histoire à vivre.\n\nTes propres rires, tes propres pleurs, ton propre chemin.\n\n[Pause - 5 secondes]\n\nLes êtres qui sont venus avant toi gardent leur place.\n\nToi, tu as la tienne.\n\nElle est entière. Elle est unique.\n\nElle n'a rien à voir avec ce qui a précédé.\n\n[Pause - 10 secondes]\n\nIl y a peut-être aussi, plus loin dans notre famille, d'autres histoires.\n\nDes grands-parents qui ont vécu des choses difficiles. Des arrière-grands-parents qui ont porté des poids.\n\nDes deuils non faits. Des séparations brutales. Des choses qu'on n'a pas pu dire.\n\nCes histoires-là appartiennent à ceux qui les ont vécues.\n\nElles ne sont pas à toi non plus.\n\nTu peux entendre que ces histoires existent. Tu peux les respecter.\n\nMais tu n'as pas à les porter dans ton corps.\n\nTu n'as pas à les rejouer dans ta vie.\n\nTu n'as pas à les réparer.\n\n[Pause - 10 secondes]\n\nCe soir, ensemble, on dépose.\n\nOn dépose tout ce qui n'est pas à toi.\n\nOn laisse à chacun ce qui lui appartient.\n\nOn garde l'amour. On garde la force. On garde la résilience de ceux qui nous ont précédés.\n\nMais on rend tout le reste.\n\n[Pause - 5 secondes]\n\nTu es libre, [prénom].\n\nLibre de ton corps. Libre de ton cœur. Libre de ton avenir.\n\nTu peux grandir dans la légèreté.\n\nTu peux dormir dans la paix.\n\nTu peux respirer pleinement — l'air n'appartient qu'à toi.\n\n[Pause - 5 secondes]\n\nMoi, en tant que parent, je fais mon travail.\n\nJe regarde ce qui m'appartient. Je nomme ce que je peux nommer.\n\nJe pleure quand il faut pleurer. Je consulte quand il faut consulter.\n\nEt je te laisse être toi.\n\nEntièrement toi.\n\nUniquement toi.\n\nPour toute ta vie."
+    }
+  ]
+}

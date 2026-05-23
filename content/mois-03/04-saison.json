@@ -1,0 +1,438 @@
+{
+  "mois": 3,
+  "tranche_age": "3 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 3 — Adapter le quotidien à la météo et à la lumière",
+  "description": "À 3 mois, bébé tient sa tête, suit du regard, supporte des sorties plus longues. Mais sa peau, son système immunitaire et sa thermorégulation restent immatures. Les besoins varient fortement selon la saison — habillage, sorties, lumière, sommeil, vigilance santé. L'app sélectionne automatiquement la version correspondant au mois civil en cours.",
+  "logique_selection": {
+    "regle": "À 3 mois, l'app sélectionne la version saisonnière selon le mois civil en cours (et non plus la saison de naissance, qui n'est plus pertinente)",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    },
+    "transition": "Lors du changement de saison, proposer une transition douce à partir de la dernière semaine du mois précédent."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps",
+      "titre": "Mois 3 au printemps (mars-avril-mai)",
+      "ambiance": "Lumière qui revient, températures variables, allergènes en hausse — fenêtre idéale pour les premières vraies sorties",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#7BA82F",
+      "emoji": "🌱",
+      "ancrage": "À 3 mois au printemps, tu peux sortir bébé plus longtemps que les premières semaines. La lumière douce du printemps est un cadeau pour le rythme circadien qui se structure — profite, sans excès solaire ni excès de pollens.",
+      "principes": [
+        "Lumière naturelle = allié n°1 pour la régulation circadienne en pleine construction à 3 mois",
+        "Températures variables (5°C le matin, 22°C l'après-midi) — habillage en couches indispensable",
+        "Pollens en pic : vigilance si parents allergiques, premières alertes possibles chez bébé",
+        "Première saison où les vraies promenades de 30-60 min deviennent possibles et bénéfiques"
+      ],
+      "habillage": {
+        "principe": "Toujours UNE couche de plus que toi — et adapter en cours de journée",
+        "guide_temperature": [
+          {
+            "temperature": "5-10°C",
+            "tenue": "Body manches longues + pyjama + combinaison polaire + bonnet + chaussons. Couverture supplémentaire en poussette."
+          },
+          {
+            "temperature": "10-15°C",
+            "tenue": "Body manches longues + pyjama + petite veste polaire ou cardigan + bonnet fin. En sortie : couverture légère sur les jambes."
+          },
+          {
+            "temperature": "15-20°C",
+            "tenue": "Body manches longues + pyjama léger ou combinaison coton + bonnet fin si vent."
+          },
+          {
+            "temperature": "20-25°C",
+            "tenue": "Body manches courtes + pyjama coton léger. Pas de bonnet. Chapeau à bord large dès que le soleil tape."
+          }
+        ]
+      },
+      "sorties": {
+        "frequence_conseillee": "1 à 2 sorties/jour, 30-60 min selon la météo",
+        "moments_ideaux": [
+          "10h-12h : lumière douce, températures correctes, pic de pollens plus faible que l'après-midi",
+          "15h-17h : avant la fraîcheur du soir et l'humidité",
+          "Éviter 7h-9h (frais et humide) et les pics de pollens annoncés"
+        ],
+        "lieux_recommandes": [
+          "Parc en lisière (pas en plein soleil printanier qui chauffe la peau de bébé)",
+          "Promenade en forêt si peu allergique aux pollens",
+          "Rues calmes à l'ombre des immeubles aux heures chaudes",
+          "Premiers cafés en terrasse en zone ombragée — bébé apprécie le babillage ambiant"
+        ],
+        "equipement": [
+          "Poussette avec capote — ombre permanente sur le visage de bébé",
+          "Porte-bébé physiologique : à 3 mois, bébé peut être porté face à toi (jamais face au monde avant 6 mois)",
+          "Couverture légère pliée dans le sac — variations de température",
+          "Bouteille d'eau pour TOI — hydratation parent toujours essentielle",
+          "Lingettes + change + couche de rechange (sortie plus longue qu'à M0)"
+        ]
+      },
+      "particularites_sante": {
+        "vigilance": [
+          "Allergies polliniques émergentes : toux sèche, larmoiement, éternuements répétés → consulter le pédiatre",
+          "Variation thermique brutale matin/après-midi : risque de rhume — vêtements en couches",
+          "Fin de la saison bronchiolite jusqu'à fin avril — limiter encore les milieux fermés et bondés",
+          "UV qui montent dès avril : peau de bébé toujours très perméable, ombre permanente"
+        ],
+        "signes_consultation": [
+          "Toux qui s'installe + nez qui coule depuis > 48h",
+          "Sifflement respiratoire ou tirage (creux entre les côtes) → 15",
+          "Conjonctivite récidivante (œil rouge et collé) — possible allergie",
+          "Éruption cutanée sans fièvre — irritation, allergie de contact"
+        ],
+        "vitamine_d": "Supplémentation à poursuivre quotidiennement même si soleil de retour — peau de bébé encore couverte, exposition directe interdite"
+      },
+      "rituel_lumiere": {
+        "titre": "Bain de lumière du matin",
+        "duree": "20 min",
+        "moment": "Entre 9h et 11h",
+        "description": "Installer bébé dans son transat ou son tapis d'éveil près d'une fenêtre exposée est ou sud, lumière indirecte. À 3 mois, son cerveau utilise cette lumière matinale pour caler le rythme circadien — c'est l'outil le plus puissant pour structurer le sommeil de jour comme de nuit. Pas de soleil direct sur le visage."
+      },
+      "alimentation_maman": [
+        "Légumes verts de saison : épinards, blettes, asperges — riches en fer (anémie post-partum encore fréquente à 3 mois)",
+        "Premiers fruits rouges : fraises, framboises — antioxydants et vitamine C",
+        "Hydratation : minimum 2L/jour, 3L si allaitement",
+        "Marche extérieure 30 min/jour : vitamine D + remise en route circulation + moral"
+      ],
+      "amenagement_chambre": [
+        "Aérer 10 min/jour, fenêtre fermée si pic de pollens annoncé",
+        "Maintenir 18-20°C la nuit, jusqu'à 22°C le jour si lumière forte",
+        "Rideaux occultants pour les siestes — utile face à la lumière qui s'allonge",
+        "Bruit blanc continu pendant le sommeil — masque les bruits de fond du printemps (chants d'oiseaux, voisinage qui sort)"
+      ]
+    },
+    "ete": {
+      "id": "saison_ete",
+      "titre": "Mois 3 en été (juin-juillet-août)",
+      "ambiance": "Chaleur intense, soleil fort, sécheresse — vigilance thermique majeure",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#D9A847",
+      "emoji": "☀️",
+      "ancrage": "À 3 mois en été, la déshydratation et le coup de chaleur restent les deux risques majeurs. Bébé ne sait pas encore réguler sa température. Toi tu es son thermostat — observe-le, hydrate-toi (si allaitement), reste au frais.",
+      "principes": [
+        "Déshydratation = risque n°1 à 3 mois en été — observer urines, langue, fontanelle",
+        "Tétées plus fréquentes par chaleur — c'est l'hydratation de bébé (aucune eau avant 6 mois)",
+        "Soleil direct INTERDIT avant 1 an — ombre permanente, même sous capote",
+        "Maintenir la chambre entre 18-22°C est l'objectif jour et nuit"
+      ],
+      "habillage": {
+        "principe": "Aussi peu que possible, mais toujours UN body en coton fin (protège la peau et absorbe la sueur)",
+        "guide_temperature": [
+          {
+            "temperature": "18-22°C",
+            "tenue": "Body manches courtes + pyjama léger en coton"
+          },
+          {
+            "temperature": "22-26°C",
+            "tenue": "Body manches courtes seul OU avec short léger 100% coton"
+          },
+          {
+            "temperature": "26-30°C",
+            "tenue": "Body sans manches en coton fin OU couche seule dans pièce ventilée et surveillée"
+          },
+          {
+            "temperature": "> 30°C",
+            "tenue": "Couche seule, bébé éventé avec un linge humide à proximité (pas sur lui), surveillance permanente, ventilateur dirigé vers un mur"
+          }
+        ]
+      },
+      "sorties": {
+        "frequence_conseillee": "Sortir matin avant 10h OU soir après 19h — JAMAIS entre 11h et 18h",
+        "moments_ideaux": [
+          "7h-10h : fraîcheur matinale, bonne luminosité douce",
+          "19h-21h : descente des températures, ambiance apaisée",
+          "Si canicule annoncée (vigilance orange/rouge) : ne pas sortir, rester au frais"
+        ],
+        "lieux_recommandes": [
+          "Parcs très ombragés — zones forestières prioritaires",
+          "Piscine en plein air INTERDITE avant 4-6 mois (chlore + chaleur + immunité)",
+          "Évite les centres-villes asphaltés (îlot de chaleur urbain)",
+          "Bord de mer : OUI si plage à l'ombre ET pas de vent fort, pas de bain"
+        ],
+        "equipement": [
+          "Poussette avec capote ET drap fin en coton tendu sur le côté (jamais drap fermé devant — risque hyperthermie)",
+          "Brumisateur d'eau pour TOI (pas sur bébé < 6 mois)",
+          "Bouteille d'eau pour TOI — boire +++ si allaitement (jusqu'à 4L/jour)",
+          "Lingettes humides en glacière — rafraîchir doucement",
+          "Chapeau à bord large pour bébé, lunettes catégorie 3-4 dès que possible",
+          "Porte-bébé : choisir un modèle ventilé en filet (mesh), à 3 mois bébé peut transpirer fort en portage"
+        ],
+        "interdits_absolus": [
+          "Soleil direct, même 2 minutes, même filtré par les nuages — UV traversent",
+          "Voiture stationnée même 2 min — danger mortel par hyperthermie (température intérieure x2 en 10 min)",
+          "Crème solaire avant 6 mois — peau perméable, toxicité potentielle",
+          "Bain de mer ou piscine — peau fragile, immunité immature, chlore",
+          "Sorties entre 11h et 18h si > 28°C — quelque soit la durée"
+        ]
+      },
+      "particularites_sante": {
+        "vigilance": [
+          "Déshydratation : urines foncées ou rares, fontanelle creusée, langue sèche, somnolence anormale — URGENCE 15",
+          "Coup de chaleur : peau rouge et brûlante, refus de téter, somnolence, température > 38°C — URGENCE 15",
+          "Érythème miliaire (boutons de chaleur) : aérer, ventiler, baisser la température de la pièce",
+          "Érythème fessier amplifié par la chaleur : fesses à l'air 15 min plusieurs fois par jour"
+        ],
+        "signes_consultation": [
+          "Moins de 4 couches mouillées en 24h",
+          "Bébé somnolent, mou, ne réagit plus normalement",
+          "Refus de toute tétée pendant plus de 4-5h",
+          "Vomissements répétés"
+        ],
+        "vitamine_d": "Supplémentation maintenue même en plein été — bébé n'est jamais exposé directement au soleil",
+        "hydratation": {
+          "principe": "Bébé < 6 mois : AUCUNE eau ni tisane. Tétées (sein/biberon) plus fréquentes UNIQUEMENT.",
+          "signes_bonne_hydratation": [
+            "Couches mouillées toutes les 3h (urines claires)",
+            "Bouche et langue humides",
+            "Fontanelle ni creuse ni bombée",
+            "Peau qui revient en place immédiatement après pincement léger"
+          ]
+        }
+      },
+      "rituel_fraicheur": {
+        "titre": "Le rituel de fraîcheur du soir",
+        "duree": "15 min",
+        "moment": "Vers 19h-20h, avant le coucher",
+        "description": "Bain tiède (eau à 35-36°C, plus frais que d'habitude), 5-7 min. Sortir, ne pas rincer à l'eau froide. Sécher en tamponnant délicatement, laisser nu 5 min dans pièce ventilée (jamais courant d'air direct sur bébé). Habiller avec body coton fin uniquement. Pose dans le lit dans une chambre rafraîchie depuis 1h avec volets fermés et ventilateur indirect."
+      },
+      "alimentation_maman": [
+        "Hydratation MASSIVE : 3-4 litres d'eau par jour si allaitement",
+        "Eau, eau de coco, infusions froides — varier pour éviter la lassitude",
+        "Fruits gorgés d'eau : pastèque, melon, concombre, tomates",
+        "Repas froids ou tièdes : taboulé, salade composée, soupe froide",
+        "Sels minéraux : transpiration importante → légère pincée de sel sur les aliments OK"
+      ],
+      "amenagement_chambre": [
+        "Fermer volets et fenêtres en journée dès que la température extérieure dépasse l'intérieure",
+        "Ouvrir grand le soir et la nuit dès que l'extérieur est plus frais",
+        "Ventilateur OUI (orienté vers le mur, jamais directement sur bébé)",
+        "Climatisation OK si réglée à 24-26°C (jamais en dessous), bébé pas dans le flux direct",
+        "Linge humide étendu dans la pièce : refroidit par évaporation",
+        "Thermomètre dans la chambre : viser 18-22°C, intervenir si > 24°C"
+      ]
+    },
+    "automne": {
+      "id": "saison_automne",
+      "titre": "Mois 3 en automne (septembre-octobre-novembre)",
+      "ambiance": "Lumière qui décroît, températures qui chutent, début de la saison VRS (bronchiolite)",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C47859",
+      "emoji": "🍂",
+      "ancrage": "À 3 mois en automne, tu entres dans la saison la plus exigeante côté santé. La bronchiolite démarre, la lumière baisse, le moral parental peut basculer. Vigilance, mais aussi tendresse pour toi : c'est une saison où tu as le droit de ralentir.",
+      "principes": [
+        "Démarrage de la saison VRS (bronchiolite) : vigilance maximale pour bébé < 6 mois",
+        "Lumière qui décroît : effet sur le moral parental (baby blues automnal possible)",
+        "Variations thermiques jour/nuit importantes : habillage en couches",
+        "Beyfortus (nirsévimab) recommandé pour la saison VRS — vérifier l'immunisation"
+      ],
+      "habillage": {
+        "principe": "Toujours UNE couche de plus que toi, et ajuster matin/après-midi/soir",
+        "guide_temperature": [
+          {
+            "temperature": "0-5°C",
+            "tenue": "Body manches longues + pyjama + combinaison polaire intégrale + bonnet + chaussons + couverture chaude pour la poussette"
+          },
+          {
+            "temperature": "5-10°C",
+            "tenue": "Body manches longues + pyjama + combinaison polaire + bonnet + chaussons"
+          },
+          {
+            "temperature": "10-15°C",
+            "tenue": "Body manches longues + pyjama + petite veste polaire + bonnet fin si vent"
+          },
+          {
+            "temperature": "15-20°C",
+            "tenue": "Body manches longues + pyjama léger + bonnet fin uniquement en sortie ventée"
+          }
+        ]
+      },
+      "sorties": {
+        "frequence_conseillee": "1 sortie/jour, 30-45 min — privilégier les heures de lumière",
+        "moments_ideaux": [
+          "11h-14h : pic de luminosité automnale, températures les plus douces",
+          "Éviter le matin frais (< 10°C) et le soir humide",
+          "Si pluie : sortir quand même couvert, l'air frais est bénéfique pour le sommeil"
+        ],
+        "lieux_recommandes": [
+          "Parcs et forêts pour les bains de lumière dorée",
+          "Évite STRICTEMENT les centres commerciaux, transports bondés, salles d'attente — risque viral majeur",
+          "Cafés en terrasse couverte mais aérée plutôt qu'en salle fermée"
+        ],
+        "equipement": [
+          "Poussette avec habillage de pluie",
+          "Porte-bébé physiologique sous une veste extérieure (chaleur partagée et bébé protégé)",
+          "Couverture chaude en plus dans le sac",
+          "Gel hydroalcoolique pour TOI à utiliser avant de manipuler bébé après contact avec d'autres personnes"
+        ]
+      },
+      "particularites_sante": {
+        "vigilance": [
+          "Démarrage de l'épidémie VRS (bronchiolite) — vigilance maximale jusqu'en mars",
+          "Premiers virus de l'automne (rhinovirus) : éviter les lieux fermés et bondés",
+          "Peau qui s'assèche : hydratation quotidienne avec cold cream ou lait nourrissant adapté bébé",
+          "Manque de lumière naturelle : effet sur le moral parental et le rythme circadien de bébé"
+        ],
+        "signes_consultation": [
+          "Respiration rapide (> 60/min au repos), tirage entre les côtes, sifflement → 15",
+          "Refus alimentaire prolongé, fatigue inhabituelle, pâleur → urgences pédiatriques",
+          "Fièvre > 38°C avant 3 mois → toujours consulter rapidement",
+          "Éternuements + toux + nez qui coule depuis > 48h → pédiatre"
+        ],
+        "vitamine_d": "Supplémentation à dose maintenue ou augmentée selon recommandation du pédiatre — peu de lumière naturelle",
+        "beyfortus": "Immunisation passive contre la bronchiolite recommandée pour tous les nourrissons éligibles dès septembre — gratuite, en maternité ou en consultation. Réduit fortement les hospitalisations."
+      },
+      "rituel_lumiere": {
+        "titre": "Capter chaque minute de lumière",
+        "duree": "30 min",
+        "moment": "Entre 11h et 14h, le créneau le plus lumineux",
+        "description": "Installer bébé près d'une fenêtre lumineuse OU sortir 30 min en milieu de journée. À 3 mois en automne, la lumière naturelle est cruciale pour calibrer le rythme circadien qui s'organise — sans elle, le sommeil de jour comme de nuit se désorganise. Pour toi aussi : un quart d'heure de lumière du matin réduit significativement le risque de DPP saisonnière."
+      },
+      "alimentation_maman": [
+        "Légumes-racines de saison : potimarron, carotte, panais — réconfort et minéraux",
+        "Fruits secs : noix, amandes, noisettes — magnésium, oméga 3 (utiles contre la fatigue et le moral)",
+        "Soupes chaudes maison : hydratation, chaleur, vitamines",
+        "Supplémentation en vitamine D pour TOI aussi — beaucoup de mamans en sont carencées en automne",
+        "Tisanes apaisantes : verveine, tilleul, mélisse en fin de journée"
+      ],
+      "amenagement_chambre": [
+        "Maintenir 18-20°C jour et nuit",
+        "Humidificateur d'air si chauffage central qui assèche (idéal 40-60% d'humidité)",
+        "Aérer 5-10 min/jour quand il ne pleut pas — air renouvelé essentiel en saison VRS",
+        "Pas de chauffage d'appoint type radiant en continu — risque dessèchement et CO",
+        "Couverture supplémentaire à portée pour les nuits qui se rafraîchissent"
+      ],
+      "moral_lumiere_decroissante": {
+        "titre": "Préserver ton moral quand la lumière baisse",
+        "actions": [
+          "Sortir 30 min/jour minimum, même couvert et même sans envie — c'est ton anti-DPP n°1",
+          "Lampe de luminothérapie 10 000 lux 15 min/jour le matin — efficacité documentée contre la dépression saisonnière",
+          "Maintenir au moins un contact humain (réel ou téléphone) par jour — l'isolement amplifie le baby blues",
+          "Si tristesse persistante depuis > 2 semaines : consulter rapidement (MonParcoursPsy, médecin traitant)"
+        ]
+      }
+    },
+    "hiver": {
+      "id": "saison_hiver",
+      "titre": "Mois 3 en hiver (décembre-janvier-février)",
+      "ambiance": "Froid intense, pic viral, peu de lumière, intérieur surchauffé et sec",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#5A8C9A",
+      "emoji": "❄️",
+      "ancrage": "À 3 mois en hiver, tout converge : pic viral, manque de lumière, fatigue parentale au plus haut. Mais sortir, même 20 min par jour, change tout. L'air froid est protecteur du sommeil, contrairement à la croyance.",
+      "principes": [
+        "Pic de la saison VRS (bronchiolite) — limiter strictement les contacts en lieu fermé",
+        "L'air froid n'est pas dangereux — c'est l'air confiné et chaud qui propage les virus",
+        "Lumière naturelle minimale = enjeu majeur pour le rythme circadien et le moral parental",
+        "Intérieur surchauffé et sec : aération quotidienne + humidification"
+      ],
+      "habillage": {
+        "principe": "Toujours UNE couche de plus que toi en intérieur, +2 couches en sortie",
+        "guide_temperature": [
+          {
+            "temperature": "< 0°C",
+            "tenue": "Body manches longues + pyjama + combinaison polaire + sur-combinaison polaire ou doudoune adaptée bébé + bonnet + chaussons + couverture sur poussette. Limiter la sortie à 15-20 min."
+          },
+          {
+            "temperature": "0-5°C",
+            "tenue": "Body manches longues + pyjama + combinaison polaire intégrale + bonnet + chaussons + couverture pour poussette"
+          },
+          {
+            "temperature": "5-10°C",
+            "tenue": "Body manches longues + pyjama + combinaison polaire + bonnet + chaussons"
+          },
+          {
+            "temperature": "10-15°C (rare en hiver)",
+            "tenue": "Body manches longues + pyjama chaud + petite veste polaire + bonnet"
+          }
+        ]
+      },
+      "sorties": {
+        "frequence_conseillee": "1 sortie courte/jour (20-30 min) — même brève, même couvert, l'extérieur est essentiel",
+        "moments_ideaux": [
+          "11h-14h : pic de luminosité, températures les plus tolérables",
+          "Éviter avant 10h et après 16h (trop froid et trop sombre)",
+          "Si vague de froid (< -5°C) : sortir 5-10 min suffit pour le bienfait lumière"
+        ],
+        "lieux_recommandes": [
+          "Parcs, allées, abords résidentiels calmes — éviter les centres-villes",
+          "Évite IMPÉRATIVEMENT les centres commerciaux, transports en commun bondés, salles d'attente médicales (sauf RDV)",
+          "Marché en plein air OK si peu fréquenté",
+          "Forêt si accessible — taux viral inférieur, ambiance apaisée"
+        ],
+        "equipement": [
+          "Poussette : moufle-couverture en peau de mouton ou polaire, capote remontée",
+          "Porte-bébé physiologique sous une grande veste/manteau : chaleur partagée, protection des courants d'air",
+          "Bonnet bien ajusté qui couvre les oreilles",
+          "Chaussons épais ou chaussettes hautes — les extrémités refroidissent vite",
+          "Gel hydroalcoolique pour TOI à utiliser systématiquement avant de manipuler bébé après contact extérieur"
+        ]
+      },
+      "particularites_sante": {
+        "vigilance": [
+          "Pic épidémique VRS (bronchiolite) — JAMAIS de visite avec une personne enrhumée ou qui tousse",
+          "Peau très sèche : hydratation quotidienne, cold cream ou crème nourrissante après chaque bain",
+          "Rhino, grippe, gastro : protection maximale, lavage des mains systématique",
+          "Pic du baby blues / DPP en saison sombre — vigilance moral parental"
+        ],
+        "signes_consultation": [
+          "Toux + respiration rapide + tirage entre les côtes → 15 sans délai",
+          "Refus alimentaire + fatigue + pâleur → urgences pédiatriques",
+          "Fièvre > 38°C avant 3 mois → consultation rapide systématique",
+          "Lèvres bleues, peau marbrée persistante au chaud → 15"
+        ],
+        "vitamine_d": "Supplémentation à dose maintenue toute la saison — luminosité solaire insuffisante pour la synthèse cutanée",
+        "beyfortus": "Si non immunisé en automne, vérifier l'éligibilité encore en hiver — la protection est utile jusqu'à la fin de l'épidémie"
+      },
+      "rituel_lumiere": {
+        "titre": "Le bain de lumière de midi",
+        "duree": "20 min",
+        "moment": "Entre 11h et 13h, le seul créneau lumineux de l'hiver",
+        "description": "Sortir 20 min, même couvert, même par grand froid, ou installer bébé près de la fenêtre la plus exposée à la lumière. À 3 mois en hiver, la lumière naturelle est le principal allié pour le rythme circadien — sans elle, le sommeil de bébé se désorganise et ton moral aussi. C'est un soin, pas une option."
+      },
+      "alimentation_maman": [
+        "Plats chauds réconfortants : soupes, gratins, légumineuses (lentilles, pois chiches) — fer et magnésium",
+        "Agrumes de saison : oranges, mandarines, kiwis — vitamine C contre la fatigue et les virus",
+        "Fruits secs (noix, amandes) : oméga 3 contre le moral et l'inflammation",
+        "Tisanes chaudes : thym, gingembre, citron — immunité et confort",
+        "Supplémentation en vitamine D pour TOI — quasiment 100% des adultes sont carencés en hiver"
+      ],
+      "amenagement_chambre": [
+        "Maintenir 18-20°C la nuit (ni plus, ni moins) — le froid n'est pas dangereux, la surchauffe oui",
+        "Humidificateur d'air OBLIGATOIRE si chauffage central — viser 40-60% d'humidité",
+        "Aérer 5-10 min/jour, même par grand froid — renouvellement de l'air essentiel",
+        "Pas de chauffage d'appoint type radiant ou pétrole en continu — risque CO et dessèchement",
+        "Linge humide étendu ou bol d'eau sur radiateur : humidifie naturellement"
+      ],
+      "moral_hiver": {
+        "titre": "Tenir le moral parental en hiver",
+        "actions": [
+          "Lampe de luminothérapie 10 000 lux 20 min/matin — efficacité prouvée contre la dépression saisonnière, particulièrement utile en post-partum",
+          "Sortir 20 min/jour MINIMUM même sans envie — c'est l'anti-DPP n°1 documenté",
+          "Maintenir un contact humain par jour (téléphone si pas de visite possible)",
+          "Si tristesse persistante > 2 semaines, anhédonie, pensées noires : consulter sans tarder (MonParcoursPsy, médecin traitant, 3114 si urgence)"
+        ]
+      }
+    }
+  }
+}

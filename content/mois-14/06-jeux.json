@@ -1,0 +1,130 @@
+{
+  "mois": 14,
+  "tranche_age": "14 mois",
+  "rubrique": "jeux",
+  "titre_rubrique": "Jeux & stimulation",
+  "sous_titre": "Mois 14 — Le mois de l'Explorateur",
+  "adjectif_du_mois": "Explorateur",
+  "qualification_du_mois": "À 14 mois, ton enfant marche, comprend tout, manipule avec une précision croissante. Il veut tester, toucher, vider, remplir, grimper, nommer. C'est le mois de l'exploration active — où le monde se découvre par le corps et par les sens.",
+  "description": "4 activités simples, sans matériel coûteux, pour accompagner cette phase d'exploration.",
+  "principes_cles": [
+    "Motricité libre avant tout : sol propre, espace dégagé",
+    "Ton attention vaut plus que le matériel",
+    "Le jeu libre est aussi important que le jeu accompagné"
+  ],
+  "activites": [
+    {
+      "id": "boite_mystere",
+      "numero": 1,
+      "titre": "La boîte mystère",
+      "duree": "10-15 minutes",
+      "frequence": "1-2 fois par semaine",
+      "developpe": ["Langage", "Motricité fine", "Curiosité", "Sens du toucher"],
+      "materiel": [
+        "Une boîte en carton avec un trou suffisant pour passer la main",
+        "5 objets du quotidien aux textures variées (cuillère en bois, bouchon, tissu doux, éponge, plume)"
+      ],
+      "description": "Glisser un objet dans la boîte sans qu'il voie. Le laisser plonger la main, toucher, deviner. Nommer ce qu'il sort : \"Une cuillère ! Froide ? Lisse ?\" Renouveler avec un nouvel objet à chaque fois.",
+      "comment_jouer": [
+        "S'asseoir face à lui, à sa hauteur",
+        "Glisser le premier objet sans qu'il voie",
+        "L'inviter à mettre la main dans le trou",
+        "Quand il sort l'objet : nommer, décrire, lui faire toucher",
+        "Répéter avec 4-5 objets"
+      ]
+    },
+    {
+      "id": "parcours_coussins",
+      "numero": 2,
+      "titre": "Parcours de coussins",
+      "duree": "20-30 minutes",
+      "frequence": "Quotidien si possible",
+      "developpe": ["Motricité globale", "Équilibre", "Vocabulaire des actions"],
+      "materiel": [
+        "Coussins de toutes tailles",
+        "Oreillers",
+        "Couvertures"
+      ],
+      "description": "Créer un parcours au sol. Ton enfant grimpe, passe dessous, contourne, traverse. Nommer chaque action en direct : \"Tu grimpes ! Tu passes en dessous !\"",
+      "comment_jouer": [
+        "Préparer le parcours avec ton enfant — il participe",
+        "Démontrer une fois si nécessaire",
+        "Le laisser explorer librement, à son rythme",
+        "Nommer toutes ses actions",
+        "Démonter ensemble à la fin"
+      ]
+    },
+    {
+      "id": "danse_emotions",
+      "numero": 3,
+      "titre": "La danse des émotions",
+      "duree": "10-15 minutes",
+      "frequence": "2-3 fois par semaine",
+      "developpe": ["Régulation émotionnelle", "Vocabulaire des émotions", "Sens du rythme"],
+      "materiel": [
+        "Une enceinte ou téléphone",
+        "3 musiques contrastées : entraînante, douce, marquée"
+      ],
+      "description": "Mettre de la musique. Danser ensemble en nommant les états : \"On est JOYEUX — on danse vite ! On est CALME — on danse doucement.\" Il suit et imite. Toujours terminer par la mélodie calme.",
+      "comment_jouer": [
+        "Choisir 3 musiques contrastées",
+        "Pour chaque musique, associer une émotion verbalisée",
+        "Danser exagérément en exprimant l'émotion — il imite",
+        "Toujours finir par la mélodie calme"
+      ]
+    },
+    {
+      "id": "transvasement",
+      "numero": 4,
+      "titre": "Atelier transvasement",
+      "duree": "15-30 minutes",
+      "frequence": "1-2 fois par semaine",
+      "developpe": ["Motricité fine", "Concentration", "Coordination œil-main"],
+      "materiel": [
+        "Deux ou trois contenants (bols, verres)",
+        "Une matière : riz, lentilles, pâtes crues, eau",
+        "Une grande cuillère ou louche"
+      ],
+      "description": "Sur un grand plateau, mettre la matière à transvaser dans un contenant. Donner les outils. Activité ultra-apaisante et concentrante.",
+      "comment_jouer": [
+        "Installer sur un sol facile à nettoyer ou un grand plateau",
+        "Démontrer une fois lentement",
+        "Laisser explorer librement",
+        "Nommer : \"tu remplis, tu verses, c'est vide, c'est plein\""
+      ]
+    }
+  ],
+  "geste_reflexo_du_mois": {
+    "titre": "Le moulinet des doigts",
+    "intro": "Mini-rituel réflexo court à intégrer aux interactions quotidiennes.",
+    "duree": "2-3 minutes",
+    "moment": "Pendant le change, après le bain, ou en câlin",
+    "etapes": [
+      "Prendre sa main dans la tienne, paume vers le haut",
+      "Masser doucement le pouce : \"Voici le pouce !\"",
+      "Passer à l'index : \"Voici l'index, celui qui pointe\"",
+      "Continuer avec majeur, annulaire, auriculaire",
+      "Terminer par un baiser sur la paume",
+      "Refaire avec l'autre main"
+    ],
+    "ce_que_ca_fait": "Stimule les zones réflexes du langage, développe la conscience corporelle."
+  },
+  "rythme_journee_type": {
+    "titre": "Repères d'une journée à 14 mois",
+    "intro": "Un repère, pas un protocole rigide.",
+    "creneaux": [
+      {"horaire": "7h-7h30", "activite": "Réveil, lumière du matin"},
+      {"horaire": "7h30-8h", "activite": "Petit-déjeuner"},
+      {"horaire": "8h-10h30", "activite": "Jeu libre + sortie"},
+      {"horaire": "10h30-12h", "activite": "Activité principale du matin"},
+      {"horaire": "12h-12h30", "activite": "Repas"},
+      {"horaire": "12h30-14h30", "activite": "Sieste unique (1h à 2h30)"},
+      {"horaire": "14h30-16h30", "activite": "Jeu libre, lecture"},
+      {"horaire": "16h30-17h", "activite": "Goûter"},
+      {"horaire": "17h-18h", "activite": "Activité calme"},
+      {"horaire": "18h-18h30", "activite": "Repas du soir"},
+      {"horaire": "18h30-19h45", "activite": "Rituel du coucher"},
+      {"horaire": "20h", "activite": "Coucher"}
+    ]
+  }
+}

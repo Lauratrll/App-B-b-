@@ -1,0 +1,162 @@
+{
+  "mois": 3,
+  "tranche_age": "3 mois",
+  "rubrique": "jeux",
+  "titre_rubrique": "Jeux & stimulation",
+  "sous_titre": "Mois 3 — Le mois de l'Attentif",
+  "adjectif_du_mois": "L'Attentif",
+  "qualification_du_mois": "À 3 mois, ton bébé tient sa tête, suit du regard, sourit en réponse. Il commence à attraper ses mains, à vocaliser, à attendre une réponse à ses sons. C'est le mois de l'attention dirigée — où le monde devient un terrain de découverte active, et où chaque échange devient un véritable petit dialogue.",
+  "description": "4 activités simples, sans matériel coûteux, calibrées pour accompagner les conquêtes neurologiques du 3e mois : proto-dialogue, vision active, tenue de tête, préhension émergente.",
+  "principes_cles": [
+    "À 3 mois, ton attention vaut infiniment plus que le matériel — la voix humaine et le visage sont les stimulations les plus riches",
+    "Le silence partagé est un échange : laisser bébé répondre avec ses sons, ses mouvements, ses regards",
+    "5-10 minutes d'activité par session — au-delà, c'est de la sur-stimulation"
+  ],
+  "activites": [
+    {
+      "id": "conversation_des_sons",
+      "numero": 1,
+      "titre": "La conversation des sons",
+      "duree": "5-10 minutes",
+      "frequence": "1 à 2 fois par jour, quand bébé est calme et éveillé",
+      "developpe": [
+        "Proto-dialogue",
+        "Lien social",
+        "Bases du langage",
+        "Conscience de l'écoute"
+      ],
+      "materiel": [
+        "Rien — juste toi et bébé",
+        "Une surface confortable (tapis, lit) où vous pouvez être face à face"
+      ],
+      "description": "À 3 mois, bébé entre dans le proto-dialogue : il vocalise, attend, vocalise à nouveau. Cette activité consiste à entrer dans un vrai échange — pas à parler à bébé, mais à parler avec lui. Reproduire ses sons à l'identique, attendre, le laisser répondre. C'est la fondation du langage et du sentiment d'être entendu.",
+      "comment_jouer": [
+        "S'asseoir face à bébé à 30 cm (distance de focus visuel optimale à cet âge)",
+        "Attendre qu'il émette un son spontanément — pas le solliciter",
+        "Répéter exactement son son, une seule fois, avec le même rythme",
+        "Attendre 5-7 secondes en silence, regard doux — c'est son temps de traitement",
+        "Quand il répond, accueillir avec un sourire et reprendre la boucle"
+      ],
+      "variantes": "Quand bébé ne vocalise pas, tu peux initier doucement avec un son simple « ah-euh », puis attendre. Filmer 2-3 minutes de temps en temps : tu verras des micro-expressions invisibles en direct.",
+      "a_eviter": "Parler trop, trop vite, trop fort. Multiplier les voix aiguës exagérées. Insister quand bébé détourne le regard — c'est son signal d'arrêt à respecter."
+    },
+    {
+      "id": "tapis_contrastes",
+      "numero": 2,
+      "titre": "Le tapis des contrastes",
+      "duree": "5-15 minutes",
+      "frequence": "Quotidien si bébé apprécie, sur les moments de calme actif",
+      "developpe": [
+        "Vision active",
+        "Suivi oculaire",
+        "Attention soutenue",
+        "Préparation à la préhension"
+      ],
+      "materiel": [
+        "Un tapis ou plaid posé au sol",
+        "3 à 5 objets aux contrastes visuels marqués : noir/blanc, rouge vif, jaune, rayures, motifs simples",
+        "Exemples : carrés en feutrine, hochet bicolore, livre en tissu contrasté, ruban noir sur fond blanc"
+      ],
+      "description": "À 3 mois, la vision de bébé fait un bond : il distingue les contrastes forts à 30-60 cm et commence à fixer durablement les motifs. Installer un parcours visuel à sa hauteur lui permet d'exercer le suivi oculaire, base de toute attention soutenue. Pas besoin de produits chers : un foulard à motifs, une photo contrastée, un livre noir et blanc font merveille.",
+      "comment_jouer": [
+        "Allonger bébé sur le dos sur le tapis, lumière douce sans soleil direct",
+        "Disposer un objet contrasté à environ 30 cm au-dessus de son visage, immobile, 30 secondes",
+        "Le déplacer très lentement de gauche à droite — bébé doit suivre des yeux, pas avec la tête",
+        "Changer d'objet toutes les 2-3 minutes — il se lasse vite",
+        "S'arrêter dès que bébé détourne le regard 2-3 fois de suite (signal de saturation)"
+      ],
+      "variantes": "Pour les bébés qui tiennent un peu sur le ventre, disposer les objets en cercle à 30 cm — il les fixe en tournant la tête. Sortir : une promenade sous des arbres à feuilles bouge devant ses yeux comme un mobile naturel.",
+      "a_eviter": "Mobiles électriques avec musique forte (sur-stimulation). Tablettes ou téléphones « éducatifs » — aucun bénéfice avant 3 ans, recommandation officielle française."
+    },
+    {
+      "id": "tummy_time_miroir",
+      "numero": 3,
+      "titre": "Tummy time avec miroir",
+      "duree": "1-5 minutes par session, plusieurs fois par jour",
+      "frequence": "3 à 5 fois par jour minimum — c'est l'activité-clé à 3 mois",
+      "developpe": [
+        "Motricité globale",
+        "Tenue de tête",
+        "Renforcement cervical et dorsal",
+        "Prévention plagiocéphalie"
+      ],
+      "materiel": [
+        "Un tapis ferme au sol (pas de matelas mou)",
+        "Un miroir incassable bébé (ou simple miroir posé en sécurité)",
+        "Un coussin d'allaitement ou serviette roulée (en option, pour les premières fois)"
+      ],
+      "description": "Le tummy time (temps sur le ventre, supervisé éveillé) est l'activité la plus importante à 3 mois : il renforce la nuque, le dos, prévient la plagiocéphalie, et prépare le retournement à venir. Le miroir transforme un exercice parfois fatigant en moment de découverte joyeuse : bébé voit son visage, le regarde, le sourit. Il tient sa tête plus longtemps quand il est captivé.",
+      "comment_jouer": [
+        "Poser bébé sur le ventre sur le tapis, bras en avant pour éviter de glisser",
+        "Installer le miroir à 30 cm de son visage, légèrement incliné",
+        "S'allonger à côté de lui à la même hauteur — tu apparais aussi dans le reflet",
+        "Lui parler, sourire dans le miroir, l'encourager : « tu te vois ? »",
+        "Arrêter dès qu'il fatigue ou commence à pleurer — repos sur le dos en peau à peau"
+      ],
+      "variantes": "Si bébé refuse encore le sol, le tummy time peut se faire sur ta poitrine, toi à demi-allongée, lui sur ton ventre. Coussin d'allaitement sous ses aisselles aide à dégager la tête pour les premières sessions difficiles.",
+      "a_eviter": "Forcer plus de 5 min si bébé pleure — produit un dégoût durable. Tummy time sur lit ou canapé moelleux — bébé s'enfonce et fatigue plus vite. Tummy time non supervisé — risque d'étouffement."
+    },
+    {
+      "id": "hochet_main_qui_s_ouvre",
+      "numero": 4,
+      "titre": "Le hochet pour la main qui s'ouvre",
+      "duree": "5-10 minutes",
+      "frequence": "1 à 2 fois par jour, à des moments d'éveil calme",
+      "developpe": [
+        "Préhension volontaire émergente",
+        "Coordination œil-main",
+        "Schéma corporel",
+        "Conscience de la main"
+      ],
+      "materiel": [
+        "Un hochet léger (moins de 50 g), facile à saisir : forme allongée, en bois, en silicone ou en tissu",
+        "Un anneau de dentition souple peut aussi convenir",
+        "Idéalement avec une texture ou un petit grelot doux"
+      ],
+      "description": "Vers 3 mois, bébé découvre ses mains — il les regarde, les met en bouche, les ouvre et ferme. C'est la fondation du schéma corporel. Lui proposer un hochet léger qu'il peut accidentellement attraper, puis volontairement maintenir, transforme cette découverte en première expérience de préhension. La main qui s'ouvre devient une main qui saisit.",
+      "comment_jouer": [
+        "Asseoir bébé en semi-allongé dans tes bras ou un transat (jamais à plat sur le dos pour cette activité)",
+        "Présenter le hochet à 20-30 cm de ses mains, dans son champ visuel",
+        "Le bouger doucement pour attirer son attention — il tend la main par réflexe",
+        "Si sa main ouverte effleure le hochet, le placer doucement dans sa paume, fermer ses doigts dessus",
+        "Le laisser tenir, secouer, lâcher (souvent involontairement) — recommencer"
+      ],
+      "variantes": "Présenter sur le ventre pendant le tummy time pour combiner les compétences. Pour les bébés plus avancés : tenir le hochet juste hors de portée à 20 cm — il tend le bras volontairement.",
+      "a_eviter": "Hochets lourds ou volumineux — main trop petite, fatigue rapide. Forcer le poing à se fermer — la préhension doit être à son initiative. Hochets avec petites pièces détachables — risque d'étouffement à cet âge."
+    }
+  ],
+  "geste_reflexo_du_mois": {
+    "titre": "Réveil des mains — réflexo des paumes",
+    "intro": "Mini-rituel réflexo court pour accompagner la découverte des mains, étape majeure du mois 3. À faire pendant le change, après le bain, ou en moment de complicité.",
+    "duree": "2-3 minutes",
+    "moment": "Quotidien, dans un moment calme d'éveil",
+    "etapes": [
+      "Prendre une main de bébé dans la tienne, paume tournée vers le haut",
+      "Avec ton pouce, effleurer doucement la paume en cercles très lents, sens horaire, 30 sec — pression 0/10",
+      "Étirer chaque doigt délicatement, de la base vers le bout, 5 sec par doigt",
+      "Tracer un huit doux du poignet à la pointe du majeur, 3 fois",
+      "Terminer par un baiser dans la paume — bébé adore la sensation",
+      "Recommencer avec l'autre main"
+    ],
+    "ce_que_ca_fait": "Stimule les zones réflexes du langage et du système nerveux. Renforce la conscience de la main, étape neurologique majeure à 3 mois. Crée un rituel de connexion privilégié.",
+    "pression": "0/10 — c'est une caresse, pas un massage"
+  },
+  "rythme_journee_type": {
+    "titre": "Repères d'une journée à 3 mois",
+    "intro": "Un repère, pas un protocole rigide. Chaque bébé a son rythme propre — ces fenêtres horaires servent de boussole, pas de règle.",
+    "repere_eveil_total": "Environ 8 à 10 heures d'éveil cumulé sur 24h, en sessions de 1h à 1h30 maximum",
+    "repere_sommeil_total": "Environ 14 à 16 heures de sommeil sur 24h, dont 8-10h la nuit (avec réveils) et 4-5h en 3-4 siestes",
+    "exemples_creneaux": [
+      "7h-8h : réveil, tétée, peau à peau ou massage doux",
+      "8h-9h : éveil calme, tummy time avec miroir, conversation des sons",
+      "9h-11h : 1ère sieste (souvent la plus longue)",
+      "11h-12h30 : tétée, change, éveil — tapis des contrastes, sortie courte",
+      "12h30-14h : 2ème sieste",
+      "14h-15h30 : éveil actif, hochet, vocalisations, bain de lumière",
+      "15h30-17h : 3ème sieste (souvent plus courte)",
+      "17h-18h30 : éveil, peut être l'« heure des pleurs » résiduels — portage, calme",
+      "18h30-20h : rituel du coucher (voir 02_coucher), dernière tétée, coucher"
+    ],
+    "principe_d_or": "Respecter la fenêtre d'éveil de 1h-1h30 maximum est l'outil le plus puissant pour éviter la sur-fatigue et favoriser de bonnes siestes ET de bonnes nuits."
+  }
+}

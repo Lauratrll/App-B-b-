@@ -143,7 +143,7 @@ CREATE TABLE public.content (
   id          UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   mois        INTEGER NOT NULL CHECK (mois BETWEEN 0 AND 24),
   module      TEXT NOT NULL CHECK (module IN (
-                'guide', 'soin', 'saison', 'coucher', 'audio', 'jeux'
+                'guide', 'coucher', 'soin', 'saison', 'audio', 'jeux'
               )),
   categorie   TEXT,
   situation   TEXT,

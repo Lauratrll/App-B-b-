@@ -6,212 +6,219 @@
 
 ---
 
+## Palette de couleurs officielle — validée par la fondatrice
+
+6 couleurs de base extraites de la gamme choisie. Toujours utiliser ces codes hex — jamais d'approximation.
+
+| Nom | Hex | Usage principal |
+|-----|-----|-----------------|
+| **Cream** | `#F2EDE8` | Fond général de l'app, fond des pages |
+| **Peach** | `#F0B8A8` | Topbar, accents doux, badges, hover |
+| **Coral** | `#D4604A` | Action immédiate, alertes, CTA principal |
+| **Latte** | `#C89878` | Explications, éléments neutres chauds, icônes |
+| **Rain** | `#C8D8DC` | Geste réflexo, éléments doux, fond module coucher |
+| **Eucalyptus** | `#8A9E98` | Action parent, éléments naturels, nav active |
+
+### Déclinaisons par couleur
+
+```css
+/* CREAM */
+--cream:      #F2EDE8;   /* fond principal */
+--cream-dark: #E4DDD6;   /* fond secondaire, séparateurs */
+
+/* PEACH */
+--peach:      #F0B8A8;   /* accents, topbar, hover */
+--peach-dark: #C8806A;   /* texte sur fond peach, bordures */
+--peach-text: #7A3E2E;   /* texte foncé sur fond peach clair */
+
+/* CORAL */
+--coral:      #D4604A;   /* action immédiate, CTA, urgence */
+--coral-light:#F5D0C8;   /* fond bloc action immédiate */
+--coral-dark: #8A3020;   /* texte sur fond coral clair */
+
+/* LATTE */
+--latte:      #C89878;   /* explication, neutre chaud */
+--latte-light:#EDE0D4;   /* fond bloc explication */
+--latte-dark: #7A5038;   /* texte sur fond latte clair */
+
+/* RAIN */
+--rain:       #C8D8DC;   /* réflexo, éléments doux */
+--rain-light: #E8F0F2;   /* fond bloc réflexo */
+--rain-dark:  #486878;   /* texte sur fond rain clair */
+
+/* EUCALYPTUS */
+--eucal:      #8A9E98;   /* action parent, nav active */
+--eucal-light:#D4E0DC;   /* fond bloc action parent */
+--eucal-dark: #384E48;   /* texte sur fond eucalyptus clair */
+```
+
+### Couleurs des blocs de protocole
+
+| Bloc | Fond | Texte | Bordure gauche |
+|------|------|-------|----------------|
+| Explication | `#EDE0D4` | `#7A5038` | `#C89878` (Latte) |
+| Phrase d'ancrage | `#E8F0F2` | `#384E48` | `#8A9E98` (Eucalyptus) |
+| Action immédiate | `#F5D0C8` | `#8A3020` | `#D4604A` (Coral) |
+| Geste réflexo | `#E8F0F2` | `#486878` | `#C8D8DC` (Rain) |
+| Action parent | `#D4E0DC` | `#384E48` | `#8A9E98` (Eucalyptus) |
+| Conseil préventif | `#EDE0D4` | `#7A5038` | `#C89878` (Latte) |
+| Erreurs à éviter | `#F5D0C8` | `#8A3020` | `#D4604A` (Coral) |
+| Cadre de sécurité | `#E4DDD6` | `#5A4A40` | `#B4A89C` |
+
+### Couleurs des modules (cases d'accueil)
+
+| Module | Fond de case | Accent |
+|--------|-------------|--------|
+| 🧭 Guide-moi ! | `#EDE0D4` | `#C89878` |
+| 🌙 Préparer le coucher | `#E8F0F2` | `#8A9E98` |
+| 🌸 Prendre soin de moi | `#F5D0C8` | `#D4604A` |
+| 🌿 Conseil de saison | `#D4E0DC` | `#8A9E98` |
+| 💜 Partager & rassurer | `#E8F0F2` | `#C8D8DC` |
+| 🎯 Jeux & stimulation | `#EDE0D4` | `#C89878` |
+
+---
+
 ## Contraintes de format
 
 ```
 Format cible    : Mobile-first portrait
 Largeur max app : 390px (iPhone standard)
 Padding latéral : 16px (1rem)
-Border radius   : 12px (cards), 8px (boutons), 6px (tags)
+Border radius   : 14px (cards), 9px (boutons), 6px (tags)
+Fond général    : #F2EDE8 (Cream)
 ```
 
 L'app est conçue pour être utilisée **d'une main, la nuit, avec un bébé dans l'autre bras.**
-Cela impose :
 - Boutons larges (min 44px de hauteur)
 - Texte lisible sans zoom (min 11px, préférer 12–14px)
-- Contrastes élevés (fond clair / texte foncé)
+- Contrastes suffisants sur tous les fonds
 - Zones de tap généreuses (min 44×44px)
-
----
-
-## Palette de couleurs
-
-### Couleurs de fond
-
-```css
---bg-app      : #EFF4F1  /* fond général de l'app */
---bg-card     : #FFFFFF  /* fond des cards */
---bg-section  : #E8EDE9  /* fond des sections (remplace les dividers) */
-```
-
-### Couleurs des modules (topbar et accents)
-
-```css
-/* Mois 0 — tons lavande/vert doux */
---mois0-gradient : linear-gradient(135deg, #E1F5EE, #EEEDFE)
---mois0-accent   : #AFA9EC
-
-/* Mois 14+ — tons pêche/doré */
---mois14-gradient : linear-gradient(135deg, #FAEEDA, #FBEAF0)
---mois14-accent   : #EF9F27
-```
-
-### Couleurs des blocs de protocole
-
-```css
-/* Action immédiate */
---action-immediate-bg    : #FCEBEB
---action-immediate-text  : #A32D2D
---action-immediate-border: #E24B4A
-
-/* Réflexologie / Geste doux */
---reflexo-bg    : #E1F5EE
---reflexo-text  : #085041
---reflexo-border: #1D9E75
-
-/* Action parent */
---parent-bg    : #FBEAF0
---parent-text  : #72243E
---parent-border: #D4537E
-
-/* Conseil préventif */
---preventif-bg    : #FAEEDA
---preventif-text  : #854F0B
---preventif-border: #BA7517
-
-/* Cadre de sécurité */
---securite-bg    : #F1EFE8
---securite-text  : #444441
---securite-border: #888780
-
-/* Explication (neutre) */
---explication-bg    : #FFFFFF
---explication-border: #EF9F27
---explication-label : #633806
-```
-
-### Couleurs des bordures de gauche (cards)
-
-```css
---border-left-red    : 3px solid #E24B4A
---border-left-green  : 3px solid #1D9E75
---border-left-pink   : 3px solid #D4537E
---border-left-amber  : 3px solid #BA7517
---border-left-grey   : 3px solid #888780
---border-left-purple : 3px solid #7F77DD
---border-left-orange : 3px solid #EF9F27
-```
-
-### Couleurs de texte
-
-```css
---text-primary   : #1A1916  /* titres, corps principal */
---text-secondary : #888780  /* sous-titres, métadonnées */
---text-tertiary  : #C5C3B9  /* séparateurs breadcrumb */
---text-link      : #534AB7  /* liens cliquables */
---text-brand     : #412402  /* texte sur fond brand */
-```
-
-### Couleurs d'interface
-
-```css
---border-card    : 0.5px solid #D8D6CC
---border-input   : 0.5px solid #D8D6CC
---border-focus   : 1px solid #534AB7
-```
 
 ---
 
 ## Typographie
 
 ```css
-/* Police système — toujours en premier */
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
 
-/* Hiérarchie */
---text-xl   : 16px / font-weight 600  /* titre de page */
---text-lg   : 14px / font-weight 600  /* titre de section */
+--text-xl   : 16px / font-weight 500  /* titre de page */
+--text-lg   : 14px / font-weight 500  /* titre de section */
 --text-md   : 13px / font-weight 500  /* titre de card */
 --text-base : 12px / font-weight 400  /* corps principal */
 --text-sm   : 11px / font-weight 400  /* contenu des protocoles */
 --text-xs   : 10px / font-weight 400  /* métadonnées, labels */
---text-xxs  : 9px  / font-weight 700  /* labels uppercase */
+--text-xxs  : 9px  / font-weight 600  /* labels uppercase */
 
-/* Labels de section (uppercase) */
-letter-spacing: 0.06em
+/* Labels de section */
+letter-spacing: 0.07em
 text-transform: uppercase
 font-size: 9px
-font-weight: 700
+font-weight: 600
+color: #8A9E98  /* Eucalyptus — toujours pour les labels de section */
 ```
 
 ---
 
 ## Composants de base
 
-### TopBar (en-tête de page)
+### TopBar
 
 ```tsx
-// Utilisée sur toutes les pages de l'app
-<div className="flex items-center gap-2 rounded-xl p-3 mb-3"
-     style={{background: 'linear-gradient(135deg, #FAEEDA, #FBEAF0)'}}>
-  <div className="w-8 h-8 rounded-full bg-[#EF9F27] flex items-center justify-content text-sm flex-shrink-0">
-    👶
+<div style={{
+  background: '#F0B8A8',  /* Peach */
+  padding: '14px 16px',
+  display: 'flex',
+  alignItems: 'center',
+  gap: '10px',
+  borderBottom: '0.5px solid #C8806A'
+}}>
+  <div style={{
+    width: 36, height: 36, borderRadius: '50%',
+    background: '#D4604A',  /* Coral */
+    display: 'flex', alignItems: 'center', justifyContent: 'center',
+    flexShrink: 0
+  }}>
+    {/* Avatar bébé SVG illustré */}
   </div>
-  <div className="flex-1">
-    <div className="text-xs font-semibold text-[#412402]">
+  <div style={{flex: 1}}>
+    <div style={{fontSize: 13, fontWeight: 500, color: '#7A3E2E'}}>
       {babyName}
-      <span className="ml-1 text-[9px] px-1.5 py-0.5 rounded bg-[#FAEEDA]
-                       text-[#633806] border border-[#EF9F27]">
+      <span style={{
+        fontSize: 9, padding: '2px 7px', borderRadius: 4,
+        background: '#F2EDE8', color: '#7A3E2E',
+        marginLeft: 5, border: '0.5px solid #C8806A'
+      }}>
         {babyMonth} mois · {season}
       </span>
     </div>
-    <div className="text-[10px] text-[#633806] mt-0.5">{subtitle}</div>
+    <div style={{fontSize: 10, color: '#C8806A', marginTop: 2}}>{subtitle}</div>
   </div>
 </div>
 ```
 
-### BreadcrumbBar (fil d'Ariane)
+### BreadcrumbBar
 
 ```tsx
-// Navigation retour — présente sur toutes les pages internes
-<div className="flex items-center gap-1 mb-2 bg-white rounded-lg px-2 py-1 flex-wrap">
+<div style={{display: 'flex', alignItems: 'center', gap: 4, marginBottom: 9, flexWrap: 'wrap'}}>
   {items.map((item, i) => (
     <React.Fragment key={i}>
-      {i > 0 && <span className="text-[10px] text-[#C5C3B9]">›</span>}
+      {i > 0 && <span style={{fontSize: 9, color: '#8A9E98'}}>›</span>}
       {i === items.length - 1
-        ? <span className="text-[10px] font-medium text-[#1A1916]">{item.label}</span>
-        : <button onClick={item.onClick}
-                  className="text-[10px] text-[#534AB7] underline bg-transparent border-0">
-            {item.label}
-          </button>
+        ? <span style={{fontSize: 9, fontWeight: 500, color: '#3A3228'}}>{item.label}</span>
+        : <button onClick={item.onClick} style={{
+            fontSize: 9, color: '#8A9E98', background: 'none',
+            border: 'none', cursor: 'pointer', textDecoration: 'underline', padding: 0
+          }}>{item.label}</button>
       }
     </React.Fragment>
   ))}
 </div>
 ```
 
-### Card protocole (structure)
+### Card protocole
 
 ```tsx
-<div className="bg-white border border-[#D8D6CC] rounded-xl p-3 mb-2"
-     style={{borderLeft: '3px solid #E24B4A', borderRadius: '0 10px 10px 0'}}>
-  <div className="text-[9px] font-bold uppercase tracking-wider text-[#A32D2D] mb-1">
-    {labelText}
+/* Exemple — action immédiate */
+<div style={{
+  background: '#F5D0C8',
+  borderLeft: '3px solid #D4604A',
+  borderRadius: '0 12px 12px 0',
+  padding: '11px 13px',
+  marginBottom: 6
+}}>
+  <div style={{fontSize: 9, fontWeight: 600, textTransform: 'uppercase',
+               letterSpacing: '.07em', color: '#8A3020', marginBottom: 5}}>
+    Action immédiate
   </div>
-  <div className="flex flex-col gap-1 mt-1">
-    {steps.map((step, i) => (
-      <div key={i} className="flex gap-1.5 items-start">
-        <div className="w-4 h-4 rounded-full flex items-center justify-center
-                        text-[9px] font-bold flex-shrink-0 mt-0.5"
-             style={{background: '#FCEBEB', color: '#A32D2D'}}>
-          {i + 1}
-        </div>
-        <div className="text-[11px] text-[#1A1916] leading-snug">{step}</div>
-      </div>
-    ))}
-  </div>
+  {steps.map((step, i) => (
+    <div key={i} style={{display: 'flex', gap: 6, alignItems: 'flex-start', marginBottom: 4}}>
+      <div style={{
+        width: 17, height: 17, borderRadius: '50%', fontSize: 9, fontWeight: 600,
+        display: 'flex', alignItems: 'center', justifyContent: 'center',
+        flexShrink: 0, marginTop: 1,
+        background: '#F5D0C8', color: '#8A3020',
+        border: '0.5px solid #D4604A'
+      }}>{i + 1}</div>
+      <div style={{fontSize: 11, color: '#3A3228', lineHeight: 1.5}}>{step}</div>
+    </div>
+  ))}
 </div>
 ```
 
 ### Phrase d'ancrage
 
 ```tsx
-<div className="rounded-lg p-3 mb-2 text-[11px] italic leading-relaxed"
-     style={{
-       background: '#EEEDFE',
-       color: '#26215C',
-       borderLeft: '2px solid #AFA9EC'
-     }}>
+<div style={{
+  background: '#E8F0F2',
+  borderRadius: 8,
+  padding: '9px 11px',
+  fontSize: 11,
+  color: '#384E48',
+  fontStyle: 'italic',
+  borderLeft: '2px solid #8A9E98',
+  lineHeight: 1.6,
+  marginBottom: 7
+}}>
   {anchorText}
 </div>
 ```
@@ -219,190 +226,223 @@ font-weight: 700
 ### Boutons
 
 ```tsx
-// Bouton retour (petit, neutre)
-<button className="text-[10px] text-[#888780] bg-white border border-[#D8D6CC]
-                   rounded-md px-2 py-1 cursor-pointer">
-  ← Retour
+/* Retour */
+<button style={{
+  fontSize: 9, color: '#8A9E98',
+  background: '#F2EDE8', border: '0.5px solid #C8D8DC',
+  borderRadius: 5, padding: '3px 8px', cursor: 'pointer'
+}}>← Retour</button>
+
+/* Épingler */
+<button style={{
+  fontSize: 9, color: '#384E48',
+  background: '#D4E0DC', border: 'none',
+  borderRadius: 5, padding: '3px 8px', cursor: 'pointer'
+}}>☆ Épingler</button>
+
+/* Rapide */
+<button style={{
+  fontSize: 9, color: '#8A3020',
+  background: '#F5D0C8', border: 'none',
+  borderRadius: 5, padding: '3px 8px', cursor: 'pointer'
+}}>⚡ Rapide</button>
+
+/* Primaire (CTA abonnement) */
+<button style={{
+  width: '100%', padding: '13px',
+  background: '#D4604A',  /* Coral */
+  color: '#F2EDE8',
+  fontSize: 13, fontWeight: 500,
+  borderRadius: 12, border: 'none', cursor: 'pointer'
+}}>S'abonner</button>
+
+/* Catégorie (grille 2 colonnes) */
+<button style={{
+  padding: '10px 9px', borderRadius: 10,
+  border: '0.5px solid #C8D8DC',
+  background: '#F2EDE8', cursor: 'pointer', textAlign: 'left'
+}}>
+  <div style={{fontSize: 11, fontWeight: 500, color: '#3A3228'}}>{name}</div>
+  <div style={{fontSize: 9, color: '#8A9E98', marginTop: 2}}>{subtitle}</div>
 </button>
 
-// Bouton épingler (violet doux)
-<button className="text-[10px] text-[#534AB7] bg-[#EEEDFE] border-0
-                   rounded-md px-2 py-1 cursor-pointer">
-  ☆ Épingler
-</button>
-
-// Bouton rapide (vert doux)
-<button className="text-[10px] text-[#085041] bg-[#E1F5EE] border-0
-                   rounded-md px-2 py-1 cursor-pointer">
-  ⚡ Rapide
-</button>
-
-// Bouton primaire (action principale)
-<button className="w-full py-3 bg-[#534AB7] text-white text-sm font-semibold
-                   rounded-xl border-0 cursor-pointer">
-  {label}
-</button>
-
-// Bouton catégorie (grille 2 colonnes)
-<button className="p-2 rounded-xl border border-[#D8D6CC] bg-white
-                   cursor-pointer text-left hover:bg-[#EEEDFE]
-                   hover:border-[#AFA9EC]">
-  <div className="text-[11px] font-semibold text-[#1A1916]">{name}</div>
-  <div className="text-[9px] text-[#888780] mt-0.5">{subtitle}</div>
-</button>
-
-// Bouton situation (pleine largeur)
-<button className="w-full px-2.5 py-2 rounded-lg border border-[#D8D6CC]
-                   bg-white cursor-pointer text-left text-[11px]
-                   text-[#1A1916] mb-1.5 block
-                   hover:bg-[#EEEDFE] hover:border-[#AFA9EC]">
+/* Situation (pleine largeur) */
+<button style={{
+  width: '100%', padding: '9px 11px', borderRadius: 9,
+  border: '0.5px solid #C8D8DC', background: '#F2EDE8',
+  cursor: 'pointer', textAlign: 'left',
+  fontSize: 11, color: '#3A3228', marginBottom: 5
+}}>
   {situationText}
 </button>
 ```
 
-### Grille de catégories
+### Cases modules (accueil) — avec pattern SVG
+
+Chaque case module a un fond coloré + un pattern SVG illustré en arrière-plan (opacité 0.15–0.20). Pattern unique par module — jamais d'emoji seul.
 
 ```tsx
-<div className="grid grid-cols-2 gap-1.5 mb-2">
-  {categories.map(cat => (
-    <CategoryButton key={cat.id} {...cat} />
-  ))}
-</div>
+<button style={{
+  borderRadius: 14, border: '0.5px solid #C8D8DC',
+  cursor: 'pointer', overflow: 'hidden',
+  aspectRatio: '1', display: 'flex',
+  flexDirection: 'column', alignItems: 'flex-start',
+  justifyContent: 'flex-end', padding: 12,
+  position: 'relative',
+  background: '#EDE0D4'  /* couleur selon module */
+}}>
+  <svg style={{position: 'absolute', top: 0, right: 0, width: '100%', height: '100%', opacity: 0.18}}>
+    {/* pattern spécifique au module */}
+  </svg>
+  <div style={{fontSize: 11, fontWeight: 500, color: '#3A3228', position: 'relative', zIndex: 1}}>{name}</div>
+  <div style={{fontSize: 9, color: '#8A9E98', marginTop: 2, position: 'relative', zIndex: 1}}>{subtitle}</div>
+</button>
 ```
 
-### Tag badge
+### Navigation principale (5 onglets)
 
 ```tsx
-// Tag de module (dans la topbar)
-<span className="text-[9px] px-1.5 py-0.5 rounded bg-[#EEEDFE]
-                 text-[#3C3489] border border-[#AFA9EC] ml-1">
-  {tagText}
-</span>
-
-// Tag de catégorie (dans les jeux/stimulation)
-<span className="inline-block text-[9px] px-1.5 py-0.5 rounded
-                 font-semibold mr-1 mb-1 bg-[#EEEDFE] text-[#534AB7]">
-  {tagText}
-</span>
+<nav style={{
+  background: '#F2EDE8',
+  borderTop: '0.5px solid #C8D8DC',
+  display: 'flex', justifyContent: 'space-around',
+  padding: '9px 0 5px'
+}}>
+  {/* Icônes SVG outline — jamais d'emoji dans la nav */}
+  {/* Couleur inactive : #8A9E98 (Eucalyptus) */}
+  {/* Couleur active : #D4604A (Coral) */}
+</nav>
 ```
 
-### Message d'état vide
+### Badge / tag
 
 ```tsx
-<div className="text-center py-8 text-[#888780]">
-  <div className="text-2xl mb-2">☆</div>
-  <div className="text-sm font-medium text-[#1A1916] mb-1">
+/* Badge dans la topbar */
+<span style={{
+  fontSize: 9, padding: '2px 7px', borderRadius: 4,
+  background: '#F2EDE8', color: '#7A3E2E',
+  border: '0.5px solid #C8806A'
+}}>14 mois · Printemps</span>
+
+/* Tag catégorie (jeux, stimulation) */
+<span style={{
+  display: 'inline-block', fontSize: 9, padding: '2px 7px',
+  borderRadius: 4, fontWeight: 600, marginRight: 4,
+  background: '#E8F0F2', color: '#486878'
+}}>Motricité</span>
+```
+
+### Message état vide
+
+```tsx
+<div style={{textAlign: 'center', padding: '32px 16px', color: '#8A9E98'}}>
+  <div style={{fontSize: 24, marginBottom: 8}}>☆</div>
+  <div style={{fontSize: 12, fontWeight: 500, color: '#3A3228', marginBottom: 4}}>
     Aucun protocole épinglé
   </div>
-  <div className="text-[11px] leading-relaxed">
+  <div style={{fontSize: 11, lineHeight: 1.6}}>
     Explore le Guide-moi ! et épingle les protocoles que tu utilises souvent.
   </div>
 </div>
 ```
 
-### Alerte / avertissement
-
-```tsx
-// Avertissement médical (fond ambre)
-<div className="rounded-xl p-3 mb-2 text-[11px] leading-relaxed"
-     style={{background: '#FAEEDA', color: '#633806'}}>
-  {warningText}
-</div>
-
-// Alerte urgence (fond rouge doux)
-<div className="rounded-xl p-3 mb-2 text-[11px] leading-relaxed
-                border border-[#F09595]"
-     style={{background: '#FCEBEB', color: '#A32D2D'}}>
-  {urgencyText}
-</div>
-
-// Astuce (fond violet doux)
-<div className="rounded-xl p-3 mb-2 text-[11px] leading-relaxed"
-     style={{background: '#EEEDFE', color: '#26215C'}}>
-  {tipText}
-</div>
-```
-
 ---
 
-## Navigation principale (onglets fixes)
-
-```tsx
-// 5 onglets fixes en bas de l'écran
-const NAV_TABS = [
-  { id: 'home',    icon: '🏠', label: 'Accueil',    href: '/dashboard' },
-  { id: 'pinned',  icon: '📌', label: 'Épinglés',   href: '/epingles' },
-  { id: 'profile', icon: '👶', label: 'Profil',     href: '/profil' },
-  { id: 'plan',    icon: '💳', label: 'Abonnement', href: '/abonnement' },
-  { id: 'account', icon: '👤', label: 'Mon compte', href: '/compte' },
-]
-
-<nav className="fixed bottom-0 left-0 right-0 bg-white border-t border-[#D8D6CC]
-                flex justify-around items-center py-2 px-4 z-50">
-  {NAV_TABS.map(tab => (
-    <Link key={tab.id} href={tab.href}
-          className="flex flex-col items-center gap-0.5 text-center min-w-[44px]">
-      <span className="text-lg">{tab.icon}</span>
-      <span className={`text-[9px] ${isActive ? 'text-[#534AB7] font-semibold' : 'text-[#888780]'}`}>
-        {tab.label}
-      </span>
-    </Link>
-  ))}
-</nav>
-```
-
----
-
-## Page d'accueil (Dashboard)
-
-Structure de la page principale après connexion :
+## Structure de la page d'accueil (Dashboard)
 
 ```
-TopBar (prénom bébé + âge + saison)
+TopBar (Peach — prénom bébé + mois + saison)
 ↓
-Card "Mois X" (progression + mois suivant)
+Card "Mois X" (Cream — illustration bébé + progression)
 ↓
-6 modules en grille ou liste
+Grille 6 modules (2 colonnes — cases illustrées avec pattern SVG)
 ↓
-Card "Protocole épinglé en accès rapide" (dernier épinglé)
+Card "Épinglé récemment" (Cream + bordure Coral à gauche)
 ↓
-Navigation fixe (5 onglets)
+Navigation fixe (5 onglets — icônes SVG outline)
 ```
-
----
-
-## Animations et transitions
-
-```css
-/* Transitions douces — systématiques */
-transition: all 0.15s ease;
-
-/* Hover sur les cards */
-hover:scale-[1.01]
-hover:shadow-sm
-
-/* Apparition des protocoles */
-animate-in: fade-in slide-in-from-bottom-2 duration-200
-```
-
----
-
-## Accessibilité
-
-- Toutes les images ont un `alt`
-- Tous les boutons icônes ont un `aria-label`
-- Contraste minimum 4.5:1 sur tous les textes
-- Focus visible sur tous les éléments interactifs
-- Pas de contenu uniquement par couleur (icône + couleur systématiquement)
 
 ---
 
 ## Règles absolues UI
 
 1. **Jamais de largeur fixe > 390px** sur les éléments de contenu
-2. **Toujours un padding-bottom de 80px** sur les pages avec nav fixe (éviter le chevauchement)
-3. **Toujours border-radius de 0 sur le côté gauche** des cards avec bordure colorée à gauche
+2. **Toujours un padding-bottom de 80px** sur les pages avec nav fixe
+3. **Toujours border-radius: 0** sur le côté gauche des cards avec bordure colorée gauche
 4. **Les boutons de retour** sont toujours présents sur toutes les pages internes
-5. **Le fil d'Ariane** est toujours cliquable sur tous les niveaux sauf le dernier
-6. **Pas de scroll horizontal** — jamais déborder du viewport
-7. **Toujours tester** sur une fenêtre de 390px de large avant de valider un composant
+5. **Le fil d'Ariane** est cliquable sur tous les niveaux sauf le dernier
+6. **Pas de scroll horizontal** — jamais
+7. **Icônes SVG outline uniquement** dans la navigation — jamais d'emoji
+8. **Les patterns SVG des modules** ont toujours une opacité entre 0.15 et 0.20
+9. **Fond général systématique** : #F2EDE8 (Cream) — jamais de blanc pur
+10. **Couleur active de la nav** : #D4604A (Coral) — inactive : #8A9E98 (Eucalyptus)
+
+---
+
+## Récapitulatif palette — référence rapide
+
+```
+Cream      #F2EDE8   → fond général
+Peach      #F0B8A8   → topbar, accents
+Coral      #D4604A   → action, CTA, urgence
+Latte      #C89878   → explication, neutre
+Rain       #C8D8DC   → réflexo, doux
+Eucalyptus #8A9E98   → parent, nav, labels
+```
+
+
+---
+
+## Composant cases modules — validé
+
+### Spécifications
+
+```
+Hauteur       : 130px
+Border-radius : 14px
+Border        : 0.5px solid rgba(0,0,0,.07)
+Alignement    : centré (texte + contenu)
+Typographie   : Playfair Display 600 — 17px — line-height 1.15
+Sous-titre    : 9px uppercase — couleur Eucalyptus #8A9E98
+Pattern SVG   : position absolute, top 0 left 0, 100% width/height, z-index 1
+Contenu       : z-index 2 — toujours au-dessus du pattern
+```
+
+### Typographie des titres de modules
+
+```css
+font-family: 'Playfair Display', Georgia, serif;
+font-size: 17px;
+font-weight: 600;
+line-height: 1.15;
+color: #3A3228;
+letter-spacing: -.01em;
+text-align: center;
+```
+
+### Style des patterns SVG par module
+
+Chaque pattern est **organique et illustré** — jamais géométrique pur.
+Opacité globale : 0.15 à 0.32. Le texte prévaut toujours.
+
+| Module | Fond | Pattern |
+|--------|------|---------|
+| Guide-moi ! | `#EDE0D4` | Feuilles tropicales, tiges souples — tons Latte |
+| Préparer le coucher | `#E4EEF0` | Lune croissant, nuages doux, étoiles filantes — tons Rain |
+| Prendre soin de moi | `#F5E4DE` | Fleurs botaniques, pétales courbés, tiges — tons Coral |
+| Conseil de saison | `#DCE8E4` | Branches avec baies, herbes, feuilles — tons Eucalyptus |
+| Partager & rassurer | `#E8EEF2` | Volutes, plumes, ondes douces, petits cœurs — tons Rain |
+| Jeux & stimulation | `#EDE4D4` | Rubans souples, confettis organiques, ronds — tons Latte/Coral |
+
+### Règle absolue patterns
+
+Les patterns sont **illustrés et organiques** — courbes, feuilles, volutes, fleurs.
+Jamais de formes purement géométriques (cercles concentriques seuls, grilles, triangles répétés).
+Les SVG utilisent des `<path>` avec courbes de Bézier — pas uniquement des `<polygon>` ou `<circle>`.
+
+### Statut design
+
+✅ Palette validée (Cream / Peach / Coral / Latte / Rain / Eucalyptus)
+✅ Typographie validée (Playfair Display pour les titres de modules)
+✅ Cases modules validées (pattern organique + titre centré)
+⏳ À affiner plus tard — design non bloquant pour la création de contenu

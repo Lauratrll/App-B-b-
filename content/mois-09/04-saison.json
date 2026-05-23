@@ -1,0 +1,504 @@
+{
+  "mois": 9,
+  "tranche_age": "9 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 9 — Adapter la motricité, l'alimentation et les sorties à la saison",
+  "description": "À 9 mois, bébé explore le monde à quatre pattes et se hisse debout — la saison conditionne directement où et comment cette exploration se déploie. La diversification s'est enrichie en textures (morceaux fondants, autonomie cuillère, DME possible) — les fruits et légumes de saison deviennent des matériaux de motricité fine. Les incisives latérales en poussée se manifestent plus quand le climat change. L'app sélectionne automatiquement la version correspondant au mois civil en cours.",
+  "logique_selection": {
+    "regle": "À 9 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": ["mars", "avril", "mai"],
+      "ete": ["juin", "juillet", "août"],
+      "automne": ["septembre", "octobre", "novembre"],
+      "hiver": ["décembre", "janvier", "février"]
+    },
+    "transition": "Lors du changement de saison, proposer une transition douce à partir de la dernière semaine du mois précédent."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps",
+      "titre": "Mois 9 au printemps (mars-avril-mai)",
+      "ambiance": "Lumière généreuse, températures variables, pollens en pic — exploration motrice extérieure favorisée par les jours plus longs",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#7BA82F",
+      "emoji": "🌱",
+      "ancrage": "À 9 mois au printemps, ton bébé peut profiter d'un terrain d'exploration motrice idéal : herbe fraîche, sol stable, sorties prolongées. C'est aussi une saison qui demande vigilance allergique (pollens) et adaptation alimentaire (premières fraises, jeunes pousses). L'angoisse de séparation reste vive — les visites multiples du printemps peuvent compliquer la donne.",
+      "principes": [
+        "Exploration motrice extérieure : couverture au sol sur l'herbe = terrain de quatre pattes sécurisé — vigilance sur ce qui peut être porté à la bouche",
+        "Pollens en pic : vigilance allergique si terrain familial (toux sèche, conjonctivite, éternuements en rafale)",
+        "Diversification de printemps : asperges, fraises, jeunes pousses — premières expériences en morceaux fondants",
+        "Variation thermique forte matin/après-midi : habillage en couches pour les sorties prolongées"
+      ],
+      "habillage": {
+        "principe": "Toujours UNE couche de plus que toi pour les sorties — bébé à quatre pattes brûle peu de calories mais perd de la chaleur par les extrémités",
+        "guide_temperature": [
+          {
+            "temperature": "5-10°C",
+            "tenue": "Body manches longues + pantalon coton + combinaison polaire + bonnet + chaussons fermés. Couverture supplémentaire en poussette."
+          },
+          {
+            "temperature": "10-15°C",
+            "tenue": "Body manches longues + pantalon + petit gilet ou polaire fine + bonnet pour sortie. Chaussures souples premier âge si bébé commence à se hisser dehors."
+          },
+          {
+            "temperature": "15-20°C",
+            "tenue": "Body manches longues + pantalon léger + gilet fin si vent. Chaussures souples ou pieds nus sur l'herbe (préférable pour l'apprentissage proprioceptif)."
+          },
+          {
+            "temperature": "20-25°C",
+            "tenue": "Body manches courtes + short ou robe légère. Chapeau à bord large dès que le soleil tape. Crème solaire bébé indice 50 sur zones exposées dès avril. Pieds nus sur surface propre."
+          }
+        ]
+      },
+      "sorties": {
+        "frequence_conseillee": "1 à 2 sorties/jour, 45 min à 1h30 selon la météo — privilégier les temps au sol",
+        "moments_ideaux": [
+          "10h-12h : lumière douce, températures correctes, pic de pollens plus faible que l'après-midi",
+          "15h-17h30 : après la sieste, avant la fraîcheur du soir",
+          "Éviter 7h-9h (frais et humide) et après 18h (humidité du soir + pic pollens)"
+        ],
+        "lieux_recommandes": [
+          "Parc avec pelouse propre — couverture étendue au sol pour exploration quatre pattes",
+          "Aire de jeux pour les plus petits (toboggan accompagné, balançoire bébé) — premières expériences vestibulaires en extérieur",
+          "Marchés de plein air le matin — découverte sensorielle (couleurs, odeurs, voix, pointage)",
+          "Premiers pique-niques en famille — bébé teste des morceaux de fruits/légumes au sol"
+        ],
+        "equipement": [
+          "Poussette avec capote — ombre permanente sur le visage de bébé",
+          "Porte-bébé physiologique : à 9 mois, dos ou hanche selon le modèle, durée limitée à 20-30 min (poids = 8-10 kg)",
+          "Couverture épaisse imperméable à étendre au sol — terrain de motricité libre",
+          "Sac : couches, lingettes, change, eau pour bébé (gourde à bec ou paille), petites compotes ou morceaux de fruits, doudou",
+          "Crème solaire bébé indice 50 dès avril, chapeau à bord large, lunettes de soleil catégorie 3"
+        ]
+      },
+      "diversification_de_saison": {
+        "titre": "Légumes et fruits du printemps en morceaux fondants",
+        "intro": "À 9 mois, bébé peut manger des morceaux fondants (cuits jusqu'à ce qu'ils s'écrasent entre les doigts), et la diversification menée par l'enfant (DME) est pleinement adaptée. Le printemps offre des textures parfaites pour l'apprentissage de la mastication et de la motricité fine.",
+        "legumes_prioritaires": [
+          "Asperges blanches bien cuites en bâtonnets — saisie facile et saveur fine",
+          "Courgette nouvelle cuite vapeur en bâtonnets — facile à attraper et à mâcher",
+          "Petits pois écrasés à la fourchette — initiation à la texture grumeleuse",
+          "Jeunes carottes nouvelles cuites en bâtonnets — saveur sucrée naturelle",
+          "Jeunes épinards cuits mélangés à une purée — premier vert tendre"
+        ],
+        "fruits_prioritaires": [
+          "Fraises mûres en quartiers (si tolérance allergique confirmée depuis 7 mois) — vigilance sur le terrain familial",
+          "Pomme cuite en lamelles fondantes — texture fondante pour la prise au point pinces",
+          "Poire bien mûre en quartiers pelés — fondante, hydratante",
+          "Rhubarbe cuite mélangée à compote de pomme — saveur acidulée"
+        ],
+        "vigilance_allergies": "Fraises et fruits rouges : poursuivre la prudence sur 3 jours d'observation par nouveauté si terrain allergique familial. Œuf entier (jaune + blanc) à introduire si pas encore fait — bien cuit. Fruits à coque sous forme de purée de fruits à coque (jamais entiers : risque fausse-route)."
+      },
+      "particularites_sante": {
+        "vigilance": [
+          "Allergies polliniques : toux sèche persistante, larmoiement, conjonctivite, éternuements en rafale → consulter le pédiatre",
+          "UV en hausse dès avril : peau de bébé toujours très perméable, ombre permanente obligatoire, crème solaire indice 50 sur zones exposées",
+          "Variations thermiques brutales matin/après-midi : risque de rhumes saisonniers — habillage en couches",
+          "Premiers étouffements possibles avec l'élargissement des textures : connaître les manœuvres de désobstruction (formation IPS d'1h très utile)",
+          "Tiques en zones boisées dès avril : inspection corporelle après chaque sortie en forêt"
+        ],
+        "signes_consultation": [
+          "Toux persistante + nez qui coule depuis > 48h",
+          "Sifflement respiratoire ou tirage (creux entre les côtes) → 15",
+          "Conjonctivite récidivante (œil rouge et collé) — possible allergie pollinique",
+          "Éruption cutanée après introduction d'un aliment → arrêter l'aliment et consulter",
+          "Morsure de tique : retirer avec tire-tique, surveiller 1 mois apparition d'érythème migrant"
+        ],
+        "vitamine_d": "Supplémentation à poursuivre quotidiennement même avec l'arrivée du soleil — peau de bébé encore très couverte"
+      },
+      "rituel_lumiere": {
+        "titre": "Exploration motrice du matin en extérieur",
+        "duree": "30-45 min",
+        "moment": "Entre 9h30 et 11h",
+        "description": "Étendre une grande couverture sur l'herbe d'un parc — bébé en motricité libre, vêtements peu encombrants. Poser autour de lui 2-3 objets simples (cuillère en bois, balle, hochet). Te tenir à distance assise, présente mais non sollicitante. 30-45 min sont parfaites — la lumière naturelle du matin active la sécrétion de sérotonine et règle l'horloge circadienne, le sol stable offre un terrain idéal pour le quatre pattes."
+      },
+      "alimentation_maman": {
+        "titre": "Soutenir le post-partum au printemps",
+        "elements": [
+          "Légumes verts de saison (épinards, blettes, asperges, ortie en soupe) — riches en fer, anti-anémie souvent encore d'actualité à 9 mois",
+          "Premières fraises et fruits rouges — antioxydants pour la fatigue cumulative",
+          "Hydratation : températures qui montent, déshydratation discrète possible — viser 1,5 à 2 L d'eau/jour",
+          "Marche extérieure 30 min/jour : vitamine D + remise en route circulatoire + élévation de l'humeur",
+          "Cure de magnésium (3 semaines) au printemps si fatigue installée — discuter avec ton médecin (peut soulager les insomnies de fin de nuit)"
+        ]
+      }
+    },
+    "ete": {
+      "id": "saison_ete",
+      "titre": "Mois 9 en été (juin-juillet-août)",
+      "ambiance": "Chaleur intense, soleil fort, sécheresse — vigilance thermique majeure et exploration motrice à adapter",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#D4A04C",
+      "emoji": "☀️",
+      "ancrage": "À 9 mois en été, ton bébé qui explore activement a besoin d'un terrain frais et sécurisé. La déshydratation reste un risque majeur (bébé en mouvement transpire plus). C'est aussi la saison des fruits et légumes les plus parfumés — moment idéal pour étoffer les textures de la diversification. Les vacances peuvent perturber le rythme et amplifier l'angoisse de séparation.",
+      "principes": [
+        "Déshydratation = risque n°1 — proposer de l'eau en gourde à bec très fréquemment, surtout pendant les phases de quatre pattes actif",
+        "Soleil direct INTERDIT avant 1 an — ombre permanente, même sous la capote, vérifier les rayons obliques",
+        "Tétées et biberons + repas solides hydratants (pastèque, concombre) — couvrir les besoins hydriques accrus",
+        "Diversification estivale : les meilleurs légumes et fruits de l'année — textures variées pour la mastication"
+      ],
+      "habillage": {
+        "principe": "Aussi peu que possible, mais TOUJOURS un body en coton pour absorber la transpiration — bébé qui se déplace transpire vite",
+        "guide_temperature": [
+          {
+            "temperature": "18-22°C",
+            "tenue": "Body manches courtes + pantalon ou short coton. Pas de bonnet. Pieds nus en intérieur."
+          },
+          {
+            "temperature": "22-26°C",
+            "tenue": "Body manches courtes + short en coton ou robe légère. Chapeau à bord large pour la sortie. Pieds nus sur surface propre."
+          },
+          {
+            "temperature": "26-30°C",
+            "tenue": "Body manches courtes ou body sans manches + couche-culotte légère. Chapeau obligatoire. Aérer souvent la couche pour éviter les irritations."
+          },
+          {
+            "temperature": "> 30°C",
+            "tenue": "Body sans manches en coton léger. Rester en intérieur frais (climatisation modérée 24-25°C ou ventilateur déporté). Aérer la couche très souvent. Sortie uniquement avant 9h ou après 19h."
+          }
+        ]
+      },
+      "sorties": {
+        "frequence_conseillee": "Éviter strictement les sorties entre 11h et 17h en juillet-août — privilégier tôt le matin et fin d'après-midi",
+        "moments_ideaux": [
+          "7h-10h : températures encore fraîches, lumière douce — sortie longue avec exploration motrice possible",
+          "18h-20h : après la chaleur, balade tranquille",
+          "Éviter strictement 11h-17h : risque de coup de chaleur même à l'ombre"
+        ],
+        "lieux_recommandes": [
+          "Parc ombragé tôt le matin — couverture au sol pour la motricité libre",
+          "Bord d'eau (rivière, lac, mer ombragée) : trempette assise OK, baignade brève et avec couche piscine adaptée",
+          "Pataugeoire bébé en jardin ombragé : pieds dans l'eau pendant l'exploration motrice — sensation fraîcheur",
+          "Intérieurs frais : médiathèque, musée, centre commercial (limité à 1h pour éviter sur-stimulation et virus)",
+          "Éviter terrasses en plein soleil même avec parasol — la chaleur monte du sol"
+        ],
+        "equipement": [
+          "Poussette avec voilage anti-UV (jamais de tissu sur la capote — effet four)",
+          "Brumisateur d'eau pure (visage, nuque, poignets) à utiliser plusieurs fois par sortie",
+          "Gourde à bec ou paille pour bébé : eau plate à proposer toutes les 15-20 min en sortie",
+          "Crème solaire bébé indice 50 minéral, à renouveler toutes les 2h, sur les zones exposées (visage, mains, pieds, nuque)",
+          "Chapeau à bord large, lunettes de soleil bébé certifiées (catégorie 3 ou 4)",
+          "Couches piscine si point d'eau"
+        ]
+      },
+      "diversification_de_saison": {
+        "titre": "Légumes et fruits de l'été en morceaux fondants",
+        "intro": "L'été offre les saveurs les plus douces et les plus hydratantes — idéales pour étoffer les textures et hydrater par l'alimentation. Cuisson vapeur courte pour préserver les vitamines, morceaux fondants ou crus pour certains fruits.",
+        "legumes_prioritaires": [
+          "Courgette d'été cuite en bâtonnets fondants — très hydratante",
+          "Tomate sans peau et sans pépins en quartiers — vigilance acidité (introduire progressivement)",
+          "Concombre en bâtonnets pelés crus — hydratant, croquant léger (vigilance fausse-route, surveiller)",
+          "Aubergine sans peau cuite vapeur en bâtonnets — fondante",
+          "Haricots verts cuits — vigilance fausse-route, bien fondants, coupés en tronçons de 2 cm"
+        ],
+        "fruits_prioritaires": [
+          "Pêche bien mûre pelée en quartiers — sucrée, hydratante, fondante",
+          "Abricot bien mûr en quartiers pelés — saveur fine",
+          "Pastèque sans pépins en cubes — très hydratante",
+          "Melon en cubes — très digeste, hydratant",
+          "Myrtilles écrasées ou coupées en deux (vigilance fausse-route si entières)",
+          "Brugnon, prune bien mûre en quartiers pelés"
+        ],
+        "vigilance_allergies": "Tomate : à introduire progressivement (acidité). Fruits exotiques (mangue, kiwi) : encore en vigilance si terrain allergique familial. Toujours un aliment nouveau à la fois sur 3 jours d'observation. Attention fausses-routes avec myrtilles entières, raisin entier, tomate cerise entière — toujours couper en deux ou quatre."
+      },
+      "particularites_sante": {
+        "vigilance": [
+          "Coup de chaleur : peau rouge et chaude, agitation puis somnolence, refus de boire → URGENCE 15",
+          "Déshydratation : moins de 5 couches mouillées/jour, bouche sèche, yeux creux, pleurs sans larmes → consulter en urgence",
+          "Brûlure solaire : même 10 min de soleil direct sur peau de bébé peut brûler → ombre permanente",
+          "Gastro-entérite estivale : selles très liquides multiples + vomissements → risque rapide de déshydratation, consulter dans la journée",
+          "Noyade : bébé qui tient assis et debout peut basculer dans 10 cm d'eau — surveillance constante autour des points d'eau, même à terre",
+          "Étouffements : raisin entier, tomate cerise entière, morceaux de pastèque trop gros — toujours couper en quatre"
+        ],
+        "signes_consultation": [
+          "Fièvre > 38,5°C sans cause apparente en été → consulter (déshydratation associée)",
+          "Couches mouillées < 5/jour ou couches sèches plus de 6h",
+          "Diarrhée + vomissements répétés → consulter rapidement (déshydratation)",
+          "Peau qui ne reprend pas sa forme en pinçant doucement le ventre → déshydratation, URGENCE 15",
+          "Insolation : peau rouge écarlate + agitation puis abattement → URGENCE 15"
+        ],
+        "vitamine_d": "Supplémentation à poursuivre quotidiennement — l'exposition directe au soleil reste interdite, donc le soleil ne couvre pas les besoins"
+      },
+      "rituel_fraicheur": {
+        "titre": "Bain frais du milieu de journée",
+        "duree": "5-10 min",
+        "moment": "Entre 13h et 15h, au pic de chaleur",
+        "description": "Bain à 33-34°C (frais, pas froid) pendant 5-10 min. À 9 mois, bébé peut jouer assis dans le bain avec quelques objets de transvasement (gobelets, éponge) — moment ludique et rafraîchissant. Pièce ventilée (ventilateur déporté, pas dirigé). Tapis antidérapant indispensable. Après le bain, ne pas sécher complètement le corps — laisser un peu d'humidité s'évaporer pour rafraîchir. Habillage léger. Suivre d'un moment au calme dans la pièce la plus fraîche."
+      },
+      "alimentation_maman": {
+        "titre": "Soutenir le post-partum en été",
+        "elements": [
+          "Hydratation maximale : 2 à 3 L d'eau par jour, plus si allaitement (qui augmente les pertes hydriques)",
+          "Fruits et légumes frais et hydratants (pastèque, concombre, melon, tomate) — antioxydants et eau",
+          "Repas frais et fractionnés : 5 petits repas plutôt que 3 gros — meilleure tolérance digestive en chaleur",
+          "Sortie matinale 30 min avant 10h : lumière douce, fraîcheur, vitamine D sans risque",
+          "Sieste l'après-midi si possible (15-30 min) — la fatigue thermique s'ajoute à la fatigue parentale",
+          "Vigilance sur la prise de poids estivale : la chaleur peut couper l'appétit, ne pas sauter de repas (surtout si allaitement encore en cours)"
+        ]
+      }
+    },
+    "automne": {
+      "id": "saison_automne",
+      "titre": "Mois 9 en automne (septembre-octobre-novembre)",
+      "ambiance": "Lumière qui décline, virus respiratoires qui circulent, températures qui baissent — exploration motrice intérieure et vigilance bronchiolite",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ancrage": "À 9 mois en automne, ton bébé entre dans sa deuxième saison à risque viral. La bronchiolite, la grippe et la gastro circulent activement — l'entrée en crèche ou chez la nounou multiplie les expositions. C'est aussi une période où la luminosité décroît : impact sur le moral parental, surtout pour les parents qui viennent de reprendre le travail. La diversification d'automne offre des saveurs riches et réconfortantes.",
+      "principes": [
+        "L'automne est le pic de la bronchiolite (à VRS surtout) — mesures barrières strictes recommandées",
+        "Décroissance de la luminosité : impact possible sur le moral parental (tristesse saisonnière) — sortir en pleine lumière chaque jour",
+        "Températures variables : 5°C le matin, 18°C en début d'après-midi — habillage en couches",
+        "Diversification automnale : courges, champignons (bien cuits), pommes, poires, châtaignes — saveurs réconfortantes en morceaux fondants",
+        "Entrée en collectivité (crèche/nounou) souvent récente : pic de petits maux, gastros à répétition les 3 premiers mois — normal et passager"
+      ],
+      "habillage": {
+        "principe": "Habillage en couches — facile à enlever en intérieur chauffé, à remettre en sortie",
+        "guide_temperature": [
+          {
+            "temperature": "0-5°C",
+            "tenue": "Body manches longues + pyjama chaud + combi polaire + bonnet + moufles + chaussons fermés"
+          },
+          {
+            "temperature": "5-10°C",
+            "tenue": "Body manches longues + pantalon coton + veste polaire ou doudoune sans manches + bonnet + couverture en sortie"
+          },
+          {
+            "temperature": "10-15°C",
+            "tenue": "Body manches longues + pantalon + gilet + bonnet pour sortir + chaussures souples premier âge"
+          },
+          {
+            "temperature": "15-20°C",
+            "tenue": "Body manches longues + pantalon léger ou jogging, bonnet seulement pour sortie venteuse"
+          }
+        ]
+      },
+      "sorties": {
+        "frequence_conseillee": "1 sortie/jour de 30-45 min en plein milieu de journée, idéalement avec lumière",
+        "moments_ideaux": [
+          "11h-15h : lumière maximale, températures plus douces",
+          "Éviter 7h-9h (froid humide, brouillards) et après 17h (nuit qui tombe vite en novembre)"
+        ],
+        "lieux_recommandes": [
+          "Parcs ensoleillés — chercher la lumière, surtout en novembre",
+          "Forêt en couleurs (sensoriel) — feuilles, odeurs, lumière dorée, exploration de matériaux naturels (sous surveillance étroite : feuilles peuvent être portées à la bouche)",
+          "Éviter strictement les lieux fermés bondés (centres commerciaux, transports aux heures de pointe, salles d'attente médicales)",
+          "Limiter les visites de personnes potentiellement enrhumées — bronchiolite très contagieuse"
+        ],
+        "equipement": [
+          "Combinaison ou couverture polaire dans la poussette",
+          "Capote de poussette relevée pour les pluies",
+          "Habillage de pluie pour bébé (cape pour poussette ou combinaison imperméable) et toi",
+          "Sac : couches, lingettes, change, eau pour bébé (gourde à bec), petites compotes ou morceaux, mouchoirs, sérum physiologique en dosettes",
+          "Solution de lavage de nez physiologique dans le sac : utile dès le premier nez bouché"
+        ]
+      },
+      "diversification_de_saison": {
+        "titre": "Légumes et fruits de l'automne en morceaux fondants",
+        "intro": "L'automne offre des saveurs réconfortantes parfaites pour les textures plus consistantes de 9 mois : courges fondantes, légumes-racines en bâtonnets, châtaignes en purée. Le retour des soupes maison réchauffe les repas.",
+        "legumes_prioritaires": [
+          "Potimarron en cubes fondants — doux, naturellement sucré, riche en vitamine A",
+          "Courge butternut en bâtonnets cuits vapeur — très fondante, facile à saisir",
+          "Patate douce en cubes — sucrée naturellement, fondante",
+          "Panais en bâtonnets cuits — saveur fine, légèrement sucrée",
+          "Champignons de Paris bien cuits émincés (en petites lamelles) — première texture nouvelle",
+          "Brocolis en petits bouquets bien cuits — saisie facile, mastication"
+        ],
+        "fruits_prioritaires": [
+          "Pomme cuite en lamelles fondantes — classique de saison",
+          "Poire bien mûre en quartiers — très digeste",
+          "Coing cuit en compote — saveur originale",
+          "Premières clémentines en quartiers sans peau ni pépins — vitamine C, vigilance acidité",
+          "Châtaignes en purée maison (sans sucre ajouté) — saveur d'automne, riche"
+        ],
+        "vigilance_allergies": "Pas d'allergènes spécifiques majeurs en automne, mais toujours un aliment nouveau à la fois sur 3 jours. Châtaignes : vigilance si terrain allergique aux fruits à coque. Champignons : uniquement bien cuits, jamais crus, et seulement champignons cultivés (Paris, pleurotes)."
+      },
+      "particularites_sante": {
+        "vigilance_majeure_bronchiolite": {
+          "introduction": "Le mois 9 en automne expose au pic de bronchiolite (octobre-février). À cet âge, bébé est très mobile, sort plus, et est souvent en collectivité — exposition maximale. Mesures barrières strictes recommandées dès les premiers cas dans l'entourage.",
+          "mesures_barrieres": [
+            "Lavage des mains avant tout contact avec bébé (parents, professionnels, visiteurs)",
+            "Pas de visite si la personne est enrhumée — fermeté nécessaire",
+            "Éviter les lieux fermés bondés (transports, centres commerciaux, salles d'attente)",
+            "Aérer la maison 10 min matin et soir, même en hiver",
+            "Beyfortus (Nirsévimab) : immunisation passive — voir avec le pédiatre (recommandation HAS pour tous les bébés à leur première saison VRS)",
+            "Vaccin grippe possible dès 6 mois — recommandation à discuter avec le pédiatre selon situation"
+          ]
+        },
+        "vigilance_generale": [
+          "Rhumes à répétition en début de collectivité : normal les 3 premiers mois (système immunitaire en construction) — lavage de nez 4-5 fois/jour",
+          "Conjonctivite : œil rouge et collé — souvent virale, parfois bactérienne (consulter si purulent)",
+          "Gastro-entérite saisonnière : selles liquides multiples + vomissements → consulter, surveiller hydratation",
+          "Tristesse parentale liée à la baisse de luminosité combinée au retour pro — DPP tardive possible à 9 mois"
+        ],
+        "signes_consultation": [
+          "Bronchiolite : sifflement, tirage (creux entre les côtes), nez très bouché qui empêche de téter/manger, fatigue inhabituelle → consulter en urgence ou 15",
+          "Refus de s'alimenter > 12h → consulter",
+          "Fièvre > 38,5°C qui persiste plus de 48h ou > 39°C → consulter",
+          "Couches mouillées < 5/jour pendant un épisode infectieux → consulter (déshydratation)"
+        ],
+        "vitamine_d": "Supplémentation quotidienne essentielle en automne (luminosité décroissante)"
+      },
+      "rituel_lumiere": {
+        "titre": "Capter la lumière déclinante",
+        "duree": "20-30 min",
+        "moment": "Entre 11h et 13h, en extérieur ou près d'une fenêtre exposée sud",
+        "description": "Installer bébé sur sa couverture au sol près d'une fenêtre exposée sud, ou idéalement en extérieur dans un parc ensoleillé. Lumière indirecte (jamais soleil direct sur lui). 20-30 min suffisent pour aider à réguler le rythme circadien malgré la baisse globale de luminosité. Si tu reprends le travail et ne peux pas en milieu de journée : profiter du week-end pour 1h de plein air ensoleillé, et sortir 15 min à la pause déjeuner pour toi (lumière sur ton propre cerveau)."
+      },
+      "alimentation_maman": {
+        "titre": "Soutenir le post-partum en automne",
+        "elements": [
+          "Aliments réconfortants chauds : soupes maison, légumes rôtis, légumineuses (lentilles, pois chiches), châtaignes — fer et chaleur",
+          "Vitamine C des fruits de saison (clémentines, kiwis, persil frais) — soutien immunitaire",
+          "Boissons chaudes apaisantes : infusions (sauf si allaitement, vérifier les plantes compatibles), tisanes de tilleul/verveine",
+          "Sortie pleine lumière 30 min/jour minimum : lutte contre la dépression saisonnière, soutient le moral",
+          "Sommeil prioritaire : se coucher 30 min plus tôt si possible — la nuit tombe tôt, profiter du signal naturel"
+        ]
+      },
+      "moral_lumiere_decroissante": {
+        "titre": "Quand la luminosité fait mal au moral",
+        "intro": "Vers octobre-novembre, la baisse de luminosité peut amplifier la fatigue parentale et faire émerger une tristesse saisonnière. Combinée à la fatigue cumulée de 9 mois et au retour pro souvent récent, elle peut devenir préoccupante.",
+        "actions": [
+          "Sortir chaque jour, au moins 30 min, en milieu de journée (lumière naturelle même couverte)",
+          "Investir dans une lampe de luminothérapie (10 000 lux) si exposition matinale impossible — 20 min par jour",
+          "Maintenir une activité physique douce (marche, yoga doux, pilates) — endorphines et lumière",
+          "Si tristesse persistante au-delà de 2 semaines, sensation d'enfermement, perte d'élan → consulter le médecin généraliste (DPP tardive possible jusqu'à 12 mois)"
+        ]
+      }
+    },
+    "hiver": {
+      "id": "saison_hiver",
+      "titre": "Mois 9 en hiver (décembre-janvier-février)",
+      "ambiance": "Froid, pic viral, peau sèche, luminosité au plus bas — vigilance sanitaire et énergétique majeure",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#5E7A88",
+      "emoji": "❄️",
+      "ancrage": "À 9 mois en hiver, bébé est au pic viral de l'année (bronchiolite, grippe, gastro) souvent combiné à l'entrée en collectivité. La luminosité est au plus bas — fatigue parentale et DPP tardive bien réelles. La diversification se nourrit de soupes, purées chaudes et légumes-racines. Le maintien d'un rythme et d'une exposition lumineuse minimale est ton outil principal.",
+      "principes": [
+        "Pic viral majeur : bronchiolite, grippe, gastro circulent activement — mesures barrières strictes",
+        "Peau de bébé très sèche par le chauffage : hydratation cutanée quotidienne nécessaire (corps + visage)",
+        "Luminosité au plus bas : sortie quotidienne 20-30 min en milieu de journée même par temps gris",
+        "Chauffage intérieur : viser 19-20°C dans les pièces de vie, 18-20°C dans la chambre, hygrométrie 50-60% (humidificateur si chauffage électrique)"
+      ],
+      "habillage": {
+        "principe": "Couches multiples — facile à enlever en intérieur chauffé. Vigilance : bébé à quatre pattes a vite chaud à l'effort puis vite froid en pause.",
+        "guide_temperature": [
+          {
+            "temperature": "< 0°C",
+            "tenue": "Body manches longues + pyjama chaud + combinaison polaire intégrale + bonnet épais + moufles + chaussons fermés + couverture polaire dans la poussette"
+          },
+          {
+            "temperature": "0-5°C",
+            "tenue": "Body manches longues + pyjama coton chaud + combi polaire + bonnet + moufles + chaussons fermés + couverture en sortie"
+          },
+          {
+            "temperature": "5-10°C",
+            "tenue": "Body manches longues + pantalon coton + veste polaire ou doudoune + bonnet + chaussures souples premier âge"
+          },
+          {
+            "temperature": "10-15°C (jours doux)",
+            "tenue": "Body manches longues + pantalon coton ou polaire fine + gilet + bonnet pour sortir"
+          }
+        ]
+      },
+      "sorties": {
+        "frequence_conseillee": "1 sortie/jour de 20-30 min en milieu de journée — non négociable pour la lumière",
+        "moments_ideaux": [
+          "11h-14h : lumière maximale et moins froid",
+          "Éviter strictement 7h-10h (froid intense) et après 16h (nuit qui tombe)"
+        ],
+        "lieux_recommandes": [
+          "Parcs ensoleillés — chercher la lumière du sud",
+          "Marchés en plein air le matin si pas trop froid",
+          "Éviter strictement les lieux fermés bondés (transports, centres commerciaux, salles d'attente)",
+          "Visites limitées à 1-2 personnes maximum, jamais si quelqu'un est enrhumé"
+        ],
+        "equipement": [
+          "Combinaison polaire intégrale ou nid d'ange chaud dans la poussette",
+          "Capote de poussette relevée pour le vent",
+          "Habillage en couches : facile à enlever en intérieur surchauffé (transports, magasins)",
+          "Sac : couches, lingettes, change, mouchoirs, sérum physiologique en dosettes, baume hydratant, eau pour bébé",
+          "Crème ou baume protecteur visage avant les sorties (Cold cream ou cérat de Galien)"
+        ]
+      },
+      "diversification_de_saison": {
+        "titre": "Légumes et fruits de l'hiver en morceaux fondants",
+        "intro": "L'hiver offre des saveurs douces et réconfortantes — courges qui finissent, racines, pommes de terre, fruits secs réhydratés. Les soupes et purées tièdes deviennent un confort, à proposer aussi en cuillère autonome pour bébé.",
+        "legumes_prioritaires": [
+          "Carotte cuite en bâtonnets fondants (toujours disponible)",
+          "Potimarron, courge butternut en cubes (si encore disponibles, doux)",
+          "Panais en bâtonnets cuits — typique de l'hiver, fin et doux",
+          "Topinambour cuit écrasé — saveur d'artichaut, à introduire en petite quantité (peut produire des gaz)",
+          "Pomme de terre en purée ou en cubes fondants",
+          "Poireau (blanc, cuit, fondant) — saveur douce, riche en fibres"
+        ],
+        "fruits_prioritaires": [
+          "Pomme cuite en lamelles fondantes (toute la saison)",
+          "Poire bien mûre en quartiers (toute la saison)",
+          "Clémentine, mandarine en quartiers sans peau ni pépins (vigilance acidité)",
+          "Banane bien mûre en rondelles ou écrasée",
+          "Pruneaux réhydratés et coupés en petits morceaux (utile en cas de constipation)",
+          "Kiwi (à partir de 9 mois si pas terrain allergique) en quartiers pelés"
+        ],
+        "vigilance_allergies": "Toujours un aliment nouveau à la fois sur 3 jours. Les fruits secs (pruneaux, abricots secs) à bien réhydrater avant pour éviter les fausses-routes. Kiwi : vigilance terrain allergique. Pas d'amandes/noisettes/noix entières (fausse-route) — seulement en purée."
+      },
+      "particularites_sante": {
+        "vigilance_majeure_pic_viral": {
+          "introduction": "L'hiver est le pic absolu des virus respiratoires (bronchiolite, grippe) et digestifs (gastro). À 9 mois, bébé en collectivité multiplie les expositions. Mesures barrières strictes recommandées de décembre à février.",
+          "mesures_barrieres": [
+            "Lavage des mains systématique avant tout contact avec bébé",
+            "Refuser fermement les visites de personnes enrhumées ou récemment enrhumées",
+            "Aérer la maison 10 min matin et soir même par grand froid (renouvelle les particules virales)",
+            "Éviter strictement transports en commun aux heures de pointe et lieux fermés bondés",
+            "Beyfortus (Nirsévimab) si pas encore reçu : à discuter avec le pédiatre — recommandation HAS",
+            "Vaccin grippe à proposer pour bébé fragile et pour l'entourage (recommandation HAS)"
+          ]
+        },
+        "vigilance_peau": [
+          "Peau très sèche par le chauffage : hydratation quotidienne au minimum (crème émolliente après le bain)",
+          "Eczéma du nourrisson : peut apparaître ou s'aggraver en hiver — consulter pour traitement adapté",
+          "Bain à 37°C (pas plus chaud) et court (5-7 min) — l'eau chaude assèche la peau",
+          "Humidificateur dans la chambre si chauffage électrique (hygrométrie 50-60%)",
+          "Lèvres gercées et joues rouges : baume protecteur avant chaque sortie (Cold cream, cérat de Galien)"
+        ],
+        "signes_consultation": [
+          "Bronchiolite : sifflement, tirage, nez très bouché qui empêche de téter/manger → consulter en urgence ou 15",
+          "Gastro : selles très liquides + vomissements répétés → surveiller hydratation, consulter rapidement (solution de réhydratation orale SRO disponible en pharmacie sans ordonnance)",
+          "Fièvre > 38,5°C qui persiste plus de 48h → consulter",
+          "Refus alimentaire de plus de 12h ou couches mouillées < 5/jour → consulter (déshydratation)",
+          "Eczéma qui s'étend, suinte, ou empêche le sommeil → consulter (corticothérapie locale possible)"
+        ],
+        "vitamine_d": "Supplémentation quotidienne ABSOLUMENT essentielle en hiver — soleil très peu présent"
+      },
+      "rituel_lumiere": {
+        "titre": "Capter la lumière minimale du milieu de journée",
+        "duree": "20 min",
+        "moment": "Entre 12h et 14h, près d'une fenêtre exposée sud",
+        "description": "Installer bébé sur sa couverture au sol près d'une fenêtre exposée sud — moment où la lumière est la plus forte de la journée. 20 min suffisent pour aider à maintenir l'horloge circadienne. Si possibilité : sortir en milieu de journée même par temps gris — l'œil capte la lumière même sans soleil direct. Pour le parent en détresse de lumière : lampe de luminothérapie 10 000 lux 20-30 min le matin, particulièrement utile quand le retour pro impose des journées sans lumière naturelle."
+      },
+      "alimentation_maman": {
+        "titre": "Soutenir le post-partum en hiver",
+        "elements": [
+          "Aliments chauds et riches : soupes maison, légumes racines rôtis, légumineuses (lentilles, pois chiches) — fer et énergie",
+          "Vitamine D à supplémenter aussi pour toi (consulter ton médecin) — la majorité des Français en manque l'hiver",
+          "Vitamine C des agrumes de saison (clémentines, oranges) — soutien immunitaire",
+          "Boissons chaudes apaisantes : tisanes (vérifier compatibilité allaitement)",
+          "Sortie pleine lumière 30 min/jour minimum, même par temps gris — moral et vitamine D",
+          "Repos prioritaire : se coucher tôt — l'hiver appelle au repos, suivre le rythme naturel"
+        ]
+      },
+      "moral_hiver": {
+        "titre": "Tenir bon dans l'hiver à 9 mois",
+        "intro": "L'hiver à 9 mois cumule plusieurs défis : peu de lumière, virus permanents, sorties limitées, fatigue cumulée, retour pro souvent récent, entrée en collectivité avec ses petits maux. Le risque de bascule en dépression post-partum tardive est réel. Les signaux à repérer et les actions à mettre en place :",
+        "actions": [
+          "Sortir CHAQUE jour, ne serait-ce que 20 min en milieu de journée — non négociable",
+          "Lampe de luminothérapie 10 000 lux 20-30 min le matin si exposition extérieure très limitée par le retour pro",
+          "Maintenir un lien social actif : appel hebdomadaire avec une amie, visite (sans virus) d'un proche, cercle de parole local",
+          "Si fatigue qui devient désespoir, perte d'élan vital, idées noires → consulter le médecin généraliste rapidement (bilan sanguin TSH/ferritine/vit D + évaluation psy)",
+          "Ressources : 3114 (24/7, anonyme), MonParcoursPsy (12 séances remboursées), Allo Parents Bébé 0 800 00 34 56, Maman Blues"
+        ]
+      }
+    }
+  }
+}

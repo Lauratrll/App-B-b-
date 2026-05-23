@@ -1,0 +1,292 @@
+{
+  "mois": 0,
+  "tranche_age": "0-4 semaines",
+  "rubrique": "jeux",
+  "titre_rubrique": "Jeux et éveil",
+  "sous_titre": "Pas de jouets, juste toi : l'éveil du nouveau-né en 4 sens",
+  "description": "À 0-4 semaines, bébé ne joue pas au sens classique. Il observe, il sent, il écoute, il enregistre. Son cerveau crée 1 million de connexions par seconde — et chacune se construit dans la rencontre avec toi. Cette rubrique te donne les vraies activités d'éveil de cet âge : peau à peau, regard, voix, contraste, motricité libre. Aucun jouet n'est utile maintenant. Toi, tu suffis largement.",
+  "ancrage": "Tu n'as pas besoin de stimuler ton bébé. Tu as besoin de le rencontrer. Le bébé qui regarde le mur pendant 10 minutes, qui fixe la lumière, qui suit ta voix : il travaille. Son cerveau intègre le monde à son rythme. Le 'rien faire' avec un nouveau-né n'existe pas — tout est éveil. Ne cherche pas à faire plus. Cherche à être plus présente.",
+  "principes_fondamentaux": [
+    {
+      "titre": "Moins, c'est plus",
+      "texte": "Le système nerveux du nouveau-né est immature. Il filtre mal les stimulations. Trois minutes d'activité d'éveil suffisent souvent. Sur-stimuler ne le 'développe' pas — ça le surcharge et il pleure."
+    },
+    {
+      "titre": "Le visage humain est son jouet préféré",
+      "texte": "Bébé a une préférence neurologique innée pour le visage humain. À 20-30 cm de distance, ton visage est ce qu'il y a de plus fascinant au monde pour lui. Aucun mobile, aucun jouet, aucun écran n'égale ça."
+    },
+    {
+      "titre": "L'éveil passe par la phase d'éveil calme",
+      "texte": "Bébé alterne 6 états : sommeil profond, sommeil léger, somnolence, éveil calme, éveil actif, pleurs. Le seul moment où il peut 'recevoir' un éveil, c'est l'éveil calme — yeux grands ouverts, regard attentif, corps détendu. C'est court (5-15 min souvent) et précieux."
+    },
+    {
+      "titre": "La motricité libre selon Pikler",
+      "texte": "Le bébé n'a besoin d'aucune posture qu'il ne peut prendre seul. Pas de bébé assis avec des coussins, pas de transat penché, pas de cosy en dehors de la voiture. Il bouge librement sur le dos, c'est suffisant. Il développera tout, à son rythme, sans nous."
+    }
+  ],
+  "reperer_phase_eveil_calme": {
+    "titre": "Repérer la fenêtre d'éveil calme",
+    "intro": "C'est LE moment pour proposer une activité. Hors de cette fenêtre, mieux vaut ne rien proposer.",
+    "signes_phase_propice": [
+      "Yeux grands ouverts, brillants, attentifs",
+      "Visage tranquille, pas crispé",
+      "Mains détendues ou légèrement ouvertes",
+      "Respiration calme et régulière",
+      "Il tourne la tête vers les sons, suit du regard",
+      "Bras et jambes en mouvement doux, non saccadé"
+    ],
+    "signes_phase_a_eviter": [
+      "Yeux qui se ferment, paupières lourdes",
+      "Regard fuyant, qui détourne",
+      "Bâillements, éternuements (signaux d'auto-régulation, pas de fatigue uniquement)",
+      "Hoquet (souvent un signe de sur-stimulation chez le nouveau-né)",
+      "Visage rouge ou crispé",
+      "Doigts écartés, mains tendues",
+      "Pleurs ou geignements"
+    ],
+    "duree_eveil_max": "À cet âge, une fenêtre d'éveil calme dure entre 5 et 20 minutes. Au total, bébé ne peut pas rester éveillé plus de 45 à 60 minutes d'affilée avant de devoir dormir à nouveau. Au-delà, il entre en sur-fatigue et il devient impossible à endormir."
+  },
+  "activites_socle": {
+    "titre": "Les 4 activités-socle du nouveau-né",
+    "intro": "Ces 4 activités sont les seules dont bébé ait vraiment besoin à cet âge. Elles construisent tout : sécurité, attachement, régulation sensorielle, lien.",
+    "activites": [
+      {
+        "id": "peau_a_peau",
+        "nom": "Le peau à peau",
+        "pourquoi": "C'est l'activité la plus importante des 4 premières semaines. Régule la température, le rythme cardiaque, le taux de glucose, libère ocytocine chez bébé ET chez le porteur (mère OU père, les deux fonctionnent). Stabilise la respiration. Favorise la lactation. Apaise les pleurs en quelques minutes dans la majorité des cas.",
+        "comment_faire": [
+          "Bébé en couche uniquement, posé verticalement sur ta poitrine nue",
+          "Une couverture chaude par-dessus son dos (pas par-dessus sa tête)",
+          "Visage tourné de côté, voies respiratoires bien dégagées",
+          "Tu peux être allongée, semi-assise, ou portée en écharpe",
+          "Pas de téléphone, pas d'écran, pas de musique forte — juste toi, lui, le silence ou ta voix douce",
+          "Durée idéale : 30 min minimum, jusqu'à plusieurs heures sans souci"
+        ],
+        "frequence": "Idéalement plusieurs heures par jour, surtout les 2 premières semaines. C'est l'activité-roi du 4ème trimestre.",
+        "pour_le_co_parent": "Tout aussi puissant pour l'autre parent. Le bébé reconnaît son odeur, sa voix, son rythme cardiaque. Vraie construction du lien. Le co-parent peut faire 1h de peau à peau pendant que tu dors — c'est gagnant pour les trois."
+      },
+      {
+        "id": "regard_mutuel",
+        "nom": "Le regard mutuel et les mimiques",
+        "pourquoi": "Bébé voit à 20-30 cm. C'est exactement la distance entre ton visage et le sien quand il est dans tes bras. Il distingue les contrastes (yeux, sourcils, bouche), suit lentement les mouvements lents. Le regard mutuel est la base du lien d'attachement et du développement du cerveau social.",
+        "comment_faire": [
+          "Pose bébé sur tes genoux face à toi, semi-redressé, soutenu",
+          "Distance : 20-30 cm entre vos visages",
+          "Regarde-le simplement, sans rien forcer",
+          "Quand il accroche ton regard, tu peux exagérer doucement tes mimiques : ouvrir grand la bouche, écarquiller les yeux, sourire grand, tirer la langue lentement",
+          "Laisse-lui le temps — il peut mettre 30 secondes à 1 minute à essayer d'imiter (oui, certains nouveau-nés imitent dès la première semaine)",
+          "Détourne le regard si tu vois qu'il est fatigué (yeux qui fuient, hoquet)"
+        ],
+        "frequence": "3 à 5 minutes par session, plusieurs fois par jour. Très court — la fatigue arrive vite.",
+        "variante": "La 'conversation' : tu lui parles, tu attends qu'il fasse un petit son ou un mouvement, tu y réponds. C'est le tout premier dialogue. Il prend conscience qu'il existe parce que tu lui réponds."
+      },
+      {
+        "id": "voix_chant_lecture",
+        "nom": "La voix, le chant, la lecture",
+        "pourquoi": "Bébé reconnaît ta voix depuis la grossesse (à partir du 5ème mois in utero). C'est son repère sonore le plus apaisant. Les voix graves portent mieux et calment plus. Le rythme régulier (chanson, lecture) berce son système nerveux.",
+        "comment_faire": [
+          "Parle-lui dans la journée, raconte ce que tu fais ('là je te change, on enlève la couche, on met la propre...')",
+          "Chante-lui les chansons qui te viennent — peu importe que tu chantes juste",
+          "Lis-lui à voix haute, n'importe quoi (un journal, un livre, un magazine) — c'est le rythme et la mélodie qui comptent à cet âge",
+          "Varie les tons : voix grave pour calmer, voix légèrement plus aiguë pour jouer",
+          "Marque des pauses, laisse-lui le temps de 'répondre' avec un son, un mouvement, un regard"
+        ],
+        "frequence": "Aussi souvent que tu veux, sans pression. Même 2 minutes ici et là suffisent. Pas besoin d'une 'session lecture' formelle.",
+        "ce_qui_marche_le_mieux": "Les berceuses traditionnelles (Au clair de la lune, À la claire fontaine), les chansons de ton enfance, les comptines avec rythme régulier. Évite la musique forte et les écrans qui parlent."
+      },
+      {
+        "id": "motricite_libre",
+        "nom": "La motricité libre au sol",
+        "pourquoi": "Selon les travaux d'Emmi Pikler, le bébé sait quand bouger, comment, et à quel rythme. Lui laisser un espace plat et sûr lui permet d'explorer sa propre motricité. Pas de coussin, pas de transat, pas de cosy : juste lui sur un tapis ferme.",
+        "comment_faire": [
+          "Étends un tapis ferme et propre au sol (pas trop mou, pas un canapé)",
+          "Pose bébé sur le dos, en body ou en pyjama",
+          "Pas de coussin, pas de cale-bébé, pas d'oreiller autour",
+          "Laisse-le bouger librement : il bouge ses bras, ses jambes, tourne la tête",
+          "Tu peux t'installer à côté de lui, le regarder, lui parler, ne rien faire",
+          "S'il est fatigué et veut être pris, prends-le sans hésiter"
+        ],
+        "frequence": "Quelques minutes plusieurs fois par jour, dès la naissance. Augmente progressivement les durées dans les semaines à venir.",
+        "principe_pikler": "Tu n'as pas besoin de l'aider à 'tenir sa tête', 'rouler', 'se redresser'. Il le fera quand son cerveau et ses muscles seront prêts. Ton seul rôle : lui offrir l'espace et la sécurité pour explorer."
+      }
+    ]
+  },
+  "activites_complementaires": {
+    "titre": "Activités complémentaires (à doser)",
+    "intro": "À introduire avec parcimonie, toujours en phase d'éveil calme, et toujours en surveillant les signes de sur-stimulation.",
+    "activites": [
+      {
+        "id": "tummy_time",
+        "nom": "Tummy time (temps sur le ventre, supervisé)",
+        "pourquoi": "Le tummy time renforce la nuque, le dos, les bras. Il prévient la plagiocéphalie positionnelle (tête plate) et prépare les acquisitions motrices à venir.",
+        "comment_faire": [
+          "Bébé en éveil calme, jamais après une tétée (risque de régurgitation)",
+          "Sur un tapis ferme, au sol",
+          "Tu peux le poser sur ton ventre à toi (semi-allongée) plutôt que sur un tapis au début — souvent mieux toléré",
+          "Mets-toi face à lui, à hauteur de son visage, parle-lui, attire son regard",
+          "Sessions très courtes : 1 à 3 minutes au début, plusieurs fois par jour",
+          "Arrête dès qu'il geint ou que sa tête retombe — c'est un effort énorme à cet âge",
+          "JAMAIS sans surveillance directe — risque d'étouffement"
+        ],
+        "frequence": "2 à 3 minutes, 2 à 4 fois par jour. À augmenter progressivement dans les mois qui viennent.",
+        "alternative_si_il_deteste": "Le porter à plat ventre sur ton avant-bras (la 'prise du tigre') ou en peau à peau vertical : ça travaille les mêmes muscles, en douceur."
+      },
+      {
+        "id": "contraste_noir_blanc",
+        "nom": "Les contrastes noir/blanc",
+        "pourquoi": "À cet âge, la vision est floue et bébé ne distingue pas bien les couleurs. Il voit mieux les contrastes forts (noir/blanc, ou rouge sur blanc). Lui proposer une image contrastée capte son attention et travaille la vision de loin.",
+        "comment_faire": [
+          "Imprime ou achète une image avec un fort contraste noir/blanc (spirale, damier, visage stylisé)",
+          "Présente-la à 20-30 cm de son visage, en phase d'éveil calme",
+          "Bouge-la très lentement de gauche à droite — il suivra avec les yeux puis avec la tête",
+          "Sessions courtes : 1 à 3 minutes",
+          "Pas besoin d'investir : une feuille A4 avec des formes noires marche aussi bien qu'un livre du commerce"
+        ],
+        "frequence": "1 à 2 fois par jour, à proposer sans forcer. S'il détourne le regard, c'est fini.",
+        "à_éviter": "Les mobiles tournants au-dessus du lit : trop stimulants à cet âge, perturbent le sommeil, et bébé n'arrive pas encore à 's'en désintéresser' s'ils sont en mouvement."
+      },
+      {
+        "id": "massage_bebe",
+        "nom": "Le massage bébé",
+        "pourquoi": "Le toucher est le premier sens développé chez bébé. Le massage favorise la digestion, le sommeil, l'attachement, libère ocytocine, soulage les coliques. C'est aussi un moment privilégié pour le co-parent.",
+        "comment_faire": [
+          "Bébé en couche uniquement, dans une pièce chauffée (24-25°C)",
+          "Sur une serviette épaisse, au sol ou sur le lit",
+          "Une huile végétale neutre, BIO et de première pression à froid : amande douce, tournesol, ou olive (PAS d'huiles essentielles avant 3-6 mois)",
+          "Demande-lui la permission en lui parlant, attends son regard",
+          "Commence par les pieds, remonte aux jambes, puis ventre (sens des aiguilles d'une montre), bras, mains, dos",
+          "Pression très très douce — 0/10 à cet âge. Caresse plus que massage",
+          "Durée : 5 à 10 minutes max",
+          "Arrête au premier signe d'inconfort (pleurs, raidissement, regard fuyant)"
+        ],
+        "frequence": "Idéalement tous les jours ou tous les 2 jours, après le bain ou en début de soirée.",
+        "zones_speciales": [
+          "Voûte plantaire (zone réflexe du plexus solaire) : effleurage circulaire, 30 secondes max — apaise globalement",
+          "Ventre en U inversé : du nombril vers le bas-droit, puis traversée vers le bas-gauche, puis descente — favorise le transit",
+          "Visage : effleurer du milieu du front vers les tempes — dénoue les tensions"
+        ]
+      },
+      {
+        "id": "promenade_sensorielle",
+        "nom": "La promenade sensorielle à l'intérieur",
+        "pourquoi": "Bébé enregistre son environnement. Faire le tour de l'appartement en lui racontant ce qu'il voit, en lui faisant sentir, en lui faisant entendre, construit ses repères.",
+        "comment_faire": [
+          "Porte bébé dans les bras ou en écharpe",
+          "Promène-le dans chaque pièce de la maison",
+          "Décris ce que vous voyez : 'là c'est la cuisine, voilà la fenêtre, regarde la lumière'",
+          "Approche-le des plantes (sans qu'il touche), des objets aux couleurs vives, des sources de bruit doux (horloge qui tique, machine à café)",
+          "Tu peux ouvrir le frigo pour qu'il sente la fraîcheur, t'arrêter devant un miroir pour qu'il voie son reflet (même s'il ne se reconnaît pas)",
+          "Durée : 5 à 10 minutes, en éveil calme"
+        ],
+        "frequence": "Une fois par jour si tu veux, ou pendant tes trajets dans la maison naturellement."
+      }
+    ]
+  },
+  "ce_qui_n_est_pas_recommande_a_cet_age": {
+    "titre": "Ce qui n'est PAS recommandé à cet âge",
+    "intro": "Beaucoup de produits sont marketés pour les nouveau-nés mais sont contre-indiqués ou inutiles. Voici ce qu'il faut éviter.",
+    "elements": [
+      {
+        "element": "Les écrans (TV, téléphone, tablette)",
+        "raison": "Recommandation de l'OMS et du Haut Conseil de Santé Publique : 0 écran avant 3 ans (et idéalement avant 6 ans). À cet âge, ça perturbe la concentration, le sommeil, le développement visuel. Aucun bénéfice prouvé, des risques avérés.",
+        "alternative": "Toi, ta voix, ton visage. C'est mille fois mieux qu'un dessin animé pour bébé."
+      },
+      {
+        "element": "Les transats inclinés où bébé reste longtemps",
+        "raison": "Position semi-assise non physiologique à cet âge. Risque pour les voies respiratoires, pour le développement moteur, et pour le crâne (plagiocéphalie). Ne pas l'utiliser plus de 15-20 min à la fois et seulement éveillé.",
+        "alternative": "Tapis au sol pour les éveils, lit à plat pour le sommeil, peau à peau ou portage pour les câlins."
+      },
+      {
+        "element": "Les mobiles musicaux qui tournent au-dessus du lit",
+        "raison": "Trop stimulants à cet âge. Empêchent l'endormissement. Bébé ne peut pas 's'en détacher' visuellement quand ils bougent.",
+        "alternative": "Un mobile fixe en hauteur (assez loin du visage) avec des formes contrastées, présenté uniquement en éveil calme — ou tout simplement rien."
+      },
+      {
+        "element": "Les jouets qui font du bruit et de la lumière",
+        "raison": "Sur-stimulation sensorielle. Le système nerveux du nouveau-né n'est pas prêt à intégrer des stimulations multi-sensorielles complexes.",
+        "alternative": "Aucun jouet n'est nécessaire avant plusieurs mois. Vraiment."
+      },
+      {
+        "element": "Le 'youpala' (trotteur)",
+        "raison": "Interdit en plusieurs pays (Canada). Retarde l'acquisition de la marche, déforme les hanches, dangerosité avérée. À ne JAMAIS utiliser à aucun âge, pas seulement à cet âge.",
+        "alternative": "Motricité libre au sol. Le bébé apprend à marcher tout seul quand il est prêt."
+      },
+      {
+        "element": "Les cours d'éveil pour bébé de moins de 3 mois",
+        "raison": "Aucun bénéfice prouvé avant 3-4 mois. Bébé y est plus stimulé que vous, vous y êtes plus épuisée qu'apaisée. Mais peuvent être utiles socialement pour toi : ne pas être seule, rencontrer d'autres parents.",
+        "alternative": "Si tu y vas, vas-y POUR TOI et la rencontre avec d'autres mamans. Pas pour 'développer' bébé."
+      },
+      {
+        "element": "Le baby swimming avant 4 mois",
+        "raison": "Le réflexe d'apnée natal disparaît vers 6 mois, mais l'immunité est trop fragile pour les piscines collectives avant 4 mois minimum (idéalement 6 mois après les vaccins).",
+        "alternative": "Bain à la maison, peau à peau dans la baignoire à deux."
+      }
+    ]
+  },
+  "rythme_d_une_journee_d_eveil_type": {
+    "titre": "À quoi ressemble une journée d'éveil 'type' à 0-4 semaines",
+    "intro": "Pas de planning rigide — juste pour te donner une idée du rythme possible et te rassurer.",
+    "exemple": [
+      "Tétée / biberon (20-40 min selon mode de nutrition)",
+      "Change",
+      "5-15 min d'éveil calme (regard mutuel, voix, contraste, ou peau à peau)",
+      "Signes de fatigue (bâillement, regard qui fuit, mains qui se ferment)",
+      "Endormissement (bercement, peau à peau, écharpe, ou lit selon ton choix)",
+      "Sieste (durée très variable : 30 min à 3h)",
+      "Et on recommence...",
+      "Avec 1 à 2 phases d'éveil un peu plus longues dans la journée (souvent après le bain, ou en fin d'après-midi)",
+      "Sur 24h, bébé dort entre 14 et 18 heures au total. C'est normal qu'il dorme beaucoup."
+    ]
+  },
+  "geste_reflexologie_du_mois": {
+    "titre": "Le geste réflexo du mois — le doigt qui descend la voûte",
+    "intro": "Un seul geste à connaître à cet âge. Il est puissant et simple.",
+    "comment_faire": [
+      "Bébé détendu, en éveil calme ou somnolent, allongé sur le dos",
+      "Tu prends délicatement son petit pied dans ta main",
+      "Avec ton pouce, tu effleures la voûte plantaire du haut (sous les orteils) vers le bas (vers le talon)",
+      "Très doux — pression 0/10, juste une caresse",
+      "Tu remontes en glissant, puis redescends. Comme une vague qui va et vient.",
+      "5 à 10 passages sur chaque pied, pas plus de 30 secondes par pied",
+      "Tu peux le faire pendant la tétée, ou en l'endormant"
+    ],
+    "ce_qu_il_fait": "Cette zone correspond au plexus solaire en réflexologie — centre nerveux majeur. L'effleurage descendant apaise globalement, prépare au sommeil, calme les agitations digestives, soutient l'auto-régulation du système nerveux."
+  },
+  "erreurs_a_eviter": [
+    {
+      "erreur": "Penser que bébé 's'ennuie' s'il regarde le mur 10 minutes",
+      "consequence": "Il n'est jamais 'en train de rien faire'. Son cerveau crée un million de connexions par seconde. Le 'rien' est plein."
+    },
+    {
+      "erreur": "Proposer trop d'activités d'affilée",
+      "consequence": "Sur-stimulation, pleurs paradoxaux, sommeil perturbé. Une activité, une pause, observer, reprendre éventuellement. Jamais d'enchaînement."
+    },
+    {
+      "erreur": "Acheter beaucoup de jouets 'éveil bébé'",
+      "consequence": "Argent perdu, encombrement, stress de 'ne pas s'en servir assez'. À cet âge, TU es le jouet."
+    },
+    {
+      "erreur": "Forcer le tummy time alors qu'il pleure",
+      "consequence": "Il associera la position ventrale à un mauvais souvenir. Privilégie le tummy time sur ton ventre, et arrête au premier signe d'inconfort."
+    },
+    {
+      "erreur": "Lui mettre des écrans même 'pour le calmer'",
+      "consequence": "Effet de captation passive qui peut effectivement le 'figer', mais qui perturbe le sommeil et le développement. Toujours zéro écran avant 3 ans."
+    },
+    {
+      "erreur": "Comparer son éveil à celui d'autres bébés du même âge",
+      "consequence": "Chaque bébé a son rythme. Certains sont plus 'éveillés', d'autres dorment plus. À cet âge, ça ne dit rien de son intelligence future. Vraiment rien."
+    }
+  ],
+  "consulter_si": "Tu peux parler à ta sage-femme, au médecin ou au pédiatre si bébé ne suit jamais ta voix ni ton regard à partir de 3-4 semaines, s'il ne réagit à AUCUN son fort, s'il ne bouge presque pas ses bras et jambes spontanément, ou s'il semble totalement inerte et hypotonique. Ce sont des signaux à creuser, sans dramatiser — la plupart du temps, il y a une explication simple.",
+  "phrases_ancrage": [
+    "Tu es son jouet préféré. Et personne ne fera mieux que toi.",
+    "Faire moins, c'est faire mieux à cet âge.",
+    "Le 'rien faire' avec un nouveau-né n'existe pas — tout est éveil.",
+    "Tu n'as pas à stimuler ton bébé. Tu as à le rencontrer.",
+    "Ses yeux dans les tiens, c'est déjà toute la science du développement.",
+    "Trois minutes d'éveil de qualité valent une heure d'agitation.",
+    "Il va apprendre à tenir sa tête, à rouler, à s'asseoir, à marcher — sans que tu lui apprennes. Tu n'as qu'à être là.",
+    "Le vrai luxe que tu offres à ton bébé, c'est ta présence non distraite."
+  ]
+}

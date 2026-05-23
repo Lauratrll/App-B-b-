@@ -1,0 +1,144 @@
+{
+  "mois": 14,
+  "tranche_age": "14 mois",
+  "rubrique": "prendre_soin_de_moi",
+  "titre_rubrique": "Prendre soin de moi",
+  "sous_titre": "Le post-partum est encore là — toi aussi",
+  "description": "À 14 mois, le post-partum existe toujours. 6 propositions concrètes pour toi, parent.",
+  "conseils": [
+    {
+      "id": "auto_massage_reflexologie",
+      "numero": 1,
+      "icone": "🤲",
+      "titre": "Auto-massage de réflexologie",
+      "sous_titre": "Soutenir les maux et émotions parentales du moment",
+      "intro": "À 14 mois, les tensions s'accumulent : portage répété d'un enfant qui pèse 10 kg, nuits encore hachées, charge mentale. Voici 4 points clés à activer sur tes mains — accessibles partout, même pendant que ton enfant joue à côté.",
+      "duree": "5 minutes",
+      "indications": [
+        "Stress et anxiété chronique",
+        "Fatigue de portage (épaules, dos, nuque)",
+        "Insomnie ou nuits trop courtes",
+        "Troubles digestifs liés au stress",
+        "Tensions cervicales liées à l'allaitement"
+      ],
+      "points": [
+        {
+          "zone": "Plexus solaire (centre de la paume)",
+          "geste": "Cercles doux du pouce, 60 secondes",
+          "effet": "Relâche la tension thoracique et apaise l'anxiété"
+        },
+        {
+          "zone": "Surrénales (bord externe de la paume, au niveau du pouce)",
+          "geste": "Pression ferme 45 secondes",
+          "effet": "Gère le stress chronique et la fatigue de fond"
+        },
+        {
+          "zone": "Reins (base du pouce, côté paume)",
+          "geste": "Massage circulaire 30 secondes par main",
+          "effet": "Récupération de la fatigue profonde"
+        },
+        {
+          "zone": "Cervicales (côté externe de chaque pouce)",
+          "geste": "Pression remontant de la base à la pointe, 30 secondes par pouce",
+          "effet": "Détend la nuque et les épaules"
+        }
+      ],
+      "cloture": "Terminer en tenant les deux paumes face à face pendant 30 secondes — recentrage."
+    },
+    {
+      "id": "meditation_audio",
+      "numero": 2,
+      "icone": "🎧",
+      "titre": "Méditation audio \"Je dépose la journée\"",
+      "sous_titre": "À écouter le soir, bébé endormi",
+      "duree": "~6 minutes",
+      "frequence_conseillee": "3 fois par semaine minimum, ou chaque soir si tu en sens le besoin",
+      "intro": "Le but n'est pas de faire le vide — c'est de poser la journée. Allongée ou assise confortablement, sans rien d'autre à faire.",
+      "texte_meditation": "Installe-toi confortablement. Ferme les yeux.\n\nPose une main sur ton ventre. Une sur ton cœur.\n\nInspire lentement par le nez... retiens... expire par la bouche, doucement. Encore.\n\nAujourd'hui a été une journée. Peut-être difficile. Peut-être belle. Peut-être les deux.\n\n[Pause - 10 secondes]\n\nJe t'invite à imaginer que tu poses cette journée devant toi — comme un sac que tu portes. Tu n'as pas besoin de le porter cette nuit.\n\nChaque inquiétude... tu peux la déposer là.\n\nChaque moment où tu as douté... dépose-le.\n\n[Pause - 10 secondes]\n\nTu as été là aujourd'hui. Présent(e). C'est l'essentiel.\n\nCette nuit, tu as juste à être. Pas à faire. Pas à gérer. Juste à être.\n\nTon bébé est en sécurité. Toi aussi."
+    },
+    {
+      "id": "celebrer_les_victoires",
+      "numero": 3,
+      "icone": "✨",
+      "titre": "Célébrer mentalement les petites victoires",
+      "sous_titre": "Pour toi, pour ton bien-être",
+      "frequence_conseillee": "Quotidien (1 victoire avant de dormir) ou hebdomadaire (3 victoires le dimanche)",
+      "intro": "Ton cerveau est neurologiquement câblé pour repérer les échecs (biais de négativité). Compter les victoires rééquilibre activement la mémoire émotionnelle. Effet documenté à partir de 4 semaines de pratique.",
+      "comment_faire": "Chaque jour avant de t'endormir, OU chaque dimanche : nomme intérieurement 1 à 3 choses qui ont marché. Surtout des petites. Surtout celles que personne d'autre ne verra.",
+      "exemples": [
+        "J'ai tenu calme pendant sa crise de ce matin",
+        "J'ai appelé une amie alors que j'en avais pas envie",
+        "J'ai mangé assis(e) un repas complet",
+        "J'ai dit non à une visite qui m'épuisait",
+        "J'ai fait une nuit complète sans me lever",
+        "J'ai pleuré, et c'était nécessaire"
+      ]
+    },
+    {
+      "id": "auto_reconnaissance",
+      "numero": 4,
+      "icone": "💗",
+      "titre": "Auto-reconnaissance",
+      "sous_titre": "Reconnaître ce que tu fais, par écrit",
+      "intro": "Écrire ce que tu reconnais en toi — c'est plus puissant que de le penser. L'écriture engage différemment le cerveau et installe durablement l'estime de soi.",
+      "format_propose": "ecriture_libre",
+      "consigne": "Prends 5 minutes. Note ce que tu te reconnais cette semaine — pas ce que tu as bien fait pour ton enfant, mais ce que tu reconnais chez TOI en tant que personne.",
+      "amorces_si_blocage": [
+        "Cette semaine, j'ai eu le courage de...",
+        "Je me reconnais d'avoir...",
+        "J'ai été fier(e) de moi quand...",
+        "Une qualité que j'ai mobilisée cette semaine : ...",
+        "Une chose que je n'aurais pas faite il y a un an : ..."
+      ],
+      "espace_pour_ecrire": true,
+      "principe": "Ta liste t'appartient. Personne ne la lira. Plus tu es honnête, plus l'exercice fonctionne."
+    },
+    {
+      "id": "realite_post_partum",
+      "numero": 5,
+      "icone": "💬",
+      "titre": "La réalité du post-partum — maman et papa à 14 mois",
+      "sous_titre": "Ce que la société oublie de nommer",
+      "intro": "À 14 mois, le post-partum est rarement nommé. Les professionnels de santé passent à autre chose, l'entourage aussi. Pourtant, le corps et l'esprit traversent encore une période de transformation profonde — pour les deux parents.",
+      "pour_la_maman": {
+        "titre": "Côté maman",
+        "contenu": "Le corps continue sa transformation à 14 mois. Si tu allaites encore : les hormones restent modifiées. Si tu as arrêté récemment : ton corps met 6 à 12 mois à retrouver son équilibre hormonal complet. Les cheveux qui tombent, la libido fluctuante, le poids qui ne bouge pas, les émotions en montagnes russes — c'est physiologique, pas un échec.\n\nLa fatigue accumulée peut ressembler à de la dépression. Test : 1 semaine de sommeil récupéré change-t-il l'état ? Si oui, c'est l'épuisement. Si non, parle-en à un médecin."
+      },
+      "pour_le_papa_co_parent": {
+        "titre": "Côté papa / co-parent",
+        "contenu": "Le post-partum du co-parent existe et est sous-diagnostiqué. À 14 mois, plusieurs réalités souvent tues : sentiment de ne plus être central dans le couple, fatigue cumulative non reconnue, charge mentale partagée mais souvent invisible, pression économique amplifiée. La dépression du co-parent touche 8 à 10% des pères — chiffres très probablement sous-estimés.\n\nSi tu vis l'un de ces ressentis, ce n'est ni honteux ni rare. C'est traitable."
+      },
+      "signaux_a_ne_pas_negliger": [
+        "Tristesse persistante depuis plus de 2 semaines",
+        "Anhédonie : rien ne fait plaisir",
+        "Irritabilité chronique disproportionnée",
+        "Difficulté à dormir même quand bébé dort",
+        "Sentiment d'être incompétent(e) malgré les efforts",
+        "Pensées sombres ou intrusives"
+      ],
+      "urgence": "Si pensées d'auto-agression ou de fuite : 3114 (gratuit, 24h/24, anonyme).",
+      "qui_consulter": [
+        "Médecin traitant : premier interlocuteur, peut prescrire un bilan complet",
+        "Sage-femme : consultation possible même 14 mois après — spécialiste du post-partum étendu",
+        "Psychologue : MonParcoursPsy rembourse à partir de 8 séances/an",
+        "Allo Parents Bébé : 0 800 00 34 56 (gratuit, lundi-vendredi)",
+        "Maman Blues : association de soutien à la dépression post-partum"
+      ]
+    },
+    {
+      "id": "challenge_couple",
+      "numero": 6,
+      "icone": "💑",
+      "titre": "Challenge couple — se reconnecter en 5 minutes",
+      "sous_titre": "Simple, amusant, ce soir",
+      "duree": "5-10 minutes",
+      "frequence_conseillee": "Une fois par semaine",
+      "intro": "Le couple parental est souvent le dernier servi. 80% des couples décrivent une baisse de qualité de la relation pendant les 18 premiers mois de l'enfant. Petits actes = grand effet. Pas besoin de week-end romantique.",
+      "challenge_du_mois": {
+        "nom": "Le \"merci inattendu\"",
+        "deroule": "Chacun écrit sur un papier UNE chose que l'autre a faite ce mois qui lui a fait du bien — et qu'il/elle n'a peut-être pas remarqué. On échange les papiers sans commentaire. On lit. On reste là un moment. C'est tout."
+      },
+      "pourquoi_ca_marche": "Reconnaître l'invisible relance la motivation à donner. Le co-parent qui se sent vu donne plus naturellement. Le cycle s'inverse."
+    }
+  ]
+}

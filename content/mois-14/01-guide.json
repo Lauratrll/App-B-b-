@@ -1,0 +1,1461 @@
+{
+  "mois": 14,
+  "tranche_age": "14 mois",
+  "rubrique": "guide_moi",
+  "titre_rubrique": "Guide-moi !",
+  "sous_titre": "Que se passe-t-il ? On t'accompagne pas à pas",
+  "description": "À 14 mois, ton enfant vit une période d'explosion développementale : il marche, comprend tout, commence à parler, affirme ses choix — et n'a aucune capacité à se réguler seul. Cette rubrique te donne 32 protocoles concrets pour les situations les plus fréquentes. Chaque situation a son propre protocole, pensé pour cet âge précis. Tu choisis ta catégorie, tu choisis la situation la plus proche de la tienne, et tu suis pas à pas.",
+  "ancrage": "Tu n'as pas à tout savoir d'avance. Tu as juste à savoir où chercher quand tu en as besoin. Ton enfant n'a pas besoin d'un parent parfait — il a besoin d'un parent disponible et stable. C'est exactement ce que tu es en faisant cette démarche.",
+  "categories": [
+    {"id": "colere", "nom": "Colères & frustration", "sous_titre": "Crises, opposition, \"non !\"", "icone": "🌪️"},
+    {"id": "sommeil", "nom": "Sommeil", "sous_titre": "Réveils, refus de coucher", "icone": "😴"},
+    {"id": "langage", "nom": "Langage & communication", "sous_titre": "Peu de mots, frustration", "icone": "💬"},
+    {"id": "alim", "nom": "Alimentation", "sous_titre": "Refus, néophobie, crises repas", "icone": "🍽️"},
+    {"id": "sepa", "nom": "Séparation & crèche", "sous_titre": "Pleurs au départ, angoisse", "icone": "💔"},
+    {"id": "corpo", "nom": "Corps & motricité", "sous_titre": "Chutes, marche, coordination", "icone": "🏃"},
+    {"id": "dents", "nom": "Poussées dentaires", "sous_titre": "Molaires, douleur, irritabilité", "icone": "🦷"},
+    {"id": "stimu", "nom": "Sur-stimulation", "sous_titre": "Débordement, retour crèche", "icone": "⚡"}
+  ],
+  "protocoles": [
+    {
+      "categorie": "colere",
+      "situation": "Crise de colère intense depuis 20 minutes",
+      "titre": "Crise de colère intense qui dure",
+      "explication": "Une crise qui dure est une crise qui cherche un contenant. À 14 mois, ton enfant n'a aucune capacité à interrompre lui-même la cascade neurologique d'une crise. Son cerveau limbique a pris le contrôle total et son cortex préfrontal — qui gère la régulation des émotions — est encore très immature. Ce dont il a besoin : une présence stable, pas des solutions. Ta régularité dans la tempête lui apprend progressivement que les émotions sont traversables.",
+      "ancrage": "Tu n'as pas à calmer la crise. Tu as à rester présent(e) pendant qu'elle passe. C'est différent — et c'est suffisant.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate",
+        "etapes": [
+          "S'accroupir à son niveau — sans parler, sans toucher si refus",
+          "Voix très basse : \"Je suis là. Je vois que c'est très difficile.\"",
+          "Ne pas chronomètrer la crise — regarder bébé, pas la montre",
+          "Si la pièce est dangereuse : déplacer silencieusement vers un espace sûr",
+          "Attendre la vague : 5 à 15 min sont normales. La crise SE TERMINERA."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — après la crise uniquement",
+        "etapes": [
+          "Quand l'enfant lève les bras : c'est l'invitation. Prendre sans rien dire",
+          "Tenir serré contre soi — pression ferme sur le dos pour réguler le système nerveux",
+          "Paume de l'enfant contre votre cœur — votre rythme cardiaque le régule",
+          "Attendre qu'il se dépose complètement avant de parler",
+          "Réflexo plexus solaire : centre de la voûte plantaire, cercles doux, 1 min"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Vider votre propre charge après la crise : 2 min dehors, verre d'eau",
+        "Ne pas analyser à chaud — l'explication peut attendre le soir",
+        "Se répéter : \"Ce n'est pas personnel. C'est neurologique.\"",
+        "Si 3e crise de la journée : anticiper (faim ? fatigue ? sur-stimulation ?)"
+      ],
+      "principe": "Les crises intenses de 20 min+ surviennent sur un cumul : fatigue + faim + surcharge sensorielle. Une collation protéinée à 16h30 (œuf, fromage, yaourt) stabilise la glycémie et prévient le pic du soir.",
+      "erreurs_a_eviter": [
+        "Punir ou isoler pendant la crise — amplifie l'état de détresse",
+        "Crier ou répondre à son niveau d'énergie — le cerveau miroir s'emballe",
+        "Dire \"arrête\" ou \"c'est bête\" — invalide une émotion réelle",
+        "Céder à la demande déclenchante — enseigne que la crise est efficace"
+      ],
+      "consulter_si": "Si les crises dépassent 1h régulièrement, reviennent plus de 5 fois par jour depuis 2 semaines, ou si ton enfant se blesse vraiment — parles-en à ton pédiatre. Si tu sens que tu perds le contrôle de ta propre réaction : pose-le en sécurité et sors 60 secondes. C'est de la sagesse, pas de l'abandon."
+    },
+    {
+      "categorie": "colere",
+      "situation": "Bébé se jette par terre et se cogne la tête",
+      "titre": "Auto-stimulation lors de la crise",
+      "explication": "Se cogner la tête ou se jeter au sol pendant une crise est un comportement neurologique courant à 14 mois. Le choc envoie un signal sensoriel fort qui aide paradoxalement le cerveau à \"se regrouper\" face à un débordement émotionnel. Ce n'est pas une intention autodestructrice — c'est une recherche désespérée d'auto-régulation. Le cerveau cherche une sensation forte pour interrompre la tempête intérieure.",
+      "ancrage": "Il ne cherche pas à se faire mal. Il cherche à se sentir. Ton rôle : protéger sans dramatiser.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate",
+        "etapes": [
+          "Glisser une main entre sa tête et le sol — sans le retenir totalement",
+          "Voix calme, pas paniquée : \"Je protège ta tête. Je suis là.\"",
+          "Ne pas réagir avec de grands gestes — accentue le besoin sensoriel",
+          "Proposer une pression alternative : coussin lourd sur les jambes, gros câlin serré",
+          "Si possible, le porter sur un tapis ou un lit pour qu'il puisse continuer en sécurité"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — input proprioceptif",
+        "etapes": [
+          "Pression ferme sur les épaules avec les paumes — 30 sec",
+          "Massage des paumes des mains, pression appuyée — 1 min chaque main",
+          "Compression douce des bras du haut vers les poignets — répéter 3 fois",
+          "Réflexo talon : pression maintenue ferme, 30 sec par pied — ancrage",
+          "Tenir serré contre soi, bercement lent et régulier"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Identifier les déclencheurs : faim, fatigue, transition difficile, surcharge sonore",
+        "Proposer en prévention quotidienne des inputs sensoriels intenses : pâte à modeler, balançoire, écraser des coussins",
+        "Aménager un \"coin calme\" avec coussins lourds et lumière tamisée",
+        "En parler avec la crèche/nounou : repérer les moments à risque"
+      ],
+      "principe": "Le besoin de stimulation sensorielle forte est physiologique à cet âge. Plus tu offres des inputs proprioceptifs (pression, poids, mouvement) dans la journée, moins le besoin de se cogner sera intense en crise.",
+      "erreurs_a_eviter": [
+        "Crier en voyant le coup — alimente la décharge sensorielle",
+        "Le retenir avec force — il va s'opposer encore plus violemment",
+        "Ignorer en pensant qu'il \"cherche l'attention\" — il cherche à se réguler",
+        "Multiplier les protections (casque, etc.) — aggrave la fixation sensorielle"
+      ],
+      "consulter_si": "Si les coups à la tête deviennent quotidiens, très violents, ou s'accompagnent d'autres comportements répétitifs (balancement, regard fuyant, peu de communication) — un bilan chez le pédiatre est indiqué. Une consultation avec un psychomotricien peut aider à offrir des outils sensoriels adaptés."
+    },
+    {
+      "categorie": "colere",
+      "situation": "Dit \"non !\" à tout depuis ce matin",
+      "titre": "Phase d'opposition systématique",
+      "explication": "Le \"non !\" systématique à 14 mois est un marqueur développemental majeur : c'est la naissance du \"je\". Ton enfant découvre qu'il est une personne distincte, capable de s'opposer. Ce n'est pas de l'insolence — c'est un travail cognitif et identitaire essentiel. Tenter de contrer chaque \"non\" épuise tout le monde et n'enseigne rien. Lui offrir des choix dans un cadre clair est plus efficace.",
+      "ancrage": "Son \"non\" n'est pas dirigé contre toi. C'est dirigé pour lui-même. Tu n'as pas à le casser. Tu as à le canaliser.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate",
+        "etapes": [
+          "Reformuler chaque demande en choix : \"Tu mets la chaussure bleue ou la rouge ?\"",
+          "Éviter les questions fermées : pas \"tu veux manger ?\" mais \"on s'installe à table\"",
+          "Quand non-négociable, annoncer sans demander : \"Je te change la couche. Tu peux choisir le tapis ou le lit.\"",
+          "Limiter le nombre de \"non\" de ta part dans la journée — il imite tout",
+          "Ignorer les \"non\" automatiques qui ne portent pas vraiment, ne pas tout relever"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — reconnecter sans confrontation",
+        "etapes": [
+          "Quand la journée devient électrique, proposer un câlin de 10 secondes",
+          "Jeu du \"oui\" : faire des trucs absurdes auxquels il dira oui (\"on met du chocolat sur les chaussures ?\")",
+          "Réflexo plexus solaire : 30 sec par pied, en lui chantant doucement",
+          "Une activité où il a tout le contrôle : peinture libre, transvasement, son bac à coussins",
+          "Sortir 20 min dehors — change l'énergie radicalement"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Lui offrir 5 à 10 vrais choix par jour sur des sujets de son ressort (vêtements, jeu, livre)",
+        "Garder les non-négociables fermes (sécurité, hygiène) — mais sur le reste, lâcher",
+        "Nommer son sentiment : \"Tu n'as pas envie. Je comprends.\"",
+        "Profiter de ses oui pour les célébrer : \"Tu as dit oui ! On y va ensemble.\""
+      ],
+      "principe": "Plus tu offres de zones d'autonomie dans la journée, moins le besoin d'opposer un \"non\" sera fort. Chaque choix réel donné réduit la pression du \"je\" qui cherche à exister.",
+      "erreurs_a_eviter": [
+        "Punir le \"non\" — il ne contrôle pas encore cette pulsion",
+        "Argumenter pour le convaincre — le cortex préfrontal n'est pas câblé pour ça",
+        "Céder sur des non-négociables pour avoir la paix — installe la confusion",
+        "Multiplier les \"non\" de ton côté — il modélise ton comportement"
+      ],
+      "consulter_si": "Cette phase est normale et durera plusieurs mois. À discuter avec le médecin uniquement si l'opposition s'accompagne d'auto-agressivité importante, de perte de communication, ou si elle te plonge toi-même dans un épuisement profond."
+    },
+    {
+      "categorie": "colere",
+      "situation": "Mord ou frappe pour la première fois",
+      "titre": "Première morsure ou première frappe",
+      "explication": "Les morsures et coups à 14 mois ne sont presque jamais une intention de faire mal. C'est une expression brute d'une émotion (frustration, surprise, excitation, fatigue) qu'il ne sait pas encore canaliser. Son cerveau a un besoin et son corps prend le contrôle. C'est aussi parfois sensoriel : la sensation des dents qui mordent l'excite et le calme à la fois. Il faut poser la limite sans dramatiser et offrir une alternative.",
+      "ancrage": "Ton enfant n'est pas méchant. Son cerveau cherche une décharge. Tu vas lui apprendre à trouver d'autres voies.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate",
+        "etapes": [
+          "S'accroupir, prendre fermement (sans serrer) ses mains ou son visage selon le cas",
+          "Regarder dans les yeux, voix grave et claire : \"Non. On ne mord pas. Ça fait mal.\"",
+          "Une seule phrase, pas de discours — son cerveau ne suit pas plus",
+          "Aller voir la personne mordue/frappée et la consoler — il observe l'effet",
+          "Proposer une alternative immédiate : \"Si tu es en colère, tu peux taper le coussin.\""
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — redirection sensorielle",
+        "etapes": [
+          "Lui donner un anneau de dentition réfrigéré s'il a besoin de mordre",
+          "Activité de décharge : taper sur des coussins, déchirer du papier, écraser de la pâte à modeler",
+          "Massage des gencives s'il pousse des dents — souvent en cause",
+          "Réflexo gros orteil (calme) : 1 min par pied après l'incident",
+          "Câlin long quand il est revenu au calme, pas conditionné"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Repérer les déclencheurs : se faire prendre un jouet, être contrarié, sur-stimulation",
+        "Anticiper : avant les moments à risque, proposer une décharge sensorielle préventive",
+        "Vérifier l'état dentaire : les molaires émergent souvent et augmentent le besoin de mordre",
+        "Lui donner le vocabulaire des émotions : \"Tu étais en colère. C'est ok. Mais on ne mord pas.\""
+      ],
+      "principe": "La cohérence est plus importante que la sévérité. Réagir CHAQUE fois de la même façon, calmement et clairement, vaut mieux qu'une grande colère ponctuelle. Le cerveau apprend par la répétition stable.",
+      "erreurs_a_eviter": [
+        "Isoler dans la chambre — n'apprend pas la limite, apprend la solitude émotionnelle",
+        "Répondre avec violence \"pour qu'il comprenne\" — modèle ce qu'on veut éviter",
+        "Minimiser et ne rien faire — la limite doit être cohérente",
+        "Sur-réagir et en parler des heures — donne une importance démesurée"
+      ],
+      "consulter_si": "Si les morsures sont quotidiennes depuis plus d'un mois malgré une réponse cohérente, ou très violentes — en parler à ton pédiatre. Une évaluation langagière ou sensorielle (psychomotricien) peut aider."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Refuse catégoriquement de se coucher",
+      "titre": "Refus du coucher",
+      "explication": "Le refus du coucher à 14 mois est souvent une conjonction : angoisse de séparation (encore très présente), excitation développementale (un cerveau qui marche et parle ne veut pas s'arrêter), et surcharge du soir. Ce n'est pas de la mauvaise volonté : son cerveau est littéralement en surchauffe. L'angoisse de manquer quelque chose se cumule à la difficulté à se déconnecter.",
+      "ancrage": "Le coucher n'est pas une bataille à gagner. C'est une transition à accompagner. Ta sérénité est la condition de la sienne.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — ce soir",
+        "etapes": [
+          "Réduire toute stimulation dès 18h : lumières basses, sons coupés, rythme ralenti",
+          "Rituel STRICT : bain → pyjama → histoire → câlin → lit. Ordre immuable.",
+          "Phrase de clôture identique chaque soir : \"Tu es en sécurité. Je suis là. Bonne nuit.\"",
+          "Si l'enfant sort du lit : recoucher sans parole, sans interaction — autant de fois que nécessaire",
+          "Heure de coucher : 19h–19h30 max — après = sur-fatigue = refus amplifié"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexo du coucher — 7 minutes",
+        "etapes": [
+          "Réchauffer les deux pieds dans les paumes — 1 min",
+          "Gros orteil : cercles lents sens horaire (cerveau, calme) — 1 min",
+          "Voûte haute : pression douce (diaphragme) — 1 min",
+          "Voûte centre : glissé lent vers le talon (plexus solaire) — 1 min",
+          "Talon : pression maintenue (ancrage) — 1 min, répéter pied gauche"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ton propre niveau d'énergie influe directement — se réguler avant d'entrer (3 respirations)",
+        "Ne pas consulter le téléphone pendant le rituel — l'enfant le perçoit",
+        "Accepter que les 3 premières semaines d'un nouveau rituel soient difficiles",
+        "Si co-parent : alterner les couchers pour éviter l'épuisement d'un seul"
+      ],
+      "principe": "La régularité est plus puissante que le contenu du rituel. Même rituel à ± 15 min chaque soir. La prévisibilité est sécurisante pour un cerveau de 14 mois — il \"sait\" ce qui vient après.",
+      "erreurs_a_eviter": [
+        "Reculer l'heure espérant plus de fatigue — crée la sur-fatigue et amplifie le refus",
+        "Rester jusqu'à l'endormissement complet — crée une dépendance à ta présence",
+        "Proposer un écran pour calmer — signal de réveil neurologique puissant",
+        "Changer le rituel en désespoir de cause — détruit la prévisibilité sécurisante"
+      ],
+      "consulter_si": "Si l'enfant ne dort pas plus de 8h sur 24h depuis plus d'une semaine, ou si tu es toi-même en état d'épuisement critique — parles-en à ton médecin. Le manque de sommeil parental prolongé est une urgence de santé."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Se réveille plusieurs fois et réclame",
+      "titre": "Réveils nocturnes multiples",
+      "explication": "Les réveils nocturnes à 14 mois sont souvent liés à une association d'endormissement : ton enfant s'endort avec toi (sein, biberon, présence) et se retrouve seul entre ses cycles. Son cerveau cherche à recréer la condition d'endormissement. Ce n'est pas un retour en arrière — c'est de la logique : il veut reproduire ce qui a fonctionné le soir. Le travail se fait au coucher du soir, pas la nuit.",
+      "ancrage": "La nuit n'est pas le moment de tout résoudre. La nuit, tu réponds au minimum. C'est le jour que tu travailles l'association d'endormissement.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — cette nuit",
+        "etapes": [
+          "Ne pas allumer la lumière — répondre dans l'obscurité",
+          "Voix très basse, une seule phrase : \"Je suis là. Tu peux dormir.\"",
+          "Ne pas prendre systématiquement dans les bras — main sur le ventre, 30 sec",
+          "Attendre 2 min avant d'intervenir — il peut se rendormir seul",
+          "Si plusieurs réveils : noter l'heure — souvent réguliers, ça aide à anticiper"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexo nocturne — 3 minutes",
+        "etapes": [
+          "En silence et obscurité totale — ne pas allumer",
+          "Pouce au centre de la voûte : cercles ultra-doux, 1 min",
+          "Talon : pression maintenue immobile, 30 sec — zone de l'ancrage",
+          "Envelopper le pied dans la paume, 30 sec",
+          "Murmurer : \"Tu peux dormir. Je suis là.\" puis reposer le pied"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Travailler l'endormissement AUTONOME au coucher du soir — c'est là que tout se joue",
+        "Si l'enfant s'endort au sein ou biberon : commencer à le poser somnolent mais éveillé",
+        "Tenir un journal des nuits pendant 1 semaine pour identifier les patterns",
+        "Se relayer avec le co-parent si possible — la fatigue nocturne parentale est réelle"
+      ],
+      "principe": "L'endormissement autonome est la clé des nuits. Si l'enfant sait s'endormir seul au coucher du soir, il retrouvera ce chemin entre ses cycles. Travailler cela progressivement et avec douceur, pas en un soir.",
+      "erreurs_a_eviter": [
+        "Allumer la lumière à chaque réveil — interrompt la mélatonine",
+        "Donner systématiquement à boire ou à manger — crée un besoin nocturne",
+        "Changer de stratégie chaque nuit — l'enfant a besoin de prévisibilité",
+        "Penser que ça \"passera tout seul\" sans rien changer — souvent ça empire"
+      ],
+      "consulter_si": "Si les réveils sont accompagnés de pleurs intenses, fièvre, cris terrifiés (terreurs nocturnes répétées), ou de signes de douleur — consulter le médecin. Sinon, l'épuisement parental prolongé est en soi une raison de demander de l'aide à une sage-femme ou un consultant en sommeil."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Fait une régression depuis 1 semaine",
+      "titre": "Régression du sommeil de 14 mois",
+      "explication": "La régression de sommeil à 14 mois est très bien documentée. Ton enfant vit une explosion développementale simultanée : marche affirmée, langage qui démarre, conscience de soi, permanence de l'objet pleinement acquise. Son cerveau réorganise massivement ses circuits — la nuit n'y échappe pas. Cette régression dure typiquement 2 à 6 semaines. Tenir le cadre est crucial : ne pas créer de nouvelles habitudes qui dureront ensuite.",
+      "ancrage": "Une régression n'est pas un retour en arrière — c'est un saut en avant. Son cerveau intègre des choses énormes. Ta stabilité est son meilleur soutien.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — tenir le cadre",
+        "etapes": [
+          "Maintenir EXACTEMENT le rituel du coucher d'avant — ne rien ajouter",
+          "Ne pas ramener dans le lit parental si ce n'était pas l'habitude — installe une nouvelle habitude",
+          "Augmenter les moments d'attention exclusive en journée : 15 min jeu dédié",
+          "Sortir plus que d'habitude — dépense physique et lumière naturelle",
+          "Vérifier la sieste : peut-être à raccourcir ou à avancer"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexo réorganisation neurologique — 8 min",
+        "etapes": [
+          "Au coucher : réchauffer les pieds dans les paumes — 1 min",
+          "Gros orteil : cercles lents (cerveau qui intègre) — 2 min",
+          "Centre de la voûte : glissé lent (relâchement) — 1 min par pied",
+          "Talon : pression maintenue (ancrage) — 1 min par pied",
+          "Envelopper et tenir en silence — 1 min final"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Lui parler en journée des nouvelles compétences : \"Tu marches si bien maintenant\"",
+        "Plus de jeu en miroir et d'interactions face à face — apaise le système nerveux",
+        "Éviter les changements majeurs simultanés (déménagement, nouvelle nounou, sevrage)",
+        "Se rappeler : c'est temporaire. Compter les jours pour relativiser."
+      ],
+      "principe": "Pendant une régression, le seul cap utile est : RIEN CHANGER. Ne pas créer de nouvelles habitudes pour avoir la paix tout de suite. Le sommeil reviendra naturellement quand l'intégration cérébrale sera faite.",
+      "erreurs_a_eviter": [
+        "Céder et le prendre dans le lit pour avoir la paix — installe une nouvelle habitude",
+        "Multiplier les techniques différentes — le cerveau se perd",
+        "Le \"laisser pleurer\" plus que d'habitude — augmente l'anxiété de séparation",
+        "S'épuiser sans demander de relais au co-parent ou à un proche"
+      ],
+      "consulter_si": "Si la régression dépasse 8 semaines, ou s'accompagne de signes physiques (fièvre, douleurs, vomissements) — consulter le médecin. Vérifier aussi les molaires : elles émergent souvent à cette période et perturbent fortement le sommeil."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Résiste à la sieste mais est épuisé",
+      "titre": "Refus de sieste sur fatigue manifeste",
+      "explication": "Vers 14-16 mois, certains enfants entament la transition vers une sieste unique. Ils résistent à la sieste du matin tout en montrant clairement leur fatigue. Le cerveau, plein de nouvelles découvertes (marche, parole), ne veut pas s'éteindre — mais le corps craque. Le piège : supprimer la sieste trop tôt et tomber dans un cycle de sur-fatigue qui empire tout. La transition se fait en douceur, sur 2 à 4 semaines.",
+      "ancrage": "Son refus n'est pas un signe qu'il n'a plus besoin de dormir. C'est un signe qu'il intègre trop pour lâcher. Ton rôle : créer les conditions, pas forcer le sommeil.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate",
+        "etapes": [
+          "Ne pas le mettre au lit s'il résiste — proposer un \"temps calme\" dans la chambre",
+          "Lumière baissée, sons doux, livre tranquille à regarder seul ou avec toi",
+          "Ne pas chercher à le faire dormir absolument — décharger l'enjeu",
+          "Si fenêtre d'éveil dépassée (5h), tester un coucher anticipé le soir à 18h30",
+          "Toujours offrir le rituel court de sieste — même si pas suivi de sommeil"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — favoriser le lâcher prise",
+        "etapes": [
+          "Bercement long sur les genoux, voix très basse — 5 min",
+          "Réflexo gros orteil : cercles très lents, 2 min par pied",
+          "Massage du dos avec pression ferme, mouvements de bas en haut",
+          "Mettre une couverture lourde sur ses jambes pendant la lecture",
+          "Chanter une comptine très lente, en répétant la même 3 fois"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Tenir un journal des siestes pendant 2 semaines pour voir l'évolution",
+        "Accepter que le passage à une sieste unique se fasse par étapes : 1 jour oui, 1 jour non",
+        "Adapter l'heure du coucher du soir : à 18h30-19h les jours sans sieste",
+        "Sortir le matin pour la lumière naturelle — régule mieux la sieste de l'après-midi"
+      ],
+      "principe": "La transition vers une sieste unique est un processus, pas un événement. Tant qu'il dort encore 2 fois certains jours, la transition n'est pas terminée. Forcer ne marche pas, attendre passivement non plus.",
+      "erreurs_a_eviter": [
+        "Le forcer à rester au lit en pleurant — détruit l'association sommeil/sécurité",
+        "Supprimer définitivement la sieste \"puisqu'il refuse\" — sur-fatigue assurée",
+        "Multiplier les stimulations pour le \"fatiguer\" — effet inverse",
+        "Le coucher avec un écran pour \"qu'il se calme\" — perturbe gravement le rythme"
+      ],
+      "consulter_si": "Si à 14 mois ton enfant ne dort plus du tout en journée depuis 2 semaines et que ses nuits se dégradent en parallèle — consulter le pédiatre. Il est très rare qu'un enfant de 14 mois n'ait plus besoin du tout de sieste."
+    },
+    {
+      "categorie": "langage",
+      "situation": "Ne dit que 2 ou 3 mots à 14 mois",
+      "titre": "Peu de mots à 14 mois",
+      "explication": "À 14 mois, la fourchette normale est large : de 1 à 20 mots produits. Ce qui compte autant que les mots : ton enfant comprend-il ce qu'on lui dit ? Pointe-t-il pour partager (pas juste pour réclamer) ? Imite-t-il des sons ? Ces indicateurs sont plus importants que le comptage des mots. La compréhension précède toujours la production, parfois de plusieurs mois.",
+      "ancrage": "Chaque fois que tu réponds à sa tentative de communication — même un son, même un geste — tu construis son langage. Ta réponse est le meilleur carburant du mot.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — stimuler sans pression",
+        "etapes": [
+          "Ralentir ton débit de parole — les adultes parlent 3x trop vite",
+          "Nommer chaque action en boucle : \"On met la chaussette. Bleue. Sur ton pied. Voilà.\"",
+          "Pointer du doigt en nommant ce qu'il regarde — relie objet et son",
+          "Répéter le mot 3 fois dans la phrase : \"le ballon, regarde le ballon, tu veux le ballon ?\"",
+          "Laisser des silences — il a besoin de temps pour traiter et tenter"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — stimulation du langage",
+        "etapes": [
+          "Réflexo zone gorge : face interne du gros orteil, petits cercles très doux — 1 min par pied",
+          "Parler à voix basse en le regardant — nommer 3 objets autour de lui lentement",
+          "Lecture interactive : pointer, attendre, valider le son qu'il produit",
+          "Chanter une comptine lente — la mélodie structure le circuit du langage",
+          "Jouer à \"où est...\" : un objet caché — il pointe ou nomme"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "15 min de lecture interactive quotidienne — l'action la plus documentée pour le langage",
+        "Limiter les écrans à 0 — chaque heure d'écran avant 2 ans retarde le langage",
+        "Technique de l'expansion : il dit \"ba\" → tu dis \"oui, le ballon rouge !\"",
+        "Vérifier l'audition : un audiogramme rapide chez l'ORL — première chose à faire"
+      ],
+      "principe": "La qualité de l'interaction face à face avec les adultes est le facteur le plus puissant du langage. Plus puissant que tous les jouets, applications et chansons. C'est dans tes yeux qu'il apprend à parler.",
+      "erreurs_a_eviter": [
+        "Anticiper tous ses besoins avant qu'il ait besoin de demander — supprime la motivation de parler",
+        "Comparer avec d'autres enfants du même âge — les fourchettes sont très larges",
+        "Répéter le mot correctement avec insistance — crée une pression inhibitrice",
+        "Ignorer ou minimiser sa tentative — décourage la prise de risque"
+      ],
+      "consulter_si": "Si à 16 mois ton enfant n'a aucun mot ET ne comprend pas les consignes simples — demande un bilan à ton médecin. L'audiogramme est la première étape (l'audition avant tout). Un suivi en orthophonie précoce donne d'excellents résultats. Ce n'est pas urgent aujourd'hui, mais à noter."
+    },
+    {
+      "categorie": "langage",
+      "situation": "Frustré car incompris, pleure au lieu de parler",
+      "titre": "Frustration de communication",
+      "explication": "La frustration de ne pas être compris à 14 mois est réelle et douloureuse. Son cerveau a des idées, des envies, des refus précis — mais son corps ne peut pas encore les exprimer en mots. Les pleurs et les crises de frustration sont son seul exutoire. C'est un moment particulièrement difficile : il sait, mais il ne peut pas dire. Ton rôle : être traducteur, et lui donner des outils alternatifs au mot.",
+      "ancrage": "Sa frustration est un signe que son intelligence dépasse ses outils d'expression. C'est rassurant — pas inquiétant. Tu vas l'aider à combler l'écart.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — désamorcer",
+        "etapes": [
+          "S'accroupir, le regarder dans les yeux, voix calme",
+          "Dire : \"Tu veux me dire quelque chose d'important. Je t'écoute. Montre-moi.\"",
+          "Laisser pointer, gestes, balbutiements — valider chaque tentative",
+          "Reformuler ce qu'il semble vouloir : \"Ah ! Tu veux le camion rouge ?\"",
+          "Si pas trouvé, dire : \"Je n'ai pas compris encore. On va trouver ensemble.\""
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — apaiser et débloquer",
+        "etapes": [
+          "Câlin sans paroles — 30 sec, juste la présence",
+          "Réflexo zone gorge : cercles doux côté gros orteil — 1 min par pied",
+          "Lui apprendre 3 signes de la main : \"encore\", \"fini\", \"aide\" — débloquent énormément",
+          "Massage du diaphragme : sous les côtes, pression douce — détend la respiration",
+          "Lecture d'un imagier ensemble — pointer et nommer calmement"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Apprendre quelques signes de base (langage des signes pour bébé) — réduit drastiquement la frustration",
+        "Nommer ses émotions à voix haute : \"Tu es très en colère. Très fâché. Je vois.\"",
+        "Limiter les questions ouvertes — préférer les choix entre 2 options visibles",
+        "Photos de ses objets préférés sur un tableau — il peut pointer pour demander"
+      ],
+      "principe": "Le langage des signes pour bébé est l'outil le plus efficace pour réduire la frustration entre 12 et 24 mois. Apprendre 5-10 signes change radicalement les interactions et accélère même le langage oral.",
+      "erreurs_a_eviter": [
+        "S'énerver de ne pas comprendre — alimente sa frustration",
+        "Deviner et lui imposer ta réponse sans vérifier — il sent qu'il n'est pas compris",
+        "Lui dire \"calme-toi et parle\" — neurologiquement impossible à cet âge en crise",
+        "Comparer à un aîné ou cousin qui parlait à cet âge — chaque enfant a son rythme"
+      ],
+      "consulter_si": "Si la frustration est telle qu'elle déclenche plus de 5 crises majeures par jour, ou si la communication s'appauvrit au lieu de s'enrichir au fil des semaines — bilan chez le pédiatre. L'orthophonie précoce est très efficace si nécessaire."
+    },
+    {
+      "categorie": "langage",
+      "situation": "Pointait avant, a arrêté depuis 2 semaines",
+      "titre": "Régression du pointage",
+      "explication": "Le pointage est un acquis communicationnel majeur entre 9 et 14 mois. Sa disparition soudaine mérite attention sans alarmisme. Plusieurs causes possibles : phase d'opposition généralisée, sur-anticipation parentale (tu réponds avant qu'il pointe), maladie en cours, ou plus rarement signal à surveiller. Le pointage est un marqueur de communication intentionnelle — il faut le restaurer activement.",
+      "ancrage": "Ne pas dramatiser, mais ne pas ignorer. Observer attentivement les autres canaux de communication pendant 2 semaines.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — restaurer le pointage",
+        "etapes": [
+          "Observer : utilise-t-il son regard pour partager ? Te tend-il les bras ? Imite-t-il ?",
+          "Arrêter d'anticiper ses besoins — laisser émerger la demande active",
+          "Pointer toi-même de façon démonstrative dans tes interactions : \"Regarde ! Là !\"",
+          "Mettre des objets désirés hors de portée mais visibles — créer le besoin de demander",
+          "Valider toute tentative communicationnelle même non-pointage"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — stimuler la communication intentionnelle",
+        "etapes": [
+          "Jeu du \"où est ?\" en pointant ostensiblement — il imite",
+          "Lecture d'imagiers en pointant fort et nommant",
+          "Réflexo bras et mains : effleurage du poignet vers les doigts — stimule motricité fine",
+          "Jeu : tu pointes son ventre, son nez, son pied — il pointe les tiens",
+          "Lui prendre doucement la main pour pointer ensemble, puis lâcher"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Vérifier le contexte récent : maladie, changement de mode de garde, fatigue chronique",
+        "Filmer 10 min d'interaction libre — utile pour le pédiatre s'il faut consulter",
+        "Surveiller le regard partagé : suit-il ton regard ? Te regarde-t-il pour vérifier ta réaction ?",
+        "Multiplier les interactions face à face sans écran ni distraction"
+      ],
+      "principe": "Le pointage est l'un des trois piliers de la communication précoce (avec le regard partagé et l'imitation). Sa restauration en 4-6 semaines est rassurante. Sa persistance dans la disparition mérite un avis professionnel.",
+      "erreurs_a_eviter": [
+        "Ne rien faire en attendant que ça revienne — l'inactivité ne restaure pas le pointage",
+        "Forcer en lui prenant la main de force — crée du rejet",
+        "Paniquer et le faire sentir — il ressent l'anxiété et se ferme davantage",
+        "Multiplier les écrans \"éducatifs\" en pensant aider — effet inverse documenté"
+      ],
+      "consulter_si": "Si après 4 à 6 semaines de stimulation active, le pointage n'est pas restauré, ET surtout s'il s'accompagne de : moins de regard partagé, moins d'imitation, peu de réponse au prénom, intérêt restreint aux objets plutôt qu'aux personnes — consulter rapidement le pédiatre pour bilan développemental. Ce n'est pas urgent, mais à ne pas négliger."
+    },
+    {
+      "categorie": "langage",
+      "situation": "Comprend tout mais ne produit rien",
+      "titre": "Compréhension excellente, production faible",
+      "explication": "À 14 mois, un décalage compréhension/production est très fréquent et globalement rassurant. La compréhension précède toujours la production, parfois de plusieurs mois. Si ton enfant exécute les consignes simples (\"viens\", \"donne-moi\", \"prends ton doudou\"), regarde les bons objets quand tu les nommes, comprend des phrases complètes — son langage se construit activement à l'intérieur. La production est juste en retard sur le calendrier.",
+      "ancrage": "Le silence n'est pas du vide. Son cerveau enregistre, stocke, prépare. L'explosion verbale arrive souvent entre 18 et 24 mois.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — déclencher la production",
+        "etapes": [
+          "Ne pas anticiper ses besoins — créer des opportunités où il DOIT demander",
+          "Cacher légèrement son objet favori en attendant qu'il manifeste",
+          "Faire des pauses interrogatives : \"Tu veux... ?\" et attendre 5 secondes pleines",
+          "Proposer des choix entre 2 objets visibles, attendre pointage ou son",
+          "Célébrer chaque son nouveau, même approximatif — \"Tu as dit ba ! Le ballon !\""
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — débloquer la voix",
+        "etapes": [
+          "Chanter avec des espaces volontaires pour qu'il complète",
+          "Réflexo gorge : face interne du gros orteil, cercles très doux, 1 min par pied",
+          "Massage joues et autour de la bouche, pression douce — stimule la zone orale",
+          "Jeu des bruits d'animaux : tu fais \"meuh\" en montrant la vache, tu attends",
+          "Comptines avec gestes (Petit pouce, Bateau sur l'eau) — le geste appelle le son"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Lecture quotidienne en pointant — 15 min minimum",
+        "Limiter sa tétine en journée — libère la bouche pour parler",
+        "Limiter les écrans à 0 et les jeux sonores qui parlent pour lui",
+        "Sortir du \"baby talk\" : parler avec des phrases complètes mais ralenties"
+      ],
+      "principe": "Plus tu réponds à ses besoins sans qu'il les exprime, moins il aura besoin de parler. La motivation à produire un mot vient du besoin réel d'obtenir quelque chose. Crée le besoin, valorise la tentative.",
+      "erreurs_a_eviter": [
+        "Lui demander de \"dire le mot\" pour avoir l'objet — bloque la production par pression",
+        "Comparer publiquement avec un autre enfant — humiliant et inhibant",
+        "Penser \"il parle pas parce qu'il est trop intelligent\" — mythe, pas une réalité",
+        "Reporter une consultation orthophonique \"au cas où\" si à 18 mois aucun mot"
+      ],
+      "consulter_si": "Si à 18 mois aucun mot n'émerge malgré une compréhension excellente et une stimulation adaptée — bilan orthophonique. Pas d'urgence, mais l'orthophonie précoce est très efficace si nécessaire. Avant 18 mois, le décalage est dans la norme."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Refuse tout ce qu'il acceptait avant",
+      "titre": "Néophobie alimentaire et refus généralisé",
+      "explication": "Vers 14-18 mois, la néophobie alimentaire est un mécanisme évolutif normal : autrefois, les enfants qui devenaient autonomes (marche) et goûtaient tout auraient pu manger des baies toxiques. Refuser les nouveautés et les changements est protecteur. Ton enfant peut soudain refuser ce qu'il adorait. Ce n'est pas contre toi, ni contre l'aliment — c'est neurologique. Forcer aggrave durablement la relation à la nourriture.",
+      "ancrage": "Ta seule responsabilité : QUOI, QUAND, OÙ. La sienne : SI, COMBIEN. Reprendre cette répartition retire 80% du conflit.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — désamorcer le repas",
+        "etapes": [
+          "Proposer 3 aliments dans l'assiette dont au moins 1 \"safe food\" (toujours accepté)",
+          "Ne JAMAIS commenter ce qu'il mange ou ne mange pas pendant le repas",
+          "Ne pas remplacer s'il refuse — le repas suivant arrive bientôt",
+          "Manger avec lui, montrer le plaisir de manger sans pression",
+          "Sortir de table sans drame quand il a fini, quelque soit la quantité avalée"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — restaurer le plaisir alimentaire",
+        "etapes": [
+          "Lui laisser toucher, écraser, sentir les aliments — pas de pression à goûter",
+          "Réflexo zone estomac : centre de la voûte plantaire, cercles doux, 1 min/pied",
+          "Le faire participer : il sort les courses, il met les couverts, il tourne la cuillère",
+          "Manger dans un endroit différent parfois : pique-nique au sol, sur le balcon",
+          "Présenter joliment : couleurs variées, formes amusantes (sans en faire trop)"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Il faut en moyenne 15 expositions à un aliment pour qu'il soit accepté — persistance sans pression",
+        "Servir les nouveautés à côté du familier, jamais en remplacement",
+        "Ne pas négocier (\"3 bouchées et tu auras un yaourt\") — installe une relation mercantile",
+        "Manger en famille au moins un repas par jour — les enfants imitent énormément"
+      ],
+      "principe": "Le DIRE-FAIRE-ÊTRE : tu dis \"voilà ton repas\", tu fais le repas dans le calme, tu ES présent(e) et serein(e). Pas de discours sur l'équilibre, pas de \"il faut manger pour grandir\" — il ne traite pas ce niveau de logique.",
+      "erreurs_a_eviter": [
+        "Forcer une bouchée — installe durablement le dégoût et l'angoisse",
+        "Préparer un menu de remplacement à chaque refus — confirme le pouvoir du refus",
+        "Faire du divertissement (jeu, dessin animé) pour qu'il mange sans s'en rendre compte — déconnecte la sensation de faim",
+        "Commenter son poids ou son corps — installe des troubles alimentaires précoces"
+      ],
+      "consulter_si": "Si la perte de poids est nette sur 3 semaines, ou si l'alimentation se réduit à moins de 5 aliments différents persistants depuis plus d'un mois — consulter le pédiatre. Une néophobie sévère peut bénéficier d'un accompagnement par une diététicienne formée à l'enfant."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Réclame le même aliment en boucle",
+      "titre": "Fixation alimentaire",
+      "explication": "La fixation sur un aliment unique (pâtes, banane, jambon, etc.) est très fréquente entre 14 et 24 mois. Le cerveau cherche la sécurité dans la répétition, surtout en période d'explosion développementale. Tant qu'il varie sur 1 ou 2 semaines (pas un seul aliment 7 jours sur 7 et rien d'autre), c'est dans la norme. Céder en permanence renforce la fixation. La proposer comme partie d'un repas varié sans en faire un sujet est la clé.",
+      "ancrage": "Sa fixation n'est pas un caprice définitif. C'est une recherche de prévisibilité. Tu peux honorer le besoin sans te laisser enfermer.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — intégrer sans céder",
+        "etapes": [
+          "Présenter l'aliment-favori en petite quantité, à côté d'1 ou 2 autres choses",
+          "Ne pas s'opposer au favori, ne pas le bannir — sinon explosion d'attachement",
+          "Ne pas commenter \"encore les pâtes ?\" — donne du pouvoir à la fixation",
+          "Si réclame en boucle : \"Oui, il y en a dans l'assiette. À côté aussi.\"",
+          "Manger toi-même varié dans son assiette — modélise la diversité"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — élargir doucement",
+        "etapes": [
+          "Faire la cuisine ensemble — toucher de nouveaux ingrédients sans pression à manger",
+          "Goûter à 3 versions du même favori (différentes formes de pâtes, différentes coupes de banane)",
+          "Réflexo voûte plantaire (digestion) : 1 min par pied, après les repas",
+          "Proposer ses aliments en \"trempette\" : une chose à dipper dans une autre",
+          "Histoires et imagiers d'aliments — créer une culture alimentaire avant la dégustation"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Vérifier l'équilibre sur la semaine, pas sur un repas — la nature corrige",
+        "Garder ton calme : les fixations durent quelques semaines, rarement plus",
+        "Inviter un enfant qui mange varié à un repas — l'imitation entre pairs est puissante",
+        "Laisser entrer en cuisine, lui donner un \"vrai\" rôle (mélanger, jeter dans le bol)"
+      ],
+      "principe": "La fixation se traite en parallèle, pas frontalement. Plus tu en parles, plus elle dure. La présence régulière de variété, sans pression, finit toujours par élargir le répertoire.",
+      "erreurs_a_eviter": [
+        "Refuser totalement le favori — augmente la fixation par privation",
+        "Servir uniquement le favori pour avoir la paix — réduit définitivement le répertoire",
+        "Mélanger en cachette pour qu'il \"mange caché\" — détruit la confiance alimentaire",
+        "Le coucher sans dîner s'il refuse — installe un climat punitif autour de la nourriture"
+      ],
+      "consulter_si": "Si la fixation se restreint à moins de 5 aliments différents sur plus de 6 semaines, ou si elle s'accompagne de troubles sensoriels marqués (refus de toucher certaines textures même non-alimentaires) — bilan chez le pédiatre. Une orientation vers l'ergothérapie ou une diététicienne pédiatrique peut être utile."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Mange très peu depuis 3 jours",
+      "titre": "Baisse soudaine d'appétit",
+      "explication": "Une baisse d'appétit de quelques jours à 14 mois est rarement inquiétante en l'absence d'autres signes. Causes fréquentes : poussée dentaire (les molaires arrivent), petite virose, fatigue, sur-stimulation, chaleur, changement de rythme. Le corps ralentit sa demande énergétique le temps de l'événement. Forcer aggrave. Maintenir l'hydratation et observer est la priorité.",
+      "ancrage": "Un enfant qui boit, qui fait pipi, qui joue normalement et qui dort à peu près correctement va bien — même s'il mange peu pendant quelques jours.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — observer et hydrater",
+        "etapes": [
+          "Priorité : hydrater. Eau, eau, eau. Petites quantités fréquentes",
+          "Proposer des aliments doux et frais : compote, yaourt, fromage frais, fruits mous",
+          "Maintenir les horaires de repas mais réduire les quantités proposées de moitié",
+          "Vérifier la bouche : gencives gonflées, dent qui pointe ? Aphte ? Plaie ?",
+          "Prendre la température 2 fois par jour"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — soutenir le corps",
+        "etapes": [
+          "Réflexo voûte plantaire : cercles doux dans le sens des aiguilles d'une montre, 2 min par pied",
+          "Massage du ventre : paume à plat, mouvements circulaires lents et larges",
+          "Bain tiède relaxant si pas de fièvre, 10 min",
+          "Repos accru — moins d'activités stimulantes, plus de calins",
+          "Pieds au chaud avec chaussons épais — règle digestive ancienne"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Compter les couches mouillées : 4-6 par jour minimum à cet âge",
+        "Surveiller la fontanelle (le crâne) — si très creuse, c'est déshydratation",
+        "Vérifier les lèvres : sèches et craquelées = manque d'eau",
+        "Tenir un mini-journal sur 3 jours : ce qu'il a mangé, bu, son humeur, ses selles"
+      ],
+      "principe": "Un enfant sain régule sa prise alimentaire sur 1 à 2 semaines, pas sur un repas. Si l'épisode dure 3-5 jours et que l'enfant reste hydraté et tonique, le pic est passé. Si ça dure plus longtemps, consulter.",
+      "erreurs_a_eviter": [
+        "Le forcer à manger \"pour pas qu'il maigrisse\" — installe l'angoisse alimentaire",
+        "Lui donner du sucré pour \"qu'il mange au moins quelque chose\" — déséquilibre durable",
+        "Multiplier les compléments alimentaires sans avis médical — peut aggraver la digestion",
+        "Paniquer et lui transmettre ton inquiétude — il mange encore moins"
+      ],
+      "consulter_si": "Consulter le médecin si : baisse d'appétit persiste plus de 5 jours, fièvre, vomissements répétés, diarrhée, urines très foncées ou rares, léthargie, refus de boire. Aux urgences si : signes de déshydratation sévère (yeux creux, peau qui plisse), perte de poids visible, somnolence inhabituelle."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Fait des crises à chaque repas",
+      "titre": "Crises systématiques au repas",
+      "explication": "Quand chaque repas devient une crise, ce n'est plus une question d'aliments — c'est devenu une dynamique relationnelle. Plusieurs causes possibles : pression invisible des parents, fixation sur certains aliments, refus de la chaise haute, fatigue de fin de journée, ou cumul de petites tensions. La sortie du conflit passe par un changement radical du cadre — pas par plus de stratégies sur le contenu de l'assiette.",
+      "ancrage": "Le repas ne doit pas être un combat. Sors du conflit, et l'alimentation se restaure d'elle-même.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — changer radicalement le cadre",
+        "etapes": [
+          "Réduire le repas à 20 minutes maximum — sortir de table avec lui ensuite",
+          "Pas de TV, pas de jouet, pas de téléphone à table — mais aussi pas de conversation tendue",
+          "Manger TOUS ensemble — pas lui seul observé par tous",
+          "Proposer la quantité d'une cuillère par aliment — l'assiette doit être minimaliste",
+          "Ne JAMAIS commenter son repas pendant ou après — sortie totale du sujet"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — restaurer le plaisir",
+        "etapes": [
+          "Pique-nique au sol 1 fois par semaine — change l'ambiance",
+          "Manger avec les doigts — finger food = autonomie et plaisir",
+          "Cuisine ensemble une fois par semaine — toucher la nourriture sans pression",
+          "Réflexo digestion : voûte plantaire, cercles doux après les repas, 1 min/pied",
+          "Marche tranquille après le repas dans la maison — favorise la digestion"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Tenir un journal du tonus relationnel autour des repas pendant 7 jours — souvent on repère soi-même",
+        "Demander au co-parent d'observer 2 repas — fait souvent émerger les automatismes",
+        "Sortir 5 minutes avant chaque repas — récupérer son calme pour entrer serein(e)",
+        "Lui apprendre à \"signer\" sa fin de repas — il sort dès qu'il signe, sans débat"
+      ],
+      "principe": "Le repas est un moment social et affectif AVANT d'être un moment nutritionnel. Si la nutrition prend toute la place, la crise prend toute la place. Restaurer le social et l'affectif fait reculer la crise.",
+      "erreurs_a_eviter": [
+        "Faire de chaque repas un défi à relever — installe une logique de combat",
+        "L'attacher dans la chaise pour qu'il \"finisse\" — traumatise et associe table à contrainte",
+        "Le menacer (\"pas de gâteau si...\") — installe la nourriture comme outil de chantage",
+        "Discuter du repas devant lui avec le co-parent — il enregistre toute la tension"
+      ],
+      "consulter_si": "Si les crises de repas durent depuis plus de 3 semaines malgré un changement de cadre, ou si la prise alimentaire devient si faible que la croissance ralentit — consulter le pédiatre. Une orientation vers une psychologue spécialisée en parentalité peut aussi être très aidante pour sortir du nœud relationnel."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Pleure violemment à chaque séparation",
+      "titre": "Pleurs intenses au moment du départ",
+      "explication": "L'angoisse de séparation à 14 mois est à son pic neurologique. Ton enfant a maintenant pleinement intégré la permanence de l'objet (tu existes même quand il ne te voit pas), mais il ne peut pas encore intégrer la notion de durée (tu reviens \"après le repas\" reste abstrait). Quand tu pars, il vit l'expérience comme un abandon réel et durable. Ce n'est pas une manipulation — c'est de la souffrance vraie. Une séparation bien menée la rassure pour les suivantes.",
+      "ancrage": "Son chagrin n'est pas un échec de ta parentalité. C'est la preuve d'un lien solide. Tu ne le \"casses\" pas — tu construis sa confiance dans le retour.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — au moment du départ",
+        "etapes": [
+          "Préparer le départ 5 min avant : annoncer doucement avec la même formule chaque jour",
+          "Rituel court de séparation : 2 bisous, 1 mot-clé (\"à tout à l'heure\"), un câlin",
+          "PARTIR FRANCHEMENT — ne pas s'attarder, ne pas revenir, ne pas se cacher",
+          "Donner un objet transitionnel : doudou, foulard avec ton odeur",
+          "Faire confiance à la personne qui le garde — son calme calme l'enfant"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — rituel d'attachement",
+        "etapes": [
+          "Le matin au réveil : 10 min de \"plein de toi\" — collé contre toi, regard, voix",
+          "Réflexo zone du cœur : centre de la voûte plantaire, cercles doux, 1 min par pied",
+          "Lui parler de la journée : \"Tu vas voir Marie. Tu joueras. Je viendrai te chercher après ta sieste.\"",
+          "Au retour : 15 min sacrés de retrouvailles — pas de téléphone, pas de courses",
+          "Soir : \"livre des séparations\" — histoire qui parle du retour des parents"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne JAMAIS partir en cachette — installe une angoisse permanente",
+        "Toujours dire au revoir, même si ça déclenche les pleurs — préserve la confiance",
+        "Lui apprendre à \"téléphoner\" à toi avec un téléphone-jouet pour traverser la séparation",
+        "Photos de toi affichées chez la nounou/crèche — il peut les regarder"
+      ],
+      "principe": "La constance du retour construit la confiance. Si tu reviens TOUJOURS et au moment où tu l'as annoncé, son cerveau finit par intégrer que la séparation a une fin. Ça prend des semaines, mais ça marche.",
+      "erreurs_a_eviter": [
+        "Partir en cachette — déclenche une vigilance permanente très anxiogène",
+        "Allonger les au revoir pour le \"préparer\" — augmente l'anxiété",
+        "Faire culpabiliser : \"tu vois, tu me fais souffrir\" — toxique",
+        "Promettre des récompenses pour qu'il accepte — déconnecte du vrai enjeu (la confiance)"
+      ],
+      "consulter_si": "Si les pleurs persistent plus de 30 min après ton départ chaque jour pendant 3 semaines, ou si l'angoisse devient envahissante (refus total de séparation, troubles du sommeil majeurs liés) — en parler au médecin et au lieu de garde. Adapter le mode de garde peut être discuté."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Refuse de rester avec la nounou",
+      "titre": "Refus du mode de garde",
+      "explication": "Un refus marqué du mode de garde habituel à 14 mois peut traduire plusieurs choses : phase normale d'angoisse de séparation amplifiée, événement spécifique chez la nounou (réorganisation, nouvel enfant, conflit invisible), ou bien manque de lien spécifique avec cette personne. La période où tu déposes est cruciale : ta posture, la qualité de l'accueil, la transition d'objets. Mais parfois aussi, le mode de garde ne convient simplement plus.",
+      "ancrage": "Il a le droit d'exprimer un refus. Tu as le devoir d'écouter et d'observer avant de conclure.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — restaurer la transition",
+        "etapes": [
+          "Parler avec la nounou : comment se passe la journée APRÈS ton départ ?",
+          "Demander à rester 10-15 min de plus à la dépose — créer une transition douce",
+          "Ne pas écourter ta journée pour le récupérer en avance — confirme que l'absence dure trop",
+          "Apporter un objet transitionnel fort — un t-shirt à toi qui sent ton odeur",
+          "Garder un visage neutre et confiant à la dépose, même si toi tu doutes"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — créer le lien à la nounou",
+        "etapes": [
+          "Inviter la nounou 1h le week-end — il la voit dans un cadre nouveau, avec toi présente",
+          "Photos de la nounou à la maison — il les regarde, tu en parles avec affection",
+          "Vidéo de lui qui joue chez la nounou — la regarder ensemble quand vous êtes seuls",
+          "Réflexo plexus solaire au réveil — apaise l'anticipation de la journée",
+          "Rituel matin doux et sans rush — éviter le stress du départ pressé"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Observer s'il refuse uniquement le lundi ou tous les jours — info précieuse sur la nature du refus",
+        "Lui demander en montrant des photos : il sourit ? Se ferme ? — observer son corps",
+        "Demander à un proche de le déposer à la place — voir si c'est le \"départ\" ou \"la nounou\" qui pose problème",
+        "Faire confiance à ton intuition — un parent sent quand quelque chose ne va vraiment pas"
+      ],
+      "principe": "Un refus passager s'apaise en 2-3 semaines avec une bonne transition et un travail de lien. Un refus persistant et accompagné de signes (sommeil dégradé, retours plus difficiles, eczéma, retours en colère) mérite d'être pris très au sérieux.",
+      "erreurs_a_eviter": [
+        "Ignorer ses pleurs en pensant \"il s'habituera\" — parfois oui, parfois non",
+        "Changer 3 fois de mode de garde en 6 mois — chaque rupture est lourde à cet âge",
+        "Soupçonner systématiquement la nounou sans vérification — injuste et anxiogène",
+        "Le menacer (\"sinon tu iras chez papi\") — installe la peur de l'abandon"
+      ],
+      "consulter_si": "Si le refus persiste après 4 semaines de travail de transition, ou s'il s'accompagne d'autres signes (sommeil très perturbé, repli, eczéma, retours en grande colère, signes physiques inexpliqués) — repenser le mode de garde en concertation avec ton pédiatre. Faire confiance à son ressenti d'enfant est primordial."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "A régressé depuis un événement",
+      "titre": "Régression d'attachement post-événement",
+      "explication": "Un changement majeur (déménagement, arrivée d'un nouveau bébé, hospitalisation, séparation parentale, deuil dans la famille, changement de nounou) peut déclencher une régression de l'attachement chez un enfant de 14 mois. Il redevient plus collé, plus angoissé, dort plus mal, mange moins. C'est sa façon de chercher de la sécurité face à un monde devenu imprévisible. La régression n'est pas un échec — c'est un signal qui demande renforcement du lien.",
+      "ancrage": "Il ne régresse pas. Il se ressource. Il a besoin d'être petit un moment pour pouvoir avancer ensuite. Réponds au besoin sans culpabiliser.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — accueillir la régression",
+        "etapes": [
+          "Accepter sans commenter qu'il veuille être porté, bercé, nourri à la cuillère",
+          "Ne pas le pousser à \"être grand\" — il sait quand il pourra y retourner",
+          "Augmenter les temps de portage (porte-bébé, écharpe) si tu peux",
+          "Maintenir les routines de base — table, sommeil, hygiène — sans souplesse excessive",
+          "Mettre des mots simples : \"Tu as vécu beaucoup. C'est normal d'avoir besoin de plus de câlins.\""
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — re-créer la sécurité",
+        "etapes": [
+          "10 min de peau à peau matin et soir — comme un nouveau-né, en simplement présence",
+          "Réflexo plexus solaire : cercles doux, 1 min par pied, 2 fois par jour",
+          "Lecture de la même histoire chaque soir pendant 2 semaines — prévisibilité",
+          "Bain ensemble si possible — restaure la proximité corporelle",
+          "Multiplier les rituels prévisibles : \"chaque matin, on fait ça\", \"chaque dimanche, on fait ça\""
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Mettre des mots sur l'événement avec un vocabulaire simple et adapté",
+        "Photos de la situation passée + actuelle pour donner des repères visuels",
+        "Demander de l'aide pratique à l'entourage — un parent épuisé ne peut pas porter",
+        "Garder en tête : la régression dure 4 à 8 semaines en moyenne, pas plus"
+      ],
+      "principe": "Un enfant qui régresse demande à \"recharger\" son réservoir de sécurité. Plus tu remplis le réservoir sans rationner, plus vite il sera prêt à explorer à nouveau. Le rationner pour le \"forcer à grandir\" ralentit toujours le processus.",
+      "erreurs_a_eviter": [
+        "Dramatiser \"il a tellement changé !\" devant lui — alourdit son ressenti",
+        "Forcer à reprendre ses anciennes habitudes (lit, autonomie) — installe une lutte",
+        "Comparer avec d'autres enfants qui \"vivent ça mieux\" — il ne vit jamais ça pareil",
+        "Cacher tes propres émotions sur l'événement — les enfants sentent et s'inquiètent du non-dit"
+      ],
+      "consulter_si": "Si la régression dure plus de 2 mois sans amélioration, ou s'accompagne de symptômes intenses (terreurs nocturnes répétées, perte d'acquisitions majeures comme la propreté, repli marqué) — consulter le pédiatre. Une psychologue de la petite enfance peut accompagner les transitions importantes. Pas un échec parental — au contraire, prévention de difficultés futures."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Ne veut que maman, rejette papa",
+      "titre": "Préférence parentale exclusive",
+      "explication": "La préférence parentale exclusive est très fréquente entre 12 et 24 mois. Elle est neurologique : le cerveau de l'enfant cherche une figure d'attachement principale pour ses besoins de sécurité, et l'autre parent peut momentanément être perçu comme \"pas la bonne personne\". Ce n'est pas un rejet définitif et ça ne reflète pas la qualité du lien construit. Cette phase peut durer plusieurs mois et alterne souvent (parfois maman exclusivement, puis papa, puis maman à nouveau).",
+      "ancrage": "Ce n'est pas un rejet. C'est une phase. Le parent \"choisi\" n'est pas meilleur. Le parent \"rejeté\" n'est pas mauvais. Vous êtes deux, vous êtes ensemble.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — pour le parent \"rejeté\"",
+        "etapes": [
+          "Ne pas se vexer, ne pas se retirer — il a besoin que tu restes accessible",
+          "Proposer des moments à deux courts et de qualité — bain, sortie au parc, histoire",
+          "Ne pas remplacer l'autre parent à chaque demande — laisser le \"non\" sans drame",
+          "Continuer à intervenir dans les soins quotidiens — le bain, le repas, la couche",
+          "Ne pas en parler devant l'enfant : \"il préfère sa mère/son père\" — installe une étiquette"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — pour le parent \"choisi\"",
+        "etapes": [
+          "Soutenir activement l'autre parent : \"Papa va te donner le bain. Maman lit son livre.\"",
+          "Ne pas \"sauver\" l'enfant quand il pleure pour l'autre parent — confirme que celui-ci ne suffit pas",
+          "Sortir de la maison régulièrement seule pour que le tête-à-tête avec l'autre parent existe",
+          "Réflexo conjointement : un parent fait un pied, l'autre l'autre",
+          "Endormir parfois à deux — visages côte à côte, voix qui alternent"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "S'organiser pour que chaque parent ait DES tâches dédiées que l'enfant ne peut négocier",
+        "Le matin, par exemple : papa fait le petit-déjeuner et le change. Toujours.",
+        "Photos des deux parents partout, dans la chambre, dans les espaces de vie",
+        "Le parent \"choisi\" doit lui-même renforcer la place de l'autre verbalement plusieurs fois par jour"
+      ],
+      "principe": "La préférence parentale se traverse mieux à deux et organisée qu'à deux et improvisée. Mettre en place des rôles parentaux dédiés et incontournables permet à l'enfant d'investir l'autre parent malgré sa préférence du moment.",
+      "erreurs_a_eviter": [
+        "Le parent rejeté qui se retire complètement — confirme dans le cerveau de l'enfant que oui, il ne sert à rien",
+        "Disputes parentales sur \"pourquoi\" l'enfant préfère l'un — déstabilise le couple",
+        "Forcer le bisou ou le câlin au parent rejeté — crée du dégoût, pas de l'amour",
+        "Le parent choisi qui se moque ou qui s'attendrit à voix haute — humilie l'autre parent"
+      ],
+      "consulter_si": "Cette phase est normale et n'a pas besoin d'avis médical. Demander de l'aide en thérapie de famille uniquement si la dynamique parentale en souffre durablement, ou si le parent rejeté traverse une vraie blessure narcissique difficile à gérer seul. Pas pour l'enfant — pour le couple parental."
+    },
+    {
+      "categorie": "corpo",
+      "situation": "Tombe souvent et semble peu stable",
+      "titre": "Marche instable, chutes fréquentes",
+      "explication": "À 14 mois, environ 75% des enfants marchent seuls — mais avec une stabilité encore très variable. Les chutes sont nombreuses et normales : le cerveau apprend en tombant. Le cervelet (équilibre) et les muscles posturaux continuent à maturer jusqu'à 18-24 mois. Ce qui compte : Théo se relève seul après les chutes, ne pleure pas systématiquement, alterne marche et appui. Le surprotéger limite les apprentissages.",
+      "ancrage": "Chaque chute n'est pas un échec. C'est un essai. Ton enfant apprend par sa propre expérience corporelle — pas par ta peur.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — sécuriser sans paniquer",
+        "etapes": [
+          "Sécuriser l'environnement : protections d'angles, tapis épais, plantes hors de portée",
+          "Quand il tombe : observer avant de te précipiter — souvent il se relève seul",
+          "Réaction calme : \"Hop ! C'est fini. Tu te relèves.\" — pas de drame",
+          "Vérifier l'absence de blessure rapidement, puis encourager à reprendre",
+          "Marche pieds nus dès que possible — meilleure proprioception"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — renforcer l'équilibre",
+        "etapes": [
+          "Massage des jambes après le bain : pieds vers cuisses, avec huile végétale",
+          "Réflexo équilibre : zone du cervelet (juste sous la base du gros orteil), 1 min par pied",
+          "Jeux de balance : pousser un chariot, monter sur un caisson bas, se baisser pour ramasser",
+          "Marche sur surfaces variées : pelouse, gravier doux, sable, parquet — proprioception",
+          "Porte-bébé court mais utile pour les longs trajets — éviter la sur-marche fatigante"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Marcher pieds nus à la maison — meilleure pour le développement plantaire",
+        "Limiter les chaussures montantes ou rigides — bridge la cheville",
+        "Sorties quotidiennes en marche libre dans des espaces sûrs",
+        "Yoga / portage : activités qui renforcent globalement le tonus"
+      ],
+      "principe": "L'enfant qui marche a besoin de tomber pour apprendre. Sa proprioception se construit en intégrant les sensations de déséquilibre, de chute, de rétablissement. Un environnement trop \"safe\" empêche cet apprentissage essentiel.",
+      "erreurs_a_eviter": [
+        "Le rattraper systématiquement — il n'apprend pas à se rétablir",
+        "Mettre un casque pour les chutes — supprime les signaux d'apprentissage",
+        "Lui interdire les terrains accidentés — appauvrit la coordination",
+        "Le retenir par les bras tout le temps quand il marche — déstabilise sa marche autonome"
+      ],
+      "consulter_si": "Si les chutes deviennent quotidiennement nombreuses (15+ par jour), si la marche reste très asymétrique après 16 mois, ou si l'enfant tombe sans aucune réaction de rétablissement — consulter le pédiatre. Une évaluation neuromotrice peut détecter de petits déficits faciles à corriger en psychomotricité."
+    },
+    {
+      "categorie": "corpo",
+      "situation": "Marche sur les pointes systématiquement",
+      "titre": "Marche en pointes",
+      "explication": "La marche sur la pointe des pieds chez l'enfant qui apprend à marcher peut avoir plusieurs causes : phase normale d'exploration motrice (les premières semaines de marche), recherche sensorielle (input vestibulaire), tendons d'Achille un peu courts, ou plus rarement signal à surveiller. À 14 mois, c'est très souvent transitoire et physiologique. Le pied à plat s'installe normalement avant 18-24 mois.",
+      "ancrage": "Avant de t'inquiéter : observe si c'est systématique ou occasionnel. La plupart des enfants alternent à cet âge.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — observation et stimulation",
+        "etapes": [
+          "Observer pendant 1 semaine : marche-t-il sur les pointes 100% du temps ou occasionnellement ?",
+          "Encourager la marche sur talons avec un jeu : \"Comme les éléphants !\"",
+          "Marche pieds nus sur surfaces variées — sable, herbe, gravier, parquet",
+          "Vérifier la souplesse : peut-il s'accroupir totalement, plante des pieds au sol ?",
+          "Pas de chaussures rigides — limite la mobilité naturelle"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — assouplir et stimuler",
+        "etapes": [
+          "Massage des mollets et tendons d'Achille — pression douce de bas en haut",
+          "Réflexo voûte plantaire (entière) : effleurage long du talon vers les orteils",
+          "Jeux d'accroupissement répétés : ramasser un objet au sol, se relever, ramasser",
+          "Marche sur talons en chantant — rythme et jeu",
+          "Bain de pieds avec stimulation tactile variée — pierres lisses, sable, eau"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Filmer 2-3 min de marche libre — utile en consultation si besoin",
+        "Vérifier que l'enfant SAIT poser le pied à plat — peut-il le faire si on lui demande ?",
+        "Observer l'évolution sur 4 à 6 semaines avant toute consultation",
+        "Multiplier les activités qui sollicitent la flexion des chevilles : grimper, monter"
+      ],
+      "principe": "Une marche en pointes occasionnelle ou en phase d'apprentissage est physiologique. Une marche en pointes 100% du temps avec impossibilité de poser à plat est à investiguer. La différence se mesure par l'observation, pas par l'inquiétude.",
+      "erreurs_a_eviter": [
+        "Lui mettre des chaussures lestées pour le \"forcer\" — contre-productif et néfaste",
+        "Le forcer à marcher à plat — crée du conflit moteur",
+        "Paniquer après 1 semaine d'observation — la phase peut durer plusieurs mois",
+        "Lui interdire de courir/sauter pour ne pas \"aggraver\" — au contraire, il faut bouger"
+      ],
+      "consulter_si": "Consulter le pédiatre si : marche 100% en pointes pendant plus de 3 mois après l'acquisition de la marche, impossibilité de poser pied à plat même volontairement, asymétrie (un pied seulement), associée à d'autres signes (retard de langage, peu d'imitation, regard fuyant). Un bilan kiné ou en psychomotricité peut être indiqué."
+    },
+    {
+      "categorie": "corpo",
+      "situation": "Ne court pas encore à 14 mois",
+      "titre": "Course non encore acquise",
+      "explication": "La course s'acquiert en moyenne entre 16 et 20 mois — bien après la marche. À 14 mois, ne pas courir est parfaitement dans la norme. Ce qui compte à cet âge : ton enfant marche de façon fonctionnelle, monte les escaliers avec aide, peut s'accroupir et se relever. La course viendra quand son cervelet et sa coordination auront maturé suffisamment.",
+      "ancrage": "Il marche avant de courir — au sens propre. Chaque acquisition motrice a son temps. La stimulation aide, la pression nuit.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — stimuler la progression",
+        "etapes": [
+          "Jeux de poursuite : courir devant lui en l'invitant à te rattraper",
+          "Jouer à la balle : lancer devant lui pour qu'il avance vite",
+          "Parcours d'obstacles : changer de vitesse naturellement dans le parcours",
+          "Danser ensemble sur des musiques rythmées — le rythme stimule la coordination",
+          "Marcher vite ensemble en tenant sa main — transition douce vers la course"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — stimulation motrice",
+        "etapes": [
+          "Réflexo jambes et bassin : bas de la voûte et talon, effleurage ferme — 2 min par pied",
+          "Massage des jambes avec huile de calendula : cheville vers la cuisse — 2 min",
+          "Activités d'escalade et de descente : toboggan, marches — fortifient les jambes",
+          "Marche sur surfaces inclinées : légère pente — descente puis montée",
+          "Balançoire en poussant — le mouvement rythmique développe la coordination"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne pas comparer avec les cousins ou les enfants de la crèche — les écarts sont grands",
+        "Signaler au médecin uniquement si autres jalons moteurs en retard simultanément",
+        "Valoriser ce que l'enfant SAIT faire : escaliers, accroupissement, montée/descente",
+        "Créer des opportunités quotidiennes de déplacement actif : limiter siège auto et poussette"
+      ],
+      "principe": "Les enfants qui ont accès à des espaces de jeu physique libres (parc, jardin, espace ouvert) progressent plus vite sur le plan moteur. La motricité libre est plus stimulante que les activités dirigées.",
+      "erreurs_a_eviter": [
+        "Mettre l'enfant dans un trotteur — retarde la marche et crée de mauvais schémas moteurs",
+        "Comparer et s'inquiéter prématurément — l'anxiété parentale se transmet",
+        "Forcer à courir ou tenir les bras pour simuler la course — sans le tonus, contre-productif",
+        "Ignorer si à 18 mois ton enfant ne marche toujours pas de façon autonome"
+      ],
+      "consulter_si": "Si à 18 mois l'enfant ne marche pas encore de façon autonome, ou si la marche est très asymétrique — consulter le médecin. Une évaluation neuromotrice est recommandée. La course peut prendre jusqu'à 22-24 mois sans inquiétude particulière si les autres jalons moteurs sont là."
+    },
+    {
+      "categorie": "corpo",
+      "situation": "Se cogne intentionnellement contre les meubles",
+      "titre": "Recherche sensorielle proprioceptive",
+      "explication": "Les coups volontaires contre les surfaces dures à 14 mois sont un comportement de recherche sensorielle proprioceptive. Le choc envoie un signal fort au cerveau qui aide ton enfant à \"se situer dans l'espace\". C'est souvent plus intense en fin de journée ou lors de transitions émotionnelles. Ce n'est pas dangereux et pas intentionnellement autodestructeur. C'est un besoin neurologique qui peut être canalisé.",
+      "ancrage": "Il cherche à se sentir. Son cerveau réclame des informations sensorielles intenses pour intégrer son corps dans l'espace.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — rediriger sans dramatiser",
+        "etapes": [
+          "Réagir calmement : \"Tu cherches une grosse sensation. Je vais t'aider à la trouver autrement.\"",
+          "Lui proposer une alternative : taper sur un coussin, écraser de la pâte, gros câlin serré",
+          "Pression ferme immédiate sur les épaules ou les bras — input proprioceptif",
+          "Sortir 10 min — change l'environnement et la dépense énergétique",
+          "Ne pas s'angoisser à voix haute — il n'a pas un \"problème\""
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — proposer du sensoriel adapté",
+        "etapes": [
+          "Bac sensoriel quotidien : riz, lentilles, sable, eau — mains dedans",
+          "Coussin lourd sur les genoux pendant la lecture — apaisant",
+          "Massage avec pression appuyée (pas chatouille) — 5 min après le bain",
+          "Réflexo talon : pression maintenue ferme, 30 sec par pied",
+          "Activités d'écrasement : pâte à modeler, écraser des coussins, sauter sur un trampoline bas"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Tenir un journal : quand survient le comportement ? Cumul fatigue/faim/sur-stimulation ?",
+        "Augmenter les inputs sensoriels en prévention quotidienne : balançoire, escalade, écrasement",
+        "Aménager un \"coin sensoriel\" : matelas épais, coussins lourds, tente fermée",
+        "Cohérence parentale : la même réponse calme à chaque épisode"
+      ],
+      "principe": "Le besoin de stimulation proprioceptive est physiologique. Plus tu offres d'inputs adaptés dans la journée, moins le besoin de se cogner sera intense. Réprimer sans alternative ne marche jamais.",
+      "erreurs_a_eviter": [
+        "Crier pour le faire arrêter — l'excite encore plus",
+        "Mettre un casque ou des protections — fixe le comportement",
+        "Le punir — il n'a pas un contrôle volontaire sur ce besoin",
+        "Penser qu'il \"cherche l'attention\" — il cherche une régulation sensorielle"
+      ],
+      "consulter_si": "Si le comportement devient envahissant (plusieurs fois par heure), s'accompagne d'autres signes de profil sensoriel atypique (refus de certaines textures, intolérance au bruit, peu d'intérêt pour les autres) — consulter un psychomotricien ou ergothérapeute spécialisé en intégration sensorielle. Ce n'est pas une urgence, mais l'accompagnement précoce est très efficace."
+    },
+    {
+      "categorie": "dents",
+      "situation": "Semble avoir très mal aux gencives",
+      "titre": "Douleur dentaire intense",
+      "explication": "Vers 14 mois, les premières molaires émergent (12-18 mois selon les enfants). C'est la poussée dentaire la plus douloureuse de toutes : grosse dent, lente, qui pousse souvent en plusieurs poussées sur plusieurs semaines. Symptômes : gencives très gonflées et rouges, joues rouges, salivation abondante, irritabilité majeure, sommeil perturbé, parfois fièvre légère, perte d'appétit. La douleur est réelle et significative.",
+      "ancrage": "Sa douleur est vraie. Tu ne dois pas la sous-estimer. Mais elle passera — et tu peux la soulager.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — soulager la douleur",
+        "etapes": [
+          "Anneau de dentition au réfrigérateur (pas congelé — risque de brûlure)",
+          "Massage des gencives avec un doigt propre — pression ferme, courte, douce",
+          "Linge mouillé et frais pour mâchonner",
+          "Paracétamol selon dose pédiatrique si douleur intense — avis médecin",
+          "Aliments froids : compote sortie du frigo, yaourt frais, glaçons de lait dans une tétine perforée"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — apaiser globalement",
+        "etapes": [
+          "Réflexo dents : zone à la base des orteils (juste sous), pression douce, 1 min par pied",
+          "Massage du visage : joue, mâchoire, autour des oreilles — drainage",
+          "Câlins prolongés, voix douce — le contact apaise la perception de la douleur",
+          "Bain tiède relaxant le soir",
+          "Diffusion d'eau florale de camomille en spray d'ambiance — ambiance douce"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Pas de gel anesthésiant à la lidocaïne — risques documentés avant 2 ans",
+        "Pas de collier d'ambre — risque d'étouffement et inefficacité prouvée",
+        "Hygiène bucco-dentaire : brosse à dents souple, eau seule, 2 fois par jour",
+        "Tenir un calendrier des poussées — aide à anticiper les nuits difficiles"
+      ],
+      "principe": "Les molaires émergent par à-coups. Une poussée intense dure typiquement 3 à 7 jours, puis accalmie, puis nouvelle poussée. Tenir le cap pendant les pics avec des moyens de soulagement adaptés, sans chercher à faire disparaître la douleur totalement.",
+      "erreurs_a_eviter": [
+        "Donner des biscuits de dentition trop tôt (sucrés) — caries précoces",
+        "Anneau congelé — peut brûler la gencive",
+        "Médicaments en libre-service au-delà de la dose pédiatrique — toxicité",
+        "Penser que la douleur est exagérée — la poussée des molaires est très intense"
+      ],
+      "consulter_si": "Consulter le médecin si : fièvre supérieure à 38.5°C qui persiste, refus total de s'alimenter ou de boire pendant 24h, gencive très gonflée avec pus ou abcès, joue chaude et rouge unilatérale. La fièvre haute n'est PAS due aux dents — chercher autre cause."
+    },
+    {
+      "categorie": "dents",
+      "situation": "Refuse de manger à cause de la douleur",
+      "titre": "Refus alimentaire dû aux dents",
+      "explication": "Quand les gencives sont enflammées par la poussée d'une molaire, mastiquer devient douloureux. L'enfant refuse souvent les aliments solides ou texturés et privilégie les choses molles et froides. Cette baisse d'appétit dure le temps de la poussée — 3 à 7 jours en moyenne. Le maintenir hydraté est la priorité absolue. La nutrition peut attendre quelques jours sans inquiétude.",
+      "ancrage": "Quand on a mal à une dent, on n'a pas envie de manger. C'est légitime. Tu n'as pas à le forcer. Tu as à le soulager.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — adapter les repas",
+        "etapes": [
+          "Proposer des aliments FROIDS et MOUS : compote, yaourt, fromage frais, smoothie",
+          "Pas de tétines/biberons trop durs — proposer une cuillère ou paille",
+          "Hydratation prioritaire : eau fraîche en petites gorgées fréquentes",
+          "Donner les fruits écrasés plutôt qu'entiers, légumes en velouté plutôt qu'en morceaux",
+          "Si paracétamol prescrit : le donner 30 min avant le repas — soulage la mastication"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — apaiser avant le repas",
+        "etapes": [
+          "Massage doux des gencives juste avant de manger — \"déstresse\" la zone",
+          "Anneau de dentition frais 5 min avant le repas",
+          "Réflexo zone digestion (voûte plantaire) : 1 min par pied avant et après",
+          "Câlin de 30 sec avant de s'installer à table",
+          "Eau fraîche en début de repas — anesthésie légère naturelle"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Réduire l'enjeu des repas pendant cette période — l'important est qu'il boive",
+        "Aliments hyperénergétiques liquides : smoothies banane-yaourt-lait, soupes nourrissantes",
+        "Pas de \"vous devez manger\" — respect du signal douloureux",
+        "Profiter des accalmies entre deux poussées pour reproposer le solide"
+      ],
+      "principe": "Le corps régule sa prise alimentaire intelligemment. Un enfant douloureux mange moins — c'est normal et adapté. Tant qu'il s'hydrate, fait pipi, garde un peu de tonus, il n'y a pas d'urgence nutritionnelle.",
+      "erreurs_a_eviter": [
+        "Forcer une cuillère — installe une association douleur/repas durable",
+        "Lui donner uniquement du sucré \"pour qu'il mange\" — caries et déséquilibre",
+        "Supprimer les solides définitivement \"pour ne plus le contrarier\" — il faudra retravailler la mastication",
+        "Le peser tous les jours — anxiogène et inutile sur une période courte"
+      ],
+      "consulter_si": "Consulter si : refus total de boire pendant 12h, signes de déshydratation (lèvres sèches, urines rares ou foncées, fontanelle creuse), refus alimentaire qui dure plus de 7 jours, perte de poids significative, fièvre > 38.5°C persistante. Le pédiatre pourra confirmer l'origine dentaire ou chercher autre chose."
+    },
+    {
+      "categorie": "dents",
+      "situation": "Nuit très agitée à cause des dents",
+      "titre": "Sommeil perturbé par les dents",
+      "explication": "Pendant l'éruption des molaires, la position allongée augmente la pression dans les gencives et amplifie la douleur. Les réveils nocturnes en cris, les longs moments d'agitation, les pleurs inconsolables sont fréquents. La nuit, sans distractions, l'enfant ne peut plus oublier sa douleur. Cette phase dure typiquement 3 à 5 nuits par poussée — épuisante mais temporaire.",
+      "ancrage": "Sa nuit difficile n'est pas un problème de sommeil — c'est une nuit douloureuse. Tu vas l'accompagner différemment, et ça reviendra à la normale.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — la nuit",
+        "etapes": [
+          "Anneau de dentition frais à portée de main près du lit",
+          "Si douleur évidente : paracétamol pédiatrique selon prescription, 30 min avant le coucher",
+          "Surélever légèrement la tête du matelas (sous le matelas, pas l'oreiller direct)",
+          "Réveils nocturnes : porter, bercer, masser les gencives — pas forcer le rendormissement",
+          "Lumière minimale, voix basse — ne pas réveiller davantage"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — accompagner la nuit",
+        "etapes": [
+          "Massage doux des gencives avec un doigt propre",
+          "Réflexo dents : sous les orteils (base), pression douce, 1 min par pied",
+          "Massage du visage : tempes, mâchoire, oreilles — drainage et détente",
+          "Bercement lent debout — gravité aide à drainer la zone",
+          "Voix très basse, chantonner une berceuse répétitive"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Anticiper : si poussée diagnostiquée, prévoir des nuits compliquées 3-5 jours",
+        "Se relayer avec le co-parent — l'épuisement est réel",
+        "Maintenir le cadre du coucher habituel — ne pas créer de nouvelles habitudes",
+        "Préparer la chambre la veille : doudou, eau, lampe douce, anneau près du lit"
+      ],
+      "principe": "Pendant une poussée dentaire, les nuits sont temporairement adaptées à la douleur — pas un nouveau standard. L'objectif est de \"survivre\" ces 3-5 nuits, pas de réformer le sommeil. Une fois la dent sortie, le sommeil reprend.",
+      "erreurs_a_eviter": [
+        "Donner du lait ou du sucre à chaque réveil — caries et installations d'habitudes",
+        "Changer de rythme drastiquement — l'enfant aura besoin de retrouver son cadre",
+        "Penser que c'est une régression définitive — c'est temporaire et lié",
+        "Ne pas soulager la douleur par crainte du paracétamol — la douleur prolongée a aussi un coût"
+      ],
+      "consulter_si": "Consulter en journée si : fièvre > 38.5°C, gencive très rouge avec pus, refus total de l'eau, joue rouge et chaude (suspicion d'abcès), nuit \"dentaire\" qui dure plus de 7 jours sans amélioration. Les molaires ne devraient pas faire vomir ni faire 39°C — chercher autre cause."
+    },
+    {
+      "categorie": "dents",
+      "situation": "Bave beaucoup et mâchonne tout",
+      "titre": "Salivation abondante et mâchonnement",
+      "explication": "La salivation abondante et le besoin de tout mâchonner sont des signes typiques précédant la sortie d'une dent. La salive contient des enzymes qui aident à \"ramollir\" la gencive pour faciliter la percée. Le mâchonnement compresse la gencive et soulage la pression intérieure. C'est un comportement réflexe et physiologique. Le défi : limiter les risques d'étouffement et d'infection.",
+      "ancrage": "Son corps fait exactement ce qu'il doit faire pour préparer la sortie de la dent. Ton rôle : sécuriser l'environnement.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — accompagner et sécuriser",
+        "etapes": [
+          "Bavoirs nombreux et changés régulièrement — éviter macération sur le cou et menton",
+          "Sécher le menton souvent avec un linge doux — prévient l'irritation cutanée",
+          "Anneaux de dentition variés à disposition : textures, formes, froids et tempérés",
+          "Inspecter les objets qu'il met en bouche — éliminer ceux qui peuvent se casser",
+          "Crème protectrice (Mitosyl, Bepanthen) sur menton/cou si rougeurs"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — soulager activement",
+        "etapes": [
+          "Massage des gencives 2-3 fois par jour avec un doigt propre",
+          "Linge propre légèrement humide (jamais glacé) à mordiller — fraicheur sans danger",
+          "Réflexo zone dents : sous les orteils, pression douce, 1 min par pied 2x/jour",
+          "Massage des mâchoires : sous les oreilles vers le menton — drainage",
+          "Brossette en silicone douce pour les premières dents et stimuler les gencives"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Anticiper : la sortie d'une molaire suit typiquement 1-2 semaines de salivation intense",
+        "Préparer la trousse \"poussée dentaire\" : anneaux, paracétamol, crème menton, bavoirs",
+        "Ne pas se précipiter sur les médicaments avant que la douleur soit installée",
+        "Vérifier les gencives chaque soir — observer la progression"
+      ],
+      "principe": "La salivation est annonciatrice. Profiter de cette période de \"préparation\" pour anticiper la phase douloureuse. C'est aussi un moment où le mâchonnement bien encadré devient un excellent outil de soulagement avant que les pics arrivent.",
+      "erreurs_a_eviter": [
+        "Hochets durs pour mâchonner — risque de fissure dentaire des premières dents",
+        "Aliments à mâchonner non sûrs : carotte crue, pain dur — risque d'étouffement",
+        "Colliers d'ambre — inefficaces ET dangereux (étouffement, étranglement)",
+        "Sous-estimer le menton irrité — peut devenir une vraie dermite, à prévenir tôt"
+      ],
+      "consulter_si": "La salivation seule n'est pas un motif de consultation. Consulter si : toux persistante qui accompagne la salivation (peut être un fausse-route), éruption autour de la bouche qui s'étend, fièvre > 38.5°C persistante, gencive très gonflée avec rougeur intense ou pus."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "Rentre de crèche complètement débordé",
+      "titre": "Décharge émotionnelle après la crèche",
+      "explication": "À 14 mois, la crèche est un environnement très stimulant : bruit, autres enfants, multiples interactions, règles, transitions, repas, sieste collective. L'enfant tient toute la journée en \"surcontrôle\", et explose à la sortie — en pleurs, en colère, en agitation, ou parfois en effondrement. C'est un signe que tu es sa figure d'attachement sûre où il peut enfin lâcher. Ce \"craquage\" est le prix d'une bonne adaptation à la crèche.",
+      "ancrage": "S'il craque en te retrouvant, c'est qu'il t'a tenu(e) en tête toute la journée. Sa décharge est un compliment, pas un problème.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — accueil au retour",
+        "etapes": [
+          "Te concentrer pleinement à son retour — pas de téléphone, pas de \"on y va vite\"",
+          "L'accueillir 5 min avec un câlin long avant de tout faire",
+          "Si crise au moment de partir de la crèche : ne pas se précipiter dans la voiture, prendre 2 min calmes dehors",
+          "À la maison : pas de programme pédagogique — laisser-être, jeu libre, calme",
+          "Repas léger et tôt — il sera fatigué et grognon si on attend trop"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — recharger en sécurité",
+        "etapes": [
+          "Bain chaud court avec lumière tamisée",
+          "Réflexo plexus solaire : cercles doux, 1 min par pied",
+          "Lecture d'un livre familier dans tes bras — pas de nouveauté ce soir",
+          "Câlin long sur le canapé — peau à peau si possible",
+          "Voix basse, mouvements lents — ralentir le tempo global"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Réduire les activités du soir : pas de cours, pas de courses, pas d'amis",
+        "Prévoir 30 min sacrées de \"retrouvailles\" en arrivant — c'est non négociable",
+        "Coucher 30 min plus tôt les jours de crèche — la fatigue cumulative est réelle",
+        "En parler avec la crèche : comment se passe la journée ? Sieste ? Repas ? Interactions ?"
+      ],
+      "principe": "Le craquage du soir n'est pas un problème — c'est le succès de la séparation. Le supprimer voudrait dire qu'il ne se sent plus assez en sécurité avec toi pour le faire. L'accueillir et l'accompagner est la meilleure stratégie.",
+      "erreurs_a_eviter": [
+        "Le gronder de \"faire des caprices\" en rentrant — il vit une vraie décharge",
+        "Multiplier les sollicitations à la sortie (\"raconte ta journée !\") — il ne peut pas",
+        "Le laisser longtemps en attendant que ça passe — il a besoin de toi",
+        "Allumer la TV \"pour qu'il se calme\" — ajoute de la stimulation à un système saturé"
+      ],
+      "consulter_si": "Si le craquage du soir devient quotidien, très intense et long (plus de 30 min), s'accompagne d'une dégradation du sommeil et de l'appétit, ou si l'enfant montre des signes de mal-être à la crèche (refus net, eczéma, repli) — discuter avec la directrice de crèche et le pédiatre. Parfois la crèche elle-même est trop éprouvante pour ce tempérament-là."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "Hyperactif après une journée chargée",
+      "titre": "Sur-excitation paradoxale",
+      "explication": "Quand un enfant de 14 mois est en sur-fatigue ou sur-stimulé, son corps réagit paradoxalement par de l'agitation, de l'excitation, parfois des rires nerveux. C'est l'effet cortisol : le stress libère des hormones qui maintiennent l'éveil malgré l'épuisement. Plus il en fait, plus il s'épuise — et plus il continue. Il n'arrive plus à s'arrêter. C'est typique des fins de journée intenses ou des sorties trop longues.",
+      "ancrage": "Son agitation n'est pas un signe qu'il a encore de l'énergie. C'est un signe que son cerveau ne sait plus comment freiner.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — freiner le système",
+        "etapes": [
+          "Réduire instantanément les stimulations : lumière baissée, sons coupés, calme",
+          "Pas de divertissement excitant pour \"qu'il dépense\" — il est DÉJÀ en surcharge",
+          "Proposer une activité au sol, lente : bac sensoriel, livre, gros câlin sur le canapé",
+          "Si possible, sortir 10 min dehors marcher — change l'air et le contexte",
+          "Repas léger, tôt, simple — pas le moment des découvertes alimentaires"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — apaiser le système nerveux",
+        "etapes": [
+          "Bain tiède calme — pas de jouets, juste l'eau et toi",
+          "Réflexo gros orteil + plexus solaire : cercles lents, 2 min par pied",
+          "Bercement long dans une couverture — enroulement contenant",
+          "Voix très basse, chantonnement répétitif — apaisement vagal",
+          "Lumière de veilleuse uniquement, dès 19h"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Avancer le coucher à 18h45-19h les jours difficiles — la sur-fatigue cesse en dormant",
+        "Tenir un journal des journées chargées et les signes — repérer le seuil de l'enfant",
+        "Limiter les activités prévues : 1 grande activité par jour, pas plus",
+        "Prévoir des temps blancs dans la journée — sas de récupération"
+      ],
+      "principe": "L'agitation paradoxale est un signal d'arrêt, pas un signal de dépense. Le calme est le remède, jamais le mouvement supplémentaire. Plus tu calmes tôt, plus court sera l'épisode.",
+      "erreurs_a_eviter": [
+        "Penser \"il faut le fatiguer plus\" — empire à coup sûr",
+        "Allumer un écran \"pour qu'il se calme\" — l'écran sur-stimule le système nerveux",
+        "Multiplier les ordres et les rappels (\"arrête, calme-toi\") — augmente l'agitation",
+        "Repousser le coucher \"puisqu'il n'est pas fatigué\" — il est sur-fatigué, c'est différent"
+      ],
+      "consulter_si": "Si l'hyperactivité paradoxale devient quotidienne, s'accompagne de difficultés majeures à s'endormir (plus de 1h chaque soir) et d'une dégradation générale (humeur, sommeil, appétit) — en parler au pédiatre. Parfois un rythme de journée trop chargé ou un mode de garde inadapté est en cause."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "Pleure sans raison après une belle sortie",
+      "titre": "Crash post-stimulation positive",
+      "explication": "Les sorties \"positives\" (parc, anniversaire, visite familiale, voyage) sont aussi des sur-stimulations pour un cerveau de 14 mois. Beaucoup d'inputs sensoriels, de personnes, de bruit, d'émotions positives intenses. À la fin, le système nerveux ne peut plus tenir — il \"crashe\". L'enfant pleure, semble triste sans raison, refuse tout. C'est la \"gueule de bois\" du bébé après une intense journée. Normal et bien différent d'une vraie tristesse.",
+      "ancrage": "Sa joie l'a fatigué autant que sa peine. Une trop grande journée appelle un trop petit retour. Tu vas l'aider à atterrir.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — atterrissage doux",
+        "etapes": [
+          "Ne pas chercher la cause du chagrin — il n'y en a pas une, il y a UN TROP",
+          "Voix douce : \"Tu as vécu tellement de choses. Ton cœur est plein, c'est beaucoup.\"",
+          "Câlin long, dans une couverture si possible — contention douce",
+          "Pas de question, pas de proposition — juste être là",
+          "Réduire instantanément les stimulations : pénombre, calme"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — décompresser",
+        "etapes": [
+          "Bercement long, balancements lents dans tes bras",
+          "Réflexo plexus solaire : cercles doux, 2 min par pied",
+          "Bain tiède sans stimulation, à la lumière d'une veilleuse",
+          "Massage doux du dos avec pression progressive — relâche les tensions accumulées",
+          "Allaitement ou biberon de retour si encore d'actualité — apaise par succion"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Anticiper après chaque grosse sortie : prévoir 1-2h de récupération obligatoire",
+        "Limiter le nombre d'événements par week-end — 1 grand événement, c'est déjà beaucoup",
+        "Prévenir l'entourage : il faudra partir tôt, pas de pression",
+        "Apporter doudou, tétine, couverture familière dans toutes les sorties"
+      ],
+      "principe": "Plus la stimulation a été grande (même positive), plus le temps de récupération est long. Un anniversaire de 3h demande souvent 24h de retour à la normale. Anticiper et accepter ce besoin évite les conflits autour.",
+      "erreurs_a_eviter": [
+        "Penser \"il devrait être content après une telle journée\" — la fatigue dépasse le plaisir",
+        "Rester longtemps après la sortie en pensant \"il va se remettre\" — il ne se remet qu'au calme",
+        "Multiplier les sorties consécutives en pensant qu'il s'habituera — il ne s'habitue jamais à la sur-stimulation",
+        "Le gronder d'être grognon — il vit un crash hormonal, pas une bouderie"
+      ],
+      "consulter_si": "Le crash post-stimulation est normal et n'a pas besoin d'avis médical. Discuter avec le pédiatre uniquement si la sensibilité à la stimulation devient extrême (incapacité à supporter toute sortie, déclenchement de symptômes physiques comme l'eczéma) — il peut s'agir d'un tempérament HPS (hypersensibilité) ou de profil sensoriel particulier."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "Impossible à calmer en fin de journée",
+      "titre": "Heure du loup et accumulation du jour",
+      "explication": "L'\"heure du loup\" — entre 17h et 19h — est physiologiquement difficile à 14 mois. Le cortisol remonte, la glycémie chute, la fatigue accumulée explose, l'angoisse de séparation s'amplifie. C'est l'heure des crises, des pleurs sans raison, du refus de tout. Anticiper cette heure transforme la gestion. Beaucoup de parents pensent \"il fait des caprices\" — c'est en réalité de la neurochimie pure.",
+      "ancrage": "Cette heure difficile n'est pas une faiblesse de ton enfant. C'est une réalité physiologique. Ton calme et ton anticipation sont le seul antidote.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — entre 17h et 19h",
+        "etapes": [
+          "Collation protéinée à 16h30 : œuf dur, fromage, compote sans sucre — stabilise la glycémie",
+          "Réduire activité et stimulation après 17h — calme, lumière baissée",
+          "Sortie courte dehors si possible à 17h30 — change l'air, recadre le cerveau",
+          "Pas de tâches difficiles ou conflictuelles entre 17h et 19h — repousser ce qui peut l'être",
+          "Bain plus tôt si crise — coupe la crise et avance la fenêtre de coucher"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — accompagner l'heure du loup",
+        "etapes": [
+          "Câlin long contre toi — peau à peau si possible",
+          "Réflexo gros orteil + plexus solaire : cercles lents, 1 min par pied",
+          "Activité au sol calme : pâte à modeler, livres, blocs en bois",
+          "Musique douce instrumentale en fond — apaise le système nerveux",
+          "Veilleuse allumée dès 17h30 en hiver — signal de fin de journée"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Organiser ses journées pour que 17h-19h soit la plage la plus calme",
+        "Préparer le repas du soir AVANT 17h pour ne pas être en cuisine quand il craque",
+        "Se relayer avec le co-parent sur ce créneau si possible — 1 parent enfant, 1 parent intendance",
+        "Coucher tôt les jours difficiles — 18h45 si besoin"
+      ],
+      "principe": "L'heure du loup est universelle. La traverser bien repose sur 3 piliers : la collation (énergie), la baisse de stimulation (apaisement), et la routine prévisible (sécurité). Improviser dans cette heure est presque toujours un échec.",
+      "erreurs_a_eviter": [
+        "Penser \"il va se calmer tout seul\" — il ne peut pas",
+        "Multiplier les activités stimulantes pour \"qu'il s'occupe\" — empire",
+        "Mettre un écran \"pour avoir 5 min de tranquillité\" — déconnecte mais alourdit ensuite",
+        "Repousser le repas/coucher au-delà des limites — installe un quotidien crisis-mode"
+      ],
+      "consulter_si": "Si l'heure du loup devient ingérable malgré une routine bien installée, ou s'accompagne d'une dégradation du sommeil et du comportement diurne — en parler au pédiatre. Vérifier aussi l'absence de cause organique : poussée dentaire, otite, anémie. Le tempérament intense est aussi à reconnaître — certains enfants sont simplement plus sensibles à l'heure du loup."
+    }
+  ]
+}
