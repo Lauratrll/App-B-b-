@@ -400,6 +400,39 @@ async function main() {
       );
     }
   }
+
+  // Invalider le cache du contenu sur le serveur si configuré
+  const revalidateUrl = process.env.REVALIDATE_URL;
+  const revalidateSecret = process.env.REVALIDATE_SECRET;
+  if (revalidateUrl && revalidateSecret) {
+    console.log("");
+    try {
+      const res = await fetch(revalidateUrl, {
+        method: "POST",
+        headers: { "x-revalidate-secret": revalidateSecret },
+      });
+      if (res.ok) {
+        console.log(`✅ Cache invalidé (${revalidateUrl})`);
+      } else {
+        const body = await res.text();
+        console.warn(
+          `⚠️  Revalidation échouée (${res.status}) : ${body.slice(0, 100)}`,
+        );
+      }
+    } catch (err) {
+      console.warn(
+        `⚠️  Impossible de joindre ${revalidateUrl} : ${err.message}`,
+      );
+    }
+  } else {
+    console.log("");
+    console.log(
+      "ℹ️  Cache non invalidé (REVALIDATE_URL/REVALIDATE_SECRET non définis).",
+    );
+    console.log(
+      "    Les changements seront visibles dans max 1h (TTL du cache).",
+    );
+  }
 }
 
 main().catch((err) => {

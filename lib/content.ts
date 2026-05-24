@@ -1,7 +1,26 @@
-import { createClient } from "@/lib/supabase/server";
+import { unstable_cache } from "next/cache";
+import { createAdminClient } from "@/lib/supabase/admin";
 
 // =========================================================================
-// Types reflétant la structure du contenu importé dans la table `content`.
+// Cache stratégie
+// =========================================================================
+// Le contenu (table `content`) ne change qu'après `npm run import-content`.
+// On utilise unstable_cache avec :
+//   - revalidate: 3600 (1h) — fallback si le revalidate explicite n'arrive pas
+//   - tags: ['content'] — invalidation manuelle via /api/revalidate-content
+// On utilise createAdminClient (service_role) car unstable_cache ne supporte
+// pas les fonctions qui lisent les cookies. La sécurité d'accès est assurée
+// en amont par le layout (auth) — chaque page protégée appelle requireUser
+// avant d'arriver ici.
+// =========================================================================
+
+const CACHE_OPTIONS = {
+  revalidate: 3600,
+  tags: ["content"] as string[],
+};
+
+// =========================================================================
+// Types
 // =========================================================================
 
 export type CategorieGuide = {
@@ -51,76 +70,6 @@ export type SituationListItem = {
   titre: string;
 };
 
-// =========================================================================
-// Fonctions de lecture du contenu Guide-moi !
-// =========================================================================
-
-export async function getGuideMeta(mois: number): Promise<GuideMeta | null> {
-  const supabase = createClient();
-  const { data, error } = await supabase
-    .from("content")
-    .select("data")
-    .eq("mois", mois)
-    .eq("module", "guide")
-    .eq("categorie", "_meta")
-    .maybeSingle();
-
-  if (error || !data) return null;
-  return data.data as GuideMeta;
-}
-
-export async function getGuideSituations(
-  mois: number,
-  categorie: string,
-): Promise<SituationListItem[]> {
-  const supabase = createClient();
-  const { data, error } = await supabase
-    .from("content")
-    .select("id, ordre, categorie, situation, data")
-    .eq("mois", mois)
-    .eq("module", "guide")
-    .eq("categorie", categorie)
-    .order("ordre", { ascending: true });
-
-  if (error || !data) return [];
-
-  return data.map((row) => ({
-    id: row.id as string,
-    ordre: (row.ordre as number) ?? 0,
-    categorie: row.categorie as string,
-    situation: row.situation as string,
-    titre: (row.data as { titre?: string })?.titre ?? row.situation as string,
-  }));
-}
-
-export async function getGuideProtocole(
-  mois: number,
-  categorie: string,
-  ordre: number,
-): Promise<{ contentId: string; protocole: ProtocoleGuide } | null> {
-  const supabase = createClient();
-  const { data, error } = await supabase
-    .from("content")
-    .select("id, data")
-    .eq("mois", mois)
-    .eq("module", "guide")
-    .eq("categorie", categorie)
-    .eq("ordre", ordre)
-    .maybeSingle();
-
-  if (error || !data) return null;
-  return {
-    contentId: data.id as string,
-    protocole: data.data as ProtocoleGuide,
-  };
-}
-
-// =========================================================================
-// Types et helpers pour les 5 autres modules
-// =========================================================================
-
-// ---- Coucher -------------------------------------------------------------
-
 export type RituelEtape = {
   etape: number;
   titre: string;
@@ -162,26 +111,6 @@ export type CoucherModule = {
   consulter_si?: string;
 };
 
-export async function getCoucher(
-  mois: number,
-): Promise<{ contentId: string; coucher: CoucherModule } | null> {
-  const supabase = createClient();
-  const { data, error } = await supabase
-    .from("content")
-    .select("id, data")
-    .eq("mois", mois)
-    .eq("module", "coucher")
-    .eq("categorie", "_full")
-    .maybeSingle();
-
-  if (error || !data) return null;
-  return {
-    contentId: data.id as string,
-    coucher: data.data as CoucherModule,
-  };
-}
-
-// Récupère n'importe quel contenu par son id (pour la page /epingle/[id]).
 export type ContentRow = {
   id: string;
   mois: number;
@@ -192,20 +121,6 @@ export type ContentRow = {
   data: Record<string, unknown>;
 };
 
-export async function getContentById(id: string): Promise<ContentRow | null> {
-  const supabase = createClient();
-  const { data, error } = await supabase
-    .from("content")
-    .select("id, mois, module, categorie, situation, ordre, data")
-    .eq("id", id)
-    .maybeSingle();
-  if (error || !data) return null;
-  return data as ContentRow;
-}
-
-// ---- Soin ----------------------------------------------------------------
-
-// Structure variable selon le conseil — on garde un type souple.
 export type ConseilSoin = {
   id: string;
   numero?: number;
@@ -213,7 +128,6 @@ export type ConseilSoin = {
   titre: string;
   sous_titre?: string;
   intro?: string;
-  // Tout le reste est variable :
   [key: string]: unknown;
 };
 
@@ -231,63 +145,6 @@ export type ConseilListItem = {
   sous_titre?: string;
   icone?: string;
 };
-
-export async function getSoinMeta(mois: number): Promise<SoinMeta | null> {
-  const supabase = createClient();
-  const { data, error } = await supabase
-    .from("content")
-    .select("data")
-    .eq("mois", mois)
-    .eq("module", "soin")
-    .eq("categorie", "_meta")
-    .maybeSingle();
-
-  if (error || !data) return null;
-  return data.data as SoinMeta;
-}
-
-export async function getSoinConseils(mois: number): Promise<ConseilListItem[]> {
-  const supabase = createClient();
-  const { data, error } = await supabase
-    .from("content")
-    .select("ordre, situation, data")
-    .eq("mois", mois)
-    .eq("module", "soin")
-    .eq("categorie", "conseil")
-    .order("ordre", { ascending: true });
-
-  if (error || !data) return [];
-
-  return data.map((row) => {
-    const d = row.data as ConseilSoin;
-    return {
-      id: row.situation as string,
-      ordre: (row.ordre as number) ?? 0,
-      titre: d.titre,
-      sous_titre: d.sous_titre,
-      icone: d.icone,
-    };
-  });
-}
-
-export async function getSoinConseil(
-  mois: number,
-  id: string,
-): Promise<ConseilSoin | null> {
-  const supabase = createClient();
-  const { data, error } = await supabase
-    .from("content")
-    .select("data")
-    .eq("mois", mois)
-    .eq("module", "soin")
-    .eq("situation", id)
-    .maybeSingle();
-
-  if (error || !data) return null;
-  return data.data as ConseilSoin;
-}
-
-// ---- Saison --------------------------------------------------------------
 
 export type SaisonKey = "printemps" | "ete" | "automne" | "hiver";
 
@@ -338,39 +195,6 @@ export type SaisonMeta = {
   logique_selection?: unknown;
 };
 
-export async function getSaisonMeta(mois: number): Promise<SaisonMeta | null> {
-  const supabase = createClient();
-  const { data, error } = await supabase
-    .from("content")
-    .select("data")
-    .eq("mois", mois)
-    .eq("module", "saison")
-    .eq("categorie", "_meta")
-    .maybeSingle();
-
-  if (error || !data) return null;
-  return data.data as SaisonMeta;
-}
-
-export async function getSaisonVersion(
-  mois: number,
-  saison: SaisonKey,
-): Promise<SaisonVersion | null> {
-  const supabase = createClient();
-  const { data, error } = await supabase
-    .from("content")
-    .select("data")
-    .eq("mois", mois)
-    .eq("module", "saison")
-    .eq("situation", saison)
-    .maybeSingle();
-
-  if (error || !data) return null;
-  return data.data as SaisonVersion;
-}
-
-// ---- Audio ---------------------------------------------------------------
-
 export type ScriptAudio = {
   id: string;
   titre: string;
@@ -404,71 +228,11 @@ export type ScriptListItem = {
   couleur_texte?: string;
 };
 
-export async function getAudioMeta(mois: number): Promise<AudioMeta | null> {
-  const supabase = createClient();
-  const { data, error } = await supabase
-    .from("content")
-    .select("data")
-    .eq("mois", mois)
-    .eq("module", "audio")
-    .eq("categorie", "_meta")
-    .maybeSingle();
-
-  if (error || !data) return null;
-  return data.data as AudioMeta;
-}
-
-export async function getAudioScripts(mois: number): Promise<ScriptListItem[]> {
-  const supabase = createClient();
-  const { data, error } = await supabase
-    .from("content")
-    .select("ordre, situation, data")
-    .eq("mois", mois)
-    .eq("module", "audio")
-    .eq("categorie", "script")
-    .order("ordre", { ascending: true });
-
-  if (error || !data) return [];
-
-  return data.map((row) => {
-    const d = row.data as ScriptAudio;
-    return {
-      id: row.situation as string,
-      ordre: (row.ordre as number) ?? 0,
-      titre: d.titre,
-      duree_estimee: d.duree_estimee,
-      theme: d.theme,
-      couleur: d.couleur,
-      couleur_texte: d.couleur_texte,
-    };
-  });
-}
-
-export async function getAudioScript(
-  mois: number,
-  id: string,
-): Promise<ScriptAudio | null> {
-  const supabase = createClient();
-  const { data, error } = await supabase
-    .from("content")
-    .select("data")
-    .eq("mois", mois)
-    .eq("module", "audio")
-    .eq("situation", id)
-    .maybeSingle();
-
-  if (error || !data) return null;
-  return data.data as ScriptAudio;
-}
-
-// ---- Jeux ----------------------------------------------------------------
-
 export type ActiviteType = "standard" | "socle" | "complementaire";
 
 export type ActiviteJeu = {
   id: string;
   numero?: number;
-  // Variantes des mois 3+ :
   titre?: string;
   duree?: string;
   frequence?: string;
@@ -476,7 +240,6 @@ export type ActiviteJeu = {
   materiel?: string[];
   description?: string;
   comment_jouer?: string[];
-  // Variantes du mois 0 :
   nom?: string;
   pourquoi?: string;
   comment_faire?: string[];
@@ -512,7 +275,6 @@ export type JeuxMeta = {
   titre_rubrique?: string;
   sous_titre?: string;
   description?: string;
-  // Variantes mois 3+ :
   adjectif_du_mois?: string;
   qualification_du_mois?: string;
   principes_cles?: string[];
@@ -529,7 +291,6 @@ export type JeuxMeta = {
     intro?: string;
     creneaux: Array<{ horaire: string; activite: string }>;
   };
-  // Variantes mois 0 :
   ancrage?: string;
   principes_fondamentaux?: PrincipeFondamental[];
   reperer_phase_eveil_calme?: FenetreEveilCalme;
@@ -564,65 +325,351 @@ export type ActiviteListItem = {
   type: ActiviteType;
 };
 
-export async function getJeuxMeta(mois: number): Promise<JeuxMeta | null> {
-  const supabase = createClient();
-  const { data, error } = await supabase
-    .from("content")
-    .select("data")
-    .eq("mois", mois)
-    .eq("module", "jeux")
-    .eq("categorie", "_meta")
-    .maybeSingle();
+// =========================================================================
+// Helpers de lecture — toutes wrappées avec unstable_cache
+// =========================================================================
 
-  if (error || !data) return null;
-  return data.data as JeuxMeta;
-}
+// ---- Guide-moi ! --------------------------------------------------------
 
-export async function getJeuxActivites(mois: number): Promise<ActiviteListItem[]> {
-  const supabase = createClient();
-  const { data, error } = await supabase
-    .from("content")
-    .select("ordre, situation, categorie, data")
-    .eq("mois", mois)
-    .eq("module", "jeux")
-    .in("categorie", ["activite", "activite_socle", "activite_complementaire"])
-    .order("ordre", { ascending: true });
+export const getGuideMeta = unstable_cache(
+  async (mois: number): Promise<GuideMeta | null> => {
+    const supabase = createAdminClient();
+    const { data, error } = await supabase
+      .from("content")
+      .select("data")
+      .eq("mois", mois)
+      .eq("module", "guide")
+      .eq("categorie", "_meta")
+      .maybeSingle();
+    if (error || !data) return null;
+    return data.data as GuideMeta;
+  },
+  ["guide-meta"],
+  CACHE_OPTIONS,
+);
 
-  if (error || !data) return [];
-
-  return data.map((row) => {
-    const d = row.data as ActiviteJeu;
-    const cat = row.categorie as string;
-    const type: ActiviteType =
-      cat === "activite_socle"
-        ? "socle"
-        : cat === "activite_complementaire"
-          ? "complementaire"
-          : "standard";
-    return {
-      id: row.situation as string,
+export const getGuideSituations = unstable_cache(
+  async (mois: number, categorie: string): Promise<SituationListItem[]> => {
+    const supabase = createAdminClient();
+    const { data, error } = await supabase
+      .from("content")
+      .select("id, ordre, categorie, situation, data")
+      .eq("mois", mois)
+      .eq("module", "guide")
+      .eq("categorie", categorie)
+      .order("ordre", { ascending: true });
+    if (error || !data) return [];
+    return data.map((row) => ({
+      id: row.id as string,
       ordre: (row.ordre as number) ?? 0,
-      titre: d.titre ?? d.nom ?? "",
-      duree: d.duree,
-      developpe: d.developpe,
-      type,
+      categorie: row.categorie as string,
+      situation: row.situation as string,
+      titre:
+        (row.data as { titre?: string })?.titre ?? (row.situation as string),
+    }));
+  },
+  ["guide-situations"],
+  CACHE_OPTIONS,
+);
+
+export const getGuideProtocole = unstable_cache(
+  async (
+    mois: number,
+    categorie: string,
+    ordre: number,
+  ): Promise<{ contentId: string; protocole: ProtocoleGuide } | null> => {
+    const supabase = createAdminClient();
+    const { data, error } = await supabase
+      .from("content")
+      .select("id, data")
+      .eq("mois", mois)
+      .eq("module", "guide")
+      .eq("categorie", categorie)
+      .eq("ordre", ordre)
+      .maybeSingle();
+    if (error || !data) return null;
+    return {
+      contentId: data.id as string,
+      protocole: data.data as ProtocoleGuide,
     };
-  });
-}
+  },
+  ["guide-protocole"],
+  CACHE_OPTIONS,
+);
 
-export async function getJeuxActivite(
-  mois: number,
-  id: string,
-): Promise<ActiviteJeu | null> {
-  const supabase = createClient();
-  const { data, error } = await supabase
-    .from("content")
-    .select("data")
-    .eq("mois", mois)
-    .eq("module", "jeux")
-    .eq("situation", id)
-    .maybeSingle();
+// ---- Coucher -------------------------------------------------------------
 
-  if (error || !data) return null;
-  return data.data as ActiviteJeu;
-}
+export const getCoucher = unstable_cache(
+  async (
+    mois: number,
+  ): Promise<{ contentId: string; coucher: CoucherModule } | null> => {
+    const supabase = createAdminClient();
+    const { data, error } = await supabase
+      .from("content")
+      .select("id, data")
+      .eq("mois", mois)
+      .eq("module", "coucher")
+      .eq("categorie", "_full")
+      .maybeSingle();
+    if (error || !data) return null;
+    return {
+      contentId: data.id as string,
+      coucher: data.data as CoucherModule,
+    };
+  },
+  ["coucher"],
+  CACHE_OPTIONS,
+);
+
+// ---- Lookup par id (épingles) ------------------------------------------
+
+export const getContentById = unstable_cache(
+  async (id: string): Promise<ContentRow | null> => {
+    const supabase = createAdminClient();
+    const { data, error } = await supabase
+      .from("content")
+      .select("id, mois, module, categorie, situation, ordre, data")
+      .eq("id", id)
+      .maybeSingle();
+    if (error || !data) return null;
+    return data as ContentRow;
+  },
+  ["content-by-id"],
+  CACHE_OPTIONS,
+);
+
+// ---- Soin ----------------------------------------------------------------
+
+export const getSoinMeta = unstable_cache(
+  async (mois: number): Promise<SoinMeta | null> => {
+    const supabase = createAdminClient();
+    const { data, error } = await supabase
+      .from("content")
+      .select("data")
+      .eq("mois", mois)
+      .eq("module", "soin")
+      .eq("categorie", "_meta")
+      .maybeSingle();
+    if (error || !data) return null;
+    return data.data as SoinMeta;
+  },
+  ["soin-meta"],
+  CACHE_OPTIONS,
+);
+
+export const getSoinConseils = unstable_cache(
+  async (mois: number): Promise<ConseilListItem[]> => {
+    const supabase = createAdminClient();
+    const { data, error } = await supabase
+      .from("content")
+      .select("ordre, situation, data")
+      .eq("mois", mois)
+      .eq("module", "soin")
+      .eq("categorie", "conseil")
+      .order("ordre", { ascending: true });
+    if (error || !data) return [];
+    return data.map((row) => {
+      const d = row.data as ConseilSoin;
+      return {
+        id: row.situation as string,
+        ordre: (row.ordre as number) ?? 0,
+        titre: d.titre,
+        sous_titre: d.sous_titre,
+        icone: d.icone,
+      };
+    });
+  },
+  ["soin-conseils"],
+  CACHE_OPTIONS,
+);
+
+export const getSoinConseil = unstable_cache(
+  async (mois: number, id: string): Promise<ConseilSoin | null> => {
+    const supabase = createAdminClient();
+    const { data, error } = await supabase
+      .from("content")
+      .select("data")
+      .eq("mois", mois)
+      .eq("module", "soin")
+      .eq("situation", id)
+      .maybeSingle();
+    if (error || !data) return null;
+    return data.data as ConseilSoin;
+  },
+  ["soin-conseil"],
+  CACHE_OPTIONS,
+);
+
+// ---- Saison --------------------------------------------------------------
+
+export const getSaisonMeta = unstable_cache(
+  async (mois: number): Promise<SaisonMeta | null> => {
+    const supabase = createAdminClient();
+    const { data, error } = await supabase
+      .from("content")
+      .select("data")
+      .eq("mois", mois)
+      .eq("module", "saison")
+      .eq("categorie", "_meta")
+      .maybeSingle();
+    if (error || !data) return null;
+    return data.data as SaisonMeta;
+  },
+  ["saison-meta"],
+  CACHE_OPTIONS,
+);
+
+export const getSaisonVersion = unstable_cache(
+  async (mois: number, saison: SaisonKey): Promise<SaisonVersion | null> => {
+    const supabase = createAdminClient();
+    const { data, error } = await supabase
+      .from("content")
+      .select("data")
+      .eq("mois", mois)
+      .eq("module", "saison")
+      .eq("situation", saison)
+      .maybeSingle();
+    if (error || !data) return null;
+    return data.data as SaisonVersion;
+  },
+  ["saison-version"],
+  CACHE_OPTIONS,
+);
+
+// ---- Audio ---------------------------------------------------------------
+
+export const getAudioMeta = unstable_cache(
+  async (mois: number): Promise<AudioMeta | null> => {
+    const supabase = createAdminClient();
+    const { data, error } = await supabase
+      .from("content")
+      .select("data")
+      .eq("mois", mois)
+      .eq("module", "audio")
+      .eq("categorie", "_meta")
+      .maybeSingle();
+    if (error || !data) return null;
+    return data.data as AudioMeta;
+  },
+  ["audio-meta"],
+  CACHE_OPTIONS,
+);
+
+export const getAudioScripts = unstable_cache(
+  async (mois: number): Promise<ScriptListItem[]> => {
+    const supabase = createAdminClient();
+    const { data, error } = await supabase
+      .from("content")
+      .select("ordre, situation, data")
+      .eq("mois", mois)
+      .eq("module", "audio")
+      .eq("categorie", "script")
+      .order("ordre", { ascending: true });
+    if (error || !data) return [];
+    return data.map((row) => {
+      const d = row.data as ScriptAudio;
+      return {
+        id: row.situation as string,
+        ordre: (row.ordre as number) ?? 0,
+        titre: d.titre,
+        duree_estimee: d.duree_estimee,
+        theme: d.theme,
+        couleur: d.couleur,
+        couleur_texte: d.couleur_texte,
+      };
+    });
+  },
+  ["audio-scripts"],
+  CACHE_OPTIONS,
+);
+
+export const getAudioScript = unstable_cache(
+  async (mois: number, id: string): Promise<ScriptAudio | null> => {
+    const supabase = createAdminClient();
+    const { data, error } = await supabase
+      .from("content")
+      .select("data")
+      .eq("mois", mois)
+      .eq("module", "audio")
+      .eq("situation", id)
+      .maybeSingle();
+    if (error || !data) return null;
+    return data.data as ScriptAudio;
+  },
+  ["audio-script"],
+  CACHE_OPTIONS,
+);
+
+// ---- Jeux ----------------------------------------------------------------
+
+export const getJeuxMeta = unstable_cache(
+  async (mois: number): Promise<JeuxMeta | null> => {
+    const supabase = createAdminClient();
+    const { data, error } = await supabase
+      .from("content")
+      .select("data")
+      .eq("mois", mois)
+      .eq("module", "jeux")
+      .eq("categorie", "_meta")
+      .maybeSingle();
+    if (error || !data) return null;
+    return data.data as JeuxMeta;
+  },
+  ["jeux-meta"],
+  CACHE_OPTIONS,
+);
+
+export const getJeuxActivites = unstable_cache(
+  async (mois: number): Promise<ActiviteListItem[]> => {
+    const supabase = createAdminClient();
+    const { data, error } = await supabase
+      .from("content")
+      .select("ordre, situation, categorie, data")
+      .eq("mois", mois)
+      .eq("module", "jeux")
+      .in("categorie", [
+        "activite",
+        "activite_socle",
+        "activite_complementaire",
+      ])
+      .order("ordre", { ascending: true });
+    if (error || !data) return [];
+    return data.map((row) => {
+      const d = row.data as ActiviteJeu;
+      const cat = row.categorie as string;
+      const type: ActiviteType =
+        cat === "activite_socle"
+          ? "socle"
+          : cat === "activite_complementaire"
+            ? "complementaire"
+            : "standard";
+      return {
+        id: row.situation as string,
+        ordre: (row.ordre as number) ?? 0,
+        titre: d.titre ?? d.nom ?? "",
+        duree: d.duree,
+        developpe: d.developpe,
+        type,
+      };
+    });
+  },
+  ["jeux-activites"],
+  CACHE_OPTIONS,
+);
+
+export const getJeuxActivite = unstable_cache(
+  async (mois: number, id: string): Promise<ActiviteJeu | null> => {
+    const supabase = createAdminClient();
+    const { data, error } = await supabase
+      .from("content")
+      .select("data")
+      .eq("mois", mois)
+      .eq("module", "jeux")
+      .eq("situation", id)
+      .maybeSingle();
+    if (error || !data) return null;
+    return data.data as ActiviteJeu;
+  },
+  ["jeux-activite"],
+  CACHE_OPTIONS,
+);
