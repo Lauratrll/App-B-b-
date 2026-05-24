@@ -11,6 +11,7 @@ export default async function EpinglesPage() {
 
   const guides = pins.filter((p) => p.module === "guide");
   const couchers = pins.filter((p) => p.module === "coucher");
+  const reflexos = pins.filter((p) => p.module === "reflexo");
 
   // Grouper les guides par catégorie
   const guidesByCategorie = guides.reduce<Record<string, PinnedItem[]>>(
@@ -29,20 +30,42 @@ export default async function EpinglesPage() {
         <p className="text-2xl" aria-hidden>📌</p>
         <h1 className="text-2xl font-semibold">Mes épingles</h1>
         <p className="text-sm text-neutral-600">
-          {couchers.length}/{PIN_QUOTAS.coucher} Coucher{" "}
-          · {guides.length}/{PIN_QUOTAS.guide} Guide-moi !
+          {couchers.length}/{PIN_QUOTAS.coucher} Coucher · {guides.length}/
+          {PIN_QUOTAS.guide} Guide-moi ! · {reflexos.length}/
+          {PIN_QUOTAS.reflexo} Réflexo
         </p>
       </header>
 
       {pins.length === 0 ? (
         <p className="rounded-xl bg-neutral-50 p-5 text-sm text-neutral-700">
           Aucune épingle pour le moment. Tu peux épingler jusqu&apos;à{" "}
-          {PIN_QUOTAS.coucher} rituels Coucher et{" "}
-          {PIN_QUOTAS.guide} protocoles du Guide-moi ! pour les retrouver ici en un clic.
+          {PIN_QUOTAS.coucher} rituels Coucher, {PIN_QUOTAS.guide} protocoles
+          Guide-moi ! et {PIN_QUOTAS.reflexo} gestes de réflexologie pour les
+          retrouver ici en un clic.
         </p>
       ) : null}
 
-      {/* Section Coucher (en premier) */}
+      {/* Section Réflexo (en premier — souvent consulté pour refaire le geste) */}
+      {reflexos.length > 0 ? (
+        <section className="space-y-3">
+          <h2 className="text-sm font-semibold uppercase tracking-wide text-neutral-500">
+            💫 Gestes de réflexologie
+          </h2>
+          <ul className="space-y-2">
+            {reflexos.map((pin) => (
+              <PinCard
+                key={pin.id}
+                pin={pin}
+                moisActuel={moisActuel}
+                href={`/epingle/${pin.content_id}`}
+                fallbackTitre={`Réflexologie · ${pin.categorie ?? ""} · mois ${pin.mois}`}
+              />
+            ))}
+          </ul>
+        </section>
+      ) : null}
+
+      {/* Section Coucher */}
       {couchers.length > 0 ? (
         <section className="space-y-3">
           <h2 className="text-sm font-semibold uppercase tracking-wide text-neutral-500">

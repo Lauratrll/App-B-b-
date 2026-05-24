@@ -135,6 +135,21 @@ function decomposeSoin(json, mois) {
       ordre: c.numero ?? 0,
       data: c,
     });
+
+    // Si le conseil est un protocole réflexo (par id), créer en plus une
+    // ligne module='reflexo' pour pouvoir l'épingler depuis Soin.
+    const isReflexo =
+      typeof c.id === "string" && c.id.toLowerCase().includes("reflex");
+    if (isReflexo) {
+      rows.push({
+        mois,
+        module: "reflexo",
+        categorie: "soin",
+        situation: c.id,
+        ordre: c.numero ?? 0,
+        data: c,
+      });
+    }
   });
   return rows;
 }
@@ -204,6 +219,21 @@ function decomposeJeux(json, mois) {
     data: meta,
   });
 
+  // Extraction du geste réflexo du mois → ligne module='reflexo'
+  // (peut s'appeler geste_reflexo_du_mois ou geste_reflexologie_du_mois)
+  const gesteReflexo =
+    meta.geste_reflexo_du_mois ?? meta.geste_reflexologie_du_mois;
+  if (gesteReflexo) {
+    rows.push({
+      mois,
+      module: "reflexo",
+      categorie: "jeux",
+      situation: null,
+      ordre: 0,
+      data: gesteReflexo,
+    });
+  }
+
   // Mode A : tableau activites au top-level (mois 3, 6, 9, 14)
   if (Array.isArray(activites)) {
     activites.forEach((a) => {
@@ -252,7 +282,7 @@ function decomposeJeux(json, mois) {
 }
 
 function decomposeCoucher(json, mois) {
-  return [
+  const rows = [
     {
       mois,
       module: "coucher",
@@ -262,6 +292,19 @@ function decomposeCoucher(json, mois) {
       data: json,
     },
   ];
+
+  // Extraction de l'encart réflexologie du coucher → ligne module='reflexo'
+  if (json.reflexologie_du_coucher) {
+    rows.push({
+      mois,
+      module: "reflexo",
+      categorie: "coucher",
+      situation: null,
+      ordre: 0,
+      data: json.reflexologie_du_coucher,
+    });
+  }
+  return rows;
 }
 
 // Mapping fichier → (module, decomposer)
@@ -304,6 +347,10 @@ const ignoredFiles = [];
 
 async function importMois(mois, dir) {
   const files = readdirSync(dir).filter((f) => f.endsWith(".json"));
+
+  // 1) Collecte des rows par fichier (incluant les lignes 'reflexo'
+  //    extraites des decomposers coucher/soin/jeux)
+  const perFile = []; // [{ file, module, rows }]
   for (const f of files) {
     const handler = FILE_HANDLERS[f];
     if (!handler) {
@@ -324,31 +371,36 @@ async function importMois(mois, dir) {
       continue;
     }
     const rows = handler.fn(json, mois);
+    perFile.push({ file: f, module: handler.module, rows });
+  }
 
-    // Idempotence : on supprime avant d'insérer
-    const { error: delErr } = await supabase
-      .from("content")
-      .delete()
-      .eq("mois", mois)
-      .eq("module", handler.module);
-    if (delErr) {
-      console.error(
-        `  ✗ ${f} : erreur DELETE → ${delErr.message}`,
-      );
-      continue;
-    }
+  // 2) Purge unique de tout le mois (tous modules) pour l'idempotence
+  const { error: delErr } = await supabase
+    .from("content")
+    .delete()
+    .eq("mois", mois);
+  if (delErr) {
+    console.error(`  ✗ erreur DELETE mois ${mois} → ${delErr.message}`);
+    return;
+  }
 
-    // Insertion en lot
+  // 3) Insert en lot, fichier par fichier (avec rapport par fichier)
+  for (const { file, module, rows } of perFile) {
+    if (rows.length === 0) continue;
     const { error: insErr } = await supabase.from("content").insert(rows);
     if (insErr) {
-      console.error(
-        `  ✗ ${f} : erreur INSERT → ${insErr.message}`,
-      );
+      console.error(`  ✗ ${file} : erreur INSERT → ${insErr.message}`);
       continue;
     }
-    console.log(
-      `  ✓ ${f} (module=${handler.module}) : ${rows.length} lignes insérées`,
-    );
+    // Compter par module pour info (un fichier peut produire plusieurs modules)
+    const counts = rows.reduce((acc, r) => {
+      acc[r.module] = (acc[r.module] ?? 0) + 1;
+      return acc;
+    }, {});
+    const detail = Object.entries(counts)
+      .map(([m, n]) => `${m}=${n}`)
+      .join(", ");
+    console.log(`  ✓ ${file} : ${rows.length} ligne(s) (${detail})`);
   }
 }
 

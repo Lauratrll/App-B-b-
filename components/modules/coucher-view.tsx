@@ -7,9 +7,11 @@ function personaliser(texte: string, prenom: string): string {
 export function CoucherView({
   coucher,
   babyName,
+  reflexoPinButton,
 }: {
   coucher: CoucherModule;
   babyName: string;
+  reflexoPinButton?: React.ReactNode;
 }) {
   return (
     <article className="space-y-7 pb-4">
@@ -70,18 +72,21 @@ export function CoucherView({
 
       {coucher.reflexologie_du_coucher ? (
         <section className="space-y-3 rounded-2xl bg-emerald-50 p-5">
-          <header className="space-y-1">
-            <h2 className="text-sm font-semibold uppercase tracking-wide text-emerald-900">
-              {coucher.reflexologie_du_coucher.titre}
-            </h2>
-            <p className="text-xs text-emerald-800">
-              {[
-                coucher.reflexologie_du_coucher.duree_totale,
-                coucher.reflexologie_du_coucher.pression,
-              ]
-                .filter(Boolean)
-                .join(" · ")}
-            </p>
+          <header className="flex items-start justify-between gap-3">
+            <div className="space-y-1">
+              <h2 className="text-sm font-semibold uppercase tracking-wide text-emerald-900">
+                {coucher.reflexologie_du_coucher.titre}
+              </h2>
+              <p className="text-xs text-emerald-800">
+                {[
+                  coucher.reflexologie_du_coucher.duree_totale,
+                  coucher.reflexologie_du_coucher.pression,
+                ]
+                  .filter(Boolean)
+                  .join(" · ")}
+              </p>
+            </div>
+            {reflexoPinButton}
           </header>
           {coucher.reflexologie_du_coucher.intro ? (
             <p className="text-sm leading-relaxed text-emerald-950">

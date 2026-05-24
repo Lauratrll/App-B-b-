@@ -4,14 +4,21 @@ import { getBabyMonth } from "@/lib/utils";
 import {
   getJeuxActivites,
   getJeuxMeta,
+  getReflexoFromJeux,
   type ActiviteListItem,
 } from "@/lib/content";
+import { isPinned } from "@/lib/pinned";
+import { PinButton } from "@/components/modules/pin-button";
 
 export default async function JeuxPage() {
   const { profile } = await requireProfile();
   const mois = getBabyMonth(new Date(profile.birthdate));
-  const meta = await getJeuxMeta(mois);
-  const activites = await getJeuxActivites(mois);
+  const [meta, activites, reflexo] = await Promise.all([
+    getJeuxMeta(mois),
+    getJeuxActivites(mois),
+    getReflexoFromJeux(mois),
+  ]);
+  const reflexoPinned = reflexo ? await isPinned(reflexo.contentId) : false;
 
   if (!meta || activites.length === 0) {
     return (
@@ -36,6 +43,14 @@ export default async function JeuxPage() {
   const gesteReflexoMois0 = meta.geste_reflexologie_du_mois ?? null;
   const rythme = meta.rythme_journee_type ?? null;
   const rythmeMois0 = meta.rythme_d_une_journee_d_eveil_type ?? null;
+
+  const reflexoButton = reflexo ? (
+    <PinButton
+      contentId={reflexo.contentId}
+      isPinned={reflexoPinned}
+      returnUrl="/jeux"
+    />
+  ) : null;
 
   return (
     <article className="space-y-6 pb-4">
@@ -183,15 +198,18 @@ export default async function JeuxPage() {
       {/* Geste réflexo — variantes */}
       {gesteReflexo ? (
         <section className="space-y-3 rounded-2xl bg-emerald-50 p-5">
-          <header className="space-y-1">
-            <h2 className="text-sm font-semibold uppercase tracking-wide text-emerald-900">
-              Geste réflexo du mois — {gesteReflexo.titre}
-            </h2>
-            <p className="text-xs text-emerald-800">
-              {[gesteReflexo.duree, gesteReflexo.moment]
-                .filter(Boolean)
-                .join(" · ")}
-            </p>
+          <header className="flex items-start justify-between gap-3">
+            <div className="space-y-1">
+              <h2 className="text-sm font-semibold uppercase tracking-wide text-emerald-900">
+                Geste réflexo du mois — {gesteReflexo.titre}
+              </h2>
+              <p className="text-xs text-emerald-800">
+                {[gesteReflexo.duree, gesteReflexo.moment]
+                  .filter(Boolean)
+                  .join(" · ")}
+              </p>
+            </div>
+            {reflexoButton}
           </header>
           {gesteReflexo.intro ? (
             <p className="text-sm leading-relaxed text-emerald-950">
@@ -214,9 +232,12 @@ export default async function JeuxPage() {
         </section>
       ) : gesteReflexoMois0 ? (
         <section className="space-y-3 rounded-2xl bg-emerald-50 p-5">
-          <h2 className="text-sm font-semibold uppercase tracking-wide text-emerald-900">
-            {gesteReflexoMois0.titre}
-          </h2>
+          <header className="flex items-start justify-between gap-3">
+            <h2 className="text-sm font-semibold uppercase tracking-wide text-emerald-900">
+              {gesteReflexoMois0.titre}
+            </h2>
+            {reflexoButton}
+          </header>
           {gesteReflexoMois0.intro ? (
             <p className="text-sm leading-relaxed text-emerald-950">
               {gesteReflexoMois0.intro}

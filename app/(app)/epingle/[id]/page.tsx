@@ -11,6 +11,7 @@ import { isPinned } from "@/lib/pinned";
 import { PinButton } from "@/components/modules/pin-button";
 import { ProtocoleView } from "@/components/modules/protocole-view";
 import { CoucherView } from "@/components/modules/coucher-view";
+import { ReflexoView } from "@/components/modules/reflexo-view";
 
 export default async function EpingleViewPage({
   params,
@@ -56,6 +57,8 @@ export default async function EpingleViewPage({
           coucher={content.data as unknown as CoucherModule}
           babyName={profile.baby_name}
         />
+      ) : content.module === "reflexo" ? (
+        <ReflexoView data={content.data} />
       ) : (
         <p className="rounded-xl bg-neutral-50 p-4 text-sm text-neutral-700">
           Aperçu non disponible pour ce type de contenu.

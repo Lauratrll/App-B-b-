@@ -673,3 +673,79 @@ export const getJeuxActivite = unstable_cache(
   ["jeux-activite"],
   CACHE_OPTIONS,
 );
+
+// ---- Reflexo (épinglable) ------------------------------------------------
+// Ces helpers retournent le contentId de la ligne 'reflexo' correspondante
+// pour permettre l'épinglage côté UI.
+
+export type ReflexoSource = "coucher" | "soin" | "jeux";
+
+export type ReflexoRef = {
+  contentId: string;
+  source: ReflexoSource;
+  data: Record<string, unknown>;
+};
+
+export const getReflexoFromCoucher = unstable_cache(
+  async (mois: number): Promise<ReflexoRef | null> => {
+    const supabase = createAdminClient();
+    const { data, error } = await supabase
+      .from("content")
+      .select("id, data")
+      .eq("mois", mois)
+      .eq("module", "reflexo")
+      .eq("categorie", "coucher")
+      .maybeSingle();
+    if (error || !data) return null;
+    return {
+      contentId: data.id as string,
+      source: "coucher",
+      data: data.data as Record<string, unknown>,
+    };
+  },
+  ["reflexo-coucher"],
+  CACHE_OPTIONS,
+);
+
+export const getReflexoFromSoin = unstable_cache(
+  async (mois: number, conseilId: string): Promise<ReflexoRef | null> => {
+    const supabase = createAdminClient();
+    const { data, error } = await supabase
+      .from("content")
+      .select("id, data")
+      .eq("mois", mois)
+      .eq("module", "reflexo")
+      .eq("categorie", "soin")
+      .eq("situation", conseilId)
+      .maybeSingle();
+    if (error || !data) return null;
+    return {
+      contentId: data.id as string,
+      source: "soin",
+      data: data.data as Record<string, unknown>,
+    };
+  },
+  ["reflexo-soin"],
+  CACHE_OPTIONS,
+);
+
+export const getReflexoFromJeux = unstable_cache(
+  async (mois: number): Promise<ReflexoRef | null> => {
+    const supabase = createAdminClient();
+    const { data, error } = await supabase
+      .from("content")
+      .select("id, data")
+      .eq("mois", mois)
+      .eq("module", "reflexo")
+      .eq("categorie", "jeux")
+      .maybeSingle();
+    if (error || !data) return null;
+    return {
+      contentId: data.id as string,
+      source: "jeux",
+      data: data.data as Record<string, unknown>,
+    };
+  },
+  ["reflexo-jeux"],
+  CACHE_OPTIONS,
+);

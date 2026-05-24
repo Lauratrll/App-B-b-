@@ -1,6 +1,6 @@
 import { requireProfile } from "@/lib/auth";
 import { getBabyMonth } from "@/lib/utils";
-import { getCoucher } from "@/lib/content";
+import { getCoucher, getReflexoFromCoucher } from "@/lib/content";
 import { isPinned } from "@/lib/pinned";
 import { PinButton } from "@/components/modules/pin-button";
 import { CoucherView } from "@/components/modules/coucher-view";
@@ -26,7 +26,19 @@ export default async function CoucherPage() {
   }
 
   const { contentId, coucher } = result;
-  const pinned = await isPinned(contentId);
+  const [pinned, reflexo] = await Promise.all([
+    isPinned(contentId),
+    getReflexoFromCoucher(mois),
+  ]);
+  const reflexoPinned = reflexo ? await isPinned(reflexo.contentId) : false;
+
+  const reflexoButton = reflexo ? (
+    <PinButton
+      contentId={reflexo.contentId}
+      isPinned={reflexoPinned}
+      returnUrl="/coucher"
+    />
+  ) : null;
 
   return (
     <section className="space-y-5">
@@ -47,7 +59,11 @@ export default async function CoucherPage() {
         />
       </header>
 
-      <CoucherView coucher={coucher} babyName={profile.baby_name} />
+      <CoucherView
+        coucher={coucher}
+        babyName={profile.baby_name}
+        reflexoPinButton={reflexoButton}
+      />
     </section>
   );
 }

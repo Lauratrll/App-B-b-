@@ -13,11 +13,16 @@ import { requireUser } from "@/lib/auth";
 export const PIN_QUOTAS = {
   guide: 6,
   coucher: 2,
+  reflexo: 6,
 } as const;
 
 export type PinnableModule = keyof typeof PIN_QUOTAS;
 
-export const PINNABLE_MODULES: PinnableModule[] = ["guide", "coucher"];
+export const PINNABLE_MODULES: PinnableModule[] = [
+  "guide",
+  "coucher",
+  "reflexo",
+];
 
 // =========================================================================
 // Types
