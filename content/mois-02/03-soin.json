@@ -2,7 +2,8 @@
   "mois": 2,
   "tranche_age": "2 mois",
   "rubrique": "prendre_soin_de_moi",
-  "titre_rubrique": "Prendre soin de moi",
+  "nom_rubrique": "Prendre soin de moi",
+  "promesse_du_mois": "Trouver ta place face au travail (ou en dehors)",
   "theme_du_mois": "Trouver ta place face au travail (ou en dehors)",
   "intention_du_mois": "À 2 mois, la reprise du travail est souvent dans 2 à 4 semaines pour celles qui prennent le congé maternité de base. Pour d'autres, c'est l'idée même du travail qui se repose : reprendre, ne pas reprendre, réorienter, créer, continuer sans emploi. Aucune de ces postures n'est meilleure. Ce mois est une invitation à sentir ce qui t'appelle, vraiment, sans te laisser décider par la pression extérieure ni par la peur. Trouver ta place, c'est te donner le droit de choisir.",
   "description": "Le mois 2 est le moment de la transition entre la bulle des premières semaines et le retour au monde. Que tu reprennes le travail, que tu ne reprennes pas, ou que tu inventes quelque chose entre les deux, ce mois t'accompagne pour faire ce repositionnement avec lucidité et douceur.",
@@ -11,8 +12,8 @@
       "id": "auto_massage_anticipation_reprise",
       "numero": 1,
       "icone": "🤲",
-      "titre": "Auto-massage de réflexologie",
-      "sous_titre": "Apaiser l'anticipation, garder ton ancrage à mesure que la reprise approche",
+      "nom_outil": "Auto-massage de réflexologie",
+      "promesse": "Apaiser l'anticipation, garder ton ancrage à mesure que la reprise approche",
       "intro": "À 2 mois, beaucoup de mamans sentent monter une tension diffuse : sommeil qui se dégrade, ventre noué le matin, ruminations le soir. C'est l'anticipation, qu'elle concerne la reprise du travail ou la décision de ne pas reprendre. 4 points sur les mains pour rester ancrée pendant cette phase de transition.",
       "duree": "5 minutes",
       "indications": [
@@ -50,8 +51,8 @@
       "id": "meditation_voir_ma_place",
       "numero": 2,
       "icone": "🎧",
-      "titre": "Méditation audio",
-      "sous_titre": "Voir ce qui m'appelle, trouver la place qui me ressemble",
+      "nom_outil": "Méditation audio",
+      "promesse": "Voir ce qui m'appelle, trouver la place qui me ressemble",
       "duree": "~8 minutes",
       "intro": "Cette méditation propose une visualisation projective. Tu vas te voir dans 3 mois, dans la posture que tu aurais choisie face au travail (ou en dehors). Pas pour prédire, pas pour décider. Pour sentir, dans ton corps, ce qui t'appelle vraiment. À écouter dans un moment calme, quand bébé dort ou est sur toi paisiblement.",
       "instruction": "Installe-toi assise ou allongée, dans un endroit où tu ne seras pas dérangée pendant 8 à 10 minutes. Si tu peux, ferme les yeux. La méditation se fait en silence intérieur, à la première personne : c'est ta propre voix qui se parle à toi-même.",
@@ -61,8 +62,8 @@
       "id": "auto_reconnaissance_recit_naissance",
       "numero": 3,
       "icone": "📖",
-      "titre": "Auto-reconnaissance",
-      "sous_titre": "Écrire le récit de ta naissance, avant de tourner la page de la bulle",
+      "nom_outil": "Auto-reconnaissance",
+      "promesse": "Écrire le récit de ta naissance, avant de tourner la page de la bulle",
       "intro": "À 2 mois, tu es à la transition entre la bulle des premières semaines et le retour au monde. Écrire le récit de l'accouchement et de la rencontre avec bébé, c'est boucler symboliquement cette première phase, mesurer le chemin parcouru, mettre des mots sur ce qui a été difficile, et préserver un témoignage que tu pourras transmettre à ton enfant dans 10, 15 ou 20 ans. Ce récit n'est destiné à personne d'autre que toi, pour le moment. Tu pourras toujours le partager plus tard, ou jamais.",
       "format_propose": "recit_naissance",
       "consigne": "Prends 30 à 45 minutes au calme, en une fois ou en plusieurs. Ouvre un cahier, un document, ou les notes du téléphone. Raconte, dans l'ordre que tu veux : comment a commencé l'accouchement (ou la césarienne programmée), comment ça s'est passé, ce que tu as ressenti dans ton corps et dans ta tête, le moment précis où tu as vu bébé pour la première fois, ce que tu as pensé, qui était là, comment ont été les premières heures. Tu peux aussi raconter ce qui a été difficile, ce qui t'a marquée en mal, ce que tu n'as pas eu le temps de digérer. Écris ce qui vient, sans filtre. Tu pourras toujours retravailler le texte plus tard.",
@@ -81,16 +82,16 @@
       "id": "realite_post_partum_M2",
       "numero": 4,
       "icone": "💬",
-      "titre": "La réalité du post-partum",
-      "sous_titre": "Reprendre, ne pas reprendre, négocier, et ce que ton corps en dit",
+      "nom_outil": "La réalité du post-partum",
+      "promesse": "Reprendre, ne pas reprendre, négocier, et ce que ton corps en dit",
       "intro": "Le mois 2 confronte beaucoup de mamans à des questions qu'elles n'avaient pas anticipées : préparer la reprise alors que le corps n'est pas encore prêt, gérer le mode de garde, peser les options. Voici ce qui se passe à ce moment précis, côté maman et côté co-parent.",
       "pour_la_maman": {
         "titre": "Côté maman",
-        "contenu": "Ton corps n'est probablement pas prêt à reprendre comme avant. Le périnée n'a souvent pas encore été rééduqué (le bilan est généralement prescrit à la visite des 6-8 semaines, et les séances commencent ensuite). Les muscles abdominaux restent distendus, le diastasis peut persister plusieurs mois. La fatigue n'est pas une fatigue ordinaire : c'est une fatigue cellulaire, qui rend la concentration difficile, surtout en début de journée.\n\nHormonalement, l'œstrogène et la progestérone restent très bas. Si tu allaites, la prolactine maintient une certaine bulle hormonale, mais aussi une demande corporelle continue. Le sommeil reste fragmenté, et la dette de sommeil s'accumule.\n\nÉmotionnellement, c'est souvent le moment où monte l'anxiété de séparation maternelle (à ne pas confondre avec celle de bébé qui viendra plus tard). Beaucoup de mamans décrivent une sensation physique de \"poitrine arrachée\" à l'idée de laisser leur bébé. C'est physiologique, pas un caprice : ton cerveau a été reconfiguré par la maternité pour rester proche du bébé.\n\nCôté droit : en France, à la reprise après congé maternité, ton employeur doit te restituer ton poste précédent ou un poste équivalent (article L1225-25 du Code du travail). Tu as aussi droit à une visite de pré-reprise auprès de la médecine du travail, à demander avant la fin du congé, qui peut préconiser des aménagements. Si tu allaites, tu as droit à 1h par jour sur le temps de travail jusqu'aux 1 an de bébé pour tirer ton lait ou allaiter."
+        "contenu": "Ton corps n'est probablement pas prêt à reprendre comme avant. Le périnée n'a souvent pas encore été rééduqué (le bilan est généralement prescrit à la visite des 6-8 semaines, et les séances commencent ensuite). Les muscles abdominaux restent distendus, le diastasis peut persister plusieurs mois. La fatigue n'est pas une fatigue ordinaire : c'est une fatigue cellulaire, qui rend la concentration difficile, surtout en début de journée.\n\nHormonalement, l'œstrogène et la progestérone restent très bas. Si tu allaites, la prolactine maintient une certaine bulle hormonale, mais aussi une demande corporelle continue. Le sommeil reste fragmenté, et la dette de sommeil s'accumule.\n\nÉmotionnellement, c'est souvent le moment où monte l'anxiété de séparation maternelle (à ne pas confondre avec celle de bébé qui viendra plus tard). Beaucoup de mamans décrivent une sensation physique de \"poitrine arrachée\" à l'idée de laisser {prenom}. C'est physiologique, pas un caprice : ton cerveau a été reconfiguré par la maternité pour rester proche de ton bébé.\n\nCôté pratique : il existe des protections et des dispositifs prévus pour t'accompagner à la reprise (autour de ton poste, des aménagements possibles, des temps spécifiques si tu allaites). Ces droits évoluent au fil des années et dépendent de ta situation. Plutôt que de t'appuyer sur ce qu'on a pu te dire en discussion, vérifie auprès de la médecine du travail, de ton service RH, de ta sage-femme ou d'un syndicat. Une visite de pré-reprise est généralement possible avant la fin du congé : c'est un excellent moment pour faire le point sur ce qui peut être adapté."
       },
       "pour_le_papa_co_parent": {
         "titre": "Côté papa / co-parent",
-        "contenu": "À 2 mois, le co-parent a généralement déjà repris le travail (fin du congé paternité 28 jours). La fatigue cumulée du sommeil dégradé commence à se faire sentir au travail, sans qu'il puisse forcément en parler. La culpabilité de partir le matin coexiste souvent avec un soulagement de retrouver un cadre familier, et cette ambivalence est rarement nommée.\n\nLe rôle du co-parent à M2 est central : il est souvent le premier témoin du repositionnement de sa partenaire face au travail. Il peut être un allié précieux (en posant des questions sans imposer de réponse, en proposant des options concrètes, en accompagnant aux RDV pré-reprise) ou involontairement un facteur de pression (en projetant ses propres attentes sur le calendrier).\n\nSi tu es co-parent et que tu lis ça, voici trois questions à éviter ce mois-ci : « Alors, tu vas reprendre quand ? », « Tu es sûre que tu veux faire ça ? », « Mais on a besoin de ton salaire ». Trois questions à privilégier : « Qu'est-ce qui t'apaiserait là ? », « Comment je peux t'aider à explorer cette option ? », « Est-ce que tu veux qu'on en parle ce soir, ou plus tard ? »."
+        "contenu": "À 2 mois, le co-parent a généralement déjà repris le travail depuis quelques semaines (la durée du congé du second parent dépend du pays et a évolué récemment ; à vérifier dans ta situation). La fatigue cumulée du sommeil dégradé commence à se faire sentir au travail, sans qu'il puisse forcément en parler. La culpabilité de partir le matin coexiste souvent avec un soulagement de retrouver un cadre familier, et cette ambivalence est rarement nommée.\n\nLe rôle du co-parent à M2 est central : il est souvent le premier témoin du repositionnement de sa partenaire face au travail. Il peut être un allié précieux (en posant des questions sans imposer de réponse, en proposant des options concrètes, en accompagnant aux RDV pré-reprise) ou involontairement un facteur de pression (en projetant ses propres attentes sur le calendrier).\n\nSi tu es co-parent et que tu lis ça, voici trois questions à éviter ce mois-ci : « Alors, tu vas reprendre quand ? », « Tu es sûre que tu veux faire ça ? », « Mais on a besoin de ton salaire ». Trois questions à privilégier : « Qu'est-ce qui t'apaiserait là ? », « Comment je peux t'aider à explorer cette option ? », « Est-ce que tu veux qu'on en parle ce soir, ou plus tard ? »."
       },
       "signaux_a_ne_pas_negliger": [
         "Anxiété qui devient permanente, ruminations sur la reprise plusieurs heures par jour",
@@ -107,7 +108,7 @@
         "Sage-femme libérale : consultation possible jusqu'à 1 an après naissance, peut prescrire la rééducation périnéale et orienter pour le reste",
         "Médecine du travail : visite de pré-reprise à demander avant la fin du congé maternité, peut préconiser des aménagements de poste",
         "Médecin traitant : pour évaluer l'état général et orienter vers un psychologue si besoin",
-        "MonParcoursPsy : 12 séances de psychologue remboursées par an par l'Assurance Maladie, sur prescription médicale, idéal pour préparer la reprise",
+        "MonParcoursPsy : un dispositif public qui permet d'accéder à des séances de psychologue avec une prise en charge, sur orientation médicale. Renseigne-toi auprès de ton médecin pour les modalités actuelles",
         "Allo Parents Bébé : 0 800 00 34 56 (gratuit, écoute spécialisée périnatale)",
         "PMI : consultations gratuites, soutien parental, peut aussi orienter sur les modes de garde"
       ]
@@ -116,8 +117,8 @@
       "id": "challenge_couple_dessin_partage",
       "numero": 5,
       "icone": "💑",
-      "titre": "Challenge couple",
-      "sous_titre": "Le dessin partagé : imaginer les 3 prochains mois, sans se disputer",
+      "nom_outil": "Challenge couple",
+      "promesse": "Le dessin partagé : imaginer les 3 prochains mois, sans se disputer",
       "duree": "15 minutes",
       "intro": "À 2 mois, le couple parental est souvent face à des décisions à prendre ensemble (mode de garde, reprise, organisation des journées). Ces conversations tournent parfois en débats frontaux où chacun campe sur ses attentes. Le dessin partagé court-circuite cette dynamique en passant par le visuel et le silence : on dessine ensemble ce qu'on aimerait, et le dessin devient l'objet à commenter, pas l'autre.",
       "challenge_du_mois": {
