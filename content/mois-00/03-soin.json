@@ -3,8 +3,9 @@
   "tranche_age": "post-partum semaines 1-4",
   "rubrique": "prendre_soin_de_moi",
   "titre_rubrique": "Prendre soin de moi",
-  "sous_titre": "Mois 0 — Le Lové · Toi aussi, tu viens de naître à un autre rôle",
-  "description": "Le mois 0 n'est pas seulement celui de bébé. Toi aussi tu changes — corps qui répare, cerveau qui se reconfigure, identité qui se déplace. 6 propositions calibrées pour ces 4 premières semaines, où chaque geste pour toi doit être réaliste, court, et accessible même épuisé(e).",
+  "theme_du_mois": "Habiter ton corps qui vient d'accomplir l'immense",
+  "intention_du_mois": "Ton corps vient d'accomplir quelque chose d'immense. Pendant ces 4 premières semaines, il continue à travailler en silence, à réparer, à se réajuster. Ce mois est une invitation à revenir physiquement habiter ce corps-là, tel qu'il est aujourd'hui, avec tendresse. Les 5 propositions sont calibrées pour des journées où chaque geste pour toi doit être réaliste, court, accessible même très épuisée.",
+  "description": "Le mois 0 n'est pas seulement celui de bébé. Toi aussi tu changes : corps qui répare, cerveau qui se reconfigure, identité qui se déplace. 5 propositions pour habiter ce moment où ton corps porte le plus, et où prendre soin de toi compte autant que prendre soin de bébé.",
   "conseils": [
     {
       "id": "auto_massage_mains_post_partum",
@@ -12,13 +13,13 @@
       "icone": "🤲",
       "titre": "Auto-massage de réflexologie",
       "sous_titre": "Décharger l'aigu du post-partum, en 5 minutes, sans bouger",
-      "intro": "À M0, ton corps porte une charge extrême : utérus qui se rétracte, cicatrisation, montée de lait, nuits hachées, hormones en chute libre. Voici 4 points sur tes mains que tu peux activer pendant une tétée, en patientant pour qu'il s'endorme, ou allongée sur le canapé. Pas besoin de te lever, pas besoin de matériel.",
+      "intro": "À M0, ton corps porte une charge extrême : utérus qui se rétracte, cicatrisation, montée ou absorption de lait, nuits hachées, hormones en chute libre. Voici 4 points sur tes mains que tu peux activer pendant une tétée ou un biberon, en patientant pour qu'il s'endorme, ou allongée sur le canapé. Pas besoin de te lever, pas besoin de matériel.",
       "duree": "5 minutes",
       "indications": [
         "Décharge nerveuse aiguë post-accouchement",
         "Hypersensibilité émotionnelle du baby blues (J3-J10)",
-        "Tension de la lactation et des épaules",
-        "Insomnie ou difficulté à se rendormir entre deux tétées",
+        "Tension de la poitrine et des épaules",
+        "Insomnie ou difficulté à se rendormir entre deux prises de lait",
         "Sentiment de débordement, montée de larmes"
       ],
       "points": [
@@ -40,75 +41,55 @@
         {
           "zone": "Détente épaules (bord externe de la paume, sous le petit doigt)",
           "geste": "Pincement doux remontant vers le poignet, 30 secondes par main",
-          "effet": "Détend les épaules contractées par les tétées et le portage"
+          "effet": "Détend les épaules contractées par les prises de lait et le portage"
         }
       ],
-      "cloture": "Termine en frottant tes mains l'une contre l'autre 10 secondes — la chaleur signale au système nerveux que c'est fini."
+      "cloture": "Termine en frottant tes mains l'une contre l'autre 10 secondes. La chaleur signale au système nerveux que c'est fini."
     },
     {
       "id": "meditation_corps_immense",
       "numero": 2,
       "icone": "🎧",
-      "titre": "Méditation audio \"Mon corps a fait quelque chose d'immense\"",
-      "sous_titre": "Reconnaître ce que ton corps vient d'accomplir",
-      "duree": "~5 minutes",
-      "frequence_conseillee": "2 à 3 fois par semaine, à tout moment de la journée — peut être écoutée pendant une tétée",
-      "intro": "Pas besoin de t'allonger ni de fermer les yeux. Cette méditation se vit pendant une tétée, dans ton lit, ou pendant que bébé dort sur toi. Elle s'adresse à ton corps — celui qui a porté, accouché, et qui répare maintenant en continu.",
-      "texte_meditation": "Si tu peux, pose une main sur ton ventre. Une sur ton cœur.\n\nRespire lentement par le nez. Pas besoin de respiration parfaite — juste ce que tu peux.\n\nTon corps a fait quelque chose d'immense.\n\nIl a fabriqué un être humain, à partir de presque rien. Il a porté pendant des mois. Il a accouché. Il a survécu.\n\n[Pause - 10 secondes]\n\nEt même maintenant, pendant que tu écoutes, il continue de travailler.\n\nTon utérus se rétracte, doucement, vers sa taille d'avant. Ton sang se renouvelle. Tes hormones se réajustent. Tes seins fabriquent du lait — ou ton corps absorbe la lactation s'il n'allaite pas.\n\nTon corps n'est pas en pause. Il est en plein travail. C'est pour ça qu'il est si fatigué.\n\n[Pause - 10 secondes]\n\nJe voudrais que tu lui dises merci.\n\nPas un merci parfait. Juste un merci silencieux. Pour ce qu'il a tenu. Pour ce qu'il continue de faire.\n\nIl n'est pas comme avant. Il ne sera peut-être jamais exactement comme avant.\n\nMais il est là. Il fonctionne. Il te porte.\n\nTu peux lui pardonner ce qui a changé. Tu peux lui faire confiance pour ce qui se répare.\n\n[Pause - 10 secondes]\n\nTon corps a le droit d'être lent ces semaines-ci. Il a le droit d'être douloureux. Il a le droit de ne pas être beau selon les critères qu'on lui imposait avant.\n\nIl a fait quelque chose d'immense.\n\nIl mérite ta tendresse, pas tes reproches.\n\n[Pause - 5 secondes]\n\nQuand tu rouvres les yeux, ou quand tu reviens à bébé, garde une main sur ton corps quelques secondes encore.\n\nTu es là. Il est là. Vous tenez tous les deux."
-    },
-    {
-      "id": "victoires_microscopiques",
-      "numero": 3,
-      "icone": "✨",
-      "titre": "Célébrer mentalement les petites victoires",
-      "sous_titre": "À M0, les victoires sont microscopiques — et c'est exactement ce qu'il faut compter",
-      "frequence_conseillee": "Quotidien — avant de t'endormir, ou pendant une tétée",
-      "intro": "À M0, l'échelle change. Une douche prise est une victoire. Un repas mangé chaud est une victoire. Sortir dehors 10 minutes est une victoire. Compter ces micro-réussites n'est pas de l'auto-félicitation — c'est une protection neurologique contre la dépression post-partum.",
-      "comment_faire": "Chaque jour, nomme intérieurement 1 à 3 choses que tu as réussies — surtout les microscopiques. Celles que personne ne verra. Celles qui paraissent ridiculement petites en dehors du post-partum.",
-      "exemples": [
-        "J'ai pris une douche aujourd'hui",
-        "J'ai bu 1,5L d'eau",
-        "J'ai mangé chaud au moins une fois",
-        "J'ai dit oui à de l'aide quand on m'en proposait",
-        "J'ai pleuré et c'était nécessaire",
-        "J'ai survécu à une nuit de 4 réveils",
-        "J'ai changé bébé sans paniquer alors que j'étais épuisé(e)",
-        "Je l'ai posé pour aller aux toilettes — c'était courageux"
-      ]
+      "titre": "Méditation audio",
+      "sous_titre": "Habiter ce corps qui a fait quelque chose d'immense",
+      "duree": "~7 minutes",
+      "intro": "Pas besoin de t'allonger ni de fermer les yeux. Cette méditation se vit pendant une tétée ou un biberon, dans ton lit, ou pendant que bébé dort sur toi. Elle s'adresse à ton corps : celui qui a porté, accouché, et qui répare maintenant en continu.",
+      "instruction": "Si tu peux, pose une main sur ton ventre et une sur ton cœur. Sinon, garde simplement les bras où ils sont. La méditation se fait en silence intérieur, à la première personne : c'est ta propre voix qui se parle à toi-même.",
+      "texte_meditation": "Je pose une main sur mon ventre. Une sur mon cœur. Si je ne peux pas, je laisse mes mains où elles sont. C'est bien aussi.\n\nJe respire lentement par le nez. Pas une respiration parfaite. Juste celle que je peux, là, maintenant.\n\n[pause - 10 secondes]\n\nMon corps a fait quelque chose d'immense.\n\nIl a fabriqué un être humain à partir de presque rien. Il a porté pendant des mois. Il a accouché. Il a survécu.\n\n[pause - 10 secondes]\n\nEt même maintenant, pendant que j'écoute, il continue de travailler.\n\nMon utérus se rétracte, doucement, vers sa taille d'avant. Mon sang se renouvelle. Mes hormones se réajustent. Mon corps gère le lait, qu'il en fabrique ou qu'il absorbe la lactation.\n\nMon corps n'est pas en pause. Il est en plein travail. C'est pour ça qu'il est si fatigué.\n\n[pause - 10 secondes]\n\nJ'imagine une lumière douce, tiède, qui descend depuis le sommet de mon crâne. Elle traverse mon visage, ma nuque, mes épaules. Elle continue à descendre dans ma poitrine, dans mon ventre, dans mes hanches. Partout où elle passe, elle dit merci.\n\n[pause - 15 secondes]\n\nJe voudrais lui dire merci. Pas un merci parfait. Juste un merci silencieux. Pour ce qu'il a tenu. Pour ce qu'il continue de faire.\n\nIl n'est pas comme avant. Il ne sera peut-être jamais exactement comme avant.\n\nMais il est là. Il fonctionne. Il me porte.\n\nJe peux lui pardonner ce qui a changé. Je peux lui faire confiance pour ce qui se répare.\n\n[pause - 10 secondes]\n\nMon corps a le droit d'être lent ces semaines-ci. Il a le droit d'être douloureux. Il a le droit de ne pas être beau selon les critères qu'on lui imposait avant.\n\nIl a fait quelque chose d'immense.\n\nIl mérite ma tendresse, pas mes reproches.\n\n[pause - 10 secondes]\n\nJe respire encore une fois, lentement. Inspiration par le nez. Expiration par la bouche.\n\nJe garde une main sur mon corps quelques secondes encore.\n\nJe suis là. Mon bébé est là. Nous tenons tous les deux.\n\n[pause - 5 secondes]\n\nQuand je rouvre les yeux, ou quand je reviens à mon bébé, je garde un peu de cette chaleur en moi."
     },
     {
       "id": "auto_reconnaissance_vocale",
-      "numero": 4,
+      "numero": 3,
       "icone": "🎙️",
-      "titre": "Auto-reconnaissance — format vocal",
-      "sous_titre": "Une minute vocale par semaine, pour TOI",
-      "intro": "À M0, écrire est souvent trop demandant. Mais parler 1 minute dans ton téléphone, allongée ou en marchant avec bébé en écharpe, est accessible. Cette méthode garde une trace audio de ce que tu vis — pas pour l'envoyer, juste pour reconnaître ce que tu traverses.",
+      "titre": "Auto-reconnaissance",
+      "sous_titre": "Une minute vocale par semaine, pour reconnaître ce que je traverse",
+      "intro": "À M0, écrire est souvent trop demandant. Mais parler 1 minute dans ton téléphone, allongée ou en marchant avec bébé en écharpe, est accessible. Cette méthode garde une trace audio de ce que tu vis. Pas pour l'envoyer, juste pour reconnaître à voix haute ce que tu traverses, dans ce corps qui répare.",
       "format_propose": "vocal_audio",
-      "consigne": "Une fois par semaine, prends ton téléphone, ouvre l'application Dictaphone (ou Mémo vocal). Enregistre 1 minute. Réponds librement à : \"Cette semaine, je me reconnais d'avoir...\" Tu peux pleurer, hésiter, te répéter — c'est normal. Ne le réécoute pas si tu ne veux pas. C'est juste pour le dire à voix haute.",
+      "consigne": "Prends ton téléphone, ouvre l'application Dictaphone (ou Mémo vocal). Enregistre 1 minute. Réponds librement à : \"Cette semaine, je me reconnais d'avoir...\" Tu peux pleurer, hésiter, te répéter. C'est normal. Ne le réécoute pas si tu ne veux pas. C'est juste pour le dire à voix haute.",
       "amorces_si_blocage": [
         "Cette semaine, j'ai tenu pendant...",
         "Je me reconnais d'avoir survécu à...",
-        "J'ai été plus fort(e) que je ne le pensais quand...",
-        "Une chose que personne ne sait que j'ai fait cette semaine : ...",
+        "J'ai été plus forte que je ne le pensais quand...",
+        "Une chose que personne ne sait que j'ai faite cette semaine : ...",
         "Si je devais saluer une part de moi en ce moment, ce serait celle qui..."
       ],
       "espace_pour_enregistrement": true,
-      "principe": "Ces enregistrements t'appartiennent. Personne ne les écoutera. Tu peux les supprimer aussitôt si tu veux. Le seul fait de le dire à voix haute compte."
+      "principe": "Ces enregistrements t'appartiennent. Personne ne les écoutera. Tu peux les supprimer aussitôt si tu veux. Le seul fait de le dire à voix haute compte. Cette pratique sera reprise dans les mois suivants sous d'autres formats, à mesure que ton énergie reviendra."
     },
     {
       "id": "realite_post_partum_M0",
-      "numero": 5,
+      "numero": 4,
       "icone": "💬",
-      "titre": "La réalité du post-partum — maman et papa, semaines 1 à 4",
-      "sous_titre": "Ce que personne ne dit assez fort",
-      "intro": "Les 4 premières semaines sont les plus extrêmes du post-partum. C'est physiologique — pas un échec personnel. Voici ce qui se passe vraiment, des deux côtés du couple parental.",
+      "titre": "La réalité du post-partum",
+      "sous_titre": "Les 4 premières semaines, ce que personne ne dit assez fort",
+      "intro": "Les 4 premières semaines sont les plus extrêmes du post-partum. C'est physiologique, pas un échec personnel. Voici ce qui se passe vraiment, des deux côtés du couple parental.",
       "pour_la_maman": {
         "titre": "Côté maman",
-        "contenu": "Ton corps est en chantier permanent. L'utérus se rétracte (contractions parfois douloureuses, surtout pendant la tétée). Le périnée cicatrise — voie basse ou non, il a porté un poids énorme pendant des mois. Si césarienne : 6 semaines minimum avant que la cicatrice soit solide. Les lochies (saignements) durent 4 à 6 semaines, c'est normal.\n\nHormonalement, c'est une chute libre. L'œstrogène et la progestérone s'effondrent en quelques jours après l'accouchement — chute plus brutale qu'à la ménopause. C'est ça, le baby blues entre J3 et J10. 70 à 80% des femmes le vivent. Pleurs sans raison, hypersensibilité, doutes. C'est physiologique. Ça passe en 1 à 2 semaines.\n\nSi tu allaites : 500 calories de plus à manger par jour, et une demande corporelle constante. La fatigue est une fatigue cellulaire, pas juste un manque de sommeil.\n\nTon corps n'a pas \"perdu son bébé\" — il a accompli quelque chose, et il répare. Ne lui demande pas de redevenir \"comme avant\" pendant ce premier mois. Il ne peut pas."
+        "contenu": "Ton corps est en chantier permanent. L'utérus se rétracte, avec parfois des tranchées douloureuses pendant les prises de lait. Le périnée cicatrise : voie basse ou non, il a porté un poids énorme pendant des mois. Si césarienne, 6 semaines minimum avant que la cicatrice soit solide. Les lochies (saignements) durent 4 à 6 semaines, c'est normal.\n\nHormonalement, c'est une chute libre. L'œstrogène et la progestérone s'effondrent en quelques jours après l'accouchement, chute plus brutale qu'à la ménopause. C'est ça, le baby blues entre J3 et J10. 70 à 80% des femmes le vivent. Pleurs sans raison, hypersensibilité, doutes. C'est physiologique. Ça passe en 1 à 2 semaines.\n\nSi tu allaites, 500 calories de plus à manger par jour et une demande corporelle constante. La fatigue est une fatigue cellulaire, pas juste un manque de sommeil. Si tu donnes le biberon, ton corps absorbe la lactation, ce qui demande aussi une grande énergie pendant 2 à 3 semaines.\n\nTon corps n'a pas \"perdu son bébé\". Il a accompli quelque chose, et il répare. Ne lui demande pas de redevenir \"comme avant\" pendant ce premier mois. Il ne peut pas."
       },
       "pour_le_papa_co_parent": {
         "titre": "Côté papa / co-parent",
-        "contenu": "Le post-partum du co-parent est rarement nommé — et pourtant il existe. À M0, plusieurs réalités souvent tues : l'impression d'être un spectateur dans sa propre maison, la difficulté à trouver sa place quand la dyade mère-bébé semble suffisante, la fatigue accumulée sans permission d'en parler (\"toi au moins tu n'as pas accouché\"), la pression de tenir économiquement et logistiquement pendant que la partenaire répare.\n\nLes pères et co-parents développent une dépression post-partum dans 8 à 10% des cas — souvent avec retard, vers le 3e ou 4e mois. À M0, les signaux sont déjà présents : irritabilité, repli, difficulté à se connecter au bébé, sentiment d'incompétence.\n\nSi tu es co-parent et que tu lis ça : tu n'es pas un assistant. Tu es un parent à part entière. Ta fatigue est légitime. Ton trouble face à ce séisme aussi."
+        "contenu": "Le post-partum du co-parent est rarement nommé, et pourtant il existe. À M0, plusieurs réalités souvent tues : l'impression d'être un spectateur dans sa propre maison, la difficulté à trouver sa place quand la dyade mère-bébé semble suffisante, la fatigue accumulée sans permission d'en parler (\"toi au moins tu n'as pas accouché\"), la pression de tenir économiquement et logistiquement pendant que la partenaire répare.\n\nLes pères et co-parents développent une dépression post-partum dans 8 à 10% des cas, souvent avec retard, vers le 3e ou 4e mois. À M0, les signaux sont déjà présents : irritabilité, repli, difficulté à se connecter au bébé, sentiment d'incompétence.\n\nSi tu es co-parent et que tu lis ça, tu n'es pas un assistant. Tu es un parent à part entière. Ta fatigue est légitime. Ton trouble face à ce séisme aussi."
       },
       "signaux_a_ne_pas_negliger": [
         "Tristesse profonde plus de 2 semaines après l'accouchement",
@@ -120,10 +101,10 @@
         "Incapacité à dormir même quand bébé dort",
         "Sentiment que bébé serait mieux sans toi"
       ],
-      "urgence": "Si pensées d'auto-agression ou de faire du mal à bébé : 3114 (gratuit, 24h/24, anonyme). C'est un signal médical, pas un défaut moral.",
+      "urgence": "Si pensées d'auto-agression ou de faire du mal à bébé, appelle le 3114 (gratuit, 24h/24, anonyme). C'est un signal médical, pas un défaut moral.",
       "qui_consulter": [
-        "Sage-femme : ta première ressource — consultation à domicile possible jusqu'à J12 (PRADO), au-delà en cabinet. Spécialiste du post-partum aigu",
-        "Médecin traitant ou gynécologue : pour les complications corps (fièvre, saignements, douleurs anormales)",
+        "Sage-femme : ta première ressource, consultation à domicile possible jusqu'à J12 (PRADO), au-delà en cabinet. Spécialiste du post-partum aigu",
+        "Médecin traitant ou gynécologue : pour les complications corps (fièvre, saignements anormaux, douleurs)",
         "PMI (Protection Maternelle Infantile) : consultation gratuite, visite à domicile possible",
         "Allo Parents Bébé : 0 800 00 34 56 (gratuit, écoute spécialisée périnatale)",
         "Maman Blues : association de soutien à la dépression post-partum (mamanblues.fr)",
@@ -132,18 +113,17 @@
     },
     {
       "id": "challenge_couple_main_posee",
-      "numero": 6,
+      "numero": 5,
       "icone": "💑",
-      "titre": "Challenge couple — une main posée, 1 minute",
-      "sous_titre": "Le minimum vital de présence physique",
+      "titre": "Challenge couple",
+      "sous_titre": "Une main posée, 1 minute, le minimum vital de présence physique",
       "duree": "1 minute",
-      "frequence_conseillee": "Une fois par semaine, le soir",
-      "intro": "À M0, pas la peine de prétendre à un \"rendez-vous couple\". Vous n'avez pas l'énergie. Le couple parental a besoin d'autre chose à ce moment : un signal minimal que vous êtes encore deux, pas seulement deux soignants de bébé. Une minute suffit.",
+      "intro": "À M0, pas la peine de prétendre à un \"rendez-vous couple\". Vous n'avez pas l'énergie, et c'est normal. Le couple parental a besoin d'autre chose à ce moment : un signal minimal que vous êtes encore deux, pas seulement deux soignants de bébé. Une minute suffit. Ce challenge restera volontairement sobre, parce que la sobriété est ici un choix de design, pas un défaut.",
       "challenge_du_mois": {
         "nom": "Une main posée, 1 minute",
-        "deroule": "Un soir par semaine — celui qui vous convient — vous vous asseyez ou vous allongez l'un à côté de l'autre. L'un pose une main sur l'autre (épaule, bras, dos, peu importe). Pendant 1 minute, vous ne dites rien. Vous ne demandez rien. Vous ne planifiez rien. Juste : la main qui sent l'autre. C'est tout."
+        "deroule": "Un soir dans la semaine, celui qui vous convient, vous vous asseyez ou vous allongez l'un à côté de l'autre. L'un pose une main sur l'autre (épaule, bras, dos, peu importe). Pendant 1 minute, vous ne dites rien. Vous ne demandez rien. Vous ne planifiez rien. Juste : la main qui sent l'autre. C'est tout."
       },
-      "pourquoi_ca_marche": "À M0, parler du couple génère souvent des reproches ou de la culpabilité — il y a trop de fatigue, trop de non-dits. Le contact physique sans demande court-circuite tout ça. Le nerf vague est activé par le toucher prolongé d'une personne en sécurité. En 1 minute, le système nerveux des deux personnes se synchronise un peu. C'est suffisant pour maintenir le lien pendant cette phase extrême."
+      "pourquoi_ca_marche": "À M0, parler du couple génère souvent des reproches ou de la culpabilité : il y a trop de fatigue, trop de non-dits. Le contact physique sans demande court-circuite tout ça. Le nerf vague est activé par le toucher prolongé d'une personne en sécurité. En 1 minute, le système nerveux des deux personnes se synchronise un peu. C'est suffisant pour maintenir le lien pendant cette phase extrême."
     }
   ]
 }

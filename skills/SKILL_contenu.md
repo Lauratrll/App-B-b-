@@ -65,6 +65,100 @@
 
 ---
 
+## Règles de formulation
+
+### Inclusivité sur la prise de lait
+
+**Ne jamais présupposer le mode d'alimentation du bébé.** Tous les contenus s'adressent autant aux parents qui allaitent qu'à ceux qui donnent le biberon, et à ceux qui font les deux.
+
+**Formulations à utiliser :**
+- "tétée ou biberon"
+- "prise de lait"
+- "moment du lait"
+- "pendant le repas de lait"
+- "au sein ou au biberon"
+
+**À bannir comme formulations par défaut :**
+- "pendant la tétée" (seul)
+- "quand tu allaites" (seul)
+- "après la tétée du soir" (seul)
+- Toute formulation qui n'évoque qu'un seul mode d'alimentation
+
+**Exception :** un contenu spécifiquement dédié à l'allaitement (ex : protocole "douleur de mise au sein") peut parler uniquement de tétée. De même, un contenu spécifique au biberon. Mais le contenu doit alors être clairement identifié comme tel par son titre ou son contexte.
+
+**Exemples de corrections :**
+
+| ❌ À éviter | ✅ À utiliser |
+|------------|--------------|
+| "Propose une tétée pour le rassurer" | "Propose une tétée ou un biberon pour le rassurer" |
+| "Après la tétée du soir, installe-le..." | "Après la prise de lait du soir, installe-le..." |
+| "Pendant l'allaitement, observe..." | "Pendant le moment du lait, observe..." |
+| "Une tétée suffit souvent à apaiser" | "Une tétée ou un biberon suffit souvent à apaiser" |
+
+### Ponctuation interne aux phrases
+
+**Le tiret cadratin « — » ou le tiret demi-cadratin « – » sont à bannir au milieu des phrases.** Ils créent une rupture visuelle et un ton qui ne correspondent pas à la voix chaleureuse de l'app.
+
+**Remplacements selon le sens de la phrase :**
+
+| Fonction du tiret | Remplacement recommandé |
+|-------------------|------------------------|
+| Apposition, précision | virgule, parenthèses, ou deux virgules d'encadrement |
+| Explication, développement | deux-points « : » |
+| Ajout, prolongement d'idée | virgule + conjonction (et, mais, car, donc) |
+| Pause, respiration | point + nouvelle phrase courte |
+| Énumération inline | virgules, ou passage en liste à puces |
+| Opposition forte | point + "Mais..." ou "Pourtant..." |
+
+**Exemples de corrections :**
+
+| ❌ À éviter | ✅ À utiliser |
+|------------|--------------|
+| "Les pleurs du soir — souvent appelés coliques — sont fréquents." | "Les pleurs du soir, souvent appelés coliques, sont fréquents." |
+| "Tu peux essayer le portage — c'est très efficace." | "Tu peux essayer le portage : c'est très efficace." |
+| "Bébé est fatigué — il a besoin de calme." | "Bébé est fatigué, il a besoin de calme." ou "Bébé est fatigué. Il a besoin de calme." |
+| "Une seule chose compte — le rassurer." | "Une seule chose compte : le rassurer." |
+| "Aucun protocole épinglé — explore le Guide-moi !" | "Aucun protocole épinglé pour l'instant, explore le Guide-moi !" |
+
+**Cas où le tiret reste autorisé :**
+- Dans les tableaux de comparaison
+- Entre deux nombres pour une fourchette ("3–5 phrases", "6–12 mois")
+- Dans les listes à puces, en début de ligne
+- Dans les titres ou intertitres structurels
+
+### Écriture genrée
+
+**Règle générale : pas d'écriture inclusive typographique** (`·e`, `·le`, `(e)`, `.e`). Elle alourdit la lecture, complexifie le rendu audio des méditations, et ne correspond pas au ton chaleureux et fluide de l'app.
+
+**Trois traitements selon le contexte :**
+
+| Contexte | Traitement | Exemples |
+|----------|-----------|----------|
+| **Rubrique « Prendre soin de moi »** (sauf exceptions ci-dessous) | **Féminin assumé** : la rubrique s'adresse aux mamans. | « Tu es épuisée », « Ton corps a changé », « Tu mérites cette pause » |
+| **Conseil 4 « Post-partum » > section « Côté papa / co-parent »** (à l'intérieur de Prendre soin de moi) | **Adresse directe au co-parent** (masculin ou neutre). La maman lit ce contenu et peut le faire lire à son partenaire. | « Si tu es co-parent et que tu lis ça… », « Ta fatigue est légitime » |
+| **Conseil 5 « Challenge couple »** (à l'intérieur de Prendre soin de moi) | **Formulations qui marchent pour les deux** : on s'adresse au couple. | « Vous vous asseyez face à face », « L'un de vous écrit, l'autre tire au hasard » |
+| **Toutes les autres rubriques** (Guide-moi, Coucher, Saison, Partager & rassurer, Jeux) | **Formulations qui marchent pour maman, papa, co-parent** : contournements neutres, infinitifs, formulations collectives. | « Pour t'apaiser », « Tu peux essayer », « Avant de coucher bébé » |
+
+**Stratégies de contournement neutre** (pour les rubriques générales) :
+- Préférer l'infinitif : *« Pour rassurer bébé »* plutôt que *« quand tu es rassurant·e »*
+- Préférer les substantifs : *« Avec patience »* plutôt que *« quand tu es patient·e »*
+- Préférer les formulations à la 2e personne sans accord d'attribut : *« Tu peux »*, *« Tu sens »*, *« Tu remarques »* (le verbe au présent ne porte pas d'accord)
+- Préférer le pluriel collectif quand c'est naturel : *« Comme parents, on porte beaucoup »*
+
+**Exemples de corrections :**
+
+| ❌ À éviter | ✅ À utiliser |
+|------------|--------------|
+| « Tu es épuisé(e) » (Prendre soin de moi) | « Tu es épuisée » |
+| « Tu es seul(e) à gérer » (Guide-moi) | « Tu gères seule cette journée » → reformuler : « Cette journée, tu gères tout sans relais » |
+| « Tu te sens fatigué·e » (Saison) | « La fatigue se fait sentir » ou « Tu te sens fatiguée » → utiliser un contournement par substantif |
+| « Si tu es prêt(e) » (méditation Prendre soin de moi) | « Si tu te sens prête » |
+| « Le parent attentif·ve » | « Un parent attentif » (article indéfini neutre) |
+
+**Cas particulier des prénoms du bébé :** toujours utiliser des formulations qui fonctionnent pour un garçon comme pour une fille. *« Quand bébé pleure »*, *« Si bébé refuse »*, *« Tu regardes bébé »*. Le prénom est inséré en runtime par l'app.
+
+---
+
 ## Règles médicales et de sécurité
 
 ### Ce que l'app peut faire :
@@ -101,7 +195,7 @@ Jamais vague. Jamais "si tu t'inquiètes". Toujours avec un critère objectif.
 ### UI copy (boutons, labels, titres) :
 - Boutons : 2 à 4 mots, verbe d'action ("Voir le protocole", "Épingler", "Commencer")
 - Titres de section : 3 à 6 mots
-- Messages d'état vides : encourageants, pas vides ("Aucun protocole épinglé pour l'instant — explore le Guide-moi !")
+- Messages d'état vides : encourageants, pas vides ("Aucun protocole épinglé pour l'instant, explore le Guide-moi !")
 - Messages d'erreur : clairs, avec une action possible
 
 ### Notifications push / emails :
@@ -172,6 +266,9 @@ Les conseils de saison doivent toujours croiser : **âge du bébé** × **saison
 - [ ] Le ton est bienveillant envers le parent ET envers le bébé
 - [ ] Aucun terme médical non expliqué
 - [ ] Le tutoiement est systématique
+- [ ] Aucune présupposition sur le mode d'alimentation (tétée ou biberon)
+- [ ] Aucun tiret « — » ou « – » au milieu des phrases
+- [ ] Aucune écriture inclusive typographique (`·e`, `(e)`, `·le`). Féminin assumé dans « Prendre soin de moi », formulations neutres ailleurs
 - [ ] Le cadre de sécurité est présent avec des critères objectifs
 - [ ] La longueur respecte les limites définies
 - [ ] Aucune promesse de résultat garanti
