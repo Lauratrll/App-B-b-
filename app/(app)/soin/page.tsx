@@ -18,7 +18,7 @@ export default async function SoinPage() {
         </header>
         <p className="rounded-xl bg-amber-50 p-4 text-sm text-amber-900">
           Les conseils du mois {mois} ne sont pas encore disponibles.
-          Mois disponibles : 0, 3, 6, 9 et 14.
+          Mois disponibles : 0, 1, 2, 3, 6, 9 et 14.
         </p>
       </section>
     );

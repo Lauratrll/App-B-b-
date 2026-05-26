@@ -14,7 +14,7 @@ L'app couvre **24 mois de contenu**, numérotés de **M0 à M23**.
 |------|----------|--------|-------------------|
 | 0 | Le Lové | ✅ Complet (refondu nouvelle méthode 26/05/2026) | [§ Mois 0](#mois-0--le-lové) |
 | 1 | L'Éveillé | 🔶 Partiel — `03_prendre_soin_de_moi.json` produit (26/05/2026) | [§ Mois 1](#mois-1--léveillé) |
-| 2 | Le Communicant | ⏳ À produire | — |
+| 2 | Le Communicant | 🔶 Partiel — `03_prendre_soin_de_moi.json` produit (26/05/2026) | [§ Mois 2](#mois-2--le-communicant) |
 | 3 | L'Attentif | ✅ Complet | [§ Mois 3](#mois-3--lattentif) |
 | 4 | Le Découvreur | ⏳ À produire | — |
 | 5 | Le Joueur | ⏳ À produire | — |
@@ -142,6 +142,42 @@ Rituel 7 étapes adapté au nourrisson : 19h-19h30 début, bain non obligatoire,
 - **Premiers sourires sociaux** : autour de 6 semaines, ils marquent le passage du nourrisson au bébé qui interagit
 - **Sommeil fragile** : pas de rythme stable, micro-siestes, nuits encore quasi inexistantes
 - **Risque DPP qui démarre** : la bascule du baby blues physiologique vers une DPP s'amorce souvent à M1-M2 quand la fatigue s'installe pour durer
+
+---
+
+## Mois 2 — Le Communicant
+
+**Statut :** 🔶 Partiel. Seul `03_prendre_soin_de_moi.json` est produit (26/05/2026, nouvelle méthode). Les 5 autres fichiers du mois restent à produire (`01_protocoles.json`, `02_coucher.json`, `04_saison.json`, `05_partager_rassurer.json`, `06_jeux.json`).
+**Période développementale :** 8 semaines, premières vocalisations intentionnelles, sourires sociaux affirmés, début du fixage prolongé du regard, fin du pic des coliques en vue, **reprise du travail dans 2 à 4 semaines pour les mamans en congé maternité de base** (10 semaines postnatales en France).
+
+### Prendre soin de moi (03) — NOUVELLE MÉTHODE (26/05/2026)
+
+**Thème du mois :** Trouver ta place face au travail (ou en dehors).
+
+**Intention du mois :** À 2 mois, la reprise du travail est souvent dans 2 à 4 semaines pour celles qui prennent le congé maternité de base. Pour d'autres, c'est l'idée même du travail qui se repose : reprendre, ne pas reprendre, réorienter, créer, continuer sans emploi. Aucune posture n'est meilleure. Ce mois est une invitation à sentir ce qui t'appelle, sans te laisser décider par la pression extérieure ni par la peur.
+
+5 conseils calibrés sur la transition entre la bulle des premières semaines et le retour au monde :
+
+1. **Auto-massage de réflexologie** · *sous-titre/titre visuel :* « Apaiser l'anticipation, garder ton ancrage à mesure que la reprise approche »
+   4 points calibrés sur l'anxiété anticipatoire : système nerveux · hypophyse (transition hormonale vers la séparation diurne) · poumons (souffle court de l'anxiété) · surrénales (résistance au stress). Avec durées par geste.
+2. **Méditation audio** · *sous-titre/titre visuel :* « Voir ce qui m'appelle, trouver la place qui me ressemble »
+   ~8 min (la plus longue produite à ce stade), en **« je » intégral** (45 occurrences). **Visualisation projective inédite** : se voir dans 3 mois dans la posture choisie, puis dans une posture alternative, comparer les sensations corporelles. Le corps parle ce que la tête ne sait pas encore. 10 pauses graduées (5/10/15 sec).
+3. **Auto-reconnaissance** · *sous-titre/titre visuel :* « Écrire le récit de ta naissance, avant de tourner la page de la bulle »
+   Format **récit de naissance / d'accouchement** (écriture longue, 30-45 min). Bouclage symbolique de la phase première semaine, mise en mots des éventuels traumatismes, préservation d'un témoignage à transmettre. 6 amorces fournies.
+4. **Réalité du post-partum** · *sous-titre/titre visuel :* « Reprendre, ne pas reprendre, négocier, et ce que ton corps en dit »
+   Côté maman (corps pas encore prêt, périnée à rééduquer avant la reprise, fatigue cellulaire, anxiété de séparation maternelle physiologique, **droits en France** : article L1225-25 sur la restitution du poste, visite de pré-reprise, droit à 1h/jour pour l'allaitement jusqu'à 1 an). Côté co-parent (3 questions à éviter, 3 questions à privilégier dans le repositionnement de sa partenaire). 8 signaux d'alerte. Urgence 3114. 6 ressources dont visite de pré-reprise auprès de la médecine du travail.
+5. **Challenge couple** · *sous-titre/titre visuel :* « Le dessin partagé : imaginer les 3 prochains mois, sans se disputer »
+   Mécanique **dessin partagé en silence sur une même feuille**. Pendant 10 min, chacun dessine sur une feuille A3 ce qu'il aimerait pour les 3 prochains mois. Le silence est essentiel. La feuille devient un « tiers » à commenter ensemble, ce qui désamorce les reproches frontaux des conversations sur la reprise.
+
+### Spécificités Mois 2 (à reprendre dans les autres fichiers à produire)
+
+- **Vocalisations intentionnelles** : bébé commence à émettre des sons en réponse, premiers proto-dialogues
+- **Sourires sociaux affirmés** : bébé sourit en réponse à un visage connu, pas seulement par réflexe
+- **Fixage prolongé du regard** : bébé peut soutenir le regard plusieurs secondes, commence à suivre des yeux les objets en mouvement
+- **Reprise du travail imminente** : sujet central pour les mamans en congé maternité de base
+- **Fin du pic des coliques** : décroissance progressive à partir de M2 finissant, soulagement en vue
+- **Vaccinations à 2 mois** : DTP, coqueluche, polio, Hib, hépatite B, pneumocoque, rotavirus
+- **Visite obligatoire des 2 mois** chez le pédiatre ou le médecin traitant
 
 ---
 
@@ -429,7 +465,7 @@ Chaque mois de la rubrique « Prendre soin de moi » est organisé autour d'**un
 |------|-------|--------|
 | M0 | Habiter ton corps qui vient d'accomplir l'immense | ✅ Produit (refondu nouvelle méthode 26/05/2026) |
 | M1 | Oser demander, comme une compétence parentale | ✅ Produit (26/05/2026) |
-| M2 | Trouver ta place face au travail (ou en dehors) | ⏳ À produire |
+| M2 | Trouver ta place face au travail (ou en dehors) | ✅ Produit (26/05/2026) |
 | M3 | Te donner les moyens de tenir, sans tenir seule | 🔄 À aligner sur la nouvelle méthode (contenu existant à intégrer) |
 | M4 | Aimer ce nouveau corps, celui d'aujourd'hui | ⏳ À produire |
 | M5 | Offrir du positif à ton cerveau | ⏳ À produire |
@@ -511,6 +547,7 @@ Chaque mois utilise une méditation différente. **Depuis le 26/05/2026, les mé
 |------|-------------------------------------|---------------|----------------------|-------|
 | M0 | **« Habiter ce corps qui a fait quelque chose d'immense »** (refondu nouvelle méthode 26/05/2026, en « je ») | Reconnaissance du corps qui vient d'accoucher | Visualisation corporelle (lumière douce qui descend depuis le sommet du crâne et dit merci à chaque zone) | ~7 min |
 | M1 | **« Déposer ce que je porte, pour pouvoir le partager »** (nouvelle méthode, en « je ») | Reconnaissance de la charge portée, préparation à demander de l'aide | Visualisation symbolique (un récipient devant soi où l'on dépose une à une les choses qu'on porte) | ~7 min |
+| M2 | **« Voir ce qui m'appelle, trouver la place qui me ressemble »** (nouvelle méthode, en « je ») | Repositionnement face au travail (ou en dehors), avant la reprise effective | Visualisation projective (se voir dans 3 mois dans la posture choisie, puis dans une posture alternative, comparer les sensations corporelles) | ~8 min |
 | M3 | "Revenir à mon propre corps" *(ancienne méthode — à refondre)* | Réoccuper son corps comme SON corps (pas un contenant pour bébé) | — | ~6 min |
 | M6 | « Je ne suis pas seulement maman/papa » *(ancienne méthode — à refondre)* | Retrouver les autres dimensions de soi face au rétrécissement d'identité du milieu d'année | — | ~6 min |
 | M9 | « Je peux exister loin de toi aussi » *(ancienne méthode — à refondre)* | Dénouer la culpabilité des séparations professionnelles ; partir et aimer coexistent | — | ~6 min |
@@ -524,6 +561,7 @@ Depuis la refonte 26/05/2026, chaque challenge est pensé comme un **mini-jeu lu
 |------|-----------|-----------|----------|
 | M0 | **« Une main posée, 1 minute »** | Mini-rituel sensoriel | Un soir dans la semaine, poser une main sur l'autre en silence pendant 1 min, pas de mots, juste la présence physique (calibré pour parents épuisés sans énergie pour plus) |
 | M1 | **« La carte à tirer »** | Échange écrit aveugle / tirage de question | L'un écrit 5 questions précises sur un papier, l'autre tire au hasard et répond. Règle d'or : l'écoutant dit juste « ok, j'ai entendu », sans réparer ni minimiser. Rend la demande explicite via la médiation du jeu |
+| M2 | **« Le dessin partagé »** | Dessin partagé en silence sur une même feuille | Pendant 10 min en silence, chacun dessine ou écrit sur une feuille A3 ce qu'il aimerait pour les 3 prochains mois (organisation, soirées, week-ends, temps pour soi). Le dessin devient un « tiers » à commenter ensemble, ce qui désamorce les reproches frontaux des conversations sur la reprise |
 | M3 | "10 minutes sans bébé, sans téléphone" *(ancienne méthode — à refondre en version plus ludique)* | Rendez-vous structuré | Une fois/semaine, 10 min face à face, téléphones hors pièce, pas de logistique ni de bébé comme sujet, juste qu'est-ce qui te traverse en ce moment, toi |
 | M6 | « La conversation d'oreiller » *(ancienne méthode — à refondre)* | Tour de parole en aveugle | Une fois/semaine, au coucher, lumière éteinte, allongés côte à côte. L'un parle 5 min sans interruption sur ce qui l'a traversé cette semaine, l'autre écoute. Puis on inverse |
 | M9 | « Le rendez-vous extérieur » *(ancienne méthode — à refondre)* | Sortie planifiée | 1 sortie/mois ensemble hors de la maison (restaurant, balade, cinéma), première heure sans parler de bébé, garde organisée à l'avance |
@@ -539,12 +577,13 @@ Le SKILL prévoit de varier le format mois par mois.
 |------|--------|-------------|
 | M0 | **Vocal / audio** | Enregistrer 1 min vocal/semaine (écrire est trop demandant à M0) |
 | M1 | **Carte du cercle de soutien** (dessin / carte mentale) | Cartographier 3 cercles concentriques (proche / régulier / lointain) et placer les personnes de l'entourage avec des actions précises possibles. Acte préparatoire à la demande, sans pression de demander tout de suite. 5 amorces fournies |
+| M2 | **Récit de naissance / d'accouchement** (écriture longue) | Prendre 30-45 min pour écrire le récit de l'accouchement et de la première rencontre avec bébé. Bouclage symbolique de la bulle des premières semaines avant la transition vers le retour au monde. 6 amorces fournies. Sert aussi de premier pas d'intégration pour les naissances difficiles ou traumatiques |
 | M3 | **Lettre au soi d'avant la naissance** *(ancienne méthode — pourrait être déplacée vers M6 « Reconnaître que je suis devenu(e) une autre personne »)* | Adresser une lettre à son soi d'il y a 4 mois |
 | M6 | **Dialogue intérieur écrit** | À deux colonnes : voix exigeante (« tu devrais ») vs voix épuisée (« je n'ai plus la force de »). Pas de choix à faire — les deux coexistent. 5 amorces fournies |
 | M9 | **Lettre de gratitude à un proche** | Nommer une personne qui t'a porté(e) ces derniers mois et lui écrire une lettre (envoi facultatif). Rendre visible le réseau de soutien, ou révéler son absence comme information précieuse. 5 amorces fournies |
 | M14 | Écriture libre + amorces | Reconnaître ce qu'on est devenu en tant que personne |
 
-**Formats à explorer pour les futurs mois** : récit de naissance/d'accouchement (prévu M2), lettre aux générations futures, mantra personnel, photo-souvenir + légende, lettre à son enfant à 18 ans, collage thérapeutique, dialogue intérieur à plusieurs voix.
+**Formats à explorer pour les futurs mois** : lettre aux générations futures, mantra personnel, photo-souvenir + légende, lettre à son enfant à 18 ans, collage thérapeutique, dialogue intérieur à plusieurs voix, méditation écrite (transcription d'une méditation guidée vécue), carte des saisons intérieures.
 
 ### Table d'unicité — Auto-massage mains (Prendre soin de moi, conseil 1)
 
@@ -554,6 +593,7 @@ Les 4 points peuvent varier selon le besoin physiologique du mois.
 |------|---------------|---------------------|
 | M0 | Plexus solaire · Diaphragme · Nerf vague · Détente épaules | Décharge aiguë post-accouchement |
 | M1 | Cervicales · Poignets/avant-bras · Foie (main droite) · Plexus solaire | Tension chronique du portage + premières tendinites (canal carpien post-partum) + charge cumulative + charge émotionnelle de l'isolement |
+| M2 | Système nerveux · Hypophyse · Poumons · Surrénales | Anxiété anticipatoire de la reprise du travail (ou des décisions à prendre) + transition hormonale vers la séparation diurne + souffle court + résistance au stress |
 | M3 | Hypophyse · Système nerveux · Plexus solaire · Cervicales | Fatigue cumulative + angoisse pré-retour au travail |
 | M6 | Estomac/digestion · Diaphragme · Épaules/trapèzes · Poignets/avant-bras | Charge digestive maternelle (diversification) + portage d'un bébé de 7-8 kg + tendinites de portage (canal carpien post-partum) |
 | M9 | Hypophyse · Thyroïde · Foie (main droite) · Reins | Charge cumulative + brouillard mental du retour pro + soutien hormonal/métabolique post-partum tardif (thyroïdite à explorer) + énergie vitale profonde |
@@ -629,12 +669,12 @@ Chaque mois interpolé se positionne entre deux jalons déjà produits.
 | Tranche | Jalons | Statut |
 |---------|--------|--------|
 | Tranche A (jalons) | M3, M6, M9, M12 | M3 ✅ · M6 ✅ · M9 ✅ · M12 ⏳ |
-| Tranche B (interpolations) | M1, M2, M4, M5, M7, M8, M10, M11, M13, M15 | **M1 🔶 partiel** (prendre_soin_de_moi seul) · M2, M4, M5, M7, M8, M10, M11, M13, M15 ⏳ |
+| Tranche B (interpolations) | M1, M2, M4, M5, M7, M8, M10, M11, M13, M15 | **M1 🔶 partiel** (prendre_soin_de_moi seul) · **M2 🔶 partiel** (prendre_soin_de_moi seul) · M4, M5, M7, M8, M10, M11, M13, M15 ⏳ |
 | Tranche C (séquentiel) | M16 à M23 | Tous ⏳ |
 | Hors tranche (rétroactifs) | M0, M14 | Tous deux ✅ (produits hors séquence) |
 | Refontes structurelles | M0 prendre_soin_de_moi | ✅ Refonte 1 (23/05/2026) puis ✅ Refonte 2 nouvelle méthode (26/05/2026) |
 
-**Prochaine production recommandée** : poursuivre la rubrique « Prendre soin de moi » avec **M2 « Trouver ta place face au travail (ou en dehors) »** pour valider la nouvelle méthode sur un mois entièrement nouveau et thématiquement riche. Alternativement, compléter les autres rubriques de M1 (`01_protocoles.json`, `02_coucher.json`, `04_saison.json`, `05_partager_rassurer.json`, `06_jeux.json`) pour finir le mois 1 avant d'avancer.
+**Prochaine production recommandée** : poursuivre la rubrique « Prendre soin de moi » avec **M4 « Aimer ce nouveau corps, celui d'aujourd'hui »** (M3 étant déjà produit en ancienne méthode, à refondre ultérieurement). Alternativement, attaquer **M5 « Offrir du positif à ton cerveau »** qui ouvre la deuxième moitié de la phase « survie » avec un thème particulièrement riche (biais de négativité, neurosciences accessibles). Pour finir un mois en entier, compléter les 5 autres rubriques de M1 ou M2 (`01_protocoles.json`, `02_coucher.json`, `04_saison.json`, `05_partager_rassurer.json`, `06_jeux.json`).
 
 ### À discuter / ajuster
 
@@ -658,6 +698,7 @@ Chaque mois interpolé se positionne entre deux jalons déjà produits.
 - ⭐ **Validé (26/05/2026)** : les challenges couple doivent être pensés comme des **mini-jeux** ludiques ou poétiques qui donnent envie (palette de mécaniques fournie dans SKILL_rubriques.md). Exception M0 : sobriété assumée.
 - ✅ **Produit (26/05/2026)** : `mois_00_-_03_prendre_soin_de_moi.json` **refondu à la nouvelle méthode** (5 conseils, thème + intention, méditation en « je » avec visualisation corporelle, sous-titres travaillés comme titres principaux visuels, sous-titre post-partum spécifique « Les 4 premières semaines, ce que personne ne dit assez fort »).
 - ✅ **Produit (26/05/2026)** : `mois_01_-_03_prendre_soin_de_moi.json` **créé à la nouvelle méthode** (thème « Oser demander, comme une compétence parentale », méditation en « je » avec visualisation symbolique inédite du récipient à mes pieds, format auto-reconnaissance nouveau « carte du cercle de soutien », challenge couple « La carte à tirer » avec mécanique ludique d'échange écrit aveugle).
+- ✅ **Produit (26/05/2026)** : `mois_02_-_03_prendre_soin_de_moi.json` **créé à la nouvelle méthode** (thème « Trouver ta place face au travail (ou en dehors) », méditation en « je » de ~8 min avec **visualisation projective inédite** se voir dans 3 mois + posture alternative, format auto-reconnaissance **récit de naissance/accouchement** 30-45 min d'écriture longue, challenge couple **« Le dessin partagé »** avec mécanique de dessin en silence sur une même feuille A3, post-partum avec section juridique sur les droits français à la reprise — article L1225-25, visite de pré-reprise, droit à 1h/jour allaitement).
 - ⭐ **Validé (26/05/2026)** : **les 24 thèmes sont reformulés en mode action / positif** (verbes d'action, cible positive plutôt que problème). Voir SKILL_rubriques.md § 4.3 / Arc des 24 thèmes pour la liste complète. Exemples : « Le cerveau qui retient le négatif » → « Offrir du positif à ton cerveau » ; « La culpabilité, et comment la désamorcer » → « Choisir la bienveillance envers toi-même ».
 - ⭐ **Validé (26/05/2026)** : **règle d'écriture genrée**. Pas d'écriture inclusive typographique (`·e`, `(e)`) nulle part dans l'app. Trois traitements : (1) **Prendre soin de moi** = féminin assumé (la rubrique s'adresse aux mamans) ; (2) **Section « Côté papa / co-parent » du post-partum** = adresse directe au co-parent (masculin/neutre) ; (3) **Challenge couple** = formulations qui marchent pour les deux. Pour toutes les autres rubriques (Guide-moi, Coucher, Saison, Partager & rassurer, Jeux) = formulations neutres qui marchent pour maman / papa / co-parent. Voir SKILL_contenu.md § Écriture genrée pour les stratégies de contournement.
 - ⭐ **Validé (26/05/2026)** : **UI à deux niveaux pour la rubrique « Prendre soin de moi »**. Niveau 1 (écran d'entrée de la rubrique) = le `theme_du_mois` est affiché en grand comme titre principal, avec l'`intention_du_mois` en chapô juste en dessous. Niveau 2 (écran d'un conseil) = inversion `titre` / `sous_titre` : le `sous_titre` (qui incarne le thème) devient le titre principal en grand, le `titre` (qui nomme l'outil) devient une étiquette discrète. Voir SKILL_rubriques.md § Hiérarchie visuelle (UI).
