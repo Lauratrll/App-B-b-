@@ -36,6 +36,11 @@ function SectionList({
 }
 
 export function ConseilView({ conseil }: { conseil: ConseilSoin }) {
+  // Détail conseil : "promesse" en grand, "nom_outil" en petit.
+  // Fallback temporaire sur l'ancienne convention (titre / sous_titre).
+  const titrePrincipal = conseil.promesse ?? conseil.titre;
+  const etiquette = conseil.nom_outil ?? conseil.sous_titre;
+
   return (
     <article className="space-y-5">
       <header className="space-y-2">
@@ -46,12 +51,14 @@ export function ConseilView({ conseil }: { conseil: ConseilSoin }) {
             </span>
           ) : null}
           <div>
-            <h1 className="text-2xl font-semibold leading-tight">
-              {conseil.titre}
-            </h1>
-            {conseil.sous_titre ? (
-              <p className="text-sm text-neutral-600">{conseil.sous_titre}</p>
+            {etiquette ? (
+              <p className="text-xs font-medium uppercase tracking-wide text-neutral-500">
+                {etiquette}
+              </p>
             ) : null}
+            <h1 className="text-2xl font-semibold leading-tight">
+              {titrePrincipal}
+            </h1>
           </div>
         </div>
         {conseil.duree || conseil.frequence_conseillee ? (

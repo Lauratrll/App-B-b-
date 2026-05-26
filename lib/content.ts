@@ -121,18 +121,41 @@ export type ContentRow = {
   data: Record<string, unknown>;
 };
 
+// Schéma JSON Soin — nouvelle convention sémantique (M0, M1, M2…) :
+//   promesse   = phrase qui incarne le travail (ex. "Décharger la tension…")
+//   nom_outil  = étiquette canonique de l'outil (ex. "Auto-massage de réflexologie")
+// Ancienne convention (M3, M6, M9, M14 — encore en transition) :
+//   titre / sous_titre — conservés en fallback le temps de la migration.
 export type ConseilSoin = {
   id: string;
   numero?: number;
   icone?: string;
-  titre: string;
+  // Nouvelle convention
+  promesse?: string;
+  nom_outil?: string;
+  // Ancienne convention (fallback)
+  titre?: string;
   sous_titre?: string;
   intro?: string;
   [key: string]: unknown;
 };
 
+// Métadonnées de la rubrique Soin pour un mois donné.
+// Nouvelle convention :
+//   nom_rubrique     = "Prendre soin de moi" (libellé canonique)
+//   promesse_du_mois = phrase du thème, à afficher en grand sur l'accueil
+//   theme_du_mois    = identique à promesse_du_mois, gardé pour analytics
+//   intention_du_mois = texte long d'intro
+// Ancienne convention :
+//   titre_rubrique / sous_titre — conservés en fallback.
 export type SoinMeta = {
   mois: number;
+  // Nouvelle convention
+  nom_rubrique?: string;
+  promesse_du_mois?: string;
+  theme_du_mois?: string;
+  intention_du_mois?: string;
+  // Ancienne convention (fallback)
   titre_rubrique?: string;
   sous_titre?: string;
   description?: string;
@@ -141,8 +164,13 @@ export type SoinMeta = {
 export type ConseilListItem = {
   id: string;
   ordre: number;
-  titre: string;
-  sous_titre?: string;
+  // Affichés sur la carte :
+  //   en grand : nom_outil ?? titre
+  //   en petit : promesse  ?? sous_titre
+  nom_outil?: string;
+  promesse?: string;
+  titre?: string;        // fallback
+  sous_titre?: string;   // fallback
   icone?: string;
 };
 
@@ -473,6 +501,10 @@ export const getSoinConseils = unstable_cache(
       return {
         id: row.situation as string,
         ordre: (row.ordre as number) ?? 0,
+        // Nouvelle convention
+        nom_outil: d.nom_outil,
+        promesse: d.promesse,
+        // Fallback ancienne convention
         titre: d.titre,
         sous_titre: d.sous_titre,
         icone: d.icone,

@@ -24,16 +24,24 @@ export default async function SoinPage() {
     );
   }
 
+  // En-tête : "promesse_du_mois" en grand, "nom_rubrique" en petit.
+  // Fallback temporaire sur l'ancienne convention (titre_rubrique / sous_titre).
+  const titrePrincipal =
+    meta?.promesse_du_mois ?? meta?.titre_rubrique ?? "Prends soin de toi";
+  const etiquetteRubrique = meta?.nom_rubrique ?? meta?.sous_titre;
+
   return (
     <section className="space-y-5">
       <header className="space-y-1">
         <p className="text-2xl" aria-hidden>🌸</p>
-        <h1 className="text-2xl font-semibold leading-tight">
-          {meta?.titre_rubrique ?? "Prends soin de toi"}
-        </h1>
-        {meta?.sous_titre ? (
-          <p className="text-sm text-neutral-600">{meta.sous_titre}</p>
+        {etiquetteRubrique ? (
+          <p className="text-xs font-medium uppercase tracking-wide text-neutral-500">
+            {etiquetteRubrique}
+          </p>
         ) : null}
+        <h1 className="text-2xl font-semibold leading-tight">
+          {titrePrincipal}
+        </h1>
       </header>
 
       {meta?.description ? (
@@ -43,27 +51,32 @@ export default async function SoinPage() {
       ) : null}
 
       <ul className="grid gap-3">
-        {conseils.map((c) => (
-          <li key={c.id}>
-            <Link
-              href={`/soin/${c.id}`}
-              className="flex items-center gap-4 rounded-2xl border border-neutral-200 p-4 transition-colors hover:bg-neutral-50"
-            >
-              {c.icone ? (
-                <span aria-hidden className="text-2xl">
-                  {c.icone}
-                </span>
-              ) : null}
-              <div className="flex-1">
-                <p className="font-medium leading-tight">{c.titre}</p>
-                {c.sous_titre ? (
-                  <p className="text-xs text-neutral-500">{c.sous_titre}</p>
+        {conseils.map((c) => {
+          // Cartes : "nom_outil" en grand, "promesse" en chapô court.
+          const principal = c.nom_outil ?? c.titre;
+          const chapo = c.promesse ?? c.sous_titre;
+          return (
+            <li key={c.id}>
+              <Link
+                href={`/soin/${c.id}`}
+                className="flex items-center gap-4 rounded-2xl border border-neutral-200 p-4 transition-colors hover:bg-neutral-50"
+              >
+                {c.icone ? (
+                  <span aria-hidden className="text-2xl">
+                    {c.icone}
+                  </span>
                 ) : null}
-              </div>
-              <span aria-hidden className="text-neutral-400">→</span>
-            </Link>
-          </li>
-        ))}
+                <div className="flex-1">
+                  <p className="font-medium leading-tight">{principal}</p>
+                  {chapo ? (
+                    <p className="text-xs text-neutral-500">{chapo}</p>
+                  ) : null}
+                </div>
+                <span aria-hidden className="text-neutral-400">→</span>
+              </Link>
+            </li>
+          );
+        })}
       </ul>
     </section>
   );
