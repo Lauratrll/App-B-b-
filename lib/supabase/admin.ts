@@ -1,10 +1,11 @@
 import { createClient as createSupabaseClient } from "@supabase/supabase-js";
+import type { Database } from "@/lib/database.types";
 
 // Client admin avec la service_role key — bypass RLS.
 // À utiliser UNIQUEMENT côté serveur, jamais exposer cette clé.
 // Usages : webhooks Stripe, scripts d'import de contenu.
 
-let adminClient: ReturnType<typeof createSupabaseClient> | null = null;
+let adminClient: ReturnType<typeof createSupabaseClient<Database>> | null = null;
 
 export function createAdminClient() {
   if (adminClient) return adminClient;
@@ -18,7 +19,7 @@ export function createAdminClient() {
     );
   }
 
-  adminClient = createSupabaseClient(url, serviceRoleKey, {
+  adminClient = createSupabaseClient<Database>(url, serviceRoleKey, {
     auth: {
       autoRefreshToken: false,
       persistSession: false,

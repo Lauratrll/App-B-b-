@@ -1,4 +1,6 @@
 import type { ConseilSoin } from "@/lib/content";
+import { VoiceRecorder } from "./voice-recorder";
+import { ChallengeDone } from "./challenge-done";
 
 // Type helpers pour les structures imbriquées variables
 type Point = { zone: string; geste: string; effet?: string };
@@ -150,6 +152,11 @@ export function ConseilView({ conseil }: { conseil: ConseilSoin }) {
         />
       ) : null}
 
+      {conseil.format_propose === "vocal_audio" ||
+      conseil.espace_pour_enregistrement === true ? (
+        <VoiceRecorder filename={conseil.id} />
+      ) : null}
+
       {typeof conseil.pour_la_maman === "object" && conseil.pour_la_maman ? (
         <section className="space-y-2 rounded-2xl bg-pink-50 p-5">
           <h2 className="text-xs font-semibold uppercase tracking-wide text-pink-900">
@@ -199,13 +206,14 @@ export function ConseilView({ conseil }: { conseil: ConseilSoin }) {
 
       {typeof conseil.challenge_du_mois === "object" &&
       conseil.challenge_du_mois ? (
-        <section className="space-y-2 rounded-2xl bg-amber-50 p-5">
+        <section className="space-y-3 rounded-2xl bg-amber-50 p-5">
           <h2 className="text-xs font-semibold uppercase tracking-wide text-amber-900">
             Challenge du mois — {(conseil.challenge_du_mois as Challenge).nom}
           </h2>
           <p className="text-sm leading-relaxed text-amber-950">
             {(conseil.challenge_du_mois as Challenge).deroule}
           </p>
+          <ChallengeDone id={conseil.id} />
         </section>
       ) : null}
 

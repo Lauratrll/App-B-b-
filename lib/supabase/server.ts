@@ -1,5 +1,6 @@
 import { createServerClient, type CookieOptions } from "@supabase/ssr";
 import { cookies } from "next/headers";
+import type { Database } from "@/lib/database.types";
 
 // Persistance de la session : 30 jours minimum sur les cookies écrits par
 // Supabase. Au-delà, on respecte ce que Supabase passe (refresh tokens
@@ -17,7 +18,7 @@ function extendCookieOptions(options: CookieOptions): CookieOptions {
 export function createClient() {
   const cookieStore = cookies();
 
-  return createServerClient(
+  return createServerClient<Database>(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
     {

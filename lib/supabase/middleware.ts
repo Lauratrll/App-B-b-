@@ -1,5 +1,6 @@
 import { createServerClient, type CookieOptions } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
+import type { Database } from "@/lib/database.types";
 
 // Persistance de la session : 30 jours minimum (cf. lib/supabase/server.ts)
 const MIN_COOKIE_MAX_AGE = 60 * 60 * 24 * 30;
@@ -13,7 +14,7 @@ function extendCookieOptions(options: CookieOptions): CookieOptions {
 export async function updateSession(request: NextRequest) {
   let response = NextResponse.next({ request });
 
-  const supabase = createServerClient(
+  const supabase = createServerClient<Database>(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
     {
