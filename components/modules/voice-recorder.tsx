@@ -148,8 +148,8 @@ export function VoiceRecorder({ filename }: { filename?: string }) {
   if (state === "unsupported") {
     return (
       <div className="rounded-2xl border border-neutral-200 bg-neutral-50 p-4 text-xs text-neutral-600">
-        Ton navigateur ne permet pas d'enregistrer ici. Ouvre l'app Dictaphone
-        (ou Mémo vocal) de ton téléphone pour le faire à part.
+        Ton navigateur ne permet pas d&apos;enregistrer ici. Ouvre l&apos;app
+        Dictaphone (ou Mémo vocal) de ton téléphone pour le faire à part.
       </div>
     );
   }
