@@ -78,13 +78,20 @@ export function SaisonView({ version }: { version: SaisonVersion }) {
                 <p className="font-medium leading-tight text-neutral-900">
                   {idee.titre}
                 </p>
-                {idee.ce_que_ca_apporte ? (
+                {/* Nouveau schéma : un seul champ "texte" */}
+                {idee.texte ? (
+                  <p className="text-sm leading-relaxed text-neutral-700">
+                    {idee.texte}
+                  </p>
+                ) : null}
+                {/* Fallback anciens champs */}
+                {!idee.texte && idee.ce_que_ca_apporte ? (
                   <p className="text-sm leading-relaxed text-neutral-700">
                     <span className="font-medium">Ce que ça apporte —</span>{" "}
                     {idee.ce_que_ca_apporte}
                   </p>
                 ) : null}
-                {idee.comment ? (
+                {!idee.texte && idee.comment ? (
                   <p className="text-sm italic leading-relaxed text-neutral-600">
                     <span className="font-medium not-italic">Comment —</span>{" "}
                     {idee.comment}

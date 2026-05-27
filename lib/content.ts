@@ -177,9 +177,13 @@ export type ConseilListItem = {
 export type SaisonKey = "printemps" | "ete" | "automne" | "hiver";
 
 // Une "idée du moment" du nouveau schéma saison : activité concrète
-// avec ce qu'elle apporte au bébé et comment la mettre en pratique.
+// avec un texte court qui combine pourquoi (apport) et comment (mise en
+// pratique). Les champs ce_que_ca_apporte / comment sont conservés en
+// fallback pour les premières versions du nouveau schéma.
 export type IdeeDuMoment = {
   titre: string;
+  texte?: string;
+  // Anciens champs (fallback temporaire)
   ce_que_ca_apporte?: string;
   comment?: string;
 };
