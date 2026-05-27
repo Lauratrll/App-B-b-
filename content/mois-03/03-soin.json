@@ -2,146 +2,131 @@
   "mois": 3,
   "tranche_age": "3 mois",
   "rubrique": "prendre_soin_de_moi",
-  "titre_rubrique": "Prendre soin de moi",
-  "sous_titre": "Mois 3 — Le post-partum n'est pas fini, toi non plus",
-  "description": "À 3 mois, tu as quitté la bulle des premières semaines. L'organisation immédiate retombe, l'entourage est moins présent, la fatigue s'accumule — c'est précisément le pic clinique de la dépression post-partum. Et souvent, le retour au travail approche. 6 propositions concrètes pour ne pas te perdre dans la transition.",
+  "nom_rubrique": "Prendre soin de moi",
+  "promesse_du_mois": "Te donner les moyens de tenir, sans tenir seule",
+  "theme_du_mois": "Te donner les moyens de tenir, sans tenir seule",
+  "intention_du_mois": "Trois mois après la naissance, beaucoup de mamans se rendent compte que le sommeil ne reviendra pas vite, que la fatigue n'est pas un creux mais un état, et que l'image d'une mère qui «\u00a0tient toute seule\u00a0» fait plus de mal qu'elle n'aide. Ce mois est statistiquement celui où la dépression post-partum peut s'installer en silence. Te donner les moyens de tenir, ce n'est pas serrer les dents : c'est nommer ce qui est là, demander quand il le faut, et accepter que tenir, à 3 mois, ce n'est pas tenir seule.",
+  "description": "Le mois 3 est un moment-charnière. La bulle des débuts se referme, le quotidien s'installe pour de bon, et les mois à venir vont demander de l'endurance. Ce mois t'aide à reconnaître ce que tu portes vraiment, et à mettre en place les ressources qui te permettront de durer.",
   "conseils": [
     {
-      "id": "auto_massage_reflexologie",
+      "id": "auto_massage_endurance",
       "numero": 1,
       "icone": "🤲",
-      "titre": "Auto-massage de réflexologie des mains",
-      "sous_titre": "Pour le cumul de fatigue et l'anticipation du retour pro",
-      "intro": "À 3 mois, l'épuisement n'est plus aigu — il est cumulatif. Le corps porte les nuits hachées, la charge mentale, parfois l'allaitement, et bientôt la reprise du travail. 4 points sur les mains, à activer partout : pendant une tétée, dans les transports, au bureau bientôt.",
+      "nom_outil": "Auto-massage de réflexologie",
+      "promesse": "Recharger ton énergie de fond, là où elle s'est creusée",
+      "intro": "À 3 mois, la fatigue n'est plus une fatigue, c'est un terrain. Le sommeil reste fragmenté, le corps continue à travailler en silence, le mental rumine la nuit. 4 points sur tes mains, ciblés sur la profondeur de l'épuisement (et non plus seulement la décharge aiguë). À faire allongée, ou pendant que bébé dort sur toi.",
       "duree": "5 minutes",
       "indications": [
-        "Épuisement cumulatif des 3 premiers mois",
-        "Anxiété de la reprise du travail qui approche",
-        "Tensions dorsales et cervicales liées au portage et à l'allaitement",
-        "Sommeil fragmenté ou difficulté à se rendormir après les réveils nocturnes",
-        "Charge mentale persistante (organisation, anticipation)"
+        "Fatigue cellulaire qui ne se réduit plus avec une nuit normale",
+        "Sommeil fragmenté chronique et difficulté à se rendormir",
+        "Sentiment d'épuisement profond, peur archaïque que ça ne s'arrête jamais",
+        "Ruminations nocturnes, pensées circulaires",
+        "Sensation d'être vidée, sans réserve"
       ],
       "points": [
         {
-          "zone": "Plexus solaire (centre de la paume)",
-          "geste": "Pression circulaire ferme du pouce, sens horaire, 60 secondes par main",
-          "effet": "Apaise l'anxiété, relâche la tension thoracique, régule le souffle"
+          "zone": "Reins (sous le coussinet du pouce, vers la paume)",
+          "geste": "Pression circulaire profonde mais douce, 60 secondes par main",
+          "effet": "Soutient l'énergie de fond, ravive la réserve vitale (en médecine chinoise, les reins gouvernent l'épuisement profond)"
         },
         {
-          "zone": "Hypophyse (centre du coussinet du pouce)",
-          "geste": "Pression maintenue immobile 30 secondes par pouce",
-          "effet": "Régule les hormones, particulièrement utile pendant le post-partum hormonal"
+          "zone": "Rate (côté gauche de la paume, sous l'auriculaire)",
+          "geste": "Pression circulaire douce, 45 secondes sur la main gauche uniquement",
+          "effet": "Renforce la terre intérieure, le sentiment d'être enracinée et tenue"
         },
         {
-          "zone": "Système nerveux (long du pouce, face externe)",
-          "geste": "Glissé lent de la base à la pointe, 5 fois par pouce",
-          "effet": "Calme le système nerveux central, prépare au sommeil"
+          "zone": "Glande pinéale (centre de la pulpe du pouce)",
+          "geste": "Pression ferme et stable, 30 secondes par pouce",
+          "effet": "Soutient la production de mélatonine et la qualité des micro-sommeils, même fragmentés"
         },
         {
-          "zone": "Épaules et dos haut (bord externe de la paume, sous l'auriculaire)",
-          "geste": "Pression remontant de la base à l'auriculaire, 45 secondes par main",
-          "effet": "Détend les épaules et la nuque, libère le portage accumulé"
+          "zone": "Gros intestin (bord interne du pouce, ligne descendante vers la main)",
+          "geste": "Glissé lent du pouce de la base à la pointe, 5 fois par pouce",
+          "effet": "Aide à lâcher les pensées circulaires et soutient le lien intestin-cerveau (microbiote et humeur)"
         }
       ],
-      "cloture": "Terminer en frottant les paumes l'une contre l'autre 15 sec — chaleur — puis poser les mains chaudes sur les yeux 30 sec, dans le noir."
+      "cloture": "Termine en frottant tes mains l'une contre l'autre quelques secondes, puis pose-les sur ton bas-ventre, là où les reins se reflètent. Inspire lentement. Cette zone garde la chaleur et continue à travailler pendant que tu te reposes."
     },
     {
-      "id": "meditation_audio",
+      "id": "meditation_etre_portee",
       "numero": 2,
       "icone": "🎧",
-      "titre": "Méditation audio « Revenir à mon propre corps »",
-      "sous_titre": "À écouter le soir, ou en pause dans la journée",
-      "duree": "~6 minutes",
-      "frequence_conseillee": "2 à 3 fois par semaine, ou chaque soir avant de dormir si la rumination t'empêche de t'endormir",
-      "intro": "À 3 mois, ton corps a beaucoup donné et continue de donner. Cette méditation t'aide à revenir habiter ton propre corps — pas comme contenant pour bébé, mais comme TON corps à toi.",
-      "texte_meditation": "Installe-toi confortablement. Tu peux fermer les yeux.\n\nPose une main sur ton ventre. L'autre sur ton cœur.\n\nInspire par le nez... lentement... retiens un instant... expire par la bouche, longuement. Encore deux fois.\n\n[Pause - 10 secondes]\n\nTon corps a beaucoup vécu ces trois derniers mois.\n\nIl a accouché. Il a peut-être saigné, ou cicatrisé, ou les deux. Il a nourri, peut-être avec du lait, peut-être avec des bras qui portent. Il a veillé. Il s'est rarement reposé complètement.\n\nCe corps-là, c'est ton corps. Pas celui d'avant. Pas celui à reconquérir. Celui que tu as maintenant, ici, ce soir.\n\n[Pause - 10 secondes]\n\nJe t'invite à le sentir, doucement.\n\nTes pieds, posés. Tes jambes. Tes hanches qui se sont peut-être élargies.\n\nTon ventre — qui ne sera plus jamais exactement comme avant, et c'est ok.\n\nTa poitrine. Ton cou. Ta nuque.\n\nTes épaules — qui portent beaucoup, en ce moment.\n\n[Pause - 10 secondes]\n\nCe corps a fait quelque chose d'immense. Il continue à faire quelque chose d'immense.\n\nIl mérite ta tendresse. Pas un jugement.\n\nPas \"il faudrait que je perde du poids\". Pas \"il faudrait que je sois moins fatiguée\".\n\nJuste : merci.\n\n[Pause - 10 secondes]\n\nMerci d'avoir tenu. Merci de tenir encore.\n\nCette nuit, tu peux te reposer.\n\nTu n'as plus rien à faire maintenant.\n\nJuste à être dans ton corps. Le tien.\n\nDouce nuit."
+      "nom_outil": "Méditation audio",
+      "promesse": "Sentir que tu n'es pas seule à porter ce que tu portes",
+      "duree": "~8 minutes",
+      "intro": "Cette méditation propose une visualisation symbolique : tu vas sentir, dans ton corps, qu'il y a des mains invisibles qui te soutiennent par-dessous. Ces mains, c'est tout ce qui t'a portée jusque-là et qui continue, même quand tu l'oublies. À écouter dans un moment calme, allongée si possible.",
+      "instruction": "Installe-toi allongée si tu peux, ou bien calée dans un fauteuil. Pose une main sur ton ventre, l'autre où elle veut. La méditation se fait en silence intérieur, à la première personne : c'est ta propre voix qui se parle à toi-même.",
+      "texte_meditation": "Je m'installe. Je respire par le nez, lentement. Inspiration. Expiration plus longue. Encore deux fois.\n\n[pause - 10 secondes]\n\nDepuis trois mois, je porte beaucoup. Mon corps porte, mon esprit porte, mes mains portent, mon attention porte. Parfois, j'ai l'impression que si je m'arrête une seconde, tout tombe.\n\n[pause - 10 secondes]\n\nJe vais imaginer quelque chose.\n\nJ'imagine que sous moi, juste sous le matelas, juste sous le sol, il y a des mains. Des mains invisibles, des dizaines de mains, peut-être des centaines. Ces mains me portent par-dessous.\n\n[pause - 15 secondes]\n\nCertaines de ces mains, je les reconnais. Ce sont les mains de personnes qui m'ont aimée. Ma mère, peut-être. Une grand-mère. Une amie d'enfance. Une sage-femme rencontrée à l'accouchement. Une voisine. Mon ou ma partenaire.\n\nD'autres mains, je ne les connais pas. Ce sont les mains de toutes les mères qui ont porté ce que je porte aujourd'hui, dans toutes les générations avant moi. Des mains anonymes, mais réelles.\n\n[pause - 15 secondes]\n\nCes mains ne demandent rien. Elles ne me jugent pas. Elles me portent simplement, parce que c'est ce qu'elles font.\n\nJe sens leur présence sous mon corps. La chaleur, peut-être. Un léger soulagement, peut-être.\n\nJe ne tiens pas seule. Je n'ai jamais tenu seule.\n\n[pause - 15 secondes]\n\nL'idée que je dois tout tenir toute seule, c'est une histoire que j'ai entendue trop souvent. Une histoire qu'on raconte aux mères. Mais ce n'est pas vrai.\n\nMême quand je suis seule à 4 heures du matin avec bébé qui pleure, je ne suis pas vraiment seule. Quelque chose continue à me porter. Mon histoire. Le savoir-faire de mon corps. Les mains qui sont venues avant les miennes.\n\n[pause - 10 secondes]\n\nJe peux me reposer un peu sur ces mains. Juste pour le temps de cette méditation. Juste pour cette respiration, là.\n\n[pause - 10 secondes]\n\nJe respire. Et avec chaque expiration, je laisse aller un peu de poids dans ces mains invisibles. Pas tout. Juste ce que je peux lâcher maintenant.\n\n[pause - 10 secondes]\n\nQuand je rouvre les yeux, je sais que les mains restent là. Elles ne disparaissent pas quand la méditation finit. Elles sont sous moi en permanence, je peux juste arrêter de l'oublier.\n\nJe suis portée. Je continue, oui. Mais je suis portée."
     },
     {
-      "id": "celebrer_les_victoires",
+      "id": "auto_reconnaissance_lettre_honnete",
       "numero": 3,
-      "icone": "✨",
-      "titre": "Célébrer les victoires invisibles du mois 3",
-      "sous_titre": "Pour réécrire ta mémoire des 3 derniers mois",
-      "frequence_conseillee": "Une fois par semaine, le dimanche soir ou en début de semaine — 5 min",
-      "intro": "Au mois 3, beaucoup de parents regardent en arrière et ne voient que les difficultés : les nuits, les pleurs, les doutes. Le cerveau, par biais de négativité, retient davantage ce qui n'a pas marché. Contre-balancer activement permet de réécrire la mémoire — et ça change la perception du présent.",
-      "comment_faire": "Une fois par semaine, ouvre un carnet ou les notes du téléphone. Note 3 choses qui ont marché cette semaine — surtout celles que personne ne verra. Pas les grandes étapes (sourire, premier rire). Les petites tenues.",
-      "exemples": [
-        "J'ai tenu calme alors que bébé pleurait depuis 40 min",
-        "J'ai dit non à une visite qui m'aurait épuisée — sans culpabiliser",
-        "J'ai fait une vraie pause de 15 min pour moi cette semaine",
-        "J'ai mangé chaud et assis(e) au moins 3 fois",
-        "J'ai osé demander de l'aide à quelqu'un",
-        "J'ai posé bébé en sécurité et je suis sortie 5 min quand je sentais que ça débordait — c'est une compétence, pas un échec"
-      ]
-    },
-    {
-      "id": "auto_reconnaissance",
-      "numero": 4,
-      "icone": "💗",
-      "titre": "Auto-reconnaissance — la lettre au soi d'avant",
-      "sous_titre": "Écrire une lettre à toi-même, à ton soi d'avant la naissance",
-      "intro": "Au mois 3, beaucoup de parents ressentent un écart entre qui ils étaient avant et qui ils sont devenus. Cet exercice propose un format inhabituel : écrire une lettre à ton soi d'avant la naissance — pour lui raconter ce que tu es devenu(e), ce que tu sais maintenant, ce que tu reconnais en toi.",
-      "format_propose": "lettre_a_soi",
-      "consigne": "Prends 10 minutes au calme. Adresse une lettre à ton soi d'il y a 4 mois — juste avant la naissance. Raconte-lui qui tu es devenu(e) en 3 mois. Surtout ce qu'il/elle n'aurait pas imaginé. Pas pour bébé — pour toi. Tu peux commencer par : \"Chère/cher moi d'avant...\"",
+      "icone": "✉️",
+      "nom_outil": "Auto-reconnaissance",
+      "promesse": "Écrire la lettre que tu ne te permets pas d'envoyer",
+      "intro": "À 3 mois, beaucoup de mamans gardent pour elles ce qu'elles vivent vraiment, par pudeur, par peur d'inquiéter, ou parce qu'on leur a appris à «\u00a0ne pas se plaindre\u00a0». Ce conseil te propose d'écrire la lettre que tu pourrais envoyer à une personne de confiance pour lui dire honnêtement où tu en es. Tu choisis ensuite si tu l'envoies, ou pas. L'acte d'écrire suffit.",
+      "format_propose": "lettre_honnete_proche",
+      "consigne": "Choisis dans ta tête une personne en qui tu as vraiment confiance : ta mère, ta sœur, une amie de longue date, une sage-femme rencontrée, ton ou ta partenaire si la communication est ouverte. Prends 20 à 30 minutes au calme. Écris-lui une lettre, sur papier ou sur le téléphone, qui commence par «\u00a0Je vais te dire honnêtement où j'en suis ce mois-ci\u00a0». Décris-lui ce que tu ressens vraiment, sans filtre ni pudeur. Comment se passent tes nuits, ton mental, ton corps, ton couple. Ce qui te porte, ce qui te pèse. Tu n'es pas obligée d'envoyer cette lettre. Si tu l'envoies, ce sera ton choix. L'essentiel, c'est de l'avoir écrite.",
       "amorces_si_blocage": [
-        "Chère/cher moi d'avant, tu ne sais pas encore que tu es capable de...",
-        "Tu pensais que tu serais... mais tu es...",
-        "Une chose que je n'aurais jamais cru sur moi : ...",
-        "Ce que j'ai découvert en moi pendant ces 3 mois : ...",
-        "Si je pouvais te dire une chose, ce serait : ..."
+        "Ce que je ne dis pas quand on me demande comment ça va : ...",
+        "La nuit dernière, voici ce qui s'est vraiment passé : ...",
+        "Une chose dont j'aurais besoin et que je n'ose pas demander : ...",
+        "Si tu pouvais venir 24 heures m'aider, voici ce que je te demanderais : ...",
+        "Ce qui m'effraie en ce moment et que je n'ose pas nommer : ..."
       ],
       "espace_pour_ecrire": true,
-      "principe": "Cette lettre t'appartient. Tu peux la garder, la relire dans 6 mois, ou la déchirer après l'avoir écrite. L'acte d'écrire compte plus que le résultat. Écrire à son soi passé crée une distance qui permet de te reconnaître autrement — et installe durablement l'estime de soi."
+      "principe": "L'acte d'écrire la vérité à quelqu'un de précis, même sans l'envoyer, change quelque chose. Le mental qui ressasse trouve enfin une forme. Et si tu décides d'envoyer la lettre, tu offres à cette personne une vraie chance de t'aider, pas juste un «\u00a0ça va\u00a0» qui la tient à distance. Cette lettre est confidentielle, elle t'appartient totalement."
     },
     {
-      "id": "realite_post_partum",
-      "numero": 5,
+      "id": "realite_post_partum_M3",
+      "numero": 4,
       "icone": "💬",
-      "titre": "La réalité du post-partum à 3 mois — maman et papa",
-      "sous_titre": "Le pic clinique de la dépression post-partum, et le silence autour",
-      "intro": "Le mois 3 est un cap statistiquement difficile. L'entourage est passé à autre chose, les visites se sont espacées, et l'organisation immédiate retombe — sans pour autant que la fatigue diminue. C'est précisément à ce moment que la dépression post-partum atteint son pic clinique. Et souvent, la reprise du travail approche, ajoutant une couche d'anxiété rarement nommée.",
+      "nom_outil": "La réalité du post-partum",
+      "promesse": "Le pic de la dépression post-partum, et pourquoi il faut savoir le reconnaître",
+      "intro": "Statistiquement, le 3e mois post-partum est le moment où la dépression post-partum (DPP) s'installe le plus souvent. Ce n'est pas une faiblesse, c'est une réalité physiologique et psychique documentée. La reconnaître tôt change tout. Voici ce qu'il faut savoir, côté maman et côté co-parent.",
       "pour_la_maman": {
         "titre": "Côté maman",
-        "contenu": "À 3 mois, ton corps continue son travail invisible. Les hormones ne sont pas revenues à leur état d'avant (et ne reviendront pas avant 6-12 mois). La libido peut être inexistante — c'est physiologique, pas un manque d'amour. Les cheveux qui tombent par poignées (chute hormonale post-partum) commencent souvent maintenant. La cicatrice de césarienne ou du périnée peut encore tirailler.\n\nÉmotionnellement, le pic clinique de la dépression post-partum se situe entre 2 et 3 mois. Si tu ressens une tristesse persistante, une absence de plaisir, un détachement de ton bébé, ou des pensées noires : ce n'est pas un défaut d'amour. C'est une maladie traitable. Plus tôt elle est prise en charge, plus la récupération est rapide."
+        "contenu": "La DPP touche 15 à 20% des mères pendant la première année. Le pic statistique se situe autour du 3e mois post-partum. Ce n'est ni rare, ni honteux, ni un échec : c'est un trouble médical à part entière, qui se traite très bien quand il est repéré.\n\nLa DPP n'est pas un baby blues prolongé. Le baby blues, c'est cette tristesse hormonale physiologique des 15 premiers jours, qui passe seule. La DPP, c'est autre chose : une tristesse persistante au-delà de 2 semaines, qui ne s'améliore pas, qui colore tout. Une perte de plaisir, même pour les choses qu'on aimait. Un sentiment d'incompétence massive («\u00a0je ne suis pas une bonne mère\u00a0»). Une anxiété qui ne se calme pas. Une fatigue qui dépasse celle des nuits hachées. Parfois, des pensées intrusives qui font peur.\n\nLa DPP n'arrive pas qu'aux mères «\u00a0fragiles\u00a0». Elle touche autant les femmes solides, structurées, qui ont une vie stable. C'est un phénomène neurobiologique complexe : chute hormonale, privation chronique de sommeil, charge mentale, transformation identitaire. Le cerveau de la jeune mère a été reconfiguré, et parfois cette reconfiguration dérape.\n\nCe qui aide concrètement : en parler à quelqu'un de qualifié (sage-femme, médecin, psychologue spécialisé en périnatalité). Pas «\u00a0attendre que ça passe\u00a0». Une DPP non traitée peut durer des mois, voire des années, et affecter le lien avec bébé. Une DPP traitée se résout en quelques semaines à quelques mois. Le traitement est varié (suivi psychologique, parfois médication compatible avec l'allaitement, soutien social structuré) et fonctionne. Tu as le droit de demander de l'aide, et tu as les ressources pour le faire."
       },
       "pour_le_papa_co_parent": {
         "titre": "Côté papa / co-parent",
-        "contenu": "Le post-partum du co-parent est massivement sous-diagnostiqué. À 3 mois, plusieurs réalités souvent tues : sentiment d'être à l'écart du duo mère-bébé, retour au travail déjà fait sans temps de récupération, fatigue cumulée non reconnue, peur de ne pas savoir s'y prendre. La dépression du co-parent touche 8 à 10% des pères pendant la première année — et beaucoup ne consultent jamais.\n\nSi tu te reconnais dans ces ressentis, parle-en. À ton/ta partenaire si possible, sinon à un médecin. La dépression post-partum paternelle a les mêmes critères et les mêmes traitements que celle maternelle."
+        "contenu": "Si tu es co-parent et que tu lis ça, tu es probablement le premier témoin du quotidien de ta partenaire. Tu vois ce que les amis et la famille ne voient pas : les nuits, les matins difficiles, les phrases qui reviennent en boucle. C'est précieux, et c'est lourd.\n\nLes signes que tu peux observer chez ta partenaire et qui méritent d'être nommés : tristesse persistante depuis plus de 2 semaines, retrait, perte d'intérêt pour ce qu'elle aimait avant, sentiment exprimé d'être un mauvais parent, ruminations sur bébé qui ne se calment pas, phrases comme «\u00a0bébé serait mieux sans moi\u00a0», sommeil impossible même quand l'occasion se présente, anxiété massive.\n\nComment aider sans en faire trop : nommer ce que tu observes («\u00a0je vois que tu n'arrives pas à dormir même quand bébé dort\u00a0»), proposer d'appeler ensemble la sage-femme ou le médecin (pas seule, ensemble), prendre les nuits ou les rendez-vous pour libérer du temps, et surtout ne pas dire «\u00a0ça va passer\u00a0» quand quelque chose ne passe manifestement pas.\n\nN'oublie pas que toi aussi tu peux développer une dépression post-partum (8 à 10% des co-parents). Tes signes à toi : irritabilité, repli sur le travail, sentiment d'inutilité à la maison, perte de plaisir. Si tu te reconnais, parle-en aussi pour toi."
       },
       "signaux_a_ne_pas_negliger": [
-        "Tristesse persistante depuis plus de 2 semaines",
-        "Anhédonie : plus rien ne fait plaisir, même les bons moments avec bébé",
-        "Irritabilité chronique disproportionnée, accès de colère",
-        "Difficulté à dormir même quand bébé dort",
-        "Sentiment d'incompétence parentale, comparaisons obsessionnelles",
-        "Pensées intrusives, parfois violentes (faire du mal à bébé ou à soi)",
-        "Sentiment que bébé serait mieux sans toi"
+        "Tristesse persistante depuis plus de 2 semaines, sans amélioration sur plusieurs jours",
+        "Perte de plaisir pour les choses qu'on aimait avant (musique, films, amis, repas)",
+        "Phrases comme «\u00a0bébé serait mieux sans moi\u00a0» ou «\u00a0je ne suis pas une bonne mère\u00a0»",
+        "Insomnie même quand bébé dort enfin (rumination nocturne)",
+        "Anxiété massive, vérifications répétées de bébé toutes les nuits",
+        "Sentiment d'être déconnectée de bébé, de ne plus le reconnaître",
+        "Pensées intrusives de faire du mal à bébé ou à soi (très fréquent, ne pas avoir honte de les nommer)",
+        "Incapacité à se sentir soulagée même quand quelqu'un prend le relais"
       ],
-      "urgence": "Si pensées d'auto-agression, de fuite, ou de faire du mal à bébé : 3114 (gratuit, 24h/24, anonyme, professionnels formés à la périnatalité). En cas de danger immédiat : 15.",
+      "urgence": "Si pensées d'auto-agression, de faire du mal à bébé, ou de fuite : appelle le 3114 (gratuit, 24h/24, anonyme, professionnels formés à la périnatalité). Ces pensées sont un signal médical fréquent et traitable, pas un défaut moral. En cas de danger immédiat, le 15.",
       "qui_consulter": [
-        "Médecin traitant : premier interlocuteur, peut prescrire et orienter",
-        "Sage-femme libérale : consultation possible jusqu'à 1 an après naissance, spécialiste du post-partum",
-        "PMI (Protection Maternelle Infantile) : consultations gratuites, visite à domicile possible",
-        "MonParcoursPsy : 8 séances de psychologue remboursées par an par l'Assurance Maladie, sans avance",
-        "Allo Parents Bébé : 0 800 00 34 56 (gratuit, anonyme, lundi-vendredi)",
-        "Maman Blues : association nationale de soutien à la dépression post-partum (mamanblues.fr)"
+        "Sage-femme libérale : consultation possible jusqu'à 1 an après naissance, peut faire le premier dépistage de DPP et orienter",
+        "Médecin traitant : pour évaluation et orientation vers un psychiatre périnatal si besoin, peut prescrire un traitement compatible avec l'allaitement",
+        "Psychologue ou psychiatre spécialisé en périnatalité : pour une prise en charge spécifique, accessible avec orientation médicale",
+        "MonParcoursPsy : un dispositif public qui permet d'accéder à des séances de psychologue avec une prise en charge, sur orientation médicale. Renseigne-toi auprès de ton médecin pour les modalités actuelles",
+        "Maman Blues : association nationale de soutien à la dépression post-partum (mamanblues.fr), groupes de parole en ligne, témoignages",
+        "Allo Parents Bébé : 0 800 00 34 56 (gratuit, anonyme, écoute spécialisée périnatale)"
       ]
     },
     {
-      "id": "challenge_couple",
-      "numero": 6,
+      "id": "challenge_couple_phrase_secrete",
+      "numero": 5,
       "icone": "💑",
-      "titre": "Challenge couple — « 10 minutes sans bébé, sans téléphone »",
-      "sous_titre": "Reconstruire un espace à deux, même bref",
-      "duree": "10 minutes",
-      "frequence_conseillee": "Une fois par semaine — le même soir, pour ancrer un rendez-vous",
-      "intro": "À 3 mois, le couple a souvent traversé une zone silencieuse : peu de temps, peu d'énergie, peu d'envie. 80% des couples décrivent une baisse de qualité relationnelle pendant les 18 premiers mois. Ce challenge ne demande ni énergie ni romantisme — juste un cadre.",
+      "nom_outil": "Challenge couple",
+      "promesse": "Inventez une phrase secrète qui veut dire \"prends le relais maintenant\"",
+      "duree": "5 minutes",
+      "intro": "À 3 mois, les couples fatigués ont souvent le même schéma : l'un est au bord du gouffre mais ne sait pas comment le dire (\"je ne veux pas accabler l'autre\"), l'autre voudrait aider mais ne sait pas quand intervenir (\"je ne veux pas être intrusif\"). Une phrase secrète, convenue à l'avance, court-circuite cette danse.",
       "challenge_du_mois": {
-        "nom": "10 minutes sans bébé, sans téléphone",
-        "deroule": "Une fois par semaine, dès que bébé est endormi (pas après — vous serez trop fatigué.e.s), vous vous asseyez face à face, téléphones dans une autre pièce. Pendant 10 min : pas de logistique (qui fait quoi demain, courses, RDV…), pas de bébé comme sujet, pas de scrolling. Juste : qu'est-ce qui te traverse en ce moment, toi, dans ta vie ?",
-        "regle_clef": "Si une parole touche, l'autre n'a pas à \"réparer\" ni à conseiller. Juste écouter, accueillir."
+        "nom": "La phrase secrète",
+        "registre": 1,
+        "deroule": "Un soir dans la semaine, prenez 5 minutes ensemble pour choisir une phrase. Une phrase qui veut dire, sans en avoir l'air : \"prends le relais maintenant, je ne tiens plus\". Choisissez quelque chose d'absurde, de décalé, qui vous fait sourire et qui ne ressemble pas à une phrase de la vie courante. Par exemple : \"j'ai vu un renard hier\", ou \"il fait beau à Lisbonne\", ou \"je crois que j'ai oublié les lentilles\". Une fois la phrase choisie, vous avez chacun le droit de la prononcer à n'importe quel moment, sans avoir à expliquer pourquoi. Celui qui l'entend prend le bébé, prend la situation, et ne demande pas d'explication.",
+        "regle_clef": "Pas de débat sur \"est-ce que c'est vraiment justifié\". Si la phrase est prononcée, l'autre prend le relais. Point. L'explication, si elle vient, viendra après, quand chacun aura repris souffle."
       },
-      "pourquoi_ca_marche": "Le couple parental disparaît quand toutes les conversations tournent autour de l'organisation. 10 min par semaine où vous redevenez deux personnes (pas deux parents) suffisent à maintenir un fil. Le rituel hebdomadaire compte plus que la profondeur des conversations — c'est la régularité qui reconstruit."
+      "pourquoi_ca_marche": "Demander de l'aide directement est un acte vulnérable qui demande de l'énergie, et l'énergie est précisément ce qui manque quand on est au bord. La phrase secrète déplace l'enjeu : ce n'est plus \"je n'y arrive plus\" (vulnérable) mais \"j'ai vu un renard hier\" (codé, partagé, presque jeu). Le couple crée son propre langage de secours. Et l'effet bonus : prononcer la phrase fait souvent sourire, ce qui détend déjà un peu la situation avant même le relais."
     }
   ]
 }

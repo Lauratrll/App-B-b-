@@ -214,38 +214,60 @@ Le parent vit ainsi un seul sujet à la fois, en profondeur, et l'app entière l
 
 **Règle d'unicité :** chaque thème n'est utilisé qu'une seule fois sur les 24 mois. La table figure également dans `CONTENT_INDEX.md` comme table d'unicité.
 
-### Hiérarchie visuelle (UI)
+### Hiérarchie visuelle (UI) et structure des champs
 
-La rubrique « Prendre soin de moi » a une **double mise en scène du thème**, pour que la maman comprenne la stratégie du mois dès l'ouverture, puis la retrouve à chaque sous-catégorie.
+La rubrique « Prendre soin de moi » a une **double mise en scène du thème** : la maman comprend la stratégie du mois dès l'entrée dans la rubrique, puis la retrouve à chaque sous-catégorie. Cette double mise en scène est portée par **deux champs sémantiques distincts** dans le JSON :
 
-#### Niveau 1 : Écran d'entrée de la rubrique
+- **`nom_outil`** = nom canonique du type de conseil (ex. *« Auto-massage de réflexologie »*)
+- **`promesse`** = phrase qui incarne le travail du mois sur ce support (ex. *« Décharger la tension de tout porter, à mains nues »*)
 
-Quand la maman ouvre la rubrique « Prendre soin de moi », elle voit :
+L'UI choisit lequel afficher en grand selon l'écran. Pas d'inversion logique à gérer, juste deux champs explicites.
 
-- **En grand, en titre principal de l'écran** : le `theme_du_mois` (ex. *« Habiter ton corps qui vient d'accomplir l'immense »*). Visuellement marquant, sur la première hauteur d'écran.
-- **Juste en dessous, en corps de texte** : l'`intention_du_mois` (2-3 phrases qui expliquent ce que la maman va travailler ce mois-ci).
-- **Plus bas** : la liste des 5 conseils sous forme de cartes cliquables.
-- **Le `titre_rubrique`** (« Prendre soin de moi ») peut rester dans le header de navigation, mais n'est pas le titre principal de l'écran.
+#### Logique d'affichage selon l'écran
 
-**Pourquoi cette mise en scène :** la maman doit comprendre **avant tout** la stratégie psycho-émotionnelle du mois. Le thème n'est pas une étiquette, c'est la **promesse du mois**. Tout le reste (les outils) en découle.
+| Écran | En grand (titre principal) | En petit (sous-titre / étiquette) |
+|-------|----------------------------|-----------------------------------|
+| **En-tête de la rubrique** (page d'accueil « Prendre soin de moi ») | `promesse_du_mois` (= phrase du thème) | `nom_rubrique` (= « Prendre soin de moi ») |
+| **Liste des conseils** (cartes sur la page d'accueil de la rubrique) | `nom_outil` de chaque conseil | `promesse` de chaque conseil (en chapô court) |
+| **Détail d'un conseil** (quand on a cliqué) | `promesse` du conseil | `nom_outil` du conseil |
 
-#### Niveau 2 : Écran d'une sous-catégorie (un conseil)
+**Pourquoi cette double mise en scène :**
+- Sur la page d'accueil, la maman doit pouvoir **repérer rapidement les outils** qu'elle veut utiliser (massage, méditation, etc.). Le nom de l'outil reste l'élément le plus reconnaissable visuellement.
+- En entrant dans un conseil, la maman doit **se reconnecter au thème** du mois. C'est la promesse qui devient titre, l'outil ne fait que la servir.
+- En haut de la rubrique, c'est la **promesse du mois** qui est mise en avant (et non « Prendre soin de moi »), pour que la maman comprenne immédiatement la stratégie psycho-émotionnelle du mois.
 
-Quand la maman clique sur un conseil (auto-massage, méditation, auto-reconnaissance, post-partum, challenge couple), l'app **inverse la hiérarchie habituelle** entre `titre` et `sous_titre` :
+#### Convention de nommage des champs
 
-- **En grand, titre principal de l'écran** : le **`sous_titre` du conseil** (ex. *« Décharger l'aigu du post-partum, en 5 minutes, sans bouger »*). C'est la phrase qui incarne le travail du mois sur ce support précis.
-- **Juste en dessous, en petit, en étiquette grise discrète** : le **`titre` du conseil** (ex. *« Auto-massage de réflexologie »*). C'est l'étiquette qui nomme l'outil, comme un type d'objet ou de pratique.
+Au niveau **racine** du fichier :
 
-Cette inversion met en avant **ce que la maman va vivre** plutôt que **ce qu'elle va utiliser**. L'outil sert le thème, pas l'inverse.
+| Champ | Valeur | Rôle |
+|-------|--------|------|
+| **`nom_rubrique`** | « Prendre soin de moi » | Nom canonique de la rubrique, affiché en petit en en-tête |
+| **`promesse_du_mois`** | Phrase du thème (ex. *« Oser demander, comme une compétence parentale »*) | Promesse affichée en grand en en-tête |
+| **`theme_du_mois`** | Même valeur que `promesse_du_mois` | Redondance volontaire pour les traitements analytiques et tables d'unicité |
+| **`intention_du_mois`** | 2-3 phrases | Chapô qui pose le travail intérieur visé |
+
+Au niveau de **chaque conseil** :
+
+| Champ | Valeur | Rôle |
+|-------|--------|------|
+| **`nom_outil`** | Étiquette standardisée (« Auto-massage de réflexologie », « Méditation audio », « Auto-reconnaissance », « La réalité du post-partum », « Challenge couple ») | Affiché en grand sur la page liste, en petit sur la page détail |
+| **`promesse`** | Phrase qui incarne le travail du mois sur ce support | Affichée en petit (chapô) sur la page liste, en grand sur la page détail |
 
 #### Implications pour la rédaction
 
-- Le **`theme_du_mois`** doit être travaillé comme un **titre de couverture de magazine** : court, incarné, à l'action ou au positif. Verbes d'action de préférence, ton qui donne envie d'ouvrir.
-- L'**`intention_du_mois`** doit être travaillé comme un **chapô** : 2-3 phrases qui posent ce qui se joue et ce que la maman va y trouver.
-- Le **`sous_titre` de chaque conseil** doit être travaillé comme un **titre d'article** : suffisamment riche pour porter seul une promesse claire, et suffisamment lié au thème pour qu'on sente le fil rouge.
-- Le **`titre` de chaque conseil** reste **standardisé** (Auto-massage de réflexologie, Méditation audio, Auto-reconnaissance, La réalité du post-partum, Challenge couple) — c'est un type d'objet, pas un titre éditorial.
+- Le **`promesse_du_mois`** (et son miroir `theme_du_mois`) doivent être travaillés comme un **titre de couverture de magazine** : court, incarné, à l'action ou au positif. Verbes d'action de préférence, ton qui donne envie d'ouvrir.
+- L'**`intention_du_mois`** doit être travaillée comme un **chapô** : 2-3 phrases qui posent ce qui se joue et ce que la maman va y trouver.
+- La **`promesse` de chaque conseil** doit être travaillée comme un **titre d'article** : suffisamment riche pour porter seule une promesse claire, et suffisamment liée au thème pour qu'on sente le fil rouge. Lisible et accrocheuse aussi bien en petit (chapô sur la page liste) qu'en grand (titre principal sur la page détail).
+- Le **`nom_outil`** reste **strictement standardisé** d'un mois à l'autre. Il y a exactement 5 valeurs possibles, jamais d'autres. C'est le repère visuel stable de la rubrique.
 
-#### Règles d'écriture pour le `theme_du_mois`
+#### Exception pour le challenge couple : impératif pluriel « -ez » autorisé
+
+Le challenge couple est le **seul conseil qui s'adresse au couple** (les autres s'adressent à la maman seule). Pour cette raison, sa `promesse` peut adopter un ton d'**invitation directe à l'impératif pluriel** : *« Tirez une carte : demandez sans honte »*, *« Dessinez vos 3 prochains mois ensemble »*, *« Posez une main, en silence, 1 minute »*.
+
+Cette tournure n'est **pas obligatoire**. Selon l'effet recherché, la `promesse` peut aussi prendre une forme nominale ou évocatrice (*« Le dessin partagé : imaginer les 3 prochains mois »*). Le rédacteur choisit au cas par cas.
+
+#### Règles d'écriture pour le `promesse_du_mois`
 
 - **Mode action ou positif** : commencer par un verbe d'action (« Habiter », « Oser », « Accueillir », « Choisir ») ou évoquer un état positif vers lequel on va.
 - **Pas de formulation centrée sur le problème** : éviter « Sortir de… », « Tenir dans… », « Lutter contre… » sauf quand l'action est elle-même un mouvement positif (« Lâcher prise »).
@@ -260,17 +282,18 @@ Cette inversion met en avant **ce que la maman va vivre** plutôt que **ce qu'el
   "mois": 0,
   "tranche_age": "...",
   "rubrique": "prendre_soin_de_moi",
-  "titre_rubrique": "Prendre soin de moi",
-  "theme_du_mois": "Habiter son corps après l'accouchement",
-  "intention_du_mois": "...",  // 2-3 phrases qui explicitent le travail intérieur visé
+  "nom_rubrique": "Prendre soin de moi",     // nom canonique — affiché en petit en en-tête
+  "promesse_du_mois": "...",                 // phrase du thème — affichée en grand en en-tête
+  "theme_du_mois": "...",                    // même valeur que promesse_du_mois (redondance pour traitements analytiques)
+  "intention_du_mois": "...",                // 2-3 phrases qui explicitent le travail intérieur visé
   "description": "...",
   "conseils": [
     {
       "id": "auto_massage_reflexologie",
       "numero": 1,
       "icone": "🤲",
-      "titre": "Auto-massage de réflexologie",
-      "sous_titre": "...",  // sert de titre principal visuel — formuler comme une promesse
+      "nom_outil": "Auto-massage de réflexologie",  // étiquette standardisée — affichée en grand sur la liste, en petit sur le détail
+      "promesse": "...",                            // phrase qui incarne le travail du mois — affichée en petit sur la liste, en grand sur le détail
       "intro": "...",
       ...
     },
@@ -280,10 +303,13 @@ Cette inversion met en avant **ce que la maman va vivre** plutôt que **ce qu'el
 ```
 
 **Notes structurelles :**
-- **Pas de `sous_titre`** au niveau racine du fichier (le `theme_du_mois` joue ce rôle).
-- **`sous_titre` au niveau des conseils est réintroduit** car il sert de titre principal visuel (inversion UI). Il doit incarner le thème du mois.
+- **Le `nom_rubrique` vaut toujours « Prendre soin de moi »** (le nom canonique de la rubrique).
+- **Le `promesse_du_mois` porte la phrase du thème** (ex. *« Oser demander, comme une compétence parentale »*).
+- **Le `theme_du_mois` reprend la même valeur que `promesse_du_mois`** (redondance volontaire pour les traitements analytiques et tables d'unicité).
+- **Le `nom_outil` reste strictement standardisé** d'un mois à l'autre : il y a exactement 5 valeurs possibles (Auto-massage de réflexologie, Méditation audio, Auto-reconnaissance, La réalité du post-partum, Challenge couple).
+- **La `promesse` d'un conseil porte la phrase qui incarne le travail du mois** sur ce support. Elle doit être travaillée comme un titre d'article : suffisamment riche pour porter seule, suffisamment liée au thème pour qu'on sente le fil rouge.
 - **Pas de `frequence_conseillee` nulle part** — la cadence imposée induit une charge mentale supplémentaire pour le parent. **Exception unique : l'auto-massage** peut conserver des durées précises par geste (60 sec sur ce point, 30 sec sur l'autre), parce que c'est une mécanique de pratique, pas une cadence dans la semaine.
-- **`theme_du_mois`** et **`intention_du_mois`** sont les deux clés structurantes qui orientent tout le contenu du mois.
+- **`promesse_du_mois`** et **`intention_du_mois`** sont les deux clés structurantes qui orientent tout le contenu du mois.
 
 ### Les 5 conseils — structure stable, contenu aligné sur le thème
 
@@ -313,8 +339,8 @@ L'ordre est stable mois par mois. Chaque conseil incarne le thème à sa manièr
   "id": "auto_massage_reflexologie",
   "numero": 1,
   "icone": "🤲",
-  "titre": "Auto-massage de réflexologie",
-  "sous_titre": "...",       // titre principal visuel — incarne le thème
+  "nom_outil": "Auto-massage de réflexologie",  // étiquette standardisée
+  "promesse": "...",                            // phrase qui incarne le geste sur le thème du mois
   "intro": "...",            // 3-4 phrases qui relient le geste au thème du mois
   "duree": "5 minutes",
   "indications": ["...", "..."],   // 4-5 ressentis ciblés par les points choisis
@@ -411,8 +437,8 @@ Pas de tiret cadratin (« — ») au milieu des phrases (voir SKILL_contenu.md).
   "id": "meditation_audio",
   "numero": 2,
   "icone": "🎧",
-  "titre": "Méditation audio",
-  "sous_titre": "...",           // titre principal visuel — promesse du voyage intérieur
+  "nom_outil": "Méditation audio",  // étiquette standardisée
+  "promesse": "...",                // phrase qui incarne le voyage intérieur sur le thème
   "duree": "~7 minutes",
   "intro": "...",                // 2-3 phrases pour situer le contexte d'écoute
   "instruction": "...",          // (optionnel) consigne pratique avant le « je » : posture, écouteurs, position de bébé
@@ -451,8 +477,8 @@ Pas de tiret cadratin (« — ») au milieu des phrases (voir SKILL_contenu.md).
   "id": "auto_reconnaissance",
   "numero": 3,
   "icone": "💗",    // ou autre, selon le format
-  "titre": "Auto-reconnaissance",
-  "sous_titre": "...",          // titre principal visuel — incarne le format et le thème
+  "nom_outil": "Auto-reconnaissance",  // étiquette standardisée
+  "promesse": "...",                   // phrase qui incarne le format et le thème
   "intro": "...",
   "format_propose": "...",      // identifiant du format : "vocal_audio", "lettre_a_soi", "recit_naissance", etc.
   "consigne": "...",            // explication concrète de comment faire
@@ -488,8 +514,8 @@ Le post-partum est un sujet à part : il garde sa propre densité, ses propres r
   "id": "realite_post_partum",
   "numero": 4,
   "icone": "💬",
-  "titre": "La réalité du post-partum",
-  "sous_titre": "...",                  // titre principal visuel — sujet spécifique du mois
+  "nom_outil": "La réalité du post-partum",  // étiquette standardisée
+  "promesse": "...",                          // sujet spécifique du post-partum traité ce mois-ci
   "intro": "...",                       // 2-3 phrases qui posent le sujet du mois
   "pour_la_maman": {
     "titre": "Côté maman",
@@ -512,28 +538,94 @@ Le post-partum est un sujet à part : il garde sa propre densité, ses propres r
 
 #### Conseil 5 — Challenge couple
 
-**Format « petit jeu » qui donne envie.** Le challenge couple ne doit pas être une injonction supplémentaire dans la semaine — c'est un mini-rituel ludique, court (5-10 min), simple à mettre en œuvre, qui crée un fil entre les deux parents.
+**Format « petit jeu » qui donne envie.** Le challenge couple ne doit pas être une injonction supplémentaire dans la semaine. C'est un mini-rituel ludique, court (5-10 min), simple à mettre en œuvre, qui crée un fil entre les deux parents.
+
+Le couple parental a besoin de **deux choses** que la palette doit couvrir : se **réguler** ensemble (écoute, présence, connexion émotionnelle, projection commune) **ET respirer** ensemble (romantisme, jeu, rire, légèreté). Le travail intérieur du thème oriente vers l'un ou l'autre registre selon le mois.
 
 **Critères du challenge réussi :**
 - **Simple à mettre en œuvre** : pas de matériel compliqué, pas d'organisation lourde.
-- **Court** : 5 à 10 minutes maximum.
+- **Court** : 5 à 10 minutes maximum (15 max pour les formats plus ritualisés type rendez-vous à la maison).
 - **Sans cadence imposée** : pas de « 3 fois par semaine », pas de « tous les dimanches soir ». Le couple choisit son moment.
-- **Ludique ou poétique** : il y a une dimension de jeu, de surprise, ou de geste symbolique.
-- **Aligné sur le thème** : le challenge incarne le travail intérieur du mois.
+- **Ludique, poétique, romantique ou drôle** : il y a une dimension de jeu, de surprise, de geste symbolique, de tendresse ou de rire.
+- **Aligné sur le thème** : le challenge incarne le travail intérieur du mois (ou crée la respiration dont le mois a besoin).
 
-**Palette d'inspirations ludiques :**
+### Palette d'inspirations en 5 registres
 
-| Type de mécanique | Exemple |
-|-------------------|---------|
-| **Échange écrit aveugle** | Chacun écrit une chose sur un papier, on les échange sans lire le sien à voix haute |
-| **Mot du jour / phrase secrète** | Une phrase à se glisser dans la semaine pour signifier quelque chose au-delà des mots |
-| **Mini-rituel sensoriel** | Une main posée 1 min, un geste précis, une dégustation à deux |
-| **Question-tirage** | Tirer une carte dans un mini-jeu de cartes-questions du mois |
-| **Mission à l'aveugle** | L'un donne une mini-mission à l'autre dans la semaine, sans rien dire d'autre |
-| **Photo / souvenir** | Prendre une photo ensemble, ou se montrer un souvenir choisi |
-| **Inversion** | L'un fait ce que l'autre fait d'habitude (préparer le biberon, raconter l'histoire), sans commentaire |
+La palette ci-dessous est une **source d'inspiration**, pas une liste exhaustive. Le choix se fait **mois par mois selon le thème**, en piochant librement dans le registre qui résonne le mieux avec le travail intérieur du mois. Un nouveau challenge peut être créé si un thème le demande, en respectant les critères du challenge réussi.
 
-**Exception M0 :** le challenge « une main posée, 1 minute » reste tel quel. À M0, l'énergie ne permet aucun élément ludique supplémentaire : la sobriété est le bon design.
+#### Registre 1 — Écoute et connexion émotionnelle
+
+Pour les mois où le couple a besoin de **se réguler ensemble**, de se reconnecter émotionnellement, de réapprendre à s'écouter sans réparer.
+
+| Mécanique | Principe |
+|-----------|----------|
+| **Carte à tirer** *(utilisé M1)* | L'un écrit 5 questions précises sur un papier, l'autre tire au hasard et répond. Règle d'or : l'écoutant dit juste « ok, j'ai entendu », sans réparer ni minimiser |
+| **Main posée 1 minute** *(utilisé M0)* | Présence physique silencieuse, pas de mots, juste la main qui sent l'autre. Calibré pour parents épuisés sans énergie pour plus |
+| **Conversation d'oreiller** | Au coucher, lumière éteinte, allongés côte à côte. L'un parle 5 min sans interruption sur ce qui l'a traversé, l'autre écoute. Puis on inverse |
+| **Mot du jour / phrase secrète** | Une phrase à se glisser dans la semaine pour signifier quelque chose au-delà des mots, à un moment où l'autre s'y attend le moins |
+| **Mission à l'aveugle** | L'un donne une mini-mission à l'autre dans la semaine, sans rien dire d'autre (ex : « fais-moi sourire 3 fois cette semaine ») |
+
+#### Registre 2 — Vision et projection commune
+
+Pour les mois où le couple a besoin de **regarder ensemble dans la même direction**, de poser des envies, de se projeter.
+
+| Mécanique | Principe |
+|-----------|----------|
+| **Dessin partagé** *(utilisé M2)* | Pendant 10 min en silence, chacun dessine ou écrit sur une feuille A3 ce qu'il aimerait pour les 3 prochains mois. La feuille devient un « tiers » à commenter ensemble |
+| **Liste des envies** | Chacun écrit 5 choses qu'on aimerait faire dans l'année (sorties, voyages, projets, retrouvailles d'amis). On compare les listes, on cherche les points communs |
+
+#### Registre 3 — Romantique 💕
+
+Pour les mois où le couple a besoin de **se rappeler qu'il est aussi un couple d'amoureux**, pas seulement deux soignants de bébé.
+
+| Mécanique | Principe |
+|-----------|----------|
+| **Le rendez-vous à la maison** | Dîner en amoureux à la maison après le coucher de bébé, lumière tamisée, plat simple mais pensé, téléphones rangés. 1h max |
+| **La lettre d'amour cachée** | Écrire un petit mot doux et le glisser dans une poche, un sac, un livre, pour que l'autre le trouve par surprise dans la semaine |
+| **Le premier rendez-vous rejoué** | Reconstituer le lieu (ou l'ambiance) de votre premier rendez-vous, juste pour rire ensemble du chemin parcouru. Boisson identique, musique identique, conversation libre |
+| **Le slow improvisé** | Un soir, mettre LA chanson qui vous rappelle vous deux, danser 3 minutes dans le salon, sans rien attendre |
+| **La carte postale du présent** | Écrire chacun une carte postale au couple qu'on est *maintenant* (pas à celui qu'on était avant bébé). Échanger les cartes |
+
+#### Registre 4 — Décalé / qui fait rire
+
+Pour les mois où le couple a besoin de **rire ensemble**, de sortir du sérieux parental, de retrouver de la légèreté.
+
+| Mécanique | Principe |
+|-----------|----------|
+| **Le « si on était… »** | Si on était un duo de séries, on serait qui ? Si on était un plat, lequel ? Si on était une chanson ? Jeu rapide de 5-10 questions, chacun répond pour soi puis pour l'autre. Révèle plein de choses dans le rire |
+
+*Ce registre est volontairement court : le rire ne se planifie pas trop. Il vient mieux quand la palette est restreinte et qu'on garde de la place pour l'inspiration mois par mois.*
+
+#### Registre 5 — Action et rituel
+
+Pour les mois où le couple a besoin de **faire quelque chose ensemble**, pas seulement parler. Le « mini-projet ensemble » est une mécanique duplicable sous différentes formes selon les thèmes.
+
+| Mécanique | Principe |
+|-----------|----------|
+| **Le mini-projet ensemble (cuisine)** | Cuisiner ensemble un plat ou un dessert un soir, sans se répartir les tâches comme d'habitude. Ralentir, s'amuser à se passer les ingrédients, goûter à deux |
+| **Le mini-projet ensemble (plantation)** | Planter ensemble une herbe aromatique, un bulbe, ou rempoter une plante. Geste symbolique : on fait grandir quelque chose de plus, à deux |
+| **Le mini-projet ensemble (construction)** | Monter ensemble un meuble, une petite étagère, un tipi pour bébé. La maladresse partagée fait souvent rire |
+| **Le mini-projet ensemble (déco / création)** | Créer ensemble quelque chose pour la maison ou pour bébé : un mobile, un cadre photo, un coin lecture, une playlist du couple |
+| **Le merci inattendu** *(M14 ancienne version)* | Écrire chacun une chose que l'autre a faite ce mois qui a fait du bien. Échanger les papiers sans commentaire |
+
+La mécanique « mini-projet ensemble » est **duplicable** sous d'autres formes que celles listées : l'idée centrale est *faire ensemble quelque chose de concret, qui produit un résultat tangible, à un rythme qui permet de respirer*. À adapter selon le thème.
+
+### Exception M0
+
+Le challenge « une main posée, 1 minute » reste tel quel. À M0, l'énergie ne permet aucun élément ludique supplémentaire : la sobriété est le bon design.
+
+### Indications de registre selon les thèmes (orientation, pas règle)
+
+Pour aider à orienter le choix du registre selon le thème du mois, voici quelques indications :
+
+| Phase du parcours | Mois | Registres souvent les plus pertinents |
+|-------------------|------|---------------------------------------|
+| **Survie physique et émotionnelle** | M0-M5 | Registre 1 (écoute, connexion) — énergie basse, besoin de se réguler |
+| **Reconfiguration identitaire** | M6-M11 | Registres 2, 3 (vision, romantique) — le couple se redéfinit, peut respirer |
+| **Réémergence** | M12-M17 | Registres 3, 4, 5 (romantique, décalé, action) — l'énergie revient, le couple peut jouer |
+| **Projection et ouverture** | M18-M23 | Registres 2, 3, 4, 5 (tout sauf écoute pure) — le couple se reconstruit dans la durée |
+
+Ce n'est qu'une orientation : si un thème spécifique appelle un registre différent (ex. M9 brouillard mental → registre 1 même si on est dans la phase 2), il faut suivre le thème.
 
 **Structure JSON du conseil 5 :**
 ```json
@@ -541,12 +633,16 @@ Le post-partum est un sujet à part : il garde sa propre densité, ses propres r
   "id": "challenge_couple",
   "numero": 5,
   "icone": "💑",
-  "titre": "Challenge couple",
-  "sous_titre": "...",              // titre principal visuel — incarne le jeu et le thème
-  "duree": "5 à 10 minutes",
+  "nom_outil": "Challenge couple",  // étiquette standardisée
+  "promesse": "...",                // phrase qui incarne le jeu et le thème
+                                    // Cas particulier : peut prendre la forme d'un impératif pluriel
+                                    // « -ez » (ex. « Tirez une carte : demandez sans honte »).
+                                    // Non obligatoire — selon l'effet recherché.
+  "duree": "5 à 10 minutes",        // 15 max pour les formats type rendez-vous à la maison
   "intro": "...",                   // 2-3 phrases qui relient le challenge au thème
   "challenge_du_mois": {
     "nom": "...",                   // nom court et évocateur du jeu
+    "registre": "...",              // 1 = écoute, 2 = vision, 3 = romantique, 4 = décalé, 5 = action/rituel
     "deroule": "...",               // 3-5 phrases pour expliquer comment faire
     "regle_clef": "..."             // (optionnel) une règle qui change la dynamique
   },
@@ -554,7 +650,7 @@ Le post-partum est un sujet à part : il garde sa propre densité, ses propres r
 }
 ```
 
-**Règle d'unicité :** chaque mécanique de challenge ne peut être utilisée qu'une fois sur les 24 mois (voir table d'unicité dans `CONTENT_INDEX.md`).
+**Règle d'unicité :** chaque mécanique de challenge ne peut être utilisée qu'une fois sur les 24 mois (voir table d'unicité dans `CONTENT_INDEX.md`). Le « mini-projet ensemble » fait exception : il peut être décliné plusieurs fois sous des formes différentes (cuisine, plantation, construction, déco/création) car ce sont des variantes distinctes d'une même mécanique.
 
 ### Règles transverses sur la rubrique
 

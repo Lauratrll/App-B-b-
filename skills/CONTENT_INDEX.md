@@ -555,19 +555,49 @@ Chaque mois utilise une méditation différente. **Depuis le 26/05/2026, les mé
 
 ### Table d'unicité — Challenges couple
 
-Depuis la refonte 26/05/2026, chaque challenge est pensé comme un **mini-jeu ludique ou poétique**. Exception M0 : sobriété assumée.
+Depuis l'enrichissement éditorial du 26/05/2026, la palette des challenges couple s'étend sur **5 registres** : (1) écoute et connexion émotionnelle, (2) vision et projection commune, (3) romantique, (4) décalé / qui fait rire, (5) action et rituel. Le couple parental a besoin de **se réguler** ensemble ET de **respirer** ensemble. Le travail intérieur du thème oriente vers l'un ou l'autre registre.
 
-| Mois | Challenge | Mécanique | Principe |
-|------|-----------|-----------|----------|
-| M0 | **« Une main posée, 1 minute »** | Mini-rituel sensoriel | Un soir dans la semaine, poser une main sur l'autre en silence pendant 1 min, pas de mots, juste la présence physique (calibré pour parents épuisés sans énergie pour plus) |
-| M1 | **« La carte à tirer »** | Échange écrit aveugle / tirage de question | L'un écrit 5 questions précises sur un papier, l'autre tire au hasard et répond. Règle d'or : l'écoutant dit juste « ok, j'ai entendu », sans réparer ni minimiser. Rend la demande explicite via la médiation du jeu |
-| M2 | **« Le dessin partagé »** | Dessin partagé en silence sur une même feuille | Pendant 10 min en silence, chacun dessine ou écrit sur une feuille A3 ce qu'il aimerait pour les 3 prochains mois (organisation, soirées, week-ends, temps pour soi). Le dessin devient un « tiers » à commenter ensemble, ce qui désamorce les reproches frontaux des conversations sur la reprise |
-| M3 | "10 minutes sans bébé, sans téléphone" *(ancienne méthode — à refondre en version plus ludique)* | Rendez-vous structuré | Une fois/semaine, 10 min face à face, téléphones hors pièce, pas de logistique ni de bébé comme sujet, juste qu'est-ce qui te traverse en ce moment, toi |
-| M6 | « La conversation d'oreiller » *(ancienne méthode — à refondre)* | Tour de parole en aveugle | Une fois/semaine, au coucher, lumière éteinte, allongés côte à côte. L'un parle 5 min sans interruption sur ce qui l'a traversé cette semaine, l'autre écoute. Puis on inverse |
-| M9 | « Le rendez-vous extérieur » *(ancienne méthode — à refondre)* | Sortie planifiée | 1 sortie/mois ensemble hors de la maison (restaurant, balade, cinéma), première heure sans parler de bébé, garde organisée à l'avance |
-| M14 | "Le merci inattendu" *(ancienne méthode — à refondre)* | Échange écrit | Écrire chacun une chose que l'autre a faite ce mois qui a fait du bien, on échange les papiers sans commentaire |
+| Mois | Challenge | Registre | Mécanique | Principe |
+|------|-----------|----------|-----------|----------|
+| M0 | **« Une main posée, 1 minute »** | 1 — Écoute | Mini-rituel sensoriel | Un soir dans la semaine, poser une main sur l'autre en silence pendant 1 min, pas de mots, juste la présence physique (calibré pour parents épuisés sans énergie pour plus) |
+| M1 | **« La carte à tirer »** | 1 — Écoute | Échange écrit aveugle / tirage de question | L'un écrit 5 questions précises sur un papier, l'autre tire au hasard et répond. Règle d'or : l'écoutant dit juste « ok, j'ai entendu », sans réparer ni minimiser |
+| M2 | **« Le dessin partagé »** | 2 — Vision | Dessin partagé en silence sur une même feuille | Pendant 10 min en silence, chacun dessine sur une feuille A3 ce qu'il aimerait pour les 3 prochains mois. Le dessin devient un « tiers » à commenter ensemble |
+| M3 | "10 minutes sans bébé, sans téléphone" *(ancienne méthode — à refondre)* | 1 — Écoute | Rendez-vous structuré | Une fois/semaine, 10 min face à face, téléphones hors pièce, pas de logistique ni de bébé comme sujet |
+| M6 | « La conversation d'oreiller » *(ancienne méthode — à refondre)* | 1 — Écoute | Tour de parole en aveugle | Au coucher, lumière éteinte, allongés côte à côte. L'un parle 5 min sans interruption, l'autre écoute. Puis on inverse |
+| M9 | « Le rendez-vous extérieur » *(ancienne méthode — à refondre)* | 3 — Romantique | Sortie planifiée | 1 sortie/mois hors de la maison, première heure sans parler de bébé |
+| M14 | "Le merci inattendu" *(ancienne méthode — à refondre)* | 5 — Action / rituel | Échange écrit | Écrire chacun une chose que l'autre a faite ce mois qui a fait du bien, échanger les papiers sans commentaire |
 
-**Mécaniques ludiques encore disponibles** : mot du jour / phrase secrète, question-tirage (carte format jeu), mission à l'aveugle, photo / souvenir partagé, inversion des rôles.
+### Palette des challenges encore disponibles
+
+**Registre 1 — Écoute et connexion émotionnelle**
+- Conversation d'oreiller (déjà prévu M6)
+- Mot du jour / phrase secrète
+- Mission à l'aveugle
+
+**Registre 2 — Vision et projection commune**
+- Liste des envies
+
+**Registre 3 — Romantique 💕**
+- Le rendez-vous à la maison
+- La lettre d'amour cachée
+- Le premier rendez-vous rejoué
+- Le slow improvisé
+- La carte postale du présent
+
+**Registre 4 — Décalé / qui fait rire**
+- Le « si on était… »
+
+**Registre 5 — Action et rituel**
+- Le mini-projet ensemble (mécanique **duplicable** sous différentes formes : cuisine, plantation, construction, déco/création…)
+- Le merci inattendu (déjà prévu M14)
+
+**Orientation par phase du parcours :**
+- M0-M5 (survie) → registre 1 surtout
+- M6-M11 (reconfiguration identitaire) → registres 2 et 3
+- M12-M17 (réémergence) → registres 3, 4, 5
+- M18-M23 (projection) → registres 2, 3, 4, 5
+
+Ce n'est qu'une orientation : si un thème spécifique appelle un registre différent (ex. M9 brouillard mental → registre 1 même si on est dans la phase 2), il faut suivre le thème.
 
 ### Table d'unicité — Formats Auto-reconnaissance (Prendre soin de moi, conseil 3)
 
@@ -695,10 +725,10 @@ Chaque mois interpolé se positionne entre deux jalons déjà produits.
 - ⭐ **Validé (26/05/2026)** : suppression de `frequence_conseillee` (charge mentale). Exception unique : l'auto-massage conserve ses durées précises par geste (60 sec, 30 sec…), parce que c'est une mécanique de pratique, pas une cadence imposée dans la semaine.
 - ⭐ **Validé (26/05/2026)** : grammaire des méditations entièrement refondue. Passage à la **première personne du singulier** (« je pose une main… »), durée allongée à 6–8 min, structure en 5 mouvements (ancrage, reconnaissance, cœur thématique, permission, clôture), introduction de la **visualisation** quand le thème s'y prête. Voir SKILL_rubriques.md § 4.3 / Conseil 2 pour la grammaire détaillée.
 - ⭐ **Validé (26/05/2026)** : le conseil 4 « Post-partum » garde un statut spécial — sa `promesse` met en valeur le **sujet spécifique du post-partum traité ce mois-ci** (qui peut être distinct ou en sous-thème du thème général).
-- ⭐ **Validé (26/05/2026)** : les challenges couple doivent être pensés comme des **mini-jeux** ludiques ou poétiques qui donnent envie (palette de mécaniques fournie dans SKILL_rubriques.md). Exception M0 : sobriété assumée.
+- ⭐ **Validé (26/05/2026)** : **palette enrichie des challenges couple en 5 registres**. Les challenges doivent désormais couvrir deux besoins du couple parental : **se réguler ensemble** (registres 1 = écoute/connexion, 2 = vision/projection) ET **respirer ensemble** (registres 3 = romantique, 4 = décalé/qui fait rire, 5 = action/rituel). Le choix du registre se fait mois par mois selon le thème. Orientation indicative : M0-M5 → registre 1 surtout ; M6-M11 → registres 2 et 3 ; M12-M17 → registres 3, 4, 5 ; M18-M23 → registres 2, 3, 4, 5. Voir SKILL_rubriques.md § Conseil 5 — Challenge couple pour la palette complète et la liste des mécaniques disponibles. **Mécanique « mini-projet ensemble » duplicable** sous différentes formes (cuisine, plantation, construction, déco/création) selon les thèmes. Exception M0 : sobriété assumée.
 - ✅ **Produit (26/05/2026)** : `mois_00_-_03_prendre_soin_de_moi.json` **refondu à la nouvelle méthode** (5 conseils, thème + intention, méditation en « je » avec visualisation corporelle, sous-titres travaillés comme titres principaux visuels, sous-titre post-partum spécifique « Les 4 premières semaines, ce que personne ne dit assez fort »).
 - ✅ **Produit (26/05/2026)** : `mois_01_-_03_prendre_soin_de_moi.json` **créé à la nouvelle méthode** (thème « Oser demander, comme une compétence parentale », méditation en « je » avec visualisation symbolique inédite du récipient à mes pieds, format auto-reconnaissance nouveau « carte du cercle de soutien », challenge couple « La carte à tirer » avec mécanique ludique d'échange écrit aveugle).
-- ✅ **Produit (26/05/2026)** : `mois_02_-_03_prendre_soin_de_moi.json` **créé à la nouvelle méthode** (thème « Trouver ta place face au travail (ou en dehors) », méditation en « je » de ~8 min avec **visualisation projective inédite** se voir dans 3 mois + posture alternative, format auto-reconnaissance **récit de naissance/accouchement** 30-45 min d'écriture longue, challenge couple **« Le dessin partagé »** avec mécanique de dessin en silence sur une même feuille A3, post-partum avec section juridique sur les droits français à la reprise — article L1225-25, visite de pré-reprise, droit à 1h/jour allaitement).
+- ✅ **Produit (26/05/2026)** : `mois_02_-_03_prendre_soin_de_moi.json` **créé à la nouvelle méthode** (thème « Trouver ta place face au travail (ou en dehors) », méditation en « je » de ~8 min avec **visualisation projective inédite** se voir dans 3 mois + posture alternative, format auto-reconnaissance **récit de naissance/accouchement** 30-45 min d'écriture longue, challenge couple **« Le dessin partagé »** avec mécanique de dessin en silence sur une même feuille A3). Note : références juridiques précises retirées le 26/05/2026 conformément à la règle « pas de lois précises » (voir note ci-dessous).
 - ⭐ **Validé (26/05/2026)** : **les 24 thèmes sont reformulés en mode action / positif** (verbes d'action, cible positive plutôt que problème). Voir SKILL_rubriques.md § 4.3 / Arc des 24 thèmes pour la liste complète. Exemples : « Le cerveau qui retient le négatif » → « Offrir du positif à ton cerveau » ; « La culpabilité, et comment la désamorcer » → « Choisir la bienveillance envers toi-même ».
 - ⭐ **Validé (26/05/2026)** : **règle d'écriture genrée**. Pas d'écriture inclusive typographique (`·e`, `(e)`) nulle part dans l'app. Trois traitements : (1) **Prendre soin de moi** = féminin assumé (la rubrique s'adresse aux mamans) ; (2) **Section « Côté papa / co-parent » du post-partum** = adresse directe au co-parent (masculin/neutre) ; (3) **Challenge couple** = formulations qui marchent pour les deux. Pour toutes les autres rubriques (Guide-moi, Coucher, Saison, Partager & rassurer, Jeux) = formulations neutres qui marchent pour maman / papa / co-parent. Voir SKILL_contenu.md § Écriture genrée pour les stratégies de contournement.
 - ⭐ **Validé (26/05/2026)** — **CONVENTION STRUCTURELLE FINALE pour la rubrique « Prendre soin de moi »** (remplace toutes les conventions précédentes). Les champs portent des noms **sémantiques** (pas liés à une logique d'affichage), avec **deux champs distincts** au niveau racine et au niveau de chaque conseil. C'est l'UI qui décide lequel afficher en grand selon l'écran.
@@ -727,5 +757,7 @@ Chaque mois interpolé se positionne entre deux jalons déjà produits.
 - ⭐ **Validé (26/05/2026)** : **pas de références juridiques précises** dans les contenus. L'app n'est pas une source de droit. Plutôt qu'affirmer une loi (article L1225-25, durée légale de congé, nombre de séances remboursées, etc.), évoquer la thématique et **orienter vers les bons interlocuteurs** (sage-femme, médecine du travail, RH, syndicat, service public). Raison : le droit évolue, varie selon les situations, et une affirmation devenue fausse exposerait l'app à de la responsabilité. Voir SKILL_contenu.md § « Pas de références juridiques précises » pour les reformulations type. **M0, M1 et M2 ont été nettoyés de leurs références juridiques précises le 26/05/2026** (article L1225-25, mention « 28 jours » de congé paternité, mention « 12 séances remboursées » pour MonParcoursPsy → reformulés en évocations + orientations).
 
 - ⭐ **Validé (26/05/2026)** : **placeholders runtime `{prenom}` et `{genre}`** pour personnaliser ponctuellement les contenus. À l'inscription, les parents renseignent le prénom et le genre du bébé (« fille » ou « garçon »). Code remplace ces placeholders dans les textes affichés. **Règles d'usage** : avec parcimonie (1-2 occurrences max par fichier), jamais dans les méditations audio ni les contenus médicaux d'urgence, toujours pour ajouter une touche d'émotion à un moment-clé. Garder « bébé » comme formulation par défaut, et personnaliser uniquement quand l'émotion le justifie (ouverture d'une méditation, célébration d'un cap, moments d'anxiété de séparation, etc.). Voir SKILL_contenu.md § « Personnalisation par prénom et genre ». **M2 contient 1 occurrence test `{prenom}` à l'idée de laisser {prenom}** (section post-partum, anxiété de séparation maternelle).
+
+- ⭐ **Validé (26/05/2026)** : **ajout d'un champ `registre`** dans la structure JSON du challenge couple (dans le bloc `challenge_du_mois`). Valeurs possibles : 1 (écoute), 2 (vision), 3 (romantique), 4 (décalé), 5 (action/rituel). Permet de filtrer ou de visualiser les challenges par registre côté Code. **M0 et M1 = registre 1, M2 = registre 2** (mis à jour le 26/05/2026).
 
 - 🔄 **À aligner ultérieurement** : les 4 fichiers `03_prendre_soin_de_moi.json` encore en ancienne méthode (M3, M6, M9, M14) restent en l'état pour l'instant. Ils seront refondus avec la nouvelle méthode dans un second temps, en respectant la convention sémantique `nom_outil` / `promesse`. Note : la « lettre au soi d'avant » de M3 sera probablement déplacée vers M6 (« Accueillir la nouvelle personne que tu es devenue ») où elle s'aligne parfaitement au thème.
