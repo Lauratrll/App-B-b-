@@ -176,13 +176,31 @@ export type ConseilListItem = {
 
 export type SaisonKey = "printemps" | "ete" | "automne" | "hiver";
 
+// Une "idée du moment" du nouveau schéma saison : activité concrète
+// avec ce qu'elle apporte au bébé et comment la mettre en pratique.
+export type IdeeDuMoment = {
+  titre: string;
+  ce_que_ca_apporte?: string;
+  comment?: string;
+};
+
+// Nouvelle convention saison (M3 et suivants migrés) :
+//   a_savoir_cette_saison + idees_du_moment[]
+// Ancienne convention (M0, M6, M9, M14 — encore en transition) :
+//   titre, ancrage, principes, habillage, sorties, diversification…
+// Fallback temporaire conservé pour ne casser aucun mois.
 export type SaisonVersion = {
   id?: string;
-  titre?: string;
+  // Communs aux deux conventions
   ambiance?: string;
   couleur_theme?: string;
   couleur_accent?: string;
   emoji?: string;
+  // Nouvelle convention
+  a_savoir_cette_saison?: string;
+  idees_du_moment?: IdeeDuMoment[];
+  // Ancienne convention (fallback)
+  titre?: string;
   ancrage?: string;
   principes?: string[];
   habillage?: {

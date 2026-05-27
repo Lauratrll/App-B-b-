@@ -38,9 +38,11 @@ export function SaisonView({ version }: { version: SaisonVersion }) {
         <p className="text-4xl" aria-hidden>
           {version.emoji}
         </p>
-        <h2 className="text-2xl font-semibold leading-tight">
-          {version.titre}
-        </h2>
+        {version.titre ? (
+          <h2 className="text-2xl font-semibold leading-tight">
+            {version.titre}
+          </h2>
+        ) : null}
         {version.ambiance ? (
           <p className="text-sm font-medium">{version.ambiance}</p>
         ) : null}
@@ -48,6 +50,51 @@ export function SaisonView({ version }: { version: SaisonVersion }) {
           <p className="mt-3 text-sm leading-relaxed">{version.ancrage}</p>
         ) : null}
       </header>
+
+      {/* Nouveau schéma : à savoir cette saison */}
+      {version.a_savoir_cette_saison ? (
+        <section className="space-y-2">
+          <h3 className="text-xs font-semibold uppercase tracking-wide text-neutral-500">
+            À savoir cette saison
+          </h3>
+          <p className="rounded-2xl bg-neutral-50 p-4 text-sm leading-relaxed text-neutral-800">
+            {version.a_savoir_cette_saison}
+          </p>
+        </section>
+      ) : null}
+
+      {/* Nouveau schéma : idées du moment */}
+      {version.idees_du_moment && version.idees_du_moment.length > 0 ? (
+        <section className="space-y-3">
+          <h3 className="text-xs font-semibold uppercase tracking-wide text-neutral-500">
+            Idées du moment
+          </h3>
+          <ul className="space-y-3">
+            {version.idees_du_moment.map((idee, i) => (
+              <li
+                key={i}
+                className="space-y-2 rounded-2xl border border-neutral-200 p-4"
+              >
+                <p className="font-medium leading-tight text-neutral-900">
+                  {idee.titre}
+                </p>
+                {idee.ce_que_ca_apporte ? (
+                  <p className="text-sm leading-relaxed text-neutral-700">
+                    <span className="font-medium">Ce que ça apporte —</span>{" "}
+                    {idee.ce_que_ca_apporte}
+                  </p>
+                ) : null}
+                {idee.comment ? (
+                  <p className="text-sm italic leading-relaxed text-neutral-600">
+                    <span className="font-medium not-italic">Comment —</span>{" "}
+                    {idee.comment}
+                  </p>
+                ) : null}
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
 
       {version.principes && version.principes.length > 0 ? (
         <section className="space-y-2">
