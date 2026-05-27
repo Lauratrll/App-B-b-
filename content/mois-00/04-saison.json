@@ -3,432 +3,103 @@
   "tranche_age": "0-4 semaines",
   "rubrique": "saison",
   "titre_rubrique": "Saison",
-  "sous_titre": "Adapter le quotidien à la météo et à la lumière",
-  "description": "Le mois 0 ne se vit pas pareil selon que bébé naît en plein hiver ou en plein été. Habillage, sorties, lumière, sommeil : la saison change tout. L'app sélectionne automatiquement la version correspondant à la saison de naissance de bébé.",
+  "sous_titre": "Mois 0 — Le Lové · Protéger bébé dans sa première saison",
+  "description": "Bébé vient d'arriver. La saison où il naît détermine ses premières précautions — lumière, températures, virus, allergènes. Deux repères de bon sens pour cette saison-là, et un mémo d'habillage pour la nuit.",
   "logique_selection": {
-    "regle": "L'app sélectionne la version saisonnière selon le mois civil de naissance de bébé",
+    "regle": "Au mois 0, l'app sélectionne la version selon la saison de naissance de bébé. Il restera dans cette saison pendant ses 4 premières semaines, avant de basculer sur le mois civil en cours dès le mois 1.",
     "mapping": {
       "printemps": ["mars", "avril", "mai"],
       "ete": ["juin", "juillet", "août"],
       "automne": ["septembre", "octobre", "novembre"],
       "hiver": ["décembre", "janvier", "février"]
-    },
-    "transition": "Pendant les chevauchements (ex. naissance fin mai = printemps → début été), proposer la transition vers la saison suivante à partir de la semaine 3."
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année — pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "nourrisson",
+    "note_version": "Les premières semaines, bébé ne régule pas du tout sa température : on utilise le schéma 0-4 mois."
   },
   "versions": {
     "printemps": {
-      "id": "saison_printemps",
-      "titre": "Bébé né au printemps (mars-avril-mai)",
-      "ambiance": "Lumière qui revient, températures douces, allergènes en hausse",
-      "couleur_theme": "#E1F5EE",
-      "principes": [
-        "La lumière revient progressivement — utiliser pour réguler le rythme circadien de bébé",
-        "Températures variables : 10°C le matin, 22°C l'après-midi — habillage évolutif",
-        "Pollens : alerte pour les bébés sensibles ou si parents allergiques",
-        "Première saison où sortir devient vraiment agréable — profiter sans excès"
-      ],
-      "habillage": {
-        "principe": "Toujours une couche de plus que toi",
-        "guide_temperature": [
-          {
-            "temperature": "5-10°C",
-            "tenue": "Body manches longues + pyjama + combinaison polaire + bonnet + chaussons + couverture pour sortie"
-          },
-          {
-            "temperature": "10-15°C",
-            "tenue": "Body manches longues + pyjama + veste polaire + bonnet en intérieur, couverture en sortie"
-          },
-          {
-            "temperature": "15-20°C",
-            "tenue": "Body manches longues + pyjama léger ou combinaison coton + bonnet fin si sortie"
-          },
-          {
-            "temperature": "20-25°C",
-            "tenue": "Body manches courtes + pyjama léger ou body seul si chaud, pas de bonnet"
-          }
-        ]
-      },
-      "sorties": {
-        "frequence_conseillee": "1 sortie/jour, 20-30 min à partir de J10",
-        "moments_ideaux": [
-          "10h-12h : lumière douce, température correcte",
-          "15h-17h : avant la fraîcheur du soir",
-          "Éviter 7h-9h (frais) et 18h après (humidité du soir)"
-        ],
-        "lieux_recommandes": [
-          "Parc en lisière (pas en plein soleil printanier qui chauffe)",
-          "Rues calmes à l'ombre des immeubles",
-          "Évite les zones très fleuries si parent allergique"
-        ],
-        "equipement": [
-          "Poussette avec capote — ombre OU paravent contre vent",
-          "Couverture légère dans le sac",
-          "Bouteille d'eau pour TOI",
-          "Couche + lingettes + change de rechange"
-        ]
-      },
-      "particularites_sante": {
-        "vigilance": [
-          "Allergies polliniques en hausse : tousse ? œil qui pleure ? consulter",
-          "Variation thermique brutale entre matin et après-midi : prévoir vêtements en couches",
-          "Bronchiolite encore présente jusqu'en avril — éviter les milieux fermés et personnes enrhumées",
-          "UV qui montent dès avril — protéger les yeux et la peau exposée"
-        ],
-        "vitamine_d": "Supplémentation prescrite par le pédiatre — à donner quotidiennement même si soleil de retour"
-      },
-      "rituel_lumiere": {
-        "titre": "Capter la lumière du matin",
-        "duree": "15 min",
-        "moment": "Entre 9h et 11h, près d'une fenêtre exposée est ou sud",
-        "description": "La lumière naturelle du matin règle le rythme circadien de bébé qui se construit. Pose-toi dans un fauteuil près d'une fenêtre 15 min — lumière indirecte, pas soleil direct sur lui."
-      },
-      "alimentation_maman": {
-        "titre": "Soutenir le post-partum au printemps",
-        "elements": [
-          "Légumes verts de saison : épinards, blettes, asperges — riches en fer (anémie post-partum fréquente)",
-          "Fruits rouges qui arrivent : antioxydants, vitamine C",
-          "Hydratation : températures douces, mais boire reste essentiel (allaitement = + 700 ml/jour)",
-          "Sortie marche 20 min : vitamine D + remise en route circulation"
-        ]
-      }
+      "id": "saison_printemps_00",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Bébé arrive avec la lumière qui revient et les premières douceurs de l'air. Une belle saison pour s'installer doucement à trois — ou plus.",
+      "a_savoir_cette_saison": "Les pollens reviennent. Si tu es allergique ou si le co-parent l'est, surveille un nez qui coule clair ou des yeux qui pleurent chez bébé.\n\nLes températures varient beaucoup entre matin et après-midi : habillage en couches faciles à enlever ou rajouter.",
+      "idees_du_moment": [
+        {
+          "titre": "Sortir aux heures fraîches du matin",
+          "ce_que_ca_apporte": "Bébé sort tout juste du cocon utérin — il est très sensible aux variations brutales. Le matin, l'air est plus stable, les pollens encore peu présents, et la lumière reste douce sur ses paupières fines. Idéal pour ses toutes premières sorties.",
+          "comment": "À partir de J10-J14, une promenade très courte en poussette ou en écharpe, vers 9h-10h. 15 minutes suffisent. Si le co-parent est allergique, garde des lunettes de soleil pour bébé près de la porte."
+        },
+        {
+          "titre": "Capter la lumière du matin",
+          "ce_que_ca_apporte": "Bébé n'a aucun rythme jour-nuit à la naissance. Recevoir la lumière naturelle du matin sur la peau et les yeux amorce la régulation circadienne — c'est l'un des leviers les plus puissants pour l'aider à différencier jour et nuit, donc à mieux dormir bientôt.",
+          "comment": "10-15 minutes près d'une fenêtre ouverte chaque matin (ou en sortie). Visage et mains exposés, sans soleil direct dans les yeux. Même par temps couvert, la lumière fait son effet."
+        }
+      ]
     },
     "ete": {
-      "id": "saison_ete",
-      "titre": "Bébé né en été (juin-juillet-août)",
-      "ambiance": "Chaleur intense, soleil fort, sécheresse — vigilance thermique majeure",
+      "id": "saison_ete_00",
       "couleur_theme": "#FAEEDA",
-      "principes": [
-        "La déshydratation est LE risque principal du nouveau-né en été",
-        "Tétées plus fréquentes par chaleur — augmentation physiologique de la demande",
-        "Soleil direct INTERDIT avant 1 an",
-        "Pièce et environnement : maintenir 18-22°C est l'objectif"
-      ],
-      "habillage": {
-        "principe": "Aussi peu que possible, mais toujours UN body en coton",
-        "guide_temperature": [
-          {
-            "temperature": "18-22°C",
-            "tenue": "Body manches courtes + pyjama léger en coton"
-          },
-          {
-            "temperature": "22-26°C",
-            "tenue": "Body manches courtes seul OU avec short léger en coton"
-          },
-          {
-            "temperature": "26-30°C",
-            "tenue": "Body sans manches en coton fin OU couche seule dans pièce ventilée"
-          },
-          {
-            "temperature": "> 30°C",
-            "tenue": "Couche seule, bébé éventé avec un linge humide à proximité (pas sur lui), surveiller en permanence"
-          }
-        ]
-      },
-      "sorties": {
-        "frequence_conseillee": "Sortir matin avant 10h OU soir après 19h — JAMAIS entre 11h et 18h",
-        "moments_ideaux": [
-          "7h-10h : fraîcheur matinale",
-          "19h-21h : descente des températures",
-          "Si canicule : ne pas sortir du tout, rester au frais"
-        ],
-        "lieux_recommandes": [
-          "Parcs très ombragés — chercher les zones forestières",
-          "Bord de mer ou rivière SI ombre et pas de vent fort",
-          "Évite les centres-villes asphaltés (effet d'îlot de chaleur)"
-        ],
-        "equipement": [
-          "Poussette avec capote ET drap léger en coton (jamais paravent fermé — risque coup de chaleur)",
-          "Brumisateur d'eau pour TOI (pas sur bébé < 3 mois)",
-          "Bouteille d'eau pour TOI — boire +++ si allaitement",
-          "Lingettes humides en glacière",
-          "Lange en coton pour ombrager si besoin (jamais sur la poussette en plein soleil)"
-        ],
-        "interdits_absolus": [
-          "Soleil direct, même 2 minutes, même filtré par les nuages",
-          "Voiture stationnée même 2 min — danger mortel par hyperthermie",
-          "Crème solaire avant 6 mois — peau perméable, toxicité",
-          "Bain de mer ou piscine avant 4 mois (chlore + chaleur + immunité)"
-        ]
-      },
-      "particularites_sante": {
-        "vigilance": [
-          "Déshydratation : urines foncées ou peu fréquentes, fontanelle creusée, langue sèche, somnolence — URGENCE",
-          "Coup de chaleur : peau rouge et chaude, agitation puis somnolence, température > 38°C — URGENCE 15",
-          "Érythème miliaire (boutons de chaleur) : aérer, ventiler, baisser température",
-          "Couches et plis : fessier rouge plus fréquent — fesses à l'air 15 min/jour"
-        ],
-        "hydratation": {
-          "principe": "Bébé < 6 mois : AUCUNE eau ni tisane. Tétées plus fréquentes UNIQUEMENT.",
-          "signes_bonne_hydratation": [
-            "Couches mouillées toutes les 3h (urines claires)",
-            "Bouche et langue humides",
-            "Fontanelle ni creuse ni bombée",
-            "Peau qui revient en place immédiatement après pincement léger"
-          ]
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "Bébé naît dans la chaleur, les longues journées, l'air qui sent la terre chaude. Une saison généreuse — mais sa thermorégulation et son hydratation demandent de la vigilance.",
+      "a_savoir_cette_saison": "Sa peau est extrêmement fine, ses yeux très sensibles : pas de soleil direct, jamais. L'ombre suffit largement.\n\nIl ne transpire pas encore bien, son risque de coup de chaleur est réel. Et pas d'eau avant 6 mois — c'est le lait qui hydrate.",
+      "idees_du_moment": [
+        {
+          "titre": "Respecter la règle des heures fraîches",
+          "ce_que_ca_apporte": "À cet âge, son corps ne sait pas encore réguler sa température. Sortir aux heures fraîches du matin ou en fin de journée évite tout risque de coup de chaleur et lui offre un air plus oxygéné, meilleur pour son sommeil.",
+          "comment": "Sorties courtes uniquement avant 10h et après 18h. À l'intérieur ou à l'ombre profonde entre. Par forte chaleur, propose le sein ou le biberon du lait plus souvent — il se déshydrate vite."
+        },
+        {
+          "titre": "Garder la chambre fraîche la nuit",
+          "ce_que_ca_apporte": "Le sommeil de bébé dépend d'une légère baisse de sa température corporelle. Si la chambre est trop chaude, il dort mal et s'agite. Maintenir la chambre sous 22°C la nuit améliore directement la qualité de son sommeil (et du tien).",
+          "comment": "Volets et rideaux fermés en journée pour bloquer la chaleur. Fenêtre ouverte la nuit pour faire entrer l'air frais. Ventilateur déporté possible, jamais dirigé sur lui. Body manches courtes ou sans manches + gigoteuse fine selon le mémo."
         }
-      },
-      "rituel_fraicheur": {
-        "titre": "Le rituel de fraîcheur du soir",
-        "duree": "10 min",
-        "moment": "Vers 19h-20h, avant le coucher",
-        "description": "Bain tiède (eau à 35-36°C, plus frais que d'habitude), 5 min. Sortir, ne pas rincer à l'eau froide. Sécher délicatement, laisser nu 5 min dans pièce ventilée (pas courant d'air direct). Habiller avec body coton fin uniquement."
-      },
-      "alimentation_maman": {
-        "titre": "Tenir l'été en post-partum",
-        "elements": [
-          "Hydratation MASSIVE : 3-4 litres d'eau par jour si allaitement",
-          "Eau, eau de coco, infusions froides — variantes pour éviter la lassitude",
-          "Fruits gorgés d'eau : pastèque, melon, concombre, tomates",
-          "Repas froids ou tièdes : taboulé, salade composée, soupe froide",
-          "Sels minéraux : transpiration importante — légère pincée de sel sur les aliments OK"
-        ]
-      },
-      "amenagement_chambre": {
-        "titre": "Garder la chambre fraîche",
-        "actions": [
-          "Fermer volets et fenêtres en journée dès que la température extérieure dépasse l'intérieure",
-          "Ouvrir grand le soir et la nuit dès que l'extérieur est plus frais",
-          "Ventilateur OUI (orienté vers le mur, jamais directement sur bébé)",
-          "Climatisation OK si réglée à 24-26°C (jamais inférieur), bébé pas dans le flux direct",
-          "Linge humide étendu dans la pièce : refroidit par évaporation",
-          "Mesurer la température avec un thermomètre — viser 18-22°C"
-        ]
-      }
+      ]
     },
     "automne": {
-      "id": "saison_automne",
-      "titre": "Bébé né en automne (septembre-octobre-novembre)",
-      "ambiance": "Lumière qui décline, virus qui circulent, températures qui baissent",
+      "id": "saison_automne_00",
       "couleur_theme": "#F5E4DE",
-      "principes": [
-        "L'automne est la saison à risque pour les virus respiratoires (bronchiolite à VRS surtout)",
-        "Diminution progressive de la luminosité — impact sur l'humeur des mamans (baby blues amplifié)",
-        "Températures variables : 5°C le matin, 20°C en début d'après-midi",
-        "Pluies et humidité : prévoir matériel adapté"
-      ],
-      "habillage": {
-        "principe": "Habillage en couches — facile à enlever/remettre",
-        "guide_temperature": [
-          {
-            "temperature": "0-5°C",
-            "tenue": "Body manches longues + pyjama + combi polaire intégrale + bonnet + moufles + chaussons"
-          },
-          {
-            "temperature": "5-10°C",
-            "tenue": "Body manches longues + pyjama chaud + veste polaire + bonnet + couverture en sortie"
-          },
-          {
-            "temperature": "10-15°C",
-            "tenue": "Body manches longues + pyjama coton ou polaire + gilet + bonnet pour sortir"
-          },
-          {
-            "temperature": "15-20°C",
-            "tenue": "Body manches longues + pyjama coton, bonnet seulement pour sortie"
-          }
-        ]
-      },
-      "sorties": {
-        "frequence_conseillee": "1 sortie/jour de 20-30 min en lumière du milieu de journée",
-        "moments_ideaux": [
-          "11h-15h : lumière maximale, températures plus douces",
-          "Éviter 7h-9h (froid humide) et après 17h (nuit qui tombe)"
-        ],
-        "lieux_recommandes": [
-          "Parcs ensoleillés — chercher la lumière",
-          "Évite TOUS les lieux fermés avec foule (centres commerciaux, transports bondés)",
-          "Évite les rassemblements (visites familiales, anniversaires) — saison virale"
-        ],
-        "equipement": [
-          "Combinaison ou couverture polaire dans la poussette",
-          "Habillage en couches : tu pourras enlever en cas de réchauffement",
-          "Habillage de pluie pour bébé et toi",
-          "Sac : couches, lingettes, change, bouteille pour toi"
-        ]
-      },
-      "particularites_sante": {
-        "vigilance_majeure_bronchiolite": {
-          "introduction": "Le mois 0 en automne expose au pic de bronchiolite (octobre-février). C'est une urgence pédiatrique fréquente. Mesures barrières strictes recommandées.",
-          "mesures_protection": [
-            "Lavage des mains systématique avant de toucher bébé",
-            "Refuser les visites de personnes enrhumées (toux, nez qui coule)",
-            "Aérer la chambre 10 min/jour quotidiennement",
-            "Pas de tabac dans le logement (multiplie le risque)",
-            "Limiter les sorties en milieux fermés bondés",
-            "Beyfortus (nirsévimab) : vaccination immunisante recommandée pour les nouveau-nés en automne — discuter avec le pédiatre dès la maternité ou à la PMI"
-          ],
-          "signes_alerte_bronchiolite": [
-            "Toux sèche qui devient grasse, puis essoufflement",
-            "Respiration rapide > 60/min au repos",
-            "Tirage : creux entre les côtes, sous les côtes, au-dessus du sternum",
-            "Battement des ailes du nez",
-            "Difficultés à téter ou refus de manger",
-            "Pâleur, lèvres bleues : URGENCE 15"
-          ]
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "Bébé arrive avec les couleurs dorées, les premières feuilles qui tombent. Une saison de cocon parfaite pour s'installer doucement en famille.",
+      "a_savoir_cette_saison": "Les virus commencent à circuler. Son système immunitaire est encore très immature — les 6 premières semaines demandent de la prudence sur les lieux fréquentés.\n\nLa lumière décline et peut amplifier le baby blues. Sortir un peu chaque jour est précieux pour vos deux cerveaux.",
+      "idees_du_moment": [
+        {
+          "titre": "Limiter les lieux clos très fréquentés",
+          "ce_que_ca_apporte": "Son système immunitaire est encore très immature. Les premiers virus de l'automne (bronchiolite, rhinopharyngites) peuvent être sévères chez un nouveau-né. Préserver bébé sans s'isoler totalement est une question de bon sens — pas de paranoïa.",
+          "comment": "Éviter centres commerciaux bondés, transports en commun aux heures de pointe, grandes réunions familiales. Gel hydroalcoolique pour les visiteurs avant de toucher bébé. Pas de bisous sur le visage, même par les proches très proches."
         },
-        "vigilance_autres": [
-          "Gastro-entérites virales en hausse — hygiène alimentaire stricte",
-          "Variation thermique entre matin et après-midi : habillage en couches",
-          "Baisse de luminosité : impact sur ton humeur, sortir absolument 15 min/jour à la lumière"
-        ],
-        "vitamine_d": "Supplémentation impérative en automne — manque de soleil, à donner quotidiennement"
-      },
-      "rituel_lumiere": {
-        "titre": "Capter la lumière qui décline",
-        "duree": "15-20 min",
-        "moment": "Entre 11h et 14h, en extérieur si possible OU près d'une fenêtre",
-        "description": "La lumière naturelle décline rapidement en automne. Pour bébé qui construit son rythme circadien et pour TON moral, exposez-vous à la lumière du milieu de journée chaque jour."
-      },
-      "alimentation_maman": {
-        "titre": "Soutenir le post-partum à l'automne",
-        "elements": [
-          "Soupes chaudes : courge, carotte, poireau — réconfortent et hydratent",
-          "Légumes racines : carottes, panais, betteraves — riches en nutriments",
-          "Poissons gras (saumon, sardines) : oméga-3, vitamine D",
-          "Hydratation : températures plus fraîches mais chauffage qui dessèche — boire quand même +++",
-          "Pommes, poires, raisin de saison",
-          "Hot chocolate ou tisanes (fenouil compatible allaitement) : moments cocooning"
-        ]
-      },
-      "moral_lumiere_decroissante": {
-        "titre": "Protéger ton moral en saison sombre",
-        "actions": [
-          "Sortir 15 min minimum chaque jour, même nuageux",
-          "Allume les lumières chez toi dès 16h — pas attendre la pénombre",
-          "Lampe de luminothérapie 10 000 lux : 20 min/matin si tu sens ton humeur baisser",
-          "Activité physique douce : marche, yoga post-natal (à partir de 6 semaines)",
-          "Si la tristesse s'installe > 2 semaines : consulter, le baby blues amplifié par la saison est fréquent et traitable"
-        ]
-      }
+        {
+          "titre": "Capter la lumière de mi-journée",
+          "ce_que_ca_apporte": "La luminosité décline vite en automne, et toi tu es peut-être en plein baby blues que la baisse de lumière peut accentuer. La lumière naturelle de mi-journée reste 100 fois plus intense que ton intérieur — un soutien direct pour ton moral.",
+          "comment": "Vers 11h-14h, sortie courte de 15-20 minutes (poussette ou écharpe), bébé bien couvert. Choisis des chemins calmes (parc, rue tranquille) plutôt que des zones très fréquentées. Le visage exposé pour capter la lumière."
+        }
+      ]
     },
     "hiver": {
-      "id": "saison_hiver",
-      "titre": "Bébé né en hiver (décembre-janvier-février)",
-      "ambiance": "Froid, peu de lumière, virus à leur pic, chauffage qui dessèche",
+      "id": "saison_hiver_00",
       "couleur_theme": "#E4EEF0",
-      "principes": [
-        "Le froid n'est pas l'ennemi — bébé y résiste très bien s'il est habillé correctement",
-        "Le pic de virus respiratoires (bronchiolite, grippe) tombe en plein cœur du mois 0 d'un bébé d'hiver — vigilance maximale",
-        "Lumière naturelle quasi absente : impact sur le moral des mamans",
-        "Air sec du chauffage : peau et muqueuses qui dessèchent"
-      ],
-      "habillage": {
-        "principe": "Couches multiples — le froid se gère en superpositions",
-        "guide_temperature": [
-          {
-            "temperature": "< 0°C",
-            "tenue": "Body manches longues + pyjama chaud + sur-pyjama + combinaison polaire intégrale + bonnet + moufles + chaussettes ÉPAISSES + couverture polaire"
-          },
-          {
-            "temperature": "0-5°C",
-            "tenue": "Body manches longues + pyjama chaud + combinaison polaire intégrale + bonnet + moufles + chaussons + couverture"
-          },
-          {
-            "temperature": "5-10°C",
-            "tenue": "Body manches longues + pyjama chaud + combinaison polaire + bonnet + couverture en sortie"
-          },
-          {
-            "temperature_interieure": "20-22°C (chambre/maison)",
-            "tenue": "Body manches longues + pyjama chaud + turbulette/gigoteuse adaptée à la saison"
-          }
-        ],
-        "regle_or": "Tester la nuque (pas les mains) pour vérifier la température de bébé : tiède = OK, froide = ajouter une couche, chaude et moite = enlever une couche"
-      },
-      "sorties": {
-        "frequence_conseillee": "10-20 min/jour si possible, pas en dessous de -5°C",
-        "moments_ideaux": [
-          "11h-14h : lumière maximale, température la moins basse",
-          "Éviter avant 10h et après 16h"
-        ],
-        "lieux_recommandes": [
-          "Parcs sans vent — chercher l'ensoleillement",
-          "Évite ABSOLUMENT les centres commerciaux et transports bondés en pic viral",
-          "Évite les visites familiales avec enfants enrhumés (école = virus)"
-        ],
-        "equipement": [
-          "Couverture polaire + couverture en plus dans la poussette",
-          "Habillage en couches : tu pourras adapter en arrivant en magasin",
-          "Habillage pluie/neige selon météo",
-          "Sortir avec le co-parent si possible — entraide en cas de besoin"
-        ],
-        "interdits_relatifs": [
-          "Ne PAS sortir en dessous de -5°C avec un nouveau-né",
-          "Ne pas exposer le visage de bébé au vent fort direct",
-          "Pas de promenade en pleine pollution hivernale (alertes PM10)"
-        ]
-      },
-      "particularites_sante": {
-        "vigilance_majeure_bronchiolite": {
-          "introduction": "Le mois 0 en hiver = exposition maximale au pic de bronchiolite. C'est LA pathologie redoutée. Mesures de protection drastiques recommandées.",
-          "mesures_protection": [
-            "Lavage des mains systématique pour QUICONQUE approche bébé",
-            "Refus catégorique des visites de personnes enrhumées",
-            "Si frère/sœur à l'école avec rhume : limiter contact, port du masque",
-            "Aération de la chambre 10 min/jour quotidiennement",
-            "Pas de tabac dans le logement (multiplie le risque par 4)",
-            "Limiter les sorties en milieux fermés bondés pendant 2-3 mois",
-            "Beyfortus (nirsévimab) : immunisation passive recommandée — à organiser dès la maternité ou à la PMI dans les 7 jours"
-          ],
-          "signes_alerte_bronchiolite": [
-            "Toux qui devient grasse",
-            "Respiration rapide > 60/min au repos",
-            "Tirage : creux entre les côtes, sous les côtes, au-dessus du sternum",
-            "Battement des ailes du nez",
-            "Difficultés à téter, refus alimentaire",
-            "Pâleur, lèvres bleues : APPELER LE 15 IMMÉDIATEMENT"
-          ]
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "Bébé arrive dans la saison du dedans, du chaud, du calme. Une saison qui invite naturellement au cocon — exactement ce qu'il faut pour ces premières semaines.",
+      "a_savoir_cette_saison": "Pic de virus respiratoires (bronchiolite, grippe, gastro). Son système immunitaire est encore très immature — les 6 premières semaines demandent une vraie prudence sur les lieux fréquentés.\n\nMoins de lumière = moins de dopamine. Sortir un peu chaque jour, même par grand froid, soutient ton moral en post-partum hivernal.",
+      "idees_du_moment": [
+        {
+          "titre": "Précautions virus respiratoires",
+          "ce_que_ca_apporte": "C'est la saison la plus à risque pour un nouveau-né — la bronchiolite peut être grave chez un bébé de moins de 6 semaines. Quelques gestes simples réduisent fortement le risque, sans s'isoler complètement.",
+          "comment": "Gel hydroalcoolique pour tous les visiteurs avant de toucher bébé. Pas de bisous sur le visage, même par les proches. Éviter les lieux clos bondés. Aérer la chambre 10 minutes par jour malgré le froid (bébé dans une autre pièce pendant l'aération)."
         },
-        "vigilance_grippe_gastro": [
-          "Pic grippal en janvier-février : éviter les contacts avec personnes symptomatiques",
-          "Gastro-entérites virales : hygiène des mains stricte",
-          "Roséole (5e maladie, exanthème subit) : fièvre 3 jours puis éruption — bénin mais à signaler"
-        ],
-        "peau_seche_chauffage": [
-          "Hydratation cutanée quotidienne : crème ou huile végétale après bain",
-          "Hygrométrie de la chambre : 50-60% (mesurer avec hygromètre)",
-          "Humidificateur si chauffage très sec (entretien strict pour éviter contamination)",
-          "Lèvres de bébé : un peu de lait maternel ou baume neutre si gercées"
-        ],
-        "vitamine_d": "Supplémentation IMPÉRATIVE en hiver — soleil quasi nul, à donner quotidiennement sans exception"
-      },
-      "rituel_lumiere": {
-        "titre": "Aller chercher la lumière coûte que coûte",
-        "duree": "20-30 min",
-        "moment": "Entre 11h et 14h, dehors si possible OU près d'une fenêtre",
-        "description": "En hiver, la lumière est rare et précieuse. Pour le rythme circadien de bébé qui se construit ET pour ton moral, sortir 20 min en milieu de journée est une priorité. Si vraiment impossible : pose-toi avec bébé près d'une fenêtre exposée sud 30 min."
-      },
-      "alimentation_maman": {
-        "titre": "Soutenir le post-partum en hiver",
-        "elements": [
-          "Soupes et bouillons : réconfort + hydratation (l'air sec déshydrate)",
-          "Légumes d'hiver : choux, courges, poireaux, carottes, betteraves",
-          "Agrumes : vitamine C contre la fatigue et les virus",
-          "Poissons gras (saumon, sardines) : oméga-3, vitamine D (rare dans l'alimentation)",
-          "Boissons chaudes en continu : tisanes, bouillons, eau chaude au citron",
-          "Compléments : ton médecin peut prescrire vitamine D pour toi en hiver",
-          "Aliments anti-anémie : viande rouge, lentilles, épinards (souvent anémie post-partum)"
-        ]
-      },
-      "moral_hiver": {
-        "titre": "Tenir le moral en hiver",
-        "actions": [
-          "Lampe de luminothérapie 10 000 lux : 20 min/matin si tu sens l'humeur baisser",
-          "Sortir EVEN s'il fait moche — la lumière du jour passe même par nuage",
-          "Activité physique douce dès 6 semaines : marche, yoga post-natal",
-          "Bouger toutes les 2h dans la maison : circulation + endorphines",
-          "Si tristesse persistante : le \"baby blues d'hiver\" augmenté par la saison sombre est traitable — consulter sans tarder"
-        ]
-      },
-      "amenagement_chambre": {
-        "titre": "Chambre d'hiver bien réglée",
-        "actions": [
-          "Température : 18-20°C, pas plus (le chauffage à 22°C+ déshydrate et favorise la MIN)",
-          "Hygrométrie : 50-60% — hygromètre indispensable",
-          "Si trop sec : humidificateur à froid (entretien strict)",
-          "Aération 10 min/jour : ouvrir grand, sortir bébé de la pièce pendant",
-          "Pas de couette, pas de coussin, pas de tour de lit (recommandations MIN)",
-          "Turbulette/gigoteuse adaptée à la température de la chambre"
-        ]
-      }
+        {
+          "titre": "Surveiller l'air sec du chauffage",
+          "ce_que_ca_apporte": "Le chauffage fait chuter le taux d'humidité sous 30%. Un air trop sec irrite les voies respiratoires fragiles de bébé et favorise les infections. Maintenir un taux d'humidité de 50-60% protège directement sa santé respiratoire.",
+          "comment": "Hygromètre dans la chambre (à 5 €) pour mesurer. Humidificateur à froid si trop sec, ou simplement un linge mouillé étendu sur le radiateur. Chambre maintenue à 18-20°C, jamais plus de 21°C. Vérifier le test de la nuque chaque nuit."
+        }
+      ]
     }
   }
 }

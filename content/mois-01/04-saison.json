@@ -1,0 +1,105 @@
+{
+  "mois": 1,
+  "tranche_age": "1 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 1 — L'Éveillé · Vivre la saison ensemble",
+  "description": "À 1 mois, bébé s'ouvre doucement au monde. Premiers sourires sociaux, regard qui accroche. Ses sorties peuvent s'allonger — toujours en lien avec ce que la saison permet. Deux repères pour cette saison-là, et un mémo d'habillage pour la nuit.",
+  "logique_selection": {
+    "regle": "À partir du mois 1, l'app sélectionne la version saisonnière selon le mois civil en cours (et non plus la saison de naissance).",
+    "mapping": {
+      "printemps": ["mars", "avril", "mai"],
+      "ete": ["juin", "juillet", "août"],
+      "automne": ["septembre", "octobre", "novembre"],
+      "hiver": ["décembre", "janvier", "février"]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année — pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "nourrisson",
+    "note_version": "À 1 mois, bébé régule encore mal sa température : on utilise le schéma 0-4 mois."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_01",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "L'air s'adoucit, la lumière dure plus longtemps, les oiseaux reviennent. Bébé commence à s'éveiller au monde — un timing parfait pour des sorties qui s'allongent.",
+      "a_savoir_cette_saison": "Les pollens sont à leur pic. Si tu es allergique ou si le co-parent l'est, surveille un nez qui coule clair ou des yeux qui pleurent chez bébé.\n\nLes UV remontent fort dès avril : protéger ses yeux et sa peau dès maintenant, même par temps couvert.",
+      "idees_du_moment": [
+        {
+          "titre": "Habiller en couches faciles à ajuster",
+          "ce_que_ca_apporte": "Au printemps, on peut passer de 10°C le matin à 22°C l'après-midi. Bébé ne sait pas encore réguler — un coup il a trop chaud (risque de déshydratation), un coup il a trop froid (risque d'infection). Pouvoir ajuster rapidement protège sa thermorégulation immature.",
+          "comment": "Toujours partir avec une couche en plus dans le sac : un petit gilet ou un body sans manches selon le contexte. Test de la nuque régulier (tiède = parfait). Sandales ou chaussons selon la météo du jour, pas de la veille."
+        },
+        {
+          "titre": "Sortir aux heures sans pollen",
+          "ce_que_ca_apporte": "Les pollens sont les plus concentrés en milieu de journée (10h-16h) et par temps sec et venteux. Si terrain allergique familial, sortir tôt le matin ou après une pluie protège bébé d'une sensibilisation précoce de ses voies respiratoires fragiles.",
+          "comment": "Privilégier les sorties avant 10h ou en fin de journée. Préférer les jours après la pluie (pollens lavés). Sites comme pollens.fr donnent la carte du jour gratuitement. Rincer le visage de bébé au retour si forte exposition."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_01",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "Le monde est lumineux, chaud, vivant. Bébé s'éveille au milieu de cette saison généreuse — toujours avec les précautions thermiques qui vont avec son âge.",
+      "a_savoir_cette_saison": "Sa peau reste extrêmement fine, ses yeux très sensibles : pas de soleil direct, jamais. L'ombre, le chapeau, les manches longues légères suffisent.\n\nIl ne transpire toujours pas bien, son risque de coup de chaleur reste réel. Pas d'eau avant 6 mois, c'est le lait qui hydrate.",
+      "idees_du_moment": [
+        {
+          "titre": "Sorties à la fraîcheur, ombre toute la journée",
+          "ce_que_ca_apporte": "Sa thermorégulation reste immature. Sortir aux heures fraîches (avant 10h, après 18h) lui évite le risque de coup de chaleur. Et il s'éveille mieux dans un environnement tempéré — la chaleur excessive le rend somnolent et irritable.",
+          "comment": "Sorties courtes uniquement aux heures fraîches. À l'ombre dense le reste du temps (jamais un soleil filtrant qui chauffe quand même). Capote de poussette baissée, chapeau bord large, manches longues légères en lin ou coton."
+        },
+        {
+          "titre": "Allaitement ou biberons plus fréquents",
+          "ce_que_ca_apporte": "Par forte chaleur, bébé se déshydrate vite et son risque est sérieux à cet âge. Augmenter la fréquence des tétées ou biberons (sans forcer la quantité) couvre ses besoins. Les signes d'une bonne hydratation : couches mouillées toutes les 3-4h, lèvres humides.",
+          "comment": "Par temps chaud, proposer le sein ou le biberon du lait toutes les 2-3h au lieu des 3-4h habituelles. Signes d'alerte : couches sèches sur 6h, fontanelle creuse, somnolence inhabituelle, pleurs sans larmes. Si ces signes apparaissent : appeler le 15."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_01",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "Les couleurs flambent, l'air sent l'humide et le bois. Bébé s'éveille dans une saison où il faut composer avec les premiers virus et la lumière qui décline.",
+      "a_savoir_cette_saison": "Les virus circulent activement (bronchiolite, rhinopharyngites). À 1 mois, son système immunitaire reste fragile — la vigilance sur les lieux fréquentés est toujours de mise.\n\nLa lumière décline vite. Pour bébé : son rythme circadien se construit encore. Pour toi : ton moral peut être affecté.",
+      "idees_du_moment": [
+        {
+          "titre": "Distinguer rhume banal et bronchiolite",
+          "ce_que_ca_apporte": "À 1 mois, une bronchiolite peut s'aggraver vite. Savoir reconnaître les signes d'alerte fait la différence entre une simple surveillance à domicile et une consultation en urgence — c'est l'un des savoirs essentiels du parent d'automne-hiver.",
+          "comment": "Rhume banal : nez qui coule clair, légère toux, mange et dort normalement → laver le nez au sérum physiologique, surveiller. Bronchiolite : respiration rapide (plus de 50/min), sifflante, creux entre les côtes, refus de manger sur 2 biberons d'affilée → SAMU (15) ou urgences pédiatriques."
+        },
+        {
+          "titre": "Lumière de mi-journée, chaque jour",
+          "ce_que_ca_apporte": "À 1 mois, son rythme circadien est en pleine construction. La lumière naturelle de mi-journée (10h-14h) est 100 fois plus intense que ton intérieur — c'est le moment le plus puissant pour caler ses futures nuits. Et pour ton moral aussi, c'est précieux.",
+          "comment": "20 minutes de sortie quotidienne entre 11h et 14h, même par temps couvert (la luminosité reste là). Choisis des chemins calmes plutôt que des zones très fréquentées (vigilance virus). Couvre bébé en couches faciles à ajuster, test de la nuque."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_01",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "Le froid s'installe, la lumière se fait rare, on a envie de se blottir. Bébé s'éveille dans cette saison du dedans — la vigilance virale et l'air sec demandent quelques précautions.",
+      "a_savoir_cette_saison": "Pic de virus respiratoires (bronchiolite, grippe, gastro). À 1 mois, son système immunitaire reste fragile : éviter les lieux clos bondés, gel hydroalcoolique pour les visiteurs.\n\nMoins de lumière = moins de dopamine. Sortir un peu chaque jour, même par grand froid, soutient ton moral.",
+      "idees_du_moment": [
+        {
+          "titre": "Sortir malgré le froid, à la lumière",
+          "ce_que_ca_apporte": "Le froid n'est pas l'ennemi — un nouveau-né bien couvert supporte parfaitement -2°C à -5°C pour 15-20 minutes. C'est l'enfermement total qui est délétère : pas de lumière naturelle = rythme jour-nuit qui ne se cale pas, et moral parental qui s'effondre.",
+          "comment": "20 minutes de sortie quotidienne entre 11h et 14h (heure la plus lumineuse). Bébé bien emmitouflé selon le mémo TOG nourrisson, plus couverture supplémentaire en poussette. Visage exposé à la lumière, protégé du vent direct. Test de la nuque au retour."
+        },
+        {
+          "titre": "Hygrométrie de la chambre",
+          "ce_que_ca_apporte": "Le chauffage fait chuter le taux d'humidité sous 30%. Un air trop sec irrite les voies respiratoires fragiles de bébé, favorise les infections et perturbe son sommeil. Maintenir 50-60% d'humidité protège directement sa santé respiratoire — un geste invisible mais majeur.",
+          "comment": "Hygromètre dans la chambre (à 5 €). Si trop sec : humidificateur à froid (entretien strict pour éviter les moisissures) ou simplement un linge mouillé sur le radiateur. Chambre à 18-20°C maximum. Aérer 10 minutes par jour, bébé dans une autre pièce pendant l'aération."
+        }
+      ]
+    }
+  }
+}
