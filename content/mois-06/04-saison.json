@@ -4,14 +4,31 @@
   "rubrique": "saison",
   "titre_rubrique": "Saison",
   "sous_titre": "Mois 6 — Le Réceptif · Vivre la saison ensemble",
-  "description": "À 6 mois, bébé s'ouvre aux saveurs nouvelles, aux textures, aux odeurs de la cuisine. La diversification commence — et la saison offre une palette différente à chaque période de l'année. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "description_m": "À 6 mois, {prenom} s'ouvre aux saveurs nouvelles, aux textures, aux odeurs de la cuisine. La diversification commence — et la saison offre une palette différente à chaque période de l'année. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "description_f": "À 6 mois, {prenom} s'ouvre aux saveurs nouvelles, aux textures, aux odeurs de la cuisine. La diversification commence — et la saison offre une palette différente à chaque période de l'année. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
   "logique_selection": {
     "regle": "À 6 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
     "mapping": {
-      "printemps": ["mars", "avril", "mai"],
-      "ete": ["juin", "juillet", "août"],
-      "automne": ["septembre", "octobre", "novembre"],
-      "hiver": ["décembre", "janvier", "février"]
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
     }
   },
   "habillage_nuit_memo": {
@@ -27,11 +44,11 @@
       "couleur_accent": "#27500A",
       "emoji": "🌱",
       "ambiance": "Les premiers légumes nouveaux arrivent sur les étals : asperges, petits pois, radis, carottes nouvelles. Le printemps est une saison parfaite pour commencer à découvrir les saveurs.",
-      "a_savoir_cette_saison": "Les pollens sont à leur pic. Si terrain allergique familial, surveille un nez qui coule clair ou des yeux qui pleurent — l'allergie peut aussi s'exprimer différemment (eczéma qui s'aggrave).\n\nLes UV remontent fort : chapeau et ombre dès maintenant, même par temps couvert.",
+      "a_savoir_cette_saison": "Avec le printemps, les tiques se réveillent dans les hautes herbes, sous-bois, parcs arborés. Vérifier bébé après chaque sortie en nature (plis du cou, derrière les oreilles, l'arrière des genoux, le cuir chevelu). Une tique trouvée dans les 24h se retire sans risque avec un tire-tique.\n\nLes sorties s'allongent : pense à protéger ses yeux du soleil qui s'intensifie.",
       "idees_du_moment": [
         {
-          "titre": "Première purée d'un légume nouveau",
-          "texte": "À 6 mois, sa fenêtre de réceptivité aux saveurs est ouverte — c'est le moment de présenter une variété maximale. Les légumes de printemps (carotte nouvelle, courgette, petits pois, asperge) ont des saveurs douces et délicates, idéales pour démarrer. Choisis un légume frais au marché, cuit à la vapeur, mixé lisse, pas de sel. Une nouvelle saveur tous les 3-4 jours pour repérer une éventuelle allergie."
+          "titre": "L'éveil aux herbes aromatiques",
+          "texte": "À 6 mois, son olfaction est très fine et marque profondément sa mémoire affective. Un pot de menthe, basilic, romarin ou thym sur le rebord d'une fenêtre devient son premier petit jardin sensoriel. Bébé assis dans tes bras face au pot, froisse une feuille entre tes doigts et approche tes doigts à 10 cm de son nez. Nomme. Laisse aussi sa main plonger dans la terre du pot — cette exposition mesurée aux microbes du sol éduque son système immunitaire en construction. Mains pleines de terre dans la bouche en petite quantité : pas dangereux, même protecteur."
         },
         {
           "titre": "Le marché des couleurs",
@@ -45,7 +62,7 @@
       "couleur_accent": "#633806",
       "emoji": "☀️",
       "ambiance": "Tomates juteuses, melon parfumé, pêches sucrées, courgettes tendres. L'été est une saison généreuse en saveurs et en eau — exactement ce dont bébé a besoin pour démarrer.",
-      "a_savoir_cette_saison": "Sa peau reste fine, ses yeux sensibles : pas de soleil direct, jamais. L'ombre, le chapeau, les manches longues légères.\n\nPar forte chaleur, propose le sein ou le biberon de lait plus souvent. À 6 mois, tu peux commencer à proposer un peu d'eau plate à la cuillère ou au verre.",
+      "a_savoir_cette_saison": "Les insectes piqueurs sont à leur pic : moustiques le soir, abeilles et guêpes autour des fruits et des boissons sucrées. Une moustiquaire sur la poussette ou la nacelle est l'option la plus simple et la plus sûre à cet âge. Pour les répulsifs, demande conseil au pharmacien.\n\nPar forte chaleur, propose le sein ou le biberon de lait plus souvent. À 6 mois, tu peux aussi commencer à proposer un peu d'eau plate à la cuillère ou au verre, en complément.",
       "idees_du_moment": [
         {
           "titre": "Première bouchée de melon",
@@ -63,11 +80,11 @@
       "couleur_accent": "#C0723A",
       "emoji": "🍂",
       "ambiance": "Potimarrons, châtaignes, pommes, poires, betteraves — l'automne est une explosion de saveurs douces et réconfortantes. Une saison parfaite pour démarrer la diversification.",
-      "a_savoir_cette_saison": "Les virus circulent. Si quelqu'un est malade à la maison, gel hydroalcoolique et pas de bisous sur le visage de bébé.\n\nLa lumière décline. Pour toi : sortir un peu chaque jour quand il fait clair soutient ton moral.",
+      "a_savoir_cette_saison": "Le passage à l'heure d'hiver fin octobre peut désorganiser son rythme jour-nuit en pleine construction. Anticiper en décalant progressivement de 10-15 minutes par jour les 3-4 jours qui précèdent : siestes, repas, coucher. Plus doux que le saut d'une heure d'un coup.\n\nMaintenir des sorties extérieures à la lumière du jour aide aussi à recaler son horloge interne.",
       "idees_du_moment": [
         {
-          "titre": "Première purée de potimarron",
-          "texte": "À 6 mois, sa fenêtre de réceptivité aux saveurs est ouverte. Les légumes d'automne sont des cadeaux pour démarrer : potimarron, butternut, carotte ancienne, betterave — saveurs douces, riches en bêta-carotène, faciles à digérer. Démarrer avec les légumes de la saison crée un lien direct entre ce qu'il mange et ce qu'il voit dans la nature. Cuit à la vapeur (avec la peau, elle est fine), mixé lisse, pas de sel."
+          "titre": "Le tas de feuilles à explorer assis",
+          "texte": "À 6 mois, si bébé tient assis seul (sinon cale-le contre toi) — l'occasion d'une première vraie position d'observateur dehors. Installe-le au bord d'un grand tas de feuilles propres dans un parc ou un jardin. Un monde nouveau s'ouvre : il peut prendre une feuille, l'examiner, la déchirer, voir ses voisins virevolter au vent. Surveillance rapprochée — tout va à la bouche."
         },
         {
           "titre": "Cuisiner avec lui face à toi",
@@ -81,11 +98,11 @@
       "couleur_accent": "#486878",
       "emoji": "❄️",
       "ambiance": "Soupes qui mijotent, mandarines parfumées, compotes de poires, vanille et cannelle. L'hiver est une saison cocon où les saveurs réconfortantes accompagnent la diversification.",
-      "a_savoir_cette_saison": "Pic de virus respiratoires. Gel hydroalcoolique pour les visiteurs et pas de bisous sur le visage.\n\nMoins de lumière = moins de dopamine. Sortir un peu chaque jour quand il fait clair soutient ton moral.",
+      "a_savoir_cette_saison": "À 6 mois, bébé commence à se retourner, à se déplacer. C'est le bon moment pour faire un tour de la maison à quatre pattes — littéralement — pour repérer ce qui devient à sa portée : prises électriques (cache-prises), coins de meubles, fils qui traînent, plantes en pot à hauteur du sol.\n\nQualité de l'air intérieur : aérer 10 minutes par jour malgré le froid, éviter les bougies parfumées et les diffuseurs d'huiles essentielles, qui chargent l'air en particules fines.",
       "idees_du_moment": [
         {
-          "titre": "Première cuillère de compote de poire",
-          "texte": "À 6 mois, sa fenêtre de réceptivité aux saveurs est ouverte. La poire d'hiver est l'un des fruits les plus doux, faciles à digérer, peu allergisants — idéale pour démarrer. Le sucre naturel de la poire (proche de celui du lait) est rassurant pour lui. Choisis une poire bien mûre (Conférence, Comice), pochée à l'eau ou cuite au four sans sucre ajouté, mixée lisse. Une nouvelle saveur tous les 3-4 jours."
+          "titre": "La boîte à textures de Noël",
+          "texte": "À 6 mois, sa pince palmaire s'affine et il adore explorer ce qui est nouveau au toucher. Une petite boîte en carton remplie de matières de la saison des fêtes : une boule en feutrine, un ruban en velours, une petite branche de houx (sans baies — toxiques), un papier de soie, un morceau de pomme de pin. Il sort, examine, repose, recommence. Mémoire tactile saisonnière en construction."
         },
         {
           "titre": "L'odeur d'une mandarine pelée",

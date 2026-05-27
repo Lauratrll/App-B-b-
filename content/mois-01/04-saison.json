@@ -4,14 +4,31 @@
   "rubrique": "saison",
   "titre_rubrique": "Saison",
   "sous_titre": "Mois 1 — L'Éveillé · Vivre la saison ensemble",
-  "description": "À 1 mois, bébé s'ouvre doucement au monde. Premiers sourires sociaux, regard qui accroche. Ses sorties peuvent s'allonger — toujours en lien avec ce que la saison permet. Deux repères pour cette saison-là, et un mémo d'habillage pour la nuit.",
+  "description_m": "À 1 mois, {prenom} s'ouvre doucement au monde. Premiers sourires sociaux, regard qui accroche. Ses sorties peuvent s'allonger — toujours en lien avec ce que la saison permet. Deux repères pour cette saison-là, et un mémo d'habillage pour la nuit.",
+  "description_f": "À 1 mois, {prenom} s'ouvre doucement au monde. Premiers sourires sociaux, regard qui accroche. Ses sorties peuvent s'allonger — toujours en lien avec ce que la saison permet. Deux repères pour cette saison-là, et un mémo d'habillage pour la nuit.",
   "logique_selection": {
     "regle": "À partir du mois 1, l'app sélectionne la version saisonnière selon le mois civil en cours (et non plus la saison de naissance).",
     "mapping": {
-      "printemps": ["mars", "avril", "mai"],
-      "ete": ["juin", "juillet", "août"],
-      "automne": ["septembre", "octobre", "novembre"],
-      "hiver": ["décembre", "janvier", "février"]
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
     }
   },
   "habillage_nuit_memo": {
@@ -27,7 +44,7 @@
       "couleur_accent": "#27500A",
       "emoji": "🌱",
       "ambiance": "L'air s'adoucit, la lumière dure plus longtemps, les oiseaux reviennent. Bébé commence à s'éveiller au monde — un timing parfait pour des sorties qui s'allongent.",
-      "a_savoir_cette_saison": "Les pollens sont à leur pic. Si tu es allergique ou si le co-parent l'est, surveille un nez qui coule clair ou des yeux qui pleurent chez bébé.\n\nLes UV remontent fort dès avril : protéger ses yeux et sa peau dès maintenant, même par temps couvert.",
+      "a_savoir_cette_saison": "À 1 mois, ses premiers sourires sociaux apparaissent — le printemps est une saison parfaite pour les capter en face à face. Privilégie le portage face à toi (écharpe nouée serrée, porte-bébé physiologique) plutôt que la poussette : il voit ton visage, capte tes expressions, ses neurones miroirs s'activent.\n\nLes pollens sont à leur pic. Si terrain allergique familial, surveille un nez qui coule clair ou des yeux qui pleurent chez bébé.",
       "idees_du_moment": [
         {
           "titre": "Habiller en couches faciles à ajuster",
@@ -53,7 +70,7 @@
         },
         {
           "titre": "Allaitement ou biberons plus fréquents",
-          "texte": "Par forte chaleur, bébé se déshydrate vite et son risque est sérieux à cet âge. Augmenter la fréquence des tétées ou biberons (sans forcer la quantité) couvre ses besoins. Signes d'alerte à connaître : couches sèches sur 6h, fontanelle creuse, somnolence inhabituelle, pleurs sans larmes. Si ces signes apparaissent, appeler le 15."
+          "texte": "Par forte chaleur, bébé se déshydrate vite et son risque est sérieux à cet âge. Augmenter la fréquence des tétées ou biberons (sans forcer la quantité) couvre ses besoins. Un repère simple à connaître : si sa fontanelle se creuse, c'est un signe de déshydratation — appeler le 15."
         }
       ]
     },

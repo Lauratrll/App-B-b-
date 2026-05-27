@@ -4,14 +4,31 @@
   "rubrique": "saison",
   "titre_rubrique": "Saison",
   "sous_titre": "Mois 0 — Le Lové · Protéger bébé dans sa première saison",
-  "description": "Bébé vient d'arriver. La saison où il naît détermine ses premières précautions — lumière, températures, virus, allergènes. Deux repères de bon sens pour cette saison-là, et un mémo d'habillage pour la nuit.",
+  "description_m": "{prenom} vient d'arriver. La saison où il naît détermine ses premières précautions — lumière, températures, virus, allergènes. Deux repères de bon sens pour cette saison-là, et un mémo d'habillage pour la nuit.",
+  "description_f": "{prenom} vient d'arriver. La saison où elle naît détermine ses premières précautions — lumière, températures, virus, allergènes. Deux repères de bon sens pour cette saison-là, et un mémo d'habillage pour la nuit.",
   "logique_selection": {
     "regle": "Au mois 0, l'app sélectionne la version selon la saison de naissance de bébé. Il restera dans cette saison pendant ses 4 premières semaines, avant de basculer sur le mois civil en cours dès le mois 1.",
     "mapping": {
-      "printemps": ["mars", "avril", "mai"],
-      "ete": ["juin", "juillet", "août"],
-      "automne": ["septembre", "octobre", "novembre"],
-      "hiver": ["décembre", "janvier", "février"]
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
     }
   },
   "habillage_nuit_memo": {

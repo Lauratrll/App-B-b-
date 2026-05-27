@@ -4,14 +4,31 @@
   "rubrique": "saison",
   "titre_rubrique": "Saison",
   "sous_titre": "Mois 2 — Le Communicant · Vivre la saison ensemble",
-  "description": "À 2 mois, bébé vocalise, son audition s'affine, il s'ouvre aux sons du monde. La saison change ce qu'il peut entendre, sentir, vivre dehors. Deux idées simples à explorer ensemble, et un mémo d'habillage pour la nuit.",
+  "description_m": "À 2 mois, {prenom} vocalise, son audition s'affine, il s'ouvre aux sons du monde. La saison change ce qu'il peut entendre, sentir, vivre dehors. Deux idées simples à explorer ensemble, et un mémo d'habillage pour la nuit.",
+  "description_f": "À 2 mois, {prenom} vocalise, son audition s'affine, elle s'ouvre aux sons du monde. La saison change ce qu'elle peut entendre, sentir, vivre dehors. Deux idées simples à explorer ensemble, et un mémo d'habillage pour la nuit.",
   "logique_selection": {
     "regle": "À 2 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
     "mapping": {
-      "printemps": ["mars", "avril", "mai"],
-      "ete": ["juin", "juillet", "août"],
-      "automne": ["septembre", "octobre", "novembre"],
-      "hiver": ["décembre", "janvier", "février"]
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
     }
   },
   "habillage_nuit_memo": {

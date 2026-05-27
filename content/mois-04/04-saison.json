@@ -4,14 +4,31 @@
   "rubrique": "saison",
   "titre_rubrique": "Saison",
   "sous_titre": "Mois 4 — Le Découvreur · Vivre la saison ensemble",
-  "description": "À 4 mois, bébé attrape ce qu'il voit, porte tout à la bouche, découvre le monde par les mains. La saison lui offre des textures, des odeurs, des sensations à explorer. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "description_m": "À 4 mois, {prenom} attrape ce qu'il voit, porte tout à la bouche, découvre le monde par les mains. La saison lui offre des textures, des odeurs, des sensations à explorer. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "description_f": "À 4 mois, {prenom} attrape ce qu'elle voit, porte tout à la bouche, découvre le monde par les mains. La saison lui offre des textures, des odeurs, des sensations à explorer. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
   "logique_selection": {
     "regle": "À 4 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
     "mapping": {
-      "printemps": ["mars", "avril", "mai"],
-      "ete": ["juin", "juillet", "août"],
-      "automne": ["septembre", "octobre", "novembre"],
-      "hiver": ["décembre", "janvier", "février"]
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
     }
   },
   "habillage_nuit_memo": {

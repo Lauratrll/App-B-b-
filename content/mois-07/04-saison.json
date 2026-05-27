@@ -4,14 +4,31 @@
   "rubrique": "saison",
   "titre_rubrique": "Saison",
   "sous_titre": "Mois 7 — Le Mobile · Vivre la saison ensemble",
-  "description": "À 7 mois, bébé se retourne, pousse sur ses bras, commence à se déplacer. Le sol devient son territoire d'exploration. La saison change ce qu'il peut y rencontrer — herbe, sable, tapis, parquet. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "description_m": "À 7 mois, {prenom} se retourne, pousse sur ses bras, commence à se déplacer. Le sol devient son territoire d'exploration. La saison change ce qu'il peut y rencontrer — herbe, sable, tapis, parquet. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "description_f": "À 7 mois, {prenom} se retourne, pousse sur ses bras, commence à se déplacer. Le sol devient son territoire d'exploration. La saison change ce qu'elle peut y rencontrer — herbe, sable, tapis, parquet. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
   "logique_selection": {
     "regle": "À 7 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
     "mapping": {
-      "printemps": ["mars", "avril", "mai"],
-      "ete": ["juin", "juillet", "août"],
-      "automne": ["septembre", "octobre", "novembre"],
-      "hiver": ["décembre", "janvier", "février"]
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
     }
   },
   "habillage_nuit_memo": {
@@ -27,15 +44,15 @@
       "couleur_accent": "#27500A",
       "emoji": "🌱",
       "ambiance": "L'herbe est tendre, le sol s'est réchauffé, les pâquerettes piquettent les pelouses. Une saison idéale pour ses premiers retournements et reptations dehors.",
-      "a_savoir_cette_saison": "Les pollens sont à leur pic. Si terrain allergique familial, surveille un nez qui coule clair ou des yeux qui pleurent.\n\nÀ 7 mois, bébé porte tout à la bouche — vigilance accrue sur ce qu'il peut attraper au sol en extérieur.",
+      "a_savoir_cette_saison": "À 7 mois, il rampe et tout va à la bouche : avant de le poser dehors, vérifier qu'aucune plante toxique n'est à sa portée (muguet, jonquille, laurier-rose, hortensia). Privilégier les pelouses entretenues sans engrais ni pesticide.\n\nLes tiques sont actives dans les hautes herbes et les sous-bois — vérifier bébé après chaque sortie en nature (plis du cou, derrière les oreilles, cuir chevelu).",
       "idees_du_moment": [
         {
           "titre": "Le tapis d'herbe pour rouler",
           "texte": "À 7 mois, le retournement ventre-dos et dos-ventre devient sa grande fierté. Une pelouse tendre offre une surface idéale pour s'entraîner — moelleuse, naturelle, beaucoup plus stimulante qu'un tapis d'intérieur. L'odeur de l'herbe écrasée et la lumière du printemps ajoutent une couche sensorielle qu'aucun tapis d'éveil ne peut offrir. Pose-le en couche ou short léger sur un plaid, avec un jouet à 30-40 cm de lui pour donner envie."
         },
         {
-          "titre": "Attraper des pâquerettes",
-          "texte": "À 7 mois, sa pince inférieure (pouce-doigts) s'affine — il commence à attraper des objets plus petits, plus précis. Les pâquerettes dans l'herbe sont à la fois visuellement contrastées (blanc sur vert), à sa portée quand il est à plat ventre, et juste assez fragiles pour résister un peu à sa prise. Parfait entraînement de la motricité fine en plein air. Surveille — la fleur peut finir en bouche (les pâquerettes ne sont pas toxiques, mais vigilance générale)."
+          "titre": "Le ciel de printemps au-dessus de lui",
+          "texte": "À 7 mois, le retournement dos-ventre lui ouvre un nouvel angle de vue. Allonge-le sur un grand plaid au milieu d'un parc, à l'ombre légère d'un arbre. Au-dessus : des nuages qui défilent, des branches en fleurs ou en jeunes feuilles qui dessinent des graphismes contre le ciel, parfois un oiseau qui traverse. Spectacle visuel changeant et apaisant — bien plus riche qu'un mobile d'intérieur. Commente à voix haute ce qu'il voit (« le nuage tout blanc », « l'oiseau qui passe ») : c'est ainsi qu'il associe les mots aux choses."
         }
       ]
     },
@@ -45,15 +62,15 @@
       "couleur_accent": "#633806",
       "emoji": "☀️",
       "ambiance": "Le sable, l'herbe sèche, les planches de la terrasse à l'ombre — l'été multiplie les surfaces à explorer pour un bébé qui commence à se déplacer.",
-      "a_savoir_cette_saison": "Sa peau reste fine, ses yeux sensibles : pas de soleil direct, jamais. L'ombre, le chapeau, les manches longues légères.\n\nPar forte chaleur, propose le sein ou le biberon de lait plus souvent. Tu peux aussi proposer de l'eau plate à la cuillère ou au verre, en complément.",
+      "a_savoir_cette_saison": "À 7 mois, il commence à se déplacer — et l'été multiplie les surfaces brûlantes en plein soleil : dalle de terrasse, sable, tôle d'un toboggan. Toujours tester la température avec ta main avant de l'y poser, même à l'ombre quelques minutes plus tôt.\n\nAbords de piscine : la noyade chez le tout-petit est silencieuse et rapide (quelques cm d'eau suffisent). Une présence adulte permanente au bord, même si bébé ne sait pas encore se mettre debout.",
       "idees_du_moment": [
         {
           "titre": "Les premiers déplacements sur l'herbe",
           "texte": "À 7 mois, il commence à se déplacer (reptation, début quatre pattes). Le sol naturel d'une pelouse offre une accroche idéale pour ses mains et ses genoux — bien meilleure qu'un parquet glissant. L'air libre et l'ombre fraîche favorisent son endurance motrice, et il peut explorer une surface plus grande qu'à l'intérieur. Place un jouet attirant à 50 cm de lui, encourage du regard et de la voix, sans le tirer."
         },
         {
-          "titre": "Sable frais à l'ombre",
-          "texte": "À 7 mois, sa motricité s'affirme et il adore les surfaces variées. Le sable frais à l'ombre (jamais au soleil — il peut atteindre 60°C) est une matière incroyable : il se déplace sous ses mains, il garde la trace, il s'infiltre entre ses doigts. Stimulation tactile, proprioceptive et exploration active réunies. Pose-le à plat ventre près du sable, montre-lui en plongeant ta main, laisse-le explorer. Surveille la bouche en permanence."
+          "titre": "L'écorce des arbres en été",
+          "texte": "À 7 mois, il rampe et ses mains rencontrent toutes les textures qui passent. L'écorce de différents arbres (platane lisse, chêne rugueux, bouleau qui pèle) offre une bibliothèque tactile incroyable à l'ombre des grands parcs. Bébé porté ou à quatre pattes, approche-le successivement de plusieurs troncs, guide sa main, nomme. Bonus : le lichen, la mousse, et la microfaune de l'écorce sont des cadeaux pour son système immunitaire en construction."
         }
       ]
     },
@@ -70,8 +87,8 @@
           "texte": "À 7 mois, ramper sur des feuilles est une expérience tactile incroyable : elles craquent, glissent, se déchirent, libèrent leur odeur. C'est aussi un excellent terrain pour ses premiers déplacements — plus stimulant qu'un tapis lisse. Et la lumière dorée d'automne sur les feuilles offre un cadre visuellement somptueux. Choisis un parc avec une zone de feuilles propres, sans gros marrons et glands au sol. Privilégie un moment court (15-20 min)."
         },
         {
-          "titre": "Vigilance sur les marrons et glands",
-          "texte": "À 7 mois, mobilité + réflexe d'attraper-porter à la bouche = vraie zone de risque. Avant de poser bébé au sol en extérieur, balaie du regard la zone dans un rayon d'un mètre. Enlève tout objet plus petit qu'une balle de ping-pong. Si tu veux qu'il manipule des trésors d'automne, présente-les toi dans ta main — jamais au sol à sa portée. Si tu as un aîné, lui expliquer aussi."
+          "titre": "La cueillette des pommes",
+          "texte": "À 7 mois, son regard suit ce que tu fais avec une intensité nouvelle. Une promenade dans un verger ou sous un pommier de jardin : tu cueilles une pomme devant lui, tu en croques une bouchée, tu lui en fais sentir l'odeur, tu poses une pomme dans sa main (assez grosse pour ne pas être avalée) pour qu'il la tienne quelques secondes. Geste agricole transmis sans un mot. La microfaune des fruits et l'air des vergers nourrissent son immunité."
         }
       ]
     },
@@ -81,7 +98,7 @@
       "couleur_accent": "#486878",
       "emoji": "❄️",
       "ambiance": "Le tapis du salon devient son territoire principal. Mais la neige, la vitre froide, la couette épaisse offrent aussi de nouvelles textures à explorer.",
-      "a_savoir_cette_saison": "Pic de virus respiratoires. Gel hydroalcoolique pour les visiteurs et pas de bisous sur le visage.\n\nMoins de lumière = moins de dopamine. Sortir un peu chaque jour quand il fait clair soutient ton moral et son rythme.",
+      "a_savoir_cette_saison": "À 7 mois, il rampe au sol — qui en hiver est froid et plein de courants d'air. Chaussettes antidérapantes (qui tiennent les pieds et ne glissent pas), tapis épais dans la zone d'éveil, vigilance sur les courants d'air sous les portes.\n\nDernière vigilance : sa zone de reptation s'étend chaque semaine. Vérifier régulièrement à hauteur de son regard ce qui est à sa portée — prises, fils, plantes, petits objets.",
       "idees_du_moment": [
         {
           "titre": "Le parcours d'oreillers et couvertures",

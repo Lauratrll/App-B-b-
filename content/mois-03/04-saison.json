@@ -4,14 +4,31 @@
   "rubrique": "saison",
   "titre_rubrique": "Saison",
   "sous_titre": "Mois 3 — L'Attentif · Vivre la saison ensemble",
-  "description": "À 3 mois, bébé tient sa tête, suit du regard, s'ouvre au monde. La saison change ce qu'il peut voir, sentir, toucher. Deux idées simples à explorer ensemble, et un mémo d'habillage pour la nuit.",
+  "description_m": "À 3 mois, {prenom} tient sa tête, suit du regard, s'ouvre au monde. La saison change ce qu'il peut voir, sentir, toucher. Deux idées simples à explorer ensemble, et un mémo d'habillage pour la nuit.",
+  "description_f": "À 3 mois, {prenom} tient sa tête, suit du regard, s'ouvre au monde. La saison change ce qu'elle peut voir, sentir, toucher. Deux idées simples à explorer ensemble, et un mémo d'habillage pour la nuit.",
   "logique_selection": {
     "regle": "À 3 mois, l'app sélectionne la version saisonnière selon le mois civil en cours (et non plus la saison de naissance).",
     "mapping": {
-      "printemps": ["mars", "avril", "mai"],
-      "ete": ["juin", "juillet", "août"],
-      "automne": ["septembre", "octobre", "novembre"],
-      "hiver": ["décembre", "janvier", "février"]
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
     }
   },
   "habillage_nuit_memo": {
@@ -34,8 +51,8 @@
           "texte": "À 3 mois, son suivi oculaire s'affine vite. Les forts contrastes blanc-sur-vert d'une pelouse fleurie sont parfaits pour cet entraînement visuel naturel — bien plus stimulants qu'un mobile en plastique. Pose-le dans tes bras ou sur un plaid près d'un coin d'herbe. Approche doucement une pâquerette à environ 30 cm de ses yeux et déplace-la lentement, de gauche à droite. Tu verras ses yeux la suivre."
         },
         {
-          "titre": "Bain de lumière du matin",
-          "texte": "La lumière reçue le matin sur la peau et les yeux cale son rythme circadien en construction. C'est l'un des leviers les plus puissants pour l'aider à mieux dormir la nuit — et c'est gratuit. Dix à quinze minutes près d'une fenêtre ouverte, sur le pas de la porte ou en balade, visage et mains exposés sans soleil direct dans les yeux. Même par temps couvert, la lumière fait son effet."
+          "titre": "Souffler sur ses cheveux",
+          "texte": "Au printemps, un bébé de 3 mois peut enfin sortir tête nue dans la douceur de l'air. Souffler doucement sur le sommet de sa tête, ses cheveux, ses joues devient un jeu simple ancré dans la saison de la brise. À 3 mois, il devient capable d'associer la sensation (air frais) à la source (ton visage qui souffle). Petite boucle de cause à effet en construction. Tu peux varier l'intensité, faire des pauses — souvent ça le fait sourire."
         }
       ]
     },

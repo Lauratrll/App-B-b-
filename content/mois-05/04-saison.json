@@ -4,14 +4,31 @@
   "rubrique": "saison",
   "titre_rubrique": "Saison",
   "sous_titre": "Mois 5 — Le Joueur · Vivre la saison ensemble",
-  "description": "À 5 mois, bébé rit aux éclats, anticipe ton retour, attend la suite. C'est le mois du jeu partagé, des surprises douces, des réjouissances. La saison offre mille petits moments à savourer avec lui. Deux idées simples à explorer ensemble, et un mémo d'habillage pour la nuit.",
+  "description_m": "À 5 mois, {prenom} rit aux éclats, anticipe ton retour, attend la suite. C'est le mois du jeu partagé, des surprises douces, des réjouissances. La saison offre mille petits moments à savourer avec lui. Deux idées simples à explorer ensemble, et un mémo d'habillage pour la nuit.",
+  "description_f": "À 5 mois, {prenom} rit aux éclats, anticipe ton retour, attend la suite. C'est le mois du jeu partagé, des surprises douces, des réjouissances. La saison offre mille petits moments à savourer avec elle. Deux idées simples à explorer ensemble, et un mémo d'habillage pour la nuit.",
   "logique_selection": {
     "regle": "À 5 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
     "mapping": {
-      "printemps": ["mars", "avril", "mai"],
-      "ete": ["juin", "juillet", "août"],
-      "automne": ["septembre", "octobre", "novembre"],
-      "hiver": ["décembre", "janvier", "février"]
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
     }
   },
   "habillage_nuit_memo": {
@@ -27,7 +44,7 @@
       "couleur_accent": "#27500A",
       "emoji": "🌱",
       "ambiance": "Le vent souffle, les choses dansent dehors, les tintements se réveillent. Le printemps regorge de petits spectacles prévisibles qui font rire un bébé Joueur.",
-      "a_savoir_cette_saison": "Les pollens sont à leur pic en avril-mai. Si terrain allergique familial, surveille un nez qui coule clair ou des yeux qui pleurent.\n\nLes UV remontent fort : chapeau et ombre dès maintenant, même par temps couvert.",
+      "a_savoir_cette_saison": "Le printemps marque les premières grandes sorties en famille élargie, pique-niques, terrasses. À 5 mois, bébé sourit aux inconnus avec délice — c'est normal et précieux, mais reste son baromètre : s'il détourne le visage ou pleure, c'est qu'il a sa dose, écoute-le.",
       "idees_du_moment": [
         {
           "titre": "Le moulin à vent",
@@ -45,11 +62,11 @@
       "couleur_accent": "#633806",
       "emoji": "☀️",
       "ambiance": "L'eau qui éclabousse, les rires d'enfants au loin, les bruits de jardin — l'été est une saison de joie partagée, parfaite pour un bébé qui découvre le plaisir du jeu.",
-      "a_savoir_cette_saison": "Sa peau reste fine, ses yeux sensibles : pas de soleil direct, jamais. L'ombre, le chapeau, les manches longues légères suffisent.\n\nPar forte chaleur, propose le sein ou le biberon de lait plus souvent. Pas d'eau avant 6 mois.",
+      "a_savoir_cette_saison": "À 5 mois, ses mains attrapent ce qui passe — vigilance sur les objets d'été à portée (lunettes de soleil, crème solaire, brindille sur la nappe).\n\nLa chaleur le fatigue plus vite que toi : si tu as chaud, lui aussi. Une pause à l'ombre toutes les heures, c'est un bon rythme.",
       "idees_du_moment": [
         {
-          "titre": "Éclaboussures dans la bassine",
-          "texte": "À 5 mois, bébé adore quand ses gestes provoquent un effet. Frapper l'eau avec ses mains produit du bruit, des gouttes, des éclaboussures, parfois des rires de ta part. La boucle joyeuse est complète : il agit, le monde répond, tu réagis. Installe à l'ombre une bassine d'eau tiède peu profonde, assieds-le dans tes bras, ses mains ou ses pieds dans l'eau. Frappe la surface toi-même d'abord — il observe, puis il copie."
+          "titre": "Les mains dans la terre du jardin",
+          "texte": "À 5 mois, bébé porte tout à la bouche — et c'est précisément cette exposition mesurée aux microbes du sol qui éduque son système immunitaire en construction. Une poignée de terre fraîche d'un jardin (pas de pot avec engrais ni traités) sous ses mains est l'un des meilleurs cadeaux qu'on puisse lui faire pour ses futures défenses. Bébé dans tes bras face à un coin de terre meuble, ou allongé sur un plaid avec une assiette de terre à portée. Laisse-le tâtonner, observer ses mains brunes. La terre dans la bouche en petite quantité n'est pas dangereuse — c'est même protecteur contre les allergies."
         },
         {
           "titre": "L'eau qui coule sur ses pieds",
@@ -63,7 +80,7 @@
       "couleur_accent": "#C0723A",
       "emoji": "🍂",
       "ambiance": "Le vent qui fait virevolter les feuilles, les flaques après la pluie, les premiers feux qui crépitent. Une saison pleine de petites surprises pour un bébé qui joue à attendre la suite.",
-      "a_savoir_cette_saison": "Les virus circulent. Si quelqu'un est malade à la maison, gel hydroalcoolique avant de toucher bébé et pas de bisous sur le visage.\n\nLa lumière décline. Pour toi : sortir un peu chaque jour quand il fait clair soutient ton moral.",
+      "a_savoir_cette_saison": "À 5 mois, la diversification approche : c'est le bon moment pour qu'il commence à observer la cuisine, voir les couleurs des aliments, sentir les odeurs. Le mois pour préparer doucement le terrain.\n\nLes températures chutent : passe à des vêtements à manches longues même les jours doux — sa thermorégulation reste fragile.",
       "idees_du_moment": [
         {
           "titre": "Lancer une feuille dans le vent",
@@ -81,7 +98,7 @@
       "couleur_accent": "#486878",
       "emoji": "❄️",
       "ambiance": "Les guirlandes lumineuses qui clignotent, les ombres qui dansent sur les murs, les odeurs d'épices. L'hiver offre des spectacles doux et répétitifs — exactement ce qui fait sourire un bébé Joueur.",
-      "a_savoir_cette_saison": "Pic de virus respiratoires (bronchiolite, grippe). Gel hydroalcoolique pour les visiteurs et pas de bisous sur le visage.\n\nMoins de lumière = moins de dopamine. Sortir un peu chaque jour quand il fait clair soutient ton moral.",
+      "a_savoir_cette_saison": "À 5 mois, ses temps d'éveil s'allongent et son regard cherche tout ce qui bouge. L'hiver intérieur multiplie l'exposition aux écrans (télé en fond, téléphones) : à cet âge ils captent son attention au détriment des interactions humaines qui le nourrissent vraiment. Aucun écran avant 3 ans, c'est la règle qui change tout.\n\nPour toi : pense à aérer la chambre 10 min par jour malgré le froid.",
       "idees_du_moment": [
         {
           "titre": "Les guirlandes lumineuses qui clignotent",
