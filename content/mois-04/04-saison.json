@@ -1,0 +1,105 @@
+{
+  "mois": 4,
+  "tranche_age": "4 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 4 — Le Découvreur · Vivre la saison ensemble",
+  "description": "À 4 mois, bébé attrape ce qu'il voit, porte tout à la bouche, découvre le monde par les mains. La saison lui offre des textures, des odeurs, des sensations à explorer. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "logique_selection": {
+    "regle": "À 4 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": ["mars", "avril", "mai"],
+      "ete": ["juin", "juillet", "août"],
+      "automne": ["septembre", "octobre", "novembre"],
+      "hiver": ["décembre", "janvier", "février"]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année — pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À partir de 4 mois, bébé régule mieux sa température : on bascule sur le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_04",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "L'herbe est tendre, les premières fleurs s'ouvrent, tout sent bon le renouveau. Une saison parfaite pour les mains qui s'ouvrent et veulent toucher.",
+      "a_savoir_cette_saison": "Les pollens sont à leur pic en avril-mai. Si terrain allergique familial, surveille un nez qui coule clair ou des yeux qui pleurent.\n\nÀ 4 mois, bébé porte tout à la bouche — vigilance sur ce qu'il peut attraper en extérieur (cailloux, petits objets, plantes toxiques en pot).",
+      "idees_du_moment": [
+        {
+          "titre": "La main dans l'herbe tendre",
+          "ce_que_ca_apporte": "À 4 mois, sa préhension devient volontaire — il ouvre la main, attrape, lâche. L'herbe tendre du printemps est une matière idéale : douce, fraîche, qui résiste juste assez. Cette exploration tactile câble des milliers de connexions dans son cortex sensoriel. Et l'herbe ne va pas tomber dans sa bouche (contrairement aux feuilles d'automne).",
+          "comment": "Pose-le sur le dos sur un plaid au bord d'une pelouse tendre (pas haute, sans trèfle si terrain allergique). Approche doucement sa main de l'herbe, laisse-le découvrir. Observe : il caresse, agrippe, parfois arrache une touffe. Reste près de lui, certaines herbes peuvent finir à la bouche."
+        },
+        {
+          "titre": "L'odeur des fleurs et des feuilles",
+          "ce_que_ca_apporte": "À 4 mois, son odorat continue de se raffiner. Les odeurs concentrées du printemps (lilas, glycine, menthe fraîche, romarin en fleur) créent des ancrages olfactifs durables — il associera ces odeurs à des sensations agréables, à toi, à cette saison. C'est un cadeau pour sa mémoire sensorielle.",
+          "comment": "En promenade, bébé en écharpe ou en poussette, arrête-toi près d'un arbuste odorant. Froisse une feuille (menthe, romarin, lavande) entre tes doigts, approche-la à 10-15 cm de son nez. Nomme : « ça sent la menthe ». Tu peux faire la même chose avec un bouquet à la maison."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_04",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'eau, le sable, l'ombre des feuillages — l'été déborde de textures à explorer avec les mains et la bouche. Saison parfaite pour un bébé Découvreur.",
+      "a_savoir_cette_saison": "Sa peau reste très fine, ses yeux sensibles : pas de soleil direct, jamais. L'ombre, le chapeau, les manches longues légères suffisent.\n\nPar forte chaleur, propose le sein ou le biberon de lait plus souvent — il se déshydrate vite. Pas d'eau avant 6 mois.",
+      "idees_du_moment": [
+        {
+          "titre": "Les mains qui plongent dans l'eau fraîche",
+          "ce_que_ca_apporte": "À 4 mois, il découvre que ses mains lui obéissent. L'eau est l'une des matières les plus fascinantes pour son cerveau : elle change de forme, fait du bruit, se laisse traverser. Et le contraste de fraîcheur sur ses paumes affine sa perception thermique — un sens encore en construction.",
+          "comment": "À l'ombre, en fin de matinée, installe une bassine ou un petit bac d'eau tiède (température baignade, jamais froide à cet âge). Bébé dans tes bras ou sur tes genoux. Trempe doucement ses mains, laisse-le frapper, agiter. 5-10 minutes suffisent. Sèche bien après."
+        },
+        {
+          "titre": "Le chapeau, son premier accessoire d'été",
+          "ce_que_ca_apporte": "À 4 mois, sa peau ne fabrique toujours pas de mélanine en quantité suffisante. Lui faire accepter le chapeau dès maintenant en fait une habitude pour toute son enfance — et le protège réellement (capote de poussette ne suffit pas). Bonus : il commence à pouvoir tenir un chapeau souple sur sa tête sans le rejeter systématiquement.",
+          "comment": "Choisis un chapeau bord large, souple, en coton léger, avec un cordon ajustable sous le menton. Mets-le-lui pour de courts moments d'abord, sans le forcer. Tu peux mettre toi aussi un chapeau — bébé imite déjà. Renouveler la crème solaire minérale toutes les 2h sur les zones non couvertes."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_04",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "Marrons lisses, pommes de pin rugueuses, mousse douce, écorces craquelées — l'automne offre une bibliothèque de textures inégalée pour des mains qui veulent tout toucher.",
+      "a_savoir_cette_saison": "À 4 mois, bébé porte tout à la bouche — réflexe naturel d'exploration mais vigilance accrue à cette saison.\n\nLes virus circulent. Si quelqu'un est malade à la maison, gel hydroalcoolique avant de toucher bébé et pas de bisous sur le visage.",
+      "idees_du_moment": [
+        {
+          "titre": "Le panier de textures d'automne",
+          "ce_que_ca_apporte": "À 4 mois, sa préhension devient précise — il attrape volontairement, examine, lâche. L'automne offre des textures incroyablement variées dans un rayon d'un kilomètre : marrons lisses et durs, pommes de pin piquantes, mousse veloutée, écorce rugueuse. Chaque texture câble une zone différente de son cortex sensoriel.",
+          "comment": "Lors d'une promenade, rapporte 4-5 trésors d'automne (jamais de petits objets qu'il pourrait avaler — marrons et glands non, trop dangereux). Privilégier : grande pomme de pin, morceau d'écorce, branche couverte de mousse. Présente-les un par un, à 30 cm de ses yeux. Surveille en permanence — rien ne va dans la bouche."
+        },
+        {
+          "titre": "Attention aux petits objets qui rentrent en bouche",
+          "ce_que_ca_apporte": "À 4 mois, le réflexe d'attraper-porter à la bouche est à son pic. C'est merveilleux pour la découverte mais dangereux en extérieur d'automne : marrons, glands, petits cailloux, morceaux de plastique. La règle du « plus petit qu'un tube de pellicule » (35 mm de diamètre) trie automatiquement ce qui est dangereux.",
+          "comment": "En promenade, balayer du regard la zone où tu poses bébé (poussette, plaid, banc). Si tu veux qu'il manipule des objets nature, présente-les TOI dans ta main — jamais au sol à sa portée. Si tu as un aîné, lui expliquer aussi : les marrons sont jolis mais dangereux pour bébé."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_04",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "Le froid sur les joues, le moelleux des grosses moufles, la fenêtre embuée — l'hiver est plein de contrastes thermiques et tactiles à découvrir avec lui.",
+      "a_savoir_cette_saison": "Pic de virus respiratoires (bronchiolite, grippe). Gel hydroalcoolique pour les visiteurs et pas de bisous sur le visage.\n\nMoins de lumière = moins de dopamine. Sortir un peu chaque jour quand il fait clair soutient ton moral.",
+      "idees_du_moment": [
+        {
+          "titre": "La main sur la vitre embuée",
+          "ce_que_ca_apporte": "À 4 mois, il découvre que ses mouvements ont des effets sur le monde. Une vitre embuée par la condensation est magique pour lui : il pose sa paume, ça laisse une trace ; il enlève, la trace est là. Première expérience de cause à effet visuelle — fondation de toute compréhension du monde physique.",
+          "comment": "Un matin froid, quand la condensation s'est formée sur une vitre, tiens-le debout face à la fenêtre, ses paumes au niveau du verre. Pose ta main d'abord, fais une empreinte. Puis aide-le à poser la sienne. Observe son visage quand il découvre la trace. Recommence."
+        },
+        {
+          "titre": "Le contraste chaud-froid des mains",
+          "ce_que_ca_apporte": "À 4 mois, sa perception thermique s'affine — il commence à différencier chaud et froid sur sa peau. L'hiver offre des contrastes très marqués sans danger : la chaleur d'une tisane (le verre, pas la boisson), le froid d'une vitre, le tiède de tes mains. Ces variations rapides câblent finement son sens thermique.",
+          "comment": "Installé contre toi, présente-lui successivement (à toucher de la main, pas à porter à la bouche) : ta tasse de tisane tiède (pas chaude), une vitre froide, tes mains réchauffées. Nomme : « c'est chaud », « c'est froid ». Quelques minutes, observe ses réactions — pupilles, sourcils, sourire de surprise."
+        }
+      ]
+    }
+  }
+}
