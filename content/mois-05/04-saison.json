@@ -1,0 +1,105 @@
+{
+  "mois": 5,
+  "tranche_age": "5 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 5 — Le Joueur · Vivre la saison ensemble",
+  "description": "À 5 mois, bébé rit aux éclats, anticipe ton retour, attend la suite. C'est le mois du jeu partagé, des surprises douces, des réjouissances. La saison offre mille petits moments à savourer avec lui. Deux idées simples à explorer ensemble, et un mémo d'habillage pour la nuit.",
+  "logique_selection": {
+    "regle": "À 5 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": ["mars", "avril", "mai"],
+      "ete": ["juin", "juillet", "août"],
+      "automne": ["septembre", "octobre", "novembre"],
+      "hiver": ["décembre", "janvier", "février"]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année — pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À partir de 4 mois, bébé régule mieux sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_05",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Le vent souffle dans les feuilles, les pétales tombent, les bulles légères dansent dans l'air. Le printemps regorge de petits spectacles imprévisibles — exactement ce qui fait rire un bébé Joueur.",
+      "a_savoir_cette_saison": "Les pollens sont à leur pic en avril-mai. Si terrain allergique familial, surveille un nez qui coule clair ou des yeux qui pleurent.\n\nLes UV remontent fort : chapeau et ombre dès maintenant, même par temps couvert.",
+      "idees_du_moment": [
+        {
+          "titre": "Les pétales qui tombent",
+          "ce_que_ca_apporte": "À 5 mois, bébé adore les surprises visuelles douces et l'anticipation. Les pétales qui tombent d'un arbre en fleurs (cerisier, pommier, magnolia) sont imprévisibles mais inoffensifs — chaque pétale qui descend en virevoltant déclenche son attention, parfois un rire. C'est aussi un grand moment poétique pour toi.",
+          "comment": "Sous un arbre en fleurs un jour de léger vent, allonge-le sur un plaid ou tiens-le dans tes bras face au feuillage. Si rien ne tombe naturellement, secoue doucement une branche basse au-dessus de lui. Observe ses yeux qui suivent, ses rires de surprise. Recommence."
+        },
+        {
+          "titre": "Le jeu des bulles de savon",
+          "ce_que_ca_apporte": "À 5 mois, le jeu de coucou prend tout son sens — l'attente, l'apparition, la disparition. Les bulles de savon poussent ce mécanisme à son apogée : elles apparaissent, montent, brillent, éclatent. Anticipation, attention soutenue, fous rires garantis. Un des grands jeux de cet âge.",
+          "comment": "À l'extérieur (jamais en intérieur, le savon irrite les yeux), bébé assis dans ton giron ou en transat. Souffle des bulles légères à 50 cm au-dessus de lui. Évite de les faire éclater sur son visage. Tu peux verbaliser : « oh, encore une ! ». Quelques minutes suffisent, observe son émerveillement."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_05",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'eau qui éclabousse, les rires d'enfants au loin, les bruits de jardin — l'été est une saison de joie partagée, parfaite pour un bébé qui découvre le plaisir du jeu.",
+      "a_savoir_cette_saison": "Sa peau reste fine, ses yeux sensibles : pas de soleil direct, jamais. L'ombre, le chapeau, les manches longues légères suffisent.\n\nPar forte chaleur, propose le sein ou le biberon de lait plus souvent. Pas d'eau avant 6 mois.",
+      "idees_du_moment": [
+        {
+          "titre": "Éclaboussures dans la bassine",
+          "ce_que_ca_apporte": "À 5 mois, bébé adore quand ses gestes provoquent un effet — cause à effet en pleine construction. Frapper l'eau avec ses mains produit du bruit, des gouttes, des éclaboussures, parfois des rires de ta part. La boucle joyeuse est complète : il agit, le monde répond, tu réagis. Il recommence pour le plaisir.",
+          "comment": "À l'ombre, en fin de matinée, installe une bassine d'eau tiède peu profonde. Assieds bébé dans tes bras (il ne tient pas encore assis seul), ses pieds ou ses mains dans l'eau. Frappe d'abord toi-même la surface — il observe. Laisse-le frapper ensuite. Ris avec lui."
+        },
+        {
+          "titre": "L'ombre qui bouge",
+          "ce_que_ca_apporte": "À 5 mois, ses fixations visuelles s'allongent et il commence à saisir le concept de mouvement. L'ombre des feuilles qui dansent sur le sol ou sur un mur est un spectacle visuel mouvant et apaisant — il peut le contempler longuement. Bonus : si tu fais bouger ta main devant le soleil, ton ombre devient un théâtre rien que pour lui.",
+          "comment": "Installe-toi avec lui à l'ombre dense d'un arbre, où le soleil filtre à travers les feuilles. Pose-le sur un plaid face au sol éclairé, ou contre toi face à un mur. Laisse-le observer. Tu peux passer ta main dans le faisceau de lumière — ton ombre bouge, ses yeux suivent."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_05",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "Le vent qui fait virevolter les feuilles, les flaques après la pluie, les premiers feux qui crépitent. Une saison pleine de petites surprises pour un bébé qui joue à attendre la suite.",
+      "a_savoir_cette_saison": "Les virus circulent. Si quelqu'un est malade à la maison, gel hydroalcoolique avant de toucher bébé et pas de bisous sur le visage.\n\nLa lumière décline. Pour toi : sortir un peu chaque jour quand il fait clair soutient ton moral.",
+      "idees_du_moment": [
+        {
+          "titre": "Lancer une feuille dans le vent",
+          "ce_que_ca_apporte": "À 5 mois, l'attente joyeuse et l'anticipation sont à leur pic. Lancer une feuille en l'air, observer sa trajectoire imprévisible, attendre qu'elle retombe — c'est exactement le mécanisme d'apparition/disparition qui le fait rire. Et le vent d'automne rend chaque lancer différent, donc toujours surprenant.",
+          "comment": "Lors d'une promenade, ramasse une grande feuille bien sèche. Bébé dans tes bras ou en écharpe face à toi. Montre-lui la feuille (« regarde ! »), puis lance-la en l'air à 1 mètre devant vous. Observe son visage qui suit la chute. Recommence avec une nouvelle feuille."
+        },
+        {
+          "titre": "L'odeur du pain chaud, des pommes cuites",
+          "ce_que_ca_apporte": "À 5 mois, son olfaction est très fine et marque profondément sa mémoire affective. Les odeurs chaudes et sucrées de l'automne (pain qui sort du four, pommes au cidre, châtaignes grillées, soupe de potimarron) créent des ancrages durables — il associera ces odeurs à cette saison, à la maison, à toi.",
+          "comment": "Quand tu cuisines ou que tu rentres avec du pain chaud, prends-le dans tes bras et approche-toi des sources d'odeur (à distance de sécurité de la cuisson). Nomme : « ça sent les pommes au four ». Tu peux aussi acheter au marché un sachet de châtaignes grillées et lui faire sentir."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_05",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "Les guirlandes lumineuses qui clignotent, les flocons qui descendent, les odeurs d'épices. L'hiver offre des spectacles doux et répétitifs — exactement ce qui fait sourire un bébé Joueur.",
+      "a_savoir_cette_saison": "Pic de virus respiratoires (bronchiolite, grippe). Gel hydroalcoolique pour les visiteurs et pas de bisous sur le visage.\n\nMoins de lumière = moins de dopamine. Sortir un peu chaque jour quand il fait clair soutient ton moral.",
+      "idees_du_moment": [
+        {
+          "titre": "Les guirlandes lumineuses qui clignotent",
+          "ce_que_ca_apporte": "À 5 mois, son attention soutenue grandit et il adore les répétitions prévisibles. Les guirlandes lumineuses qui clignotent doucement (jamais en mode stroboscopique rapide) offrent un spectacle visuel hypnotique et apaisant — pic d'attention, sourires, parfois rires. C'est aussi un beau moment partagé en cette saison cocon.",
+          "comment": "En fin de journée quand il fait sombre, installe-toi avec lui face à une guirlande de lumières chaudes au rythme lent (pas de clignotement épileptique). Bébé dans tes bras ou en transat. Quelques minutes, le temps qu'il observe et réagisse. Tu peux nommer : « regarde, ça brille »."
+        },
+        {
+          "titre": "Le premier flocon sur sa joue",
+          "ce_que_ca_apporte": "Si l'hiver le permet, voir et sentir tomber les premiers flocons est un moment magique à 5 mois — un flocon froid qui se pose et disparaît sur sa main ou sa joue, c'est exactement le mécanisme d'apparition/disparition qui le ravit. Et toi aussi, sans doute.",
+          "comment": "Un jour de neige légère, bien emmitouflé, sors quelques minutes avec lui en écharpe ou dans tes bras. Tends ta main paume vers le ciel, attrape un flocon, montre-le-lui de près. Puis pose un flocon sur le dos de sa main gantée ou sur sa joue (très brièvement). Observe sa réaction de surprise."
+        }
+      ]
+    }
+  }
+}

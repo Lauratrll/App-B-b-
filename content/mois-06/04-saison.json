@@ -3,8 +3,8 @@
   "tranche_age": "6 mois",
   "rubrique": "saison",
   "titre_rubrique": "Saison",
-  "sous_titre": "Mois 6 — Adapter la diversification et les sorties à la saison",
-  "description": "À 6 mois, bébé démarre la diversification — et la saison devient un partenaire de choix : les légumes et fruits frais de saison sont les plus simples à introduire. Les retournements actifs ouvrent les sorties au sol (couverture sur l'herbe, plus seulement en poussette). Les premières dents pointent — chaleur ou froid peut amplifier la gêne. L'app sélectionne automatiquement la version correspondant au mois civil en cours.",
+  "sous_titre": "Mois 6 — Le Réceptif · Vivre la saison ensemble",
+  "description": "À 6 mois, bébé s'ouvre aux saveurs nouvelles, aux textures, aux odeurs de la cuisine. La diversification commence — et la saison offre une palette différente à chaque période de l'année. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
   "logique_selection": {
     "regle": "À 6 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
     "mapping": {
@@ -12,477 +12,94 @@
       "ete": ["juin", "juillet", "août"],
       "automne": ["septembre", "octobre", "novembre"],
       "hiver": ["décembre", "janvier", "février"]
-    },
-    "transition": "Lors du changement de saison, proposer une transition douce à partir de la dernière semaine du mois précédent."
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année — pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 6 mois, bébé régule mieux sa température : on utilise le schéma 4 mois et plus."
   },
   "versions": {
     "printemps": {
-      "id": "saison_printemps",
-      "titre": "Mois 6 au printemps (mars-avril-mai)",
-      "ambiance": "Lumière généreuse, températures variables, allergènes en pic — diversification facilitée par les premiers légumes nouveaux",
+      "id": "saison_printemps_06",
       "couleur_theme": "#EAF3DE",
-      "couleur_accent": "#7BA82F",
+      "couleur_accent": "#27500A",
       "emoji": "🌱",
-      "ancrage": "À 6 mois au printemps, tu peux profiter de l'allongement des journées et de l'arrivée des premiers légumes frais de saison. Bébé tient mieux la tête, supporte des sorties plus longues, et son intérêt pour le monde extérieur s'amplifie.",
-      "principes": [
-        "Démarrer la diversification avec les légumes printaniers (asperges tendres, courgettes nouvelles, jeunes pousses d'épinards) — saveurs douces et adaptées",
-        "Pollens en pic : vigilance allergique chez bébé si parents allergiques (toux sèche, conjonctivite, éternuements répétés)",
-        "Lumière qui s'allonge : aide à régler l'horloge interne en pleine maturation, mais nécessite des rideaux occultants pour le sommeil",
-        "Variation thermique matin/après-midi forte : habillage en couches indispensable, surtout pour les sorties"
-      ],
-      "habillage": {
-        "principe": "Toujours UNE couche de plus que toi pour les sorties — bébé en motricité libre brûle moins de calories qu'en mouvement actif",
-        "guide_temperature": [
-          {
-            "temperature": "5-10°C",
-            "tenue": "Body manches longues + pyjama coton + combinaison polaire + bonnet + chaussons. Couverture supplémentaire en poussette."
-          },
-          {
-            "temperature": "10-15°C",
-            "tenue": "Body manches longues + pyjama + petit gilet ou polaire fine + bonnet pour sortie. Couverture légère sur les jambes en poussette."
-          },
-          {
-            "temperature": "15-20°C",
-            "tenue": "Body manches longues + pyjama léger ou combinaison coton + bonnet fin si vent."
-          },
-          {
-            "temperature": "20-25°C",
-            "tenue": "Body manches courtes + pantalon léger ou body seul. Chapeau à bord large dès que le soleil tape. Crème solaire bébé indice 50 sur les zones exposées dès avril."
-          }
-        ]
-      },
-      "sorties": {
-        "frequence_conseillee": "1 à 2 sorties/jour, 45 min à 1h30 selon la météo",
-        "moments_ideaux": [
-          "10h-12h : lumière douce, températures correctes, pic de pollens plus faible que l'après-midi",
-          "15h-17h : avant la fraîcheur du soir",
-          "Éviter 7h-9h (frais et humide) et après 17h30 (humidité du soir)"
-        ],
-        "lieux_recommandes": [
-          "Parc avec couverture au sol — bébé peut profiter d'un temps de motricité libre à l'extérieur",
-          "Promenade en forêt si peu allergique aux pollens — sons de la nature stimulent l'oreille",
-          "Premiers cafés en terrasse ombragée — bébé s'éveille au babillage ambiant",
-          "Marchés de plein air le matin — découverte sensorielle (couleurs, odeurs des fruits/légumes)"
-        ],
-        "equipement": [
-          "Poussette avec capote — ombre permanente sur le visage de bébé",
-          "Porte-bébé physiologique : à 6 mois, bébé peut être porté face au monde si soutien adapté — alterner avec face à toi pour éviter la sur-stimulation",
-          "Couverture épaisse à étendre au sol — pour les pauses motricité libre dehors",
-          "Sac : couches, lingettes, change, eau pour toi, petits contenants pour les purées de saison",
-          "Crème solaire bébé indice 50 dès avril, chapeau à bord large"
-        ]
-      },
-      "diversification_de_saison": {
-        "titre": "Légumes et fruits du printemps à introduire",
-        "intro": "Le printemps offre des saveurs douces idéales pour les premiers pas dans la diversification. Légumes cuits à la vapeur, mixés très lisse au début, puis écrasés à la fourchette à partir de 7 mois selon la tolérance de bébé.",
-        "legumes_prioritaires": [
-          "Courgette nouvelle (très digeste, douce) — semaine 1-2",
-          "Carotte nouvelle (douce, naturellement sucrée) — semaine 1-2",
-          "Asperge verte tendre (saveur fine) — semaine 3-4",
-          "Jeune épinard (riche en fer, à mélanger pour adoucir) — semaine 4-5",
-          "Petit pois nouveau (frais, mixé très lisse) — semaine 5-6"
-        ],
-        "fruits_prioritaires": [
-          "Pomme cuite douce (introduction classique) — dès le démarrage",
-          "Poire (très digeste, douce) — semaine 2-3",
-          "Premières fraises mûres écrasées (à partir de 7 mois, vigilance si terrain allergique familial)",
-          "Rhubarbe (toujours cuite, mélangée à de la pomme pour adoucir)"
-        ],
-        "vigilance_allergies": "Introduire un seul aliment nouveau à la fois, sur 3 jours, en observant les réactions (rougeurs, vomissements, diarrhée, irritabilité inhabituelle). Les fraises et les fruits rouges sont à introduire avec prudence si terrain allergique familial."
-      },
-      "particularites_sante": {
-        "vigilance": [
-          "Allergies polliniques : toux sèche persistante, larmoiement, conjonctivite, éternuements en rafale → consulter le pédiatre",
-          "UV en hausse dès avril : peau de bébé toujours très perméable, ombre permanente obligatoire, crème solaire indice 50 sur zones exposées",
-          "Variations thermiques brutales matin/après-midi : risque de rhumes saisonniers — habillage en couches",
-          "Premier vrai été qui approche : commencer à augmenter l'hydratation (eau proposée en complément des biberons/tétées)"
-        ],
-        "signes_consultation": [
-          "Toux persistante + nez qui coule depuis > 48h",
-          "Sifflement respiratoire ou tirage (creux entre les côtes) → 15",
-          "Conjonctivite récidivante (œil rouge et collé) — possible allergie pollinique",
-          "Éruption cutanée après introduction d'un aliment → arrêter l'aliment et consulter"
-        ],
-        "vitamine_d": "Supplémentation à poursuivre quotidiennement même avec l'arrivée du soleil — peau de bébé encore très couverte"
-      },
-      "rituel_lumiere": {
-        "titre": "Pause lumière matinale en motricité libre",
-        "duree": "20-30 min",
-        "moment": "Entre 9h et 11h",
-        "description": "Étendre une couverture épaisse près d'une fenêtre lumineuse (lumière indirecte, pas de soleil direct). Bébé sur le dos puis sur le ventre, exposé à la lumière naturelle. C'est le moment idéal pour la motricité libre du matin — la lumière du printemps active la sécrétion de sérotonine et règle progressivement l'horloge circadienne. 30 min suffisent."
-      },
-      "alimentation_maman": {
-        "titre": "Soutenir le post-partum au printemps",
-        "elements": [
-          "Légumes verts de saison (épinards, blettes, asperges) — riches en fer, anti-anémie post-partum encore d'actualité à 6 mois",
-          "Premières fraises et fruits rouges — antioxydants pour la fatigue cumulative",
-          "Hydratation : températures qui montent, déshydratation discrète possible — viser 1,5 à 2 L d'eau/jour, plus si allaitement",
-          "Marche extérieure 30 min/jour : vitamine D + remise en route circulation + élévation de l'humeur (saisonnalité du moral)"
-        ]
-      }
+      "ambiance": "Les premiers légumes nouveaux arrivent sur les étals : asperges, petits pois, radis, carottes nouvelles. Le printemps est une saison parfaite pour commencer à découvrir les saveurs.",
+      "a_savoir_cette_saison": "Les pollens sont à leur pic. Si terrain allergique familial, surveille un nez qui coule clair ou des yeux qui pleurent — l'allergie peut aussi s'exprimer différemment (eczéma qui s'aggrave).\n\nLes UV remontent fort : chapeau et ombre dès maintenant, même par temps couvert.",
+      "idees_du_moment": [
+        {
+          "titre": "Première purée d'un légume nouveau",
+          "ce_que_ca_apporte": "À 6 mois, sa fenêtre de réceptivité aux saveurs est ouverte — c'est le moment de présenter une variété maximale. Les légumes de printemps (carotte nouvelle, courgette, petits pois, asperge) ont des saveurs douces et délicates, idéales pour démarrer. Lui faire goûter ce que la saison offre crée un lien sensoriel direct avec la nature.",
+          "comment": "Choisis un légume frais de saison au marché. Cuit à la vapeur, mixé lisse avec un peu d'eau de cuisson, pas de sel. Une cuillère après le biberon ou la tétée, dans un moment calme. Présente-lui le légume entier d'abord (laisse-le toucher), nomme. Une saveur à la fois pendant 3-4 jours pour repérer une éventuelle allergie."
+        },
+        {
+          "titre": "Le marché des couleurs",
+          "ce_que_ca_apporte": "À 6 mois, son cerveau associe images, odeurs et saveurs — c'est exactement le moment où il bénéficie d'aller voir ce qu'il va manger. Le marché de printemps regorge de couleurs vives (radis rose, asperge violette, jeunes carottes orange) et d'odeurs concentrées. Cette exposition multisensorielle nourrit son éveil au goût en construction.",
+          "comment": "Porte-le en écharpe ou en porte-bébé face à toi, balade-toi lentement entre les étals. Arrête-toi à un stand de légumes, prends un radis dans ta main et fais-le-lui sentir. Nomme : « c'est un radis, on en fera demain ». Le simple fait d'avoir vu et senti l'aliment l'aidera à le reconnaître à table."
+        }
+      ]
     },
     "ete": {
-      "id": "saison_ete",
-      "titre": "Mois 6 en été (juin-juillet-août)",
-      "ambiance": "Chaleur intense, soleil fort, sécheresse — vigilance thermique majeure et démarrage de diversification adapté",
+      "id": "saison_ete_06",
       "couleur_theme": "#FAEEDA",
-      "couleur_accent": "#D4A04C",
+      "couleur_accent": "#633806",
       "emoji": "☀️",
-      "ancrage": "À 6 mois en été, ton bébé peut se déshydrater très rapidement, supporte mal la chaleur, et démarre la diversification en parallèle. La saison te demande de la vigilance — mais elle offre aussi les meilleurs légumes et fruits pour les premières découvertes alimentaires.",
-      "principes": [
-        "Déshydratation = risque n°1 — proposer de l'eau plate à la cuillère ou au verre dès les premières chaleurs",
-        "Soleil direct INTERDIT avant 1 an — ombre permanente, même sous la capote, vérifier les rayons obliques",
-        "Tétées et biberons plus fréquents par chaleur — augmentation physiologique de la demande hydrique",
-        "Diversification estivale : les meilleurs légumes et fruits de l'année — saveurs sucrées et fraîches naturellement"
-      ],
-      "habillage": {
-        "principe": "Aussi peu que possible, mais TOUJOURS un body en coton pour absorber la transpiration",
-        "guide_temperature": [
-          {
-            "temperature": "18-22°C",
-            "tenue": "Body manches courtes + pyjama léger ou pantalon coton. Pas de bonnet."
-          },
-          {
-            "temperature": "22-26°C",
-            "tenue": "Body manches courtes + short en coton ou robe légère. Chapeau à bord large pour la sortie."
-          },
-          {
-            "temperature": "26-30°C",
-            "tenue": "Body manches courtes ou body sans manches + culotte légère. Chapeau obligatoire. Aérer souvent la couche."
-          },
-          {
-            "temperature": "> 30°C",
-            "tenue": "Body sans manches en coton léger. Rester en intérieur frais (climatisation modérée 24-25°C ou ventilateur déporté). Aérer la couche très souvent."
-          }
-        ]
-      },
-      "sorties": {
-        "frequence_conseillee": "Éviter les sorties entre 11h et 17h en juillet-août — privilégier tôt le matin et fin d'après-midi",
-        "moments_ideaux": [
-          "7h-10h : températures encore fraîches, lumière douce — sortie longue possible",
-          "18h-20h : après la chaleur, balade tranquille",
-          "Éviter strictement 11h-17h : risque de coup de chaleur même à l'ombre"
-        ],
-        "lieux_recommandes": [
-          "Parc ombragé tôt le matin — couverture au sol pour la motricité libre",
-          "Bord d'eau (rivière, lac, mer) : trempette des pieds OK, baignade complète déconseillée avant 6 mois révolus",
-          "Intérieurs frais : médiathèque, musée, centre commercial (limité à 1h pour éviter la sur-stimulation)",
-          "Éviter terrasses en plein soleil même avec parasol — la chaleur monte du sol"
-        ],
-        "equipement": [
-          "Poussette avec voilage anti-UV (jamais de tissu sur la capote — effet four)",
-          "Brumisateur d'eau pure (visage, nuque, poignets) à utiliser plusieurs fois par sortie",
-          "Bouteille d'eau pour bébé : eau plate, à proposer à la cuillère ou au petit verre (dès 6 mois la diversification autorise l'eau)",
-          "Crème solaire bébé indice 50 minéral, à renouveler toutes les 2h, sur les zones exposées (visage, mains, pieds)",
-          "Chapeau à bord large, lunettes de soleil bébé certifiées (catégorie 3 ou 4)"
-        ]
-      },
-      "diversification_de_saison": {
-        "titre": "Légumes et fruits de l'été à introduire",
-        "intro": "L'été offre les saveurs les plus douces et les plus hydratantes — idéales pour les premiers repas. Cuisson à la vapeur courte pour préserver les vitamines, mixé très lisse au début.",
-        "legumes_prioritaires": [
-          "Courgette d'été (très hydratante, douce) — semaine 1-2",
-          "Carotte (douce, naturellement sucrée) — semaine 1-2",
-          "Aubergine sans peau (saveur fine, à cuire bien) — semaine 3-4",
-          "Tomate sans peau et sans pépins (acide, à introduire avec prudence) — semaine 4-5",
-          "Petits pois frais du jardin (mixés lisses) — semaine 5-6"
-        ],
-        "fruits_prioritaires": [
-          "Pêche bien mûre (sucrée, hydratante) — dès le démarrage",
-          "Abricot bien mûr (saveur fine) — semaine 2-3",
-          "Pastèque (très hydratante, à donner mixée en petites quantités)",
-          "Melon (très digeste, hydratant) — semaine 3-4",
-          "Brugnon, prune (à partir de 7 mois, en compote)"
-        ],
-        "vigilance_allergies": "Tomate, fruits exotiques (mangue, kiwi) : à introduire après 8 mois si terrain allergique familial. Toujours un aliment nouveau à la fois, sur 3 jours d'observation."
-      },
-      "particularites_sante": {
-        "vigilance": [
-          "Coup de chaleur : peau rouge et chaude, agitation puis somnolence, refus de boire → URGENCE 15",
-          "Déshydratation : moins de 5 couches mouillées/jour, bouche sèche, yeux creux, pleurs sans larmes → consulter en urgence",
-          "Brûlure solaire : même 10 min de soleil direct sur peau de bébé peut brûler → ombre permanente",
-          "Gastro-entérite estivale : selles très liquides multiples + vomissements → risque rapide de déshydratation, consulter dans la journée"
-        ],
-        "signes_consultation": [
-          "Fièvre > 38,5°C sans cause apparente en été → consulter (déshydratation associée)",
-          "Couches mouillées < 5/jour ou couches sèches plus de 6h",
-          "Diarrhée + vomissements répétés → consulter rapidement (déshydratation)",
-          "Peau qui ne reprend pas sa forme en pinçant doucement le ventre → déshydratation, URGENCE 15"
-        ],
-        "vitamine_d": "Supplémentation à poursuivre quotidiennement — l'exposition directe au soleil reste interdite, donc le soleil ne couvre pas les besoins"
-      },
-      "rituel_fraicheur": {
-        "titre": "Bain frais du milieu de journée",
-        "duree": "5-7 min",
-        "moment": "Entre 13h et 15h, au pic de chaleur",
-        "description": "Bain à 33-34°C (frais, pas froid) pendant 5-7 min. Pièce ventilée (ventilateur déporté, pas dirigé). Après le bain, ne pas sécher complètement le corps — laisser un peu d'humidité s'évaporer pour rafraîchir. Habillage léger. Suivre d'un moment au calme dans la pièce la plus fraîche de la maison."
-      },
-      "alimentation_maman": {
-        "titre": "Soutenir le post-partum en été",
-        "elements": [
-          "Hydratation maximale : 2 à 3 L d'eau par jour, plus si allaitement (qui augmente les pertes hydriques)",
-          "Fruits et légumes frais et hydratants (pastèque, concombre, melon, tomate) — antioxydants et eau",
-          "Repas frais et fractionnés : 5 petits repas plutôt que 3 gros — meilleure tolérance digestive en chaleur",
-          "Sortie matinale 30 min avant 10h : lumière douce, fraîcheur, vitamine D sans risque",
-          "Sieste l'après-midi si possible (15-30 min) — la fatigue thermique s'ajoute à la fatigue parentale"
-        ]
-      }
+      "ambiance": "Tomates juteuses, melon parfumé, pêches sucrées, courgettes tendres. L'été est une saison généreuse en saveurs et en eau — exactement ce dont bébé a besoin pour démarrer.",
+      "a_savoir_cette_saison": "Sa peau reste fine, ses yeux sensibles : pas de soleil direct, jamais. L'ombre, le chapeau, les manches longues légères.\n\nPar forte chaleur, propose le sein ou le biberon de lait plus souvent. À 6 mois, tu peux commencer à proposer un peu d'eau plate à la cuillère ou au verre.",
+      "idees_du_moment": [
+        {
+          "titre": "Première bouchée de melon",
+          "ce_que_ca_apporte": "À 6 mois, bébé adore les saveurs sucrées naturelles — c'est physiologique, le lait maternel est sucré. Le melon d'été est doux, juteux, gorgé d'eau (utile par forte chaleur), riche en bêta-carotène. Une saveur de l'été qui marquera durablement sa mémoire affective et l'introduit en douceur aux fruits de saison.",
+          "comment": "Choisis un melon mûr à point. Une petite cuillère de purée fine (mixée lisse) ou un bâtonnet ferme à laisser sucer (DME), après la tétée ou le biberon. Dans un moment calme, à l'ombre fraîche. Observe ses mimiques — surprise, plaisir, recrachement parfois. Tout est normal."
+        },
+        {
+          "titre": "Les pieds dans le sable frais",
+          "ce_que_ca_apporte": "À 6 mois, son sens proprioceptif (la conscience de son corps dans l'espace) est en pleine construction. Le sable frais (jamais brûlant) sous ses pieds nus offre une stimulation tactile incroyablement riche — chaque grain envoie un signal différent à son cortex. C'est aussi un moment de pause apaisante en pleine chaleur.",
+          "comment": "Tôt le matin ou en fin de journée, à l'ombre sur une plage ou dans un grand bac de sable, déchausse-le et tiens-le debout (il ne tient pas encore seul). Laisse ses pieds frôler, puis appuyer doucement sur le sable frais. Observe ses orteils qui s'écartent, sa réaction. Bien rincer après pour éviter toute irritation."
+        }
+      ]
     },
     "automne": {
-      "id": "saison_automne",
-      "titre": "Mois 6 en automne (septembre-octobre-novembre)",
-      "ambiance": "Lumière qui décline, virus respiratoires qui circulent, températures qui baissent — vigilance bronchiolite",
+      "id": "saison_automne_06",
       "couleur_theme": "#F5E4DE",
       "couleur_accent": "#C0723A",
       "emoji": "🍂",
-      "ancrage": "À 6 mois en automne, ton bébé entre dans sa première saison à risque viral. La bronchiolite, la grippe et la gastro circulent activement. C'est aussi une période où la luminosité décroît — impact réel sur le moral parental. La diversification d'automne offre des saveurs riches et réconfortantes.",
-      "principes": [
-        "L'automne est le pic de la bronchiolite (à VRS surtout) — mesures barrières strictes recommandées",
-        "Décroissance de la luminosité : impact possible sur le moral parental (tristesse saisonnière) — sortir en pleine lumière chaque jour",
-        "Températures variables : 5°C le matin, 18°C en début d'après-midi — habillage en couches",
-        "Diversification automnale : courges, champignons (cuits), pommes, poires — saveurs réconfortantes pour les premiers repas"
-      ],
-      "habillage": {
-        "principe": "Habillage en couches — facile à enlever en intérieur, à remettre en sortie",
-        "guide_temperature": [
-          {
-            "temperature": "0-5°C",
-            "tenue": "Body manches longues + pyjama chaud + combi polaire + bonnet + moufles + chaussons fermés"
-          },
-          {
-            "temperature": "5-10°C",
-            "tenue": "Body manches longues + pyjama coton + veste polaire ou doudoune sans manches + bonnet + couverture en sortie"
-          },
-          {
-            "temperature": "10-15°C",
-            "tenue": "Body manches longues + pyjama coton ou polaire fine + gilet + bonnet pour sortir"
-          },
-          {
-            "temperature": "15-20°C",
-            "tenue": "Body manches longues + pyjama coton, bonnet seulement pour sortie venteuse"
-          }
-        ]
-      },
-      "sorties": {
-        "frequence_conseillee": "1 sortie/jour de 30-45 min en plein milieu de journée, idéalement avec lumière",
-        "moments_ideaux": [
-          "11h-15h : lumière maximale, températures plus douces",
-          "Éviter 7h-9h (froid humide, brouillards) et après 17h (nuit qui tombe vite en novembre)"
-        ],
-        "lieux_recommandes": [
-          "Parcs ensoleillés — chercher la lumière, surtout en novembre",
-          "Forêt en couleurs (sensoriel) — feuilles, odeurs, lumière dorée",
-          "Éviter strictement les lieux fermés bondés (centres commerciaux, transports aux heures de pointe, salles d'attente médicales)",
-          "Limiter les visites de personnes potentiellement enrhumées — bronchiolite très contagieuse"
-        ],
-        "equipement": [
-          "Combinaison ou couverture polaire dans la poussette",
-          "Capote de poussette relevée pour les pluies",
-          "Habillage de pluie pour bébé (cape pour poussette ou combinaison imperméable) et toi",
-          "Sac : couches, lingettes, change, eau pour toi, mouchoirs (saison des rhumes)",
-          "Solution de lavage de nez physiologique dans le sac : utile dès le premier nez bouché"
-        ]
-      },
-      "diversification_de_saison": {
-        "titre": "Légumes et fruits de l'automne à introduire",
-        "intro": "L'automne offre des saveurs réconfortantes idéales pour démarrer la diversification : les courges, les pommes, les poires sont parmi les aliments les plus tolérés au démarrage.",
-        "legumes_prioritaires": [
-          "Potimarron (doux, naturellement sucré, riche en vitamine A) — semaine 1-2",
-          "Carotte (douce, classique du démarrage) — semaine 1-2",
-          "Courge butternut (très douce, fondante) — semaine 2-3",
-          "Panais (saveur fine, légèrement sucrée) — semaine 3-4",
-          "Patate douce (très bien tolérée, sucrée naturellement) — semaine 4-5"
-        ],
-        "fruits_prioritaires": [
-          "Pomme cuite (classique du démarrage) — dès le démarrage",
-          "Poire (très digeste) — semaine 2-3",
-          "Coing cuit (saveur originale, à introduire en complément) — semaine 4-5",
-          "Premières clémentines (à partir de 7 mois, jus puis quartiers sans peau)"
-        ],
-        "vigilance_allergies": "Pas d'allergènes spécifiques majeurs en automne, mais toujours un aliment nouveau à la fois sur 3 jours. Les fruits exotiques (kiwi, mangue) à introduire après 8 mois si terrain allergique familial."
-      },
-      "particularites_sante": {
-        "vigilance_majeure_bronchiolite": {
-          "introduction": "Le mois 6 en automne expose au pic de bronchiolite (octobre-février). À cet âge, bébé sort plus, est plus exposé. C'est une urgence pédiatrique fréquente. Mesures barrières strictes recommandées dès les premiers cas dans l'entourage.",
-          "mesures_barrieres": [
-            "Lavage des mains avant tout contact avec bébé (parents et visiteurs)",
-            "Pas de visite si la personne est enrhumée — fermeté nécessaire",
-            "Éviter les lieux fermés bondés (transports, centres commerciaux, salles d'attente)",
-            "Aérer la maison 10 min matin et soir, même en hiver",
-            "Beyfortus (Nirsévimab) : immunisation passive proposée par la HAS pour les bébés à risque — discuter avec le pédiatre",
-            "Vaccin grippe possible dès 6 mois pour bébé fragile ou entourage à risque (discuter avec le pédiatre)"
-          ]
+      "ambiance": "Potimarrons, châtaignes, pommes, poires, betteraves — l'automne est une explosion de saveurs douces et réconfortantes. Une saison parfaite pour démarrer la diversification.",
+      "a_savoir_cette_saison": "Les virus circulent. Si quelqu'un est malade à la maison, gel hydroalcoolique et pas de bisous sur le visage de bébé.\n\nLa lumière décline. Pour toi : sortir un peu chaque jour quand il fait clair soutient ton moral.",
+      "idees_du_moment": [
+        {
+          "titre": "Première purée de potimarron",
+          "ce_que_ca_apporte": "À 6 mois, sa fenêtre de réceptivité aux saveurs est ouverte. Les légumes d'automne sont des cadeaux pour démarrer : potimarron, butternut, carotte ancienne, betterave — saveurs douces, riches en bêta-carotène, faciles à digérer. Démarrer avec les légumes de la saison crée un lien direct entre ce qu'il mange et ce qu'il voit dans la nature.",
+          "comment": "Choisis un potimarron au marché. Cuit à la vapeur (avec la peau, c'est plus simple, elle est fine), mixé lisse avec un peu d'eau de cuisson, pas de sel. Une cuillère après la tétée ou le biberon. Présente-lui le potimarron entier d'abord, nomme. Une saveur à la fois pendant 3-4 jours pour repérer une éventuelle allergie."
         },
-        "vigilance_generale": [
-          "Premier rhume probable : nez bouché — lavage au sérum physiologique 4-5 fois/jour, surtout avant les tétées",
-          "Conjonctivite : œil rouge et collé — souvent virale, parfois bactérienne (consulter si purulent)",
-          "Gastro-entérite saisonnière : selles liquides multiples + vomissements → consulter, surveiller hydratation",
-          "Tristesse parentale liée à la baisse de luminosité (baby blues retardé possible) — sortir chaque jour en pleine lumière"
-        ],
-        "signes_consultation": [
-          "Bronchiolite : sifflement, tirage (creux entre les côtes), nez très bouché qui empêche de téter → consulter en urgence ou 15",
-          "Refus de s'alimenter > 12h → consulter",
-          "Fièvre > 38,5°C qui persiste → consulter",
-          "Couches mouillées < 5/jour pendant un épisode infectieux → consulter (déshydratation)"
-        ],
-        "vitamine_d": "Supplémentation quotidienne essentielle en automne (luminosité décroissante)"
-      },
-      "rituel_lumiere": {
-        "titre": "Capter la lumière déclinante",
-        "duree": "15-20 min",
-        "moment": "Entre 11h et 13h, près d'une fenêtre exposée sud",
-        "description": "Installer bébé sur sa couverture au sol près d'une fenêtre exposée sud. Lumière indirecte (jamais soleil direct sur lui). 15-20 min suffisent pour aider à réguler le rythme circadien malgré la baisse globale de luminosité. Si possibilité : sortir en milieu de journée même par temps couvert — l'œil capte la lumière même par ciel gris."
-      },
-      "alimentation_maman": {
-        "titre": "Soutenir le post-partum en automne",
-        "elements": [
-          "Aliments réconfortants chauds : soupes maison, légumes rôtis, légumineuses (lentilles, pois chiches) — fer + chaleur",
-          "Vitamine C des fruits de saison (clémentines, kiwis, persil frais) — soutien immunitaire",
-          "Boissons chaudes apaisantes : infusions (sauf si allaitement, vérifier les plantes compatibles), tisanes de tilleul/verveine",
-          "Sortie pleine lumière 30 min/jour minimum : lutte contre la dépression saisonnière, soutient le moral",
-          "Sommeil prioritaire : se coucher 30 min plus tôt si possible — la nuit tombe tôt, profiter du signal naturel"
-        ]
-      },
-      "moral_lumiere_decroissante": {
-        "titre": "Quand la luminosité fait mal au moral",
-        "intro": "Vers octobre-novembre, la baisse de luminosité peut amplifier la fatigue parentale et faire émerger une tristesse saisonnière. Combinée à la fatigue cumulée des 6 mois, elle peut devenir préoccupante.",
-        "actions": [
-          "Sortir chaque jour, au moins 30 min, en milieu de journée (lumière naturelle même couverte)",
-          "Investir dans une lampe de luminothérapie (10 000 lux) si exposition matinale impossible — 20 min par jour",
-          "Maintenir une activité physique douce (marche, yoga doux) — endorphines et lumière",
-          "Si tristesse persistante au-delà de 2 semaines, sensation d'enfermement, perte d'élan → consulter le médecin généraliste (DPP tardive possible)"
-        ]
-      }
+        {
+          "titre": "Cuisiner avec lui en écharpe",
+          "ce_que_ca_apporte": "À 6 mois, son olfaction et son audition se raffinent — il enregistre profondément les ambiances. Cuisiner avec lui contre toi (loin de la plaque) lui fait sentir les odeurs de la cuisine automnale (pommes qui mijotent, soupe de courge, pain), entendre les bruits familiers, sentir tes mouvements. Une mémoire affective de la maison se construit là.",
+          "comment": "Installe-le en écharpe sur ton dos pendant que tu prépares une soupe ou une compote (jamais sur ton ventre près de la plaque chaude). Parle-lui de ce que tu fais : « je coupe la pomme, ça sent bon ». Tu peux faire de courts moments de 10-15 minutes — il s'imprègne sans intervenir."
+        }
+      ]
     },
     "hiver": {
-      "id": "saison_hiver",
-      "titre": "Mois 6 en hiver (décembre-janvier-février)",
-      "ambiance": "Froid, pic viral, peau sèche, luminosité au plus bas — vigilance sanitaire et énergétique",
+      "id": "saison_hiver_06",
       "couleur_theme": "#E4EEF0",
-      "couleur_accent": "#5E7A88",
+      "couleur_accent": "#486878",
       "emoji": "❄️",
-      "ancrage": "À 6 mois en hiver, bébé entre dans le pic viral de l'année (bronchiolite, grippe, gastro). La luminosité est au plus bas — fatigue parentale et baby blues tardif possibles. La diversification se nourrit de soupes et purées chaudes. Le maintien d'un rythme et d'une exposition lumineuse minimale est ton outil principal.",
-      "principes": [
-        "Pic viral majeur : bronchiolite, grippe, gastro circulent activement — mesures barrières strictes",
-        "Peau de bébé très sèche par le chauffage : hydratation cutanée quotidienne nécessaire",
-        "Luminosité au plus bas : sortie quotidienne 20-30 min en milieu de journée même par temps gris",
-        "Chauffage intérieur : viser 19-20°C (pas plus) et hygrométrie 50-60% (humidificateur si chauffage électrique)"
-      ],
-      "habillage": {
-        "principe": "Couches multiples — facile à enlever en intérieur chauffé",
-        "guide_temperature": [
-          {
-            "temperature": "< 0°C",
-            "tenue": "Body manches longues + pyjama chaud + combinaison polaire intégrale + bonnet épais + moufles + chaussons fermés + couverture polaire dans la poussette"
-          },
-          {
-            "temperature": "0-5°C",
-            "tenue": "Body manches longues + pyjama coton chaud + combi polaire + bonnet + moufles + chaussons + couverture en sortie"
-          },
-          {
-            "temperature": "5-10°C",
-            "tenue": "Body manches longues + pyjama coton + veste polaire ou doudoune + bonnet + chaussons"
-          },
-          {
-            "temperature": "10-15°C (jours doux)",
-            "tenue": "Body manches longues + pyjama coton ou polaire fine + gilet + bonnet pour sortir"
-          }
-        ]
-      },
-      "sorties": {
-        "frequence_conseillee": "1 sortie/jour de 20-30 min en milieu de journée — non négociable pour la lumière",
-        "moments_ideaux": [
-          "11h-14h : lumière maximale et moins froid",
-          "Éviter strictement 7h-10h (froid intense) et après 16h (nuit qui tombe)"
-        ],
-        "lieux_recommandes": [
-          "Parcs ensoleillés — chercher la lumière du sud",
-          "Marchés en plein air le matin si pas trop froid",
-          "Éviter strictement les lieux fermés bondés (transports, centres commerciaux, salles d'attente)",
-          "Visites limitées à 1-2 personnes maximum, jamais si quelqu'un est enrhumé"
-        ],
-        "equipement": [
-          "Combinaison polaire intégrale ou nid d'ange chaud dans la poussette",
-          "Capote de poussette relevée pour le vent",
-          "Habillage en couches : facile à enlever en intérieur surchauffé (transports, magasins)",
-          "Sac : couches, lingettes, change, mouchoirs, sérum physiologique en dosettes, baume hydratant",
-          "Crème ou baume protecteur visage avant les sorties (Cold cream ou cérat de Galien)"
-        ]
-      },
-      "diversification_de_saison": {
-        "titre": "Légumes et fruits de l'hiver à introduire",
-        "intro": "L'hiver offre des saveurs douces et réconfortantes — courges qui finissent, racines, pommes de terre, fruits secs réhydratés. Les soupes et purées tièdes deviennent un confort.",
-        "legumes_prioritaires": [
-          "Carotte (toujours disponible, douce) — semaine 1-2",
-          "Potimarron, courge butternut (si encore disponibles, douces) — semaine 1-2",
-          "Panais (typique de l'hiver, fin et doux) — semaine 2-3",
-          "Topinambour (saveur d'artichaut, à introduire écrasé) — semaine 4-5",
-          "Pomme de terre (à introduire en petite quantité, mélangée à un autre légume)"
-        ],
-        "fruits_prioritaires": [
-          "Pomme cuite (toute la saison) — dès le démarrage",
-          "Poire (toute la saison) — semaine 2-3",
-          "Clémentine, mandarine (à partir de 7 mois, en jus puis quartiers sans peau)",
-          "Banane (bien mûre, écrasée) — semaine 3-4",
-          "Pruneaux réhydratés et mixés (en cas de constipation, à partir de 7 mois)"
-        ],
-        "vigilance_allergies": "Toujours un aliment nouveau à la fois sur 3 jours. Les fruits secs (pruneaux, abricots secs) à bien réhydrater avant pour éviter les fausses-routes."
-      },
-      "particularites_sante": {
-        "vigilance_majeure_pic_viral": {
-          "introduction": "L'hiver est le pic absolu des virus respiratoires (bronchiolite, grippe) et digestifs (gastro). À 6 mois, bébé est encore très vulnérable. Mesures barrières strictes recommandées de décembre à février.",
-          "mesures_barrieres": [
-            "Lavage des mains systématique avant tout contact avec bébé",
-            "Refuser fermement les visites de personnes enrhumées ou récemment enrhumées",
-            "Aérer la maison 10 min matin et soir même par grand froid (renouvelle les particules virales)",
-            "Éviter strictement transports en commun aux heures de pointe et lieux fermés bondés",
-            "Beyfortus (Nirsévimab) si pas encore reçu : à discuter avec le pédiatre — recommandation HAS",
-            "Vaccin grippe à proposer pour bébé fragile et pour l'entourage (recommandation HAS)"
-          ]
+      "ambiance": "Soupes qui mijotent, mandarines parfumées, compotes de poires, vanille et cannelle. L'hiver est une saison cocon où les saveurs réconfortantes accompagnent la diversification.",
+      "a_savoir_cette_saison": "Pic de virus respiratoires. Gel hydroalcoolique pour les visiteurs et pas de bisous sur le visage.\n\nMoins de lumière = moins de dopamine. Sortir un peu chaque jour quand il fait clair soutient ton moral.",
+      "idees_du_moment": [
+        {
+          "titre": "Première cuillère de compote de poire",
+          "ce_que_ca_apporte": "À 6 mois, sa fenêtre de réceptivité aux saveurs est ouverte. La poire d'hiver est l'un des fruits les plus doux, faciles à digérer, peu allergisants — idéale pour démarrer. Le sucre naturel de la poire (proche de celui du lait) est rassurant pour lui, mais sa texture nouvelle reste un petit défi sensoriel.",
+          "comment": "Choisis une poire bien mûre (Conférence, Comice). Pochée à l'eau ou cuite au four sans sucre ajouté, mixée lisse. Une petite cuillère après la tétée ou le biberon de lait, dans un moment calme. Présente-lui la poire entière d'abord, nomme, fais-lui toucher. Une nouvelle saveur tous les 3-4 jours pour repérer une éventuelle allergie."
         },
-        "vigilance_peau": [
-          "Peau très sèche par le chauffage : hydratation quotidienne au minimum (crème émolliente après le bain)",
-          "Eczéma du nourrisson : peut apparaître ou s'aggraver en hiver — consulter pour traitement adapté",
-          "Bain à 37°C (pas plus chaud) et court (5-7 min) — l'eau chaude assèche la peau",
-          "Humidificateur dans la chambre si chauffage électrique (hygrométrie 50-60%)"
-        ],
-        "signes_consultation": [
-          "Bronchiolite : sifflement, tirage, nez très bouché qui empêche de téter → consulter en urgence ou 15",
-          "Gastro : selles très liquides + vomissements répétés → surveiller hydratation, consulter rapidement",
-          "Fièvre > 38,5°C qui persiste plus de 24h → consulter",
-          "Refus alimentaire de plus de 12h ou couches mouillées < 5/jour → consulter (déshydratation)",
-          "Eczéma qui s'étend, suinte, ou empêche le sommeil → consulter (corticothérapie locale possible)"
-        ],
-        "vitamine_d": "Supplémentation quotidienne ABSOLUMENT essentielle en hiver — soleil très peu présent"
-      },
-      "rituel_lumiere": {
-        "titre": "Capter la lumière minimale du milieu de journée",
-        "duree": "20 min",
-        "moment": "Entre 12h et 14h, près d'une fenêtre exposée sud",
-        "description": "Installer bébé sur sa couverture au sol près d'une fenêtre exposée sud — moment où la lumière est la plus forte de la journée. 20 min suffisent pour aider à maintenir l'horloge circadienne. Si possibilité : sortir en milieu de journée même par temps gris — l'œil capte la lumière même sans soleil direct. Pour le parent en détresse de lumière : lampe de luminothérapie 10 000 lux 20-30 min le matin."
-      },
-      "alimentation_maman": {
-        "titre": "Soutenir le post-partum en hiver",
-        "elements": [
-          "Aliments chauds et riches : soupes maison, légumes racines rôtis, légumineuses (lentilles, pois chiches) — fer et énergie",
-          "Vitamine D à supplémenter aussi pour toi (consulter ton médecin) — la majorité des Français en manque l'hiver",
-          "Vitamine C des agrumes de saison (clémentines, oranges) — soutien immunitaire",
-          "Boissons chaudes apaisantes : tisanes (vérifier compatibilité allaitement)",
-          "Sortie pleine lumière 30 min/jour minimum, même par temps gris — moral et vitamine D",
-          "Repos prioritaire : se coucher tôt — l'hiver appelle au repos, suivre le rythme naturel"
-        ]
-      },
-      "moral_hiver": {
-        "titre": "Tenir bon dans l'hiver",
-        "intro": "L'hiver à 6 mois cumule plusieurs défis : peu de lumière, virus permanents, sorties limitées, fatigue cumulée. Le risque de bascule en dépression post-partum tardive est réel. Les signaux à repérer et les actions à mettre en place :",
-        "actions": [
-          "Sortir CHAQUE jour, ne serait-ce que 20 min en milieu de journée — non négociable",
-          "Lampe de luminothérapie 10 000 lux 20-30 min le matin si exposition extérieure très limitée",
-          "Maintenir un lien social actif : appel hebdomadaire avec une amie, visite (sans virus) d'un proche, cercle de parole local",
-          "Si fatigue qui devient désespoir, perte d'élan vital, idées noires → consulter le médecin généraliste rapidement",
-          "Ressources : 3114 (24/7, anonyme), MonParcoursPsy (12 séances remboursées), Allo Parents Bébé 0 800 00 34 56"
-        ]
-      }
+        {
+          "titre": "L'odeur d'une mandarine pelée",
+          "ce_que_ca_apporte": "À 6 mois, son olfaction est très fine. L'odeur d'une mandarine fraîchement pelée est l'une des plus puissantes et joyeuses de l'hiver — huiles essentielles libérées dans l'air, fraîcheur, vivacité. Cette odeur marque profondément sa mémoire saisonnière (sans qu'il en mange encore — agrumes plutôt vers 7-8 mois).",
+          "comment": "Bébé dans tes bras ou en transat, pèle une mandarine devant lui. Approche les zestes à 15-20 cm de son nez, sans toucher. Nomme : « ça sent la mandarine ». Tu peux te frotter légèrement les mains sur la peau et lui faire sentir tes doigts. Mange le fruit devant lui — il apprend par l'observation."
+        }
+      ]
     }
   }
 }
