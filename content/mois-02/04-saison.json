@@ -4,7 +4,7 @@
   "rubrique": "saison",
   "titre_rubrique": "Saison",
   "sous_titre": "Mois 2 — Le Communicant · Vivre la saison ensemble",
-  "description": "À 2 mois, bébé vocalise, son audition s'affine, ses sens s'ouvrent. La saison conditionne ce qu'il peut entendre, sentir, vivre dehors — et les précautions qui vont avec. Deux repères pour cette saison-là, et un mémo d'habillage pour la nuit.",
+  "description": "À 2 mois, bébé vocalise, son audition s'affine, il s'ouvre aux sons du monde. La saison change ce qu'il peut entendre, sentir, vivre dehors. Deux idées simples à explorer ensemble, et un mémo d'habillage pour la nuit.",
   "logique_selection": {
     "regle": "À 2 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
     "mapping": {
@@ -26,18 +26,18 @@
       "couleur_theme": "#EAF3DE",
       "couleur_accent": "#27500A",
       "emoji": "🌱",
-      "ambiance": "L'air s'adoucit, les oiseaux chantent, tout reprend voix. Belle saison pour un bébé dont l'audition s'affine — mais qui demande aussi quelques précautions sur les pollens et les UV.",
-      "a_savoir_cette_saison": "Les pollens sont à leur pic en avril-mai. Si tu es allergique ou si le co-parent l'est, surveille un nez qui coule clair, des yeux qui pleurent ou des éternuements répétés chez bébé.\n\nLes UV remontent fort : protéger ses yeux et sa peau dès maintenant, même par temps couvert.",
+      "ambiance": "L'air s'adoucit, les oiseaux chantent, tout reprend voix. Belle saison pour un bébé dont l'audition s'affine et qui commence à vocaliser à sa manière.",
+      "a_savoir_cette_saison": "Les pollens sont à leur pic en avril-mai. Si tu es allergique ou si le co-parent l'est, surveille un nez qui coule clair ou des yeux qui pleurent chez bébé.\n\nLes UV remontent fort : pense au chapeau et à l'ombre dès maintenant.",
       "idees_du_moment": [
         {
-          "titre": "Première protection solaire",
-          "ce_que_ca_apporte": "La peau de bébé reste très fine, ses systèmes de défense contre les UV inexistants. Les UV de printemps grimpent vite (indice 6+ en avril) et peuvent causer des dommages durables — y compris par temps couvert où 80% des UV passent. La protection s'installe maintenant comme une habitude pour la vie.",
-          "comment": "Capote de poussette baissée, chapeau bord large dès qu'on est dehors, manches longues légères. Crème solaire minérale SPF 50 sur les zones exposées si exposition prolongée (visage, mains). Pas de soleil direct entre 11h et 16h. Lunettes anti-UV pour la voiture si traversée plein soleil."
+          "titre": "Concert d'oiseaux au lever",
+          "ce_que_ca_apporte": "À 2 mois, son audition discrimine déjà finement les sons. Le chant matinal des oiseaux — varié, rythmé, naturel — nourrit son traitement auditif bien mieux qu'une comptine enregistrée. Et il te répond souvent par ses premières vocalises.",
+          "comment": "Tôt le matin, quand les oiseaux chantent à plein, installe-toi avec lui près d'une fenêtre ouverte ou sur un balcon. Bébé contre toi. Écoute en silence. S'il vocalise, réponds-lui doucement — c'est une vraie conversation qui commence."
         },
         {
-          "titre": "Sortir aux heures sans pollen",
-          "ce_que_ca_apporte": "Les pollens sont les plus concentrés en milieu de journée (10h-16h) et par temps sec et venteux. À 2 mois, ses voies respiratoires restent fragiles — limiter l'exposition réduit le risque de sensibilisation allergique précoce, surtout si terrain familial.",
-          "comment": "Privilégier les sorties avant 10h ou en fin de journée. Préférer les jours après la pluie (pollens lavés). Sites comme pollens.fr donnent la carte du jour gratuitement. Rincer le visage de bébé au retour si forte exposition, changer ses vêtements en rentrant."
+          "titre": "Sortir avant les pollens",
+          "ce_que_ca_apporte": "Les pollens sont les plus concentrés en milieu de journée (10h-16h) et par temps sec. À 2 mois, ses voies respiratoires restent fragiles — sortir aux bons moments protège, surtout si terrain allergique familial.",
+          "comment": "Privilégier les sorties tôt le matin ou après une pluie (pollens lavés). Le site pollens.fr donne la carte du jour gratuitement. Au retour d'une grosse journée pollens, rincer le visage et changer les vêtements."
         }
       ]
     },
@@ -46,18 +46,18 @@
       "couleur_theme": "#FAEEDA",
       "couleur_accent": "#633806",
       "emoji": "☀️",
-      "ambiance": "Les journées sont longues, les soirées douces, le monde déborde de sons. Une saison vivante — mais qui demande une vigilance constante sur la chaleur et le soleil.",
-      "a_savoir_cette_saison": "Sa peau reste très fine, ses yeux très sensibles : pas de soleil direct, jamais. L'ombre, le chapeau, les manches longues légères suffisent.\n\nIl ne transpire toujours pas bien, son risque de coup de chaleur reste réel. Pas d'eau avant 6 mois, c'est le lait qui hydrate.",
+      "ambiance": "Les journées sont longues, les soirées douces, le monde déborde de sons et d'odeurs. Une saison vivante pour un bébé qui s'ouvre à tout.",
+      "a_savoir_cette_saison": "Sa peau reste très fine, ses yeux très sensibles : pas de soleil direct, jamais. L'ombre, le chapeau, les manches longues légères suffisent.\n\nPar forte chaleur, propose le sein ou le biberon du lait plus souvent — il se déshydrate vite. Pas d'eau avant 6 mois.",
       "idees_du_moment": [
         {
-          "titre": "Reconnaître les signes de coup de chaleur",
-          "ce_que_ca_apporte": "À 2 mois, le coup de chaleur peut survenir vite et grave. Connaître les signes d'alerte permet de réagir immédiatement — c'est l'un des savoirs essentiels de l'été quand on a un bébé. Mieux vaut une fausse alerte qu'un retard de prise en charge.",
-          "comment": "Signes : peau très chaude et sèche, visage rouge, somnolence inhabituelle, refus de téter, fontanelle creuse, urines très foncées ou couches sèches sur 6h. → Déshabiller bébé, le mettre dans une pièce fraîche, lui proposer le sein/biberon, linge humide tiède sur le corps. → Appeler le 15 sans attendre."
+          "titre": "Les sons du jardin à l'aube",
+          "ce_que_ca_apporte": "À 2 mois, son audition se raffine. Les bruits naturels d'un matin d'été (oiseaux, vent dans les feuilles, eau qui coule) sont une matière sonore très riche et apaisante pour son cerveau. Et la fraîcheur du matin est le seul moment vraiment confortable en plein été.",
+          "comment": "Tôt le matin avant que la chaleur monte, installe-toi dehors avec lui — jardin, balcon, banc au calme. Bébé en écharpe ou dans tes bras. 15-20 minutes à juste écouter ensemble. Tu peux nommer ce que tu entends à voix basse."
         },
         {
-          "titre": "Voiture : jamais seul, même 2 minutes",
-          "ce_que_ca_apporte": "Une voiture stationnée monte à 50°C en 15 minutes par 25°C extérieurs. Pour un bébé de 2 mois, le risque vital est immédiat. \"Juste un saut à la boulangerie\" est l'une des situations les plus dangereuses — et la plus fréquente.",
-          "comment": "Règle absolue : jamais seul dans la voiture, même 2 minutes, même fenêtres entrouvertes, même à l'ombre. Si trajet en plein soleil : pare-soleil aux vitres latérales, climatisation modérée, vérifier régulièrement le test de la nuque. Pause toutes les 1h30 maximum."
+          "titre": "Chambre fraîche pour bien dormir",
+          "ce_que_ca_apporte": "Le sommeil de bébé dépend d'une légère baisse de sa température corporelle. Si la chambre est trop chaude, il dort mal et s'agite la nuit. Maintenir la chambre sous 22°C améliore directement la qualité de son sommeil — et du tien.",
+          "comment": "Volets et rideaux fermés en journée pour bloquer la chaleur, fenêtre ouverte la nuit dès que la température extérieure baisse. Ventilateur déporté possible, jamais dirigé sur lui. Body manches courtes ou sans manches + gigoteuse fine selon le mémo."
         }
       ]
     },
@@ -66,18 +66,18 @@
       "couleur_theme": "#F5E4DE",
       "couleur_accent": "#C0723A",
       "emoji": "🍂",
-      "ambiance": "Les couleurs flambent, le vent dans les feuilles, les premières fraîcheurs. Saison riche pour un bébé qui s'éveille — mais qui demande de la vigilance sur les virus.",
-      "a_savoir_cette_saison": "Les virus circulent activement (bronchiolite, rhinopharyngites). À 2 mois, son système immunitaire commence tout juste à mûrir — vigilance sur les lieux fréquentés.\n\nLa lumière décline vite. Pour bébé : son rythme circadien continue de se construire. Pour toi : sortir reste précieux pour le moral.",
+      "ambiance": "Le vent dans les feuilles, l'odeur de la terre humide, la lumière dorée. Une saison toute en sons et en textures — riche pour un bébé qui s'éveille à la communication.",
+      "a_savoir_cette_saison": "Les virus commencent à circuler. Pour bébé : limiter les lieux clos très fréquentés.\n\nLa lumière décline. Pour toi : sortir un peu chaque jour quand il fait clair soutient ton moral autant que son rythme.",
       "idees_du_moment": [
         {
-          "titre": "Distinguer rhume banal et bronchiolite",
-          "ce_que_ca_apporte": "À 2 mois, une bronchiolite reste à risque. Savoir distinguer un rhume bénin d'une bronchiolite débutante permet de réagir au bon moment — ni paniquer pour rien, ni passer à côté d'une urgence. C'est l'un des savoirs essentiels d'automne-hiver.",
-          "comment": "Rhume banal : nez qui coule clair, légère toux, mange et dort normalement → laver le nez au sérum physiologique avant chaque biberon/tétée, surveiller. Bronchiolite : respiration rapide (plus de 50/min), sifflante, creux entre les côtes, refus alimentaire sur 2 prises → SAMU (15) ou urgences pédiatriques."
+          "titre": "Promenade dans le craquement des feuilles",
+          "ce_que_ca_apporte": "À 2 mois, il commence à associer son et action. Le craquement rythmé des feuilles sous tes pas est une matière sonore très riche, prévisible mais nouvelle. Et il adore ce qu'il provoque chez toi (ton sourire, ta voix qui réagit) — une boucle de communication précoce.",
+          "comment": "Promène-toi en poussette ou écharpe sur un chemin de feuilles mortes. Marche, arrête-toi parfois, fais craquer une feuille près de son oreille (sans la lui donner). Imite avec ta voix : « tchak, tchak ». S'il vocalise en réponse, continue."
         },
         {
           "titre": "Lumière de mi-journée, chaque jour",
-          "ce_que_ca_apporte": "À 2 mois, le rythme circadien continue de se caler — ce qui détermine en grande partie la qualité de ses nuits à venir. La lumière naturelle de mi-journée reste 100 fois plus intense que ton intérieur, c'est le levier le plus puissant. Et pour ton moral aussi, c'est essentiel.",
-          "comment": "20-30 minutes de sortie quotidienne entre 11h et 14h, même par temps couvert. Choisis des chemins calmes plutôt que des zones très fréquentées (vigilance virus). Bébé en poussette ou en écharpe, bien couvert, visage exposé à la lumière mais protégé du vent."
+          "ce_que_ca_apporte": "À 2 mois, son rythme jour-nuit continue de se caler — ce qui détermine en grande partie la qualité de ses nuits à venir. La lumière naturelle de mi-journée reste 100 fois plus intense que ton intérieur. C'est aussi un soutien direct pour ton moral.",
+          "comment": "20-30 minutes de sortie quotidienne entre 11h et 14h, même par temps couvert (la luminosité reste largement suffisante). Choisis des chemins calmes plutôt que des zones très fréquentées. Visage exposé à la lumière, protégé du vent."
         }
       ]
     },
@@ -86,18 +86,18 @@
       "couleur_theme": "#E4EEF0",
       "couleur_accent": "#486878",
       "emoji": "❄️",
-      "ambiance": "Dehors le froid pique, dedans il fait chaud et calme. Une saison à risque viral, mais aussi une saison où sortir un peu chaque jour fait toute la différence.",
-      "a_savoir_cette_saison": "Pic de virus respiratoires (bronchiolite, grippe, gastro). À 2 mois, son immunité commence à mûrir mais reste à protéger.\n\nMoins de lumière = moins de dopamine. Le post-partum hivernal peut peser : sortir un peu chaque jour, même par grand froid, est un geste puissant pour ton moral et le rythme de bébé.",
+      "ambiance": "Dehors le froid pique, dedans il fait chaud et calme. Une saison qui invite aux longs moments tranquilles — parfaite pour écouter bébé qui commence à \"parler\".",
+      "a_savoir_cette_saison": "Pic de virus respiratoires (bronchiolite, grippe). Pour bébé : éviter les lieux clos bondés et gel hydroalcoolique pour les visiteurs.\n\nMoins de lumière = moins de dopamine. Sortir un peu chaque jour, même par grand froid, change vraiment le moral.",
       "idees_du_moment": [
         {
-          "titre": "Précautions virus respiratoires",
-          "ce_que_ca_apporte": "La bronchiolite circule à son pic. À 2 mois, une infection respiratoire peut s'aggraver vite. Quelques gestes simples réduisent fortement le risque sans isoler bébé — il ne s'agit pas de paranoïa, mais de bon sens saisonnier.",
-          "comment": "Gel hydroalcoolique pour les visiteurs avant de toucher bébé. Pas de bisous sur le visage, même par les proches. Éviter les lieux clos bondés (transports en heure de pointe, centres commerciaux). Lavage de nez quotidien au sérum physiologique avant les biberons/tétées."
+          "titre": "Le silence d'hiver dehors",
+          "ce_que_ca_apporte": "L'hiver est la saison la plus silencieuse — moins d'oiseaux, moins de feuilles, parfois la neige qui absorbe les sons. Ce silence relatif permet à bébé de mieux entendre ta voix et ses propres vocalises. Sa conscience auditive de lui-même se construit dans ce calme.",
+          "comment": "Lors d'une sortie au plus lumineux de la journée, prends quelques minutes pour t'arrêter dans un parc calme. Bébé en écharpe ou en poussette. Parle-lui doucement, attends ses réponses. Le contraste avec le bruit de la rue rend ses vocalises plus présentes."
         },
         {
           "titre": "Sortir malgré le froid, à la lumière",
-          "ce_que_ca_apporte": "Le froid bien géré n'est pas dangereux — un bébé de 2 mois bien couvert supporte parfaitement -5°C pour 20 minutes. C'est l'enfermement total qui pose problème : rythme circadien qui ne se cale pas (= mauvaises nuits) et moral parental qui s'effondre.",
-          "comment": "20 minutes de sortie quotidienne entre 11h et 14h (heure la plus lumineuse, même par grand froid). Bébé bien emmitouflé selon le mémo TOG nourrisson, couverture supplémentaire en poussette. Visage exposé à la lumière, protégé du vent direct. Test de la nuque au retour."
+          "ce_que_ca_apporte": "Le froid bien géré n'est pas dangereux — un bébé bien couvert supporte parfaitement -5°C pour 20 minutes. C'est l'enfermement total qui pose problème : rythme jour-nuit qui ne se cale pas, moral parental qui s'effondre.",
+          "comment": "20 minutes de sortie quotidienne entre 11h et 14h (heure la plus lumineuse). Bébé bien emmitouflé selon le mémo TOG, couverture supplémentaire en poussette. Visage exposé à la lumière, protégé du vent direct. Test de la nuque au retour."
         }
       ]
     }
