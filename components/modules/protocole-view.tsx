@@ -1,118 +1,317 @@
-import type { ProtocoleGuide, BlocActionne } from "@/lib/content";
+import React from "react";
+import type { ProtocoleGuide } from "@/lib/content";
 
-function BlocColore({ bloc }: { bloc: BlocActionne }) {
+// ----------------------------------------------------------------------------
+// Composant d'affichage d'un protocole Guide-moi !
+// Spec de référence : skills/CONSIGNES_CLAUDE_CODE_guide-moi.md
+//
+// Règles imposées par le spec :
+//  - 8 blocs colorés, ordre figé
+//  - Amorce avant le premier ":" en gras
+//  - On NE réaffiche PAS `situation` (déjà servi comme libellé de bouton)
+//  - Les `couleur_fond` / `couleur_texte` du JSON sont IGNORÉS — couleurs
+//    pilotées par ce composant.
+// ----------------------------------------------------------------------------
+
+const C = {
+  text: "#3A3228",
+  cequisepasse: { bg: "#E8F0F2", accent: "#8FB4BC", label: "#3A5A64" },
+  pourtoiparent: { bg: "#F8E0D8", accent: "#E0A48E", label: "#8A4030" },
+  actionimm: { bg: "#F5D0C8", accent: "#D4604A", label: "#8A3020" },
+  pourallerplus: { bg: "#F8DBC8", accent: "#DB936B", label: "#9A4F2A" },
+  gestedoux: { bg: "#DCE9CF", accent: "#82A56A", label: "#3F5C2E" },
+  principe: { bg: "#E8F0F2", accent: "#8A9E98", label: "#384E48" },
+  erreurs: {
+    bg: "#E4DDD6",
+    accent: "#B4A89C",
+    label: "#5A4A40",
+    croix: "#D4604A",
+  },
+  cadre: {
+    bg: "#EDE9E4",
+    accent: "#D4604A",
+    label: "#8A3020",
+    textBody: "#5A4A40",
+  },
+};
+
+/* Met en gras la partie avant le premier ":" — l'amorce. */
+function LigneAvecAmorce({ texte }: { texte: string }) {
+  const i = texte.indexOf(":");
+  if (i === -1) return <>{texte}</>;
   return (
-    <section
-      className="space-y-3 rounded-2xl p-5"
-      style={{ backgroundColor: bloc.couleur_fond, color: bloc.couleur_texte }}
+    <>
+      <strong style={{ fontWeight: 700 }}>{texte.slice(0, i).trim()} :</strong>
+      {texte.slice(i + 1)}
+    </>
+  );
+}
+
+const labelStyle = (color: string): React.CSSProperties => ({
+  fontSize: 9,
+  fontWeight: 700,
+  textTransform: "uppercase",
+  letterSpacing: ".07em",
+  color,
+  marginBottom: 6,
+});
+
+function EncartSimple({
+  label,
+  color,
+  accent,
+  bg,
+  italic,
+  children,
+}: {
+  label: string;
+  color: string;
+  accent: string;
+  bg: string;
+  italic?: boolean;
+  children: React.ReactNode;
+}) {
+  return (
+    <div
+      style={{
+        background: bg,
+        borderLeft: `3px solid ${accent}`,
+        borderRadius: "0 12px 12px 0",
+        padding: "11px 13px",
+        marginBottom: 8,
+      }}
     >
-      <h2 className="text-sm font-semibold uppercase tracking-wide">
-        {bloc.titre}
-      </h2>
-      <ol className="space-y-2 text-sm leading-relaxed">
-        {bloc.etapes.map((etape, i) => (
-          <li key={i} className="flex gap-3">
-            <span
-              className="mt-0.5 inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[10px] font-bold"
-              style={{
-                backgroundColor: bloc.couleur_texte,
-                color: bloc.couleur_fond,
-              }}
-            >
-              {i + 1}
-            </span>
-            <span>{etape}</span>
-          </li>
-        ))}
-      </ol>
-    </section>
+      <div style={labelStyle(color)}>{label}</div>
+      <div
+        style={{
+          fontSize: 11,
+          color,
+          lineHeight: 1.55,
+          fontStyle: italic ? "italic" : "normal",
+        }}
+      >
+        {children}
+      </div>
+    </div>
+  );
+}
+
+function EncartEtapes({
+  titre,
+  etapes,
+  theme,
+}: {
+  titre: string;
+  etapes: string[];
+  theme: { bg: string; accent: string; label: string };
+}) {
+  return (
+    <div
+      style={{
+        background: theme.bg,
+        borderLeft: `3px solid ${theme.accent}`,
+        borderRadius: "0 12px 12px 0",
+        padding: "11px 13px",
+        marginBottom: 8,
+      }}
+    >
+      <div style={{ ...labelStyle(theme.label), marginBottom: 7 }}>{titre}</div>
+      {etapes.map((step, i) => (
+        <div
+          key={i}
+          style={{
+            display: "flex",
+            gap: 6,
+            alignItems: "flex-start",
+            marginBottom: 5,
+          }}
+        >
+          <div
+            style={{
+              width: 17,
+              height: 17,
+              borderRadius: "50%",
+              fontSize: 9,
+              fontWeight: 700,
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              flexShrink: 0,
+              marginTop: 1,
+              background: theme.accent,
+              color: "#FFFFFF",
+            }}
+          >
+            {i + 1}
+          </div>
+          <div style={{ fontSize: 11, color: C.text, lineHeight: 1.5 }}>
+            <LigneAvecAmorce texte={step} />
+          </div>
+        </div>
+      ))}
+    </div>
   );
 }
 
 export function ProtocoleView({ protocole }: { protocole: ProtocoleGuide }) {
+  const p = protocole;
   return (
-    <article className="space-y-5">
-      <header className="space-y-2">
-        <h1 className="text-2xl font-semibold leading-tight">
-          {protocole.titre}
-        </h1>
-        {protocole.situation && protocole.situation !== protocole.titre ? (
-          <p className="text-sm italic text-neutral-500">
-            {protocole.situation}
-          </p>
-        ) : null}
-      </header>
+    <div style={{ padding: "14px 16px 80px" }}>
+      {/* Titre seul — NE PAS afficher p.situation ici (doublon) */}
+      <h1
+        style={{
+          fontSize: 17,
+          fontWeight: 600,
+          color: C.text,
+          lineHeight: 1.25,
+          margin: "0 0 14px",
+          fontFamily: "Georgia, serif",
+        }}
+      >
+        {p.titre}
+      </h1>
 
-      <section className="space-y-2">
-        <h2 className="text-xs font-semibold uppercase tracking-wide text-neutral-500">
-          Ce qui se passe
-        </h2>
-        <p className="text-sm leading-relaxed text-neutral-800">
-          {protocole.explication}
-        </p>
-      </section>
+      {/* 1. Ce qui se passe */}
+      <EncartSimple
+        label="Ce qui se passe"
+        color={C.cequisepasse.label}
+        bg={C.cequisepasse.bg}
+        accent={C.cequisepasse.accent}
+      >
+        {p.explication}
+      </EncartSimple>
 
-      <section className="rounded-2xl border border-neutral-200 bg-neutral-50 p-4">
-        <h2 className="mb-1 text-xs font-semibold uppercase tracking-wide text-neutral-500">
-          Pour toi, parent
-        </h2>
-        <p className="text-sm leading-relaxed text-neutral-800">
-          {protocole.ancrage}
-        </p>
-      </section>
+      {/* 2. Pour toi, parent */}
+      <EncartSimple
+        label="Pour toi, parent"
+        color={C.pourtoiparent.label}
+        bg={C.pourtoiparent.bg}
+        accent={C.pourtoiparent.accent}
+        italic
+      >
+        {p.ancrage}
+      </EncartSimple>
 
-      <BlocColore bloc={protocole.action_immediate} />
-      <BlocColore bloc={protocole.geste_doux} />
+      {/* 3. Action immédiate */}
+      <EncartEtapes
+        titre={p.action_immediate.titre}
+        etapes={p.action_immediate.etapes}
+        theme={C.actionimm}
+      />
 
-      <section className="space-y-2">
-        <h2 className="text-xs font-semibold uppercase tracking-wide text-neutral-500">
+      {/* 4. Pour aller plus loin */}
+      <div
+        style={{
+          background: C.pourallerplus.bg,
+          borderLeft: `3px solid ${C.pourallerplus.accent}`,
+          borderRadius: "0 12px 12px 0",
+          padding: "11px 13px",
+          marginBottom: 8,
+        }}
+      >
+        <div style={{ ...labelStyle(C.pourallerplus.label), marginBottom: 7 }}>
           Pour aller plus loin
-        </h2>
-        <ul className="space-y-1.5 text-sm leading-relaxed text-neutral-800">
-          {protocole.pour_aller_plus_loin.map((item, i) => (
-            <li key={i} className="flex gap-2">
-              <span aria-hidden className="text-neutral-400">
-                •
-              </span>
-              <span>{item}</span>
-            </li>
-          ))}
-        </ul>
-      </section>
+        </div>
+        {p.pour_aller_plus_loin.map((pt, i) => (
+          <div
+            key={i}
+            style={{
+              fontSize: 11,
+              color: C.text,
+              lineHeight: 1.5,
+              marginBottom: 5,
+            }}
+          >
+            <LigneAvecAmorce texte={pt} />
+          </div>
+        ))}
+      </div>
 
-      <section className="space-y-2 rounded-2xl bg-amber-50 p-5">
-        <h2 className="text-xs font-semibold uppercase tracking-wide text-amber-900">
-          Le principe à retenir
-        </h2>
-        <p className="text-sm leading-relaxed text-amber-950">
-          {protocole.principe}
-        </p>
-      </section>
+      {/* 5. Geste doux */}
+      <EncartEtapes
+        titre={p.geste_doux.titre}
+        etapes={p.geste_doux.etapes}
+        theme={C.gestedoux}
+      />
 
-      <section className="space-y-2">
-        <h2 className="text-xs font-semibold uppercase tracking-wide text-neutral-500">
+      {/* 6. Principe à retenir */}
+      <EncartSimple
+        label="Principe à retenir"
+        color={C.principe.label}
+        bg={C.principe.bg}
+        accent={C.principe.accent}
+      >
+        {p.principe}
+      </EncartSimple>
+
+      {/* 7. Erreurs à éviter — croix rouges */}
+      <div
+        style={{
+          background: C.erreurs.bg,
+          borderLeft: `3px solid ${C.erreurs.accent}`,
+          borderRadius: "0 12px 12px 0",
+          padding: "11px 13px",
+          marginBottom: 8,
+        }}
+      >
+        <div style={{ ...labelStyle(C.erreurs.label), marginBottom: 7 }}>
           Erreurs à éviter
-        </h2>
-        <ul className="space-y-2 text-sm leading-relaxed text-neutral-800">
-          {protocole.erreurs_a_eviter.map((err, i) => (
-            <li key={i} className="flex gap-2">
-              <span aria-hidden className="text-red-500">
-                ✗
-              </span>
-              <span>{err}</span>
-            </li>
-          ))}
-        </ul>
-      </section>
+        </div>
+        {p.erreurs_a_eviter.map((err, i) => (
+          <div
+            key={i}
+            style={{
+              display: "flex",
+              gap: 7,
+              alignItems: "flex-start",
+              marginBottom: 5,
+            }}
+          >
+            <span
+              style={{
+                color: C.erreurs.croix,
+                fontWeight: 700,
+                fontSize: 12,
+                lineHeight: 1.4,
+                flexShrink: 0,
+              }}
+            >
+              ✕
+            </span>
+            <div
+              style={{
+                fontSize: 11,
+                color: C.erreurs.label,
+                lineHeight: 1.5,
+              }}
+            >
+              {err}
+            </div>
+          </div>
+        ))}
+      </div>
 
-      <section className="space-y-2 rounded-2xl border border-red-200 bg-red-50 p-5">
-        <h2 className="text-xs font-semibold uppercase tracking-wide text-red-900">
-          ⚠ Cadre de sécurité — consulter si
-        </h2>
-        <p className="text-sm leading-relaxed text-red-950">
-          {protocole.consulter_si}
-        </p>
-      </section>
-    </article>
+      {/* 8. Cadre de sécurité — cadre rouge complet */}
+      <div
+        style={{
+          background: C.cadre.bg,
+          border: `1px solid ${C.cadre.accent}`,
+          borderRadius: 10,
+          padding: "11px 13px",
+          marginBottom: 0,
+        }}
+      >
+        <div style={labelStyle(C.cadre.label)}>Cadre de sécurité</div>
+        <div
+          style={{
+            fontSize: 11,
+            color: C.cadre.textBody,
+            lineHeight: 1.55,
+          }}
+        >
+          {p.consulter_si}
+        </div>
+      </div>
+    </div>
   );
 }

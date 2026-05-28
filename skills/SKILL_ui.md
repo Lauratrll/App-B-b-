@@ -51,6 +51,11 @@
 --sauge-light: #DCE9CF;  /* fond bloc geste doux */
 --sauge-dark:  #3F5C2E;  /* texte sur fond sauge clair */
 
+/* TERRACOTTA — pour aller plus loin (orangé chaud, validé fondatrice) */
+--terracotta:       #DB936B;  /* bordure gauche pour aller plus loin */
+--terracotta-light: #F8DBC8;  /* fond bloc pour aller plus loin */
+--terracotta-dark:  #9A4F2A;  /* texte sur fond terracotta clair */
+
 /* RAIN */
 --rain:       #C8D8DC;   /* réflexo, éléments doux */
 --rain-light: #E8F0F2;   /* fond bloc réflexo */
@@ -66,14 +71,14 @@
 
 | Bloc | Fond | Texte | Bordure gauche |
 |------|------|-------|----------------|
-| Ce qui se passe (explication) | `#EDE0D4` | `#7A5038` | `#C89878` (Latte) |
-| Pour toi parent (ancrage) | `#E8F0F2` | `#384E48` | `#8A9E98` (Eucalyptus) |
-| Action immédiate | `#F4E2CE` | `#8A4E1C` | `#C77B3C` (Ocre) |
-| Pour aller plus loin | `#EDE0D4` | `#7A5038` | `#C89878` (Latte) |
+| Ce qui se passe (explication) | `#E8F0F2` | `#3A5A64` | `#8FB4BC` (Rain) |
+| Pour toi parent (ancrage) | `#F8E0D8` | `#8A4030` | `#E0A48E` (Peach) |
+| Action immédiate | `#F5D0C8` | `#8A3020` | `#D4604A` (Corail) |
+| Pour aller plus loin | `#F8DBC8` | `#9A4F2A` | `#DB936B` (Terracotta) |
 | Geste doux | `#DCE9CF` | `#3F5C2E` | `#82A56A` (Sauge) |
 | Principe à retenir | `#E8F0F2` | `#384E48` | `#8A9E98` (Eucalyptus) |
-| Erreurs à éviter | `#F4E2CE` | `#8A4E1C` | `#C77B3C` (Ocre) |
-| Cadre de sécurité | `#E4DDD6` | `#5A4A40` | `#B4A89C` |
+| Erreurs à éviter | `#E4DDD6` | `#5A4A40` | `#B4A89C` (Gris) + croix ✕ `#D4604A` |
+| Cadre de sécurité | `#EDE9E4` | `#8A3020` | cadre complet `#D4604A` (Corail) |
 
 ### Couleurs des modules (cases d'accueil)
 
@@ -185,26 +190,29 @@ color: #8A9E98  /* Eucalyptus — toujours pour les labels de section */
 </div>
 ```
 
-### Affichage d'un protocole — ordre et encarts des rubriques
+### Affichage d'un protocole — ordre et encarts des 8 rubriques
 
-**Ordre d'affichage imposé** (du haut vers le bas) :
+**Règle absolue : chaque rubrique est un encart coloré distinct.** Aucune rubrique en texte nu. Toujours dans cet ordre :
 
-```
-1. Ce qui se passe       (encart Latte)
-2. Pour toi parent       (encart Eucalyptus, italique)
-3. Action immédiate      (encart Ocre — gras avant « : »)
-4. Pour aller plus loin  (encart Latte)
-5. Geste doux            (encart Sauge — gras avant « : » + pastilles)
-6. Principe à retenir    (encart Eucalyptus)
-7. Erreurs à éviter      (encart Ocre)
-8. Cadre de sécurité     (encart neutre)
-```
+| # | Rubrique | Champ JSON | Fond | Bordure | Texte label |
+|---|----------|-----------|------|---------|-------------|
+| 1 | Ce qui se passe | `explication` | `#E8F0F2` | gauche 3px `#8FB4BC` | `#3A5A64` |
+| 2 | Pour toi, parent | `ancrage` | `#F8E0D8` | gauche 3px `#E0A48E` | `#8A4030` (italique) |
+| 3 | Action immédiate | `action_immediate` | `#F5D0C8` | gauche 3px `#D4604A` | `#8A3020` |
+| 4 | Pour aller plus loin | `pour_aller_plus_loin` | `#F8DBC8` | gauche 3px `#DB936B` | `#9A4F2A` |
+| 5 | Geste doux | `geste_doux` | `#DCE9CF` | gauche 3px `#82A56A` | `#3F5C2E` |
+| 6 | Principe à retenir | `principe` | `#E8F0F2` | gauche 3px `#8A9E98` | `#384E48` |
+| 7 | Erreurs à éviter | `erreurs_a_eviter` | `#E4DDD6` | gauche 3px `#B4A89C` | `#5A4A40` |
+| 8 | Cadre de sécurité | `consulter_si` | `#EDE9E4` | **cadre complet 1px `#D4604A`** | `#8A3020` |
 
-**Règles transverses à toutes les rubriques :**
-- Chaque rubrique est un **encart coloré** : fond clair + bordure gauche 3px de la couleur d'accent + `borderRadius: '0 12px 12px 0'`.
-- Label de section en haut de l'encart : 9px, uppercase, `letter-spacing: .07em`, **font-weight 700**, couleur = texte de l'encart.
-- **Démarcation forte avant le `:`** sur « Action immédiate », « Geste doux » ET « Pour aller plus loin » : la partie de chaque ligne **avant le `:`** est en **font-weight 700** (vraie démarcation visuelle pour une lecture rapide), le reste en poids normal.
-- **Pastilles numérotées pleines** sur « Action immédiate » et « Geste doux » : cercle plein de la couleur d'accent, chiffre blanc (`#FFFFFF`), font-weight 700.
+**Règles transverses :**
+- Bordure gauche 3px + `borderRadius: '0 12px 12px 0'` pour les rubriques 1 à 7. **Exception rubrique 8** : bordure complète `1px solid #D4604A` + `borderRadius: 10` (cadre fermé, signal d'alerte).
+- Label de section : 9px, uppercase, `letter-spacing: .07em`, **font-weight 700**, couleur = texte du tableau.
+- **Démarcation forte avant le `:`** (font-weight 700) sur Action immédiate, Geste doux ET Pour aller plus loin.
+- **Pastilles numérotées pleines** (fond = couleur de bordure, chiffre `#FFFFFF`, poids 700) sur Action immédiate et Geste doux.
+- **Compléments de titre** : Action immédiate et Geste doux affichent leur `titre` complet (ex. « Action immédiate — désamorcer le moment du repas »). Les autres rubriques ont un label fixe.
+- **Erreurs à éviter** : chaque erreur précédée d'une croix `✕` rouge `#D4604A` (poids 700), pas de pastille numérotée.
+- **Ne JAMAIS réafficher le champ `situation`** sur l'écran d'un protocole ouvert : il fait doublon avec le `titre`. Le champ `situation` ne sert que de libellé de bouton dans la liste d'une catégorie.
 
 ### Helper de rendu — gras avant le `:`
 
@@ -213,127 +221,109 @@ color: #8A9E98  /* Eucalyptus — toujours pour les labels de section */
 function ligneAvecAmorce(texte: string) {
   const i = texte.indexOf(':');
   if (i === -1) return <>{texte}</>;
-  const head = texte.slice(0, i).trim();
-  const tail = texte.slice(i + 1);
-  return <><strong style={{fontWeight: 700}}>{head} :</strong>{tail}</>;
+  return <><strong style={{fontWeight: 700}}>{texte.slice(0, i).trim()} :</strong>{texte.slice(i + 1)}</>;
 }
 ```
 
-### Encart générique (Ce qui se passe / Principe / Erreurs)
+### Encart simple (Ce qui se passe / Pour toi parent / Principe)
 
 ```tsx
 <div style={{
-  background: BG,            /* ex #EDE0D4 */
-  borderLeft: `3px solid ${ACCENT}`,  /* ex #C89878 */
-  borderRadius: '0 12px 12px 0',
-  padding: '11px 13px',
-  marginBottom: 6
+  background: BG, borderLeft: `3px solid ${ACCENT}`,
+  borderRadius: '0 12px 12px 0', padding: '11px 13px', marginBottom: 8
 }}>
   <div style={{fontSize: 9, fontWeight: 700, textTransform: 'uppercase',
-               letterSpacing: '.07em', color: TEXT, marginBottom: 5}}>
-    {label}
-  </div>
-  <div style={{fontSize: 11, color: '#3A3228', lineHeight: 1.5}}>
-    {/* texte ou liste */}
+               letterSpacing: '.07em', color: TEXT, marginBottom: 5}}>{label}</div>
+  <div style={{fontSize: 11, color: TEXT, lineHeight: 1.55 /* italic pour "Pour toi parent" */}}>
+    {contenu}
   </div>
 </div>
 ```
 
-### Encart « Pour aller plus loin » (Latte) — gras avant le `:`
+### Encart à étapes numérotées (Action immédiate = Corail / Geste doux = Sauge)
 
-Chaque point est rédigé au format **« Amorce : suite »** (voir SKILL_protocole.md § 3.8). L'amorce passe en gras 700.
+```tsx
+/* AI: BG #F5D0C8, ACCENT #D4604A, TEXT #8A3020
+   GD: BG #DCE9CF, ACCENT #82A56A, TEXT #3F5C2E */
+<div style={{
+  background: BG, borderLeft: `3px solid ${ACCENT}`,
+  borderRadius: '0 12px 12px 0', padding: '11px 13px', marginBottom: 8
+}}>
+  <div style={{fontSize: 9, fontWeight: 700, textTransform: 'uppercase',
+               letterSpacing: '.07em', color: TEXT, marginBottom: 7}}>
+    {bloc.titre}  {/* titre complet du JSON, avec son complément après le tiret */}
+  </div>
+  {bloc.etapes.map((step, i) => (
+    <div key={i} style={{display: 'flex', gap: 6, alignItems: 'flex-start', marginBottom: 5}}>
+      <div style={{
+        width: 17, height: 17, borderRadius: '50%', fontSize: 9, fontWeight: 700,
+        display: 'flex', alignItems: 'center', justifyContent: 'center',
+        flexShrink: 0, marginTop: 1, background: ACCENT, color: '#FFFFFF'
+      }}>{i + 1}</div>
+      <div style={{fontSize: 11, color: '#3A3228', lineHeight: 1.5}}>{ligneAvecAmorce(step)}</div>
+    </div>
+  ))}
+</div>
+```
+
+### Encart « Pour aller plus loin » (Terracotta) — gras avant le `:`
 
 ```tsx
 <div style={{
-  background: '#EDE0D4',
-  borderLeft: '3px solid #C89878',
-  borderRadius: '0 12px 12px 0',
-  padding: '11px 13px',
-  marginBottom: 6
+  background: '#F8DBC8', borderLeft: '3px solid #DB936B',
+  borderRadius: '0 12px 12px 0', padding: '11px 13px', marginBottom: 8
 }}>
   <div style={{fontSize: 9, fontWeight: 700, textTransform: 'uppercase',
-               letterSpacing: '.07em', color: '#7A5038', marginBottom: 5}}>
+               letterSpacing: '.07em', color: '#9A4F2A', marginBottom: 7}}>
     Pour aller plus loin
   </div>
   {points.map((pt, i) => (
-    <div key={i} style={{fontSize: 11, color: '#3A3228', lineHeight: 1.5, marginBottom: 4}}>
+    <div key={i} style={{fontSize: 11, color: '#3A3228', lineHeight: 1.5, marginBottom: 5}}>
       {ligneAvecAmorce(pt)}
     </div>
   ))}
 </div>
 ```
 
-### Encart « Action immédiate » (Ocre) — pastilles pleines + gras avant le `:`
+### Encart « Erreurs à éviter » (Gris + croix rouges)
 
 ```tsx
 <div style={{
-  background: '#F4E2CE',
-  borderLeft: '3px solid #C77B3C',
-  borderRadius: '0 12px 12px 0',
-  padding: '11px 13px',
-  marginBottom: 6
+  background: '#E4DDD6', borderLeft: '3px solid #B4A89C',
+  borderRadius: '0 12px 12px 0', padding: '11px 13px', marginBottom: 8
 }}>
   <div style={{fontSize: 9, fontWeight: 700, textTransform: 'uppercase',
-               letterSpacing: '.07em', color: '#8A4E1C', marginBottom: 7}}>
-    Action immédiate
+               letterSpacing: '.07em', color: '#5A4A40', marginBottom: 7}}>
+    Erreurs à éviter
   </div>
-  {steps.map((step, i) => (
-    <div key={i} style={{display: 'flex', gap: 6, alignItems: 'flex-start', marginBottom: 5}}>
-      <div style={{
-        width: 17, height: 17, borderRadius: '50%', fontSize: 9, fontWeight: 700,
-        display: 'flex', alignItems: 'center', justifyContent: 'center',
-        flexShrink: 0, marginTop: 1,
-        background: '#C77B3C', color: '#FFFFFF'   /* pastille PLEINE */
-      }}>{i + 1}</div>
-      <div style={{fontSize: 11, color: '#3A3228', lineHeight: 1.5}}>
-        {ligneAvecAmorce(step)}
-      </div>
+  {erreurs.map((err, i) => (
+    <div key={i} style={{display: 'flex', gap: 7, alignItems: 'flex-start', marginBottom: 5}}>
+      <span style={{color: '#D4604A', fontWeight: 700, fontSize: 12, lineHeight: 1.4, flexShrink: 0}}>✕</span>
+      <div style={{fontSize: 11, color: '#5A4A40', lineHeight: 1.5}}>{err}</div>
     </div>
   ))}
 </div>
 ```
 
-### Encart « Geste doux » (Sauge A1) — pastilles pleines + gras avant le `:`
-
-> Pas de bouton Épingler ici (décision fondatrice) : l'épinglage est réservé aux **blocs dédiés de réflexologie** (ex. `reflexologie_du_coucher`).
+### Encart « Cadre de sécurité » (Gris clair + cadre rouge complet)
 
 ```tsx
 <div style={{
-  background: '#DCE9CF',
-  borderLeft: '3px solid #82A56A',
-  borderRadius: '0 12px 12px 0',
-  padding: '11px 13px',
-  marginBottom: 6
+  background: '#EDE9E4', border: '1px solid #D4604A',
+  borderRadius: 10, padding: '11px 13px', marginBottom: 0
 }}>
   <div style={{fontSize: 9, fontWeight: 700, textTransform: 'uppercase',
-               letterSpacing: '.07em', color: '#3F5C2E', marginBottom: 7}}>
-    {gesteDouxTitre}  {/* ex "Geste doux — après la crise uniquement" */}
+               letterSpacing: '.07em', color: '#8A3020', marginBottom: 5}}>
+    Cadre de sécurité
   </div>
-  {steps.map((step, i) => (
-    <div key={i} style={{display: 'flex', gap: 6, alignItems: 'flex-start', marginBottom: 5}}>
-      <div style={{
-        width: 17, height: 17, borderRadius: '50%', fontSize: 9, fontWeight: 700,
-        display: 'flex', alignItems: 'center', justifyContent: 'center',
-        flexShrink: 0, marginTop: 1,
-        background: '#82A56A', color: '#FFFFFF'   /* pastille PLEINE */
-      }}>{i + 1}</div>
-      <div style={{fontSize: 11, color: '#3A3228', lineHeight: 1.5}}>
-        {ligneAvecAmorce(step)}
-      </div>
-    </div>
-  ))}
+  <div style={{fontSize: 11, color: '#5A4A40', lineHeight: 1.55}}>{consulterSi}</div>
 </div>
 ```
 
-> **Bouton Épingler — réservé aux blocs réflexologie dédiés.** Sur le bloc `reflexologie_du_coucher` (et équivalents), placer le bouton dans l'en-tête :
-> ```tsx
-> <button onClick={onPin} style={{
->   fontSize: 9, color: '#3F5C2E',
->   background: '#C9DDB6', border: 'none',
->   borderRadius: 5, padding: '3px 8px', cursor: 'pointer'
-> }}>☆ Épingler pour plus tard</button>
-> ```
-> L'état épinglé bascule `☆ Épingler pour plus tard` → `★ Épinglé`. Le bloc épinglé remonte dans la card « Épinglé récemment » du Dashboard et dans l'onglet Épinglés.
+### TopBar du protocole — dégrisée
+
+La bande du haut (prénom + mois + saison) reste sur le **fond Cream** (`#F2EDE8`), pas en Peach. Une simple séparation basse `0.5px solid #E4DDD6` suffit. Cela allège l'écran et laisse les 8 blocs porter la couleur.
+
 
 ### Boutons
 
@@ -491,26 +481,31 @@ Navigation fixe (5 onglets — icônes SVG outline)
 11. **Ordre des rubriques d'un protocole** (jamais réordonner) : Ce qui se passe → Pour toi parent → Action immédiate → Pour aller plus loin → Geste doux → Principe → Erreurs à éviter → Cadre de sécurité
 12. **Toutes les rubriques sont des encarts colorés** — même codes graphiques (fond clair + bordure gauche 3px + radius `0 12px 12px 0`)
 13. **Action immédiate = Ocre #C77B3C**, jamais rouge/Coral — l'urgence reste douce, pas anxiogène
-14. **Le Coral #D4604A** est réservé au CTA d'abonnement et à la nav active — plus jamais utilisé comme signal d'urgence dans les protocoles
+14. **Action immédiate = Corail `#D4604A`** (fond `#F5D0C8`) — décision fondatrice assumée
 15. **Démarcation forte avant le `:`** (font-weight 700) sur Action immédiate, Geste doux ET Pour aller plus loin — pour une lecture rapide de l'essentiel
 16. **Pastilles numérotées pleines** (fond coloré + chiffre blanc) sur Action immédiate et Geste doux — jamais en contour
-17. **Geste doux = vert Sauge A1** (`#82A56A` / fond `#DCE9CF` / texte `#3F5C2E`)
-18. **Bouton Épingler réservé aux blocs réflexologie dédiés** (`reflexologie_du_coucher` et équivalents) — jamais sur le Geste doux des protocoles Guide-moi
+17. **8 blocs colorés, aucune rubrique en texte nu** ; ordre fixe : Ce qui se passe → Pour toi parent → Action immédiate → Pour aller plus loin → Geste doux → Principe → Erreurs → Cadre
+18. **Ne jamais réafficher le champ `situation`** sur l'écran d'un protocole (doublon du titre) ; il ne sert que de libellé de bouton dans la liste d'une catégorie
+19. **Cadre de sécurité = cadre rouge complet** (`1px solid #D4604A`, radius 10) ; **Erreurs à éviter = croix ✕ rouges** devant chaque ligne
+20. **TopBar du protocole dégrisée** : fond Cream `#F2EDE8`, pas de Peach
+21. **Bouton Épingler réservé aux blocs réflexologie dédiés** (`reflexologie_du_coucher`) — jamais sur le Geste doux des protocoles Guide-moi
 
 ---
 
 ## Récapitulatif palette — référence rapide
 
 ```
-Cream      #F2EDE8   → fond général
-Peach      #F0B8A8   → topbar, accents
-Coral      #D4604A   → CTA principal (abonnement), nav active
-Ocre       #C77B3C   → action immédiate, erreurs à éviter (urgence douce)
-Sauge      #82A56A   → geste doux (vert naturel A1)
-Latte      #C89878   → ce qui se passe, pour aller plus loin
-Rain       #C8D8DC   → éléments doux, fond module coucher
-Eucalyptus #8A9E98   → pour toi parent, principe, nav, labels
+Cream      #F2EDE8   → fond général + topbar protocole
+Peach      #F0B8A8   → accents ; bloc « Pour toi parent » (fond #F8E0D8 / bord #E0A48E)
+Coral      #D4604A   → action immédiate, croix erreurs, cadre sécurité, CTA, nav active
+Terracotta #DB936B   → pour aller plus loin (fond #F8DBC8 / texte #9A4F2A)
+Sauge      #82A56A   → geste doux (fond #DCE9CF / texte #3F5C2E)
+Rain       #8FB4BC   → ce qui se passe (fond #E8F0F2 / texte #3A5A64) + module coucher
+Eucalyptus #8A9E98   → principe à retenir, nav, labels
+Gris       #B4A89C   → erreurs à éviter (fond #E4DDD6) ; cadre sécurité (fond #EDE9E4)
 ```
+
+> Note : l'ancien Ocre et l'ancien Latte ne sont plus utilisés sur les blocs de protocole (remplacés par Corail et Terracotta).
 
 
 ---
