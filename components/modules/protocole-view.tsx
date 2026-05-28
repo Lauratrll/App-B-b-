@@ -35,13 +35,21 @@ const C = {
   },
 };
 
-/* Met en gras la partie avant le premier ":" — l'amorce. */
+/* Met en gras la partie avant le premier séparateur d'amorce.
+ * Séparateurs reconnus : ":" et tiret cadratin "—" (le premier qui apparaît).
+ * Le séparateur d'origine est conservé tel quel après l'amorce en gras. */
 function LigneAvecAmorce({ texte }: { texte: string }) {
-  const i = texte.indexOf(":");
-  if (i === -1) return <>{texte}</>;
+  const iColon = texte.indexOf(":");
+  const iDash = texte.indexOf("—");
+  const candidats = [iColon, iDash].filter((i) => i !== -1);
+  if (candidats.length === 0) return <>{texte}</>;
+  const i = Math.min(...candidats);
+  const sep = texte[i];
   return (
     <>
-      <strong style={{ fontWeight: 700 }}>{texte.slice(0, i).trim()} :</strong>
+      <strong style={{ fontWeight: 700 }}>
+        {texte.slice(0, i).trim()} {sep}
+      </strong>
       {texte.slice(i + 1)}
     </>
   );

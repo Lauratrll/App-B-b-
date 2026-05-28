@@ -48,11 +48,6 @@ export default async function CategoriePage({
                 className="block rounded-2xl border border-neutral-200 p-4 transition-colors hover:bg-neutral-50"
               >
                 <p className="font-medium leading-tight">{s.titre}</p>
-                {s.situation && s.situation !== s.titre ? (
-                  <p className="mt-1 text-xs italic text-neutral-500">
-                    {s.situation}
-                  </p>
-                ) : null}
               </Link>
             </li>
           ))}
