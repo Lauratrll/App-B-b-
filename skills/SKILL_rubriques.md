@@ -9,8 +9,6 @@
 
 Chaque mois (de 0 à 24) contient **6 fichiers JSON** dans un dossier `mois{XX}/` :
 
-> **Couverture actuelle :** la production court de **M0 à M23** (l'app accompagne jusqu'aux ~2 ans). M24 figure dans la table des adjectifs comme jalon mais n'est pas produit. Pour la rubrique Saison, voir la note de structure refondue en § 4.4.
-
 | # | Fichier | Rubrique app | Statut éditorial |
 |---|---------|--------------|------------------|
 | 1 | `01_protocoles.json` | Guide-moi ! | **Le plus développé** — 32 protocoles différenciés |
@@ -59,7 +57,7 @@ Liste à **valider ou ajuster** avec la fondatrice mois par mois. Les adjectifs 
 | 9 | Le Curieux | Permanence de l'objet, recherche active, pointage |
 | 10 | Le Grimpeur | Se met debout, longe les meubles |
 | 11 | L'Imitateur | Imitation des gestes, premiers signes |
-| 12 | Le Marcheur | Vers les premiers pas (fourchette large 10-18 mois), premiers mots |
+| 12 | Le Marcheur | Premiers pas, premiers mots |
 | 13 | L'Affirmé | Choix, préférences, début de l'opposition |
 | 14 | L'Explorateur | Marche affirmée, manipulation fine, exploration active |
 | 15 | Le Bavard | Explosion lexicale, 10-20 mots, comprend tout |
@@ -76,7 +74,7 @@ Liste à **valider ou ajuster** avec la fondatrice mois par mois. Les adjectifs 
 **Règles d'ajustement :**
 - Si la fondatrice préfère un autre adjectif pour un mois, l'ancien est archivé en commentaire dans le JSON
 - Un même adjectif ne peut pas être utilisé deux fois
-- Chaque adjectif doit capter une **nuance** distincte du mois (ex : M14 « L'Explorateur » = manipulation/exploration fine ; M23 « L'Aventurier » = défi corporel, course/saut/escalade — deux moments bien distincts, tous deux produits)
+- Préférer la nuance à l'exhaustivité (ex : "L'Explorateur" couvre déjà "L'Aventurier" — ne pas dupliquer)
 
 ---
 
@@ -110,7 +108,7 @@ Notes :
 ### 4.1 `01_protocoles.json` — Guide-moi ! (Référence — le plus développé)
 
 **Format :**
-- `categories` : liste de 8 catégories (id, nom, sous_titre, icone)
+- `categories` : liste de 8 catégories (id, nom, icone — **pas de sous_titre** : le nom seul suffit)
 - `protocoles` : liste de 32 protocoles (4 par catégorie)
 
 **Structure d'un protocole :**
@@ -122,14 +120,14 @@ Notes :
   "explication": "3-5 phrases sur le mécanisme neuro/développemental",
   "ancrage": "1-2 phrases adressées au parent",
   "action_immediate": {
-    "couleur_fond": "#FCEBEB",
-    "couleur_texte": "#A32D2D",
+    "couleur_fond": "#F4E2CE",
+    "couleur_texte": "#8A4E1C",
     "titre": "Action immédiate",
     "etapes": ["...", "..."]  // 5 étapes max
   },
   "geste_doux": {
-    "couleur_fond": "#E1F5EE",
-    "couleur_texte": "#085041",
+    "couleur_fond": "#DCE9CF",
+    "couleur_texte": "#3F5C2E",
     "titre": "Geste doux — après la crise uniquement",
     "etapes": ["...", "..."]  // 5 étapes max
   },
@@ -215,32 +213,17 @@ Notes :
 
 ### 4.4 `04_saison.json` — Saison (4 variantes en un fichier)
 
-> ⚠️ **Structure refondue (à jour).** Les fichiers Saison n'utilisent plus l'ancienne structure technique (principes / habillage / sorties / particularités_santé / rituel_lumière...). Ils utilisent désormais une **structure courte et émotionnelle** : deux idées concrètes à vivre par saison, plus un mémo d'habillage de nuit. Toute la production actuelle (M0 à M23) suit ce format. Ne pas régénérer un mois dans l'ancien format.
-
-**Structure top-level :**
+**Structure :**
 ```json
 {
-  "mois": 12,
-  "tranche_age": "12 mois",
-  "rubrique": "saison",
-  "titre_rubrique": "Saison",
-  "sous_titre": "Mois 12 — Le Marcheur · Vivre la saison ensemble",
-  "description_m": "À 12 mois, {prenom} ... (version masculin)",
-  "description_f": "À 12 mois, {prenom} ... (version féminin)",
   "logique_selection": {
-    "regle": "À 12 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "regle": "À partir de 12 mois : saison du mois civil en cours. Avant 12 mois : voir SKILL pour règle spécifique au mois.",
     "mapping": {
       "printemps": ["mars", "avril", "mai"],
       "ete": ["juin", "juillet", "août"],
       "automne": ["septembre", "octobre", "novembre"],
       "hiver": ["décembre", "janvier", "février"]
     }
-  },
-  "habillage_nuit_memo": {
-    "titre": "Bien habiller bébé pour la nuit",
-    "intro": "Un repère à garder en tête toute l'année — pratique aussi quand vous partez en vacances dans une autre saison.",
-    "version_a_afficher": "plus_grand",
-    "note_version": "À 12 mois, bébé régule très bien sa température : on utilise le schéma 4 mois et plus."
   },
   "versions": {
     "printemps": {...},
@@ -251,58 +234,23 @@ Notes :
 }
 ```
 
-**Descriptions genrées :** `description_m` et `description_f` sont deux variantes du même texte d'intro, identiques au mot près sauf les accords (il/elle, tout seul/toute seule...). Le prénom est inséré en runtime via `{prenom}`. L'app affiche l'une ou l'autre selon le sexe renseigné.
+**Structure d'une variante :**
+- `id`, `titre`, `ambiance`, `couleur_theme`, `couleur_accent`, `emoji`, `ancrage`
+- `principes` (3-4 points)
+- `habillage` : principe + `guide_temperature` (4 tranches)
+- `sorties` : frequence_conseillee, moments_ideaux, activites_specifiques
+- `particularites_sante` : vigilance + signes_consultation + vitamine_d
+- `rituel_lumiere` (ou `rituel_fraicheur` en été)
+- `alimentation_maman` (liste simple)
+- `amenagement_chambre` (liste simple)
+- `moral_hiver` ou `moral_lumiere_decroissante` (uniquement automne/hiver)
 
-**Mémo d'habillage de nuit (`habillage_nuit_memo`) :** un simple renvoi vers le schéma d'habillage de référence, pas un guide complet. `version_a_afficher` vaut `"nourrisson"` (schéma 0-4 mois) jusqu'à ~M3, puis `"plus_grand"` (schéma 4 mois et plus) à partir du moment où bébé régule mieux sa température. `note_version` explique en une phrase pourquoi.
-
-**Structure d'une variante saisonnière :**
-```json
-{
-  "id": "saison_printemps_12",
-  "couleur_theme": "#EAF3DE",
-  "couleur_accent": "#27500A",
-  "emoji": "🌱",
-  "ambiance": "1-2 phrases qui plantent l'atmosphère de la saison, reliées au moment développemental.",
-  "a_savoir_cette_saison": "1 court paragraphe (≈ 200-350 caractères) : vigilance santé/sécurité de saison + 1 repère développemental ou parental. NE PAS spoiler les idées qui suivent.",
-  "idees_du_moment": [
-    { "titre": "...", "texte": "Une idée concrète à vivre ensemble (≈ 400-650 caractères)." },
-    { "titre": "...", "texte": "Deuxième idée, d'un registre différent de la première." }
-  ]
-}
-```
-
-**Règles de contenu :**
-- **Exactement 2 idées par saison** (`idees_du_moment`), soit 8 idées par mois.
-- **Varier le registre des 2 idées d'une même saison** : ne pas mettre deux idées du même type (ex : deux idées « motricité/déplacement »). Viser 1 idée motrice/exploratoire + 1 idée d'un autre registre (sensoriel, langage, lien, émotionnel, soin...). Cela évite de surcharger un seul axe et de créer une pression sur un acquis moteur (voir « Inclusivité motrice » ci-dessous).
-- `a_savoir_cette_saison` reste **court** et ne doit pas annoncer le contenu des idées (sinon redondance).
-- Couleurs thématiques **fixes** : printemps `#EAF3DE` / `#27500A`, été `#FAEEDA` / `#633806`, automne `#F5E4DE` / `#C0723A`, hiver `#E4EEF0` / `#486878`.
-- Emojis **fixes** : 🌱 ☀️ 🍂 ❄️.
-- `id` au format `saison_{saison}_{NN}` (numéro de mois sur 2 chiffres).
-- Volume cible du fichier : **~10 Ko** (et non 15-20 Ko de l'ancienne structure).
-
-**Inclusivité motrice (règle anti-pression) :**
-Beaucoup d'acquis moteurs ont une **fourchette large** (la marche autonome arrive entre 10 et 18 mois). Ne jamais poser un acquis comme un fait certain pour l'âge, car un parent dont l'enfant n'en est pas encore là le lirait comme un retard.
-- ❌ « À 13 mois marcheur assuré... », « {prenom} marche, choisit... » (présuppose la marche).
-- ✅ « À 13 mois... », « qu'il se déplace debout, en se tenant à toi ou à quatre pattes... », « chaque rythme est normal jusqu'à 18 mois, inutile de comparer ».
-- Une idée centrée sur le déplacement doit fonctionner **aussi bien pour un enfant qui marche que pour un enfant encore à quatre pattes ou debout aux meubles**.
-- Cette règle vaut pour tous les acquis à fourchette large : marche, langage (premiers mots), propreté, etc.
-
-**Anti-redondance entre mois (motifs saisonniers) :**
-La rubrique réutilise forcément les éléments d'une saison (feuilles d'automne, eau d'été, herbe de printemps...). Pour éviter la lassitude :
-- Un même motif **central** (le geste/objet au cœur de l'idée) ne doit pas réapparaître sur des mois rapprochés. Tolérance : motif espacé d'au moins ~2-3 mois ET réinterprété selon l'âge/le développement (le geste change).
-- Deux idées d'un **même mois** ne doivent pas partager le même motif central.
-- Avant de produire/réviser un mois, balayer les mois voisins de la même saison pour repérer les motifs déjà pris (feuilles, eau, sable, pommes, marrons, cueillette, marché, panier, cadeau, lumières...).
+**Règles :**
+- Pas de `erreurs_a_eviter` ni de `phrases_ancrage` à la fin (trop éditorial)
+- Couleurs thématiques fixes : printemps `#EAF3DE`, été `#FAEEDA`, automne `#F5E4DE`, hiver `#E4EEF0`
+- Emojis fixes : 🌱 ☀️ 🍂 ❄️
 
 **Spécificité Mois 0 :** la règle de sélection se base sur le mois de naissance (un nouveau-né reste dans sa saison de naissance pendant 4 semaines). À partir du Mois 12+, la règle se base sur le mois civil en cours.
-
-**Règle des anniversaires (préparation au mois précédent) :**
-Un anniversaire se **prépare** le mois AVANT, jamais le mois « rond » lui-même. En effet, le mois Mn correspond à « n mois révolus » : l'anniversaire a eu lieu le **premier jour** de ce mois, il est donc déjà passé quand le contenu de Mn s'affiche — trop tard pour en parler.
-
-- **Le 1er anniversaire (1 an) se prépare dans le Mois 11**, pas dans le Mois 12.
-- **Le 2e anniversaire (2 ans) se prépare dans le Mois 23**, pas dans le Mois 24.
-- Règle générale : l'anniversaire des N ans se prépare au mois (12×N − 1).
-
-Concrètement : **ne jamais évoquer l'anniversaire (gâteau, bougie, fête, « il y a un an », bouclage symbolique) dans les mois 12 et 24.** Ces mois portent sur autre chose. La préparation, l'attente joyeuse et le rituel se placent au mois qui précède (M11, M23), pendant que l'événement est encore à venir.
 
 ### 4.5 `05_partager_rassurer.json` — Partager & rassurer
 
@@ -505,9 +453,7 @@ Cette palette est **indicative et ajustable** — la fondatrice peut faire évol
 
 **Tutoiement du parent** systématique.
 
-**Désignation de l'enfant — deux conventions selon la rubrique :**
-- Rubriques techniques (protocoles, coucher, prendre soin, jeux) : l'enfant est désigné par **« ton enfant »** dans le JSON, sans marque de genre.
-- Rubrique **Saison** (structure refondue) : utilise le **placeholder `{prenom}`** inséré en runtime, avec **deux variantes genrées** des textes d'intro (`description_m` / `description_f`). C'est la convention à suivre pour tout nouveau contenu Saison.
+**L'enfant nommé "ton enfant"** dans le JSON (le prénom est inséré en runtime par l'app).
 
 **Pas de jugement comportemental :**
 - ✅ "Les écrans dans l'heure avant le coucher inhibent la mélatonine" (information factuelle)
@@ -541,9 +487,8 @@ Cette palette est **indicative et ajustable** — la fondatrice peut faire évol
 2. **Lire `CONTENT_INDEX.md`** pour voir ce qui a déjà été dit dans les mois proches (éviter les redites)
 3. **Lire `SKILL_protocole.md`** avant de produire `01_protocoles.json`
 4. **Produire les 6 fichiers** dans l'ordre, en respectant les structures du § 4
-   - Pour `04_saison.json` : structure refondue du § 4.4 (descriptions genrées `{prenom}`, 2 idées/saison de registres différents), inclusivité motrice, et balayage anti-redondance des mois voisins de chaque saison.
 5. **Mettre à jour `CONTENT_INDEX.md`** avec un résumé du mois produit
-6. **Valider** les JSON avec un parseur Python avant livraison (vérifier aussi : aucun échappement `\uXXXX` parasite, accents lisibles)
+6. **Valider** les JSON avec un parseur Python avant livraison
 
 ---
 
@@ -554,7 +499,7 @@ Cette palette est **indicative et ajustable** — la fondatrice peut faire évol
 | `01_protocoles.json` | 100-120 Ko | Le plus dense — 32 protocoles complets |
 | `02_coucher.json` | 5-8 Ko | Concis |
 | `03_prendre_soin_de_moi.json` | 8-12 Ko | Le post-partum est plus dense en M0-M6 |
-| `04_saison.json` | ~10 Ko | Structure refondue (2 idées/saison) — ~10 Ko ; l'ancien format faisait 15-25 Ko |
+| `04_saison.json` | 15-20 Ko | 4 variantes — peut grimper à 25 Ko pour M0 |
 | `05_partager_rassurer.json` | 7-10 Ko | 3 scripts complets |
 | `06_jeux.json` | 5-8 Ko | 4 activités — pas plus |
 | **Total par mois** | **140-180 Ko** | Pour 24 mois ≈ 3,3 à 4,3 Mo de JSON |

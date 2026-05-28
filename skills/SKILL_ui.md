@@ -41,6 +41,16 @@
 --latte-light:#EDE0D4;   /* fond bloc explication */
 --latte-dark: #7A5038;   /* texte sur fond latte clair */
 
+/* OCRE — action immédiate (remplace l'ancien Coral/rouge, signal moins urgent) */
+--ocre:       #C77B3C;   /* bordure gauche action immédiate */
+--ocre-light: #F4E2CE;   /* fond bloc action immédiate */
+--ocre-dark:  #8A4E1C;   /* texte sur fond ocre clair */
+
+/* SAUGE — geste doux (vert naturel A1, validé fondatrice) */
+--sauge:       #82A56A;  /* bordure gauche + pastilles geste doux */
+--sauge-light: #DCE9CF;  /* fond bloc geste doux */
+--sauge-dark:  #3F5C2E;  /* texte sur fond sauge clair */
+
 /* RAIN */
 --rain:       #C8D8DC;   /* réflexo, éléments doux */
 --rain-light: #E8F0F2;   /* fond bloc réflexo */
@@ -56,13 +66,13 @@
 
 | Bloc | Fond | Texte | Bordure gauche |
 |------|------|-------|----------------|
-| Explication | `#EDE0D4` | `#7A5038` | `#C89878` (Latte) |
-| Phrase d'ancrage | `#E8F0F2` | `#384E48` | `#8A9E98` (Eucalyptus) |
-| Action immédiate | `#F5D0C8` | `#8A3020` | `#D4604A` (Coral) |
-| Geste réflexo | `#E8F0F2` | `#486878` | `#C8D8DC` (Rain) |
-| Action parent | `#D4E0DC` | `#384E48` | `#8A9E98` (Eucalyptus) |
-| Conseil préventif | `#EDE0D4` | `#7A5038` | `#C89878` (Latte) |
-| Erreurs à éviter | `#F5D0C8` | `#8A3020` | `#D4604A` (Coral) |
+| Ce qui se passe (explication) | `#EDE0D4` | `#7A5038` | `#C89878` (Latte) |
+| Pour toi parent (ancrage) | `#E8F0F2` | `#384E48` | `#8A9E98` (Eucalyptus) |
+| Action immédiate | `#F4E2CE` | `#8A4E1C` | `#C77B3C` (Ocre) |
+| Pour aller plus loin | `#EDE0D4` | `#7A5038` | `#C89878` (Latte) |
+| Geste doux | `#DCE9CF` | `#3F5C2E` | `#82A56A` (Sauge) |
+| Principe à retenir | `#E8F0F2` | `#384E48` | `#8A9E98` (Eucalyptus) |
+| Erreurs à éviter | `#F4E2CE` | `#8A4E1C` | `#C77B3C` (Ocre) |
 | Cadre de sécurité | `#E4DDD6` | `#5A4A40` | `#B4A89C` |
 
 ### Couleurs des modules (cases d'accueil)
@@ -175,53 +185,155 @@ color: #8A9E98  /* Eucalyptus — toujours pour les labels de section */
 </div>
 ```
 
-### Card protocole
+### Affichage d'un protocole — ordre et encarts des rubriques
+
+**Ordre d'affichage imposé** (du haut vers le bas) :
+
+```
+1. Ce qui se passe       (encart Latte)
+2. Pour toi parent       (encart Eucalyptus, italique)
+3. Action immédiate      (encart Ocre — gras avant « : »)
+4. Pour aller plus loin  (encart Latte)
+5. Geste doux            (encart Sauge — gras avant « : » + pastilles)
+6. Principe à retenir    (encart Eucalyptus)
+7. Erreurs à éviter      (encart Ocre)
+8. Cadre de sécurité     (encart neutre)
+```
+
+**Règles transverses à toutes les rubriques :**
+- Chaque rubrique est un **encart coloré** : fond clair + bordure gauche 3px de la couleur d'accent + `borderRadius: '0 12px 12px 0'`.
+- Label de section en haut de l'encart : 9px, uppercase, `letter-spacing: .07em`, **font-weight 700**, couleur = texte de l'encart.
+- **Démarcation forte avant le `:`** sur « Action immédiate », « Geste doux » ET « Pour aller plus loin » : la partie de chaque ligne **avant le `:`** est en **font-weight 700** (vraie démarcation visuelle pour une lecture rapide), le reste en poids normal.
+- **Pastilles numérotées pleines** sur « Action immédiate » et « Geste doux » : cercle plein de la couleur d'accent, chiffre blanc (`#FFFFFF`), font-weight 700.
+
+### Helper de rendu — gras avant le `:`
 
 ```tsx
-/* Exemple — action immédiate */
+/* Réutilisé par Action immédiate, Geste doux et Pour aller plus loin */
+function ligneAvecAmorce(texte: string) {
+  const i = texte.indexOf(':');
+  if (i === -1) return <>{texte}</>;
+  const head = texte.slice(0, i).trim();
+  const tail = texte.slice(i + 1);
+  return <><strong style={{fontWeight: 700}}>{head} :</strong>{tail}</>;
+}
+```
+
+### Encart générique (Ce qui se passe / Principe / Erreurs)
+
+```tsx
 <div style={{
-  background: '#F5D0C8',
-  borderLeft: '3px solid #D4604A',
+  background: BG,            /* ex #EDE0D4 */
+  borderLeft: `3px solid ${ACCENT}`,  /* ex #C89878 */
   borderRadius: '0 12px 12px 0',
   padding: '11px 13px',
   marginBottom: 6
 }}>
-  <div style={{fontSize: 9, fontWeight: 600, textTransform: 'uppercase',
-               letterSpacing: '.07em', color: '#8A3020', marginBottom: 5}}>
-    Action immédiate
+  <div style={{fontSize: 9, fontWeight: 700, textTransform: 'uppercase',
+               letterSpacing: '.07em', color: TEXT, marginBottom: 5}}>
+    {label}
   </div>
-  {steps.map((step, i) => (
-    <div key={i} style={{display: 'flex', gap: 6, alignItems: 'flex-start', marginBottom: 4}}>
-      <div style={{
-        width: 17, height: 17, borderRadius: '50%', fontSize: 9, fontWeight: 600,
-        display: 'flex', alignItems: 'center', justifyContent: 'center',
-        flexShrink: 0, marginTop: 1,
-        background: '#F5D0C8', color: '#8A3020',
-        border: '0.5px solid #D4604A'
-      }}>{i + 1}</div>
-      <div style={{fontSize: 11, color: '#3A3228', lineHeight: 1.5}}>{step}</div>
+  <div style={{fontSize: 11, color: '#3A3228', lineHeight: 1.5}}>
+    {/* texte ou liste */}
+  </div>
+</div>
+```
+
+### Encart « Pour aller plus loin » (Latte) — gras avant le `:`
+
+Chaque point est rédigé au format **« Amorce : suite »** (voir SKILL_protocole.md § 3.8). L'amorce passe en gras 700.
+
+```tsx
+<div style={{
+  background: '#EDE0D4',
+  borderLeft: '3px solid #C89878',
+  borderRadius: '0 12px 12px 0',
+  padding: '11px 13px',
+  marginBottom: 6
+}}>
+  <div style={{fontSize: 9, fontWeight: 700, textTransform: 'uppercase',
+               letterSpacing: '.07em', color: '#7A5038', marginBottom: 5}}>
+    Pour aller plus loin
+  </div>
+  {points.map((pt, i) => (
+    <div key={i} style={{fontSize: 11, color: '#3A3228', lineHeight: 1.5, marginBottom: 4}}>
+      {ligneAvecAmorce(pt)}
     </div>
   ))}
 </div>
 ```
 
-### Phrase d'ancrage
+### Encart « Action immédiate » (Ocre) — pastilles pleines + gras avant le `:`
 
 ```tsx
 <div style={{
-  background: '#E8F0F2',
-  borderRadius: 8,
-  padding: '9px 11px',
-  fontSize: 11,
-  color: '#384E48',
-  fontStyle: 'italic',
-  borderLeft: '2px solid #8A9E98',
-  lineHeight: 1.6,
-  marginBottom: 7
+  background: '#F4E2CE',
+  borderLeft: '3px solid #C77B3C',
+  borderRadius: '0 12px 12px 0',
+  padding: '11px 13px',
+  marginBottom: 6
 }}>
-  {anchorText}
+  <div style={{fontSize: 9, fontWeight: 700, textTransform: 'uppercase',
+               letterSpacing: '.07em', color: '#8A4E1C', marginBottom: 7}}>
+    Action immédiate
+  </div>
+  {steps.map((step, i) => (
+    <div key={i} style={{display: 'flex', gap: 6, alignItems: 'flex-start', marginBottom: 5}}>
+      <div style={{
+        width: 17, height: 17, borderRadius: '50%', fontSize: 9, fontWeight: 700,
+        display: 'flex', alignItems: 'center', justifyContent: 'center',
+        flexShrink: 0, marginTop: 1,
+        background: '#C77B3C', color: '#FFFFFF'   /* pastille PLEINE */
+      }}>{i + 1}</div>
+      <div style={{fontSize: 11, color: '#3A3228', lineHeight: 1.5}}>
+        {ligneAvecAmorce(step)}
+      </div>
+    </div>
+  ))}
 </div>
 ```
+
+### Encart « Geste doux » (Sauge A1) — pastilles pleines + gras avant le `:`
+
+> Pas de bouton Épingler ici (décision fondatrice) : l'épinglage est réservé aux **blocs dédiés de réflexologie** (ex. `reflexologie_du_coucher`).
+
+```tsx
+<div style={{
+  background: '#DCE9CF',
+  borderLeft: '3px solid #82A56A',
+  borderRadius: '0 12px 12px 0',
+  padding: '11px 13px',
+  marginBottom: 6
+}}>
+  <div style={{fontSize: 9, fontWeight: 700, textTransform: 'uppercase',
+               letterSpacing: '.07em', color: '#3F5C2E', marginBottom: 7}}>
+    {gesteDouxTitre}  {/* ex "Geste doux — après la crise uniquement" */}
+  </div>
+  {steps.map((step, i) => (
+    <div key={i} style={{display: 'flex', gap: 6, alignItems: 'flex-start', marginBottom: 5}}>
+      <div style={{
+        width: 17, height: 17, borderRadius: '50%', fontSize: 9, fontWeight: 700,
+        display: 'flex', alignItems: 'center', justifyContent: 'center',
+        flexShrink: 0, marginTop: 1,
+        background: '#82A56A', color: '#FFFFFF'   /* pastille PLEINE */
+      }}>{i + 1}</div>
+      <div style={{fontSize: 11, color: '#3A3228', lineHeight: 1.5}}>
+        {ligneAvecAmorce(step)}
+      </div>
+    </div>
+  ))}
+</div>
+```
+
+> **Bouton Épingler — réservé aux blocs réflexologie dédiés.** Sur le bloc `reflexologie_du_coucher` (et équivalents), placer le bouton dans l'en-tête :
+> ```tsx
+> <button onClick={onPin} style={{
+>   fontSize: 9, color: '#3F5C2E',
+>   background: '#C9DDB6', border: 'none',
+>   borderRadius: 5, padding: '3px 8px', cursor: 'pointer'
+> }}>☆ Épingler pour plus tard</button>
+> ```
+> L'état épinglé bascule `☆ Épingler pour plus tard` → `★ Épinglé`. Le bloc épinglé remonte dans la card « Épinglé récemment » du Dashboard et dans l'onglet Épinglés.
 
 ### Boutons
 
@@ -376,6 +488,14 @@ Navigation fixe (5 onglets — icônes SVG outline)
 8. **Les patterns SVG des modules** ont toujours une opacité entre 0.15 et 0.20
 9. **Fond général systématique** : #F2EDE8 (Cream) — jamais de blanc pur
 10. **Couleur active de la nav** : #D4604A (Coral) — inactive : #8A9E98 (Eucalyptus)
+11. **Ordre des rubriques d'un protocole** (jamais réordonner) : Ce qui se passe → Pour toi parent → Action immédiate → Pour aller plus loin → Geste doux → Principe → Erreurs à éviter → Cadre de sécurité
+12. **Toutes les rubriques sont des encarts colorés** — même codes graphiques (fond clair + bordure gauche 3px + radius `0 12px 12px 0`)
+13. **Action immédiate = Ocre #C77B3C**, jamais rouge/Coral — l'urgence reste douce, pas anxiogène
+14. **Le Coral #D4604A** est réservé au CTA d'abonnement et à la nav active — plus jamais utilisé comme signal d'urgence dans les protocoles
+15. **Démarcation forte avant le `:`** (font-weight 700) sur Action immédiate, Geste doux ET Pour aller plus loin — pour une lecture rapide de l'essentiel
+16. **Pastilles numérotées pleines** (fond coloré + chiffre blanc) sur Action immédiate et Geste doux — jamais en contour
+17. **Geste doux = vert Sauge A1** (`#82A56A` / fond `#DCE9CF` / texte `#3F5C2E`)
+18. **Bouton Épingler réservé aux blocs réflexologie dédiés** (`reflexologie_du_coucher` et équivalents) — jamais sur le Geste doux des protocoles Guide-moi
 
 ---
 
@@ -384,10 +504,12 @@ Navigation fixe (5 onglets — icônes SVG outline)
 ```
 Cream      #F2EDE8   → fond général
 Peach      #F0B8A8   → topbar, accents
-Coral      #D4604A   → action, CTA, urgence
-Latte      #C89878   → explication, neutre
-Rain       #C8D8DC   → réflexo, doux
-Eucalyptus #8A9E98   → parent, nav, labels
+Coral      #D4604A   → CTA principal (abonnement), nav active
+Ocre       #C77B3C   → action immédiate, erreurs à éviter (urgence douce)
+Sauge      #82A56A   → geste doux (vert naturel A1)
+Latte      #C89878   → ce qui se passe, pour aller plus loin
+Rain       #C8D8DC   → éléments doux, fond module coucher
+Eucalyptus #8A9E98   → pour toi parent, principe, nav, labels
 ```
 
 

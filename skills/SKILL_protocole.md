@@ -31,7 +31,7 @@ Les 8 catégories varient selon l'âge du bébé. Voir `SKILL_rubriques.md` § 2
 **Mois 12 à 24** (enfant qui marche) :
 - colere · sommeil · langage · alim · sepa · corpo · dents · stimu
 
-**Règle :** chaque catégorie doit avoir un identifiant court et stable (`colere`, pas `coleres_et_frustration`), un nom long affiché dans l'UI, un sous_titre descriptif, une icône emoji.
+**Règle :** chaque catégorie doit avoir un identifiant court et stable (`colere`, pas `coleres_et_frustration`), un nom long affiché dans l'UI, une icône emoji. **Pas de `sous_titre`** : le nom de catégorie se suffit à lui-même (ex. « Alimentation » seul, sans énumération type « sein, biberon, tétées » qui alourdit et fait redondance).
 
 ---
 
@@ -47,14 +47,14 @@ Chaque protocole contient **exactement** ces 9 champs, dans cet ordre :
   "explication": "...",
   "ancrage": "...",
   "action_immediate": {
-    "couleur_fond": "#FCEBEB",
-    "couleur_texte": "#A32D2D",
+    "couleur_fond": "#F4E2CE",
+    "couleur_texte": "#8A4E1C",
     "titre": "Action immédiate",
     "etapes": ["...", "...", "...", "...", "..."]
   },
   "geste_doux": {
-    "couleur_fond": "#E1F5EE",
-    "couleur_texte": "#085041",
+    "couleur_fond": "#DCE9CF",
+    "couleur_texte": "#3F5C2E",
     "titre": "Geste doux — ...",
     "etapes": ["...", "...", "...", "...", "..."]
   },
@@ -117,8 +117,8 @@ Le titre du protocole affiché en grand. Peut être plus synthétique que la sit
 **Structure :**
 ```json
 {
-  "couleur_fond": "#FCEBEB",
-  "couleur_texte": "#A32D2D",
+  "couleur_fond": "#F4E2CE",
+  "couleur_texte": "#8A4E1C",
   "titre": "Action immédiate",
   "etapes": [
     "Étape 1 — verbe d'action, court",
@@ -140,8 +140,8 @@ Le titre du protocole affiché en grand. Peut être plus synthétique que la sit
 **Structure :**
 ```json
 {
-  "couleur_fond": "#E1F5EE",
-  "couleur_texte": "#085041",
+  "couleur_fond": "#DCE9CF",
+  "couleur_texte": "#3F5C2E",
   "titre": "Geste doux — après la crise uniquement",
   "etapes": [
     "Étape réflexo ou de contact doux",
@@ -163,9 +163,12 @@ Le titre du protocole affiché en grand. Peut être plus synthétique que la sit
 
 **Règles :**
 - **Exactement 4 points** — c'est un standard visuel dans l'app
-- Chaque point : 1-2 phrases max
-- Ton de l'invitation ("Tenir un journal..."), pas de l'injonction
+- **Format imposé « Amorce : suite »** : chaque point commence par une amorce courte de 2-4 mots, suivie de « : », puis du développement. L'amorce est mise en gras à l'affichage (lecture rapide). Ex : « Tenir un journal : noter les déclencheurs sur une semaine. »
+- Amorce = un groupe nominal ou verbal court (pas une phrase complète) ; pas de « : » ailleurs dans le point
+- Chaque point : 1-2 phrases max après l'amorce
+- Ton de l'invitation, pas de l'injonction
 - Inclure si pertinent une référence pratique (consultant, professionnel) — mais avec mesure
+- Bannir « votre/vos » (formulation interdite) — préférer « ton/tes » ou une tournure neutre
 
 ### 3.9 `principe` (1-2 phrases — 30-50 mots)
 **Objectif :** la règle de fond. Ce que le parent doit retenir au-delà du protocole.

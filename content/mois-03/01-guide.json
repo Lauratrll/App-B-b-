@@ -11,49 +11,41 @@
     {
       "id": "pleurs",
       "nom": "Pleurs & inconfort",
-      "sous_titre": "Le langage des pleurs s'affine",
       "icone": "😢"
     },
     {
       "id": "alim",
       "nom": "Alimentation",
-      "sous_titre": "Tétées qui s'espacent, distractibilité nouvelle",
       "icone": "🤱"
     },
     {
       "id": "sommeil",
       "nom": "Sommeil",
-      "sous_titre": "La régression des 3-4 mois",
       "icone": "🌙"
     },
     {
       "id": "corps",
       "nom": "Corps & soins",
-      "sous_titre": "Tête tenue, premières asymétries",
       "icone": "👶"
     },
     {
       "id": "stimu",
       "nom": "Sur-stimulation",
-      "sous_titre": "Bébé voit tout maintenant",
       "icone": "🌀"
     },
     {
       "id": "sepa",
       "nom": "Lien & attachement",
-      "sous_titre": "Le lien devient lisible — le retour pro approche",
       "icone": "💗"
     },
     {
       "id": "sante",
       "nom": "Petits maux",
-      "sous_titre": "Vaccins, premier hiver, peau qui réagit",
       "icone": "🩹"
     },
     {
       "id": "parent",
       "nom": "Parent dépassé",
-      "sous_titre": "DPP à 3 mois, comparaison, retour au travail",
       "icone": "💧"
     }
   ],
@@ -65,8 +57,8 @@
       "explication": "À 3 mois, bébé reste éveillé environ 1h à 1h30 avant d'avoir besoin de dormir à nouveau. Au-delà, son cerveau libère du cortisol — l'hormone du stress — qui rend l'endormissement quasi impossible. C'est ce qu'on appelle la sur-fatigue. Le signal arrive plus tôt qu'on ne le pense : regard qui se fige, frottement des oreilles, bâillements, agitation des jambes. Les pleurs apparaissent quand ces signaux n'ont pas été captés à temps. Ce ne sont pas des pleurs de besoin — ce sont des pleurs de décharge.",
       "ancrage": "Tu n'as pas raté quelque chose. Les signaux de fatigue de bébé sont nouveaux pour toi — ils se lisent au bout de plusieurs semaines d'observation. Ton rôle maintenant : aider à décharger, pas à occuper.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Couper toute stimulation : lumière tamisée, silence, pas de jouet ni de stimulation visuelle",
@@ -77,8 +69,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — après l'endormissement",
         "etapes": [
           "Une fois bébé endormi, le poser doucement sur le dos en gardant ta main sur son ventre 1 min",
@@ -110,8 +102,8 @@
       "explication": "À 3 mois, le système nerveux de bébé n'a pas encore la capacité de redescendre seul après une activation forte. Les pleurs s'arrêtent quelques minutes — souvent grâce au contact ou à un changement d'environnement — puis reprennent dès que la stimulation diminue ou augmente à nouveau. C'est le signe d'un système nerveux saturé qui n'arrive pas à finir sa décharge. La régulation ne se fait pas en une fois : elle se fait par vagues. Chaque vague est une étape vers le calme — pas un retour à la case départ.",
       "ancrage": "Chaque accalmie compte, même si elle est suivie d'une nouvelle vague. Tu ne recommences pas — tu accompagnes un cycle qui se termine progressivement. Ton calme est l'ancre, pas la solution.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Ne pas changer de méthode à chaque vague : garder la même position et le même environnement",
@@ -122,8 +114,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — pendant une accalmie",
         "etapes": [
           "Profiter d'un moment de calme pour proposer un contact très doux : main posée sur le ventre, immobile",
@@ -155,8 +147,8 @@
       "explication": "Vers 3 mois, bébé développe une capacité nouvelle : suivre des yeux et maintenir l'attention sur un visage ou un objet. C'est un saut neurologique majeur — son cortex visuel commence à fonctionner comme un véritable outil de lien. Conséquence : quand tu sors de son champ visuel, ce n'est pas seulement une absence physique, c'est une rupture d'attention. Bébé ne pleure pas par caprice — il signale que ce lien visuel, qu'il vient de découvrir, vient de se rompre. Cette étape est saine et transitoire.",
       "ancrage": "Ce n'est pas que tu l'as « habitué à être dans les bras ». C'est que son cerveau a fait un bond — il sait maintenant te chercher. Réponds simplement : tu construis sa sécurité, tu ne crées pas une dépendance.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Continuer à parler depuis l'autre pièce : ta voix maintient le lien quand le visuel disparaît",
@@ -167,8 +159,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — créer un point d'ancrage visuel",
         "etapes": [
           "S'asseoir face à bébé à 30 cm — la distance idéale pour son focus visuel à 3 mois",
@@ -200,8 +192,8 @@
       "explication": "À 3 mois, bébé entre dans la phase du « proto-dialogue » : il babille, vocalise, attend une réponse, en émet une nouvelle. Mais sa capacité d'expression reste très limitée — son désir de communiquer dépasse largement ses moyens. Quand tu lui parles longuement ou avec beaucoup d'intensité, il peut ressentir une frustration : il sent qu'il y a un échange, mais il ne peut pas y participer pleinement. Les pleurs brefs et aigus qui surgissent alors sont des pleurs de débordement émotionnel positif — pas de la détresse.",
       "ancrage": "Ce n'est pas que tu lui parles « mal ». C'est que son envie d'échanger dépasse ses outils. Réduire l'intensité, laisser des silences, et accepter ses tentatives de réponse : tu offres l'espace dont il a besoin.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Baisser le volume et le débit de ta voix immédiatement — passer en chuchotement doux",
@@ -212,8 +204,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — proto-dialogue apaisé",
         "etapes": [
           "S'asseoir face à bébé, à 30 cm, en silence — laisser monter ses propres vocalisations",
@@ -245,8 +237,8 @@
       "explication": "Vers 3 mois, deux phénomènes simultanés bouleversent le rythme alimentaire. D'abord, bébé devient beaucoup plus efficace au sein ou au biberon : il prend en 5-10 min ce qui prenait 20-30 min avant. Ensuite, une poussée de croissance survient typiquement entre 10 et 14 semaines : bébé peut réclamer plus souvent pendant 2-3 jours, puis espacer brutalement ensuite. Ce qui ressemble à un manque de lait est en réalité un nouveau rythme qui s'installe. Si bébé prend du poids, fait 5-6 couches lourdes par jour, et a des phases d'éveil actives, la production lactée est suffisante.",
       "ancrage": "Tu n'as pas moins de lait. Bébé est devenu plus performant — il prend la même quantité en moitié moins de temps. Ton corps s'adapte à son nouveau rythme, pas l'inverse.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Vérifier les 3 indicateurs : poids stable ou en hausse, 5-6 couches lourdes/jour, périodes d'éveil tonique",
@@ -257,8 +249,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — soutien lactation",
         "etapes": [
           "Avant la tétée, contact peau à peau 5 min — déclenche l'ocytocine et le réflexe d'éjection",
@@ -290,8 +282,8 @@
       "explication": "À 3 mois, le cortex visuel de bébé s'active comme jamais auparavant. Il peut désormais suivre des yeux à 180°, accommoder sa vision à différentes distances, et reconnaître plusieurs visages. Pendant les tétées, cet équipement neurologique tout neuf prend le dessus : bébé se détache au moindre bruit, regard, mouvement. Ce n'est pas du désintérêt pour la tétée — c'est un cerveau qui ne peut plus filtrer comme avant. Cette phase dure 4-6 semaines puis l'attention sélective s'installe. Adapter l'environnement de la tétée est la solution immédiate.",
       "ancrage": "Ce n'est pas qu'il ne veut plus de toi ou de ton lait. C'est que son cerveau découvre le monde et veut tout voir. Tu n'as pas perdu son intérêt — tu as gagné un explorateur.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Tétée dans une pièce calme, lumière tamisée, porte fermée — réduire les stimuli au minimum",
@@ -302,8 +294,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — recentrer en douceur",
         "etapes": [
           "Caresser doucement la joue de bébé pour ramener son regard vers toi sans le forcer",
@@ -335,8 +327,8 @@
       "explication": "Vers 3 mois, beaucoup de bébés qui ont été allaités refusent le biberon — qu'il contienne du lait maternel ou du lait infantile. Le mécanisme est multiple : la tétine n'active pas les mêmes muscles que le sein, l'odeur de la maman manque, la position est différente, et bébé a maintenant une mémoire suffisante pour préférer ce qu'il connaît. Ce refus survient souvent juste avant la reprise du travail — moment où la pression est maximale. Il existe des stratégies efficaces, mais elles demandent 2-3 semaines de tentatives quotidiennes, pas une introduction la veille.",
       "ancrage": "Le refus du biberon n'est pas un rejet de l'autre parent. C'est une préférence pour un objet familier dans un moment vulnérable. Vous avez le temps — commencez maintenant, pas la veille.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "C'est l'autre parent qui propose, pas la maman allaitante — éviter l'odeur du sein à proximité",
@@ -347,8 +339,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — apprivoisement progressif",
         "etapes": [
           "Avant le biberon, l'autre parent porte bébé en peau à peau 5 min — créer l'odeur d'attachement",
@@ -380,8 +372,8 @@
       "explication": "À 3 mois, environ 60% des bébés régurgitent encore plusieurs fois par jour. Le sphincter œsophagien — le « clapet » entre l'œsophage et l'estomac — n'est pas encore mature, et la position allongée fréquente facilite le reflux. Dans la grande majorité des cas, c'est physiologique : bébé prend du poids, dort correctement, ne semble pas gêné. Mais une minorité de bébés présente un RGO pathologique (reflux gastro-œsophagien) qui nécessite un suivi médical. Les signes qui différencient : douleur visible (cambrures, pleurs après chaque repas), cassure de la courbe de poids, refus alimentaire, troubles ORL répétés.",
       "ancrage": "Toutes les régurgitations ne se valent pas. Tu n'as pas à apprendre à les ignorer — tu as à apprendre à les distinguer. Tes observations comptent plus que les phrases « c'est normal ».",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Tenir bébé vertical contre soi 20-30 min après chaque tétée — gravité naturelle",
@@ -392,8 +384,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — confort digestif",
         "etapes": [
           "Massage du ventre sens horaire 1 min, 30 min après la tétée — pas tout de suite après",
@@ -425,8 +417,8 @@
       "explication": "Entre 3 et 4 mois, le sommeil de bébé subit la plus grande transformation neurologique de la première année. Jusqu'ici, bébé alternait entre sommeil agité et sommeil calme — deux phases simples. Vers 3-4 mois, ces phases se subdivisent en véritables cycles adultes : endormissement, sommeil léger, sommeil profond, sommeil paradoxal. Conséquence : entre chaque cycle, bébé traverse une phase d'éveil léger, et s'il ne sait pas se rendormir seul, il appelle. Ce n'est pas une régression — c'est une réorganisation. Cela dure 2 à 6 semaines, puis les nouveaux cycles s'intègrent.",
       "ancrage": "Tu ne fais rien de mal et bébé ne « régresse » pas. Son cerveau apprend à dormir comme un grand. Pendant cette traversée, ton rôle est de tenir le cadre — pas de trouver une nouvelle méthode chaque nuit.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Garder strictement le même rituel chaque soir — la prévisibilité est le seul antidote",
@@ -437,8 +429,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — rituel d'endormissement",
         "etapes": [
           "Avant la sieste ou la nuit, 5 min de portage en peau à peau dans la pénombre",
@@ -470,8 +462,8 @@
       "explication": "À 3 mois, bébé entre dans des cycles de sommeil de 50-60 min. Entre deux cycles, il traverse un micro-éveil — c'est physiologique. Pendant ce micro-éveil, sa vigilance auditive est extrêmement élevée : le moindre bruit (porte qui grince, voiture qui passe, soupir parental) peut le réveiller complètement. C'est l'âge où l'environnement sonore devient critique. Pas besoin de chuchoter en permanence — il faut surtout un fond sonore régulier (bruit blanc), une isolation des bruits soudains, et accepter que bébé apprenne à se rendormir entre deux cycles.",
       "ancrage": "Tu n'as pas à vivre comme une souris. Tu as à créer une bulle sonore stable. Le silence absolu n'est pas le sommeil — le bruit blanc continu, oui.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Installer un bruit blanc continu pendant tout le sommeil — application ou appareil dédié, volume modéré",
@@ -482,8 +474,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — réflexo apaisement auditif",
         "etapes": [
           "Avant le coucher, masser doucement les lobes des oreilles entre pouce et index, 30 sec",
@@ -515,8 +507,8 @@
       "explication": "Beaucoup de bébés font une « belle phase » de sommeil entre 8 et 12 semaines — parfois 5 à 7 heures d'affilée. Puis tout repart en arrière vers 3-4 mois. Ce n'est pas dû à une mauvaise habitude installée, ni à une erreur des parents. C'est la conséquence directe de la maturation des cycles de sommeil : l'organisation neurologique du sommeil change, et bébé doit réapprendre à enchaîner les cycles dans cette nouvelle architecture. Cette phase d'instabilité dure 2-6 semaines puis le sommeil se reconstruit plus solide qu'avant.",
       "ancrage": "Tu n'as rien fait basculer. Bébé n'a pas « perdu » ses bonnes habitudes. Son cerveau évolue — le sommeil suit. La phase précédente reviendra, plus mature.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Ne pas changer ce qui fonctionnait avant — garder le rituel, l'environnement, les horaires identiques",
@@ -527,8 +519,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — reconstruire le sentiment de sécurité",
         "etapes": [
           "Augmenter le portage en journée 30 min de plus — recharge l'attachement",
@@ -560,8 +552,8 @@
       "explication": "À 3 mois, la sieste de bébé dure souvent 20 à 40 min — c'est la durée d'un cycle de sommeil léger. Pour enchaîner sur un deuxième cycle (et faire une sieste « longue »), bébé doit apprendre à traverser le micro-éveil entre les cycles. Cet apprentissage prend des semaines, parfois des mois. La plupart des bébés font des mini-siestes jusqu'à 5-6 mois, voire plus. Ce n'est pas un problème en soi — c'est une étape. L'enjeu n'est pas de forcer une sieste longue, mais d'éviter la sur-fatigue qui résulte de siestes trop courtes.",
       "ancrage": "Une sieste de 30 min à 3 mois n'est pas un échec — c'est la norme. Ce qui compte, c'est le nombre total d'heures de sommeil sur 24h, pas la durée de chaque sieste.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Si bébé se réveille après 30 min en pleurant, attendre 2-3 min avant d'intervenir — micro-éveil possible",
@@ -572,8 +564,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — favoriser l'enchaînement de cycles",
         "etapes": [
           "Au début de la sieste, 2 min de présence silencieuse, main posée sur le ventre de bébé",
@@ -605,8 +597,8 @@
       "explication": "À 3 mois, bébé tient mieux sa tête, mais beaucoup montrent une nette préférence pour un côté — toujours tournée à droite ou à gauche, dans le lit comme dans les bras. Cette préférence peut venir d'un torticolis musculaire congénital (raccourcissement du muscle sterno-cléido-mastoïdien) acquis pendant la grossesse ou la naissance, ou d'une habitude posturale prise dans les semaines suivantes. La fenêtre d'action est ouverte mais limitée : à 3 mois, une intervention de kinésithérapie pédiatrique est très efficace. Au-delà de 4-5 mois, la correction devient plus longue et le risque de plagiocéphalie augmente.",
       "ancrage": "Tu n'as pas créé ce torticolis, et tu peux agir maintenant. À 3 mois, la rééducation est rapide et efficace. Le pédiatre et le kinésithérapeute pédiatrique sont tes alliés — pas une menace.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Alterner systématiquement le côté pendant les tétées/biberons — droit puis gauche au repas suivant",
@@ -617,8 +609,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — stimulation cervicale en douceur",
         "etapes": [
           "Bébé sur le dos, attirer son regard avec une voix douce du côté opposé à sa préférence",
@@ -650,8 +642,8 @@
       "explication": "À 3 mois, environ 1 bébé sur 4 présente une asymétrie crânienne visible — c'est la plagiocéphalie positionnelle. Le crâne, encore très malléable à cet âge, prend la forme de l'appui répété : couchage exclusif sur le dos (sécurité), position dans le cosy ou le transat, préférence latérale (souvent liée à un torticolis). Cette déformation est purement esthétique, sans impact sur le cerveau, mais peut persister à vie si elle n'est pas corrigée tôt. La fenêtre d'action est entre 2 et 6 mois — c'est là que le crâne se remodèle rapidement. Après 6 mois, la correction est beaucoup plus longue et nécessite parfois un casque orthopédique.",
       "ancrage": "Tu n'as rien mal fait. Le couchage sur le dos est non négociable pour la sécurité (prévention de la mort subite). La plagiocéphalie se prévient et se corrige par les positions d'éveil — pas en changeant le couchage.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Identifier le côté aplati en regardant la tête de bébé vue du dessus — photo si nécessaire",
@@ -662,8 +654,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — repositionnement quotidien",
         "etapes": [
           "Plusieurs fois par jour, porter bébé en position verticale contre soi — décharge le crâne",
@@ -695,8 +687,8 @@
       "explication": "Vers 3 mois, bébé fait une découverte sensationnelle : il a des mains, et ces mains lui appartiennent. Il les regarde, les met en bouche, les écarte, les rapproche. Cette « auto-exploration » est l'une des étapes les plus importantes du développement neurologique : c'est la naissance du schéma corporel, la prise de conscience que son corps est un. Cette phase peut durer plusieurs semaines et bébé y consacre des temps longs — parfois 10-15 min d'observation absorbée. Ce n'est pas un comportement à corriger ou à interrompre. C'est le début de la conscience de soi.",
       "ancrage": "Ce n'est pas un tic ni une obsession. C'est le moment où bébé découvre qu'il existe. Ne pas interrompre — observer, accompagner si bébé sollicite, mais laisser cet espace.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Laisser bébé observer ses mains sans intervenir — c'est un travail neurologique en cours",
@@ -707,8 +699,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — accompagner la découverte corporelle",
         "etapes": [
           "Si bébé semble vouloir interagir, masser doucement chaque doigt entre tes doigts — 30 sec par main",
@@ -740,8 +732,8 @@
       "explication": "Vers 3 mois, les glandes salivaires de bébé entrent en pleine activité. La production de salive augmente nettement, alors que la capacité à déglutir cette salive reste limitée. Résultat : bébé bave abondamment, les vêtements sont trempés en permanence. La plupart des parents pensent immédiatement aux dents — mais les premières dents apparaissent généralement entre 4 et 8 mois (parfois plus tard). À 3 mois, la bave est due à la maturation des glandes salivaires, et accessoirement à la mise en bouche des mains. La salive joue un rôle protecteur (antibactérien, préparation à la digestion) — c'est physiologique.",
       "ancrage": "La bave à 3 mois est presque toujours physiologique — pas un signe de poussée dentaire. Tu n'as pas à anticiper les dents avec des gels gingivaux. Tu peux juste éponger.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Mettre un bavoir bandana — change facile, protège les vêtements et le cou",
@@ -752,8 +744,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — soin du menton et confort buccal",
         "etapes": [
           "Après le bain, appliquer une fine couche de liniment ou cold cream sur le menton — barrière protectrice",
@@ -785,8 +777,8 @@
       "explication": "À 3 mois, le cortex visuel de bébé est en pleine maturation. Sa capacité à voir s'étend brutalement : reconnaissance des visages, distinction des couleurs, suivi des mouvements, profondeur. Dans un supermarché ou centre commercial, l'environnement combine lumière artificielle vive, dizaines de visages inconnus, sons d'arrière-plan continus, mouvements multiples. Le système nerveux du bébé, encore immature, ne peut pas filtrer toutes ces informations. Au retour, l'accumulation se décharge en pleurs intenses, parfois 1-2h. Ce n'est pas un caprice — c'est un système nerveux qui « purge » la sur-stimulation.",
       "ancrage": "Tu n'as pas mal géré la sortie. Tu sors avec un bébé dont le cerveau découvre le monde — c'est intense. La décharge au retour est saine. Ton rôle : créer la bulle calme.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Rentrer immédiatement dans une pièce sombre et silencieuse — fermer les volets ou rideaux",
@@ -797,8 +789,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — réflexo apaisement post-stimulation",
         "etapes": [
           "Réflexo gros orteils : effleurer 30 sec chaque pied — zone tête, calme le système nerveux central",
@@ -830,8 +822,8 @@
       "explication": "À 3 mois, bébé adore les échanges face-à-face : il sourit, vocalise, gigote. Mais son système nerveux n'a pas encore la capacité de redescendre seul après une activation forte. Quand un adulte enchaîne sourires exagérés, voix aiguës, chatouilles, jeux de coucou rapides, bébé entre dans un état d'hyper-vigilance positive : yeux écarquillés, mouvements saccadés, respiration rapide. Cet état est plaisant 2-3 min, puis devient un piège : bébé n'arrive plus à s'apaiser, pleure « sans raison », ne s'endort plus. Le rôle du parent est de doser et de ralentir avant la saturation.",
       "ancrage": "Tu n'as pas trop joué. Tu as juste un bébé dont le système nerveux n'est pas encore équipé pour redescendre seul. Apprends à ralentir avant la saturation — c'est ton cadeau de régulation.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Arrêter immédiatement la stimulation au premier signe de saturation : regard qui décroche, mains qui tremblent",
@@ -842,8 +834,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — ralentir le rythme cardiaque",
         "etapes": [
           "Poser la main à plat sur le ventre de bébé, immobile, 2 min — synchroniser ta respiration à la sienne",
@@ -875,8 +867,8 @@
       "explication": "Les écrans (téléphone, tablette, télévision) produisent une stimulation visuelle particulière : lumière vive, mouvements rapides, sons synthétiques, absence d'interaction réelle. À 3 mois, le cerveau de bébé n'est pas équipé pour traiter ces stimuli. Beaucoup de bébés manifestent un inconfort clair : pleurs, détournement de tête, agitation. C'est un signal sain — pas un caprice à corriger. La recommandation officielle française (campagne « Mon enfant et les écrans », Santé publique France) est claire : zéro écran avant 3 ans. Pas d'exception pour les dessins animés « éducatifs ».",
       "ancrage": "Bébé qui pleure devant un écran te dit non — et son non est juste. Tu n'as pas à le « familiariser » avec les écrans. Tu as à respecter son signal.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Éteindre immédiatement l'écran — ne pas négocier ni insister",
@@ -887,8 +879,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — alternatives sensorielles",
         "etapes": [
           "Proposer un mobile à contemplation lente, en tissu, sans pile ni son — stimulation visuelle adaptée",
@@ -920,8 +912,8 @@
       "explication": "Vers 3 mois, bébé reconnaît clairement les visages familiers — particulièrement celui de la personne qui s'occupe de lui le plus souvent. Quand un visiteur (grand-parent, ami) le prend dans les bras, bébé tolère quelques minutes puis exprime son inconfort : il cherche du regard la personne familière, gigote, pleure. Ce n'est pas un caprice — c'est le signe d'un attachement sain qui se construit. La théorie de l'attachement (Bowlby) montre que cette préférence est une étape normale et bénéfique pour le développement. À cet âge, la tolérance moyenne aux bras d'un proche peu familier est de 5-10 min.",
       "ancrage": "Ce n'est pas un rejet ni une « mauvaise éducation ». C'est un attachement qui se construit normalement. Tu n'as pas à forcer ton bébé à aimer tout le monde immédiatement — tu as à respecter son rythme.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Reprendre bébé dès qu'il manifeste l'inconfort — pas de honte, pas de « il faut s'habituer »",
@@ -932,8 +924,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — sécuriser après les visites",
         "etapes": [
           "Une fois la visite partie, peau à peau 10 min dans le calme — réinstaller le lien primaire",
@@ -965,8 +957,8 @@
       "explication": "À 3 mois, la fin du congé maternité (en France, 10 semaines après la naissance pour un congé standard, plus si pathologique) confronte beaucoup de parents au choc de la séparation. Bébé n'a pas encore la conscience claire de la permanence de l'objet (qui s'installe vers 8-9 mois), mais il reconnaît ses figures d'attachement principales. Une transition brutale (du jour au lendemain) provoque souvent une grosse réaction de stress chez bébé — pleurs prolongés, refus alimentaire, sommeil perturbé. Une transition préparée sur 2-3 semaines, avec des adaptations progressives, est nettement plus douce pour tout le monde.",
       "ancrage": "Ton bébé ne « comprend » pas encore ton départ, mais il sent ta préparation. Plus tu construis la transition avec soin, plus le passage sera doux — pour lui ET pour toi. Vous traversez cela ensemble.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Planifier au moins 5 séances d'adaptation à la crèche ou chez l'assistante maternelle, sur 2 semaines",
@@ -977,8 +969,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — rituel de transition",
         "etapes": [
           "Créer un rituel court de séparation : phrase identique + bisou identique + au revoir bref",
@@ -1010,8 +1002,8 @@
       "explication": "Vers 3 mois, le sourire social est pleinement installé : bébé sourit en réponse aux visages humains. Mais une perception piégeuse apparaît souvent : « il sourit à la voisine et pas à moi ». La réalité neurologique est différente. Bébé sourit aux nouveaux visages avec une intensité particulière (effet de nouveauté), alors qu'avec ses parents, le sourire est plus discret, plus fréquent, plus régulé — c'est un sourire d'apaisement et de reconnaissance, pas d'éveil exalté. La « comparaison sociale » avec d'autres bébés ou d'autres adultes peut entretenir cette perception erronée. Filmer les interactions parent-bébé révèle souvent une réalité bien différente.",
       "ancrage": "Tu ne vois pas ses sourires parce que tu es trop proche de lui — comme on ne voit pas le visage qu'on regarde de trop près. Ses sourires d'apaisement sont différents, mais plus profonds. Tu n'es pas moins aimée.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Filmer 5 min d'interaction normale avec bébé — visionner ensuite, observer les vrais signaux",
@@ -1022,8 +1014,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — moment connexion silencieuse",
         "etapes": [
           "S'allonger à côté de bébé sur le tapis, à hauteur de visage, sans rien attendre",
@@ -1055,8 +1047,8 @@
       "explication": "Le « premier vrai sourire » de bébé est devenu un événement quasi mythique de la parentalité moderne. Réseaux sociaux, conseils de proches, attentes implicites créent une pression : il faut le voir, le filmer, le partager. Quand ce sourire arrive en l'absence du parent — il a souri à l'autre parent, à la grand-mère, à l'assistante maternelle — la blessure peut être intense : sentiment d'avoir « raté » un moment fondateur, culpabilité, jalousie envers le témoin. La vérité neurologique : le sourire social ne se fixe pas à un instant T. Bébé sourit progressivement, à plusieurs personnes, à de nombreuses occasions. Le « premier » est une construction symbolique, pas un moment unique.",
       "ancrage": "Tu n'as pas raté un moment fondateur. Tu as raté UN sourire — il y en aura des milliers d'autres. La symbolique du premier sourire est culturelle, pas neurologique.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Nommer la déception : « j'aurais voulu être là » — donner droit à l'émotion sans la dramatiser",
@@ -1067,8 +1059,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — rituel de re-connexion",
         "etapes": [
           "Moment cocon 15 min avec bébé : peau à peau, regard, voix douce — créer ton « premier sourire »",
@@ -1100,8 +1092,8 @@
       "explication": "À 3 mois, beaucoup de bébés montrent une préférence claire pour un parent — souvent celui qui passe le plus de temps avec eux (allaitement, congé maternité). L'autre parent peut vivre cela comme un rejet, ce qui est compréhensible. La réalité : ce n'est pas un « jugement », c'est une question de fréquence et de prévisibilité des soins. Le parent moins présent peut tout à fait rattraper son lien en augmentant les moments dédiés : bain, change, portage, jeu. Les préférences parentales à 3 mois sont transitoires — elles évoluent avec les âges, et chaque parent aura sa « phase préférée » dans les 24 prochains mois.",
       "ancrage": "Tu n'es pas un parent moins important. Tu es un parent moins présent — ce qui peut se rééquilibrer. Le lien se construit par la répétition, pas par la naissance.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Le parent moins préféré : prendre en charge 1-2 soins exclusifs par jour (bain, change, biberon)",
@@ -1112,8 +1104,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — construire un rituel exclusif",
         "etapes": [
           "Le parent moins préféré : créer un rituel unique (chanson, bain, massage) qui n'appartient qu'à lui",
@@ -1145,8 +1137,8 @@
       "explication": "Le calendrier vaccinal français comprend des injections obligatoires à 2, 4 et 11 mois (DTPolio, coqueluche, Hib, hépatite B, pneumocoque, méningocoque B) plus le rotavirus oral. Après la vaccination des 2 mois (refaite à 3 mois pour certains), une réaction locale et générale est très fréquente : fièvre légère à modérée (37,5-38,5°C), grognon, sommeil perturbé, point d'injection rouge et sensible. Cette réaction est le signe que le système immunitaire répond correctement — elle dure 24-72h et se gère à la maison dans la grande majorité des cas. Il faut savoir distinguer la réaction normale d'une fièvre qui demande consultation.",
       "ancrage": "Une fièvre après vaccin est une bonne nouvelle : le système immunitaire de bébé fonctionne. Tu n'as pas à paniquer — tu as à observer et à apaiser.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Prendre la température rectale (méthode de référence < 3 mois) toutes les 4h les premières 24h",
@@ -1157,8 +1149,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — apaiser post-vaccin",
         "etapes": [
           "Beaucoup de portage et de peau à peau — l'apaisement maternel module la perception de la douleur",
@@ -1190,8 +1182,8 @@
       "explication": "Pendant la saison hivernale (octobre à mars), la bronchiolite à VRS (virus respiratoire syncytial) touche un nourrisson sur trois. Avant 3 mois, c'est une infection à risque qui nécessite une vigilance particulière. Les premiers symptômes ressemblent à un rhume banal : nez qui coule, toux, légère fièvre. Mais en 24-48h, l'infection peut descendre dans les bronches : respiration rapide, sifflements, tirage (creux entre les côtes à chaque inspiration), difficulté à téter. Depuis 2023-2024, une immunisation passive (Beyfortus / nirsévimab) est proposée gratuitement à tous les nourrissons — elle réduit fortement le risque d'hospitalisation. Les signes d'aggravation imposent une consultation rapide.",
       "ancrage": "Tu n'as pas à diagnostiquer toi-même. Tu as à observer les signaux d'aggravation et à consulter au bon moment. Avant 3 mois, mieux vaut consulter trop tôt que trop tard.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Désencombrement nasal au sérum physiologique avant chaque tétée et avant le sommeil",
@@ -1202,8 +1194,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — soulager le confort respiratoire",
         "etapes": [
           "Position verticale en peau à peau 20-30 min après chaque tétée — facilite drainage",
@@ -1235,8 +1227,8 @@
       "explication": "Les « croûtes de lait » (dermite séborrhéique du nourrisson) touchent près de 70% des bébés entre 1 et 6 mois. Ce sont des plaques jaunâtres ou brunes, grasses, qui se forment principalement sur le cuir chevelu, parfois les sourcils ou derrière les oreilles. Elles sont causées par une hyperactivité des glandes sébacées, encore stimulées par les hormones maternelles transmises pendant la grossesse. C'est totalement bénin, non contagieux, et disparaît spontanément en quelques semaines à quelques mois. Aucun lien avec une mauvaise hygiène. Quelques gestes doux accélèrent leur disparition — mais l'attente est aussi une option valide.",
       "ancrage": "Ce n'est ni sale, ni pathologique. Tu n'as pas à les faire disparaître à tout prix. Tu peux les laisser ou les accompagner doucement — bébé va très bien.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Appliquer une huile végétale douce (amande douce, calendula, olive bio) sur le cuir chevelu, le soir",
@@ -1247,8 +1239,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — massage du cuir chevelu",
         "etapes": [
           "Après application de l'huile, massage très doux du cuir chevelu avec la pulpe des doigts, 2 min",
@@ -1280,8 +1272,8 @@
       "explication": "L'érythème fessier touche presque tous les bébés au moins une fois. Dans sa forme simple, c'est une irritation de la peau due au contact avec urines et selles, qui guérit en 2-3 jours avec des soins adaptés. Mais s'il persiste plus de 4-5 jours malgré des changes fréquents et une pâte à l'eau, il faut envisager d'autres causes : mycose à Candida (rouge intense, satellites, plis touchés), dermatite de contact (allergie aux lingettes, à une lessive), ou dermatite séborrhéique. Le traitement varie selon la cause — d'où l'importance de consulter si les soins de base ne suffisent pas.",
       "ancrage": "Tu fais bien les changes — l'érythème qui résiste n'est pas un manque de soin de ta part. C'est probablement une cause spécifique qui a besoin d'un traitement spécifique.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Changes très fréquents (toutes les 2h, et immédiatement après une selle)",
@@ -1292,8 +1284,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — soulager l'inconfort",
         "etapes": [
           "Bain court (5 min) à l'eau tiède avec un peu d'avoine colloïdale — apaise les irritations",
@@ -1325,8 +1317,8 @@
       "explication": "La dépression du post-partum touche environ 15 à 20% des mères et 8 à 10% des pères. Elle peut survenir dès la naissance, mais son pic clinique se situe entre 2 et 3 mois — au moment où l'organisation immédiate retombe, où l'entourage est moins présent, où la fatigue s'accumule. Un des signes fréquents : l'absence de cette « bouffée d'amour » attendue, le sentiment d'agir mécaniquement, parfois de ne pas reconnaître son bébé. Ce n'est pas un défaut d'amour — c'est une maladie. La DPP est traitable, plus elle est prise en charge tôt, plus la récupération est rapide. Ce qui se construit pendant cette période avec un soutien adapté ne « manquera » pas à bébé.",
       "ancrage": "Tu n'es pas un mauvais parent. Tu n'es pas insensible. Tu es probablement en train de traverser une dépression — qui est une maladie, pas un échec moral. Demander de l'aide n'est pas un aveu — c'est un acte de soin pour toi et pour bébé.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Faire l'auto-questionnaire EPDS (Edinburgh Postnatal Depression Scale) — disponible en ligne, 10 questions",
@@ -1337,8 +1329,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — reconstituer du lien malgré la dépression",
         "etapes": [
           "Peau à peau quotidien 15 min — l'ocytocine libérée par le contact aide la chimie cérébrale",
@@ -1370,8 +1362,8 @@
       "explication": "Les réseaux sociaux (Instagram, TikTok, groupes Facebook) montrent une parentalité filtrée : seuls les bébés qui dorment, sourient, s'épanouissent visiblement apparaissent. Les algorithmes sélectionnent les contenus les plus engageants — souvent les plus « parfaits ». Conséquence : les parents qui consomment ces contenus en grande quantité développent une comparaison systématique, un sentiment d'échec, une anxiété de performance parentale. Plusieurs études récentes montrent une corrélation forte entre usage intensif des réseaux et risque de dépression post-partum. À 3 mois, la fatigue déjà installée rend particulièrement vulnérable à ce mécanisme.",
       "ancrage": "Tu ne regardes pas la réalité — tu regardes une vitrine. Les bébés qui dorment sur Instagram ne sont pas plus heureux que le tien — ils sont juste mieux filmés. Tu n'es pas en retard.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Désinstaller les réseaux sociaux du téléphone pendant 1 semaine — essai sans engagement",
@@ -1382,8 +1374,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — se reconnecter au réel",
         "etapes": [
           "Le téléphone hors de la pièce pendant 1h/jour minimum — temps de présence sans écran",
@@ -1415,8 +1407,8 @@
       "explication": "La fin du congé maternité (ou paternité) confronte les parents à une transition émotionnelle massive — souvent sous-estimée. L'angoisse de séparation n'est pas seulement celle du bébé ; c'est aussi, et parfois surtout, celle du parent. Quitter son bébé après 2-3 mois d'intimité totale réveille des émotions complexes : culpabilité, peur de manquer des étapes, sentiment de « trahison », anxiété de performance professionnelle, conflits de loyauté entre rôle parental et rôle professionnel. Cette angoisse est normale, légitime, et largement passée sous silence par le système. La nommer, l'anticiper, en parler, sont les premières étapes pour la traverser.",
       "ancrage": "Ton angoisse est légitime. Ce n'est pas une « fragilité » — c'est le signe que tu prends ton rôle parental au sérieux. Tu as le droit d'être triste de partir, ET d'avoir envie de retourner travailler. Les deux peuvent coexister.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Nommer l'émotion : écrire pendant 10 min sur ce qui t'angoisse précisément — souvent c'est plus précis que général",
@@ -1427,8 +1419,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — rituel parent-bébé du soir",
         "etapes": [
           "Créer un rituel exclusif de retrouvailles 15 min chaque soir : peau à peau, chanson, regard",
@@ -1460,8 +1452,8 @@
       "explication": "À 3 mois, beaucoup de couples vivent une crise silencieuse : la maman vit dans son corps post-partum (cicatrices, hormones, allaitement, libido en berne), le co-parent peut se sentir mis à l'écart du duo mère-bébé, la fatigue impacte la communication, et le contrat sexuel pré-bébé n'est plus opérant. Cette phase n'est pas l'échec du couple — c'est un passage que la majorité des couples traverse. La libido féminine post-partum est physiologiquement basse (prolactine élevée si allaitement, fatigue, hormones qui se rééquilibrent). Reconstruire le couple à cette étape demande de la communication, du temps, et parfois de l'aide extérieure.",
       "ancrage": "Vous ne perdez pas votre couple — vous le réinventez. Cette phase est documentée, presque universelle, et passe avec patience et communication. La question n'est pas « est-ce normal » mais « comment on s'en occupe ».",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Programmer un moment couple sans bébé : 1h par semaine minimum, même à la maison une fois bébé endormi",
@@ -1472,8 +1464,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#E4EDE6",
+        "couleur_texte": "#3C5A4A",
         "titre": "Geste doux — reconstruire l'intimité progressive",
         "etapes": [
           "Massage du dos ou des mains mutuel, 5-10 min, sans attente de suite — réinvestir le toucher",

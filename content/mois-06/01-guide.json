@@ -12,49 +12,41 @@
     {
       "id": "pleurs",
       "nom": "Pleurs & inconfort",
-      "sous_titre": "Frustration motrice, sensorialité débordée",
       "icone": "😢"
     },
     {
       "id": "alim",
       "nom": "Alimentation",
-      "sous_titre": "Diversification, textures, premiers refus",
       "icone": "🥄"
     },
     {
       "id": "sommeil",
       "nom": "Sommeil",
-      "sous_titre": "La régression des 6 mois",
       "icone": "🌙"
     },
     {
       "id": "motricite",
       "nom": "Motricité & corps",
-      "sous_titre": "Retournements, tenue assise, mobilité",
       "icone": "🤸"
     },
     {
       "id": "stimu",
       "nom": "Sur-stimulation",
-      "sous_titre": "Sens en éveil, monde plus vaste",
       "icone": "🌀"
     },
     {
       "id": "sepa",
       "nom": "Lien & séparation",
-      "sous_titre": "Premiers signes d'angoisse de séparation",
       "icone": "💗"
     },
     {
       "id": "dents",
       "nom": "Poussées dentaires",
-      "sous_titre": "Premières dents qui pointent",
       "icone": "🦷"
     },
     {
       "id": "parent",
       "nom": "Parent dépassé",
-      "sous_titre": "Le creux des 6 mois, charge mentale, comparaison",
       "icone": "💧"
     }
   ],
@@ -66,8 +58,8 @@
       "explication": "À 6 mois, bébé commence à pouvoir initier des mouvements qu'il ne sait pas encore terminer : se retourner sur le ventre puis ne plus pouvoir revenir, tendre la main vers un objet sans l'attraper, se redresser sans pouvoir se rasseoir. Cette frustration est neurologiquement nouvelle — son intention dépasse pour la première fois ses capacités motrices. Les pleurs qui en résultent ne sont pas un appel à l'aide, mais une décharge de tension. Lui faire systématiquement le mouvement à sa place le prive de la motivation à apprendre.",
       "ancrage": "Cette frustration est un signe d'intelligence en mouvement — pas un échec. Ton rôle n'est pas de résoudre la situation, mais de l'accompagner pendant qu'il cherche.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "S'approcher au sol, à son niveau, sans le déplacer dans la seconde",
@@ -78,8 +70,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — après la décharge",
         "etapes": [
           "Le poser sur le dos sur le tapis, ta main sur son ventre pendant 1 min",
@@ -90,10 +82,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Aménager le sol en motricité libre Pikler : tapis ferme, espace dégagé, jouets à distance d'effort accessible",
-        "Observer chaque jour 10 min ses tentatives sans intervenir — c'est la base de l'autonomie motrice",
-        "Verbaliser ses actions : « tu tournes ton bassin, tu attrapes ton pied » — il intègre les mots de son corps",
-        "Éviter les positions non-acquises : pas d'assis calé, pas de trotteur, pas de cosy hors transport"
+        "Sol en motricité libre (Pikler) : tapis ferme, espace dégagé, jouets à distance d'effort.",
+        "Observer sans intervenir : 10 min/jour de tentatives, base de l'autonomie motrice.",
+        "Verbaliser ses actions : « tu tournes ton bassin, tu attrapes ton pied » nourrit les mots du corps.",
+        "Éviter les positions non-acquises : pas d'assis calé, pas de trotteur, pas de cosy hors transport."
       ],
       "principe": "À 6 mois, la frustration motrice est le moteur de l'apprentissage moteur. La résoudre trop vite prive bébé du chemin neuronal qui se construit dans l'effort.",
       "erreurs_a_eviter": [
@@ -111,8 +103,8 @@
       "explication": "À 6 mois, bébé voit beaucoup mieux, entend distinctement, traite des odeurs nouvelles via la diversification, manipule des textures inédites. Son cerveau enregistre tout, mais n'a pas encore la capacité de filtrer ce qu'il reçoit. En fin de journée, ce trop-plein remonte sous forme de pleurs intenses qui ressemblent aux pleurs de décharge du soir — sauf que le mécanisme est différent : c'est le système nerveux qui se vide, pas l'inconfort digestif. Ces pleurs sont sains et nécessaires.",
       "ancrage": "Ton bébé n'est pas malheureux. Il digère sa journée d'éveil par le seul canal qu'il connaît : pleurer dans tes bras. Tu n'as pas à arrêter ces pleurs — juste à les contenir.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Réduire immédiatement les stimulations : lumière chaude tamisée, silence, pas d'écran ni de musique",
@@ -123,8 +115,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — pendant la décharge",
         "etapes": [
           "Une main sur le sommet du crâne, immobile, simple présence — pas de massage",
@@ -135,10 +127,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Repérer dans la journée les pics de stimulation (sortie, visite, nouveau jouet, écran allumé) — réduire un de ces inputs",
-        "Instaurer un sas de transition de 20 min entre la fin de la stimulation et le coucher : pénombre, voix douce, contact",
-        "Éviter complètement les écrans avant 3 ans (OMS) — même en arrière-plan, ils saturent le système visuel",
-        "Lire « Le grand livre du bébé » de Marcel Rufo ou les travaux de Catherine Gueguen sur la régulation émotionnelle"
+        "Repérer les pics de stimulation : sortie, visite, nouveau jouet, écran — en réduire un.",
+        "Sas de transition 20 min : entre la fin de la stimulation et le coucher, pénombre, voix douce, contact.",
+        "Écrans à zéro avant 3 ans (OMS) : même en arrière-plan, ils saturent le système visuel.",
+        "Lecture utile : « Le grand livre du bébé » de Marcel Rufo ou les travaux de Catherine Gueguen."
       ],
       "principe": "Les pleurs de surcharge ne se préviennent pas en évitant le monde — ils se traversent dans un cadre stable. Moins de stimulations dans la journée, plus de contenance le soir.",
       "erreurs_a_eviter": [
@@ -156,8 +148,8 @@
       "explication": "Vers 6 mois, beaucoup de bébés qui dormaient bien se mettent soudain à pleurer la nuit. Ce n'est ni une régression d'attachement, ni un mauvais signe — c'est la maturation des cycles de sommeil qui s'achève. Les phases de sommeil paradoxal s'allongent, les micro-réveils entre cycles deviennent plus conscients. Bébé se rend compte qu'il s'est endormi quelque part, et que ce quelque part a changé entre deux cycles. La permanence du lieu, comme la permanence de l'objet, est en train de se construire.",
       "ancrage": "Ce qui se passe n'est pas un retour en arrière. C'est une étape de plus dans la conscience de bébé. Plus il grandit, plus il perçoit — y compris la nuit.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate — la nuit",
         "etapes": [
           "Attendre 1 à 2 minutes avant d'intervenir — il peut se rendormir seul entre deux cycles",
@@ -168,8 +160,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — réinstaller le calme nocturne",
         "etapes": [
           "Replier doucement ses genoux sur son ventre 3 fois — relâche les tensions du système digestif",
@@ -180,10 +172,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Tenir un journal du sommeil pendant 5 nuits : heure, durée des réveils, contexte — repérer un pattern éventuel",
-        "Garder un environnement nocturne constant : même position de couchage, même gigoteuse, même bruit blanc",
-        "Ne pas introduire de nouvelle habitude de réveil (biberon nocturne reprise, lit parental) — installe une dépendance",
-        "Lire les travaux d'Aude Becquart ou de Anna Roy sur le sommeil du bébé"
+        "Journal du sommeil 5 nuits : heure et durée des réveils, contexte, repérer un pattern.",
+        "Environnement nocturne constant : même position, même gigoteuse, même bruit blanc.",
+        "Pas de nouvelle habitude de réveil : biberon nocturne ou lit parental installerait une dépendance.",
+        "Lecture utile : les travaux d'Aude Becquart ou d'Anna Roy sur le sommeil du bébé."
       ],
       "principe": "Les nouveaux réveils des 6 mois sont une étape de maturation. Y répondre avec constance et discrétion préserve la capacité d'autonomie au sommeil. L'intervention doit être minimale.",
       "erreurs_a_eviter": [
@@ -201,8 +193,8 @@
       "explication": "À 6 mois, la permanence de l'objet n'est pas encore totalement acquise. Pour bébé, quand tu sors de son champ de vision, tu cesses d'exister. Ce n'est pas une croyance, c'est une réalité neurologique : le souvenir d'une figure absente ne se maintient pas encore. Cette étape est la racine de ce qu'on appellera plus tard l'angoisse de séparation (qui culmine vers 8-10 mois). Les pleurs immédiats au moindre éloignement sont sains — ils signent un attachement sécure en construction.",
       "ancrage": "Ses pleurs sont une preuve d'amour, pas un problème à résoudre. Il est en train d'apprendre que tu existes même quand il ne te voit pas — c'est un apprentissage long.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Revenir dans son champ de vision en marchant calmement, sans courir",
@@ -213,8 +205,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — construire la permanence",
         "etapes": [
           "Jeu du « coucou » assis face à lui : se cacher derrière les mains, réapparaître, sourire, répéter 5 fois",
@@ -225,10 +217,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Multiplier les jeux de coucou et de cache-cache simple avec un foulard sur un jouet — base de la permanence",
-        "Verbaliser systématiquement tes mouvements : « je vais dans la cuisine, je reviens » — la voix prépare l'absence",
-        "Ne pas partir en silence en pensant éviter les pleurs — installe une vigilance anxieuse pire",
-        "Lire les travaux de Bowlby et Ainsworth sur l'attachement, ou « Bien dans ses peurs » d'Anne Bacus pour vulgariser"
+        "Jeux de coucou : cache-cache avec un foulard sur un jouet, base de la permanence.",
+        "Verbaliser tes mouvements : « je vais dans la cuisine, je reviens », la voix prépare l'absence.",
+        "Ne pas partir en silence : croire éviter les pleurs installe une vigilance anxieuse pire.",
+        "Lecture utile : Bowlby et Ainsworth sur l'attachement, ou « Bien dans ses peurs » d'Anne Bacus."
       ],
       "principe": "L'attachement sécure se construit par des séparations annoncées et des retours fiables. Plus tu pars en disant que tu reviens, plus bébé intègre que l'absence n'est pas un abandon.",
       "erreurs_a_eviter": [
@@ -246,8 +238,8 @@
       "explication": "À 6 mois, bébé a encore un réflexe d'extrusion : sa langue pousse automatiquement vers l'avant tout ce qui entre dans sa bouche. Ce réflexe disparaît progressivement entre 4 et 7 mois, à des rythmes très variables. Recracher n'est donc pas un refus — c'est neurologique. À cela s'ajoute la nouveauté absolue de la texture (purée vs lait), du goût, de l'outil (cuillère métallique ou plastique), et de la posture (assis face à un adulte). Le démarrage de la diversification se mesure en semaines, pas en repas.",
       "ancrage": "Bébé n'apprend pas à manger comme on apprend à parler — il apprend à se laisser nourrir, puis à manger seul. Les premières semaines sont des semaines d'exploration, pas de nutrition.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate — désamorcer le moment du repas",
         "etapes": [
           "L'installer bien droit, soutenu, face à toi — jamais semi-couché pour manger",
@@ -258,8 +250,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — l'éveil oral en dehors des repas",
         "etapes": [
           "En dehors des repas : lui donner une cuillère vide propre à manipuler, à porter à la bouche",
@@ -270,10 +262,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Commencer par une seule cuillerée par jour, à un moment où bébé est calme — pas affamé, pas fatigué",
-        "Varier les saveurs vite (légumes verts, oranges, blancs) — la fenêtre d'acceptation est entre 6 et 9 mois",
-        "Manger devant bébé, théâtralement, sans le forcer à imiter — les neurones miroirs font le reste",
-        "Explorer la DME (Diversification Menée par l'Enfant) en complément ou en alternative — consulter une IBCLC ou un pédiatre formé"
+        "Une cuillerée par jour : à un moment calme, ni affamé ni fatigué.",
+        "Varier les saveurs vite : légumes verts, oranges, blancs, la fenêtre d'acceptation est de 6 à 9 mois.",
+        "Manger devant bébé : théâtralement, sans forcer l'imitation, les neurones miroirs font le reste.",
+        "Explorer la DME : en complément ou alternative, avec une IBCLC ou un pédiatre formé."
       ],
       "principe": "La diversification est un apprentissage, pas un défi. Pendant les 6 premiers mois, le lait reste l'aliment principal. La cuillère est un jeu sensoriel avant d'être un mode d'alimentation.",
       "erreurs_a_eviter": [
@@ -291,8 +283,8 @@
       "explication": "À 6 mois, le réflexe nauséeux de bébé est situé très en avant dans la bouche — presque au milieu de la langue. Tout morceau ou texture inhabituelle déclenche ce réflexe protecteur. C'est volontaire de la nature : il évite les fausses-routes en repoussant ce qui n'est pas suffisamment travaillé. Au fil des mois, ce réflexe recule progressivement vers le fond de la gorge. Un haut-le-cœur n'est pas un étouffement — c'est exactement l'inverse : un mécanisme de protection qui fonctionne.",
       "ancrage": "Quand bébé a un haut-le-cœur, il n'est pas en danger — il est en train d'apprendre à gérer sa bouche. Plus tu paniques, plus il apprend que manger est effrayant.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate — pendant le haut-le-cœur",
         "etapes": [
           "Rester immobile, ne pas se précipiter, ne pas mettre la main dans sa bouche",
@@ -303,8 +295,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — désensibiliser progressivement",
         "etapes": [
           "Entre les repas : laisser bébé porter ses mains à la bouche, mordiller des hochets de dentition",
@@ -315,10 +307,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Apprendre à différencier haut-le-cœur (bébé tousse, recrache, respire) et étouffement (silencieux, peau qui change) — formation IPS recommandée",
-        "Se former aux gestes de premiers secours pédiatriques (Croix-Rouge, Croix Blanche, association IPS) — sécurise tous les repas",
-        "Présenter des textures variées chaque semaine : lisse, semi-écrasée, fondante à la fourchette",
-        "Lire « Bébé mange seul » de Christine Lewicki ou les ressources de la DME francophone"
+        "Différencier les deux : haut-le-cœur (tousse, recrache, respire) vs étouffement (silencieux, peau qui change).",
+        "Se former aux premiers secours : Croix-Rouge, Croix Blanche ou IPS, sécurise tous les repas.",
+        "Varier les textures chaque semaine : lisse, semi-écrasée, fondante à la fourchette.",
+        "Lecture utile : « Bébé mange seul » de Christine Lewicki ou les ressources de la DME."
       ],
       "principe": "Le réflexe nauséeux est l'allié de bébé, pas son ennemi. Plus il s'exerce sur des textures variées, plus il recule au fond de la bouche. Évite-le, et tu retardes la maturation orale.",
       "erreurs_a_eviter": [
@@ -336,8 +328,8 @@
       "explication": "À 6 mois, bébé devient nettement plus attentif à son environnement. Sa vision s'est affinée, il distingue les couleurs, suit les mouvements. Au moment de téter, le moindre bruit, le moindre mouvement le fait décrocher : il lâche le sein ou le biberon en plein milieu, tourne la tête, regarde, et revient — ou ne revient pas. Ce n'est pas un signe de sevrage, ni de manque d'intérêt. C'est l'expression d'un éveil qui prend toute la place. La tétée doit s'adapter à cette nouvelle attention dirigée.",
       "ancrage": "Bébé n'a pas moins besoin de toi. Il a juste plus de monde à découvrir. Adapter le cadre suffit le plus souvent.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate — récupérer la tétée",
         "etapes": [
           "Proposer la tétée dans une pièce sombre ou tamisée, sans télé, sans visiteurs",
@@ -348,8 +340,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — restaurer le moment lien",
         "etapes": [
           "Une main posée sur son dos pendant la tétée, immobile — ancre le moment",
@@ -360,10 +352,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Réduire le nombre de stimulations visuelles dans la pièce de tétée (rideaux, murs neutres, jouets rangés)",
-        "Réintroduire un rituel d'avant-tétée : phrase, geste, position — bébé re-conditionne son attention",
-        "Si allaitement : ne pas s'inquiéter d'une baisse de production — bébé tète moins parce qu'il est plus efficace",
-        "Consulter une IBCLC ou la Leche League pour évaluer les transferts si doute sur la prise de poids"
+        "Réduire les stimulations visuelles : rideaux, murs neutres, jouets rangés dans la pièce de tétée.",
+        "Rituel d'avant-tétée : phrase, geste, position, bébé re-conditionne son attention.",
+        "Si allaitement : pas d'inquiétude sur la production, bébé tète moins car plus efficace.",
+        "IBCLC ou Leche League : évaluer les transferts en cas de doute sur la prise de poids."
       ],
       "principe": "La distractibilité à 6 mois est un signe de développement, pas de désintérêt. Le cadre se simplifie pour que le lait reste prioritaire dans son attention.",
       "erreurs_a_eviter": [
@@ -381,8 +373,8 @@
       "explication": "Quand bébé tousse fortement pendant un repas, dans la quasi-totalité des cas, son réflexe de protection a fonctionné parfaitement : la toux signe que l'air passe et que le corps évacue ce qui ne devait pas descendre. C'est différent de l'étouffement, qui est silencieux. À 6 mois, le système oral est encore en apprentissage : ces alertes vont se reproduire — c'est inévitable et même nécessaire pour que la motricité orale se construise. Ce qui marque bébé, ce n'est pas l'épisode lui-même, c'est la réaction de l'adulte autour.",
       "ancrage": "Ton bébé a réagi avec son corps. Ton rôle maintenant est de réagir avec ton calme. Ce que tu vas transmettre dans la minute qui suit reste plus longtemps que la toux elle-même.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate — l'épisode et juste après",
         "etapes": [
           "Pendant la toux : ne pas frapper le dos, ne pas mettre les doigts dans la bouche, le laisser cracher",
@@ -393,8 +385,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — restaurer la confiance",
         "etapes": [
           "Massage doux le long du dos, de haut en bas, pour relâcher les tensions",
@@ -405,10 +397,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Se former aux gestes de premiers secours pédiatriques — formation IPS, 4h en présentiel, sauve des vies",
-        "Toujours installer bébé bien droit et soutenu pour manger — jamais semi-allongé, jamais sur les genoux",
-        "Couper les aliments en bâtonnets longs (longueur d'un index) plutôt qu'en petits cubes — moins dangereux",
-        "Éviter strictement avant 4 ans : noix, cacahuètes entières, raisins entiers, saucisses en rondelles, bonbons durs"
+        "Se former aux premiers secours pédiatriques : formation IPS, 4h en présentiel, sauve des vies.",
+        "Installation bien droite : bébé soutenu pour manger, jamais semi-allongé ni sur les genoux.",
+        "Couper en bâtonnets longs : la longueur d'un index plutôt qu'en petits cubes, moins dangereux.",
+        "Éviter avant 4 ans : noix, cacahuètes entières, raisins entiers, rondelles de saucisse, bonbons durs."
       ],
       "principe": "La toux est un réflexe de protection sain. La fausse-route silencieuse est l'urgence. Connaître la différence, et avoir les gestes formés, vaut mieux que d'éviter toutes les textures.",
       "erreurs_a_eviter": [
@@ -426,8 +418,8 @@
       "explication": "Entre 5 et 7 mois, beaucoup de bébés traversent une régression du sommeil distincte de celle des 4 mois. Cette fois, ce n'est pas la maturation des cycles qui est en jeu — c'est l'arrivée de la mobilité (retournements actifs, début du quatre pattes) et la maturation cognitive (permanence partielle, conscience du séparé). Bébé se réveille la nuit parce que son cerveau « rejoue » ce qu'il a appris dans la journée. C'est temporaire — entre 2 et 6 semaines selon les enfants — et c'est un signe positif de développement.",
       "ancrage": "La régression n'est pas un retour en arrière — c'est une consolidation. Plus bébé apprend dans la journée, plus son sommeil est traversé. Le cadre stable est ton outil principal.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate — la nuit",
         "etapes": [
           "Attendre 2-3 minutes avant d'intervenir — vérifier qu'il ne se rendort pas seul",
@@ -438,8 +430,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — tenir le cadre du jour",
         "etapes": [
           "Avant les siestes : 5 min de réflexo plexus solaire en position allongée — prépare la transition",
@@ -450,10 +442,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Garder un environnement de sommeil totalement constant pendant la régression — pas le moment d'introduire un changement",
-        "Multiplier les activités motrices dans la journée (tapis, sol, mouvement) — décharge l'énergie d'apprentissage",
-        "Tenir le rituel coûte que coûte — pendant 2-6 semaines, c'est l'ancre qui rassure bébé",
-        "Lire les travaux d'Aude Becquart, Caroline Ferriol ou Anna Roy sur les sauts développementaux"
+        "Environnement de sommeil constant : pas le moment d'introduire un changement pendant la régression.",
+        "Plus d'activités motrices en journée : tapis, sol, mouvement, ça décharge l'énergie d'apprentissage.",
+        "Tenir le rituel coûte que coûte : pendant 2-6 semaines, c'est l'ancre qui rassure bébé.",
+        "Lecture utile : Aude Becquart, Caroline Ferriol ou Anna Roy sur les sauts développementaux."
       ],
       "principe": "Une régression du sommeil est un signe de maturation, pas un échec parental. Maintenir le cadre est plus efficace que changer la méthode. La régression passe — les nouvelles habitudes installées pendant cette période restent.",
       "erreurs_a_eviter": [
@@ -471,8 +463,8 @@
       "explication": "À 6 mois, les retournements deviennent involontaires pendant le sommeil. Bébé bascule sur le ventre, ne sait pas encore revenir sur le dos, et se réveille en pleurant. Le réflexe du parent est de le retourner — mais ce geste, répété toutes les nuits, retarde l'apprentissage. La recommandation actuelle des pédiatres : laisser bébé sur le ventre une fois qu'il s'y est mis seul à condition que la literie soit sécurisée. La nuit, bébé apprendra à se gérer plus vite que tu ne crois.",
       "ancrage": "Bébé ne pleure pas parce qu'il est en danger — il pleure parce qu'il découvre une nouvelle position dans son sommeil. Avec quelques jours, son corps apprend.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate — la nuit",
         "etapes": [
           "Vérifier que le lit est sécurisé : matelas ferme, pas de tour de lit, pas de couverture, pas de peluche",
@@ -483,8 +475,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — favoriser l'apprentissage du retour",
         "etapes": [
           "Dans la journée, sur le tapis : pratiquer le retournement dans les deux sens, en l'accompagnant légèrement",
@@ -495,10 +487,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Mettre bébé en gigoteuse sans manches dès qu'il bouge — moins d'entraves au retournement",
-        "Garder le bébé sur le dos pour l'endormissement initial même s'il se retourne ensuite (recommandation officielle MIN)",
-        "Sécuriser totalement le lit : matelas plat, drap-housse adapté, rien d'autre — règle MIN absolue",
-        "Lire les recommandations actuelles de la HAS et de l'AAP sur le couchage sécurisé"
+        "Gigoteuse sans manches : dès qu'il bouge, moins d'entraves au retournement.",
+        "Dos pour l'endormissement initial : même s'il se retourne ensuite (recommandation MIN).",
+        "Sécuriser le lit : matelas plat, drap-housse adapté, rien d'autre, règle MIN absolue.",
+        "Lecture utile : les recommandations actuelles de la HAS et de l'AAP sur le couchage sécurisé."
       ],
       "principe": "L'apprentissage moteur se fait plus vite que l'angoisse parentale ne le croit. Sécuriser le lit permet de laisser bébé trouver ses positions naturellement — y compris la nuit.",
       "erreurs_a_eviter": [
@@ -516,8 +508,8 @@
       "explication": "Vers 6 mois, les réveils très précoces (entre 4h et 5h30) ont plusieurs causes possibles : sieste de fin de journée trop longue, coucher trop tardif (sur-fatigue), température ou luminosité de la chambre, ou véritable réveil par faim si la diversification compense mal les apports nocturnes. À cet âge, l'horloge circadienne est encore en construction : un bébé qui se réveille à 5h n'est pas « difficile » — il signale un déséquilibre du rythme global. Le résoudre demande d'agir sur la journée entière, pas seulement sur la nuit.",
       "ancrage": "Le réveil à 5h n'est pas un échec, c'est un signal. Plus tu observes la journée d'avant, plus tu trouveras la clé.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate — au réveil précoce",
         "etapes": [
           "Garder volets fermés, lumière éteinte, voix murmurée — surtout pas d'allumage",
@@ -528,8 +520,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — rééquilibrer la journée",
         "etapes": [
           "Avancer le coucher de 15 min si fenêtre d'éveil de soirée semble trop longue (test sur 5 jours)",
@@ -540,10 +532,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Tenir un journal sur 5-7 jours : sieste, coucher, réveils, lever — repérer les leviers de réglage",
-        "Vérifier la température de la chambre : 18-20°C idéal, ni plus chaud, ni plus froid",
-        "Installer des rideaux occultants si la lumière de l'aube réveille — la mélatonine chute dès le premier rayon",
-        "Consulter un consultant en sommeil pédiatrique respectueux du rythme physiologique si le pattern persiste"
+        "Journal sur 5-7 jours : sieste, coucher, réveils, lever, repérer les leviers de réglage.",
+        "Température de la chambre : 18-20°C idéal, ni plus chaud ni plus froid.",
+        "Rideaux occultants : la mélatonine chute dès le premier rayon de l'aube.",
+        "Consultant en sommeil pédiatrique : respectueux du rythme physiologique, si le pattern persiste."
       ],
       "principe": "Le réveil précoce n'est presque jamais isolé — il est le symptôme d'un rythme global à ajuster. Agir sur la journée plutôt que sur la nuit donne des résultats durables.",
       "erreurs_a_eviter": [
@@ -561,8 +553,8 @@
       "explication": "Entre 6 et 9 mois, beaucoup de bébés passent progressivement de 3 siestes à 2 siestes par jour. La fenêtre d'éveil s'allonge (1h30 à 2h30 selon les bébés et les moments de la journée), et tenter de coucher bébé selon l'ancien rythme provoque un refus net. Cette transition n'est pas linéaire : il y aura des jours à 3 siestes courtes, d'autres à 2 siestes longues. Repérer le moment juste, c'est observer les signaux de fatigue plutôt que regarder l'horloge.",
       "ancrage": "Le rythme de bébé évolue plus vite que les tableaux qu'on lit. Observer son corps est plus fiable que suivre une grille.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate — décoder le refus",
         "etapes": [
           "Observer les signaux : frottement des yeux, regard qui se fige, agitation des jambes — pas seulement les bâillements",
@@ -573,8 +565,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — favoriser l'endormissement",
         "etapes": [
           "10 min avant la sieste : éteindre les lumières vives, voix basse, ralentir le rythme",
@@ -585,10 +577,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Tenir un journal de sieste 5-7 jours pour identifier les nouvelles fenêtres d'éveil de bébé",
-        "Accepter une période d'irrégularité de 2-4 semaines pendant la transition — pas le moment des règles strictes",
-        "Maintenir l'environnement de sieste constant : même pièce, même type d'endormissement",
-        "Lire « Le sommeil de mon enfant » d'Aude Becquart ou les ressources de Caroline Ferriol pour le sommeil physiologique"
+        "Journal de sieste 5-7 jours : identifier les nouvelles fenêtres d'éveil de bébé.",
+        "Accepter l'irrégularité 2-4 semaines : pas le moment des règles strictes.",
+        "Sieste dans un cadre constant : même pièce, même type d'endormissement.",
+        "Lecture utile : « Le sommeil de mon enfant » d'Aude Becquart ou Caroline Ferriol."
       ],
       "principe": "À 6 mois, le rythme évolue par à-coups, pas linéairement. Suivre les signaux de fatigue de bébé plutôt qu'un tableau d'horaires donne des résultats plus rapides et moins de tension.",
       "erreurs_a_eviter": [
@@ -606,8 +598,8 @@
       "explication": "Les retournements complets (dos-ventre et ventre-dos) apparaissent classiquement entre 4 et 7 mois — la fenêtre est large. Un bébé qui ne se retourne pas à 6 mois pile n'a pas de retard : il est dans la zone normale. Ce qui compte n'est pas la date du premier retournement, mais l'observation de tentatives orientées : bascule du bassin, levée des jambes, tentative d'attraper son pied, rotation de la tête vers un côté. La motricité libre — laisser bébé au sol sans le mettre dans des positions qu'il n'acquiert pas seul — est le meilleur soutien.",
       "ancrage": "Le rythme moteur n'est pas un concours. Bébé ne se compare pas — n'invite pas la comparaison dans ton regard sur lui.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate — favoriser sans forcer",
         "etapes": [
           "Le poser sur un tapis ferme, au sol, en couches simples — pas surélevé, pas dans un transat",
@@ -618,8 +610,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — éveiller le schéma corporel",
         "etapes": [
           "Massage doux du dos en lignes verticales puis horizontales — éveille la perception de l'axe",
@@ -630,10 +622,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Lire Emmi Pikler et Maria Montessori sur la motricité libre — fondamentaux pour ce mois",
-        "Bannir trotteur, youpala, transat dès que bébé est éveillé — entravent le développement moteur",
-        "Limiter le cosy aux trajets en voiture stricts — pas de portage prolongé dans le cosy",
-        "Si doute persiste à 7-8 mois, demander un bilan psychomoteur (1 séance suffit souvent pour rassurer ou orienter)"
+        "Lecture fondamentale : Emmi Pikler et Maria Montessori sur la motricité libre.",
+        "Bannir trotteur, youpala, transat : dès que bébé est éveillé, ils entravent le développement moteur.",
+        "Cosy limité aux trajets : pas de portage prolongé dans le cosy.",
+        "Bilan psychomoteur : si doute à 7-8 mois, 1 séance suffit souvent à rassurer ou orienter."
       ],
       "principe": "Chaque acquisition motrice arrive quand le système nerveux est prêt, pas quand l'environnement insiste. Laisser le sol libre et le corps libre suffit dans la grande majorité des cas.",
       "erreurs_a_eviter": [
@@ -651,8 +643,8 @@
       "explication": "La position assise stable et autonome (bébé se met assis seul et tient sans appui) apparaît classiquement entre 7 et 9 mois — pas à 6 mois. Caller bébé en position assise avec des coussins n'avance pas l'acquisition : au contraire, cela retarde le travail du bassin et la coordination ventre-dos nécessaires pour s'asseoir naturellement après le quatre pattes ou les retournements. À 6 mois, l'objectif n'est pas que bébé soit assis — c'est qu'il maîtrise la position au sol, dans toutes ses variantes.",
       "ancrage": "Ne pas tenir assis à 6 mois n'est pas un retard. C'est exactement dans la norme. Ce qui compte, c'est ce que bébé fait au sol, pas la position qu'il tient.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate — préparer la position assise",
         "etapes": [
           "Le poser sur le tapis sur le dos, sur le ventre, sur les côtés — alternance des positions au sol",
@@ -663,8 +655,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — renforcer l'axe naturellement",
         "etapes": [
           "Massage du dos en remontant, sur la colonne, du sacrum au cou — éveille la conscience de l'axe",
@@ -675,10 +667,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Lire « Motricité libre » d'Emmi Pikler ou suivre les contenus de Sophie Marinopoulos pour vulgarisation",
-        "Bannir transat semi-incliné, cosy, siège bumbo, chaise haute pour repas avant que bébé tienne assis seul",
-        "Privilégier le portage physiologique (écharpe, porte-bébé) plutôt que les sièges inclinés",
-        "Si à 9 mois bébé ne s'assoit toujours pas, demander un bilan psychomoteur — souvent rassurant"
+        "Lecture utile : « Motricité libre » d'Emmi Pikler ou les contenus de Sophie Marinopoulos.",
+        "Bannir les sièges avant l'assise autonome : transat incliné, cosy, bumbo, chaise haute repas.",
+        "Portage physiologique : écharpe ou porte-bébé plutôt que les sièges inclinés.",
+        "Bilan psychomoteur : si bébé ne s'assoit pas à 9 mois, souvent rassurant."
       ],
       "principe": "La position assise ne s'enseigne pas — elle s'acquiert. Caller bébé donne l'illusion d'un progrès, mais retarde la maturation réelle. Le tapis au sol est l'outil principal de cette tranche d'âge.",
       "erreurs_a_eviter": [
@@ -696,8 +688,8 @@
       "explication": "À 6 mois, bébé tend la main vers les objets sans encore maîtriser la distance, lève la tête sans en évaluer la trajectoire, attrape ses pieds sans contrôler le retour. Les petits chocs (tête contre un jouet, main qui se replie sur le visage, basculement sur le côté) sont la conséquence inévitable de l'apprentissage moteur. Ce qui marque bébé, ce n'est pas le choc en lui-même — c'est ta réaction. Une sur-réaction parentale installe une crainte du mouvement ; une absence de réaction empêche la construction du repère « ça fait mal ». Le juste milieu est dans le nommer sans dramatiser.",
       "ancrage": "Les petits chocs sont le coût normal de l'apprentissage moteur. Ta réaction calme construit chez bébé la juste évaluation du risque.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate — au moment du choc",
         "etapes": [
           "Ne pas se précipiter en exclamant : laisser 2-3 secondes avant de réagir, observer la réaction de bébé",
@@ -708,8 +700,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — après le choc",
         "etapes": [
           "Compresse fraîche (pas froide) sur la zone si bosse visible : 1-2 min, plusieurs fois dans l'heure",
@@ -720,10 +712,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Sécuriser l'espace au sol : tapis ferme, pas d'angle dur à hauteur de tête, pas d'objet lourd à portée",
-        "Garder un sol dégagé : moins d'obstacles, plus d'apprentissage moteur sans risque",
-        "Filmer 5 min/semaine la motricité libre — observer les progrès objectivement, dédramatiser les chocs",
-        "Se former aux gestes de premiers secours pédiatriques (formation IPS) — confiance accrue, sur-réaction moindre"
+        "Sécuriser le sol : tapis ferme, aucun angle dur à hauteur de tête, pas d'objet lourd à portée.",
+        "Garder un sol dégagé : moins d'obstacles, plus d'apprentissage moteur sans risque.",
+        "Filmer 5 min/semaine : observer les progrès objectivement, dédramatiser les chocs.",
+        "Se former aux premiers secours pédiatriques (IPS) : confiance accrue, sur-réaction moindre."
       ],
       "principe": "Les petits chocs font partie de l'apprentissage moteur. Une réaction calme construit chez bébé la juste estimation du danger. Sur-protéger empêche le développement moteur ; sous-réagir empêche l'auto-protection.",
       "erreurs_a_eviter": [
@@ -741,8 +733,8 @@
       "explication": "Vers 6 mois, certains bébés qui acceptaient le tapis d'éveil commencent à pleurer dès qu'on les pose. Plusieurs causes possibles : nouvelle conscience de la séparation (il préfère être contre toi), tapis devenu peu intéressant (toujours les mêmes jouets), frustration motrice (il veut bouger mais ne sait pas encore), ou simple besoin de proximité à un moment précis de la journée. La solution n'est pas de le porter tout le temps — c'est de réinventer le sol comme un lieu vivant.",
       "ancrage": "Bébé n'est pas devenu « capricieux ». Il a juste évolué — et le sol n'a pas suivi. À toi de réinventer son monde au sol.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "S'asseoir au sol avec lui plutôt que de l'y poser et partir — ta présence transforme le lieu",
@@ -753,8 +745,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — restaurer le plaisir du sol",
         "etapes": [
           "Massage doux du ventre dans le sens des aiguilles d'une montre, 2 min — détend et ancre au sol",
@@ -765,10 +757,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Faire un panier de trésors hebdomadaire (objets du quotidien sûrs) — renouvelle l'intérêt sans acheter",
-        "Lire Maria Montessori et Emmi Pikler sur l'environnement préparé pour le jeune enfant",
-        "Filmer 5 min/semaine bébé au sol pour observer ses progrès — réajuste son regard parent",
-        "Limiter le portage en transat ou cosy hors transport — le sol doit rester le lieu principal"
+        "Panier de trésors hebdomadaire : objets du quotidien sûrs, renouvelle l'intérêt sans acheter.",
+        "Lecture utile : Maria Montessori et Emmi Pikler sur l'environnement préparé.",
+        "Filmer 5 min/semaine au sol : réajuste ton regard de parent sur ses progrès.",
+        "Limiter transat et cosy hors transport : le sol doit rester le lieu principal."
       ],
       "principe": "Le tapis d'éveil n'est qu'un support — c'est ta présence proche et la richesse des objets qui font le sol vivant. À 6 mois, bébé a besoin de variété, pas de plus de jouets.",
       "erreurs_a_eviter": [
@@ -786,8 +778,8 @@
       "explication": "À 6 mois, le seuil de tolérance sensorielle reste limité : 3-4h de stimulation continue suffisent à saturer le système nerveux. Une sortie, une visite, un nouveau jouet, un trajet, une diversification avec une saveur nouvelle — chaque input s'additionne. Quand bébé devient agité, fuit le regard, pleure pour rien, ou s'agite dans tous les sens, c'est rarement un caprice : c'est le système qui demande à se vider. Cette saturation se reconnaît à des signes précis et se traite par la réduction immédiate des inputs.",
       "ancrage": "Ce n'est pas que bébé en demande trop — c'est qu'il en reçoit déjà beaucoup. À cet âge, moins est souvent plus.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Aller dans une pièce calme, lumière chaude tamisée, sans bruit ambiant",
@@ -798,8 +790,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — décharge sensorielle",
         "etapes": [
           "Une main lourde et immobile sur le sommet du crâne 1 min — input proprioceptif apaisant",
@@ -810,10 +802,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Repérer dans la journée quel input a saturé (visite, sortie longue, écran allumé, nouvelle saveur) — réduire un de ces inputs",
-        "Préserver 1-2 plages calmes par jour : pas de visite, pas de sortie, sol ou bras tranquilles",
-        "Aucun écran en présence de bébé — même en arrière-plan, le clignotement sature le système visuel",
-        "Lire Catherine Gueguen ou Daniel Siegel sur la régulation sensorielle et émotionnelle de l'enfant"
+        "Repérer l'input saturant : visite, sortie longue, écran, nouvelle saveur, en réduire un.",
+        "Une à deux plages calmes/jour : pas de visite, pas de sortie, sol ou bras tranquilles.",
+        "Aucun écran en présence de bébé : même en arrière-plan, le clignotement sature le visuel.",
+        "Lecture utile : Catherine Gueguen ou Daniel Siegel sur la régulation sensorielle."
       ],
       "principe": "À 6 mois, le système nerveux a besoin de plus de calme que de stimulation. La sur-stimulation ne fatigue pas — elle excite, c'est différent. Réduire les inputs prévient la majorité des crises du soir.",
       "erreurs_a_eviter": [
@@ -831,8 +823,8 @@
       "explication": "Entre 17h et 19h, beaucoup de bébés de 6 mois deviennent particulièrement agités, pleurent sans cause identifiable, refusent les bras autant que le sol. On appelle parfois ce moment « l'heure du loup » : c'est la conjonction d'une fenêtre d'éveil de fin de journée plus difficile à tenir, d'une baisse de la lumière naturelle qui modifie la chimie cérébrale, et de la cumulation sensorielle de la journée. C'est physiologique et passager — entre 5 et 8 mois, ce moment du jour est souvent le plus difficile.",
       "ancrage": "L'heure du loup n'est pas un échec de la journée — c'est sa décharge naturelle. Ce moment passera de lui-même vers 8-9 mois.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Anticiper le pic : avant 17h, simplifier l'environnement (lumière tamisée, silence, pas de visite)",
@@ -843,8 +835,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — traverser le pic",
         "etapes": [
           "Une main posée sur le bas du dos en portage, immobile, ancre",
@@ -855,10 +847,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Avancer le bain (avant 17h) si le bain agite, ou le reculer (vers 19h) si le bain apaise — tester",
-        "Préparer le repas du soir l'après-midi pour être 100% disponible pendant le pic",
-        "Si possible, faire ce pic à deux (l'autre parent, un proche) pour ne pas être seule à le traverser",
-        "Lire les travaux de Marie Thirion ou Caroline Gosselin sur les rythmes du nourrisson"
+        "Tester l'horaire du bain : avancer avant 17h s'il agite, reculer vers 19h s'il apaise.",
+        "Repas du soir prêt l'après-midi : pour être 100% disponible pendant le pic.",
+        "Traverser le pic à deux : l'autre parent ou un proche, pour ne pas être seule.",
+        "Lecture utile : Marie Thirion ou Caroline Gosselin sur les rythmes du nourrisson."
       ],
       "principe": "L'heure du loup est un passage normal entre 5 et 8 mois. La traverser dans le calme avec un cadre contenant est plus efficace que tenter de la supprimer par des stimulations.",
       "erreurs_a_eviter": [
@@ -876,8 +868,8 @@
       "explication": "Le bain n'a pas le même effet sur tous les bébés. Pour environ un tiers d'entre eux, il est apaisant — pour le reste, il est stimulant. À 6 mois, l'éveil sensoriel du bain (eau chaude, lumière, sons amplifiés, mouvements visibles dans l'eau) peut produire un effet rebond : bébé sort sur-excité, refuse de se calmer, devient agité pour la suite de la soirée. Ce n'est ni anormal, ni définitif — c'est juste un signe que le bain est trop tôt dans la soirée, ou trop stimulant tel qu'il est organisé.",
       "ancrage": "Le bain n'est pas une étape obligatoire du rituel du soir. Si bébé en sort agité, c'est qu'il n'est pas à sa place dans la soirée — pas que tu fais mal le bain.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate — après le bain qui agite",
         "etapes": [
           "Sortie immédiate au calme : lumière tamisée, voix murmurée, pas de jeu vif au moment de l'habillage",
@@ -888,8 +880,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — réguler après bain",
         "etapes": [
           "Massage doux du dos après habillage : huile végétale tiède, mouvements lents 3 min",
@@ -900,10 +892,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Tester de déplacer le bain en début d'après-midi pendant 1 semaine — observer la qualité du coucher",
-        "Réduire la stimulation pendant le bain : moins de jouets, lumière chaude, voix basse, durée 5-7 min max",
-        "Tester un bain tous les 2-3 jours plutôt que quotidien — la peau de bébé n'a pas besoin de bain quotidien",
-        "Privilégier une toilette à l'éponge le soir si bain stimulant — propre et calme"
+        "Déplacer le bain l'après-midi : tester 1 semaine, observer la qualité du coucher.",
+        "Réduire la stimulation du bain : moins de jouets, lumière chaude, voix basse, 5-7 min max.",
+        "Bain tous les 2-3 jours : la peau de bébé n'a pas besoin d'un bain quotidien.",
+        "Toilette à l'éponge le soir : propre et calme si le bain stimule."
       ],
       "principe": "Le bain n'est ni indispensable au coucher, ni interdit. C'est un outil parmi d'autres — à adapter au profil sensoriel de bébé, pas à imposer parce que « ça doit calmer ».",
       "erreurs_a_eviter": [
@@ -921,8 +913,8 @@
       "explication": "À 6 mois, bébé reconnaît clairement ses figures principales et perçoit la nouveauté des visages. Une visite, même brève, mobilise énormément son attention : nouveaux sons, nouvelles odeurs, nouvelles voix, parfois des bras qui se passent. Pendant la visite, il peut sembler aller bien — c'est en partant que le trop-plein remonte. Pleurs intenses, refus de jeux habituels, agitation ou repli sont les manifestations d'une décharge sociale tout à fait normale à cet âge.",
       "ancrage": "Bébé n'a pas « mal vécu » la visite. Il l'a juste vécue à 100%. La décharge qui suit est la preuve qu'il a beaucoup reçu — et qu'il a besoin de retrouver son cadre.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate — après la visite",
         "etapes": [
           "Pièce calme, lumière chaude, silence — fermer les rideaux si besoin",
@@ -933,8 +925,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — restaurer le familier",
         "etapes": [
           "Main lourde immobile sur le ventre 1 min — input proprioceptif apaisant",
@@ -945,10 +937,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Limiter les visites à 30-45 min maximum, et éviter de faire passer bébé de bras en bras",
-        "Garder au moins une plage par jour totalement protégée (pas de visite, pas de sortie) — l'ancrage du familier",
-        "Préparer un sas de retour à la maison après une sortie : 15 min de calme avant de reprendre les activités",
-        "Lire les travaux de Catherine Gueguen ou les ressources des Dolto sur la sensibilité du nourrisson au social"
+        "Visites de 30-45 min max : éviter de faire passer bébé de bras en bras.",
+        "Une plage protégée par jour : ni visite ni sortie, l'ancrage du familier.",
+        "Sas de retour à la maison : 15 min de calme après une sortie avant de reprendre.",
+        "Lecture utile : Catherine Gueguen ou les Dolto sur la sensibilité du nourrisson au social."
       ],
       "principe": "Le social est une stimulation à part entière à 6 mois. La décharge qui suit n'est pas anormale — c'est le système nerveux qui digère. Limiter la quantité plus que la qualité.",
       "erreurs_a_eviter": [
@@ -966,8 +958,8 @@
       "explication": "L'angoisse de séparation classique culmine entre 8 et 10 mois — mais ses préfigurations apparaissent dès 6 mois. Bébé commence à chercher activement les figures d'attachement du regard, à pleurer quand elles s'éloignent, à se calmer dès leur retour. Ce comportement n'est pas un caprice — c'est la maturation d'une fonction cognitive majeure : la permanence du parent. Plus l'attachement est sécure, plus ces manifestations sont visibles à cet âge — c'est paradoxal mais documenté par les travaux de Bowlby et Ainsworth.",
       "ancrage": "Tes pleurs à ton départ ne sont pas un signe de dépendance excessive. C'est exactement l'inverse : le signe d'un attachement qui se construit normalement.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Verbaliser systématiquement tes départs, même pour 2 min : « je vais aux toilettes, je reviens »",
@@ -978,8 +970,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — soutenir la construction de la permanence",
         "etapes": [
           "Jeu « cache-cache » avec un foulard sur un jouet : caché, présent, caché, présent — base de la permanence",
@@ -990,10 +982,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Multiplier les jeux de permanence : foulard sur visage, objet caché sous un voile, peek-a-boo",
-        "Préparer les futures séparations (crèche, garde, retour pro) en douceur — adaptation progressive",
-        "Lire les travaux de Bowlby et Ainsworth, ou « Le concept de la mère suffisamment bonne » de Winnicott",
-        "Ne pas confondre angoisse de séparation et insécurité d'attachement — la première est saine, l'autre est rare et clinique"
+        "Jeux de permanence : foulard sur le visage, objet sous un voile, peek-a-boo.",
+        "Préparer les futures séparations : crèche, garde, retour pro, en adaptation progressive.",
+        "Lecture utile : Bowlby et Ainsworth, ou « la mère suffisamment bonne » de Winnicott.",
+        "Ne pas confondre : angoisse de séparation (saine) et insécurité d'attachement (rare, clinique)."
       ],
       "principe": "L'angoisse de séparation est un cap développemental normal. Y répondre par la verbalisation, la régularité des retours, et les jeux de permanence prépare à des séparations futures plus sereines.",
       "erreurs_a_eviter": [
@@ -1011,8 +1003,8 @@
       "explication": "Vers 6 mois, beaucoup de bébés deviennent très sélectifs sur les personnes qui peuvent les porter. Même les grands-parents, voire le co-parent, peuvent être refusés. Cette préférence n'est pas un rejet — c'est la construction de la hiérarchie d'attachement décrite par Bowlby : bébé a maintenant une figure principale, des figures secondaires, et des figures plus lointaines. C'est l'apparition de cette hiérarchie qui rend les refus plus visibles. Cette phase est temporaire (quelques semaines à quelques mois) et n'altère pas durablement les liens.",
       "ancrage": "Ce n'est pas un rejet de ceux qui veulent porter bébé. C'est juste que bébé a appris à distinguer — et qu'il a besoin de temps pour intégrer les figures non-principales comme aussi sûres.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Ne pas forcer le passage de bras — bébé pleure plus s'il est tiré, et apprend à se méfier",
@@ -1023,8 +1015,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — soutenir l'ouverture progressive",
         "etapes": [
           "Faire participer la personne aux soins quotidiens du bain ou du repas pendant que tu es là — habituation par les routines",
@@ -1035,10 +1027,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Multiplier les visites courtes des figures secondaires plutôt qu'une visite longue tous les mois",
-        "Demander aux proches de ne pas se sentir rejetés — c'est neurologique, pas relationnel",
-        "Lire les travaux de Bowlby et Ainsworth sur la hiérarchie d'attachement",
-        "Ne pas culpabiliser le co-parent s'il est refusé — proposer des moments de jeu et de soin à deux pour reconstruire"
+        "Visites courtes et fréquentes : des figures secondaires plutôt qu'une longue visite par mois.",
+        "Rassurer les proches : ce refus est neurologique, pas relationnel.",
+        "Lecture utile : Bowlby et Ainsworth sur la hiérarchie d'attachement.",
+        "Ne pas culpabiliser le co-parent : proposer des moments de jeu et de soin à deux."
       ],
       "principe": "La préférence parentale à 6 mois est un signe de maturation cognitive, pas un échec relationnel des autres. Ouvrir progressivement, sans forcer, est la voie la plus efficace.",
       "erreurs_a_eviter": [
@@ -1056,8 +1048,8 @@
       "explication": "À 6 mois, certains bébés développent une vigilance visuelle particulièrement intense à la figure principale. Dès que cette figure quitte son champ de vision, même pour 30 secondes, bébé pleure intensément. Cette anxiété est une variation normale du tempérament — certains bébés sont plus sensibles que d'autres au manque de stimuli visuels rassurants. Cela ne préfigure ni une dépendance pathologique, ni une éducation « mal faite » : c'est un profil sensoriel à accompagner, pas à combattre.",
       "ancrage": "Ton bébé n'est pas « trop attaché ». Il est juste plus sensible à l'absence visuelle que d'autres. Ton rôle est de répondre régulièrement, pas de l'endurcir.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Avant de quitter la pièce, prévenir par la voix et le geste : « je vais juste à côté »",
@@ -1068,8 +1060,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — construire la sécurité interne",
         "etapes": [
           "Multiplier les jeux de « coucou » avec foulard sur ton visage — base de la permanence visuelle",
@@ -1080,10 +1072,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Utiliser un porte-bébé pour les tâches du quotidien — bébé se sécurise par le contact, libère ses mains",
-        "Installer un miroir au sol à hauteur de bébé — il découvre les visages, dont le tien quand tu approches",
-        "Ne pas multiplier les séparations longues pendant cette phase — privilégier les micro-séparations",
-        "Lire « Vivre heureux avec son enfant » de Catherine Gueguen ou les travaux sur l'attachement sécure"
+        "Porte-bébé au quotidien : bébé se sécurise par le contact, tes mains restent libres.",
+        "Miroir au sol à sa hauteur : il découvre les visages, dont le tien quand tu approches.",
+        "Pas de séparations longues maintenant : privilégier les micro-séparations.",
+        "Lecture utile : « Vivre heureux avec son enfant » de Catherine Gueguen sur l'attachement sécure."
       ],
       "principe": "La sécurité interne se construit par la répétition de réponses fiables, pas par l'apprentissage forcé de l'absence. Plus tu réponds tôt et calmement, plus bébé intègre que tu reviens toujours.",
       "erreurs_a_eviter": [
@@ -1101,8 +1093,8 @@
       "explication": "Beaucoup de parents en garde (crèche, nounou) découvrent que bébé pleure plus à leur retour qu'avec la personne qui le garde. Ce comportement, contre-intuitif, est en réalité un signe d'attachement sécure : bébé a tenu toute la journée dans un environnement qu'il accepte mais qui ne lui apporte pas la sécurité maximale ; à ton retour, le système nerveux se relâche et la décharge sort. C'est l'équivalent émotionnel d'un soupir de soulagement — sauf qu'à 6 mois, il s'exprime par les pleurs.",
       "ancrage": "Ses pleurs à ton retour sont une preuve d'amour, pas un reproche. Il a tenu jusqu'à toi — c'est précisément parce que tu es sa figure de sécurité qu'il craque maintenant.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate — au moment des retrouvailles",
         "etapes": [
           "Prendre 2-3 min calmes avant la récupération : pas de stress, pas de précipitation, pas de téléphone",
@@ -1113,8 +1105,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — accueillir la décharge",
         "etapes": [
           "À la maison, peau à peau 10-15 min dans le silence ou avec une berceuse murmurée",
@@ -1125,10 +1117,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Pas de visite, pas de course supplémentaire, pas de tâche stressante après la récupération — sas obligatoire",
-        "Discuter avec la personne en garde de la journée de bébé : sommeil, repas, émotions — repérer les patterns",
-        "Si pleurs intenses chaque jour pendant plus de 3 semaines après l'adaptation, en parler avec la structure",
-        "Lire « Bien dans ses peurs » d'Anne Bacus ou les ressources de l'INSPÉ sur l'adaptation à la crèche"
+        "Sas obligatoire au retour : pas de visite, course ou tâche stressante après la récupération.",
+        "Débrief avec la garde : sommeil, repas, émotions de la journée, repérer les patterns.",
+        "Alerter la structure : si pleurs intenses chaque jour plus de 3 semaines après l'adaptation.",
+        "Lecture utile : « Bien dans ses peurs » d'Anne Bacus ou les ressources sur l'adaptation crèche."
       ],
       "principe": "La décharge au retour est un signe d'attachement sécure — pas un échec de la garde. La traverser dans le calme renforce le lien et prépare des retours futurs plus sereins.",
       "erreurs_a_eviter": [
@@ -1146,8 +1138,8 @@
       "explication": "Les premières dents (généralement les incisives inférieures) apparaissent classiquement entre 4 et 10 mois — la moyenne étant 6 mois. Les signes typiques : bave abondante, joue rouge d'un seul côté, irritabilité, mâchonnement intense, sommeil perturbé, parfois selles plus molles. Contrairement à une idée répandue, les dents ne donnent pas de fièvre élevée ni de diarrhée vraie — si ces symptômes sont présents, chercher une autre cause. La douleur est réelle, mais elle s'accompagne d'une grande variabilité d'un bébé à l'autre.",
       "ancrage": "Bébé n'invente pas la douleur. Et il ne sait pas non plus que ça vient des dents. Ton rôle est de soulager sans tout attribuer aux dents à chaque pleur.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate — soulager la douleur",
         "etapes": [
           "Anneau de dentition refroidi au frigo (pas au congélateur) — donne pendant 5-10 min",
@@ -1158,8 +1150,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — réflexo dents",
         "etapes": [
           "Réflexo zone mâchoire : pulpe des orteils (zone dents/visage), micro-cercles très doux, 30 sec par pied",
@@ -1170,10 +1162,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Anneau caoutchouc ou tissu rempli d'eau gélifiée — préférer aux modèles silicone trop durs",
-        "Bâtonnet de pain dur ou croûte de pain à mâchouiller sous surveillance stricte (à partir de 6 mois)",
-        "Tissu propre frais (mouillé eau froide) à mâchonner — alternative simple et naturelle",
-        "Lire les recommandations actuelles sur les soins dentaires : ANSM, HAS, UFSBD"
+        "Anneau caoutchouc ou tissu : rempli d'eau gélifiée, préférable au silicone trop dur.",
+        "Croûte de pain dur : à mâchouiller sous surveillance stricte (dès 6 mois).",
+        "Tissu propre frais : mouillé à l'eau froide, alternative simple et naturelle.",
+        "Lecture utile : les recommandations actuelles sur les soins dentaires (ANSM, HAS, UFSBD)."
       ],
       "principe": "Les premières dents font mal, mais ne désorganisent pas tout. Soulager avec douceur et patience est plus efficace que multiplier les produits. Le mâchonnement libère naturellement la pression sur la gencive.",
       "erreurs_a_eviter": [
@@ -1191,8 +1183,8 @@
       "explication": "Pendant une poussée dentaire, la gencive est sensible — appuyer la cuillère ou téter peut être douloureux. Bébé peut refuser ses repas habituels, tirer du sein, refuser le biberon, ou recracher la cuillère qu'il acceptait pourtant la semaine d'avant. Ce refus est ponctuel (quelques jours à une semaine), localisé à l'épisode de poussée, et doit revenir à la normale dès que la dent a percé. Ce n'est pas le moment d'introduire une nouvelle texture ou un nouveau goût — bébé a besoin de stabilité.",
       "ancrage": "Bébé ne refuse pas par opposition. Il refuse parce qu'il a mal. Lui proposer du familier et du doux est plus utile que d'insister sur la diversification.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Proposer le lait (sein ou biberon) si bébé l'accepte — reste l'aliment principal à cet âge",
@@ -1203,8 +1195,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — réguler avant le repas",
         "etapes": [
           "Avant le repas : massage doux de la joue côté douloureux pendant 1 min",
@@ -1215,10 +1207,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Pendant la poussée dentaire, accepter une simplification temporaire de la diversification — pas d'innovation",
-        "Proposer 5-6 petits repas plutôt que 3 gros — réduit la pression sur la mâchoire",
-        "Surveiller les couches mouillées (au moins 5/jour) — signe d'hydratation suffisante",
-        "Lire les recommandations actuelles : ANSM, HAS, mpedia.fr (site de l'AFPA)"
+        "Simplifier temporairement : pendant la poussée, pas d'innovation alimentaire.",
+        "Cinq-six petits repas : plutôt que 3 gros, réduit la pression sur la mâchoire.",
+        "Surveiller les couches : au moins 5 mouillées/jour, signe d'hydratation suffisante.",
+        "Lecture utile : recommandations ANSM, HAS, mpedia.fr (site de l'AFPA)."
       ],
       "principe": "Pendant une poussée dentaire, le repas n'est pas le moment d'apprendre — c'est le moment de soutenir. Le retour à l'appétit normal est rapide une fois la dent percée.",
       "erreurs_a_eviter": [
@@ -1236,8 +1228,8 @@
       "explication": "Pendant les phases actives de poussée dentaire, le sommeil peut être très perturbé : réveils plus fréquents, pleurs au coucher, sommeil agité. La pression de la dent sur la gencive est physiquement plus ressentie en position allongée (afflux sanguin). Ces réveils ne signent pas une régression d'attachement ni un problème d'endormissement — ils sont contextuels et passagers. Le défi pour le parent est de ne pas modifier durablement les habitudes du sommeil à cause d'un épisode qui va passer en quelques jours.",
       "ancrage": "Bébé a mal cette nuit — mais c'est temporaire. Ce que tu installes pendant ces nuits-là risque de rester quand la dent ne sera plus douloureuse.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate — la nuit",
         "etapes": [
           "Avant le coucher, anneau de dentition refroidi 5-10 min pour anesthésier un peu",
@@ -1248,8 +1240,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — soulager avant le coucher",
         "etapes": [
           "Massage doux de la joue côté douloureux 1 min avant la dernière phase du rituel",
@@ -1260,10 +1252,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Tenir le rituel coûte que coûte — même quand bébé est en douleur, les ancres restent",
-        "Surélever très légèrement la tête du lit (livre sous les pieds du lit) — réduit l'afflux sanguin gingival",
-        "Pas de nouvelle habitude (lit cododo, biberon nocturne) — ce qui s'installe pendant restera après",
-        "Lire « Le sommeil de mon enfant » d'Aude Becquart pour distinguer les sources de réveil"
+        "Tenir le rituel coûte que coûte : même en douleur, les ancres restent.",
+        "Surélever la tête du lit : un livre sous les pieds, réduit l'afflux sanguin gingival.",
+        "Pas de nouvelle habitude : cododo ou biberon nocturne installés resteront après.",
+        "Lecture utile : « Le sommeil de mon enfant » d'Aude Becquart pour distinguer les réveils."
       ],
       "principe": "Une poussée dentaire est un épisode aigu de 3-7 jours. Soulager sans transformer le cadre du sommeil préserve les acquis et facilite le retour au rythme normal une fois la dent percée.",
       "erreurs_a_eviter": [
@@ -1281,8 +1273,8 @@
       "explication": "Le mâchonnement intense vers 6 mois cumule deux mécanismes : la phase orale classique (bébé découvre le monde par la bouche, l'oralité est son premier outil cognitif), et la préparation des poussées dentaires (le mâchonnement libère la pression gingivale). Bébé met les mains, les objets, les vêtements, le bord du tapis, le bord du sein — tout passe à la bouche. C'est sain, cognitif, sensoriel, et préparatoire. Ce qui compte, c'est de sécuriser l'environnement, pas d'empêcher la pulsion.",
       "ancrage": "La bouche est l'outil principal d'exploration à 6 mois — pas une mauvaise habitude. Sécuriser au lieu d'interdire est la voie.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate",
         "etapes": [
           "Vérifier régulièrement l'environnement : pas d'objets de moins de 4 cm à portée (risque d'étouffement)",
@@ -1293,8 +1285,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — éveil oral sain",
         "etapes": [
           "Massage des gencives 1 fois/jour avec ton doigt propre — habitue la zone aux pressions douces",
@@ -1305,10 +1297,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Lire Maria Montessori sur les périodes sensibles, ou « L'éducation des sens » d'Emmi Pikler",
-        "Vérifier régulièrement la solidité des objets à mâchonner — risques de fragments cassés",
-        "Privilégier le bois brut non verni, le caoutchouc naturel, le tissu de coton bio — sans BPA, sans phtalates",
-        "Bannir les jouets non certifiés CE et les jouets vintage non garantis sans plomb"
+        "Lecture utile : Maria Montessori sur les périodes sensibles ou « L'éducation des sens » de Pikler.",
+        "Vérifier la solidité des objets : risque de fragments cassés à mâchonner.",
+        "Matières saines : bois brut non verni, caoutchouc naturel, coton bio, sans BPA ni phtalates.",
+        "Bannir le non-certifié : jouets sans marquage CE et jouets vintage non garantis sans plomb."
       ],
       "principe": "La phase orale est l'une des fondations du développement cognitif et sensoriel. Sécuriser l'environnement et offrir des supports variés est la stratégie — pas tenter d'empêcher la pulsion.",
       "erreurs_a_eviter": [
@@ -1326,8 +1318,8 @@
       "explication": "Le sixième mois est statistiquement l'un des plus durs pour les parents. La nouveauté du début est passée, l'entourage est moins présent, le congé est terminé ou approche de sa fin, et bébé n'est pas encore autonome. Les nuits restent perturbées, la diversification ajoute une charge, et l'on est encore loin du « plus facile à venir ». Ce n'est pas un épuisement classique — c'est un creux qui se loge dans le quotidien et qui peut basculer en dépression post-partum tardive si on ne le repère pas.",
       "ancrage": "Tu n'es pas paresseuse, ni faible, ni mauvaise. Tu es au creux. Et le creux est un moment du parcours — pas ton identité.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate — sortir du creux maintenant",
         "etapes": [
           "Avant tout, identifier 3 personnes (pas toutes des parents) à qui dire honnêtement « je suis au creux »",
@@ -1338,8 +1330,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#FBEAF0",
-        "couleur_texte": "#72243E",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — soin parental",
         "etapes": [
           "Auto-massage des mains : pression appuyée sur la zone plexus solaire (centre de la paume), 1 min par main",
@@ -1350,10 +1342,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Tester un soutien professionnel : MonParcoursPsy (8 séances remboursées sur prescription du généraliste)",
-        "Échanger avec un cercle de jeunes parents (LLL, groupes de parole en PMI, associations) — l'isolement aggrave",
-        "Lire « Le mois d'or » de Céline Chadelat ou « Maman blues » sur le post-partum prolongé",
-        "Considérer une aide ménagère 2-3h/semaine si possible financièrement — bouger ce qui peut bouger"
+        "Soutien professionnel : MonParcoursPsy, 8 séances remboursées sur prescription du généraliste.",
+        "Cercle de jeunes parents : LLL, groupes de parole en PMI, l'isolement aggrave.",
+        "Lecture utile : « Le mois d'or » de Céline Chadelat ou « Maman blues » sur le post-partum prolongé.",
+        "Aide ménagère : 2-3h/semaine si possible, bouger ce qui peut bouger."
       ],
       "principe": "Le creux des 6 mois est documenté et passager — mais il ne passe pas sans actes. Demander de l'aide tôt évite la bascule en dépression caractérisée. Ton soin est un soin pour bébé aussi.",
       "erreurs_a_eviter": [
@@ -1371,8 +1363,8 @@
       "explication": "À 6 mois, la charge mentale parentale (et particulièrement maternelle, sociologiquement documentée) atteint souvent un pic : organiser la diversification (menus, courses, préparation), les rendez-vous médicaux, les vaccins, le suivi de croissance, l'éventuelle entrée en garde, la gestion du sommeil, du linge, du quotidien, plus la reprise pro pour beaucoup. Cette charge n'est pas seulement physique — elle est mentale (penser à) et émotionnelle (anticiper, se sentir responsable). Sa visibilité commence à peine à être reconnue socialement. La nommer, c'est commencer à la partager.",
       "ancrage": "La charge mentale n'est pas une faiblesse d'organisation — c'est une réalité matérielle. La nommer n'est pas se plaindre, c'est rendre visible ce qui est invisible.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate — alléger maintenant",
         "etapes": [
           "Écrire en 5 min tout ce qui occupe ta tête : tout, en vrac, sans hiérarchie — sortie de la tête",
@@ -1383,8 +1375,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#FBEAF0",
-        "couleur_texte": "#72243E",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — soin parental",
         "etapes": [
           "Auto-massage de la nuque et des trapèzes (zones de la charge mentale somatisée), 2-3 min",
@@ -1395,10 +1387,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Lire « Fallait demander » d'Emma (BD courte qui éclaire le concept de charge mentale)",
-        "Tester une application de gestion partagée des tâches familiales (FamCal, Picniic, OurHome)",
-        "Réaffirmer le principe de répartition réelle : qui pense à quoi, pas seulement qui exécute",
-        "Si la charge déborde et le co-parent ne saisit pas : médiation familiale, thérapie de couple, ou écrit posé"
+        "Lecture utile : « Fallait demander » d'Emma, une BD courte sur la charge mentale.",
+        "Appli de tâches partagées : FamCal, Picniic ou OurHome pour la gestion familiale.",
+        "Répartition réelle : qui pense à quoi, pas seulement qui exécute.",
+        "Si le co-parent ne saisit pas : médiation familiale, thérapie de couple, ou écrit posé."
       ],
       "principe": "La charge mentale se traite par la visibilité et la délégation réelle, pas par la sur-organisation personnelle. Tenter de mieux gérer seule la charge mentale, c'est l'aggraver — pas la résoudre.",
       "erreurs_a_eviter": [
@@ -1416,8 +1408,8 @@
       "explication": "À 6 mois, les comparaisons explosent : sur les réseaux sociaux (bébés « qui font leurs nuits », mères « qui ont retrouvé leur corps », couples « épanouis »), dans l'entourage (cousine dont le bébé mange déjà des morceaux, copine qui a repris le sport), et même chez le pédiatre (courbes de croissance, étapes développementales). Ces comparaisons activent les mêmes zones cérébrales que la douleur physique — c'est documenté en neurosciences sociales (Eisenberger). Ce n'est pas un défaut de caractère que d'être touchée — c'est un mécanisme neurologique.",
       "ancrage": "La douleur de la comparaison est réelle, neurologique, pas un caprice. Ce que tu vois des autres n'est jamais leur vérité — c'est leur vitrine.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate — désintoxication progressive",
         "etapes": [
           "Identifier 1-2 comptes qui systématiquement te font sentir « pas à la hauteur » → unfollow immédiat",
@@ -1428,8 +1420,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#FBEAF0",
-        "couleur_texte": "#72243E",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — recentrage",
         "etapes": [
           "Écrire 3 choses que TU as réussies cette semaine (« j'ai compris un signal de bébé », « j'ai tenu le rituel ») — preuve de ta réalité",
@@ -1440,10 +1432,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Lire « La société du paraître » de Boris Cyrulnik sur l'impact social de l'apparence",
-        "Suivre les comptes qui montrent la vraie vie de parents — pas la perfection (ex. : @lecorpsfeminin, @marina_b_mac)",
-        "Rejoindre un cercle de parole de jeunes parents (PMI, associations locales) — confrontation au réel",
-        "Si la comparaison crée une souffrance majeure : consulter un psy spécialisé en estime de soi périnatale"
+        "Lecture utile : « La société du paraître » de Boris Cyrulnik sur l'impact de l'apparence.",
+        "Suivre les comptes du réel : parents qui montrent la vraie vie, pas la perfection.",
+        "Cercle de parole : PMI ou associations locales, confrontation au réel.",
+        "Si souffrance majeure : consulter un psy spécialisé en estime de soi périnatale."
       ],
       "principe": "La comparaison sociale est neurologiquement douloureuse. Limiter l'exposition (réseaux, comptes, conversations) est plus efficace que tenter de « relativiser ». Ce que tu vois n'est jamais ce que les autres vivent.",
       "erreurs_a_eviter": [
@@ -1461,8 +1453,8 @@
       "explication": "À 6 mois, beaucoup de parents traversent ce qu'on pourrait appeler « le tunnel » : la sensation que la phase intense du tout-petit ne finira jamais, que les nuits hachées, les pleurs, la dépendance totale sont devenus la nouvelle norme. Ce sentiment est presque universel à cet âge — bébé a déjà tellement changé que l'on a l'impression que les mois passés ont été longs, mais le futur reste flou. Cette sensation n'est pas un déficit d'optimisme : c'est un effet de perspective tronquée, lié à l'épuisement et à l'absence de fenêtre projective stable.",
       "ancrage": "Tu n'es pas « bloquée pour toujours ». Tu es à un moment du parcours où la perspective est courte. La perspective revient avec le repos et la verbalisation.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#F4E2CE",
+        "couleur_texte": "#8A4E1C",
         "titre": "Action immédiate — rouvrir l'horizon",
         "etapes": [
           "Écrire en 5 min : « qu'est-ce qui était difficile à 1 mois et qui ne l'est plus aujourd'hui ? » — preuve d'évolution",
@@ -1473,8 +1465,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#FBEAF0",
-        "couleur_texte": "#72243E",
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
         "titre": "Geste doux — soin parental",
         "etapes": [
           "Auto-massage des mains : zones articulaires lentement, 2-3 min — soin du présent",
@@ -1485,10 +1477,10 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Lire « Le temps suspendu de la maternité » de Marie-Hélène Lahaye ou les textes de Donald Winnicott",
-        "Échanger avec une mère dont l'enfant a 2-3 ans — perspective concrète sur l'évolution post 6 mois",
-        "Rejoindre un cercle de parole de mères — partager le sentiment du tunnel allège",
-        "Tester un soutien psychologique court : 3-5 séances avec un psy périnatal peut suffire à rouvrir l'horizon"
+        "Lecture utile : « Le temps suspendu de la maternité » de M.-H. Lahaye ou les textes de Winnicott.",
+        "Échanger avec une mère plus avancée : enfant de 2-3 ans, perspective concrète sur l'après.",
+        "Cercle de parole de mères : partager le sentiment du tunnel allège.",
+        "Soutien psychologique court : 3-5 séances avec un psy périnatal peuvent rouvrir l'horizon."
       ],
       "principe": "Le sentiment du tunnel est universel à 6 mois, et il passe — mais il ne passe pas sans action. Rouvrir l'horizon (perspective, projets, échanges) est plus efficace que d'attendre que ça s'éclaircisse seul.",
       "erreurs_a_eviter": [
