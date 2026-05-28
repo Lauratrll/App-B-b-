@@ -1,0 +1,98 @@
+{
+  "mois": 11,
+  "tranche_age": "11 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 11 — L'Imitateur · Vivre la saison ensemble",
+  "description_m": "À 11 mois, {prenom} regarde tes gestes et les rejoue : « au revoir » de la main, « bravo » des paumes qui claquent, baiser soufflé. Il dit peut-être ses premiers mots-mots. Tout ce que tu fais devient une leçon. La saison donne le décor de ces premiers gestes partagés. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "description_f": "À 11 mois, {prenom} regarde tes gestes et les rejoue : « au revoir » de la main, « bravo » des paumes qui claquent, baiser soufflé. Elle dit peut-être ses premiers mots-mots. Tout ce que tu fais devient une leçon. La saison donne le décor de ces premiers gestes partagés. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "logique_selection": {
+    "regle": "À 11 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": ["mars", "avril", "mai"],
+      "ete": ["juin", "juillet", "août"],
+      "automne": ["septembre", "octobre", "novembre"],
+      "hiver": ["décembre", "janvier", "février"]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année — pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 11 mois, bébé régule mieux sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_11",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Le printemps réveille les gestes de jardinage, les premières terrasses, les promenades qui croisent du monde. Une saison qui multiplie les modèles à imiter dehors.",
+      "a_savoir_cette_saison": "À 11 mois, bébé observe intensément ce que tu fais et essaie de le rejouer dans la minute. Au printemps, des dizaines de gestes saisonniers passent devant ses yeux : balayer la terrasse, secouer un plaid, arroser un pot. Sois conscient que chacun est une démonstration. Plus tu fais lentement, plus il imite proprement.\n\nLes premières crèmes solaires bébé deviennent nécessaires dès avril sur les zones exposées (visage, mains, nuque). Indice 50 minéral, sans parfum.",
+      "idees_du_moment": [
+        {
+          "titre": "Arroser les pots, comme un grand",
+          "texte": "À 11 mois, l'imitation différée s'installe : il rejoue plusieurs minutes après ce qu'il a vu. Donne-lui un mini-arrosoir vide (ou un gobelet) pendant que tu arroses tes pots de balcon ou tes plantes. Tu inclines, il incline. Tu verses, il verse. Pas d'eau pour lui au début, juste le geste — qu'il intègre par mimétisme. Quelques jours plus tard, ajoute une cuillère d'eau dans le sien. Tu lui transmets une posture de soin envers le vivant, qui restera longtemps après l'eau renversée du début."
+        },
+        {
+          "titre": "Le « au revoir » au merle qui s'envole",
+          "texte": "À 11 mois, le geste de « au revoir » de la main s'installe — il l'utilise quand quelqu'un part, parfois encore maladroitement. Au parc, dès qu'un oiseau s'envole ou qu'un chien repart au loin, tu fais clairement « au revoir » de la main en regardant l'animal. Il observe, puis essaie. Cette généralisation du geste à des situations inattendues consolide la fonction symbolique du signe. Le printemps multiplie les départs d'oiseaux à saluer."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_11",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été, ses repas dehors, ses cuisines ouvertes sur le jardin, ses pique-niques. Une saison qui ouvre la cuisine sur le monde — terrain rêvé pour un bébé qui imite tout ce que font les mains des grands.",
+      "a_savoir_cette_saison": "À 11 mois, l'imitation des gestes alimentaires est à son pic : il tient sa cuillère seul (à l'envers parfois), il porte le verre à sa bouche, il essaie. Les repas dehors d'été démultiplient les modèles autour de la table. Laisse-le rater, c'est ainsi qu'il apprend.\n\nLes glaces du grand sont une grande tentation à imiter. Une compote glacée maison (purée de fruits frais en bâtonnet de silicone) lui offre la version adaptée — il imite sans subir le sucre ni les colorants.",
+      "idees_du_moment": [
+        {
+          "titre": "Mélanger la salade dans son saladier",
+          "texte": "À 11 mois, l'imitation des gestes de cuisine le passionne. Donne-lui un petit saladier en bois ou en inox, avec dedans 2 ou 3 feuilles de salade froissées et une cuillère en bois. Pendant que tu prépares la vraie salade à côté, lui mélange la sienne. Tu peux verser un peu d'eau dedans avec lui. C'est messy, c'est superbe, et son cerveau imprime tous les gestes de cuisine en miniature. À refaire dans le jardin ou sur une grande nappe lavable."
+        },
+        {
+          "titre": "Trinquer à la fin du repas",
+          "texte": "À 11 mois, le geste de « trinquer » s'apprend en quelques répétitions et fait rire à chaque fois. Pendant un dîner d'été en famille ou sur la terrasse, propose-lui son gobelet d'eau, et fais clairement le geste avec le tien : on lève, on cogne doucement, on dit « santé ». Il regarde, il essaie. Tu peux faire trinquer toute la tablée avec lui. Ce moment partagé construit son sentiment d'appartenance à la table familiale, en plus du geste rigolo."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_11",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne, ses paniers de cueillette, ses cuisines mijoteuses, ses balais sur les terrasses. La saison où l'on s'occupe et ramasse — gestes parfaits pour un bébé qui veut faire « comme ».",
+      "a_savoir_cette_saison": "À 11 mois, la marche démarre pour certains, pas encore pour d'autres — toutes les variations entre 9 et 18 mois sont normales. Ne le compare pas. Si tu en parles avec d'autres parents au parc, change de sujet rapidement : il sent tout, et la pression de comparaison se transmet.\n\nLes virus de rentrée tournent. Lavage des mains au retour à la maison, pas de bisous sur la bouche avec les enfants malades de l'entourage.",
+      "idees_du_moment": [
+        {
+          "titre": "Le mini-panier de cueillette",
+          "texte": "À 11 mois, porter un objet en marchant ou en quatre pattes devient possible et le rend très fier. Confie-lui un petit panier en osier souple avec une anse facile à attraper, et emmène-le en cueillette d'automne : marrons (à observer, pas à manger), grosses pommes de pin, jolies feuilles. Tu ramasses dans le tien, il ramasse dans le sien. À chaque trésor mis dedans, tu valorises : « bravo, encore une ». Au retour, il vide son panier sur la table — geste de retour à la maison qui restera longtemps."
+        },
+        {
+          "titre": "Le balai à feuilles, en miniature",
+          "texte": "À 11 mois, le geste répétitif de balayage le fascine. Si tu balaies les feuilles de la cour, de la terrasse ou du jardin, donne-lui un mini-balai (existant en jouet, ou simplement un petit rameau ramassé). Il te suivra, il essaiera. Tes mouvements amples deviendront ses tentatives maladroites. C'est l'un des premiers moments où il sent qu'il « participe ». À cet âge, participer aux gestes de la maison nourrit son sentiment d'utilité bien avant qu'il sache marcher correctement."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_11",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver, sa cuisine qui mijote, ses chants, ses gestes de fête. La saison qui ralentit les gestes et permet à un bébé de les imiter doucement, à son rythme.",
+      "a_savoir_cette_saison": "À 11 mois, l'hiver intérieur est l'occasion d'observer longuement ce qui se passe en cuisine. Mets-le dans sa chaise haute à côté de toi pendant que tu prépares, parle-lui de ce que tu fais (« je coupe la carotte », « je remue la soupe »). C'est un cours de langage gratuit, et un cadeau pour vous deux.\n\nLes guirlandes de fêtes peuvent contenir des LED clignotantes — si elles sont en mode stroboscope rapide, elles fatiguent son cerveau. Préfère les modes fixes ou très lents.",
+      "idees_du_moment": [
+        {
+          "titre": "Remuer dans son petit bol",
+          "texte": "À 11 mois, l'imitation culinaire est l'une des plus puissantes. Pendant que tu prépares un plat mijoté d'hiver, installe-le à côté de toi en chaise haute. Donne-lui un petit bol incassable avec dedans quelques céréales sèches ou un peu d'eau, et une cuillère en bois. Il remue, exactement comme toi. Vous cuisinez ensemble. Tu peux nommer ce que tu fais (« je remue, tu remues ») — ça pose le langage en même temps que le geste. Mémoire sensorielle d'hiver puissante : odeur du plat qui cuit, geste de remuer, voix qui décrit."
+        },
+        {
+          "titre": "L'applaudissement aux lumières de la rue",
+          "texte": "À 11 mois, le geste de « bravo » des paumes qui claquent est installé pour beaucoup. En sortie de soir d'hiver, devant des illuminations de quartier ou une vitrine joliment décorée, fais « bravo » devant les lumières. Il regarde, il imite. Cette généralisation du geste à un spectacle visuel (et plus seulement à un exploit) lui apprend que les choses belles méritent d'être saluées. C'est aussi un beau premier rapport à l'esthétique, transmis sans un mot d'éducation."
+        }
+      ]
+    }
+  }
+}

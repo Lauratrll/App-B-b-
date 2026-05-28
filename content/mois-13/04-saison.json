@@ -1,0 +1,114 @@
+{
+  "mois": 13,
+  "tranche_age": "13 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 13 — L'Affirmé · Vivre la saison ensemble",
+  "description_m": "À 13 mois, {prenom} choisit, refuse, montre ce qu'il veut. Le « non » de la tête devient un outil. Il commence à se penser comme quelqu'un qui décide. La saison lui offre mille petits choix à exercer. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "description_f": "À 13 mois, {prenom} choisit, refuse, montre ce qu'elle veut. Le « non » de la tête devient un outil. Elle commence à se penser comme quelqu'un qui décide. La saison lui offre mille petits choix à exercer. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "logique_selection": {
+    "regle": "À 13 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année — pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 13 mois, bébé régule très bien sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_13",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Les fleurs choisissent leur couleur, les bourgeons choisissent leur moment d'ouverture. Le printemps est une saison de décisions douces du vivant. Une compagne parfaite pour un bébé qui apprend à choisir.",
+      "a_savoir_cette_saison": "À 13 mois, le « non » devient son grand mot. C'est sain, c'est nécessaire, c'est le début de la conscience de soi. Au printemps, multiplie les petits choix qu'il peut faire vraiment (chapeau bleu ou rouge, banane ou fraise). Tu réserves le cadre ferme aux choses de sécurité non-négociables (siège auto, traverser la rue main dans la main).\n\nLes guêpes et abeilles arrivent. Si tu paniques en les voyant, il imitera ta peur. Calme respectueux dehors, et apprentissage tôt que ces insectes font partie du jardin.",
+      "idees_du_moment": [
+        {
+          "titre": "Choisir sa fleur à mettre dans le vase",
+          "texte": "À 13 mois, exercer un choix réel sur quelque chose d'inoffensif construit sa confiance en lui. Au retour d'une promenade printanière, propose-lui deux ou trois fleurs sauvages que tu as cueillies (pissenlit, pâquerette, brin de muguet — pas de plantes toxiques à sa portée). Tends-les devant lui : « laquelle tu mets dans le vase ? ». Il pointe, il tend la main, il choisit. Tu salues sa décision. Tu installes le vase chez vous avec sa fleur. Le rituel se reprend une fois par semaine au printemps. Geste minuscule, transmission immense."
+        },
+        {
+          "titre": "Sa botte à lui pour les flaques",
+          "texte": "À 13 mois, posséder un objet qui marque son autonomie nourrit son affirmation. Le printemps pluvieux est parfait pour lui offrir SES bottes — qu'il reconnaît, qu'il réclame, qu'il tente d'enfiler seul. Une fois équipé, laisse-le décider : où aller, où poser les pieds, à quel rythme — qu'il se déplace debout, en se tenant à toi ou à quatre pattes près d'une flaque, c'est lui qui mène. Tu le suis sans diriger. S'il veut patouiller dix fois dans la même flaque, c'est son choix et tu le respectes. Cette liberté encadrée (tu sécurises, lui décide) construit son sentiment d'être quelqu'un qui mène ses propres aventures. Les bottes qui lui appartiennent deviennent un symbole de son territoire grandissant."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_13",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été offre mille petits choix : ce maillot ou celui-là, ce fruit ou cet autre, l'ombre ou le soleil léger. Une saison parfaite pour qu'un bébé affirmé exerce son pouvoir de décision.",
+      "a_savoir_cette_saison": "À 13 mois, refuser le chapeau ou la crème solaire est une bataille classique d'été — et un piège : ces deux choses sont non-négociables. Évite la confrontation frontale. Propose deux chapeaux différents (« tu mets celui-ci ou celui-là ? »), un choix de couleur de crème (les bonnes marques bébé proposent du blanc et du rosé). Il choisit la modalité, tu maintiens le principe.\n\nAvant 1 an pas de soleil direct ; à 13 mois, on tolère 30 minutes avant 11h ou après 17h, avec chapeau, lunettes, crème solaire bébé indice 50, et zones couvertes.",
+      "idees_du_moment": [
+        {
+          "titre": "Le choix du fruit au marché",
+          "texte": "À 13 mois, choisir un objet précis dans un environnement riche construit la concentration et l'affirmation. Au marché d'été, devant un étal de fruits accessibles, propose-lui : « tu veux la pêche ou l'abricot ? ». Si tu vois qu'il ne choisit pas par les mots, présente les deux dans tes mains. Il pointe ou attrape. Tu achètes son choix, et au retour il mange « son » fruit. Geste de routine, fondateur d'un rapport actif à l'alimentation — bien plus puissant qu'un repas où tout est décidé pour lui."
+        },
+        {
+          "titre": "Le seau et la pelle, à lui tout seul",
+          "texte": "À 13 mois, posséder un objet à soi nourrit son affirmation. À la plage, dans un parc avec bac à sable, ou simplement dans le jardin avec un coin de terre, donne-lui un seau et une pelle qui sont les siens (avec son prénom dessus si tu veux marquer le coup). Pas partagés, pas prêtés sans son accord. Tu lui apprends que ses affaires lui appartiennent, et qu'il peut décider à qui il les prête. Le partage forcé à cet âge n'est pas un apprentissage, c'est une confusion."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_13",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne, ses paniers à remplir, ses pommes à choisir, ses gilets à enfiler. Une saison de gestes répétés qui ouvrent autant de petits choix à un bébé qui veut décider.",
+      "a_savoir_cette_saison": "À 13 mois, l'entrée en crèche ou chez la nounou peut être récente. L'affirmation de soi s'installe souvent dans une période où il quitte la maison plusieurs heures par jour. Donne-toi le droit de ne pas tout filmer ni tout voir — il vit aussi des grandes premières quand tu n'es pas là, et c'est sain.\n\nL'air sèche les muqueuses (chauffage qui démarre). Une eau accessible toute la journée, et un humidificateur dans sa chambre si tu peux.",
+      "idees_du_moment": [
+        {
+          "titre": "Choisir sa pomme dans la cagette",
+          "texte": "À 13 mois, l'automne offre un théâtre permanent de petits choix : devant une cagette de pommes au marché, ou un panier rapporté à la maison, présente trois pommes à la fois et dis : « laquelle pour ton goûter ? ». Il pointe, hésite, change d'avis parfois. Tu attends. Tu acceptes son choix final même si ce n'est pas la plus belle. Tu la rinces, tu la coupes en quartiers, il la mange. Tu transmets que choisir, c'est un acte sérieux qui mérite ton respect."
+        },
+        {
+          "titre": "Le trésor de marrons, rien qu'à lui",
+          "texte": "À 13 mois, posséder et transporter un butin choisi par lui nourrit son affirmation. Au parc à l'automne, donne-lui un petit seau ou une poche en tissu, et laisse-le récolter ses propres marrons et pommes de pin — ceux qu'il décide, à son rythme, sans que tu tries pour lui. Il les ramasse (vigilance bouche : reste près de lui), les met dans son contenant, le garde près de lui ou le porte fièrement. C'est SON trésor, qu'il choisit et possède. Au retour, vous l'étalez sur la table et il décide où le ranger. L'objet possédé et choisi par lui-même construit son sentiment d'exister comme une personne qui décide."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_13",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver, son cocon, ses petits objets de fête qu'il veut manipuler, ses couches d'habillage qu'il refuse parfois. Une saison de petites batailles aimantes pour un bébé qui s'affirme.",
+      "a_savoir_cette_saison": "À 13 mois, refuser l'habillage chaud devient un sport. La maison est à 20°C, on lui met une polaire, il l'arrache. Logique : dehors il aura froid sans, dedans il a chaud avec. Habille en couches qu'il peut enlever lui-même (gilet ouvert, pas de pull à col roulé). Tu lui apprends à ressentir son besoin plutôt qu'à subir l'habillement.\n\nLes fêtes amènent beaucoup de monde, beaucoup de bruit. Repère ses signaux de surstimulation (yeux qui fuient, mouvements brusques, accrochage à toi) et propose une bulle de calme dans une pièce à part, 10 ou 15 minutes.",
+      "idees_du_moment": [
+        {
+          "titre": "Choisir son ornement à accrocher",
+          "texte": "À 13 mois, participer à la décoration de fête en faisant un choix réel le grandit. Pose à hauteur de sa main 3 ou 4 ornements légers (pas en verre, pas pointus) parmi ceux que vous accrocherez sur le sapin ou en branche dans un vase. Dis simplement : « lequel tu veux accrocher ? ». Il pointe, prend, tend. Tu le portes pour qu'il l'accroche lui-même (ou tu guides sa main). Il devient un participant de la magie de la maison, pas un spectateur. Le rituel se réinvente chaque jour de décembre."
+        },
+        {
+          "titre": "Sa cuillère à lui, au repas de fête",
+          "texte": "À 13 mois, le repas de famille des fêtes est souvent une épreuve : trop long, trop de monde, table pas adaptée. Donne-lui sa cuillère préférée, son petit bol incassable, sa chaise haute placée près de toi. Devant lui : une portion de ce que vous mangez (compatible avec son âge, peu salée, peu épicée), coupée en petits morceaux. Il décide de manger, de pas manger, de toucher. Tu n'insistes pas. Si la fête dure trop, tu n'imposes pas qu'il reste à table : sa fatigue compte autant que celle de l'oncle qui repart tôt."
+        }
+      ]
+    }
+  }
+}

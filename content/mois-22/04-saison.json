@@ -1,0 +1,114 @@
+{
+  "mois": 22,
+  "tranche_age": "22 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 22 — Le Tendre · Vivre la saison ensemble",
+  "description_m": "À 22 mois, {prenom} donne de la tendresse : bisous spontanés, câlins offerts, douceur envers son doudou, attention aux plus petits et aux animaux. Il apprend à prendre soin. La saison lui offre des êtres et des choses à chérir. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "description_f": "À 22 mois, {prenom} donne de la tendresse : bisous spontanés, câlins offerts, douceur envers son doudou, attention aux plus petits et aux animaux. Elle apprend à prendre soin. La saison lui offre des êtres et des choses à chérir. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "logique_selection": {
+    "regle": "À 22 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année — pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 22 mois, bébé régule très bien sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_22",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Le printemps fait éclore le vivant fragile : bourgeons, pousses, petites bêtes, oisillons. Une saison qui appelle la douceur et le soin, parfaite pour un bébé au cœur tendre.",
+      "a_savoir_cette_saison": "À 22 mois, l'empathie et le geste de prendre soin se développent — il caresse, console, protège. Le printemps regorge de vivant fragile à respecter (pousses, insectes, oisillons). Accompagne sa douceur en montrant comment toucher délicatement, observer sans abîmer, respecter la vie. Tu transmets un rapport tendre au monde vivant qui le marquera durablement.\n\nSi panique face aux insectes (abeilles, guêpes), souviens-toi qu'il imite ta réaction. Un calme respectueux lui apprend à cohabiter sans peur ni cruauté.",
+      "idees_du_moment": [
+        {
+          "titre": "Prendre soin d'une petite pousse",
+          "texte": "À 22 mois, s'occuper d'un être vivant fragile développe la responsabilité affective. Au printemps, plantez ensemble une graine ou adoptez une petite pousse, et confie-lui-en le soin quotidien : l'arroser doucement, lui « parler », vérifier qu'elle va bien. Tu nommes ses besoins (« elle a soif », « elle a besoin de lumière »). Il apprend qu'un être vivant dépend de son attention. Cette tendresse envers le végétal prépare la douceur envers les humains et les animaux. Geste minuscule, leçon de soin immense, qui grandit avec la pousse."
+        },
+        {
+          "titre": "Observer l'oiseau sans l'effrayer",
+          "texte": "À 22 mois, apprendre à approcher le vivant avec douceur affine son empathie. Au printemps, les oiseaux nichent et chantent. Montre-lui comment observer sans déranger : on chuchote, on bouge lentement, on regarde de loin. Tu peux installer une coupelle d'eau ou de graines sur le balcon et observer ensemble qui vient. Il apprend que respecter, c'est aussi savoir ne pas toucher, laisser tranquille, contempler. Cette retenue tendre est une forme de soin précieuse, et un beau moment de calme partagé au réveil du printemps."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_22",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été ralentit et invite aux gestes doux : se rafraîchir mutuellement, soigner un bobo, câliner à l'ombre. Une saison de tendresse partagée pour un bébé qui aime prendre soin.",
+      "a_savoir_cette_saison": "À 22 mois, l'été et ses petits bobos (genou écorché, coup de soleil léger, piqûre) offrent des occasions de lui apprendre à soigner avec douceur — sur lui, sur toi, sur ses peluches. Le geste de réconfort (souffler sur un bobo, faire un câlin de consolation) construit son empathie. Implique-le dans le soin des autres : « tu fais un bisou magique ? ».\n\nLes non-négociables d'été tiennent : chapeau, crème indice 50, eau régulière, ombre, surveillance directe près de l'eau.",
+      "idees_du_moment": [
+        {
+          "titre": "Le bisou magique sur le bobo",
+          "texte": "À 22 mois, soigner symboliquement un bobo développe l'empathie et le sens du réconfort. En été, les petites écorchures sont fréquentes. Quand quelqu'un se fait mal (lui, toi, un autre enfant, un doudou), instaure le rituel du « bisou magique » : on regarde le bobo, on souffle doucement dessus, on fait un bisou tendre, on console avec des mots doux. Propose-lui de le faire à son tour quand toi tu as « bobo ». Il apprend que la tendresse soulage, que prendre soin se donne et se reçoit. Geste universel de réconfort, transmis dans le quotidien estival."
+        },
+        {
+          "titre": "Rafraîchir son doudou comme soi",
+          "texte": "À 22 mois, étendre à ses peluches les soins qu'il reçoit nourrit empathie et jeu symbolique. Par grande chaleur, pendant que tu le rafraîchis (gant humide sur le front, brumisateur, eau sur les chevilles), propose-lui de faire pareil à son doudou : « lui aussi il a chaud ? ». Il l'évente, lui tamponne le front, lui « donne » à boire. En prenant soin de son doudou comme on prend soin de lui, il intègre les gestes de tendreté et les rejoue activement. Moment doux à l'ombre, qui relie le soin reçu au soin donné."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_22",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne enveloppe et invite à border, couvrir, réchauffer ce qu'on aime. Une saison de gestes protecteurs pour un bébé qui découvre le plaisir de prendre soin.",
+      "a_savoir_cette_saison": "À 22 mois, l'automne et ses gestes de protection contre le froid (couvrir, border, rentrer au chaud) deviennent des occasions de tendresse à transmettre. Implique-le dans le soin des autres : couvrir son doudou, vérifier que tout le monde a son écharpe. Il intègre que protéger ceux qu'on aime est un acte d'amour. Ces petits rituels nourrissent son attachement et son empathie.\n\nLes rhumes circulent. Apprends-lui tôt les gestes doux du soin (mouchoir, repos) — il les rejouera sur ses peluches.",
+      "idees_du_moment": [
+        {
+          "titre": "Border le doudou pour la sieste",
+          "texte": "À 22 mois, reproduire les gestes de soin du coucher sur ses peluches consolide son attachement et son empathie. À l'automne, quand on rentre au chaud, propose-lui de « coucher » son doudou pour la sieste : le poser sur un coussin, le couvrir d'un petit linge, lui faire un câlin, chuchoter « dors bien ». Il rejoue exactement ce que tu fais pour lui. Ce jeu de soin tendre l'aide à intégrer le rituel du coucher tout en exerçant sa capacité à prendre soin d'un autre. Moment doux et chaleureux pour les après-midis qui raccourcissent."
+        },
+        {
+          "titre": "La plume qu'on garde précieusement",
+          "texte": "À 22 mois, manipuler délicatement quelque chose de fragile développe le geste de soin et la douceur du toucher. À l'automne, quand vous trouvez une jolie plume tombée, une coquille d'escargot vide ou une graine ailée, montre-lui comment la tenir tout doucement, du bout des doigts, sans l'abîmer. Vous lui fabriquez un petit écrin (une boîte à œufs, un bol tapissé de coton) où la déposer délicatement à la maison. Il apprend à doser sa force, à respecter ce qui se casse, à prendre soin du délicat. Ce geste de protection répété transmet une première éthique du soin et de l'attention aux choses précieuses, dans la douceur de l'automne."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_22",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver et ses fêtes débordent de gestes d'amour : offrir, réchauffer, blottir, partager. Une saison de tendresse intense pour un bébé qui apprend à chérir ceux qu'il aime.",
+      "a_savoir_cette_saison": "À 22 mois, l'hiver et ses fêtes multiplient les démonstrations d'affection (câlins, bisous, cadeaux offerts) — terrain idéal pour cultiver sa tendresse naissante. Encourage les gestes d'amour sans jamais les forcer : un bisou à mamie se propose, ne s'impose pas (respecter son consentement corporel lui apprend aussi à respecter celui des autres). La tendreté sincère vaut mieux que la politesse contrainte.\n\nLes fêtes en lieux clos = pic viral. Aération régulière, et protège bébé selon ton ressenti, sans culpabiliser.",
+      "idees_du_moment": [
+        {
+          "titre": "Le câlin qu'on offre, jamais qu'on impose",
+          "texte": "À 22 mois, l'hiver des fêtes est le moment d'apprendre que la tendresse se donne librement. Lors des retrouvailles familiales, encourage les gestes d'affection (câlin, bisou) mais ne les force jamais : « tu veux faire un câlin à papi ? ». S'il refuse, respecte-le, et propose une alternative (un coucou de la main, un check). Tu lui apprends que son corps lui appartient, et que la tendresse vraie naît du choix, pas de l'obligation. Cette leçon de consentement précoce est l'un des plus beaux cadeaux que tu puisses lui faire, au cœur de l'hiver affectueux."
+        },
+        {
+          "titre": "Fabriquer un cadeau pour quelqu'un",
+          "texte": "À 22 mois, créer quelque chose destiné à une personne aimée fait vivre le bonheur de donner. L'hiver, fabrique avec lui un petit cadeau simple pour un proche : une carte avec ses gommettes, un dessin, une décoration. Tout le long, nomme la personne destinataire (« c'est pour mamie, elle va être contente »). Il associe l'effort de fabrication à la joie qu'il provoquera. Le jour de l'offrande, il vit la fierté et la tendresse du don. Tu cultives la générosité par l'expérience, bien plus puissamment que par les mots, dans la chaleur des fêtes."
+        }
+      ]
+    }
+  }
+}

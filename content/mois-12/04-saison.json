@@ -1,0 +1,114 @@
+{
+  "mois": 12,
+  "tranche_age": "12 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 12 — Le Marcheur · Vivre la saison ensemble",
+  "description_m": "À 12 mois, {prenom} explore le monde à sa façon : à quatre pattes véloce, debout aux meubles, ou peut-être déjà quelques pas — chaque rythme est normal jusqu'à 18 mois. Il veut se déplacer, atteindre, découvrir. La saison devient son terrain d'exploration. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "description_f": "À 12 mois, {prenom} explore le monde à sa façon : à quatre pattes véloce, debout aux meubles, ou peut-être déjà quelques pas — chaque rythme est normal jusqu'à 18 mois. Elle veut se déplacer, atteindre, découvrir. La saison devient son terrain d'exploration. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "logique_selection": {
+    "regle": "À 12 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année — pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 12 mois, bébé régule très bien sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_12",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Tout pousse, tout reverdit, et il cherche à se déplacer pour explorer. Le printemps déroule des sols tendres et des espaces ouverts, parfaits pour bouger à son rythme et s'éveiller aux sens.",
+      "a_savoir_cette_saison": "À 12 mois, les premiers pas surviennent entre 10 et 18 mois — tous ces rythmes sont normaux, inutile de comparer. Au printemps, les guêpes et abeilles réapparaissent : si tu les regardes sans paniquer, il apprend à cohabiter avec elles sans peur.",
+      "idees_du_moment": [
+        {
+          "titre": "L'herbe tendre sous les pieds (et les mains)",
+          "texte": "À 12 mois, chaque bébé avance à son rythme : certains font leurs premiers pas, beaucoup sont encore à quatre pattes ou se hissent debout — tout est normal jusqu'à 18 mois, inutile de comparer. L'herbe tendre du printemps est un terrain idéal quel que soit son mode de déplacement : moelleuse sous les genoux qui rampent, accrocheuse sous les pieds qui tâtonnent, douce pour les mains qui explorent. Pose-le sur une pelouse propre (sans pesticide), pieds nus, et laisse-le se déplacer comme il le sent — ramper, se hisser à un banc, faire un pas tenu. Le contact direct avec le sol naturel nourrit son équilibre et sa motricité, sans aucune attente de performance."
+        },
+        {
+          "titre": "Chercher d'où vient le chant",
+          "texte": "À 12 mois, il ne fait plus qu'entendre : il cherche activement d'où vient un son, tourne la tête, pointe parfois du doigt. Le printemps fait revenir le chant des oiseaux : lors d'une sortie au calme, arrête-toi, mets-toi à sa hauteur et chuchote « tu entends ? ». Laisse-le scruter les branches, repérer la direction, pointer s'il le veut. Quand vous trouvez l'oiseau ensemble, nomme-le. Tu peux imiter le cui-cui : il tente souvent de reproduire. Ce jeu de localisation sonore affine son oreille, son attention et son langage naissant — un moment d'émerveillement partagé, qu'il se déplace déjà debout ou non."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_12",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "Le sable, la pierre tiède, l'eau peu profonde, l'ombre fraîche. L'été offre un terrain sensoriel et tactile qu'aucune autre saison n'égale, qu'il se déplace debout ou à quatre pattes.",
+      "a_savoir_cette_saison": "À 12 mois, l'été expose à l'eau plus que toutes les autres saisons — piscine, mer, ruisseau, fontaine. La noyade chez le tout-petit est silencieuse et rapide (quelques cm d'eau, en quelques secondes). Une présence adulte permanente au bord, sans téléphone à la main, sans conversation distrayante.\n\nLe coup de chaleur est plus fréquent à cet âge qu'on ne le pense : irritabilité brusque, joues très rouges, soif intense, somnolence inhabituelle. Mettre à l'ombre, eau fraîche, et consulter si symptômes persistent.",
+      "idees_du_moment": [
+        {
+          "titre": "Les pieds dans 5 cm d'eau de mer",
+          "texte": "À 12 mois, qu'il marche déjà ou pas encore, l'eau peu profonde de bord de mer est un terrain sensoriel magique. S'il se tient debout (tenu par les mains ou en s'agrippant), elle soutient son poids et amortit les chutes ; s'il préfère être assis ou à quatre pattes dans les vaguelettes, c'est tout aussi riche. Le sable mou qui se dérobe, l'eau fraîche qui clapote autour de ses chevilles ou de ses mains, parfois une petite vague : tout son corps mémorise ces sensations nouvelles. À éviter les jours de mer agitée, sous surveillance directe permanente. Quelques minutes suffisent."
+        },
+        {
+          "titre": "Sentir le frais et le chaud",
+          "texte": "À 12 mois, distinguer le chaud et le frais construit sa conscience du corps et du confort. Par une journée d'été, installe-toi avec lui dans un coin abrité du soleil (sous un arbre, une tonnelle, un grand parasol). Joue sur le contraste : la chaleur quand on tend la main vers la lumière, la fraîcheur quand on la ramène à l'abri ; le sol tiède d'un côté, frais de l'autre ; la brise qui passe, les feuillages qui bougent au-dessus. Ce temps calme aux heures chaudes est aussi un repos précieux pour vous deux. Propose-lui de l'eau régulièrement : par forte chaleur, il se déshydrate vite."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_12",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "Les sols changeants de l'automne, l'odeur du retour qui s'installe, les saveurs douces qui réchauffent. La saison accompagne ses explorations comme une bande-son chaleureuse.",
+      "a_savoir_cette_saison": "À 12 mois, les premiers pas dans les feuilles d'automne offrent un retour sensoriel unique : le crépitement, le glissement parfois, la coloration. C'est la saison parfaite pour les chaussures premier âge à semelle souple — pas de baskets rigides qui empêchent le déroulé du pied.\n\nVérification des yeux et de l'audition recommandée dans l'année. Beaucoup d'enfants ont leur premier rhume sérieux à cette saison ; consulter si la respiration devient sifflante ou la fièvre persiste plus de 48h.",
+      "idees_du_moment": [
+        {
+          "titre": "Le chemin aux mille surfaces",
+          "texte": "À 12 mois, varier les surfaces sous son corps affine l'équilibre — qu'il les parcoure debout, à quatre pattes ou en se tenant à toi. L'automne offre des sols aux textures changeantes : terre tassée, gravier doux, planches d'un ponton, sol spongieux d'un sous-bois. S'il marche, tiens-lui la main puis lâche pour observer comment il ajuste ses appuis ; s'il rampe ou cabote, laisse-le sentir ces matières sous les genoux et les paumes. Chaque surface nouvelle est une information précieuse pour son cerveau moteur, bien plus stimulante qu'un sol lisse et uniforme d'intérieur. Aucune performance attendue, juste l'exploration."
+        },
+        {
+          "titre": "Le gâteau aux pommes de l'automne",
+          "texte": "À 12 mois, participer à une préparation de saison éveille les sens et l'imitation. L'automne regorge de pommes : prépare un gâteau tout simple avec lui en cuisine. Il est trop petit pour mesurer, mais installe-le près de toi pour qu'il regarde, sente l'odeur des pommes coupées, touche un quartier, écoute le fouet. Tu nommes chaque étape (« on épluche », « ça sent bon »). Quand le gâteau cuit, l'odeur chaude envahit la maison — une mémoire sensorielle d'automne parmi les plus puissantes. Au goûter, il découvre fondant ce qu'il a vu préparer. Cuisiner ensemble tisse le lien autant que ça nourrit."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_12",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "Le cocon du dedans, les parfums chauds de la cuisine, les déplacements à l'abri du froid. L'hiver intérieur devient un terrain doux pour bouger et découvrir, au chaud.",
+      "a_savoir_cette_saison": "À 12 mois, l'hiver intérieur est idéal pour les premiers pas — sol stable, températures agréables, distances courtes. Évite les chaussons trop glissants : pieds nus ou chaussettes antidérapantes lui donnent meilleure accroche.\n\nLes virus circulent fort. La règle simple : pas de bisous sur le visage par les personnes malades, lavage des mains à l'entrée du logement, et chaque famille gère selon ses sensibilités. Tu as le droit de protéger sans culpabiliser.",
+      "idees_du_moment": [
+        {
+          "titre": "La traversée du couloir, à son rythme",
+          "texte": "À 12 mois, l'hiver intérieur offre un terrain d'entraînement idéal : un couloir, un long tapis, une pièce dégagée. Poste-toi à un bout, accroupi, et appelle-le d'une voix douce. S'il marche, il avancera vers toi en titubant sur quelques pas ; s'il n'en est pas là, il viendra à quatre pattes ou en se hissant aux meubles — l'élan de te rejoindre est le même, et c'est lui qui compte. Le sol stable, les murs proches où se rattraper, la chaleur du dedans en font l'endroit parfait pour se déplacer quand il fait froid et nuit tôt. Mets une lumière douce au bout comme point de mire. Accueille chaque arrivée par un câlin, sans jamais mesurer la distance."
+        },
+        {
+          "titre": "Les odeurs chaudes de la cuisine d'hiver",
+          "texte": "À 12 mois, l'odorat est un puissant ancrage de mémoire affective, et l'hiver embaume la maison de parfums réconfortants. Pendant que tu prépares une compote, une soupe ou un plat mijoté, installe-le près de toi (en chaise haute ou dans tes bras) pour qu'il sente la cannelle, la pomme cuite, le bouillon qui chauffe. Nomme chaque odeur, fais-lui approcher (sans risque de brûlure) un quartier de pomme, une branche de thym. Ces parfums chauds, associés à ta présence et à la chaleur du dedans, tissent une mémoire sensorielle de cocon qui le rassure tout l'hiver — un repère doux quand il fait gris et froid dehors."
+        }
+      ]
+    }
+  }
+}

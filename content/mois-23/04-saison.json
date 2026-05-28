@@ -1,0 +1,98 @@
+{
+  "mois": 23,
+  "tranche_age": "23 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 23 — L'Aventurier · Vivre la saison ensemble",
+  "description_m": "À 23 mois, {prenom} court, saute presque, franchit, grimpe avec assurance. Il veut aller plus loin, plus haut, tester ses limites et le monde. La saison devient son grand terrain d'aventure. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "description_f": "À 23 mois, {prenom} court, saute presque, franchit, grimpe avec assurance. Elle veut aller plus loin, plus haut, tester ses limites et le monde. La saison devient son grand terrain d'aventure. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "logique_selection": {
+    "regle": "À 23 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": ["mars", "avril", "mai"],
+      "ete": ["juin", "juillet", "août"],
+      "automne": ["septembre", "octobre", "novembre"],
+      "hiver": ["décembre", "janvier", "février"]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année — pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 23 mois, bébé régule très bien sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_23",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Le printemps rouvre les grands espaces : sentiers, prairies, chemins boueux. Une saison d'expéditions à hauteur d'enfant pour un aventurier qui veut explorer le monde.",
+      "a_savoir_cette_saison": "À 23 mois, le besoin de défi physique est immense et sain — courir, franchir, escalader le construisent. Au printemps, offre-lui de vraies expéditions à son échelle (un sentier, un chemin de campagne) plutôt qu'une aire de jeux toujours identique. Laisse-le prendre des risques mesurés : tomber, se relever, recommencer fait partie de l'apprentissage. Reste présent pour amortir le danger réel, sans surprotéger les petits ratés.\n\nLes tiques sont actives dans les hautes herbes et sous-bois — vérifie-le après chaque sortie en nature (plis, cou, cuir chevelu). Pas de sortie sans chapeau dès que le soleil chauffe.",
+      "idees_du_moment": [
+        {
+          "titre": "La grande randonnée des explorateurs",
+          "texte": "À 23 mois, marcher longtemps sur un terrain varié développe endurance, équilibre et confiance. Au printemps, choisis un vrai petit sentier (pas trop long, avec des obstacles naturels : racines, montées douces, gros cailloux à enjamber). Laisse-le marcher devant en explorateur, choisir parfois le chemin, s'arrêter sur ce qui l'intrigue. Tu portes un petit sac avec de l'eau et un en-cas pour les pauses. Cette expédition à son rythme vaut dix tours d'aire de jeux : il franchit de vrais obstacles, décide, persévère. L'aventure se vit dehors, pas sur un toboggan."
+        },
+        {
+          "titre": "Franchir le ruisseau sur les pierres",
+          "texte": "À 23 mois, franchir un obstacle en dosant son équilibre est un défi moteur grisant. Au printemps, près d'un ruisseau peu profond ou d'une zone de grosses pierres plates, propose-lui de traverser de pierre en pierre, ta main dans la sienne au début. Il calcule, hésite, ose, atterrit. La concentration est totale, la fierté immense à l'arrivée. Tu sécurises sans faire à sa place : c'est lui qui place ses pieds. Choisis un point d'eau vraiment peu profond, et garde toujours une main prête. L'eau vive du printemps rend l'aventure inoubliable."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_23",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été démultiplie les terrains d'exploit : rochers tièdes, vagues à affronter, grands espaces à conquérir. Une saison d'aventures physiques pour un bébé qui repousse ses limites.",
+      "a_savoir_cette_saison": "À 23 mois, l'été et ses grands espaces nourrissent son goût du défi — mais sa témérité dépasse ses capacités réelles. Il croit pouvoir tout faire et ne perçoit pas le danger (hauteur, eau profonde, foule). Surveillance directe permanente, surtout près de l'eau (noyade silencieuse en quelques secondes) et en hauteur.\n\nLes non-négociables d'été tiennent : chapeau, crème indice 50, eau toutes les 30 min, ombre aux heures chaudes. Et casque anti-bruit pour les événements très sonores (feux d'artifice).",
+      "idees_du_moment": [
+        {
+          "titre": "Jouer à dompter les vagues",
+          "texte": "À 23 mois, affronter les petites vagues qui arrivent est un défi exaltant qui mêle courage et maîtrise du corps. Au bord de mer calme, main dans la main, jouez à attendre la vague, la laisser arriver sur les chevilles, reculer en riant quand elle déferle, revenir l'affronter. Il apprend à doser son audace, à reculer quand c'est trop, à oser quand il se sent prêt. Ce face-à-face avec l'élément, sous ta garde rapprochée, construit sa confiance et son sens du risque mesuré. Jamais de dos à la mer, jamais lâché : la vigilance reste totale même dans le jeu."
+        },
+        {
+          "titre": "Le parcours d'obstacles du jardin",
+          "texte": "À 23 mois, enchaîner des défis moteurs variés développe coordination et planification. En été, installe dans le jardin ou le parc un parcours improvisé : passer SOUS une chaise, marcher SUR une planche basse posée au sol, contourner un arbre, sauter à pieds joints d'un coussin. Montre une fois, puis laisse-le l'enchaîner à sa façon, encore et encore. Il adore relever le défi, se mesurer, recommencer plus vite. Tu peux complexifier au fil des semaines. Activité athlétique parfaite pour canaliser son énergie débordante d'aventurier, à l'ombre aux heures chaudes."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_23",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne offre la boue, le vent, les troncs à escalader, les flaques à conquérir. Une saison d'aventures vivifiantes pour un bébé qui veut affronter les éléments.",
+      "a_savoir_cette_saison": "À 23 mois, l'automne est la saison idéale pour les aventures qui « salissent » — boue, flaques, terre. Loin d'être un problème, c'est exactement ce dont il a besoin : se confronter aux éléments le construit. Équipe-le pour la liberté (combinaison de pluie, bottes) et lâche prise sur la propreté le temps de la sortie. Un enfant qui rentre boueux est un enfant qui a bien exploré.\n\nLes journées raccourcissent : profite de la lumière du matin ou du début d'après-midi. Les virus circulent — sorties au grand air plutôt qu'en lieux clos bondés.",
+      "idees_du_moment": [
+        {
+          "titre": "Sauter à pieds joints dans les flaques",
+          "texte": "À 23 mois, sauter dans une flaque combine défi moteur (le saut à pieds joints s'acquiert vers cet âge), plaisir sensoriel et transgression joyeuse autorisée. Après une pluie d'automne, équipe-le en bottes et combinaison imperméable, et lâche-le sur un parcours de flaques. Il saute, éclabousse, recommence, rit aux éclats. L'éclaboussure qui jaillit, le bruit, la liberté de se salir : tout le grise. Tu peux sauter avec lui pour montrer le geste. Une des plus pures joies de l'enfance, et un excellent entraînement à la coordination et à l'équilibre."
+        },
+        {
+          "titre": "L'expédition dans le vent",
+          "texte": "À 23 mois, affronter le vent debout est une aventure sensorielle et physique stimulante. Par une journée d'automne venteuse (sans danger : pas de tempête), emmène-le dehors sentir le vent qui pousse, qui décoiffe, qui fait voler les feuilles. Il avance contre lui, recule porté par lui, tend les bras pour le « sentir ». Tu peux ajouter un objet qui réagit au vent (un foulard léger qu'il tient, un sac en papier qui gonfle). Affronter un élément invisible et puissant nourrit son courage et son émerveillement. Bonne tenue chaude, et l'aventure devient mémorable."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_23",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver propose des aventures givrées dehors et des défis moteurs au chaud dedans. Une saison où l'aventurier apprend qu'on peut explorer même quand il fait froid et nuit tôt.",
+      "a_savoir_cette_saison": "À 23 mois, l'hiver ne doit pas signer la fin des aventures — son besoin de défi physique reste intense même par temps froid. Sors dès que possible (le froid sec n'est pas dangereux bien couvert), et aménage à l'intérieur des défis moteurs pour les jours trop rudes. Un aventurier privé d'exutoire physique déborde le soir (« heure du loup » amplifiée).\n\nChaussons antidérapants à l'intérieur, et couches chaudes faciles à retirer en sortie. Les écrans tentent fort l'hiver : tiens bon, le mouvement reste son meilleur allié, dehors comme dedans.",
+      "idees_du_moment": [
+        {
+          "titre": "L'aventure dans la neige (ou le givre)",
+          "texte": "À 23 mois, explorer la neige ou le givre est une aventure hivernale complète : nouvelle texture, nouvelle résistance, nouveau monde. S'il neige, équipe-le chaudement et laisse-le marcher dedans, y laisser ses empreintes, tenter de courir, tomber dans le moelleux. À défaut de neige, le givre du matin sur l'herbe, les flaques gelées (à observer, à faire craquer sous le pied avec prudence) offrent la même magie de l'exploration. Limite la durée par grand froid, surveille ses extrémités (mains, oreilles), et reviens vite au chaud. L'aventure existe même en hiver."
+        },
+        {
+          "titre": "Le parcours-cabane des jours de grand froid",
+          "texte": "À 23 mois, les jours où l'on ne peut pas sortir, l'intérieur doit devenir un terrain d'aventure pour dépenser son énergie. Transforme le salon en parcours : coussins-montagnes à escalader, tunnel de chaises et couverture à traverser, ligne de scotch au sol à suivre en équilibre, espace dégagé pour courir. Il enchaîne les défis, recommence, se mesure. Tu peux chronométrer pour rire, l'encourager, complexifier. Cet exutoire moteur d'intérieur est essentiel l'hiver : un aventurier qui a bougé s'endort apaisé, un aventurier confiné déborde. À sécuriser (angles, sol)."
+        }
+      ]
+    }
+  }
+}

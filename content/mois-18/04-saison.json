@@ -1,0 +1,98 @@
+{
+  "mois": 18,
+  "tranche_age": "18 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 18 — Le Diplomate · Vivre la saison ensemble",
+  "description_m": "À 18 mois, {prenom} s'ouvre aux autres : il donne, il tend, il observe les enfants, il commence les premiers échanges. Le « chacun son tour » l'intrigue. La saison lui offre des occasions de partager et de rencontrer. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "description_f": "À 18 mois, {prenom} s'ouvre aux autres : elle donne, elle tend, elle observe les enfants, elle commence les premiers échanges. Le « chacun son tour » l'intrigue. La saison lui offre des occasions de partager et de rencontrer. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "logique_selection": {
+    "regle": "À 18 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": ["mars", "avril", "mai"],
+      "ete": ["juin", "juillet", "août"],
+      "automne": ["septembre", "octobre", "novembre"],
+      "hiver": ["décembre", "janvier", "février"]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année — pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 18 mois, bébé régule très bien sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_18",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Le printemps rouvre les parcs, les aires de jeux, les rencontres entre enfants. Une saison de retrouvailles et de premières interactions sociales pour un bébé qui s'ouvre aux autres.",
+      "a_savoir_cette_saison": "À 18 mois, l'enfant joue surtout à côté des autres, pas encore vraiment avec eux (jeu parallèle) — c'est normal et c'est la première marche du jeu social. Au printemps, les aires de jeux se remplissent : laisse-le observer les autres enfants sans le forcer à interagir. Le partage et le « chacun son tour » s'apprennent par l'exemple, pas par l'obligation.\n\nNe force jamais le partage de ses jouets à cet âge : il ne comprend pas encore la propriété temporaire. Propose, ne contrains pas.",
+      "idees_du_moment": [
+        {
+          "titre": "Donner une fleur à quelqu'un",
+          "texte": "À 18 mois, le geste de donner (tendre un objet à quelqu'un et le lâcher vraiment) marque une grande étape sociale. Au printemps, cueille avec lui quelques fleurs (autorisées, non toxiques) et propose-lui d'en offrir une à une personne aimée : l'autre parent, un grand-parent, un voisin. Tu montres le geste, il imite. La joie qu'il provoque en donnant lui apprend que donner crée du lien et du plaisir partagé. Premier acte de générosité, transmis par l'exemple dans la douceur du printemps."
+        },
+        {
+          "titre": "Le bac à sable à plusieurs",
+          "texte": "À 18 mois, observer d'autres enfants jouer est un apprentissage social majeur. Au printemps, emmène-le dans un bac à sable ou une aire de jeux fréquentée. Ne le pousse pas à interagir : laisse-le observer, s'approcher à son rythme, parfois tendre un jouet, parfois se replier vers toi. Tu es sa base de sécurité d'où il explore le social. Si un conflit de jouet éclate, accompagne sans dramatiser (« il joue avec, tu attends ton tour »). Le jeu parallèle d'aujourd'hui prépare le jeu coopératif de demain."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_18",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été rassemble : repas de famille, vacances avec les cousins, plages animées. Une saison de vie collective riche en occasions d'échanger pour un bébé sociable.",
+      "a_savoir_cette_saison": "À 18 mois, l'été et ses rassemblements (famille élargie, cousins, amis) offrent un terrain d'observation sociale formidable — mais aussi de fatigue. Dose les moments collectifs, ménage des pauses au calme, et accepte qu'il ait besoin de revenir vers toi régulièrement entre deux explorations sociales.\n\nDans les grands groupes, garde un œil sur lui près de l'eau et dans la foule : à cet âge, il marche vite et s'éloigne sans conscience du danger.",
+      "idees_du_moment": [
+        {
+          "titre": "Partager les fruits avec les cousins",
+          "texte": "À 18 mois, distribuer des objets identiques à plusieurs personnes initie en douceur l'idée du partage. Lors d'un repas d'été en famille, confie-lui un panier de fruits faciles (abricots, petites prunes) et accompagne-le pour en donner un à chaque personne autour de la table. « Un pour mamie, un pour le cousin… » Il fait le tour, concentré, fier. Le partage organisé et valorisé (plutôt que le partage forcé d'un objet convoité) lui fait vivre le plaisir de donner. Geste social joyeux dans l'ambiance estivale."
+        },
+        {
+          "titre": "La balle qui va et qui revient",
+          "texte": "À 18 mois, le jeu de la balle qu'on se renvoie est le premier vrai jeu d'échange à tour de rôle. Sur une pelouse ou une plage, assieds-toi face à lui à un mètre, et faites rouler une grande balle souple de l'un à l'autre. « À moi… à toi… » Il comprend peu à peu l'alternance, l'attente de son tour, la réciprocité. C'est la matrice de toutes les interactions sociales à venir. Tu peux élargir le cercle à un autre enfant ou un grand-parent. Le tour de rôle s'apprend dans le plaisir du jeu, pas dans la consigne."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_18",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne ramène les rythmes collectifs : crèche, halte-garderie, ateliers, retrouvailles entre familles. Une saison structurée propice aux apprentissages sociaux d'un bébé qui s'ouvre.",
+      "a_savoir_cette_saison": "À 18 mois, la vie collective de l'automne (crèche, groupe de jeu, activités) multiplie les interactions et parfois les conflits (jouets arrachés, poussées). C'est normal : il n'a pas encore les mots ni le contrôle pour négocier. Accompagne sans punir, mets des mots sur ce qui se passe, et fais confiance au temps. La socialisation est un long apprentissage.\n\nLes virus de collectivité reviennent en force. Il sera souvent malade cette saison — c'est inévitable et formateur pour son immunité. Repos, eau, patience.",
+      "idees_du_moment": [
+        {
+          "titre": "Partager le panier de la cueillette",
+          "texte": "À 18 mois, mettre en commun le fruit d'une activité partagée pose les bases de la coopération. Lors d'une cueillette d'automne à plusieurs (famille, amis avec enfants), proposez un grand panier commun où chacun dépose ses trouvailles (feuilles, marrons, pommes de pin). Il apprend que les trésors peuvent se rassembler, que l'on construit quelque chose ensemble. Au retour, vous étalez le butin commun et le triez tous ensemble. Première expérience joyeuse de mise en commun, dans les couleurs de l'automne."
+        },
+        {
+          "titre": "Le goûter qu'on offre",
+          "texte": "À 18 mois, offrir de la nourriture est un geste social puissant et compris très tôt. Lors d'un goûter d'automne avec d'autres enfants ou en famille, propose-lui de distribuer les biscuits ou les morceaux de fruits. « Tu en donnes un à ton ami ? » Le geste de tendre et lâcher pour faire plaisir construit son rapport généreux aux autres. Tu valorises chaque don sans le forcer. Ce petit rituel de partage alimentaire, répété, tisse son sens de l'attention à autrui bien avant qu'il sache le formuler."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_18",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver et ses fêtes rassemblent toute la famille autour de la table, des cadeaux, des rituels partagés. Une saison de générosité et de liens pour un bébé qui découvre le plaisir de donner.",
+      "a_savoir_cette_saison": "À 18 mois, les fêtes d'hiver offrent un théâtre social intense (cadeaux, distributions, repas collectifs) — l'occasion d'observer et de vivre le don, l'échange, le partage. Mais l'abondance et l'excitation peuvent le déborder. Limite le nombre de cadeaux ouverts d'un coup, ménage des pauses, et privilégie la qualité des moments à la quantité.\n\nLes rassemblements en lieux clos = pic de circulation virale. Aération régulière, et tu as le droit de protéger bébé sans culpabiliser.",
+      "idees_du_moment": [
+        {
+          "titre": "Distribuer les cadeaux à la famille",
+          "texte": "À 18 mois, remettre un objet à une personne désignée combine geste social et reconnaissance des proches. Lors des fêtes, fais-en le « distributeur » officiel : tu lui donnes un petit cadeau en nommant le destinataire (« c'est pour papi »), il marche le porter et le tend. Il vit le plaisir de donner et de provoquer la joie chez l'autre. Ce rôle valorisant le rend acteur de la fête plutôt que simple spectateur surstimulé. Geste de générosité au cœur de l'hiver, qui restera un rituel des années suivantes."
+        },
+        {
+          "titre": "Le repas où chacun a sa place",
+          "texte": "À 18 mois, comprendre que chacun a sa place autour de la table pose les fondations de la vie sociale. Lors d'un repas de fête, implique-le dans la préparation : il pose une serviette à chaque place, ou un petit décor, en nommant qui s'y assoira. Il intègre l'idée d'un groupe où chacun a sa place et son tour. Pendant le repas, valorise les moments de partage (« on attend que tout le monde soit servi »). Sans en faire une leçon, tu lui transmets le rythme et les codes doux de la table partagée."
+        }
+      ]
+    }
+  }
+}

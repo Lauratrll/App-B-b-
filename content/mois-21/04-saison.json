@@ -1,0 +1,114 @@
+{
+  "mois": 21,
+  "tranche_age": "21 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 21 — Le Sociable · Vivre la saison ensemble",
+  "description_m": "À 21 mois, {prenom} ne joue plus seulement à côté des autres enfants : il commence à jouer avec eux, les imite, les cherche du regard, leur tend des objets. Le collectif l'attire. La saison multiplie les rencontres. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "description_f": "À 21 mois, {prenom} ne joue plus seulement à côté des autres enfants : elle commence à jouer avec eux, les imite, les cherche du regard, leur tend des objets. Le collectif l'attire. La saison multiplie les rencontres. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "logique_selection": {
+    "regle": "À 21 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année — pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 21 mois, bébé régule très bien sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_21",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Le printemps rouvre les aires de jeux, les sorties entre familles, les goûters au parc. Une saison de rencontres ensoleillées pour un bébé qui cherche les autres enfants.",
+      "a_savoir_cette_saison": "À 21 mois, le jeu coopératif démarre vraiment, mais les conflits restent fréquents (un jouet arraché, une poussée) — il n'a pas encore les mots ni le contrôle pour tout négocier. Au printemps fréquenté, accompagne sans dramatiser : nomme ce qui se passe, propose des solutions simples, fais confiance au temps. Les compétences sociales sont un long apprentissage.\n\nGarde un œil sur lui dans les espaces ouverts : à cet âge il court et s'éloigne vite, sans conscience du danger (route, plan d'eau).",
+      "idees_du_moment": [
+        {
+          "titre": "Le jeu de cache-cache au parc",
+          "texte": "À 21 mois, jouer à cache-cache avec d'autres enfants est un premier vrai jeu collectif à règles simples. Au printemps, derrière les arbres et les buissons d'un parc, lance une partie : on se cache, on cherche, on se retrouve dans les rires. Au début il « se cache » à découvert (il ne comprend pas encore qu'on le voit), c'est adorable et normal. Le plaisir de la réapparition, l'attente partagée, le rire collectif tissent le lien social. Tu participes pour montrer comment, puis tu laisses les enfants entre eux sous ta surveillance."
+        },
+        {
+          "titre": "Souffler des bulles à plusieurs",
+          "texte": "À 21 mois, courir après un même objectif avec d'autres enfants crée une joie collective fédératrice. Au parc au printemps, sors un flacon de bulles de savon et souffle-en une nuée. Les enfants présents convergent, courent, sautent, tentent de les attraper ensemble. Pas de compétition, pas de règle, juste un plaisir partagé qui les relie. Tu peux passer le relais et laisser un enfant souffler pour les autres. Activité sociale joyeuse, parfaite pour amorcer le contact entre enfants qui ne se connaissent pas."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_21",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été rassemble les enfants : plages, jeux d'eau, vacances avec les cousins. Une saison de jeux collectifs en plein air pour un bébé qui s'épanouit avec les autres.",
+      "a_savoir_cette_saison": "À 21 mois, l'été et ses rassemblements d'enfants (cousins, amis, plage) offrent un terrain social idéal — mais dose les temps collectifs et ménage des pauses, car la stimulation sociale fatigue autant que le soleil. Il a encore besoin de revenir vers toi régulièrement, c'est sa base de sécurité.\n\nDans les groupes près de l'eau, redouble de vigilance : plusieurs adultes pensent surveiller, et personne ne surveille vraiment. Désigne clairement qui garde un œil sur lui.",
+      "idees_du_moment": [
+        {
+          "titre": "Le toboggan à tour de rôle",
+          "texte": "À 21 mois, attendre son tour sur un même équipement est un apprentissage social concret et joyeux. À l'aire de jeux l'été, le petit toboggan adapté devient un terrain d'échange : on monte, on glisse, on laisse la place au suivant, on recommence. Tu accompagnes le tour de rôle avec des mots simples (« à toi… maintenant à ton ami… »). Il observe les autres enfants glisser, les imite, partage le rire de l'arrivée en bas. Tu sécurises la glissade (réception, hauteur adaptée) sans le porter. Premier vrai jeu collectif à règle implicite, dans la lumière de l'été — pense au chapeau et à tester la température du métal avant de le poser dessus."
+        },
+        {
+          "titre": "Le jeu d'eau qui se partage",
+          "texte": "À 21 mois, partager une source de plaisir aquatique relie spontanément les enfants. Avec une petite bassine, un brumisateur, des seaux et des gobelets, les enfants se rassemblent naturellement autour de l'eau en été. Ils s'éclaboussent, se passent les contenants, rient ensemble. Tu peux proposer un jeu simple : remplir un grand seau commun à plusieurs. La fraîcheur partagée devient un moment social joyeux. Surveillance directe permanente : même peu d'eau, même à plusieurs adultes présents, le risque de noyade reste réel et silencieux."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_21",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne structure le collectif : crèche, ateliers, groupes de jeu, retrouvailles régulières. Une saison de rythmes partagés pour un bébé qui apprend à jouer avec les autres.",
+      "a_savoir_cette_saison": "À 21 mois, la vie collective de l'automne (crèche, activités de groupe) intensifie les apprentissages sociaux et les petits conflits. Il commence à imiter franchement les autres enfants — ce mimétisme est le moteur de l'apprentissage social. S'il rapporte des gestes ou mots nouveaux, c'est sain. Accompagne les frictions sans punir, mets des mots, fais confiance.\n\nLes virus de collectivité circulent fort : il sera souvent malade, c'est inévitable et formateur. Repos, eau, patience.",
+      "idees_du_moment": [
+        {
+          "titre": "La chasse aux trésors d'automne",
+          "texte": "À 21 mois, chercher ensemble selon une consigne simple amorce le jeu collectif à but partagé. Avec d'autres enfants au parc, lance une mini-chasse : « on cherche tous une feuille rouge ! », puis « maintenant un gland ! ». Chacun part fouiller, revient montrer sa trouvaille, repart. Il imite les plus grands, observe où ils cherchent, partage l'excitation de la découverte. Pas de gagnant, pas de compétition : juste le plaisir de chercher au même rythme. La consigne commune fédère le groupe, et l'automne offre une infinité de trésors à débusquer ensemble."
+        },
+        {
+          "titre": "La ronde des feuilles",
+          "texte": "À 21 mois, les jeux en cercle (rondes, farandoles) initient au plaisir d'agir ensemble en rythme. À l'automne, sur un tapis de feuilles, lance une ronde simple avec d'autres enfants et adultes : on se tient les mains, on tourne, on chante, on tombe dans les feuilles en riant. Les comptines à ronde (« Dansons la capucine », « Le furet ») se prêtent parfaitement. Il sent l'appartenance au groupe, le plaisir d'un mouvement collectif synchronisé. Le tas de feuilles sur lequel on tombe ajoute le fou rire qui scelle le lien."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_21",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver et ses fêtes réunissent enfants et familles autour de jeux, de chants, de moments partagés au chaud. Une saison de convivialité pour un bébé qui aime être avec les autres.",
+      "a_savoir_cette_saison": "À 21 mois, les fêtes d'hiver rassemblent souvent plusieurs enfants (cousins, amis) en intérieur — occasion précieuse de jeu collectif, mais aussi de surstimulation et de conflits dans des espaces restreints. Aménage un coin de jeu calme, dose les temps de groupe, et repère les signes de saturation (agitation, pleurs, accrochage).\n\nLieux clos + nombreux contacts = pic viral. Aère régulièrement, et protège bébé sans culpabiliser si tu sens qu'il en a besoin.",
+      "idees_du_moment": [
+        {
+          "titre": "Le bricolage de fête à plusieurs",
+          "texte": "À 21 mois, créer côte à côte avec d'autres enfants combine jeu parallèle et premiers échanges. Lors d'un après-midi d'hiver en famille, installe une grande table avec du matériel simple et sûr (gros gommettes, papier, colle en bâton, ronds de carton) pour fabriquer des décorations de fête. Chacun crée la sienne, observe celle du voisin, se passe parfois les gommettes. Pas de modèle à suivre : le geste compte plus que le résultat. Les œuvres collectives accrochées ensuite relient les enfants par une réalisation commune. Coin chaleureux idéal quand il fait trop froid dehors."
+        },
+        {
+          "titre": "Le spectacle de marionnettes ensemble",
+          "texte": "À 21 mois, assister à un même spectacle avec d'autres enfants crée une émotion partagée fédératrice. L'hiver, improvise un petit théâtre de marionnettes derrière le dossier d'un canapé : des chaussettes deviennent des personnages, une histoire simple se joue. Les enfants assis ensemble réagissent, rient, pointent aux mêmes moments. Cette synchronisation émotionnelle est un ciment social puissant. Tu peux ensuite leur prêter les marionnettes pour qu'ils rejouent à leur tour. Activité chaleureuse parfaite pour réunir plusieurs petits par grand froid."
+        }
+      ]
+    }
+  }
+}

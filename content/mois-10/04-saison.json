@@ -1,0 +1,114 @@
+{
+  "mois": 10,
+  "tranche_age": "10 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 10 — Le Grimpeur · Vivre la saison ensemble",
+  "description_m": "À 10 mois, {prenom} se hisse debout, se déplace en s'agrippant aux meubles, attrape entre pouce et index. La verticalité l'appelle. La saison change ce qu'il peut grimper, ce qu'il peut atteindre, ce qu'il peut découvrir d'en haut. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "description_f": "À 10 mois, {prenom} se hisse debout, se déplace en s'agrippant aux meubles, attrape entre pouce et index. La verticalité l'appelle. La saison change ce qu'elle peut grimper, ce qu'elle peut atteindre, ce qu'elle peut découvrir d'en haut. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "logique_selection": {
+    "regle": "À 10 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année — pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 10 mois, bébé régule mieux sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_10",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Tout pousse, tout monte, tout cherche la lumière. La sève remonte dans les arbres, les pousses sortent du sol. Le printemps a la même intention que bébé en ce moment : se mettre debout.",
+      "a_savoir_cette_saison": "À 10 mois, bébé se hisse debout en s'agrippant à tout ce qui dépasse — table basse, chaise, jambe, branche. Au printemps, les jardins se rouvrent, les terrasses se remeublent. Refais un tour de tes espaces du point de vue d'un explorateur d'un mètre : nappe qui pend (et son verre dessus), pot de fleurs sur un guéridon, prise au ras du sol entre deux meubles désormais accessibles.\n\nLa lumière qui s'allonge favorise des temps d'éveil plus longs. Garde une sieste solide en début d'après-midi malgré l'envie de profiter — sans sieste, la fin de journée devient très difficile à cet âge.",
+      "idees_du_moment": [
+        {
+          "titre": "Se hisser sur la souche du parc",
+          "texte": "À 10 mois, l'envie de se mettre debout est physiologique — son corps cherche la verticalité partout. Une grosse souche basse, un muret de 20 cm, une marche de banc deviennent des terrains d'entraînement parfaits dans un parc printanier. Pose-le devant, à quatre pattes, et laisse-le tenter de s'y hisser à sa façon. Tu accompagnes du regard, prêt à amortir une chute, mais sans tirer ni soulever. Il découvrira l'odeur du bois humide, la mousse fraîche, le lichen. Sa proprioception se construit dans l'effort, pas dans l'aide."
+        },
+        {
+          "titre": "Le pot de pousses à hauteur de table basse",
+          "texte": "Au printemps, semer ensemble lentilles ou cresson dans une coupelle prend 3 minutes et offre 10 jours d'observation. Pose le pot sur ta table basse — exactement la hauteur à laquelle bébé se hisse en ce moment. Chaque matin, il vient debout vérifier ce qui a changé. À 10 mois, il commence à comprendre la permanence des choses dans le temps. Tu nommes : « ça a poussé », « c'est plus grand qu'hier ». Tu lui transmets une attention au vivant qui se passe de mots."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_10",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été multiplie les surfaces pour grimper, escalader, conquérir : sable mou, rochers tièdes, marches de plage, dunes basses. Une saison faite pour un bébé qui veut monter partout.",
+      "a_savoir_cette_saison": "À 10 mois debout aux meubles, l'été extérieur est plein d'opportunités — et de pièges. Les transats ne sont pas faits pour lui : il s'y agrippe et les fait basculer. Les chaises de jardin légères en plastique aussi. Les barbecues à hauteur tentent énormément les mains qui se hissent.\n\nLa chaleur lui fait boire moins alors qu'il en a plus besoin. Propose de l'eau toutes les 30 minutes en plein été — gourde à bec ou paille, lui-même à la coupelle si à la maison.",
+      "idees_du_moment": [
+        {
+          "titre": "Escalader la petite dune",
+          "texte": "À 10 mois, les dunes basses (pas les grandes du bord de mer venté) sont des terrains de motricité parfaits — pente douce, sable qui s'enfonce sous les genoux, résistance qui muscle. Cherche en début ou fin de journée une pente sableuse de 30 à 50 cm de haut. Pose-le au pied, à quatre pattes, et accompagne. Il grimpe lentement, glisse parfois, recommence. Tout son corps travaille : équilibre, force, coordination. Et la sensation du sable sec contre la peau s'imprime durablement dans sa mémoire d'été."
+        },
+        {
+          "titre": "Se hisser au banc du parc",
+          "texte": "À 10 mois debout-aux-meubles, l'été en extérieur offre mille appuis pour s'entraîner à se mettre debout. Un banc de parc à l'ombre, une grosse caisse en bois, le rebord stable d'un bac à fleurs deviennent des barres de soutien naturelles. Pose-le à quatre pattes devant, et laisse-le s'agripper, tirer sur ses bras, hisser son corps jusqu'à la station debout. Il tient quelques secondes, fier, puis se rassoit, recommence. Tu restes tout près pour amortir, sans le soulever toi-même : c'est l'effort qui muscle ses jambes et construit son équilibre. À l'ombre aux heures chaudes, avec de l'eau à boire régulièrement."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_10",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "Les fruits du verger pendent à hauteur d'enfant. Les pommes de pin se ramassent à hauteur de main qui se hisse. L'automne, à 10 mois, c'est aussi une saison où l'on tend les bras vers le haut.",
+      "a_savoir_cette_saison": "À 10 mois, l'automne est la saison du pointage du doigt : bébé tend son index vers ce qu'il veut, ce qu'il voit, ce qu'il découvre. Encourage chaque pointage en nommant — « oui, le chien », « la feuille rouge », « la fumée ». Cette construction langagière démarre maintenant.\n\nLes feuilles mortes au sol sont devenues humides — vigilance sur ce qu'il porte à la bouche en extérieur. La pince fine pouce-index lui permet désormais d'attraper des objets très petits qui passaient avant.",
+      "idees_du_moment": [
+        {
+          "titre": "Cueillir la pomme à hauteur de main",
+          "texte": "À 10 mois debout aux meubles, l'envie de tendre la main vers le haut le travaille en permanence. Dans un verger, devant un pommier de jardin, ou en marché de plein air, soulève-le doucement jusqu'à ce qu'il puisse poser sa main sur une pomme accrochée à sa branche. Il sent la fraîcheur, la tenue, la résistance avant qu'elle ne se détache. Tu peux la cueillir avec lui, sa main sur la tienne. Ce geste agricole transmis tisse un lien avec la saison qu'aucune image ne remplace."
+        },
+        {
+          "titre": "Le coussin-montagne de la fin d'après-midi",
+          "texte": "À 10 mois, escalader est une obsession motrice. Aux jours qui raccourcissent en automne, construis un mini-Everest sur ton canapé : 3 ou 4 coussins fermes empilés en pente douce, sécurisé contre un mur ou un dossier. Il s'y hisse, redescend en marche arrière (l'autre grand apprentissage de ce mois), recommence. Tu observes à un mètre, prêt à amortir, sans intervenir. Il dépense l'énergie qu'il aurait dépensée dehors quand le jour tombe trop tôt."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_10",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver intérieur multiplie les meubles à escalader, les rebords à attraper, les hauteurs nouvelles à atteindre. C'est aussi la saison où chaque retour au chaud après une sortie devient un cocon précieux.",
+      "a_savoir_cette_saison": "À 10 mois debout aux meubles, l'hiver multiplie les risques d'intérieur : sapin qu'il tirera vers lui, guirlande qu'il attrapera à hauteur de main, prises de Noël au sol entre deux meubles. Refais un tour à sa hauteur après chaque installation festive.\n\nLes chaussons fermés deviennent indispensables — le sol froid des appartements ralentit l'envie de se déplacer. Pieds tièdes = exploration libre.",
+      "idees_du_moment": [
+        {
+          "titre": "Le tunnel-igloo des couvertures",
+          "texte": "À 10 mois, le quatre pattes est devenu fluide et le passage sous les obstacles le passionne. Tends une grande couverture entre deux chaises ou un canapé et un fauteuil pour créer un mini-tunnel. Glisse à l'intérieur un coussin et un livre cartonné. Bébé entre, ressort, repasse, joue à se cacher. Tu peux jouer le coucou depuis l'autre extrémité. Le côté refuge feutré apaise un hiver d'intérieur, et le passage sous une voûte basse muscle son tronc et sa coordination."
+        },
+        {
+          "titre": "Se hisser à la fenêtre embuée",
+          "texte": "À 10 mois, la verticalité l'appelle et son pointage du doigt s'affine. Une fenêtre basse vers la rue ou le jardin devient un poste d'observation idéal en hiver : tu le portes ou il se hisse au rebord d'un meuble bas placé devant. Dehors : un oiseau, un voisin, la pluie qui dégouline, parfois la neige. Tu nommes chaque chose qu'il pointe. La vitre froide contre sa joue, son souffle qui forme de la buée, ses petits doigts qui dessinent dedans. Une fenêtre devient un livre vivant."
+        }
+      ]
+    }
+  }
+}

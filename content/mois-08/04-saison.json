@@ -1,0 +1,98 @@
+{
+  "mois": 8,
+  "tranche_age": "8 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 8 — L'Attaché · Vivre la saison ensemble",
+  "description_m": "À 8 mois, {prenom} tient assis seul, attrape précisément, et surtout il sait que tu es toi. Peur de l'étranger, angoisse de séparation : son attachement se structure. La saison change comment vous vivez ensemble ces nouveaux territoires émotionnels. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "description_f": "À 8 mois, {prenom} tient assise seule, attrape précisément, et surtout elle sait que tu es toi. Peur de l'étranger, angoisse de séparation : son attachement se structure. La saison change comment vous vivez ensemble ces nouveaux territoires émotionnels. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "logique_selection": {
+    "regle": "À 8 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": ["mars", "avril", "mai"],
+      "ete": ["juin", "juillet", "août"],
+      "automne": ["septembre", "octobre", "novembre"],
+      "hiver": ["décembre", "janvier", "février"]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année — pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 8 mois, bébé régule mieux sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_08",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Les retrouvailles se multiplient avec les beaux jours — repas en famille, pique-niques, anniversaires. Bébé observe les autres de loin, blotti contre toi. C'est exactement comme ça que ça doit être à cet âge.",
+      "a_savoir_cette_saison": "Le printemps amène les retrouvailles avec la famille élargie (Pâques, anniversaires, pique-niques). À 8 mois, bébé est en pleine peur de l'étranger — il pleure aux bras des autres, se retourne vers toi. C'est un signe sain d'attachement, pas une crise de capricieux.\n\nReste son point d'ancrage : ne le force pas, ne t'excuse pas. Les proches comprendront.",
+      "idees_du_moment": [
+        {
+          "titre": "Le picnic à deux dans l'herbe",
+          "texte": "À 8 mois, l'attachement sécure se construit dans les moments calmes partagés. Un grand plaid au soleil filtré du printemps, juste vous deux, un thermos pour toi et un peu de jeu pour lui. Pas d'animation, pas d'objectif. Le simple fait d'être là ensemble nourrit son sentiment de sécurité. Il joue, te regarde, revient se blottir, repart. C'est cette respiration-là qui solidifie son attachement."
+        },
+        {
+          "titre": "Le coucou derrière l'arbre",
+          "texte": "À 8 mois, le jeu de coucou prend toute sa puissance — il commence à comprendre que ce qui disparaît continue d'exister (permanence de l'objet). Le printemps offre les premiers arbres au feuillage assez dense pour s'y cacher. Tu te caches derrière le tronc, tu réapparais, tu te recaches. Fou rire garanti. C'est aussi un mini-exercice d'angoisse de séparation : tu reviens toujours."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_08",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été, ses vacances, ses gardes inhabituelles, ses lieux nouveaux. Bébé teste plus que jamais son attachement à toi. Ton calme devient son refuge.",
+      "a_savoir_cette_saison": "L'été et ses vacances amènent les rencontres inhabituelles : familles d'accueil, lieux nouveaux, baby-sitters. À 8 mois, son angoisse de séparation est à son pic.\n\nPréparer chaque séparation avec un objet transitionnel (doudou, tissu portant ton odeur), prévenir les hôtes que les pleurs sont normaux les premières fois, et toujours dire au revoir clairement — jamais partir en cachette.",
+      "idees_du_moment": [
+        {
+          "titre": "Les vagues qui arrivent et qui repartent",
+          "texte": "À 8 mois, le mécanisme apparition/disparition l'apaise et le passionne. Le bord de mer en offre une démonstration infinie : la vague qui monte, qui repart, qui remonte. Bébé assis dans tes bras au ras du sable (jamais seul, jamais sans ta main). Il observe, parfois rit, parfois se tend. Tu peux nommer : « la vague arrive, la vague repart ». Le retour rythmé est rassurant."
+        },
+        {
+          "titre": "Le doudou témoin d'été",
+          "texte": "À 8 mois, l'objet transitionnel devient son ancre quand tu n'es pas là. Choisis avec lui un petit objet de l'été qui devient son « témoin » lors de vos absences : un foulard léger qui porte ton parfum, un coquillage lisse choisi sur la plage, une feuille séchée d'arbre de vacances. Symbolique pour toi, sensoriel pour lui."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_08",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne marque souvent une grande transition : reprise du travail, premiers temps de garde. Les retours du soir prennent une saveur particulière — pour vous deux.",
+      "a_savoir_cette_saison": "L'automne marque souvent une étape clé : reprise du travail, premières gardes (crèche, nounou). L'angoisse de séparation rend ces débuts plus durs qu'on ne l'imagine — pour lui ET pour toi.\n\nAdaptation progressive, doudou qui voyage entre la maison et le lieu de garde, et patience : 2 à 6 semaines sont parfois nécessaires.",
+      "idees_du_moment": [
+        {
+          "titre": "Le rituel du retour",
+          "texte": "À 8 mois, l'angoisse de séparation s'apaise quand le retour est marqué et prévisible. Lorsque tu rentres (du travail, de courses, d'une absence), crée un mini-rituel répété : un baiser sur le front, une chanson courte, un câlin assis sur le canapé avant tout autre chose. À l'automne intérieur, c'est facile à instaurer. Il apprend que les départs reviennent toujours par des retours."
+        },
+        {
+          "titre": "La box d'automne",
+          "texte": "À 8 mois, sa pince fine se précise et il manipule de plus en plus de petits objets. Constitue avec lui une box de la saison — un panier en osier souple, ou une caisse en bois — remplie de trésors d'automne suffisamment gros pour ne pas être avalés : grandes pommes de pin, morceaux d'écorce, châtaignes dans leur bogue, grosses feuilles séchées. Il sort, examine, repose, recommence. Bibliothèque tactile saisonnière en construction."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_08",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "Les visites de fêtes amènent tout le monde dans le salon. Bébé scrute, se cache, parfois pleure. Ton accueil de ses réactions est plus important que sa sociabilité de façade.",
+      "a_savoir_cette_saison": "L'hiver renforce la peur de l'étranger : les visites des fêtes amènent grands-parents, oncles, tantes qui veulent bébé dans leurs bras tout de suite. Sa réaction (pleurs, recul, accrochage à toi) est saine — pas un manque d'éducation.\n\nLui laisser le temps, présenter doucement, ne jamais le forcer.",
+      "idees_du_moment": [
+        {
+          "titre": "L'album photo en tissu des proches",
+          "texte": "À 8 mois, la peur de l'étranger est à son pic en hiver — les visites des fêtes amènent grands-parents, oncles, tantes parfois peu vus. Lui présenter régulièrement leurs photos avant les retrouvailles aide énormément. Choisis 4-5 photos de bonne qualité dans un petit album en tissu (qu'il peut manipuler en toute sécurité), tourne les pages avec lui, nomme chaque visage. Quelques jours avant la visite, refais le tour. Le jour J, il les reconnaîtra — pas comme des intimes, mais comme des visages déjà vus. Ça change tout."
+        },
+        {
+          "titre": "Le cocon des fêtes ensemble",
+          "texte": "À 8 mois, les fêtes de fin d'année peuvent le surstimuler (bruit, monde, lumières). Crée volontairement des bulles de calme : une pièce calme à part où vous pouvez vous retirer 15 minutes, une couverture où vous lisez à deux, un moment câlin loin du bruit. Lui montrer que la fête est belle ET qu'on peut souffler ensemble. Ton calme devient le sien."
+        }
+      ]
+    }
+  }
+}

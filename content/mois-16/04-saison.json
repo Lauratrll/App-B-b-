@@ -1,0 +1,114 @@
+{
+  "mois": 16,
+  "tranche_age": "16 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 16 — L'Indépendant · Vivre la saison ensemble",
+  "description_m": "À 16 mois, {prenom} veut faire seul. Il refuse l'aide, mange tout seul, tente d'enfiler sa chaussure, marche partout et court presque. « Moi » devient sa devise. La saison lui offre mille gestes d'autonomie à exercer. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "description_f": "À 16 mois, {prenom} veut faire seule. Elle refuse l'aide, mange toute seule, tente d'enfiler sa chaussure, marche partout et court presque. « Moi » devient sa devise. La saison lui offre mille gestes d'autonomie à exercer. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "logique_selection": {
+    "regle": "À 16 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année — pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 16 mois, bébé régule très bien sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_16",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Le printemps invite à faire dehors : semer, arroser, transporter, ramasser. Une saison de gestes utiles, parfaite pour un bébé qui veut tout faire tout seul.",
+      "a_savoir_cette_saison": "À 16 mois, le « je fais seul » est physiologique et précieux — résiste à l'envie d'aller plus vite en faisant à sa place. Au printemps, multiplie les gestes d'autonomie réels qu'il peut accomplir dehors (porter un petit pot, verser une graine, transporter un arrosoir léger). Plus tu lui laisses du temps, plus sa confiance grandit. L'aide non sollicitée freine l'élan d'autonomie.\n\nDébut des sorties prolongées : prévois toujours un change complet, sa gourde, un chapeau dès que le soleil chauffe.",
+      "idees_du_moment": [
+        {
+          "titre": "Semer ses propres graines",
+          "texte": "À 16 mois, accomplir un geste de bout en bout nourrit puissamment son sentiment de compétence. Au printemps, propose-lui de semer dans un pot bien à lui : il prend une grosse graine (haricot, capucine, tournesol — faciles à manipuler), la dépose dans le trou, recouvre de terre avec ses mains, arrose. Tu montres une fois, puis tu le laisses faire à sa façon, même imparfaitement. Les jours suivants, c'est lui qui arrose. Quand la pousse sort, il aura tout fait seul — fierté immense et leçon de patience naturelle."
+        },
+        {
+          "titre": "Manger seul le pique-nique de printemps",
+          "texte": "À 16 mois, l'autonomie alimentaire est une bataille de fierté. Plutôt que de te battre à table, offre-lui un pique-nique de printemps où tout est fait pour manger seul : bâtonnets de légumes croquants, quartiers de fruits, petits sandwichs coupés, gourde à bec. Étale une nappe au parc, pose son assiette, et laisse-le se servir, porter à sa bouche, choisir l'ordre. C'est messy, c'est lent, c'est exactement ce dont il a besoin. Tu manges à côté, sans corriger sa façon de tenir."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_16",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été se prête au déshabillage facile, aux pieds nus, aux gestes d'eau qu'on accomplit seul. Une saison légère, idéale pour un bébé qui réclame son autonomie.",
+      "a_savoir_cette_saison": "À 16 mois, l'été facilite l'autonomie : moins de couches de vêtements à gérer, plus de gestes faisables seul. Laisse-le tenter d'enlever ses sandales, de mettre son chapeau (même de travers), de tenir le tuyau d'arrosage. Le « non, laisse, je fais » est usant mais essentiel — c'est sa façon de devenir lui-même.\n\nLes deux non-négociables de l'été restent le chapeau et la crème solaire. Pour éviter la bataille, propose un choix de modalité (« ce chapeau ou celui-là ? ») tout en maintenant le principe.",
+      "idees_du_moment": [
+        {
+          "titre": "Arroser le jardin avec son arrosoir",
+          "texte": "À 16 mois, manier de l'eau de façon autonome combine plaisir sensoriel et fierté de faire seul. Donne-lui un petit arrosoir léger qu'il remplit lui-même (à un seau, à un point d'eau bas) et qu'il vide où il veut sur les plantes du jardin ou les pots du balcon. Tu ne diriges pas, tu n'optimises pas l'arrosage. S'il arrose trois fois le même pot et oublie les autres, ce n'est pas grave. Ce qui compte : c'est sa tâche, son geste, son rythme. L'eau renversée fait partie de l'apprentissage."
+        },
+        {
+          "titre": "Le panier de courses à porter",
+          "texte": "À 16 mois, transporter des objets utiles d'un point à un autre lui donne le sentiment de participer pour de vrai. Au marché ou au retour des courses d'été, confie-lui un petit panier ou un sac léger avec un ou deux articles incassables (une courgette, une pêche, un pain). Sa mission : les porter jusqu'à la maison ou jusqu'à la voiture. Il marche fier, concentré. Tu valorises le service rendu (« merci, tu m'aides beaucoup »). Le sentiment d'utilité réelle nourrit l'estime de soi bien avant les compliments abstraits."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_16",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne demande d'enfiler, de ranger, de ramasser, de transporter. Une saison de petits travaux quotidiens où un bébé indépendant peut prendre sa part.",
+      "a_savoir_cette_saison": "À 16 mois, l'habillage d'automne devient un terrain d'autonomie : laisse-le tenter d'enfiler sa botte, de tirer la fermeture de son gilet, de mettre son bonnet. Ça prendra cinq fois plus de temps — anticipe et pars plus tôt plutôt que de faire à sa place dans l'urgence. Chaque geste réussi seul est une victoire qui le construit.\n\nLa fatigue de la rentrée (crèche, nounou) peut le rendre plus accroché le soir. C'est compatible avec son envie d'autonomie le jour : il oscille, c'est normal.",
+      "idees_du_moment": [
+        {
+          "titre": "Enfiler ses bottes tout seul",
+          "texte": "À 16 mois, enfiler une botte est un défi moteur complexe et gratifiant. À l'automne, profite du rituel d'habillage avant la sortie pour le laisser essayer ses bottes en caoutchouc (plus faciles que les chaussures à lacets). Assieds-le, pose les bottes devant lui, montre une fois, puis attends. Il s'acharne, peste, recommence. S'il y arrive à moitié, finis discrètement sans commenter l'échec. Sortir ensuite sauter dans les flaques récompense l'effort. La patience que tu y mets aujourd'hui lui économise des années de dépendance."
+        },
+        {
+          "titre": "Ranger ses chaussures à leur place",
+          "texte": "À 16 mois, ranger est un geste d'autonomie aussi important que de prendre. À l'automne, le rituel d'habillage se densifie (bottes, manteau, écharpe) : profites-en pour lui apprendre à ranger SES affaires à un endroit dédié, à sa hauteur. Au retour de la sortie, montre-lui où vont ses chaussures, son bonnet, et laisse-le les y déposer lui-même. La consigne simple : « les chaussures, dans le panier ». Il prend, il porte, il pose. Tu transformes une corvée en geste d'autonomie valorisant, et tu poses tôt l'habitude de ranger ses propres affaires — un cadeau pour les années à venir, à lui comme à toi."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_16",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver intérieur ouvre la cuisine, les petits gestes du quotidien, les tâches qu'on fait au chaud. Une saison de coopération domestique pour un bébé qui veut faire comme les grands.",
+      "a_savoir_cette_saison": "À 16 mois, l'hiver à la maison est l'occasion de l'intégrer aux petites tâches du foyer — il en raffole et ça canalise son énergie quand on sort moins. Tartiner, transporter, poser, essuyer : autant de gestes réels qu'il peut accomplir à son échelle. La « pédagogie de la vie pratique » nourrit son autonomie et sa concentration.\n\nLes nombreuses couches d'habillage de sortie hivernale peuvent décourager son envie de faire seul. Choisis des vêtements à fermetures faciles (scratch, gros boutons-pression) pour préserver ses tentatives.",
+      "idees_du_moment": [
+        {
+          "titre": "Mettre la table, à sa façon",
+          "texte": "À 16 mois, participer à la préparation du repas le grandit. Confie-lui une mission simple et sûre : poser les serviettes à chaque place, déposer le pain dans la corbeille, mettre sa propre cuillère. Tu montres une fois, puis tu le laisses faire même si la serviette atterrit de travers. À l'hiver où l'on cuisine et mange davantage à la maison, ce rituel quotidien construit son sentiment d'appartenance et d'utilité. Tu remercies sincèrement — le « merci, tu m'as bien aidé » vaut tous les compliments."
+        },
+        {
+          "titre": "Tartiner sa propre tartine",
+          "texte": "À 16 mois, manier un outil simple comme un grand développe motricité fine et fierté. Au goûter d'hiver, donne-lui un couteau à bout rond, un peu de purée d'amande ou de fromage frais, et une tranche de pain souple. Montre le geste une fois, puis laisse-le tartiner sa tartine — maladroitement, en mettant à côté, en s'arrêtant pour goûter au doigt. Le résultat compte moins que le geste accompli seul. Au coin du chaud, ce petit rituel d'autonomie remplace avantageusement un goûter passif où tout est fait pour lui."
+        }
+      ]
+    }
+  }
+}

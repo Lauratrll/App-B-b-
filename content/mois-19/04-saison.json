@@ -1,0 +1,98 @@
+{
+  "mois": 19,
+  "tranche_age": "19 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 19 — Le Rythmé · Vivre la saison ensemble",
+  "description_m": "À 19 mois, {prenom} danse dès qu'une musique passe, tape en cadence, adore la répétition et anticipe les routines. Le rythme le structure et le rassure. La saison lui offre ses propres cadences à découvrir. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "description_f": "À 19 mois, {prenom} danse dès qu'une musique passe, tape en cadence, adore la répétition et anticipe les routines. Le rythme la structure et la rassure. La saison lui offre ses propres cadences à découvrir. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "logique_selection": {
+    "regle": "À 19 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": ["mars", "avril", "mai"],
+      "ete": ["juin", "juillet", "août"],
+      "automne": ["septembre", "octobre", "novembre"],
+      "hiver": ["décembre", "janvier", "février"]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année — pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 19 mois, bébé régule très bien sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_19",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Le printemps a ses rythmes : le chant des oiseaux à l'aube, le goutte-à-goutte de la pluie, le balancement des branches au vent. Une saison musicale pour un bébé sensible aux cadences.",
+      "a_savoir_cette_saison": "À 19 mois, la sensibilité au rythme et à la musique est à son apogée — bouger en cadence, taper, danser sont des besoins, pas des distractions. Au printemps, fais-lui découvrir les rythmes naturels (chant des oiseaux, pluie qui tombe) en plus de la musique. Le sens du rythme nourrit le langage, la motricité et la régulation émotionnelle.\n\nLes journées s'allongent : profite-en pour des sorties en fin d'après-midi, mais garde une routine du soir stable — à cet âge, le rythme régulier du coucher reste essentiel malgré la lumière tardive.",
+      "idees_du_moment": [
+        {
+          "titre": "Taper le rythme sur les pots de fleurs",
+          "texte": "À 19 mois, frapper en rythme sur des surfaces variées développe la coordination et le sens musical. Au jardin ou sur le balcon au printemps, transforme les pots de fleurs retournés, les arrosoirs et les seaux en petite batterie. Donne-lui une cuillère en bois et montre un rythme simple : il tape, il écoute les sons différents selon les contenants, il invente. Tu peux frapper un motif et le laisser répéter (premier jeu d'imitation rythmique). Atelier musical à ciel ouvert, gratuit, qui canalise son énergie de printemps."
+        },
+        {
+          "titre": "Danser sous les branches qui balancent",
+          "texte": "À 19 mois, danser librement libère les émotions et ancre le sens du rythme dans tout le corps. Par une belle journée de printemps, sous un arbre dont les branches balancent au vent, mets une musique douce (ou chante simplement) et danse avec lui. Porte-le, tournoie doucement, puis pose-le pour qu'il bouge à sa façon. Le mouvement des branches au-dessus, le rythme de ta voix, son corps qui ondule : tout se synchronise. Ces moments de danse partagée nourrissent autant le lien que le développement moteur."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_19",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été résonne : le chant des cigales, l'eau qu'on verse, les fêtes en plein air. Une saison rythmée et sonore, faite pour un bébé qui vibre au tempo du monde.",
+      "a_savoir_cette_saison": "À 19 mois, l'été est plein de rythmes sonores naturels (cigales, vagues, eau qui coule) qui captivent un enfant sensible au tempo. Attire son attention sur ces sons réguliers, fais-les remarquer, imite-les. Tu nourris son oreille musicale avec les instruments gratuits de la nature.\n\nLes fêtes d'été en plein air peuvent être très bruyantes (concerts, feux d'artifice). Protège ses oreilles sensibles : casque anti-bruit pour les événements forts, et observe ses signaux de saturation sonore.",
+      "idees_du_moment": [
+        {
+          "titre": "Le chant des cigales à imiter",
+          "texte": "À 19 mois, repérer et imiter un son répétitif de la nature affine l'oreille rythmique. L'été du sud résonne du chant des cigales, régulier et lancinant. Lors d'une promenade à l'ombre des pins, arrête-toi pour écouter, pointe la direction du son, et imite la stridulation avec ta voix. Il tend l'oreille, cherche, essaie de reproduire à sa façon. Tu nourris son attention auditive avec un instrument 100 % gratuit et typiquement estival. Tu peux jouer à faire « comme la cigale » puis « chut, on écoute la vraie » — alternance écoute/production qui structure le rythme."
+        },
+        {
+          "titre": "Le concert d'eau et de seaux",
+          "texte": "À 19 mois, explorer les sons produits par l'eau combine rythme et plaisir sensoriel d'été. Avec une bassine, des seaux, des gobelets et des contenants variés, montre-lui comment l'eau versée produit des sons différents selon la hauteur et le récipient. Il verse, écoute, recommence, cherche à reproduire un son. Tu peux taper un rythme avec une cuillère sur un seau rempli à différents niveaux (chaque niveau = une note). Atelier sonore rafraîchissant pour les chaudes journées, sous surveillance directe près de l'eau."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_19",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne crépite, bruisse et goutte : feuilles sous les pas, pluie sur les vitres, vent dans les arbres. Une saison percussive et chantante pour un bébé qui aime le rythme.",
+      "a_savoir_cette_saison": "À 19 mois, l'automne offre une palette de sons rythmés (pas dans les feuilles, gouttes de pluie, vent) — autant d'occasions de jouer avec le tempo. La saison invite aussi à reprendre des routines stables après l'été : à cet âge, le rythme régulier des journées (repas, sieste, coucher aux mêmes heures) sécurise profondément et réduit les crises.\n\nLes journées raccourcissent vite. Une routine du soir bien rythmée aide à s'adapter au changement de luminosité.",
+      "idees_du_moment": [
+        {
+          "titre": "Marcher au rythme des feuilles",
+          "texte": "À 19 mois, synchroniser ses pas avec un son développe la coordination rythmique. Sur un chemin couvert de feuilles d'automne, marche en marquant un rythme régulier (« crac… crac… crac… ») à chaque pas qui les écrase. Il t'imite, cherche à faire le même bruit, ajuste sa marche. Tu peux varier : pas rapides, pas lents, pause, repart. Le tapis de feuilles devient un instrument qu'on joue avec les pieds. Premier rapport joyeux entre mouvement, son et tempo, dans la lumière dorée d'automne."
+        },
+        {
+          "titre": "La pluie qui fait de la musique",
+          "texte": "À 19 mois, écouter les rythmes irréguliers de la pluie affine l'oreille et apaise. Par temps de pluie d'automne, installez-vous près d'une fenêtre et écoutez ensemble les gouttes qui tombent, accélèrent, ralentissent. Tu peux taper doucement le rythme entendu sur le rebord, il imite. Si tu places des récipients dehors (sous une gouttière, sur le balcon), la pluie qui tombe dedans crée une vraie musique aléatoire à observer au sec. Moment de calme rythmé, parfait pour un après-midi gris."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_19",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver chante : comptines de fête, grelots, chansons au coin du chaud. Une saison musicale et ritualisée, faite pour un bébé qui vit au rythme des routines.",
+      "a_savoir_cette_saison": "À 19 mois, l'hiver et ses musiques de fête nourrissent son amour du rythme — chante avec lui, danse, tape des mains. La saison se prête aussi aux rituels répétés (chanson du matin, comptine du bain, berceuse du soir) que son cerveau adore et qui le sécurisent quand les fêtes bousculent les habitudes.\n\nMaintiens autant que possible les horaires de repas, sieste et coucher pendant les fêtes : la régularité est son meilleur allié contre la surstimulation.",
+      "idees_du_moment": [
+        {
+          "titre": "Les grelots qui sonnent",
+          "texte": "À 19 mois, manier un objet sonore en rythme développe coordination et plaisir musical. L'hiver, les grelots de fête (cousus sur un ruban, dans un petit pot fermé, ou un bracelet à grelots) deviennent un instrument idéal pour ses petites mains. Montre-lui comment les secouer en rythme sur une chanson, puis laisse-le improviser. Il adore le lien immédiat entre son geste et le son produit. Vous pouvez accompagner les comptines d'hiver de ce tintement. Atelier musical chaleureux pour les longues soirées d'hiver."
+        },
+        {
+          "titre": "La danse de la chanson du soir",
+          "texte": "À 19 mois, un rituel musical répété chaque soir structure le temps et rassure. Choisis une même chanson douce que vous « dansez » ensemble tous les soirs avant le coucher : tu le portes, tu balances doucement, tu chantes toujours les mêmes paroles. Au fil des semaines, la chanson devient un signal que son corps reconnaît : c'est le moment de ralentir. La répétition, loin d'ennuyer, sécurise profondément à cet âge. Ce rituel rythmé d'hiver s'ancre comme un repère que vous garderez peut-être des années."
+        }
+      ]
+    }
+  }
+}

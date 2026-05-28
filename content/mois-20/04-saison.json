@@ -1,0 +1,114 @@
+{
+  "mois": 20,
+  "tranche_age": "20 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 20 — Le Symbolique · Vivre la saison ensemble",
+  "description_m": "À 20 mois, {prenom} fait semblant : il donne à manger à sa peluche, parle dans un objet comme dans un téléphone, transforme un bâton en cuillère. La pensée symbolique éclôt. La saison lui offre mille objets à réinventer. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "description_f": "À 20 mois, {prenom} fait semblant : elle donne à manger à sa peluche, parle dans un objet comme dans un téléphone, transforme un bâton en cuillère. La pensée symbolique éclôt. La saison lui offre mille objets à réinventer. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "logique_selection": {
+    "regle": "À 20 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année — pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 20 mois, bébé régule très bien sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_20",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Le printemps offre une matière première infinie pour l'imaginaire : pétales-pièces de monnaie, brindilles-baguettes, feuilles-assiettes. Une saison de jeu symbolique à ciel ouvert.",
+      "a_savoir_cette_saison": "À 20 mois, le jeu de faire-semblant est le grand moteur du développement — il rejoue le réel pour le comprendre. Au printemps, les éléments naturels deviennent des accessoires d'imaginaire (un caillou devient un gâteau, une feuille devient une assiette). Entre dans son jeu sans le diriger : c'est lui le metteur en scène. Ce jeu construit le langage, l'empathie et la pensée abstraite.\n\nLes sorties s'allongent : prévois sa gourde, un chapeau dès que le soleil chauffe, et un change. Les pollens reviennent — vigilance si terrain allergique.",
+      "idees_du_moment": [
+        {
+          "titre": "La dinette de pétales et de cailloux",
+          "texte": "À 20 mois, transformer des objets naturels en nourriture imaginaire est un jeu symbolique fondateur. Au printemps, installe une « cuisine » dehors : quelques contenants (gobelets, boîtes, coquilles), et de la matière première (pétales, cailloux, herbe, terre). Il « cuisine », il « sert », il te « donne à manger ». Joue le jeu sincèrement : fais semblant de goûter, dis « mmh c'est délicieux ». Tu valides son monde imaginaire, ce qui le renforce. Ce jeu nourrit son langage (il nomme ses plats) et sa créativité bien plus qu'un jouet tout fait."
+        },
+        {
+          "titre": "Le pique-nique des doudous",
+          "texte": "À 20 mois, mettre en scène ses peluches dans une situation réelle déploie sa pensée symbolique. Par une belle journée de printemps, organise un vrai-faux pique-nique au parc avec ses doudous installés sur une nappe. Il leur « sert » à manger, leur « parle », les « couche » pour la sieste. Tu peux ajouter un vrai goûter pour lui au milieu. En rejouant les gestes du quotidien sur ses peluches, il les digère et les comprend. Ton rôle : observer, participer s'il t'invite, sans prendre les commandes de l'histoire."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_20",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été ouvre la grande scène du dehors : le sable devient gâteau, la coquille devient bateau, l'eau devient soupe. Une saison de métamorphoses pour un bébé qui invente le monde.",
+      "a_savoir_cette_saison": "À 20 mois, l'été offre le matériau roi du jeu symbolique : le sable, qui se transforme en tout (gâteau, montagne, route, repas). Laisse-le inventer sans modèle à reproduire — un château parfait t'intéresse, toi ; lui, c'est l'acte de transformer qui le passionne. Entre dans son histoire à sa demande.\n\nLes non-négociables d'été tiennent : chapeau, crème indice 50, eau toutes les 30 min, ombre, et surveillance directe permanente près de l'eau (quelques cm suffisent, en quelques secondes).",
+      "idees_du_moment": [
+        {
+          "titre": "La cuisine de sable et d'eau",
+          "texte": "À 20 mois, mélanger sable et eau pour « cuisiner » est un sommet du jeu symbolique estival. Avec des moules, une cuillère, des contenants et un peu d'eau, il prépare des « gâteaux », des « soupes », des « glaces ». Il te les sert, tu fais semblant de déguster. Le sable mouillé qui prend forme, l'eau qu'on verse, la matière qu'on transforme : tout nourrit son imaginaire et sa motricité. Surveillance directe près de l'eau, crème et chapeau. Ne corrige pas ses recettes : dans son monde, le sable EST du chocolat."
+        },
+        {
+          "titre": "Le marchand de glaces imaginaire",
+          "texte": "À 20 mois, rejouer une scène estivale connue déploie langage et pensée symbolique. L'été, bébé a sûrement observé un marchand de glaces, une terrasse, un vendeur ambulant. Donne-lui un cornet (un cône de papier), des « boules » improvisées (balles, pommes de pin, boules de tissu) et installe son petit stand. Il « sert » les glaces, annonce les « parfums » à sa façon, te les « vend ». Tu joues le client gourmand qui en redemande. Ce jeu rejoue une scène vécue, enrichit son vocabulaire et le fait rire. À l'ombre, sur une nappe ou une terrasse — aucun matériel sophistiqué nécessaire, son imaginaire fait tout le reste."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_20",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne remplit les paniers de trésors qui deviennent monnaie, ingrédients, personnages. Une saison de récolte parfaite pour un bébé qui rejoue la vie en miniature.",
+      "a_savoir_cette_saison": "À 20 mois, rejouer les gestes des adultes (faire les courses, cuisiner, soigner) l'aide à comprendre son monde. L'automne et ses récoltes offrent un théâtre idéal : marché imaginaire, soupe de feuilles, marrons-monnaie. Donne-lui de vrais petits accessoires (panier, porte-monnaie vide, casserole) plutôt que des jouets sophistiqués : le réel détourné nourrit mieux l'imaginaire.\n\nLes premiers gros rhumes circulent. Eau toute la journée, mouchage doux, et patience — il en aura plusieurs cette saison.",
+      "idees_du_moment": [
+        {
+          "titre": "Le marché imaginaire des trésors",
+          "texte": "À 20 mois, rejouer une scène sociale connue (faire les courses) déploie langage et symbolisation. Étale sur une table les trésors d'automne ramassés (marrons, glands, pommes de pin, feuilles) comme un étal de marché. Donne-lui un panier et des « pièces » (gros boutons, glands). Tu joues le marchand, il joue le client — puis on inverse. « Bonjour, je voudrais trois marrons s'il vous plaît. » Il paie, il range, il revient. Ce jeu rejoue une scène qu'il a vécue avec toi, en y ajoutant ses mots. Imaginaire, langage et lien, tout en un."
+        },
+        {
+          "titre": "La grande soupe d'automne imaginaire",
+          "texte": "À 20 mois, « cuisiner » pour de faux à partir d'éléments naturels est un classique du jeu symbolique. Donne-lui une grande casserole (vraie, pas un jouet), une cuillère en bois, et de la matière d'automne (feuilles, marrons, brindilles, un peu d'eau). Il remue sa « soupe », la « goûte », te la « sert ». Tu fais semblant de souffler dessus et de manger. Il rejoue ce qu'il t'a vu faire en cuisine, ce qui consolide sa compréhension du quotidien. Dehors ou sur une bâche dedans : ça déborde un peu, ça en vaut largement la peine."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_20",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver intérieur transforme le salon en scène de théâtre : la cabane sous la table, le téléphone qui sonne, le doudou qu'on soigne. Une saison de mondes inventés au chaud.",
+      "a_savoir_cette_saison": "À 20 mois, l'hiver à la maison est le moment idéal pour le jeu symbolique d'intérieur — cabanes, dînettes, soins aux peluches, mini-scènes du quotidien. Mets à sa disposition des objets réels détournés (vieux téléphone éteint, ustensiles incassables, boîtes) plutôt que des jouets électroniques qui font tout à sa place. L'imaginaire grandit quand l'objet est neutre et que c'est l'enfant qui lui donne vie.\n\nAvant 3 ans, aucun écran ne soutient ce développement — au contraire, il appauvrit le jeu libre. Ta présence et des objets simples valent infiniment mieux.",
+      "idees_du_moment": [
+        {
+          "titre": "La cabane sous la table",
+          "texte": "À 20 mois, un espace clos transformé en « maison » ou « grotte » déploie le jeu de faire-semblant. L'hiver, recouvre une table d'une grande couverture pour créer une cabane. À l'intérieur : un coussin, une lampe douce, son doudou, un livre. Il y « habite », y « dort », y « invite » ses peluches. Tu peux frapper « toc toc » pour entrer, demander si tu peux « venir prendre le thé ». Ce refuge symbolique nourrit son imaginaire ET son besoin de cocon hivernal. Un même drap, une infinité d'histoires."
+        },
+        {
+          "titre": "Le téléphone qui sonne",
+          "texte": "À 20 mois, faire semblant de téléphoner est un jeu symbolique riche en langage. Donne-lui un vieux téléphone éteint, une télécommande, ou simplement sa main contre l'oreille. « Dring dring ! C'est mamie ! » Il « répond », « parle », te « passe » l'appareil. Vous jouez une conversation à deux. Ce jeu fait exploser son langage (il rejoue des tournures entendues) et sa compréhension des relations. Parfait pour un après-midi d'hiver : zéro matériel, infiniment de variations. Tu peux appeler des personnages, des animaux, le Père Noël en décembre."
+        }
+      ]
+    }
+  }
+}

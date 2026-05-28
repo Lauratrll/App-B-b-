@@ -1,0 +1,114 @@
+{
+  "mois": 15,
+  "tranche_age": "15 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 15 — Le Bavard · Vivre la saison ensemble",
+  "description_m": "À 15 mois, {prenom} nomme, jargonne avec l'intonation d'une vraie phrase, pointe et attend que tu nommes en retour. Il comprend bien plus qu'il ne dit. La saison lui offre un vocabulaire vivant à découvrir, mot après mot. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "description_f": "À 15 mois, {prenom} nomme, jargonne avec l'intonation d'une vraie phrase, pointe et attend que tu nommes en retour. Elle comprend bien plus qu'elle ne dit. La saison lui offre un vocabulaire vivant à découvrir, mot après mot. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "logique_selection": {
+    "regle": "À 15 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année — pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 15 mois, bébé régule très bien sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_15",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Le printemps explose de choses à nommer : couleurs qui reviennent, animaux qui sortent, bruits qui se réveillent. Une saison faite pour un bébé qui collectionne les mots.",
+      "a_savoir_cette_saison": "À 15 mois, chaque chose pointée est une demande de mot. Au printemps, le monde se remplit de nouveautés à nommer (fleurs, insectes, oiseaux, premières feuilles). Réponds toujours à un pointage par le mot juste, lentement, une seule fois suffit. C'est ainsi que le vocabulaire explose entre 15 et 18 mois.\n\nLes pollens reviennent. Si terrain allergique, surveille un nez qui coule clair et des yeux qui démangent — et évite les sorties par temps sec et venteux en milieu de journée.",
+      "idees_du_moment": [
+        {
+          "titre": "Le tour des couleurs du jardin",
+          "texte": "À 15 mois, associer un mot à une couleur commence à se mettre en place. Au printemps, les couleurs reviennent en force : jonquille jaune, tulipe rouge, ciel bleu, herbe verte. Promène-toi lentement, accroupis-toi à sa hauteur, pointe une couleur et nomme-la une seule fois, clairement. Pas de leçon, pas de questionnaire (« c'est quoi la couleur ? » met la pression). Juste : tu vois, tu nommes, il enregistre. Refais le tour les jours suivants. En quelques semaines, il pointera lui-même la fleur jaune."
+        },
+        {
+          "titre": "Les bruits des animaux du printemps",
+          "texte": "À 15 mois, les onomatopées (cui-cui, coin-coin, miaou) sont des mots à part entière et souvent les premiers prononcés. Le printemps réveille les animaux : oiseaux qui chantent, canards au plan d'eau, chien du voisin. À chaque animal croisé, fais son bruit clairement et joyeusement. Il adore, il essaie de reproduire. Ces sons sont plus faciles à articuler que les mots complets et ouvrent la porte au langage. Bonus : le merle, la mésange, le coucou offrent des sons distincts à imiter."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_15",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été, ses repas en plein air, ses marchés colorés, ses sensations à dire. Une saison riche en mots de goût, de température, de plaisir à partager à voix haute.",
+      "a_savoir_cette_saison": "À 15 mois, nommer les sensations construit son intelligence émotionnelle et corporelle. L'été déborde de sensations fortes (chaud, froid, mouillé, doux) — mets des mots dessus en direct (« l'eau est froide », « le sable est chaud »). Il apprend à relier ce qu'il ressent à un mot, première marche vers la régulation des émotions.\n\nLa chaleur reste le risque n°1 : eau toutes les 30 minutes, chapeau, ombre, crème solaire indice 50. Et jamais seul près de l'eau, même 10 secondes.",
+      "idees_du_moment": [
+        {
+          "titre": "Nommer les fruits du marché",
+          "texte": "À 15 mois, le marché d'été est un imagier vivant et odorant. Devant les étals, porte-le à hauteur des fruits, pointe et nomme : « pêche », « melon », « tomate », « cerise ». Laisse-le toucher quand le marchand l'autorise, sentir, parfois goûter un quartier. L'association mot-objet-odeur-goût ancre le vocabulaire bien plus profondément qu'un livre. Tu peux faire de l'achat d'un fruit un mini-rituel hebdomadaire où il choisit et nomme. Le langage se construit dans le plaisir partagé, pas dans la répétition forcée."
+        },
+        {
+          "titre": "Les mots de l'eau",
+          "texte": "À 15 mois, l'été offre tout un champ lexical sensoriel autour de l'eau. Pendant un jeu d'eau au jardin (bassine, brumisateur, petit jet), accompagne chaque sensation d'un mot dit clairement : « ça coule », « ça éclabousse », « c'est mouillé », « ça goutte ». Il rit, il rejoue, il commence à anticiper le mot avant le geste. Tu transformes un moment de fraîcheur en bain de langage. Surveillance directe permanente près de l'eau, sans exception."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_15",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne raconte une histoire en images : la feuille qui tombe, la pluie qui arrive, le vent qui se lève. Une saison narrative parfaite pour un bébé qui découvre que les choses se disent.",
+      "a_savoir_cette_saison": "À 15 mois, raconter à voix haute ce qui se passe sous ses yeux nourrit son langage et sa compréhension du monde. L'automne offre des micro-événements à commenter en continu (« la feuille tombe », « il pleut », « le vent souffle »). Tu deviens le narrateur de son monde — c'est l'un des plus beaux cadeaux langagiers que tu puisses lui faire.\n\nLes premiers gros rhumes arrivent. Eau toute la journée, mouchage doux, patience. Pas de sirop avant 2 ans, jamais de miel avant 1 an.",
+      "idees_du_moment": [
+        {
+          "titre": "Raconter ce que fait l'écureuil",
+          "texte": "À 15 mois, mettre des mots sur une scène vivante l'aide à structurer sa pensée et nourrit son vocabulaire. L'automne, c'est la saison où les écureuils s'activent à faire leurs réserves, où les oiseaux se rassemblent avant de partir. En promenade, dès qu'un animal s'active, commente en direct, lentement : « regarde, l'écureuil ramasse… il court… il cache sa noisette ». Il suit du regard, écoute le récit qui colle à ce qu'il voit. Cette synchronisation mot-événement est la base de la compréhension narrative. Les scènes animées de l'automne sont un théâtre parfait pour raconter le monde à voix haute."
+        },
+        {
+          "titre": "L'imagier des trésors ramassés",
+          "texte": "À 15 mois, un imagier qu'il a lui-même constitué a infiniment plus de valeur qu'un livre acheté. Au retour d'une cueillette d'automne, colle ou pose sur une grande feuille cartonnée quelques trésors (une feuille, un gland, un morceau d'écorce, une plume). Chaque jour, tournez-vous vers ce tableau et nomme chaque élément, une fois, en pointant. Il associe l'objet réel qu'il a ramassé au mot. Tu peux ajouter de nouveaux trésors au fil des promenades. Vocabulaire d'automne vivant, fabriqué à deux."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_15",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver intérieur ralentit et invite aux longs moments de lecture, de chansons, de mots échangés au chaud. Une saison cocon idéale pour faire fleurir le langage.",
+      "a_savoir_cette_saison": "À 15 mois, l'hiver est la saison reine de la lecture partagée — câblage langagier maximal. Lis-lui des livres cartonnés tous les jours, lentement, en pointant les images, en acceptant qu'il tourne les pages dans le désordre ou revienne dix fois à la même. Les enfants lus régulièrement avant 2 ans ont un vocabulaire nettement plus riche à 3 ans.\n\nLes écrans tentent fort l'hiver. Avant 3 ans, ils freinent le langage au lieu de l'aider — même les programmes « éducatifs ». Le seul vrai moteur du langage à cet âge, c'est ta voix.",
+      "idees_du_moment": [
+        {
+          "titre": "Le rituel du livre du soir",
+          "texte": "À 15 mois, un même livre relu chaque soir devient un repère sécurisant ET un tremplin de langage. Choisis un livre cartonné simple, avec de grandes images claires. Chaque soir avant le coucher, lis-le lentement, pointe, nomme, fais les bruits. Au fil des semaines, marque une pause avant le dernier mot d'une phrase qu'il connaît : souvent, il le complétera à sa façon. Ce rituel d'hiver installe à la fois le plaisir des mots et un ancrage du coucher. Garde le même livre des semaines : la répétition est exactement ce dont son cerveau a besoin."
+        },
+        {
+          "titre": "Les chansons à gestes au coin du feu",
+          "texte": "À 15 mois, les comptines à gestes associent mots, mélodie et mouvement — combinaison idéale pour le langage. À l'abri du froid, installez-vous pour chanter des comptines simples accompagnées de gestes (« Ainsi font font font », « Petit escargot », « Bateau sur l'eau »). Il anticipe les gestes avant les mots, puis commence à fredonner, puis à dire quelques bouts. La mélodie porte le langage là où la parole seule n'irait pas encore. Rituel d'hiver parfait pour les après-midis trop froids pour sortir longtemps."
+        }
+      ]
+    }
+  }
+}
