@@ -91,15 +91,15 @@ export default async function GuidePage() {
                 display: "flex",
                 alignItems: "center",
                 gap: 12,
-                padding: "9px 14px",
+                padding: "11px 14px",
                 width: "75%",
                 textDecoration: "none",
               }}
             >
               <span
                 style={{
-                  width: 26,
-                  height: 26,
+                  width: 28,
+                  height: 28,
                   borderRadius: "50%",
                   background: slot.avatarBg,
                   display: "flex",
@@ -111,7 +111,7 @@ export default async function GuidePage() {
                 <CategoryIcon
                   categoryKey={cat.id}
                   color={GUIDE_TEXT}
-                  size={16}
+                  size={17}
                   emoji={cat.icone}
                 />
               </span>
@@ -120,7 +120,7 @@ export default async function GuidePage() {
                   flex: 1,
                   fontFamily: PLAYFAIR,
                   fontWeight: 600,
-                  fontSize: 14,
+                  fontSize: 15,
                   color: GUIDE_TEXT,
                   letterSpacing: "-.01em",
                 }}
