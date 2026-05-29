@@ -23,7 +23,7 @@ const FIRST_STYLE: React.CSSProperties = {
   letterSpacing: ".06em",
   textTransform: "uppercase",
   fontWeight: 600,
-  lineHeight: "normal",
+  lineHeight: 1.25,
 };
 
 const SECOND_STYLE: React.CSSProperties = {
@@ -31,7 +31,7 @@ const SECOND_STYLE: React.CSSProperties = {
   color: GUIDE_TEXT,
   fontWeight: 400,
   fontStyle: "italic",
-  lineHeight: "normal",
+  lineHeight: 1.25,
 };
 
 function SituationButton({
@@ -75,7 +75,18 @@ function SituationButton({
         textDecoration: "none",
       }}
     >
-      <span style={{ flex: 1, color: GUIDE_TEXT, position: "relative" }}>
+      <span
+        style={{
+          flex: 1,
+          color: GUIDE_TEXT,
+          position: "relative",
+          // Cale le « strut » de ligne sur la taille du texte (12px) au lieu
+          // d'hériter des 16px du lien parent — sinon les capitales sur 2
+          // lignes sont trop espacées.
+          fontSize: 12,
+          lineHeight: 1.25,
+        }}
+      >
         {/* Probe invisible : mesure la hauteur réelle de la ligne 1 seule. */}
         <span
           ref={probeRef}
