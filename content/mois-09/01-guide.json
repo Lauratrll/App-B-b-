@@ -11,54 +11,62 @@
     {
       "id": "pleurs",
       "nom": "Pleurs & inconfort",
+      "sous_titre": "Pleurs de séparation, pleurs de frustration",
       "icone": "😢"
     },
     {
       "id": "alim",
       "nom": "Alimentation",
+      "sous_titre": "Cuillère refusée, plafond de textures",
       "icone": "🍽️"
     },
     {
       "id": "sommeil",
       "nom": "Sommeil",
+      "sous_titre": "Réveils debout, appels nocturnes",
       "icone": "😴"
     },
     {
       "id": "motricite",
       "nom": "Motricité & corps",
+      "sous_titre": "Quatre pattes, debout, frustration motrice",
       "icone": "🤸"
     },
     {
       "id": "stimu",
       "nom": "Sur-stimulation",
+      "sous_titre": "Retour crèche, visites, sorties",
       "icone": "⚡"
     },
     {
       "id": "sepa",
       "nom": "Séparation & lien",
+      "sous_titre": "Angoisse de séparation au pic",
       "icone": "💔"
     },
     {
       "id": "dents",
       "nom": "Poussées dentaires",
+      "sous_titre": "Incisives latérales, douleur",
       "icone": "🦷"
     },
     {
       "id": "parent",
       "nom": "Parent dépassé",
+      "sous_titre": "Saturation, charge mentale, retour pro",
       "icone": "💧"
     }
   ],
   "protocoles": [
     {
       "categorie": "pleurs",
-      "situation": "Bébé pleure dès qu'il me voit préparer mes affaires",
-      "titre": "Pleurs anticipatoires au départ",
+      "situation": "PLEURS ANTICIPATOIRES / dès qu'il me voit préparer mes affaires",
+      "titre": "Pleurs anticipatoires — dès qu'il me voit préparer mes affaires",
       "explication": "À 9 mois, ton bébé reconnaît les signaux du départ : tu prends ton sac, tu mets ton manteau, tu sors les clés. Il anticipe la séparation avant même qu'elle commence — c'est le signe d'une mémoire qui se construit et d'un lien fort. Son cerveau associe ces gestes à ton absence, et déclenche la détresse avant même que tu sois parti(e). Ce n'est pas du chantage. C'est un cerveau qui apprend à anticiper, et qui n'a pas encore les outils pour gérer ce qu'il anticipe.",
       "ancrage": "Ses pleurs au départ ne sont pas un signe que tu fais quelque chose de mal. Ils sont un signe qu'il t'aime. Ton rôle n'est pas d'éviter la séparation, mais de la rendre lisible et fiable.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "S'accroupir à son niveau, regard à hauteur : \"Je vois que tu as vu mon sac. Je vais sortir bientôt.\"",
@@ -69,8 +77,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — au retour ou avant",
         "etapes": [
           "Au retour : s'accroupir, laisser bébé venir vers toi, ne pas le forcer si il est en colère",
@@ -97,13 +105,13 @@
     },
     {
       "categorie": "pleurs",
-      "situation": "Pleurs nocturnes avec recherche active du parent",
-      "titre": "Réveils nocturnes avec angoisse de séparation",
+      "situation": "RÉVEILS NOCTURNES / avec angoisse de séparation",
+      "titre": "Réveils nocturnes — avec angoisse de séparation",
       "explication": "À 9 mois, beaucoup de bébés qui dormaient bien recommencent à se réveiller la nuit. La permanence de l'objet vient d'être acquise : bébé sait maintenant que tu existes ailleurs quand il ne te voit pas, et il te cherche activement. Ses réveils ne sont plus juste physiologiques — ils sont relationnels. Il vérifie que tu es toujours là. Ces réveils sont normaux à cet âge, et ils diminueront naturellement quand la confiance dans la continuité de la présence se sera installée.",
       "ancrage": "Bébé ne se réveille pas pour t'embêter. Il se réveille parce qu'il vient de comprendre que tu peux exister sans lui — et ça l'angoisse. Ton rôle : confirmer que tu es là, sans installer de nouvelle dépendance.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "Attendre 2-3 min avant d'intervenir — bébé peut se rendormir seul",
@@ -114,8 +122,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — si bébé reste éveillé",
         "etapes": [
           "Prendre bébé contre toi en position verticale, contre l'épaule, dans le silence",
@@ -142,13 +150,13 @@
     },
     {
       "categorie": "pleurs",
-      "situation": "Bébé pleure de frustration quand un objet est hors d'atteinte",
-      "titre": "Pleurs de frustration motrice ou cognitive",
+      "situation": "PLEURS DE FRUSTRATION / motrice ou cognitive",
+      "titre": "Pleurs de frustration — motrice ou cognitive",
       "explication": "À 9 mois, ton bébé voit ce qu'il veut, comprend qu'il peut aller le chercher, mais son corps ou son raisonnement ne suit pas toujours. Il pointe, il tend la main, il rampe — et parfois la frustration explose en pleurs ou en cris aigus. C'est un signe d'intelligence vive : l'écart entre ce qu'il veut et ce qu'il peut faire se creuse, parce que sa cognition avance plus vite que sa motricité. Cette frustration est saine, elle nourrit le développement.",
       "ancrage": "La frustration de ton bébé est la preuve que son envie de faire dépasse ce que son corps sait encore. C'est l'élan qui le fera progresser. Ton rôle : nommer, accompagner, ne pas tout résoudre à sa place.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "S'accroupir, regard à hauteur : \"Tu veux ce jouet. Je vois.\"",
@@ -159,8 +167,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — décharge après la frustration",
         "etapes": [
           "Si bébé est trop décompensé pour reprendre l'activité, prendre contre soi",
@@ -187,13 +195,13 @@
     },
     {
       "categorie": "pleurs",
-      "situation": "Bébé hurle dès qu'un adulte non familier s'approche",
-      "titre": "Peur de l'étranger qui s'installe",
+      "situation": "PEUR DE L'ÉTRANGER / qui s'installe",
+      "titre": "Peur de l'étranger — qui s'installe",
       "explication": "Entre 8 et 10 mois, beaucoup de bébés développent une peur claire des personnes non familières — même de proches qu'ils voyaient régulièrement avant. C'est l'angoisse de l'étranger, un phénomène universel et nécessaire au développement. Bébé fait maintenant la différence entre les figures d'attachement principales et les autres — c'est une preuve d'intelligence sociale. Ce phénomène culmine vers 9-10 mois et s'apaise progressivement vers 18 mois selon les enfants.",
       "ancrage": "Ton bébé n'est pas mal élevé, ni timide pathologiquement. Il a appris à reconnaître ses figures de sécurité — c'est une compétence sociale en construction. Ton rôle : respecter sa peur, ne pas forcer le contact.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "Garder bébé contre toi, face à l'extérieur ou face à toi selon sa préférence",
@@ -204,8 +212,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — restaurer la sécurité",
         "etapes": [
           "Si bébé est très tendu : aller dans une pièce séparée pendant 5 min, juste vous deux",
@@ -232,13 +240,13 @@
     },
     {
       "categorie": "alim",
-      "situation": "Bébé refuse la cuillère et veut tout manger seul",
-      "titre": "Refus de la cuillère, demande d'autonomie",
+      "situation": "REFUS DE LA CUILLÈRE / demande d'autonomie",
+      "titre": "Refus de la cuillère — demande d'autonomie",
       "explication": "À 9 mois, beaucoup de bébés veulent prendre le contrôle de leur alimentation. Le réflexe d'extrusion a disparu, la pince pouce-index se développe, et bébé observe qu'il peut saisir des morceaux. Refuser la cuillère n'est pas un caprice : c'est un signe d'autonomie naissante et de coordination œil-main qui mûrit. C'est aussi l'âge où la diversification menée par l'enfant (DME) devient pleinement adaptée, en complément de la cuillère selon les familles.",
       "ancrage": "Bébé ne refuse pas la nourriture, il refuse la passivité. Son envie de manger seul est le signal que son corps et son cerveau sont prêts pour plus d'autonomie alimentaire. Tu n'as pas perdu une bataille — tu en gagnes une autre.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "Donner une cuillère à bébé, même s'il ne sait pas s'en servir — il joue, il imite",
@@ -249,8 +257,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — après le repas",
         "etapes": [
           "Une fois le repas terminé, nettoyer mains et visage avec un gant tiède en nommant : \"on lave la main, on lave la joue\"",
@@ -277,13 +285,13 @@
     },
     {
       "categorie": "alim",
-      "situation": "Bébé n'accepte que 2-3 textures depuis des semaines",
-      "titre": "Plafond de textures qui persiste",
+      "situation": "PLAFOND DE TEXTURES / qui persiste depuis des semaines",
+      "titre": "Plafond de textures — qui persiste depuis des semaines",
       "explication": "À 9 mois, certains bébés se cantonnent à quelques textures et refusent tout le reste : seulement la purée lisse, ou seulement le riz mou, ou seulement le pain. Ce plafond peut venir de plusieurs facteurs : sensibilité orale particulière, transition trop rapide vers des textures complexes, manque d'exposition variée, ou tout simplement préférence sensorielle individuelle. Élargir le répertoire demande de la patience et une approche progressive — sans pression.",
       "ancrage": "Un répertoire alimentaire qui s'élargit lentement est plus durable qu'un répertoire imposé. Ton rôle n'est pas de \"faire manger plus de choses\" — c'est de proposer régulièrement sans pression, et de laisser le temps faire son travail.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "À chaque repas, proposer 1 aliment habituel (accepté) + 1 aliment à découvrir, en petite quantité",
@@ -294,8 +302,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — pré-repas pour bébé tendu",
         "etapes": [
           "Avant le repas, 2 min de jeu sensoriel oral : laisser bébé manipuler une cuillère propre, un anneau de dentition",
@@ -322,13 +330,13 @@
     },
     {
       "categorie": "alim",
-      "situation": "Bébé se distrait au moindre bruit pendant les repas",
-      "titre": "Distractibilité massive aux repas",
+      "situation": "DISTRACTIBILITÉ MASSIVE / aux repas",
+      "titre": "Distractibilité massive — aux repas",
       "explication": "À 9 mois, le monde devient passionnant. Un bruit, un mouvement, une lumière — et bébé décroche du repas pour explorer du regard ou du corps. Sa curiosité éveillée signe un cerveau en pleine maturation cognitive. Le revers : les repas peuvent devenir longs, fragmentés, frustrants. Ce n'est pas un trouble de l'alimentation — c'est une compétition d'intérêt entre la nourriture et l'environnement. L'environnement gagne souvent à cet âge.",
       "ancrage": "La distractibilité de ton bébé est le signe qu'il est éveillé et curieux du monde. Ton rôle : créer un environnement de repas calme, pas la forcer à manger malgré le chaos.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "Couper toutes les sources de distraction : télé, radio, téléphone hors de vue, jouets rangés",
@@ -339,8 +347,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — recentrer avant le repas",
         "etapes": [
           "Avant d'installer bébé, 2 min de présence calme : peau contre peau, ou câlin assis",
@@ -367,13 +375,13 @@
     },
     {
       "categorie": "alim",
-      "situation": "Bébé recrache systématiquement tout ce qu'il met en bouche",
-      "titre": "Recrachement systématique alimentaire",
+      "situation": "RECRACHEMENT SYSTÉMATIQUE / tout ce qu'il met en bouche",
+      "titre": "Recrachement systématique — tout ce qu'il met en bouche",
       "explication": "À 9 mois, recracher peut avoir plusieurs significations : exploration sensorielle (bébé teste la texture, la température), réflexe encore actif sur certaines textures, refus actif d'une saveur, ou difficulté de coordination langue-déglutition. Le recrachement n'est pas un échec — c'est souvent une étape normale du tri sensoriel. Avant de s'inquiéter, observer le contexte : recrache-t-il TOUT ou seulement certains aliments ? À quel moment du repas ?",
       "ancrage": "Recracher fait partie du langage corporel du bébé qui apprend à manger. Ton rôle : observer ce qui est recraché, ne pas le réinjecter, et faire confiance au tri qu'il fait.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "Observer ce qui est recraché : un aliment précis ? une texture ? un moment du repas ?",
@@ -384,8 +392,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — préparation orale avant repas",
         "etapes": [
           "Massage doux des joues : du tympan vers la commissure des lèvres, 3 passages chaque côté",
@@ -412,13 +420,13 @@
     },
     {
       "categorie": "sommeil",
-      "situation": "Bébé se réveille debout dans son lit et n'arrive plus à se rasseoir",
-      "titre": "Réveil debout, coincé dans le lit",
+      "situation": "RÉVEIL DEBOUT DANS LE LIT / coincé sans pouvoir se rasseoir",
+      "titre": "Réveil debout — coincé sans pouvoir se rasseoir",
       "explication": "À 9 mois, beaucoup de bébés savent se mettre debout en s'aidant des barreaux du lit, mais ne savent pas encore redescendre. Ils se réveillent la nuit, se retrouvent debout, pleurent — coincés dans une position qu'ils ont apprise à atteindre mais pas à quitter. C'est typique des phases d'acquisition motrice : le cerveau apprend l'aller avant le retour. Cette phase dure de 1 à 3 semaines selon les enfants, le temps que la séquence inverse s'installe.",
       "ancrage": "Bébé ne se réveille pas pour t'embêter, il se réveille parce que son corps a appris quelque chose de nouveau et l'a déclenché malgré lui. Ton rôle : l'aider à apprendre la descente, en journée, par le jeu.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "Entrer en silence, lumière éteinte, ne pas allumer ni parler",
@@ -429,8 +437,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — entraînement de jour",
         "etapes": [
           "Pendant la journée, l'aider à pratiquer la descente : guider ses mains pour qu'il plie les genoux et s'asseye depuis debout",
@@ -457,13 +465,13 @@
     },
     {
       "categorie": "sommeil",
-      "situation": "Bébé se réveille à 4h30 ou 5h et refuse de se rendormir",
-      "titre": "Réveil précoce impossible à recoucher",
+      "situation": "RÉVEIL PRÉCOCE / impossible à recoucher",
+      "titre": "Réveil précoce — impossible à recoucher",
       "explication": "Le réveil très précoce à 9 mois peut venir de plusieurs facteurs combinés : coucher trop tardif (paradoxalement, plus tard = réveil plus précoce à cause du cortisol), bruit ambiant du petit matin (oiseaux, voisinage), luminosité qui filtre, ou faim réelle si le dîner était léger. Avant 5h-5h30, c'est encore la nuit pour le cerveau de bébé. Le retour au sommeil dépend de l'environnement et de la dette de sommeil cumulée.",
       "ancrage": "Le réveil de 4h30 n'est pas une décision de bébé — c'est souvent un déséquilibre dans la chronologie de sa journée. Ton rôle : ajuster en amont, pas réagir en aval.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "Vérifier que la chambre est encore TOTALEMENT noire (rideaux occultants, pas de filet de lumière)",
@@ -474,8 +482,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — pour favoriser le rendormissement",
         "etapes": [
           "Bercement très lent en position verticale, dans le silence complet",
@@ -502,13 +510,13 @@
     },
     {
       "categorie": "sommeil",
-      "situation": "Bébé refuse brutalement la sieste du matin",
-      "titre": "Transition de 2 siestes vers 1 sieste",
+      "situation": "TRANSITION DE 2 SIESTES VERS 1 / refus de celle du matin",
+      "titre": "Transition de 2 siestes vers 1 — refus de celle du matin",
       "explication": "Entre 8 et 14 mois, la plupart des bébés passent de 2 siestes à 1 seule sieste plus longue après le repas du midi. La transition n'est pas linéaire : pendant plusieurs semaines, certains jours la sieste du matin reste nécessaire, d'autres jours bébé la refuse complètement. Cette phase d'instabilité est normale. La sieste qui reste, vers 11h30-13h30, devient le pilier du sommeil de journée.",
       "ancrage": "Ton bébé n'a pas \"perdu une sieste\". Il fait évoluer son rythme. Ton rôle : reconnaître les signaux du jour, sans imposer un calendrier rigide.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "Observer les signaux : si bébé bâille avant 10h et se frotte les yeux, la sieste matin reste utile",
@@ -519,8 +527,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — favoriser la sieste de midi",
         "etapes": [
           "Avant la sieste, 5 min d'éveil calme : livre cartonné, comptine douce, lumière tamisée",
@@ -547,13 +555,13 @@
     },
     {
       "categorie": "sommeil",
-      "situation": "Bébé m'appelle 'maman/papa' la nuit pour vérifier ma présence",
-      "titre": "Appels nocturnes de vérification",
+      "situation": "APPELS NOCTURNES / de vérification de présence",
+      "titre": "Appels nocturnes — de vérification de présence",
       "explication": "À 9 mois, certains bébés commencent à émettre des syllabes proches de \"mama\", \"papa\", \"baba\" — pas encore avec sens conscient, mais ces sons attirent attention parentale et obtiennent une réponse. Si bébé se réveille la nuit et appelle, il vérifie que tu es toujours là. C'est lié à la permanence de l'objet qui s'installe : bébé sait que tu existes, et il veut s'en assurer. Ces appels sont rassurants quand ils restent espacés ; problématiques quand ils deviennent multiples.",
       "ancrage": "Ces appels sont une compétence de communication qui émerge. Ton rôle : rassurer par la présence ET ne pas installer une réponse longue à chaque appel, sinon le pattern se cristallise.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "Attendre 2-3 min — bébé peut se rendormir seul après l'appel",
@@ -564,8 +572,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — si bébé reste éveillé",
         "etapes": [
           "Si bébé ne se rendort pas après 5 min, prendre contre soi position verticale, en silence",
@@ -592,13 +600,13 @@
     },
     {
       "categorie": "motricite",
-      "situation": "Bébé n'est pas encore en quatre pattes à 9 mois",
-      "titre": "Pas de quatre pattes à 9 mois",
+      "situation": "PAS DE QUATRE PATTES À 9 MOIS / observer le développement global",
+      "titre": "Pas de quatre pattes à 9 mois — observer le développement global",
       "explication": "Le quatre pattes apparaît typiquement entre 7 et 10 mois — mais 15% des bébés ne passent jamais par cette étape et passent directement à la station debout ou au déplacement assis (shuffling). Ne pas faire de quatre pattes à 9 mois n'est pas en soi un retard. Ce qui importe : bébé se déplace-t-il d'une manière ou d'une autre (roulés, reptation, pivots, déplacements assis) ? Cherche-t-il à atteindre les objets éloignés ? La diversité des stratégies motrices est plus importante que la conformité à une étape précise.",
       "ancrage": "Chaque bébé construit sa motricité à son propre rythme et selon son propre chemin. Le quatre pattes n'est pas obligatoire. Ton rôle : créer un environnement qui permet le mouvement libre, et faire confiance à son tempo.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "Observer la diversité de ses mouvements : se retourne-t-il ? Pivote-t-il sur le ventre ? Tend-t-il les bras pour avancer ?",
@@ -609,8 +617,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — soutien moteur global",
         "etapes": [
           "Massage des jambes en position dorsale : du haut vers les pieds, lent, pression douce, 2 min",
@@ -637,13 +645,13 @@
     },
     {
       "categorie": "motricite",
-      "situation": "Bébé se met debout mais ne sait pas redescendre",
-      "titre": "Station debout sans descente acquise",
+      "situation": "STATION DEBOUT SANS DESCENTE / acquisition partielle",
+      "titre": "Station debout sans descente — acquisition partielle",
       "explication": "Vers 8-10 mois, beaucoup de bébés découvrent qu'ils peuvent se mettre debout en s'aidant des meubles ou des barreaux du lit. La séquence motrice de la montée est apprise — mais la séquence inverse (plier les genoux, contrôler la descente) demande un autre temps d'apprentissage. Bébé reste donc parfois bloqué debout, agrippé à un meuble, et pleure de fatigue ou de frustration. Cette phase dure typiquement 1 à 3 semaines.",
       "ancrage": "Bébé n'est pas \"coincé\" — il est en pleine acquisition d'une nouvelle séquence motrice. Ton rôle : lui enseigner doucement le retour au sol, en journée et par le jeu.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "S'approcher calmement, regard à hauteur : \"Tu es debout. Je vois que tu es coincé.\"",
@@ -654,8 +662,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — détendre les muscles après station debout prolongée",
         "etapes": [
           "Bébé allongé sur le dos, masser doucement chaque jambe du haut vers le bas, 1 min par jambe",
@@ -682,13 +690,13 @@
     },
     {
       "categorie": "motricite",
-      "situation": "Bébé pleure intensément quand il est coincé sur le ventre",
+      "situation": "FRUSTRATION MOTRICE / coincé sur le ventre",
       "titre": "Frustration motrice — coincé sur le ventre",
       "explication": "À 9 mois, bébé peut savoir se retourner du dos au ventre mais avoir perdu, momentanément, la séquence inverse — ou simplement préférer ne pas le faire. Coincé sur le ventre la nuit, il pleure. Le jour, il pleure aussi parfois sur le ventre après un retournement non choisi. Ce n'est ni une régression ni un caprice : c'est une phase d'instabilité motrice où les acquis nouveaux occupent tout l'espace neurologique et masquent temporairement les anciens.",
       "ancrage": "Cette frustration est l'écart entre ce que son corps a appris à faire et ce qu'il sait à nouveau défaire. Ton rôle : ne pas résoudre à sa place tout le temps, et entraîner la séquence inverse par le jeu.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "Observer 30 sec avant d'intervenir : bébé tente-t-il quelque chose ?",
@@ -699,8 +707,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — entraîner la séquence inverse",
         "etapes": [
           "Pendant la journée, pratiquer le retournement ventre→dos par le jeu : objet attractif placé au-dessus de la tête",
@@ -727,13 +735,13 @@
     },
     {
       "categorie": "motricite",
-      "situation": "Bébé se déplace assis en glissant sur les fesses (shuffling)",
+      "situation": "DÉPLACEMENT ASSIS / shuffling",
       "titre": "Déplacement assis — shuffling",
       "explication": "Le shuffling, déplacement assis en glissant sur les fesses, concerne environ 5-10% des bébés. C'est un mode de déplacement à part entière, alternatif au quatre pattes. Il est efficace, et beaucoup de bébés \"shufflers\" passent ensuite directement à la marche sans jamais avoir rampé. Ce n'est pas un retard ni une anomalie — c'est une stratégie motrice différente. Certains chercheurs y voient même une efficacité énergétique supérieure pour certains profils.",
       "ancrage": "Si bébé shuffle, il n'est ni en retard ni en avance — il a choisi un autre chemin. Ton rôle : ne pas vouloir corriger, mais offrir aussi l'opportunité de varier les positions.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "Observer comment bébé shuffle : sur les fesses uniquement, ou avec une jambe pliée et l'autre tendue ?",
@@ -744,8 +752,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — équilibrer les chaînes musculaires",
         "etapes": [
           "Massage des jambes et du bassin pour assouplir les muscles très sollicités en shuffling : 2 min par jambe",
@@ -772,13 +780,13 @@
     },
     {
       "categorie": "stimu",
-      "situation": "Bébé est ingérable au retour de la crèche ou de la nounou",
-      "titre": "Hyperéveil de fin de journée après la garde",
+      "situation": "HYPERÉVEIL DE FIN DE JOURNÉE / après la garde",
+      "titre": "Hyperéveil de fin de journée — après la garde",
       "explication": "À 9 mois, la journée en collectivité ou chez une nounou expose bébé à énormément de stimuli : bruits, lumières, autres bébés, transitions multiples. Son système nerveux immature accumule ces stimuli sans pouvoir les filtrer entièrement. Au moment où il te retrouve, c'est la décompression : pleurs, cris, agitation, refus du calme. Ce n'est pas un rejet — c'est la libération du trop-plein retenu de la journée, dans le seul espace où il se sent assez en sécurité pour le faire : toi.",
       "ancrage": "Plus ton bébé décharge fort avec toi, plus tu es son refuge sûr. Cette intensité est un compliment, même si elle est éprouvante. Ton rôle : accueillir la décharge sans chercher à la couper court.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "Prendre bébé contre toi en position verticale dès les retrouvailles, sans demander \"comment ça s'est passé ?\"",
@@ -789,8 +797,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — réguler le système nerveux",
         "etapes": [
           "Bébé contre toi, en position verticale, ton souffle audible et lent",
@@ -817,13 +825,13 @@
     },
     {
       "categorie": "stimu",
-      "situation": "Bébé refuse les bras de toute personne autre que le parent référent",
-      "titre": "Préférence parentale exclusive en surcharge",
+      "situation": "PRÉFÉRENCE PARENTALE EXCLUSIVE / en surcharge",
+      "titre": "Préférence parentale exclusive — en surcharge",
       "explication": "Vers 9 mois, beaucoup de bébés développent une préférence exclusive pour UN parent — souvent celui qui passe le plus de temps avec eux. Cette préférence peut s'intensifier dans les moments de fatigue ou de sur-stimulation : seul ce parent peut calmer bébé. C'est l'expression conjuguée de l'angoisse de séparation, de l'attachement principal qui se cristallise, et d'une stratégie de survie sensorielle (un repère unique en cas de débordement). C'est temporaire — mais peut peser lourd pour les deux parents.",
       "ancrage": "La préférence parentale n'est ni un rejet du co-parent, ni un échec — c'est une stratégie d'attachement adaptative. Elle évolue. Ton rôle (parent référent) : ne pas porter seule la régulation. Ton rôle (co-parent) : ne pas se retirer.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "Si bébé est en sur-stimulation, le parent référent prend en priorité pour calmer rapidement",
@@ -834,8 +842,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — par le co-parent",
         "etapes": [
           "Bébé contre le co-parent, position verticale, sans pression",
@@ -862,13 +870,13 @@
     },
     {
       "categorie": "stimu",
-      "situation": "Bébé est sur-éveillé après la visite des grands-parents",
-      "titre": "Décompression après visite familiale",
+      "situation": "DÉCOMPRESSION / après visite familiale",
+      "titre": "Décompression — après visite familiale",
       "explication": "Les visites des grands-parents ou de la famille élargie sont des sources de stimulation intense pour un bébé de 9 mois : voix multiples, jouets nouveaux, bras qui se relaient, exclamations enthousiastes. Bébé absorbe tout, et la décharge arrive après le départ — souvent sous forme de pleurs, d'agitation extrême, ou de difficulté à s'endormir. C'est physiologique, pas relationnel. La famille n'a rien fait \"de mal\" — c'est juste le coût normal d'une stimulation intense pour un système nerveux jeune.",
       "ancrage": "L'hyperéveil post-visite n'est pas un signe que la visite était mauvaise. C'est le signe que ton bébé a absorbé beaucoup. Ton rôle : ne pas culpabiliser, et restaurer le calme avec patience.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "Couper TOUTE source de stimulation supplémentaire : télé, musique, jouets sonores rangés",
@@ -879,8 +887,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — apaiser le système nerveux saturé",
         "etapes": [
           "Bain tiède court (5-7 min, 37°C), eau et lumière douces, sans jouets",
@@ -907,13 +915,13 @@
     },
     {
       "categorie": "stimu",
-      "situation": "Bébé craque en pleine sortie dans un lieu très stimulant",
-      "titre": "Décompensation en sortie publique",
+      "situation": "DÉCOMPENSATION EN SORTIE / dans un lieu très stimulant",
+      "titre": "Décompensation en sortie — dans un lieu très stimulant",
       "explication": "À 9 mois, certains lieux publics sont des bombes sensorielles pour le système nerveux d'un bébé : centres commerciaux, supermarchés, fêtes, restaurants bruyants. La stimulation visuelle, sonore, olfactive simultanée dépasse rapidement les capacités de filtrage. Bébé peut tenir 20-30 min, puis basculer brutalement en pleurs aigus ou en agitation impossible à calmer sur place. Ce n'est pas un \"caprice\" — c'est un système nerveux qui dit stop, sans nuance possible.",
       "ancrage": "La décompensation en sortie est un signal clair de débordement. Ton rôle n'est pas de \"tenir le programme\" — c'est de capter le signal et de sortir du contexte.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "Sortir IMMÉDIATEMENT du lieu sur-stimulant — abandonner les courses, le rendez-vous, peu importe",
@@ -924,8 +932,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — restaurer le calme intérieur",
         "etapes": [
           "Une fois au calme, bercement très lent en position verticale",
@@ -952,13 +960,13 @@
     },
     {
       "categorie": "sepa",
-      "situation": "Bébé pleure dès que je sors de son champ de vision dans la maison",
-      "titre": "Vigilance visuelle continue, refus de me perdre du regard",
+      "situation": "VIGILANCE VISUELLE CONTINUE / refus de me perdre du regard",
+      "titre": "Vigilance visuelle continue — refus de me perdre du regard",
       "explication": "Vers 8-10 mois, l'angoisse de séparation atteint son pic — coïncidant avec l'acquisition de la permanence de l'objet. Bébé sait maintenant que tu existes même quand il ne te voit pas, mais cette connaissance toute neuve crée une vigilance permanente : il vérifie sans cesse, te suit du regard, panique parfois quand tu sors de son champ de vision même 30 secondes. Ce n'est pas pathologique — c'est l'apogée d'une étape développementale. Elle s'apaise progressivement vers 18 mois.",
       "ancrage": "La vigilance de ton bébé est le signe d'un attachement sécure qui se construit. Plus il s'accroche maintenant, plus il sera capable de se détacher en confiance plus tard.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "Verbaliser tes sorties de pièce : \"Je vais à la cuisine. Je reviens.\"",
@@ -969,8 +977,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — entraîner la confiance dans le retour",
         "etapes": [
           "Pratiquer le jeu du \"coucou\" plusieurs fois par jour, sous toutes les formes (visage caché, foulard, sortir d'une pièce et revenir)",
@@ -997,13 +1005,13 @@
     },
     {
       "categorie": "sepa",
-      "situation": "Bébé hurle même quand les grands-parents familiers viennent",
+      "situation": "ANGOISSE DE L'ÉTRANGER / même proches familiers",
       "titre": "Angoisse de l'étranger — même proches familiers",
       "explication": "L'angoisse de l'étranger atteint son pic vers 8-10 mois, et peut même concerner des proches que bébé voyait régulièrement avant : grands-parents, oncles, amis proches. Cette extension n'est pas une régression — c'est l'expression d'un système de catégorisation sociale qui devient plus exigeant. Bébé fait maintenant la différence entre \"visage vu chaque jour\" et \"visage vu de temps en temps\", et la mémoire de qui appartient au cercle restreint des figures de sécurité devient plus stricte.",
       "ancrage": "Si bébé pleure devant ses grands-parents qu'il acceptait il y a 2 mois, ce n'est pas que le lien est cassé — c'est que son intelligence sociale fait un bond. Ton rôle : expliquer la phase aux proches, sans culpabiliser personne.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "Garder bébé contre toi pendant l'arrivée — ne pas le donner directement",
@@ -1014,8 +1022,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — apaiser après la phase de tension",
         "etapes": [
           "Aller 5 min dans une pièce séparée si bébé est très tendu, juste vous deux",
@@ -1042,13 +1050,13 @@
     },
     {
       "categorie": "sepa",
-      "situation": "Bébé se réveille la nuit juste pour vérifier que je suis là",
-      "titre": "Réveils nocturnes de vérification de présence",
+      "situation": "RÉVEILS DE VÉRIFICATION / juste pour s'assurer de ma présence",
+      "titre": "Réveils de vérification — juste pour s'assurer de ma présence",
       "explication": "Avec l'acquisition de la permanence de l'objet à 9 mois, bébé sait que tu continues d'exister quand il ne te voit pas — y compris la nuit. Mais cette connaissance toute neuve s'accompagne d'un doute : et si tu n'étais plus là ? Certains bébés se réveillent brièvement la nuit, regardent autour, appellent doucement — non pas pour un besoin physique, mais pour vérifier la continuité. Une fois rassurés, ils se rendorment seuls. C'est une phase normale d'intégration de la permanence.",
       "ancrage": "Ces vérifications nocturnes ne sont pas un signe que ton bébé dort mal — c'est un signe qu'il intègre que tu existes ailleurs. Ton rôle : confirmer brièvement, sans installer un réveil long.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "Attendre 2-3 min — beaucoup de ces réveils se résolvent seuls",
@@ -1059,8 +1067,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — renforcer la sécurité en journée",
         "etapes": [
           "En journée, pratiquer le jeu du coucou structuré (4 variantes) plusieurs fois par jour",
@@ -1087,13 +1095,13 @@
     },
     {
       "categorie": "sepa",
-      "situation": "Bébé refuse totalement la nounou/la crèche depuis 1 semaine",
-      "titre": "Refus complet de la garde quotidienne",
+      "situation": "REFUS COMPLET DE LA GARDE / depuis 1 semaine",
+      "titre": "Refus complet de la garde — depuis 1 semaine",
       "explication": "Vers 9 mois, le pic de l'angoisse de séparation peut soudainement transformer une garde qui se passait bien en cauchemar quotidien : pleurs, refus de descendre du parent, refus alimentaire avec la nounou, refus de la sieste. C'est rarement un problème avec la garde elle-même — c'est l'expression du pic développemental qui rend toute séparation difficile. La traversée demande de la patience, de la communication, et de la cohérence.",
       "ancrage": "Le refus actuel de la garde n'est pas un échec — ni le tien, ni celui de la nounou. C'est le coût normal d'un saut développemental. Ton rôle : tenir le cadre fiable, sans culpabiliser.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "Maintenir la régularité de la garde — ne pas suspendre, ce qui amplifierait le redémarrage",
@@ -1104,8 +1112,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — moment du soir, après la garde",
         "etapes": [
           "Au retour, peau à peau prolongé (15-20 min) avant tout autre chose",
@@ -1132,13 +1140,13 @@
     },
     {
       "categorie": "dents",
-      "situation": "Bébé a très mal aux gencives — incisives latérales en poussée",
-      "titre": "Poussée des incisives latérales",
+      "situation": "POUSSÉE DES INCISIVES LATÉRALES / douleur intense aux gencives",
+      "titre": "Poussée des incisives latérales — douleur intense aux gencives",
       "explication": "Entre 8 et 12 mois, les incisives latérales (supérieures puis inférieures) sont les dents qui poussent typiquement après les incisives centrales du bas. La poussée peut être très inconfortable : gencive enflée, joues rouges, bave abondante, mâchonnement intense, irritabilité. Contrairement aux idées reçues, les dents ne provoquent pas de vraie fièvre (au-delà de 38°C) — si la température dépasse 38,5°C, chercher une autre cause. La gêne dentaire en revanche est très réelle.",
       "ancrage": "La douleur dentaire est physique et réelle — bébé n'exagère pas. Ton rôle : soulager localement et accueillir l'inconfort, sans paniquer ni minimiser.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "Proposer du froid sur la zone : anneau de dentition au réfrigérateur (PAS au congélateur), gant humide froid",
@@ -1149,8 +1157,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — apaiser la sphère dentaire",
         "etapes": [
           "Massage doux des joues : du tympan vers la commissure des lèvres, 3 passages chaque côté",
@@ -1177,13 +1185,13 @@
     },
     {
       "categorie": "dents",
-      "situation": "Bébé a les joues rouges, fièvre légère, selles molles depuis 2 jours",
+      "situation": "SYNDROME DENTAIRE / joues, fièvre légère, transit",
       "titre": "Syndrome dentaire — joues, fièvre légère, transit",
       "explication": "Les poussées dentaires s'accompagnent souvent d'un cortège de symptômes : joues très rouges sur la zone des gencives concernées, fièvre légère (< 38°C, parfois 38,2°C max), selles plus molles, érythème fessier qui s'amplifie. Les avis médicaux sont nuancés : ces signes coïncident souvent avec les poussées, mais ne sont pas directement causés par les dents au plan strictement médical. Plus probablement, l'inflammation gingivale + l'augmentation de salive avalée + l'immunité encore fragile (qui décroît vers 6-9 mois quand les anticorps maternels diminuent) créent un terrain de fragilité.",
       "ancrage": "Ces symptômes sont fréquents en période de poussée — c'est une fragilisation temporaire. Ton rôle : observer attentivement, soulager les symptômes, et savoir détecter ce qui dépasse la simple dent.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "Prendre la température 2 fois par jour avec un thermomètre adapté (axillaire ou rectal selon âge et préférence)",
@@ -1194,8 +1202,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — apaiser globalement",
         "etapes": [
           "Massage doux des joues (pression infime, du tympan vers la bouche) — 3 passages chaque côté",
@@ -1222,13 +1230,13 @@
     },
     {
       "categorie": "dents",
-      "situation": "Bébé mâchonne tout, jusqu'à se faire des marques",
+      "situation": "MÂCHONNEMENT INTENSE / besoin de pression dentaire",
       "titre": "Mâchonnement intense — besoin de pression dentaire",
       "explication": "À 9 mois, en pleine poussée dentaire, beaucoup de bébés mâchonnent tout ce qui passe à portée : leurs mains (jusqu'aux marques), leur poignet, les jouets, les barreaux de lit, les vêtements. C'est une réponse proprioceptive : la pression sur les gencives soulage temporairement la douleur en provoquant un afflux sanguin local et en activant des récepteurs nerveux qui inhibent la perception de la douleur. Ce n'est pas pathologique — c'est intelligent.",
       "ancrage": "Le mâchonnement intense est une stratégie d'auto-soin par bébé. Ton rôle : proposer des supports adaptés et sécurisés, pour qu'il puisse soulager sans se blesser.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "Proposer immédiatement un anneau de dentition réfrigéré — le froid amplifie l'effet apaisant",
@@ -1239,8 +1247,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — soulagement gingival direct",
         "etapes": [
           "Massage des gencives avec un doigt propre : pression ferme et glissée, sur la zone enflée, 20 sec par côté",
@@ -1267,13 +1275,13 @@
     },
     {
       "categorie": "dents",
-      "situation": "Bébé fait des réveils nocturnes douloureux liés aux dents",
-      "titre": "Réveils nocturnes douloureux dentaires",
+      "situation": "RÉVEILS NOCTURNES DOULOUREUX / liés aux dents",
+      "titre": "Réveils nocturnes douloureux — liés aux dents",
       "explication": "Les poussées dentaires perturbent souvent le sommeil — la douleur s'intensifie la nuit (chaleur du lit, position allongée qui augmente l'afflux sanguin gingival, absence de distractions diurnes). Bébé peut se réveiller plusieurs fois en pleurant, mains à la bouche, agité. C'est une vraie douleur, pas un caprice. Les nuits sont plus difficiles pendant 2-5 jours par dent, puis l'éruption se fait et le calme revient — jusqu'à la dent suivante.",
       "ancrage": "Les nuits de dents sont temporaires et douloureuses pour bébé. Ton rôle : soulager localement, garder le rituel global, et te ménager parce que tu vas en perdre du sommeil pendant cette phase.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
         "titre": "Action immédiate",
         "etapes": [
           "Entrer en silence, ne pas allumer la lumière",
@@ -1284,8 +1292,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — apaisement réflexologique nocturne",
         "etapes": [
           "Réflexo dents (juste en dessous du gros orteil) : pression infime maintenue, 30 sec par pied",
@@ -1312,13 +1320,13 @@
     },
     {
       "categorie": "parent",
-      "situation": "Je n'en peux plus d'être porté(e) tout le temps",
-      "titre": "Saturation du portage continu",
+      "situation": "SATURATION DU PORTAGE / continu et épuisant",
+      "titre": "Saturation du portage — continu et épuisant",
       "explication": "À 9 mois, bébé pèse 8-9 kg en moyenne. Il refuse de plus en plus d'être posé, demande à être porté, dans le porte-bébé ou dans les bras. Le portage prolongé d'un bébé de cet âge sollicite intensément le dos, les épaules, les avant-bras et les poignets — souvent jusqu'à la tendinite, le canal carpien, ou la sciatique post-partum tardive. Ta saturation physique est légitime et physiologique. Elle n'est pas un manque d'amour — c'est un message corporel à entendre.",
       "ancrage": "Ton corps a ses limites physiques, et c'est ok. Avoir besoin de poser ton bébé n'est pas un échec — c'est une nécessité. Ton rôle : trouver des alternatives où bébé sécurise sans que ton corps s'épuise.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#A04A6F",
         "titre": "Action immédiate — auto-soin",
         "etapes": [
           "Poser bébé en sécurité (parc, tapis au sol entouré de jouets) — accepter qu'il pleure 5-10 min",
@@ -1329,8 +1337,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — auto-massage rapide",
         "etapes": [
           "Auto-massage des épaules et des trapèzes : prendre une épaule avec la main opposée, pression appuyée, 30 sec par côté",
@@ -1357,13 +1365,13 @@
     },
     {
       "categorie": "parent",
-      "situation": "Je passe ma journée à anticiper les besoins de mon bébé",
-      "titre": "Charge mentale invisible et anticipation permanente",
+      "situation": "CHARGE MENTALE INVISIBLE / anticipation permanente",
+      "titre": "Charge mentale invisible — anticipation permanente",
       "explication": "À 9 mois, bébé sait pointer, sait demander activement, sait montrer ses besoins de plus en plus précisément — et en attend la lecture immédiate de l'adulte. Beaucoup de parents (souvent les mères, statistiquement) anticipent en permanence : il faudra ressortir la cuillère, il faudra le lait à 16h, il faudra la sieste à 13h, il faudra changer la couche après le repas. Cette charge cognitive permanente, invisible aux autres, épuise — d'autant qu'elle s'ajoute à la fatigue physique et au travail rémunéré pour beaucoup.",
       "ancrage": "Cette charge mentale n'est pas un défaut de ton organisation — c'est un travail réel, identifié et chiffré dans les études (INED, 2019 : les mères pensent en moyenne 2,5x plus aux tâches enfantines que les pères dans les couples hétérosexuels). Ton épuisement est légitime.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#A04A6F",
         "titre": "Action immédiate — auto-soin",
         "etapes": [
           "Identifier 1 tâche d'anticipation à transférer COMPLÈTEMENT au co-parent ou à un proche cette semaine (pas \"partager\", déléguer)",
@@ -1374,8 +1382,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — décharger le système nerveux saturé",
         "etapes": [
           "Mettre une alarme sur le téléphone : 1 fois par jour, 5 min de pause vraie (pas de scroll, pas de tâche)",
@@ -1402,13 +1410,13 @@
     },
     {
       "categorie": "parent",
-      "situation": "Je culpabilise tellement de laisser mon bébé en garde",
-      "titre": "Culpabilité du retour au travail ou de la garde",
+      "situation": "CULPABILITÉ DE LA GARDE / retour au travail difficile",
+      "titre": "Culpabilité de la garde — retour au travail difficile",
       "explication": "À 9 mois, beaucoup de parents (principalement les mères, statistiquement) sont retournés au travail depuis quelques mois ou s'apprêtent à le faire. La culpabilité de \"laisser\" son bébé est extrêmement courante — elle est nourrie par la culture, par les hormones encore en équilibre fragile, par l'attachement intense, et souvent par des discours sociaux pesants. Cette culpabilité n'est pas un signe que tu fais quelque chose de mal — c'est le coût émotionnel d'un attachement profond.",
       "ancrage": "Ta culpabilité n'est pas la preuve que tu fais le mauvais choix. C'est la preuve que tu aimes profondément ton bébé. Ton rôle : la nommer, la traverser, et ne pas la laisser dicter des décisions par défaut.",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#A04A6F",
         "titre": "Action immédiate — auto-soin",
         "etapes": [
           "Distinguer la culpabilité (\"je suis une mauvaise mère/père de laisser\") du regret (\"je voudrais plus de temps\")",
@@ -1419,8 +1427,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — apaiser le système nerveux",
         "etapes": [
           "Auto-massage du sternum, pression légère, mouvement circulaire lent, 1 min — relâche la tension émotionnelle thoracique",
@@ -1447,13 +1455,13 @@
     },
     {
       "categorie": "parent",
-      "situation": "J'ai l'impression d'être prisonnier(ère) de la maison avec mon bébé",
-      "titre": "Sentiment d'enfermement et isolement parental",
+      "situation": "SENTIMENT D'ENFERMEMENT / isolement parental",
+      "titre": "Sentiment d'enfermement — isolement parental",
       "explication": "À 9 mois, beaucoup de parents (surtout ceux qui ont arrêté de travailler ou ont un mode de garde compliqué) ressentent un enfermement progressif : les sorties demandent un effort logistique disproportionné, les amis se sont espacés, l'entourage trouve que \"ça doit bien aller maintenant\", et le quotidien se réduit à la maison + le parc + les courses. Cette sensation d'isolement est documentée — elle peut basculer en dépression post-partum tardive si elle n'est pas adressée.",
       "ancrage": "L'isolement parental n'est pas un défaut de motivation — c'est une réalité structurelle. Sortir avec un bébé de 9 mois demande une organisation invraisemblable, et notre société ne soutient pas suffisamment les parents en \"creux\".",
       "action_immediate": {
-        "couleur_fond": "#F4E2CE",
-        "couleur_texte": "#8A4E1C",
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#A04A6F",
         "titre": "Action immédiate — auto-soin",
         "etapes": [
           "Identifier 1 chose à faire DEHORS chaque jour, même minimale (descendre poubelle, aller au bout de la rue, jardin)",
@@ -1464,8 +1472,8 @@
         ]
       },
       "geste_doux": {
-        "couleur_fond": "#E4EDE6",
-        "couleur_texte": "#3C5A4A",
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
         "titre": "Geste doux — restaurer le lien avec soi-même",
         "etapes": [
           "Auto-massage du sternum, pression légère, mouvement circulaire lent, 1 min",

@@ -1,0 +1,1540 @@
+{
+  "mois": 2,
+  "tranche_age": "2 mois",
+  "rubrique": "guide_moi",
+  "titre_rubrique": "Guide-moi !",
+  "sous_titre": "Mois 2 — Le mois du Communicant",
+  "adjectif_du_mois": "Communicant",
+  "qualification_du_mois": "À 2 mois, ton bébé entre en dialogue : il gazouille, sourit en réponse, imite tes expressions. C'est le mois du Communicant — où l'échange devient un plaisir partagé, où le premier biberon se prépare parfois, et où s'amorce, en douceur, la pensée du retour au travail.",
+  "description": "Les situations concrètes du deuxième mois et comment y répondre, avec bienveillance et en prenant soin de toi aussi.",
+  "ancrage": "Tu n'as pas à tout maîtriser ni à tout réussir. Tu as à rester une présence fiable pendant que bébé et toi continuez d'apprendre à vous connaître. C'est suffisant.",
+  "categories": [
+    {
+      "id": "pleurs",
+      "nom": "Pleurs & inconfort",
+      "icone": "😢"
+    },
+    {
+      "id": "alim",
+      "nom": "Alimentation",
+      "icone": "🍼"
+    },
+    {
+      "id": "sommeil",
+      "nom": "Sommeil",
+      "icone": "🌙"
+    },
+    {
+      "id": "corps",
+      "nom": "Corps & soins",
+      "icone": "🤲"
+    },
+    {
+      "id": "stimu",
+      "nom": "Sur-stimulation",
+      "icone": "🌀"
+    },
+    {
+      "id": "sepa",
+      "nom": "Lien & attachement",
+      "icone": "💛"
+    },
+    {
+      "id": "sante",
+      "nom": "Petits maux",
+      "icone": "🩺"
+    },
+    {
+      "id": "parent",
+      "nom": "Parent dépassé",
+      "icone": "🫂"
+    }
+  ],
+  "protocoles": [
+    {
+      "categorie": "pleurs",
+      "situation": "PLEURS ENCORE IMPRÉVISIBLES / malgré la fin du pic",
+      "titre": "Pleurs imprévisibles — malgré la fin du pic",
+      "explication": "À 2 mois, le pic des pleurs commence à s'atténuer après son sommet de 6 semaines, mais les pleurs restent parfois imprévisibles. Le système nerveux de bébé continue de mûrir et il décharge encore le trop-plein de la journée. Chaque bébé suit son propre rythme de décroissance : certains se calment nettement, d'autres gardent des épisodes plus longs. Ce n'est ni un retour en arrière ni un échec — c'est la fin progressive d'une étape normale.",
+      "ancrage": "Tu n'as pas à faire disparaître ces pleurs d'un coup. Ils s'atténuent à leur rythme, et ta présence stable reste ce dont bébé a le plus besoin pendant ce passage.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — accompagner sans forcer",
+        "etapes": [
+          "Vérifier l'essentiel : faim, couche, chaleur, vêtement qui serre, puis arrêter de chercher une cause.",
+          "Porter contre toi : peau à peau si possible, en marchant doucement.",
+          "Réduire les stimulations : lumière douce, voix basse, une seule personne autour.",
+          "Bruit blanc continu : rappelle l'ambiance sonore d'avant la naissance.",
+          "Si la tension monte en toi : poser bébé en sécurité sur le dos, respirer 2 min."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — apaiser le système nerveux",
+        "etapes": [
+          "Portage emmailloté souple : contient le corps et rassure.",
+          "Bercement lent : vertical contre l'épaule, jamais de secousse.",
+          "Réflexo plexus solaire : centre de la voûte, micro-cercles doux, 1 min par pied.",
+          "Pression 0/10 : un contact rassurant, pas un soin.",
+          "Chantonner : une note grave et continue, bouche contre son crâne."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Journal des pleurs : noter les horaires révèle les moments prévisibles et rassure.",
+        "Préserver le créneau sensible : ni visite ni course pendant les heures difficiles.",
+        "Se relayer : alterner avec le co-parent, ces pleurs fatiguent vraiment.",
+        "Voir loin : à son rythme, bébé pleure de moins en moins au fil des semaines."
+      ],
+      "principe": "Les pleurs du nourrisson décroissent progressivement et à un rythme propre à chaque bébé. Ta présence calme aide plus sûrement que n'importe quelle technique appliquée à l'aveugle.",
+      "erreurs_a_eviter": [
+        "Enchaîner les techniques toutes les 30 secondes — bébé ne suit pas ces changements.",
+        "Sur-nourrir pour calmer à tout prix — ajoute un inconfort digestif aux pleurs.",
+        "Multiplier les bras qui essaient chacun — la sur-stimulation prolonge la crise.",
+        "Vivre ces pleurs comme un rejet — c'est neurologique, pas relationnel."
+      ],
+      "consulter_si": "Consulter si : les pleurs s'accompagnent de fièvre, de refus de s'alimenter, de vomissements en jet ou d'une pâleur inhabituelle → pédiatre ou 15. Ce protocole ne remplace pas l'avis de ton pédiatre : devant un doute, fais évaluer bébé."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "RÉCLAME DU LIEN / pleure dès que l'échange s'arrête",
+      "titre": "Pleure quand l'échange s'arrête — le besoin de lien",
+      "explication": "À 2 mois, bébé devient un petit communicant : il adore les échanges en face à face, les gazouillis, les sourires partagés. Quand l'interaction s'arrête net, il peut protester, car il vient de découvrir le plaisir du dialogue. Ce n'est pas un caprice : c'est un signe encourageant de son éveil social. Il apprend qu'il peut provoquer une réponse. Chaque bébé est plus ou moins demandeur d'échanges — il n'y a pas de norme.",
+      "ancrage": "Ces pleurs-là sont une bonne nouvelle : bébé réclame du lien parce qu'il vient d'en découvrir le plaisir. Tu n'as pas à être disponible en continu — tu peux nourrir ces échanges puis ménager des transitions douces.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — clore l'échange en douceur",
+        "etapes": [
+          "Annoncer la fin : « On a bien joué, maintenant je pose », d'une voix calme.",
+          "Ralentir progressivement : baisser le rythme et la voix avant d'arrêter, pas de coupure nette.",
+          "Laisser un relais sensoriel : un mobile, ta voix depuis la pièce, le contact d'un tissu à ton odeur.",
+          "Ne pas relancer aussitôt un jeu intense pour calmer les pleurs — proposer du calme.",
+          "Rassurer brièvement si besoin : sans rallumer une grande session de jeu."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — la transition vers le calme",
+        "etapes": [
+          "Voix continue : garder le lien par la voix même en t'éloignant un peu.",
+          "Main posée : une main immobile sur le torse pendant la transition.",
+          "Réflexo plexus solaire : centre de la voûte, micro-cercles, 1 min par pied.",
+          "Pression 0/10 : un contact apaisant.",
+          "Portage calme : si besoin, sans relancer la stimulation."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Multiplier les échanges courts : plusieurs petits moments de face-à-face valent mieux qu'un seul long.",
+        "Doser le jeu : à 2 mois, quelques minutes d'interaction active suffisent.",
+        "Aménager des transitions : prévenir avant d'arrêter aide bébé à anticiper.",
+        "Voir loin : bébé apprend peu à peu à patienter et à jouer seul quelques instants."
+      ],
+      "principe": "Réclamer de l'échange est un signe d'éveil social sain, pas un caprice. On peut nourrir ce besoin tout en apprenant à bébé, en douceur, que l'interaction a un début et une fin.",
+      "erreurs_a_eviter": [
+        "Couper l'échange brutalement — la rupture nette désoriente et fait pleurer davantage.",
+        "Relancer un jeu intense pour stopper les pleurs — entretient un besoin de stimulation continue.",
+        "Culpabiliser de ne pas jouer en permanence — bébé a aussi besoin de temps calmes.",
+        "Interpréter ce besoin comme une manipulation — à 2 mois, c'est un éveil relationnel."
+      ],
+      "consulter_si": "Consulter si : bébé ne cherche jamais l'échange, ne réagit pas à ta voix ni à ton visage même reposé → en parler en consultation de routine. Ce besoin d'interaction est un signe positif ; son absence mérite un avis du pédiatre."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "COLIQUES ENCORE PRÉSENTES / jambes repliées, ventre dur",
+      "titre": "Coliques du nourrisson — soulager l'inconfort digestif",
+      "explication": "Les coliques touchent de nombreux nourrissons et peuvent persister vers 2 mois : crises de pleurs intenses, souvent en fin de journée, avec jambes repliées sur un ventre tendu. La cause exacte reste mal comprise (immaturité digestive, gaz, sensibilité). Ce n'est pas une maladie grave et cela disparaît spontanément, le plus souvent vers 3-4 mois. Chaque bébé en sort à son rythme. En attendant, des gestes ciblés soulagent l'inconfort.",
+      "ancrage": "Les coliques ne sont pas dues à quelque chose que tu aurais mal fait. C'est une étape passagère de l'immaturité digestive, et ton rôle est d'accompagner bébé, pas de la faire disparaître à tout prix.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — soulager le ventre",
+        "etapes": [
+          "Portage ventral : bébé sur l'avant-bras, ventre vers le bas, tête dans le creux du coude.",
+          "Mouvement de pédalage : plier doucement les jambes vers le ventre, en rythme lent.",
+          "Chaleur douce : une main tiède posée à plat sur le ventre, jamais brûlante.",
+          "Rot soigné : après chaque repas, bébé bien vertical contre toi.",
+          "Calme autour : réduire la stimulation, qui amplifie l'inconfort en fin de journée."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — détendre la sphère digestive",
+        "etapes": [
+          "Massage du ventre : à plat de la main, dans le sens des aiguilles d'une montre, après digestion.",
+          "Réflexo zone digestive : centre de la voûte plantaire, cercles lents, 1 min par pied.",
+          "Pression 0/10 : jamais d'appui sur un ventre tendu et douloureux.",
+          "Portage vertical : ventre de bébé contre ta poitrine chaude.",
+          "Bercement lent : pour accompagner la détente, sans secousse."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Tenir un journal : repas, pleurs, gaz, selles sur quelques jours, utile pour le pédiatre.",
+        "Alterner les porteurs : les coliques épuisent, se relayer aide à tenir.",
+        "Probiotique L. reuteri : certaines études le montrent utile, à voir avec le pédiatre.",
+        "Voir loin : les coliques disparaissent spontanément, le plus souvent vers 3-4 mois."
+      ],
+      "principe": "Les coliques sont bénignes et transitoires : on soulage l'inconfort sans pouvoir les supprimer d'un coup. Le portage, la chaleur douce et le massage aident, et le temps fait le reste, au rythme de chaque bébé.",
+      "erreurs_a_eviter": [
+        "Changer de lait sans avis médical — la plupart des coliques n'ont aucun lien avec le lait.",
+        "Multiplier les médicaments anti-coliques — efficacité non prouvée, demander d'abord conseil.",
+        "Appuyer fort sur le ventre pour « faire sortir les gaz » — douloureux et contre-productif.",
+        "S'épuiser seul(e) sans passer le relais — la fatigue rend la traversée plus dure."
+      ],
+      "consulter_si": "Consulter si : les pleurs s'accompagnent de fièvre, de vomissements en jet, de sang dans les selles, d'un refus de s'alimenter ou d'une cassure de poids → pédiatre, pour écarter une autre cause. Ce protocole ne remplace pas un avis médical."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "PLEURS DU SOIR / qui s'atténuent mais reviennent par vagues",
+      "titre": "Pleurs du soir en décroissance — tenir le cap",
+      "explication": "Après le pic des 6 semaines, les pleurs du soir s'atténuent généralement vers 2 mois, mais peuvent revenir par vagues, certains soirs plus que d'autres. Le rythme circadien de bébé se met en place et la fin de journée reste un moment de décharge sensorielle. Cette irrégularité est normale : la décroissance n'est jamais parfaitement linéaire. Chaque bébé suit sa propre courbe d'apaisement.",
+      "ancrage": "Un soir difficile après plusieurs soirs calmes n'est pas un retour en arrière. La décroissance des pleurs se fait par vagues, et tu n'as rien fait de mal si une soirée est plus dure.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — préparer le pic du soir",
+        "etapes": [
+          "Anticiper : alléger la fin de journée, ni visite ni sortie pendant le créneau sensible.",
+          "Tamiser l'ambiance : lumière douce, voix basse, calme dès le début de soirée.",
+          "Porter et bercer : peau à peau, mouvement lent, bruit blanc.",
+          "Proposer le sein ou le biberon à la demande : le cluster du soir est normal.",
+          "Passer le relais : dès que tu sens la fatigue ou l'agacement monter."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — accompagner la décharge du soir",
+        "etapes": [
+          "Bain tiède calme : s'il apaise bébé (à tester, certains s'excitent au contraire).",
+          "Massage doux : un rituel du soir court et régulier.",
+          "Réflexo plexus solaire : centre de la voûte, micro-cercles, 1 min par pied.",
+          "Pression 0/10 : signal de détente, pas soin.",
+          "Emmaillotage souple : contient bébé pour la transition vers la nuit."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Repérer le créneau : noter l'heure des pics aide à les anticiper.",
+        "Protéger la fin de journée : organiser le quotidien pour que 17h-20h soit le plus calme.",
+        "Se relayer le soir : un parent à bébé, un autre à l'intendance, si possible.",
+        "Voir loin : ces pleurs du soir s'espacent nettement dans les semaines à venir."
+      ],
+      "principe": "La décroissance des pleurs du soir se fait par vagues, jamais en ligne droite. Anticiper le créneau et alléger la fin de journée vaut mieux que de chercher à supprimer chaque pleur.",
+      "erreurs_a_eviter": [
+        "Reculer le coucher en espérant fatiguer bébé — crée une sur-fatigue qui aggrave les pleurs.",
+        "Multiplier les stimulations le soir pour « occuper » bébé — l'excite davantage.",
+        "Conclure à un échec après un soir difficile — la décroissance est irrégulière.",
+        "Rester seul(e) à traverser chaque soir — la fatigue cumulée use."
+      ],
+      "consulter_si": "Consulter si : les pleurs du soir s'intensifient au lieu de décroître au fil des semaines, ou s'accompagnent de signes inquiétants (fièvre, refus de téter, cambrures) → pédiatre. En cas de doute, l'avis d'un professionnel prime sur ce protocole."
+    },
+    {
+      "categorie": "alim",
+      "situation": "NOUVEAU RYTHME DE PRISES DE LAIT / qui s'installe et m'interroge",
+      "titre": "Nouveau rythme de prises de lait — un rythme qui se dessine",
+      "explication": "Vers 2 mois, beaucoup de bébés espacent naturellement leurs prises de lait : l'estomac grandit, la succion devient plus efficace, et un rythme commence à se dessiner. Cela peut inquiéter quand on était habitué à des repas très rapprochés. Ce n'est pas une baisse d'appétit ni un manque de lait : c'est une étape de maturation. Chaque bébé trouve son propre rythme — il n'y a pas d'horaire idéal universel. Au biberon, on observe le même phénomène : les intervalles entre prises s'allongent, et bébé peut moins terminer son volume. Ce n'est pas une perte d'appétit, c'est une régulation.",
+      "ancrage": "Bébé qui espace ses prises grandit, tout simplement. Tu peux suivre son rythme à lui plutôt qu'un horaire théorique : il sait réclamer quand il a faim.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — suivre le rythme de bébé",
+        "etapes": [
+          "Nourrir à la demande : répondre aux signaux de faim plutôt qu'à l'horloge.",
+          "Repérer les signaux de faim précoces : succion des mains, agitation, fouissement, avant les pleurs.",
+          "Vérifier l'efficacité : déglutitions audibles au sein, tétine bien vidée au biberon.",
+          "Ne pas réveiller systématiquement pour téter — sauf consigne médicale (poids).",
+          "Respecter la satiété : proposer les deux seins ou le volume adapté, sans forcer."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — un repas serein",
+        "etapes": [
+          "Peau à peau avant la tétée : stimule l'appétit et les réflexes.",
+          "Installation calme : un endroit posé, sans précipitation.",
+          "Réflexo plexus solaire : centre de la voûte, micro-cercles, 1 min par pied, pour détendre.",
+          "Pression 0/10 : apaisement, pas soin.",
+          "Rot vertical : entre les seins et après le repas."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Compter les couches : 5-6 mouillées et des selles régulières confirment que bébé est nourri.",
+        "Suivre la courbe : reporter le poids sur le carnet, c'est la tendance qui compte, pas un chiffre.",
+        "Consultante IBCLC : en cas de doute sur les transferts en allaitement.",
+        "Voir loin : le rythme se régularise progressivement, à la cadence propre de bébé."
+      ],
+      "principe": "L'espacement des tétées est un signe de maturation, pas de manque. Suivre les signaux de bébé et la tendance de sa courbe vaut mieux qu'un horaire imposé.",
+      "erreurs_a_eviter": [
+        "Imposer un horaire strict de tétées à 2 mois — inadapté, mieux vaut suivre la demande.",
+        "S'inquiéter d'un manque de lait à cause de l'espacement — c'est l'efficacité qui augmente.",
+        "Donner un complément « au cas où » sans avis — fait baisser la production en allaitement.",
+        "Comparer le rythme de bébé à celui d'un autre enfant — chaque rythme est individuel."
+      ],
+      "consulter_si": "Consulter si : bébé mouille moins de 5 couches/jour, est très endormi et difficile à réveiller pour téter, ou présente une cassure de courbe de poids → pédiatre et IBCLC. Ce protocole ne remplace pas un suivi médical du poids."
+    },
+    {
+      "categorie": "alim",
+      "situation": "RÉGURGITATIONS / qui persistent après les repas",
+      "titre": "Régurgitations persistantes — souvent bénignes",
+      "explication": "À 2 mois, les régurgitations restent très fréquentes : le sphincter entre l'œsophage et l'estomac est encore immature et laisse remonter un peu de lait. Tant que bébé grossit bien, ne semble pas souffrir et reste tonique, ce sont des régurgitations physiologiques, bénignes, qui s'amélioreront avec la maturation et la position assise. Chaque bébé régurgite plus ou moins — la quantité visible impressionne souvent plus qu'elle ne pèse. Les régurgitations concernent autant les bébés allaités que les bébés au biberon — c'est l'immaturité du sphincter qui est en cause, pas le type de lait.",
+      "ancrage": "Un bébé qui régurgite mais grossit bien et reste tonique va bien : ces remontées sont mécaniques, pas un signe que tu le nourris mal. Elles s'estomperont avec le temps.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — limiter les remontées",
+        "etapes": [
+          "Garder vertical : 20-30 min après chaque repas, sans coucher à plat.",
+          "Faire le rot : pendant et après le repas, bébé bien droit.",
+          "Fractionner si besoin : des quantités plus petites mais plus fréquentes.",
+          "Éviter de comprimer le ventre : couche pas trop serrée, pas de position pliée.",
+          "Toujours sur le dos : coucher ainsi malgré les régurgitations (règle MIN), jamais sur le ventre."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — après le repas",
+        "etapes": [
+          "Portage vertical : ventre de bébé contre ta poitrine après la tétée.",
+          "Massage du dos : doux, en position verticale, pour favoriser le rot.",
+          "Réflexo zone digestive : centre de la voûte, cercles lents, 1 min par pied.",
+          "Pression 0/10 : jamais d'appui sur un ventre tendu.",
+          "Bercement vertical calme : plutôt que des mouvements qui brassent l'estomac."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Distinguer les deux : régurgitations passives sans douleur vs reflux qui fait pleurer.",
+        "Tenir un journal : régurgitations, position, douleur, sur une semaine, pour le pédiatre.",
+        "Protéger les vêtements : un bavoir évite la corvée de change, sans dramatiser.",
+        "Voir loin : les régurgitations diminuent avec la maturation et la position assise."
+      ],
+      "principe": "Des régurgitations chez un bébé qui grossit et reste tonique sont bénignes. C'est la maturation qui les fait disparaître ; seul un retentissement (douleur, poids) justifie d'explorer un reflux.",
+      "erreurs_a_eviter": [
+        "Coucher sur le ventre ou le côté pour limiter les régurgitations — contraire aux règles anti-MIN.",
+        "Caler bébé avec un oreiller ou un cale-bébé dans le lit — risque d'étouffement.",
+        "Changer de lait ou l'épaissir sans avis médical — souvent inutile.",
+        "S'alarmer du volume visible — il impressionne plus qu'il ne pèse réellement."
+      ],
+      "consulter_si": "Consulter si : bébé pleure de douleur à chaque repas, se cambre, refuse de téter, vomit en jet, prend mal du poids, ou si du sang apparaît dans les régurgitations → pédiatre pour explorer un RGO. Ce protocole ne se substitue pas à un examen médical."
+    },
+    {
+      "categorie": "alim",
+      "situation": "INTRODUIRE LE BIBERON / pour préparer la reprise du travail",
+      "titre": "Passage au biberon — préparer le retour au travail",
+      "explication": "Quand la reprise du travail approche, introduire le biberon (de lait maternel exprimé ou de lait infantile) demande un peu d'anticipation. À 2 mois, l'allaitement est généralement bien établi, ce qui facilite l'introduction. Certains bébés acceptent tout de suite, d'autres ont besoin de plusieurs essais et de repères : c'est normal, chaque bébé s'adapte à son rythme. L'OMS recommande l'allaitement exclusif jusqu'à 6 mois quand il est possible ; le biberon peut s'y articuler sans tout remplacer.",
+      "ancrage": "Introduire le biberon n'est pas renoncer au lien : c'est ouvrir une nouvelle façon de nourrir bébé. S'il résiste au début, ce n'est pas un échec — il lui faut juste le temps d'apprivoiser un geste nouveau.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — une introduction en douceur",
+        "etapes": [
+          "Commencer tôt : 3-4 semaines avant la reprise, un biberon par jour pour laisser le temps d'apprendre.",
+          "Choisir un moment calme : bébé éveillé et pas affamé, jamais en pleurs de faim.",
+          "Confier le biberon au co-parent : bébé associe moins le biberon à l'odeur du sein.",
+          "Tétine à débit lent et ronde : méthode « paced feeding », biberon à l'horizontale, pauses.",
+          "Ne pas forcer : si bébé refuse, réessayer plus tard sans en faire un combat."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — apprivoiser le biberon",
+        "etapes": [
+          "Tiédir la tétine : à température du corps, plus proche de la sensation du sein.",
+          "Contact peau à peau : pour rassurer pendant l'apprentissage.",
+          "Réflexo zone bouche : sous le gros orteil, à la base, micro-cercles 30 sec par pied.",
+          "Pression 0/10 : éveil sensoriel doux.",
+          "Présenter calmement : effleurer la lèvre avec la tétine pour déclencher l'ouverture."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Tester plusieurs approches : lait au verre, à la cuillère, biberons différents pour les réfractaires.",
+        "Consultante IBCLC : pour articuler tire-allaitement et reprise sans tarir la production.",
+        "Garder le sein aux moments clés : matin et soir, si tu souhaites poursuivre l'allaitement mixte.",
+        "Anticiper sans stress : commencer en avance enlève la pression du dernier moment."
+      ],
+      "principe": "Le passage au biberon s'anticipe en douceur, sans contrainte. Chaque bébé l'apprivoise à son rythme : la régularité et le calme valent mieux que les essais répétés dans l'agacement.",
+      "erreurs_a_eviter": [
+        "Attendre la veille de la reprise pour introduire le biberon — trop de pression sur bébé et toi.",
+        "Proposer le biberon quand bébé hurle de faim — il n'a plus la patience d'apprendre.",
+        "Forcer la tétine dans la bouche — crée un rejet durable du biberon.",
+        "Conclure à un refus définitif au premier essai — l'apprentissage prend souvent plusieurs jours."
+      ],
+      "consulter_si": "Consulter une IBCLC ou une sage-femme si : bébé refuse le biberon malgré plusieurs semaines d'essais, ou si tu as des questions sur l'expression et la conservation du lait. Pour le choix du lait infantile, demander conseil au pédiatre. Ce protocole ne remplace pas un accompagnement personnalisé."
+    },
+    {
+      "categorie": "alim",
+      "situation": "SEMBLE AVOIR TOUJOURS FAIM / poussée de croissance",
+      "titre": "Semble avoir toujours faim — poussée de croissance",
+      "explication": "Vers 6 semaines à 2 mois survient souvent une poussée de croissance : pendant un à trois jours, bébé réclame beaucoup plus, semble affamé, réclame très fréquemment. C'est un mécanisme normal et utile : en tétant davantage, il stimule la production de lait pour répondre à ses besoins qui augmentent. Ce n'est pas un signe que ton lait ne suffit plus. La poussée passe d'elle-même en quelques jours, au rythme de chaque bébé. Au biberon, le phénomène est identique : bébé réclame plus souvent et finit plus rapidement son volume. Augmenter temporairement de 20-30 ml par prise répond souvent au besoin, le temps que la poussée passe (24-72h).",
+      "ancrage": "Cette faim soudaine ne veut pas dire que tu manques de lait : c'est bébé qui commande sa réserve pour grandir. En répondant à la demande, tu fais exactement ce qu'il convient.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — répondre à la demande",
+        "etapes": [
+          "Nourrir à volonté : laisser téter aussi souvent que bébé le réclame pendant la poussée.",
+          "S'installer confortablement : eau, en-cas, coussin à portée, ça peut durer.",
+          "Au biberon : proposer à la demande, sans dépasser les volumes adaptés au poids.",
+          "Vérifier l'efficacité : déglutitions au sein, pas seulement une succion de réconfort.",
+          "Se reposer entre les tétées : déléguer le reste pour récupérer."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — entre deux tétées",
+        "etapes": [
+          "Peau à peau : entre les tétées rapprochées, apaise et stimule la lactation.",
+          "Rot vertical : à chaque pause de succion.",
+          "Réflexo plexus solaire : centre de la voûte, micro-cercles, 1 min par pied, si bébé est calme.",
+          "Pression 0/10 : un contact apaisant.",
+          "Bercement très lent : pendant les pauses."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Compter les couches : elles restent bien mouillées, signe que bébé est nourri.",
+        "Se faire relayer : qu'un proche gère l'intendance pendant que tu nourris.",
+        "Ne pas complémenter par peur de manquer : ça ferait baisser la production.",
+        "Voir loin : la poussée passe en quelques jours, à la cadence de chaque bébé."
+      ],
+      "principe": "La poussée de croissance est un signe de bon fonctionnement : plus bébé tète, plus tu produis. La fréquence règle l'offre ; la fatigue se gère par le relais sur le reste.",
+      "erreurs_a_eviter": [
+        "Donner un complément « parce que le lait ne suffit plus » — c'est justement le mécanisme normal.",
+        "Imposer un intervalle entre tétées pendant la poussée — contre-productif.",
+        "S'inquiéter d'un manque devant la fréquence — la fréquence EST la réponse au besoin.",
+        "Tout porter seule pendant ces jours intenses — déléguer préserve ton énergie."
+      ],
+      "consulter_si": "Consulter si : malgré des tétées fréquentes, bébé mouille moins de 5 couches/jour, semble léthargique, ou ne reprend pas de poids → pédiatre et IBCLC. Une poussée normale s'accompagne d'un bébé tonique et de couches bien mouillées."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "RÉGRESSION DU SOMMEIL / après quelques bonnes nuits",
+      "titre": "Nuits plus longues en pointillé — pas de ligne droite",
+      "explication": "Vers 2 mois, certains bébés commencent à allonger une période de sommeil nocturne, ce qui donne de l'espoir. Puis une nuit hachée revient, et c'est déstabilisant. C'est normal : le rythme circadien se construit progressivement et de façon irrégulière sur les premiers mois. Une bonne nuit n'est pas un acquis définitif, une mauvaise n'est pas un retour en arrière. Chaque bébé installe son sommeil à son propre rythme.",
+      "ancrage": "Une nuit difficile après une bonne nuit n'efface rien : le sommeil se construit en dents de scie. Tu n'as pas « perdu » un progrès, bébé avance simplement à son rythme.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — soutenir le sommeil de nuit",
+        "etapes": [
+          "Marquer la nuit : pénombre, voix chuchotée, gestes minimaux pendant les réveils.",
+          "Tétées de nuit dans le calme : sans lumière vive ni jeu.",
+          "Respecter les fenêtres d'éveil courtes en journée : la sur-fatigue gâche les nuits.",
+          "Lit sécurisé : sur le dos, matelas ferme, rien d'autre dans le lit (règle MIN).",
+          "Bruit blanc continu : homogénéise l'ambiance et limite les micro-réveils."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — ancrer le sommeil nocturne",
+        "etapes": [
+          "Mini-rituel du soir : même court, lumière baissée, voix douce, peau à peau.",
+          "Emmaillotage souple : contient le réflexe de sursaut qui réveille.",
+          "Réflexo plexus solaire : centre de la voûte, micro-cercles, 1 min par pied, le soir.",
+          "Pression 0/10 : signal de détente.",
+          "Main posée : immobile sur le torse pendant la transition de cycle."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Journal du sommeil : sur une semaine, pour visualiser le rythme réel plutôt que ressenti.",
+        "Promenade matinale : 10 min de lumière du jour aident à caler l'horloge interne.",
+        "Pas d'écran le soir : ni pour bébé ni pour toi, la lumière bleue perturbe la mélatonine.",
+        "Voir loin : le sommeil se structure progressivement, en dents de scie, à son rythme."
+      ],
+      "principe": "Le sommeil du nourrisson se construit de façon irrégulière, jamais en ligne droite. Une nuit isolée, bonne ou mauvaise, ne dit rien de la tendance : c'est la maturation qui décide, au rythme de chaque bébé.",
+      "erreurs_a_eviter": [
+        "Conclure à une régression après une seule nuit difficile — le sommeil avance en dents de scie.",
+        "Garder bébé éveillé tard en espérant une longue nuit — provoque l'inverse par sur-fatigue.",
+        "Stimuler et éclairer fort lors des réveils nocturnes — réactive l'éveil.",
+        "Attendre des nuits complètes régulières à 2 mois — c'est physiologiquement trop tôt."
+      ],
+      "consulter_si": "Consulter si : bébé est anormalement difficile à réveiller pour les tétées, très léthargique, ou si son sommeil global sur 24h est très insuffisant et qu'il semble épuisé → pédiatre. L'irrégularité des nuits à 2 mois, en elle-même, est normale."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "NE FAIT QUE DES MICRO-SIESTES / en journée",
+      "titre": "Mini-siestes de jour — des cycles encore courts",
+      "explication": "À 2 mois, le sommeil de jour est encore organisé en cycles courts, avec beaucoup de sommeil léger propice aux réveils. Des siestes de 20-40 minutes sont normales : la maturité pour enchaîner les cycles vient plus tard. Ce qui compte, c'est le sommeil total sur 24h (souvent 14-16h à cet âge), pas la durée d'une sieste isolée. Les siestes s'allongeront au fil des mois, à un rythme propre à chaque bébé.",
+      "ancrage": "Une sieste courte n'est pas un problème à réparer. Tant que le total de sommeil sur la journée suffit et que bébé est tonique à l'éveil, tout va bien.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — favoriser des siestes sereines",
+        "etapes": [
+          "Respecter la fenêtre d'éveil : environ 1h à 1h15 max entre deux sommeils à cet âge.",
+          "Repérer les signaux de fatigue : regard dans le vague, bâillements, paupières lourdes.",
+          "Coucher dès les premiers signes : avant la sur-fatigue qui empêche l'endormissement.",
+          "Environnement constant : même lieu, pénombre douce, bruit blanc.",
+          "Ne pas chercher à prolonger une sieste de force : accepter le rythme du jour."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — sécuriser l'endormissement",
+        "etapes": [
+          "Emmaillotage souple : pour les siestes si bébé sursaute facilement.",
+          "Contact ou portage : pour la sieste si bébé en a besoin, c'est normal à cet âge.",
+          "Réflexo plexus solaire : centre de la voûte, micro-cercles, 1 min par pied, à l'endormissement.",
+          "Pression 0/10 : un contact rassurant.",
+          "Main posée : sur le torse au moment de la transition de cycle (vers 30-40 min)."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Compter le total sur 24h : 14-16h à 2 mois, plus parlant que la durée d'une sieste.",
+        "Journal du sommeil : sur quelques jours, pour visualiser le rythme réel.",
+        "Respecter les fenêtres d'éveil : la sur-fatigue raccourcit les siestes, pas l'inverse.",
+        "Voir loin : les siestes s'allongent et se structurent au fil des mois, à son rythme."
+      ],
+      "principe": "Le sommeil de jour se mesure sur le total des 24h, pas sur une sieste isolée. Des cycles courts sont la norme à 2 mois — chaque bébé allonge ses siestes à sa propre cadence.",
+      "erreurs_a_eviter": [
+        "Garder bébé éveillé longtemps pour obtenir une longue sieste — provoque l'inverse.",
+        "Réveiller systématiquement d'une sieste courte par peur qu'il ne dorme pas la nuit.",
+        "Multiplier les stimulations juste avant la sieste — empêche la descente vers le sommeil.",
+        "Comparer la durée des siestes à un autre bébé — chaque rythme est individuel."
+      ],
+      "consulter_si": "Consulter si : bébé dort très peu sur l'ensemble des 24h, semble épuisé et irritable en permanence, ou au contraire est anormalement somnolent et dur à réveiller pour téter → pédiatre. Ce protocole ne remplace pas un avis médical."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "RITUEL PRÉCIS / nécessaire pour s'endormir",
+      "titre": "Besoin d'un rituel d'endormissement — un repère sécurisant",
+      "explication": "À 2 mois, bébé commence à associer certains gestes au sommeil : être bercé, entendre une berceuse, sentir une odeur familière. Ce besoin de répétition n'est pas une mauvaise habitude : la prévisibilité rassure un système nerveux encore immature et facilite l'endormissement. Un rituel stable est même un allié. L'enjeu est de choisir des repères que tu pourras tenir dans la durée, sans t'épuiser.",
+      "ancrage": "Avoir besoin d'un rituel pour s'endormir n'est pas un caprice : c'est un repère sécurisant. Tu peux t'appuyer dessus, en choisissant des gestes tenables sur la durée.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — installer un rituel tenable",
+        "etapes": [
+          "Choisir des repères simples : une berceuse, une lumière tamisée, une phrase, un ordre stable.",
+          "Garder le même enchaînement chaque soir : la régularité prime sur la complexité.",
+          "Repères transmissibles : privilégier ceux que le co-parent ou la garde peut reproduire.",
+          "Coucher somnolent : encore un peu éveillé, quand c'est possible.",
+          "Éviter d'ajouter trop d'éléments : un rituel court est plus facile à tenir."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — le rituel du soir",
+        "etapes": [
+          "Massage doux du soir : un repère sensoriel régulier et apaisant.",
+          "Berceuse ou voix grave continue : la même chaque soir.",
+          "Réflexo plexus solaire : centre de la voûte, micro-cercles, 1 min par pied, dans le rituel.",
+          "Pression 0/10 : signal de détente.",
+          "Emmaillotage souple : si bébé en a besoin pour se sentir contenu."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Choisir des repères transmissibles : pour que le co-parent ou la garde puisse les reproduire.",
+        "Garder le rituel court : plus facile à tenir soir après soir.",
+        "Introduire un objet à ton odeur : un lange porté, posé près de bébé (jamais dans le lit la nuit).",
+        "Voir loin : un rituel stable aujourd'hui facilite le sommeil des mois à venir."
+      ],
+      "principe": "La régularité d'un rituel compte plus que son contenu. Un enchaînement simple, stable et transmissible sécurise bébé et tient dans la durée mieux qu'un rituel complexe.",
+      "erreurs_a_eviter": [
+        "Construire un rituel long et complexe — épuisant à tenir et difficile à déléguer.",
+        "Changer de rituel tous les soirs — prive bébé du repère qui le rassure.",
+        "Voir le besoin de rituel comme une dépendance à casser — c'est un repère sain à cet âge.",
+        "Choisir des repères que toi seul(e) peux faire — bloque les relais et la garde."
+      ],
+      "consulter_si": "Consulter si : malgré un rituel stable, bébé ne s'endort jamais et semble en détresse permanente au coucher → en parler au pédiatre ou en PMI. Le besoin de rituel, en soi, est normal et sain."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "RÉVEILS RAPPROCHÉS / malgré un bon début de nuit",
+      "titre": "Réveils rapprochés — malgré un bon début de nuit",
+      "explication": "À 2 mois, bébé peut bien démarrer la nuit puis multiplier les réveils ensuite. C'est lié à la structure encore immature du sommeil : les cycles sont courts et chaque fin de cycle est un moment fragile où bébé peut se réveiller. La faim, un inconfort digestif, un sursaut ou un besoin de contact peuvent aussi expliquer ces réveils. C'est normal à cet âge, et chaque bébé en sort à son rythme.",
+      "ancrage": "Ces réveils rapprochés ne sont pas un échec du coucher. Le sommeil de bébé est fait de cycles courts, et il a encore besoin de toi pour passer d'un cycle à l'autre.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — gérer les réveils de nuit",
+        "etapes": [
+          "Vérifier les besoins : faim, couche, chaleur, inconfort, avant d'en faire un problème de sommeil.",
+          "Intervenir dans le calme : pénombre, voix basse, gestes minimaux.",
+          "Laisser une chance de se rendormir seul : attendre quelques instants avant d'intervenir.",
+          "Rassurer sans tout réactiver : une présence brève plutôt qu'une grande séance d'éveil.",
+          "Garder le même environnement toute la nuit : position, gigoteuse, bruit blanc."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — accompagner le rendormissement",
+        "etapes": [
+          "Main posée : immobile sur le torse pour aider à passer le cycle.",
+          "Voix grave continue : un repère sonore rassurant dans le noir.",
+          "Réflexo plexus solaire : centre de la voûte, micro-cercles, 1 min par pied, si besoin.",
+          "Pression 0/10 : contact apaisant.",
+          "Emmaillotage souple : si les sursauts provoquent les réveils."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Journal des nuits : noter les heures de réveil révèle s'ils sont fixes (cycle) ou variables.",
+        "Soigner le confort : température de la chambre 18-20°C, gigoteuse adaptée.",
+        "Se relayer : alterner les réveils avec le co-parent pour récupérer.",
+        "Voir loin : les réveils s'espacent à mesure que les cycles de sommeil mûrissent."
+      ],
+      "principe": "Les réveils en fin de cycle sont normaux à 2 mois : bébé a encore besoin d'aide pour enchaîner. Vérifier les besoins et rassurer brièvement vaut mieux que de réactiver un grand éveil.",
+      "erreurs_a_eviter": [
+        "Allumer la lumière et stimuler à chaque réveil — réveille complètement bébé.",
+        "Introduire une nouvelle habitude à chaque réveil (biberon, lit parental) — crée une dépendance.",
+        "Intervenir à la moindre micro-agitation — couper un rendormissement spontané.",
+        "Attendre des nuits sans réveil à 2 mois — c'est trop tôt physiologiquement."
+      ],
+      "consulter_si": "Consulter si : les réveils s'accompagnent de pleurs de douleur, de fièvre, de difficultés à respirer, ou si bébé semble très inconfortable la nuit → pédiatre. Ce protocole ne remplace pas l'avis d'un professionnel."
+    },
+    {
+      "categorie": "corps",
+      "situation": "PREMIERS VACCINS DES 2 MOIS / comment accompagner",
+      "titre": "Premiers vaccins — accompagner bébé le jour J",
+      "explication": "À 2 mois a lieu, en France, la première grande série de vaccinations (plusieurs valences regroupées). C'est un moment souvent appréhendé par les parents. La douleur de la piqûre est brève, et des gestes simples (contact, succion, voix) réduisent nettement l'inconfort de bébé. Une réaction légère dans les 48h (petite fièvre, point d'injection sensible, bébé grognon) est fréquente et bénigne. Chaque bébé réagit différemment — certains à peine, d'autres un peu plus.",
+      "ancrage": "Accompagner bébé pendant le vaccin, c'est lui offrir ta présence rassurante au bon moment. Sa réaction, légère ou nulle, ne dépend pas de toi — tu peux juste l'apaiser et le surveiller.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — le jour de la piqûre",
+        "etapes": [
+          "Pendant la piqûre : tenir bébé contre toi, peau à peau si possible, voix douce.",
+          "Proposer le sein ou le biberon juste avant et après : la succion réduit la douleur ressentie.",
+          "Après : porter et bercer, sans dramatiser, ta calme l'aide à se calmer.",
+          "Surveiller les 48h : température, point d'injection, comportement.",
+          "Paracétamol : uniquement sur indication du médecin, à la dose pédiatrique prescrite."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — apaiser après le vaccin",
+        "etapes": [
+          "Peau à peau prolongé : le contact apaise la douleur et l'angoisse.",
+          "Compresse fraîche : sur le point d'injection si sensible, brièvement, sans frotter.",
+          "Réflexo plexus solaire : centre de la voûte, micro-cercles, 1 min par pied, pour détendre.",
+          "Pression 0/10 : un contact rassurant, jamais sur le point d'injection.",
+          "Voix calme et portage : pour passer un éventuel moment grognon."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Conserver le carnet de santé à jour : précieux pour le suivi vaccinal.",
+        "Prévoir 48h calmes : pas de sortie sur-stimulante après la vaccination, du repos.",
+        "Respecter l'espacement : ne jamais avancer le vaccin suivant, suivre le calendrier du pédiatre.",
+        "Noter toute réaction inhabituelle : pour la signaler au médecin si besoin."
+      ],
+      "principe": "La vaccination est un geste de prévention bref ; le contact, la succion et la voix réduisent l'inconfort. Une réaction légère est fréquente et bénigne, et chaque bébé réagit à sa façon.",
+      "erreurs_a_eviter": [
+        "Donner du paracétamol en systématique sans avis — uniquement sur indication et dose pédiatrique.",
+        "Couvrir bébé pour « faire tomber la fièvre » — augmente la température.",
+        "Enchaîner sortie et stimulation après le vaccin — bébé a besoin de repos.",
+        "Dramatiser la piqûre — bébé capte ton stress, le calme l'aide davantage."
+      ],
+      "consulter_si": "Consulter le médecin ou le 15 si : fièvre élevée ou persistante au-delà de 48h, point d'injection très rouge, chaud et gonflé, bébé anormalement mou ou inconsolable, ou toute réaction qui t'inquiète. Pour toute question sur le calendrier vaccinal, demander au pédiatre. Ce protocole ne remplace pas son avis."
+    },
+    {
+      "categorie": "corps",
+      "situation": "TÊTE ENCORE INSTABLE / progrès avec à-coups",
+      "titre": "Tenue de tête en progrès — par à-coups normaux",
+      "explication": "Vers 2 mois, bébé commence à mieux contrôler sa tête, notamment sur le ventre où il la redresse quelques instants. Mais ce contrôle est encore instable : la tête part en avant, sur les côtés, par à-coups. C'est parfaitement normal — la musculature du cou se renforce progressivement. Le temps sur le ventre éveillé (tummy time) est le meilleur allié de ce développement. Chaque bébé acquiert la tenue de tête à son rythme, dans une fourchette large.",
+      "ancrage": "Ces à-coups font partie de l'apprentissage : bébé muscle son cou jour après jour. Tu n'as pas à le faire « tenir » sa tête — tu peux lui offrir les occasions de s'entraîner en sécurité.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — soutenir et stimuler",
+        "etapes": [
+          "Toujours soutenir la nuque : lors des portages et des changements de position.",
+          "Proposer le tummy time : temps sur le ventre éveillé et surveillé, plusieurs fois par jour, court.",
+          "Se placer face à bébé sur le ventre : ta voix et ton visage l'encouragent à relever la tête.",
+          "Alterner les positions : sur le ventre, le dos, en portage vertical soutenu.",
+          "Limiter les supports qui figent la tête : cosy, transat, en dehors des trajets."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — accompagner le développement",
+        "etapes": [
+          "Tummy time sur ton torse : bébé sur toi en position inclinée, plus facile pour débuter.",
+          "Massage doux de la nuque et des épaules : dans un moment calme et chaud.",
+          "Réflexo plexus solaire : centre de la voûte, micro-cercles, 1 min par pied, pour détendre l'ensemble.",
+          "Pression 0/10 : sur le cou, aucune pression appuyée.",
+          "Stimulation visuelle douce : un objet contrasté à suivre pour l'inciter à tourner la tête."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Multiplier le tummy time : court mais fréquent, c'est l'entraînement clé du cou.",
+        "Varier les sollicitations : parler, présenter des objets des deux côtés pour éviter une préférence.",
+        "Limiter transat et cosy hors trajet : ils figent la tête et freinent le renforcement.",
+        "Voir loin : la tenue de tête se stabilise progressivement, à la cadence de chaque bébé."
+      ],
+      "principe": "La tenue de tête se construit par à-coups, en musclant le cou jour après jour. Le tummy time régulier est le meilleur soutien, et chaque bébé y arrive dans une fourchette large et normale.",
+      "erreurs_a_eviter": [
+        "Forcer bébé à « tenir » sa tête sans soutien — risque de blessure, on l'accompagne, on ne force pas.",
+        "Laisser bébé de longues heures en transat ou cosy — fige la tête et freine le développement.",
+        "Sauter le tummy time par crainte qu'il pleure — l'introduire court et progressif.",
+        "Comparer à un autre bébé du même âge — la fourchette d'acquisition est large."
+      ],
+      "consulter_si": "Consulter si : à 3-4 mois bébé ne redresse pas du tout la tête sur le ventre, garde la tête constamment tournée du même côté, ou présente une asymétrie marquée → pédiatre, pour orientation éventuelle vers un kiné pédiatrique. Ce protocole ne remplace pas un examen."
+    },
+    {
+      "categorie": "corps",
+      "situation": "RÉGULATION DE TEMPÉRATURE / transpire ou a froid facilement",
+      "titre": "Régulation thermique immature — ni trop, ni trop peu",
+      "explication": "À 2 mois, la régulation de la température corporelle est encore immature : bébé se refroidit et se réchauffe plus vite qu'un adulte, et transpire parfois (notamment de la tête) ou a les extrémités fraîches sans avoir froid pour autant. L'enjeu est de ne pas le surchauffer (facteur de risque de la MIN) ni le laisser avoir froid. La règle simple : l'habiller avec une couche de plus que soi, dans une pièce autour de 18-20°C la nuit.",
+      "ancrage": "Bébé apprend encore à réguler sa température, et c'est normal. Tu peux te fier à des repères simples plutôt qu'à la sensation de ses mains, souvent fraîches sans qu'il ait froid.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — ajuster l'habillement",
+        "etapes": [
+          "Vérifier la nuque : la peau du haut du dos ou de la nuque indique mieux la température que les mains.",
+          "Habiller d'une couche de plus que soi : ni surchauffe, ni manque.",
+          "Chambre tempérée la nuit : autour de 18-20°C, gigoteuse adaptée à la saison.",
+          "Pas de couverture ni d'oreiller dans le lit : gigoteuse uniquement (règle MIN).",
+          "Adapter aux pics de chaleur : alléger, hydrater par des tétées plus fréquentes."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — confort thermique",
+        "etapes": [
+          "Peau à peau régulé : la peau à peau aide bébé à stabiliser sa température, sans le couvrir en plus.",
+          "Vêtements en fibres naturelles : coton, qui laisse respirer la peau.",
+          "Réflexo plexus solaire : centre de la voûte, micro-cercles, 1 min par pied, moment calme.",
+          "Pression 0/10 : contact apaisant.",
+          "Éviter les variations brutales : transitions douces entre intérieur et extérieur."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se fier à la nuque : pas aux mains et pieds, souvent frais sans signifier que bébé a froid.",
+        "Adapter à la pièce : un thermomètre d'ambiance dans la chambre aide à régler le chauffage.",
+        "Prévoir les sorties : couches superposables à retirer ou ajouter selon la température.",
+        "En cas de forte chaleur : tétées plus fréquentes, pièce fraîche, jamais d'eau avant 6 mois sans avis."
+      ],
+      "principe": "La régulation thermique du nourrisson est immature : on l'aide par des repères simples (nuque, une couche de plus, pièce à 18-20°C) plutôt que par la sensation des extrémités. Éviter la surchauffe est une règle de sécurité.",
+      "erreurs_a_eviter": [
+        "Surcouvrir bébé par crainte qu'il ait froid — la surchauffe est un facteur de risque de MIN.",
+        "Se fier aux mains et pieds pour juger s'il a froid — ils sont souvent frais sans signification.",
+        "Ajouter couverture ou oreiller dans le lit pour le réchauffer — risque d'étouffement.",
+        "Donner de l'eau à un nourrisson de moins de 6 mois sans avis médical — risque pour l'équilibre."
+      ],
+      "consulter_si": "Consulter si : bébé a une fièvre (≥38°C rectal — urgence avant 3 mois), une transpiration importante et inhabituelle au repos, ou des sueurs pendant les tétées avec fatigue → pédiatre. Ce protocole ne remplace pas un avis médical."
+    },
+    {
+      "categorie": "corps",
+      "situation": "CHANGEMENT DE RYTHME DES SELLES / brusque et inquiétant",
+      "titre": "Selles qui changent de rythme — souvent normal",
+      "explication": "Vers 2 mois, le rythme des selles peut changer nettement : un bébé allaité qui allait à chaque tétée peut soudain espacer sur plusieurs jours, sans que ce soit une constipation. Le système digestif mûrit et absorbe mieux le lait. Tant que les selles restent molles quand elles arrivent et que bébé est confortable, c'est normal. La couleur et la fréquence varient beaucoup d'un bébé à l'autre — il n'y a pas de norme unique.",
+      "ancrage": "Un changement de rythme des selles est souvent juste un signe que le système digestif de bébé mûrit. Tu peux observer le confort de bébé plutôt que de t'inquiéter d'un nombre de selles par jour.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — observer le confort",
+        "etapes": [
+          "Observer la consistance : des selles molles, même espacées, ne sont pas une constipation.",
+          "Vérifier le confort : un bébé détendu, qui s'alimente et dort bien, va bien.",
+          "Mouvement de pédalage : doux, pour aider le transit si bébé semble gêné.",
+          "Massage du ventre : à plat de la main, sens des aiguilles d'une montre, après digestion.",
+          "Rien sans avis : ni jus, ni eau, ni médicament pour « faire aller », sans le médecin."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — soutenir le transit",
+        "etapes": [
+          "Massage abdominal : doux, en cercles, dans le sens horaire.",
+          "Pédalage des jambes : mouvement lent vers le ventre.",
+          "Réflexo zone digestive : centre de la voûte, cercles lents, 1 min par pied.",
+          "Pression 0/10 : jamais d'appui sur un ventre tendu.",
+          "Portage vertical : ventre contre toi, chaleur douce."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Observer la consistance plutôt que la fréquence : c'est elle qui distingue normal et constipation.",
+        "Tenir un mini-journal : selles, confort, alimentation, sur quelques jours.",
+        "Hydratation par le lait : à la demande, le lait suffit à hydrater avant 6 mois.",
+        "Voir loin : le rythme se stabilise avec la maturation digestive, propre à chaque bébé."
+      ],
+      "principe": "Le rythme des selles varie beaucoup et change avec la maturation digestive. C'est la consistance et le confort de bébé qui comptent, pas un nombre de selles par jour.",
+      "erreurs_a_eviter": [
+        "Confondre selles espacées mais molles et constipation — la consistance fait la différence.",
+        "Donner du jus, de l'eau ou un remède sans avis — risqué avant 6 mois.",
+        "Stimuler le rectum (thermomètre, coton) en routine — uniquement sur conseil médical.",
+        "S'inquiéter d'un nombre de selles « normal » — il varie énormément d'un bébé à l'autre."
+      ],
+      "consulter_si": "Consulter si : selles dures et sèches avec bébé qui souffre pour aller, ventre très ballonné et tendu, sang dans les selles, vomissements, fièvre, ou refus de s'alimenter → pédiatre. Ce protocole ne remplace pas un avis médical."
+    },
+    {
+      "categorie": "corps",
+      "situation": "PORTAGE ET REPRISE DU TRAVAIL / maintenir le lien malgré la séparation",
+      "titre": "Portage et reprise du travail — maintenir le lien malgré la séparation",
+      "explication": "À 2 mois, beaucoup de mères françaises reprennent le travail à la fin du congé maternité légal. Cette séparation, même partielle, génère souvent une perte de repères pour bébé (qui passe du portage quasi-continu au mode de garde) et un sentiment de culpabilité pour le parent. Le portage devient alors un outil précieux de reconnexion : 30 minutes le matin avant le départ, 1 heure le soir au retour. Le contact rapproché stimule l'ocytocine (hormone du lien) chez le parent comme chez bébé, et compense biologiquement les heures de séparation. Ce n'est pas du rattrapage — c'est une continuité.",
+      "ancrage": "Reprendre le travail ne casse pas le lien que tu as construit. Le portage du soir, même 20 minutes, vaut autant qu'une journée entière de présence diffuse. La qualité du contact compte plus que sa durée.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — installer un rituel de retrouvailles",
+        "etapes": [
+          "Au retour du travail : 5 min pour te poser (te changer, boire de l'eau) avant de prendre bébé — éviter de transmettre la fatigue du trajet",
+          "Mettre le porte-bébé immédiatement : peau à peau si possible, 20-30 min minimum",
+          "Pas d'écran pendant ce temps : juste bébé et toi, en mouvement lent (marche dans l'appartement, balcon, jardin si possible)",
+          "Parler à bébé de ta journée à voix basse : ta voix qui lui a manqué le re-régule",
+          "Si possible, faire la dernière tétée ou le dernier biberon dans le porte-bébé : double connexion"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — portage du soir comme rituel",
+        "etapes": [
+          "Position physiologique habituelle (dos en C, hanches en M) — vérifier malgré la fatigue",
+          "Respiration synchronisée : poser ta main sur son dos, sentir sa respiration et adapter la tienne",
+          "Réflexo plexus solaire en bercement : effleurer le centre de sa voûte plantaire pendant la marche",
+          "Murmurer une phrase rituelle au retour : 'Je suis là, je suis revenu(e), je te raconte ma journée'",
+          "Bercement lent dans le porte-bébé pendant 10-15 min : reset complet du système nerveux de bébé"
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Co-parent et mode de garde : leur transmettre l'usage du porte-bébé (vidéo, démonstration en personne) — la continuité du contact rassure bébé",
+        "Tissu portant ton odeur (un t-shirt porté quelques heures) à laisser au mode de garde — bébé reconnaît ton odeur même en ton absence",
+        "Allaitement : portage et tétées du soir peuvent suffire à maintenir une lactation, même avec biberon en journée — en parler à une consultante en lactation IBCLC si questions",
+        "Pour le parent qui ne reprend pas : prendre le relais en portage le soir pendant la décompression du parent qui rentre — soulagement bienvenu"
+      ],
+      "principe": "Le lien ne se mesure pas en heures passées ensemble mais en qualité de présence. Vingt minutes de portage attentif valent davantage qu'une journée de présence physique distraite.",
+      "erreurs_a_eviter": [
+        "Compenser la culpabilité par un sur-portage qui épuise — 30-60 min ciblées valent mieux que 3h forcées",
+        "Vouloir 'profiter à fond' du week-end en sur-stimulant — bébé a besoin aussi de calme et de routines",
+        "Comparer ta situation à celle d'une amie en congé parental — chaque famille a son équilibre",
+        "Confier le porte-bébé sans démonstration au mode de garde : risque de mauvais positionnement non détecté"
+      ],
+      "consulter_si": "Si la séparation génère une détresse profonde et persistante (au-delà des 2 premières semaines de reprise), pleurs incontrôlables au moment du départ, troubles du sommeil chez bébé qui s'installent durablement → en parler avec la PMI ou le médecin traitant. Pour le parent : Allo Parents Bébé (0 800 00 34 56), MonParcoursPsy (8 séances remboursées), ou groupe de parole 'jeunes parents' en mairie/MJC."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "SUR-SOLLICITÉ / par les jeux et les échanges",
+      "titre": "Trop de jeu — quand l'échange devient trop",
+      "explication": "À 2 mois, bébé adore les échanges, mais son système nerveux immature sature vite. Après quelques minutes d'interaction animée, il peut détourner le regard, bâiller, grogner, s'agiter : ce sont des signaux de retrait, une autorégulation saine. Comme il est désormais demandeur de jeu, on a tendance à en proposer beaucoup — et à dépasser son seuil sans le vouloir. Chaque bébé a son propre seuil de tolérance à la stimulation.",
+      "ancrage": "Proposer du jeu à bébé est précieux, mais savoir s'arrêter l'est tout autant. Quand il se détourne, il te dit qu'il a besoin d'une pause — ce n'est pas un rejet de toi.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — alléger la stimulation",
+        "etapes": [
+          "Lire les signaux : regard qui se détourne, bâillements, grognements, agitation.",
+          "Réduire aussitôt : baisser la voix, ralentir, diminuer la lumière.",
+          "Cesser de solliciter : laisser bébé en retrait sans relancer le jeu.",
+          "Garder un contact calme : présence rassurante sans stimulation.",
+          "Attendre son retour : bébé revient de lui-même vers l'échange, à son rythme."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — accompagner la pause",
+        "etapes": [
+          "Contact stable : une présence calme, sans le stimuler.",
+          "Respiration lente : audible près de lui, un modèle de retour au calme.",
+          "Réflexo plexus solaire : centre de la voûte, micro-cercles très doux, 1 min par pied.",
+          "Pression 0/10 : minimal, pour ne pas re-stimuler.",
+          "Voix très basse ou silence : laisser le système nerveux redescendre."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Apprendre à lire bébé : chaque enfant a ses propres marqueurs de saturation.",
+        "Doser les temps de jeu : à 2 mois, quelques minutes d'interaction active suffisent.",
+        "Multiplier les échanges courts : plusieurs petits moments valent mieux qu'un seul long.",
+        "Filmer une interaction : repérer le moment où bébé décroche, puis ajuster."
+      ],
+      "principe": "Détourner le regard est une compétence d'autorégulation, pas un rejet. Respecter le seuil de bébé — propre à chacun — lui apprend que ses limites comptent.",
+      "erreurs_a_eviter": [
+        "Insister pour « capter son attention » quand il se détourne — accentue la surcharge.",
+        "Multiplier voix et visages pour le « réveiller » — l'épuise davantage.",
+        "Lire le retrait comme un désintérêt pour toi — c'est une régulation, pas un message affectif.",
+        "Enchaîner les stimulations sans temps de récupération."
+      ],
+      "consulter_si": "Consulter si : bébé semble TOUJOURS en retrait, ne cherche jamais le contact visuel même reposé, ou ne réagit pas aux voix ni aux sons → pédiatre pour un bilan (audition, développement). Le retrait ponctuel face à la stimulation est normal."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "S'EXCITE PENDANT LES GAZOUILLIS / n'arrive plus à redescendre",
+      "titre": "Sur-excitation par l'échange — aider à redescendre",
+      "explication": "Les échanges gazouillés sont un plaisir nouveau à 2 mois, mais bébé peut s'y emballer : agitation des bras, vocalises de plus en plus aiguës, puis bascule dans les pleurs car il n'arrive plus à se réguler seul. Son système nerveux immature n'a pas encore les freins pour redescendre d'une excitation. Ton rôle est de l'aider à revenir au calme. Chaque bébé bascule plus ou moins vite — c'est une question de maturité, pas de tempérament difficile.",
+      "ancrage": "Quand bébé s'emballe puis craque, ce n'est pas qu'il « en fait trop » : il n'a pas encore les outils pour redescendre seul. Tu peux être ce frein extérieur qui l'aide à se réguler.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — ramener au calme",
+        "etapes": [
+          "Baisser le ton : ralentir ta voix et tes gestes avant que bébé bascule.",
+          "Réduire les entrées sensorielles : moins de lumière, moins de bruit, moins de mouvement.",
+          "Contenir doucement : le prendre calmement contre toi, sans relancer le jeu.",
+          "Modèle de calme : respirer lentement et audiblement près de lui.",
+          "Temps de récupération : avant toute nouvelle interaction."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — réguler le système nerveux",
+        "etapes": [
+          "Peau à peau : recentre bébé sur des sensations apaisantes.",
+          "Bercement lent décroissant : ralentir progressivement.",
+          "Réflexo plexus solaire : centre de la voûte, micro-cercles, 1 min par pied.",
+          "Pression 0/10 : contact apaisant.",
+          "Voix grave continue : couvre les sur-stimuli et aide à redescendre."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Repérer les signes précoces : agitation, vocalises aiguës, avant la bascule en pleurs.",
+        "Arrêter avant le pic : clore l'échange un cran avant la sur-excitation.",
+        "Protéger des temps calmes : surtout en fin de journée, quand le seuil baisse.",
+        "Voir loin : bébé apprend peu à peu à se réguler seul, à son rythme."
+      ],
+      "principe": "Un nourrisson n'a pas encore de frein interne pour redescendre d'une excitation : tu es ce frein extérieur. Anticiper la bascule vaut mieux que d'attendre les pleurs pour intervenir.",
+      "erreurs_a_eviter": [
+        "Relancer le jeu pour « finir sur une bonne note » — pousse bébé au-delà de son seuil.",
+        "Augmenter la stimulation quand il s'agite — accélère la bascule en pleurs.",
+        "Interpréter la sur-excitation comme un trait de caractère — c'est une immaturité passagère.",
+        "Enchaîner les sessions de jeu sans pause de récupération."
+      ],
+      "consulter_si": "Consulter si : bébé est constamment sur-excité et impossible à apaiser, ou au contraire totalement aréactif aux échanges → en parler au pédiatre. Une bascule occasionnelle de l'excitation aux pleurs est normale à cet âge."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "AGITÉ APRÈS LES VISITES / inconsolable",
+      "titre": "Trop-plein après les visites — protéger le calme",
+      "explication": "À 2 mois, chaque visite est une avalanche de stimulations pour bébé : nouveaux visages, voix, passages de bras, bruit. Son système nerveux immature sature et il le manifeste après coup par de l'agitation, des pleurs, un sommeil perturbé. Ce n'est pas qu'il « n'aime pas » les gens : c'est un trop-plein sensoriel. Cadrer les visites protège son équilibre et le tien. Certains bébés tolèrent plus de monde que d'autres — c'est propre à chacun.",
+      "ancrage": "Tu as le droit de protéger le calme de bébé et le tien, sans culpabilité. Limiter les visites n'est pas impoli : c'est répondre à un vrai besoin de cet âge.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — cadrer et récupérer",
+        "etapes": [
+          "Après la visite : revenir à un environnement calme, lumière baissée, peu de bruit.",
+          "Limiter les manipulations : reprendre bébé contre toi, en silence.",
+          "Un seul événement par jour : ne pas enchaîner visite et sortie.",
+          "Temps de récupération : au moins 1h de calme après le départ.",
+          "Reprendre les repères : tétée, portage, sommeil dans le calme."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — retour au calme",
+        "etapes": [
+          "Peau à peau silencieux : pour faire redescendre la stimulation.",
+          "Bercement très lent : voix basse ou silence.",
+          "Réflexo plexus solaire : centre de la voûte, micro-cercles, 1 min par pied.",
+          "Pression 0/10 : apaisement après le trop-plein.",
+          "Bruit blanc : homogénéise l'ambiance et facilite l'endormissement."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Cadrer les visites : 30-45 min max, deux personnes à la fois au plus.",
+        "Briefer les visiteurs : voix basses, lavage des mains, pas de passe-bras systématique.",
+        "Protéger une plage par jour : totalement sans visite ni sortie.",
+        "Repérer les seuils de bébé : certains tolèrent plus de monde que d'autres."
+      ],
+      "principe": "Protéger bébé de la surcharge sociale répond à un besoin physiologique. Des visites courtes et peu nombreuses, suivies de temps de récupération, valent mieux qu'un défilé continu.",
+      "erreurs_a_eviter": [
+        "Enchaîner les visites par peur de vexer — au détriment de l'équilibre de bébé.",
+        "Faire passer bébé de bras en bras — sur-stimulation et exposition aux microbes.",
+        "Cumuler visite, sortie et activité le même jour — sature le nourrisson.",
+        "Culpabiliser de poser des limites — c'est un acte de soin légitime."
+      ],
+      "consulter_si": "Consulter si : bébé reste inconsolable longtemps après chaque exposition, avec troubles persistants du sommeil et de l'alimentation → en parler au pédiatre ou en PMI. Une surcharge ponctuelle est normale ; sa persistance mérite un avis."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "DÉCROCHE PENDANT LE JEU / besoin de pauses",
+      "titre": "Pauses pendant l'échange — respecter son rythme",
+      "explication": "Pendant un moment de jeu à 2 mois, bébé alterne naturellement des temps d'engagement (il fixe, gazouille, sourit) et des temps de pause (il détourne le regard, regarde ailleurs). Ces pauses ne sont pas un désintérêt : elles lui permettent de digérer la stimulation et de réguler son système nerveux. Respecter ce rythme d'engagement-pause est une base de la communication précoce. Chaque bébé a son propre tempo d'échange.",
+      "ancrage": "Quand bébé détourne le regard en plein jeu, il fait une pause, pas un caprice. Suivre son rythme — engagement, puis pause, puis retour — c'est déjà dialoguer avec lui.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — suivre son tempo",
+        "etapes": [
+          "Observer le rythme : engagement (il fixe, gazouille) puis pause (il regarde ailleurs).",
+          "Respecter la pause : ne pas chercher à le ramener de force vers toi.",
+          "Attendre le retour : bébé revient de lui-même vers l'échange après sa pause.",
+          "Adapter ton intensité : moduler ta voix et tes gestes selon son état.",
+          "Conclure quand les pauses s'allongent : signe que la session touche à sa fin."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — un échange respectueux",
+        "etapes": [
+          "Présence calme pendant la pause : sans solliciter, juste disponible.",
+          "Reprendre doucement à son retour : laisser bébé relancer l'échange.",
+          "Réflexo plexus solaire : centre de la voûte, micro-cercles, 1 min par pied, en moment calme.",
+          "Pression 0/10 : contact apaisant.",
+          "Voix posée : moduler selon l'engagement de bébé."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Observer le tempo de bébé : chaque enfant a son propre rythme d'engagement et de pause.",
+        "Pratiquer le « tour de parole » : parler, attendre sa réponse gazouillée, répondre.",
+        "Multiplier les face-à-face courts : à bonne distance (20-30 cm), plusieurs fois par jour.",
+        "Voir loin : ce dialogue rythmé nourrit le développement du langage à venir."
+      ],
+      "principe": "La communication précoce est faite d'engagement et de pauses : respecter ce rythme, c'est dialoguer avec bébé. Chaque enfant a son tempo, et le suivre vaut mieux que de combler chaque silence.",
+      "erreurs_a_eviter": [
+        "Combler chaque pause par plus de stimulation — empêche bébé de réguler.",
+        "Ramener de force le regard de bébé quand il fait une pause — rompt le dialogue naturel.",
+        "Voir la pause comme un échec de l'échange — c'est une partie normale du dialogue.",
+        "Imposer un rythme d'interaction qui n'est pas le sien."
+      ],
+      "consulter_si": "Consulter si : bébé ne s'engage jamais dans l'échange, ne fixe pas, ne réagit ni aux voix ni aux visages même reposé → pédiatre pour un bilan. Le rythme engagement-pause, lui, est un signe positif de communication."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "COMMENT RÉPONDRE AUX GAZOUILLIS / dialogue qui s'installe",
+      "titre": "Les premiers dialogues gazouillés — nourrir l'échange",
+      "explication": "Vers 2 mois, bébé entre dans la communication : il gazouille, vocalise, sourit en réponse à ton visage. C'est le début du « proto-dialogue » : il émet un son, attend, et reprend quand tu réponds. Répondre à ces vocalises — en les imitant, en laissant des silences pour qu'il reprenne — pose les fondations du langage et du lien. Chaque bébé est plus ou moins bavard à cet âge, et tous progressent à leur rythme.",
+      "ancrage": "Chaque fois que tu réponds à un gazouillis, tu dis à bébé que sa voix compte. Tu n'as pas besoin de méthode : ta réponse naturelle suffit à nourrir ce dialogue naissant.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — entrer dans le dialogue",
+        "etapes": [
+          "Se placer à 20-30 cm : la distance où bébé voit ton visage nettement.",
+          "Répondre à ses sons : imiter ses gazouillis, comme une vraie conversation.",
+          "Laisser des silences : attendre qu'il reprenne, c'est le tour de parole.",
+          "Exagérer les expressions : sourcils levés, sourire marqué, voix chantante.",
+          "Choisir un moment calme et éveillé : ni faim, ni fatigue."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — la connexion par la voix",
+        "etapes": [
+          "Voix chantée pendant les soins : bébé reconnaît et savoure ta voix.",
+          "Comptines douces : la musicalité capte l'attention même sans comprendre.",
+          "Réflexo plexus solaire : centre de la voûte, micro-cercles, 1 min par pied, en lui parlant.",
+          "Pression 0/10 : un contact tendre pendant l'échange.",
+          "Échanges de regards prolongés : sans rien attendre, juste être présent."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Pratiquer le tour de parole : parler, attendre sa réponse gazouillée, répondre.",
+        "Multiplier les face-à-face : plusieurs courts moments par jour, à bonne distance.",
+        "Décrire le quotidien : mettre des mots sur ce que tu fais nourrit le bain de langage.",
+        "Voir loin : ces échanges posent les bases du langage, à la cadence de chaque bébé."
+      ],
+      "principe": "Le dialogue gazouillé est le berceau du langage et du lien. Répondre aux vocalises de bébé et respecter le tour de parole compte plus que n'importe quelle méthode — chaque bébé progresse à son rythme.",
+      "erreurs_a_eviter": [
+        "Parler en continu sans laisser de silence — prive bébé de son tour de parole.",
+        "Se placer trop loin — bébé ne voit nettement qu'à 20-30 cm.",
+        "Remplacer l'échange par un écran ou un jouet sonore — aucun ne vaut ta voix.",
+        "S'inquiéter si bébé gazouille peu — la fourchette est large et chacun a son rythme."
+      ],
+      "consulter_si": "Consulter si : à 3-4 mois bébé ne vocalise pas du tout, ne réagit pas aux voix, ne sourit pas en réponse → pédiatre pour un bilan (audition, développement). À 2 mois, un bébé peu bavard reste dans la normale ; c'est l'absence totale de réaction qui interroge."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "SOURIT À TOUT LE MONDE / sentiment d'être interchangeable",
+      "titre": "Sourit à tous — l'attachement se construit encore",
+      "explication": "À 2 mois, le sourire social est là, mais bébé sourit volontiers à tous les visages, pas seulement aux parents. Cela peut être déstabilisant quand on attend un signe de reconnaissance privilégié. C'est en réalité une étape normale : la préférence marquée pour les figures d'attachement se construit progressivement et s'affirmera plus tard (vers 6-9 mois, avec parfois l'angoisse de l'étranger). Le lien privilégié se tisse déjà, en coulisses, par les soins quotidiens.",
+      "ancrage": "Bébé qui sourit à tout le monde ne t'aime pas moins : la préférence pour toi se construit en profondeur, par tous les soins que tu lui donnes. Elle s'affirmera plus tard.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — nourrir le lien privilégié",
+        "etapes": [
+          "Multiplier les moments à deux : tétée, bain, peau à peau, des temps qui te sont propres.",
+          "Répondre à ses sourires : renforce la boucle d'échange entre vous.",
+          "Voix et odeur : bébé te reconnaît déjà par ta voix et ton odeur, même sans le montrer.",
+          "Ne pas chercher la preuve d'une préférence : elle se construit, elle ne se commande pas.",
+          "Profiter sans comparer : savourer l'éveil social sans le mesurer à une attente."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — tisser le lien",
+        "etapes": [
+          "Peau à peau régulier : construit l'attachement en profondeur.",
+          "Massage bébé : un temps de contact qui vous est propre.",
+          "Réflexo plexus solaire : centre de la voûte, micro-cercles, 1 min par pied, moment de connexion.",
+          "Pression 0/10 : un contact tendre.",
+          "Voix douce pendant les soins : un repère sensoriel unique pour bébé."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Privilégier les moments à deux : la qualité du lien se tisse dans le quotidien partagé.",
+        "Comprendre la chronologie : la préférence marquée s'affirme vers 6-9 mois, pas à 2 mois.",
+        "Ne pas se comparer : chaque bébé exprime son attachement à son rythme et à sa façon.",
+        "Voir loin : l'attachement privilégié se révélera nettement dans les mois à venir."
+      ],
+      "principe": "Sourire à tous est une étape normale du développement social : la préférence pour les figures d'attachement s'affirme plus tard. Le lien privilégié se construit déjà, par les soins, même sans signe visible.",
+      "erreurs_a_eviter": [
+        "Interpréter le sourire à tous comme un manque d'attachement — c'est une étape normale.",
+        "Chercher à « prouver » qu'on est préféré — le lien se construit, il ne se commande pas.",
+        "Se comparer à l'autre parent ou à d'autres bébés — chacun son rythme.",
+        "Réduire les moments à deux par dépit — c'est justement eux qui tissent le lien."
+      ],
+      "consulter_si": "Consulter si : bébé ne sourit à personne à 3 mois, ne réagit pas aux visages, ne suit pas du regard → pédiatre pour un bilan. Sourire à tout le monde, en revanche, est un signe positif d'éveil social."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "NOUVEAU JEU D'IMITATION / comment l'accompagner",
+      "titre": "Imitation des expressions — un jeu fondateur",
+      "explication": "Vers 2 mois, bébé commence à imiter certaines expressions : tirer la langue, ouvrir grand la bouche, lever les sourcils, en réponse à toi. Cette imitation précoce repose sur les neurones miroirs et constitue une brique fondamentale de la communication et de l'empathie. C'est aussi un jeu d'échange délicieux. Tous les bébés ne le manifestent pas au même âge ni avec la même intensité — la fourchette est large et normale.",
+      "ancrage": "Quand bébé t'imite, il te dit qu'il te regarde et qu'il apprend de toi. Tu n'as rien à provoquer : lui offrir des expressions claires, à bonne distance, suffit à nourrir ce jeu.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — jouer à l'imitation",
+        "etapes": [
+          "Se placer à 20-30 cm : la distance de mise au point de bébé.",
+          "Proposer une expression simple et lente : tirer la langue, ouvrir la bouche.",
+          "Laisser le temps : attendre quelques secondes que bébé tente de reproduire.",
+          "Choisir un moment d'éveil calme : ni faim, ni fatigue, ni sur-stimulation.",
+          "Ne pas insister s'il ne répond pas : réessayer un autre jour, sans pression."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — le plaisir de l'échange",
+        "etapes": [
+          "Sourires partagés : répondre à chaque tentative de bébé.",
+          "Voix chantée : accompagner les expressions d'une intonation douce.",
+          "Réflexo plexus solaire : centre de la voûte, micro-cercles, 1 min par pied, moment de jeu calme.",
+          "Pression 0/10 : un contact tendre.",
+          "Respecter ses pauses : s'il détourne le regard, attendre son retour."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Jouer régulièrement : de courts moments d'imitation, plusieurs fois par jour.",
+        "Varier les expressions : sans surcharger, une à la fois, lentement.",
+        "Filmer un échange : précieux à revoir, et l'œil repère les micro-imitations.",
+        "Voir loin : l'imitation est une base de la communication et de l'empathie à venir."
+      ],
+      "principe": "L'imitation précoce est une brique fondatrice de la communication. La proposer en douceur, à bonne distance, suffit — et chaque bébé s'y prête à son rythme, dans une fourchette large.",
+      "erreurs_a_eviter": [
+        "Forcer bébé à imiter — la pression bloque le jeu, qui doit rester un plaisir.",
+        "Se placer trop loin — bébé ne voit nettement qu'à 20-30 cm.",
+        "Enchaîner trop d'expressions d'affilée — sur-stimule.",
+        "S'inquiéter si l'imitation tarde — la fourchette d'apparition est large."
+      ],
+      "consulter_si": "Consulter si : à 3-4 mois bébé ne réagit jamais aux expressions, ne sourit pas en réponse, ne suit pas du regard → pédiatre pour un bilan. L'imitation, quand elle apparaît, est un beau signe d'éveil ; son rythme varie d'un bébé à l'autre."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "LE CO-PARENT CHERCHE SA PLACE / créer son propre lien",
+      "titre": "Le co-parent et bébé — trouver son canal d'échange",
+      "explication": "À 2 mois, surtout en allaitement, le co-parent peut chercher sa place dans le lien avec bébé. Or l'éveil social de cet âge (gazouillis, sourires, imitation) ouvre un canal d'échange formidable pour le second parent : jouer, parler, faire les expressions, porter, donner le bain. Bébé construit un attachement distinct mais tout aussi solide avec chaque parent, par des gestes propres à chacun. Chaque duo parent-bébé trouve sa façon d'être ensemble.",
+      "ancrage": "Le co-parent n'a pas à imiter l'autre pour créer du lien : l'éveil social de bébé ouvre plein de portes — le jeu, la voix, le portage. Bébé s'attache à chacun par des chemins différents.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — ouvrir le canal du co-parent",
+        "etapes": [
+          "Confier des moments dédiés : bain, jeu gazouillé, portage, endormissement.",
+          "Le co-parent à 20-30 cm : pour les échanges de regards, sourires, gazouillis.",
+          "Si allaitement : un biberon de lait exprimé donné par le co-parent en soirée.",
+          "Laisser faire : le co-parent trouve sa façon de faire, sans tout corriger.",
+          "Le parent principal s'éclipse parfois : bébé vit l'échange en tête-à-tête avec l'autre."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — le lien du co-parent",
+        "etapes": [
+          "Peau à peau du co-parent : construit l'attachement autant que pour l'autre parent.",
+          "Voix et chant du co-parent : bébé apprend à reconnaître cette voix aussi.",
+          "Réflexo plexus solaire par le co-parent : centre de la voûte, micro-cercles, 1 min par pied.",
+          "Pression 0/10 : un moment de tendresse partagé.",
+          "Portage du co-parent : son odeur et son rythme deviennent familiers."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Tâches dédiées au co-parent : un rituel identifiable, comme le bain du soir.",
+        "Valoriser sa place : « Papa sait faire », devant bébé et l'entourage.",
+        "Le co-parent joue avec l'éveil social : gazouillis, imitation, son canal privilégié.",
+        "Voir loin : le lien au co-parent s'approfondit naturellement dans les mois à venir."
+      ],
+      "principe": "Bébé s'attache à chaque parent par des chemins différents. L'éveil social de 2 mois ouvre au co-parent un canal d'échange riche : jouer, parler, porter — sans avoir à reproduire l'autre.",
+      "erreurs_a_eviter": [
+        "Tout corriger quand le co-parent s'occupe de bébé — décourage et renforce l'exclusion.",
+        "Présenter le co-parent comme un assistant plutôt qu'un parent à part entière.",
+        "Réserver tous les soins au parent principal par habitude ou contrôle.",
+        "Croire qu'on doit imiter l'autre parent — chacun a son propre canal de lien."
+      ],
+      "consulter_si": "Consulter si : le co-parent vit un mal-être profond, un sentiment d'exclusion durable, ou un retrait vis-à-vis de bébé → en parler en couple ou avec un thérapeute périnatal. Un co-parent peut aussi traverser une dépression post-partum, qui se soigne."
+    },
+    {
+      "categorie": "sante",
+      "situation": "RÉACTION APRÈS LES VACCINS / fièvre, point d'injection",
+      "titre": "Réaction post-vaccinale — gérer les 48h à la maison",
+      "explication": "Après les vaccins des 2 mois, une réaction légère dans les 48h est fréquente et bénigne : petite fièvre, point d'injection rouge ou sensible, bébé grognon ou plus endormi. C'est le signe que le système immunitaire réagit normalement. La plupart des réactions se gèrent à la maison avec du repos et du réconfort. Chaque bébé réagit différemment — beaucoup à peine. Certains signes, en revanche, imposent d'appeler le médecin.",
+      "ancrage": "Une réaction légère après le vaccin est normale et passagère : le corps de bébé apprend à se défendre. Tu peux l'accompagner avec du calme, tout en sachant quels signes doivent te faire appeler.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — soulager dans les 48h",
+        "etapes": [
+          "Surveiller la température : prise en rectal, et noter l'évolution.",
+          "Réconforter : portage, peau à peau, tétées à la demande.",
+          "Point d'injection : compresse fraîche brièvement si sensible, sans frotter ni masser fort.",
+          "Habiller léger : pièce tempérée, ne pas surcouvrir en cas de fièvre.",
+          "Paracétamol : seulement sur indication du médecin, à la dose pédiatrique."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — apaiser bébé",
+        "etapes": [
+          "Peau à peau prolongé : le contact réduit l'inconfort.",
+          "Portage doux : bercement lent, voix calme.",
+          "Réflexo plexus solaire : centre de la voûte, micro-cercles, 1 min par pied, loin du point d'injection.",
+          "Pression 0/10 : jamais sur la zone vaccinée.",
+          "Repos : alléger la journée, pas de sortie sur-stimulante."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Noter la réaction : type, durée, pour la signaler au médecin si besoin.",
+        "Prévoir 48h calmes : du repos plutôt que des sorties après le vaccin.",
+        "Carnet de santé à jour : pour le suivi vaccinal.",
+        "Respecter le calendrier : ne jamais avancer le vaccin suivant."
+      ],
+      "principe": "Une réaction légère post-vaccinale est normale et se gère par le repos et le réconfort. Connaître les signes qui imposent d'appeler le médecin est l'essentiel — chaque bébé réagit à sa façon.",
+      "erreurs_a_eviter": [
+        "Donner du paracétamol en systématique sans avis — uniquement sur indication, dose pédiatrique.",
+        "Couvrir bébé pour « faire tomber la fièvre » — augmente la température.",
+        "Masser ou comprimer fortement le point d'injection — inutile et désagréable.",
+        "Enchaîner les sorties après le vaccin — bébé a besoin de repos."
+      ],
+      "consulter_si": "Appeler le médecin ou le 15 si : fièvre élevée ou qui dure au-delà de 48h, point d'injection très rouge, chaud et gonflé, bébé anormalement mou, geignard, inconsolable, ou toute réaction inhabituelle. Avant 3 mois, toute fièvre est à évaluer médicalement. Ce protocole ne remplace pas l'avis du médecin."
+    },
+    {
+      "categorie": "sante",
+      "situation": "RHUME OU RESPIRATION ENCOMBRÉE / risque de bronchiolite",
+      "titre": "Nez bouché et toux — surveiller la bronchiolite",
+      "explication": "À 2 mois, un simple rhume peut encombrer la respiration de bébé, qui respire surtout par le nez. En saison hivernale, le virus VRS peut provoquer une bronchiolite : toux, gêne respiratoire, difficulté à téter. La plupart évoluent bien, mais le nourrisson est fragile et certains signes imposent une consultation rapide. Les gestes de base (lavage de nez, hydratation, surveillance) soulagent. Chaque bébé tolère plus ou moins bien l'encombrement.",
+      "ancrage": "Un nez bouché chez un nourrisson mérite attention sans forcément inquiéter. Tu peux soulager bébé avec des gestes simples, tout en surveillant de près sa respiration et son alimentation.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — dégager et surveiller",
+        "etapes": [
+          "Laver le nez au sérum physiologique : en dosettes, plusieurs fois par jour, surtout avant les repas.",
+          "Plan de couchage surélevé : très légèrement côté tête, jamais d'oreiller dans le lit.",
+          "Fractionner les repas : bébé encombré tète par à-coups, proposer plus souvent.",
+          "Aérer et humidifier : pièce aérée, pas surchauffée, autour de 19°C.",
+          "Surveiller la respiration : fréquence, creusement entre les côtes, coloration."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — soulager le confort",
+        "etapes": [
+          "Portage vertical : facilite la respiration et le drainage.",
+          "Peau à peau : rassure et apaise bébé encombré.",
+          "Réflexo plexus solaire : centre de la voûte, micro-cercles, 1 min par pied, si bébé tolère.",
+          "Pression 0/10 : contact apaisant.",
+          "Pas d'huiles essentielles : neurotoxiques avant 3 ans, jamais sur un nourrisson."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Vérifier l'immunisation Beyfortus : protection contre le VRS, administrée aux nourrissons éligibles.",
+        "Zéro tabagisme passif : facteur aggravant majeur de la bronchiolite.",
+        "Gestes barrières : lavage des mains, limiter les visites en saison à risque.",
+        "Compter les couches : une bonne hydratation se voit aux couches mouillées."
+      ],
+      "principe": "Un rhume du nourrisson se soulage par le lavage de nez et la surveillance. La bronchiolite peut évoluer vite chez un bébé fragile : connaître les signes d'alerte et consulter sans tarder est la priorité.",
+      "erreurs_a_eviter": [
+        "Utiliser des huiles essentielles ou un baume mentholé — neurotoxiques avant 3 ans.",
+        "Donner un décongestionnant ou des gouttes nasales sans avis médical — contre-indiqués.",
+        "Surchauffer la chambre — assèche les muqueuses et gêne la respiration.",
+        "Attendre passivement si la respiration se dégrade — consulter sans tarder."
+      ],
+      "consulter_si": "Consulter rapidement (médecin, 15) si : bébé respire vite ou difficilement, creuse entre les côtes, geint, refuse de boire, mouille moins de couches, a une fièvre (urgence avant 3 mois), ou change de couleur (pâleur, lèvres bleutées → 15 immédiatement). Ce protocole ne remplace pas un avis médical."
+    },
+    {
+      "categorie": "sante",
+      "situation": "PEAU RÉACTIVE / rougeurs et plaques",
+      "titre": "Peau réactive du nourrisson — protéger la barrière",
+      "explication": "À 2 mois, la peau de bébé est fine, perméable et réactive : rougeurs, petites plaques, sécheresse apparaissent facilement, parfois sous forme de dermatite. La barrière cutanée est encore immature. La plupart de ces réactions sont bénignes et s'améliorent avec des soins doux : hydratation, produits sans parfum, limitation des agressions. Chaque peau de bébé est différente — certaines sont très réactives, d'autres peu. Une rougeur qui s'étend ou démange justifie un avis.",
+      "ancrage": "Une peau réactive n'est pas le signe que tu fais mal : la barrière cutanée de bébé est simplement encore immature. Des soins doux et réguliers l'aident à se renforcer.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — soins doux",
+        "etapes": [
+          "Laver à l'eau tiède : bains courts, savon surgras sans parfum, pas tous les jours.",
+          "Sécher en tamponnant : sans frotter, bien dans les plis.",
+          "Hydrater : émollient adapté aux nourrissons, sans parfum, après le bain.",
+          "Habiller en coton : éviter les fibres synthétiques et la laine à même la peau.",
+          "Limiter les agressions : lessive hypoallergénique, double rinçage."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — pendant le soin de la peau",
+        "etapes": [
+          "Massage doux à l'émollient : un moment de contact qui renforce le lien.",
+          "Voix calme et contact visuel : le soin devient un temps d'échange.",
+          "Réflexo plexus solaire : centre de la voûte, micro-cercles, 1 min par pied, si peau saine à cet endroit.",
+          "Pression 0/10 : douceur totale, jamais sur une zone irritée.",
+          "Éviter tout frottement : on tamponne, on n'essuie pas une zone réactive."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Choisir des produits sans parfum : limiter les irritants au maximum.",
+        "Tester l'éviction : lessive, lingettes, un facteur à la fois pour identifier un déclencheur.",
+        "Photographier les plaques : tous les 2 jours, pour suivre l'évolution objectivement.",
+        "Voir loin : la barrière cutanée se renforce avec la maturation, à son rythme."
+      ],
+      "principe": "La peau du nourrisson est réactive parce qu'immature : des soins doux et sans parfum la protègent. Une rougeur qui s'étend, démange ou s'infecte change la donne et impose un avis médical.",
+      "erreurs_a_eviter": [
+        "Multiplier les bains et les produits — assèche et agresse une peau déjà fragile.",
+        "Utiliser des produits parfumés ou des lingettes alcoolisées — irritants.",
+        "Appliquer une crème médicamenteuse sans prescription — la peau du nourrisson est délicate.",
+        "Frotter une zone irritée pour « nettoyer » — aggrave l'inflammation."
+      ],
+      "consulter_si": "Consulter si : les plaques s'étendent, deviennent très rouges, suintent, démangent visiblement (bébé pleure, se frotte), ou s'accompagnent de fièvre → pédiatre, pour écarter un eczéma ou une infection et obtenir un traitement adapté. Ce protocole ne remplace pas un avis dermatologique."
+    },
+    {
+      "categorie": "sante",
+      "situation": "COLIQUES PERSISTANTES / malgré les efforts",
+      "titre": "Coliques qui persistent — accompagner sans s'épuiser",
+      "explication": "Certaines coliques persistent à 2 mois malgré tous les gestes : crises de pleurs intenses, souvent le soir, ventre tendu, jambes repliées. C'est éprouvant pour les parents, mais cela reste bénin et transitoire — la plupart disparaissent vers 3-4 mois. La cause exacte est mal comprise. L'enjeu, quand rien ne « marche » vraiment, est d'accompagner bébé, de se relayer pour tenir, et de ne pas se sentir responsable. Chaque bébé en sort à son rythme.",
+      "ancrage": "Si les coliques persistent malgré tout ce que tu essaies, ce n'est pas de ta faute et ce n'est pas un échec. Parfois, accompagner et tenir, à plusieurs, est déjà tout ce qu'on peut faire — et c'est suffisant.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — traverser la crise",
+        "etapes": [
+          "Portage ventral : bébé sur l'avant-bras, ventre vers le bas, tête dans le creux du coude.",
+          "Mouvement et chaleur : pédalage doux des jambes, main tiède à plat sur le ventre.",
+          "Réduire la stimulation : calme, pénombre, surtout en fin de journée.",
+          "Se relayer : passer le bébé au co-parent dès que la tension monte.",
+          "Si tu es à bout : poser bébé en sécurité sur le dos, sortir respirer quelques minutes."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — soulager et apaiser",
+        "etapes": [
+          "Massage du ventre : à plat de la main, sens horaire, après digestion.",
+          "Réflexo zone digestive : centre de la voûte, cercles lents, 1 min par pied.",
+          "Pression 0/10 : jamais sur un ventre tendu et douloureux.",
+          "Portage vertical chaud : ventre contre ta poitrine.",
+          "Bruit blanc et bercement lent : pour accompagner sans secousse."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Tenir un journal : repas, pleurs, gaz, selles, utile pour faire le point avec le pédiatre.",
+        "Se relayer absolument : les coliques épuisent, personne ne doit porter ça seul.",
+        "Probiotique L. reuteri : certaines études le montrent utile, à voir avec le pédiatre.",
+        "Voir loin : les coliques disparaissent presque toujours vers 3-4 mois, au rythme de bébé."
+      ],
+      "principe": "Quand les coliques persistent malgré tout, accompagner et se relayer est déjà l'essentiel : ce n'est pas un échec parental. Elles restent bénignes et disparaissent avec le temps, propre à chaque bébé.",
+      "erreurs_a_eviter": [
+        "Multiplier les changements de lait et les remèdes sans avis — souvent inutiles.",
+        "Se sentir responsable de pleurs qu'on ne peut pas arrêter — c'est physiologique.",
+        "S'épuiser seul(e) sans jamais passer le relais — la fatigue aggrave tout.",
+        "Secouer ou bercer vivement pour calmer plus vite — danger pour le cerveau du nourrisson."
+      ],
+      "consulter_si": "Consulter si : les pleurs s'accompagnent de fièvre, vomissements en jet, sang dans les selles, refus de s'alimenter, cassure de poids, ou si tu te sens débordé(e) au point de craindre tes réactions → pédiatre, et Allo Parents Bébé (0 800 00 34 56) ou le 15 en cas de détresse. Ce protocole ne remplace pas un avis médical."
+    },
+    {
+      "categorie": "parent",
+      "situation": "ANGOISSE DE LA REPRISE / le retour au travail approche",
+      "titre": "Le retour au travail qui approche — apprivoiser la transition",
+      "explication": "À 2 mois, pour beaucoup de parents, la reprise du travail se profile et génère un mélange d'angoisse, de culpabilité et de questions logistiques. C'est une transition majeure, à la fois pour le parent et pour bébé. La science est rassurante : un attachement sécure se construit très bien avec un parent qui travaille — c'est la qualité et la fiabilité du lien qui comptent, pas la quantité d'heures. Anticiper en douceur cette transition apaise tout le monde.",
+      "ancrage": "Reprendre le travail ne défait pas le lien que tu as construit avec bébé. Ce lien tient à la fiabilité de ta présence, pas au nombre d'heures. Tu peux préparer cette transition pas à pas.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — préparer la reprise",
+        "etapes": [
+          "Anticiper la logistique : mode de garde, biberon, organisation des journées, sans tout régler d'un coup.",
+          "Introduire le biberon à l'avance : si allaitement, quelques semaines avant (voir protocole dédié).",
+          "Visiter le futur lieu de garde : plusieurs fois, pour se rassurer mutuellement.",
+          "Aménager les retrouvailles : prévoir un temps de présence pleine au retour, chaque jour.",
+          "Nommer ses émotions : à un proche, en couple, sans les garder pour soi."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — s'apaiser et rassurer bébé",
+        "etapes": [
+          "Peau à peau au retour : 15-20 min de présence pleine reconnectent vous deux.",
+          "Rituel de séparation simple : une phrase, un geste, stables et rassurants.",
+          "Réflexo plexus solaire : centre de la voûte, micro-cercles, 1 min par pied, le soir.",
+          "Pression 0/10 : un contact qui apaise vous deux.",
+          "Objet à ton odeur : un lange porté, laissé au lieu de garde (jamais dans le lit la nuit)."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Demander un retour progressif : temps partiel si possible, beaucoup de conventions le permettent.",
+        "Préparer un cahier de transmission : rituels, gestes apaisants, signaux de bébé pour la garde.",
+        "Voir une sage-femme ou un psy avant la reprise : 1-2 séances peuvent suffire à apaiser.",
+        "Se déculpabiliser par les faits : un attachement sécure se construit même en travaillant."
+      ],
+      "principe": "Un attachement sécure repose sur la fiabilité du lien, pas sur le nombre d'heures de présence. Préparer la reprise en douceur, pour bébé et pour soi, apaise une transition naturellement chargée.",
+      "erreurs_a_eviter": [
+        "Tout régler à la dernière minute — multiplie la pression sur bébé et sur toi.",
+        "Se culpabiliser de reprendre le travail — la qualité du lien prime sur la quantité.",
+        "Partir en cachette le jour J pour éviter les pleurs — installe une insécurité (voir protocole séparation).",
+        "Garder l'angoisse pour soi — la nommer à un proche ou un pro l'allège."
+      ],
+      "consulter_si": "Consulter si : l'angoisse devient envahissante, empêche de dormir ou de fonctionner, ou s'accompagne d'une tristesse persistante → médecin, psychologue périnatal, ou MonParcoursPsy (8 séances remboursées). Ce protocole ne remplace pas un accompagnement personnalisé."
+    },
+    {
+      "categorie": "parent",
+      "situation": "PRÉPARER LA GARDE / séparation en douceur",
+      "titre": "Préparer la séparation — une transition progressive",
+      "explication": "Confier bébé à un mode de garde (crèche, assistante maternelle) est une étape qui se prépare, pour lui comme pour le parent. À 2 mois, bébé n'a pas encore l'angoisse de séparation (qui apparaît plus tard), ce qui peut faciliter l'adaptation, mais il a besoin de repères stables et d'une transition progressive. Une adaptation en douceur, avec des repères familiers, aide bébé à se sentir en sécurité. Chaque enfant s'adapte à son propre rythme.",
+      "ancrage": "Préparer la séparation, ce n'est pas abandonner bébé : c'est l'aider à se sentir en sécurité ailleurs aussi. Une transition douce et des repères familiers font toute la différence.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — une adaptation en douceur",
+        "etapes": [
+          "Prévoir une adaptation progressive : des temps de garde courts d'abord, qui s'allongent.",
+          "Transmettre les repères : rituels, gestes apaisants, signaux de fatigue de bébé, à la garde.",
+          "Laisser un objet à ton odeur : un lange porté, qui rassure bébé en ton absence.",
+          "Dire au revoir clairement : un rituel court, même bref, plutôt qu'un départ en cachette.",
+          "Échanger chaque jour avec la garde : sur le sommeil, les repas, les émotions de bébé."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — sécuriser bébé",
+        "etapes": [
+          "Retrouvailles en peau à peau : un temps de reconnexion au retour.",
+          "Rituel de séparation stable : la même phrase, le même geste, chaque fois.",
+          "Réflexo plexus solaire : centre de la voûte, micro-cercles, 1 min par pied, le soir.",
+          "Pression 0/10 : un contact rassurant.",
+          "Micro-séparations à la maison : sortir quelques minutes et revenir, pour entraîner en douceur."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Visiter en amont : rencontrer la garde plusieurs fois avant le jour J.",
+        "Cahier de transmission : rituels et gestes apaisants notés pour la continuité.",
+        "Accepter la traversée : les premières semaines peuvent être difficiles, c'est normal.",
+        "Voir loin : bébé s'adapte à son rythme, et le lien avec toi reste son ancre."
+      ],
+      "principe": "Une séparation se prépare par la progressivité et les repères, pas dans la précipitation. Bébé se sécurise quand la transition est douce et que ses repères le suivent — et chacun s'adapte à son rythme.",
+      "erreurs_a_eviter": [
+        "Partir en cachette pour éviter les pleurs — installe une vigilance anxieuse pire.",
+        "Supprimer l'adaptation progressive par manque de temps — brusque bébé et le parent.",
+        "Ne pas transmettre les repères à la garde — prive bébé de sa continuité rassurante.",
+        "Comparer l'adaptation de bébé à celle d'un autre — chaque enfant a son rythme."
+      ],
+      "consulter_si": "Consulter si : bébé présente une détresse intense et durable à chaque séparation au-delà de l'adaptation, des troubles persistants du sommeil ou de l'alimentation → en parler avec la structure de garde, le pédiatre ou la PMI. Ce protocole ne remplace pas un accompagnement adapté."
+    },
+    {
+      "categorie": "parent",
+      "situation": "CHARGE MENTALE / tension dans le couple",
+      "titre": "Charge mentale — tension dans le couple",
+      "explication": "À 2 mois, la fatigue cumulée, la charge mentale (penser à tout, anticiper, organiser) et le manque de temps à deux peuvent tendre le couple. C'est extrêmement fréquent et rarement anticipé : l'arrivée de bébé bouleverse l'équilibre, redistribue les rôles, et laisse peu d'espace pour le lien conjugal. En parler, répartir concrètement les tâches et préserver de petits moments à deux aide à traverser cette période sans que le couple s'use.",
+      "ancrage": "Une tension dans le couple à ce stade n'est pas un signe d'échec : c'est une période de réorganisation intense. En parler ouvertement et répartir la charge concrètement allège la pression.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — alléger la charge",
+        "etapes": [
+          "Nommer la charge mentale : en termes pratiques, pas en reproches (« je voudrais déléguer X »).",
+          "Répartir concrètement : qui pense à quoi, pas seulement qui exécute.",
+          "Lister le visible et l'invisible : rendre la charge tangible permet de la partager.",
+          "Préserver un micro-moment à deux : même 10 min, sans bébé ni écran.",
+          "Accepter de l'aide extérieure : pour souffler en couple de temps en temps."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — pour le couple et soi",
+        "etapes": [
+          "Trois respirations avant une discussion tendue : pour parler au calme.",
+          "Un geste d'attention simple à l'autre : maintient le lien malgré la fatigue.",
+          "Auto-massage des épaules : relâcher la tension physique accumulée.",
+          "Reconnaître l'effort de l'autre à voix haute : nourrit le lien conjugal.",
+          "S'accorder du repos chacun son tour : un parent reposé est plus disponible à l'autre."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Outil de tâches partagées : une appli ou une liste visible (frigo) pour répartir l'invisible.",
+        "Réaffirmer la répartition réelle : qui anticipe, pas seulement qui fait.",
+        "Préserver des temps à deux : même courts, ils entretiennent le lien.",
+        "Thérapie de couple périnatale : si la tension s'installe, quelques séances peuvent suffire."
+      ],
+      "principe": "La charge mentale s'allège quand elle devient visible et partagée. Préserver de petits moments à deux et nommer les besoins sans reproche protège le couple pendant cette réorganisation.",
+      "erreurs_a_eviter": [
+        "Accumuler les reproches sans nommer les besoins concrets — alimente le conflit.",
+        "Attendre que l'autre « devine » la charge mentale — la rendre visible la rend partageable.",
+        "Sacrifier tout temps de couple « le temps que ça passe » — le lien s'use en silence.",
+        "Croire que tout le monde s'en sort sans tension — c'est une réalité très répandue."
+      ],
+      "consulter_si": "Consulter si : la tension devient un conflit permanent, s'accompagne d'un mal-être profond, ou si l'un des deux s'isole et va mal → thérapeute de couple à orientation périnatale, ou psychologue. En cas de détresse personnelle, MonParcoursPsy. Ce protocole ne remplace pas un accompagnement."
+    },
+    {
+      "categorie": "parent",
+      "situation": "COMPARAISON AUX AUTRES / et culpabilité engendrée",
+      "titre": "Comparaison et culpabilité — sortir du piège",
+      "explication": "À 2 mois, entre les réseaux sociaux, l'entourage et les injonctions diverses, beaucoup de parents se comparent et culpabilisent : bébé des autres qui dort mieux, parents qui semblent tout gérer, conseils contradictoires. Or les images diffusées sont rarement le reflet du réel, et chaque bébé comme chaque famille est différent. Cette comparaison nourrit une culpabilité injuste. Se recentrer sur son propre bébé et sur des sources fiables protège le moral.",
+      "ancrage": "Ce que tu vois des autres parents n'est qu'une vitrine, pas leur réalité. Ton bébé et ta famille sont uniques : te comparer ne dit rien de ta valeur de parent, qui est bien réelle.",
+      "action_immediate": {
+        "couleur_fond": "#F5D0C8",
+        "couleur_texte": "#8A3020",
+        "titre": "Action immédiate — se recentrer",
+        "etapes": [
+          "Limiter l'exposition : réduire le temps sur les réseaux qui déclenchent la comparaison.",
+          "Se recentrer sur son bébé : observer ce qui va, ici, plutôt que ce que font les autres.",
+          "Choisir une ou deux sources fiables : et limiter les avis contradictoires.",
+          "Nommer la culpabilité : la dire à un proche, elle se dégonfle souvent en la partageant.",
+          "Reconnaître ses réussites : même les plus petites, chaque jour."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#DCE9CF",
+        "couleur_texte": "#3F5C2E",
+        "titre": "Geste doux — se reconnecter à l'essentiel",
+        "etapes": [
+          "Peau à peau : sentir que le lien fonctionne, au-delà des comparaisons.",
+          "Observer bébé apaisé dans tes bras : une preuve concrète de ta compétence.",
+          "Trois respirations calmes : pour faire taire la voix critique intérieure.",
+          "Se parler avec bienveillance : comme on parlerait à un ami dans la même situation.",
+          "Un moment de tendresse simple : sans objectif de performance."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Suivre des comptes du réel : parents qui montrent la vraie vie, pas la perfection.",
+        "Rejoindre un cercle de jeunes parents : la confrontation au réel rassure.",
+        "Choisir des sources fiables : PMI, sage-femme, plutôt que la masse contradictoire.",
+        "Garder en tête le rythme propre : chaque bébé et chaque famille avancent au leur."
+      ],
+      "principe": "La comparaison nourrit une culpabilité injuste, car chaque bébé et chaque famille sont uniques. Se recentrer sur son propre enfant et sur quelques sources fiables protège le moral et la confiance.",
+      "erreurs_a_eviter": [
+        "Accumuler les avis contradictoires (réseaux, entourage) — amplifie le doute et la culpabilité.",
+        "Prendre les vitrines des réseaux pour la réalité — elles ne la reflètent pas.",
+        "Se comparer à des bébés « parfaits » — chaque enfant a son rythme.",
+        "Garder la culpabilité secrète — la nommer la dédramatise."
+      ],
+      "consulter_si": "Consulter si : la comparaison et la culpabilité créent une souffrance majeure, une tristesse persistante, ou une perte de confiance envahissante → psychologue périnatal, ou MonParcoursPsy. En cas de pensées sombres : 3114, 24h/24, confidentiel et gratuit. Ce protocole ne remplace pas un soutien professionnel."
+    }
+  ]
+}

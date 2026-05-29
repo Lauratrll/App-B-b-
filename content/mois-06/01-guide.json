@@ -53,7 +53,7 @@
   "protocoles": [
     {
       "categorie": "pleurs",
-      "situation": "Pleurs de frustration — coincé en plein mouvement",
+      "situation": "PLEURS DE FRUSTRATION MOTRICE / bébé bloqué",
       "titre": "Pleurs de frustration motrice — bébé bloqué",
       "explication": "À 6 mois, bébé commence à pouvoir initier des mouvements qu'il ne sait pas encore terminer : se retourner sur le ventre puis ne plus pouvoir revenir, tendre la main vers un objet sans l'attraper, se redresser sans pouvoir se rasseoir. Cette frustration est neurologiquement nouvelle — son intention dépasse pour la première fois ses capacités motrices. Les pleurs qui en résultent ne sont pas un appel à l'aide, mais une décharge de tension. Lui faire systématiquement le mouvement à sa place le prive de la motivation à apprendre.",
       "ancrage": "Cette frustration est un signe d'intelligence en mouvement — pas un échec. Ton rôle n'est pas de résoudre la situation, mais de l'accompagner pendant qu'il cherche.",
@@ -98,7 +98,7 @@
     },
     {
       "categorie": "pleurs",
-      "situation": "Pleurs intenses après une journée sensorielle chargée",
+      "situation": "SURCHARGE SENSORIELLE / décharge du soir",
       "titre": "Surcharge sensorielle — décharge du soir",
       "explication": "À 6 mois, bébé voit beaucoup mieux, entend distinctement, traite des odeurs nouvelles via la diversification, manipule des textures inédites. Son cerveau enregistre tout, mais n'a pas encore la capacité de filtrer ce qu'il reçoit. En fin de journée, ce trop-plein remonte sous forme de pleurs intenses qui ressemblent aux pleurs de décharge du soir — sauf que le mécanisme est différent : c'est le système nerveux qui se vide, pas l'inconfort digestif. Ces pleurs sont sains et nécessaires.",
       "ancrage": "Ton bébé n'est pas malheureux. Il digère sa journée d'éveil par le seul canal qu'il connaît : pleurer dans tes bras. Tu n'as pas à arrêter ces pleurs — juste à les contenir.",
@@ -143,8 +143,8 @@
     },
     {
       "categorie": "pleurs",
-      "situation": "Pleurs nocturnes nouveaux qui n'existaient pas avant",
-      "titre": "Réveils en pleurs après une période calme",
+      "situation": "RÉVEILS EN PLEURS / après une période calme",
+      "titre": "Réveils en pleurs — après une période calme",
       "explication": "Vers 6 mois, beaucoup de bébés qui dormaient bien se mettent soudain à pleurer la nuit. Ce n'est ni une régression d'attachement, ni un mauvais signe — c'est la maturation des cycles de sommeil qui s'achève. Les phases de sommeil paradoxal s'allongent, les micro-réveils entre cycles deviennent plus conscients. Bébé se rend compte qu'il s'est endormi quelque part, et que ce quelque part a changé entre deux cycles. La permanence du lieu, comme la permanence de l'objet, est en train de se construire.",
       "ancrage": "Ce qui se passe n'est pas un retour en arrière. C'est une étape de plus dans la conscience de bébé. Plus il grandit, plus il perçoit — y compris la nuit.",
       "action_immediate": {
@@ -188,7 +188,7 @@
     },
     {
       "categorie": "pleurs",
-      "situation": "Pleure violemment dès qu'on sort de son champ de vision",
+      "situation": "PLEURS DE SÉPARATION VISUELLE / précurseur de l'angoisse",
       "titre": "Pleurs de séparation visuelle — précurseur de l'angoisse",
       "explication": "À 6 mois, la permanence de l'objet n'est pas encore totalement acquise. Pour bébé, quand tu sors de son champ de vision, tu cesses d'exister. Ce n'est pas une croyance, c'est une réalité neurologique : le souvenir d'une figure absente ne se maintient pas encore. Cette étape est la racine de ce qu'on appellera plus tard l'angoisse de séparation (qui culmine vers 8-10 mois). Les pleurs immédiats au moindre éloignement sont sains — ils signent un attachement sécure en construction.",
       "ancrage": "Ses pleurs sont une preuve d'amour, pas un problème à résoudre. Il est en train d'apprendre que tu existes même quand il ne te voit pas — c'est un apprentissage long.",
@@ -233,7 +233,7 @@
     },
     {
       "categorie": "alim",
-      "situation": "Recrache systématiquement la cuillère",
+      "situation": "PREMIER REFUS DE LA CUILLÈRE / réflexe ou refus ?",
       "titre": "Premier refus de la cuillère — réflexe ou refus ?",
       "explication": "À 6 mois, bébé a encore un réflexe d'extrusion : sa langue pousse automatiquement vers l'avant tout ce qui entre dans sa bouche. Ce réflexe disparaît progressivement entre 4 et 7 mois, à des rythmes très variables. Recracher n'est donc pas un refus — c'est neurologique. À cela s'ajoute la nouveauté absolue de la texture (purée vs lait), du goût, de l'outil (cuillère métallique ou plastique), et de la posture (assis face à un adulte). Le démarrage de la diversification se mesure en semaines, pas en repas.",
       "ancrage": "Bébé n'apprend pas à manger comme on apprend à parler — il apprend à se laisser nourrir, puis à manger seul. Les premières semaines sont des semaines d'exploration, pas de nutrition.",
@@ -278,7 +278,7 @@
     },
     {
       "categorie": "alim",
-      "situation": "A des hauts-le-cœur dès qu'il y a un morceau",
+      "situation": "HAUTS-LE-CŒUR SUR LES TEXTURES / le réflexe nauséeux normal",
       "titre": "Hauts-le-cœur sur les textures — le réflexe nauséeux normal",
       "explication": "À 6 mois, le réflexe nauséeux de bébé est situé très en avant dans la bouche — presque au milieu de la langue. Tout morceau ou texture inhabituelle déclenche ce réflexe protecteur. C'est volontaire de la nature : il évite les fausses-routes en repoussant ce qui n'est pas suffisamment travaillé. Au fil des mois, ce réflexe recule progressivement vers le fond de la gorge. Un haut-le-cœur n'est pas un étouffement — c'est exactement l'inverse : un mécanisme de protection qui fonctionne.",
       "ancrage": "Quand bébé a un haut-le-cœur, il n'est pas en danger — il est en train d'apprendre à gérer sa bouche. Plus tu paniques, plus il apprend que manger est effrayant.",
@@ -323,7 +323,7 @@
     },
     {
       "categorie": "alim",
-      "situation": "Se distrait pendant les tétées ou les biberons",
+      "situation": "DISTRACTIBILITÉ AU SEIN OU AU BIBERON / bébé devient curieux",
       "titre": "Distractibilité au sein ou au biberon — bébé devient curieux",
       "explication": "À 6 mois, bébé devient nettement plus attentif à son environnement. Sa vision s'est affinée, il distingue les couleurs, suit les mouvements. Au moment de téter, le moindre bruit, le moindre mouvement le fait décrocher : il lâche le sein ou le biberon en plein milieu, tourne la tête, regarde, et revient — ou ne revient pas. Ce n'est pas un signe de sevrage, ni de manque d'intérêt. C'est l'expression d'un éveil qui prend toute la place. La tétée doit s'adapter à cette nouvelle attention dirigée.",
       "ancrage": "Bébé n'a pas moins besoin de toi. Il a juste plus de monde à découvrir. Adapter le cadre suffit le plus souvent.",
@@ -368,7 +368,7 @@
     },
     {
       "categorie": "alim",
-      "situation": "A toussé fortement pendant un repas, peur de la fausse-route",
+      "situation": "APRÈS UN ÉPISODE DE TOUX / sécuriser sans angoisser",
       "titre": "Après un épisode de toux — sécuriser sans angoisser",
       "explication": "Quand bébé tousse fortement pendant un repas, dans la quasi-totalité des cas, son réflexe de protection a fonctionné parfaitement : la toux signe que l'air passe et que le corps évacue ce qui ne devait pas descendre. C'est différent de l'étouffement, qui est silencieux. À 6 mois, le système oral est encore en apprentissage : ces alertes vont se reproduire — c'est inévitable et même nécessaire pour que la motricité orale se construise. Ce qui marque bébé, ce n'est pas l'épisode lui-même, c'est la réaction de l'adulte autour.",
       "ancrage": "Ton bébé a réagi avec son corps. Ton rôle maintenant est de réagir avec ton calme. Ce que tu vas transmettre dans la minute qui suit reste plus longtemps que la toux elle-même.",
@@ -413,7 +413,7 @@
     },
     {
       "categorie": "sommeil",
-      "situation": "Faisait ses nuits, ne dort plus depuis 2 semaines",
+      "situation": "RÉGRESSION DU SOMMEIL DES 6 MOIS / la maturation finale",
       "titre": "Régression du sommeil des 6 mois — la maturation finale",
       "explication": "Entre 5 et 7 mois, beaucoup de bébés traversent une régression du sommeil distincte de celle des 4 mois. Cette fois, ce n'est pas la maturation des cycles qui est en jeu — c'est l'arrivée de la mobilité (retournements actifs, début du quatre pattes) et la maturation cognitive (permanence partielle, conscience du séparé). Bébé se réveille la nuit parce que son cerveau « rejoue » ce qu'il a appris dans la journée. C'est temporaire — entre 2 et 6 semaines selon les enfants — et c'est un signe positif de développement.",
       "ancrage": "La régression n'est pas un retour en arrière — c'est une consolidation. Plus bébé apprend dans la journée, plus son sommeil est traversé. Le cadre stable est ton outil principal.",
@@ -458,8 +458,8 @@
     },
     {
       "categorie": "sommeil",
-      "situation": "Se réveille parce qu'il se retourne et reste bloqué",
-      "titre": "Réveils liés aux nouveaux acquis moteurs",
+      "situation": "RÉVEILS LIÉS AUX ACQUIS MOTEURS / coincé après un retournement",
+      "titre": "Réveils liés aux acquis moteurs — coincé après un retournement",
       "explication": "À 6 mois, les retournements deviennent involontaires pendant le sommeil. Bébé bascule sur le ventre, ne sait pas encore revenir sur le dos, et se réveille en pleurant. Le réflexe du parent est de le retourner — mais ce geste, répété toutes les nuits, retarde l'apprentissage. La recommandation actuelle des pédiatres : laisser bébé sur le ventre une fois qu'il s'y est mis seul à condition que la literie soit sécurisée. La nuit, bébé apprendra à se gérer plus vite que tu ne crois.",
       "ancrage": "Bébé ne pleure pas parce qu'il est en danger — il pleure parce qu'il découvre une nouvelle position dans son sommeil. Avec quelques jours, son corps apprend.",
       "action_immediate": {
@@ -503,7 +503,7 @@
     },
     {
       "categorie": "sommeil",
-      "situation": "Réveil très précoce 4h-5h impossible à recoucher",
+      "situation": "RÉVEIL AVANT L'AUBE / fenêtre d'éveil ou faim ?",
       "titre": "Réveil avant l'aube — fenêtre d'éveil ou faim ?",
       "explication": "Vers 6 mois, les réveils très précoces (entre 4h et 5h30) ont plusieurs causes possibles : sieste de fin de journée trop longue, coucher trop tardif (sur-fatigue), température ou luminosité de la chambre, ou véritable réveil par faim si la diversification compense mal les apports nocturnes. À cet âge, l'horloge circadienne est encore en construction : un bébé qui se réveille à 5h n'est pas « difficile » — il signale un déséquilibre du rythme global. Le résoudre demande d'agir sur la journée entière, pas seulement sur la nuit.",
       "ancrage": "Le réveil à 5h n'est pas un échec, c'est un signal. Plus tu observes la journée d'avant, plus tu trouveras la clé.",
@@ -548,7 +548,7 @@
     },
     {
       "categorie": "sommeil",
-      "situation": "Refuse la sieste du matin ou de fin de journée",
+      "situation": "TRANSITION VERS 2 SIESTES / fenêtres d'éveil qui s'allongent",
       "titre": "Transition vers 2 siestes — fenêtres d'éveil qui s'allongent",
       "explication": "Entre 6 et 9 mois, beaucoup de bébés passent progressivement de 3 siestes à 2 siestes par jour. La fenêtre d'éveil s'allonge (1h30 à 2h30 selon les bébés et les moments de la journée), et tenter de coucher bébé selon l'ancien rythme provoque un refus net. Cette transition n'est pas linéaire : il y aura des jours à 3 siestes courtes, d'autres à 2 siestes longues. Repérer le moment juste, c'est observer les signaux de fatigue plutôt que regarder l'horloge.",
       "ancrage": "Le rythme de bébé évolue plus vite que les tableaux qu'on lit. Observer son corps est plus fiable que suivre une grille.",
@@ -593,7 +593,7 @@
     },
     {
       "categorie": "motricite",
-      "situation": "Ne se retourne dans aucun sens à 6 mois",
+      "situation": "PAS ENCORE DE RETOURNEMENT / observer sans précipiter",
       "titre": "Pas encore de retournement — observer sans précipiter",
       "explication": "Les retournements complets (dos-ventre et ventre-dos) apparaissent classiquement entre 4 et 7 mois — la fenêtre est large. Un bébé qui ne se retourne pas à 6 mois pile n'a pas de retard : il est dans la zone normale. Ce qui compte n'est pas la date du premier retournement, mais l'observation de tentatives orientées : bascule du bassin, levée des jambes, tentative d'attraper son pied, rotation de la tête vers un côté. La motricité libre — laisser bébé au sol sans le mettre dans des positions qu'il n'acquiert pas seul — est le meilleur soutien.",
       "ancrage": "Le rythme moteur n'est pas un concours. Bébé ne se compare pas — n'invite pas la comparaison dans ton regard sur lui.",
@@ -638,7 +638,7 @@
     },
     {
       "categorie": "motricite",
-      "situation": "Ne tient pas assis seul",
+      "situation": "POSITION ASSISE NON ACQUISE / patience et motricité libre",
       "titre": "Position assise pas encore acquise — patience et motricité libre",
       "explication": "La position assise stable et autonome (bébé se met assis seul et tient sans appui) apparaît classiquement entre 7 et 9 mois — pas à 6 mois. Caller bébé en position assise avec des coussins n'avance pas l'acquisition : au contraire, cela retarde le travail du bassin et la coordination ventre-dos nécessaires pour s'asseoir naturellement après le quatre pattes ou les retournements. À 6 mois, l'objectif n'est pas que bébé soit assis — c'est qu'il maîtrise la position au sol, dans toutes ses variantes.",
       "ancrage": "Ne pas tenir assis à 6 mois n'est pas un retard. C'est exactement dans la norme. Ce qui compte, c'est ce que bébé fait au sol, pas la position qu'il tient.",
@@ -683,7 +683,7 @@
     },
     {
       "categorie": "motricite",
-      "situation": "Se cogne souvent la tête ou les mains en explorant",
+      "situation": "PETITS CHOCS D'EXPLORATION / apprentissage par l'erreur motrice",
       "titre": "Petits chocs d'exploration — apprentissage par l'erreur motrice",
       "explication": "À 6 mois, bébé tend la main vers les objets sans encore maîtriser la distance, lève la tête sans en évaluer la trajectoire, attrape ses pieds sans contrôler le retour. Les petits chocs (tête contre un jouet, main qui se replie sur le visage, basculement sur le côté) sont la conséquence inévitable de l'apprentissage moteur. Ce qui marque bébé, ce n'est pas le choc en lui-même — c'est ta réaction. Une sur-réaction parentale installe une crainte du mouvement ; une absence de réaction empêche la construction du repère « ça fait mal ». Le juste milieu est dans le nommer sans dramatiser.",
       "ancrage": "Les petits chocs sont le coût normal de l'apprentissage moteur. Ta réaction calme construit chez bébé la juste évaluation du risque.",
@@ -728,7 +728,7 @@
     },
     {
       "categorie": "motricite",
-      "situation": "Refuse de rester sur le tapis, pleure dès qu'on le pose",
+      "situation": "REFUS DU TAPIS D'ÉVEIL / préférence pour les bras",
       "titre": "Refus du tapis d'éveil — préférence pour les bras",
       "explication": "Vers 6 mois, certains bébés qui acceptaient le tapis d'éveil commencent à pleurer dès qu'on les pose. Plusieurs causes possibles : nouvelle conscience de la séparation (il préfère être contre toi), tapis devenu peu intéressant (toujours les mêmes jouets), frustration motrice (il veut bouger mais ne sait pas encore), ou simple besoin de proximité à un moment précis de la journée. La solution n'est pas de le porter tout le temps — c'est de réinventer le sol comme un lieu vivant.",
       "ancrage": "Bébé n'est pas devenu « capricieux ». Il a juste évolué — et le sol n'a pas suivi. À toi de réinventer son monde au sol.",
@@ -773,8 +773,8 @@
     },
     {
       "categorie": "stimu",
-      "situation": "Surcharge sensorielle après une journée d'éveil intense",
-      "titre": "Bébé débordé après une journée riche",
+      "situation": "BÉBÉ DÉBORDÉ / après une journée riche",
+      "titre": "Bébé débordé — après une journée riche",
       "explication": "À 6 mois, le seuil de tolérance sensorielle reste limité : 3-4h de stimulation continue suffisent à saturer le système nerveux. Une sortie, une visite, un nouveau jouet, un trajet, une diversification avec une saveur nouvelle — chaque input s'additionne. Quand bébé devient agité, fuit le regard, pleure pour rien, ou s'agite dans tous les sens, c'est rarement un caprice : c'est le système qui demande à se vider. Cette saturation se reconnaît à des signes précis et se traite par la réduction immédiate des inputs.",
       "ancrage": "Ce n'est pas que bébé en demande trop — c'est qu'il en reçoit déjà beaucoup. À cet âge, moins est souvent plus.",
       "action_immediate": {
@@ -818,7 +818,7 @@
     },
     {
       "categorie": "stimu",
-      "situation": "Très agité 17h-19h, pleure sans raison apparente",
+      "situation": "L'HEURE DU LOUP / le creux du soir",
       "titre": "L'heure du loup — le creux du soir",
       "explication": "Entre 17h et 19h, beaucoup de bébés de 6 mois deviennent particulièrement agités, pleurent sans cause identifiable, refusent les bras autant que le sol. On appelle parfois ce moment « l'heure du loup » : c'est la conjonction d'une fenêtre d'éveil de fin de journée plus difficile à tenir, d'une baisse de la lumière naturelle qui modifie la chimie cérébrale, et de la cumulation sensorielle de la journée. C'est physiologique et passager — entre 5 et 8 mois, ce moment du jour est souvent le plus difficile.",
       "ancrage": "L'heure du loup n'est pas un échec de la journée — c'est sa décharge naturelle. Ce moment passera de lui-même vers 8-9 mois.",
@@ -863,8 +863,8 @@
     },
     {
       "categorie": "stimu",
-      "situation": "Surstimulé après le bain — n'arrive pas à se calmer",
-      "titre": "Le bain qui excite au lieu d'apaiser",
+      "situation": "LE BAIN QUI EXCITE / au lieu d'apaiser",
+      "titre": "Le bain qui excite — au lieu d'apaiser",
       "explication": "Le bain n'a pas le même effet sur tous les bébés. Pour environ un tiers d'entre eux, il est apaisant — pour le reste, il est stimulant. À 6 mois, l'éveil sensoriel du bain (eau chaude, lumière, sons amplifiés, mouvements visibles dans l'eau) peut produire un effet rebond : bébé sort sur-excité, refuse de se calmer, devient agité pour la suite de la soirée. Ce n'est ni anormal, ni définitif — c'est juste un signe que le bain est trop tôt dans la soirée, ou trop stimulant tel qu'il est organisé.",
       "ancrage": "Le bain n'est pas une étape obligatoire du rituel du soir. Si bébé en sort agité, c'est qu'il n'est pas à sa place dans la soirée — pas que tu fais mal le bain.",
       "action_immediate": {
@@ -908,7 +908,7 @@
     },
     {
       "categorie": "stimu",
-      "situation": "S'agite ou se ferme après une visite ou une sortie",
+      "situation": "APRÈS UNE VISITE / décharge du trop-plein social",
       "titre": "Après une visite — décharge du trop-plein social",
       "explication": "À 6 mois, bébé reconnaît clairement ses figures principales et perçoit la nouveauté des visages. Une visite, même brève, mobilise énormément son attention : nouveaux sons, nouvelles odeurs, nouvelles voix, parfois des bras qui se passent. Pendant la visite, il peut sembler aller bien — c'est en partant que le trop-plein remonte. Pleurs intenses, refus de jeux habituels, agitation ou repli sont les manifestations d'une décharge sociale tout à fait normale à cet âge.",
       "ancrage": "Bébé n'a pas « mal vécu » la visite. Il l'a juste vécue à 100%. La décharge qui suit est la preuve qu'il a beaucoup reçu — et qu'il a besoin de retrouver son cadre.",
@@ -953,8 +953,8 @@
     },
     {
       "categorie": "sepa",
-      "situation": "Premiers signes d'angoisse de séparation — cherche du regard",
-      "titre": "Préfiguration de l'angoisse de séparation",
+      "situation": "PRÉFIGURATION DE L'ANGOISSE DE SÉPARATION / cherche du regard",
+      "titre": "Préfiguration de l'angoisse de séparation — cherche du regard",
       "explication": "L'angoisse de séparation classique culmine entre 8 et 10 mois — mais ses préfigurations apparaissent dès 6 mois. Bébé commence à chercher activement les figures d'attachement du regard, à pleurer quand elles s'éloignent, à se calmer dès leur retour. Ce comportement n'est pas un caprice — c'est la maturation d'une fonction cognitive majeure : la permanence du parent. Plus l'attachement est sécure, plus ces manifestations sont visibles à cet âge — c'est paradoxal mais documenté par les travaux de Bowlby et Ainsworth.",
       "ancrage": "Tes pleurs à ton départ ne sont pas un signe de dépendance excessive. C'est exactement l'inverse : le signe d'un attachement qui se construit normalement.",
       "action_immediate": {
@@ -998,7 +998,7 @@
     },
     {
       "categorie": "sepa",
-      "situation": "Refuse les bras des autres, même familiers",
+      "situation": "PRÉFÉRENCE PARENTALE EXCLUSIVE / phase normale",
       "titre": "Préférence parentale exclusive — phase normale",
       "explication": "Vers 6 mois, beaucoup de bébés deviennent très sélectifs sur les personnes qui peuvent les porter. Même les grands-parents, voire le co-parent, peuvent être refusés. Cette préférence n'est pas un rejet — c'est la construction de la hiérarchie d'attachement décrite par Bowlby : bébé a maintenant une figure principale, des figures secondaires, et des figures plus lointaines. C'est l'apparition de cette hiérarchie qui rend les refus plus visibles. Cette phase est temporaire (quelques semaines à quelques mois) et n'altère pas durablement les liens.",
       "ancrage": "Ce n'est pas un rejet de ceux qui veulent porter bébé. C'est juste que bébé a appris à distinguer — et qu'il a besoin de temps pour intégrer les figures non-principales comme aussi sûres.",
@@ -1043,7 +1043,7 @@
     },
     {
       "categorie": "sepa",
-      "situation": "Panique dès qu'on quitte son champ de vision",
+      "situation": "ANXIÉTÉ VISUELLE / quand l'absence n'est pas tolérée",
       "titre": "Anxiété visuelle — quand l'absence n'est pas tolérée",
       "explication": "À 6 mois, certains bébés développent une vigilance visuelle particulièrement intense à la figure principale. Dès que cette figure quitte son champ de vision, même pour 30 secondes, bébé pleure intensément. Cette anxiété est une variation normale du tempérament — certains bébés sont plus sensibles que d'autres au manque de stimuli visuels rassurants. Cela ne préfigure ni une dépendance pathologique, ni une éducation « mal faite » : c'est un profil sensoriel à accompagner, pas à combattre.",
       "ancrage": "Ton bébé n'est pas « trop attaché ». Il est juste plus sensible à l'absence visuelle que d'autres. Ton rôle est de répondre régulièrement, pas de l'endurcir.",
@@ -1088,7 +1088,7 @@
     },
     {
       "categorie": "sepa",
-      "situation": "Réagit fortement au retour du parent en garde",
+      "situation": "DÉCHARGE AU RETOUR / bébé pleure plus quand tu rentres",
       "titre": "Décharge au retour — quand bébé pleure plus quand tu rentres",
       "explication": "Beaucoup de parents en garde (crèche, nounou) découvrent que bébé pleure plus à leur retour qu'avec la personne qui le garde. Ce comportement, contre-intuitif, est en réalité un signe d'attachement sécure : bébé a tenu toute la journée dans un environnement qu'il accepte mais qui ne lui apporte pas la sécurité maximale ; à ton retour, le système nerveux se relâche et la décharge sort. C'est l'équivalent émotionnel d'un soupir de soulagement — sauf qu'à 6 mois, il s'exprime par les pleurs.",
       "ancrage": "Ses pleurs à ton retour sont une preuve d'amour, pas un reproche. Il a tenu jusqu'à toi — c'est précisément parce que tu es sa figure de sécurité qu'il craque maintenant.",
@@ -1133,7 +1133,7 @@
     },
     {
       "categorie": "dents",
-      "situation": "Bave abondamment, joue rouge, premiers signes",
+      "situation": "PREMIERS SIGNES DE POUSSÉE DENTAIRE / gestion douce",
       "titre": "Premiers signes de poussée dentaire — gestion douce",
       "explication": "Les premières dents (généralement les incisives inférieures) apparaissent classiquement entre 4 et 10 mois — la moyenne étant 6 mois. Les signes typiques : bave abondante, joue rouge d'un seul côté, irritabilité, mâchonnement intense, sommeil perturbé, parfois selles plus molles. Contrairement à une idée répandue, les dents ne donnent pas de fièvre élevée ni de diarrhée vraie — si ces symptômes sont présents, chercher une autre cause. La douleur est réelle, mais elle s'accompagne d'une grande variabilité d'un bébé à l'autre.",
       "ancrage": "Bébé n'invente pas la douleur. Et il ne sait pas non plus que ça vient des dents. Ton rôle est de soulager sans tout attribuer aux dents à chaque pleur.",
@@ -1178,8 +1178,8 @@
     },
     {
       "categorie": "dents",
-      "situation": "Refuse de manger à cause de la douleur des gencives",
-      "titre": "Refus alimentaire pendant une poussée dentaire",
+      "situation": "REFUS ALIMENTAIRE / pendant une poussée dentaire",
+      "titre": "Refus alimentaire — pendant une poussée dentaire",
       "explication": "Pendant une poussée dentaire, la gencive est sensible — appuyer la cuillère ou téter peut être douloureux. Bébé peut refuser ses repas habituels, tirer du sein, refuser le biberon, ou recracher la cuillère qu'il acceptait pourtant la semaine d'avant. Ce refus est ponctuel (quelques jours à une semaine), localisé à l'épisode de poussée, et doit revenir à la normale dès que la dent a percé. Ce n'est pas le moment d'introduire une nouvelle texture ou un nouveau goût — bébé a besoin de stabilité.",
       "ancrage": "Bébé ne refuse pas par opposition. Il refuse parce qu'il a mal. Lui proposer du familier et du doux est plus utile que d'insister sur la diversification.",
       "action_immediate": {
@@ -1223,7 +1223,7 @@
     },
     {
       "categorie": "dents",
-      "situation": "Sommeil très perturbé à cause des dents",
+      "situation": "RÉVEILS NOCTURNES DENTAIRES / traversée temporaire",
       "titre": "Réveils nocturnes liés aux dents — traversée temporaire",
       "explication": "Pendant les phases actives de poussée dentaire, le sommeil peut être très perturbé : réveils plus fréquents, pleurs au coucher, sommeil agité. La pression de la dent sur la gencive est physiquement plus ressentie en position allongée (afflux sanguin). Ces réveils ne signent pas une régression d'attachement ni un problème d'endormissement — ils sont contextuels et passagers. Le défi pour le parent est de ne pas modifier durablement les habitudes du sommeil à cause d'un épisode qui va passer en quelques jours.",
       "ancrage": "Bébé a mal cette nuit — mais c'est temporaire. Ce que tu installes pendant ces nuits-là risque de rester quand la dent ne sera plus douloureuse.",
@@ -1268,7 +1268,7 @@
     },
     {
       "categorie": "dents",
-      "situation": "Mâchonne tout, met les mains constamment en bouche",
+      "situation": "MÂCHONNEMENT INTENSE / phase orale et préparation des dents",
       "titre": "Mâchonnement intense — phase orale et préparation des dents",
       "explication": "Le mâchonnement intense vers 6 mois cumule deux mécanismes : la phase orale classique (bébé découvre le monde par la bouche, l'oralité est son premier outil cognitif), et la préparation des poussées dentaires (le mâchonnement libère la pression gingivale). Bébé met les mains, les objets, les vêtements, le bord du tapis, le bord du sein — tout passe à la bouche. C'est sain, cognitif, sensoriel, et préparatoire. Ce qui compte, c'est de sécuriser l'environnement, pas d'empêcher la pulsion.",
       "ancrage": "La bouche est l'outil principal d'exploration à 6 mois — pas une mauvaise habitude. Sécuriser au lieu d'interdire est la voie.",
@@ -1313,7 +1313,7 @@
     },
     {
       "categorie": "parent",
-      "situation": "Épuisement cumulé — le creux des 6 mois",
+      "situation": "LE CREUX DES 6 MOIS / la fatigue qui s'installe",
       "titre": "Le creux des 6 mois — la fatigue qui s'installe",
       "explication": "Le sixième mois est statistiquement l'un des plus durs pour les parents. La nouveauté du début est passée, l'entourage est moins présent, le congé est terminé ou approche de sa fin, et bébé n'est pas encore autonome. Les nuits restent perturbées, la diversification ajoute une charge, et l'on est encore loin du « plus facile à venir ». Ce n'est pas un épuisement classique — c'est un creux qui se loge dans le quotidien et qui peut basculer en dépression post-partum tardive si on ne le repère pas.",
       "ancrage": "Tu n'es pas paresseuse, ni faible, ni mauvaise. Tu es au creux. Et le creux est un moment du parcours — pas ton identité.",
@@ -1358,8 +1358,8 @@
     },
     {
       "categorie": "parent",
-      "situation": "Charge mentale écrasante, plus rien ne suit",
-      "titre": "Charge mentale qui déborde",
+      "situation": "CHARGE MENTALE / qui déborde",
+      "titre": "Charge mentale — qui déborde",
       "explication": "À 6 mois, la charge mentale parentale (et particulièrement maternelle, sociologiquement documentée) atteint souvent un pic : organiser la diversification (menus, courses, préparation), les rendez-vous médicaux, les vaccins, le suivi de croissance, l'éventuelle entrée en garde, la gestion du sommeil, du linge, du quotidien, plus la reprise pro pour beaucoup. Cette charge n'est pas seulement physique — elle est mentale (penser à) et émotionnelle (anticiper, se sentir responsable). Sa visibilité commence à peine à être reconnue socialement. La nommer, c'est commencer à la partager.",
       "ancrage": "La charge mentale n'est pas une faiblesse d'organisation — c'est une réalité matérielle. La nommer n'est pas se plaindre, c'est rendre visible ce qui est invisible.",
       "action_immediate": {
@@ -1403,7 +1403,7 @@
     },
     {
       "categorie": "parent",
-      "situation": "Comparaison sociale qui fait du mal",
+      "situation": "COMPARAISON AUX AUTRES PARENTS / impact réel",
       "titre": "Comparaison aux autres parents — impact réel",
       "explication": "À 6 mois, les comparaisons explosent : sur les réseaux sociaux (bébés « qui font leurs nuits », mères « qui ont retrouvé leur corps », couples « épanouis »), dans l'entourage (cousine dont le bébé mange déjà des morceaux, copine qui a repris le sport), et même chez le pédiatre (courbes de croissance, étapes développementales). Ces comparaisons activent les mêmes zones cérébrales que la douleur physique — c'est documenté en neurosciences sociales (Eisenberger). Ce n'est pas un défaut de caractère que d'être touchée — c'est un mécanisme neurologique.",
       "ancrage": "La douleur de la comparaison est réelle, neurologique, pas un caprice. Ce que tu vois des autres n'est jamais leur vérité — c'est leur vitrine.",
@@ -1448,7 +1448,7 @@
     },
     {
       "categorie": "parent",
-      "situation": "Sentiment que ça ne s'arrête jamais",
+      "situation": "JE N'EN VOIS PAS LA FIN / le tunnel des 6 mois",
       "titre": "« Je n'en vois pas la fin » — le tunnel des 6 mois",
       "explication": "À 6 mois, beaucoup de parents traversent ce qu'on pourrait appeler « le tunnel » : la sensation que la phase intense du tout-petit ne finira jamais, que les nuits hachées, les pleurs, la dépendance totale sont devenus la nouvelle norme. Ce sentiment est presque universel à cet âge — bébé a déjà tellement changé que l'on a l'impression que les mois passés ont été longs, mais le futur reste flou. Cette sensation n'est pas un déficit d'optimisme : c'est un effet de perspective tronquée, lié à l'épuisement et à l'absence de fenêtre projective stable.",
       "ancrage": "Tu n'es pas « bloquée pour toujours ». Tu es à un moment du parcours où la perspective est courte. La perspective revient avec le repos et la verbalisation.",
