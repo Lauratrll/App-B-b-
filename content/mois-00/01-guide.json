@@ -4,6 +4,16 @@
   "titre": "Guide-moi !",
   "sous_titre": "32 protocoles d'action immédiate",
   "tranche_age": "0–4 semaines",
+  "categories": [
+    { "id": "pleurs", "nom": "Pleurs & inconfort", "icone": "😢" },
+    { "id": "alim", "nom": "Alimentation", "icone": "🍼" },
+    { "id": "sommeil", "nom": "Sommeil", "icone": "🌙" },
+    { "id": "corps", "nom": "Corps & soins", "icone": "🤲" },
+    { "id": "stimu", "nom": "Sur-stimulation", "icone": "🌀" },
+    { "id": "sepa", "nom": "Lien & attachement", "icone": "💛" },
+    { "id": "sante", "nom": "Petits maux", "icone": "🩺" },
+    { "id": "parent", "nom": "Parent dépassé", "icone": "🫂" }
+  ],
   "protocoles": [
     {
       "categorie": "pleurs",
