@@ -12,6 +12,18 @@ Le module Guide-moi ! est **le cœur de l'application**. C'est lui que le parent
 
 **Une situation = un protocole différencié.** Jamais de protocole générique appliqué à plusieurs situations. Si un parent ouvre l'app pour "Mon enfant se cogne la tête pendant une crise", il doit trouver un protocole spécifique à cette situation — pas un protocole générique sur "les crises".
 
+### Principes transverses — VALABLES POUR TOUS LES MOIS
+
+Ces trois principes s'appliquent à **chaque** protocole, sans exception :
+
+1. **Bienveillance systématique.** Le ton est chaleureux, jamais culpabilisant. On déculpabilise le parent et on présente l'enfant avec bienveillance ("il ne fait pas exprès", "c'est neurologique"). On valide l'émotion du parent avant de proposer une action.
+
+2. **Chaque enfant évolue à son rythme.** Dès que le protocole touche un jalon développemental (sourire, sommeil, motricité, langage, alimentation, propreté…), rappeler explicitement, au moins une fois dans le protocole (souvent dans l'explication, l'ancrage ou le principe), que les fourchettes sont larges et que chaque enfant a son propre rythme. Bannir toute comparaison normative anxiogène. Formulations types : "la fourchette est large et normale", "chaque enfant a son propre rythme", "ce n'est ni une course ni une compétition".
+
+3. **Ne jamais se substituer à un professionnel.** L'app est un soutien, pas un avis médical. Le `consulter_si` n'est pas une formalité : il oriente clairement vers le bon professionnel (pédiatre, sage-femme, PMI, IBCLC, kiné, psychologue périnatal…) avec des critères objectifs. Aucun protocole ne doit laisser entendre qu'il remplace un diagnostic, un examen ou un traitement. En cas de doute, le réflexe affiché est toujours "consulter", jamais "gérer seul". Mention récurrente possible : "ce protocole ne remplace pas l'avis de ton pédiatre / d'un professionnel".
+
+4. **Les redites entre les mois sont acceptables.** Certains sujets durent dans le temps (sommeil, coliques, sur-stimulation, charge parentale, séparation, alimentation…) et un parent donné peut rencontrer un même problème à des mois différents. Il est donc normal et utile qu'un thème réapparaisse d'un mois à l'autre. La règle n'est pas d'éviter toute répétition, mais de **ne jamais copier-coller** : à chaque mois, le protocole est réécrit en tenant compte de l'évolution de l'enfant (nouvelles capacités, nouveaux enjeux développementaux, fenêtre d'âge différente). Le fond peut se recouper, la formulation et les détails développementaux doivent être propres au mois. Mieux vaut un bon protocole récurrent et actualisé qu'une situation artificielle inventée pour fuir la répétition.
+
 ---
 
 ## 2. Structure obligatoire — 32 protocoles par mois
@@ -117,9 +129,9 @@ Le titre du protocole affiché en grand. Peut être plus synthétique que la sit
 **Structure :**
 ```json
 {
-  "couleur_fond": "#F4E2CE",
-  "couleur_texte": "#8A4E1C",
-  "titre": "Action immédiate",
+  "couleur_fond": "#F5D0C8",
+  "couleur_texte": "#8A3020",
+  "titre": "Action immédiate — [complément]",
   "etapes": [
     "Étape 1 — verbe d'action, court",
     "...",
@@ -131,8 +143,9 @@ Le titre du protocole affiché en grand. Peut être plus synthétique que la sit
 **Règles :**
 - **5 étapes maximum** — pas plus
 - Chaque étape : 1 phrase de 15-25 mots max
-- Verbe d'action en début d'étape ("S'accroupir...", "Ne pas argumenter...", "Voix très basse : '...'")
-- Couleurs fixes (rouge clair / rouge foncé) — code de l'urgence
+- **Format « Amorce : suite » imposé** : chaque étape commence par une amorce courte (2-4 mots ou un verbe d'action), suivie de « : » (ou « — »), puis du détail. L'amorce est mise en gras à l'affichage. Ex : « S'accroupir : se mettre à sa hauteur, sans le toucher tout de suite. »
+- Le `titre` inclut un complément après un tiret (ex. « Action immédiate — désamorcer le moment du repas »)
+- Couleurs fixes : fond `#F5D0C8`, texte `#8A3020` (corail)
 
 ### 3.7 `geste_doux` (objet)
 **Objectif :** l'élément réflexologique ou de régulation douce, après l'action immédiate.
@@ -153,10 +166,11 @@ Le titre du protocole affiché en grand. Peut être plus synthétique que la sit
 
 **Règles :**
 - **5 étapes maximum**
+- **Format « Amorce : suite » imposé** : chaque étape commence par une amorce courte suivie de « : » (ou « — »), puis du détail. L'amorce est mise en gras à l'affichage. Ex : « Réflexo plexus solaire : centre de la voûte, cercles doux, 1 min. »
 - Titre toujours préfixé "Geste doux —" suivi d'une précision sur le moment ("après la crise uniquement", "input proprioceptif", "stimulation du langage"...)
-- Inclure si pertinent une zone réflexo et sa durée (ex : "Réflexo plexus solaire : centre de la voûte, cercles doux, 1 min")
+- Inclure si pertinent une zone réflexo et sa durée
 - Pression toujours rappelée : "pression 0/10"
-- Couleurs fixes (vert clair / vert foncé)
+- Couleurs fixes : fond `#DCE9CF`, texte `#3F5C2E` (vert sauge A1)
 
 ### 3.8 `pour_aller_plus_loin` (liste — exactement 4 points)
 **Objectif :** ce que le parent peut faire à plus long terme.

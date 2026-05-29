@@ -1,7 +1,9 @@
 # SKILL_rubriques.md — Structure éditoriale des 6 rubriques par mois
 
 > Lire ce fichier AVANT de générer le contenu d'un nouveau mois.
-> Ce skill définit la structure JSON, le ton, les conventions transverses, et la convention de l'adjectif du mois.
+> Ce skill définit la structure JSON, le ton, les conventions transverses, la convention de l'adjectif du mois et la convention des libellés de situation.
+>
+> **Version 2.1 — section 4.1bis enrichie de la distinction `situation` vs `titre` (méthode de génération à partir du titre éditorial).**
 
 ---
 
@@ -22,7 +24,7 @@ Chaque mois (de 0 à 24) contient **6 fichiers JSON** dans un dossier `mois{XX}/
 
 ---
 
-## 2. Convention de l'adjectif du mois ⭐ (NOUVEAU)
+## 2. Convention de l'adjectif du mois ⭐
 
 Chaque mois est qualifié par **un adjectif unique** qui résume le moment développemental. Cet adjectif :
 - Apparaît dans `06_jeux.json` (clé `adjectif_du_mois`) et dans le `sous_titre`
@@ -115,7 +117,7 @@ Notes :
 ```json
 {
   "categorie": "colere",
-  "situation": "Crise de colère intense depuis 20 minutes",
+  "situation": "CRISE DE COLÈRE / qui dure depuis 20 minutes",
   "titre": "Crise de colère intense qui dure",
   "explication": "3-5 phrases sur le mécanisme neuro/développemental",
   "ancrage": "1-2 phrases adressées au parent",
@@ -123,44 +125,215 @@ Notes :
     "couleur_fond": "#F4E2CE",
     "couleur_texte": "#8A4E1C",
     "titre": "Action immédiate",
-    "etapes": ["...", "..."]  // 5 étapes max
+    "etapes": ["...", "..."]
   },
   "geste_doux": {
     "couleur_fond": "#DCE9CF",
     "couleur_texte": "#3F5C2E",
     "titre": "Geste doux — après la crise uniquement",
-    "etapes": ["...", "..."]  // 5 étapes max
+    "etapes": ["...", "..."]
   },
-  "pour_aller_plus_loin": ["...", "...", "...", "..."],  // 4 points
+  "pour_aller_plus_loin": ["...", "...", "...", "..."],
   "principe": "1 phrase de fond — la règle générale",
-  "erreurs_a_eviter": ["...", "...", "...", "..."],  // 4 erreurs max
+  "erreurs_a_eviter": ["...", "...", "...", "..."],
   "consulter_si": "Critères médicaux objectifs"
 }
 ```
 
 **Voir `SKILL_protocole.md` pour les règles détaillées de rédaction.**
 
+---
+
+### 4.1bis ⭐ Convention obligatoire du champ `situation`
+
+**Cette convention s'applique à toutes les 32 situations de chaque fichier `01_protocoles.json`, pour tous les mois (M0 à M23).**
+
+#### Format obligatoire
+
+Chaque situation est composée de **deux parties** séparées par un **slash entouré d'espaces** :
+
+```
+"situation": "PROBLÈME OBSERVABLE / précision contextuelle"
+```
+
+#### Règle de placement
+
+- **Première partie** (avant le `/`) = le **PROBLÈME observable**, ce qui se passe que le parent constate. C'est ce qui attire l'œil et permet de se reconnaître.
+- **Deuxième partie** (après le `/`) = la **PRÉCISION contextuelle**, la nuance, le contexte, le contre-pied. C'est ce qui affine la compréhension.
+
+#### ⚠️ Distinction `situation` vs `titre` — ne pas confondre
+
+Chaque protocole a **deux champs distincts mais liés** :
+
+| Champ | Rôle | Format |
+|-------|------|--------|
+| `situation` | Libellé affiché sur la **page 2** (liste des 4 situations d'une catégorie). Doit être scannable, rapide à reconnaître. | `PROBLÈME EN CAPITALES / précision en italique` |
+| `titre` | Titre affiché en haut de la **page 3** (détail du protocole). Plus éditorial, plus complet. | `Titre éditorial — précision contextuelle` (avec tiret cadratin `—`) |
+
+**La règle de cohérence** : `situation` est une **version typographiée et synthétisée du titre**. Le titre est la source éditoriale ; la situation est sa déclinaison UI.
+
+**Méthode de génération** :
+1. **Toujours partir du `titre`** existant — il est généralement déjà bien structuré avec un `—` qui marque la coupure problème/précision
+2. **Remplacer `—` par ` / `** et passer la première partie en CAPITALES (la casse JSON reste normale, c'est le CSS qui force les caps)
+3. **Vérifier que la première partie nomme bien le problème observable** (cf. § "Règle de placement" ci-dessus)
+4. **Raccourcir si besoin** pour que la première partie tienne sur ~30 caractères
+
+**Exemples de transformation `titre → situation`** :
+
+| `titre` (page 3) | `situation` (page 2) |
+|---|---|
+| `Régression des 3-4 mois — la grande réorganisation du sommeil` | `RÉGRESSION DES 3-4 MOIS / la grande réorganisation du sommeil` |
+| `Réflux du nourrisson — soulager au quotidien` | `REFLUX DU NOURRISSON / soulager au quotidien` |
+| `Tétées groupées du soir — le cluster feeding` | `TÉTÉES GROUPÉES DU SOIR / cluster feeding` |
+
+**Cas particuliers à reformuler** :
+- Si le `titre` n'a pas de `—` (ex : `Sommeil uniquement dans les bras`), reformuler la `situation` en deux parties en s'inspirant du contenu de l'`explication` ou de l'`ancrage`
+- Si le `titre` met l'événement positif en premier (ex : `Bon début de nuit puis réveils rapprochés`), **inverser** dans la `situation` pour mettre le problème en exergue (ex : `RÉVEILS RAPPROCHÉS / malgré un bon début de nuit`)
+
+#### Stockage dans le JSON
+
+Le slash est **stocké tel quel** dans la chaîne (pas de séparation en deux champs). L'UI s'occupe du rendu typographique (capitales sur partie 1, italique sur partie 2).
+
+```json
+{
+  "situation": "RÉVEILS RAPPROCHÉS / malgré un bon début de nuit"
+}
+```
+
+#### Casse
+
+- Dans le JSON, **la première partie est saisie en casse normale** — c'est le CSS `text-transform: uppercase` qui force les capitales à l'affichage.
+- Si la première partie contient déjà des sigles (`RGO`, `SBS`), les conserver tels quels.
+
+**Exemple correct :**
+```json
+"situation": "Réveils rapprochés / malgré un bon début de nuit"
+```
+
+**Exemple incorrect (force des accents perdus en SHIFT) :**
+```json
+"situation": "REVEILS RAPPROCHES / malgre un bon debut de nuit"
+```
+
+#### Bonnes pratiques de formulation
+
+**1. Le problème en premier (toujours)**
+
+Quand la formulation met l'événement positif en premier, **inverser** pour mettre le problème en exergue. Le parent qui consulte cherche **ce qu'il observe ou ressent**, pas le contexte.
+
+| ❌ À éviter | ✅ À préférer |
+|---|---|
+| `BON DÉBUT DE NUIT / puis réveils rapprochés` | `RÉVEILS RAPPROCHÉS / malgré un bon début de nuit` |
+| `LE RETOUR AU TRAVAIL APPROCHE / et l'angoisse monte` | `ANGOISSE DE LA REPRISE / le retour au travail approche` |
+| `COMPARAISON AUX AUTRES / et culpabilité` | `CULPABILITÉ DE PARENT / comparaison aux autres engendrée` |
+
+**2. Concision de la première partie**
+
+La partie capitales doit idéalement tenir sur **une seule ligne** dans la case (78% de largeur de 390px ≈ 290px à 12px). Compter ~30 caractères maximum.
+
+Si la première partie dépasse, le rendu de l'UI bascule automatiquement en flux continu (pas de saut artificiel entre L1 et L2). Mais c'est un cas de secours, pas l'idéal.
+
+| ❌ Trop long | ✅ Concis |
+|---|---|
+| `PLEURE DÈS QU'ON ARRÊTE DE LUI PARLER / besoin de lien` | `RÉCLAME DU LIEN / pleure dès que l'échange s'arrête` |
+
+**3. La précision en bas-de-casse — naturelle et descriptive**
+
+La deuxième partie doit ressembler à une **voix off rassurante** — comme une apposition. Elle peut commencer par :
+- une conjonction : `et culpabilité engendrée`, `malgré un bon début de nuit`, `mais avec des à-coups`
+- une précision : `jambes repliées, ventre dur`, `fièvre, point d'injection`
+- un contexte : `poussée de croissance`, `après quelques bonnes nuits`
+- une question : `comment l'accompagner`, `comment y répondre`
+
+**4. Pas de ponctuation finale**
+
+Ni point ni point d'interrogation à la fin de la deuxième partie. La case est elle-même la ponctuation visuelle.
+
+#### Application aux situations existantes (M2 — référence éditoriale)
+
+Les 32 situations du fichier `mois_02_-_01_protocoles.json` ont été reformulées selon cette convention et servent de **référence éditoriale** pour la production des autres mois :
+
+**Pleurs & inconfort**
+- `PLEURS ENCORE IMPRÉVISIBLES / malgré la fin du pic`
+- `RÉCLAME DU LIEN / pleure dès que l'échange s'arrête`
+- `COLIQUES ENCORE PRÉSENTES / jambes repliées, ventre dur`
+- `PLEURS DU SOIR / qui s'atténuent mais reviennent par vagues`
+
+**Alimentation**
+- `NOUVEAU RYTHME DE TÉTÉES / qui s'installe et m'interroge`
+- `RÉGURGITATIONS / qui persistent après les repas`
+- `INTRODUIRE LE BIBERON / pour préparer la reprise du travail`
+- `TÈTE SANS ARRÊT 1-2 JOURS / poussée de croissance`
+
+**Sommeil**
+- `RÉGRESSION DU SOMMEIL / après quelques bonnes nuits`
+- `NE FAIT QUE DES MICRO-SIESTES / en journée`
+- `RITUEL PRÉCIS / nécessaire pour s'endormir`
+- `RÉVEILS RAPPROCHÉS / malgré un bon début de nuit`
+
+**Corps & soins**
+- `PREMIERS VACCINS DES 2 MOIS / comment accompagner`
+- `TÊTE ENCORE INSTABLE / progrès avec à-coups`
+- `RÉGULATION DE TEMPÉRATURE / transpire ou a froid facilement`
+- `CHANGEMENT DE RYTHME DES SELLES / brusque et inquiétant`
+
+**Sur-stimulation**
+- `SUR-SOLLICITÉ / par les jeux et les échanges`
+- `S'EXCITE PENDANT LES GAZOUILLIS / n'arrive plus à redescendre`
+- `AGITÉ APRÈS LES VISITES / inconsolable`
+- `DÉCROCHE PENDANT LE JEU / besoin de pauses`
+
+**Lien & attachement**
+- `COMMENT RÉPONDRE AUX GAZOUILLIS / dialogue qui s'installe`
+- `SOURIT À TOUT LE MONDE / sentiment d'être interchangeable`
+- `NOUVEAU JEU D'IMITATION / comment l'accompagner`
+- `LE CO-PARENT CHERCHE SA PLACE / créer son propre lien`
+
+**Santé**
+- `RÉACTION APRÈS LES VACCINS / fièvre, point d'injection`
+- `RHUME OU RESPIRATION ENCOMBRÉE / risque de bronchiolite`
+- `PEAU RÉACTIVE / rougeurs et plaques`
+- `COLIQUES PERSISTANTES / malgré les efforts`
+
+**Parent dépassé**
+- `ANGOISSE DE LA REPRISE / le retour au travail approche`
+- `PRÉPARER LA GARDE / séparation en douceur`
+- `CHARGE MENTALE / tension dans le couple`
+- `COMPARAISON AUX AUTRES / et culpabilité engendrée`
+
+#### Mise à jour des fichiers existants
+
+Pour les fichiers `01_protocoles.json` déjà produits **avant l'introduction de cette convention** (M0, M1, M3, M6, M9, M14), le champ `situation` doit être **rétroactivement reformulé** selon cette règle.
+
+**Procédure recommandée** :
+1. Lister les 32 situations actuelles
+2. Pour chacune : identifier le problème → l'écrire en première partie + slash → ajouter la précision en seconde partie
+3. Vérifier que la première partie n'excède pas ~30 caractères
+4. Valider avec la fondatrice avant écriture
+
+---
+
 ### 4.2 `02_coucher.json` — Préparer le coucher
 
 **Structure essentielle :**
 ```json
 {
-  "reperes_cles": ["...", "...", "..."],  // 3 max
-  "rituel_etapes": [...],  // 6 étapes chronologiques
+  "reperes_cles": ["...", "...", "..."],
+  "rituel_etapes": [...],
   "reflexologie_du_coucher": {
     "titre": "...",
     "duree_totale": "7 minutes",
     "pression": "0/10",
-    "etapes": [...]  // 6 zones réflexo
+    "etapes": [...]
   },
   "script_audio_du_soir": {
     "titre": "...",
     "duree": "~5 minutes",
     "instruction": "...",
-    "texte": "..."  // script complet avec [pause]
+    "texte": "..."
   },
-  "signaux_de_fatigue": ["...", "..."],  // 4-5 max
-  "erreurs_a_eviter": ["...", "...", "..."],  // 3 erreurs ciblées max (dont les écrans)
+  "signaux_de_fatigue": ["...", "..."],
+  "erreurs_a_eviter": ["...", "...", "..."],
   "consulter_si": "..."
 }
 ```
@@ -185,7 +358,7 @@ Notes :
       "titre": "...",
       "sous_titre": "...",
       "intro": "...",
-      ...  // structure variable selon le type de conseil
+      ...
     },
     ...
   ]
@@ -421,7 +594,7 @@ Cette palette est **indicative et ajustable** — la fondatrice peut faire évol
   "sous_titre": "Mois 14 — Le mois de l'Explorateur",
   "adjectif_du_mois": "Explorateur",
   "qualification_du_mois": "À 14 mois, ton enfant marche... C'est le mois de l'exploration active.",
-  "principes_cles": ["...", "...", "..."],  // 3 max
+  "principes_cles": ["...", "...", "..."],
   "activites": [
     {
       "id": "...",
@@ -429,12 +602,12 @@ Cette palette est **indicative et ajustable** — la fondatrice peut faire évol
       "titre": "...",
       "duree": "...",
       "frequence": "...",
-      "developpe": ["...", "..."],  // 3-4 compétences max
+      "developpe": ["...", "..."],
       "materiel": ["...", "..."],
       "description": "...",
-      "comment_jouer": ["...", "..."]  // 4-5 étapes max
+      "comment_jouer": ["...", "..."]
     }
-  ],  // EXACTEMENT 4 activités
+  ],
   "geste_reflexo_du_mois": {...},
   "rythme_journee_type": {...}
 }
@@ -487,8 +660,9 @@ Cette palette est **indicative et ajustable** — la fondatrice peut faire évol
 2. **Lire `CONTENT_INDEX.md`** pour voir ce qui a déjà été dit dans les mois proches (éviter les redites)
 3. **Lire `SKILL_protocole.md`** avant de produire `01_protocoles.json`
 4. **Produire les 6 fichiers** dans l'ordre, en respectant les structures du § 4
-5. **Mettre à jour `CONTENT_INDEX.md`** avec un résumé du mois produit
-6. **Valider** les JSON avec un parseur Python avant livraison
+5. **Pour `01_protocoles.json` : appliquer systématiquement la convention `/` du § 4.1bis sur les 32 situations**
+6. **Mettre à jour `CONTENT_INDEX.md`** avec un résumé du mois produit
+7. **Valider** les JSON avec un parseur Python avant livraison
 
 ---
 
@@ -505,3 +679,12 @@ Cette palette est **indicative et ajustable** — la fondatrice peut faire évol
 | **Total par mois** | **140-180 Ko** | Pour 24 mois ≈ 3,3 à 4,3 Mo de JSON |
 
 Si un fichier dépasse 25% au-dessus de sa cible, le rapport est probablement trop dense — alléger.
+
+---
+
+## 8. Statut de la convention `/` (suivi V2)
+
+✅ Convention `/` validée par la fondatrice (28 mai 2026)
+✅ Application complète sur M2 (32/32 situations reformulées) — fichier de référence éditoriale
+⏳ Reformulation à effectuer sur les mois déjà produits : M0, M1, M3, M6, M9, M14
+⏳ Application native sur tous les mois à produire : M4, M5, M7, M8, M10-M13, M15-M23
