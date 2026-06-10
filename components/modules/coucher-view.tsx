@@ -699,19 +699,7 @@ export function CoucherView({
           teaser={TEASER_BERCEUSE}
           teaserColor="#9A5A48"
         >
-          {berceuse.instruction ? (
-            <div
-              style={{
-                fontSize: 10.5,
-                fontStyle: "italic",
-                color: C.berceuse.label,
-                lineHeight: 1.4,
-                marginBottom: 10,
-              }}
-            >
-              {p(berceuse.instruction)}
-            </div>
-          ) : null}
+          {/* §7 — le champ `instruction` n'est PAS rendu (métadonnée d'auteur). */}
           {p(berceuse.texte)
             .split(/\n\n+/)
             .map((strophe, si) => {
@@ -728,7 +716,8 @@ export function CoucherView({
                     fontStyle: "italic",
                     fontSize: 12.5,
                     lineHeight: 1.3,
-                    color: C.berceuse.label,
+                    // §7 — texte de la berceuse en noir chaud (pas en pêche).
+                    color: TEXT,
                     margin: "0 0 6px",
                   }}
                 >
