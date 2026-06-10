@@ -56,6 +56,7 @@ export default async function EpingleViewPage({
         <CoucherView
           coucher={content.data as unknown as CoucherModule}
           babyName={profile.baby_name}
+          genre={profile.genre}
         />
       ) : content.module === "reflexo" ? (
         <ReflexoView data={content.data} />

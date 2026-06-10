@@ -24,21 +24,23 @@ export type SlotStyle = {
   bg: string;
   /** Couleur du cercle qui contient le picto (page 1). */
   avatarBg: string;
-  /** 4 nuances pour les 4 situations (page 2), dans l'ordre du JSON. */
-  camaieu: [string, string, string, string];
+  /** Nuances pour les situations (page 2), dans l'ordre du JSON.
+   *  4 par défaut ; une 5e est fournie pour les catégories étendues à 5
+   *  situations (cf. CLAUDE.md — le nombre peut varier selon les mois). */
+  camaieu: [string, string, string, string, string];
 };
 
 // Ordre chromatique figé (chaud → frais). Slot i appliqué à la i-ème catégorie
 // du mois, quel que soit son identifiant.
 export const GUIDE_SLOTS: SlotStyle[] = [
-  { bg: "#F0B8A8", avatarBg: "rgba(255,255,255,.40)", camaieu: ["#E4A894", "#F1D5CB", "#DB9C86", "#F0B8A8"] },
-  { bg: "#F5D0C8", avatarBg: "rgba(255,255,255,.50)", camaieu: ["#EABDB1", "#F3DFD9", "#E3AFA0", "#F5D0C8"] },
-  { bg: "#F8DBC9", avatarBg: "rgba(255,255,255,.55)", camaieu: ["#EEC7B0", "#F4E4DA", "#E7B99F", "#F8DBC9"] },
-  { bg: "#EDE0D4", avatarBg: "rgba(255,255,255,.55)", camaieu: ["#E0CFBE", "#EFE7DF", "#D7C3AE", "#EDE0D4"] },
-  { bg: "#BCD0A0", avatarBg: "rgba(255,255,255,.45)", camaieu: ["#A6C088", "#D9DFC7", "#96B477", "#BCD0A0"] },
-  { bg: "#B0C0AC", avatarBg: "rgba(255,255,255,.45)", camaieu: ["#9CB098", "#D4D8CD", "#8EA48A", "#B0C0AC"] },
-  { bg: "#C8D8DC", avatarBg: "rgba(255,255,255,.50)", camaieu: ["#B2C6CC", "#DFE3E2", "#A2B9C0", "#C8D8DC"] },
-  { bg: "#E8F0F2", avatarBg: "rgba(255,255,255,.60)", camaieu: ["#D0DEE1", "#EDEEEC", "#BFD1D5", "#E8F0F2"] },
+  { bg: "#F0B8A8", avatarBg: "rgba(255,255,255,.40)", camaieu: ["#E4A894", "#F1D5CB", "#DB9C86", "#F0B8A8", "#E9C2B0"] },
+  { bg: "#F5D0C8", avatarBg: "rgba(255,255,255,.50)", camaieu: ["#EABDB1", "#F3DFD9", "#E3AFA0", "#F5D0C8", "#EFCDC2"] },
+  { bg: "#F8DBC9", avatarBg: "rgba(255,255,255,.55)", camaieu: ["#EEC7B0", "#F4E4DA", "#E7B99F", "#F8DBC9", "#F2D4C2"] },
+  { bg: "#EDE0D4", avatarBg: "rgba(255,255,255,.55)", camaieu: ["#E0CFBE", "#EFE7DF", "#D7C3AE", "#EDE0D4", "#E5D6C5"] },
+  { bg: "#BCD0A0", avatarBg: "rgba(255,255,255,.45)", camaieu: ["#A6C088", "#D9DFC7", "#96B477", "#BCD0A0", "#CAD8B2"] },
+  { bg: "#B0C0AC", avatarBg: "rgba(255,255,255,.45)", camaieu: ["#9CB098", "#D4D8CD", "#8EA48A", "#B0C0AC", "#BFCCBC"] },
+  { bg: "#C8D8DC", avatarBg: "rgba(255,255,255,.50)", camaieu: ["#B2C6CC", "#DFE3E2", "#A2B9C0", "#C8D8DC", "#D4E0E3"] },
+  { bg: "#E8F0F2", avatarBg: "rgba(255,255,255,.60)", camaieu: ["#D0DEE1", "#EDEEEC", "#BFD1D5", "#E8F0F2", "#DCE8EB"] },
 ];
 
 export function slotFor(index: number): SlotStyle {

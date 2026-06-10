@@ -84,6 +84,7 @@ export type Database = {
           baby_name: string
           birthdate: string
           created_at: string
+          genre: string | null
           id: string
           updated_at: string
           user_id: string
@@ -92,6 +93,7 @@ export type Database = {
           baby_name: string
           birthdate: string
           created_at?: string
+          genre?: string | null
           id?: string
           updated_at?: string
           user_id: string
@@ -100,6 +102,7 @@ export type Database = {
           baby_name?: string
           birthdate?: string
           created_at?: string
+          genre?: string | null
           id?: string
           updated_at?: string
           user_id?: string

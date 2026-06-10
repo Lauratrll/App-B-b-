@@ -2,11 +2,14 @@ import { cache } from "react";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 
+export type Genre = "garcon" | "fille";
+
 export type BabyProfile = {
   id: string;
   user_id: string;
   baby_name: string;
   birthdate: string;
+  genre: Genre | null;
   created_at: string;
   updated_at: string;
 };

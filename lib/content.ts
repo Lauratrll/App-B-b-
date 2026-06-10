@@ -72,10 +72,30 @@ export type SituationListItem = {
 
 export type RituelEtape = {
   etape: number;
-  titre: string;
+  titre?: string;
   horaire?: string;
   duree?: string;
-  description: string;
+  description?: string;
+  // Étape de focus (M12+) : pilotée par le thème actif (variantes).
+  focus_theme?: boolean;
+  source?: string;
+  note_rendu?: string;
+};
+
+// Variantes développementales (M12+) : un sélecteur de thème pilote l'étape de
+// focus du rituel, le focus réflexo et le passage de la berceuse.
+export type CoucherTheme = {
+  id: string;
+  titre: string;
+  sous_titre?: string;
+  etape_rituel: { titre: string; duree?: string; description: string };
+};
+
+export type VariantesDeveloppementales = {
+  intro?: string;
+  question_selecteur?: string;
+  themes_disponibles?: string[];
+  themes: CoucherTheme[];
 };
 
 export type ReflexologieEtape = {
@@ -93,11 +113,14 @@ export type CoucherModule = {
   description?: string;
   reperes_cles?: string[];
   rituel_etapes?: RituelEtape[];
+  variantes_developpementales?: VariantesDeveloppementales;
   reflexologie_du_coucher?: {
     titre: string;
     intro?: string;
     duree_totale?: string;
     pression?: string;
+    consentement?: string;
+    focus_par_theme?: Record<string, string>;
     etapes: ReflexologieEtape[];
   };
   script_audio_du_soir?: {
@@ -105,6 +128,7 @@ export type CoucherModule = {
     duree?: string;
     instruction?: string;
     texte: string;
+    passage_par_theme?: Record<string, string>;
   };
   co_parent?: {
     titre: string;

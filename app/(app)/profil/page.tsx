@@ -75,6 +75,35 @@ export default async function ProfilPage({
             className="w-full rounded-xl border border-neutral-300 px-4 py-3 text-base"
           />
         </label>
+        <fieldset className="block space-y-1.5">
+          <legend className="text-sm font-medium text-neutral-700">
+            Genre{" "}
+            <span className="font-normal text-neutral-400">(optionnel)</span>
+          </legend>
+          <p className="text-xs text-neutral-500">
+            Pour accorder les textes personnalisés (berceuse, formulations).
+          </p>
+          <div className="grid grid-cols-2 gap-3 pt-1">
+            {[
+              { value: "garcon", label: "Garçon" },
+              { value: "fille", label: "Fille" },
+            ].map((opt) => (
+              <label
+                key={opt.value}
+                className="flex cursor-pointer items-center justify-center gap-2 rounded-xl border border-neutral-300 px-4 py-3 text-base has-[:checked]:border-neutral-900 has-[:checked]:bg-neutral-900 has-[:checked]:text-white"
+              >
+                <input
+                  type="radio"
+                  name="genre"
+                  value={opt.value}
+                  defaultChecked={profile?.genre === opt.value}
+                  className="sr-only"
+                />
+                {opt.label}
+              </label>
+            ))}
+          </div>
+        </fieldset>
         <button
           type="submit"
           className="w-full rounded-2xl bg-neutral-900 px-6 py-4 text-base font-medium text-white"

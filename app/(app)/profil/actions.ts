@@ -9,6 +9,10 @@ export async function upsertProfile(formData: FormData) {
   const user = await requireUser();
   const baby_name = String(formData.get("baby_name") ?? "").trim();
   const birthdate = String(formData.get("birthdate") ?? "");
+  const genreRaw = String(formData.get("genre") ?? "");
+  // Genre optionnel ; on n'accepte que les valeurs connues, sinon null.
+  const genre =
+    genreRaw === "garcon" || genreRaw === "fille" ? genreRaw : null;
 
   if (!baby_name || !birthdate) {
     redirect("/profil?error=champs_manquants");
@@ -27,7 +31,7 @@ export async function upsertProfile(formData: FormData) {
   const { error } = await supabase
     .from("profiles")
     .upsert(
-      { user_id: user.id, baby_name, birthdate },
+      { user_id: user.id, baby_name, birthdate, genre },
       { onConflict: "user_id" },
     );
 

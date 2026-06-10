@@ -27,7 +27,11 @@ export default async function CoucherPage() {
 
   return (
     <section>
-      <CoucherView coucher={coucher} babyName={profile.baby_name} />
+      <CoucherView
+        coucher={coucher}
+        babyName={profile.baby_name}
+        genre={profile.genre}
+      />
     </section>
   );
 }

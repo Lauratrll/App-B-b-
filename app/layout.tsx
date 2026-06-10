@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import { Playfair_Display } from "next/font/google";
+import { Playfair_Display, Nunito } from "next/font/google";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -19,6 +19,14 @@ const playfair = Playfair_Display({
   subsets: ["latin"],
   variable: "--font-playfair",
   weight: ["500", "600", "700"],
+});
+// Nunito = font de la berceuse-rituel (Coucher), en italique. Cf.
+// skills/CONSIGNES_CLAUDE_CODE_coucher.md §7.
+const nunito = Nunito({
+  subsets: ["latin"],
+  variable: "--font-nunito",
+  weight: ["400", "600"],
+  style: ["normal", "italic"],
 });
 
 export const metadata: Metadata = {
@@ -42,7 +50,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased text-[#3A3228]`}
+        className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} ${nunito.variable} antialiased text-[#3A3228]`}
         style={{ backgroundColor: "#E4DDD6" }}
       >
         <div

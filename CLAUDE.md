@@ -86,12 +86,15 @@ CREATE TABLE profiles (
   user\_id UUID REFERENCES auth.users(id) ON DELETE CASCADE,
   baby\_name TEXT NOT NULL,
   birthdate DATE NOT NULL,
+  genre TEXT CHECK (genre IN ('garcon', 'fille')),  -- nullable ; défaut masculin côté contenu
   created\_at TIMESTAMPTZ DEFAULT now(),
   updated\_at TIMESTAMPTZ DEFAULT now()
 );
 -- baby\_name et birthdate permettent de calculer côté client :
 -- mois\_actuel = différence en mois entre birthdate et aujourd'hui
 -- saison = selon le mois calendaire actuel
+-- genre (optionnel) accorde les contenus genrés : [masculin/féminin], [Il/Elle]…
+-- Migration : supabase/migrations/0003\_add\_genre\_profile.sql
 
 -- Abonnements
 CREATE TABLE subscriptions (
@@ -136,7 +139,7 @@ Chaque mois contient les mêmes 6 modules — seul le contenu change.
 
 |#|Module|Description|
 |-|-|-|
-|1|🧭 Guide-moi !|8 catégories × 4 situations = 32 protocoles différenciés par mois|
+|1|🧭 Guide-moi !|8 catégories × 4 situations par défaut (32 protocoles), différenciés par mois. Une catégorie peut monter à 5 situations quand une thématique le justifie — décision éditoriale de la fondatrice. 4 reste la norme (32, déjà dense en information).|
 |2|🌸 Prends soin de toi|6 gestes parentaux (réflexo, méditation, écriture, réalité, couple, soin)|
 |3|🌿 Conseil de saison|2 conseils adaptés à l'âge + saison en cours|
 |4|🌙 Préparer le coucher|Rituel personnalisé selon thème développemental|
