@@ -106,6 +106,11 @@ export type CoucherModule = {
     instruction?: string;
     texte: string;
   };
+  co_parent?: {
+    titre: string;
+    texte: string;
+    actions: string[];
+  };
   signaux_de_fatigue?: string[];
   erreurs_a_eviter?: string[];
   consulter_si?: string;

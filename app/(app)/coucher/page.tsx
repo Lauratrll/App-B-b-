@@ -1,8 +1,6 @@
 import { requireProfile } from "@/lib/auth";
 import { getBabyMonth } from "@/lib/utils";
-import { getCoucher, getReflexoFromCoucher } from "@/lib/content";
-import { isPinned } from "@/lib/pinned";
-import { PinButton } from "@/components/modules/pin-button";
+import { getCoucher } from "@/lib/content";
 import { CoucherView } from "@/components/modules/coucher-view";
 
 export default async function CoucherPage() {
@@ -25,45 +23,11 @@ export default async function CoucherPage() {
     );
   }
 
-  const { contentId, coucher } = result;
-  const [pinned, reflexo] = await Promise.all([
-    isPinned(contentId),
-    getReflexoFromCoucher(mois),
-  ]);
-  const reflexoPinned = reflexo ? await isPinned(reflexo.contentId) : false;
-
-  const reflexoButton = reflexo ? (
-    <PinButton
-      contentId={reflexo.contentId}
-      isPinned={reflexoPinned}
-      returnUrl="/coucher"
-    />
-  ) : null;
+  const { coucher } = result;
 
   return (
-    <section className="space-y-5">
-      <header className="flex items-start justify-between gap-3">
-        <div className="space-y-1">
-          <p className="text-2xl" aria-hidden>🌙</p>
-          <h1 className="text-2xl font-semibold leading-tight">
-            {coucher.titre_rubrique ?? "Préparer le coucher"}
-          </h1>
-          {coucher.sous_titre ? (
-            <p className="text-sm text-neutral-600">{coucher.sous_titre}</p>
-          ) : null}
-        </div>
-        <PinButton
-          contentId={contentId}
-          isPinned={pinned}
-          returnUrl="/coucher"
-        />
-      </header>
-
-      <CoucherView
-        coucher={coucher}
-        babyName={profile.baby_name}
-        reflexoPinButton={reflexoButton}
-      />
+    <section>
+      <CoucherView coucher={coucher} babyName={profile.baby_name} />
     </section>
   );
 }
