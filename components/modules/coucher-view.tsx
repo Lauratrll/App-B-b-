@@ -147,10 +147,14 @@ const PictoHorloge = () => (
 );
 const PictoPied = () => (
   <LineIcon stroke={C.reflexo.accent}>
-    <path d="M9 4.2c1.7 0 2.7 1.7 2.7 3.8 0 2.3-1.1 4-1.1 6 0 1.5.9 2.3.9 3.7 0 1.8-1.3 2.6-2.8 2.6-1.7 0-2.8-1.4-2.8-3.3 0-2.5 1-3.3 1-5.8C5.9 8 6.3 4.2 9 4.2z" />
-    <circle cx="14.4" cy="6.2" r=".9" fill={C.reflexo.accent} stroke="none" />
-    <circle cx="16.4" cy="8.6" r=".8" fill={C.reflexo.accent} stroke="none" />
-    <circle cx="16.7" cy="11.4" r=".7" fill={C.reflexo.accent} stroke="none" />
+    {/* Semelle : coussinet, cambrure (arche), talon. */}
+    <path d="M12 9C14.8 9 16.4 10.6 16.4 12.8C16.4 14.1 15.7 14.8 15.5 16C15.3 17.2 15.8 18 15.8 19.2C15.8 21 14.2 22 12 22C9.8 22 8.2 21 8.2 19.2C8.2 18 8.7 17.2 8.5 16C8.3 14.8 7.6 14.1 7.6 12.8C7.6 10.6 9.2 9 12 9Z" />
+    {/* 5 orteils en arc, du gros (gauche) au petit (droite). */}
+    <circle cx="9.6" cy="7" r="1.25" fill={C.reflexo.accent} stroke="none" />
+    <circle cx="11.8" cy="5.8" r="1.05" fill={C.reflexo.accent} stroke="none" />
+    <circle cx="13.8" cy="5.8" r=".9" fill={C.reflexo.accent} stroke="none" />
+    <circle cx="15.4" cy="6.6" r=".78" fill={C.reflexo.accent} stroke="none" />
+    <circle cx="16.7" cy="7.9" r=".64" fill={C.reflexo.accent} stroke="none" />
   </LineIcon>
 );
 const PictoNote = () => (
@@ -465,7 +469,7 @@ export function CoucherView({
                         display: "block",
                         fontFamily: "var(--font-playfair), Georgia, serif",
                         fontWeight: 600,
-                        fontSize: 14,
+                        fontSize: 17,
                         color: "#3A3228",
                         lineHeight: 1.15,
                       }}

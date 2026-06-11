@@ -66,7 +66,7 @@
       "ordre": 4,
       "moment": "19h30 – 19h45",
       "titre": "Le massage doux",
-      "objectif": "Co-régulation par le toucher avant la dernière tétée",
+      "objectif": "Co-régulation par le toucher avant la dernière prise de lait",
       "actions": [
         "Pièce à 22-24°C, table à langer ou ton lit avec serviette",
         "Tes mains chaudes — frotte-les avant de toucher bébé",
@@ -88,14 +88,14 @@
     {
       "ordre": 5,
       "moment": "19h45 – 20h30",
-      "titre": "La dernière tétée du soir",
+      "titre": "La dernière prise de lait du soir",
       "objectif": "Calmer la faim et déclencher l'endormissement par satiété",
       "actions": [
         "Lumière très tamisée — orange si possible",
         "Aucune télévision, aucun téléphone en fond",
         "Position confortable pour toi — tu ne dois pas avoir mal au dos",
-        "Bébé contre toi, peau à peau idéalement",
-        "Si bébé s'endort en tétant : laisse-le finir tranquillement",
+        "Bébé bien installé contre toi",
+        "Si bébé s'endort en buvant : laisse-le finir tranquillement",
         "Rot à la fin, position verticale 5 min"
       ]
     },
@@ -120,7 +120,7 @@
     "titre": "Berceuse-rituel du soir",
     "duree_minutes": 5,
     "description": "Un script audio que tu peux écouter avec bébé pendant le rituel — voix grave, lente, apaisante. Diffuse sur enceinte douce, volume bas.",
-    "texte": "Bonsoir mon tout petit.\n\nLa journée s'achève. Tu as beaucoup vécu aujourd'hui — beaucoup de lumière, beaucoup de sons, beaucoup de bras. C'était grand pour toi.\n\nMaintenant, le monde se ralentit.\n\nLa lumière baisse. Les bruits s'éloignent. Mon souffle se pose près du tien.\n\nTu es en sécurité. Tu es au chaud. Tu es aimé.\n\nJe pose mes mains sur tes pieds. Tu sens la chaleur ? Cette chaleur, c'est moi qui suis là.\n\nJe ne pars pas. Je suis là.\n\nDoucement, doucement, ton petit corps se détend. Tes bras se font lourds. Tes paupières aussi.\n\nLa nuit va arriver. Et la nuit, c'est juste un long câlin. Un long câlin où on se repose ensemble.\n\nTu n'as rien à faire. Tu n'as rien à comprendre. Tu as juste à être là, et à respirer.\n\nÉcoute mon souffle. Inspire... expire... Inspire... expire...\n\nC'est doux. C'est lent. C'est bon.\n\nTu fais un travail immense, mon tout petit. Grandir. Apprendre à respirer dehors. Apprendre à téter. Apprendre à dormir.\n\nTu fais tout ça très bien.\n\nMaintenant, repose-toi.\n\nJe suis là. Toute la nuit, je suis là.\n\nBonne nuit, mon amour. Bonne nuit.",
+    "texte": "Bonsoir mon tout petit.\n\nLa journée s'achève. Tu as beaucoup vécu aujourd'hui — beaucoup de lumière, beaucoup de sons, beaucoup de bras. C'était grand pour toi.\n\nMaintenant, le monde se ralentit.\n\nLa lumière baisse. Les bruits s'éloignent. Mon souffle se pose près du tien.\n\nTu es en sécurité. Tu es au chaud. Tu es aimé.\n\nJe pose mes mains sur tes pieds. Tu sens la chaleur ? Cette chaleur, c'est moi qui suis là.\n\nJe ne pars pas. Je suis là.\n\nDoucement, doucement, ton petit corps se détend. Tes bras se font lourds. Tes paupières aussi.\n\nLa nuit va arriver. Tu vas dormir tout près de moi, dans ton lit. Je veille sur toi.\n\nTu n'as rien à faire. Tu n'as rien à comprendre. Tu as juste à être là, et à respirer.\n\nÉcoute mon souffle. Inspire... expire... Inspire... expire...\n\nC'est doux. C'est lent. C'est bon.\n\nTu fais un travail immense, mon tout petit. Grandir. Apprendre à respirer dehors. Apprendre à boire. Apprendre à dormir.\n\nTu fais tout ça très bien.\n\nMaintenant, repose-toi.\n\nJe suis là. Toute la nuit, je suis là.\n\nBonne nuit, mon amour. Bonne nuit.",
     "ton": "voix grave, débit très lent (90 mots/min), volume bas, sourire dans la voix",
     "musique_fond": "aucune ou nappe sonore très discrète, fréquence basse"
   },
@@ -138,7 +138,7 @@
     "actions": [
       "Le co-parent prend en charge le bain 3 soirs sur 7",
       "Le co-parent peut faire le massage et raconter sa version du script",
-      "Si allaitement : co-parent gère le rituel jusqu'à la dernière tétée",
+      "Si allaitement : co-parent gère le rituel jusqu'à la dernière prise de lait",
       "Une nuit sur deux, c'est le co-parent qui se lève pour les réveils non liés à la faim"
     ]
   },

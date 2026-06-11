@@ -649,17 +649,17 @@
       "categorie": "corps",
       "situation": "CORDON OMBILICAL / comment en prendre soin",
       "titre": "Cordon ombilical — comment en prendre soin",
-      "explication": "Le cordon ombilical se dessèche et tombe naturellement entre J5 et J15. Il n'a pas besoin de soins complexes — l'air et la propreté suffisent. L'ancienne pratique d'appliquer de l'alcool est abandonnée : ça ralentit la cicatrisation. La seule règle : garder sec et exposé à l'air.",
+      "explication": "Le cordon ombilical se dessèche et tombe naturellement entre J5 et J15. Il n'a pas besoin de soins complexes. La seule règle : le garder propre, sec et exposé à l'air.",
       "ancrage": "Le cordon tombe quand il est prêt. Ton rôle : ne pas interférer avec ce processus naturel. Moins on fait, mieux ça va.",
       "action_immediate": {
         "titre": "Action immédiate — soins du cordon",
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
         "etapes": [
-          "Plier la couche sous le cordon pour l'exposer à l'air — ne pas couvrir",
-          "Nettoyer à l'eau propre si souillé — laisser sécher ensuite à l'air",
-          "Ne pas tirer, tordre ni accélérer la chute — risque de saignement",
-          "Bains : éviter l'immersion du cordon jusqu'à la chute — toilette à la lavette",
+          "Plier la couche sous le cordon pour l'exposer à l'air : ne pas couvrir",
+          "Nettoyer à l'eau propre si souillé : laisser sécher ensuite à l'air",
+          "Ne pas tirer, tordre ni accélérer la chute : risque de saignement",
+          "Réduire l'immersion du cordon lors des bains : bien le sécher avec une compresse stérile",
           "Si mauvaise odeur légère ou petite quantité de sang sec : normal, surveiller"
         ]
       },
@@ -676,16 +676,16 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Prendre des photos si la couleur change (rouge, suintant) pour montrer au médecin",
-        "Ne pas écouter les conseils de grands-mères d'alcool ou d'antiseptique fort",
+        "Prendre des photos si la couleur change (rouge, suintant) : pour montrer au médecin",
+        "Ne pas écouter les conseils de grands-mères : pas d'alcool ou d'antiseptique fort",
         "Observer l'ombilic après la chute : il doit cicatriser proprement en quelques jours",
-        "PMI et sage-femme de ville peuvent vérifier le cordon à domicile"
+        "PMI et sage-femme de ville :  peuvent vérifier le cordon à domicile"
       ],
-      "principe": "La plupart des cordons tombent entre J7 et J12. Si encore présent à J21 avec bonne apparence → normal, certains prennent jusqu'à J21. Signaler au médecin après J21.",
+      "principe": "La plupart des cordons tombent entre J7 et J12. Si encore présent avec bonne apparence → normal, certains prennent jusqu'à J21. Signaler au médecin après J21.",
       "erreurs_a_eviter": [
         "Appliquer de l'alcool ou de la Bétadine — ralentit la cicatrisation",
         "Tirer le cordon pour l'aider — risque de saignement et d'infection",
-        "Immerger dans l'eau avant la chute — augmente le risque d'infection",
+        "Immerger trop longtemps dans l'eau avant la chute — augmente le risque d'infection",
         "Couvrir systématiquement avec la couche — prive d'air"
       ],
       "consulter_si": "Rougeur et chaleur autour du nombril, écoulement purulent, mauvaise odeur intense, bébé qui pleure quand on touche le pourtour du nombril, saignement abondant."
@@ -1369,7 +1369,7 @@
       "categorie": "sante",
       "situation": "BÉBÉ PRÉMATURÉ OU PETIT POIDS / les premières semaines à la maison",
       "titre": "Bébé prématuré ou petit poids — les premières semaines à la maison",
-      "explication": "Un bébé né avant 37 semaines d'aménorrhée (prématuré) ou pesant moins de 2,5 kg à terme (petit poids) demande quelques adaptations sans être pour autant fragile. Son thermorégulation est moins efficace, son réflexe de succion peut être plus faible, ses cycles de sommeil sont plus courts et il fatigue plus vite pendant les tétées ou biberons. Mais son développement neurologique suit sa propre courbe — calculée à partir de son âge corrigé (âge réel moins les semaines de prématurité), et non de sa date de naissance. À 3 mois réels pour un bébé né à 32 SA, son cerveau a en réalité 1 mois corrigé — c'est cette horloge qu'il faut suivre.",
+      "explication": "Un bébé né avant 37 semaines d'aménorrhée (prématuré) ou pesant moins de 2,5 kg à terme (petit poids) demande quelques adaptations sans être pour autant fragile. Sa thermorégulation est moins efficace, son réflexe de succion peut être plus faible, ses cycles de sommeil sont plus courts et il fatigue plus vite pendant les tétées ou biberons. Mais son développement neurologique suit sa propre courbe — calculée à partir de son âge corrigé (âge réel moins les semaines de prématurité), et non de sa date de naissance. À 3 mois réels pour un bébé né à 32 SA, son cerveau a en réalité 1 mois corrigé — c'est cette horloge qu'il faut suivre.",
       "ancrage": "Ton bébé n'est pas en retard. Il suit son rythme propre, celui que son corps a choisi de prendre. L'âge corrigé n'est pas une excuse — c'est la vérité biologique de son développement. Tu peux relâcher la comparaison avec les bébés nés à terme.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -1403,9 +1403,8 @@
       ],
       "principe": "L'âge corrigé est la seule référence valide pour évaluer le développement d'un bébé né prématurément. Comparer à un bébé à terme du même âge réel n'a aucun sens médical et crée une anxiété inutile.",
       "erreurs_a_eviter": [
-        "Comparer à un bébé né à terme de même âge réel — biais d'observation systématique",
-        "Sur-stimuler en pensant que ça va l'aider à 'rattraper' — l'effet est inverse, son système nerveux est plus vite saturé",
-        "Acheter du matériel spécifique non recommandé par le pédiatre (cocoon, plagiocéphalie préventive, etc.) — risque accru de MSN sur ce profil",
+                "Sur-stimuler en pensant que ça va l'aider à 'rattraper' le développement d'un bébé né à terme — l'effet est inverse, son système nerveux est plus vite saturé",
+        "Acheter du matériel spécifique non recommandé par le pédiatre (cocoon, plagiocéphalie préventive, etc.) — risque accru de mort subite du nourrisson",
         "Ignorer les signes de fatigue à la tétée ou au biberon (pâleur, sueurs, désaturation visible) — pause obligatoire et information du pédiatre"
       ],
       "consulter_si": "Refus alimentaire prolongé, prise de poids inférieure à 150 g/semaine après les 15 premiers jours, marbrures persistantes, respiration sifflante ou pauses respiratoires de plus de 10 secondes, somnolence excessive avec difficulté à le réveiller pour les repas → consulter le pédiatre référent ou le service de néonatologie qui a suivi bébé. Pour le parent : Allo Parents Bébé (0 800 00 34 56) — les équipes connaissent bien la charge émotionnelle de la prématurité."

@@ -7,7 +7,7 @@
   "description": "À 3 mois, le sommeil de bébé se réorganise — c'est la fameuse régression des 3-4 mois. Le rituel du soir devient ton outil principal : c'est sa régularité (et non son contenu) qui ancre la sécurité. Tu ne forces pas un horaire — tu poses un cadre prévisible que le cerveau immature de bébé apprend à reconnaître.",
   "reperes_cles": [
     "Coucher entre 19h et 20h — fenêtre d'éveil de 1h à 1h30 max avant la dernière mise au lit",
-    "Cycle de sommeil de 50-60 min — micro-éveils entre cycles, normaux",
+    "Cycle de sommeil de 50-60 min — micro-réveils entre cycles, normaux",
     "Rituel identique à ± 15 min chaque soir — la prévisibilité est l'outil n°1 à cet âge"
   ],
   "rituel_etapes": [
@@ -41,10 +41,10 @@
     },
     {
       "etape": 5,
-      "titre": "Dernière tétée ou biberon",
+      "titre": "Dernière prise de lait",
       "horaire": "19h30 - 20h",
       "duree": "15-20 min",
-      "description": "Dans la pénombre, lumière orange si possible. Aucun écran, aucun téléphone. Peau à peau idéalement. Si bébé s'endort en tétant, le laisser finir tranquillement. Rot à la fin, position verticale 5 min avant la pose."
+      "description": "Dans la pénombre, lumière orange si possible. Aucun écran, aucun téléphone. Bébé déjà en pyjama, tout contre toi. Si bébé s'endort en buvant, le laisser finir tranquillement — tu pourras le poser tel quel. Sinon, rot à la fin et position verticale quelques minutes avant la pose."
     },
     {
       "etape": 6,
@@ -56,7 +56,7 @@
   ],
   "reflexologie_du_coucher": {
     "titre": "Séquence réflexologie du soir — 7 minutes",
-    "intro": "Après le bain ou le pyjama, avant la dernière tétée. Bébé allongé sur le dos, toi assise face à ses pieds. Voix très basse, mouvements infimes. À 3 mois, les zones réflexo sont très réceptives — la pression doit être encore plus légère qu'à un âge plus avancé.",
+    "intro": "Après le bain ou le pyjama, avant la dernière prise de lait. Bébé allongé sur le dos, toi assise face à ses pieds. Voix très basse, mouvements infimes. À 3 mois, les zones réflexo sont très réceptives — la pression doit être encore plus légère qu'à un âge plus avancé.",
     "duree_totale": "7 minutes",
     "pression": "0/10 — c'est une caresse, pas un massage",
     "etapes": [
@@ -101,8 +101,8 @@
   "script_audio_du_soir": {
     "titre": "Berceuse-rituel \"Le monde se ralentit\"",
     "duree": "~5 minutes",
-    "instruction": "À lire à voix grave et lente (90 mots/min), volume très bas, dans la pénombre, pendant la dernière tétée ou juste après. À 3 mois, bébé ne comprend pas les mots mais perçoit pleinement la musicalité de ta voix, le rythme, les pauses. Personnalise [prénom] si tu veux.",
-    "texte": "[Prénom]...\n\nLa journée se termine maintenant.\n\nTu as beaucoup vécu aujourd'hui.\n\nBeaucoup de lumière. Beaucoup de visages. Beaucoup de sons.\n\nC'était grand, pour ton petit corps.\n\n[Pause — 5 secondes]\n\nMaintenant, le monde se ralentit.\n\nLa lumière baisse.\n\nLes bruits s'éloignent.\n\nMon souffle se pose près du tien.\n\n[Pause — 5 secondes]\n\nTes yeux ont tellement regardé aujourd'hui. Ils peuvent se fermer.\n\nTes mains ont tellement bougé. Elles peuvent s'ouvrir doucement.\n\nTes pieds, tes jambes, ton ventre — tout ton corps peut se reposer.\n\n[Pause — 5 secondes]\n\nTu n'as rien à faire.\n\nTu n'as rien à comprendre.\n\nTu as juste à être là, et à respirer.\n\nÉcoute mon souffle. Inspire... expire... Inspire... expire...\n\nC'est doux. C'est lent.\n\n[Pause — 5 secondes]\n\nTu fais un travail immense en ce moment, mon tout petit.\n\nTon cerveau apprend à dormir comme un grand.\n\nÇa fait beaucoup, je sais.\n\nTu peux te tromper. Tu peux te réveiller. Je serai là.\n\n[Pause — 5 secondes]\n\nLa nuit arrive maintenant.\n\nLa nuit, c'est juste un long câlin.\n\nUn long câlin où on se repose ensemble.\n\nJe suis là. Toute la nuit, je suis là.\n\n[Pause — 5 secondes]\n\nTu es en sécurité.\n\nTu es au chaud.\n\nTu es aimé.\n\nDors mon amour. Dors.\n\nBonne nuit."
+    "instruction": "À lire à voix grave et lente (90 mots/min), volume très bas, dans la pénombre, pendant la dernière prise de lait ou juste après. À 3 mois, bébé ne comprend pas les mots mais perçoit pleinement la musicalité de ta voix, le rythme, les pauses. Personnalise [prénom] si tu veux.",
+    "texte": "[Prénom]...\n\nLa journée se termine maintenant.\n\nTu as beaucoup vécu aujourd'hui.\n\nBeaucoup de lumière. Beaucoup de visages. Beaucoup de sons.\n\nC'était grand, pour ton petit corps.\n\n[Pause — 5 secondes]\n\nMaintenant, le monde se ralentit.\n\nLa lumière baisse.\n\nLes bruits s'éloignent.\n\nMon souffle se pose près du tien.\n\n[Pause — 5 secondes]\n\nTes yeux ont tellement regardé aujourd'hui. Ils peuvent se fermer.\n\nTes mains ont tellement bougé. Elles peuvent s'ouvrir doucement.\n\nTes pieds, tes jambes, ton ventre — tout ton corps peut se reposer.\n\n[Pause — 5 secondes]\n\nTu n'as rien à faire.\n\nTu n'as rien à comprendre.\n\nTu as juste à être là, et à respirer.\n\nÉcoute mon souffle. Inspire... expire... Inspire... expire...\n\nC'est doux. C'est lent.\n\n[Pause — 5 secondes]\n\nTu fais un travail immense en ce moment, mon tout petit.\n\nTon cerveau apprend à dormir comme un grand.\n\nÇa fait beaucoup, je sais.\n\nTu peux te tromper. Tu peux te réveiller. Je serai là.\n\n[Pause — 5 secondes]\n\nLa nuit arrive maintenant.\n\nTu vas dormir dans ton lit, tout près de moi.\n\nJe veille sur toi.\n\nJe suis là, je ne suis pas loin.\n\n[Pause — 5 secondes]\n\nTu es en sécurité.\n\nTu es au chaud.\n\nTu es aimé.\n\nDors mon amour. Dors.\n\nBonne nuit."
   },
   "signaux_de_fatigue": [
     "Regard qui se fige ou décroche, dans le vague",
@@ -117,7 +117,7 @@
     "texte": "À 3 mois, l'alternance des parents au coucher est essentielle — pour la maman qui a besoin de repos, pour le co-parent qui construit son lien, et pour bébé qui doit s'habituer à plusieurs figures sécurisantes. Si la reprise du travail approche, le co-parent doit déjà savoir gérer le coucher seul.",
     "actions": [
       "Le co-parent prend en charge le bain et le massage 3 à 4 soirs sur 7",
-      "Si allaitement : le co-parent gère tout le rituel jusqu'à la dernière tétée",
+      "Si allaitement : le co-parent gère tout le rituel jusqu'à la dernière prise de lait",
       "Une nuit sur deux minimum, c'est le co-parent qui se lève pour les réveils non liés à la faim",
       "Le co-parent peut faire la voix du script audio — bébé apprend deux versions du rituel"
     ]

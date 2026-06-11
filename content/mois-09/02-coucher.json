@@ -3,7 +3,7 @@
   "tranche_age": "9 mois",
   "rubrique": "preparer_le_coucher",
   "titre_rubrique": "Préparer le coucher",
-  "sous_titre": "Mois 9 — Rituel & réflexologie du soir",
+  "sous_titre": "Crée ton rituel adapté",
   "description": "À 9 mois, le coucher se complexifie sous l'effet conjugué de la permanence de l'objet et du pic d'angoisse de séparation : bébé comprend maintenant que tu existes même quand il ne te voit plus — et c'est précisément ce qui rend ton départ de la chambre douloureux. À cela s'ajoutent souvent la motricité (debout dans le lit, position assise verrouillée), les incisives latérales en poussée et parfois un retour au travail récent. Le rituel devient un point d'ancrage non négociable. Sa constance compte plus que sa richesse.",
   "reperes_cles": [
     "Coucher entre 19h et 20h — fenêtre d'éveil maximale de 3h à 3h30 avant la dernière mise au lit",
@@ -23,7 +23,7 @@
       "titre": "Repas du soir — diversification puis lait",
       "horaire": "18h30 - 19h",
       "duree": "20-30 min",
-      "description": "Repas complet de légumes + féculents + protéines (en morceaux fondants ou purée selon l'avancée de la diversification), puis tétée ou biberon de lait. Bébé bien assis dans sa chaise, face à toi. Pas de divertissement (jouet, écran, téléphone). Si bébé refuse le solide ce soir-là à cause des dents ou de la fatigue, ne pas forcer — proposer un repas plus lacté. Le lait reste un pilier nutritionnel à 9 mois."
+      "description": "Repas complet de légumes + féculents + protéines (en morceaux fondants ou purée selon l'avancée de la diversification), puis prise de lait au sein ou au biberon. Bébé bien assis dans sa chaise, face à toi. Pas de divertissement (jouet, écran, téléphone). Si bébé refuse le solide ce soir-là à cause des dents ou de la fatigue, ne pas forcer — proposer un repas plus lacté. Le lait reste un pilier nutritionnel à 9 mois."
     },
     {
       "etape": 3,
@@ -59,6 +59,7 @@
     "intro": "Après le pyjama, avant l'histoire. Bébé allongé sur le dos, toi assise face à ses pieds. Voix très basse, mouvements infimes. À 9 mois, bébé bouge beaucoup pendant la séquence — accepter qu'il se mette sur le côté, sur le ventre ou en position assise, et adapter ton geste à sa position. Le contact compte plus que la perfection du tracé.",
     "duree_totale": "7 minutes",
     "pression": "0/10 — c'est une caresse, pas un massage",
+    "consentement": "Avant tout, observe les réactions de bébé. Le massage et la réflexologie se font avec son accord : à la moindre crispation, s'il retire son pied ou se détourne, arrête-toi. À 9 mois, bébé bouge : accepte qu'il se mette sur le côté, sur le ventre ou assis, et adapte ton geste à sa position. C'est un moment de plaisir partagé, jamais une technique à imposer.",
     "etapes": [
       {
         "zone": "Réchauffer les pieds",
@@ -103,7 +104,7 @@
     "titre": "« Au matin, je reviens »",
     "duree": "~5 minutes",
     "instruction": "À écouter sur enceinte douce pendant la séquence réflexo et le pyjama, volume bas. Voix grave et lente. Ou à lire à voix haute, posément, en regardant bébé. Les pauses sont des silences réels — pas des indications de ton. Ce script s'adresse spécifiquement à l'angoisse de séparation qui culmine entre 8 et 10 mois.",
-    "texte": "Bonsoir, mon tout petit.\n\nLa journée s'achève.\n\nTu as beaucoup exploré aujourd'hui.\n\n[Pause — 5 secondes]\n\nTu as touché. Tu as goûté. Tu as cherché ce que tu voulais.\n\nTu as peut-être avancé à quatre pattes. Tu as peut-être tendu le doigt vers quelque chose. Tu as peut-être appelé.\n\nTout ça, c'était beaucoup pour un petit corps.\n\n[Pause — 5 secondes]\n\nMaintenant, la nuit arrive.\n\nDehors, le monde se pose. Les bruits s'éloignent. Les lumières s'éteignent.\n\nDans la maison aussi, tout ralentit. Ma voix devient plus basse. Mes gestes deviennent plus lents.\n\n[Pause — 5 secondes]\n\nJe sais que c'est nouveau pour toi.\n\nMaintenant, tu as compris que j'existe même quand tu ne me vois pas.\n\nC'est une grande chose que tu as comprise.\n\nEt c'est aussi pour ça que c'est plus difficile, parfois, quand je sors de la pièce.\n\n[Pause — 5 secondes]\n\nAlors écoute bien.\n\nQuand je pose ma main sur ton ventre, je suis là.\n\nQuand je dis bonne nuit, je suis là.\n\nQuand je sors et que tu ne me vois plus — je suis encore là.\n\nDe l'autre côté du mur. Dans la maison. Dans ton cœur.\n\n[Pause — 10 secondes]\n\nLa nuit, ce n'est pas la fin.\n\nC'est juste un long câlin doux qui sépare deux journées.\n\nSi tu te réveilles, c'est ok. Ton corps apprend. Tes nuits changent.\n\nJe serai là. Toujours.\n\n[Pause — 5 secondes]\n\nEt au matin — toujours — je reviens.\n\nMa voix revient. Mes bras reviennent. Mon visage revient.\n\nChaque matin, sans exception.\n\n[Pause — 10 secondes]\n\nMaintenant, tu peux te déposer.\n\nTon corps est en sécurité.\n\nTon cœur est en sécurité.\n\nTu es aimé. Profondément. Toujours.\n\nDors, mon amour. Dors.\n\nAu matin, je reviens.\n\nBonne nuit."
+    "texte": "[Prénom]...\n\nBonsoir, [mon tout petit/ma toute petite].\n\nLa journée s'achève.\n\nTu as beaucoup exploré aujourd'hui.\n\n[Pause — 5 secondes]\n\nTu as touché. Tu as goûté. Tu as cherché ce que tu voulais.\n\nTu as peut-être avancé à quatre pattes. Tu as peut-être tendu le doigt vers quelque chose. Tu as peut-être appelé.\n\nTout ça, c'était beaucoup pour un petit corps.\n\n[Pause — 5 secondes]\n\nMaintenant, la nuit arrive.\n\nDehors, le monde se pose. Les bruits s'éloignent. Les lumières s'éteignent.\n\nDans la maison aussi, tout ralentit. Ma voix devient plus basse. Mes gestes deviennent plus lents.\n\n[Pause — 5 secondes]\n\nJe sais que c'est nouveau pour toi.\n\nMaintenant, tu as compris que j'existe même quand tu ne me vois pas.\n\nC'est une grande chose que tu as comprise.\n\nEt c'est aussi pour ça que c'est plus difficile, parfois, quand je sors de la pièce.\n\n[Pause — 5 secondes]\n\nAlors écoute bien.\n\nQuand je pose ma main sur ton ventre, je suis là.\n\nQuand je dis bonne nuit, je suis là.\n\nQuand je sors et que tu ne me vois plus — je suis encore là.\n\nDe l'autre côté du mur. Dans la maison. Dans ton cœur.\n\n[Pause — 10 secondes]\n\nLa nuit, ce n'est pas la fin.\n\nC'est un temps de repos — et je veille sur toi, de l'autre côté du mur.\n\nSi tu te réveilles, c'est ok. Ton corps apprend. Tes nuits changent.\n\nJe serai là. Toujours.\n\n[Pause — 5 secondes]\n\nEt au matin — toujours — je reviens.\n\nMa voix revient. Mes bras reviennent. Mon visage revient.\n\nChaque matin, sans exception.\n\n[Pause — 10 secondes]\n\nMaintenant, tu peux te déposer.\n\nTon corps est en sécurité.\n\nTon cœur est en sécurité.\n\nTu es [aimé/aimée]. Profondément. Toujours.\n\nDors, mon amour. Dors.\n\nAu matin, je reviens.\n\nBonne nuit."
   },
   "signaux_de_fatigue": [
     "Regard qui se fige ou décroche dans le vague, perte d'intérêt pour les objets",

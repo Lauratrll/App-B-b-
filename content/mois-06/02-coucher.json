@@ -3,62 +3,71 @@
   "tranche_age": "6 mois",
   "rubrique": "preparer_le_coucher",
   "titre_rubrique": "Préparer le coucher",
-  "sous_titre": "Mois 6 — Rituel & réflexologie du soir",
-  "description": "À 6 mois, le rituel du coucher devient un pilier — entre la régression du sommeil des 6 mois, les retournements nocturnes, le démarrage éventuel des dents et l'arrivée de la diversification dans la chronologie de la soirée. La constance du rituel l'emporte sur sa richesse : ce n'est pas ce que tu fais qui compte, c'est que tu le fasses dans le même ordre, à la même heure, chaque soir.",
+  "sous_titre": "Crée ton rituel adapté",
+  "description": "À 6 mois, le sommeil se réorganise : c'est la fameuse régression des 6 mois, portée par les nouveaux acquis moteurs (retournements, parfois le quatre pattes qui s'amorce), la diversification qui démarre et parfois les premières dents. Bébé commence aussi à te chercher du regard quand tu t'éloignes — c'est la toute première préfiguration de l'angoisse de séparation, qui ne culminera que vers 8-10 mois. À cet âge, ce que tu remplis dans la journée prépare la nuit : chaque câlin, chaque rire, chaque massage remplit son réservoir émotionnel, et un bébé arrivé au coucher le réservoir plein se sépare plus sereinement. La constance du rituel l'emporte sur sa richesse : ce n'est pas ce que tu fais qui compte, c'est que tu le fasses dans le même ordre, à la même heure, chaque soir.",
   "reperes_cles": [
     "Coucher entre 19h et 20h — fenêtre d'éveil de 2h à 2h30 max avant la dernière mise au lit",
-    "Cycle de sommeil de 50-60 min — les micro-éveils entre cycles deviennent plus conscients à 6 mois",
+    "Cycle de sommeil de 50-60 min — les micro-réveils entre cycles deviennent plus conscients à 6 mois",
     "Rituel identique à ± 15 min chaque soir — la régularité est plus efficace que la durée"
   ],
+  "signaux_de_fatigue": [
+    "Regard qui se fige ou décroche, dans le vague",
+    "Frottement des yeux et des oreilles, parfois avec les deux mains",
+    "Bâillements (souvent signe que la sur-fatigue commence déjà)",
+    "Agitation des bras et des jambes, mouvements désordonnés inhabituels",
+    "Accrochage corporel : cherche à se blottir, réclame d'être porté"
+  ],
+  "duree_eveil_max": "2h à 2h30 d'éveil maximum entre deux périodes de sommeil à 6 mois — au-delà, la sur-fatigue libère du cortisol et rend l'endormissement très difficile.",
   "rituel_etapes": [
     {
       "etape": 1,
       "titre": "Baisser l'ambiance et clore la journée d'éveil",
       "horaire": "17h30 - 18h30",
       "duree": "60 min",
-      "description": "Éteindre les plafonniers, allumer des lampes basses. Couper la télévision et la musique. Voix basses, mouvements lents. Refuser les visites passé 18h pendant cette phase de régression. Couper tous les écrans (téléphone, télé, tablette) : la lumière bleue supprime la mélatonine jusqu'à 90 min après extinction."
+      "description": "Éteindre les plafonniers, allumer des lampes basses. Couper la télévision et la musique. Voix basses, mouvements lents. Refuser les visites passé 18h pendant cette phase de régression. Couper tous les écrans (téléphone, télé, tablette) : la lumière bleue supprime la mélatonine jusqu'à 90 min après extinction. C'est aussi le moment de ralentir toi-même — bébé lit ton apaisement avant tes gestes."
     },
     {
       "etape": 2,
       "titre": "Repas du soir — diversification puis lait",
       "horaire": "18h30 - 19h",
       "duree": "20-30 min",
-      "description": "Petite purée de légumes (toujours la même heure pour ancrer le rythme digestif), puis tétée ou biberon de lait. Bébé bien assis, soutenu, face à toi. Pas de divertissement (jouet, télé, téléphone). Si bébé refuse la purée ce soir-là, ne pas insister — passer directement au lait. Le lait reste l'aliment principal à 6 mois."
+      "description": "Petite purée de légumes (toujours à la même heure pour ancrer le rythme digestif), puis prise de lait au sein ou au biberon. Bébé bien assis, soutenu, face à toi. Pas de divertissement (jouet, télé, téléphone). Si bébé refuse la purée ce soir-là, ne pas insister — passer directement au lait. Le lait reste l'aliment principal à 6 mois."
     },
     {
       "etape": 3,
       "titre": "Bain ou toilette (pas tous les soirs)",
       "horaire": "19h - 19h15",
       "duree": "5-10 min",
-      "description": "Bain court (5-7 min), eau à 37°C vérifiée au thermomètre. Pièce chaude (24-25°C). Lumière tamisée. Voix grave et lente. Pas de jouets sonores ni lumineux. Si bébé sort sur-excité du bain régulièrement, déplacer le bain en début d'après-midi 1 semaine pour tester l'effet sur le coucher."
+      "description": "Bain court (5-7 min), eau à 37°C vérifiée au thermomètre. Pièce chaude (24-25°C). Lumière tamisée. Voix grave et lente. Pas de jouets sonores ni lumineux. Si bébé sort sur-excité du bain régulièrement, déplacer le bain en début d'après-midi pendant 1 semaine pour tester l'effet sur le coucher."
     },
     {
       "etape": 4,
       "titre": "Pyjama, massage doux et séquence réflexo",
       "horaire": "19h15 - 19h35",
       "duree": "15-20 min",
-      "description": "Sur la table à langer ou le lit, pièce à 22-24°C. Mains chaudes, huile végétale neutre (amande douce, calendula). Pas d'huiles essentielles avant 3 ans. Mouvements lents, pression 0/10. Chanter ou parler doucement pendant. Enchaîner avec la séquence réflexo du soir (7 min) ci-dessous."
+      "description": "Sur la table à langer ou le lit, pièce à 22-24°C, serviette préchauffée et mains réchauffées. Huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans. Mouvements lents, pression 0/10. Chantonne ou parle doucement pendant : ta voix vaut autant que tes mains. Enchaîne avec la séquence réflexo du soir (7 min) ci-dessous."
     },
     {
       "etape": 5,
-      "titre": "Histoire ou comptine du soir",
+      "titre": "Histoire du soir et premiers mots sur la nuit",
       "horaire": "19h35 - 19h45",
       "duree": "10 min",
-      "description": "Un livre cartonné, lu lentement, bébé sur tes genoux ou contre toi. Une seule histoire, la même pendant 2-3 semaines (la répétition rassure). À 6 mois, le contenu importe moins que la voix posée et le rythme. Tu peux aussi chanter une comptine douce que tu reprends chaque soir."
+      "description": "Un livre cartonné, lu lentement, bébé sur tes genoux ou contre toi. Une seule histoire, la même pendant 2-3 semaines : la répétition rassure. À 6 mois, le contenu importe moins que la voix posée et le rythme. En fin d'histoire, commence à mettre des mots simples sur ce qui vient : « Maintenant on va dans ton lit. Je reste tout près. » Nommer doucement la suite prépare en douceur la petite séparation du soir."
     },
     {
       "etape": 6,
       "titre": "Phrase d'ancrage et pose dans le lit",
       "horaire": "19h45 - 20h",
       "duree": "5-10 min",
-      "description": "Chambre à 18-20°C, complètement obscure (rideaux occultants). Bruit blanc continu allumé AVANT la pose. Lit sécurisé : matelas ferme, gigoteuse sans manches, AUCUN tour de lit, AUCUNE couverture, AUCUNE peluche, AUCUN cale-bébé (recommandations MIN). Phrase rituelle identique chaque soir : « La nuit arrive. Tu es en sécurité. Je suis là. » Pose en deux temps (fesses puis tête). Main sur le ventre 1-2 min après la pose. Sortir en silence."
+      "description": "Chambre à 18-20°C, complètement obscure (rideaux occultants). Si tu utilises un bruit blanc : léger, faible volume, à distance (jamais près de la tête), et coupé une fois bébé endormi (≈ 20-30 min), jamais toute la nuit. Lit sécurisé : sur le dos, matelas ferme, gigoteuse, AUCUN tour de lit, AUCUNE couverture, AUCUNE peluche, AUCUN cale-bébé (recommandations MIN). Phrase rituelle identique chaque soir : « La nuit arrive. Tu es en sécurité. Je reste tout près de toi. » Pose en deux temps (fesses puis haut du corps), puis recoucher sur le dos. Main sur le ventre 1-2 min après la pose. Sortir en silence."
     }
   ],
   "reflexologie_du_coucher": {
     "titre": "Séquence réflexologie du soir — 7 minutes",
-    "intro": "Après le pyjama, avant l'histoire. Bébé allongé sur le dos, toi assise face à ses pieds. Voix très basse, mouvements infimes. À 6 mois, les zones réflexo sont encore très réceptives — la pression doit rester celle d'une caresse. Adaptation : si bébé tente de se retourner pendant la séquence, accepter qu'il se mette sur le côté ou le ventre et adapter ton geste à sa position.",
+    "intro": "Après le pyjama, avant l'histoire. Bébé allongé sur le dos, toi assise face à ses pieds. Voix très basse, mouvements infimes. À 6 mois, les zones réflexo restent très réceptives — la pression doit rester celle d'une caresse.",
     "duree_totale": "7 minutes",
     "pression": "0/10 — c'est une caresse, pas un massage",
+    "consentement": "Avant tout, observe les réactions de bébé. Le massage et la réflexologie se font avec son accord : à la moindre crispation, s'il retire son pied ou se détourne, arrête-toi. Et à 6 mois, bébé bouge : s'il tente de se retourner, accepte qu'il se mette sur le côté ou le ventre et adapte ton geste à sa position. C'est un moment de plaisir partagé, jamais une technique à imposer.",
     "etapes": [
       {
         "zone": "Réchauffer les pieds",
@@ -93,32 +102,24 @@
       {
         "zone": "Talon (ancrage et bassin)",
         "duree": "1 minute",
-        "geste": "Pression maintenue immobile au creux de chaque talon, alternance ou ensemble. Pas de mouvement, juste du contact.",
+        "geste": "Pression maintenue immobile au creux de chaque talon, en alternance ou ensemble. Pas de mouvement, juste du contact.",
         "ce_que_cest": "Ancrage corporel — rappelle à bébé la sensation contenante in utero"
       }
     ],
-    "cloture": "Terminer en tenant à nouveau les deux pieds dans tes paumes pendant 30 secondes — fermeture du soin. Murmurer la phrase d'ancrage du soir."
+    "cloture": "Terminer en tenant à nouveau les deux pieds dans tes paumes pendant 30 secondes — fermeture du soin. Murmurer la phrase d'ancrage du soir : « Je reste tout près de toi. »"
   },
   "script_audio_du_soir": {
-    "titre": "« Le monde se repose maintenant »",
+    "titre": "« Tu gardes tout ça en toi »",
     "duree": "~5 minutes",
-    "instruction": "À écouter sur enceinte douce pendant la séquence réflexo et le pyjama, volume bas. Voix grave et lente. Ou à lire à voix haute, posément, en regardant bébé. Les pauses sont des silences réels — pas des indications de ton.",
-    "texte": "Bonsoir, mon tout petit.\n\nLa journée s'achève.\n\nTu as beaucoup vécu aujourd'hui.\n\n[Pause — 5 secondes]\n\nTu as goûté. Tu as touché. Tu as regardé, écouté, senti.\n\nTu as essayé des mouvements nouveaux. Tu t'es peut-être retourné. Tu as peut-être tendu la main vers quelque chose. Tu as peut-être ri.\n\nTout ça, c'était beaucoup.\n\nMaintenant, le monde se repose.\n\n[Pause — 5 secondes]\n\nDehors, les bruits s'éloignent. Les lumières s'éteignent. Les oiseaux se posent.\n\nDans la maison aussi, ça ralentit. Ma voix devient plus basse. Mes gestes deviennent plus lents.\n\nTout se prépare pour la nuit.\n\n[Pause — 5 secondes]\n\nTon corps a beaucoup travaillé aujourd'hui.\n\nIl a digéré des saveurs nouvelles. Il a appris des mouvements nouveaux. Il a poussé peut-être une dent qui veut sortir.\n\nMaintenant, il peut se reposer.\n\n[Pause — 5 secondes]\n\nLa nuit, c'est juste un long câlin doux.\n\nMême quand je ne suis pas dans la pièce, je suis là.\n\nMa voix reste dans ta tête. Mon odeur reste dans ta peau. Mon amour ne s'éteint pas avec la lumière.\n\n[Pause — 10 secondes]\n\nSi tu te réveilles cette nuit, c'est ok.\n\nTon corps apprend. Tes nuits changent. Ça arrive à tous les bébés de 6 mois.\n\nJe serai là. Toujours.\n\n[Pause — 5 secondes]\n\nMaintenant, tu peux te déposer.\n\nTon corps est en sécurité.\n\nTon cœur est en sécurité.\n\nTu es aimé.\n\nDors, mon amour. Dors.\n\nBonne nuit."
+    "instruction": "À écouter sur enceinte douce pendant la séquence réflexo et le pyjama, volume bas. Voix grave et lente. Ou à lire à voix haute, posément, en regardant bébé. Les pauses sont des silences réels — pas des indications de ton. Personnalise si tu veux.",
+    "texte": "[Prénom]...\n\nLa journée s'achève maintenant.\n\nTu as vécu tellement de choses aujourd'hui.\n\n[Pause — 5 secondes]\n\nDe nouveaux goûts sur ta langue. De nouveaux gestes avec ton corps. Peut-être une dent qui pousse, tout doucement.\n\nTu t'es peut-être retourné. Tu as peut-être ri aux éclats. Tu as cherché mon regard — et tu l'as trouvé.\n\nTout ça, c'était grand pour ton petit corps.\n\n[Pause — 5 secondes]\n\nEt tout ça, tu le gardes en toi.\n\nChaque câlin de la journée, chaque rire, chaque fois que je t'ai serré contre moi — ça reste là, à l'intérieur.\n\nComme un trésor doux que personne ne peut t'enlever.\n\n[Pause — 5 secondes]\n\nMaintenant, le monde se repose.\n\nDehors, les bruits s'éloignent. Les lumières s'éteignent.\n\nDans la maison aussi, tout ralentit. Ma voix devient plus basse. Mes gestes deviennent plus lents.\n\n[Pause — 5 secondes]\n\nTout à l'heure, je vais sortir de ta chambre.\n\nMais écoute bien : même quand tu ne me vois plus, je reste tout près.\n\nCe que je t'ai donné aujourd'hui ne s'éteint pas avec la lumière.\n\n[Pause — 10 secondes]\n\nTon corps a beaucoup travaillé. Il peut se reposer.\n\nSi tu te réveilles cette nuit, c'est normal. Tes nuits changent en ce moment. Ça arrive à tous les bébés de ton âge.\n\nJe ne suis pas loin.\n\n[Pause — 5 secondes]\n\nMaintenant, tu peux te déposer, [mon tout petit/ma toute petite].\n\nTu es en sécurité.\n\nTu es au chaud.\n\nTu es [aimé/aimée].\n\nDors, mon amour. Dors.\n\nBonne nuit."
   },
-  "signaux_de_fatigue": [
-    "Regard qui se fige ou décroche, dans le vague",
-    "Frottement des yeux et des oreilles, parfois avec les deux mains",
-    "Bâillements (souvent signe que la sur-fatigue commence)",
-    "Agitation des bras et des jambes, mouvements désordonnés inhabituels",
-    "Tirage de cheveux ou succion intense d'un doudou ou de ses doigts"
-  ],
-  "duree_eveil_max": "2h à 2h30 d'éveil maximum entre deux périodes de sommeil à 6 mois — au-delà, la sur-fatigue libère du cortisol et rend l'endormissement très difficile.",
   "regression_6_mois": {
     "titre": "La régression du sommeil des 6 mois",
-    "explication": "Beaucoup de bébés qui dormaient bien se mettent à se réveiller plusieurs fois la nuit à 6 mois. Ce n'est pas une régression d'attachement — c'est une régression de maturation : nouveaux acquis moteurs (retournements, début du quatre pattes), maturation cognitive (permanence partielle), et parfois démarrage des dents. Cette régression dure entre 2 et 6 semaines selon les enfants.",
+    "explication": "Beaucoup de bébés qui dormaient bien se mettent à se réveiller plusieurs fois la nuit à 6 mois. Ce n'est pas une régression d'attachement — c'est une régression de maturation : nouveaux acquis moteurs (retournements, début du quatre pattes), maturation cognitive (permanence partielle de l'objet), et parfois démarrage des dents. Cette régression dure entre 2 et 6 semaines selon les enfants.",
     "tenir_le_cadre": [
       "Ne pas introduire de nouvelle habitude (lit cododo, biberon nocturne, bercement long) — installerait une dépendance qui restera après la régression",
-      "Garder un environnement nocturne totalement constant : même position, même gigoteuse, même bruit blanc",
+      "Garder un environnement nocturne totalement constant : même position sur le dos, même gigoteuse, même phrase d'ancrage",
       "Intervenir minimalement la nuit : 2-3 min d'attente, main sur le ventre 30 sec, pas de sortie du lit si possible",
       "Maintenir le rituel du soir coûte que coûte — c'est l'ancre qui rassure pendant que tout bouge"
     ]
@@ -128,8 +129,8 @@
     "texte": "À 6 mois, beaucoup de bébés développent une préférence parentale marquée — souvent pour le parent qui les couche habituellement. Pour éviter d'installer une exclusivité qui pèsera lourd plus tard, l'alternance au coucher est plus précieuse que jamais. Le co-parent doit pouvoir endormir bébé seul.",
     "actions": [
       "Le co-parent prend le coucher 3 à 4 soirs sur 7 — pas seulement « quand ça ne dérange pas »",
-      "Le co-parent peut faire la voix du script audio — bébé apprend deux versions du rituel sécurisantes",
-      "Une nuit sur deux minimum, le co-parent se lève pour les réveils nocturnes non liés à la faim",
+      "Le co-parent peut faire la voix du script audio — bébé apprend deux versions du rituel également rassurantes",
+      "Une nuit sur deux minimum, le co-parent se lève pour les réveils non liés à la faim",
       "Si bébé refuse au début, le parent habituel reste hors de vue — la présence visuelle relance la demande"
     ]
   },
@@ -138,5 +139,5 @@
     "Reculer l'heure du coucher en pensant que bébé sera « plus fatigué » — produit l'effet inverse : la sur-fatigue libère du cortisol qui empêche l'endormissement et fragmente le sommeil de la nuit",
     "Changer le rituel chaque soir ou tester plusieurs méthodes pendant la régression des 6 mois — le cerveau de 6 mois a besoin de prévisibilité absolue ; chaque changement allonge la traversée de la phase"
   ],
-  "consulter_si": "Si l'endormissement prend plus d'1h chaque soir pendant plus de 3 semaines, si les réveils nocturnes deviennent multiples (≥ 4) chaque nuit sans amélioration sur 4 à 6 semaines, si tu ressens un épuisement critique avec idées noires (3114, anonyme et gratuit 24/7), ou si bébé semble en souffrance inhabituelle (cris aigus, raidissement, refus alimentaire prolongé, perte de poids) — consulter le pédiatre, la PMI, ou un consultant en sommeil pédiatrique respectueux du rythme physiologique. Pour parent en détresse : Allo Parents Bébé 0 800 00 34 56 (gratuit), MonParcoursPsy (8 séances remboursées sur prescription)."
+  "consulter_si": "Si l'endormissement prend plus d'1h chaque soir pendant plus de 3 semaines, si les réveils nocturnes deviennent multiples (≥ 4) chaque nuit sans amélioration sur 4 à 6 semaines, ou si bébé semble en souffrance inhabituelle (cris aigus, raidissement, refus alimentaire prolongé, perte de poids) — consulter le pédiatre, la PMI, ou un consultant en sommeil pédiatrique respectueux du rythme physiologique. Ce protocole ne remplace pas l'avis de ton pédiatre. Si tu ressens un épuisement critique avec idées noires : 3114 (anonyme et gratuit 24/7). Pour parent en détresse : Allo Parents Bébé 0 800 00 34 56 (gratuit), MonParcoursPsy sur prescription, Maman Blues pour la dépression post-partum tardive."
 }

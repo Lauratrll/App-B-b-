@@ -37,6 +37,8 @@ L'app couvre **24 mois de contenu**, numérotés de **M0 à M23**.
 | 22 | Le Tendre | ⏳ À produire | — |
 | 23 | L'Aventurier | ⏳ À produire | — |
 
+> **Note** : la colonne « Statut » ci-dessus reflète le **mois entier** (6 rubriques). La rubrique **Coucher (02) est complète de M0 à M17** — son suivi détaillé (berceuses, blocs, sélecteur, règles) est consolidé dans la section **§ Rubrique Coucher (02)**.
+
 ---
 
 ## Mois 0 — Le Lové
@@ -437,6 +439,64 @@ Rituel 6 étapes (18h-20h), séquence réflexo 7 min, script audio "Tu es en sé
 
 ---
 
+## Rubrique Coucher (02) — suivi transversal & règles
+
+**Statut : ✅ Complet de M0 à M17** (M12 préexistant, non revu cette session). Reste M18–M23 à produire. M0 encore en ancienne structure (à migrer).
+
+### Suivi par mois (berceuse · angle/bloc · sélecteur)
+
+| Mois | Adjectif | Berceuse | Angle / bloc thématique | Sélecteur |
+|------|----------|----------|--------------------------|-----------|
+| 0 | Le Lové | *(ancienne structure — à migrer)* | nourrisson | — |
+| 1 | L'Éveillé | « Tu peux tout déposer » | nourrisson | — |
+| 2 | Le Communicant | « On se connaît, toi et moi » | nourrisson | — |
+| 3 | L'Attentif | « Le monde se ralentit » | régression 3-4 mois | — |
+| 4 | Le Découvreur | « Ton sommeil grandit » | régression des 4 mois *(bloc)* | — |
+| 5 | Le Joueur | « Tu as bien joué aujourd'hui » | joueur sur-stimulé *(bloc)* | — |
+| 6 | Le Réceptif | « Tu gardes tout ça en toi » | régression 6 mois + préfiguration séparation *(bloc)* | — |
+| 7 | Le Mobile | « Ton corps a tant voyagé » | motricité nocturne *(bloc)* + séparation (amorce départ/retour) | — |
+| 8 | L'Audacieux | « Tu peux toujours revenir vers moi » | poussée angoisse 8 mois : séparation + peur de l'étranger *(bloc)* | — |
+| 9 | Le Curieux | « Au matin, je reviens » | pic angoisse séparation *(bloc)* | — |
+| 10 | Le Grimpeur | « Tu as grimpé si haut » | grimpeur au lit / sécurité matelas *(bloc)* | — |
+| 11 | L'Imitateur | « Tu connais le chemin du soir » | imitation au coucher *(bloc)* | — |
+| 12 | Le Marcheur | *(préexistant)* | — | 2 axes |
+| 13 | L'Affirmé | « Tu deviens toi » | opposition / choix dans un cadre ferme *(bloc)* | 2 axes |
+| 14 | L'Explorateur | « Le monde peut attendre demain » | ramener au calme *(bloc)* — **MIGRÉ** | 2 axes |
+| 15 | Le Bavard | « Ta petite voix peut se reposer » | mettre des mots avant de dormir *(bloc)* | 2 axes |
+| 16 | L'Indépendant | « Tu fais déjà tant de choses » | le besoin de faire seul *(bloc)* | 4 axes |
+| 17 | Le Sensible | « Toutes tes émotions ont une place » | accueillir les grandes émotions du soir *(bloc)* | 4 axes |
+
+### Règles éditoriales coucher (verrouillées cette session)
+
+- **Ordre de fin de rituel (nourrisson M0–M5)** : massage + réflexo (bébé au chaud) → **pyjama + gigoteuse** → **dernière prise de lait** → pose. On habille **avant** le lait pour pouvoir coucher bébé endormi sans le rhabiller. _(Bande diversification M6+ : la prise de lait fait partie du repas du soir, en début de rituel.)_
+- **Ne jamais évoquer le « peau à peau » au coucher.** Les parents le pratiquent s'ils le souhaitent ; le contenu ne le mentionne ni ne le prescrit.
+- **« prise de lait »** (jamais « tétée » ni « en tétant » → « en buvant »). **micro-réveils** (jamais « micro-éveils »).
+- **Berceuse** : ouvre sur `[Prénom]` ; refrain de clôture commun (« Tu es en sécurité. Tu es au chaud. Tu es [aimé/aimée]… Bonne nuit. ») ; formes genrées masculin d'abord `[forme_m/forme_f]` ; texte honnête (pas de « long câlin »). **Rendu** : champ `instruction` **non affiché** (logique d'usage) ; `texte` **en noir `#3A3228`** (cf. `CONSIGNES_CLAUDE_CODE_coucher.md` §7).
+- **Réflexo** : champ `consentement` obligatoire (observer bébé, s'arrêter à la crispation, accepter ses positions).
+- **Progression angoisse de séparation** : M6 préfiguration → M7 amorce (départ/retour) → M8 montée + peur de l'étranger → **M9 pic (bloc dédié)** → M10/M11 apaisement, **tissé sans bloc répété** (règle anti-redondance : motif central espacé de 2-3 mois).
+- **M12+** : pas de `co_parent` ; `consulter_si` en **ligne sobre** (sans encadré d'alerte), avec « ce protocole ne remplace pas l'avis de ton pédiatre ».
+
+### Sélecteur de variantes (`variantes_developpementales`)
+
+- **Dès M12** : 2 axes — **Motricité · Langage**.
+- **Dès M16** : 4 axes — **Motricité · Langage · Émotions · Autonomie** (dans cet ordre).
+- Chaque axe pilote 3 zones avec **clés identiques** (`motricite` / `langage` / `emotions` / `autonomie`) : étape 1 `rituel_etapes[0].focus_theme:true`, `reflexologie_du_coucher.focus_par_theme[axe]`, et berceuse `passage_par_theme[axe]` injecté via le placeholder `[passage_theme]`.
+- **Focus réflexo par axe** : Motricité → bord interne + talon ; Langage → face interne du gros orteil (zone gorge) ; Émotions → centre de la voûte (plexus solaire) ; Autonomie → gros orteil + talon (ancrage).
+
+### Corrections appliquées cette session
+
+- **M0–M3** : retrait du « peau à peau » ; « tétée » → « prise de lait » ; « en tétant » → « en buvant » ; berceuses « long câlin » corrigées ; **M1/M2 ordre inversé** (pyjama avant le lait) ; **M3** « micro-éveils » → « micro-réveils ».
+- **M9** : mise en conformité (sous_titre standard « Crée ton rituel adapté », « tétée » → « prise de lait », ajout `consentement`, berceuse personnalisée/genrée, « long câlin » corrigé).
+- **M14** : migré de l'ancienne structure allégée vers le gabarit bambin (sélecteur 2 axes). L'ancien fichier est remplacé.
+
+### À faire (coucher)
+
+- Produire **M18–M23** (bande bambin, sélecteur 4 axes).
+- **Migrer M0** (encore en ancienne structure : `principes_fondamentaux`, `script_audio`, berceuse non personnalisée).
+- Vérifier que **M12** (préexistant) est bien aligné sur le gabarit à variantes 2 axes.
+
+---
+
 ## Conventions transverses validées
 
 ### ⚠️ RÈGLE D'UNICITÉ ABSOLUE — Tout contenu produit est unique
@@ -761,3 +821,9 @@ Chaque mois interpolé se positionne entre deux jalons déjà produits.
 - ⭐ **Validé (26/05/2026)** : **ajout d'un champ `registre`** dans la structure JSON du challenge couple (dans le bloc `challenge_du_mois`). Valeurs possibles : 1 (écoute), 2 (vision), 3 (romantique), 4 (décalé), 5 (action/rituel). Permet de filtrer ou de visualiser les challenges par registre côté Code. **M0 et M1 = registre 1, M2 = registre 2** (mis à jour le 26/05/2026).
 
 - 🔄 **À aligner ultérieurement** : les 4 fichiers `03_prendre_soin_de_moi.json` encore en ancienne méthode (M3, M6, M9, M14) restent en l'état pour l'instant. Ils seront refondus avec la nouvelle méthode dans un second temps, en respectant la convention sémantique `nom_outil` / `promesse`. Note : la « lettre au soi d'avant » de M3 sera probablement déplacée vers M6 (« Accueillir la nouvelle personne que tu es devenue ») où elle s'aligne parfaitement au thème.
+
+- ⭐ **Validé (session coucher)** : **règle d'ordre de fin de rituel (nourrisson M0–M5)** — pyjama + gigoteuse **avant** la dernière prise de lait, pour pouvoir coucher bébé endormi sans le rhabiller. **Le « peau à peau » n'est jamais évoqué** au coucher (les parents le pratiquent s'ils veulent). Règle inscrite dans `SKILL_rubriques.md` §4.2. M0–M3 corrigés (M1/M2 ordre inversé). Voir § Rubrique Coucher (02).
+- ⭐ **Validé (session coucher)** : **rendu berceuse** — le champ `instruction` n'est **plus affiché** (logique d'usage) et le `texte` s'affiche **en noir `#3A3228`** (et non dans la couleur d'accent du bloc). Titre « Berceuse » + teaser conservés. Inscrit dans `CONSIGNES_CLAUDE_CODE_coucher.md` §7.
+- ⭐ **Validé (session coucher)** : **sélecteur `variantes_developpementales`** — **2 axes (Motricité · Langage) dès M12**, puis **4 axes (Motricité · Langage · Émotions · Autonomie) dès M16**. Chaque axe pilote l'étape 1 du rituel (`focus_theme`), le `focus_par_theme` réflexo et le `passage_par_theme` berceuse, avec clés identiques. Voir § Rubrique Coucher (02).
+- ✅ **Produit (session coucher)** : coucher **M4, M5, M6, M7, M8, M10, M11, M13, M15, M16, M17** créés, **M14 migré**, **M0–M3 et M9 corrigés/mis en conformité**. La rubrique Coucher est complète de M0 à M17.
+- 🔄 **À aligner ultérieurement (coucher)** : migrer **M0** (encore en ancienne structure) ; vérifier **M12** (préexistant) sur le gabarit à variantes ; produire **M18–M23**.
