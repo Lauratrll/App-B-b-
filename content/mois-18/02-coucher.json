@@ -1,0 +1,203 @@
+{
+  "mois": 18,
+  "tranche_age": "18 mois",
+  "rubrique": "preparer_le_coucher",
+  "titre_rubrique": "Préparer le coucher",
+  "sous_titre": "Crée ton rituel adapté",
+  "description": "À 18 mois, ton enfant entre dans l'âge de la négociation : il assemble ses premiers mots, affirme ses « non », veut décider. Cette belle poussée d'autonomie s'invite aussi au coucher, où chaque étape peut devenir matière à discussion. Une régression du sommeil est fréquente autour de 18 mois — elle mêle poussée du langage, montée des canines, angoisse de séparation et besoin d'affirmation. La clé n'est pas de gagner le bras de fer, mais de tenir un cadre stable et chaleureux : un rituel identique, des choix réels mais cadrés (quel pyjama, quel livre), et une phrase de clôture qui ne change jamais. À cet âge, une sieste unique l'après-midi.",
+  "reperes_cles": [
+    "Coucher entre 19h et 20h, à heure régulière — un cadre horaire stable rassure plus que sa souplesse",
+    "Fenêtre d'éveil d'environ 5 à 6h — après la sieste unique de l'après-midi",
+    "Rituel identique chaque soir, à ± 15 min près — proposer les choix en amont évite la négociation au coucher"
+  ],
+  "signaux_de_fatigue": [
+    "Bâillements répétés, frottement des yeux et des oreilles",
+    "Regard fixe, dans le vague, perte d'intérêt pour ses activités",
+    "Excitation paradoxale : court, grimpe, rit nerveusement au lieu de ralentir",
+    "Multiplication des « non » et des oppositions — la fatigue, pas le caprice",
+    "Accrochage : réclame les bras, le doudou, le contact"
+  ],
+  "duree_eveil_max": "Environ 5 à 6h d'éveil maximum après la sieste à 18 mois — au-delà, la sur-fatigue libère du cortisol et complique l'endormissement. La sieste unique de l'après-midi est bien installée.",
+  "variantes_developpementales": {
+    "intro": "Chaque enfant avance à son rythme, et à cet âge les écarts sont grands. En observant [prénom], repère le domaine qui l'occupe le plus en ce moment — ce vers quoi son élan va spontanément. Choisis cet axe : le premier temps du rituel, la réflexologie et la berceuse s'adapteront pour valider et accompagner ce mouvement, exactement là où [prénom] en est déjà. Il ne s'agit pas de pousser vers une nouvelle compétence, mais de soutenir celle qui se déploie déjà.",
+    "question_selecteur": "Où en est [prénom] en ce moment ?",
+    "themes": [
+      {
+        "id": "motricite",
+        "titre": "Motricité",
+        "sous_titre": "[Il marche, court, grimpe sans arrêt/Elle marche, court, grimpe sans arrêt]",
+        "etape_rituel": {
+          "titre": "Décharger le corps avant la nuit",
+          "horaire": "en début de soirée · 10 min",
+          "duree": "10 min",
+          "description": "Avant de baisser l'ambiance, un dernier moment de mouvement libre et encadré : marcher d'un meuble à l'autre, un petit parcours doux au sol. Pas de jeu excitant ni de chatouilles — laisser le corps dépenser ses dernières réserves pour qu'il accepte ensuite de se poser. Puis on ralentit franchement."
+        }
+      },
+      {
+        "id": "langage",
+        "titre": "Langage",
+        "sous_titre": "[Il assemble des mots, fait de petites phrases/Elle assemble des mots, fait de petites phrases]",
+        "etape_rituel": {
+          "titre": "Mettre des mots sur la journée",
+          "horaire": "en début de soirée · 10 min",
+          "duree": "10 min",
+          "description": "Avant de baisser l'ambiance, un moment calme pour raconter la journée : « Ce matin tu as vu le chien, tu as mangé des pâtes, tu as dit au revoir. » Nommer ce qui s'est passé aide son cerveau à ranger la journée et à s'apaiser. Laisse-le répéter, montrer un imagier, finir tes phrases."
+        }
+      },
+      {
+        "id": "emotions",
+        "titre": "Émotions",
+        "sous_titre": "[Il vit de grandes émotions, dit non, négocie/Elle vit de grandes émotions, dit non, négocie]",
+        "etape_rituel": {
+          "titre": "Accueillir les tensions de la journée",
+          "horaire": "en début de soirée · 10 min",
+          "duree": "10 min",
+          "description": "Un temps calme dans tes bras pour accueillir ce qui a pesé : « Tu étais très fâché tout à l'heure quand il a fallu ranger. C'est passé. Je suis là. » Nommer sans raviver, juste accueillir et laisser retomber. Pose une main sur son cœur et respire lentement avec lui — ton calme devient le sien."
+        }
+      },
+      {
+        "id": "autonomie",
+        "titre": "Autonomie",
+        "sous_titre": "[Il veut tout décider et faire seul/Elle veut tout décider et faire seul]",
+        "etape_rituel": {
+          "titre": "Lui laisser de vrais choix dans le rituel",
+          "horaire": "en début de soirée · 10 min",
+          "duree": "10 min",
+          "description": "Propose à [prénom] deux ou trois choix réels mais cadrés : quel pyjama, quel livre, quel doudou pour la nuit. Décider de petites choses apaise son besoin d'autonomie et désamorce l'opposition. L'ordre et l'heure, eux, ne se négocient pas : c'est toi qui tiens le cadre, lui qui choisit à l'intérieur."
+        }
+      }
+    ]
+  },
+  "rituel_etapes": [
+    {
+      "etape": 1,
+      "focus_theme": true,
+      "titre": "Décharger le corps avant la nuit",
+      "horaire": "en début de soirée · 10 min",
+      "duree": "10 min",
+      "description": "Premier temps adapté à [prénom] (modifiable avec le sélecteur ci-dessus). Par défaut — Motricité : un dernier moment de mouvement encadré pour dépenser les dernières réserves. Pour un enfant en plein « moi tout seul », bascule sur l'axe Autonomie ; s'il négocie beaucoup le soir, l'axe Émotions aide à accueillir la tension."
+    },
+    {
+      "etape": 2,
+      "titre": "Baisser l'ambiance et clore la journée d'éveil",
+      "horaire": "18h - 19h",
+      "duree": "30-60 min",
+      "description": "Éteindre les plafonniers, allumer des lampes basses. Couper musique vive et jeux sonores. Couper tous les écrans (téléphone, télé, tablette) : la lumière bleue supprime la mélatonine jusqu'à 90 min après extinction. Proposer le rangement d'un jouet ou deux comme une responsabilité simple — l'enfant aime se sentir acteur du soir."
+    },
+    {
+      "etape": 3,
+      "titre": "Bain ou toilette (pas tous les soirs)",
+      "horaire": "19h - 19h15",
+      "duree": "10-15 min",
+      "description": "Bain court (5-7 min), eau à 37°C vérifiée au thermomètre. Salle de bain chauffée à l'avance, tapis antidérapant, surveillance constante. Lumière tamisée, voix grave et lente. Laisse-le « se laver » une partie du corps lui-même avant de finir le geste : il participe, tu restes garant.e de la propreté et de la sécurité."
+    },
+    {
+      "etape": 4,
+      "titre": "Pyjama, massage doux et séquence réflexologie",
+      "horaire": "19h15 - 19h30",
+      "duree": "10-15 min",
+      "description": "Pyjama adapté à la température de la chambre — laisse-le choisir entre deux modèles, tenter d'enfiler une manche. Sur un tapis au sol. Mains chaudes, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans. Mouvements lents, pression 0/10. S'il refuse le massage, ne pas forcer. Enchaîne avec la séquence réflexologie du soir (7 min) ci-dessous."
+    },
+    {
+      "etape": 5,
+      "titre": "Histoire et câlin",
+      "horaire": "19h30 - 19h45",
+      "duree": "10-15 min",
+      "description": "Une seule histoire, lue lentement, dans tes bras. Laisse-le choisir le livre, tourner les pages, « lire » à sa façon, finir les phrases qu'il connaît. La même histoire pendant 2-3 semaines renforce l'ancrage. Voix posée, rythme lent."
+    },
+    {
+      "etape": 6,
+      "titre": "Lait du soir et brossage des dents",
+      "horaire": "19h45 - 19h55",
+      "duree": "10 min",
+      "description": "Le lait infantile reste recommandé jusqu'à 3 ans : il garde toute sa place. À partir de cet âge, il peut être pris au dessert du repas du soir, ou comme dernier temps du rituel, tout contre toi (sein ou biberon). Dans tous les cas, il précède le brossage des dents : mieux vaut ne pas laisser le lait sur les dents pour la nuit. Ensuite, un brossage tout doux, puis le coucher."
+    },
+    {
+      "etape": 7,
+      "titre": "Phrase de clôture et coucher",
+      "horaire": "19h55 - 20h",
+      "duree": "5 min",
+      "description": "Chambre à 18-20°C, complètement obscure ou veilleuse très douce. Lit sécurisé et dégagé, gigoteuse ou turbulette, doudou autorisé. Laisse-le grimper seul dans le lit s'il sait le faire. Phrase rituelle identique chaque soir : « La nuit arrive. Tu es en sécurité. Tu peux lâcher prise, je veille. » Pas de renégociation ni de « rab » : la même phrase ferme la journée. Doudou à côté, sortir doucement."
+    }
+  ],
+  "reflexologie_du_coucher": {
+    "titre": "Séquence réflexologie du soir — 7 minutes",
+    "intro": "Pendant le massage, l'enfant allongé sur le dos, toi face à ses pieds. Voix très basse, mouvements infimes. À 18 mois, il veut souvent « faire seul » : laisse-le toucher ses pieds, puis reprends doucement. Ce contact lent apaise un enfant en pleine affirmation. Pression d'une caresse.",
+    "duree_totale": "7 minutes",
+    "pression": "0/10 — c'est une caresse, pas un massage",
+    "consentement": "Avant tout, observe les réactions de l'enfant. Le massage et la réflexologie se font avec son accord : à la moindre crispation, s'il retire son pied ou se détourne, arrête-toi. À cet âge, il peut vouloir tout mener : propose, n'impose pas. C'est un moment de plaisir partagé.",
+    "etapes": [
+      {
+        "zone": "Réchauffer les pieds",
+        "duree": "1 minute",
+        "geste": "Envelopper les deux pieds de l'enfant dans tes paumes, immobile. Synchroniser ton souffle au sien.",
+        "ce_que_cest": "Préparation et présence — le contact avant tout geste"
+      },
+      {
+        "zone": "Gros orteil (cerveau / système nerveux)",
+        "duree": "1 minute par pied",
+        "geste": "Cercles très lents dans le sens horaire sur le coussinet du gros orteil.",
+        "ce_que_cest": "Apaisement du système nerveux central"
+      },
+      {
+        "zone": "Voûte haute (diaphragme et respiration)",
+        "duree": "1 minute",
+        "geste": "Effleurement large sous la base des orteils, sur les deux pieds.",
+        "ce_que_cest": "Détend la respiration et le diaphragme — facilite l'endormissement"
+      },
+      {
+        "zone": "Centre de la voûte (plexus solaire)",
+        "duree": "1 minute",
+        "geste": "Cercles infimes au centre de la voûte plantaire, sens horaire, très lents.",
+        "ce_que_cest": "Décharge le trop-plein émotionnel de la journée"
+      },
+      {
+        "zone": "Bord interne du pied (colonne vertébrale)",
+        "duree": "1 minute par pied",
+        "geste": "Glissé doux du talon vers le gros orteil, le long du bord interne.",
+        "ce_que_cest": "Libère les tensions axiales liées à la marche et au mouvement"
+      },
+      {
+        "zone": "Talon (ancrage et bassin)",
+        "duree": "1 minute",
+        "geste": "Pression maintenue immobile au creux de chaque talon. Pas de mouvement, juste du contact.",
+        "ce_que_cest": "Ancrage corporel — ramène le calme et la sécurité"
+      }
+    ],
+    "focus_par_theme": {
+      "motricite": "Insiste sur le bord interne du pied et le talon : pression maintenue et immobile, plus longue, pour ramener le calme dans un corps qui a beaucoup bougé.",
+      "langage": "Ajoute la face interne du gros orteil (zone gorge / expression) : cercles infimes, 1 min par pied, pour apaiser un enfant très occupé à parler.",
+      "emotions": "Insiste sur le centre de la voûte (plexus solaire) : cercles infimes très lents, 1 min de plus — c'est la zone qui décharge le trop-plein émotionnel.",
+      "autonomie": "Commence par le gros orteil puis termine longuement sur le talon (ancrage) : un enfant qui veut tout maîtriser a besoin d'un cadre stable sous ses pieds pour lâcher prise."
+    },
+    "cloture": "Terminer en tenant à nouveau les deux pieds dans tes paumes pendant 30 secondes — fermeture du soin. Murmurer : « Tu peux te reposer. Je suis là. »"
+  },
+  "script_audio_du_soir": {
+    "titre": "« Tu sais te faire comprendre »",
+    "duree": "~5 minutes",
+    "instruction": "Voix grave et lente, volume bas, dans la pénombre.",
+    "texte": "[Prénom]...\n\nLa journée se termine maintenant.\n\nTu sais de mieux en mieux te faire comprendre.\n\nAujourd'hui, tu as montré, tu as nommé, tu as dit « non », tu as dit « encore ». Tu commences à me dire ce que tu veux, et ça change tout entre nous.\n\nQuel grand pas tu fais là.\n\n[passage_theme]\n\nEt même quand tu dis non, même quand tu te fâches, mon amour ne bouge pas. Il est là, tranquille, toute la journée et toute la nuit.\n\nMais cette nuit, tu n'as plus rien à demander, plus rien à négocier. Tu peux poser tous tes mots et te laisser porter par le sommeil.\n\nTous les câlins de la journée, tu les gardes en toi. Ils te tiennent chaud, même dans le noir.\n\nJe suis là. La maison est calme. Ton doudou est avec toi.\n\nSi tu te réveilles, je ne suis pas loin.\n\nMaintenant, tu peux te déposer, [mon tout petit/ma toute petite].\n\nTu es en sécurité.\n\nTu es au chaud.\n\nTu es [aimé/aimée].\n\nDors, mon amour. Dors.\n\nBonne nuit.",
+    "passage_par_theme": {
+      "motricite": "Tes jambes ont tant couru, tant grimpé aujourd'hui. Maintenant, tout ton petit corps peut s'arrêter et se poser.",
+      "langage": "Tu as dit tant de mots aujourd'hui, tant de choses essayées. Ta voix peut se reposer ; tes mots seront encore là demain.",
+      "emotions": "Toutes tes émotions d'aujourd'hui — l'envie, la colère, la joie — ont eu leur place. Elles peuvent se reposer en toi, maintenant, bien au chaud.",
+      "autonomie": "Tu as voulu choisir, décider, faire par toi-même, et c'est merveilleux. Cette nuit, tu n'as rien à décider — juste à te laisser porter. Je m'occupe du reste."
+    }
+  },
+  "negocier_le_coucher": {
+    "titre": "Quand le coucher devient une négociation",
+    "explication": "À 18 mois, dire « non » et négocier n'est pas de la provocation : c'est ainsi que ton enfant teste qu'il existe comme personne distincte. Au coucher, ce besoin se heurte au cadre, et chaque étape peut devenir un marchandage. Répondre point par point ou multiplier les explications nourrit le bras de fer. Le plus apaisant est un cadre clair et constant, dans lequel l'enfant garde de vrais petits choix : il se sent acteur sans pouvoir tout faire dérailler.",
+    "tenir_le_cadre": [
+      "Donner les choix en amont, pas au moment du conflit : « Tu mets le pyjama bleu ou le vert ? » avant le coucher, pas pour le retarder",
+      "Garder l'ordre et l'heure non négociables : la négociation porte sur le « comment », jamais sur le « si » ni le « quand »",
+      "Une phrase de clôture identique chaque soir, courte, sans rallonge : elle signale que la journée est finie",
+      "Accueillir la frustration sans céder : « Tu voudrais encore jouer, je comprends. Et c'est l'heure de dormir. »"
+    ]
+  },
+  "erreurs_a_eviter": [
+    "Les écrans (télévision, tablette, téléphone) dans l'heure qui précède le coucher — la lumière bleue inhibe la sécrétion de mélatonine et retarde l'endormissement de 30 à 90 minutes ; concerne aussi les écrans visibles en arrière-plan",
+    "Entrer dans la négociation au moment du coucher — répondre à chaque « encore » et multiplier les explications nourrit le bras de fer ; mieux vaut proposer les choix en amont et garder une phrase rituelle inchangée",
+    "Reculer l'heure du coucher en pensant que l'enfant sera « plus fatigué » — la sur-fatigue libère du cortisol qui empêche l'endormissement et fragmente la nuit"
+  ],
+  "consulter_si": "Consulter si le sommeil reste très perturbé sur la durée (endormissement long chaque soir au-delà de 3 semaines, réveils nocturnes multiples sans amélioration, ou opposition au coucher qui s'installe durablement malgré un cadre stable), en cas de douleur, de gêne respiratoire ou de ronflements nocturnes réguliers, ou si tu te sens débordé.e sur la durée — pédiatre, PMI ou consultant en sommeil respectueux du rythme physiologique. Ce protocole ne remplace pas l'avis de ton pédiatre."
+}

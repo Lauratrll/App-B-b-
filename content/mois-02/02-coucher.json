@@ -48,10 +48,10 @@
     },
     {
       "etape": 5,
-      "titre": "Dernière prise de lait",
+      "titre": "Dernière prise de lait, en peau à peau",
       "horaire": "Quand bébé a faim",
       "duree": "15-25 min",
-      "description": "Avant de lui donner le sein ou le biberon, enfile-lui son pyjama et sa gigoteuse : ainsi, s'il s'endort en buvant, tu pourras le coucher sans le réveiller pour le rhabiller. Le moment le plus tendre du soir. Pénombre, lumière orange si possible, aucun écran. Murmure ou chante ta berceuse pendant qu'il prend son lait. S'il s'endort, laisse-le finir ; sinon, rot à la fin et quelques minutes à la verticale avant la pose."
+      "description": "Le moment le plus tendre du soir. Pénombre, lumière orange si possible, aucun écran. Le peau à peau vous relie encore. Murmure ou chante ta berceuse pendant qu'il prend son lait. Rot à la fin, quelques minutes à la verticale, puis enfile-lui pyjama et gigoteuse : prêt pour la nuit."
     },
     {
       "etape": 6,
@@ -66,6 +66,7 @@
     "intro": "Juste après le massage, bébé encore au chaud, sur le dos, les pieds découverts, face à toi. À 2 mois, il accroche ton regard : tu peux alterner les caresses des pieds et un contact visuel doux. Pression d'une plume.",
     "duree_totale": "7 minutes",
     "pression": "0/10 — c'est une caresse, pas un massage",
+    "consentement": "Avant tout, observe les réactions de bébé. Le massage et la réflexologie se font avec son accord : à la moindre crispation, si bébé retire son pied ou se détourne, arrête-toi. C'est un moment de plaisir partagé, jamais une technique à imposer.",
     "etapes": [
       {
         "zone": "Envelopper et accorder les souffles",
@@ -109,21 +110,33 @@
     "titre": "Berceuse-rituel « On se connaît, toi et moi »",
     "duree": "~4 minutes",
     "instruction": "À lire ou à chanter à voix grave et lente, volume très bas, dans la pénombre, pendant la dernière prise de lait ou juste après — tu peux aussi en reprendre les premières phrases pendant le massage. À 2 mois, bébé reconnaît ta voix et ton visage : profite-en pour le regarder en la disant. Personnalise si tu veux.",
-    "texte": "[prénom]...\n\nTu commences à me reconnaître.\n\nQuand j'arrive, ton regard me cherche. Parfois, tu me souris.\n\nEt moi, je te reconnais entre [tous/toutes].\n\nTa façon de respirer. Tes petits bruits. Ton odeur.\n\n[Pause — 5 secondes]\n\nOn apprend à se connaître, toi et moi.\n\nChaque jour un peu plus.\n\nTu sais maintenant que quand tu appelles, je viens.\n\nQue quand tu as peur, je suis là.\n\n[Pause — 5 secondes]\n\nCe soir encore, je suis là.\n\nTu peux fermer les yeux sans rien craindre.\n\nMon visage sera là à ton réveil.\n\n[Pause — 5 secondes]\n\nSens mon souffle qui ralentit. Laisse le tien le suivre.\n\nTes mains se détendent. Tes paupières se ferment.\n\nTout ton petit corps sait qu'il peut se reposer.\n\n[Pause — 5 secondes]\n\nTu vas dormir dans ton lit, tout près de moi.\n\nJe veille. Je reste là.\n\nTu es en sécurité. Tu es au chaud. Tu es [aimé/aimée].\n\nÀ demain, mon amour. Dors bien.\n\nBonne nuit."
+    "texte": "[prénom]...\n\nTu commences à me reconnaître.\n\nQuand j'arrive, ton regard me cherche. Parfois, tu me souris.\n\nEt moi, je te reconnais entre [tous/toutes].\n\nTa façon de respirer. Tes petits bruits. Ton odeur.\n\nOn apprend à se connaître, toi et moi.\n\nChaque jour un peu plus.\n\nTu sais maintenant que quand tu appelles, je viens.\n\nQue quand tu as peur, je suis là.\n\nCe soir encore, je suis là.\n\nTu peux fermer les yeux sans rien craindre.\n\nMon visage sera là à ton réveil.\n\nSens mon souffle qui ralentit. Laisse le tien le suivre.\n\nTes mains se détendent. Tes paupières se ferment.\n\nTout ton petit corps sait qu'il peut se reposer.\n\nTu vas dormir dans ton lit, tout près de moi.\n\nJe veille. Je reste là.\n\nTu es en sécurité. Tu es au chaud. Tu es [aimé/aimée].\n\nÀ demain, mon amour. Dors bien.\n\nBonne nuit."
   },
   "co_parent": {
     "titre": "Deux voix, deux façons de rassurer",
     "texte": "Maintenant que bébé sourit et reconnaît les visages, l'autre parent peut tisser un lien bien à lui au coucher. Bébé apprend que plusieurs personnes savent le rassurer — c'est précieux et sécurisant. L'autre parent peut tout à fait dire ou chanter la berceuse à sa manière : bébé reconnaîtra le rituel, même avec une voix différente.",
     "actions": [
-      "Laisse l'autre parent mener le rituel en entier certains soirs, à sa façon, sans repasser derrière.",
+      "Laisse l'autre parent mener le rituel en entier certains soirs : à sa façon, sans repasser derrière.",
       "L'autre parent peut s'approprier la berceuse du mois : bébé en garde l'ancrage, peu importe la voix.",
-      "Si tu élèves bébé seule, un proche régulier — même une fois par semaine — offre à bébé cette deuxième figure rassurante."
+      "Si tu élèves bébé seule : un proche régulier, même une fois par semaine, offre à bébé cette deuxième figure rassurante."
+    ]
+  },
+  "cadre_de_securite": {
+    "titre": "Cadre de sécurité — prévenir la mort inattendue du nourrisson",
+    "intro": "Entre 2 et 4 mois se situe la période où le risque de mort inattendue du nourrisson est le plus élevé : c'est donc maintenant que ce cadre compte le plus. Bébé est plus éveillé, mais il ne sait pas encore se retourner — ces règles restent valables à chaque sommeil.",
+    "regles": [
+      "Sur le dos, à chaque sommeil — jamais sur le ventre ni sur le côté, la nuit comme pour les siestes. C'est la mesure qui réduit le plus le risque.",
+      "Un lit nu et ferme — matelas ferme aux dimensions exactes du lit, sans couette, oreiller, couverture, tour de lit ni peluche. Une gigoteuse à sa taille remplace toute couverture.",
+      "Dans ta chambre, mais dans son lit — bébé dort dans la même pièce que toi jusqu'à 6 mois, dans son propre couchage. Partager ton lit, et plus encore t'endormir avec lui sur un canapé ou un fauteuil, augmente le risque.",
+      "Une chambre à 18-20°C — sans surchauffe et sans trop couvrir bébé, la tête toujours dégagée. Un peu frais vaut mieux que trop chaud.",
+      "Un air sans tabac — aucune cigarette dans le logement ni près de bébé ; l'exposition au tabac, avant comme après la naissance, est un facteur de risque majeur.",
+      "Tétine et allaitement, des alliés — proposer la tétine au moment de l'endormissement et allaiter sont des facteurs protecteurs, sans jamais forcer la tétine si bébé n'en veut pas."
     ]
   },
   "erreurs_a_eviter": [
     "Les écrans et la lumière vive le soir — la mélatonine se met tout juste en place, et la lumière forte la freine. Pénombre dès le début du rituel.",
     "Changer le rituel tous les soirs ou multiplier les méthodes — à cet âge, c'est la répétition qui prépare le rythme. Garde la même trame, même imparfaite.",
-    "Coucher bébé sur le ventre ou avec couette, oreiller ou tour de lit — risque de mort inattendue du nourrisson. Sur le dos, en gigoteuse, matelas ferme et dégagé."
+    "Coucher bébé sur le ventre, le couvrir (couette, oreiller, tour de lit) ou partager ton lit pour dormir — ce sont les écueils du sommeil sécurisé. Les règles complètes sont dans le Cadre de sécurité ci-dessus."
   ],
   "consulter_si": "Si les pleurs restent inconsolables des heures chaque jour bien après 8 semaines, si bébé refuse de boire, mouille moins de couches, a une fièvre (≥ 38°C en rectal avant 3 mois = urgence), devient mou ou difficile à réveiller, ou s'il ne sourit ni n'accroche le regard du tout — parles-en à ta sage-femme ou ton médecin, et appelle le 15 en cas d'urgence. Pour toi : si l'épuisement ou les idées noires s'installent, 3114, Allo Parents Bébé (0 800 00 34 56), ou MonParcoursPsy."
 }

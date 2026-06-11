@@ -1,154 +1,142 @@
 {
   "mois": 0,
   "tranche_age": "0-4 semaines",
-  "rubrique": "coucher",
+  "rubrique": "preparer_le_coucher",
   "titre_rubrique": "Préparer le coucher",
-  "sous_titre": "Rituel du soir",
-  "description": "À 0-4 semaines, bébé n'a pas encore de rythme jour/nuit. Tu ne lui imposes pas un coucher — tu poses les premières graines d'un rituel apaisant que son cerveau reconnaîtra progressivement.",
-  "ancrage": "Le coucher au mois 0 n'est pas un horaire — c'est une ambiance. Tu ne couches pas bébé à 20h ; tu prépares son système nerveux à un sommeil plus long entre 19h et 22h.",
-  "principes_fondamentaux": [
-    {
-      "titre": "Le rythme circadien n'existe pas encore",
-      "texte": "Avant 6 semaines, le cerveau de bébé ne distingue pas jour et nuit. Inutile de \"forcer\" un horaire — tu poses les indices (lumière, son, voix) que la maturation neurologique utilisera vers 6-12 semaines."
-    },
-    {
-      "titre": "L'enchaînement compte plus que l'heure",
-      "texte": "Bébé n'a pas la notion du temps. Mais il enregistre les séquences : tel geste suit tel autre. C'est cet enchaînement qui crée la sécurité — pas l'heure de la pendule."
-    },
-    {
-      "titre": "Le rituel commence 90 min avant la pose",
-      "texte": "On ne couche pas un nouveau-né sur-stimulé. La descente d'intensité démarre tôt — généralement après la fenêtre de pleurs du soir, vers 20h-21h."
-    }
+  "sous_titre": "Pose les premiers repères du soir",
+  "description": "À la naissance, bébé n'a pas encore de rythme jour/nuit : la mélatonine, l'hormone du sommeil, ne se met en place que vers 6 à 12 semaines. Tu ne lui imposes donc pas un horaire de coucher — tu poses une ambiance, une suite de gestes douce et régulière que son cerveau apprendra peu à peu à reconnaître. Les soirées peuvent déjà être agitées : la fenêtre de pleurs du soir s'installe souvent en fin de premier mois. Ton rituel reste une trame souple, toujours dans le même ordre.",
+  "reperes_cles": [
+    "Aucun rythme jour/nuit pour l'instant : avant 6 semaines, le cerveau de bébé ne distingue pas le jour de la nuit. Tu ne poses pas une heure, tu déposes des repères — lumière, son, voix — qu'il utilisera plus tard.",
+    "C'est l'enchaînement qui compte, pas la pendule : bébé n'a pas la notion du temps, mais il enregistre les séquences, tel geste après tel autre. La régularité, même imparfaite, crée la sécurité.",
+    "Les prises de lait de nuit sont normales et nécessaires : toutes les 2 à 4 heures, on ne cherche pas à les espacer. On les garde « ennuyeuses » — pénombre, peu de mots — et on recouche bébé sur le dos, encore éveillé, une main posée un instant sur son ventre."
+  ],
+  "signaux_de_fatigue": [
+    "Bébé frotte son visage contre toi ou contre le matelas",
+    "Regard fixe, perdu dans le vide",
+    "Bâillements, paupières lourdes",
+    "Mouvements saccadés des bras et des jambes",
+    "Pleurnichements qui montent après plus de 45 minutes d'éveil"
   ],
   "rituel_etapes": [
     {
-      "ordre": 1,
-      "moment": "17h30 – 18h00",
-      "titre": "Baisser l'intensité de la maison",
-      "objectif": "Préparer le système nerveux à la décharge du soir",
-      "actions": [
-        "Tamise les lumières — éteins le plafond, allume les lampes de chevet",
-        "Coupe la télévision et baisse les sons (musique douce ou silence)",
-        "Refuse les visites après 17h pendant les premières semaines",
-        "Réduis la circulation des personnes dans la pièce où bébé est",
-        "Si tu as d'autres enfants : sors-les du salon de bébé"
-      ]
+      "etape": 1,
+      "titre": "Baisser la lumière et le bruit",
+      "horaire": "En début de soirée",
+      "duree": "~30 min",
+      "description": "C'est l'heure où la maison descend en intensité. Éteins le plafonnier, passe aux lampes de chevet, coupe la télévision et la musique rythmée. Baisse la voix, ralentis tes gestes. Limite les passages dans la pièce de bébé et, pendant les premières semaines, évite les visites en fin de journée. Ce sont les tout premiers indices que bébé apprend à associer au soir."
     },
     {
-      "ordre": 2,
-      "moment": "18h00 – 19h00",
+      "etape": 2,
       "titre": "Traverser la fenêtre des pleurs",
-      "objectif": "Accompagner la décharge sensorielle du soir sans lutter",
-      "actions": [
-        "Bébé en portage physiologique (écharpe ou porte-bébé)",
-        "Bercement vertical lent et constant",
-        "Bruit blanc continu en fond sonore",
-        "Si crise : sortie 10 min dehors souvent salvatrice",
-        "Tu manges et bois TOI avant 17h30 — tu seras prise après"
-      ]
+      "horaire": "Au pic de la soirée",
+      "duree": "variable",
+      "description": "En fin de premier mois, les pleurs du soir peuvent monter fort. Ce n'est pas contre toi : bébé décharge le trop-plein de sa journée, et tes bras sont son refuge. Porte-le contre toi, en écharpe ou porte-bébé physiologique, berce-le verticalement, marche un peu. Un léger bruit blanc, à faible volume et à distance, peut aider. Si la crise s'installe, change d'air : quelques minutes dehors apaisent souvent. Pense à manger et boire avant ce pic — et si la tension monte en toi aussi, passe le relais, ce n'est pas un échec."
     },
     {
-      "ordre": 3,
-      "moment": "19h00 – 19h30",
-      "titre": "Le bain (optionnel, pas tous les soirs)",
-      "objectif": "Marquer la transition par une expérience sensorielle apaisante",
-      "actions": [
-        "Eau à 37°C — vérifier au thermomètre, pas au coude",
-        "Bain court : 5 minutes maximum pour un nouveau-né",
-        "Pièce chaude (24-25°C) — l'humidité refroidit vite",
-        "Lumière tamisée dans la salle de bain",
-        "Parler très doucement, voix grave et lente",
-        "ATTENTION : avant chute du cordon, pas d'immersion — toilette à la lavette"
-      ],
-      "note": "Le bain peut exciter certains bébés au lieu de les apaiser. Observe TON bébé sur 1 semaine et adapte. Pas obligatoire tous les soirs."
+      "etape": 3,
+      "titre": "Toilette ou bain, selon le cordon",
+      "horaire": "Ensuite",
+      "duree": "5 min",
+      "description": "Tant que le cordon n'est pas tombé et cicatrisé, pas d'immersion : une toilette à la lavette suffit, dans une pièce bien chauffée. Une fois le cordon cicatrisé, le bain devient possible — court (5 minutes), eau à 37°C au thermomètre, salle de bain réchauffée à l'avance, lumière tamisée et voix lente. Le bain n'apaise pas tous les bébés : si le tien s'excite, garde-le pour le matin."
     },
     {
-      "ordre": 4,
-      "moment": "19h30 – 19h45",
-      "titre": "Le massage doux",
-      "objectif": "Co-régulation par le toucher avant la dernière prise de lait",
-      "actions": [
-        "Pièce à 22-24°C, table à langer ou ton lit avec serviette",
-        "Tes mains chaudes — frotte-les avant de toucher bébé",
-        "Huile végétale neutre (amande douce, calendula) — quelques gouttes",
-        "Mouvements lents, pression 0/10",
-        "Parle ou chante doucement pendant le massage",
-        "5 minutes maximum — bébé fatigue vite"
-      ],
-      "sequence_massage": [
-        "Pieds : effleure du talon vers les orteils, 30 sec chaque pied",
-        "Jambes : caresse des cuisses vers les pieds, 30 sec",
-        "Ventre : cercles horaires très doux autour du nombril, 1 min",
-        "Bras : caresse des épaules vers les mains, 30 sec",
-        "Mains : ouvre doucement chaque doigt, 30 sec",
-        "Visage : effleurement du front et des joues, 30 sec",
-        "Si bébé proteste à un endroit, sauter — ne jamais insister"
-      ]
+      "etape": 4,
+      "titre": "Massage doux",
+      "horaire": "Juste après",
+      "duree": "5 min",
+      "description": "Quelques minutes de tes mains valent tous les mots. Serviette préchauffée, une seule partie du corps découverte à la fois, le reste couvert. Mains réchauffées, une noisette d'huile végétale neutre (amande douce, calendula), gestes lents, pression 0/10. Chantonne ta berceuse pendant que tu le masses. 5 minutes suffisent — bébé fatigue vite à cet âge. Enchaîne la réflexologie tant qu'il est au chaud."
     },
     {
-      "ordre": 5,
-      "moment": "19h45 – 20h30",
-      "titre": "La dernière prise de lait du soir",
-      "objectif": "Calmer la faim et déclencher l'endormissement par satiété",
-      "actions": [
-        "Lumière très tamisée — orange si possible",
-        "Aucune télévision, aucun téléphone en fond",
-        "Position confortable pour toi — tu ne dois pas avoir mal au dos",
-        "Bébé bien installé contre toi",
-        "Si bébé s'endort en buvant : laisse-le finir tranquillement",
-        "Rot à la fin, position verticale 5 min"
-      ]
+      "etape": 5,
+      "titre": "Dernière prise de lait, en peau à peau",
+      "horaire": "Quand bébé a faim",
+      "duree": "15-30 min",
+      "description": "Le dernier câlin de la journée. Pénombre, lumière orange si possible, aucun écran. Installe-toi confortablement, le dos soutenu. Le peau à peau le réchauffe et vous relie. Murmure-lui ta berceuse pendant qu'il prend son lait, au sein ou au biberon. S'il s'endort en buvant, laisse-le finir, fais-lui faire son rot, garde-le quelques minutes à la verticale. Puis enfile-lui pyjama et gigoteuse."
     },
     {
-      "ordre": 6,
-      "moment": "20h30",
-      "titre": "La pose dans le lit",
-      "objectif": "Transférer en préservant le sommeil",
-      "actions": [
-        "Chambre à 18-20°C, complètement obscure",
-        "Bruit blanc continu allumé AVANT la pose",
-        "Matelas ferme, sans couette, sans coussin, sans tour de lit (recommandations bébé secouée et MIN)",
-        "Préchauffer la zone du matelas avec un linge tiède 5 min avant",
-        "Vérifier le sommeil profond : bras lourd qui retombe sans réflexe",
-        "Poser en deux temps : fesses d'abord, puis tête",
-        "Garde la main sur son ventre 2 minutes après la pose",
-        "Quitter la pièce en silence — ne pas allumer pour vérifier"
-      ]
+      "etape": 6,
+      "titre": "Phrase d'ancrage et pose dans le lit",
+      "horaire": "La pose",
+      "duree": "5 min",
+      "description": "Le passage des bras au lit, tout en douceur. Chambre dans le noir, autour de 18-20°C. Dis ta phrase rituelle, toujours la même : « C'est l'heure de se reposer. Je suis là, tout près. » Bébé sur le dos, matelas ferme et dégagé (ni couette, ni oreiller, ni tour de lit). Pose-le en deux temps (fesses puis haut du corps), avec une légère inclinaison sur le côté pour amortir le réflexe de Moro, encore très présent, puis recouche-le sur le dos. Coupe le bruit blanc éventuel une fois endormi (20 à 30 min). Garde une main sur son ventre un instant, puis sors en silence. La nuit, pour les réveils : reste dans la pénombre, peu de mots, ne change la couche que si elle est sale, et recouche toujours sur le dos."
     }
   ],
-  "script_audio": {
-    "titre": "Berceuse-rituel du soir",
-    "duree_minutes": 5,
-    "description": "Un script audio que tu peux écouter avec bébé pendant le rituel — voix grave, lente, apaisante. Diffuse sur enceinte douce, volume bas.",
-    "texte": "Bonsoir mon tout petit.\n\nLa journée s'achève. Tu as beaucoup vécu aujourd'hui — beaucoup de lumière, beaucoup de sons, beaucoup de bras. C'était grand pour toi.\n\nMaintenant, le monde se ralentit.\n\nLa lumière baisse. Les bruits s'éloignent. Mon souffle se pose près du tien.\n\nTu es en sécurité. Tu es au chaud. Tu es aimé.\n\nJe pose mes mains sur tes pieds. Tu sens la chaleur ? Cette chaleur, c'est moi qui suis là.\n\nJe ne pars pas. Je suis là.\n\nDoucement, doucement, ton petit corps se détend. Tes bras se font lourds. Tes paupières aussi.\n\nLa nuit va arriver. Tu vas dormir tout près de moi, dans ton lit. Je veille sur toi.\n\nTu n'as rien à faire. Tu n'as rien à comprendre. Tu as juste à être là, et à respirer.\n\nÉcoute mon souffle. Inspire... expire... Inspire... expire...\n\nC'est doux. C'est lent. C'est bon.\n\nTu fais un travail immense, mon tout petit. Grandir. Apprendre à respirer dehors. Apprendre à boire. Apprendre à dormir.\n\nTu fais tout ça très bien.\n\nMaintenant, repose-toi.\n\nJe suis là. Toute la nuit, je suis là.\n\nBonne nuit, mon amour. Bonne nuit.",
-    "ton": "voix grave, débit très lent (90 mots/min), volume bas, sourire dans la voix",
-    "musique_fond": "aucune ou nappe sonore très discrète, fréquence basse"
-  },
-  "erreurs_a_eviter": [
-    "Vouloir imposer un horaire fixe à un bébé de moins de 6 semaines — son cerveau ne le peut pas",
-    "Bain quotidien systématique — peut déshydrater et exciter certains bébés",
-    "Mettre une veilleuse forte — perturbe la mélatonine, préférer pénombre stricte",
-    "Bercer 30 min pour endormir au berceau dès le début — épuise et ne marche pas avant 8 semaines",
-    "Parler fort ou faire des allers-retours dans la chambre — réveille",
-    "Couvrir bébé avec couette/coussin/tour de lit — risque MIN (mort inattendue du nourrisson)"
-  ],
-  "co_parent": {
-    "titre": "La place du co-parent au coucher",
-    "texte": "Idéalement, le rituel du soir alterne entre les deux parents dès J15. Bébé doit s'habituer à plusieurs personnes qui le couchent — c'est protecteur (toi tu peux te reposer) et structurant (il associe le sommeil à plusieurs figures sécurisantes).",
-    "actions": [
-      "Le co-parent prend en charge le bain 3 soirs sur 7",
-      "Le co-parent peut faire le massage et raconter sa version du script",
-      "Si allaitement : co-parent gère le rituel jusqu'à la dernière prise de lait",
-      "Une nuit sur deux, c'est le co-parent qui se lève pour les réveils non liés à la faim"
+  "reflexologie_du_coucher": {
+    "titre": "Séquence réflexologie du soir — 6 minutes",
+    "intro": "Juste après le massage, bébé encore au chaud, sur le dos, les pieds découverts, toi assise face à lui. À la naissance, ses zones réflexo sont extrêmement réceptives : la pression doit rester celle d'une plume. C'est moins une technique qu'un prolongement du peau à peau. Si bébé proteste sur une zone, passe à la suivante.",
+    "duree_totale": "6 minutes",
+    "pression": "0/10 — c'est une caresse, pas un massage",
+    "consentement": "Avant tout, observe les réactions de bébé. Le massage et la réflexologie se font avec son accord : à la moindre crispation, s'il retire son pied ou se détourne, arrête-toi. C'est un moment de plaisir partagé, jamais une technique à imposer.",
+    "etapes": [
+      {
+        "zone": "Envelopper les deux pieds",
+        "duree": "1 minute",
+        "geste": "Tes paumes immobiles autour des deux pieds. Allonge ton expiration pour que bébé cale son souffle sur le tien.",
+        "ce_que_cest": "Contenance et co-régulation par le souffle — le prolongement direct du peau à peau."
+      },
+      {
+        "zone": "Pulpe des orteils (éveil sensoriel)",
+        "duree": "30 secondes par pied",
+        "geste": "Effleurage très lent de la pulpe des orteils, du bout vers la base.",
+        "ce_que_cest": "Apaise un système nerveux encore tout neuf, vite débordé par le dehors."
+      },
+      {
+        "zone": "Sous les orteils (souffle)",
+        "duree": "1 minute",
+        "geste": "Effleurement large sous la base des orteils, sur les deux pieds.",
+        "ce_que_cest": "Accompagne une respiration encore irrégulière, souvent saccadée le soir."
+      },
+      {
+        "zone": "Centre de la voûte (plexus solaire)",
+        "duree": "1 minute",
+        "geste": "Un doigt, cercles infimes au centre de la voûte, sens horaire, très lents.",
+        "ce_que_cest": "Apaise les tensions du ventre, fréquentes les toutes premières semaines."
+      },
+      {
+        "zone": "Cheville et talon (ancrage)",
+        "duree": "30 secondes par pied",
+        "geste": "Contact immobile autour de la cheville et au creux du talon, sans appuyer.",
+        "ce_que_cest": "Sentiment d'être contenu, posé, en sécurité."
+      },
+      {
+        "zone": "Clore en tenant",
+        "duree": "1 minute",
+        "geste": "Reprends les deux pieds dans tes mains et murmure ta phrase du soir.",
+        "ce_que_cest": "Signal de fin — tout contre moi, la journée se referme."
+      }
     ]
   },
-  "signaux_de_fatigue_a_reperer": [
-    "Bébé frotte ses yeux ou son visage",
-    "Regard fixe dans le vide",
-    "Bâillements",
-    "Mouvements saccadés des bras et jambes",
-    "Pleurs sans raison apparente après une période d'éveil > 60 min",
-    "Cherche le sein ou le doigt sans vraie faim"
+  "script_audio_du_soir": {
+    "titre": "Berceuse-rituel « Tout contre moi »",
+    "duree": "~4 minutes",
+    "instruction": "À lire ou à chanter à voix grave et lente, volume très bas, dans la pénombre, pendant la dernière prise de lait ou juste après — tu peux aussi en reprendre les premières phrases pendant le massage. Bébé ne comprend pas encore les mots, mais il perçoit pleinement le rythme et la douceur de ta voix. Personnalise si tu veux.",
+    "texte": "[prénom]...\n\nIl n'y a pas si longtemps, tu étais tout au chaud, tout au creux de moi.\n\nLe dehors est grand pour toi. La lumière, les bruits, l'air sur ta peau — tout arrive d'un coup.\n\nAlors ce soir, je te garde tout contre moi.\n\nTu entends mon cœur ? Il bat comme avant, le même son que tu connais déjà.\n\nMa peau contre la tienne, c'est ta maison qui continue.\n\nTu n'as rien à faire de plus que d'être là, [blotti/blottie] tout près.\n\nMon souffle te berce. Il monte, il descend, tout doucement.\n\nTes petits poings peuvent s'ouvrir. Ton dos peut se relâcher.\n\nJe te tiens, je te contiens. Tu es en sécurité dans mes bras.\n\nBientôt je te poserai dans ton lit, tout près de moi, et je veillerai.\n\nMême un peu plus loin, je reste là. Je ne pars pas.\n\nTu es en sécurité. Tu es au chaud. Tu es [aimé/aimée].\n\nRepose-toi tout contre ce soir, [mon tout petit/ma toute petite]. Et dors.\n\nBonne nuit."
+  },
+  "co_parent": {
+    "titre": "La place du co-parent dès les premiers jours",
+    "texte": "Dès les premières semaines, faire alterner le rituel du soir entre les deux parents est protecteur — toi, tu peux souffler — et structurant pour bébé, qui associe le sommeil à plusieurs figures sécurisantes. Inutile de tout partager d'emblée : commencez par un geste, régulièrement.",
+    "actions": [
+      "Un soir sur deux — le co-parent mène la toilette (ou le bain) et le massage, à sa façon.",
+      "Si tu allaites — le co-parent prend tout le rituel jusqu'à la dernière prise de lait, puis te passe le relais.",
+      "Les réveils sans faim — une nuit sur deux, c'est le co-parent qui se lève pour recoucher bébé."
+    ]
+  },
+  "cadre_de_securite": {
+    "titre": "Cadre de sécurité — prévenir la mort inattendue du nourrisson",
+    "intro": "À la naissance, le réflexe de Moro est à son maximum et bébé ne contrôle encore ni sa tête ni ses mouvements : ces règles de couchage sont la base, à chaque sommeil, sieste comprise. Si tu emmaillotes bébé pour le rassurer, laisse toujours les hanches libres, jamais sur le ventre, et arrête dès les premiers signes de retournement.",
+    "regles": [
+      "Sur le dos, à chaque sommeil — jamais sur le ventre ni sur le côté, la nuit comme pour les siestes. C'est la mesure qui réduit le plus le risque.",
+      "Un lit nu et ferme — matelas ferme aux dimensions exactes du lit, sans couette, oreiller, couverture, tour de lit ni peluche. Une gigoteuse à sa taille remplace toute couverture.",
+      "Dans ta chambre, mais dans son lit — bébé dort dans la même pièce que toi jusqu'à 6 mois, dans son propre couchage. Partager ton lit, et plus encore t'endormir avec lui sur un canapé ou un fauteuil, augmente le risque.",
+      "Une chambre à 18-20°C — sans surchauffe et sans trop couvrir bébé, la tête toujours dégagée. Un peu frais vaut mieux que trop chaud.",
+      "Un air sans tabac — aucune cigarette dans le logement ni près de bébé ; l'exposition au tabac, avant comme après la naissance, est un facteur de risque majeur.",
+      "Tétine et allaitement, des alliés — proposer la tétine au moment de l'endormissement et allaiter sont des facteurs protecteurs, sans jamais forcer la tétine si bébé n'en veut pas."
+    ]
+  },
+  "erreurs_a_eviter": [
+    "Vouloir imposer un horaire fixe avant 6 semaines — le cerveau de bébé n'en est pas encore capable. Tu poses des repères, pas une heure sur la pendule.",
+    "Donner un bain tous les soirs par principe — c'est inutile à cet âge et le bain excite certains bébés au lieu de les apaiser. Observe le tien, et garde-le pour le matin si besoin.",
+    "Coucher bébé sur le ventre, le couvrir (couette, oreiller, tour de lit) ou partager ton lit pour dormir — ce sont les écueils du sommeil sécurisé. Les règles complètes sont dans le Cadre de sécurité ci-dessus."
   ],
-  "duree_eveil_moyenne_max": "45 à 60 minutes d'éveil entre 2 siestes au mois 0 — au-delà, bébé est probablement en sur-fatigue"
+  "consulter_si": "Avant 3 mois, une fièvre (≥ 38°C en rectal) est une urgence : appelle le 15. Consulte aussi sans attendre si bébé refuse de boire, mouille beaucoup moins de couches, devient mou, très pâle ou difficile à réveiller, ou si les pleurs restent inconsolables des heures durant. Ce rituel ne remplace pas l'avis de ton pédiatre. Pour toi : si l'épuisement t'envahit ou que des idées noires apparaissent, tu comptes aussi — 3114, Allo Parents Bébé (0 800 00 34 56), ou MonParcoursPsy."
 }

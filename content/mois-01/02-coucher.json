@@ -48,10 +48,10 @@
     },
     {
       "etape": 5,
-      "titre": "Dernière prise de lait",
+      "titre": "Dernière prise de lait, en peau à peau",
       "horaire": "Quand bébé a faim",
       "duree": "15-30 min",
-      "description": "Avant de lui donner le sein ou le biberon, enfile-lui son pyjama et sa gigoteuse : ainsi, s'il s'endort en buvant, tu pourras le coucher sans le réveiller pour le rhabiller. Le dernier câlin de la journée. Pénombre, lumière orange si possible, aucun écran. Murmure-lui ta berceuse pendant qu'il prend son lait. S'il s'endort, laisse-le finir ; sinon, fais-lui faire son rot et garde-le quelques minutes à la verticale avant la pose."
+      "description": "Le dernier câlin de la journée. Pénombre, lumière orange si possible, aucun écran. Le peau à peau le réchauffe et vous relie. Murmure-lui ta berceuse pendant qu'il prend son lait. S'il s'endort en buvant, laisse-le finir, fais-lui faire son rot, garde-le quelques minutes à la verticale. Puis enfile-lui pyjama et gigoteuse."
     },
     {
       "etape": 6,
@@ -66,6 +66,7 @@
     "intro": "Juste après le massage, bébé encore au chaud, sur le dos, les pieds découverts, toi assise face à lui. À 1 mois, ses zones réflexo sont très réceptives : la pression doit rester celle d'une plume. Si bébé proteste sur une zone, passe à la suivante.",
     "duree_totale": "6 minutes",
     "pression": "0/10 — c'est une caresse, pas un massage",
+    "consentement": "Avant tout, observe les réactions de bébé. Le massage et la réflexologie se font avec son accord : à la moindre crispation, si bébé retire son pied ou se détourne, arrête-toi. C'est un moment de plaisir partagé, jamais une technique à imposer.",
     "etapes": [
       {
         "zone": "Envelopper les pieds et respirer",
@@ -109,21 +110,33 @@
     "titre": "Berceuse-rituel « Tu peux tout déposer »",
     "duree": "~4 minutes",
     "instruction": "À lire ou à chanter à voix grave et lente, volume très bas, dans la pénombre, pendant la dernière prise de lait ou juste après — tu peux aussi en reprendre les premières phrases pendant le massage. Bébé ne comprend pas encore les mots, mais il perçoit pleinement le rythme et la douceur de ta voix. Personnalise si tu veux.",
-    "texte": "[prénom]...\n\nAujourd'hui, tu as tout reçu en même temps.\n\nLa lumière, les voix, les odeurs, le froid, le chaud, la faim, les bras.\n\nPour toi, tout est encore nouveau. Tout arrive très fort.\n\nC'est beaucoup. Je le sais.\n\n[Pause — 5 secondes]\n\nAlors maintenant, tu peux tout déposer.\n\nPose la lumière. Pose les bruits. Pose ce qui a été trop fort.\n\nTu n'as plus rien à porter ce soir.\n\n[Pause — 5 secondes]\n\nCe qui était lourd, je le tiens pour toi.\n\nMon corps est calme. Mon souffle est lent.\n\nSens comme tout ralentit autour de toi.\n\n[Pause — 5 secondes]\n\nTes poings peuvent s'ouvrir. Ton ventre peut se relâcher.\n\nIl n'y a plus rien à faire. Plus rien à attendre.\n\nJuste mon souffle, et le tien.\n\n[Pause — 5 secondes]\n\nTu vas te reposer dans ton lit, tout près de moi.\n\nJe ne suis jamais loin. Je veille sur ton sommeil.\n\nTu es en sécurité. Tu es au chaud. Tu es [aimé/aimée].\n\nDépose tout, [mon tout petit/ma toute petite]. Et dors.\n\nBonne nuit."
+    "texte": "[prénom]...\n\nAujourd'hui, tu as tout reçu en même temps.\n\nLa lumière, les voix, les odeurs, le froid, le chaud, la faim, les bras.\n\nPour toi, tout est encore nouveau. Tout arrive très fort.\n\nC'est beaucoup. Je le sais.\n\nAlors maintenant, tu peux tout déposer.\n\nPose la lumière. Pose les bruits. Pose ce qui a été trop fort.\n\nTu n'as plus rien à porter ce soir.\n\nCe qui était lourd, je le tiens pour toi.\n\nMon corps est calme. Mon souffle est lent.\n\nSens comme tout ralentit autour de toi.\n\nTes poings peuvent s'ouvrir. Ton ventre peut se relâcher.\n\nIl n'y a plus rien à faire. Plus rien à attendre.\n\nJuste mon souffle, et le tien.\n\nTu vas te reposer dans ton lit, tout près de moi.\n\nJe ne suis jamais loin. Je veille sur ton sommeil.\n\nTu es en sécurité. Tu es au chaud. Tu es [aimé/aimée].\n\nDépose tout, [mon tout petit/ma toute petite]. Et dors.\n\nBonne nuit."
   },
   "co_parent": {
     "titre": "Se relayer pendant la fenêtre des pleurs",
     "texte": "Le pic des pleurs du soir, vers 6 semaines, est éprouvant pour bébé comme pour celui qui le porte. C'est justement le moment où se relayer change tout : quand la tension monte en toi, passer bébé à l'autre parent (ou à un proche de confiance) n'est pas un échec, c'est une protection — pour toi comme pour lui. Un parent reposé apaise mieux qu'un parent à bout.",
     "actions": [
       "Convenez d'un signal à l'avance : quand l'un sature, l'autre prend le relais sans discuter.",
-      "Alternez qui porte bébé pendant la fenêtre des pleurs, par tranches de 15 à 20 minutes.",
+      "Alternez qui porte bébé pendant la fenêtre des pleurs : par tranches de 15 à 20 minutes.",
       "Si tu es seule, prévois un plan B pour les soirs difficiles : un proche joignable, une marche dehors, une vraie pause posée."
+    ]
+  },
+  "cadre_de_securite": {
+    "titre": "Cadre de sécurité — prévenir la mort inattendue du nourrisson",
+    "intro": "À 1 mois, le réflexe de Moro est encore très présent et les pleurs du soir peuvent culminer : ces règles de couchage ne se négocient pas, à chaque sommeil, sieste comprise. Si tu emmaillotes bébé pour le rassurer, laisse toujours les hanches libres, jamais sur le ventre, et arrête dès les premiers signes de retournement.",
+    "regles": [
+      "Sur le dos, à chaque sommeil — jamais sur le ventre ni sur le côté, la nuit comme pour les siestes. C'est la mesure qui réduit le plus le risque.",
+      "Un lit nu et ferme — matelas ferme aux dimensions exactes du lit, sans couette, oreiller, couverture, tour de lit ni peluche. Une gigoteuse à sa taille remplace toute couverture.",
+      "Dans ta chambre, mais dans son lit — bébé dort dans la même pièce que toi jusqu'à 6 mois, dans son propre couchage. Partager ton lit, et plus encore t'endormir avec lui sur un canapé ou un fauteuil, augmente le risque.",
+      "Une chambre à 18-20°C — sans surchauffe et sans trop couvrir bébé, la tête toujours dégagée. Un peu frais vaut mieux que trop chaud.",
+      "Un air sans tabac — aucune cigarette dans le logement ni près de bébé ; l'exposition au tabac, avant comme après la naissance, est un facteur de risque majeur.",
+      "Tétine et allaitement, des alliés — proposer la tétine au moment de l'endormissement et allaiter sont des facteurs protecteurs, sans jamais forcer la tétine si bébé n'en veut pas."
     ]
   },
   "erreurs_a_eviter": [
     "Les écrans et la lumière vive le soir (télévision, téléphone, plafonnier) — la lumière freine la mise en place du rythme jour/nuit, justement en train de s'amorcer. Pénombre dès la tombée du jour.",
     "Surstimuler bébé en fin de journée pour qu'il « se fatigue » (jeux excitants, chatouilles, visites animées) — un nouveau-né sur-stimulé s'endort moins bien, pas mieux. La fin de journée se descend en intensité.",
-    "Couvrir bébé (couette, oreiller, tour de lit) ou le coucher sur le ventre — risque de mort inattendue du nourrisson. Sur le dos, en gigoteuse, matelas ferme et dégagé."
+    "Coucher bébé sur le ventre, le couvrir (couette, oreiller, tour de lit) ou partager ton lit pour dormir — ce sont les écueils du sommeil sécurisé. Les règles complètes sont dans le Cadre de sécurité ci-dessus."
   ],
   "consulter_si": "Si les pleurs sont inconsolables plusieurs heures chaque jour et ne cèdent à rien, si bébé refuse de boire, mouille moins de couches, a une fièvre (≥ 38°C en rectal avant 3 mois = urgence), devient mou ou difficile à réveiller — appelle le 15, ta sage-femme ou ton médecin. Si l'épuisement t'envahit ou que des idées noires apparaissent, tu comptes aussi : 3114, Allo Parents Bébé (0 800 00 34 56), ou MonParcoursPsy."
 }

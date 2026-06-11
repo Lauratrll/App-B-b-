@@ -17,10 +17,11 @@ _(Rubrique mensuelle. Fichier source : `mois_NN_-_02_coucher.json`.)_
 6. **Réflexologie du soir** — `reflexologie_du_coucher` (déroulant, fermé par défaut)
 7. **Berceuse-rituel** — `script_audio_du_soir` (déroulant, fermé par défaut)
 8. _(si présent)_ **La place du co-parent** — `co_parent`
-9. **Erreurs à éviter** — `erreurs_a_eviter`
-10. _(si présent)_ **Consulter si** — `consulter_si` (ligne sobre, PAS d'encadré rouge d'alerte)
+9. _(si présent)_ **Cadre de sécurité** — `cadre_de_securite` (cadre fermé, amorce en gras · voir §9)
+10. **Erreurs à éviter** — `erreurs_a_eviter`
+11. _(si présent)_ **Consulter si** — `consulter_si` (ligne sobre, PAS d'encadré rouge d'alerte)
 
-> Blocs **optionnels selon le mois** : `variantes_developpementales` (à partir de M12), `co_parent`, `consulter_si`. Afficher un bloc uniquement si la clé existe dans le JSON. Aux mois où ils manquent (ex. M12 n'a ni `co_parent`), ne rien afficher à la place.
+> Blocs **optionnels selon le mois** : `variantes_developpementales` (à partir de M12), `co_parent`, `cadre_de_securite` (présent M0–M3, le couchage sécurisé reste valable tant que bébé ne se retourne pas seul), `consulter_si`. Afficher un bloc uniquement si la clé existe dans le JSON. Aux mois où ils manquent (ex. M12 n'a ni `co_parent`), ne rien afficher à la place.
 
 ---
 
@@ -96,7 +97,10 @@ Carte unique, **fond vert réflexologie `#DCE9CF`**, bord `1px #B8CDA8`, radius 
 | Réflexologie | `#DCE9CF` | `#82A56A` | `#3F5C2E` |
 | Berceuse | `#F8E0D8` | `#E0A48E` | `#8A4030` |
 | Co-parent | `#D4E0DC` | `#8A9E98` | `#384E48` |
+| **Cadre de sécurité** | `#E8EEEC` | **complète `1px solid #8FA8A2`** | `#34504A` |
 | Erreurs à éviter | `#E4DDD6` | `#B4A89C` | `#5A4A40` + croix ✕ `#D4604A` |
+
+- **Cadre de sécurité** = cadre **fermé** (bordure complète, `borderRadius: 11`), pas une bordure-gauche : il se lit comme un « contenant » non négociable. Ton **calme et protecteur, jamais alarmiste** (pas de rouge — c'est un repère rassurant, pas une alerte). Picto au trait (bouclier ou berceau, stroke `#5E7A70`) + titre, puis `intro` (12px), puis la liste `regles[]` (puces, **amorce en gras** — voir §9). Reste fidèle au reste de la page : pas de croix, pas de signal d'urgence.
 
 - « Ce qui se passe » reprend la couleur **« Pour toi, parent »** du protocole (`#F8E0D8`), **uniquement dans le Coucher**. Ne pas l'appliquer au protocole (où « Ce qui se passe » reste `#E8F0F2`).
 - « Ce qui se passe » et « Berceuse » partagent volontairement la même pêche (ouverture / clôture en miroir chaud).
@@ -119,6 +123,7 @@ Carte unique, **fond vert réflexologie `#DCE9CF`**, bord `1px #B8CDA8`, radius 
 | Réflexologie | **empreinte de pied** | `#82A56A` |
 | Berceuse | note de musique ♪ | `#E0A48E` |
 | Co-parent | deux silhouettes | `#8A9E98` |
+| Cadre de sécurité | bouclier (ou berceau) | `#5E7A70` |
 
 Tous au même style trait fin. **Pas d'emoji.** Tracés SVG exacts dans `apercu_coucher_M12_variante.html`.
 
@@ -129,9 +134,7 @@ Tous au même style trait fin. **Pas d'emoji.** Tracés SVG exacts dans `apercu_
 - **Police : Nunito italique** (`Nunito:ital`). Pas de serif.
 - **Paragraphes, pas de boîte interne.** Découper `texte` sur les lignes vides (`\n\n`) ; chaque strophe = un paragraphe (`font-size:12.5px; line-height:1.3; margin-bottom:6px`), directement dans le cadre déroulant (comme les zones de la réflexo).
 - **Pas de marqueur de pause** : une ligne vide marque le temps.
-- **Titre « Berceuse » + teaser conservés** tels quels (« Quelques mots à murmurer pour refermer la journée. »).
-- **Ne pas afficher le champ `instruction`** : c'est une consigne d'usage (logique), inutile à l'écran. Afficher directement le `texte`, sans figure de tempo. _(Le champ peut rester dans le JSON comme métadonnée d'auteur ; il n'est simplement jamais rendu.)_
-- **Couleur du `texte` de la berceuse : noir.** Le texte (qui commence par `[Prénom]`) s'affiche en **noir** — `#3A3228` (noir chaud du design system, recommandé pour la cohérence) — et **non** dans la couleur d'accent pêche du bloc (`#8A4030`). _(NB : valeur « 2222 » indiquée par la fondatrice ; basculer sur `#222222` si elle préfère un noir plus franc.)_
+- Afficher `instruction` (italique) en tête, puis le texte. **Pas de figure de tempo.**
 - Placeholders : `[prénom]` ; genre `[masculin/féminin]` → forme selon le genre (**masculin en premier**). Jamais d'écriture inclusive.
 - **Passage variable (M12+)** : `[passage_theme]` dans `texte` est remplacé par `passage_par_theme[thème actif]`, **rendu en couleur `#8A4030`** (couleur du titre Berceuse) — **PAS en gras**, pour rester léger.
 
@@ -148,7 +151,7 @@ En tête du module réflexo (avant les zones), afficher le champ **`consentement
 ## 9. Typographie transverse
 
 - **Sous-titre de page** (`sous_titre`) : **gris Eucalyptus `#8A9E98`**, 9px, uppercase, centré. **Jamais** la couleur d'un bloc.
-- **Amorce en gras** : sur **Repères clés** (`reperes_cles[]`) et **Co-parent** (`co_parent.actions[]`). Aucune balise `**` dans le JSON : le composant coupe sur le **premier `:` ou `—`** et met l'amorce en **700**. **NE PAS** appliquer aux Signaux de fatigue.
+- **Amorce en gras** : sur **Repères clés** (`reperes_cles[]`), **Co-parent** (`co_parent.actions[]`) et **Cadre de sécurité** (`cadre_de_securite.regles[]`). Aucune balise `**` dans le JSON : le composant coupe sur le **premier `:` ou `—`** et met l'amorce en **700**. **NE PAS** appliquer aux Signaux de fatigue.
 - **Espace insécable** (U+00A0) avant `: ; ! ?` et dans les guillemets `« … »` (déjà dans les JSON, ne pas le retirer).
 - H1 + titres de catégorie : Playfair Display.
 
@@ -173,8 +176,9 @@ function LigneAvecAmorce({ texte }: { texte: string }) {
 - [ ] « Ce qui se passe » en pêche `#F8E0D8` (Coucher seulement).
 - [ ] Bleu uniquement sur le Rituel.
 - [ ] Note de consentement en tête du module réflexo.
-- [ ] Berceuse en Nunito italique, paragraphes directs, sans pause, **sans le champ `instruction` affiché**, **texte en noir `#3A3228`**.
-- [ ] Amorce en gras sur Repères + Co-parent (jamais Signaux).
+- [ ] Berceuse en Nunito italique, paragraphes directs, sans pause.
+- [ ] Amorce en gras sur Repères + Co-parent + Cadre de sécurité (jamais Signaux).
+- [ ] Cadre de sécurité (M0–M3) : cadre fermé `1px solid #8FA8A2`, ton calme (pas de rouge), picto bouclier, affiché seulement si présent.
 - [ ] Sous-titre gris `#8A9E98`.
 - [ ] Pictos au trait conformes (pied pour réflexo, note pour berceuse). Pas d'emoji.
 - [ ] Blocs optionnels (variantes, co-parent, consulter_si) affichés seulement si présents dans le JSON.

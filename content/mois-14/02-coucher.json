@@ -3,49 +3,13 @@
   "tranche_age": "14 mois",
   "rubrique": "preparer_le_coucher",
   "titre_rubrique": "Préparer le coucher",
-  "sous_titre": "Crée ton rituel adapté",
-  "description": "À 14 mois, l'explorateur ne s'arrête jamais : il ouvre tout, grimpe partout, veut toucher, vider, remplir, recommencer. Ce moteur d'exploration est formidable le jour, mais il ne s'éteint pas tout seul le soir — un enfant lancé arrive au coucher encore en mouvement, le regard à l'affût de la prochaine découverte. Le rôle du rituel est de lui signaler clairement, étape après étape, que l'exploration s'arrête et que le corps peut se poser. La plupart des enfants sont passés à une seule sieste à cet âge. Le rituel reste l'ancre : ce que tu remplis dans la journée (câlins, rires, jeux) remplit son réservoir émotionnel, et sa constance — pas sa richesse — le rassure.",
+  "sous_titre": "Rituel & réflexologie du soir",
+  "description": "À 14 mois, le coucher est une transition complexe pour un cerveau en pleine explosion (marche, langage, opposition). Le rituel du coucher est l'outil le plus puissant : sa régularité crée la sécurité.",
   "reperes_cles": [
-    "Coucher entre 19h et 19h30 — au-delà, la sur-fatigue rend l'endormissement plus difficile",
-    "Fenêtre d'éveil de 4h à 4h30 max après la sieste — la plupart des enfants sont sur une seule sieste",
-    "Rituel strictement identique à ± 15 min chaque soir — l'explorateur a besoin de repères fixes pour accepter de s'arrêter"
+    "Coucher entre 19h et 19h30 — au-delà = sur-fatigue",
+    "Fenêtre d'éveil de 4 à 5h max — après la sieste",
+    "Rituel identique chaque soir — à ± 15 min près"
   ],
-  "signaux_de_fatigue": [
-    "Bâillements répétés, frottement des yeux et des oreilles",
-    "Regard fixe, dans le vague, perte d'intérêt pour l'exploration",
-    "Agitation paradoxale : court, grimpe, s'excite au lieu de ralentir",
-    "Maladresse soudaine : trébuche, se cogne, renverse plus que d'habitude",
-    "Accrochage : réclame les bras, le doudou, le contact"
-  ],
-  "duree_eveil_max": "4h à 4h30 d'éveil maximum après la sieste à 14 mois — au-delà, la sur-fatigue libère du cortisol et complique l'endormissement. La plupart des enfants sont sur une seule sieste à cet âge.",
-  "variantes_developpementales": {
-    "intro": "Chaque enfant avance à son rythme. Choisis l'axe où [prénom] se développe le plus en ce moment : le premier temps du rituel, la réflexologie et la berceuse s'adapteront pour l'accompagner exactement là où il en est.",
-    "question_selecteur": "Où en est [prénom] en ce moment ?",
-    "themes": [
-      {
-        "id": "motricite",
-        "titre": "Motricité",
-        "sous_titre": "[Il marche, grimpe, bouge sans arrêt/Elle marche, grimpe, bouge sans arrêt]",
-        "etape_rituel": {
-          "titre": "Décharger le corps avant la nuit",
-          "horaire": "en début de soirée · 10 min",
-          "duree": "10 min",
-          "description": "Avant de baisser l'ambiance, un dernier moment de mouvement libre et encadré : ramper, marcher d'un meuble à l'autre, un petit parcours doux au sol. Pas de jeu excitant ni de chatouilles — laisser le corps dépenser ses dernières réserves pour qu'il accepte ensuite de se poser. Puis on ralentit franchement : c'est la dernière dépense de la journée."
-        }
-      },
-      {
-        "id": "langage",
-        "titre": "Langage",
-        "sous_titre": "[Il babille, répète, dit ses premiers mots/Elle babille, répète, dit ses premiers mots]",
-        "etape_rituel": {
-          "titre": "Poser des mots sur la journée",
-          "horaire": "en début de soirée · 10 min",
-          "duree": "10 min",
-          "description": "Avant de baisser l'ambiance, un moment calme pour mettre des mots sur la journée : « Aujourd'hui tu as vu le chien, tu as mangé des pâtes, tu es tombé et tu t'es relevé. » Nommer ce qui s'est passé aide son cerveau à ranger la journée et à s'apaiser. Laisse-le répéter, babiller, pointer un imagier — la parole partagée est déjà un retour au calme."
-        }
-      }
-    ]
-  },
   "rituel_etapes": [
     {
       "etape": 1,
@@ -53,125 +17,150 @@
       "titre": "Décharger le corps avant la nuit",
       "horaire": "en début de soirée · 10 min",
       "duree": "10 min",
-      "description": "Premier temps adapté à [prénom] (modifiable avec le sélecteur ci-dessus). Par défaut — Motricité : un dernier moment de mouvement libre et encadré (ramper, marcher d'un meuble à l'autre), sans jeu excitant, pour laisser le corps dépenser ses dernières réserves avant de se poser."
+      "description": "Premier temps adapté à [prénom] (modifiable avec le sélecteur ci-dessus). Par défaut — Motricité : un dernier moment de mouvement libre et encadré (ramper, marcher d'un meuble à l'autre, petit parcours doux), sans jeu excitant, pour laisser le corps dépenser ses dernières réserves avant de se poser. Pour un enfant très occupé à parler, bascule sur l'axe Langage."
     },
     {
       "etape": 2,
-      "titre": "Baisser l'ambiance et fermer l'exploration",
+      "titre": "Baisser l'ambiance",
       "horaire": "18h - 19h",
       "duree": "30-60 min",
-      "description": "Éteindre les plafonniers, allumer des lampes basses. Couper télévision, musique vive, jeux sonores. Réduire l'espace : ranger ensemble, fermer une porte, créer un coin calme plus petit — moins de choses à explorer. Couper tous les écrans (téléphone, télé, tablette) : la lumière bleue supprime la mélatonine jusqu'à 90 min après extinction. Activités calmes au sol : imagier, encastrements, câlins."
+      "description": "Lumières basses, sons coupés, voix douces dès 18h. Activités calmes : livre, dessin, jeu au sol."
     },
     {
       "etape": 3,
-      "titre": "Bain ou toilette (pas tous les soirs)",
+      "titre": "Bain ou toilette",
       "horaire": "19h - 19h15",
       "duree": "10-15 min",
-      "description": "Bain court (5-7 min), eau à 37°C vérifiée au thermomètre. Salle de bain chauffée à l'avance. Tapis antidérapant et surveillance constante. Lumière tamisée, voix grave et lente. Pas de jouets sonores ni lumineux le soir : ils relancent l'exploration."
+      "description": "Bain tiède (37°C), court. Lumière tamisée. Jouets calmes uniquement."
     },
     {
       "etape": 4,
-      "titre": "Pyjama, massage doux et séquence réflexo",
+      "titre": "Pyjama et massage",
       "horaire": "19h15 - 19h30",
       "duree": "10-15 min",
-      "description": "Pyjama adapté à la température de la chambre. Sur un tapis au sol ou la table à langer (avec ceinture). Mains chaudes, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans. Mouvements lents, pression 0/10. S'il refuse le massage ce soir-là, ne pas forcer. Enchaîne avec la séquence réflexo du soir (7 min) ci-dessous."
+      "description": "Pyjama adapté. Massage léger avec huile végétale neutre. Puis séquence réflexologie ci-dessous."
     },
     {
       "etape": 5,
       "titre": "Histoire et câlin",
       "horaire": "19h30 - 19h45",
-      "duree": "10-15 min",
-      "description": "Une seule histoire, lue lentement, dans tes bras. La même pendant 2-3 semaines renforce l'ancrage. Laisse l'enfant tourner les pages, pointer — il participe sans repartir explorer. Voix posée, rythme lent."
+      "duree": "15 min",
+      "description": "Une seule histoire, lue lentement, dans tes bras. La même pendant 2-3 semaines aide à l'ancrage."
     },
     {
       "etape": 6,
-      "titre": "Dernière prise de lait (si encore)",
-      "horaire": "19h45 - 19h55",
-      "duree": "10 min",
-      "description": "Dans la pénombre, en silence, tout contre toi. Sein ou biberon. Cette étape peut être supprimée si l'enfant n'a plus de prise de lait du soir — l'eau au repas suffit alors. Ne pas la réintroduire pour calmer : elle créerait une dépendance d'endormissement."
+      "titre": "Lait du soir, puis brossage des dents",
+      "horaire": "19h45 - 20h",
+      "duree": "10-15 min",
+      "description": "Dans la pénombre, tout contre toi : un dernier temps de lait au sein ou au biberon, recommandé jusqu'à 3 ans. Puis un brossage tout doux des dents avant le coucher."
     },
     {
       "etape": 7,
       "titre": "Phrase de clôture et coucher",
-      "horaire": "19h55 - 20h",
+      "horaire": "20h",
       "duree": "5 min",
-      "description": "Chambre à 18-20°C, complètement obscure (rideaux occultants). Lit sécurisé et dégagé : matelas ferme au niveau le plus bas, gigoteuse ou turbulette, doudou autorisé. Phrase rituelle identique chaque soir : « La nuit arrive. Tu es en sécurité. Le monde t'attendra demain. » Poser dans le lit, doudou à côté, sortir doucement. S'il proteste, revenir poser une main et redire la phrase, sans rallumer."
+      "description": "Phrase rituelle identique chaque soir : « Tu es en sécurité. Je suis là. Bonne nuit [prénom]. » Poser dans le lit, doudou à côté. Sortir doucement."
     }
   ],
   "reflexologie_du_coucher": {
     "titre": "Séquence réflexologie du soir — 7 minutes",
-    "intro": "Pendant le massage, l'enfant allongé sur le dos, toi face à ses pieds. Voix très basse, mouvements infimes. À 14 mois, il bouge encore beaucoup : accepte ses positions et adapte ton geste. Pression d'une caresse.",
+    "intro": "Après le bain, avant l'histoire. L'enfant allongé sur le dos, toi assise à ses pieds. Voix très basse, mouvements lents.",
     "duree_totale": "7 minutes",
     "pression": "0/10 — c'est une caresse, pas un massage",
-    "consentement": "Avant tout, observe les réactions de l'enfant. Le massage et la réflexologie se font avec son accord : à la moindre crispation, s'il retire son pied ou se détourne, arrête-toi. À cet âge, il peut vouloir « faire seul » ou refuser : respecte-le, c'est un moment de plaisir partagé, jamais une technique à imposer.",
+    "consentement": "Avant tout, observe les réactions de l'enfant. Le massage et la réflexologie se font avec son accord : à la moindre crispation, s'il retire son pied ou se détourne, arrête-toi. À 14 mois, il bouge beaucoup : propose, n'impose pas, et raccourcis si besoin. C'est un moment de plaisir partagé.",
     "etapes": [
       {
         "zone": "Réchauffer les pieds",
         "duree": "1 minute",
-        "geste": "Envelopper les deux pieds de l'enfant dans tes paumes, immobile. Synchroniser ton souffle au sien.",
-        "ce_que_cest": "Préparation et présence — le contact avant tout geste"
+        "geste": "Tenir les deux pieds dans tes paumes, sans bouger. Souffle calme.",
+        "ce_que_cest": "Préparation et présence"
       },
       {
-        "zone": "Gros orteil (cerveau / système nerveux)",
+        "zone": "Gros orteil (cerveau / calme)",
         "duree": "1 minute par pied",
         "geste": "Cercles très lents dans le sens horaire sur le coussinet du gros orteil.",
-        "ce_que_cest": "Apaisement du système nerveux central"
+        "ce_que_cest": "Apaisement du système nerveux"
       },
       {
-        "zone": "Voûte haute (diaphragme et respiration)",
+        "zone": "Voûte haute (diaphragme)",
         "duree": "1 minute",
-        "geste": "Effleurement large sous la base des orteils, sur les deux pieds.",
-        "ce_que_cest": "Détend la respiration et le diaphragme — facilite l'endormissement"
+        "geste": "Pression très douce sous la base des orteils, zone large.",
+        "ce_que_cest": "Détend la respiration"
       },
       {
         "zone": "Centre de la voûte (plexus solaire)",
         "duree": "1 minute",
-        "geste": "Cercles infimes au centre de la voûte plantaire, sens horaire, très lents.",
-        "ce_que_cest": "Décharge le trop-plein émotionnel de la journée"
+        "geste": "Glissé lent du pouce du centre de la voûte vers le talon.",
+        "ce_que_cest": "Régule le système nerveux, apaise l'anxiété"
       },
       {
-        "zone": "Bord interne du pied (colonne vertébrale)",
+        "zone": "Talon (ancrage)",
         "duree": "1 minute par pied",
-        "geste": "Glissé doux du talon vers le gros orteil, le long du bord interne.",
-        "ce_que_cest": "Libère les tensions axiales liées à la marche et au mouvement"
+        "geste": "Pression maintenue immobile sur le talon.",
+        "ce_que_cest": "Sensation de sécurité"
       },
       {
-        "zone": "Talon (ancrage et bassin)",
+        "zone": "Envelopper et tenir",
         "duree": "1 minute",
-        "geste": "Pression maintenue immobile au creux de chaque talon. Pas de mouvement, juste du contact.",
-        "ce_que_cest": "Ancrage corporel — ramène le calme et la sécurité"
+        "geste": "Envelopper les deux pieds dans tes mains. Voix : « Tu peux dormir. Je suis là. »",
+        "ce_que_cest": "Clôture rituelle"
       }
     ],
     "focus_par_theme": {
-      "motricite": "Insiste sur le bord interne du pied et le talon : pression maintenue et immobile, plus longue, pour ramener le calme dans un corps qui a beaucoup bougé.",
-      "langage": "Ajoute la face interne du gros orteil (zone gorge / expression) : cercles infimes, 1 min par pied, pour apaiser un enfant très occupé à parler."
-    },
-    "cloture": "Terminer en tenant à nouveau les deux pieds dans tes paumes pendant 30 secondes — fermeture du soin. Murmurer : « Tu peux te reposer. Je suis là. »"
-  },
-  "script_audio_du_soir": {
-    "titre": "« Le monde peut attendre demain »",
-    "duree": "~5 minutes",
-    "instruction": "Voix grave et lente, volume bas, dans la pénombre.",
-    "texte": "[Prénom]...\n\nLa journée se termine maintenant.\n\nTu as exploré le monde entier, aujourd'hui.\n\n[Pause — 5 secondes]\n\nTu es allé partout. Tu as ouvert, touché, goûté, vidé, rempli.\n\nTu as voulu tout voir, tout essayer.\n\nC'était une grande aventure, et c'était fatigant.\n\n[Pause — 5 secondes]\n\nMaintenant, l'aventure se repose.\n\nLe monde sera encore là demain — les placards, les cailloux, les portes, tout t'attendra.\n\nCette nuit, c'est le temps de se poser.\n\n[Pause — 5 secondes]\n\n[passage_theme]\n\n[Pause — 5 secondes]\n\nTous les câlins de la journée, tu les gardes en toi. Ils te tiennent chaud, même dans le noir.\n\n[Pause — 10 secondes]\n\nJe suis là. La maison est calme. Ton doudou est avec toi.\n\nSi tu te réveilles, je ne suis pas loin.\n\n[Pause — 5 secondes]\n\nMaintenant, tu peux te déposer, [mon tout petit/ma toute petite].\n\nTu es en sécurité.\n\nTu es au chaud.\n\nTu es [aimé/aimée].\n\nDors, mon amour. Dors.\n\nBonne nuit.",
-    "passage_par_theme": {
-      "motricite": "Ton corps a tant bougé aujourd'hui. Tes jambes, tes bras, tout ton petit corps peut se poser, maintenant.",
-      "langage": "Tu as dit tant de choses aujourd'hui. Ta voix peut se reposer, et ta tête peut faire doucement le silence."
+      "motricite": "Insiste sur le talon et la voûte plantaire : pression maintenue et immobile, plus longue, pour ramener le calme dans un corps qui a beaucoup marché et exploré.",
+      "langage": "Ajoute la face interne du gros orteil (zone gorge / expression) : cercles infimes, 1 min par pied, pour apaiser un enfant très occupé à babiller et à nommer le monde."
     }
   },
-  "ramener_au_calme": {
-    "titre": "Ramener l'explorateur au calme",
-    "explication": "À 14 mois, l'enfant explore sans relâche, et ce moteur ne s'éteint pas tout seul le soir. Un explorateur lancé arrive au coucher encore en mouvement, cherchant la prochaine découverte. Le rituel sert à lui signaler, étape après étape, que l'exploration s'arrête — pas en le bloquant, mais en réduisant petit à petit ce qu'il y a à explorer autour de lui.",
-    "tenir_le_cadre": [
-      "Réduire l'espace de jeu en fin de journée : ranger ensemble, fermer une porte, créer un coin calme plus petit",
-      "Garder le même enchaînement chaque soir : l'explorateur a besoin de repères fixes pour accepter de s'arrêter",
-      "Ne pas introduire de nouveauté excitante le soir (nouveau jouet, nouvelle pièce) : ça relance la machine",
-      "Lui accorder un dernier temps de mouvement encadré (l'étape de focus) avant d'exiger le calme"
-    ]
+  "script_audio_du_soir": {
+    "titre": "Berceuse-rituel « Tu es en sécurité »",
+    "duree": "~5 minutes",
+    "instruction": "À lire à voix grave et lente, dans la pénombre, après le rituel. Personnalise [prénom].",
+    "texte": "[Prénom]...\n\nLa journée se termine maintenant.\n\nTu as fait tellement de choses aujourd'hui.\n\nTu as marché. Tu as ri. Tu as découvert. Tu as essayé.\n\nTu as peut-être aussi été en colère, ou [fatigué/fatiguée], ou triste.\n\nC'est ok. Toutes les émotions sont passées par toi aujourd'hui.\n\nMaintenant, c'est le moment de te reposer.\n\nTon corps a besoin de dormir.\n\nTes pieds qui ont tellement marché — ils peuvent se reposer.\n\nTes mains qui ont tellement attrapé — elles peuvent s'ouvrir.\n\nTon cœur qui a tellement battu — il peut ralentir.\n\nTa tête qui a tellement appris — elle peut faire le silence.\n\n[passage_theme]\n\nJe suis là.\n\nLa maison est calme.\n\nTon doudou est avec toi.\n\nTu es en sécurité.\n\nCette nuit, ton corps va grandir.\n\nTu vas rêver.\n\nEt demain, je serai là.\n\nQuand tu te réveilleras, je serai là.\n\nTu peux dormir maintenant.\n\nTu peux fermer les yeux.\n\nJe t'aime, [prénom].\n\nBonne nuit.",
+    "passage_par_theme": {
+      "motricite": "Aujourd'hui, tu as marché, grimpé, exploré sans relâche. Quel grand travail pour ton petit corps — maintenant, il peut se reposer.",
+      "langage": "Aujourd'hui, ta voix a tant essayé — des sons, des mots, des presque-mots. Elle peut se reposer ; tes mots seront encore là demain."
+    }
   },
-  "erreurs_a_eviter": [
-    "Les écrans (télévision, tablette, téléphone) dans l'heure qui précède le coucher — la lumière bleue inhibe la sécrétion de mélatonine et retarde l'endormissement de 30 à 90 minutes ; concerne aussi les écrans visibles en arrière-plan",
-    "Laisser un environnement riche en nouveautés à explorer jusqu'au coucher — relance l'éveil ; simplifier et ranger l'espace le soir",
-    "Reculer l'heure du coucher en pensant que l'enfant sera « plus fatigué » — produit l'effet inverse : la sur-fatigue libère du cortisol qui empêche l'endormissement et fragmente le sommeil de la nuit"
+  "signaux_de_fatigue": [
+    "Bâillements répétés",
+    "Frottement des yeux ou des oreilles",
+    "Regard fixe, dans le vague",
+    "Agitation paradoxale",
+    "Demande de doudou ou de tétine"
   ],
-  "consulter_si": "Consulter si le sommeil reste très perturbé sur la durée (endormissement long chaque soir au-delà de 3 semaines, réveils nocturnes multiples sans amélioration), en cas de douleur, de gêne respiratoire ou de ronflements nocturnes réguliers, ou si tu te sens débordée sur la durée — pédiatre, PMI ou consultant en sommeil respectueux du rythme physiologique. Ce protocole ne remplace pas l'avis de ton pédiatre."
+  "erreurs_a_eviter": [
+    "Les écrans (TV, tablette, téléphone) dans l'heure qui précède le coucher : la lumière bleue inhibe la mélatonine et retarde l'endormissement",
+    "Repousser l'heure du coucher au-delà de 19h30 pour qu'il soit « plus fatigué » : effet inverse, sur-fatigue et cortisol qui empêchent le sommeil",
+    "Changer le rituel chaque soir : le cerveau de 14 mois a besoin de prévisibilité pour s'apaiser"
+  ],
+  "consulter_si": "Si l'endormissement prend plus d'1h chaque soir depuis 3 semaines, si les réveils nocturnes empêchent toute récupération parentale, ou si tu sens un épuisement critique — parler à ta sage-femme, ton médecin, ou un consultant en sommeil.",
+  "duree_eveil_max": "Environ 4 à 5h d'éveil maximum après la sieste à 14 mois — au-delà, la sur-fatigue libère du cortisol et complique l'endormissement. La transition de deux siestes vers une sieste unique de l'après-midi peut être en cours à cet âge.",
+  "variantes_developpementales": {
+    "intro": "Chaque enfant avance à son rythme, et à cet âge les écarts sont grands. En observant [prénom], repère le domaine qui l'occupe le plus en ce moment — ce vers quoi son élan va spontanément. Choisis cet axe : le premier temps du rituel, la réflexologie et la berceuse s'adapteront pour valider et accompagner ce mouvement, exactement là où [prénom] en est déjà. Il ne s'agit pas de pousser vers une nouvelle compétence, mais de soutenir celle qui se déploie déjà.",
+    "question_selecteur": "Où en est [prénom] en ce moment ?",
+    "themes": [
+      {
+        "id": "motricite",
+        "titre": "Motricité",
+        "sous_titre": "[Il marche, grimpe, explore sans arrêt/Elle marche, grimpe, explore sans arrêt]",
+        "etape_rituel": {
+          "titre": "Décharger le corps avant la nuit",
+          "horaire": "en début de soirée · 10 min",
+          "duree": "10 min",
+          "description": "Avant de baisser l'ambiance, offre un dernier moment de mouvement libre et encadré : ramper sous un coussin, marcher d'un meuble à l'autre, un petit parcours doux au sol. Pas de jeu excitant ni de chatouilles — l'idée est de laisser ce petit explorateur dépenser ses dernières réserves pour qu'il accepte ensuite de se poser. Puis on ralentit franchement."
+        }
+      },
+      {
+        "id": "langage",
+        "titre": "Langage",
+        "sous_titre": "[Il babille, pointe, dit ses premiers mots/Elle babille, pointe, dit ses premiers mots]",
+        "etape_rituel": {
+          "titre": "Poser des mots sur la journée",
+          "horaire": "en début de soirée · 10 min",
+          "duree": "10 min",
+          "description": "Avant de baisser l'ambiance, prends un moment calme pour mettre des mots sur la journée : « Aujourd'hui tu as marché jusqu'au chien, tu as goûté la compote, tu as rangé un cube. » Nommer ce qui s'est passé aide son cerveau à ranger la journée et à s'apaiser. Reprends les sons qu'il essaie, montre les images d'un imagier — t'entendre nommer son monde, lentement, lui suffit."
+        }
+      }
+    ]
+  }
 }
