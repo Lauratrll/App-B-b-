@@ -13,15 +13,15 @@ _(Rubrique mensuelle. Fichier source : `mois_NN_-_02_coucher.json`.)_
 2. **Repères clés** — `reperes_cles` (amorce en gras)
 3. **Signaux de fatigue** — `signaux_de_fatigue` (sans amorce)
 4. _(si présent)_ **Sélecteur de variante** — `variantes_developpementales`
-5. **Rituel pas à pas** — `rituel_etapes` (camaïeu bleu · toujours ouvert)
-6. **Réflexologie du soir** — `reflexologie_du_coucher` (déroulant, fermé par défaut)
+5. **Rituel pas à pas** — `rituel_etapes` (camaïeu bleu · toujours ouvert). **Aucune heure affichée** : ne pas rendre de champ `horaire` (il n'existe plus). Chaque étape = `titre` + `duree` + `description`. Une **étape « repas »** figure dès M5.
+6. _(si présent)_ **Réflexologie du soir** — `reflexologie_du_coucher` (déroulant, fermé par défaut). **Absente en M0** (pas de réflexologie sur un nouveau-né) : ne rien afficher.
 7. **Berceuse-rituel** — `script_audio_du_soir` (déroulant, fermé par défaut)
 8. _(si présent)_ **La place du co-parent** — `co_parent`
-9. _(si présent)_ **Cadre de sécurité** — `cadre_de_securite` (cadre fermé, amorce en gras · voir §9)
+9. _(si présent)_ **Cadre de sécurité** — `cadre_de_securite` (M0–M3 · **design protocole** rouge · amorce en gras · voir §5 et §9)
 10. **Erreurs à éviter** — `erreurs_a_eviter`
-11. _(si présent)_ **Consulter si** — `consulter_si` (ligne sobre, PAS d'encadré rouge d'alerte)
 
-> Blocs **optionnels selon le mois** : `variantes_developpementales` (à partir de M12), `co_parent`, `cadre_de_securite` (présent M0–M3, le couchage sécurisé reste valable tant que bébé ne se retourne pas seul), `consulter_si`. Afficher un bloc uniquement si la clé existe dans le JSON. Aux mois où ils manquent (ex. M12 n'a ni `co_parent`), ne rien afficher à la place.
+> ❌ **Plus de bloc « Consulter si »** dans le coucher (clé `consulter_si` supprimée) — cette information vit dans la rubrique Guide-moi (sommeil).
+> Blocs **optionnels selon le mois** : `variantes_developpementales` (à partir de M12), `reflexologie_du_coucher` (absente en M0), `co_parent`, `cadre_de_securite` (présent **M0–M3**). Afficher un bloc uniquement si la clé existe dans le JSON. Aux mois où ils manquent (ex. M12 n'a pas de `co_parent`), ne rien afficher à la place.
 
 ---
 
@@ -97,15 +97,23 @@ Carte unique, **fond vert réflexologie `#DCE9CF`**, bord `1px #B8CDA8`, radius 
 | Réflexologie | `#DCE9CF` | `#82A56A` | `#3F5C2E` |
 | Berceuse | `#F8E0D8` | `#E0A48E` | `#8A4030` |
 | Co-parent | `#D4E0DC` | `#8A9E98` | `#384E48` |
-| **Cadre de sécurité** | `#E8EEEC` | **complète `1px solid #8FA8A2`** | `#34504A` |
+| **Cadre de sécurité — M0–M3** | `#EDE9E4` | **complète `1px solid #D4604A`** | `#8A3020` |
 | Erreurs à éviter | `#E4DDD6` | `#B4A89C` | `#5A4A40` + croix ✕ `#D4604A` |
 
-- **Cadre de sécurité** = cadre **fermé** (bordure complète, `borderRadius: 11`), pas une bordure-gauche : il se lit comme un « contenant » non négociable. Ton **calme et protecteur, jamais alarmiste** (pas de rouge — c'est un repère rassurant, pas une alerte). Picto au trait (bouclier ou berceau, stroke `#5E7A70`) + titre, puis `intro` (12px), puis la liste `regles[]` (puces, **amorce en gras** — voir §9). Reste fidèle au reste de la page : pas de croix, pas de signal d'urgence.
+### Cadre de sécurité — sécurité renforcée du **premier trimestre (M0–M3)**
+
+Au premier trimestre, la sécurité du sommeil prime : le bloc **`cadre_de_securite`** adopte **exactement le design du « Cadre de sécurité » des protocoles Guide-moi** (voir `CONSIGNES_CLAUDE_CODE_page3_protocole.md`) :
+- **Cadre fermé** : `background: #EDE9E4`, `border: 1px solid #D4604A`, `borderRadius: 10`, `padding: 11px 13px` (pas de bordure-gauche).
+- **Label** : `#8A3020`, style label 9px uppercase, repris de `cadre_de_securite.titre`.
+- **Corps** : `#5A4A40`. Les `regles[]` du cadre gardent l'**amorce en gras** (§9).
+- Un encadré rouge unique, même facture que le protocole.
+
+**Autres mois (M4 et au-delà)** : pas de `cadre_de_securite` (la vigilance MIN décroît une fois que bébé se retourne seul). Aucun bloc « Consulter si » nulle part — l'info sommeil-alerte vit dans Guide-moi.
 
 - « Ce qui se passe » reprend la couleur **« Pour toi, parent »** du protocole (`#F8E0D8`), **uniquement dans le Coucher**. Ne pas l'appliquer au protocole (où « Ce qui se passe » reste `#E8F0F2`).
 - « Ce qui se passe » et « Berceuse » partagent volontairement la même pêche (ouverture / clôture en miroir chaud).
 - **Bleu réservé au Rituel pas à pas.**
-- « Consulter si » (si présent) = **ligne sobre**, pas d'encadré rouge d'alerte.
+- Plus de bloc « Consulter si » dans le coucher (supprimé partout).
 - TopBar Cream `#F2EDE8`, séparation `0.5px solid #E4DDD6`.
 - Tous blocs : `borderRadius: '0 12px 12px 0'`.
 
@@ -123,7 +131,7 @@ Carte unique, **fond vert réflexologie `#DCE9CF`**, bord `1px #B8CDA8`, radius 
 | Réflexologie | **empreinte de pied** | `#82A56A` |
 | Berceuse | note de musique ♪ | `#E0A48E` |
 | Co-parent | deux silhouettes | `#8A9E98` |
-| Cadre de sécurité | bouclier (ou berceau) | `#5E7A70` |
+| Cadre de sécurité (M0–M3) | _aucun picto_ — label seul (design protocole) | `#D4604A` (bordure) |
 
 Tous au même style trait fin. **Pas d'emoji.** Tracés SVG exacts dans `apercu_coucher_M12_variante.html`.
 
@@ -178,7 +186,9 @@ function LigneAvecAmorce({ texte }: { texte: string }) {
 - [ ] Note de consentement en tête du module réflexo.
 - [ ] Berceuse en Nunito italique, paragraphes directs, sans pause.
 - [ ] Amorce en gras sur Repères + Co-parent + Cadre de sécurité (jamais Signaux).
-- [ ] Cadre de sécurité (M0–M3) : cadre fermé `1px solid #8FA8A2`, ton calme (pas de rouge), picto bouclier, affiché seulement si présent.
+- [ ] M0–M3 : `cadre_de_securite` en encadré rouge design protocole (`#EDE9E4` / `1px solid #D4604A` / label `#8A3020` / radius 10). Aucun bloc « Consulter si » nulle part.
+- [ ] Aucune heure affichée dans les étapes du rituel ; étape « repas » présente dès M5.
+- [ ] Réflexologie absente en M0 (ne rien afficher).
 - [ ] Sous-titre gris `#8A9E98`.
 - [ ] Pictos au trait conformes (pied pour réflexo, note pour berceuse). Pas d'emoji.
-- [ ] Blocs optionnels (variantes, co-parent, consulter_si) affichés seulement si présents dans le JSON.
+- [ ] Blocs optionnels (variantes, co-parent, cadre_de_securite) affichés seulement si présents dans le JSON.

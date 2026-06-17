@@ -3,11 +3,11 @@
   "tranche_age": "16 mois",
   "rubrique": "preparer_le_coucher",
   "titre_rubrique": "Préparer le coucher",
-  "sous_titre": "Crée ton rituel adapté",
-  "description": "À 16 mois, l'indépendant veut tout faire seul : enlever ses chaussures, tenir sa cuillère, grimper dans le lit, choisir son pyjama. « Moi ! » devient son mot d'ordre. Au coucher, ce besoin d'autonomie peut se heurter au rituel s'il est vécu comme imposé. La clé : lui confier de vraies responsabilités dans le rituel (toujours les mêmes, dans le même ordre), pour qu'il se sente acteur et non spectateur. À cet âge, la sieste unique est en général bien installée. Le rituel reste l'ancre : ce que tu remplis dans la journée (câlins, rires, encouragements) remplit son réservoir émotionnel, et sa constance — pas sa richesse — le rassure.",
+  "sous_titre": "Un esprit, un corps, et un cœur apaisé",
+  "description": "À 16 mois, l'indépendant veut tout faire seul : enlever ses chaussures, tenir sa cuillère, grimper dans le lit, choisir son pyjama. « Moi ! » devient son mot d'ordre. Au coucher, lui imposer chaque geste réveille l'opposition, car il vit alors le rituel comme une dépossession. La solution n'est pas de tout lui laisser faire — il a besoin du cadre — mais de lui confier de vraies petites responsabilités, toujours les mêmes et dans le même ordre, pour qu'il se sente acteur et non spectateur : un enfant acteur de son coucher résiste beaucoup moins. À cet âge, la sieste unique est en général bien installée. Le rituel reste l'ancre : ce que tu remplis dans la journée (câlins, rires, encouragements) remplit son réservoir émotionnel, et sa constance — pas sa richesse — le rassure.",
   "reperes_cles": [
     "Coucher entre 19h et 19h30 — au-delà, la sur-fatigue rend l'endormissement plus difficile",
-    "Fenêtre d'éveil de 4h30 à 5h30 max — après la sieste unique de l'après-midi",
+    "Fenêtre d'éveil de 4h30 à 5h30 max après la sieste unique de l'après-midi",
     "Rituel strictement identique à ± 15 min chaque soir — confier des gestes à l'enfant le rend acteur sans changer le cadre"
   ],
   "signaux_de_fatigue": [
@@ -17,9 +17,8 @@
     "Opposition et frustration qui montent : veut faire seul mais n'y arrive plus (signe de fatigue)",
     "Accrochage : réclame les bras, le doudou, le contact"
   ],
-  "duree_eveil_max": "4h30 à 5h30 d'éveil maximum après la sieste à 16 mois — au-delà, la sur-fatigue libère du cortisol et complique l'endormissement. La sieste unique de l'après-midi est en général bien installée.",
   "variantes_developpementales": {
-    "intro": "Chaque enfant avance à son rythme, et à cet âge les écarts sont grands. En observant [prénom], repère le domaine qui l'occupe le plus en ce moment — ce vers quoi son élan va spontanément. Choisis cet axe : le premier temps du rituel, la réflexologie et la berceuse s'adapteront pour valider et accompagner ce mouvement, exactement là où [prénom] en est déjà. Il ne s'agit pas de pousser vers une nouvelle compétence, mais de soutenir celle qui se déploie déjà.",
+    "intro": "Chaque enfant avance à son rythme, et à cet âge les écarts sont grands. Choisis l'axe où [prénom] se développe ou a besoin de soutien en ce moment : le premier temps du rituel, la réflexologie et la berceuse s'adapteront pour l'accompagner exactement là où il en est.",
     "question_selecteur": "Où en est [prénom] en ce moment ?",
     "themes": [
       {
@@ -28,8 +27,6 @@
         "sous_titre": "[Il marche, grimpe, bouge sans arrêt/Elle marche, grimpe, bouge sans arrêt]",
         "etape_rituel": {
           "titre": "Décharger le corps avant la nuit",
-          "horaire": "en début de soirée · 10 min",
-          "duree": "10 min",
           "description": "Avant de baisser l'ambiance, un dernier moment de mouvement libre et encadré : ramper, marcher d'un meuble à l'autre, un petit parcours doux au sol. Pas de jeu excitant ni de chatouilles — laisser le corps dépenser ses dernières réserves pour qu'il accepte ensuite de se poser. Puis on ralentit franchement."
         }
       },
@@ -39,8 +36,6 @@
         "sous_titre": "[Il babille, répète, dit ses premiers mots/Elle babille, répète, dit ses premiers mots]",
         "etape_rituel": {
           "titre": "Poser des mots sur la journée",
-          "horaire": "en début de soirée · 10 min",
-          "duree": "10 min",
           "description": "Avant de baisser l'ambiance, un moment calme pour mettre des mots sur la journée : « Aujourd'hui tu as vu le chien, tu as mangé des pâtes, tu es tombé et tu t'es relevé. » Nommer ce qui s'est passé aide son cerveau à ranger la journée et à s'apaiser. Laisse-le répéter, babiller, pointer un imagier."
         }
       },
@@ -50,8 +45,6 @@
         "sous_titre": "[Il vit de grandes émotions, se fâche, se console/Elle vit de grandes émotions, se fâche, se console]",
         "etape_rituel": {
           "titre": "Accueillir les émotions de la journée",
-          "horaire": "en début de soirée · 10 min",
-          "duree": "10 min",
           "description": "Un temps calme dans tes bras pour accueillir ce qui a pesé : « Tu étais très fâché tout à l'heure. C'est passé. Je suis là. » Nommer sans raviver, juste accueillir et laisser retomber. Pose une main sur son cœur et respire lentement avec lui — ton calme devient le sien."
         }
       },
@@ -61,9 +54,7 @@
         "sous_titre": "[Il veut tout faire seul, refuse l'aide/Elle veut tout faire seul, refuse l'aide]",
         "etape_rituel": {
           "titre": "Le laisser mener le rituel",
-          "horaire": "en début de soirée · 10 min",
-          "duree": "10 min",
-          "description": "Laisse [prénom] conduire un ou deux gestes lui-même, toujours les mêmes : monter sur le marchepied, tenir sa brosse à dents, choisir son pyjama, grimper dans le lit. Faire seul ce qu'il maîtrise apaise son besoin d'autonomie et désamorce l'opposition. Tu restes garant.e du cadre : l'ordre et l'heure ne changent pas."
+          "description": "Laisse [prénom] conduire un ou deux gestes lui-même, toujours les mêmes : monter sur le marchepied, tenir sa brosse à dents, choisir son pyjama, grimper dans le lit. Faire seul ce qu'il maîtrise apaise son besoin d'autonomie et désamorce l'opposition. Tu restes garante du cadre : l'ordre et l'heure ne changent pas."
         }
       }
     ]
@@ -73,51 +64,42 @@
       "etape": 1,
       "focus_theme": true,
       "titre": "Décharger le corps avant la nuit",
-      "horaire": "en début de soirée · 10 min",
-      "duree": "10 min",
       "description": "Premier temps adapté à [prénom] (modifiable avec le sélecteur ci-dessus). Par défaut — Motricité : un dernier moment de mouvement libre et encadré, sans jeu excitant, pour laisser le corps dépenser ses dernières réserves. Pour un enfant en plein « moi tout seul », bascule sur l'axe Autonomie."
     },
     {
       "etape": 2,
       "titre": "Baisser l'ambiance et clore la journée d'éveil",
-      "horaire": "18h - 19h",
-      "duree": "30-60 min",
-      "description": "Éteindre les plafonniers, allumer des lampes basses. Couper télévision, musique vive, jeux sonores. Couper tous les écrans (téléphone, télé, tablette) : la lumière bleue supprime la mélatonine jusqu'à 90 min après extinction. Proposer le rangement des jouets comme une première tâche « à faire soi-même » : l'indépendant adore avoir une responsabilité."
+      "description": "Éteindre les plafonniers, allumer des lampes basses. Couper télévision, musique vive, jeux sonores. Couper tous les écrans (téléphone, télé, tablette). Proposer le rangement des jouets comme une première tâche « à faire soi-même » : l'indépendant adore avoir une responsabilité."
     },
     {
-      "etape": 3,
-      "titre": "Bain ou toilette (pas tous les soirs)",
-      "horaire": "19h - 19h15",
-      "duree": "10-15 min",
-      "description": "Bain court (5-7 min), eau à 37°C vérifiée au thermomètre. Salle de bain chauffée à l'avance. Tapis antidérapant et surveillance constante. Lumière tamisée, voix grave et lente. Laisse-le « se laver » lui-même une partie du corps avant de finir le geste : il participe, tu restes garant.e de la propreté et de la sécurité."
+      "titre": "Le repas du soir, en famille",
+      "description": "Le dîner se prend à table, à heure régulière, sans écran. À cet âge, ton enfant mange de plus en plus comme vous : propose un repas simple et complet et laisse-le manger seul à sa façon, même maladroite — c'est ainsi qu'il gagne en autonomie. Termine par un temps calme à table plutôt qu'en jeu, pour amorcer la descente vers la nuit. S'il prend encore un lait du soir, il viendra plus tard, dans le calme de la chambre.",
+      "etape": 3
     },
     {
       "etape": 4,
-      "titre": "Pyjama, massage doux et séquence réflexologie",
-      "horaire": "19h15 - 19h30",
-      "duree": "10-15 min",
-      "description": "Pyjama adapté à la température de la chambre — laisse-le tenter d'enfiler une manche, choisir entre deux modèles. Sur un tapis au sol. Mains chaudes, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans. Mouvements lents, pression 0/10. S'il refuse le massage, ne pas forcer. Enchaîne avec la séquence réflexologie du soir (7 min) ci-dessous."
+      "titre": "Bain ou toilette (pas tous les soirs)",
+      "description": "Bain court (5-7 min). Salle de bain chauffée à l'avance. Tapis antidérapant et surveillance constante. Laisse-le « se laver » lui-même une partie du corps avant de finir le geste : il participe, tu restes garante de la propreté et de la sécurité."
     },
     {
       "etape": 5,
-      "titre": "Histoire et câlin",
-      "horaire": "19h30 - 19h45",
-      "duree": "10-15 min",
-      "description": "Une seule histoire, lue lentement, dans tes bras. Laisse-le choisir le livre, tourner les pages, « lire » à sa façon. La même histoire pendant 2-3 semaines renforce l'ancrage. Voix posée, rythme lent."
+      "titre": "Massage, réflexologie, puis pyjama",
+      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud — pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou de réflexologie du soir. Mains réchauffées, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas. L'huile posée, on passe ensuite au pyjama — qu'il peut t'aider à enfiler."
     },
     {
       "etape": 6,
-      "titre": "Lait du soir, puis brossage des dents",
-      "horaire": "19h45 - 19h55",
-      "duree": "10 min",
-      "description": "Dans la pénombre, tout contre toi : un dernier temps de lait au sein ou au biberon, qui referme la journée en douceur. Le lait infantile reste recommandé jusqu'à 3 ans — il garde toute sa place le soir. Ensuite, un brossage tout doux des dents : mieux vaut ne pas laisser le lait sur les dents pour la nuit."
+      "titre": "Lait du soir et brossage des dents",
+      "description": "Dans la pénombre, en silence, tout contre toi. Sein ou biberon — beaucoup d'enfants n'ont plus de prise de lait du soir à cet âge, l'eau au repas suffit alors. Ne pas la réintroduire pour calmer : elle créerait une dépendance d'endormissement. Dans tous les cas, qu'il y ait un lait ou non, on termine par un brossage des dents tout doux, avant de passer à l'histoire."
     },
     {
       "etape": 7,
+      "titre": "Histoire et câlin",
+      "description": "Une seule histoire (ou bien un nombre prédéfini et annoncé à l'enfant, pour tenir le cadre), lue lentement, dans tes bras. Laisse-le choisir le livre, tourner les pages, « lire » à sa façon. La même histoire pendant 2-3 semaines renforce l'ancrage. Voix posée, rythme lent."
+    },
+    {
+      "etape": 8,
       "titre": "Phrase de clôture et coucher",
-      "horaire": "19h55 - 20h",
-      "duree": "5 min",
-      "description": "Chambre à 18-20°C, complètement obscure (rideaux occultants). Lit sécurisé et dégagé : matelas ferme au niveau le plus bas, gigoteuse ou turbulette, doudou autorisé. Laisse-le grimper seul dans le lit s'il sait le faire. Phrase rituelle identique chaque soir : « La nuit arrive. Tu es en sécurité. Tu peux lâcher prise, je veille. » Doudou à côté, sortir doucement."
+      "description": "Chambre à 18-20°C, complètement obscure (rideaux occultants). Laisse-le grimper seul dans le lit s'il sait le faire. Phrase rituelle identique chaque soir : « La nuit arrive. Tu es en sécurité. Tu peux lâcher prise, je veille. » Doudou à côté, sortir doucement."
     }
   ],
   "reflexologie_du_coucher": {
@@ -176,28 +158,17 @@
     "titre": "« Tu fais déjà tant de choses »",
     "duree": "~5 minutes",
     "instruction": "Voix grave et lente, volume bas, dans la pénombre.",
-    "texte": "[Prénom]...\n\nLa journée se termine maintenant.\n\nTu fais déjà tant de choses [tout seul/toute seule], aujourd'hui encore.\n\nTu as voulu tenir, porter, monter, choisir. Tu as dit « moi ! ».\n\nTu deviens [grand/grande], et tu en es [fier/fière]. Et moi aussi, je suis fièr.e de toi.\n\nMais cette nuit, tu n'as rien à faire.\n\nTu peux poser tes mains qui ont tant essayé.\n\nTu peux te laisser porter par le sommeil — c'est moi qui veille, tu n'as plus à t'en occuper.\n\n[passage_theme]\n\nTous les câlins de la journée, tu les gardes en toi. Ils te tiennent chaud, même dans le noir.\n\nJe suis là. La maison est calme. Ton doudou est avec toi.\n\nSi tu te réveilles, je ne suis pas loin.\n\nMaintenant, tu peux te déposer, [mon tout petit/ma toute petite].\n\nTu es en sécurité.\n\nTu es au chaud.\n\nTu es [aimé/aimée].\n\nDors, mon amour. Dors.\n\nBonne nuit.",
+    "texte": "[Prénom]...\n\nLa journée se termine maintenant.\n\nTu fais déjà tant de choses [tout seul/toute seule], aujourd'hui encore.\n\n[Pause — 5 secondes]\n\nTu as voulu tenir, porter, monter, choisir. Tu as dit « moi ! ».\n\nTu deviens [grand/grande], et tu en es [fier/fière]. Et moi aussi, je suis fière de toi.\n\n[Pause — 5 secondes]\n\nMais cette nuit, tu n'as rien à faire.\n\nTu peux poser tes mains qui ont tant essayé.\n\nTu peux te laisser porter par le sommeil — c'est moi qui veille, tu n'as plus à t'en occuper.\n\n[Pause — 5 secondes]\n\n[passage_theme]\n\n[Pause — 5 secondes]\n\nTous les câlins de la journée, tu les gardes en toi. Ils te tiennent chaud, même dans le noir.\n\n[Pause — 10 secondes]\n\nJe suis là. La maison est calme. Ton doudou est avec toi.\n\nSi tu te réveilles, je ne suis pas loin.\n\n[Pause — 5 secondes]\n\nMaintenant, tu peux te déposer, [mon tout petit/ma toute petite].\n\nTu es en sécurité.\n\nTu es au chaud.\n\nTu es [aimé/aimée].\n\nDors, mon amour. Dors.\n\nBonne nuit.",
     "passage_par_theme": {
       "motricite": "Ton corps a tant bougé aujourd'hui. Tes jambes, tes bras, tout ton petit corps peut se poser, maintenant.",
       "langage": "Tu as dit tant de choses aujourd'hui. Ta voix peut se reposer, et ta tête peut faire doucement le silence.",
       "emotions": "Toutes tes émotions d'aujourd'hui — la joie, la colère, les larmes — ont eu leur place. Elles peuvent se reposer en toi, maintenant, bien au chaud.",
-      "autonomie": "Tu fais déjà tant de choses [tout seul/toute seule], et c'est merveilleux. Cette nuit, tu n'as rien à faire — juste te laisser porter. Je m'occupe du reste."
+      "autonomie": "Tu fais déjà tant de choses tout seul, et c'est merveilleux. Cette nuit, tu n'as rien à faire — juste te laisser porter. Je m'occupe du reste."
     }
-  },
-  "le_besoin_de_faire_seul": {
-    "titre": "Le besoin de faire seul",
-    "explication": "À 16 mois, l'enfant a un immense besoin d'autonomie : il veut décider et agir par lui-même. Au coucher, lui imposer chaque geste réveille l'opposition, car il vit le rituel comme une dépossession. La solution n'est pas de tout lui laisser faire (il a besoin du cadre), mais de lui confier de vraies petites responsabilités — toujours les mêmes — pour qu'il se sente acteur. Un enfant acteur de son coucher résiste beaucoup moins.",
-    "tenir_le_cadre": [
-      "Confier un ou deux gestes fixes chaque soir : monter sur le marchepied, tenir sa brosse, choisir son pyjama, grimper dans le lit",
-      "Garder l'ordre et l'heure non négociables : l'autonomie porte sur le « comment », jamais sur le « si » ni le « quand »",
-      "Prévoir du temps : faire seul est plus lent ; commencer le rituel un peu plus tôt évite la course et l'énervement",
-      "Finir discrètement ce qu'il n'arrive pas à faire, sans le souligner : préserver sa fierté tout en assurant le résultat"
-    ]
   },
   "erreurs_a_eviter": [
     "Les écrans (télévision, tablette, téléphone) dans l'heure qui précède le coucher — la lumière bleue inhibe la sécrétion de mélatonine et retarde l'endormissement de 30 à 90 minutes ; concerne aussi les écrans visibles en arrière-plan",
     "Tout faire à sa place pour aller plus vite — frustre l'indépendant et nourrit l'opposition ; lui laisser des gestes fixes, quitte à commencer plus tôt",
     "Reculer l'heure du coucher en pensant que l'enfant sera « plus fatigué » — produit l'effet inverse : la sur-fatigue libère du cortisol qui empêche l'endormissement et fragmente le sommeil de la nuit"
-  ],
-  "consulter_si": "Consulter si le sommeil reste très perturbé sur la durée (endormissement long chaque soir au-delà de 3 semaines, réveils nocturnes multiples sans amélioration), en cas de douleur, de gêne respiratoire ou de ronflements nocturnes réguliers, ou si tu te sens débordé.e sur la durée — pédiatre, PMI ou consultant en sommeil respectueux du rythme physiologique. Ce protocole ne remplace pas l'avis de ton pédiatre."
+  ]
 }

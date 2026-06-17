@@ -10,7 +10,8 @@ import type { Genre } from "@/lib/auth";
 //
 // Ordre des blocs : Ce qui se passe · Repères clés · Signaux de fatigue ·
 // [Sélecteur de variante M12+] · Rituel (toujours ouvert) · Réflexologie
-// (déroulant) · Berceuse (déroulant) · [Co-parent] · Erreurs · [Consulter si].
+// (déroulant) · Berceuse (déroulant) · [Co-parent] · [Cadre de sécurité M0–M3] ·
+// Erreurs à éviter. (Plus de bloc « Consulter si » dans le Coucher.)
 // ----------------------------------------------------------------------------
 
 const TEXT = "#3A3228";
@@ -767,6 +768,41 @@ export function CoucherView({
         </div>
       ) : null}
 
+      {/* 8bis. Cadre de sécurité (M0–M3) — design « cadre de sécurité » du
+          protocole Guide-moi : encadré complet rouge, regles[] amorce en gras. */}
+      {coucher.cadre_de_securite ? (
+        <div
+          style={{
+            background: "#EDE9E4",
+            border: "1px solid #D4604A",
+            borderRadius: 10,
+            padding: "11px 13px",
+            marginBottom: 8,
+          }}
+        >
+          <div style={{ ...labelStyle, color: "#8A3020", marginBottom: 6 }}>
+            {coucher.cadre_de_securite.titre}
+          </div>
+          {coucher.cadre_de_securite.intro ? (
+            <div
+              style={{
+                fontSize: 11,
+                color: "#5A4A40",
+                lineHeight: 1.55,
+                marginBottom: 8,
+              }}
+            >
+              {p(coucher.cadre_de_securite.intro)}
+            </div>
+          ) : null}
+          {coucher.cadre_de_securite.regles.map((r, i) => (
+            <Puce key={i} accent="#D4604A" color="#5A4A40">
+              <LigneAvecAmorce texte={p(r)} />
+            </Puce>
+          ))}
+        </div>
+      ) : null}
+
       {/* 9. Erreurs à éviter — croix rouges */}
       {coucher.erreurs_a_eviter && coucher.erreurs_a_eviter.length > 0 ? (
         <div style={encartBase(C.erreurs.accent, C.erreurs.bg)}>
@@ -792,16 +828,6 @@ export function CoucherView({
               <div style={{ fontSize: 11, color: C.erreurs.label, lineHeight: 1.5 }}>{p(err)}</div>
             </div>
           ))}
-        </div>
-      ) : null}
-
-      {/* 10. Consulter si — ligne sobre, PAS d'encadré rouge d'alerte */}
-      {coucher.consulter_si ? (
-        <div style={{ marginTop: 14, paddingTop: 12, borderTop: "0.5px solid #D8CFC6" }}>
-          <div style={{ ...labelStyle, color: SUBTITLE, marginBottom: 5 }}>Consulter si</div>
-          <div style={{ fontSize: 10.5, color: "#6E655C", lineHeight: 1.55 }}>
-            {p(coucher.consulter_si)}
-          </div>
         </div>
       ) : null}
     </div>

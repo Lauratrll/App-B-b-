@@ -3,8 +3,8 @@
   "tranche_age": "20 mois",
   "rubrique": "preparer_le_coucher",
   "titre_rubrique": "Préparer le coucher",
-  "sous_titre": "Crée ton rituel adapté",
-  "description": "À 20 mois, l'imagination de ton enfant prend son envol : il fait semblant, invente des scènes, donne vie à son doudou. Cette richesse intérieure est merveilleuse — mais elle peut, le soir, faire naître les premières petites peurs (le noir, les ombres) et des rêves plus vifs. Le rituel reste l'ancre rassurante, et deux alliés deviennent précieux : le doudou, compagnon de la nuit, et une veilleuse très douce. Prendre au sérieux ce qui l'inquiète, sans l'amplifier, l'aide à apprivoiser la nuit. À cet âge, une sieste unique l'après-midi.",
+  "sous_titre": "Un esprit, un corps, et un cœur apaisé",
+  "description": "À 20 mois, l'imagination de ton enfant prend son envol : il fait semblant, invente des scènes, donne vie à son doudou. Cette richesse intérieure est merveilleuse — mais elle grandit plus vite que sa capacité à distinguer le réel de l'inventé, et fait naître, le soir, les premières petites peurs (le noir, une ombre, un bruit) et des rêves plus vifs. Ces peurs sont bien réelles pour lui, même sans objet réel : les nier (« il n'y a rien ») ou s'en moquer les renforce, car il se sent alors seul avec elles. Le rituel reste l'ancre rassurante, et deux alliés deviennent précieux : le doudou, compagnon de la nuit, et une veilleuse très douce. Prendre au sérieux ce qui l'inquiète, sans l'amplifier, et lui offrir des repères concrets de sécurité (ta présence, le doudou, la lumière douce) l'aide à apprivoiser la nuit et à la vivre comme un endroit sûr. À cet âge, l'enfant a une sieste unique l'après-midi, et tu peux envisager le passage à un lit au sol.",
   "reperes_cles": [
     "Coucher entre 19h et 20h, à heure régulière — un cadre stable contient une imagination qui s'éveille le soir",
     "Fenêtre d'éveil d'environ 5 à 6h — après la sieste unique de l'après-midi",
@@ -17,7 +17,6 @@
     "Émotions et petites peurs qui débordent plus facilement",
     "Cherche le doudou, le contact, la lumière"
   ],
-  "duree_eveil_max": "Environ 5 à 6h d'éveil maximum après la sieste à 20 mois — au-delà, la sur-fatigue libère du cortisol et complique l'endormissement. La sieste unique de l'après-midi est bien installée.",
   "variantes_developpementales": {
     "intro": "Chaque enfant avance à son rythme, et à cet âge les écarts sont grands. En observant [prénom], repère le domaine qui l'occupe le plus en ce moment — ce vers quoi son élan va spontanément. Choisis cet axe : le premier temps du rituel, la réflexologie et la berceuse s'adapteront pour valider et accompagner ce mouvement, exactement là où [prénom] en est déjà. Il ne s'agit pas de pousser vers une nouvelle compétence, mais de soutenir celle qui se déploie déjà.",
     "question_selecteur": "Où en est [prénom] en ce moment ?",
@@ -28,8 +27,6 @@
         "sous_titre": "[Il marche, court, grimpe sans arrêt/Elle marche, court, grimpe sans arrêt]",
         "etape_rituel": {
           "titre": "Décharger le corps avant la nuit",
-          "horaire": "en début de soirée · 10 min",
-          "duree": "10 min",
           "description": "Avant de baisser l'ambiance, un dernier moment de mouvement libre et encadré : marcher d'un meuble à l'autre, un petit parcours doux au sol. Pas de jeu excitant ni de chatouilles — laisser le corps dépenser ses dernières réserves pour qu'il accepte ensuite de se poser. Puis on ralentit franchement."
         }
       },
@@ -39,8 +36,6 @@
         "sous_titre": "[Il assemble des mots, fait de petites phrases/Elle assemble des mots, fait de petites phrases]",
         "etape_rituel": {
           "titre": "Mettre des mots sur la journée",
-          "horaire": "en début de soirée · 10 min",
-          "duree": "10 min",
           "description": "Avant de baisser l'ambiance, un moment calme pour raconter la journée : « Ce matin tu as vu le chien, tu as mangé des pâtes, tu as dit au revoir. » Nommer ce qui s'est passé aide son cerveau à ranger la journée et à s'apaiser. Laisse-le répéter, montrer un imagier, finir tes phrases."
         }
       },
@@ -50,8 +45,6 @@
         "sous_titre": "[Il vit de grandes émotions, se fâche, se console/Elle vit de grandes émotions, se fâche, se console]",
         "etape_rituel": {
           "titre": "Accueillir les tensions de la journée",
-          "horaire": "en début de soirée · 10 min",
-          "duree": "10 min",
           "description": "Un temps calme dans tes bras pour accueillir ce qui a pesé : « Tu étais très fâché tout à l'heure quand il a fallu ranger. C'est passé. Je suis là. » Nommer sans raviver, juste accueillir et laisser retomber. Pose une main sur son cœur et respire lentement avec lui — ton calme devient le sien."
         }
       },
@@ -61,8 +54,6 @@
         "sous_titre": "[Il invente, fait semblant, joue des scènes/Elle invente, fait semblant, joue des scènes]",
         "etape_rituel": {
           "titre": "Poser l'imagination avant la nuit",
-          "horaire": "en début de soirée · 10 min",
-          "duree": "10 min",
           "description": "Avant de baisser l'ambiance, un temps de jeu d'imagination calme : coucher le doudou « pour la nuit » avec [prénom], ranger les jouets « qui vont dormir aussi ». Mettre l'imaginaire au service du sommeil, plutôt que de l'exciter. Si une petite peur du soir apparaît, l'accueillir simplement et montrer que la chambre est sûre."
         }
       }
@@ -73,51 +64,42 @@
       "etape": 1,
       "focus_theme": true,
       "titre": "Décharger le corps avant la nuit",
-      "horaire": "en début de soirée · 10 min",
-      "duree": "10 min",
       "description": "Premier temps adapté à [prénom] (modifiable avec le sélecteur ci-dessus). Par défaut — Motricité : un dernier moment de mouvement encadré pour dépenser les dernières réserves. Pour un enfant à l'imagination débordante, l'axe Imaginaire l'aide à poser ses histoires avant la nuit."
     },
     {
       "etape": 2,
       "titre": "Baisser l'ambiance et clore la journée d'éveil",
-      "horaire": "18h - 19h",
-      "duree": "30-60 min",
-      "description": "Éteindre les plafonniers, allumer des lampes basses. Couper musique vive et jeux sonores. Couper tous les écrans (téléphone, télé, tablette) : la lumière bleue supprime la mélatonine jusqu'à 90 min après extinction. Proposer le rangement d'un jouet ou deux comme une responsabilité simple — l'enfant aime se sentir acteur du soir."
+      "description": "Éteindre les plafonniers, allumer des lampes basses. Couper musique vive et jeux sonores. Couper tous les écrans (téléphone, télé, tablette). Proposer le rangement d'un jouet ou deux comme une responsabilité simple — l'enfant aime se sentir acteur du soir."
     },
     {
-      "etape": 3,
-      "titre": "Bain ou toilette (pas tous les soirs)",
-      "horaire": "19h - 19h15",
-      "duree": "10-15 min",
-      "description": "Bain court (5-7 min), eau à 37°C vérifiée au thermomètre. Salle de bain chauffée à l'avance, tapis antidérapant, surveillance constante. Lumière tamisée, voix grave et lente. Laisse-le « se laver » une partie du corps lui-même avant de finir le geste : il participe, tu restes garant.e de la propreté et de la sécurité."
+      "titre": "Le repas du soir, en famille",
+      "description": "Le dîner se prend à table, à heure régulière, sans écran. À cet âge, ton enfant mange de plus en plus comme vous : propose un repas simple et complet et laisse-le manger seul à sa façon, même maladroite — c'est ainsi qu'il gagne en autonomie. Termine par un temps calme à table plutôt qu'en jeu, pour amorcer la descente vers la nuit. S'il prend encore un lait du soir, il viendra plus tard, dans le calme de la chambre.",
+      "etape": 3
     },
     {
       "etape": 4,
-      "titre": "Pyjama, massage doux et séquence réflexologie",
-      "horaire": "19h15 - 19h30",
-      "duree": "10-15 min",
-      "description": "Pyjama adapté à la température de la chambre — laisse-le choisir entre deux modèles, tenter d'enfiler une manche. Sur un tapis au sol. Mains chaudes, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans. Mouvements lents, pression 0/10. S'il refuse le massage, ne pas forcer. Enchaîne avec la séquence réflexologie du soir (7 min) ci-dessous."
+      "titre": "Bain ou toilette (pas tous les soirs)",
+      "description": "Bain court (5-7 min). Salle de bain chauffée à l'avance, tapis antidérapant, surveillance constante. Laisse-le « se laver » une partie du corps lui-même avant de finir le geste : il participe, tu restes garant.e de la propreté et de la sécurité."
     },
     {
       "etape": 5,
-      "titre": "Histoire et câlin",
-      "horaire": "19h30 - 19h45",
-      "duree": "10-15 min",
-      "description": "Une seule histoire, lue lentement, dans tes bras. Laisse-le choisir le livre et tourner les pages. Le soir, privilégie des histoires douces et rassurantes — éviter celles qui font peur, qui nourriraient une imagination déjà très active. Voix posée, rythme lent."
+      "titre": "Massage, réflexologie, puis pyjama",
+      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud — pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou de réflexologie du soir. Mains réchauffées, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas. L'huile posée, le pyjama vient après : laisse-le choisir entre deux modèles, tenter d'enfiler une manche."
     },
     {
       "etape": 6,
       "titre": "Lait du soir et brossage des dents",
-      "horaire": "19h45 - 19h55",
-      "duree": "10 min",
-      "description": "Le lait infantile reste recommandé jusqu'à 3 ans : il garde toute sa place. À partir de cet âge, il peut être pris au dessert du repas du soir, ou comme dernier temps du rituel, tout contre toi (sein ou biberon). Dans tous les cas, il précède le brossage des dents : mieux vaut ne pas laisser le lait sur les dents pour la nuit. Ensuite, un brossage tout doux, puis le coucher."
+      "description": "Le lait infantile reste recommandé jusqu'à 3 ans : il garde toute sa place. À partir de cet âge, il peut être pris au dessert du repas du soir, ou à cet instant dans le rituel du soir, dans le calme de la chambre, tout contre toi (sein ou biberon). Dans tous les cas, il précède le brossage des dents : mieux vaut ne pas laisser le lait sur les dents pour la nuit."
     },
     {
       "etape": 7,
+      "titre": "Histoire et câlin",
+      "description": "Une seule histoire (ou bien un nombre prédéfini et annoncé à l'enfant, pour tenir le cadre), lue lentement, dans tes bras. Laisse-le choisir le livre et tourner les pages. Le soir, privilégie des histoires douces et rassurantes — éviter celles qui font peur, qui nourriraient une imagination déjà très active. Voix posée, rythme lent."
+    },
+    {
+      "etape": 8,
       "titre": "Phrase de clôture et coucher",
-      "horaire": "19h55 - 20h",
-      "duree": "5 min",
-      "description": "Chambre à 18-20°C, obscure ou éclairée d'une veilleuse très douce. Lit sécurisé et dégagé, gigoteuse ou turbulette, doudou tout près — il devient le compagnon de la nuit. Si une peur apparaît, vérifier la chambre ensemble, calmement, sans la dramatiser ni la moquer. Phrase rituelle identique chaque soir : « La nuit est douce. Ton doudou veille, et je veille aussi. Tu es en sécurité. » Sortir doucement."
+      "description": "Chambre à 18-20°C, obscure ou éclairée d'une veilleuse très douce. Ton doudou est tout près — il devient le compagnon de la nuit. Si une peur apparaît, vérifier la chambre ensemble, calmement, sans la dramatiser ni la moquer. Phrase rituelle identique chaque soir : « La nuit est douce. Ton doudou veille, et je veille aussi. Tu es en sécurité. » Sortir doucement."
     }
   ],
   "reflexologie_du_coucher": {
@@ -188,16 +170,5 @@
     "Les écrans (télévision, tablette, téléphone) dans l'heure qui précède le coucher — la lumière bleue inhibe la sécrétion de mélatonine et retarde l'endormissement de 30 à 90 minutes ; concerne aussi les écrans visibles en arrière-plan",
     "Entrer dans la négociation au moment du coucher — répondre à chaque « encore » et multiplier les explications nourrit le bras de fer ; mieux vaut proposer les choix en amont et garder une phrase rituelle inchangée",
     "Reculer l'heure du coucher en pensant que l'enfant sera « plus fatigué » — la sur-fatigue libère du cortisol qui empêche l'endormissement et fragmente la nuit"
-  ],
-  "consulter_si": "Consulter si le sommeil reste très perturbé sur la durée (endormissement long chaque soir au-delà de 3 semaines, réveils nocturnes multiples sans amélioration, peurs nocturnes intenses et répétées ou réveils en hurlant inconsolables (terreurs nocturnes), cauchemars très fréquents), en cas de douleur, de gêne respiratoire ou de ronflements nocturnes réguliers, ou si tu te sens débordé.e sur la durée — pédiatre, PMI ou consultant en sommeil respectueux du rythme physiologique. Ce protocole ne remplace pas l'avis de ton pédiatre.",
-  "les_premieres_peurs_du_soir": {
-    "titre": "Les premières peurs du soir",
-    "explication": "Vers 20 mois, l'imagination grandit plus vite que la capacité à distinguer le réel de l'inventé. C'est pourquoi apparaissent les premières peurs du soir : le noir, une ombre, un bruit. Ces peurs sont réelles pour l'enfant, même si elles n'ont pas d'objet réel. Les nier (« il n'y a rien ») ou s'en moquer les renforce, car l'enfant se sent seul avec elles. Les accueillir et offrir des repères concrets de sécurité (présence, doudou, lumière douce) les apaise et apprend à l'enfant que la nuit est un endroit sûr.",
-    "tenir_le_cadre": [
-      "Prendre la peur au sérieux sans l'amplifier : « Tu as eu peur. Je suis là, la chambre est sûre. » — ni moquerie, ni longue enquête",
-      "Des alliés concrets : doudou tout près, veilleuse très douce, porte entrouverte si ça rassure",
-      "Vérifier la chambre ensemble une fois, calmement, puis clore : éviter d'y revenir en boucle, ce qui installerait la peur",
-      "Garder le rituel et l'heure stables : la régularité est en soi un puissant anti-peur"
-    ]
-  }
+  ]
 }

@@ -3,8 +3,8 @@
   "tranche_age": "5 mois",
   "rubrique": "preparer_le_coucher",
   "titre_rubrique": "Préparer le coucher",
-  "sous_titre": "Crée ton rituel adapté",
-  "description": "À 5 mois, après la traversée de la régression des 4 mois, le sommeil commence souvent à se consolider : l'architecture est posée, certains bébés rallongent leurs nuits, d'autres tâtonnent encore — les deux sont normaux. Bébé est maintenant un petit joueur : il attrape, secoue, porte tout à la bouche, rit, s'intéresse à tout. Cette richesse de la journée est précieuse, mais elle peut aussi sur-stimuler et déborder sur le soir. Le rituel sert justement à signaler clairement que le jeu s'arrête : ce que tu remplis dans la journée (rires, câlins, jeux partagés) remplit son réservoir émotionnel, et un bébé qui arrive au coucher le réservoir plein se sépare plus sereinement. Comme toujours, c'est la régularité du rituel — pas sa richesse — qui ancre la sécurité.",
+  "sous_titre": "Un esprit, un corps, et un cœur apaisé",
+  "description": "À 5 mois, après la traversée de la régression des 4 mois, le sommeil commence souvent à se consolider : l'architecture est posée, certains bébés rallongent leurs nuits, d'autres tâtonnent encore — les deux sont normaux. Bébé est maintenant un petit joueur : il attrape, secoue, porte tout à la bouche, rit, s'intéresse à tout. Cette vitalité est merveilleuse, mais un cerveau immature ne sait pas redescendre seul d'un trop-plein d'excitation : si le jeu vif se prolonge jusqu'au coucher, bébé arrive sur-stimulé — agité, les yeux brillants — et lutte contre le sommeil. La fin de journée se protège donc : on baisse l'intensité bien avant la mise au lit. Ce que tu remplis dans la journée (rires, câlins, jeux partagés) remplit son réservoir émotionnel, et un bébé qui arrive au coucher le réservoir plein se sépare plus sereinement — comme toujours, c'est la régularité du rituel, pas sa richesse, qui ancre la sécurité.",
   "reperes_cles": [
     "Coucher entre 19h et 20h — fenêtre d'éveil de 1h45 à 2h max avant la dernière mise au lit",
     "Cycles de sommeil de 50-60 min — les micro-réveils entre cycles restent normaux ; certains bébés rallongent leurs nuits après la régression des 4 mois",
@@ -17,54 +17,46 @@
     "Excitation paradoxale : s'agite, rit nerveusement, accélère au lieu de ralentir",
     "Accrochage corporel : cherche à se blottir, réclame d'être porté"
   ],
-  "duree_eveil_max": "1h45 à 2h d'éveil maximum entre deux périodes de sommeil à 5 mois — au-delà, la sur-fatigue libère du cortisol et complique l'endormissement. Bébé fait encore 3 siestes par jour à cet âge.",
   "rituel_etapes": [
     {
       "etape": 1,
       "titre": "Baisser l'ambiance et instaurer l'heure calme",
-      "horaire": "18h - 18h45",
-      "duree": "45 min",
-      "description": "Éteindre les plafonniers, allumer des lampes basses. Couper télévision, musique vive et jouets sonores. Ranger les jeux stimulants : place aux manipulations lentes au sol, près de toi. Couper tous les écrans (téléphone, télé, tablette) : la lumière bleue supprime la mélatonine jusqu'à 90 min après extinction. Cette heure calme aide le petit joueur à redescendre avant le rituel."
+      "description": "Éteindre les plafonniers, allumer des lampes basses. Couper télévision, musique vive et jouets sonores. Ranger les jeux stimulants : place aux manipulations lentes au sol, près de toi. Couper tous les écrans (téléphone, télé, tablette). Cette heure calme aide le petit joueur à redescendre avant le rituel."
     },
     {
-      "etape": 2,
-      "titre": "Bain ou toilette (pas tous les soirs)",
-      "horaire": "18h45 - 19h",
-      "duree": "5-10 min",
-      "description": "Bain court (5-7 min), eau à 37°C vérifiée au thermomètre. Salle de bain chauffée à l'avance. Lumière tamisée, voix grave et lente. Pas de jouets sonores ni lumineux dans le bain le soir : ils relancent l'excitation. Si bébé sort sur-excité régulièrement, déplacer le bain en après-midi pendant 1 semaine pour tester."
+      "titre": "Repas du soir",
+      "description": "Le lait reste l'aliment principal à 5 mois. Si la diversification a débuté (sur avis de ton médecin), propose une petite purée de légumes toujours à la même heure, puis la tétée ou le biberon. Bébé bien assis, soutenu, face à toi, sans divertissement (jouet, télé, téléphone). S'il refuse la purée ce soir-là, ne pas insister — on passe directement au lait.",
+      "etape": 2
     },
     {
       "etape": 3,
-      "titre": "Massage doux et séquence réflexologie",
-      "horaire": "19h - 19h20",
-      "duree": "15-20 min",
-      "description": "Bébé déshabillé (juste la couche), au chaud : serviette préchauffée, on découvre une seule zone du corps à la fois, mains réchauffées. Huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans. Mouvements lents, pression 0/10. Chantonne ou parle doucement : ta voix aide bébé à redescendre. Enchaîne avec la séquence réflexologie du soir (7 min) ci-dessous, bébé toujours au chaud."
+      "titre": "Bain ou toilette (pas tous les soirs)",
+      "description": "Bain court (5-7 min), eau à 37°C vérifiée au thermomètre. Salle de bain chauffée à l'avance. Lumière tamisée, voix grave et lente. Pas de jouets sonores ni lumineux dans le bain le soir : ils relancent l'excitation. Si bébé sort sur-excité régulièrement, déplacer le bain en après-midi pendant 1 semaine pour tester."
     },
     {
       "etape": 4,
-      "titre": "Pyjama et gigoteuse",
-      "horaire": "19h20 - 19h30",
-      "duree": "10 min",
-      "description": "Habiller bébé pour la nuit : pyjama puis gigoteuse adaptée à la température de la chambre. On habille maintenant, avant la dernière prise de lait : ainsi, si bébé s'endort en buvant, tu pourras le coucher directement sans le réveiller pour le rhabiller. Gestes doux, lumière déjà tamisée."
+      "titre": "Massage et réflexologie du soir",
+      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud — pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou de réflexologie du soir. Mains réchauffées, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas."
     },
     {
       "etape": 5,
-      "titre": "Dernière prise de lait",
-      "horaire": "19h30 - 19h55",
-      "duree": "20-25 min",
-      "description": "À 5 mois, bébé se distrait facilement en buvant : choisis une pièce calme, dans la pénombre, sans rien à regarder. Aucun écran, aucun téléphone. Bébé déjà en pyjama, tout contre toi. Sein ou biberon. S'il s'endort en buvant, le laisser finir — tu pourras le poser tel quel. Sinon, rot à la fin avant la pose."
+      "titre": "Pyjama et gigoteuse",
+      "description": "Habiller bébé pour la nuit : pyjama puis gigoteuse adaptée à la température de la chambre. On habille maintenant, avant la dernière prise de lait : ainsi, si bébé s'endort en buvant, tu pourras le coucher directement sans le réveiller pour le rhabiller. Gestes doux, lumière déjà tamisée."
     },
     {
       "etape": 6,
+      "titre": "Dernière prise de lait",
+      "description": "À 5 mois, bébé se distrait facilement en buvant : choisis une pièce calme, dans la pénombre, sans rien à regarder. Aucun écran, aucun téléphone. Bébé déjà en pyjama, tout contre toi. Sein ou biberon. S'il s'endort en buvant, le laisser finir — tu pourras le poser tel quel. Sinon, rot à la fin avant la pose."
+    },
+    {
+      "etape": 7,
       "titre": "Phrase d'ancrage et pose dans le lit",
-      "horaire": "19h55 - 20h",
-      "duree": "5 min",
-      "description": "Chambre à 18-20°C, complètement obscure (rideaux occultants). Si tu utilises un bruit blanc : léger, faible volume, à distance (jamais près de la tête), coupé une fois bébé endormi (≈ 20-30 min), jamais toute la nuit. Lit sécurisé : sur le dos, matelas ferme, gigoteuse, AUCUN tour de lit, AUCUNE couverture, AUCUNE peluche, AUCUN cale-bébé (recommandations MIN). Phrase rituelle identique chaque soir : « Le jour s'endort. Tu es en sécurité. Repose-toi, je suis là. » Pose en deux temps (fesses puis haut du corps), puis recoucher sur le dos. Main sur le ventre 1-2 min. Sortir en silence."
+      "description": "Chambre à 18-20°C, complètement obscure (rideaux occultants). Si tu utilises un bruit blanc : léger, faible volume, à distance (jamais près de la tête), coupé une fois bébé endormi (≈ 20-30 min), jamais toute la nuit. Phrase rituelle identique chaque soir : « Le jour s'endort. Tu es en sécurité. Repose-toi, je suis là. » Pose en deux temps (fesses puis haut du corps), puis recoucher sur le dos. Main sur le ventre 1-2 min. Sortir en silence."
     }
   ],
   "reflexologie_du_coucher": {
     "titre": "Séquence réflexologie du soir — 7 minutes",
-    "intro": "Pendant le massage, bébé au chaud, allongé sur le dos, toi face à ses pieds. Voix très basse, mouvements infimes. À 5 mois, la réflexologie est un précieux outil pour faire redescendre le petit joueur de l'excitation de la journée — la pression reste celle d'une caresse.",
+    "intro": "Pendant le massage, bébé au chaud, allongé sur le dos, toi face à ses pieds. Voix très basse, mouvements infimes. À 5 mois, la réflexo est un précieux outil pour faire redescendre le petit joueur de l'excitation de la journée — la pression reste celle d'une caresse.",
     "duree_totale": "7 minutes",
     "pression": "0/10 — c'est une caresse, pas un massage",
     "consentement": "Avant tout, observe les réactions de bébé. Le massage et la réflexologie se font avec son accord : à la moindre crispation, s'il retire son pied ou se détourne, arrête-toi. C'est un moment de plaisir partagé, jamais une technique à imposer.",
@@ -111,33 +103,22 @@
   "script_audio_du_soir": {
     "titre": "« Tu as bien joué aujourd'hui »",
     "duree": "~5 minutes",
-    "instruction": "À écouter sur enceinte douce pendant la séquence réflexologie et le massage, volume bas. Voix grave et lente. Ou à lire à voix haute, posément, en regardant bébé. Les pauses sont des silences réels — pas des indications de ton. Personnalise si tu veux.",
-    "texte": "[Prénom]...\n\nLa journée se termine maintenant.\n\nTu as bien joué aujourd'hui.\n\nTu as attrapé. Tu as secoué. Tu as porté plein de choses à ta bouche pour les découvrir.\n\nTu as ri — ce grand rire qui vient du ventre.\n\nTout ce jeu, c'était formidable. Et maintenant, c'est l'heure de ralentir.\n\nTous ces moments partagés, tous ces rires de la journée — tu les gardes en toi.\n\nComme une réserve de chaleur pour traverser la nuit.\n\nLe monde se calme, maintenant.\n\nLes jouets se reposent. Les lumières s'éteignent. Ma voix devient plus basse.\n\nTon corps, qui a tant bougé, peut enfin s'immobiliser.\n\nTu n'as plus rien à attraper. Plus rien à explorer.\n\nJuste à respirer, et à te laisser aller.\n\nSi tu te réveilles cette nuit, je ne suis pas loin.\n\nMaintenant, tu peux te déposer, [mon tout petit/ma toute petite].\n\nTu es en sécurité.\n\nTu es au chaud.\n\nTu es [aimé/aimée].\n\nDors, mon amour. Dors.\n\nBonne nuit."
-  },
-  "joueur_surstimule": {
-    "titre": "Le petit joueur sur-stimulé : protéger la fin de journée",
-    "explication": "À 5 mois, bébé devient un explorateur joyeux : il attrape, secoue, porte à la bouche, rit, réclame de l'interaction. Cette vitalité est merveilleuse, mais un cerveau immature ne sait pas redescendre seul d'un trop-plein d'excitation. Si le jeu vif se prolonge jusqu'au coucher, bébé arrive sur-stimulé — agité, les yeux brillants — et lutte contre le sommeil. La fin de journée se protège : on baisse l'intensité bien avant la mise au lit.",
-    "tenir_le_cadre": [
-      "Réserver les jeux vifs et stimulants au matin et au début d'après-midi, pas après 17h30",
-      "Instaurer une « heure calme » avant le rituel : lumière basse, jeux doux au sol, manipulation lente, pas d'écran ni de jouet sonore",
-      "Repérer le moment de bascule : dès les premiers signaux de fatigue, ne plus relancer le jeu — l'excitation de trop masque la fatigue",
-      "Garder le même enchaînement chaque soir : la prévisibilité aide bébé à anticiper que le calme arrive"
-    ]
+    "instruction": "À écouter sur enceinte douce pendant la séquence réflexo et le massage, volume bas. Voix grave et lente. Ou à lire à voix haute, posément, en regardant bébé. Les pauses sont des silences réels — pas des indications de ton. Personnalise si tu veux.",
+    "texte": "[Prénom]...\n\nLa journée se termine maintenant.\n\nTu as bien joué aujourd'hui.\n\n[Pause — 5 secondes]\n\nTu as attrapé. Tu as secoué. Tu as porté plein de choses à ta bouche pour les découvrir.\n\nTu as ri — ce grand rire qui vient du ventre.\n\nTout ce jeu, c'était formidable. Et maintenant, c'est l'heure de ralentir.\n\n[Pause — 5 secondes]\n\nTous ces moments partagés, tous ces rires de la journée — tu les gardes en toi.\n\nComme une réserve de chaleur pour traverser la nuit.\n\n[Pause — 5 secondes]\n\nLe monde se calme, maintenant.\n\nLes jouets se reposent. Les lumières s'éteignent. Ma voix devient plus basse.\n\nTon corps, qui a tant bougé, peut enfin s'immobiliser.\n\n[Pause — 10 secondes]\n\nTu n'as plus rien à attraper. Plus rien à explorer.\n\nJuste à respirer, et à te laisser aller.\n\nSi tu te réveilles cette nuit, je ne suis pas loin.\n\n[Pause — 5 secondes]\n\nMaintenant, tu peux te déposer, [mon tout petit/ma toute petite].\n\nTu es en sécurité.\n\nTu es au chaud.\n\nTu es [aimé/aimée].\n\nDors, mon amour. Dors.\n\nBonne nuit."
   },
   "co_parent": {
     "titre": "La place du co-parent au coucher à 5 mois",
-    "texte": "À 5 mois, l'alternance au coucher continue de protéger l'équilibre de chacun : le repos du parent principal, le lien du co-parent, et la sécurité de bébé qui s'attache à deux figures. Le co-parent doit pouvoir mener le rituel de bout en bout, y compris la séquence réflexologie.",
+    "texte": "À 5 mois, l'alternance au coucher continue de protéger l'équilibre de chacun : le repos du parent principal, le lien du co-parent, et la sécurité de bébé qui s'attache à deux figures. Le co-parent doit pouvoir mener le rituel de bout en bout, y compris la séquence réflexo.",
     "actions": [
       "Le co-parent prend le rituel complet 3 à 4 soirs sur 7 — pas seulement le week-end",
-      "La séquence réflexologie du soir — le co-parent l'apprend et la mène lui-même",
+      "Le co-parent apprend la séquence réflexo du soir et la mène lui-même",
       "Le co-parent peut faire la voix du script audio — bébé apprend deux versions également rassurantes",
-      "Une nuit sur deux minimum — le co-parent se lève pour les réveils non liés à la faim"
+      "Une nuit sur deux minimum, le co-parent se lève pour les réveils non liés à la faim"
     ]
   },
   "erreurs_a_eviter": [
     "Les écrans (télévision, tablette, téléphone) dans l'heure qui précède le coucher — la lumière bleue inhibe la sécrétion de mélatonine et retarde l'endormissement de 30 à 90 minutes ; concerne aussi les écrans visibles en arrière-plan",
     "Laisser le jeu vif se prolonger jusqu'au coucher — un bébé sur-stimulé n'arrive pas à redescendre seul et lutte contre le sommeil ; baisser l'intensité bien avant la mise au lit",
     "Reculer l'heure du coucher en pensant que bébé sera « plus fatigué » — produit l'effet inverse : la sur-fatigue libère du cortisol qui empêche l'endormissement et fragmente le sommeil de la nuit"
-  ],
-  "consulter_si": "Si l'endormissement prend plus d'1h chaque soir pendant plus de 3 semaines, si les réveils nocturnes empêchent toute récupération parentale au-delà de 4 à 6 semaines sans amélioration, ou si bébé semble en souffrance inhabituelle (cris aigus, raidissement, refus alimentaire prolongé, perte de poids) — consulter le pédiatre, la sage-femme ou la PMI. Ce protocole ne remplace pas l'avis de ton pédiatre. Si tu ressens un épuisement critique avec idées noires : 3114 (anonyme et gratuit 24/7). Pour parent en détresse : Allo Parents Bébé 0 800 00 34 56 (gratuit), MonParcoursPsy sur prescription, Maman Blues pour la dépression post-partum."
+  ]
 }

@@ -144,138 +144,63 @@ Notes :
 **Structure essentielle :**
 ```json
 {
-  "reperes_cles": ["...", "...", "..."],  // 3 max — CHACUN avec amorce + séparateur (voir règle A)
-  "rituel_etapes": [...],  // étapes chronologiques (nombre variable selon le mois)
-  "reflexologie_du_coucher": {
+  "reperes_cles": ["...", "...", "..."],  // 3 max
+  "signaux_de_fatigue": ["...", "..."],   // 4-5 max, SANS amorce
+  "rituel_etapes": [...],  // 6 étapes chronologiques (varie selon le mois)
+  "reflexologie_du_coucher": {            // ABSENTE en M0 (pas de réflexo sur un nouveau-né)
     "titre": "...",
-    "duree_totale": "7 minutes",
-    "pression": "0/10 — c'est une caresse, pas un massage",
+    "duree_totale": "6-7 minutes",
+    "pression": "0/10",
     "consentement": "...",
-    "etapes": [...]  // 6 zones de réflexologie
+    "etapes": [...]  // 6 zones réflexo
   },
   "script_audio_du_soir": {
-    "titre": "...",
-    "duree": "~5 minutes",
+    "titre": "Berceuse-rituel « ... »",
+    "duree": "~4 minutes",
     "instruction": "...",
-    "texte": "..."  // berceuse — COMMENCE par [Prénom], genrée, SANS marqueur de pause
+    "texte": "..."  // ouverture [prénom], mots de l'enfant genrés [m/f], AUCUN marqueur de pause, refrain de clôture partagé
   },
-  "signaux_de_fatigue": ["...", "..."],  // 4-5 max
-  "erreurs_a_eviter": ["...", "...", "..."],  // 3 erreurs ciblées max (dont les écrans)
-  "consulter_si": "..."
+  "co_parent": {...},                     // optionnel
+  "cadre_de_securite": {...}              // M0–M3 UNIQUEMENT — titre + intro + regles[] (amorce en gras)
+  "erreurs_a_eviter": ["...", "...", "..."]  // 3 erreurs ciblées max (dont les écrans)
 }
 ```
-*(À partir de M12, ajout possible de `variantes_developpementales` — voir règle C.)*
+> ⚠️ **Plus de champ `horaire` ni de clé `consulter_si`** dans les fichiers coucher (voir règles transversales ci-dessous). Les étapes `rituel_etapes` ne portent plus que `etape` / `titre` / `description` (ni `duree`, ni `horaire`). Idem pour les variantes du sélecteur (`variantes_developpementales.themes[].etape_rituel` = `titre` + `description` seulement).
+> ⚠️ **Plus de champ racine `duree_eveil_max`** : l'information sur la durée d'éveil maximale figure déjà dans les `reperes_cles`, on ne la duplique pas.
 
-**Règles générales :**
+**Règles :**
 - Pas d'ancrage en tête (redondant avec le contenu)
 - 3 erreurs max — toujours inclure une référence aux écrans (lumière bleue / mélatonine)
-- La berceuse est l'élément le plus important — soigner la qualité littéraire
+- Le script audio est l'élément le plus important — soigner la qualité littéraire
+- **Pas de capitales d'emphase dans la prose** (pas de « AUCUN », « JAMAIS », « AVANT »… en majuscules). L'emphase passe par l'amorce en gras, pas par le cri typographique. Seuls les acronymes restent en capitales (MIN, ORL, PMI, 15…).
 
----
+#### Sécurité du sommeil (MIN) — règle transversale ⭐
+- La **prévention du couchage sécurisé est portée par le bloc `cadre_de_securite`**, présent **uniquement en M0–M3** (période de risque maximal de mort inattendue du nourrisson). C'est là, et seulement là, qu'on déroule les règles complètes (dos, lit nu et ferme, chambre partagée, 18-20°C, sans tabac, tétine/allaitement).
+- **À partir de M4, on n'empile plus les rappels MIN** dans le rituel ni ailleurs. Bébé se retourne et se dégage de plus en plus seul, et le message a déjà été posé. Une mention courte et apaisée suffit (« le lit reste simple et sûr — matelas ferme, gigoteuse adaptée ») — sans énumération négative, sans « recommandations MIN », sans dramatiser.
+- **Ne pas se prononcer sur les tours de lit / cale-bébé après M3** : ni les recommander, ni les proscrire. Le silence est le ton juste — certains parents les utilisent pour un bébé très mobile, ce n'est pas le lieu d'en faire un point d'attention.
+- Côté rendu : en **M0–M3**, le bloc `cadre_de_securite` prend le **design rouge des protocoles Guide-moi** (cadre fermé `1px #D4604A`) — voir `CONSIGNES_CLAUDE_CODE_coucher.md`.
 
-#### ⚠️ RÈGLES À VÉRIFIER SYSTÉMATIQUEMENT (erreurs récurrentes — à contrôler avant toute livraison)
+#### Règles transversales du rituel ⭐ (à appliquer à TOUS les mois)
+1. **Ni heure ni durée dans les étapes du rituel.** Aucun horaire (« 19h45 ») ni durée (« 10 min », « 30-60 min ») dans `rituel_etapes` ni dans les `etape_rituel` du sélecteur : c'est au parent d'adapter à son organisation. Le créneau indicatif (≈ 19h-20h) est donné une seule fois, dans les `reperes_cles`. Les champs `horaire` et `duree` n'existent plus dans les étapes.
+2. **L'explication « lumière bleue / mélatonine » ne va QUE dans `erreurs_a_eviter`.** Dans l'étape « Baisser l'ambiance », on garde uniquement l'action (« couper les écrans et la musique vive »), jamais le mécanisme — pas de répétition entre catégories.
+3. **Étape « repas » obligatoire à partir de M5** (début de la diversification). Une étape de repas du soir clairement identifiée doit figurer dans le rituel de chaque mois ≥ M5, adaptée à l'âge (diversification puis lait au début ; vrai dîner en famille chez le tout-petit). Le lait du soir, s'il subsiste, vient avant le brossage des dents.
+4. **Une seule histoire** (ou un nombre défini à l'avance), jamais « des histoires » en open bar. La répétition de la même histoire sur 2-3 semaines est un atout d'ancrage à rappeler.
+5. **Plus de bloc `consulter_si` dans le coucher.** Cette information vit dans la rubrique Guide-moi (sommeil), où elle a davantage sa place. La sécurité du premier trimestre reste portée par `cadre_de_securite` (M0–M3).
+6. **Pas de répétition entre catégories.** Chaque information à sa place : la sécurité du lit est dans les `reperes_cles` (ou le bloc dédié quand il existe), pas re-développée dans la phrase de clôture ; le mécanisme des écrans est dans les erreurs, pas dans le rituel ; etc. Vérifier systématiquement avant production.
+7. **Un seul mot pour le sac de couchage** : « gigoteuse » (par défaut). Ne pas proposer « gigoteuse ou turbulette » — les parents comprennent. Peu importe que le mot varie d'un mois à l'autre, mais jamais les deux ensemble.
+8. **Genre — vérification systématique** dans :
+   - la **berceuse** : tout mot qualifiant l'enfant (« tu ») est crocheté masculin/féminin, y compris les déterminants et superlatifs accordés — `[Quel aventurier/Quelle aventurière]`, `[le plus intrépide des aventuriers/la plus intrépide des aventurières]`, `[tout seul/toute seule]`, `[grand/grande]`, `[aimé/aimée]`. Les mots qualifiant le parent lecteur sont neutralisés.
+   - les **boutons du sélecteur** (`variantes_developpementales.themes[].sous_titre`) : forme `[Il…/Elle…]` avec accord complet des deux côtés (« [Il veut tout faire seul…/Elle veut tout faire seule…] » — ne pas oublier le féminin).
+9. **Bain ou toilette — alléger dès M8.** Ne plus indiquer la **température du bain** (« eau à 37°C ») ni les rappels d'ambiance redondants (« lumière tamisée, voix grave et lente ») à partir de M8. Ces consignes, répétées mois après mois, font décrocher le lecteur ; on garde la place pour le conseil adapté à l'âge (sécurité antidérapante, participation de l'enfant, etc.). M0–M7 peuvent conserver la température (nourrisson).
+10. **Massage + réflexologie AVANT le pyjama, regroupés dans une même étape** (« Massage, réflexologie, puis pyjama »). En sortie de bain, enfant encore dévêtu mais **au chaud** (une zone à la fois). **Le parent choisit** ce soir-là le massage, la réflexologie, ou les deux, selon la réceptivité de l'enfant **et sa propre fatigue**. **Aucun indicatif de temps de réflexologie** (« 7 min ») dans le rituel, à aucun mois (le détail des durées par zone reste dans le bloc `reflexologie_du_coucher`). Le pyjama vient **après** (logique de l'huile). M4/M5 : l'étape massage/réflexo peut rester distincte de l'étape pyjama qui la suit.
+11. **Lait du soir AVANT l'histoire** (à partir de M12), dans le calme de la chambre, suivi du brossage des dents (le brossage est mentionné dès M12) — puis l'histoire, bouche propre, ferme la soirée. Formulation du lait : « au dessert du repas du soir, **ou à cet instant dans le rituel du soir** » (ne plus écrire « dernier temps »). **Supprimer** la phrase de rappel « Ensuite, un brossage… puis le coucher » (redondante).
+12. **Histoire — nuance du cadre dès M13** : « Une seule histoire **(ou bien un nombre prédéfini et annoncé à l'enfant, pour tenir le cadre)**, lue lentement… ».
+13. **Pas de paragraphe « sécuriser le lit » ni « tenir le cadre ».** On ne développe pas la sécurité du lit dans le coucher (elle vit ailleurs) : à partir de M18, **juste évoquer** « envisager le passage à un lit au sol » dans la `description` d'ouverture, sans développer. Le sous-bloc `tenir_le_cadre` des blocs thématiques mensuels est supprimé.
+14. **Plus de bloc thématique d'âge en fin de page.** Le paragraphe lié à l'âge de l'enfant (ex. `regression_4_mois`, `poussee_angoisse_8_mois`, `opposition_au_coucher`, `l_explorateur_infatigable`…) **n'est plus une clé séparée en bas de page** : son contenu est **fusionné en tête, dans la `description` « Ce qui se passe »**. Un seul paragraphe d'ouverture, plus dense, bien ordonné (phénomène développemental nommé → ce qui se passe → conséquence au coucher → recadrage « pas un caprice / une régression » → quoi faire → pourquoi le rituel ancre), **sans redondance interne**. ⚠️ Ne pas confondre avec le bloc `co_parent` (M0-M11), qui reste une section distincte à conserver.
 
-Ces cinq règles ont déjà dû être corrigées plusieurs fois. **Aucun fichier Coucher ne part sans ces cinq vérifications.** Un script de contrôle est fourni en fin de section.
-
-**A. Amorce des `reperes_cles` — séparateur obligatoire.**
-Chaque repère DOIT contenir un `:` **ou** un `—` (tiret cadratin) pour que l'UI mette son amorce en gras. Le composant coupe sur le **premier** `:` ou `—`. **`;` ne fonctionne pas.** Sans séparateur, le repère s'affiche sans gras → défaut.
-- ❌ `Fenêtre d'éveil de 4h30 à 5h30 max après la sieste` *(aucun séparateur)*
-- ❌ `Rituel identique à ± 15 min chaque soir ; le babillage est normal` *(`;` ne coupe pas)*
-- ✅ `Fenêtre d'éveil de 4h30 à 5h30 max — après la sieste`
-- ✅ `Rituel identique à ± 15 min chaque soir — le babillage est normal`
-> Si un repère n'a pas de seconde partie naturelle, en créer une courte : `Rituel identique chaque soir — à ± 15 min près`. Jamais de repère sans amorce séparée.
->
-> **La même règle s'applique aux `co_parent.actions[]`** : chaque point du bloc co-parent porte aussi une amorce en gras (un `:` ou `—`). On met en exergue l'objet de l'action plutôt que « Le co-parent… » : `Le bain — le co-parent le prend en charge 3 soirs sur 7`, `Une nuit sur deux minimum — le co-parent se lève pour les réveils non liés à la faim`. Le `;` ne coupe pas non plus ici.
-
-**B. Berceuse — genrage intégral de tout ce qui désigne l'enfant.**
-La berceuse est un moment émotionnel personnalisé. **On garde les mots affectifs et on les genre**, plutôt que de les neutraliser (on ne sacrifie pas le mignon). Placeholder : `[forme masculine/forme féminine]`, **masculin toujours en premier**, jamais d'écriture inclusive.
-- **Adjectifs attribués à l'enfant** → genrés : `[grand/grande]`, `[fier/fière]`, `[content/contente]`, `[audacieux/audacieuse]`, `[joyeux/joyeuse]`, `[fâché/fâchée]`, `[frustré/frustrée]`, `[fatigué/fatiguée]`, `[sûr/sûre]`, `[aimé/aimée]`.
-- **Participes des verbes pronominaux et des verbes en *être*** (s'accordent avec l'enfant) → genrés : `Tu t'es [levé/levée]`, `Tu t'es [assis/assise]`, `Tu t'es [retourné/retournée]`, `Tu t'es [mis/mise] debout`, `Tu es [allé/allée]`, `Tu es [revenu/revenue]`, `Tu es [tenu/tenue]`.
-- **Participe avec *avoir* + COD antéposé désignant l'enfant** → genré : `Tes jambes, qui t'ont [porté/portée] si haut`.
-- **Termes d'affection et substantifs renvoyant à l'enfant** → genrés : `[mon tout petit/ma toute petite]`, `[ma grande/mon grand]`, `[un grand/une grande]`, `[un petit/une petite]`, `tout(e) seul(e)` → `[tout seul/toute seule]`, `entre [tous/toutes]`.
-- **Le parent s'écrit à l'inclusif (forme au point), JAMAIS au féminin assumé** — voir règle G. L'enfant et le parent ont deux genres indépendants : l'enfant passe par `[masc/fém]` (résolu par l'app selon le genre de l'enfant) ; le parent (maman **ou** papa) passe par l'inclusif typographique. `je suis fière de toi` → `je suis fièr.e de toi`. Ne jamais confondre les deux : `tu en es [fier/fière]` (enfant, placeholder) et `je suis fièr.e` (parent, inclusif) coexistent dans la même phrase.
-- **Participe avec *avoir* sans COD antéposé = invariable**, on ne touche pas : `Tu as joué`, `Tu as ri`, `Tu as regardé`, `Tu as porté plein de choses` (le COD suit).
-- **Pronom renvoyant à un nom commun (le corps, le cerveau…) ≠ genrage de l'enfant** : `Tout ton corps sait qu'il peut se reposer` → `il` = le corps, on ne touche pas.
-
-**C. Berceuse — toujours commencer par `[Prénom]`.**
-La berceuse s'ouvre **systématiquement** par le prénom de l'enfant. Forme standard : `[Prénom]...\n\n` en première ligne. Si une formule d'accroche affective existe (« Bonsoir, … »), elle vient **après** le prénom et reste genrée : `[Prénom]...\n\nBonsoir, [mon tout petit/ma toute petite].`
-
-**D. Berceuse — aucun marqueur de pause dans le texte.**
-On n'écrit **jamais** `[Pause — 5 secondes]`, `[Pause - 10 secondes]` ni aucune variante. **Une ligne vide (`\n\n`) marque le temps** (cf. `CONSIGNES_CLAUDE_CODE_coucher.md` §7). Les pauses sont rendues par le découpage en strophes, pas par une annotation. *(NB : les marqueurs `[pause - N secondes]` ne sont autorisés QUE dans les méditations de `03_prendre_soin_de_moi.json`, jamais dans la berceuse du Coucher.)*
-
-**E. Jamais le diminutif « réflexo ».**
-On écrit toujours **« réflexologie »** en toutes lettres, partout (titres d'étape, intros, co-parent, descriptions). `séquence réflexologie`, `zones de réflexologie`, `la réflexologie`. Le diminutif « réflexo » est proscrit.
-
-**F. Lait du soir — ne JAMAIS suggérer l'arrêt du lait.**
-Le **lait infantile est recommandé jusqu'à 3 ans**. On ne présente donc **jamais** la prise de lait comme optionnelle ni supprimable. Sont **proscrits** : « (si encore) », « peut être supprimé(e) », « l'eau au repas suffit », « beaucoup d'enfants n'ont plus de prise de lait », « ne pas la réintroduire ». À la place :
-- Présenter le lait du soir comme **un temps normal du rituel** (sein ou biberon), qui garde toute sa place.
-- **Sécurité dentaire** : le lait se prend **avant le brossage des dents** — donc l'étape devient « **Lait du soir, puis brossage des dents** » (modèle M12 : « mieux vaut ne pas laisser le lait sur les dents pour la nuit »). Le brossage suit le lait ; le coucher suit le brossage.
-- **À partir de M18** : on peut aussi proposer le lait **au dessert, pendant le repas** (et non plus seulement le soir). En dessous de M18, il reste intégré au repas du soir / au rituel.
-
-**G. Le parent s'écrit à l'inclusif (forme au point), jamais au féminin assumé.**
-Dès qu'un mot accordé désigne **le parent** (le « tu » des descriptions, le « je » de la berceuse — maman **ou** papa), on emploie l'**inclusif typographique au point** : `garant.e`, `seul.e`, `débordé.e`, `fièr.e`, `attentif.ve`, `épuisé.e`, `prêt.e`, `rassuré.e`, `présent.e`. ⚠️ Ne pas confondre avec un accord sur un **nom féminin** (« une seul**e** histoire », « voix pos**ée** », « sieste install**ée** ») qui n'a rien à voir avec le parent et **reste tel quel**. Le genre de l'**enfant**, lui, passe toujours par le placeholder `[masc/fém]` (jamais d'inclusif au point pour l'enfant). *(La forme au point `.e` est la convention retenue ici ; les méditations de `03_prendre_soin_de_moi` utilisent encore `(e)` / `·e` — à harmoniser un jour.)*
-
-**H. Espaces insécables avant la ponctuation double et dans les guillemets.**
-Insérer une **espace insécable U+00A0** : **avant** `:` `;` `!` `?`, **avant** `»`, et **après** `«`. Jamais d'espace normale à ces positions. Pas d'espace insécable autour du tiret cadratin `—` (espaces normales). *(Vérifiable et corrigeable automatiquement — voir script.)*
-
-##### Bloc `variantes_developpementales` (« Où en est [Prénom] ? », M12+)
-
-Ce bloc reste **personnalisé (`[prénom]`) et genré**. Deux exigences de formulation dans `intro` :
-1. **Lever le doute « on ne choisit pas ce qu'on développe ».** L'`intro` doit faire comprendre qu'on **observe** l'enfant et qu'on **s'adapte** au domaine où il se développe *déjà*, pour **valider / accompagner** cet élan — **pas** pour pousser ou sur-stimuler une autre branche de développement. Bannir « choisis l'axe où [prénom] se développe » (ambigu : laisse croire qu'on choisit quoi développer).
-2. **Genrage propre** : éviter « là où **il** en est » non genré. Préférer une tournure neutre (`là où [prénom] en est déjà`, `ce vers quoi son élan va`) ou genrer explicitement.
-
-Formulation de référence (à réutiliser) :
-> *« Chaque enfant avance à son rythme[, et à cet âge les écarts sont grands]. En observant [prénom], repère le domaine qui l'occupe le plus en ce moment — ce vers quoi son élan va spontanément. Choisis cet axe : le premier temps du rituel, la réflexologie et la berceuse s'adapteront pour valider et accompagner ce mouvement, exactement là où [prénom] en est déjà. Il ne s'agit pas de pousser vers une nouvelle compétence, mais de soutenir celle qui se déploie déjà. »*
-
-`question_selecteur` standard : **« Où en est [prénom] en ce moment ? »** (pas « Que cherche [prénom] à développer ? »).
-
-##### Script de contrôle (à exécuter avant livraison de tout `02_coucher.json`)
-
-```python
-import json, re, glob
-NBSP = "\u00A0"
-PARENT_FEM = ["garante", "débordée", "je suis fière", "reste attentive", "tu es seule", "bébé seule"]
-MILK_BAD = ["si encore", "peut être supprimé", "l'eau au repas suffit",
-            "n'ont plus de prise de lait", "ne pas la réintroduire"]
-def strings(o):
-    if isinstance(o, str): yield o
-    elif isinstance(o, list):
-        for x in o: yield from strings(x)
-    elif isinstance(o, dict):
-        for v in o.values(): yield from strings(v)
-for f in glob.glob("mois_*_-_02_coucher.json"):
-    d = json.load(open(f, encoding="utf-8"))
-    m = re.search(r'mois_(\d+)', f).group(1)
-    raw = json.dumps(d, ensure_ascii=False)
-    sc = d.get("script_audio_du_soir") or d.get("script_audio") or {}
-    txt = sc.get("texte", "")
-    # A. repères avec séparateur
-    for i, r in enumerate(d.get("reperes_cles", [])):
-        assert re.search(r'[:—]', r), f"M{m} repère#{i+1} sans amorce (: ou —)"
-    # A bis. co_parent.actions avec séparateur
-    cp = d.get("co_parent")
-    if isinstance(cp, dict):
-        for j, a in enumerate(cp.get("actions", [])):
-            assert re.search(r'[:—]', a), f"M{m} co_parent action#{j+1} sans amorce (: ou —)"
-    # C. berceuse commence par [Prénom]
-    assert txt.lstrip().lower().startswith("[prénom"), f"M{m} berceuse ne commence pas par [Prénom]"
-    # D. aucun marqueur de pause
-    assert not re.search(r'\[[Pp]ause', txt), f"M{m} marqueur de pause présent"
-    # E. pas de diminutif 'réflexo'
-    assert not re.search(r'réflexo(?!logie)', raw), f"M{m} diminutif 'réflexo' présent"
-    # F. lait : aucune formulation d'arrêt
-    for bad in MILK_BAD:
-        assert bad not in raw.lower(), f"M{m} lait : formulation interdite « {bad} »"
-    # G. parent : aucun mot au féminin assumé
-    for w in PARENT_FEM:
-        assert w not in raw, f"M{m} parent au féminin « {w} » (passer à l'inclusif)"
-    # H. espaces insécables
-    for s in strings(d):
-        assert not re.search(r' [;:!?»]', s), f"M{m} espace normale avant ponctuation double"
-        assert "« " not in s, f"M{m} espace normale après «"
-    print(f"M{m} OK")
-```
-*(Le genrage de l'enfant — règle B — se relit à l'œil : repérer tout adjectif/participe se rapportant à l'enfant et hors `[masc/fém]`. La distinction parent-vs-nom-féminin de la règle G se relit aussi à l'œil pour « seul(e) ».)*
+#### Sous-titre du mois (`sous_titre`) ⭐
+- **Sous-titre UNIFORME sur tous les mois** : `"Un esprit, un corps, et un cœur apaisé"`. Identique de M0 à M23 — il signe la rubrique Coucher.
+- Ne jamais écrire le numéro du mois ni un générique type « Crée ton rituel adapté » / « Rituel & réflexologie du soir ».
 
 ### 4.3 `03_prendre_soin_de_moi.json` — Prendre soin de moi
 
@@ -1009,12 +934,6 @@ Cette palette est **indicative et ajustable** — la fondatrice peut faire évol
 ## 5. Ton éditorial transverse
 
 **Tutoiement du parent** systématique.
-
-**Parent à l'inclusif (maman OU papa).** Tout mot accordé qui désigne le parent s'écrit à l'**inclusif au point** (`fièr.e`, `garant.e`, `seul.e`, `débordé.e`, `attentif.ve`, `épuisé.e`). On ne présuppose pas la maman seule, ni l'allaitement. Le genre de l'**enfant** passe lui par le placeholder `[masc/fém]` quand le contenu est personnalisé (berceuse, variantes), ou par le masculin générique narratif dans les descriptions. *(Ne pas confondre l'accord-parent avec un accord sur un nom féminin : « une seule sieste », « voix posée » restent inchangés.)*
-
-**Espaces insécables (U+00A0)** : avant `:` `;` `!` `?`, avant `»`, après `«`. Jamais d'espace normale à ces positions. (Vérification automatisable.)
-
-**Lait infantile recommandé jusqu'à 3 ans** : ne jamais suggérer d'arrêter le lait. Le proposer dans le repas / le rituel, **avant le brossage des dents** le soir ; **dès M18**, possible aussi au dessert pendant le repas. Voir §4.2 règle F pour le détail Coucher.
 
 **L'enfant nommé "ton enfant"** dans le JSON (le prénom est inséré en runtime par l'app).
 

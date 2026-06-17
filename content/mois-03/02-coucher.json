@@ -3,8 +3,8 @@
   "tranche_age": "3 mois",
   "rubrique": "preparer_le_coucher",
   "titre_rubrique": "Préparer le coucher",
-  "sous_titre": "Mois 3 — Rituel & réflexologie du soir",
-  "description": "À 3 mois, le sommeil de bébé se réorganise — c'est la fameuse régression des 3-4 mois. Le rituel du soir devient ton outil principal : c'est sa régularité (et non son contenu) qui ancre la sécurité. Tu ne forces pas un horaire — tu poses un cadre prévisible que le cerveau immature de bébé apprend à reconnaître.",
+  "sous_titre": "Un esprit, un corps, et un cœur apaisé",
+  "description": "À 3 mois, le sommeil de bébé se réorganise — c'est la fameuse régression des 3-4 mois. Le rituel du soir devient ton outil principal : c'est sa régularité (et non son contenu) qui ancre la sécurité. Tu ne forces pas un horaire — tu poses un cadre prévisible que le cerveau immature de bébé apprend à reconnaître.",
   "reperes_cles": [
     "Coucher entre 19h et 20h — fenêtre d'éveil de 1h à 1h30 max avant la dernière mise au lit",
     "Cycle de sommeil de 50-60 min — micro-éveils entre cycles, normaux",
@@ -14,44 +14,32 @@
     {
       "etape": 1,
       "titre": "Baisser l'ambiance de la maison",
-      "horaire": "18h - 18h30",
-      "duree": "30 min",
-      "description": "Éteindre le plafonnier, allumer les lampes de chevet. Couper la télévision (même en fond). Voix basses, mouvements lents. Refuser les visites après 18h pendant cette phase. Si d'autres enfants : déplacer leur activité hors de la pièce de bébé."
+      "description": "Éteindre le plafonnier, allumer les lampes de chevet. Couper la télévision (même en fond). Voix basses, mouvements lents. Refuser les visites après 18h pendant cette phase. Si d'autres enfants : déplacer leur activité hors de la pièce de bébé."
     },
     {
       "etape": 2,
       "titre": "Traverser la fenêtre des pleurs du soir",
-      "horaire": "18h30 - 19h",
-      "duree": "30 min",
       "description": "À 3 mois, le pic des pleurs du soir s'apaise mais peut encore durer. Portage physiologique (écharpe, porte-bébé), bercement vertical lent, bruit blanc en fond. Si crise installée, sortie 10 min dehors — l'air frais et la lumière externe régulent souvent en quelques minutes."
     },
     {
       "etape": 3,
       "titre": "Bain ou toilette (pas tous les soirs)",
-      "horaire": "19h - 19h15",
-      "duree": "5-10 min",
-      "description": "Bain court (5-7 min), eau à 37°C vérifiée au thermomètre. Pièce chaude (24-25°C). Lumière tamisée. Voix grave et lente. Observer ton bébé sur 1 semaine : certains bébés se réveillent au bain au lieu de s'apaiser — adapter."
+      "description": "Bain court (5-7 min), eau à 37°C vérifiée au thermomètre. Pièce chaude (24-25°C). Lumière tamisée. Voix grave et lente. Observer ton bébé sur 1 semaine : certains bébés se réveillent au bain au lieu de s'apaiser — adapter."
     },
     {
       "etape": 4,
       "titre": "Pyjama et massage doux",
-      "horaire": "19h15 - 19h30",
-      "duree": "10-15 min",
       "description": "Sur la table à langer ou le lit, pièce à 22-24°C. Mains chaudes, huile végétale neutre (amande douce, calendula). Mouvements lents, pression 0/10. Parler ou chantonner pendant. 5 min maximum — bébé fatigue vite à cet âge. Puis enchaîner avec la séquence réflexologie ci-dessous."
     },
     {
       "etape": 5,
       "titre": "Dernière tétée ou biberon",
-      "horaire": "19h30 - 20h",
-      "duree": "15-20 min",
       "description": "Dans la pénombre, lumière orange si possible. Aucun écran, aucun téléphone. Peau à peau idéalement. Si bébé s'endort en tétant, le laisser finir tranquillement. Rot à la fin, position verticale 5 min avant la pose."
     },
     {
       "etape": 6,
       "titre": "Phrase d'ancrage et pose dans le lit",
-      "horaire": "20h",
-      "duree": "5 min",
-      "description": "Chambre à 18-20°C, complètement obscure. Bruit blanc continu allumé avant la pose. Phrase rituelle identique chaque soir : \"La nuit arrive. Tu es en sécurité. Je suis là.\" Pose en deux temps (fesses puis tête). Main posée sur le ventre 2 min après la pose. Sortir en silence."
+      "description": "Chambre à 18-20°C, complètement obscure. Bruit blanc continu allumé avant la pose. Phrase rituelle identique chaque soir : \"La nuit arrive. Tu es en sécurité. Je suis là.\" Pose en deux temps (fesses puis tête). Main posée sur le ventre 2 min après la pose. Sortir en silence."
     }
   ],
   "reflexologie_du_coucher": {
@@ -93,7 +81,7 @@
       {
         "zone": "Envelopper et clore",
         "duree": "1 minute",
-        "geste": "Envelopper à nouveau les deux pieds dans tes mains. Murmurer : \"Tu peux dormir. Je suis là.\"",
+        "geste": "Envelopper à nouveau les deux pieds dans tes mains. Murmurer : \"Tu peux dormir. Je suis là.\"",
         "ce_que_cest": "Clôture rituelle — bébé associe ce geste à la fin du jour"
       }
     ]
@@ -102,7 +90,7 @@
     "titre": "Berceuse-rituel « Le monde se ralentit »",
     "duree": "~5 minutes",
     "instruction": "À lire à voix grave et lente (90 mots/min), volume très bas, dans la pénombre, pendant la dernière tétée ou juste après. À 3 mois, bébé ne comprend pas les mots mais perçoit pleinement la musicalité de ta voix, le rythme, les pauses. Personnalise [prénom] si tu veux.",
-    "texte": "[Prénom]...\n\nLa journée se termine maintenant.\n\nTu as beaucoup vécu aujourd'hui.\n\nBeaucoup de lumière. Beaucoup de visages. Beaucoup de sons.\n\nC'était grand, pour ton petit corps.\n\n[Pause — 5 secondes]\n\nMaintenant, le monde se ralentit.\n\nLa lumière baisse.\n\nLes bruits s'éloignent.\n\nMon souffle se pose près du tien.\n\n[Pause — 5 secondes]\n\nTes yeux ont tellement regardé aujourd'hui. Ils peuvent se fermer.\n\nTes mains ont tellement bougé. Elles peuvent s'ouvrir doucement.\n\nTes pieds, tes jambes, ton ventre — tout ton corps peut se reposer.\n\n[Pause — 5 secondes]\n\nTu n'as rien à faire.\n\nTu n'as rien à comprendre.\n\nTu as juste à être là, et à respirer.\n\nÉcoute mon souffle. Inspire... expire... Inspire... expire...\n\nC'est doux. C'est lent.\n\n[Pause — 5 secondes]\n\nTu fais un travail immense en ce moment, mon tout petit.\n\nTon cerveau apprend à dormir comme un grand.\n\nÇa fait beaucoup, je sais.\n\nTu peux te tromper. Tu peux te réveiller. Je serai là.\n\n[Pause — 5 secondes]\n\nLa nuit arrive maintenant.\n\nLa nuit, c'est juste un long câlin.\n\nUn long câlin où on se repose ensemble.\n\nJe suis là. Toute la nuit, je suis là.\n\n[Pause — 5 secondes]\n\nTu es en sécurité.\n\nTu es au chaud.\n\nTu es aimé.\n\nDors mon amour. Dors.\n\nBonne nuit."
+    "texte": "[Prénom]...\n\nLa journée se termine maintenant.\n\nTu as beaucoup vécu aujourd'hui.\n\nBeaucoup de lumière. Beaucoup de visages. Beaucoup de sons.\n\nC'était grand, pour ton petit corps.\n\n[Pause — 5 secondes]\n\nMaintenant, le monde se ralentit.\n\nLa lumière baisse.\n\nLes bruits s'éloignent.\n\nMon souffle se pose près du tien.\n\n[Pause — 5 secondes]\n\nTes yeux ont tellement regardé aujourd'hui. Ils peuvent se fermer.\n\nTes mains ont tellement bougé. Elles peuvent s'ouvrir doucement.\n\nTes pieds, tes jambes, ton ventre — tout ton corps peut se reposer.\n\n[Pause — 5 secondes]\n\nTu n'as rien à faire.\n\nTu n'as rien à comprendre.\n\nTu as juste à être là, et à respirer.\n\nÉcoute mon souffle. Inspire... expire... Inspire... expire...\n\nC'est doux. C'est lent.\n\n[Pause — 5 secondes]\n\nTu fais un travail immense en ce moment, mon tout petit.\n\nTon cerveau apprend à dormir comme [un grand/une grande].\n\nÇa fait beaucoup, je sais.\n\nTu peux te tromper. Tu peux te réveiller. Je serai là.\n\n[Pause — 5 secondes]\n\nLa nuit arrive maintenant.\n\nLa nuit, c'est juste un long câlin.\n\nUn long câlin où on se repose ensemble.\n\nJe suis là. Toute la nuit, je suis là.\n\n[Pause — 5 secondes]\n\nTu es en sécurité.\n\nTu es au chaud.\n\nTu es [aimé/aimée].\n\nDors mon amour. Dors.\n\nBonne nuit."
   },
   "signaux_de_fatigue": [
     "Regard qui se fige ou décroche, dans le vague",
@@ -111,13 +99,12 @@
     "Mouvements saccadés des bras et des jambes",
     "Détournement de tête face à toute sollicitation visuelle ou sonore"
   ],
-  "duree_eveil_max": "1h à 1h30 d'éveil entre 2 siestes à 3 mois — au-delà, la sur-fatigue rend l'endormissement difficile",
   "co_parent": {
     "titre": "La place du co-parent au coucher à 3 mois",
     "texte": "À 3 mois, l'alternance des parents au coucher est essentielle — pour la maman qui a besoin de repos, pour le co-parent qui construit son lien, et pour bébé qui doit s'habituer à plusieurs figures sécurisantes. Si la reprise du travail approche, le co-parent doit déjà savoir gérer le coucher seul.",
     "actions": [
       "Le co-parent prend en charge le bain et le massage 3 à 4 soirs sur 7",
-      "Si allaitement : le co-parent gère tout le rituel jusqu'à la dernière tétée",
+      "Si allaitement : le co-parent gère tout le rituel jusqu'à la dernière tétée",
       "Une nuit sur deux minimum, c'est le co-parent qui se lève pour les réveils non liés à la faim",
       "Le co-parent peut faire la voix du script audio — bébé apprend deux versions du rituel"
     ]
@@ -136,8 +123,7 @@
   },
   "erreurs_a_eviter": [
     "Les écrans (télévision, tablette, téléphone) dans l'heure qui précède le coucher — la lumière bleue inhibe la sécrétion de mélatonine et retarde l'endormissement de 30 à 90 minutes",
-    "Repousser l'heure du coucher en pensant que bébé sera \"plus fatigué\" — produit l'effet inverse : la sur-fatigue libère du cortisol qui empêche l'endormissement et fragmente le sommeil",
-    "Changer le rituel chaque soir ou tester plusieurs méthodes pendant la régression — le cerveau de 3 mois a besoin de prévisibilité absolue ; chaque changement allonge la traversée de la phase"
-  ],
-  "consulter_si": "Si l'endormissement prend plus d'1h chaque soir pendant plus de 3 semaines, si les réveils nocturnes empêchent toute récupération parentale au-delà d'un mois, si tu ressens un épuisement critique avec idées noires (3114), ou si bébé semble en souffrance inhabituelle (cris aigus, refus alimentaire, perte de poids) — sage-femme, médecin traitant, consultation sommeil pédiatrique, ou MonParcoursPsy pour toi."
+    "Repousser l'heure du coucher en pensant que bébé sera \"plus fatigué\" — produit l'effet inverse : la sur-fatigue libère du cortisol qui empêche l'endormissement et fragmente le sommeil",
+    "Changer le rituel chaque soir ou tester plusieurs méthodes pendant la régression — le cerveau de 3 mois a besoin de prévisibilité absolue ; chaque changement allonge la traversée de la phase"
+  ]
 }

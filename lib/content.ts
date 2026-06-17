@@ -136,8 +136,12 @@ export type CoucherModule = {
     actions: string[];
   };
   signaux_de_fatigue?: string[];
+  cadre_de_securite?: {
+    titre: string;
+    intro?: string;
+    regles: string[];
+  };
   erreurs_a_eviter?: string[];
-  consulter_si?: string;
 };
 
 export type ContentRow = {

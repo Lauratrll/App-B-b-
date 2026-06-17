@@ -1,23 +1,22 @@
 {
-  "mois": 17,
-  "tranche_age": "17 mois",
+  "mois": 18,
+  "tranche_age": "18 mois",
   "rubrique": "preparer_le_coucher",
   "titre_rubrique": "Préparer le coucher",
-  "sous_titre": "Crée ton rituel adapté",
-  "description": "À 17 mois, le sensible ressent tout très fort : la joie est immense, la frustration est un raz-de-marée, et les émotions de la journée ressortent souvent au coucher, quand la fatigue lève les défenses. C'est aussi l'âge où peuvent apparaître les premières peurs (le noir, les bruits). Au coucher, le rôle du parent n'est pas de faire taire ces émotions mais de les co-réguler : les accueillir, les nommer, et offrir un cadre assez stable pour que l'enfant puisse les déposer. Le rituel reste l'ancre : ce que tu remplis dans la journée (câlins, rires, réconfort) remplit son réservoir émotionnel, et ta présence calme — pas la richesse du rituel — le rassure.",
+  "sous_titre": "Un esprit, un corps, et un cœur apaisé",
+  "description": "À 18 mois, ton enfant entre dans l'âge de la négociation : assembler ses premiers mots, affirmer ses « non », vouloir décider, ce n'est pas de la provocation — c'est ainsi qu'il teste qu'il existe comme une personne distincte. Cette belle poussée d'autonomie s'invite aussi au coucher, où chaque étape peut devenir matière à discussion. Une régression du sommeil est d'ailleurs fréquente autour de 18 mois — elle mêle poussée du langage, montée des canines, angoisse de séparation et besoin d'affirmation. La clé n'est pas de gagner le bras de fer : répondre point par point ou multiplier les explications ne fait que le nourrir. Le plus apaisant est un cadre clair, stable et chaleureux — un rituel identique, des choix réels mais cadrés (quel pyjama, quel livre), une phrase de clôture qui ne change jamais — dans lequel l'enfant se sent acteur sans pouvoir tout faire dérailler. À cet âge, l'enfant n'a plus qu'une sieste, l'après-midi, et tu peux envisager le passage à un lit au sol.",
   "reperes_cles": [
-    "Coucher entre 19h et 19h30 — au-delà, la sur-fatigue amplifie les émotions et complique l'endormissement",
-    "Fenêtre d'éveil de 4h30 à 5h30 max — après la sieste unique de l'après-midi",
-    "Rituel strictement identique à ± 15 min chaque soir — la stabilité du cadre contient les grandes émotions"
+    "Coucher entre 19h et 20h, à heure régulière — un cadre horaire stable rassure plus que sa souplesse",
+    "Fenêtre d'éveil d'environ 5 à 6h — après la sieste unique de l'après-midi",
+    "Rituel identique chaque soir, à ± 15 min près — proposer les choix en amont évite la négociation au coucher"
   ],
   "signaux_de_fatigue": [
     "Bâillements répétés, frottement des yeux et des oreilles",
-    "Émotions à fleur de peau : rit puis pleure, se vexe pour un rien",
-    "Agitation paradoxale : s'excite, court, crise pour un détail au lieu de ralentir",
-    "Recherche intense de réconfort : se blottit, réclame le doudou, ne veut pas être posé",
-    "Regard fixe, dans le vague, perte d'intérêt pour le jeu"
+    "Regard fixe, dans le vague, perte d'intérêt pour ses activités",
+    "Excitation paradoxale : court, grimpe, rit nerveusement au lieu de ralentir",
+    "Multiplication des « non » et des oppositions — la fatigue, pas le caprice",
+    "Accrochage : réclame les bras, le doudou, le contact"
   ],
-  "duree_eveil_max": "4h30 à 5h30 d'éveil maximum après la sieste à 17 mois — au-delà, la sur-fatigue libère du cortisol, amplifie les émotions et rend l'endormissement très difficile.",
   "variantes_developpementales": {
     "intro": "Chaque enfant avance à son rythme, et à cet âge les écarts sont grands. En observant [prénom], repère le domaine qui l'occupe le plus en ce moment — ce vers quoi son élan va spontanément. Choisis cet axe : le premier temps du rituel, la réflexologie et la berceuse s'adapteront pour valider et accompagner ce mouvement, exactement là où [prénom] en est déjà. Il ne s'agit pas de pousser vers une nouvelle compétence, mais de soutenir celle qui se déploie déjà.",
     "question_selecteur": "Où en est [prénom] en ce moment ?",
@@ -25,45 +24,37 @@
       {
         "id": "motricite",
         "titre": "Motricité",
-        "sous_titre": "[Il marche, grimpe, bouge sans arrêt/Elle marche, grimpe, bouge sans arrêt]",
+        "sous_titre": "[Il marche, court, grimpe sans arrêt/Elle marche, court, grimpe sans arrêt]",
         "etape_rituel": {
           "titre": "Décharger le corps avant la nuit",
-          "horaire": "en début de soirée · 10 min",
-          "duree": "10 min",
-          "description": "Avant de baisser l'ambiance, un dernier moment de mouvement libre et encadré : ramper, marcher d'un meuble à l'autre, un petit parcours doux au sol. Pas de jeu excitant ni de chatouilles — laisser le corps dépenser ses dernières réserves pour qu'il accepte ensuite de se poser. Puis on ralentit franchement."
+          "description": "Avant de baisser l'ambiance, un dernier moment de mouvement libre et encadré : marcher d'un meuble à l'autre, un petit parcours doux au sol. Pas de jeu excitant ni de chatouilles — laisser le corps dépenser ses dernières réserves pour qu'il accepte ensuite de se poser. Puis on ralentit franchement."
         }
       },
       {
         "id": "langage",
         "titre": "Langage",
-        "sous_titre": "[Il babille, répète, dit ses premiers mots/Elle babille, répète, dit ses premiers mots]",
+        "sous_titre": "[Il assemble des mots, fait de petites phrases/Elle assemble des mots, fait de petites phrases]",
         "etape_rituel": {
-          "titre": "Poser des mots sur la journée",
-          "horaire": "en début de soirée · 10 min",
-          "duree": "10 min",
-          "description": "Avant de baisser l'ambiance, un moment calme pour mettre des mots sur la journée : « Aujourd'hui tu as vu le chien, tu as mangé des pâtes, tu es tombé et tu t'es relevé. » Nommer ce qui s'est passé aide son cerveau à ranger la journée et à s'apaiser. Laisse-le répéter, babiller, pointer un imagier."
+          "titre": "Mettre des mots sur la journée",
+          "description": "Avant de baisser l'ambiance, un moment calme pour raconter la journée : « Ce matin tu as vu le chien, tu as mangé des pâtes, tu as dit au revoir. » Nommer ce qui s'est passé aide son cerveau à ranger la journée et à s'apaiser. Laisse-le répéter, montrer un imagier, finir tes phrases."
         }
       },
       {
         "id": "emotions",
         "titre": "Émotions",
-        "sous_titre": "[Il vit de grandes émotions, se fâche, se console/Elle vit de grandes émotions, se fâche, se console]",
+        "sous_titre": "[Il vit de grandes émotions, dit non, négocie/Elle vit de grandes émotions, dit non, négocie]",
         "etape_rituel": {
-          "titre": "Accueillir les émotions de la journée",
-          "horaire": "en début de soirée · 10 min",
-          "duree": "10 min",
-          "description": "Un temps calme dans tes bras pour accueillir ce qui a pesé : « Tu étais très fâché tout à l'heure. C'est passé. Je suis là. » Nommer sans raviver, juste accueillir et laisser retomber. Pose une main sur son cœur et respire lentement avec lui — ton calme devient le sien. C'est l'axe le plus précieux pour un enfant très sensible."
+          "titre": "Accueillir les tensions de la journée",
+          "description": "Un temps calme dans tes bras pour accueillir ce qui a pesé : « Tu étais très fâché tout à l'heure quand il a fallu ranger. C'est passé. Je suis là. » Nommer sans raviver, juste accueillir et laisser retomber. Pose une main sur son cœur et respire lentement avec lui — ton calme devient le sien."
         }
       },
       {
         "id": "autonomie",
         "titre": "Autonomie",
-        "sous_titre": "[Il veut tout faire seul, refuse l'aide/Elle veut tout faire seul, refuse l'aide]",
+        "sous_titre": "[Il veut tout décider et faire seul/Elle veut tout décider et faire seul]",
         "etape_rituel": {
-          "titre": "Le laisser mener le rituel",
-          "horaire": "en début de soirée · 10 min",
-          "duree": "10 min",
-          "description": "Laisse [prénom] conduire un ou deux gestes lui-même, toujours les mêmes : monter sur le marchepied, tenir sa brosse à dents, choisir son pyjama, grimper dans le lit. Faire seul ce qu'il maîtrise apaise son besoin d'autonomie et désamorce l'opposition. Tu restes garant.e du cadre : l'ordre et l'heure ne changent pas."
+          "titre": "Lui laisser de vrais choix dans le rituel",
+          "description": "Propose à [prénom] deux ou trois choix réels mais cadrés : quel pyjama, quel livre, quel doudou pour la nuit. Décider de petites choses apaise son besoin d'autonomie et désamorce l'opposition. L'ordre et l'heure, eux, ne se négocient pas : c'est toi qui tiens le cadre, lui qui choisit à l'intérieur."
         }
       }
     ]
@@ -73,59 +64,50 @@
       "etape": 1,
       "focus_theme": true,
       "titre": "Décharger le corps avant la nuit",
-      "horaire": "en début de soirée · 10 min",
-      "duree": "10 min",
-      "description": "Premier temps adapté à [prénom] (modifiable avec le sélecteur ci-dessus). Par défaut — Motricité : un dernier moment de mouvement encadré pour dépenser les dernières réserves. Pour un enfant très sensible, l'axe Émotions est souvent le plus aidant : un temps calme pour accueillir et nommer ce qui a pesé dans la journée."
+      "description": "Premier temps adapté à [prénom] (modifiable avec le sélecteur ci-dessus). Par défaut — Motricité : un dernier moment de mouvement encadré pour dépenser les dernières réserves. Pour un enfant en plein « moi tout seul », bascule sur l'axe Autonomie ; s'il négocie beaucoup le soir, l'axe Émotions aide à accueillir la tension."
     },
     {
       "etape": 2,
       "titre": "Baisser l'ambiance et clore la journée d'éveil",
-      "horaire": "18h - 19h",
-      "duree": "30-60 min",
-      "description": "Éteindre les plafonniers, allumer des lampes basses. Couper télévision, musique vive, jeux sonores. Couper tous les écrans (téléphone, télé, tablette) : la lumière bleue supprime la mélatonine jusqu'à 90 min après extinction. Pour un enfant sensible, une ambiance douce et prévisible vaut mieux que toute activité : moins de stimulation, plus de présence calme."
+      "description": "Éteindre les plafonniers, allumer des lampes basses. Couper musique vive et jeux sonores. Couper tous les écrans (téléphone, télé, tablette). Proposer le rangement d'un jouet ou deux comme une responsabilité simple — l'enfant aime se sentir acteur du soir."
     },
     {
-      "etape": 3,
-      "titre": "Bain ou toilette (pas tous les soirs)",
-      "horaire": "19h - 19h15",
-      "duree": "10-15 min",
-      "description": "Bain court (5-7 min), eau à 37°C vérifiée au thermomètre. Salle de bain chauffée à l'avance. Tapis antidérapant et surveillance constante. Lumière tamisée, voix grave et lente. Pour un enfant sensible aux transitions, prévenir chaque changement (« on sort du bain dans une minute ») évite les crises de fin de bain."
+      "titre": "Le repas du soir, en famille",
+      "description": "Le dîner se prend à table, à heure régulière, sans écran. À cet âge, ton enfant mange de plus en plus comme vous : propose un repas simple et complet et laisse-le manger seul à sa façon, même maladroite — c'est ainsi qu'il gagne en autonomie. Termine par un temps calme à table plutôt qu'en jeu, pour amorcer la descente vers la nuit. S'il prend encore un lait du soir, il viendra plus tard, dans le calme de la chambre.",
+      "etape": 3
     },
     {
       "etape": 4,
-      "titre": "Pyjama, massage doux et séquence réflexologie",
-      "horaire": "19h15 - 19h30",
-      "duree": "10-15 min",
-      "description": "Pyjama adapté à la température de la chambre. Sur un tapis au sol. Mains chaudes, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans. Mouvements lents, pression 0/10. Le massage est particulièrement apaisant pour un enfant sensible : le toucher calme le système nerveux. S'il refuse, ne pas forcer. Enchaîne avec la séquence réflexologie du soir (7 min)."
+      "titre": "Bain ou toilette (pas tous les soirs)",
+      "description": "Bain court (5-7 min). Salle de bain chauffée à l'avance, tapis antidérapant, surveillance constante. Laisse-le « se laver » une partie du corps lui-même avant de finir le geste : il participe, tu restes garant.e de la propreté et de la sécurité."
     },
     {
       "etape": 5,
-      "titre": "Histoire et câlin",
-      "horaire": "19h30 - 19h45",
-      "duree": "10-15 min",
-      "description": "Une seule histoire, lue lentement, bien blotti dans tes bras. La même pendant 2-3 semaines : la prévisibilité rassure les enfants sensibles. Choisir une histoire douce, sans rebondissement effrayant le soir. Le câlin compte autant que l'histoire."
+      "titre": "Massage, réflexologie, puis pyjama",
+      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud — pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou de réflexologie du soir. Mains réchauffées, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas. L'huile posée, le pyjama vient après : laisse-le choisir entre deux modèles, tenter d'enfiler une manche."
     },
     {
       "etape": 6,
-      "titre": "Lait du soir, puis brossage des dents",
-      "horaire": "19h45 - 19h55",
-      "duree": "10 min",
-      "description": "Dans la pénombre, tout contre toi : un dernier temps de lait au sein ou au biberon, qui referme la journée en douceur. Le lait infantile reste recommandé jusqu'à 3 ans — il garde toute sa place le soir. Ensuite, un brossage tout doux des dents : mieux vaut ne pas laisser le lait sur les dents pour la nuit."
+      "titre": "Lait du soir et brossage des dents",
+      "description": "Le lait infantile reste recommandé jusqu'à 3 ans : il garde toute sa place. À partir de cet âge, il peut être pris au dessert du repas du soir, ou à cet instant dans le rituel du soir, dans le calme de la chambre, tout contre toi (sein ou biberon). Dans tous les cas, il précède le brossage des dents : mieux vaut ne pas laisser le lait sur les dents pour la nuit."
     },
     {
       "etape": 7,
+      "titre": "Histoire et câlin",
+      "description": "Une seule histoire (ou bien un nombre prédéfini et annoncé à l'enfant, pour tenir le cadre), lue lentement, dans tes bras. Laisse-le choisir le livre, tourner les pages, « lire » à sa façon, finir les phrases qu'il connaît. La même histoire pendant 2-3 semaines renforce l'ancrage. Voix posée, rythme lent."
+    },
+    {
+      "etape": 8,
       "titre": "Phrase de clôture et coucher",
-      "horaire": "19h55 - 20h",
-      "duree": "5 min",
-      "description": "Chambre à 18-20°C, obscure mais — si la peur du noir apparaît — une veilleuse très douce, chaude et tamisée, est tout à fait acceptable. Lit sécurisé et dégagé : matelas ferme au niveau le plus bas, gigoteuse ou turbulette, doudou autorisé (précieux pour un enfant sensible). Phrase rituelle identique chaque soir : « La nuit arrive. Tu es en sécurité. Tes émotions sont en sécurité aussi. » Doudou à côté, sortir doucement. S'il rappelle, revenir poser une main et redire la phrase, sans rallumer la grande lumière."
+      "description": "Chambre à 18-20°C, complètement obscure ou veilleuse très douce. Laisse-le grimper seul dans le lit s'il sait le faire. Phrase rituelle identique chaque soir : « La nuit arrive. Tu es en sécurité. Tu peux lâcher prise, je veille. » Pas de renégociation ni de « rab » : la même phrase ferme la journée. Doudou à côté, sortir doucement."
     }
   ],
   "reflexologie_du_coucher": {
     "titre": "Séquence réflexologie du soir — 7 minutes",
-    "intro": "Pendant le massage, l'enfant allongé sur le dos, toi face à ses pieds. Voix très basse, mouvements infimes. Pour un enfant sensible, ce moment de contact lent est un puissant régulateur émotionnel — ton calme se transmet par tes mains. Pression d'une caresse.",
+    "intro": "Pendant le massage, l'enfant allongé sur le dos, toi face à ses pieds. Voix très basse, mouvements infimes. À 18 mois, il veut souvent « faire seul » : laisse-le toucher ses pieds, puis reprends doucement. Ce contact lent apaise un enfant en pleine affirmation. Pression d'une caresse.",
     "duree_totale": "7 minutes",
     "pression": "0/10 — c'est une caresse, pas un massage",
-    "consentement": "Avant tout, observe les réactions de l'enfant. Le massage et la réflexologie se font avec son accord : à la moindre crispation, s'il retire son pied ou se détourne, arrête-toi. Un enfant sensible peut être débordé certains soirs : raccourcir ou reporter sans forcer. C'est un moment de plaisir partagé.",
+    "consentement": "Avant tout, observe les réactions de l'enfant. Le massage et la réflexologie se font avec son accord : à la moindre crispation, s'il retire son pied ou se détourne, arrête-toi. À cet âge, il peut vouloir tout mener : propose, n'impose pas. C'est un moment de plaisir partagé.",
     "etapes": [
       {
         "zone": "Réchauffer les pieds",
@@ -149,7 +131,7 @@
         "zone": "Centre de la voûte (plexus solaire)",
         "duree": "1 minute",
         "geste": "Cercles infimes au centre de la voûte plantaire, sens horaire, très lents.",
-        "ce_que_cest": "Décharge le trop-plein émotionnel de la journée — zone clé pour un enfant sensible"
+        "ce_que_cest": "Décharge le trop-plein émotionnel de la journée"
       },
       {
         "zone": "Bord interne du pied (colonne vertébrale)",
@@ -173,31 +155,20 @@
     "cloture": "Terminer en tenant à nouveau les deux pieds dans tes paumes pendant 30 secondes — fermeture du soin. Murmurer : « Tu peux te reposer. Je suis là. »"
   },
   "script_audio_du_soir": {
-    "titre": "« Toutes tes émotions ont une place »",
+    "titre": "« Tu sais te faire comprendre »",
     "duree": "~5 minutes",
     "instruction": "Voix grave et lente, volume bas, dans la pénombre.",
-    "texte": "[Prénom]...\n\nLa journée se termine maintenant.\n\nTu as ressenti tellement de choses aujourd'hui.\n\nTu as été très [joyeux/joyeuse]. Tu as peut-être été très [fâché/fâchée], ou très triste, aussi.\n\nTes émotions sont grandes, parce que ton cœur est grand.\n\nC'est une belle chose de ressentir aussi fort.\n\nToutes ces émotions, je les ai vues. Je les ai accueillies.\n\nMaintenant, elles peuvent se reposer, elles aussi.\n\nTu n'as pas à les porter cette nuit. Je veille sur toi, et sur elles.\n\n[passage_theme]\n\nTous les câlins de la journée, tu les gardes en toi. Ils te tiennent chaud, même dans le noir.\n\nJe suis là. La maison est calme. Ton doudou est avec toi.\n\nSi tu te réveilles, je ne suis pas loin.\n\nMaintenant, tu peux te déposer, [mon tout petit/ma toute petite].\n\nTu es en sécurité.\n\nTu es au chaud.\n\nTu es [aimé/aimée].\n\nDors, mon amour. Dors.\n\nBonne nuit.",
+    "texte": "[Prénom]...\n\nLa journée se termine maintenant.\n\nTu sais de mieux en mieux te faire comprendre.\n\nAujourd'hui, tu as montré, tu as nommé, tu as dit « non », tu as dit « encore ». Tu commences à me dire ce que tu veux, et ça change tout entre nous.\n\nQuel grand pas tu fais là.\n\n[passage_theme]\n\nEt même quand tu dis non, même quand tu te fâches, mon amour ne bouge pas. Il est là, tranquille, toute la journée et toute la nuit.\n\nMais cette nuit, tu n'as plus rien à demander, plus rien à négocier. Tu peux poser tous tes mots et te laisser porter par le sommeil.\n\nTous les câlins de la journée, tu les gardes en toi. Ils te tiennent chaud, même dans le noir.\n\nJe suis là. La maison est calme. Ton doudou est avec toi.\n\nSi tu te réveilles, je ne suis pas loin.\n\nMaintenant, tu peux te déposer, [mon tout petit/ma toute petite].\n\nTu es en sécurité.\n\nTu es au chaud.\n\nTu es [aimé/aimée].\n\nDors, mon amour. Dors.\n\nBonne nuit.",
     "passage_par_theme": {
-      "motricite": "Ton corps a tant bougé aujourd'hui. Tes jambes, tes bras, tout ton petit corps peut se poser, maintenant.",
-      "langage": "Tu as dit tant de choses aujourd'hui. Ta voix peut se reposer, et ta tête peut faire doucement le silence.",
-      "emotions": "Toutes tes émotions d'aujourd'hui — la joie, la colère, les larmes — ont eu leur place. Elles peuvent se reposer en toi, maintenant, bien au chaud.",
-      "autonomie": "Tu fais déjà tant de choses [tout seul/toute seule], et c'est merveilleux. Cette nuit, tu n'as rien à faire — juste te laisser porter. Je m'occupe du reste."
+      "motricite": "Tes jambes ont tant couru, tant grimpé aujourd'hui. Maintenant, tout ton petit corps peut s'arrêter et se poser.",
+      "langage": "Tu as dit tant de mots aujourd'hui, tant de choses essayées. Ta voix peut se reposer ; tes mots seront encore là demain.",
+      "emotions": "Toutes tes émotions d'aujourd'hui — l'envie, la colère, la joie — ont eu leur place. Elles peuvent se reposer en toi, maintenant, bien au chaud.",
+      "autonomie": "Tu as voulu choisir, décider, faire par toi-même, et c'est merveilleux. Cette nuit, tu n'as rien à décider — juste à te laisser porter. Je m'occupe du reste."
     }
-  },
-  "grandes_emotions_du_soir": {
-    "titre": "Accueillir les grandes émotions du soir",
-    "explication": "À 17 mois, l'enfant sensible vit ses émotions sans filtre, et la fatigue du soir les fait remonter d'un coup — une crise au moment du pyjama n'est pas un caprice, c'est un débordement. Le rôle du parent est de co-réguler : un cerveau immature ne peut pas se calmer seul, il a besoin d'emprunter le calme d'un adulte. Accueillir l'émotion (« je vois que c'est difficile ») sans céder sur le cadre (« c'est quand même l'heure du lit ») apprend à l'enfant que ses émotions sont acceptables et qu'il est en sécurité.",
-    "tenir_le_cadre": [
-      "Nommer l'émotion à voix calme : « Tu es très en colère. Je suis là, je reste avec toi. » — sans la nier ni la gronder",
-      "Rester physiquement présent et stable : ta tranquillité est le modèle que son système nerveux va copier",
-      "Accueillir sans céder sur le cadre : on peut comprendre la colère et maintenir l'heure du coucher",
-      "Si une peur du noir apparaît, la prendre au sérieux : veilleuse très douce, vérifier la chambre ensemble, ne jamais se moquer"
-    ]
   },
   "erreurs_a_eviter": [
     "Les écrans (télévision, tablette, téléphone) dans l'heure qui précède le coucher — la lumière bleue inhibe la sécrétion de mélatonine et retarde l'endormissement de 30 à 90 minutes ; concerne aussi les écrans visibles en arrière-plan",
-    "Gronder ou minimiser une grande émotion du soir (« arrête, ce n'est rien ») — l'enfant se sent seul avec ce qui le déborde et l'émotion monte ; l'accueillir la fait retomber plus vite",
-    "Reculer l'heure du coucher en pensant que l'enfant sera « plus fatigué » — produit l'effet inverse : la sur-fatigue amplifie les émotions et fragmente le sommeil de la nuit"
-  ],
-  "consulter_si": "Consulter si le sommeil reste très perturbé sur la durée (endormissement long chaque soir au-delà de 3 semaines, réveils nocturnes multiples sans amélioration), en cas de peurs nocturnes intenses et durables, de douleur, de gêne respiratoire ou de ronflements réguliers, ou si tu te sens débordé.e sur la durée — pédiatre, PMI ou consultant en sommeil respectueux du rythme physiologique. Ce protocole ne remplace pas l'avis de ton pédiatre."
+    "Entrer dans la négociation au moment du coucher — répondre à chaque « encore » et multiplier les explications nourrit le bras de fer ; mieux vaut proposer les choix en amont et garder une phrase rituelle inchangée",
+    "Reculer l'heure du coucher en pensant que l'enfant sera « plus fatigué » — la sur-fatigue libère du cortisol qui empêche l'endormissement et fragmente la nuit"
+  ]
 }

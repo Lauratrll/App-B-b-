@@ -3,8 +3,8 @@
   "tranche_age": "23 mois",
   "rubrique": "preparer_le_coucher",
   "titre_rubrique": "Préparer le coucher",
-  "sous_titre": "Crée ton rituel adapté",
-  "description": "À 23 mois, ton enfant est un petit aventurier : il court, grimpe, saute, escalade, avec une confiance corporelle grandissante. Une pré-conscience de soi émerge — il dit « moi », se reconnaît, se nomme. Le deuxième anniversaire approche, et avec lui parfois une nouvelle phase de bouleversement du sommeil. Au coucher, deux besoins se rejoignent : décharger un corps très actif, et sécuriser le lit, car l'enfant cherche maintenant à en sortir. Le rituel reste l'ancre, et la confiance que tu lui montres nourrit la sienne. À cet âge, une sieste unique l'après-midi.",
+  "sous_titre": "Un esprit, un corps, et un cœur apaisé",
+  "description": "À 23 mois, ton enfant est un petit aventurier : il court, grimpe, saute, escalade, avec une confiance corporelle grandissante. Une pré-conscience de soi émerge — il dit « moi », se reconnaît, se nomme. Le deuxième anniversaire approche, et avec lui parfois une nouvelle phase de bouleversement du sommeil. Au coucher, deux besoins se rejoignent : décharger un corps très actif, et sécuriser le lit, car l'enfant cherche maintenant à en sortir. Le rituel reste l'ancre, et la confiance que tu lui montres nourrit la sienne. À cet âge, une sieste unique l'après-midi, et tu peux envisager le passage à un lit au sol.",
   "reperes_cles": [
     "Coucher entre 19h et 20h, à heure régulière — un corps très actif a besoin d'un cadre stable pour se poser",
     "Fenêtre d'éveil d'environ 5 à 6h — après la sieste unique de l'après-midi",
@@ -17,7 +17,6 @@
     "Maladresse, chutes plus fréquentes en fin de journée",
     "Réclame les bras, le doudou, le contact"
   ],
-  "duree_eveil_max": "Environ 5 à 6h d'éveil maximum après la sieste à 23 mois — au-delà, la sur-fatigue libère du cortisol et complique l'endormissement. La sieste unique de l'après-midi est bien installée.",
   "variantes_developpementales": {
     "intro": "Chaque enfant avance à son rythme, et à cet âge les écarts sont grands. En observant [prénom], repère le domaine qui l'occupe le plus en ce moment — ce vers quoi son élan va spontanément. Choisis cet axe : le premier temps du rituel, la réflexologie et la berceuse s'adapteront pour valider et accompagner ce mouvement, exactement là où [prénom] en est déjà. Il ne s'agit pas de pousser vers une nouvelle compétence, mais de soutenir celle qui se déploie déjà.",
     "question_selecteur": "Où en est [prénom] en ce moment ?",
@@ -28,8 +27,6 @@
         "sous_titre": "[Il marche, court, grimpe sans arrêt/Elle marche, court, grimpe sans arrêt]",
         "etape_rituel": {
           "titre": "Décharger le corps avant la nuit",
-          "horaire": "en début de soirée · 10 min",
-          "duree": "10 min",
           "description": "Avant de baisser l'ambiance, un dernier moment de mouvement libre et encadré : marcher d'un meuble à l'autre, un petit parcours doux au sol. Pas de jeu excitant ni de chatouilles — laisser le corps dépenser ses dernières réserves pour qu'il accepte ensuite de se poser. Puis on ralentit franchement."
         }
       },
@@ -39,8 +36,6 @@
         "sous_titre": "[Il fait des phrases, nomme tout/Elle fait des phrases, nomme tout]",
         "etape_rituel": {
           "titre": "Mettre des mots sur la journée",
-          "horaire": "en début de soirée · 10 min",
-          "duree": "10 min",
           "description": "Avant de baisser l'ambiance, un moment calme pour raconter la journée : « Tu as joué, tu as mangé des pâtes, tu as vu le chien. » Nommer ce qui s'est passé aide son cerveau à ranger la journée et à s'apaiser. Laisse-le répéter, raconter à sa façon, finir tes phrases."
         }
       },
@@ -50,19 +45,15 @@
         "sous_titre": "[Il vit de grandes émotions, se fâche, se console/Elle vit de grandes émotions, se fâche, se console]",
         "etape_rituel": {
           "titre": "Accueillir les émotions de la journée",
-          "horaire": "en début de soirée · 10 min",
-          "duree": "10 min",
           "description": "Un temps calme dans tes bras pour accueillir ce qui a pesé : « Tu étais très content, et aussi un peu fâché tout à l'heure. C'est passé. Je suis là. » Nommer sans raviver, juste accueillir et laisser retomber. Pose une main sur son cœur et respire lentement avec lui — ton calme devient le sien."
         }
       },
       {
         "id": "autonomie",
         "titre": "Autonomie",
-        "sous_titre": "[Il veut tout faire seul, escalade, ose/Elle veut tout faire seul, escalade, ose]",
+        "sous_titre": "[Il veut tout faire seul, escalade, ose/Elle veut tout faire seule, escalade, ose]",
         "etape_rituel": {
           "titre": "Lui laisser mener ce qu'il maîtrise",
-          "horaire": "en début de soirée · 10 min",
-          "duree": "10 min",
           "description": "Laisse [prénom] conduire les gestes qu'il maîtrise : monter sur le marchepied, poser le doudou dans le lit, choisir le pyjama, grimper seul dans le lit. À l'âge où il veut tout faire par lui-même, agir seul apaise son besoin d'autonomie. Tu restes garant.e du cadre : l'ordre et l'heure ne changent pas, et la sécurité prime toujours."
         }
       }
@@ -73,51 +64,42 @@
       "etape": 1,
       "focus_theme": true,
       "titre": "Décharger le corps avant la nuit",
-      "horaire": "en début de soirée · 10 min",
-      "duree": "10 min",
       "description": "Premier temps adapté à [prénom] (modifiable avec le sélecteur ci-dessus). Par défaut — Motricité : un dernier vrai moment de mouvement pour décharger un corps très actif. Pour un enfant qui veut tout faire seul, l'axe Autonomie le laisse mener les gestes qu'il maîtrise."
     },
     {
       "etape": 2,
       "titre": "Baisser l'ambiance et clore la journée d'éveil",
-      "horaire": "18h - 19h",
-      "duree": "30-60 min",
-      "description": "Éteindre les plafonniers, allumer des lampes basses. Couper musique vive et jeux sonores. Couper tous les écrans (téléphone, télé, tablette) : la lumière bleue supprime la mélatonine jusqu'à 90 min après extinction. Proposer le rangement d'un jouet ou deux comme une responsabilité simple — l'enfant aime se sentir acteur du soir."
+      "description": "Éteindre les plafonniers, allumer des lampes basses. Couper musique vive et jeux sonores. Couper tous les écrans (téléphone, télé, tablette). Proposer le rangement d'un jouet ou deux comme une responsabilité simple — l'enfant aime se sentir acteur du soir."
     },
     {
       "etape": 3,
-      "titre": "Bain ou toilette (pas tous les soirs)",
-      "horaire": "19h - 19h15",
-      "duree": "10-15 min",
-      "description": "Bain court (5-7 min), eau à 37°C vérifiée au thermomètre. Salle de bain chauffée à l'avance, tapis antidérapant, surveillance constante. Lumière tamisée, voix grave et lente. Laisse-le « se laver » une partie du corps lui-même avant de finir le geste : il participe, tu restes garant.e de la propreté et de la sécurité."
+      "titre": "Le repas du soir, en famille",
+      "description": "Le dîner se prend à table, à heure régulière, sans écran. À 23 mois, ton enfant mange presque comme vous : propose un repas simple et complet et laisse-le manger seul à sa façon, même maladroite — c'est ainsi qu'il gagne en autonomie. Termine par un temps calme à table plutôt qu'en jeu, pour amorcer la descente vers la nuit. S'il prend encore un lait du soir, il viendra plus tard, avant le brossage des dents."
     },
     {
       "etape": 4,
-      "titre": "Pyjama, massage doux et séquence réflexologie",
-      "horaire": "19h15 - 19h30",
-      "duree": "10-15 min",
-      "description": "Pyjama adapté à la température de la chambre — laisse-le choisir entre deux modèles, tenter d'enfiler une manche. Sur un tapis au sol. Mains chaudes, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans. Mouvements lents, pression 0/10. S'il refuse le massage, ne pas forcer. Enchaîne avec la séquence réflexologie du soir (7 min) ci-dessous."
+      "titre": "Bain ou toilette (pas tous les soirs)",
+      "description": "Bain court (5-7 min). Salle de bain chauffée à l'avance, tapis antidérapant, surveillance constante. Laisse-le « se laver » une partie du corps lui-même avant de finir le geste : il participe, tu restes garant.e de la propreté et de la sécurité."
     },
     {
       "etape": 5,
-      "titre": "Histoire et câlin",
-      "horaire": "19h30 - 19h45",
-      "duree": "10-15 min",
-      "description": "Une seule histoire, lue lentement, dans tes bras, après tant de mouvement. Laisse-le choisir le livre et tourner les pages. Une histoire calme aide le corps à passer du mouvement au repos. La même histoire pendant 2-3 semaines renforce l'ancrage. Voix posée, rythme lent."
+      "titre": "Massage, réflexologie, puis pyjama",
+      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud — pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou de réflexologie du soir. Mains réchauffées, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas. L'huile posée, le pyjama vient après : laisse-le choisir entre deux modèles, tenter d'enfiler une manche."
     },
     {
       "etape": 6,
       "titre": "Lait du soir et brossage des dents",
-      "horaire": "19h45 - 19h55",
-      "duree": "10 min",
-      "description": "Le lait infantile reste recommandé jusqu'à 3 ans : il garde toute sa place. À partir de cet âge, il peut être pris au dessert du repas du soir, ou comme dernier temps du rituel, tout contre toi (sein ou biberon). Dans tous les cas, il précède le brossage des dents : mieux vaut ne pas laisser le lait sur les dents pour la nuit. Ensuite, un brossage tout doux, puis le coucher."
+      "description": "Le lait infantile reste recommandé jusqu'à 3 ans : il garde toute sa place. À partir de cet âge, il peut être pris au dessert du repas du soir, ou à cet instant dans le rituel du soir, dans le calme de la chambre, tout contre toi (sein ou biberon). Dans tous les cas, il précède le brossage des dents : mieux vaut ne pas laisser le lait sur les dents pour la nuit."
     },
     {
       "etape": 7,
+      "titre": "Histoire et câlin",
+      "description": "Une seule histoire (ou bien un nombre prédéfini et annoncé à l'enfant, pour tenir le cadre), lue lentement, dans tes bras, après tant de mouvement. Laisse-le choisir le livre et tourner les pages. Une histoire calme aide le corps à passer du mouvement au repos. La même histoire pendant 2-3 semaines renforce l'ancrage. Voix posée, rythme lent."
+    },
+    {
+      "etape": 8,
       "titre": "Phrase de clôture et coucher",
-      "horaire": "19h55 - 20h",
-      "duree": "5 min",
-      "description": "Chambre à 18-20°C, obscure ou veilleuse très douce. Lit sécurisé : matelas au niveau le plus bas, rien d'escaladable à l'intérieur (gros doudou, cale, tour de lit), gigoteuse ou turbulette, doudou autorisé. À l'âge où l'enfant grimpe, c'est essentiel pour prévenir les sorties de lit et les chutes. Phrase rituelle identique chaque soir : « La nuit arrive. Tu as bien exploré aujourd'hui. Maintenant, tu te reposes. Je veille. » Doudou à côté, sortir doucement."
+      "description": "Chambre à 18-20°C, obscure ou veilleuse très douce. Phrase rituelle identique chaque soir : « La nuit arrive. Tu as bien exploré aujourd'hui. Maintenant, tu te reposes. Je veille. » Doudou à côté, sortir doucement."
     }
   ],
   "reflexologie_du_coucher": {
@@ -176,7 +158,7 @@
     "titre": "« Le repos de l'aventurier »",
     "duree": "~5 minutes",
     "instruction": "Voix grave et lente, volume bas, dans la pénombre.",
-    "texte": "[Prénom]...\n\nLa journée se termine maintenant.\n\nQuel [aventurier/aventurière] tu es ! Aujourd'hui, tu as couru, tu as grimpé, tu as sauté. Tu as voulu tout essayer, [tout seul/toute seule]. Tu deviens [grand/grande], tu deviens toi.\n\n[passage_theme]\n\nC'est merveilleux de te voir si [fort/forte], si [courageux/courageuse]. Et même le plus intrépide des aventuriers a besoin de repos.\n\nCette nuit, ton corps qui a tant bougé peut enfin s'arrêter. Tu n'as plus rien à explorer, plus rien à conquérir — juste à te reposer.\n\nTous les câlins de la journée, tu les gardes en toi. Ils te tiennent chaud, même dans le noir.\n\nJe suis là. La maison est calme. Ton doudou est avec toi.\n\nSi tu te réveilles, je ne suis pas loin.\n\nMaintenant, tu peux te déposer, [mon tout petit/ma toute petite].\n\nTu es en sécurité.\n\nTu es au chaud.\n\nTu es [aimé/aimée].\n\nDors, mon amour. Dors.\n\nBonne nuit.",
+    "texte": "[Prénom]...\n\nLa journée se termine maintenant.\n\nQuel [aventurier/aventurière] tu es ! Aujourd'hui, tu as couru, tu as grimpé, tu as sauté. Tu as voulu tout essayer, [tout seul/toute seule]. Tu deviens [grand/grande], tu deviens toi.\n\n[passage_theme]\n\nC'est merveilleux de te voir si [fort/forte], si [courageux/courageuse]. Et même [le plus intrépide des aventuriers/la plus intrépide des aventurières] a besoin de repos.\n\nCette nuit, ton corps qui a tant bougé peut enfin s'arrêter. Tu n'as plus rien à explorer, plus rien à conquérir — juste à te reposer.\n\nTous les câlins de la journée, tu les gardes en toi. Ils te tiennent chaud, même dans le noir.\n\nJe suis là. La maison est calme. Ton doudou est avec toi.\n\nSi tu te réveilles, je ne suis pas loin.\n\nMaintenant, tu peux te déposer, [mon tout petit/ma toute petite].\n\nTu es en sécurité.\n\nTu es au chaud.\n\nTu es [aimé/aimée].\n\nDors, mon amour. Dors.\n\nBonne nuit.",
     "passage_par_theme": {
       "motricite": "Tes jambes ont tant couru, tant grimpé aujourd'hui. Maintenant, elles peuvent se reposer, tout ton petit corps avec elles.",
       "langage": "Tu as dit tant de choses aujourd'hui. Ta voix peut se reposer ; tes mots reviendront demain, tout neufs.",
@@ -188,16 +170,5 @@
     "Les écrans (télévision, tablette, téléphone) dans l'heure qui précède le coucher — la lumière bleue inhibe la sécrétion de mélatonine et retarde l'endormissement de 30 à 90 minutes ; concerne aussi les écrans visibles en arrière-plan",
     "Laisser dans le lit des objets escaladables (gros doudou, cale, tour de lit) — à l'âge où l'enfant grimpe, ils facilitent les sorties de lit et les chutes",
     "Reculer l'heure du coucher en pensant que l'enfant sera « plus fatigué » — un corps très actif a d'autant plus besoin d'un coucher pas trop tardif : la sur-fatigue libère du cortisol et empêche l'endormissement"
-  ],
-  "consulter_si": "Consulter si le sommeil reste très perturbé sur la durée (endormissement long chaque soir au-delà de 3 semaines, réveils nocturnes multiples sans amélioration, sorties de lit répétées malgré un lit sécurisé), en cas de douleur, de gêne respiratoire ou de ronflements nocturnes réguliers, ou si tu te sens débordé.e sur la durée — pédiatre, PMI ou consultant en sommeil respectueux du rythme physiologique. Ce protocole ne remplace pas l'avis de ton pédiatre.",
-  "securiser_le_lit_de_l_aventurier": {
-    "titre": "Sécuriser le lit de l'aventurier",
-    "explication": "Vers 23 mois, l'aisance à grimper grandit vite — et l'enfant peut chercher à escalader pour sortir de son lit, ce qui crée un vrai risque de chute. Sécuriser l'espace de sommeil devient prioritaire. Ce n'est pas brider son élan : c'est lui offrir un cadre sûr où ce corps audacieux peut se reposer en confiance. Si l'enfant parvient à sortir de son lit malgré tout, de façon répétée, c'est le signal d'envisager un lit bas ou un lit au sol, dans une chambre entièrement sécurisée.",
-    "tenir_le_cadre": [
-      "Matelas au niveau le plus bas, lit dégagé : retirer tout objet sur lequel grimper (gros doudou, cale, tour de lit)",
-      "Gigoteuse ou turbulette : elle limite l'amplitude des jambes et freine les tentatives d'escalade",
-      "Sécuriser la chambre : meubles fixés au mur, rien d'escaladable près du lit, prises protégées",
-      "Sorties de lit répétées malgré tout : envisager un lit au sol ou un lit bas, dans une chambre entièrement sécurisée"
-    ]
-  }
+  ]
 }

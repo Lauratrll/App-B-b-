@@ -3,7 +3,7 @@
   "tranche_age": "2 mois",
   "rubrique": "preparer_le_coucher",
   "titre_rubrique": "Préparer le coucher",
-  "sous_titre": "Crée ton rituel adapté",
+  "sous_titre": "Un esprit, un corps, et un cœur apaisé",
   "description": "À 2 mois, deux choses changent : le vrai sourire apparaît, signe que le lien se tisse, et la mélatonine commence tout juste à se produire. Les pleurs du soir, souvent au plus fort vers 6 à 8 semaines, s'apaisent ensuite progressivement. Tu peux maintenant rendre ton rituel un peu plus régulier — toujours souple, mais reconnaissable soir après soir. C'est la répétition qui prépare le terrain du vrai rythme, qui s'installera autour de 3 mois.",
   "reperes_cles": [
     "La mélatonine démarre : un rituel régulier (mêmes gestes, même ambiance) aide maintenant le cerveau de bébé à associer le soir au sommeil. La régularité prime toujours sur l'heure exacte.",
@@ -21,43 +21,31 @@
     {
       "etape": 1,
       "titre": "Baisser l'ambiance",
-      "horaire": "En début de soirée",
-      "duree": "~30 min",
       "description": "Chaque soir au même moment, tu allumes le signal du calme. Éteins le plafonnier, lampes de chevet allumées, écrans coupés. Voix basses, gestes lents. Commence toujours le rituel au même moment de la soirée : c'est cette régularité qui rassure bébé."
     },
     {
       "etape": 2,
       "titre": "Accompagner la fin de journée",
-      "horaire": "Si bébé décharge",
-      "duree": "variable",
       "description": "Les pleurs du soir s'apaisent souvent à cet âge, mais peuvent encore venir. Porte-le, berce-le verticalement. Et maintenant, ton regard, ton sourire, ta voix le touchent de plus en plus : sers-t'en. Un léger bruit blanc, à faible volume et à distance, peut aider le temps de l'apaiser."
     },
     {
       "etape": 3,
       "titre": "Bain ou toilette (pas tous les soirs)",
-      "horaire": "Ensuite",
-      "duree": "5-10 min",
       "description": "Bain court (5 à 7 min), eau à 37°C au thermomètre, salle de bain chauffée à l'avance si tu peux. Lumière tamisée. Le bain devient un vrai échange : regarde-le, souris-lui, raconte ce que tu fais d'une voix douce. S'il s'excite au lieu de s'apaiser, garde-le pour le matin."
     },
     {
       "etape": 4,
       "titre": "Massage doux",
-      "horaire": "Juste après",
-      "duree": "5 min",
       "description": "À 2 mois, il accroche ton regard : profite de chaque seconde. Serviette préchauffée, une seule zone découverte à la fois. Mains réchauffées, une noisette d'huile végétale neutre (amande douce, calendula), gestes lents, pression 0/10. Capte son regard, souris-lui, chantonne ta berceuse. 5 minutes suffisent, puis enchaîne la réflexologie tant qu'il est au chaud."
     },
     {
       "etape": 5,
       "titre": "Dernière prise de lait, en peau à peau",
-      "horaire": "Quand bébé a faim",
-      "duree": "15-25 min",
       "description": "Le moment le plus tendre du soir. Pénombre, lumière orange si possible, aucun écran. Le peau à peau vous relie encore. Murmure ou chante ta berceuse pendant qu'il prend son lait. Rot à la fin, quelques minutes à la verticale, puis enfile-lui pyjama et gigoteuse : prêt pour la nuit."
     },
     {
       "etape": 6,
       "titre": "Phrase d'ancrage et pose dans le lit",
-      "horaire": "La pose",
-      "duree": "5 min",
       "description": "Tout doucement, des bras au lit. Chambre dans le noir, autour de 18-20°C. Dis ta phrase rituelle, toujours la même : « La nuit est là. Je veille sur toi. » Pose-le en deux temps (fesses puis haut du corps), avec une légère inclinaison sur le côté pour éviter le réflexe de Moro, encore présent mais qui commence à s'estomper, puis recouche-le sur le dos. Coupe le bruit blanc éventuel une fois endormi (20 à 30 min). Reste un instant tout près, puis sors en silence."
     }
   ],
@@ -137,6 +125,5 @@
     "Les écrans et la lumière vive le soir — la mélatonine se met tout juste en place, et la lumière forte la freine. Pénombre dès le début du rituel.",
     "Changer le rituel tous les soirs ou multiplier les méthodes — à cet âge, c'est la répétition qui prépare le rythme. Garde la même trame, même imparfaite.",
     "Coucher bébé sur le ventre, le couvrir (couette, oreiller, tour de lit) ou partager ton lit pour dormir — ce sont les écueils du sommeil sécurisé. Les règles complètes sont dans le Cadre de sécurité ci-dessus."
-  ],
-  "consulter_si": "Si les pleurs restent inconsolables des heures chaque jour bien après 8 semaines, si bébé refuse de boire, mouille moins de couches, a une fièvre (≥ 38°C en rectal avant 3 mois = urgence), devient mou ou difficile à réveiller, ou s'il ne sourit ni n'accroche le regard du tout — parles-en à ta sage-femme ou ton médecin, et appelle le 15 en cas d'urgence. Pour toi : si l'épuisement ou les idées noires s'installent, 3114, Allo Parents Bébé (0 800 00 34 56), ou MonParcoursPsy."
+  ]
 }

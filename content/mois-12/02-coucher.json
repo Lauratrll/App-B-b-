@@ -3,7 +3,7 @@
   "tranche_age": "12 mois",
   "rubrique": "coucher",
   "titre_rubrique": "Préparer le coucher",
-  "sous_titre": "Crée ton rituel adapté",
+  "sous_titre": "Un esprit, un corps, et un cœur apaisé",
   "description": "À un an, le sommeil de ton enfant se réorganise au fil de ses grandes acquisitions. Beaucoup d'enfants glissent peu à peu vers une seule sieste, et les nouveautés — marche, premiers mots — peuvent agiter les nuits pour un temps. Le rituel reste ton meilleur repère : c'est sa régularité, plus que son contenu, qui ancre la sécurité.",
   "reperes_cles": [
     "Vers une seule sieste par jour : beaucoup d'enfants font cette transition entre 12 et 18 mois, à leur rythme — inutile de la précipiter.",
@@ -18,8 +18,8 @@
     "Le regard se fait lointain, le rythme ralentit"
   ],
   "variantes_developpementales": {
-    "intro": "La nuit, le cerveau de ton enfant continue d'apprendre : il consolide ce qu'il a vécu dans la journée. Reconnaître avec [prénom] une compétence travaillée en ce moment l'apaise — et un cerveau rassuré s'agite moins la nuit.",
-    "question_selecteur": "Où en est [prénom] en ce moment ?",
+    "intro": "La nuit, le cerveau de ton enfant continue d'apprendre : il consolide ce qu'il a vécu dans la journée. Reconnaître avec lui une compétence qu'il travaille en ce moment l'apaise — et un cerveau rassuré s'agite moins la nuit.",
+    "question_selecteur": "Que cherche [prénom] à développer ce mois-ci ?",
     "themes_disponibles": [
       "motricite",
       "langage"
@@ -31,7 +31,6 @@
         "sous_titre": "[Il/Elle] marche, grimpe, déborde d'énergie",
         "etape_rituel": {
           "titre": "Le temps de bouger",
-          "duree": "avant le rituel · 10–15 min",
           "description": "Avant de baisser l'ambiance, laisse ton enfant se défouler au sol : ramper, marcher d'un meuble à l'autre, grimper sur un coussin. Quand son corps s'est bien dépensé, il accepte beaucoup mieux le calme. Évite les jeux trop excitants juste avant le lit. Au moment du câlin, tu peux lui dire : « Tes jambes ont bien marché. Maintenant, elles se reposent. »"
         }
       },
@@ -41,7 +40,6 @@
         "sous_titre": "[Il/Elle] babille, pointe, cherche ses mots",
         "etape_rituel": {
           "titre": "Le temps des mots",
-          "duree": "avant le rituel · 5–10 min",
           "description": "Avant de baisser l'ambiance, prends un petit temps de mots : nomme tout simplement ce que ton enfant a vécu aujourd'hui (« le bain », « le chien »), montre du doigt, reprends les sons qu'[il/elle] essaie. Pas besoin qu'[il/elle] répète — t'entendre nommer son monde, lentement, lui suffit. Le petit livre du soir sera un autre beau moment de mots."
         }
       }
@@ -57,43 +55,36 @@
     {
       "etape": 2,
       "titre": "Baisser l'ambiance",
-      "horaire": "19h – 19h15",
-      "duree": "",
       "description": "Lumières tamisées, fin des écrans, on ralentit le rythme de toute la maison. Ce changement d'ambiance est le premier signal que la nuit approche."
     },
     {
-      "etape": 3,
-      "titre": "Bain ou toilette (pas tous les soirs)",
-      "horaire": "",
-      "duree": "5–10 min",
-      "description": "Bain court, eau à 37°C, lumière douce et voix basse. Si le bain réveille ton enfant au lieu de l'apaiser, déplace-le au matin."
+      "titre": "Le repas du soir, en famille",
+      "description": "Le dîner se prend à table, à heure régulière, sans écran. À cet âge, ton enfant mange de plus en plus comme vous : propose un repas simple et complet et laisse-le manger seul à sa façon, même maladroite — c'est ainsi qu'il gagne en autonomie. Termine par un temps calme à table plutôt qu'en jeu, pour amorcer la descente vers la nuit. S'il prend encore un lait du soir, il viendra plus tard, dans le calme de la chambre.",
+      "etape": 3
     },
     {
       "etape": 4,
-      "titre": "Massage, réflexologie et pyjama",
-      "horaire": "",
-      "duree": "10 min",
-      "description": "Une noisette d'huile végétale, gestes lents, pression 0/10. Chantonne pendant le massage. Observe ses réactions : à la moindre crispation, ou si ton enfant retire son pied, arrête — on ne force jamais. Enchaîne la réflexologie tant que c'est agréable, puis le pyjama et la gigoteuse."
+      "titre": "Bain ou toilette (pas tous les soirs)",
+      "description": "Bain court. Si le bain réveille ton enfant au lieu de l'apaiser, déplace-le au matin."
     },
     {
       "etape": 5,
-      "titre": "Lait du soir et brossage des dents",
-      "horaire": "",
-      "duree": "lumière tamisée · 10 min",
-      "description": "Lumière tamisée, aucun écran. Ton enfant prend son lait du soir, tout contre toi. Ensuite, un brossage tout doux des dents : à un an, mieux vaut ne pas laisser le lait sur les dents pour la nuit."
+      "titre": "Massage, réflexologie, puis pyjama",
+      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud — pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou de réflexologie du soir. Mains réchauffées, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas. L'huile posée, on passe ensuite au pyjama — qu'il peut t'aider à enfiler."
     },
     {
       "etape": 6,
-      "titre": "Histoire du soir et/ou berceuse",
-      "horaire": "",
-      "duree": "pénombre · 5–10 min",
-      "description": "Direction la chambre, lumière éteinte, ~18–20°C. Un petit livre court et calme, et/ou la berceuse à voix très basse, tout contre toi. À toi de choisir ce qui te ressemble — l'histoire, la berceuse, ou les deux — puis garde le même rituel chaque soir : c'est sa constance qui rassure ton enfant."
+      "titre": "Lait du soir et brossage des dents",
+      "description": "Lumière tamisée, aucun écran. Ton enfant prend son lait du soir, tout contre toi."
     },
     {
       "etape": 7,
+      "titre": "Histoire du soir et/ou berceuse",
+      "description": "Direction la chambre, lumière éteinte, ~18–20°C. Un petit livre court et calme, et/ou la berceuse à voix très basse, tout contre toi. À toi de choisir ce qui te ressemble — l'histoire, la berceuse, ou les deux — puis garde le même rituel chaque soir : c'est sa constance qui rassure ton enfant."
+    },
+    {
+      "etape": 8,
       "titre": "Phrase d'ancrage et pose dans le lit",
-      "horaire": "20h",
-      "duree": "",
       "description": "Pose ton enfant dans son lit, avec une phrase identique chaque soir. Surtout, explique-lui clairement que tu ne restes pas dans la chambre, mais que tu seras juste à côté : « La nuit arrive. Je vais dans la pièce d'à côté, je reste tout près. Tu n'es pas [seul/seule]. » À un an, la peur de la séparation est vive : savoir à l'avance que tu sors — et que tu restes tout proche — évite la mauvaise surprise au réveil. Reste un instant, puis sors doucement."
     }
   ],
@@ -160,6 +151,5 @@
     "Coucher trop tard en espérant un meilleur sommeil : la sur-fatigue produit l'effet inverse.",
     "Garder des écrans allumés en soirée : leur lumière retarde l'endormissement, même en fond.",
     "Changer le rituel chaque soir : à un an, c'est sa constance qui rassure, pas sa variété."
-  ],
-  "consulter_si": "Ce rituel ne remplace pas l'avis de ton pédiatre. Parles-en si le sommeil reste très perturbé sur la durée, ou en cas de signes de douleur, de gêne respiratoire ou de ronflements importants la nuit."
+  ]
 }
