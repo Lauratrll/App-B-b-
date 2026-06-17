@@ -749,7 +749,7 @@ function B5({ c }: { c: Rec }) {
             <div style={{ background: "#F3DCD0", borderRadius: 10, padding: "10px 12px", marginTop: 12 }}>
               <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 5 }}>
                 <Etoile />
-                <span style={{ ...labStyle, marginBottom: 0 }}>La règle d'or</span>
+                <span style={{ ...labStyle, marginBottom: 0 }}>{"La règle d'or"}</span>
               </div>
               <p style={{ fontSize: 12.5, lineHeight: 1.5, color: WARM_BODY, margin: 0 }}>{str(challenge.regle_clef)}</p>
             </div>
