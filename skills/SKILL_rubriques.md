@@ -145,65 +145,29 @@ Notes :
 ```json
 {
   "reperes_cles": ["...", "...", "..."],  // 3 max
-  "signaux_de_fatigue": ["...", "..."],   // 4-5 max, SANS amorce
-  "rituel_etapes": [...],  // 6 étapes chronologiques (varie selon le mois)
-  "reflexologie_du_coucher": {            // ABSENTE en M0 (pas de réflexo sur un nouveau-né)
+  "rituel_etapes": [...],  // 6 étapes chronologiques
+  "reflexologie_du_coucher": {
     "titre": "...",
-    "duree_totale": "6-7 minutes",
+    "duree_totale": "7 minutes",
     "pression": "0/10",
-    "consentement": "...",
     "etapes": [...]  // 6 zones réflexo
   },
   "script_audio_du_soir": {
-    "titre": "Berceuse-rituel « ... »",
-    "duree": "~4 minutes",
+    "titre": "...",
+    "duree": "~5 minutes",
     "instruction": "...",
-    "texte": "..."  // ouverture [prénom], mots de l'enfant genrés [m/f], AUCUN marqueur de pause, refrain de clôture partagé
+    "texte": "..."  // script complet avec [pause]
   },
-  "co_parent": {...},                     // optionnel
-  "cadre_de_securite": {...}              // M0–M3 UNIQUEMENT — titre + intro + regles[] (amorce en gras)
-  "erreurs_a_eviter": ["...", "...", "..."]  // 3 erreurs ciblées max (dont les écrans)
+  "signaux_de_fatigue": ["...", "..."],  // 4-5 max
+  "erreurs_a_eviter": ["...", "...", "..."],  // 3 erreurs ciblées max (dont les écrans)
+  "consulter_si": "..."
 }
 ```
-> ⚠️ **Plus de champ `horaire` ni de clé `consulter_si`** dans les fichiers coucher (voir règles transversales ci-dessous). Les étapes `rituel_etapes` ne portent plus que `etape` / `titre` / `description` (ni `duree`, ni `horaire`). Idem pour les variantes du sélecteur (`variantes_developpementales.themes[].etape_rituel` = `titre` + `description` seulement).
-> ⚠️ **Plus de champ racine `duree_eveil_max`** : l'information sur la durée d'éveil maximale figure déjà dans les `reperes_cles`, on ne la duplique pas.
 
 **Règles :**
 - Pas d'ancrage en tête (redondant avec le contenu)
 - 3 erreurs max — toujours inclure une référence aux écrans (lumière bleue / mélatonine)
 - Le script audio est l'élément le plus important — soigner la qualité littéraire
-- **Pas de capitales d'emphase dans la prose** (pas de « AUCUN », « JAMAIS », « AVANT »… en majuscules). L'emphase passe par l'amorce en gras, pas par le cri typographique. Seuls les acronymes restent en capitales (MIN, ORL, PMI, 15…).
-- **Amorce en gras — séparateur obligatoire.** Chaque entrée de `reperes_cles`, `co_parent.actions` et `cadre_de_securite.regles` **doit contenir un `:` ou un `—` (tiret cadratin)** : c'est lui qui déclenche la mise en gras de la 1ʳᵉ partie. ⚠️ Un `;` ou un trait d'union simple `-` **ne fonctionnent PAS**. Mettre l'amorce utile en tête (« Le co-parent se lève pour les réveils non liés à l'allaitement — une nuit sur deux minimum », pas l'inverse). Jamais d'amorce en gras sur `signaux_de_fatigue`.
-- **Berceuse — ouverture et genre.** Le `script_audio_du_soir.texte` **ouvre toujours par `[Prénom]...`** (jamais par « Bonsoir, mon tout petit » ou autre). Tout surnom genré est entre crochets (« [mon tout petit/ma toute petite] »), masculin d'abord ; idem pour tout mot de l'enfant (« Tu es [aimé/aimée] »).
-- **« réflexologie » toujours écrit en entier dans le contenu, jamais « réflexo ».** (« la séquence réflexologie », « les zones de réflexologie »).
-
-#### Sécurité du sommeil (MIN) — règle transversale ⭐
-- La **prévention du couchage sécurisé est portée par le bloc `cadre_de_securite`**, présent **uniquement en M0–M3** (période de risque maximal de mort inattendue du nourrisson). C'est là, et seulement là, qu'on déroule les règles complètes (dos, lit nu et ferme, chambre partagée, 18-20°C, sans tabac, tétine/allaitement).
-- **À partir de M4, on n'empile plus les rappels MIN** dans le rituel ni ailleurs. Bébé se retourne et se dégage de plus en plus seul, et le message a déjà été posé. Une mention courte et apaisée suffit (« le lit reste simple et sûr — matelas ferme, gigoteuse adaptée ») — sans énumération négative, sans « recommandations MIN », sans dramatiser.
-- **Ne pas se prononcer sur les tours de lit / cale-bébé après M3** : ni les recommander, ni les proscrire. Le silence est le ton juste — certains parents les utilisent pour un bébé très mobile, ce n'est pas le lieu d'en faire un point d'attention.
-- Côté rendu : en **M0–M3**, le bloc `cadre_de_securite` prend le **design rouge des protocoles Guide-moi** (cadre fermé `1px #D4604A`) — voir `CONSIGNES_CLAUDE_CODE_coucher.md`.
-
-#### Règles transversales du rituel ⭐ (à appliquer à TOUS les mois)
-1. **Ni heure ni durée dans les étapes du rituel.** Aucun horaire (« 19h45 ») ni durée (« 10 min », « 30-60 min ») dans `rituel_etapes` ni dans les `etape_rituel` du sélecteur : c'est au parent d'adapter à son organisation. Le créneau indicatif (≈ 19h-20h) est donné une seule fois, dans les `reperes_cles`. Les champs `horaire` et `duree` n'existent plus dans les étapes.
-2. **L'explication « lumière bleue / mélatonine » ne va QUE dans `erreurs_a_eviter`.** Dans l'étape « Baisser l'ambiance », on garde uniquement l'action (« couper les écrans et la musique vive »), jamais le mécanisme — pas de répétition entre catégories.
-3. **Étape « repas » obligatoire à partir de M5** (début de la diversification). Une étape de repas du soir clairement identifiée doit figurer dans le rituel de chaque mois ≥ M5, adaptée à l'âge (diversification puis lait au début ; vrai dîner en famille chez le tout-petit). Le lait du soir, s'il subsiste, vient avant le brossage des dents.
-4. **Une seule histoire** (ou un nombre défini à l'avance), jamais « des histoires » en open bar. La répétition de la même histoire sur 2-3 semaines est un atout d'ancrage à rappeler.
-5. **Plus de bloc `consulter_si` dans le coucher.** Cette information vit dans la rubrique Guide-moi (sommeil), où elle a davantage sa place. La sécurité du premier trimestre reste portée par `cadre_de_securite` (M0–M3).
-6. **Pas de répétition entre catégories.** Chaque information à sa place : la sécurité du lit est dans les `reperes_cles` (ou le bloc dédié quand il existe), pas re-développée dans la phrase de clôture ; le mécanisme des écrans est dans les erreurs, pas dans le rituel ; etc. Vérifier systématiquement avant production.
-7. **Un seul mot pour le sac de couchage** : « gigoteuse » (par défaut). Ne pas proposer « gigoteuse ou turbulette » — les parents comprennent. Peu importe que le mot varie d'un mois à l'autre, mais jamais les deux ensemble.
-8. **Genre — vérification systématique** dans :
-   - la **berceuse** : tout mot qualifiant l'enfant (« tu ») est crocheté masculin/féminin, y compris les déterminants et superlatifs accordés — `[Quel aventurier/Quelle aventurière]`, `[le plus intrépide des aventuriers/la plus intrépide des aventurières]`, `[tout seul/toute seule]`, `[grand/grande]`, `[aimé/aimée]`. Les mots qualifiant le parent lecteur sont neutralisés.
-   - les **boutons du sélecteur** (`variantes_developpementales.themes[].sous_titre`) : forme `[Il…/Elle…]` avec accord complet des deux côtés (« [Il veut tout faire seul…/Elle veut tout faire seule…] » — ne pas oublier le féminin).
-9. **Bain ou toilette — alléger dès M8.** Ne plus indiquer la **température du bain** (« eau à 37°C ») ni les rappels d'ambiance redondants (« lumière tamisée, voix grave et lente ») à partir de M8. Ces consignes, répétées mois après mois, font décrocher le lecteur ; on garde la place pour le conseil adapté à l'âge (sécurité antidérapante, participation de l'enfant, etc.). M0–M7 peuvent conserver la température (nourrisson).
-10. **Massage + réflexologie AVANT le pyjama, regroupés dans une même étape** (« Massage, réflexologie, puis pyjama »). En sortie de bain, enfant encore dévêtu mais **au chaud** (une zone à la fois). **Le parent choisit** ce soir-là le massage, la réflexologie, ou les deux, selon la réceptivité de l'enfant **et sa propre fatigue**. **Aucun indicatif de temps de réflexologie** (« 7 min ») dans le rituel, à aucun mois (le détail des durées par zone reste dans le bloc `reflexologie_du_coucher`). Le pyjama vient **après** (logique de l'huile). M4/M5 : l'étape massage/réflexo peut rester distincte de l'étape pyjama qui la suit. ⚠️ **Le pyjama (et la gigoteuse) s'enfile à la fin de ce temps, donc AVANT la dernière prise de lait** : la tétée/le biberon du soir se fait bébé **habillé, blotti tout contre le parent — jamais en peau à peau** — pour pouvoir le poser directement dans son lit, sans le rhabiller, s'il s'endort en buvant. Vaut dès M0.
-11. **Lait du soir AVANT l'histoire** (à partir de M12), dans le calme de la chambre, suivi du brossage des dents (le brossage est mentionné dès M12) — puis l'histoire, bouche propre, ferme la soirée. Formulation du lait : « au dessert du repas du soir, **ou à cet instant dans le rituel du soir** » (ne plus écrire « dernier temps »). **Supprimer** la phrase de rappel « Ensuite, un brossage… puis le coucher » (redondante).
-12. **Histoire — nuance du cadre dès M13** : « Une seule histoire **(ou bien un nombre prédéfini et annoncé à l'enfant, pour tenir le cadre)**, lue lentement… ».
-13. **Pas de paragraphe « sécuriser le lit » ni « tenir le cadre ».** On ne développe pas la sécurité du lit dans le coucher (elle vit ailleurs) : à partir de M18, **juste évoquer** « envisager le passage à un lit au sol » dans la `description` d'ouverture, sans développer. Le sous-bloc `tenir_le_cadre` des blocs thématiques mensuels est supprimé.
-14. **Plus de bloc thématique d'âge en fin de page.** Le paragraphe lié à l'âge de l'enfant (ex. `regression_4_mois`, `poussee_angoisse_8_mois`, `opposition_au_coucher`, `l_explorateur_infatigable`…) **n'est plus une clé séparée en bas de page** : son contenu est **fusionné en tête, dans la `description` « Ce qui se passe »**. Un seul paragraphe d'ouverture, plus dense, bien ordonné (phénomène développemental nommé → ce qui se passe → conséquence au coucher → recadrage « pas un caprice / une régression » → quoi faire → pourquoi le rituel ancre), **sans redondance interne**. ⚠️ Ne pas confondre avec le bloc `co_parent` (M0-M11), qui reste une section distincte à conserver.
-
-#### Sous-titre du mois (`sous_titre`) ⭐
-- **Sous-titre UNIFORME sur tous les mois** : `"Un esprit, un corps, et un cœur apaisé"`. Identique de M0 à M23 — il signe la rubrique Coucher.
-- Ne jamais écrire le numéro du mois ni un générique type « Crée ton rituel adapté » / « Rituel & réflexologie du soir ».
 
 ### 4.3 `03_prendre_soin_de_moi.json` — Prendre soin de moi
 
@@ -220,7 +184,7 @@ Le parent vit ainsi un seul sujet à la fois, en profondeur, et l'app entière l
 | M0 | **Habiter ton corps qui vient d'accomplir l'immense** | Le corps vient d'accomplir l'immense. Revenir physiquement dans ce corps-là. |
 | M1 | **Oser demander, comme une compétence parentale** | L'entourage se retire. Réclamer activement plutôt que recevoir, sans honte. |
 | M2 | **Trouver ta place face au travail (ou en dehors)** | Reprise effective fin M2 / début M3. Anticipation utile (englobe la non-reprise). |
-| M3 | **Te donner les moyens de tenir, sans tenir seule** | Pic clinique de la DPP. Sortir du fantasme du « ça va s'arranger vite ». |
+| M3 | **Te donner les moyens de tenir, sans tenir seule** | Pic clinique de la dépression post-partum. Sortir du fantasme du « ça va s'arranger vite ». |
 | M4 | **Aimer ce nouveau corps, celui d'aujourd'hui** | L'urgence retombe, la comparaison remonte. Travail de réconciliation. |
 | M5 | **Offrir du positif à ton cerveau** | Biais de négativité installé. Réentraîner le mental à voir ce qui va. |
 | M6 | **Accueillir la nouvelle personne que tu es devenue** | Mi-parcours. Deuil du soi d'avant, accueil du soi d'après. |

@@ -65,172 +65,6 @@
 
 ---
 
-## Règles de formulation
-
-### Inclusivité sur la prise de lait
-
-**Ne jamais présupposer le mode d'alimentation du bébé.** Tous les contenus s'adressent autant aux parents qui allaitent qu'à ceux qui donnent le biberon, et à ceux qui font les deux.
-
-**Formulations à utiliser :**
-- "tétée ou biberon"
-- "prise de lait"
-- "moment du lait"
-- "pendant le repas de lait"
-- "au sein ou au biberon"
-
-**À bannir comme formulations par défaut :**
-- "pendant la tétée" (seul)
-- "quand tu allaites" (seul)
-- "après la tétée du soir" (seul)
-- Toute formulation qui n'évoque qu'un seul mode d'alimentation
-
-**Exception :** un contenu spécifiquement dédié à l'allaitement (ex : protocole "douleur de mise au sein") peut parler uniquement de tétée. De même, un contenu spécifique au biberon. Mais le contenu doit alors être clairement identifié comme tel par son titre ou son contexte.
-
-**Exemples de corrections :**
-
-| ❌ À éviter | ✅ À utiliser |
-|------------|--------------|
-| "Propose une tétée pour le rassurer" | "Propose une tétée ou un biberon pour le rassurer" |
-| "Après la tétée du soir, installe-le..." | "Après la prise de lait du soir, installe-le..." |
-| "Pendant l'allaitement, observe..." | "Pendant le moment du lait, observe..." |
-| "Une tétée suffit souvent à apaiser" | "Une tétée ou un biberon suffit souvent à apaiser" |
-
-### Ponctuation interne aux phrases
-
-**Le tiret cadratin « — » ou le tiret demi-cadratin « – » sont à bannir au milieu des phrases.** Ils créent une rupture visuelle et un ton qui ne correspondent pas à la voix chaleureuse de l'app.
-
-**Remplacements selon le sens de la phrase :**
-
-| Fonction du tiret | Remplacement recommandé |
-|-------------------|------------------------|
-| Apposition, précision | virgule, parenthèses, ou deux virgules d'encadrement |
-| Explication, développement | deux-points « : » |
-| Ajout, prolongement d'idée | virgule + conjonction (et, mais, car, donc) |
-| Pause, respiration | point + nouvelle phrase courte |
-| Énumération inline | virgules, ou passage en liste à puces |
-| Opposition forte | point + "Mais..." ou "Pourtant..." |
-
-**Exemples de corrections :**
-
-| ❌ À éviter | ✅ À utiliser |
-|------------|--------------|
-| "Les pleurs du soir — souvent appelés coliques — sont fréquents." | "Les pleurs du soir, souvent appelés coliques, sont fréquents." |
-| "Tu peux essayer le portage — c'est très efficace." | "Tu peux essayer le portage : c'est très efficace." |
-| "Bébé est fatigué — il a besoin de calme." | "Bébé est fatigué, il a besoin de calme." ou "Bébé est fatigué. Il a besoin de calme." |
-| "Une seule chose compte — le rassurer." | "Une seule chose compte : le rassurer." |
-| "Aucun protocole épinglé — explore le Guide-moi !" | "Aucun protocole épinglé pour l'instant, explore le Guide-moi !" |
-
-**Cas où le tiret reste autorisé :**
-- Dans les tableaux de comparaison
-- Entre deux nombres pour une fourchette ("3–5 phrases", "6–12 mois")
-- Dans les listes à puces, en début de ligne
-- Dans les titres ou intertitres structurels
-
-### Écriture genrée
-
-**Règle générale : pas d'écriture inclusive typographique** (`·e`, `·le`, `(e)`, `.e`). Elle alourdit la lecture, complexifie le rendu audio des méditations, et ne correspond pas au ton chaleureux et fluide de l'app.
-
-**Trois traitements selon le contexte :**
-
-| Contexte | Traitement | Exemples |
-|----------|-----------|----------|
-| **Rubrique « Prendre soin de moi »** (sauf exceptions ci-dessous) | **Féminin assumé** : la rubrique s'adresse aux mamans. | « Tu es épuisée », « Ton corps a changé », « Tu mérites cette pause » |
-| **Conseil 4 « Post-partum » > section « Côté papa / co-parent »** (à l'intérieur de Prendre soin de moi) | **Adresse directe au co-parent** (masculin ou neutre). La maman lit ce contenu et peut le faire lire à son partenaire. | « Si tu es co-parent et que tu lis ça… », « Ta fatigue est légitime » |
-| **Conseil 5 « Challenge couple »** (à l'intérieur de Prendre soin de moi) | **Formulations qui marchent pour les deux** : on s'adresse au couple. | « Vous vous asseyez face à face », « L'un de vous écrit, l'autre tire au hasard » |
-| **Toutes les autres rubriques** (Guide-moi, Coucher, Saison, Partager & rassurer, Jeux) | **Formulations qui marchent pour maman, papa, co-parent** : contournements neutres, infinitifs, formulations collectives. | « Pour t'apaiser », « Tu peux essayer », « Avant de coucher bébé » |
-
-**Stratégies de contournement neutre** (pour les rubriques générales) :
-- Préférer l'infinitif : *« Pour rassurer bébé »* plutôt que *« quand tu es rassurant·e »*
-- Préférer les substantifs : *« Avec patience »* plutôt que *« quand tu es patient·e »*
-- Préférer les formulations à la 2e personne sans accord d'attribut : *« Tu peux »*, *« Tu sens »*, *« Tu remarques »* (le verbe au présent ne porte pas d'accord)
-- Préférer le pluriel collectif quand c'est naturel : *« Comme parents, on porte beaucoup »*
-
-**Exemples de corrections :**
-
-| ❌ À éviter | ✅ À utiliser |
-|------------|--------------|
-| « Tu es épuisé(e) » (Prendre soin de moi) | « Tu es épuisée » |
-| « Tu es seul(e) à gérer » (Guide-moi) | « Tu gères seule cette journée » → reformuler : « Cette journée, tu gères tout sans relais » |
-| « Tu te sens fatigué·e » (Saison) | « La fatigue se fait sentir » ou « Tu te sens fatiguée » → utiliser un contournement par substantif |
-| « Si tu es prêt(e) » (méditation Prendre soin de moi) | « Si tu te sens prête » |
-| « Le parent attentif·ve » | « Un parent attentif » (article indéfini neutre) |
-
-### Personnalisation par prénom et genre (placeholders runtime)
-
-**À l'inscription, les parents renseignent le prénom de leur bébé et son genre** (« fille » ou « garçon »). L'app peut remplacer en runtime des placeholders dans les textes des contenus, pour ajouter une touche d'émotion ou personnaliser une formulation.
-
-**Syntaxe des placeholders :**
-
-| Placeholder | Remplacé par | Exemple |
-|-------------|--------------|---------|
-| `{prenom}` | Le prénom du bébé (ex. « Léa ») | « Tu regardes {prenom} dormir » → « Tu regardes Léa dormir » |
-| `{genre}` | « fille » ou « garçon » selon le choix à l'inscription | « ton petit {genre} » → « ta petite fille » ou « ton petit garçon » |
-
-**Règles d'usage :**
-
-1. **`{prenom}` à utiliser avec parcimonie**, uniquement quand l'émotion le justifie. Garder « bébé » comme formulation de base, et remplacer ponctuellement par `{prenom}` aux moments-clés où la personnalisation crée du lien (ex. ouverture d'une méditation, fin d'un protocole, célébration d'un cap développemental).
-
-2. **`{genre}` à utiliser de manière très ponctuelle**, uniquement quand un accord grammatical le rendrait plus naturel ou quand le genre porte du sens dans la phrase. À éviter dans la majorité des cas où une formulation neutre fonctionne tout aussi bien.
-
-3. **Ne JAMAIS utiliser de placeholder dans :**
-   - **Les méditations audio** (texte_meditation) : elles doivent rester universelles et fluides, et une lecture vocale automatisée du prénom risque de mal sonner.
-   - **Les signaux d'alerte médicaux** et les **urgences** : la précision médicale prime sur la personnalisation.
-   - **Les titres et sous-titres** (sauf cas particulier validé) : ils servent à la navigation et doivent rester stables.
-   - **Les contenus juridiques ou administratifs** : trop sérieux pour être personnalisés.
-
-4. **Doser** : pas plus de 1 ou 2 occurrences de `{prenom}` par fichier JSON. La personnalisation perd son effet si elle est partout.
-
-5. **Toujours offrir une alternative sans placeholder** : la phrase doit rester correcte et naturelle même si le parent a sauté l'étape du prénom à l'inscription (auquel cas le runtime remplace `{prenom}` par « bébé »).
-
-**Exemples de bonne utilisation :**
-
-| Contexte | Phrase |
-|----------|--------|
-| Ouverture chaleureuse d'un protocole | « {prenom} pleure depuis 20 minutes. Tu es prête à essayer quelque chose ensemble. » |
-| Célébration d'un cap | « {prenom} a 6 mois aujourd'hui. Regarde ce qu'il/elle a appris à faire. » *(à éviter : trop de personnalisation et accord genre)* → mieux : « Bébé a 6 mois aujourd'hui. Regarde tout ce qu'il a appris. » avec `{genre}` réservé aux phrases où l'accord est vraiment nécessaire |
-| Auto-reconnaissance, dans une amorce | « Le jour où {prenom} est arrivé(e), j'ai pensé que… » |
-
-**Exemples à éviter :**
-
-❌ « {prenom} a besoin de toi, {prenom} compte sur toi. Quand {prenom} pleure, tu fais de ton mieux pour {prenom}. » → saturation, effet inverse  
-❌ « Si {prenom} ne respire pas normalement, appelle le 15. » → contexte médical d'urgence, garder « bébé »  
-❌ Insertion dans un texte de méditation : « Je pose une main sur le ventre de {prenom}. » → la voix audio pourrait mal prononcer le prénom
-
----
-
-## Pas de références juridiques précises
-
-**L'app n'est pas une source d'information juridique.** Les lois, articles de code, durées légales, dispositifs administratifs précis évoluent au fil du temps, varient selon les situations individuelles, et ne sont pas du ressort d'une app de bien-être périnatal.
-
-**Ce que l'app NE doit PAS faire :**
-- ❌ Citer un article de loi précis (« article L1225-25 du Code du travail »)
-- ❌ Affirmer une durée légale précise (« tu as droit à 28 jours de congé paternité »)
-- ❌ Décrire un dispositif administratif comme si c'était une garantie (« ton employeur doit te restituer ton poste »)
-- ❌ Donner des seuils chiffrés présentés comme des règles (« remboursement à 100% »)
-
-**Ce que l'app peut faire à la place :**
-- ✅ Évoquer la **thématique** sans affirmer la règle (« il existe des droits encadrant ta reprise »)
-- ✅ Orienter vers les **bons interlocuteurs** qui sauront actualiser l'information (sage-femme, médecin du travail, RH de l'entreprise, syndicat, service public, PMI)
-- ✅ Inviter à se **renseigner** plutôt qu'affirmer (« renseigne-toi sur les aménagements possibles à ta reprise »)
-- ✅ Mentionner les **ressources officielles** dans la liste « qui consulter » sans citer le contenu de la loi
-
-**Exemples de reformulation :**
-
-| ❌ À éviter | ✅ À utiliser |
-|------------|--------------|
-| « En France, le congé paternité dure 28 jours depuis 2021. » | « Le congé du second parent a une durée définie par la loi, qui a évolué récemment. Renseigne-toi auprès de ton employeur ou de l'Assurance Maladie pour connaître tes droits actuels. » |
-| « Tu as droit à 1h par jour pour tirer ton lait jusqu'aux 1 an de bébé (Code du travail). » | « Il existe des aménagements possibles si tu allaites et que tu reprends le travail. La médecine du travail et ta sage-femme peuvent t'orienter vers les dispositifs prévus pour t'accompagner. » |
-| « L'article L1225-25 garantit que ton employeur doit te restituer ton poste. » | « À ta reprise, des protections existent autour de ton poste et de tes conditions de travail. La médecine du travail, ton service RH ou un syndicat peuvent t'aider à les faire valoir. » |
-| « MonParcoursPsy : 12 séances de psychologue remboursées par an par l'Assurance Maladie, sans avance de frais, sur prescription médicale. » | « MonParcoursPsy : un dispositif public qui permet d'accéder à des séances de psychologue avec une prise en charge, sur orientation médicale. Renseigne-toi auprès de ton médecin pour les modalités actuelles. » |
-
-**Pourquoi cette règle est essentielle :**
-- Le droit évolue (le congé paternité est passé de 14 à 28 jours en 2021, le congé de naissance a été modifié, etc.). Un texte juridique précis devient faux avec le temps.
-- L'app n'a pas de service juridique pour vérifier l'exactitude des affirmations à chaque évolution législative.
-- Une information juridique inexacte expose la maman à de mauvaises décisions et l'app à une responsabilité.
-- Renvoyer vers les interlocuteurs compétents responsabilise et protège.
-
----
-
 ## Règles médicales et de sécurité
 
 ### Ce que l'app peut faire :
@@ -267,7 +101,7 @@ Jamais vague. Jamais "si tu t'inquiètes". Toujours avec un critère objectif.
 ### UI copy (boutons, labels, titres) :
 - Boutons : 2 à 4 mots, verbe d'action ("Voir le protocole", "Épingler", "Commencer")
 - Titres de section : 3 à 6 mots
-- Messages d'état vides : encourageants, pas vides ("Aucun protocole épinglé pour l'instant, explore le Guide-moi !")
+- Messages d'état vides : encourageants, pas vides ("Aucun protocole épinglé pour l'instant — explore le Guide-moi !")
 - Messages d'erreur : clairs, avec une action possible
 
 ### Notifications push / emails :
@@ -333,16 +167,44 @@ Les conseils de saison doivent toujours croiser : **âge du bébé** × **saison
 
 ---
 
+## Conventions typographiques — VALABLES POUR TOUS LES CONTENUS
+
+Ces règles s'appliquent à **l'intégralité des contenus** : protocoles Guide-moi !, Prendre soin de moi, coucher, saison, partager & rassurer, jeux, UI copy, onboarding, emails, notifications.
+
+### Termes à écrire en toutes lettres — jamais d'abréviation
+
+- **« dépression post-partum »** : toujours en toutes lettres, **jamais « DPP »**, même après l'avoir déjà nommée dans le même texte, et **jamais entre parenthèses comme abréviation** (pas de « dépression post-partum (DPP) »). C'est un sujet sensible : le sens doit rester immédiatement clair et ne jamais risquer d'être perdu ou incompris par le parent.
+  - Forme tardive : écrire **« dépression post-partum tardive »** en entier (jamais « DPP-T » ni « DPP tardive »).
+  - ✅ « Quand la tristesse persiste au-delà de deux semaines, on parle de dépression post-partum. »
+  - ❌ « …on parle de dépression post-partum (DPP). » / ❌ « La DPP se soigne. »
+- Les sigles **techniques et institutionnels restent en capitales** : MIN, ORL, PMI, HAS, ANSM, IBCLC, SAMU. La règle ci-dessus ne vise que la dépression post-partum.
+
+### Espaces insécables (U+00A0) — obligatoires
+
+En typographie française, une **espace insécable** (caractère U+00A0, pas une espace normale) est obligatoire :
+
+- **Avant** les ponctuations doubles : `:` `;` `!` `?`
+- **Avant** le guillemet fermant : `»`
+- **Après** le guillemet ouvrant : `«`
+
+Exemples (l'espace figurée ici est en réalité un U+00A0) :
+- « Guide-moi ! » — « Et toi : comment tu te sens ? » — « Tu as le droit ; vraiment. »
+
+**Règles d'application :**
+- Insérer le caractère U+00A0 réel dans le JSON, pas l'entité HTML `&nbsp;` ni une espace fine.
+- Ne jamais retirer une insécable déjà présente.
+- La conversion est mécanique et sans risque sur la structure JSON : les deux-points structurels (`"clé": valeur`) ne sont jamais précédés d'une espace, donc jamais impactés.
+- Les guillemets sont toujours des chevrons français `« … »` (jamais les guillemets droits `"…"`).
+
+---
+
 ## Checklist éditoriale avant publication d'un contenu
 
 - [ ] Le ton est bienveillant envers le parent ET envers le bébé
 - [ ] Aucun terme médical non expliqué
+- [ ] « dépression post-partum » écrite en toutes lettres partout (aucun « DPP »)
+- [ ] Espaces insécables (U+00A0) présentes avant `: ; ! ?` et `»`, et après `«`
 - [ ] Le tutoiement est systématique
-- [ ] Aucune présupposition sur le mode d'alimentation (tétée ou biberon)
-- [ ] Aucun tiret « — » ou « – » au milieu des phrases
-- [ ] Aucune écriture inclusive typographique (`·e`, `(e)`, `·le`). Féminin assumé dans « Prendre soin de moi », formulations neutres ailleurs
-- [ ] Aucune référence juridique précise (article de loi, durée légale, dispositif administratif). Évoquer la thématique et orienter vers les bons interlocuteurs
-- [ ] Placeholders `{prenom}` et `{genre}` utilisés avec parcimonie (1-2 max par fichier), jamais dans les méditations ni les contenus médicaux d'urgence
 - [ ] Le cadre de sécurité est présent avec des critères objectifs
 - [ ] La longueur respecte les limites définies
 - [ ] Aucune promesse de résultat garanti

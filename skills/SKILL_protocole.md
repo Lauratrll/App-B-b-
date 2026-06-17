@@ -24,6 +24,10 @@ Ces trois principes s'appliquent à **chaque** protocole, sans exception :
 
 4. **Les redites entre les mois sont acceptables.** Certains sujets durent dans le temps (sommeil, coliques, sur-stimulation, charge parentale, séparation, alimentation…) et un parent donné peut rencontrer un même problème à des mois différents. Il est donc normal et utile qu'un thème réapparaisse d'un mois à l'autre. La règle n'est pas d'éviter toute répétition, mais de **ne jamais copier-coller** : à chaque mois, le protocole est réécrit en tenant compte de l'évolution de l'enfant (nouvelles capacités, nouveaux enjeux développementaux, fenêtre d'âge différente). Le fond peut se recouper, la formulation et les détails développementaux doivent être propres au mois. Mieux vaut un bon protocole récurrent et actualisé qu'une situation artificielle inventée pour fuir la répétition.
 
+5. **Typographie et termes en toutes lettres** (voir `SKILL_contenu.md` § Conventions typographiques). Deux points sont impératifs dans les protocoles :
+   - **« dépression post-partum » toujours en toutes lettres, jamais « DPP »** (ni « DPP-T » ni « DPP tardive » : écrire « dépression post-partum tardive »). Sujet sensible : le sens ne doit jamais être perdu. Les sigles institutionnels (MIN, ORL, PMI, HAS, ANSM, IBCLC) restent en capitales.
+   - **Espaces insécables U+00A0** obligatoires avant `: ; ! ?` et `»`, et après `«`.
+
 ---
 
 ## 2. Structure obligatoire — 32 protocoles par mois
@@ -311,5 +315,7 @@ Si un protocole fait moins de 350 mots, il est probablement trop sec — étoffe
 - [ ] Consulter_si = critères objectifs uniquement
 - [ ] Aucune formulation interdite (votre enfant, il faut, malheureusement)
 - [ ] Aucune précaution interdite (huiles essentielles, lidocaïne, miel...)
+- [ ] « dépression post-partum » en toutes lettres partout (aucun « DPP »)
+- [ ] Espaces insécables U+00A0 avant `: ; ! ?` et `»`, après `«`
 - [ ] Le protocole est VRAIMENT différent des 3 autres protocoles de sa catégorie
 - [ ] Le volume est entre 400 et 700 mots
