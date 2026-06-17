@@ -53,19 +53,21 @@ const PICTO_CASE: Record<number, ReactNode> = {
       <rect x="17" y="13" width="4" height="7" rx="2" />
     </>
   ),
-  // Mains en prière « merci » : deux paumes jointes + pouces.
+  // Fleur vue du dessus : cœur central + 6 pétales.
   3: (
     <>
-      <path d="M12 3.5C11 4.9 9.8 6.1 8.6 7.1 7.5 8 6.9 8.9 6.9 10.3V17a2.6 2.6 0 0 0 2.6 2.6H12" />
-      <path d="M12 3.5C13 4.9 14.2 6.1 15.4 7.1 16.5 8 17.1 8.9 17.1 10.3V17a2.6 2.6 0 0 1-2.6 2.6H12" />
-      <path d="M12 5v14.6" />
-      <path d="M6.9 13 4.9 14.3" />
-      <path d="M17.1 13 19.1 14.3" />
+      <circle cx="12" cy="12" r="2" />
+      <ellipse cx="12" cy="6.8" rx="1.8" ry="2.8" transform="rotate(0 12 12)" />
+      <ellipse cx="12" cy="6.8" rx="1.8" ry="2.8" transform="rotate(60 12 12)" />
+      <ellipse cx="12" cy="6.8" rx="1.8" ry="2.8" transform="rotate(120 12 12)" />
+      <ellipse cx="12" cy="6.8" rx="1.8" ry="2.8" transform="rotate(180 12 12)" />
+      <ellipse cx="12" cy="6.8" rx="1.8" ry="2.8" transform="rotate(240 12 12)" />
+      <ellipse cx="12" cy="6.8" rx="1.8" ry="2.8" transform="rotate(300 12 12)" />
     </>
   ),
-  // Tourbillon : spirale qui s'enroule vers le centre.
+  // Tourbillon : spirale enroulée sur ~3 tours.
   4: (
-    <path d="M12 12a1.6 1.6 0 0 1 1.6 1.6 3.2 3.2 0 0 1-3.2 3.2 4.8 4.8 0 0 1-4.8-4.8 6.4 6.4 0 0 1 6.4-6.4 8 8 0 0 1 8 8" />
+    <path d="M11.2 12 A1.2 1.2 0 0 0 13.6 12 A2 2 0 0 1 9.6 12 A2.8 2.8 0 0 0 15.2 12 A3.6 3.6 0 0 1 8 12 A4.4 4.4 0 0 0 16.8 12 A5.2 5.2 0 0 1 6.4 12" />
   ),
   // Deux cœurs : un grand devant, un plus petit en retrait.
   5: (
