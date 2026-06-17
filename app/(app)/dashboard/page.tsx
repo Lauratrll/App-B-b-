@@ -7,7 +7,7 @@ const MODULES = [
   { href: "/guide", title: "Guide-moi !", subtitle: "Protocoles", bg: "#EDE0D4" },
   { href: "/coucher", title: "Préparer le coucher", subtitle: "Rituel du soir", bg: "#E4EEF0" },
   { href: "/soin", title: "Prendre soin de moi", subtitle: "Gestes parentaux", bg: "#F5E4DE" },
-  { href: "/saison", title: "Conseil de saison", subtitle: "Adapté au mois", bg: "#DCE8E4" },
+  { href: "/saison", title: "Vivre la saison", subtitle: "Adapté au mois", bg: "#DCE8E4" },
   { href: "/audio", title: "Partager & rassurer", subtitle: "Scripts audio", bg: "#E8EEF2" },
   { href: "/jeux", title: "Jeux & stimulation", subtitle: "Activités du mois", bg: "#EDE4D4" },
 ] as const;
@@ -37,28 +37,33 @@ export default async function DashboardPage() {
       </header>
 
       <ul className="grid grid-cols-2 gap-3">
-        {MODULES.map((m) => (
-          <li key={m.href}>
-            <Link
-              href={m.href}
-              className="flex h-[130px] flex-col items-center justify-center gap-1.5 rounded-[14px] border border-black/[0.07] px-3 py-3 text-center transition-transform active:scale-[0.97]"
-              style={{ backgroundColor: m.bg }}
-            >
-              <p
-                className="font-display font-semibold leading-[1.15] text-charcoal"
-                style={{ fontSize: 17, letterSpacing: "-0.01em" }}
+        {MODULES.map((m) => {
+          // « Vivre la saison » : le sous-titre suit la saison en cours.
+          const subtitle =
+            m.href === "/saison" ? SEASON_LABELS[season] : m.subtitle;
+          return (
+            <li key={m.href}>
+              <Link
+                href={m.href}
+                className="flex h-[130px] flex-col items-center justify-center gap-1.5 rounded-[14px] border border-black/[0.07] px-3 py-3 text-center transition-transform active:scale-[0.97]"
+                style={{ backgroundColor: m.bg }}
               >
-                {m.title}
-              </p>
-              <p
-                className="text-[9px] font-semibold uppercase text-eucal"
-                style={{ letterSpacing: "0.15em" }}
-              >
-                {m.subtitle}
-              </p>
-            </Link>
-          </li>
-        ))}
+                <p
+                  className="font-display font-semibold leading-[1.15] text-charcoal"
+                  style={{ fontSize: 17, letterSpacing: "-0.01em" }}
+                >
+                  {m.title}
+                </p>
+                <p
+                  className="text-[9px] font-semibold uppercase text-eucal"
+                  style={{ letterSpacing: "0.15em" }}
+                >
+                  {subtitle}
+                </p>
+              </Link>
+            </li>
+          );
+        })}
       </ul>
     </section>
   );
