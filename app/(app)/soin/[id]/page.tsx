@@ -4,7 +4,7 @@ import { requireProfile } from "@/lib/auth";
 import { getBabyMonth } from "@/lib/utils";
 import { getReflexoFromSoin, getSoinConseil } from "@/lib/content";
 import { isPinned } from "@/lib/pinned";
-import { ConseilView } from "@/components/modules/conseil-view";
+import { SoinDetail } from "@/components/modules/soin-detail";
 import { PinButton } from "@/components/modules/pin-button";
 
 export default async function ConseilPage({
@@ -42,7 +42,7 @@ export default async function ConseilPage({
           />
         ) : null}
       </div>
-      <ConseilView conseil={conseil} />
+      <SoinDetail conseil={conseil} />
     </section>
   );
 }

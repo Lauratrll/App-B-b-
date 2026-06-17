@@ -33,8 +33,8 @@ Les 5 `conseils` ont toujours `numero` **1→5 (stable)**, plus `id` (⚠️ **c
 |---|---|---|---|---|
 | 1 | Auto-massage de réflexologie | **Auto-massage** | main | `#EABDB1` |
 | 2 | Méditation audio | **Méditation audio** | casque | `#F8DBC9` |
-| 3 | Auto-reconnaissance | **Auto-reconnaissance** | balance | `#E7B99F` |
-| 4 | La réalité du post-partum | **Réalité du post-partum** | cœur | `#F5D0C8` |
+| 3 | Auto-reconnaissance | **Auto-reconnaissance** | fleur | `#E7B99F` |
+| 4 | La réalité du post-partum | **Réalité du post-partum** | tourbillon | `#F5D0C8` |
 | 5 | Challenge couple | **Challenge couple** | deux cœurs | `#EEC7B0` |
 
 ```ts
@@ -148,10 +148,7 @@ Chaque section est un **cadre arrondi** avec son **titre intégré à l'intérie
 2. **Grand titre** = `promesse_du_mois` (Playfair 700, 25 px, centré, `text-wrap:balance`).
 3. **Label** « Prendre soin de moi » (`nom_rubrique`) **juste en dessous** (eucalyptus 9 px uppercase).
 4. **Trait décoratif** 34×1 px `#C8806A` opacity .55.
-5. **Intro** = `intention_du_mois`, **tronquée ~210 caractères** (coupe sur un mot, « … » seulement si tronqué — texte complet réservé aux détails) :
-```ts
-const introCourte=(t,max=210)=>t.length<=max?t:t.slice(0,t.slice(0,max).lastIndexOf(' ')).trimEnd()+'…';
-```
+5. **Intro** = `intention_du_mois`, désormais **réécrit court (~120-160 caractères)** et affiché **en entier, sans troncature** (chaleureux, 1-2 phrases, signature « Ce mois t'invite à… »). Plus besoin de helper de coupe. *(Les versions longues d'origine sont archivées dans `intention_du_mois_ARCHIVE_long.md`.)* Les 24 mois ont désormais leur en-tête (`promesse_du_mois` + `intention_du_mois`). ⚠️ M0, M3, M6, M9, M14 ont l'en-tête mais leurs **`conseils` restent en ancien format (6 conseils)** : la grille des 5 cartes ne s'affichera correctement qu'après migration de leurs conseils au format validé.
 6. **5 cases** : conteneur **largeur 82 %, centré**, `gap:8px`, `border-radius:11px`, **sans bordure**. Chaque case :
    - cercle picto 38 px en **blanc transparent** `rgba(255,255,255,.48–.55)`, picto **trait noir `#3A3228`** ;
    - `TITRE_COURT[numero]` en **Playfair 600/14 `#3A3228`** ;
@@ -188,7 +185,7 @@ Champs : `duree`, `intro`, `instruction`, `texte_meditation` (avec marqueurs `[p
 - **Lecteur audio** (bloc `#F4E4DA`) **juste au-dessus du texte** : bouton play rond `#C8806A`, barre de progression, `0:00 / {duree}`. *(L'audio sera enregistré ; prévoir le composant `<audio>` branché plus tard.)*
 - **Cadre `#FBF6F1` (filet .5px) « Texte de la méditation »** : rendre `texte_meditation` ; transformer chaque `[pause - N secondes]` en repère centré discret « pause N secondes » (eucalyptus), un paragraphe par bloc.
 
-### 6.3 — B3 Auto-reconnaissance (numero 3, couleur `#E7B99F`, picto balance)
+### 6.3 — B3 Auto-reconnaissance (numero 3, couleur `#E7B99F`, picto fleur)
 Champs : `intro`, `format_propose`, `consigne`, `amorces_si_blocage[]`, `espace_pour_ecrire` (bool), `principe`.
 - **Chip** : « format écriture · 30 min ».
 - **Cadre `#F7ECE4` « Comment faire »** : `consigne` (mots-clés `oui assumés` / `non à poser` en gras `#8A4030`).
@@ -197,7 +194,7 @@ Champs : `intro`, `format_propose`, `consigne`, `amorces_si_blocage[]`, `espace_
 - **Cadre `#F7ECE4` « Si tu bloques, commence par… »** : `amorces_si_blocage[]` en lignes, chevron `›` `#C8806A`.
 - **Cadre `#F9F1EA` « À retenir »** : `principe` (italique).
 
-### 6.4 — B4 Réalité du post-partum (numero 4, couleur `#F5D0C8`, picto cœur)
+### 6.4 — B4 Réalité du post-partum (numero 4, couleur `#F5D0C8`, picto tourbillon)
 Champs : `intro`, `pour_la_maman {titre, contenu}`, `pour_le_papa_co_parent {titre, contenu}`, `signaux_a_ne_pas_negliger[]`, `urgence`, `qui_consulter[]`.
 Pile de cadres (tous arrondis, labels eucalyptus, **aucun bleu**) :
 - **`#F7ECE4` « Ce qui se passe »** : `intro`.
@@ -223,8 +220,8 @@ Couleur : **slot** pour le picto 32 px d'en-tête ; **noir `#3A3228`** pour les 
 ```
 main (1)        : <path d="M8 13V5.5a1.5 1.5 0 0 1 3 0V11"/><path d="M11 11V4.5a1.5 1.5 0 0 1 3 0V11"/><path d="M14 11V5.5a1.5 1.5 0 0 1 3 0V12"/><path d="M17 12V8a1.5 1.5 0 0 1 3 0v6a6 6 0 0 1-6 6h-2.5a5 5 0 0 1-3.9-1.9L4 13.5a1.6 1.6 0 0 1 2.5-2L8 13.5"/>
 casque (2)      : <path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="13" width="4" height="7" rx="2"/><rect x="17" y="13" width="4" height="7" rx="2"/>
-balance (3)     : <path d="M12 3v18"/><path d="M5 7l-2.5 5a2.5 2.5 0 0 0 5 0L5 7z"/><path d="M19 7l-2.5 5a2.5 2.5 0 0 0 5 0L19 7z"/><path d="M5 7l7-2 7 2"/><path d="M8 21h8"/>
-cœur (4)        : <path d="M12 20s-7-4.4-7-9.5A3.6 3.6 0 0 1 12 7a3.6 3.6 0 0 1 7 3.5C19 15.6 12 20 12 20z"/>
+fleur (3)       : <circle cx="12" cy="12" r="2"/> + 6× <ellipse cx="12" cy="6.8" rx="1.8" ry="2.8" transform="rotate(k 12 12)"/> (k=0,60,120,180,240,300)
+tourbillon (4)  : spirale d'Archimède ~2,75 tours, virgule au centre — tracé exact dans components/modules/soin-design.tsx (PICTO_CASE[4])
 deux cœurs (5)  : <path d="M9.5 16s-4.5-2.9-4.5-6.2A2.4 2.4 0 0 1 9.5 8a2.4 2.4 0 0 1 4.5 1.8C14 13.1 9.5 16 9.5 16z"/><path d="M15.5 19s-3.6-2.3-3.6-5A1.9 1.9 0 0 1 15.5 12a1.9 1.9 0 0 1 3.6 1.5c0 2.7-3.6 5-3.6 5z"/>
 horloge (chip)  : <circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 14"/>
 coche (indic)   : <polyline points="20 6 9 17 4 12"/>
@@ -236,7 +233,7 @@ alerte (urgence): <circle cx="12" cy="12" r="9"/><line x1="12" y1="8" x2="12" y2
 
 ## 8. Checklist de validation (toute la rubrique)
 
-- [ ] **Accueil** : tient sur un écran, bandeau Cream inchangé, pas de fil d'Ariane, grand titre `promesse_du_mois` + « Prendre soin de moi » dessous, intro tronquée, 5 cases 82 % alternées, cercles picto blanc transparent, picto/phrase/flèche **noirs**, chevrons présents.
+- [ ] **Accueil** : tient sur un écran, bandeau Cream inchangé, pas de fil d'Ariane, grand titre `promesse_du_mois` + « Prendre soin de moi » dessous, intro intégrale (réécrite courte, sans troncature), 5 cases 82 % alternées, cercles picto blanc transparent, picto/phrase/flèche **noirs**, chevrons présents.
 - [ ] **Détails** : picto 32 px en couleur de slot centré, eyebrow `nom_outil` + H1 `promesse` Playfair.
 - [ ] **Titres harmonisés** (§4.3) : `text-wrap: balance`, aucun `<br>` manuel, liens insécables article→nom et pronom→verbe via `formatTitre()`, coupure naturelle sur la ponctuation, **2 lignes max**.
 - [ ] **Titres de section intégrés dans les cadres** (label eucalyptus en haut du bloc), partout.
