@@ -342,25 +342,191 @@ function B2({ c }: { c: Rec }) {
   );
 }
 
-// ---- B3 — Auto-reconnaissance ----------------------------------------------
-function GabaritPapier() {
-  // Saisie SUR PAPIER (décision validée) : gabarit visuel, sans champ éditable.
+// ---- Gabarits papier (B3) — visuels NON éditables, pilotés par `gabarit` ----
+// §6.3 : un seul composant présentationnel, paramétré par gabarit.type.
+// Aucune saisie / sauvegarde in-app ; ne re-rend aucun texte de contenu.
+const LIGNE: CSSProperties = { display: "block", height: 1, background: "rgba(58,50,40,.20)" };
+
+function numFrom(v: unknown, def: number): number {
+  if (typeof v === "number") return v;
+  if (typeof v === "string") {
+    const m = v.match(/\d+/);
+    if (m) return Number(m[0]);
+  }
+  return def;
+}
+
+function Lignes({ n = 5 }: { n?: number }) {
+  const k = Math.max(1, Math.min(n, 7));
   return (
-    <div style={{ marginTop: 10, display: "flex", flexDirection: "column", gap: 9 }}>
-      {[0, 1, 2].map((i) => (
-        <span key={i} style={{ display: "block", height: 1, background: "rgba(58,50,40,.18)" }} />
+    <div style={{ display: "flex", flexDirection: "column", gap: 10, marginTop: 8 }}>
+      {Array.from({ length: k }).map((_, i) => (
+        <span key={i} style={LIGNE} />
       ))}
     </div>
   );
 }
 
+function ColHeader({ label, bg }: { label: string; bg: string }) {
+  return (
+    <div style={{ background: bg, borderRadius: 7, padding: "4px 8px", fontSize: 10, fontWeight: 600, color: WARM_LABEL, textAlign: "center", lineHeight: 1.2 }}>
+      {label}
+    </div>
+  );
+}
+
+function B3Gabarit({ g }: { g: Rec }) {
+  const type = str(g.type);
+  const colonnes = (Array.isArray(g.colonnes) ? g.colonnes : Array.isArray(g.colonnes_jours) ? g.colonnes_jours : []).map(String);
+  const pages = (Array.isArray(g.pages) ? g.pages : []).map(String);
+  const cercles = (Array.isArray(g.cercles) ? g.cercles : []).map(String);
+  const lignes = numFrom(g.lignes ?? g.lignes_par_colonne, 5);
+
+  switch (type) {
+    case "vocal":
+      return (
+        <div style={{ background: "#F4E4DA", borderRadius: 10, padding: "13px 14px", marginTop: 8, display: "flex", alignItems: "center", gap: 11 }}>
+          <span style={{ width: 32, height: 32, borderRadius: "50%", background: PEACH_DARK, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+              <rect x="9" y="3" width="6" height="11" rx="3" />
+              <path d="M6 11a6 6 0 0 0 12 0M12 17v3" />
+            </svg>
+          </span>
+          <span style={{ fontSize: 12, color: WARM_BODY }}>
+            Enregistrement vocal{str(g.duree) ? ` · ${str(g.duree)}` : ""}
+          </span>
+        </div>
+      );
+
+    case "deux_colonnes":
+      return (
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, marginTop: 8 }}>
+          {(colonnes.length ? colonnes : ["", ""]).slice(0, 2).map((col, i) => (
+            <div key={i}>
+              <ColHeader label={col} bg={i % 2 ? "#E7B99F" : "#EFE0D0"} />
+              <Lignes n={numFrom(g.lignes_par_colonne, 6)} />
+            </div>
+          ))}
+        </div>
+      );
+
+    case "deux_pages":
+      return (
+        <div style={{ display: "flex", flexDirection: "column", gap: 12, marginTop: 8 }}>
+          {(pages.length ? pages : ["", ""]).slice(0, 2).map((pg, i) => (
+            <div key={i}>
+              <ColHeader label={pg} bg={i % 2 ? "#E7B99F" : "#EFE0D0"} />
+              <Lignes n={4} />
+            </div>
+          ))}
+        </div>
+      );
+
+    case "lettre":
+      return (
+        <div style={{ marginTop: 8 }}>
+          {str(g.entete) ? (
+            <p style={{ fontFamily: PLAYFAIR, fontStyle: "italic", fontSize: 13, color: INK, margin: "0 0 8px" }}>{str(g.entete)},</p>
+          ) : null}
+          <Lignes n={lignes} />
+        </div>
+      );
+
+    case "liste_numerotee": {
+      const n = Math.min(numFrom(g.nombre, 5), 7);
+      const prefixe = str(g.prefixe_entree);
+      return (
+        <div style={{ display: "flex", flexDirection: "column", gap: 11, marginTop: 8 }}>
+          {Array.from({ length: n }).map((_, i) => (
+            <div key={i} style={{ display: "flex", gap: 9, alignItems: "center" }}>
+              <span style={{ width: 18, height: 18, borderRadius: "50%", background: PEACH_DARK, color: "#fff", fontSize: 10, fontWeight: 700, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>{i + 1}</span>
+              {prefixe ? <span style={{ fontSize: 11, fontStyle: "italic", color: WARM_BODY, whiteSpace: "nowrap" }}>{prefixe}</span> : null}
+              <span style={{ flex: 1, ...LIGNE }} />
+            </div>
+          ))}
+        </div>
+      );
+    }
+
+    case "carnet_date": {
+      const jours = numFrom(g.jours, 7);
+      const champs = (Array.isArray(g.champs_par_jour) ? g.champs_par_jour : Array.isArray(g.colonnes) ? g.colonnes : []).map(String);
+      const sample = Math.min(jours, 3);
+      return (
+        <div style={{ display: "flex", flexDirection: "column", gap: 10, marginTop: 8 }}>
+          {Array.from({ length: sample }).map((_, i) => (
+            <div key={i} style={{ borderTop: i ? "0.5px solid #EFE2D8" : "none", paddingTop: i ? 8 : 0 }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 5 }}>
+                <span style={{ fontSize: 10, fontWeight: 600, color: PEACH_DARK }}>Jour {i + 1}</span>
+                <span style={{ flex: 1, ...LIGNE }} />
+              </div>
+              {champs.length ? (
+                champs.map((ch, j) => (
+                  <div key={j} style={{ fontSize: 10.5, color: WARM_BODY, margin: "4px 0 0" }}>{ch}<span style={{ display: "block", marginTop: 5, ...LIGNE }} /></div>
+                ))
+              ) : (
+                <Lignes n={1} />
+              )}
+            </div>
+          ))}
+          {jours > sample ? (
+            <p style={{ fontSize: 10, fontStyle: "italic", color: EUCAL, textAlign: "center", margin: 0 }}>… {jours} jours au total</p>
+          ) : null}
+        </div>
+      );
+    }
+
+    case "grille_planning": {
+      const cols = Math.min(numFrom(g.colonnes ?? g.colonnes_jours, 7), 7);
+      return (
+        <div style={{ marginTop: 8 }}>
+          {str(g.plage_horaire) ? (
+            <p style={{ fontSize: 10, color: EUCAL, margin: "0 0 6px" }}>{str(g.plage_horaire)}</p>
+          ) : null}
+          <div style={{ display: "grid", gridTemplateColumns: `repeat(${cols}, 1fr)`, gap: 3 }}>
+            {Array.from({ length: cols * 4 }).map((_, i) => (
+              <span key={i} style={{ height: 14, borderRadius: 3, border: "0.5px solid rgba(58,50,40,.22)" }} />
+            ))}
+          </div>
+        </div>
+      );
+    }
+
+    case "cercles_concentriques":
+      return (
+        <div style={{ marginTop: 8, display: "flex", flexDirection: "column", alignItems: "center", gap: 8 }}>
+          <svg width="120" height="120" viewBox="0 0 120 120" fill="none" stroke={PEACH_DARK} strokeWidth={1} aria-hidden>
+            <circle cx="60" cy="60" r="54" />
+            <circle cx="60" cy="60" r="37" />
+            <circle cx="60" cy="60" r="20" />
+            <text x="60" y="64" textAnchor="middle" fontSize="11" fill={INK} stroke="none" fontStyle="italic">{str(g.centre) || "Moi"}</text>
+          </svg>
+          {cercles.length ? (
+            <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 6 }}>
+              {cercles.map((lab, i) => (
+                <span key={i} style={{ fontSize: 10, color: WARM_BODY }}>• {lab}</span>
+              ))}
+            </div>
+          ) : null}
+        </div>
+      );
+
+    case "lignes_libres":
+    default:
+      return <Lignes n={lignes} />;
+  }
+}
+
+// ---- B3 — Auto-reconnaissance ----------------------------------------------
 function B3({ c }: { c: Rec }) {
   const amorces = arr(c.amorces_si_blocage);
-  const ecrirePapier = c.espace_pour_ecrire === true || c.espace_pour_enregistrement === true;
+  const gabarit = (c.gabarit && typeof c.gabarit === "object" ? (c.gabarit as Rec) : null);
+  const estVocal =
+    (gabarit && str(gabarit.type) === "vocal") || c.espace_pour_enregistrement === true;
   return (
     <>
       <Chips>
-        <Chip>{str(c.format_propose).includes("vocal") ? "format vocal" : "format écriture"}</Chip>
+        <Chip>{estVocal ? "format vocal" : "format écriture"}</Chip>
       </Chips>
       {str(c.intro) ? <TraitChapo texte={str(c.intro)} /> : null}
       {str(c.consigne) ? (
@@ -368,14 +534,9 @@ function B3({ c }: { c: Rec }) {
           <Prose texte={str(c.consigne)} />
         </Cadre>
       ) : null}
-      {ecrirePapier ? (
-        <Cadre bg="#FBF6F1" border="0.5px solid #EFE2D8" label="Ta feuille">
-          <p style={{ fontSize: 11.5, lineHeight: 1.5, color: WARM_BODY, margin: 0 }}>
-            À noter sur une feuille, chez toi — rien à saisir dans l'app.
-          </p>
-          <GabaritPapier />
-        </Cadre>
-      ) : null}
+      <Cadre bg="#FBF6F1" border="0.5px solid #EFE2D8" label="Ta carte">
+        <B3Gabarit g={gabarit ?? {}} />
+      </Cadre>
       {amorces.length ? (
         <Cadre bg="#F7ECE4" label="Si tu bloques, commence par…">
           <Liste items={amorces} marqueur="chevron" />
@@ -468,9 +629,102 @@ function renderUrgence(texte: string): ReactNode {
   );
 }
 
+// ---- Motifs illustratifs (B5) — §6.5, non éditables, pilotés par `gabarit` --
+const MOTIF_STROKE = PEACH_DARK;
+const MOTIF_FILL = "#F3DCD0";
+
+function MotifBox({ children }: { children: ReactNode }) {
+  return <div style={{ display: "flex", justifyContent: "center", marginTop: 12 }}>{children}</div>;
+}
+
+function B5Gabarit({ g }: { g: Rec }) {
+  switch (str(g.type)) {
+    case "sortie":
+      return (
+        <MotifBox>
+          <svg width="44" height="50" viewBox="0 0 44 50" fill={MOTIF_FILL} stroke={MOTIF_STROKE} strokeWidth={1.4} strokeLinejoin="round" aria-hidden>
+            <rect x="12" y="6" width="22" height="38" rx="2" />
+            <circle cx="29" cy="26" r="1.3" fill={MOTIF_STROKE} stroke="none" />
+            <path d="M8 44h30" fill="none" />
+          </svg>
+        </MotifBox>
+      );
+    case "cartes_questions": {
+      const n = Math.min(numFrom(g.nombre, 3), 5);
+      return (
+        <MotifBox>
+          <div style={{ display: "flex", gap: 6 }}>
+            {Array.from({ length: n }).map((_, i) => (
+              <span key={i} style={{ width: 26, height: 34, borderRadius: 5, background: MOTIF_FILL, border: `1.2px solid ${MOTIF_STROKE}`, display: "flex", alignItems: "center", justifyContent: "center", color: MOTIF_STROKE, fontSize: 13 }}>?</span>
+            ))}
+          </div>
+        </MotifBox>
+      );
+    }
+    case "carte_a_remplir":
+      return (
+        <MotifBox>
+          <div style={{ width: 190, borderRadius: 8, background: MOTIF_FILL, border: `1.2px solid ${MOTIF_STROKE}`, padding: "9px 11px" }}>
+            {str(g.entete) ? (
+              <p style={{ fontSize: 10.5, fontWeight: 600, color: WARM_LABEL, margin: "0 0 7px", textAlign: "center" }}>{str(g.entete)}</p>
+            ) : null}
+            <span style={{ display: "block", height: 1, background: "rgba(200,128,106,.5)", margin: "7px 0" }} />
+            <span style={{ display: "block", height: 1, background: "rgba(200,128,106,.5)" }} />
+          </div>
+        </MotifBox>
+      );
+    case "mots_echanges":
+      return (
+        <MotifBox>
+          <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+            <span style={{ width: 34, height: 26, borderRadius: 4, background: MOTIF_FILL, border: `1.2px solid ${MOTIF_STROKE}` }} />
+            <svg width="22" height="16" viewBox="0 0 22 16" fill="none" stroke={MOTIF_STROKE} strokeWidth={1.4} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+              <path d="M2 8h16M13 3l5 5-5 5" />
+            </svg>
+            <span style={{ width: 34, height: 26, borderRadius: 4, background: MOTIF_FILL, border: `1.2px solid ${MOTIF_STROKE}`, position: "relative" }}>
+              {g.cache === true ? (
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke={MOTIF_STROKE} strokeWidth={2} style={{ position: "absolute", top: 7, left: 11 }} aria-hidden>
+                  <rect x="5" y="11" width="14" height="9" rx="2" />
+                  <path d="M8 11V8a4 4 0 0 1 8 0v3" />
+                </svg>
+              ) : null}
+            </span>
+          </div>
+        </MotifBox>
+      );
+    case "deux_portraits":
+      return (
+        <MotifBox>
+          <div style={{ display: "flex", gap: 10 }}>
+            {[0, 1].map((i) => (
+              <span key={i} style={{ width: 42, height: 48, borderRadius: 6, background: MOTIF_FILL, border: `1.2px solid ${MOTIF_STROKE}`, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 3 }}>
+                <span style={{ width: 14, height: 14, borderRadius: "50%", border: `1.4px solid ${MOTIF_STROKE}` }} />
+                <span style={{ width: 22, height: 10, borderRadius: "10px 10px 0 0", border: `1.4px solid ${MOTIF_STROKE}`, borderBottom: "none" }} />
+              </span>
+            ))}
+          </div>
+        </MotifBox>
+      );
+    case "boite_capsule":
+      return (
+        <MotifBox>
+          <svg width="56" height="48" viewBox="0 0 56 48" fill={MOTIF_FILL} stroke={MOTIF_STROKE} strokeWidth={1.4} strokeLinejoin="round" aria-hidden>
+            <rect x="10" y="16" width="36" height="26" rx="2" />
+            <rect x="7" y="10" width="42" height="8" rx="2" />
+            <circle cx="28" cy="29" r="3" fill="none" />
+          </svg>
+        </MotifBox>
+      );
+    case "moment_partage":
+    default:
+      return null;
+  }
+}
+
 // ---- B5 — Challenge couple -------------------------------------------------
 function B5({ c }: { c: Rec }) {
   const challenge = c.challenge_du_mois as Rec | undefined;
+  const gabarit = c.gabarit && typeof c.gabarit === "object" ? (c.gabarit as Rec) : null;
   return (
     <>
       <Chips>
@@ -490,6 +744,7 @@ function B5({ c }: { c: Rec }) {
               <Prose texte={str(challenge.deroule)} />
             </div>
           ) : null}
+          {gabarit ? <B5Gabarit g={gabarit} /> : null}
           {str(challenge.regle_clef) ? (
             <div style={{ background: "#F3DCD0", borderRadius: 10, padding: "10px 12px", marginTop: 12 }}>
               <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 5 }}>

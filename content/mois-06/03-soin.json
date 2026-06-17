@@ -2,132 +2,142 @@
   "mois": 6,
   "tranche_age": "6 mois",
   "rubrique": "prendre_soin_de_moi",
-  "nom_rubrique": "Prendre soin de moi",
-  "promesse_du_mois": "Accueillir la nouvelle personne que tu es devenue",
-  "theme_du_mois": "Accueillir la nouvelle personne que tu es devenue",
-  "intention_du_mois": "Six mois. Le mi-parcours de la première année. Bébé entre en diversification, ses sourires deviennent intentionnels, son corps s'affirme. Et toi, tu te rends compte que la personne que tu étais avant la naissance n'existe plus tout à fait, et que celle que tu es maintenant n'est pas encore complètement déchiffrée. Ce mois est un seuil. Pas un retour à l'avant. Une rencontre avec celle que tu es en train de devenir, qui mérite d'être accueillie aussi tendrement que tu accueilles bébé.",
-  "description": "Le mois 6 marque la sortie officielle du post-partum aigu et l'entrée dans une nouvelle phase. C'est un bon moment pour faire le bilan, pas des progrès de bébé, mais de ta propre transformation. Ce mois te propose un travail d'identité : accueillir ce que tu es devenue, sans nostalgie ni jugement.",
+  "titre_rubrique": "Prendre soin de moi",
+  "sous_titre": "Mois 6 — Tu es au creux, et c'est documenté",
+  "description": "À 6 mois, beaucoup de parents traversent ce qu'on pourrait appeler « le creux » : la nouveauté du début est passée, l'entourage est moins présent, bébé n'est pas encore autonome, et la perspective d'un futur plus léger reste floue. C'est aussi un moment statistique de bascule possible vers une dépression post-partum tardive — souvent invisible parce qu'on ne s'y attend plus à 6 mois. 6 propositions concrètes pour te soutenir maintenant.",
   "conseils": [
     {
-      "id": "auto_massage_identite",
+      "id": "auto_massage_reflexologie",
       "numero": 1,
       "icone": "🤲",
-      "nom_outil": "Auto-massage de réflexologie",
-      "promesse": "Reconnecter les zones du «\u00a0qui je suis maintenant\u00a0»",
-      "intro": "À 6 mois, beaucoup de mamans se sentent traverser un seuil identitaire. Pas seulement maman, plus seulement comme avant. 4 points sur tes mains, choisis pour soutenir l'expression de soi, la voix intérieure, et l'ancrage dans le présent. À faire en silence, lentement.",
+      "intro": "À 6 mois, bébé pèse 7 à 8 kg — c'est un nouveau poids à porter au quotidien. La diversification ajoute une charge digestive maternelle (préparation, gestion des allergènes, anticipation). Voici 4 points sur les mains, à activer pendant que bébé joue à côté, pendant une tétée, ou dans les transports.",
       "duree": "5 minutes",
       "indications": [
-        "Sentiment de ne plus savoir qui on est en dehors du rôle de maman",
-        "Voix intérieure étouffée, difficulté à savoir ce qu'on veut vraiment",
-        "Gorge serrée quand on essaie de parler de soi",
-        "Sensation de flottement entre l'ancienne version de soi et la nouvelle",
-        "Difficulté à se sentir présente à soi-même"
+        "Tensions des avant-bras et des poignets (portage d'un bébé plus lourd)",
+        "Tensions du dos et des épaules (allaitement prolongé ou biberonage)",
+        "Charge digestive maternelle (anticipation diversification, fatigue du tube digestif)",
+        "Réveils nocturnes cumulés (régression des 6 mois)",
+        "Anxiété de fond du milieu d'année"
       ],
       "points": [
         {
-          "zone": "Thyroïde (base de la pulpe du pouce, vers la paume)",
-          "geste": "Pression circulaire douce, 60 secondes par main",
-          "effet": "Soutient l'expression de soi et la voix intérieure (la thyroïde, zone-clé en post-partum, est aussi liée symboliquement au chakra de la gorge)"
+          "zone": "Estomac et digestion (zone sous le pouce, côté paume)",
+          "geste": "Cercles très lents du pouce opposé, sens horaire, 60 secondes par main",
+          "effet": "Soulage la charge digestive et le stress somatisé au ventre, particulièrement utile pendant la phase d'organisation de la diversification"
         },
         {
-          "zone": "Plexus cardiaque (au-dessus du plexus solaire, vers la base des doigts)",
-          "geste": "Pression douce et stable, 45 secondes par main",
-          "effet": "Ouvre la zone du cœur, soutient l'auto-tendresse et l'ancrage émotionnel"
+          "zone": "Diaphragme (ligne horizontale sous la base des doigts)",
+          "geste": "Glissé ferme du bord externe vers le pouce, 5 passages par main",
+          "effet": "Détend la respiration bloquée par la posture de portage et la vigilance permanente"
         },
         {
-          "zone": "Troisième œil (entre les sourcils, projeté sur l'extrémité du pouce)",
-          "geste": "Pression maintenue sur la pointe du pouce, 30 secondes par pouce",
-          "effet": "Soutient la clarté intérieure et la vision de soi"
+          "zone": "Épaules et trapèzes (bord externe de la paume, sous l'auriculaire)",
+          "geste": "Pression remontant de la base à l'auriculaire, 45 secondes par main",
+          "effet": "Libère les tensions accumulées par le portage répété d'un bébé qui s'alourdit"
         },
         {
-          "zone": "Ancrage main entière",
-          "geste": "Refermer fermement le poing de la main qui se fait masser pendant 10 secondes, puis ouvrir lentement et étirer. Répéter 3 fois par main",
-          "effet": "Réinscrit la présence dans le corps, ancre le sentiment d'être là"
+          "zone": "Poignets et avant-bras (face interne du poignet, juste sous la paume)",
+          "geste": "Pression circulaire avec le pouce opposé, 30 secondes par poignet",
+          "effet": "Soulage le syndrome du canal carpien post-partum, fréquent vers 6 mois (tendinites de portage et de gestes répétés)"
         }
       ],
-      "cloture": "Termine en posant ta main entière, paume ouverte, sur ton cœur. Trois respirations lentes. Sens ta propre chaleur qui dit «\u00a0je suis là, je suis moi, je suis nouvelle\u00a0»."
+      "cloture": "Terminer en frottant les paumes l'une contre l'autre 15 sec — chaleur — puis poser une main sur le ventre, l'autre sur le cœur, 30 sec immobile.",
+      "nom_outil": "Auto-massage de réflexologie",
+      "promesse": "Pour le portage qui pèse plus lourd"
     },
     {
-      "id": "meditation_deux_versions",
+      "id": "meditation_audio",
       "numero": 2,
       "icone": "🎧",
+      "duree": "~6 minutes",
+      "intro": "À 6 mois, beaucoup de parents (souvent les mères) ressentent un rétrécissement de leur identité : tout ce qui n'est pas « être parent » s'est éloigné. Cette méditation propose de retrouver les autres dimensions de toi — pas pour les opposer à ton rôle parental, mais pour rappeler qu'elles existent toujours.",
+      "texte_meditation": "Installe-toi confortablement. Tu peux fermer les yeux.\n\nPose une main sur ton ventre. L'autre sur ton cœur.\n\nInspire par le nez... lentement... retiens un instant... expire par la bouche, longuement. Encore deux fois.\n\n[Pause - 10 secondes]\n\nDepuis 6 mois, tu es devenu(e) parent.\n\nTu portes ce rôle 24h sur 24. Tu y penses la nuit, tu y penses au réveil, tu y penses pendant la douche.\n\nIl t'occupe entièrement.\n\nEt c'est normal — c'est le rôle le plus exigeant qui soit, surtout les premiers mois.\n\n[Pause - 10 secondes]\n\nMais je t'invite ce soir à te souvenir.\n\nÀ te souvenir de qui tu es, en plus d'être parent.\n\n[Pause - 5 secondes]\n\nIl y a quelqu'un en toi qui avait un métier — qu'il/elle exerçait ou qu'il/elle quittait, peu importe, mais qui existait.\n\nIl y a quelqu'un en toi qui aimait certains plats, certaines musiques, certains films. Cette personne n'a pas disparu.\n\nIl y a quelqu'un en toi qui avait des amis — peut-être moins disponibles maintenant, mais toujours là.\n\nIl y a quelqu'un en toi qui avait des rêves d'avant la naissance — pas pour les juger, pas pour les regretter, juste pour les reconnaître.\n\n[Pause - 10 secondes]\n\nCette personne, c'est toi aussi.\n\nElle est juste un peu plus loin pendant que tu apprends à être parent.\n\nElle attend que tu lui fasses une place. Une petite. Pas tout l'espace. Juste une fenêtre.\n\n[Pause - 10 secondes]\n\nCe soir, je t'invite à lui faire signe.\n\nDis-lui : je sais que tu es là.\n\nDis-lui : je ne t'oublie pas.\n\nDis-lui : on se retrouvera, doucement.\n\n[Pause - 10 secondes]\n\nÊtre parent ne demande pas de disparaître.\n\nBébé n'a pas besoin de tout toi. Il a besoin de toi présent(e) — et présent(e), c'est plus possible quand tu existes encore pour toi.\n\n[Pause - 5 secondes]\n\nMaintenant, doucement, ouvre les yeux.\n\nTu peux te dire — tout bas, comme un secret — : « je suis encore moi ».\n\nDouce soirée.",
       "nom_outil": "Méditation audio",
-      "promesse": "Mettre face à face celle que tu étais et celle que tu es, et laisser le dialogue venir",
-      "duree": "~8 minutes",
-      "intro": "Cette méditation propose une visualisation symbolique : tu vas imaginer deux versions de toi qui se rencontrent. Celle d'avant la grossesse, et celle d'aujourd'hui. Pas pour les comparer, pas pour regretter l'une ou idéaliser l'autre. Pour les laisser se parler. À écouter dans un moment calme, où tu peux fermer les yeux.",
-      "instruction": "Installe-toi confortablement, assise ou allongée. Tu peux fermer les yeux. La méditation se fait en silence intérieur, à la première personne : c'est ta propre voix qui se parle à toi-même.",
-      "texte_meditation": "Je respire. Inspiration par le nez. Expiration plus longue. Encore deux fois.\n\n[pause - 10 secondes]\n\nDepuis six mois, je suis devenue quelqu'un d'un peu nouveau. Je ne sais pas toujours qui je suis maintenant. Parfois je me cherche, parfois je m'évite. Aujourd'hui, je vais simplement aller à ma propre rencontre.\n\n[pause - 10 secondes]\n\nJ'imagine que je suis dans une pièce calme. Une pièce que je connais bien, ou une pièce inventée, peu importe. Une pièce où je me sens en sécurité.\n\n[pause - 10 secondes]\n\nDans cette pièce, devant moi, il y a deux fauteuils. Vides pour l'instant.\n\nDans le premier fauteuil, je vois s'asseoir une femme. C'est moi, telle que j'étais avant la grossesse. Telle que j'étais il y a un an, deux ans, peut-être plus. Je la regarde. Je la reconnais.\n\nJe regarde son visage, sa posture, ses vêtements peut-être. Je remarque sa façon d'occuper l'espace. Ses préoccupations. Ce qui l'animait à cette époque.\n\n[pause - 20 secondes]\n\nElle est là, elle a existé. Elle a existé pour de vrai. Ce n'est pas un fantôme : c'est moi, à un autre moment.\n\nJe ne lui en veux pas de qui elle était. Je ne la juge pas. Je la salue.\n\n[pause - 10 secondes]\n\nMaintenant, dans le deuxième fauteuil, je vois s'asseoir une autre femme. C'est moi, telle que je suis aujourd'hui. Je la regarde aussi.\n\nElle est fatiguée peut-être. Elle est tendre peut-être. Elle est plus forte par endroits, plus fragile par d'autres. Elle a des cernes que l'autre n'avait pas. Elle a aussi un regard que l'autre n'avait pas, un regard qui a vu une naissance, un nouveau-né, des nuits longues, beaucoup d'amour.\n\nJe la regarde sans la juger non plus. Je la reconnais. Elle existe, elle aussi.\n\n[pause - 20 secondes]\n\nMaintenant, j'imagine que ces deux versions de moi se regardent. Doucement. Sans hostilité.\n\nQu'est-ce que celle d'avant pourrait dire à celle d'aujourd'hui ?\n\nPeut-être : «\u00a0Je ne savais pas que tu deviendrais capable de tout ça. Je suis fière de toi.\u00a0»\nPeut-être : «\u00a0Tu peux laisser tomber certaines choses que je portais et qui ne servent plus.\u00a0»\nPeut-être autre chose. Je laisse venir.\n\n[pause - 20 secondes]\n\nEt celle d'aujourd'hui, qu'est-ce qu'elle pourrait dire à celle d'avant ?\n\nPeut-être : «\u00a0Merci d'avoir tenu le coup jusqu'ici. Merci d'avoir pris les décisions qui m'ont menée à moi.\u00a0»\nPeut-être : «\u00a0Tu me manques par endroits, mais je ne veux pas redevenir toi. Je veux être qui je suis maintenant.\u00a0»\nPeut-être : «\u00a0Je vais prendre soin de la partie de toi qui mérite d'être préservée.\u00a0»\n\n[pause - 20 secondes]\n\nCes deux femmes ne sont pas en compétition. Elles font partie d'un même fil. La femme d'aujourd'hui n'est pas une trahison de celle d'avant. Elle en est la continuation, transformée.\n\nJe peux les laisser exister toutes les deux. Une était nécessaire pour devenir l'autre.\n\n[pause - 15 secondes]\n\nDoucement, les deux femmes se lèvent. Elles s'approchent l'une de l'autre. Et elles se prennent dans les bras. Un câlin long, doux, sans mot.\n\nMa version d'avant et ma version d'aujourd'hui se reconnaissent. Elles font la paix.\n\n[pause - 15 secondes]\n\nJe respire encore une fois. Quand je rouvre les yeux, je ne suis ni l'une ni l'autre exclusivement. Je suis la somme des deux, et de toutes celles que je continue à devenir.\n\nJe suis accueillie. Par moi. C'est suffisant pour aujourd'hui."
+      "promesse": "À écouter quand l'identité se rétrécit"
     },
     {
-      "id": "auto_reconnaissance_lettre_soi_avant",
+      "id": "auto_reconnaissance",
       "numero": 3,
-      "icone": "📜",
+      "icone": "💗",
       "nom_outil": "Auto-reconnaissance",
-      "promesse": "Écrire à celle que tu étais avant la grossesse, et lui dire ce que tu sais maintenant",
-      "intro": "Ce format prolonge le travail de la méditation. Tu vas écrire une lettre à toi-même, mais à la version d'avant la grossesse. Tu sais maintenant des choses qu'elle ne savait pas. Tu as traversé des choses qu'elle n'imaginait pas. C'est l'occasion de lui parler, avec tendresse, depuis là où tu es aujourd'hui.",
-      "format_propose": "lettre_au_soi_d_avant",
-      "consigne": "Prends 30 minutes au calme. Imagine ta version d'il y a un an ou deux ans, juste avant que la grossesse commence. Tu la connais bien : c'est toi. Écris-lui une lettre, sur papier ou sur le téléphone. Commence par «\u00a0Chère [ton prénom],\u00a0» ou par n'importe quelle formule qui te ressemble. Raconte-lui ce qui s'est passé, ce que tu sais aujourd'hui et qu'elle ne sait pas. Ce que tu voudrais qu'elle se prépare à recevoir. Ce dont tu es fière. Ce que tu as appris d'elle, parce qu'elle a été ton point de départ. Et ce que tu veux garder d'elle pour la suite. Tu peux pleurer en écrivant. Tu peux rire. Tu peux la disputer, l'aimer, la consoler. Cette lettre n'est destinée qu'à toi.",
+      "promesse": "Donner la parole à deux voix qui coexistent en toi",
+      "intro": "Au mois 6, beaucoup de parents portent en eux deux voix contradictoires : une voix exigeante (« je devrais faire mieux, je devrais tenir mieux ») et une voix épuisée (« je n'en peux plus, j'ai besoin de me reposer »). Au lieu de les opposer, cet exercice propose de leur donner la parole — chacune leur tour — pour qu'elles se reconnaissent.",
+      "format_propose": "dialogue_interieur",
+      "gabarit": {
+        "type": "deux_colonnes",
+        "colonnes": [
+          "La voix exigeante",
+          "La voix épuisée"
+        ]
+      },
+      "consigne": "Prends 10 minutes au calme. Sur une feuille ou les notes du téléphone, écris un dialogue à deux voix. À gauche, la voix exigeante. À droite, la voix épuisée. Chaque voix prend la parole tour à tour, à voix égale. Tu n'as pas à choisir. Tu as juste à les laisser parler.",
       "amorces_si_blocage": [
-        "Ce que je voudrais te dire avant tout, c'est ...",
-        "Tu ne le sais pas encore, mais dans quelques mois, tu vas ...",
-        "La chose que je sais maintenant et que tu aurais aimé savoir, c'est ...",
-        "Ce que tu as fait de bien et que je veux te remercier d'avoir fait, c'est ...",
-        "Ce que je voudrais garder de toi, et qu'on emmène avec nous, c'est ...",
-        "Ce que je suis prête à laisser derrière, qui t'appartenait, c'est ..."
+        "Voix exigeante : « Tu devrais... » / Voix épuisée : « Je n'ai plus la force de... »",
+        "Voix exigeante : « Les autres parents... » / Voix épuisée : « Moi, je suis... »",
+        "Voix exigeante : « Si tu étais une bonne mère/un bon père, tu... » / Voix épuisée : « Je suis déjà... »",
+        "Voix exigeante : « Tu devrais pouvoir... » / Voix épuisée : « En vrai, ce que je ressens c'est... »",
+        "Voix exigeante : « Tu te plains alors que... » / Voix épuisée : « Ce qui me coûte vraiment, c'est... »"
       ],
       "espace_pour_ecrire": true,
-      "principe": "Cette lettre est un acte de réconciliation intérieure. Beaucoup de mamans, à 6 mois, ressentent une perte sans pouvoir la nommer (\"je ne suis plus la même\", \"il manque quelque chose\"). Écrire à la version d'avant permet de nommer cette perte, de la pleurer si nécessaire, et de la transformer en transmission. Tu peux garder cette lettre, la relire dans un an, ou la déchirer après l'avoir écrite. L'acte d'écrire suffit."
+      "principe": "Ces deux voix sont toutes les deux toi. Aucune n'est ennemie. La voix exigeante porte tes valeurs, la voix épuisée porte ta réalité. En les écrivant côte à côte, tu fais cesser leur guerre intérieure. La paix ne vient pas du choix d'une voix, mais de la reconnaissance des deux. Tu peux refaire ce dialogue chaque mois — les voix évoluent."
     },
     {
-      "id": "realite_post_partum_M6",
+      "id": "realite_post_partum",
       "numero": 4,
       "icone": "💬",
       "nom_outil": "La réalité du post-partum",
-      "promesse": "Six mois après : où en es-tu vraiment, et qu'est-ce qu'il reste à régler",
-      "intro": "À 6 mois post-partum, on est officiellement sorti de la phase aiguë. C'est un bon moment pour faire un vrai bilan, pas seulement émotionnel mais aussi corporel et pratique. Voici ce qu'il faut savoir, et ce qu'il vaut mieux vérifier maintenant.",
+      "promesse": "Le creux des 6 mois, et le risque de bascule",
+      "intro": "À 6 mois, le post-partum n'est officiellement plus reconnu socialement — l'entourage considère que « ça doit aller maintenant ». Pourtant, c'est statistiquement l'un des moments les plus vulnérables : pic de fatigue cumulative, perte du soutien initial, anticipation du retour pro pour beaucoup, et bascule possible vers la dépression post-partum tardive — qui peut survenir jusqu'à 12 mois après la naissance.",
       "pour_la_maman": {
         "titre": "Côté maman",
-        "contenu": "Six mois est un repère médical important. C'est généralement le moment où la majorité des transformations corporelles aiguës se stabilisent, et où ce qui n'a pas évolué mérite d'être pris en charge spécifiquement.\n\nÀ vérifier si pas encore fait : la rééducation périnéale a-t-elle été complétée ? Si oui, comment va le périnée maintenant (continence, sensations, douleurs) ? Si non, il est encore temps, c'est même important. Le diastasis (écartement des grands droits) a-t-il été évalué ? S'il persiste, une rééducation abdominale spécifique peut aider. Une visite gynécologique de contrôle est généralement utile autour de 6 mois.\n\nSur la fatigue : à 6 mois, le sommeil de bébé est souvent un peu mieux structuré, mais ta dette de sommeil cumulée peut être considérable. Si tu te sens encore complètement vidée malgré quelques bonnes nuits, ça peut signaler une carence (fer notamment) ou un déséquilibre thyroïdien. Un bilan sanguin est souvent utile à ce stade.\n\nSur l'humeur : si tu te sens encore en grande difficulté émotionnelle à 6 mois, ce n'est plus à mettre sur le compte de l'adaptation. C'est le moment de consulter spécifiquement. La DPP non repérée du 3e mois peut s'être installée discrètement. Une prise en charge à 6 mois change tout, autant pour toi que pour le lien avec bébé.\n\nSur l'identité : beaucoup de mères vivent à 6 mois ce qu'on appelle parfois un \"deuxième post-partum\", plus psychique qu'hormonal. La transformation identitaire devient consciente, et peut être déstabilisante. C'est normal. Ce n'est pas une rechute : c'est la phase où le mental rattrape ce que le corps a vécu sans pouvoir le digérer."
+        "contenu": "Cycle menstruel qui peut revenir (selon allaitement) — avec syndrome prémenstruel parfois amplifié post-partum\n\nFatigue chronique cumulative — différente de l'épuisement aigu des premières semaines\n\nAnxiété de fond souvent installée (vigilance permanente sur bébé, charge mentale)\n\nSensation de perte d'identité, de « ne plus se reconnaître » dans le miroir\n\nLibido souvent toujours basse — c'est physiologique et hormonal, pas un échec\n\nCharge mentale documentée comme à son pic dans les couples hétérosexuels — la mère pense 2,5x plus aux tâches de l'enfant que le père en moyenne (étude INED 2019)"
       },
       "pour_le_papa_co_parent": {
-        "titre": "Côté papa / co-parent",
-        "contenu": "À 6 mois, le rôle du co-parent évolue. La phase de survie collective s'apaise, et de nouvelles questions émergent : qui je suis devenu, comment notre couple se reconfigure, comment je trouve ma place avec ce bébé qui devient un petit humain plus interactif.\n\nC'est aussi un moment où la dépression post-partum paternelle, qui s'installe souvent plus tard que celle de la mère, peut culminer. Les signes : irritabilité chronique, retrait du foyer (par le travail souvent), perte de plaisir, sentiment d'être un mauvais parent, parfois prise d'alcool ou de substances. Si tu te reconnais, parle-en, à ta partenaire si possible, à un médecin sinon.\n\nCe que tu peux offrir à ta partenaire à 6 mois : reconnaître qu'elle est devenue quelqu'un de nouveau, et que cette nouvelle personne mérite d'être rencontrée à nouveau. Pas attendue à \"revenir comme avant\". Lui demander ce qu'elle a appris d'elle ces 6 mois. Lui dire ce que tu as appris sur elle, ce que tu admires dans cette nouvelle version d'elle. Ces conversations changent profondément la dynamique du couple."
+        "titre": "Côté co-parent",
+        "contenu": "Fatigue cumulative également — la dépression paternelle post-partum culmine vers 3-6 mois (10-15% des pères concernés selon les études récentes)\n\nSentiment d'être en retrait du lien mère-bébé qui s'est intensifié — peut basculer en exclusion vécue\n\nCharge professionnelle souvent maintenue à 100% — pas de reconnaissance du rôle parental au travail\n\nDifficulté à exprimer la fatigue émotionnelle (norme genrée du « tenir »)\n\nDésir sexuel parfois encore présent face à une libido partenaire en berne — frustration silencieuse fréquente\n\nSi bébé refuse les bras du co-parent par phase à 6 mois : ressenti d'exclusion potentiellement violent à nommer"
       },
       "signaux_a_ne_pas_negliger": [
-        "Fatigue extrême persistante malgré quelques bonnes nuits (possible anémie ou thyroïdite post-partum)",
-        "Chute de cheveux qui ne s'arrête pas ou s'aggrave (bilan thyroïdien à demander)",
-        "Tristesse ou anxiété qui ne s'améliorent pas depuis le 3e mois (DPP installée)",
-        "Sentiment d'irréalité, de ne pas habiter sa propre vie",
-        "Difficulté persistante à se reconnaître dans le miroir, à un niveau qui inquiète",
-        "Douleur pendant les rapports sexuels, ou anesthésie sensorielle qui dure",
-        "Perte de la libido qui s'accompagne de détresse (et pas seulement de calme acceptation)",
-        "Sentiment de ne pas aimer son bébé comme on \"devrait\" (signal très important à nommer, fréquent et traitable)"
+        "Tristesse persistante depuis plus de 2 semaines (pas un jour difficile, plusieurs)",
+        "Perte d'intérêt pour ce qui te faisait du bien avant",
+        "Difficulté à ressentir du plaisir, même avec bébé",
+        "Pleurs fréquents sans déclencheur clair, ou impossibilité de pleurer alors que tu en aurais besoin",
+        "Pensées de fuite, de disparaître, de ne pas être à la hauteur",
+        "Irritabilité majeure ou rage inhabituelles",
+        "Troubles du sommeil non liés à bébé (insomnie alors que bébé dort)",
+        "Sentiment d'être un mauvais parent, voire d'être un danger pour bébé"
       ],
-      "urgence": "Si pensées d'auto-agression, de fuite, ou de faire du mal à bébé persistent à 6 mois, c'est urgent. Appelle le 3114 (gratuit, 24h/24, anonyme). En cas de danger immédiat, le 15.",
+      "urgence": "Si pensées noires : 3114 (prévention du suicide, gratuit, anonyme, 24/7). En cas de détresse aiguë : 15 (SAMU). Écoute parentalité : Allo Parents Bébé, 0 800 00 34 56 (gratuit, anonyme).",
       "qui_consulter": [
-        "Médecin traitant ou gynécologue : pour le bilan corps de 6 mois (rééducation à finaliser, bilan sanguin si fatigue, contrôle gynécologique)",
-        "Endocrinologue : si fatigue extrême avec chute de cheveux et changements d'humeur, suspicion de thyroïdite post-partum (fréquente, sous-diagnostiquée)",
-        "Psychologue ou psychiatre périnatal : pour la DPP qui s'est installée, ou la transformation identitaire qui déstabilise",
-        "Kinésithérapeute spécialisé en rééducation abdomino-pelvienne : pour le diastasis ou les douleurs persistantes",
-        "MonParcoursPsy : un dispositif public qui permet d'accéder à des séances de psychologue avec une prise en charge, sur orientation médicale. Renseigne-toi auprès de ton médecin pour les modalités actuelles",
-        "Maman Blues : association nationale, soutien et témoignages, utile pour comprendre qu'on n'est pas seule"
+        "MonParcoursPsy : 12 séances remboursées par an sur prescription du médecin généraliste",
+        "Maman Blues : association de soutien aux femmes en difficulté maternelle (mamansblues.fr)",
+        "PMI : entretien gratuit avec une puéricultrice ou une psychologue (gratuit, sans rendez-vous dans beaucoup de villes)",
+        "Médecin traitant : pour évaluation et prescription si besoin (consultation post-natale tardive)",
+        "Aide ménagère via la CAF (Allocation de Présence Parentale, AVPF) si situation difficile",
+        "Cercles de parole en PMI ou en associations locales (La Maison Bleue, La Maison des 1000 jours selon territoires)",
+        "Médiation familiale gratuite via la CAF si tensions dans le couple"
       ]
     },
     {
-      "id": "challenge_couple_carte_postale_present",
+      "id": "challenge_couple",
       "numero": 5,
-      "icone": "💑",
+      "icone": "🌙",
       "nom_outil": "Challenge couple",
-      "promesse": "Écrivez chacun une carte postale au couple que vous êtes maintenant",
-      "duree": "15 minutes",
-      "intro": "À 6 mois, votre couple a traversé des transformations profondes. Vous n'êtes plus les mêmes, ni l'un ni l'autre, et votre couple n'est plus le même non plus. Ce challenge propose de reconnaître ce nouveau couple, plutôt que de regretter l'ancien. Chacun écrit une carte postale au couple que vous êtes ensemble, maintenant.",
-      "challenge_du_mois": {
-        "nom": "La carte postale du présent",
-        "registre": 3,
-        "deroule": "Un soir dans la semaine, dès que bébé dort, prenez chacun une feuille ou une vraie carte postale. Pas un livret, pas un journal : quelque chose de court et de format spécifique. Écrivez chacun, en 5 minutes maximum, une carte postale adressée au «\u00a0nous d'aujourd'hui\u00a0». Pas au couple d'avant, pas au couple d'il y a un an. Au couple que vous êtes maintenant, à 6 mois de parentalité. Vous pouvez écrire : ce que vous trouvez beau dans ce couple-là, ce qui vous étonne, ce qui vous manque, ce qui est nouveau, ce que vous voulez pour la suite. Échangez les cartes. Lisez en silence. Puis parlez de ce qui vous a touchés dans la carte de l'autre.",
-        "regle_clef": "Pas de comparaison avec le \"nous d'avant bébé\". Le but n'est pas de regretter ce qui n'est plus, mais de reconnaître ce qui est, là, maintenant. Si l'un de vous a envie de mentionner \"avant\", la règle est de le formuler en positif (\"j'aime qu'on ait gardé...\" plutôt que \"je regrette qu'on n'ait plus...\")."
+      "promesse": "10 minutes au lit, lumière éteinte, avant de dormir",
+      "duree": "10 minutes",
+      "intro": "À 6 mois, beaucoup de couples ne se parlent que de logistique : qui prend bébé, qui fait les courses, qui se lève la nuit. Le couple s'est transformé en équipe — et l'équipe est nécessaire, mais elle ne suffit pas. Ce challenge propose de retrouver une parole non-logistique, dans le moment le plus naturel pour la confidence : le lit, la lumière éteinte.",
+      "gabarit": {
+        "type": "moment_partage"
       },
-      "pourquoi_ca_marche": "Beaucoup de couples parentaux à 6 mois sont en pilote automatique : logistique, fatigue, gestion de bébé. La carte postale arrête le temps quelques minutes et oblige à regarder consciemment ce qu'on est devenu ensemble. L'écriture courte (format carte) force à choisir l'essentiel. L'échange muet (lire avant de parler) permet de recevoir vraiment ce que l'autre a écrit, sans réagir trop vite. Ces 15 minutes laissent souvent une trace forte, beaucoup plus que des discussions longues."
+      "challenge_du_mois": {
+        "nom": "Les 10 minutes du soir",
+        "deroule": "Une fois par semaine, au moment du coucher, lumière éteinte, allongés côte à côte. Pas de téléphone allumé. L'un parle pendant 5 minutes sans être interrompu, l'autre écoute. Puis on inverse. Le sujet : ce qui m'a traversé cette semaine — pas ce qui s'est passé, ce qui m'a TRAVERSÉ. Ce que j'ai ressenti, pensé, espéré, redouté. Si l'un n'a rien à dire, l'autre peut commencer.",
+        "regle_clef": "Pas de téléphone, pas d'écran allumé dans la pièce · Pas d'interruption pendant le temps de parole de l'autre — même pour acquiescer · Pas de réponse argumentée : juste écouter, et le lendemain ou plus tard si on veut, répondre à ce qu'on a entendu · Si l'un des deux est trop fatigué, reporter au lendemain — ne pas annuler la semaine entière · Pas de sujet logistique pendant ces 10 min — pas de planning, pas de courses, pas de rendez-vous"
+      },
+      "pourquoi_ca_marche": "Le lit la nuit est statistiquement le seul moment où les couples avec un bébé de 6 mois peuvent se parler sans interruption. L'utiliser pour autre chose que la logistique, c'est le récupérer comme espace conjugal — pas seulement parental. Si tu vis seul(e), tu peux faire l'exercice en notant 5 min ce qui t'a traversé cette semaine."
     }
-  ]
+  ],
+  "nom_rubrique": "Prendre soin de moi",
+  "promesse_du_mois": "Accueillir la nouvelle personne que tu es devenue",
+  "theme_du_mois": "Accueillir la nouvelle personne que tu es devenue",
+  "intention_du_mois": "À 6 mois, te voilà à mi-parcours, dans un creux que personne ne nomme. Ce mois t'invite à faire le deuil du soi d'avant et à accueillir celle que tu es devenue."
 }

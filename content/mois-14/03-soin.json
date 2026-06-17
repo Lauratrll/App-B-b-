@@ -2,132 +2,133 @@
   "mois": 14,
   "tranche_age": "14 mois",
   "rubrique": "prendre_soin_de_moi",
-  "nom_rubrique": "Prendre soin de moi",
-  "promesse_du_mois": "Te retrouver, comme personne à part entière",
-  "theme_du_mois": "Te retrouver, comme personne à part entière",
-  "intention_du_mois": "À 14 mois, ton enfant marche, comprend tout, manipule avec une précision croissante. Il commence à explorer le monde sans avoir besoin de toi à chaque minute. Pour la première fois depuis sa naissance, tu as un peu d'espace mental qui s'ouvre. Et dans cet espace, une question surgit : qui suis-je, moi, en dehors de la maman ? La maternité n'a pas effacé la femme, la professionnelle, l'amie, la fille, la sœur, l'amante, la créative, l'engagée. Ce mois est une invitation à rouvrir doucement chacune des pièces de ta maison intérieure, celles que tu as fermées par manque d'énergie. Pas pour redevenir comme avant. Pour devenir, plus pleinement, qui tu es vraiment, dans toute ta complexité.",
-  "description": "Le mois 14 ouvre une nouvelle phase : celle où la maternité n'est plus la totalité de ton identité. Tu redeviens accessible à toi-même, dans ta multiplicité. Ce mois te propose des outils pour explorer toutes les facettes de qui tu es, sans hiérarchie ni urgence. 5 propositions pour habiter, à nouveau, toute la maison.",
+  "titre_rubrique": "Prendre soin de moi",
+  "sous_titre": "Le post-partum est encore là — toi aussi",
+  "description": "À 14 mois, le post-partum existe toujours. 6 propositions concrètes pour toi, parent.",
   "conseils": [
     {
-      "id": "auto_massage_soi_profond",
+      "id": "auto_massage_reflexologie",
       "numero": 1,
       "icone": "🤲",
-      "nom_outil": "Auto-massage de réflexologie",
-      "promesse": "Réveiller la sensation de toi-même, dans toute ta densité",
-      "intro": "Quand on s'oublie, le corps perd progressivement sa propre densité. On s'habite moins, on se sent vague à soi-même. 4 points sur tes mains pour réactiver la sensation de toi, comme une présence pleine et entière. À faire dans un moment où tu peux fermer les yeux et te concentrer, idéalement avant un moment qui sera juste pour toi.",
+      "intro": "À 14 mois, les tensions s'accumulent : portage répété d'un enfant qui pèse 10 kg, nuits encore hachées, charge mentale. Voici 4 points clés à activer sur tes mains — accessibles partout, même pendant que ton enfant joue à côté.",
       "duree": "5 minutes",
       "indications": [
-        "Sensation d'être devenue floue à toi-même, comme dissoute dans le rôle parental",
-        "Difficulté à dire ce que tu veux, ce que tu aimes, ce qui te touche",
-        "Impression d'être devenue spectatrice de ta propre vie",
-        "Désir naissant de te retrouver, sans savoir par où commencer",
-        "Sentiment d'avoir « disparu » derrière la fonction maman"
+        "Stress et anxiété chronique",
+        "Fatigue de portage (épaules, dos, nuque)",
+        "Insomnie ou nuits trop courtes",
+        "Troubles digestifs liés au stress",
+        "Tensions cervicales liées à l'allaitement"
       ],
       "points": [
         {
-          "zone": "Glande thymus (centre haut de la paume, sous la base de l'index et du majeur)",
-          "geste": "Pression circulaire douce, 45 secondes par main",
-          "effet": "Active la zone du « soi/non-soi » (le thymus est l'organe immunitaire qui distingue ce qui est toi de ce qui ne l'est pas), aide à différencier ton identité propre"
+          "zone": "Plexus solaire (centre de la paume)",
+          "geste": "Cercles doux du pouce, 60 secondes",
+          "effet": "Relâche la tension thoracique et apaise l'anxiété"
         },
         {
-          "zone": "Point du soi profond (centre exact du coussinet du pouce)",
-          "geste": "Pression maintenue, profonde mais douce, 60 secondes par pouce",
-          "effet": "Point traditionnel d'enracinement dans le soi essentiel, ramène la conscience à qui tu es au-delà des rôles"
+          "zone": "Surrénales (bord externe de la paume, au niveau du pouce)",
+          "geste": "Pression ferme 45 secondes",
+          "effet": "Gère le stress chronique et la fatigue de fond"
         },
         {
-          "zone": "Maître du cœur (face dorsale de l'auriculaire, le long)",
-          "geste": "Glissé doux de la base à la pointe, 5 fois par main",
-          "effet": "Soutient la circulation émotionnelle du soi vers le soi (en énergétique chinoise, le Maître du cœur protège et nourrit l'intériorité)"
+          "zone": "Reins (base du pouce, côté paume)",
+          "geste": "Massage circulaire 30 secondes par main",
+          "effet": "Récupération de la fatigue profonde"
         },
         {
-          "zone": "Point de la respiration libre (creux sous la clavicule, projeté sur la zone du pouce-index dorsale)",
-          "geste": "Pression circulaire ferme mais douce, 30 secondes par main",
-          "effet": "Ouvre la respiration personnelle, libère le souffle de qui tu es vraiment"
+          "zone": "Cervicales (côté externe de chaque pouce)",
+          "geste": "Pression remontant de la base à la pointe, 30 secondes par pouce",
+          "effet": "Détend la nuque et les épaules"
         }
       ],
-      "cloture": "Termine en posant une main sur ton front, l'autre sur ton plexus solaire. 30 secondes. Respiration lente. Dis intérieurement : « je suis ici, en entier ». Sens la densité de ta présence à toi-même."
+      "cloture": "Terminer en tenant les deux paumes face à face pendant 30 secondes — recentrage.",
+      "nom_outil": "Auto-massage de réflexologie",
+      "promesse": "Soutenir les maux et émotions parentales du moment"
     },
     {
-      "id": "meditation_maison_interieure",
+      "id": "meditation_audio",
       "numero": 2,
       "icone": "🎧",
+      "duree": "~6 minutes",
+      "intro": "Le but n'est pas de faire le vide — c'est de poser la journée. Allongée ou assise confortablement, sans rien d'autre à faire.",
+      "texte_meditation": "Installe-toi confortablement. Ferme les yeux.\n\nPose une main sur ton ventre. Une sur ton cœur.\n\nInspire lentement par le nez... retiens... expire par la bouche, doucement. Encore.\n\nAujourd'hui a été une journée. Peut-être difficile. Peut-être belle. Peut-être les deux.\n\n[Pause - 10 secondes]\n\nJe t'invite à imaginer que tu poses cette journée devant toi — comme un sac que tu portes. Tu n'as pas besoin de le porter cette nuit.\n\nChaque inquiétude... tu peux la déposer là.\n\nChaque moment où tu as douté... dépose-le.\n\n[Pause - 10 secondes]\n\nTu as été là aujourd'hui. Présent(e). C'est l'essentiel.\n\nCette nuit, tu as juste à être. Pas à faire. Pas à gérer. Juste à être.\n\nTon bébé est en sécurité. Toi aussi.",
       "nom_outil": "Méditation audio",
-      "promesse": "Rouvrir toutes les pièces de ta maison intérieure",
-      "duree": "~9 minutes",
-      "intro": "Cette méditation propose une visualisation symbolique : tu visites une grande maison intérieure, qui contient toutes les pièces de qui tu es. La pièce de la mère, mais aussi celle de la femme, de la professionnelle, de l'amie, de la créative, de la fille, de l'amante, de la rêveuse. Certaines pièces ont été fermées par manque de temps. Tu vas les rouvrir, doucement, une à une. À écouter dans un moment où tu peux vraiment ralentir.",
-      "instruction": "Installe-toi confortablement, allongée si possible. Tu peux fermer les yeux. La méditation se fait en silence intérieur, à la première personne : c'est ta propre voix qui se parle à toi-même.",
-      "texte_meditation": "Je respire profondément. Inspiration par le nez. Expiration plus longue par la bouche. Encore deux fois.\n\n[pause - 10 secondes]\n\nJ'imagine que je marche vers une grande maison. C'est ma maison intérieure. Elle est belle, elle est à moi. Elle contient toutes les pièces de qui je suis.\n\nJe pousse la porte d'entrée. J'entre dans le hall.\n\n[pause - 10 secondes]\n\nLe hall est lumineux. Et tout autour de moi, je vois des portes. Beaucoup de portes. Certaines sont ouvertes, on voit la lumière qui en sort. D'autres sont fermées depuis longtemps, peut-être avec un peu de poussière sur la poignée.\n\nJe regarde sans juger. Cette maison est mienne, et toutes ses pièces sont légitimes.\n\n[pause - 15 secondes]\n\nUne première porte, à ma droite, est grande ouverte. C'est la pièce de la mère. Cette pièce est lumineuse, occupée, vivante. J'y vais beaucoup, depuis quatorze mois. Je la connais bien. Je la salue d'un regard, et je continue.\n\n[pause - 10 secondes]\n\nJe vois ensuite une autre porte, entrouverte. C'est la pièce de la femme dans le couple. Je l'entrouvre un peu plus. La pièce est encore là, mais elle a besoin d'aération. Je laisse entrer un peu de lumière, et je continue.\n\n[pause - 15 secondes]\n\nPlus loin, une porte fermée. Quand je m'approche, je reconnais : c'est la pièce de la professionnelle. Cette pièce, je l'ai peut-être beaucoup fréquentée avant, peut-être moins ces derniers mois. Je pose la main sur la poignée. Je l'ouvre doucement, pour voir. À l'intérieur, il y a mes compétences, mes envies professionnelles, mes ambitions, peut-être des projets en suspens, peut-être de l'envie de changement.\n\nJe la regarde, sans m'engager à rien. Je reconnais juste : cette pièce existe encore. Elle attend que je la rouvre quand je serai prête.\n\n[pause - 20 secondes]\n\nJe continue dans le couloir. Une autre porte, fermée elle aussi. C'est la pièce de la créative. La pièce où j'écrivais peut-être, où je peignais, où je jouais d'un instrument, où je cuisinais avec amour, où je faisais des choses de mes mains.\n\nJ'ouvre. La pièce sent un peu le renfermé, mais tout y est encore. Le matériel, l'envie, la sensibilité. Je laisse la lumière entrer.\n\n[pause - 20 secondes]\n\nUne autre porte. C'est la pièce de l'amie. Celle où je riais avec mes amies, où je passais des soirées à parler de tout sauf de bébé, où je recevais des appels d'amour gratuit. Cette pièce a peut-être été fréquentée moins souvent. Je rouvre la porte. Mes amies sont toujours là, qui m'attendent.\n\n[pause - 15 secondes]\n\nJe passe devant d'autres portes. La pièce de la fille (celle qui est encore la fille de ses parents, qui a besoin et envie d'eux à sa façon). La pièce de la sœur, si j'en ai une. La pièce de l'amante, qui dort peut-être encore mais qui n'est pas morte. La pièce de la rêveuse, celle qui projette des voyages, des aventures, des envies folles.\n\n[pause - 20 secondes]\n\nJe ne suis pas obligée de toutes les rouvrir ce soir. C'est trop. Ma maison est immense, et la vie est longue.\n\nMais je choisis maintenant, juste pour ce mois, une pièce dont je vais reprendre soin un peu. Une pièce que je vais visiter plus souvent, à laquelle je vais redonner de l'air et de la lumière.\n\nLaquelle ?\n\n[pause - 20 secondes]\n\nJe laisse la réponse venir, sans la forcer. Mon corps sait quelle pièce a le plus besoin de moi en ce moment.\n\n[pause - 15 secondes]\n\nQuand je l'ai identifiée, je m'en approche. Je pose la main sur la poignée. Je dis intérieurement : « cette semaine, je viendrai te voir un peu plus ».\n\nUn petit geste, dans la vie réelle, suffira pour rouvrir cette pièce : un appel à une amie, une heure pour écrire, une promenade seule, l'inscription à un cours, un livre commencé. Quelque chose de petit, mais qui ouvre.\n\n[pause - 15 secondes]\n\nJe respire encore une fois, dans cette maison qui m'appartient. Je suis bien plus vaste que la seule pièce de la mère. Et reconnaître cette vastitude n'est pas une trahison de mon enfant. C'est, au contraire, le plus beau cadeau que je puisse lui faire : il aura toute sa vie une mère pleine, vivante, multiple. Et lui-même apprendra qu'on peut être plusieurs choses à la fois, sans renoncer à rien.\n\n[pause - 10 secondes]\n\nQuand je rouvre les yeux, je garde en mémoire la pièce que j'ai choisi de rouvrir cette semaine."
+      "promesse": "À écouter le soir, bébé endormi"
     },
     {
-      "id": "auto_reconnaissance_dialogue_voix_multiples",
+      "id": "auto_reconnaissance",
       "numero": 3,
-      "icone": "🎭",
+      "icone": "💗",
       "nom_outil": "Auto-reconnaissance",
-      "promesse": "Donner la parole, à l'écrit, aux différentes facettes de qui tu es",
-      "intro": "Cet exercice s'inspire de l'approche par les sous-personnalités (utilisée en psychologie humaniste). Tu vas donner la parole, par écrit, à plusieurs facettes de toi : la mère, la femme dans le couple, la professionnelle, l'amie, la créative, etc. Chacune va exprimer ce qu'elle vit en ce moment, ce dont elle a besoin, ce qu'elle voudrait. C'est un exercice d'écoute interne, qui rend visible la richesse de ton paysage intérieur.",
-      "format_propose": "dialogue_voix_multiples",
-      "consigne": "Prends 45 minutes au calme. Sur une grande feuille (ou plusieurs pages), choisis 4 à 6 facettes de toi à interroger ce mois-ci. Suggestions : la mère, la femme dans le couple, la professionnelle, l'amie, la fille, la créative, l'amante, l'engagée citoyenne, la sportive, la rêveuse, l'intellectuelle, la voyageuse. Pour chaque facette, prends 5 à 8 minutes pour écrire à la première personne, à sa place. Réponds à : qu'est-ce que je ressens en ce moment ? qu'est-ce dont j'ai besoin ? qu'est-ce que je voudrais dire à celle qui prend les décisions (toi) ? Sois honnête. Certaines voix vont être fatiguées, d'autres en colère d'être négligées, d'autres encore tranquilles et patientes. Toutes méritent d'être entendues. À la fin, relis l'ensemble. Tu vas voir émerger des urgences (« cette facette a vraiment besoin d'attention »), des constats (« cette facette va mieux que je le pensais »), peut-être des contradictions (« la mère et la professionnelle ne veulent pas la même chose en ce moment »). Toutes ces informations sont précieuses.",
+      "promesse": "Reconnaître ce que tu fais, par écrit",
+      "intro": "Écrire ce que tu reconnais en toi — c'est plus puissant que de le penser. L'écriture engage différemment le cerveau et installe durablement l'estime de soi.",
+      "format_propose": "ecriture_libre",
+      "gabarit": {
+        "type": "lignes_libres"
+      },
+      "consigne": "Prends 5 minutes. Note ce que tu te reconnais cette semaine — pas ce que tu as bien fait pour ton enfant, mais ce que tu reconnais chez TOI en tant que personne.",
       "amorces_si_blocage": [
-        "Je suis la mère, et en ce moment je ...",
-        "Je suis la femme dans le couple, et je trouve que ...",
-        "Je suis la professionnelle, et j'ai besoin de ...",
-        "Je suis l'amie, et ce que je ressens, c'est ...",
-        "Je suis la créative, et je voudrais dire ...",
-        "Je suis [autre facette], et personne ne m'écoute en ce moment, alors que ..."
+        "Cette semaine, j'ai eu le courage de...",
+        "Je me reconnais d'avoir...",
+        "J'ai été fier(e) de moi quand...",
+        "Une qualité que j'ai mobilisée cette semaine : ...",
+        "Une chose que je n'aurais pas faite il y a un an : ..."
       ],
       "espace_pour_ecrire": true,
-      "principe": "Donner la parole à plusieurs facettes ne signifie pas qu'on est fragmentée. C'est au contraire un acte d'intégration : reconnaître que tu es plusieurs en une, et que chaque partie a sa légitimité. Cet exercice révèle souvent des urgences qu'on n'avait pas conscientisées (une facette qui crie son besoin), et apaise des conflits internes (en les nommant explicitement). Tu peux le refaire tous les 3 à 6 mois, et observer comment le paysage évolue."
+      "principe": "Ta liste t'appartient. Personne ne la lira. Plus tu es honnête, plus l'exercice fonctionne."
     },
     {
-      "id": "realite_post_partum_M14",
+      "id": "realite_post_partum",
       "numero": 4,
       "icone": "💬",
-      "nom_outil": "La réalité du post-partum",
-      "promesse": "L'identité élargie : pourquoi tu n'es pas seulement un parent, et pourquoi c'est vital de le rappeler",
-      "intro": "À 14 mois, la maternité est encore très présente dans ton quotidien, mais elle ne devrait plus occuper toute ta vie identitaire. La capacité à exister en tant que personne entière, en dehors du rôle parental, est l'un des facteurs majeurs de bien-être maternel à long terme — et, paradoxalement, l'un des cadeaux les plus précieux que tu puisses faire à ton enfant. Voici pourquoi.",
+      "intro": "À 14 mois, le post-partum est rarement nommé. Les professionnels de santé passent à autre chose, l'entourage aussi. Pourtant, le corps et l'esprit traversent encore une période de transformation profonde — pour les deux parents.",
       "pour_la_maman": {
         "titre": "Côté maman",
-        "contenu": "Les recherches sur l'identité maternelle (notamment les travaux de Daniel Stern sur la « constellation maternelle », et plus récemment ceux d'Alexandra Sacks sur la matrescence) montrent que la maternité crée une organisation identitaire spécifique pendant les premiers mois, où l'identité de mère prend toute la place. C'est physiologique et utile pour la première année. Mais quand cette organisation se prolonge au-delà, elle devient un facteur de souffrance.\n\nLes mères qui maintiennent ou réinvestissent des dimensions identitaires non parentales (travail, amitiés, créativité, engagement, plaisir personnel) présentent des taux significativement plus bas de dépression post-partum tardive, de burnout parental, et d'épuisement chronique. Ce n'est pas un luxe : c'est une protection neurologique et émotionnelle.\n\nPour les enfants, l'effet est tout aussi documenté. Les enfants qui grandissent avec une mère qui s'autorise à exister pleinement en dehors d'eux développent une meilleure capacité à se séparer (sécurité d'attachement secondaire), une meilleure estime de leur propre mère, et une vision plus saine du couple parental. Une mère « entièrement dédiée » à son enfant peut être, paradoxalement, une mère qui freine l'individuation de cet enfant et qui lui transmet une vision déformée de la femme.\n\nÀ 14 mois, c'est le moment idéal pour amorcer ce réinvestissement. Bébé est mobile, plus autonome, capable de s'amuser quelques minutes seul ou avec un autre adulte. Cette autonomie naissante de lui est ta fenêtre d'autonomie naissante à toi. Saisis-la. Pas en bloc — par petits gestes : 1 heure pour toi par semaine, un projet personnel modeste, un cours hebdomadaire, un appel hebdomadaire à une amie, une lecture qui n'est pas parentale.\n\nLes obstacles classiques à ce réinvestissement : la culpabilité (« je devrais profiter de lui pendant qu'il est petit »), l'épuisement résiduel qui rend chaque effort coûteux, le manque d'idée de ce qu'on veut vraiment (la fameuse phrase : « je ne sais même plus ce que j'aime »), et l'organisation familiale qui ne laisse pas naturellement de place. Travailler sur chacun de ces obstacles est légitime — et souvent ce qu'on appelle « se retrouver » prend 1 à 2 ans, pas quelques semaines."
+        "contenu": "Le corps continue sa transformation à 14 mois. Si tu allaites encore : les hormones restent modifiées. Si tu as arrêté récemment : ton corps met 6 à 12 mois à retrouver son équilibre hormonal complet. Les cheveux qui tombent, la libido fluctuante, le poids qui ne bouge pas, les émotions en montagnes russes — c'est physiologique, pas un échec.\n\nLa fatigue accumulée peut ressembler à de la dépression. Test : 1 semaine de sommeil récupéré change-t-il l'état ? Si oui, c'est l'épuisement. Si non, parle-en à un médecin."
       },
       "pour_le_papa_co_parent": {
         "titre": "Côté papa / co-parent",
-        "contenu": "Si tu es co-parent, tu as un rôle crucial dans le réinvestissement identitaire de ta partenaire. Beaucoup de mères se sentent paralysées non pas par manque d'envie, mais par sentiment de ne pas avoir le « droit » de prendre du temps pour elles. La permission, l'encouragement, et surtout les actes concrets de relève sont décisifs.\n\nQu'est-ce qu'un acte concret de relève : prendre vraiment l'enfant à charge mentale complète pendant que ta partenaire fait son truc à elle (pas « tu vois si tu as besoin de quelque chose, tu m'appelles »). Anticiper ses besoins (« tu m'as dit que tu voulais commencer la sophrologie, j'ai vu un cours qui commence à 18h le mardi, j'ai bloqué les mardis pour gérer le coucher tout seul, qu'en penses-tu ? »). Valider ses envies sans projeter (« tu veux écrire ? formidable, c'est légitime, prends ton temps »).\n\nDe ton côté, exactement la même réflexion s'applique. Toi aussi tu as une maison intérieure avec plein de pièces. La paternité a peut-être absorbé beaucoup d'énergie, et certaines pièces sont fermées chez toi aussi. À 14 mois, c'est aussi le moment de te réinvestir comme homme, comme professionnel, comme ami, comme créatif, comme citoyen. L'équilibre du couple en dépend, et l'image que votre enfant aura de l'âge adulte aussi."
+        "contenu": "Le post-partum du co-parent existe et est sous-diagnostiqué. À 14 mois, plusieurs réalités souvent tues : sentiment de ne plus être central dans le couple, fatigue cumulative non reconnue, charge mentale partagée mais souvent invisible, pression économique amplifiée. La dépression du co-parent touche 8 à 10% des pères — chiffres très probablement sous-estimés.\n\nSi tu vis l'un de ces ressentis, ce n'est ni honteux ni rare. C'est traitable."
       },
       "signaux_a_ne_pas_negliger": [
-        "Sensation chronique d'être devenue « juste maman », sans relief identitaire",
-        "Incapacité à répondre à la question « qu'est-ce que tu aimes faire ? » en dehors du contexte parental",
-        "Absence totale d'activité personnelle depuis plus de 6 mois",
-        "Disparition complète des amitiés non parentales",
-        "Sentiment de culpabilité écrasant à l'idée de prendre du temps pour soi, même 1 heure",
-        "Phrases récurrentes du type « je n'existe plus » ou « j'ai disparu »",
-        "Anhédonie : aucun plaisir nulle part, pas même dans le rôle parental",
-        "Difficulté à se projeter dans un futur professionnel ou personnel propre"
+        "Tristesse persistante depuis plus de 2 semaines",
+        "Anhédonie : rien ne fait plaisir",
+        "Irritabilité chronique disproportionnée",
+        "Difficulté à dormir même quand bébé dort",
+        "Sentiment d'être incompétent(e) malgré les efforts",
+        "Pensées sombres ou intrusives"
       ],
-      "urgence": "Si la sensation de « disparition de soi » s'accompagne d'idées noires, de désir de fuite, ou de perte totale de plaisir pour tout, c'est un signal de dépression post-partum tardive à traiter rapidement. Le 3114 est disponible (gratuit, 24h/24, anonyme).",
+      "urgence": "Si pensées d'auto-agression ou de fuite : 3114 (gratuit, 24h/24, anonyme).",
       "qui_consulter": [
-        "Médecin traitant : pour évaluer une dépression post-partum tardive (qui peut survenir jusqu'à 18 mois) et orienter vers psychologue",
-        "Psychologue ou psychothérapeute spécialisé en périnatalité ou en accompagnement des transitions de vie : pour le travail identitaire de la matrescence prolongée",
-        "Coach professionnel ou coach de vie : pour clarifier les envies professionnelles ou personnelles, faire des choix concrets",
-        "Conseiller en évolution professionnelle (gratuit en France pour les actifs) : pour explorer des évolutions, formations, reconversions",
-        "MonParcoursPsy : un dispositif public qui permet d'accéder à des séances de psychologue avec une prise en charge, sur orientation médicale. Renseigne-toi auprès de ton médecin pour les modalités actuelles",
-        "Lectures utiles : Alexandra Sacks, « What no one tells you » (traduit) sur la matrescence ; Isabelle Filliozat sur l'équilibre parent-personne"
-      ]
+        "Médecin traitant : premier interlocuteur, peut prescrire un bilan complet",
+        "Sage-femme : consultation possible même 14 mois après — spécialiste du post-partum étendu",
+        "Psychologue : MonParcoursPsy rembourse à partir de 8 séances/an",
+        "Allo Parents Bébé : 0 800 00 34 56 (gratuit, lundi-vendredi)",
+        "Maman Blues : association de soutien à la dépression post-partum"
+      ],
+      "nom_outil": "La réalité du post-partum",
+      "promesse": "Ce que la société oublie de nommer"
     },
     {
-      "id": "challenge_couple_interview_croisee",
+      "id": "challenge_couple",
       "numero": 5,
       "icone": "💑",
       "nom_outil": "Challenge couple",
-      "promesse": "Interviewez-vous chacun, comme deux personnes qui se redécouvrent au-delà du rôle parental",
-      "duree": "60 minutes",
-      "intro": "Le thème du mois est l'identité élargie. Ce challenge propose de vous interviewer mutuellement, comme un journaliste interviewerait quelqu'un dont il veut connaître la vie au-delà de la fonction. Vous allez vous découvrir des choses, parfois redécouvrir des choses oubliées. C'est un exercice qui rappelle que vous êtes deux personnes complètes, pas seulement deux parents.",
-      "challenge_du_mois": {
-        "nom": "L'interview croisée",
-        "registre": 1,
-        "deroule": "Choisissez un soir où vous pouvez bloquer 1 heure ensemble, sans interruption (bébé endormi). Avant cette soirée, chacun de votre côté, préparez 5 questions à poser à l'autre. Pas des questions sur le couple, pas des questions sur l'enfant, pas des questions sur la logistique. Des questions sur qui il ou elle est, au-delà de tout ça. Exemples possibles : « Qu'est-ce qui te touche, en ce moment, dans le monde ? », « Quel projet personnel garderais-tu si tu n'en avais qu'un ? », « Qu'est-ce qui te manque le plus de qui tu étais à 25 ans ? », « Quelle compétence aimerais-tu développer cette année, juste pour toi ? », « Qu'est-ce que tu trouves beau en ce moment ? », « Si tu avais une journée entière libre, sans culpabilité, qu'en ferais-tu ? ». Le jour J, asseyez-vous face à face. L'un interviewe l'autre pendant 25 minutes (5 questions × ~5 minutes par question). Posez votre question, écoutez, relancez si vous voulez en savoir plus, sans interrompre. Puis inversez les rôles. À la fin, vous avez 10 minutes pour échanger sur ce qui vous a marqué de l'autre.",
-        "regle_clef": "L'intervieweur écoute, ne juge pas, ne donne pas son avis sur les réponses. Si vous découvrez quelque chose qui vous surprend (positive ou négative), vous le notez intérieurement mais vous n'enchaînez pas avec votre propre commentaire pendant l'interview. La parole de l'autre est sacrée, on l'écoute jusqu'au bout."
+      "promesse": "Simple, amusant, ce soir",
+      "duree": "5-10 minutes",
+      "intro": "Le couple parental est souvent le dernier servi. 80% des couples décrivent une baisse de qualité de la relation pendant les 18 premiers mois de l'enfant. Petits actes = grand effet. Pas besoin de week-end romantique.",
+      "gabarit": {
+        "type": "mots_echanges"
       },
-      "pourquoi_ca_marche": "Le couple parental tombe naturellement dans des routines de conversation centrées sur l'enfant, la logistique, et les sujets pratiques. Ces routines érodent la curiosité mutuelle pour qui chacun est en train de devenir comme personne. L'interview, en posant des questions intentionnellement non parentales, ouvre un espace inhabituel. Beaucoup de couples sont surpris : « je ne savais pas que tu pensais ça en ce moment », ou « ça fait des mois qu'on ne s'était pas parlé comme ça ». Et le fait d'écouter sans interrompre apprend à se voir comme deux entités distinctes, plutôt que comme un « nous » fusionnel. Cet exercice peut se faire tous les 3 ou 6 mois, et constitue un excellent rituel de réinvestissement mutuel."
+      "challenge_du_mois": {
+        "nom": "Le \"merci inattendu\"",
+        "deroule": "Chacun écrit sur un papier UNE chose que l'autre a faite ce mois qui lui a fait du bien — et qu'il/elle n'a peut-être pas remarqué. On échange les papiers sans commentaire. On lit. On reste là un moment. C'est tout."
+      },
+      "pourquoi_ca_marche": "Reconnaître l'invisible relance la motivation à donner. Le co-parent qui se sent vu donne plus naturellement. Le cycle s'inverse."
     }
-  ]
+  ],
+  "nom_rubrique": "Prendre soin de moi",
+  "promesse_du_mois": "Te retrouver, comme personne à part entière",
+  "theme_du_mois": "Te retrouver, comme personne à part entière",
+  "intention_du_mois": "À 14 mois, ton enfant explore le monde tout seul. Ce mois t'invite à te retrouver, toi, comme une personne à part entière, au-delà de ton rôle."
 }

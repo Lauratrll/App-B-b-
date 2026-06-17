@@ -5,7 +5,7 @@
   "nom_rubrique": "Prendre soin de moi",
   "promesse_du_mois": "Oser demander, comme une compétence parentale",
   "theme_du_mois": "Oser demander, comme une compétence parentale",
-  "intention_du_mois": "À 1 mois, les visites se sont espacées, la famille pense que tu \"as pris le pli\", et le co-parent reprend souvent le travail à la fin de son congé. Tu te retrouves face à un bébé qui ne dort toujours pas la nuit, qui pleure beaucoup en soirée, qui demande encore une présence quasi totale. Ce mois est une invitation à oser demander de l'aide, non comme un aveu d'incompétence, mais comme une vraie compétence parentale : celle de savoir qu'on est trop précieuse pour porter ça seule.",
+  "intention_du_mois": "Les visites s'espacent, et tu portes presque tout, seule. Ce mois, oser demander de l'aide n'est pas une faiblesse : c'est une compétence parentale.",
   "description": "Au mois 1, l'entourage s'éloigne au moment précis où la fatigue s'installe pour de vrai. Apprendre à demander, à recevoir, à laisser quelqu'un faire à sa place, c'est l'un des apprentissages les plus difficiles de la jeune parentalité. 5 propositions pour amorcer ce déplacement intérieur.",
   "conseils": [
     {
@@ -55,7 +55,7 @@
       "promesse": "Déposer ce que je porte, pour pouvoir le partager",
       "duree": "~7 minutes",
       "intro": "Cette méditation t'aide à reconnaître ce que tu portes en ce moment, sans le mesurer ni le justifier. Puis elle propose une visualisation simple, où tu déposes une partie de cette charge devant toi. Elle se vit allongée, ou pendant une tétée ou un biberon, ou assise dans le canapé pendant que bébé dort sur toi.",
-      "instruction": "Choisis un moment où tu ne seras pas dérangée pendant 7 minutes. Si bébé est sur toi, c'est ok. La méditation se fait en silence intérieur, à la première personne : c'est ta propre voix qui se parle à toi-même.",
+      "instruction": "Choisis un moment où tu ne seras pas dérangée pendant 7 minutes. Si bébé est sur toi, c'est ok. La méditation se fait en silence intérieur, à la première personne : c'est ta propre voix qui se parle à toi-même.",
       "texte_meditation": "Je m'installe confortablement. Je peux fermer les yeux, ou les garder mi-clos.\n\nJe respire lentement par le nez. Inspiration. Expiration par la bouche, un peu plus longue. Encore deux fois.\n\n[pause - 10 secondes]\n\nDepuis quelques semaines, je porte beaucoup.\n\nJe porte mon bébé, dans mes bras, sur ma poitrine, dans mes pensées. Je porte les nuits coupées en morceaux. Je porte la vigilance permanente, celle qui ne s'éteint jamais vraiment, même quand je dors un peu.\n\nJe porte aussi ce qu'on ne voit pas. La charge mentale des rendez-vous, des courses, des prochains repas. La charge émotionnelle de ne pas savoir si je fais bien. La charge silencieuse de tenir tête haute devant les autres, même quand je suis épuisée.\n\n[pause - 10 secondes]\n\nJe reconnais tout ce que je porte. Je ne le mesure pas. Je ne le justifie pas. Je le reconnais, c'est tout.\n\n[pause - 10 secondes]\n\nMaintenant, j'imagine quelque chose.\n\nJ'imagine que je suis debout, ou assise, dans un endroit calme. Devant moi, à mes pieds, il y a un grand sac, ou un panier, ou une caisse. Peu importe la forme. C'est juste un récipient qui peut accueillir ce que je dépose.\n\n[pause - 15 secondes]\n\nUne par une, je prends les choses que je porte. Je les regarde. Et je les dépose dans le récipient.\n\nLa nuit dernière, avec ses trois réveils. Je la dépose.\n\nLa peur que bébé fasse une fausse route. Je la dépose.\n\nLa pensée que je devrais avoir rangé la cuisine. Je la dépose.\n\nLa fatigue de répéter aux visiteurs qu'il faut se laver les mains. Je la dépose.\n\nLe doute sur ma façon de faire. Je le dépose.\n\n[pause - 15 secondes]\n\nJe n'ai pas à tout déposer. Je dépose ce que je peux, ce que je veux, là, maintenant.\n\nCe que je dépose ne disparaît pas. C'est juste posé devant moi, pour que je puisse le voir. Pour que je puisse choisir, plus tard, ce que je reprends et ce que je laisse à quelqu'un d'autre.\n\nParce que ce que je porte, je n'ai pas à le porter seule.\n\n[pause - 10 secondes]\n\nIl y a des personnes autour de moi qui peuvent prendre une partie. Mon ou ma partenaire. Ma mère, ma sœur, une amie. Une voisine. Une sage-femme. La PMI.\n\nDemander, ce n'est pas avouer que je n'y arrive pas. Demander, c'est savoir que je suis trop précieuse pour porter ça seule.\n\nDemander, c'est une compétence. Pas un défaut.\n\n[pause - 10 secondes]\n\nJe respire encore une fois. Je laisse le récipient devant moi. Il restera là.\n\nQuand je rouvre les yeux, je sais que j'ai posé quelque chose. Et je sais que la prochaine fois que quelqu'un me dit \"si tu as besoin, n'hésite pas\", je pourrai répondre quelque chose de précis.\n\nJe suis prête à demander. Doucement. À mon rythme."
     },
     {
@@ -63,16 +63,25 @@
       "numero": 3,
       "icone": "🌿",
       "nom_outil": "Auto-reconnaissance",
-      "promesse": "Cartographier mon cercle de soutien, avant d'avoir besoin de demander",
-      "intro": "À 1 mois, il est souvent plus facile de cartographier qui pourrait aider à quoi, dans un moment calme, que de demander dans l'urgence. Ce conseil te propose de dessiner ton cercle de soutien actuel : qui est là, à quelle distance, pour quoi. C'est un exercice de reconnaissance, pas encore un exercice de demande. Il prépare le terrain en douceur.",
+      "promesse": "Cartographier mon cercle de soutien",
+      "intro": "À 1 mois, il est souvent plus facile de cartographier qui pourrait aider à quoi, dans un moment calme, que de demander dans l'urgence. Ce conseil te propose de dessiner ton cercle de soutien actuel : qui est là, à quelle distance, pour quoi. C'est un exercice de reconnaissance, pas encore un exercice de demande. Il prépare le terrain en douceur.",
       "format_propose": "carte_cercle_soutien",
-      "consigne": "Prends une feuille de papier, ou les notes du téléphone. Au centre, écris ton prénom. Autour, dessine trois cercles concentriques : le cercle proche (personnes que tu peux appeler à 23h), le cercle régulier (personnes que tu vois ou contactes chaque semaine), le cercle lointain (personnes plus distantes mais qui pourraient aider à quelque chose de précis). Place chaque personne de ton entourage dans le bon cercle. À côté de chaque nom, note 1 ou 2 choses précises que cette personne pourrait faire pour toi. \"Garder bébé 1h\", \"Apporter un repas\", \"M'écouter sans donner de conseil\", \"Faire une lessive\", \"Passer juste pour un café\".",
+      "gabarit": {
+        "type": "cercles_concentriques",
+        "centre": "[Prénom]",
+        "cercles": [
+          "Cercle proche",
+          "Cercle régulier",
+          "Cercle lointain"
+        ]
+      },
+      "consigne": "Prends une feuille de papier, ou les notes du téléphone. Au centre, écris ton prénom. Autour, dessine trois cercles concentriques : le cercle proche (personnes que tu peux appeler à 23h), le cercle régulier (personnes que tu vois ou contactes chaque semaine), le cercle lointain (personnes plus distantes mais qui pourraient aider à quelque chose de précis). Place chaque personne de ton entourage dans le bon cercle. À côté de chaque nom, note 1 ou 2 choses précises que cette personne pourrait faire pour toi. \"Garder bébé 1h\", \"Apporter un repas\", \"M'écouter sans donner de conseil\", \"Faire une lessive\", \"Passer juste pour un café\".",
       "amorces_si_blocage": [
-        "Une personne à qui je n'ai pas demandé d'aide depuis longtemps : ...",
-        "Quelqu'un qui m'a dit \"si tu as besoin\" et à qui je n'ai jamais répondu : ...",
-        "Une personne dont je sous-estime probablement la disponibilité : ...",
-        "Une aide que je serais prête à recevoir, si elle m'était proposée sans que j'aie à demander : ...",
-        "Quelqu'un en dehors de ma famille qui pourrait faire une seule chose pour moi : ..."
+        "Une personne à qui je n'ai pas demandé d'aide depuis longtemps : ...",
+        "Quelqu'un qui m'a dit \"si tu as besoin\" et à qui je n'ai jamais répondu : ...",
+        "Une personne dont je sous-estime probablement la disponibilité : ...",
+        "Une aide que je serais prête à recevoir, si elle m'était proposée sans que j'aie à demander : ...",
+        "Quelqu'un en dehors de ma famille qui pourrait faire une seule chose pour moi : ..."
       ],
       "espace_pour_ecrire": true,
       "principe": "Ce cercle t'appartient. Tu peux le garder dans un tiroir, le coller sur le frigo, ou le déchirer après l'avoir fait. L'acte de cartographier rend visible ce qui était flou. Et ce qui devient visible devient demandable. Tu n'as rien à demander tout de suite. La carte attend que tu sois prête."
@@ -82,7 +91,7 @@
       "numero": 4,
       "icone": "💬",
       "nom_outil": "La réalité du post-partum",
-      "promesse": "Le moment où l'entourage s'éloigne, et ce qui se passe à l'intérieur",
+      "promesse": "Quand l'entourage s'éloigne, ce qui se passe en toi",
       "intro": "Au mois 1, l'enthousiasme des premières semaines retombe, autour de toi et parfois en toi. C'est précisément à ce moment, quand le quotidien s'installe sans répit, que beaucoup de choses se jouent en silence, des deux côtés du couple parental.",
       "pour_la_maman": {
         "titre": "Côté maman",
@@ -90,7 +99,7 @@
       },
       "pour_le_papa_co_parent": {
         "titre": "Côté papa / co-parent",
-        "contenu": "À 1 mois, beaucoup de co-parents viennent de reprendre le travail, ou le reprennent dans les jours qui viennent (la durée du congé du second parent dépend du pays et a évolué récemment). C'est un moment-charnière mal documenté : le co-parent passe d'une présence quasi totale à une absence diurne complète, en gardant les nuits hachées.\n\nLes signaux à surveiller : sommeil qui devient impossible même quand l'occasion se présente, irritabilité chronique au travail, sentiment d'être déconnecté de bébé après quelques jours d'absence, culpabilité de partir le matin, repli sur le travail comme refuge.\n\nLa dépression post-partum paternelle touche 8 à 10% des hommes pendant la première année. À M1, elle peut déjà commencer à s'installer, sans bruit. Si tu es co-parent et que tu te reconnais dans ces signaux, parle-en. À ta/ton partenaire si possible, sinon à un médecin."
+        "contenu": "À 1 mois, beaucoup de co-parents viennent de reprendre le travail, ou le reprennent dans les jours qui viennent (la durée du congé du second parent dépend du pays et a évolué récemment). C'est un moment-charnière mal documenté : le co-parent passe d'une présence quasi totale à une absence diurne complète, en gardant les nuits hachées.\n\nLes signaux à surveiller : sommeil qui devient impossible même quand l'occasion se présente, irritabilité chronique au travail, sentiment d'être déconnecté de bébé après quelques jours d'absence, culpabilité de partir le matin, repli sur le travail comme refuge.\n\nLa dépression post-partum paternelle touche 8 à 10% des hommes pendant la première année. À M1, elle peut déjà commencer à s'installer, sans bruit. Si tu es co-parent et que tu te reconnais dans ces signaux, parle-en. À ta/ton partenaire si possible, sinon à un médecin."
       },
       "signaux_a_ne_pas_negliger": [
         "Tristesse persistante au-delà de 2 semaines, sans amélioration",
@@ -102,14 +111,14 @@
         "Pensées intrusives ou de fuite",
         "Insomnie même quand bébé dort enfin"
       ],
-      "urgence": "Si pensées d'auto-agression, de faire du mal à bébé, ou de fuite : appelle le 3114 (gratuit, 24h/24, anonyme, professionnels formés à la périnatalité). En cas de danger immédiat, le 15.",
+      "urgence": "Si pensées d'auto-agression, de faire du mal à bébé, ou de fuite : appelle le 3114 (gratuit, 24h/24, anonyme, professionnels formés à la périnatalité). En cas de danger immédiat, le 15.",
       "qui_consulter": [
-        "Sage-femme libérale : consultation possible jusqu'à 1 an après naissance, spécialiste du post-partum, peut venir à domicile",
-        "Médecin traitant : premier interlocuteur, peut prescrire et orienter vers un psychologue ou psychiatre",
-        "PMI : consultations gratuites jusqu'aux 6 ans de bébé, possibilité de visites à domicile, soutien parental",
-        "Allo Parents Bébé : 0 800 00 34 56 (gratuit, anonyme, lundi-vendredi, écoute spécialisée périnatale)",
-        "MonParcoursPsy : un dispositif public qui permet d'accéder à des séances de psychologue avec une prise en charge, sur orientation médicale. Renseigne-toi auprès de ton médecin pour les modalités actuelles",
-        "Maman Blues : association nationale de soutien à la dépression post-partum (mamanblues.fr), groupes de parole en ligne"
+        "Sage-femme libérale : consultation possible jusqu'à 1 an après naissance, spécialiste du post-partum, peut venir à domicile",
+        "Médecin traitant : premier interlocuteur, peut prescrire et orienter vers un psychologue ou psychiatre",
+        "PMI : consultations gratuites jusqu'aux 6 ans de bébé, possibilité de visites à domicile, soutien parental",
+        "Allo Parents Bébé : 0 800 00 34 56 (gratuit, anonyme, lundi-vendredi, écoute spécialisée périnatale)",
+        "MonParcoursPsy : un dispositif public qui permet d'accéder à des séances de psychologue avec une prise en charge, sur orientation médicale. Renseigne-toi auprès de ton médecin pour les modalités actuelles",
+        "Maman Blues : association nationale de soutien à la dépression post-partum (mamanblues.fr), groupes de parole en ligne"
       ]
     },
     {
@@ -117,16 +126,20 @@
       "numero": 5,
       "icone": "💑",
       "nom_outil": "Challenge couple",
-      "promesse": "Tirez une carte : demandez sans honte",
+      "promesse": "Tirez une carte : demandez sans honte",
       "duree": "10 minutes",
-      "intro": "À 1 mois, beaucoup de couples se retrouvent dans une zone bizarre : chacun voit l'autre épuisé, mais personne n'ose demander précisément, de peur de surcharger l'autre. Ce challenge introduit une mini-mécanique de jeu pour rendre la demande explicite, courte, et sans drame.",
+      "intro": "À 1 mois, beaucoup de couples se retrouvent dans une zone bizarre : chacun voit l'autre épuisé, mais personne n'ose demander précisément, de peur de surcharger l'autre. Ce challenge introduit une mini-mécanique de jeu pour rendre la demande explicite, courte, et sans drame.",
+      "gabarit": {
+        "type": "cartes_questions",
+        "nombre": 5
+      },
       "challenge_du_mois": {
         "nom": "La carte à tirer",
         "registre": 1,
-        "deroule": "Un soir dans la semaine, dès que bébé est endormi (pas après, vous serez trop fatigués tous les deux), vous vous asseyez face à face. L'un de vous prend un papier et écrit 5 questions, une par ligne, en cachant l'écriture. Par exemple : \"Qu'est-ce que tu aimerais que je fasse pour toi cette semaine, sans avoir à le redemander ?\", \"Qu'est-ce qui te pèse le plus en ce moment dans la maison ?\", \"Quelle petite chose te ferait du bien demain ?\", \"À quel moment de la journée la solitude pèse le plus ?\", \"Si je pouvais te libérer 30 min cette semaine, tu en ferais quoi ?\". L'autre tire au hasard, à l'aveugle, et répond. Puis on inverse les rôles. La règle d'or : pas de \"je sais pas\". Si rien ne vient, on respire et on cherche un peu plus.",
+        "deroule": "Un soir dans la semaine, dès que bébé est endormi (pas après, vous serez trop fatigués tous les deux), vous vous asseyez face à face. L'un de vous prend un papier et écrit 5 questions, une par ligne, en cachant l'écriture. Par exemple : \"Qu'est-ce que tu aimerais que je fasse pour toi cette semaine, sans avoir à le redemander ?\", \"Qu'est-ce qui te pèse le plus en ce moment dans la maison ?\", \"Quelle petite chose te ferait du bien demain ?\", \"À quel moment de la journée la solitude pèse le plus ?\", \"Si je pouvais te libérer 30 min cette semaine, tu en ferais quoi ?\". L'autre tire au hasard, à l'aveugle, et répond. Puis on inverse les rôles. La règle d'or : pas de \"je sais pas\". Si rien ne vient, on respire et on cherche un peu plus.",
         "regle_clef": "Quand l'un répond, l'autre n'argumente pas, ne minimise pas, ne propose pas de solution immédiate. Il dit juste \"Ok, j'ai entendu\". L'action vient après, à un autre moment."
       },
-      "pourquoi_ca_marche": "La demande explicite est l'un des actes les plus difficiles dans un couple parental fatigué, parce qu'elle expose une vulnérabilité (j'ai besoin) et un manque (l'autre ne devine pas). Passer par une mécanique de jeu (tirer au hasard une question écrite) déplace l'enjeu : ce n'est plus moi qui demande, c'est la carte. Cette mise à distance ludique permet à des choses d'être dites qui ne se diraient pas autrement. Et le fait que l'autre écoute sans réparer immédiatement crée un espace de reconnaissance, plutôt qu'un échange transactionnel."
+      "pourquoi_ca_marche": "La demande explicite est l'un des actes les plus difficiles dans un couple parental fatigué, parce qu'elle expose une vulnérabilité (j'ai besoin) et un manque (l'autre ne devine pas). Passer par une mécanique de jeu (tirer au hasard une question écrite) déplace l'enjeu : ce n'est plus moi qui demande, c'est la carte. Cette mise à distance ludique permet à des choses d'être dites qui ne se diraient pas autrement. Et le fait que l'autre écoute sans réparer immédiatement crée un espace de reconnaissance, plutôt qu'un échange transactionnel."
     }
   ]
 }

@@ -42,6 +42,65 @@ const TITRE_COURT = {1:'Auto-massage',2:'Méditation audio',3:'Auto-reconnaissan
 const COULEUR_SLOT = {1:'#EABDB1',2:'#F8DBC9',3:'#E7B99F',4:'#F5D0C8',5:'#EEC7B0'};
 ```
 
+### 3.1 ⭐ Tableau de correspondance EXHAUSTIF — champ JSON → où il s'affiche
+
+> Règle d'or : **tout champ non listé comme affiché ci-dessous ne doit RIEN rendre à l'écran.** Les fichiers contiennent des champs hérités/techniques qui ne s'affichent pas — c'est normal, ne pas les rendre.
+
+**Champs racine**
+
+| Champ JSON | Affiché ? | Où / quoi |
+|---|---|---|
+| `promesse_du_mois` | ✅ Page 1 | **Grand titre du mois** (Playfair 700/25) |
+| `nom_rubrique` | ✅ Page 1 | **Label** sous le titre (eucalyptus 9px uppercase) — vaut toujours « Prendre soin de moi » |
+| `intention_du_mois` | ✅ Page 1 | **Intro** sous le titre, **en entier** (pas de troncature) |
+| `conseils[]` | ✅ Page 1 | Les **5 cartes** |
+| `mois` | ⛔ non affiché | Clé technique (numéro de module) |
+| `tranche_age` | ⛔ non affiché | Info éditoriale interne |
+| `rubrique` | ⛔ non affiché | Clé technique (`prendre_soin_de_moi`) |
+| `titre_rubrique` | ⛔ non affiché | **Doublon** de `nom_rubrique` — ignorer, utiliser `nom_rubrique` |
+| `theme_du_mois` | ⛔ non affiché | **Doublon** de `promesse_du_mois` — ignorer |
+| `sous_titre` | ⛔ non affiché | Hérité (« Mois X — … ») — remplacé par titre + label |
+| `description` | ⛔ non affiché | Hérité (peut mentionner « 6 propositions », inexact : il y en a 5) |
+
+**Champs communs à chaque conseil**
+
+| Champ | Affiché ? | Où / quoi |
+|---|---|---|
+| `numero` (1→5) | ⛔ (pilote) | Pilote ordre + couleur slot + picto. **Styler par `numero`, jamais par `id`.** |
+| `nom_outil` | ✅ | Titre de la **carte** (page 1) **et** eyebrow du **détail** |
+| `promesse` | ✅ | Phrase **sous la carte** (page 1, italique) **et** grand **titre H1 du détail** |
+| `intro` | ✅ détail | Chapô en haut de l'écran de détail |
+| `id` | ⛔ non affiché | Clé interne, **change chaque mois** |
+| `icone` (emoji) | ⛔ non affiché | Le picto vient du `numero` (SVG §7), pas de l'emoji |
+
+**Champs spécifiques par conseil** (détail uniquement)
+
+| Conseil | Champ | Affiché ? | Rendu |
+|---|---|---|---|
+| 1 Auto-massage | `duree` | ✅ | chip meta |
+| | `indications` (liste) | ✅ | cadre « Pour qui / quand » |
+| | `points` (liste `{zone,geste,effet}`) | ✅ | lignes **numérotées** (pastille `#C8806A`) |
+| | `cloture` | ✅ | note de fin |
+| 2 Méditation | `duree` | ✅ | chip meta |
+| | `instruction` | ✅ *(optionnel)* | bloc « Avant de commencer » — **absent M0/M3/M6/M9/M14** ⇒ masquer le bloc |
+| | `texte_meditation` | ✅ | corps ; **ligne vide = pause** |
+| 3 Auto-reconnaissance | `format_propose` | ⛔ (pilote) | `ecrit` ⇒ gabarit papier · `vocal_audio` ⇒ bloc vocal |
+| | `gabarit` `{type,…}` | ⛔ (pilote) | mise en forme de la carte papier (voir §6.3) — **n'affiche aucun texte de contenu** |
+| | `consigne` | ✅ | la consigne |
+| | `amorces_si_blocage` (liste) | ✅ | amorces |
+| | `espace_pour_ecrire` *(bool)* | ⛔ (pilote) | si `true` ⇒ afficher le gabarit papier non éditable |
+| | `espace_pour_enregistrement` *(bool)* | ⛔ (pilote) | si `true` ⇒ bloc vocal (M0/M3/M6/M9/M14) |
+| | `principe` | ✅ | note de fin |
+| 4 Réalité | `pour_la_maman` `{titre,contenu}` | ✅ | cadre **Côté maman** (`#F8E6DE`) |
+| | `pour_le_papa_co_parent` `{titre,contenu}` | ✅ | cadre **Côté co-parent** (`#F6EBE1`) |
+| | `signaux_a_ne_pas_negliger` (liste) | ✅ | cadre **gris** `#E4DDD6` (puces grises, pas de croix rouge) |
+| | `urgence` (string) | ✅ | cadre **rouge** fermé, **3114 en gras** |
+| | `qui_consulter` (liste) | ✅ | cadre **gris clair** `#EFEBE6` |
+| 5 Challenge | `duree` | ✅ | chip meta |
+| | `gabarit` `{type,…}` | ⛔ (pilote) | motif illustratif du challenge (voir §6.5) — **n'affiche aucun texte de contenu** |
+| | `challenge_du_mois` `{nom,registre?,deroule,regle_clef}` | ✅ | bloc challenge ; `registre` **absent M6/M9** ⇒ masquer le badge éventuel |
+| | `pourquoi_ca_marche` | ✅ | note de fin |
+
 ---
 
 ## 4. Système visuel commun (à respecter sur tous les écrans)
@@ -186,13 +245,34 @@ Champs : `duree`, `intro`, `instruction`, `texte_meditation` (avec marqueurs `[p
 - **Cadre `#FBF6F1` (filet .5px) « Texte de la méditation »** : rendre `texte_meditation` ; transformer chaque `[pause - N secondes]` en repère centré discret « pause N secondes » (eucalyptus), un paragraphe par bloc.
 
 ### 6.3 — B3 Auto-reconnaissance (numero 3, couleur `#E7B99F`, picto fleur)
-Champs : `intro`, `format_propose`, `consigne`, `amorces_si_blocage[]`, `espace_pour_ecrire` (bool), `principe`.
-- **Chip** : « format écriture · 30 min ».
-- **Cadre `#F7ECE4` « Comment faire »** : `consigne` (mots-clés `oui assumés` / `non à poser` en gras `#8A4030`).
-- **Carte « Ta carte »** (`#FBF6F1`, filet) — label intégré, puis **2 colonnes** « Mes oui assumés » (`#EFE0D0`) / « Mes non à poser » (`#E7B99F`). **Saisie SUR PAPIER (décision validée) — pas de champs éditables ni de sauvegarde in-app.** Si `espace_pour_ecrire` est vrai : afficher un **gabarit visuel** (lignes décoratives), sans mention explicative ajoutée. Encart bas « Cette semaine : 1 non / 1 oui ».
-  - **Principe transverse :** l'app est une *app d'action*, pas un outil de journaling. **Aucun exercice d'écriture n'est saisi/sauvegardé dans l'app** — tous se font sur papier via ce même pattern de gabarit (un seul composant présentationnel réutilisé pour tous les formats d'Auto-reconnaissance, mois après mois ; seules les étiquettes changent). Cela évite de multiplier des systèmes de saisie et règle la perte d'accès au changement de mois (la feuille reste chez la personne).
+Champs : `intro`, `format_propose`, **`gabarit` (optionnel)**, `consigne`, `amorces_si_blocage[]`, `espace_pour_ecrire` / `espace_pour_enregistrement` (bool), `principe`.
+- **Chip** : « format écriture · 30 min » (ou « format vocal » si `espace_pour_enregistrement`).
+- **Cadre `#F7ECE4` « Comment faire »** : `consigne`.
 - **Cadre `#F7ECE4` « Si tu bloques, commence par… »** : `amorces_si_blocage[]` en lignes, chevron `›` `#C8806A`.
 - **Cadre `#F9F1EA` « À retenir »** : `principe` (italique).
+
+**⭐ Carte « Ta carte » — pilotée par `gabarit` (mise en forme générique).**
+Le format d'écriture **change chaque mois** (c'est voulu). La mise en forme visuelle est portée par le champ optionnel **`gabarit`** ; le rendu lit `gabarit.type` et affiche le bon **gabarit visuel non éditable** (papier). **Aucune saisie / sauvegarde in-app** (app d'action, pas journaling) — un seul composant présentationnel, paramétré par `gabarit`. **Si `gabarit` est absent → repli sur des lignes libres.** Le contenu (`consigne`, `intro`, `amorces`, `principe`) n'est jamais re-rendu là : `gabarit` ne porte QUE la structure et les étiquettes (recopiées de la consigne, sans réécriture).
+
+Vocabulaire `gabarit.type` (extensible) et champs associés :
+| `type` | Rendu | Champs portés |
+|---|---|---|
+| `lignes_libres` | feuille à lignes | `lignes?` (nb) |
+| `lettre` | feuille « lettre » + ligne d'en-tête | `entete?` (ex. « Cher corps »), `lignes?` |
+| `deux_colonnes` | 2 colonnes titrées | `colonnes` (2 libellés), `lignes_par_colonne?` |
+| `deux_pages` | 2 pages titrées | `pages` (2 libellés) |
+| `liste_numerotee` | N entrées numérotées | `nombre?`, `prefixe_entree?` (ex. « En tant que parent… ») |
+| `carnet_date` | N jours datés | `jours` (ex. 14), `champs_par_jour?` |
+| `grille_planning` | grille jours × heures | `colonnes` (jours), `lignes?` (plages horaires) |
+| `cercles_concentriques` | centre + N cercles | `centre?`, `cercles` (libellés) |
+| `vocal` | bloc d'enregistrement (pas de feuille) | `duree?`, `question?` |
+
+> Couleurs de la carte : fond `#FBF6F1`, filet ; en-têtes de colonnes/pages alternées `#EFE0D0` / `#E7B99F` ; pas de croix, pas de bleu.
+
+Exemple (M15, déjà encodé) :
+```json
+"gabarit": { "type": "deux_colonnes", "colonnes": ["Mes oui assumés","Mes non à poser"], "lignes_par_colonne": 8 }
+```
 
 ### 6.4 — B4 Réalité du post-partum (numero 4, couleur `#F5D0C8`, picto tourbillon)
 Champs : `intro`, `pour_la_maman {titre, contenu}`, `pour_le_papa_co_parent {titre, contenu}`, `signaux_a_ne_pas_negliger[]`, `urgence`, `qui_consulter[]`.
@@ -205,11 +285,26 @@ Pile de cadres (tous arrondis, labels eucalyptus, **aucun bleu**) :
 - **Cadre fermé gris très clair « Qui consulter »** : `qui_consulter[]`. Fond `#EFEBE6`, `border:1px solid #D9D2CA`. Amorce avant `:` en gras ; pictos pros en gris `#9A8E80`.
 
 ### 6.5 — B5 Challenge couple (numero 5, couleur `#EEC7B0`, picto deux cœurs)
-Champs : `duree`, `intro`, `challenge_du_mois {nom, registre, deroule, regle_clef}`, `pourquoi_ca_marche`.
+Champs : `duree`, `intro`, **`gabarit` (optionnel)**, `challenge_du_mois {nom, registre?, deroule, regle_clef}`, `pourquoi_ca_marche`.
 - **Chips** : `duree` (30 min) + « à deux ».
 - **Intro chapô** (prose centrée, sans label).
-- **Cadre `#FBF4EE` « Le challenge »** : `challenge_du_mois.nom` en **Playfair 600/17 centré**, `registre`/tonalité en eucalyptus uppercase, `deroule` en prose. Si le déroulé évoque un objet (ex. « menu »), un mini-aperçu illustratif `#EEC7B0` est autorisé. **`regle_clef`** isolée dans un encart « La règle d'or » (`#F3DCD0`, picto étoile `#C8806A`).
+- **Cadre `#FBF4EE` « Le challenge »** : `challenge_du_mois.nom` en **Playfair 600/17 centré**, `registre`/tonalité en eucalyptus uppercase, `deroule` en prose. **`regle_clef`** isolée dans un encart « La règle d'or » (`#F3DCD0`, picto étoile `#C8806A`).
 - **Cadre `#F9F1EA` « Pourquoi ça marche »** : `pourquoi_ca_marche`.
+
+**⭐ Aperçu illustratif — piloté par `gabarit` (mise en forme générique).**
+Le champ optionnel **`gabarit`** indique le **motif visuel** à dessiner dans le cadre « Le challenge » (illustration légère `#EEC7B0`, jamais éditable, pas de saisie in-app). Il ne re-rend aucun texte de contenu : `deroule`/`regle_clef`/`pourquoi_ca_marche` restent les seules sources de texte. **`gabarit` absent ou `type:"moment_partage"` ⇒ pas de motif, cadre standard.**
+
+| `type` | Aperçu à dessiner | Champs portés |
+|---|---|---|
+| `moment_partage` | aucun (cadre standard) | — |
+| `sortie` | petit motif « sortie » (porte / extérieur) | — |
+| `cartes_questions` | N petites cartes/papiers | `nombre` |
+| `carte_a_remplir` | une feuille/carte avec ligne d'en-tête | `entete?` (verbatim, ex. « Nos 3 prochains mois ») |
+| `mots_echanges` | deux petits mots qui s'échangent | `cache?` (bool — mot caché à découvrir) |
+| `deux_portraits` | deux cartes « portrait » côte à côte | — |
+| `boite_capsule` | une boîte/capsule scellée | — |
+
+Exemple (M15) : `"gabarit": { "type":"carte_a_remplir", "entete":"Menu des limites de la semaine — Maison [nom de famille]" }`
 
 ---
 
