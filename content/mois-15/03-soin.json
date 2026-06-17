@@ -3,9 +3,9 @@
   "tranche_age": "15 mois",
   "rubrique": "prendre_soin_de_moi",
   "nom_rubrique": "Prendre soin de moi",
-  "promesse_du_mois": "Poser tes limites avec sérénité",
-  "theme_du_mois": "Poser tes limites avec sérénité",
-  "intention_du_mois": "Ton enfant teste tout, et poser une limite te met mal à l'aise. Ce mois t'invite à découvrir qu'une limite sereine n'est ni violence ni abandon : c'est un cadeau.",
+  "promesse_du_mois": "Poser mes limites avec sérénité",
+  "theme_du_mois": "Poser mes limites avec sérénité",
+  "intention_du_mois": "Mon enfant teste tout, et poser une limite me met mal à l'aise. Ce mois m'invite à découvrir qu'une limite sereine n'est ni violence ni abandon : c'est un cadeau.",
   "description": "Le mois 15 met le sujet des limites au centre. Limites envers ton enfant qui teste, mais aussi limites envers ton entourage qui s'invite, et limites envers toi-même qui voudrais tout porter. 5 propositions pour apprendre à poser un cadre clair sans culpabiliser, et pour reconnaître que dire non est aussi une forme d'amour.",
   "conseils": [
     {
@@ -13,7 +13,7 @@
       "numero": 1,
       "icone": "🤲",
       "nom_outil": "Auto-massage de réflexologie",
-      "promesse": "Renforcer l'aplomb d'où ta limite se pose calmement",
+      "promesse": "Renforcer l'aplomb pour que ma limite se pose calmement",
       "intro": "Une limite posée dans la peur sonne agressive. Une limite posée dans la fatigue s'effondre. Une limite posée avec aplomb tient calmement, sans crier. 4 points sur tes mains pour renforcer cet aplomb intérieur, à activer avant un moment où tu sais que tu vas devoir tenir bon.",
       "duree": "5 minutes",
       "indications": [
@@ -52,7 +52,7 @@
       "numero": 2,
       "icone": "🎧",
       "nom_outil": "Méditation audio",
-      "promesse": "Choisir ce que tu allumes et ce que tu éteins en toi",
+      "promesse": "Choisir ce que j'allume et ce que j'éteins en moi",
       "duree": "~7 minutes",
       "intro": "Cette méditation propose une visualisation symbolique : tu es la gardienne d'une lumière intérieure, et c'est toi qui décides où elle se pose et où elle ne se pose pas. Chaque oui est une lumière qui s'allume sur quelque chose. Chaque non est une lumière qui s'éteint là où tu ne veux pas dépenser ton énergie. Apprendre à manier ce variateur intérieur, c'est apprendre à poser tes limites depuis un lieu calme.",
       "instruction": "Installe-toi confortablement, assise ou allongée. Tu peux fermer les yeux. La méditation se fait en silence intérieur, à la première personne : c'est ta propre voix qui se parle à toi-même.",
@@ -63,7 +63,7 @@
       "numero": 3,
       "icone": "⚖️",
       "nom_outil": "Auto-reconnaissance",
-      "promesse": "Cartographier tes oui assumés et tes non à poser",
+      "promesse": "Cartographier mes oui assumés et mes non à poser",
       "intro": "Cet exercice propose une cartographie en deux colonnes : les oui que tu veux assumer pleinement (là où tu veux mettre ton énergie), et les non que tu as besoin de poser (là où tu ne veux plus la mettre). Mettre noir sur blanc oblige à choisir, et choisir est la base de toute limite tenable.",
       "format_propose": "carte_oui_non_assumes",
       "gabarit": {
@@ -130,13 +130,60 @@
       "duree": "30 minutes",
       "intro": "Le thème du mois est la limite posée avec sérénité. Ce challenge propose une mécanique décalée : composer ensemble, avec humour, votre « menu des limites » de la semaine, comme on composerait une carte de restaurant. L'humour désamorce le côté pesant du sujet, et la mise en commun crée une cohérence parentale ludique.",
       "gabarit": {
-        "type": "carte_a_remplir",
-        "entete": "Menu des limites de la semaine — Maison [nom de famille]"
+        "type": "menu",
+        "entete": "Menu des limites de la semaine",
+        "maison": "Maison {prenom}",
+        "sections": [
+          {
+            "titre": "Entrées",
+            "sous_titre": "les petites limites quotidiennes, faciles à tenir",
+            "exemples": [
+              {
+                "intitule": "Les chaussures restent dans l'entrée",
+                "descripteur": "servi dès le retour à la maison"
+              },
+              {
+                "intitule": "On ne touche pas le four",
+                "descripteur": "épicé, brûlant, interdit à la dégustation"
+              }
+            ]
+          },
+          {
+            "titre": "Plats",
+            "sous_titre": "les limites plus structurantes",
+            "exemples": [
+              {
+                "intitule": "Coucher à 19h30, même avec 1000 raisons de prolonger",
+                "descripteur": "cuisson lente, à feu doux mais ferme"
+              },
+              {
+                "intitule": "On range un jeu avant d'en sortir un autre",
+                "descripteur": "un plat à la fois, service soigné"
+              }
+            ]
+          },
+          {
+            "titre": "Desserts",
+            "sous_titre": "les limites pour nous, pas pour l'enfant",
+            "exemples": [
+              {
+                "intitule": "Pas de téléphone à table",
+                "descripteur": "épuré, frais"
+              },
+              {
+                "intitule": "Non aux invitations belle-famille pendant 3 semaines",
+                "descripteur": "gourmand, libérateur"
+              }
+            ]
+          }
+        ],
+        "items_sont_des_exemples": true,
+        "note": "Exemples illustratifs — à composer vous-mêmes, avec humour. À accrocher sur le frigo."
       },
       "challenge_du_mois": {
         "nom": "Le menu des limites",
         "registre": 4,
-        "deroule": "Un soir dans la semaine, dès que bébé dort, asseyez-vous avec une feuille A3 ou A4 et plusieurs stylos. En haut, écrivez : « MENU DES LIMITES DE LA SEMAINE — Maison [votre nom de famille] ». Composez ensuite votre menu, sur le format d'une carte de restaurant, avec humour. Par exemple : ENTRÉES (les petites limites quotidiennes faciles à tenir) : « le doudou ne se mange pas (servi à toutes les heures) », « la télécommande de la TV reste sur l'étagère (saveur fruitée d'opposition) ». PLATS (les limites plus structurantes) : « le coucher reste à 19h30, même si bébé a 1000 raisons de prolonger (cuisson lente, à feu doux mais ferme) », « pas de gâteau avant le repas (servi avec une portion de patience parentale) ». DESSERTS (les limites pour vous, pas pour l'enfant) : « pas de téléphone à table (épuré, frais) », « non aux invitations belle-famille pendant 3 semaines (gourmand, libérateur) ». Soyez créatifs, drôles, exagérez. À la fin, accrochez ce menu sur le frigo, ou pliez-le dans un carnet. Pendant la semaine, quand l'un de vous a besoin de poser une limite, vous pouvez vous référer mentalement (ou à voix haute) au menu : « ah oui, c'est sur la carte, on tient ».",
+        "deroule": "Un soir dans la semaine, dès que bébé dort, asseyez-vous avec une feuille A3 ou A4 et plusieurs stylos. En haut, écrivez : « MENU DES LIMITES DE LA SEMAINE — Maison {prenom} ». Composez votre menu sur le format d'une carte de restaurant, en trois services — entrées, plats, desserts — chacun avec son registre de limites. Pour chaque limite, ajoutez un descriptif gourmand, comme sur une vraie carte ; soyez créatifs, drôles, exagérez. À la fin, accrochez ce menu sur le frigo, ou pliez-le dans un carnet. Pendant la semaine, quand l'un de vous a besoin de poser une limite, référez-vous au menu : « ah oui, c'est sur la carte, on tient ».",
         "regle_clef": "L'humour est essentiel. Si la conversation devient grave (« non mais sérieusement, on ne tient jamais ces limites »), revenez au format menu. Le but est de créer un objet ludique qui prend le sujet à la légère pour mieux le tenir, pas un règlement intérieur austère."
       },
       "pourquoi_ca_marche": "Les conversations sur les limites parentales dérapent souvent en reproches mutuels (« tu cèdes trop », « toi tu es trop sévère »). Le format menu, par son décalage, désamorce cette dynamique. Composer ensemble avec humour oblige à se mettre d'accord sur le fond, mais sans la lourdeur habituelle. Le menu devient un objet partagé, ce qui crée de la complicité parentale. Et le fait qu'il soit visible (sur le frigo) sert de rappel pour les deux : « ah oui, c'est ce qu'on a décidé ensemble ». Beaucoup de couples sortent de cet exercice avec à la fois une vraie clarification de leurs limites et un sentiment d'équipe renforcé. Mécanique reproductible tous les 1 à 2 mois, en mettant à jour le menu selon l'âge et les enjeux."

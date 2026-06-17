@@ -3,9 +3,9 @@
   "tranche_age": "19 mois",
   "rubrique": "prendre_soin_de_moi",
   "nom_rubrique": "Prendre soin de moi",
-  "promesse_du_mois": "Inventer un rythme qui te respecte aussi",
-  "theme_du_mois": "Inventer un rythme qui te respecte aussi",
-  "intention_du_mois": "Tu as construit un rythme parfait pour bébé — mais y as-tu une place ? Ce mois t'invite à y inscrire aussi tes temps : souffler, te poser, exister.",
+  "promesse_du_mois": "Inventer un rythme qui me respecte aussi",
+  "theme_du_mois": "Inventer un rythme qui me respecte aussi",
+  "intention_du_mois": "J'ai construit un rythme parfait pour bébé — mais y ai-je une place ? Ce mois m'invite à y inscrire aussi mes temps : souffler, me poser, exister.",
   "description": "Le mois 19 propose un travail concret d'aménagement temporel. Pas une révolution. Une révision lucide du calendrier réel d'une semaine type, pour y inscrire des ancrages qui te respectent aussi. 5 propositions pour construire un rythme à deux niveaux : celui qui structure ton enfant, et celui qui te porte toi.",
   "conseils": [
     {
@@ -13,7 +13,7 @@
       "numero": 1,
       "icone": "🤲",
       "nom_outil": "Auto-massage de réflexologie",
-      "promesse": "Resynchroniser tes rythmes biologiques désajustés",
+      "promesse": "Resynchroniser mes rythmes biologiques désajustés",
       "intro": "Quand on suit le rythme de quelqu'un d'autre pendant 19 mois, ses propres rythmes biologiques (sommeil, faim, digestion, cycles d'attention) se désajustent. Le corps perd ses repères temporels propres. 4 points sur tes mains pour soutenir la resynchronisation interne, particulièrement utile pour le sommeil et l'énergie globale. À faire le matin pour caler la journée, ou le soir pour préparer la nuit.",
       "duree": "5 minutes",
       "indications": [
@@ -52,7 +52,7 @@
       "numero": 2,
       "icone": "🎧",
       "nom_outil": "Méditation audio",
-      "promesse": "Reconnaître les moments où tu es vraiment toi",
+      "promesse": "Reconnaître les moments où je suis vraiment moi",
       "duree": "~7 minutes",
       "intro": "Cette méditation propose une visualisation : tu observes une journée type, comme si tu la regardais de l'extérieur, et tu repères les moments où tu es vraiment toi, et ceux où tu es en pilote automatique. Cette cartographie sensorielle ouvre la voie à un réaménagement conscient du rythme. À écouter dans un moment calme.",
       "instruction": "Installe-toi confortablement, assise ou allongée. Tu peux fermer les yeux. La méditation se fait en silence intérieur, à la première personne : c'est ta propre voix qui se parle à toi-même.",
@@ -63,13 +63,24 @@
       "numero": 3,
       "icone": "📅",
       "nom_outil": "Auto-reconnaissance",
-      "promesse": "Cartographier ta semaine, y inscrire tes temps à toi",
+      "promesse": "Cartographier ma semaine, y inscrire mes temps à moi",
       "intro": "Cet exercice est concret et tangible : tu vas cartographier ton calendrier réel d'une semaine type, avec deux couleurs distinctes — ce qui est pour les autres (enfant, travail, foyer, entourage) et ce qui est pour toi. Puis tu vas y ajouter intentionnellement des plages « pour moi », même petites. Cette visualisation rend tangible un déséquilibre qui reste invisible tant qu'on ne le pose pas noir sur blanc.",
       "format_propose": "calendrier_revise_couleurs",
       "gabarit": {
         "type": "grille_planning",
         "colonnes_jours": 7,
-        "plage_horaire": "6h → 23h"
+        "plage_horaire": "6h → 23h",
+        "legende": [
+          {
+            "cle": "pour les autres",
+            "exemples": "enfant, foyer, travail, famille, démarches"
+          },
+          {
+            "cle": "pour moi",
+            "exemples": "sommeil de qualité, sport, douche tranquille, lecture, amies, plaisir"
+          }
+        ],
+        "objectif": "Repérer mon ratio, puis inscrire 3 plages « pour moi » cette semaine."
       },
       "consigne": "Prends 1 heure au calme. Sur une grande feuille ou un planning numérique, dessine une grille d'une semaine type, avec les 7 jours en colonnes et les heures en lignes (de 6h à 23h par exemple). Étape 1 : remplis ce qui se passe réellement, heure par heure, dans une semaine type récente. Sois précise (sommeil, repas bébé, repas adultes, travail, transports, soirée, etc.). Étape 2 : colorie en deux couleurs. Une couleur (par exemple bleu) pour tout ce qui est principalement pour les autres : enfant, foyer, travail, famille élargie, démarches. Une autre couleur (par exemple jaune) pour ce qui est principalement pour toi : sommeil de qualité, repas que tu apprécies vraiment, sport, douche tranquille, lecture, amies, plaisir personnel. Étape 3 : regarde ta semaine en couleurs. Quelle est la proportion de chacune ? Si le bleu domine massivement (cas le plus fréquent), tu vois pourquoi tu te sens dissoute. Étape 4 : choisis 3 plages que tu vas inscrire intentionnellement en jaune cette semaine. Pas par révolution. Par ajustement. Note ces plages dans ton agenda réel, comme tu noterais un rendez-vous important.",
       "amorces_si_blocage": [

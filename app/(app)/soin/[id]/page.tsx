@@ -42,7 +42,7 @@ export default async function ConseilPage({
           />
         ) : null}
       </div>
-      <SoinDetail conseil={conseil} />
+      <SoinDetail conseil={conseil} prenom={profile.baby_name} />
     </section>
   );
 }

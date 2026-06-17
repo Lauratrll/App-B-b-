@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import type { CSSProperties, ReactNode } from "react";
 import type { ConseilSoin } from "@/lib/content";
 import {
@@ -379,7 +380,6 @@ function B3Gabarit({ g }: { g: Rec }) {
   const type = str(g.type);
   const colonnes = (Array.isArray(g.colonnes) ? g.colonnes : Array.isArray(g.colonnes_jours) ? g.colonnes_jours : []).map(String);
   const pages = (Array.isArray(g.pages) ? g.pages : []).map(String);
-  const cercles = (Array.isArray(g.cercles) ? g.cercles : []).map(String);
   const lignes = numFrom(g.lignes ?? g.lignes_par_colonne, 5);
 
   switch (type) {
@@ -477,39 +477,88 @@ function B3Gabarit({ g }: { g: Rec }) {
     }
 
     case "grille_planning": {
-      const cols = Math.min(numFrom(g.colonnes ?? g.colonnes_jours, 7), 7);
+      // §6.3 « Ma semaine en couleurs » (M19).
+      const cols = Math.min(numFrom(g.colonnes_jours ?? g.colonnes, 7), 7);
+      const jours = ["L", "M", "M", "J", "V", "S", "D"].slice(0, cols);
+      const bandes = ["6–9h", "9–12h", "12–14h", "14–18h", "18–21h", "21–23h"];
+      const legende = Array.isArray(g.legende) ? (g.legende as Rec[]) : [];
+      const COL_AUTRES = "#B7C4BE";
+      const COL_MOI = "#E6B570";
+      // Quelques cellules pré-colorées (illustratif).
+      const moiCells = new Set(["1-2", "4-5", "5-0", "3-6"]);
+      const autresCells = new Set(["0-0", "2-3", "3-1", "0-4", "1-6"]);
       return (
         <div style={{ marginTop: 8 }}>
           {str(g.plage_horaire) ? (
             <p style={{ fontSize: 10, color: EUCAL, margin: "0 0 6px" }}>{str(g.plage_horaire)}</p>
           ) : null}
-          <div style={{ display: "grid", gridTemplateColumns: `repeat(${cols}, 1fr)`, gap: 3 }}>
-            {Array.from({ length: cols * 4 }).map((_, i) => (
-              <span key={i} style={{ height: 14, borderRadius: 3, border: "0.5px solid rgba(58,50,40,.22)" }} />
+          <div style={{ display: "grid", gridTemplateColumns: `auto repeat(${cols}, 1fr)`, gap: 2 }}>
+            <span />
+            {jours.map((j, i) => (
+              <span key={`h${i}`} style={{ fontSize: 9, fontWeight: 600, color: WARM_LABEL, textAlign: "center", background: "#F0E2D5", borderRadius: 3, padding: "3px 0" }}>{j}</span>
+            ))}
+            {bandes.map((b, r) => (
+              <Fragment key={r}>
+                <span style={{ fontSize: 8.5, color: WARM_BODY, background: "#F4ECE2", borderRadius: 3, padding: "0 5px", display: "flex", alignItems: "center" }}>{b}</span>
+                {jours.map((_, c) => {
+                  const key = `${r}-${c}`;
+                  const bg = moiCells.has(key) ? COL_MOI : autresCells.has(key) ? COL_AUTRES : "transparent";
+                  return <span key={c} style={{ height: 15, borderRadius: 3, border: "0.5px solid #E4D5C7", background: bg }} />;
+                })}
+              </Fragment>
             ))}
           </div>
+          {legende.length ? (
+            <div style={{ display: "flex", flexWrap: "wrap", gap: 12, justifyContent: "center", marginTop: 8 }}>
+              {legende.map((l, i) => (
+                <span key={i} style={{ display: "inline-flex", alignItems: "center", gap: 5, fontSize: 10.5, color: WARM_BODY }}>
+                  <span style={{ width: 11, height: 11, borderRadius: 3, background: i === 1 ? COL_MOI : COL_AUTRES }} />
+                  {str(l.cle)}
+                </span>
+              ))}
+            </div>
+          ) : null}
+          {str(g.objectif) ? (
+            <p style={{ fontSize: 11, fontStyle: "italic", color: EUCAL, textAlign: "center", margin: "8px 0 0", lineHeight: 1.4 }}>{str(g.objectif)}</p>
+          ) : null}
         </div>
       );
     }
 
-    case "cercles_concentriques":
+    case "cercles_concentriques": {
+      // §6.3 « Ma carte de soutien » (M1). cercles[0] = anneau le plus proche.
+      const cer = Array.isArray(g.cercles) ? (g.cercles as Rec[]) : [];
+      const swatch = ["#F0CFB8", "#F7E2D2", "#FBEFE6"];
       return (
-        <div style={{ marginTop: 8, display: "flex", flexDirection: "column", alignItems: "center", gap: 8 }}>
-          <svg width="120" height="120" viewBox="0 0 120 120" fill="none" stroke={PEACH_DARK} strokeWidth={1} aria-hidden>
-            <circle cx="60" cy="60" r="54" />
-            <circle cx="60" cy="60" r="37" />
-            <circle cx="60" cy="60" r="20" />
-            <text x="60" y="64" textAnchor="middle" fontSize="11" fill={INK} stroke="none" fontStyle="italic">{str(g.centre) || "Moi"}</text>
-          </svg>
-          {cercles.length ? (
-            <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 6 }}>
-              {cercles.map((lab, i) => (
-                <span key={i} style={{ fontSize: 10, color: WARM_BODY }}>• {lab}</span>
+        <div style={{ marginTop: 8 }}>
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <svg width="180" height="180" viewBox="0 0 200 200" aria-hidden>
+              <circle cx="100" cy="100" r="94" fill="#FBEFE6" />
+              <circle cx="100" cy="100" r="66" fill="#F7E2D2" />
+              <circle cx="100" cy="100" r="40" fill="#F0CFB8" />
+              <circle cx="100" cy="100" r="22" fill="#E7B99F" />
+              <text x="100" y="105" textAnchor="middle" fontFamily={PLAYFAIR} fontSize="15" fontStyle="italic" fill={INK}>{str(g.centre) || "Moi"}</text>
+            </svg>
+          </div>
+          {cer.length ? (
+            <div style={{ display: "flex", flexDirection: "column", gap: 6, marginTop: 10 }}>
+              {cer.map((c, i) => (
+                <div key={i} style={{ display: "flex", gap: 8, alignItems: "baseline" }}>
+                  <span style={{ width: 10, height: 10, borderRadius: "50%", flexShrink: 0, position: "relative", top: 1, background: swatch[i] ?? "#F0CFB8", border: "1px solid #C8806A" }} />
+                  <span style={{ fontSize: 11.5, lineHeight: 1.4, color: WARM_BODY }}>
+                    <strong style={{ color: WARM_LABEL, fontWeight: 700 }}>{str(c.label)}</strong>
+                    {str(c.indice) ? ` — ${str(c.indice)}` : ""}
+                  </span>
+                </div>
               ))}
             </div>
           ) : null}
+          {str(g.annotation) ? (
+            <p style={{ fontSize: 11, fontStyle: "italic", color: EUCAL, textAlign: "center", margin: "10px 0 0", lineHeight: 1.4 }}>{str(g.annotation)}</p>
+          ) : null}
         </div>
       );
+    }
 
     case "lignes_libres":
     default:
@@ -637,8 +686,65 @@ function MotifBox({ children }: { children: ReactNode }) {
   return <div style={{ display: "flex", justifyContent: "center", marginTop: 12 }}>{children}</div>;
 }
 
-function B5Gabarit({ g }: { g: Rec }) {
+function B5Gabarit({ g, prenom }: { g: Rec; prenom: string }) {
   switch (str(g.type)) {
+    case "menu": {
+      // §6.5 « Le menu des limites » (M15) — rendu en carte de restaurant.
+      const sections = Array.isArray(g.sections) ? (g.sections as Rec[]) : [];
+      const maison = str(g.maison).replace(/\{prenom\}/gi, prenom || "");
+      return (
+        <div style={{ background: "#FBF4EC", border: "1px solid #DCC7B4", borderRadius: 10, padding: "14px 15px", marginTop: 12, boxShadow: "inset 0 0 0 3px #FBF4EC, inset 0 0 0 4px #ECDCCB" }}>
+          <div style={{ textAlign: "center" }}>
+            <div style={{ color: "#C8806A", fontSize: 12, letterSpacing: ".3em" }}>✦ ❦ ✦</div>
+            {str(g.entete) ? (
+              <p style={{ fontFamily: PLAYFAIR, fontWeight: 700, fontSize: 17, color: INK, margin: "4px 0 2px" }}>{str(g.entete)}</p>
+            ) : null}
+            {maison ? (
+              <p style={{ fontSize: 10, fontWeight: 600, letterSpacing: ".12em", textTransform: "uppercase", color: WARM_LABEL, margin: 0 }}>{maison}</p>
+            ) : null}
+            <div style={{ height: 1, background: "#ECDCCB", margin: "9px 0" }} />
+          </div>
+          {sections.map((s, si) => {
+            const ex = Array.isArray(s.exemples) ? (s.exemples as Rec[]) : [];
+            return (
+              <div key={si} style={{ marginTop: si ? 12 : 0 }}>
+                <p style={{ fontFamily: PLAYFAIR, fontWeight: 600, fontSize: 12.5, letterSpacing: ".1em", textTransform: "uppercase", color: WARM_LABEL, textAlign: "center", margin: 0 }}>{str(s.titre)}</p>
+                {str(s.sous_titre) ? (
+                  <p style={{ fontSize: 11, fontStyle: "italic", color: EUCAL, textAlign: "center", margin: "2px 0 8px" }}>{str(s.sous_titre)}</p>
+                ) : null}
+                {ex.map((e, ei) => (
+                  <div key={ei} style={{ margin: "7px 0" }}>
+                    <div style={{ display: "flex", alignItems: "baseline", gap: 6 }}>
+                      <span style={{ fontSize: 12, color: INK }}>{str(e.intitule)}</span>
+                      <span style={{ flex: 1, borderBottom: "1px dotted #D9C6B4" }} />
+                    </div>
+                    {str(e.descripteur) ? (
+                      <p style={{ fontSize: 10.5, fontStyle: "italic", color: "#C8806A", margin: "2px 0 0" }}>{str(e.descripteur)}</p>
+                    ) : null}
+                  </div>
+                ))}
+              </div>
+            );
+          })}
+          {g.items_sont_des_exemples === true ? (
+            <div style={{ marginTop: 10 }}>
+              {[0, 1].map((i) => (
+                <div key={i} style={{ borderBottom: "1px dotted #D9C6B4", margin: "10px 0" }} />
+              ))}
+              <p style={{ textAlign: "center", margin: "4px 0 0" }}>
+                <span style={{ fontSize: 9.5, color: WARM_LABEL, background: "#F3DCD0", borderRadius: 20, padding: "3px 10px" }}>à composer vous-mêmes</span>
+              </p>
+            </div>
+          ) : null}
+          {str(g.note) ? (
+            <>
+              <div style={{ height: 1, background: "#ECDCCB", margin: "10px 0 7px" }} />
+              <p style={{ fontSize: 10.5, fontStyle: "italic", color: WARM_BODY, textAlign: "center", margin: 0 }}>{str(g.note)}</p>
+            </>
+          ) : null}
+        </div>
+      );
+    }
     case "sortie":
       return (
         <MotifBox>
@@ -722,7 +828,7 @@ function B5Gabarit({ g }: { g: Rec }) {
 }
 
 // ---- B5 — Challenge couple -------------------------------------------------
-function B5({ c }: { c: Rec }) {
+function B5({ c, prenom }: { c: Rec; prenom: string }) {
   const challenge = c.challenge_du_mois as Rec | undefined;
   const gabarit = c.gabarit && typeof c.gabarit === "object" ? (c.gabarit as Rec) : null;
   return (
@@ -744,7 +850,7 @@ function B5({ c }: { c: Rec }) {
               <Prose texte={str(challenge.deroule)} />
             </div>
           ) : null}
-          {gabarit ? <B5Gabarit g={gabarit} /> : null}
+          {gabarit ? <B5Gabarit g={gabarit} prenom={prenom} /> : null}
           {str(challenge.regle_clef) ? (
             <div style={{ background: "#F3DCD0", borderRadius: 10, padding: "10px 12px", marginTop: 12 }}>
               <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 5 }}>
@@ -766,7 +872,7 @@ function B5({ c }: { c: Rec }) {
 }
 
 // ---- Squelette commun ------------------------------------------------------
-export function SoinDetail({ conseil }: { conseil: ConseilSoin }) {
+export function SoinDetail({ conseil, prenom = "" }: { conseil: ConseilSoin; prenom?: string }) {
   const c = conseil as Rec;
   const numero = typeof c.numero === "number" ? (c.numero as number) : 0;
   const promesse = str(c.promesse) || str(c.nom_outil) || str(c.titre);
@@ -804,7 +910,7 @@ export function SoinDetail({ conseil }: { conseil: ConseilSoin }) {
       {numero === 2 ? <B2 c={c} /> : null}
       {numero === 3 ? <B3 c={c} /> : null}
       {numero === 4 ? <B4 c={c} /> : null}
-      {numero === 5 ? <B5 c={c} /> : null}
+      {numero === 5 ? <B5 c={c} prenom={prenom} /> : null}
     </div>
   );
 }

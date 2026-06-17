@@ -271,9 +271,17 @@ Cette tournure n'est **pas obligatoire**. Selon l'effet recherché, la `promesse
 
 - **Mode action ou positif** : commencer par un verbe d'action (« Habiter », « Oser », « Accueillir », « Choisir ») ou évoquer un état positif vers lequel on va.
 - **Pas de formulation centrée sur le problème** : éviter « Sortir de… », « Tenir dans… », « Lutter contre… » sauf quand l'action est elle-même un mouvement positif (« Lâcher prise »).
-- **Tutoiement intégré** quand pertinent (« ton corps », « toi-même »).
+- **Première personne (voix « je »)** : voir la règle de voix ci-dessous. Le titre porte la voix de la maman parlant d'elle-même — forme infinitive + pronoms *me / mon / ma* (« Me donner les moyens… », « Habiter mon corps… »). Jamais *te / ton / ta / tes / toi*.
 - **Pas d'écriture inclusive typographique** (voir SKILL_contenu.md). Féminin assumé puisque la rubrique s'adresse aux mamans.
 - **Longueur** : 4 à 10 mots idéalement, pour rester lisible en grand.
+
+#### Règle de voix ⭐ (titres + intro à la 1re personne)
+
+On est dans « Prendre soin de **moi** ». La voix dépend du niveau :
+- **1re personne** (je / me / m' / mon / ma / mes / moi), forme infinitive : `promesse_du_mois`, l'`intention_du_mois` (intro page 1, signature « Ce mois **m'**invite à… ») et la `promesse` des conseils 1 à 4. Ex. : « Me donner les moyens de tenir », « Écrire à mon corps », « Mon corps à 4 mois ». **Jamais** *te / ton / ta / tes / toi*.
+- **Tutoiement conservé** dans tout le **corps des pages de détail** : `intro` du conseil, `consigne`, `texte_meditation`, `pour_la_maman` / `pour_le_papa_co_parent`, `amorces_si_blocage`, `principe`, `challenge_du_mois`. (La maman lit le titre comme sa propre intention ; le corps l'accompagne en la tutoyant.)
+- **Conseil 5 (challenge couple)** : exception déjà décrite — la `promesse` s'adresse au couple, à l'**impératif pluriel** (« Composez… ») ou en forme nominale (« Le dessin partagé »).
+- Les **titres expriment une thématique**, jamais une consigne d'usage (« À écouter le soir… » est proscrit).
 
 ### Structure JSON
 
@@ -488,6 +496,8 @@ Pas de tiret cadratin (« — ») au milieu des phrases (voir SKILL_contenu.md).
 }
 ```
 
+**Gabarit (mise en forme de la « carte » papier) ⭐** — champ optionnel `gabarit` qui porte **uniquement la mise en forme** du support d'écriture (jamais de texte de contenu). Rendu = **gabarit papier non éditable** (app d'action, aucune saisie/sauvegarde in-app). Types : `lignes_libres`, `lettre` (`entete?`), `deux_colonnes` (`colonnes`), `deux_pages` (`pages`), `liste_numerotee` (`nombre?`, `prefixe_entree?`), `carnet_date` (`jours`, `colonnes?`), `grille_planning` (`colonnes_jours`, `plage_horaire`, `legende`), `cercles_concentriques` (`centre`, `cercles:[{label,indice}]`), `vocal` (`duree?`). Les libellés sont **repris verbatim de la `consigne`**, jamais réécrits. Détail de rendu par type + maquettes (M1 cercles, M19 grille, M15 deux colonnes) : `CONSIGNES_CLAUDE_CODE_prendre_soin_de_moi.md` §6.3.
+
 **Règle d'unicité :** chaque format ne peut être utilisé qu'une fois sur les 24 mois (voir table d'unicité dans `CONTENT_INDEX.md`).
 
 #### Conseil 4 — Réalité du post-partum
@@ -502,7 +512,7 @@ Le post-partum est un sujet à part : il garde sa propre densité, ses propres r
 |------|---------------|-----------------------------------------------------|
 | M0 | Habiter son corps après l'accouchement | Ce que personne ne dit assez fort sur les 4 premières semaines |
 | M1 | Apprendre à demander de l'aide | Le moment où l'entourage s'éloigne — et ce qui se passe à l'intérieur |
-| M2 | Se repositionner face au travail | Reprendre, ne pas reprendre, négocier — et ce que ton corps en dit |
+| M2 | Se repositionner face au travail | Reprendre, ne pas reprendre, négocier — et ce que mon corps en dit |
 | M3 | Tenir dans l'épuisement qui dure | Le pic clinique de la dépression post-partum, et le silence autour |
 | M9 | Le brouillard mental | La thyroïdite du post-partum, le « mom brain », ce qui s'explique chimiquement |
 
@@ -548,6 +558,10 @@ Le couple parental a besoin de **deux choses** que la palette doit couvrir : se 
 - **Sans cadence imposée** : pas de « 3 fois par semaine », pas de « tous les dimanches soir ». Le couple choisit son moment.
 - **Ludique, poétique, romantique ou drôle** : il y a une dimension de jeu, de surprise, de geste symbolique, de tendresse ou de rire.
 - **Aligné sur le thème** : le challenge incarne le travail intérieur du mois (ou crée la respiration dont le mois a besoin).
+
+**Gabarit (aperçu illustratif du challenge) ⭐** — champ optionnel `gabarit` indiquant le **motif visuel** à dessiner (illustration légère, non éditable). Types : `moment_partage` (aucun motif), `sortie`, `cartes_questions` (`nombre`), `carte_a_remplir` (`entete?`), `mots_echanges` (`cache?`), `deux_portraits`, `boite_capsule`, et le patron spécialisé **`menu`** (carte de restaurant : `entete`, `maison` via le token `{prenom}`, `sections:[{titre, sous_titre, exemples:[{intitule, descripteur}]}]`, `items_sont_des_exemples`, `note`).
+
+**Anti-redondance :** quand le gabarit embarque déjà les exemples (cas du `menu`), **ne pas les répéter dans le `deroule`** — le déroulé décrit la *méthode*, le gabarit porte la *structure et les exemples*. Détail de rendu + maquette (menu M15) : `CONSIGNES_CLAUDE_CODE_prendre_soin_de_moi.md` §6.5.
 
 ### Palette d'inspirations en 5 registres
 

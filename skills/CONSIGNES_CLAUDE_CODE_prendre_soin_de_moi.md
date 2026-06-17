@@ -33,8 +33,8 @@ Les 5 `conseils` ont toujours `numero` **1→5 (stable)**, plus `id` (⚠️ **c
 |---|---|---|---|---|
 | 1 | Auto-massage de réflexologie | **Auto-massage** | main | `#EABDB1` |
 | 2 | Méditation audio | **Méditation audio** | casque | `#F8DBC9` |
-| 3 | Auto-reconnaissance | **Auto-reconnaissance** | fleur | `#E7B99F` |
-| 4 | La réalité du post-partum | **Réalité du post-partum** | tourbillon | `#F5D0C8` |
+| 3 | Auto-reconnaissance | **Auto-reconnaissance** | balance | `#E7B99F` |
+| 4 | La réalité du post-partum | **Réalité du post-partum** | cœur | `#F5D0C8` |
 | 5 | Challenge couple | **Challenge couple** | deux cœurs | `#EEC7B0` |
 
 ```ts
@@ -44,7 +44,12 @@ const COULEUR_SLOT = {1:'#EABDB1',2:'#F8DBC9',3:'#E7B99F',4:'#F5D0C8',5:'#EEC7B0
 
 ### 3.1 ⭐ Tableau de correspondance EXHAUSTIF — champ JSON → où il s'affiche
 
-> Règle d'or : **tout champ non listé comme affiché ci-dessous ne doit RIEN rendre à l'écran.** Les fichiers contiennent des champs hérités/techniques qui ne s'affichent pas — c'est normal, ne pas les rendre.
+> Règle d'or : **tout champ non listé comme affiché ci-dessous ne doit RIEN rendre à l'écran.**
+>
+> **Règle de voix.** On est dans « Prendre soin de **moi** ».
+> • **1re personne** (je / me / m' / mon / ma / mes / moi) : les **titres** (`promesse_du_mois`, `conseils[].promesse`) **ET l'intro page 1** (`intention_du_mois`, signature « Ce mois **m'**invite à… »). Jamais *te / ton / ta / tes / toi*.
+> • **Tutoiement conservé** : tous les **textes de corps des pages de détail** (`conseils[].intro`, `consigne`, `texte_meditation`, `pour_la_maman`/`pour_le_papa_co_parent`, `amorces_si_blocage`, `principe`, `challenge_du_mois`, etc.).
+> • Les titres expriment une **thématique**, jamais une consigne d'usage (pas de « À écouter le soir… »). Les fichiers contiennent des champs hérités/techniques qui ne s'affichent pas — c'est normal, ne pas les rendre.
 
 **Champs racine**
 
@@ -244,7 +249,7 @@ Champs : `duree`, `intro`, `instruction`, `texte_meditation` (avec marqueurs `[p
 - **Lecteur audio** (bloc `#F4E4DA`) **juste au-dessus du texte** : bouton play rond `#C8806A`, barre de progression, `0:00 / {duree}`. *(L'audio sera enregistré ; prévoir le composant `<audio>` branché plus tard.)*
 - **Cadre `#FBF6F1` (filet .5px) « Texte de la méditation »** : rendre `texte_meditation` ; transformer chaque `[pause - N secondes]` en repère centré discret « pause N secondes » (eucalyptus), un paragraphe par bloc.
 
-### 6.3 — B3 Auto-reconnaissance (numero 3, couleur `#E7B99F`, picto fleur)
+### 6.3 — B3 Auto-reconnaissance (numero 3, couleur `#E7B99F`, picto balance)
 Champs : `intro`, `format_propose`, **`gabarit` (optionnel)**, `consigne`, `amorces_si_blocage[]`, `espace_pour_ecrire` / `espace_pour_enregistrement` (bool), `principe`.
 - **Chip** : « format écriture · 30 min » (ou « format vocal » si `espace_pour_enregistrement`).
 - **Cadre `#F7ECE4` « Comment faire »** : `consigne`.
@@ -269,12 +274,26 @@ Vocabulaire `gabarit.type` (extensible) et champs associés :
 
 > Couleurs de la carte : fond `#FBF6F1`, filet ; en-têtes de colonnes/pages alternées `#EFE0D0` / `#E7B99F` ; pas de croix, pas de bleu.
 
-Exemple (M15, déjà encodé) :
-```json
-"gabarit": { "type": "deux_colonnes", "colonnes": ["Mes oui assumés","Mes non à poser"], "lignes_par_colonne": 8 }
-```
+Exemple (M15) `deux_colonnes` : `"gabarit": { "type":"deux_colonnes", "colonnes":["Mes oui assumés","Mes non à poser"], "lignes_par_colonne":8 }`
 
-### 6.4 — B4 Réalité du post-partum (numero 4, couleur `#F5D0C8`, picto tourbillon)
+#### ⭐ `type:"cercles_concentriques"` — carte de soutien (M1)
+
+Gabarit : `{ centre, cercles:[{label,indice}], annotation }`. Rendu dans la carte « Ma carte de soutien » (fond `#FBF6F1`) :
+1. **3 anneaux concentriques** (du plus clair à l'extérieur au plus soutenu au centre), dégradé pêche : extérieur `#FBEFE6`, milieu `#F7E2D2`, intérieur `#F0CFB8`. **Disque central** `#E7B99F` portant `centre` (« Moi ») en Playfair.
+2. **L'ordre est inversé visuellement** : `cercles[0]` (« proche ») = anneau **le plus proche du centre** ; le dernier (« lointain ») = anneau extérieur. Le `label` de chaque anneau s'écrit en petites capitales `#8A4030` en haut de sa bande.
+3. **Sous la carte**, une légende reprend chaque `label` (gras) + `indice`.
+4. Quelques **exemples illustratifs** (« ex. : ma sœur ») peuvent être posés dans les anneaux en pastilles `#FFFDFA`, pour montrer qu'on y inscrit des prénoms. `annotation` en pied (italique).
+Papier, non éditable. Maquette : `maquette_M1_M19_autoreconnaissance.html`.
+
+#### ⭐ `type:"grille_planning"` — semaine en couleurs (M19)
+
+Gabarit : `{ colonnes_jours:7, plage_horaire, legende:[{cle,exemples}], objectif }`. Rendu dans « Ma semaine en couleurs » :
+1. **Grille** : 7 colonnes (Lun→Dim) × **bandes horaires** (ex. 6–9h, 9–12h, 12–14h, 14–18h, 18–21h, 21–23h) sur la `plage_horaire`. En-têtes jours `#F0E2D5`, colonne heures `#F4ECE2`, filets `#E4D5C7`.
+2. **Deux couleurs** = les deux entrées de `legende` : « pour les autres » → ton sobre `#B7C4BE` ; « pour moi » → ambre chaud `#E6B570` (pas de bleu vif ; ces tons remplacent le bleu/jaune du papier). Quelques cellules pré-colorées montrent l'usage.
+3. **Légende** sous la grille (pastille + `cle`), puis `objectif` en pied (italique).
+Papier, non éditable. Maquette : `maquette_M1_M19_autoreconnaissance.html`.
+
+### 6.4 — B4 Réalité du post-partum (numero 4, couleur `#F5D0C8`, picto cœur)
 Champs : `intro`, `pour_la_maman {titre, contenu}`, `pour_le_papa_co_parent {titre, contenu}`, `signaux_a_ne_pas_negliger[]`, `urgence`, `qui_consulter[]`.
 Pile de cadres (tous arrondis, labels eucalyptus, **aucun bleu**) :
 - **`#F7ECE4` « Ce qui se passe »** : `intro`.
@@ -304,7 +323,45 @@ Le champ optionnel **`gabarit`** indique le **motif visuel** à dessiner dans le
 | `deux_portraits` | deux cartes « portrait » côte à côte | — |
 | `boite_capsule` | une boîte/capsule scellée | — |
 
-Exemple (M15) : `"gabarit": { "type":"carte_a_remplir", "entete":"Menu des limites de la semaine — Maison [nom de famille]" }`
+Au vocabulaire ci-dessus s'ajoute un type spécialisé :
+
+| `type` | Aperçu à dessiner | Champs portés |
+|---|---|---|
+| `menu` | une **vraie carte de restaurant** (voir détail ci-dessous) | `entete`, `maison?`, `sections[]`, `items_sont_des_exemples?`, `note?` |
+
+*(`maison` utilise le token `{prenom}` → « Maison {prenom} » se personnalise automatiquement avec le prénom de l'enfant.)*
+
+#### ⭐ `type:"menu"` — rendu en carte de restaurant (M15 « Le menu des limites »)
+
+Objectif : matérialiser le challenge sous la forme **visuelle d'un menu**, pas en prose. Le `deroule` reste affiché au-dessus comme « comment faire » ; la carte, elle, est dessinée à partir du `gabarit`.
+
+**Structure du gabarit** :
+```json
+"gabarit": {
+  "type": "menu",
+  "entete": "Menu des limites de la semaine",
+  "maison": "Maison {prenom}",
+  "sections": [
+    { "titre": "Entrées", "sous_titre": "les petites limites quotidiennes…",
+      "exemples": [ { "intitule": "Les chaussures restent dans l'entrée", "descripteur": "servi dès le retour à la maison" } ] }
+  ],
+  "items_sont_des_exemples": true,
+  "note": "Exemples illustratifs — à composer vous-mêmes…"
+}
+```
+
+**Rendu attendu** (carte sur fond papier `#FBF4EC`, double filet intérieur `#ECDCCB`, bord `#DCC7B4`) :
+1. **En-tête centré** : petit ornement (`✦ ❦ ✦`, couleur `#C8806A`), puis `entete` en **Playfair 700 ~17px**, puis `maison` en petites capitales `#8A4030`, puis un filet fin.
+2. **Pour chaque `section`** : `titre` en **Playfair 600**, petites capitales centrées `#8A4030` (Entrées / Plats / Desserts) ; `sous_titre` en **italique** `#8A9E98` centré juste dessous.
+3. **Pour chaque exemple** : `intitule` à gauche, **ligne de points** (leader pointillé `#D9C6B4`) façon carte, et le `descripteur` **en italique `#C8806A`** sous l'intitulé (le clin d'œil « gastronomique »).
+4. Si `items_sont_des_exemples` = true : afficher un petit badge discret **« à composer vous-mêmes »** près du titre ou en pied, et **2-3 lignes vides** (leaders pointillés) à la fin de la dernière section pour signifier que les parents complètent eux-mêmes — **aucune saisie in-app** (papier).
+5. **Pied** : `note` en italique centré, filet au-dessus.
+
+Couleurs : palette **Famille A** (challenge). Le `descripteur` italique pêche-foncé est l'élément clé qui donne le ton « carte de restaurant » — ne pas l'omettre. Maquette de référence : `maquette_menu_limites_M15.html`.
+
+> **Anti-redondance (important).** Quand un `gabarit` embarque déjà les exemples (cas du `menu` : `sections`/`exemples`), **ne pas les répéter dans le `deroule`** : le `deroule` décrit la *méthode*, le `gabarit` porte la *structure et les exemples*. Vaut pour tout gabarit qui contient des libellés/exemples.
+
+> Ce patron `menu` est réutilisable si un autre mois propose un challenge « en liste/carte thématique » ; sinon les autres challenges restent sur les types simples ci-dessus.
 
 ---
 
@@ -315,8 +372,8 @@ Couleur : **slot** pour le picto 32 px d'en-tête ; **noir `#3A3228`** pour les 
 ```
 main (1)        : <path d="M8 13V5.5a1.5 1.5 0 0 1 3 0V11"/><path d="M11 11V4.5a1.5 1.5 0 0 1 3 0V11"/><path d="M14 11V5.5a1.5 1.5 0 0 1 3 0V12"/><path d="M17 12V8a1.5 1.5 0 0 1 3 0v6a6 6 0 0 1-6 6h-2.5a5 5 0 0 1-3.9-1.9L4 13.5a1.6 1.6 0 0 1 2.5-2L8 13.5"/>
 casque (2)      : <path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="13" width="4" height="7" rx="2"/><rect x="17" y="13" width="4" height="7" rx="2"/>
-fleur (3)       : <circle cx="12" cy="12" r="2"/> + 6× <ellipse cx="12" cy="6.8" rx="1.8" ry="2.8" transform="rotate(k 12 12)"/> (k=0,60,120,180,240,300)
-tourbillon (4)  : spirale d'Archimède ~2,75 tours, virgule au centre — tracé exact dans components/modules/soin-design.tsx (PICTO_CASE[4])
+balance (3)     : <path d="M12 3v18"/><path d="M5 7l-2.5 5a2.5 2.5 0 0 0 5 0L5 7z"/><path d="M19 7l-2.5 5a2.5 2.5 0 0 0 5 0L19 7z"/><path d="M5 7l7-2 7 2"/><path d="M8 21h8"/>
+cœur (4)        : <path d="M12 20s-7-4.4-7-9.5A3.6 3.6 0 0 1 12 7a3.6 3.6 0 0 1 7 3.5C19 15.6 12 20 12 20z"/>
 deux cœurs (5)  : <path d="M9.5 16s-4.5-2.9-4.5-6.2A2.4 2.4 0 0 1 9.5 8a2.4 2.4 0 0 1 4.5 1.8C14 13.1 9.5 16 9.5 16z"/><path d="M15.5 19s-3.6-2.3-3.6-5A1.9 1.9 0 0 1 15.5 12a1.9 1.9 0 0 1 3.6 1.5c0 2.7-3.6 5-3.6 5z"/>
 horloge (chip)  : <circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 14"/>
 coche (indic)   : <polyline points="20 6 9 17 4 12"/>
@@ -328,7 +385,7 @@ alerte (urgence): <circle cx="12" cy="12" r="9"/><line x1="12" y1="8" x2="12" y2
 
 ## 8. Checklist de validation (toute la rubrique)
 
-- [ ] **Accueil** : tient sur un écran, bandeau Cream inchangé, pas de fil d'Ariane, grand titre `promesse_du_mois` + « Prendre soin de moi » dessous, intro intégrale (réécrite courte, sans troncature), 5 cases 82 % alternées, cercles picto blanc transparent, picto/phrase/flèche **noirs**, chevrons présents.
+- [ ] **Accueil** : tient sur un écran, bandeau Cream inchangé, pas de fil d'Ariane, grand titre `promesse_du_mois` + « Prendre soin de moi » dessous, intro tronquée, 5 cases 82 % alternées, cercles picto blanc transparent, picto/phrase/flèche **noirs**, chevrons présents.
 - [ ] **Détails** : picto 32 px en couleur de slot centré, eyebrow `nom_outil` + H1 `promesse` Playfair.
 - [ ] **Titres harmonisés** (§4.3) : `text-wrap: balance`, aucun `<br>` manuel, liens insécables article→nom et pronom→verbe via `formatTitre()`, coupure naturelle sur la ponctuation, **2 lignes max**.
 - [ ] **Titres de section intégrés dans les cadres** (label eucalyptus en haut du bloc), partout.

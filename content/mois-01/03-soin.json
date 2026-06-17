@@ -5,7 +5,7 @@
   "nom_rubrique": "Prendre soin de moi",
   "promesse_du_mois": "Oser demander, comme une compétence parentale",
   "theme_du_mois": "Oser demander, comme une compétence parentale",
-  "intention_du_mois": "Les visites s'espacent, et tu portes presque tout, seule. Ce mois, oser demander de l'aide n'est pas une faiblesse : c'est une compétence parentale.",
+  "intention_du_mois": "Les visites s'espacent, et je porte presque tout, seule. Ce mois, oser demander de l'aide n'est pas une faiblesse : c'est une compétence parentale.",
   "description": "Au mois 1, l'entourage s'éloigne au moment précis où la fatigue s'installe pour de vrai. Apprendre à demander, à recevoir, à laisser quelqu'un faire à sa place, c'est l'un des apprentissages les plus difficiles de la jeune parentalité. 5 propositions pour amorcer ce déplacement intérieur.",
   "conseils": [
     {
@@ -68,12 +68,22 @@
       "format_propose": "carte_cercle_soutien",
       "gabarit": {
         "type": "cercles_concentriques",
-        "centre": "[Prénom]",
+        "centre": "Moi",
         "cercles": [
-          "Cercle proche",
-          "Cercle régulier",
-          "Cercle lointain"
-        ]
+          {
+            "label": "Cercle proche",
+            "indice": "que je peux appeler à 23h"
+          },
+          {
+            "label": "Cercle régulier",
+            "indice": "vues ou contactées chaque semaine"
+          },
+          {
+            "label": "Cercle lointain",
+            "indice": "plus distantes, mais qui pourraient aider sur un point précis"
+          }
+        ],
+        "annotation": "À côté de chaque nom, j'écris 1 à 2 choses précises que cette personne pourrait faire."
       },
       "consigne": "Prends une feuille de papier, ou les notes du téléphone. Au centre, écris ton prénom. Autour, dessine trois cercles concentriques : le cercle proche (personnes que tu peux appeler à 23h), le cercle régulier (personnes que tu vois ou contactes chaque semaine), le cercle lointain (personnes plus distantes mais qui pourraient aider à quelque chose de précis). Place chaque personne de ton entourage dans le bon cercle. À côté de chaque nom, note 1 ou 2 choses précises que cette personne pourrait faire pour toi. \"Garder bébé 1h\", \"Apporter un repas\", \"M'écouter sans donner de conseil\", \"Faire une lessive\", \"Passer juste pour un café\".",
       "amorces_si_blocage": [
@@ -91,7 +101,7 @@
       "numero": 4,
       "icone": "💬",
       "nom_outil": "La réalité du post-partum",
-      "promesse": "Quand l'entourage s'éloigne, ce qui se passe en toi",
+      "promesse": "Quand l'entourage s'éloigne, ce qui se passe en moi",
       "intro": "Au mois 1, l'enthousiasme des premières semaines retombe, autour de toi et parfois en toi. C'est précisément à ce moment, quand le quotidien s'installe sans répit, que beaucoup de choses se jouent en silence, des deux côtés du couple parental.",
       "pour_la_maman": {
         "titre": "Côté maman",

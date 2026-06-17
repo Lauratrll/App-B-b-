@@ -63,6 +63,8 @@
 
 **Jamais "votre enfant"** — trop formel, crée de la distance.
 
+**Exception — titres « Prendre soin de moi » à la 1re personne.** Dans la rubrique *Prendre soin de moi*, les **titres** (`promesse_du_mois`, `promesse` des conseils 1-4) et l'**intro page 1** (`intention_du_mois`, « Ce mois m'invite à… ») sont à la **première personne** (je / me / mon / ma — voir SKILL_rubriques §4.3) : ils portent la voix de la maman parlant d'elle-même. Le **corps** de ces pages reste tutoyé comme partout ailleurs. (Le challenge couple s'adresse au couple : impératif pluriel autorisé.)
+
 ---
 
 ## Règles médicales et de sécurité
