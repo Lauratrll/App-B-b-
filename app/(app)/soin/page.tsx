@@ -58,8 +58,29 @@ export default async function SoinPage() {
   );
 
   return (
-    <div style={{ display: "flex", flexDirection: "column" }}>
-      {/* §5 — En-tête éditorial : grand titre, label dessous, trait, intro */}
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        minHeight: "100%",
+      }}
+    >
+      {/* §5 — En-tête : label AU-DESSUS du grand titre (typos respectives).
+          Centrage vertical du bloc dans l'écran (intro désormais courte). */}
+      <div
+        style={{
+          textAlign: "center",
+          fontSize: 9,
+          fontWeight: 600,
+          letterSpacing: ".16em",
+          textTransform: "uppercase",
+          color: EUCAL,
+          marginBottom: 7,
+        }}
+      >
+        {label}
+      </div>
       <h1
         style={{
           fontFamily: PLAYFAIR,
@@ -69,24 +90,11 @@ export default async function SoinPage() {
           color: INK,
           textAlign: "center",
           textWrap: "balance",
-          margin: "0 0 6px",
+          margin: "0 0 8px",
         }}
       >
         {formatTitre(grandTitre)}
       </h1>
-      <div
-        style={{
-          textAlign: "center",
-          fontSize: 9,
-          fontWeight: 600,
-          letterSpacing: ".16em",
-          textTransform: "uppercase",
-          color: EUCAL,
-          marginBottom: 9,
-        }}
-      >
-        {label}
-      </div>
       <div
         style={{ width: 34, height: 1, background: PEACH_DARK, opacity: 0.55, margin: "0 auto 11px" }}
       />
