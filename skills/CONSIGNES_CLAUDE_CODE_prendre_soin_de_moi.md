@@ -123,12 +123,22 @@ const COULEUR_SLOT = {1:'#EABDB1',2:'#F8DBC9',3:'#E7B99F',4:'#F5D0C8',5:'#EEC7B0
 | Warm-body | `#5A4A40` | Corps de texte des cadres / intro |
 | Coral / Coral-dark | `#D4604A` / `#8A3020` | **Uniquement** le cadre d'urgence (sémantique) |
 
-Tons chauds des cadres : `#EABDB1` (soft), `#F9F1EA` (light), `#F3DCD0` (tendre), `#FBF4EE` / `#FBF6F1` (très clair). Tons « maman/co-parent » : `#F5D0C8` / `#F8DBC9`. Cadres fermés du bas : urgence `#EDE9E4` (bord rouge), qui consulter `#EFEBE6` (bord `#D9D2CA`).
+**Couleurs des fonds de cadres = DEUX FAMILLES (fait foi : `SKILL_ui.md` §79 — ne plus utiliser les anciens beiges quasi-blancs).**
+
+| Rôle du bloc | Famille A — Auto-reconnaissance & Challenge | Famille B — Auto-massage, Méditation, Post-partum |
+|---|---|---|
+| Bloc principal | `#ECC8B3` | `#EABDB1` |
+| Bloc secondaire / aide | `#F1D8C8` | `#F5D0C8` |
+| Clôture (« À retenir » / « Pourquoi ça marche ») | `#F8DBC9` | `#F8DBC9` |
+
+- **Labels de section** en brun chaud `#8A4030` (jamais eucalyptus) sur ces fonds pêche.
+- Carte « gabarit » d'auto-reconnaissance : fond papier `#FBF6F1` + filet `#E0CDBC`.
+- Cadres sémantiques du Post-partum **inchangés** : signaux `#E4DDD6` (puces grises `#9A8E80`), urgence `#EDE9E4` (bord `#D4604A`, 3114 gras `#8A3020`), qui consulter `#EFEBE6` (bord `#D9D2CA`).
 
 ### 4.2 Typographie
 
 - Grand titre (`promesse` / `promesse_du_mois`) : **Playfair 600/700**, `#3A3228`, centré.
-- Labels (eyebrow + sections) : **9 px, 600, UPPERCASE, `letter-spacing:.13–.16em`, Eucalyptus**.
+- Labels **eyebrow** (nom_outil du détail, label « Prendre soin de moi » de l'accueil) : 9 px, 600, UPPERCASE, `letter-spacing:.13–.16em`, **Eucalyptus**. Labels **de section** (dans les cadres des détails) : mêmes réglages mais **brun chaud `#8A4030`** (cf. §4.1).
 - Corps : système sans-serif, 11,5–12,5 px, `line-height` 1.5–1.62.
 
 ### 4.3 ⭐ Règle d'harmonisation des grands titres (spécifique à « Prendre soin de moi »)
@@ -194,13 +204,13 @@ Chaque section est un **cadre arrondi** avec son **titre intégré à l'intérie
 
 ```css
 .lab   { font-size:9px; font-weight:600; letter-spacing:.13em; text-transform:uppercase;
-         color:#8A9E98; margin-bottom:8px; }          /* label eucalyptus intégré */
+         color:#8A4030; margin-bottom:8px; }          /* label brun chaud intégré (cf. §4.1) */
 .cadre { border-radius:12px; padding:13px 15px; margin-top:14px; }  /* fond chaud, sans filet latéral */
 ```
 
 - Cadres « ouverts » : fond chaud, **pas de bordure ni de filet gauche**, `border-radius:12px`.
 - Cadres « fermés » (urgence, qui consulter) : `border:1px solid …`, `border-radius:10px`.
-- Le label d'urgence est l'unique exception de couleur (Coral-dark) ; tous les autres labels sont Eucalyptus.
+- Les **labels de section** des détails sont en **brun chaud `#8A4030`** (cf. §4.1) ; le label d'urgence est la seule exception (Coral-dark `#8A3020`). L'eucalyptus reste réservé aux **eyebrows** (nom_outil) et à la nav.
 
 ---
 
@@ -238,23 +248,23 @@ Champs : `intro`, `duree`, `indications[]`, `points[] {zone, geste, effet}`, `cl
 - **Chips** : `duree` (horloge) + « 4 points · sur tes mains » (main).
 - **Intro chapô** sous un petit trait décoratif (prose centrée, **sans label**).
 - **Cadre `#EABDB1` « Tu peux l'utiliser quand »** : `indications[]` en liste, coche `#C8806A`.
-- **Cadre `#FBF4EE` « Les 4 points, dans l'ordre »** : `points[]` en **lignes numérotées** (pastille pleine `#C8806A`, chiffre blanc), `zone` en gras (+ complément entre parenthèses en gris léger), `geste` avec icône horloge et **durée en gras `#8A4030`**, `effet` en italique. Séparateur `.5px #EFE2D8` entre lignes.
-- **Cadre `#F3DCD0` « Pour clore »** : `cloture` ; isoler le mantra final (entre « … ») en **Playfair italique** centré.
+- **Cadre `#F5D0C8` « Les 4 points, dans l'ordre »** : `points[]` en **lignes numérotées** (pastille pleine `#C8806A`, chiffre blanc), `zone` en gras (+ complément entre parenthèses en gris léger), `geste` avec icône horloge et **durée en gras `#8A4030`**, `effet` en italique. Séparateur `.5px #EFE2D8` entre lignes.
+- **Cadre `#F8DBC9` « Pour clore »** : `cloture` ; isoler le mantra final (entre « … ») en **Playfair italique** centré.
 
 ### 6.2 — B2 Méditation audio (numero 2, couleur `#F8DBC9`, picto casque)
 Champs : `duree`, `intro`, `instruction`, `texte_meditation` (avec marqueurs `[pause - N secondes]`).
 - **Chips** : `duree` (~7 min) + « voix à la 1ʳᵉ personne ».
 - **Cadre `#EABDB1` « Avant de commencer »** : `instruction`.
-- **Cadre `#F9F1EA` « L'image de cette méditation »** : `intro` (italique).
+- **Cadre `#F5D0C8` « L'image de cette méditation »** : `intro` (italique).
 - **Lecteur audio** (bloc `#F4E4DA`) **juste au-dessus du texte** : bouton play rond `#C8806A`, barre de progression, `0:00 / {duree}`. *(L'audio sera enregistré ; prévoir le composant `<audio>` branché plus tard.)*
-- **Cadre `#FBF6F1` (filet .5px) « Texte de la méditation »** : rendre `texte_meditation` ; transformer chaque `[pause - N secondes]` en repère centré discret « pause N secondes » (eucalyptus), un paragraphe par bloc.
+- **Cadre `#F5D0C8` « Texte de la méditation »** : rendre `texte_meditation` ; transformer chaque `[pause - N secondes]` en repère centré discret « pause N secondes » (eucalyptus), un paragraphe par bloc.
 
 ### 6.3 — B3 Auto-reconnaissance (numero 3, couleur `#E7B99F`, picto fleur)
 Champs : `intro`, `format_propose`, **`gabarit` (optionnel)**, `consigne`, `amorces_si_blocage[]`, `espace_pour_ecrire` / `espace_pour_enregistrement` (bool), `principe`.
 - **Chip** : « format écriture · 30 min » (ou « format vocal » si `espace_pour_enregistrement`).
-- **Cadre `#EABDB1` « Comment faire »** : `consigne`.
-- **Cadre `#EABDB1` « Si tu bloques, commence par… »** : `amorces_si_blocage[]` en lignes, chevron `›` `#C8806A`.
-- **Cadre `#F9F1EA` « À retenir »** : `principe` (italique).
+- **Cadre `#ECC8B3` « Comment faire »** : `consigne`.
+- **Cadre `#F1D8C8` « Si tu bloques, commence par… »** : `amorces_si_blocage[]` en lignes, chevron `›` `#C8806A`.
+- **Cadre `#F8DBC9` « À retenir »** : `principe` (italique).
 
 **⭐ Carte « Ta carte » — pilotée par `gabarit` (mise en forme générique).**
 Le format d'écriture **change chaque mois** (c'est voulu). La mise en forme visuelle est portée par le champ optionnel **`gabarit`** ; le rendu lit `gabarit.type` et affiche le bon **gabarit visuel non éditable** (papier). **Aucune saisie / sauvegarde in-app** (app d'action, pas journaling) — un seul composant présentationnel, paramétré par `gabarit`. **Si `gabarit` est absent → repli sur des lignes libres.** Le contenu (`consigne`, `intro`, `amorces`, `principe`) n'est jamais re-rendu là : `gabarit` ne porte QUE la structure et les étiquettes (recopiées de la consigne, sans réécriture).
@@ -272,7 +282,7 @@ Vocabulaire `gabarit.type` (extensible) et champs associés :
 | `cercles_concentriques` | centre + N cercles | `centre?`, `cercles` (libellés) |
 | `vocal` | bloc d'enregistrement (pas de feuille) | `duree?`, `question?` |
 
-> Couleurs de la carte : fond `#FBF6F1`, filet ; en-têtes de colonnes/pages alternées `#EFE0D0` / `#E7B99F` ; pas de croix, pas de bleu.
+> Couleurs de la carte : fond papier `#FBF6F1`, filet `#E0CDBC` ; en-têtes de colonnes/pages alternées `#EFE0D0` / `#E7B99F` ; pas de croix, pas de bleu.
 
 Exemple (M15) `deux_colonnes` : `"gabarit": { "type":"deux_colonnes", "colonnes":["Mes oui assumés","Mes non à poser"], "lignes_par_colonne":8 }`
 
@@ -315,8 +325,8 @@ Pile de cadres (tous arrondis, labels brun chaud `#8A4030`, **aucun bleu**) :
 Champs : `duree`, `intro`, **`gabarit` (optionnel)**, `challenge_du_mois {nom, registre?, deroule, regle_clef}`, `pourquoi_ca_marche`.
 - **Chips** : `duree` (30 min) + « à deux ».
 - **Intro chapô** (prose centrée, sans label).
-- **Cadre `#FBF4EE` « Le challenge »** : `challenge_du_mois.nom` en **Playfair 600/17 centré**, `registre`/tonalité en eucalyptus uppercase, `deroule` en prose. **`regle_clef`** isolée dans un encart « La règle d'or » (`#F3DCD0`, picto étoile `#C8806A`).
-- **Cadre `#F9F1EA` « Pourquoi ça marche »** : `pourquoi_ca_marche`.
+- **Cadre `#ECC8B3` « Le challenge »** : `challenge_du_mois.nom` en **Playfair 600/17 centré**, `registre`/tonalité en eucalyptus uppercase, `deroule` en prose. **`regle_clef`** isolée dans un encart « La règle d'or » (`#F3DCD0`, picto étoile `#C8806A`).
+- **Cadre `#F8DBC9` « Pourquoi ça marche »** : `pourquoi_ca_marche`.
 
 **⭐ Aperçu illustratif — piloté par `gabarit` (mise en forme générique).**
 Le champ optionnel **`gabarit`** indique le **motif visuel** à dessiner dans le cadre « Le challenge » (illustration légère `#EEC7B0`, jamais éditable, pas de saisie in-app). Il ne re-rend aucun texte de contenu : `deroule`/`regle_clef`/`pourquoi_ca_marche` restent les seules sources de texte. **`gabarit` absent ou `type:"moment_partage"` ⇒ pas de motif, cadre standard.**
