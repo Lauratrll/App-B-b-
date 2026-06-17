@@ -36,7 +36,7 @@
     {
       "etape": 4,
       "titre": "Massage et réflexologie du soir",
-      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud — pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou de réflexologie du soir. Mains réchauffées, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas."
+      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud — pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou de réflexologie du soir. Mains réchauffées, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologielogie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas."
     },
     {
       "etape": 5,
@@ -56,10 +56,10 @@
   ],
   "reflexologie_du_coucher": {
     "titre": "Séquence réflexologie du soir — 7 minutes",
-    "intro": "Pendant le massage, bébé au chaud, allongé sur le dos, toi face à ses pieds. Voix très basse, mouvements infimes. À 5 mois, la réflexo est un précieux outil pour faire redescendre le petit joueur de l'excitation de la journée — la pression reste celle d'une caresse.",
+    "intro": "Pendant le massage, bébé au chaud, allongé sur le dos, toi face à ses pieds. Voix très basse, mouvements infimes. À 5 mois, la réflexologie est un précieux outil pour faire redescendre le petit joueur de l'excitation de la journée — la pression reste celle d'une caresse.",
     "duree_totale": "7 minutes",
     "pression": "0/10 — c'est une caresse, pas un massage",
-    "consentement": "Avant tout, observe les réactions de bébé. Le massage et la réflexologie se font avec son accord : à la moindre crispation, s'il retire son pied ou se détourne, arrête-toi. C'est un moment de plaisir partagé, jamais une technique à imposer.",
+    "consentement": "Avant tout, observe les réactions de bébé. Le massage et la réflexologielogie se font avec son accord : à la moindre crispation, s'il retire son pied ou se détourne, arrête-toi. C'est un moment de plaisir partagé, jamais une technique à imposer.",
     "etapes": [
       {
         "zone": "Réchauffer les pieds",
@@ -103,17 +103,17 @@
   "script_audio_du_soir": {
     "titre": "« Tu as bien joué aujourd'hui »",
     "duree": "~5 minutes",
-    "instruction": "À écouter sur enceinte douce pendant la séquence réflexo et le massage, volume bas. Voix grave et lente. Ou à lire à voix haute, posément, en regardant bébé. Les pauses sont des silences réels — pas des indications de ton. Personnalise si tu veux.",
+    "instruction": "À écouter sur enceinte douce pendant la séquence réflexologie et le massage, volume bas. Voix grave et lente. Ou à lire à voix haute, posément, en regardant bébé. Les pauses sont des silences réels — pas des indications de ton. Personnalise si tu veux.",
     "texte": "[Prénom]...\n\nLa journée se termine maintenant.\n\nTu as bien joué aujourd'hui.\n\n[Pause — 5 secondes]\n\nTu as attrapé. Tu as secoué. Tu as porté plein de choses à ta bouche pour les découvrir.\n\nTu as ri — ce grand rire qui vient du ventre.\n\nTout ce jeu, c'était formidable. Et maintenant, c'est l'heure de ralentir.\n\n[Pause — 5 secondes]\n\nTous ces moments partagés, tous ces rires de la journée — tu les gardes en toi.\n\nComme une réserve de chaleur pour traverser la nuit.\n\n[Pause — 5 secondes]\n\nLe monde se calme, maintenant.\n\nLes jouets se reposent. Les lumières s'éteignent. Ma voix devient plus basse.\n\nTon corps, qui a tant bougé, peut enfin s'immobiliser.\n\n[Pause — 10 secondes]\n\nTu n'as plus rien à attraper. Plus rien à explorer.\n\nJuste à respirer, et à te laisser aller.\n\nSi tu te réveilles cette nuit, je ne suis pas loin.\n\n[Pause — 5 secondes]\n\nMaintenant, tu peux te déposer, [mon tout petit/ma toute petite].\n\nTu es en sécurité.\n\nTu es au chaud.\n\nTu es [aimé/aimée].\n\nDors, mon amour. Dors.\n\nBonne nuit."
   },
   "co_parent": {
     "titre": "La place du co-parent au coucher à 5 mois",
-    "texte": "À 5 mois, l'alternance au coucher continue de protéger l'équilibre de chacun : le repos du parent principal, le lien du co-parent, et la sécurité de bébé qui s'attache à deux figures. Le co-parent doit pouvoir mener le rituel de bout en bout, y compris la séquence réflexo.",
+    "texte": "À 5 mois, l'alternance au coucher continue de protéger l'équilibre de chacun : le repos du parent principal, le lien du co-parent, et la sécurité de bébé qui s'attache à deux figures. Le co-parent doit pouvoir mener le rituel de bout en bout, y compris la séquence réflexologie.",
     "actions": [
       "Le co-parent prend le rituel complet 3 à 4 soirs sur 7 — pas seulement le week-end",
-      "Le co-parent apprend la séquence réflexo du soir et la mène lui-même",
+      "Le co-parent apprend la séquence réflexologie du soir — et la mène lui-même",
       "Le co-parent peut faire la voix du script audio — bébé apprend deux versions également rassurantes",
-      "Une nuit sur deux minimum, le co-parent se lève pour les réveils non liés à la faim"
+      "Le co-parent se lève pour les réveils non liés à la faim — une nuit sur deux minimum"
     ]
   },
   "erreurs_a_eviter": [

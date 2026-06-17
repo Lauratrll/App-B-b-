@@ -8,7 +8,7 @@
   "reperes_cles": [
     "Coucher entre 19h et 19h30 — au-delà, la sur-fatigue rend l'endormissement plus difficile",
     "Fenêtre d'éveil de 4h à 5h max après la sieste — la plupart des enfants sont sur une seule sieste",
-    "Rituel strictement identique à ± 15 min chaque soir ; le babillage seul dans le lit avant de dormir est normal"
+    "Rituel strictement identique à ± 15 min chaque soir — le babillage seul dans le lit avant de dormir est normal"
   ],
   "signaux_de_fatigue": [
     "Bâillements répétés, frottement des yeux et des oreilles",
@@ -18,7 +18,7 @@
     "Accrochage : réclame les bras, le doudou, le contact"
   ],
   "variantes_developpementales": {
-    "intro": "Chaque enfant avance à son rythme. Choisis l'axe où [prénom] se développe le plus en ce moment : le premier temps du rituel, la réflexologie et la berceuse s'adapteront pour l'accompagner exactement là où il en est.",
+    "intro": "Chaque enfant avance à son rythme. Choisis l'axe où [prénom] se développe le plus en ce moment : le premier temps du rituel, la réflexologielogie et la berceuse s'adapteront pour l'accompagner exactement là où il en est.",
     "question_selecteur": "Où en est [prénom] en ce moment ?",
     "themes": [
       {
@@ -66,7 +66,7 @@
     {
       "etape": 5,
       "titre": "Massage, réflexologie, puis pyjama",
-      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud — pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou de réflexologie du soir. Mains réchauffées, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas. L'huile posée, on passe ensuite au pyjama — qu'il peut t'aider à enfiler."
+      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud — pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou de réflexologie du soir. Mains réchauffées, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologielogie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas. L'huile posée, on passe ensuite au pyjama — qu'il peut t'aider à enfiler."
     },
     {
       "etape": 6,
@@ -86,10 +86,10 @@
   ],
   "reflexologie_du_coucher": {
     "titre": "Séquence réflexologie du soir — 7 minutes",
-    "intro": "Pendant le massage, l'enfant allongé sur le dos, toi face à ses pieds. Voix très basse, mouvements infimes. À 15 mois, il parle beaucoup : un silence partagé pendant la réflexo lui apprend aussi à se taire en douceur. Pression d'une caresse.",
+    "intro": "Pendant le massage, l'enfant allongé sur le dos, toi face à ses pieds. Voix très basse, mouvements infimes. À 15 mois, il parle beaucoup : un silence partagé pendant la réflexologie lui apprend aussi à se taire en douceur. Pression d'une caresse.",
     "duree_totale": "7 minutes",
     "pression": "0/10 — c'est une caresse, pas un massage",
-    "consentement": "Avant tout, observe les réactions de l'enfant. Le massage et la réflexologie se font avec son accord : à la moindre crispation, s'il retire son pied ou se détourne, arrête-toi. C'est un moment de plaisir partagé, jamais une technique à imposer.",
+    "consentement": "Avant tout, observe les réactions de l'enfant. Le massage et la réflexologielogie se font avec son accord : à la moindre crispation, s'il retire son pied ou se détourne, arrête-toi. C'est un moment de plaisir partagé, jamais une technique à imposer.",
     "etapes": [
       {
         "zone": "Réchauffer les pieds",

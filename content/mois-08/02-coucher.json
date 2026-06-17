@@ -36,7 +36,7 @@
     {
       "etape": 4,
       "titre": "Massage, réflexologie, puis pyjama",
-      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud — pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou de réflexologie du soir. Mains réchauffées, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas. L'huile posée, on passe ensuite au pyjama."
+      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud — pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou de réflexologie du soir. Mains réchauffées, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologielogie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas. L'huile posée, on passe ensuite au pyjama."
     },
     {
       "etape": 5,
@@ -54,7 +54,7 @@
     "intro": "Pendant le massage, bébé sur le dos, toi face à ses pieds. Voix très basse, mouvements infimes. À 8 mois, bébé bouge et se redresse : accepte qu'il se mette sur le côté, à quatre pattes ou debout, et adapte ton geste. Le contact compte plus que la perfection du tracé — et il apaise particulièrement l'anxiété qui monte à cet âge.",
     "duree_totale": "7 minutes",
     "pression": "0/10 — c'est une caresse, pas un massage",
-    "consentement": "Avant tout, observe les réactions de bébé. Le massage et la réflexologie se font avec son accord : à la moindre crispation, s'il retire son pied ou se détourne, arrête-toi. C'est un moment de plaisir partagé, jamais une technique à imposer.",
+    "consentement": "Avant tout, observe les réactions de bébé. Le massage et la réflexologielogie se font avec son accord : à la moindre crispation, s'il retire son pied ou se détourne, arrête-toi. C'est un moment de plaisir partagé, jamais une technique à imposer.",
     "etapes": [
       {
         "zone": "Réchauffer les pieds",
@@ -98,17 +98,17 @@
   "script_audio_du_soir": {
     "titre": "« Tu peux toujours revenir vers moi »",
     "duree": "~5 minutes",
-    "instruction": "À écouter sur enceinte douce pendant la séquence réflexo et le massage, volume bas. Voix grave et lente. Ou à lire à voix haute, posément, en regardant bébé. Les pauses sont des silences réels — pas des indications de ton. Personnalise si tu veux.",
+    "instruction": "À écouter sur enceinte douce pendant la séquence réflexologie et le massage, volume bas. Voix grave et lente. Ou à lire à voix haute, posément, en regardant bébé. Les pauses sont des silences réels — pas des indications de ton. Personnalise si tu veux.",
     "texte": "[Prénom]...\n\nLa journée se termine maintenant.\n\nTu as été si audacieux aujourd'hui.\n\n[Pause — 5 secondes]\n\nTu t'es mis debout. Tu as escaladé. Tu es allé voir le monde d'un peu plus haut.\n\nEt parfois, tu es revenu te blottir contre moi, juste pour être sûr que j'étais là.\n\nEt c'est parfait comme ça : explorer, puis revenir.\n\n[Pause — 5 secondes]\n\nJe suis ton point fixe. Celui vers qui tu peux toujours revenir.\n\nTous les câlins de la journée, tu les gardes en toi — ils te donnent le courage d'aller plus loin.\n\n[Pause — 5 secondes]\n\nJe sais qu'en ce moment, me voir partir, c'est difficile.\n\nTon cœur a compris combien il tient à moi. C'est une belle chose.\n\nAlors écoute : tout à l'heure, je vais sortir. Et je reviens — toujours.\n\n[Pause — 10 secondes]\n\nLa nuit, je veille sur toi, de l'autre côté du mur.\n\nSi tu te réveilles, je ne suis pas loin.\n\n[Pause — 5 secondes]\n\nMaintenant, tu peux te déposer, [mon tout petit/ma toute petite].\n\nTu es en sécurité.\n\nTu es au chaud.\n\nTu es [aimé/aimée].\n\nDors, mon amour. Dors.\n\nBonne nuit."
   },
   "co_parent": {
     "titre": "La place du co-parent au coucher à 8 mois",
     "texte": "À 8 mois, avec la peur de l'étranger et le pic d'angoisse de séparation qui approche, bébé peut s'accrocher fortement au parent principal et protester davantage avec le co-parent. Attention : le co-parent n'est pas un étranger — c'est une figure d'attachement. Tenir l'alternance protège justement bébé (deux bases de sécurité) et le parent principal de l'épuisement.",
     "actions": [
-      "Le co-parent prend le rituel complet 3 à 4 soirs sur 7, sans céder aux protestations passagères",
+      "Le co-parent prend le rituel complet 3 à 4 soirs sur 7 — sans céder aux protestations passagères",
       "Le co-parent reste une figure quotidienne et familière — d'autant plus important quand la peur de l'étranger est vive",
-      "Si bébé pleure au début, le co-parent tient le rituel jusqu'au bout ; le parent habituel reste hors de vue",
-      "Une nuit sur deux minimum, le co-parent se lève pour les réveils non liés à la faim"
+      "Si bébé pleure au début — le co-parent tient le rituel jusqu'au bout ; le parent habituel reste hors de vue",
+      "Le co-parent se lève pour les réveils non liés à la faim — une nuit sur deux minimum"
     ]
   },
   "erreurs_a_eviter": [

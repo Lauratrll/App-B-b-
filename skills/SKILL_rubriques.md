@@ -173,6 +173,9 @@ Notes :
 - 3 erreurs max — toujours inclure une référence aux écrans (lumière bleue / mélatonine)
 - Le script audio est l'élément le plus important — soigner la qualité littéraire
 - **Pas de capitales d'emphase dans la prose** (pas de « AUCUN », « JAMAIS », « AVANT »… en majuscules). L'emphase passe par l'amorce en gras, pas par le cri typographique. Seuls les acronymes restent en capitales (MIN, ORL, PMI, 15…).
+- **Amorce en gras — séparateur obligatoire.** Chaque entrée de `reperes_cles`, `co_parent.actions` et `cadre_de_securite.regles` **doit contenir un `:` ou un `—` (tiret cadratin)** : c'est lui qui déclenche la mise en gras de la 1ʳᵉ partie. ⚠️ Un `;` ou un trait d'union simple `-` **ne fonctionnent PAS**. Mettre l'amorce utile en tête (« Le co-parent se lève pour les réveils non liés à l'allaitement — une nuit sur deux minimum », pas l'inverse). Jamais d'amorce en gras sur `signaux_de_fatigue`.
+- **Berceuse — ouverture et genre.** Le `script_audio_du_soir.texte` **ouvre toujours par `[Prénom]...`** (jamais par « Bonsoir, mon tout petit » ou autre). Tout surnom genré est entre crochets (« [mon tout petit/ma toute petite] »), masculin d'abord ; idem pour tout mot de l'enfant (« Tu es [aimé/aimée] »).
+- **« réflexologie » toujours écrit en entier dans le contenu, jamais « réflexo ».** (« la séquence réflexologie », « les zones de réflexologie »).
 
 #### Sécurité du sommeil (MIN) — règle transversale ⭐
 - La **prévention du couchage sécurisé est portée par le bloc `cadre_de_securite`**, présent **uniquement en M0–M3** (période de risque maximal de mort inattendue du nourrisson). C'est là, et seulement là, qu'on déroule les règles complètes (dos, lit nu et ferme, chambre partagée, 18-20°C, sans tabac, tétine/allaitement).

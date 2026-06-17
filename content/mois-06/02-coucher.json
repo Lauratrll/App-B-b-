@@ -29,7 +29,7 @@
     {
       "etape": 4,
       "titre": "Massage, réflexologie, puis pyjama",
-      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud — pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou de réflexologie du soir. Mains réchauffées, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas. L'huile posée, on passe ensuite au pyjama."
+      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud — pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou de réflexologie du soir. Mains réchauffées, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologielogie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas. L'huile posée, on passe ensuite au pyjama."
     },
     {
       "etape": 5,
@@ -44,7 +44,7 @@
   ],
   "reflexologie_du_coucher": {
     "titre": "Séquence réflexologie du soir — 7 minutes",
-    "intro": "Après le pyjama, avant l'histoire. Bébé allongé sur le dos, toi assise face à ses pieds. Voix très basse, mouvements infimes. À 6 mois, les zones réflexo sont encore très réceptives — la pression doit rester celle d'une caresse. Adaptation : si bébé tente de se retourner pendant la séquence, accepter qu'il se mette sur le côté ou le ventre et adapter ton geste à sa position.",
+    "intro": "Après le pyjama, avant l'histoire. Bébé allongé sur le dos, toi assise face à ses pieds. Voix très basse, mouvements infimes. À 6 mois, les zones de réflexologie sont encore très réceptives — la pression doit rester celle d'une caresse. Adaptation : si bébé tente de se retourner pendant la séquence, accepter qu'il se mette sur le côté ou le ventre et adapter ton geste à sa position.",
     "duree_totale": "7 minutes",
     "pression": "0/10 — c'est une caresse, pas un massage",
     "etapes": [
@@ -90,8 +90,8 @@
   "script_audio_du_soir": {
     "titre": "« Le monde se repose maintenant »",
     "duree": "~5 minutes",
-    "instruction": "À écouter sur enceinte douce pendant la séquence réflexo et le pyjama, volume bas. Voix grave et lente. Ou à lire à voix haute, posément, en regardant bébé. Les pauses sont des silences réels — pas des indications de ton.",
-    "texte": "Bonsoir, mon tout petit.\n\nLa journée s'achève.\n\nTu as beaucoup vécu aujourd'hui.\n\n[Pause — 5 secondes]\n\nTu as goûté. Tu as touché. Tu as regardé, écouté, senti.\n\nTu as essayé des mouvements nouveaux. Tu t'es peut-être retourné. Tu as peut-être tendu la main vers quelque chose. Tu as peut-être ri.\n\nTout ça, c'était beaucoup.\n\nMaintenant, le monde se repose.\n\n[Pause — 5 secondes]\n\nDehors, les bruits s'éloignent. Les lumières s'éteignent. Les oiseaux se posent.\n\nDans la maison aussi, ça ralentit. Ma voix devient plus basse. Mes gestes deviennent plus lents.\n\nTout se prépare pour la nuit.\n\n[Pause — 5 secondes]\n\nTon corps a beaucoup travaillé aujourd'hui.\n\nIl a digéré des saveurs nouvelles. Il a appris des mouvements nouveaux. Il a poussé peut-être une dent qui veut sortir.\n\nMaintenant, il peut se reposer.\n\n[Pause — 5 secondes]\n\nLa nuit, c'est juste un long câlin doux.\n\nMême quand je ne suis pas dans la pièce, je suis là.\n\nMa voix reste dans ta tête. Mon odeur reste dans ta peau. Mon amour ne s'éteint pas avec la lumière.\n\n[Pause — 10 secondes]\n\nSi tu te réveilles cette nuit, c'est ok.\n\nTon corps apprend. Tes nuits changent. Ça arrive à tous les bébés de 6 mois.\n\nJe serai là. Toujours.\n\n[Pause — 5 secondes]\n\nMaintenant, tu peux te déposer.\n\nTon corps est en sécurité.\n\nTon cœur est en sécurité.\n\nTu es [aimé/aimée].\n\nDors, mon amour. Dors.\n\nBonne nuit."
+    "instruction": "À écouter sur enceinte douce pendant la séquence réflexologie et le pyjama, volume bas. Voix grave et lente. Ou à lire à voix haute, posément, en regardant bébé. Les pauses sont des silences réels — pas des indications de ton.",
+    "texte": "[Prénom]...\n\nBonsoir, [mon tout petit/ma toute petite].\n\nLa journée s'achève.\n\nTu as beaucoup vécu aujourd'hui.\n\n[Pause — 5 secondes]\n\nTu as goûté. Tu as touché. Tu as regardé, écouté, senti.\n\nTu as essayé des mouvements nouveaux. Tu t'es peut-être retourné. Tu as peut-être tendu la main vers quelque chose. Tu as peut-être ri.\n\nTout ça, c'était beaucoup.\n\nMaintenant, le monde se repose.\n\n[Pause — 5 secondes]\n\nDehors, les bruits s'éloignent. Les lumières s'éteignent. Les oiseaux se posent.\n\nDans la maison aussi, ça ralentit. Ma voix devient plus basse. Mes gestes deviennent plus lents.\n\nTout se prépare pour la nuit.\n\n[Pause — 5 secondes]\n\nTon corps a beaucoup travaillé aujourd'hui.\n\nIl a digéré des saveurs nouvelles. Il a appris des mouvements nouveaux. Il a poussé peut-être une dent qui veut sortir.\n\nMaintenant, il peut se reposer.\n\n[Pause — 5 secondes]\n\nLa nuit, c'est juste un long câlin doux.\n\nMême quand je ne suis pas dans la pièce, je suis là.\n\nMa voix reste dans ta tête. Mon odeur reste dans ta peau. Mon amour ne s'éteint pas avec la lumière.\n\n[Pause — 10 secondes]\n\nSi tu te réveilles cette nuit, c'est ok.\n\nTon corps apprend. Tes nuits changent. Ça arrive à tous les bébés de 6 mois.\n\nJe serai là. Toujours.\n\n[Pause — 5 secondes]\n\nMaintenant, tu peux te déposer.\n\nTon corps est en sécurité.\n\nTon cœur est en sécurité.\n\nTu es [aimé/aimée].\n\nDors, mon amour. Dors.\n\nBonne nuit."
   },
   "signaux_de_fatigue": [
     "Regard qui se fige ou décroche, dans le vague",
@@ -106,7 +106,7 @@
     "actions": [
       "Le co-parent prend le coucher 3 à 4 soirs sur 7 — pas seulement « quand ça ne dérange pas »",
       "Le co-parent peut faire la voix du script audio — bébé apprend deux versions du rituel sécurisantes",
-      "Une nuit sur deux minimum, le co-parent se lève pour les réveils nocturnes non liés à la faim",
+      "Le co-parent se lève pour les réveils non liés à l'allaitement — une nuit sur deux minimum",
       "Si bébé refuse au début, le parent habituel reste hors de vue — la présence visuelle relance la demande"
     ]
   },

@@ -7,8 +7,8 @@
   "description": "À 14 mois, ton enfant est un explorateur infatigable : marcher est devenu un jeu permanent, il grimpe, ouvre, vide, recommence, du matin au soir. Ce moteur formidable a un revers au moment du coucher : le corps reste lancé et a du mal à passer en mode repos. Ce n'est pas de la résistance au sommeil, mais un trop-plein d'élan, dans un cerveau en pleine explosion (marche, langage, premières oppositions). La réponse n'est pas de l'épuiser davantage : c'est de canaliser ce dernier mouvement tôt dans la soirée, puis de ralentir nettement le rythme du rituel — voix, gestes, lumière. Sa régularité, soir après soir, devient le signal qui autorise le corps à s'arrêter et installe la sécurité.",
   "reperes_cles": [
     "Coucher entre 19h et 19h30 — au-delà = sur-fatigue",
-    "Fenêtre d'éveil de 4 à 5h max après la sieste",
-    "Rituel identique à ± 15 min chaque soir"
+    "Fenêtre d'éveil de 4 à 5h max après la sieste — au-delà, la sur-fatigue complique l'endormissement",
+    "Rituel identique à ± 15 min chaque soir — la régularité aide le petit explorateur à se poser"
   ],
   "signaux_de_fatigue": [
     "Bâillements répétés",
@@ -18,7 +18,7 @@
     "Demande de doudou ou de tétine"
   ],
   "variantes_developpementales": {
-    "intro": "Chaque enfant avance à son rythme. Choisis l'axe où [prénom] se développe le plus en ce moment : le premier temps du rituel, la réflexologie et la berceuse s'adapteront pour l'accompagner exactement là où il en est.",
+    "intro": "Chaque enfant avance à son rythme. Choisis l'axe où [prénom] se développe le plus en ce moment : le premier temps du rituel, la réflexologielogie et la berceuse s'adapteront pour l'accompagner exactement là où il en est.",
     "question_selecteur": "Où en est [prénom] en ce moment ?",
     "themes": [
       {
@@ -66,7 +66,7 @@
     {
       "etape": 5,
       "titre": "Massage, réflexologie, puis pyjama",
-      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud — pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou de réflexologie du soir. Mains réchauffées, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas. L'huile posée, on passe ensuite au pyjama — qu'il peut t'aider à enfiler."
+      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud — pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou de réflexologie du soir. Mains réchauffées, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologielogie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas. L'huile posée, on passe ensuite au pyjama — qu'il peut t'aider à enfiler."
     },
     {
       "etape": 6,
@@ -127,7 +127,7 @@
         "ce_que_cest": "Clôture rituelle"
       }
     ],
-    "consentement": "Avant tout, observe les réactions de l'enfant. Le massage et la réflexologie se font avec son accord : à la moindre crispation, s'il retire son pied ou se détourne, arrête-toi. À 14 mois, l'explorateur peut vouloir « faire seul » ou refuser : respecte-le, c'est un moment de plaisir partagé, jamais une technique à imposer.",
+    "consentement": "Avant tout, observe les réactions de l'enfant. Le massage et la réflexologielogie se font avec son accord : à la moindre crispation, s'il retire son pied ou se détourne, arrête-toi. À 14 mois, l'explorateur peut vouloir « faire seul » ou refuser : respecte-le, c'est un moment de plaisir partagé, jamais une technique à imposer.",
     "focus_par_theme": {
       "motricite": "Insiste sur le bord interne du pied et le talon : pression maintenue et immobile, plus longue, pour ramener le calme dans un corps qui a marché et grimpé toute la journée.",
       "langage": "Ajoute la face interne du gros orteil (zone gorge / expression) : cercles infimes, 1 min par pied, pour apaiser un enfant très occupé à nommer et à répéter ses premiers mots."
