@@ -105,6 +105,76 @@ function Prose({ texte, italic, color = WARM_BODY }: { texte: string; italic?: b
   );
 }
 
+// §6.4 — markdown inline léger pour les `contenu` narratifs de B4.
+//   ## Titre → sous-titre ; • → puce ; **gras** ; *italique* ; \n / \n\n.
+function inlineMd(text: string): ReactNode[] {
+  const nodes: ReactNode[] = [];
+  let rest = text;
+  let k = 0;
+  const re = /(\*\*([^*]+)\*\*|\*([^*]+)\*)/;
+  for (;;) {
+    const m = rest.match(re);
+    if (!m || m.index === undefined) {
+      if (rest) nodes.push(rest);
+      break;
+    }
+    if (m.index > 0) nodes.push(rest.slice(0, m.index));
+    if (m[2] !== undefined) {
+      nodes.push(<strong key={k++} style={{ fontWeight: 700, color: INK }}>{m[2]}</strong>);
+    } else {
+      nodes.push(<em key={k++}>{m[3]}</em>);
+    }
+    rest = rest.slice(m.index + m[0].length);
+  }
+  return nodes;
+}
+
+function Markdown({ texte, color = WARM_BODY }: { texte: string; color?: string }) {
+  const lines = texte.split("\n");
+  const out: ReactNode[] = [];
+  let para: string[] = [];
+  let k = 0;
+  const flush = () => {
+    if (!para.length) return;
+    const segs = para;
+    out.push(
+      <p key={`p${k++}`} style={{ fontSize: 12.5, lineHeight: 1.6, color, margin: out.length ? "8px 0 0" : 0 }}>
+        {segs.map((s, i) => (
+          <Fragment key={i}>
+            {i ? <br /> : null}
+            {inlineMd(s)}
+          </Fragment>
+        ))}
+      </p>,
+    );
+    para = [];
+  };
+  for (const line of lines) {
+    if (/^\s*##\s+/.test(line)) {
+      flush();
+      out.push(
+        <p key={`h${k++}`} style={{ fontFamily: PLAYFAIR, fontWeight: 700, fontSize: 12.5, color: "#8A4030", margin: "12px 0 4px" }}>
+          {line.replace(/^\s*##\s+/, "")}
+        </p>,
+      );
+    } else if (/^\s*•\s+/.test(line)) {
+      flush();
+      out.push(
+        <div key={`b${k++}`} style={{ display: "flex", gap: 8, margin: "4px 0", fontSize: 12.5, lineHeight: 1.5, color }}>
+          <span style={{ color: "#9A8E80", flexShrink: 0 }}>•</span>
+          <span>{inlineMd(line.replace(/^\s*•\s+/, ""))}</span>
+        </div>,
+      );
+    } else if (line.trim() === "") {
+      flush();
+    } else {
+      para.push(line);
+    }
+  }
+  flush();
+  return <>{out}</>;
+}
+
 function Chip({ icon, children }: { icon?: ReactNode; children: ReactNode }) {
   return (
     <span
@@ -200,7 +270,7 @@ function B1({ c }: { c: Rec }) {
       </Chips>
       {str(c.intro) ? <TraitChapo texte={str(c.intro)} /> : null}
       {indications.length ? (
-        <Cadre bg="#F7ECE4" label="Tu peux l'utiliser quand">
+        <Cadre bg="#EABDB1" label="Tu peux l'utiliser quand">
           <Liste items={indications} marqueur="coche" />
         </Cadre>
       ) : null}
@@ -324,7 +394,7 @@ function B2({ c }: { c: Rec }) {
         <Chip>voix à la 1ʳᵉ personne</Chip>
       </Chips>
       {str(c.instruction) ? (
-        <Cadre bg="#F7ECE4" label="Avant de commencer">
+        <Cadre bg="#EABDB1" label="Avant de commencer">
           <Prose texte={str(c.instruction)} />
         </Cadre>
       ) : null}
@@ -579,7 +649,7 @@ function B3({ c }: { c: Rec }) {
       </Chips>
       {str(c.intro) ? <TraitChapo texte={str(c.intro)} /> : null}
       {str(c.consigne) ? (
-        <Cadre bg="#F7ECE4" label="Comment faire">
+        <Cadre bg="#EABDB1" label="Comment faire">
           <Prose texte={str(c.consigne)} />
         </Cadre>
       ) : null}
@@ -587,7 +657,7 @@ function B3({ c }: { c: Rec }) {
         <B3Gabarit g={gabarit ?? {}} />
       </Cadre>
       {amorces.length ? (
-        <Cadre bg="#F7ECE4" label="Si tu bloques, commence par…">
+        <Cadre bg="#EABDB1" label="Si tu bloques, commence par…">
           <Liste items={amorces} marqueur="chevron" />
         </Cadre>
       ) : null}
@@ -609,22 +679,22 @@ function B4({ c }: { c: Rec }) {
   return (
     <>
       {str(c.intro) ? (
-        <Cadre bg="#F7ECE4" label="Ce qui se passe">
-          <Prose texte={str(c.intro)} />
+        <Cadre bg="#EABDB1" label="Ce qui se passe" labelColor={WARM_LABEL}>
+          <Markdown texte={str(c.intro)} />
         </Cadre>
       ) : null}
       {maman && str(maman.contenu) ? (
-        <Cadre bg="#F8E6DE" label={str(maman.titre) || "Côté maman"}>
-          <Prose texte={str(maman.contenu)} />
+        <Cadre bg="#F5D0C8" label={str(maman.titre) || "Côté maman"} labelColor={WARM_LABEL}>
+          <Markdown texte={str(maman.contenu)} />
         </Cadre>
       ) : null}
       {coparent && str(coparent.contenu) ? (
-        <Cadre bg="#F6EBE1" label={str(coparent.titre) || "Côté papa / co-parent"}>
-          <Prose texte={str(coparent.contenu)} />
+        <Cadre bg="#F8DBC9" label={str(coparent.titre) || "Côté papa / co-parent"} labelColor={WARM_LABEL}>
+          <Markdown texte={str(coparent.contenu)} />
         </Cadre>
       ) : null}
       {signaux.length ? (
-        <Cadre bg="#E4DDD6" label="Signaux à ne pas négliger">
+        <Cadre bg="#E4DDD6" label="Signaux à ne pas négliger" labelColor={WARM_LABEL}>
           <Liste items={signaux} marqueur="puce" />
         </Cadre>
       ) : null}
@@ -636,7 +706,7 @@ function B4({ c }: { c: Rec }) {
         </Cadre>
       ) : null}
       {quiConsulter.length ? (
-        <Cadre bg="#EFEBE6" border="1px solid #D9D2CA" label="Qui consulter">
+        <Cadre bg="#EFEBE6" border="1px solid #D9D2CA" label="Qui consulter" labelColor={WARM_LABEL}>
           <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "flex", flexDirection: "column", gap: 8 }}>
             {quiConsulter.map((q, i) => {
               const sep = q.match(/^(.*?)(\s*:\s*)([\s\S]*)$/);
