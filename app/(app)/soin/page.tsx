@@ -65,9 +65,9 @@ const PICTO_CASE: Record<number, ReactNode> = {
       <ellipse cx="12" cy="6.8" rx="1.8" ry="2.8" transform="rotate(300 12 12)" />
     </>
   ),
-  // Tourbillon : spirale enroulée sur ~3 tours.
+  // Tourbillon : spirale enroulée (~3,5 tours) terminée par une virgule au centre.
   4: (
-    <path d="M11.2 12 A1.2 1.2 0 0 0 13.6 12 A2 2 0 0 1 9.6 12 A2.8 2.8 0 0 0 15.2 12 A3.6 3.6 0 0 1 8 12 A4.4 4.4 0 0 0 16.8 12 A5.2 5.2 0 0 1 6.4 12" />
+    <path d="M12 12.55 A0.62 0.62 0 1 1 12.95 12 A1.4 1.4 0 0 1 10.2 12 A2.2 2.2 0 0 0 14.6 12 A3 3 0 0 1 8.6 12 A3.8 3.8 0 0 0 16.2 12 A4.6 4.6 0 0 1 7 12 A5.4 5.4 0 0 0 17.8 12" />
   ),
   // Deux cœurs : un grand devant, un plus petit en retrait.
   5: (
