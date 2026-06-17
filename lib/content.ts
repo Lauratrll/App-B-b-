@@ -197,6 +197,9 @@ export type SoinMeta = {
 export type ConseilListItem = {
   id: string;
   ordre: number;
+  // numero (1→5) : clé STABLE par mois (id change chaque mois).
+  // Sert au mapping couleur / picto / titre court de la page d'accueil Soin.
+  numero?: number;
   // Affichés sur la carte :
   //   en grand : nom_outil ?? titre
   //   en petit : promesse  ?? sous_titre
@@ -556,6 +559,7 @@ export const getSoinConseils = unstable_cache(
       return {
         id: row.situation as string,
         ordre: (row.ordre as number) ?? 0,
+        numero: d.numero,
         // Nouvelle convention
         nom_outil: d.nom_outil,
         promesse: d.promesse,

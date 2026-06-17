@@ -1,37 +1,82 @@
 import Link from "next/link";
-import type { CSSProperties } from "react";
+import type { ReactNode } from "react";
 import { requireProfile } from "@/lib/auth";
 import { getBabyMonth } from "@/lib/utils";
 import { getSoinConseils, getSoinMeta } from "@/lib/content";
 
-// Page 1 « Prends soin de toi » — grille des gestes du mois.
-// Reprend les codes Guide-moi / Coucher (serif Playfair, texte #3A3228,
-// pastilles d'icône, coins arrondis) mais avec une palette restreinte aux
-// tons chauds et féminins (corail / rose / pêche / terracotta), pour parler
-// du soin de la maman. Objectif : titre + intro + 6 cartes visibles sur un
-// écran, sans défiler (grille 2 colonnes compacte).
+// Page 1 « Prendre soin de moi » — accueil de la rubrique.
+// Spec de référence (figée V1) :
+//   skills/CONSIGNES_CLAUDE_CODE_prendre_soin_de_moi_page1.md
+// Adaptations à l'app : données lues depuis Supabase (pas de JSON local) ;
+// le bandeau (TopBar) et la nav du bas sont fournis par le layout (comme la
+// page 1 de Guide-moi), donc non re-rendus ici.
 
-const PLAYFAIR = "var(--font-playfair), Georgia, serif";
-const TEXT = "#3A3228"; // texte principal (cohérent Guide/Coucher)
-const CHAPO = "#8A5B4E"; // chapô des cartes (brun chaud adouci)
-const LABEL = "#A98C86"; // étiquette de rubrique (taupe rosé)
+const PLAYFAIR = "var(--font-playfair), 'Playfair Display', Georgia, serif";
+const INK = "#3A3228";
+const EUCAL = "#8A9E98";
+const PEACH_DARK = "#C8806A";
+const INTRO = "#5A4A40";
 
-// Camaïeu chaud & féminin par position (pas toute la gamme chromatique).
-const SOIN_TONES = [
-  "#F2BCB0", // corail tendre
-  "#F4C0CC", // rose poudré
-  "#F7D0C4", // pêche
-  "#EFC6C9", // rose ancien
-  "#ECC1B2", // terracotta clair
-  "#F5CFD0", // rose lait
-];
-
-const clamp2: CSSProperties = {
-  display: "-webkit-box",
-  WebkitLineClamp: 2,
-  WebkitBoxOrient: "vertical",
-  overflow: "hidden",
+// §4 — fonds des 5 cases, gamme alim/sommeil alternée, FIXE par numero.
+const FOND_CASE: Record<number, string> = {
+  1: "#EABDB1",
+  2: "#F8DBC9",
+  3: "#E7B99F",
+  4: "#F5D0C8",
+  5: "#EEC7B0",
 };
+const CERCLE: Record<number, number> = { 1: 0.48, 2: 0.55, 3: 0.48, 4: 0.55, 5: 0.48 };
+
+// §5.4 — titres courts (1 ligne) par numero ; le nom_outil reste canonique.
+const TITRE_CASE: Record<number, string> = {
+  1: "Auto-massage",
+  2: "Méditation audio",
+  3: "Auto-reconnaissance",
+  4: "Réalité du post-partum",
+  5: "Challenge couple",
+};
+
+// §5.5 — pictos au trait (stroke #3A3228), stables par numero.
+const PICTO_CASE: Record<number, ReactNode> = {
+  1: (
+    <>
+      <path d="M8 13V5.5a1.5 1.5 0 0 1 3 0V11" />
+      <path d="M11 11V4.5a1.5 1.5 0 0 1 3 0V11" />
+      <path d="M14 11V5.5a1.5 1.5 0 0 1 3 0V12" />
+      <path d="M17 12V8a1.5 1.5 0 0 1 3 0v6a6 6 0 0 1-6 6h-2.5a5 5 0 0 1-3.9-1.9L4 13.5a1.6 1.6 0 0 1 2.5-2L8 13.5" />
+    </>
+  ),
+  2: (
+    <>
+      <path d="M4 14v-2a8 8 0 0 1 16 0v2" />
+      <rect x="3" y="13" width="4" height="7" rx="2" />
+      <rect x="17" y="13" width="4" height="7" rx="2" />
+    </>
+  ),
+  3: (
+    <>
+      <path d="M12 3v18" />
+      <path d="M5 7l-2.5 5a2.5 2.5 0 0 0 5 0L5 7z" />
+      <path d="M19 7l-2.5 5a2.5 2.5 0 0 0 5 0L19 7z" />
+      <path d="M5 7l7-2 7 2" />
+      <path d="M8 21h8" />
+    </>
+  ),
+  4: <path d="M12 20s-7-4.4-7-9.5A3.6 3.6 0 0 1 12 7a3.6 3.6 0 0 1 7 3.5C19 15.6 12 20 12 20z" />,
+  5: (
+    <>
+      <path d="M9.5 16s-4.5-2.9-4.5-6.2A2.4 2.4 0 0 1 9.5 8a2.4 2.4 0 0 1 4.5 1.8C14 13.1 9.5 16 9.5 16z" />
+      <path d="M15.5 19s-3.6-2.3-3.6-5A1.9 1.9 0 0 1 15.5 12a1.9 1.9 0 0 1 3.6 1.5c0 2.7-3.6 5-3.6 5z" />
+    </>
+  ),
+};
+
+// §6 — intro tronquée à ~210 caractères, coupée sur un mot.
+function introCourte(t: string, max = 210): string {
+  if (t.length <= max) return t;
+  const coupe = t.slice(0, max);
+  return coupe.slice(0, coupe.lastIndexOf(" ")).trimEnd() + "…";
+}
 
 export default async function SoinPage() {
   const { profile } = await requireProfile();
@@ -54,132 +99,161 @@ export default async function SoinPage() {
     );
   }
 
-  // Hiérarchie établie :
-  //   en-tête → nom_rubrique (label) · promesse_du_mois (grand) · description (intro)
-  //   carte   → icone · nom_outil (grand) · promesse (chapô)
-  const titrePrincipal =
-    meta?.promesse_du_mois ?? meta?.titre_rubrique ?? "Prends soin de toi";
-  const etiquetteRubrique = meta?.nom_rubrique ?? meta?.sous_titre;
+  // Hiérarchie VALIDÉE :
+  //   grand titre = promesse_du_mois · label = nom_rubrique · intro = intention_du_mois
+  const grandTitre =
+    meta?.promesse_du_mois ?? meta?.theme_du_mois ?? meta?.titre_rubrique ?? "Prendre soin de moi";
+  const label = meta?.nom_rubrique ?? "Prendre soin de moi";
+  const intro = meta?.intention_du_mois ?? meta?.description ?? "";
+
+  // Tri stable par numero (l'id change chaque mois) ; repli sur l'ordre.
+  const items = [...conseils].sort(
+    (a, b) => (a.numero ?? a.ordre) - (b.numero ?? b.ordre),
+  );
 
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
-      {/* En-tête éditorial centré */}
-      <div style={{ padding: "4px 0 12px", textAlign: "center" }}>
-        <p aria-hidden style={{ fontSize: 18, lineHeight: 1, margin: "0 0 6px" }}>
-          🌸
-        </p>
-        {etiquetteRubrique ? (
-          <div
-            style={{
-              fontSize: 11,
-              color: LABEL,
-              letterSpacing: ".08em",
-              textTransform: "uppercase",
-              fontWeight: 600,
-            }}
-          >
-            {etiquetteRubrique}
-          </div>
-        ) : null}
-        <h1
-          style={{
-            fontFamily: PLAYFAIR,
-            fontWeight: 700,
-            fontSize: 22,
-            color: TEXT,
-            letterSpacing: "-.015em",
-            lineHeight: 1.15,
-            margin: "5px auto 0",
-            maxWidth: 320,
-          }}
-        >
-          {titrePrincipal}
-        </h1>
+      {/* §5.2 — En-tête éditorial : grand titre, label dessous, trait, intro */}
+      <h1
+        style={{
+          fontFamily: PLAYFAIR,
+          fontWeight: 700,
+          fontSize: 25,
+          lineHeight: 1.15,
+          color: INK,
+          textAlign: "center",
+          margin: "0 0 8px",
+        }}
+      >
+        {grandTitre}
+      </h1>
+      <div
+        style={{
+          textAlign: "center",
+          fontSize: 9,
+          fontWeight: 600,
+          letterSpacing: ".16em",
+          textTransform: "uppercase",
+          color: EUCAL,
+          marginBottom: 12,
+        }}
+      >
+        {label}
       </div>
-
-      {/* Intro courte — 2 lignes max pour garder la vue d'ensemble */}
-      {meta?.description ? (
+      <div
+        style={{ width: 34, height: 1, background: PEACH_DARK, opacity: 0.55, margin: "0 auto 14px" }}
+      />
+      {intro ? (
         <p
           style={{
-            ...clamp2,
             fontSize: 12.5,
-            lineHeight: 1.5,
-            color: CHAPO,
+            lineHeight: 1.62,
+            color: INTRO,
             textAlign: "center",
-            margin: "0 2px 16px",
+            margin: "0 auto 18px",
+            maxWidth: 316,
           }}
         >
-          {meta.description}
+          {introCourte(intro)}
         </p>
       ) : null}
 
-      {/* Grille 2 colonnes — tons chauds par position */}
+      {/* §5.3 — 5 cases, 82 % centrées, sans bordure */}
       <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "1fr 1fr",
-          gap: 9,
-        }}
+        style={{ display: "flex", flexDirection: "column", gap: 8, width: "82%", margin: "0 auto" }}
       >
-        {conseils.map((c, i) => {
-          const principal = c.nom_outil ?? c.titre;
-          const chapo = c.promesse ?? c.sous_titre;
-          const tone = SOIN_TONES[i % SOIN_TONES.length];
+        {items.map((c, i) => {
+          const numero = c.numero ?? i + 1;
+          const fond = FOND_CASE[numero] ?? "#EEC7B0";
+          const cercle = CERCLE[numero] ?? 0.5;
+          const titre = TITRE_CASE[numero] ?? c.nom_outil ?? c.titre ?? "";
+          const promesse = c.promesse ?? c.sous_titre;
+          const picto = PICTO_CASE[numero];
           return (
             <Link
               key={c.id}
               href={`/soin/${c.id}`}
               style={{
-                background: tone,
-                borderRadius: 14,
-                padding: "11px 11px 12px",
+                display: "flex",
+                alignItems: "center",
+                gap: 13,
+                borderRadius: 11,
+                padding: "10px 12px",
+                background: fond,
                 textDecoration: "none",
-                display: "block",
               }}
             >
               <span
                 aria-hidden
                 style={{
-                  width: 30,
-                  height: 30,
+                  width: 38,
+                  height: 38,
                   borderRadius: "50%",
-                  background: "rgba(255,255,255,.55)",
+                  flexShrink: 0,
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  fontSize: 17,
-                  lineHeight: 1,
-                  marginBottom: 7,
+                  background: `rgba(255,255,255,${cercle})`,
                 }}
               >
-                {c.icone ?? "•"}
+                {picto ? (
+                  <svg
+                    width={21}
+                    height={21}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke={INK}
+                    strokeWidth={1.6}
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    {picto}
+                  </svg>
+                ) : (
+                  <span style={{ fontSize: 19, lineHeight: 1 }}>{c.icone ?? "•"}</span>
+                )}
               </span>
-              <span
-                style={{
-                  display: "block",
-                  fontFamily: PLAYFAIR,
-                  fontWeight: 600,
-                  fontSize: 13,
-                  lineHeight: 1.15,
-                  color: TEXT,
-                  letterSpacing: "-.01em",
-                }}
-              >
-                {principal}
-              </span>
-              {chapo ? (
+              <span style={{ flex: 1, display: "flex", flexDirection: "column", minWidth: 0 }}>
                 <span
                   style={{
-                    ...clamp2,
-                    fontSize: 10.5,
-                    lineHeight: 1.3,
-                    color: CHAPO,
-                    marginTop: 3,
+                    fontFamily: PLAYFAIR,
+                    fontWeight: 600,
+                    fontSize: 14,
+                    color: INK,
+                    lineHeight: 1.18,
                   }}
                 >
-                  {chapo}
+                  {titre}
                 </span>
-              ) : null}
+                {promesse ? (
+                  <span
+                    style={{
+                      fontSize: 11.5,
+                      fontStyle: "italic",
+                      lineHeight: 1.3,
+                      marginTop: 2,
+                      color: INK,
+                    }}
+                  >
+                    {promesse}
+                  </span>
+                ) : null}
+              </span>
+              <span style={{ flexShrink: 0, display: "flex", color: INK, opacity: 0.85 }}>
+                <svg
+                  width={16}
+                  height={16}
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden
+                >
+                  <polyline points="9 6 15 12 9 18" />
+                </svg>
+              </span>
             </Link>
           );
         })}
