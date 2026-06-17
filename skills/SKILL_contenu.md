@@ -200,6 +200,27 @@ Exemples (l'espace figurée ici est en réalité un U+00A0) :
 
 ---
 
+### Noms propres et références d'études — en italique ⭐
+
+Dans **tous les contenus de l'app**, les **noms propres de chercheurs/auteurs** et les **références d'études ou de théories** s'écrivent en **italique** (`*...*`), et sont introduits **entre tirets cadratins — … —**, jamais entre parenthèses.
+- ✅ « Les recherches en neurosciences — notamment celles de *Daniel Siegel* et *Catherine Gueguen* — montrent que… »
+- ✅ « …la phase d'individuation-séparation décrite par *Margaret Mahler*. »
+- ❌ « …les recherches (Daniel Siegel, Catherine Gueguen) montrent… »
+
+(Reste valable : pas de référence légale précise — on évoque le thème et on renvoie vers un professionnel nommé.)
+
+### Dynamiser les pavés denses par la ponctuation
+
+Les blocs de prose longs (typiquement « La réalité du post-partum » : `pour_la_maman` / `pour_le_papa_co_parent`) gardent **toute** leur information mais s'aèrent :
+- **Pas de parenthèses** : remplacer par un tiret — explication —, ou par un deux-points : selon le cas. Les exemples cités le sont **sans parenthèses**, directement entre guillemets : « je vois que tu veux ce jouet ».
+- **Listes en points à la ligne** : chaque item sur sa propre ligne (saut de ligne `\n`), **amorce en gras** `**…**`, séparée de la suite par un tiret — (définition/explication) ou par deux-points : (quand l'item est suivi d'un exemple cité). Ex. : `**Sécurité affective** — être aimé inconditionnellement.` / `**Claire** : « la télécommande n'est pas un jouet ».`
+- **Découpe en sous-sections titrées** : un bloc long peut être découpé par des **sous-titres** thématiques (ligne commençant par `## `). Ils restent **dans un cadre unique** (pas de cadres séparés), pour ne pas tomber dans un effet « protocole ». Les sous-titres parlent à une maman parfois dépassée : **compassion et permission douce**, le plus souvent en « **Tu peux…** » (« Tu peux créer de la confiance », « Tu peux trouver cela difficile »), avec un **chapeau de bloc rassurant** (« Repose-toi sur les neurosciences »). Jamais des intitulés de manuel. À réinjecter dans **tous** les pavés post-partum structurés.
+- **Adapter au registre** : structure légère (sous-titres en filet) quand le mois est **didactique** ; **prose qui coule** quand le mois est **émotionnel** (post-partum aigu) — le but est le réconfort, pas la checklist.
+- **Puces** : chaque point d'une liste commence par `• ` ; la puce est **colorée** (accent), mais l'**amorce en gras reste en noir** comme le corps du texte (l'emphase vient de la graisse, pas de la couleur).
+- **Micro-format de rendu** (implémenté par Claude Code) : Markdown inline — `## sous-titre` (rendu en CAPITALES via CSS), `• puce`, `**gras**` (noir corps), `*italique*` — et sauts de ligne `\n` (paragraphes séparés par `\n\n`). Pas d'all-caps dans la source.
+
+---
+
 ## Checklist éditoriale avant publication d'un contenu
 
 - [ ] Le ton est bienveillant envers le parent ET envers le bébé
@@ -210,5 +231,6 @@ Exemples (l'espace figurée ici est en réalité un U+00A0) :
 - [ ] Le cadre de sécurité est présent avec des critères objectifs
 - [ ] La longueur respecte les limites définies
 - [ ] Aucune promesse de résultat garanti
+- [ ] Noms propres / références d'études en italique, introduits entre tirets (jamais entre parenthèses)
 - [ ] La phrase "ce n'est pas un substitut au médecin" est présente si pertinent
 - [ ] Les numéros d'urgence sont cités si le contexte le demande

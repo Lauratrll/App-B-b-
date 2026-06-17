@@ -90,6 +90,7 @@ Les blocs des pages de détail (« Comment faire », « Si tu bloques », « À 
 - **Labels de section** en brun chaud `#8A4030` (et non eucalyptus) sur ces fonds pêche, pour le contraste.
 - **Post-partum** : ses 3 blocs neutres prennent la gamme B (Ce qui se passe `#EABDB1` / Côté maman `#F5D0C8` / Côté co-parent `#F8DBC9`), mais ses **cadres sémantiques restent inchangés** : Signaux en **gris** `#E4DDD6`, Urgence en **cadre rouge** (`#EDE9E4` / bord `#D4604A`, 3114 en gras `#8A3020`), Qui consulter en **gris clair** `#EFEBE6`.
 - Carte « gabarit » d'auto-reconnaissance : fond papier `#FBF6F1` + filet `#E0CDBC`.
+- **Texte dynamisé des blocs narratifs** : amorces en **gras noir `#3A3228`** (couleur du corps), seule la **puce `•` est colorée** (`#C56A4E`). Sous-titres internes `## ` en **capitales** brun `#8A4030`, séparés par un filet `#E6B8AC`, **dans un cadre unique** (le post-partum ne se découpe jamais en cadres-protocole séparés — registre « accompagnement »).
 
 ---
 

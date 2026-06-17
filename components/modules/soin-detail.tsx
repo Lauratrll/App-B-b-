@@ -134,6 +134,7 @@ function Markdown({ texte, color = WARM_BODY }: { texte: string; color?: string 
   const out: ReactNode[] = [];
   let para: string[] = [];
   let k = 0;
+  let hasHeading = false;
   const flush = () => {
     if (!para.length) return;
     const segs = para;
@@ -152,8 +153,22 @@ function Markdown({ texte, color = WARM_BODY }: { texte: string; color?: string 
   for (const line of lines) {
     if (/^\s*##\s+/.test(line)) {
       flush();
+      const first = !hasHeading;
+      hasHeading = true;
       out.push(
-        <p key={`h${k++}`} style={{ fontFamily: PLAYFAIR, fontWeight: 700, fontSize: 12.5, color: "#8A4030", margin: "12px 0 4px" }}>
+        <p
+          key={`h${k++}`}
+          style={{
+            fontWeight: 700,
+            fontSize: 11,
+            letterSpacing: ".08em",
+            textTransform: "uppercase",
+            color: "#8A4030",
+            margin: first ? "0 0 6px" : "14px 0 6px",
+            paddingTop: first ? 0 : 12,
+            borderTop: first ? "none" : "1px solid #E6B8AC",
+          }}
+        >
           {line.replace(/^\s*##\s+/, "")}
         </p>,
       );
@@ -161,7 +176,7 @@ function Markdown({ texte, color = WARM_BODY }: { texte: string; color?: string 
       flush();
       out.push(
         <div key={`b${k++}`} style={{ display: "flex", gap: 8, margin: "4px 0", fontSize: 12.5, lineHeight: 1.5, color }}>
-          <span style={{ color: "#9A8E80", flexShrink: 0 }}>•</span>
+          <span style={{ color: "#C56A4E", flexShrink: 0 }}>•</span>
           <span>{inlineMd(line.replace(/^\s*•\s+/, ""))}</span>
         </div>,
       );
@@ -684,12 +699,12 @@ function B4({ c }: { c: Rec }) {
         </Cadre>
       ) : null}
       {maman && str(maman.contenu) ? (
-        <Cadre bg="#F5D0C8" label={str(maman.titre) || "Côté maman"} labelColor={WARM_LABEL}>
+        <Cadre bg="#F5D0C8" label={str(maman.titre) || undefined} labelColor={WARM_LABEL}>
           <Markdown texte={str(maman.contenu)} />
         </Cadre>
       ) : null}
       {coparent && str(coparent.contenu) ? (
-        <Cadre bg="#F8DBC9" label={str(coparent.titre) || "Côté papa / co-parent"} labelColor={WARM_LABEL}>
+        <Cadre bg="#F8DBC9" label={str(coparent.titre) || undefined} labelColor={WARM_LABEL}>
           <Markdown texte={str(coparent.contenu)} />
         </Cadre>
       ) : null}

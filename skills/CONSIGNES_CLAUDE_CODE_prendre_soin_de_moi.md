@@ -96,8 +96,8 @@ const COULEUR_SLOT = {1:'#EABDB1',2:'#F8DBC9',3:'#E7B99F',4:'#F5D0C8',5:'#EEC7B0
 | | `espace_pour_ecrire` *(bool)* | ⛔ (pilote) | si `true` ⇒ afficher le gabarit papier non éditable |
 | | `espace_pour_enregistrement` *(bool)* | ⛔ (pilote) | si `true` ⇒ bloc vocal (M0/M3/M6/M9/M14) |
 | | `principe` | ✅ | note de fin |
-| 4 Réalité | `pour_la_maman` `{titre,contenu}` | ✅ | cadre **Côté maman** (`#F8E6DE`) |
-| | `pour_le_papa_co_parent` `{titre,contenu}` | ✅ | cadre **Côté co-parent** (`#F6EBE1`) |
+| 4 Réalité | `pour_la_maman` `{titre,contenu}` | ✅ | cadre **Côté maman** (`#F5D0C8`) |
+| | `pour_le_papa_co_parent` `{titre,contenu}` | ✅ | cadre **Côté co-parent** (`#F8DBC9`) |
 | | `signaux_a_ne_pas_negliger` (liste) | ✅ | cadre **gris** `#E4DDD6` (puces grises, pas de croix rouge) |
 | | `urgence` (string) | ✅ | cadre **rouge** fermé, **3114 en gras** |
 | | `qui_consulter` (liste) | ✅ | cadre **gris clair** `#EFEBE6` |
@@ -123,7 +123,7 @@ const COULEUR_SLOT = {1:'#EABDB1',2:'#F8DBC9',3:'#E7B99F',4:'#F5D0C8',5:'#EEC7B0
 | Warm-body | `#5A4A40` | Corps de texte des cadres / intro |
 | Coral / Coral-dark | `#D4604A` / `#8A3020` | **Uniquement** le cadre d'urgence (sémantique) |
 
-Tons chauds des cadres : `#F7ECE4` (soft), `#F9F1EA` (light), `#F3DCD0` (tendre), `#FBF4EE` / `#FBF6F1` (très clair). Tons « maman/co-parent » : `#F8E6DE` / `#F6EBE1`. Cadres fermés du bas : urgence `#EDE9E4` (bord rouge), qui consulter `#EFEBE6` (bord `#D9D2CA`).
+Tons chauds des cadres : `#EABDB1` (soft), `#F9F1EA` (light), `#F3DCD0` (tendre), `#FBF4EE` / `#FBF6F1` (très clair). Tons « maman/co-parent » : `#F5D0C8` / `#F8DBC9`. Cadres fermés du bas : urgence `#EDE9E4` (bord rouge), qui consulter `#EFEBE6` (bord `#D9D2CA`).
 
 ### 4.2 Typographie
 
@@ -237,14 +237,14 @@ h1{font-family:'Playfair Display',Georgia,serif;font-weight:600;font-size:19px;l
 Champs : `intro`, `duree`, `indications[]`, `points[] {zone, geste, effet}`, `cloture`.
 - **Chips** : `duree` (horloge) + « 4 points · sur tes mains » (main).
 - **Intro chapô** sous un petit trait décoratif (prose centrée, **sans label**).
-- **Cadre `#F7ECE4` « Tu peux l'utiliser quand »** : `indications[]` en liste, coche `#C8806A`.
+- **Cadre `#EABDB1` « Tu peux l'utiliser quand »** : `indications[]` en liste, coche `#C8806A`.
 - **Cadre `#FBF4EE` « Les 4 points, dans l'ordre »** : `points[]` en **lignes numérotées** (pastille pleine `#C8806A`, chiffre blanc), `zone` en gras (+ complément entre parenthèses en gris léger), `geste` avec icône horloge et **durée en gras `#8A4030`**, `effet` en italique. Séparateur `.5px #EFE2D8` entre lignes.
 - **Cadre `#F3DCD0` « Pour clore »** : `cloture` ; isoler le mantra final (entre « … ») en **Playfair italique** centré.
 
 ### 6.2 — B2 Méditation audio (numero 2, couleur `#F8DBC9`, picto casque)
 Champs : `duree`, `intro`, `instruction`, `texte_meditation` (avec marqueurs `[pause - N secondes]`).
 - **Chips** : `duree` (~7 min) + « voix à la 1ʳᵉ personne ».
-- **Cadre `#F7ECE4` « Avant de commencer »** : `instruction`.
+- **Cadre `#EABDB1` « Avant de commencer »** : `instruction`.
 - **Cadre `#F9F1EA` « L'image de cette méditation »** : `intro` (italique).
 - **Lecteur audio** (bloc `#F4E4DA`) **juste au-dessus du texte** : bouton play rond `#C8806A`, barre de progression, `0:00 / {duree}`. *(L'audio sera enregistré ; prévoir le composant `<audio>` branché plus tard.)*
 - **Cadre `#FBF6F1` (filet .5px) « Texte de la méditation »** : rendre `texte_meditation` ; transformer chaque `[pause - N secondes]` en repère centré discret « pause N secondes » (eucalyptus), un paragraphe par bloc.
@@ -252,8 +252,8 @@ Champs : `duree`, `intro`, `instruction`, `texte_meditation` (avec marqueurs `[p
 ### 6.3 — B3 Auto-reconnaissance (numero 3, couleur `#E7B99F`, picto fleur)
 Champs : `intro`, `format_propose`, **`gabarit` (optionnel)**, `consigne`, `amorces_si_blocage[]`, `espace_pour_ecrire` / `espace_pour_enregistrement` (bool), `principe`.
 - **Chip** : « format écriture · 30 min » (ou « format vocal » si `espace_pour_enregistrement`).
-- **Cadre `#F7ECE4` « Comment faire »** : `consigne`.
-- **Cadre `#F7ECE4` « Si tu bloques, commence par… »** : `amorces_si_blocage[]` en lignes, chevron `›` `#C8806A`.
+- **Cadre `#EABDB1` « Comment faire »** : `consigne`.
+- **Cadre `#EABDB1` « Si tu bloques, commence par… »** : `amorces_si_blocage[]` en lignes, chevron `›` `#C8806A`.
 - **Cadre `#F9F1EA` « À retenir »** : `principe` (italique).
 
 **⭐ Carte « Ta carte » — pilotée par `gabarit` (mise en forme générique).**
@@ -295,10 +295,18 @@ Papier, non éditable. Maquette : `maquette_M1_M19_autoreconnaissance.html`.
 
 ### 6.4 — B4 Réalité du post-partum (numero 4, couleur `#F5D0C8`, picto tourbillon)
 Champs : `intro`, `pour_la_maman {titre, contenu}`, `pour_le_papa_co_parent {titre, contenu}`, `signaux_a_ne_pas_negliger[]`, `urgence`, `qui_consulter[]`.
-Pile de cadres (tous arrondis, labels eucalyptus, **aucun bleu**) :
-- **`#F7ECE4` « Ce qui se passe »** : `intro`.
-- **`#F8E6DE` « Côté maman »** : `pour_la_maman.contenu`.
-- **`#F6EBE1` « Côté papa / co-parent »** : `pour_le_papa_co_parent.contenu`.
+Pile de cadres (tous arrondis, labels brun chaud `#8A4030`, **aucun bleu**) :
+- **`#EABDB1` « Ce qui se passe »** : `intro`.
+- **`#F5D0C8` « Côté maman »** : `pour_la_maman.contenu`.
+- **`#F8DBC9` « Côté papa / co-parent »** : `pour_le_papa_co_parent.contenu`.
+- **Libellés dynamiques** : le titre de chacun des trois cadres narratifs = le champ `titre` du bloc (`intro` → « Ce qui se passe » ; `pour_la_maman.titre`, ex. « Comprendre les limites » ; `pour_le_papa_co_parent.titre`, ex. « Dialoguer entre parents »). **Ne pas coder ces libellés en dur.** Couleur des labels : brun chaud `#8A4030`. Si le `titre` du bloc est **vide**, aucun label de cadre n'est affiché : ce sont alors les sous-titres `## ` qui portent le titrage (cas du bloc maman de M15).
+- **Rendu du `contenu` (blocs narratifs)** — Markdown inline, dans **un seul cadre enveloppant** (Variante B validée — registre « accompagnement », surtout **pas** de cadres-protocole séparés pour le post-partum) :
+  - `## Titre` en début de ligne = **sous-titre EN CAPITALES** (letter-spacing, brun `#8A4030`, gras), séparé du précédent par un **filet fin `#E6B8AC`** ; le 1ᵉʳ sous-titre est sans filet ni marge haute.
+  - `• ` en début de ligne = **puce en accent coloré `#C56A4E`**.
+  - `**gras**` = amorce de point — rendue en **noir corps `#3A3228`** (PAS en brun), seule la puce est colorée ; `*italique*` = la **clause de référence entière** (« notamment celles de *Daniel Siegel*… »), introduite entre tirets — … —, jamais entre parenthèses.
+  - sauts de ligne : un `\n` = passage à la ligne ; `\n\n` = nouveau paragraphe. Pas d'all-caps (sauf la mise en CAPITALES typographique des sous-titres, faite en CSS — la source reste en casse normale).
+- **Structure selon le registre du mois** ⭐ : mois **didactique** (ex. M15, science des limites) → sous-titres en filet pour aider la lecture ; mois **émotionnel** (M0, M3, post-partum aigu) → **prose qui coule**, peu ou pas de sous-titres, pour préserver l'effet « réconfort ».
+- **Voix des sous-titres — compassion** ⭐ : on parle à une maman parfois dépassée. Privilégier la **permission douce « Tu peux… »** (« Tu peux créer de la confiance », « Tu peux trouver cela difficile », « Tu peux accueillir l'émotion et garder le lien ») et un **chapeau de bloc rassurant** (« Repose-toi sur les neurosciences »), jamais des intitulés de manuel. Cette compassion est à **réinjecter dans tous les pavés post-partum** qu'on structure (pas seulement M15).
 - **`#E4DDD6` (gris) « Signaux à ne pas négliger »** : `signaux_a_ne_pas_negliger[]`, **puces grises** (`#9A8E80`) — volontairement **distinct des « erreurs à éviter »** de Guide-moi (aucune croix rouge).
 - **Cadre fermé rouge « En cas d'urgence »** : `urgence`. Fond `#EDE9E4`, `border:1px solid #D4604A`, `border-radius:10`, label Coral-dark `#8A3020`. **Mettre le 3114 en gras `#8A3020`.** (Seule entorse couleur autorisée.)
 - **Cadre fermé gris très clair « Qui consulter »** : `qui_consulter[]`. Fond `#EFEBE6`, `border:1px solid #D9D2CA`. Amorce avant `:` en gras ; pictos pros en gris `#9A8E80`.
