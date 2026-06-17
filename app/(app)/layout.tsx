@@ -41,7 +41,7 @@ export default async function AppLayout({
         </form>
       </header>
 
-      <main className="flex-1 px-5 py-6">{children}</main>
+      <main className="flex-1 px-5 pt-6 pb-4">{children}</main>
 
       <nav className="sticky bottom-0 grid grid-cols-5 border-t border-neutral-200 bg-white text-[10px]">
         <Link href="/dashboard" className="flex flex-col items-center gap-1 py-2">

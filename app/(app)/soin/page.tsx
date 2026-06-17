@@ -53,30 +53,28 @@ const PICTO_CASE: Record<number, ReactNode> = {
       <rect x="17" y="13" width="4" height="7" rx="2" />
     </>
   ),
+  // Mains en prière « merci » : deux paumes jointes + pouces.
   3: (
     <>
-      <path d="M12 3v18" />
-      <path d="M5 7l-2.5 5a2.5 2.5 0 0 0 5 0L5 7z" />
-      <path d="M19 7l-2.5 5a2.5 2.5 0 0 0 5 0L19 7z" />
-      <path d="M5 7l7-2 7 2" />
-      <path d="M8 21h8" />
+      <path d="M12 3.5C11 4.9 9.8 6.1 8.6 7.1 7.5 8 6.9 8.9 6.9 10.3V17a2.6 2.6 0 0 0 2.6 2.6H12" />
+      <path d="M12 3.5C13 4.9 14.2 6.1 15.4 7.1 16.5 8 17.1 8.9 17.1 10.3V17a2.6 2.6 0 0 1-2.6 2.6H12" />
+      <path d="M12 5v14.6" />
+      <path d="M6.9 13 4.9 14.3" />
+      <path d="M17.1 13 19.1 14.3" />
     </>
   ),
-  4: <path d="M12 20s-7-4.4-7-9.5A3.6 3.6 0 0 1 12 7a3.6 3.6 0 0 1 7 3.5C19 15.6 12 20 12 20z" />,
+  // Tourbillon : spirale qui s'enroule vers le centre.
+  4: (
+    <path d="M12 12a1.6 1.6 0 0 1 1.6 1.6 3.2 3.2 0 0 1-3.2 3.2 4.8 4.8 0 0 1-4.8-4.8 6.4 6.4 0 0 1 6.4-6.4 8 8 0 0 1 8 8" />
+  ),
+  // Deux cœurs : un grand devant, un plus petit en retrait.
   5: (
     <>
-      <path d="M9.5 16s-4.5-2.9-4.5-6.2A2.4 2.4 0 0 1 9.5 8a2.4 2.4 0 0 1 4.5 1.8C14 13.1 9.5 16 9.5 16z" />
-      <path d="M15.5 19s-3.6-2.3-3.6-5A1.9 1.9 0 0 1 15.5 12a1.9 1.9 0 0 1 3.6 1.5c0 2.7-3.6 5-3.6 5z" />
+      <path d="M9.5 19C9.5 19 4 15.4 4 10.9 4 8.9 5.5 7.4 7.3 7.4 8.4 7.4 9.1 8.1 9.5 8.7 9.9 8.1 10.6 7.4 11.7 7.4 13.5 7.4 15 8.9 15 10.9 15 15.4 9.5 19 9.5 19Z" />
+      <path d="M16.5 15C16.5 15 12.5 12.3 12.5 9 12.5 7.6 13.5 6.6 14.8 6.6 15.5 6.6 16.1 7 16.5 7.5 16.9 7 17.5 6.6 18.2 6.6 19.5 6.6 20.5 7.6 20.5 9 20.5 12.3 16.5 15 16.5 15Z" />
     </>
   ),
 };
-
-// §6 — intro tronquée à ~210 caractères, coupée sur un mot.
-function introCourte(t: string, max = 210): string {
-  if (t.length <= max) return t;
-  const coupe = t.slice(0, max);
-  return coupe.slice(0, coupe.lastIndexOf(" ")).trimEnd() + "…";
-}
 
 export default async function SoinPage() {
   const { profile } = await requireProfile();
@@ -118,11 +116,11 @@ export default async function SoinPage() {
         style={{
           fontFamily: PLAYFAIR,
           fontWeight: 700,
-          fontSize: 25,
-          lineHeight: 1.15,
+          fontSize: 24,
+          lineHeight: 1.13,
           color: INK,
           textAlign: "center",
-          margin: "0 0 8px",
+          margin: "0 0 6px",
         }}
       >
         {grandTitre}
@@ -135,26 +133,28 @@ export default async function SoinPage() {
           letterSpacing: ".16em",
           textTransform: "uppercase",
           color: EUCAL,
-          marginBottom: 12,
+          marginBottom: 9,
         }}
       >
         {label}
       </div>
       <div
-        style={{ width: 34, height: 1, background: PEACH_DARK, opacity: 0.55, margin: "0 auto 14px" }}
+        style={{ width: 34, height: 1, background: PEACH_DARK, opacity: 0.55, margin: "0 auto 11px" }}
       />
       {intro ? (
+        // Intro affichée EN ENTIER (consigne fondatrice) ; resserrée pour
+        // limiter le scroll sur les mois à intro longue.
         <p
           style={{
-            fontSize: 12.5,
-            lineHeight: 1.62,
+            fontSize: 12,
+            lineHeight: 1.5,
             color: INTRO,
             textAlign: "center",
-            margin: "0 auto 18px",
-            maxWidth: 316,
+            margin: "0 auto 14px",
+            maxWidth: 320,
           }}
         >
-          {introCourte(intro)}
+          {intro}
         </p>
       ) : null}
 
@@ -178,7 +178,7 @@ export default async function SoinPage() {
                 alignItems: "center",
                 gap: 13,
                 borderRadius: 11,
-                padding: "10px 12px",
+                padding: "9px 12px",
                 background: fond,
                 textDecoration: "none",
               }}
