@@ -41,6 +41,21 @@
 --latte-light:#EDE0D4;   /* fond bloc explication */
 --latte-dark: #7A5038;   /* texte sur fond latte clair */
 
+/* OCRE — action immédiate (remplace l'ancien Coral/rouge, signal moins urgent) */
+--ocre:       #C77B3C;   /* bordure gauche action immédiate */
+--ocre-light: #F4E2CE;   /* fond bloc action immédiate */
+--ocre-dark:  #8A4E1C;   /* texte sur fond ocre clair */
+
+/* SAUGE — geste doux (vert naturel A1, validé fondatrice) */
+--sauge:       #82A56A;  /* bordure gauche + pastilles geste doux */
+--sauge-light: #DCE9CF;  /* fond bloc geste doux */
+--sauge-dark:  #3F5C2E;  /* texte sur fond sauge clair */
+
+/* TERRACOTTA — pour aller plus loin (orangé chaud, validé fondatrice) */
+--terracotta:       #DB936B;  /* bordure gauche pour aller plus loin */
+--terracotta-light: #F8DBC8;  /* fond bloc pour aller plus loin */
+--terracotta-dark:  #9A4F2A;  /* texte sur fond terracotta clair */
+
 /* RAIN */
 --rain:       #C8D8DC;   /* réflexo, éléments doux */
 --rain-light: #E8F0F2;   /* fond bloc réflexo */
@@ -56,14 +71,14 @@
 
 | Bloc | Fond | Texte | Bordure gauche |
 |------|------|-------|----------------|
-| Explication | `#EDE0D4` | `#7A5038` | `#C89878` (Latte) |
-| Phrase d'ancrage | `#E8F0F2` | `#384E48` | `#8A9E98` (Eucalyptus) |
-| Action immédiate | `#F5D0C8` | `#8A3020` | `#D4604A` (Coral) |
-| Geste réflexo | `#E8F0F2` | `#486878` | `#C8D8DC` (Rain) |
-| Action parent | `#D4E0DC` | `#384E48` | `#8A9E98` (Eucalyptus) |
-| Conseil préventif | `#EDE0D4` | `#7A5038` | `#C89878` (Latte) |
-| Erreurs à éviter | `#F5D0C8` | `#8A3020` | `#D4604A` (Coral) |
-| Cadre de sécurité | `#E4DDD6` | `#5A4A40` | `#B4A89C` |
+| Ce qui se passe (explication) | `#E8F0F2` | `#3A5A64` | `#8FB4BC` (Rain) |
+| Pour toi parent (ancrage) | `#F8E0D8` | `#8A4030` | `#E0A48E` (Peach) |
+| Action immédiate | `#F5D0C8` | `#8A3020` | `#D4604A` (Corail) |
+| Pour aller plus loin | `#F8DBC8` | `#9A4F2A` | `#DB936B` (Terracotta) |
+| Geste doux | `#DCE9CF` | `#3F5C2E` | `#82A56A` (Sauge) |
+| Principe à retenir | `#E8F0F2` | `#384E48` | `#8A9E98` (Eucalyptus) |
+| Erreurs à éviter | `#E4DDD6` | `#5A4A40` | `#B4A89C` (Gris) + croix ✕ `#D4604A` |
+| Cadre de sécurité | `#EDE9E4` | `#8A3020` | cadre complet `#D4604A` (Corail) |
 
 ### Couleurs des modules (cases d'accueil)
 
@@ -75,22 +90,6 @@
 | 🌿 Conseil de saison | `#D4E0DC` | `#8A9E98` |
 | 💜 Partager & rassurer | `#E8F0F2` | `#C8D8DC` |
 | 🎯 Jeux & stimulation | `#EDE0D4` | `#C89878` |
-
-### Couleurs des pages de détail — Prendre soin de moi (familles A / B)
-
-Les blocs des pages de détail (« Comment faire », « Si tu bloques », « À retenir »…) sont ré-ancrés sur les **teintes des cartes page 1** (les beiges quasi-blancs se noyaient dans le crème). Deux familles + un beige de clôture unifié :
-
-| Rôle du bloc | Famille A — Auto-reconnaissance & Challenge | Famille B — Auto-massage, Méditation, Post-partum |
-|---|---|---|
-| Bloc principal | `#ECC8B3` | `#EABDB1` |
-| Bloc secondaire / aide | `#F1D8C8` | `#F5D0C8` |
-| Clôture (« À retenir » / « Pourquoi ça marche ») | `#F8DBC9` (beige Méditation) | `#F8DBC9` (beige Méditation) |
-
-- **Beige `#F8DBC9` (carte Méditation) unifié** : tout bloc de clôture le porte, sur toutes les pages.
-- **Labels de section** en brun chaud `#8A4030` (et non eucalyptus) sur ces fonds pêche, pour le contraste.
-- **Post-partum** : ses 3 blocs neutres prennent la gamme B (Ce qui se passe `#EABDB1` / Côté maman `#F5D0C8` / Côté co-parent `#F8DBC9`), mais ses **cadres sémantiques restent inchangés** : Signaux en **gris** `#E4DDD6`, Urgence en **cadre rouge** (`#EDE9E4` / bord `#D4604A`, 3114 en gras `#8A3020`), Qui consulter en **gris clair** `#EFEBE6`.
-- Carte « gabarit » d'auto-reconnaissance : fond papier `#FBF6F1` + filet `#E0CDBC`.
-- **Texte dynamisé des blocs narratifs** : amorces en **gras noir `#3A3228`** (couleur du corps), seule la **puce `•` est colorée** (`#C56A4E`). Sous-titres internes `## ` en **capitales** brun `#8A4030`, séparés par un filet `#E6B8AC`, **dans un cadre unique** (le post-partum ne se découpe jamais en cadres-protocole séparés — registre « accompagnement »).
 
 ---
 
@@ -130,7 +129,7 @@ letter-spacing: 0.07em
 text-transform: uppercase
 font-size: 9px
 font-weight: 600
-color: #8A9E98  /* Eucalyptus — toujours pour les labels de section */
+color: #8A9E98  /* Eucalyptus — labels de section, SAUF rubrique « Prendre soin de moi » (groupes chauds A/B) : labels de section + eyebrow en brun #8A4030 */
 ```
 
 ---
@@ -191,53 +190,140 @@ color: #8A9E98  /* Eucalyptus — toujours pour les labels de section */
 </div>
 ```
 
-### Card protocole
+### Affichage d'un protocole — ordre et encarts des 8 rubriques
+
+**Règle absolue : chaque rubrique est un encart coloré distinct.** Aucune rubrique en texte nu. Toujours dans cet ordre :
+
+| # | Rubrique | Champ JSON | Fond | Bordure | Texte label |
+|---|----------|-----------|------|---------|-------------|
+| 1 | Ce qui se passe | `explication` | `#E8F0F2` | gauche 3px `#8FB4BC` | `#3A5A64` |
+| 2 | Pour toi, parent | `ancrage` | `#F8E0D8` | gauche 3px `#E0A48E` | `#8A4030` (italique) |
+| 3 | Action immédiate | `action_immediate` | `#F5D0C8` | gauche 3px `#D4604A` | `#8A3020` |
+| 4 | Pour aller plus loin | `pour_aller_plus_loin` | `#F8DBC8` | gauche 3px `#DB936B` | `#9A4F2A` |
+| 5 | Geste doux | `geste_doux` | `#DCE9CF` | gauche 3px `#82A56A` | `#3F5C2E` |
+| 6 | Principe à retenir | `principe` | `#E8F0F2` | gauche 3px `#8A9E98` | `#384E48` |
+| 7 | Erreurs à éviter | `erreurs_a_eviter` | `#E4DDD6` | gauche 3px `#B4A89C` | `#5A4A40` |
+| 8 | Cadre de sécurité | `consulter_si` | `#EDE9E4` | **cadre complet 1px `#D4604A`** | `#8A3020` |
+
+**Règles transverses :**
+- Bordure gauche 3px + `borderRadius: '0 12px 12px 0'` pour les rubriques 1 à 7. **Exception rubrique 8** : bordure complète `1px solid #D4604A` + `borderRadius: 10` (cadre fermé, signal d'alerte).
+- Label de section : 9px, uppercase, `letter-spacing: .07em`, **font-weight 700**, couleur = texte du tableau.
+- **Démarcation forte avant le `:`** (font-weight 700) sur Action immédiate, Geste doux ET Pour aller plus loin.
+- **Pastilles numérotées pleines** (fond = couleur de bordure, chiffre `#FFFFFF`, poids 700) sur Action immédiate et Geste doux.
+- **Compléments de titre** : Action immédiate et Geste doux affichent leur `titre` complet (ex. « Action immédiate — désamorcer le moment du repas »). Les autres rubriques ont un label fixe.
+- **Erreurs à éviter** : chaque erreur précédée d'une croix `✕` rouge `#D4604A` (poids 700), pas de pastille numérotée.
+- **Ne JAMAIS réafficher le champ `situation`** sur l'écran d'un protocole ouvert : il fait doublon avec le `titre`. Le champ `situation` ne sert que de libellé de bouton dans la liste d'une catégorie.
+
+### Helper de rendu — gras avant le `:`
 
 ```tsx
-/* Exemple — action immédiate */
+/* Réutilisé par Action immédiate, Geste doux et Pour aller plus loin */
+function ligneAvecAmorce(texte: string) {
+  const i = texte.indexOf(':');
+  if (i === -1) return <>{texte}</>;
+  return <><strong style={{fontWeight: 700}}>{texte.slice(0, i).trim()} :</strong>{texte.slice(i + 1)}</>;
+}
+```
+
+### Encart simple (Ce qui se passe / Pour toi parent / Principe)
+
+```tsx
 <div style={{
-  background: '#F5D0C8',
-  borderLeft: '3px solid #D4604A',
-  borderRadius: '0 12px 12px 0',
-  padding: '11px 13px',
-  marginBottom: 6
+  background: BG, borderLeft: `3px solid ${ACCENT}`,
+  borderRadius: '0 12px 12px 0', padding: '11px 13px', marginBottom: 8
 }}>
-  <div style={{fontSize: 9, fontWeight: 600, textTransform: 'uppercase',
-               letterSpacing: '.07em', color: '#8A3020', marginBottom: 5}}>
-    Action immédiate
+  <div style={{fontSize: 9, fontWeight: 700, textTransform: 'uppercase',
+               letterSpacing: '.07em', color: TEXT, marginBottom: 5}}>{label}</div>
+  <div style={{fontSize: 11, color: TEXT, lineHeight: 1.55 /* italic pour "Pour toi parent" */}}>
+    {contenu}
   </div>
-  {steps.map((step, i) => (
-    <div key={i} style={{display: 'flex', gap: 6, alignItems: 'flex-start', marginBottom: 4}}>
+</div>
+```
+
+### Encart à étapes numérotées (Action immédiate = Corail / Geste doux = Sauge)
+
+```tsx
+/* AI: BG #F5D0C8, ACCENT #D4604A, TEXT #8A3020
+   GD: BG #DCE9CF, ACCENT #82A56A, TEXT #3F5C2E */
+<div style={{
+  background: BG, borderLeft: `3px solid ${ACCENT}`,
+  borderRadius: '0 12px 12px 0', padding: '11px 13px', marginBottom: 8
+}}>
+  <div style={{fontSize: 9, fontWeight: 700, textTransform: 'uppercase',
+               letterSpacing: '.07em', color: TEXT, marginBottom: 7}}>
+    {bloc.titre}  {/* titre complet du JSON, avec son complément après le tiret */}
+  </div>
+  {bloc.etapes.map((step, i) => (
+    <div key={i} style={{display: 'flex', gap: 6, alignItems: 'flex-start', marginBottom: 5}}>
       <div style={{
-        width: 17, height: 17, borderRadius: '50%', fontSize: 9, fontWeight: 600,
+        width: 17, height: 17, borderRadius: '50%', fontSize: 9, fontWeight: 700,
         display: 'flex', alignItems: 'center', justifyContent: 'center',
-        flexShrink: 0, marginTop: 1,
-        background: '#F5D0C8', color: '#8A3020',
-        border: '0.5px solid #D4604A'
+        flexShrink: 0, marginTop: 1, background: ACCENT, color: '#FFFFFF'
       }}>{i + 1}</div>
-      <div style={{fontSize: 11, color: '#3A3228', lineHeight: 1.5}}>{step}</div>
+      <div style={{fontSize: 11, color: '#3A3228', lineHeight: 1.5}}>{ligneAvecAmorce(step)}</div>
     </div>
   ))}
 </div>
 ```
 
-### Phrase d'ancrage
+### Encart « Pour aller plus loin » (Terracotta) — gras avant le `:`
 
 ```tsx
 <div style={{
-  background: '#E8F0F2',
-  borderRadius: 8,
-  padding: '9px 11px',
-  fontSize: 11,
-  color: '#384E48',
-  fontStyle: 'italic',
-  borderLeft: '2px solid #8A9E98',
-  lineHeight: 1.6,
-  marginBottom: 7
+  background: '#F8DBC8', borderLeft: '3px solid #DB936B',
+  borderRadius: '0 12px 12px 0', padding: '11px 13px', marginBottom: 8
 }}>
-  {anchorText}
+  <div style={{fontSize: 9, fontWeight: 700, textTransform: 'uppercase',
+               letterSpacing: '.07em', color: '#9A4F2A', marginBottom: 7}}>
+    Pour aller plus loin
+  </div>
+  {points.map((pt, i) => (
+    <div key={i} style={{fontSize: 11, color: '#3A3228', lineHeight: 1.5, marginBottom: 5}}>
+      {ligneAvecAmorce(pt)}
+    </div>
+  ))}
 </div>
 ```
+
+### Encart « Erreurs à éviter » (Gris + croix rouges)
+
+```tsx
+<div style={{
+  background: '#E4DDD6', borderLeft: '3px solid #B4A89C',
+  borderRadius: '0 12px 12px 0', padding: '11px 13px', marginBottom: 8
+}}>
+  <div style={{fontSize: 9, fontWeight: 700, textTransform: 'uppercase',
+               letterSpacing: '.07em', color: '#5A4A40', marginBottom: 7}}>
+    Erreurs à éviter
+  </div>
+  {erreurs.map((err, i) => (
+    <div key={i} style={{display: 'flex', gap: 7, alignItems: 'flex-start', marginBottom: 5}}>
+      <span style={{color: '#D4604A', fontWeight: 700, fontSize: 12, lineHeight: 1.4, flexShrink: 0}}>✕</span>
+      <div style={{fontSize: 11, color: '#5A4A40', lineHeight: 1.5}}>{err}</div>
+    </div>
+  ))}
+</div>
+```
+
+### Encart « Cadre de sécurité » (Gris clair + cadre rouge complet)
+
+```tsx
+<div style={{
+  background: '#EDE9E4', border: '1px solid #D4604A',
+  borderRadius: 10, padding: '11px 13px', marginBottom: 0
+}}>
+  <div style={{fontSize: 9, fontWeight: 700, textTransform: 'uppercase',
+               letterSpacing: '.07em', color: '#8A3020', marginBottom: 5}}>
+    Cadre de sécurité
+  </div>
+  <div style={{fontSize: 11, color: '#5A4A40', lineHeight: 1.55}}>{consulterSi}</div>
+</div>
+```
+
+### TopBar du protocole — dégrisée
+
+La bande du haut (prénom + mois + saison) reste sur le **fond Cream** (`#F2EDE8`), pas en Peach. Une simple séparation basse `0.5px solid #E4DDD6` suffit. Cela allège l'écran et laisse les 8 blocs porter la couleur.
+
 
 ### Boutons
 
@@ -392,19 +478,34 @@ Navigation fixe (5 onglets — icônes SVG outline)
 8. **Les patterns SVG des modules** ont toujours une opacité entre 0.15 et 0.20
 9. **Fond général systématique** : #F2EDE8 (Cream) — jamais de blanc pur
 10. **Couleur active de la nav** : #D4604A (Coral) — inactive : #8A9E98 (Eucalyptus)
+11. **Ordre des rubriques d'un protocole** (jamais réordonner) : Ce qui se passe → Pour toi parent → Action immédiate → Pour aller plus loin → Geste doux → Principe → Erreurs à éviter → Cadre de sécurité
+12. **Toutes les rubriques sont des encarts colorés** — même codes graphiques (fond clair + bordure gauche 3px + radius `0 12px 12px 0`)
+13. **Action immédiate = Ocre #C77B3C**, jamais rouge/Coral — l'urgence reste douce, pas anxiogène
+14. **Action immédiate = Corail `#D4604A`** (fond `#F5D0C8`) — décision fondatrice assumée
+15. **Démarcation forte avant le `:`** (font-weight 700) sur Action immédiate, Geste doux ET Pour aller plus loin — pour une lecture rapide de l'essentiel
+16. **Pastilles numérotées pleines** (fond coloré + chiffre blanc) sur Action immédiate et Geste doux — jamais en contour
+17. **8 blocs colorés, aucune rubrique en texte nu** ; ordre fixe : Ce qui se passe → Pour toi parent → Action immédiate → Pour aller plus loin → Geste doux → Principe → Erreurs → Cadre
+18. **Ne jamais réafficher le champ `situation`** sur l'écran d'un protocole (doublon du titre) ; il ne sert que de libellé de bouton dans la liste d'une catégorie
+19. **Cadre de sécurité = cadre rouge complet** (`1px solid #D4604A`, radius 10) ; **Erreurs à éviter = croix ✕ rouges** devant chaque ligne
+20. **TopBar du protocole dégrisée** : fond Cream `#F2EDE8`, pas de Peach
+21. **Bouton Épingler réservé aux blocs réflexologie dédiés** (`reflexologie_du_coucher`) — jamais sur le Geste doux des protocoles Guide-moi
 
 ---
 
 ## Récapitulatif palette — référence rapide
 
 ```
-Cream      #F2EDE8   → fond général
-Peach      #F0B8A8   → topbar, accents
-Coral      #D4604A   → action, CTA, urgence
-Latte      #C89878   → explication, neutre
-Rain       #C8D8DC   → réflexo, doux
-Eucalyptus #8A9E98   → parent, nav, labels
+Cream      #F2EDE8   → fond général + topbar protocole
+Peach      #F0B8A8   → accents ; bloc « Pour toi parent » (fond #F8E0D8 / bord #E0A48E)
+Coral      #D4604A   → action immédiate, croix erreurs, cadre sécurité, CTA, nav active
+Terracotta #DB936B   → pour aller plus loin (fond #F8DBC8 / texte #9A4F2A)
+Sauge      #82A56A   → geste doux (fond #DCE9CF / texte #3F5C2E)
+Rain       #8FB4BC   → ce qui se passe (fond #E8F0F2 / texte #3A5A64) + module coucher
+Eucalyptus #8A9E98   → principe à retenir, nav, labels
+Gris       #B4A89C   → erreurs à éviter (fond #E4DDD6) ; cadre sécurité (fond #EDE9E4)
 ```
+
+> Note : l'ancien Ocre et l'ancien Latte ne sont plus utilisés sur les blocs de protocole (remplacés par Corail et Terracotta).
 
 
 ---

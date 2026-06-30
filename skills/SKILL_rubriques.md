@@ -1,13 +1,15 @@
 # SKILL_rubriques.md — Structure éditoriale des 6 rubriques par mois
 
 > Lire ce fichier AVANT de générer le contenu d'un nouveau mois.
-> Ce skill définit la structure JSON, le ton, les conventions transverses, et la convention de l'adjectif du mois.
+> Ce skill définit la structure JSON, le ton, les conventions transverses, la convention de l'adjectif du mois et la convention des libellés de situation.
+>
+> **Version 2.1 — section 4.1bis enrichie de la distinction `situation` vs `titre` (méthode de génération à partir du titre éditorial).**
 
 ---
 
 ## 1. Vue d'ensemble
 
-Chaque mois (de 0 à 23, soit 24 mois de contenu) contient **6 fichiers JSON** dans un dossier `mois{XX}/` :
+Chaque mois (de 0 à 24) contient **6 fichiers JSON** dans un dossier `mois{XX}/` :
 
 | # | Fichier | Rubrique app | Statut éditorial |
 |---|---------|--------------|------------------|
@@ -22,7 +24,7 @@ Chaque mois (de 0 à 23, soit 24 mois de contenu) contient **6 fichiers JSON** d
 
 ---
 
-## 2. Convention de l'adjectif du mois ⭐ (NOUVEAU)
+## 2. Convention de l'adjectif du mois ⭐
 
 Chaque mois est qualifié par **un adjectif unique** qui résume le moment développemental. Cet adjectif :
 - Apparaît dans `06_jeux.json` (clé `adjectif_du_mois`) et dans le `sous_titre`
@@ -39,7 +41,7 @@ Chaque mois est qualifié par **un adjectif unique** qui résume le moment déve
 }
 ```
 
-### Table des adjectifs proposés pour les 24 mois (M0 à M23)
+### Table des adjectifs proposés pour les 24 mois
 
 Liste à **valider ou ajuster** avec la fondatrice mois par mois. Les adjectifs doivent évoquer un mouvement développemental, pas un état figé.
 
@@ -68,7 +70,8 @@ Liste à **valider ou ajuster** avec la fondatrice mois par mois. Les adjectifs 
 | 20 | Le Symbolique | Jeu de faire-semblant, imagination débordante |
 | 21 | Le Sociable | Intérêt pour les autres enfants, premiers jeux parallèles |
 | 22 | Le Tendre | Câlins spontanés, déclarations d'amour |
-| 23 | L'Aventurier | Course, sauts, escalade, confiance corporelle, pré-conscience de soi qui émerge |
+| 23 | L'Aventurier | Course, sauts, escalade — confiance corporelle |
+| 24 | L'Émergent | Pré-conscience de soi, "je", projets simples |
 
 **Règles d'ajustement :**
 - Si la fondatrice préfère un autre adjectif pour un mois, l'ancien est archivé en commentaire dans le JSON
@@ -107,59 +110,230 @@ Notes :
 ### 4.1 `01_protocoles.json` — Guide-moi ! (Référence — le plus développé)
 
 **Format :**
-- `categories` : liste de 8 catégories (id, nom, sous_titre, icone)
+- `categories` : liste de 8 catégories (id, nom, icone — **pas de sous_titre** : le nom seul suffit)
 - `protocoles` : liste de 32 protocoles (4 par catégorie)
 
 **Structure d'un protocole :**
 ```json
 {
   "categorie": "colere",
-  "situation": "Crise de colère intense depuis 20 minutes",
+  "situation": "CRISE DE COLÈRE / qui dure depuis 20 minutes",
   "titre": "Crise de colère intense qui dure",
   "explication": "3-5 phrases sur le mécanisme neuro/développemental",
   "ancrage": "1-2 phrases adressées au parent",
   "action_immediate": {
-    "couleur_fond": "#FCEBEB",
-    "couleur_texte": "#A32D2D",
+    "couleur_fond": "#F4E2CE",
+    "couleur_texte": "#8A4E1C",
     "titre": "Action immédiate",
-    "etapes": ["...", "..."]  // 5 étapes max
+    "etapes": ["...", "..."]
   },
   "geste_doux": {
-    "couleur_fond": "#E1F5EE",
-    "couleur_texte": "#085041",
+    "couleur_fond": "#DCE9CF",
+    "couleur_texte": "#3F5C2E",
     "titre": "Geste doux — après la crise uniquement",
-    "etapes": ["...", "..."]  // 5 étapes max
+    "etapes": ["...", "..."]
   },
-  "pour_aller_plus_loin": ["...", "...", "...", "..."],  // 4 points
+  "pour_aller_plus_loin": ["...", "...", "...", "..."],
   "principe": "1 phrase de fond — la règle générale",
-  "erreurs_a_eviter": ["...", "...", "...", "..."],  // 4 erreurs max
+  "erreurs_a_eviter": ["...", "...", "...", "..."],
   "consulter_si": "Critères médicaux objectifs"
 }
 ```
 
 **Voir `SKILL_protocole.md` pour les règles détaillées de rédaction.**
 
+---
+
+### 4.1bis ⭐ Convention obligatoire du champ `situation`
+
+**Cette convention s'applique à toutes les 32 situations de chaque fichier `01_protocoles.json`, pour tous les mois (M0 à M23).**
+
+#### Format obligatoire
+
+Chaque situation est composée de **deux parties** séparées par un **slash entouré d'espaces** :
+
+```
+"situation": "PROBLÈME OBSERVABLE / précision contextuelle"
+```
+
+#### Règle de placement
+
+- **Première partie** (avant le `/`) = le **PROBLÈME observable**, ce qui se passe que le parent constate. C'est ce qui attire l'œil et permet de se reconnaître.
+- **Deuxième partie** (après le `/`) = la **PRÉCISION contextuelle**, la nuance, le contexte, le contre-pied. C'est ce qui affine la compréhension.
+
+#### ⚠️ Distinction `situation` vs `titre` — ne pas confondre
+
+Chaque protocole a **deux champs distincts mais liés** :
+
+| Champ | Rôle | Format |
+|-------|------|--------|
+| `situation` | Libellé affiché sur la **page 2** (liste des 4 situations d'une catégorie). Doit être scannable, rapide à reconnaître. | `PROBLÈME EN CAPITALES / précision en italique` |
+| `titre` | Titre affiché en haut de la **page 3** (détail du protocole). Plus éditorial, plus complet. | `Titre éditorial — précision contextuelle` (avec tiret cadratin `—`) |
+
+**La règle de cohérence** : `situation` est une **version typographiée et synthétisée du titre**. Le titre est la source éditoriale ; la situation est sa déclinaison UI.
+
+**Méthode de génération** :
+1. **Toujours partir du `titre`** existant — il est généralement déjà bien structuré avec un `—` qui marque la coupure problème/précision
+2. **Remplacer `—` par ` / `** et passer la première partie en CAPITALES (la casse JSON reste normale, c'est le CSS qui force les caps)
+3. **Vérifier que la première partie nomme bien le problème observable** (cf. § "Règle de placement" ci-dessus)
+4. **Raccourcir si besoin** pour que la première partie tienne sur ~30 caractères
+
+**Exemples de transformation `titre → situation`** :
+
+| `titre` (page 3) | `situation` (page 2) |
+|---|---|
+| `Régression des 3-4 mois — la grande réorganisation du sommeil` | `RÉGRESSION DES 3-4 MOIS / la grande réorganisation du sommeil` |
+| `Réflux du nourrisson — soulager au quotidien` | `REFLUX DU NOURRISSON / soulager au quotidien` |
+| `Tétées groupées du soir — le cluster feeding` | `TÉTÉES GROUPÉES DU SOIR / cluster feeding` |
+
+**Cas particuliers à reformuler** :
+- Si le `titre` n'a pas de `—` (ex : `Sommeil uniquement dans les bras`), reformuler la `situation` en deux parties en s'inspirant du contenu de l'`explication` ou de l'`ancrage`
+- Si le `titre` met l'événement positif en premier (ex : `Bon début de nuit puis réveils rapprochés`), **inverser** dans la `situation` pour mettre le problème en exergue (ex : `RÉVEILS RAPPROCHÉS / malgré un bon début de nuit`)
+
+#### Stockage dans le JSON
+
+Le slash est **stocké tel quel** dans la chaîne (pas de séparation en deux champs). L'UI s'occupe du rendu typographique (capitales sur partie 1, italique sur partie 2).
+
+```json
+{
+  "situation": "RÉVEILS RAPPROCHÉS / malgré un bon début de nuit"
+}
+```
+
+#### Casse
+
+- Dans le JSON, **la première partie est saisie en casse normale** — c'est le CSS `text-transform: uppercase` qui force les capitales à l'affichage.
+- Si la première partie contient déjà des sigles (`RGO`, `SBS`), les conserver tels quels.
+
+**Exemple correct :**
+```json
+"situation": "Réveils rapprochés / malgré un bon début de nuit"
+```
+
+**Exemple incorrect (force des accents perdus en SHIFT) :**
+```json
+"situation": "REVEILS RAPPROCHES / malgre un bon debut de nuit"
+```
+
+#### Bonnes pratiques de formulation
+
+**1. Le problème en premier (toujours)**
+
+Quand la formulation met l'événement positif en premier, **inverser** pour mettre le problème en exergue. Le parent qui consulte cherche **ce qu'il observe ou ressent**, pas le contexte.
+
+| ❌ À éviter | ✅ À préférer |
+|---|---|
+| `BON DÉBUT DE NUIT / puis réveils rapprochés` | `RÉVEILS RAPPROCHÉS / malgré un bon début de nuit` |
+| `LE RETOUR AU TRAVAIL APPROCHE / et l'angoisse monte` | `ANGOISSE DE LA REPRISE / le retour au travail approche` |
+| `COMPARAISON AUX AUTRES / et culpabilité` | `CULPABILITÉ DE PARENT / comparaison aux autres engendrée` |
+
+**2. Concision de la première partie**
+
+La partie capitales doit idéalement tenir sur **une seule ligne** dans la case (78% de largeur de 390px ≈ 290px à 12px). Compter ~30 caractères maximum.
+
+Si la première partie dépasse, le rendu de l'UI bascule automatiquement en flux continu (pas de saut artificiel entre L1 et L2). Mais c'est un cas de secours, pas l'idéal.
+
+| ❌ Trop long | ✅ Concis |
+|---|---|
+| `PLEURE DÈS QU'ON ARRÊTE DE LUI PARLER / besoin de lien` | `RÉCLAME DU LIEN / pleure dès que l'échange s'arrête` |
+
+**3. La précision en bas-de-casse — naturelle et descriptive**
+
+La deuxième partie doit ressembler à une **voix off rassurante** — comme une apposition. Elle peut commencer par :
+- une conjonction : `et culpabilité engendrée`, `malgré un bon début de nuit`, `mais avec des à-coups`
+- une précision : `jambes repliées, ventre dur`, `fièvre, point d'injection`
+- un contexte : `poussée de croissance`, `après quelques bonnes nuits`
+- une question : `comment l'accompagner`, `comment y répondre`
+
+**4. Pas de ponctuation finale**
+
+Ni point ni point d'interrogation à la fin de la deuxième partie. La case est elle-même la ponctuation visuelle.
+
+#### Application aux situations existantes (M2 — référence éditoriale)
+
+Les 32 situations du fichier `mois_02_-_01_protocoles.json` ont été reformulées selon cette convention et servent de **référence éditoriale** pour la production des autres mois :
+
+**Pleurs & inconfort**
+- `PLEURS ENCORE IMPRÉVISIBLES / malgré la fin du pic`
+- `RÉCLAME DU LIEN / pleure dès que l'échange s'arrête`
+- `COLIQUES ENCORE PRÉSENTES / jambes repliées, ventre dur`
+- `PLEURS DU SOIR / qui s'atténuent mais reviennent par vagues`
+
+**Alimentation**
+- `NOUVEAU RYTHME DE TÉTÉES / qui s'installe et m'interroge`
+- `RÉGURGITATIONS / qui persistent après les repas`
+- `INTRODUIRE LE BIBERON / pour préparer la reprise du travail`
+- `TÈTE SANS ARRÊT 1-2 JOURS / poussée de croissance`
+
+**Sommeil**
+- `RÉGRESSION DU SOMMEIL / après quelques bonnes nuits`
+- `NE FAIT QUE DES MICRO-SIESTES / en journée`
+- `RITUEL PRÉCIS / nécessaire pour s'endormir`
+- `RÉVEILS RAPPROCHÉS / malgré un bon début de nuit`
+
+**Corps & soins**
+- `PREMIERS VACCINS DES 2 MOIS / comment accompagner`
+- `TÊTE ENCORE INSTABLE / progrès avec à-coups`
+- `RÉGULATION DE TEMPÉRATURE / transpire ou a froid facilement`
+- `CHANGEMENT DE RYTHME DES SELLES / brusque et inquiétant`
+
+**Sur-stimulation**
+- `SUR-SOLLICITÉ / par les jeux et les échanges`
+- `S'EXCITE PENDANT LES GAZOUILLIS / n'arrive plus à redescendre`
+- `AGITÉ APRÈS LES VISITES / inconsolable`
+- `DÉCROCHE PENDANT LE JEU / besoin de pauses`
+
+**Lien & attachement**
+- `COMMENT RÉPONDRE AUX GAZOUILLIS / dialogue qui s'installe`
+- `SOURIT À TOUT LE MONDE / sentiment d'être interchangeable`
+- `NOUVEAU JEU D'IMITATION / comment l'accompagner`
+- `LE CO-PARENT CHERCHE SA PLACE / créer son propre lien`
+
+**Santé**
+- `RÉACTION APRÈS LES VACCINS / fièvre, point d'injection`
+- `RHUME OU RESPIRATION ENCOMBRÉE / risque de bronchiolite`
+- `PEAU RÉACTIVE / rougeurs et plaques`
+- `COLIQUES PERSISTANTES / malgré les efforts`
+
+**Parent dépassé**
+- `ANGOISSE DE LA REPRISE / le retour au travail approche`
+- `PRÉPARER LA GARDE / séparation en douceur`
+- `CHARGE MENTALE / tension dans le couple`
+- `COMPARAISON AUX AUTRES / et culpabilité engendrée`
+
+#### Mise à jour des fichiers existants
+
+Pour les fichiers `01_protocoles.json` déjà produits **avant l'introduction de cette convention** (M0, M1, M3, M6, M9, M14), le champ `situation` doit être **rétroactivement reformulé** selon cette règle.
+
+**Procédure recommandée** :
+1. Lister les 32 situations actuelles
+2. Pour chacune : identifier le problème → l'écrire en première partie + slash → ajouter la précision en seconde partie
+3. Vérifier que la première partie n'excède pas ~30 caractères
+4. Valider avec la fondatrice avant écriture
+
+---
+
 ### 4.2 `02_coucher.json` — Préparer le coucher
 
 **Structure essentielle :**
 ```json
 {
-  "reperes_cles": ["...", "...", "..."],  // 3 max
-  "rituel_etapes": [...],  // 6 étapes chronologiques
+  "reperes_cles": ["...", "...", "..."],
+  "rituel_etapes": [...],
   "reflexologie_du_coucher": {
     "titre": "...",
     "duree_totale": "7 minutes",
     "pression": "0/10",
-    "etapes": [...]  // 6 zones réflexo
+    "etapes": [...]
   },
   "script_audio_du_soir": {
     "titre": "...",
     "duree": "~5 minutes",
     "instruction": "...",
-    "texte": "..."  // script complet avec [pause]
+    "texte": "..."
   },
-  "signaux_de_fatigue": ["...", "..."],  // 4-5 max
-  "erreurs_a_eviter": ["...", "...", "..."],  // 3 erreurs ciblées max (dont les écrans)
+  "signaux_de_fatigue": ["...", "..."],
+  "erreurs_a_eviter": ["...", "...", "..."],
   "consulter_si": "..."
 }
 ```
@@ -171,137 +345,18 @@ Notes :
 
 ### 4.3 `03_prendre_soin_de_moi.json` — Prendre soin de moi
 
-**Principe fondateur : un thème psycho-émotionnel par mois.**
-
-Chaque mois de la rubrique « Prendre soin de moi » est organisé autour d'**un thème unique** qui sert de fil rouge aux 5 conseils du mois. Les conseils ne sont plus des éléments juxtaposés : ils convergent tous vers le même travail intérieur, en l'incarnant chacun à leur manière (corps, mental, écriture, post-partum, couple).
-
-Le parent vit ainsi un seul sujet à la fois, en profondeur, et l'app entière l'accompagne dans ce travail-là.
-
-### Arc des 24 thèmes (M0 à M23)
-
-| Mois | Thème | Logique psychologique |
-|------|-------|----------------------|
-| M0 | **Habiter ton corps qui vient d'accomplir l'immense** | Le corps vient d'accomplir l'immense. Revenir physiquement dans ce corps-là. |
-| M1 | **Oser demander, comme une compétence parentale** | L'entourage se retire. Réclamer activement plutôt que recevoir, sans honte. |
-| M2 | **Trouver ta place face au travail (ou en dehors)** | Reprise effective fin M2 / début M3. Anticipation utile (englobe la non-reprise). |
-| M3 | **Te donner les moyens de tenir, sans tenir seule** | Pic clinique de la dépression post-partum. Sortir du fantasme du « ça va s'arranger vite ». |
-| M4 | **Aimer ce nouveau corps, celui d'aujourd'hui** | L'urgence retombe, la comparaison remonte. Travail de réconciliation. |
-| M5 | **Offrir du positif à ton cerveau** | Biais de négativité installé. Réentraîner le mental à voir ce qui va. |
-| M6 | **Accueillir la nouvelle personne que tu es devenue** | Mi-parcours. Deuil du soi d'avant, accueil du soi d'après. |
-| M7 | **Choisir la bienveillance envers toi-même** | Bébé devient mobile, champ des « j'aurais dû » qui s'élargit. Désamorçage de la culpabilité. |
-| M8 | **Réinventer ton couple, version parents** | Zone basse statistique du couple. Refondation possible, pas retour à « avant ». |
-| M9 | **Alléger ta charge mentale, retrouver ta clarté** | Brouillard cognitif du post-partum tardif, souvent ignoré. |
-| M10 | **Rallumer ce qui te fait vibrer** | Désir (sexuel, créatif, professionnel) qui revient ou pas. Faire le tri. |
-| M11 | **Lâcher prise, faire confiance à la vie** | L'enfant marche bientôt, l'illusion de contrôle vacille. |
-| M12 | **Célébrer une année de transformation** | Premier anniversaire. Bilan symbolique, sans minimiser ni dramatiser. |
-| M13 | **Être le parent que toi seule peux être** | « Moins que », « plus que ». Désengagement de la comparaison sociale. |
-| M14 | **Te retrouver, comme personne à part entière** | L'enfant explore. Reprise d'un espace intérieur propre. |
-| M15 | **Poser tes limites avec sérénité** | Opposition naissante. Dire non à l'enfant, mais aussi aux autres. |
-| M16 | **Accueillir l'imperfection comme un cadeau** | « Moi tout seul ». Accepter que ni l'un ni l'autre ne soit parfait. |
-| M17 | **T'aimer, pour mieux aimer ton enfant** | Empathie naissante. L'enfant imite le rapport du parent à lui-même. |
-| M18 | **Écouter ce dont tu as vraiment besoin** | Premières phrases. Le parent réapprend à nommer ses besoins. |
-| M19 | **Inventer un rythme qui te respecte aussi** | Routines intégrées. Réinscrire ses propres rythmes dans la journée. |
-| M20 | **Réveiller ton imagination, ton monde intérieur** | Faire-semblant chez l'enfant. Réactiver sa créativité étouffée. |
-| M21 | **Te montrer telle que tu es, avec confiance** | Jeux parallèles. Exposition accrue au regard extérieur. |
-| M22 | **T'autoriser à recevoir la tendresse** | Câlins spontanés. Apprendre à recevoir sans renvoyer. |
-| M23 | **Faire confiance à ton enfant, faire confiance à toi** | L'enfant grimpe, court, ose. Confiance mutuelle qui s'installe. |
-
-**Arc général :**
-- **M0–M5** : survie physique et émotionnelle
-- **M6–M11** : reconfiguration identitaire
-- **M12–M17** : réémergence
-- **M18–M23** : projection et ouverture
-
-**Règle d'unicité :** chaque thème n'est utilisé qu'une seule fois sur les 24 mois. La table figure également dans `CONTENT_INDEX.md` comme table d'unicité.
-
-### Hiérarchie visuelle (UI) et structure des champs
-
-La rubrique « Prendre soin de moi » a une **double mise en scène du thème** : la maman comprend la stratégie du mois dès l'entrée dans la rubrique, puis la retrouve à chaque sous-catégorie. Cette double mise en scène est portée par **deux champs sémantiques distincts** dans le JSON :
-
-- **`nom_outil`** = nom canonique du type de conseil (ex. *« Auto-massage de réflexologie »*)
-- **`promesse`** = phrase qui incarne le travail du mois sur ce support (ex. *« Décharger la tension de tout porter, à mains nues »*)
-
-L'UI choisit lequel afficher en grand selon l'écran. Pas d'inversion logique à gérer, juste deux champs explicites.
-
-#### Logique d'affichage selon l'écran
-
-| Écran | En grand (titre principal) | En petit (sous-titre / étiquette) |
-|-------|----------------------------|-----------------------------------|
-| **En-tête de la rubrique** (page d'accueil « Prendre soin de moi ») | `promesse_du_mois` (= phrase du thème) | `nom_rubrique` (= « Prendre soin de moi ») |
-| **Liste des conseils** (cartes sur la page d'accueil de la rubrique) | `nom_outil` de chaque conseil | `promesse` de chaque conseil (en chapô court) |
-| **Détail d'un conseil** (quand on a cliqué) | `promesse` du conseil | `nom_outil` du conseil |
-
-**Pourquoi cette double mise en scène :**
-- Sur la page d'accueil, la maman doit pouvoir **repérer rapidement les outils** qu'elle veut utiliser (massage, méditation, etc.). Le nom de l'outil reste l'élément le plus reconnaissable visuellement.
-- En entrant dans un conseil, la maman doit **se reconnecter au thème** du mois. C'est la promesse qui devient titre, l'outil ne fait que la servir.
-- En haut de la rubrique, c'est la **promesse du mois** qui est mise en avant (et non « Prendre soin de moi »), pour que la maman comprenne immédiatement la stratégie psycho-émotionnelle du mois.
-
-#### Convention de nommage des champs
-
-Au niveau **racine** du fichier :
-
-| Champ | Valeur | Rôle |
-|-------|--------|------|
-| **`nom_rubrique`** | « Prendre soin de moi » | Nom canonique de la rubrique, affiché en petit en en-tête |
-| **`promesse_du_mois`** | Phrase du thème (ex. *« Oser demander, comme une compétence parentale »*) | Promesse affichée en grand en en-tête |
-| **`theme_du_mois`** | Même valeur que `promesse_du_mois` | Redondance volontaire pour les traitements analytiques et tables d'unicité |
-| **`intention_du_mois`** | 2-3 phrases | Chapô qui pose le travail intérieur visé |
-
-Au niveau de **chaque conseil** :
-
-| Champ | Valeur | Rôle |
-|-------|--------|------|
-| **`nom_outil`** | Étiquette standardisée (« Auto-massage de réflexologie », « Méditation audio », « Auto-reconnaissance », « La réalité du post-partum », « Challenge couple ») | Affiché en grand sur la page liste, en petit sur la page détail |
-| **`promesse`** | Phrase qui incarne le travail du mois sur ce support | Affichée en petit (chapô) sur la page liste, en grand sur la page détail |
-
-#### Implications pour la rédaction
-
-- Le **`promesse_du_mois`** (et son miroir `theme_du_mois`) doivent être travaillés comme un **titre de couverture de magazine** : court, incarné, à l'action ou au positif. Verbes d'action de préférence, ton qui donne envie d'ouvrir.
-- L'**`intention_du_mois`** doit être travaillée comme un **chapô** : 2-3 phrases qui posent ce qui se joue et ce que la maman va y trouver.
-- La **`promesse` de chaque conseil** doit être travaillée comme un **titre d'article** : suffisamment riche pour porter seule une promesse claire, et suffisamment liée au thème pour qu'on sente le fil rouge. Lisible et accrocheuse aussi bien en petit (chapô sur la page liste) qu'en grand (titre principal sur la page détail).
-- Le **`nom_outil`** reste **strictement standardisé** d'un mois à l'autre. Il y a exactement 5 valeurs possibles, jamais d'autres. C'est le repère visuel stable de la rubrique.
-
-#### Exception pour le challenge couple : impératif pluriel « -ez » autorisé
-
-Le challenge couple est le **seul conseil qui s'adresse au couple** (les autres s'adressent à la maman seule). Pour cette raison, sa `promesse` peut adopter un ton d'**invitation directe à l'impératif pluriel** : *« Tirez une carte : demandez sans honte »*, *« Dessinez vos 3 prochains mois ensemble »*, *« Posez une main, en silence, 1 minute »*.
-
-Cette tournure n'est **pas obligatoire**. Selon l'effet recherché, la `promesse` peut aussi prendre une forme nominale ou évocatrice (*« Le dessin partagé : imaginer les 3 prochains mois »*). Le rédacteur choisit au cas par cas.
-
-#### Règles d'écriture pour le `promesse_du_mois`
-
-- **Mode action ou positif** : commencer par un verbe d'action (« Habiter », « Oser », « Accueillir », « Choisir ») ou évoquer un état positif vers lequel on va.
-- **Pas de formulation centrée sur le problème** : éviter « Sortir de… », « Tenir dans… », « Lutter contre… » sauf quand l'action est elle-même un mouvement positif (« Lâcher prise »).
-- **Première personne (voix « je »)** : voir la règle de voix ci-dessous. Le titre porte la voix de la maman parlant d'elle-même — forme infinitive + pronoms *me / mon / ma* (« Me donner les moyens… », « Habiter mon corps… »). Jamais *te / ton / ta / tes / toi*.
-- **Pas d'écriture inclusive typographique** (voir SKILL_contenu.md). Féminin assumé puisque la rubrique s'adresse aux mamans.
-- **Longueur** : 4 à 10 mots idéalement, pour rester lisible en grand.
-
-#### Règle de voix ⭐ (titres + intro à la 1re personne)
-
-On est dans « Prendre soin de **moi** ». La voix dépend du niveau :
-- **1re personne** (je / me / m' / mon / ma / mes / moi), forme infinitive : `promesse_du_mois`, l'`intention_du_mois` (intro page 1, signature « Ce mois **m'**invite à… ») et la `promesse` des conseils 1 à 4. Ex. : « Me donner les moyens de tenir », « Écrire à mon corps », « Mon corps à 4 mois ». **Jamais** *te / ton / ta / tes / toi*.
-- **Tutoiement conservé** dans tout le **corps des pages de détail** : `intro` du conseil, `consigne`, `texte_meditation`, `pour_la_maman` / `pour_le_papa_co_parent`, `amorces_si_blocage`, `principe`, `challenge_du_mois`. (La maman lit le titre comme sa propre intention ; le corps l'accompagne en la tutoyant.)
-- **Conseil 5 (challenge couple)** : exception déjà décrite — la `promesse` s'adresse au couple, à l'**impératif pluriel** (« Composez… ») ou en forme nominale (« Le dessin partagé »).
-- Les **titres expriment une thématique**, jamais une consigne d'usage (« À écouter le soir… » est proscrit).
-
-### Structure JSON
+**Structure validée :** 6 conseils numérotés, format direct, sans multi-découpage.
 
 ```json
 {
-  "mois": 0,
-  "tranche_age": "...",
-  "rubrique": "prendre_soin_de_moi",
-  "nom_rubrique": "Prendre soin de moi",     // nom canonique — affiché en petit en en-tête
-  "promesse_du_mois": "...",                 // phrase du thème — affichée en grand en en-tête
-  "theme_du_mois": "...",                    // même valeur que promesse_du_mois (redondance pour traitements analytiques)
-  "intention_du_mois": "...",                // 2-3 phrases qui explicitent le travail intérieur visé
   "description": "...",
   "conseils": [
     {
       "id": "auto_massage_reflexologie",
       "numero": 1,
       "icone": "🤲",
-      "nom_outil": "Auto-massage de réflexologie",  // étiquette standardisée — affichée en grand sur la liste, en petit sur le détail
-      "promesse": "...",                            // phrase qui incarne le travail du mois — affichée en petit sur la liste, en grand sur le détail
+      "titre": "...",
+      "sous_titre": "...",
       "intro": "...",
       ...
     },
@@ -310,370 +365,24 @@ On est dans « Prendre soin de **moi** ». La voix dépend du niveau :
 }
 ```
 
-**Notes structurelles :**
-- **Le `nom_rubrique` vaut toujours « Prendre soin de moi »** (le nom canonique de la rubrique).
-- **Le `promesse_du_mois` porte la phrase du thème** (ex. *« Oser demander, comme une compétence parentale »*).
-- **Le `theme_du_mois` reprend la même valeur que `promesse_du_mois`** (redondance volontaire pour les traitements analytiques et tables d'unicité).
-- **Le `nom_outil` reste strictement standardisé** d'un mois à l'autre : il y a exactement 5 valeurs possibles (Auto-massage de réflexologie, Méditation audio, Auto-reconnaissance, La réalité du post-partum, Challenge couple).
-- **La `promesse` d'un conseil porte la phrase qui incarne le travail du mois** sur ce support. Elle doit être travaillée comme un titre d'article : suffisamment riche pour porter seule, suffisamment liée au thème pour qu'on sente le fil rouge.
-- **Pas de `frequence_conseillee` nulle part** — la cadence imposée induit une charge mentale supplémentaire pour le parent. **Exception unique : l'auto-massage** peut conserver des durées précises par geste (60 sec sur ce point, 30 sec sur l'autre), parce que c'est une mécanique de pratique, pas une cadence dans la semaine.
-- **`promesse_du_mois`** et **`intention_du_mois`** sont les deux clés structurantes qui orientent tout le contenu du mois.
+**Les 6 conseils fixes (ordre stable mois par mois, contenu variable) :**
 
-### Les 5 conseils — structure stable, contenu aligné sur le thème
+1. **Auto-massage de réflexologie** — soutient les maux/émotions parentales du moment (stress, fatigue de portage, insomnie, troubles digestifs, allaitement). 4 points sur les mains, accessibles partout.
 
-La rubrique est composée de **5 conseils** (et non 6). L'ancienne section « Célébrer les petites victoires » a été supprimée : la dynamique de reconnaissance est désormais portée par l'auto-reconnaissance, dont le format est plus engageant.
+2. **Méditation audio** — script complet de 5-7 min, à écouter le soir. Fréquence indicative (hebdo ou quotidien).
 
-L'ordre est stable mois par mois. Chaque conseil incarne le thème à sa manière propre.
+3. **Célébrer les petites victoires** — pour soi, pour son bien-être. Notion de récurrence (quotidien ou hebdomadaire). 5-6 exemples concrets.
 
-| # | Type de conseil | Rôle dans le thème |
-|---|-----------------|---------------------|
-| 1 | Auto-massage de réflexologie | Le thème **dans le corps** (mains, points réflexes) |
-| 2 | Méditation audio | Le thème **dans l'esprit** (visualisation, parole intérieure) |
-| 3 | Auto-reconnaissance | Le thème **dans l'écriture** (format variable mois par mois) |
-| 4 | Réalité du post-partum | Le thème **dans la réalité physiologique et psychique** (maman + papa/co-parent) |
-| 5 | Challenge couple | Le thème **dans le lien à deux** (mini-jeu hebdomadaire) |
+4. **Auto-reconnaissance** — participatif, format à varier mois par mois (liste écrite, voix enregistrée, lettre à soi-même...). Toujours avec `espace_pour_ecrire: true` ou équivalent. Donner 4-5 amorces si blocage.
 
-#### Conseil 1 — Auto-massage de réflexologie
+5. **Réalité du post-partum maman ET papa** — deux sections distinctes. Plus dense dans les premiers mois (M0 à M6), plus condensé après. Bienveillant, sans jugement. Toujours inclure : signaux à ne pas négliger + qui consulter (3114, sage-femme, MonParcoursPsy, Allo Parents Bébé, Maman Blues).
 
-**Format :** 4 points sur les mains, accessibles partout (pendant une tétée ou un biberon, dans les transports, au bureau).
-
-**Choix des 4 points :** doivent être alignés sur le thème (ex. thème « brouillard mental » → hypophyse, thyroïde, foie, reins ; thème « lâcher prise » → plexus solaire, diaphragme, nerf vague, épaules).
-
-**Timing autorisé sur ce conseil uniquement.** Indiquer la durée précise de chaque geste (60 sec, 45 sec, 30 sec). C'est une mécanique de pratique, pas une cadence imposée dans la semaine.
-
-**Structure JSON :**
-```json
-{
-  "id": "auto_massage_reflexologie",
-  "numero": 1,
-  "icone": "🤲",
-  "nom_outil": "Auto-massage de réflexologie",  // étiquette standardisée
-  "promesse": "...",                            // phrase qui incarne le geste sur le thème du mois
-  "intro": "...",            // 3-4 phrases qui relient le geste au thème du mois
-  "duree": "5 minutes",
-  "indications": ["...", "..."],   // 4-5 ressentis ciblés par les points choisis
-  "points": [
-    { "zone": "...", "geste": "...", "effet": "..." },
-    ...   // 4 points
-  ],
-  "cloture": "..."           // 1-2 phrases pour clore le rituel (chaleur, ancrage)
-}
-```
-
-#### Conseil 2 — Méditation audio — GRAMMAIRE DÉTAILLÉE
-
-##### Principe : la voix dit « je »
-
-Les méditations sont écrites à la **première personne du singulier**, et non plus à la deuxième. C'est le parent qui énonce intérieurement sa propre expérience, comme s'il (re)prenait possession de la parole.
-
-Cette grammaire est inspirée du **training autogène de Schultz**, des pratiques d'auto-compassion de Kristin Neff, et de l'hypnose ericksonienne — où le sujet n'est pas guidé de l'extérieur mais énonce de l'intérieur.
-
-| Grammaire « tu » (à NE PAS utiliser) | Grammaire « je » (à utiliser) |
-|--------------------------------------|-------------------------------|
-| « Pose une main sur ton ventre » | « Je pose une main sur mon ventre » |
-| « Ton corps a fait quelque chose d'immense » | « Mon corps a fait quelque chose d'immense » |
-| « Tu peux te détendre » | « Je peux me détendre » |
-| « Respire lentement » | « Je respire lentement » |
-| « Tes épaules portent beaucoup » | « Mes épaules portent beaucoup » |
-
-**Le « je » est intégral.** Pas de mélange « tu/je » dans une même méditation. Si une consigne d'ouverture est nécessaire (avant que le « je » s'installe), elle peut être donnée dans le champ `instruction` du JSON, en dehors du `texte_meditation`.
-
-##### Longueur et densité
-
-- **Durée cible : 6 à 8 minutes** (vs ~5 min avant). Plus long permet vraiment d'entrer dans l'état méditatif.
-- **Densité textuelle : environ 400 à 600 mots de texte parlé**, pauses incluses dans le décompte de durée.
-- Lecture lente : compter environ **80 mots par minute** une fois pauses intégrées (vs 130-150 en parole normale).
-
-##### Structure en 5 mouvements
-
-Toute méditation suit cette progression :
-
-1. **Ancrage corporel (30-60 sec)** — *Je m'installe. Je pose une main sur… Je respire…*  
-   Court, simple, accessible même épuisé·e.
-
-2. **Reconnaissance de l'état présent (60-90 sec)** — *Je suis fatigué·e. Mon corps porte beaucoup. Je ne sais pas toujours où je suis. C'est ok.*  
-   Nommer ce qui est, sans juger, sans réparer.
-
-3. **Cœur thématique (2 à 4 min)** — partie la plus longue, qui incarne le travail intérieur du thème. C'est ici qu'on peut **introduire de la visualisation** (voir ci-dessous).
-
-4. **Permission/libération (60-90 sec)** — *J'ai le droit de… Je peux laisser… Je n'ai pas à…*  
-   Une parole de relâchement, qui ouvre.
-
-5. **Clôture et retour (30-60 sec)** — *Je garde une main sur… Je reviens doucement…*  
-   Le retour n'est jamais brutal. Il y a toujours un pont vers la suite (revenir à bébé, ouvrir les yeux, se rendormir).
-
-##### Visualisation (à intégrer quand le thème s'y prête)
-
-Pour les thèmes qui le permettent (M4 corps qui a changé, M9 brouillard mental, M10 désir propre, M11 lâcher prise, M14 individualité, M20 imagination…), introduire une **séquence de visualisation** dans le cœur thématique.
-
-**Types de visualisations possibles :**
-- **Visualisation corporelle** — *J'imagine une lumière douce qui descend depuis le sommet de mon crâne…*
-- **Visualisation symbolique** — *Je vois une rivière. Sur cette rivière, je dépose mes pensées comme des feuilles…*
-- **Visualisation projective** — *Je me vois dans six mois. Je suis dans une pièce calme…*
-- **Visualisation de personnage** — *J'imagine la personne en moi qui sait. Comment me regarde-t-elle ? Que me dit-elle ?*
-
-**Règles pour les visualisations :**
-- Toujours commencer par « J'imagine… », « Je vois… », « Je me représente… » (pas d'injonction « imagine »).
-- Laisser des pauses longues (10-15 sec) pour que l'image s'installe.
-- Toujours offrir une porte de sortie si l'image ne vient pas : *« Si l'image ne vient pas, ce n'est pas grave. Je reste avec la sensation. »*
-- Ne pas surcharger : une seule visualisation par méditation, pas un enchaînement.
-
-##### Pauses
-
-Les pauses sont **structurelles**, pas décoratives. Elles sont notées dans le texte :
-
-- `[pause - 5 secondes]` — micro-pause de respiration
-- `[pause - 10 secondes]` — pause d'installation d'une sensation ou d'une image
-- `[pause - 15 secondes]` — pause longue (visualisation, intégration)
-
-**Fréquence indicative :** une pause toutes les 60-90 secondes de texte. Ni plus (lassant), ni moins (asphyxiant).
-
-##### Inclusivité
-
-- **Mode d'alimentation :** jamais présupposer l'allaitement. Si la méditation évoque un moment lié au lait, utiliser « pendant une tétée ou un biberon », « le moment du lait », ou contourner.
-- **Statut du parent :** jamais présupposer la maman seule. Les méditations sont écrites de telle sorte qu'un papa, un co-parent, ou un parent solo puisse les vivre.
-- **Genre :** accords inclusifs (`fatigué(e)`, `seul(e)`) ou contournements neutres (`je suis épuisé·e`, `mon état`).
-
-##### Ponctuation
-
-Pas de tiret cadratin (« — ») au milieu des phrases (voir SKILL_contenu.md). Préférer la virgule, le deux-points, ou un retour à la ligne — qui rythme particulièrement bien une méditation.
-
-##### Structure JSON du conseil 2
-
-```json
-{
-  "id": "meditation_audio",
-  "numero": 2,
-  "icone": "🎧",
-  "nom_outil": "Méditation audio",  // étiquette standardisée
-  "promesse": "...",                // phrase qui incarne le voyage intérieur sur le thème
-  "duree": "~7 minutes",
-  "intro": "...",                // 2-3 phrases pour situer le contexte d'écoute
-  "instruction": "...",          // (optionnel) consigne pratique avant le « je » : posture, écouteurs, position de bébé
-  "texte_meditation": "..."      // texte intégral en « je », avec [pause - X secondes]
-}
-```
-
-#### Conseil 3 — Auto-reconnaissance
-
-**Format participatif, adapté au thème du mois.** L'auto-reconnaissance absorbe désormais ce qui était auparavant porté par la rubrique « petites victoires » — elle peut donc, selon le thème, faire émerger des reconnaissances de soi qui ressemblent à des victoires, mais dans un format plus engageant et plus intime.
-
-**Le format change chaque mois et s'adapte au thème.** Il n'y a pas de format unique. Quelques pistes :
-
-| Type de format | Quand l'utiliser |
-|----------------|------------------|
-| **Vocal/audio** (enregistrement libre dans le téléphone) | Quand l'écriture est trop demandante (M0) ou quand la voix porte mieux la fatigue |
-| **Lettre à soi-même d'avant** | Quand le thème invite à mesurer la transformation (M6) |
-| **Récit de naissance/d'accouchement** | Quand le thème invite à immortaliser et mettre des mots (M2 par exemple) |
-| **Dialogue intérieur écrit à deux colonnes** | Quand le thème invite à faire dialoguer deux voix intérieures contradictoires (M9, M5) |
-| **Lettre de gratitude à un proche** | Quand le thème invite à reconnaître le réseau de soutien (M1) |
-| **Liste écrite de reconnaissances** | Format léger pour les mois plus apaisés |
-| **Dessin/carte mentale** | Quand le mental verbal est saturé (M9) |
-| **Lettre à son enfant à 18 ans** | Quand le thème invite à la projection (M23) |
-| **Photo + légende** | Quand le thème invite à figer un instant |
-| **Mantra personnel** | Quand le thème invite à ancrer une parole |
+6. **Challenge couple** — simple, amusant, durée 5-10 min, hebdomadaire. Un challenge différent chaque mois.
 
 **Règles transverses :**
-- Toujours accompagné d'un champ `espace_pour_ecrire: true` (ou `espace_pour_enregistrement: true` pour le vocal).
-- Toujours 4-5 amorces calibrées sur le thème en cas de blocage.
-- Toujours un `principe` court (2-3 phrases) qui explique pourquoi ce format précis a été choisi pour ce mois précis.
-- Le contenu produit appartient au parent et n'est jamais partagé.
-
-**Structure JSON du conseil 3 :**
-```json
-{
-  "id": "auto_reconnaissance",
-  "numero": 3,
-  "icone": "💗",    // ou autre, selon le format
-  "nom_outil": "Auto-reconnaissance",  // étiquette standardisée
-  "promesse": "...",                   // phrase qui incarne le format et le thème
-  "intro": "...",
-  "format_propose": "...",      // identifiant du format : "vocal_audio", "lettre_a_soi", "recit_naissance", etc.
-  "consigne": "...",            // explication concrète de comment faire
-  "amorces_si_blocage": ["...", "...", "...", "...", "..."],  // 4-5 amorces
-  "espace_pour_ecrire": true,   // ou "espace_pour_enregistrement": true
-  "principe": "..."             // 2-3 phrases qui justifient ce format pour ce mois
-}
-```
-
-**Gabarit (mise en forme de la « carte » papier) ⭐** — champ optionnel `gabarit` qui porte **uniquement la mise en forme** du support d'écriture (jamais de texte de contenu). Rendu = **gabarit papier non éditable** (app d'action, aucune saisie/sauvegarde in-app). Types : `lignes_libres`, `lettre` (`entete?`), `deux_colonnes` (`colonnes`), `deux_pages` (`pages`), `liste_numerotee` (`nombre?`, `prefixe_entree?`), `carnet_date` (`jours`, `colonnes?`), `grille_planning` (`colonnes_jours`, `plage_horaire`, `legende`), `cercles_concentriques` (`centre`, `cercles:[{label,indice}]`), `vocal` (`duree?`). Les libellés sont **repris verbatim de la `consigne`**, jamais réécrits. Détail de rendu par type + maquettes (M1 cercles, M19 grille, M15 deux colonnes) : `CONSIGNES_CLAUDE_CODE_prendre_soin_de_moi.md` §6.3.
-
-**Règle d'unicité :** chaque format ne peut être utilisé qu'une fois sur les 24 mois (voir table d'unicité dans `CONTENT_INDEX.md`).
-
-#### Conseil 4 — Réalité du post-partum
-
-**Quand le parent ouvre ce conseil, le `sous_titre` du conseil devient un VRAI titre visuel important**, qui met en valeur le sujet spécifique du post-partum traité ce mois-ci. Ce sujet peut être **différent du thème général** ou en être un sous-thème.
-
-Le post-partum est un sujet à part : il garde sa propre densité, ses propres ressources, son propre cadre médical. Le thème du mois oriente l'angle, mais la réalité physiologique et psychique du post-partum doit pouvoir être nommée pour ce qu'elle est.
-
-**Exemples d'articulation thème ↔ post-partum :**
-
-| Mois | Thème du mois | Sous-titre du conseil post-partum (= titre visuel) |
-|------|---------------|-----------------------------------------------------|
-| M0 | Habiter son corps après l'accouchement | Ce que personne ne dit assez fort sur les 4 premières semaines |
-| M1 | Apprendre à demander de l'aide | Le moment où l'entourage s'éloigne — et ce qui se passe à l'intérieur |
-| M2 | Se repositionner face au travail | Reprendre, ne pas reprendre, négocier — et ce que mon corps en dit |
-| M3 | Tenir dans l'épuisement qui dure | Le pic clinique de la dépression post-partum, et le silence autour |
-| M9 | Le brouillard mental | La thyroïdite du post-partum, le « mom brain », ce qui s'explique chimiquement |
-
-**Densité variable selon les mois :** plus dense de M0 à M6 (post-partum aigu et tardif), plus condensé après — mais toujours présent, parce que le post-partum psychique court bien au-delà de la première année.
-
-**Structure JSON du conseil 4 :**
-```json
-{
-  "id": "realite_post_partum",
-  "numero": 4,
-  "icone": "💬",
-  "nom_outil": "La réalité du post-partum",  // étiquette standardisée
-  "promesse": "...",                          // sujet spécifique du post-partum traité ce mois-ci
-  "intro": "...",                       // 2-3 phrases qui posent le sujet du mois
-  "pour_la_maman": {
-    "titre": "Côté maman",
-    "contenu": "..."                    // 1-3 paragraphes (plus dense M0-M6)
-  },
-  "pour_le_papa_co_parent": {
-    "titre": "Côté papa / co-parent",
-    "contenu": "..."                    // 1-3 paragraphes
-  },
-  "signaux_a_ne_pas_negliger": ["...", "..."],   // 5-8 signaux
-  "urgence": "...",                     // formulation 3114 / 15 selon contexte
-  "qui_consulter": ["...", "..."]       // ressources, 4-6 items
-}
-```
-
-**Règles transverses post-partum :**
-- Toujours inclure les signaux d'alerte et les ressources (sage-femme, MonParcoursPsy, Allo Parents Bébé, 3114, Maman Blues, PMI selon le contexte).
-- Jamais culpabiliser, jamais minimiser.
-- Toujours nommer le co-parent comme un parent à part entière, pas un assistant.
-
-#### Conseil 5 — Challenge couple
-
-**Format « petit jeu » qui donne envie.** Le challenge couple ne doit pas être une injonction supplémentaire dans la semaine. C'est un mini-rituel ludique, court (5-10 min), simple à mettre en œuvre, qui crée un fil entre les deux parents.
-
-Le couple parental a besoin de **deux choses** que la palette doit couvrir : se **réguler** ensemble (écoute, présence, connexion émotionnelle, projection commune) **ET respirer** ensemble (romantisme, jeu, rire, légèreté). Le travail intérieur du thème oriente vers l'un ou l'autre registre selon le mois.
-
-**Critères du challenge réussi :**
-- **Simple à mettre en œuvre** : pas de matériel compliqué, pas d'organisation lourde.
-- **Court** : 5 à 10 minutes maximum (15 max pour les formats plus ritualisés type rendez-vous à la maison).
-- **Sans cadence imposée** : pas de « 3 fois par semaine », pas de « tous les dimanches soir ». Le couple choisit son moment.
-- **Ludique, poétique, romantique ou drôle** : il y a une dimension de jeu, de surprise, de geste symbolique, de tendresse ou de rire.
-- **Aligné sur le thème** : le challenge incarne le travail intérieur du mois (ou crée la respiration dont le mois a besoin).
-
-**Gabarit (aperçu illustratif du challenge) ⭐** — champ optionnel `gabarit` indiquant le **motif visuel** à dessiner (illustration légère, non éditable). Types : `moment_partage` (aucun motif), `sortie`, `cartes_questions` (`nombre`), `carte_a_remplir` (`entete?`), `mots_echanges` (`cache?`), `deux_portraits`, `boite_capsule`, et le patron spécialisé **`menu`** (carte de restaurant : `entete`, `maison` via le token `{prenom}`, `sections:[{titre, sous_titre, exemples:[{intitule, descripteur}]}]`, `items_sont_des_exemples`, `note`).
-
-**Anti-redondance :** quand le gabarit embarque déjà les exemples (cas du `menu`), **ne pas les répéter dans le `deroule`** — le déroulé décrit la *méthode*, le gabarit porte la *structure et les exemples*. Détail de rendu + maquette (menu M15) : `CONSIGNES_CLAUDE_CODE_prendre_soin_de_moi.md` §6.5.
-
-### Palette d'inspirations en 5 registres
-
-La palette ci-dessous est une **source d'inspiration**, pas une liste exhaustive. Le choix se fait **mois par mois selon le thème**, en piochant librement dans le registre qui résonne le mieux avec le travail intérieur du mois. Un nouveau challenge peut être créé si un thème le demande, en respectant les critères du challenge réussi.
-
-#### Registre 1 — Écoute et connexion émotionnelle
-
-Pour les mois où le couple a besoin de **se réguler ensemble**, de se reconnecter émotionnellement, de réapprendre à s'écouter sans réparer.
-
-| Mécanique | Principe |
-|-----------|----------|
-| **Carte à tirer** *(utilisé M1)* | L'un écrit 5 questions précises sur un papier, l'autre tire au hasard et répond. Règle d'or : l'écoutant dit juste « ok, j'ai entendu », sans réparer ni minimiser |
-| **Main posée 1 minute** *(utilisé M0)* | Présence physique silencieuse, pas de mots, juste la main qui sent l'autre. Calibré pour parents épuisés sans énergie pour plus |
-| **Conversation d'oreiller** | Au coucher, lumière éteinte, allongés côte à côte. L'un parle 5 min sans interruption sur ce qui l'a traversé, l'autre écoute. Puis on inverse |
-| **Mot du jour / phrase secrète** | Une phrase à se glisser dans la semaine pour signifier quelque chose au-delà des mots, à un moment où l'autre s'y attend le moins |
-| **Mission à l'aveugle** | L'un donne une mini-mission à l'autre dans la semaine, sans rien dire d'autre (ex : « fais-moi sourire 3 fois cette semaine ») |
-
-#### Registre 2 — Vision et projection commune
-
-Pour les mois où le couple a besoin de **regarder ensemble dans la même direction**, de poser des envies, de se projeter.
-
-| Mécanique | Principe |
-|-----------|----------|
-| **Dessin partagé** *(utilisé M2)* | Pendant 10 min en silence, chacun dessine ou écrit sur une feuille A3 ce qu'il aimerait pour les 3 prochains mois. La feuille devient un « tiers » à commenter ensemble |
-| **Liste des envies** | Chacun écrit 5 choses qu'on aimerait faire dans l'année (sorties, voyages, projets, retrouvailles d'amis). On compare les listes, on cherche les points communs |
-
-#### Registre 3 — Romantique 💕
-
-Pour les mois où le couple a besoin de **se rappeler qu'il est aussi un couple d'amoureux**, pas seulement deux soignants de bébé.
-
-| Mécanique | Principe |
-|-----------|----------|
-| **Le rendez-vous à la maison** | Dîner en amoureux à la maison après le coucher de bébé, lumière tamisée, plat simple mais pensé, téléphones rangés. 1h max |
-| **La lettre d'amour cachée** | Écrire un petit mot doux et le glisser dans une poche, un sac, un livre, pour que l'autre le trouve par surprise dans la semaine |
-| **Le premier rendez-vous rejoué** | Reconstituer le lieu (ou l'ambiance) de votre premier rendez-vous, juste pour rire ensemble du chemin parcouru. Boisson identique, musique identique, conversation libre |
-| **Le slow improvisé** | Un soir, mettre LA chanson qui vous rappelle vous deux, danser 3 minutes dans le salon, sans rien attendre |
-| **La carte postale du présent** | Écrire chacun une carte postale au couple qu'on est *maintenant* (pas à celui qu'on était avant bébé). Échanger les cartes |
-
-#### Registre 4 — Décalé / qui fait rire
-
-Pour les mois où le couple a besoin de **rire ensemble**, de sortir du sérieux parental, de retrouver de la légèreté.
-
-| Mécanique | Principe |
-|-----------|----------|
-| **Le « si on était… »** | Si on était un duo de séries, on serait qui ? Si on était un plat, lequel ? Si on était une chanson ? Jeu rapide de 5-10 questions, chacun répond pour soi puis pour l'autre. Révèle plein de choses dans le rire |
-
-*Ce registre est volontairement court : le rire ne se planifie pas trop. Il vient mieux quand la palette est restreinte et qu'on garde de la place pour l'inspiration mois par mois.*
-
-#### Registre 5 — Action et rituel
-
-Pour les mois où le couple a besoin de **faire quelque chose ensemble**, pas seulement parler. Le « mini-projet ensemble » est une mécanique duplicable sous différentes formes selon les thèmes.
-
-| Mécanique | Principe |
-|-----------|----------|
-| **Le mini-projet ensemble (cuisine)** | Cuisiner ensemble un plat ou un dessert un soir, sans se répartir les tâches comme d'habitude. Ralentir, s'amuser à se passer les ingrédients, goûter à deux |
-| **Le mini-projet ensemble (plantation)** | Planter ensemble une herbe aromatique, un bulbe, ou rempoter une plante. Geste symbolique : on fait grandir quelque chose de plus, à deux |
-| **Le mini-projet ensemble (construction)** | Monter ensemble un meuble, une petite étagère, un tipi pour bébé. La maladresse partagée fait souvent rire |
-| **Le mini-projet ensemble (déco / création)** | Créer ensemble quelque chose pour la maison ou pour bébé : un mobile, un cadre photo, un coin lecture, une playlist du couple |
-| **Le merci inattendu** *(M14 ancienne version)* | Écrire chacun une chose que l'autre a faite ce mois qui a fait du bien. Échanger les papiers sans commentaire |
-
-La mécanique « mini-projet ensemble » est **duplicable** sous d'autres formes que celles listées : l'idée centrale est *faire ensemble quelque chose de concret, qui produit un résultat tangible, à un rythme qui permet de respirer*. À adapter selon le thème.
-
-### Exception M0
-
-Le challenge « une main posée, 1 minute » reste tel quel. À M0, l'énergie ne permet aucun élément ludique supplémentaire : la sobriété est le bon design.
-
-### Indications de registre selon les thèmes (orientation, pas règle)
-
-Pour aider à orienter le choix du registre selon le thème du mois, voici quelques indications :
-
-| Phase du parcours | Mois | Registres souvent les plus pertinents |
-|-------------------|------|---------------------------------------|
-| **Survie physique et émotionnelle** | M0-M5 | Registre 1 (écoute, connexion) — énergie basse, besoin de se réguler |
-| **Reconfiguration identitaire** | M6-M11 | Registres 2, 3 (vision, romantique) — le couple se redéfinit, peut respirer |
-| **Réémergence** | M12-M17 | Registres 3, 4, 5 (romantique, décalé, action) — l'énergie revient, le couple peut jouer |
-| **Projection et ouverture** | M18-M23 | Registres 2, 3, 4, 5 (tout sauf écoute pure) — le couple se reconstruit dans la durée |
-
-Ce n'est qu'une orientation : si un thème spécifique appelle un registre différent (ex. M9 brouillard mental → registre 1 même si on est dans la phase 2), il faut suivre le thème.
-
-**Structure JSON du conseil 5 :**
-```json
-{
-  "id": "challenge_couple",
-  "numero": 5,
-  "icone": "💑",
-  "nom_outil": "Challenge couple",  // étiquette standardisée
-  "promesse": "...",                // phrase qui incarne le jeu et le thème
-                                    // Cas particulier : peut prendre la forme d'un impératif pluriel
-                                    // « -ez » (ex. « Tirez une carte : demandez sans honte »).
-                                    // Non obligatoire — selon l'effet recherché.
-  "duree": "5 à 10 minutes",        // 15 max pour les formats type rendez-vous à la maison
-  "intro": "...",                   // 2-3 phrases qui relient le challenge au thème
-  "challenge_du_mois": {
-    "nom": "...",                   // nom court et évocateur du jeu
-    "registre": "...",              // 1 = écoute, 2 = vision, 3 = romantique, 4 = décalé, 5 = action/rituel
-    "deroule": "...",               // 3-5 phrases pour expliquer comment faire
-    "regle_clef": "..."             // (optionnel) une règle qui change la dynamique
-  },
-  "pourquoi_ca_marche": "..."       // 2-3 phrases (neurosciences, mécanique relationnelle) qui éclairent le choix
-}
-```
-
-**Règle d'unicité :** chaque mécanique de challenge ne peut être utilisée qu'une fois sur les 24 mois (voir table d'unicité dans `CONTENT_INDEX.md`). Le « mini-projet ensemble » fait exception : il peut être décliné plusieurs fois sous des formes différentes (cuisine, plantation, construction, déco/création) car ce sont des variantes distinctes d'une même mécanique.
-
-### Règles transverses sur la rubrique
-
-- Pas de section « signaux d'alerte » ni « ressources » séparée du conseil 4. Elles sont intégrées dedans.
-- Aller droit au but, pas d'intro philosophique en tête de fichier ni en tête de conseil.
-- Chaque conseil mentionne ou évoque le thème du mois sans le marteler.
-- Tutoiement du parent dans les `intro`, `consigne`, `principe`, `pourquoi_ca_marche`. Première personne (« je ») dans les `texte_meditation` et dans les amorces d'auto-reconnaissance.
-- Pas de présupposition du mode d'alimentation, du genre, ou de la configuration familiale (voir SKILL_contenu.md).
-- Pas de tiret cadratin au milieu des phrases (voir SKILL_contenu.md).
+- Pas de section "signaux d'alerte" séparée — elle est intégrée au conseil 5
+- Pas de section "ressources" séparée — les ressources sont dans le conseil 5
+- Aller droit au but, sans intro philosophique
 
 ### 4.4 `04_saison.json` — Saison (4 variantes en un fichier)
 
@@ -755,9 +464,10 @@ Les thèmes évoluent avec l'âge — ce que le bébé "a besoin d'entendre" cha
 | T5 | M12-M14 | Transformation parent-enfant · Fierté · Libération des charges transgénérationnelles · Reconnaissance mutuelle |
 | T6 | M15-M17 | Permission du "non" · Identité naissante · Place dans la famille élargie · Reconnaissance des émotions complexes |
 | T7 | M18-M20 | Permission de l'opposition · Reconnaissance du désir propre · Préparation aux séparations à venir · Histoire de couple parental |
-| T8 | M21-M23 | Permission de l'imagination · Reconnaissance du monde intérieur · Continuité de l'amour malgré l'opposition · Bilan symbolique · Permission de devenir enfant (et plus seulement bébé) · Continuité de la sécurité |
+| T8 | M21-M23 | Permission de l'imagination · Reconnaissance du monde intérieur · Continuité de l'amour malgré l'opposition |
+| T9 | M24 | Bilan symbolique · Permission de devenir enfant (et plus seulement bébé) · Continuité de la sécurité |
 
-**Règle : un trimestre = 3 scripts.** Le parent les fait sur 3 mois, à son rythme. Chaque script peut être réécouté plusieurs fois. **Soit 8 trimestres × 3 scripts = 24 scripts au total sur le parcours M0–M23.**
+**Règle : un trimestre = 3 scripts.** Le parent les fait sur 3 mois, à son rythme. Chaque script peut être réécouté plusieurs fois.
 
 ### Structure JSON
 
@@ -812,7 +522,7 @@ Quand l'enfant passe au trimestre suivant, l'app propose les 3 nouveaux scripts 
 
 ### ⚠️ RÈGLE D'UNICITÉ ABSOLUE — CHAQUE SCRIPT, CHAQUE MOIS DOIT ÊTRE DIFFÉRENT
 
-**Aucun thème ne peut être utilisé deux fois sur les 24 scripts du parcours complet** (8 trimestres × 3 scripts).
+**Aucun thème ne peut être utilisé deux fois sur les 27 scripts du parcours complet** (9 trimestres × 3 scripts).
 
 C'est le module le plus exposé au risque de redite, parce que les approches inspiratrices (haptonomie, constellations, parole au bébé) ont un nombre fini de thèmes naturels. Pour éviter ce piège :
 
@@ -839,9 +549,9 @@ Deux scripts **SONT** différents si :
 
 **Si un thème semble proche d'un script déjà produit** : changer d'angle, changer de mouvement émotionnel, OU choisir un autre thème de la liste des thématiques par tranche d'âge.
 
-### Cartographie des mouvements émotionnels (palette à puiser)
+### Cartographie des 27 mouvements émotionnels (palette à puiser)
 
-Pour aider à diversifier, voici une palette de **27 mouvements émotionnels distincts** dans laquelle puiser **24 fois** (un par script du parcours M0–M23). Les 3 mouvements non retenus restent en réserve éditoriale :
+Pour aider à diversifier, voici 27 mouvements émotionnels distincts — un par script possible. À utiliser chacun **une seule fois** sur les 9 trimestres :
 
 | # | Mouvement émotionnel | Verbe central |
 |---|---------------------|---------------|
@@ -884,7 +594,7 @@ Cette palette est **indicative et ajustable** — la fondatrice peut faire évol
   "sous_titre": "Mois 14 — Le mois de l'Explorateur",
   "adjectif_du_mois": "Explorateur",
   "qualification_du_mois": "À 14 mois, ton enfant marche... C'est le mois de l'exploration active.",
-  "principes_cles": ["...", "...", "..."],  // 3 max
+  "principes_cles": ["...", "...", "..."],
   "activites": [
     {
       "id": "...",
@@ -892,12 +602,12 @@ Cette palette est **indicative et ajustable** — la fondatrice peut faire évol
       "titre": "...",
       "duree": "...",
       "frequence": "...",
-      "developpe": ["...", "..."],  // 3-4 compétences max
+      "developpe": ["...", "..."],
       "materiel": ["...", "..."],
       "description": "...",
-      "comment_jouer": ["...", "..."]  // 4-5 étapes max
+      "comment_jouer": ["...", "..."]
     }
-  ],  // EXACTEMENT 4 activités
+  ],
   "geste_reflexo_du_mois": {...},
   "rythme_journee_type": {...}
 }
@@ -934,13 +644,22 @@ Cette palette est **indicative et ajustable** — la fondatrice peut faire évol
 
 **Pression réflexo :**
 - M0 à M12 : "0/10 — c'est une caresse, pas un massage"
-- M12 à M23 : "0/10 — c'est une caresse" (même prudence)
+- M12 à M24 : "0/10 — c'est une caresse" (même prudence)
 
 **Précautions absolues :**
 - Pas d'huiles essentielles avant 3 ans
 - Pas de paracétamol sans dose pédiatrique vérifiée par un médecin
 - Pas d'anesthésiant lidocaïne (gel dentaire) avant 2 ans
 - Jamais de collier d'ambre (risque d'étouffement + inefficacité prouvée)
+
+**Cadre légal — transverse à toutes les rubriques :**
+L'app édite de l'**information générale** appliquée par le parent à **son propre enfant** ; elle ne diagnostique pas et ne pratique aucun acte. On ne franchit jamais les actes réservés au **médecin**, à la **sage-femme** et au **kiné**. Concrètement, dans tous les contenus :
+- **Aucun mot du registre médical réservé** : ni *thérapie / soigner / guérir / diagnostic / prescrire / patient*, ni — surtout — **« massage »** (réservé au kiné) ; on dit **toucher, geste doux, pression douce, stimulation des zones réflexes**.
+- **Motricité = éveil et jeu, jamais rééducation.**
+- **Jamais de promesse** : « aide à / apaise », jamais « guérit / garantit ».
+- **Non-substitution + renvoi** au professionnel nommé dès qu'on frôle la santé, le corps ou le post-partum.
+
+> Cadre complet, tableau de vocabulaire et principes : `SKILL_contenu.md` § « Cadre légal » (source de vérité unique).
 
 ---
 
@@ -950,8 +669,9 @@ Cette palette est **indicative et ajustable** — la fondatrice peut faire évol
 2. **Lire `CONTENT_INDEX.md`** pour voir ce qui a déjà été dit dans les mois proches (éviter les redites)
 3. **Lire `SKILL_protocole.md`** avant de produire `01_protocoles.json`
 4. **Produire les 6 fichiers** dans l'ordre, en respectant les structures du § 4
-5. **Mettre à jour `CONTENT_INDEX.md`** avec un résumé du mois produit
-6. **Valider** les JSON avec un parseur Python avant livraison
+5. **Pour `01_protocoles.json` : appliquer systématiquement la convention `/` du § 4.1bis sur les 32 situations**
+6. **Mettre à jour `CONTENT_INDEX.md`** avec un résumé du mois produit
+7. **Valider** les JSON avec un parseur Python avant livraison
 
 ---
 
@@ -965,6 +685,15 @@ Cette palette est **indicative et ajustable** — la fondatrice peut faire évol
 | `04_saison.json` | 15-20 Ko | 4 variantes — peut grimper à 25 Ko pour M0 |
 | `05_partager_rassurer.json` | 7-10 Ko | 3 scripts complets |
 | `06_jeux.json` | 5-8 Ko | 4 activités — pas plus |
-| **Total par mois** | **140-180 Ko** | Pour les 24 mois (M0 à M23) ≈ 3,3 à 4,3 Mo de JSON |
+| **Total par mois** | **140-180 Ko** | Pour 24 mois ≈ 3,3 à 4,3 Mo de JSON |
 
 Si un fichier dépasse 25% au-dessus de sa cible, le rapport est probablement trop dense — alléger.
+
+---
+
+## 8. Statut de la convention `/` (suivi V2)
+
+✅ Convention `/` validée par la fondatrice (28 mai 2026)
+✅ Application complète sur M2 (32/32 situations reformulées) — fichier de référence éditoriale
+⏳ Reformulation à effectuer sur les mois déjà produits : M0, M1, M3, M6, M9, M14
+⏳ Application native sur tous les mois à produire : M4, M5, M7, M8, M10-M13, M15-M23

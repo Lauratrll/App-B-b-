@@ -290,7 +290,7 @@ function B1({ c }: { c: Rec }) {
         </Cadre>
       ) : null}
       {points.length ? (
-        <Cadre bg="#F5D0C8" label={`Les ${points.length} points, dans l'ordre`}>
+        <Cadre bg="#FBF4EE" label={`Les ${points.length} points, dans l'ordre`}>
           <ol style={{ listStyle: "none", margin: 0, padding: 0 }}>
             {points.map((pt, i) => {
               const zone = str(pt.zone);
@@ -342,7 +342,7 @@ function B1({ c }: { c: Rec }) {
         </Cadre>
       ) : null}
       {str(c.cloture) ? (
-        <Cadre bg="#F8DBC9" label="Pour clore">
+        <Cadre bg="#F3DCD0" label="Pour clore">
           <Cloture texte={str(c.cloture)} />
         </Cadre>
       ) : null}
@@ -414,13 +414,13 @@ function B2({ c }: { c: Rec }) {
         </Cadre>
       ) : null}
       {str(c.intro) ? (
-        <Cadre bg="#F5D0C8" label="L'image de cette méditation">
+        <Cadre bg="#F9F1EA" label="L'image de cette méditation">
           <Prose texte={str(c.intro)} italic />
         </Cadre>
       ) : null}
       <LecteurAudio duree={str(c.duree)} />
       {str(c.texte_meditation) ? (
-        <Cadre bg="#F5D0C8" label="Texte de la méditation">
+        <Cadre bg="#FBF6F1" border="0.5px solid #E0CDBC" label="Texte de la méditation">
           <MeditationTexte texte={str(c.texte_meditation)} />
         </Cadre>
       ) : null}
@@ -664,7 +664,7 @@ function B3({ c }: { c: Rec }) {
       </Chips>
       {str(c.intro) ? <TraitChapo texte={str(c.intro)} /> : null}
       {str(c.consigne) ? (
-        <Cadre bg="#ECC8B3" label="Comment faire">
+        <Cadre bg="#EABDB1" label="Comment faire">
           <Prose texte={str(c.consigne)} />
         </Cadre>
       ) : null}
@@ -672,12 +672,12 @@ function B3({ c }: { c: Rec }) {
         <B3Gabarit g={gabarit ?? {}} />
       </Cadre>
       {amorces.length ? (
-        <Cadre bg="#F1D8C8" label="Si tu bloques, commence par…">
+        <Cadre bg="#EABDB1" label="Si tu bloques, commence par…">
           <Liste items={amorces} marqueur="chevron" />
         </Cadre>
       ) : null}
       {str(c.principe) ? (
-        <Cadre bg="#F8DBC9" label="À retenir">
+        <Cadre bg="#F9F1EA" label="À retenir">
           <Prose texte={str(c.principe)} italic />
         </Cadre>
       ) : null}
@@ -924,7 +924,7 @@ function B5({ c, prenom }: { c: Rec; prenom: string }) {
       </Chips>
       {str(c.intro) ? <TraitChapo texte={str(c.intro)} /> : null}
       {challenge ? (
-        <Cadre bg="#ECC8B3" label="Le challenge">
+        <Cadre bg="#FBF4EE" label="Le challenge">
           {str(challenge.nom) ? (
             <p style={{ fontFamily: PLAYFAIR, fontWeight: 600, fontSize: 17, lineHeight: 1.25, color: INK, textAlign: "center", margin: 0 }}>
               {str(challenge.nom)}
@@ -948,7 +948,7 @@ function B5({ c, prenom }: { c: Rec; prenom: string }) {
         </Cadre>
       ) : null}
       {str(c.pourquoi_ca_marche) ? (
-        <Cadre bg="#F8DBC9" label="Pourquoi ça marche">
+        <Cadre bg="#F9F1EA" label="Pourquoi ça marche">
           <Prose texte={str(c.pourquoi_ca_marche)} />
         </Cadre>
       ) : null}

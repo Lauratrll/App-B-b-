@@ -24,10 +24,6 @@ Ces trois principes s'appliquent à **chaque** protocole, sans exception :
 
 4. **Les redites entre les mois sont acceptables.** Certains sujets durent dans le temps (sommeil, coliques, sur-stimulation, charge parentale, séparation, alimentation…) et un parent donné peut rencontrer un même problème à des mois différents. Il est donc normal et utile qu'un thème réapparaisse d'un mois à l'autre. La règle n'est pas d'éviter toute répétition, mais de **ne jamais copier-coller** : à chaque mois, le protocole est réécrit en tenant compte de l'évolution de l'enfant (nouvelles capacités, nouveaux enjeux développementaux, fenêtre d'âge différente). Le fond peut se recouper, la formulation et les détails développementaux doivent être propres au mois. Mieux vaut un bon protocole récurrent et actualisé qu'une situation artificielle inventée pour fuir la répétition.
 
-5. **Typographie et termes en toutes lettres** (voir `SKILL_contenu.md` § Conventions typographiques). Deux points sont impératifs dans les protocoles :
-   - **« dépression post-partum » toujours en toutes lettres, jamais « DPP »** (ni « DPP-T » ni « DPP tardive » : écrire « dépression post-partum tardive »). Sujet sensible : le sens ne doit jamais être perdu. Les sigles institutionnels (MIN, ORL, PMI, HAS, ANSM, IBCLC) restent en capitales.
-   - **Espaces insécables U+00A0** obligatoires avant `: ; ! ?` et `»`, et après `«`.
-
 ---
 
 ## 2. Structure obligatoire — 32 protocoles par mois
@@ -302,6 +298,31 @@ Si un protocole fait moins de 350 mots, il est probablement trop sec — étoffe
 
 ---
 
+## 7bis. Cadre légal — vocabulaire et posture (rubrique la plus exposée)
+
+> Cadre complet et source de vérité : `SKILL_contenu.md` § « Cadre légal ». Rappel ciblé ici car Guide-moi ! touche de près les champs **sage-femme** et **kiné** (corps, motricité, soins, post-partum).
+
+Les protocoles éditent de l'**information générale** que le parent applique à **son propre enfant**. Ils ne posent jamais de diagnostic individualisé et ne pratiquent aucun acte. Trois réflexes :
+
+1. **Jamais de diagnostic ni de vocabulaire médical réservé.** L'`explication` décrit un mécanisme général, pas l'état d'un enfant précis. Le `consulter_si` n'analyse pas — il oriente vers le professionnel nommé.
+2. **Le `geste_doux` est toujours un geste du parent, jamais un soin.** On dit **toucher, geste doux, pression douce, stimulation des zones réflexes** — **jamais « massage »** (réservé au kiné, même en bien-être). La pression reste « 0/10 — une caresse, pas un massage ».
+3. **La motricité reste de l'éveil, jamais de la rééducation.** Un protocole « corps / motricité » parle de jeu, d'éveil, de découverte. Toute difficulté motrice → renvoi kiné pédiatrique / psychomotricien dans le `consulter_si`. On n'écrit jamais qu'un protocole « rééduque » ou « corrige ».
+
+### Tableau express — mots interdits dans un protocole
+
+| ❌ Interdit | ✅ À utiliser |
+|------------|--------------|
+| massage, masser | toucher, geste doux, pression douce, stimulation des zones réflexes |
+| thérapie, thérapeutique, soigner, guérir, traiter | accompagner, apaiser, soulager, aider à, favoriser |
+| diagnostic, diagnostiquer | observer, repérer, remarquer |
+| rééducation, gymnastique médicale | éveil, jeu, découverte motrice, motricité libre |
+| prescrire, ordonnance, posologie | (renvoyer au médecin via `consulter_si`) |
+| patient | ton enfant, bébé |
+
+**Promesse interdite :** un protocole « aide à / apaise », il ne « guérit » ni ne « garantit » jamais rien.
+
+---
+
 ## 8. Checklist avant validation d'un protocole
 
 - [ ] Les 9 champs obligatoires sont présents
@@ -314,8 +335,10 @@ Si un protocole fait moins de 350 mots, il est probablement trop sec — étoffe
 - [ ] Erreurs à éviter = exactement 4 erreurs, formulées comme constats
 - [ ] Consulter_si = critères objectifs uniquement
 - [ ] Aucune formulation interdite (votre enfant, il faut, malheureusement)
+- [ ] **Aucun mot du registre médical réservé** (massage, thérapie, soigner, guérir, diagnostic, rééducation, prescrire, patient…) — voir § 7bis
+- [ ] **Le `geste_doux` dit « toucher / geste doux / pression douce », jamais « massage »**
+- [ ] **Motricité présentée en éveil/jeu, jamais en rééducation**
+- [ ] **Aucun diagnostic individualisé** ; le `consulter_si` oriente, il n'analyse pas
 - [ ] Aucune précaution interdite (huiles essentielles, lidocaïne, miel...)
-- [ ] « dépression post-partum » en toutes lettres partout (aucun « DPP »)
-- [ ] Espaces insécables U+00A0 avant `: ; ! ?` et `»`, après `«`
 - [ ] Le protocole est VRAIMENT différent des 3 autres protocoles de sa catégorie
 - [ ] Le volume est entre 400 et 700 mots
