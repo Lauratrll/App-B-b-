@@ -30,9 +30,21 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "BeSerene — Parentalité consciente 0–24 mois",
+  title: "Parentalité consciente — 0 à 24 mois",
   description:
     "Accompagnement de parentalité consciente pour les parents de bébés de 0 à 24 mois.",
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-icon.png", sizes: "180x180", type: "image/png" }],
+  },
+  appleWebApp: {
+    capable: true,
+    title: "Parentalité consciente",
+    statusBarStyle: "default",
+  },
 };
 
 export const viewport = {

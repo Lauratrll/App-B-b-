@@ -1,0 +1,27 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Icône de l'app : cœur blanc sur taches de couleur (charte Guide-moi) -->
+  <defs>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="7" />
+    </filter>
+  </defs>
+
+  <!-- Fond beige -->
+  <rect width="512" height="512" fill="#EFE4D8" />
+
+  <!-- Taches de couleur : terracotta / pêche / beige -->
+  <g filter="url(#soft)">
+    <circle cx="95"  cy="70"  r="170" fill="#DB936B" />
+    <circle cx="425" cy="445" r="185" fill="#F0B8A8" />
+    <circle cx="500" cy="265" r="120" fill="#F8DBC9" />
+    <circle cx="60"  cy="395" r="110" fill="#F5D0C8" />
+  </g>
+
+  <!-- Halo doux pour faire ressortir le cœur -->
+  <circle cx="256" cy="256" r="150" fill="#FFFFFF" opacity="0.20" />
+
+  <!-- Cœur blanc -->
+  <g transform="translate(132,127) scale(10.33)">
+    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="#FFFFFF" />
+  </g>
+</svg>
