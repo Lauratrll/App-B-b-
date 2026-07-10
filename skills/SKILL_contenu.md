@@ -71,7 +71,7 @@
 
 ### Ce que l'app peut faire :
 - Décrire des gestes de réflexologie comme des "gestes doux complémentaires"
-- Mentionner des approches naturelles documentées (massage, emmaillotage, bruit blanc)
+- Mentionner des approches naturelles documentées (toucher, emmaillotage, bruit blanc)
 - Citer des études ou recherches sans les détailler (ex: "des études montrent que...")
 - Donner des repères de développement normal (fourchettes, pas certitudes)
 - Recommander de consulter avec des critères précis
@@ -83,9 +83,15 @@
 - Remplacer un suivi médical régulier
 - Garantir des résultats
 
+### Le « geste doux » n'est pas obligatoire ⭐
+
+Toutes les situations n'appellent pas un geste manuel. Quand la bonne réponse est d'**observer**, de **rassurer** ou de **consulter** (urgence, tonus atypique, doute), le bloc « geste doux » le dit explicitement — on ne force **jamais** un geste réflexe là où il n'a pas lieu d'être. Recommandation et esprit critique priment sur le réflexe d'ajouter une manipulation. En pleine crise (pleurs intenses, sur-stimulation), on ne lance **pas** une séance de réflexologie : on apaise par le contact et on renvoie la vraie séance à un moment calme (préparation au sommeil).
+
 ### Formulation du cadre de sécurité :
 Toujours formulé ainsi :
 > "Consulter [qui] si : [symptôme précis et observable] → [action concrète]."
+
+Le bloc porte toujours le libellé **« Consulter si »** (jamais « Cadre de sécurité » seul).
 
 Jamais vague. Jamais "si tu t'inquiètes". Toujours avec un critère objectif.
 
@@ -118,7 +124,11 @@ L'app édite de l'**information générale** appliquée par le parent à **son p
 | pathologie / maladie (prise en charge par l'app) | (décrire le vécu, renvoyer au professionnel) |
 | médecine, médical *(sauf « suivi médical » / « corps médical » pour orienter)* | bien-être, naturel, accompagnement |
 
-**Le mot « massage » est le piège n°1.** Le massage, à but thérapeutique *ou* de simple bien-être, est légalement réservé au masseur-kinésithérapeute. On ne l'emploie jamais pour qualifier un geste de l'app. On dit **toucher**, **geste doux**, **pression douce**, **stimulation des zones réflexes**. (Rappel existant : la pression réflexo est « 0/10 — c'est une caresse, **pas un massage** ».)
+**Le mot « massage » est le piège n°1.** On ne l'emploie jamais pour qualifier un geste de l'app. On dit **toucher**, **geste doux**, **pression douce**, **stimulation des zones réflexes** — les bons mots suffisent à rester dans le cadre.
+
+**Convention de pression.** On décrit la pression simplement : « **une pression douce** ». Pas d'échelle chiffrée, pas de dramatisation : le parent ne doit jamais avoir peur de toucher son bébé. 
+
+**« Effleurement » à éviter.** Trop léger, il chatouille et gêne le nouveau-né. Préférer **« toucher »**, **« toucher léger »**, **« toucher doux »** ou **« contact »**.
 
 **La motricité reste du côté de l'éveil, jamais de la rééducation.** Décrire la motricité de bébé en mode jeu/découverte est libre ; la présenter comme la correction d'un trouble bascule dans le champ kiné. Tout sujet de motricité atypique → renvoi au kiné pédiatrique / psychomotricien.
 
@@ -127,6 +137,18 @@ L'app édite de l'**information générale** appliquée par le parent à **son p
 accompagnement · soutien · compagnon du quotidien · bien-être · mieux-être · apaisement · sérénité · détente · geste doux · toucher · contact peau à peau · pression douce · caresse · stimulation des zones réflexes · réflexologie *(toujours en toutes lettres, jamais « réflexo »)* · éveil · découverte · aide à · apaise · favorise · soutient · accompagne.
 
 **Jamais de promesse de résultat.** « Aide à apaiser », « favorise l'endormissement » — jamais « guérit les coliques », « règle les troubles du sommeil », « garantit ». (Cohérent avec la règle scientifique : « aide à / apaise », jamais « garantit ».)
+
+### Marques et produits — INTERDITS ⭐
+
+On ne cite **jamais** de **marque commerciale** ni de produit nommé : porte-bébé, tétine, biberon, lait infantile, cosmétique, souche précise de probiotique, appareil, application… On **reste générique** (la catégorie de produit et ses critères : « un porte-bébé physiologique », « une tétine à débit lent », « une huile végétale adaptée ») et on **renvoie au professionnel** pour un choix personnalisé. Citer une marque, c'est engager notre responsabilité et prendre la place du conseil professionnel.
+
+### Sujets de législation — INTERDITS dans le contenu ⭐
+
+On n'énonce **jamais** de règle de droit chiffrée ou datée : durée et indemnisation du **congé maternité/paternité**, **nombre de séances** de psychologue/kiné remboursées, plafonds, montants d'aides, droits sociaux précis. Ces chiffres changent, varient selon les situations et engagent notre responsabilité. On **évoque le thème** et on **renvoie au bon interlocuteur** (CAF, PMI, médecin, sage-femme, employeur, service social).
+
+### Sources médicales — AUTORISÉES quand c'est nécessaire ⭐
+
+Pour **sécuriser un sujet sensible** touchant le corps ou la santé de bébé (coliques, reflux, tonus, peau…), on **peut** s'appuyer sur une **source médicale fiable** (HAS, Ameli, Société Française de Pédiatrie / mpedia.fr, réseaux périnatalité) et la mentionner discrètement — champ source_medicale du protocole, séparé de la prose. C'est un **assouplissement** de la règle « jamais de référence » : celle-ci reste valable pour le **juridique** (aucune référence légale précise dans le contenu), mais **pas** pour le sanitaire.
 
 ### Périmètre sage-femme / périnatalité
 
@@ -146,6 +168,7 @@ Informer sur l'allaitement, les suites de couches, le post-partum, le développe
 - Cadre de sécurité : 2 à 3 lignes
 
 ### UI copy (boutons, labels, titres) :
+- **Titres de protocoles Guide-moi ! : toujours en deux parties séparées par « / »** — « situation / angle ou besoin ». Ex. : « Régurgite beaucoup / après chaque repas », « Porter bébé en sécurité / position physiologique du nouveau-né ».
 - Boutons : 2 à 4 mots, verbe d'action ("Voir le protocole", "Épingler", "Commencer")
 - Titres de section : 3 à 6 mots
 - Messages d'état vides : encourageants, pas vides ("Aucun protocole épinglé pour l'instant — explore le Guide-moi !")
