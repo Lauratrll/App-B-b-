@@ -1,11 +1,11 @@
-// scripts/import-guide-m0.mjs
+// scripts/import-guide-m1.mjs
 // ===========================================================================
-// Import CIBLÉ du module "guide" pour le mois 0 uniquement.
+// Import CIBLÉ du module "guide" pour le mois 1 uniquement.
 // Reprend la logique de decomposeGuide() de import-content.mjs.
-// Idempotent : supprime module='guide' du mois 0, puis réinsère.
+// Idempotent : supprime module='guide' du mois 1, puis réinsère.
 // Ne touche PAS aux autres modules.
 //
-// Lancement :  node scripts/import-guide-m0.mjs
+// Lancement :  node scripts/import-guide-m1.mjs
 // ===========================================================================
 
 import { config } from "dotenv";
@@ -31,7 +31,7 @@ const supabase = createClient(SUPABASE_URL, SERVICE_ROLE_KEY, {
 });
 
 const CONTENT_DIR = join(process.cwd(), "content");
-const MOIS = 0;
+const MOIS = 1;
 
 function decomposeGuide(json, mois) {
   const rows = [];

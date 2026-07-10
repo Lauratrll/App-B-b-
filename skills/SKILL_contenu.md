@@ -182,6 +182,21 @@ Informer sur l'allaitement, les suites de couches, le post-partum, le développe
 
 ---
 
+## Ordre des catégories et dégradé — FIXE ⭐
+
+L'ordre des 8 cartes est **identique pour tous les mois** ; « Petits inconforts » vient **toujours juste après « Corps et portage »** :
+
+1. Pleurs — `#F0B8A8`
+2. Alimentation — `#F5D0C8`
+3. Sommeil — `#F8DBC9`
+4. Corps et portage — `#EDE0D4`
+5. Petits inconforts — `#BCD0A0`
+6. Sur-stimulation — `#B0C0AC`
+7. Lien & attachement — `#C8D8DC`
+8. Parents submergés — `#E8F0F2`
+
+Chaque carte porte la **couleur validée de sa position** (dégradé). Si l'ordre change, on **décale les couleurs** pour conserver le dégradé. Noms de catégories normalisés : « Pleurs », « Corps et portage », « Petits inconforts », « Parents submergés ». Les **soucis de peau** vont dans « Petits inconforts ». « Corps et portage » inclut le **tonus** (« Bébé mou ou très tendu ») dès le mois 0.
+
 ## Les 8 catégories du Guide-moi ! — définitions et périmètre
 
 ### 1. Pleurs & inconfort / Colères & frustration

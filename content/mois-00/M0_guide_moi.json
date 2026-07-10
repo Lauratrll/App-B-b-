@@ -187,7 +187,8 @@
           ],
           "consulter_si": "Urgence absolue (15) : fièvre, pleurs aigus inhabituels, refus complet de boire, somnolence anormale, peau marbrée et bébé froid, fontanelle bombée, convulsions, teinte bleutée."
         }
-      ]
+      ],
+      "couleur": "#F0B8A8"
     },
     {
       "id": "alim",
@@ -459,7 +460,8 @@
           ],
           "consulter_si": "Refus prolongé de plusieurs prises consécutives, vomissements en jet après chaque biberon, perte de poids ou prise de poids très lente (< 150 g/semaine), bébé somnolent qui ne réclame jamais, urines très foncées ou rares (moins de 6 couches mouillées par 24h) → pédiatre ou PMI. Pour un doute sur les quantités : la puéricultrice de PMI peut peser bébé gratuitement et ajuster les conseils."
         }
-      ]
+      ],
+      "couleur": "#F5D0C8"
     },
     {
       "id": "sommeil",
@@ -643,7 +645,8 @@
           ],
           "consulter_si": "Bébé ne semble jamais calme même quelques minutes, grimaces et cambrements constants même endormi, très peu de couches mouillées, prise de poids insuffisante."
         }
-      ]
+      ],
+      "couleur": "#F8DBC9"
     },
     {
       "id": "corps",
@@ -783,375 +786,8 @@
           ],
           "consulter_si": "Asymétrie dans le portage (bébé toujours penché du même côté, tête figée), marques cutanées persistantes sur les cuisses (compression), ou bébé systématiquement inconfortable après plusieurs essais → une monitrice de portage agréée pour un ajustement. Pour les hanches : le pédiatre lors des consultations obligatoires des 1er et 2e mois (le dépistage de dysplasie y est systématique)."
         }
-      ]
-    },
-    {
-      "id": "stimu",
-      "nom": "Sur-stimulation",
-      "emoji": "✨",
-      "description": "Bébé débordé, pleurs du soir",
-      "protocoles": [
-        {
-          "id": "stimu-01",
-          "titre": "Pleurs intenses du soir / décharge sensorielle",
-          "explication": "Les pleurs du soir sont liés à l'accumulation des stimuli de la journée. Le système nerveux immature ne sait pas encore filtrer ni digérer ce qu'il a vécu. Le soir, il déborde. C'est moins « bébé a mal » que « bébé décharge ». Ce qui aide n'est pas d'arrêter les pleurs mais d'accompagner la décharge.",
-          "ancrage": "Ces pleurs ne signalent pas une douleur. Ils signalent un cerveau qui se purge. Ta présence calme, sans forcer, est exactement ce qu'il faut.",
-          "action_immediate": {
-            "titre": "Action immédiate — accompagner la décharge",
-            "couleur_fond": "#FCEBEB",
-            "couleur_texte": "#A32D2D",
-            "etapes": [
-              "Anticiper 17h–18h : baisser stimuli, lumières tamisées, parler bas",
-              "Portage vertical : peau à peau ou écharpe — contenance + chaleur",
-              "Marcher doucement, idéalement dehors : changement d'environnement, air frais",
-              "Bruit blanc continu : couvre les bruits ambiants surstimulants",
-              "Tour de relais avec le co-parent toutes les 30 min : éviter l'épuisement"
-            ]
-          },
-          "geste_doux": {
-            "titre": "Geste doux — apaiser sans surstimuler",
-            "couleur_fond": "#E1F5EE",
-            "couleur_texte": "#085041",
-            "etapes": [
-              "Un seul geste à la fois : ne pas multiplier les techniques pendant la crise",
-              "Respirer lentement contre lui : ta respiration entraîne la sienne",
-              "Voix monocorde basse : « chhhhh » ou « ohm » prolongé",
-              "Contact contenant : ta main à plat sur sa poitrine ou son dos",
-              "Bain tiède 37°C si rien ne calme : reproduit le liquide amniotique"
-            ]
-          },
-          "pour_aller_plus_loin": [
-            "Préparer le dîner avant 17h : tu seras occupé(e) après",
-            "Refuser les visites en fin de journée pendant cette période",
-            "Repas chaud apporté par un proche : demander explicitement",
-            "Garder en mémoire : pic à 6 semaines puis diminution chaque semaine"
-          ],
-          "a_retenir": "Ces pleurs du soir sont décrits dans toutes les cultures et tous les pays. Ce n'est pas un problème français ni un problème de ton bébé. C'est universel et temporaire.",
-          "erreurs_a_eviter": [
-            "Multiplier les bras et les techniques pendant la crise : amplifie la surcharge",
-            "Lumière vive ou télé pour distraire : ajoute du stimulus",
-            "Vouloir absolument arrêter les pleurs : la décharge a besoin de sortir",
-            "Penser que c'est ton échec : aucun lien"
-          ],
-          "consulter_si": "Pleurs s'étendent au-delà de 21h chaque soir et durent plus de 3h, pleurs en dehors de la fenêtre 17h–21h prennent la même intensité, bébé ne récupère jamais, ou si toi-même tu n'arrives plus à supporter."
-        },
-        {
-          "id": "stimu-02",
-          "titre": "Débordé après les visites / saturation sensorielle",
-          "explication": "Le nouveau-né n'est pas équipé pour gérer plusieurs visages, plusieurs voix, plusieurs odeurs dans la même journée. Chaque visite est un effort sensoriel. Trop de visiteurs sur un court temps = saturation neurologique. La réponse n'est pas en colère contre les proches — c'est en planifiant différemment.",
-          "ancrage": "Tu as le droit d'espacer les visites. Tu as le droit de refuser. Ton bébé a besoin de calme bien plus que de socialisation à ce stade.",
-          "action_immediate": {
-            "titre": "Action immédiate — décharger la surstimulation",
-            "couleur_fond": "#FCEBEB",
-            "couleur_texte": "#A32D2D",
-            "etapes": [
-              "Dès le départ des visiteurs : retirer bébé dans une pièce calme",
-              "Pénombre, voix basse, pas de musique",
-              "Peau à peau immédiat 20 min minimum",
-              "Tétée si elle se présente : régule en plus de nourrir",
-              "Ne pas reprogrammer une nouvelle visite dans les 24h"
-            ]
-          },
-          "geste_doux": {
-            "titre": "Geste doux — recharger le système nerveux",
-            "couleur_fond": "#E1F5EE",
-            "couleur_texte": "#085041",
-            "etapes": [
-              "Toucher léger très lent du visage : front, nez, joues — 1 min",
-              "Respirer lentement à son oreille : « inspire, expire » audible",
-              "Bercement très lent sans paroles : silence ou « chhhh » très bas",
-              "Couvrir bébé d'un lange portant ton odeur : un repère rassurant",
-              "Réduire d'abord les stimuli : lumière baissée, une seule personne, moins de bruit"
-            ]
-          },
-          "pour_aller_plus_loin": [
-            "Limiter à 1 visite par jour les premières semaines",
-            "Visites courtes : 30–45 min maximum",
-            "Pas plus de 2 personnes par visite",
-            "Briefer les visiteurs : voix basses, pas se passer bébé, lavage des mains"
-          ],
-          "a_retenir": "Le système nerveux du nouveau-né enregistre tout — voix, lumières, mouvements, odeurs — sans filtre. Ce qui semble une « petite » visite pour les adultes est un événement sensoriel important pour lui.",
-          "erreurs_a_eviter": [
-            "Faire passer bébé de bras en bras pour « le faire connaître »",
-            "Forcer un sourire ou un éveil quand bébé somnole",
-            "Multiplier les visites le même jour pour « éviter » d'autres jours",
-            "Se sentir obligé(e) d'accueillir : tu peux poser des limites"
-          ],
-          "consulter_si": "Surstimulation systématique après chaque visite avec récupération longue, bébé qui devient inconsolable après chaque sortie, sommeil très dégradé suite à la visite, ou si tu te sens dépassée par la pression sociale d'accueil."
-        },
-        {
-          "id": "stimu-03",
-          "titre": "Sursaute à chaque bruit / hypersensibilité sensorielle",
-          "explication": "Le réflexe de Moro (sursaut brutal avec écartement des bras) est normal jusqu'à 3–4 mois. Certains bébés sont constitutionnellement plus sensibles aux bruits, lumières, mouvements — c'est leur tempérament. Ce n'est pas un trouble, c'est une variation neurologique normale. L'environnement peut être adapté.",
-          "ancrage": "Ton bébé n'est pas anormalement nerveux. Il est juste plus sensible que d'autres. Cette sensibilité, bien accompagnée, devient un atout plus tard.",
-          "action_immediate": {
-            "titre": "Action immédiate — environnement sécurisant",
-            "couleur_fond": "#FCEBEB",
-            "couleur_texte": "#A32D2D",
-            "etapes": [
-              "Réduire les sons forts : portes qui claquent, télé fort, voix élevées",
-              "Bruit blanc continu : paradoxalement, le constant calme plus que le silence",
-              "Lumières chaudes et tamisées : éviter les blancs froids et les LED puissantes",
-              "Emmaillotage léger pour la nuit : contient le réflexe de Moro",
-              "Mouvements lents quand on s'approche : prévenir avant de prendre"
-            ]
-          },
-          "geste_doux": {
-            "titre": "Geste doux — apaiser l'hypervigilance",
-            "couleur_fond": "#E1F5EE",
-            "couleur_texte": "#085041",
-            "etapes": [
-              "Pression continue d'une main sur la poitrine : un ancrage",
-              "Front : toucher léger très doux du centre vers les tempes",
-              "Voix très basse à 30 cm de l'oreille : « chhhhh » monocorde",
-              "Bercement très lent et régulier dans tes bras",
-              "Baisser fortement les stimuli autour : pénombre, silence, calme"
-            ]
-          },
-          "pour_aller_plus_loin": [
-            "Identifier les déclencheurs sur 3 jours : quels bruits le font sursauter ?",
-            "Aménager une zone calme dédiée : sa chambre, un coin du salon",
-            "Préparer les changements : « je vais te prendre » avant de le toucher",
-            "Discuter avec ostéopathe pédiatrique formé : tensions cervicales parfois en cause"
-          ],
-          "a_retenir": "Les bébés à seuil sensoriel bas (high need babies, terme de Sears) deviennent souvent des enfants attentifs et empathiques. Cette caractéristique se gère, pas se corrige.",
-          "erreurs_a_eviter": [
-            "Habituer à des bruits forts en pensant que ça l'endurcira",
-            "Punir ou s'agacer des sursauts",
-            "Ne plus oser parler à la maison",
-            "Comparer à un bébé moins réactif et conclure que le tien a un problème"
-          ],
-          "consulter_si": "Sursauts qui ne diminuent pas du tout après 4 mois, asymétrie des sursauts (un seul côté), sursaut accompagné de raideur prolongée, ou réflexe de Moro déclenché par des stimuli minuscules sans habituation possible."
-        },
-        {
-          "id": "stimu-04",
-          "titre": "Inconsolable au retour de sortie / décharge sensorielle",
-          "explication": "La sortie est un bombardement sensoriel : lumière variée, sons inhabituels, mouvements du transport, températures changeantes, contacts visuels avec des inconnus. Le bébé peut « tenir » pendant la sortie et « lâcher » au retour. Les pleurs de retour à la maison sont une décharge, pas une réaction à quelque chose qui a mal tourné.",
-          "ancrage": "Tu n'as rien fait de mal en sortant. La décharge fait partie du processus. C'est même bon signe que le système nerveux trouve le moment pour libérer la tension.",
-          "action_immediate": {
-            "titre": "Action immédiate — décompression au retour",
-            "couleur_fond": "#FCEBEB",
-            "couleur_texte": "#A32D2D",
-            "etapes": [
-              "Dès la porte d'entrée : enlever le manteau, pas plus",
-              "Pièce calme, lumière baissée, télé éteinte",
-              "Peau à peau immédiat 20 min minimum",
-              "Bercement très lent ou portage vertical",
-              "Tétée si elle se propose : régule la décharge"
-            ]
-          },
-          "geste_doux": {
-            "titre": "Geste doux — réinitialiser le système nerveux",
-            "couleur_fond": "#E1F5EE",
-            "couleur_texte": "#085041",
-            "etapes": [
-              "Toucher léger très lent du dos : de la nuque vers le sacrum, 5 passages",
-              "Contact contenant : ta main à plat, sans bouger, laisse la décharge sortir",
-              "Bain tiède 37°C 5 min si les pleurs persistent",
-              "Ta respiration audible à côté de la sienne",
-              "Le moins de stimulation possible : pénombre, une seule voix"
-            ]
-          },
-          "pour_aller_plus_loin": [
-            "Limiter les sorties à 1 par jour les 6 premières semaines",
-            "Sortie courte (30–45 min) plutôt que longue",
-            "Éviter les lieux très stimulants : centres commerciaux, restaurants bruyants",
-            "Prévoir 1h de décompression au retour avant tout enchaînement"
-          ],
-          "a_retenir": "Le système nerveux a besoin d'autant de temps pour digérer un stimulus que pour le recevoir. Une sortie de 1h demande environ 1h de calme ensuite.",
-          "erreurs_a_eviter": [
-            "Enchaîner sortie + visite + bain + repas le même après-midi",
-            "Faire les sorties pendant la « fenêtre fragile » 17h–21h",
-            "Penser qu'on doit habituer bébé en augmentant les sorties",
-            "Multiplier les manipulations au retour : change, vêtements, etc."
-          ],
-          "consulter_si": "Bébé inconsolable plusieurs heures après chaque sortie, refus alimentaire qui suit la sortie, perturbation du sommeil pendant plusieurs jours après, ou impossibilité de toute sortie sans crise majeure."
-        }
-      ]
-    },
-    {
-      "id": "sepa",
-      "nom": "Lien & attachement",
-      "emoji": "💜",
-      "description": "Contact, portage, sentiment de compétence",
-      "protocoles": [
-        {
-          "id": "sepa-01",
-          "titre": "Je n'arrive pas à décoder ses pleurs / l'apprentissage parental",
-          "explication": "Décoder les pleurs prend des semaines, parfois des mois. Aucun parent ne lit son bébé instantanément. Cette compétence se construit par la répétition : essai, observation, ajustement. Le mythe du « parent qui sait tout de suite » est faux et culpabilisant. La réalité : on apprend en faisant.",
-          "ancrage": "Ne pas savoir tout de suite n'est pas un échec. C'est même la base de l'apprentissage parental. La présence compte plus que le décodage.",
-          "action_immediate": {
-            "titre": "Action immédiate — agir avant de comprendre",
-            "couleur_fond": "#FCEBEB",
-            "couleur_texte": "#A32D2D",
-            "etapes": [
-              "Séquence simple : peau à peau d'abord, tétée si refusée puis observation",
-              "Vérifier dans l'ordre : faim, couche, chaleur, position, surstimulation, fatigue",
-              "Si rien ne ressort : juste tenir, sans paniquer, sans chercher",
-              "Ta présence calme suffit même si la cause reste invisible",
-              "Noter heure + contexte + ce qui a aidé : ces notes deviendront ton décodeur"
-            ]
-          },
-          "geste_doux": {
-            "titre": "Geste doux — créer la connexion non verbale",
-            "couleur_fond": "#E1F5EE",
-            "couleur_texte": "#085041",
-            "etapes": [
-              "Regard soutenu pendant les soins : tu apprends son visage, il apprend le tien",
-              "Réflexologie plexus solaire : pression douce 1 min — relie au calme",
-              "Respirer ensemble : pose ta main sur sa poitrine, synchronise",
-              "Parler doucement même si tu n'as rien à dire",
-              "Ne pas chercher à interpréter chaque mimique : observer simplement"
-            ]
-          },
-          "pour_aller_plus_loin": [
-            "Cahier des pleurs sur 1 semaine : tu verras des patterns",
-            "Échanger avec d'autres jeunes parents : décharge l'isolement",
-            "Sage-femme à domicile : observation extérieure précieuse",
-            "Te rappeler que tu apprends, exactement comme bébé"
-          ],
-          "a_retenir": "La compétence parentale n'est pas innée. Elle se construit dans la répétition. À 3 mois, la plupart des parents ont une bonne lecture intuitive. À 4 semaines, c'est encore en construction — c'est normal.",
-          "erreurs_a_eviter": [
-            "Se comparer à un parent qui « savait tout de suite » : récit reconstruit a posteriori",
-            "Croire qu'il y a une seule bonne réponse à trouver",
-            "Lire 10 livres en même temps : surcharge",
-            "S'isoler dans la honte de ne pas savoir"
-          ],
-          "consulter_si": "Tu ressens de la colère ou du rejet envers bébé qui pleure, sentiment d'incompétence permanente après plusieurs semaines, perte de confiance qui empêche d'agir — la sage-femme et la PMI peuvent accompagner."
-        },
-        {
-          "id": "sepa-02",
-          "titre": "Je me sens incompétent(e) comme parent / les premières semaines",
-          "explication": "Le sentiment d'incompétence des premières semaines est universel — il touche presque tous les parents. Le cerveau parental se reconfigure (neurosciences du post-partum), ce qui crée une période d'instabilité émotionnelle normale. La compétence ne précède pas l'expérience — elle en découle. Ce que tu vis maintenant construit le parent que tu seras dans 6 mois.",
-          "ancrage": "Tu n'es pas incompétent(e). Tu es en apprentissage. C'est différent. Et c'est ainsi que tous les bons parents commencent.",
-          "action_immediate": {
-            "titre": "Action immédiate — restaurer le sentiment de capacité",
-            "couleur_fond": "#FCEBEB",
-            "couleur_texte": "#A32D2D",
-            "etapes": [
-              "Noter 3 réussites par jour, même minuscules : « j'ai changé sa couche », « je l'ai apaisé »",
-              "Refuser les conseils non sollicités : « merci, je vais m'arranger »",
-              "Limiter les comptes sociaux de parents idéalisés",
-              "Te féliciter à voix haute quand tu réussis quelque chose",
-              "Demander à quelqu'un de confiance de te rappeler ce que tu fais bien"
-            ]
-          },
-          "geste_doux": {
-            "titre": "Geste doux — sentir le lien qui se construit",
-            "couleur_fond": "#E1F5EE",
-            "couleur_texte": "#085041",
-            "etapes": [
-              "Peau à peau 30 min chaque jour : libère l'ocytocine du lien",
-              "Réflexologie de tes propres mains : pression sur la pulpe de chaque doigt — ancrage",
-              "Respiration profonde 3 fois avant de prendre bébé",
-              "Te parler doucement : « je fais de mon mieux, c'est suffisant »",
-              "Temps de toucher de bébé après J14 : reconnecte au sentiment de compétence par le faire"
-            ]
-          },
-          "pour_aller_plus_loin": [
-            "Groupes de jeunes parents : voir que tous traversent ça",
-            "Sage-femme à domicile : pose des mots sur ce qui est normal",
-            "Si pensées noires persistantes : appeler le 3114 (prévention suicide) — confidentiel, gratuit, 24h/24",
-            "Te rappeler que cette période est temporaire"
-          ],
-          "a_retenir": "Le sentiment de compétence parentale augmente progressivement entre 6 semaines et 6 mois. À 1 an, la majorité des parents se sentent à l'aise. Tu n'es pas en retard — tu es au début.",
-          "erreurs_a_eviter": [
-            "Ruminer sur les choses ratées plutôt que les choses faites",
-            "Comparer ta vie réelle à la vie filtrée d'autres parents en ligne",
-            "Cacher tes difficultés par honte : crée l'isolement qui aggrave",
-            "Penser que tu es seul(e) à vivre ça : faux"
-          ],
-          "consulter_si": "Sentiment d'incapacité qui dure plus de 2 semaines, pleurs quotidiens, perte d'appétit, insomnie même quand bébé dort, pensées noires, sentiment d'avoir fait une erreur en devenant parent — appeler le médecin traitant, la PMI ou le 3114."
-        },
-        {
-          "id": "sepa-03",
-          "titre": "Bébé ne semble pas me reconnaître / la connexion en construction",
-          "explication": "Le nouveau-né reconnaît votre voix (entendue depuis 9 mois), votre odeur (familière dès la naissance) et progressivement votre visage (vision floue à 20–25 cm, qui s'affine sur plusieurs semaines). Le contact visuel soutenu n'apparaît clairement qu'entre 4 et 6 semaines. L'absence apparente de reconnaissance les premiers jours est neurologique, pas affective.",
-          "ancrage": "Ton bébé te connaît déjà par la voix et l'odeur. Le regard mutuel viendra. Le lien existe avant même que ses yeux puissent fixer.",
-          "action_immediate": {
-            "titre": "Action immédiate — multiplier les voies de connexion",
-            "couleur_fond": "#FCEBEB",
-            "couleur_texte": "#A32D2D",
-            "etapes": [
-              "Parler dès l'éveil : ta voix est un repère ancien pour lui",
-              "Approcher ton visage à 25 cm pendant les tétées : distance de la vision néonatale",
-              "Peau à peau quotidien : ton odeur est son premier repère",
-              "Te présenter à voix haute : « C'est maman/papa »",
-              "Pas de pression pour le regard mutuel : il arrive quand il arrive"
-            ]
-          },
-          "geste_doux": {
-            "titre": "Geste doux — renforcer la reconnaissance multisensorielle",
-            "couleur_fond": "#E1F5EE",
-            "couleur_texte": "#085041",
-            "etapes": [
-              "Toucher du visage : front, joues, menton — il apprend ton toucher",
-              "Caresses du dos en parlant : voix + toucher associés",
-              "Lange porté contre toi puis posé près de bébé : odeur familière",
-              "Berceuse identique chaque soir : repère sonore qui s'ancre",
-              "Réflexologie voûte plantaire en chantant : association multi-sensorielle"
-            ]
-          },
-          "pour_aller_plus_loin": [
-            "Vidéo de bébé pendant les premiers regards : tu verras des micro-expressions",
-            "Chant et parole en alternant les deux parents : différenciation",
-            "Photos imprimées du visage parental : il s'y habitue progressivement (autour de 6 semaines)",
-            "Patience : la « danse du lien » se construit pendant plusieurs mois"
-          ],
-          "a_retenir": "L'attachement (Bowlby, Ainsworth) ne se mesure pas au regard à 4 semaines. Il se mesure à la stabilité de la présence sur les premiers mois. Tu construis du lien à chaque interaction même quand bébé ne te regarde pas.",
-          "erreurs_a_eviter": [
-            "Forcer le regard en bougeant fortement devant son visage",
-            "Conclure à l'absence de lien parce qu'il ne sourit pas encore",
-            "Se sentir rejeté(e) : interprétation adulte d'un comportement neurologique",
-            "Multiplier les stimulations visuelles : surcharge inverse"
-          ],
-          "consulter_si": "Absence totale de réaction à ta voix au-delà de 4 semaines, absence de tout sourire social après 8 semaines, regard qui ne cherche jamais le contact, comportement de retrait massif — la PMI ou le pédiatre pourront évaluer."
-        },
-        {
-          "id": "sepa-04",
-          "titre": "Peur de trop le porter / le mythe du bébé gâté",
-          "explication": "La peur de gâter un bébé en le portant trop est un mythe du 20e siècle sans fondement scientifique. La recherche en neurosciences est unanime : il est neurobiologiquement impossible de trop câliner un bébé de moins de 6 mois. Le contact répond à un besoin biologique réel — comme la nourriture.",
-          "ancrage": "Prendre bébé dans tes bras quand il pleure n'est pas une faiblesse éducative. C'est une réponse à un besoin biologique. Et c'est exactement ce dont son cerveau a besoin pour se développer.",
-          "action_immediate": {
-            "titre": "Action immédiate — permission de porter",
-            "couleur_fond": "#FCEBEB",
-            "couleur_texte": "#A32D2D",
-            "etapes": [
-              "Te donner la permission explicite de tenir bébé autant que tu en as envie",
-              "Porte-bébé physiologique : tenir bébé libère les mains",
-              "Ignorer les conseils de laisser s'exprimer ou indépendance avant 4 mois",
-              "Répondre systématiquement aux pleurs : la rapidité construit la sécurité",
-              "Préparer une phrase pour les remarques : « Les neurosciences disent l'inverse »"
-            ]
-          },
-          "geste_doux": {
-            "titre": "Geste doux — construire la sécurité",
-            "couleur_fond": "#E1F5EE",
-            "couleur_texte": "#085041",
-            "etapes": [
-              "Peau à peau quotidien : 30 min minimum — construit l'attachement sécure",
-              "Porter en porte-bébé pendant les tâches : bébé contre soi, mains libres",
-              "Réflexologie dans les bras : tenir bébé, toucher son dos et ses pieds",
-              "Contact oculaire pendant les soins : regard + parole + toucher = 3 voies d'attachement",
-              "Lecture collé : lire à voix haute dans le porte-bébé"
-            ]
-          },
-          "pour_aller_plus_loin": [
-            "Ignorer la pression sociale autour de la dépendance",
-            "Pas de limite au portage les premiers mois sauf indication médicale",
-            "La sécurité que tu construis maintenant est la fondation de son indépendance future",
-            "Partager cette information au co-parent et à l'entourage si nécessaire"
-          ],
-          "a_retenir": "Les études sur l'attachement montrent que les bébés dont les besoins de contact sont comblés rapidement développent plus d'autonomie et de régulation émotionnelle à l'âge préscolaire — l'inverse du gâtage.",
-          "erreurs_a_eviter": [
-            "Laisser pleurer pour qu'il apprenne à attendre avant 4 mois — n'apprend rien",
-            "Forcer des positions de distance pour l'indépendance",
-            "Croire que porter = problème futur de dépendance",
-            "Écouter les conseils non sourcés sur le gâtage"
-          ],
-          "consulter_si": "Si tu évites de porter bébé même quand il pleure, ou si tu es incapable de répondre à ses besoins → en parler à ta sage-femme. Ce peut être un signe de dépression post-partum."
-        }
-      ]
+      ],
+      "couleur": "#EDE0D4"
     },
     {
       "id": "sante",
@@ -1336,7 +972,378 @@
           ],
           "consulter_si": "Boutons étendus à tout le corps en quelques heures, suintants ou rouges flamme, vésicules (cloques d'eau), croûtes jaunes épaisses sur le visage qui s'étendent, fièvre associée à une éruption, ou peau qui pèle profondément en grandes plaques."
         }
-      ]
+      ],
+      "couleur": "#BCD0A0"
+    },
+    {
+      "id": "stimu",
+      "nom": "Sur-stimulation",
+      "emoji": "✨",
+      "description": "Bébé débordé, pleurs du soir",
+      "protocoles": [
+        {
+          "id": "stimu-01",
+          "titre": "Pleurs intenses du soir / décharge sensorielle",
+          "explication": "Les pleurs du soir sont liés à l'accumulation des stimuli de la journée. Le système nerveux immature ne sait pas encore filtrer ni digérer ce qu'il a vécu. Le soir, il déborde. C'est moins « bébé a mal » que « bébé décharge ». Ce qui aide n'est pas d'arrêter les pleurs mais d'accompagner la décharge.",
+          "ancrage": "Ces pleurs ne signalent pas une douleur. Ils signalent un cerveau qui se purge. Ta présence calme, sans forcer, est exactement ce qu'il faut.",
+          "action_immediate": {
+            "titre": "Action immédiate — accompagner la décharge",
+            "couleur_fond": "#FCEBEB",
+            "couleur_texte": "#A32D2D",
+            "etapes": [
+              "Anticiper 17h–18h : baisser stimuli, lumières tamisées, parler bas",
+              "Portage vertical : peau à peau ou écharpe — contenance + chaleur",
+              "Marcher doucement, idéalement dehors : changement d'environnement, air frais",
+              "Bruit blanc continu : couvre les bruits ambiants surstimulants",
+              "Tour de relais avec le co-parent toutes les 30 min : éviter l'épuisement"
+            ]
+          },
+          "geste_doux": {
+            "titre": "Geste doux — apaiser sans surstimuler",
+            "couleur_fond": "#E1F5EE",
+            "couleur_texte": "#085041",
+            "etapes": [
+              "Un seul geste à la fois : ne pas multiplier les techniques pendant la crise",
+              "Respirer lentement contre lui : ta respiration entraîne la sienne",
+              "Voix monocorde basse : « chhhhh » ou « ohm » prolongé",
+              "Contact contenant : ta main à plat sur sa poitrine ou son dos",
+              "Bain tiède 37°C si rien ne calme : reproduit le liquide amniotique"
+            ]
+          },
+          "pour_aller_plus_loin": [
+            "Préparer le dîner avant 17h : tu seras occupé(e) après",
+            "Refuser les visites en fin de journée pendant cette période",
+            "Repas chaud apporté par un proche : demander explicitement",
+            "Garder en mémoire : pic à 6 semaines puis diminution chaque semaine"
+          ],
+          "a_retenir": "Ces pleurs du soir sont décrits dans toutes les cultures et tous les pays. Ce n'est pas un problème français ni un problème de ton bébé. C'est universel et temporaire.",
+          "erreurs_a_eviter": [
+            "Multiplier les bras et les techniques pendant la crise : amplifie la surcharge",
+            "Lumière vive ou télé pour distraire : ajoute du stimulus",
+            "Vouloir absolument arrêter les pleurs : la décharge a besoin de sortir",
+            "Penser que c'est ton échec : aucun lien"
+          ],
+          "consulter_si": "Pleurs s'étendent au-delà de 21h chaque soir et durent plus de 3h, pleurs en dehors de la fenêtre 17h–21h prennent la même intensité, bébé ne récupère jamais, ou si toi-même tu n'arrives plus à supporter."
+        },
+        {
+          "id": "stimu-02",
+          "titre": "Débordé après les visites / saturation sensorielle",
+          "explication": "Le nouveau-né n'est pas équipé pour gérer plusieurs visages, plusieurs voix, plusieurs odeurs dans la même journée. Chaque visite est un effort sensoriel. Trop de visiteurs sur un court temps = saturation neurologique. La réponse n'est pas en colère contre les proches — c'est en planifiant différemment.",
+          "ancrage": "Tu as le droit d'espacer les visites. Tu as le droit de refuser. Ton bébé a besoin de calme bien plus que de socialisation à ce stade.",
+          "action_immediate": {
+            "titre": "Action immédiate — décharger la surstimulation",
+            "couleur_fond": "#FCEBEB",
+            "couleur_texte": "#A32D2D",
+            "etapes": [
+              "Dès le départ des visiteurs : retirer bébé dans une pièce calme",
+              "Pénombre, voix basse, pas de musique",
+              "Peau à peau immédiat 20 min minimum",
+              "Tétée si elle se présente : régule en plus de nourrir",
+              "Ne pas reprogrammer une nouvelle visite dans les 24h"
+            ]
+          },
+          "geste_doux": {
+            "titre": "Geste doux — recharger le système nerveux",
+            "couleur_fond": "#E1F5EE",
+            "couleur_texte": "#085041",
+            "etapes": [
+              "Toucher léger très lent du visage : front, nez, joues — 1 min",
+              "Respirer lentement à son oreille : « inspire, expire » audible",
+              "Bercement très lent sans paroles : silence ou « chhhh » très bas",
+              "Couvrir bébé d'un lange portant ton odeur : un repère rassurant",
+              "Réduire d'abord les stimuli : lumière baissée, une seule personne, moins de bruit"
+            ]
+          },
+          "pour_aller_plus_loin": [
+            "Limiter à 1 visite par jour les premières semaines",
+            "Visites courtes : 30–45 min maximum",
+            "Pas plus de 2 personnes par visite",
+            "Briefer les visiteurs : voix basses, pas se passer bébé, lavage des mains"
+          ],
+          "a_retenir": "Le système nerveux du nouveau-né enregistre tout — voix, lumières, mouvements, odeurs — sans filtre. Ce qui semble une « petite » visite pour les adultes est un événement sensoriel important pour lui.",
+          "erreurs_a_eviter": [
+            "Faire passer bébé de bras en bras pour « le faire connaître »",
+            "Forcer un sourire ou un éveil quand bébé somnole",
+            "Multiplier les visites le même jour pour « éviter » d'autres jours",
+            "Se sentir obligé(e) d'accueillir : tu peux poser des limites"
+          ],
+          "consulter_si": "Surstimulation systématique après chaque visite avec récupération longue, bébé qui devient inconsolable après chaque sortie, sommeil très dégradé suite à la visite, ou si tu te sens dépassée par la pression sociale d'accueil."
+        },
+        {
+          "id": "stimu-03",
+          "titre": "Sursaute à chaque bruit / hypersensibilité sensorielle",
+          "explication": "Le réflexe de Moro (sursaut brutal avec écartement des bras) est normal jusqu'à 3–4 mois. Certains bébés sont constitutionnellement plus sensibles aux bruits, lumières, mouvements — c'est leur tempérament. Ce n'est pas un trouble, c'est une variation neurologique normale. L'environnement peut être adapté.",
+          "ancrage": "Ton bébé n'est pas anormalement nerveux. Il est juste plus sensible que d'autres. Cette sensibilité, bien accompagnée, devient un atout plus tard.",
+          "action_immediate": {
+            "titre": "Action immédiate — environnement sécurisant",
+            "couleur_fond": "#FCEBEB",
+            "couleur_texte": "#A32D2D",
+            "etapes": [
+              "Réduire les sons forts : portes qui claquent, télé fort, voix élevées",
+              "Bruit blanc continu : paradoxalement, le constant calme plus que le silence",
+              "Lumières chaudes et tamisées : éviter les blancs froids et les LED puissantes",
+              "Emmaillotage léger pour la nuit : contient le réflexe de Moro",
+              "Mouvements lents quand on s'approche : prévenir avant de prendre"
+            ]
+          },
+          "geste_doux": {
+            "titre": "Geste doux — apaiser l'hypervigilance",
+            "couleur_fond": "#E1F5EE",
+            "couleur_texte": "#085041",
+            "etapes": [
+              "Pression continue d'une main sur la poitrine : un ancrage",
+              "Front : toucher léger très doux du centre vers les tempes",
+              "Voix très basse à 30 cm de l'oreille : « chhhhh » monocorde",
+              "Bercement très lent et régulier dans tes bras",
+              "Baisser fortement les stimuli autour : pénombre, silence, calme"
+            ]
+          },
+          "pour_aller_plus_loin": [
+            "Identifier les déclencheurs sur 3 jours : quels bruits le font sursauter ?",
+            "Aménager une zone calme dédiée : sa chambre, un coin du salon",
+            "Préparer les changements : « je vais te prendre » avant de le toucher",
+            "Discuter avec ostéopathe pédiatrique formé : tensions cervicales parfois en cause"
+          ],
+          "a_retenir": "Les bébés à seuil sensoriel bas (high need babies, terme de Sears) deviennent souvent des enfants attentifs et empathiques. Cette caractéristique se gère, pas se corrige.",
+          "erreurs_a_eviter": [
+            "Habituer à des bruits forts en pensant que ça l'endurcira",
+            "Punir ou s'agacer des sursauts",
+            "Ne plus oser parler à la maison",
+            "Comparer à un bébé moins réactif et conclure que le tien a un problème"
+          ],
+          "consulter_si": "Sursauts qui ne diminuent pas du tout après 4 mois, asymétrie des sursauts (un seul côté), sursaut accompagné de raideur prolongée, ou réflexe de Moro déclenché par des stimuli minuscules sans habituation possible."
+        },
+        {
+          "id": "stimu-04",
+          "titre": "Inconsolable au retour de sortie / décharge sensorielle",
+          "explication": "La sortie est un bombardement sensoriel : lumière variée, sons inhabituels, mouvements du transport, températures changeantes, contacts visuels avec des inconnus. Le bébé peut « tenir » pendant la sortie et « lâcher » au retour. Les pleurs de retour à la maison sont une décharge, pas une réaction à quelque chose qui a mal tourné.",
+          "ancrage": "Tu n'as rien fait de mal en sortant. La décharge fait partie du processus. C'est même bon signe que le système nerveux trouve le moment pour libérer la tension.",
+          "action_immediate": {
+            "titre": "Action immédiate — décompression au retour",
+            "couleur_fond": "#FCEBEB",
+            "couleur_texte": "#A32D2D",
+            "etapes": [
+              "Dès la porte d'entrée : enlever le manteau, pas plus",
+              "Pièce calme, lumière baissée, télé éteinte",
+              "Peau à peau immédiat 20 min minimum",
+              "Bercement très lent ou portage vertical",
+              "Tétée si elle se propose : régule la décharge"
+            ]
+          },
+          "geste_doux": {
+            "titre": "Geste doux — réinitialiser le système nerveux",
+            "couleur_fond": "#E1F5EE",
+            "couleur_texte": "#085041",
+            "etapes": [
+              "Toucher léger très lent du dos : de la nuque vers le sacrum, 5 passages",
+              "Contact contenant : ta main à plat, sans bouger, laisse la décharge sortir",
+              "Bain tiède 37°C 5 min si les pleurs persistent",
+              "Ta respiration audible à côté de la sienne",
+              "Le moins de stimulation possible : pénombre, une seule voix"
+            ]
+          },
+          "pour_aller_plus_loin": [
+            "Limiter les sorties à 1 par jour les 6 premières semaines",
+            "Sortie courte (30–45 min) plutôt que longue",
+            "Éviter les lieux très stimulants : centres commerciaux, restaurants bruyants",
+            "Prévoir 1h de décompression au retour avant tout enchaînement"
+          ],
+          "a_retenir": "Le système nerveux a besoin d'autant de temps pour digérer un stimulus que pour le recevoir. Une sortie de 1h demande environ 1h de calme ensuite.",
+          "erreurs_a_eviter": [
+            "Enchaîner sortie + visite + bain + repas le même après-midi",
+            "Faire les sorties pendant la « fenêtre fragile » 17h–21h",
+            "Penser qu'on doit habituer bébé en augmentant les sorties",
+            "Multiplier les manipulations au retour : change, vêtements, etc."
+          ],
+          "consulter_si": "Bébé inconsolable plusieurs heures après chaque sortie, refus alimentaire qui suit la sortie, perturbation du sommeil pendant plusieurs jours après, ou impossibilité de toute sortie sans crise majeure."
+        }
+      ],
+      "couleur": "#B0C0AC"
+    },
+    {
+      "id": "sepa",
+      "nom": "Lien & attachement",
+      "emoji": "💜",
+      "description": "Contact, portage, sentiment de compétence",
+      "protocoles": [
+        {
+          "id": "sepa-01",
+          "titre": "Je n'arrive pas à décoder ses pleurs / l'apprentissage parental",
+          "explication": "Décoder les pleurs prend des semaines, parfois des mois. Aucun parent ne lit son bébé instantanément. Cette compétence se construit par la répétition : essai, observation, ajustement. Le mythe du « parent qui sait tout de suite » est faux et culpabilisant. La réalité : on apprend en faisant.",
+          "ancrage": "Ne pas savoir tout de suite n'est pas un échec. C'est même la base de l'apprentissage parental. La présence compte plus que le décodage.",
+          "action_immediate": {
+            "titre": "Action immédiate — agir avant de comprendre",
+            "couleur_fond": "#FCEBEB",
+            "couleur_texte": "#A32D2D",
+            "etapes": [
+              "Séquence simple : peau à peau d'abord, tétée si refusée puis observation",
+              "Vérifier dans l'ordre : faim, couche, chaleur, position, surstimulation, fatigue",
+              "Si rien ne ressort : juste tenir, sans paniquer, sans chercher",
+              "Ta présence calme suffit même si la cause reste invisible",
+              "Noter heure + contexte + ce qui a aidé : ces notes deviendront ton décodeur"
+            ]
+          },
+          "geste_doux": {
+            "titre": "Geste doux — créer la connexion non verbale",
+            "couleur_fond": "#E1F5EE",
+            "couleur_texte": "#085041",
+            "etapes": [
+              "Regard soutenu pendant les soins : tu apprends son visage, il apprend le tien",
+              "Réflexologie plexus solaire : pression douce 1 min — relie au calme",
+              "Respirer ensemble : pose ta main sur sa poitrine, synchronise",
+              "Parler doucement même si tu n'as rien à dire",
+              "Ne pas chercher à interpréter chaque mimique : observer simplement"
+            ]
+          },
+          "pour_aller_plus_loin": [
+            "Cahier des pleurs sur 1 semaine : tu verras des patterns",
+            "Échanger avec d'autres jeunes parents : décharge l'isolement",
+            "Sage-femme à domicile : observation extérieure précieuse",
+            "Te rappeler que tu apprends, exactement comme bébé"
+          ],
+          "a_retenir": "La compétence parentale n'est pas innée. Elle se construit dans la répétition. À 3 mois, la plupart des parents ont une bonne lecture intuitive. À 4 semaines, c'est encore en construction — c'est normal.",
+          "erreurs_a_eviter": [
+            "Se comparer à un parent qui « savait tout de suite » : récit reconstruit a posteriori",
+            "Croire qu'il y a une seule bonne réponse à trouver",
+            "Lire 10 livres en même temps : surcharge",
+            "S'isoler dans la honte de ne pas savoir"
+          ],
+          "consulter_si": "Tu ressens de la colère ou du rejet envers bébé qui pleure, sentiment d'incompétence permanente après plusieurs semaines, perte de confiance qui empêche d'agir — la sage-femme et la PMI peuvent accompagner."
+        },
+        {
+          "id": "sepa-02",
+          "titre": "Je me sens incompétent(e) comme parent / les premières semaines",
+          "explication": "Le sentiment d'incompétence des premières semaines est universel — il touche presque tous les parents. Le cerveau parental se reconfigure (neurosciences du post-partum), ce qui crée une période d'instabilité émotionnelle normale. La compétence ne précède pas l'expérience — elle en découle. Ce que tu vis maintenant construit le parent que tu seras dans 6 mois.",
+          "ancrage": "Tu n'es pas incompétent(e). Tu es en apprentissage. C'est différent. Et c'est ainsi que tous les bons parents commencent.",
+          "action_immediate": {
+            "titre": "Action immédiate — restaurer le sentiment de capacité",
+            "couleur_fond": "#FCEBEB",
+            "couleur_texte": "#A32D2D",
+            "etapes": [
+              "Noter 3 réussites par jour, même minuscules : « j'ai changé sa couche », « je l'ai apaisé »",
+              "Refuser les conseils non sollicités : « merci, je vais m'arranger »",
+              "Limiter les comptes sociaux de parents idéalisés",
+              "Te féliciter à voix haute quand tu réussis quelque chose",
+              "Demander à quelqu'un de confiance de te rappeler ce que tu fais bien"
+            ]
+          },
+          "geste_doux": {
+            "titre": "Geste doux — sentir le lien qui se construit",
+            "couleur_fond": "#E1F5EE",
+            "couleur_texte": "#085041",
+            "etapes": [
+              "Peau à peau 30 min chaque jour : libère l'ocytocine du lien",
+              "Réflexologie de tes propres mains : pression sur la pulpe de chaque doigt — ancrage",
+              "Respiration profonde 3 fois avant de prendre bébé",
+              "Te parler doucement : « je fais de mon mieux, c'est suffisant »",
+              "Temps de toucher de bébé après J14 : reconnecte au sentiment de compétence par le faire"
+            ]
+          },
+          "pour_aller_plus_loin": [
+            "Groupes de jeunes parents : voir que tous traversent ça",
+            "Sage-femme à domicile : pose des mots sur ce qui est normal",
+            "Si pensées noires persistantes : appeler le 3114 (prévention suicide) — confidentiel, gratuit, 24h/24",
+            "Te rappeler que cette période est temporaire"
+          ],
+          "a_retenir": "Le sentiment de compétence parentale augmente progressivement entre 6 semaines et 6 mois. À 1 an, la majorité des parents se sentent à l'aise. Tu n'es pas en retard — tu es au début.",
+          "erreurs_a_eviter": [
+            "Ruminer sur les choses ratées plutôt que les choses faites",
+            "Comparer ta vie réelle à la vie filtrée d'autres parents en ligne",
+            "Cacher tes difficultés par honte : crée l'isolement qui aggrave",
+            "Penser que tu es seul(e) à vivre ça : faux"
+          ],
+          "consulter_si": "Sentiment d'incapacité qui dure plus de 2 semaines, pleurs quotidiens, perte d'appétit, insomnie même quand bébé dort, pensées noires, sentiment d'avoir fait une erreur en devenant parent — appeler le médecin traitant, la PMI ou le 3114."
+        },
+        {
+          "id": "sepa-03",
+          "titre": "Bébé ne semble pas me reconnaître / la connexion en construction",
+          "explication": "Le nouveau-né reconnaît votre voix (entendue depuis 9 mois), votre odeur (familière dès la naissance) et progressivement votre visage (vision floue à 20–25 cm, qui s'affine sur plusieurs semaines). Le contact visuel soutenu n'apparaît clairement qu'entre 4 et 6 semaines. L'absence apparente de reconnaissance les premiers jours est neurologique, pas affective.",
+          "ancrage": "Ton bébé te connaît déjà par la voix et l'odeur. Le regard mutuel viendra. Le lien existe avant même que ses yeux puissent fixer.",
+          "action_immediate": {
+            "titre": "Action immédiate — multiplier les voies de connexion",
+            "couleur_fond": "#FCEBEB",
+            "couleur_texte": "#A32D2D",
+            "etapes": [
+              "Parler dès l'éveil : ta voix est un repère ancien pour lui",
+              "Approcher ton visage à 25 cm pendant les tétées : distance de la vision néonatale",
+              "Peau à peau quotidien : ton odeur est son premier repère",
+              "Te présenter à voix haute : « C'est maman/papa »",
+              "Pas de pression pour le regard mutuel : il arrive quand il arrive"
+            ]
+          },
+          "geste_doux": {
+            "titre": "Geste doux — renforcer la reconnaissance multisensorielle",
+            "couleur_fond": "#E1F5EE",
+            "couleur_texte": "#085041",
+            "etapes": [
+              "Toucher du visage : front, joues, menton — il apprend ton toucher",
+              "Caresses du dos en parlant : voix + toucher associés",
+              "Lange porté contre toi puis posé près de bébé : odeur familière",
+              "Berceuse identique chaque soir : repère sonore qui s'ancre",
+              "Réflexologie voûte plantaire en chantant : association multi-sensorielle"
+            ]
+          },
+          "pour_aller_plus_loin": [
+            "Vidéo de bébé pendant les premiers regards : tu verras des micro-expressions",
+            "Chant et parole en alternant les deux parents : différenciation",
+            "Photos imprimées du visage parental : il s'y habitue progressivement (autour de 6 semaines)",
+            "Patience : la « danse du lien » se construit pendant plusieurs mois"
+          ],
+          "a_retenir": "L'attachement (Bowlby, Ainsworth) ne se mesure pas au regard à 4 semaines. Il se mesure à la stabilité de la présence sur les premiers mois. Tu construis du lien à chaque interaction même quand bébé ne te regarde pas.",
+          "erreurs_a_eviter": [
+            "Forcer le regard en bougeant fortement devant son visage",
+            "Conclure à l'absence de lien parce qu'il ne sourit pas encore",
+            "Se sentir rejeté(e) : interprétation adulte d'un comportement neurologique",
+            "Multiplier les stimulations visuelles : surcharge inverse"
+          ],
+          "consulter_si": "Absence totale de réaction à ta voix au-delà de 4 semaines, absence de tout sourire social après 8 semaines, regard qui ne cherche jamais le contact, comportement de retrait massif — la PMI ou le pédiatre pourront évaluer."
+        },
+        {
+          "id": "sepa-04",
+          "titre": "Peur de trop le porter / le mythe du bébé gâté",
+          "explication": "La peur de gâter un bébé en le portant trop est un mythe du 20e siècle sans fondement scientifique. La recherche en neurosciences est unanime : il est neurobiologiquement impossible de trop câliner un bébé de moins de 6 mois. Le contact répond à un besoin biologique réel — comme la nourriture.",
+          "ancrage": "Prendre bébé dans tes bras quand il pleure n'est pas une faiblesse éducative. C'est une réponse à un besoin biologique. Et c'est exactement ce dont son cerveau a besoin pour se développer.",
+          "action_immediate": {
+            "titre": "Action immédiate — permission de porter",
+            "couleur_fond": "#FCEBEB",
+            "couleur_texte": "#A32D2D",
+            "etapes": [
+              "Te donner la permission explicite de tenir bébé autant que tu en as envie",
+              "Porte-bébé physiologique : tenir bébé libère les mains",
+              "Ignorer les conseils de laisser s'exprimer ou indépendance avant 4 mois",
+              "Répondre systématiquement aux pleurs : la rapidité construit la sécurité",
+              "Préparer une phrase pour les remarques : « Les neurosciences disent l'inverse »"
+            ]
+          },
+          "geste_doux": {
+            "titre": "Geste doux — construire la sécurité",
+            "couleur_fond": "#E1F5EE",
+            "couleur_texte": "#085041",
+            "etapes": [
+              "Peau à peau quotidien : 30 min minimum — construit l'attachement sécure",
+              "Porter en porte-bébé pendant les tâches : bébé contre soi, mains libres",
+              "Réflexologie dans les bras : tenir bébé, toucher son dos et ses pieds",
+              "Contact oculaire pendant les soins : regard + parole + toucher = 3 voies d'attachement",
+              "Lecture collé : lire à voix haute dans le porte-bébé"
+            ]
+          },
+          "pour_aller_plus_loin": [
+            "Ignorer la pression sociale autour de la dépendance",
+            "Pas de limite au portage les premiers mois sauf indication médicale",
+            "La sécurité que tu construis maintenant est la fondation de son indépendance future",
+            "Partager cette information au co-parent et à l'entourage si nécessaire"
+          ],
+          "a_retenir": "Les études sur l'attachement montrent que les bébés dont les besoins de contact sont comblés rapidement développent plus d'autonomie et de régulation émotionnelle à l'âge préscolaire — l'inverse du gâtage.",
+          "erreurs_a_eviter": [
+            "Laisser pleurer pour qu'il apprenne à attendre avant 4 mois — n'apprend rien",
+            "Forcer des positions de distance pour l'indépendance",
+            "Croire que porter = problème futur de dépendance",
+            "Écouter les conseils non sourcés sur le gâtage"
+          ],
+          "consulter_si": "Si tu évites de porter bébé même quand il pleure, ou si tu es incapable de répondre à ses besoins → en parler à ta sage-femme. Ce peut être un signe de dépression post-partum."
+        }
+      ],
+      "couleur": "#C8D8DC"
     },
     {
       "id": "parent",
@@ -1520,7 +1527,8 @@
           ],
           "consulter_si": "URGENCE — appel immédiat : pensées de geste précis envers bébé ou toi, sentiment de perte de contrôle imminent, isolement total. Appeler le 15 (SAMU), le 3114 (prévention suicide), ou se rendre aux urgences de maternité. Tu n'es pas seul(e) et l'aide existe immédiatement."
         }
-      ]
+      ],
+      "couleur": "#E8F0F2"
     }
   ]
 }

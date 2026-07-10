@@ -317,6 +317,19 @@ const FILE_HANDLERS = {
   "06-jeux.json": { module: "jeux", fn: decomposeJeux },
 };
 
+// Nouveau nommage du guide : "M{mois}_guide_moi.json" (ex. M0_guide_moi.json).
+// Le numéro du mois dans le titre évite les confusions côté fondatrice.
+const GUIDE_FILE_RE = /^M\d+_guide_moi\.json$/i;
+
+// Renvoie le handler d'un fichier : mapping exact, sinon motif guide.
+function resolveHandler(filename) {
+  if (FILE_HANDLERS[filename]) return FILE_HANDLERS[filename];
+  if (GUIDE_FILE_RE.test(filename)) {
+    return { module: "guide", fn: decomposeGuide };
+  }
+  return null;
+}
+
 // Mots-clés permettant de deviner le nom attendu quand un fichier est mal nommé
 const NAME_HINTS = [
   { keyword: "guide", expected: "01-guide.json" },
@@ -352,7 +365,7 @@ async function importMois(mois, dir) {
   //    extraites des decomposers coucher/soin/jeux)
   const perFile = []; // [{ file, module, rows }]
   for (const f of files) {
-    const handler = FILE_HANDLERS[f];
+    const handler = resolveHandler(f);
     if (!handler) {
       const suggestion = suggestExpectedName(f);
       const hint = suggestion
