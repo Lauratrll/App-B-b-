@@ -13,9 +13,14 @@ export type Subscription = {
 
 export function getBabyMonth(birthdate: Date): number {
   const today = new Date();
-  const months =
+  let months =
     (today.getFullYear() - birthdate.getFullYear()) * 12 +
     (today.getMonth() - birthdate.getMonth());
+  // Le mois n'est révolu que si le jour de naissance est atteint.
+  // Ex. né le 24/07 : au 11/07 il a un mois de moins qu'au 24/07.
+  if (today.getDate() < birthdate.getDate()) {
+    months -= 1;
+  }
   return Math.max(0, Math.min(24, months));
 }
 
