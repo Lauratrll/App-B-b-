@@ -153,6 +153,8 @@ Informer sur l'allaitement, les suites de couches, le post-partum, le développe
 - Cadre de sécurité : 2 à 3 lignes
 
 ### UI copy (boutons, labels, titres) :
+- **Titre d'un protocole Guide-moi ! (champ `titre`) : toujours en deux parties séparées par « / »** — « THÈME / angle ou besoin ». C'est ce champ qui sert de libellé au bouton de la page « situations » : la 1ʳᵉ partie s'affiche en petites majuscules, la 2ᵈᵉ en italique. Ex. : « La néophobie / refuse de goûter ce qui est nouveau », « Le grand lit / préparer la transition ».
+  - À distinguer du champ `situation`, qui est une **phrase descriptive** de la scène (« Refuse de goûter tout aliment nouveau ») et n'a pas de « / ». Les deux coexistent dans le JSON ; **seul `titre` est affiché** sur le bouton. (Sur les tout premiers mois — M0, M14 — `situation` = `titre` ; le code retombe sur `situation` quand `titre` manque.)
 - Boutons : 2 à 4 mots, verbe d'action ("Voir le protocole", "Épingler", "Commencer")
 - Titres de section : 3 à 6 mots
 - Messages d'état vides : encourageants, pas vides ("Aucun protocole épinglé pour l'instant — explore le Guide-moi !")
