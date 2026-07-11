@@ -244,7 +244,10 @@ export function SituationsView({
             <SituationButton
               key={s.id}
               href={`/guide/${categorie.id}/${s.ordre}`}
-              situation={s.situation}
+              // Libellé du bouton = titre en 2 parties « THÈME / angle » (avec « / »).
+              // `titre` retombe sur `situation` quand un mois n'a pas de titre dédié
+              // (cf. getGuideSituations), donc sans effet sur M0/M14.
+              situation={s.titre}
               bgColor={slot.camaieu[i % slot.camaieu.length]}
             />
           ))}
