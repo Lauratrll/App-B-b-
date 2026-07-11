@@ -71,7 +71,7 @@
 
 ### Ce que l'app peut faire :
 - Décrire des gestes de réflexologie comme des "gestes doux complémentaires"
-- Mentionner des approches naturelles documentées (toucher, emmaillotage, bruit blanc)
+- Mentionner des approches naturelles documentées (massage, emmaillotage, bruit blanc)
 - Citer des études ou recherches sans les détailler (ex: "des études montrent que...")
 - Donner des repères de développement normal (fourchettes, pas certitudes)
 - Recommander de consulter avec des critères précis
@@ -83,15 +83,9 @@
 - Remplacer un suivi médical régulier
 - Garantir des résultats
 
-### Le « geste doux » n'est pas obligatoire ⭐
-
-Toutes les situations n'appellent pas un geste manuel. Quand la bonne réponse est d'**observer**, de **rassurer** ou de **consulter** (urgence, tonus atypique, doute), le bloc « geste doux » le dit explicitement — on ne force **jamais** un geste réflexe là où il n'a pas lieu d'être. Recommandation et esprit critique priment sur le réflexe d'ajouter une manipulation. En pleine crise (pleurs intenses, sur-stimulation), on ne lance **pas** une séance de réflexologie : on apaise par le contact et on renvoie la vraie séance à un moment calme (préparation au sommeil).
-
 ### Formulation du cadre de sécurité :
 Toujours formulé ainsi :
 > "Consulter [qui] si : [symptôme précis et observable] → [action concrète]."
-
-Le bloc porte toujours le libellé **« Consulter si »** (jamais « Cadre de sécurité » seul).
 
 Jamais vague. Jamais "si tu t'inquiètes". Toujours avec un critère objectif.
 
@@ -117,44 +111,35 @@ L'app édite de l'**information générale** appliquée par le parent à **son p
 | soigner, guérir, traiter, traitement (curatif) | apaiser, soulager, aider à, favoriser |
 | diagnostic, diagnostiquer | observer, repérer, remarquer |
 | prescrire, prescription, ordonnance, posologie | (à proscrire — renvoyer au médecin) |
-| **massage**, masser (présenté comme soin) | **toucher, geste doux, contact, pression douce, caresse, stimulation des zones réflexes** |
+| **massage**, masser (présenté comme soin) | **toucher, geste doux, contact, pression douce, stimulation des zones réflexes** |
 | rééducation, gymnastique médicale | éveil, jeu, découverte motrice, motricité libre |
 | patient | ton enfant, bébé, le parent |
 | consultation (au sens de l'acte de l'app) | protocole, fiche, accompagnement |
 | pathologie / maladie (prise en charge par l'app) | (décrire le vécu, renvoyer au professionnel) |
 | médecine, médical *(sauf « suivi médical » / « corps médical » pour orienter)* | bien-être, naturel, accompagnement |
 
-**Le mot « massage » est le piège n°1.** On ne l'emploie jamais pour qualifier un geste de l'app. On dit **toucher**, **geste doux**, **pression douce**, **stimulation des zones réflexes** — les bons mots suffisent à rester dans le cadre.
-
-**Convention de pression.** On décrit la pression simplement : « **une pression douce** ». Pas d'échelle chiffrée, pas de dramatisation : le parent ne doit jamais avoir peur de toucher son bébé. 
-
-**« Effleurement » à éviter.** Trop léger, il chatouille et gêne le nouveau-né. Préférer **« toucher »**, **« toucher léger »**, **« toucher doux »** ou **« contact »**.
+**Le mot « massage » est le piège n°1.** Le massage, à but thérapeutique *ou* de simple bien-être, est légalement réservé au masseur-kinésithérapeute. On ne l'emploie jamais pour qualifier un geste de l'app — **ni pour l'affirmer, ni pour le nier** (la tournure « ce n'est pas un massage » est proscrite : elle attire l'attention sur le terme réservé). On dit **toucher**, **geste doux**, **pression douce**, **stimulation des zones réflexes**. **Règle réflexologie à jour :** aucune pression chiffrée ni échelle numérique, et **jamais « caresse »** (la caresse chatouille, ce n'est pas la sensation recherchée). Décrire qualitativement : « pression douce et constante », « appui léger et maintenu ».
 
 **La motricité reste du côté de l'éveil, jamais de la rééducation.** Décrire la motricité de bébé en mode jeu/découverte est libre ; la présenter comme la correction d'un trouble bascule dans le champ kiné. Tout sujet de motricité atypique → renvoi au kiné pédiatrique / psychomotricien.
 
 ### Vocabulaire RECOMMANDÉ (registre bien-être / accompagnement)
 
-accompagnement · soutien · compagnon du quotidien · bien-être · mieux-être · apaisement · sérénité · détente · geste doux · toucher · contact peau à peau · pression douce · caresse · stimulation des zones réflexes · réflexologie *(toujours en toutes lettres, jamais « réflexo »)* · éveil · découverte · aide à · apaise · favorise · soutient · accompagne.
+accompagnement · soutien · compagnon du quotidien · bien-être · mieux-être · apaisement · sérénité · détente · geste doux · toucher · contact peau à peau · pression douce · stimulation des zones réflexes · réflexologie *(toujours en toutes lettres, jamais « réflexo »)* · éveil · découverte · aide à · apaise · favorise · soutient · accompagne.
 
 **Jamais de promesse de résultat.** « Aide à apaiser », « favorise l'endormissement » — jamais « guérit les coliques », « règle les troubles du sommeil », « garantit ». (Cohérent avec la règle scientifique : « aide à / apaise », jamais « garantit ».)
-
-### Marques et produits — INTERDITS ⭐
-
-On ne cite **jamais** de **marque commerciale** ni de produit nommé : porte-bébé, tétine, biberon, lait infantile, cosmétique, souche précise de probiotique, appareil, application… On **reste générique** (la catégorie de produit et ses critères : « un porte-bébé physiologique », « une tétine à débit lent », « une huile végétale adaptée ») et on **renvoie au professionnel** pour un choix personnalisé. Citer une marque, c'est engager notre responsabilité et prendre la place du conseil professionnel.
-
-### Sujets de législation — INTERDITS dans le contenu ⭐
-
-On n'énonce **jamais** de règle de droit chiffrée ou datée : durée et indemnisation du **congé maternité/paternité**, **nombre de séances** de psychologue/kiné remboursées, plafonds, montants d'aides, droits sociaux précis. Ces chiffres changent, varient selon les situations et engagent notre responsabilité. On **évoque le thème** et on **renvoie au bon interlocuteur** (CAF, PMI, médecin, sage-femme, employeur, service social).
-
-### Sources médicales — AUTORISÉES quand c'est nécessaire ⭐
-
-Pour **sécuriser un sujet sensible** touchant le corps ou la santé de bébé (coliques, reflux, tonus, peau…), on **peut** s'appuyer sur une **source médicale fiable** (HAS, Ameli, Société Française de Pédiatrie / mpedia.fr, réseaux périnatalité) et la mentionner discrètement — champ source_medicale du protocole, séparé de la prose. C'est un **assouplissement** de la règle « jamais de référence » : celle-ci reste valable pour le **juridique** (aucune référence légale précise dans le contenu), mais **pas** pour le sanitaire.
 
 ### Périmètre sage-femme / périnatalité
 
 Informer sur l'allaitement, les suites de couches, le post-partum, le développement de bébé = **information générale, autorisée**. Ce qui est interdit : poser un avis personnalisé sur une situation médicale précise, ou laisser croire que l'app assure un suivi. Toujours rappeler la non-substitution et nommer le bon contact (sage-femme, PMI, IBCLC).
 
 > ⚠️ **Zone grise = relecture juriste.** Les contenus qui touchent de près le corps de bébé, la motricité ou les suites de couches se jugent au cas par cas. Une fois une rubrique stabilisée, faire relire ces passages par un avocat en droit de la santé avant gel définitif.
+
+### Sourcing des affirmations sensibles
+
+- Toute affirmation qui touche un **sujet sensible** (nutrition, santé, corps, motricité/kiné, sommeil médicalisé…) doit être **sourcée**, et les sources sont **obligatoirement françaises** — autorités et professionnels français : **HAS**, **Santé publique France / PNNS**, sociétés savantes, **pédiatres (AFPA / mpedia.fr)**, **CERIN**… Aucune source étrangère sur un sujet sensible (défendabilité en droit français).
+- Sources **réellement vérifiées et correctement attribuées** : ne jamais s'approprier la méthode d'un professionnel (on cite l'auteur), ne jamais inventer une référence.
+- **Uniquement quand c'est nécessaire** : pas de source sur les sujets libres (posture parentale, comportement, jeu, émotions…).
+- Format : **une seule ligne discrète en bas** de la fiche (champ `source`, chaîne unique), affichée en petit.
 
 ---
 
@@ -168,7 +153,6 @@ Informer sur l'allaitement, les suites de couches, le post-partum, le développe
 - Cadre de sécurité : 2 à 3 lignes
 
 ### UI copy (boutons, labels, titres) :
-- **Titres de protocoles Guide-moi ! : toujours en deux parties séparées par « / »** — « situation / angle ou besoin ». Ex. : « Régurgite beaucoup / après chaque repas », « Porter bébé en sécurité / position physiologique du nouveau-né ».
 - Boutons : 2 à 4 mots, verbe d'action ("Voir le protocole", "Épingler", "Commencer")
 - Titres de section : 3 à 6 mots
 - Messages d'état vides : encourageants, pas vides ("Aucun protocole épinglé pour l'instant — explore le Guide-moi !")
@@ -181,21 +165,6 @@ Informer sur l'allaitement, les suites de couches, le post-partum, le développe
 - Toujours avec un CTA clair
 
 ---
-
-## Ordre des catégories et dégradé — FIXE ⭐
-
-L'ordre des 8 cartes est **identique pour tous les mois** ; « Petits inconforts » vient **toujours juste après « Corps et portage »** :
-
-1. Pleurs — `#F0B8A8`
-2. Alimentation — `#F5D0C8`
-3. Sommeil — `#F8DBC9`
-4. Corps et portage — `#EDE0D4`
-5. Petits inconforts — `#BCD0A0`
-6. Sur-stimulation — `#B0C0AC`
-7. Lien & attachement — `#C8D8DC`
-8. Parents submergés — `#E8F0F2`
-
-Chaque carte porte la **couleur validée de sa position** (dégradé). Si l'ordre change, on **décale les couleurs** pour conserver le dégradé. Noms de catégories normalisés : « Pleurs », « Corps et portage », « Petits inconforts », « Parents submergés ». Les **soucis de peau** vont dans « Petits inconforts ». « Corps et portage » inclut le **tonus** (« Bébé mou ou très tendu ») dès le mois 0.
 
 ## Les 8 catégories du Guide-moi ! — définitions et périmètre
 
