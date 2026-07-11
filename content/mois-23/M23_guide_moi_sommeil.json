@@ -1,0 +1,237 @@
+{
+  "mois": 23,
+  "tranche_age": "23 mois",
+  "categorie": {
+    "id": "sommeil",
+    "nom": "Sommeil",
+    "sous_titre": "Grand lit, réveils, peurs de la nuit",
+    "icone": "😴"
+  },
+  "protocoles": [
+    {
+      "categorie": "sommeil",
+      "situation": "On s'apprête à passer au grand lit",
+      "titre": "Le grand lit / préparer la transition",
+      "explication": "Pour ton enfant, son lit n'est pas qu'un meuble : c'est son cocon, un espace sacré de sécurité où il se sait protégé. À 23 mois, il a besoin de repères stables et d'un sentiment de maîtrise sur ce qui le concerne. Un changement de lit décidé du jour au lendemain peut être vécu comme une petite perte de ce refuge. À l'inverse, un passage annoncé, expliqué, où il a son mot à dire, devient une étape qu'il traverse en confiance. Préparer, c'est transformer un bouleversement en aventure choisie.",
+      "ancrage": "Cette transition se prépare surtout côté parent : ton calme et ta clarté rassurent ton enfant plus que n'importe quel équipement. Prends le temps qu'il faut — rien n'oblige à aller vite.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — dans les jours qui précèdent",
+        "etapes": [
+          "Choisir le bon moment : éviter de changer de lit en pleine autre nouveauté (arrivée d'un bébé, propreté, entrée en crèche) — une transition à la fois.",
+          "En parler en amont : annoncer le changement quelques jours avant avec des mots simples, recueillir son avis et accueillir ses éventuelles hésitations sans les balayer — « c'est nouveau, tu peux être un peu inquiet, c'est normal ».",
+          "L'associer au choix : le laisser participer (le linge, le doudou, la place du lit) pour qu'il se sente acteur et recueillir son accord.",
+          "Sécuriser toute la chambre : la pièce entière remplace les barreaux — meubles fixés au mur, prises couvertes, rien de dangereux à portée, porte éventuellement sécurisée par une barrière.",
+          "Apprivoiser le lit de jour : y jouer, y lire une histoire, y faire la sieste d'abord — pour qu'il devienne un lieu familier avant la première nuit."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : préparer une transition",
+        "etapes": [
+          "Premier moment dans le lit : l'installer allongé dans son nouveau lit en journée, détendu, à tes côtés.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, plusieurs passages — installe le calme.",
+          "Zone du plexus solaire : au centre de la voûte, cercles lents pendant 1 minute par pied — apaisement.",
+          "Toucher doux et constant : accompagner d'une voix posée, en nommant que ce lit est son espace à lui, bien à lui.",
+          "S'arrêter à sa demande : s'il retire son pied ou se relève, on arrête sans insister — le geste reste un plaisir."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Garder le lien avec l'ancien repère : au début, laisser le même doudou, la même veilleuse, la même couverture — la continuité rassure dans le changement.",
+        "Poser un cadre clair et bienveillant : dire simplement ce qui est attendu, « on reste couché, je suis là », sans en faire une règle rigide.",
+        "Se préparer à ce que ce soit long : certaines transitions prennent plusieurs semaines ; le prévoir évite le découragement et les revirements.",
+        "Décider ensemble entre parents : se mettre d'accord sur une même attitude, pour offrir à l'enfant un cadre cohérent d'un soir à l'autre."
+      ],
+      "principe": "Une transition réussie repose sur trois appuis : la préparation (en parler, l'impliquer), la sécurité (une chambre sûre, un cocon à lui) et le calme des parents dans la durée. Un enfant qui a choisi son grand lit y entre en confiance.",
+      "erreurs_a_eviter": [
+        "Installer le grand lit du jour au lendemain sans prévenir — un changement subi inquiète, un changement annoncé rassure.",
+        "Superposer plusieurs bouleversements en même temps — séparer les nouveautés pour ne pas surcharger l'enfant.",
+        "Vanter le « lit de grand » en dévalorisant l'ancien — l'enfant peut se sentir poussé à grandir trop vite.",
+        "Attendre une adaptation immédiate — sans temps de préparation ni de familiarisation, la première nuit est plus difficile."
+      ],
+      "consulter_si": "Consulter si : ton enfant montre une anxiété marquée à l'idée du changement (pleurs importants, refus catégorique, régression du sommeil qui dure), ou si le sujet réveille une angoisse de séparation intense → en parler avec le pédiatre, la PMI, ou un.e professionnel.le de la petite enfance. Rien n'oblige à précipiter le passage : il peut attendre que l'enfant soit prêt."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Se lève sans cesse de son grand lit et en sort",
+      "titre": "Le grand lit / se lève sans cesse",
+      "explication": "Une fois dans le grand lit, ton enfant a d'un coup une immense liberté : plus de barreaux, plus de limite physique. À 23 mois, il a le corps pour se lever, mais pas encore le cerveau pour résister à l'envie de le faire. Se relever n'est ni un caprice ni de la provocation : c'est l'exploration normale de cette nouveauté, et une façon de vérifier que tu es toujours là. Son lit reste son cocon, un espace sacré de sécurité : ton rôle est de l'aider à s'y déposer, calmement et à son rythme.",
+      "ancrage": "Ces allers-retours répétés peuvent être une vraie épreuve : ton calme, même quand la fatigue monte, est ton meilleur outil. La transition est parfois longue, sur plusieurs semaines — ce n'est pas un échec, c'est un cadre qui s'installe.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — au moment où il se lève",
+        "etapes": [
+          "Garder ton calme d'abord : respire, ta tranquillité intérieure agit plus que n'importe quelle parole.",
+          "Peu de mots, voix basse : pas de jeu, pas de lumière vive, pas de long discours quand il sort du lit.",
+          "Raccompagner en nommant ce qu'il vit : « je vois que tu voulais te lever », puis le reposer dans son lit en lui redisant qu'il est en sécurité, tout près.",
+          "Ne pas négocier debout : pas d'explication longue ni de discussion — l'échange le réveille et relance l'envie de se lever.",
+          "Recommencer sans t'épuiser : autant de fois que nécessaire, en te relayant avec l'autre parent si tu le peux — c'est la constance qui compte."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : apaisement et sécurité",
+        "etapes": [
+          "S'installer au calme : enfant allongé dans son lit, lumière tamisée, ta voix posée.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, le long de la plante du pied, plusieurs passages.",
+          "Zone du plexus solaire : au centre de la voûte, cercles lents pendant 1 minute par pied — apaisement.",
+          "Zone du gros orteil : appui doux et maintenu quelques secondes — aide à relâcher le mental.",
+          "Toucher léger et constant : si l'enfant retire son pied, on s'arrête sans insister."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Tenir le même cap chaque soir : la cohérence d'un soir à l'autre apprend plus vite à l'enfant que la fermeté d'un seul soir.",
+        "Prendre soin de toi aussi : ces soirs répétés fatiguent — te relayer et souffler, sans culpabiliser, fait partie du cadre.",
+        "Accueillir les rechutes : après une maladie, un voyage ou une poussée, il peut se relever à nouveau — on reprend calmement, sans repartir de zéro.",
+        "Nourrir la sécurité de jour : du temps de qualité et de l'attention en journée réduisent le besoin de te chercher la nuit."
+      ],
+      "principe": "Le grand lit se réussit par le dialogue et le calme des parents, jamais par la contrainte. Un enfant rassuré, dont le lit est un cocon accepté, finit par y rester — souvent au bout de plusieurs semaines. Ta présence tranquille est le cœur du cadre.",
+      "erreurs_a_eviter": [
+        "Le ramener dans le lit parental « juste pour cette nuit » — installe très vite une habitude difficile à défaire.",
+        "Perdre son calme et hausser le ton à chaque sortie — transforme le coucher en conflit et augmente l'excitation au lieu de l'apaiser.",
+        "Multiplier explications et négociations debout — chaque échange prolonge l'éveil et récompense le fait de se lever.",
+        "Attendre un résultat en quelques jours et se décourager — la transition est souvent longue ; l'abandon en cours de route brouille le cadre."
+      ],
+      "consulter_si": "Consulter si : les difficultés d'endormissement persistent fortement au-delà de plusieurs semaines malgré un cadre calme et régulier, si les réveils s'accompagnent de terreurs nocturnes répétées ou d'une grande angoisse, ou si le sommeil difficile retentit nettement sur l'humeur et l'appétit en journée → en parler au pédiatre ou à la PMI. Vérifie aussi que la chambre est parfaitement sécurisée."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Se réveille la nuit et vient dans le lit des parents",
+      "titre": "Les réveils nocturnes / vient dans le lit des parents",
+      "explication": "À 23 mois, ton enfant traverse plusieurs micro-réveils par nuit, entre deux cycles de sommeil : c'est physiologique. Depuis qu'il dort dans un grand lit, il peut se lever seul et vient te chercher, toi, sa base de sécurité. Ce n'est pas de la manipulation : c'est de l'attachement. Son cerveau cherche à se réguler auprès du tien pour se rendormir. Un changement de lit ou une phase d'angoisse de séparation peuvent amplifier ces venues pendant quelques semaines. La fourchette est large : certains enfants ont besoin de plus de présence que d'autres, et c'est normal.",
+      "ancrage": "Il ne cherche pas à gagner un bras de fer : il cherche à se sentir en sécurité pour repartir dormir. Tu peux répondre à ce besoin tout en gardant un cadre clair et un ton posé.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — quand il te rejoint",
+        "etapes": [
+          "Accueillir et nommer son besoin : le retrouver sans allumer la lumière, en reconnaissant doucement « tu avais besoin de moi, je suis là ».",
+          "Raccompagner dans sa chambre : le reposer dans son lit avec une phrase courte et rassurante, toujours la même, « il fait nuit, on dort, je suis là ».",
+          "Présence brève : rester près de lui quelques minutes, puis t'éloigner par étapes.",
+          "Éviter la migration inverse : plutôt que de le prendre dans ton lit, retourne dans le sien avec lui — le repère de sommeil reste sa chambre.",
+          "Répéter à l'identique : chaque nuit, la même réponse calme ; c'est la constance qui raccourcit la phase."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : pour aider à se rendormir",
+        "etapes": [
+          "Main posée : une main large et immobile sur le dos ou le ventre — ta chaleur et ton immobilité invitent au calme.",
+          "Zone du talon : appui doux et maintenu sous chaque talon — effet d'ancrage, de retour au sol.",
+          "Balayage lent de la voûte : du talon vers les orteils, quelques passages réguliers.",
+          "Respiration guidée : ralentis ta propre respiration près de lui — il se cale sur ton rythme.",
+          "Toucher constant, jamais appuyé : dès qu'il se détend, alléger puis retirer la main sans le réveiller."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Viser un endormissement autonome le soir : un enfant qui s'endort apaisé et seul dans son lit réclame moins d'aide lors des réveils de la nuit.",
+        "Objet de réconfort à portée : doudou et veilleuse chaude accessibles depuis le lit, pour qu'il puisse se rassurer seul.",
+        "Un cadre concerté entre parents : se mettre d'accord sur la même réponse — les nuits sans attitude commune s'allongent.",
+        "Accueillir la phase : après un changement de lit ou une séparation, prévoir quelques semaines de tolérance avant que ça se stabilise."
+      ],
+      "principe": "Répondre au besoin de sécurité sans déplacer le lieu du sommeil : tu reviens vers sa chambre plutôt que de l'accueillir dans la tienne. Le besoin est légitime, le repère reste le sien. La régularité de ta réponse compte plus que sa rapidité.",
+      "erreurs_a_eviter": [
+        "L'accueillir dans le lit parental « le temps que ça passe » — le cerveau enregistre vite ce nouveau repère de sommeil.",
+        "Alterner les réponses d'une nuit à l'autre — l'incohérence prolonge et intensifie les venues.",
+        "Engager une discussion ou une négociation en pleine nuit — réveille complètement l'enfant et retarde le rendormissement.",
+        "Reprocher au matin la venue nocturne — l'enfant ne la contrôle pas et ne fait pas le lien."
+      ],
+      "consulter_si": "Consulter si : les réveils s'accompagnent de pleurs inconsolables prolongés, de signes de douleur (dents, oreilles, ventre), d'un ronflement important avec pauses respiratoires, ou s'ils épuisent durablement toute la famille malgré un cadre régulier → en parler au pédiatre ou à la PMI. Un sommeil très morcelé qui dure peut aussi justifier un avis sur d'éventuelles causes physiques."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Se réveille en hurlant, les yeux ouverts, inconsolable",
+      "titre": "Les terreurs nocturnes / le réveil qui n'en est pas un",
+      "explication": "Les terreurs nocturnes apparaissent souvent entre 2 et 4 ans, en début de nuit. Ton enfant se dresse, crie, semble terrifié, les yeux ouverts… mais il dort profondément : son cerveau est coincé entre deux stades de sommeil lent. Il ne te voit pas et ne t'entend pas vraiment. Ce n'est ni un cauchemar — qui survient plus tard dans la nuit et dont on se souvient — ni de la douleur. C'est impressionnant mais bénin, et il n'en gardera aucun souvenir au matin. La fourchette d'âge est large et l'épisode se résout de lui-même.",
+      "ancrage": "Ce n'est pas toi qu'il appelle, et ce n'est pas à toi de le réveiller. Ton rôle : veiller à ce qu'il ne se blesse pas, et attendre que la vague passe.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — pendant l'épisode",
+        "etapes": [
+          "Ne pas chercher à le réveiller : le sortir brutalement de cet état l'affole davantage et prolonge l'épisode.",
+          "Sécuriser autour de lui : écarter ce sur quoi il pourrait se cogner, rester à ses côtés sans le contraindre.",
+          "Voix rare et très basse : quelques mots calmes si besoin, sans insister — surtout, ta présence tranquille.",
+          "Ne pas le questionner ni le raisonner : il n'est pas accessible à la parole pendant l'épisode.",
+          "Attendre la fin : en quelques minutes, il se rallonge et repart dans un sommeil calme, sans transition."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : pour accompagner le retour au calme",
+        "etapes": [
+          "Attendre l'apaisement complet : n'intervenir qu'une fois qu'il est retombé dans un sommeil calme.",
+          "Main immobile sur le dos : présence chaude et discrète, sans le réveiller.",
+          "Balayage très lent de la voûte : un ou deux passages doux, du talon vers les orteils.",
+          "Zone du plexus solaire : cercles lents pendant quelques instants — accompagne le retour au calme.",
+          "Se retirer en douceur : dès qu'il dort paisiblement, alléger le contact puis s'éloigner."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Protéger le sommeil : la sur-fatigue et les couchers trop tardifs favorisent les terreurs — avancer légèrement l'heure du coucher aide souvent.",
+        "Repérer l'horaire : les terreurs surviennent souvent à la même heure ; le noter sur quelques nuits aide à comprendre le rythme.",
+        "Un coucher apaisé : réduire les écrans et les jeux excitants en fin de journée diminue la fréquence des épisodes.",
+        "Ne rien raconter au matin : inutile de lui parler de la nuit, il n'en a aucun souvenir et cela pourrait l'inquiéter."
+      ],
+      "principe": "Une terreur nocturne se traverse, elle ne se console pas : on protège, on attend, on ne réveille pas. Elle est bénigne et transitoire. Réduire la sur-fatigue est le levier le plus efficace pour l'espacer.",
+      "erreurs_a_eviter": [
+        "Tenter de le réveiller ou le secouer — augmente l'agitation et rallonge l'épisode.",
+        "Le porter ou le contenir de force — il se débat davantage et risque de se blesser.",
+        "Confondre avec un cauchemar et le questionner — il n'a rien vécu de conscient à raconter.",
+        "Repousser le coucher en pensant qu'il dormira mieux — la sur-fatigue augmente au contraire les terreurs."
+      ],
+      "consulter_si": "Consulter si : les épisodes deviennent très fréquents (presque chaque nuit ou plusieurs fois par nuit), s'accompagnent de mouvements anormaux, de raideur ou de pauses respiratoires, surviennent en seconde moitié de nuit, ou persistent bien au-delà de la petite enfance → en parler au pédiatre. En cas de doute sur la nature de l'épisode, une description précise à un professionnel aide à faire la part des choses."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Refuse de rester seul pour s'endormir, réclame ta présence",
+      "titre": "La peur du noir / besoin de présence au coucher",
+      "explication": "Vers 23 mois, l'imagination de ton enfant explose : c'est merveilleux le jour, mais le soir, cela fait naître des peurs bien réelles pour lui — le noir, les ombres, le fait d'être seul. En même temps, l'angoisse de séparation est vive : se coucher, c'est te quitter pour toute la nuit. Sa peur n'est pas un caprice ni du cinéma : pour lui, elle est vraie, même si le danger, lui, ne l'est pas. Il a besoin que tu reconnaisses cette peur et que tu l'aides à apprivoiser, pas à pas, le fait de rester seul. Chaque enfant avance à son rythme sur ce chemin.",
+      "ancrage": "Tu n'as pas à supprimer sa peur ni à la nier : tu as à l'accompagner assez pour qu'il se sente en sécurité, puis à t'effacer doucement. Le rassurer, ce n'est pas le rendre dépendant.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — au moment du coucher",
+        "etapes": [
+          "Valider la peur : « je sais que le noir te fait peur, je te crois » — nommer rassure plus que minimiser.",
+          "Allumer un repère : veilleuse chaude et basse, porte entrouverte, un objet-gardien près de lui.",
+          "Présence dégressive : rester d'abord près du lit, puis un peu plus loin les soirs suivants — s'effacer par paliers.",
+          "Un retour fiable : « je reviens te voir dans cinq minutes » — et le faire vraiment, pour qu'il apprenne que tu tiens parole.",
+          "Ne pas transformer en long échange : rassurer avec peu de mots, toujours les mêmes, puis laisser le calme s'installer."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : pour dénouer la peur",
+        "etapes": [
+          "S'asseoir près de lui : voix posée, respiration lente qu'il peut entendre.",
+          "Main enveloppante sur la poitrine : présence chaude et immobile, qui apaise le rythme cardiaque.",
+          "Balayage lent de la voûte : du talon vers les orteils, régulier, pour relâcher les tensions.",
+          "Zone du gros orteil : appui doux et maintenu — accompagne le relâchement du mental et des pensées qui inquiètent.",
+          "Toucher constant et léger : à mesure qu'il se détend, alléger le contact puis t'éloigner sans rupture brutale."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Apprivoiser le noir de jour : jouer avec une lampe de poche, faire des ombres rigolotes — le noir devient familier et amusant.",
+        "Un gardien de nuit : un doudou « qui veille », un objet confié comme protecteur, donne un sentiment de contrôle.",
+        "Des repères stables le soir : mêmes étapes, histoire calme, lumière qui baisse progressivement — la prévisibilité apaise.",
+        "Accueillir les mots de la peur en journée : mettre des mots sur les monstres ou les ombres, hors du moment du coucher, désamorce l'angoisse du soir."
+      ],
+      "principe": "Une peur reconnue s'apaise ; une peur niée se cache et revient. On valide l'émotion, on installe des repères rassurants, puis on s'efface par petits paliers. L'autonomie du coucher se construit progressivement, parfois sur plusieurs semaines, pas d'un soir à l'autre.",
+      "erreurs_a_eviter": [
+        "Minimiser (« il n'y a rien, arrête ») — l'enfant se sent incompris et sa peur grandit.",
+        "Se moquer ou s'agacer face aux « monstres » — la honte s'ajoute à la peur sans la faire disparaître.",
+        "Rester chaque soir jusqu'à l'endormissement complet sans jamais s'effacer — installe une dépendance difficile à défaire.",
+        "Céder à chaque rappel par de multiples allers-retours — enseigne que rappeler fait revenir, et prolonge le coucher."
+      ],
+      "consulter_si": "Consulter si : les peurs deviennent envahissantes au point d'empêcher tout endormissement pendant plusieurs semaines, s'étendent à la journée (refus de jouer seul, anxiété marquée), ou s'accompagnent d'un mal-être durable → en parler au pédiatre, à la PMI, ou à un.e psychologue de la petite enfance. Une anxiété qui s'installe se travaille bien, tôt et en douceur, avec un professionnel."
+    }
+  ]
+}

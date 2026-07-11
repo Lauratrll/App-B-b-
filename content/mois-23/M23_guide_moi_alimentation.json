@@ -1,0 +1,188 @@
+{
+  "mois": 23,
+  "tranche_age": "23 mois",
+  "categorie": {
+    "id": "alim",
+    "nom": "Alimentation",
+    "sous_titre": "Refus, appétit, repas",
+    "icone": "🍽️"
+  },
+  "protocoles": [
+    {
+      "categorie": "alim",
+      "situation": "Refuse de goûter tout aliment nouveau",
+      "titre": "La néophobie / refuse de goûter ce qui est nouveau",
+      "explication": "Vers 23 mois, beaucoup d'enfants traversent une phase de néophobie : ils refusent tout aliment nouveau, surtout les légumes et les textures inhabituelles. C'est une étape normale du développement, repérée par la recherche en nutrition pédiatrique, qui culmine entre 2 et 6 ans. À l'origine, un réflexe de prudence : en devenant autonome, l'enfant se méfie de ce qu'il ne connaît pas. Ce n'est ni un caprice ni un rejet de ta cuisine. Un aliment refusé aujourd'hui pourra être accepté après plusieurs présentations, sans pression.",
+      "ancrage": "Ton enfant n'a pas besoin d'aimer tout de suite : il a besoin de rencontrer l'aliment plusieurs fois, sereinement. Ton calme à table pèse plus que le contenu de l'assiette.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — au moment du refus",
+        "etapes": [
+          "Accueillir le refus sans forcer : « tu n'en veux pas, c'est toi qui décides pour ton corps ».",
+          "Laisser l'aliment dans l'assiette : présent, à disposition, sans obligation d'y toucher.",
+          "Rester neutre : ni négociation, ni récompense, ni « encore une bouchée » — la pression fige le refus.",
+          "Manger la même chose devant lui avec un plaisir visible : l'imitation ouvre plus que les mots.",
+          "Clore sans drame : le repas se termine, l'aliment reviendra une autre fois."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — apprivoiser hors du repas",
+        "etapes": [
+          "Hors des repas, proposer de toucher, sentir, écraser l'aliment cru — sans obligation de goûter.",
+          "Cuisiner ensemble : laver, mélanger, déchirer les feuilles — le contact réduit la méfiance.",
+          "Nommer les couleurs et les odeurs en jouant — l'aliment devient familier avant d'être mangé.",
+          "Féliciter l'exploration, pas la consommation : « tu as senti la tomate, bravo »."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Représenter sans se lasser : un aliment est souvent accepté après une dizaine de présentations espacées — la répétition tranquille est la clé (repère établi en nutrition pédiatrique).",
+        "Servir en petite quantité à côté du connu : un aliment nouveau intimide moins près d'un aliment aimé.",
+        "Un seul repas pour toute la famille : pas de plat de remplacement à la carte.",
+        "Garder le plaisir : un enfant détendu goûte plus facilement qu'un enfant sous tension."
+      ],
+      "principe": "La néophobie ne se combat pas, elle se traverse : exposition répétée, exemple des adultes, zéro pression. Le rôle du parent est d'offrir régulièrement ; celui de l'enfant est de décider s'il goûte. Forcer installe le dégoût, la patience installe l'ouverture.",
+      "erreurs_a_eviter": [
+        "Forcer ou soudoyer (« une bouchée pour le dessert ») — associe l'aliment à un rapport de force durable.",
+        "Retirer définitivement un aliment refusé une seule fois — supprime la chance des présentations suivantes.",
+        "Cacher systématiquement les légumes mixés — l'enfant n'apprend pas à les reconnaître et les accepter.",
+        "Le cataloguer devant lui (« il ne mange jamais de légumes ») — l'enfant s'installe dans l'étiquette."
+      ],
+      "consulter_si": "Consulter si : le refus s'étend à des groupes entiers d'aliments sur la durée, s'accompagne d'une perte de poids ou d'une cassure de la courbe, de fausses routes répétées, ou d'une sélectivité extrême (très peu d'aliments tolérés) → pédiatre, PMI ou diététicienne pédiatrique. Ces professionnels sont les seuls à évaluer l'équilibre alimentaire de ton enfant.",
+      "source": "Source : néophobie alimentaire (phase 2-6 ans, exposition répétée sans contrainte) — repères pédiatriques mpedia.fr (AFPA) et CERIN."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Mange très peu au repas, ça t'inquiète",
+      "titre": "Le petit mangeur / mange très peu au repas",
+      "explication": "Après un an, la croissance ralentit nettement : l'enfant grandit moins vite qu'en première année, donc son appétit baisse — c'est physiologique. À 23 mois, il mange souvent « comme un oiseau » un jour, beaucoup le lendemain. Il régule son appétit sur plusieurs jours, pas sur un repas. Son estomac est petit, ses besoins varient selon l'énergie dépensée et les poussées de croissance. Un enfant actif, de bonne humeur et qui grandit bien mange à sa faim, même si cela te paraît peu.",
+      "ancrage": "Ton inquiétude est légitime, mais forcer ne remplit pas un estomac : cela apprend à manger contre ses sensations. Tu offres, il régule — ce partage de rôles protège son appétit.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — pendant le repas",
+        "etapes": [
+          "Servir de petites portions : une assiette modeste rassure et donne l'envie d'en redemander.",
+          "Respecter son « j'ai fini » : accueillir la satiété entretient un rapport sain à la nourriture.",
+          "Ne pas négocier les quantités (« encore trois cuillères ») — l'enjeu coupe l'appétit.",
+          "Vérifier le grignotage : trop de lait, de compotes ou de biscuits entre les repas coupe la faim.",
+          "Repas serein et court : au-delà de 20 à 30 minutes, on clôt sans forcer."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — un temps de lien sans enjeu",
+        "etapes": [
+          "Avant le repas, un court moment calme ensemble (câlin, histoire) pour arriver détendu à table.",
+          "Manger en famille, sans écran, en se parlant : le repas partagé nourrit autant que l'assiette.",
+          "Montrer ton propre plaisir de manger, sans surveiller son assiette du regard.",
+          "Après le repas, ne rien conditionner à ce qu'il a mangé : le lien reste inconditionnel."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Poser le bon partage : le parent choisit ce qui est proposé et le cadre du repas ; l'enfant décide s'il mange et en quelle quantité — les pédiatres recommandent de ne pas forcer et de respecter l'appétit.",
+        "Regarder la semaine, pas le repas : l'équilibre d'un tout-petit se lit sur plusieurs jours.",
+        "Proposer des aliments simples et nourrissants qu'il apprécie, sans multiplier les options qui dispersent.",
+        "Se fier aux repères objectifs : énergie, humeur, sommeil et courbe de croissance disent l'essentiel."
+      ],
+      "principe": "L'appétit d'un tout-petit se régule seul quand on ne s'en mêle pas. Le parent est garant de l'offre et du cadre, jamais de la quantité avalée. Respecter la satiété aujourd'hui, c'est prévenir les troubles du rapport à la nourriture demain.",
+      "erreurs_a_eviter": [
+        "Forcer ou distraire avec un écran pour « faire passer » les bouchées — déconnecte l'enfant de sa faim.",
+        "Remplir l'assiette ou resservir en douce — la grande portion décourage le petit mangeur.",
+        "Récompenser ou punir selon ce qui est mangé — donne à la nourriture un pouvoir émotionnel.",
+        "Multiplier repas et grignotages « au cas où » — il n'a jamais vraiment faim à table."
+      ],
+      "consulter_si": "Consulter si : perte de poids, cassure de la courbe de croissance, fatigue inhabituelle, pâleur, ou refus quasi total de s'alimenter qui dure → pédiatre ou PMI ; une diététicienne pédiatrique peut évaluer les apports. Le suivi de la courbe par un professionnel est le seul vrai juge de l'équilibre, pas la sensation d'un repas.",
+      "source": "Source : ne pas forcer, respecter l'appétit de l'enfant, petites portions — repères pédiatriques mpedia.fr (AFPA) ; suivi de la courbe de croissance : HAS."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Rejette du jour au lendemain ce qu'il aimait",
+      "titre": "Les goûts changeants / rejette ce qu'il aimait hier",
+      "explication": "À 23 mois, ton enfant peut adorer les pâtes pendant deux semaines puis les refuser du jour au lendemain : ce sont les fixations et revirements alimentaires, très courants et transitoires. Deux moteurs : son goût se développe et change, et il découvre le pouvoir de dire « non » pour s'affirmer. Ce n'est pas une régression ni un défaut d'éducation. Ces variations passent d'elles-mêmes tant qu'elles ne deviennent pas un enjeu entre vous. La constance tranquille de l'offre finit toujours par l'emporter.",
+      "ancrage": "Ce n'est pas contre toi : il teste, il change, il grandit. Tu n'as pas à courir après ses goûts du jour — juste à continuer d'offrir, calmement.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — face au revirement",
+        "etapes": [
+          "Accueillir sans dramatiser : « ah, aujourd'hui tu n'en veux pas, d'accord ».",
+          "Ne pas remplacer par un autre plat à la demande : rester sur le repas prévu.",
+          "Reproposer l'aliment boudé plus tard dans la semaine, sans commenter le refus d'avant.",
+          "Éviter les étiquettes « préféré » ou « détesté » : elles se figent très vite."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — le plaisir partagé à table",
+        "etapes": [
+          "Manger toi-même l'aliment boudé avec un plaisir sincère, sans insister pour qu'il en prenne.",
+          "Sentir, décrire, raconter : recréer de la curiosité autour du plat, en légèreté.",
+          "Le laisser servir, verser, choisir dans le plat commun : l'autonomie ranime l'envie."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Tenir un cap régulier : proposer une variété stable dans la semaine sans te plier au menu du jour.",
+        "Accepter les phases : un aliment boudé n'est pas perdu, il revient souvent quelques semaines plus tard.",
+        "Impliquer aux courses et en cuisine : choisir un légume et le préparer rouvre l'envie de le manger.",
+        "Distinguer le goût du pouvoir : parfois il refuse pour décider — offrir un choix cadré (« celui-ci ou celui-là ? ») apaise ce besoin."
+      ],
+      "principe": "Les revirements sont une phase normale d'affirmation et de maturation du goût. Le parent tient la barre : même offre, même calme, sans se transformer en cuisine sur mesure. Ce qui compte n'est pas le repas d'aujourd'hui, mais la relation sereine à la nourriture sur la durée.",
+      "erreurs_a_eviter": [
+        "Cuisiner un plat de remplacement dès qu'il boude — enseigne que refuser fait apparaître mieux.",
+        "S'agacer du gaspillage — la tension autour du plat renforce le refus.",
+        "Céder au « toujours pareil » qu'il réclame — appauvrit la variété et durcit les fixations.",
+        "Prendre chaque refus pour définitif — on abandonne des aliments qui seraient revenus."
+      ],
+      "consulter_si": "Consulter si : la sélectivité s'aggrave et se fige sur très peu d'aliments pendant des mois, s'accompagne d'une anxiété marquée face à la nouveauté, de troubles de la déglutition, ou d'un retentissement sur la croissance → pédiatre, PMI ou diététicienne pédiatrique. Une sélectivité extrême et durable mérite un regard professionnel."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Se lève, jette la nourriture, ne tient pas à table",
+      "titre": "Le repas / se lève, jette, ne tient pas à table",
+      "explication": "À 23 mois, rester assis longtemps est un vrai effort : son attention est courte et son besoin de bouger immense. Se lever, jeter la nourriture ou refuser la chaise n'est pas de la provocation — c'est souvent sa façon de dire « j'ai fini », « je m'ennuie » ou « je teste ce qui se passe si… ». Jeter le fascine aussi par la cause à effet qu'il découvre. Il n'a encore ni les mots ni le contrôle de soi pour faire autrement. Un cadre calme et court l'aide à apprendre peu à peu à rester.",
+      "ancrage": "Derrière le chahut, un message : « je n'ai plus faim » ou « c'est trop long pour moi ». Nommer ce besoin apaise plus vite qu'un rappel à l'ordre.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — quand il quitte la table",
+        "etapes": [
+          "Nommer ce que tu vois : « je crois que tu as fini » — valider avant de cadrer.",
+          "Poser la règle simplement : « on mange assis ; si tu descends, c'est que le repas est fini ».",
+          "Appliquer avec douceur et constance : s'il descend, le repas se termine, sans punition ni drame.",
+          "Aliments jetés : « la nourriture reste dans l'assiette », sans t'énerver, en retirant calmement.",
+          "Garder le repas court : un tout-petit tient rarement plus de 15 à 20 minutes assis."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : revenir au calme si le repas s'est tendu",
+        "etapes": [
+          "Une fois la table quittée, si l'enfant est agité, proposer un temps calme dans tes bras.",
+          "Zone du plexus solaire : au centre de la voûte, cercles lents quelques instants — apaise la tension.",
+          "Balayage de la voûte, du talon vers les orteils, en respirant lentement avec lui.",
+          "S'arrêter dès qu'il se détend ou retire son pied, sans insister."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ajuster les attentes à son âge : viser un moment court et convivial, pas un repas long et immobile.",
+        "Soigner l'installation : chaise adaptée, pieds calés, table à bonne hauteur aident à tenir assis.",
+        "Le rendre acteur : servir, choisir sa cuillère, débarrasser son assiette — l'implication réduit l'agitation.",
+        "Dépenser avant, apaiser autour : du mouvement avant le repas et un climat calme pendant facilitent le fait de rester."
+      ],
+      "principe": "Un tout-petit ne « tient pas à table » longtemps : c'est développemental, pas éducatif. Le parent pose un cadre simple et constant — on mange assis, sinon le repas est fini — tout en gardant le repas court et paisible. La régularité tranquille apprend ; la sévérité braque.",
+      "erreurs_a_eviter": [
+        "Le rasseoir de force ou hausser le ton à chaque descente — transforme le repas en affrontement.",
+        "Le poursuivre avec la cuillère dans la maison — installe le repas nomade et sans fin.",
+        "Rallonger le repas « pour qu'il finisse » — dépasse sa capacité d'attention et amplifie l'agitation.",
+        "Rire ou réagir fort quand il jette — le jeu de la réaction relance le lancer."
+      ],
+      "consulter_si": "Consulter si : l'agitation à table s'accompagne de fausses routes fréquentes, d'un refus alimentaire massif, d'un retard de langage marqué, ou d'une difficulté générale à se poser qui inquiète au quotidien → pédiatre, PMI ou psychomotricien. Ces professionnels aident à distinguer le comportement lié à l'âge d'un besoin d'accompagnement particulier."
+    }
+  ]
+}
