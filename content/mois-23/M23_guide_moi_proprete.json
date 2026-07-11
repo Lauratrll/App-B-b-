@@ -1,0 +1,190 @@
+{
+  "mois": 23,
+  "tranche_age": "23 mois",
+  "categorie": {
+    "id": "proprete",
+    "ordre": 6,
+    "nom": "Propreté",
+    "sous_titre": "Le bon moment, le pot, les ratés",
+    "icone": "🚽"
+  },
+  "protocoles": [
+    {
+      "categorie": "proprete",
+      "situation": "Se demander s'il est prêt pour la propreté",
+      "titre": "La propreté / repérer les signes qu'il est prêt",
+      "explication": "La propreté n'est pas un apprentissage qu'on impose, mais une maturité qui arrive : elle dépend du développement du système nerveux de ton enfant, pas de sa volonté ni de la tienne. Tant que son corps ne sait pas encore commander les muscles qui retiennent le pipi et le caca, aucun entraînement ne marche — c'est comme demander de marcher avant que les jambes soient prêtes. Cette maturité s'installe le plus souvent entre 2 et 3 ans, parfois plus tard, et chaque enfant a son rythme. À 23 mois, ton enfant peut être prêt… ou pas encore, et les deux sont normaux.",
+      "ancrage": "Tu n'as rien à « réussir » : ton rôle est d'observer les signes et d'attendre le bon moment. Rien ne presse, et la précipitation ralentit tout.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — observer les signes",
+        "etapes": [
+          "Repérer la maturité motrice : il marche bien, monte et descend un escalier, s'accroupit et se relève seul.",
+          "Observer s'il reste au sec plus longtemps : une couche sèche plusieurs heures signale un début de contrôle.",
+          "Guetter son intérêt : il te suit aux toilettes, veut être changé, signale sa couche sale.",
+          "Vérifier qu'il comprend et exprime : il saisit une consigne simple et sait dire un besoin.",
+          "Ne rien lancer si les signes manquent : patienter quelques semaines ou mois, sans dramatiser."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — préparer en douceur, sans commencer",
+        "etapes": [
+          "En parler comme d'une étape joyeuse de grand, dans des livres adaptés sur le pot.",
+          "Le laisser t'accompagner aux toilettes : l'exemple des grands éveille l'intérêt sans pression.",
+          "Nommer les sensations du corps : « tu as fait pipi, tu sens que ta couche est mouillée ? ».",
+          "Installer un pot visible et accessible, sans obligation de s'y asseoir : l'apprivoiser d'abord."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Choisir une période calme : éviter de commencer pendant un déménagement, une séparation ou juste après l'arrivée d'un bébé.",
+        "Faire confiance à la fourchette : entre 2 et 3 ans le jour, parfois plus tard — l'entrée à l'école n'est pas une date limite.",
+        "Se coordonner avec les autres adultes (crèche, nounou, grands-parents) : une approche cohérente aide beaucoup.",
+        "Distinguer jour et nuit : la propreté de nuit vient bien plus tard (souvent 3 à 5 ans) et ne se travaille pas."
+      ],
+      "principe": "La propreté s'acquiert quand l'enfant est prêt, elle ne s'enseigne pas : les signes de maturité sont bien plus fiables que l'âge ou la pression de l'entourage. Attendre le bon moment évite les blocages ; le forcer ne fait que retarder. Ton calme et ta patience sont les meilleurs outils.",
+      "erreurs_a_eviter": [
+        "Commencer trop tôt « parce que l'école approche » — sans maturité, c'est voué à l'échec et aux tensions.",
+        "Se comparer aux enfants du même âge — la fourchette est large, la comparaison met une pression inutile.",
+        "Faire de la propreté un enjeu affiché — l'enfant sent l'attente et se braque.",
+        "Confondre propreté de jour et de nuit — la nuit dépend d'une maturation plus tardive, hors de son contrôle."
+      ],
+      "consulter_si": "Consulter si : vers 3-4 ans, aucun signe de maturité n'apparaît, si l'apprentissage s'accompagne de douleurs, de constipation ou de rétention, ou si des fuites fréquentes persistent au-delà de 4-5 ans → en parler au pédiatre. Avant, il n'y a le plus souvent rien à faire d'autre qu'attendre et accompagner sereinement.",
+      "source": "Source : acquisition de la propreté — maturité neuro-psychomotrice et signes de préparation, sans forcer (souvent 2-3 ans, fourchette large) — mpedia.fr (AFPA)."
+    },
+    {
+      "categorie": "proprete",
+      "situation": "Introduire le pot en douceur",
+      "titre": "Le pot / l'introduire en douceur, sans pression",
+      "explication": "Quand les signes sont là, introduire le pot se fait tout en douceur, comme un jeu et non comme une leçon. À 23 mois, ton enfant a besoin d'apprivoiser l'objet et de comprendre à quoi il sert, sans jamais s'y sentir contraint. La propreté ne se « dresse » pas : elle s'installe par l'imitation, la régularité et le plaisir de grandir. Plus l'ambiance est légère, plus ça avance ; plus il y a d'enjeu et de tension, plus ça bloque. Ton rôle est d'offrir l'occasion, pas d'obtenir un résultat.",
+      "ancrage": "Le pot n'est pas un examen à réussir : c'est une nouvelle habitude à apprivoiser. Détends-toi, et l'aventure devient légère pour vous deux.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — proposer le pot",
+        "etapes": [
+          "Choisir les bons moments : après les repas, au réveil, avant le bain — sans jamais forcer à s'asseoir.",
+          "Le laisser habillé d'abord s'il préfère : apprivoiser le pot avant de l'utiliser vraiment.",
+          "Rester bref : quelques minutes maximum, ce n'est pas une activité mais un passage.",
+          "Encourager sans excès et sans drame : féliciter une réussite, ne rien dire si rien ne vient.",
+          "Garder le pot au même endroit (les toilettes ou la salle de bain) : un repère stable rassure."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — rendre le pot rassurant",
+        "etapes": [
+          "Habiller l'enfant de vêtements faciles à enlever : l'autonomie nourrit l'envie.",
+          "Mettre des mots positifs sur chaque étape : « tu t'assois comme un grand ».",
+          "Jouer avec une poupée qui « va sur le pot » : le jeu dédramatise et donne l'exemple.",
+          "Rester près de lui, présent et détendu, pendant ce petit moment."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Choisir pot ou réducteur avec marchepied selon sa préférence : proposer les deux et le laisser choisir.",
+        "Passer aux culottes en tissu quand ça devient régulier : sentir l'humidité aide, et « faire comme les grands » motive.",
+        "Garder une couche pour les sorties et la sieste au début : sans en faire un échec.",
+        "Rester cohérent avec tous ceux qui le gardent : mêmes moments, même ton encourageant."
+      ],
+      "principe": "On propose le pot, on n'impose pas la propreté : régularité douce, moments-clés, zéro pression. Le plaisir de grandir et l'imitation font le travail, pas la contrainte. Un enfant détendu apprend ; un enfant sous tension se bloque.",
+      "erreurs_a_eviter": [
+        "Le laisser longtemps assis à attendre un résultat — le pot n'est ni un jeu ni une punition.",
+        "Récompenser ou punir selon ce qui tombe dans le pot — met un enjeu émotionnel là où il n'en faut pas.",
+        "Balader le pot de pièce en pièce — brouille le repère du lieu.",
+        "Changer sans cesse de méthode — l'incohérence perd l'enfant."
+      ],
+      "consulter_si": "Consulter si : l'introduction du pot déclenche une grande angoisse, un blocage total, une rétention des selles ou une constipation → en parler au pédiatre, et faire une pause. La propreté n'a aucune urgence : mieux vaut reculer que forcer."
+    },
+    {
+      "categorie": "proprete",
+      "situation": "Il a encore beaucoup d'accidents",
+      "titre": "Les petits accidents / accompagner les ratés sans dramatiser",
+      "explication": "Les « accidents » ne sont pas vraiment des accidents : ce sont des étapes normales d'un apprentissage. À 23 mois, même quand ton enfant commence à comprendre, il ne sait pas encore anticiper à temps — il est absorbé par son jeu, ou il sent l'envie trop tard. Se tromper fait partie du chemin, exactement comme tomber en apprenant à marcher. Ce qui compte n'est pas d'éviter les ratés, mais la façon dont on les accueille : sans honte ni reproche, l'enfant garde confiance et progresse ; grondé, il se crispe et régresse.",
+      "ancrage": "Un pipi par terre n'est pas un échec, c'est une étape. Ta réaction tranquille lui apprend qu'il a le droit d'apprendre à son rythme.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — après un accident",
+        "etapes": [
+          "Rester neutre et bienveillant : « ce n'est pas grave, ça arrive, la prochaine fois on ira sur le pot ».",
+          "Nettoyer ensemble, sans corvée ni punition : impliquer sans culpabiliser.",
+          "Ne jamais gronder, moquer ni soupirer : la honte fait reculer, pas avancer.",
+          "Reproposer le pot un peu plus tard, calmement, sans lien avec le raté.",
+          "Nommer la sensation : « tu as senti que c'était mouillé ? » — l'aider à repérer ses signaux."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — rassurer après un raté",
+        "etapes": [
+          "Un mot doux et un regard qui dédramatise : « tout va bien, tu apprends ».",
+          "Annoncer les habits faciles pour la suite : « comme ça, on ira plus vite la prochaine fois ».",
+          "Reconnecter par le jeu tout de suite après : tourner la page, sans y revenir.",
+          "Souligner la prochaine réussite, même petite, plutôt que le raté d'avant."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Anticiper les moments à risque : proposer le pot avant les longues phases de jeu absorbant.",
+        "Habiller simple : des vêtements faciles à baisser réduisent les ratés de dernière minute.",
+        "Accepter les régressions : après un changement (bébé, déménagement, maladie), des ratés reviennent — c'est normal et passager.",
+        "Garder le cap sans pression : les accidents s'espacent d'eux-mêmes à mesure que la maturité s'installe."
+      ],
+      "principe": "Les accidents font partie de l'apprentissage, comme les chutes font partie de la marche : on les accueille sans dramatiser. La honte fait régresser, la bienveillance fait progresser. Ce n'est ni un échec de l'enfant ni du parent, juste une étape qui passe.",
+      "erreurs_a_eviter": [
+        "Gronder, moquer ou soupirer après un accident — installe la honte et bloque l'apprentissage.",
+        "Renvoyer aux couches à la moindre difficulté, par agacement — brouille le message.",
+        "Comparer avec un frère ou un camarade « déjà propre » — met une pression contre-productive.",
+        "Voir les régressions comme un retour en arrière définitif — elles sont normales et temporaires."
+      ],
+      "consulter_si": "Consulter si : les accidents s'accompagnent de douleurs, de sang, de constipation, d'une rétention volontaire des selles, ou si un enfant propre depuis longtemps se remet à avoir des fuites fréquentes → en parler au pédiatre. Des ratés en phase d'apprentissage, eux, sont parfaitement normaux."
+    },
+    {
+      "categorie": "proprete",
+      "situation": "Il refuse catégoriquement le pot",
+      "titre": "Le refus du pot / il n'en veut pas encore",
+      "explication": "Parfois, ton enfant refuse catégoriquement le pot — et c'est une information, pas un problème. Souvent, cela veut dire qu'il n'est pas encore prêt, ou qu'il se sent trop poussé et se braque : à 23 mois, l'opposition est aussi une façon d'affirmer qu'il décide de son corps. Le confort des couches peut aussi lui plaire, ou l'idée de grandir ne l'intéresse pas encore. Forcer ne sert à rien : cela crée des tensions, parfois de la rétention et de la constipation, et retarde tout. La meilleure réponse est souvent de reculer et d'attendre.",
+      "ancrage": "Son refus n'est pas de l'entêtement à briser : c'est un « pas maintenant » à respecter. Reculer sans en faire un drame est souvent le vrai raccourci.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — face au refus",
+        "etapes": [
+          "Ne jamais forcer à s'asseoir : « d'accord, pas maintenant, on réessaiera une autre fois ».",
+          "Faire une pause franche si le refus est net : remettre des couches sans en faire un échec.",
+          "Retirer tout enjeu : ne plus en parler comme d'une attente, alléger complètement la pression.",
+          "Garder le pot disponible, à sa vue, sans obligation : lui laisser l'initiative.",
+          "Rester dans l'encouragement, jamais dans le reproche : « quand tu voudras, il sera là »."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — lever la pression",
+        "etapes": [
+          "Passer à autre chose avec légèreté : montrer que ce n'est pas grave apaise le bras de fer.",
+          "Redonner du pouvoir ailleurs : le laisser choisir sur d'autres petites choses de la journée.",
+          "Réintroduire l'idée par le jeu, plus tard, sans insistance : livres, poupée, exemple des grands.",
+          "Reconnaître son rythme : « tu me diras quand tu seras prêt »."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Vérifier le contexte : un refus qui suit un changement (bébé, déménagement, entrée en crèche) demande d'attendre une période plus calme.",
+        "S'assurer qu'on n'a pas mis trop de pression : souvent, alléger l'attente suffit à débloquer plus tard.",
+        "Surveiller le transit : un enfant qui se retient peut se constiper — proposer eau et fibres, et consulter si besoin.",
+        "Faire confiance au temps : aucun enfant ne garde ses couches indéfiniment ; le sien viendra à son rythme."
+      ],
+      "principe": "Un refus du pot est un « pas encore » à respecter, pas une bataille à gagner. Reculer, lever la pression et attendre le bon moment débloque presque toujours mieux que d'insister. Forcer risque la rétention et la constipation, et retarde ce qu'on voulait accélérer.",
+      "erreurs_a_eviter": [
+        "Forcer l'enfant à rester sur le pot — crée blocage, tensions et parfois rétention.",
+        "Punir ou gronder le refus — transforme la propreté en rapport de force durable.",
+        "Insister chaque jour malgré un refus net — renforce l'opposition au lieu de la lever.",
+        "S'inquiéter d'un « retard » à cet âge — 23 mois, c'est souvent tout simplement trop tôt."
+      ],
+      "consulter_si": "Consulter si : le refus s'accompagne d'une rétention des selles, d'une constipation, de douleurs à la selle ou à la miction, ou si aucun intérêt n'apparaît vers 3-4 ans → en parler au pédiatre. Un refus isolé à 23 mois, sans autre signe, veut le plus souvent dire « pas encore prêt », et c'est normal."
+    }
+  ]
+}

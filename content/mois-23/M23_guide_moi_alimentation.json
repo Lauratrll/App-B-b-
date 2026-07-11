@@ -3,6 +3,7 @@
   "tranche_age": "23 mois",
   "categorie": {
     "id": "alim",
+    "ordre": 1,
     "nom": "Alimentation",
     "sous_titre": "Refus, appétit, repas",
     "icone": "🍽️"

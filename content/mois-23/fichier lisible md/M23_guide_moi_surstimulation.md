@@ -1,0 +1,181 @@
+# ⚡ Guide-moi ! — M23 · Sur-stimulation (23 mois)
+
+*Sur-stimulation — Heure du loup, trop-plein, écrans, jouets · 4 situations*
+
+---
+
+## L'heure du loup / ingérable en fin de journée
+
+**La situation :** Ingérable, pleure et s'énerve en fin de journée
+
+**Ce qui se passe**
+Entre 17h et 19h, beaucoup d'enfants deviennent ingérables : c'est « l'heure du loup », un moment physiologiquement difficile. La fatigue de la journée est à son comble, la glycémie chute, et le petit stock d'énergie pour se contrôler est épuisé. Résultat : pleurs, crises, refus de tout, pour un rien. Ce n'est ni un caprice ni un défi — c'est de la neurochimie pure, que ton enfant subit autant que toi. Beaucoup de parents croient qu'il « fait exprès » à ce moment-là ; en réalité, il n'a plus aucune réserve pour tenir.
+
+**Avant d'agir**
+Cette heure difficile n'est pas une faiblesse de ton enfant, c'est une réalité de son corps fatigué. Ton anticipation et ton calme sont le seul vrai antidote.
+
+### 🔴 Action immédiate — entre 17h et 19h
+- **Baisser le rythme et les stimulations** : lumière douce, moins de bruit, moins d'exigences.
+- **Proposer une petite collation** : un ventre qui a faim tient encore moins bien la fatigue.
+- **Nommer sans gronder** : « tu es fatigué, la journée a été longue, je t'aide ».
+- **Réduire les enjeux** : reporter ce qui peut l'être, éviter les consignes et les conflits.
+- **Avancer le bain ou le coucher si ça déborde** : couper court plutôt que d'étirer la soirée.
+
+### 🟢 Réflexologie : traverser l'heure du loup
+- L'installer au calme contre toi, lumière tamisée, dès que la tension monte.
+- **Zone du plexus solaire** : au centre de la voûte, cercles lents une à deux minutes — apaise le système nerveux.
+- Balayage doux de la voûte, du talon vers les orteils, en respirant lentement avec lui.
+- S'arrêter dès qu'il se détend ou retire son pied.
+
+### Pour aller plus loin
+- **Anticiper le créneau** : organiser sa journée pour que 17h-19h soit la plage la plus calme possible.
+- **Préparer le repas du soir avant l'heure critique** : ne pas être en cuisine quand il craque.
+- **Se relayer avec l'autre parent sur ce moment si possible** : un pour l'enfant, un pour l'intendance.
+- **Coucher un peu plus tôt les jours difficiles** : la sur-fatigue empire tout, le sommeil répare.
+
+### Le principe à retenir
+L'heure du loup est universelle et physiologique : on ne la raisonne pas, on la traverse. Trois piliers : baisser la stimulation, recharger l'énergie par une collation, et coucher à temps. Improviser dans cette heure est presque toujours un échec ; l'anticiper la transforme.
+
+### Les erreurs à éviter
+- **Penser qu'il « fait des caprices »** — c'est de la fatigue physiologique, pas de la mauvaise volonté.
+- **Multiplier les activités pour « l'occuper »** — la stimulation supplémentaire empire l'état.
+- **Repousser le repas ou le coucher** — la sur-fatigue rend l'endormissement encore plus dur.
+- **Répondre à son énervement par le tien** — deux tensions valent moins qu'un calme qui contient.
+
+### Quand consulter
+Consulter si : cette difficulté de fin de journée devient ingérable tous les jours malgré un rythme adapté, s'accompagne d'une dégradation du sommeil, de l'humeur ou de l'appétit sur la durée → en parler au pédiatre. Vérifier aussi l'absence de cause physique (poussée dentaire, otite). Une « heure du loup » qui s'apaise avec l'anticipation est banale.
+
+---
+
+## Le trop-plein / craque après une belle journée
+
+**La situation :** Pleure et craque après une sortie ou une fête
+
+**Ce qui se passe**
+Les sorties « positives » — parc, anniversaire, visite, voyage — sont aussi des sur-stimulations pour un cerveau de 23 mois : beaucoup de bruit, de monde, d'images, d'émotions fortes. À la fin, le système nerveux ne peut plus tout traiter, il « déborde ». L'enfant pleure, semble triste sans raison, refuse tout : c'est le contrecoup d'une journée trop pleine, même si elle était belle. Ce n'est ni de l'ingratitude ni un caprice — sa joie l'a autant fatigué que l'aurait fait une peine. Plus l'événement a été grand, plus le retour au calme sera long.
+
+**Avant d'agir**
+Sa joie l'a épuisé : une trop grande journée appelle un tout petit retour. Ton rôle n'est pas de comprendre pourquoi il pleure, mais de l'aider à atterrir.
+
+### 🔴 Action immédiate — l'atterrissage
+- **Ne pas chercher la cause du chagrin** : il n'y en a pas une, il y a un « trop ».
+- **Réduire tout de suite les stimulations** : pénombre, silence, un espace calme.
+- **Contenir en douceur** : un câlin long, une couverture, tes bras — le corps enveloppé rassure.
+- **Peu de mots, peu de questions** : juste être là, présent et tranquille.
+- **Mettre des mots simples** : « tu as vécu plein de choses, ton cœur est plein ».
+
+### 🟢 Geste doux — aider à redescendre
+- Un bercement lent, dans tes bras, sans rien attendre en retour.
+- Un bain tiède à la veilleuse, sans jeu ni stimulation.
+- **Retrouver un repère familier** : doudou, tétine, chanson douce du soir.
+- Un temps de contact peau à peau ou blotti, jusqu'à ce qu'il se dépose.
+
+### Pour aller plus loin
+- **Prévoir la récupération** : après une grosse sortie, réserver une à deux heures de calme obligatoire.
+- **Limiter les événements** : un grand moment par week-end, c'est déjà beaucoup pour un tout-petit.
+- **Prévenir l'entourage** : partir tôt, sans pression, avant que le trop-plein n'éclate.
+- **Emporter ses repères partout** : doudou, tétine, couverture familière rassurent en terrain nouveau.
+
+### Le principe à retenir
+Plus la stimulation a été grande, même joyeuse, plus le temps de récupération est long : un anniversaire de trois heures peut demander une journée de retour au calme. Anticiper et accepter ce besoin évite les conflits. On n'explique pas le trop-plein, on l'accompagne vers le calme.
+
+### Les erreurs à éviter
+- **Penser « il devrait être content après une telle journée »** — la fatigue dépasse le plaisir.
+- **Rester longtemps après l'événement « le temps qu'il se remette »** — il ne se remet qu'au calme.
+- **Enchaîner les sorties en pensant qu'il « s'habituera »** — on ne s'habitue pas à la sur-stimulation.
+- **Le gronder d'être grognon** — il vit un contrecoup, pas une bouderie.
+
+### Quand consulter
+Consulter si : la sensibilité à la stimulation devient extrême (l'enfant ne supporte plus aucune sortie, développe des symptômes physiques), ou si le trop-plein ne s'apaise jamais malgré le retour au calme → en parler au pédiatre. Un contrecoup après une grosse journée, qui passe au calme, est parfaitement normal — certains enfants sont juste plus sensibles que d'autres.
+
+---
+
+## Les écrans / agité et dérégulé après un temps d'écran
+
+**La situation :** Agité et dérégulé après avoir regardé un écran
+
+**Ce qui se passe**
+Après un écran, ton enfant est souvent surexcité, irritable, a du mal à se poser ou à s'endormir : à 23 mois, son cerveau n'est pas équipé pour traiter le flot d'images rapides et de sons d'un écran. Cela le sur-stimule au lieu de le calmer, perturbe son attention et son sommeil, et remplace les échanges réels dont il a besoin pour grandir. Les recommandations officielles sont claires : avant 3 ans, pas d'écran, même en fond sonore. Ce n'est pas une question de volonté ou de « bon » programme — c'est son cerveau en construction qui n'est pas prêt.
+
+**Avant d'agir**
+L'écran promet du calme et livre l'inverse : de l'excitation. Réduire les écrans n'est pas une privation, c'est rendre à ton enfant ce dont il a vraiment besoin — toi, le jeu, le réel.
+
+### 🔴 Action immédiate — quand l'écran l'a dérégulé
+- **Éteindre calmement, sans négocier une « dernière fois »** : la coupure sera plus dure si elle traîne.
+- **Rediriger vers le corps et le réel** : sortir, bouger, manipuler — décharger l'excitation.
+- **Accueillir la frustration de l'arrêt** : « c'est dur d'arrêter, je sais » — sans céder.
+- **Reconnecter par la présence** : un jeu ensemble, un câlin, remplace ce que l'écran occupait.
+- **Éviter l'écran en fin de journée et avant le coucher** : il perturbe l'endormissement.
+
+### 🟢 Geste doux — redescendre après l'écran
+- **Proposer une activité lente et sensorielle** : eau, pâte, transvaser — recentrer l'attention.
+- **Un temps calme à deux, sans image** : lire, chanter, se blottir.
+- **Baisser la lumière et le bruit** : aider le système nerveux à se réguler.
+- **Nommer le retour au calme** : « on repose nos yeux, on retrouve le doux ».
+
+### Pour aller plus loin
+- **Viser le zéro écran avant 3 ans** : c'est le repère officiel du carnet de santé, y compris la télé en fond sonore.
+- **Jamais d'écran pour calmer, aux repas ou avant de dormir** : ce sont les moments les plus sensibles.
+- **Soigner son propre usage** : un parent souvent sur son téléphone réduit sans le vouloir les échanges (« technoférence »).
+- **Remplacer plutôt qu'interdire seulement** : offrir du jeu, du dehors, du lien — l'écran comble un vide qu'on peut remplir autrement.
+
+### Le principe à retenir
+Avant 3 ans, l'écran sur-stimule un cerveau qui a besoin d'interactions réelles pour se construire : il excite au lieu d'apaiser et grignote le sommeil et l'attention. Le retirer n'est pas une punition mais un cadeau de disponibilité. On remplace l'écran par du réel, sans culpabilité mais avec constance.
+
+### Les erreurs à éviter
+- **Utiliser l'écran pour calmer une crise** — il déconnecte sur le moment mais dérègle ensuite.
+- **Laisser la télévision en fond sonore** — même non regardée, elle appauvrit les échanges et l'attention.
+- **Négocier « juste encore un épisode »** — chaque rallonge rend l'arrêt plus difficile.
+- **Mettre un écran au repas ou avant le coucher** — il coupe l'appétit et retarde l'endormissement.
+
+### Quand consulter
+Consulter si : ton enfant semble ne se calmer qu'avec un écran, présente un retard de langage, un sommeil très perturbé ou un repli sur lui-même → en parler au pédiatre. Réduire les écrans est souvent la première mesure, simple et efficace. Si tu te sens débordé et que l'écran est devenu un recours quotidien, en parler sans honte permet de trouver d'autres appuis.
+
+<sub>*Source : avant 3 ans, pas d'écran (y compris en fond sonore), jamais pour calmer, aux repas ni avant le coucher — repères officiels du carnet de santé (Santé publique France, « 1000 premiers jours »).*</sub>
+
+---
+
+## Le trop de jouets / dispersé, s'ennuie vite
+
+**La situation :** Passe d'un jouet à l'autre, s'ennuie et se disperse
+
+**Ce qui se passe**
+Ton enfant a plein de jouets… et pourtant il papillonne, ne joue à rien plus de deux minutes, réclame sans cesse « autre chose ». Ce n'est pas un manque de jouets, c'est le contraire : trop de choix sature son cerveau de 23 mois. Face à une montagne d'objets, il ne parvient ni à choisir ni à se concentrer — chaque jouet devient un appel qui l'empêche d'explorer vraiment le précédent. Moins de jouets visibles, c'est paradoxalement plus de jeu, plus profond et plus long. Un tout-petit joue mieux avec peu, mais bien présenté.
+
+**Avant d'agir**
+Son agitation n'est pas un ennui à combler par plus de jouets : c'est un trop-plein à alléger. En retirer, c'est lui redonner la capacité de jouer.
+
+### 🔴 Action immédiate — quand il papillonne
+- **Ranger l'excès sous ses yeux** : ne laisser que quelques jouets accessibles, dégager l'espace.
+- **Présenter un seul jeu à la fois, posé et invitant** : un plateau, un coin, une proposition claire.
+- **Jouer un instant avec lui pour amorcer** : ta présence relance l'attention mieux qu'un nouveau jouet.
+- **Résister à « donner autre chose »** : l'aider à rester sur un jeu plutôt qu'à en changer.
+- **Nommer ce qu'il fait** : « tu empiles, ça tient ! » — l'intérêt de l'adulte prolonge le jeu.
+
+### 🟢 Geste doux — retrouver le plaisir de jouer
+- **S'asseoir au sol avec lui, sans téléphone, disponible** : le jeu naît de la présence.
+- **Proposer des objets simples et ouverts** : cuillères, boîtes, tissus — l'imagination fait le reste.
+- **Laisser des silences** : ne pas sur-animer, lui laisser explorer à son rythme.
+- **Valoriser la concentration** : « tu as bien cherché », plutôt que multiplier les jouets.
+
+### Pour aller plus loin
+- **Mettre en place la rotation des jouets** : ranger la plupart des jouets hors de vue, n'en laisser qu'une petite sélection accessible, et la changer toutes les une à deux semaines. Les jouets « revenus » retrouvent tout leur attrait, comme neufs.
+- **Varier les registres dans la sélection** : un jeu de manipulation, un de construction, un d'imitation, des livres — de la variété sans la surcharge.
+- **Observer avant de renouveler** : garder ce qui capte vraiment, ranger ce qu'il délaisse — la rotation se règle sur son intérêt réel.
+- **Privilégier le peu et le durable** : quelques jouets ouverts valent mieux qu'une montagne d'objets à effet immédiat.
+
+### Le principe à retenir
+Trop de jouets étouffe le jeu au lieu de le nourrir : un tout-petit se concentre et invente davantage avec peu d'objets bien choisis. La rotation des jouets — n'en laisser qu'une petite sélection à la fois et la renouveler régulièrement — entretient la nouveauté sans la surcharge, et rallonge nettement le temps de jeu autonome.
+
+### Les erreurs à éviter
+- **Répondre à l'ennui par un nouveau jouet** — on renforce le papillonnage qu'on veut calmer.
+- **Laisser tous les jouets accessibles en permanence** — la surcharge visuelle disperse l'attention.
+- **Multiplier les jouets à piles très stimulants** — ils occupent mais n'apprennent pas à jouer.
+- **Sur-animer chaque jeu** — l'enfant a aussi besoin de s'ennuyer un peu pour inventer.
+
+### Quand consulter
+Consulter si : ton enfant ne parvient jamais à se poser sur aucune activité, même seul avec peu de jouets et un adulte présent, ou si cela s'accompagne d'un retard de langage ou d'un évitement du contact → en parler au pédiatre. Un tout-petit qui papillonne mais se concentre mieux dès qu'on allège et qu'on l'accompagne, c'est simplement un cerveau de 2 ans qui a besoin de moins pour jouer plus.
+
+---
+
+*Cet accompagnement ne se substitue jamais à l'avis de ton pédiatre ou d'un professionnel de santé.*

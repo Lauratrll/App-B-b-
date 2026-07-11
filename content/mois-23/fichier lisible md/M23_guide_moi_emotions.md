@@ -1,0 +1,222 @@
+# 🌪️ Guide-moi ! — M23 · Émotions (23 mois)
+
+*Émotions — Colère, opposition, morsures, jalousie · 5 situations*
+
+---
+
+## La grande colère / la crise qui déborde
+
+**La situation :** Crise de colère intense qui déborde et dure
+
+**Ce qui se passe**
+À 23 mois, ton enfant ressent des émotions immenses avec un cerveau encore tout petit pour les gérer. Quand la colère monte, la partie qui pourrait le calmer est débordée par celle des émotions : il n'a aucun moyen de s'arrêter seul. La crise n'est ni un choix ni de la manipulation, c'est une tempête neurologique qui doit passer. Il ne t'en veut pas et ne cherche pas à te punir : il est submergé et a besoin d'une présence solide pour traverser, pas de raisonnements.
+
+**Avant d'agir**
+Tu n'as pas à arrêter la crise, mais à rester le phare pendant la tempête. Ta présence calme lui apprend, peu à peu, que les émotions se traversent.
+
+### 🔴 Action immédiate — pendant la crise
+- **Se mettre à sa hauteur, calme** : « je vois que c'est très fort, je suis là ».
+- **Assurer la sécurité** : écarter ce qui peut blesser, sans le contraindre s'il n'en veut pas.
+- **Peu de mots** : à cet instant il ne peut plus raisonner ; ta présence parle plus que tes phrases.
+- **Proposer sans imposer le contact** : certains ont besoin d'un câlin, d'autres d'espace — suivre le sien.
+- **Attendre la vague** : la crise finit toujours ; ton calme raccourcit la tempête.
+
+### 🟢 Réflexologie : après la crise, revenir au calme
+- Quand la vague est passée, l'accueillir contre toi, sans revenir sur la crise à chaud.
+- **Zone du plexus solaire** : au centre de la voûte, cercles lents une à deux minutes — apaise le système nerveux.
+- Balayage doux de la voûte, du talon vers les orteils, en respirant lentement avec lui.
+- **S'arrêter dès qu'il se détend ou retire son pied** — le retour au calme lui appartient.
+
+### Pour aller plus loin
+- **Reconnecter après, pas pendant** : une fois calmé, un câlin et quelques mots simples referment l'épisode.
+- **Repérer les déclencheurs récurrents** : faim, fatigue, trop-plein — beaucoup de crises s'anticipent.
+- **Nommer les émotions au quotidien, hors crise** : plus il a de mots, moins la tempête déborde.
+- **Prendre soin de toi aussi** : traverser ses tempêtes épuise ; souffler te permet de rester le phare.
+
+### Le principe à retenir
+Une grande colère n'est pas un comportement à mater mais une émotion à traverser ensemble. Le parent ne calme pas la crise, il tient bon pendant qu'elle passe. Cette présence répétée construit, au fil des années, la capacité de l'enfant à se réguler.
+
+### Les erreurs à éviter
+- **Raisonner ou négocier en pleine crise** — son cerveau émotionnel a pris les commandes, les mots n'entrent plus.
+- **Crier plus fort pour couvrir la crise** — la tempête s'amplifie par effet miroir.
+- **Céder à la demande qui a déclenché** — enseigne que la crise est un moyen efficace.
+- **Punir ou isoler pendant la tempête** — ajoute la peur d'être seul à la détresse.
+
+### Quand consulter
+Consulter si : les crises sont très longues (souvent plus d'une heure), quasi permanentes, avec blessures réelles répétées, ou si elles ne s'apaisent jamais malgré une présence calme et s'accompagnent d'autres difficultés (sommeil, relation, langage) → en parler au pédiatre, qui pourra orienter vers un psychologue de la petite enfance. Des tempêtes intenses mais qui passent sont le propre de cet âge.
+
+---
+
+## La frustration / face à un « non » ou une limite
+
+**La situation :** Explose dès qu'on lui pose une limite ou qu'on refuse
+
+**Ce qui se passe**
+À 23 mois, ton enfant veut tout, tout de suite, et vit chaque « non » comme une catastrophe : c'est l'âge de la toute-puissance qui se heurte au réel. La frustration est un apprentissage majeur — découvrir que le monde ne cède pas à tous ses désirs — mais son cerveau n'a pas encore les outils pour l'encaisser sans exploser. Il ne conteste pas ton autorité : il vit une déception énorme qu'il ne sait pas gérer. Ton rôle n'est pas de lui éviter la frustration, mais de l'accompagner à la traverser.
+
+**Avant d'agir**
+Tu peux tenir la limite ET accueillir sa peine : les deux vont ensemble. Un « non » ferme dit avec douceur sécurise plus qu'il ne blesse.
+
+### 🔴 Action immédiate — quand le « non » explose
+- **Nommer l'émotion** : « tu es en colère parce que tu voulais, je comprends » — valider sans céder.
+- **Tenir la limite sans la répéter dix fois** : une fois, clairement, puis rester présent.
+- **Ne pas argumenter à l'infini** : la décision est posée, l'émotion, elle, peut s'exprimer.
+- **Offrir un espace pour la déception** : « tu as le droit d'être triste, je reste avec toi ».
+- **Proposer un pas de côté quand c'est possible** : « on ne peut pas ça, mais on peut ceci ».
+
+### 🟢 Geste doux — accueillir la déception
+- Rester physiquement présent, à côté de lui, sans forcer le contact.
+- **Une main calme et immobile s'il l'accepte** : ta stabilité l'aide à redescendre.
+- **Respirer lentement et visiblement** : il se cale peu à peu sur ton rythme.
+- **Quand ça s'apaise, mettre des mots** : « c'était dur, tu voulais très fort ».
+
+### Pour aller plus loin
+- **Distinguer besoin et envie** : on répond aux besoins, on tient sur les limites de sécurité et de cadre.
+- **Prévenir plutôt que refuser sec** : annoncer la fin d'une activité évite l'effet couperet du « non ».
+- **Offrir des « oui » quand c'est possible** : un enfant souvent contrarié explose plus fort aux vrais « non ».
+- **Rester constant** : une limite qui tient un jour sur deux crée plus de frustration qu'elle n'en évite.
+
+### Le principe à retenir
+La frustration est un muscle qui se construit : l'enfant apprend à l'encaisser en la vivant, accompagné, pas en en étant protégé. On tient la limite avec fermeté et on accueille l'émotion avec douceur, les deux à la fois. Céder pour arrêter les pleurs apprend à pleurer plus fort la fois suivante.
+
+### Les erreurs à éviter
+- **Céder dès que la frustration monte** — enseigne que crier fait tomber les limites.
+- **Poser des limites floues ou changeantes** — l'incohérence multiplie les explosions.
+- **Nier l'émotion (« ce n'est rien, arrête »)** — il se sent seul et la frustration grimpe.
+- **Multiplier les « non » sur des broutilles** — garder la fermeté pour ce qui compte vraiment.
+
+### Quand consulter
+Consulter si : la moindre contrariété déclenche des crises ingérables et permanentes, l'enfant se blesse, ou la frustration ne s'apaise jamais malgré un cadre stable et bienveillant → en parler au pédiatre. Une intolérance à la frustration qui s'atténue avec l'âge et l'accompagnement est banale à 2 ans.
+
+---
+
+## L'opposition / le « non » et « moi tout seul »
+
+**La situation :** Dit « non » à tout et veut tout faire seul
+
+**Ce qui se passe**
+Vers 23 mois s'ouvre l'âge de l'affirmation : ton enfant découvre qu'il est une personne à part entière, avec sa volonté propre. Dire « non », vouloir « faire tout seul », s'opposer, c'est ainsi qu'il construit son identité — ce n'est pas dirigé contre toi, c'est un passage indispensable. Son « non » veut souvent dire « je veux décider », pas « je refuse vraiment ». Contrarier systématiquement cet élan l'épuise autant que toi ; lui donner des espaces de pouvoir, dans un cadre clair, apaise l'opposition.
+
+**Avant d'agir**
+Son opposition est bon signe : elle dit qu'il grandit et prend confiance. Ton rôle : lui laisser du pouvoir sur les petites choses, et garder le cap sur les grandes.
+
+### 🔴 Action immédiate — face au « non » systématique
+- **Offrir des choix cadrés** : « le pull rouge ou le bleu ? » — décider entre deux options le comble.
+- **Éviter les questions fermées quand il n'y a pas le choix** : « on met le manteau » plutôt que « tu veux ? ».
+- **Laisser faire seul ce qui peut l'être** : prévoir du temps pour ses « moi tout seul ».
+- **Contourner le rapport de force par le jeu** : « on court jusqu'à la salle de bain ? ».
+- Garder le cap, sans céder ni s'emporter, sur les limites non négociables de sécurité.
+
+### 🟢 Geste doux — offrir du pouvoir en sécurité
+- **Confier de petites responsabilités à sa portée** : porter, ranger, appuyer sur le bouton.
+- **Valoriser ses réussites autonomes** : « tu l'as fait tout seul » — nourrir sa fierté.
+- **Aménager pour l'autonomie** : marchepied, vêtements faciles, objets à sa hauteur.
+- **Reconnaître son point de vue même en tenant la limite** : « tu voulais continuer, je sais ».
+
+### Pour aller plus loin
+- **Choisir ses batailles** : céder du terrain sur le futile permet de tenir sur l'essentiel.
+- **Prévoir plus de temps** : la course contre la montre transforme chaque geste en bras de fer.
+- **Transformer les contraintes en jeu ou en choix** : l'humour désamorce mieux que l'autorité.
+- **Voir le « non » comme une étape, pas une bataille à gagner** : il passe si on ne le nourrit pas de conflits.
+
+### Le principe à retenir
+L'opposition de 2 ans est un élan de construction de soi, pas une désobéissance à mater. On lui donne du pouvoir sur les petites décisions pour qu'il accepte le cadre sur les grandes. Un enfant qui se sent acteur s'oppose beaucoup moins qu'un enfant contrarié à chaque instant.
+
+### Les erreurs à éviter
+- **Transformer chaque « non » en épreuve de force** — on multiplie les affrontements perdus d'avance.
+- **Tout lui laisser décider pour éviter les crises** — l'absence de cadre l'insécurise.
+- **Poser des questions fermées quand il n'y a pas vraiment le choix** — on s'expose à un « non » inutile.
+- **Prendre son opposition personnellement** — c'est son autonomie qui parle, pas un rejet de toi.
+
+### Quand consulter
+Consulter si : l'opposition est permanente, extrême, s'accompagne d'une grande souffrance de l'enfant, d'agressivité constante ou d'un blocage relationnel total → en parler au pédiatre ou à un psychologue de la petite enfance. Un « non » joyeux et affirmé qui teste les limites est, lui, un signe de développement sain.
+
+---
+
+## La morsure / mord quand il est débordé
+
+**La situation :** Mord ou tape quand il est débordé
+
+**Ce qui se passe**
+Mordre, à 23 mois, est fréquent et n'a rien d'un acte de méchanceté : c'est une décharge. Quand l'émotion (colère, excitation, fatigue, frustration) dépasse ses capacités et qu'il n'a pas les mots, elle sort par le corps — la bouche, les mains. Parfois c'est aussi sensoriel, un besoin de pression sur les gencives, ou une façon maladroite d'entrer en contact. Il ne mesure pas la douleur qu'il cause : l'empathie est encore en construction. Ce comportement se dépasse avec l'âge, les mots, et une réponse calme et constante.
+
+**Avant d'agir**
+Ce n'est pas ton enfant qui est « méchant » : c'est une émotion trop grande qui déborde par le corps. Ton calme et une limite claire valent mieux que la punition.
+
+### 🔴 Action immédiate — au moment de la morsure
+- **Intervenir calmement mais fermement** : « stop, on ne mord pas, ça fait mal ».
+- **S'occuper d'abord de celui qui a été mordu** : l'attention va à la personne blessée, pas à l'auteur.
+- **Nommer l'émotion derrière** : « tu étais très en colère » — relier le geste au ressenti.
+- **Proposer une alternative** : « si tu es fâché, tu peux taper le coussin ou me le dire ».
+- **Éviter la grande scène** : mordre en retour, crier ou dramatiser aggrave et fascine.
+
+### 🟢 Geste doux — canaliser le besoin de mordre
+- **Offrir un exutoire sensoriel sûr** : anneau à mâcher, aliment croquant adapté, sous surveillance.
+- **Proposer des jeux de décharge** : taper une pâte, presser, malaxer — évacuer par le corps.
+- **Multiplier les mots des émotions hors conflit** : plus il en a, moins il mord.
+- **Après, reconnecter sans revenir en boucle sur la morsure** : le lien répare mieux que la honte.
+
+### Pour aller plus loin
+- **Repérer le contexte** : la plupart des morsures surviennent sur fatigue, faim ou surexcitation — anticiper ces moments.
+- **Surveiller de près en collectivité** : à la crèche, les morsures entre enfants sont fréquentes et gérées par l'équipe.
+- **Rester constant** : la même réponse calme à chaque fois apprend plus vite que la sévérité.
+- **Donner l'exemple de la gestion des émotions** : il apprend surtout en te regardant faire.
+
+### Le principe à retenir
+Mordre est une décharge, pas une intention de faire mal : on pose une limite ferme sur le geste tout en accueillant l'émotion qui l'a provoqué. La punition installe la peur, pas la compréhension. Ce qui fait reculer les morsures, c'est les mots, l'anticipation et la constance.
+
+### Les erreurs à éviter
+- **Mordre l'enfant « pour qu'il comprenne »** — lui apprend que mordre est une réponse valable.
+- **Punir durement un geste qu'il ne contrôle pas encore** — installe la honte sans l'aider.
+- **Faire une scène qui capte toute l'attention** — l'auteur retient qu'il devient le centre du monde.
+- **Ignorer le contexte (fatigue, surexcitation)** — on laisse se répéter des morsures évitables.
+
+### Quand consulter
+Consulter si : les morsures sont très fréquentes, persistent bien au-delà de 3 ans, s'accompagnent d'une agressivité générale, d'un langage qui ne vient pas, ou d'un enfant qui semble en grande souffrance → en parler au pédiatre, qui pourra orienter vers un psychologue ou un psychomotricien. Des morsures occasionnelles, liées au débordement, restent banales à cet âge.
+
+---
+
+## La jalousie / l'arrivée d'un petit frère ou d'une sœur
+
+**La situation :** Jaloux depuis l'arrivée d'un bébé
+
+**Ce qui se passe**
+L'arrivée d'un bébé bouleverse le monde de ton aîné : du jour au lendemain, il partage ton attention, ton corps, ta disponibilité. À 23 mois, il n'a pas les mots pour dire « j'ai peur de ne plus compter », alors cela sort autrement : régressions (pipi, langage de bébé), colères, agressivité envers le bébé, besoin de coller. Ce n'est ni de la méchanceté ni un caprice : c'est de l'insécurité affective. Il ne cherche pas à t'embêter — il vérifie qu'il a toujours sa part de toi.
+
+**Avant d'agir**
+Sa jalousie n'est pas un défaut à mater, c'est un appel : « est-ce que je compte toujours pour toi ? ». Ta réponse, encore et encore, est oui.
+
+### 🔴 Action immédiate — face à la jalousie
+- **Nommer sans juger** : « c'est difficile qu'il y ait un bébé, tu as le droit de ne pas aimer ça ».
+- **Protéger le bébé sans diaboliser l'aîné** : « je ne te laisse pas lui faire mal », calmement, en le tenant.
+- **Ne jamais gronder ses sentiments** : on encadre les gestes, jamais l'émotion de jalousie.
+- **Lui redire sa place** : « tu es mon grand, personne ne prendra ta place ».
+- **Lui donner un rôle valorisant, sans l'y obliger** : apporter la couche, choisir le pyjama du bébé.
+
+### 🟢 Geste doux — du temps rien qu'à lui
+- **Réserver chaque jour un moment exclusif, sans le bébé** : quelques minutes qui n'appartiennent qu'à lui.
+- **Le regarder, le nommer, le câliner** : « je suis tellement content d'être avec toi, là ».
+- **Ressortir les photos de quand il était bébé** : lui montrer qu'il a eu, lui aussi, tout cet amour.
+- L'inclure dans le lien à trois, sans forcer l'affection envers le bébé.
+
+### Pour aller plus loin
+- **Accepter les régressions** : redevenir « bébé » un temps est sa façon de vérifier qu'il a droit aux mêmes soins — l'accueillir la fait passer plus vite.
+- **Éviter les comparaisons et les « tu es grand maintenant »** : grandir ne doit pas devenir une punition.
+- **Préserver ses repères** : garder autant que possible ses habitudes et ses rituels d'avant.
+- **Mettre des mots sur ses sentiments dans les livres et les jeux** : les histoires de grands aident.
+
+### Le principe à retenir
+La jalousie envers un cadet est une insécurité affective, pas de la méchanceté : l'aîné a besoin d'être rassuré sur sa place, pas d'être forcé à aimer. On encadre fermement les gestes envers le bébé tout en accueillant l'émotion, et on nourrit le lien exclusif. Un enfant qui se sent aimé pour lui-même finit par accueillir l'autre.
+
+### Les erreurs à éviter
+- **Gronder ou punir la jalousie elle-même** — l'émotion refoulée ressort plus fort, souvent sur le bébé.
+- **Forcer l'aîné à aimer ou embrasser le bébé** — l'affection ne se commande pas.
+- **Répéter « tu es grand maintenant »** — fait de l'aînesse un fardeau et non une fierté.
+- **Tout attribuer à la jalousie** — certaines colères sont juste celles de son âge, indépendantes du bébé.
+
+### Quand consulter
+Consulter si : l'agressivité envers le bébé est intense et impossible à contenir malgré la surveillance, ou si l'aîné s'effondre durablement (tristesse profonde, régression massive qui s'installe, troubles du sommeil ou de l'alimentation) → en parler au pédiatre ou à un psychologue de la petite enfance. Une jalousie qui s'exprime mais s'apaise avec du temps exclusif et des mots est très banale.
+
+---
+
+*Cet accompagnement ne se substitue jamais à l'avis de ton pédiatre ou d'un professionnel de santé.*

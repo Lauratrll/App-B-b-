@@ -1,0 +1,181 @@
+# 💬 Guide-moi ! — M23 · Langage et Communication (23 mois)
+
+*Langage et Communication — Parler, comprendre, se faire entendre · 4 situations*
+
+---
+
+## Le langage / parle encore très peu
+
+**La situation :** Parle encore très peu pour son âge
+
+**Ce qui se passe**
+À 23 mois, la fourchette du langage est très large : certains enfants alignent déjà de petites phrases, d'autres n'ont que quelques mots — et les deux sont normaux. En moyenne, vers 2 ans, un enfant utilise autour d'une cinquantaine de mots et commence à en associer deux (« encore lait », « papa parti »), mais ce sont des repères, pas des obligations. Ton enfant comprend souvent bien plus qu'il ne dit : la compréhension précède toujours l'expression. Un enfant calme, qui interagit, pointe et cherche à communiquer construit son langage, même s'il parle peu.
+
+**Avant d'agir**
+Comparer n'aide pas ; parler avec lui, oui. Ton rôle n'est pas de le faire répéter, mais de baigner ses journées de mots.
+
+### 🔴 Action immédiate — nourrir le langage au quotidien
+- **Mettre des mots sur tout** : nommer ce qu'il voit, fait et ressent, au fil de la journée.
+- **Laisser un blanc** : poser une question, puis attendre, lui laisser le temps de chercher ses mots.
+- **Reformuler sans corriger** : s'il dit « ato », répondre « oui, le gâteau ! » — le bon modèle, sans le reprendre.
+- **Réduire les écrans** : le langage s'apprend dans l'échange réel, pas devant un écran.
+- **Ne pas tout anticiper** : s'il montre du doigt, nommer et attendre un mot ou un son avant de donner.
+
+### 🟢 Geste doux — le bain de langage
+- Lire des imagiers et des livres cartonnés ensemble chaque jour, en nommant et en pointant.
+- **Chanter des comptines à gestes** : le rythme et la répétition ancrent les mots.
+- **Jouer à faire semblant (téléphone, poupée, dînette)** : le jeu fait naître les mots.
+- **Décrire ses émotions** : « tu es content », « tu es fâché » — offrir les mots des ressentis.
+
+### Pour aller plus loin
+- **Faire confiance à la fourchette** : à cet âge, un « petit parleur » qui comprend et communique rattrape souvent vite.
+- **Observer comment il communique, pas seulement ce qu'il dit** : gestes, regards et pointage comptent autant que les mots.
+- **Multiplier les occasions de parler avec d'autres enfants** : l'imitation entre pairs stimule beaucoup.
+- **En cas de doute, commencer par l'audition** : une gêne auditive est la première cause à écarter devant un langage qui tarde.
+
+### Le principe à retenir
+La compréhension précède l'expression : un enfant qui comprend et cherche à communiquer est sur la bonne voie, même s'il parle peu. On nourrit le langage par l'échange quotidien, jamais par la pression. Un repérage précoce, si besoin, se fait sans dramatiser.
+
+### Les erreurs à éviter
+- **Le faire répéter ou le corriger sans cesse** — met la pression et coupe l'envie de parler.
+- **Tout anticiper à sa place** — s'il obtient tout sans un mot, il n'a aucune raison de parler.
+- **Le comparer aux autres enfants** — la fourchette est large et la comparaison inquiète pour rien.
+- **Miser sur les écrans « éducatifs » pour le langage** — il s'acquiert dans l'interaction, pas passivement.
+
+### Quand consulter
+Consulter si, vers 2 ans : aucun mot, aucune association de deux mots, une compréhension des consignes simples qui semble absente, un enfant qui ne cherche pas à communiquer (ne pointe pas, ne partage pas du regard), ou une régression → en parler au pédiatre. Le premier réflexe est de vérifier l'audition, puis, si besoin, un bilan orthophonique (prescrit par le médecin). Un retard n'est pas un diagnostic.
+
+<sub>*Source : repères et signes d'alerte du langage vers 2 ans (≈ 50 mots, début d'associations de deux mots ; audition puis bilan orthophonique en cas de doute) — mpedia.fr (AFPA), IFDC.*</sub>
+
+---
+
+## Se faire comprendre / crie quand on ne le comprend pas
+
+**La situation :** Crie et s'énerve quand on ne le comprend pas
+
+**Ce qui se passe**
+À 23 mois, ton enfant a plein d'idées et d'envies… mais pas encore les mots pour les dire. Ce décalage entre ce qu'il veut exprimer et ce qu'il peut prononcer est une source de frustration énorme : il crie, tape, se roule par terre parce qu'il n'arrive pas à se faire comprendre. Ce n'est pas de la comédie : c'est la détresse réelle de buter contre un mur. Plus tu l'aides à mettre des mots ou des gestes sur ses besoins, moins la frustration a besoin d'exploser.
+
+**Avant d'agir**
+Derrière le cri, un besoin qui cherche à sortir. Ton rôle : deviner, nommer, et lui montrer qu'il existe d'autres façons que le cri de se faire entendre.
+
+### 🔴 Action immédiate — quand il crie de ne pas être compris
+- **Se mettre à sa hauteur, au calme** : « tu essaies de me dire quelque chose, on va trouver ensemble ».
+- **Proposer des pistes concrètes** : « tu veux l'eau ? le livre ? » — montrer du doigt pour l'aider à choisir.
+- **Nommer ce qu'il ressent** : « c'est énervant quand on ne te comprend pas » — poser un mot sur l'émotion apaise.
+- **Accueillir le geste** : hochements, main tendue, pointage — accepter tous les moyens de communiquer.
+- **Ne pas exiger le mot parfait avant de répondre** : on valorise l'effort de communiquer, pas la performance.
+
+### 🟢 Réflexologie : apaiser la frustration
+- Quand la frustration a débordé, l'accueillir contre toi une fois le pic passé.
+- **Zone du plexus solaire** : au centre de la voûte, cercles lents quelques instants — apaise la tension.
+- Balayage doux de la voûte, du talon vers les orteils, en respirant lentement avec lui.
+- S'arrêter dès qu'il se détend ou retire son pied.
+
+### Pour aller plus loin
+- **Introduire quelques signes simples (manger, encore, fini, dormir)** : communiquer par gestes soulage la frustration en attendant les mots.
+- **Offrir des choix cadrés dans la journée** : choisir, c'est déjà se faire entendre.
+- **Anticiper les moments à risque** : faim, fatigue, transitions — la frustration éclate plus vite quand les réserves sont basses.
+- **Renvoyer ses tentatives en modèle** : « ah, tu veux le ballon ! » — il entend le mot juste, sans se sentir corrigé.
+
+### Le principe à retenir
+La frustration de ne pas se faire comprendre est une souffrance réelle, pas un caprice. Chaque fois que tu nommes son besoin ou lui offres un geste pour le dire, tu réduis la charge qui fait exploser. Les mots viendront ; en attendant, le pont, c'est toi.
+
+### Les erreurs à éviter
+- **Exiger qu'il « demande bien » avant de l'aider** — ajoute de la frustration à la frustration.
+- **Ignorer le cri en pensant « il se calmera »** — il se sent seul face à un mur.
+- **Deviner et donner sans jamais nommer** — il n'entend pas le mot qui l'aiderait la prochaine fois.
+- **S'énerver de son énervement** — deux tempêtes valent moins qu'un calme qui contient.
+
+### Quand consulter
+Consulter si : la frustration est quasi permanente et ingérable, s'accompagne d'un langage qui ne progresse pas du tout, d'un enfant qui ne cherche pas à communiquer autrement (ni geste ni regard), ou d'automutilation → en parler au pédiatre. Une frustration intense mais qui s'apaise avec l'aide, et diminue à mesure que le langage vient, est banale à cet âge.
+
+---
+
+## La compréhension / semble ne pas écouter les consignes
+
+**La situation :** Semble ne pas écouter, ne suit pas les consignes
+
+**Ce qui se passe**
+« Il fait la sourde oreille ! » À 23 mois, ton enfant comprend souvent bien plus qu'il n'obéit — mais comprendre et obéir sont deux choses différentes. Il saisit surtout les consignes simples et concrètes (« donne », « viens »), une à la fois, pas les phrases longues ni les demandes en cascade. Et même quand il comprend, il n'a pas encore la maturité pour s'arrêter net dans ce qui l'absorbe. Ignorer une consigne, à cet âge, c'est plus souvent « je suis concentré ailleurs » ou « c'est trop pour moi » que « je te défie ».
+
+**Avant d'agir**
+Il n'est ni sourd ni insolent : il est petit, concentré ailleurs, et vite dépassé par les consignes trop longues. Simplifie, et tu seras entendu.
+
+### 🔴 Action immédiate — pour être entendu
+- **Se rapprocher et capter son regard avant de parler** : une consigne lancée de loin ne l'atteint pas.
+- **Une seule consigne à la fois, courte et concrète** : « pose le verre », pas « range tout et viens ».
+- **Prévenir la transition** : « bientôt on s'habille » plutôt qu'exiger l'arrêt immédiat.
+- **Formuler en positif** : « on marche » plutôt que « ne cours pas » — plus facile à traiter pour lui.
+- **Laisser un temps de réponse** : il lui faut quelques secondes pour passer de l'écoute à l'action.
+
+### 🟢 Geste doux — se mettre à sa hauteur
+- S'accroupir à son niveau, posé, avant de demander quoi que ce soit.
+- Un contact doux sur l'épaule pour attirer son attention, sans le brusquer.
+- **Accompagner le mot du geste (montrer la porte, mimer)** : le corps aide à comprendre.
+- **Reconnaître quand il répond** : « merci d'être venu quand je t'ai appelé » — l'écoute se renforce par le lien.
+
+### Pour aller plus loin
+- **Alléger les consignes de la journée** : une à la fois, au bon moment, plutôt qu'une pluie d'ordres.
+- **Rendre les transitions prévisibles** : prévenir, compter, annoncer — il coopère mieux quand il anticipe.
+- **Choisir ses batailles** : tout ne mérite pas une consigne ; garder l'autorité pour l'essentiel.
+- **En cas de doute réel sur l'audition (il ne réagit ni à son prénom ni aux sons), le faire vérifier** : c'est simple et rassurant.
+
+### Le principe à retenir
+Comprendre n'est pas obéir, et à 2 ans, une consigne simple, unique et concrète est bien plus efficace qu'un long discours. On capte d'abord l'attention, on demande ensuite, on laisse le temps d'agir. La coopération se construit par le lien, pas par la répétition d'ordres.
+
+### Les erreurs à éviter
+- **Multiplier les consignes en cascade** — il n'en retient aucune et décroche.
+- **Parler de loin ou dans son dos** — le message ne l'atteint pas, ce n'est pas de la mauvaise volonté.
+- **Interpréter chaque non-réponse comme de la provocation** — il est souvent juste absorbé.
+- **Répéter dix fois plus fort** — on installe un fond sonore que l'enfant apprend à filtrer.
+
+### Quand consulter
+Consulter si : ton enfant ne réagit ni à son prénom ni aux bruits familiers, ne comprend aucune consigne simple, évite le regard et n'entre pas en relation, ou semble régresser → en parler au pédiatre. La première piste à écarter est l'audition. Ne pas « obéir » à 2 ans est banal ; ne pas sembler comprendre ni entendre mérite un avis.
+
+---
+
+## Les mots nouveaux / répète tout et teste les gros mots
+
+**La situation :** Répète tout et teste les gros mots
+
+**Ce qui se passe**
+Vers 23 mois, ton enfant devient un perroquet : il répète tout ce qu'il entend et capte les mots au vol — y compris ceux que tu préférerais qu'il n'apprenne pas. C'est un formidable signe : son cerveau enregistre le langage à toute vitesse par imitation. Quand il lâche un gros mot, il n'en comprend en général pas le sens : il a juste remarqué qu'il déclenche une réaction forte. Plus cette réaction est vive (rire ou colère), plus il a envie de recommencer.
+
+**Avant d'agir**
+Ce n'est pas de la vulgarité, c'est de l'imitation et de la curiosité. Ta réaction — ou ton absence de réaction — décide de la suite.
+
+### 🔴 Action immédiate — face à un gros mot
+- **Rester neutre** : ni rire ni scandale — la réaction forte est le carburant de la répétition.
+- **Ne pas surligner le mot** : éviter de le répéter, même pour gronder.
+- **Proposer un remplaçant si besoin** : « on dit plutôt zut » — donner une porte de sortie.
+- **Passer à autre chose** : détourner l'attention vers un jeu ou un autre mot rigolo.
+- **Surveiller son propre vocabulaire** : il répète surtout ce qu'il entend à la maison.
+
+### 🟢 Geste doux — jouer avec les mots
+- **Inventer des mots rigolos ensemble** : rediriger le plaisir du son vers des bêtises inoffensives.
+- **Chanter, faire des rimes, des animaux qui parlent** : nourrir sa gourmandise de mots.
+- **Nommer et féliciter les nouveaux « vrais » mots qu'il attrape** : « tu as dit tracteur, bravo ! ».
+- **Lire des histoires drôles** : le livre devient une source de mots plus riche que la cour de récré.
+
+### Pour aller plus loin
+- **Comprendre l'imitation** : répéter, parfois en boucle, est une étape normale et utile de l'apprentissage.
+- **Donner l'exemple** : le meilleur filtre à gros mots, c'est le langage des adultes autour de lui.
+- **Nommer les émotions derrière** : parfois le gros mot dit la colère faute d'autres mots — offrir les bons.
+- **Rester cohérent en famille** : si l'un rit et l'autre gronde, le mot devient un jeu encore plus tentant.
+
+### Le principe à retenir
+Un enfant répète pour apprendre et teste pour observer nos réactions. Face à un gros mot, l'indifférence désamorce, l'attention entretient. On oriente sa soif de mots vers des jeux de langage, on soigne l'exemple, et la mode passe.
+
+### Les erreurs à éviter
+- **Rire ou filmer le gros mot** — la meilleure façon de le voir se répéter en boucle.
+- **En faire un drame** — l'intensité de la réaction rend le mot irrésistible.
+- **Punir sévèrement un enfant qui n'en comprend pas le sens** — injuste et inefficace.
+- **Oublier que l'exemple vient d'abord des adultes** — il répète ce qu'il entend.
+
+### Quand consulter
+Consulter si : ton enfant ne répète que des mots ou des sons, toujours les mêmes, sans jamais les utiliser pour communiquer avec toi (écholalie sans intention), évite le regard et l'échange → en parler au pédiatre. La répétition joyeuse et communicante, elle, est un très bon signe du développement du langage.
+
+---
+
+*Cet accompagnement ne se substitue jamais à l'avis de ton pédiatre ou d'un professionnel de santé.*

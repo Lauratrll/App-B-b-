@@ -3,6 +3,7 @@
   "tranche_age": "23 mois",
   "categorie": {
     "id": "sommeil",
+    "ordre": 2,
     "nom": "Sommeil",
     "sous_titre": "Grand lit, réveils, peurs de la nuit",
     "icone": "😴"

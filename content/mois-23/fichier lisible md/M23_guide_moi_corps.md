@@ -1,0 +1,183 @@
+# 🤸 Guide-moi ! — M23 · Corps et Motricité (23 mois)
+
+*Corps et Motricité — Bouger, grimper, tomber, dents · 4 situations*
+
+---
+
+## Les dents / molaires qui poussent
+
+**La situation :** Grognon, bave, mâchouille tout : ses molaires poussent
+
+**Ce qui se passe**
+Vers 23 mois arrivent souvent les deuxièmes molaires : de grosses dents qui percent une gencive épaisse, ce qui peut gêner ton enfant. Il bave, mâchouille tout, dort parfois moins bien, cherche à mordre pour soulager la pression. Contrairement à une idée répandue, une poussée dentaire reste une gêne modérée : elle ne donne pas de vraie fièvre et ne rend pas malade. Si de la fièvre ou d'autres symptômes apparaissent, ils ont une autre cause à chercher ailleurs. Chaque enfant vit ses dents différemment, et cette étape passe.
+
+**Avant d'agir**
+Tu ne peux pas faire pousser ses dents plus vite, mais tu peux l'aider à traverser l'inconfort. Le froid et ta présence sont tes meilleurs alliés.
+
+### 🔴 Action immédiate — soulager l'inconfort
+- **Proposer du froid** : anneau de dentition réfrigéré (pas congelé), gant de toilette humide et frais à mâchouiller.
+- **Contre-pression** : avec un doigt propre, presser doucement la gencive quelques secondes — cela apaise.
+- **Aliment frais adapté à son âge, toujours sous surveillance** : le froid engourdit et soulage la gencive.
+- **Essuyer la bave régulièrement** : garder le menton au sec évite rougeurs et irritations.
+- **Rassurer et câliner** : la gêne rend grognon ; ta présence calme apaise autant que le froid.
+
+### 🟢 Geste doux — accompagner la gêne
+- **Un temps câlin au calme** : contre toi, l'enfant se détend et sent moins la douleur.
+- **Voix douce, nommer ce qu'il vit** : « je sais, tes dents te gênent, je suis là ».
+- Toucher enveloppant sur le dos ou la joue, sans appuyer sur la mâchoire.
+- **Proposer le froid pendant le câlin** : deux apaisements en même temps.
+
+### Pour aller plus loin
+- **Éviter le collier d'ambre** : inefficace et dangereux (risque de strangulation et d'étouffement) — les autorités françaises le déconseillent formellement.
+- **Écarter les gels anesthésiants** : leur sécurité n'est pas garantie à cet âge ; demander conseil au médecin ou au pharmacien avant tout produit.
+- **Ne pas tout attribuer aux dents** : une fièvre, une diarrhée importante ou un abattement ont une autre origine à explorer.
+- **Anticiper le sommeil perturbé** : quelques nuits plus agitées sont possibles ; garder le cadre du coucher stable aide à traverser.
+
+### Le principe à retenir
+Une poussée dentaire se soulage, elle ne se soigne pas : froid, contre-pression douce, présence. Elle reste une gêne passagère, sans fièvre ni maladie. Le bon réflexe est de ne pas médicaliser à l'excès et de chercher ailleurs si d'autres symptômes apparaissent.
+
+### Les erreurs à éviter
+- **Mettre un collier de dentition (ambre ou autre)** — danger d'étouffement et de strangulation, efficacité jamais prouvée.
+- **Utiliser un gel anesthésiant sans avis médical** — sécurité non garantie à cet âge.
+- **Attribuer une forte fièvre « aux dents » et attendre** — c'est passer à côté d'une autre cause.
+- **Donner un médicament « au cas où » sans dose vérifiée par un professionnel** — jamais d'automédication à l'aveugle.
+
+### Quand consulter
+Consulter si : fièvre élevée ou persistante, diarrhée importante, refus de boire, abattement inhabituel, ou douleur qui ne cède à rien → pédiatre, car ce n'est pas la faute des dents. Pour toute douleur nécessitant un médicament, demander la dose adaptée au poids à ton pédiatre ou pharmacien. En cas d'inquiétude sur l'état général : 15 (SAMU).
+
+<sub>*Source : poussées dentaires (gêne modérée, sans fièvre) et danger du collier d'ambre — mpedia.fr (AFPA) ; DGCCRF.*</sub>
+
+---
+
+## L'escalade / grimpe partout sans voir le danger
+
+**La situation :** Grimpe sur tout, sans conscience du danger
+
+**Ce qui se passe**
+À 23 mois, grimper est un besoin moteur puissant et sain : c'est ainsi que ton enfant développe sa force, son équilibre et la conscience de son corps dans l'espace. Il escalade le canapé, les chaises, les meubles… mais son cerveau ne mesure pas encore le danger ni le vide : la partie qui anticipe les conséquences est très immature. Il ne « fait pas de bêtises », il explore ce que son corps sait faire. Ton rôle n'est pas d'empêcher le mouvement, mais de rendre son environnement sûr pour qu'il grimpe sans se blesser.
+
+**Avant d'agir**
+Ce n'est pas de la désobéissance : c'est un cerveau qui explore plus vite qu'il ne juge le risque. À toi d'aménager le terrain plutôt que de lutter contre un besoin normal.
+
+### 🔴 Action immédiate — quand il grimpe
+- **Rester proche et prêt à parer** : se placer pour amortir une chute plutôt que de crier de loin.
+- **Sécuriser d'abord, expliquer ensuite** : « je te tiens », puis « on descend, c'est haut ».
+- **Proposer une alternative au même besoin** : « tu veux grimper ? viens, on va là où c'est permis ».
+- **Nommer la limite simplement** : « le meuble, on ne monte pas ; le coussin, oui ».
+- **Éviter l'emballement** : la peur criée l'excite ; une voix ferme et calme cadre mieux.
+
+### 🟢 Geste doux — canaliser le besoin de grimper
+- **Offrir des défis moteurs sûrs** : coussins empilés, petit parcours, structure adaptée à son âge.
+- Des jeux de poussée et de portage (pousser un carton lesté, porter des objets lourds) rassasient le besoin de se dépenser.
+- **Le laisser monter et descendre en sécurité, encore et encore** : la répétition construit la prudence.
+- **Reconnaître sa fierté** : « tu as grimpé tout seul, tu es content ».
+
+### Pour aller plus loin
+- **Sécuriser la maison en priorité** : meubles lourds fixés au mur, rien d'instable à escalader, fenêtres et escaliers protégés (barrières, entrebâilleurs).
+- **Aménager un espace où grimper est permis** : c'est l'antidote le plus efficace aux escalades interdites.
+- **Répéter la même limite avec constance** : à cet âge, un « non » compris demande de nombreux rappels calmes.
+- **Sortir chaque jour se dépenser** : un enfant qui a grimpé, couru, sauté dehors escalade moins les meubles.
+
+### Le principe à retenir
+Grimper est un besoin moteur normal, pas un caprice : on ne le supprime pas, on l'oriente vers des espaces sûrs. Sécuriser l'environnement protège mieux qu'interdire. Un enfant à qui l'on offre de vrais défis moteurs prend moins de risques dangereux.
+
+### Les erreurs à éviter
+- **Tout interdire sans offrir d'alternative** — le besoin de grimper ressort ailleurs, souvent plus dangereusement.
+- **Crier de loin sans se rapprocher** — la peur l'excite et n'empêche pas la chute.
+- **Compter sur « il va comprendre » après un seul rappel** — l'anticipation du danger n'est pas encore en place.
+- **Laisser des meubles non fixés ou des accès en hauteur ouverts** — le danger vient surtout de l'environnement.
+
+### Quand consulter
+Consulter si : ton enfant semble ne percevoir aucun danger de façon vraiment inhabituelle, paraît souvent maladroit ou déséquilibré au point de chuter sans cesse, ou si son besoin de mouvement s'accompagne d'un mal-être → en parler au pédiatre, qui pourra orienter vers un psychomotricien si besoin. Un grand besoin de grimper est le plus souvent normal à cet âge.
+
+---
+
+## Les chutes / tombe et se cogne en explorant
+
+**La situation :** Tombe et se cogne souvent en explorant
+
+**Ce qui se passe**
+À 23 mois, ton enfant court, grimpe, se retourne… et tombe : ses capacités motrices avancent plus vite que leur maîtrise, et les chutes font partie de l'apprentissage. La grande majorité sont sans gravité — une bosse, quelques larmes, et c'est reparti. Chaque chute affine son équilibre et sa prudence. Ta réaction compte beaucoup : un enfant regarde le visage de son parent pour savoir si c'est grave. Rester calme l'aide à se calmer ; paniquer amplifie sa peur, souvent plus que la douleur elle-même.
+
+**Avant d'agir**
+La plupart des chutes font plus de peur que de mal. Ton calme rassure ton enfant et t'aide à observer ce qui compte vraiment : son comportement, pas la taille de la bosse.
+
+### 🔴 Action immédiate — juste après la chute
+- **Respirer et rester calme** : ton visage lui dit si c'est grave, offre-lui un visage rassurant.
+- **Observer avant de réagir** : le laisser d'abord montrer comment il va, sans te précipiter en criant.
+- **Consoler sans dramatiser** : « tu es tombé, je suis là », plutôt que « oh mon dieu ! ».
+- **En cas de bosse** : appliquer du froid enveloppé dans un linge — la taille de la bosse ne dit pas la gravité.
+- **Le laisser repartir jouer s'il va bien** : reprendre le mouvement fait partie de la confiance.
+
+### 🟢 Réflexologie : apaiser après la frayeur
+- Une fois consolé, si la frayeur persiste, l'installer au calme contre toi.
+- **Zone du plexus solaire** : au centre de la voûte, cercles lents quelques instants — apaise l'émotion.
+- Balayage doux de la voûte, du talon vers les orteils, en respirant lentement avec lui.
+- S'arrêter dès qu'il se détend ou retire son pied.
+
+### Pour aller plus loin
+- **Surveiller 48 heures après un choc à la tête** : c'est la période où d'éventuels signes apparaissent.
+- **Connaître les signes qui alertent** : vomissements répétés, somnolence inhabituelle, perte de connaissance, comportement anormal → 15 ou urgences.
+- **Aménager sans surprotéger** : coins de meubles amortis, sol adapté, mais laisser l'espace d'apprendre à tomber.
+- **Renforcer l'équilibre par le jeu** : marcher sur une ligne, monter et descendre, porter — l'aisance vient avec la pratique.
+
+### Le principe à retenir
+Les chutes sont le prix normal de l'apprentissage moteur, presque toujours bénignes. Ce n'est pas la taille de la bosse mais le comportement de l'enfant qui indique la gravité. Ton calme lui apprend à se relever ; ta panique lui apprend à avoir peur.
+
+### Les erreurs à éviter
+- **Réagir de façon spectaculaire à chaque chute** — l'enfant apprend à dramatiser et à craindre le mouvement.
+- **Juger la gravité à la taille de la bosse** — ce sont le comportement et les signes neurologiques qui comptent.
+- **Surprotéger au point d'empêcher l'exploration** — l'enfant n'apprend ni à gérer son corps ni à se relever.
+- **Négliger la surveillance après un choc à la tête** — certains signes n'apparaissent que dans les heures suivantes.
+
+### Quand consulter
+Consulter si, après un choc à la tête : vomissements répétés, somnolence anormale ou difficulté à le réveiller, perte de connaissance même brève, comportement inhabituel, ou s'il n'utilise plus normalement un bras ou une jambe → appeler le 15 ou aller aux urgences. Avant 2 ans, un avis médical est prudent même sans signe. En cas de doute, mieux vaut appeler.
+
+<sub>*Source : surveillance et signes de gravité du traumatisme crânien de l'enfant — Société Française de Médecine d'Urgence ; Ameli ; mpedia.fr (AFPA).*</sub>
+
+---
+
+## Le besoin de bouger / ne tient pas en place
+
+**La situation :** Ne tient pas en place, bouge sans arrêt
+
+**Ce qui se passe**
+À 23 mois, ton enfant a un besoin de mouvement immense et physiologique : bouger, courir, grimper, c'est ainsi que son corps et son cerveau se construisent. Rester assis ou calme longtemps lui demande un effort qu'il ne peut pas encore fournir. Ce n'est ni de l'énervement à calmer de force ni un trop-plein à éteindre : c'est un moteur qui a besoin de tourner. À cet âge, cette agitation motrice est la norme, pas le signe d'un trouble. Un enfant qui se dépense assez est aussi un enfant plus apaisé et qui dort mieux.
+
+**Avant d'agir**
+Il n'a pas « trop » d'énergie : il a l'énergie de son âge. Ton rôle n'est pas de la contenir, mais de lui offrir de quoi la dépenser.
+
+### 🔴 Action immédiate — quand il déborde
+- **Lui donner de quoi bouger tout de suite** : sortir, courir, sauter, danser — décharger avant de canaliser.
+- **Nommer son état** : « tu as besoin de bouger, on va se dépenser » — mettre des mots apaise.
+- **Éviter d'enchaîner les « arrête, calme-toi »** : les ordres augmentent l'agitation.
+- **Alterner temps forts et temps calmes** : après la dépense, proposer une activité posée.
+- **Ne pas miser sur l'immobilité** : lui demander de rester assis longtemps est voué à l'échec à cet âge.
+
+### 🟢 Geste doux — le sas de retour au calme
+- **Après la dépense, marquer une transition douce** : lumière baissée, voix qui ralentit.
+- **Proposer une activité au sol qui recentre** : transvaser, empiler, manipuler.
+- Un temps de contact calme, blotti contre toi, pour redescendre en douceur.
+- **Respirer lentement près de lui** : ton rythme devient le sien.
+
+### Pour aller plus loin
+- **Prévoir plusieurs sorties actives par jour** : le mouvement quotidien est un besoin, pas une option.
+- **Aménager un coin « bouger » à l'intérieur pour les jours sans sortie** : coussins, parcours, espace dégagé.
+- **Placer les moments calmes après la dépense, jamais à la place** : on apaise un enfant rassasié de mouvement.
+- **Dédramatiser l'étiquette** : « hyperactif » ne se pose pas à cet âge ; l'agitation motrice de 2 ans est le plus souvent normale.
+
+### Le principe à retenir
+Le besoin de bouger d'un tout-petit n'est pas un problème à résoudre mais une énergie à accompagner. On offre du mouvement d'abord, on demande le calme ensuite. Lutter contre son moteur épuise tout le monde ; lui donner de l'espace apaise l'enfant comme le parent.
+
+### Les erreurs à éviter
+- **Exiger une immobilité prolongée** — au-dessus de ses capacités, cela finit en conflit.
+- **Multiplier écrans et « pauses tranquilles » pour le calmer** — l'agitation ressort ensuite, souvent plus forte.
+- **Interpréter une énergie normale comme un trouble** — l'inquiétude anticipée pèse sur l'enfant.
+- **Supprimer les sorties les jours chargés** — c'est justement là qu'il a le plus besoin de se dépenser.
+
+### Quand consulter
+Consulter si : l'agitation s'accompagne d'une souffrance (l'enfant ne trouve jamais de repos, se met sans cesse en danger, ne communique pas, ou régresse), ou si elle t'inquiète vraiment au quotidien → en parler au pédiatre, qui pourra orienter vers un psychomotricien. Un simple grand besoin de bouger, sans autre signe, est le propre de cet âge.
+
+---
+
+*Cet accompagnement ne se substitue jamais à l'avis de ton pédiatre ou d'un professionnel de santé.*

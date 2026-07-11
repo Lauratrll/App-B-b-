@@ -49,7 +49,9 @@ export function slotFor(index: number): SlotStyle {
 
 // ----------------------------------------------------------------------------
 // Pictos SVG par clé de catégorie. fill="currentColor" + stroke pilotés par la
-// prop `color` (style.color). 8 clés des consignes + 4 ajoutées (même style).
+// prop `color` (style.color). 8 clés des consignes + clés ajoutées (même style)
+// pour les thèmes des mois plus grands (motricité, dents, langage, corpo,
+// émotions, propreté…).
 // ----------------------------------------------------------------------------
 
 const ICON_PATHS: Record<string, React.ReactNode> = {
@@ -116,6 +118,33 @@ const ICON_PATHS: Record<string, React.ReactNode> = {
     <>
       <path d="M4 6a2 2 0 012-2h12a2 2 0 012 2v7a2 2 0 01-2 2h-7l-4 3v-3H6a2 2 0 01-2-2z" />
       <path d="M8 8.5h8M8 11h5" />
+    </>
+  ),
+  // corps & motricité : enfant en mouvement
+  corpo: (
+    <>
+      <circle cx="14" cy="5" r="1.7" />
+      <path d="M13 7.5l-1.5 4 3 1 1.5 4" />
+      <path d="M11.5 11.5l-4 1" />
+      <path d="M14.5 12.5l3-1 2 2" />
+    </>
+  ),
+  // émotions : visage expressif (sourcils + bouche ondulée)
+  emotion: (
+    <>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M8 10l2.2.8M16 10l-2.2.8" />
+      <circle cx="9.6" cy="12.4" r=".9" fill="currentColor" />
+      <circle cx="14.4" cy="12.4" r=".9" fill="currentColor" />
+      <path d="M9.5 16.2c.8-.8 1.5.6 2.5.6s1.7-1.4 2.5-.6" />
+    </>
+  ),
+  // propreté : le pot
+  proprete: (
+    <>
+      <ellipse cx="12" cy="9.5" rx="6.3" ry="1.8" />
+      <path d="M6.3 10.5l1 5c.15 1.1 1 1.7 2.1 1.7h5.2c1.1 0 1.95-.6 2.1-1.7l1-5" />
+      <path d="M8.6 17.9l-.6 2M15.4 17.9l.6 2" />
     </>
   ),
 };
