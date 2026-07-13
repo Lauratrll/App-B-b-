@@ -320,6 +320,29 @@ export function ProtocoleView({ protocole }: { protocole: ProtocoleGuide }) {
           {p.consulter_si}
         </div>
       </div>
+
+      {/* 9. Source — ligne discrete, optionnelle, hors encart */}
+      {p.source && (
+        <div
+          style={{
+            marginTop: 10,
+            paddingTop: 8,
+            borderTop: "0.5px solid #E4DDD6",
+          }}
+        >
+          <div
+            style={{
+              fontSize: 9,
+              fontWeight: 400,
+              fontStyle: "italic",
+              color: "#8A9E98",
+              lineHeight: 1.4,
+            }}
+          >
+            {p.source}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

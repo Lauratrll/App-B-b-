@@ -60,6 +60,10 @@ export type ProtocoleGuide = {
   principe: string;
   erreurs_a_eviter: string[];
   consulter_si: string;
+  /** Ligne de source — optionnelle, uniquement sur les sujets sensibles
+   *  (nutrition, sante, corps, motricite, sommeil medicalise, post-partum).
+   *  Affichee en 9px italique sous le Cadre de securite. */
+  source?: string;
 };
 
 export type SituationListItem = {
