@@ -57,7 +57,7 @@ export default async function ProtocolePage({
       <div className="pt-4 text-center">
         <Link
           href={`/guide/${params.categorie}`}
-          className="text-sm text-neutral-500 underline"
+          className="text-xs text-neutral-500 underline"
         >
           Voir les autres situations de cette catégorie
         </Link>
