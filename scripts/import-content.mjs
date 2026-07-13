@@ -19,6 +19,10 @@ import { config } from "dotenv";
 import { createClient } from "@supabase/supabase-js";
 import { readFileSync, readdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
+import {
+  GUIDE_CAT_FILE_RE,
+  decomposeGuideCategories,
+} from "./lib/guide-decompose.mjs";
 
 // Charger .env.local (et fallback .env)
 config({ path: ".env.local" });
@@ -359,11 +363,48 @@ const ignoredFiles = [];
 // ----- Import par mois ----------------------------------------------------
 
 async function importMois(mois, dir) {
-  const files = readdirSync(dir).filter((f) => f.endsWith(".json"));
+  const allFiles = readdirSync(dir).filter((f) => f.endsWith(".json"));
+
+  // Séparer les fichiers guide « par catégorie » (nouveau format N{slot}) du reste.
+  const guideCatFiles = [];
+  const files = [];
+  for (const f of allFiles) {
+    const m = f.match(GUIDE_CAT_FILE_RE);
+    if (m) guideCatFiles.push({ file: f, slot: parseInt(m[1], 10) });
+    else files.push(f);
+  }
 
   // 1) Collecte des rows par fichier (incluant les lignes 'reflexo'
   //    extraites des decomposers coucher/soin/jeux)
   const perFile = []; // [{ file, module, rows }]
+
+  // 1a) Guide « par catégorie » : agréger TOUS les fichiers du mois en une
+  //     seule passe → 1 ligne _meta (catégories triées par slot) + protocoles.
+  if (guideCatFiles.length > 0) {
+    const parsed = [];
+    for (const { file, slot } of guideCatFiles) {
+      try {
+        const json = JSON.parse(readFileSync(join(dir, file), "utf-8"));
+        parsed.push({ file, slot, json });
+      } catch (err) {
+        console.error(`  ✗ ${file} : JSON invalide → ${err.message}`);
+      }
+    }
+    if (parsed.length > 0) {
+      const rows = decomposeGuideCategories(parsed, mois);
+      const slots = parsed
+        .map((p) => p.slot)
+        .sort((a, b) => a - b)
+        .join(", ");
+      perFile.push({
+        file: `guide (${parsed.length} catégorie(s), slots ${slots})`,
+        module: "guide",
+        rows,
+      });
+    }
+  }
+
+  // 1b) Fichiers au format historique (mapping exact ou M{n}_guide_moi.json).
   for (const f of files) {
     const handler = resolveHandler(f);
     if (!handler) {
@@ -373,6 +414,14 @@ async function importMois(mois, dir) {
         : ` → noms attendus : ${Object.keys(FILE_HANDLERS).join(", ")}`;
       console.warn(`  ⚠️  ${f} : nom de fichier non reconnu${hint}`);
       ignoredFiles.push({ mois, file: f, suggestion });
+      continue;
+    }
+    // Ne pas empiler un guide « mono-fichier » avec le format par catégorie :
+    // cela produirait deux lignes _meta pour le même mois.
+    if (handler.module === "guide" && guideCatFiles.length > 0) {
+      console.warn(
+        `  ⚠️  ${f} ignoré : ce mois utilise le format guide par catégorie (N{slot}).`,
+      );
       continue;
     }
     const path = join(dir, f);
