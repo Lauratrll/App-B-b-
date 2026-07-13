@@ -70,13 +70,16 @@ export default async function GuidePage() {
         </div>
       </div>
 
-      {/* Cases catégories — 75 % de largeur, centrées */}
+      {/* Cases catégories — largeur = contenu le plus long (min pour tenir sur
+          une ligne), toutes identiques, centrées. La colonne `max-content` se
+          cale sur la catégorie au nom le plus long. */}
       <div
         style={{
-          display: "flex",
-          flexDirection: "column",
+          display: "grid",
+          gridTemplateColumns: "max-content",
+          justifyContent: "center",
           gap: 10,
-          alignItems: "center",
+          maxWidth: "100%",
         }}
       >
         {meta.categories.map((cat, i) => {
@@ -92,7 +95,7 @@ export default async function GuidePage() {
                 alignItems: "center",
                 gap: 12,
                 padding: "11px 14px",
-                width: "75%",
+                width: "100%",
                 textDecoration: "none",
               }}
             >
@@ -123,6 +126,7 @@ export default async function GuidePage() {
                   fontSize: 15,
                   color: GUIDE_TEXT,
                   letterSpacing: "-.01em",
+                  whiteSpace: "nowrap",
                 }}
               >
                 {cat.nom}

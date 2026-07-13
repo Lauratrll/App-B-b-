@@ -151,6 +151,14 @@ const ICON_PATHS: Record<string, React.ReactNode> = {
       <path d="M7.6 17.9c2.5.9 6.5.9 9-.1" />
     </>
   ),
+  // ventre & digestion : 3 bulles (gaz, rots, coliques)
+  digestion: (
+    <>
+      <circle cx="10" cy="13.5" r="4.3" />
+      <circle cx="16" cy="9" r="2.6" />
+      <circle cx="15.5" cy="15.5" r="1.7" />
+    </>
+  ),
 };
 
 export function CategoryIcon({
