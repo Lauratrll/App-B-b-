@@ -40,9 +40,13 @@ export default async function GuidePage() {
   }
 
   return (
-    <div style={{ display: "flex", flexDirection: "column" }}>
-      {/* Titre éditorial centré */}
-      <div style={{ padding: "8px 0 22px", textAlign: "center" }}>
+    <div
+      style={{ display: "flex", flexDirection: "column", minHeight: "100%" }}
+    >
+      {/* Titre éditorial centré — marginTop auto : centre le bloc verticalement */}
+      <div
+        style={{ padding: "8px 0 22px", textAlign: "center", marginTop: "auto" }}
+      >
         <h1
           style={{
             fontFamily: PLAYFAIR,
@@ -148,7 +152,7 @@ export default async function GuidePage() {
         })}
       </div>
 
-      {/* Mention préventive */}
+      {/* Mention préventive — marginBottom auto : ferme le centrage vertical */}
       <div
         style={{
           padding: "26px 4px 8px",
@@ -157,6 +161,7 @@ export default async function GuidePage() {
           lineHeight: 1.4,
           textAlign: "center",
           fontStyle: "italic",
+          marginBottom: "auto",
         }}
       >
         En cas de doute médical, contacte le 15 ou ton pédiatre.
