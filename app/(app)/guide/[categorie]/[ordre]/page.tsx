@@ -6,6 +6,7 @@ import { getGuideMeta, getGuideProtocole } from "@/lib/content";
 import { isPinned } from "@/lib/pinned";
 import { ProtocoleView } from "@/components/modules/protocole-view";
 import { PinButton } from "@/components/modules/pin-button";
+import { CategoryIcon } from "@/components/modules/guide-design";
 
 export default async function ProtocolePage({
   params,
@@ -35,7 +36,14 @@ export default async function ProtocolePage({
           href={`/guide/${params.categorie}`}
           className="inline-flex items-center gap-1 text-xs text-neutral-500"
         >
-          ← {categorie.icone} {categorie.nom}
+          <span aria-hidden>←</span>
+          <CategoryIcon
+            categoryKey={categorie.id}
+            color="currentColor"
+            size={14}
+            emoji={categorie.icone}
+          />
+          <span>{categorie.nom}</span>
         </Link>
         <PinButton
           contentId={contentId}
