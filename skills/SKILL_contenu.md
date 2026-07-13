@@ -71,7 +71,7 @@
 
 ### Ce que l'app peut faire :
 - Décrire des gestes de réflexologie comme des "gestes doux complémentaires"
-- Mentionner des approches naturelles documentées (massage, emmaillotage, bruit blanc)
+- Mentionner des approches naturelles documentées : toucher, contact peau à peau, portage, emmaillotage, bruit blanc, bercement
 - Citer des études ou recherches sans les détailler (ex: "des études montrent que...")
 - Donner des repères de développement normal (fourchettes, pas certitudes)
 - Recommander de consulter avec des critères précis
@@ -111,7 +111,8 @@ L'app édite de l'**information générale** appliquée par le parent à **son p
 | soigner, guérir, traiter, traitement (curatif) | apaiser, soulager, aider à, favoriser |
 | diagnostic, diagnostiquer | observer, repérer, remarquer |
 | prescrire, prescription, ordonnance, posologie | (à proscrire — renvoyer au médecin) |
-| **massage**, masser (présenté comme soin) | **toucher, geste doux, contact, pression douce, stimulation des zones réflexes** |
+| **massage**, **masser** (dans tous les cas, y compris nié) | **toucher, geste doux, contact, pression douce, stimulation des zones réflexes** |
+| **caresse**, caresser | **toucher doux, contact, geste doux** |
 | rééducation, gymnastique médicale | éveil, jeu, découverte motrice, motricité libre |
 | patient | ton enfant, bébé, le parent |
 | consultation (au sens de l'acte de l'app) | protocole, fiche, accompagnement |

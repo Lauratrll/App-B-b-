@@ -1,8 +1,10 @@
-# SKILL_protocole.md — Génération des 32 protocoles Guide-moi !
+# SKILL_protocole.md — Génération des protocoles Guide-moi !
 
-> Lire ce fichier AVANT de générer le `01_protocoles.json` d'un mois.
+> Lire ce fichier AVANT de générer les fichiers protocoles d'un mois.
 > Ce skill définit la structure, le ton et les règles non-négociables.
-> Référence validée : Mois 14 — `01_protocoles.json`.
+> **Référence validée : Mois 0 — les 7 fichiers `M0_guide_moi_N{slot}_{categorie}.json`.**
+> M14 reste une référence historique de structure ; sa typographie et son vocabulaire
+> sont périmés (voir § 3.7).
 
 ---
 
@@ -41,28 +43,59 @@ Constance typographique obligatoire dans **tous** les champs (situation, titre, 
 
 ---
 
-## 2. Structure obligatoire — 32 protocoles par mois
+## 2. Structure obligatoire — un fichier par catégorie
 
 ### Nommage des fichiers de contenu
 
-Les fichiers de protocoles produits par catégorie suivent **toujours** la convention **`M{n}_guide_moi_{categorie}`** (ex. `M23_guide_moi_sommeil`, `M23_guide_moi_colere`), où `{n}` est le numéro de mois (M0 à M23) et `{categorie}` l'identifiant court de la catégorie. Cette structure est à conserver pour la cohérence de tous les contenus.
+Convention **obligatoire** : **`M{n}_guide_moi_N{slot}_{categorie}.json`**
+(ex. `M0_guide_moi_N2_alimentation.json`, `M23_guide_moi_N4_langage.json`), où :
+- `{n}` = numéro de mois (M0 à M23),
+- `{slot}` = **numéro d'ordre de la catégorie** dans l'architecture de la tranche d'âge (tableau ci-dessous) — il ne change jamais à l'intérieur d'une tranche,
+- `{categorie}` = identifiant court de la catégorie.
 
-**8 catégories × 4 situations = 32 protocoles.**
+**Un mois = N fichiers, un par catégorie.** Plus de fichier unique agrégé.
 
-Les 8 catégories varient selon l'âge du bébé. Voir `SKILL_rubriques.md` § 2 pour les adjectifs du mois et les enjeux développementaux.
+### ⚠️ Le nombre de situations n'est PAS de 4 partout
 
-### Catégories par tranche d'âge (à valider mois par mois)
+Le **tableau de pilotage des protocoles** (catégories × situations × angle éditorial × statut) est la
+**source de vérité** de chaque mois. Il fixe :
+- le nombre de catégories du mois,
+- le **nombre de situations par catégorie** (variable : 4, 5 ou 6),
+- le **libellé exact** de chaque situation,
+- l'**angle éditorial** imposé à chaque protocole.
 
-**Mois 0 à 4** (nourrisson) :
-- pleurs · alim · sommeil · corps · stimu · sepa · sante · parent
+Ne jamais inventer une situation qui n'y figure pas ; ne jamais en supprimer une sans arbitrage.
 
-**Mois 5 à 11** (bébé qui s'éveille) :
-- pleurs · alim · sommeil · motricite · stimu · sepa · dents · parent
+**Exemple — M0 : 7 catégories, 33 situations**
+pleurs (6) · alim (5) · digestion (4) · sommeil (4) · corps (6) · sepa (4) · parent (4)
 
-**Mois 12 à 24** (enfant qui marche) :
-- colere · sommeil · langage · alim · sepa · corpo · dents · stimu
+### Catégories par tranche d'âge
 
-**Règle :** chaque catégorie doit avoir un identifiant court et stable (`colere`, pas `coleres_et_frustration`), un nom long affiché dans l'UI, une icône emoji. **Pas de `sous_titre`** : le nom de catégorie se suffit à lui-même (ex. « Alimentation » seul, sans énumération type « sein, biberon, tétées » qui alourdit et fait redondance).
+| Slot | M0–M5 (7 cases) | M6–M11 (8 cases) | M12–M17 (8 cases) | M18–M23 (8 cases) |
+|------|-----------------|------------------|-------------------|-------------------|
+| 1 | Pleurs & sur-stimulation | Pleurs & frustration | Colère & émotions | Colère & débordement |
+| 2 | Alimentation | Alimentation & digestion | Alimentation | Alimentation |
+| 3 | Ventre & digestion | Sommeil | Sommeil | Sommeil |
+| 4 | Sommeil | Motricité & exploration | Corps, dents & confort | Corps, dents & confort |
+| 5 | Corps & soins | Dents & petits inconforts | Langage & communication | Langage & communication |
+| 6 | Lien & attachement | Sur-stimulation | Sur-stimulation | Propreté & autonomie |
+| 7 | Parents submergés | Angoisse de séparation | Séparation & socialisation | Séparation & socialisation |
+| 8 | — | Parents submergés | Parents submergés | Parents submergés |
+
+> ⚠️ **L'onglet « Santé » est SUPPRIMÉ sur toute l'app** (coupe franche).
+> **Sujets interdits, sans protocole :** fièvre · bronchiolite · gastro · vomissements ·
+> déshydratation · otite · convulsion · vaccins · roséole · pied-main-bouche · muguet ·
+> reflux nommé comme pathologie · torticolis · plagiocéphalie · chocs à la tête ·
+> traumatisme dentaire.
+> **Autorisés** (hygiène et confort) : cordon · peau · croûtes · siège · lavage de nez · ongles ·
+> bain · bave · poussées dentaires · brossage · transit · portage.
+> Ces sujets interdits restent légitimes **dans le `consulter_si`**, comme critères d'orientation.
+
+**Fusions actées :** Sur-stimulation → Pleurs (M0–M5) · Sur-stimulation → Colère & débordement
+(M18–M23) · Ventre & digestion → Alimentation (dès M6) · Corps + Petits inconforts (M0–M5) ·
+Dents → Corps (dès M12).
+
+**Règle :** chaque catégorie a un identifiant court et stable (`digestion`, pas `ventre_et_digestion`), un nom long affiché dans l'UI, un `sous_titre` court (3-6 mots, affiché en Page 2) et une `icone` emoji de repli — la Page 1 et la Page 2 utilisant des pictos SVG, cet emoji ne sert que de valeur par défaut.
 
 ---
 
@@ -99,18 +132,30 @@ Chaque protocole contient **exactement** ces 9 champs obligatoires, dans cet ord
 ### 3.1 `categorie` (string)
 Identifiant technique court. Doit correspondre à un id dans `categories`.
 
-### 3.2 `situation` (string)
-La situation telle que le parent la verrait formulée. C'est le libellé du bouton dans l'app : "Bébé se jette par terre et se cogne la tête".
+### 3.2 `situation` (string) — libellé du bouton, Page 2
+
+**Le libellé EXACT du tableau de pilotage**, repris tel quel. Il est **construit en deux parties
+séparées par « / »** (espace, slash, espace) — la Page 2 l'affiche sur deux lignes (L1 en capitales,
+L2 en italique, slash en noir).
 
 **Règles :**
+- Reprendre le libellé du tableau — ne jamais le reformuler
 - Formuler du point de vue de l'observation parentale, pas de la cause médicale
-- Court, déclaratif (10-15 mots max)
-- Pas de jargon
-- ✅ "Refuse tout ce qu'il acceptait avant"
-- ❌ "Néophobie alimentaire post-12 mois"
+- Court, déclaratif (10-15 mots max), pas de jargon
+- ✅ « Se réveille dès qu'on le pose / le réflexe de Moro »
+- ✅ « Refus du biberon / préparer une introduction réussie »
+- ❌ « Néophobie alimentaire post-12 mois »
 
-### 3.3 `titre` (string)
-Le titre du protocole affiché en grand. Peut être plus synthétique que la situation.
+> **Ne jamais réafficher `situation` sur l'écran du protocole (Page 3)** : ce serait un doublon du
+> `titre`. Ce champ ne sert que de libellé de bouton dans la liste d'une catégorie.
+
+> ⚠️ **Les fichiers M23 utilisent la convention inverse** (`situation` en phrase parent sans slash,
+> `titre` avec slash). Ils sont **hors norme** et font l'objet d'une passe d'alignement.
+> La règle en vigueur est celle décrite ici.
+
+### 3.3 `titre` (string) — titre de l'écran, Page 3
+Le titre du protocole affiché en grand. **Il est distinct de `situation`** : plus éditorial, plus
+synthétique. Les deux champs ne sont jamais identiques.
 
 **Construction en deux parties OBLIGATOIRE**, séparées par « / » (espace, slash, espace) :
 
@@ -204,6 +249,8 @@ Le titre du protocole affiché en grand. Peut être plus synthétique que la sit
 - **Format « Amorce : suite » imposé** : chaque étape commence par une amorce courte suivie de « : » (ou « — »), puis du détail. L'amorce est mise en gras à l'affichage. Ex : « Zone du plexus solaire : centre de la voûte plantaire, cercles lents, 1 min par pied. »
 - **Titre — le mot « Réflexologie » doit apparaître quand le geste en relève.** Quand le geste doux repose sur la réflexologie (le cas le plus fréquent), le titre commence par « Réflexologie » pour que le parent comprenne immédiatement de quoi il s'agit. **Format : « Réflexologie : [précision courte] »** (ex. « Réflexologie : apaisement et sécurité », « Réflexologie : préparer une transition »). Uniquement pour un geste **non** réflexologique (contact, pression proprioceptive, portage), garder le préfixe « Geste doux — [précision] ».
 - Inclure si pertinent une zone réflexe et sa durée
+- **La Réflexologie n'est PAS systématique.** Elle n'apparaît que là où elle est réellement pertinente, et elle est **exclue** des contextes à risque allergène ou à enjeu d'autonomie corporelle : **alimentation / appétit**, **propreté**, **constipation et transit**. Dans ces contextes, utiliser « Geste doux — … » (position, portage, confort, respiration).
+- **Clause d'arrêt, à inclure quand c'est pertinent** : « S'arrêter à sa demande : s'il retire son pied ou se crispe, on arrête sans insister. » Le geste est toujours réalisé **par le parent, sur son propre enfant**.
 - **Réflexologie — vocabulaire imposé (RÈGLE MISE À JOUR) :**
   - **Jamais de pression chiffrée.** Ne plus écrire « pression 0/10 » ni aucune échelle numérique. Décrire la pression de façon qualitative : « pression douce et constante », « toucher doux et enveloppant », « appui léger et maintenu ».
   - **Ne jamais écrire « massage » — ni pour l'affirmer, ni pour le nier.** La formule « ce n'est pas un massage » est **supprimée** : elle est fausse (c'en est un) et sa négation attire l'attention sur le terme légalement réservé. On n'emploie tout simplement pas le mot.
