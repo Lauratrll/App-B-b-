@@ -1,0 +1,192 @@
+{
+  "mois": 0,
+  "tranche_age": "0–4 semaines",
+  "categorie": {
+    "id": "sepa",
+    "nom": "Lien & attachement",
+    "sous_titre": "Contact, reconnaissance, sentiment de compétence",
+    "icone": "💜"
+  },
+  "protocoles": [
+    {
+      "categorie": "sepa",
+      "situation": "Je n'arrive pas à décoder ses pleurs / l'apprentissage parental",
+      "titre": "Décoder ses pleurs / un apprentissage, pas un instinct",
+      "explication": "Personne ne naît en sachant lire les pleurs d'un nouveau-né. L'idée d'un « instinct maternel » qui saurait d'emblée est un mythe, et il fait beaucoup de dégâts : il transforme un apprentissage normal en preuve d'incompétence. Le décodage se construit dans la répétition — tu essaies, tu observes, tu ajustes, et progressivement des régularités apparaissent. Certains bébés ont des pleurs très différenciés, d'autres presque identiques quelle que soit la cause. Cela ne dit rien de toi. Et il reste toujours une part de pleurs sans cause identifiable : c'est normal.",
+      "ancrage": "Ne pas savoir n'est pas échouer. Tu apprends à connaître une personne que tu rencontres depuis quelques jours à peine — cela prend du temps, et c'est exactement ce qui doit se passer.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — agir sans avoir compris",
+        "etapes": [
+          "Commencer par le contact : peau à peau, ta voix — cela apaise quelle que soit la cause.",
+          "Passer la grille : faim, couche, température, trop-plein, fatigue — dans l'ordre, sans se presser.",
+          "Un essai à la fois : laisser trente secondes à chaque tentative avant de passer à la suivante.",
+          "Réduire le décor : lumière basse, silence, un seul adulte — un environnement chargé brouille tout.",
+          "Accepter l'inexpliqué : parfois rien ne marche, et rester présent.e est déjà une réponse complète."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : un temps de connexion",
+        "etapes": [
+          "Un moment tranquille : bébé éveillé et calme, sur le dos, dans une pièce silencieuse.",
+          "Réchauffer ses pieds : les tenir dans tes paumes, sans bouger, quelques instants.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Observer ses réactions : ses mimiques, sa respiration, ses mains — c'est là que tu apprends à le lire.",
+          "S'arrêter à sa demande : un pied retiré est une réponse, et la reconnaître fait partie du décodage."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Noter quelques repères : les heures des pleurs sur plusieurs jours — les schémas apparaissent à l'écrit, pas dans la fatigue.",
+        "Se donner du temps : la plupart des parents disent commencer à s'y retrouver au bout de plusieurs semaines.",
+        "Se méfier des méthodes de décodage vendues en ligne : aucune ne permet de conclure à l'oreille.",
+        "Se protéger des commentaires : « tu devrais savoir, c'est ton bébé » n'est ni vrai, ni utile."
+      ],
+      "principe": "Le décodage n'est pas un don, c'est un apprentissage. Et il n'a pas besoin d'être terminé pour que tu répondes bien : le contact et la constance apaisent avant même que tu aies compris.",
+      "erreurs_a_eviter": [
+        "Se juger sur sa capacité à comprendre immédiatement — personne ne l'a.",
+        "Enchaîner très vite toutes les tentatives sans laisser le temps à chacune de faire effet.",
+        "Chercher la « bonne technique » sur les réseaux plutôt que d'observer ton bébé.",
+        "Interpréter l'absence de résultat comme un signe que bébé ne t'aime pas ou ne te reconnaît pas."
+      ],
+      "consulter_si": "Consulter si : les pleurs sont inconsolables plusieurs heures par jour et te mettent en difficulté, s'ils s'accompagnent de fièvre, d'un refus de boire ou d'une cassure de la courbe de poids → pédiatre ou PMI. Si tu te sens démuni.e ou au bord de la rupture → Allo Parents Bébé (0 800 00 34 56), sage-femme, ou psychologue périnatal."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Je me sens incompétent(e) comme parent / les premières semaines",
+      "titre": "Le sentiment d'incompétence / présence plutôt que performance",
+      "explication": "Ce sentiment est l'un des plus partagés des premières semaines — et l'un des moins dits. Tu compares ton intérieur, fait de doutes et de fatigue, à l'extérieur des autres, fait de photos et de récits lissés. La sécurité affective de ton bébé ne se construit pas sur des gestes parfaits : elle se construit sur la répétition de réponses suffisamment bonnes. Les recherches sur l'attachement montrent qu'un parent n'a pas besoin d'être ajusté en permanence : il a besoin de revenir, encore et encore. C'est la réparation, pas la perfection, qui construit le lien.",
+      "ancrage": "Tu n'as pas à être un.e parent parfait.e. Tu as à être présent.e, et à revenir après les moments ratés. C'est différent — et c'est largement suffisant.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — quand le doute monte",
+        "etapes": [
+          "Nommer ce qui se passe : « je doute, je suis fatigué.e » — le dire à voix haute désamorce beaucoup.",
+          "Revenir au concret : il est nourri, il est propre, il est au chaud, il est en sécurité. C'est l'essentiel du jour.",
+          "Couper la comparaison : fermer les réseaux, sortir de la conversation qui te met en cause.",
+          "Un geste simple : peau à peau, sans objectif — le contact restaure aussi le parent.",
+          "Passer le relais : dire à quelqu'un « je n'y arrive pas là » est un acte de compétence, pas d'échec."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : un rendez-vous quotidien avec lui",
+        "etapes": [
+          "Un moment court et régulier : quelques minutes chaque jour, toujours au même moment.",
+          "Réchauffer ses pieds : les tenir dans tes paumes, sans rien faire d'autre.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Se laisser regarder : ce moment n'a pas d'objectif de performance — c'est un temps de lien, pour vous deux."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Repérer les moments qui marchent : ils existent, même dans une journée difficile ; les noter les rend visibles.",
+        "Parler à d'autres parents réels : un groupe de parents, un atelier PMI, une amie honnête — l'isolement nourrit le sentiment d'incompétence.",
+        "Refuser les conseils non sollicités : « merci, on fait à notre façon » est une phrase complète.",
+        "Reconnaître la fatigue pour ce qu'elle est : elle déforme le jugement sur soi bien plus qu'elle ne révèle une vérité."
+      ],
+      "principe": "La sécurité affective ne vient pas de la perfection, mais de la répétition. Un parent qui doute et qui revient construit un lien solide — c'est le retour, pas le geste parfait, qui compte.",
+      "erreurs_a_eviter": [
+        "Se comparer aux parents des réseaux sociaux — on y compare son coulisse à leur vitrine.",
+        "Chercher une méthode qui garantirait de « bien faire » — aucune n'existe, et les chercher épuise.",
+        "Taire ce sentiment par honte — le dire est ce qui le désamorce.",
+        "Prendre la fatigue pour une preuve d'incompétence — c'est une preuve de manque de sommeil."
+      ],
+      "consulter_si": "Consulter si : le sentiment d'incompétence s'accompagne d'une tristesse qui dure plus de deux semaines, d'une perte d'intérêt pour tout, de troubles du sommeil même quand bébé dort, de pensées noires, ou d'un sentiment de détachement vis-à-vis de ton bébé → médecin, sage-femme, PMI ou psychologue périnatal. En cas de pensées suicidaires, appeler le 3114, gratuit et disponible en permanence."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Bébé ne semble pas me reconnaître / la connexion en construction",
+      "titre": "La reconnaissance / bien avant le sourire",
+      "explication": "Tu attends un signe : un regard, un sourire, une réaction qui dise « c'est toi ». Ces signes visibles arrivent plus tard — le sourire volontaire apparaît souvent vers six à huit semaines, avec une fourchette large. Mais ton bébé te reconnaît déjà, autrement : à ton odeur, à ta voix qu'il entendait avant de naître, au rythme de ton cœur, à ta façon de le porter. Cette reconnaissance sensorielle précède largement la reconnaissance visuelle. L'absence de retour visible n'est pas une absence de lien : c'est un lien qui ne parle pas encore ta langue.",
+      "ancrage": "Il te reconnaît déjà, avec des sens que tu ne vois pas à l'œuvre. Le lien n'attend pas son premier sourire pour exister — il existe pendant que tu l'attends.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — nourrir la reconnaissance",
+        "etapes": [
+          "Parler beaucoup : ta voix est le repère qu'il connaît depuis le plus longtemps.",
+          "Peau à peau : ton odeur et ta chaleur sont ses canaux de reconnaissance principaux.",
+          "Se placer à bonne distance : environ trente centimètres, la distance à laquelle il voit le mieux ton visage.",
+          "Répéter les mêmes gestes : mêmes mots au change, même façon de le prendre — la répétition construit le repère.",
+          "Attendre sans forcer : ne pas chercher à capter son regard à tout prix ; il vient quand il est disponible."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : un temps rien qu'à vous deux",
+        "etapes": [
+          "Un moment sans objectif : bébé éveillé et calme, dans le silence.",
+          "Réchauffer ses pieds : les tenir dans tes paumes, immobiles.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Parler pendant le geste : ta voix associée à ton toucher renforce le repère sensoriel.",
+          "S'arrêter à sa demande : le plaisir partagé est le seul objectif de ce moment."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se rappeler la chronologie : le sourire volontaire apparaît souvent vers six à huit semaines, chaque bébé à son rythme — ce n'est ni une course, ni un test.",
+        "Ritualiser un temps de face-à-face : quelques minutes par jour, quand il est calme et éveillé, sans écran ni bruit autour.",
+        "Impliquer l'autre parent : la reconnaissance se construit avec chacun, par des gestes réguliers.",
+        "Se donner le droit d'attendre : l'attachement se construit parfois lentement, et cela n'annonce rien de mauvais."
+      ],
+      "principe": "La reconnaissance passe d'abord par l'odeur, la voix et le rythme — bien avant le regard et le sourire. Ton bébé te connaît déjà, même s'il ne peut pas encore te le montrer.",
+      "erreurs_a_eviter": [
+        "Interpréter l'absence de sourire comme un rejet — le sourire social n'est simplement pas encore mature.",
+        "Multiplier les stimulations pour « déclencher » une réaction — la surcharge produit l'effet inverse.",
+        "Comparer aux vidéos d'autres bébés — les fourchettes sont larges et les vidéos ne montrent que les réussites.",
+        "Cesser de lui parler parce qu'« il ne comprend pas » — c'est précisément ainsi qu'il te reconnaît."
+      ],
+      "consulter_si": "Consulter si : bébé ne réagit pas aux bruits forts, ne suit pas ton visage du regard vers deux mois, ne sourit pas du tout vers trois mois, paraît anormalement mou ou n'entre jamais en contact → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition et de la vision. Si tu te sens détaché.e de ton bébé, ou si cela t'inquiète → en parler à la sage-femme, à la PMI ou à un psychologue périnatal."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Peur de trop le porter / le mythe du bébé gâté",
+      "titre": "Le mythe du bébé gâté / porter n'est pas gâter",
+      "explication": "« Tu vas lui donner de mauvaises habitudes. » Cette phrase, tu vas l'entendre — souvent avec affection, et toujours à tort. On ne gâte pas un nouveau-né. Le besoin de contact n'est pas un caprice à réprimer : c'est un besoin neurologique, aussi réel que la faim. Un bébé porté pleure moins, régule mieux sa température et son rythme cardiaque, et construit une base de sécurité solide. Ce sont les bébés dont les besoins de contact ont été comblés qui explorent le plus librement ensuite. Répondre maintenant, c'est préparer l'autonomie plus tard.",
+      "ancrage": "Tu ne fabriques pas une mauvaise habitude : tu réponds à un besoin. Et tu as le droit de le dire simplement à ceux qui t'expliquent le contraire.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — face à la remarque",
+        "etapes": [
+          "Une phrase prête : « à cet âge, on ne gâte pas un bébé — c'est un besoin, pas une habitude ».",
+          "Ne pas argumenter : une phrase, un sourire, et on passe à autre chose.",
+          "Se recentrer sur bébé : reprendre ton geste, sans justification supplémentaire.",
+          "Se protéger de la répétition : si la remarque revient, on limite le sujet, voire la visite.",
+          "En parler à deux : décider avec l'autre parent d'une ligne commune, dite d'une même voix."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : le contact au quotidien",
+        "etapes": [
+          "Un rendez-vous régulier : chaque jour, quelques minutes, dans le calme.",
+          "Réchauffer ses pieds : les tenir dans tes paumes avant de commencer.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Profiter du moment : ce temps de contact nourrit le lien autant que le portage."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Répartir le portage : l'autre parent, les proches de confiance — le contact n'est pas l'affaire d'une seule personne.",
+        "Utiliser un moyen de portage sûr : écharpe ou porte-bébé physiologique, visage dégagé, menton décollé — pour porter longtemps sans se casser le dos.",
+        "Protéger ton dos : varier les positions, alterner les épaules, s'asseoir pour les longs portages.",
+        "Se rappeler la trajectoire : le besoin de contact se transforme progressivement, chaque enfant à son rythme — il n'y a rien à devancer."
+      ],
+      "principe": "On ne gâte pas un nouveau-né : on répond à un besoin de contact aussi fondamental que la faim. La sécurité qu'il en tire est précisément ce qui lui permettra, plus tard, de s'éloigner.",
+      "erreurs_a_eviter": [
+        "Espacer volontairement les prises dans les bras pour « ne pas l'habituer » — cela augmente les pleurs sans rien apprendre.",
+        "Laisser pleurer un nouveau-né pour lui apprendre l'autonomie — son cerveau n'en a pas les moyens.",
+        "Se justifier longuement auprès de l'entourage — une phrase suffit, le débat n'apporte rien.",
+        "Porter dans un dispositif non physiologique pour porter plus longtemps — la sécurité prime sur la durée."
+      ],
+      "consulter_si": "Consulter si : bébé ne se calme jamais, même porté ; s'il refuse le contact de façon systématique ; s'il pleure de façon inconsolable plusieurs heures par jour → pédiatre ou PMI. Si les remarques de l'entourage deviennent une pression qui te met en difficulté → en parler à la sage-femme, à la PMI ou à un psychologue périnatal."
+    }
+  ]
+}

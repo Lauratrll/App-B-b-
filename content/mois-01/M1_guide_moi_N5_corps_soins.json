@@ -1,0 +1,241 @@
+{
+  "mois": 1,
+  "tranche_age": "1 mois",
+  "categorie": {
+    "id": "corps",
+    "nom": "Corps & soins",
+    "sous_titre": "Peau, siège, croûtes, portage, bain",
+    "icone": "🌿"
+  },
+  "protocoles": [
+    {
+      "categorie": "corps",
+      "situation": "Croûtes de lait / plaques jaunes sur le crâne",
+      "titre": "Les croûtes de lait / assouplir sans gratter",
+      "explication": "Malgré leur nom, les croûtes de lait n'ont rien à voir avec le lait ni avec l'alimentation de ton bébé. Il s'agit d'une production excessive de sébum sur le cuir chevelu, qui forme des plaques jaunes et grasses, parfois épaisses. C'est fréquent, bénin, non contagieux, et cela ne le démange généralement pas. Cela disparaît de soi-même, souvent en quelques semaines à quelques mois. Le principe est simple : assouplir, laver doucement, brosser — et surtout ne pas gratter, ce qui abîmerait la peau et ouvrirait la porte à une infection.",
+      "ancrage": "Ces plaques ne disent rien de ton hygiène ni de ta façon de faire. Elles s'en vont doucement, avec de la patience et des gestes légers.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — la routine douce",
+        "etapes": [
+          "Assouplir avant le bain : appliquer une préparation à base de vaseline ou une crème prévue pour cela, en couche fine.",
+          "Laisser agir : quelques heures, ou une nuit, sans frotter.",
+          "Laver au shampoing doux : deux à trois fois par semaine, du bout des doigts, sans appuyer ni frotter.",
+          "Rincer abondamment : les résidus de produit entretiennent les plaques.",
+          "Brosser en douceur : une brosse à poils souples, chaque jour, pour décoller ce qui vient seul."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — le soin du cuir chevelu",
+        "etapes": [
+          "Bébé calme : après la tétée, dans une pièce chaude, sur tes genoux.",
+          "Toucher léger du cuir chevelu : du bout des doigts, en cercles très lents, pression douce et constante.",
+          "Ne jamais gratter : ce qui ne se détache pas seul reste en place jusqu'à la prochaine fois.",
+          "Voix et contact : lui parler pendant le soin — c'est aussi un temps de lien.",
+          "S'arrêter s'il s'agite : le soin doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Éviter l'huile d'amande douce : elle peut sensibiliser bébé et favoriser une allergie à l'amande — à ne pas utiliser.",
+        "Se méfier des huiles essentielles : contre-indiquées chez le nourrisson, y compris en diffusion.",
+        "Limiter les produits : plus la liste d'ingrédients est courte, mieux la peau se porte.",
+        "Accepter le délai : cela disparaît seul, souvent sur plusieurs semaines — il n'y a rien à accélérer."
+      ],
+      "principe": "Les croûtes de lait ne sont ni une question d'hygiène ni une question d'alimentation. On assouplit, on lave, on brosse — et on ne gratte jamais.",
+      "erreurs_a_eviter": [
+        "Gratter ou décoller les croûtes avec les ongles ou un peigne fin — cela blesse la peau et peut l'infecter.",
+        "Utiliser de l'huile d'amande douce — risque de sensibilisation allergique.",
+        "Multiplier les produits et les shampoings « spécial croûtes » — la surenchère irrite.",
+        "S'inquiéter de leur aspect chez un bébé qui va bien — c'est bénin."
+      ],
+      "consulter_si": "Consulter si : les plaques s'étendent au visage ou au corps, si la peau devient rouge, suintante, malodorante ou saigne, si bébé se gratte et paraît gêné, ou s'il présente de la fièvre → pédiatre, sage-femme ou PMI. Ne jamais appliquer de traitement médicamenteux sur le cuir chevelu sans avis médical.",
+      "source": "Source : ameli.fr (Assurance Maladie) — croûtes de lait du nourrisson : que faire et quand consulter."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Rougeurs du siège / protéger la peau",
+      "titre": "Les rougeurs du siège / la routine de protection",
+      "explication": "La peau du siège est en contact permanent avec l'humidité, l'urine et les selles, dans un espace fermé et chaud : c'est la zone la plus fragile du corps de ton bébé. Une rougeur y apparaît vite — et disparaît vite aussi, en général en trois à quatre jours, si la routine est bonne. Le principe tient en trois mots : changer souvent, sécher soigneusement, aérer. Ce n'est pas un signe de négligence : cela arrive à tous les bébés. Ce qui compte, c'est de savoir quand la routine ne suffit plus et qu'un avis devient nécessaire.",
+      "ancrage": "Une fesse rouge n'est pas un jugement sur toi. C'est une peau fine dans un environnement humide — et une routine simple règle la grande majorité des cas.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — la routine du change",
+        "etapes": [
+          "Changer souvent : à chaque selle et dès que la couche est mouillée — au moins six changes par jour.",
+          "Nettoyer à l'eau : eau tiède et savon doux, sans frotter, plutôt que des lingettes parfumées.",
+          "Sécher soigneusement : tamponner, sans oublier les plis — une peau humide sous la couche s'irrite vite.",
+          "Aérer : quelques minutes fesses à l'air, sur une serviette, à chaque change quand c'est possible.",
+          "Protéger : une couche fine de crème protectrice adaptée aux bébés, sans parfum, sur la zone rouge."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — le change comme temps de lien",
+        "etapes": [
+          "Réchauffer la pièce : un bébé qui a froid se crispe et vit mal le change.",
+          "Gestes lents et annoncés : lui dire ce que tu fais avant de le soulever.",
+          "Soutenir les jambes : ne jamais le soulever par les chevilles — glisser une main sous son siège.",
+          "Contact et regard : profiter du change pour lui parler et croiser son regard.",
+          "Terminer sans hâte : quelques instants nu, à l'air libre, avant de refermer la couche."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Tester une autre couche : changer de marque ou choisir des couches plus absorbantes si la rougeur revient.",
+        "Éviter les produits parfumés : lingettes, laits et poudres parfumés irritent une peau déjà fragilisée.",
+        "Observer l'évolution : une rougeur banale s'améliore en trois à quatre jours avec cette routine.",
+        "Ne pas appliquer de traitement sans avis : ni crème antifongique, ni corticoïde, ni antibiotique — cela se décide avec un médecin."
+      ],
+      "principe": "Changer souvent, sécher, aérer : c'est la routine qui règle l'essentiel. Ce qui compte, c'est de repérer le moment où elle ne suffit plus — et de demander alors un avis, sans traiter au hasard.",
+      "erreurs_a_eviter": [
+        "Frotter la peau irritée pour la nettoyer — cela aggrave la lésion.",
+        "Utiliser des lingettes parfumées ou du talc sur une peau rouge.",
+        "Appliquer une crème médicamenteuse trouvée dans l'armoire à pharmacie sans avis médical.",
+        "Laisser une couche mouillée quelques heures « parce qu'il dort » — c'est la première cause de rougeur."
+      ],
+      "consulter_si": "Consulter si : la rougeur persiste au-delà de trois à quatre jours malgré la routine, si elle s'étend, si la peau suinte, saigne, se couvre de vésicules, de pus ou de plaques bien délimitées, ou si bébé a de la fièvre → pédiatre, sage-femme ou PMI.",
+      "source": "Source : ameli.fr (Assurance Maladie) — érythème fessier du nourrisson : les bons réflexes."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Petits boutons du visage / la peau du premier mois",
+      "titre": "Les boutons du visage / la peau du premier mois",
+      "explication": "Autour de la fin du premier mois, de petits boutons rouges apparaissent souvent sur le visage de bébé — joues, front, menton. C'est fréquent et transitoire : cela apparaît, cela s'étale, puis cela disparaît seul, généralement en quelques semaines. Ce n'est ni une allergie, ni une infection, ni le signe d'un mauvais soin. La règle est le minimalisme : plus on applique de crèmes et de produits sur une peau immature, plus on la déséquilibre. Une toilette simple, de la patience, et surtout : on ne perce rien.",
+      "ancrage": "Ces boutons ne disent rien de ton hygiène ni de ton lait. Ils s'en vont tout seuls — et le meilleur soin est de ne presque rien faire.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — le minimum efficace",
+        "etapes": [
+          "Toilette simple : eau tiède, savon doux sans parfum, une fois par jour ou tous les deux jours.",
+          "Sécher en tamponnant : sans frotter, en insistant sur les plis du cou.",
+          "Ne rien appliquer sur les boutons : ni crème, ni huile, ni lotion.",
+          "Ne jamais percer ni gratter : risque d'infection, sans aucun bénéfice.",
+          "Protéger du frottement : linge de lit propre, matières douces, mains lavées."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — laisser la peau tranquille",
+        "etapes": [
+          "Contact peau à peau : quelques minutes après le bain, sous une couverture.",
+          "Toucher enveloppant : tes mains posées à plat sur son dos, immobiles.",
+          "Éviter les produits : moins la liste d'ingrédients est longue, mieux la peau se régule.",
+          "Observer sans agir : noter l'évolution sur quelques jours, sans intervenir.",
+          "S'arrêter s'il se crispe : le contact doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se méfier de la surenchère : chaque nouveau produit appliqué est un facteur d'irritation supplémentaire.",
+        "Éviter les huiles essentielles : contre-indiquées chez le nourrisson.",
+        "Ne pas exposer au soleil : avant six mois, on protège par l'ombre et le vêtement, jamais par une exposition.",
+        "Se donner du temps : cela disparaît de soi-même, sur quelques semaines."
+      ],
+      "principe": "Sur une peau immature, moins on fait, mieux elle se porte. Ces boutons du premier mois disparaissent seuls — et le seul geste utile est de ne pas les toucher.",
+      "erreurs_a_eviter": [
+        "Percer, gratter ou frotter les boutons.",
+        "Appliquer des crèmes, des huiles ou des produits « spécial acné » sur le visage d'un nourrisson.",
+        "Multiplier les bains longs et chauds — cela dessèche la peau.",
+        "Conclure à une allergie alimentaire devant des boutons du visage — cette hypothèse appartient au médecin."
+      ],
+      "consulter_si": "Consulter si : l'éruption s'étend rapidement, s'accompagne de fièvre, de vésicules, de pus, d'une peau qui suinte ou se décolle, si des taches ne s'effacent pas à la pression, ou si bébé refuse de boire ou paraît anormalement mou → pédiatre sans délai ; le 15 en cas de taches qui ne s'effacent pas à la pression avec fièvre.",
+      "source": "Source : mpedia.fr (Association Française de Pédiatrie Ambulatoire) — la peau du nouveau-né et les premiers bobos."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Choisir son porte-bébé / écharpe, sling, préformé",
+      "titre": "Choisir un moyen de portage / les points critiques",
+      "explication": "Écharpe tissée, écharpe extensible, sling, porte-bébé préformé : tous peuvent convenir, à condition de respecter trois points non négociables. Le premier est vital : les voies aériennes. Un nouveau-né ne contrôle pas sa tête ; menton collé au torse, il peut se retrouver en difficulté respiratoire sans un bruit. Le deuxième est le dos : arrondi, jamais tendu ni cambré. Le troisième concerne les hanches : les genoux plus hauts que les fesses, en position accroupie. Un moyen de portage qui laisse les jambes pendre à la verticale ne convient pas à cet âge.",
+      "ancrage": "Le portage est ton meilleur outil d'apaisement. Il demande une seule chose en retour : une vérification systématique du visage et du menton, à chaque installation.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — vérifier avant de marcher",
+        "etapes": [
+          "Visage dégagé : toujours visible, jamais couvert par un tissu, jamais enfoui contre ton corps.",
+          "Menton décollé : au moins la largeur d'un doigt entre son menton et son torse — c'est la règle vitale.",
+          "Assez haut pour l'embrasser : sa tête à hauteur de tes lèvres, pas au niveau de ton ventre.",
+          "Dos rond, genoux plus hauts que les fesses : en position accroupie, jambes jamais pendantes.",
+          "Tête soutenue : par le tissu ou ta main, sans que la nuque parte en arrière."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — le portage qui apaise",
+        "etapes": [
+          "Peau à peau en portage : bébé en couche contre ton torse nu, sous un vêtement ample, visage dégagé.",
+          "Marche lente et régulière : le rythme constant est ce qui régule le mieux son système nerveux.",
+          "Une main sur son dos : posée, immobile, pendant la marche.",
+          "Ta voix en fond : parler ou fredonner tout bas.",
+          "Vérifier régulièrement : un coup d'œil au visage et au menton toutes les dix minutes."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se faire aider une première fois : une monitrice de portage, une sage-femme ou la PMI peuvent vérifier ton installation — cela vaut tous les tutoriels.",
+        "Choisir selon l'usage : l'écharpe extensible convient bien aux tout-petits, le préformé demande un modèle adapté au poids et à la taille du nouveau-né.",
+        "Éviter les gestes à risque : cuisiner près d'une source de chaleur, boire chaud, se pencher en avant sans soutenir bébé.",
+        "Alterner les porteurs : le portage n'est pas réservé au parent qui allaite."
+      ],
+      "principe": "Un portage sûr tient en deux vérifications : visage dégagé, menton décollé. Le confort et l'apaisement en découlent — jamais l'inverse.",
+      "erreurs_a_eviter": [
+        "Porter menton collé au torse ou visage enfoui dans le tissu — c'est le risque principal, et il est silencieux.",
+        "Utiliser un porte-bébé qui laisse les jambes pendre à la verticale — mauvais pour les hanches et le dos.",
+        "S'endormir avec bébé installé dans l'écharpe, assis.e dans un canapé — risque grave d'enfouissement.",
+        "Ne vérifier qu'au départ — la position bouge avec la marche."
+      ],
+      "consulter_si": "Consulter si : bébé change de couleur pendant le portage, respire bruyamment, se cambre ou paraît en difficulté ; s'il pleure systématiquement dès qu'il est installé ; ou si tu as un doute sur la sécurité de ton installation → appeler le 15 en cas de difficulté respiratoire, et faire vérifier ton portage par une sage-femme, la PMI ou une monitrice de portage."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Le bain qui l'angoisse / il hurle dès l'eau",
+      "titre": "Le bain qui angoisse / retrouver la contenance",
+      "explication": "Certains bébés hurlent dès qu'on les déshabille, avant même de toucher l'eau. Ce n'est pas l'eau qui les effraie : c'est le vide. Être nu, dans l'air, sans appui, sans limite autour du corps, est une expérience déroutante pour un tout-petit habitué à être contenu. Le bain se transforme donc rarement en plaisir par la patience seule — il se transforme en jouant sur la contenance : un enveloppement, une eau bien chaude, un bain court, et des gestes lents. Et rien n'oblige à donner un bain tous les jours.",
+      "ancrage": "Ce n'est pas le bain qu'il refuse, c'est la perte d'enveloppe. Tu peux lui rendre cette enveloppe — et si c'est trop dur en ce moment, tu peux aussi espacer les bains.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — un bain contenant",
+        "etapes": [
+          "Chauffer la pièce : une salle de bain bien chaude change tout — le déshabillage est le moment le plus difficile.",
+          "Eau à température du corps : autour de 37 °C, vérifiée au thermomètre ou au coude.",
+          "Envelopper avant d'entrer : le glisser dans l'eau enroulé dans un lange fin, qui reste sur lui pendant le bain.",
+          "Le tenir fermement : une main soutenant la nuque et les épaules, ton avant-bras le long de son dos.",
+          "Bain court : quelques minutes suffisent — on sort avant les pleurs, pas après."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : le retour au calme après le bain",
+        "etapes": [
+          "Après le bain : bébé enveloppé, au chaud, sur le dos.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied — apaisement.",
+          "S'arrêter à sa demande : s'il se crispe ou retire son pied, on arrête sans insister."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Espacer les bains : un bain tous les deux ou trois jours suffit largement à cet âge — une toilette du visage, du cou et du siège fait le reste.",
+        "Changer de moment : essayer un autre horaire, quand il est détendu et pas affamé.",
+        "Passer le relais : l'autre parent peut donner le bain — c'est souvent un territoire de lien précieux pour lui.",
+        "Se rassurer sur la durée : cette réaction s'atténue avec les semaines, chaque bébé à son rythme."
+      ],
+      "principe": "Ce n'est pas l'eau qui angoisse, c'est le vide. Rendre au corps une enveloppe — un lange, une main ferme, une eau bien chaude — transforme le bain bien mieux que la répétition.",
+      "erreurs_a_eviter": [
+        "Ne jamais laisser bébé seul dans l'eau, même une seconde, même avec un transat de bain — le risque de noyade est immédiat.",
+        "Prolonger le bain pour « l'habituer » — cela installe l'angoisse au lieu de la dissiper.",
+        "Une eau trop chaude ou trop froide — le contrôle de la température est systématique, avant chaque bain.",
+        "Le déshabiller dans une pièce froide — c'est souvent là que la crise commence."
+      ],
+      "consulter_si": "Consulter si : bébé reste inconsolable après chaque bain malgré ces ajustements, s'il présente une peau très irritée ou des lésions, s'il se raidit fortement ou paraît en détresse dès qu'on le manipule, ou si le moment du bain devient une source de tension majeure pour toi → pédiatre, sage-femme ou PMI.",
+      "source": "Source : mpedia.fr (Association Française de Pédiatrie Ambulatoire) — la toilette du nouveau-né, les bons gestes pratiques."
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "mois": 2,
+  "tranche_age": "2 mois",
+  "categorie": {
+    "id": "alim",
+    "nom": "Alimentation",
+    "sous_titre": "Rythme, biberon, lait tiré, quantités",
+    "icone": "🤱"
+  },
+  "protocoles": [
+    {
+      "categorie": "alim",
+      "situation": "Le rythme des prises change / et ça m'interroge",
+      "titre": "Le rythme qui change / un signe de maturité",
+      "explication": "Vers deux mois, beaucoup de bébés se mettent à téter moins souvent, mais plus longuement et plus efficacement. Certains espacent les prises, d'autres allongent une nuit. Cela peut inquiéter — on croit à une baisse d'appétit ou à un manque de lait — alors qu'il s'agit le plus souvent de l'inverse : l'estomac s'est agrandi, la succion est devenue plus efficace, la digestion s'organise. Ce qui compte n'est pas le nombre de prises, mais les indicateurs objectifs : couches mouillées, tonus, éveil, et une courbe de poids qui progresse.",
+      "ancrage": "Un rythme qui change n'est pas un rythme qui se dégrade. Ce sont les couches, l'éveil et la courbe de poids qui disent si tout va bien — pas le compteur de tétées.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — vérifier les bons indicateurs",
+        "etapes": [
+          "Compter les couches : plusieurs couches bien mouillées par jour reste l'indicateur le plus simple.",
+          "Observer l'éveil : bébé tonique, qui se réveille pour réclamer et se détend après la prise.",
+          "Écouter les déglutitions : un « k-a » régulier signe un transfert de lait réel.",
+          "Suivre ses signaux, pas l'horloge : proposer aux signes d'éveil, sans imposer d'intervalle.",
+          "Ne pas réveiller pour « rattraper » une prise : sauf indication médicale, on suit son rythme."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — accompagner le nouveau rythme",
+        "etapes": [
+          "Rituel court avant la prise : même position, même endroit, ta voix.",
+          "Peau à peau : quelques minutes avant, pour qu'il aborde la tétée détendu.",
+          "Position redressée après : le garder vertical contre toi, sans le remuer.",
+          "Respecter les pauses : le laisser souffler et reprendre à son rythme.",
+          "S'arrêter quand il lâche : mains ouvertes, corps relâché — il a assez bu."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se méfier de la panique du chiffre : moins de prises ne veut pas dire moins de lait bu.",
+        "Vérifier la tendance : une pesée en PMI ou chez le pédiatre tranche mieux que dix hypothèses.",
+        "Ne rien changer dans l'urgence : ni complément, ni changement de préparation sans avis médical.",
+        "Accepter la variabilité : certains jours il boira plus, d'autres moins — c'est normal."
+      ],
+      "principe": "Un rythme qui s'espace est le plus souvent un signe d'efficacité, pas de désintérêt. Les indicateurs qui comptent sont les couches, l'éveil et la courbe — jamais le nombre de tétées.",
+      "erreurs_a_eviter": [
+        "Réveiller bébé pour lui imposer un nombre de prises quotidien, sans indication médicale.",
+        "Donner un complément « pour être sûr » — cela réduit la stimulation et peut faire baisser la production.",
+        "Conclure au manque de lait parce qu'il tète moins souvent.",
+        "Comparer son rythme à celui d'un autre bébé — la fourchette est très large."
+      ],
+      "consulter_si": "Consulter si : bébé ne prend pas de poids ou en perd, si sa courbe casse, s'il mouille très peu ses couches, s'il est difficile à réveiller pour les prises, s'il paraît anormalement mou ou refuse plusieurs prises consécutives → pédiatre, sage-femme ou PMI sans attendre.",
+      "source": "Source : mpedia.fr (Association Française de Pédiatrie Ambulatoire) — courbes de croissance du carnet de santé et prise de poids du nourrisson."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Introduire le biberon / préparer la reprise du travail",
+      "titre": "L'introduction du biberon / anticiper la reprise",
+      "explication": "Un bébé habitué au sein ne refuse pas le biberon par caprice : il ne reconnaît ni la matière, ni le débit, ni le geste de succion demandé. L'introduction réussit rarement dans l'urgence, et presque toujours quand elle est étalée sur plusieurs semaines, dans le calme, hors des moments de faim intense. C'est aussi une étape chargée d'émotion : elle annonce la séparation. Se donner du temps protège l'apprentissage de bébé — et te laisse, à toi, le temps d'apprivoiser ce que cette étape remue.",
+      "ancrage": "Un refus n'est pas un échec : c'est une information. Le biberon s'apprivoise sur plusieurs semaines — jamais dans l'urgence de la veille.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — la proposition qui marche",
+        "etapes": [
+          "Choisir un moment calme : bébé éveillé, détendu, ni affamé ni endormi.",
+          "Confier au co-parent : l'odeur du sein rend le refus plus probable quand c'est la mère qui donne.",
+          "Réchauffer la tétine : la passer sous l'eau tiède, à température du corps.",
+          "Laisser bébé attraper : poser la tétine contre ses lèvres et attendre qu'il ouvre — jamais l'enfoncer.",
+          "Arrêter au premier refus net : ranger et réessayer plus tard — insister installe un blocage."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — apprivoiser sur plusieurs semaines",
+        "etapes": [
+          "Position semi-assise : bébé redressé, biberon presque à l'horizontale — il boit à son rythme, avec des pauses.",
+          "Contact d'abord : peau à peau ou contre le torse avant même de présenter le biberon.",
+          "Explorer la tétine hors des repas : la lui laisser toucher, mordiller, découvrir.",
+          "Répéter court et souvent : quelques minutes par jour valent mieux qu'une longue lutte.",
+          "Célébrer les micro-progrès : une succion, deux gorgées — c'est l'apprentissage qui se fait."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Commencer tôt : deux à trois semaines avant la date où le biberon sera nécessaire, au minimum.",
+        "Tester une autre tétine : forme, souplesse et débit changent tout — parfois un seul essai débloque.",
+        "Varier les personnes et les lieux : quelqu'un d'autre, une autre pièce, un autre moment.",
+        "Demander de l'aide si le blocage dure : consultante en lactation (IBCLC), sage-femme ou PMI — d'autres modes de prise existent, à évaluer avec un professionnel."
+      ],
+      "principe": "Le biberon s'apprivoise, il ne s'impose pas. Des propositions courtes, calmes et répétées font plus qu'une longue insistance — et un bébé affamé n'apprend jamais rien de nouveau.",
+      "erreurs_a_eviter": [
+        "Attendre qu'il ait très faim en pensant qu'il « finira bien par prendre ».",
+        "Enfoncer la tétine ou maintenir la tête — cela crée une aversion durable.",
+        "Multiplier les tétines et les laits en quelques jours.",
+        "Commencer la veille de la reprise — la pression du calendrier se transmet à bébé."
+      ],
+      "consulter_si": "Consulter si : bébé refuse toute prise pendant plusieurs heures et mouille peu ses couches, s'il perd du poids, s'il s'étouffe ou tousse régulièrement pendant les prises, ou si le refus s'installe malgré des propositions calmes et répétées → sage-femme, consultante en lactation (IBCLC), PMI ou pédiatre.",
+      "source": "Source : mpedia.fr (Association Française de Pédiatrie Ambulatoire) — allaitement : positions, prise du sein et difficultés."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Il semble avoir toujours faim / poussée de croissance",
+      "titre": "Il réclame sans arrêt / poussée de croissance ou succion ?",
+      "explication": "Pendant quelques jours, ton bébé réclame beaucoup plus souvent, semble insatiable, dort mal — puis tout revient à la normale. Ces épisodes reviennent régulièrement au cours des premiers mois. Deux mécanismes se mêlent : une phase où bébé grandit vite et augmente ses besoins, et un fort besoin de succion, qui n'est pas toujours une demande de lait. La production s'ajuste à la demande en quelques jours : c'est précisément ce que ces salves déclenchent. L'erreur classique est de tout remettre en cause au troisième jour — juste avant que le système ne se rééquilibre.",
+      "ancrage": "Ces quelques jours ne sont pas le signe que ton lait manque : ils sont le mécanisme qui l'ajuste. Tenir trois ou quatre jours suffit le plus souvent.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — traverser la salve",
+        "etapes": [
+          "Proposer à la demande : sans compter, sans chronomètre, sans intervalle imposé.",
+          "S'installer confortablement : dos calé, eau et de quoi manger à portée de main.",
+          "Distinguer faim et succion : proposer un doigt propre ou une tétine quand il vient de boire et cherche encore à téter.",
+          "Alterner les seins : laisser le premier bien se vider avant de proposer le second.",
+          "Déléguer le reste : sur ces journées, tout ce qui n'est pas la tétée peut attendre ou être fait par un autre."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — tenir quelques jours",
+        "etapes": [
+          "Créer un nid : un endroit dédié où tu peux rester longtemps sans te lever.",
+          "Peau à peau prolongé : il apaise bébé et soutient la production.",
+          "Se relayer sur tout le reste : le linge, les repas, l'aîné — pas sur les prises.",
+          "Respirer lentement pendant la tétée : quelques respirations longues, pour toi.",
+          "Se reposer dès que possible : ces journées se traversent en économisant tout ce qui peut l'être."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Compter en jours, pas en heures : ces épisodes durent en général deux à quatre jours.",
+        "Vérifier les indicateurs : couches mouillées, déglutitions, courbe de poids — ils restent bons pendant une poussée.",
+        "Éviter le complément réflexe : donné sans avis, il réduit la stimulation et peut faire baisser la production.",
+        "Ne rien décider dans la fatigue : les grandes décisions sur l'allaitement ne se prennent jamais au troisième jour d'une salve."
+      ],
+      "principe": "Une poussée est un mécanisme d'ajustement, pas un signal de manque. Elle se traverse en quelques jours — et les décisions importantes ne se prennent jamais en plein milieu.",
+      "erreurs_a_eviter": [
+        "Conclure au manque de lait sur la base d'un bébé qui réclame — ce n'est pas un indicateur.",
+        "Introduire un complément dans l'urgence, sans avis.",
+        "Multiplier tisanes et compléments censés augmenter la production — c'est la stimulation qui agit.",
+        "Espacer les tétées à l'horloge pour « rétablir un rythme » — cela freine l'ajustement en cours."
+      ],
+      "consulter_si": "Consulter si : bébé ne prend pas de poids ou en perd, mouille très peu ses couches, est difficile à réveiller pour les prises, semble insatisfait après chaque prise depuis plus d'une semaine, ou si les tétées sont douloureuses → sage-femme, consultante en lactation (IBCLC), PMI ou pédiatre pour une pesée et une observation de tétée.",
+      "source": "Source : mpedia.fr (Association Française de Pédiatrie Ambulatoire) — allaitement : positions, prise du sein et difficultés."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Tirer son lait / organiser le stock avant la reprise",
+      "titre": "Tirer son lait / organiser le stock sans se mettre la pression",
+      "explication": "Tirer son lait est une organisation, pas une performance. Beaucoup de mères s'angoissent d'un stock jugé insuffisant, alors que les besoins réels sont souvent surestimés. Les repères sont simples : tirer régulièrement, à des moments fixes, en complément des tétées, et respecter des règles de conservation strictes — c'est un aliment, il se manipule comme tel. Aucune obligation d'allaitement exclusif ne pèse sur toi : un allaitement mixte est parfaitement possible, et le lait tiré n'est qu'un outil parmi d'autres pour organiser la reprise.",
+      "ancrage": "Tu n'as rien à prouver, ni un stock à constituer pour rassurer les autres. Tirer son lait est une facilité d'organisation — pas une épreuve de plus.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — les repères de conservation",
+        "etapes": [
+          "Se laver les mains : et utiliser des contenants propres, fermés, réservés à cela.",
+          "Noter la date et l'heure : sur chaque contenant, systématiquement.",
+          "Au réfrigérateur : à 4 °C ou moins, le lait tiré se conserve jusqu'à 48 heures.",
+          "Au congélateur : à -18 °C, jusqu'à 4 mois — remplir les contenants aux trois quarts, le lait augmente de volume en gelant.",
+          "Lait décongelé : 24 heures au réfrigérateur, jamais recongelé."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — tirer sans se crisper",
+        "etapes": [
+          "Un moment fixe : le matin, souvent plus productif, ou après une tétée.",
+          "S'installer au calme : quelques respirations lentes avant de commencer — la tension freine l'éjection.",
+          "Penser à bébé : sa photo, son odeur, un vêtement à lui, aident souvent le lait à venir.",
+          "Réchauffer avant : une compresse tiède sur le sein quelques minutes.",
+          "S'arrêter sans culpabilité : une séance peu productive n'annonce rien du tout."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Dimensionner le stock avec un professionnel : consultante en lactation (IBCLC), sage-femme ou PMI — les quantités nécessaires sont souvent surestimées.",
+        "Se renseigner sur le tire-lait : il peut être pris en charge après avis d'un médecin, en pharmacie ou en location.",
+        "Prévoir l'organisation sur le lieu de travail : des dispositions existent pour allaiter ou tirer son lait — se renseigner auprès de la médecine du travail.",
+        "Accepter le mixte : un allaitement partiel est un allaitement — il n'y a rien à justifier."
+      ],
+      "principe": "Tirer son lait est un outil d'organisation, jamais une preuve d'engagement. Les règles de conservation, elles, ne se négocient pas : c'est un aliment, et il se manipule avec rigueur.",
+      "erreurs_a_eviter": [
+        "Recongeler un lait décongelé — jamais.",
+        "Réchauffer le lait au micro-ondes — chauffage inégal et risque de brûlure ; on réchauffe au bain-marie tiède.",
+        "Conserver un biberon entamé pour plus tard — un biberon commencé se jette après la prise.",
+        "Se juger sur la quantité tirée — elle ne reflète pas ta production réelle au sein."
+      ],
+      "consulter_si": "Consulter si : ta production chute brutalement, si un sein devient rouge, dur et douloureux avec de la fièvre, si tu ressens des douleurs pendant le tirage, ou si bébé ne prend pas de poids avec le lait tiré → sage-femme, consultante en lactation (IBCLC), PMI ou médecin. En cas de doute sur la conservation d'un lait, ne pas le donner.",
+      "source": "Source : mpedia.fr (Association Française de Pédiatrie Ambulatoire), d'après les repères de l'Anses — tirer et conserver son lait."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Il boit moins qu'avant / le doute sur les quantités",
+      "titre": "Le doute sur les quantités / objectiver autrement",
+      "explication": "Au biberon, la quantité se voit — et c'est précisément ce qui rend le doute si envahissant. Un bébé qui laisse 30 ml n'est pas un bébé en danger : les besoins varient d'un jour à l'autre, d'une prise à l'autre, et l'appétit fluctue exactement comme le tien. Forcer la fin d'un biberon apprend à ton bébé à ignorer son propre signal de satiété — c'est un mauvais service à lui rendre. Le volume bu est un indicateur parmi d'autres, et sûrement pas le plus fiable pris isolément.",
+      "ancrage": "Un biberon non terminé n'est pas un repas raté. Ton bébé sait s'arrêter quand il a assez — et ce signal-là mérite d'être respecté.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — regarder autre chose que le volume",
+        "etapes": [
+          "Compter les couches : plusieurs couches bien mouillées par jour, avec des selles régulières.",
+          "Observer le comportement : bébé tonique, éveillé, qui se calme et se détend après la prise.",
+          "Respecter le signal de fin : il lâche la tétine, détourne la tête, se détend — la prise est terminée.",
+          "Regarder le total de la journée : plutôt qu'un biberon isolé — les quantités se compensent.",
+          "Ne pas peser tous les jours : la variation quotidienne n'a pas de sens."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — un repas sans pression",
+        "etapes": [
+          "Position semi-assise : bébé redressé, calé contre toi, biberon presque à l'horizontale.",
+          "Faire des pauses : le laisser souffler, proposer le rot, puis reproposer sans forcer.",
+          "Environnement calme : pas d'écran, pas d'agitation autour du repas.",
+          "Rester attentif.ve à ses signaux : il tourne la tête, il pousse la tétine — on s'arrête.",
+          "Terminer par du contact : quelques minutes vertical contre toi, sans stimulation."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Vérifier la tétine : un débit inadapté fatigue bébé, qui s'arrête avant d'avoir assez bu.",
+        "Demander des repères de quantité : le pédiatre ou la PMI les adaptent à son poids et à son âge.",
+        "Ne jamais modifier la préparation : ni la dose, ni la dilution, ni la marque, sans avis médical.",
+        "Retenir ce qui alerte vraiment : cassure de la courbe, perte de poids, couches très peu mouillées, bébé mou."
+      ],
+      "principe": "Le volume bu est le moins fiable des indicateurs pris seul. Ce qui compte, c'est la tendance, les couches et l'état général — et un bébé qui s'arrête de lui-même a écouté son propre corps.",
+      "erreurs_a_eviter": [
+        "Forcer la fin du biberon « pour ne pas gâcher » — cela casse le signal de satiété.",
+        "Modifier soi-même la dilution ou les doses de la préparation.",
+        "Conserver un biberon entamé pour la prise suivante.",
+        "Comparer les quantités à celles d'un autre bébé du même âge."
+      ],
+      "consulter_si": "Consulter si : bébé ne prend pas de poids ou en perd, si sa courbe casse, s'il mouille très peu ses couches, s'il refuse plusieurs prises consécutives, s'il est difficile à réveiller, ou s'il paraît anormalement mou → pédiatre, sage-femme ou PMI sans attendre.",
+      "source": "Source : mpedia.fr (Association Française de Pédiatrie Ambulatoire) — courbes de croissance du carnet de santé et prise de poids du nourrisson."
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "mois": 0,
+  "tranche_age": "0–4 semaines",
+  "categorie": {
+    "id": "pleurs",
+    "nom": "Pleurs & sur-stimulation",
+    "sous_titre": "Décoder, apaiser, protéger du trop-plein",
+    "icone": "😢"
+  },
+  "protocoles": [
+    {
+      "categorie": "pleurs",
+      "situation": "Pleure sans raison apparente / trouver son besoin",
+      "titre": "Les pleurs sans cause / la grille de décodage",
+      "explication": "À quelques semaines, les pleurs sont le seul langage dont ton bébé dispose. Son système nerveux est encore immature : il ne sait ni hiérarchiser ses besoins, ni se calmer seul. « Sans raison » ne veut pas dire « sans besoin » : cela veut dire que la raison ne t'est pas encore accessible. Il existe une grille simple à passer en revue — faim, couche, température, contact, trop-plein. Et il reste une part de pleurs que personne n'explique : c'est physiologique, cela ne dit rien de ta compétence.",
+      "ancrage": "Tu n'as pas besoin de comprendre avant d'agir. Ton contact, ta voix, ta chaleur apaisent son système nerveux quelle que soit la cause. Commence par là, la compréhension vient après.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — passer la grille de décodage",
+        "etapes": [
+          "Faim : proposer le sein ou le biberon, même si la dernière tétée est récente.",
+          "Inconfort : vérifier la couche, la température des mains et de la nuque, un vêtement qui serre.",
+          "Trop-plein : baisser la lumière, couper les sons, arrêter les passages de bras en bras.",
+          "Succion : proposer un doigt propre ou une tétine — la succion est un puissant régulateur.",
+          "Contact : peau à peau, torse contre torse, une main enveloppant son dos."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : apaisement et retour au calme",
+        "etapes": [
+          "Réchauffer ses pieds : les tenir quelques instants au creux de tes paumes, sans bouger.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, plusieurs passages, pression douce et constante.",
+          "Zone du plexus solaire : au centre de la voûte, cercles lents pendant une minute par pied — apaisement.",
+          "Ta voix en accompagnement : parle tout bas, très près de lui, pendant le geste.",
+          "S'arrêter à sa demande : s'il retire son pied ou se crispe, on arrête sans insister."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Vérifier ton propre état : un parent en panique amplifie les pleurs ; te poser d'abord fait partie du protocole.",
+        "Se donner le droit de faire une pause : si tu es à bout, coucher bébé sur le dos dans son lit et sortir deux minutes de la pièce. Ce n'est pas de l'abandon, c'est de la sécurité.",
+        "Repérer les horaires : noter pendant quelques jours l'heure des pleurs — un schéma qui se répète est une information précieuse.",
+        "Passer le relais : alterner avec l'autre parent ou un proche avant d'atteindre le point de rupture, jamais après."
+      ],
+      "principe": "Répondre aux pleurs d'un nouveau-né ne crée aucune mauvaise habitude : cela construit sa sécurité. La constance de ta réponse compte davantage que la justesse de ton interprétation.",
+      "erreurs_a_eviter": [
+        "Secouer bébé, même doucement, même une seconde — le risque de lésions cérébrales graves est réel et immédiat.",
+        "Le passer de bras en bras pour trouver « qui le calme » — chaque changement ajoute une stimulation de plus.",
+        "Monter le son de la télévision ou de la musique pour couvrir les pleurs — la surcharge sonore aggrave la crise.",
+        "Attendre qu'il se calme tout seul — à cet âge, son cerveau n'en a pas encore les moyens."
+      ],
+      "consulter_si": "Consulter si : les pleurs s'accompagnent de fièvre chez un bébé de moins de trois mois, d'un refus de boire depuis plusieurs heures, d'un bébé anormalement mou ou difficile à réveiller, d'une gêne à respirer, ou d'un cri qui change brutalement de tonalité → appeler le 15 sans attendre. Si tu sens la colère ou la perte de contrôle monter : pose bébé en sécurité sur le dos et appelle un proche, ou Allo Parents Bébé au 0 800 00 34 56.",
+      "source": "Source : mpedia.fr (Association Française de Pédiatrie Ambulatoire) — pleurs du nourrisson et prévention du syndrome du bébé secoué."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Pleurs inconsolables du soir / la fenêtre 18h-21h",
+      "titre": "Les pleurs du soir / traverser la fenêtre 18h-21h",
+      "explication": "Beaucoup de bébés pleurent intensément en fin de journée, souvent entre 18h et 21h, sans qu'aucune cause ne soit retrouvée. Ces pleurs suivent une courbe connue : ils augmentent dans les premières semaines, culminent autour de six à huit semaines, puis diminuent d'eux-mêmes. Ce n'est pas une maladie, ce n'est pas une faute, ce n'est pas non plus quelque chose que l'on résout : c'est une phase que l'on traverse. Ton bébé décharge le trop-plein d'une journée que son cerveau n'a pas encore les moyens de filtrer.",
+      "ancrage": "Ces pleurs-là ne se réparent pas, ils s'accompagnent. Ton objectif du soir n'est pas de faire cesser les pleurs, mais de rester présent.e sans t'épuiser. C'est une réussite en soi.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — tenir la fenêtre du soir",
+        "etapes": [
+          "Anticiper l'horaire : dès 17h, baisser la lumière, réduire le bruit, limiter les allées et venues.",
+          "Un seul adulte à la fois : garder le même porteur pendant la crise, dans le calme.",
+          "Portage contre soi : bébé peau à peau ou en écharpe, en marchant lentement, sans stimulation supplémentaire.",
+          "Un fond sonore régulier : ta voix, un chant lent, ou un bruit continu et bas — jamais fort.",
+          "Se relayer avant le point de rupture : passer le bébé à l'autre parent quand la tension monte en toi, pas après."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : préparer le soir, au calme",
+        "etapes": [
+          "Choisir le bon moment : idéalement en début d'après-midi ou après le bain, jamais en plein pic de pleurs.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante, plusieurs passages.",
+          "Zone du plexus solaire : au centre de la voûte, cercles lents pendant une minute par pied.",
+          "Zone des orteils : appui léger et maintenu quelques secondes sur chaque orteil, sans tirer.",
+          "S'arrêter à sa demande : un pied qui se retire est une réponse — on la respecte."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ritualiser la fin de journée : mêmes gestes, même ordre, mêmes horaires — la prévisibilité abaisse la charge nerveuse.",
+        "Alléger le soir : décaler courses, visites et coups de téléphone en dehors de cette fenêtre pendant quelques semaines.",
+        "Se rappeler la courbe : ces pleurs culminent vers six à huit semaines puis déclinent — savoir que cela va passer change la façon de le vivre.",
+        "Préparer un plan de secours : décider à l'avance qui appeler et où poser bébé si tu craques — un plan écrit à l'avance vaut mieux qu'une décision prise à bout de forces."
+      ],
+      "principe": "Ces pleurs ne sont pas un problème à résoudre, mais une courbe développementale à traverser. La seule chose qui aide vraiment : une présence calme, répétée, et un parent qui se relaie avant l'épuisement.",
+      "erreurs_a_eviter": [
+        "Enchaîner les tétées de consolation à toute vitesse — un bébé sur-alimenté peut pleurer davantage, ventre inconfortable.",
+        "Chercher une cause médicale à tout prix et multiplier les remèdes — l'agitation autour de bébé prolonge la crise.",
+        "Rester seul.e dans le noir avec les pleurs pendant trois heures — l'isolement est le facteur de risque principal du geste de secousse.",
+        "Se juger sur la durée des pleurs — elle ne mesure ni ton amour, ni ta compétence."
+      ],
+      "consulter_si": "Consulter si : les pleurs s'accompagnent de fièvre, de vomissements répétés, de sang dans les selles, d'un refus de boire, d'une perte de poids ou d'un bébé anormalement mou → pédiatre sans délai, ou le 15 si l'état général se dégrade. Si les pleurs te mettent en danger de perdre le contrôle → poser bébé sur le dos dans son lit, sortir de la pièce, appeler un proche ou Allo Parents Bébé (0 800 00 34 56).",
+      "source": "Source : mpedia.fr (Association Française de Pédiatrie Ambulatoire) — pleurs du nourrisson et prévention du syndrome du bébé secoué."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Pleure dès qu'on le pose / besoin de contact continu",
+      "titre": "Le besoin de contact / il pleure dès qu'on le pose",
+      "explication": "Ton bébé vient de passer neuf mois en contact permanent, bercé, chauffé, porté. Le posé à plat, seul, immobile, est pour lui une rupture totale de repères. Pleurer dès qu'on le pose n'est pas un caprice — c'est un réflexe de survie profondément ancré : le contact signale la sécurité, l'éloignement signale le danger. Ce besoin est maximal les premières semaines, puis s'assouplit progressivement. Le porter beaucoup à cet âge ne crée aucune dépendance : cela nourrit la base de sécurité sur laquelle il s'appuiera plus tard pour s'éloigner.",
+      "ancrage": "Tu ne « cèdes » pas en le portant : tu réponds à un besoin neurologique. Ta chaleur et ton odeur sont, à cet âge, ce qui régule le mieux son système nerveux.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — réussir la pose",
+        "etapes": [
+          "Attendre le sommeil profond : bras relâchés, mains ouvertes, respiration régulière — poser trop tôt échoue presque toujours.",
+          "Poser les pieds en premier : puis le siège, puis le dos, puis la tête — jamais la tête d'abord.",
+          "Garder les mains posées : laisser tes deux mains sur lui quelques instants après la pose, sans bouger.",
+          "Se retirer par étapes : enlever une main, puis l'autre, en gardant ta voix présente.",
+          "Réessayer sans forcer : s'il se réveille, on reprend, on attend un cycle de plus — ce n'est pas un échec."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : sécurité et transition bras-lit",
+        "etapes": [
+          "S'installer au calme : bébé sur le dos dans son lit, lumière tamisée, ta voix posée.",
+          "Réchauffer ses pieds : quelques instants dans tes paumes avant de commencer.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied — apaisement.",
+          "Terminer par le contact : une main immobile sur son ventre ou son torse, jusqu'à ce que sa respiration s'installe."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Utiliser un moyen de portage sûr : écharpe ou porte-bébé physiologique, visage dégagé, menton décollé du torse, tête soutenue.",
+        "Transmettre ton odeur : glisser dans le lit un lange que tu as porté sur toi — jamais près du visage, jamais dans les bras du bébé.",
+        "Alterner les porteurs : l'autre parent, un proche — le contact n'a pas besoin d'être toujours le tien.",
+        "Accepter les journées « bras » : certaines semaines, il ne sera posable presque jamais. Cela s'assouplira, sans que tu aies rien à corriger."
+      ],
+      "principe": "On ne gâte pas un nouveau-né en le portant. Le contact est un besoin, pas une habitude à prévenir. Un bébé dont le besoin de contact est comblé devient un enfant qui explore plus facilement.",
+      "erreurs_a_eviter": [
+        "Laisser pleurer pour « l'habituer » — à cet âge, cela n'apprend rien et augmente le stress.",
+        "Poser bébé tête la première — la sensation de chute déclenche le réflexe de Moro et le réveille net.",
+        "Utiliser cale-bébé, coussins ou réducteurs pour recréer le contact — ces dispositifs augmentent le risque d'étouffement et sont à proscrire.",
+        "Se reprocher de « trop » le porter — le portage n'a pas de dose maximale à cet âge."
+      ],
+      "consulter_si": "Consulter si : ton bébé ne se calme jamais, même porté, même nourri, pendant plusieurs heures ; s'il devient très mou ou au contraire raide en permanence ; s'il refuse de boire ou perd du poids → pédiatre ou PMI. Le couchage doit rester sécurisé : toujours sur le dos, dans son propre lit, matelas ferme, sans objet autour.",
+      "source": "Source : Haute Autorité de Santé — recommandations sur le couchage sécurisé et la prévention de la mort inattendue du nourrisson."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Cris aigus et intenses / différents des autres pleurs",
+      "titre": "Le cri qui change / repérer ce qui doit alerter",
+      "explication": "Un parent reconnaît vite la palette habituelle des pleurs de son bébé. Quand un cri sort de cette palette — plus aigu, plus perçant, différent de tout ce que tu connais de lui — cela mérite ton attention. Ce n'est pas une question d'interprétation : personne ne peut deviner une cause à l'oreille. Ce qui compte, ce sont les signes qui accompagnent le cri : la fièvre, la couleur de la peau, le tonus, la façon de boire, la respiration. Ce protocole ne cherche pas à décoder le cri, mais à te donner les critères objectifs qui déclenchent un appel.",
+      "ancrage": "Ton rôle n'est pas d'identifier la cause, il est d'observer et d'appeler. Un doute sur un cri inhabituel chez un tout-petit se lève auprès d'un professionnel, jamais seul.e à la maison.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — observer puis appeler",
+        "etapes": [
+          "Déshabiller bébé : regarder toute la peau — marbrures, taches, teinte grise ou bleutée, boutons qui ne s'effacent pas à la pression.",
+          "Prendre la température : chez un bébé de moins de trois mois, la fièvre est toujours un motif d'appel.",
+          "Observer la respiration : rapide, sifflante, avec creusement entre les côtes ou battement des ailes du nez.",
+          "Observer le tonus : bébé anormalement mou, difficile à réveiller, ou au contraire raide et inconsolable.",
+          "Appeler sans attendre : le 15 dès qu'un de ces signes est présent, sans chercher à apaiser d'abord."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — rester en contact pendant l'attente",
+        "etapes": [
+          "Garder bébé contre toi : contact peau à peau, sa tête soutenue, en attendant l'appel ou le professionnel.",
+          "Ta voix, en continu : parle-lui doucement — ta présence est ce qui l'apaise le plus.",
+          "Ne rien donner : ni médicament, ni tisane, ni remède, tant qu'un médecin ne l'a pas indiqué.",
+          "Noter ce que tu observes : l'heure, la température, les signes — ces informations aideront le professionnel.",
+          "Rester joignable : garder ton téléphone à portée et ne pas rester seul.e si tu le peux."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Faire confiance à ton observation : un parent qui trouve son bébé « différent d'habitude » est une donnée que les professionnels prennent au sérieux.",
+        "Connaître les numéros utiles : le 15 pour l'urgence, le pédiatre ou la PMI pour les questions du quotidien — les noter à l'avance sur le frigo.",
+        "Distinguer ce qui se surveille de ce qui s'appelle : la fièvre avant trois mois, la gêne respiratoire et l'hypotonie s'appellent immédiatement.",
+        "Ne pas rester avec le doute : mieux vaut un appel pour rien qu'une attente de trop — aucun professionnel ne te le reprochera."
+      ],
+      "principe": "On n'interprète jamais un cri : on observe les signes qui l'accompagnent. Chez un nouveau-né, le doute se tranche par un appel, jamais par une hypothèse à la maison.",
+      "erreurs_a_eviter": [
+        "Chercher sur internet ce que « veut dire » un type de cri — aucune méthode ne permet de conclure à l'oreille.",
+        "Donner un médicament, même en vente libre, pour calmer un cri inhabituel — jamais sans avis médical.",
+        "Attendre le lendemain matin « pour voir » quand il y a de la fièvre chez un bébé de moins de trois mois.",
+        "Culpabiliser d'avoir appelé pour rien — l'appel est le bon réflexe, y compris quand tout va bien."
+      ],
+      "consulter_si": "Consulter si : fièvre chez un bébé de moins de trois mois, bébé anormalement mou ou difficile à réveiller, gêne à respirer, teinte grise ou bleutée, refus de boire répété, taches sur la peau qui ne s'effacent pas à la pression, ou cri qui te paraît franchement différent de d'habitude → appeler le 15. En dehors de l'urgence, tout doute se pose au pédiatre ou à la PMI.",
+      "source": "Source : mpedia.fr (Association Française de Pédiatrie Ambulatoire) — pleurs du nourrisson et prévention du syndrome du bébé secoué."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Débordé après les visites / saturation sensorielle",
+      "titre": "Après les visites / protéger le calme de bébé",
+      "explication": "Un nouveau-né perçoit tout — les voix, les odeurs, les lumières, les bras qui changent — mais son cerveau ne sait pas encore filtrer. Une après-midi de visites représente pour lui une quantité d'informations considérable. Il ne pleure pas pendant, il pleure après : la décharge arrive quand le calme revient. Ce n'est pas un rejet des personnes venues, ni un signe de fragilité. C'est un système nerveux qui vide son trop-plein. Ton rôle est moins de le consoler après que de doser la charge avant.",
+      "ancrage": "Tu as le droit de protéger le calme de ton bébé, même si cela déçoit l'entourage. Poser un cadre n'est pas être inhospitalier.e — c'est prendre soin des premières semaines.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — décharger après le départ",
+        "etapes": [
+          "Revenir au calme tout de suite : pièce sombre, silence, un seul adulte auprès de lui.",
+          "Peau à peau : le remettre contre toi, sans parler, sans le bercer vivement.",
+          "Emmailloter le haut du corps si tu sais le faire : bras contenus, jambes libres et pliées, jamais serrées.",
+          "Un mouvement lent et continu : bercement régulier ou marche calme, sans changement de rythme.",
+          "Accepter la décharge : les pleurs peuvent durer un moment — c'est la sortie du trop-plein, pas un problème nouveau."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : décharger le trop-plein",
+        "etapes": [
+          "Attendre le retour au calme : jamais en plein pic, plutôt une fois la première vague passée.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Toucher enveloppant des pieds : les tenir entiers dans tes paumes, immobiles, quelques instants.",
+          "S'arrêter à sa demande : si bébé se crispe ou retire son pied, on arrête sans insister."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Fixer un cadre à l'avance : durée courte, un ou deux visiteurs, pas d'enchaînement de bras — annoncé avant la visite, pas pendant.",
+        "Préparer une phrase prête : « on est ravis de vous voir, on garde une visite courte pour préserver son rythme » — dite avec le sourire, elle passe.",
+        "Protéger la fin de journée : éviter les visites dans la fenêtre où les pleurs sont déjà les plus intenses.",
+        "Observer les signaux de saturation : détourner le regard, bâiller, hoqueter, s'agiter — ce sont ses mots pour dire « stop »."
+      ],
+      "principe": "Un nouveau-né ne se protège pas seul du trop-plein : c'est toi son filtre. Réduire l'entrée de stimulations est toujours plus efficace que de tenter d'apaiser une fois la surcharge installée.",
+      "erreurs_a_eviter": [
+        "Faire passer bébé de bras en bras pour ne vexer personne — chaque changement d'odeur et de rythme ajoute de la charge.",
+        "Réveiller bébé pour qu'il « profite » des visiteurs — le sommeil du nourrisson ne se déplace pas à la demande.",
+        "Compenser après coup par une stimulation supplémentaire — musique, promenade, jouets — alors que tout est à réduire.",
+        "S'excuser de protéger son calme — la fatigue des premières semaines est réelle, ton cadre est légitime."
+      ],
+      "consulter_si": "Consulter si : bébé reste inconsolable plusieurs heures malgré le retour au calme, s'il refuse de boire, s'il présente de la fièvre avant trois mois, ou s'il paraît anormalement mou ou difficile à réveiller → pédiatre ou le 15 selon l'urgence. Si ces épisodes t'épuisent au point que tu ne tiens plus → en parler à la PMI, à la sage-femme, ou appeler Allo Parents Bébé (0 800 00 34 56)."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Sursaute à chaque bruit / hypersensibilité sensorielle",
+      "titre": "Les sursauts / abaisser la charge sensorielle",
+      "explication": "Ton bébé sursaute à la moindre porte qui claque, bras écartés, doigts en éventail : c'est le réflexe de Moro, un réflexe archaïque normal, présent à la naissance et qui s'atténue de lui-même au fil des premiers mois. Certains bébés y sont plus réactifs que d'autres, et la fourchette est large : cela ne dit rien d'un problème. Ce qui aide n'est pas de le rassurer après chaque sursaut, mais de baisser le niveau global de stimulation autour de lui, pour que son système nerveux n'ait pas à réagir en permanence.",
+      "ancrage": "Un bébé très réactif au bruit n'est pas un bébé fragile : c'est un système nerveux qui découvre le monde à plein volume. Ton rôle est de baisser le volume, pas de le rendre plus résistant.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — quand il vient de sursauter",
+        "etapes": [
+          "Contenir sans serrer : ramener doucement ses bras contre son torse, tes mains posées sur lui.",
+          "Une main sur la tête, une main sur le siège : cette double enveloppe stoppe la sensation de chute.",
+          "Voix basse et continue : parle-lui doucement, sans monter dans les aigus.",
+          "Immobilité d'abord : éviter le bercement vif — c'est le calme, pas le mouvement, qui fait redescendre.",
+          "Attendre avant de le déplacer : laisser passer trente secondes avant de le reprendre ou de le poser."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : abaisser le niveau d'alerte",
+        "etapes": [
+          "Choisir un moment calme : après le bain, pièce silencieuse, lumière basse.",
+          "Réchauffer ses pieds : les tenir dans tes paumes avant de commencer.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante, plusieurs passages.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : un pied retiré, une crispation — on s'arrête, le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Baisser le décor sonore : télévision éteinte, notifications coupées, conversations à voix normale — c'est le bruit de fond continu qui use le plus.",
+        "Adoucir les transitions : prévenir avant de le prendre, poser une main sur lui avant de le soulever — les gestes annoncés surprennent moins.",
+        "Emmailloter pour dormir si cela l'apaise : bras contenus, hanches et jambes libres, toujours couché sur le dos.",
+        "Observer l'évolution : le réflexe de sursaut s'estompe au fil des mois, chaque bébé à son rythme — il n'y a rien à accélérer."
+      ],
+      "principe": "On n'habitue pas un nouveau-né au bruit : on ajuste son environnement. Réduire la stimulation à la source est toujours plus efficace que consoler après coup.",
+      "erreurs_a_eviter": [
+        "Faire du bruit exprès pour « l'habituer » — cela augmente son niveau d'alerte au lieu de le baisser.",
+        "Utiliser un bruit blanc fort ou collé au lit — le volume doit rester bas et la source éloignée.",
+        "Emmailloter les jambes serrées et tendues — mauvais pour les hanches ; les jambes doivent rester libres et pliées.",
+        "Conclure à un problème sensoriel à cet âge — le réflexe de sursaut est normal et s'atténue seul."
+      ],
+      "consulter_si": "Consulter si : les sursauts s'accompagnent de mouvements rythmés et répétés que tu ne peux pas arrêter en tenant le membre, d'une perte de contact du regard, d'une raideur permanente ou d'une mollesse inhabituelle → appeler le 15. Si le réflexe de sursaut reste très marqué au-delà de six mois, ou s'il gêne durablement le sommeil et l'alimentation → en parler au pédiatre ou à la PMI."
+    }
+  ]
+}

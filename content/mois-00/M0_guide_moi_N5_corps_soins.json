@@ -1,0 +1,286 @@
+{
+  "mois": 0,
+  "tranche_age": "0–4 semaines",
+  "categorie": {
+    "id": "corps",
+    "nom": "Corps & soins",
+    "sous_titre": "Cordon, peau, tonus, portage, petits inconforts",
+    "icone": "🌿"
+  },
+  "protocoles": [
+    {
+      "categorie": "corps",
+      "situation": "Cordon ombilical / comment en prendre soin",
+      "titre": "Le cordon ombilical / le soin quotidien",
+      "explication": "Le cordon sèche, noircit, puis tombe seul — le plus souvent entre une et trois semaines, parfois plus tard, chaque bébé à son rythme. Il n'y a rien à accélérer et rien à arracher. Le principe du soin tient en deux mots : propre et sec. Un cordon laissé à l'air, non couvert par la couche, sèche plus vite. Quelques gouttes de sang ou une petite croûte au moment de la chute sont fréquentes et sans gravité. Ce qui compte, ce sont les signes autour du nombril : rougeur qui s'étend, odeur, écoulement, fièvre.",
+      "ancrage": "Tu ne peux pas « rater » un cordon. Nettoyer, sécher, laisser à l'air : cela suffit. Le reste, c'est du temps.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — le soin du jour",
+        "etapes": [
+          "Se laver les mains : soigneusement, avant chaque soin.",
+          "Nettoyer à l'eau et au savon doux : sans frotter, en soulevant délicatement le cordon pour accéder à la base.",
+          "Sécher soigneusement : tamponner avec une compresse propre — un cordon humide sèche mal.",
+          "Laisser à l'air libre : rabattre le haut de la couche sous le cordon, pour qu'il ne soit ni couvert ni frotté.",
+          "Observer la base : rougeur, gonflement, odeur ou écoulement sont les seuls signes à surveiller."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — un bain serein",
+        "etapes": [
+          "Attendre le bon moment : le bain reste possible avant la chute du cordon, à condition de bien sécher ensuite.",
+          "Eau à température du corps : autour de 37 °C, vérifiée au coude ou au thermomètre.",
+          "Bain court : quelques minutes suffisent — la peau du nouveau-né n'aime pas les longs bains.",
+          "Sécher les plis : en tamponnant, particulièrement autour du nombril, du cou et des aisselles.",
+          "Contact et voix : garder une main sur lui pendant tout le bain — la sécurité et l'apaisement passent par là."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne rien appliquer sans avis : ni alcool, ni antiseptique, ni pansement, ni poudre — sauf indication du professionnel qui suit bébé.",
+        "Ne jamais tirer : même s'il ne tient plus qu'à un fil, il tombe seul.",
+        "Habiller large : un body qui ne serre pas la zone du nombril limite les frottements.",
+        "Se rappeler la fourchette : la chute prend en général une à trois semaines — il n'y a pas de retard à craindre avant plusieurs semaines."
+      ],
+      "principe": "Propre, sec, à l'air : le cordon n'a besoin de rien d'autre. Ce ne sont ni sa couleur ni son odeur de séchage qui alertent, mais la rougeur, le gonflement, l'écoulement et la fièvre.",
+      "erreurs_a_eviter": [
+        "Tirer sur le cordon ou le décoller pour « aider » — il se détache seul, jamais avant.",
+        "Le recouvrir avec la couche ou un pansement — l'humidité retarde la chute et favorise l'infection.",
+        "Appliquer un antiseptique de sa propre initiative — sans indication médicale, c'est inutile.",
+        "S'inquiéter d'une odeur de séchage ou de quelques gouttes de sang à la chute — c'est banal, contrairement à une rougeur qui s'étend."
+      ],
+      "consulter_si": "Consulter si : la peau autour du nombril devient rouge, chaude, gonflée ou douloureuse, si un écoulement purulent ou malodorant apparaît, si le cordon saigne de façon répétée ou abondante, s'il n'est pas tombé au bout de deux mois, ou si bébé présente de la fièvre → pédiatre, sage-femme ou PMI sans attendre.",
+      "source": "Source : mpedia.fr (Association Française de Pédiatrie Ambulatoire) — le soin du cordon ombilical du nouveau-né."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Sa peau / sécheresse, desquamation, petits boutons",
+      "titre": "La peau du nouveau-né / l'adaptation à l'air libre",
+      "explication": "La peau de ton bébé sort de neuf mois dans le liquide amniotique. Elle s'adapte à l'air libre : elle pèle, elle sèche, elle rougit, elle se couvre parfois de petits boutons qui apparaissent et disparaissent en quelques jours. Ces phénomènes sont très fréquents et transitoires. La règle est le minimalisme : moins on applique de produits sur une peau immature, mieux elle s'équilibre. Ce qui mérite un avis n'est pas un bouton isolé, mais une éruption qui s'étend, des vésicules, une peau qui suinte, ou de la fièvre associée.",
+      "ancrage": "Une peau qui pèle n'est pas une peau abîmée : c'est une peau qui s'adapte. Tu n'as pas besoin de la « traiter » — seulement de la respecter.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — le minimum efficace",
+        "etapes": [
+          "Toilette courte : eau tiède, savon doux sans parfum, une fois par jour ou tous les deux jours suffit.",
+          "Sécher en tamponnant : sans frotter, en insistant sur les plis du cou, des aisselles et de l'aine.",
+          "Hydrater si la peau tire : une crème émolliente simple, sans parfum, sur les zones sèches uniquement.",
+          "Laisser les boutons tranquilles : ne jamais percer, gratter ni appliquer de produit dessus.",
+          "Habiller en coton : des matières douces, sans étiquette, ni trop chaudes."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — le temps du contact peau à peau",
+        "etapes": [
+          "Après le bain : garder bébé nu contre ton torse, sous une couverture, quelques minutes.",
+          "Toucher enveloppant : tes mains posées à plat sur son dos, immobiles, plutôt que des frottements.",
+          "Rythme lent : ta respiration ralentie, ta voix basse — le contact fait tout le travail.",
+          "Habillage sans hâte : gestes doux, membres soutenus, sans tirer sur les bras.",
+          "S'arrêter s'il se crispe : le peau à peau doit rester un plaisir pour vous deux."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Éviter les produits parfumés : lingettes, huiles, laits parfumés, poudres — plus la liste d'ingrédients est courte, mieux c'est.",
+        "Se méfier des huiles essentielles : elles sont contre-indiquées chez le nourrisson, y compris en diffusion.",
+        "Protéger du soleil par l'ombre et le vêtement : avant six mois, on ne l'expose pas — la crème solaire ne remplace pas l'ombre.",
+        "Observer l'évolution : la desquamation des premières semaines s'atténue seule ; il n'y a rien à accélérer."
+      ],
+      "principe": "La peau du nouveau-né s'équilibre d'elle-même. Moins de produits, des toilettes courtes, et de l'observation : c'est le protocole le plus efficace des premières semaines.",
+      "erreurs_a_eviter": [
+        "Multiplier les crèmes et les produits « spécial bébé » — ils fragilisent une barrière cutanée immature.",
+        "Percer ou gratter les petits boutons — risque d'infection, sans aucun bénéfice.",
+        "Donner un bain long et chaud tous les jours — cela dessèche davantage la peau.",
+        "Exposer bébé au soleil, même quelques minutes, même à l'ombre partielle — avant six mois, c'est à éviter."
+      ],
+      "consulter_si": "Consulter si : l'éruption s'étend rapidement, s'accompagne de fièvre, de vésicules, de pus, d'une peau qui suinte ou se décolle, si des taches ne s'effacent pas à la pression, ou si bébé paraît anormalement mou ou refuse de boire → pédiatre sans délai, et le 15 en cas de taches qui ne s'effacent pas à la pression avec fièvre.",
+      "source": "Source : mpedia.fr (Association Française de Pédiatrie Ambulatoire) — la toilette du nouveau-né, les bons gestes pratiques."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Bébé mou ou très tendu / ce que dit son tonus",
+      "titre": "Son tonus / entre souplesse et raideur",
+      "explication": "Le nouveau-né a un tonus particulier : ses membres sont repliés, souvent toniques, alors que sa nuque et son tronc sont encore très souples — c'est pourquoi sa tête doit être soutenue en permanence. Certains bébés paraissent plus mous, d'autres plus raides, et cette variabilité est normale : la fourchette est large et ne dit rien de son avenir. Le tonus se construit progressivement, du haut vers le bas. Ce protocole n'est pas là pour évaluer ton bébé — cela, seul un professionnel le fait — mais pour t'aider à savoir ce qui se surveille et ce qui s'observe tranquillement.",
+      "ancrage": "Tu n'as pas à mesurer son tonus, ni à le comparer. Tu as à le manipuler avec soin, à observer, et à poser tes questions au professionnel qui le suit.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — le manipuler avec justesse",
+        "etapes": [
+          "Soutenir la tête et la nuque : à chaque prise, à chaque pose, une main derrière la tête, systématiquement.",
+          "Le prendre par le côté : le faire rouler doucement sur le flanc avant de le soulever, plutôt que de le tirer par les bras.",
+          "Respecter la position repliée : jambes fléchies, bras près du corps, dos rond — c'est sa position naturelle.",
+          "Ne jamais tirer sur les bras ni sur les mains : ni pour l'asseoir, ni pour le soulever.",
+          "Observer ses réactions : il doit s'apaiser au contact et récupérer sa position repliée quand tu le relâches."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — éveil du corps, en douceur",
+        "etapes": [
+          "Temps sur le ventre, éveillé et surveillé : quelques minutes par jour, contre toi ou sur un tapis ferme, jamais pour dormir.",
+          "Varier les positions d'éveil : sur le dos, sur le côté, sur ton torse — la variété nourrit son développement.",
+          "Lui laisser de la place : un tapis ferme, sans transat ni siège, pour qu'il bouge librement.",
+          "Jeu de découverte : approcher ton visage, lui parler, le laisser tourner la tête vers ta voix.",
+          "S'arrêter dès qu'il se fatigue : ces temps sont courts et doivent rester agréables."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Alterner les appuis de la tête : varier le côté vers lequel il tourne la tête quand il dort et quand il joue, en changeant l'orientation du lit ou ta position.",
+        "Limiter les temps en coque et en transat : ils contraignent le corps ; le sol et les bras sont plus favorables.",
+        "Poser tes questions au bon moment : les consultations obligatoires des premiers mois sont faites pour cela.",
+        "Ne pas comparer : chaque enfant a son propre rythme, et ce n'est ni une course ni une compétition."
+      ],
+      "principe": "La variabilité du tonus est normale à cet âge. Ce n'est pas au parent d'évaluer — c'est au professionnel. Ton rôle est de soutenir, de varier les positions, et de signaler ce qui te surprend.",
+      "erreurs_a_eviter": [
+        "Faire des « exercices » de renforcement trouvés en ligne — l'éveil du corps se fait par le jeu libre, pas par des manœuvres.",
+        "Tirer bébé par les bras pour l'asseoir ou tester sa force — dangereux pour les épaules et sans intérêt.",
+        "Laisser bébé de longues heures en coque ou en transat — le corps a besoin de bouger librement.",
+        "Se rassurer ou s'alarmer en comparant à un autre bébé — la fourchette normale est très large."
+      ],
+      "consulter_si": "Consulter si : bébé paraît anormalement mou, avec une tête qui bascule complètement en arrière et des membres qui pendent ; s'il est raide en permanence et ne se détend jamais ; s'il tourne toujours la tête du même côté ; s'il ne réagit pas au bruit ou au contact ; ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre, qui orientera si nécessaire vers un kinésithérapeute pédiatrique ou un psychomotricien."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Porter bébé en sécurité / position physiologique du nouveau-né",
+      "titre": "Le portage / la position physiologique",
+      "explication": "Porter un nouveau-né n'est pas seulement pratique : c'est ce qui l'apaise le plus efficacement. Mais le portage a des règles de sécurité, et elles ne sont pas négociables. Un nouveau-né n'a pas le contrôle de sa tête ni de ses voies aériennes : mal installé, menton collé au torse, il peut se retrouver en difficulté respiratoire sans émettre le moindre bruit. La position physiologique — dos rond, jambes repliées, tête soutenue, visage dégagé — est à la fois la plus sûre et la plus confortable pour lui.",
+      "ancrage": "Le portage est le geste le plus apaisant dont tu disposes. Il demande une seule chose en retour : une vérification systématique du visage et du menton, à chaque installation.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — vérifier avant de marcher",
+        "etapes": [
+          "Visage dégagé : toujours visible, jamais couvert par un tissu, jamais collé contre ton corps.",
+          "Menton décollé : au moins la largeur d'un doigt entre son menton et son torse — c'est la règle vitale.",
+          "Assez haut pour l'embrasser : sa tête à hauteur de tes lèvres, pas au niveau de ton ventre.",
+          "Dos rond, jambes repliées : les genoux plus hauts que les fesses, en position accroupie.",
+          "Tête soutenue : par le tissu ou ta main, sans que la nuque ne parte en arrière."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — le portage qui apaise",
+        "etapes": [
+          "Peau à peau en portage : bébé en couche contre ton torse nu, sous un vêtement ample, visage toujours dégagé.",
+          "Marche lente et régulière : le rythme constant est ce qui apaise le plus son système nerveux.",
+          "Une main sur son dos : posée, immobile, pendant la marche.",
+          "Ta voix en fond : parler ou fredonner tout bas pendant le portage.",
+          "Vérifier toutes les dix minutes : un coup d'œil au visage et au menton, systématiquement."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Choisir un moyen adapté : écharpe de portage ou porte-bébé physiologique conçu pour les nouveau-nés — les modèles qui laissent les jambes pendre ne conviennent pas.",
+        "Se faire aider une première fois : une monitrice de portage, une sage-femme ou la PMI peuvent vérifier ton installation.",
+        "Éviter les gestes à risque pendant le portage : cuisiner près d'une source de chaleur, boire chaud, se pencher en avant sans soutenir bébé.",
+        "Alterner les porteurs : le portage n'est pas réservé au parent qui allaite — chacun peut porter."
+      ],
+      "principe": "Un portage sûr tient en deux vérifications : visage dégagé, menton décollé. Le reste — confort, apaisement, lien — en découle naturellement.",
+      "erreurs_a_eviter": [
+        "Porter bébé menton collé au torse ou visage enfoui dans le tissu — c'est le risque principal du portage, et il est silencieux.",
+        "Utiliser un porte-bébé qui laisse les jambes pendre à la verticale — mauvais pour les hanches et le dos.",
+        "S'endormir avec bébé installé dans l'écharpe, assis.e dans un canapé — risque grave d'enfouissement.",
+        "Vérifier une seule fois au départ — la position bouge avec la marche ; on revérifie régulièrement."
+      ],
+      "consulter_si": "Consulter si : bébé change de couleur pendant le portage, respire bruyamment, se cambre ou paraît en difficulté ; s'il pleure systématiquement dès qu'il est installé ; ou si tu as un doute sur la sécurité de ton installation → appeler le 15 en cas de difficulté respiratoire, et faire vérifier ton portage par une sage-femme, la PMI ou une monitrice de portage."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Nez bouché / respiration bruyante",
+      "titre": "Le nez bouché / le lavage de nez",
+      "explication": "Ton bébé respire uniquement par le nez pendant les premières semaines : un nez encombré le gêne pour téter, pour dormir, pour respirer tranquillement. Il grogne, siffle, semble « pris ». Chez le nouveau-né, un nez bruyant est très souvent lié à des sécrétions dans un nez minuscule — pas à une maladie. Le geste utile est le lavage de nez au sérum physiologique : c'est un geste d'hygiène, simple, à faire avant les prises et avant le coucher. Mais chez un tout-petit, toute gêne respiratoire vraie se juge sur la respiration, pas sur le bruit.",
+      "ancrage": "Un nez bruyant n'est pas forcément un bébé en difficulté. Ce que tu regardes, ce n'est pas le bruit : c'est la façon dont il respire, et dont il boit.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — le lavage de nez",
+        "etapes": [
+          "Installer bébé sur le côté : tête tournée, allongé, ton bras le maintenant doucement.",
+          "Introduire l'embout sans forcer : juste à l'entrée de la narine du haut, sans l'enfoncer.",
+          "Instiller franchement : appuyer d'un geste net pour que le sérum traverse et ressorte par l'autre narine.",
+          "Recommencer de l'autre côté : tourner la tête et répéter dans l'autre narine.",
+          "Essuyer et redresser : nettoyer le visage, puis garder bébé quelques instants vertical contre toi."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — respirer plus librement",
+        "etapes": [
+          "Avant les prises : un lavage juste avant le sein ou le biberon lui permet de téter sans lâcher pour respirer.",
+          "Hydrater l'air : une pièce entre 18 et 20 °C, pas surchauffée, aérée chaque jour.",
+          "Position verticale : le garder contre toi quelques minutes après le lavage.",
+          "Aucun produit dans le nez : ni huile, ni pommade, ni spray décongestionnant — jamais chez un nourrisson.",
+          "Répéter sans excès : quelques lavages par jour, aux moments utiles — pas en continu."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Utiliser des dosettes de sérum physiologique à usage unique : jetées après chaque narine, jamais réutilisées.",
+        "Observer la respiration plutôt que le bruit : une respiration rapide, sifflante, avec creusement entre les côtes ou battement des ailes du nez est un signal d'appel.",
+        "Vérifier les prises : un bébé qui lâche le sein ou le biberon pour respirer et qui boit moins doit être vu.",
+        "Éviter la fumée : le tabagisme dans l'environnement aggrave l'encombrement et les risques respiratoires."
+      ],
+      "principe": "Le lavage de nez est un geste d'hygiène, pas un traitement. Il soulage le confort et facilite les prises — mais c'est la qualité de la respiration, jamais le bruit, qui décide d'un appel au médecin.",
+      "erreurs_a_eviter": [
+        "Utiliser un mouche-bébé de façon répétée et agressive — irrite la muqueuse et fait saigner.",
+        "Introduire un coton-tige ou un objet dans le nez — jamais.",
+        "Donner un sirop ou un décongestionnant — contre-indiqués chez le nourrisson.",
+        "Attendre en cas de gêne respiratoire vraie parce que « c'est juste le nez » — la respiration prime toujours sur le bruit."
+      ],
+      "consulter_si": "Consulter si : bébé respire vite, siffle, creuse entre les côtes, bat des ailes du nez, change de couleur, marque des pauses respiratoires ; s'il refuse de boire ou boit beaucoup moins ; s'il a de la fièvre avant trois mois ; ou s'il paraît anormalement mou → appeler le 15 en cas de gêne respiratoire, et le pédiatre sans délai dans les autres cas.",
+      "source": "Source : ameli.fr (Assurance Maladie) — comment pratiquer un lavage de nez chez un enfant."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Bébé prématuré ou petit poids / les premières semaines à la maison",
+      "titre": "Le retour à la maison / bébé né prématurément",
+      "explication": "Rentrer à la maison après un séjour en néonatalogie est un moment mêlé : soulagement et vertige à la fois. Ton bébé n'est pas fragile comme du verre, mais il a besoin d'un environnement calme, de beaucoup de sommeil et de beaucoup de contact. Un repère structure tout le reste : l'âge corrigé. Ses acquisitions se lisent à l'âge qu'il aurait s'il était né à terme, pas à sa date de naissance. Le comparer aux autres bébés de son âge civil n'a aucun sens et fabrique une inquiétude inutile. Chaque enfant avance à son rythme, et lui plus encore.",
+      "ancrage": "Tu rentres avec un bébé, pas avec un dossier médical. Ton rôle n'est pas de le surveiller comme un appareil : c'est de le porter, de le nourrir, et de t'appuyer sur l'équipe qui le suit.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — les premiers jours à la maison",
+        "etapes": [
+          "Compter en âge corrigé : c'est le repère à utiliser pour le sommeil, l'éveil et les acquisitions.",
+          "Peau à peau largement : le contact prolongé est ce qui soutient le mieux sa régulation et son lien avec toi.",
+          "Protéger le calme : peu de visites, peu de bruit, lumière basse — son seuil de saturation est plus bas.",
+          "Respecter le sommeil : ne pas le réveiller pour les visites, et le laisser dormir de longues plages.",
+          "Suivre les consignes de sortie : rythme des prises, compléments éventuels, rendez-vous de suivi — sans improviser."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — le contact qui régule",
+        "etapes": [
+          "Peau à peau quotidien : bébé en couche contre ton torse nu, sous une couverture, visage dégagé.",
+          "Enveloppement des mains : tes paumes posées, immobiles, sur sa tête et son siège — un contact contenant plutôt que mobile.",
+          "Rythme lent : ta respiration ralentie, sans parole, sans mouvement.",
+          "Un seul adulte à la fois : le nombre de bras et de voix compte davantage encore chez lui.",
+          "S'arrêter dès qu'il détourne le regard : c'est son signal de saturation — on réduit, on ne compense pas."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "S'appuyer sur le réseau de suivi : les enfants nés prématurément bénéficient d'un suivi spécialisé — ces rendez-vous sont là pour porter tes questions.",
+        "Se protéger des comparaisons : à la crèche, en famille, sur les réseaux — l'âge corrigé est la seule référence utile.",
+        "Accueillir ce que tu ressens : l'anxiété, l'hypervigilance, les images du service sont fréquentes après une hospitalisation ; en parler à la PMI, à la sage-femme ou à un psychologue périnatal est légitime.",
+        "Doser les stimulations : ce dont il a le plus besoin, c'est de calme, de sommeil et de contact — pas d'activités d'éveil supplémentaires."
+      ],
+      "principe": "L'âge corrigé est la boussole des premiers mois. Ce dont ton bébé a le plus besoin n'est pas d'un programme de stimulation, mais de contact, de sommeil et d'un environnement calme.",
+      "erreurs_a_eviter": [
+        "Comparer ses acquisitions à celles d'un bébé né à terme du même âge civil — la référence est l'âge corrigé.",
+        "Multiplier les visites pour « fêter le retour » — le calme prime pendant les premières semaines.",
+        "Ajouter des exercices ou des programmes d'éveil de sa propre initiative — le suivi spécialisé indique ce qui est utile.",
+        "Garder l'anxiété pour soi — l'après-néonatalogie se traverse mieux accompagné.e."
+      ],
+      "consulter_si": "Consulter si : bébé présente une gêne à respirer ou des pauses respiratoires, s'il ne prend pas de poids, s'il boit mal ou est difficile à réveiller, s'il présente de la fièvre ou une hypothermie, ou s'il paraît anormalement mou → appeler le 15 en cas de trouble respiratoire, et contacter sans délai l'équipe qui le suit ou le pédiatre. Pour ton propre vécu : PMI, sage-femme, psychologue périnatal.",
+      "source": "Source : mpedia.fr (Association Française de Pédiatrie Ambulatoire) — prématurité, âge corrigé et suivi du développement."
+    }
+  ]
+}

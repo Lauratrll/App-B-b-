@@ -1,0 +1,241 @@
+{
+  "mois": 2,
+  "tranche_age": "2 mois",
+  "categorie": {
+    "id": "corps",
+    "nom": "Corps & soins",
+    "sous_titre": "Tête, température, portage, petits soins",
+    "icone": "🌿"
+  },
+  "protocoles": [
+    {
+      "categorie": "corps",
+      "situation": "La tête est encore instable / des progrès en dents de scie",
+      "titre": "Le contrôle de la tête / des progrès en dents de scie",
+      "explication": "À deux mois, ton bébé commence à soulever et à tenir sa tête — quelques secondes, puis elle retombe. Certains jours il y arrive bien, d'autres pas du tout. Cette irrégularité est normale : le tonus de la nuque se construit par le mouvement libre, pas par l'entraînement. Ce qui soutient ce développement, c'est le temps passé sur le ventre, éveillé et surveillé, et un environnement qui laisse le corps bouger : un tapis ferme au sol, sans transat, sans coque, sans arche qui fixe le regard. La fourchette est large — ce n'est ni une course ni une compétition.",
+      "ancrage": "Tu n'as pas à l'entraîner. Tu as à lui laisser de la place, du temps au sol, et à soutenir sa tête quand tu le portes — le reste, son corps le fait tout seul.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — le temps sur le ventre",
+        "etapes": [
+          "Sur le ventre, éveillé et surveillé : plusieurs fois par jour, quelques minutes à chaque fois, jamais pour dormir.",
+          "Commencer sur toi : bébé à plat ventre sur ton torse, ton visage au-dessus du sien.",
+          "Rester à son niveau : ton visage face au sien, à trente centimètres — c'est ce qui lui donne envie de lever la tête.",
+          "Soutenir la tête aux prises : une main derrière la nuque à chaque fois que tu le soulèves ou le poses.",
+          "S'arrêter dès qu'il fatigue : quelques minutes suffisent, cela doit rester agréable."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — l'éveil du corps par le jeu",
+        "etapes": [
+          "Un tapis ferme au sol : sans coussin, sans arche ni mobile qui fixent l'attention.",
+          "Varier les positions d'éveil : sur le dos, sur le côté, sur le ventre, sur ton torse.",
+          "Approcher ton visage et ta voix : c'est le meilleur stimulus qui existe pour l'inciter à se redresser.",
+          "Limiter transat et coque : ils contraignent le corps ; le sol et les bras sont bien plus favorables.",
+          "S'arrêter s'il se crispe : le temps sur le ventre doit rester un plaisir."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne jamais forcer une position : ni assis calé, ni redressé de force — la motricité se construit librement.",
+        "Alterner l'orientation dans le lit : changer régulièrement la position de bébé vers la tête ou le pied du lit.",
+        "Poser tes questions en consultation : les rendez-vous des premiers mois sont faits pour cela.",
+        "Se rappeler la fourchette : chaque enfant avance à son rythme, et l'irrégularité fait partie du chemin."
+      ],
+      "principe": "Le tonus se construit par le mouvement libre, pas par l'entraînement. Du temps au sol, de la place, un visage à regarder — c'est tout ce dont il a besoin.",
+      "erreurs_a_eviter": [
+        "Asseoir bébé calé dans des coussins pour « muscler » son dos — dangereux et contraire au développement libre.",
+        "Faire des exercices trouvés en ligne — l'éveil du corps passe par le jeu, jamais par des manœuvres.",
+        "Le laisser de longues heures en transat ou en coque.",
+        "Comparer ses progrès à ceux d'un autre bébé — la fourchette normale est très large."
+      ],
+      "consulter_si": "Consulter si : bébé ne soulève jamais la tête sur le ventre, paraît anormalement mou ou raide en permanence, si tu observes une asymétrie entre les deux côtés du corps, ou s'il ne réagit pas au bruit ni au contact → pédiatre, qui orientera si nécessaire vers un kinésithérapeute pédiatrique ou un psychomotricien.",
+      "source": "Source : Haute Autorité de Santé — « Prévenir la tête plate : conseils aux parents » et prévention des déformations crâniennes positionnelles."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Il transpire ou a froid facilement / réguler sa température",
+      "titre": "Sa température / la règle simple d'habillage",
+      "explication": "Un nourrisson régule mal sa température : il se refroidit vite, mais il surchauffe encore plus vite — et la surchauffe est un vrai facteur de risque pendant le sommeil. La règle est simple : une couche de vêtement de plus que toi, et une chambre entre 18 et 20 °C. Pour vérifier, on ne touche pas les mains ni les pieds, qui sont naturellement plus frais : on glisse la main dans le dos ou sur la nuque. Une nuque moite et chaude signale qu'il a trop chaud — et c'est le signal le plus fréquent, bien plus que l'inverse.",
+      "ancrage": "Le réflexe de couvrir davantage est presque toujours le mauvais. En France, le sur-habillage est bien plus fréquent que le refroidissement.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — vérifier et ajuster",
+        "etapes": [
+          "Toucher la nuque ou le haut du dos : c'est le seul endroit fiable — pas les mains, pas les pieds.",
+          "Nuque moite ou chaude : retirer une couche immédiatement.",
+          "Nuque fraîche : ajouter une couche légère, sans excès.",
+          "Régler la chambre : entre 18 et 20 °C, aérée chaque jour.",
+          "Habiller d'une couche de plus que toi : c'est la règle simple à retenir."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — le confort thermique la nuit",
+        "etapes": [
+          "Gigoteuse adaptée à la saison : pas de couverture, pas de drap, pas de couette dans le lit.",
+          "Pas de bonnet pour dormir : la tête participe à l'évacuation de la chaleur.",
+          "Matières respirantes : coton, sans surcouche synthétique.",
+          "Vérifier au coucher et au réveil : un geste de dix secondes sur la nuque.",
+          "Retirer les couches en cas de fièvre : ne jamais couvrir un bébé qui a de la fièvre."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se méfier de la surchauffe : elle est un facteur de risque reconnu pendant le sommeil — c'est elle qu'on surveille en priorité.",
+        "Adapter aux transports : un bébé habillé pour l'extérieur surchauffe très vite en voiture ou en portage — on retire une couche.",
+        "Ne pas se fier aux mains froides : elles sont normalement plus fraîches, cela ne signifie pas qu'il a froid.",
+        "Vérifier les vêtements de portage : le contact avec ton corps le réchauffe déjà beaucoup."
+      ],
+      "principe": "Une couche de plus que toi, une chambre entre 18 et 20 °C, et la nuque comme seul point de contrôle. La surchauffe est le vrai risque — pas le froid.",
+      "erreurs_a_eviter": [
+        "Couvrir davantage « au cas où » — le sur-habillage est le réflexe le plus fréquent et le plus risqué.",
+        "Ajouter couverture, couette ou tour de lit dans le lit — risque d'étouffement et de surchauffe.",
+        "Faire dormir bébé avec un bonnet.",
+        "Se fier à la température des mains et des pieds pour juger."
+      ],
+      "consulter_si": "Consulter si : bébé a de la fièvre avant trois mois, s'il est anormalement mou, difficile à réveiller, si sa peau est marbrée, grise ou très froide malgré une pièce chauffée, ou s'il a des difficultés à respirer → appeler le 15 en cas de fièvre avant trois mois ou de trouble respiratoire. Ne jamais couvrir un bébé fébrile.",
+      "source": "Source : Haute Autorité de Santé et Santé publique France — recommandations sur le couchage sécurisé et la prévention de la mort inattendue du nourrisson."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Portage et reprise du travail / maintenir le lien malgré la séparation",
+      "titre": "Le portage des retrouvailles / recoudre la journée",
+      "explication": "La reprise du travail introduit des heures de séparation — et souvent une culpabilité qui pèse plus lourd que la séparation elle-même. Le portage devient alors un outil précieux : il ne compense pas les heures d'absence, il recoud le lien au retour. Un temps de contact prolongé au moment des retrouvailles, sans écran, sans tâche ménagère, permet à ton bébé de retrouver ton odeur, ton rythme, ta voix. La qualité du lien ne se mesure pas en heures passées ensemble, mais en fiabilité des retrouvailles.",
+      "ancrage": "Ton bébé ne compte pas les heures. Il a besoin que tes retours soient prévisibles et pleinement présents — c'est cela qui construit la sécurité, pas le nombre d'heures.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — le rituel des retrouvailles",
+        "etapes": [
+          "Poser le téléphone : la première demi-heure du retour se fait sans écran.",
+          "Peau à peau ou portage : bébé contre toi, visage dégagé, menton décollé.",
+          "Ne rien faire d'autre : ni linge, ni cuisine, ni rangement — cette demi-heure lui appartient.",
+          "Une phrase rituelle : la même à chaque retour — « je suis là, je suis rentrée ».",
+          "Accepter ses réactions : pleurs, agitation ou indifférence au retour sont tous normaux."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — recoudre le lien",
+        "etapes": [
+          "Portage lent : marche régulière, une main sur son dos, ta voix en fond.",
+          "Un temps de face-à-face : ton visage à trente centimètres, en silence.",
+          "Réflexologie du soir : l'intégrer au rituel du coucher, comme repère de retrouvailles.",
+          "Odeur familière : un vêtement porté par toi, laissé à la garde — jamais dans le lit ni près du visage.",
+          "S'arrêter s'il sature : après une journée en collectivité, il peut avoir besoin de calme avant de contact."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Préparer la transmission : quelques mots avec la personne qui garde, chaque soir, pour reconstituer sa journée.",
+        "Protéger les week-ends : moins de sorties, plus de temps ensemble sans programme.",
+        "Nommer ta culpabilité : elle est fréquente, elle n'est pas un signe que tu fais mal.",
+        "Se rappeler l'essentiel : la sécurité d'attachement se construit sur la fiabilité, pas sur la quantité."
+      ],
+      "principe": "La séparation n'abîme pas le lien : c'est la qualité des retrouvailles qui le nourrit. Une demi-heure pleinement présente vaut mieux qu'une soirée entière distraite.",
+      "erreurs_a_eviter": [
+        "Culpabiliser et compenser par de la sur-stimulation le soir — bébé est souvent déjà saturé.",
+        "Enchaîner les tâches ménagères dès le retour.",
+        "Interpréter ses pleurs au retour comme un reproche — c'est une décharge, pas une accusation.",
+        "Réveiller bébé pour profiter de lui le soir."
+      ],
+      "consulter_si": "Consulter si : bébé refuse le contact de façon systématique, paraît éteint, apathique, ne cherche jamais ton regard, ou si sa courbe de poids se casse depuis la mise en garde → pédiatre ou PMI. Si la culpabilité ou l'angoisse de la séparation deviennent envahissantes → en parler au médecin, à la sage-femme ou à un psychologue périnatal."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Sa tête reste tournée du même côté / toujours la même joue",
+      "titre": "La tête toujours du même côté / varier les positions",
+      "explication": "Ton bébé tourne systématiquement la tête du même côté, dans son lit, sur le tapis, dans tes bras. C'est fréquent, et cela mérite d'être pris au sérieux sans s'affoler : une préférence de rotation, si elle s'installe, appuie toujours la même zone du crâne, qui est encore très malléable. La bonne réponse n'est ni un exercice, ni une manœuvre : c'est de la variation. Varier l'orientation dans le lit, varier les positions d'éveil, varier le côté d'où viennent la lumière, ta voix et ton visage. Et faire vérifier par un professionnel si la préférence persiste.",
+      "ancrage": "Tu n'as rien à corriger toi-même. Tu as à varier ce qui l'entoure — et à faire regarder par un professionnel si la préférence ne cède pas.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — varier ce qui l'entoure",
+        "etapes": [
+          "Alterner l'orientation dans le lit : changer régulièrement de côté la tête et les pieds — la position de la pièce change, l'appui aussi.",
+          "Déplacer les sources d'intérêt : ta voix, la lumière, ton visage, tour à tour de chaque côté.",
+          "Changer de bras au portage : alterner systématiquement, à chaque prise.",
+          "Changer de côté au repas : varier l'orientation de sa tête à chaque prise.",
+          "Temps sur le ventre, éveillé et surveillé : plusieurs fois par jour — c'est ce qui soulage le plus l'appui du crâne."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — l'éveil libre, sans manœuvre",
+        "etapes": [
+          "Tapis ferme au sol : sans coussin, sans arche ni mobile qui fixent le regard d'un seul côté.",
+          "Jeu de regard des deux côtés : ton visage tantôt à droite, tantôt à gauche, à trente centimètres.",
+          "Aucune manœuvre sur la nuque : ne jamais tourner ni maintenir la tête de force.",
+          "Limiter transat et coque : ils immobilisent la tête dans la même position.",
+          "S'arrêter s'il résiste : une résistance à tourner la tête d'un côté se signale au professionnel, elle ne se force pas."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Faire vérifier sans attendre : une préférence de rotation qui persiste malgré la variation se montre au pédiatre — il orientera vers un kinésithérapeute pédiatrique si nécessaire.",
+        "Ne pas s'affoler : le crâne est malléable, et une prise en charge précoce est très efficace.",
+        "Ne jamais utiliser de cale-tête ou de coussin de positionnement : ces dispositifs sont dangereux et augmentent le risque d'étouffement.",
+        "Continuer à coucher sur le dos : la position de couchage sur le dos ne se discute pas — c'est la variation, pas la position, qui est le levier."
+      ],
+      "principe": "La variation, jamais la manœuvre. Alterner l'orientation, les sollicitations et les positions d'éveil est le geste utile — et une préférence qui persiste se montre à un professionnel.",
+      "erreurs_a_eviter": [
+        "Tourner ou maintenir la tête de bébé de force.",
+        "Utiliser un cale-tête, un coussin de positionnement ou un réducteur — dangereux, et interdits pendant le sommeil.",
+        "Coucher bébé sur le côté ou sur le ventre pour soulager l'appui — le dos reste la seule position sûre.",
+        "Attendre plusieurs mois « pour voir » — plus la prise en charge est précoce, plus elle est simple."
+      ],
+      "consulter_si": "Consulter si : bébé tourne toujours la tête du même côté malgré la variation, s'il résiste ou paraît gêné quand tu l'orientes de l'autre côté, si tu observes un aplatissement ou une asymétrie du crâne ou du visage, ou une asymétrie entre les deux côtés du corps → pédiatre sans tarder, qui orientera vers un kinésithérapeute pédiatrique si nécessaire.",
+      "source": "Source : Haute Autorité de Santé — « Prévenir la tête plate : conseils aux parents » et prévention des déformations crâniennes positionnelles."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Ses ongles et ses mains / soins du quotidien qui angoissent",
+      "titre": "Les ongles et les plis / les petits soins qui font peur",
+      "explication": "Couper les ongles d'un nouveau-né terrifie beaucoup de parents — et c'est légitime : ses doigts sont minuscules, il bouge, on a peur de le blesser. Ces gestes du quotidien, les ongles, les plis du cou, le contour des oreilles, ne sont pas des gestes médicaux : ce sont des gestes d'hygiène simples, qui s'apprennent en quelques répétitions. Le principe est le même partout : de la lumière, du calme, un bébé détendu ou endormi, et aucun geste dans un endroit qu'on ne voit pas. On ne va jamais chercher à l'intérieur — ni dans le nez, ni dans les oreilles.",
+      "ancrage": "La peur du premier geste est normale. Elle disparaît avec la répétition — et rien de tout cela n'est urgent : un ongle peut attendre le bon moment.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — les gestes du quotidien",
+        "etapes": [
+          "Les ongles : couper après le bain, ongles ramollis, avec des ciseaux à bouts ronds ou une lime — jamais dans la précipitation.",
+          "Bébé détendu ou endormi : c'est le moment le plus sûr — inutile de lutter avec un bébé qui s'agite.",
+          "Les plis du cou : nettoyer à l'eau, sécher soigneusement en tamponnant — l'humidité y provoque des rougeurs.",
+          "Les oreilles : nettoyer uniquement le pavillon, l'extérieur, avec un linge humide.",
+          "Jamais à l'intérieur : aucun coton-tige ni objet dans le nez ou dans les oreilles."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — un soin qui rassure",
+        "etapes": [
+          "Bonne lumière : un soin fait dans la pénombre est un soin risqué.",
+          "Une main qui contient : maintenir doucement sa main ou sa tête, sans serrer.",
+          "Parler pendant le soin : annoncer ce que tu fais, doucement.",
+          "Fractionner : deux doigts aujourd'hui, deux demain — rien n'oblige à tout faire d'un coup.",
+          "S'arrêter s'il s'agite : on repose, on repropose plus tard."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Passer le relais : le co-parent ou un proche peut faire ce geste si tu es trop tendue — cela n'a rien d'un échec.",
+        "Prévoir des moufles si besoin : elles évitent les griffures en attendant, sans remplacer la coupe.",
+        "Ne pas paniquer en cas de petite coupure : comprimer avec une compresse propre, cela s'arrête vite.",
+        "Se rassurer sur la répétition : le geste devient banal au bout de quelques fois."
+      ],
+      "principe": "Ces gestes ne sont pas médicaux, ils sont domestiques. De la lumière, un bébé détendu, et jamais rien à l'intérieur du nez ni des oreilles — c'est tout.",
+      "erreurs_a_eviter": [
+        "Introduire un coton-tige dans le nez ou dans les oreilles — jamais.",
+        "Couper les ongles trop court, dans les coins — cela favorise les ongles incarnés.",
+        "Faire le soin dans la précipitation ou dans une lumière insuffisante.",
+        "Arracher un ongle avec les dents ou les doigts."
+      ],
+      "consulter_si": "Consulter si : un doigt ou un orteil devient rouge, gonflé, chaud ou douloureux, si du pus apparaît, si une coupure saigne longtemps, si les plis du cou sont rouges, suintants ou malodorants, ou si tu observes un écoulement de l'oreille → pédiatre, sage-femme ou PMI.",
+      "source": "Source : mpedia.fr (Association Française de Pédiatrie Ambulatoire) — la toilette du nouveau-né, les bons gestes pratiques."
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "mois": 2,
+  "tranche_age": "2 mois",
+  "categorie": {
+    "id": "sepa",
+    "nom": "Lien & attachement",
+    "sous_titre": "Dialogue, sourire social, imitation",
+    "icone": "💜"
+  },
+  "protocoles": [
+    {
+      "categorie": "sepa",
+      "situation": "Comment répondre à ses gazouillis / le dialogue s'installe",
+      "titre": "Le tour de parole / répondre à ses gazouillis",
+      "explication": "Ton bébé émet ses premiers sons volontaires — des voyelles longues, des gazouillis, des sourires sonores. C'est le début d'un dialogue, et il obéit déjà à une règle : le tour de parole. Il émet, tu réponds, tu attends, il repart. Ce va-et-vient est le socle du langage et de l'attachement à la fois : il lui apprend qu'il produit un effet sur toi, et que ses signaux comptent. Ce qui construit ce dialogue, ce n'est pas la richesse de ce que tu dis — c'est le silence que tu laisses après avoir parlé.",
+      "ancrage": "Ce n'est pas un monologue à remplir, c'est une conversation à laisser respirer. Le blanc que tu laisses après avoir parlé est la partie la plus importante.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — installer le tour de parole",
+        "etapes": [
+          "Se placer à trente centimètres : ton visage face au sien, c'est là qu'il te voit le mieux.",
+          "Répondre à son son : reprendre son gazouillis, ou lui répondre par une phrase courte.",
+          "Laisser un silence : trois à cinq secondes après avoir parlé — c'est là qu'il répond.",
+          "Imiter ses mimiques : ouvrir la bouche, tirer la langue, sourire — il tentera de t'imiter.",
+          "S'arrêter s'il détourne : son regard qui fuit dit « pause », pas « non »."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : un temps de dialogue",
+        "etapes": [
+          "Bébé éveillé et calme : sur le dos, sans bruit, sans écran autour.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Parler et attendre : ta voix pendant le geste, puis un silence — le tour de parole, jusque dans le toucher.",
+          "S'arrêter à sa demande : un pied retiré, un regard qui se détourne — on arrête."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Multiplier les micro-échanges : quelques minutes, plusieurs fois par jour, valent mieux qu'une longue session.",
+        "Parler au quotidien : commenter le change, le bain, la préparation du repas — tout est matière à dialogue.",
+        "Couper les écrans pendant l'échange : le tien capte son attention autant que le sien.",
+        "Respecter sa fatigue : à cet âge, un échange de quelques minutes est déjà exigeant pour lui."
+      ],
+      "principe": "Le tour de parole est le socle du langage et du lien : je parle, j'attends, il répond. Le silence que tu laisses vaut autant que les mots que tu dis.",
+      "erreurs_a_eviter": [
+        "Enchaîner les paroles sans laisser de blanc — il n'a plus d'espace pour répondre.",
+        "Solliciter en continu pour obtenir une réaction — cela le sature.",
+        "Regarder son téléphone pendant un temps d'échange.",
+        "Interpréter son silence ou son regard qui fuit comme un désintérêt."
+      ],
+      "consulter_si": "Consulter si : bébé n'émet aucun son, ne réagit pas aux bruits forts, ne cherche jamais ton visage ni ton regard, ne sourit pas du tout vers trois mois, ou paraît anormalement mou → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Il sourit à tout le monde / je me sens interchangeable",
+      "titre": "Il sourit à tout le monde / la préférence viendra",
+      "explication": "Ton bébé sourit au facteur, à la voisine, à l'inconnu dans le bus — exactement comme il te sourit à toi. C'est déstabilisant : on attendait un sourire qui nous serait réservé. À deux mois, le sourire social n'est pas encore discriminant : il s'adresse au visage humain en général, parce que c'est ce que son cerveau reconnaît et recherche. La préférence viendra, et elle viendra clairement — vers six à huit mois, il saura parfaitement qui est qui, et il te le fera savoir. Sourire à tous n'est pas ne préférer personne : c'est une étape.",
+      "ancrage": "Tu n'es pas interchangeable. Il te reconnaît déjà par ton odeur, ta voix, ta façon de le porter — le sourire, lui, n'a pas encore appris à faire le tri.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — nourrir la préférence qui vient",
+        "etapes": [
+          "Multiplier les échanges de regard : ton visage à trente centimètres, régulièrement.",
+          "Répondre à ses sourires : lui rendre, systématiquement — la réciprocité construit la préférence.",
+          "Utiliser ta voix : parler, chanter, raconter — la voix est un canal de reconnaissance puissant.",
+          "Peau à peau : ton odeur reste son repère le plus ancien.",
+          "Ritualiser des moments à vous : les mêmes gestes, aux mêmes moments."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : un rendez-vous qui vous appartient",
+        "etapes": [
+          "Un moment fixe, chaque jour : toujours au même moment, toujours avec toi.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Parler pendant le geste : ta voix et ton toucher associés deviennent un repère.",
+          "S'arrêter à sa demande : le moment doit rester un plaisir partagé."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se rappeler la chronologie : la préférence marquée apparaît en général vers six à huit mois, chaque enfant à son rythme.",
+        "Ne pas confondre sourire et attachement : l'un est une réaction sociale, l'autre se construit dans la répétition des soins.",
+        "Se réjouir du sourire large : un bébé qui sourit à tous est un bébé qui va bien socialement.",
+        "Partager le lien : que d'autres adultes construisent aussi un lien avec lui est une richesse, pas une menace."
+      ],
+      "principe": "Sourire à tous n'est pas ne préférer personne : c'est une étape de la maturation sociale. La préférence viendra — et elle sera sans équivoque.",
+      "erreurs_a_eviter": [
+        "Chercher à provoquer un sourire « pour toi seule » en le sur-sollicitant.",
+        "Interpréter son sourire large comme un manque d'attachement.",
+        "Se retirer du lien par dépit — c'est précisément la répétition qui construit la préférence.",
+        "Comparer avec un autre bébé qui « ne sourit qu'à sa mère »."
+      ],
+      "consulter_si": "Consulter si : bébé ne sourit pas du tout vers trois mois, ne fixe pas ton visage, ne réagit pas aux bruits forts, ne cherche jamais le contact, ou paraît anormalement mou → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition et de la vision."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Il imite mes expressions / comment l'accompagner",
+      "titre": "L'imitation / la première brique de la communication",
+      "explication": "Tu tires la langue, il tire la langue. Tu ouvres grand la bouche, il essaie. Cette imitation faciale est l'une des premières briques de la communication : elle montre que ton bébé perçoit ton visage, qu'il fait le lien entre ce qu'il voit et ce qu'il ressent dans son propre corps, et qu'il cherche à entrer en relation. On n'entraîne pas cette compétence — on lui donne des occasions. Un visage proche, des expressions lentes et marquées, et surtout du temps : l'imitation demande plusieurs secondes de latence avant d'arriver.",
+      "ancrage": "Tu n'as pas à le faire travailler. Approche ton visage, ralentis, et laisse-lui le temps — l'imitation arrive dans le silence qui suit, pas pendant.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — donner l'occasion",
+        "etapes": [
+          "Se placer à trente centimètres : son champ de vision net.",
+          "Une expression à la fois : tirer la langue, ouvrir la bouche, écarquiller les yeux — lentement, en la tenant.",
+          "Attendre : cinq à dix secondes, sans rien ajouter — c'est le temps qu'il lui faut.",
+          "Répéter la même expression : deux ou trois fois, sans en changer.",
+          "S'arrêter s'il détourne : le regard qui fuit signale la fatigue."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : un temps de face-à-face",
+        "etapes": [
+          "Bébé éveillé, détendu : sur le dos, dans le calme, sans écran.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Ton visage dans son champ : à trente centimètres pendant le geste, expressions lentes.",
+          "S'arrêter à sa demande : ce moment n'a pas d'objectif de performance."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Choisir le bon moment : un bébé calme et éveillé, ni affamé ni fatigué — les autres moments ne donneront rien.",
+        "Oublier les jouets : ton visage est le meilleur support d'éveil qui existe à cet âge.",
+        "Impliquer le co-parent : chaque adulte a ses expressions, et cela enrichit son répertoire.",
+        "Ne rien attendre de systématique : certains jours il imite, d'autres non — cela ne mesure rien."
+      ],
+      "principe": "L'imitation est une brique de communication, pas une performance. Elle demande un visage proche, une expression lente, et surtout du silence — c'est dans l'attente qu'elle apparaît.",
+      "erreurs_a_eviter": [
+        "Enchaîner les expressions rapidement — il n'a pas le temps de traiter.",
+        "Insister pour obtenir une imitation — la sollicitation excessive le sature.",
+        "Se décourager s'il n'imite pas — la réponse dépend du moment, pas de sa capacité.",
+        "Utiliser un écran ou une vidéo pour « stimuler » — aucune plus-value à cet âge."
+      ],
+      "consulter_si": "Consulter si : bébé ne fixe jamais ton visage, ne réagit ni à ta voix ni à tes expressions, ne sourit pas du tout vers trois mois, ou paraît anormalement mou ou éteint → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition et de la vision."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Le co-parent cherche sa place / créer son propre lien",
+      "titre": "La place du co-parent / des temps exclusifs",
+      "explication": "Quand la reprise du travail approche, l'organisation se resserre — et le co-parent risque de se retrouver cantonné à la logistique : les courses, le linge, la préparation des biberons. Le lien ne se construit pas là. Il se construit dans des temps exclusifs, où le co-parent est seul avec le bébé, fait à sa façon, et n'est ni surveillé ni corrigé. Un bébé s'attache à plusieurs adultes, par des canaux différents : une odeur, une voix, une manière de porter. Ce lien-là demande du temps seul à seul — pas de l'assistance.",
+      "ancrage": "Le lien ne se délègue pas, il se vit. Le co-parent a besoin de temps exclusifs — et l'autre parent, de lâcher un peu de contrôle sur la façon dont ils se passent.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — organiser l'exclusivité",
+        "etapes": [
+          "Choisir deux moments récurrents : le bain, le coucher, une sortie du week-end — identifiés, pas ponctuels.",
+          "Sortir de la pièce : l'autre parent s'éloigne physiquement — la présence qui surveille empêche le lien de se nouer.",
+          "Ne donner aucune consigne : il fera autrement, et c'est très bien.",
+          "Ne pas commenter après : ni « tu aurais dû », ni « moi je fais comme ça ».",
+          "Peau à peau du co-parent : torse nu, bébé contre lui — le contact fonctionne aussi bien."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — le rituel du co-parent",
+        "etapes": [
+          "Un rituel qui lui appartient : une berceuse, une phrase, un geste — toujours le sien.",
+          "Sa voix, souvent : parler, chanter, raconter sa journée.",
+          "Portage régulier : bébé contre lui, visage dégagé, menton décollé, marche lente.",
+          "La réflexologie du soir : il peut la faire lui-même, à l'identique, à sa façon.",
+          "Accepter la maladresse : le lien se construit dans la répétition, pas dans la technique."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Anticiper la reprise : plus le co-parent a de temps exclusifs avant, plus l'organisation à venir sera fluide.",
+        "Nommer le déséquilibre à deux : en parler avant que le ressentiment ne s'installe.",
+        "Lui confier des nuits : un biberon de lait tiré, ou le rendormissement — cela crée du lien et protège ton sommeil.",
+        "Se rappeler la temporalité : le lien du co-parent se construit souvent plus lentement, sans que cela dise quoi que ce soit de sa qualité."
+      ],
+      "principe": "Un bébé s'attache à plusieurs adultes, par des canaux différents. Le co-parent trouve sa place quand il a des temps qui lui appartiennent — jamais quand il assiste.",
+      "erreurs_a_eviter": [
+        "Corriger systématiquement sa façon de faire — cela le décourage et l'éloigne.",
+        "Le cantonner à la logistique — les courses ne créent pas de lien.",
+        "Attendre qu'il « prenne les choses en main » sans lui laisser d'espace.",
+        "Interpréter sa maladresse comme un manque d'amour."
+      ],
+      "consulter_si": "Consulter si : le co-parent se sent durablement exclu, triste, irritable ou détaché, s'il s'isole ou perd tout intérêt pour le bébé, ou si la tension dans le couple devient permanente → la dépression post-partum touche aussi les co-parents : en parler au médecin, à la sage-femme, à la PMI ou à un psychologue périnatal. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence."
+    }
+  ]
+}

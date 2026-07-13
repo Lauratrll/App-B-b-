@@ -1,0 +1,192 @@
+{
+  "mois": 1,
+  "tranche_age": "1 mois",
+  "categorie": {
+    "id": "sepa",
+    "nom": "Lien & attachement",
+    "sous_titre": "Regard, sourire, place de chacun",
+    "icone": "💜"
+  },
+  "protocoles": [
+    {
+      "categorie": "sepa",
+      "situation": "En attente du premier sourire / le lien se construit",
+      "titre": "Le premier sourire / l'attente qui pèse",
+      "explication": "Tu guettes ce sourire — celui qui te serait adressé, à toi. Le sourire social apparaît en général autour de six à huit semaines, mais la fourchette est large et certains bébés prennent leur temps. En attendant, ton bébé communique déjà : il fixe ton visage, se calme au son de ta voix, tourne la tête vers ton odeur, ajuste sa respiration sur la tienne. Ce dialogue-là est réel, même s'il ne ressemble pas à ce que tu attendais. Le sourire viendra confirmer un lien qui existe déjà — il ne le créera pas.",
+      "ancrage": "L'absence de sourire n'est pas une absence de lien. Il te reconnaît déjà par des canaux que tu ne vois pas à l'œuvre — et le sourire n'est pas un test que tu passes ou que tu rates.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — entrer en dialogue maintenant",
+        "etapes": [
+          "Se placer à bonne distance : environ trente centimètres, la distance à laquelle il voit le mieux ton visage.",
+          "Parler lentement : voix un peu chantante, phrases courtes, en marquant des pauses.",
+          "Laisser un silence : après avoir parlé, attendre — c'est dans ce blanc qu'il répond, à sa manière.",
+          "Imiter ses mimiques : reprendre une grimace, un mouvement de bouche — c'est déjà un échange.",
+          "S'arrêter s'il détourne les yeux : son regard qui fuit dit « pause », pas « non »."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : un temps de dialogue tranquille",
+        "etapes": [
+          "Bébé éveillé et calme : sur le dos, dans le silence, sans écran autour.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Parler pendant le geste : ta voix associée à ton toucher renforce le repère sensoriel.",
+          "S'arrêter à sa demande : un pied retiré, un regard qui se détourne — on arrête."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se rappeler la fourchette : le sourire social arrive souvent entre six et huit semaines, mais chaque enfant a son rythme — ce n'est ni une course ni un test.",
+        "Repérer les autres signes de lien : il se calme à ta voix, cherche ton visage, s'apaise à ton odeur.",
+        "Couper les comparaisons : les vidéos ne montrent que les réussites, jamais l'attente.",
+        "Le dire si cela pèse : parler de cette attente à la sage-femme, à la PMI ou à un proche allège beaucoup."
+      ],
+      "principe": "Le sourire ne crée pas le lien : il le rend visible. Ton bébé dialogue déjà avec toi par le regard, la voix et l'odeur — la fourchette est large, et l'attente ne dit rien de la qualité de ton lien avec lui.",
+      "erreurs_a_eviter": [
+        "Multiplier les stimulations pour « déclencher » un sourire — la surcharge produit l'effet inverse.",
+        "Interpréter l'absence de sourire comme un rejet ou un échec parental.",
+        "Comparer aux bébés du même âge — les écarts normaux sont importants.",
+        "Cesser de lui parler parce qu'« il ne répond pas » — c'est précisément ainsi que le dialogue se construit."
+      ],
+      "consulter_si": "Consulter si : bébé ne fixe pas ton visage, ne réagit pas aux bruits forts, ne sourit pas du tout vers trois mois, ne cherche jamais le contact, ou paraît anormalement mou → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition et de la vision. Si l'attente t'angoisse ou te déprime → en parler à la sage-femme, à la PMI ou à un psychologue périnatal."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Il ne me regarde pas / la vision en maturation",
+      "titre": "Son regard / une vision encore en construction",
+      "explication": "À un mois, la vision de ton bébé est loin d'être mature. Il voit net à une trentaine de centimètres — à peu près la distance entre son visage et le tien quand tu le nourris. Au-delà, tout est flou. Il perçoit surtout les forts contrastes, les visages, les mouvements lents. Son regard peut sembler vague, glisser, ne pas s'accrocher : ce n'est pas de l'indifférence, c'est un système visuel en construction. Ce qui l'aide, ce n'est pas plus de stimulation, mais des visages proches, des contrastes simples, et du temps.",
+      "ancrage": "Il ne t'évite pas : il ne te voit pas encore comme tu crois qu'il te voit. Approche-toi — à trente centimètres, tu es exactement à la bonne place.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — se rendre visible",
+        "etapes": [
+          "Se placer à trente centimètres : son visage face au tien, c'est là qu'il voit le mieux.",
+          "Bouger lentement : un mouvement rapide sort de son champ de perception.",
+          "Utiliser les contrastes : ton visage, les cheveux, les yeux — bien plus efficaces que n'importe quel jouet.",
+          "Profiter des bons moments : il voit mieux quand il est calme et éveillé, ni affamé ni endormi.",
+          "S'arrêter dès qu'il détourne : son regard qui fuit signale la saturation."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : un moment de présence, sans attente",
+        "etapes": [
+          "Bébé sur le dos, éveillé et détendu : lumière douce, pas de bruit autour.",
+          "Réchauffer ses pieds : les tenir dans tes paumes, immobiles.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Rester dans son champ : ton visage à trente centimètres pendant le geste.",
+          "S'arrêter à sa demande : ce moment n'a aucun objectif de performance."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Oublier les jouets d'éveil : à cet âge, ton visage est le meilleur support visuel qui existe.",
+        "Proposer des contrastes simples : noir et blanc, formes larges — les couleurs pastel ne l'intéressent pas encore.",
+        "Alterner les côtés : le prendre et le porter des deux côtés, pour qu'il ne tourne pas toujours la tête au même endroit.",
+        "Se rassurer sur la maturation : le regard s'accroche et suit de mieux en mieux au fil des semaines, chaque bébé à son rythme."
+      ],
+      "principe": "Un regard qui ne s'accroche pas encore est un regard qui mûrit, pas un regard qui refuse. À trente centimètres, ton visage est le meilleur outil d'éveil dont il dispose.",
+      "erreurs_a_eviter": [
+        "Agiter des objets devant son visage pour capter son attention — cela le sature.",
+        "Conclure à un désintérêt ou un problème de lien devant un regard flottant.",
+        "Multiplier les jouets d'éveil « stimulants » — inutiles à cet âge.",
+        "Le placer face à un écran, même quelques instants — aucune plus-value, et une sur-stimulation certaine."
+      ],
+      "consulter_si": "Consulter si : bébé ne fixe pas ton visage vers deux mois, ne suit pas un objet du regard, si ses yeux sont durablement rouges, larmoyants ou collés, si une pupille paraît blanche ou grise, ou si les yeux louchent en permanence → pédiatre sans attendre, qui orientera vers un ophtalmologue si nécessaire."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Peur de ne pas créer le lien / l'attachement se tisse",
+      "titre": "La peur de ne pas créer le lien / le tissage invisible",
+      "explication": "L'attachement n'est pas un déclic : c'est un tissage. Il se construit dans la répétition d'interactions minuscules — tu réponds à un pleur, tu le nourris, tu le changes, tu croises son regard, tu recommences. Des milliers de fois. Ce n'est pas spectaculaire, ce n'est pas romantique, et c'est exactement là que le lien se fabrique. Les recherches sur l'attachement montrent qu'un parent n'a pas besoin d'être parfaitement ajusté : il a besoin de revenir. C'est la constance, pas l'intensité du sentiment, qui construit la sécurité de ton bébé.",
+      "ancrage": "Tu es peut-être en train de construire le lien précisément pendant que tu crains de ne pas y arriver. Ce sont tes gestes répétés, pas ton état intérieur, qui font le travail.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — quand la peur monte",
+        "etapes": [
+          "Revenir au concret : il est nourri, changé, porté, en sécurité — c'est cela, le lien en construction.",
+          "Un temps de face-à-face : quelques minutes, ton visage près du sien, sans objectif.",
+          "Peau à peau : le contact agit indépendamment de ce que tu ressens sur le moment.",
+          "Nommer ce que tu vis : « j'ai peur de ne pas y arriver » — le dire à voix haute désamorce beaucoup.",
+          "Couper les comparaisons : fermer les réseaux, quitter la conversation qui te met en cause."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : un rendez-vous quotidien avec lui",
+        "etapes": [
+          "Un moment court et régulier : quelques minutes chaque jour, toujours au même moment.",
+          "Réchauffer ses pieds : les tenir dans tes paumes avant de commencer.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Se laisser regarder : ce temps n'a pas d'objectif — c'est un temps de lien, pour vous deux."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Compter les micro-interactions : chaque réponse à un pleur, chaque regard, chaque geste de soin est une brique du lien.",
+        "Retenir le principe de la réparation : ce qui construit la sécurité, ce n'est pas l'absence de ratés, c'est le retour après.",
+        "Sortir de l'isolement : un groupe de parents, un atelier PMI, une amie honnête — la peur grandit dans le silence.",
+        "Distinguer peur et détresse : une inquiétude qui traverse est banale ; une tristesse qui dure au-delà de deux semaines demande un avis."
+      ],
+      "principe": "L'attachement se tisse dans la répétition, pas dans l'intensité. Un parent qui doute et qui revient construit un lien solide — c'est le retour, jamais la perfection, qui fait la sécurité.",
+      "erreurs_a_eviter": [
+        "Attendre de « ressentir quelque chose de fort » avant de se sentir légitime.",
+        "Se comparer aux parents des réseaux sociaux — on y compare ses coulisses à leur vitrine.",
+        "Chercher une méthode qui garantirait un bon attachement — aucune n'existe.",
+        "Taire cette peur par honte — la dire est ce qui la désamorce."
+      ],
+      "consulter_si": "Consulter si : la peur s'accompagne d'une tristesse qui dure plus de deux semaines, d'un sentiment de vide ou de détachement vis-à-vis de ton bébé, de troubles du sommeil même quand il dort, ou de pensées noires → médecin, sage-femme, PMI ou psychologue périnatal sans attendre : la dépression post-partum se soigne bien. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Le co-parent reste à distance / il ne trouve pas sa place",
+      "titre": "La place du co-parent / des territoires à lui",
+      "explication": "Quand l'un des deux parents allaite ou passe l'essentiel du temps avec le bébé, l'autre peut se sentir spectateur : maladroit, en retrait, réduit au rôle d'assistant. Ce retrait n'est pas de l'indifférence, et il n'est pas une fatalité. Un bébé s'attache à plusieurs personnes, par des canaux différents : une odeur, une voix, une façon de porter, un rythme. Le co-parent ne construit pas le lien en « aidant » l'autre parent — il le construit en ayant des moments qui lui appartiennent, où il fait à sa façon, sans être corrigé.",
+      "ancrage": "Le lien ne se délègue pas, il se vit. Le co-parent a besoin de territoires à lui — et l'autre parent a besoin de lâcher un peu de contrôle sur la façon dont ils sont tenus.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — attribuer des territoires",
+        "etapes": [
+          "Choisir deux moments : le bain, le portage du soir, le rituel du coucher, une sortie — des moments identifiés, pas des tâches ponctuelles.",
+          "Confier entièrement : celui qui s'en occupe fait à sa façon, sans consignes ni corrections.",
+          "Sortir de la pièce : l'autre parent s'éloigne, physiquement — la présence qui surveille empêche le lien de se nouer.",
+          "Peau à peau du co-parent : torse nu, bébé contre lui — le contact fonctionne aussi bien.",
+          "Ne pas commenter après : ni « tu aurais dû », ni « moi je fais autrement »."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — le lien du co-parent",
+        "etapes": [
+          "Un temps quotidien : quelques minutes, toujours les mêmes, qui lui appartiennent.",
+          "Sa voix, souvent : lui parler, chanter, raconter — la voix est un canal de reconnaissance puissant.",
+          "Portage régulier : bébé contre lui, visage dégagé, menton décollé, en marchant lentement.",
+          "Un rituel à lui : une berceuse, une phrase, un geste — qui devient son repère.",
+          "Accepter la maladresse du début : le lien se construit dans la répétition, pas dans la technique."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Nommer le déséquilibre à deux : parler de ce qui coince avant que le ressentiment ne s'installe.",
+        "Lâcher le contrôle : l'autre parent fera différemment — différent n'est pas moins bien.",
+        "Impliquer sur la nuit : donner un biberon de lait exprimé, ou prendre le rendormissement — cela crée du lien et protège le sommeil de l'autre.",
+        "Se rappeler la temporalité : le lien du co-parent se construit souvent plus lentement, sans que cela dise quoi que ce soit de sa qualité future."
+      ],
+      "principe": "Un bébé s'attache à plusieurs adultes, par des canaux différents. Le co-parent trouve sa place quand il a des territoires à lui — pas quand il assiste.",
+      "erreurs_a_eviter": [
+        "Corriger systématiquement la façon de faire du co-parent — cela le décourage et l'éloigne.",
+        "Réduire le co-parent à un rôle logistique — les courses et le linge ne créent pas de lien.",
+        "Attendre qu'il « prenne les choses en main » sans lui laisser d'espace pour le faire.",
+        "Interpréter sa maladresse comme un manque d'amour."
+      ],
+      "consulter_si": "Consulter si : le co-parent se sent durablement exclu, triste, irritable ou détaché, s'il s'isole ou perd tout intérêt pour le bébé, ou si la tension dans le couple devient permanente → la dépression post-partum touche aussi les co-parents : en parler au médecin, à la sage-femme, à la PMI ou à un psychologue périnatal. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence."
+    }
+  ]
+}

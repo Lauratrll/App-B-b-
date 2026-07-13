@@ -1,0 +1,196 @@
+{
+  "mois": 2,
+  "tranche_age": "2 mois",
+  "categorie": {
+    "id": "digestion",
+    "nom": "Ventre & digestion",
+    "sous_titre": "Régurgitations, coliques, transit, inconfort",
+    "icone": "🫧"
+  },
+  "protocoles": [
+    {
+      "categorie": "digestion",
+      "situation": "Régurgitations qui persistent / après chaque repas",
+      "titre": "Les régurgitations à deux mois / ce qui reste banal",
+      "explication": "À deux mois, les régurgitations sont souvent à leur maximum : bébé boit davantage, et le muscle qui ferme le haut de l'estomac n'a toujours pas fini de mûrir. Elles s'atténueront progressivement dans les mois qui viennent. Tant que ton bébé prend du poids, boit avec plaisir, se montre confortable et joyeux, ces remontées restent banales — désagréables pour le linge, pas pour lui. Ce qui change l'analyse n'est jamais la quantité visible : ce sont les signes associés, et c'est sur eux que le médecin s'appuiera.",
+      "ancrage": "Le nombre de bavoirs n'est pas un critère médical. Ce que le pédiatre écoutera, c'est ton observation du confort de ton bébé — et sa courbe de poids.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — après la prise",
+        "etapes": [
+          "Rot sans hâte : bébé vertical contre ton épaule, dos droit, ta main à plat entre ses omoplates.",
+          "Rester vertical : le garder redressé contre toi un moment avant de le coucher.",
+          "Manipuler doucement : éviter de le remuer, le changer ou le faire jouer juste après.",
+          "Fractionner : proposer un peu moins et un peu plus souvent, si les grosses prises sont suivies de grosses remontées.",
+          "Coucher sur le dos : la règle ne change pas, même chez un bébé qui régurgite beaucoup."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — le confort de l'après-repas",
+        "etapes": [
+          "Contact vertical : bébé contre ton torse, sa tête au creux de ton épaule.",
+          "Immobilité : quelques minutes sans bouger, ta respiration lente contre lui.",
+          "Voix basse : lui parler doucement, sans le bercer vivement.",
+          "Vêtements desserrés : vérifier qu'aucun élastique ne comprime son ventre.",
+          "Position de repos : une fois calme, le coucher à plat sur le dos, sans rien surélever."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Distinguer régurgitation et vomissement : la première remonte sans effort, le second est projeté avec contraction — le vomissement répété se signale.",
+        "Suivre les vrais repères : poids, appétit, humeur — un bébé qui régurgite mais grossit bien va bien.",
+        "Ne rien surélever soi-même : coussins, cales et matelas inclinés augmentent le risque d'étouffement.",
+        "Ne rien épaissir sans avis : ni lait, ni préparation, ni ajout — cela se décide avec le médecin."
+      ],
+      "principe": "Ce n'est pas la quantité qui inquiète, ce sont les signes associés. Un bébé qui régurgite, prend du poids et reste confortable n'a besoin de rien d'autre que de temps.",
+      "erreurs_a_eviter": [
+        "Surélever la tête du lit ou glisser un coussin sous le matelas — bébé glisse et se retrouve en position d'étouffement.",
+        "Coucher sur le côté ou sur le ventre parce qu'il régurgite.",
+        "Donner un médicament anti-reflux sans avis médical.",
+        "Changer de préparation de sa propre initiative."
+      ],
+      "consulter_si": "Consulter si : les régurgitations s'accompagnent de pleurs importants pendant ou après les prises, d'un refus de boire, d'une cassure de la courbe de poids, de vomissements en jet, de sang ou de bile, de toux ou de gêne respiratoire répétée, ou de malaises → pédiatre sans attendre ; le 15 en cas de malaise ou de difficulté à respirer.",
+      "source": "Source : Haute Autorité de Santé — fiche « Reflux gastro-œsophagien chez l'enfant de moins d'un an » (2024)."
+    },
+    {
+      "categorie": "digestion",
+      "situation": "Coliques encore présentes / jambes repliées, ventre dur",
+      "titre": "La fin du pic des coliques / tenir la dernière ligne droite",
+      "explication": "À deux mois, les épisodes d'inconfort digestif sont encore là, mais ils commencent souvent à s'espacer. Le tube digestif continue de mûrir, la coordination s'améliore, et ces crises disparaissent en général avant trois mois — chaque bébé à son rythme. Tu es dans la dernière ligne droite, celle où l'on est le plus fatigué et le plus tenté d'essayer n'importe quel remède. C'est précisément le moment de ne rien changer sans avis : ce qui protège ton bébé, à ce stade, c'est surtout que toi tu ne t'effondres pas.",
+      "ancrage": "Il n'y a pas de remède à trouver. Il y a une fin de parcours à tenir — et la seule chose qui la rende tenable, c'est un relais organisé.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — au cœur de la crise",
+        "etapes": [
+          "Portage ventre contre toi : bébé à plat contre ton torse, tête soutenue, marche lente.",
+          "Position en flexion : le tenir jambes légèrement repliées vers le ventre, sans forcer.",
+          "Chaleur de ta main : ta paume réchauffée, posée à plat sur son ventre, immobile.",
+          "Réduire les entrées : lumière basse, silence, un seul adulte.",
+          "Se relayer : passer le relais dès que la tension monte en toi — jamais après."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : apaisement du soir",
+        "etapes": [
+          "Choisir un moment calme : après le bain ou en journée, jamais au cœur de la crise.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied — apaisement.",
+          "S'arrêter à sa demande : s'il se crispe ou retire son pied, on arrête sans insister."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Protéger le parent en priorité : à ce stade, l'épuisement parental est le vrai risque — le relais passe avant tout remède.",
+        "Ne rien changer seul.e : probiotiques, tisanes, changement de lait se décident avec le pédiatre.",
+        "Ajuster la prise : une bouche bien positionnée avale moins d'air — c'est la piste la plus utile.",
+        "Se fixer l'horizon : ces épisodes s'atténuent en général avant trois mois."
+      ],
+      "principe": "À ce stade, le meilleur protocole n'est plus pour bébé : il est pour toi. Un parent relayé traverse la fin du pic ; un parent isolé s'épuise et s'expose.",
+      "erreurs_a_eviter": [
+        "Multiplier les remèdes trouvés en ligne — beaucoup sont inutiles, certains dangereux avant un an.",
+        "Utiliser des huiles essentielles — contre-indiquées chez le nourrisson, y compris en diffusion.",
+        "Changer de lait de sa propre initiative.",
+        "Rester seul.e des heures avec les pleurs — l'isolement est le principal facteur de risque de perte de contrôle."
+      ],
+      "consulter_si": "Consulter si : les pleurs s'accompagnent de fièvre, de vomissements en jet, de sang dans les selles, d'un ventre dur et tendu en permanence, d'un refus de boire, d'une cassure de la courbe de poids, ou d'un bébé anormalement mou → pédiatre sans délai. Si tu ne tiens plus : poser bébé sur le dos dans son lit, appeler un proche ou Allo Parents Bébé (0 800 00 34 56).",
+      "source": "Source : mpedia.fr (Association Française de Pédiatrie Ambulatoire) — pleurs du bébé et coliques du nourrisson."
+    },
+    {
+      "categorie": "digestion",
+      "situation": "Le rythme des selles change brutalement / je m'inquiète",
+      "titre": "Les selles qui s'espacent / rare n'est pas constipé",
+      "explication": "Vers deux mois, beaucoup de bébés allaités passent brutalement de plusieurs selles par jour à une tous les deux, trois, parfois plusieurs jours. Ce changement est spectaculaire et déroutant — il est le plus souvent normal : le lait maternel laisse peu de résidus, et l'intestin devient plus efficace. Ce qui définit la constipation n'est pas la fréquence, mais la consistance et le confort. Des selles molles, même très espacées, chez un bébé au ventre souple et de bonne humeur, ce n'est pas une constipation.",
+      "ancrage": "Le changement de rythme n'est pas une alerte. Regarde deux choses seulement : la consistance des selles, et le confort de ton bébé.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — observer avant d'agir",
+        "etapes": [
+          "Regarder la consistance : molles, même rares, ne signent pas une constipation ; dures et sèches, oui.",
+          "Palper le ventre : souple et détendu entre les selles, ou dur et tendu en permanence.",
+          "Observer le confort : bébé qui pousse, rougit, puis se détend, boit et dort bien — cela va.",
+          "Compter les couches mouillées : plusieurs par jour indiquent une hydratation suffisante.",
+          "Ne rien introduire : ni eau, ni jus, ni tisane, ni suppositoire, ni thermomètre."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — confort du ventre",
+        "etapes": [
+          "Bébé sur le dos : plan ferme, jambes libres, pièce calme.",
+          "Flexion douce des jambes : ramener lentement ses genoux vers son ventre, puis relâcher.",
+          "Main posée sur le ventre : ta paume réchauffée, immobile, pression douce et constante.",
+          "Temps sur le ventre, éveillé et surveillé : quelques minutes, jamais pour dormir.",
+          "S'arrêter dès qu'il se crispe : sa réaction est la seule mesure."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne jamais modifier une préparation seul.e : ni la dose, ni la dilution, ni la marque.",
+        "Ne pas donner d'eau : avant six mois, le lait suffit.",
+        "Repérer ce qui alerte : selles dures et sèches, traces de sang, ventre dur, refus de boire.",
+        "Noter quelques repères : consistance et confort sur quelques jours, pour en parler au professionnel."
+      ],
+      "principe": "La fréquence des selles, à elle seule, ne dit presque rien. C'est la consistance et le confort qui comptent — et rien ne s'introduit dans le siège d'un nourrisson à la maison.",
+      "erreurs_a_eviter": [
+        "Stimuler l'anus avec un thermomètre, un coton-tige ou un suppositoire.",
+        "Donner de l'eau, du jus ou une tisane à un bébé de moins de six mois.",
+        "Changer de lait pour « relancer le transit » sans avis médical.",
+        "S'alarmer d'une semaine sans selle chez un bébé allaité au ventre souple et de bonne humeur."
+      ],
+      "consulter_si": "Consulter si : les selles sont dures et sèches, si bébé se plaint en poussant, si tu vois des traces de sang, si le ventre est dur et tendu, s'il vomit, refuse de boire, ne prend pas de poids ou mouille très peu ses couches → pédiatre, sage-femme ou PMI. Le 15 en cas de ventre dur avec vomissements et arrêt total des selles et des gaz.",
+      "source": "Source : mpedia.fr (Association Française de Pédiatrie Ambulatoire) — les selles de bébé de 0 à 6 mois et la constipation du bébé."
+    },
+    {
+      "categorie": "digestion",
+      "situation": "Il se cambre pendant la tétée / inconfort après le repas",
+      "titre": "Il se cambre pendant la tétée / explorer l'inconfort",
+      "explication": "Ton bébé se cambre, se raidit, tourne la tête, lâche le sein ou la tétine, puis y revient. Ce mouvement peut avoir beaucoup d'explications banales : un flux trop rapide qu'il ne gère pas, de l'air avalé, une position qui tire, un débit de tétine inadapté, une fatigue, ou un besoin de pause. À toi de décrire, pas de conclure : nommer une cause reviendrait à conclure à sa place, et ce n'est ni ton rôle ni le mien. Ce que tu peux faire, c'est explorer les pistes mécaniques et rassembler des observations précises pour le professionnel.",
+      "ancrage": "Tu n'as pas à savoir pourquoi. Tu as à explorer ce qui se règle simplement — et à décrire précisément ce que tu vois, pour que le professionnel, lui, puisse conclure.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — explorer les pistes mécaniques",
+        "etapes": [
+          "Interrompre et reprendre : rompre la succion avec un doigt propre, redresser bébé, reproposer calmement.",
+          "Vérifier l'alignement : oreille, épaule et hanche sur une même ligne, ventre contre toi, nez dégagé.",
+          "Ralentir le flux : position semi-allongée, ou exprimer un peu de lait avant la prise.",
+          "Vérifier la tétine : un débit trop rapide ou trop lent suffit à provoquer ce mouvement.",
+          "Pause verticale : le redresser, proposer le rot, puis reprendre sans forcer."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — un repas plus calme",
+        "etapes": [
+          "Peau à peau avant : quelques minutes contre toi, sans objectif de prise.",
+          "Nourrir avant les pleurs : un bébé calme gère bien mieux la prise qu'un bébé affamé.",
+          "Environnement silencieux : pièce calme, lumière douce, pas d'écran.",
+          "Position verticale après : le garder redressé contre toi, sans le remuer.",
+          "S'arrêter s'il se cambre franchement : mieux vaut une pause et une reprise plus tard qu'une lutte."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Noter des observations précises : à quel moment de la prise, à quelle fréquence, avec quels autres signes — c'est ce que le professionnel exploitera.",
+        "Ne rien conclure seul.e : ni reflux, ni intolérance, ni allergie — ces hypothèses appartiennent au médecin.",
+        "Demander une observation de tétée : consultante en lactation (IBCLC), sage-femme ou PMI règlent souvent la question en une séance.",
+        "Ne rien changer sans avis : ni lait, ni préparation, ni traitement."
+      ],
+      "principe": "Décrire n'est pas conclure. Ton rôle est d'explorer ce qui se règle mécaniquement et d'apporter des observations précises — la conclusion appartient au professionnel.",
+      "erreurs_a_eviter": [
+        "Nommer une pathologie à partir de ce que tu lis en ligne — cela oriente à tort et retarde le bon avis.",
+        "Changer de lait ou de préparation de sa propre initiative.",
+        "Donner un médicament sans avis médical.",
+        "Insister en maintenant bébé au sein ou au biberon alors qu'il se cambre et pleure."
+      ],
+      "consulter_si": "Consulter si : bébé se cambre à chaque prise, pleure pendant ou après les repas de façon répétée, refuse de boire, ne prend pas de poids, vomit en jet, tousse ou présente une gêne respiratoire pendant les prises, ou paraît en douleur → pédiatre sans attendre ; le 15 en cas de gêne à respirer ou de malaise.",
+      "source": "Source : Haute Autorité de Santé — fiche « Reflux gastro-œsophagien chez l'enfant de moins d'un an » (2024)."
+    }
+  ]
+}

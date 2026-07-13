@@ -1,0 +1,196 @@
+{
+  "mois": 1,
+  "tranche_age": "1 mois",
+  "categorie": {
+    "id": "sommeil",
+    "nom": "Sommeil",
+    "sous_titre": "Cycles courts, transition bras-lit, sursauts",
+    "icone": "😴"
+  },
+  "protocoles": [
+    {
+      "categorie": "sommeil",
+      "situation": "Ne dort que dans les bras / se réveille dès qu'on le pose",
+      "titre": "La transition bras-lit / par étapes, sans forcer",
+      "explication": "À un mois, ton bébé s'endort dans tes bras et se réveille dès que tu le poses. Deux mécanismes se conjuguent : il a besoin de ton système nerveux pour calmer le sien, et la perte d'appui au moment de la pose déclenche un réflexe de sursaut. Rien de tout cela ne relève de la mauvaise habitude — c'est le fonctionnement normal de cet âge. Ce qui se travaille, ce n'est pas son besoin de contact, mais la manière de faire la transition : le moment choisi, l'ordre des appuis, le temps de contact maintenu après la pose.",
+      "ancrage": "Tu ne « rates » pas la pose : tu apprends un geste technique. Le besoin de contact, lui, n'a pas à être corrigé — il a à être accompagné.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — la transition en étapes",
+        "etapes": [
+          "Attendre le sommeil profond : bras relâchés, mains ouvertes, respiration lente et régulière.",
+          "Rester collé.e : se pencher très près du matelas, sans distance de chute.",
+          "Poser les pieds d'abord : puis le siège, puis le dos, la tête en dernier — jamais la tête d'abord.",
+          "Maintenir tes deux mains : une sur le torse, une sur les jambes, immobiles, quelques instants.",
+          "Se retirer par étapes : une main, puis l'autre, ta voix continuant pendant le retrait."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : accompagner l'endormissement",
+        "etapes": [
+          "Bébé sur le dos dans son lit : lumière tamisée, pièce calme, ta voix posée.",
+          "Réchauffer ses pieds : les tenir dans tes paumes avant de commencer.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Terminer par l'immobilité : une main posée sur son torse jusqu'à ce que sa respiration s'installe."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Varier les endormisseurs : bras, portage, lit avec ta main posée — pour qu'aucun ne devienne l'unique voie possible.",
+        "Faire endormir par l'autre parent : cela desserre la charge et élargit ses repères de sécurité.",
+        "Accepter l'échec d'une pose : réessayer au cycle suivant n'est pas un recul.",
+        "Ne rien viser d'autre pour l'instant : l'endormissement autonome se construira plus tard, chaque enfant à son rythme."
+      ],
+      "principe": "La co-régulation n'est pas une mauvaise habitude, c'est une étape. Ce qui se travaille à un mois, c'est la technique de pose — pas le besoin de contact, qui a simplement à être accompagné.",
+      "erreurs_a_eviter": [
+        "Laisser pleurer un bébé d'un mois pour lui « apprendre » à s'endormir — inefficace et source de stress.",
+        "Poser bébé tête la première — la sensation de chute déclenche le sursaut.",
+        "Ajouter cale-bébé, coussin ou tour de lit pour recréer les bras — ces objets augmentent le risque d'étouffement.",
+        "Culpabiliser de le bercer — bercer n'hypothèque rien de son sommeil futur."
+      ],
+      "consulter_si": "Consulter si : bébé ne parvient jamais à s'endormir, même porté et nourri, plusieurs jours de suite ; s'il est anormalement mou ou difficile à réveiller ; si le manque de sommeil devient dangereux pour toi → pédiatre, PMI, ou Allo Parents Bébé (0 800 00 34 56). Le couchage reste toujours sur le dos, dans son propre lit, matelas ferme, sans objet autour.",
+      "source": "Source : Haute Autorité de Santé et Santé publique France — recommandations sur le couchage sécurisé et la prévention de la mort inattendue du nourrisson."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Jour et nuit inversés / le rythme se construit",
+      "titre": "Le rythme jour/nuit / renforcer les repères",
+      "explication": "À un mois, l'horloge interne de ton bébé n'est toujours pas mature : elle se cale progressivement au fil des mois, chaque enfant à son rythme. Il ne confond pas le jour et la nuit — il ne les distingue pas encore. Ce que tu peux faire n'est pas de lui « apprendre » la nuit, mais de renforcer les signaux qui aideront son horloge à se synchroniser : lumière et vie normale le jour, pénombre et calme absolu la nuit. Ces repères ne donnent pas de résultat immédiat. Ils sèment — et la récolte arrive plus tard.",
+      "ancrage": "Rien de ce que tu fais n'accélère la maturation de son horloge. Poser les repères maintenant reste utile, même si les nuits ne changent pas encore.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — renforcer les synchroniseurs",
+        "etapes": [
+          "Lumière du jour dès le matin : ouvrir les volets, sortir dehors quelques minutes — c'est le signal le plus puissant.",
+          "Vivre normalement le jour : siestes dans la pièce de vie, bruits de la maison, conversations.",
+          "Nuit sans stimulation : lumière très basse, aucun jeu, aucun échange de regard prolongé.",
+          "Changes de nuit minimalistes : uniquement si nécessaire, dans la pénombre, en silence.",
+          "Recoucher directement : après la tétée de nuit, sans temps d'éveil ajouté."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : préparer la nuit",
+        "etapes": [
+          "Un moment fixe : après le bain, toujours au même moment de la soirée.",
+          "Réchauffer ses pieds : les tenir dans tes paumes quelques instants.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Terminer dans la pénombre : coucher bébé sur le dos sans relancer la lumière ni la parole."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Compter en régularité, pas en résultat : c'est la répétition des signaux qui agit, pas leur intensité.",
+        "Se relayer la nuit : chaque parent dispose d'un bloc de sommeil continu, à tour de rôle.",
+        "Protéger ton propre sommeil : dormir quand bébé dort, même en journée — ce n'est pas un luxe.",
+        "Se rappeler la fourchette : le rythme se cale souvent entre trois et six mois, avec de grandes variations d'un enfant à l'autre."
+      ],
+      "principe": "On n'apprend pas la nuit à un bébé d'un mois : on lui donne des repères et on laisse son horloge mûrir. La régularité des signaux compte bien plus que la fermeté des horaires.",
+      "erreurs_a_eviter": [
+        "Garder bébé éveillé le jour pour « épuiser sa réserve » — la sur-fatigue dégrade les nuits.",
+        "Allumer la lumière et parler normalement pendant les réveils nocturnes — cela relance l'éveil.",
+        "Instaurer des horaires stricts à cet âge — son horloge ne les suit pas encore.",
+        "Comparer aux nuits d'un autre bébé du même âge — la fourchette est très large."
+      ],
+      "consulter_si": "Consulter si : bébé est difficile à réveiller pour les prises, dort de façon anormalement continue sans réclamer, ou au contraire ne dort quasiment jamais avec une agitation constante et une prise de poids insuffisante → pédiatre ou PMI. Rappel du couchage sûr : sur le dos, dans son lit, matelas ferme, sans objet ni cale, dans la chambre des parents les six premiers mois.",
+      "source": "Source : Haute Autorité de Santé et Santé publique France — recommandations sur le couchage sécurisé et la prévention de la mort inattendue du nourrisson."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Mini-siestes de 20 minutes / les cycles sont courts",
+      "titre": "Les mini-siestes / des cycles courts, et c'est normal",
+      "explication": "Ton bébé s'endort, et vingt à quarante minutes plus tard, il est réveillé. C'est décourageant — et pourtant c'est la norme. Les cycles de sommeil du nourrisson sont courts, et l'enchaînement de deux cycles sans se réveiller est une compétence qui vient plus tard, chaque enfant à son rythme. Une sieste courte n'est donc pas une sieste ratée : c'est un cycle complet. Chercher à allonger les siestes par la contrainte ne fonctionne pas ; ce qui aide, c'est de respecter ses signaux de fatigue et d'éviter la sur-fatigue, qui rend l'endormissement plus difficile encore.",
+      "ancrage": "Une sieste de vingt minutes n'est pas un échec : c'est un cycle. Ton objectif n'est pas d'allonger ses siestes — c'est d'éviter qu'il ne s'épuise entre deux.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — au réveil trop court",
+        "etapes": [
+          "Attendre avant d'intervenir : une ou deux minutes — certains réveils se rendorment seuls.",
+          "Proposer le contact : main posée, voix basse, sans le sortir du lit tout de suite.",
+          "Accepter le réveil : s'il est bien éveillé et de bonne humeur, la sieste est finie — on ne force pas.",
+          "Repérer les signaux de fatigue suivants : bâillements, regard qui se perd, agitation — recoucher à ce moment-là.",
+          "Raccourcir le temps d'éveil : à un mois, il tient éveillé très peu de temps entre deux sommeils."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : favoriser la détente avant la sieste",
+        "etapes": [
+          "Avant le coucher : bébé calme, sur le dos, lumière tamisée.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : un pied retiré, une crispation — on arrête sans insister."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Surveiller la sur-fatigue : un bébé qui reste éveillé trop longtemps s'endort moins bien, pas mieux.",
+        "Peaufiner l'environnement : pièce entre 18 et 20 °C, pénombre, bruit de fond bas et constant.",
+        "Ne pas courir après les siestes longues : les siestes s'allongent d'elles-mêmes avec la maturation.",
+        "Accepter les siestes en contact : à cet âge, une sieste en portage est une vraie sieste."
+      ],
+      "principe": "Une sieste courte est un cycle complet, pas un problème à résoudre. Ce qui aide n'est pas d'allonger la sieste, mais d'éviter la sur-fatigue en respectant ses signaux.",
+      "erreurs_a_eviter": [
+        "Réveiller ou stimuler bébé pour « caler » un rythme de siestes — cela crée de la sur-fatigue.",
+        "Le laisser éveillé longtemps entre deux siestes en espérant qu'il dorme mieux ensuite.",
+        "Multiplier les accessoires pour prolonger la sieste — balancelle, transat, coque : jamais pour dormir.",
+        "Comparer la durée de ses siestes à celle d'un autre bébé — la variabilité est énorme."
+      ],
+      "consulter_si": "Consulter si : bébé dort très peu au total et ne prend pas de poids, s'il est agité en permanence et inconsolable, s'il est difficile à réveiller pour les prises, ou s'il présente une gêne à respirer ou des pauses respiratoires → pédiatre sans délai ; le 15 en cas de trouble respiratoire. Rappel : le sommeil se fait sur le dos, sur un plan ferme, jamais en transat ni en coque.",
+      "source": "Source : Haute Autorité de Santé et Santé publique France — recommandations sur le couchage sécurisé et la prévention de la mort inattendue du nourrisson."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Sursauts qui le réveillent / le réflexe de Moro",
+      "titre": "Les sursauts nocturnes / un couchage contenu et sûr",
+      "explication": "Ton bébé dort, et soudain ses bras s'écartent, ses mains s'ouvrent en éventail : il se réveille en pleurant. C'est le réflexe de Moro, un réflexe archaïque normal, présent à la naissance et qui s'atténue de lui-même au fil des premiers mois. On ne le supprime pas : on amortit ce qui le déclenche. Un couchage contenu — bras ramenés près du corps, jambes libres et pliées, sur le dos — réduit fortement ces réveils. Mais la contenance ne se fait jamais au prix de la sécurité : rien ne couvre le visage, rien n'entrave les hanches, rien ne traîne dans le lit.",
+      "ancrage": "Ce n'est pas toi qui le réveilles : c'est un réflexe que son cerveau n'a pas encore rangé. Il existe une façon de le coucher qui le déclenche beaucoup moins.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — le coucher contenu",
+        "etapes": [
+          "Emmailloter le haut du corps, si cela l'apaise : bras ramenés près du torse, tissu léger, jamais serré.",
+          "Laisser les jambes libres : hanches et genoux fléchis et mobiles — jamais de jambes tendues et serrées.",
+          "Coucher sur le dos : toujours, sans exception, même emmailloté.",
+          "Visage entièrement dégagé : aucun tissu ne remonte au-dessus des épaules.",
+          "Garder tes mains posées après la pose : une sur le torse, une sur les jambes, immobiles quelques instants."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : détendre avant le coucher",
+        "etapes": [
+          "Juste avant la nuit : bébé calme, dans son lit, lumière basse.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du gros orteil : appui léger et maintenu quelques secondes, sans tirer.",
+          "Finir mains posées : une main sur le torse, le temps que sa respiration se pose."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Vérifier la sécurité du lit : matelas ferme, drap tendu, aucun objet — pas de doudou, de couverture ni de tour de lit.",
+        "Préchauffer le lit avec ta main : le choc de température participe au réveil.",
+        "Arrêter l'emmaillotage dès qu'il cherche à se retourner : à partir de ce moment, il devient dangereux.",
+        "Attendre la maturation : le réflexe s'atténue de lui-même au fil des mois, chaque bébé à son rythme."
+      ],
+      "principe": "On n'annule pas un réflexe archaïque : on évite de le déclencher. Un couchage contenu, sur le dos, jambes libres et visage dégagé, est à la fois le plus efficace et le seul sûr.",
+      "erreurs_a_eviter": [
+        "Emmailloter les jambes serrées et tendues — mauvais pour le développement des hanches.",
+        "Laisser un tissu remonter sur le visage ou utiliser une couverture dans le lit — risque d'étouffement.",
+        "Coucher sur le côté ou sur le ventre pour éviter les sursauts — le dos reste la seule position sûre.",
+        "Utiliser cale-bébé, réducteur ou coussin de positionnement — ces dispositifs augmentent le risque d'enfouissement."
+      ],
+      "consulter_si": "Consulter si : le réflexe de sursaut est absent d'un seul côté, si tu observes des mouvements rythmés et répétés que tu ne peux pas arrêter en tenant le membre, une raideur permanente ou une mollesse inhabituelle → pédiatre ; le 15 en cas de mouvements anormaux avec perte de contact. Rappel : couchage sur le dos, matelas ferme, lit vide, chambre des parents les six premiers mois.",
+      "source": "Source : Haute Autorité de Santé et Santé publique France — recommandations sur le couchage sécurisé et la prévention de la mort inattendue du nourrisson."
+    }
+  ]
+}

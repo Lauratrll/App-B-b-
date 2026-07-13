@@ -1,0 +1,240 @@
+{
+  "mois": 0,
+  "tranche_age": "0–4 semaines",
+  "categorie": {
+    "id": "alim",
+    "nom": "Alimentation",
+    "sous_titre": "Sein, biberon, rythme des prises",
+    "icone": "🤱"
+  },
+  "protocoles": [
+    {
+      "categorie": "alim",
+      "situation": "Ne prend pas bien le sein / prise douloureuse ou peu efficace",
+      "titre": "La prise du sein / quand ça fait mal",
+      "explication": "Une tétée bien positionnée n'est pas douloureuse. Si tu as mal, ce n'est ni une fatalité, ni le signe que tu n'es pas faite pour allaiter : c'est presque toujours une question de position et de prise. Quand bébé n'attrape que le mamelon, il tire, il pince, il se fatigue et il transfère peu de lait. Quand il ouvre grand et prend une bonne part de l'aréole, la succion devient efficace et confortable. Cela s'ajuste, souvent en quelques essais, parfois avec l'aide d'un professionnel — et cela vaut la peine de demander tôt.",
+      "ancrage": "La douleur n'est pas le prix à payer. C'est un signal d'ajustement, pas un verdict sur ta capacité à nourrir ton bébé. Demander de l'aide dès les premiers jours change tout.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — reprendre la prise",
+        "etapes": [
+          "Interrompre si ça pince : glisser un doigt propre dans le coin de sa bouche pour rompre la succion, puis recommencer.",
+          "Aligner son corps : oreille, épaule et hanche sur une même ligne, ventre contre toi, nez face au mamelon.",
+          "Attendre la grande ouverture : stimuler sa lèvre supérieure et attendre une bouche grande ouverte, comme un bâillement.",
+          "Amener bébé au sein : c'est lui qui vient à toi, menton en contact avec le sein, nez dégagé — jamais le sein qui va vers lui.",
+          "Vérifier les lèvres : retroussées vers l'extérieur, en forme de lèvres de poisson, et une bonne part de l'aréole dans la bouche."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — récupérer entre deux tétées",
+        "etapes": [
+          "Soulager après la tétée : quelques gouttes de ton lait étalées sur le mamelon, puis laisser sécher à l'air libre.",
+          "Changer de position : varier madone, ballon de rugby, allongée sur le côté — chaque position sollicite la bouche autrement.",
+          "Se poser soi-même : dos calé, épaules basses, coussins sous les bras — une mère crispée tient moins longtemps.",
+          "Peau à peau entre les tétées : sans objectif de téter, juste pour laisser bébé retrouver le sein à son rythme.",
+          "S'hydrater et manger : garder de l'eau et un en-cas à portée de main avant de t'installer."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Demander de l'aide tôt : consultante en lactation (IBCLC), sage-femme ou PMI dès les premiers jours de douleur — pas au bout de trois semaines.",
+        "Repérer les signes d'efficacité : déglutitions audibles, couches mouillées régulières, bébé détendu à la fin — ce sont les vrais indicateurs, pas la durée.",
+        "Surveiller ton confort : crevasses, douleur persistante, mamelon déformé après la tétée sont des signes d'ajustement nécessaire.",
+        "Faire vérifier la bouche de bébé : un frein de langue restrictif peut gêner la prise — cela s'évalue par un professionnel formé, jamais à l'œil nu."
+      ],
+      "principe": "Une tétée efficace est une tétée confortable. La douleur n'est pas un passage obligé : elle indique un ajustement à faire, et cet ajustement s'obtient plus vite avec un professionnel qu'en persévérant seule.",
+      "erreurs_a_eviter": [
+        "Serrer les dents en attendant que « ça passe » — la douleur entretient les crevasses et fait chuter la production.",
+        "Limiter la durée des tétées pour protéger les mamelons — c'est la prise qui blesse, pas la durée.",
+        "Introduire un biberon en urgence sans avoir cherché l'ajustement — cela peut compliquer le retour au sein.",
+        "Juger la réussite de la tétée à la quantité visible — au sein, la quantité ne se voit pas ; on observe bébé, pas le lait."
+      ],
+      "consulter_si": "Consulter si : la douleur persiste malgré les corrections de position, si des crevasses saignent, si un sein devient rouge, dur et douloureux avec de la fièvre, ou si bébé ne reprend pas son poids de naissance dans les délais attendus → sage-femme, consultante en lactation (IBCLC), PMI ou pédiatre. Une pesée de contrôle rapide lève la plupart des doutes.",
+      "source": "Source : mpedia.fr (Association Française de Pédiatrie Ambulatoire) — position et prise du sein."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Tétées très fréquentes / toutes les heures",
+      "titre": "Les tétées rapprochées / physiologique ou signal ?",
+      "explication": "Un nouveau-né tète souvent : huit à douze fois par vingt-quatre heures est courant, et certaines périodes de la journée voient les tétées se regrouper — parfois toutes les heures pendant une soirée entière. C'est physiologique : l'estomac est minuscule, le lait maternel se digère vite, et ces salves stimulent la production. Cela ne signifie pas que tu manques de lait. Ce qui compte, ce n'est pas la fréquence : ce sont les signes d'efficacité — déglutitions, couches, courbe de poids. La fréquence inquiète ; les indicateurs objectifs rassurent.",
+      "ancrage": "Téter souvent n'est pas un échec de ton lait : c'est le fonctionnement normal des premières semaines. Ton doute est légitime, et il se lève avec une pesée, pas avec une intuition.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — vérifier ce qui compte vraiment",
+        "etapes": [
+          "Écouter les déglutitions : un « k-a » régulier pendant la tétée signe un transfert de lait réel.",
+          "Compter les couches : plusieurs couches bien mouillées par jour et des selles régulières sont les meilleurs indicateurs du quotidien.",
+          "Observer bébé après : détendu, mains ouvertes, endormi ou calme — c'est un bébé rassasié.",
+          "Proposer les deux seins : laisser le premier se vider avant de proposer le second, sans chronomètre.",
+          "S'installer confortablement : ces journées se traversent en position calée, avec de l'eau et de quoi manger à portée."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — traverser les journées de tétées groupées",
+        "etapes": [
+          "Créer un nid : un endroit dédié, calé, où tu peux rester une heure sans te lever.",
+          "Peau à peau prolongé : il rassure bébé et facilite l'installation de la lactation.",
+          "Se faire relayer sur tout le reste : le linge, les repas, les visites — pas sur les tétées.",
+          "Se reposer en même temps que lui : la sieste pendant la tétée, en position sécurisée et éveillée, reste du repos.",
+          "Ne pas chronométrer : ni la durée, ni l'intervalle — l'horloge ajoute du stress sans rien apporter."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Connaître les pics de croissance : autour de trois semaines puis six semaines, les tétées se rapprochent quelques jours puis se réespacent — c'est une commande de production, pas un manque.",
+        "Se méfier des compléments réflexes : donner un biberon « pour être sûr » diminue la stimulation du sein et peut réduire la production.",
+        "Faire peser bébé : une courbe de poids qui progresse est la réponse la plus fiable à la question du manque de lait.",
+        "Demander un avis en cas de doute : consultante en lactation (IBCLC), sage-femme ou PMI — un avis précoce évite un sevrage subi."
+      ],
+      "principe": "La fréquence des tétées ne mesure pas la qualité de ton lait. Les seuls indicateurs fiables sont les couches, les déglutitions et la courbe de poids. Chaque bébé a son propre rythme, et la fourchette est large.",
+      "erreurs_a_eviter": [
+        "Espacer les tétées à l'horloge pour « créer un rythme » — cela réduit la stimulation et le transfert.",
+        "Conclure au manque de lait sur la base d'un bébé qui pleure ou d'un sein souple — aucun des deux n'est un indicateur.",
+        "Multiplier les tisanes ou compléments censés augmenter la production — la stimulation régulière reste ce qui agit vraiment.",
+        "Se comparer aux rythmes d'autres bébés — la fourchette normale est très large."
+      ],
+      "consulter_si": "Consulter si : bébé ne reprend pas son poids de naissance dans les délais attendus, s'il mouille très peu ses couches, s'il est difficile à réveiller pour les tétées, s'il paraît toujours insatisfait après avoir tété, ou si les tétées sont douloureuses → sage-femme, consultante en lactation (IBCLC), PMI ou pédiatre pour une pesée et une observation de tétée.",
+      "source": "Source : mpedia.fr (Association Française de Pédiatrie Ambulatoire) — position et prise du sein."
+    },
+    {
+      "categorie": "alim",
+      "situation": "S'endort en buvant / sein ou biberon avant satiété",
+      "titre": "S'endort en buvant / terminer la prise en douceur",
+      "explication": "Téter demande un effort considérable à un nouveau-né. Le calme du contact, la chaleur, la succion : tout invite au sommeil. S'endormir au sein ou au biberon est normal — cela devient un point d'attention seulement quand bébé s'endort avant d'avoir assez bu, se réveille peu après affamé, et repart dans des prises courtes et fréquentes qui l'épuisent. L'objectif n'est pas de le tenir éveillé de force, mais de le réveiller juste assez pour qu'il termine sa prise, doucement, sans le stimuler à l'excès.",
+      "ancrage": "Le réveiller en douceur n'est pas le brusquer. Tu ne cherches pas à le maintenir éveillé : tu l'aides à finir ce qu'il a commencé, pour qu'il dorme ensuite vraiment rassasié.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — le réveiller juste assez",
+        "etapes": [
+          "Découvrir un peu : lui retirer une couche de vêtement — la baisse légère de température relance la succion.",
+          "Compression douce du sein : une pression de ta main sur le sein relance le flux quand bébé ralentit.",
+          "Changer de côté : le mouvement du changement de sein le réveille souvent naturellement.",
+          "Stimuler ses pieds : les frotter doucement dans ta main, ou passer un doigt sous la plante.",
+          "Proposer le rot puis reprendre : un temps vertical entre deux, puis on repropose sans forcer."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — relancer sans sur-stimuler",
+        "etapes": [
+          "Contact peau à peau : le déshabiller et le poser contre toi relance souvent la succion mieux que tout le reste.",
+          "Toucher léger de la plante des pieds : du talon vers les orteils, un ou deux passages — juste pour l'éveiller.",
+          "Changer sa position : le redresser légèrement, sans le sortir du contact.",
+          "Voix douce et régulière : lui parler pendant la prise le maintient présent sans l'exciter.",
+          "S'arrêter s'il est vraiment repu : mains ouvertes, corps relâché, il lâche seul — on ne force jamais une fin de prise."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Choisir le bon moment : proposer la prise sur les premiers signes d'éveil — recherche avec la bouche, mains à la bouche, agitation — plutôt qu'aux pleurs, où bébé est déjà trop désorganisé pour téter efficacement.",
+        "Surveiller les indicateurs : couches mouillées, déglutitions, prise de poids — ils disent si les prises sont suffisantes, bien mieux que leur durée.",
+        "Adapter le biberon si besoin : un débit de tétine inadapté fatigue ou noie bébé — en parler à la sage-femme ou au pédiatre.",
+        "Accepter la fin de journée : le soir, la fatigue rend les prises plus courtes et plus fréquentes — ce n'est pas un problème à corriger."
+      ],
+      "principe": "On ne réveille pas un bébé pour le faire manger : on l'aide à rester assez présent pour finir ce qu'il a commencé. Un bébé qui termine ses prises dort ensuite plus longtemps et plus paisiblement.",
+      "erreurs_a_eviter": [
+        "Le secouer, souffler sur son visage ou le déshabiller entièrement pour le réveiller — ce sont des stimulations brutales.",
+        "Le laisser terminer chaque prise endormi et enchaîner des tétées très courtes toute la journée — bébé s'épuise sans jamais être rassasié.",
+        "Passer au biberon d'appoint sans avis parce qu'il s'endort au sein — le geste peut compliquer la suite.",
+        "S'inquiéter d'un bébé qui s'endort repu, mains ouvertes et corps détendu — c'est exactement le signe recherché."
+      ],
+      "consulter_si": "Consulter si : bébé s'endort systématiquement au bout de quelques minutes et ne reprend pas son poids, s'il est difficile à réveiller pour les prises, s'il mouille très peu ses couches, ou s'il paraît anormalement mou → sage-femme, PMI ou pédiatre sans attendre. Une pesée et une observation de la prise suffisent le plus souvent à trancher.",
+      "source": "Source : mpedia.fr (Association Française de Pédiatrie Ambulatoire) — position et prise du sein."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Refus du biberon / préparer une introduction réussie",
+      "titre": "L'introduction du biberon / sans forcer, sans urgence",
+      "explication": "Un bébé habitué au sein ne refuse pas le biberon par caprice : il ne reconnaît ni la matière, ni le débit, ni le geste de succion demandé. Téter au sein et boire au biberon sont deux mécaniques différentes. L'introduction se prépare : elle réussit rarement dans l'urgence de la veille d'une reprise du travail, et presque toujours quand elle est étalée sur plusieurs jours, dans le calme, sans faim intense. Chaque bébé a son propre rythme d'acceptation, et certains ont besoin de plusieurs essais — cela ne dit rien de sa souplesse ni de ta méthode.",
+      "ancrage": "Un refus n'est pas un échec : c'est une information. Le biberon s'apprivoise sur plusieurs jours, dans le calme — pas dans l'urgence ni dans les pleurs.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — la première proposition",
+        "etapes": [
+          "Choisir un moment calme : bébé éveillé, détendu, ni affamé ni endormi — jamais en pleine crise de faim.",
+          "Confier la proposition à l'autre parent : l'odeur du sein rend le refus plus probable quand c'est la mère qui donne.",
+          "Réchauffer la tétine : la passer sous l'eau tiède pour qu'elle soit à température du corps.",
+          "Laisser bébé attraper : poser la tétine contre ses lèvres et attendre qu'il ouvre la bouche — jamais l'enfoncer.",
+          "Arrêter au premier refus net : ranger le biberon et réessayer plus tard. Insister installe un blocage."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — apprivoiser le biberon sur plusieurs jours",
+        "etapes": [
+          "Position semi-assise : bébé redressé, calé contre toi, biberon presque à l'horizontale — il boit à son rythme et fait des pauses.",
+          "Contact d'abord : peau à peau ou contre le torse avant même de présenter le biberon.",
+          "Jeu avec la tétine : la lui laisser explorer avec la bouche et les mains, en dehors des repas.",
+          "Répéter court et souvent : quelques minutes par jour valent mieux qu'une longue séance de lutte.",
+          "Célébrer le moindre pas : une succion, deux gorgées — c'est déjà l'apprentissage qui se fait."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Anticiper largement : commencer deux à trois semaines avant la date où le biberon sera nécessaire.",
+        "Tester une autre tétine : forme, souplesse et débit changent tout — parfois un seul essai suffit à débloquer.",
+        "Varier les personnes et les lieux : quelqu'un d'autre, une autre pièce, un autre moment de la journée.",
+        "Demander de l'aide si le blocage dure : consultante en lactation (IBCLC), sage-femme ou PMI — il existe aussi d'autres modes de prise, tasse ou cuillère, à évaluer avec un professionnel."
+      ],
+      "principe": "Le biberon s'apprivoise, il ne s'impose pas. La régularité de propositions courtes et calmes est plus efficace que l'insistance, et un bébé affamé n'apprend jamais rien de nouveau.",
+      "erreurs_a_eviter": [
+        "Attendre qu'il ait très faim en pensant qu'il « finira bien par prendre » — la faim intense empêche l'apprentissage.",
+        "Enfoncer la tétine ou maintenir la tête — le geste crée une aversion durable.",
+        "Multiplier les tétines et les laits en quelques jours — trop de changements brouillent l'apprentissage.",
+        "Commencer la veille de la reprise du travail — la pression du calendrier se transmet à bébé."
+      ],
+      "consulter_si": "Consulter si : bébé refuse toute prise pendant plusieurs heures et mouille peu ses couches, s'il perd du poids, s'il s'étouffe ou tousse régulièrement pendant les prises, ou si le refus s'installe malgré des propositions calmes et répétées → sage-femme, consultante en lactation (IBCLC), PMI ou pédiatre."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Rythme du biberon / à la demande ou aux horaires ?",
+      "titre": "Le rythme des prises / partir de bébé, pas de l'horloge",
+      "explication": "La question revient à chaque génération, et les avis autour de toi seront contradictoires. Chez le nouveau-né, la réponse est assez simple : on part des signaux de bébé, pas d'un tableau d'horaires. Son estomac est petit, ses besoins varient d'un jour à l'autre, et un rythme régulier finit par s'installer de lui-même, à son propre tempo. Répondre à ses signaux d'éveil ne crée pas d'anarchie : c'est ainsi qu'il apprend que ses besoins reçoivent une réponse. Le rythme viendra — chaque bébé à sa vitesse, et la fourchette est large.",
+      "ancrage": "Tu n'as pas à choisir un camp. Observer ton bébé est une méthode à part entière, et c'est la plus fiable des premières semaines.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — lire ses signaux",
+        "etapes": [
+          "Repérer les signes précoces : il s'agite, tourne la tête, cherche avec la bouche, porte ses mains à la bouche.",
+          "Proposer à ce moment-là : un bébé qui n'a pas encore pleuré boit mieux et plus calmement.",
+          "Vérifier la quantité proposée : un biberon adapté à son âge et à son poids, préparé selon les doses indiquées sur la boîte.",
+          "Respecter les pauses : le laisser souffler, faire le rot, puis reproposer sans forcer la fin du biberon.",
+          "Accepter les variations : certains jours, il boira plus, d'autres moins — c'est normal."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — installer un cadre souple",
+        "etapes": [
+          "Un rituel court avant la prise : même position, même endroit, ta voix — les repères rassurent plus que l'horloge.",
+          "Le contact avant tout : le prendre contre toi quelques instants avant de donner le biberon.",
+          "Position redressée : bébé semi-assis, tête soutenue, jamais à plat sur le dos pendant qu'il boit.",
+          "Temps calme après : le garder vertical un moment, sans jeu ni stimulation.",
+          "Noter sans compter : quelques repères écrits suffisent — pas un tableau minuté."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Laisser le rythme se dessiner : sur deux à trois semaines, un schéma apparaît de lui-même — c'est lui qu'on suit, pas l'inverse.",
+        "Ne jamais forcer la fin du biberon : un bébé qui lâche la tétine et détend son corps a assez bu ; finir « pour ne pas gâcher » installe la rupture du signal de satiété.",
+        "Assumer face à l'entourage : les conseils contradictoires arrivent vite ; une phrase simple — « on suit son rythme, ça nous va » — suffit.",
+        "Demander un avis en cas de doute : le pédiatre ou la PMI donneront des repères de quantité adaptés à son poids."
+      ],
+      "principe": "On part du bébé, pas de l'horloge. Répondre à ses signaux ne crée pas de mauvaise habitude : cela lui apprend que ses besoins sont entendus, et le rythme s'installe d'autant plus vite.",
+      "erreurs_a_eviter": [
+        "Imposer des horaires fixes à un nouveau-né — son estomac et ses besoins ne suivent pas de tableau.",
+        "Le faire finir son biberon alors qu'il a lâché la tétine — cela va contre son propre signal de satiété.",
+        "Attendre les pleurs pour proposer — un bébé qui pleure est désorganisé et boit moins bien.",
+        "Changer de méthode tous les deux jours sous l'influence des conseils extérieurs — l'instabilité désoriente plus qu'elle n'aide."
+      ],
+      "consulter_si": "Consulter si : bébé ne prend pas de poids ou en perd, s'il mouille très peu ses couches, s'il refuse plusieurs prises consécutives, s'il régurgite en grande quantité à chaque biberon avec un retentissement sur son poids, ou s'il paraît anormalement mou → pédiatre, sage-femme ou PMI. En cas de doute sur les quantités adaptées à son âge, une consultation suffit à poser des repères."
+    }
+  ]
+}

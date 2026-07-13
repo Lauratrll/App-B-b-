@@ -1,0 +1,194 @@
+{
+  "mois": 1,
+  "tranche_age": "1 mois",
+  "categorie": {
+    "id": "parent",
+    "nom": "Parents submergés",
+    "sous_titre": "Épuisement, tristesse, solitude, doutes",
+    "icone": "🫶"
+  },
+  "protocoles": [
+    {
+      "categorie": "parent",
+      "situation": "L'épuisement du premier mois / tenir et déléguer",
+      "titre": "L'épuisement / un plan de relais sur sept jours",
+      "explication": "Au bout d'un mois, la dette de sommeil s'est accumulée, les visites se sont espacées, et l'adrénaline des premiers jours est retombée. C'est souvent là que l'épuisement frappe le plus fort. Les conseils habituels — « repose-toi quand bébé dort » — sont inapplicables et ajoutent de la culpabilité à la fatigue. Ce qui fonctionne réellement, c'est un plan : qui fait quoi, quel jour, pendant combien de temps. Un épuisement ne se traverse pas par la volonté ; il s'allège en retirant des choses de ta charge, concrètement.",
+      "ancrage": "Tu n'as pas à tenir. Tu as à organiser. Demander de l'aide de façon précise n'est pas un aveu de faiblesse — c'est la seule stratégie qui tienne dans la durée.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — construire le plan de la semaine",
+        "etapes": [
+          "Lister les essentiels : bébé nourri, changé, en sécurité, et toi qui manges, bois et dors. Le reste est optionnel.",
+          "Attribuer une tâche précise par personne : « peux-tu apporter à manger jeudi » fonctionne, « aide-moi » ne fonctionne pas.",
+          "Bloquer un créneau de sommeil : trois heures continues, à heure fixe, pendant que quelqu'un garde bébé.",
+          "Refuser les visites qui coûtent : « pas cette semaine » est une phrase complète.",
+          "Écrire le plan : sur le frigo, visible — un plan écrit résiste mieux à la fatigue qu'une bonne intention."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — récupérer par morceaux",
+        "etapes": [
+          "Trois respirations lentes : inspiration par le nez, expiration longue, avant de reprendre bébé.",
+          "S'allonger dix minutes : même sans dormir, la position allongée réduit la charge physique.",
+          "Sortir dehors : quelques minutes de lumière naturelle valent mieux que rien.",
+          "Manger vraiment : garder à portée de main de quoi manger sans cuisiner.",
+          "Se poser les pieds au sol : sentir l'appui, relâcher les épaules et la mâchoire — dix secondes suffisent."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Utiliser les relais existants : PMI, sage-femme à domicile, Allo Parents Bébé (0 800 00 34 56) — ils existent pour cela.",
+        "Se relayer la nuit : chaque parent dispose d'un bloc de sommeil continu, à tour de rôle, même en cas d'allaitement.",
+        "Renoncer au ménage : la maison en ordre ne nourrit personne et ne repose personne.",
+        "Se donner un horizon : cette phase est intense mais elle n'est pas définitive — le dire à voix haute aide à tenir."
+      ],
+      "principe": "L'épuisement ne se combat pas par la volonté : il s'allège par le tri et par une aide précise. Un parent reposé est plus utile à son bébé qu'un parent parfait et à bout.",
+      "erreurs_a_eviter": [
+        "Vouloir tout tenir pour prouver quelque chose.",
+        "Refuser l'aide proposée par pudeur — l'aide non prise ne revient pas toujours.",
+        "Demander de l'aide de façon vague — personne ne sait quoi faire d'un « ça va pas fort ».",
+        "Attendre le point de rupture pour appeler quelqu'un."
+      ],
+      "consulter_si": "Consulter si : l'épuisement s'accompagne d'une tristesse qui dure plus de deux semaines, d'une impossibilité de dormir même quand bébé dort, d'une perte totale d'intérêt, de pensées noires, ou du sentiment de ne plus pouvoir répondre à ton bébé → médecin, sage-femme, PMI ou psychologue périnatal sans attendre. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Une tristesse qui ne passe pas / du baby blues à la dépression",
+      "titre": "La tristesse qui dure / la ligne de partage",
+      "explication": "Le baby blues touche la majorité des femmes après l'accouchement : il survient dans les tout premiers jours, dure quelques heures à quelques jours, et se dissipe généralement vers la fin de la première semaine. Ce que tu vis à un mois n'est donc plus un baby blues. Quand la tristesse, l'anxiété ou l'épuisement moral s'installent presque tous les jours pendant plus de deux semaines, on parle de dépression post-partum. Elle touche une mère sur dix environ, elle n'est ni un défaut de caractère ni un manque d'amour — et elle se soigne bien lorsqu'elle est prise en charge.",
+      "ancrage": "Ce n'est pas une faiblesse, et ce n'est pas ta faute. La dépression post-partum est fréquente, connue des professionnels, et elle se soigne. La seule chose qui ne va pas, c'est de rester seule avec.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — poser des mots",
+        "etapes": [
+          "Repérer la durée : depuis combien de jours ? Au-delà de deux semaines, presque tous les jours, cela se dit à un professionnel.",
+          "Nommer les signes : tristesse, anxiété, irritabilité, vide, sommeil impossible même quand bébé dort, perte d'intérêt, sentiment d'incapacité.",
+          "Le dire à une personne : le co-parent, une amie, la sage-femme — sortir du silence est le premier acte de soin.",
+          "Prendre rendez-vous : médecin, sage-femme ou PMI, cette semaine — pas « quand ça ira mieux ».",
+          "Ne pas rester seule : organiser une présence à la maison dans les jours qui viennent."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — traverser en attendant l'aide",
+        "etapes": [
+          "Une chose par jour : une seule, choisie — le reste peut attendre.",
+          "Sortir dix minutes : la lumière du jour et l'air extérieur ne soignent pas, mais ils allègent.",
+          "Manger et boire : la fatigue physique aggrave tout — c'est un point d'appui concret.",
+          "Écrire ce que tu ressens : quelques lignes, sans te relire, pour poser ce qui tourne en boucle.",
+          "Accepter de ne pas ressentir : le lien avec ton bébé peut être en veille pendant cette période, il reviendra."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Connaître l'entretien postnatal : un entretien avec une sage-femme ou un médecin est prévu entre la quatrième et la huitième semaine après l'accouchement — c'est un espace fait exactement pour ces mots-là.",
+        "S'appuyer sur les ressources : Maman Blues, MonParcoursPsy (séances remboursées après avis d'un médecin), PMI, psychologue périnatal.",
+        "Impliquer le co-parent : lui donner un rôle précis — les rendez-vous, les nuits, la maison.",
+        "Savoir que cela se soigne : accompagnement, soutien, parfois traitement — les délais de rétablissement sont bien meilleurs quand la prise en charge est précoce."
+      ],
+      "principe": "Le baby blues dure quelques jours ; une tristesse qui persiste plus de deux semaines, presque tous les jours, porte un autre nom et demande de l'aide. La dépression post-partum est fréquente et se soigne bien — le seul mauvais choix est d'attendre.",
+      "erreurs_a_eviter": [
+        "Attendre « que ça passe tout seul » au-delà de deux semaines.",
+        "Se juger sur son manque d'élan ou de joie — ce sont des symptômes, pas des traits de caractère.",
+        "Taire les pensées noires par peur du jugement ou par crainte qu'on te retire ton bébé.",
+        "Se contenter d'un « c'est la fatigue » quand les signes durent depuis des semaines."
+      ],
+      "consulter_si": "Consulter si : la tristesse, l'anxiété ou le vide durent plus de deux semaines, presque tous les jours ; si tu ne dors plus même quand bébé dort ; si tu te sens détachée de ton bébé ; si tu as des pensées noires ou l'impression que tout le monde irait mieux sans toi → médecin, sage-femme, PMI ou psychologue périnatal sans attendre. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence.",
+      "source": "Source : ameli.fr (Assurance Maladie) — baby blues et dépression post-partum ; entretien postnatal précoce."
+    },
+    {
+      "categorie": "parent",
+      "situation": "La solitude d'après / quand l'entourage repart",
+      "titre": "La solitude d'après / quand l'attention retombe",
+      "explication": "Les premières semaines, tout le monde était là. Puis les visites s'espacent, le co-parent reprend le travail, les messages se raréfient — et tu te retrouves seule, des journées entières, avec un bébé qui ne parle pas. Cette solitude-là est particulière : elle arrive au moment exact où la fatigue est maximale et où l'attention extérieure retombe. Elle n'est pas anodine. L'isolement épuise, déforme le jugement, amplifie les pleurs perçus — et c'est dans ce huis clos que surviennent la plupart des pertes de contrôle. Le savoir n'est pas culpabilisant : c'est protecteur.",
+      "ancrage": "Ton objectif n'est pas de tenir seule le plus longtemps possible. C'est de ne pas rester seule. Chaque contact humain que tu organises est un geste de sécurité, pas un luxe.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — un contact par jour",
+        "etapes": [
+          "Programmer une sortie : une par jour, même dix minutes, même sans but.",
+          "Un contact humain quotidien : un appel, une visite, un atelier — décidé la veille, pas improvisé.",
+          "Utiliser la PMI : accueil souvent gratuit et sans rendez-vous, avec d'autres parents et des professionnels.",
+          "Dire ce qui coince : à une amie, au co-parent — sans minimiser, sans arrondir.",
+          "Poser bébé en sécurité si la tension monte : sur le dos dans son lit, sortir de la pièce, respirer."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — se réguler quand personne n'est là",
+        "etapes": [
+          "Expiration longue : inspirer par le nez, souffler lentement par la bouche, cinq fois.",
+          "Ancrage au sol : pieds à plat, sentir l'appui, relâcher les épaules et la mâchoire.",
+          "Sortir dehors : même dix minutes, même avec bébé en portage.",
+          "Parler à voix haute : dire ce que tu ressens, même seule, réduit la charge.",
+          "Passer les mains sous l'eau froide : un geste simple qui aide le corps à redescendre."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Reconstruire un réseau minimal : deux ou trois personnes joignables, identifiées, à qui tu peux écrire n'importe quand.",
+        "Chercher des pairs : groupe de parents, atelier PMI, association locale — être avec d'autres qui vivent la même chose change tout.",
+        "Organiser des relais concrets : deux heures de garde par un proche, à date fixe, valent mieux qu'une aide vague.",
+        "Ne jamais secouer bébé : même une seconde, même doucement — le risque de lésions cérébrales graves est immédiat."
+      ],
+      "principe": "L'isolement est le principal facteur de risque de perte de contrôle. Poser bébé en sécurité et sortir de la pièce n'est jamais un abandon : c'est le geste qui protège vraiment.",
+      "erreurs_a_eviter": [
+        "Attendre d'être à bout pour appeler — l'appel se fait avant le point de rupture.",
+        "Rester des heures seule dans le noir avec les pleurs.",
+        "Refuser les propositions d'aide par fierté ou par peur de déranger.",
+        "Se dire que demander de l'aide, c'est avouer qu'on n'y arrive pas — c'est exactement l'inverse."
+      ],
+      "consulter_si": "Consulter si : tu ressens de la colère ou l'envie de secouer ton bébé, si tu as peur de tes propres réactions, si la solitude s'accompagne d'une tristesse qui dure plus de deux semaines ou de pensées noires → poser bébé en sécurité, appeler un proche, Allo Parents Bébé (0 800 00 34 56), ou le 15. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence.",
+      "source": "Source : mpedia.fr (Association Française de Pédiatrie Ambulatoire) et ameli.fr — prévention du syndrome du bébé secoué."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Le doute de mal faire / apprendre, comme bébé",
+      "titre": "Le doute de mal faire / apprendre, comme lui",
+      "explication": "Ton bébé apprend à vivre hors du ventre — et toi, tu apprends à être son parent. Vous êtes deux débutants. Personne ne naît en sachant : ni décoder des pleurs, ni doser un rituel, ni distinguer la fatigue de la faim. Ce que tu prends pour de l'incompétence est en réalité une courbe d'apprentissage — la même que celle de n'importe quel apprentissage complexe. Les parents qui « savent » n'existent pas : il y a des parents qui ont plus d'heures de vol, et des parents qui racontent mieux. Ce n'est pas la même chose.",
+      "ancrage": "Le doute n'est pas un défaut de fabrication : c'est le signe que tu apprends. Les parents qui ne doutent jamais ne sont pas mieux outillés — ils sont juste moins lucides.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — quand le doute t'envahit",
+        "etapes": [
+          "Nommer ce qui se passe : « je suis en train d'apprendre, et c'est difficile » — le formuler change le vécu.",
+          "Revenir au concret : nourri, changé, au chaud, en sécurité — c'est l'essentiel de la journée, et c'est fait.",
+          "Ne prendre qu'un conseil à la fois : tester une chose pendant plusieurs jours plutôt que dix en une semaine.",
+          "Couper les sources qui te sapent : réseaux, forums, personne qui juge.",
+          "Se souvenir des réparations : ce qui compte, ce n'est pas de ne jamais rater — c'est de revenir après."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — se remettre debout",
+        "etapes": [
+          "Trois respirations lentes : expiration plus longue que l'inspiration.",
+          "Noter une chose réussie : une seule, chaque soir — les journées difficiles en contiennent toujours une.",
+          "Se faire un compliment concret : « j'ai répondu à ses pleurs vingt fois aujourd'hui ».",
+          "Sortir du huis clos : parler à un parent réel, pas à un compte de réseau social.",
+          "Accepter l'inconfort : douter et continuer d'agir, c'est exactement ce qu'on attend d'un apprenti."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Choisir une ou deux sources fiables : une professionnelle de confiance vaut mieux que dix avis contradictoires.",
+        "Se rappeler la trajectoire : au bout de quelques semaines, la plupart des parents disent commencer à s'y retrouver.",
+        "Répondre à l'entourage d'une phrase : « on fait à notre façon, ça nous va » suffit — le débat n'apporte rien.",
+        "Distinguer doute et souffrance : le doute traverse, il n'écrase pas ; une tristesse qui dure au-delà de deux semaines demande un avis."
+      ],
+      "principe": "La parentalité est un apprentissage, pas un don. Tu ne rates pas : tu apprends. Et la sécurité de ton bébé ne vient pas de tes gestes parfaits, mais de ta présence répétée.",
+      "erreurs_a_eviter": [
+        "Chercher la méthode qui garantirait de bien faire — aucune n'existe.",
+        "Appliquer dix conseils contradictoires la même semaine — l'instabilité désoriente plus qu'elle n'aide.",
+        "Prendre la fatigue pour une preuve d'incompétence — c'est une preuve de manque de sommeil.",
+        "Se comparer à des parents qui « savent » — ils ont plus d'heures de vol, pas plus de talent."
+      ],
+      "consulter_si": "Consulter si : le doute s'accompagne d'une tristesse qui dure plus de deux semaines, d'une anxiété qui t'empêche de fonctionner, de troubles du sommeil même quand bébé dort, d'un sentiment de détachement, ou de pensées noires → médecin, sage-femme, PMI ou psychologue périnatal. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence."
+    }
+  ]
+}

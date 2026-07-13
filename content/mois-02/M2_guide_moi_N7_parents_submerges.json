@@ -1,0 +1,194 @@
+{
+  "mois": 2,
+  "tranche_age": "2 mois",
+  "categorie": {
+    "id": "parent",
+    "nom": "Parents submergés",
+    "sous_titre": "Reprise, garde, charge mentale, comparaison",
+    "icone": "🫶"
+  },
+  "protocoles": [
+    {
+      "categorie": "parent",
+      "situation": "L'angoisse de la reprise / le retour au travail approche",
+      "titre": "L'angoisse de la reprise / transformer le flou en plan",
+      "explication": "À l'approche de la reprise, l'angoisse est souvent diffuse : elle mélange la logistique, la culpabilité, la peur qu'il ne s'adapte pas, et le deuil de ce temps à deux qui s'achève. Tant qu'elle reste globale, elle est ingérable. La découper la rend traversable : d'un côté ce qui s'organise — horaires, trajets, adaptation, garde ; de l'autre ce qui se ressent — la tristesse de la séparation, qui ne se résout pas par un plan mais qui a le droit d'exister. Les deux sont légitimes, et ils ne se traitent pas de la même façon.",
+      "ancrage": "Ton angoisse n'est pas irrationnelle : c'est une vraie séparation. Elle se traverse en séparant ce qui s'organise de ce qui se vit — les deux méritent de la place.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — découper l'angoisse",
+        "etapes": [
+          "Lister le concret : horaires, trajets, qui dépose, qui récupère, plan B en cas d'imprévu.",
+          "Traiter un point par jour : un seul — l'angoisse se nourrit de la liste globale.",
+          "Anticiper l'adaptation : commencer la familiarisation avec le mode de garde plusieurs semaines avant.",
+          "Nommer la tristesse : elle est légitime et n'a pas à être résolue.",
+          "Ne pas décider dans l'angoisse : les grands choix ne se prennent pas la veille de la reprise."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — se préparer soi-même",
+        "etapes": [
+          "Trois respirations lentes : expiration plus longue que l'inspiration, plusieurs fois par jour.",
+          "Écrire ce qui fait peur : la liste écrite est toujours plus petite que celle qui tourne dans la tête.",
+          "En parler à quelqu'un qui l'a vécu : cela dédramatise plus que n'importe quel conseil.",
+          "Se préserver la première semaine : pas de dîner, pas de sortie, pas d'engagement.",
+          "Accepter les larmes du premier jour : elles sont fréquentes et ne présagent de rien."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se renseigner sur tes droits : temps partiel, congé parental, aménagements pour allaiter ou tirer son lait — se rapprocher de la médecine du travail ou des ressources humaines.",
+        "Prévoir un temps d'adaptation progressif : quelques heures, puis une demi-journée, puis une journée.",
+        "Préparer les retrouvailles : une demi-heure de contact au retour, sans écran ni tâche.",
+        "Distinguer angoisse et dépression : une inquiétude qui monte à l'approche est banale ; une tristesse durable, une perte d'intérêt ou des pensées noires demandent un avis."
+      ],
+      "principe": "Une angoisse diffuse devient traversable quand on la découpe : d'un côté ce qui s'organise, de l'autre ce qui se ressent. Le plan gère la logistique — il n'a pas à effacer le chagrin.",
+      "erreurs_a_eviter": [
+        "Tout organiser la veille — la précipitation amplifie l'angoisse.",
+        "Se forcer à « être forte » et taire la tristesse.",
+        "Multiplier les recherches en ligne sur les effets de la garde — elles nourrissent l'angoisse sans l'apaiser.",
+        "Introduire le biberon ou changer le rythme au dernier moment."
+      ],
+      "consulter_si": "Consulter si : l'angoisse devient envahissante, si elle s'accompagne d'attaques de panique, d'insomnies même quand bébé dort, d'une tristesse qui dure plus de deux semaines ou de pensées noires → médecin, sage-femme, PMI ou psychologue périnatal. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence.",
+      "source": "Source : ameli.fr (Assurance Maladie) — baby blues et dépression post-partum ; entretien postnatal précoce."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Préparer la garde / une séparation en douceur",
+      "titre": "Préparer la garde / l'adaptation et les mots du départ",
+      "explication": "Une séparation se prépare — pour ton bébé, mais surtout pour toi. À deux mois, il n'a pas encore l'angoisse de séparation, qui apparaît bien plus tard : ce qu'il perçoit, c'est ton état. Un parent tendu, qui prolonge les au revoir, communique une inquiétude que le bébé absorbe. Ce qui aide vraiment : une familiarisation progressive, un rituel de départ court et toujours identique, et un objet qui porte ton odeur. Un départ clair et bref rassure bien mieux qu'un départ étiré, plein de retours en arrière.",
+      "ancrage": "C'est ta sécurité qu'il lit, pas la sienne. Un au revoir court et confiant lui apprend que tu reviens — un au revoir qui s'étire lui apprend que quelque chose ne va pas.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — le rituel de départ",
+        "etapes": [
+          "Familiariser progressivement : quelques heures, puis une demi-journée, puis une journée, sur plusieurs jours.",
+          "Un rituel de départ court : une phrase, un baiser, et on part — toujours les mêmes, toujours dans le même ordre.",
+          "Ne jamais partir en cachette : cela fabrique l'insécurité qu'on cherchait à éviter.",
+          "Ne pas revenir sur ses pas : une fois le rituel fait, on sort — les retours en arrière prolongent la détresse.",
+          "Confier une odeur : un lange porté par toi, remis à la personne qui garde — jamais dans le lit ni près du visage."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — les retrouvailles",
+        "etapes": [
+          "Une demi-heure pleine au retour : sans écran, sans tâche ménagère.",
+          "Peau à peau ou portage : bébé contre toi, visage dégagé, menton décollé.",
+          "Une phrase rituelle de retour : la même à chaque fois.",
+          "Accepter sa réaction : pleurs, agitation ou indifférence sont tous normaux.",
+          "Respecter sa saturation : après une journée en collectivité, il peut avoir besoin de calme avant de contact."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Transmettre ses repères : rythme, signaux de fatigue, façon de le calmer — écrits, pas seulement dits.",
+        "Choisir un mode de garde qui te rassure : ton sentiment de sécurité se transmet directement à lui.",
+        "Prévoir les premiers jours difficiles : pleurs à la séparation, sommeil perturbé — cela s'apaise en général en une à deux semaines.",
+        "Se rappeler que la séparation n'abîme pas le lien : c'est la fiabilité du retour qui construit la sécurité."
+      ],
+      "principe": "Ton bébé ne lit pas la séparation, il lit ton état. Un départ court, clair et confiant, et des retrouvailles pleines : c'est cela qui sécurise, pas la durée des au revoir.",
+      "erreurs_a_eviter": [
+        "Partir en cachette pour éviter les pleurs.",
+        "Prolonger les au revoir ou revenir plusieurs fois — cela amplifie sa détresse et la tienne.",
+        "Commencer la garde le jour de la reprise, sans adaptation.",
+        "Laisser un doudou ou un lange dans le lit pendant le sommeil — le lit reste vide."
+      ],
+      "consulter_si": "Consulter si : bébé refuse de boire chez la personne qui garde pendant plusieurs jours, s'il perd du poids, s'il paraît éteint, apathique, s'il pleure de façon inconsolable en permanence, ou si la séparation te met dans une détresse durable → pédiatre, PMI, ou psychologue périnatal."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Charge mentale et tension dans le couple / tout repose sur moi",
+      "titre": "La charge mentale / rendre visible l'invisible",
+      "explication": "« Tout repose sur moi. » Cette phrase revient chez presque tous les parents qui portent la charge mentale : non pas les tâches elles-mêmes, mais le fait d'y penser — savoir quand la couche manque, quand la visite médicale approche, quand le lait tiré arrive à expiration. Cette charge est invisible, donc jamais partagée spontanément. Demander « aide-moi » ne fonctionne pas : cela laisse la charge de la répartition à celle qui la porte déjà. Ce qui fonctionne, c'est de rendre la liste visible, et de transférer des domaines entiers — pas des tâches ponctuelles.",
+      "ancrage": "Tu n'as pas besoin d'aide : tu as besoin d'un partage. Un domaine entier confié, avec la charge d'y penser, vaut dix tâches exécutées à ta demande.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — rendre la charge visible",
+        "etapes": [
+          "Écrire la liste complète : toutes les tâches, y compris celles qui demandent d'y penser — la liste écrite fait souvent l'effet d'un électrochoc.",
+          "Répartir par domaines, pas par tâches : « tu prends le suivi médical » plutôt que « tu prends le rendez-vous ».",
+          "Transférer aussi la charge d'y penser : celui qui prend le domaine le gère de bout en bout, sans rappel.",
+          "Accepter que ce soit fait autrement : différent n'est pas moins bien.",
+          "Ne pas reprendre : dès que tu reprends une tâche déléguée, la charge te revient entièrement."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — désamorcer la tension",
+        "etapes": [
+          "Choisir le moment : jamais dans la fatigue du soir ni au milieu d'une crise.",
+          "Parler en « je » : « je suis épuisée de penser à tout » plutôt que « tu ne fais rien ».",
+          "Poser une chose à la fois : une conversation, un sujet.",
+          "Fixer un point régulier : dix minutes par semaine pour ajuster — cela évite l'accumulation.",
+          "Reconnaître ce qui est fait : le partage tient mieux quand il n'est pas qu'un reproche."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se méfier du perfectionnisme : exiger que ce soit fait à ta façon annule le partage.",
+        "Nommer la fatigue avant qu'elle ne devienne rancune : les non-dits s'accumulent vite.",
+        "Envisager un soutien extérieur : conseil conjugal, accompagnement du couple — la période est une épreuve reconnue.",
+        "Retenir que la charge mentale est un vrai sujet de santé : elle épuise autant que le manque de sommeil."
+      ],
+      "principe": "La charge mentale ne se soulage pas par de l'aide ponctuelle : elle se partage par domaines entiers, avec la charge d'y penser. Sinon, elle revient toujours au même endroit.",
+      "erreurs_a_eviter": [
+        "Demander « aide-moi » — cela laisse la charge de la répartition à celle qui la porte.",
+        "Reprendre une tâche déléguée parce qu'elle n'est pas faite à ta façon.",
+        "Attendre l'explosion pour poser le sujet.",
+        "Tenir le compte des efforts de chacun — la comparaison alimente le conflit sans rien régler."
+      ],
+      "consulter_si": "Consulter si : l'épuisement s'accompagne d'une tristesse qui dure plus de deux semaines, d'insomnies même quand bébé dort, d'une perte d'intérêt, d'irritabilité permanente ou de pensées noires → médecin, sage-femme, PMI ou psychologue périnatal. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence.",
+      "source": "Source : ameli.fr (Assurance Maladie) — baby blues et dépression post-partum ; entretien postnatal précoce."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Je me compare aux autres / et je culpabilise",
+      "titre": "La comparaison / revenir aux repères de ton bébé",
+      "explication": "Le bébé de l'amie fait ses nuits. Celui du cours de portage tient sa tête. Celui du réseau social sourit à l'objectif dans une chambre parfaitement rangée. La comparaison est une machine à culpabilité, et elle est faussée à la base : elle compare ton quotidien intégral au moment le plus réussi de quelqu'un d'autre. Les fourchettes de développement sont larges, et l'immense majorité des écarts que tu observes sont normaux. Le seul repère utile n'est pas le bébé d'à côté — c'est le tien, comparé à lui-même, sur plusieurs semaines.",
+      "ancrage": "Tu compares tes coulisses à la vitrine des autres. Le seul bébé auquel le tien doit être comparé, c'est lui-même il y a un mois.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — couper la machine",
+        "etapes": [
+          "Identifier la source : réseau social, groupe, personne précise — la comparaison a toujours un point d'entrée.",
+          "Couper la source : se désabonner, quitter le groupe, écourter la conversation.",
+          "Revenir à ton bébé : ce qu'il fait aujourd'hui et ne faisait pas il y a un mois.",
+          "Nommer ce qui se joue : « je suis en train de me comparer, et cela me fait du mal ».",
+          "Reporter les décisions : ne rien changer à ton fonctionnement sous le coup d'une comparaison."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — se recentrer",
+        "etapes": [
+          "Noter une progression par semaine : une seule, écrite — elles se voient mal au jour le jour.",
+          "Trois respirations lentes : quand la comparaison monte, avant de répondre ou de scroller.",
+          "Un temps de face-à-face avec lui : quelques minutes, sans téléphone.",
+          "Parler à un parent réel : un échange honnête vaut mieux que dix fils de discussion.",
+          "Se rappeler ce qui est fait : nourri, porté, consolé, aimé — c'est l'essentiel, et c'est fait."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Connaître les fourchettes : la plupart des acquisitions s'étalent sur plusieurs mois — un écart de quelques semaines n'a aucune signification.",
+        "Se méfier des récits lissés : personne ne publie ses nuits blanches ni ses crises de larmes.",
+        "Poser tes questions au bon endroit : au pédiatre ou à la PMI, pas dans un groupe en ligne.",
+        "Distinguer inquiétude et comparaison : une inquiétude précise se pose à un professionnel ; une comparaison diffuse ne mène nulle part."
+      ],
+      "principe": "La comparaison mesure la mauvaise chose. Ton repère est ton bébé, comparé à lui-même sur plusieurs semaines — et les fourchettes normales sont bien plus larges qu'on ne le croit.",
+      "erreurs_a_eviter": [
+        "Chercher à « rattraper » un jalon en stimulant davantage — cela sature bébé sans rien accélérer.",
+        "Poser une question inquiète dans un groupe en ligne plutôt qu'à un professionnel.",
+        "Comparer les nuits, les poids, les sourires — trois indicateurs à très large fourchette.",
+        "Se juger sur la propreté de la maison ou la qualité des photos."
+      ],
+      "consulter_si": "Consulter si : l'inquiétude porte sur un point précis — bébé ne fixe pas ton visage, ne réagit pas aux bruits, ne soulève jamais la tête sur le ventre, ne sourit pas vers trois mois, ou paraît anormalement mou → pédiatre ou PMI, qui apporteront une réponse en une consultation. Si la culpabilité devient envahissante ou s'accompagne d'une tristesse durable → médecin, sage-femme ou psychologue périnatal."
+    }
+  ]
+}
