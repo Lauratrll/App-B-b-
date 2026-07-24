@@ -1,12 +1,13 @@
 {
   "id": "accueil-reflexologie",
   "type": "accueil-categorie",
+  "role_pour_le_code": "PREMIÈRE BRIQUE de la catégorie Réflexologie plantaire. Ce n'est PAS un protocole ni un texte comme les autres : c'est le cadre d'entrée de la catégorie. Elle s'affiche TOUJOURS en premier, AVANT la liste des protocoles. Pas d'animation, pas d'ouverture commune, pas de séquence de zones : uniquement la présentation + les précautions à lire une fois.",
   "persistant": true,
-  "position": "toujours en 1re position dans l'onglet Réflexologie plantaire",
-  "titre": "Bienvenue",
+  "position": "toujours en 1re position dans l'onglet Réflexologie plantaire, avant tous les protocoles",
+  "titre": "Introduction",
   "sous_titre": "à lire avant de commencer",
   "presentation": [
-    "La « Réflexologie » plantaire, c'est un temps de douceur partagé avec ton bébé, à travers ses pieds. Par des touchers lents et légers sur des zones précises de la plante, tu l'accompagnes vers l'apaisement et le retour au calme.",
+    "La Réflexologie plantaire, c'est un temps de douceur partagé avec ton bébé, à travers ses pieds. Par des touchers lents et légers sur des zones précises de la plante, tu l'accompagnes vers l'apaisement et le retour au calme.",
     "Ce n'est pas un soin : c'est un moment de lien, un langage tendre entre vous, qui rejoint le peau-à-peau et le portage dans la grande famille des gestes qui rassurent.",
     "À chaque situation du quotidien — sommeil agité, coliques, poussées dentaires… — correspond un protocole : une suite de gestes simples, illustrés et animés, que tu reproduis à ton rythme. Tout commence toujours par un temps d'installation : parler à ton bébé, réchauffer ses pieds entre tes mains, une noisette d'huile végétale douce."
   ],
@@ -14,7 +15,7 @@
   "precautions": [
     {
       "cle": "Ce n'est pas un acte médical",
-      "texte": "La « Réflexologie » proposée ici accompagne le bien-être ; elle ne remplace ni un avis, ni un traitement médical. En cas de fièvre, de douleur inhabituelle, de maladie ou d'inquiétude, consulte un professionnel de santé."
+      "texte": "La Réflexologie proposée ici accompagne le bien-être ; elle ne remplace ni un avis, ni un traitement médical. En cas de fièvre, de douleur inhabituelle, de maladie ou d'inquiétude, consulte un professionnel de santé."
     },
     {
       "cle": "Le consentement d'abord",
@@ -42,5 +43,5 @@
     }
   ],
   "note_fin": "Fais-toi confiance : il n'y a pas de « bon » ou de « mauvais » geste. Ta présence attentive et ta douceur sont déjà l'essentiel.",
-  "disclaimer": "La « Réflexologie » proposée dans cette application est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical."
+  "disclaimer": "La Réflexologie proposée dans cette application est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical."
 }

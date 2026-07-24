@@ -39,6 +39,7 @@ import difficultesATeter from "@/reflexologie/protocole-difficultes-a-teter.json
 import eczema from "@/reflexologie/protocole-eczema.json";
 import enuresie from "@/reflexologie/protocole-enuresie.json";
 import ictere from "@/reflexologie/protocole-ictere.json";
+import inconfortDigestif from "@/reflexologie/protocole-inconfort-digestif.json";
 import malDesTransports from "@/reflexologie/protocole-mal-des-transports.json";
 import meconium from "@/reflexologie/protocole-meconium.json";
 import oppositionFrustration from "@/reflexologie/protocole-opposition-frustration.json";
@@ -87,6 +88,12 @@ export type ReflexoProtocole = {
   lien_pathologie?: boolean;
   /** À qui/quoi s'applique le protocole (ex. « bébé né d'une césarienne »). */
   s_applique?: string;
+  /**
+   * Carte récapitulative des zones (image des pieds numérotés). Valeur telle
+   * qu'écrite dans le JSON : « visuels-protocoles/Visuel - <titre>.png ».
+   * Convertie en URL servable par `visuelUrl()`.
+   */
+  visuel?: string;
   intro: string;
   emotion?: string;
   ouverture: { titre: string; etapes: string[] };
@@ -145,6 +152,7 @@ const PROTOCOLES = [
   eczema,
   enuresie,
   ictere,
+  inconfortDigestif,
   malDesTransports,
   meconium,
   oppositionFrustration,
@@ -204,6 +212,21 @@ export function getProtocole(id: string): ReflexoProtocole | null {
 /** Ids des protocoles publiés — pour `generateStaticParams`. */
 export function getIdsPublies(): string[] {
   return getProtocolesPublies().map((p) => p.id);
+}
+
+/**
+ * URL servable de la carte récapitulative d'un protocole.
+ *
+ * Le champ `visuel` du JSON vaut « visuels-protocoles/Visuel - <titre>.png ».
+ * Les images sont copiées dans `public/reflexologie/visuels/` (source de
+ * vérité : `reflexologie/visuels-protocoles/`, cf. scripts/sync-reflexo-visuels.mjs).
+ * On garde le nom de fichier tel quel (espaces/accents) et on l'encode pour l'URL.
+ */
+export function visuelUrl(visuel: string | undefined): string | null {
+  if (!visuel) return null;
+  const fichier = visuel.split("/").pop();
+  if (!fichier) return null;
+  return `/reflexologie/visuels/${encodeURIComponent(fichier)}`;
 }
 
 /**

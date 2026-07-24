@@ -47,3 +47,6 @@ Thumbs.db
 
 # Supabase CLI temp
 /supabase/.temp/
+
+# Visuels réflexo copiés au build depuis reflexologie/visuels-protocoles/ (source de vérité)
+/public/reflexologie/visuels/

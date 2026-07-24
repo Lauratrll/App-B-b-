@@ -1,4 +1,4 @@
-# Schéma d'un protocole de « Réflexologie » — modèle à dupliquer
+# Schéma d'un protocole de Réflexologie — modèle à dupliquer
 
 Réf. concrète : `protocole-sommeil.json` (protocole Sommeil entièrement rempli).
 
@@ -80,7 +80,7 @@ Repris de mes textes validés (M23) :
 - **Tutoiement du parent**, voix posée. Le bébé est « il ».
 - Chaque intention = **le pourquoi**, jamais une promesse médicale. On accompagne, on ne traite pas.
 - Vocabulaire autorisé uniquement : *pression douce, appui doux et maintenu, toucher léger et constant, balayage, cercles lents, geste doux*.
-- **« massage »** : autorisé uniquement en contexte bien-être, **avec parcimonie** (feu vert de Laura). **Interdits** : « caresse » (même niée), toute échelle de pression chiffrée. « Réflexologie » toujours en toutes lettres, guillemets français « ».
+- **« massage »** : autorisé uniquement en contexte bien-être, **avec parcimonie** (feu vert de Laura). **Interdits** : « caresse » (même niée), toute échelle de pression chiffrée. Réflexologie toujours en toutes lettres, **sans guillemets** (c'est un vrai terme).
 - **`note_fin` toujours présente** : consentement (« s'il retire son pied, on s'arrête sans insister ») + sortie en douceur.
 - **`disclaimer` toujours présent**.
 

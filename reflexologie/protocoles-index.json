@@ -1,5 +1,5 @@
 {
-  "_titre": "Index des protocoles de « Réflexologie »",
+  "_titre": "Index des protocoles de Réflexologie",
   "lancement": [
     "accueil-nouveau-ne",
     "prematurite",
@@ -8,6 +8,7 @@
     "difficultes-a-teter",
     "separation",
     "coliques",
+    "inconfort-digestif",
     "reflux",
     "dents",
     "constipation",
@@ -91,6 +92,15 @@
       "id": "coliques",
       "titre": "Coliques",
       "fichier": "protocole-coliques.json",
+      "nb_etapes": 8,
+      "lancement": true,
+      "sujet_sensible": false,
+      "variante": false
+    },
+    {
+      "id": "inconfort-digestif",
+      "titre": "Inconfort digestif",
+      "fichier": "protocole-inconfort-digestif.json",
       "nb_etapes": 8,
       "lancement": true,
       "sujet_sensible": false,

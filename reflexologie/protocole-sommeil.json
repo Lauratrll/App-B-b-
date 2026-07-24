@@ -3,7 +3,7 @@
   "titre": "Sommeil",
   "categorie_guide_moi": "Sommeil",
   "lien_pathologie": false,
-  "intro": "Un moment de calme partagé, au creux du soir. Ce protocole de « Réflexologie » accompagne l'endormissement et le retour au calme, à ton rythme et au sien. Installe-toi : lumière tamisée, ta voix posée, ta respiration lente.",
+  "intro": "Un moment de calme partagé, au creux du soir. Ce protocole de Réflexologie accompagne l'endormissement et le retour au calme, à ton rythme et au sien. Installe-toi : lumière tamisée, ta voix posée, ta respiration lente.",
   "emotion": "Ton propre apaisement compte autant que le geste : ta voix posée et ta respiration lente l'accompagnent vers le sommeil.",
   "ouverture": {
     "titre": "Avant de commencer",
@@ -135,7 +135,8 @@
     ],
     "texte": "Ajoute un temps doux sur la zone de la vésicule biliaire."
   },
-  "note_fin": "Si bébé retire son pied ou montre de l'inconfort, on s'arrête sans insister : le geste doit rester un plaisir partagé. Termine en allégeant le contact, puis éloigne-toi en douceur.",
-  "disclaimer": "La « Réflexologie » proposée ici est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical.",
-  "lancement": true
+  "note_fin": "Termine en allégeant le contact, puis éloigne-toi en douceur.",
+  "disclaimer": "La Réflexologie plantaire ne se substitue pas à un avis médical.",
+  "lancement": true,
+  "visuel": "visuels-protocoles/Visuel - Sommeil.png"
 }

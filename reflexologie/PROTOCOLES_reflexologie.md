@@ -1,11 +1,11 @@
-# Protocoles de « Réflexologie » plantaire bébé — compilation
+# Protocoles de Réflexologie plantaire bébé — compilation
 
 Source : PDF de formation EDPP, section « Les protocoles » (pages 49 à 74).  
 Chaque protocole liste les **zones réflexes dans l'ordre**, avec le **mouvement** associé (défini dans `zones-mouvements.json`).
 
 > **À trancher par Laura :** les protocoles marqués 🩺 sont fortement liés à une pathologie — probablement à écarter de l'app.
 
-> **Prochaine étape produit :** remplacer l'onglet « Jeux » par un onglet « Réflexologie » (l'éveil est déjà couvert par « Saison » et d'autres contenus).
+> **Prochaine étape produit :** remplacer l'onglet « Jeux » par un onglet Réflexologie (l'éveil est déjà couvert par « Saison » et d'autres contenus).
 
 
 ---

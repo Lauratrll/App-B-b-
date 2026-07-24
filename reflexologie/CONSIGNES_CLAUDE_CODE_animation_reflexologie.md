@@ -1,6 +1,6 @@
-# CONSIGNES CLAUDE CODE — Animation des zones de « Réflexologie »
+# CONSIGNES CLAUDE CODE — Animation des zones de Réflexologie
 
-**Statut : validé.** Les 33 zones ont un mouvement défini et approuvé. Prêt pour l'intégration dans l'app et la compilation des protocoles.
+**Statut : validé.** Les 37 zones du catalogue ont un mouvement défini et approuvé. Prêt pour l'intégration dans l'app et la compilation des protocoles.
 
 | Fichier | Rôle |
 |---|---|
@@ -250,7 +250,7 @@ Même principe d'alternance que « Guide-moi ! » (titre) / « mais n'oublie jam
 - **« massage »** : autorisé en contexte bien-être uniquement, avec parcimonie. **« caresse » reste interdit** (même nié).
 - **Aucune échelle de pression chiffrée** (une durée en secondes reste permise).
 - Vocabulaire : *toucher, pression douce, geste doux, stimulation des zones réflexes, geste de balayage*.
-- **« Réflexologie »** toujours en toutes lettres, guillemets français « » avec espaces insécables.
+- **Réflexologie** toujours en toutes lettres, **sans guillemets** : c'est un vrai terme (jamais « Réflexologie »).
 
 ---
 
@@ -273,22 +273,41 @@ Même principe d'alternance que « Guide-moi ! » (titre) / « mais n'oublie jam
 
 1. **Pression maintenue ~3 s** sur le point **vessie** (cercle du bas) ;
 2. **Pression glissée lente** le long du trait, **de la vessie vers le rein** ;
-3. **Pression maintenue** sur le point **rein** (cercle du haut).
+3. **Pression maintenue ~3 s** sur le point **rein** (cercle du haut).
 
 Le doigt part donc de la vessie et remonte. Utilisée à l'**étape 10 de Confiance en soi**.
 
-## 14 ter. Variantes « sens inverse » — protocole Diarrhée
+**Réglages des pressions maintenues** (identiques au prototype validé `mouvement-pression-maintenue.html`) : pose (doigt qui descend) **1000 ms** en easeOut, **maintien 3000 ms**, retrait **900 ms** ; pendant le maintien, **3 ondes concentriques** (départ décalé de **1000 ms** chacune, durée **1000 ms**, expansion **×1,5**, opacité **0,38** décroissante). Couleur du SVG (#ff9585). La **glissée** entre les deux points est **lente** (~2,9 s).
 
-Dans **Diarrhée uniquement**, deux étapes se jouent dans le **sens inverse** du geste habituel (champ `"sens": "inverse"` sur la zone) :
+## 14 ter bis. Règle générale — le coloriage RESTE (persistant)
 
-- **Intestin grêle (étape 10)** : même tracé que d'habitude, mais **parcouru à l'envers** — inverser l'ordre des points (`getPointAtLength` de `L` vers `0`), le doigt part du point d'arrivée normal.
-- **Gros intestin (étape 11)** : parcours inversé **du bas du pied gauche vers le bas du pied droit** (le geste normal va du pied droit vers le pied gauche). Inverser la séquence des segments du cheminement.
+Pour **tous** les mouvements de type glissée / cheminement / cercles avancés / remplissage : au passage du doigt, **la zone reste coloriée** (comme un surligneur). Ce n'est **pas** une traînée qui s'efface derrière un point (« ver qui avance »). Concrètement : dévoiler progressivement le tracé (`stroke-dashoffset`) **et laisser la couleur en place** jusqu'à la fin du passage. La **couleur est celle du SVG** de la zone (jamais une couleur inventée).
 
-Le tracé, la vitesse et le rendu restent identiques ; **seul le sens de parcours change**. Prévoir un paramètre `reverse` dans le composant de cheminement plutôt que dupliquer le code.
+Pour garantir que **toute la zone** se colorie, **découper (clip) le coloriage sur la forme exacte de la zone** (`clip-path` sur le `path` de la zone) et utiliser une **brosse large** : la ligne médiane sert de trajectoire, mais c'est toute la largeur du ruban qui se remplit.
+
+## 14 ter. Gros intestin — glissée sur le TRAIT, jouée en SENS INVERSE
+
+`zone-gros-intestin-d` et `-g` sont des **rubans** (zone NON miroir : chaque pied a sa propre forme — pied droit = un **C ouvert**, pied gauche = un **triangle fermé**). Le geste **suit la ligne médiane du ruban** (le « trait »), **pas le contour**.
+
+- **Deux gestes séparés, AUCUN trait entre les deux pieds.** On colorie un pied, on lâche, puis l'autre.
+- Sens de base = sens de la digestion. Le protocole **Diarrhée** (et le sens inverse en général) le joue **à l'envers** : **pied gauche d'abord, puis pied droit**.
+- **Pied gauche** : départ **côté intérieur du talon**, on suit le trait (tout le triangle) → toute la zone se colorie et **reste** coloriée.
+- **Pied droit** : départ en haut (côté intérieur), on suit le trait du C **vers le bas** (vers le talon).
+- Coloriage **clippé sur la forme de la zone**, brosse large → **toute la zone** colorée. Couleur du SVG (#7084ff).
+
+## 14 quinquies. Intestin grêle — CERCLES AVANCÉS (≠ spirale)
+
+Mouvement = **cercles avancés** (petits cercles qui avancent), c'est-à-dire le mouvement validé **boucles-progressives**. **Ce n'est PAS une spirale** (la spirale, c'est pour le **bassin**).
+
+- **Départ au bord de la zone, côté extérieur du pied**, progression **vers l'intérieur** (pas de haut en bas).
+- Coloriage **persistant**, **clippé sur la zone**, **empreinte de doigt large** pour bien colorier toute la surface.
+- **Les deux pieds terminent en même temps** : caler la durée sur le pied le plus long ; le pied le plus court avance donc plus lentement (utiliser une fraction `u = t/durée` commune, chaque pied dévoilant `u × sa_longueur`).
+- Dans **Diarrhée**, c'est ce même mouvement joué depuis la fin (`"sens": "inverse"`). Couleur du SVG (#6371c2).
 
 ## 15. Reste à faire (hors animation)
 
 - La couche de **textes de protocole**, variable selon le sujet — à brancher sur les zones.
 - L'articulation avec les **8 catégories de « Guide-moi ! »** et leurs couleurs.
-- Vérifier côté réflexologie le **sens du gros intestin et de l'intestin grêle** (déduits du sens de la digestion, non confirmés cliniquement).
 - Petites coquilles d'`id` dans le SVG, sans impact sur le code mais à corriger un jour : `ganglions-lympahtiques` (lettres inversées).
+
+> **Aperçu de référence** : `apercu-mouvements-a-valider.html` montre, sur les vrais pieds, les trois mouvements travaillés avec Laura (système urinaire composite, gros intestin sur le trait en sens inverse, intestin grêle en cercles avancés). Il sert de **référence de comportement** (sens, départ, coloriage persistant clippé) ; l'implémentation définitive (easing, vitesses fines, rendu) est à faire proprement dans le composant React.

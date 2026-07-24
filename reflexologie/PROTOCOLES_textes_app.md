@@ -1,9 +1,9 @@
-# Protocoles de « Réflexologie » — textes de l'app
+# Protocoles de Réflexologie — textes de l'app
 
 _Version lisible pour relecture. Les données réelles sont dans les fichiers JSON._
 
 
-**18 protocoles au lancement · 6 reportés.**
+**19 protocoles au lancement · 6 reportés.**
 
 
 ---
@@ -13,11 +13,11 @@ _Version lisible pour relecture. Les données réelles sont dans les fichiers JS
 
 **Avant de commencer**
 
-- Parle-lui doucement : explique-lui ce que tu vas faire. Ta voix installe la confiance et le lien.
-- Vérifie que le moment s'y prête : bébé calme et disponible, à distance d'un repas, dans un endroit paisible et à bonne température.
-- Recueille son accord : observe ses signaux. S'il est réceptif, tu peux commencer ; s'il détourne le regard ou s'agite, remets simplement à plus tard.
-- Réchauffe ses pieds en les gardant un instant entre tes mains : la chaleur rassure et prépare au toucher.
-- Applique une noisette d'huile végétale douce, adaptée aux bébés, et étale-la délicatement sur tout le pied.
+- **Parle-lui doucement** : explique ce que tu vas faire.
+- **Choisis le bon moment** : bébé disponible, au calme et au chaud.
+- **Recueille son accord** : s'il s'agite ou se détourne, remets à plus tard.
+- **Réchauffe ses pieds** : un instant entre tes mains.
+- **Un peu d'huile végétale douce** : une noisette adaptée aux bébés.
 
 
 
@@ -41,9 +41,9 @@ Un premier rendez-vous tout en douceur avec les pieds de ton tout-petit. Ce prot
 5. **la zone digestive** — On accompagne tout le ventre en douceur : aider la digestion à se dérouler tranquillement.
 6. **le bassin** _(gestes enchaînés)_ — Un mouvement enveloppant sur le talon, puis un temps d'ancrage : poser, sécuriser, enraciner le tout-petit dans son corps.
 
-_Note de fin :_ Si bébé retire son pied ou montre de l'inconfort, on s'arrête sans insister : le geste doit rester un plaisir partagé. Termine en allégeant le contact, puis éloigne-toi en douceur.
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Avertissement :_ La « Réflexologie » proposée ici est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical.
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -66,9 +66,9 @@ Un accompagnement tout en douceur pour un tout-petit arrivé en avance. Chaque g
 5. **le plexus solaire** — Au centre de la voûte, une pression douce et maintenue : le point d'apaisement des émotions.
 6. **le foie** — Un temps doux sur le foie : accompagner ce qui se transforme et se digère.
 
-_Note de fin :_ Si bébé retire son pied ou montre de l'inconfort, on s'arrête sans insister : le geste doit rester un plaisir partagé. Termine en allégeant le contact, puis éloigne-toi en douceur.
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Avertissement :_ La « Réflexologie » proposée ici est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical.
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -97,9 +97,9 @@ Un protocole tout en douceur pour accompagner bébé né d'une césarienne ou d'
 9. **les reins** — On soutient les reins, l'énergie profonde du corps.
 10. **le bassin** — On termine par le bassin, en spirale lente : ancrer, refermer le soin.
 
-_Note de fin :_ Si bébé retire son pied ou montre de l'inconfort, on s'arrête sans insister : le geste doit rester un plaisir partagé. Termine en allégeant le contact, puis éloigne-toi en douceur.
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Avertissement :_ La « Réflexologie » proposée ici est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical.
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -127,9 +127,9 @@ Un protocole pour aider bébé à se sentir solide, enveloppé, en confiance dan
 10. **le système urinaire** — On maintient un appui doux sur la vessie, on glisse lentement jusqu'au rein, on y pose l'appui — trois fois.
 11. **le bassin** — On termine par le bassin, en spirale lente : ancrer, refermer le soin.
 
-_Note de fin :_ Si bébé retire son pied ou montre de l'inconfort, on s'arrête sans insister : le geste doit rester un plaisir partagé. Termine en allégeant le contact, puis éloigne-toi en douceur.
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Avertissement :_ La « Réflexologie » proposée ici est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical.
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -151,9 +151,9 @@ Un moment doux pour accompagner la mise en bouche et la succion. On détend la s
 7. **l'œsophage** — On suit doucement l'œsophage : accompagner le passage, de haut en bas.
 8. **le cardia** — Un point apaisant vers le cardia : dénouer le haut du ventre.
 
-_Note de fin :_ Si bébé retire son pied ou montre de l'inconfort, on s'arrête sans insister : le geste doit rester un plaisir partagé. Termine en allégeant le contact, puis éloigne-toi en douceur.
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Avertissement :_ La « Réflexologie » proposée ici est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical.
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -178,9 +178,9 @@ Un protocole pour les moments de séparation : apaiser l'inquiétude, rassurer, 
 7. **le pancréas** — Un passage doux sur le pancréas : équilibre et douceur.
 8. **le gros intestin** — On suit le trajet du gros intestin : accompagner en douceur ce qui doit être évacué.
 
-_Note de fin :_ Si bébé retire son pied ou montre de l'inconfort, on s'arrête sans insister : le geste doit rester un plaisir partagé. Termine en allégeant le contact, puis éloigne-toi en douceur.
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Avertissement :_ La « Réflexologie » proposée ici est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical.
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -202,9 +202,33 @@ Un moment tendre pour soulager le ventre. Les gestes suivent la digestion, lente
 7. **l'intestin grêle** — De petits cercles au centre du pied : apaiser le ventre, dénouer.
 8. **le gros intestin** — On suit le trajet du gros intestin : accompagner en douceur ce qui doit être évacué.
 
-_Note de fin :_ Si bébé retire son pied ou montre de l'inconfort, on s'arrête sans insister : le geste doit rester un plaisir partagé. Termine en allégeant le contact, puis éloigne-toi en douceur.
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Avertissement :_ La « Réflexologie » proposée ici est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical.
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+
+---
+
+
+## Inconfort digestif
+
+
+Un moment tout doux pour apaiser le ventre de bébé quand la digestion le gêne. Les gestes suivent le trajet digestif, lentement, pour l'aider à se détendre et retrouver son confort.
+
+
+**Séquence :**
+
+1. **le sacrum et les lombaires** — On glisse le long du bas du dos : détendre le sacrum et les lombaires, apaiser le ventre par le bas.
+2. **le diaphragme** — Un lissage lent en travers du pied : relâcher le souffle et les tensions.
+3. **le plexus solaire** — Au centre de la voûte, une pression douce et maintenue : le point d'apaisement des émotions.
+4. **l'œsophage** — On suit doucement l'œsophage : accompagner le passage, de haut en bas.
+5. **le cardia** — Un point apaisant vers le cardia : dénouer le haut du ventre.
+6. **l'estomac** — De petits cercles sur l'estomac : apaiser, dénouer le ventre.
+7. **l'intestin grêle** — De petits cercles au centre du pied : apaiser le ventre, dénouer.
+8. **le gros intestin** — On suit le trajet du gros intestin : accompagner en douceur ce qui doit être évacué.
+
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
+
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -229,9 +253,9 @@ Un protocole doux pour accompagner les remontées et l'inconfort du haut du vent
 7. **l'estomac** — De petits cercles sur l'estomac : apaiser, dénouer le ventre.
 8. **le foie** — Un temps doux sur le foie : accompagner ce qui se digère.
 
-_Note de fin :_ Si bébé retire son pied ou montre de l'inconfort, on s'arrête sans insister : le geste doit rester un plaisir partagé. Termine en allégeant le contact, puis éloigne-toi en douceur.
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Avertissement :_ La « Réflexologie » proposée ici est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical.
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -256,9 +280,9 @@ Un accompagnement pour les poussées dentaires : soulager la bouche, apaiser l'a
 7. **l'estomac** — De petits cercles sur l'estomac : apaiser, dénouer le ventre.
 8. **les surrénales** — Un appui posé sur les surrénales : calmer l'agitation, apaiser le stress.
 
-_Note de fin :_ Si bébé retire son pied ou montre de l'inconfort, on s'arrête sans insister : le geste doit rester un plaisir partagé. Termine en allégeant le contact, puis éloigne-toi en douceur.
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Avertissement :_ La « Réflexologie » proposée ici est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical.
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -283,9 +307,9 @@ Un protocole pour accompagner le transit en douceur, en suivant le trajet du ven
 10. **l'intestin grêle** — On suit le trajet fin de l'intestin, tout doucement.
 11. **le gros intestin** — On accompagne le trajet du gros intestin, jusqu'au bout.
 
-_Note de fin :_ Si bébé retire son pied ou montre de l'inconfort, on s'arrête sans insister : le geste doit rester un plaisir partagé. Termine en allégeant le contact, puis éloigne-toi en douceur.
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Avertissement :_ La « Réflexologie » proposée ici est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical.
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -315,9 +339,9 @@ Un protocole pour accompagner le ventre de bébé en douceur lorsque le transit 
 
 > 📝 Les étapes 10 (intestin grêle) et 11 (gros intestin) se jouent dans le SENS INVERSE du geste habituel — variante d'animation à créer.
 
-_Note de fin :_ Si bébé retire son pied ou montre de l'inconfort, on s'arrête sans insister : le geste doit rester un plaisir partagé. Termine en allégeant le contact, puis éloigne-toi en douceur.
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Avertissement :_ La « Réflexologie » proposée ici est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical.
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -345,9 +369,9 @@ Un protocole pour accompagner bébé quand les trajets le chahutent : apaiser le
 10. **le foie** — On accompagne le travail du foie, sans forcer.
 11. **le gros intestin** — On accompagne le trajet du gros intestin, jusqu'au bout.
 
-_Note de fin :_ Si bébé retire son pied ou montre de l'inconfort, on s'arrête sans insister : le geste doit rester un plaisir partagé. Termine en allégeant le contact, puis éloigne-toi en douceur.
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Avertissement :_ La « Réflexologie » proposée ici est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical.
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -355,7 +379,7 @@ _Avertissement :_ La « Réflexologie » proposée ici est un accompagnement au 
 ## Sommeil
 
 
-Un moment de calme partagé, au creux du soir. Ce protocole de « Réflexologie » accompagne l'endormissement et le retour au calme, à ton rythme et au sien. Installe-toi : lumière tamisée, ta voix posée, ta respiration lente.
+Un moment de calme partagé, au creux du soir. Ce protocole de Réflexologie accompagne l'endormissement et le retour au calme, à ton rythme et au sien. Installe-toi : lumière tamisée, ta voix posée, ta respiration lente.
 
 
 *Ton propre apaisement compte autant que le geste : ta voix posée et ta respiration lente l'accompagnent vers le sommeil.*
@@ -372,9 +396,9 @@ Un moment de calme partagé, au creux du soir. Ce protocole de « Réflexologie 
 7. **la thyroïde** — On suit la zone de la gorge et de la thyroïde : apaiser, réguler en douceur.
 8. **le thymus** — Un point doux sur le thymus : sécuriser, envelopper.
 
-_Note de fin :_ Si bébé retire son pied ou montre de l'inconfort, on s'arrête sans insister : le geste doit rester un plaisir partagé. Termine en allégeant le contact, puis éloigne-toi en douceur.
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Avertissement :_ La « Réflexologie » proposée ici est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical.
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -402,9 +426,9 @@ Un moment doux pour accompagner l'inconfort du nez et des oreilles, fréquent ch
 10. **les surrénales** — Un appui posé sur les surrénales : calmer l'agitation, apaiser le stress.
 11. **les ganglions lymphatiques** — On stimule doucement les ganglions, point par point : soutenir les défenses.
 
-_Note de fin :_ Si bébé retire son pied ou montre de l'inconfort, on s'arrête sans insister : le geste doit rester un plaisir partagé. Termine en allégeant le contact, puis éloigne-toi en douceur.
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Avertissement :_ La « Réflexologie » proposée ici est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical.
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -428,9 +452,9 @@ Un moment doux pour aider un enfant agité à se poser et à retrouver sa concen
 9. **les reins** — Un appui tranquille sur les reins : apaiser le trop-plein, relâcher les peurs.
 10. **le bassin** — Un mouvement enveloppant sur le talon : ancrer, poser, rassurer.
 
-_Note de fin :_ Si bébé retire son pied ou montre de l'inconfort, on s'arrête sans insister : le geste doit rester un plaisir partagé. Termine en allégeant le contact, puis éloigne-toi en douceur.
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Avertissement :_ La « Réflexologie » proposée ici est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical.
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -458,9 +482,9 @@ Un protocole enveloppant pour apaiser l'anxiété et dénouer la nervosité, à 
 10. **le pancréas** — Un passage doux sur le pancréas : équilibre et douceur.
 11. **le système urinaire** — Un appui tranquille sur les reins : apaiser le trop-plein, relâcher les peurs.
 
-_Note de fin :_ Si bébé retire son pied ou montre de l'inconfort, on s'arrête sans insister : le geste doit rester un plaisir partagé. Termine en allégeant le contact, puis éloigne-toi en douceur.
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Avertissement :_ La « Réflexologie » proposée ici est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical.
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -487,9 +511,11 @@ Un protocole tout en douceur pour accompagner bébé dans les moments d'oppositi
 9. **la rate** — On soutient la rate, en douceur.
 10. **la vessie** — On pose un appui doux sur la vessie, pour finir d'apaiser.
 
-_Note de fin :_ Si bébé retire son pied ou montre de l'inconfort, on s'arrête sans insister : le geste doit rester un plaisir partagé. Termine en allégeant le contact, puis éloigne-toi en douceur.
+> 📝 À FAIRE PLUS TARD : proposer un choix multiple — opposition/frustration envers papa ? envers maman ? (adapter éventuellement l'accompagnement)
 
-_Avertissement :_ La « Réflexologie » proposée ici est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical.
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
+
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -514,9 +540,9 @@ Un accompagnement doux autour de la sécurité et de l'ancrage, pour apaiser les
 7. **le système urinaire** — Un appui tranquille sur les reins : apaiser le trop-plein, relâcher les peurs.
 8. **le psoas** _(hors pied : hors pied)_ — Ce geste ne se fait pas sur le pied : suis l'indication, sans animation.
 
-_Note de fin :_ Si bébé retire son pied ou montre de l'inconfort, on s'arrête sans insister : le geste doit rester un plaisir partagé. Termine en allégeant le contact, puis éloigne-toi en douceur.
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Avertissement :_ La « Réflexologie » proposée ici est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical.
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 
 # — PROTOCOLES REPORTÉS (non affichés) —
@@ -553,9 +579,9 @@ Un accompagnement respiratoire tout en douceur : ouvrir le souffle, apaiser, ré
 13. **l'intestin grêle** — De petits cercles au centre du pied : apaiser le ventre, dénouer.
 14. **le gros intestin** — On suit le trajet du gros intestin : accompagner en douceur ce qui doit être évacué.
 
-_Note de fin :_ Si bébé retire son pied ou montre de l'inconfort, on s'arrête sans insister : le geste doit rester un plaisir partagé. Termine en allégeant le contact, puis éloigne-toi en douceur.
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Avertissement :_ La « Réflexologie » proposée ici est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical.
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -584,9 +610,9 @@ Un protocole apaisant pour la peau : soutenir l'élimination et calmer les tensi
 11. **le gros intestin** — On suit le trajet du gros intestin : accompagner en douceur ce qui doit être évacué.
 12. **la colonne vertébrale** — On accompagne le dos tout du long : détendre l'axe du corps, du haut vers le talon.
 
-_Note de fin :_ Si bébé retire son pied ou montre de l'inconfort, on s'arrête sans insister : le geste doit rester un plaisir partagé. Termine en allégeant le contact, puis éloigne-toi en douceur.
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Avertissement :_ La « Réflexologie » proposée ici est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical.
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -611,9 +637,9 @@ Un moment doux pour soutenir les défenses et apaiser les réactions du corps.
 7. **le gros intestin** — On suit le trajet du gros intestin : accompagner en douceur ce qui doit être évacué.
 8. **les poumons** — De petits cercles qui avancent sur le coussinet : ouvrir le souffle, laisser respirer.
 
-_Note de fin :_ Si bébé retire son pied ou montre de l'inconfort, on s'arrête sans insister : le geste doit rester un plaisir partagé. Termine en allégeant le contact, puis éloigne-toi en douceur.
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Avertissement :_ La « Réflexologie » proposée ici est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical.
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -637,9 +663,9 @@ Un accompagnement très doux pour soutenir le foie et l'élimination, dans les p
 6. **la colonne vertébrale** — On accompagne le dos tout du long : détendre l'axe du corps, du haut vers le talon.
 7. **le gros intestin** — On suit le trajet du gros intestin : accompagner en douceur ce qui doit être évacué.
 
-_Note de fin :_ Si bébé retire son pied ou montre de l'inconfort, on s'arrête sans insister : le geste doit rester un plaisir partagé. Termine en allégeant le contact, puis éloigne-toi en douceur.
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Avertissement :_ La « Réflexologie » proposée ici est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical.
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -662,9 +688,9 @@ Un protocole tout doux pour accompagner les premières éliminations de bébé.
 5. **le gros intestin** — On suit le trajet du gros intestin : accompagner en douceur ce qui doit être évacué.
 6. **la colonne vertébrale** — On accompagne le dos tout du long : détendre l'axe du corps, du haut vers le talon.
 
-_Note de fin :_ Si bébé retire son pied ou montre de l'inconfort, on s'arrête sans insister : le geste doit rester un plaisir partagé. Termine en allégeant le contact, puis éloigne-toi en douceur.
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Avertissement :_ La « Réflexologie » proposée ici est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical.
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -693,6 +719,6 @@ Un protocole réconfortant après une chute : apaiser la peur, soulager, rassure
 8. **la colonne vertébrale** — On accompagne le dos tout du long : détendre l'axe du corps, du haut vers le talon.
 9. **l'épaule ou la hanche** _(hors pied : hors pied)_ — Ce geste ne se fait pas sur le pied : suis l'indication, sans animation.
 
-_Note de fin :_ Si bébé retire son pied ou montre de l'inconfort, on s'arrête sans insister : le geste doit rester un plaisir partagé. Termine en allégeant le contact, puis éloigne-toi en douceur.
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Avertissement :_ La « Réflexologie » proposée ici est un accompagnement au bien-être ; elle ne se substitue pas à un avis médical.
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.

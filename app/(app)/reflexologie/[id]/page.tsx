@@ -6,6 +6,7 @@ import {
   getIdsPublies,
   getProtocole,
   varianteVisible,
+  visuelUrl,
   type ReflexoZone,
 } from "@/lib/reflexologie";
 import {
@@ -39,6 +40,7 @@ export default async function ProtocoleReflexoPage({
   if (!protocole) notFound();
 
   const afficherVariante = varianteVisible(protocole.variante, moisBebe);
+  const visuel = visuelUrl(protocole.visuel);
 
   return (
     <article style={{ display: "flex", flexDirection: "column", gap: 20 }}>
@@ -187,7 +189,97 @@ export default async function ProtocoleReflexoPage({
         </ol>
       </section>
 
-      {/* 4. Séquence — une étape = un libellé parent, une intention, ses zones */}
+      {/* 4. Carte récapitulative « Les zones réflexes, pas à pas » — image des
+          pieds numérotés + bouton lecture (inerte : le lecteur animé paysage
+          sera construit ensuite avec Laura, cf. consignes §4 bis). */}
+      {visuel ? (
+        <section style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+          <div>
+            <h2
+              style={{
+                fontFamily: PLAYFAIR,
+                fontWeight: 700,
+                fontSize: 17,
+                color: REFLEXO_TEXT,
+                margin: 0,
+                lineHeight: 1.2,
+              }}
+            >
+              Les zones réflexes, pas à pas
+            </h2>
+            <p
+              style={{
+                fontSize: 9,
+                color: REFLEXO_MUTED,
+                letterSpacing: ".13em",
+                textTransform: "uppercase",
+                fontWeight: 600,
+                margin: "3px 0 0 0",
+              }}
+            >
+              Dans l&apos;ordre des étapes
+            </p>
+          </div>
+
+          <div
+            style={{
+              position: "relative",
+              borderRadius: 14,
+              overflow: "hidden",
+              // Fond calé sur la couleur du fond des pieds pour un rendu fondu.
+              background: "#DFBEB0",
+            }}
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={visuel}
+              alt={`Zones réflexes du protocole ${protocole.titre}, numérotées dans l'ordre des étapes`}
+              style={{ display: "block", width: "100%", height: "auto" }}
+            />
+            {/* Bouton lecture — inerte pour l'instant (placeholder visuel). */}
+            <span
+              aria-hidden
+              style={{
+                position: "absolute",
+                inset: 0,
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <span
+                style={{
+                  width: 54,
+                  height: 54,
+                  borderRadius: "50%",
+                  background: "rgba(255,255,255,.82)",
+                  boxShadow: "0 2px 10px rgba(58,50,40,.22)",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <svg width="22" height="22" viewBox="0 0 24 24" fill={REFLEXO_TEXT}>
+                  <path d="M8 5.5v13l11-6.5z" />
+                </svg>
+              </span>
+            </span>
+          </div>
+          <p
+            style={{
+              fontSize: 10.5,
+              color: REFLEXO_MUTED,
+              fontStyle: "italic",
+              textAlign: "center",
+              margin: 0,
+            }}
+          >
+            Lecture animée — bientôt disponible
+          </p>
+        </section>
+      ) : null}
+
+      {/* 5. Séquence — une étape = un libellé parent, une intention, ses zones */}
       <section style={{ display: "flex", flexDirection: "column", gap: 11 }}>
         <h2
           style={{
