@@ -5,11 +5,13 @@ import { getBabyMonth } from "@/lib/utils";
 import {
   getIdsPublies,
   getProtocole,
+  getStepsAnimation,
   ouvertureCommune,
   varianteVisible,
   visuelUrl,
   type ReflexoZone,
 } from "@/lib/reflexologie";
+import { ReflexoCarte } from "@/components/modules/reflexo-lecteur";
 import {
   PLAYFAIR,
   REFLEXO_BG_ACCENT,
@@ -214,50 +216,12 @@ export default async function ProtocoleReflexoPage({
             </p>
           </div>
 
-          <div
-            style={{
-              position: "relative",
-              borderRadius: 14,
-              overflow: "hidden",
-              // Fond calé sur la couleur du fond des pieds pour un rendu fondu.
-              background: "#DFBEB0",
-            }}
-          >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={visuel}
-              alt={`Zones réflexes du protocole ${protocole.titre}, numérotées dans l'ordre des étapes`}
-              style={{ display: "block", width: "100%", height: "auto" }}
-            />
-            {/* Bouton lecture — inerte pour l'instant (placeholder visuel). */}
-            <span
-              aria-hidden
-              style={{
-                position: "absolute",
-                inset: 0,
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              <span
-                style={{
-                  width: 54,
-                  height: 54,
-                  borderRadius: "50%",
-                  background: "rgba(255,255,255,.82)",
-                  boxShadow: "0 2px 10px rgba(58,50,40,.22)",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                }}
-              >
-                <svg width="22" height="22" viewBox="0 0 24 24" fill={REFLEXO_TEXT}>
-                  <path d="M8 5.5v13l11-6.5z" />
-                </svg>
-              </span>
-            </span>
-          </div>
+          {/* Carte cliquable : image + ▶ qui ouvre le lecteur animé paysage. */}
+          <ReflexoCarte
+            visuel={visuel}
+            titre={protocole.titre}
+            steps={getStepsAnimation(protocole)}
+          />
           <p
             style={{
               fontSize: 10.5,
@@ -267,7 +231,7 @@ export default async function ProtocoleReflexoPage({
               margin: 0,
             }}
           >
-            Lecture animée — bientôt disponible
+            Appuie sur ▶ et tourne ton téléphone pour la lecture animée.
           </p>
         </section>
       ) : null}

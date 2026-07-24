@@ -23,6 +23,7 @@
 import indexJson from "@/reflexologie/protocoles-index.json";
 import accueilJson from "@/reflexologie/accueil-onglet-reflexologie.json";
 import ouvertureJson from "@/reflexologie/_ouverture-commune.json";
+import catalogueJson from "@/reflexologie/zones-mouvements.json";
 
 import accueilNouveauNe from "@/reflexologie/protocole-accueil-nouveau-ne.json";
 import agitationConcentration from "@/reflexologie/protocole-agitation-concentration.json";
@@ -226,6 +227,52 @@ export function getProtocole(id: string): ReflexoProtocole | null {
 /** Ids des protocoles publiés — pour `generateStaticParams`. */
 export function getIdsPublies(): string[] {
   return getProtocolesPublies().map((p) => p.id);
+}
+
+// --- Lecteur animé ---------------------------------------------------------
+
+// Catalogue des 37 zones : id de zone → ids des éléments SVG (`cibles`) à
+// animer. C'est le pont entre une étape de protocole (qui cite une `zone`) et
+// l'illustration des pieds (qui porte les `id` SVG).
+const CATALOGUE_CIBLES = new Map<string, string[]>(
+  (catalogueJson.zones as { id: string; cibles?: string[] }[]).map((z) => [
+    z.id,
+    z.cibles ?? [],
+  ]),
+);
+
+/**
+ * Une étape telle que la consomme le lecteur animé paysage : le texte synchronisé
+ * (nom parent, intention, description du geste) + les `id` SVG à mettre en avant.
+ */
+export type ReflexoAnimStep = {
+  ordre: number;
+  designation: string;
+  intention: string;
+  /** Description du mouvement (1re zone de l'étape). */
+  desc: string;
+  mouvement: string | null;
+  /** Étape hors pied : aucune zone à animer, texte seul. */
+  horsPied: boolean;
+  /** Ids d'éléments SVG à révéler/animer (plusieurs si gestes enchaînés). */
+  cibles: string[];
+};
+
+/** Convertit la séquence d'un protocole en étapes prêtes pour le lecteur animé. */
+export function getStepsAnimation(protocole: ReflexoProtocole): ReflexoAnimStep[] {
+  return protocole.sequence.map((e) => {
+    const zones = e.zones ?? [];
+    const cibles = zones.flatMap((z) => CATALOGUE_CIBLES.get(z.zone) ?? []);
+    return {
+      ordre: e.ordre,
+      designation: e.designation,
+      intention: e.intention,
+      desc: zones[0]?.description_mouvement ?? "",
+      mouvement: zones[0]?.mouvement ?? null,
+      horsPied: e.hors_pied === true,
+      cibles,
+    };
+  });
 }
 
 /**

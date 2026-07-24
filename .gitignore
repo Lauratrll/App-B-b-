@@ -48,5 +48,7 @@ Thumbs.db
 # Supabase CLI temp
 /supabase/.temp/
 
-# Visuels réflexo copiés au build depuis reflexologie/visuels-protocoles/ (source de vérité)
-/public/reflexologie/visuels/
+# Assets réflexo copiés au build depuis reflexologie/ (source de vérité) :
+# visuels des protocoles + illustration SVG des pieds. Régénérés par
+# scripts/sync-reflexo-visuels.mjs (lancé par `npm run dev` et `build`).
+/public/reflexologie/

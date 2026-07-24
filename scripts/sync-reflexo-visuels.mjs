@@ -15,19 +15,30 @@
 import { readdirSync, mkdirSync, copyFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 
-const SRC = join(process.cwd(), "reflexologie", "visuels-protocoles");
-const DEST = join(process.cwd(), "public", "reflexologie", "visuels");
+const REFLEXO = join(process.cwd(), "reflexologie");
+const SRC = join(REFLEXO, "visuels-protocoles");
+const DEST_VISUELS = join(process.cwd(), "public", "reflexologie", "visuels");
+const DEST_REFLEXO = join(process.cwd(), "public", "reflexologie");
 
 if (!existsSync(SRC)) {
   console.error(`✗ Dossier source introuvable : ${SRC}`);
   process.exit(1);
 }
 
-mkdirSync(DEST, { recursive: true });
+mkdirSync(DEST_VISUELS, { recursive: true });
 
 const pngs = readdirSync(SRC).filter((f) => f.toLowerCase().endsWith(".png"));
 for (const f of pngs) {
-  copyFileSync(join(SRC, f), join(DEST, f));
+  copyFileSync(join(SRC, f), join(DEST_VISUELS, f));
 }
-
 console.log(`✓ ${pngs.length} visuel(s) copié(s) vers public/reflexologie/visuels/`);
+
+// L'illustration des pieds (avec tous les id de zones) est injectée par le
+// lecteur animé — elle doit être servable depuis /public.
+const SVG = "pieds_bebe_zones_reflexes.svg";
+if (existsSync(join(REFLEXO, SVG))) {
+  copyFileSync(join(REFLEXO, SVG), join(DEST_REFLEXO, SVG));
+  console.log(`✓ ${SVG} copié vers public/reflexologie/`);
+} else {
+  console.warn(`⚠️  ${SVG} introuvable — le lecteur animé n'aura pas l'illustration.`);
+}
