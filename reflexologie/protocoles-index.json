@@ -1,0 +1,259 @@
+{
+  "_titre": "Index des protocoles de « Réflexologie »",
+  "lancement": [
+    "accueil-nouveau-ne",
+    "prematurite",
+    "cesarienne",
+    "confiance-en-soi",
+    "difficultes-a-teter",
+    "separation",
+    "coliques",
+    "reflux",
+    "dents",
+    "constipation",
+    "diarrhee",
+    "mal-des-transports",
+    "sommeil",
+    "rhume-otite",
+    "agitation-concentration",
+    "anxiete-nervosite",
+    "opposition-frustration",
+    "enuresie"
+  ],
+  "reportes": [
+    "bronchite-asthme",
+    "eczema",
+    "allergies",
+    "ictere",
+    "meconium",
+    "chutes"
+  ],
+  "accueil": "accueil-onglet-reflexologie.json",
+  "ouverture_commune": "_ouverture-commune.json",
+  "schema": "SCHEMA_protocole.md",
+  "reference": "protocole-sommeil.json",
+  "protocoles": [
+    {
+      "id": "accueil-nouveau-ne",
+      "titre": "Accueil du nouveau-né",
+      "fichier": "protocole-accueil-nouveau-ne.json",
+      "nb_etapes": 6,
+      "lancement": true,
+      "sujet_sensible": false,
+      "variante": false
+    },
+    {
+      "id": "prematurite",
+      "titre": "Prématurité",
+      "fichier": "protocole-prematurite.json",
+      "nb_etapes": 6,
+      "lancement": true,
+      "sujet_sensible": true,
+      "variante": false
+    },
+    {
+      "id": "cesarienne",
+      "titre": "Césarienne",
+      "fichier": "protocole-cesarienne.json",
+      "nb_etapes": 10,
+      "lancement": true,
+      "sujet_sensible": false,
+      "variante": false
+    },
+    {
+      "id": "confiance-en-soi",
+      "titre": "Confiance en soi",
+      "fichier": "protocole-confiance-en-soi.json",
+      "nb_etapes": 11,
+      "lancement": true,
+      "sujet_sensible": false,
+      "variante": false
+    },
+    {
+      "id": "difficultes-a-teter",
+      "titre": "Difficultés à téter",
+      "fichier": "protocole-difficultes-a-teter.json",
+      "nb_etapes": 8,
+      "lancement": true,
+      "sujet_sensible": false,
+      "variante": false
+    },
+    {
+      "id": "separation",
+      "titre": "Séparation",
+      "fichier": "protocole-separation.json",
+      "nb_etapes": 8,
+      "lancement": true,
+      "sujet_sensible": false,
+      "variante": false
+    },
+    {
+      "id": "coliques",
+      "titre": "Coliques",
+      "fichier": "protocole-coliques.json",
+      "nb_etapes": 8,
+      "lancement": true,
+      "sujet_sensible": false,
+      "variante": false
+    },
+    {
+      "id": "reflux",
+      "titre": "Reflux",
+      "fichier": "protocole-reflux.json",
+      "nb_etapes": 8,
+      "lancement": true,
+      "sujet_sensible": true,
+      "variante": false
+    },
+    {
+      "id": "dents",
+      "titre": "Dents",
+      "fichier": "protocole-dents.json",
+      "nb_etapes": 8,
+      "lancement": true,
+      "sujet_sensible": false,
+      "variante": false
+    },
+    {
+      "id": "constipation",
+      "titre": "Constipation",
+      "fichier": "protocole-constipation.json",
+      "nb_etapes": 11,
+      "lancement": true,
+      "sujet_sensible": false,
+      "variante": false
+    },
+    {
+      "id": "diarrhee",
+      "titre": "Diarrhée",
+      "fichier": "protocole-diarrhee.json",
+      "nb_etapes": 11,
+      "lancement": true,
+      "sujet_sensible": true,
+      "variante": false
+    },
+    {
+      "id": "mal-des-transports",
+      "titre": "Mal des transports",
+      "fichier": "protocole-mal-des-transports.json",
+      "nb_etapes": 11,
+      "lancement": true,
+      "sujet_sensible": false,
+      "variante": false
+    },
+    {
+      "id": "sommeil",
+      "titre": "Sommeil",
+      "fichier": "protocole-sommeil.json",
+      "nb_etapes": 8,
+      "lancement": true,
+      "sujet_sensible": false,
+      "variante": true
+    },
+    {
+      "id": "rhume-otite",
+      "titre": "Rhume, otite",
+      "fichier": "protocole-rhume-otite.json",
+      "nb_etapes": 11,
+      "lancement": true,
+      "sujet_sensible": true,
+      "variante": false
+    },
+    {
+      "id": "agitation-concentration",
+      "titre": "Concentration / Agitation",
+      "fichier": "protocole-agitation-concentration.json",
+      "nb_etapes": 10,
+      "lancement": true,
+      "sujet_sensible": false,
+      "variante": false
+    },
+    {
+      "id": "anxiete-nervosite",
+      "titre": "Anxiété, nervosité",
+      "fichier": "protocole-anxiete-nervosite.json",
+      "nb_etapes": 11,
+      "lancement": true,
+      "sujet_sensible": false,
+      "variante": false
+    },
+    {
+      "id": "opposition-frustration",
+      "titre": "Opposition, frustration",
+      "fichier": "protocole-opposition-frustration.json",
+      "nb_etapes": 10,
+      "lancement": true,
+      "sujet_sensible": false,
+      "variante": false
+    },
+    {
+      "id": "enuresie",
+      "titre": "Énurésie",
+      "fichier": "protocole-enuresie.json",
+      "nb_etapes": 8,
+      "lancement": true,
+      "sujet_sensible": false,
+      "variante": false
+    },
+    {
+      "id": "bronchite-asthme",
+      "titre": "Bronchite, asthme",
+      "fichier": "protocole-bronchite-asthme.json",
+      "nb_etapes": 14,
+      "lancement": false,
+      "sujet_sensible": false,
+      "variante": false,
+      "raison_report": "sujet trop médical — reporté à un cadre ultérieur"
+    },
+    {
+      "id": "eczema",
+      "titre": "Eczéma",
+      "fichier": "protocole-eczema.json",
+      "nb_etapes": 12,
+      "lancement": false,
+      "sujet_sensible": false,
+      "variante": false,
+      "raison_report": "sujet trop médical — reporté à un cadre ultérieur"
+    },
+    {
+      "id": "allergies",
+      "titre": "Allergies",
+      "fichier": "protocole-allergies.json",
+      "nb_etapes": 8,
+      "lancement": false,
+      "sujet_sensible": false,
+      "variante": false,
+      "raison_report": "sujet trop médical — reporté à un cadre ultérieur"
+    },
+    {
+      "id": "ictere",
+      "titre": "Ictère",
+      "fichier": "protocole-ictere.json",
+      "nb_etapes": 7,
+      "lancement": false,
+      "sujet_sensible": false,
+      "variante": false,
+      "raison_report": "sujet trop médical — reporté à un cadre ultérieur"
+    },
+    {
+      "id": "meconium",
+      "titre": "Méconium",
+      "fichier": "protocole-meconium.json",
+      "nb_etapes": 6,
+      "lancement": false,
+      "sujet_sensible": false,
+      "variante": false,
+      "raison_report": "sujet trop médical — reporté à un cadre ultérieur"
+    },
+    {
+      "id": "chutes",
+      "titre": "Chutes",
+      "fichier": "protocole-chutes.json",
+      "nb_etapes": 9,
+      "lancement": false,
+      "sujet_sensible": false,
+      "variante": false,
+      "raison_report": "protocole complexe : nécessite des vues de côté (épaule, hanche) et d'autres éléments à créer — reporté"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+// lib/reflexologie.ts
+// ===========================================================================
+// Couche données de l'onglet « Réflexologie plantaire » (remplace « Jeux »).
+//
+// Contrairement aux 6 modules mensuels, ces protocoles ne dépendent PAS du mois
+// de bébé : c'est une bibliothèque fixe, la même pour tout le monde. Ils sont
+// donc lus directement depuis /reflexologie/*.json (embarqués au build via des
+// imports statiques — la voie fiable pour que Vercel les inclue), et non depuis
+// la table Supabase `content`.
+//
+// ⚠️ Le module `reflexo` déjà présent en base est AUTRE CHOSE : ce sont les
+// sections réflexo extraites de Coucher/Soin/Jeux pour les épingles. On n'y
+// touche pas.
+//
+// Règle des consignes : ne jamais coder en dur la liste affichée — on filtre
+// sur le champ `lancement`. Un protocole qui passe à `true` apparaît tout seul.
+//
+// ➕ Ajouter un protocole = déposer le JSON dans /reflexologie ET l'ajouter à
+// PROTOCOLES ci-dessous (imports statiques obligatoires pour le bundling). Le
+// reste (ordre, visibilité) est piloté par les données, pas par le code.
+// ===========================================================================
+
+import indexJson from "@/reflexologie/protocoles-index.json";
+import accueilJson from "@/reflexologie/accueil-onglet-reflexologie.json";
+
+import accueilNouveauNe from "@/reflexologie/protocole-accueil-nouveau-ne.json";
+import agitationConcentration from "@/reflexologie/protocole-agitation-concentration.json";
+import allergies from "@/reflexologie/protocole-allergies.json";
+import anxieteNervosite from "@/reflexologie/protocole-anxiete-nervosite.json";
+import bronchiteAsthme from "@/reflexologie/protocole-bronchite-asthme.json";
+import cesarienne from "@/reflexologie/protocole-cesarienne.json";
+import chutes from "@/reflexologie/protocole-chutes.json";
+import coliques from "@/reflexologie/protocole-coliques.json";
+import confianceEnSoi from "@/reflexologie/protocole-confiance-en-soi.json";
+import constipation from "@/reflexologie/protocole-constipation.json";
+import dents from "@/reflexologie/protocole-dents.json";
+import diarrhee from "@/reflexologie/protocole-diarrhee.json";
+import difficultesATeter from "@/reflexologie/protocole-difficultes-a-teter.json";
+import eczema from "@/reflexologie/protocole-eczema.json";
+import enuresie from "@/reflexologie/protocole-enuresie.json";
+import ictere from "@/reflexologie/protocole-ictere.json";
+import malDesTransports from "@/reflexologie/protocole-mal-des-transports.json";
+import meconium from "@/reflexologie/protocole-meconium.json";
+import oppositionFrustration from "@/reflexologie/protocole-opposition-frustration.json";
+import prematurite from "@/reflexologie/protocole-prematurite.json";
+import reflux from "@/reflexologie/protocole-reflux.json";
+import rhumeOtite from "@/reflexologie/protocole-rhume-otite.json";
+import separation from "@/reflexologie/protocole-separation.json";
+import sommeil from "@/reflexologie/protocole-sommeil.json";
+
+// --- Types -----------------------------------------------------------------
+
+export type ReflexoZone = {
+  zone: string;
+  designation: string;
+  mouvement: string;
+  description_mouvement: string;
+  /** Sens du geste (certaines zones se jouent en sens inverse). Détail d'animation. */
+  sens?: string;
+};
+
+export type ReflexoEtape = {
+  ordre: number;
+  designation: string;
+  intention: string;
+  /** Absent quand l'étape est `hors_pied`. */
+  zones?: ReflexoZone[];
+  /** Deux zones jouées l'une après l'autre (bassin, digestif, dents, nez-oreilles). */
+  gestes_enchaines?: boolean;
+  /** Étape sans animation : juste le texte. */
+  hors_pied?: boolean;
+  note?: string;
+};
+
+export type ReflexoVariante = {
+  condition: string;
+  /** La variante n'est proposée qu'à partir de cet âge (en mois). */
+  age_min_mois?: number;
+  ajout?: ReflexoZone[];
+  texte: string;
+};
+
+export type ReflexoProtocole = {
+  id: string;
+  titre: string;
+  categorie_guide_moi?: string;
+  lien_pathologie?: boolean;
+  /** À qui/quoi s'applique le protocole (ex. « bébé né d'une césarienne »). */
+  s_applique?: string;
+  intro: string;
+  emotion?: string;
+  ouverture: { titre: string; etapes: string[] };
+  sequence: ReflexoEtape[];
+  variante?: ReflexoVariante;
+  /** Ligne de sécurité mise en avant (ex. diarrhée infectieuse → avis médical). */
+  vigilance?: string;
+  note_fin: string;
+  disclaimer: string;
+  lancement: boolean;
+  /** Termes prudents obligatoires : accompagner / apaiser, jamais soigner. */
+  sujet_sensible?: boolean;
+  raison_report?: string;
+  /** Notes internes de rédaction — jamais affichées au parent. */
+  notes?: string[];
+};
+
+export type ReflexoAccueil = {
+  titre: string;
+  sous_titre: string;
+  presentation: string[];
+  precautions_titre: string;
+  precautions: { cle: string; texte: string }[];
+  note_fin: string;
+  disclaimer: string;
+};
+
+/** Entrée de la liste affichée dans l'onglet. */
+export type ReflexoListItem = {
+  id: string;
+  titre: string;
+  accroche: string;
+  sujet_sensible: boolean;
+  categorie_guide_moi?: string;
+  nb_etapes: number;
+};
+
+// --- Sources ---------------------------------------------------------------
+
+// Tous les protocoles présents sur disque, publiés ou non. Le filtrage se fait
+// plus bas sur `lancement`, jamais sur cette liste.
+const PROTOCOLES = [
+  accueilNouveauNe,
+  agitationConcentration,
+  allergies,
+  anxieteNervosite,
+  bronchiteAsthme,
+  cesarienne,
+  chutes,
+  coliques,
+  confianceEnSoi,
+  constipation,
+  dents,
+  diarrhee,
+  difficultesATeter,
+  eczema,
+  enuresie,
+  ictere,
+  malDesTransports,
+  meconium,
+  oppositionFrustration,
+  prematurite,
+  reflux,
+  rhumeOtite,
+  separation,
+  sommeil,
+] as unknown as ReflexoProtocole[];
+
+const PAR_ID = new Map(PROTOCOLES.map((p) => [p.id, p]));
+
+// L'index porte l'ordre d'affichage voulu (et non l'ordre alphabétique des
+// fichiers) : on s'en sert comme référence de tri.
+const ORDRE_LANCEMENT: string[] = indexJson.lancement;
+
+export const accueilReflexo = accueilJson as ReflexoAccueil;
+
+// --- Accès -----------------------------------------------------------------
+
+/** Première phrase de l'intro — sert d'accroche courte dans la liste. */
+function accrocheDepuisIntro(intro: string): string {
+  const premiere = intro.split(/(?<=\.)\s/)[0]?.trim() ?? intro;
+  return premiere.length > 130 ? `${premiere.slice(0, 127).trimEnd()}…` : premiere;
+}
+
+/**
+ * Les protocoles publiés (`lancement === true`), dans l'ordre de l'index.
+ * Un protocole publié mais absent de l'index est ajouté à la fin plutôt
+ * qu'ignoré silencieusement.
+ */
+export function getProtocolesPublies(): ReflexoListItem[] {
+  const publies = PROTOCOLES.filter((p) => p.lancement === true);
+  const rang = (id: string) => {
+    const i = ORDRE_LANCEMENT.indexOf(id);
+    return i === -1 ? Number.MAX_SAFE_INTEGER : i;
+  };
+  return publies
+    .sort((a, b) => rang(a.id) - rang(b.id) || a.titre.localeCompare(b.titre, "fr"))
+    .map((p) => ({
+      id: p.id,
+      titre: p.titre,
+      accroche: accrocheDepuisIntro(p.intro),
+      sujet_sensible: p.sujet_sensible === true,
+      categorie_guide_moi: p.categorie_guide_moi,
+      nb_etapes: p.sequence.length,
+    }));
+}
+
+/** Un protocole publié. Renvoie null si inconnu ou non publié (report). */
+export function getProtocole(id: string): ReflexoProtocole | null {
+  const p = PAR_ID.get(id);
+  if (!p || p.lancement !== true) return null;
+  return p;
+}
+
+/** Ids des protocoles publiés — pour `generateStaticParams`. */
+export function getIdsPublies(): string[] {
+  return getProtocolesPublies().map((p) => p.id);
+}
+
+/**
+ * La variante n'est proposée que si l'âge de bébé atteint `age_min_mois`
+ * (ex. cauchemars à partir de 12 mois). Sans contrainte d'âge, elle est
+ * toujours proposée.
+ */
+export function varianteVisible(
+  variante: ReflexoVariante | undefined,
+  moisBebe: number,
+): boolean {
+  if (!variante) return false;
+  if (typeof variante.age_min_mois !== "number") return true;
+  return moisBebe >= variante.age_min_mois;
+}
+
+/**
+ * Relais depuis Guide-moi : le protocole correspondant à une catégorie du mois,
+ * s'il existe et s'il est publié. La correspondance se fait sur
+ * `categorie_guide_moi` (comparaison insensible à la casse et aux accents).
+ */
+export function getProtocolePourCategorieGuide(
+  categorie: string,
+): ReflexoListItem | null {
+  // RegExp construit depuis une chaîne échappée (diacritiques combinants) pour
+  // éviter le flag Unicode `u`, indisponible sans cible ES6.
+  const diacritiques = new RegExp("[\\u0300-\\u036f]", "g");
+  const norm = (s: string) =>
+    s.normalize("NFD").replace(diacritiques, "").toLowerCase().trim();
+  const cible = norm(categorie);
+  return (
+    getProtocolesPublies().find(
+      (p) => p.categorie_guide_moi && norm(p.categorie_guide_moi) === cible,
+    ) ?? null
+  );
+}

@@ -1,0 +1,2262 @@
+{
+  "_source": "PDF EDPP « Réflexologie plantaire parents-bébés », section « Les protocoles » (p.49-74)",
+  "_note": "Compilation titres + explications + zones ordonnées. Les mouvements proviennent de zones-mouvements.json.",
+  "_avertissement": "lien_pathologie_suggere = proposition de l'assistant ; à trancher par Laura (protocoles trop liés à une maladie à écarter de l'app).",
+  "_prochaine_etape": "remplacer l'onglet « jeux » par un onglet « réflexologie »",
+  "protocoles": [
+    {
+      "id": "preparation",
+      "titre": "Préparation",
+      "explication": "Geste préparatoire, avant tout protocole : détendre le pied et ouvrir la séance.",
+      "lien_pathologie_suggere": false,
+      "etapes": [
+        {
+          "ordre": 1,
+          "libelle_pdf": "tete",
+          "zones": [
+            {
+              "zone": "tete",
+              "mouvement": "pression-circulaire",
+              "designation": "la tête"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 2,
+          "libelle_pdf": "diaphragme",
+          "zones": [
+            {
+              "zone": "diaphragme",
+              "mouvement": "pression-glissee",
+              "designation": "le diaphragme"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 3,
+          "libelle_pdf": "colonne",
+          "zones": [
+            {
+              "zone": "colonne-vertebrale",
+              "mouvement": "pression-glissee",
+              "designation": "la colonne vertébrale"
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "accueil-nouveau-ne",
+      "titre": "Accueil du nouveau-né",
+      "explication": null,
+      "lien_pathologie_suggere": false,
+      "etapes": [
+        {
+          "ordre": 1,
+          "libelle_pdf": "colonne et point conception",
+          "zones": [
+            {
+              "zone": "colonne-vertebrale",
+              "mouvement": "pression-glissee",
+              "designation": "la colonne vertébrale"
+            },
+            {
+              "zone": "point-conception",
+              "mouvement": "pression-maintenue",
+              "designation": "le point de conception"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 2,
+          "libelle_pdf": "tete",
+          "zones": [
+            {
+              "zone": "tete",
+              "mouvement": "pression-circulaire",
+              "designation": "la tête"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 3,
+          "libelle_pdf": "plexus",
+          "zones": [
+            {
+              "zone": "plexus-solaire",
+              "mouvement": "pression-maintenue",
+              "designation": "le plexus solaire"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 4,
+          "libelle_pdf": "systeme digestif",
+          "zones": [
+            {
+              "zone": "digestive",
+              "mouvement": "composite",
+              "designation": "la zone digestive"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 5,
+          "libelle_pdf": "bassin",
+          "zones": [
+            {
+              "zone": "bassin",
+              "mouvement": "spirale-centripete",
+              "designation": "le bassin"
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "prematurite",
+      "titre": "Prématurité",
+      "explication": null,
+      "lien_pathologie_suggere": true,
+      "etapes": [
+        {
+          "ordre": 1,
+          "libelle_pdf": "colonne",
+          "zones": [
+            {
+              "zone": "colonne-vertebrale",
+              "mouvement": "pression-glissee",
+              "designation": "la colonne vertébrale"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 2,
+          "libelle_pdf": "bassin",
+          "zones": [
+            {
+              "zone": "bassin",
+              "mouvement": "spirale-centripete",
+              "designation": "le bassin"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 3,
+          "libelle_pdf": "reins",
+          "zones": [
+            {
+              "zone": "rein",
+              "mouvement": "pression-maintenue",
+              "designation": "les reins"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 4,
+          "libelle_pdf": "poumons",
+          "zones": [
+            {
+              "zone": "poumon",
+              "mouvement": "boucles-progressives",
+              "designation": "les poumons"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 5,
+          "libelle_pdf": "plexus",
+          "zones": [
+            {
+              "zone": "plexus-solaire",
+              "mouvement": "pression-maintenue",
+              "designation": "le plexus solaire"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 6,
+          "libelle_pdf": "foie",
+          "zones": [
+            {
+              "zone": "foie",
+              "mouvement": "pression-circulaire",
+              "designation": "le foie"
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "cesarienne",
+      "titre": "Césarienne",
+      "explication": "On est venu me chercher, je n'étais pas capable de faire seul. Confiance en lui. Peur, stress. Manque de limites. Besoin d'enveloppement.",
+      "lien_pathologie_suggere": false,
+      "etapes": [
+        {
+          "ordre": 1,
+          "libelle_pdf": "colonne vertebrale et contour corporel",
+          "zones": [
+            {
+              "zone": "colonne-vertebrale",
+              "mouvement": "pression-glissee",
+              "designation": "la colonne vertébrale"
+            },
+            {
+              "zone": "colonne-vertebrale-contour",
+              "mouvement": "pression-glissee",
+              "designation": "le contour de la colonne vertébrale"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 2,
+          "libelle_pdf": "tete",
+          "zones": [
+            {
+              "zone": "tete",
+              "mouvement": "pression-circulaire",
+              "designation": "la tête"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 3,
+          "libelle_pdf": "thymus thyroide",
+          "zones": [
+            {
+              "zone": "thymus",
+              "mouvement": "pression-maintenue",
+              "designation": "le thymus"
+            },
+            {
+              "zone": "thyroide",
+              "mouvement": "pression-glissee",
+              "designation": "la thyroïde"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 4,
+          "libelle_pdf": "diaphragme",
+          "zones": [
+            {
+              "zone": "diaphragme",
+              "mouvement": "pression-glissee",
+              "designation": "le diaphragme"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 5,
+          "libelle_pdf": "plexus",
+          "zones": [
+            {
+              "zone": "plexus-solaire",
+              "mouvement": "pression-maintenue",
+              "designation": "le plexus solaire"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 6,
+          "libelle_pdf": "estomac et pancrea",
+          "zones": [
+            {
+              "zone": "estomac",
+              "mouvement": "boucles-progressives",
+              "designation": "l'estomac"
+            },
+            {
+              "zone": "pancreas",
+              "mouvement": "boucles-progressives",
+              "designation": "le pancréas"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 7,
+          "libelle_pdf": "reins",
+          "zones": [
+            {
+              "zone": "rein",
+              "mouvement": "pression-maintenue",
+              "designation": "les reins"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 8,
+          "libelle_pdf": "bassin",
+          "zones": [
+            {
+              "zone": "bassin",
+              "mouvement": "spirale-centripete",
+              "designation": "le bassin"
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "difficultes-a-teter",
+      "titre": "Difficultés à téter",
+      "explication": null,
+      "lien_pathologie_suggere": false,
+      "etapes": [
+        {
+          "ordre": 1,
+          "libelle_pdf": "tete",
+          "zones": [
+            {
+              "zone": "tete",
+              "mouvement": "pression-circulaire",
+              "designation": "la tête"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 2,
+          "libelle_pdf": "bouche",
+          "zones": [
+            {
+              "zone": "bouche",
+              "mouvement": "pression-maintenue",
+              "designation": "la bouche"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 3,
+          "libelle_pdf": "hypophyse",
+          "zones": [
+            {
+              "zone": "hypophyse",
+              "mouvement": "pression-maintenue",
+              "designation": "l'hypophyse"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 4,
+          "libelle_pdf": "poumons",
+          "zones": [
+            {
+              "zone": "poumon",
+              "mouvement": "boucles-progressives",
+              "designation": "les poumons"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 5,
+          "libelle_pdf": "plexus",
+          "zones": [
+            {
+              "zone": "plexus-solaire",
+              "mouvement": "pression-maintenue",
+              "designation": "le plexus solaire"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 6,
+          "libelle_pdf": "diaphragme",
+          "zones": [
+            {
+              "zone": "diaphragme",
+              "mouvement": "pression-glissee",
+              "designation": "le diaphragme"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 7,
+          "libelle_pdf": "oesophage et cardia",
+          "zones": [
+            {
+              "zone": "oesophage",
+              "mouvement": "pression-glissee",
+              "designation": "l'œsophage"
+            },
+            {
+              "zone": "cardia",
+              "mouvement": "pression-maintenue",
+              "designation": "le cardia"
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "separation",
+      "titre": "Séparation",
+      "explication": "Pancréas = père · Rate = mère · Côlon = tristesse.",
+      "lien_pathologie_suggere": false,
+      "etapes": [
+        {
+          "ordre": 1,
+          "libelle_pdf": "tete",
+          "zones": [
+            {
+              "zone": "tete",
+              "mouvement": "pression-circulaire",
+              "designation": "la tête"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 2,
+          "libelle_pdf": "poumons",
+          "zones": [
+            {
+              "zone": "poumon",
+              "mouvement": "boucles-progressives",
+              "designation": "les poumons"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 3,
+          "libelle_pdf": "colonne",
+          "zones": [
+            {
+              "zone": "colonne-vertebrale",
+              "mouvement": "pression-glissee",
+              "designation": "la colonne vertébrale"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 4,
+          "libelle_pdf": "diaphragme",
+          "zones": [
+            {
+              "zone": "diaphragme",
+              "mouvement": "pression-glissee",
+              "designation": "le diaphragme"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 5,
+          "libelle_pdf": "plexus",
+          "zones": [
+            {
+              "zone": "plexus-solaire",
+              "mouvement": "pression-maintenue",
+              "designation": "le plexus solaire"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 6,
+          "libelle_pdf": "rate et pancreas",
+          "zones": [
+            {
+              "zone": "rate",
+              "mouvement": "pression-circulaire",
+              "designation": "la rate"
+            },
+            {
+              "zone": "pancreas",
+              "mouvement": "boucles-progressives",
+              "designation": "le pancréas"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 7,
+          "libelle_pdf": "gros intestin",
+          "zones": [
+            {
+              "zone": "gros-intestin",
+              "mouvement": "pression-glissee",
+              "designation": "le gros intestin"
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "coliques",
+      "titre": "Coliques",
+      "explication": null,
+      "lien_pathologie_suggere": false,
+      "etapes": [
+        {
+          "ordre": 1,
+          "libelle_pdf": "sacrum lombaire",
+          "zones": [
+            {
+              "zone": "colonne-vertebrale-contour",
+              "mouvement": "pression-glissee",
+              "designation": "le contour de la colonne vertébrale"
+            }
+          ],
+          "note": "approximation: colonne (bas du dos)"
+        },
+        {
+          "ordre": 2,
+          "libelle_pdf": "diaphragme",
+          "zones": [
+            {
+              "zone": "diaphragme",
+              "mouvement": "pression-glissee",
+              "designation": "le diaphragme"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 3,
+          "libelle_pdf": "plexus",
+          "zones": [
+            {
+              "zone": "plexus-solaire",
+              "mouvement": "pression-maintenue",
+              "designation": "le plexus solaire"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 4,
+          "libelle_pdf": "oesophage",
+          "zones": [
+            {
+              "zone": "oesophage",
+              "mouvement": "pression-glissee",
+              "designation": "l'œsophage"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 5,
+          "libelle_pdf": "cardia",
+          "zones": [
+            {
+              "zone": "cardia",
+              "mouvement": "pression-maintenue",
+              "designation": "le cardia"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 6,
+          "libelle_pdf": "estomac",
+          "zones": [
+            {
+              "zone": "estomac",
+              "mouvement": "boucles-progressives",
+              "designation": "l'estomac"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 7,
+          "libelle_pdf": "intestin grele",
+          "zones": [
+            {
+              "zone": "intestin-grele",
+              "mouvement": "spirale-centripete",
+              "designation": "l'intestin grêle"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 8,
+          "libelle_pdf": "gros intestin",
+          "zones": [
+            {
+              "zone": "gros-intestin",
+              "mouvement": "pression-glissee",
+              "designation": "le gros intestin"
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "reflux",
+      "titre": "Reflux",
+      "explication": null,
+      "lien_pathologie_suggere": true,
+      "etapes": [
+        {
+          "ordre": 1,
+          "libelle_pdf": "tete",
+          "zones": [
+            {
+              "zone": "tete",
+              "mouvement": "pression-circulaire",
+              "designation": "la tête"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 2,
+          "libelle_pdf": "bouche",
+          "zones": [
+            {
+              "zone": "bouche",
+              "mouvement": "pression-maintenue",
+              "designation": "la bouche"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 3,
+          "libelle_pdf": "diaphragme",
+          "zones": [
+            {
+              "zone": "diaphragme",
+              "mouvement": "pression-glissee",
+              "designation": "le diaphragme"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 4,
+          "libelle_pdf": "oesophage",
+          "zones": [
+            {
+              "zone": "oesophage",
+              "mouvement": "pression-glissee",
+              "designation": "l'œsophage"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 5,
+          "libelle_pdf": "estomac",
+          "zones": [
+            {
+              "zone": "estomac",
+              "mouvement": "boucles-progressives",
+              "designation": "l'estomac"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 6,
+          "libelle_pdf": "cardia",
+          "zones": [
+            {
+              "zone": "cardia",
+              "mouvement": "pression-maintenue",
+              "designation": "le cardia"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 7,
+          "libelle_pdf": "colonne",
+          "zones": [
+            {
+              "zone": "colonne-vertebrale",
+              "mouvement": "pression-glissee",
+              "designation": "la colonne vertébrale"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 8,
+          "libelle_pdf": "nerf vague",
+          "zones": [],
+          "note": "pas de zone dédiée dans le SVG"
+        },
+        {
+          "ordre": 9,
+          "libelle_pdf": "foie",
+          "zones": [
+            {
+              "zone": "foie",
+              "mouvement": "pression-circulaire",
+              "designation": "le foie"
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "dents",
+      "titre": "Dents",
+      "explication": "Peur de grandir.",
+      "lien_pathologie_suggere": false,
+      "etapes": [
+        {
+          "ordre": 1,
+          "libelle_pdf": "ganglions",
+          "zones": [
+            {
+              "zone": "ganglions-lympahtiques",
+              "mouvement": "pression-maintenue",
+              "designation": "les ganglions lymphatiques"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 2,
+          "libelle_pdf": "bouche",
+          "zones": [
+            {
+              "zone": "bouche",
+              "mouvement": "pression-maintenue",
+              "designation": "la bouche"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 3,
+          "libelle_pdf": "dents",
+          "zones": [
+            {
+              "zone": "dents-machoire-haute",
+              "mouvement": "pression-glissee",
+              "designation": "les dents et la mâchoire du haut"
+            },
+            {
+              "zone": "dents-machoire-bas",
+              "mouvement": "pression-glissee",
+              "designation": "les dents et la mâchoire du bas"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 4,
+          "libelle_pdf": "poumons",
+          "zones": [
+            {
+              "zone": "poumon",
+              "mouvement": "boucles-progressives",
+              "designation": "les poumons"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 5,
+          "libelle_pdf": "diaphragme",
+          "zones": [
+            {
+              "zone": "diaphragme",
+              "mouvement": "pression-glissee",
+              "designation": "le diaphragme"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 6,
+          "libelle_pdf": "foie et estomac",
+          "zones": [
+            {
+              "zone": "foie",
+              "mouvement": "pression-circulaire",
+              "designation": "le foie"
+            },
+            {
+              "zone": "estomac",
+              "mouvement": "boucles-progressives",
+              "designation": "l'estomac"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 7,
+          "libelle_pdf": "surrenales",
+          "zones": [
+            {
+              "zone": "surrenales",
+              "mouvement": "pression-maintenue",
+              "designation": "les surrénales"
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "constipation-diarrhee",
+      "titre": "Constipation et diarrhée",
+      "explication": "Ce qu'on veut retenir. Cordon autour du cou ? Ce qui ne veut pas sortir ? Ce qui doit être éliminé ? Deuil.",
+      "lien_pathologie_suggere": false,
+      "etapes": [
+        {
+          "ordre": 1,
+          "libelle_pdf": "hypophyse",
+          "zones": [
+            {
+              "zone": "hypophyse",
+              "mouvement": "pression-maintenue",
+              "designation": "l'hypophyse"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 2,
+          "libelle_pdf": "poumons",
+          "zones": [
+            {
+              "zone": "poumon",
+              "mouvement": "boucles-progressives",
+              "designation": "les poumons"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 3,
+          "libelle_pdf": "thymus thyroide",
+          "zones": [
+            {
+              "zone": "thymus",
+              "mouvement": "pression-maintenue",
+              "designation": "le thymus"
+            },
+            {
+              "zone": "thyroide",
+              "mouvement": "pression-glissee",
+              "designation": "la thyroïde"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 4,
+          "libelle_pdf": "diaphragme",
+          "zones": [
+            {
+              "zone": "diaphragme",
+              "mouvement": "pression-glissee",
+              "designation": "le diaphragme"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 5,
+          "libelle_pdf": "foie et estomac",
+          "zones": [
+            {
+              "zone": "foie",
+              "mouvement": "pression-circulaire",
+              "designation": "le foie"
+            },
+            {
+              "zone": "estomac",
+              "mouvement": "boucles-progressives",
+              "designation": "l'estomac"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 6,
+          "libelle_pdf": "surrenales",
+          "zones": [
+            {
+              "zone": "surrenales",
+              "mouvement": "pression-maintenue",
+              "designation": "les surrénales"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 7,
+          "libelle_pdf": "intestin grele",
+          "zones": [
+            {
+              "zone": "intestin-grele",
+              "mouvement": "spirale-centripete",
+              "designation": "l'intestin grêle"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 8,
+          "libelle_pdf": "gros intestin",
+          "zones": [
+            {
+              "zone": "gros-intestin",
+              "mouvement": "pression-glissee",
+              "designation": "le gros intestin"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 9,
+          "libelle_pdf": "colonne",
+          "zones": [
+            {
+              "zone": "colonne-vertebrale",
+              "mouvement": "pression-glissee",
+              "designation": "la colonne vertébrale"
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "sommeil",
+      "titre": "Sommeil",
+      "explication": "La nuit représente la grossesse, l'aube la naissance. Émotions des parents. Si cauchemars → vésicule.",
+      "lien_pathologie_suggere": false,
+      "etapes": [
+        {
+          "ordre": 1,
+          "libelle_pdf": "tete",
+          "zones": [
+            {
+              "zone": "tete",
+              "mouvement": "pression-circulaire",
+              "designation": "la tête"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 2,
+          "libelle_pdf": "epiphyse",
+          "zones": [
+            {
+              "zone": "epiphyse",
+              "mouvement": "pression-maintenue",
+              "designation": "l'épiphyse"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 3,
+          "libelle_pdf": "hypophyse",
+          "zones": [
+            {
+              "zone": "hypophyse",
+              "mouvement": "pression-maintenue",
+              "designation": "l'hypophyse"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 4,
+          "libelle_pdf": "diaphragme",
+          "zones": [
+            {
+              "zone": "diaphragme",
+              "mouvement": "pression-glissee",
+              "designation": "le diaphragme"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 5,
+          "libelle_pdf": "plexus",
+          "zones": [
+            {
+              "zone": "plexus-solaire",
+              "mouvement": "pression-maintenue",
+              "designation": "le plexus solaire"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 6,
+          "libelle_pdf": "surrenales",
+          "zones": [
+            {
+              "zone": "surrenales",
+              "mouvement": "pression-maintenue",
+              "designation": "les surrénales"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 7,
+          "libelle_pdf": "thyroide et thymus",
+          "zones": [
+            {
+              "zone": "thyroide",
+              "mouvement": "pression-glissee",
+              "designation": "la thyroïde"
+            },
+            {
+              "zone": "thymus",
+              "mouvement": "pression-maintenue",
+              "designation": "le thymus"
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "rhume-otite",
+      "titre": "Rhume, otite",
+      "explication": "Colère. Système immunitaire. Deuil. Passage. Ce qu'on ne veut pas entendre.",
+      "lien_pathologie_suggere": true,
+      "etapes": [
+        {
+          "ordre": 1,
+          "libelle_pdf": "sinus",
+          "zones": [
+            {
+              "zone": "sinus",
+              "mouvement": "pression-circulaire",
+              "designation": "les sinus"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 2,
+          "libelle_pdf": "oreille",
+          "zones": [
+            {
+              "zone": "oreilles-nez",
+              "mouvement": "pression-glissee",
+              "designation": "le nez et les oreilles"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 3,
+          "libelle_pdf": "nez",
+          "zones": [
+            {
+              "zone": "oreilles-nez",
+              "mouvement": "pression-glissee",
+              "designation": "le nez et les oreilles"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 4,
+          "libelle_pdf": "hypophyse",
+          "zones": [
+            {
+              "zone": "hypophyse",
+              "mouvement": "pression-maintenue",
+              "designation": "l'hypophyse"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 5,
+          "libelle_pdf": "amygdales",
+          "zones": [
+            {
+              "zone": "amygdales",
+              "mouvement": "pression-glissee",
+              "designation": "les amygdales"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 6,
+          "libelle_pdf": "diaphragme",
+          "zones": [
+            {
+              "zone": "diaphragme",
+              "mouvement": "pression-glissee",
+              "designation": "le diaphragme"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 7,
+          "libelle_pdf": "plexus",
+          "zones": [
+            {
+              "zone": "plexus-solaire",
+              "mouvement": "pression-maintenue",
+              "designation": "le plexus solaire"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 8,
+          "libelle_pdf": "poumons",
+          "zones": [
+            {
+              "zone": "poumon",
+              "mouvement": "boucles-progressives",
+              "designation": "les poumons"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 9,
+          "libelle_pdf": "intestin grele",
+          "zones": [
+            {
+              "zone": "intestin-grele",
+              "mouvement": "spirale-centripete",
+              "designation": "l'intestin grêle"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 10,
+          "libelle_pdf": "thymus",
+          "zones": [
+            {
+              "zone": "thymus",
+              "mouvement": "pression-maintenue",
+              "designation": "le thymus"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 11,
+          "libelle_pdf": "surrenales",
+          "zones": [
+            {
+              "zone": "surrenales",
+              "mouvement": "pression-maintenue",
+              "designation": "les surrénales"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 12,
+          "libelle_pdf": "ganglions",
+          "zones": [
+            {
+              "zone": "ganglions-lympahtiques",
+              "mouvement": "pression-maintenue",
+              "designation": "les ganglions lymphatiques"
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "bronchite-asthme",
+      "titre": "Bronchite, asthme",
+      "explication": "Manque de lien à la naissance. Séparation avec la mère. Tristesse. Premier cri qui tarde. Peur de mourir.",
+      "lien_pathologie_suggere": true,
+      "etapes": [
+        {
+          "ordre": 1,
+          "libelle_pdf": "colonne",
+          "zones": [
+            {
+              "zone": "colonne-vertebrale",
+              "mouvement": "pression-glissee",
+              "designation": "la colonne vertébrale"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 2,
+          "libelle_pdf": "hypophyse",
+          "zones": [
+            {
+              "zone": "hypophyse",
+              "mouvement": "pression-maintenue",
+              "designation": "l'hypophyse"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 3,
+          "libelle_pdf": "gorge et amygdales",
+          "zones": [
+            {
+              "zone": "cou",
+              "mouvement": "pression-glissee",
+              "designation": "le cou"
+            },
+            {
+              "zone": "amygdales",
+              "mouvement": "pression-glissee",
+              "designation": "les amygdales"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 4,
+          "libelle_pdf": "ganglions",
+          "zones": [
+            {
+              "zone": "ganglions-lympahtiques",
+              "mouvement": "pression-maintenue",
+              "designation": "les ganglions lymphatiques"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 5,
+          "libelle_pdf": "thymus",
+          "zones": [
+            {
+              "zone": "thymus",
+              "mouvement": "pression-maintenue",
+              "designation": "le thymus"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 6,
+          "libelle_pdf": "pharynx",
+          "zones": [],
+          "note": "pas de zone dédiée dans le SVG"
+        },
+        {
+          "ordre": 7,
+          "libelle_pdf": "bronches",
+          "zones": [
+            {
+              "zone": "poumon",
+              "mouvement": "boucles-progressives",
+              "designation": "les poumons"
+            }
+          ],
+          "note": "approximation: poumons"
+        },
+        {
+          "ordre": 8,
+          "libelle_pdf": "diaphragme",
+          "zones": [
+            {
+              "zone": "diaphragme",
+              "mouvement": "pression-glissee",
+              "designation": "le diaphragme"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 9,
+          "libelle_pdf": "plexus",
+          "zones": [
+            {
+              "zone": "plexus-solaire",
+              "mouvement": "pression-maintenue",
+              "designation": "le plexus solaire"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 10,
+          "libelle_pdf": "rate",
+          "zones": [
+            {
+              "zone": "rate",
+              "mouvement": "pression-circulaire",
+              "designation": "la rate"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 11,
+          "libelle_pdf": "surrenales",
+          "zones": [
+            {
+              "zone": "surrenales",
+              "mouvement": "pression-maintenue",
+              "designation": "les surrénales"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 12,
+          "libelle_pdf": "intestin grele",
+          "zones": [
+            {
+              "zone": "intestin-grele",
+              "mouvement": "spirale-centripete",
+              "designation": "l'intestin grêle"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 13,
+          "libelle_pdf": "gros intestin",
+          "zones": [
+            {
+              "zone": "gros-intestin",
+              "mouvement": "pression-glissee",
+              "designation": "le gros intestin"
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "eczema",
+      "titre": "Eczéma",
+      "explication": "Allergies ? Grossesse ? Naissance. Angoisse de séparation.",
+      "lien_pathologie_suggere": true,
+      "etapes": [
+        {
+          "ordre": 1,
+          "libelle_pdf": "hypophyse et ganglions",
+          "zones": [
+            {
+              "zone": "hypophyse",
+              "mouvement": "pression-maintenue",
+              "designation": "l'hypophyse"
+            },
+            {
+              "zone": "ganglions-lympahtiques",
+              "mouvement": "pression-maintenue",
+              "designation": "les ganglions lymphatiques"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 2,
+          "libelle_pdf": "thyroide",
+          "zones": [
+            {
+              "zone": "thyroide",
+              "mouvement": "pression-glissee",
+              "designation": "la thyroïde"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 3,
+          "libelle_pdf": "poumons",
+          "zones": [
+            {
+              "zone": "poumon",
+              "mouvement": "boucles-progressives",
+              "designation": "les poumons"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 4,
+          "libelle_pdf": "diaphragme",
+          "zones": [
+            {
+              "zone": "diaphragme",
+              "mouvement": "pression-glissee",
+              "designation": "le diaphragme"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 5,
+          "libelle_pdf": "plexus",
+          "zones": [
+            {
+              "zone": "plexus-solaire",
+              "mouvement": "pression-maintenue",
+              "designation": "le plexus solaire"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 6,
+          "libelle_pdf": "surrenales",
+          "zones": [
+            {
+              "zone": "surrenales",
+              "mouvement": "pression-maintenue",
+              "designation": "les surrénales"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 7,
+          "libelle_pdf": "foie",
+          "zones": [
+            {
+              "zone": "foie",
+              "mouvement": "pression-circulaire",
+              "designation": "le foie"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 8,
+          "libelle_pdf": "systeme urinaire",
+          "zones": [
+            {
+              "zone": "rein",
+              "mouvement": "pression-maintenue",
+              "designation": "les reins"
+            }
+          ],
+          "note": "approximation: reins (pas de zone vessie)"
+        },
+        {
+          "ordre": 9,
+          "libelle_pdf": "intestin grele",
+          "zones": [
+            {
+              "zone": "intestin-grele",
+              "mouvement": "spirale-centripete",
+              "designation": "l'intestin grêle"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 10,
+          "libelle_pdf": "gros intestin",
+          "zones": [
+            {
+              "zone": "gros-intestin",
+              "mouvement": "pression-glissee",
+              "designation": "le gros intestin"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 11,
+          "libelle_pdf": "colonne",
+          "zones": [
+            {
+              "zone": "colonne-vertebrale",
+              "mouvement": "pression-glissee",
+              "designation": "la colonne vertébrale"
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "agitation-concentration",
+      "titre": "Agitation, concentration",
+      "explication": null,
+      "lien_pathologie_suggere": false,
+      "etapes": [
+        {
+          "ordre": 1,
+          "libelle_pdf": "hypophyse",
+          "zones": [
+            {
+              "zone": "hypophyse",
+              "mouvement": "pression-maintenue",
+              "designation": "l'hypophyse"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 2,
+          "libelle_pdf": "coronal",
+          "zones": [
+            {
+              "zone": "coronal",
+              "mouvement": "pression-maintenue",
+              "designation": "le point coronal"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 3,
+          "libelle_pdf": "colonne",
+          "zones": [
+            {
+              "zone": "colonne-vertebrale",
+              "mouvement": "pression-glissee",
+              "designation": "la colonne vertébrale"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 4,
+          "libelle_pdf": "thymus thyroide",
+          "zones": [
+            {
+              "zone": "thymus",
+              "mouvement": "pression-maintenue",
+              "designation": "le thymus"
+            },
+            {
+              "zone": "thyroide",
+              "mouvement": "pression-glissee",
+              "designation": "la thyroïde"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 5,
+          "libelle_pdf": "diaphragme",
+          "zones": [
+            {
+              "zone": "diaphragme",
+              "mouvement": "pression-glissee",
+              "designation": "le diaphragme"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 6,
+          "libelle_pdf": "foie",
+          "zones": [
+            {
+              "zone": "foie",
+              "mouvement": "pression-circulaire",
+              "designation": "le foie"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 7,
+          "libelle_pdf": "vesicule",
+          "zones": [
+            {
+              "zone": "vesicule",
+              "mouvement": "pression-maintenue",
+              "designation": "la vésicule biliaire"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 8,
+          "libelle_pdf": "reins",
+          "zones": [
+            {
+              "zone": "rein",
+              "mouvement": "pression-maintenue",
+              "designation": "les reins"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 9,
+          "libelle_pdf": "bassin",
+          "zones": [
+            {
+              "zone": "bassin",
+              "mouvement": "spirale-centripete",
+              "designation": "le bassin"
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "anxiete-nervosite",
+      "titre": "Anxiété, nervosité",
+      "explication": null,
+      "lien_pathologie_suggere": false,
+      "etapes": [
+        {
+          "ordre": 1,
+          "libelle_pdf": "colonne",
+          "zones": [
+            {
+              "zone": "colonne-vertebrale",
+              "mouvement": "pression-glissee",
+              "designation": "la colonne vertébrale"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 2,
+          "libelle_pdf": "hypophyse",
+          "zones": [
+            {
+              "zone": "hypophyse",
+              "mouvement": "pression-maintenue",
+              "designation": "l'hypophyse"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 3,
+          "libelle_pdf": "coronal",
+          "zones": [
+            {
+              "zone": "coronal",
+              "mouvement": "pression-maintenue",
+              "designation": "le point coronal"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 4,
+          "libelle_pdf": "thymus",
+          "zones": [
+            {
+              "zone": "thymus",
+              "mouvement": "pression-maintenue",
+              "designation": "le thymus"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 5,
+          "libelle_pdf": "poumons",
+          "zones": [
+            {
+              "zone": "poumon",
+              "mouvement": "boucles-progressives",
+              "designation": "les poumons"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 6,
+          "libelle_pdf": "diaphragme",
+          "zones": [
+            {
+              "zone": "diaphragme",
+              "mouvement": "pression-glissee",
+              "designation": "le diaphragme"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 7,
+          "libelle_pdf": "plexus",
+          "zones": [
+            {
+              "zone": "plexus-solaire",
+              "mouvement": "pression-maintenue",
+              "designation": "le plexus solaire"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 8,
+          "libelle_pdf": "surrenales",
+          "zones": [
+            {
+              "zone": "surrenales",
+              "mouvement": "pression-maintenue",
+              "designation": "les surrénales"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 9,
+          "libelle_pdf": "rate",
+          "zones": [
+            {
+              "zone": "rate",
+              "mouvement": "pression-circulaire",
+              "designation": "la rate"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 10,
+          "libelle_pdf": "pancrea",
+          "zones": [
+            {
+              "zone": "pancreas",
+              "mouvement": "boucles-progressives",
+              "designation": "le pancréas"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 11,
+          "libelle_pdf": "systeme urinaire",
+          "zones": [
+            {
+              "zone": "rein",
+              "mouvement": "pression-maintenue",
+              "designation": "les reins"
+            }
+          ],
+          "note": "approximation: reins (pas de zone vessie)"
+        }
+      ]
+    },
+    {
+      "id": "enuresie",
+      "titre": "Énurésie",
+      "explication": "Peur de mourir. Peur de la mort des parents. Place dans la fratrie. Insécurité.",
+      "lien_pathologie_suggere": false,
+      "etapes": [
+        {
+          "ordre": 1,
+          "libelle_pdf": "colonne",
+          "zones": [
+            {
+              "zone": "colonne-vertebrale",
+              "mouvement": "pression-glissee",
+              "designation": "la colonne vertébrale"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 2,
+          "libelle_pdf": "gorge",
+          "zones": [
+            {
+              "zone": "cou",
+              "mouvement": "pression-glissee",
+              "designation": "le cou"
+            }
+          ],
+          "note": "approximation: cou"
+        },
+        {
+          "ordre": 3,
+          "libelle_pdf": "poumons",
+          "zones": [
+            {
+              "zone": "poumon",
+              "mouvement": "boucles-progressives",
+              "designation": "les poumons"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 4,
+          "libelle_pdf": "diaphragme",
+          "zones": [
+            {
+              "zone": "diaphragme",
+              "mouvement": "pression-glissee",
+              "designation": "le diaphragme"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 5,
+          "libelle_pdf": "plexus",
+          "zones": [
+            {
+              "zone": "plexus-solaire",
+              "mouvement": "pression-maintenue",
+              "designation": "le plexus solaire"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 6,
+          "libelle_pdf": "surrenales",
+          "zones": [
+            {
+              "zone": "surrenales",
+              "mouvement": "pression-maintenue",
+              "designation": "les surrénales"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 7,
+          "libelle_pdf": "systeme urinaire",
+          "zones": [
+            {
+              "zone": "rein",
+              "mouvement": "pression-maintenue",
+              "designation": "les reins"
+            }
+          ],
+          "note": "approximation: reins (pas de zone vessie)"
+        },
+        {
+          "ordre": 8,
+          "libelle_pdf": "psoas",
+          "zones": [],
+          "note": "pas de zone dédiée dans le SVG"
+        }
+      ]
+    },
+    {
+      "id": "chutes",
+      "titre": "Chutes",
+      "explication": "Épaules, hanches, genoux. Tête/hypophyse. Plexus/thymus. Foie. Surrénales (douleur). Reins/vessie (peur). Bassin (ancrage).",
+      "lien_pathologie_suggere": false,
+      "etapes": [
+        {
+          "ordre": 1,
+          "libelle_pdf": "tete",
+          "zones": [
+            {
+              "zone": "tete",
+              "mouvement": "pression-circulaire",
+              "designation": "la tête"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 2,
+          "libelle_pdf": "hypophyse",
+          "zones": [
+            {
+              "zone": "hypophyse",
+              "mouvement": "pression-maintenue",
+              "designation": "l'hypophyse"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 3,
+          "libelle_pdf": "thymus",
+          "zones": [
+            {
+              "zone": "thymus",
+              "mouvement": "pression-maintenue",
+              "designation": "le thymus"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 4,
+          "libelle_pdf": "foie",
+          "zones": [
+            {
+              "zone": "foie",
+              "mouvement": "pression-circulaire",
+              "designation": "le foie"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 5,
+          "libelle_pdf": "surrenales",
+          "zones": [
+            {
+              "zone": "surrenales",
+              "mouvement": "pression-maintenue",
+              "designation": "les surrénales"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 6,
+          "libelle_pdf": "systeme urinaire",
+          "zones": [
+            {
+              "zone": "rein",
+              "mouvement": "pression-maintenue",
+              "designation": "les reins"
+            }
+          ],
+          "note": "approximation: reins (pas de zone vessie)"
+        },
+        {
+          "ordre": 7,
+          "libelle_pdf": "bassin",
+          "zones": [
+            {
+              "zone": "bassin",
+              "mouvement": "spirale-centripete",
+              "designation": "le bassin"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 8,
+          "libelle_pdf": "colonne",
+          "zones": [
+            {
+              "zone": "colonne-vertebrale",
+              "mouvement": "pression-glissee",
+              "designation": "la colonne vertébrale"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 9,
+          "libelle_pdf": "epaule ou hanche",
+          "zones": [],
+          "note": "pas de zone dédiée dans le SVG"
+        }
+      ]
+    },
+    {
+      "id": "allergies",
+      "titre": "Allergies",
+      "explication": null,
+      "lien_pathologie_suggere": true,
+      "etapes": [
+        {
+          "ordre": 1,
+          "libelle_pdf": "hypophyse",
+          "zones": [
+            {
+              "zone": "hypophyse",
+              "mouvement": "pression-maintenue",
+              "designation": "l'hypophyse"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 2,
+          "libelle_pdf": "thyroide",
+          "zones": [
+            {
+              "zone": "thyroide",
+              "mouvement": "pression-glissee",
+              "designation": "la thyroïde"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 3,
+          "libelle_pdf": "ganglions",
+          "zones": [
+            {
+              "zone": "ganglions-lympahtiques",
+              "mouvement": "pression-maintenue",
+              "designation": "les ganglions lymphatiques"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 4,
+          "libelle_pdf": "surrenales",
+          "zones": [
+            {
+              "zone": "surrenales",
+              "mouvement": "pression-maintenue",
+              "designation": "les surrénales"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 5,
+          "libelle_pdf": "reins",
+          "zones": [
+            {
+              "zone": "rein",
+              "mouvement": "pression-maintenue",
+              "designation": "les reins"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 6,
+          "libelle_pdf": "intestin grele",
+          "zones": [
+            {
+              "zone": "intestin-grele",
+              "mouvement": "spirale-centripete",
+              "designation": "l'intestin grêle"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 7,
+          "libelle_pdf": "gros intestin",
+          "zones": [
+            {
+              "zone": "gros-intestin",
+              "mouvement": "pression-glissee",
+              "designation": "le gros intestin"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 8,
+          "libelle_pdf": "bronches",
+          "zones": [
+            {
+              "zone": "poumon",
+              "mouvement": "boucles-progressives",
+              "designation": "les poumons"
+            }
+          ],
+          "note": "approximation: poumons"
+        }
+      ]
+    },
+    {
+      "id": "ictere",
+      "titre": "Ictère",
+      "explication": null,
+      "lien_pathologie_suggere": true,
+      "etapes": [
+        {
+          "ordre": 1,
+          "libelle_pdf": "tete",
+          "zones": [
+            {
+              "zone": "tete",
+              "mouvement": "pression-circulaire",
+              "designation": "la tête"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 2,
+          "libelle_pdf": "poumons",
+          "zones": [
+            {
+              "zone": "poumon",
+              "mouvement": "boucles-progressives",
+              "designation": "les poumons"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 3,
+          "libelle_pdf": "diaphragme",
+          "zones": [
+            {
+              "zone": "diaphragme",
+              "mouvement": "pression-glissee",
+              "designation": "le diaphragme"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 4,
+          "libelle_pdf": "plexus",
+          "zones": [
+            {
+              "zone": "plexus-solaire",
+              "mouvement": "pression-maintenue",
+              "designation": "le plexus solaire"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 5,
+          "libelle_pdf": "foie",
+          "zones": [
+            {
+              "zone": "foie",
+              "mouvement": "pression-circulaire",
+              "designation": "le foie"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 6,
+          "libelle_pdf": "colonne",
+          "zones": [
+            {
+              "zone": "colonne-vertebrale",
+              "mouvement": "pression-glissee",
+              "designation": "la colonne vertébrale"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 7,
+          "libelle_pdf": "gros intestin",
+          "zones": [
+            {
+              "zone": "gros-intestin",
+              "mouvement": "pression-glissee",
+              "designation": "le gros intestin"
+            }
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "meconium",
+      "titre": "Méconium",
+      "explication": null,
+      "lien_pathologie_suggere": true,
+      "etapes": [
+        {
+          "ordre": 1,
+          "libelle_pdf": "tete",
+          "zones": [
+            {
+              "zone": "tete",
+              "mouvement": "pression-circulaire",
+              "designation": "la tête"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 2,
+          "libelle_pdf": "diaphragme",
+          "zones": [
+            {
+              "zone": "diaphragme",
+              "mouvement": "pression-glissee",
+              "designation": "le diaphragme"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 3,
+          "libelle_pdf": "plexus",
+          "zones": [
+            {
+              "zone": "plexus-solaire",
+              "mouvement": "pression-maintenue",
+              "designation": "le plexus solaire"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 4,
+          "libelle_pdf": "foie",
+          "zones": [
+            {
+              "zone": "foie",
+              "mouvement": "pression-circulaire",
+              "designation": "le foie"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 5,
+          "libelle_pdf": "gros intestin",
+          "zones": [
+            {
+              "zone": "gros-intestin",
+              "mouvement": "pression-glissee",
+              "designation": "le gros intestin"
+            }
+          ],
+          "note": null
+        },
+        {
+          "ordre": 6,
+          "libelle_pdf": "colonne",
+          "zones": [
+            {
+              "zone": "colonne-vertebrale",
+              "mouvement": "pression-glissee",
+              "designation": "la colonne vertébrale"
+            }
+          ],
+          "note": null
+        }
+      ]
+    }
+  ]
+}

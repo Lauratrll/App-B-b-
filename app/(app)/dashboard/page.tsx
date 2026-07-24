@@ -9,7 +9,7 @@ const MODULES = [
   { href: "/soin", title: "Prendre soin de moi", subtitle: "Gestes parentaux", bg: "#F5E4DE" },
   { href: "/saison", title: "Vivre la saison", subtitle: "Adapté au mois", bg: "#DCE8E4" },
   { href: "/audio", title: "Partager & rassurer", subtitle: "Scripts audio", bg: "#E8EEF2" },
-  { href: "/jeux", title: "Jeux & stimulation", subtitle: "Activités du mois", bg: "#EDE4D4" },
+  { href: "/reflexologie", title: "Réflexologie plantaire", subtitle: "Apaiser bébé", bg: "#EDE4D4" },
 ] as const;
 
 const SEASON_LABELS: Record<string, string> = {
