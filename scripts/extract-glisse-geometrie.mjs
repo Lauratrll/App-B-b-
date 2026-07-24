@@ -53,7 +53,22 @@ function extraireTableau(source, ancre) {
 
 const ZONES = JSON.parse(extraireTableau(html, "const ZONES="));
 
-const sortie = {};
+// Complément : zones non bakées dans le prototype (ajoutées après). La médiane
+// est calculée depuis la forme réelle du SVG (centerline échantillonnée) et se
+// joue en pression glissée, comme la colonne vertébrale (consignes §14bis).
+//   sacrum-lombaire : bande ~verticale, glissé du HAUT vers le BAS, 3 passages.
+const COMPLEMENT = {
+  "zone-sacrum-lombaire-d": {
+    pts: [[490.3,449.3],[489.1,460],[487.8,470.7],[486.7,481.4],[485.9,492.1],[485.9,502.8],[486.4,513.5],[487.5,524.2],[489.1,534.9],[491,545.6],[493.3,556.3],[496.8,567],[500.7,577.7],[504.3,588.4],[507.6,599],[510,609.7],[511.7,620.4],[512.3,631.1],[511.3,641.8],[509.3,652.5],[506.1,663.2],[501.4,673.9],[495,684.6],[485.6,695.3],[473.2,706],[465.9,716.7]],
+    epMax: 26, passages: 3, enchaine: false,
+  },
+  "zone-sacrum-lombaire-g": {
+    pts: [[774.2,449.3],[775.3,460],[776.7,470.7],[777.8,481.4],[778.5,492.1],[778.6,502.8],[778,513.5],[777,524.2],[775.4,534.9],[773.4,545.6],[771.1,556.3],[767.7,567],[763.8,577.7],[760.1,588.4],[756.8,599],[754.5,609.7],[752.7,620.4],[752.1,631.1],[753.1,641.8],[755.1,652.5],[758.3,663.2],[763,673.9],[769.5,684.6],[778.9,695.3],[791.2,706],[798.5,716.7]],
+    epMax: 26, passages: 3, enchaine: false,
+  },
+};
+
+const sortie = { ...COMPLEMENT };
 let nbZones = 0;
 let nbPts = 0;
 
