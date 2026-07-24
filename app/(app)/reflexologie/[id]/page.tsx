@@ -156,23 +156,38 @@ export default async function ProtocoleReflexoPage({
         >
           {ouvertureCommune.titre}
         </h2>
-        <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gap: 7 }}>
+        <ol style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gap: 7 }}>
           {ouvertureCommune.etapes.map((e, i) => (
             <li
               key={i}
               style={{
                 display: "flex",
                 gap: 9,
+                alignItems: "flex-start",
                 fontSize: 13,
                 lineHeight: 1.5,
                 color: REFLEXO_TEXT,
               }}
             >
+              {/* Pastille numérotée — même traitement que « action immédiate » (Guide-moi). */}
               <span
                 aria-hidden
-                style={{ color: REFLEXO_MUTED, marginTop: 1 }}
+                style={{
+                  flexShrink: 0,
+                  width: 17,
+                  height: 17,
+                  borderRadius: "50%",
+                  background: REFLEXO_MUTED,
+                  color: "#FFFFFF",
+                  fontSize: 9,
+                  fontWeight: 700,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  marginTop: 2,
+                }}
               >
-                ·
+                {i + 1}
               </span>
               <span>
                 <strong style={{ fontWeight: 600 }}>{e.gras}</strong>
@@ -181,7 +196,7 @@ export default async function ProtocoleReflexoPage({
               </span>
             </li>
           ))}
-        </ul>
+        </ol>
       </section>
 
       {/* 4. Carte récapitulative « Les zones réflexes, pas à pas » — image des
