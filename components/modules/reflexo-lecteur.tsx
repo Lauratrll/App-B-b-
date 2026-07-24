@@ -3,23 +3,48 @@
 // Lecteur animé d'un protocole de Réflexologie — mode paysage.
 // Reproduit la maquette validée (reflexologie/maquette-lecteur-paysage.html) :
 // l'illustration des pieds calée à gauche (fond #DFBEB0), le texte synchronisé
-// sur le côté (nom « Le Cardia » / intention / description), les zones de
-// l'étape en cours mises en avant par un repère pulsé, navigation pas à pas.
+// sur le côté (nom « Le Cardia » / intention / description), UNE seule zone
+// travaillée par étape, animée selon son mouvement.
 //
-// Palier 1 (celui-ci) : mise en page paysage + synchro texte↔zone + repère
-// pulsé, comme la maquette. Palier 2 (plus tard) : les 6 mouvements fins
-// (spirale, glissé, boucles…) viendront se greffer dans drawMarkers(), à partir
-// des prototypes mouvement-*.html.
+// Rotation : le visuel est TOUJOURS présenté en paysage. Si le téléphone est en
+// portrait, on pivote la scène de 90° (on n'attend pas que l'utilisateur tourne
+// l'appareil, et le sens ne dépend pas de l'orientation).
+//
+// Moteur d'animation (consignes CONSIGNES_CLAUDE_CODE_animation_reflexologie.md) :
+//  - « points » (pression maintenue) : rendu FIDÈLE — le doigt grossit depuis le
+//    centre (easeOut), maintien avec 3 ondes concentriques, puis relâchement.
+//  - zones « surface / trait » (glissé, circulaire, spirale, boucles, composite) :
+//    coloriage progressif PERSISTANT de la zone (opacité 0.3→0.9, couleur du SVG)
+//    + un doigt qui parcourt le tracé de la zone. La géométrie fine bakée dans les
+//    prototypes mouvement-*.html sera branchée ici au palier suivant.
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { ReflexoAnimStep } from "@/lib/reflexologie";
 
 const SVG_URL = "/reflexologie/pieds_bebe_zones_reflexes.svg";
 const NS = "http://www.w3.org/2000/svg";
-const DUREE_ETAPE = 5000; // ms par étape en lecture auto (geste lent, nourrisson)
 const INK = "#3A3228";
 const EUCAL = "#6f5f52";
 const BG_PIED = "#DFBEB0";
+
+// Pression maintenue — réglages des prototypes (ms).
+const T_POSE = 1000;
+const T_MAINTIEN = 3000;
+const T_RELACHE = 3000;
+const T_RETRAIT = 900;
+const T_CYCLE = T_POSE + T_MAINTIEN + T_RELACHE; // 7000
+const N_ONDES = 3;
+const ONDE_ECART = 1000;
+const ONDE_DUREE = 1000;
+const ONDE_EXPANSION = 1.5;
+const ONDE_OP = 0.38;
+const OP_REPOS = 0.3;
+const OP_FIN = 0.9;
+
+// Zones « tracé » : durée d'un passage du doigt (geste lent, nourrisson).
+const PASS_DUR = 3600;
+
+const easeOut = (k: number) => 1 - Math.pow(1 - k, 3);
 
 // « Le Cardia » : majuscule à l'article ET au nom, le reste en minuscules.
 const ARTICLES = new Set(["le", "la", "les", "l'", "du", "de", "des", "au", "aux"]);
@@ -44,7 +69,19 @@ function nomZone(designation: string): string {
   return mots.join(" ");
 }
 
-type Geom = { cx: number; cy: number; fill: string; el: SVGGraphicsElement };
+type Point = { cx: number; cy: number; r: number; fill: string };
+type CibleInfo = {
+  el: SVGGraphicsElement;
+  fill: string;
+  points: Point[];
+  path: SVGPathElement | null;
+  len: number;
+};
+
+// Éléments animés créés pour l'étape courante.
+type Anim =
+  | { kind: "points"; groupe: CibleInfo; appuis: { el: SVGCircleElement; r0: number }[]; ondes: { el: SVGCircleElement; r0: number; decalage: number }[] }
+  | { kind: "path"; groupe: CibleInfo; doigt: SVGCircleElement | null };
 
 export function ReflexoLecteur({
   steps,
@@ -56,8 +93,15 @@ export function ReflexoLecteur({
   onClose: () => void;
 }) {
   const stageRef = useRef<HTMLDivElement>(null);
-  const overlayRef = useRef<SVGSVGElement>(null);
-  const geomRef = useRef<Map<string, Geom>>(new Map());
+  const svgRef = useRef<SVGSVGElement | null>(null);
+  const gUnderRef = useRef<SVGGElement | null>(null);
+  const gOverRef = useRef<SVGGElement | null>(null);
+  const infoRef = useRef<Map<string, CibleInfo>>(new Map());
+  const animsRef = useRef<Anim[]>([]);
+  const rafRef = useRef<number>(0);
+  const t0Ref = useRef<number>(0);
+  const stepRef = useRef<number>(0);
+  const playingRef = useRef<boolean>(false);
   const allCiblesRef = useRef<string[]>([]);
 
   const [ready, setReady] = useState(false);
@@ -69,14 +113,18 @@ export function ReflexoLecteur({
     typeof window !== "undefined" &&
     window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
 
-  // Toutes les cibles du protocole (pour préparer/cacher les zones une fois).
   if (allCiblesRef.current.length === 0) {
-    allCiblesRef.current = Array.from(
-      new Set(steps.flatMap((s) => s.cibles)),
-    );
+    allCiblesRef.current = Array.from(new Set(steps.flatMap((s) => s.cibles)));
   }
 
-  // Verrou du défilement + Échap pour fermer + suivi de l'orientation.
+  // Durée d'affichage d'une étape en lecture auto (le mouvement boucle en dessous).
+  const stepDuration = useCallback(
+    (i: number) =>
+      steps[i]?.mouvement === "pression-maintenue" ? T_CYCLE + 1500 : PASS_DUR * 2,
+    [steps],
+  );
+
+  // Verrou du défilement + Échap + suivi de l'orientation.
   useEffect(() => {
     const prev = document.body.style.overflow;
     document.body.style.overflow = "hidden";
@@ -95,7 +143,38 @@ export function ReflexoLecteur({
     };
   }, [onClose]);
 
-  // Injection du SVG des pieds + calcul des centres/couleurs de chaque zone.
+  // Lit les cercles (points) et le tracé d'une zone directement dans le SVG.
+  const lireCible = useCallback((svg: SVGSVGElement, id: string): CibleInfo | null => {
+    const el = svg.getElementById(id) as SVGGraphicsElement | null;
+    if (!el) return null;
+    const couleur = (node: Element): string => {
+      let f = getComputedStyle(node).fill;
+      if (!f || f === "none" || f === "rgb(0, 0, 0)") {
+        const s = getComputedStyle(node).stroke;
+        if (s && s !== "none") f = s;
+      }
+      return f || INK;
+    };
+    const circles = Array.from(el.querySelectorAll("circle"));
+    const points: Point[] = circles.map((c) => ({
+      cx: parseFloat(c.getAttribute("cx") || "0"),
+      cy: parseFloat(c.getAttribute("cy") || "0"),
+      r: parseFloat(c.getAttribute("r") || "0"),
+      fill: couleur(c),
+    }));
+    const path = el.querySelector("path");
+    let len = 0;
+    if (path) {
+      try {
+        len = path.getTotalLength();
+      } catch {
+        len = 0;
+      }
+    }
+    return { el, fill: couleur(el.querySelector("*") ?? el), points, path, len };
+  }, []);
+
+  // Injection du SVG + préparation des groupes de dessin.
   useEffect(() => {
     let cancelled = false;
     fetch(SVG_URL)
@@ -111,96 +190,172 @@ export function ReflexoLecteur({
         svg.style.display = "block";
         svg.style.width = "100%";
         svg.style.height = "100%";
+        svgRef.current = svg;
 
-        const geom = new Map<string, Geom>();
+        // Groupes de dessin : ondes SOUS les zones, doigt/appui AU-DESSUS.
+        const firstZone = svg.querySelector('g[id^="zone-"]');
+        const gUnder = document.createElementNS(NS, "g");
+        const gOver = document.createElementNS(NS, "g");
+        if (firstZone) svg.insertBefore(gUnder, firstZone);
+        else svg.appendChild(gUnder);
+        svg.appendChild(gOver);
+        gUnderRef.current = gUnder;
+        gOverRef.current = gOver;
+
+        const info = new Map<string, CibleInfo>();
         for (const id of allCiblesRef.current) {
-          const el = svg.getElementById(id) as SVGGraphicsElement | null;
-          if (!el) continue;
-          let box: DOMRect;
-          try {
-            box = el.getBBox();
-          } catch {
-            continue;
-          }
-          let fill = getComputedStyle(el).fill;
-          if (!fill || fill === "none" || fill === "rgb(0, 0, 0)") {
-            const stroke = getComputedStyle(el).stroke;
-            if (stroke && stroke !== "none") fill = stroke;
-          }
-          geom.set(id, {
-            cx: box.x + box.width / 2,
-            cy: box.y + box.height / 2,
-            fill: fill || INK,
-            el,
-          });
+          const ci = lireCible(svg, id);
+          if (ci) info.set(id, ci);
         }
-        geomRef.current = geom;
-        // On masque toutes les zones : chaque étape révèle les siennes.
-        geom.forEach((g) => {
-          g.el.style.display = "none";
+        infoRef.current = info;
+        // Toutes les zones masquées : chaque étape révèle la sienne.
+        info.forEach((ci) => {
+          ci.el.style.display = "none";
         });
         setReady(true);
       })
       .catch(() => {
-        /* image indisponible : le texte reste lisible sans l'illustration */
+        /* illustration indisponible : le texte reste lisible */
       });
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [lireCible]);
 
-  // Rendu d'une étape : zones révélées (précédentes atténuées) + repères pulsés.
-  const drawStep = useCallback(
+  // Prépare les éléments animés de l'étape i (une seule zone travaillée).
+  const setupStep = useCallback(
     (i: number) => {
-      const geom = geomRef.current;
-      const ov = overlayRef.current;
-      if (ov) ov.innerHTML = "";
-      // Cache tout, puis révèle les zones jusqu'à l'étape courante.
-      geom.forEach((g) => {
-        g.el.style.display = "none";
+      const svg = svgRef.current;
+      const gUnder = gUnderRef.current;
+      const gOver = gOverRef.current;
+      const info = infoRef.current;
+      if (!svg || !gUnder || !gOver) return;
+      while (gUnder.firstChild) gUnder.removeChild(gUnder.firstChild);
+      while (gOver.firstChild) gOver.removeChild(gOver.firstChild);
+      // Une seule zone à la fois : on masque tout, on révèle l'étape courante.
+      info.forEach((ci) => {
+        ci.el.style.display = "none";
+        ci.el.style.opacity = "";
       });
-      for (let k = 0; k <= i && k < steps.length; k++) {
-        for (const id of steps[k].cibles) {
-          const g = geom.get(id);
-          if (!g) continue;
-          g.el.style.display = "";
-          g.el.style.opacity = k < i ? "0.4" : "0.95";
-        }
+
+      const anims: Anim[] = [];
+      const s = steps[i];
+      if (!s) {
+        animsRef.current = anims;
+        return;
       }
-      // Repère pulsé (anneau + point) sur les zones de l'étape courante.
-      if (ov) {
-        for (const id of steps[i]?.cibles ?? []) {
-          const g = geom.get(id);
-          if (!g) continue;
-          if (!reducedMotion) {
-            const ring = document.createElementNS(NS, "circle");
-            ring.setAttribute("cx", String(g.cx));
-            ring.setAttribute("cy", String(g.cy));
-            ring.setAttribute("r", "20");
-            ring.setAttribute("fill", "none");
-            ring.setAttribute("stroke", g.fill);
-            ring.setAttribute("stroke-width", "5");
-            ring.setAttribute("class", "reflexo-pulse");
-            ov.appendChild(ring);
+      const points = s.mouvement === "pression-maintenue";
+      for (const id of s.cibles) {
+        const ci = info.get(id);
+        if (!ci) continue;
+        ci.el.style.display = "";
+        if (points && ci.points.length > 0 && !reducedMotion) {
+          ci.el.style.opacity = String(OP_REPOS);
+          const appuis: { el: SVGCircleElement; r0: number }[] = [];
+          const ondes: { el: SVGCircleElement; r0: number; decalage: number }[] = [];
+          for (const p of ci.points) {
+            const a = document.createElementNS(NS, "circle");
+            a.setAttribute("cx", String(p.cx));
+            a.setAttribute("cy", String(p.cy));
+            a.setAttribute("r", "0");
+            a.setAttribute("fill", p.fill);
+            gOver.appendChild(a);
+            appuis.push({ el: a, r0: p.r });
+            for (let o = 0; o < N_ONDES; o++) {
+              const w = document.createElementNS(NS, "circle");
+              w.setAttribute("cx", String(p.cx));
+              w.setAttribute("cy", String(p.cy));
+              w.setAttribute("fill", p.fill);
+              w.setAttribute("opacity", "0");
+              gUnder.appendChild(w);
+              ondes.push({ el: w, r0: p.r, decalage: o * ONDE_ECART });
+            }
           }
-          const dot = document.createElementNS(NS, "circle");
-          dot.setAttribute("cx", String(g.cx));
-          dot.setAttribute("cy", String(g.cy));
-          dot.setAttribute("r", "9");
-          dot.setAttribute("fill", g.fill);
-          ov.appendChild(dot);
+          anims.push({ kind: "points", groupe: ci, appuis, ondes });
+        } else {
+          // Zone tracé : coloriage progressif + doigt qui parcourt le tracé.
+          ci.el.style.opacity = String(OP_REPOS);
+          let doigt: SVGCircleElement | null = null;
+          if (ci.path && ci.len > 0 && !reducedMotion) {
+            doigt = document.createElementNS(NS, "circle");
+            const p0 = ci.path.getPointAtLength(0);
+            doigt.setAttribute("cx", String(p0.x));
+            doigt.setAttribute("cy", String(p0.y));
+            doigt.setAttribute("r", "13");
+            doigt.setAttribute("fill", ci.fill);
+            gOver.appendChild(doigt);
+          }
+          anims.push({ kind: "path", groupe: ci, doigt });
         }
       }
+      animsRef.current = anims;
+      t0Ref.current = performance.now();
     },
     [steps, reducedMotion],
   );
 
-  // Redessine à chaque changement d'étape (une fois le SVG prêt).
-  useEffect(() => {
-    if (ready) drawStep(step);
-  }, [ready, step, drawStep]);
+  // Rendu d'une frame en fonction du temps écoulé dans l'étape.
+  const renderFrame = useCallback((elapsed: number) => {
+    for (const a of animsRef.current) {
+      if (a.kind === "points") {
+        const tc = elapsed % T_CYCLE;
+        const finMaintien = T_POSE + T_MAINTIEN;
+        let rk: number;
+        if (tc < T_POSE) rk = easeOut(tc / T_POSE);
+        else if (tc < finMaintien) rk = 1;
+        else rk = 1 - easeOut(Math.min((tc - finMaintien) / T_RETRAIT, 1));
+        a.appuis.forEach((ap) => ap.el.setAttribute("r", String(ap.r0 * rk)));
+        a.ondes.forEach((o) => {
+          const te = tc - (T_POSE + o.decalage);
+          if (te < 0 || te > ONDE_DUREE) {
+            o.el.setAttribute("opacity", "0");
+            return;
+          }
+          const p = te / ONDE_DUREE;
+          o.el.setAttribute("r", String(o.r0 * (1 + (ONDE_EXPANSION - 1) * easeOut(p))));
+          o.el.setAttribute("opacity", String(ONDE_OP * (1 - p)));
+        });
+      } else {
+        const { groupe, doigt } = a;
+        // Coloriage persistant : la zone monte vers 0.9 sur le 1er passage, y reste.
+        const opad = Math.min(OP_REPOS + (OP_FIN - OP_REPOS) * (elapsed / PASS_DUR), OP_FIN);
+        groupe.el.style.opacity = String(opad);
+        if (doigt && groupe.path && groupe.len > 0) {
+          const p = (elapsed % PASS_DUR) / PASS_DUR;
+          const pt = groupe.path.getPointAtLength(groupe.len * p);
+          doigt.setAttribute("cx", String(pt.x));
+          doigt.setAttribute("cy", String(pt.y));
+        }
+      }
+    }
+  }, []);
 
-  // Lecture auto : avance d'une étape toutes les DUREE_ETAPE, s'arrête à la fin.
+  // Boucle d'animation continue (une seule pour toute la durée de vie du lecteur).
+  useEffect(() => {
+    if (!ready) return;
+    const loop = (now: number) => {
+      rafRef.current = requestAnimationFrame(loop);
+      if (!playingRef.current) {
+        t0Ref.current = now; // gel en pause
+        return;
+      }
+      renderFrame(now - t0Ref.current);
+    };
+    rafRef.current = requestAnimationFrame(loop);
+    return () => cancelAnimationFrame(rafRef.current);
+  }, [ready, renderFrame]);
+
+  // (Re)prépare l'étape quand elle change ou dès que le SVG est prêt.
+  useEffect(() => {
+    stepRef.current = step;
+    if (ready) setupStep(step);
+  }, [ready, step, setupStep]);
+
+  useEffect(() => {
+    playingRef.current = playing;
+  }, [playing]);
+
+  // Lecture auto : avance à la fin de la durée d'étape, s'arrête à la dernière.
   useEffect(() => {
     if (!ready || !playing) return;
     const t = setTimeout(() => {
@@ -209,9 +364,9 @@ export function ReflexoLecteur({
         setPlaying(false);
         return s;
       });
-    }, DUREE_ETAPE);
+    }, stepDuration(step));
     return () => clearTimeout(t);
-  }, [ready, playing, step, steps.length]);
+  }, [ready, playing, step, steps.length, stepDuration]);
 
   const s = steps[step];
   const goPrev = () => {
@@ -223,31 +378,126 @@ export function ReflexoLecteur({
     setStep((v) => Math.min(steps.length - 1, v + 1));
   };
 
+  // Scène + panneau, en paysage. En portrait, on pivote l'ensemble de 90°.
+  const player = (
+    <div style={{ display: "flex", height: "100%", width: "100%", alignItems: "stretch" }}>
+      {/* Scène : illustration des pieds, calée à gauche, fond #DFBEB0 */}
+      <div
+        style={{
+          position: "relative",
+          flex: "1.7 1 0",
+          minWidth: 0,
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "flex-start",
+        }}
+      >
+        <div ref={stageRef} style={{ width: "100%", height: "100%" }} />
+        {!playing ? (
+          <button
+            onClick={() => setPlaying(true)}
+            aria-label="Lancer la lecture"
+            style={{
+              position: "absolute",
+              left: "38%",
+              top: "50%",
+              transform: "translate(-50%,-50%)",
+              width: 82,
+              height: 82,
+              borderRadius: "50%",
+              border: "none",
+              background: "rgba(58,50,40,.8)",
+              cursor: "pointer",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="#fff" style={{ marginLeft: 4 }}>
+              <path d="M8 5.5v13l11-6.5z" />
+            </svg>
+          </button>
+        ) : null}
+      </div>
+
+      {/* Panneau texte, synchronisé */}
+      <div
+        style={{
+          flex: "1 1 0",
+          minWidth: 240,
+          maxWidth: 460,
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          padding: "28px 36px 28px 14px",
+        }}
+      >
+        <div style={{ fontSize: 11, textTransform: "uppercase", letterSpacing: "2px", color: EUCAL, marginBottom: 12 }}>
+          {titre} · étape {s?.ordre ?? step + 1} / {steps.length}
+        </div>
+        <h2
+          className="reflexo-fade"
+          style={{
+            fontFamily: "var(--font-playfair), Georgia, serif",
+            fontSize: 30,
+            letterSpacing: ".3px",
+            margin: "0 0 12px",
+            lineHeight: 1.15,
+          }}
+        >
+          {s?.horsPied ? s.designation : nomZone(s?.designation ?? "")}
+        </h2>
+        <p className="reflexo-fade" style={{ fontSize: 19, lineHeight: 1.45, margin: "0 0 14px" }}>
+          {s?.intention}
+        </p>
+        {s?.desc ? (
+          <p className="reflexo-fade" style={{ fontSize: 14, color: EUCAL, lineHeight: 1.5, margin: 0 }}>
+            {s.desc}
+          </p>
+        ) : null}
+        <div style={{ display: "flex", gap: 7, margin: "22px 0 0", flexWrap: "wrap" }}>
+          {steps.map((_, k) => (
+            <span
+              key={k}
+              style={{
+                width: 9,
+                height: 9,
+                borderRadius: "50%",
+                background: k === step ? INK : k < step ? "rgba(58,50,40,.5)" : "rgba(58,50,40,.22)",
+              }}
+            />
+          ))}
+        </div>
+        <div style={{ display: "flex", alignItems: "center", gap: 12, marginTop: 20 }}>
+          <button onClick={goPrev} aria-label="Étape précédente" disabled={step === 0} style={ctlGhost(step === 0)}>
+            ◀
+          </button>
+          <button onClick={() => setPlaying((p) => !p)} style={ctlSolid}>
+            {playing ? "Pause ⏸" : "Lecture ▶"}
+          </button>
+          <button
+            onClick={goNext}
+            aria-label="Étape suivante"
+            disabled={step === steps.length - 1}
+            style={ctlGhost(step === steps.length - 1)}
+          >
+            ▶
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+
   return (
     <div
       role="dialog"
       aria-modal="true"
       aria-label={`Lecteur de réflexologie — ${titre}`}
-      style={{
-        position: "fixed",
-        inset: 0,
-        zIndex: 60,
-        background: BG_PIED,
-        color: INK,
-        overflow: "hidden",
-      }}
+      style={{ position: "fixed", inset: 0, zIndex: 60, background: BG_PIED, color: INK, overflow: "hidden" }}
     >
-      <style>{`
-        @keyframes reflexoPulse {
-          0%   { r: 16px; opacity: .9; }
-          70%  { r: 38px; opacity: 0; }
-          100% { opacity: 0; }
-        }
-        .reflexo-pulse { animation: reflexoPulse 1.5s ease-out infinite; }
-        .reflexo-fade { transition: opacity .35s; }
-      `}</style>
+      <style>{`.reflexo-fade { transition: opacity .35s; }`}</style>
 
-      {/* Fermer */}
+      {/* Fermer — sur la couche non pivotée, toujours en haut à droite de l'écran. */}
       <button
         onClick={onClose}
         aria-label="Fermer le lecteur"
@@ -260,7 +510,7 @@ export function ReflexoLecteur({
           height: 38,
           borderRadius: "50%",
           border: "none",
-          background: "rgba(58,50,40,.12)",
+          background: "rgba(58,50,40,.14)",
           color: INK,
           fontSize: 20,
           lineHeight: 1,
@@ -270,171 +520,24 @@ export function ReflexoLecteur({
         ×
       </button>
 
-      {/* Invitation à tourner le téléphone (portrait uniquement) */}
+      {/* Le visuel est toujours en paysage : rotation de la scène si portrait. */}
       {portrait ? (
         <div
           style={{
             position: "absolute",
-            top: 14,
-            left: 16,
-            zIndex: 3,
-            display: "flex",
-            alignItems: "center",
-            gap: 7,
-            fontSize: 12,
-            color: EUCAL,
+            top: "50%",
+            left: "50%",
+            width: "100vh",
+            height: "100vw",
+            transform: "translate(-50%,-50%) rotate(90deg)",
+            transformOrigin: "center center",
           }}
         >
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke={EUCAL} strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-            <rect x="7" y="3" width="10" height="18" rx="2" />
-            <path d="M3 12a9 9 0 0 1 3-6M21 12a9 9 0 0 0-3-6" />
-          </svg>
-          Tourne ton téléphone sur le côté
+          {player}
         </div>
-      ) : null}
-
-      <div
-        style={{
-          display: "flex",
-          height: "100%",
-          alignItems: "stretch",
-          flexDirection: portrait ? "column" : "row",
-        }}
-      >
-        {/* Scène : l'illustration des pieds, calée à gauche, fond #DFBEB0 */}
-        <div
-          style={{
-            position: "relative",
-            flex: portrait ? "1 1 55%" : "1.7 1 0",
-            minWidth: 0,
-            minHeight: 0,
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "flex-start",
-          }}
-        >
-          <div ref={stageRef} style={{ width: "100%", height: "100%" }} />
-          <svg
-            ref={overlayRef}
-            viewBox="0 0 1264 848"
-            preserveAspectRatio="xMidYMid meet"
-            style={{ position: "absolute", inset: 0, width: "100%", height: "100%", pointerEvents: "none" }}
-            aria-hidden
-          />
-          {/* Gros bouton lecture au repos */}
-          {!playing ? (
-            <button
-              onClick={() => setPlaying(true)}
-              aria-label="Lancer la lecture"
-              style={{
-                position: "absolute",
-                left: "38%",
-                top: "50%",
-                transform: "translate(-50%,-50%)",
-                width: 82,
-                height: 82,
-                borderRadius: "50%",
-                border: "none",
-                background: "rgba(58,50,40,.8)",
-                cursor: "pointer",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="#fff" style={{ marginLeft: 4 }}>
-                <path d="M8 5.5v13l11-6.5z" />
-              </svg>
-            </button>
-          ) : null}
-        </div>
-
-        {/* Panneau texte, synchronisé avec l'étape */}
-        <div
-          style={{
-            flex: portrait ? "0 0 auto" : "1 1 0",
-            minWidth: portrait ? 0 : 260,
-            maxWidth: portrait ? "none" : 440,
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            padding: portrait ? "16px 22px 26px" : "32px 40px 32px 12px",
-          }}
-        >
-          <div
-            style={{
-              fontSize: 11,
-              textTransform: "uppercase",
-              letterSpacing: "2px",
-              color: EUCAL,
-              marginBottom: 12,
-            }}
-          >
-            {titre} · étape {s?.ordre ?? step + 1} / {steps.length}
-          </div>
-
-          <h2
-            className="reflexo-fade"
-            style={{
-              fontFamily: "var(--font-playfair), Georgia, serif",
-              fontSize: portrait ? 24 : 30,
-              letterSpacing: ".3px",
-              margin: "0 0 12px",
-              lineHeight: 1.15,
-            }}
-          >
-            {s?.horsPied ? s.designation : nomZone(s?.designation ?? "")}
-          </h2>
-
-          <p className="reflexo-fade" style={{ fontSize: portrait ? 16 : 19, lineHeight: 1.45, margin: "0 0 14px" }}>
-            {s?.intention}
-          </p>
-
-          {s?.desc ? (
-            <p className="reflexo-fade" style={{ fontSize: 14, color: EUCAL, lineHeight: 1.5, margin: 0 }}>
-              {s.desc}
-            </p>
-          ) : null}
-
-          {/* Points d'étape */}
-          <div style={{ display: "flex", gap: 7, margin: "22px 0 0", flexWrap: "wrap" }}>
-            {steps.map((_, k) => (
-              <span
-                key={k}
-                style={{
-                  width: 9,
-                  height: 9,
-                  borderRadius: "50%",
-                  background:
-                    k === step
-                      ? INK
-                      : k < step
-                        ? "rgba(58,50,40,.5)"
-                        : "rgba(58,50,40,.22)",
-                }}
-              />
-            ))}
-          </div>
-
-          {/* Contrôles */}
-          <div style={{ display: "flex", alignItems: "center", gap: 12, marginTop: 20 }}>
-            <button onClick={goPrev} aria-label="Étape précédente" disabled={step === 0} style={ctlGhost(step === 0)}>
-              ◀
-            </button>
-            <button onClick={() => setPlaying((p) => !p)} style={ctlSolid}>
-              {playing ? "Pause ⏸" : "Lecture ▶"}
-            </button>
-            <button
-              onClick={goNext}
-              aria-label="Étape suivante"
-              disabled={step === steps.length - 1}
-              style={ctlGhost(step === steps.length - 1)}
-            >
-              ▶
-            </button>
-          </div>
-        </div>
-      </div>
+      ) : (
+        <div style={{ width: "100%", height: "100%" }}>{player}</div>
+      )}
     </div>
   );
 }
@@ -465,8 +568,7 @@ function ctlGhost(disabled: boolean): React.CSSProperties {
 
 /**
  * Carte « Les zones réflexes, pas à pas » : l'image récapitulative avec un
- * bouton ▶ qui ouvre le lecteur animé en plein écran. Remplace l'ancien bouton
- * inerte. Le titre/sous-titre du bloc restent côté page serveur.
+ * bouton ▶ qui ouvre le lecteur animé en plein écran.
  */
 export function ReflexoCarte({
   visuel,
@@ -482,14 +584,7 @@ export function ReflexoCarte({
 
   return (
     <>
-      <div
-        style={{
-          position: "relative",
-          borderRadius: 14,
-          overflow: "hidden",
-          background: BG_PIED,
-        }}
-      >
+      <div style={{ position: "relative", borderRadius: 14, overflow: "hidden", background: BG_PIED }}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={visuel}
@@ -531,9 +626,7 @@ export function ReflexoCarte({
         ) : null}
       </div>
 
-      {open ? (
-        <ReflexoLecteur steps={steps} titre={titre} onClose={() => setOpen(false)} />
-      ) : null}
+      {open ? <ReflexoLecteur steps={steps} titre={titre} onClose={() => setOpen(false)} /> : null}
     </>
   );
 }
