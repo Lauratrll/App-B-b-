@@ -22,7 +22,12 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import type { ReflexoAnimStep } from "@/lib/reflexologie";
 
 const SVG_URL = "/reflexologie/pieds_bebe_zones_reflexes.svg";
+const GEOM_URL = "/reflexologie/mouvements-glisse.json";
 const NS = "http://www.w3.org/2000/svg";
+// Glissé — vitesse constante (px/ms) et bornes de durée, réglages du prototype.
+const GLISSE_VITESSE = 0.105;
+const GLISSE_T_MIN = 2000;
+const GLISSE_T_MAX = 7000;
 const INK = "#3A3228";
 const EUCAL = "#6f5f52";
 const BG_PIED = "#DFBEB0";
@@ -78,10 +83,38 @@ type CibleInfo = {
   len: number;
 };
 
+// Médiane validée d'une zone (le trait que suit le doigt), extraite des
+// prototypes → reflexologie/mouvements-glisse.json.
+type Midline = { pts: [number, number][]; epMax: number; passages: number };
+
+// Position sur une polyligne à l'abscisse curviligne k∈[0,1].
+function pointSurMediane(m: PreparedMidline, k: number): { x: number; y: number } {
+  const cible = m.total * Math.max(0, Math.min(1, k));
+  let i = 1;
+  while (i < m.cum.length && m.cum[i] < cible) i++;
+  const a = m.pts[i - 1];
+  const b = m.pts[i] ?? m.pts[i - 1];
+  const seg = m.cum[i] - m.cum[i - 1] || 1;
+  const t = Math.max(0, Math.min(1, (cible - m.cum[i - 1]) / seg));
+  return { x: a[0] + (b[0] - a[0]) * t, y: a[1] + (b[1] - a[1]) * t };
+}
+type PreparedMidline = { pts: [number, number][]; cum: number[]; total: number };
+
+function preparerMediane(pts: [number, number][]): PreparedMidline {
+  const cum = [0];
+  for (let i = 1; i < pts.length; i++) {
+    cum.push(cum[i - 1] + Math.hypot(pts[i][0] - pts[i - 1][0], pts[i][1] - pts[i - 1][1]));
+  }
+  return { pts, cum, total: cum[cum.length - 1] || 1 };
+}
+
 // Éléments animés créés pour l'étape courante.
 type Anim =
   | { kind: "points"; groupe: CibleInfo; appuis: { el: SVGCircleElement; r0: number }[]; ondes: { el: SVGCircleElement; r0: number; decalage: number }[] }
-  | { kind: "path"; groupe: CibleInfo; doigt: SVGCircleElement | null };
+  // Glissé validé : le doigt suit la médiane, la zone se colorie au passage.
+  | { kind: "midline"; groupe: CibleInfo; doigt: SVGCircleElement; med: PreparedMidline; dur: number }
+  // Zones tracé sans géométrie encore branchée : coloriage progressif seul.
+  | { kind: "reveal"; groupe: CibleInfo };
 
 export function ReflexoLecteur({
   steps,
@@ -97,6 +130,7 @@ export function ReflexoLecteur({
   const gUnderRef = useRef<SVGGElement | null>(null);
   const gOverRef = useRef<SVGGElement | null>(null);
   const infoRef = useRef<Map<string, CibleInfo>>(new Map());
+  const geomRef = useRef<Record<string, Midline>>({});
   const animsRef = useRef<Anim[]>([]);
   const rafRef = useRef<number>(0);
   const t0Ref = useRef<number>(0);
@@ -174,6 +208,22 @@ export function ReflexoLecteur({
     return { el, fill: couleur(el.querySelector("*") ?? el), points, path, len };
   }, []);
 
+  // Géométrie validée du glissé (médianes) — chargée une fois.
+  useEffect(() => {
+    let cancelled = false;
+    fetch(GEOM_URL)
+      .then((r) => (r.ok ? r.json() : {}))
+      .then((g) => {
+        if (!cancelled) geomRef.current = g as Record<string, Midline>;
+      })
+      .catch(() => {
+        /* pas de géométrie : les zones tracé se colorient simplement */
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
   // Injection du SVG + préparation des groupes de dessin.
   useEffect(() => {
     let cancelled = false;
@@ -202,16 +252,19 @@ export function ReflexoLecteur({
         gUnderRef.current = gUnder;
         gOverRef.current = gOver;
 
+        // Le fond = l'illustration des pieds SEULE. On masque TOUTES les zones
+        // du SVG (75+), pas seulement celles du protocole, sinon les autres
+        // zones coloriées restent visibles et l'écran devient illisible.
+        svg.querySelectorAll<SVGGraphicsElement>('g[id^="zone-"]').forEach((g) => {
+          g.style.display = "none";
+        });
+
         const info = new Map<string, CibleInfo>();
         for (const id of allCiblesRef.current) {
           const ci = lireCible(svg, id);
           if (ci) info.set(id, ci);
         }
         infoRef.current = info;
-        // Toutes les zones masquées : chaque étape révèle la sienne.
-        info.forEach((ci) => {
-          ci.el.style.display = "none";
-        });
         setReady(true);
       })
       .catch(() => {
@@ -273,19 +326,28 @@ export function ReflexoLecteur({
           }
           anims.push({ kind: "points", groupe: ci, appuis, ondes });
         } else {
-          // Zone tracé : coloriage progressif + doigt qui parcourt le tracé.
           ci.el.style.opacity = String(OP_REPOS);
-          let doigt: SVGCircleElement | null = null;
-          if (ci.path && ci.len > 0 && !reducedMotion) {
-            doigt = document.createElementNS(NS, "circle");
-            const p0 = ci.path.getPointAtLength(0);
+          const geom = geomRef.current[id];
+          if (geom && geom.pts.length > 1 && !reducedMotion) {
+            // Glissé validé : le doigt suit la MÉDIANE de la zone (pas le contour).
+            const med = preparerMediane(geom.pts);
+            const dur = Math.max(
+              GLISSE_T_MIN,
+              Math.min(GLISSE_T_MAX, med.total / GLISSE_VITESSE),
+            );
+            const doigt = document.createElementNS(NS, "circle");
+            const p0 = pointSurMediane(med, 0);
             doigt.setAttribute("cx", String(p0.x));
             doigt.setAttribute("cy", String(p0.y));
-            doigt.setAttribute("r", "13");
+            doigt.setAttribute("r", String(Math.max(9, geom.epMax * 0.5)));
             doigt.setAttribute("fill", ci.fill);
             gOver.appendChild(doigt);
+            anims.push({ kind: "midline", groupe: ci, doigt, med, dur });
+          } else {
+            // Pas encore de géométrie validée pour ce mouvement : la zone se
+            // colorie simplement (aucun doigt qui ferait le tour du contour).
+            anims.push({ kind: "reveal", groupe: ci });
           }
-          anims.push({ kind: "path", groupe: ci, doigt });
         }
       }
       animsRef.current = anims;
@@ -315,17 +377,20 @@ export function ReflexoLecteur({
           o.el.setAttribute("r", String(o.r0 * (1 + (ONDE_EXPANSION - 1) * easeOut(p))));
           o.el.setAttribute("opacity", String(ONDE_OP * (1 - p)));
         });
+      } else if (a.kind === "midline") {
+        // Glissé : le doigt parcourt la médiane ; la zone se colorie au passage
+        // et RESTE coloriée (coloriage persistant), couleur du SVG.
+        const p = (elapsed % a.dur) / a.dur;
+        const pt = pointSurMediane(a.med, p);
+        a.doigt.setAttribute("cx", String(pt.x));
+        a.doigt.setAttribute("cy", String(pt.y));
+        const opad = Math.min(OP_REPOS + (OP_FIN - OP_REPOS) * (elapsed / a.dur), OP_FIN);
+        a.groupe.el.style.opacity = String(opad);
       } else {
-        const { groupe, doigt } = a;
-        // Coloriage persistant : la zone monte vers 0.9 sur le 1er passage, y reste.
+        // Coloriage progressif seul (mouvements dont la géométrie n'est pas
+        // encore branchée) : la zone monte vers 0.9 et y reste.
         const opad = Math.min(OP_REPOS + (OP_FIN - OP_REPOS) * (elapsed / PASS_DUR), OP_FIN);
-        groupe.el.style.opacity = String(opad);
-        if (doigt && groupe.path && groupe.len > 0) {
-          const p = (elapsed % PASS_DUR) / PASS_DUR;
-          const pt = groupe.path.getPointAtLength(groupe.len * p);
-          doigt.setAttribute("cx", String(pt.x));
-          doigt.setAttribute("cy", String(pt.y));
-        }
+        a.groupe.el.style.opacity = String(opad);
       }
     }
   }, []);
