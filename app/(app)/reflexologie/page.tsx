@@ -48,113 +48,155 @@ export default async function ReflexologiePage() {
         </p>
       </header>
 
-      {/* Bienvenue — cadre et précautions, à lire une fois. Pas un protocole. */}
-      <section
+      {/* Introduction — PREMIÈRE BRIQUE de la catégorie, à OUVRIR (fermée par
+          défaut). Pas un protocole : présentation + précautions, à lire une fois.
+          <details>/<summary> natif → dépliable sans JS (composant serveur). */}
+      {/* Masque le marqueur natif (dont ::-webkit-details-marker pour iOS) et
+          fait pivoter le chevron à l'ouverture — impossible en style inline. */}
+      <style>{`
+        details.reflexo-intro > summary { list-style: none; }
+        details.reflexo-intro > summary::-webkit-details-marker { display: none; }
+        details.reflexo-intro[open] .reflexo-chevron { transform: rotate(180deg); }
+      `}</style>
+      <details
+        className="reflexo-intro"
         style={{
           background: REFLEXO_BG_DOUX,
           borderRadius: 14,
-          padding: "16px 16px 18px",
+          overflow: "hidden",
         }}
       >
-        <h2
+        <summary
           style={{
-            fontFamily: PLAYFAIR,
-            fontWeight: 700,
-            fontSize: 18,
-            color: REFLEXO_TEXT,
-            margin: "0 0 3px 0",
-            lineHeight: 1.2,
+            listStyle: "none",
+            cursor: "pointer",
+            display: "flex",
+            alignItems: "center",
+            gap: 12,
+            padding: "14px 16px",
           }}
         >
-          {accueilReflexo.titre}
-        </h2>
-        <p
-          style={{
-            fontSize: 9,
-            color: REFLEXO_MUTED,
-            letterSpacing: ".13em",
-            textTransform: "uppercase",
-            fontWeight: 600,
-            margin: "0 0 12px 0",
-          }}
-        >
-          {accueilReflexo.sous_titre}
-        </p>
-
-        {accueilReflexo.presentation.map((p, i) => (
-          <p
-            key={i}
-            style={{
-              fontSize: 13.5,
-              lineHeight: 1.6,
-              color: REFLEXO_TEXT,
-              margin: i === 0 ? 0 : "10px 0 0 0",
-            }}
-          >
-            {p}
-          </p>
-        ))}
-
-        <h3
-          style={{
-            fontSize: 10,
-            color: REFLEXO_MUTED,
-            letterSpacing: ".13em",
-            textTransform: "uppercase",
-            fontWeight: 700,
-            margin: "18px 0 9px 0",
-          }}
-        >
-          {accueilReflexo.precautions_titre}
-        </h3>
-        <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gap: 9 }}>
-          {accueilReflexo.precautions.map((p) => (
-            <li
-              key={p.cle}
+          <span style={{ flex: 1, minWidth: 0 }}>
+            <span
               style={{
-                background: "#fff",
-                borderRadius: 10,
-                padding: "10px 12px",
+                display: "block",
+                fontFamily: PLAYFAIR,
+                fontWeight: 700,
+                fontSize: 18,
+                color: REFLEXO_TEXT,
+                lineHeight: 1.2,
               }}
             >
-              <p
-                style={{
-                  fontSize: 13,
-                  fontWeight: 600,
-                  color: REFLEXO_TEXT,
-                  margin: "0 0 3px 0",
-                  lineHeight: 1.3,
-                }}
-              >
-                {p.cle}
-              </p>
-              <p
-                style={{
-                  fontSize: 12.5,
-                  lineHeight: 1.55,
-                  color: REFLEXO_TEXT,
-                  opacity: 0.85,
-                  margin: 0,
-                }}
-              >
-                {p.texte}
-              </p>
-            </li>
-          ))}
-        </ul>
+              {accueilReflexo.titre}
+            </span>
+            <span
+              style={{
+                display: "block",
+                marginTop: 3,
+                fontSize: 9,
+                color: REFLEXO_MUTED,
+                letterSpacing: ".13em",
+                textTransform: "uppercase",
+                fontWeight: 600,
+              }}
+            >
+              {accueilReflexo.sous_titre}
+            </span>
+          </span>
+          {/* Chevron — pivote quand la brique est ouverte (details[open]). */}
+          <svg
+            className="reflexo-chevron"
+            width="15"
+            height="15"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke={REFLEXO_TEXT}
+            strokeWidth="1.8"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden
+            style={{ flexShrink: 0, transition: "transform .2s" }}
+          >
+            <path d="M6 9l6 6 6-6" />
+          </svg>
+        </summary>
 
-        <p
-          style={{
-            fontSize: 13,
-            lineHeight: 1.6,
-            color: REFLEXO_TEXT,
-            fontStyle: "italic",
-            margin: "14px 0 0 0",
-          }}
-        >
-          {accueilReflexo.note_fin}
-        </p>
-      </section>
+        <div style={{ padding: "0 16px 18px" }}>
+          {accueilReflexo.presentation.map((p, i) => (
+            <p
+              key={i}
+              style={{
+                fontSize: 13.5,
+                lineHeight: 1.6,
+                color: REFLEXO_TEXT,
+                margin: i === 0 ? 0 : "10px 0 0 0",
+              }}
+            >
+              {p}
+            </p>
+          ))}
+
+          <h3
+            style={{
+              fontSize: 10,
+              color: REFLEXO_MUTED,
+              letterSpacing: ".13em",
+              textTransform: "uppercase",
+              fontWeight: 700,
+              margin: "18px 0 9px 0",
+            }}
+          >
+            {accueilReflexo.precautions_titre}
+          </h3>
+          <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gap: 9 }}>
+            {accueilReflexo.precautions.map((p) => (
+              <li
+                key={p.cle}
+                style={{
+                  background: "#fff",
+                  borderRadius: 10,
+                  padding: "10px 12px",
+                }}
+              >
+                <p
+                  style={{
+                    fontSize: 13,
+                    fontWeight: 600,
+                    color: REFLEXO_TEXT,
+                    margin: "0 0 3px 0",
+                    lineHeight: 1.3,
+                  }}
+                >
+                  {p.cle}
+                </p>
+                <p
+                  style={{
+                    fontSize: 12.5,
+                    lineHeight: 1.55,
+                    color: REFLEXO_TEXT,
+                    opacity: 0.85,
+                    margin: 0,
+                  }}
+                >
+                  {p.texte}
+                </p>
+              </li>
+            ))}
+          </ul>
+
+          <p
+            style={{
+              fontSize: 13,
+              lineHeight: 1.6,
+              color: REFLEXO_TEXT,
+              fontStyle: "italic",
+              margin: "14px 0 0 0",
+            }}
+          >
+            {accueilReflexo.note_fin}
+          </p>
+        </div>
+      </details>
 
       {/* Liste des protocoles publiés + recherche par situation */}
       <section style={{ display: "flex", flexDirection: "column", gap: 12 }}>

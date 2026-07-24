@@ -22,6 +22,7 @@
 
 import indexJson from "@/reflexologie/protocoles-index.json";
 import accueilJson from "@/reflexologie/accueil-onglet-reflexologie.json";
+import ouvertureJson from "@/reflexologie/_ouverture-commune.json";
 
 import accueilNouveauNe from "@/reflexologie/protocole-accueil-nouveau-ne.json";
 import agitationConcentration from "@/reflexologie/protocole-agitation-concentration.json";
@@ -110,6 +111,19 @@ export type ReflexoProtocole = {
   /** Notes internes de rédaction — jamais affichées au parent. */
   notes?: string[];
 };
+
+/**
+ * « Avant de commencer » — bloc COMMUN à tous les protocoles, réécrit en version
+ * courte (libellé en gras + phrase brève). Source unique : _ouverture-commune.json.
+ * (Les protocoles portent encore un `ouverture` historique plus long : on ne
+ * l'utilise plus, la version commune fait foi — cf. consignes §4.3.)
+ */
+export type ReflexoOuvertureCommune = {
+  titre: string;
+  etapes: { gras: string; texte: string }[];
+};
+
+export const ouvertureCommune = ouvertureJson as ReflexoOuvertureCommune;
 
 export type ReflexoAccueil = {
   titre: string;

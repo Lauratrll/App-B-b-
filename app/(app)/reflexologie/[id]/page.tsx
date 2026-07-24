@@ -5,6 +5,7 @@ import { getBabyMonth } from "@/lib/utils";
 import {
   getIdsPublies,
   getProtocole,
+  ouvertureCommune,
   varianteVisible,
   visuelUrl,
   type ReflexoZone,
@@ -132,7 +133,8 @@ export default async function ProtocoleReflexoPage({
         </p>
       ) : null}
 
-      {/* 3. Ouverture — installation, avant tout toucher réflexe */}
+      {/* 3. Ouverture — installation, avant tout toucher réflexe. Source COMMUNE
+          (version courte : libellé gras + phrase brève), cf. consignes §4.3. */}
       <section
         style={{
           background: REFLEXO_BG_DOUX,
@@ -150,43 +152,34 @@ export default async function ProtocoleReflexoPage({
             margin: "0 0 10px 0",
           }}
         >
-          {protocole.ouverture.titre}
+          {ouvertureCommune.titre}
         </h2>
-        <ol style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gap: 8 }}>
-          {protocole.ouverture.etapes.map((e, i) => (
+        <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gap: 7 }}>
+          {ouvertureCommune.etapes.map((e, i) => (
             <li
               key={i}
               style={{
                 display: "flex",
-                gap: 10,
+                gap: 9,
                 fontSize: 13,
-                lineHeight: 1.55,
+                lineHeight: 1.5,
                 color: REFLEXO_TEXT,
               }}
             >
               <span
                 aria-hidden
-                style={{
-                  flexShrink: 0,
-                  width: 19,
-                  height: 19,
-                  borderRadius: "50%",
-                  background: "#fff",
-                  color: REFLEXO_MUTED,
-                  fontSize: 10.5,
-                  fontWeight: 700,
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  marginTop: 1,
-                }}
+                style={{ color: REFLEXO_MUTED, marginTop: 1 }}
               >
-                {i + 1}
+                ·
               </span>
-              <span>{e}</span>
+              <span>
+                <strong style={{ fontWeight: 600 }}>{e.gras}</strong>
+                {" : "}
+                {e.texte}
+              </span>
             </li>
           ))}
-        </ol>
+        </ul>
       </section>
 
       {/* 4. Carte récapitulative « Les zones réflexes, pas à pas » — image des
