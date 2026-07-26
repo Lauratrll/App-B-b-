@@ -184,17 +184,19 @@ export default async function ReflexologiePage() {
             ))}
           </ul>
 
-          <p
-            style={{
-              fontSize: 13,
-              lineHeight: 1.6,
-              color: REFLEXO_TEXT,
-              fontStyle: "italic",
-              margin: "14px 0 0 0",
-            }}
-          >
-            {accueilReflexo.note_fin}
-          </p>
+          {accueilReflexo.note_fin ? (
+            <p
+              style={{
+                fontSize: 13,
+                lineHeight: 1.6,
+                color: REFLEXO_TEXT,
+                fontStyle: "italic",
+                margin: "14px 0 0 0",
+              }}
+            >
+              {accueilReflexo.note_fin}
+            </p>
+          ) : null}
         </div>
       </details>
 

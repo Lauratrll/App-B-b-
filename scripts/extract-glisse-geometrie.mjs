@@ -68,7 +68,17 @@ const COMPLEMENT = {
   },
 };
 
-const sortie = { ...COMPLEMENT };
+// Normalise le complément : chaque point porte une épaisseur locale (3ᵉ valeur).
+// Les médianes générées (sacrum) n'en ont pas → on prend une demi-largeur
+// constante ≈ epMax/2 pour que le doigt épouse la bande.
+const sortie = {};
+for (const [id, z] of Object.entries(COMPLEMENT)) {
+  const epDef = Math.round((z.epMax ?? 24) * 0.5);
+  sortie[id] = {
+    ...z,
+    pts: z.pts.map((p) => [p[0], p[1], p.length > 2 ? p[2] : epDef]),
+  };
+}
 let nbZones = 0;
 let nbPts = 0;
 
@@ -80,8 +90,11 @@ for (const z of ZONES) {
     for (const f of ["d", "g"]) {
       const seg = el[f];
       if (!seg || !Array.isArray(seg.pts)) continue;
-      // pts = [[x, y, épaisseur], …] → on ne garde que [x, y].
-      for (const p of seg.pts) parPied[f].push([p[0], p[1]]);
+      // pts = [[x, y, épaisseur_locale], …] : on GARDE l'épaisseur (le doigt
+      // épouse la largeur du trait, consignes §6).
+      for (const p of seg.pts) {
+        parPied[f].push([p[0], p[1], typeof p[2] === "number" ? p[2] : 0]);
+      }
       if (typeof seg.ep_max === "number") epMax = Math.max(epMax, seg.ep_max);
     }
   }

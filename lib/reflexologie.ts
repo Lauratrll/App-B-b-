@@ -132,9 +132,11 @@ export type ReflexoAccueil = {
   presentation: string[];
   precautions_titre: string;
   precautions: { cle: string; texte: string }[];
-  note_fin: string;
+  note_fin?: string; // retiré du JSON — affiché seulement s'il existe
   disclaimer: string;
 };
+
+export const accueilReflexo = accueilJson as unknown as ReflexoAccueil;
 
 /** Entrée de la liste affichée dans l'onglet. */
 export type ReflexoListItem = {
@@ -184,7 +186,6 @@ const PAR_ID = new Map(PROTOCOLES.map((p) => [p.id, p]));
 // fichiers) : on s'en sert comme référence de tri.
 const ORDRE_LANCEMENT: string[] = indexJson.lancement;
 
-export const accueilReflexo = accueilJson as ReflexoAccueil;
 
 // --- Accès -----------------------------------------------------------------
 

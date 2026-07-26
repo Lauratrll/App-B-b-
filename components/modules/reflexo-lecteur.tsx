@@ -97,10 +97,11 @@ type CibleInfo = {
 
 // Médiane validée d'une zone (le trait que suit le doigt), extraite des
 // prototypes → reflexologie/mouvements-glisse.json.
-type Midline = { pts: [number, number][]; epMax: number; passages: number; enchaine?: boolean };
+// pts = [x, y, épaisseur_locale] (la demi-largeur du trait à ce point).
+type Midline = { pts: number[][]; epMax: number; passages: number; enchaine?: boolean };
 
-// Position sur une polyligne à l'abscisse curviligne k∈[0,1].
-function pointSurMediane(m: PreparedMidline, k: number): { x: number; y: number } {
+// Position + épaisseur locale sur une polyligne à l'abscisse curviligne k∈[0,1].
+function pointSurMediane(m: PreparedMidline, k: number): { x: number; y: number; ep: number } {
   const cible = m.total * Math.max(0, Math.min(1, k));
   let i = 1;
   while (i < m.cum.length && m.cum[i] < cible) i++;
@@ -108,16 +109,29 @@ function pointSurMediane(m: PreparedMidline, k: number): { x: number; y: number 
   const b = m.pts[i] ?? m.pts[i - 1];
   const seg = m.cum[i] - m.cum[i - 1] || 1;
   const t = Math.max(0, Math.min(1, (cible - m.cum[i - 1]) / seg));
-  return { x: a[0] + (b[0] - a[0]) * t, y: a[1] + (b[1] - a[1]) * t };
+  const a2 = a[2] ?? 0;
+  const b2 = b[2] ?? a2;
+  return {
+    x: a[0] + (b[0] - a[0]) * t,
+    y: a[1] + (b[1] - a[1]) * t,
+    ep: a2 + (b2 - a2) * t,
+  };
 }
-type PreparedMidline = { pts: [number, number][]; cum: number[]; total: number };
+type PreparedMidline = { pts: number[][]; cum: number[]; total: number };
 
-function preparerMediane(pts: [number, number][]): PreparedMidline {
+function preparerMediane(pts: number[][]): PreparedMidline {
   const cum = [0];
   for (let i = 1; i < pts.length; i++) {
     cum.push(cum[i - 1] + Math.hypot(pts[i][0] - pts[i - 1][0], pts[i][1] - pts[i - 1][1]));
   }
   return { pts, cum, total: cum[cum.length - 1] || 1 };
+}
+
+// Rayon du doigt : il épouse la largeur du trait, avec un plancher (§6).
+const DOIGT_LARGEUR = 1.15;
+const DOIGT_PLANCHER = 0.18;
+function rayonDoigt(ep: number, epMax: number): number {
+  return Math.max(ep * DOIGT_LARGEUR, epMax * DOIGT_PLANCHER);
 }
 
 // Éléments animés créés pour l'étape courante.
@@ -145,6 +159,8 @@ type Anim =
       med: PreparedMidline;
       durAct: number;
       passages: number;
+      /** Épaisseur max de la zone (plancher du rayon du doigt). */
+      epMax: number;
       /** Décalage de départ (ms) : les zones enchaînées démarrent l'une après l'autre. */
       offset: number;
       /** Durée du mouvement complet de cette zone (hors GLISSE_T_FIN). */
@@ -408,12 +424,12 @@ export function ReflexoLecteur({
           const trLen = trainee.getTotalLength();
           trainee.style.strokeDasharray = String(trLen);
           trainee.style.strokeDashoffset = String(trLen);
-          // Doigt (au-dessus de la traînée).
+          // Doigt (au-dessus de la traînée) : rayon = largeur locale du trait.
           const doigt = document.createElementNS(NS, "circle");
           const p0 = pointSurMediane(med, 0);
           doigt.setAttribute("cx", String(p0.x));
           doigt.setAttribute("cy", String(p0.y));
-          doigt.setAttribute("r", String(Math.max(10, geom.epMax * 0.5)));
+          doigt.setAttribute("r", String(rayonDoigt(p0.ep, geom.epMax)));
           doigt.setAttribute("fill", ci.fill);
           doigt.setAttribute("opacity", "0");
           gOver.appendChild(doigt);
@@ -431,6 +447,7 @@ export function ReflexoLecteur({
             med,
             durAct,
             passages,
+            epMax: geom.epMax,
             offset,
             total,
           });
@@ -549,6 +566,7 @@ export function ReflexoLecteur({
           const pt = pointSurMediane(a.med, k);
           a.doigt.setAttribute("cx", String(pt.x));
           a.doigt.setAttribute("cy", String(pt.y));
+          a.doigt.setAttribute("r", String(rayonDoigt(pt.ep, a.epMax))); // épouse le trait
           a.doigt.setAttribute("opacity", actif ? "1" : "0");
           a.trainee.style.strokeDashoffset = String(trLen * (1 - k));
           if (dernier && k > GLISSE_SEUIL_FIN) {
