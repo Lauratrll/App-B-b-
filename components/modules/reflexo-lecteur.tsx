@@ -135,11 +135,6 @@ function preparerMediane(pts: number[][]): PreparedMidline {
 }
 
 // Rayon du doigt : il épouse la largeur du trait, avec un plancher (§6).
-const DOIGT_LARGEUR = 1.15;
-const DOIGT_PLANCHER = 0.18;
-function rayonDoigt(ep: number, epMax: number): number {
-  return Math.max(ep * DOIGT_LARGEUR, epMax * DOIGT_PLANCHER);
-}
 
 // Éléments animés créés pour l'étape courante.
 type Anim =
@@ -439,17 +434,32 @@ export function ReflexoLecteur({
             passages = geom.passages || 3;
             enchaine = geom.enchaine === true;
           }
-          // Clip = la forme exacte de la zone (aucun débordement).
-          const clip = document.createElementNS(NS, "clipPath");
-          const clipId = `rfxclip-${id}`;
-          clip.setAttribute("id", clipId);
-          ci.el.querySelectorAll("path").forEach((pth) => {
-            const cp = document.createElementNS(NS, "path");
-            cp.setAttribute("d", pth.getAttribute("d") || "");
-            clip.appendChild(cp);
-          });
-          defs.appendChild(clip);
-          // Traînée large, clippée sur la zone.
+          // Zone dessinée AU TRAIT (fill:none, ex. thyroïde) : la traînée EST un
+          // trait de la largeur de la zone → PAS de clip (clipper un tracé sans
+          // remplissage crée une région fantôme à côté). Sinon : clip sur la forme.
+          const pathEl = ci.el.querySelector("path");
+          const stroked = pathEl ? getComputedStyle(pathEl).fill === "none" : false;
+          if (stroked && pathEl) {
+            const sw = parseFloat(getComputedStyle(pathEl).strokeWidth);
+            if (sw) brush = sw;
+          }
+          // Le doigt COIFFE la traînée (même largeur) : le trait coloré ne le
+          // dépasse jamais. (Glissé : demi-brosse ; tracés bakés : un peu moins.)
+          fingerR = med ? brush / 2 : Math.max(10, brush * 0.42);
+
+          let clipId = "";
+          if (!stroked) {
+            const clip = document.createElementNS(NS, "clipPath");
+            clipId = `rfxclip-${id}`;
+            clip.setAttribute("id", clipId);
+            ci.el.querySelectorAll("path").forEach((pth) => {
+              const cp = document.createElementNS(NS, "path");
+              cp.setAttribute("d", pth.getAttribute("d") || "");
+              clip.appendChild(cp);
+            });
+            defs.appendChild(clip);
+          }
+          // Traînée large (clippée sur la zone, sauf zone au trait).
           const trainee = document.createElementNS(NS, "path");
           trainee.setAttribute("d", traineeD);
           trainee.setAttribute("fill", "none");
@@ -457,18 +467,18 @@ export function ReflexoLecteur({
           trainee.setAttribute("stroke-width", String(brush));
           trainee.setAttribute("stroke-linecap", "round");
           trainee.setAttribute("stroke-linejoin", "round");
-          trainee.setAttribute("clip-path", `url(#${clipId})`);
+          if (clipId) trainee.setAttribute("clip-path", `url(#${clipId})`);
           trainee.setAttribute("opacity", "0");
           gOver.appendChild(trainee);
           const trLen = trainee.getTotalLength();
           trainee.style.strokeDasharray = String(trLen);
           trainee.style.strokeDashoffset = String(trLen);
-          // Doigt (au-dessus de la traînée).
+          // Doigt (au-dessus de la traînée), de la largeur de la traînée.
           const doigt = document.createElementNS(NS, "circle");
           const p0 = med ? pointSurMediane(med, 0) : trainee.getPointAtLength(0);
           doigt.setAttribute("cx", String(p0.x));
           doigt.setAttribute("cy", String(p0.y));
-          doigt.setAttribute("r", String(med ? rayonDoigt((p0 as { ep: number }).ep, epMax) : fingerR));
+          doigt.setAttribute("r", String(fingerR));
           doigt.setAttribute("fill", ci.fill);
           doigt.setAttribute("opacity", "0");
           gOver.appendChild(doigt);
@@ -575,10 +585,12 @@ export function ReflexoLecteur({
         });
       } else if (a.kind === "glisse") {
         const { durAct, passages: P, trLen, total } = a;
-        // Enchaînement : cette zone attend son tour (décalage), invisible avant.
+        // Enchaînement : cette zone attend son tour (décalage). AVANT son tour,
+        // on montre déjà la zone en transparence (OP_REPOS) — les DEUX pieds sont
+        // visibles dès le début — mais sans traînée ni doigt.
         const le = elapsed - a.offset;
         if (le < 0) {
-          a.groupe.el.style.opacity = "0";
+          a.groupe.el.style.opacity = String(OP_REPOS);
           a.trainee.setAttribute("opacity", "0");
           a.doigt.setAttribute("opacity", "0");
           continue;
@@ -606,17 +618,10 @@ export function ReflexoLecteur({
           // Sens inverse (Diarrhée) : on parcourt la trajectoire depuis la fin.
           const kk = a.reverse ? 1 - k : k;
           // Position + rayon : médiane (avec épaisseur locale) ou tracé baké.
-          if (a.med) {
-            const pt = pointSurMediane(a.med, kk);
-            a.doigt.setAttribute("cx", String(pt.x));
-            a.doigt.setAttribute("cy", String(pt.y));
-            a.doigt.setAttribute("r", String(rayonDoigt(pt.ep, a.epMax))); // épouse le trait
-          } else {
-            const pt = a.trainee.getPointAtLength(trLen * kk);
-            a.doigt.setAttribute("cx", String(pt.x));
-            a.doigt.setAttribute("cy", String(pt.y));
-            a.doigt.setAttribute("r", String(a.fingerR));
-          }
+          const pt = a.med ? pointSurMediane(a.med, kk) : a.trainee.getPointAtLength(trLen * kk);
+          a.doigt.setAttribute("cx", String(pt.x));
+          a.doigt.setAttribute("cy", String(pt.y));
+          a.doigt.setAttribute("r", String(a.fingerR)); // coiffe la traînée
           a.doigt.setAttribute("opacity", actif ? "1" : "0");
           // Dévoilement : depuis la fin du tracé si inverse (décalage négatif).
           a.trainee.style.strokeDashoffset = String(a.reverse ? -trLen * (1 - k) : trLen * (1 - k));
