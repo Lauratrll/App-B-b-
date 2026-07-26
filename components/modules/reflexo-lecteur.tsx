@@ -473,13 +473,16 @@ export function ReflexoLecteur({
           const trLen = trainee.getTotalLength();
           trainee.style.strokeDasharray = String(trLen);
           trainee.style.strokeDashoffset = String(trLen);
-          // Doigt (au-dessus de la traînée), de la largeur de la traînée.
+          // Doigt (au-dessus de la traînée), de la largeur de la traînée. Clippé
+          // sur la forme de la zone (sauf zone au trait) : l'empreinte RESTE dans
+          // la zone, elle ne déborde jamais du contour (ex. orteils de la tête).
           const doigt = document.createElementNS(NS, "circle");
           const p0 = med ? pointSurMediane(med, 0) : trainee.getPointAtLength(0);
           doigt.setAttribute("cx", String(p0.x));
           doigt.setAttribute("cy", String(p0.y));
           doigt.setAttribute("r", String(fingerR));
           doigt.setAttribute("fill", ci.fill);
+          if (clipId) doigt.setAttribute("clip-path", `url(#${clipId})`);
           doigt.setAttribute("opacity", "0");
           gOver.appendChild(doigt);
           const total = (passages - 1) * (durAct + GLISSE_T_EFFACE) + durAct;
