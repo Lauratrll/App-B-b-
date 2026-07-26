@@ -96,7 +96,7 @@ type CibleInfo = {
 
 // Médiane validée d'une zone (le trait que suit le doigt), extraite des
 // prototypes → reflexologie/mouvements-glisse.json.
-type Midline = { pts: [number, number][]; epMax: number; passages: number };
+type Midline = { pts: [number, number][]; epMax: number; passages: number; enchaine?: boolean };
 
 // Position sur une polyligne à l'abscisse curviligne k∈[0,1].
 function pointSurMediane(m: PreparedMidline, k: number): { x: number; y: number } {
@@ -139,6 +139,10 @@ type Anim =
       med: PreparedMidline;
       durAct: number;
       passages: number;
+      /** Décalage de départ (ms) : les zones enchaînées démarrent l'une après l'autre. */
+      offset: number;
+      /** Durée du mouvement complet de cette zone (hors GLISSE_T_FIN). */
+      total: number;
     }
   // Zones tracé sans géométrie encore branchée : coloriage progressif seul.
   | { kind: "reveal"; groupe: CibleInfo };
@@ -325,6 +329,10 @@ export function ReflexoLecteur({
       }
       const defs = defsRef.current;
       const points = s.mouvement === "pression-maintenue";
+      // Zones enchaînées (gros intestin) : les pieds se jouent l'un APRÈS l'autre
+      // (pied droit -d puis pied gauche -g), pas simultanément. On accumule un
+      // décalage de départ dans l'ordre des cibles (déjà -d avant -g).
+      let enchaineOffset = 0;
       for (const id of s.cibles) {
         const ci = info.get(id);
         if (!ci) continue;
@@ -399,6 +407,11 @@ export function ReflexoLecteur({
           doigt.setAttribute("fill", ci.fill);
           doigt.setAttribute("opacity", "0");
           gOver.appendChild(doigt);
+          const passages = geom.passages || 3;
+          const total = (passages - 1) * (durAct + GLISSE_T_EFFACE) + durAct;
+          // Enchaînement : cette zone démarre après les précédentes du groupe.
+          const offset = geom.enchaine ? enchaineOffset : 0;
+          if (geom.enchaine) enchaineOffset += total;
           anims.push({
             kind: "glisse",
             groupe: ci,
@@ -407,7 +420,9 @@ export function ReflexoLecteur({
             trLen,
             med,
             durAct,
-            passages: geom.passages || 3,
+            passages,
+            offset,
+            total,
           });
         } else {
           // Mouvement dont la géométrie n'est pas encore branchée (circulaire,
@@ -422,10 +437,8 @@ export function ReflexoLecteur({
       for (const a of anims) {
         if (a.kind === "points") dur = Math.max(dur, T_INTRO + a.nbCycles * T_CYCLE);
         else if (a.kind === "glisse")
-          dur = Math.max(
-            dur,
-            a.passages * a.durAct + (a.passages - 1) * GLISSE_T_EFFACE + GLISSE_T_FIN,
-          );
+          // offset + durée du mouvement (les zones enchaînées s'additionnent).
+          dur = Math.max(dur, a.offset + a.total + GLISSE_T_FIN);
       }
       stepDurRef.current = dur;
       t0Ref.current = performance.now();
@@ -470,10 +483,17 @@ export function ReflexoLecteur({
           o.el.setAttribute("opacity", String(ONDE_OP * (1 - p)));
         });
       } else if (a.kind === "glisse") {
-        const { durAct, passages: P, trLen } = a;
+        const { durAct, passages: P, trLen, total } = a;
+        // Enchaînement : cette zone attend son tour (décalage), invisible avant.
+        const le = elapsed - a.offset;
+        if (le < 0) {
+          a.groupe.el.style.opacity = "0";
+          a.trainee.setAttribute("opacity", "0");
+          a.doigt.setAttribute("opacity", "0");
+          continue;
+        }
         const segFull = durAct + GLISSE_T_EFFACE;
-        const total = (P - 1) * segFull + durAct;
-        if (elapsed >= total) {
+        if (le >= total) {
           // État figé : la zone reste coloriée (OP_FIN), traînée et doigt éteints.
           a.groupe.el.style.opacity = String(OP_FIN);
           a.trainee.setAttribute("opacity", "0");
@@ -481,7 +501,7 @@ export function ReflexoLecteur({
           continue;
         }
         // Passage courant.
-        let t = elapsed;
+        let t = le;
         let p = 0;
         while (p < P - 1 && t >= segFull) {
           t -= segFull;
