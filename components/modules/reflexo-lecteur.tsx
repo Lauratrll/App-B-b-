@@ -358,17 +358,22 @@ export function ReflexoLecteur({
       }
       const defs = defsRef.current;
       const points = s.mouvement === "pression-maintenue";
-      // Zones enchaînées (gros intestin) : les pieds se jouent l'un APRÈS l'autre.
-      // Ordre de base = pied droit (-d) puis gauche (-g). En sens INVERSE
-      // (Diarrhée), on inverse l'ordre → gauche d'abord (consignes §14ter).
-      let enchaineOffset = 0;
-      const cibles = s.inverse ? [...s.cibles].reverse() : s.cibles;
-      for (const id of cibles) {
-        const ci = info.get(id);
-        if (!ci) continue;
-        ci.el.style.display = "";
-        ci.el.style.opacity = String(OP_REPOS);
-        const geom = geomRef.current[id];
+      // Séquençage. Par défaut, toutes les zones de l'étape jouent ENSEMBLE.
+      // Si `gestesEnchaines`, les GROUPES (zones) s'enchaînent l'un APRÈS l'autre
+      // (§8, ex. bassin : d'abord la spirale, puis le glissé de l'ancrage).
+      // Dans un groupe, les deux pieds jouent ensemble — sauf gros intestin
+      // (`enchaine`), pied par pied ; en sens INVERSE (Diarrhée), ordre inversé.
+      let groupeOffset = 0;
+      for (const grp of s.groupes) {
+        let enchaineOffset = 0;
+        let grpDuree = 0;
+        const grpCibles = s.inverse ? [...grp].reverse() : grp;
+        for (const id of grpCibles) {
+          const ci = info.get(id);
+          if (!ci) continue;
+          ci.el.style.display = "";
+          ci.el.style.opacity = String(OP_REPOS);
+          const geom = geomRef.current[id];
 
         if (points && ci.points.length > 0 && !reducedMotion) {
           // PRESSION MAINTENUE : chaque point = un appui (doigt) + 3 ondes.
@@ -398,6 +403,8 @@ export function ReflexoLecteur({
           }
           const nbCycles = ci.points.length > 1 ? CYCLES_MULTI : CYCLES_SIMPLE;
           anims.push({ kind: "points", groupe: ci, pts, nbCycles });
+          const nbP = ci.points.length;
+          grpDuree = Math.max(grpDuree, T_INTRO + nbP * nbCycles * T_CYCLE + (nbP - 1) * POINT_T_INTER);
         } else if (geom && defs && !reducedMotion) {
           // MOUVEMENT « TRACÉ » : le doigt suit une trajectoire validée ; une
           // traînée large clippée sur la zone se dévoile à son passage, s'efface
@@ -486,9 +493,12 @@ export function ReflexoLecteur({
           doigt.setAttribute("opacity", "0");
           gOver.appendChild(doigt);
           const total = (passages - 1) * (durAct + GLISSE_T_EFFACE) + durAct;
-          // Enchaînement (gros intestin) : démarre après les précédentes du groupe.
-          const offset = enchaine ? enchaineOffset : 0;
+          // Décalage = offset du groupe (zones enchaînées) + offset intra-groupe
+          // (gros intestin : pied après pied).
+          const withinOffset = enchaine ? enchaineOffset : 0;
           if (enchaine) enchaineOffset += total;
+          const offset = groupeOffset + withinOffset;
+          grpDuree = Math.max(grpDuree, withinOffset + total);
           anims.push({
             kind: "glisse",
             groupe: ci,
@@ -509,6 +519,10 @@ export function ReflexoLecteur({
           // Aucune géométrie (ne devrait plus arriver) : coloriage progressif.
           anims.push({ kind: "reveal", groupe: ci });
         }
+        }
+        // Zones enchaînées : le groupe suivant démarre APRÈS celui-ci (+ un petit
+        // temps de repos) — on ne joue jamais les deux mouvements en même temps.
+        if (s.gestesEnchaines) groupeOffset += grpDuree + GLISSE_T_FIN;
       }
       animsRef.current = anims;
 

@@ -268,8 +268,15 @@ export type ReflexoAnimStep = {
   mouvement: string | null;
   /** Étape hors pied : aucune zone à animer, texte seul. */
   horsPied: boolean;
-  /** Ids d'éléments SVG à révéler/animer (plusieurs si gestes enchaînés). */
+  /** Ids d'éléments SVG à révéler/animer (à plat, toutes zones confondues). */
   cibles: string[];
+  /**
+   * Un groupe = les cibles d'UNE zone du protocole. Quand `gestesEnchaines` est
+   * vrai, les groupes se jouent l'un APRÈS l'autre (ex. bassin : d'abord la
+   * spirale, puis le glissé de l'ancrage), jamais en même temps. Cf. §8.
+   */
+  groupes: string[][];
+  gestesEnchaines: boolean;
   /**
    * Mouvement joué À L'ENVERS (`sens: "inverse"` dans le protocole, ex. Diarrhée) :
    * trajectoire parcourue depuis la fin ; pour le gros intestin enchaîné, ordre
@@ -282,7 +289,9 @@ export type ReflexoAnimStep = {
 export function getStepsAnimation(protocole: ReflexoProtocole): ReflexoAnimStep[] {
   return protocole.sequence.map((e) => {
     const zones = e.zones ?? [];
-    const cibles = zones.flatMap((z) => CATALOGUE_CIBLES.get(z.zone) ?? []);
+    const groupes = zones
+      .map((z) => CATALOGUE_CIBLES.get(z.zone) ?? [])
+      .filter((g) => g.length > 0);
     return {
       ordre: e.ordre,
       designation: e.designation,
@@ -290,7 +299,9 @@ export function getStepsAnimation(protocole: ReflexoProtocole): ReflexoAnimStep[
       desc: zones[0]?.description_mouvement ?? "",
       mouvement: zones[0]?.mouvement ?? null,
       horsPied: e.hors_pied === true,
-      cibles,
+      cibles: groupes.flat(),
+      groupes,
+      gestesEnchaines: e.gestes_enchaines === true,
       inverse: zones.some((z) => (z as { sens?: string }).sens === "inverse"),
     };
   });
