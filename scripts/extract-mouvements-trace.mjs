@@ -115,5 +115,38 @@ for (const c of CONFIG) {
   nb++;
 }
 
+// --- Complément FOIE (demande Laura) ---------------------------------------
+// Le foie n'a pas de tracé baké. « Même mouvement que le poumon (boucles), mais
+// en partant de l'extérieur du pied vers l'intérieur. » On mappe donc le tracé
+// VALIDÉ du poumon (déjà extrait) sur la forme du foie (bbox mesurées sur le
+// SVG) et on l'inverse (extérieur → intérieur). Reproductible à chaque run.
+const FOIE_BB = [240.8, 431.4, 125.5, 77.6]; // x, y, w, h
+const POUMON_BB = [249.9, 249.1, 253.7, 122.3];
+if (sortie["zone-poumon-d"]) {
+  const src = sortie["zone-poumon-d"];
+  const subs = src.d
+    .trim()
+    .split(/(?=M)/)
+    .map((s) => s.replace(/^M/, "").trim().split(/L/).map((t) => t.trim().split(/[ ,]+/).map(Number)));
+  const mapped = subs.map((sub) =>
+    sub.map(([x, y]) => [
+      Math.round((FOIE_BB[0] + ((x - POUMON_BB[0]) / POUMON_BB[2]) * FOIE_BB[2]) * 10) / 10,
+      Math.round((FOIE_BB[1] + ((y - POUMON_BB[1]) / POUMON_BB[3]) * FOIE_BB[3]) * 10) / 10,
+    ]),
+  );
+  // Inverse : sous-tracés et points renversés → extérieur vers intérieur.
+  const rev = mapped.map((s) => s.slice().reverse()).reverse();
+  const d = rev.map((s) => "M " + s.map((p) => p.join(" ")).join(" L ")).join(" ");
+  const scale = Math.min(FOIE_BB[2] / POUMON_BB[2], FOIE_BB[3] / POUMON_BB[3]);
+  sortie["zone-foie-d"] = {
+    d,
+    brush: Math.round(src.brush * scale * 10) / 10,
+    passages: 3,
+    duree: 8600,
+    traineeOp: 0.75,
+  };
+  nb++;
+}
+
 writeFileSync(OUT, JSON.stringify(sortie));
 console.log(`✓ ${nb} zone(s) « tracé » extraite(s) → ${OUT}`);
