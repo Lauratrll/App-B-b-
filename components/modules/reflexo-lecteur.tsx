@@ -177,6 +177,8 @@ type Anim =
       offset: number;
       /** Durée du mouvement complet de cette zone (hors GLISSE_T_FIN). */
       total: number;
+      /** Sens inverse (Diarrhée) : trajectoire parcourue depuis la fin. */
+      reverse: boolean;
     }
   // Zones tracé sans géométrie encore branchée : coloriage progressif seul.
   | { kind: "reveal"; groupe: CibleInfo };
@@ -361,11 +363,12 @@ export function ReflexoLecteur({
       }
       const defs = defsRef.current;
       const points = s.mouvement === "pression-maintenue";
-      // Zones enchaînées (gros intestin) : les pieds se jouent l'un APRÈS l'autre
-      // (pied droit -d puis pied gauche -g), pas simultanément. On accumule un
-      // décalage de départ dans l'ordre des cibles (déjà -d avant -g).
+      // Zones enchaînées (gros intestin) : les pieds se jouent l'un APRÈS l'autre.
+      // Ordre de base = pied droit (-d) puis gauche (-g). En sens INVERSE
+      // (Diarrhée), on inverse l'ordre → gauche d'abord (consignes §14ter).
       let enchaineOffset = 0;
-      for (const id of s.cibles) {
+      const cibles = s.inverse ? [...s.cibles].reverse() : s.cibles;
+      for (const id of cibles) {
         const ci = info.get(id);
         if (!ci) continue;
         ci.el.style.display = "";
@@ -487,6 +490,7 @@ export function ReflexoLecteur({
             trOp,
             offset,
             total,
+            reverse: s.inverse === true,
           });
         } else {
           // Aucune géométrie (ne devrait plus arriver) : coloriage progressif.
@@ -599,20 +603,23 @@ export function ReflexoLecteur({
           // GLISSE : le doigt avance, la traînée se dévoile à sa suite.
           const k = t / durAct;
           const actif = k > 0.004 && k < 0.999; // anti-artefact : rien au tout début/fin
+          // Sens inverse (Diarrhée) : on parcourt la trajectoire depuis la fin.
+          const kk = a.reverse ? 1 - k : k;
           // Position + rayon : médiane (avec épaisseur locale) ou tracé baké.
           if (a.med) {
-            const pt = pointSurMediane(a.med, k);
+            const pt = pointSurMediane(a.med, kk);
             a.doigt.setAttribute("cx", String(pt.x));
             a.doigt.setAttribute("cy", String(pt.y));
             a.doigt.setAttribute("r", String(rayonDoigt(pt.ep, a.epMax))); // épouse le trait
           } else {
-            const pt = a.trainee.getPointAtLength(trLen * k);
+            const pt = a.trainee.getPointAtLength(trLen * kk);
             a.doigt.setAttribute("cx", String(pt.x));
             a.doigt.setAttribute("cy", String(pt.y));
             a.doigt.setAttribute("r", String(a.fingerR));
           }
           a.doigt.setAttribute("opacity", actif ? "1" : "0");
-          a.trainee.style.strokeDashoffset = String(trLen * (1 - k));
+          // Dévoilement : depuis la fin du tracé si inverse (décalage négatif).
+          a.trainee.style.strokeDashoffset = String(a.reverse ? -trLen * (1 - k) : trLen * (1 - k));
           if (dernier && k > GLISSE_SEUIL_FIN) {
             // Fin : la zone monte vers OP_FIN, la traînée se résorbe (fondu croisé).
             const v = (k - GLISSE_SEUIL_FIN) / (1 - GLISSE_SEUIL_FIN);

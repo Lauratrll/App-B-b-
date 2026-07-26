@@ -270,6 +270,12 @@ export type ReflexoAnimStep = {
   horsPied: boolean;
   /** Ids d'éléments SVG à révéler/animer (plusieurs si gestes enchaînés). */
   cibles: string[];
+  /**
+   * Mouvement joué À L'ENVERS (`sens: "inverse"` dans le protocole, ex. Diarrhée) :
+   * trajectoire parcourue depuis la fin ; pour le gros intestin enchaîné, ordre
+   * des pieds inversé (gauche d'abord, puis droit). Cf. consignes §14ter.
+   */
+  inverse: boolean;
 };
 
 /** Convertit la séquence d'un protocole en étapes prêtes pour le lecteur animé. */
@@ -285,6 +291,7 @@ export function getStepsAnimation(protocole: ReflexoProtocole): ReflexoAnimStep[
       mouvement: zones[0]?.mouvement ?? null,
       horsPied: e.hors_pied === true,
       cibles,
+      inverse: zones.some((z) => (z as { sens?: string }).sens === "inverse"),
     };
   });
 }
