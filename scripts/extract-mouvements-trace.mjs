@@ -115,35 +115,86 @@ for (const c of CONFIG) {
   nb++;
 }
 
-// --- Complément FOIE (demande Laura) ---------------------------------------
-// Le foie n'a pas de tracé baké. « Même mouvement que le poumon (boucles), mais
-// en partant de l'extérieur du pied vers l'intérieur. » On mappe donc le tracé
-// VALIDÉ du poumon (déjà extrait) sur la forme du foie (bbox mesurées sur le
-// SVG) et on l'inverse (extérieur → intérieur). Reproductible à chaque run.
-const FOIE_BB = [240.8, 431.4, 125.5, 77.6]; // x, y, w, h
-const POUMON_BB = [249.9, 249.1, 253.7, 122.3];
-if (sortie["zone-poumon-d"]) {
-  const src = sortie["zone-poumon-d"];
-  const subs = src.d
+// --- Compléments : zones sans tracé baké (générés) -------------------------
+// Certaines zones n'ont pas de tracé baké dans les prototypes. On les GÉNÈRE en
+// mappant un tracé validé existant sur leur forme (bbox mesurées sur le SVG).
+// Reproductible à chaque run.
+
+// Mappe le `d` d'une zone source (bbox src) vers une bbox dest ; option inverse.
+function mapperD(srcD, srcBB, dstBB, reverse) {
+  const subs = srcD
     .trim()
     .split(/(?=M)/)
     .map((s) => s.replace(/^M/, "").trim().split(/L/).map((t) => t.trim().split(/[ ,]+/).map(Number)));
   const mapped = subs.map((sub) =>
     sub.map(([x, y]) => [
-      Math.round((FOIE_BB[0] + ((x - POUMON_BB[0]) / POUMON_BB[2]) * FOIE_BB[2]) * 10) / 10,
-      Math.round((FOIE_BB[1] + ((y - POUMON_BB[1]) / POUMON_BB[3]) * FOIE_BB[3]) * 10) / 10,
+      Math.round((dstBB[0] + ((x - srcBB[0]) / srcBB[2]) * dstBB[2]) * 10) / 10,
+      Math.round((dstBB[1] + ((y - srcBB[1]) / srcBB[3]) * dstBB[3]) * 10) / 10,
     ]),
   );
-  // Inverse : sous-tracés et points renversés → extérieur vers intérieur.
-  const rev = mapped.map((s) => s.slice().reverse()).reverse();
-  const d = rev.map((s) => "M " + s.map((p) => p.join(" ")).join(" L ")).join(" ");
-  const scale = Math.min(FOIE_BB[2] / POUMON_BB[2], FOIE_BB[3] / POUMON_BB[3]);
+  const arr = reverse ? mapped.map((s) => s.slice().reverse()).reverse() : mapped;
+  return arr.map((s) => "M " + s.map((p) => p.join(" ")).join(" L ")).join(" ");
+}
+
+// bbox mesurées sur le SVG.
+const BB = {
+  poumonD: [249.9, 249.1, 253.7, 122.3],
+  poumonG: [761.2, 249.1, 253.7, 122.3],
+  foieD: [240.8, 431.4, 125.5, 77.6],
+  rateG: [943.8, 428.9, 78.2, 79.3],
+  teteD: [196, 115.7, 321.5, 171.2],
+  teteG: [746.9, 115.7, 321.5, 171.2],
+  sinusD: [183.2, 100.7, 334.3, 174.9],
+  sinusG: [746.7, 100.7, 334.3, 174.9],
+};
+
+// FOIE : mouvement du poumon (boucles), de l'EXTÉRIEUR vers l'INTÉRIEUR (Laura).
+if (sortie["zone-poumon-d"]) {
+  const src = sortie["zone-poumon-d"];
+  const scale = Math.min(BB.foieD[2] / BB.poumonD[2], BB.foieD[3] / BB.poumonD[3]);
   sortie["zone-foie-d"] = {
-    d,
+    d: mapperD(src.d, BB.poumonD, BB.foieD, true),
     brush: Math.round(src.brush * scale * 10) / 10,
-    passages: 3,
-    duree: 8600,
-    traineeOp: 0.75,
+    passages: 3, duree: 8600, traineeOp: 0.75,
+  };
+  nb++;
+}
+
+// RATE : symétrique du foie (pied gauche) — mouvement du poumon, ext → int.
+if (sortie["zone-poumon-g"]) {
+  const src = sortie["zone-poumon-g"];
+  const scale = Math.min(BB.rateG[2] / BB.poumonG[2], BB.rateG[3] / BB.poumonG[3]);
+  sortie["zone-rate-g"] = {
+    d: mapperD(src.d, BB.poumonG, BB.rateG, true),
+    brush: Math.round(src.brush * scale * 10) / 10,
+    passages: 3, duree: 8600, traineeOp: 0.75,
+  };
+  nb++;
+}
+
+// SINUS : pression GLISSÉE (demande Laura), orteil par orteil (5 sous-zones).
+// Un petit glissé le long de chaque sous-zone (généré depuis la forme du SVG).
+const SINUS = {
+  "zone-sinus-d":
+    "M 183.2 254 L 232 254 M 225.9 196.7 L 280.4 196.7 M 283.2 155.3 L 337.9 155.3 M 344.5 127.3 L 413.3 127.3 M 424 118.2 L 517.5 118.2",
+  "zone-sinus-g":
+    "M 1032.3 254 L 1081.1 254 M 983.9 196.7 L 1038.3 196.7 M 926.3 155.3 L 981.1 155.3 M 851 127.3 L 919.8 127.3 M 746.7 118.2 L 840.3 118.2",
+};
+for (const [id, d] of Object.entries(SINUS)) {
+  sortie[id] = { d, brush: 35, passages: 2, duree: 3200, traineeOp: 0.75 };
+  nb++;
+}
+
+// SYSTÈME URINAIRE : trajet de la vessie vers le rein (§14quater). Simplifié en
+// un glissé du bas (vessie) vers le haut (rein) le long des 2 points.
+const SU = {
+  "zone-systeme-urinaire-d": { vessie: [507.2, 556.4], rein: [378.1, 513.5] },
+  "zone-systeme-urinaire-g": { vessie: [758.5, 556.4], rein: [887.5, 513.5] },
+};
+for (const [id, p] of Object.entries(SU)) {
+  sortie[id] = {
+    d: `M ${p.vessie[0]} ${p.vessie[1]} L ${p.rein[0]} ${p.rein[1]}`,
+    brush: 38, passages: 3, duree: 2900, traineeOp: 0.75,
   };
   nb++;
 }
