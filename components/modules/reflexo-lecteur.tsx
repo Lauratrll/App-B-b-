@@ -41,6 +41,7 @@ const T_RETRAIT = 900;
 const T_CYCLE = T_POSE + T_MAINTIEN + T_RELACHE; // 7000
 const CYCLES_SIMPLE = 3; // 1 point → 3 passages
 const CYCLES_MULTI = 2; // plusieurs points → 2 passages
+const POINT_T_INTER = 1000; // transition entre deux points (zones multi-points)
 const N_ONDES = 3;
 const ONDE_ECART = 1000;
 const ONDE_DUREE = 1000;
@@ -124,8 +125,13 @@ type Anim =
   | {
       kind: "points";
       groupe: CibleInfo;
-      appuis: { el: SVGCircleElement; r0: number }[];
-      ondes: { el: SVGCircleElement; r0: number; decalage: number }[];
+      // Un « point » = un appui (le doigt) + ses 3 ondes. Les zones à plusieurs
+      // points (ganglions) se jouent UN POINT À LA FOIS (consignes §5).
+      pts: {
+        appui: SVGCircleElement;
+        r0: number;
+        ondes: { el: SVGCircleElement; r0: number; decalage: number }[];
+      }[];
       nbCycles: number;
     }
   // Glissé validé : le doigt suit la médiane ; une traînée clippée sur la zone
@@ -341,9 +347,12 @@ export function ReflexoLecteur({
         const geom = geomRef.current[id];
 
         if (points && ci.points.length > 0 && !reducedMotion) {
-          // PRESSION MAINTENUE : le doigt grossit depuis le centre + 3 ondes.
-          const appuis: { el: SVGCircleElement; r0: number }[] = [];
-          const ondes: { el: SVGCircleElement; r0: number; decalage: number }[] = [];
+          // PRESSION MAINTENUE : chaque point = un appui (doigt) + 3 ondes.
+          const pts: {
+            appui: SVGCircleElement;
+            r0: number;
+            ondes: { el: SVGCircleElement; r0: number; decalage: number }[];
+          }[] = [];
           for (const p of ci.points) {
             const a = document.createElementNS(NS, "circle");
             a.setAttribute("cx", String(p.cx));
@@ -351,7 +360,7 @@ export function ReflexoLecteur({
             a.setAttribute("r", "0");
             a.setAttribute("fill", p.fill);
             gOver.appendChild(a);
-            appuis.push({ el: a, r0: p.r });
+            const ondes: { el: SVGCircleElement; r0: number; decalage: number }[] = [];
             for (let o = 0; o < N_ONDES; o++) {
               const w = document.createElementNS(NS, "circle");
               w.setAttribute("cx", String(p.cx));
@@ -361,9 +370,10 @@ export function ReflexoLecteur({
               gUnder.appendChild(w);
               ondes.push({ el: w, r0: p.r, decalage: o * ONDE_ECART });
             }
+            pts.push({ appui: a, r0: p.r, ondes });
           }
           const nbCycles = ci.points.length > 1 ? CYCLES_MULTI : CYCLES_SIMPLE;
-          anims.push({ kind: "points", groupe: ci, appuis, ondes, nbCycles });
+          anims.push({ kind: "points", groupe: ci, pts, nbCycles });
         } else if (geom && geom.pts.length > 1 && defs && !reducedMotion) {
           // PRESSION GLISSÉE : le doigt suit la MÉDIANE validée ; une traînée
           // clippée sur la zone se dévoile à son passage (coloriage), s'efface
@@ -435,8 +445,13 @@ export function ReflexoLecteur({
       // Durée totale de l'étape = durée réelle du mouvement (lecture auto).
       let dur = PASS_DUR * 2;
       for (const a of anims) {
-        if (a.kind === "points") dur = Math.max(dur, T_INTRO + a.nbCycles * T_CYCLE);
-        else if (a.kind === "glisse")
+        if (a.kind === "points") {
+          const P = a.pts.length;
+          dur = Math.max(
+            dur,
+            T_INTRO + P * a.nbCycles * T_CYCLE + (P - 1) * POINT_T_INTER,
+          );
+        } else if (a.kind === "glisse")
           // offset + durée du mouvement (les zones enchaînées s'additionnent).
           dur = Math.max(dur, a.offset + a.total + GLISSE_T_FIN);
       }
@@ -450,37 +465,56 @@ export function ReflexoLecteur({
   const renderFrame = useCallback((elapsed: number) => {
     for (const a of animsRef.current) {
       if (a.kind === "points") {
-        // 1 s de forme au repos, puis nbCycles passages (pose+maintien+relâche).
+        // Un point au repos (appui éteint, ondes éteintes).
+        const eteindre = (pt: (typeof a.pts)[number]) => {
+          pt.appui.setAttribute("r", "0");
+          pt.ondes.forEach((o) => o.el.setAttribute("opacity", "0"));
+        };
+        // Anime un point à l'instant tc∈[0,T_CYCLE] : pose (doigt grossit) +
+        // maintien 3 s avec 3 ondes + relâchement.
+        const animer = (pt: (typeof a.pts)[number], tc: number) => {
+          const finMaintien = T_POSE + T_MAINTIEN;
+          let rk: number;
+          if (tc < T_POSE) rk = easeOut(tc / T_POSE);
+          else if (tc < finMaintien) rk = 1;
+          else rk = 1 - easeOut(Math.min((tc - finMaintien) / T_RETRAIT, 1));
+          pt.appui.setAttribute("r", String(pt.r0 * rk));
+          pt.ondes.forEach((o) => {
+            // Le rayonnement ne démarre qu'une fois le disque plein (à T_POSE).
+            const tw = tc - (T_POSE + o.decalage);
+            if (tw < 0 || tw > ONDE_DUREE) {
+              o.el.setAttribute("opacity", "0");
+              return;
+            }
+            const p = tw / ONDE_DUREE;
+            o.el.setAttribute("r", String(o.r0 * (1 + (ONDE_EXPANSION - 1) * easeOut(p))));
+            o.el.setAttribute("opacity", String(ONDE_OP * (1 - p)));
+          });
+        };
+
+        // 1 s de forme au repos avant tout geste (consigne).
         if (elapsed < T_INTRO) {
-          a.appuis.forEach((ap) => ap.el.setAttribute("r", "0"));
-          a.ondes.forEach((o) => o.el.setAttribute("opacity", "0"));
+          a.pts.forEach(eteindre);
           continue;
         }
         const te = elapsed - T_INTRO;
-        const passage = Math.floor(te / T_CYCLE);
-        if (passage >= a.nbCycles) {
-          // Terminé : on éteint le doigt, la forme reste au repos.
-          a.appuis.forEach((ap) => ap.el.setAttribute("r", "0"));
-          a.ondes.forEach((o) => o.el.setAttribute("opacity", "0"));
-          continue;
+        const bloc = a.nbCycles * T_CYCLE; // durée d'un point (tous ses passages)
+        const unite = bloc + POINT_T_INTER; // + transition vers le point suivant
+        const P = a.pts.length;
+        // Point actif : un seul à la fois, du gros orteil vers l'extérieur.
+        let pIndex = 0;
+        let t = te;
+        while (pIndex < P - 1 && t >= unite) {
+          t -= unite;
+          pIndex++;
         }
-        const tc = te % T_CYCLE;
-        const finMaintien = T_POSE + T_MAINTIEN;
-        let rk: number;
-        if (tc < T_POSE) rk = easeOut(tc / T_POSE);
-        else if (tc < finMaintien) rk = 1;
-        else rk = 1 - easeOut(Math.min((tc - finMaintien) / T_RETRAIT, 1));
-        a.appuis.forEach((ap) => ap.el.setAttribute("r", String(ap.r0 * rk)));
-        a.ondes.forEach((o) => {
-          // Le rayonnement ne démarre qu'une fois le disque plein (à T_POSE).
-          const tw = tc - (T_POSE + o.decalage);
-          if (tw < 0 || tw > ONDE_DUREE) {
-            o.el.setAttribute("opacity", "0");
+        a.pts.forEach((pt, i) => {
+          if (i !== pIndex) {
+            eteindre(pt);
             return;
           }
-          const p = tw / ONDE_DUREE;
-          o.el.setAttribute("r", String(o.r0 * (1 + (ONDE_EXPANSION - 1) * easeOut(p))));
-          o.el.setAttribute("opacity", String(ONDE_OP * (1 - p)));
+          if (t < bloc) animer(pt, t % T_CYCLE); // dans ses passages
+          else eteindre(pt); // en transition vers le point suivant
         });
       } else if (a.kind === "glisse") {
         const { durAct, passages: P, trLen, total } = a;
@@ -511,10 +545,11 @@ export function ReflexoLecteur({
         if (t < durAct) {
           // GLISSE : le doigt avance, la traînée se dévoile à sa suite.
           const k = t / durAct;
+          const actif = k > 0.004 && k < 0.999; // anti-artefact : rien au tout début/fin
           const pt = pointSurMediane(a.med, k);
           a.doigt.setAttribute("cx", String(pt.x));
           a.doigt.setAttribute("cy", String(pt.y));
-          a.doigt.setAttribute("opacity", "1");
+          a.doigt.setAttribute("opacity", actif ? "1" : "0");
           a.trainee.style.strokeDashoffset = String(trLen * (1 - k));
           if (dernier && k > GLISSE_SEUIL_FIN) {
             // Fin : la zone monte vers OP_FIN, la traînée se résorbe (fondu croisé).
@@ -523,7 +558,8 @@ export function ReflexoLecteur({
             a.trainee.setAttribute("opacity", String(OP_TRAINEE * (1 - v)));
           } else {
             a.groupe.el.style.opacity = String(OP_REPOS);
-            a.trainee.setAttribute("opacity", String(OP_TRAINEE));
+            // Traînée cachée tant que le geste n'a rien dévoilé (disque fantôme).
+            a.trainee.setAttribute("opacity", k > 0.004 ? String(OP_TRAINEE) : "0");
           }
         } else {
           // EFFACEMENT de la traînée avant le passage suivant (forme au repos).
