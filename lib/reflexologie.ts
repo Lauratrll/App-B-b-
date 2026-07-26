@@ -40,8 +40,10 @@ import diarrhee from "@/reflexologie/protocole-diarrhee.json";
 import difficultesATeter from "@/reflexologie/protocole-difficultes-a-teter.json";
 import eczema from "@/reflexologie/protocole-eczema.json";
 import enuresie from "@/reflexologie/protocole-enuresie.json";
+import frustrationMotrice from "@/reflexologie/protocole-frustration-motrice.json";
 import ictere from "@/reflexologie/protocole-ictere.json";
 import inconfortDigestif from "@/reflexologie/protocole-inconfort-digestif.json";
+import jalousieFratrie from "@/reflexologie/protocole-jalousie-fratrie.json";
 import malDesTransports from "@/reflexologie/protocole-mal-des-transports.json";
 import meconium from "@/reflexologie/protocole-meconium.json";
 import oppositionFrustration from "@/reflexologie/protocole-opposition-frustration.json";
@@ -168,8 +170,10 @@ const PROTOCOLES = [
   difficultesATeter,
   eczema,
   enuresie,
+  frustrationMotrice,
   ictere,
   inconfortDigestif,
+  jalousieFratrie,
   malDesTransports,
   meconium,
   oppositionFrustration,
@@ -185,6 +189,14 @@ const PAR_ID = new Map(PROTOCOLES.map((p) => [p.id, p]));
 // L'index porte l'ordre d'affichage voulu (et non l'ordre alphabétique des
 // fichiers) : on s'en sert comme référence de tri.
 const ORDRE_LANCEMENT: string[] = indexJson.lancement;
+const ORDRE_REPORTES: string[] = (indexJson as { reportes?: string[] }).reportes ?? [];
+
+// ⚠️ TEMPORAIRE (demande Laura) : afficher TOUS les protocoles, publiés ET
+// reportés, le temps de la relecture. Repasser à `false` pour ne montrer que
+// les protocoles `lancement === true` (comportement cible + futur filtre par âge).
+const TOUT_VISIBLE = true;
+// Ordre d'affichage quand tout est visible : lancement d'abord, puis reportés.
+const ORDRE_AFFICHAGE = [...ORDRE_LANCEMENT, ...ORDRE_REPORTES];
 
 
 // --- Accès -----------------------------------------------------------------
@@ -201,12 +213,13 @@ function accrocheDepuisIntro(intro: string): string {
  * qu'ignoré silencieusement.
  */
 export function getProtocolesPublies(): ReflexoListItem[] {
-  const publies = PROTOCOLES.filter((p) => p.lancement === true);
+  const ordre = TOUT_VISIBLE ? ORDRE_AFFICHAGE : ORDRE_LANCEMENT;
+  const visibles = PROTOCOLES.filter((p) => TOUT_VISIBLE || p.lancement === true);
   const rang = (id: string) => {
-    const i = ORDRE_LANCEMENT.indexOf(id);
+    const i = ordre.indexOf(id);
     return i === -1 ? Number.MAX_SAFE_INTEGER : i;
   };
-  return publies
+  return visibles
     .sort((a, b) => rang(a.id) - rang(b.id) || a.titre.localeCompare(b.titre, "fr"))
     .map((p) => ({
       id: p.id,
@@ -218,10 +231,10 @@ export function getProtocolesPublies(): ReflexoListItem[] {
     }));
 }
 
-/** Un protocole publié. Renvoie null si inconnu ou non publié (report). */
+/** Un protocole. Renvoie null si inconnu (ou non publié, hors mode TOUT_VISIBLE). */
 export function getProtocole(id: string): ReflexoProtocole | null {
   const p = PAR_ID.get(id);
-  if (!p || p.lancement !== true) return null;
+  if (!p || (!TOUT_VISIBLE && p.lancement !== true)) return null;
   return p;
 }
 

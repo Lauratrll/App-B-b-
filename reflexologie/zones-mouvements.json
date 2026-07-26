@@ -777,6 +777,38 @@
         "designation": false,
         "mouvement": false
       }
+    },
+    {
+      "id": "epaule",
+      "designation": "les épaules",
+      "cibles": [
+        "zone-epaule-d",
+        "zone-epaule-g"
+      ],
+      "forme": "point",
+      "mouvement": "pression-maintenue",
+      "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+      "valide": true,
+      "a_valider": {
+        "designation": false,
+        "mouvement": false
+      }
+    },
+    {
+      "id": "hanche",
+      "designation": "les hanches",
+      "cibles": [
+        "zone-hanche-d",
+        "zone-hanche-g"
+      ],
+      "forme": "point",
+      "mouvement": "pression-maintenue",
+      "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+      "valide": true,
+      "a_valider": {
+        "designation": false,
+        "mouvement": false
+      }
     }
   ],
   "_statut": "Tous les mouvements validés par Laura — prêt pour la compilation des protocoles",

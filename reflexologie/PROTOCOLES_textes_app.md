@@ -3,7 +3,7 @@
 _Version lisible pour relecture. Les données réelles sont dans les fichiers JSON._
 
 
-**19 protocoles au lancement · 6 reportés.**
+**21 protocoles au lancement · 6 reportés.**
 
 
 ---
@@ -233,6 +233,34 @@ _Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitu
 ---
 
 
+## Frustration motrice
+
+
+Un moment tout doux pour accompagner bébé quand il cherche à bouger, se retrouve coincé et enrage de ne pas encore y arriver. On relâche le corps tendu par l'effort et on apaise la frustration.
+
+
+*On accueille sa colère de ne pas encore réussir : elle dit son élan et son envie de grandir.*
+
+
+**Séquence :**
+
+1. **la colonne vertébrale et le contour du corps** _(gestes enchaînés)_ — On détend tout l'axe du dos, puis on épouse le contour du corps : relâcher un corps tendu par l'effort, envelopper, rassurer.
+2. **la tête** — On accueille bébé tout entier, on apaise la tête.
+3. **les épaules** — On pose un appui doux sur les épaules : relâcher les tensions du haut du corps.
+4. **les hanches** — On pose un appui doux sur les hanches : détendre le bas du corps, base des mouvements.
+5. **le bassin** — On relâche le bassin en spirale lente : apaiser les jambes qui s'agitent, ancrer.
+6. **le diaphragme** — On relâche la coupole du ventre : la respiration, coupée par la frustration, se déplie.
+7. **le plexus solaire** — On apaise le centre des émotions, là où la colère se noue.
+8. **le foie** — On accompagne le foie, là où la colère et la frustration se déposent.
+9. **les surrénales** — On apaise la décharge de stress et d'énergie de la colère.
+
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
+
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+
+---
+
+
 ## Reflux · ⚠️ sujet sensible
 
 
@@ -334,8 +362,8 @@ Un protocole pour accompagner le ventre de bébé en douceur lorsque le transit 
 7. **le foie** — On accompagne le travail du foie, sans forcer.
 8. **l'estomac** — On apaise le haut du ventre.
 9. **les surrénales** — On soutient l'énergie et l'équilibre du corps.
-10. **l'intestin grêle** _(sens inverse)_ — On suit le trajet fin de l'intestin, mais dans le sens inverse.
-11. **le gros intestin** _(sens inverse)_ — On accompagne le gros intestin dans le sens inverse : du bas du pied gauche vers le bas du pied droit.
+10. **l'intestin grêle** — On suit le trajet fin de l'intestin, mais dans le sens inverse.
+11. **le gros intestin** — On accompagne le gros intestin dans le sens inverse : du bas du pied gauche vers le bas du pied droit.
 
 > 📝 Les étapes 10 (intestin grêle) et 11 (gros intestin) se jouent dans le SENS INVERSE du geste habituel — variante d'animation à créer.
 
@@ -512,6 +540,31 @@ Un protocole tout en douceur pour accompagner bébé dans les moments d'oppositi
 10. **la vessie** — On pose un appui doux sur la vessie, pour finir d'apaiser.
 
 > 📝 À FAIRE PLUS TARD : proposer un choix multiple — opposition/frustration envers papa ? envers maman ? (adapter éventuellement l'accompagnement)
+
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
+
+_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+
+---
+
+
+## Jalousie, fratrie
+
+
+La venue d'un autre bébé dans la famille peut réveiller un sentiment de jalousie et des difficultés à accepter sa place dans la fratrie. Un moment tout doux pour l'aider à se sentir aimé et rassuré.
+
+
+*On accueille sa jalousie sans la juger : elle dit son besoin d'être vu et rassuré à sa juste place.*
+
+
+**Séquence :**
+
+1. **la colonne vertébrale** — On détend d'abord tout l'axe du dos : le calme part de là.
+2. **le point coronal** — On pose un appui doux au sommet de la tête : rassembler, apaiser.
+3. **la thyroïde** — On accompagne le rythme du corps, on aide à relâcher la tension.
+4. **l'estomac** — On apaise le haut du ventre, là où les émotions se nouent.
+5. **les reins** — On soutient les reins, l'énergie profonde et l'ancrage.
+6. **le bassin** — On termine par le bassin, en spirale lente : ancrer, refermer le soin.
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 

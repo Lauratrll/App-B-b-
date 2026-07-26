@@ -5,11 +5,10 @@
 
 ---
 
-La Réflexologie plantaire, inspirée de la médecine traditionnelle chinoise, est un temps de douceur partagé avec ton bébé, à travers ses pieds. Par des pressions lentes sur des zones et des points reflexes de la plante du pied, tu stimules certains organes et émotions, tu l'accompagnes vers l'apaisement et le retour au calme.
-
-Ce n'est pas un soin : c'est un moment de lien, un langage tendre entre vous, un geste qui rassure et accompagne son bien-être.
-
-À chaque situation du quotidien — sommeil agité, coliques, poussées dentaires… — correspond un protocole : une suite de pressions simples, illustrées et animées, que tu reproduis à ton rythme. Tout commence toujours par un temps d'installation : parler à ton bébé, réchauffer ses pieds entre tes mains, une noisette d'huile végétale douce.
+"La Réflexologie plantaire est un temps de douceur partagé avec ton bébé, à travers ses pieds.", 
+"Son principe : Selon la médecine traditionnelle chinoise, la plante du pied est comme une petite carte du corps — à chaque zone correspond un organe, nous appelons ça des zones reflexes. Par des pressions lentes sur des zones reflexes de la plante du pied, tu stimules les organes, les énergies et les émotions associés. Tu l'accompagnes vers l'apaisement et le retour au calme. C'est une pratique naturelle de bien-être, bien connue dans de nombreuses cultures — rien de médical, rien de magique.",
+    "Les pieds des tout-petits sont minuscules mais très riches en terminaisons nerveuses : la plupart des bébés adorent qu'on s'en occupe, ce qui en fait une belle porte d'entrée vers la détente et vers le lien.",
+"À chaque situation du quotidien — sommeil agité, coliques, poussées dentaires… — correspond un protocole : une suite de pressions simples, illustrées et animées, que tu reproduis à ton rythme. Tout commence toujours par un temps d'installation : parler à ton bébé, réchauffer ses pieds entre tes mains, une noisette d'huile végétale adaptée."
 
 
 ## Quelques précautions

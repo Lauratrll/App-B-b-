@@ -9,6 +9,7 @@
     "separation",
     "coliques",
     "inconfort-digestif",
+    "frustration-motrice",
     "reflux",
     "dents",
     "constipation",
@@ -19,6 +20,7 @@
     "agitation-concentration",
     "anxiete-nervosite",
     "opposition-frustration",
+    "jalousie-fratrie",
     "enuresie"
   ],
   "reportes": [
@@ -102,6 +104,15 @@
       "titre": "Inconfort digestif",
       "fichier": "protocole-inconfort-digestif.json",
       "nb_etapes": 8,
+      "lancement": true,
+      "sujet_sensible": false,
+      "variante": false
+    },
+    {
+      "id": "frustration-motrice",
+      "titre": "Frustration motrice",
+      "fichier": "protocole-frustration-motrice.json",
+      "nb_etapes": 9,
       "lancement": true,
       "sujet_sensible": false,
       "variante": false
@@ -192,6 +203,15 @@
       "titre": "Opposition, frustration",
       "fichier": "protocole-opposition-frustration.json",
       "nb_etapes": 10,
+      "lancement": true,
+      "sujet_sensible": false,
+      "variante": false
+    },
+    {
+      "id": "jalousie-fratrie",
+      "titre": "Jalousie, fratrie",
+      "fichier": "protocole-jalousie-fratrie.json",
+      "nb_etapes": 6,
       "lancement": true,
       "sujet_sensible": false,
       "variante": false

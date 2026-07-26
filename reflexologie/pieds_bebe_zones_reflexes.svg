@@ -330,4 +330,16 @@
   <g id="zone-vessie-g">
     <circle cx="758.47" cy="556.38" r="19.01" fill="#ff896d" opacity=".9"/>
   </g>
+  <g id="zone-epaule-g">
+    <circle cx="1059.24" cy="357.88" r="19.01" fill="#71c5ff" opacity=".9"/>
+  </g>
+  <g id="zone-epaule-d">
+    <circle cx="204.28" cy="357.88" r="19.01" fill="#71c5ff" opacity=".9"/>
+  </g>
+  <g id="zone-hanche-d">
+    <circle cx="266.83" cy="603.05" r="19.01" fill="#92aaff" opacity=".9"/>
+  </g>
+  <g id="zone-hanche-g">
+    <circle cx="998.17" cy="603.05" r="19.01" fill="#92aaff" opacity=".9"/>
+  </g>
 </svg>

@@ -82,8 +82,17 @@ for (const [id, z] of Object.entries(COMPLEMENT)) {
 let nbZones = 0;
 let nbPts = 0;
 
+const longueur = (pts) => {
+  let l = 0;
+  for (let i = 1; i < pts.length; i++) {
+    l += Math.hypot(pts[i][0] - pts[i - 1][0], pts[i][1] - pts[i - 1][1]);
+  }
+  return l;
+};
+
 for (const z of ZONES) {
-  // ids : ["zone-<nom>-d", "zone-<nom>-g"] → on rattache le pied d/g.
+  // On garde les éléments SÉPARÉS (un élément = un orteil pour les zones
+  // multi-orteils). parPied[f] = liste de segments, chacun = liste de points.
   const parPied = { d: [], g: [] };
   let epMax = 0;
   for (const el of z.elements ?? []) {
@@ -92,23 +101,42 @@ for (const z of ZONES) {
       if (!seg || !Array.isArray(seg.pts)) continue;
       // pts = [[x, y, épaisseur_locale], …] : on GARDE l'épaisseur (le doigt
       // épouse la largeur du trait, consignes §6).
-      for (const p of seg.pts) {
-        parPied[f].push([p[0], p[1], typeof p[2] === "number" ? p[2] : 0]);
-      }
+      parPied[f].push(seg.pts.map((p) => [p[0], p[1], typeof p[2] === "number" ? p[2] : 0]));
       if (typeof seg.ep_max === "number") epMax = Math.max(epMax, seg.ep_max);
     }
   }
+  const multi = (z.elements?.length ?? 0) > 1;
+  epMax = Math.round(epMax * 10) / 10;
   for (const id of z.ids ?? []) {
     const f = id.endsWith("-d") ? "d" : id.endsWith("-g") ? "g" : null;
     if (!f || parPied[f].length === 0) continue;
-    sortie[id] = {
-      pts: parPied[f],
-      epMax: Math.round(epMax * 10) / 10,
-      passages: z.passages ?? 3,
-      enchaine: z.enchaine === true,
-    };
+    const segments = parPied[f];
+    if (multi) {
+      // Zones MULTI-ORTEILS (dents, amygdales, nez-oreilles) : orteil par orteil.
+      // Chaque segment est un sous-tracé « M … L … » : le doigt saute d'un orteil
+      // au suivant SANS trait parasite entre eux (consignes §6).
+      const d = segments
+        .map((seg) => "M " + seg.map((p) => `${p[0]} ${p[1]}`).join(" L "))
+        .join(" ");
+      const totalLen = segments.reduce((s, seg) => s + longueur(seg), 0);
+      sortie[id] = {
+        d,
+        brush: Math.round(Math.max(epMax * 1.6, 18) * 10) / 10,
+        passages: z.passages ?? 2,
+        duree: Math.round(Math.max(2000, Math.min(8000, totalLen / 0.065))),
+        traineeOp: 0.75,
+      };
+    } else {
+      // Zone à un seul élément : médiane continue (avec épaisseur locale).
+      sortie[id] = {
+        pts: segments[0],
+        epMax,
+        passages: z.passages ?? 3,
+        enchaine: z.enchaine === true,
+      };
+      nbPts += segments[0].length;
+    }
     nbZones++;
-    nbPts += parPied[f].length;
   }
 }
 
