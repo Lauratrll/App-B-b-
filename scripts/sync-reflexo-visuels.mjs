@@ -43,9 +43,10 @@ if (existsSync(join(REFLEXO, SVG))) {
   console.warn(`⚠️  ${SVG} introuvable — le lecteur animé n'aura pas l'illustration.`);
 }
 
-// Géométrie validée des mouvements (médianes du glissé), chargée par le lecteur.
-const GEOM = "mouvements-glisse.json";
-if (existsSync(join(REFLEXO, GEOM))) {
-  copyFileSync(join(REFLEXO, GEOM), join(DEST_REFLEXO, GEOM));
-  console.log(`✓ ${GEOM} copié vers public/reflexologie/`);
+// Géométrie validée des mouvements, chargée par le lecteur animé.
+for (const GEOM of ["mouvements-glisse.json", "mouvements-trace.json"]) {
+  if (existsSync(join(REFLEXO, GEOM))) {
+    copyFileSync(join(REFLEXO, GEOM), join(DEST_REFLEXO, GEOM));
+    console.log(`✓ ${GEOM} copié vers public/reflexologie/`);
+  }
 }

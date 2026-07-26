@@ -23,6 +23,7 @@ import type { ReflexoAnimStep } from "@/lib/reflexologie";
 
 const SVG_URL = "/reflexologie/pieds_bebe_zones_reflexes.svg";
 const GEOM_URL = "/reflexologie/mouvements-glisse.json";
+const GEOM_TRACE_URL = "/reflexologie/mouvements-trace.json";
 const NS = "http://www.w3.org/2000/svg";
 // Glissé — vitesse constante (px/ms) et bornes de durée, réglages du prototype.
 const GLISSE_VITESSE = 0.105;
@@ -97,8 +98,14 @@ type CibleInfo = {
 
 // Médiane validée d'une zone (le trait que suit le doigt), extraite des
 // prototypes → reflexologie/mouvements-glisse.json.
-// pts = [x, y, épaisseur_locale] (la demi-largeur du trait à ce point).
-type Midline = { pts: number[][]; epMax: number; passages: number; enchaine?: boolean };
+// Géométrie d'une zone, deux formes :
+//  - glissé : médiane échantillonnée (pts = [x, y, épaisseur_locale]) + epMax.
+//  - tracé  : chemin baké brut `d` (spirale, boucles, circulaire, composite)
+//             suivi via getPointAtLength, avec sa largeur de brosse et sa durée.
+type GeomGlisse = { pts: number[][]; epMax: number; passages: number; enchaine?: boolean };
+type GeomTrace = { d: string; brush: number; passages: number; duree: number; traineeOp: number };
+type Geom = GeomGlisse | GeomTrace;
+const estTrace = (g: Geom): g is GeomTrace => "d" in g;
 
 // Position + épaisseur locale sur une polyligne à l'abscisse curviligne k∈[0,1].
 function pointSurMediane(m: PreparedMidline, k: number): { x: number; y: number; ep: number } {
@@ -156,11 +163,16 @@ type Anim =
       doigt: SVGCircleElement;
       trainee: SVGPathElement;
       trLen: number;
-      med: PreparedMidline;
+      /** Médiane (glissé) pour la position + l'épaisseur locale ; null pour un tracé baké. */
+      med: PreparedMidline | null;
       durAct: number;
       passages: number;
-      /** Épaisseur max de la zone (plancher du rayon du doigt). */
+      /** Épaisseur max de la zone (plancher du rayon du doigt, glissé). */
       epMax: number;
+      /** Rayon fixe du doigt pour les tracés bakés (spirale, boucles, …). */
+      fingerR: number;
+      /** Opacité de la traînée (0.60 circulaire, 0.75 ailleurs). */
+      trOp: number;
       /** Décalage de départ (ms) : les zones enchaînées démarrent l'une après l'autre. */
       offset: number;
       /** Durée du mouvement complet de cette zone (hors GLISSE_T_FIN). */
@@ -183,7 +195,7 @@ export function ReflexoLecteur({
   const gUnderRef = useRef<SVGGElement | null>(null);
   const gOverRef = useRef<SVGGElement | null>(null);
   const infoRef = useRef<Map<string, CibleInfo>>(new Map());
-  const geomRef = useRef<Record<string, Midline>>({});
+  const geomRef = useRef<Record<string, Geom>>({});
   const defsRef = useRef<SVGDefsElement | null>(null);
   const animsRef = useRef<Anim[]>([]);
   const stepDurRef = useRef<number>(PASS_DUR * 2);
@@ -257,17 +269,15 @@ export function ReflexoLecteur({
     return { el, fill: couleur(el.querySelector("*") ?? el), points, path, len };
   }, []);
 
-  // Géométrie validée du glissé (médianes) — chargée une fois.
+  // Géométrie validée des mouvements (glissé + tracés) — chargée une fois.
   useEffect(() => {
     let cancelled = false;
-    fetch(GEOM_URL)
-      .then((r) => (r.ok ? r.json() : {}))
-      .then((g) => {
-        if (!cancelled) geomRef.current = g as Record<string, Midline>;
-      })
-      .catch(() => {
-        /* pas de géométrie : les zones tracé se colorient simplement */
-      });
+    Promise.all([
+      fetch(GEOM_URL).then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
+      fetch(GEOM_TRACE_URL).then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
+    ]).then(([glisse, trace]) => {
+      if (!cancelled) geomRef.current = { ...glisse, ...trace } as Record<string, Geom>;
+    });
     return () => {
       cancelled = true;
     };
@@ -390,15 +400,42 @@ export function ReflexoLecteur({
           }
           const nbCycles = ci.points.length > 1 ? CYCLES_MULTI : CYCLES_SIMPLE;
           anims.push({ kind: "points", groupe: ci, pts, nbCycles });
-        } else if (geom && geom.pts.length > 1 && defs && !reducedMotion) {
-          // PRESSION GLISSÉE : le doigt suit la MÉDIANE validée ; une traînée
-          // clippée sur la zone se dévoile à son passage (coloriage), s'efface
-          // entre passages, fige à la fin. Réglages du prototype.
-          const med = preparerMediane(geom.pts);
-          const durAct = Math.max(
-            GLISSE_T_MIN,
-            Math.min(GLISSE_T_MAX, med.total / GLISSE_VITESSE),
-          );
+        } else if (geom && defs && !reducedMotion) {
+          // MOUVEMENT « TRACÉ » : le doigt suit une trajectoire validée ; une
+          // traînée large clippée sur la zone se dévoile à son passage, s'efface
+          // entre passages, fige à la fin. Deux sources de trajectoire :
+          //  - glissé : médiane échantillonnée (+ épaisseur locale du doigt) ;
+          //  - spirale/boucles/circulaire/composite : chemin baké brut `d`.
+          let med: PreparedMidline | null = null;
+          let traineeD: string;
+          let brush: number;
+          let durAct: number;
+          let trOp: number;
+          let epMax = 0;
+          let fingerR = 0;
+          let passages: number;
+          let enchaine = false;
+          if (estTrace(geom)) {
+            traineeD = geom.d;
+            brush = geom.brush;
+            durAct = geom.duree;
+            trOp = geom.traineeOp;
+            fingerR = Math.max(10, brush * 0.42);
+            passages = geom.passages || 3;
+          } else {
+            if (geom.pts.length <= 1) {
+              anims.push({ kind: "reveal", groupe: ci });
+              continue;
+            }
+            med = preparerMediane(geom.pts);
+            traineeD = "M " + med.pts.map((p) => `${p[0]} ${p[1]}`).join(" L ");
+            epMax = geom.epMax;
+            brush = Math.max(epMax * 1.5, 22);
+            durAct = Math.max(GLISSE_T_MIN, Math.min(GLISSE_T_MAX, med.total / GLISSE_VITESSE));
+            trOp = OP_TRAINEE;
+            passages = geom.passages || 3;
+            enchaine = geom.enchaine === true;
+          }
           // Clip = la forme exacte de la zone (aucun débordement).
           const clip = document.createElementNS(NS, "clipPath");
           const clipId = `rfxclip-${id}`;
@@ -409,13 +446,12 @@ export function ReflexoLecteur({
             clip.appendChild(cp);
           });
           defs.appendChild(clip);
-          // Traînée = trait large le long de la médiane, clippé sur la zone.
-          const d = "M " + med.pts.map((p) => `${p[0]} ${p[1]}`).join(" L ");
+          // Traînée large, clippée sur la zone.
           const trainee = document.createElementNS(NS, "path");
-          trainee.setAttribute("d", d);
+          trainee.setAttribute("d", traineeD);
           trainee.setAttribute("fill", "none");
           trainee.setAttribute("stroke", ci.fill);
-          trainee.setAttribute("stroke-width", String(Math.max(geom.epMax * 1.5, 22)));
+          trainee.setAttribute("stroke-width", String(brush));
           trainee.setAttribute("stroke-linecap", "round");
           trainee.setAttribute("stroke-linejoin", "round");
           trainee.setAttribute("clip-path", `url(#${clipId})`);
@@ -424,20 +460,19 @@ export function ReflexoLecteur({
           const trLen = trainee.getTotalLength();
           trainee.style.strokeDasharray = String(trLen);
           trainee.style.strokeDashoffset = String(trLen);
-          // Doigt (au-dessus de la traînée) : rayon = largeur locale du trait.
+          // Doigt (au-dessus de la traînée).
           const doigt = document.createElementNS(NS, "circle");
-          const p0 = pointSurMediane(med, 0);
+          const p0 = med ? pointSurMediane(med, 0) : trainee.getPointAtLength(0);
           doigt.setAttribute("cx", String(p0.x));
           doigt.setAttribute("cy", String(p0.y));
-          doigt.setAttribute("r", String(rayonDoigt(p0.ep, geom.epMax)));
+          doigt.setAttribute("r", String(med ? rayonDoigt((p0 as { ep: number }).ep, epMax) : fingerR));
           doigt.setAttribute("fill", ci.fill);
           doigt.setAttribute("opacity", "0");
           gOver.appendChild(doigt);
-          const passages = geom.passages || 3;
           const total = (passages - 1) * (durAct + GLISSE_T_EFFACE) + durAct;
-          // Enchaînement : cette zone démarre après les précédentes du groupe.
-          const offset = geom.enchaine ? enchaineOffset : 0;
-          if (geom.enchaine) enchaineOffset += total;
+          // Enchaînement (gros intestin) : démarre après les précédentes du groupe.
+          const offset = enchaine ? enchaineOffset : 0;
+          if (enchaine) enchaineOffset += total;
           anims.push({
             kind: "glisse",
             groupe: ci,
@@ -447,13 +482,14 @@ export function ReflexoLecteur({
             med,
             durAct,
             passages,
-            epMax: geom.epMax,
+            epMax,
+            fingerR,
+            trOp,
             offset,
             total,
           });
         } else {
-          // Mouvement dont la géométrie n'est pas encore branchée (circulaire,
-          // spirale, boucles, composite) : coloriage progressif, sans doigt.
+          // Aucune géométrie (ne devrait plus arriver) : coloriage progressif.
           anims.push({ kind: "reveal", groupe: ci });
         }
       }
@@ -563,27 +599,35 @@ export function ReflexoLecteur({
           // GLISSE : le doigt avance, la traînée se dévoile à sa suite.
           const k = t / durAct;
           const actif = k > 0.004 && k < 0.999; // anti-artefact : rien au tout début/fin
-          const pt = pointSurMediane(a.med, k);
-          a.doigt.setAttribute("cx", String(pt.x));
-          a.doigt.setAttribute("cy", String(pt.y));
-          a.doigt.setAttribute("r", String(rayonDoigt(pt.ep, a.epMax))); // épouse le trait
+          // Position + rayon : médiane (avec épaisseur locale) ou tracé baké.
+          if (a.med) {
+            const pt = pointSurMediane(a.med, k);
+            a.doigt.setAttribute("cx", String(pt.x));
+            a.doigt.setAttribute("cy", String(pt.y));
+            a.doigt.setAttribute("r", String(rayonDoigt(pt.ep, a.epMax))); // épouse le trait
+          } else {
+            const pt = a.trainee.getPointAtLength(trLen * k);
+            a.doigt.setAttribute("cx", String(pt.x));
+            a.doigt.setAttribute("cy", String(pt.y));
+            a.doigt.setAttribute("r", String(a.fingerR));
+          }
           a.doigt.setAttribute("opacity", actif ? "1" : "0");
           a.trainee.style.strokeDashoffset = String(trLen * (1 - k));
           if (dernier && k > GLISSE_SEUIL_FIN) {
             // Fin : la zone monte vers OP_FIN, la traînée se résorbe (fondu croisé).
             const v = (k - GLISSE_SEUIL_FIN) / (1 - GLISSE_SEUIL_FIN);
             a.groupe.el.style.opacity = String(OP_REPOS + (OP_FIN - OP_REPOS) * v);
-            a.trainee.setAttribute("opacity", String(OP_TRAINEE * (1 - v)));
+            a.trainee.setAttribute("opacity", String(a.trOp * (1 - v)));
           } else {
             a.groupe.el.style.opacity = String(OP_REPOS);
             // Traînée cachée tant que le geste n'a rien dévoilé (disque fantôme).
-            a.trainee.setAttribute("opacity", k > 0.004 ? String(OP_TRAINEE) : "0");
+            a.trainee.setAttribute("opacity", k > 0.004 ? String(a.trOp) : "0");
           }
         } else {
           // EFFACEMENT de la traînée avant le passage suivant (forme au repos).
           const e = Math.min((t - durAct) / GLISSE_T_EFFACE, 1);
           a.doigt.setAttribute("opacity", "0");
-          a.trainee.setAttribute("opacity", String(OP_TRAINEE * (1 - e)));
+          a.trainee.setAttribute("opacity", String(a.trOp * (1 - e)));
           a.groupe.el.style.opacity = String(OP_REPOS);
         }
       } else {
