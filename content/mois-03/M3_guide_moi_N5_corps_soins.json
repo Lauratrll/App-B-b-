@@ -1,0 +1,242 @@
+{
+  "mois": 3,
+  "tranche_age": "3 mois",
+  "categorie": {
+    "id": "corps",
+    "nom": "Corps & soins",
+    "sous_titre": "Mains, bave, peau, tonus",
+    "icone": "🌿"
+  },
+  "protocoles": [
+    {
+      "categorie": "corps",
+      "situation": "Il découvre ses mains / et les fixe pendant dix minutes",
+      "titre": "La découverte des mains / ne pas interrompre",
+      "explication": "Ton bébé fixe ses mains, les ouvre, les referme, les porte à sa bouche, recommence — pendant de longues minutes. C'est l'une des grandes découvertes de cet âge : il comprend que ces objets qui passent devant ses yeux lui appartiennent et obéissent à sa volonté. C'est le début de la conscience de son corps, et le socle de toute la motricité à venir. Cela ressemble à de l'ennui vu de l'extérieur. C'est en réalité un travail intense — et l'interrompre pour proposer un jouet plus « stimulant » est le pire service à lui rendre.",
+      "ancrage": "Ce qui ressemble à de l'inactivité est un travail considérable. Ton rôle ici est de ne rien faire — et de le protéger de ceux qui voudraient l'occuper.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — protéger le temps d'exploration",
+        "etapes": [
+          "Ne pas interrompre : ni jouet proposé, ni parole, ni sollicitation.",
+          "L'installer au sol : sur un tapis ferme, sur le dos, les mains libres.",
+          "Retirer les entraves : ni moufles, ni manches trop longues, ni arche qui capte le regard.",
+          "Rester à proximité, en silence : disponible, sans intervenir.",
+          "Le laisser porter ses mains à la bouche : c'est ainsi qu'il les explore — mains propres, c'est tout."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — nourrir l'exploration",
+        "etapes": [
+          "Un tapis ferme au sol : sans coussin, sans arche ni mobile qui fixent l'attention.",
+          "Varier les positions d'éveil : sur le dos, sur le côté, sur le ventre — éveillé et surveillé.",
+          "Approcher tes mains des siennes : sans les prendre, sans guider — le laisser attraper.",
+          "Un temps sans écran : ni le sien, ni le tien — sa concentration est fragile.",
+          "S'arrêter s'il détourne : quand il se lasse, il le montre."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Résister à la tentation de stimuler : à cet âge, l'auto-exploration vaut mieux que n'importe quel jouet d'éveil.",
+        "Limiter transat et coque : ils immobilisent le corps et empêchent l'exploration libre.",
+        "Expliquer à l'entourage : « il travaille » — pour éviter les sollicitations bien intentionnées.",
+        "Se rappeler la fourchette : cette étape arrive quand elle arrive, chaque enfant à son rythme."
+      ],
+      "principe": "L'auto-exploration est du travail, pas de l'ennui. La motricité se construit dans le mouvement libre et le temps non interrompu — pas dans la stimulation.",
+      "erreurs_a_eviter": [
+        "Interrompre pour proposer un jouet « plus stimulant ».",
+        "Mettre des moufles à un bébé qui découvre ses mains — sauf raison médicale.",
+        "Installer une arche ou un mobile qui fixe son regard et l'empêche d'explorer.",
+        "Le laisser de longues heures en transat, mains inaccessibles."
+      ],
+      "consulter_si": "Consulter si : bébé ne regarde jamais ses mains vers quatre mois, ne les porte pas à la bouche, ne suit pas un objet du regard, paraît anormalement mou ou raide, ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre ou PMI, qui orientera si nécessaire.",
+      "source": "Source : Haute Autorité de Santé — « Prévenir la tête plate : conseils aux parents » et prévention des déformations crâniennes positionnelles."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Il bave énormément / est-ce déjà les dents ?",
+      "titre": "La bave / ce n'est pas encore les dents",
+      "explication": "Vers trois mois, ton bébé bave abondamment, mouille ses vêtements, porte tout à sa bouche. Le réflexe est de conclure aux dents — et c'est presque toujours faux. À cet âge, les glandes salivaires deviennent plus actives alors que bébé ne sait pas encore avaler sa salive : c'est cela qui produit la bave. La première dent apparaît en moyenne vers six mois, avec une fourchette très large — certains enfants à trois mois, d'autres à dix-huit. Conclure trop tôt aux dents conduit à attribuer aux dents des pleurs, des nuits et des fièvres qui ont une autre cause.",
+      "ancrage": "Baver à trois mois est une étape de maturation, pas un signe de dents. Attribuer trop vite un symptôme aux dents fait passer à côté d'autre chose.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — gérer la bave",
+        "etapes": [
+          "Changer les vêtements humides : un bavoir en coton, changé souvent, protège la peau.",
+          "Sécher le menton et le cou : tamponner, sans frotter, plusieurs fois par jour.",
+          "Protéger la peau : une crème émolliente simple sur le menton s'il rougit.",
+          "Vérifier les plis du cou : la salive s'y accumule et provoque des rougeurs.",
+          "Ne rien mettre dans sa bouche : ni gel, ni produit — aucun n'est justifié à cet âge."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — soulager la peau",
+        "etapes": [
+          "Nettoyer à l'eau tiède : sans savon, plusieurs fois par jour, sur le menton et le cou.",
+          "Sécher en tamponnant : particulièrement dans les plis.",
+          "Laisser respirer : quelques minutes sans bavoir, à l'air libre.",
+          "Le laisser porter ses mains à la bouche : mains propres — c'est de l'exploration, pas un symptôme.",
+          "S'arrêter s'il s'agite : le soin doit rester rapide et doux."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir les repères d'âge : la première dent apparaît en moyenne vers six mois, avec une fourchette très large.",
+        "Ne jamais utiliser de gel anesthésiant : les gels à la lidocaïne sont contre-indiqués avant deux ans.",
+        "Ne jamais utiliser de collier d'ambre : risque d'étouffement et de strangulation, sans aucune efficacité démontrée.",
+        "Ne pas attribuer la fièvre aux dents : une fièvre a toujours une autre cause à rechercher — surtout avant trois mois."
+      ],
+      "principe": "La bave de trois mois est une étape de maturation salivaire, pas l'annonce d'une dent. Et une fièvre ne s'explique jamais par les dents : elle se fait examiner.",
+      "erreurs_a_eviter": [
+        "Utiliser un collier d'ambre — risque d'étouffement et de strangulation.",
+        "Appliquer un gel anesthésiant sur les gencives — contre-indiqué avant deux ans.",
+        "Attribuer une fièvre, une diarrhée ou des pleurs intenses aux dents.",
+        "Donner un médicament sans avis médical."
+      ],
+      "consulter_si": "Consulter si : bébé a de la fièvre — surtout avant trois mois, où toute fièvre impose un appel immédiat au 15 —, s'il refuse de boire, s'il présente des plaques blanches dans la bouche, une salivation soudaine avec difficulté à avaler ou à respirer, ou une éruption qui s'étend → pédiatre sans délai ; le 15 en cas de difficulté à respirer ou de fièvre avant trois mois.",
+      "source": "Source : ameli.fr (Assurance Maladie) — poussées dentaires : symptômes, repères d'âge et quand consulter."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Croûtes de lait tenaces / elles reviennent malgré les soins",
+      "titre": "Les croûtes de lait tenaces / reprendre sans décaper",
+      "explication": "Les croûtes reviennent, plus épaisses, malgré la routine. C'est fréquent et cela ne signifie pas que tu fais mal : la production de sébum du cuir chevelu se poursuit, et les plaques se reforment tant qu'elle dure. Cela disparaît de soi-même, souvent au cours des premiers mois. La tentation, à ce stade, est de passer à l'offensive : décaper, gratter, multiplier les produits. C'est exactement ce qui abîme la peau et ouvre la porte à une infection. La bonne réponse est la même que la première fois, avec plus de patience : assouplir, laver doucement, brosser, recommencer.",
+      "ancrage": "Leur retour n'est pas un échec de ta routine. C'est une production de sébum qui continue — et elle s'arrêtera d'elle-même.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — reprendre la routine",
+        "etapes": [
+          "Assouplir avant le bain : une préparation à base de vaseline ou une crème prévue pour cela, en couche fine.",
+          "Laisser agir : quelques heures, ou une nuit, sans frotter.",
+          "Laver au shampoing doux : deux à trois fois par semaine, du bout des doigts, sans appuyer.",
+          "Rincer abondamment : les résidus de produit entretiennent les plaques.",
+          "Brosser en douceur : une brosse à poils souples, chaque jour, pour décoller ce qui vient seul."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — le soin du cuir chevelu",
+        "etapes": [
+          "Bébé calme : après la tétée, dans une pièce chaude.",
+          "Toucher léger du cuir chevelu : du bout des doigts, en cercles très lents, pression douce et constante.",
+          "Ne jamais gratter : ce qui ne se détache pas seul reste en place.",
+          "Voix et contact : lui parler pendant le soin, en faire un temps de lien.",
+          "S'arrêter s'il s'agite : le soin doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Éviter l'huile d'amande douce : elle peut sensibiliser bébé et favoriser une allergie à l'amande.",
+        "Se méfier des huiles essentielles : contre-indiquées chez le nourrisson, y compris en diffusion.",
+        "Limiter les produits : plus la liste d'ingrédients est courte, mieux la peau se porte.",
+        "Accepter la durée : cela peut prendre plusieurs mois, sans aucune conséquence."
+      ],
+      "principe": "Le retour des croûtes n'est pas un échec de soin : c'est le sébum qui continue. On assouplit, on lave, on brosse, on recommence — sans chercher à décaper.",
+      "erreurs_a_eviter": [
+        "Gratter ou décoller les croûtes avec les ongles ou un peigne fin — cela blesse la peau.",
+        "Utiliser de l'huile d'amande douce — risque de sensibilisation allergique.",
+        "Multiplier les shampoings et produits « spécial croûtes ».",
+        "Appliquer un traitement médicamenteux sur le cuir chevelu sans avis médical."
+      ],
+      "consulter_si": "Consulter si : les plaques s'étendent au visage ou au corps, si la peau devient rouge, suintante, malodorante ou saigne, si bébé se gratte et paraît gêné, si des zones sans cheveux apparaissent, ou s'il présente de la fièvre → pédiatre, sage-femme ou PMI.",
+      "source": "Source : ameli.fr (Assurance Maladie) — croûtes de lait du nourrisson : que faire et quand consulter."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Rougeurs du siège qui ne partent pas / malgré les soins",
+      "titre": "Les rougeurs qui résistent / quand la routine ne suffit plus",
+      "explication": "Tu changes souvent, tu sèches, tu aères, tu protèges — et la rougeur reste, ou revient. Une rougeur banale s'améliore en trois à quatre jours avec une bonne routine. Passé ce délai, ou si elle s'étend, si elle suinte, si elle prend un aspect différent, ce n'est plus une simple irritation, et cela demande un avis. Le piège classique consiste à appliquer une crème trouvée dans l'armoire à pharmacie — antifongique, corticoïde, antibiotique. Traiter au hasard une lésion qu'on n'a pas identifiée aggrave souvent les choses.",
+      "ancrage": "Une routine bien tenue règle la plupart des rougeurs. Quand elle ne suffit pas, ce n'est pas qu'elle est mal faite : c'est que ce n'est plus une simple irritation.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — reprendre la routine à fond",
+        "etapes": [
+          "Changer très souvent : à chaque selle et dès que la couche est mouillée.",
+          "Nettoyer à l'eau : eau tiède, savon doux, sans frotter — et sans lingettes parfumées.",
+          "Sécher soigneusement : tamponner, sans oublier les plis.",
+          "Aérer largement : plusieurs minutes fesses à l'air à chaque change, sur une serviette.",
+          "Protéger : une couche fine de crème protectrice sans parfum sur la zone rouge."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — le change comme temps de lien",
+        "etapes": [
+          "Pièce chauffée : un bébé qui a froid se crispe et vit mal le change.",
+          "Gestes lents et annoncés : lui dire ce que tu fais avant de le soulever.",
+          "Soutenir les jambes : glisser une main sous son siège, jamais le soulever par les chevilles.",
+          "Contact et regard : profiter du change pour lui parler.",
+          "Terminer sans hâte : quelques instants à l'air libre avant de refermer."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Tester une autre couche : marque et capacité d'absorption changent parfois tout.",
+        "Ne jamais appliquer de crème médicamenteuse sans avis : antifongique, corticoïde ou antibiotique se décident avec un médecin.",
+        "Photographier la lésion : cela aide le professionnel si l'aspect change entre-temps.",
+        "Vérifier les selles : une diarrhée irrite très vite la peau du siège."
+      ],
+      "principe": "Une rougeur qui résiste à une routine bien tenue n'est plus une simple irritation. Elle se montre — elle ne se traite pas au hasard avec ce qu'on a sous la main.",
+      "erreurs_a_eviter": [
+        "Appliquer une crème médicamenteuse trouvée dans l'armoire à pharmacie.",
+        "Frotter la peau irritée pour la nettoyer.",
+        "Utiliser des lingettes parfumées ou du talc sur une peau lésée.",
+        "Laisser une couche mouillée plusieurs heures parce qu'il dort."
+      ],
+      "consulter_si": "Consulter si : la rougeur persiste au-delà de trois à quatre jours malgré la routine, si elle s'étend, si la peau suinte, saigne, se couvre de vésicules, de pus ou de plaques bien délimitées, si bébé a de la fièvre, ou s'il paraît douloureux au change → pédiatre, sage-femme ou PMI.",
+      "source": "Source : ameli.fr (Assurance Maladie) — érythème fessier du nourrisson : les bons réflexes."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Il se cambre et s'arc-boute / un tonus qui surprend",
+      "titre": "Il se cambre et pousse / exploration ou inconfort ?",
+      "explication": "Ton bébé se cambre, pousse sur ses jambes, s'arc-boute dans tes bras. Vu de l'extérieur, cela peut inquiéter — ou faire croire à de la colère. Le plus souvent, c'est de l'exploration : il découvre sa force, teste ses appuis, expérimente ce que son corps peut faire. Cette tension-là s'accompagne d'un visage détendu ou concentré, et elle s'arrête quand il change de position. À distinguer d'une tension d'inconfort : celle-là s'accompagne de pleurs, survient pendant ou après les repas, et ne se relâche pas quand tu le poses.",
+      "ancrage": "Se cambrer n'est ni un caprice ni un symptôme en soi. Ce qui distingue l'exploration de l'inconfort, c'est ce qui l'accompagne — pas le mouvement lui-même.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — lire le mouvement",
+        "etapes": [
+          "Regarder son visage : détendu ou concentré, c'est de l'exploration ; crispé et pleurant, c'est autre chose.",
+          "Regarder le moment : pendant ou après les repas de façon répétée, cela mérite d'être noté.",
+          "Regarder ce qui l'arrête : s'il se détend en changeant de position, il explorait.",
+          "Le poser au sol : sur un tapis ferme, sur le dos, pour qu'il pousse librement et sans risque.",
+          "Le sécuriser dans les bras : soutenir sa nuque et son dos quand il s'arc-boute, sans le contraindre."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — l'exploration libre",
+        "etapes": [
+          "Un tapis ferme au sol : sans coussin, sans transat, sans entrave.",
+          "Le laisser pousser : sur le dos, sur le côté, sur le ventre éveillé et surveillé.",
+          "Laisser le mouvement libre : sans maintenir ni redresser de force.",
+          "Ta voix et ton visage : à trente centimètres, pour accompagner sans diriger.",
+          "S'arrêter s'il se crispe ou pleure : le mouvement doit rester un plaisir."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Noter des observations précises : à quel moment, à quelle fréquence, avec quels autres signes — c'est ce que le professionnel exploitera.",
+        "Ne rien conclure seul.e : ni reflux, ni douleur, ni trouble — ces hypothèses appartiennent au médecin.",
+        "Limiter transat et coque : ils empêchent l'exploration motrice libre.",
+        "Se rappeler que la fourchette est large : chaque enfant explore son corps à son rythme."
+      ],
+      "principe": "L'exploration se lit sur le visage et dans ce qui suit le mouvement. Un bébé qui se cambre et se détend explore ; un bébé qui se cambre et pleure se signale au professionnel.",
+      "erreurs_a_eviter": [
+        "Nommer une pathologie à partir de ce qu'on lit en ligne.",
+        "Maintenir ou redresser bébé de force pour l'empêcher de se cambrer.",
+        "Le mettre debout ou l'asseoir calé pour « canaliser » ce tonus — dangereux et contraire au développement libre.",
+        "Ignorer une cambrure systématique accompagnée de pleurs pendant les repas."
+      ],
+      "consulter_si": "Consulter si : bébé se cambre en pleurant de façon répétée pendant ou après les prises, s'il refuse de boire, ne prend pas de poids, s'il est raide en permanence ou anormalement mou, si tu observes une asymétrie entre les deux côtés du corps, ou des mouvements rythmés que tu ne peux pas arrêter en tenant le membre → pédiatre sans attendre ; le 15 en cas de mouvements anormaux avec perte de contact.",
+      "source": "Source : Haute Autorité de Santé — « Prévenir la tête plate : conseils aux parents » et prévention des déformations crâniennes positionnelles."
+    }
+  ]
+}

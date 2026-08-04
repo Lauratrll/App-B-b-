@@ -1,0 +1,196 @@
+{
+  "mois": 10,
+  "tranche_age": "10 mois",
+  "categorie": {
+    "id": "motricite",
+    "nom": "Motricité & exploration",
+    "sous_titre": "Équilibre, marche, chutes, trotteur",
+    "icone": "🤸"
+  },
+  "protocoles": [
+    {
+      "categorie": "motricite",
+      "situation": "Il longe les meubles et lâche une main / équilibre en construction",
+      "titre": "Il longe les meubles / l'équilibre se construit par le déséquilibre",
+      "explication": "Il se déplace le long du canapé, lâche une main, vacille, se rattrape. Ce moment est décisif : l'équilibre debout ne se construit pas en étant tenu, il se construit en se déséquilibrant et en se rattrapant. Tenir ses mains pour l'aider à marcher lui donne un équilibre qui n'est pas le sien — et le prive du travail intérieur qui le construira. Ce qui l'aide : un environnement où il peut se déséquilibrer sans danger, et des appuis à la bonne hauteur.",
+      "ancrage": "On n'apprend pas l'équilibre en étant tenu. Baisse les obstacles plutôt que de tenir ses mains.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — aménager les appuis",
+        "etapes": [
+          "Des appuis stables à sa hauteur : canapé, table basse lourde, meuble fixé — rien qui bascule.",
+          "Ne pas tenir ses mains : cela lui donne un équilibre qui n'est pas le sien.",
+          "Baisser les obstacles : dégager le sol, retirer ce qui roule ou glisse.",
+          "Un sol amortissant : un tapis dans la zone où il s'entraîne.",
+          "Pieds nus : les pieds nus donnent une bien meilleure information que des chaussures."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — l'éveil libre",
+        "etapes": [
+          "Beaucoup de temps au sol : c'est le seul « exercice » qui compte.",
+          "Placer un objet sur un meuble bas : pour donner envie de se lever et de longer.",
+          "Le laisser tomber : les chutes basses font partie de l'apprentissage.",
+          "Ta présence à sa hauteur : disponible, sans le soutenir.",
+          "S'arrêter s'il fatigue : la fatigue multiplie les chutes."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Éviter les chaussures rigides : elles n'ont aucune utilité avant la marche assurée à l'extérieur.",
+        "Ne jamais utiliser de trotteur : il n'accélère rien et présente des risques réels.",
+        "Fixer les meubles au mur : un meuble qui bascule peut tuer.",
+        "Sécuriser les escaliers : barrières en haut et en bas."
+      ],
+      "principe": "L'équilibre se construit par le déséquilibre, jamais en étant tenu. Ce qui aide, c'est un environnement où se rattraper est possible — pas une main qui soutient.",
+      "erreurs_a_eviter": [
+        "Tenir ses mains pour l'aider à marcher.",
+        "Utiliser un trotteur ou un youpala.",
+        "Le chausser avec des chaussures rigides à l'intérieur.",
+        "Laisser un meuble instable comme appui."
+      ],
+      "consulter_si": "Consulter si : bébé ne se déplace d'aucune façon vers douze mois, ne se met jamais debout, paraît anormalement mou ou raide, s'il perd une compétence acquise, ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre ou PMI, qui orientera si nécessaire vers un kinésithérapeute pédiatrique ou un psychomotricien.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'activité physique du tout-petit et les étapes du développement."
+    },
+    {
+      "categorie": "motricite",
+      "situation": "Toujours pas de marche à dix mois / la fourchette est large",
+      "titre": "Pas encore de marche / la fourchette est très large",
+      "explication": "Dix mois, et il ne marche pas. Certains bébés du même âge font déjà leurs premiers pas, et l'inquiétude s'installe. La fourchette normale de la marche est extrêmement large : elle s'étale entre dix et dix-huit mois environ, et un enfant qui marche à seize mois n'a aucun retard. Rien ne se stimule, rien ne s'entraîne : la marche vient quand le corps est prêt. Ce qui la prépare vraiment, c'est le temps passé libre au sol — pas les exercices, pas les mains tenues, et surtout pas un trotteur.",
+      "ancrage": "Marcher entre dix et dix-huit mois est normal. Rien ne se stimule — tout se laisse venir, au sol.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — laisser venir",
+        "etapes": [
+          "Du temps libre au sol : c'est le seul « exercice » qui compte.",
+          "Ne pas le faire marcher en le tenant : cela ne l'entraîne pas, cela le contraint.",
+          "Ne jamais utiliser de trotteur : il n'accélère rien.",
+          "Pieds nus à la maison : la sensation du sol guide l'équilibre.",
+          "Aménager des appuis stables : à sa hauteur, fixés, sans rien qui bascule."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — l'éveil libre",
+        "etapes": [
+          "Varier les surfaces : tapis, parquet, herbe — chacune informe différemment.",
+          "Placer des objets sur des meubles bas : pour donner envie de se lever.",
+          "Le laisser tomber et se relever : c'est le chemin.",
+          "Ta présence, sans soutien : à côté de lui, disponible.",
+          "S'arrêter s'il fatigue : quelques minutes suffisent."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir la fourchette : la marche arrive en général entre dix et dix-huit mois — un enfant qui marche tard n'a pas de retard.",
+        "Ne pas comparer : c'est la comparaison, pas le développement, qui crée l'inquiétude.",
+        "Poser tes questions en consultation : le suivi médical existe pour cela.",
+        "Se méfier des accessoires vendus comme des aides : trotteurs, chaussures rigides, harnais de marche."
+      ],
+      "principe": "La marche vient quand le corps est prêt : entre dix et dix-huit mois, la fourchette est très large. Rien ne s'accélère — le sol fait tout le travail.",
+      "erreurs_a_eviter": [
+        "Utiliser un trotteur ou un harnais de marche.",
+        "Tenir ses mains pour le faire marcher.",
+        "Le chausser rigidement à l'intérieur.",
+        "Comparer sa progression à celle d'un autre enfant."
+      ],
+      "consulter_si": "Consulter si : bébé ne se déplace d'aucune façon vers douze mois, ne se met jamais debout vers douze mois, ne marche pas du tout vers dix-huit mois, paraît anormalement mou ou raide, s'il perd une compétence acquise, ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre ou PMI, qui orientera si nécessaire.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'activité physique du tout-petit et les étapes du développement."
+    },
+    {
+      "categorie": "motricite",
+      "situation": "Chutes à répétition en se levant / protéger sans freiner",
+      "titre": "Les chutes à répétition / sécuriser le sol",
+      "explication": "Il tombe dix fois par heure. Chaque chute te fait sursauter, et tu passes tes journées en alerte. Les chutes basses font partie de l'apprentissage : c'est en tombant qu'il apprend à se rattraper, à amortir, à anticiper. Le retenir en permanence l'en empêche. Ce qui change tout, c'est de sécuriser l'environnement une fois pour toutes : angles protégés, sol amortissant, meubles fixés, rien de dur à portée. Une chute sur un tapis, sans obstacle, ne demande aucune intervention — et elle t'épargne une alerte permanente.",
+      "ancrage": "Ce n'est pas son corps qu'on protège, c'est le sol. Une chute sans obstacle est un apprentissage — pas une alerte.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — sécuriser une fois",
+        "etapes": [
+          "Un sol amortissant : tapis dans les zones où il s'entraîne.",
+          "Protéger les angles : tables basses, meubles, rebords — coins protégés.",
+          "Fixer les meubles au mur : commodes, étagères, téléviseurs.",
+          "Dégager le sol : rien de dur, rien qui roule, rien qui glisse.",
+          "Barrières d'escalier : en haut et en bas, systématiquement."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — réagir aux chutes",
+        "etapes": [
+          "Réagir calmement : ta panique amplifie sa peur bien plus que le choc.",
+          "Vérifier rapidement : où il s'est cogné, la hauteur, son état.",
+          "Nommer sans dramatiser : « tu es tombé, tu t'es fait peur ».",
+          "Le laisser repartir : une fois consolé, sans le surprotéger.",
+          "S'arrêter s'il fatigue : la fatigue multiplie les chutes."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir les signes d'alerte d'un choc à la tête : ils justifient un appel immédiat.",
+        "Ne pas le retenir en permanence : un enfant soutenu n'apprend pas à se rattraper.",
+        "Sécuriser les fenêtres : entrebâilleurs, aucun meuble sous une fenêtre.",
+        "Se rappeler que les chutes basses sont le chemin de l'équilibre."
+      ],
+      "principe": "Les chutes basses construisent l'équilibre. Ce qui se sécurise, c'est l'environnement — et cela t'épargne une vigilance permanente.",
+      "erreurs_a_eviter": [
+        "Retenir bébé en permanence.",
+        "Laisser un meuble non fixé au mur.",
+        "Paniquer à chaque chute.",
+        "Utiliser un trotteur pour éviter les chutes — il les multiplie et les aggrave."
+      ],
+      "consulter_si": "Consulter si : après un choc à la tête, bébé perd connaissance même brièvement, vomit, devient anormalement somnolent ou difficile à réveiller, pleure de façon inconsolable, présente une pâleur, une bosse importante, un saignement, ou un membre qu'il ne mobilise plus → appeler le 15 sans attendre. En cas de chute d'une hauteur ou dans un escalier : urgence immédiate.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — éviter les accidents domestiques des enfants."
+    },
+    {
+      "categorie": "motricite",
+      "situation": "On me presse d'acheter un trotteur / que répondre",
+      "titre": "Le trotteur / ce qu'on peut répondre",
+      "explication": "« Achète-lui un trotteur, il marchera plus vite. » C'est faux, et cela vaut la peine de le savoir pour pouvoir répondre. Un trotteur n'accélère pas la marche — il place l'enfant dans une position qu'il n'a pas acquise, avec un équilibre artificiel qui ne l'entraîne à rien. Et il représente une part importante des accidents liés aux produits de puériculture, avec des chutes qui peuvent être graves, notamment dans les escaliers. Le meilleur terrain d'entraînement reste, de loin, le sol libre.",
+      "ancrage": "Un trotteur n'apprend pas à marcher : il donne un équilibre artificiel, et il expose à des chutes graves. Le sol libre fait tout le travail.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — la réponse",
+        "etapes": [
+          "Une phrase prête : « le trotteur ne fait pas marcher plus tôt, et on préfère le laisser au sol ».",
+          "Ne pas argumenter : une phrase, un sourire, et on passe à autre chose.",
+          "Proposer une alternative : un chariot de marche lesté et stable, qu'il pousse debout — quand il se met debout seul.",
+          "Sécuriser le sol : c'est le vrai investissement de ce mois.",
+          "Sécuriser les escaliers : barrières en haut et en bas — c'est là que les accidents de trotteur sont les plus graves."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — l'entraînement réel",
+        "etapes": [
+          "Du temps libre au sol : plusieurs fois par jour, sans entrave.",
+          "Des appuis stables à sa hauteur : meubles fixés, rien qui bascule.",
+          "Pieds nus : la sensation du sol guide l'équilibre.",
+          "Le laisser tomber et se relever : c'est le chemin.",
+          "S'arrêter s'il fatigue : quelques minutes suffisent."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir les deux arguments : le trotteur n'accélère pas la marche, et il expose à des chutes graves.",
+        "Limiter aussi l'immobilisation : pas plus d'une heure d'affilée en transat, poussette, coque ou siège.",
+        "Se méfier des accessoires « d'aide à la marche » : la plupart contraignent au lieu d'aider.",
+        "Distinguer trotteur et chariot : un chariot lourd et stable, poussé debout, n'a rien à voir avec un trotteur à roulettes dans lequel l'enfant est assis."
+      ],
+      "principe": "Le trotteur n'accélère rien et expose à des chutes graves. Le sol libre, avec des appuis stables, est le meilleur terrain d'entraînement qui existe.",
+      "erreurs_a_eviter": [
+        "Utiliser un trotteur ou un youpala.",
+        "Installer bébé debout dans un dispositif qu'il n'atteint pas seul.",
+        "Laisser un trotteur près d'un escalier — c'est là que les accidents sont les plus graves.",
+        "Céder à la pression de l'entourage sur ce point."
+      ],
+      "consulter_si": "Consulter si : après une chute, bébé perd connaissance, vomit, devient anormalement somnolent, pleure de façon inconsolable, présente une bosse importante, un saignement, ou un membre qu'il ne mobilise plus → appeler le 15. En cas de chute dans un escalier : urgence immédiate.",
+      "source": "Source : Commission de la sécurité des consommateurs et DGCCRF (economie.gouv.fr) — accidents liés aux produits de puériculture ; 1000-premiers-jours.fr — éviter les accidents domestiques."
+    }
+  ]
+}

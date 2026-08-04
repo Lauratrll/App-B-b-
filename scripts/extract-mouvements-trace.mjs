@@ -46,8 +46,10 @@ function lireTraces(fichier) {
 
 // Config : pour chaque zone SVG, les tracés tr- (dans l'ordre) + réglages.
 const CONFIG = [];
-// Spirale : 1 tracé par pied.
-for (const [nom, duree] of [["bassin", 6000], ["intestin-grele", 5000]]) {
+// Spirale : 1 tracé par pied. RÉSERVÉE AU BASSIN (l'intestin grêle n'est PAS une
+// spirale mais des « cercles avancés » — voir plus bas, généré depuis RAILS_zones.json,
+// cf. CONSIGNES §14 quinquies + PARAMS overrides_par_zone.intestin-grele).
+for (const [nom, duree] of [["bassin", 6000]]) {
   for (const f of ["d", "g"]) {
     CONFIG.push({
       zone: `zone-${nom}-${f}`,
@@ -198,6 +200,80 @@ for (const [id, p] of Object.entries(SU)) {
   };
   nb++;
 }
+
+// INTESTIN GRÊLE : « cercles avancés » (boucles-progressives), PAS une spirale
+// (la spirale est réservée au bassin — CONSIGNES §14 quinquies). Le rail des
+// petits cercles qui avancent est PRÉCALCULÉ et validé dans RAILS_zones.json
+// (bord extérieur → intérieur, par pied, zone NON miroir). On le suit tel quel :
+// ne JAMAIS re-squelettiser (source n°1 de divergence de forme, cf. INTEGRATION).
+// Les DEUX pieds terminent en même temps : on donne la MÊME durée aux deux
+// (fraction u = t/durée commune ; chaque pied dévoile u × sa propre longueur).
+const rails = JSON.parse(readFileSync(R("RAILS_zones.json"), "utf-8")).zones;
+const grele = rails["intestin-grele"];
+if (grele) {
+  for (const f of ["d", "g"]) {
+    const pts = grele[f];
+    if (!Array.isArray(pts) || pts.length < 2) continue;
+    sortie[`zone-intestin-grele-${f}`] = {
+      d: "M " + pts.map((p) => `${p[0]} ${p[1]}`).join(" L "),
+      brush: 48, // gros doigt : colorie toute la zone (PARAMS/§8)
+      passages: 3,
+      duree: 5000, // identique d/g → les deux pieds finissent ensemble
+      traineeOp: 0.75,
+    };
+    nb++;
+  }
+} else {
+  console.warn("  ⚠️  intestin-grele absent de RAILS_zones.json");
+}
+
+// Longueur d'un polyligne [[x,y],…].
+const lenPoly = (pts) => {
+  let l = 0;
+  for (let i = 1; i < pts.length; i++) l += Math.hypot(pts[i][0] - pts[i - 1][0], pts[i][1] - pts[i - 1][1]);
+  return l;
+};
+const dDepuisPoly = (pts) => "M " + pts.map((p) => `${p[0]} ${p[1]}`).join(" L ");
+// Durée à vitesse glissée constante (0.105 px/ms), bornée 2000–7000 ms (§6).
+const dureeGlisse = (L) => Math.round(Math.max(2000, Math.min(7000, L / 0.105)));
+
+// NEZ : pression glissée en CROIX sur le gros orteil (§14 quinquies + overrides).
+// Une passe = la barre VERTICALE (haut→bas) PUIS l'HORIZONTALE (du bord vers les
+// orteils), ×3. Deux sous-tracés « M … L … M … L … » → aucun trait parasite
+// entre les deux barres (le doigt saute de la fin du vertical au début de l'horizontal).
+if (rails.nez) {
+  for (const f of ["d", "g"]) {
+    const c = rails.nez[f];
+    if (!c || !c.vertical_haut_bas || !c.horizontal_bord_orteils) continue;
+    const v = c.vertical_haut_bas, h = c.horizontal_bord_orteils;
+    sortie[`zone-nez-${f}`] = {
+      d: `${dDepuisPoly(v)} ${dDepuisPoly(h)}`,
+      brush: 34, // barres fines de la croix
+      passages: 3,
+      duree: 2600,
+      traineeOp: 0.75,
+    };
+    nb++;
+  }
+} else console.warn("  ⚠️  nez absent de RAILS_zones.json");
+
+// COLONNE + NERF VAGUE : version ALLONGÉE de la colonne (un seul geste glissé),
+// utilisée À LA PLACE de la colonne dans Prématurité et Mal des transports.
+// Rail précalculé (44 pts) → même mécanique que la colonne.
+if (rails["colonne-vertebrale-nerf-vague"]) {
+  for (const f of ["d", "g"]) {
+    const pts = rails["colonne-vertebrale-nerf-vague"][f];
+    if (!Array.isArray(pts) || pts.length < 2) continue;
+    sortie[`zone-colonne-vertebrale-nerf-vague-${f}`] = {
+      d: dDepuisPoly(pts),
+      brush: 46, // largeur du ruban de la colonne
+      passages: 3,
+      duree: dureeGlisse(lenPoly(pts)),
+      traineeOp: 0.75,
+    };
+    nb++;
+  }
+} else console.warn("  ⚠️  colonne-vertebrale-nerf-vague absent de RAILS_zones.json");
 
 writeFileSync(OUT, JSON.stringify(sortie));
 console.log(`✓ ${nb} zone(s) « tracé » extraite(s) → ${OUT}`);

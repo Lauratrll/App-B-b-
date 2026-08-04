@@ -49,6 +49,14 @@ const ONDE_DUREE = 1000;
 const ONDE_EXPANSION = 1.5;
 const ONDE_OP = 0.38;
 
+// Système urinaire — mouvement composite (§14 quater) : maintenue vessie →
+// glissée lente → maintenue rein, répété `passages` fois. Réglages des pressions
+// maintenues repris du prototype ; la glissée entre les deux points est LENTE.
+const U_POSE = 1000; // le disque grandit depuis le centre (easeOut)
+const U_MAINT = 3000; // maintien + 3 ondes
+const U_GLISSE = 2900; // glissée lente vessie → rein
+const U_FINGER_R = 16; // rayon du doigt pendant la glissée
+
 // Glissé — réglages du prototype mouvement-pression-glissee.html.
 const GLISSE_T_EFFACE = 550; // effacement de la traînée entre 2 passages
 const GLISSE_T_FIN = 1200; // temps de maintien de l'état figé avant reprise
@@ -172,11 +180,42 @@ type Anim =
       offset: number;
       /** Durée du mouvement complet de cette zone (hors GLISSE_T_FIN). */
       total: number;
+      /**
+       * Écart (ms) entre deux passages successifs de CETTE zone. Vaut la durée
+       * d'un passage (durAct + effacement) en temps normal ; pour le gros
+       * intestin (`enchaine`) les deux pieds sont ENTRELACÉS — un « mouvement » =
+       * pied droit puis pied gauche — donc chaque pied attend que l'autre ait
+       * fini son passage avant le sien : stride = nbPieds × durée d'un passage.
+       */
+      stride: number;
       /** Sens inverse (Diarrhée) : trajectoire parcourue depuis la fin. */
       reverse: boolean;
     }
+  // Système urinaire — mouvement COMPOSITE en 3 temps, répété `passages` fois
+  // (§14 quater) : pression maintenue ~3 s sur la VESSIE (point bas) → pression
+  // glissée LENTE vessie→rein le long du trait → pression maintenue ~3 s sur le
+  // REIN (point haut). Chaque appui = un disque + 3 ondes (comme pression-maintenue).
+  | {
+      kind: "urinaire";
+      groupe: CibleInfo;
+      trait: SVGPathElement;
+      traitLen: number;
+      doigt: SVGCircleElement;
+      fingerR: number;
+      vessie: UrinairePoint;
+      rein: UrinairePoint;
+      passages: number;
+    }
   // Zones tracé sans géométrie encore branchée : coloriage progressif seul.
   | { kind: "reveal"; groupe: CibleInfo };
+
+type UrinairePoint = {
+  appui: SVGCircleElement;
+  r0: number;
+  cx: number;
+  cy: number;
+  ondes: { el: SVGCircleElement; r0: number; decalage: number }[];
+};
 
 export function ReflexoLecteur({
   steps,
@@ -365,17 +404,82 @@ export function ReflexoLecteur({
       // (`enchaine`), pied par pied ; en sens INVERSE (Diarrhée), ordre inversé.
       let groupeOffset = 0;
       for (const grp of s.groupes) {
-        let enchaineOffset = 0;
         let grpDuree = 0;
         const grpCibles = s.inverse ? [...grp].reverse() : grp;
+        let foisIndex = -1; // rang du pied dans le groupe (entrelacement enchaîné)
         for (const id of grpCibles) {
+          foisIndex++;
           const ci = info.get(id);
           if (!ci) continue;
           ci.el.style.display = "";
           ci.el.style.opacity = String(OP_REPOS);
           const geom = geomRef.current[id];
 
-        if (points && ci.points.length > 0 && !reducedMotion) {
+        if (id.includes("systeme-urinaire") && ci.points.length >= 2 && defs && !reducedMotion) {
+          // SYSTÈME URINAIRE — composite (§14 quater). Deux points : vessie (le
+          // plus BAS = cy max) et rein (le plus HAUT = cy min). On construit un
+          // trait vessie→rein (pas de clip : la zone n'a que 2 cercles, aucune
+          // forme à écrêter), un doigt pour la glissée, et pour chaque point un
+          // appui + 3 ondes (mécanique pression-maintenue).
+          const tries = [...ci.points].sort((a, b) => b.cy - a.cy);
+          const vessieP = tries[0]; // cy le plus grand → bas du pied
+          const reinP = tries[tries.length - 1]; // cy le plus petit → haut
+          const faireOndes = (cx: number, cy: number, r: number) => {
+            const ondes: { el: SVGCircleElement; r0: number; decalage: number }[] = [];
+            for (let o = 0; o < N_ONDES; o++) {
+              const w = document.createElementNS(NS, "circle");
+              w.setAttribute("cx", String(cx));
+              w.setAttribute("cy", String(cy));
+              w.setAttribute("fill", ci.fill);
+              w.setAttribute("opacity", "0");
+              gUnder.appendChild(w);
+              ondes.push({ el: w, r0: r, decalage: o * ONDE_ECART });
+            }
+            return ondes;
+          };
+          const faireAppui = (p: Point): UrinairePoint => {
+            const a = document.createElementNS(NS, "circle");
+            a.setAttribute("cx", String(p.cx));
+            a.setAttribute("cy", String(p.cy));
+            a.setAttribute("r", "0");
+            a.setAttribute("fill", p.fill);
+            gOver.appendChild(a);
+            return { appui: a, r0: p.r, cx: p.cx, cy: p.cy, ondes: faireOndes(p.cx, p.cy, p.r) };
+          };
+          const vessie = faireAppui(vessieP);
+          const rein = faireAppui(reinP);
+          // Trait vessie→rein (le doigt le colorie pendant la glissée).
+          const trait = document.createElementNS(NS, "path");
+          trait.setAttribute("d", `M ${vessie.cx} ${vessie.cy} L ${rein.cx} ${rein.cy}`);
+          trait.setAttribute("fill", "none");
+          trait.setAttribute("stroke", ci.fill);
+          trait.setAttribute("stroke-width", String(Math.max(vessie.r0, rein.r0) * 1.4));
+          trait.setAttribute("stroke-linecap", "round");
+          trait.setAttribute("opacity", "0");
+          gOver.insertBefore(trait, vessie.appui); // trait SOUS les appuis
+          const traitLen = trait.getTotalLength();
+          trait.style.strokeDasharray = String(traitLen);
+          trait.style.strokeDashoffset = String(traitLen);
+          const doigt = document.createElementNS(NS, "circle");
+          doigt.setAttribute("r", String(U_FINGER_R));
+          doigt.setAttribute("fill", ci.fill);
+          doigt.setAttribute("opacity", "0");
+          gOver.appendChild(doigt);
+          const passages = geom && "passages" in geom ? geom.passages : 3;
+          anims.push({
+            kind: "urinaire",
+            groupe: ci,
+            trait,
+            traitLen,
+            doigt,
+            fingerR: U_FINGER_R,
+            vessie,
+            rein,
+            passages,
+          });
+          const cycle = 2 * (U_POSE + U_MAINT) + U_GLISSE;
+          grpDuree = Math.max(grpDuree, passages * cycle);
+        } else if (points && ci.points.length > 0 && !reducedMotion) {
           // PRESSION MAINTENUE : chaque point = un appui (doigt) + 3 ondes.
           const pts: {
             appui: SVGCircleElement;
@@ -492,11 +596,16 @@ export function ReflexoLecteur({
           if (clipId) doigt.setAttribute("clip-path", `url(#${clipId})`);
           doigt.setAttribute("opacity", "0");
           gOver.appendChild(doigt);
-          const total = (passages - 1) * (durAct + GLISSE_T_EFFACE) + durAct;
-          // Décalage = offset du groupe (zones enchaînées) + offset intra-groupe
-          // (gros intestin : pied après pied).
-          const withinOffset = enchaine ? enchaineOffset : 0;
-          if (enchaine) enchaineOffset += total;
+          const segFull = durAct + GLISSE_T_EFFACE; // durée d'un passage
+          // Gros intestin (`enchaine`) : les deux pieds sont ENTRELACÉS — un
+          // « mouvement » = pied droit PUIS pied gauche, le tout répété `passages`
+          // fois (droit+gauche / droit+gauche / droit+gauche). Chaque pied joue
+          // donc un passage tous les `stride` = nbPieds × segFull, décalé de son
+          // rang `foisIndex` dans le groupe. Sans enchaînement : passages
+          // consécutifs (stride = segFull), pas de décalage intra-groupe.
+          const stride = enchaine ? grpCibles.length * segFull : segFull;
+          const withinOffset = enchaine ? foisIndex * segFull : 0;
+          const total = (passages - 1) * stride + durAct;
           const offset = groupeOffset + withinOffset;
           grpDuree = Math.max(grpDuree, withinOffset + total);
           anims.push({
@@ -513,6 +622,7 @@ export function ReflexoLecteur({
             trOp,
             offset,
             total,
+            stride,
             reverse: s.inverse === true,
           });
         } else {
@@ -538,6 +648,10 @@ export function ReflexoLecteur({
         } else if (a.kind === "glisse")
           // offset + durée du mouvement (les zones enchaînées s'additionnent).
           dur = Math.max(dur, a.offset + a.total + GLISSE_T_FIN);
+        else if (a.kind === "urinaire") {
+          const cycle = 2 * (U_POSE + U_MAINT) + U_GLISSE;
+          dur = Math.max(dur, a.passages * cycle + GLISSE_T_FIN);
+        }
       }
       stepDurRef.current = dur;
       t0Ref.current = performance.now();
@@ -620,11 +734,13 @@ export function ReflexoLecteur({
           a.doigt.setAttribute("opacity", "0");
           continue;
         }
-        // Passage courant.
+        // Passage courant : un passage tous les `stride` (= segFull sans
+        // entrelacement ; = 2×segFull pour le gros intestin, le temps que
+        // l'autre pied joue le sien).
         let t = le;
         let p = 0;
-        while (p < P - 1 && t >= segFull) {
-          t -= segFull;
+        while (p < P - 1 && t >= a.stride) {
+          t -= a.stride;
           p++;
         }
         const dernier = p === P - 1;
@@ -652,12 +768,92 @@ export function ReflexoLecteur({
             // Traînée cachée tant que le geste n'a rien dévoilé (disque fantôme).
             a.trainee.setAttribute("opacity", k > 0.004 ? String(a.trOp) : "0");
           }
-        } else {
+        } else if (t < segFull) {
           // EFFACEMENT de la traînée avant le passage suivant (forme au repos).
           const e = Math.min((t - durAct) / GLISSE_T_EFFACE, 1);
           a.doigt.setAttribute("opacity", "0");
           a.trainee.setAttribute("opacity", String(a.trOp * (1 - e)));
           a.groupe.el.style.opacity = String(OP_REPOS);
+        } else {
+          // ATTENTE (gros intestin entrelacé) : ce pied a fini son passage et
+          // patiente pendant que l'AUTRE pied joue le sien. Zone au repos, sans
+          // traînée ni doigt. (Sans entrelacement, stride = segFull → ce cas
+          // n'arrive jamais.)
+          a.doigt.setAttribute("opacity", "0");
+          a.trainee.setAttribute("opacity", "0");
+          a.groupe.el.style.opacity = String(OP_REPOS);
+        }
+      } else if (a.kind === "urinaire") {
+        // COMPOSITE : maintenue vessie → glissée lente → maintenue rein, ×passages.
+        const cycle = 2 * (U_POSE + U_MAINT) + U_GLISSE;
+        const totalU = a.passages * cycle;
+        const eteindre = (p: UrinairePoint) => {
+          p.appui.setAttribute("r", "0");
+          p.ondes.forEach((o) => o.el.setAttribute("opacity", "0"));
+        };
+        // Un appui à l'instant tc∈[0, U_POSE+U_MAINT] : le disque grandit
+        // (easeOut) puis se maintient avec 3 ondes.
+        const maintenir = (p: UrinairePoint, tc: number) => {
+          const rk = tc < U_POSE ? easeOut(tc / U_POSE) : 1;
+          p.appui.setAttribute("r", String(p.r0 * rk));
+          p.ondes.forEach((o) => {
+            const tw = tc - (U_POSE + o.decalage);
+            if (tw < 0 || tw > ONDE_DUREE) {
+              o.el.setAttribute("opacity", "0");
+              return;
+            }
+            const q = tw / ONDE_DUREE;
+            o.el.setAttribute("r", String(o.r0 * (1 + (ONDE_EXPANSION - 1) * easeOut(q))));
+            o.el.setAttribute("opacity", String(ONDE_OP * (1 - q)));
+          });
+        };
+        if (elapsed >= totalU) {
+          // État figé : la zone reste coloriée, appuis/doigt/trait éteints.
+          a.groupe.el.style.opacity = String(OP_FIN);
+          eteindre(a.vessie);
+          eteindre(a.rein);
+          a.doigt.setAttribute("opacity", "0");
+          a.trait.setAttribute("opacity", "0");
+          continue;
+        }
+        const tc = elapsed % cycle;
+        const dernierCycle = elapsed >= (a.passages - 1) * cycle;
+        a.groupe.el.style.opacity = String(OP_REPOS);
+        const finMaintien = U_POSE + U_MAINT;
+        if (tc < finMaintien) {
+          // 1) Maintenue VESSIE.
+          maintenir(a.vessie, tc);
+          eteindre(a.rein);
+          a.doigt.setAttribute("opacity", "0");
+          a.trait.setAttribute("opacity", "0");
+          a.trait.style.strokeDashoffset = String(a.traitLen);
+        } else if (tc < finMaintien + U_GLISSE) {
+          // 2) Glissée LENTE vessie → rein : la vessie reste posée, le doigt
+          //    remonte, le trait se dévoile (coloriage persistant).
+          const k = (tc - finMaintien) / U_GLISSE;
+          a.vessie.appui.setAttribute("r", String(a.vessie.r0));
+          a.vessie.ondes.forEach((o) => o.el.setAttribute("opacity", "0"));
+          eteindre(a.rein);
+          const pt = a.trait.getPointAtLength(a.traitLen * k);
+          a.doigt.setAttribute("cx", String(pt.x));
+          a.doigt.setAttribute("cy", String(pt.y));
+          a.doigt.setAttribute("opacity", k > 0.01 && k < 0.99 ? "1" : "0");
+          a.trait.setAttribute("opacity", String(OP_TRAINEE));
+          a.trait.style.strokeDashoffset = String(a.traitLen * (1 - k));
+        } else {
+          // 3) Maintenue REIN (le trait reste dévoilé, la vessie reste posée).
+          const tr = tc - (finMaintien + U_GLISSE);
+          a.vessie.appui.setAttribute("r", String(a.vessie.r0));
+          a.vessie.ondes.forEach((o) => o.el.setAttribute("opacity", "0"));
+          a.doigt.setAttribute("opacity", "0");
+          a.trait.setAttribute("opacity", String(OP_TRAINEE));
+          a.trait.style.strokeDashoffset = "0";
+          maintenir(a.rein, tr);
+          // Fondu de fin sur le tout dernier maintien : la zone monte vers OP_FIN.
+          if (dernierCycle) {
+            const v = Math.min(tr / finMaintien, 1);
+            a.groupe.el.style.opacity = String(OP_REPOS + (OP_FIN - OP_REPOS) * v);
+          }
         }
       } else {
         // Coloriage progressif seul.

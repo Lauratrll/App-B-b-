@@ -1,0 +1,196 @@
+{
+  "mois": 3,
+  "tranche_age": "3 mois",
+  "categorie": {
+    "id": "alim",
+    "nom": "Alimentation",
+    "sous_titre": "Production, distraction, biberon, repères",
+    "icone": "🤱"
+  },
+  "protocoles": [
+    {
+      "categorie": "alim",
+      "situation": "Les tétées s'espacent brutalement / j'ai peur de manquer de lait",
+      "titre": "Les tétées qui s'espacent / la peur de manquer",
+      "explication": "Vers trois mois, beaucoup de mères vivent le même choc : les seins ne sont plus tendus, les tétées durent moins longtemps, bébé s'espace — et la peur de manquer de lait surgit. Ce qui se passe le plus souvent est l'inverse : la production s'est ajustée à la demande, elle ne se constitue plus en réserve. Le sein souple ne veut pas dire vide, et une tétée courte ne veut pas dire insuffisante — bébé est simplement devenu plus efficace. Les seuls indicateurs fiables restent les couches, l'éveil, le tonus, et la courbe de poids.",
+      "ancrage": "Un sein souple n'est pas un sein vide. Ta production ne baisse pas : elle s'ajuste. Ce sont les couches et la courbe qui parlent, pas la sensation.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — objectiver la production",
+        "etapes": [
+          "Compter les couches : plusieurs couches bien mouillées par jour reste l'indicateur le plus simple.",
+          "Écouter les déglutitions : un « k-a » régulier pendant la tétée signe un transfert réel de lait.",
+          "Observer bébé après : détendu, mains ouvertes, calme — c'est un bébé rassasié.",
+          "Continuer à proposer à la demande : ne pas espacer artificiellement pour « faire des réserves ».",
+          "Faire peser : une pesée en PMI ou chez le pédiatre tranche en une visite."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — soutenir la production",
+        "etapes": [
+          "Peau à peau régulier : il stimule la production autant qu'il apaise.",
+          "Proposer souvent, sans compter : la stimulation reste le seul levier réel de la production.",
+          "S'installer confortablement : dos calé, eau à portée — une mère tendue tète moins bien.",
+          "Respirer avant la tétée : quelques respirations lentes facilitent l'éjection.",
+          "Ne pas chronométrer : la durée ne dit rien de la quantité bue."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se méfier du complément réflexe : donné sans avis, il réduit la stimulation et fait réellement baisser la production.",
+        "Ne pas tirer son lait pour « vérifier » : la quantité tirée ne reflète pas ce que bébé obtient au sein.",
+        "Demander une observation de tétée : consultante en lactation (IBCLC), sage-femme ou PMI.",
+        "Se rappeler que la fourchette est large : les rythmes varient énormément d'un bébé à l'autre."
+      ],
+      "principe": "La souplesse du sein et la brièveté des tétées sont des signes d'ajustement, pas de manque. Les couches, le tonus et la courbe de poids sont les seuls juges.",
+      "erreurs_a_eviter": [
+        "Introduire un complément « par sécurité », sans avis — c'est ce qui fait baisser la production.",
+        "Espacer les tétées pour « laisser le sein se remplir » — la production fonctionne à l'inverse.",
+        "Tirer son lait pour mesurer sa production.",
+        "Multiplier tisanes et compléments censés augmenter le lait — c'est la stimulation qui agit."
+      ],
+      "consulter_si": "Consulter si : bébé ne prend pas de poids ou en perd, si sa courbe casse, s'il mouille très peu ses couches, s'il est difficile à réveiller pour les prises, ou s'il paraît anormalement mou → pédiatre, sage-femme, PMI ou consultante en lactation (IBCLC) sans attendre.",
+      "source": "Source : ameli.fr (Assurance Maladie) — alimentation de l'enfant de 0 à 3 ans : les premiers mois, du lait uniquement."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Il se détache pour regarder partout / il est distrait par tout",
+      "titre": "Le bébé distrait / un repas dans la sobriété",
+      "explication": "À trois mois, ton bébé découvre le monde — et il devient incapable de l'ignorer. Un bruit, un mouvement, une conversation : il lâche le sein ou la tétine, tourne la tête, tète trois gorgées, repart. Ce n'est ni un désintérêt, ni un problème d'appétit : c'est une curiosité toute neuve, et elle est excellente. Elle rend simplement les repas plus hachés. La réponse n'est pas de le forcer à se concentrer — c'est d'abaisser le niveau de sollicitation autour du repas, pour que rien ne rivalise avec ce qu'il est en train de faire.",
+      "ancrage": "Il n'est pas distrait par manque d'appétit : il est captivé par le monde. Ton levier n'est pas sa concentration — c'est l'environnement du repas.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — un environnement sobre",
+        "etapes": [
+          "Pièce calme et sombre : lumière basse, volets à demi fermés si nécessaire.",
+          "Silence : pas de conversation, pas de musique, pas de télévision, jamais d'écran.",
+          "Dos aux stimulations : l'installer face à un mur, pas face à la pièce ou à la fenêtre.",
+          "Un seul adulte : les allées et venues suffisent à le détourner.",
+          "Ne pas insister s'il lâche : proposer une pause, puis reproposer plus tard."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — recentrer sans forcer",
+        "etapes": [
+          "Contact avant la prise : quelques minutes peau à peau, sans objectif.",
+          "Une main sur son dos : posée, immobile, pendant la prise.",
+          "Ta voix, doucement : lui parler tout bas plutôt que de le laisser chercher les bruits ailleurs.",
+          "Nourrir aux moments calmes : les prises de nuit et de sieste sont souvent plus complètes.",
+          "S'arrêter s'il se braque : jamais forcer une prise."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Vérifier les indicateurs plutôt que la durée : des prises hachées mais des couches mouillées et une bonne courbe signifient que tout va bien.",
+        "Accepter les prises courtes : il compensera sur les prises calmes, notamment la nuit.",
+        "Ne pas conclure au sevrage : à cet âge, la distraction est très fréquente et transitoire.",
+        "Se rappeler que c'est un progrès : sa curiosité est un signe de développement, pas un problème."
+      ],
+      "principe": "Un bébé distrait est un bébé curieux, pas un bébé qui se désintéresse du lait. Ce qui se règle, c'est l'environnement du repas — jamais sa concentration.",
+      "erreurs_a_eviter": [
+        "Forcer bébé à reprendre le sein ou le biberon en maintenant sa tête.",
+        "Utiliser un écran ou un jouet pour « capter » son attention pendant la prise.",
+        "Conclure à un sevrage spontané et arrêter d'office les prises.",
+        "Nourrir dans une pièce animée, avec la télévision allumée en fond."
+      ],
+      "consulter_si": "Consulter si : bébé refuse plusieurs prises consécutives, ne prend pas de poids, mouille très peu ses couches, paraît anormalement mou, ou si les prises hachées s'accompagnent d'une cassure de la courbe → pédiatre, sage-femme, PMI ou consultante en lactation (IBCLC).",
+      "source": "Source : mpedia.fr (Association Française de Pédiatrie Ambulatoire) — allaitement : positions, prise du sein et difficultés."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Il refuse le biberon de l'autre parent / avant la reprise",
+      "titre": "Le refus du biberon / passer le relais au co-parent",
+      "explication": "Ton bébé accepte le biberon de tout le monde — sauf de toi, ou sauf de l'autre parent, selon les cas. Le plus fréquent : il refuse le biberon tant que la mère qui allaite est dans la pièce. C'est logique — il sent son odeur, il sait ce qui est disponible, et il proteste. Le refus n'est donc pas un rejet du co-parent : c'est un choix rationnel du point de vue du bébé. La solution est simple et souvent négligée : que le parent allaitant quitte la pièce, complètement, et n'y revienne pas pendant l'essai.",
+      "ancrage": "Ce n'est pas le co-parent que bébé refuse : c'est ton odeur qu'il détecte. Sortir de la pièce n'est pas fuir — c'est ce qui rend l'essai possible.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — l'essai qui fonctionne",
+        "etapes": [
+          "Quitter la pièce : le parent allaitant sort complètement, idéalement de la maison.",
+          "Choisir un moment calme : bébé éveillé, détendu, ni affamé ni endormi.",
+          "Réchauffer la tétine : la passer sous l'eau tiède, à température du corps.",
+          "Laisser bébé attraper : poser la tétine contre ses lèvres et attendre qu'il ouvre — jamais l'enfoncer.",
+          "Arrêter au premier refus net : ranger, réessayer plus tard — insister installe un blocage."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — le rituel du co-parent",
+        "etapes": [
+          "Contact d'abord : peau à peau ou contre son torse, avant même de présenter le biberon.",
+          "Position semi-assise : bébé redressé, biberon presque à l'horizontale, avec des pauses.",
+          "Sa voix, en continu : le co-parent parle, chante — il installe son propre repère.",
+          "Un lieu à lui : une pièce, un fauteuil, toujours les mêmes.",
+          "Répéter court et souvent : quelques minutes chaque jour valent mieux qu'une longue lutte."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Commencer tôt : deux à trois semaines avant la reprise, au minimum.",
+        "Tester une autre tétine : forme, souplesse et débit changent tout.",
+        "Varier les personnes : une grand-mère, un proche — parfois l'essai passe avec un tiers avant de passer avec le co-parent.",
+        "Demander de l'aide si le blocage dure : consultante en lactation (IBCLC), sage-femme ou PMI — d'autres modes de prise existent, à évaluer avec un professionnel."
+      ],
+      "principe": "Le refus du biberon en présence du parent allaitant est un réflexe logique, pas un rejet. Sortir de la pièce est le geste le plus efficace — et le plus souvent oublié.",
+      "erreurs_a_eviter": [
+        "Rester dans la pièce « pour rassurer » pendant l'essai — c'est ce qui le fait échouer.",
+        "Attendre qu'il ait très faim en pensant qu'il finira par prendre.",
+        "Enfoncer la tétine ou maintenir la tête.",
+        "Commencer la veille de la reprise du travail."
+      ],
+      "consulter_si": "Consulter si : bébé refuse toute prise pendant plusieurs heures et mouille peu ses couches, s'il perd du poids, s'il s'étouffe ou tousse pendant les prises, ou si le refus s'installe malgré des propositions calmes et répétées → sage-femme, consultante en lactation (IBCLC), PMI ou pédiatre.",
+      "source": "Source : mpedia.fr (Association Française de Pédiatrie Ambulatoire) — allaitement : positions, prise du sein et difficultés."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Doute sur les quantités / avant de le confier",
+      "titre": "Transmettre les repères / sans rigidifier les horaires",
+      "explication": "Avant de confier ton bébé, une question revient : combien lui donner ? Le réflexe est de fixer un tableau — tant de millilitres, à telle heure. C'est rassurant pour toi, mais cela ne correspond pas à son fonctionnement : ses besoins varient d'un jour à l'autre, et un cadre trop rigide apprend à ignorer ses propres signaux. Ce qui se transmet vraiment, ce n'est pas un horaire : ce sont des repères — ses signes de faim, ses signes de satiété, ses signaux de fatigue, et ce qui l'apaise. La personne qui le garde a besoin de savoir le lire, pas de suivre une horloge.",
+      "ancrage": "Ce que tu transmets, ce n'est pas un tableau : c'est la façon de lire ton bébé. C'est cela qui le protégera mieux qu'un chiffre.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — préparer la transmission",
+        "etapes": [
+          "Décrire ses signes de faim : agitation, mains à la bouche, recherche — plutôt que des horaires fixes.",
+          "Décrire ses signes de satiété : il lâche la tétine, détourne la tête, détend son corps — la prise s'arrête là.",
+          "Donner une fourchette, pas un chiffre : une quantité indicative, à ajuster selon la prise.",
+          "Décrire ses signaux de fatigue : bâillements, regard qui se perd, geignements — et ce qui l'apaise.",
+          "Écrire le tout : une feuille simple, remise à la personne qui garde."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — un cadre souple",
+        "etapes": [
+          "Prévoir une adaptation progressive : quelques heures, puis une demi-journée, puis une journée.",
+          "Fournir une odeur familière : un lange porté par toi, remis à la personne qui garde — jamais dans le lit ni près du visage.",
+          "Transmettre son rituel : la même berceuse, la même position, les mêmes mots.",
+          "Faire un point chaque soir : quelques mots sur sa journée, pour ajuster ensemble.",
+          "Accepter que ce soit fait autrement : différent n'est pas moins bien."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Demander des repères de quantité au professionnel : le pédiatre ou la PMI les adaptent à son poids et à son âge — c'est plus fiable qu'un tableau trouvé en ligne.",
+        "Ne jamais imposer de finir un biberon : cela casse son signal de satiété, chez toi comme ailleurs.",
+        "Prévoir un peu plus de lait que prévu : cela évite la panique d'un jour de plus grand appétit.",
+        "Se rappeler que les quantités varient : d'un jour à l'autre, d'une prise à l'autre — c'est normal."
+      ],
+      "principe": "Un bébé se lit, il ne se programme pas. Transmettre des repères — signes de faim, de satiété, de fatigue — protège mieux qu'un tableau d'horaires et de millilitres.",
+      "erreurs_a_eviter": [
+        "Imposer un tableau d'horaires strict à la personne qui garde.",
+        "Demander qu'on lui fasse finir ses biberons.",
+        "Conserver un biberon entamé pour la prise suivante — un biberon commencé se jette après la prise.",
+        "Ne rien transmettre par peur de « trop en dire » — la personne qui garde a besoin de ces repères."
+      ],
+      "consulter_si": "Consulter si : bébé refuse de boire chez la personne qui garde pendant plusieurs jours, s'il perd du poids, si sa courbe casse, s'il mouille très peu ses couches, ou s'il paraît anormalement mou → pédiatre, sage-femme ou PMI.",
+      "source": "Source : ameli.fr (Assurance Maladie) — les examens de suivi médical du nourrisson jusqu'à 2 mois et les courbes du carnet de santé."
+    }
+  ]
+}

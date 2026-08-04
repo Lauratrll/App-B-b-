@@ -1,0 +1,196 @@
+{
+  "mois": 10,
+  "tranche_age": "10 mois",
+  "categorie": {
+    "id": "sommeil",
+    "nom": "Sommeil",
+    "sous_titre": "Debout au coucher, siestes, réveils, nuit",
+    "icone": "😴"
+  },
+  "protocoles": [
+    {
+      "categorie": "sommeil",
+      "situation": "Debout dans son lit au coucher / il ne se rallonge plus",
+      "titre": "Debout au coucher / rester neutre et répétitif",
+      "explication": "Tu le couches, il se relève. Tu le recouches, il se relève. Vingt fois. Le lit est devenu un terrain d'entraînement — et ta réaction en fait un jeu passionnant. Plus tu réagis — en parlant, en riant, en t'agaçant — plus le jeu devient intéressant. Ce qui l'épuise le plus vite, c'est l'inverse : une réponse totalement neutre et parfaitement répétitive. Le recoucher sans un mot, sans regard, sans expression, autant de fois qu'il le faudra. L'ennui a raison de ce jeu bien plus vite que l'agacement.",
+      "ancrage": "Ta réaction est le carburant du jeu. Neutre et répétitif : c'est l'ennui, pas l'agacement, qui y met fin.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — neutre et répétitif",
+        "etapes": [
+          "Le recoucher sans un mot : pas de discours, pas de regard appuyé, pas d'expression.",
+          "Toujours le même geste : à l'identique, autant de fois qu'il le faudra.",
+          "Ne pas allumer : la pénombre du début à la fin.",
+          "Ne pas s'agacer : l'agacement est une réaction, et une réaction relance le jeu.",
+          "Rester : à côté du lit, calme, sans interagir."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : le repère du coucher",
+        "etapes": [
+          "En fin de rituel, avant de le coucher : toujours au même moment.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Terminer par l'immobilité : une main posée sur son torse."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Entraîner la descente en journée : plier les genoux, se rasseoir — c'est ce qui règle le problème.",
+        "Descendre le matelas : au niveau le plus bas.",
+        "Un lit sécurisé : matelas ferme, drap tendu, rien qui traîne.",
+        "Compter en jours : un jeu qui ne produit aucune réaction s'éteint vite."
+      ],
+      "principe": "Ta réaction est ce qui alimente le jeu. Une réponse neutre et strictement identique l'épuise bien plus vite que l'agacement — qui, lui, le nourrit.",
+      "erreurs_a_eviter": [
+        "Rire, gronder ou s'agacer — toute réaction relance le jeu.",
+        "Le recoucher en jouant avec lui.",
+        "Laisser le matelas en position haute.",
+        "Changer de réponse d'un soir à l'autre."
+      ],
+      "consulter_si": "Consulter si : bébé présente des pauses respiratoires, une respiration bruyante, un ronflement important, s'il est inconsolable, ou si le manque de sommeil devient dangereux pour toi → pédiatre, PMI, ou Allo Parents Bébé (0 800 00 34 56) ; le 15 en cas de trouble respiratoire.",
+      "source": "Source : ameli.fr (Assurance Maladie) — comment bien coucher un bébé : les règles du couchage sécurisé."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "La sieste du matin s'effrite / faut-il la supprimer",
+      "titre": "La sieste du matin s'effrite / ajuster, pas supprimer",
+      "explication": "Elle raccourcit, elle devient difficile, il la refuse certains jours. La tentation est de conclure qu'il n'en a plus besoin. C'est prématuré : le passage à une sieste unique n'arrive en général pas avant quinze à dix-huit mois. Ce qui s'effrite, ce n'est pas le besoin — c'est le réglage. Sa fenêtre d'éveil s'est allongée, et l'horaire de la sieste n'a pas suivi. Ce qui se change, ce sont les horaires, jamais le nombre de siestes. Supprimer trop tôt crée une dette qui hache les nuits.",
+      "ancrage": "Ce n'est pas le besoin qui s'effrite : c'est le réglage. On décale les horaires — on ne supprime pas la sieste.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — décaler, pas supprimer",
+        "etapes": [
+          "Décaler la sieste du matin : de quinze à trente minutes plus tard.",
+          "Allonger la fenêtre d'éveil du réveil : elle s'est allongée, l'horaire doit suivre.",
+          "Assombrir la chambre : la pénombre aide autant le matin que le soir.",
+          "La proposer même s'il la refuse : un temps calme dans la chambre reste réparateur.",
+          "Avancer le coucher du soir : pendant la phase, cela compense la dette."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : favoriser la détente avant la sieste",
+        "etapes": [
+          "Avant le coucher : bébé calme, lumière tamisée.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir le calendrier : la sieste de fin d'après-midi disparaît entre neuf et douze mois ; celle du matin tient jusque vers quinze à dix-huit mois.",
+        "Ne pas supprimer d'un coup : la dette de sommeil se paie en réveils nocturnes et en réveils précoces.",
+        "Relier aux progrès moteurs : un refus passager suit souvent une nouvelle acquisition.",
+        "Compter en semaines : ces phases passent, si l'on ne démonte pas le rythme."
+      ],
+      "principe": "Ce qui s'effrite, c'est le réglage, pas le besoin. On ajuste les horaires — jamais le nombre de siestes, qui ne diminue pas avant quinze à dix-huit mois.",
+      "erreurs_a_eviter": [
+        "Supprimer la sieste du matin après quelques refus.",
+        "Repousser le coucher du soir parce qu'il a moins dormi.",
+        "Réveiller bébé pour forcer un rythme.",
+        "S'attendre à une transition linéaire."
+      ],
+      "consulter_si": "Consulter si : bébé dort très peu au total et ne prend pas de poids, s'il est agité et inconsolable, difficile à réveiller, ou s'il présente des pauses respiratoires ou un ronflement important → pédiatre ou PMI ; le 15 en cas de trouble respiratoire.",
+      "source": "Source : Institut national du sommeil et de la vigilance et ameli.fr — le sommeil de l'enfant : étapes, siestes et réveils."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Réveil à la même heure chaque nuit / habitude ou besoin",
+      "titre": "Le réveil à heure fixe / l'habitude s'est installée",
+      "explication": "Toutes les nuits, à la même heure, il se réveille. Un réveil qui survient toujours au même moment signe presque toujours une habitude installée : le corps a mémorisé un rythme, souvent parce qu'une réponse agréable — une tétée, un biberon, un long câlin — a été donnée au même moment plusieurs nuits de suite. Ce n'est pas une faute, et cela ne se corrige pas en changeant l'enfant : cela se corrige en changeant la réponse. Progressivement, sans jamais le laisser pleurer seul.",
+      "ancrage": "Un réveil à heure fixe est une habitude, pas un besoin. Ce qui change, ce n'est pas l'enfant : c'est la réponse.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — modifier la réponse",
+        "etapes": [
+          "Réduire progressivement : si tu donnes un biberon, diminuer la quantité de dix à vingt millilitres chaque nuit.",
+          "Raccourcir la réponse : moins longue, moins agréable, tout en restant rassurante.",
+          "Remplacer par la voix : une phrase, une main posée, sans le sortir du lit.",
+          "Ne pas allumer : la pénombre du début à la fin.",
+          "Répondre s'il pleure vraiment : on ne laisse jamais un bébé pleurer seul."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : préparer la nuit",
+        "etapes": [
+          "Dans le rituel du soir : toujours au même moment.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Compter en semaines : une habitude se défait progressivement, sur une à trois semaines.",
+        "Impliquer le co-parent : c'est souvent lui qui peut répondre sans le sein disponible.",
+        "Vérifier la journée : sur-fatigue et fenêtres d'éveil mal calibrées entretiennent les réveils.",
+        "Ne jamais utiliser de méthode d'extinction : laisser pleurer seul n'a pas sa place ici."
+      ],
+      "principe": "Un réveil à heure fixe est une habitude installée par une réponse agréable et répétée. Ce qui se modifie, c'est la réponse — progressivement, sans jamais laisser pleurer seul.",
+      "erreurs_a_eviter": [
+        "Supprimer brutalement la réponse habituelle.",
+        "Laisser pleurer seul pour « casser » l'habitude.",
+        "Changer de réponse chaque nuit.",
+        "Se reprocher d'avoir « créé » cette habitude."
+      ],
+      "consulter_si": "Consulter si : bébé se réveille en hurlant de façon inconsolable, présente de la fièvre, refuse de boire, ne prend pas de poids, ou présente des pauses respiratoires, une respiration bruyante ou un ronflement important → pédiatre ; le 15 en cas de trouble respiratoire.",
+      "source": "Source : Institut national du sommeil et de la vigilance et ameli.fr — le sommeil de l'enfant : étapes, siestes et réveils."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Biberon ou tétée de nuit / faut-il encore nourrir la nuit",
+      "titre": "La prise de nuit / réduire au rythme qui vous convient",
+      "explication": "À dix mois, la question revient : faut-il encore nourrir la nuit ? Le besoin nutritionnel nocturne diminue nettement à cet âge — un enfant qui mange bien en journée n'a en général plus besoin de calories la nuit. Mais cela n'oblige à rien arrêter demain. Si cette tétée ou ce biberon vous convient, il n'y a rien à changer. Si cela t'épuise, la prise de nuit se réduit progressivement — en diminuant les quantités ou la durée, nuit après nuit, sans jamais laisser pleurer seul.",
+      "ancrage": "Si cela vous convient, garde-le. Si cela t'épuise, cela se réduit doucement — et il n'y a aucune date limite à respecter.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — réduire progressivement",
+        "etapes": [
+          "Décider d'abord si c'est un problème : si cela te convient, il n'y a rien à changer.",
+          "Réduire la quantité : dix à vingt millilitres de moins chaque nuit, au biberon.",
+          "Ou raccourcir la tétée : d'une minute chaque nuit.",
+          "Remplacer par la voix et le contact : une phrase, une main posée.",
+          "Répondre s'il pleure vraiment : on ne laisse jamais un bébé pleurer seul."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : accompagner le rendormissement",
+        "etapes": [
+          "Dans le lit, sans le sortir : lumière éteinte, silence.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Main posée sur son torse : immobile, jusqu'à ce que sa respiration se pose.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Renforcer les apports de jour : un enfant qui mange et boit bien en journée a moins besoin la nuit — mais la diversification ne fait pas dormir.",
+        "Le lait reste la base : au moins 500 ml de lait maternel ou de suite par jour jusqu'à un an.",
+        "Impliquer le co-parent : il peut répondre sans le sein disponible — cela facilite beaucoup la réduction.",
+        "Compter en semaines : une réduction progressive prend une à trois semaines."
+      ],
+      "principe": "Le besoin nutritionnel nocturne diminue à dix mois, mais aucune date ne s'impose. Si cela te convient, garde-le. Si cela t'épuise, réduis — doucement, jamais brutalement.",
+      "erreurs_a_eviter": [
+        "Supprimer brutalement la prise de nuit.",
+        "Laisser pleurer seul pour « sevrer » la nuit.",
+        "Culpabiliser de continuer à nourrir la nuit.",
+        "Réduire les apports de la journée en pensant qu'il compensera."
+      ],
+      "consulter_si": "Consulter si : bébé ne prend pas de poids, si sa courbe casse, s'il boit nettement moins de 500 ml de lait par jour, s'il paraît pâle ou fatigué, ou s'il refuse de manger en journée → pédiatre ou médecin traitant.",
+      "source": "Source : ameli.fr (Assurance Maladie) — l'alimentation de l'enfant de 8 mois à 3 ans."
+    }
+  ]
+}

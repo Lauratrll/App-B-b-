@@ -1,0 +1,195 @@
+{
+  "mois": 7,
+  "tranche_age": "7 mois",
+  "categorie": {
+    "id": "sepa",
+    "nom": "Angoisse de séparation",
+    "sous_titre": "Peur de l'étranger, filature, relais",
+    "icone": "💜"
+  },
+  "protocoles": [
+    {
+      "categorie": "sepa",
+      "situation": "Peur des inconnus / il se cache dans mon cou",
+      "titre": "Il se cache dans ton cou / tu es sa base sûre",
+      "explication": "Dès qu'un inconnu s'approche, il enfouit son visage dans ton cou. C'est exactement ce qu'il doit faire : il utilise sa base sûre pour évaluer une situation nouvelle. Ce comportement est le signe d'un attachement qui fonctionne, pas d'une timidité à corriger. Deux erreurs classiques : le pousser au contact « pour qu'il s'habitue », et s'excuser de sa réaction. Ce dont il a besoin, c'est de rester contre toi, d'observer, et de venir de lui-même — s'il vient, et quand il vient.",
+      "ancrage": "Se réfugier contre toi est une stratégie saine, pas un défaut de sociabilité. Ton rôle est d'être sa base — pas de le pousser.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — servir de base",
+        "etapes": [
+          "Le garder contre toi : il observe depuis sa base sûre, sans être exposé.",
+          "Demander à la personne de ralentir : ne pas le fixer, ne pas tendre les bras d'emblée.",
+          "Laisser la rencontre passer par un objet : un jouet tendu, un sourire, sans contact direct.",
+          "Nommer ce qu'il vit : « tu ne le connais pas, tu as le droit d'être prudent ».",
+          "Ne jamais le forcer : ni bras tendus, ni « fais un sourire »."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : après la rencontre",
+        "etapes": [
+          "Une fois au calme : bébé sur le dos, dans une pièce silencieuse.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne pas s'excuser : « il fait la différence, c'est bon signe » suffit.",
+        "Familiariser progressivement : plusieurs rencontres courtes valent mieux qu'une longue.",
+        "Anticiper l'adaptation : cette peur peut compliquer une entrée en garde — mieux vaut la préparer.",
+        "Se rappeler que cela passe : la phase s'atténue au fil des mois, chaque enfant à son rythme."
+      ],
+      "principe": "Se réfugier contre toi n'est pas de la timidité : c'est une stratégie d'attachement saine. Ton rôle est d'être la base, pas de pousser au contact.",
+      "erreurs_a_eviter": [
+        "Forcer bébé à aller dans les bras d'un inconnu.",
+        "S'excuser de sa réaction ou le présenter comme « difficile ».",
+        "Le laisser seul avec une personne qu'il ne connaît pas, sans transition.",
+        "Insister pour obtenir un sourire."
+      ],
+      "consulter_si": "Consulter si : bébé ne sourit à personne, y compris à toi, ne fixe pas les visages, ne réagit pas aux bruits, ne cherche jamais le contact, ou paraît anormalement mou ou éteint → pédiatre ou PMI.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Il me suit partout en rampant / même aux toilettes",
+      "titre": "La filature / aménager un espace sûr",
+      "explication": "Il te suit désormais partout, y compris aux toilettes, et hurle si une porte se ferme. Ses nouveaux déplacements ont transformé l'angoisse de séparation en filature : avant, il subissait ton départ ; maintenant, il peut te poursuivre. C'est éprouvant et c'est normal. Deux leviers : aménager un espace où il peut te suivre sans danger — c'est-à-dire sécuriser toute la zone —, et continuer à nommer tes départs et tes retours, même très courts, pour continuer de construire la permanence.",
+      "ancrage": "Il ne te colle pas : il vérifie. Ton levier n'est pas de le tenir à distance — c'est de sécuriser la zone où il te suit.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — sécuriser la filature",
+        "etapes": [
+          "Sécuriser toute la zone : prises couvertes, meubles fixés, produits ménagers en hauteur, escaliers barrés.",
+          "Le laisser suivre : dans une zone sûre, sa filature ne pose aucun problème.",
+          "Nommer même les départs courts : « je vais aux toilettes, je reviens » — toujours la même phrase.",
+          "Laisser la porte entrouverte : et parler depuis l'autre côté — ta voix suffit souvent.",
+          "Nommer le retour : « je suis revenue » — systématiquement."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : ancrer la sécurité",
+        "etapes": [
+          "Un moment quotidien : bébé sur le dos, éveillé et calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Ta voix pendant le geste : associée au toucher, elle devient un repère.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Sécuriser en avance : ce qu'il n'atteint pas encore, il l'atteindra dans quelques jours.",
+        "Retenir les priorités : escaliers, produits ménagers, piles boutons, cordons de rideaux, meubles instables.",
+        "Jouer à coucou : c'est l'entraînement direct à la permanence.",
+        "Se rappeler que cela passe : la filature s'atténue à mesure que la permanence se construit."
+      ],
+      "principe": "Sa filature est une vérification, pas un collage. Ce qui la rend vivable, c'est un espace sécurisé — et des départs et des retours toujours nommés.",
+      "erreurs_a_eviter": [
+        "Le repousser ou l'enfermer dans une autre pièce.",
+        "Partir en cachette pour éviter les pleurs.",
+        "Le laisser accéder à une zone non sécurisée pour avoir la paix.",
+        "Éviter toute séparation pour ne pas le perturber."
+      ],
+      "consulter_si": "Consulter si : bébé ne se calme jamais, même quand tu reviens, ne cherche jamais ton visage ni ta voix, paraît anormalement mou ou éteint → pédiatre ou PMI. En cas d'accident domestique — chute, ingestion, brûlure → appeler le 15.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — éviter les accidents domestiques des enfants."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Il panique quand je disparais / le coucou reste incompris",
+      "titre": "Le coucou / entraîner la permanence",
+      "explication": "Tu joues à coucou, et il ne rit pas : il panique. C'est normal — le jeu ne fonctionne que lorsque la permanence commence à se construire, et il n'y est pas encore tout à fait. Le coucou n'est pas qu'un jeu : c'est l'entraînement direct à l'idée que ce qui disparaît revient. La clé est la progressivité : commencer par des disparitions minuscules, avec ta voix qui continue, et allonger très lentement. Ce que tu entraînes là est exactement ce qui rendra les vraies séparations possibles.",
+      "ancrage": "Le coucou n'est pas un divertissement : c'est un entraînement. On commence par des disparitions d'une seconde, avec la voix qui continue.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — le coucou progressif",
+        "etapes": [
+          "Commencer très court : une seconde derrière tes mains, pas plus.",
+          "Garder ta voix : parler pendant que tu es caché — c'est ce qui rend l'absence supportable.",
+          "Réapparaître avec joie : toujours, avec le même mot.",
+          "Allonger très lentement : deux secondes, trois — sur plusieurs semaines.",
+          "S'arrêter s'il panique : revenir à une durée plus courte, sans forcer."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — varier les supports",
+        "etapes": [
+          "Cacher un objet sous un linge : et le faire réapparaître — même mécanisme, moins anxiogène.",
+          "Se cacher derrière un meuble : en gardant ta voix, puis réapparaître.",
+          "Le laisser initier : il cachera lui-même son visage — répondre à son jeu.",
+          "Nommer : « il est parti… il est revenu ! » — les mots construisent l'idée.",
+          "S'arrêter s'il se détourne : le jeu doit rester un plaisir."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Multiplier les micro-séparations : quelques minutes avec un autre adulte, plusieurs fois par semaine.",
+        "Nommer tous les départs et tous les retours : c'est le même entraînement, en situation réelle.",
+        "Ne pas éviter les séparations : les éviter reporte et aggrave la difficulté.",
+        "Se rappeler que c'est un progrès : cette angoisse est le signe d'un attachement qui fonctionne."
+      ],
+      "principe": "Le coucou entraîne littéralement la permanence : ce qui disparaît revient. C'est la répétition d'absences minuscules qui rendra les vraies séparations possibles.",
+      "erreurs_a_eviter": [
+        "Faire durer la disparition trop longtemps.",
+        "Insister alors qu'il panique.",
+        "Se cacher en silence — la voix est ce qui rend l'absence supportable.",
+        "Éviter tout jeu de séparation pour ne pas l'angoisser."
+      ],
+      "consulter_si": "Consulter si : bébé ne réagit pas à ta disparition ni à ton retour, ne cherche jamais ton visage, ne réagit pas aux bruits, ne babille pas, ou paraît anormalement mou ou éteint → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Il pleure quand je passe le relais / le co-parent est refusé",
+      "titre": "Le relais refusé / des moments dédiés, pas des urgences",
+      "explication": "Tu passes le relais au co-parent, et il hurle. Alors tu le reprends — et le relais échoue une fois de plus. Le problème n'est pas le co-parent : c'est le moment et la manière. Un relais qui se joue en urgence, quand tu es à bout et que bébé est déjà en crise, échoue presque toujours. Un relais qui se construit sur des moments dédiés, répétés, calmes, avec toi hors de la pièce, fonctionne — pas immédiatement, mais il fonctionne.",
+      "ancrage": "Un relais ne se passe pas en urgence : il se construit. Des moments dédiés et répétés valent mieux qu'un passage de bras au bord de la crise.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — construire le relais",
+        "etapes": [
+          "Choisir un moment calme : après la sieste, quand il est disponible — jamais en pleine crise.",
+          "Sortir physiquement de la pièce : ta présence entretient le refus.",
+          "Des moments dédiés et récurrents : le bain, le coucher, une sortie — identifiés, pas ponctuels.",
+          "Tenir malgré les pleurs : bébé peut protester au début — cela ne veut pas dire que cela échoue.",
+          "Ne pas commenter après : ni « tu aurais dû », ni « moi je fais comme ça »."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : un repère transmissible",
+        "etapes": [
+          "Le co-parent fait le geste : la même séquence, à l'identique.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Toujours au même moment : le repère vient de la régularité, pas de la personne.",
+          "S'arrêter à sa demande : le geste doit rester agréable, quel que soit l'adulte."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Éviter le piège de l'irremplaçable : plus les autres se retirent, plus la charge te revient entièrement.",
+        "Lâcher le contrôle : il fera autrement, et c'est très bien.",
+        "Répéter souvent et court : la fréquence prime largement sur la durée.",
+        "Se rappeler que cela s'inverse : les préférences parentales s'échangent souvent au fil des mois."
+      ],
+      "principe": "Un relais ne se passe pas dans l'urgence : il se construit sur des moments dédiés, répétés, avec toi hors de la pièce. La fréquence prime sur la durée.",
+      "erreurs_a_eviter": [
+        "Passer le relais au bord de la crise, quand tu es à bout.",
+        "Rester dans la pièce « pour rassurer ».",
+        "Reprendre bébé dès qu'il pleure avec le co-parent.",
+        "Corriger la façon de faire de l'autre adulte."
+      ],
+      "consulter_si": "Consulter si : bébé refuse tout contact avec quiconque, y compris toi, s'il paraît éteint ou apathique, ou si l'épuisement lié à cette exclusivité devient dangereux pour toi → pédiatre, PMI, ou Allo Parents Bébé (0 800 00 34 56)."
+    }
+  ]
+}

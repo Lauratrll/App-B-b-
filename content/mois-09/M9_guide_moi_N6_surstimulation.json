@@ -1,0 +1,195 @@
+{
+  "mois": 9,
+  "tranche_age": "9 mois",
+  "categorie": {
+    "id": "stimu",
+    "nom": "Sur-stimulation",
+    "sous_titre": "Retour de crèche, visites, sorties",
+    "icone": "✨"
+  },
+  "protocoles": [
+    {
+      "categorie": "stimu",
+      "situation": "Ingérable au retour de crèche / la décharge du soir",
+      "titre": "Le retour de crèche / vingt minutes sans consigne",
+      "explication": "Il a passé une journée impeccable — et il explose dès que tu arrives. Toute la journée, il a contenu : il s'est adapté, il a tenu, il a été « sage ». Ton retour est le signal que le relâchement est possible, parce qu'avec toi il n'a rien à prouver. Cette décharge est une preuve de sécurité, pas un reproche. Ce qu'il demande à cet instant n'est ni du jeu, ni des excuses, ni une compensation : ce sont vingt minutes où il ne se passe rien. Aucune consigne, aucune sollicitation.",
+      "ancrage": "Il ne te reproche rien : il lâche enfin. Vingt minutes sans consigne valent mieux que toutes les compensations.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — vingt minutes de rien",
+        "etapes": [
+          "Accueillir sans animer : le prendre, le tenir, sans jouer ni parler beaucoup.",
+          "Aucune consigne : ni bain, ni repas, ni rangement pendant ce temps.",
+          "Poser le téléphone : la première demi-heure se fait sans écran.",
+          "Un retour au calme : pièce sombre, silence, contact.",
+          "Accepter la durée : la décharge peut prendre du temps."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : le rituel des retrouvailles",
+        "etapes": [
+          "Au retour, chaque soir : toujours au même moment.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : il peut avoir besoin de calme avant de contact."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne pas culpabiliser : cette décharge n'est pas le signe qu'il a mal vécu sa journée.",
+        "Se méfier de la sur-compensation : la culpabilité pousse à stimuler — c'est l'inverse qu'il demande.",
+        "Décaler le repas si besoin : quinze minutes de calme d'abord valent mieux qu'un repas subi.",
+        "Retenir le mécanisme : un enfant décharge auprès de celui ou celle qui le sécurise le plus."
+      ],
+      "principe": "La décharge du retour est une preuve de sécurité. Ce qu'il demande, c'est un vide — jamais une compensation.",
+      "erreurs_a_eviter": [
+        "Compenser par du jeu, une sortie ou une animation.",
+        "Interpréter ses pleurs comme la preuve qu'il a été malheureux.",
+        "Enchaîner les tâches dès le retour.",
+        "Utiliser un écran pour « souffler »."
+      ],
+      "consulter_si": "Consulter si : bébé paraît éteint ou apathique, refuse de manger ou de boire à la crèche pendant plusieurs jours, s'il perd du poids, ou s'il pleure de façon inconsolable en permanence → pédiatre, PMI, ou psychologue périnatal.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "Refuse tous les bras sauf les miens / même en famille",
+      "titre": "Il ne veut que tes bras / traduire, pas forcer",
+      "explication": "Il refuse tous les bras, y compris ceux des grands-parents qu'il voit chaque semaine. C'est éprouvant, et cela vexe l'entourage. Cette sélectivité est pourtant un signe de sécurité : il a identifié sa figure d'attachement, et il la réclame en période d'angoisse. Ce n'est ni de la timidité, ni un caprice, ni un défaut d'éducation. Ce dont il a besoin, c'est que tu traduises pour lui — parce qu'il ne sait pas dire « pas maintenant » — et non qu'on le pousse dans des bras qu'il refuse.",
+      "ancrage": "Sa sélectivité est un signe de sécurité, pas un défaut. Il ne sait pas dire « pas maintenant » : c'est toi qui traduis.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — traduire",
+        "etapes": [
+          "Le garder contre toi : il observe depuis sa base sûre.",
+          "Traduire pour lui : « il a besoin d'un moment, il viendra tout à l'heure ».",
+          "Demander à la personne de ralentir : ne pas tendre les bras, ne pas le fixer.",
+          "Laisser la rencontre passer par un objet ou un jeu : sans contact direct.",
+          "Ne jamais forcer : ni bras tendus, ni « fais un bisou »."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : après une visite",
+        "etapes": [
+          "Une fois au calme : bébé sur le dos, dans le silence.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Expliquer à l'entourage : « c'est une phase de l'attachement, elle est normale et elle passera ».",
+        "Ne pas s'excuser de lui : l'excuse le présente comme un problème.",
+        "Familiariser progressivement : plusieurs rencontres courtes, dans la même pièce, valent mieux qu'un bras tendu.",
+        "Se rappeler que cela passe : cette phase s'atténue au fil des mois."
+      ],
+      "principe": "Sa sélectivité est un signe de sécurité. Ton rôle est de traduire son besoin — jamais de le pousser dans des bras qu'il refuse pour ménager l'entourage.",
+      "erreurs_a_eviter": [
+        "Forcer bébé à aller dans les bras de quelqu'un.",
+        "S'excuser de sa réaction ou le présenter comme « difficile ».",
+        "Le faire passer de bras en bras.",
+        "Insister pour obtenir un bisou ou un sourire."
+      ],
+      "consulter_si": "Consulter si : bébé ne sourit à personne, y compris à toi, ne réagit pas aux bruits, ne babille pas, ne cherche jamais le contact, ou paraît anormalement mou ou éteint → pédiatre ou PMI.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "Sur-éveillé après la visite des grands-parents / impossible à poser",
+      "titre": "Après la visite / rétablir les repères",
+      "explication": "Les grands-parents sont partis, et il est ingérable : surexcité, incapable de se poser, il refuse la sieste et le coucher. Une visite cumule deux choses — une excitation intense, et une rupture des repères habituels : horaires décalés, sieste écourtée, repas déplacé, rythme bouleversé. Le réflexe est d'ajouter du calme, en le berçant, en le portant longuement. Ce qui fonctionne mieux : rétablir les repères. Reprendre le rythme habituel, dans l'ordre habituel, est plus apaisant que n'importe quel calme forcé.",
+      "ancrage": "Ce n'est pas du calme qu'il lui faut : ce sont ses repères. Reprendre le rythme habituel apaise mieux que n'importe quel bercement.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — rétablir les repères",
+        "etapes": [
+          "Reprendre le rythme : le repas, le bain, le coucher — dans l'ordre habituel, même décalés.",
+          "Le rituel habituel, à l'identique : c'est la prévisibilité qui rassure.",
+          "Baisser l'environnement : lumière, bruit, objets — tout descend d'un cran.",
+          "Un seul adulte : pas de passage de bras, pas de nouvelle stimulation.",
+          "Accepter une soirée difficile : elle est la facture de la journée, pas un problème nouveau."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : le sas de décompression",
+        "etapes": [
+          "Avant le coucher : bébé sur le dos, dans le calme.",
+          "Toucher enveloppant des pieds : les tenir entiers dans tes paumes, immobiles.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Cadrer les visites en amont : durée courte, horaires respectés, pas de sieste sacrifiée.",
+        "Protéger la sieste : c'est ce qui coûte le plus cher quand on la saute.",
+        "Prévenir l'entourage : les jeux surexcitants produisent les plus gros contrecoups.",
+        "Prévoir une soirée allégée : après une visite, aucun autre engagement."
+      ],
+      "principe": "Une visite bouscule les repères autant qu'elle excite. Ce qui apaise, ce n'est pas le calme forcé : c'est de remettre le rythme habituel en place.",
+      "erreurs_a_eviter": [
+        "Ajouter du calme forcé — bercement prolongé, portage sans fin.",
+        "Sacrifier la sieste pour la visite.",
+        "Prolonger la visite « puisque tout le monde est là ».",
+        "Utiliser un écran pour le calmer."
+      ],
+      "consulter_si": "Consulter si : bébé reste inconsolable plusieurs heures malgré le retour au calme, s'il refuse de boire, présente de la fièvre, ou paraît anormalement mou ou difficile à réveiller → pédiatre, le 15 selon l'urgence.",
+      "source": "Source : Haut Conseil de la santé publique — avis sur les effets de l'exposition des enfants et des jeunes aux écrans."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "Craque en pleine sortie / lieu trop stimulant",
+      "titre": "L'effondrement en sortie / repérer les signaux avant",
+      "explication": "Vous êtes au milieu du magasin, du parc, du restaurant — et il s'effondre. La sortie est fichue, et la culpabilité s'installe. Pourtant, il a prévenu : le regard qui fuit, le corps qui se cambre, les mains crispées, l'agitation qui s'accélère. Ces signaux arrivent bien avant les pleurs. Les repérer permet d'écourter à temps — et écourter n'est ni un échec, ni un renoncement : c'est un réglage. Une sortie interrompue à temps vaut infiniment mieux qu'une sortie subie jusqu'à l'effondrement.",
+      "ancrage": "Il prévient avant de craquer. Repérer ses signaux permet d'écourter à temps — et écourter n'est pas un échec.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — repérer et écourter",
+        "etapes": [
+          "Repérer les premiers signaux : regard qui fuit, corps qui se cambre, mains crispées, agitation.",
+          "Partir à ce moment-là : ne pas attendre les pleurs — c'est déjà trop tard.",
+          "Le protéger visuellement : capote de poussette, portage face à toi.",
+          "Rentrer directement : ne pas enchaîner une deuxième activité.",
+          "Un sas au retour : pièce sombre, silence, aucune stimulation."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : décharger le trop-plein",
+        "etapes": [
+          "Une fois rentré : bébé sur le dos, dans le silence.",
+          "Toucher enveloppant des pieds : les tenir entiers dans tes paumes, immobiles.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Choisir les horaires creux : tôt le matin, quand les lieux sont vides.",
+        "Raccourcir par défaut : trente à quarante-cinq minutes dans un lieu chargé.",
+        "Assumer sans culpabilité : annuler ou écourter une sortie est un réglage, pas un échec.",
+        "Ne pas se juger sur le regard des autres : un enfant qui craque en public n'est pas un enfant mal élevé."
+      ],
+      "principe": "Il prévient toujours avant de craquer. Écourter à temps n'est pas un renoncement : c'est répondre à un signal qu'il t'a envoyé.",
+      "erreurs_a_eviter": [
+        "Prolonger la sortie « puisqu'on y est ».",
+        "Enchaîner plusieurs lieux dans la même sortie.",
+        "Culpabiliser d'avoir écourté.",
+        "Compenser l'effondrement par une stimulation supplémentaire."
+      ],
+      "consulter_si": "Consulter si : bébé reste inconsolable plusieurs heures malgré le retour au calme, s'il refuse de boire, présente de la fièvre, ou paraît anormalement mou ou difficile à réveiller → pédiatre, le 15 selon l'urgence."
+    }
+  ]
+}

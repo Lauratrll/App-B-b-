@@ -1,0 +1,195 @@
+{
+  "mois": 6,
+  "tranche_age": "6 mois",
+  "categorie": {
+    "id": "pleurs",
+    "nom": "Pleurs & frustration",
+    "sous_titre": "Frustration motrice, surcharge, séparation",
+    "icone": "😢"
+  },
+  "protocoles": [
+    {
+      "categorie": "pleurs",
+      "situation": "Pleurs de frustration motrice / bébé bloqué",
+      "titre": "La frustration motrice / aménager, pas faire à sa place",
+      "explication": "Il se retourne, se retrouve sur le ventre, veut avancer — et reste bloqué. Il hurle de rage. À six mois, l'intention est très en avance sur les moyens : il sait ce qu'il veut, son corps ne suit pas encore. Cette frustration n'est pas une souffrance à supprimer, c'est le moteur de l'apprentissage. Un bébé à qui l'on retire tous les obstacles n'a plus de raison de progresser. Ce que tu peux faire n'est pas de résoudre à sa place : c'est d'ajuster la difficulté pour que l'effort reste possible, et de l'arrêter avant l'effondrement.",
+      "ancrage": "Sa rage dit que son intelligence dépasse ses moyens : c'est rassurant. Tu n'as pas à retirer l'obstacle, mais à le rendre franchissable.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — ajuster la difficulté",
+        "etapes": [
+          "Rapprocher l'objet de quelques centimètres : juste assez pour que l'effort redevienne possible.",
+          "Nommer ce qu'il vit : « tu veux l'attraper et c'est difficile » — la validation apaise avant l'action.",
+          "Ne pas faire à sa place : donner l'objet met fin à l'apprentissage et à la fierté.",
+          "Le libérer avant l'effondrement : quand la rage devient détresse, on le remet sur le dos et on passe à autre chose.",
+          "Rester à côté, calme : ta présence tranquille l'aide à tenir l'effort."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : redescendre après la frustration",
+        "etapes": [
+          "Une fois la crise passée : bébé sur le dos, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : un pied retiré, une crispation — on arrête."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Aménager l'espace : tapis ferme, deux ou trois objets à bonne distance, aucune entrave — c'est le vrai levier.",
+        "Limiter l'immobilisation : pas plus d'une heure d'affilée en transat, poussette, coque ou siège.",
+        "Doser les sessions : quelques minutes suffisent ; au-delà, la fatigue transforme l'effort en détresse.",
+        "Ne jamais l'installer dans une position qu'il n'atteint pas seul : ni assis calé, ni debout."
+      ],
+      "principe": "Supprimer l'obstacle supprime l'apprentissage. Ton rôle est d'ajuster la distance pour que l'effort reste à sa portée — pas de résoudre à sa place.",
+      "erreurs_a_eviter": [
+        "Mettre l'objet dans sa main dès qu'il s'énerve.",
+        "Le retourner systématiquement dès qu'il se bloque sur le ventre.",
+        "Le caler assis pour « faciliter » l'attrapage.",
+        "Laisser la crise s'installer jusqu'à l'épuisement."
+      ],
+      "consulter_si": "Consulter si : bébé ne tend jamais la main vers un objet, ne se retourne pas du tout vers sept mois, paraît anormalement mou ou raide, si tu observes une asymétrie entre les deux côtés du corps, ou s'il perd une compétence acquise → pédiatre ou PMI, qui orientera si nécessaire vers un kinésithérapeute pédiatrique ou un psychomotricien.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'activité physique du tout-petit et les étapes du développement de bébé."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Surcharge sensorielle / décharge du soir",
+      "titre": "La surcharge sensorielle / couper les entrées avant la crise",
+      "explication": "À six mois, ton bébé perçoit énormément — et son cerveau ne sait toujours pas trier. Une journée riche en visages, en sorties, en jeux, en bruits, s'accumule sans être filtrée. La décharge arrive le soir : il pleure, rien ne le console, et tout ce que tu proposes semble aggraver la situation. C'est logique : chaque nouvelle tentative est une stimulation de plus. Le levier n'est pas dans la consolation, il est en amont — couper les entrées avant que la crise n'arrive, et non chercher à réparer après.",
+      "ancrage": "On ne console pas une surcharge, on la prévient. Ce qui aide le soir, c'est ce que tu as retiré dans l'après-midi.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — retirer, ne pas ajouter",
+        "etapes": [
+          "Réduire l'environnement : pièce sombre, silence, un seul adulte auprès de lui.",
+          "Cesser les manipulations : ne plus le changer de position, ni de bras, ni de pièce.",
+          "Un seul canal à la fois : la voix ou le toucher, jamais les deux ensemble.",
+          "Accepter la décharge : les pleurs peuvent durer — c'est la sortie du trop-plein.",
+          "Coucher ensuite : le sommeil vient souvent une fois la vague passée."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : décharger le trop-plein",
+        "etapes": [
+          "Une fois la première vague passée : bébé sur le dos, dans le silence.",
+          "Toucher enveloppant des pieds : les tenir entiers dans tes paumes, immobiles.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Doser la journée : une activité forte par jour suffit largement à cet âge.",
+        "Épurer l'espace de jeu : deux ou trois objets, pas de jouets sonores ni lumineux.",
+        "Zéro écran : la recommandation française est claire avant trois ans, bruit de fond compris.",
+        "Repérer ses signaux de saturation : regard qui fuit, bâillements, agitation, mains crispées."
+      ],
+      "principe": "La surcharge ne se console pas, elle se prévient. Réduire l'entrée de stimulations est toujours plus efficace que d'apaiser une fois le trop-plein installé.",
+      "erreurs_a_eviter": [
+        "Enchaîner les techniques d'apaisement — chaque changement est une stimulation de plus.",
+        "Mettre de la musique ou un écran pour couvrir les pleurs.",
+        "Compenser une journée chargée par une activité supplémentaire.",
+        "Faire passer bébé de bras en bras pour trouver qui le calme."
+      ],
+      "consulter_si": "Consulter si : bébé reste inconsolable plusieurs heures malgré le retour au calme, s'il refuse de boire, présente de la fièvre, ou paraît anormalement mou ou difficile à réveiller → pédiatre, le 15 selon l'urgence. Si les soirées te mettent en danger de perdre le contrôle : poser bébé sur le dos dans son lit, sortir de la pièce, appeler Allo Parents Bébé (0 800 00 34 56).",
+      "source": "Source : Haute Autorité de Santé — recommandation « Syndrome du bébé secoué ou traumatisme crânien non accidentel par secouement »."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Réveils en pleurs / après une période calme",
+      "titre": "Les réveils en pleurs / lire l'heure avant d'agir",
+      "explication": "Il dormait bien, et le voilà qui se réveille en pleurant, plusieurs fois par nuit. Le réflexe est d'agir : le prendre, le nourrir, le bercer. Avant cela, regarde l'heure. Le sommeil se réorganise autour de six mois, et une grande partie de ces réveils sont des passages de fin de cycle : bébé émerge, geint, et se rendort seul si on ne l'interrompt pas. Nourrir un bébé qui n'a pas faim n'améliore rien — cela transforme un micro-réveil en réveil complet, et installe une habitude qu'il faudra ensuite défaire.",
+      "ancrage": "Un bébé qui pleure la nuit n'a pas forcément un besoin. Attendre une à deux minutes reste le geste le plus utile de la nuit.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — avant d'intervenir",
+        "etapes": [
+          "Attendre une à deux minutes : beaucoup de réveils de fin de cycle se rendorment seuls.",
+          "Écouter le type de pleur : un geignement n'est pas un appel ; un vrai pleur monte et se maintient.",
+          "Regarder l'heure : si la dernière prise est récente, ce n'est probablement pas la faim.",
+          "Intervenir par paliers : voix, puis main posée, puis portage seulement si nécessaire.",
+          "Ne pas allumer la lumière : la pénombre du début à la fin."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : préparer la nuit",
+        "etapes": [
+          "Dans le rituel du soir : toujours au même moment, après le bain.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Traiter la journée : sur-fatigue et fenêtres d'éveil mal calibrées hachent la nuit plus que tout le reste.",
+        "Relier aux acquis moteurs : chaque progrès moteur perturbe temporairement les nuits.",
+        "Se relayer : chaque parent une moitié de nuit, pour un bloc continu chacun.",
+        "Mesurer sur plusieurs semaines : le sommeil se lit en tendance, jamais sur deux nuits."
+      ],
+      "principe": "Un réveil n'est pas toujours un besoin. Intervenir trop vite transforme un passage de fin de cycle en réveil réel — et nourrir un bébé qui n'a pas faim installe une habitude.",
+      "erreurs_a_eviter": [
+        "Prendre bébé dans les bras au premier son.",
+        "Proposer une tétée ou un biberon à chaque réveil, sans distinguer.",
+        "Allumer la lumière et parler normalement.",
+        "Changer de méthode toutes les nuits."
+      ],
+      "consulter_si": "Consulter si : bébé se réveille en hurlant de façon inconsolable, s'il présente de la fièvre, des vomissements, s'il refuse de boire, ne prend pas de poids, ou présente des pauses respiratoires, une respiration bruyante ou un ronflement important → pédiatre ; le 15 en cas de trouble respiratoire.",
+      "source": "Source : Institut national du sommeil et de la vigilance et ameli.fr — le sommeil de l'enfant : étapes, cycles et évolution."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Pleurs de séparation visuelle / précurseur de l'angoisse",
+      "titre": "Les pleurs quand tu sors du champ / la voix qui relie",
+      "explication": "Tu sors de la pièce, il pleure. Tu reviens, il s'arrête. C'est le premier signe que ton absence existe pour lui — un progrès majeur, et le précurseur de l'angoisse de séparation qui montera dans les mois à venir. Il commence à comprendre que tu es une personne distincte, mais pas encore que tu continues d'exister quand il ne te voit plus. Cette permanence se construit maintenant. Ta voix, qui continue depuis l'autre pièce, est exactement l'outil qui la construit : elle relie quand le corps s'éloigne.",
+      "ancrage": "Il ne te réclame pas : il te perd. Ta voix depuis l'autre pièce lui apprend, concrètement, que tu continues d'exister.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — la voix comme fil",
+        "etapes": [
+          "Parler en continu : depuis l'autre pièce, sans interruption — c'est ce qui le rassure le plus.",
+          "Annoncer avant de partir : « je vais dans la cuisine, je reviens » — toujours la même phrase.",
+          "Revenir montrer ton visage : brièvement, sans le prendre systématiquement.",
+          "L'installer là où il te voit : au sol, en sécurité, pendant que tu fais autre chose.",
+          "Ne jamais partir en silence : la disparition brusque est ce qui l'inquiète le plus."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : nourrir la sécurité",
+        "etapes": [
+          "Un moment quotidien : bébé sur le dos, éveillé et calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Parler pendant le geste : ta voix associée au toucher devient un repère de sécurité.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Jouer à coucou : cacher ton visage et réapparaître — le jeu construit directement la permanence.",
+        "Allonger progressivement : faire durer un peu plus le temps caché, en gardant ta voix.",
+        "Répondre sans tout arrêter : ta voix suffit souvent, tu n'as pas à revenir à chaque fois.",
+        "Anticiper le pic : l'angoisse de séparation s'intensifiera dans les mois qui viennent — ce que tu poses maintenant servira."
+      ],
+      "principe": "La permanence se construit par la répétition du couple départ-retour. Ta voix qui continue est, pour lui, la preuve que tu existes toujours.",
+      "erreurs_a_eviter": [
+        "Partir en silence pour éviter les pleurs.",
+        "Le prendre dans les bras à chaque appel — ta voix suffit souvent.",
+        "Interpréter ces pleurs comme de la manipulation.",
+        "Le placer devant un écran pour l'occuper pendant ton absence."
+      ],
+      "consulter_si": "Consulter si : bébé ne se calme jamais, même quand tu reviens, s'il ne cherche jamais ton visage ni ta voix, s'il ne réagit pas aux bruits forts, ou s'il paraît anormalement mou ou éteint → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition et de la vision."
+    }
+  ]
+}

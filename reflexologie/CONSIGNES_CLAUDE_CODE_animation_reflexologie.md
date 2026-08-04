@@ -1,6 +1,8 @@
 # CONSIGNES CLAUDE CODE — Animation des zones de Réflexologie
 
-**Statut : validé.** Les 37 zones du catalogue ont un mouvement défini et approuvé. Prêt pour l'intégration dans l'app et la compilation des protocoles.
+**Statut : validé.** Les 41 zones du catalogue ont un mouvement défini et approuvé. Prêt pour l'intégration dans l'app et la compilation des protocoles.
+
+> **⚠️ Intégration animations — lire d'abord `INTEGRATION_Code_animations.md`.** Les animations doivent **reproduire** les prototypes `mouvement-*.html` (source de vérité), avec les **constantes exactes** de `PARAMS_animation.json` et les **tracés précalculés** de `RAILS_zones.json`. Ne pas re-dériver les gestes ni re-squelettiser les zones depuis la prose.
 
 | Fichier | Rôle |
 |---|---|
@@ -149,11 +151,15 @@ Stocker chaque point `[x, y, épaisseur locale]`.
 
 **Zones à plusieurs orteils** (dents haut, dents bas, amygdales) : chaque orteil est un petit glissé, enchaînés du gros orteil vers le petit ; **vitesse constante `VITESSE_EL`** (durée de chaque orteil ∝ sa longueur, le gros orteil dure donc plus longtemps) ; plancher `T_MIN_EL2` 800 ms ; une zone peut avoir sa propre `vitesse_el` (les amygdales sont un peu plus lentes). Passages : 2.
 
-**Zones (12) :** diaphragme, colonne-vertebrale, colonne-vertebrale-contour, oesophage, cou, bassin-ancrage, gros-intestin, thyroide, dents-machoire-haute, dents-machoire-bas, amygdales, oreilles-nez.
+**Zones (pression glissée) :** diaphragme, colonne-vertebrale, **colonne-nerf-vague**, colonne-vertebrale-contour, oesophage, cou, bassin-ancrage, gros-intestin, thyroide, dents-machoire-haute, dents-machoire-bas, amygdales, **nez**, **oreilles**.
 
-Deux sous-cas particuliers dans ce fichier :
+Sous-cas particuliers dans ce fichier :
 - **gros-intestin** : cheminement enchaîné entre les pieds (voir §9).
-- **oreilles-nez** : zone en croix, mode « groupe » — un passage = toute la croix (le nez de haut en bas, puis les oreilles en travers), répété 3 fois.
+- **nez** : zone en **croix** sur le gros orteil, mode « groupe » — un passage = toute la croix (le nez **de haut en bas**, puis **du bord vers les autres orteils**), répété **3 fois**. (Remplace l'ancienne zone `oreilles-nez`, désormais scindée.)
+- **oreilles** : zone séparée, côté **extérieur** du pied (base des 4ᵉ-5ᵉ orteils) ; glissé **de l'intérieur vers l'extérieur**, 3 passages.
+- **colonne-nerf-vague** : **version allongée de la colonne** intégrant le nerf vague. Un **seul** geste (glissé le long de la colonne). S'utilise **à la place** de `colonne-vertebrale` (jamais en plus) dans **Prématurité** et **Mal des transports**.
+
+**Nouveaux points (pression maintenue) :** **epaule** (bord extérieur, base du petit orteil) et **hanche** (bord extérieur, bas du pied) — utilisés dans **Frustration motrice**.
 
 ---
 

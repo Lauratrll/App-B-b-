@@ -1,0 +1,193 @@
+{
+  "mois": 8,
+  "tranche_age": "8 mois",
+  "categorie": {
+    "id": "sepa",
+    "nom": "Angoisse de séparation",
+    "sous_titre": "Pic, co-parent, crèche, retrouvailles",
+    "icone": "💜"
+  },
+  "protocoles": [
+    {
+      "categorie": "sepa",
+      "situation": "Il pleure dès que je m'éloigne / le pic de l'angoisse",
+      "titre": "Le pic de l'angoisse / des départs annoncés et courts",
+      "explication": "L'angoisse de séparation atteint son sommet autour de huit à dix mois. Il pleure dès que tu t'éloignes, te suit partout, panique quand une porte se ferme. Il a compris que tu existes ailleurs, sans avoir encore la certitude que tu reviendras. Le réflexe est d'éviter les départs — ne plus sortir, ne plus le confier, rester en permanence. Cela soulage sur le moment, et cela aggrave le fond : ce qui construit la confiance, ce sont des départs courts, annoncés, et des retours systématiques.",
+      "ancrage": "Éviter les départs soulage l'instant et aggrave le fond. Ce qui entraîne la confiance, ce sont des séparations courtes et répétées.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — annoncer, partir, revenir",
+        "etapes": [
+          "Annoncer chaque départ : « je pars, je reviens » — toujours la même phrase, même pour deux minutes.",
+          "Partir vraiment : sans revenir sur ses pas, sans prolonger.",
+          "Revenir vite la première fois : et le nommer — « je suis partie, je suis revenue ».",
+          "Multiplier les séparations courtes : plusieurs fois par jour, avec un autre adulte.",
+          "Ne jamais partir en cachette : cela fabrique l'insécurité qu'on veut éviter."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : ancrer la sécurité",
+        "etapes": [
+          "Un moment quotidien : bébé sur le dos, éveillé et calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Ta voix pendant le geste : associée au toucher, elle devient un repère.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Jouer à coucou : c'est l'entraînement direct à la permanence.",
+        "Se rappeler que c'est un pic : cette phase culmine puis s'atténue, chaque enfant à son rythme.",
+        "Ne pas culpabiliser : cette angoisse est le signe d'un attachement qui fonctionne.",
+        "Tenir même quand c'est dur : la constance est ce qui construit la confiance."
+      ],
+      "principe": "Le pic de l'angoisse ne s'apaise pas en supprimant les séparations : il s'apaise par la répétition de retours fiables. C'est l'entraînement, pas l'évitement.",
+      "erreurs_a_eviter": [
+        "Éviter toute séparation pour ne pas le perturber.",
+        "Partir en cachette.",
+        "Prolonger les au revoir ou revenir plusieurs fois.",
+        "Interpréter cette angoisse comme un problème d'éducation."
+      ],
+      "consulter_si": "Consulter si : bébé ne se calme jamais, même quand tu reviens, ne cherche jamais ton visage ni ta voix, ne réagit pas aux bruits, ne babille pas, ou paraît anormalement mou ou éteint → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Il refuse son co-parent / rejet net et soudain",
+      "titre": "Le rejet du co-parent / ce n'est pas un jugement",
+      "explication": "Il hurle dès que le co-parent le prend, se tend vers toi, le repousse. C'est brutal à vivre pour l'autre parent, et c'est presque toujours mal interprété : « il ne m'aime pas », « je m'y prends mal ». Ce n'est ni l'un ni l'autre. C'est une phase de l'attachement, où l'enfant se concentre sur sa figure principale. Le piège est le retrait : plus le co-parent s'éloigne, plus le rejet se creuse. Ce qui inverse la tendance, ce sont des moments entiers, sans toi dans la pièce, et sans intervention.",
+      "ancrage": "Ce rejet n'est pas un jugement sur lui. Ce qui le creuse, c'est le retrait — ce qui le desserre, ce sont des moments entiers, sans toi.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — donner des moments entiers",
+        "etapes": [
+          "Des moments complets : le bain, le coucher, une sortie — du début à la fin, sans relais.",
+          "Sortir physiquement : quitter la pièce, idéalement la maison.",
+          "Ne pas intervenir : ni conseil, ni correction, ni commentaire après.",
+          "Tenir malgré les pleurs : bébé peut protester au début — cela ne veut pas dire que cela échoue.",
+          "Répéter souvent : la fréquence prime largement sur la durée."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : un repère qui lui appartient",
+        "etapes": [
+          "Le co-parent fait le geste : la même séquence, à l'identique, à sa façon.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Toujours au même moment : le repère vient de la régularité.",
+          "S'arrêter à sa demande : le geste doit rester agréable, quel que soit l'adulte."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Nommer le mécanisme au co-parent : ce n'est pas un rejet de lui, c'est une phase de l'attachement.",
+        "Éviter le piège de l'irremplaçable : plus tu es la seule à réussir, plus la charge te revient.",
+        "Lâcher le contrôle : il fera autrement, et c'est très bien.",
+        "Se rappeler que cela s'inverse : les préférences s'échangent souvent au fil des mois."
+      ],
+      "principe": "Le rejet du co-parent est une phase, pas un verdict. Il se creuse par le retrait et se desserre par des moments entiers, répétés, sans intervention.",
+      "erreurs_a_eviter": [
+        "Reprendre bébé dès qu'il pleure avec le co-parent.",
+        "Rester dans la pièce « pour rassurer ».",
+        "Corriger la façon de faire de l'autre.",
+        "Interpréter les pleurs comme la preuve qu'il « n'y arrive pas »."
+      ],
+      "consulter_si": "Consulter si : le co-parent se sent durablement exclu, triste, irritable ou détaché, s'il s'isole ou perd tout intérêt pour le bébé → la dépression périnatale touche aussi les co-parents : en parler au médecin, à la sage-femme, à la PMI ou à un psychologue périnatal. En cas de pensées suicidaires : 3114."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Le matin à la crèche est un déchirement / il hurle en me lâchant",
+      "titre": "Le matin à la crèche / un rituel court, identique, prévisible",
+      "explication": "Il hurle quand tu le confies, s'accroche, te regarde partir. C'est déchirant — et la culpabilité pousse à étirer l'au revoir : revenir, reprendre, expliquer, promettre. C'est exactement ce qui aggrave sa détresse. Un au revoir long entretient l'incertitude ; un au revoir court et prévisible la referme. Ce qui l'aide : un rituel de départ toujours identique, très court, suivi d'un départ franc. Et savoir qu'il se calme le plus souvent dans les minutes qui suivent — les professionnels peuvent te le confirmer.",
+      "ancrage": "Un au revoir étiré n'apaise pas : il prolonge la détresse. Court, identique, prévisible — puis on part vraiment.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — le rituel du matin",
+        "etapes": [
+          "Un rituel très court : une phrase, un baiser, un geste — toujours les mêmes, dans le même ordre.",
+          "Confier à la même personne : autant que possible, le même adulte à l'accueil.",
+          "Partir franchement : sans revenir sur ses pas, sans reprendre bébé.",
+          "Ne jamais partir en cachette : cela fabrique l'insécurité.",
+          "Demander confirmation : appeler ou demander le soir combien de temps il a pleuré — c'est souvent très court."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — les retrouvailles",
+        "etapes": [
+          "Un objet transitionnel : un tissu portant ton odeur, pour l'éveil — jamais dans le lit pendant le sommeil.",
+          "Une phrase rituelle au retour : la même à chaque fois.",
+          "Une demi-heure pleine : sans écran, sans tâche ménagère.",
+          "Accepter sa réaction : pleurs, agitation ou indifférence sont tous normaux.",
+          "Respecter sa saturation : il peut avoir besoin de calme avant de contact."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Transmettre ses repères : signes de fatigue, façon de le calmer, rituel du repas — par écrit.",
+        "Se rappeler que cela s'améliore : la plupart des adaptations se stabilisent en une à trois semaines.",
+        "Traiter ta culpabilité séparément : elle est réelle, elle se dit — et elle ne se résout pas par un protocole.",
+        "Ne pas juger la qualité de la garde à ses pleurs du matin : ce sont deux choses distinctes."
+      ],
+      "principe": "Un rituel de départ court, identique et prévisible sécurise plus qu'un au revoir étiré par la culpabilité. Il se calme le plus souvent dans les minutes qui suivent.",
+      "erreurs_a_eviter": [
+        "Étirer l'au revoir, revenir, reprendre bébé.",
+        "Partir en cachette pour éviter les pleurs.",
+        "Changer de rituel chaque matin.",
+        "Juger la garde à partir de ses pleurs de séparation."
+      ],
+      "consulter_si": "Consulter si : bébé refuse de manger et de boire à la crèche pendant plusieurs jours, s'il perd du poids, s'il paraît éteint ou apathique, ou si l'angoisse de la séparation devient envahissante pour toi → pédiatre, PMI, ou psychologue périnatal."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Il se cramponne puis me repousse / au moment des retrouvailles",
+      "titre": "Il te repousse aux retrouvailles / une décharge, pas un rejet",
+      "explication": "Tu arrives, il tend les bras — puis il se détourne, te repousse, refuse ton contact. C'est incompréhensible et blessant. C'est pourtant une décharge de tension, pas un rejet : il a contenu toute la journée, et le retrouver te fait relâcher un mélange de soulagement, de colère et de fatigue qu'il ne sait pas trier. Ce dont il a besoin, ce n'est ni d'insister pour le prendre, ni de se vexer : c'est de te sentir disponible, présente, calme — sans exiger de lui un élan de joie qu'il n'a pas.",
+      "ancrage": "Il ne te repousse pas : il décharge. Reste disponible, sans exiger l'élan de joie que tu attendais.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — rester disponible",
+        "etapes": [
+          "Ne pas insister : ne pas le forcer dans tes bras.",
+          "Rester à proximité : assis à côté, disponible, sans le solliciter.",
+          "Nommer ce qu'il vit : « tu as gardé beaucoup pour toi, tu peux lâcher ».",
+          "Attendre qu'il vienne : il viendra, souvent quelques minutes plus tard.",
+          "Ne pas se vexer : sa réaction n'est pas un jugement sur toi."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : le rituel du retour",
+        "etapes": [
+          "Une fois qu'il revient vers toi : bébé sur le dos, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir le mécanisme : la décharge se fait auprès de la figure d'attachement, jamais auprès des étrangers.",
+        "Protéger la première demi-heure : sans écran, sans tâche, sans consigne.",
+        "Ne pas compenser : la culpabilité pousse à stimuler — c'est l'inverse qu'il demande.",
+        "En parler si cela te blesse : ce sentiment est fréquent et rarement dit."
+      ],
+      "principe": "Le rejet des retrouvailles est une décharge de tension, pas un jugement. Rester disponible sans exiger de joie est exactement ce dont il a besoin.",
+      "erreurs_a_eviter": [
+        "Insister pour le prendre dans tes bras.",
+        "Se vexer ou se retirer par dépit.",
+        "Compenser par du jeu ou une sortie.",
+        "Interpréter ce rejet comme la preuve qu'il a mal vécu sa journée."
+      ],
+      "consulter_si": "Consulter si : bébé paraît éteint ou apathique, refuse le contact de façon systématique et durable, ne sourit plus, ou s'il perd des compétences acquises → pédiatre ou PMI."
+    }
+  ]
+}

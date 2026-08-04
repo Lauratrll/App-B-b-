@@ -125,5 +125,8 @@
   "lancement": true,
   "sujet_sensible": true,
   "emotion": "L'inconfort peut agacer ou inquiéter bébé : ta présence calme et ton geste doux l'apaisent.",
-  "visuel": "visuels-protocoles/Visuel - Reflux.png"
+  "visuel": "visuels-protocoles/Visuel - Reflux.png",
+  "age_min_mois": 0,
+  "age_max_mois": 4,
+  "age_statut": "brouillon"
 }

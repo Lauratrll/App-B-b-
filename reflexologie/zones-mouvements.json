@@ -401,8 +401,8 @@
         "zone-intestin-grele-g"
       ],
       "forme": "surface",
-      "mouvement": "spirale-centripete",
-      "description_mouvement": "Spirale (boucles avancées) du bord extérieur du pied vers le centre de la zone",
+      "mouvement": "boucles-progressives",
+      "description_mouvement": "Effectuez de petits cercles qui avancent, du bord extérieur du pied vers l'intérieur",
       "sequence": "parcours-continu",
       "simultane_deux_pieds": true,
       "a_valider": {
@@ -433,28 +433,6 @@
       },
       "passages": 3,
       "sens": "du haut vers le bas",
-      "valide": true
-    },
-    {
-      "id": "oreilles-nez",
-      "designation": "le nez et les oreilles",
-      "cibles": [
-        "zone-oreilles-nez-d",
-        "zone-oreilles-nez-g"
-      ],
-      "forme": "surface",
-      "mouvement": "pression-glissee",
-      "description_mouvement": "Faites glisser le pouce le long de la zone",
-      "sequence": "croix-complete-par-passage",
-      "simultane_deux_pieds": true,
-      "a_valider": {
-        "designation": false,
-        "mouvement": false
-      },
-      "passages": 3,
-      "sens": "une passe = toute la croix (le nez de haut en bas, puis les oreilles en travers), répétée 3 fois",
-      "nb_elements": 2,
-      "note": "zone en croix sur le gros orteil : barre verticale = nez, barre horizontale = oreilles",
       "valide": true
     },
     {
@@ -809,6 +787,62 @@
         "designation": false,
         "mouvement": false
       }
+    },
+    {
+      "id": "nez",
+      "designation": "le nez",
+      "cibles": [
+        "zone-nez-d",
+        "zone-nez-g"
+      ],
+      "forme": "surface",
+      "mouvement": "pression-glissee",
+      "description_mouvement": "Faites glisser le pouce en croix : de haut en bas, puis du bord vers les autres orteils",
+      "valide": true,
+      "a_valider": {
+        "designation": false,
+        "mouvement": false
+      },
+      "sequence": "croix-complete-par-passage",
+      "sens": "le nez de haut en bas, puis du bord vers les autres orteils ; une passe = toute la croix, répétée 3 fois",
+      "passages": 3
+    },
+    {
+      "id": "oreilles",
+      "designation": "les oreilles",
+      "cibles": [
+        "zone-oreilles-d",
+        "zone-oreilles-g"
+      ],
+      "forme": "surface",
+      "mouvement": "pression-glissee",
+      "description_mouvement": "Faites glisser le pouce le long de la zone",
+      "valide": true,
+      "a_valider": {
+        "designation": false,
+        "mouvement": false
+      },
+      "passages": 3,
+      "sens": "de l'intérieur vers l'extérieur"
+    },
+    {
+      "id": "colonne-nerf-vague",
+      "designation": "la colonne vertébrale et le nerf vague",
+      "cibles": [
+        "zone-colonne-vertebrale-nerf-vague-d",
+        "zone-colonne-vertebrale-nerf-vague-g"
+      ],
+      "forme": "surface",
+      "mouvement": "pression-glissee",
+      "description_mouvement": "Faites glisser le pouce le long de la colonne, en intégrant le nerf vague",
+      "valide": true,
+      "a_valider": {
+        "designation": false,
+        "mouvement": false
+      },
+      "sens": "du haut vers le bas, le long de la colonne allongée",
+      "passages": 3,
+      "note": "version allongée de la colonne intégrant le nerf vague ; s'utilise À LA PLACE de la colonne (jamais en plus)"
     }
   ],
   "_statut": "Tous les mouvements validés par Laura — prêt pour la compilation des protocoles",

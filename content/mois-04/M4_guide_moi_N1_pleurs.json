@@ -1,0 +1,284 @@
+{
+  "mois": 4,
+  "tranche_age": "4 mois",
+  "categorie": {
+    "id": "pleurs",
+    "nom": "Pleurs & sur-stimulation",
+    "sous_titre": "Frustration, contrecoup, trop-plein",
+    "icone": "😢"
+  },
+  "protocoles": [
+    {
+      "categorie": "pleurs",
+      "situation": "Il crie de rage devant un jouet / il n'arrive pas à l'attraper",
+      "titre": "La rage devant le jouet / le vouloir dépasse le pouvoir",
+      "explication": "Un motif nouveau apparaît à quatre mois : ton bébé veut, et son corps ne suit pas encore. Il voit l'objet, il tend le bras, il rate — et il hurle de rage. Ce n'est pas de la colère contre toi, et ce n'est pas de la douleur : c'est la première frustration de l'existence, celle d'une intention qui dépasse les moyens. C'est un signe de progrès considérable — il a une intention. Ton rôle n'est pas de faire à sa place, ce qui court-circuiterait l'apprentissage, ni de le laisser s'épuiser : c'est d'aménager la distance pour que l'effort reste possible.",
+      "ancrage": "Sa rage est le signe que son intelligence dépasse ses outils. Ce n'est pas inquiétant — c'est rassurant. Ton geste : rapprocher l'objet, pas le lui donner.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — aménager, ne pas faire à sa place",
+        "etapes": [
+          "Rapprocher l'objet de quelques centimètres : juste assez pour que l'effort redevienne possible.",
+          "Nommer ce qu'il vit : « tu voulais l'attraper et tu n'y arrives pas, c'est difficile » — la validation apaise avant l'action.",
+          "Ne pas mettre l'objet dans sa main : cela met fin à l'apprentissage et à la satisfaction.",
+          "Rester à côté, calme : ta présence tranquille l'aide à tenir l'effort.",
+          "Arrêter avant l'effondrement : quand la rage monte trop, on retire l'objet et on passe à autre chose."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : redescendre après la frustration",
+        "etapes": [
+          "Une fois la crise passée : bébé sur le dos, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : un pied retiré, une crispation — on arrête."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Aménager l'espace plutôt que l'aider : un tapis ferme, deux ou trois objets à bonne distance, et du temps.",
+        "Accepter la frustration utile : c'est en ratant qu'il apprend à ajuster son geste.",
+        "Doser les sessions : quelques minutes suffisent — au-delà, la fatigue transforme l'effort en détresse.",
+        "Se rappeler que la fourchette est large : la préhension volontaire se construit sur plusieurs mois."
+      ],
+      "principe": "Faire à sa place supprime la frustration — et l'apprentissage avec. Ton rôle est d'ajuster la difficulté pour que l'effort reste possible, pas de le supprimer.",
+      "erreurs_a_eviter": [
+        "Mettre systématiquement l'objet dans sa main dès qu'il s'énerve.",
+        "Retirer tous les objets pour lui « éviter » la frustration.",
+        "Laisser la crise s'installer sans intervenir jusqu'à l'épuisement.",
+        "Interpréter la rage comme un caractère difficile — c'est un progrès de l'intention."
+      ],
+      "consulter_si": "Consulter si : bébé ne tend jamais la main vers un objet vers cinq mois, ne suit pas un objet du regard, paraît anormalement mou ou raide, si tu observes une asymétrie entre les deux côtés du corps, ou s'il ne réagit pas aux bruits → pédiatre ou PMI, qui orientera si nécessaire."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Les pleurs du soir durent encore / alors qu'ils devaient s'arrêter",
+      "titre": "Les pleurs du soir qui durent / quand la courbe ne suit pas",
+      "explication": "On t'a dit « ça s'arrête vers trois mois ». Nous sommes à quatre, et les soirées sont toujours difficiles. Cette promesse non tenue est violente, parce qu'elle transforme une situation déjà dure en échec personnel. La réalité est que les fourchettes sont larges : chez certains bébés, les pleurs du soir persistent plus longtemps, et cela ne signale rien d'anormal en soi. Mais la persistance mérite qu'on refasse le tour de l'inconfort avec un professionnel — sans repartir dans une chasse aux remèdes qui épuise tout le monde.",
+      "ancrage": "Le calendrier annoncé n'est pas une promesse. Que cela dure plus longtemps ne dit rien de toi — mais cela mérite une consultation, pas une nouvelle recherche en ligne.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — tenir la soirée",
+        "etapes": [
+          "Réduire dès la fin d'après-midi : lumière basse, bruit minimal, pas de visite.",
+          "Une seule réponse, tenue : portage lent, contact — sans empiler les techniques.",
+          "Se relayer par tranches : vingt minutes chacun, montre en main.",
+          "Sortir dehors : quelques minutes d'air changent souvent l'ambiance.",
+          "Passer le relais avant la limite : dès que la tension monte, on change d'adulte."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : préparer la soirée en amont",
+        "etapes": [
+          "En début d'après-midi : bébé calme, dans une pièce silencieuse.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Prendre rendez-vous : une persistance au-delà de trois mois se fait examiner par le pédiatre — c'est une consultation, pas une urgence.",
+        "Noter des observations précises : horaires, durée, ce qui accompagne les pleurs — c'est ce que le professionnel exploitera.",
+        "Vérifier la sur-fatigue : à quatre mois, elle devient la première cause des soirées difficiles.",
+        "Ne pas relancer la quête de remèdes : changer de lait ou multiplier les produits sans avis n'apporte rien."
+      ],
+      "principe": "Les fourchettes sont larges, et un calendrier annoncé n'est pas une promesse. Une persistance se montre au pédiatre — elle ne se traite pas par une nouvelle méthode trouvée en ligne.",
+      "erreurs_a_eviter": [
+        "Changer de lait ou de préparation de sa propre initiative.",
+        "Multiplier les remèdes et les compléments sans avis médical.",
+        "Se juger sur le fait que « ça n'est pas passé à trois mois ».",
+        "Rester seul.e des heures avec les pleurs — l'isolement est le principal facteur de risque de perte de contrôle."
+      ],
+      "consulter_si": "Consulter si : les pleurs restent intenses et quotidiens au-delà de trois mois, s'ils s'accompagnent de fièvre, de vomissements, de sang dans les selles, d'un refus de boire, d'une cassure de la courbe de poids, ou d'un bébé anormalement mou → pédiatre. Si tu sens la perte de contrôle monter : poser bébé sur le dos dans son lit, sortir de la pièce, appeler un proche ou Allo Parents Bébé (0 800 00 34 56).",
+      "source": "Source : Haute Autorité de Santé — recommandation de bonne pratique « Syndrome du bébé secoué ou traumatisme crânien non accidentel par secouement »."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Ses pleurs ont changé de tonalité / je ne les décode plus pareil",
+      "titre": "Les pleurs qui se diversifient / refaire la grille",
+      "explication": "À quatre mois, les pleurs de ton bébé changent — et c'est logique : il a désormais des intentions. Il pleure de fatigue, mais aussi de frustration, d'ennui, de trop-plein, ou pour t'appeler. La grille que tu avais construite ne fonctionne plus, et cela déstabilise. Ce n'est pas un retour en arrière : c'est une complexification. Ton bébé a plus de choses à dire, et il n'a toujours qu'un seul outil pour les dire. Refaire la grille demande d'observer autre chose que le pleur lui-même : le contexte, l'heure, ce qui vient de se passer.",
+      "ancrage": "Ses pleurs ne sont pas devenus indéchiffrables : ils sont devenus plus riches. Ce qui les décode désormais, c'est le contexte — pas le son.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — décoder par le contexte",
+        "etapes": [
+          "Regarder l'heure : combien de temps depuis le dernier sommeil ? Depuis la dernière prise ?",
+          "Regarder ce qui précède : une frustration motrice, une sortie, un jouet raté, une visite.",
+          "Tester la fatigue en premier : à quatre mois, c'est la cause la plus fréquente et la plus sous-estimée.",
+          "Vérifier le trop-plein : trop d'objets, trop de bruit, trop de sollicitations.",
+          "Répondre au besoin, pas au son : nommer ce qu'il vit, puis agir sur le contexte."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : apaisement et retour au calme",
+        "etapes": [
+          "Après la crise : bébé sur le dos, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Tenir un carnet quelques jours : heure, contexte, ce qui a fonctionné — les schémas apparaissent à l'écrit.",
+        "Anticiper plutôt que décoder : coucher avant la fatigue, épurer avant la saturation.",
+        "Ne pas chercher une méthode de décodage : aucune ne permet de conclure à l'oreille.",
+        "Se rappeler qu'il reste des pleurs sans cause : cela reste vrai à quatre mois."
+      ],
+      "principe": "On ne décode pas un pleur à l'oreille : on le décode par le contexte. À quatre mois, la fatigue et la frustration deviennent les deux causes les plus fréquentes.",
+      "erreurs_a_eviter": [
+        "Chercher à identifier le type de pleur au son.",
+        "Proposer une tétée à chaque pleur, sans distinguer faim, fatigue et frustration.",
+        "Enchaîner toutes les réponses possibles en quelques minutes.",
+        "Se juger sur sa capacité à comprendre immédiatement."
+      ],
+      "consulter_si": "Consulter si : les pleurs deviennent inconsolables plusieurs heures par jour, s'ils s'accompagnent de fièvre, de vomissements, d'un refus de boire, d'une cassure de la courbe de poids, ou d'un bébé anormalement mou → pédiatre ou PMI, le 15 si l'état général se dégrade."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Il pleure après un moment joyeux / le contrecoup de l'excitation",
+      "titre": "Le contrecoup de la joie / installer une redescente",
+      "explication": "Vous avez joué, il a ri aux éclats, tout le monde était heureux — et dix minutes plus tard, il s'effondre en pleurs. Ce contrecoup déroute, parce qu'il donne l'impression que le bon moment était en réalité mauvais. Ce n'est pas le cas. La joie intense est une activation forte du système nerveux, exactement comme le stress. À quatre mois, ton bébé sait monter mais pas descendre : après un pic, il n'a aucun outil pour revenir au calme seul. La descente doit donc être organisée — elle fait partie du jeu, pas de sa réparation.",
+      "ancrage": "Le moment joyeux n'était pas une erreur. Ce qui manquait, c'est la descente — et c'est elle qui se ritualise, pas la joie.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — organiser la redescente",
+        "etapes": [
+          "Anticiper la fin : ne pas attendre le pic pour ralentir — clore avant, pas après.",
+          "Ralentir progressivement : baisser la voix, ralentir les mouvements, réduire l'amplitude.",
+          "Installer le silence : quelques secondes sans rien dire, ton visage calme.",
+          "Passer au contact : le prendre contre toi, immobile, sans parler.",
+          "Baisser l'environnement : lumière, bruit, mouvement — tout descend d'un cran."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : le rituel de descente",
+        "etapes": [
+          "Juste après le jeu : bébé sur le dos, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Un seul canal à la fois : ne pas parler et toucher en même temps."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ritualiser la descente : toujours la même séquence après un temps de jeu — cela devient un repère.",
+        "Raccourcir les pics : quelques minutes de jeu intense suffisent largement à cet âge.",
+        "Prévenir l'entourage : les jeux surexcitants, portés par plusieurs adultes, sont ceux qui produisent les plus gros contrecoups.",
+        "Ne pas renoncer au jeu : c'est la descente qu'on ajoute, pas la joie qu'on retire."
+      ],
+      "principe": "La joie intense active le système nerveux autant que le stress. À quatre mois, un bébé sait monter mais pas descendre : la redescente s'organise, elle ne s'improvise pas.",
+      "erreurs_a_eviter": [
+        "Prolonger le jeu tant qu'il rit — le rire précède souvent la bascule.",
+        "Enchaîner plusieurs adultes qui le font rire à tour de rôle.",
+        "Arrêter le jeu brutalement, sans transition.",
+        "Interpréter le contrecoup comme une mauvaise humeur ou un caprice."
+      ],
+      "consulter_si": "Consulter si : bébé bascule systématiquement dans une crise inconsolable après chaque échange, s'il ne cherche jamais le contact visuel, s'il se raidit fortement, paraît en détresse dès qu'on le sollicite, ou semble anormalement mou → pédiatre ou PMI."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Sur-excité par ses jouets / trop d'objets, trop de sons",
+      "titre": "Trop de jouets / épurer pour libérer l'attention",
+      "explication": "Le tapis d'éveil clignote, l'arche chante, cinq hochets colorés attendent, et bébé s'agite, crie, s'énerve. Un environnement saturé d'objets ne stimule pas : il disperse. À quatre mois, l'attention de ton bébé est une ressource extrêmement limitée — chaque objet supplémentaire, chaque son électronique, chaque lumière capte une part de ce qu'il pourrait consacrer à explorer réellement. Moins d'objets, ce n'est pas moins d'éveil : c'est plus d'attention disponible pour chacun d'eux.",
+      "ancrage": "Un espace épuré n'appauvrit pas son éveil : il le rend possible. Deux objets bien choisis valent mieux que dix qui clignotent.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — épurer l'espace",
+        "etapes": [
+          "Retirer les jouets sonores et lumineux : ils captent l'attention sans nourrir l'exploration.",
+          "Ne laisser que deux ou trois objets : simples, de matières différentes, à sa portée.",
+          "Retirer l'arche et le mobile : ils fixent le regard et empêchent le mouvement libre.",
+          "Un tapis ferme au sol : sans coussin, sans transat, sans entrave.",
+          "Éteindre les fonds sonores : musique, radio, télévision — surtout la télévision."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : redescendre après la sur-stimulation",
+        "etapes": [
+          "Une fois l'espace calmé : bébé sur le dos, dans le silence.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Faire tourner les objets : en ranger la plupart, en sortir deux ou trois à la fois — la nouveauté vient de la rotation, pas de la quantité.",
+        "Préférer le simple : un anneau, un foulard, une cuillère en bois valent mieux qu'un jouet à piles.",
+        "Zéro écran : la recommandation française est claire avant trois ans, bruit de fond compris.",
+        "Observer sa concentration : un bébé qui explore longuement un seul objet est un bébé qui apprend."
+      ],
+      "principe": "La quantité d'objets ne fait pas la richesse de l'éveil. Épurer l'espace libère l'attention — et c'est l'attention, pas la stimulation, qui construit l'exploration.",
+      "erreurs_a_eviter": [
+        "Multiplier les jouets « d'éveil » sonores et lumineux.",
+        "Laisser une arche ou un mobile en permanence au-dessus de lui.",
+        "Allumer la télévision en fond pendant qu'il joue.",
+        "Interpréter son agitation comme un besoin de plus de stimulation."
+      ],
+      "consulter_si": "Consulter si : bébé ne s'intéresse à aucun objet, ne suit rien du regard, ne réagit pas aux bruits, paraît anormalement mou ou éteint, ou reste inconsolable malgré un environnement épuré → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition et de la vision.",
+      "source": "Source : Haut Conseil de la santé publique — avis sur les effets de l'exposition des enfants et des jeunes aux écrans."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Il ne supporte plus les sorties longues / son seuil a baissé",
+      "titre": "Les sorties trop longues / recalibrer sur son seuil",
+      "explication": "Il tenait bien les sorties, et maintenant il s'effondre au bout d'une heure. Contrairement aux apparences, son seuil n'a pas baissé : il perçoit désormais bien plus de choses. Plus il capte — visages, sons, mouvements, couleurs — plus la charge à traiter augmente. Une sortie qui passait il y a deux mois représente aujourd'hui un volume d'informations bien supérieur. Le calibrage doit donc se faire sur son seuil réel, pas sur ton agenda ni sur ce qu'il « devrait » pouvoir tenir. Écourter n'est pas un renoncement : c'est un réglage.",
+      "ancrage": "Il ne régresse pas : il perçoit davantage. Ce qui doit s'ajuster, ce n'est pas sa tolérance — c'est la durée de tes sorties.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — recalibrer la sortie",
+        "etapes": [
+          "Observer les premiers signaux : regard qui fuit, agitation, geignements, mains crispées.",
+          "Partir à ce moment-là : ne pas attendre les pleurs — à ce stade, c'est déjà trop tard.",
+          "Raccourcir par défaut : trente à quarante-cinq minutes dans un lieu chargé, pas davantage.",
+          "Le protéger visuellement : capote de poussette, portage face à toi — moins de visages, moins de lumière.",
+          "Rentrer directement : ne pas enchaîner une deuxième activité après."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : décompresser au retour",
+        "etapes": [
+          "Une fois rentré, au calme : bébé sur le dos, lumière basse.",
+          "Toucher enveloppant des pieds : les tenir entiers dans tes paumes, immobiles.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Choisir les horaires creux : tôt le matin, quand les lieux sont vides.",
+        "Fractionner : deux sorties courtes valent mieux qu'une longue.",
+        "Prévoir une pause au calme : une pièce silencieuse, une voiture, un banc à l'écart.",
+        "Assumer le renoncement : annuler une sortie n'est pas un échec, c'est un réglage."
+      ],
+      "principe": "Son seuil n'a pas baissé : sa perception a augmenté. Les sorties se calibrent sur ce qu'il peut traiter, jamais sur ce que l'agenda parental voudrait.",
+      "erreurs_a_eviter": [
+        "Prolonger la sortie « puisqu'on y est ».",
+        "Enchaîner plusieurs lieux dans la même sortie.",
+        "Le tourner face au monde en portage dans un lieu bruyant.",
+        "Réveiller bébé pour partir."
+      ],
+      "consulter_si": "Consulter si : bébé reste inconsolable plusieurs heures après une sortie malgré le retour au calme, s'il refuse de boire, s'il présente de la fièvre, ou s'il paraît anormalement mou ou difficile à réveiller → pédiatre, le 15 selon l'urgence."
+    }
+  ]
+}

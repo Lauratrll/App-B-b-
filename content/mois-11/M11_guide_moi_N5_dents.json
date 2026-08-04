@@ -1,0 +1,196 @@
+{
+  "mois": 11,
+  "tranche_age": "11 mois",
+  "categorie": {
+    "id": "dents",
+    "nom": "Dents & petits inconforts",
+    "sous_titre": "Poussées groupées, morsure, molaires, siège",
+    "icone": "🦷"
+  },
+  "protocoles": [
+    {
+      "categorie": "dents",
+      "situation": "Quatre dents en même temps / douleur qui déborde",
+      "titre": "Quatre dents ensemble / une phase intense",
+      "explication": "Quatre dents bougent en même temps, et la douleur déborde : nuits hachées, humeur impossible, refus de manger, joues rouges. Les poussées groupées de la fin de la première année sont souvent les plus intenses. Ce qui soulage reste inchangé : le froid, la pression douce, le confort, la présence et la stabilité des repères. Ce qui ne se fait jamais reste également inchangé : le gel anesthésiant, contre-indiqué avant deux ans, et le collier d'ambre, dangereux et sans efficacité démontrée.",
+      "ancrage": "Une poussée groupée est intense mais limitée dans le temps. Le froid, la pression et la stabilité des repères sont ce qui aide réellement.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — soulager",
+        "etapes": [
+          "Un anneau de dentition réfrigéré : sorti du réfrigérateur, jamais du congélateur.",
+          "Un linge propre et frais : humidifié, à mordiller sous surveillance.",
+          "Une pression du doigt propre : quelques secondes sur la gencive, sans forcer.",
+          "Des aliments frais : compote sortie du réfrigérateur, morceaux fondants et froids.",
+          "Maintenir les repères : mêmes horaires, même rituel — la stabilité rassure."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : accompagner les nuits difficiles",
+        "etapes": [
+          "Dans le rituel du soir : toujours au même moment.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne jamais utiliser de gel anesthésiant : les gels à la lidocaïne sont contre-indiqués avant deux ans.",
+        "Ne jamais utiliser de collier d'ambre : risque d'étouffement et de strangulation.",
+        "Ne pas attribuer une fièvre aux dents : elle a toujours une autre cause, et elle se fait examiner.",
+        "Ne donner aucun médicament sans avis médical."
+      ],
+      "principe": "Une poussée groupée est intense, mais elle passe. Le froid, la pression et la stabilité aident — le gel et le collier d'ambre, jamais.",
+      "erreurs_a_eviter": [
+        "Utiliser un collier d'ambre — risque d'étouffement et de strangulation.",
+        "Appliquer un gel anesthésiant — contre-indiqué avant deux ans.",
+        "Mettre un anneau de dentition au congélateur.",
+        "Attribuer une fièvre, une diarrhée ou des pleurs intenses aux dents."
+      ],
+      "consulter_si": "Consulter si : l'enfant a de la fièvre, refuse de boire, présente une gencive rouge, gonflée ou purulente, des plaques blanches dans la bouche, une éruption qui s'étend, ou paraît anormalement mou → pédiatre ou médecin traitant sans délai. Une fièvre ne s'explique jamais par les dents.",
+      "source": "Source : ameli.fr (Assurance Maladie) — poussées dentaires : symptômes, soulagement et quand consulter."
+    },
+    {
+      "categorie": "dents",
+      "situation": "Il mord quand il est énervé / la mâchoire décharge la tension",
+      "titre": "Il mord / une décharge, pas une méchanceté",
+      "explication": "Il mord — toi, un autre enfant, un adulte. C'est violent à recevoir, et cela inquiète. Mais à onze mois, mordre n'est pas une agression : c'est une décharge. La mâchoire est un exutoire puissant, et quand la tension monte — frustration, excitation, fatigue — elle sort par là. Il n'a ni les mots, ni le contrôle. Trois gestes, dans cet ordre : nommer, proposer un objet à mordre, tenir la limite. Et jamais mordre en retour pour « lui montrer », ce qui n'enseigne rien.",
+      "ancrage": "Mordre est une décharge, pas une méchanceté. Nommer, offrir un exutoire, tenir la limite — jamais mordre en retour.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — les trois gestes",
+        "etapes": [
+          "Interrompre calmement : écarter, sans crier, sans dramatiser.",
+          "Nommer ce qui se passe : « tu étais très énervé, et tu as mordu — ça fait mal ».",
+          "Poser la limite en une phrase : « on ne mord pas les gens » — courte, ferme.",
+          "Proposer un objet à mordre : un anneau, un linge — la mâchoire a besoin de décharger.",
+          "S'occuper de la personne mordue : cela lui montre l'effet, sans discours."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : redescendre après la crise",
+        "etapes": [
+          "Une fois la vague passée : l'enfant sur le dos, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Repérer les déclencheurs : fatigue, faim, sur-stimulation, frustration — c'est là qu'on agit.",
+        "Anticiper : réduire les situations qui saturent, avant la morsure.",
+        "Ne jamais mordre en retour : cela n'enseigne rien et légitime le geste.",
+        "Prévenir le lieu de garde : pour une réponse cohérente entre les adultes."
+      ],
+      "principe": "Mordre est une décharge de tension, pas une intention de faire mal. Nommer, offrir un exutoire, tenir la limite — et jamais mordre en retour.",
+      "erreurs_a_eviter": [
+        "Mordre en retour pour « lui montrer ».",
+        "Crier, punir ou humilier.",
+        "Interpréter la morsure comme de la méchanceté.",
+        "Ignorer la morsure sans poser de limite."
+      ],
+      "consulter_si": "Consulter si : les morsures deviennent quotidiennes et incontrôlables, si l'enfant se blesse ou blesse gravement, s'il se cogne volontairement la tête de façon répétée, ou si tu sens ta colère devenir difficile à contenir → pédiatre, PMI, ou Allo Parents Bébé (0 800 00 34 56).",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+    },
+    {
+      "categorie": "dents",
+      "situation": "Réveils dentaires avant l'anniversaire / les molaires approchent",
+      "titre": "Les molaires approchent / distinguer la dent de l'opposition",
+      "explication": "Les premières molaires se préparent, et les nuits redeviennent difficiles. Mais à onze mois, une autre cause s'installe en parallèle : l'opposition au coucher. Et les deux se ressemblent. Une douleur dentaire réveille en pleine nuit, avec des signes concrets — gencive tendue, salivation, joue rouge, mâchonnement. Une opposition, elle, se manifeste au moment du coucher, pas au milieu de la nuit, et cède quand le cadre est tenu. Confondre les deux conduit à traiter le mauvais problème pendant des semaines.",
+      "ancrage": "La dent réveille en pleine nuit ; l'opposition se joue au coucher. Les confondre fait traiter le mauvais problème.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — distinguer",
+        "etapes": [
+          "Regarder le moment : réveil en pleine nuit avec pleurs de douleur, ou refus au moment du coucher ?",
+          "Chercher les signes dentaires : gencive tendue, salivation, joue rouge, mâchonnement.",
+          "Tester le cadre : si le refus cède quand le cadre est tenu calmement, c'est de l'opposition.",
+          "Soulager la gencive en journée : froid et pression, pour que la nuit soit plus calme.",
+          "Tenir le rituel : la stabilité aide dans les deux cas."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : accompagner la nuit",
+        "etapes": [
+          "Dans le rituel du soir : toujours au même moment.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne pas donner de médicament sans avis médical.",
+        "Ne jamais attribuer une fièvre aux dents : elle se fait examiner.",
+        "Vérifier la journée : sur-fatigue et fenêtres d'éveil mal calibrées hachent la nuit.",
+        "Ne pas changer de méthode à chaque poussée supposée."
+      ],
+      "principe": "La douleur dentaire réveille la nuit ; l'opposition se joue au coucher. Distinguer les deux évite de traiter le mauvais problème pendant des semaines.",
+      "erreurs_a_eviter": [
+        "Attribuer systématiquement tous les réveils aux dents.",
+        "Donner un médicament chaque soir « pour les dents » sans avis médical.",
+        "Changer de méthode de sommeil à chaque poussée supposée.",
+        "Attribuer une fièvre aux dents."
+      ],
+      "consulter_si": "Consulter si : l'enfant a de la fièvre, refuse de boire, présente des vomissements, une diarrhée, une éruption, une gencive rouge ou purulente, s'il paraît anormalement mou, ou si les réveils s'accompagnent de pleurs inconsolables → pédiatre ou médecin traitant.",
+      "source": "Source : ameli.fr (Assurance Maladie) — poussées dentaires : symptômes, soulagement et quand consulter."
+    },
+    {
+      "categorie": "dents",
+      "situation": "Rougeurs du siège qui reviennent / la peau est fragile",
+      "titre": "Les rougeurs du siège / reprendre la routine",
+      "explication": "Depuis que l'alimentation s'est diversifiée, les selles ont changé — plus acides, plus fréquentes, parfois plus irritantes — et les rougeurs du siège reviennent. Ce n'est pas un défaut de soin : c'est une peau fragile face à des selles nouvelles. La routine reste la même, et elle reste efficace : changer souvent, nettoyer à l'eau, sécher soigneusement, aérer, protéger. Et une rougeur qui résiste plus de trois à quatre jours, qui s'étend ou qui suinte, se montre — elle ne se traite pas au hasard.",
+      "ancrage": "Ce n'est pas un défaut de soin : les selles ont changé. La routine reste la même — et une rougeur qui résiste se montre.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — la routine",
+        "etapes": [
+          "Changer très souvent : à chaque selle, et dès que la couche est mouillée.",
+          "Nettoyer à l'eau : eau tiède, savon doux, sans frotter — sans lingettes parfumées.",
+          "Sécher soigneusement : tamponner, sans oublier les plis.",
+          "Aérer largement : plusieurs minutes fesses à l'air à chaque change.",
+          "Protéger : une couche fine de crème protectrice sans parfum sur la zone rouge."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — le change apaisé",
+        "etapes": [
+          "Pièce chauffée : un enfant qui a froid se crispe.",
+          "Changer debout ou au sol : à cet âge, c'est souvent plus simple.",
+          "Annoncer chaque geste : la prévisibilité réduit l'opposition.",
+          "Lui donner un objet : occuper ses mains.",
+          "Terminer sans hâte : quelques instants à l'air libre."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Tester une autre couche : marque et absorption changent parfois tout.",
+        "Ne jamais appliquer de crème médicamenteuse sans avis : antifongique, corticoïde ou antibiotique se décident avec un médecin.",
+        "Surveiller les selles : une diarrhée irrite très vite la peau.",
+        "Photographier la lésion : cela aide le professionnel si l'aspect change entre-temps."
+      ],
+      "principe": "Les selles changent avec l'alimentation, et la peau réagit. La routine reste la même — et une rougeur qui résiste ne se traite pas au hasard.",
+      "erreurs_a_eviter": [
+        "Frotter la peau irritée pour la nettoyer.",
+        "Utiliser des lingettes parfumées ou du talc.",
+        "Appliquer une crème médicamenteuse sans avis médical.",
+        "Laisser une couche souillée plusieurs heures."
+      ],
+      "consulter_si": "Consulter si : la rougeur persiste au-delà de trois à quatre jours malgré la routine, si elle s'étend, si la peau suinte, saigne, se couvre de vésicules, de pus ou de plaques bien délimitées, si l'enfant a de la fièvre, ou s'il paraît douloureux au change → pédiatre ou médecin traitant.",
+      "source": "Source : ameli.fr (Assurance Maladie) — érythème fessier du nourrisson : les bons réflexes."
+    }
+  ]
+}

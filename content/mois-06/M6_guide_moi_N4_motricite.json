@@ -1,0 +1,195 @@
+{
+  "mois": 6,
+  "tranche_age": "6 mois",
+  "categorie": {
+    "id": "motricite",
+    "nom": "Motricité & exploration",
+    "sous_titre": "Retournement, assise, sol, petits chocs",
+    "icone": "🤸"
+  },
+  "protocoles": [
+    {
+      "categorie": "motricite",
+      "situation": "Pas encore de retournement / observer sans précipiter",
+      "titre": "Pas encore de retournement / la fourchette est large",
+      "explication": "Autour de vous, les bébés du même âge se retournent. Le tien, non. L'inquiétude monte, et avec elle la tentation de l'entraîner. Les fourchettes de développement moteur sont pourtant très larges : le retournement s'étale sur plusieurs mois, et un écart de quelques semaines n'a, dans l'immense majorité des cas, aucune signification. Ce qui accélère réellement les acquisitions n'est pas l'entraînement — c'est le temps passé libre au sol, sur un tapis ferme, sans transat, sans coque, sans coussin, sans arche qui fixe le regard.",
+      "ancrage": "On n'entraîne pas un bébé, on lui donne de la place. Le temps libre au sol est le seul « exercice » qui compte.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — donner de la place",
+        "etapes": [
+          "Un tapis ferme au sol : plusieurs fois par jour, sans coussin ni entrave.",
+          "Temps sur le ventre, éveillé et surveillé : c'est là que le retournement se prépare.",
+          "Placer un objet sur le côté : à bonne distance, pour donner envie de pivoter.",
+          "Ne jamais le retourner à sa place : le laisser chercher, râler, essayer.",
+          "Limiter l'immobilisation : pas plus d'une heure d'affilée en transat, poussette, coque ou siège."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — l'éveil libre",
+        "etapes": [
+          "Varier les positions : dos, ventre, côtés — plusieurs fois par jour.",
+          "Ta présence au sol : à côté de lui, à sa hauteur, sans le manipuler.",
+          "Deux objets seulement : la profusion disperse au lieu de nourrir.",
+          "Réflexologie du soir : le pied est aussi un organe d'exploration — balayage de la voûte, pression douce et constante.",
+          "S'arrêter s'il fatigue : quelques minutes suffisent, cela doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir les fourchettes : le retournement arrive généralement entre quatre et sept mois, avec de grandes variations.",
+        "On n'a pas besoin de l'entraîner : forcer une acquisition ne l'avance pas, cela contraint le corps.",
+        "Poser tes questions en consultation : les rendez-vous du sixième mois sont faits pour cela.",
+        "Se méfier de la comparaison : ce que tu vois des autres bébés est une sélection, pas une norme."
+      ],
+      "principe": "On n'accélère pas un développement moteur : on lui donne de l'espace. Le temps libre au sol vaut tous les exercices — et les fourchettes sont bien plus larges qu'on ne le croit.",
+      "erreurs_a_eviter": [
+        "Faire des exercices ou des manipulations trouvés en ligne.",
+        "Caler bébé assis ou le mettre debout pour « le muscler ».",
+        "Le laisser de longues heures en transat ou en coque.",
+        "Comparer ses acquisitions à celles d'un autre bébé du même âge."
+      ],
+      "consulter_si": "Consulter si : bébé ne se retourne pas du tout vers sept mois, ne se retourne que d'un seul côté, ne tient pas sa tête droite et stable, paraît anormalement mou ou raide, s'il perd une compétence acquise, ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre ou PMI, qui orientera si nécessaire vers un kinésithérapeute pédiatrique ou un psychomotricien.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'activité physique du tout-petit, l'exploration de bébé et les étapes du développement."
+    },
+    {
+      "categorie": "motricite",
+      "situation": "Position assise non acquise / patience et motricité libre",
+      "titre": "L'assise non acquise / ne jamais installer",
+      "explication": "Il ne s'assoit pas seul — et la tentation de le caler, avec des coussins ou dans un siège, est immense. C'est précisément ce qu'il ne faut pas faire. Le principe est simple et solide : on n'installe jamais un bébé dans une position qu'il n'atteint pas seul. Un bébé calé assis ne peut ni se rattraper s'il bascule, ni changer de position, ni explorer. Il subit une posture qu'il ne maîtrise pas, et cela le prive du chemin qui y mène. Il s'assiéra seul, en passant par le côté — et ce jour-là, la position sera vraiment la sienne.",
+      "ancrage": "S'il ne s'assoit pas seul, il n'est pas prêt à être assis. Le caler ne l'entraîne pas : cela le prive de son apprentissage et de sa sécurité.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — le laisser au sol",
+        "etapes": [
+          "Le poser à plat, au sol : sur le dos, sur le ventre, sur le côté — libre de changer.",
+          "Ne pas le caler : ni coussins, ni siège de sol, ni transat redressé pour « l'entraîner ».",
+          "Placer les objets à sa hauteur : au sol, à portée, pour qu'il pivote vers eux.",
+          "Le tenir contre toi si tu veux le redresser : assis contre ton torse, soutenu — pas posé seul.",
+          "Le laisser trouver ses appuis : il passera par le côté, en s'appuyant sur son bras."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — l'éveil libre",
+        "etapes": [
+          "Tapis ferme et large : sans coussin, sans arche, sans entrave.",
+          "Temps sur le ventre, éveillé et surveillé : c'est là que le tronc se renforce.",
+          "Varier les positions : dos, ventre, côtés — plusieurs fois par jour.",
+          "Ta présence à sa hauteur : au sol, sans le manipuler.",
+          "S'arrêter s'il fatigue : quelques minutes suffisent."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir la règle : jamais une position qu'il n'atteint pas seul — cela vaut pour l'assise comme pour la station debout.",
+        "Limiter l'immobilisation : pas plus d'une heure d'affilée en transat, poussette, coque ou siège.",
+        "Se méfier des sièges d'assise : ils sont vendus comme des aides au développement, ils sont des contraintes.",
+        "Se rappeler la fourchette : l'assise autonome arrive généralement entre six et neuf mois, avec de grandes variations."
+      ],
+      "principe": "On n'installe jamais un bébé dans une position qu'il n'atteint pas seul. Le caler ne le muscle pas : cela le prive de sa liberté de mouvement et de sa sécurité.",
+      "erreurs_a_eviter": [
+        "Caler bébé assis dans des coussins ou un siège de sol.",
+        "Utiliser un transat redressé pour « l'entraîner » à s'asseoir.",
+        "Le mettre debout ou le faire sauter sur tes genoux.",
+        "Comparer son assise à celle d'un autre bébé."
+      ],
+      "consulter_si": "Consulter si : bébé ne tient pas sa tête droite et stable, paraît anormalement mou ou raide, si tu observes une asymétrie entre les deux côtés du corps, s'il perd une compétence acquise, ou s'il ne s'assoit pas du tout vers neuf mois → pédiatre ou PMI, qui orientera si nécessaire.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'activité physique du tout-petit, l'exploration de bébé et les étapes du développement."
+    },
+    {
+      "categorie": "motricite",
+      "situation": "Petits chocs d'exploration / apprentissage par l'erreur motrice",
+      "titre": "Les petits chocs / sécuriser l'espace, pas le corps",
+      "explication": "Il bascule, il se cogne la tête, il pleure — et tu voudrais l'empêcher de recommencer. Le déséquilibre fait pourtant partie de l'apprentissage : c'est en tombant qu'un bébé apprend à se rattraper, et un bébé qu'on retient en permanence n'apprend pas à se protéger. La bonne réponse n'est pas de sécuriser son corps en le tenant — c'est de sécuriser son environnement pour que la chute reste sans conséquence. Sol souple, coins protégés, rien de dur à portée. Et une réaction calme : ta panique amplifie sa peur bien plus que le choc lui-même.",
+      "ancrage": "Ce n'est pas son corps qu'on sécurise, c'est le sol. Un bébé qu'on retient en permanence n'apprend jamais à se rattraper.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — quand il se cogne",
+        "etapes": [
+          "Réagir calmement : ta panique amplifie sa peur bien plus que le choc.",
+          "Le prendre et le rassurer : sans dramatiser, sans commenter longuement.",
+          "Observer : perte de connaissance, vomissements, somnolence anormale, pâleur — ce sont les signes qui font appeler.",
+          "Le laisser reprendre : une fois consolé, le remettre au sol, sans le surprotéger.",
+          "Sécuriser la zone : ce qui l'a fait tomber ou se cogner se corrige tout de suite."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — l'environnement",
+        "etapes": [
+          "Un tapis ferme mais amortissant : au sol, dans une zone dégagée.",
+          "Retirer les objets durs : angles de meubles, jouets rigides, objets lourds à portée.",
+          "Espace dégagé : rien qui puisse tomber sur lui, rien qui puisse être tiré.",
+          "Le laisser tester ses limites : râler, basculer, recommencer — c'est l'apprentissage.",
+          "S'arrêter s'il est fatigué : la fatigue multiplie les chutes."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne pas le retenir en permanence : un bébé constamment soutenu n'apprend pas à se rattraper.",
+        "Sécuriser en avance : ce qu'il ne fait pas encore, il le fera dans quelques jours.",
+        "Ne jamais le laisser en hauteur : table à langer, canapé, lit — même une seconde.",
+        "Retenir les signes d'alerte d'un choc à la tête : ils justifient un avis médical immédiat."
+      ],
+      "principe": "Le déséquilibre fait partie de l'apprentissage. Ce qui se sécurise, c'est l'environnement — et ta réaction calme protège plus que tes mains.",
+      "erreurs_a_eviter": [
+        "Retenir bébé en permanence pour l'empêcher de tomber.",
+        "Le laisser seul sur une table à langer, un canapé ou un lit.",
+        "Réagir avec panique — cela amplifie sa peur.",
+        "Le caler dans un siège pour qu'il ne bouge plus."
+      ],
+      "consulter_si": "Consulter si : après un choc à la tête, bébé perd connaissance même brièvement, vomit, devient anormalement somnolent ou difficile à réveiller, pleure de façon inhabituelle et inconsolable, présente une pâleur, une bosse importante, un saignement, ou un comportement qui te surprend → appeler le 15 sans attendre. En cas de chute d'une hauteur : consulter en urgence, même si bébé semble aller bien."
+    },
+    {
+      "categorie": "motricite",
+      "situation": "Refus du tapis d'éveil / préférence pour les bras",
+      "titre": "Le refus du tapis / le sol devient attractif quand tu y es",
+      "explication": "Tu le poses au sol, il hurle. Tu le reprends, il se calme. Et l'idée s'installe qu'il « n'aime pas le tapis ». En réalité, ce n'est presque jamais le sol qu'il refuse : c'est la distance avec toi. Un bébé de six mois évalue le monde à partir de sa base de sécurité — et cette base, c'est toi. Le sol devient attractif quand tu t'y installes aussi. Ce n'est ni un jouet, ni un tapis plus coloré qui change la donne : c'est ta présence, à sa hauteur, allongée ou assise à côté de lui.",
+      "ancrage": "Ce n'est pas le tapis qu'il refuse, c'est la distance. Ce n'est pas un jouet à ajouter — c'est toi, au sol, à côté de lui.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — descendre avec lui",
+        "etapes": [
+          "S'allonger à côté de lui : au sol, à sa hauteur — pas assise sur le canapé.",
+          "Commencer court : quelques minutes, puis remonter progressivement.",
+          "Le poser sur le ventre, contre toi d'abord : puis à côté, à quelques centimètres.",
+          "Lui parler et croiser son regard : ta voix et ton visage font tout le travail.",
+          "Le reprendre avant l'effondrement : mieux vaut trois minutes réussies que dix minutes de pleurs."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — rendre le sol désirable",
+        "etapes": [
+          "Un tapis ferme : sans arche, sans mobile, sans jouets sonores.",
+          "Deux objets seulement : simples, à bonne distance, pour donner envie de bouger.",
+          "Varier les surfaces : tapis, parquet, couverture — le sol est aussi une exploration sensorielle.",
+          "Réflexologie au sol : le geste du soir peut se faire là, pour associer le sol au plaisir.",
+          "S'arrêter s'il sature : le sol doit rester un plaisir, pas une épreuve."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Répéter souvent et court : plusieurs fois par jour, quelques minutes — la fréquence prime sur la durée.",
+        "Limiter transat et coque : plus il y passe de temps, moins le sol lui paraît attractif.",
+        "Ne pas culpabiliser de le porter : le portage n'empêche pas le sol, il l'accompagne.",
+        "Se rappeler que c'est une étape : elle se desserre avec la mobilité."
+      ],
+      "principe": "Un bébé ne refuse pas le sol : il refuse la distance. Ta présence à sa hauteur est ce qui rend le sol possible — bien plus que n'importe quel jouet.",
+      "erreurs_a_eviter": [
+        "Ajouter des jouets sonores ou lumineux pour « rendre le tapis attractif ».",
+        "Le laisser pleurer au sol pour « qu'il s'habitue ».",
+        "Renoncer complètement au sol et le garder en portage toute la journée.",
+        "Le laisser de longues heures en transat en compensation."
+      ],
+      "consulter_si": "Consulter si : bébé refuse systématiquement toute position au sol, ne bouge pas quand il y est posé, paraît anormalement mou ou raide, ne se retourne pas du tout vers sept mois, ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre ou PMI.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'activité physique du tout-petit, l'exploration de bébé et les étapes du développement."
+    }
+  ]
+}

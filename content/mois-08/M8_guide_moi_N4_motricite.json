@@ -1,0 +1,196 @@
+{
+  "mois": 8,
+  "tranche_age": "8 mois",
+  "categorie": {
+    "id": "motricite",
+    "nom": "Motricité & exploration",
+    "sous_titre": "Sécurité, déplacement, se hisser",
+    "icone": "🤸"
+  },
+  "protocoles": [
+    {
+      "categorie": "motricite",
+      "situation": "Il se déplace et touche à tout / sécuriser sans tout interdire",
+      "titre": "Il touche à tout / sécuriser libère l'exploration",
+      "explication": "Il se déplace, et soudain la maison est un champ de mines : prises, coins de table, produits ménagers, escaliers, plantes. Le réflexe est de le suivre en disant « non » toute la journée. C'est épuisant, inefficace, et cela freine son exploration — qui est précisément ce dont il a besoin. La bonne stratégie est inverse : sécuriser une fois, complètement, pour pouvoir dire « oui » presque partout. L'aménagement fait le travail à ta place, et il fait baisser ta charge mentale plus que n'importe quelle vigilance.",
+      "ancrage": "Sécuriser une fois coûte moins cher que surveiller en continu. Et cela lui rend l'exploration dont il a besoin.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — la checklist",
+        "etapes": [
+          "Escaliers : barrières en haut et en bas, systématiquement.",
+          "Produits ménagers et médicaments : en hauteur, fermés — jamais sous l'évier.",
+          "Prises et câbles : cache-prises, câbles hors d'atteinte, cordons de rideaux relevés.",
+          "Meubles : commodes, étagères et téléviseurs fixés au mur — un meuble qui bascule peut tuer.",
+          "Petits objets et piles boutons : hors de portée — le test du rouleau de papier toilette."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — libérer l'exploration",
+        "etapes": [
+          "Se mettre à sa hauteur : à quatre pattes, pour voir ce qu'il voit.",
+          "Aménager un espace « oui » : une pièce ou une zone où tout est autorisé.",
+          "Lui donner un placard à lui : avec des objets sûrs qu'il peut vider et remplir.",
+          "Réserver le « non » au danger réel : un « non » utilisé partout ne veut plus rien dire.",
+          "S'arrêter s'il sature : l'exploration est fatigante."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Sécuriser en avance : ce qu'il n'atteint pas encore, il l'atteindra dans quelques jours.",
+        "Vérifier les plantes : certaines sont toxiques — se renseigner et les mettre hors de portée.",
+        "Attention à l'eau : jamais seul près d'une baignoire, d'un seau ou d'une piscine, même peu profonde.",
+        "Attention aux brûlures : four, plaques, casseroles, boissons chaudes — les poignées tournées vers l'intérieur."
+      ],
+      "principe": "Sécuriser une fois libère l'exploration et fait baisser la charge mentale. Un « non » réservé au danger réel garde son sens ; un « non » permanent n'enseigne rien.",
+      "erreurs_a_eviter": [
+        "Suivre bébé en disant « non » toute la journée.",
+        "Ranger les produits ménagers sous l'évier.",
+        "Laisser un meuble non fixé au mur.",
+        "Laisser une barrière d'escalier ouverte « juste une minute »."
+      ],
+      "consulter_si": "Consulter si : bébé a avalé un produit, un médicament ou un objet — appeler immédiatement le 15 ou le centre antipoison, sans le faire vomir. En cas de brûlure, de chute d'une hauteur, de noyade même brève → appeler le 15. En cas d'ingestion de pile bouton → le 15 immédiatement, même sans symptôme.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — éviter les accidents domestiques des enfants."
+    },
+    {
+      "categorie": "motricite",
+      "situation": "Il rampe sur le ventre / au lieu du quatre pattes",
+      "titre": "Il rampe sur le ventre / la forme n'annonce rien",
+      "explication": "Il se déplace en rampant sur le ventre, en se tirant sur les bras, parfois de travers. Et l'entourage s'inquiète : « il devrait faire du quatre pattes ». Le mode de déplacement n'annonce rien de la marche, ni du développement futur. Certains enfants rampent, d'autres roulent, d'autres glissent sur les fesses, d'autres ne se déplacent au sol que très peu avant de se mettre debout. Ce qui compte n'est pas la forme : c'est qu'il ait trouvé un moyen d'aller vers ce qu'il veut, et qu'il progresse.",
+      "ancrage": "La forme du déplacement ne prédit rien. Ce qui compte, c'est qu'il ait trouvé son moyen d'aller vers ce qu'il désire.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — donner de la place",
+        "etapes": [
+          "Un grand espace au sol : dégagé, ferme, sans entrave.",
+          "Placer un objet à distance : à peine hors de portée, dans son axe.",
+          "Ne jamais le placer en position quatre pattes : ni le maintenir, ni le corriger.",
+          "Varier les surfaces : un tapis un peu rugueux offre plus d'accroche qu'un parquet.",
+          "Limiter l'immobilisation : pas plus d'une heure d'affilée en transat, poussette, coque ou siège."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — l'éveil libre",
+        "etapes": [
+          "Ta présence au sol : à côté de lui, à sa hauteur, sans le manipuler.",
+          "Deux objets seulement : la profusion disperse.",
+          "Le laisser chercher : râler et essayer fait partie de l'apprentissage.",
+          "Nommer ce qu'il fait : « tu avances, tu y arrives ».",
+          "S'arrêter s'il fatigue : quelques minutes suffisent."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir la règle : le quatre pattes n'est pas obligatoire — beaucoup d'enfants ne le font jamais.",
+        "Se méfier des trotteurs : les youpalas sont dangereux et déconseillés — ils provoquent des accidents graves.",
+        "On n'a pas besoin de l'entraîner : forcer une acquisition ne l'avance pas.",
+        "Poser tes questions en consultation : le suivi médical existe pour cela."
+      ],
+      "principe": "Le mode de déplacement n'annonce rien de la suite. Ce qui compte, c'est qu'il se déplace — pas la forme que cela prend.",
+      "erreurs_a_eviter": [
+        "Placer ou maintenir bébé en position quatre pattes.",
+        "Utiliser un trotteur ou un youpala.",
+        "Comparer sa façon de se déplacer à celle d'un autre enfant.",
+        "Le caler assis ou le mettre debout pour « l'aider »."
+      ],
+      "consulter_si": "Consulter si : bébé ne se déplace d'aucune façon vers dix mois, ne se déplace que d'un seul côté, ne tient pas assis vers neuf mois, paraît anormalement mou ou raide, s'il perd une compétence acquise, ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre ou PMI, qui orientera si nécessaire.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'activité physique du tout-petit et l'exploration de bébé."
+    },
+    {
+      "categorie": "motricite",
+      "situation": "Chute évitée de la table à langer / plus rien ne le retient",
+      "titre": "La table à langer / descendre au sol est plus sûr",
+      "explication": "Il s'est retourné d'un coup, tu l'as rattrapé de justesse — et tu as eu très peur. Un bébé mobile change complètement la donne du change : il ne suffit plus d'être attentif, parce qu'il est désormais capable de se retourner en une fraction de seconde. La vigilance n'est pas une protection fiable, et la sangle non plus. La réponse la plus sûre est aussi la plus simple, et elle coûte un peu de confort : changer bébé au sol, sur un tapis. Une chute de table à langer peut être grave.",
+      "ancrage": "La vigilance ne suffit plus : il est plus rapide que toi. Le sol n'est pas un renoncement — c'est la seule protection fiable.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — descendre au sol",
+        "etapes": [
+          "Changer au sol : sur un tapis, une serviette — le risque de chute disparaît.",
+          "Ne jamais le laisser seul en hauteur : même une seconde, même sanglé.",
+          "Tout préparer avant : couche, lingettes, vêtements à portée — pour ne jamais te retourner.",
+          "Une main toujours sur lui : si tu changes en hauteur, une main reste posée en permanence.",
+          "Lui donner un objet : occuper ses mains réduit les mouvements brusques."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — un change apaisé",
+        "etapes": [
+          "Annoncer chaque geste : « je soulève tes jambes » — la prévisibilité réduit l'opposition.",
+          "Soutenir sans contraindre : glisser une main sous son siège, jamais le soulever par les chevilles.",
+          "Aller vite : un change efficace vaut mieux qu'un change parfait.",
+          "Le laisser bouger : au sol, cela ne pose aucun problème.",
+          "Terminer par un moment agréable : quelques secondes de contact."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se rappeler qu'une chute peut être grave : la hauteur d'une table à langer suffit à provoquer un traumatisme.",
+        "Retenir les signes d'alerte : perte de connaissance, vomissements, somnolence anormale, pâleur.",
+        "Consulter après toute chute d'une hauteur : même si bébé semble aller bien.",
+        "Sécuriser aussi le lit, le canapé, le lit parental : mêmes risques."
+      ],
+      "principe": "Un bébé mobile est plus rapide que ta vigilance. Changer au sol supprime le risque au lieu de le surveiller — c'est le seul choix réellement sûr.",
+      "erreurs_a_eviter": [
+        "Le laisser seul sur la table à langer, même une seconde.",
+        "Se fier à la sangle de la table à langer.",
+        "Se retourner pour attraper une couche.",
+        "Le changer sur un lit ou un canapé sans surveillance."
+      ],
+      "consulter_si": "Consulter si : après une chute d'une hauteur, bébé perd connaissance même brièvement, vomit, devient anormalement somnolent ou difficile à réveiller, pleure de façon inhabituelle et inconsolable, présente une pâleur, une bosse importante, un saignement, ou un comportement qui te surprend → appeler le 15 sans attendre. Après toute chute d'une table à langer : consulter en urgence, même si bébé semble aller bien.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — éviter les accidents domestiques des enfants."
+    },
+    {
+      "categorie": "motricite",
+      "situation": "Il se hisse partout / et se bloque debout",
+      "titre": "Il se hisse / la descente vient après",
+      "explication": "Il se hisse sur le canapé, la table basse, les barreaux — et il reste bloqué debout, hurlant, incapable de redescendre. C'est une séquence normale : monter s'apprend plusieurs semaines avant de descendre. Il n'a ni peur ni mal : il est coincé. Le rasseoir à sa place ne lui apprend rien. Ce qui l'aide : lui montrer le geste, en jeu, plusieurs fois par jour — plier les genoux, poser les fesses. Et sécuriser tout ce qui est à sa portée, car un bébé qui se hisse fait basculer les meubles.",
+      "ancrage": "Il sait monter, pas descendre — c'est normal. Montre-lui le geste en jeu, et sécurise ce qu'il peut faire tomber sur lui.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — montrer la descente",
+        "etapes": [
+          "Montrer le geste : plier les genoux, poser les fesses — lentement, plusieurs fois.",
+          "Le guider à peine : une main derrière ses genoux, sans le faire à sa place.",
+          "Le laisser chercher : c'est en cherchant qu'il apprend, même en râlant.",
+          "L'entraîner en jeu : contre un meuble bas, plusieurs fois par jour.",
+          "Le libérer avant l'effondrement : quand la frustration devient détresse."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — sécuriser ce qu'il escalade",
+        "etapes": [
+          "Fixer les meubles au mur : commodes, étagères, téléviseurs — un meuble qui bascule peut tuer.",
+          "Retirer ce qui bouge : tables basses instables, tabourets, chaises légères.",
+          "Vérifier ce qu'il peut tirer : nappes, câbles, cordons — tout peut faire tomber un objet lourd.",
+          "Un sol amortissant : un tapis dans la zone où il s'entraîne.",
+          "S'arrêter s'il fatigue : la fatigue multiplie les chutes."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Descendre le matelas du lit : dès qu'il se met debout.",
+        "Retirer ce qui permet d'escalader : un carton, un coussin, un jouet — près d'une fenêtre, c'est un danger mortel.",
+        "Sécuriser les fenêtres : entrebâilleurs, jamais de meuble sous une fenêtre.",
+        "Compter en semaines : la descente s'apprend quelques semaines après la montée."
+      ],
+      "principe": "Monter s'apprend avant de descendre : c'est normal. Ce qui l'aide, c'est le geste montré en jeu — et un environnement où sa chute reste sans conséquence.",
+      "erreurs_a_eviter": [
+        "Le rasseoir systématiquement à sa place.",
+        "Laisser un meuble non fixé au mur.",
+        "Laisser un objet à escalader près d'une fenêtre.",
+        "Utiliser un trotteur pour « le stabiliser »."
+      ],
+      "consulter_si": "Consulter si : après une chute, bébé perd connaissance, vomit, devient anormalement somnolent, pleure de façon inconsolable, présente une bosse importante, un saignement, ou un membre qu'il ne mobilise plus → appeler le 15. En cas de chute d'une hauteur ou de meuble tombé sur lui : urgence immédiate.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'activité physique du tout-petit et l'exploration de bébé."
+    }
+  ]
+}

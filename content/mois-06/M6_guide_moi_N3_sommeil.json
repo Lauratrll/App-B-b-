@@ -1,0 +1,196 @@
+{
+  "mois": 6,
+  "tranche_age": "6 mois",
+  "categorie": {
+    "id": "sommeil",
+    "nom": "Sommeil",
+    "sous_titre": "Réorganisation, acquis moteurs, siestes",
+    "icone": "😴"
+  },
+  "protocoles": [
+    {
+      "categorie": "sommeil",
+      "situation": "Régression du sommeil des 6 mois / la maturation finale",
+      "titre": "La réorganisation des six mois / tenir le cadre",
+      "explication": "Autour de six mois, le sommeil de ton bébé achève une réorganisation profonde : ses cycles se stabilisent dans une architecture proche de celle de l'adulte, avec des passages d'éveil entre chaque cycle. Le paradoxe est cruel — plus le sommeil mûrit, plus les réveils sont visibles. Ce n'est pas une régression, ce n'est pas un retour en arrière, et ce n'est la conséquence d'aucune erreur de ta part. C'est une étape. Et la pire réponse serait de changer de méthode en plein milieu : cela ajoute de l'instabilité à une phase déjà instable.",
+      "ancrage": "Ce n'est pas un recul, c'est une maturation. Elle est épuisante, elle est normale, et elle ne demande surtout pas une nouvelle méthode.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — traverser la phase",
+        "etapes": [
+          "Ne rien changer : ce n'est pas le moment d'introduire une nouvelle méthode de sommeil.",
+          "Tenir le cadre : mêmes repères, mêmes horaires approximatifs, même rituel.",
+          "Intervenir par paliers : voix, puis main posée, puis portage seulement si nécessaire.",
+          "Surveiller la sur-fatigue : elle s'installe vite pendant cette phase et aggrave tout.",
+          "Se relayer : chaque parent un bloc de sommeil continu, à tour de rôle."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : soutenir la phase",
+        "etapes": [
+          "Dans le rituel du soir : toujours au même moment, après le bain.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se donner un horizon : cette phase dure généralement quelques semaines, chaque enfant à son rythme.",
+        "Ne pas chercher de coupable : ni les dents, ni le lait, ni une erreur de ta part.",
+        "Alléger tout le reste : sur cette période, réduire les engagements au strict minimum.",
+        "Offrir beaucoup de mouvement le jour : les acquis moteurs se consolident au sol, pas la nuit."
+      ],
+      "principe": "La réorganisation du sommeil est un progrès qui ressemble à un recul. Elle ne se corrige pas — elle se traverse, avec un cadre stable et des parents qui se relaient.",
+      "erreurs_a_eviter": [
+        "Changer de méthode de sommeil en pleine phase.",
+        "Laisser pleurer seul un bébé de six mois pour « rétablir » les nuits.",
+        "Repousser le coucher pour qu'il dorme mieux — la sur-fatigue aggrave tout.",
+        "Conclure que tout ce que tu avais mis en place était faux."
+      ],
+      "consulter_si": "Consulter si : bébé dort très peu au total et ne prend pas de poids, s'il est agité et inconsolable en permanence, s'il est difficile à réveiller pour les prises, ou s'il présente des pauses respiratoires, une respiration bruyante ou un ronflement important → pédiatre ; le 15 en cas de trouble respiratoire.",
+      "source": "Source : Institut national du sommeil et de la vigilance et ameli.fr — le sommeil de l'enfant : étapes, cycles et évolution."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Réveils liés aux acquis moteurs / coincé après un retournement",
+      "titre": "Coincé après un retournement / entraîner le retour de jour",
+      "explication": "Il se retourne sur le ventre pendant la nuit, ne sait pas encore revenir, et se réveille furieux. Son cerveau rejoue la nuit ce qu'il travaille le jour : c'est exactement ce qui doit se passer. Deux règles, et elles ne bougent pas : on couche toujours bébé sur le dos, et on ne passe pas la nuit à le repositionner — l'apprentissage doit se faire. Ce qui accélère la sortie de cette phase se joue en journée : plus il a de temps au sol pour s'entraîner à revenir du ventre au dos, plus vite les réveils cesseront.",
+      "ancrage": "Ce n'est pas la nuit qu'on règle ce problème, c'est le jour. Plus il s'entraîne au sol, plus vite il saura revenir seul.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — la nuit",
+        "etapes": [
+          "Coucher sur le dos : systématiquement, à chaque mise au lit.",
+          "Ne pas le repositionner toute la nuit : s'il se retourne seul, on le laisse.",
+          "Un lit totalement vide : pas de doudou, pas de couverture, pas de coussin, pas de tour de lit.",
+          "Le rassurer sans le sortir du lit : voix, main posée.",
+          "Ne plus emmailloter : dès qu'un bébé cherche à se retourner, l'emmaillotage devient dangereux."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — entraîner le retour, en journée",
+        "etapes": [
+          "Beaucoup de temps sur le ventre, éveillé et surveillé : plusieurs fois par jour.",
+          "Placer un objet sur le côté : à bonne distance, pour donner envie de pivoter.",
+          "Ne pas le retourner à sa place : le laisser chercher, râler, essayer.",
+          "Le libérer avant l'effondrement : quand la frustration devient détresse.",
+          "Limiter transat et coque : ils empêchent l'entraînement."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Sécuriser le lit à fond : dès qu'un bébé bouge, le moindre objet devient un risque d'étouffement.",
+        "Vérifier la chambre entre 18 et 20 °C : la surchauffe est un facteur de risque.",
+        "Se rappeler que la phase est courte : quand il saura revenir seul, les réveils cesseront.",
+        "S'attendre à ce que cela recommence : chaque nouvelle acquisition motrice perturbera à nouveau les nuits."
+      ],
+      "principe": "On couche sur le dos, on ne contrarie pas le retournement, et on vide le lit. La sortie de cette phase se joue au sol, en journée — pas la nuit.",
+      "erreurs_a_eviter": [
+        "Ajouter un coussin, un cale-bébé ou un réducteur pour l'empêcher de se retourner.",
+        "Continuer à emmailloter un bébé qui cherche à se retourner.",
+        "Passer la nuit à le remettre sur le dos.",
+        "Réduire le temps au sol par peur de le fatiguer."
+      ],
+      "consulter_si": "Consulter si : bébé ne se retourne pas du tout vers sept mois, ne se retourne que d'un seul côté, paraît anormalement mou ou raide, s'il présente des pauses respiratoires, ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre ; le 15 en cas de trouble respiratoire. Rappel : couchage sur le dos, matelas ferme, lit vide.",
+      "source": "Source : Santé publique France — le couchage sécurisé du nourrisson et la prévention de la mort inattendue du nourrisson."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Réveil avant l'aube / fenêtre d'éveil ou faim ?",
+      "titre": "Le réveil de cinq heures / faim réelle ou habitude ?",
+      "explication": "Il se réveille à cinq heures, réclame, boit — et se rendort. Puis cela devient tous les jours. Le sommeil de fin de nuit est le plus léger : c'est là que les habitudes s'installent le plus facilement. Une vraie faim se reconnaît : il boit une prise complète, activement, et se rendort repu. Une habitude, c'est autre chose : il tète quelques minutes, s'endort au sein ou au biberon, et le lait ne sert plus que de moyen de rendormissement. Distinguer les deux permet de savoir s'il a besoin d'être nourri — ou simplement accompagné.",
+      "ancrage": "Un réveil de fin de nuit n'est pas toujours une faim. Ce qui le dit : boit-il vraiment, ou tète-t-il pour se rendormir ?",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — distinguer",
+        "etapes": [
+          "Attendre une à deux minutes : certains réveils de fin de nuit se rendorment seuls.",
+          "Observer la prise : boit-il activement, avec des déglutitions, une prise complète ?",
+          "Ou s'endort-il en tétant : quelques minutes, sans vraiment boire — c'est du rendormissement.",
+          "Ne pas allumer la lumière : la pénombre du début à la fin.",
+          "Intervenir par paliers : voix, main posée, puis prise seulement si la faim est réelle."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : accompagner le rendormissement",
+        "etapes": [
+          "Dans le lit, sans le sortir : lumière éteinte, silence.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Main posée sur son torse : immobile, jusqu'à ce que sa respiration se pose.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Vérifier la journée : un bébé qui mange bien en journée a moins besoin de calories la nuit — mais la diversification ne fait pas dormir.",
+        "Assombrir la chambre : la lumière du petit matin réveille et empêche de se rendormir.",
+        "Ne pas avancer le petit-déjeuner : cela déplace le réveil plutôt que de le supprimer.",
+        "Y aller progressivement : si c'est une habitude, elle se défait doucement, sans jamais laisser pleurer seul."
+      ],
+      "principe": "Le sommeil de fin de nuit est le plus fragile : c'est là que les habitudes s'ancrent. Distinguer une vraie faim d'un rendormissement décide de la conduite à tenir.",
+      "erreurs_a_eviter": [
+        "Nourrir systématiquement à chaque réveil de fin de nuit sans distinguer.",
+        "Laisser pleurer seul pour « casser » l'habitude.",
+        "Allumer la lumière ou commencer la journée à cinq heures.",
+        "Diversifier davantage en espérant faire dormir — cela ne fonctionne pas."
+      ],
+      "consulter_si": "Consulter si : bébé se réveille en hurlant de façon inconsolable, présente de la fièvre, refuse de boire, ne prend pas de poids, sa courbe casse, ou s'il présente des pauses respiratoires ou un ronflement important → pédiatre ; le 15 en cas de trouble respiratoire.",
+      "source": "Source : Institut national du sommeil et de la vigilance et ameli.fr — le sommeil de l'enfant : étapes, cycles et évolution."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Transition vers 2 siestes / fenêtres d'éveil qui s'allongent",
+      "titre": "Le passage à deux siestes / réajuster sans supprimer",
+      "explication": "Les trois siestes ne tiennent plus : la dernière est refusée, ou elle décale le coucher, ou elle s'effondre. C'est le signe que ses fenêtres d'éveil se sont allongées — elles atteignent souvent deux à trois heures à cet âge. La transition vers deux siestes se fait progressivement, sur plusieurs semaines, et rarement de façon linéaire : certains jours il aura besoin de trois, d'autres de deux. Supprimer une sieste d'un coup crée une dette de sommeil qui hache les nuits — c'est le piège classique de cette étape.",
+      "ancrage": "On ne supprime pas une sieste, on l'ajuste. La transition prend des semaines, avec des allers-retours — et c'est normal.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — ajuster progressivement",
+        "etapes": [
+          "Observer les signes de fatigue : regard qui se perd, mouvements plus lents — avant les bâillements francs.",
+          "Allonger un peu la fenêtre d'éveil : quinze à vingt minutes de plus, progressivement.",
+          "Décaler la première sieste : la reculer légèrement décale tout le reste de la journée.",
+          "Garder la troisième sieste les jours de fatigue : la transition n'est pas linéaire.",
+          "Avancer le coucher du soir : pendant la transition, un coucher plus tôt compense la dette."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : favoriser la détente avant la sieste",
+        "etapes": [
+          "Avant le coucher : bébé calme, sur le dos, lumière tamisée.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Compter en semaines : cette transition prend souvent plusieurs semaines.",
+        "Protéger la première sieste : c'est la plus réparatrice, elle se maintient longtemps.",
+        "Ne pas supprimer d'un coup : la dette de sommeil se paie en réveils nocturnes.",
+        "Recalibrer régulièrement : les fenêtres d'éveil continueront de s'allonger tout au long de l'année."
+      ],
+      "principe": "Une sieste ne se supprime pas : elle s'ajuste. Pendant la transition, un coucher du soir avancé est le meilleur amortisseur de la dette de sommeil.",
+      "erreurs_a_eviter": [
+        "Supprimer une sieste d'un coup.",
+        "Repousser le coucher parce qu'il a moins dormi.",
+        "Réveiller bébé pour forcer un rythme.",
+        "S'attendre à une transition linéaire."
+      ],
+      "consulter_si": "Consulter si : bébé dort très peu au total et ne prend pas de poids, s'il est agité et inconsolable, s'il est difficile à réveiller, ou s'il présente des pauses respiratoires → pédiatre ou PMI ; le 15 en cas de trouble respiratoire.",
+      "source": "Source : Institut national du sommeil et de la vigilance et ameli.fr — le sommeil de l'enfant : étapes, cycles et évolution."
+    }
+  ]
+}

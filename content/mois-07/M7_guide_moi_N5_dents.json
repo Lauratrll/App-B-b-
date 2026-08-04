@@ -1,0 +1,196 @@
+{
+  "mois": 7,
+  "tranche_age": "7 mois",
+  "categorie": {
+    "id": "dents",
+    "nom": "Dents & petits inconforts",
+    "sous_titre": "Percée, bave, morsure, gencive",
+    "icone": "🦷"
+  },
+  "protocoles": [
+    {
+      "categorie": "dents",
+      "situation": "Bave énorme et menton irrité / la peau réagit à la salive",
+      "titre": "Le menton irrité / sécher et protéger",
+      "explication": "La salive coule en continu, et la peau du menton, du cou et du haut du torse rougit, tiraille, se craquelle. La salive est irritante par nature, et une peau constamment humide finit par s'abîmer. Ce n'est pas un problème dentaire : c'est un problème de peau. Le traitement est simple et il tient en deux gestes — sécher par tamponnement, souvent, et protéger avec un émollient simple, sans parfum. Ce qui aggrave : frotter, multiplier les produits, et laisser un bavoir trempé pendant des heures.",
+      "ancrage": "Ce n'est pas la dent qu'on traite, c'est la peau. Tamponner souvent et protéger suffit dans la grande majorité des cas.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — la routine du menton",
+        "etapes": [
+          "Tamponner souvent : un linge doux, plusieurs fois par jour — jamais frotter.",
+          "Nettoyer à l'eau tiède : sans savon, une à deux fois par jour.",
+          "Sécher soigneusement : particulièrement dans les plis du cou.",
+          "Appliquer un émollient simple : sans parfum, en couche fine, sur la zone rouge.",
+          "Changer le bavoir dès qu'il est mouillé : et les vêtements humides."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — protéger sans irriter",
+        "etapes": [
+          "Appliquer avant les phases de bave : une barrière protège mieux qu'elle ne répare.",
+          "Application lente : à mains réchauffées, pression douce et constante, sans frotter.",
+          "Laisser respirer : quelques minutes sans bavoir, à l'air libre.",
+          "Un bavoir en coton : changé souvent, plutôt qu'une peau constamment humide.",
+          "S'arrêter s'il se crispe : le soin doit rester bref."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Éviter les produits parfumés : lingettes, laits, poudres — ils aggravent l'irritation.",
+        "Éviter les huiles essentielles : contre-indiquées chez le nourrisson.",
+        "Ne pas appliquer de crème médicamenteuse sans avis : ni cortisone, ni antifongique.",
+        "Se rappeler que cela dure : la phase de bave s'étale sur plusieurs mois."
+      ],
+      "principe": "La bave irrite la peau, pas la dent. Tamponner, protéger, changer souvent — et montrer une peau qui suinte, saigne ou s'étend.",
+      "erreurs_a_eviter": [
+        "Frotter la peau irritée pour la nettoyer.",
+        "Utiliser des lingettes parfumées ou du talc.",
+        "Appliquer une crème à la cortisone sans avis médical.",
+        "Laisser bébé avec un bavoir trempé pendant des heures."
+      ],
+      "consulter_si": "Consulter si : la peau suinte, saigne, se couvre de croûtes jaunâtres ou de pus, si les plaques s'étendent au visage ou au corps, si bébé se gratte, dort mal, ou présente de la fièvre → pédiatre ou médecin traitant.",
+      "source": "Source : ameli.fr (Assurance Maladie) — peau sèche et irritations de l'enfant : soins quotidiens et quand consulter."
+    },
+    {
+      "categorie": "dents",
+      "situation": "La première dent perce / gencive gonflée et nuit agitée",
+      "titre": "La percée / quelques jours, pas des semaines",
+      "explication": "La gencive est gonflée, tendue, blanchâtre au sommet : la dent va percer. Cette phase de percée est réellement inconfortable, mais elle est courte — quelques jours, pas des semaines. C'est important, parce que « les dents » servent ensuite d'explication universelle à tous les réveils pendant des mois. Ce qui soulage : le froid, la pression, la patience. Ce qui circule partout et qui est à proscrire : le gel anesthésiant, contre-indiqué avant deux ans, et le collier d'ambre, dangereux et inefficace.",
+      "ancrage": "Une percée dure quelques jours, pas des semaines. Le froid et la pression soulagent — le gel et le collier d'ambre, jamais.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — soulager la percée",
+        "etapes": [
+          "Un anneau de dentition réfrigéré : sorti du réfrigérateur, jamais du congélateur.",
+          "Un linge propre et frais : humidifié, à mordiller sous surveillance.",
+          "Une pression du doigt propre : quelques secondes sur la gencive, sans forcer.",
+          "Proposer des aliments frais : purée sortie du réfrigérateur — le froid soulage.",
+          "Accepter quelques nuits difficiles : elles sont limitées dans le temps."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — traverser la percée",
+        "etapes": [
+          "Beaucoup de contact : le portage et la présence apaisent plus que n'importe quel remède.",
+          "Réflexologie du soir : dans le rituel, balayage de la voûte, pression douce et constante.",
+          "Un rituel de coucher inchangé : la stabilité rassure pendant une phase inconfortable.",
+          "Protéger la peau du menton : la bave augmente pendant la percée.",
+          "S'arrêter s'il se crispe : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne jamais utiliser de gel anesthésiant : les gels à la lidocaïne sont contre-indiqués avant deux ans.",
+        "Ne jamais utiliser de collier d'ambre : risque d'étouffement et de strangulation, sans efficacité démontrée.",
+        "Ne pas attribuer une fièvre aux dents : une fièvre a toujours une autre cause, et elle se fait examiner.",
+        "Commencer le brossage : dès la première dent, avec une brosse adaptée et un dentifrice fluoré au dosage indiqué par le professionnel."
+      ],
+      "principe": "Une percée dure quelques jours. Le froid et la pression soulagent — et une fièvre ne s'explique jamais par les dents : elle se fait examiner.",
+      "erreurs_a_eviter": [
+        "Utiliser un collier d'ambre — étouffement et strangulation.",
+        "Appliquer un gel anesthésiant sur les gencives — contre-indiqué avant deux ans.",
+        "Mettre un anneau de dentition au congélateur.",
+        "Attribuer une fièvre, une diarrhée ou des pleurs intenses aux dents."
+      ],
+      "consulter_si": "Consulter si : bébé a de la fièvre, refuse de boire, présente des plaques blanches dans la bouche, une éruption qui s'étend, une gencive qui saigne abondamment, ou paraît anormalement mou → pédiatre ou médecin traitant sans délai. Une fièvre ne s'explique jamais par les dents.",
+      "source": "Source : ameli.fr (Assurance Maladie) — poussées dentaires : symptômes, soulagement et quand consulter."
+    },
+    {
+      "categorie": "dents",
+      "situation": "Il mord pendant la tétée / réflexe et surprise",
+      "titre": "La morsure / décrocher, ne pas crier",
+      "explication": "La première morsure est une surprise douloureuse — et la réaction naturelle, crier, est exactement celle qui pose problème. Un cri fort effraie le bébé, et peut déclencher un refus du sein pendant plusieurs jours, parfois définitif. Il ne mord pas pour te faire mal : ses gencives le gênent, il teste ses nouvelles dents, ou il est en fin de tétée et joue. La réponse est technique : rompre la succion, poser calmement, proposer autre chose à mordiller — et soulager la gencive en dehors des tétées.",
+      "ancrage": "Il ne t'attaque pas : il teste une gencive qui le gêne. Ta réaction compte plus que la morsure — un cri peut coûter l'allaitement.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — au moment de la morsure",
+        "etapes": [
+          "Rompre la succion : glisser un doigt propre dans le coin de sa bouche, sans tirer.",
+          "Ne pas crier : réagir calmement, à voix basse — un cri fort peut déclencher un refus durable.",
+          "Dire non une fois : « on ne mord pas, ça fait mal » — d'un ton posé.",
+          "Interrompre brièvement : le reposer quelques secondes, puis reproposer.",
+          "Repérer le moment : la morsure arrive souvent en fin de tétée, quand il n'a plus faim — on arrête avant."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — soulager la gencive autrement",
+        "etapes": [
+          "Un anneau réfrigéré avant la tétée : une gencive soulagée mord moins.",
+          "Un linge propre et frais : humidifié, à mordiller sous surveillance.",
+          "Une pression du doigt propre sur la gencive : quelques secondes, avant la prise.",
+          "Nourrir avant les pleurs : un bébé calme mord moins qu'un bébé énervé.",
+          "S'arrêter s'il se détourne : il indique qu'il n'a plus faim."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se faire aider si l'allaitement est menacé : consultante en lactation (IBCLC), sage-femme ou PMI.",
+        "Faire soulager une crevasse : une plaie qui ne cicatrise pas se montre.",
+        "Ne jamais utiliser de gel anesthésiant ni de collier d'ambre : l'un est contre-indiqué avant deux ans, l'autre présente un risque d'étouffement et de strangulation.",
+        "Se rappeler que cela passe : la plupart des bébés cessent de mordre en quelques semaines."
+      ],
+      "principe": "Un cri au moment de la morsure peut coûter plusieurs jours de refus — parfois l'allaitement. La bonne réponse est technique : décrocher, poser, reproposer.",
+      "erreurs_a_eviter": [
+        "Crier ou repousser brusquement bébé.",
+        "Le punir ou lui taper la main — cela n'enseigne rien et abîme la relation.",
+        "Utiliser un collier d'ambre ou un gel anesthésiant — risque d'étouffement, et contre-indication avant deux ans.",
+        "Continuer la tétée alors qu'il joue et n'a plus faim."
+      ],
+      "consulter_si": "Consulter si : une crevasse ou une plaie apparaît et ne cicatrise pas, si un sein devient rouge, dur et douloureux avec de la fièvre, si bébé refuse le sein plusieurs jours, ou si ses gencives saignent abondamment → sage-femme, consultante en lactation (IBCLC), PMI ou pédiatre.",
+      "source": "Source : Haute Autorité de Santé — « Allaitement maternel : mise en œuvre et poursuite dans les 6 premiers mois de vie de l'enfant »."
+    },
+    {
+      "categorie": "dents",
+      "situation": "Gencive bleutée / petite boule avant la dent",
+      "titre": "La gencive bleutée / une bulle avant la dent",
+      "explication": "Une petite boule bleutée ou violacée apparaît sur la gencive, là où la dent va percer. C'est impressionnant, et cela ressemble à un hématome. Il s'agit le plus souvent d'un kyste d'éruption : une petite poche de liquide qui se forme au-dessus de la dent en train de sortir. C'est bénin, cela ne demande aucun geste, et cela disparaît de soi-même quand la dent perce. Le savoir évite deux choses : une panique inutile, et surtout un geste dangereux — percer, inciser, ou frotter énergiquement.",
+      "ancrage": "Cette boule impressionne, et elle est bénigne. Ce qui compte, c'est de ne rien faire — surtout pas de la percer.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — ne rien faire",
+        "etapes": [
+          "Ne pas percer, ne pas inciser, ne rien introduire : jamais — risque d'infection et de lésion.",
+          "Ne pas frotter énergiquement : la gencive est fragile.",
+          "Soulager comme pour une percée : froid, pression douce, patience.",
+          "Observer : cela disparaît en général quand la dent perce.",
+          "Montrer au professionnel : si tu as le moindre doute sur l'aspect."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — le confort de la gencive",
+        "etapes": [
+          "Un anneau réfrigéré : sorti du réfrigérateur, jamais du congélateur.",
+          "Un linge propre et frais : à mordiller sous surveillance.",
+          "Une pression du doigt propre : quelques secondes, sans forcer, à distance de la bulle.",
+          "Des aliments frais : purée sortie du réfrigérateur.",
+          "S'arrêter s'il se crispe : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se rappeler que c'est bénin : cela évolue seul, sans traitement.",
+        "Ne jamais utiliser de gel anesthésiant ni de collier d'ambre : l'un est contre-indiqué avant deux ans, l'autre présente un risque d'étouffement et de strangulation.",
+        "Montrer au professionnel si l'aspect change : gonflement important, rougeur qui s'étend, pus.",
+        "Distinguer de la fièvre : une fièvre ne s'explique jamais par les dents."
+      ],
+      "principe": "Une bulle bleutée avant une dent est le plus souvent bénigne et disparaît seule. Le seul geste utile est de ne rien faire — surtout pas de la percer.",
+      "erreurs_a_eviter": [
+        "Percer, inciser ou frotter la boule.",
+        "Introduire un objet dans la bouche pour « faire sortir » la dent.",
+        "Appliquer un gel anesthésiant.",
+        "Attribuer une fièvre aux dents."
+      ],
+      "consulter_si": "Consulter si : la boule grossit rapidement, si la gencive devient très rouge, chaude, purulente, si bébé a de la fièvre, refuse de boire, présente une joue gonflée, ou paraît anormalement mou → pédiatre, médecin traitant ou chirurgien-dentiste sans délai.",
+      "source": "Source : ameli.fr (Assurance Maladie) — poussées dentaires : symptômes, soulagement et quand consulter."
+    }
+  ]
+}

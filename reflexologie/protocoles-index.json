@@ -20,8 +20,7 @@
     "agitation-concentration",
     "anxiete-nervosite",
     "opposition-frustration",
-    "jalousie-fratrie",
-    "enuresie"
+    "jalousie-fratrie"
   ],
   "reportes": [
     "bronchite-asthme",
@@ -29,7 +28,8 @@
     "allergies",
     "ictere",
     "meconium",
-    "chutes"
+    "chutes",
+    "enuresie"
   ],
   "accueil": "accueil-onglet-reflexologie.json",
   "ouverture_commune": "_ouverture-commune.json",
@@ -43,7 +43,8 @@
       "nb_etapes": 6,
       "lancement": true,
       "sujet_sensible": false,
-      "variante": false
+      "variante": false,
+      "age": "M0-M1"
     },
     {
       "id": "prematurite",
@@ -52,7 +53,8 @@
       "nb_etapes": 6,
       "lancement": true,
       "sujet_sensible": true,
-      "variante": false
+      "variante": false,
+      "age": "M0-M5"
     },
     {
       "id": "cesarienne",
@@ -61,7 +63,8 @@
       "nb_etapes": 10,
       "lancement": true,
       "sujet_sensible": false,
-      "variante": false
+      "variante": false,
+      "age": "M0-M3"
     },
     {
       "id": "confiance-en-soi",
@@ -70,7 +73,8 @@
       "nb_etapes": 11,
       "lancement": true,
       "sujet_sensible": false,
-      "variante": false
+      "variante": false,
+      "age": "M17-M23"
     },
     {
       "id": "difficultes-a-teter",
@@ -79,7 +83,8 @@
       "nb_etapes": 8,
       "lancement": true,
       "sujet_sensible": false,
-      "variante": false
+      "variante": false,
+      "age": "M0-M2"
     },
     {
       "id": "separation",
@@ -88,7 +93,8 @@
       "nb_etapes": 8,
       "lancement": true,
       "sujet_sensible": false,
-      "variante": false
+      "variante": false,
+      "age": "M6-M23"
     },
     {
       "id": "coliques",
@@ -97,7 +103,8 @@
       "nb_etapes": 8,
       "lancement": true,
       "sujet_sensible": false,
-      "variante": false
+      "variante": false,
+      "age": "M0-M2"
     },
     {
       "id": "inconfort-digestif",
@@ -106,7 +113,8 @@
       "nb_etapes": 8,
       "lancement": true,
       "sujet_sensible": false,
-      "variante": false
+      "variante": false,
+      "age": "M4-M12"
     },
     {
       "id": "frustration-motrice",
@@ -115,7 +123,8 @@
       "nb_etapes": 9,
       "lancement": true,
       "sujet_sensible": false,
-      "variante": false
+      "variante": false,
+      "age": "M7-M13"
     },
     {
       "id": "reflux",
@@ -124,7 +133,8 @@
       "nb_etapes": 8,
       "lancement": true,
       "sujet_sensible": true,
-      "variante": false
+      "variante": false,
+      "age": "M0-M4"
     },
     {
       "id": "dents",
@@ -133,7 +143,8 @@
       "nb_etapes": 8,
       "lancement": true,
       "sujet_sensible": false,
-      "variante": false
+      "variante": false,
+      "age": "M5-M18"
     },
     {
       "id": "constipation",
@@ -142,7 +153,8 @@
       "nb_etapes": 11,
       "lancement": true,
       "sujet_sensible": false,
-      "variante": false
+      "variante": false,
+      "age": "M2-M23"
     },
     {
       "id": "diarrhee",
@@ -151,7 +163,8 @@
       "nb_etapes": 11,
       "lancement": true,
       "sujet_sensible": true,
-      "variante": false
+      "variante": false,
+      "age": "M13-M23"
     },
     {
       "id": "mal-des-transports",
@@ -160,7 +173,8 @@
       "nb_etapes": 11,
       "lancement": true,
       "sujet_sensible": false,
-      "variante": false
+      "variante": false,
+      "age": "M21-M23"
     },
     {
       "id": "sommeil",
@@ -169,16 +183,18 @@
       "nb_etapes": 8,
       "lancement": true,
       "sujet_sensible": false,
-      "variante": true
+      "variante": true,
+      "age": "M0-M23"
     },
     {
       "id": "rhume-otite",
       "titre": "Rhume, otite",
       "fichier": "protocole-rhume-otite.json",
-      "nb_etapes": 11,
+      "nb_etapes": 13,
       "lancement": true,
       "sujet_sensible": true,
-      "variante": false
+      "variante": false,
+      "age": "M6-M23"
     },
     {
       "id": "agitation-concentration",
@@ -187,7 +203,8 @@
       "nb_etapes": 10,
       "lancement": true,
       "sujet_sensible": false,
-      "variante": false
+      "variante": false,
+      "age": "M18-M23"
     },
     {
       "id": "anxiete-nervosite",
@@ -196,7 +213,8 @@
       "nb_etapes": 11,
       "lancement": true,
       "sujet_sensible": false,
-      "variante": false
+      "variante": false,
+      "age": "M19-M23"
     },
     {
       "id": "opposition-frustration",
@@ -205,7 +223,8 @@
       "nb_etapes": 10,
       "lancement": true,
       "sujet_sensible": false,
-      "variante": false
+      "variante": false,
+      "age": "M14-M23"
     },
     {
       "id": "jalousie-fratrie",
@@ -214,16 +233,8 @@
       "nb_etapes": 6,
       "lancement": true,
       "sujet_sensible": false,
-      "variante": false
-    },
-    {
-      "id": "enuresie",
-      "titre": "Énurésie",
-      "fichier": "protocole-enuresie.json",
-      "nb_etapes": 8,
-      "lancement": true,
-      "sujet_sensible": false,
-      "variante": false
+      "variante": false,
+      "age": "M22-M23"
     },
     {
       "id": "bronchite-asthme",
@@ -284,6 +295,17 @@
       "sujet_sensible": false,
       "variante": false,
       "raison_report": "protocole complexe : nécessite des vues de côté (épaule, hanche) et d'autres éléments à créer — reporté"
+    },
+    {
+      "id": "enuresie",
+      "titre": "Énurésie",
+      "fichier": "protocole-enuresie.json",
+      "nb_etapes": 8,
+      "lancement": false,
+      "sujet_sensible": false,
+      "variante": false,
+      "raison_report": "l'énurésie ne concerne pas un enfant de moins de 2 ans — hors tranche 0-23 mois"
     }
-  ]
+  ],
+  "_bornes_age": "BROUILLON — Laura doit relire toutes les bornes d'âge (age_min_mois/age_max_mois) avant validation. NE PAS activer le filtre par âge tant que ce drapeau est présent."
 }

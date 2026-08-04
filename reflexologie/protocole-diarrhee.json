@@ -142,8 +142,8 @@
         {
           "zone": "intestin-grele",
           "designation": "l'intestin grêle",
-          "mouvement": "spirale-centripete",
-          "description_mouvement": "Effectuez un mouvement circulaire de l'extérieur vers le centre",
+          "mouvement": "boucles-progressives",
+          "description_mouvement": "Effectuez de petits cercles qui avancent, du bord extérieur du pied vers l’intérieur",
           "sens": "inverse"
         }
       ]
@@ -169,5 +169,8 @@
   "note_fin": "Termine en allégeant le contact, puis éloigne-toi en douceur.",
   "disclaimer": "La Réflexologie plantaire ne se substitue pas à un avis médical.",
   "lancement": true,
-  "visuel": "visuels-protocoles/Visuel - Diarrhée.png"
+  "visuel": "visuels-protocoles/Visuel - Diarrhée.png",
+  "age_min_mois": 13,
+  "age_max_mois": 23,
+  "age_statut": "brouillon"
 }

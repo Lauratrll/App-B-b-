@@ -1,0 +1,196 @@
+{
+  "mois": 11,
+  "tranche_age": "11 mois",
+  "categorie": {
+    "id": "stimu",
+    "nom": "Sur-stimulation",
+    "sous_titre": "Mouvement, fête, limites, décharge",
+    "icone": "✨"
+  },
+  "protocoles": [
+    {
+      "categorie": "stimu",
+      "situation": "Il ne tient plus en place / mouvement permanent",
+      "titre": "Le mouvement permanent / canaliser par le mouvement",
+      "explication": "Depuis qu'il se déplace debout, il ne s'arrête plus : il court partout, grimpe, se jette, recommence. Le besoin de bouger explose avec la marche, et il est physiologique. Le réflexe est de chercher à l'immobiliser — l'asseoir, le contenir, le calmer. C'est une erreur : un besoin moteur ne se calme pas par l'immobilité, il se satisfait par le mouvement. Ce qui l'apaise réellement, ce sont des occasions de bouger, encadrées et sûres — pas des tentatives de le tenir tranquille.",
+      "ancrage": "Un besoin de bouger ne se calme pas par l'immobilité. On canalise par le mouvement — jamais contre lui.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — canaliser par le mouvement",
+        "etapes": [
+          "Offrir du mouvement : plusieurs fois par jour, un grand espace sécurisé où courir et grimper.",
+          "Sortir dehors : c'est le meilleur exutoire moteur qui existe.",
+          "Un parcours sûr : coussins, modules, marches basses — grimper est un besoin.",
+          "Ne pas chercher à l'immobiliser : cela augmente la tension.",
+          "Puis descendre : après le mouvement, ralentir progressivement."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : après la décharge motrice",
+        "etapes": [
+          "Une fois le corps déchargé : l'enfant sur le dos, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Limiter l'immobilisation : pas plus d'une heure d'affilée en poussette, transat, coque ou siège.",
+        "Protéger les siestes : la sur-fatigue augmente l'agitation.",
+        "Sécuriser toute la maison : le mouvement libre suppose un espace sûr.",
+        "Zéro écran : les écrans ne calment pas un besoin moteur, ils l'empêchent de s'exprimer."
+      ],
+      "principe": "Un besoin moteur se satisfait par le mouvement, jamais par l'immobilité. Canaliser fonctionne — contenir augmente la tension.",
+      "erreurs_a_eviter": [
+        "Chercher à l'immobiliser pour le calmer.",
+        "Utiliser un écran pour le tenir tranquille.",
+        "Le sangler longtemps dans une poussette ou un siège.",
+        "Réduire les sorties par peur qu'il s'excite."
+      ],
+      "consulter_si": "Consulter si : l'enfant paraît anormalement agité en permanence, s'il se blesse à répétition, s'il ne parvient jamais à se poser, ou s'il perd des compétences acquises → pédiatre ou PMI.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'activité physique du tout-petit."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "La fête d'anniversaire l'a submergé / trop de monde, trop de bruit",
+      "titre": "La fête d'un an / elle se pense pour lui",
+      "explication": "Vingt personnes, de la musique, des cadeaux, des flashs, des bras qui se tendent — et un enfant qui hurle au milieu du gâteau. Une fête d'un an est presque toujours conçue pour les adultes : c'est leur célébration, leur soulagement, leur photo. Lui n'a besoin de rien de tout cela. Ce qui rend une fête vivable pour lui : un format court, peu d'invités, des repères connus, et une sieste respectée. Il ne se souviendra de rien — mais il vivra la journée, et elle peut être douce.",
+      "ancrage": "Cette fête est pour les adultes, pas pour lui. Court, peu de monde, ses repères — et la sieste avant tout.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — un format à sa mesure",
+        "etapes": [
+          "Un format court : une à deux heures maximum.",
+          "Peu d'invités : quelques personnes qu'il connaît déjà.",
+          "Respecter la sieste : elle prime absolument sur l'horaire de la fête.",
+          "Chez vous si possible : les repères connus réduisent énormément la charge.",
+          "Un lieu de repli : une pièce calme, identifiée dès le début."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : décharger après",
+        "etapes": [
+          "Une fois au calme : l'enfant sur le dos, dans le silence.",
+          "Toucher enveloppant des pieds : les tenir entiers dans tes paumes, immobiles.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Poser deux règles à l'entourage : pas de passage de bras, on le laisse venir.",
+        "Un cadeau à la fois : ouvrir tout d'un coup le submerge.",
+        "Prévoir une soirée difficile : la décharge arrive après, et elle est normale.",
+        "Se donner le droit d'écourter : partir ou faire partir les invités n'est pas un échec."
+      ],
+      "principe": "Une fête d'un an sert surtout aux adultes. Format court, peu d'invités, repères connus, sieste respectée : c'est ce qui la rend vivable pour lui.",
+      "erreurs_a_eviter": [
+        "Organiser une grande fête avec beaucoup de monde.",
+        "Décaler ou supprimer la sieste pour la fête.",
+        "Le faire passer de bras en bras.",
+        "Ouvrir tous les cadeaux d'un coup."
+      ],
+      "consulter_si": "Consulter si : l'enfant reste inconsolable plusieurs heures malgré le retour au calme, s'il refuse de boire, présente de la fièvre, ou paraît anormalement mou ou difficile à réveiller → pédiatre, le 15 selon l'urgence.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "Il explose dès qu'on lui dit non / la limite déclenche la crise",
+      "titre": "La limite qui déclenche la crise / tenir sans céder ni punir",
+      "explication": "Tu dis non, et c'est l'explosion immédiate. La limite est nécessaire — et la crise qui suit est attendue, normale, inévitable. Ce n'est pas un signe que tu as mal posé la limite : c'est un signe qu'il est en train de découvrir que le monde lui résiste. Deux gestes coexistent, et on les confond souvent : tenir le cadre, qui ne se négocie pas ; et accueillir l'émotion, qui a le droit d'exister. Céder n'est ni l'un ni l'autre. Punir non plus.",
+      "ancrage": "La limite est nécessaire, et la crise est attendue. Tenir le cadre et accueillir l'émotion sont deux gestes — céder n'en est aucun.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — les deux gestes",
+        "etapes": [
+          "Tenir la limite : calmement, sans discours, sans négociation.",
+          "Accueillir l'émotion : « tu es en colère, tu voulais » — la validation apaise sans céder.",
+          "Se taire pendant la crise : aucun mot ne l'atteint dans cet état.",
+          "Sécuriser son corps : écarter les objets durs, rester à côté.",
+          "Ne pas céder après : cela apprendrait que la crise fonctionne."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : redescendre après la crise",
+        "etapes": [
+          "Une fois la vague passée : l'enfant sur le dos, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Réserver le « non » au nécessaire : un « non » utilisé partout perd tout son sens.",
+        "Anticiper : réduire les occasions de conflit par l'aménagement.",
+        "Ne jamais punir ni taper : la violence, même légère, n'enseigne rien et abîme le lien.",
+        "Se protéger : si ta colère monte, poser l'enfant en sécurité et sortir de la pièce."
+      ],
+      "principe": "La crise n'est pas le signe d'une limite mal posée : c'est le signe qu'il découvre que le monde résiste. On tient le cadre, on accueille l'émotion — et on ne cède pas.",
+      "erreurs_a_eviter": [
+        "Céder pour faire cesser la crise.",
+        "Punir, taper ou humilier.",
+        "Raisonner ou expliquer pendant la crise.",
+        "Multiplier les interdits sur des choses sans danger."
+      ],
+      "consulter_si": "Consulter si : les crises deviennent quotidiennes et inconsolables, si l'enfant se cogne volontairement la tête, se blesse, perd connaissance pendant une crise, ou si tu sens ta colère devenir difficile à contenir → pédiatre, PMI, ou Allo Parents Bébé (0 800 00 34 56). En cas de perte de connaissance : appeler le 15.",
+      "source": "Source : Haute Autorité de Santé — recommandation « Syndrome du bébé secoué ou traumatisme crânien non accidentel par secouement »."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "Décharge du soir après la garde / une heure de cris",
+      "titre": "L'heure de cris du soir / une preuve de confiance",
+      "explication": "Une heure de cris, tous les soirs, dès qu'il rentre. Toute la journée, il a contenu : il s'est adapté, il a tenu, il a été « sage ». Ton retour ouvre la vanne — et tout sort. Ce déchargement témoigne de sa confiance : c'est auprès de toi, et seulement auprès de toi, qu'il peut lâcher. Ce n'est pas un échec de la garde, ce n'est pas un reproche, et ce n'est pas le signe qu'il a été malheureux. Ce qu'il demande à cet instant, ce n'est ni du jeu ni des excuses : c'est du vide.",
+      "ancrage": "Ce déchargement est une preuve de confiance, pas un échec. Il lâche avec toi parce qu'avec toi, il est en sécurité.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — accueillir le vide",
+        "etapes": [
+          "Accueillir sans animer : le tenir, sans jouer ni parler beaucoup.",
+          "Aucune consigne : ni bain, ni repas, ni rangement pendant les vingt premières minutes.",
+          "Poser le téléphone : la première demi-heure se fait sans écran.",
+          "Un retour au calme : pièce sombre, silence, contact.",
+          "Accepter la durée : la décharge peut prendre une heure."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : le rituel des retrouvailles",
+        "etapes": [
+          "Au retour, chaque soir : toujours au même moment.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : il peut avoir besoin de calme avant de contact."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne pas culpabiliser : cette décharge n'est pas le signe qu'il a mal vécu sa journée.",
+        "Se méfier de la sur-compensation : la culpabilité pousse à stimuler — c'est l'inverse qu'il demande.",
+        "Avancer le repas et le coucher : la sur-fatigue amplifie tout.",
+        "Se relayer : une heure de cris chaque soir use — le relais fait partie du protocole."
+      ],
+      "principe": "Ce déchargement témoigne de sa confiance : c'est auprès de toi qu'il peut lâcher. Ce qu'il demande, c'est un vide — jamais une compensation.",
+      "erreurs_a_eviter": [
+        "Compenser par du jeu, une sortie ou une animation.",
+        "Interpréter ses pleurs comme la preuve qu'il a été malheureux.",
+        "Enchaîner les tâches dès le retour.",
+        "Utiliser un écran pour souffler."
+      ],
+      "consulter_si": "Consulter si : l'enfant paraît éteint ou apathique, refuse de manger ou de boire à la garde pendant plusieurs jours, s'il perd du poids, ou s'il régresse durablement → pédiatre, PMI, ou psychologue périnatal.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+    }
+  ]
+}

@@ -31,13 +31,18 @@ Le protocole n'existe **qu'une seule fois** (un fichier `protocole-<id>.json`). 
 
 ## 2. Ce qu'on publie au lancement
 
-**19 protocoles publiés** (`"lancement": true` dans chaque fichier), dans l'ordre de `protocoles-index.json` :
+**20 protocoles publiés** (`"lancement": true` dans chaque fichier), dans l'ordre de `protocoles-index.json` :
 
-Accueil du nouveau-né · **Prématurité** · Césarienne _(bébé né d'une césarienne / d'un déclenchement)_ · Confiance en soi · Difficultés à téter · Séparation · Coliques · Inconfort digestif · **Reflux** · Dents · Constipation · **Diarrhée** · Mal des transports · Sommeil · **Rhume, otite** · Concentration, agitation · Anxiété, nervosité · Opposition, frustration · Énurésie.
+Accueil du nouveau-né · **Prématurité** · Césarienne _(bébé né d'une césarienne / d'un déclenchement)_ · Confiance en soi · Difficultés à téter · Séparation · Coliques · Inconfort digestif · Frustration motrice · **Reflux** · Dents · Constipation · **Diarrhée** · Mal des transports · Sommeil · **Rhume, otite** · Concentration, agitation · Anxiété, nervosité · Opposition, frustration · Jalousie, fratrie.
 
 _(Césarienne et Confiance en soi sont **deux protocoles distincts** ; Inconfort digestif reprend la séquence de Coliques avec un texte d'ouverture propre.)_
 
-**6 protocoles reportés** (`"lancement": false`, `raison_report` renseigné), présents dans les données mais **non affichés** : Bronchite, asthme · Eczéma · Allergies · Ictère · Méconium · **Chutes** _(protocole complexe : vues de côté à créer)_.
+> **Bornes d'âge — BROUILLON, ne pas activer le filtre.** Chaque protocole porte désormais `age_min_mois` / `age_max_mois` **et** `age_statut: "brouillon"` ; l'index porte le drapeau `_bornes_age`. **Claude Code ne doit PAS activer le filtre par âge** tant que ce drapeau est là : Laura veut d'abord relire toutes les bornes librement. Afficher tous les protocoles publiés sans restriction d'âge pour l'instant.
+>
+> _Sommeil_ : bornes M0–M23, avec une note — version de base M0–M11, version **avec vésicule** M12–M23 (variante à intégrer plus tard).
+> _Énurésie_ : **reporté** (l'énurésie ne concerne pas un enfant de moins de 2 ans).
+
+**7 protocoles reportés** (`"lancement": false`, `raison_report` renseigné), présents dans les données mais **non affichés** : Bronchite, asthme · Eczéma · Allergies · Ictère · Méconium · **Chutes** _(vues de côté à créer)_ · **Énurésie** _(pas avant 2 ans)_.
 
 > Le code filtre sur `lancement === true`. Ne rien coder en dur : si le champ passe à `true` un jour, le protocole apparaît.
 
@@ -52,7 +57,7 @@ _(Césarienne et Confiance en soi sont **deux protocoles distincts** ; Inconfort
 | `protocoles-index.json` | La liste : quels protocoles, lesquels au lancement, lesquels reportés. **Point de départ du code.** |
 | `protocole-<id>.json` | Un protocole complet (ouverture, étapes, variante, note de fin). Un par protocole. |
 | `_ouverture-commune.json` | L'ouverture identique à tous les protocoles. |
-| `zones-mouvements.json` | Le catalogue des 37 zones et de leur mouvement. |
+| `zones-mouvements.json` | Le catalogue des 41 zones et de leur mouvement. |
 | `protocole-<id>.json` → champ `visuel` | Chemin de la **carte récapitulative** du protocole (`visuels-protocoles/Visuel - <titre>.png`). |
 | `maquette-lecteur-paysage.html` | **Maquette** du lecteur animé en paysage (référence de mise en page). |
 | `pieds_bebe_zones_reflexes.svg` | L'illustration des pieds + toutes les zones. |

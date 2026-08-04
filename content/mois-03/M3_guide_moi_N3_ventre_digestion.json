@@ -1,0 +1,196 @@
+{
+  "mois": 3,
+  "tranche_age": "3 mois",
+  "categorie": {
+    "id": "digestion",
+    "nom": "Ventre & digestion",
+    "sous_titre": "Régurgitations, fin des coliques, transit",
+    "icone": "🫧"
+  },
+  "protocoles": [
+    {
+      "categorie": "digestion",
+      "situation": "Les régurgitations persistent à 3 mois / je m'inquiète",
+      "titre": "Les régurgitations à trois mois / les critères objectifs",
+      "explication": "À trois mois, les régurgitations sont souvent encore bien présentes. Elles s'atténueront progressivement au fil des mois, à mesure que le muscle qui ferme le haut de l'estomac mûrit et que bébé passe plus de temps redressé. La persistance en soi n'est pas un critère : ce qui compte, ce sont trois choses observables — le poids progresse-t-il ? bébé souffre-t-il pendant ou après les prises ? son sommeil et son alimentation sont-ils retentis ? Si les trois réponses sont bonnes, c'est du linge, pas de la santé. Sinon, cela se montre — sans que tu aies à nommer quoi que ce soit.",
+      "ancrage": "Ton rôle n'est pas de savoir si c'est grave : c'est d'observer trois choses — le poids, la douleur, le retentissement — et de les rapporter au professionnel.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — évaluer sur les bons critères",
+        "etapes": [
+          "Vérifier le poids : une courbe qui progresse régulièrement est le critère le plus rassurant.",
+          "Observer la douleur : bébé se cambre-t-il, pleure-t-il pendant ou après les prises, de façon répétée ?",
+          "Observer le retentissement : refuse-t-il de boire, dort-il mal, tousse-t-il pendant les prises ?",
+          "Distinguer du vomissement : la régurgitation remonte sans effort, le vomissement est projeté avec contraction.",
+          "Noter ce que tu vois : ces observations sont exactement ce dont le pédiatre a besoin."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — le confort de l'après-repas",
+        "etapes": [
+          "Rot sans hâte : bébé vertical contre ton épaule, ta main à plat entre ses omoplates.",
+          "Rester redressé : le garder vertical contre toi un moment après la prise.",
+          "Immobilité : éviter de le remuer, le changer ou le faire jouer juste après.",
+          "Vêtements desserrés : vérifier qu'aucun élastique ne comprime son ventre.",
+          "Coucher sur le dos : la règle ne change pas, même chez un bébé qui régurgite beaucoup."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Fractionner les prises : proposer un peu moins, un peu plus souvent, si les grosses prises sont suivies de grosses remontées.",
+        "Ne rien surélever soi-même : coussins, cales et matelas inclinés augmentent le risque d'étouffement.",
+        "Ne rien épaissir ni changer sans avis : lait, préparation, traitement — cela se décide avec le médecin.",
+        "Se rappeler la trajectoire : cela s'atténue progressivement, souvent nettement quand bébé s'assoit et se déplace."
+      ],
+      "principe": "La persistance n'est pas un critère. Ce qui compte, c'est le poids, la douleur et le retentissement — et ces trois observations appartiennent au parent, la conclusion au médecin.",
+      "erreurs_a_eviter": [
+        "Surélever la tête du lit ou glisser un coussin sous le matelas.",
+        "Coucher sur le côté ou sur le ventre parce qu'il régurgite.",
+        "Nommer une pathologie à partir de ce que tu lis en ligne.",
+        "Donner un médicament ou épaissir le lait sans avis médical."
+      ],
+      "consulter_si": "Consulter si : les régurgitations s'accompagnent de pleurs importants pendant ou après les prises, d'un refus de boire, d'une cassure de la courbe de poids, de vomissements en jet, de sang ou de bile, de toux ou de gêne respiratoire répétée, ou de malaises → pédiatre sans attendre ; le 15 en cas de malaise ou de difficulté à respirer.",
+      "source": "Source : Haute Autorité de Santé — fiche « Reflux gastro-œsophagien chez l'enfant de moins d'un an » (2024)."
+    },
+    {
+      "categorie": "digestion",
+      "situation": "Ventre dur en fin de journée / les coliques s'éteignent doucement",
+      "titre": "La fin des coliques / relire un ventre qui s'apaise",
+      "explication": "Autour de trois mois, les épisodes d'inconfort digestif s'éteignent chez la plupart des bébés. La fin est progressive, pas nette : quelques soirées difficiles subsistent, un ventre encore dur en fin de journée, puis les crises s'espacent et disparaissent. Après des semaines à guetter le moindre signe, beaucoup de parents restent en alerte permanente et lisent chaque grognement comme une rechute. Réapprendre à lire un ventre apaisé fait partie de la sortie de crise : un ventre souple, un bébé qui pousse puis se détend, ce n'est plus une colique.",
+      "ancrage": "Tu peux baisser la garde. La vigilance qui t'a servi pendant trois mois n'a plus lieu d'être — et il est normal qu'elle mette du temps à retomber.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — relire le ventre",
+        "etapes": [
+          "Palper le ventre : souple et détendu entre les épisodes — c'est le signe d'un ventre apaisé.",
+          "Observer la séquence : il pousse, rougit, grogne… puis se détend. Cette détente est la clé.",
+          "Distinguer de la fatigue : en fin de journée, beaucoup de pleurs sont de la fatigue, pas du ventre.",
+          "Réduire l'ambiance du soir : lumière basse, calme — souvent plus efficace qu'un geste sur le ventre.",
+          "Ne pas réactiver les remèdes : à ce stade, ils n'apportent rien."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : accompagner la fin de journée",
+        "etapes": [
+          "Après le bain : bébé calme, sur le dos, lumière basse.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied — apaisement.",
+          "S'arrêter à sa demande : s'il se crispe ou retire son pied, on arrête."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se donner le droit de souffler : la fin des coliques laisse souvent une fatigue et une hypervigilance qui mettent des semaines à retomber.",
+        "Ne pas réattribuer chaque pleur au ventre : à trois mois, la fatigue et la sur-stimulation prennent le relais.",
+        "Remettre le relais en place autrement : le temps libéré peut servir à récupérer, pas à en faire plus.",
+        "Se rappeler qu'il n'y a rien à conclure : ces épisodes disparaissent seuls, sans que rien de ce que tu as fait n'ait « marché »."
+      ],
+      "principe": "La fin des coliques est progressive, pas nette. Un ventre souple et un bébé qui se détend après avoir poussé, ce n'est plus une crise — c'est un transit qui fonctionne.",
+      "erreurs_a_eviter": [
+        "Continuer à donner des remèdes ou des probiotiques « au cas où ».",
+        "Attribuer chaque pleur du soir au ventre — la fatigue est désormais la cause la plus fréquente.",
+        "Rester en alerte permanente et guetter le moindre grognement.",
+        "Changer de lait alors que les crises s'espacent d'elles-mêmes."
+      ],
+      "consulter_si": "Consulter si : les pleurs s'accompagnent de fièvre, de vomissements en jet, de sang dans les selles, d'un ventre dur et tendu en permanence, d'un refus de boire, d'une cassure de la courbe de poids, ou d'un bébé anormalement mou → pédiatre sans délai, ou le 15 si l'état général se dégrade.",
+      "source": "Source : ameli.fr (Assurance Maladie) — la santé de bébé de la sortie de maternité au 6e mois."
+    },
+    {
+      "categorie": "digestion",
+      "situation": "Ses selles s'espacent beaucoup / bébé allaité",
+      "titre": "Les selles très espacées / chez le bébé allaité",
+      "explication": "Ton bébé allaité peut passer plusieurs jours sans selle — parfois une semaine ou plus. C'est spectaculaire, et c'est le plus souvent normal : le lait maternel est très bien absorbé et laisse peu de résidus. Ce n'est pas une constipation. La constipation se définit par la consistance et le confort, jamais par la fréquence : des selles molles, même très rares, chez un bébé au ventre souple qui boit bien et se porte bien, ne sont pas un problème. Ce sont des selles dures et sèches, avec un bébé qui se plaint, qui changent l'analyse.",
+      "ancrage": "Sept jours sans selle chez un bébé allaité qui va bien n'est pas une urgence. Regarde la consistance et son confort — pas le calendrier.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — les deux seuls critères",
+        "etapes": [
+          "Regarder la consistance quand la selle arrive : molle, même après plusieurs jours — ce n'est pas une constipation.",
+          "Palper le ventre : souple et détendu entre les selles.",
+          "Observer le confort : bébé qui boit, dort et se détend normalement.",
+          "Compter les couches mouillées : plusieurs par jour indiquent une hydratation suffisante.",
+          "Ne rien introduire : ni eau, ni jus, ni tisane, ni suppositoire, ni thermomètre."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — confort du ventre",
+        "etapes": [
+          "Bébé sur le dos : plan ferme, jambes libres, pièce calme.",
+          "Flexion douce des jambes : ramener lentement ses genoux vers son ventre, puis relâcher.",
+          "Main posée sur le ventre : ta paume réchauffée, immobile, pression douce et constante.",
+          "Temps sur le ventre, éveillé et surveillé : quelques minutes, jamais pour dormir.",
+          "S'arrêter dès qu'il se crispe : sa réaction est la seule mesure."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir les seuls signes qui alertent : selles dures et sèches, traces de sang, ventre dur et tendu, vomissements, refus de boire.",
+        "Ne pas donner d'eau : avant six mois, le lait suffit ; l'eau supplémentaire n'est pas anodine.",
+        "Ne jamais modifier une préparation seul.e : ni la dose, ni la dilution, ni la marque.",
+        "Ne pas s'alarmer d'une semaine sans selle : chez un bébé allaité qui va bien, cela reste banal."
+      ],
+      "principe": "Chez le bébé allaité, la rareté des selles n'est pas une constipation. Seules la consistance et le confort comptent — et rien ne s'introduit dans le siège d'un nourrisson à la maison.",
+      "erreurs_a_eviter": [
+        "Stimuler l'anus avec un thermomètre, un coton-tige ou un suppositoire.",
+        "Donner de l'eau, du jus de fruit ou une tisane.",
+        "Changer de lait ou introduire un complément pour « relancer le transit ».",
+        "Compter les jours et s'alarmer au bout de trois — la fréquence seule ne dit rien."
+      ],
+      "consulter_si": "Consulter si : les selles sont dures et sèches, si bébé se plaint en poussant, si tu vois des traces de sang, si le ventre est dur et tendu, s'il vomit, refuse de boire, ne prend pas de poids ou mouille très peu ses couches → pédiatre, sage-femme ou PMI. Le 15 en cas de ventre dur avec vomissements et arrêt total des selles et des gaz.",
+      "source": "Source : ameli.fr (Assurance Maladie) — la santé de bébé de la sortie de maternité au 6e mois."
+    },
+    {
+      "categorie": "digestion",
+      "situation": "Il se tortille et grogne la nuit / transit et sommeil",
+      "titre": "Les grognements de nuit / inconfort ou fin de cycle ?",
+      "explication": "La nuit, ton bébé grogne, se tortille, pousse, s'agite — et tu te lèves, tu le prends, tu le nourris. Souvent, il ne se réveillait pas. Le sommeil du nourrisson est riche en sommeil agité : il bouge, grimace, geint, ouvre les yeux, tout en dormant. À cela s'ajoutent des micro-réveils de fin de cycle, très fréquents, où il se rendort seul si on ne l'interrompt pas. Nourrir un bébé qui n'a pas faim ne le rendort pas mieux — et cela installe un réveil réel là où il n'y avait qu'un passage.",
+      "ancrage": "Un bébé qui grogne n'est pas forcément un bébé réveillé. Attendre deux minutes avant d'intervenir est souvent le geste le plus utile de la nuit.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — attendre avant d'agir",
+        "etapes": [
+          "Attendre une à deux minutes : beaucoup d'agitations se résolvent seules.",
+          "Écouter le type de son : un grognement de sommeil n'est pas un appel ; un vrai pleur monte et se maintient.",
+          "Intervenir par paliers : d'abord la voix, puis la main posée, puis le portage seulement si nécessaire.",
+          "Ne pas allumer la lumière : la pénombre du début à la fin.",
+          "Ne pas nourrir par réflexe : si la dernière prise est récente et qu'il grogne, laisser la fin de cycle passer."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — confort et fin de cycle",
+        "etapes": [
+          "Main posée sur son ventre : immobile, ta paume réchauffée, sans le sortir du lit.",
+          "Voix basse : quelques mots, toujours les mêmes, sans le stimuler.",
+          "Vérifier l'essentiel : couche, température de la pièce entre 18 et 20 °C, vêtements pas trop serrés.",
+          "Attendre encore : rester à côté sans agir pendant une minute avant de le prendre.",
+          "Le prendre seulement s'il se réveille vraiment : pleurs francs, qui montent et se maintiennent."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Traiter la journée, pas la nuit : la sur-fatigue et les fenêtres d'éveil trop longues hachent la nuit bien plus que le transit.",
+        "Ne pas conclure au ventre : à trois mois, la digestion est rarement en cause dans les micro-réveils.",
+        "Se relayer : chaque parent prend une moitié de nuit, pour un bloc de sommeil continu chacun.",
+        "Observer sur plusieurs nuits : un schéma qui se répète est une information utile pour le professionnel."
+      ],
+      "principe": "Un grognement de nuit n'est pas un réveil. Intervenir trop vite transforme un micro-réveil en réveil complet — et nourrir un bébé qui n'a pas faim ne consolide rien.",
+      "erreurs_a_eviter": [
+        "Prendre bébé dans les bras au premier grognement.",
+        "Proposer une tétée ou un biberon à chaque agitation nocturne.",
+        "Allumer la lumière et parler normalement pendant la nuit.",
+        "Attribuer tous les réveils au ventre — la fatigue et l'environnement sont bien plus souvent en cause."
+      ],
+      "consulter_si": "Consulter si : bébé se réveille en hurlant de façon inconsolable, s'il présente de la fièvre, des vomissements, un ventre dur et tendu, s'il refuse de boire, ne prend pas de poids, ou présente des pauses respiratoires ou une respiration bruyante et gênée → pédiatre sans délai ; le 15 en cas de trouble respiratoire.",
+      "source": "Source : Haute Autorité de Santé — « Reflux du nourrisson : un médicament est-il nécessaire ? », document destiné aux parents (2024)."
+    }
+  ]
+}

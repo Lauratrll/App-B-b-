@@ -131,5 +131,8 @@
   "note_fin": "Termine en allégeant le contact, puis éloigne-toi en douceur.",
   "disclaimer": "La Réflexologie plantaire ne se substitue pas à un avis médical.",
   "lancement": true,
-  "visuel": "visuels-protocoles/Visuel - Dents.png"
+  "visuel": "visuels-protocoles/Visuel - Dents.png",
+  "age_min_mois": 5,
+  "age_max_mois": 18,
+  "age_statut": "brouillon"
 }

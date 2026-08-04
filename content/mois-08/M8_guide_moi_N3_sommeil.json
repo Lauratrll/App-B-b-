@@ -1,0 +1,196 @@
+{
+  "mois": 8,
+  "tranche_age": "8 mois",
+  "categorie": {
+    "id": "sommeil",
+    "nom": "Sommeil",
+    "sous_titre": "Debout dans le lit, mobilité, endormissement",
+    "icone": "😴"
+  },
+  "protocoles": [
+    {
+      "categorie": "sommeil",
+      "situation": "Debout dans son lit la nuit / il ne sait plus redescendre",
+      "titre": "Debout dans son lit / entraîner la descente le jour",
+      "explication": "Tu le retrouves debout, cramponné aux barreaux, hurlant — incapable de se rasseoir. Son corps a appris à monter avant d'apprendre à descendre, et c'est une séquence normale : la descente vient plusieurs semaines après la montée. Ce n'est pas la nuit qu'on règle cela, et le recoucher vingt fois ne lui apprend rien. Ce qui résout la nuit se joue en journée : lui montrer, en jeu, le geste de plier les genoux pour se rasseoir — et le laisser s'entraîner encore et encore, au sol.",
+      "ancrage": "Il sait monter, pas descendre. Ce n'est pas dans son lit à minuit qu'il l'apprendra — c'est au sol, en journée.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — la nuit",
+        "etapes": [
+          "Le recoucher calmement : sans allumer, sans parler beaucoup, sans en faire un jeu.",
+          "Descendre le matelas : au niveau le plus bas, dès qu'il se met debout.",
+          "Vérifier le lit : barreaux conformes, rien à escalader, aucun objet accroché.",
+          "Attendre avant d'intervenir : certaines agitations ne sont pas des réveils.",
+          "Un lit vide : matelas ferme, drap tendu, aucun objet superflu."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — entraîner la descente, en jeu",
+        "etapes": [
+          "Montrer le geste : plier les genoux, s'asseoir — lentement, en le guidant à peine.",
+          "L'entraîner au sol : contre un meuble bas, plusieurs fois par jour.",
+          "Le laisser chercher : sans le rasseoir à sa place — c'est en cherchant qu'il apprend.",
+          "Beaucoup de temps libre au sol : c'est le seul « exercice » qui compte.",
+          "S'arrêter s'il fatigue : quelques minutes suffisent."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Sécuriser la chambre : dès qu'il se hisse, tout ce qui est à portée devient un risque.",
+        "Fixer les meubles au mur : une commode ou une étagère peut basculer sur lui.",
+        "Compter en semaines : la descente s'apprend quelques semaines après la montée.",
+        "Limiter transat et coque : ils empêchent l'entraînement."
+      ],
+      "principe": "Le corps apprend à monter avant de descendre. Ce qui résout les nuits, c'est l'entraînement au sol en journée — pas le recoucher répété la nuit.",
+      "erreurs_a_eviter": [
+        "Le rasseoir vingt fois en jouant avec lui la nuit.",
+        "Laisser le matelas en position haute alors qu'il se met debout.",
+        "Ajouter des coussins ou un cale-bébé pour l'empêcher de bouger.",
+        "Réduire le temps au sol par peur qu'il se fatigue."
+      ],
+      "consulter_si": "Consulter si : bébé présente des pauses respiratoires, une respiration bruyante, un ronflement important, paraît anormalement mou ou raide, s'il perd une compétence acquise, ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre ; le 15 en cas de trouble respiratoire.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'activité physique du tout-petit."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Réveils multiples depuis qu'il se déplace / le sommeil s'est fragmenté",
+      "titre": "Les nuits fragmentées / la phase passe si le cadre tient",
+      "explication": "Depuis qu'il se déplace, les nuits se sont fragmentées. Chaque acquis moteur agite le sommeil : le cerveau rejoue la nuit ce qu'il a travaillé le jour, et le corps s'entraîne, même endormi. C'est un mécanisme normal, il est temporaire, et il se reproduira à chaque grande acquisition — se hisser, marcher, courir. Ce qui fait la différence n'est pas une nouvelle méthode : c'est un cadre de coucher qui ne bouge pas pendant la phase. Changer de méthode en pleine phase la rallonge, systématiquement.",
+      "ancrage": "Chaque progrès moteur agite les nuits. La phase passe — à condition que le cadre du coucher, lui, ne bouge pas.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — tenir le cadre",
+        "etapes": [
+          "Ne rien changer : ce n'est pas le moment d'introduire une nouvelle méthode.",
+          "Même rituel, mêmes horaires, mêmes mots : la stabilité est le seul levier.",
+          "Intervenir par paliers : voix, puis main posée, puis portage seulement si nécessaire.",
+          "Offrir beaucoup de mouvement le jour : plusieurs temps libres au sol.",
+          "Se relayer : chaque parent un bloc de sommeil continu."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : soutenir la phase",
+        "etapes": [
+          "Dans le rituel du soir : toujours au même moment.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Compter en semaines : la phase dure le temps que le mouvement soit maîtrisé.",
+        "S'attendre à ce que cela recommence : à chaque nouvelle acquisition motrice.",
+        "Ne pas chercher de coupable : ni les dents, ni le lait, ni une erreur de ta part.",
+        "Alléger le reste : sur cette période, réduire les engagements au strict minimum."
+      ],
+      "principe": "Chaque acquis moteur fragmente les nuits, temporairement. Ce qui rallonge la phase, ce n'est pas le progrès — c'est de changer de méthode en plein milieu.",
+      "erreurs_a_eviter": [
+        "Changer de méthode de sommeil en pleine phase.",
+        "Laisser pleurer seul pour « rétablir » les nuits.",
+        "Repousser le coucher pour qu'il dorme mieux.",
+        "Attribuer tous les réveils aux dents."
+      ],
+      "consulter_si": "Consulter si : bébé dort très peu au total et ne prend pas de poids, s'il est agité et inconsolable en permanence, s'il est difficile à réveiller, ou s'il présente des pauses respiratoires ou un ronflement important → pédiatre ; le 15 en cas de trouble respiratoire.",
+      "source": "Source : Institut national du sommeil et de la vigilance et ameli.fr — le sommeil de l'enfant."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Il bouge toute la nuit dans son lit / retrouvé en travers",
+      "titre": "Il bouge toute la nuit / le lit reste vide",
+      "explication": "Tu le couches dans un sens, tu le retrouves en travers, tête contre les barreaux, ou à l'autre bout du lit. Cette mobilité nocturne est normale : il s'entraîne, il roule, il se déplace, même endormi. Il n'a ni froid ni mal, et il n'a pas besoin d'être « recalé ». Ce qui compte, et qui ne change pas : la gigoteuse plutôt que la couverture, le matelas ferme, et un lit vide. Un bébé mobile transforme le moindre objet — coussin, tour de lit, peluche volumineuse — en risque réel d'étouffement.",
+      "ancrage": "Sa position ne compte pas : ce qui compte, c'est ce qu'il y a dans son lit. Un bébé mobile rend chaque objet dangereux.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — le lit",
+        "etapes": [
+          "Une gigoteuse adaptée : à sa taille, sans excès de tissu — jamais de couverture libre.",
+          "Un matelas ferme, un drap tendu : rien qui puisse se soulever et couvrir son visage.",
+          "Un lit vide : pas de coussin, pas de tour de lit, pas de peluches multiples.",
+          "Le coucher sur le dos : cela reste la règle à la mise au lit, quelle que soit sa position ensuite.",
+          "Ne pas le repositionner toute la nuit : sa position n'a pas d'importance."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — un lit sûr",
+        "etapes": [
+          "Vérifier les barreaux : écartement conforme, rien à escalader, aucun objet accroché.",
+          "Descendre le matelas : dès qu'il se met debout.",
+          "Chambre entre 18 et 20 °C : la surchauffe est un facteur de risque.",
+          "Pas de bonnet, pas d'écharpe, pas de cordon : rien qui puisse serrer ou étrangler.",
+          "Un doudou seulement s'il est adapté : plat, léger, aux normes, en un seul morceau."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retirer tout accessoire : cale-bébé, réducteur, coussin de positionnement — dangereux et interdits.",
+        "Vérifier chaque mois : un lit sûr à six mois ne l'est plus forcément à huit.",
+        "Ne pas s'inquiéter de sa position : un bébé qui bouge est un bébé qui va bien.",
+        "Sécuriser autour du lit : rien à portée, meubles fixés, cordons de rideaux hors d'atteinte."
+      ],
+      "principe": "La position dans laquelle tu le retrouves n'a aucune importance. Ce qui compte, c'est un lit vide, un matelas ferme, et une gigoteuse — c'est cela qui le protège.",
+      "erreurs_a_eviter": [
+        "Ajouter un coussin ou un tour de lit pour « qu'il ne se cogne pas ».",
+        "Utiliser un cale-bébé ou un réducteur.",
+        "Mettre une couverture libre dans le lit.",
+        "Passer la nuit à le repositionner."
+      ],
+      "consulter_si": "Consulter si : bébé présente des pauses respiratoires, une respiration bruyante, un ronflement important, ou si tu as un doute sur la sécurité de son couchage → pédiatre, PMI ou médecin traitant ; le 15 en cas de trouble respiratoire.",
+      "source": "Source : ameli.fr (Assurance Maladie) — comment bien coucher un bébé : les règles du couchage sécurisé."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Il se réveille quand je quitte la chambre / l'endormissement se rejoue",
+      "titre": "Il se réveille quand tu sors / le décor doit rester le même",
+      "explication": "Il s'endort dans tes bras, tu le poses, tu sors — et vingt minutes plus tard, il hurle. Entre deux cycles, il émerge brièvement et vérifie que le décor n'a pas changé. S'il s'est endormi contre toi et se réveille seul dans le noir, l'écart est brutal : il appelle. La solution est contre-intuitive et simple : le poser dans son lit **avant** l'endormissement complet, encore somnolent mais conscient. Ainsi, ce qu'il retrouve au réveil est exactement ce qu'il a quitté en s'endormant.",
+      "ancrage": "Il ne se réveille pas parce que tu es partie : il se réveille parce que le décor a changé. Pose-le avant qu'il ne dorme complètement.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — poser avant l'endormissement",
+        "etapes": [
+          "Le poser somnolent, pas endormi : yeux qui se ferment mais conscience encore présente.",
+          "Rester à côté du lit : main posée, voix basse — la présence continue, la position change.",
+          "Le laisser s'endormir dans son lit : c'est le décor qu'il retrouvera au réveil.",
+          "Se retirer par étapes : d'abord la main, puis reculer, puis sortir — pas d'un coup.",
+          "Répondre s'il pleure : on ne laisse jamais un bébé de huit mois pleurer seul."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : le repère du coucher",
+        "etapes": [
+          "Dans le lit, en fin de rituel : toujours au même moment.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Terminer par l'immobilité : une main posée sur son torse."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Y aller progressivement : d'abord poser un peu moins endormi, puis un peu moins encore — sur plusieurs semaines.",
+        "Garder le rituel identique : c'est lui qui porte la sécurité.",
+        "Impliquer le co-parent : il peut installer un autre repère d'endormissement.",
+        "Ne jamais utiliser de méthode d'extinction : laisser pleurer seul n'a pas sa place ici."
+      ],
+      "principe": "Il vérifie entre deux cycles que le décor n'a pas changé. Le poser avant l'endormissement complet résout ce que ta présence prolongée ne résoudra jamais.",
+      "erreurs_a_eviter": [
+        "Le poser toujours profondément endormi.",
+        "Sortir brutalement de la chambre.",
+        "Laisser pleurer seul pour « qu'il apprenne ».",
+        "Changer de stratégie chaque soir."
+      ],
+      "consulter_si": "Consulter si : bébé ne parvient jamais à s'endormir malgré un cadre calme, s'il est inconsolable, difficile à réveiller, ou si le manque de sommeil devient dangereux pour toi → pédiatre, PMI, médecin, ou Allo Parents Bébé (0 800 00 34 56).",
+      "source": "Source : Institut national du sommeil et de la vigilance et ameli.fr — le sommeil de l'enfant."
+    }
+  ]
+}

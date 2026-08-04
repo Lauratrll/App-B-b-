@@ -1,0 +1,195 @@
+{
+  "mois": 6,
+  "tranche_age": "6 mois",
+  "categorie": {
+    "id": "stimu",
+    "nom": "Sur-stimulation",
+    "sous_titre": "Décompression, heure du loup, bain, visites",
+    "icone": "✨"
+  },
+  "protocoles": [
+    {
+      "categorie": "stimu",
+      "situation": "Bébé débordé / après une journée riche",
+      "titre": "Le bébé débordé / ménager un sas de décompression",
+      "explication": "Une journée riche — sorties, visites, jeux, découvertes — et il s'effondre le soir. Un bébé de six mois enregistre bien plus qu'il ne trie : son cerveau capte tout, et il n'a pas encore les filtres pour hiérarchiser. La décharge arrive quand le calme revient. Le réflexe est de compenser par de la douceur active : bercer, promener, distraire. C'est exactement ce qui ajoute une couche à traiter. Ce qui aide, c'est un sas : un temps de vide, entre la journée et le coucher, où il ne se passe rien.",
+      "ancrage": "Un système saturé n'a pas besoin de plus de douceur : il a besoin de moins de tout. Le sas de décompression est un temps où il ne se passe rien.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — le sas",
+        "etapes": [
+          "Un temps de rien : quinze à vingt minutes sans stimulation, avant le rituel du soir.",
+          "Pièce sombre et silencieuse : lumière basse, aucun bruit de fond, aucun écran.",
+          "Un seul adulte : pas de passage de bras, pas de visite.",
+          "Un seul canal à la fois : la voix ou le toucher, jamais les deux.",
+          "Accepter la décharge : les pleurs peuvent venir — c'est la sortie du trop-plein."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : le sas de décompression",
+        "etapes": [
+          "Bébé sur le dos, dans le calme : lumière tamisée.",
+          "Toucher enveloppant des pieds : les tenir entiers dans tes paumes, immobiles.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Doser la journée : une activité forte par jour suffit largement.",
+        "Repérer ses signaux : regard qui fuit, agitation, mains crispées, bâillements.",
+        "Épurer l'espace de jeu : deux ou trois objets, sans jouets sonores ni lumineux.",
+        "Zéro écran : la recommandation française est claire avant trois ans, bruit de fond compris."
+      ],
+      "principe": "Un bébé débordé n'a pas besoin de consolation active : il a besoin d'un vide. Le sas de décompression est un temps où il ne se passe rien — et c'est cela qui répare.",
+      "erreurs_a_eviter": [
+        "Compenser une journée chargée par une promenade ou une activité supplémentaire.",
+        "Enchaîner les techniques d'apaisement.",
+        "Allumer la télévision ou de la musique pour couvrir les pleurs.",
+        "Recevoir des visites en fin de journée."
+      ],
+      "consulter_si": "Consulter si : bébé reste inconsolable plusieurs heures malgré le retour au calme, s'il refuse de boire, présente de la fièvre, ou paraît anormalement mou ou difficile à réveiller → pédiatre, le 15 selon l'urgence.",
+      "source": "Source : Haut Conseil de la santé publique — avis sur les effets de l'exposition des enfants et des jeunes aux écrans."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "L'heure du loup / le creux du soir",
+      "titre": "L'heure du loup / anticiper, pas réparer",
+      "explication": "Chaque jour, la même chose entre dix-sept et dix-neuf heures : il pleure, rien ne le console, et toute la maison se tend. Ce creux cumule deux choses — une fatigue accumulée sur la journée, et une charge sensorielle qui n'a pas été évacuée. Il arrive de surcroît au moment où les adultes sont les moins disponibles. Le réflexe est de distraire, de promener, de porter en marchant. Mais ce moment ne se remplit pas : il se prépare. Ce que tu fais à seize heures détermine ce qui se passe à dix-huit.",
+      "ancrage": "Ce creux ne se comble pas par de l'animation : il se prépare par du calme. L'heure du loup se joue deux heures avant.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — préparer le creux",
+        "etapes": [
+          "Anticiper dès le milieu d'après-midi : réduire la lumière, le bruit, les sollicitations.",
+          "Protéger la dernière sieste : une fin de journée sans sommeil rend l'heure du loup ingérable.",
+          "Coucher plus tôt : souvent, la solution du soir est un coucher avancé de vingt à trente minutes.",
+          "Un seul adulte auprès de lui : pas de passage de bras, pas de visite.",
+          "Se relayer par tranches : vingt minutes chacun, montre en main."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : préparer la fin de journée",
+        "etapes": [
+          "En milieu d'après-midi : bébé calme, dans une pièce silencieuse.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Alléger la fin de journée : dîner préparé à l'avance, aucune tâche prévue dans cette fenêtre.",
+        "Sortir dehors : quelques minutes d'air frais coupent souvent la spirale.",
+        "Ne pas distraire : télévision, jouets sonores et promenades stimulantes aggravent la surcharge.",
+        "Se rappeler la trajectoire : ce creux s'atténue avec la maturation."
+      ],
+      "principe": "L'heure du loup ne se remplit pas, elle se vide. Anticiper le calme et coucher plus tôt vaut infiniment mieux que distraire un système nerveux déjà saturé.",
+      "erreurs_a_eviter": [
+        "Distraire avec des jouets, une promenade ou un écran.",
+        "Repousser le coucher en espérant qu'il s'épuise.",
+        "Recevoir des visites dans cette fenêtre.",
+        "Enchaîner les techniques d'apaisement."
+      ],
+      "consulter_si": "Consulter si : les pleurs deviennent inconsolables plusieurs heures par jour, s'ils s'accompagnent de fièvre, de vomissements, d'un refus de boire, ou d'un bébé anormalement mou → pédiatre. Si tu sens la perte de contrôle monter : poser bébé sur le dos dans son lit, sortir de la pièce, appeler un proche ou Allo Parents Bébé (0 800 00 34 56).",
+      "source": "Source : Haute Autorité de Santé — recommandation « Syndrome du bébé secoué ou traumatisme crânien non accidentel par secouement »."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "Le bain qui excite / au lieu d'apaiser",
+      "titre": "Le bain qui excite / le déplacer est une option",
+      "explication": "On te dit que le bain apaise et prépare au sommeil. Chez ton bébé, c'est l'inverse : il en sort surexcité, il crie, il ne s'endort plus. Le bain est une expérience sensorielle intense — température, nudité, eau, lumière, manipulation. Chez certains bébés, il stimule au lieu de détendre, et l'inclure dans le rituel du soir devient contre-productif. Le déplacer en journée est une option parfaitement légitime : rien n'oblige à donner le bain le soir, ni à en donner un tous les jours.",
+      "ancrage": "Le bain n'apaise pas tous les bébés. Le déplacer dans la journée n'est pas un renoncement : c'est un réglage.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — ajuster le bain",
+        "etapes": [
+          "Le déplacer en journée : le matin ou en début d'après-midi, hors du rituel du soir.",
+          "Le raccourcir : cinq minutes suffisent — l'excitation monte avec la durée.",
+          "Baisser les stimulations : lumière douce, silence, pas de jouets, pas de jeux d'eau.",
+          "Espacer les bains : un bain tous les deux ou trois jours suffit largement.",
+          "Ne jamais le laisser seul dans l'eau : même une seconde, même avec un transat de bain."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : remplacer le bain dans le rituel",
+        "etapes": [
+          "À la place du bain, le soir : bébé sur le dos, lumière tamisée.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Terminer par l'immobilité : une main posée sur son torse."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Vérifier la température : autour de 37 °C, vérifiée avant chaque bain.",
+        "Observer ce qui l'excite : l'eau, la nudité, le déshabillage — cela oriente le réglage.",
+        "Reconstruire un rituel sans bain : trois étapes simples, toujours les mêmes.",
+        "Se donner le droit : rien n'oblige à donner un bain quotidien, ni un bain le soir."
+      ],
+      "principe": "Le bain n'est pas apaisant par nature : c'est une expérience sensorielle intense. Le déplacer en journée est une décision légitime, pas un échec du rituel.",
+      "erreurs_a_eviter": [
+        "Maintenir le bain du soir « parce que ça doit apaiser ».",
+        "Prolonger le bain pour qu'il se détende.",
+        "Ajouter des jouets d'eau pour le calmer — cela l'excite davantage.",
+        "Laisser bébé seul dans l'eau, même une seconde — risque de noyade immédiat."
+      ],
+      "consulter_si": "Consulter si : bébé reste inconsolable après chaque bain malgré ces ajustements, s'il présente une peau très irritée ou des lésions, ou s'il se raidit fortement dès qu'on le manipule → pédiatre, médecin traitant ou PMI.",
+      "source": "Source : ameli.fr (Assurance Maladie) — comment bien donner le bain à un bébé."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "Après une visite / décharge du trop-plein social",
+      "titre": "Après les visites / accueillir la décharge",
+      "explication": "Il a été charmant pendant deux heures — et il s'effondre dès la porte fermée. Ce n'est pas un rejet des personnes venues, et ce n'est pas de l'ingratitude. Pendant la visite, il tient : il absorbe les voix, les visages, les bras, les odeurs. La décharge arrive après, quand le calme revient et que son système nerveux lâche enfin. Ces pleurs sont une preuve de sécurité : c'est auprès de toi qu'il se relâche. Le levier n'est pas de mieux le consoler après — c'est de cadrer la visite avant.",
+      "ancrage": "Ces pleurs sont une décharge, pas un reproche. C'est auprès de toi qu'il lâche — et cela dit exactement où est sa sécurité.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — la décompression",
+        "etapes": [
+          "Retour au calme immédiat : pièce sombre, silence, un seul adulte.",
+          "Peau à peau ou contact : sans parler, sans bercer vivement.",
+          "Aucune stimulation ajoutée : ni musique, ni promenade, ni jouet, ni écran.",
+          "Accepter la décharge : les pleurs peuvent durer — c'est la sortie du trop-plein.",
+          "Coucher ensuite : le sommeil vient souvent une fois la vague passée."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : décharger le trop-plein",
+        "etapes": [
+          "Une fois la première vague passée : bébé sur le dos, dans le silence.",
+          "Toucher enveloppant des pieds : les tenir entiers dans tes paumes, immobiles.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Cadrer avant : durée courte, un ou deux visiteurs, pas d'enchaînement de bras — annoncé avant la visite.",
+        "Une phrase prête : « on garde court pour préserver son rythme » — dite avec le sourire, elle passe.",
+        "Protéger la fin de journée : éviter les visites dans la fenêtre où les pleurs sont déjà les plus intenses.",
+        "Ne pas forcer le contact : à six mois, il commence à trier les visages — c'est un progrès."
+      ],
+      "principe": "Un bébé ne se protège pas seul du trop-plein social : c'est toi son filtre. Cadrer la visite en amont est toujours plus efficace que consoler l'effondrement.",
+      "erreurs_a_eviter": [
+        "Faire passer bébé de bras en bras pour ne vexer personne.",
+        "Réveiller bébé pour qu'il « profite » des visiteurs.",
+        "Compenser l'effondrement par une stimulation supplémentaire.",
+        "S'excuser de protéger son calme."
+      ],
+      "consulter_si": "Consulter si : bébé reste inconsolable plusieurs heures malgré le retour au calme, s'il refuse de boire, présente de la fièvre, ou paraît anormalement mou ou difficile à réveiller → pédiatre, le 15 selon l'urgence."
+    }
+  ]
+}

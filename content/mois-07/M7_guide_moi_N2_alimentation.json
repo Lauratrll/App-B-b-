@@ -1,0 +1,288 @@
+{
+  "mois": 7,
+  "tranche_age": "7 mois",
+  "categorie": {
+    "id": "alim",
+    "nom": "Alimentation & digestion",
+    "sous_titre": "Textures, autonomie, lait, transit",
+    "icone": "🥄"
+  },
+  "protocoles": [
+    {
+      "categorie": "alim",
+      "situation": "Recrache dès le moindre grumeau / passage aux textures épaisses",
+      "titre": "Le passage aux textures / avancer par micro-étapes",
+      "explication": "Il acceptait les purées lisses, et dès qu'un grumeau apparaît, il recrache tout. La tentation est d'attendre « qu'il soit prêt ». C'est une erreur : la fenêtre d'apprentissage des textures se situe entre six et huit mois environ, et retarder l'introduction des morceaux au-delà rend leur acceptation nettement plus difficile ensuite. Ce qui fonctionne n'est ni d'attendre, ni de forcer : c'est d'avancer par micro-étapes — épaissir imperceptiblement, un cran à la fois, sur plusieurs semaines.",
+      "ancrage": "Attendre qu'il soit prêt ne le rendra pas prêt. La fenêtre d'apprentissage des textures se joue maintenant — et elle s'ouvre par micro-étapes.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — épaissir imperceptiblement",
+        "etapes": [
+          "Un cran à la fois : mixer un peu moins longtemps, sans changer le goût ni la quantité.",
+          "Introduire un aliment déjà accepté : la nouveauté doit porter sur la texture, pas sur le goût.",
+          "De très petites quantités : quelques cuillerées, en début de repas, quand il a faim mais reste calme.",
+          "Bébé assis, tronc droit : toujours, et toujours surveillé.",
+          "S'arrêter s'il recrache : on retire, on repropose au repas suivant — jamais d'insistance."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — apprivoiser la texture",
+        "etapes": [
+          "Lui laisser toucher : mettre les doigts dans la purée fait partie de l'apprentissage.",
+          "Proposer un aliment fondant à tenir : sous surveillance constante, jamais rond ni dur.",
+          "Le laisser fixer le rythme : il ouvre la bouche, on avance ; il détourne, on arrête.",
+          "Un environnement calme : sans écran, sans public, sans pression.",
+          "S'arrêter s'il se braque : le repas ne se force jamais."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne pas attendre : la fenêtre des textures se situe entre six et huit mois environ — retarder complique l'acceptation ultérieure.",
+        "Distinguer haut-le-cœur et étouffement : il tousse et fait du bruit — il gère, on ne fait rien ; il est silencieux et change de couleur — c'est le 15.",
+        "Compter en semaines : de nombreuses propositions sont souvent nécessaires avant qu'une texture soit acceptée.",
+        "Ne jamais donner d'aliments ronds, durs ou glissants : ils sont un risque d'étouffement majeur."
+      ],
+      "principe": "La fenêtre d'apprentissage des textures est maintenant. On n'attend pas, on n'insiste pas : on épaissit un cran à la fois, sur plusieurs semaines.",
+      "erreurs_a_eviter": [
+        "Attendre qu'il « soit prêt » pour les morceaux — cela complique l'acceptation ultérieure.",
+        "Passer brutalement du lisse aux morceaux.",
+        "Insister ou forcer une cuillerée.",
+        "Nourrir bébé allongé, en mouvement, ou sans surveillance."
+      ],
+      "consulter_si": "Consulter si : bébé refuse toute texture épaissie depuis plusieurs semaines, s'il vomit de façon répétée, ne prend pas de poids, si sa courbe casse → pédiatre ou médecin traitant. En cas d'étouffement — silence, absence de toux, changement de couleur → appeler immédiatement le 15.",
+      "source": "Source : Santé publique France et ANSES — recommandations sur la diversification alimentaire des enfants de moins de 3 ans : introduction des nouvelles textures entre 6 et 8 mois."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Veut attraper la cuillère / le repas devient un combat",
+      "titre": "Il veut la cuillère / deux cuillères, pas une lutte",
+      "explication": "Il attrape la cuillère, la tire, la renverse, se met en colère quand tu la reprends. Ce n'est pas de l'opposition : sa main veut agir, comme le reste de son corps. Lutter pour garder le contrôle de la cuillère transforme chaque repas en bras de fer, et la tension au repas est précisément ce qui installe durablement les difficultés alimentaires. La solution est ridiculement simple, et elle fonctionne presque toujours : deux cuillères. Une pour lui, qu'il manipule à sa guise. Une pour toi, avec laquelle tu continues.",
+      "ancrage": "Il ne s'oppose pas à toi : il veut agir. Deux cuillères désamorcent ce qu'aucune fermeté ne résoudra.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — deux cuillères",
+        "etapes": [
+          "Lui donner sa cuillère : la sienne, qu'il tient, tape, porte à la bouche comme il veut.",
+          "Garder la tienne : tu continues à proposer avec la seconde, sans lutter pour la première.",
+          "Le laisser toucher la nourriture : mettre les mains dedans fait partie de l'apprentissage.",
+          "Accepter le désordre : c'est le prix de l'autonomie — un bavoir et un tapis sous la chaise suffisent.",
+          "Ne jamais forcer : s'il refuse, on arrête et on repropose au repas suivant."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — un repas apaisé",
+        "etapes": [
+          "Bébé assis, tronc droit : toujours, et toujours surveillé.",
+          "Un environnement calme : sans écran, sans public, sans agitation.",
+          "Un temps court : quelques minutes suffisent — l'attention est limitée.",
+          "Nommer ce qu'il fait : « tu tiens ta cuillère, tu touches, c'est bien ».",
+          "S'arrêter s'il se braque : le repas ne se force jamais."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se rappeler l'enjeu : la pression au repas est le facteur qui installe le plus durablement les difficultés alimentaires.",
+        "Accepter qu'il mange peu : le lait reste l'aliment principal — au moins 500 ml par jour jusqu'à un an.",
+        "Ne jamais distraire pour faire avaler : écran, jeu, chanson — cela court-circuite ses signaux de satiété.",
+        "Laisser l'exploration précéder l'ingestion : toucher, écraser, sentir — cela fait partie du repas."
+      ],
+      "principe": "La lutte pour la cuillère est une lutte perdue — et coûteuse. Deux cuillères rendent à bébé son besoin d'agir sans que tu perdes le fil du repas.",
+      "erreurs_a_eviter": [
+        "Lutter pour garder la cuillère.",
+        "Empêcher bébé de toucher la nourriture.",
+        "Distraire avec un écran ou un jeu pour faire avaler.",
+        "Forcer une cuillerée de plus."
+      ],
+      "consulter_si": "Consulter si : bébé refuse de manger depuis plusieurs jours, ne prend pas de poids, si sa courbe casse, s'il vomit de façon répétée, ou si les repas deviennent une source de conflit permanent → pédiatre, médecin traitant ou PMI.",
+      "source": "Source : ameli.fr (Assurance Maladie) et Santé publique France — l'alimentation de l'enfant de 0 à 3 ans : au moins 500 ml de lait par jour jusqu'à un an."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Boit beaucoup moins de lait / depuis que les purées augmentent",
+      "titre": "Le lait qui baisse / il reste l'aliment principal",
+      "explication": "Depuis que les purées ont pris de la place, il boit nettement moins de lait — et cela semble être un progrès. C'est en réalité un point de vigilance. Jusqu'à un an, le lait reste l'aliment de base : les repères français indiquent au moins 500 ml de lait par jour, maternel ou infantile. Les solides s'ajoutent, ils ne remplacent pas. Un bébé qui remplit son estomac de purée boit moins — et il perd des apports que les légumes ne compensent pas. Le réflexe n'est pas d'augmenter encore les solides : c'est de rééquilibrer.",
+      "ancrage": "Les solides s'ajoutent au lait, ils ne le remplacent pas. Avant un an, le lait reste la base — au moins 500 ml par jour.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — rééquilibrer",
+        "etapes": [
+          "Proposer le lait en premier : avant la purée, quand il a encore faim.",
+          "Réduire le volume des solides : plutôt que d'augmenter encore — le lait doit rester la base.",
+          "Compter les 500 ml : au moins 500 ml de lait par jour, maternel ou infantile, jusqu'à un an.",
+          "Ne pas remplacer par un lait de croissance ou un lait végétal sans avis : cela se décide avec le professionnel.",
+          "Pas de lait de vache : il ne remplace pas le lait infantile comme boisson principale avant un an."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — un repas équilibré",
+        "etapes": [
+          "Un rituel de prise : même position, même endroit, ta voix.",
+          "Environnement calme : sans écran, sans agitation — un bébé distrait boit moins.",
+          "Respecter les pauses : le laisser souffler, puis reproposer sans forcer.",
+          "Ne pas forcer la fin d'un biberon : cela casse son signal de satiété.",
+          "S'arrêter quand il lâche : mains ouvertes, corps détendu."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir le repère : au moins 500 ml de lait par jour jusqu'à un an, maternel ou infantile.",
+        "Ne pas confondre progrès et bascule : manger plus de solides n'est pas un progrès s'il boit trop peu.",
+        "En parler au professionnel : si les volumes de lait chutent nettement, cela se signale.",
+        "Introduire l'eau : depuis la diversification, un peu d'eau à chaque repas — jamais de jus sucré."
+      ],
+      "principe": "Le lait reste l'aliment principal jusqu'à un an. Les solides s'ajoutent, ils ne remplacent pas — et un bébé qui boit trop peu de lait ne compense pas avec des légumes.",
+      "erreurs_a_eviter": [
+        "Augmenter les solides parce qu'il boit moins de lait.",
+        "Donner du lait de vache comme boisson principale avant un an.",
+        "Introduire un lait végétal sans avis médical — risque de carences graves.",
+        "Donner des jus de fruits pour « hydrater »."
+      ],
+      "consulter_si": "Consulter si : bébé boit nettement moins de 500 ml de lait par jour, s'il ne prend pas de poids, si sa courbe casse, s'il refuse le lait de façon répétée, ou s'il paraît anormalement pâle ou fatigué → pédiatre, médecin traitant ou PMI.",
+      "source": "Source : ameli.fr (Assurance Maladie) et Santé publique France — l'alimentation de l'enfant de 0 à 3 ans : au moins 500 ml de lait par jour jusqu'à un an."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Plaques autour de la bouche / après un nouvel aliment",
+      "titre": "Les plaques autour de la bouche / irritation ou réaction ?",
+      "explication": "Après une purée de tomate, de fraise ou d'agrume, des rougeurs apparaissent autour de sa bouche. Deux choses très différentes peuvent se produire, et elles n'ont pas la même gravité. Une irritation de contact reste strictement localisée là où l'aliment a touché la peau, disparaît en quelques heures, et bébé va parfaitement bien : elle est bénigne. Une réaction allergique, elle, s'étend au-delà de la zone de contact, s'accompagne d'autres signes — plaques ailleurs, vomissements, diarrhée — et peut, dans les formes graves, provoquer un gonflement du visage ou une gêne à respirer.",
+      "ancrage": "Localisée et sans autre signe : c'est une irritation. Qui s'étend ou s'accompagne d'autres signes : c'est un avis médical — et une gêne à respirer, c'est le 15.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — observer et trier",
+        "etapes": [
+          "Regarder l'étendue : strictement là où l'aliment a touché — c'est une irritation de contact.",
+          "Chercher les autres signes : plaques ailleurs sur le corps, vomissements, diarrhée, agitation inhabituelle.",
+          "Nettoyer à l'eau : rincer doucement le pourtour de la bouche, sans frotter.",
+          "Observer deux heures : la plupart des irritations de contact disparaissent d'elles-mêmes.",
+          "Noter précisément : l'aliment, l'heure, les signes — c'est ce que le médecin exploitera."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — protéger la peau",
+        "etapes": [
+          "Appliquer un émollient avant le repas : une barrière fine sur le pourtour des lèvres et le menton.",
+          "Tamponner après : sans frotter, avec un linge doux.",
+          "Sécher soigneusement : particulièrement dans les plis.",
+          "Éviter les produits parfumés : ils aggravent l'irritation.",
+          "S'arrêter s'il se crispe : le soin doit rester bref."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne jamais exclure un aliment sans avis médical : une exclusion inutile appauvrit l'alimentation et peut aggraver le risque d'allergie.",
+        "Continuer les autres allergènes : la démarche d'introduction ne s'arrête pas sur une irritation de contact.",
+        "En parler au professionnel : toute suspicion de réaction s'évalue avec un médecin — c'est lui qui décide.",
+        "Un allergène à la fois : cela reste la règle, pour pouvoir identifier ce qui réagit."
+      ],
+      "principe": "Une rougeur localisée à la zone de contact, chez un bébé qui va bien, est une irritation. Une réaction qui s'étend ou s'accompagne d'autres signes appartient au médecin — et un aliment ne s'exclut jamais sans avis.",
+      "erreurs_a_eviter": [
+        "Exclure un aliment de sa propre initiative.",
+        "Arrêter d'introduire les allergènes après une simple irritation.",
+        "Appliquer une crème à la cortisone sans avis médical.",
+        "Redonner l'aliment après une vraie réaction, sans avoir consulté."
+      ],
+      "consulter_si": "Consulter si : les plaques s'étendent au-delà de la zone de contact, si le visage, les lèvres ou les paupières gonflent, si bébé vomit, devient pâle, présente une gêne à respirer, une voix ou un cri modifié → appeler immédiatement le 15. Pour toute réaction plus légère ou tout doute → pédiatre ou médecin traitant avant de redonner l'aliment.",
+      "source": "Source : ANSES (avis 2018) et Santé publique France — introduction des allergènes alimentaires dès le début de la diversification."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Selles très dures / il se retient et pleure",
+      "titre": "Il se retient / agir avant que la peur s'installe",
+      "explication": "Ses selles sont dures, l'évacuation lui fait mal — et il commence à se retenir. C'est le mécanisme le plus important à connaître : une selle douloureuse pousse l'enfant à retenir la suivante, ce qui la rend plus dure encore, donc plus douloureuse. Le cercle s'installe vite, et il est bien plus difficile à défaire qu'à prévenir. Les leviers sont l'eau, les fibres, le mouvement — et surtout, un avis médical avant que la peur d'aller à la selle ne soit installée.",
+      "ancrage": "Une selle douloureuse crée la peur, la peur crée la rétention, la rétention aggrave la douleur. Ce cercle se casse tôt — ou pas du tout.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — eau, fibres, mouvement",
+        "etapes": [
+          "Proposer de l'eau : à chaque repas, depuis le début de la diversification.",
+          "Des légumes à chaque repas : les fibres sont le second levier.",
+          "Beaucoup de mouvement au sol : il soutient le transit mieux que n'importe quel geste.",
+          "Observer les signes de rétention : il se raidit, croise les jambes, rougit et retient — c'est un signal d'alerte.",
+          "Prendre rendez-vous : dès que la douleur ou la rétention apparaît — c'est urgent d'agir tôt."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — confort du ventre",
+        "etapes": [
+          "Bébé sur le dos : plan ferme, jambes libres, pièce calme.",
+          "Flexion douce des jambes : ramener lentement ses genoux vers son ventre, puis relâcher.",
+          "Main posée sur le ventre : ta paume réchauffée, immobile, pression douce et constante.",
+          "Soin du siège : nettoyer à l'eau, sécher en tamponnant — une fissure douloureuse aggrave la rétention.",
+          "S'arrêter dès qu'il se crispe : sa réaction est la seule mesure."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne rien introduire dans le siège : suppositoire, thermomètre, coton-tige — ces gestes ne s'improvisent pas et aggravent la peur.",
+        "Ne jamais modifier une préparation seul.e : un lait infantile se change avec un médecin.",
+        "Éviter les jus de fruits : sucrés, et sans effet fiable.",
+        "Agir tôt : une constipation installée avec rétention se traite, mais bien plus difficilement."
+      ],
+      "principe": "Le cercle douleur-rétention-douleur s'installe vite et se défait lentement. C'est pour cela qu'une selle douloureuse se signale tôt, avant que la peur ne s'ancre.",
+      "erreurs_a_eviter": [
+        "Attendre que « ça passe » alors qu'il se retient.",
+        "Introduire un suppositoire ou un thermomètre dans le siège.",
+        "Donner un jus de fruit ou une tisane pour « aider ».",
+        "Changer de lait sans avis médical."
+      ],
+      "consulter_si": "Consulter si : les selles sont dures et douloureuses, si bébé se retient, si tu vois des traces de sang, si le ventre est dur et tendu, s'il vomit, refuse de boire, ou ne prend pas de poids → pédiatre ou médecin traitant sans attendre. Le 15 en cas de ventre dur avec vomissements et arrêt total des selles et des gaz.",
+      "source": "Source : ameli.fr (Assurance Maladie) — constipation de l'enfant : que faire et quand consulter."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Ventre ballonné après les repas / gaz et gargouillis",
+      "titre": "Le ventre ballonné / sans supprimer d'aliment au hasard",
+      "explication": "Depuis les nouveaux aliments, son ventre gargouille, gonfle, et il émet beaucoup de gaz. C'est fréquent : la flore intestinale se réorganise en découvrant les fibres, et certains légumes fermentent davantage. Le réflexe est de supprimer l'aliment suspect. C'est une mauvaise idée : les exclusions successives appauvrissent l'alimentation, faussent l'apprentissage du goût, et masquent parfois autre chose. Ce qui se fait : introduire un aliment à la fois, observer, laisser au tube digestif le temps de s'habituer — et signaler ce qui persiste.",
+      "ancrage": "Un ventre qui gargouille apprend. Supprimer des aliments au hasard appauvrit son alimentation sans rien régler.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — observer sans exclure",
+        "etapes": [
+          "Un aliment nouveau à la fois : c'est la seule façon d'identifier ce qui réagit.",
+          "Attendre trois jours : avant d'en introduire un autre, pour laisser le temps d'observer.",
+          "Noter ce que tu observes : aliment, heure, signes, durée — c'est ce que le professionnel exploitera.",
+          "Distinguer inconfort et douleur : gargouillis et gaz chez un bébé qui joue et dort bien, ce n'est pas une douleur.",
+          "Ne rien exclure sans avis : les exclusions se décident avec un médecin."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — confort du ventre",
+        "etapes": [
+          "Bébé sur le dos : plan ferme, jambes libres, pièce calme.",
+          "Flexion douce des jambes : ramener lentement ses genoux vers son ventre, puis relâcher.",
+          "Main posée sur le ventre : ta paume réchauffée, immobile, pression douce et constante.",
+          "Beaucoup de mouvement au sol : il soutient le transit et l'évacuation des gaz.",
+          "S'arrêter dès qu'il se crispe : sa réaction est la seule mesure."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Introduire progressivement : de petites quantités, augmentées lentement, laissent le temps au tube digestif de s'adapter.",
+        "Ne pas supprimer les légumes : ils apportent les fibres nécessaires au transit.",
+        "Ne jamais donner de remède anti-gaz sans avis médical.",
+        "En parler si cela persiste : un ventre douloureux, un bébé qui pleure et ne prend pas de poids, cela se montre."
+      ],
+      "principe": "Un tube digestif qui découvre les fibres gargouille : c'est un apprentissage. Les exclusions au hasard appauvrissent l'alimentation sans rien régler.",
+      "erreurs_a_eviter": [
+        "Supprimer un aliment sans avis médical.",
+        "Introduire plusieurs aliments nouveaux le même jour.",
+        "Donner un remède anti-gaz sans avis.",
+        "Attribuer tous les pleurs au ventre."
+      ],
+      "consulter_si": "Consulter si : bébé pleure de douleur après les repas de façon répétée, si son ventre est dur et tendu, s'il vomit, refuse de boire, présente du sang dans les selles, une diarrhée persistante, ou s'il ne prend pas de poids → pédiatre ou médecin traitant. Le 15 en cas de ventre dur avec vomissements et arrêt total des selles et des gaz.",
+      "source": "Source : Santé publique France et ANSES — recommandations sur la diversification alimentaire des enfants de moins de 3 ans : introduction des nouvelles textures entre 6 et 8 mois."
+    }
+  ]
+}

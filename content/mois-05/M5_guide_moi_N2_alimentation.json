@@ -1,0 +1,196 @@
+{
+  "mois": 5,
+  "tranche_age": "5 mois",
+  "categorie": {
+    "id": "alim",
+    "nom": "Alimentation",
+    "sous_titre": "Signes de maturité, diversification, morsures",
+    "icone": "🤱"
+  },
+  "protocoles": [
+    {
+      "categorie": "alim",
+      "situation": "Il regarde nos assiettes / est-il prêt à manger ?",
+      "titre": "Il regarde nos assiettes / les vrais signes de maturité",
+      "explication": "Il fixe ta fourchette, il suit la cuillère des yeux, il ouvre la bouche quand tu manges. L'entourage y voit un signal évident. C'est en réalité de l'imitation sociale — il t'imite comme il imite tes grimaces —, et cela ne dit rien de sa maturité digestive ni motrice. Les vrais signes se regardent ailleurs : tenir sa tête droite sans soutien, tenir assis avec un appui, porter les objets à la bouche, et manifester un intérêt qui va au-delà du regard. Et surtout : le moment se décide avec le professionnel qui suit ton bébé.",
+      "ancrage": "Regarder ton assiette est de l'imitation, pas une demande. Les signes de maturité sont ailleurs — et le moment se décide avec ton pédiatre, pas avec ta belle-mère.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — vérifier les vrais signes",
+        "etapes": [
+          "Tenue de tête : il tient sa tête droite et stable, sans soutien.",
+          "Position assise avec appui : il tient assis calé, le tronc suffisamment redressé.",
+          "Main à la bouche : il porte volontairement les objets à sa bouche.",
+          "Intérêt actif : il tend la main vers la nourriture, pas seulement les yeux.",
+          "En parler au professionnel : c'est lui qui pose le moment et la façon — pas l'entourage."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — l'associer au repas, sans le nourrir",
+        "etapes": [
+          "L'installer avec vous : à table, dans ses conditions de sécurité, pendant que vous mangez.",
+          "Le laisser observer : c'est déjà un apprentissage, sans qu'il ait besoin de goûter.",
+          "Nommer ce qu'il voit : « je mange, tu regardes, bientôt ce sera ton tour ».",
+          "Ne rien lui donner à goûter : ni bout de pain, ni compote, ni eau sucrée — avant l'accord du professionnel.",
+          "S'arrêter s'il sature : le repas familial est aussi une charge sensorielle."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir la fenêtre officielle : la diversification débute entre quatre et six mois, jamais avant quatre mois révolus.",
+        "Ne pas confondre imitation et maturité : un bébé imite tout, bien avant d'en avoir les moyens.",
+        "Se rappeler les textures : les premiers mois de diversification se font en préparations lisses — les morceaux viennent bien plus tard.",
+        "Ne rien précipiter : commencer trop tôt n'apporte aucun bénéfice, et le lait reste l'aliment principal jusqu'à un an."
+      ],
+      "principe": "Regarder les assiettes est un signe social, pas un signe de maturité. Ce qui se vérifie, c'est la tenue de tête, l'assise avec appui, la main à la bouche — et l'avis du professionnel.",
+      "erreurs_a_eviter": [
+        "Donner un aliment « pour goûter » avant l'accord du professionnel.",
+        "Ajouter des céréales dans le biberon pour « le caler ».",
+        "Donner du miel — interdit avant un an, risque de botulisme infantile.",
+        "Se fier au regard vers les assiettes comme critère de démarrage."
+      ],
+      "consulter_si": "Consulter si : bébé ne tient pas sa tête droite, ne porte jamais les objets à sa bouche, ne prend pas de poids, si sa courbe casse, ou s'il refuse ses prises de lait → pédiatre, médecin traitant ou PMI. En cas d'étouffement : appeler le 15.",
+      "source": "Source : Santé publique France et ANSES — recommandations sur la diversification alimentaire des enfants de moins de 3 ans (« Le petit guide de la diversification alimentaire »)."
+    },
+    {
+      "categorie": "alim",
+      "situation": "L'entourage me presse de diversifier / faut-il commencer ?",
+      "titre": "La pression de l'entourage / le cadre officiel, et des phrases",
+      "explication": "« De mon temps, on donnait de la purée à trois mois. » La pression sur la diversification est l'une des plus fortes que tu subiras, et elle vient souvent des personnes qui t'aident le plus. Le cadre officiel français est pourtant clair : la diversification commence entre quatre et six mois, jamais avant quatre mois révolus, et tous les groupes d'aliments — y compris les allergènes — s'introduisent dès le début, ce qui surprend beaucoup les générations précédentes. Le moment exact, lui, se décide avec le professionnel qui suit ton bébé.",
+      "ancrage": "Tu n'as pas à convaincre ton entourage. Tu as à connaître le cadre — et à disposer d'une phrase courte qui clôt la discussion.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — tenir face à la pression",
+        "etapes": [
+          "Une phrase prête : « on suit les recommandations et notre pédiatre » — c'est une phrase complète.",
+          "Ne pas argumenter : le débat scientifique avec un proche ne se gagne pas et t'épuise.",
+          "Poser une limite claire : personne ne donne à goûter quoi que ce soit sans ton accord.",
+          "Prévenir la personne qui garde : par écrit, pour éviter tout malentendu.",
+          "Demander l'avis du professionnel : et t'appuyer dessus, c'est ce qui coupe court."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — se protéger de la pression",
+        "etapes": [
+          "Choisir ses conversations : ne pas ouvrir le sujet quand tu es fatiguée.",
+          "Nommer ce qui se joue : la pression vient souvent d'un désir d'aider, pas d'un jugement.",
+          "Se donner le droit de ne pas répondre : « on verra avec le médecin » suffit.",
+          "Trouver un appui : le co-parent doit tenir la même ligne, dite d'une même voix.",
+          "Rester sur les faits : les recommandations ont changé, et c'est normal que les générations précédentes ne le sachent pas."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir le cadre : diversification entre quatre et six mois ; jamais avant quatre mois ; le lait reste l'aliment principal jusqu'à un an.",
+        "Retenir la nouveauté : tous les groupes d'aliments, y compris les allergènes, s'introduisent dès le début de la diversification — retarder ne protège pas de l'allergie.",
+        "Se rappeler les interdits : pas de miel avant un an, pas de lait cru ni de fromages au lait cru chez le jeune enfant.",
+        "Poser tes questions au bon endroit : pédiatre, médecin traitant ou PMI."
+      ],
+      "principe": "Le cadre officiel est simple : entre quatre et six mois, allergènes compris, et le moment se décide avec le professionnel. Tu n'as pas à convaincre — tu as à tenir ta ligne.",
+      "erreurs_a_eviter": [
+        "Céder à la pression et commencer avant quatre mois révolus.",
+        "Retarder l'introduction des allergènes en croyant protéger bébé — cela ne protège pas.",
+        "Laisser un proche donner à goûter sans ton accord.",
+        "Chercher à convaincre l'entourage par de longs arguments."
+      ],
+      "consulter_si": "Consulter si : tu as un doute sur le moment de commencer, si bébé ne prend pas de poids, si sa courbe casse, ou si un aliment a été donné et qu'une réaction apparaît — plaques, gonflement du visage, vomissements, difficulté à respirer → appeler le 15 en cas de difficulté à respirer ou de gonflement du visage ; sinon, pédiatre ou médecin traitant.",
+      "source": "Source : ameli.fr (Assurance Maladie) — la diversification alimentaire : quand et comment commencer."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Il mord le sein ou la tétine / ses gencives le gênent",
+      "titre": "La morsure / réagir sans crier ni interrompre",
+      "explication": "La première morsure est une surprise douloureuse, et la réaction naturelle — crier — est exactement celle qui pose problème. Un cri fort effraie le bébé, et peut déclencher chez certains un refus du sein pendant plusieurs jours. À cinq mois, il ne mord pas pour te faire mal : ses gencives le gênent, il teste ses nouvelles sensations, ou il est en fin de tétée et joue. La réponse est technique, pas éducative : décrocher, poser calmement, proposer autre chose à mordiller — et soulager la gencive en dehors des tétées.",
+      "ancrage": "Il ne t'attaque pas : il explore une gencive qui le gêne. Ta réaction compte plus que la morsure — et un cri peut coûter plusieurs jours de refus.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — au moment de la morsure",
+        "etapes": [
+          "Rompre la succion : glisser un doigt propre dans le coin de sa bouche, sans tirer.",
+          "Ne pas crier : réagir calmement, à voix basse — un cri fort peut déclencher un refus durable.",
+          "Dire simplement non : « on ne mord pas, ça fait mal » — d'un ton posé, une fois.",
+          "Interrompre brièvement la tétée : le reposer quelques secondes, puis reproposer.",
+          "Repérer le moment : la morsure arrive souvent en fin de tétée, quand il n'a plus faim — on arrête avant."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — soulager la gencive autrement",
+        "etapes": [
+          "Un anneau de dentition réfrigéré : sorti du réfrigérateur, jamais du congélateur.",
+          "Un linge propre et frais : humidifié, à mordiller sous surveillance.",
+          "Une pression du doigt propre sur la gencive : quelques secondes, sans forcer.",
+          "Proposer avant la tétée : une gencive soulagée mord moins.",
+          "S'arrêter s'il se détourne : il indique qu'il en a assez."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne jamais utiliser de gel anesthésiant : les gels à la lidocaïne sont contre-indiqués avant deux ans.",
+        "Ne jamais utiliser de collier d'ambre : risque d'étouffement et de strangulation, sans efficacité démontrée.",
+        "Surveiller ta peau : une crevasse due à une morsure se soigne — en parler à une consultante en lactation (IBCLC), une sage-femme ou la PMI.",
+        "Se rappeler que cela passe : la plupart des bébés cessent de mordre en quelques semaines."
+      ],
+      "principe": "Réagir à une morsure par un cri peut coûter plusieurs jours de refus du sein. La bonne réponse est technique : décrocher, poser, reproposer — et soulager la gencive ailleurs.",
+      "erreurs_a_eviter": [
+        "Crier ou repousser brusquement bébé — risque de refus durable du sein.",
+        "Utiliser un collier d'ambre — étouffement et strangulation.",
+        "Appliquer un gel anesthésiant sur les gencives — contre-indiqué avant deux ans.",
+        "Mettre un anneau au congélateur — le froid extrême peut brûler la gencive."
+      ],
+      "consulter_si": "Consulter si : une crevasse ou une plaie apparaît et ne cicatrise pas, si un sein devient rouge, dur et douloureux avec de la fièvre, si bébé refuse le sein plusieurs jours, s'il a de la fièvre, ou si ses gencives saignent abondamment → sage-femme, consultante en lactation (IBCLC), PMI ou pédiatre.",
+      "source": "Source : Haute Autorité de Santé — « Allaitement maternel : mise en œuvre et poursuite dans les 6 premiers mois de vie de l'enfant »."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Il réclame beaucoup plus / poussée de croissance ou vraie faim ?",
+      "titre": "Il réclame plus / poussée ou signal de diversification ?",
+      "explication": "Depuis quelques jours, il réclame sans arrêt — et l'entourage a sa réponse toute prête : « il a faim, donnez-lui à manger ». C'est la conclusion la plus fréquente, et souvent la plus fausse. Une phase où bébé réclame davantage dure en général quelques jours et se résout d'elle-même : c'est un mécanisme d'ajustement de la production, pas un manque. Un vrai signal de diversification, lui, ne se lit pas dans la fréquence des demandes : il se lit dans la maturité motrice, l'intérêt actif — et il se valide avec le professionnel.",
+      "ancrage": "Réclamer davantage n'est pas un signal de diversification. Ne change rien pendant quelques jours : la plupart de ces phases se referment seules.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — tenir quelques jours",
+        "etapes": [
+          "Proposer à la demande : sans compter, sans chronomètre, sans intervalle imposé.",
+          "Distinguer faim et succion : proposer un doigt propre ou une tétine quand il vient de boire et cherche encore à téter.",
+          "Vérifier les indicateurs : couches mouillées, déglutitions, courbe de poids — ils restent bons pendant une poussée.",
+          "S'installer confortablement : ces journées se traversent en économisant tout ce qui peut l'être.",
+          "Ne rien décider dans la fatigue : aucune grande décision au troisième jour d'une salve."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — traverser la phase",
+        "etapes": [
+          "Créer un nid : un endroit dédié où tu peux rester longtemps sans te lever.",
+          "Peau à peau prolongé : il apaise bébé et soutient la production.",
+          "Se relayer sur tout le reste : le linge, les repas — pas sur les prises.",
+          "Respirer lentement pendant la tétée : quelques respirations longues, pour toi.",
+          "Se reposer dès que possible : dormir quand il dort, sans culpabilité."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Compter en jours : ces épisodes durent en général deux à quatre jours.",
+        "Éviter le complément réflexe : donné sans avis, il réduit la stimulation et peut faire baisser la production.",
+        "Ne pas diversifier pour « caler » : commencer les solides ne fait pas dormir et n'apaise pas la demande.",
+        "Poser la question au professionnel : c'est lui qui tranchera sur le moment de diversifier."
+      ],
+      "principe": "Une phase de demande accrue est un mécanisme d'ajustement, pas un signal de diversification. Elle se traverse en quelques jours — et les décisions importantes ne se prennent jamais en plein milieu.",
+      "erreurs_a_eviter": [
+        "Diversifier « parce qu'il a faim » — la demande accrue n'est pas un critère.",
+        "Ajouter des céréales dans le biberon pour le caler — jamais sans avis médical.",
+        "Introduire un complément dans l'urgence, sans avis.",
+        "Espacer les tétées pour « rétablir un rythme » — cela freine l'ajustement en cours."
+      ],
+      "consulter_si": "Consulter si : bébé ne prend pas de poids ou en perd, mouille très peu ses couches, est difficile à réveiller pour les prises, semble insatisfait après chaque prise depuis plus d'une semaine, ou si les tétées sont douloureuses → sage-femme, consultante en lactation (IBCLC), PMI ou pédiatre.",
+      "source": "Source : Haute Autorité de Santé — « Allaitement maternel : mise en œuvre et poursuite dans les 6 premiers mois de vie de l'enfant »."
+    }
+  ]
+}

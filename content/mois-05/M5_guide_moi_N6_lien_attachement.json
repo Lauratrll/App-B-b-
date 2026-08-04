@@ -1,0 +1,192 @@
+{
+  "mois": 5,
+  "tranche_age": "5 mois",
+  "categorie": {
+    "id": "sepa",
+    "nom": "Lien & attachement",
+    "sous_titre": "Permanence, exclusivité, séparation",
+    "icone": "💜"
+  },
+  "protocoles": [
+    {
+      "categorie": "sepa",
+      "situation": "Il me cherche du regard quand je sors / prémices de l'angoisse",
+      "titre": "Il te cherche quand tu sors / poser les fondations",
+      "explication": "Dès que tu quittes la pièce, il te cherche des yeux, se fige, parfois pleure. C'est le début d'un long chemin : celui de la permanence — comprendre que tu continues d'exister quand il ne te voit plus. Cette capacité se construit progressivement dans les mois qui viennent, et elle culminera dans une phase d'angoisse de séparation bien plus marquée. Ce que tu poses maintenant compte : ta voix qui continue depuis l'autre pièce, tes départs annoncés, tes retours systématiques. C'est la répétition du couple départ-retour qui construit la sécurité.",
+      "ancrage": "Il ne te réclame pas : il te perd. Ta voix depuis l'autre pièce lui apprend, littéralement, que tu continues d'exister.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — la voix comme fil",
+        "etapes": [
+          "Parler en continu : depuis l'autre pièce, sans interruption — c'est ce qui le rassure le plus.",
+          "Annoncer avant de partir : « je vais dans la cuisine, je reviens » — toujours la même phrase.",
+          "Revenir montrer ton visage : brièvement, sans le prendre systématiquement.",
+          "L'installer là où il te voit : au sol, en sécurité, pendant que tu fais autre chose.",
+          "Ne jamais partir en silence : la disparition brusque est ce qui l'inquiète le plus."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : nourrir la sécurité",
+        "etapes": [
+          "Un moment quotidien : bébé sur le dos, éveillé et calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Parler pendant le geste : ta voix associée au toucher devient un repère de sécurité.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Jouer à coucou : cacher ton visage derrière tes mains et réapparaître — le jeu construit directement la permanence.",
+        "Faire durer un peu : allonger progressivement le temps caché, en gardant ta voix.",
+        "Répondre sans tout arrêter : ta voix suffit souvent, tu n'as pas à revenir à chaque fois.",
+        "Anticiper la suite : l'angoisse de séparation s'intensifiera dans les mois qui viennent — ce que tu poses maintenant servira."
+      ],
+      "principe": "La permanence se construit par la répétition du couple départ-retour. Ta voix qui continue est, pour lui, la preuve concrète que tu existes toujours.",
+      "erreurs_a_eviter": [
+        "Partir en silence pour éviter les pleurs.",
+        "Le prendre dans les bras à chaque appel — ta voix suffit souvent.",
+        "Interpréter ces pleurs comme de la manipulation.",
+        "Le placer devant un écran pour l'occuper pendant ton absence."
+      ],
+      "consulter_si": "Consulter si : bébé ne se calme jamais, même quand tu reviens, s'il ne cherche jamais ton visage ni ta voix, s'il ne réagit pas aux bruits forts, ou s'il paraît anormalement mou ou éteint → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition et de la vision."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Il ne veut que moi / il rejette tous les autres bras",
+      "titre": "Il ne veut que toi / une étape, pas une condamnation",
+      "explication": "Il hurle dès que quelqu'un d'autre le prend — même le co-parent, même les grands-parents. Cette préférence exclusive est une étape normale de l'attachement : il vient de comprendre qui est qui, et il proteste contre tout ce qui n'est pas sa figure principale. C'est épuisant, et cela peut devenir un piège : plus tu es la seule à réussir, plus les autres se retirent, et plus tu deviens irremplaçable. La sortie ne passe pas par une rupture brutale : elle passe par des relais courts, répétés, et par ton absence physique pendant ces relais.",
+      "ancrage": "Cette exclusivité est une étape — mais elle s'aggrave si les autres se retirent. Ce qui la desserre : des relais courts, répétés, et toi hors de la pièce.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — organiser les relais",
+        "etapes": [
+          "Des relais courts : dix, puis vingt, puis trente minutes — pas une journée d'emblée.",
+          "Sortir physiquement : quitter la pièce, idéalement la maison — ta présence entretient le refus.",
+          "Choisir les bons moments : après la sieste, quand il est disponible — jamais en pleine fatigue.",
+          "Laisser l'autre faire à sa façon : sans consigne, sans correction, sans commentaire après.",
+          "Répéter souvent : c'est la fréquence, pas la durée, qui desserre l'exclusivité."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : un repère transmissible",
+        "etapes": [
+          "Transmettre le geste : le co-parent ou la personne qui garde peut faire la même séquence.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Toujours au même moment : le repère vient de la régularité, pas de la personne.",
+          "S'arrêter à sa demande : le geste doit rester agréable, quel que soit l'adulte."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Éviter le piège de l'irremplaçable : plus les autres se retirent, plus la charge te revient entièrement.",
+        "Tenir malgré les pleurs : bébé peut protester au début — cela ne veut pas dire que cela ne fonctionne pas.",
+        "Ne pas rompre brutalement : une séparation longue et non préparée aggrave l'exclusivité.",
+        "Se rappeler que cela s'inverse : les préférences parentales s'échangent souvent au fil des mois."
+      ],
+      "principe": "L'exclusivité est une étape qui se desserre par la répétition de relais courts — jamais par une rupture brutale, et jamais tant que tu restes dans la pièce.",
+      "erreurs_a_eviter": [
+        "Rester dans la pièce « pour rassurer » pendant que quelqu'un d'autre le prend.",
+        "Renoncer aux relais parce qu'« il ne veut que moi ».",
+        "Corriger la façon de faire de l'autre adulte.",
+        "Imposer une longue séparation d'un coup, sans préparation."
+      ],
+      "consulter_si": "Consulter si : bébé refuse tout contact avec quiconque, y compris toi, s'il paraît éteint ou apathique, s'il ne sourit à personne, ou si l'épuisement lié à cette exclusivité devient dangereux pour toi → pédiatre, PMI, ou Allo Parents Bébé (0 800 00 34 56)."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Première nuit sans moi / préparer le relais",
+      "titre": "La première nuit sans toi / transmettre les repères",
+      "explication": "Une nuit sans toi — pour un mariage, un déplacement, une hospitalisation, ou simplement pour dormir. Cette première fois se prépare, et elle se prépare surtout côté transmission. Ce qui rassure ton bébé, ce n'est pas ta présence en tant que personne : c'est la répétition de ce qu'il connaît. Un rituel identique, une odeur familière, des mots qu'il a entendus cent fois. Tout cela se transmet. Et une chose ne se transmet pas mais compte autant : ta propre autorisation à partir sans culpabilité.",
+      "ancrage": "Ce qui le sécurise n'est pas ta présence, c'est la répétition de ses repères. Ils se transmettent — et tu as le droit de partir.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — préparer la transmission",
+        "etapes": [
+          "Écrire le rituel : les étapes du coucher, dans l'ordre, avec les mots exacts.",
+          "Transmettre les signaux : signes de fatigue, ce qui l'apaise, ce qui l'excite.",
+          "Laisser une odeur : un tissu porté par toi, pour l'éveil — jamais dans le lit pendant le sommeil.",
+          "Préparer les prises : lait tiré ou préparation, en quantité, avec les repères de satiété.",
+          "Faire un essai avant : une sieste, puis un coucher, avec la même personne."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — le rituel transmissible",
+        "etapes": [
+          "Un rituel court et reproductible : trois étapes, toujours les mêmes.",
+          "La réflexologie du soir : transmise à l'identique — balayage de la voûte, plexus solaire, une minute par pied.",
+          "La même berceuse : enregistrée si besoin, pour que la voix reste familière.",
+          "Un lit vide et sûr : sur le dos, matelas ferme, rien autour — cette règle ne se délègue pas, elle s'écrit.",
+          "Un retour ritualisé : le lendemain, un temps de contact pleinement présent."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se donner le droit : partir une nuit n'abîme pas le lien — les micro-séparations le renforcent même.",
+        "Prévoir une nuit perturbée : au retour, il peut être plus demandeur pendant un jour ou deux — c'est normal.",
+        "Ne pas culpabiliser d'avoir bien dormi : c'est même le but.",
+        "Écrire les consignes de sécurité : couchage sur le dos, lit vide, pièce à 18-20 °C — noir sur blanc."
+      ],
+      "principe": "Ce qui sécurise un bébé n'est pas l'identité de la personne, mais la répétition de ses repères. Ils se transmettent — et ton droit à partir n'a pas à se justifier.",
+      "erreurs_a_eviter": [
+        "Partir sans avoir transmis le rituel ni les consignes de couchage.",
+        "Laisser un doudou ou un tissu dans le lit pendant le sommeil — le lit reste vide.",
+        "Multiplier les appels toute la nuit — cela n'aide ni lui, ni toi.",
+        "Culpabiliser d'avoir passé une bonne nuit."
+      ],
+      "consulter_si": "Consulter si : bébé refuse de boire pendant plusieurs prises en ton absence, s'il paraît éteint ou inconsolable au retour pendant plusieurs jours, ou si la séparation te met dans une détresse durable → pédiatre, PMI, ou psychologue périnatal."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "L'adaptation crèche ou nounou / les premiers jours qui déchirent",
+      "titre": "L'adaptation / le rituel court et la culpabilité, séparément",
+      "explication": "Les premiers jours d'adaptation sont souvent brutaux — pour lui, et surtout pour toi. Deux choses se jouent, et elles doivent être traitées séparément. D'un côté, le protocole : une familiarisation progressive, un rituel de départ court et toujours identique, jamais de départ en cachette, jamais de retour en arrière. De l'autre, ta culpabilité : elle est réelle, elle est fréquente, et elle ne se résout pas par un protocole. Ce que ton bébé perçoit, c'est ton état — pas la séparation elle-même. Traiter ta culpabilité est donc aussi un acte pour lui.",
+      "ancrage": "Le protocole gère la séparation. Ta culpabilité, elle, demande autre chose — et la traiter fait partie du travail, pas du confort.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — le rituel de départ",
+        "etapes": [
+          "Une familiarisation progressive : quelques heures, puis une demi-journée, puis une journée.",
+          "Un rituel court et identique : une phrase, un baiser, et on part — toujours dans le même ordre.",
+          "Ne jamais partir en cachette : cela fabrique l'insécurité qu'on cherchait à éviter.",
+          "Ne pas revenir sur ses pas : une fois le rituel fait, on sort.",
+          "Confier une odeur : un tissu porté par toi, pour l'éveil — jamais dans le lit pendant le sommeil."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — les retrouvailles et toi",
+        "etapes": [
+          "Une demi-heure pleine au retour : sans écran, sans tâche ménagère.",
+          "Une phrase rituelle de retour : la même à chaque fois.",
+          "Accepter sa réaction : pleurs, agitation ou indifférence sont tous normaux.",
+          "Trois respirations lentes, pour toi : avant d'entrer dans la pièce, au retour.",
+          "Respecter sa saturation : après une journée en collectivité, il peut avoir besoin de calme avant de contact."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Transmettre ses repères par écrit : rythme, signaux de fatigue, façon de le calmer.",
+        "Prévoir les premiers jours difficiles : pleurs, sommeil perturbé — cela s'apaise en général en une à deux semaines.",
+        "Traiter ta culpabilité pour elle-même : en parler à quelqu'un, ne pas la refouler — c'est elle qu'il perçoit.",
+        "Se rappeler ce qui construit la sécurité : la fiabilité du retour, pas le nombre d'heures ensemble."
+      ],
+      "principe": "Un départ court, clair et confiant sécurise plus qu'un départ étiré. Et ta culpabilité n'est pas un détail à gérer discrètement : c'est ce que ton bébé perçoit en premier.",
+      "erreurs_a_eviter": [
+        "Partir en cachette pour éviter les pleurs.",
+        "Prolonger les au revoir ou revenir plusieurs fois.",
+        "Commencer la garde sans adaptation progressive.",
+        "Refouler la culpabilité au nom du « il ne se rendra compte de rien »."
+      ],
+      "consulter_si": "Consulter si : bébé refuse de boire chez la personne qui garde pendant plusieurs jours, s'il perd du poids, s'il paraît éteint ou apathique, s'il pleure de façon inconsolable en permanence, ou si l'angoisse de la séparation devient envahissante pour toi → pédiatre, PMI, ou psychologue périnatal."
+    }
+  ]
+}

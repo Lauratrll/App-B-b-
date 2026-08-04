@@ -1,0 +1,195 @@
+{
+  "mois": 4,
+  "tranche_age": "4 mois",
+  "categorie": {
+    "id": "sommeil",
+    "nom": "Sommeil",
+    "sous_titre": "Bascule des 4 mois, endormissement, réveils moteurs",
+    "icone": "😴"
+  },
+  "protocoles": [
+    {
+      "categorie": "sommeil",
+      "situation": "Les réveils explosent / la grande réorganisation des 4 mois",
+      "titre": "La bascule des quatre mois / un progrès qui ressemble à un désastre",
+      "explication": "Autour de quatre mois, le sommeil de ton bébé bascule : il quitte l'organisation du nouveau-né pour une architecture en cycles plus proche de celle de l'adulte, avec des phases distinctes et des passages d'éveil entre chaque cycle. Le résultat est cruel : plus il mûrit, plus il se réveille. Ce n'est pas une régression, ce n'est pas une rechute, et cela ne vient pas d'une erreur de ta part. C'est un progrès développemental qui, vécu de l'intérieur, ressemble exactement à un effondrement. Et il est temporaire.",
+      "ancrage": "Ce n'est pas un retour en arrière, c'est un changement d'architecture. Il est épuisant, il est normal, et il ne demande surtout pas une nouvelle méthode.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — traverser la bascule",
+        "etapes": [
+          "Ne rien changer : ce n'est pas le moment d'introduire une nouvelle méthode de sommeil.",
+          "Tenir le cadre : mêmes repères, mêmes horaires approximatifs, même rituel.",
+          "Intervenir par paliers : voix, puis main posée, puis portage seulement si nécessaire.",
+          "Surveiller la sur-fatigue : elle s'installe très vite pendant cette phase et aggrave tout.",
+          "Se relayer : chaque parent un bloc de sommeil continu, à tour de rôle."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : soutenir la phase",
+        "etapes": [
+          "Dans le rituel du soir : toujours au même moment, après le bain.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se donner un horizon : cette phase dure généralement quelques semaines, chaque enfant à son rythme.",
+        "Ne pas chercher de coupable : ni les dents, ni le lait, ni une erreur de ta part.",
+        "Alléger tout le reste : sur cette période, réduire les engagements au strict minimum.",
+        "Retenir les repères : entre quatre et onze mois, un bébé dort en moyenne douze à seize heures par vingt-quatre heures, siestes comprises — la fourchette est très large."
+      ],
+      "principe": "La bascule des quatre mois est un progrès qui ressemble à un désastre. Elle ne se corrige pas — elle se traverse, avec un cadre stable et des parents qui se relaient.",
+      "erreurs_a_eviter": [
+        "Changer de méthode de sommeil en pleine phase.",
+        "Laisser pleurer seul un bébé de quatre mois pour « rétablir » les nuits.",
+        "Repousser le coucher pour qu'il dorme mieux — la sur-fatigue aggrave la phase.",
+        "Conclure que tout ce que tu avais mis en place était faux."
+      ],
+      "consulter_si": "Consulter si : bébé dort très peu au total et ne prend pas de poids, s'il est agité et inconsolable en permanence, s'il est difficile à réveiller pour les prises, ou s'il présente des pauses respiratoires, une respiration bruyante ou gênée → pédiatre ; le 15 en cas de trouble respiratoire. Si l'épuisement devient dangereux pour toi → médecin, PMI, ou Allo Parents Bébé (0 800 00 34 56).",
+      "source": "Source : Institut national du sommeil et de la vigilance et ameli.fr — le sommeil de l'enfant : étapes, cycles et évolution."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Il ne s'endort plus sans téter / l'association d'endormissement",
+      "titre": "L'endormissement au sein / assouplir en douceur",
+      "explication": "Ton bébé ne s'endort plus que le sein — ou le biberon — en bouche. À chaque fin de cycle, il cherche exactement la même chose qu'au coucher : c'est ce qu'on appelle une association d'endormissement. Ce n'est pas une mauvaise habitude que tu aurais créée par faiblesse : c'est un fonctionnement logique, et il est extrêmement courant. Rien n'oblige à le changer si cela te convient. Si cela t'épuise, l'association s'assouplit — progressivement, par étapes, sans jamais laisser bébé pleurer seul.",
+      "ancrage": "Tu n'as créé aucun problème. Si cela te convient, garde-le. Si cela t'épuise, cela se change doucement — et jamais en le laissant pleurer seul.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — assouplir par étapes",
+        "etapes": [
+          "Décaler la tétée : la proposer en début de rituel, avant le bain ou avant la berceuse, plutôt qu'en dernier.",
+          "Détacher avant l'endormissement complet : le retirer du sein quand il est somnolent mais pas encore endormi.",
+          "Remplacer par un autre contact : ta main posée, ta voix, un bercement — pour prendre le relais.",
+          "Y aller très progressivement : une étape à la fois, sur plusieurs semaines.",
+          "Répondre s'il pleure : on ne laisse jamais un bébé de quatre mois pleurer seul."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : le nouveau repère d'endormissement",
+        "etapes": [
+          "En fin de rituel, à la place de la tétée : toujours au même moment.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Terminer par l'immobilité : une main posée sur son torse jusqu'à ce que sa respiration se pose."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Décider si c'est un problème : une association d'endormissement n'est un problème que si elle épuise le parent — sinon, il n'y a rien à corriger.",
+        "Impliquer le co-parent : c'est souvent lui qui peut installer un autre repère d'endormissement, sans le sein disponible.",
+        "Y aller sur plusieurs semaines : les changements brusques échouent et coûtent des nuits.",
+        "Ne jamais utiliser de méthode d'extinction : laisser un bébé pleurer seul n'a pas sa place ici."
+      ],
+      "principe": "Une association d'endormissement n'est pas une erreur : c'est un apprentissage logique. Elle ne se casse pas — elle s'assouplit par étapes, sans jamais laisser bébé seul avec ses pleurs.",
+      "erreurs_a_eviter": [
+        "Supprimer brutalement la tétée d'endormissement.",
+        "Laisser pleurer seul pour « casser » l'association.",
+        "Changer plusieurs choses à la fois dans le rituel.",
+        "Se reprocher d'avoir « créé » cette habitude — elle est la norme, pas l'exception."
+      ],
+      "consulter_si": "Consulter si : bébé ne parvient jamais à s'endormir malgré un cadre calme, s'il est inconsolable, difficile à réveiller pour les prises, s'il ne prend pas de poids, ou si le manque de sommeil devient dangereux pour toi → pédiatre, PMI, médecin, ou Allo Parents Bébé (0 800 00 34 56)."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Il se réveille toutes les deux heures / les nuits sont hachées",
+      "titre": "Les nuits hachées / traiter la dette de jour",
+      "explication": "Réveil toutes les deux heures, parfois plus souvent. Le réflexe est de chercher la cause dans la nuit : la faim, la couche, les dents, le lait. Mais à quatre mois, la première cause des nuits hachées se trouve dans la journée — une dette de sommeil accumulée. Un bébé qui a trop peu dormi en journée, ou qui est resté éveillé trop longtemps avant le coucher, entre dans la nuit en sur-fatigue : son système nerveux est emballé, et il enchaîne mal ses cycles. Agir sur la nuit ne sert à rien tant que la journée n'est pas réglée.",
+      "ancrage": "La nuit que tu subis se joue en grande partie dans la journée. C'est le sommeil de jour qu'on ajuste — pas le réveil de deux heures du matin.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — traiter la journée",
+        "etapes": [
+          "Avancer le coucher : parfois de vingt à trente minutes — un bébé couché avant la sur-fatigue dort mieux.",
+          "Protéger les siestes : une dette de sommeil de jour hache la nuit, systématiquement.",
+          "Respecter la fenêtre d'éveil : à quatre mois, elle reste courte — coucher aux premiers signes, pas aux pleurs.",
+          "Baisser la stimulation du soir : lumière, bruit, visites, écrans — tout descend en fin de journée.",
+          "Intervenir par paliers la nuit : voix, main posée, puis portage si nécessaire."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : accompagner la fin de journée",
+        "etapes": [
+          "En début de soirée : après le bain, dans la pénombre.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du gros orteil : appui léger et maintenu quelques secondes, sans tirer.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Observer la journée entière : noter les horaires de sommeil pendant quelques jours révèle presque toujours la dette.",
+        "Ne pas ajouter de tétées « pour caler la nuit » : cela ne consolide pas le sommeil et fatigue tout le monde.",
+        "Se relayer : chaque parent prend une moitié de nuit, pour un bloc continu chacun.",
+        "Accepter les réveils : à quatre mois, se réveiller la nuit reste normal — l'objectif est de les réduire, pas de les supprimer."
+      ],
+      "principe": "Un réveil nocturne se traite le plus souvent en journée. La sur-fatigue est le premier ennemi du sommeil du nourrisson — et le coucher trop tardif en est la cause la plus fréquente.",
+      "erreurs_a_eviter": [
+        "Repousser l'heure du coucher pour « fatiguer » bébé.",
+        "Supprimer une sieste en espérant une meilleure nuit.",
+        "Allumer la lumière et parler normalement à chaque réveil.",
+        "Changer de stratégie toutes les nuits."
+      ],
+      "consulter_si": "Consulter si : les réveils s'accompagnent de pleurs inconsolables, de fièvre, d'un refus de boire, d'une cassure de la courbe de poids, de pauses respiratoires, d'une respiration bruyante ou d'un ronflement important → pédiatre sans délai ; le 15 en cas de trouble respiratoire.",
+      "source": "Source : Institut national du sommeil et de la vigilance et ameli.fr — le sommeil de l'enfant : étapes, cycles et évolution."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Il s'agite et se cambre dans son lit / la motricité déborde la nuit",
+      "titre": "Les réveils moteurs / quand les nouveaux acquis débordent la nuit",
+      "explication": "Ton bébé s'agite, roule, se cambre, pousse sur ses jambes — la nuit. Ce n'est pas un cauchemar, ce n'est pas de la douleur : c'est sa motricité toute neuve qui continue de travailler pendant le sommeil. Chaque nouvel acquis moteur perturbe temporairement les nuits, et cela se reproduira à chaque étape. Le cerveau rejoue ce qu'il vient d'apprendre. Ce qui compte à ce moment précis, c'est la sécurité du lit : à mesure qu'il devient mobile, tout ce qui traîne dans le lit devient un risque réel.",
+      "ancrage": "Il n'a pas mal : il s'entraîne. Ce qui demande ton attention n'est pas son agitation — c'est la sécurité de son lit, qui doit être irréprochable.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — sécuriser et laisser faire",
+        "etapes": [
+          "Un lit totalement vide : pas de doudou, pas de couverture, pas de coussin, pas de tour de lit.",
+          "Coucher sur le dos : toujours — s'il se retourne seul pendant la nuit, on ne le repositionne pas indéfiniment, mais on le couche sur le dos.",
+          "Gigoteuse adaptée : à sa taille, sans excès de tissu, jamais de couverture libre.",
+          "Matelas ferme, drap tendu : rien qui puisse se soulever et couvrir son visage.",
+          "Attendre avant d'intervenir : beaucoup d'agitations motrices ne sont pas des réveils."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : détendre le corps avant la nuit",
+        "etapes": [
+          "Dans le rituel du coucher : après le bain, dans la pénombre.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Offrir du mouvement le jour : plus il bouge librement au sol en journée, moins la motricité déborde la nuit.",
+        "Multiplier le temps sur le ventre, éveillé et surveillé : c'est là que les nouveaux acquis se consolident.",
+        "Retirer transat et coque : ils empêchent l'exploration motrice et reportent le travail sur la nuit.",
+        "S'attendre à ce que cela recommence : chaque grande acquisition motrice perturbera à nouveau le sommeil."
+      ],
+      "principe": "La motricité qui déborde la nuit est le signe d'un cerveau qui s'entraîne. Ce qui se sécurise, c'est le lit — vide, matelas ferme, couchage sur le dos, sans exception.",
+      "erreurs_a_eviter": [
+        "Ajouter un coussin, un doudou ou une couverture pour « le caler ».",
+        "Utiliser un cale-bébé ou un réducteur — dangereux, ils augmentent le risque d'étouffement.",
+        "Le remettre systématiquement dans la même position toute la nuit — ce qui compte, c'est le couchage sur le dos.",
+        "Intervenir au moindre mouvement — beaucoup ne sont pas des réveils."
+      ],
+      "consulter_si": "Consulter si : tu observes des mouvements rythmés et répétés que tu ne peux pas arrêter en tenant le membre, une raideur permanente, une mollesse inhabituelle, une asymétrie entre les deux côtés du corps, ou des pauses respiratoires → pédiatre sans attendre ; le 15 en cas de mouvements anormaux avec perte de contact ou de trouble respiratoire.",
+      "source": "Source : ameli.fr (Assurance Maladie) — comment bien coucher un bébé."
+    }
+  ]
+}

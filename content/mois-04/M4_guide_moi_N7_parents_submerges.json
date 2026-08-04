@@ -1,0 +1,195 @@
+{
+  "mois": 4,
+  "tranche_age": "4 mois",
+  "categorie": {
+    "id": "parent",
+    "nom": "Parents submergés",
+    "sous_titre": "Reprise, fatigue, couple, colère",
+    "icone": "🫶"
+  },
+  "protocoles": [
+    {
+      "categorie": "parent",
+      "situation": "Le retour au travail est imminent / angoisse et logistique",
+      "titre": "La reprise imminente / le plan et le droit de ne pas être sereine",
+      "explication": "Quelques jours avant la reprise, deux choses se mélangent et s'aggravent l'une l'autre : une logistique non réglée, et une angoisse qu'on t'interdit implicitement d'avoir — « tu verras, ça va bien se passer ». Séparer les deux change tout. La logistique se découpe : horaires, trajets, qui dépose, qui récupère, plan B. L'angoisse, elle, ne se résout pas par un plan : elle a le droit d'exister, et elle n'est pas le signe que tu fais un mauvais choix. Beaucoup de reprises ne sont d'ailleurs pas des choix.",
+      "ancrage": "Tu as le droit de ne pas être sereine. Ce n'est pas un défaut d'organisation, et ce n'est pas un mauvais présage : c'est une vraie séparation.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — découper la reprise",
+        "etapes": [
+          "Lister le concret : horaires, trajets, qui dépose, qui récupère, plan B en cas d'imprévu.",
+          "Traiter un point par jour : un seul — l'angoisse se nourrit de la liste globale.",
+          "Préparer les affaires la veille : sac, biberons, vêtements — pour ne rien décider le matin.",
+          "Prévoir la première semaine allégée : aucun engagement, aucune sortie, rien d'autre à porter.",
+          "Nommer l'angoisse : elle est légitime, elle n'a pas à être résolue."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — se préparer soi-même",
+        "etapes": [
+          "Trois respirations lentes : expiration plus longue que l'inspiration, avant de partir.",
+          "Écrire ce qui fait peur : la liste écrite est toujours plus petite que celle qui tourne dans la tête.",
+          "Un rituel de départ court : une phrase, un baiser — pour toi autant que pour lui.",
+          "Prévoir un soutien : quelqu'un à qui écrire ou téléphoner le premier jour.",
+          "Accepter les larmes du premier jour : elles sont fréquentes et ne présagent de rien."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se renseigner sur tes droits : temps partiel, congé parental, aménagements pour allaiter ou tirer son lait — médecine du travail ou ressources humaines.",
+        "Préparer un rituel de retrouvailles : une demi-heure de contact, sans écran ni tâche.",
+        "Distinguer angoisse et dépression : une inquiétude à l'approche est banale ; une tristesse durable, une perte d'intérêt ou des pensées noires demandent un avis.",
+        "Se rappeler ce qui construit la sécurité : la fiabilité des retrouvailles, pas le nombre d'heures ensemble."
+      ],
+      "principe": "La logistique se règle par un plan ; l'angoisse, elle, se traverse. Confondre les deux fait échouer les deux — et personne n'a à être serein pour reprendre.",
+      "erreurs_a_eviter": [
+        "Tout organiser la veille — la précipitation amplifie tout.",
+        "Se forcer à « être forte » et taire la tristesse.",
+        "Commencer la garde sans adaptation progressive.",
+        "Se juger sur le fait de reprendre — la reprise est rarement un choix pleinement libre."
+      ],
+      "consulter_si": "Consulter si : l'angoisse devient envahissante, si elle s'accompagne d'attaques de panique, d'insomnies même quand bébé dort, d'une tristesse qui dure plus de deux semaines, ou de pensées noires → médecin, sage-femme, PMI ou psychologue périnatal. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence.",
+      "source": "Source : ameli.fr (Assurance Maladie) — baby blues et dépression post-partum ; entretien postnatal précoce."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Une fatigue chronique s'est installée / le sommeil ne se rattrape pas",
+      "titre": "La fatigue chronique / sortir du mythe du rattrapage",
+      "explication": "« Tu rattraperas plus tard. » C'est faux, et c'est un mythe coûteux. Une dette de sommeil accumulée sur des mois ne se rattrape pas en une grasse matinée : elle se rembourse lentement, par des périodes régulières de repos. En attendant, elle a des effets réels — irritabilité, difficultés de concentration, jugement altéré, tolérance émotionnelle réduite. Ce n'est pas un défaut de caractère : c'est de la physiologie. La conséquence pratique est simple : les relais ne sont pas un confort, ils sont un besoin de santé, et ils doivent être organisés, pas espérés.",
+      "ancrage": "Ta fatigue n'est pas un manque de volonté : c'est une dette physiologique. Elle ne se rattrapera pas toute seule — elle demande des relais organisés.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — organiser un vrai relais",
+        "etapes": [
+          "Bloquer un créneau réel : trois heures de sommeil continu, à heure fixe, pendant que quelqu'un garde bébé.",
+          "Demander précisément : « peux-tu venir mardi de 14h à 17h » fonctionne, « aide-moi » ne fonctionne pas.",
+          "Se relayer la nuit : chaque parent un bloc continu, à tour de rôle, même en cas d'allaitement.",
+          "Dormir quand bébé dort, au moins une fois par jour : sans culpabilité, en laissant tout le reste.",
+          "Renoncer au ménage : la maison en ordre ne repose personne."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — récupérer par morceaux",
+        "etapes": [
+          "S'allonger dix minutes : même sans dormir, la position allongée réduit la charge physique.",
+          "Trois respirations lentes : expiration plus longue que l'inspiration.",
+          "Sortir dehors : la lumière du jour aide à réguler ton propre sommeil.",
+          "Manger vraiment : la fatigue s'aggrave d'une alimentation sautée.",
+          "Réduire les écrans le soir : ils retardent ton endormissement quand tu as enfin l'occasion de dormir."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Utiliser les relais existants : PMI, sage-femme à domicile, Allo Parents Bébé (0 800 00 34 56).",
+        "Identifier les signes d'alerte : somnolence au volant, oublis répétés, irritabilité extrême — ce sont des signaux de santé, pas de faiblesse.",
+        "En parler au médecin : une fatigue chronique se dit en consultation ; elle peut aussi masquer autre chose.",
+        "Renoncer au mythe : le sommeil perdu ne se rattrape pas — il se rembourse lentement, par la régularité."
+      ],
+      "principe": "La dette de sommeil ne se rattrape pas : elle se rembourse. Les relais ne sont pas un luxe qu'on s'accorde — ce sont des soins qu'on organise.",
+      "erreurs_a_eviter": [
+        "Attendre une hypothétique « grasse matinée » qui rattraperait tout.",
+        "Conduire en état de somnolence — c'est un vrai danger.",
+        "Refuser l'aide proposée par pudeur.",
+        "Prendre la fatigue pour une preuve d'incompétence — c'est une preuve de manque de sommeil."
+      ],
+      "consulter_si": "Consulter si : la fatigue s'accompagne d'une tristesse qui dure plus de deux semaines, d'une impossibilité de dormir même quand bébé dort, d'une perte d'intérêt, de pensées noires, ou si tu ressens de la somnolence au volant → médecin, sage-femme, PMI ou psychologue périnatal. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence.",
+      "source": "Source : ameli.fr (Assurance Maladie) — baby blues et dépression post-partum ; entretien postnatal précoce."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Plus de désir dans le couple / mon corps ne suit pas",
+      "titre": "Le désir absent / rouvrir par le non-sexuel",
+      "explication": "Quatre mois après la naissance, le désir peut être absent — et le corps, étranger. C'est extrêmement fréquent, et il n'existe aucun calendrier à respecter, aucune norme à rattraper. Plusieurs choses se cumulent : la fatigue chronique, les modifications hormonales, un corps sollicité toute la journée par le portage et les tétées, et une charge mentale qui ne laisse aucun espace mental au désir. Le chemin le plus efficace ne passe pas par la sexualité — il passe par le contact non sexuel, la parole, et le partage réel de la charge.",
+      "ancrage": "Il n'y a pas de délai à rattraper. Ce qui se rouvre en premier, ce n'est pas le désir : c'est le contact, sans enjeu et sans attente.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — rouvrir sans enjeu",
+        "etapes": [
+          "Nommer où tu en es : « je n'ai pas de désir en ce moment » — le dire évite les malentendus.",
+          "Retirer l'enjeu du contact : se tenir la main, s'enlacer, sans que cela doive mener ailleurs.",
+          "Poser un temps à deux : vingt minutes, sans téléphone, sans parler du bébé.",
+          "Ne rien forcer : ni pour soi, ni pour l'autre — le corps n'est pas un contrat.",
+          "Choisir le moment : jamais dans la fatigue du soir ni au milieu d'une crise."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — retrouver son corps",
+        "etapes": [
+          "Un temps pour toi : même vingt minutes, seule, sans bébé, sans écran.",
+          "Un contact avec ton propre corps : une douche sans hâte, un étirement, une respiration.",
+          "Bouger un peu : marcher dehors, sans objectif de performance.",
+          "Dire ce qui fait du bien : les gestes qui rassurent, ceux qui pèsent.",
+          "S'arrêter dès que cela devient une obligation : ce serait contre-productif."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Consulter la sage-femme : le suivi après l'accouchement existe pour cela — et une douleur pendant les rapports n'est jamais une fatalité.",
+        "Partager la charge mentale : le désir ne revient pas dans l'épuisement — c'est souvent le premier levier.",
+        "Envisager un accompagnement : conseil conjugal, accompagnement du couple — la période est une épreuve reconnue.",
+        "Se rappeler la temporalité : le corps met des mois à récupérer, et la baisse du désir est très fréquente pendant cette période."
+      ],
+      "principe": "Le désir ne se décrète pas et ne se force jamais. Ce qui se rouvre d'abord, c'est le contact sans enjeu — et il revient rarement avant que la charge ne soit partagée.",
+      "erreurs_a_eviter": [
+        "S'imposer une reprise des rapports pour « rassurer » l'autre.",
+        "Interpréter l'absence de désir comme la fin du couple.",
+        "Ignorer une douleur — elle se signale à la sage-femme ou au médecin.",
+        "Laisser les non-dits s'accumuler jusqu'au conflit."
+      ],
+      "consulter_si": "Consulter si : des douleurs persistent lors des rapports, si des saignements ou des fuites urinaires apparaissent, si l'absence de désir s'accompagne d'une tristesse durable, d'un sentiment de vide, ou de pensées noires → sage-femme, médecin, ou psychologue périnatal. Si la relation devient violente — paroles, gestes, contrôle → 3919, Violences Femmes Info, gratuit et anonyme. En cas de pensées suicidaires : 3114."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Je m'énerve et j'ai peur de craquer / la colère qui monte",
+      "titre": "La colère qui monte / le protocole qui protège",
+      "explication": "La colère monte, tu serres les dents, tu te dis que tu vas craquer — et tu as honte de le penser. Disons-le sans détour et sans jugement : cette colère est fréquente, elle ne fait pas de toi un mauvais parent, et elle est un signal, pas une faute. Ce qui est dangereux, ce n'est pas de la ressentir : c'est de rester seul.e avec un bébé qui pleure quand elle est là. Un adulte épuisé peut avoir un geste qu'il ne se croyait pas capable d'avoir. Secouer un bébé, même une seconde, peut provoquer des lésions cérébrales irréversibles.",
+      "ancrage": "Ressentir cette colère ne fait pas de toi un danger. Rester seul.e avec elle, si. Le protocole qui suit n'est pas une punition — c'est une protection.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — le protocole de sécurité",
+        "etapes": [
+          "Poser bébé en sécurité : à plat sur le dos, dans son lit, sans objet autour.",
+          "Sortir de la pièce : fermer la porte, respirer. Il ne risque rien dans son lit — les pleurs ne sont pas dangereux.",
+          "Appeler quelqu'un : un proche, une voisine, ou Allo Parents Bébé (0 800 00 34 56).",
+          "Ne jamais secouer bébé : même une seconde, même « doucement » — les lésions peuvent être immédiates et irréversibles.",
+          "Revenir seulement quand tu es redescendu.e : reprendre bébé une fois ton corps calmé, pas avant."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — faire redescendre le corps",
+        "etapes": [
+          "Expiration longue : inspirer par le nez, souffler lentement par la bouche, cinq fois.",
+          "Passer les mains sous l'eau froide : un geste simple qui aide le corps à redescendre.",
+          "Ancrage au sol : pieds à plat, relâcher les épaules et la mâchoire.",
+          "Sortir dehors : même deux minutes sur le pas de la porte.",
+          "Parler à voix haute : dire ce que tu ressens, même seul.e, réduit la charge."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Anticiper le moment à risque : identifier l'heure où la tension monte, et organiser une présence à ce moment-là.",
+        "Ne pas rester seul.e : c'est le seul point non négociable — l'isolement est le principal facteur de risque.",
+        "En parler à un professionnel : médecin, sage-femme, PMI — cette colère est connue, elle se dit, elle ne se juge pas.",
+        "Se relayer avant le point de rupture : le relais se demande avant, pas après."
+      ],
+      "principe": "Poser bébé en sécurité et sortir de la pièce n'est jamais un abandon : c'est le geste qui protège. Les pleurs ne sont pas dangereux — le secouement, si, et il est irréversible.",
+      "erreurs_a_eviter": [
+        "Secouer bébé, même une seconde, même sans colère apparente.",
+        "Attendre d'être à bout pour appeler quelqu'un.",
+        "Rester seul.e des heures avec les pleurs, dans le noir.",
+        "Taire cette colère par honte — la dire est ce qui protège."
+      ],
+      "consulter_si": "Consulter si : tu ressens l'envie de secouer ton bébé, si tu as peur de tes propres réactions, si tu te sens submergé.e au point de ne plus pouvoir répondre à lui → poser bébé en sécurité, appeler un proche, Allo Parents Bébé (0 800 00 34 56), ou le 15. Si tu penses avoir secoué ton bébé, même légèrement : appeler le 15 immédiatement, même en l'absence de symptôme. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence.",
+      "source": "Source : Haute Autorité de Santé — recommandation de bonne pratique « Syndrome du bébé secoué ou traumatisme crânien non accidentel par secouement » ; Santé publique France — prévention du secouement."
+    }
+  ]
+}

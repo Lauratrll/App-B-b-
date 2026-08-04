@@ -1,0 +1,242 @@
+{
+  "mois": 5,
+  "tranche_age": "5 mois",
+  "categorie": {
+    "id": "corps",
+    "nom": "Corps & soins",
+    "sous_titre": "Retournement, assise, gencives, peau",
+    "icone": "🌿"
+  },
+  "protocoles": [
+    {
+      "categorie": "corps",
+      "situation": "Il se retourne du dos au ventre / sécuriser sans freiner",
+      "titre": "Le retournement / sécuriser sans freiner",
+      "explication": "Il bascule du dos sur le ventre — et parfois il reste coincé, furieux, incapable de revenir. C'est une acquisition majeure, et elle change tout : ton bébé n'est plus posable n'importe où. La bonne réponse n'est pas de le freiner ni de le surveiller en permanence de la main : c'est de sécuriser l'environnement pour que le mouvement libre reste possible sans danger. Le sol devient son territoire — et la table à langer, le canapé et le lit parental deviennent des lieux d'où l'on ne s'éloigne jamais, même une seconde.",
+      "ancrage": "Tu n'as pas à l'empêcher de se retourner. Tu as à rendre son environnement assez sûr pour qu'il puisse le faire librement.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — sécuriser l'espace",
+        "etapes": [
+          "Ne jamais le laisser seul en hauteur : table à langer, canapé, lit — même une seconde, même s'il « ne l'a jamais fait ».",
+          "Le poser au sol : un tapis ferme est désormais le lieu le plus sûr et le plus riche.",
+          "Dégager la zone : rien de dur, rien de petit, rien de suffocant à portée.",
+          "Un lit totalement vide : le retournement rend chaque objet du lit dangereux.",
+          "Laisser le mouvement se faire : ne pas le retourner à sa place, ne pas le maintenir."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — accompagner sans faire à sa place",
+        "etapes": [
+          "Tapis ferme au sol : sans coussin, sans arche ni mobile qui fixent l'attention.",
+          "Placer un objet à bonne distance : à côté, pour donner envie de pivoter — jamais dans sa main.",
+          "Le laisser râler un peu : rester coincé et chercher fait partie de l'apprentissage.",
+          "Le libérer avant l'effondrement : quand la frustration devient détresse, on le remet sur le dos.",
+          "Beaucoup de temps sur le ventre, éveillé et surveillé : c'est là qu'il apprendra à revenir."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Limiter l'immobilisation : pas plus d'une heure d'affilée en transat, poussette, coque ou siège.",
+        "Arrêter l'emmaillotage : dès qu'un bébé cherche à se retourner, il devient dangereux.",
+        "Sécuriser la maison en avance : ce qu'il ne fait pas encore, il le fera dans quelques jours.",
+        "Se rappeler la fourchette : le retournement arrive entre quatre et sept mois environ, avec de grandes variations."
+      ],
+      "principe": "Un bébé qui se retourne n'est plus posable n'importe où. On ne freine pas le mouvement : on sécurise l'environnement pour qu'il soit possible.",
+      "erreurs_a_eviter": [
+        "Le laisser seul sur une table à langer, un canapé ou un lit — même une seconde.",
+        "Le maintenir sur le dos pour l'empêcher de se retourner.",
+        "Ajouter des coussins ou un cale-bébé dans le lit.",
+        "L'installer dans une position qu'il n'atteint pas seul pour « l'aider »."
+      ],
+      "consulter_si": "Consulter si : bébé ne se retourne pas du tout vers sept mois, s'il ne se retourne que d'un seul côté, s'il paraît anormalement mou ou raide, si tu observes une asymétrie entre les deux côtés du corps, ou s'il perd une compétence qu'il avait acquise → pédiatre ou PMI, qui orientera si nécessaire. En cas de chute : consulter en urgence, même si bébé semble aller bien.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'activité physique du tout-petit, l'exploration de bébé et les étapes du développement."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Il tient assis avec appui / faut-il l'installer ?",
+      "titre": "L'assise / ne jamais installer une position non acquise",
+      "explication": "Il tient assis quand on le cale — alors la tentation est grande de l'installer, avec des coussins, dans un siège, dans un transat redressé. C'est précisément ce qu'il ne faut pas faire. Le principe de la motricité libre est simple et il est solide : on n'installe jamais un bébé dans une position qu'il n'atteint pas seul. Un bébé calé assis ne peut ni se rattraper s'il bascule, ni changer de position, ni explorer. Il subit une posture qu'il ne maîtrise pas. Il s'assiéra seul, en passant par le côté — et ce jour-là, la position sera vraiment la sienne.",
+      "ancrage": "S'il ne s'assoit pas seul, il n'est pas prêt à être assis. Le caler ne l'entraîne pas : cela le prive de la liberté de bouger.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — le laisser au sol",
+        "etapes": [
+          "Le poser à plat, au sol : sur le dos, sur le ventre, sur le côté — libre de changer.",
+          "Ne pas le caler assis : ni coussins, ni siège de sol, ni transat redressé pour « l'entraîner ».",
+          "Placer les objets à sa hauteur : au sol, à portée, pour qu'il pivote et se déplace vers eux.",
+          "Le tenir contre toi si tu veux le redresser : assis contre ton torse, soutenu — pas posé seul.",
+          "Le laisser trouver ses appuis : il passera par le côté, en s'appuyant sur son bras."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — l'éveil libre",
+        "etapes": [
+          "Tapis ferme et large : sans coussin, sans arche, sans entrave.",
+          "Varier les positions : dos, ventre, côtés — plusieurs fois par jour.",
+          "Temps sur le ventre, éveillé et surveillé : c'est là que le tronc se renforce.",
+          "Ta présence au sol : à côté de lui, à sa hauteur, sans le manipuler.",
+          "S'arrêter s'il fatigue : quelques minutes suffisent, cela doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir la règle : jamais une position qu'il n'atteint pas seul — cela vaut pour l'assise comme pour la station debout.",
+        "Limiter l'immobilisation : pas plus d'une heure d'affilée en transat, poussette, coque ou siège.",
+        "Ne pas chercher à accélérer : entraîner un bébé n'avance pas son développement, cela le contraint.",
+        "Se rappeler la fourchette : l'assise autonome arrive entre six et neuf mois environ, avec de grandes variations."
+      ],
+      "principe": "On n'installe jamais un bébé dans une position qu'il n'atteint pas seul. Le caler assis ne le muscle pas : cela le prive de sa liberté de mouvement et de sa sécurité.",
+      "erreurs_a_eviter": [
+        "Caler bébé assis dans des coussins ou un siège de sol.",
+        "Utiliser un transat redressé pour « l'entraîner » à s'asseoir.",
+        "Le mettre debout ou le faire sauter sur tes genoux pour « muscler ses jambes ».",
+        "Comparer son assise à celle d'un autre bébé du même âge."
+      ],
+      "consulter_si": "Consulter si : bébé ne tient pas sa tête droite et stable, paraît anormalement mou ou raide, si tu observes une asymétrie entre les deux côtés du corps, s'il perd une compétence acquise, ou s'il ne s'assoit pas du tout vers neuf mois → pédiatre ou PMI, qui orientera si nécessaire vers un kinésithérapeute pédiatrique ou un psychomotricien.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'activité physique du tout-petit, l'exploration de bébé et les étapes du développement."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Il a les pieds dans la bouche en permanence / il explore son corps",
+      "titre": "Les pieds à la bouche / il découvre son corps",
+      "explication": "Il attrape ses pieds, les tire vers sa bouche, les mordille, recommence. C'est l'une des grandes découvertes de cet âge : il comprend que ces choses au bout de son corps lui appartiennent. Cette exploration construit le schéma corporel — la carte interne de son propre corps — et elle prépare tout le reste : le retournement, le déplacement, la coordination. Ce n'est pas de l'ennui, ce n'est pas un tic, et cela ne demande aucune intervention. Ton rôle : ne pas interrompre, et enrichir sans saturer.",
+      "ancrage": "Ce qui ressemble à un jeu sans intérêt est un travail de fond. Le meilleur soutien que tu puisses lui apporter, c'est de ne pas l'interrompre.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — protéger l'exploration",
+        "etapes": [
+          "Ne pas interrompre : ni jouet proposé, ni parole, ni sollicitation pendant qu'il explore.",
+          "Le laisser au sol : sur le dos, sur un tapis ferme, sans entrave.",
+          "Libérer ses pieds : pas de chaussons, pas de chaussures, pas de vêtements trop serrés.",
+          "Le laisser porter à la bouche : pieds propres, c'est tout.",
+          "Rester à proximité, en silence : disponible, sans intervenir."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — enrichir sans saturer",
+        "etapes": [
+          "Varier les textures sous ses pieds : tapis, parquet, herbe, tissu — quelques minutes, en variant.",
+          "Réflexologie du soir : le contact du pied est aussi un langage — balayage de la voûte, du talon vers les orteils, pression douce et constante.",
+          "Nommer ce qu'il touche : « ton pied, ta main » — les mots construisent la carte du corps.",
+          "Un ou deux objets seulement : la profusion disperse au lieu de nourrir.",
+          "S'arrêter s'il se détourne : il indique qu'il en a assez."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Laisser les pieds nus le plus souvent possible : ils sont un organe sensoriel majeur à cet âge.",
+        "Éviter les chaussures rigides : elles n'ont aucune utilité avant la marche assurée.",
+        "Limiter transat et coque : ils empêchent l'exploration du corps.",
+        "Se rappeler que le jeu solitaire est du travail : la concentration se construit dans ces moments-là."
+      ],
+      "principe": "L'exploration du corps est la base de toute motricité à venir. Un bébé qui joue seul avec ses pieds n'a besoin de rien : surtout pas d'être occupé.",
+      "erreurs_a_eviter": [
+        "Interrompre pour proposer un jouet « plus stimulant ».",
+        "Le maintenir chaussé ou en chaussons en permanence.",
+        "Multiplier les objets d'éveil autour de lui.",
+        "Le laisser de longues heures en transat, corps inaccessible."
+      ],
+      "consulter_si": "Consulter si : bébé n'explore jamais son corps, ne porte rien à la bouche, ne suit pas les objets du regard, paraît anormalement mou ou raide, ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre ou PMI.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'activité physique du tout-petit, l'exploration de bébé et les étapes du développement."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Ses gencives sont gonflées / joues rouges et mâchonnement",
+      "titre": "Les gencives gonflées / soulager sans danger",
+      "explication": "Gencives gonflées, joues rouges, mâchonnement de tout ce qui passe, salivation abondante, sommeil perturbé : la poussée dentaire se prépare. La première dent apparaît en moyenne vers six mois, mais la fourchette est très large — certains enfants dès trois mois, d'autres après un an. Ce qui compte ici : ce qu'on peut faire, et surtout ce qu'on ne fait jamais. Le froid soulage, la pression aussi. En revanche, les deux remèdes les plus répandus — le gel anesthésiant et le collier d'ambre — sont respectivement contre-indiqué et dangereux.",
+      "ancrage": "Le froid et la pression soulagent vraiment. Les deux remèdes qu'on te conseillera le plus sont précisément ceux à ne jamais utiliser.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — soulager la gencive",
+        "etapes": [
+          "Un anneau de dentition réfrigéré : sorti du réfrigérateur, jamais du congélateur — le froid extrême brûle.",
+          "Un linge propre et frais : humidifié, à mordiller sous surveillance.",
+          "Une pression du doigt propre : quelques secondes sur la gencive, sans forcer.",
+          "Essuyer et sécher : menton, cou, plis — la salive irrite vite la peau.",
+          "Proposer avant les repas : une gencive soulagée mord moins et tète mieux."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — le confort du visage et du cou",
+        "etapes": [
+          "Nettoyer à l'eau tiède : sans savon, sur le menton et le cou, plusieurs fois par jour.",
+          "Sécher en tamponnant : particulièrement dans les plis.",
+          "Une crème émolliente simple : sur le menton s'il rougit, sans parfum.",
+          "Un bavoir en coton, changé souvent : plutôt qu'une peau constamment humide.",
+          "S'arrêter s'il s'agite : le soin doit rester bref."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne jamais utiliser de gel anesthésiant : les gels à la lidocaïne sont contre-indiqués avant deux ans.",
+        "Ne jamais utiliser de collier d'ambre : risque d'étouffement et de strangulation, sans efficacité démontrée.",
+        "Ne pas attribuer une fièvre aux dents : une fièvre a toujours une autre cause à rechercher, et elle se fait examiner.",
+        "Ne pas donner de médicament sans avis médical : y compris ceux vendus sans avis médical."
+      ],
+      "principe": "Le froid et la pression soulagent une gencive. Un gel anesthésiant et un collier d'ambre, non — l'un est contre-indiqué, l'autre peut étouffer ou étrangler.",
+      "erreurs_a_eviter": [
+        "Utiliser un collier d'ambre — étouffement et strangulation.",
+        "Appliquer un gel anesthésiant sur les gencives — contre-indiqué avant deux ans.",
+        "Mettre un anneau de dentition au congélateur.",
+        "Attribuer une fièvre, une diarrhée ou des pleurs intenses aux dents."
+      ],
+      "consulter_si": "Consulter si : bébé a de la fièvre, refuse de boire, présente des plaques blanches dans la bouche, une éruption qui s'étend, une gencive qui saigne abondamment, ou s'il paraît anormalement mou → pédiatre ou médecin traitant sans délai. Une fièvre ne s'explique jamais par les dents : elle se fait examiner.",
+      "source": "Source : ameli.fr (Assurance Maladie) — poussées dentaires : symptômes, soulagement et quand consulter."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Sa peau réagit à tout / rougeurs, plaques, tiraillements",
+      "titre": "La peau qui réagit / simplifier la routine",
+      "explication": "Sa peau rougit, tiraille, se couvre de plaques rugueuses — et plus tu appliques de produits, plus cela semble empirer. C'est logique : la barrière cutanée du nourrisson est immature, et chaque nouveau produit est une agression potentielle. La réponse est contre-intuitive : simplifier. Un nettoyant doux sans savon, un émollient simple appliqué régulièrement, des bains courts et tièdes, et rien d'autre. Ce qui aggrave : la surenchère de crèmes, les remèdes maison, les huiles essentielles. Et si les plaques démangent, suintent ou s'étendent, cela relève d'un avis médical.",
+      "ancrage": "Moins tu appliques, mieux sa peau se porte. Et une plaque qui démange ou qui suinte ne se traite pas au hasard — elle se montre.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — simplifier",
+        "etapes": [
+          "Bain court et tiède : cinq à dix minutes, à température du corps — l'eau chaude dessèche.",
+          "Un nettoyant doux sans savon : sans parfum, sans antibactérien, sans huile essentielle.",
+          "Sécher en tamponnant : jamais frotter, surtout sur les plaques.",
+          "Appliquer l'émollient sur peau encore humide : dans les minutes qui suivent le bain.",
+          "Renouveler dans la journée : une à deux fois de plus sur les zones sèches."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — l'application de la crème",
+        "etapes": [
+          "Réchauffer la crème dans tes mains : avant de l'appliquer.",
+          "Application lente et enveloppante : à mains pleines, pression douce et constante, sans frotter.",
+          "Nommer ce que tu fais : lui parler pendant le soin, en faire un temps de lien.",
+          "Éviter les zones lésées : ne pas appliquer sur une plaque qui suinte ou saigne sans avis médical.",
+          "S'arrêter s'il se crispe : le soin doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Choisir un produit simple : plus la liste d'ingrédients est courte, mieux la peau se porte.",
+        "Éviter les huiles essentielles : contre-indiquées chez le nourrisson, y compris en diffusion.",
+        "Éviter l'huile d'amande douce : elle peut sensibiliser bébé et favoriser une allergie à l'amande.",
+        "Habiller en coton : éviter la laine à même la peau et les matières synthétiques."
+      ],
+      "principe": "Une peau qui réagit demande moins de produits, pas plus. Bain court, nettoyant doux, émollient régulier — et un avis médical dès que la plaque démange, suinte ou s'étend.",
+      "erreurs_a_eviter": [
+        "Multiplier les crèmes et les produits « spécial bébé ».",
+        "Utiliser des remèdes maison ou des huiles trouvées en ligne.",
+        "Appliquer une crème à la cortisone sans avis médical.",
+        "Donner des bains longs et chauds tous les jours."
+      ],
+      "consulter_si": "Consulter si : les plaques s'étendent, démangent visiblement, suintent, saignent, se couvrent de croûtes jaunâtres ou de pus, si bébé dort mal ou se gratte, ou s'il présente de la fièvre → pédiatre ou médecin traitant. Il existe des soins efficaces, mais ils se décident avec un médecin : ils ne s'improvisent pas.",
+      "source": "Source : ameli.fr (Assurance Maladie) — peau sèche et dermatite atopique de l'enfant : soins quotidiens et quand consulter."
+    }
+  ]
+}

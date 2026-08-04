@@ -1,0 +1,108 @@
+{
+  "_but": "Valeurs EXACTES des mouvements validés, extraites des prototypes mouvement-*.html. Claude Code doit utiliser CES constantes, pas en réinventer. Les prototypes HTML restent la source de comportement de référence.",
+  "_regles_transversales": {
+    "couleur": "Toujours la couleur de la zone définie dans le SVG. Aucune teinte inventée. L'information est portée par l'OPACITÉ.",
+    "opacite": { "zone_repos": 0.30, "trainee": 0.75, "zone_terminee": 0.90, "doigt": 1.0 },
+    "coloriage_persistant": "Au passage du doigt, la zone RESTE coloriée (surligneur). Ce n'est PAS une traînée qui s'efface derrière un point (pas de « ver qui avance »). Le fondu T_EFFACE ne s'applique qu'ENTRE deux passages ; au dernier passage la zone se fige à 0.90.",
+    "clip_obligatoire": "Chaque mouvement est enfermé dans un clipPath bâti sur le path de la zone. Aucun débordement. Pour couvrir toute une zone, brosse LARGE clippée sur la forme.",
+    "boucle": "requestAnimationFrame (jamais setInterval). getTotalLength() calculé une seule fois.",
+    "deux_pieds": "Simultanés et en miroir par défaut, SAUF zones non-miroir (gros-intestin, intestin-grele, estomac) et zones unilatérales (foie/vesicule = pied droit ; rate = pied gauche).",
+    "passages": "Le nombre de passages est porté par le champ `passages` de zones-mouvements.json. Le lire, ne pas le recalculer."
+  },
+
+  "pression-circulaire": {
+    "prototype": "mouvement-zone-tete.html",
+    "cible": "surfaces sur les orteils (un orteil à la fois, gros orteil -> petit, en miroir)",
+    "TOURS": 3, "DOIGT_LARGEUR_x_rmax": 1.30, "R0_x_rmax": 0.12, "R1_x_rmax": 0.38,
+    "rmax": "max(largeur, hauteur bbox)/2 * 1.15",
+    "SEUIL_FIN": 0.78, "T_MVT_orteil_ref_ms": 6300, "EXP": 1, "vitesse": "linéaire constante",
+    "T_PAUSE_ms": 620, "T_FIN_ms": 1500, "OP_FIN": 0.90,
+    "depart": "bas-intérieur (angle pi/4 pour -d, 3pi/4 pour -g), rotation qui remonte par le côté intérieur ; un seul tracé continu pour les 3 tours"
+  },
+
+  "pression-maintenue": {
+    "prototype": "mouvement-pression-maintenue.html",
+    "cible": "points (cercles)",
+    "T_POSE_ms": 1000, "T_MAINTIEN_ms": 3000, "T_RETRAIT_ms": 900,
+    "ondes": { "N_ONDES": 3, "ONDE_ECART_ms": 1000, "ONDE_DUREE_ms": 1000, "ONDE_EXPANSION": 1.50, "ONDE_OP": 0.38,
+      "regle": "le rayonnement ne démarre qu'une fois le disque plein (à T_POSE) ; surface pleine translucide (pas un anneau) ; passe SOUS les groupes de zones" },
+    "CYCLES_SIMPLE": 3, "CYCLES_MULTI": 2, "T_INTER_ms": 1000, "T_FIN_ms": 1200,
+    "plusieurs_points": "un seul point actif à la fois, du plus proche du gros orteil vers l'extérieur (ordre des <circle> dans le SVG) ; transition 1 s ; pieds appariés par indice",
+    "zones_points": ["plexus-solaire","point-conception","rein","surrenales","thymus","cardia","hypophyse","bouche","epiphyse","vesicule","ganglions-lympahtiques","epaule","hanche","vessie"]
+  },
+
+  "pression-glissee": {
+    "prototype": "mouvement-pression-glissee.html",
+    "cible": "zones en bande (suivre la ligne médiane) et orteils un par un",
+    "VITESSE_PX_par_ms": 0.105, "VITESSE_EL_par_ms": 0.065,
+    "DOIGT_x_epaisseur": 1.15, "doigt_rayon": "max(epaisseur_locale/2 * 1.15, epaisseur_max * 0.18)",
+    "T_EFFACE_ms": 550, "SEUIL_FIN": 0.82, "OP_TRAINEE": 0.75,
+    "T_MIN_ms": 2000, "T_MAX_ms": 7000, "T_INTER_ms": 600,
+    "multi_orteils": { "cible": ["dents-machoire-haute","dents-machoire-bas","amygdales"], "VITESSE_EL_par_ms": 0.065, "T_MIN_EL2_ms": 800, "passages": 2 },
+    "rail": "les bandes sont des surfaces, PAS des lignes : dériver la ligne médiane (skeletonize) ; zone au trait (thyroide) : le path EST déjà la médiane. Voir RAILS_zones.json (tracés précalculés)."
+  },
+
+  "boucles-progressives": {
+    "prototype": "mouvement-boucles-progressives.html",
+    "cible": "grandes surfaces — petits cercles qui avancent ('cercles avancés')",
+    "T_EFFACE_ms": 550, "SEUIL_FIN": 0.85, "OP_TRAINEE": 0.75, "OP_FIN": 0.90,
+    "principe": "un gros doigt parcourt un rail de boucles qui se croisent et avance d'un bord à l'autre, coloriant toute la surface",
+    "zones_base": ["poumon","pancreas","estomac"]
+  },
+
+  "spirale-centripete": {
+    "prototype": "mouvement-spirale-centripete.html",
+    "cible": "bassin (et intestin grêle — voir override)",
+    "T_EFFACE_ms": 550, "SEUIL_FIN": 0.85, "OP_TRAINEE": 0.75, "passages": 3,
+    "principe": "spirale de l'extérieur vers le centre",
+    "note": "La spirale est réservée au BASSIN. L'intestin grêle n'est PAS une spirale mais des cercles avancés (voir override)."
+  },
+
+  "composite": {
+    "prototype": "mouvement-zone-digestive.html",
+    "T_TRAIT_ms": 2600,
+    "systeme-urinaire": {
+      "type": "composite en 3 temps, répété 3 fois",
+      "sequence": [
+        "pression maintenue ~3000 ms sur le point VESSIE (réglages pression-maintenue : ondes incluses)",
+        "pression glissée LENTE ~2900 ms de la vessie vers le rein",
+        "pression maintenue ~3000 ms sur le point REIN"
+      ],
+      "passages": 3, "couleur_svg": "#ff9585"
+    }
+  },
+
+  "overrides_par_zone": {
+    "gros-intestin": {
+      "mouvement": "pression-glissee sur la LIGNE MÉDIANE du ruban (le trait), PAS le contour",
+      "deux_gestes_separes": true, "aucun_trait_entre_les_pieds": true,
+      "sens_base": "sens de la digestion",
+      "sens_inverse_diarrhee": "joué à l'envers : pied gauche d'abord (départ côté INTÉRIEUR du talon, on suit le triangle), on lâche, puis pied droit (départ en haut, on suit le trait)",
+      "coloriage": "persistant, CLIPPÉ sur la forme de la zone, brosse LARGE -> toute la zone se colorie et reste",
+      "rail": "RAILS_zones.json"
+    },
+    "intestin-grele": {
+      "mouvement": "cercles avancés (boucles-progressives), PAS une spirale",
+      "depart": "bord EXTÉRIEUR du pied -> vers l'intérieur (pas de haut en bas)",
+      "empreinte": "doigt LARGE pour bien colorier toute la zone",
+      "synchronisation": "les DEUX pieds terminent en même temps : fraction commune u=t/duree, chaque pied dévoile u * sa_longueur (le pied le plus court est donc plus lent)",
+      "coloriage": "persistant, clippé", "rail": "RAILS_zones.json"
+    },
+    "nez": {
+      "mouvement": "pression-glissee en CROIX sur le gros orteil, mode groupe : une passe = le nez de HAUT EN BAS puis DU BORD vers les autres orteils ; répété 3 fois",
+      "remplace": "ancienne zone oreilles-nez (scindée)"
+    },
+    "oreilles": {
+      "mouvement": "pression-glissee, DE L'INTÉRIEUR VERS L'EXTÉRIEUR, 3 passages",
+      "position": "côté extérieur du pied (base des 4e-5e orteils)"
+    },
+    "colonne-nerf-vague": {
+      "mouvement": "pression-glissee, UN SEUL geste (version ALLONGÉE de la colonne intégrant le nerf vague)",
+      "usage": "s'utilise À LA PLACE de colonne-vertebrale (jamais en plus) dans Prématurité et Mal des transports"
+    },
+    "bassin": {
+      "mouvement": "spirale-centripete SEULE",
+      "exception": "dans Accueil du nouveau-né uniquement : bassin (spirale) + ancrage (geste supplémentaire)"
+    }
+  }
+}

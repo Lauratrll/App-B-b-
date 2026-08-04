@@ -1,0 +1,242 @@
+{
+  "mois": 9,
+  "tranche_age": "9 mois",
+  "categorie": {
+    "id": "dents",
+    "nom": "Dents & petits inconforts",
+    "sous_titre": "Poussées, mordre, dents, nez",
+    "icone": "🦷"
+  },
+  "protocoles": [
+    {
+      "categorie": "dents",
+      "situation": "Douleur de gencives / les incisives latérales poussent",
+      "titre": "Quatre dents à la fois / soulager sans danger",
+      "explication": "Les incisives latérales arrivent, et parfois plusieurs dents bougent en même temps. Les gencives sont tendues, l'humeur difficile, les nuits agitées. Ce qui soulage reste inchangé : le froid, la pression douce, le confort et la présence. Ce qui circule partout et qui est à proscrire reste inchangé aussi : le gel anesthésiant, contre-indiqué avant deux ans, et le collier d'ambre, qui présente un risque d'étouffement et de strangulation sans aucune efficacité démontrée.",
+      "ancrage": "Le froid et la pression soulagent vraiment. Les deux remèdes les plus conseillés autour de toi sont précisément ceux à écarter.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — soulager",
+        "etapes": [
+          "Un anneau de dentition réfrigéré : sorti du réfrigérateur, jamais du congélateur.",
+          "Un linge propre et frais : humidifié, à mordiller sous surveillance.",
+          "Une pression du doigt propre : quelques secondes sur la gencive, sans forcer.",
+          "Des aliments frais : purée sortie du réfrigérateur, morceaux fondants et froids.",
+          "Beaucoup de contact : la présence apaise plus que n'importe quel remède."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : accompagner les nuits difficiles",
+        "etapes": [
+          "Dans le rituel du soir : toujours au même moment.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne jamais utiliser de gel anesthésiant : les gels à la lidocaïne sont contre-indiqués avant deux ans.",
+        "Ne jamais utiliser de collier d'ambre : risque d'étouffement et de strangulation, sans efficacité démontrée.",
+        "Ne pas attribuer une fièvre aux dents : elle a toujours une autre cause, et elle se fait examiner.",
+        "Ne pas donner de médicament sans avis médical."
+      ],
+      "principe": "Le froid et la pression soulagent une gencive. Le gel anesthésiant est contre-indiqué avant deux ans, et le collier d'ambre peut étouffer ou étrangler.",
+      "erreurs_a_eviter": [
+        "Utiliser un collier d'ambre — risque d'étouffement et de strangulation.",
+        "Appliquer un gel anesthésiant — contre-indiqué avant deux ans.",
+        "Mettre un anneau de dentition au congélateur.",
+        "Attribuer une fièvre, une diarrhée ou des pleurs intenses aux dents."
+      ],
+      "consulter_si": "Consulter si : bébé a de la fièvre, refuse de boire, présente des plaques blanches dans la bouche, une éruption qui s'étend, une gencive rouge, gonflée ou purulente, ou paraît anormalement mou → pédiatre ou médecin traitant sans délai. Une fièvre ne s'explique jamais par les dents.",
+      "source": "Source : ameli.fr (Assurance Maladie) — poussées dentaires : symptômes, soulagement et quand consulter."
+    },
+    {
+      "categorie": "dents",
+      "situation": "Mâchonne tout jusqu'à se marquer / besoin de mordre",
+      "titre": "Le besoin de mordre / offrir, pas empêcher",
+      "explication": "Il mordille tout, avec une intensité qui surprend : les barreaux, les meubles, tes doigts — parfois jusqu'à laisser des marques. Le besoin de pression sur une gencive douloureuse est réel et physiologique : mordre soulage. L'empêcher ne fait que déplacer le besoin ailleurs. Ce qui fonctionne, c'est d'offrir des supports adaptés — assez fermes pour donner de la pression, assez sûrs pour ne présenter aucun risque — et de sécuriser ce qui traîne, plutôt que d'interdire un geste qui le soulage.",
+      "ancrage": "Mordre soulage vraiment : c'est un besoin, pas un caprice. On offre des supports — on n'interdit pas le geste.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — offrir des supports",
+        "etapes": [
+          "Un anneau réfrigéré : sorti du réfrigérateur, jamais du congélateur.",
+          "Un linge ou un gant humide et frais : propre, à mordiller sous surveillance.",
+          "Des supports fermes : assez rigides pour donner de la pression, sans partie détachable.",
+          "Vérifier les objets : rien de trop petit, aucune ficelle, aucun élément qui se détache.",
+          "Toujours sous surveillance : un objet à mordiller ne se laisse jamais dans le lit."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — canaliser le besoin",
+        "etapes": [
+          "Varier les textures : silicone, bois lisse, tissu — quelques objets, pas dix.",
+          "Nommer ce qu'il ressent : « ça te gratte, tu as besoin de mordre ».",
+          "Rediriger sans gronder : quand il mord un meuble ou un doigt, on propose l'anneau.",
+          "Protéger la peau du menton : la bave irrite vite.",
+          "S'arrêter s'il se détourne : il indique qu'il en a assez."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne jamais utiliser de collier d'ambre : risque d'étouffement et de strangulation.",
+        "Ne jamais utiliser de gel anesthésiant : contre-indiqué avant deux ans.",
+        "Trier le sol : le test du rouleau de papier toilette — tout ce qui passe dedans est trop petit.",
+        "Ranger les piles boutons en hauteur : elles peuvent être mortelles si avalées."
+      ],
+      "principe": "Le besoin de mordre est physiologique : il soulage. On l'accompagne avec des supports sûrs — on ne l'interdit pas, ce qui ne ferait que le déplacer.",
+      "erreurs_a_eviter": [
+        "Gronder ou taper la main quand il mord.",
+        "Utiliser un collier d'ambre ou un gel anesthésiant — risque d'étouffement, et contre-indication avant deux ans.",
+        "Mettre un anneau au congélateur.",
+        "Laisser à portée un objet plus petit qu'un rouleau de papier toilette."
+      ],
+      "consulter_si": "Consulter si : bébé a avalé ou inhalé un objet → appeler immédiatement le 15, surtout en cas de pile bouton, même sans symptôme. Consulter si : il a de la fièvre, refuse de boire, présente une salivation soudaine avec difficulté à avaler, ou une gêne à respirer → le 15 en cas de difficulté respiratoire ; sinon, pédiatre sans délai.",
+      "source": "Source : ameli.fr (Assurance Maladie) — poussées dentaires : symptômes, soulagement et quand consulter."
+    },
+    {
+      "categorie": "dents",
+      "situation": "Réveils nocturnes douloureux / liés aux dents",
+      "titre": "Les réveils attribués aux dents / la vraie cause à neuf mois",
+      "explication": "Il se réveille en pleurant, et « ce sont les dents ». C'est l'explication universelle — et elle empêche souvent de traiter ce qui se traite. Une percée dentaire perturbe réellement quelques nuits, avec des signes concrets : gencive tendue, salivation, mâchonnement, joue rouge. Mais à neuf mois, deux autres causes sont bien plus fréquentes et plus durables : l'angoisse de séparation, à son pic, et les acquis moteurs rejoués la nuit. Faire la part des choses évite de traiter le mauvais problème pendant des semaines.",
+      "ancrage": "Une dent explique quelques nuits, pas plusieurs semaines. À neuf mois, l'angoisse de séparation explique bien davantage.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — distinguer",
+        "etapes": [
+          "Chercher les signes concrets : gencive tendue, salivation, mâchonnement, joue rouge.",
+          "Regarder la durée : une dent perturbe quelques nuits ; plusieurs semaines, c'est autre chose.",
+          "Vérifier l'angoisse de séparation : est-il collant le jour, panique-t-il quand tu sors de la pièce ?",
+          "Vérifier les acquis moteurs : se hisser, se déplacer — chaque progrès agite les nuits.",
+          "Répondre brièvement : voix, main posée, sans le sortir du lit."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : accompagner la nuit",
+        "etapes": [
+          "Dans le rituel du soir : toujours au même moment.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Soulager la gencive en journée : froid et pression, pour que la nuit soit plus calme.",
+        "Travailler les séparations du jour : cela allège les nuits bien plus qu'un remède.",
+        "Ne pas donner de médicament sans avis médical.",
+        "Ne jamais attribuer une fièvre aux dents : elle se fait examiner."
+      ],
+      "principe": "« C'est les dents » est l'explication qui empêche de chercher. À neuf mois, l'angoisse de séparation et les progrès moteurs expliquent bien plus de réveils.",
+      "erreurs_a_eviter": [
+        "Attribuer systématiquement tous les réveils aux dents.",
+        "Donner un médicament chaque soir « pour les dents » sans avis médical.",
+        "Changer de méthode de sommeil à chaque poussée supposée.",
+        "Attribuer une fièvre aux dents."
+      ],
+      "consulter_si": "Consulter si : bébé a de la fièvre, refuse de boire, présente des vomissements, une diarrhée, une éruption, s'il paraît anormalement mou, ou si les réveils s'accompagnent de pleurs inconsolables → pédiatre ou médecin traitant.",
+      "source": "Source : Institut national du sommeil et de la vigilance et ameli.fr — le sommeil de l'enfant."
+    },
+    {
+      "categorie": "dents",
+      "situation": "Espace entre les dents du haut / ça ne pousse pas droit",
+      "titre": "Les dents espacées ou de travers / l'observation suffit",
+      "explication": "Ses dents du haut sont espacées, ou l'une pousse de travers. C'est impressionnant, et c'est le plus souvent parfaitement normal. Les espaces entre les dents de lait — on parle de diastèmes — sont non seulement fréquents, ils sont utiles : ils préparent la place des dents définitives, qui sont plus volumineuses. Quant aux dents qui sortent de travers, elles se replacent très souvent d'elles-mêmes au fil des mois. À ce stade, l'observation suffit — il n'y a rien à corriger, et rien à faire.",
+      "ancrage": "Les espaces entre les dents de lait ne sont pas un défaut : ils préparent la place des définitives. Il n'y a rien à corriger.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — observer",
+        "etapes": [
+          "Ne rien faire : à cet âge, ni appareil, ni correction, ni manipulation.",
+          "Observer simplement : la position des dents évolue beaucoup dans les mois qui suivent.",
+          "Poursuivre les soins habituels : apprivoiser le brossage, à ton rythme, sans contrainte.",
+          "Noter ce que tu observes : pour en parler au professionnel lors d'une visite.",
+          "Ne pas s'alarmer : les espaces sont normaux et utiles."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — le soin quotidien, sans pression",
+        "etapes": [
+          "Un geste court : quelques secondes suffisent, si c'est possible chez vous.",
+          "Une brosse souple ou un linge doux : selon ce qu'il accepte.",
+          "Le jeu et l'imitation : se brosser les dents devant lui.",
+          "Ne jamais forcer l'ouverture de la bouche : cela installe un refus durable.",
+          "Renoncer sans culpabilité : ce qui n'est pas possible aujourd'hui le sera plus tard."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir le mécanisme : les espaces entre dents de lait permettent aux dents définitives, plus grosses, de trouver leur place.",
+        "Ne pas comparer : l'ordre et la position d'éruption varient beaucoup d'un enfant à l'autre.",
+        "En parler lors d'une visite : le dentiste ou le pédiatre répondront simplement.",
+        "Se rappeler que l'observation suffit : il n'y a rien à corriger à cet âge."
+      ],
+      "principe": "Les espaces entre les dents de lait sont normaux et utiles. Les dents qui poussent de travers se replacent souvent seules — à cet âge, l'observation suffit.",
+      "erreurs_a_eviter": [
+        "S'inquiéter d'un espace entre les dents de lait.",
+        "Chercher à corriger la position d'une dent.",
+        "Forcer l'ouverture de la bouche pour inspecter.",
+        "Comparer l'ordre de sortie des dents à celui d'un autre enfant."
+      ],
+      "consulter_si": "Consulter si : tu observes une tache blanche, brune ou noire sur une dent, une gencive rouge, gonflée ou qui saigne, une dent qui bouge, un choc sur une dent, ou si bébé a mal en mangeant → chirurgien-dentiste ou pédiatre. Une visite peut aussi se faire simplement pour poser tes questions.",
+      "source": "Source : Union française pour la santé bucco-dentaire (UFSBD) — les dents de l'enfant de la naissance à 6 ans."
+    },
+    {
+      "categorie": "dents",
+      "situation": "Il se débat au lavage de nez / c'est devenu une lutte",
+      "titre": "Le lavage de nez / le rendre supportable",
+      "explication": "Le lavage de nez est devenu une bataille : il se débat, hurle, tu culpabilises — et tu finis par y renoncer. C'est dommage, car c'est le geste central des virus de l'hiver : il soulage vraiment, permet de manger et de dormir, et limite les complications. Le problème n'est pas le geste : c'est la façon dont il est vécu — imprévisible, subi, souvent long. Un lavage bref, annoncé, toujours identique, se supporte infiniment mieux qu'un lavage négocié.",
+      "ancrage": "Il ne s'agit pas de le convaincre : il s'agit de rendre le geste si bref et si prévisible qu'il cesse d'être une bataille.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — le geste bref",
+        "etapes": [
+          "Annoncer, toujours pareil : la même phrase, le même ordre — la prévisibilité réduit la lutte.",
+          "Installer bébé sur le côté : tête tournée, allongé, ton bras le maintenant doucement.",
+          "Introduire l'embout sans forcer : juste à l'entrée de la narine du haut.",
+          "Instiller franchement : un geste net, pour que le sérum traverse.",
+          "Terminer immédiatement : essuyer, redresser, câliner — quelques secondes, pas une minute."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — après le lavage",
+        "etapes": [
+          "Le redresser tout de suite : contre toi, vertical.",
+          "Un temps de contact : sans reproche, sans commentaire.",
+          "Choisir les bons moments : avant les repas et avant le coucher — là où le bénéfice est réel.",
+          "Ne pas multiplier les lavages : quelques-uns par jour, aux moments utiles.",
+          "Aucun produit dans le nez : ni huile, ni pommade, ni spray décongestionnant."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Utiliser des dosettes à usage unique : jetées après chaque narine.",
+        "Observer la respiration plutôt que le bruit : une respiration rapide, sifflante, avec creusement entre les côtes, est un signal d'appel.",
+        "Vérifier les prises : un bébé qui ne peut plus boire à cause du nez doit être vu.",
+        "Éviter la fumée : le tabagisme dans l'environnement aggrave l'encombrement."
+      ],
+      "principe": "Le lavage de nez est un geste d'hygiène, pas une négociation. Bref, annoncé, toujours identique : c'est la prévisibilité qui le rend supportable.",
+      "erreurs_a_eviter": [
+        "Utiliser un mouche-bébé de façon répétée et agressive.",
+        "Introduire un coton-tige ou un objet dans le nez.",
+        "Donner un sirop ou un décongestionnant — contre-indiqués chez le nourrisson.",
+        "Renoncer au lavage alors que bébé ne peut plus manger ni dormir."
+      ],
+      "consulter_si": "Consulter si : bébé respire vite, siffle, creuse entre les côtes, bat des ailes du nez, change de couleur, marque des pauses respiratoires ; s'il refuse de boire ou boit beaucoup moins ; s'il a de la fièvre ; ou s'il paraît anormalement mou → appeler le 15 en cas de gêne respiratoire, et le pédiatre sans délai dans les autres cas.",
+      "source": "Source : ameli.fr (Assurance Maladie) — comment pratiquer un lavage de nez chez un enfant."
+    }
+  ]
+}

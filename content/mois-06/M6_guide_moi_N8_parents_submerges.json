@@ -1,0 +1,196 @@
+{
+  "mois": 6,
+  "tranche_age": "6 mois",
+  "categorie": {
+    "id": "parent",
+    "nom": "Parents submergés",
+    "sous_titre": "Fatigue chronique, charge mentale, tunnel",
+    "icone": "🫶"
+  },
+  "protocoles": [
+    {
+      "categorie": "parent",
+      "situation": "Le creux des 6 mois / la fatigue qui s'installe",
+      "titre": "Le creux des six mois / la dette devient physiologique",
+      "explication": "Six mois de nuits hachées. La fatigue n'est plus un état passager : elle est devenue chronique, physiologique, avec des effets réels — irritabilité, jugement altéré, mémoire qui flanche, tolérance émotionnelle réduite. Ce n'est pas un défaut de caractère, et cela ne se corrige pas par la volonté. La dette de sommeil ne se « rattrape » pas non plus en une grasse matinée : elle se rembourse lentement, par des périodes régulières de repos. La conséquence pratique est simple : les relais ne sont pas un confort, ce sont des soins.",
+      "ancrage": "Ta fatigue n'est pas un manque de volonté : c'est une dette physiologique. Elle ne se rattrapera pas seule — elle demande des relais organisés.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — organiser un vrai relais",
+        "etapes": [
+          "Bloquer un créneau réel : trois heures de sommeil continu, à heure fixe, pendant que quelqu'un garde bébé.",
+          "Demander précisément : « peux-tu venir mardi de 14h à 17h » fonctionne, « aide-moi » ne fonctionne pas.",
+          "Se relayer la nuit : chaque parent un bloc continu, à tour de rôle.",
+          "Dormir quand bébé dort, au moins une fois par jour : en laissant tout le reste.",
+          "Renoncer au ménage : la maison en ordre ne repose personne."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — récupérer par morceaux",
+        "etapes": [
+          "S'allonger dix minutes : même sans dormir, la position allongée réduit la charge physique.",
+          "Trois respirations lentes : expiration plus longue que l'inspiration.",
+          "Sortir dehors : la lumière du jour aide à réguler ton propre sommeil.",
+          "Manger vraiment : la fatigue s'aggrave d'une alimentation sautée.",
+          "Réduire les écrans le soir : ils retardent ton endormissement."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Identifier les signes d'alerte : somnolence au volant, oublis répétés, irritabilité extrême — ce sont des signaux de santé.",
+        "Utiliser les relais existants : PMI, sage-femme, Allo Parents Bébé (0 800 00 34 56).",
+        "En parler au médecin : une fatigue chronique se dit en consultation.",
+        "Renoncer au mythe du rattrapage : le sommeil perdu se rembourse lentement, par la régularité."
+      ],
+      "principe": "La dette de sommeil ne se rattrape pas : elle se rembourse. Les relais ne sont pas un luxe qu'on s'accorde — ce sont des soins qu'on organise.",
+      "erreurs_a_eviter": [
+        "Attendre une hypothétique grasse matinée qui rattraperait tout.",
+        "Conduire en état de somnolence — c'est un vrai danger.",
+        "Refuser l'aide proposée par pudeur.",
+        "Prendre la fatigue pour une preuve d'incompétence."
+      ],
+      "consulter_si": "Consulter si : la fatigue s'accompagne d'une tristesse qui dure plus de deux semaines, d'une impossibilité de dormir même quand bébé dort, d'une perte d'intérêt, de pensées noires, ou si tu ressens de la somnolence au volant → médecin, sage-femme, PMI ou psychologue périnatal. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence.",
+      "source": "Source : ameli.fr (Assurance Maladie) — dépression post-partum : reconnaître les signes et se faire accompagner."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Charge mentale / qui déborde",
+      "titre": "La charge mentale / lister puis répartir",
+      "explication": "Ce n'est pas de faire qui épuise, c'est d'y penser. Savoir que les couches manquent, que le rendez-vous approche, que la taille au-dessus n'est pas achetée, que les purées sont à préparer. Cette charge est invisible, donc jamais partagée spontanément — et « aide-moi » ne fonctionne pas : cela laisse la charge de la répartition à celle qui la porte déjà. Ce qui fonctionne : écrire la liste complète, la rendre visible, et transférer des domaines entiers, avec la charge d'y penser incluse.",
+      "ancrage": "Tu n'as pas besoin d'aide : tu as besoin d'un transfert. Un domaine entier confié, charge d'y penser incluse, vaut dix tâches exécutées à ta demande.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — rendre visible, puis répartir",
+        "etapes": [
+          "Écrire la liste complète : toutes les tâches, y compris celles qui demandent d'y penser.",
+          "Répartir par domaines : « tu prends l'alimentation » plutôt que « tu prépares les purées ce soir ».",
+          "Transférer la charge d'y penser : celui qui prend le domaine le gère de bout en bout, sans rappel.",
+          "Accepter que ce soit fait autrement : différent n'est pas moins bien.",
+          "Ne pas reprendre : dès que tu reprends une tâche déléguée, la charge te revient entièrement."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — désamorcer la tension",
+        "etapes": [
+          "Choisir le moment : jamais dans la fatigue du soir ni au milieu d'une crise.",
+          "Parler en « je » : « je suis épuisée de penser à tout » plutôt que « tu ne fais rien ».",
+          "Un sujet à la fois : une conversation, un point.",
+          "Un rendez-vous hebdomadaire : dix minutes pour ajuster, cela évite l'accumulation.",
+          "Reconnaître ce qui est fait : le partage tient mieux quand il n'est pas qu'un reproche."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se méfier du perfectionnisme : exiger que ce soit fait à ta façon annule le partage.",
+        "Nommer la fatigue avant qu'elle ne devienne rancune.",
+        "Envisager un accompagnement : conseil conjugal, accompagnement du couple.",
+        "Retenir que la charge mentale est un sujet de santé : elle épuise autant que le manque de sommeil."
+      ],
+      "principe": "La charge mentale ne se soulage pas par de l'aide ponctuelle : elle se transfère par domaines entiers, charge d'y penser incluse. Sinon, elle revient toujours au même endroit.",
+      "erreurs_a_eviter": [
+        "Demander « aide-moi » — cela laisse la charge de la répartition à celle qui la porte.",
+        "Reprendre une tâche déléguée parce qu'elle n'est pas faite à ta façon.",
+        "Attendre l'explosion pour poser le sujet.",
+        "Tenir le compte des efforts de chacun."
+      ],
+      "consulter_si": "Consulter si : l'épuisement s'accompagne d'une tristesse qui dure plus de deux semaines, d'insomnies même quand bébé dort, d'une perte d'intérêt, d'irritabilité permanente ou de pensées noires → médecin, sage-femme, PMI ou psychologue périnatal. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence.",
+      "source": "Source : ameli.fr (Assurance Maladie) — dépression post-partum : reconnaître les signes et se faire accompagner."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Comparaison aux autres parents / impact réel",
+      "titre": "La comparaison / revenir à ton bébé réel",
+      "explication": "Le bébé de l'amie s'assoit, celui du cours de portage mange des morceaux, celui du réseau social dort douze heures. Et la question s'installe, sourde : est-ce que je fais mal ? La comparaison sociale fabrique une inquiétude sans objet — elle compare ton quotidien intégral à des instants sélectionnés, et elle mesure ton bébé à une moyenne qui n'existe pas. Les fourchettes de développement sont extrêmement larges. Le seul repère utile n'est pas le bébé d'à côté : c'est le tien, comparé à lui-même, sur plusieurs semaines.",
+      "ancrage": "La comparaison mesure une moyenne qui n'existe pas. Le seul bébé auquel comparer le tien, c'est lui-même il y a un mois.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — couper la source",
+        "etapes": [
+          "Identifier la source : réseau social, groupe, personne précise.",
+          "Couper : se désabonner, quitter le groupe, écourter la conversation.",
+          "Revenir à ton bébé : ce qu'il fait aujourd'hui et ne faisait pas il y a un mois.",
+          "Poser la question au bon endroit : au pédiatre ou à la PMI, jamais dans un fil de commentaires.",
+          "Ne rien changer sous le coup d'une comparaison : ni stimulation, ni entraînement, ni méthode."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — se recentrer",
+        "etapes": [
+          "Noter une progression par semaine : une seule, écrite.",
+          "Trois respirations lentes : quand l'inquiétude monte.",
+          "Un temps au sol avec lui : à sa hauteur, sans objectif, sans téléphone.",
+          "Se rappeler ce qui est fait : nourri, porté, aimé, en sécurité.",
+          "Parler à un parent réel : un échange honnête vaut mieux que dix comparaisons."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Connaître les fourchettes : la plupart des acquisitions s'étalent sur plusieurs mois.",
+        "Retenir la règle : entraîner un bébé n'avance pas son développement, cela le contraint.",
+        "Utiliser les consultations obligatoires : elles existent pour poser ces questions.",
+        "Distinguer inquiétude et comparaison : une inquiétude précise se pose à un professionnel."
+      ],
+      "principe": "La comparaison mesure la mauvaise chose. Le repère utile est la progression de ton bébé par rapport à lui-même — et les fourchettes normales sont très larges.",
+      "erreurs_a_eviter": [
+        "Chercher à « rattraper » un jalon en stimulant davantage.",
+        "Entraîner bébé à une position qu'il n'atteint pas seul.",
+        "Poser une question inquiète dans un groupe en ligne plutôt qu'à un professionnel.",
+        "Comparer les nuits, les quantités, les acquisitions."
+      ],
+      "consulter_si": "Consulter si : bébé ne tient pas sa tête droite, ne se retourne pas du tout vers sept mois, ne suit pas un objet du regard, ne réagit pas aux bruits, ne sourit pas, paraît anormalement mou ou raide, ou s'il perd une compétence acquise → pédiatre ou PMI, qui apporteront une réponse en une consultation.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Je n'en vois pas la fin / le tunnel des 6 mois",
+      "titre": "Le tunnel / nommer l'épuisement sans honte",
+      "explication": "« Je n'en vois pas la fin. » Cette phrase, beaucoup de parents la pensent à six mois, et presque personne ne la dit. L'épuisement s'est installé, la nouveauté est retombée, le soutien a disparu — et l'horizon semble bouché. Le dire n'est pas un aveu de faiblesse : c'est le premier acte qui protège. Parce qu'un parent épuisé, isolé, qui tient par la seule volonté, est un parent en danger — et un bébé aussi. Les relais existent, et ils sont faits exactement pour ce moment-là. Les connaître avant le point de rupture est ce qui compte.",
+      "ancrage": "Le dire n'est pas s'effondrer : c'est se protéger. Un parent qui tient par la seule volonté est un parent qui n'a plus de marge.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — les relais, avant la rupture",
+        "etapes": [
+          "Nommer ce que tu vis : à voix haute, à quelqu'un — le co-parent, une amie, un professionnel.",
+          "Appeler un relais : Allo Parents Bébé (0 800 00 34 56), gratuit, anonyme, sans jugement.",
+          "Prendre rendez-vous : médecin, sage-femme ou PMI — cette semaine.",
+          "Organiser une présence : quelqu'un à la maison dans les jours qui viennent.",
+          "Si la colère monte : poser bébé sur le dos dans son lit, sortir de la pièce, appeler. Jamais secouer."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — tenir jusqu'à l'aide",
+        "etapes": [
+          "Une chose par jour : une seule, choisie — le reste peut attendre.",
+          "Trois respirations lentes : expiration plus longue que l'inspiration.",
+          "Sortir dix minutes : la lumière et l'air allègent, même s'ils ne soignent pas.",
+          "Manger et boire : la fatigue physique aggrave tout.",
+          "Écrire ce que tu ressens : quelques lignes, sans te relire."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Connaître les ressources : PMI, sage-femme, MonParcoursPsy (séances remboursées après avis d'un médecin), Maman Blues.",
+        "Distinguer épuisement et dépression : une tristesse qui dure plus de deux semaines, une perte d'intérêt, des pensées noires demandent un avis médical.",
+        "Se rappeler que l'isolement est un facteur de risque : pour ta santé, et pour la sécurité de bébé.",
+        "Ne jamais secouer un bébé : même une seconde — les lésions peuvent être immédiates et irréversibles."
+      ],
+      "principe": "Un parent épuisé et isolé n'a plus de marge. Nommer l'épuisement et appeler un relais avant le point de rupture est le geste le plus protecteur qui existe — pour lui, et pour son bébé.",
+      "erreurs_a_eviter": [
+        "Attendre le point de rupture pour demander de l'aide.",
+        "Taire l'épuisement par honte ou par peur du jugement.",
+        "Rester seul.e des heures avec les pleurs.",
+        "Secouer bébé, même une seconde — les lésions cérébrales peuvent être irréversibles."
+      ],
+      "consulter_si": "Consulter si : tu ressens l'envie de secouer ton bébé, si tu as peur de tes réactions, si tu te sens submergé.e au point de ne plus pouvoir répondre à lui → poser bébé en sécurité, appeler un proche, Allo Parents Bébé (0 800 00 34 56), ou le 15. Si tu penses avoir secoué ton bébé, même légèrement : appeler le 15 immédiatement, même sans symptôme. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence.",
+      "source": "Source : Haute Autorité de Santé — recommandation « Syndrome du bébé secoué ou traumatisme crânien non accidentel par secouement »."
+    }
+  ]
+}

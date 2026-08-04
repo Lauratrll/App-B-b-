@@ -1,0 +1,195 @@
+{
+  "mois": 10,
+  "tranche_age": "10 mois",
+  "categorie": {
+    "id": "stimu",
+    "nom": "Sur-stimulation",
+    "sous_titre": "Imitation, décharge motrice, poussette, lieux",
+    "icone": "✨"
+  },
+  "protocoles": [
+    {
+      "categorie": "stimu",
+      "situation": "Il imite tout en boucle / l'excitation monte et déborde",
+      "titre": "L'imitation en boucle / c'est à l'adulte de baisser le rythme",
+      "explication": "Il t'imite, tu réponds, il recommence — et le jeu s'emballe. L'imitation est un moteur d'apprentissage extraordinairement puissant à cet âge, et c'est aussi une machine à excitation : chaque tour ajoute un cran, et il n'a aucun frein pour s'arrêter. Le jeu bascule alors en pleurs, et on ne comprend pas pourquoi un si bon moment finit si mal. La régulation ne viendra pas de lui : c'est à l'adulte de baisser le rythme, progressivement, avant le point de bascule.",
+      "ancrage": "L'imitation s'emballe et il n'a pas de frein. C'est toi qui baisses le rythme — avant que le jeu ne bascule.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — baisser le rythme",
+        "etapes": [
+          "Repérer la montée : gestes plus rapides, rire aigu, respiration accélérée.",
+          "Ralentir tes propres gestes : il t'imite — s'il te voit ralentir, il ralentit.",
+          "Baisser la voix : progressivement, sans rupture brutale.",
+          "Installer le silence : quelques secondes, ton visage calme.",
+          "Passer au contact : le prendre contre toi, immobile."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : le rituel de descente",
+        "etapes": [
+          "Juste après le jeu : bébé sur le dos, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Un seul canal à la fois : ne pas parler et toucher en même temps."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Utiliser l'imitation dans l'autre sens : ralentir soi-même est le levier le plus puissant.",
+        "Raccourcir les pics : quelques minutes de jeu intense suffisent.",
+        "Prévenir l'entourage : les jeux surexcitants portés par plusieurs adultes produisent les plus gros contrecoups.",
+        "Éviter les jeux excitants le soir : ils retardent l'endormissement."
+      ],
+      "principe": "L'imitation est un moteur d'apprentissage et une machine à excitation. Comme il t'imite, ralentir toi-même est le levier le plus efficace pour le faire redescendre.",
+      "erreurs_a_eviter": [
+        "Prolonger le jeu tant qu'il rit.",
+        "Relancer pour obtenir une réaction de plus.",
+        "Enchaîner plusieurs adultes qui l'excitent à tour de rôle.",
+        "Interpréter l'effondrement comme un caprice."
+      ],
+      "consulter_si": "Consulter si : bébé bascule systématiquement dans une crise inconsolable après chaque jeu, s'il se raidit fortement, ne cherche jamais le contact visuel, ou paraît anormalement mou → pédiatre ou PMI.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "Fin de journée ingérable / il tape et se cogne",
+      "titre": "La décharge motrice du soir / un exutoire, pas un calme forcé",
+      "explication": "En fin de journée, il tape, se cogne, se jette contre les meubles, s'agite sans arrêt. Le réflexe est de le mettre au calme — de le poser, de le contenir, de baisser les lumières. Cela fonctionne pour une décharge sensorielle. Mais à dix mois, la décharge du soir est aussi motrice : son corps a accumulé de l'énergie toute la journée, et il a besoin de la sortir. Un calme forcé ne fait alors qu'augmenter la tension. Ce qu'il lui faut, c'est un exutoire physique — encadré, sécurisé, mais réel.",
+      "ancrage": "Ce n'est pas toujours du calme qu'il lui faut : c'est un exutoire. Une décharge motrice se sort par le corps, pas par le silence.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — offrir un exutoire",
+        "etapes": [
+          "Un espace de mouvement : un grand tapis, sécurisé, où il peut se déplacer librement.",
+          "Un moment de décharge physique : ramper, grimper sur un coussin ferme, taper sur un tambour.",
+          "Sécuriser d'abord : angles protégés, meubles fixés, rien de dur à portée.",
+          "Puis descendre : après la décharge, ralentir progressivement.",
+          "Distinguer les deux : s'il fuit le regard et s'agite sans but, c'est une surcharge sensorielle — là, on baisse tout."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : après la décharge",
+        "etapes": [
+          "Une fois le corps déchargé : bébé sur le dos, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Offrir du mouvement dans la journée : un enfant qui a bougé décharge moins le soir.",
+        "Protéger la sieste : la sur-fatigue aggrave la décharge motrice.",
+        "Rediriger les coups : « les coups font mal, tape ici » — en proposant un support.",
+        "Ne jamais taper en retour : la violence, même légère, n'enseigne rien."
+      ],
+      "principe": "Une décharge motrice ne se calme pas par le silence : elle se sort par le corps. Un exutoire encadré vaut mieux qu'une mise au calme qui augmente la tension.",
+      "erreurs_a_eviter": [
+        "Imposer un calme forcé à un corps qui a besoin de bouger.",
+        "Le contenir physiquement pour l'empêcher de s'agiter.",
+        "Taper sa main en retour quand il tape.",
+        "Réduire le mouvement de la journée par peur qu'il s'excite."
+      ],
+      "consulter_si": "Consulter si : bébé se cogne volontairement la tête de façon répétée, s'il se blesse, si les crises deviennent quotidiennes et inconsolables, ou si tu sens ta colère devenir difficile à contenir → pédiatre, PMI, ou Allo Parents Bébé (0 800 00 34 56).",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'activité physique du tout-petit."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "Il refuse la poussette / il veut être debout et libre",
+      "titre": "Le refus de la poussette / son besoin de mouvement",
+      "explication": "Il se cambre, hurle, refuse d'être attaché. La poussette est un outil de confort pour l'adulte — pour lui, c'est une immobilisation. À dix mois, le besoin de mouvement dépasse largement le confort d'être transporté, et une heure sanglé est une contrainte réelle. Ce qui désamorce : prévoir des temps de déplacement libre autour des trajets. Quelques minutes au sol avant de partir, quelques minutes à l'arrivée. Le trajet devient supportable quand il est encadré par du mouvement.",
+      "ancrage": "La poussette est un confort pour toi, une immobilisation pour lui. Encadre le trajet par du mouvement libre.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — encadrer le trajet",
+        "etapes": [
+          "Du mouvement avant : quelques minutes au sol, à ramper ou à se hisser, avant de partir.",
+          "Du mouvement après : dès l'arrivée, le sortir et le laisser bouger.",
+          "Raccourcir les trajets : fractionner plutôt qu'un long trajet d'une traite.",
+          "Le tourner face à toi : le contact visuel rend l'immobilité plus supportable.",
+          "Limiter l'immobilisation : pas plus d'une heure d'affilée en poussette, transat, coque ou siège."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — rendre le trajet supportable",
+        "etapes": [
+          "Le portage comme alternative : dos ou ventre, avec un moyen physiologique adapté à son poids.",
+          "Lui donner un objet : à manipuler pendant le trajet.",
+          "Parler et commenter : ta voix rend le trajet vivant.",
+          "S'arrêter en route : quelques minutes de pause au sol changent tout.",
+          "S'arrêter s'il sature : reprendre le trajet autrement."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Anticiper les sorties : prévoir un temps de mouvement dans le programme, pas seulement le trajet.",
+        "Choisir un portage adapté : à dix mois, il est lourd — un portage physiologique protège ton dos.",
+        "Éviter les trajets pendant les fenêtres de fatigue : la sieste prime sur le trajet.",
+        "Ne pas céder aux écrans : un écran dans la poussette n'apaise pas, il sur-stimule."
+      ],
+      "principe": "Son besoin de mouvement dépasse le confort du transport. Le trajet devient supportable quand il est encadré par du mouvement libre — avant et après.",
+      "erreurs_a_eviter": [
+        "Sangler pendant des heures sans pause.",
+        "Utiliser un écran dans la poussette pour le calmer.",
+        "Décaler la sieste pour un trajet.",
+        "Le tourner face au monde dans un lieu bruyant."
+      ],
+      "consulter_si": "Consulter si : bébé refuse tout contact, paraît anormalement mou ou raide, s'il perd une compétence acquise, ou s'il reste inconsolable plusieurs heures malgré le retour au calme → pédiatre ou PMI.",
+      "source": "Source : Haut Conseil de la santé publique — avis sur les effets de l'exposition des enfants et des jeunes aux écrans."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "Les lieux de jeu le submergent / il craque en dix minutes",
+      "titre": "Les lieux collectifs / court et répété, pas long et rare",
+      "explication": "Ludothèque, salle de jeux, groupe de parents : dix minutes et il s'effondre. Un espace collectif concentre tout ce que son cerveau ne filtre pas encore — bruit, mouvements, enfants qui crient, objets partout, adultes inconnus. Il ne « rate » pas la sortie : il sature. La stratégie qui fonctionne est contre-intuitive : viser des sorties courtes et répétées plutôt que longues et rares. Vingt minutes deux fois par semaine construisent l'habituation ; deux heures une fois par mois produisent un effondrement.",
+      "ancrage": "Court et répété bat long et rare. Vingt minutes construisent l'habituation — deux heures produisent un effondrement.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — court et répété",
+        "etapes": [
+          "Viser vingt à trente minutes : pas davantage, dans un lieu collectif.",
+          "Répéter souvent : deux fois par semaine vaut mieux qu'une longue sortie mensuelle.",
+          "Repérer les signaux : regard qui fuit, agitation, mains crispées, recherche de ton visage.",
+          "Partir à ce moment-là : ne pas attendre les pleurs.",
+          "Un sas au retour : pièce sombre, silence, aucune stimulation."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : décharger le trop-plein",
+        "etapes": [
+          "Une fois rentré : bébé sur le dos, dans le silence.",
+          "Toucher enveloppant des pieds : les tenir entiers dans tes paumes, immobiles.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Choisir les horaires creux : les lieux collectifs sont bien plus supportables quand ils sont peu remplis.",
+        "Rester sa base sûre : s'asseoir avec lui plutôt que de l'envoyer jouer.",
+        "Assumer sans culpabilité : écourter une sortie n'est pas un échec, c'est un réglage.",
+        "Se rappeler que l'habituation se construit : elle vient par la répétition, pas par la durée."
+      ],
+      "principe": "Les lieux collectifs saturent vite. Ce qui construit l'habituation, ce sont des sorties courtes et répétées — jamais des sorties longues et rares.",
+      "erreurs_a_eviter": [
+        "Prolonger « puisqu'on a fait le déplacement ».",
+        "L'envoyer jouer seul dans un lieu inconnu.",
+        "Enchaîner plusieurs lieux dans la même sortie.",
+        "Culpabiliser d'avoir écourté."
+      ],
+      "consulter_si": "Consulter si : bébé reste inconsolable plusieurs heures malgré le retour au calme, s'il refuse de boire, présente de la fièvre, ou paraît anormalement mou ou difficile à réveiller → pédiatre, le 15 selon l'urgence."
+    }
+  ]
+}

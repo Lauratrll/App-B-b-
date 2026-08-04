@@ -1,0 +1,195 @@
+{
+  "mois": 11,
+  "tranche_age": "11 mois",
+  "categorie": {
+    "id": "sepa",
+    "nom": "Angoisse de séparation",
+    "sous_titre": "Agrippement, rechutes, rituels, doudou",
+    "icone": "💜"
+  },
+  "protocoles": [
+    {
+      "categorie": "sepa",
+      "situation": "Il s'accroche à mes jambes / je ne peux plus bouger",
+      "titre": "Accroché à tes jambes / s'accroupir libère souvent le mouvement",
+      "explication": "Il s'agrippe à tes jambes et ne lâche plus : tu ne peux plus faire un pas. Ce comportement mêle deux choses à cet âge : l'angoisse de séparation, encore vive, et l'équilibre — tes jambes sont un appui stable pour un marcheur débutant. Le réflexe est de le décrocher ou de le porter. Ce qui fonctionne souvent mieux, et surprend : s'accroupir à son niveau. Se mettre à sa hauteur, quelques instants, recharge la sécurité — et il repart, bien plus vite que si tu l'avais porté.",
+      "ancrage": "Il s'accroche par angoisse et pour tenir debout. S'accroupir à son niveau recharge plus vite que de le porter.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — s'accroupir",
+        "etapes": [
+          "S'accroupir à sa hauteur : quelques instants, sans le porter.",
+          "Le laisser se recharger : contact, regard, quelques mots.",
+          "Attendre qu'il reparte : il repart de lui-même, souvent vite.",
+          "Ne pas le décrocher brutalement : cela relance l'agrippement.",
+          "Ne pas le porter systématiquement : cela retire l'occasion de se recharger et de repartir."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : recharger la sécurité",
+        "etapes": [
+          "Un moment quotidien : l'enfant sur le dos, éveillé et calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Offrir d'autres appuis : meubles bas, stables, à sa hauteur — tes jambes ne sont pas son seul point d'équilibre.",
+        "Rester immobile : une base qui bouge sans arrêt est une base peu fiable.",
+        "Sécuriser l'espace : pour pouvoir rester disponible sans devoir intervenir.",
+        "Se rappeler que cela passe : l'agrippement s'atténue à mesure que la marche s'assure."
+      ],
+      "principe": "Il s'accroche pour deux raisons : l'angoisse et l'équilibre. S'accroupir répond aux deux — et il repart bien plus vite que si tu l'avais porté.",
+      "erreurs_a_eviter": [
+        "Le décrocher brutalement.",
+        "Le porter systématiquement.",
+        "Se déplacer sans arrêt en le traînant.",
+        "S'agacer de son agrippement."
+      ],
+      "consulter_si": "Consulter si : l'enfant ne se déplace d'aucune façon vers douze mois, ne se met jamais debout, paraît anormalement mou ou raide, ou s'il perd une compétence acquise → pédiatre ou PMI.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'activité physique du tout-petit."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "L'angoisse revient alors qu'elle était passée / rechute soudaine",
+      "titre": "La rechute d'angoisse / réactiver, ne pas réinventer",
+      "explication": "L'angoisse de séparation semblait derrière vous — et elle revient d'un coup. Ces rechutes ne sont pas un recul : elles accompagnent presque toujours une grande acquisition. Apprendre à marcher, c'est aussi découvrir qu'on peut s'éloigner — et cette découverte réveille l'angoisse. Le réflexe est d'inventer une nouvelle stratégie. C'est l'inverse qui fonctionne : réactiver les rituels qui marchaient déjà. Ce qui l'a rassuré à huit mois le rassurera encore — parce qu'il les connaît.",
+      "ancrage": "Une rechute accompagne un progrès. Ne réinvente rien : réactive les rituels qu'il connaît déjà.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — réactiver",
+        "etapes": [
+          "Reprendre les rituels connus : le jeu de coucou, les départs annoncés, les retours nommés.",
+          "Ne rien inventer de nouveau : la nouveauté ajoute de l'incertitude.",
+          "Multiplier les micro-séparations : courtes, répétées, avec ta voix qui continue.",
+          "Nommer chaque départ et chaque retour : même pour deux minutes.",
+          "Ne pas éviter les séparations : les éviter reporte et aggrave."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : ancrer la sécurité",
+        "etapes": [
+          "Un moment quotidien : toujours au même moment.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Ta voix pendant le geste : associée au toucher, elle reste un repère puissant.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Relier au progrès : une rechute suit presque toujours une nouvelle acquisition.",
+        "Compter en semaines : elle s'atténue quand l'acquisition est digérée.",
+        "Ne pas culpabiliser : tu n'as rien cassé.",
+        "S'attendre à d'autres rechutes : à chaque grande étape."
+      ],
+      "principe": "Les rechutes accompagnent les progrès. Ce qui rassure, ce sont les rituels qu'il connaît — pas les stratégies nouvelles, qui ajoutent de l'incertitude.",
+      "erreurs_a_eviter": [
+        "Inventer une nouvelle stratégie à chaque rechute.",
+        "Éviter les séparations pour le préserver.",
+        "Partir en cachette.",
+        "Interpréter la rechute comme un recul."
+      ],
+      "consulter_si": "Consulter si : l'enfant ne se calme jamais, même quand tu reviens, ne cherche jamais ton visage ni ta voix, ne babille pas, ne réagit pas aux bruits, perd des compétences acquises, ou paraît anormalement mou ou éteint → pédiatre ou PMI.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Il pleure à chaque départ / le rituel d'au revoir ne suffit plus",
+      "titre": "Le rituel d'au revoir s'use / le réactualiser",
+      "explication": "Le rituel de départ fonctionnait, et il ne fonctionne plus. C'est normal : un rituel s'use quand l'enfant grandit, parce que sa compréhension change. À onze mois, il comprend beaucoup plus qu'à six : il peut suivre une séquence, anticiper, comprendre des mots simples. Un rituel qui ne s'adresse plus à son niveau devient un geste vide. Le réactualiser — en y ajoutant des mots, une séquence claire, un repère de retour qu'il peut comprendre — lui rend le départ prévisible.",
+      "ancrage": "Un rituel s'use quand l'enfant grandit. Le réactualiser à son nouveau niveau de compréhension lui rend le départ prévisible.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — réactualiser",
+        "etapes": [
+          "Ajouter des mots : « je pars travailler, tu restes avec X, je reviens après le goûter ».",
+          "Un repère de retour concret : un moment de la journée qu'il connaît — le goûter, le bain.",
+          "Une séquence claire : trois gestes, toujours les mêmes, dans le même ordre.",
+          "Le faire participer : c'est lui qui donne le bisou, qui fait au revoir de la main.",
+          "Partir franchement : sans revenir sur ses pas."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : le rituel des retrouvailles",
+        "etapes": [
+          "Au retour, chaque jour : toujours au même moment.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : il peut avoir besoin de calme d'abord."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Réactualiser régulièrement : un rituel se met à jour à mesure qu'il grandit.",
+        "Rester bref : un rituel court reste plus efficace qu'un rituel long.",
+        "Ne jamais partir en cachette : cela fabrique l'insécurité.",
+        "Demander confirmation à l'équipe : il se calme souvent dans les minutes qui suivent."
+      ],
+      "principe": "Un rituel s'use parce que l'enfant grandit. Le réactualiser à son niveau — des mots, une séquence, un repère de retour — lui rend le départ prévisible.",
+      "erreurs_a_eviter": [
+        "Garder un rituel qui ne fonctionne plus.",
+        "Étirer l'au revoir par culpabilité.",
+        "Partir en cachette.",
+        "Changer de rituel chaque matin."
+      ],
+      "consulter_si": "Consulter si : l'enfant refuse de manger et de boire à la garde pendant plusieurs jours, s'il perd du poids, s'il paraît éteint ou apathique, ou s'il régresse durablement → pédiatre, PMI, ou psychologue périnatal.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Le doudou ne le console plus / au moment de la séparation",
+      "titre": "Le doudou ne suffit plus / chercher un autre relais",
+      "explication": "Le doudou faisait le relais, et il ne le fait plus. L'objet transitionnel peut perdre son pouvoir — parce qu'il a changé d'odeur après un lavage, parce que l'enfant a grandi, ou parce que l'angoisse a monté d'un cran. Ce n'est pas un échec, et cela ne veut pas dire qu'il n'y a plus de relais possible. Ce qui fonctionne : chercher avec le lieu de garde ce qui, aujourd'hui, fait relais pour lui — une photo, un vêtement, une chanson, un adulte référent, un rituel d'arrivée.",
+      "ancrage": "Un doudou peut perdre son pouvoir. Le relais se cherche avec le lieu de garde — il en existe d'autres.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — chercher un autre relais",
+        "etapes": [
+          "Vérifier l'odeur : un doudou lavé perd ton odeur — le porter contre toi quelques heures.",
+          "Chercher avec l'équipe : quel objet, quel moment, quel adulte l'apaise le mieux dans la journée ?",
+          "Tester d'autres relais : une photo de toi, un vêtement, une chanson enregistrée.",
+          "Un adulte référent : le même adulte à l'accueil change souvent tout.",
+          "Un rituel d'arrivée : une activité identique chaque matin, à l'arrivée."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : un repère transmissible",
+        "etapes": [
+          "Un geste que l'équipe peut reproduire : la même séquence, à l'identique.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Toujours au même moment : le repère vient de la régularité.",
+          "Le pratiquer aussi à la maison : pour qu'il soit reconnu ailleurs.",
+          "S'arrêter à sa demande : le geste doit rester agréable, quel que soit l'adulte."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne pas forcer le doudou : un objet imposé ne devient jamais un objet transitionnel.",
+        "En avoir deux identiques : pour les lavages et les pertes.",
+        "Vérifier la sécurité : un doudou plat, léger, en un seul morceau — et jamais d'objet dans le lit avant six mois.",
+        "Travailler avec l'équipe : le relais se construit à deux, pas seule à la maison."
+      ],
+      "principe": "Un objet transitionnel peut perdre son pouvoir. Le relais existe ailleurs — et il se cherche avec le lieu de garde, pas seule à la maison.",
+      "erreurs_a_eviter": [
+        "Forcer un doudou qu'il ne choisit pas.",
+        "Laver le doudou juste avant une séparation difficile.",
+        "Multiplier les objets dans son lit.",
+        "Chercher la solution seule, sans parler à l'équipe."
+      ],
+      "consulter_si": "Consulter si : l'enfant refuse de manger et de boire à la garde pendant plusieurs jours, s'il perd du poids, s'il paraît éteint ou apathique, ou s'il régresse durablement → pédiatre, PMI, ou psychologue périnatal."
+    }
+  ]
+}

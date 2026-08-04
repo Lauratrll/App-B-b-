@@ -158,5 +158,8 @@
     ]
   },
   "lancement": true,
-  "visuel": "visuels-protocoles/Visuel - Césarienne.png"
+  "visuel": "visuels-protocoles/Visuel - Césarienne.png",
+  "age_min_mois": 0,
+  "age_max_mois": 3,
+  "age_statut": "brouillon"
 }

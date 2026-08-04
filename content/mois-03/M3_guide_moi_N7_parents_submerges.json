@@ -1,0 +1,194 @@
+{
+  "mois": 3,
+  "tranche_age": "3 mois",
+  "categorie": {
+    "id": "parent",
+    "nom": "Parents submergés",
+    "sous_titre": "Attachement lent, comparaison, reprise, couple",
+    "icone": "🫶"
+  },
+  "protocoles": [
+    {
+      "categorie": "parent",
+      "situation": "Toujours pas de déclic d'amour / une culpabilité énorme",
+      "titre": "Toujours pas de déclic / l'attachement lent",
+      "explication": "Trois mois, et le grand élan d'amour n'est toujours pas venu. Tu fais tout — tu nourris, tu portes, tu consoles — mais l'émotion attendue n'est pas là. Cette expérience est bien plus fréquente qu'on ne le dit, et elle est terriblement solitaire, parce qu'elle se raconte rarement. L'attachement se construit souvent lentement, par le soin répété, et le sentiment arrive après. Cela ne dit rien de ta capacité à aimer. Mais il existe une frontière à connaître : une tristesse permanente, un vide, une incapacité à ressentir quoi que ce soit qui dure — cela porte un autre nom, et cela se soigne.",
+      "ancrage": "Ne pas ressentir n'est pas ne pas aimer. Beaucoup d'attachements commencent par les gestes, et le sentiment vient ensuite — parfois bien plus tard, sans que rien ne soit abîmé.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — quand la culpabilité monte",
+        "etapes": [
+          "Nommer sans juger : « je ne ressens pas encore ce que j'attendais » — le dire retire une partie de la honte.",
+          "Continuer les gestes : le soin construit le lien, même sans l'émotion.",
+          "Peau à peau : le contact agit indépendamment de ce que tu ressens sur le moment.",
+          "Couper les récits idéalisés : réseaux, films, discours d'entourage fabriquent une norme qui n'existe pas.",
+          "En parler à une personne de confiance : ce sentiment est bien plus fréquent qu'il n'est dit."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — laisser le lien venir",
+        "etapes": [
+          "Un temps quotidien sans objectif : quelques minutes, sans chercher à ressentir quoi que ce soit.",
+          "Regarder ses détails : ses mains, ses expressions — l'attachement passe souvent par la découverte concrète.",
+          "Porter, bercer, tenir : les gestes précèdent souvent les sentiments, et les appellent.",
+          "Accueillir l'ambivalence : elle est fréquente et ne se raconte presque jamais.",
+          "Se laisser du temps : ce lien ne s'invoque pas sur commande."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Distinguer lenteur et souffrance : un attachement lent a des moments qui se réchauffent ; une tristesse permanente au-delà de deux semaines relève de la dépression post-partum, qui se soigne bien.",
+        "Utiliser l'entretien postnatal : un entretien avec une sage-femme ou un médecin est prévu dans les semaines qui suivent la naissance — c'est un espace fait pour ces mots-là.",
+        "S'appuyer sur les ressources : Maman Blues, MonParcoursPsy (séances remboursées après avis d'un médecin), PMI, psychologue périnatal.",
+        "Ne pas rester seule avec ça : le dire à un professionnel ne te retire rien."
+      ],
+      "principe": "Le soin construit le lien autant que le sentiment. L'attachement lent est une trajectoire fréquente — ce qui doit alerter, c'est la tristesse durable, pas le rythme du sentiment.",
+      "erreurs_a_eviter": [
+        "Se forcer à jouer l'émotion attendue devant les autres.",
+        "Interpréter l'absence d'élan comme la preuve que tu n'es pas faite pour cela.",
+        "Attendre le sentiment avant de prendre soin — c'est souvent l'inverse qui se produit.",
+        "Taire une tristesse qui dure par peur du jugement."
+      ],
+      "consulter_si": "Consulter si : la tristesse dure plus de deux semaines, si tu n'éprouves plus de plaisir à rien, si tu dors mal même quand bébé dort, si tu te sens vide ou détachée de ton bébé, ou si tu as des pensées noires → médecin, sage-femme, PMI ou psychologue périnatal sans attendre : la dépression post-partum se soigne bien. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence.",
+      "source": "Source : ameli.fr (Assurance Maladie) — baby blues et dépression post-partum ; entretien postnatal précoce."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Sur les réseaux, tous les autres bébés dorment / je me compare",
+      "titre": "La vitrine des réseaux / réduire l'exposition",
+      "explication": "Sur les réseaux, tous les bébés dorment, sourient, et grandissent dans des chambres impeccables. Ce que tu vois n'est pas la réalité : c'est une sélection — le meilleur instant d'une journée entière, souvent retouché, parfois monétisé. Comparer ton quotidien intégral à ce montage produit mécaniquement de la honte, et cela n'a rien à voir avec ce que tu vaux. Le comportement rationnel n'est pas de « relativiser » : c'est de réduire l'exposition. On ne raisonne pas une comparaison — on coupe la source.",
+      "ancrage": "Tu compares tes coulisses à leur vitrine. Ce n'est pas un problème de mental : c'est un problème d'exposition — et cela se règle en coupant.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — couper la source",
+        "etapes": [
+          "Identifier les comptes qui font mal : ceux qui te laissent un goût amer après chaque visite.",
+          "Se désabonner sans état d'âme : sans se justifier, sans annoncer.",
+          "Fixer une limite de temps : les réseaux se consultent mal la nuit, quand la fatigue amplifie tout.",
+          "Remplacer par du réel : un appel, un groupe de parents, un atelier PMI.",
+          "Ne rien décider dans l'instant : aucun changement sous le coup d'un contenu vu en ligne."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — se recentrer",
+        "etapes": [
+          "Noter une progression par semaine : une seule, écrite — elles se voient mal au jour le jour.",
+          "Trois respirations lentes : quand la comparaison monte, avant de continuer à faire défiler.",
+          "Un temps de face-à-face avec lui : quelques minutes, sans téléphone.",
+          "Se rappeler ce qui est fait : nourri, porté, consolé — l'essentiel, et il est fait.",
+          "Parler à un parent réel : un échange honnête vaut mieux que dix fils de discussion."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir ce qui n'est jamais montré : les nuits blanches, les pleurs, les disputes, les journées en pyjama.",
+        "Se méfier des contenus sponsorisés : beaucoup de comptes de parentalité vendent quelque chose.",
+        "Poser tes questions au bon endroit : au pédiatre ou à la PMI, pas dans un fil de commentaires.",
+        "Se rappeler la recommandation sur les écrans : ton téléphone en main pendant les échanges réduit aussi ce que tu lui dis."
+      ],
+      "principe": "On ne raisonne pas une comparaison, on coupe la source. La vitrine des réseaux n'est pas une norme — c'est un montage, et souvent un commerce.",
+      "erreurs_a_eviter": [
+        "Chercher à « rattraper » un jalon vu en ligne en stimulant davantage.",
+        "Poser une question inquiète dans un groupe en ligne plutôt qu'à un professionnel.",
+        "Faire défiler les réseaux pendant les tétées de nuit — c'est le pire moment.",
+        "Se juger sur les nuits, le poids ou les sourires — trois indicateurs à très large fourchette."
+      ],
+      "consulter_si": "Consulter si : la comparaison s'accompagne d'une tristesse qui dure plus de deux semaines, d'une honte envahissante, d'un sentiment de nullité, de troubles du sommeil même quand bébé dort, ou de pensées noires → médecin, sage-femme, PMI ou psychologue périnatal. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence."
+    },
+    {
+      "categorie": "parent",
+      "situation": "La reprise approche / c'est moi qui angoisse",
+      "titre": "C'est toi qui angoisses / traiter ton angoisse pour elle-même",
+      "explication": "On parle beaucoup de l'adaptation du bébé, et presque jamais de celle du parent. Pourtant, à trois mois, ton bébé n'a pas encore l'angoisse de séparation : c'est toi qui angoisses, et c'est ton angoisse qui se transmet. Elle est légitime — c'est une vraie séparation, souvent trop précoce à ton goût, et parfois subie. Elle mérite d'être traitée pour elle-même, pas balayée d'un « il ne se rendra compte de rien ». Un parent accompagné dans son angoisse transmet un départ tranquille ; un parent qui la refoule transmet une tension qu'il ne contrôle pas.",
+      "ancrage": "Ton angoisse n'est pas un détail à gérer discrètement : c'est le sujet principal. C'est elle qu'il perçoit — et c'est donc elle qu'on accompagne.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — traiter ton angoisse",
+        "etapes": [
+          "Nommer ce qui fait peur : mettre des mots précis — la fatigue, le regard des autres, le sentiment d'abandonner.",
+          "Distinguer ce qui s'organise et ce qui se ressent : le plan gère la logistique, il n'efface pas le chagrin.",
+          "En parler : au co-parent, à une amie, à la sage-femme — le dire réduit la charge.",
+          "Prévoir un rituel de départ court : une phrase, un baiser, et on part — pour toi autant que pour lui.",
+          "Ne pas décider dans l'angoisse : aucun grand choix la veille de la reprise."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — se réguler soi-même",
+        "etapes": [
+          "Trois respirations lentes : expiration plus longue que l'inspiration, avant de partir.",
+          "Ancrage au sol : pieds à plat, épaules relâchées, mâchoire desserrée — dix secondes.",
+          "Écrire ce qui tourne en boucle : la liste écrite est toujours plus petite que celle qui tourne dans la tête.",
+          "Préserver la première semaine : aucun engagement, aucune sortie.",
+          "Accepter les larmes du premier jour : elles sont fréquentes et ne présagent de rien."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se renseigner sur tes droits : temps partiel, congé parental, aménagements pour allaiter ou tirer son lait — médecine du travail ou ressources humaines.",
+        "Se rappeler ce qui construit la sécurité : la fiabilité des retrouvailles, pas le nombre d'heures passées ensemble.",
+        "Distinguer angoisse et dépression : une inquiétude à l'approche est banale ; une tristesse durable, une perte d'intérêt ou des pensées noires demandent un avis.",
+        "Prévoir un soutien : quelqu'un à qui écrire ou téléphoner le premier jour."
+      ],
+      "principe": "À trois mois, l'angoisse de la séparation est celle du parent. C'est elle qu'il perçoit — la traiter pour elle-même est le geste le plus utile pour vous deux.",
+      "erreurs_a_eviter": [
+        "Refouler l'angoisse au nom du « il ne se rendra compte de rien ».",
+        "Tout organiser la veille — la précipitation amplifie tout.",
+        "Multiplier les recherches en ligne sur les effets de la garde.",
+        "Se juger sur le fait de reprendre — la reprise est rarement un choix pleinement libre."
+      ],
+      "consulter_si": "Consulter si : l'angoisse devient envahissante, si elle s'accompagne d'attaques de panique, d'insomnies même quand bébé dort, d'une tristesse qui dure plus de deux semaines, ou de pensées noires → médecin, sage-femme, PMI ou psychologue périnatal. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence.",
+      "source": "Source : ameli.fr (Assurance Maladie) — baby blues et dépression post-partum ; entretien postnatal précoce."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Plus de désir, des conflits / je ne reconnais plus ma vie",
+      "titre": "Le couple après la naissance / rouvrir le dialogue",
+      "explication": "Trois mois après la naissance, beaucoup de couples ne se reconnaissent plus : plus de désir, des conflits sur des détails, une fatigue qui rend tout inflammable. C'est extrêmement fréquent, et rarement dit. Le corps a changé, le sommeil manque, la charge mentale écrase, et l'attention s'est entièrement déplacée vers le bébé. Il n'y a aucune norme à rattraper, aucun calendrier à respecter, et surtout aucune injonction : la reprise de la sexualité ne se décrète pas et ne se force jamais. Ce qui se travaille en premier, ce n'est pas le désir — c'est le dialogue.",
+      "ancrage": "Il n'y a pas de délai à respecter, ni de norme à atteindre. Ce qui se rouvre en premier, ce n'est pas le désir : c'est la parole.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — rouvrir la parole",
+        "etapes": [
+          "Choisir le moment : jamais dans la fatigue du soir ni au milieu d'une crise.",
+          "Parler en « je » : « je me sens loin de toi » plutôt que « tu ne fais rien ».",
+          "Nommer sans exiger : dire où tu en es, sans réclamer une reprise.",
+          "Poser un temps à deux : vingt minutes, sans téléphone, sans parler du bébé.",
+          "Accepter le désaccord : les besoins peuvent être différents, et cela se dit sans se juger."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — retrouver du contact sans enjeu",
+        "etapes": [
+          "Du contact non sexuel : se tenir la main, s'enlacer, sans que cela ouvre sur autre chose.",
+          "Un temps sans bébé : même une heure, même chez soi, avec quelqu'un qui le garde.",
+          "Se coucher en même temps : une fois par semaine, sans autre objectif que d'être là.",
+          "Dire ce qui fait du bien : les gestes qui rassurent, ceux qui pèsent.",
+          "Ne rien forcer : ni pour soi, ni pour l'autre — le corps n'est pas un contrat."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se rappeler la temporalité : le corps met des mois à récupérer d'un accouchement, et la baisse du désir est très fréquente pendant cette période.",
+        "Consulter la sage-femme : le suivi après l'accouchement existe pour cela, et les douleurs éventuelles ne sont jamais une fatalité.",
+        "Envisager un accompagnement : conseil conjugal, accompagnement du couple — la période est une épreuve reconnue.",
+        "Partager la charge mentale : le désir ne revient pas dans l'épuisement — c'est souvent le premier levier."
+      ],
+      "principe": "La sexualité ne se décrète pas et ne se force jamais. Ce qui se rouvre d'abord, c'est le dialogue — et le désir revient rarement avant que la charge ne soit partagée.",
+      "erreurs_a_eviter": [
+        "S'imposer une reprise des rapports pour « rassurer » l'autre.",
+        "Interpréter la baisse du désir comme la fin du couple.",
+        "Ignorer une douleur — une douleur pendant les rapports se signale à la sage-femme ou au médecin, elle n'est jamais normale.",
+        "Laisser les conflits s'accumuler sans jamais poser le sujet."
+      ],
+      "consulter_si": "Consulter si : des douleurs persistent lors des rapports, si des saignements ou des fuites urinaires apparaissent, si le désir absent s'accompagne d'une tristesse durable, d'un sentiment de vide, ou de pensées noires → sage-femme, médecin, ou psychologue périnatal. Si la relation devient violente — paroles, gestes, contrôle → 3919, Violences Femmes Info, gratuit et anonyme. En cas de pensées suicidaires : 3114."
+    }
+  ]
+}

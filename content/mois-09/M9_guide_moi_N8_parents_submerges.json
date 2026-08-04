@@ -1,0 +1,196 @@
+{
+  "mois": 9,
+  "tranche_age": "9 mois",
+  "categorie": {
+    "id": "parent",
+    "nom": "Parents submergés",
+    "sous_titre": "Saturation, hypervigilance, culpabilité, isolement",
+    "icone": "🫶"
+  },
+  "protocoles": [
+    {
+      "categorie": "parent",
+      "situation": "Saturation du portage / je n'en peux plus du contact permanent",
+      "titre": "La saturation du contact / ton corps compte aussi",
+      "explication": "Il te veut en permanence : dans les bras, contre toi, sur toi. Et toi, tu n'en peux plus d'être touchée. Cette saturation physique est réelle, elle est très fréquente, et elle est rarement dite — parce qu'elle semble contredire l'amour qu'on porte à son enfant. Elle ne le contredit pas. Le besoin de contact de ton bébé est réel ; ton besoin de retrouver un corps à toi l'est tout autant. Les deux coexistent, et le second ne s'annule pas au profit du premier. Il s'organise.",
+      "ancrage": "Son besoin de contact n'annule pas ton besoin d'un corps à toi. Les deux sont réels — et le tien s'organise, il ne se sacrifie pas.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — reprendre un corps à toi",
+        "etapes": [
+          "Nommer la saturation : « je n'en peux plus d'être touchée » — le dire ne fait de toi une mauvaise mère.",
+          "Organiser un relais concret : deux heures, à date fixe, où personne ne te touche.",
+          "Alterner les porteurs : le co-parent, un proche — le contact n'a pas besoin d'être toujours le tien.",
+          "Poser bébé au sol : à côté de toi, en sécurité — être présente n'oblige pas à porter.",
+          "Protéger un moment sans contact : une douche, une marche, un café seul."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — retrouver ton corps",
+        "etapes": [
+          "Un temps physique à toi : marcher, s'étirer, respirer — sans objectif de performance.",
+          "Trois respirations lentes : expiration plus longue que l'inspiration.",
+          "Une douche sans hâte : sans écouter, sans anticiper.",
+          "Poser les mains sur toi : sentir ton propre corps, pas seulement celui de ton bébé.",
+          "S'arrêter dès que c'est possible : n'attendre ni permission, ni justification."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se protéger le dos : portage physiologique, alternance des épaules.",
+        "Répartir le contact : le co-parent, les proches — c'est une charge qui se partage.",
+        "Ne pas culpabiliser : cette saturation est physiologique, pas un défaut d'amour.",
+        "En parler : à une amie, au co-parent, à un professionnel — la dire la desserre."
+      ],
+      "principe": "Répondre à son besoin de contact n'oblige pas à sacrifier le tien. La saturation physique est réelle — elle se dit, et elle s'organise par des relais concrets.",
+      "erreurs_a_eviter": [
+        "Taire cette saturation par honte.",
+        "Porter jusqu'à l'épuisement pour ne pas le frustrer.",
+        "Refuser un relais proposé.",
+        "Interpréter cette saturation comme un défaut d'amour."
+      ],
+      "consulter_si": "Consulter si : l'épuisement s'accompagne d'une tristesse qui dure plus de deux semaines, d'une irritabilité permanente, d'un rejet du contact avec ton bébé, ou de pensées noires → médecin, sage-femme, PMI ou psychologue périnatal. Si tu sens ta colère devenir difficile à contenir : poser bébé en sécurité, sortir de la pièce, appeler Allo Parents Bébé (0 800 00 34 56). En cas de pensées suicidaires : 3114.",
+      "source": "Source : Haute Autorité de Santé — recommandation « Syndrome du bébé secoué ou traumatisme crânien non accidentel par secouement »."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Hypervigilance / je passe ma journée à anticiper",
+      "titre": "L'hypervigilance / cesser de devancer chaque besoin",
+      "explication": "Tu anticipes tout : la faim avant la faim, la fatigue avant la fatigue, la crise avant la crise. Ton cerveau ne se repose jamais. Cette hypervigilance épuise autant que les nuits, et elle a un effet paradoxal : à force de devancer chaque besoin, tu empêches ton bébé d'apprendre à les exprimer — et tu te rends indispensable à chaque instant. Lâcher un peu n'est pas de la négligence : c'est lui laisser la place d'appeler, et te laisser la place de respirer.",
+      "ancrage": "Devancer chaque besoin t'épuise et le prive d'apprendre à demander. Lâcher un peu n'est pas négliger.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — laisser un peu venir",
+        "etapes": [
+          "Attendre le signal : laisser passer quelques instants avant d'intervenir.",
+          "Le laisser jouer seul : à côté de toi, sans l'animer, sans le devancer.",
+          "Ne pas tout prévoir : accepter qu'une sortie ou un repas ne soit pas parfaitement calé.",
+          "Poser ton attention ailleurs : quelques minutes sur autre chose, en restant disponible.",
+          "Nommer ce qui se passe en toi : « je suis en train de tout anticiper » — le repérer suffit souvent à le desserrer."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — sortir de l'alerte",
+        "etapes": [
+          "Trois respirations lentes : expiration plus longue que l'inspiration.",
+          "Ancrage au sol : pieds à plat, épaules relâchées, mâchoire desserrée.",
+          "Un temps sans écoute : mettre le babyphone plus bas, ne pas surveiller chaque bruit.",
+          "Une chose à la fois : arrêter de tenir dix scénarios en tête.",
+          "Sortir dehors : la marche desserre l'hypervigilance mieux que le repos immobile."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Comprendre le mécanisme : l'hypervigilance est une réponse d'alerte, pas un trait de caractère.",
+        "Se relayer vraiment : passer le relais implique de ne plus surveiller, sinon la charge reste.",
+        "Distinguer vigilance et anxiété : une anxiété qui empêche de fonctionner, qui s'accompagne d'insomnies ou de pensées noires, demande un avis.",
+        "En parler : l'hypervigilance est un motif de consultation légitime."
+      ],
+      "principe": "Devancer chaque besoin épuise et rend indispensable. Laisser un peu venir n'est pas de la négligence : c'est rendre à ton bébé la place d'exprimer, et à toi celle de respirer.",
+      "erreurs_a_eviter": [
+        "Tout anticiper pour éviter la moindre crise.",
+        "Surveiller le babyphone en continu.",
+        "Passer le relais en continuant de surveiller.",
+        "Se juger sur ta capacité à tout prévoir."
+      ],
+      "consulter_si": "Consulter si : l'anxiété devient envahissante, si elle s'accompagne d'attaques de panique, d'insomnies même quand bébé dort, d'une tristesse qui dure plus de deux semaines, ou de pensées noires → médecin, sage-femme, PMI ou psychologue périnatal. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence.",
+      "source": "Source : ameli.fr (Assurance Maladie) — dépression post-partum : reconnaître les signes et se faire accompagner."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Culpabilité de la garde / le laisser me ronge",
+      "titre": "La culpabilité de la garde / ce n'est pas une information",
+      "explication": "La culpabilité te ronge, et elle se présente comme une information : « s'il pleure, c'est que ce n'est pas bon pour lui ». C'est faux. La culpabilité est une émotion — elle mesure ton attachement, pas la qualité de la garde. Les deux se jugent séparément : ce que tu ressens, qui est légitime et mérite d'être dit ; et l'intérêt de ton bébé, qui se juge sur des faits observables. Mange-t-il ? Dort-il ? Se détend-il au bout d'un moment ? L'équipe est-elle attentive ? Ce sont ces faits qui informent, pas ta culpabilité.",
+      "ancrage": "Ta culpabilité mesure ton attachement, pas la qualité de la garde. Ce sont deux choses distinctes — et une seule des deux informe.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — séparer les deux",
+        "etapes": [
+          "Nommer l'émotion : « je me sens coupable » — sans en faire une conclusion.",
+          "Regarder les faits : mange-t-il ? dort-il ? se détend-il ? l'équipe est-elle attentive ?",
+          "Demander des retours concrets : combien de temps il a pleuré, ce qu'il a fait de sa journée.",
+          "Ne pas décider dans la culpabilité : aucune décision majeure sous le coup de l'émotion.",
+          "En parler : la culpabilité tue quand elle reste silencieuse."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — traverser",
+        "etapes": [
+          "Trois respirations lentes : avant d'entrer, et après être partie.",
+          "Un rituel de départ court : une phrase, un baiser, et on part.",
+          "Une demi-heure pleine au retour : sans écran, sans tâche.",
+          "Écrire ce qui te ronge : la liste écrite est plus petite que celle qui tourne en tête.",
+          "Accepter les larmes : les tiennes aussi sont normales."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir la distinction : la culpabilité est une émotion, pas une évaluation.",
+        "Se rappeler ce qui construit la sécurité : la fiabilité du retour, pas le nombre d'heures ensemble.",
+        "Alerter s'il y a des faits : un enfant qui ne mange plus, régresse durablement, une équipe qui ne répond pas.",
+        "Distinguer culpabilité et dépression : une tristesse durable ou des pensées noires demandent un avis."
+      ],
+      "principe": "La culpabilité n'évalue rien : elle mesure ton attachement. Ce qui informe, ce sont les faits — pas l'émotion.",
+      "erreurs_a_eviter": [
+        "Prendre sa culpabilité pour une preuve que la garde est mauvaise.",
+        "Prendre une décision majeure sous le coup de l'émotion.",
+        "Taire ce que tu ressens.",
+        "Juger la garde uniquement à partir de ses pleurs du matin."
+      ],
+      "consulter_si": "Consulter si : la culpabilité devient envahissante, si elle s'accompagne d'une tristesse qui dure plus de deux semaines, d'insomnies, d'une perte d'intérêt, ou de pensées noires → médecin, sage-femme, PMI ou psychologue périnatal. En cas de pensées suicidaires : 3114.",
+      "source": "Source : ameli.fr (Assurance Maladie) — dépression post-partum : reconnaître les signes et se faire accompagner."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Enfermé(e) à la maison / sentiment de prison domestique",
+      "titre": "La prison domestique / de très petits pas",
+      "explication": "Les journées se ressemblent, la maison rétrécit, et le monde extérieur semble inaccessible. Ce sentiment d'enfermement est réel, il est fréquent, et il est un facteur de risque documenté — pour ta santé mentale, et donc pour ton bébé. Il ne se résout pas par un grand geste : pas de retour à la vie d'avant, pas de week-end libérateur. Il se combat par de très petits pas, à l'échelle du possible : une sortie de dix minutes, un lien, un relais. C'est cumulé que cela change quelque chose.",
+      "ancrage": "L'enfermement ne se combat pas par un grand geste : il se combat par de très petits pas, à l'échelle du possible.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — un pas, aujourd'hui",
+        "etapes": [
+          "Sortir dix minutes : même sans but, même sans se changer — la lumière et l'air allègent.",
+          "Un contact humain par jour : un appel, une visite, un message — décidé la veille.",
+          "Aller là où il y a des gens : un parc, une ludothèque, un atelier PMI — pas seulement dehors, mais parmi d'autres.",
+          "Demander un relais concret : deux heures, à date fixe.",
+          "Ne pas viser grand : un petit pas tenu vaut mieux qu'un grand projet abandonné."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — desserrer l'étau",
+        "etapes": [
+          "Trois respirations lentes : quand les murs se resserrent.",
+          "Ouvrir une fenêtre : l'air et le bruit du dehors changent déjà quelque chose.",
+          "Un rendez-vous fixe : chaque semaine, le même — cela structure le temps.",
+          "Parler à voix haute : dire ce que tu ressens, même seule.",
+          "Accepter une aide imparfaite : elle vaut mieux qu'un isolement parfait."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Chercher des pairs : atelier PMI, groupe de parents, association locale — être avec d'autres change tout.",
+        "Utiliser les relais institutionnels : PMI, sage-femme, Allo Parents Bébé (0 800 00 34 56).",
+        "Retenir que l'isolement est un facteur de risque : pour ta santé, et pour la sécurité de bébé.",
+        "Demander avant d'être à bout : c'est le point qui change tout."
+      ],
+      "principe": "L'isolement ne se combat pas par un grand geste, mais par de très petits pas cumulés. Une sortie, un lien, un relais — à l'échelle de ce qui est possible aujourd'hui.",
+      "erreurs_a_eviter": [
+        "Attendre le grand changement qui n'arrivera pas.",
+        "Refuser une aide proposée par fierté.",
+        "Répondre « ça va » alors que ça ne va pas.",
+        "Attendre le point de rupture pour appeler."
+      ],
+      "consulter_si": "Consulter si : l'isolement s'accompagne d'une tristesse qui dure plus de deux semaines, d'insomnies même quand bébé dort, d'une perte d'intérêt, d'irritabilité permanente, ou de pensées noires → médecin, sage-femme, PMI ou psychologue périnatal. Si tu ressens l'envie de secouer ton bébé ou si tu as peur de tes réactions → poser bébé en sécurité et appeler Allo Parents Bébé (0 800 00 34 56) ou le 15. En cas de pensées suicidaires : 3114.",
+      "source": "Source : ameli.fr (Assurance Maladie) — dépression post-partum : reconnaître les signes et se faire accompagner."
+    }
+  ]
+}

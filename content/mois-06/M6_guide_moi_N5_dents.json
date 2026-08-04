@@ -1,0 +1,242 @@
+{
+  "mois": 6,
+  "tranche_age": "6 mois",
+  "categorie": {
+    "id": "dents",
+    "nom": "Dents & petits inconforts",
+    "sous_titre": "Poussées, mâchonnement, bave, peau",
+    "icone": "🦷"
+  },
+  "protocoles": [
+    {
+      "categorie": "dents",
+      "situation": "Premiers signes de poussée dentaire / gestion douce",
+      "titre": "Les premiers signes / froid et pression, rien d'autre",
+      "explication": "Gencives gonflées, joues rouges, mâchonnement, salivation abondante, humeur difficile : la première dent se prépare. Elle apparaît en moyenne vers six mois, mais la fourchette est très large — certains enfants dès trois mois, d'autres après un an. Ce qui soulage réellement est simple : le froid et la pression. Ce qui circule partout et qui est à proscrire : le gel anesthésiant, contre-indiqué avant deux ans, et le collier d'ambre, qui présente un risque d'étouffement et de strangulation sans aucune efficacité démontrée.",
+      "ancrage": "Le froid et la pression soulagent vraiment. Les deux remèdes qu'on te conseillera le plus sont précisément ceux à ne jamais utiliser.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — soulager la gencive",
+        "etapes": [
+          "Un anneau de dentition réfrigéré : sorti du réfrigérateur, jamais du congélateur — le froid extrême brûle.",
+          "Un linge propre et frais : humidifié, à mordiller sous surveillance.",
+          "Une pression du doigt propre : quelques secondes sur la gencive, sans forcer.",
+          "Essuyer et sécher : menton, cou, plis — la salive irrite vite la peau.",
+          "Proposer avant les repas : une gencive soulagée mange mieux."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — le confort du visage",
+        "etapes": [
+          "Nettoyer à l'eau tiède : sans savon, sur le menton et le cou, plusieurs fois par jour.",
+          "Sécher en tamponnant : particulièrement dans les plis.",
+          "Une crème émolliente simple : sur le menton s'il rougit, sans parfum.",
+          "Un bavoir en coton : changé souvent, plutôt qu'une peau constamment humide.",
+          "S'arrêter s'il s'agite : le soin doit rester bref."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne jamais utiliser de gel anesthésiant : les gels à la lidocaïne sont contre-indiqués avant deux ans.",
+        "Ne jamais utiliser de collier d'ambre : risque d'étouffement et de strangulation, sans efficacité démontrée.",
+        "Ne pas attribuer une fièvre aux dents : une fièvre a toujours une autre cause, et elle se fait examiner.",
+        "Commencer le brossage : dès la première dent, avec une brosse adaptée et un dentifrice fluoré au dosage recommandé par le professionnel."
+      ],
+      "principe": "Le froid et la pression soulagent une gencive. Un gel anesthésiant et un collier d'ambre, non — l'un est contre-indiqué, l'autre peut étouffer ou étrangler.",
+      "erreurs_a_eviter": [
+        "Utiliser un collier d'ambre — étouffement et strangulation.",
+        "Appliquer un gel anesthésiant sur les gencives — contre-indiqué avant deux ans.",
+        "Mettre un anneau de dentition au congélateur.",
+        "Attribuer une fièvre, une diarrhée ou des pleurs intenses aux dents."
+      ],
+      "consulter_si": "Consulter si : bébé a de la fièvre, refuse de boire, présente des plaques blanches dans la bouche, une éruption qui s'étend, une gencive qui saigne abondamment, ou paraît anormalement mou → pédiatre ou médecin traitant sans délai. Une fièvre ne s'explique jamais par les dents : elle se fait examiner.",
+      "source": "Source : ameli.fr (Assurance Maladie) — poussées dentaires : symptômes, soulagement et quand consulter."
+    },
+    {
+      "categorie": "dents",
+      "situation": "Refus alimentaire / pendant une poussée dentaire",
+      "titre": "Le refus pendant une poussée / proposer autrement",
+      "explication": "La diversification vient de commencer, et la première dent arrive : le calendrier est cruel. Une gencive douloureuse rend la cuillère désagréable, et bébé refuse ce qu'il acceptait la veille. Ce n'est pas un dégoût, ce n'est pas un recul de la diversification, et ce n'est surtout pas le moment d'insister. Un refus lié à la douleur se traite par la douleur, pas par la persuasion : du froid avant le repas, des textures apaisantes, et l'acceptation que quelques jours de moindre appétit ne posent aucun problème — le lait reste l'aliment principal.",
+      "ancrage": "Il ne refuse pas la nourriture : il refuse la douleur. On soulage la gencive avant le repas, et on n'insiste jamais.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — soulager avant de proposer",
+        "etapes": [
+          "Du froid avant le repas : un anneau réfrigéré ou un linge frais, quelques minutes avant.",
+          "Des textures apaisantes : purée lisse et fraîche plutôt que tiède — le froid soulage.",
+          "De petites quantités : quelques cuillerées suffisent — l'objectif n'est pas le volume.",
+          "Ne pas insister : s'il refuse, on arrête et on repropose au repas suivant.",
+          "Maintenir le lait : il reste l'aliment principal et couvre ses besoins."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — traverser la phase",
+        "etapes": [
+          "Un repas court : quelques minutes, sans objectif de quantité.",
+          "Bébé assis, tronc droit : toujours, et toujours surveillé.",
+          "Un environnement calme : sans écran, sans public, sans pression.",
+          "La pression du doigt propre sur la gencive : avant le repas, quelques secondes.",
+          "S'arrêter s'il se braque : le repas ne se force jamais."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Compter en jours : ces phases durent quelques jours et se résolvent seules.",
+        "Ne pas conclure au refus de la diversification : c'est la douleur qui parle, pas le goût.",
+        "Ne pas donner de médicament sans avis médical : y compris ceux vendus sans avis médical.",
+        "Reprendre normalement après : sans rattrapage, sans compensation."
+      ],
+      "principe": "Un refus pendant une poussée dentaire est un refus de la douleur, pas de la nourriture. On soulage la gencive, on propose peu, on n'insiste jamais — et le lait suffit pendant ces jours-là.",
+      "erreurs_a_eviter": [
+        "Insister ou forcer pour « ne pas perdre les acquis ».",
+        "Conclure qu'il n'aime pas l'aliment proposé.",
+        "Appliquer un gel anesthésiant sur les gencives.",
+        "Donner un médicament sans avis médical."
+      ],
+      "consulter_si": "Consulter si : bébé refuse de boire, présente de la fièvre, ne prend pas de poids, si sa courbe casse, s'il vomit de façon répétée, ou si le refus alimentaire dure plus de quelques jours → pédiatre ou médecin traitant. Une fièvre ne s'explique jamais par les dents.",
+      "source": "Source : ameli.fr (Assurance Maladie) — poussées dentaires : symptômes, soulagement et quand consulter."
+    },
+    {
+      "categorie": "dents",
+      "situation": "Réveils nocturnes dentaires / traversée temporaire",
+      "titre": "Les réveils dentaires / faire la part des choses",
+      "explication": "Il se réveille la nuit, et l'entourage a sa réponse : « ce sont les dents ». C'est l'explication universelle, et elle masque souvent autre chose. Une poussée dentaire peut réellement perturber quelques nuits — mais elle ne dure pas des semaines, et elle s'accompagne d'autres signes : gencive gonflée, mâchonnement, salivation. Autour de six mois, deux autres causes sont bien plus fréquentes : la réorganisation du sommeil, et les acquis moteurs rejoués la nuit. Attribuer tout aux dents empêche de traiter ce qui se traite vraiment.",
+      "ancrage": "« C'est les dents » est l'explication qui empêche de chercher. Une dent perturbe quelques nuits, pas plusieurs semaines.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — faire la part des choses",
+        "etapes": [
+          "Chercher les autres signes : gencive gonflée, mâchonnement, salivation, joue rouge — sinon ce ne sont probablement pas les dents.",
+          "Regarder la durée : une dent perturbe quelques nuits ; plusieurs semaines, c'est autre chose.",
+          "Vérifier les acquis moteurs : un retournement ou une nouvelle compétence rejoués la nuit expliquent bien plus de réveils.",
+          "Vérifier la journée : sur-fatigue et fenêtres d'éveil mal calibrées hachent la nuit.",
+          "Intervenir par paliers : voix, main posée, puis portage seulement si nécessaire."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : accompagner la nuit",
+        "etapes": [
+          "Dans le rituel du soir : toujours au même moment, après le bain.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Soulager la gencive en journée : froid et pression, pour que la nuit soit plus calme.",
+        "Ne pas donner de médicament sans avis : y compris ceux vendus sans avis médical.",
+        "Ne pas attribuer une fièvre aux dents : elle a toujours une autre cause, et elle se fait examiner.",
+        "Se rappeler la trajectoire : les nuits se réorganisent, et cela prend des semaines."
+      ],
+      "principe": "Une dent perturbe quelques nuits, pas plusieurs semaines. Tout attribuer aux dents empêche de traiter ce qui se traite : la sur-fatigue, les fenêtres d'éveil, les acquis moteurs.",
+      "erreurs_a_eviter": [
+        "Attribuer systématiquement tous les réveils aux dents.",
+        "Donner un médicament chaque soir « pour les dents » sans avis médical.",
+        "Attribuer une fièvre aux dents.",
+        "Changer de méthode de sommeil à chaque poussée supposée."
+      ],
+      "consulter_si": "Consulter si : bébé a de la fièvre, refuse de boire, présente des vomissements, une diarrhée, une éruption, s'il paraît anormalement mou, ou si les réveils s'accompagnent de pleurs inconsolables → pédiatre ou médecin traitant. Une fièvre ne s'explique jamais par les dents.",
+      "source": "Source : Institut national du sommeil et de la vigilance et ameli.fr — le sommeil de l'enfant."
+    },
+    {
+      "categorie": "dents",
+      "situation": "Mâchonnement intense / phase orale et préparation des dents",
+      "titre": "Le mâchonnement / la bouche est son premier outil",
+      "explication": "Il porte tout à sa bouche : ses mains, ses pieds, ses jouets, tes doigts, le coin du tapis. Ce n'est pas seulement lié aux dents — c'est le mode d'exploration principal de cet âge. La bouche est, à six mois, l'organe sensoriel le plus riche de son corps : elle lui apprend les formes, les textures, les températures, les limites. Empêcher ce geste, c'est le priver de son principal outil de connaissance. Ce qui se fait, en revanche : offrir des supports sûrs, et retirer sans discussion tout ce qui peut être avalé.",
+      "ancrage": "La bouche est son outil de connaissance, pas un mauvais réflexe. On ne l'empêche pas : on sécurise ce qui passe à portée.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — sécuriser ce qui traîne",
+        "etapes": [
+          "Balayer le sol du regard : rien de plus petit qu'une balle de ping-pong à portée.",
+          "Retirer les petites pièces : boutons, piles, capuchons, morceaux détachables — risque d'étouffement.",
+          "Vérifier les jouets : rien qui puisse se détacher, aucune ficelle, aucun cordon.",
+          "Offrir des supports sûrs : anneau de dentition, linge propre, objets assez gros et solides.",
+          "Le laisser faire : mains propres, objets propres — c'est tout."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — enrichir l'exploration",
+        "etapes": [
+          "Varier les textures : tissu, bois lisse, silicone — quelques objets, pas dix.",
+          "Nommer ce qu'il touche : « c'est dur, c'est doux » — les mots accompagnent la découverte.",
+          "Le laisser explorer ses pieds : ils sont un support d'exploration majeur à cet âge.",
+          "Ne pas interrompre : quand il explore, il travaille.",
+          "S'arrêter s'il se détourne : il indique qu'il en a assez."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Sécuriser la maison en avance : ce qu'il n'attrape pas encore, il l'attrapera dans quelques jours.",
+        "Ne jamais utiliser de collier d'ambre : risque d'étouffement et de strangulation.",
+        "Vérifier les piles boutons : elles sont mortelles si avalées — tout objet qui en contient se range en hauteur.",
+        "Se former aux gestes qui sauvent : une formation aux premiers secours est le meilleur investissement de cette période."
+      ],
+      "principe": "La bouche est son premier outil de connaissance. On ne l'empêche pas d'explorer : on sécurise ce qu'elle peut atteindre.",
+      "erreurs_a_eviter": [
+        "Empêcher bébé de porter les objets à sa bouche.",
+        "Laisser à portée des objets plus petits qu'une balle de ping-pong.",
+        "Utiliser un collier d'ambre — risque d'étouffement et de strangulation.",
+        "Laisser accessibles des piles boutons — elles peuvent être mortelles si avalées."
+      ],
+      "consulter_si": "Consulter si : bébé a avalé ou inhalé un objet — appeler immédiatement le 15, surtout en cas de pile bouton, même sans symptôme. Consulter si : il tousse de façon persistante, présente une respiration bruyante, une gêne à respirer, une salivation soudaine avec difficulté à avaler, ou s'il refuse de boire → pédiatre sans délai ; le 15 en cas de difficulté à respirer.",
+      "source": "Source : ameli.fr (Assurance Maladie) — poussées dentaires : symptômes, soulagement et quand consulter."
+    },
+    {
+      "categorie": "dents",
+      "situation": "Menton irrité par la bave / la peau rougit",
+      "titre": "Le menton irrité / protéger la peau",
+      "explication": "La salive coule en permanence, et la peau du menton, du cou et parfois du torse rougit, tiraille, se craquelle. La salive est irritante par nature, et une peau constamment humide finit par s'abîmer. Ce n'est pas un problème dentaire : c'est un problème de peau, et il se traite comme tel. Le principe : sécher souvent, protéger avec un émollient simple, et éviter la surenchère de produits. Une peau qui suinte, qui se couvre de croûtes jaunâtres ou qui s'étend relève, elle, d'un avis médical.",
+      "ancrage": "Ce n'est pas la dent qu'on traite, c'est la peau. Sécher souvent et protéger avec un produit simple suffit dans la grande majorité des cas.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — la routine du menton",
+        "etapes": [
+          "Tamponner souvent : un linge doux, plusieurs fois par jour — sans frotter.",
+          "Nettoyer à l'eau tiède : sans savon, une à deux fois par jour.",
+          "Sécher soigneusement : particulièrement dans les plis du cou.",
+          "Appliquer un émollient simple : sans parfum, en couche fine, sur la zone rouge.",
+          "Changer les vêtements humides : et le bavoir, dès qu'il est mouillé."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — protéger sans irriter",
+        "etapes": [
+          "Un bavoir en coton : changé souvent, plutôt qu'une peau constamment humide.",
+          "Application lente de la crème : à mains réchauffées, pression douce et constante, sans frotter.",
+          "Laisser respirer : quelques minutes sans bavoir, à l'air libre.",
+          "Nommer ce que tu fais : lui parler pendant le soin.",
+          "S'arrêter s'il se crispe : le soin doit rester bref et agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Éviter les produits parfumés : lingettes, laits, poudres — ils aggravent l'irritation.",
+        "Éviter les huiles essentielles : contre-indiquées chez le nourrisson.",
+        "Ne pas appliquer de crème médicamenteuse sans avis : ni cortisone, ni antifongique.",
+        "Protéger avant, pas seulement après : appliquer l'émollient avant les phases de bave intense."
+      ],
+      "principe": "La bave irrite la peau, pas la dent. Sécher souvent, protéger avec un produit simple, éviter la surenchère — et montrer une peau qui suinte ou qui s'étend.",
+      "erreurs_a_eviter": [
+        "Frotter la peau irritée pour la nettoyer.",
+        "Utiliser des lingettes parfumées ou du talc.",
+        "Appliquer une crème à la cortisone sans avis médical.",
+        "Laisser bébé avec un bavoir trempé pendant des heures."
+      ],
+      "consulter_si": "Consulter si : la peau suinte, saigne, se couvre de croûtes jaunâtres ou de pus, si les plaques s'étendent au visage ou au corps, si bébé se gratte, dort mal, ou présente de la fièvre → pédiatre ou médecin traitant.",
+      "source": "Source : ameli.fr (Assurance Maladie) — peau sèche et irritations de l'enfant : soins quotidiens et quand consulter."
+    }
+  ]
+}

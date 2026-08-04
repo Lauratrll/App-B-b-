@@ -1,0 +1,196 @@
+{
+  "mois": 5,
+  "tranche_age": "5 mois",
+  "categorie": {
+    "id": "digestion",
+    "nom": "Ventre & digestion",
+    "sous_titre": "Transit, régurgitations, nuits, réflexe nauséeux",
+    "icone": "🫧"
+  },
+  "protocoles": [
+    {
+      "categorie": "digestion",
+      "situation": "Ventre dur et selles espacées / avant même la diversification",
+      "titre": "Le ventre dur / la constipation avant les solides",
+      "explication": "Ton bébé pousse, rougit, se plaint, et ses selles sont dures et sèches. Il n'a pas encore commencé les solides : la cause est donc à chercher ailleurs — le plus souvent du côté du lait, de sa préparation, ou d'un simple ralentissement du transit. Deux points sont non négociables. D'abord, la constipation se définit par la consistance et le confort, jamais par la fréquence. Ensuite, rien ne se corrige à la maison : ni l'eau supplémentaire, ni le jus, ni un suppositoire, ni un changement de lait décidé seul.",
+      "ancrage": "Tu peux soulager son confort, mais tu ne corriges pas un transit toi-même. Ce protocole te dit quoi observer — et quand appeler.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — observer et soulager",
+        "etapes": [
+          "Regarder la consistance : dures et sèches, difficiles à évacuer — c'est ce qui définit la constipation.",
+          "Palper le ventre : dur et tendu en permanence, ou souple entre les selles.",
+          "Observer les signes associés : pleurs en poussant, refus de boire, vomissements, traces de sang.",
+          "Vérifier la préparation du biberon : une mesure rase pour 30 ml d'eau, selon la boîte — jamais plus de poudre.",
+          "Appeler le professionnel : pédiatre, médecin traitant ou PMI — cette semaine."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — confort du ventre",
+        "etapes": [
+          "Bébé sur le dos : plan ferme, jambes libres, pièce calme.",
+          "Flexion douce des jambes : ramener lentement ses genoux vers son ventre, puis relâcher.",
+          "Main posée sur le ventre : ta paume réchauffée, immobile, pression douce et constante.",
+          "Temps sur le ventre, éveillé et surveillé : le mouvement libre soutient le transit.",
+          "S'arrêter dès qu'il se crispe : sa réaction est la seule mesure."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne jamais modifier une préparation seul.e : ni la dose, ni la dilution, ni la marque — un lait infantile se change avec un médecin.",
+        "Ne rien introduire dans le siège : suppositoire, thermomètre, coton-tige — ces gestes ne s'improvisent pas.",
+        "Ne pas donner d'eau, de jus ou de tisane : avant six mois, le lait suffit.",
+        "Utiliser une eau adaptée : faiblement minéralisée, convenant à l'alimentation des nourrissons."
+      ],
+      "principe": "La constipation se juge sur la consistance et le confort, jamais sur la fréquence. Et elle ne se corrige pas à la maison : ni par l'eau, ni par un remède, ni par un changement de lait décidé seul.",
+      "erreurs_a_eviter": [
+        "Stimuler l'anus avec un thermomètre, un coton-tige ou un suppositoire.",
+        "Donner de l'eau, du jus de fruit ou une tisane à un bébé de moins de six mois.",
+        "Changer de lait de sa propre initiative.",
+        "Commencer la diversification pour « débloquer le transit » — le moment se décide avec le professionnel."
+      ],
+      "consulter_si": "Consulter si : les selles sont dures et sèches, si bébé se plaint en poussant, si tu vois des traces de sang, si le ventre est dur et tendu, s'il vomit, refuse de boire, ne prend pas de poids ou mouille très peu ses couches → pédiatre, médecin traitant ou PMI sans attendre. Le 15 en cas de ventre dur avec vomissements et arrêt total des selles et des gaz.",
+      "source": "Source : ameli.fr (Assurance Maladie) — constipation de l'enfant : que faire et quand consulter."
+    },
+    {
+      "categorie": "digestion",
+      "situation": "Il régurgite assis / le redressement change tout",
+      "titre": "Les régurgitations et le redressement / ce qui s'améliore",
+      "explication": "À cinq mois, ton bébé passe beaucoup plus de temps redressé — et c'est une bonne nouvelle pour les remontées : la gravité travaille désormais avec lui. Chez beaucoup de bébés, les régurgitations commencent à diminuer nettement à partir de ce moment, et elles s'estomperont encore quand il s'assoira seul et se déplacera. Si elles persistent, la persistance seule n'est pas un critère. Ce qui compte reste inchangé : la courbe de poids, la douleur pendant ou après les prises, et le retentissement sur le sommeil et l'alimentation.",
+      "ancrage": "Le redressement joue en ta faveur. Si les remontées persistent malgré cela, ce n'est pas leur quantité qui compte — ce sont les trois critères que tu vas observer.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — évaluer sur les bons critères",
+        "etapes": [
+          "Vérifier la courbe : une progression régulière est le critère le plus rassurant.",
+          "Observer la douleur : se cambre-t-il, pleure-t-il pendant ou après les prises, de façon répétée ?",
+          "Observer le retentissement : refuse-t-il de boire, dort-il mal, tousse-t-il pendant les prises ?",
+          "Distinguer du vomissement : la régurgitation remonte sans effort, le vomissement est projeté.",
+          "Noter ce que tu vois : ces observations sont exactement ce dont le professionnel a besoin."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — profiter du redressement",
+        "etapes": [
+          "Le garder vertical après la prise : contre toi, quelques minutes, sans le remuer.",
+          "Jouer redressé : le tenir assis contre toi, calé, pendant les temps d'éveil.",
+          "Fractionner les prises : un peu moins, un peu plus souvent, si les grosses prises remontent.",
+          "Vêtements desserrés : vérifier qu'aucun élastique ne comprime son ventre.",
+          "Coucher sur le dos : la règle ne change pas, même chez un bébé qui régurgite."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne jamais l'installer assis sans appui : il ne doit pas être placé dans une position qu'il n'atteint pas seul.",
+        "Ne rien surélever soi-même : coussins, cales et matelas inclinés augmentent le risque d'étouffement.",
+        "Ne rien épaissir ni changer sans avis : lait, préparation, traitement se décident avec le médecin.",
+        "Se rappeler la trajectoire : les remontées s'atténuent nettement quand bébé s'assoit et se déplace."
+      ],
+      "principe": "La persistance n'est pas un critère. Ce qui compte, ce sont le poids, la douleur et le retentissement — trois observations qui appartiennent au parent, la conclusion au médecin.",
+      "erreurs_a_eviter": [
+        "Installer bébé assis calé dans des coussins pour limiter les remontées — dangereux et contraire au développement libre.",
+        "Surélever la tête du lit ou glisser un coussin sous le matelas.",
+        "Donner un médicament ou épaissir le lait sans avis médical.",
+        "Nommer une pathologie à partir de ce qu'on lit en ligne."
+      ],
+      "consulter_si": "Consulter si : les régurgitations s'accompagnent de pleurs importants pendant ou après les prises, d'un refus de boire, d'une cassure de la courbe de poids, de vomissements en jet, de sang ou de bile, de toux ou de gêne respiratoire répétée, ou de malaises → pédiatre sans attendre ; le 15 en cas de malaise ou de difficulté à respirer.",
+      "source": "Source : Haute Autorité de Santé — « Reflux du nourrisson : un médicament est-il nécessaire ? », document destiné aux parents (2024)."
+    },
+    {
+      "categorie": "digestion",
+      "situation": "Gargouillis et gaz nocturnes / des réveils inconfortables",
+      "titre": "Les gargouillis de nuit / réveil digestif ou fin de cycle ?",
+      "explication": "Il gargouille, il pousse, il se tortille, il grogne — et tu te lèves, tu le prends, tu le nourris. Souvent, il ne se réveillait pas. À cinq mois, deux phénomènes se superposent la nuit : un sommeil encore riche en agitation, avec des micro-réveils de fin de cycle où il se rendort seul si on ne l'interrompt pas ; et une digestion qui travaille. Nourrir un bébé qui n'a pas faim ne le rendort pas mieux — cela installe un vrai réveil là où il n'y avait qu'un passage, et cela peut ajouter de l'inconfort digestif.",
+      "ancrage": "Un bébé qui gargouille n'est pas forcément un bébé réveillé. Attendre deux minutes reste le geste le plus utile de la nuit.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — attendre avant d'agir",
+        "etapes": [
+          "Attendre une à deux minutes : beaucoup d'agitations se résolvent seules.",
+          "Écouter le type de son : un grognement de sommeil n'est pas un appel ; un vrai pleur monte et se maintient.",
+          "Intervenir par paliers : d'abord la voix, puis la main posée, puis le portage seulement si nécessaire.",
+          "Ne pas allumer la lumière : la pénombre du début à la fin.",
+          "Ne pas nourrir par réflexe : si la dernière prise est récente, laisser la fin de cycle passer."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — confort et fin de cycle",
+        "etapes": [
+          "Main posée sur son ventre : immobile, ta paume réchauffée, sans le sortir du lit.",
+          "Voix basse : quelques mots, toujours les mêmes.",
+          "Vérifier l'essentiel : couche, température de la pièce entre 18 et 20 °C, vêtements pas trop serrés.",
+          "Attendre encore : rester à côté sans agir une minute de plus avant de le prendre.",
+          "Le prendre seulement s'il se réveille vraiment : pleurs francs, qui montent et se maintiennent."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Traiter la journée, pas la nuit : sur-fatigue et fenêtres d'éveil trop longues hachent la nuit bien plus que le transit.",
+        "Ne pas conclure au ventre : à cinq mois, la digestion est rarement en cause dans les micro-réveils.",
+        "Se relayer : chaque parent une moitié de nuit, pour un bloc continu chacun.",
+        "Observer sur plusieurs nuits : un schéma qui se répète est une information utile pour le professionnel."
+      ],
+      "principe": "Un gargouillis n'est pas un réveil. Intervenir trop tôt transforme un micro-réveil en réveil complet — et nourrir un bébé qui n'a pas faim ne consolide rien.",
+      "erreurs_a_eviter": [
+        "Prendre bébé dans les bras au premier grognement.",
+        "Proposer une tétée ou un biberon à chaque agitation nocturne.",
+        "Allumer la lumière et parler normalement pendant la nuit.",
+        "Attribuer tous les réveils au ventre."
+      ],
+      "consulter_si": "Consulter si : bébé se réveille en hurlant de façon inconsolable, s'il présente de la fièvre, des vomissements, un ventre dur et tendu, s'il refuse de boire, ne prend pas de poids, ou présente des pauses respiratoires ou une respiration bruyante et gênée → pédiatre sans délai ; le 15 en cas de trouble respiratoire.",
+      "source": "Source : Institut national du sommeil et de la vigilance et ameli.fr — le sommeil de l'enfant : étapes, cycles et évolution."
+    },
+    {
+      "categorie": "digestion",
+      "situation": "Il a des hauts-le-cœur à la cuillère / avant même de commencer",
+      "titre": "Le réflexe nauséeux / un mécanisme de protection",
+      "explication": "Dès qu'une cuillère approche, il tousse, il a un haut-le-cœur, parfois il vomit un peu. Ce n'est ni un dégoût, ni un refus, ni le signe qu'il n'est pas prêt : c'est un réflexe nauséeux, un mécanisme de protection qui empêche les corps étrangers d'aller trop loin dans la gorge. Chez le nourrisson, il se déclenche très en avant sur la langue, et il recule progressivement avec l'âge. Le confondre avec un refus conduit à abandonner ou à forcer — deux erreurs. La bonne réponse est technique : cuillère souple, petites quantités, position bien redressée, et surtout jamais de pression.",
+      "ancrage": "Un haut-le-cœur n'est pas un refus : c'est une protection. Ce n'est pas son goût qui doit être convaincu — c'est ta technique qui s'ajuste.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — ajuster la technique",
+        "etapes": [
+          "Position bien redressée : bébé assis, tronc droit, jamais allongé ni à demi-couché.",
+          "Une cuillère souple et petite : qu'il puisse téter, pas une cuillère rigide qu'on enfonce.",
+          "Déposer sur le bout de la langue : ne jamais pousser la cuillère au fond de la bouche.",
+          "De très petites quantités : quelques millimètres de préparation, pas une cuillerée pleine.",
+          "S'arrêter au premier haut-le-cœur : on retire, on attend, on repropose plus tard."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — apprivoiser la cuillère",
+        "etapes": [
+          "Lui laisser toucher la cuillère : la tenir, l'explorer, la porter seul à la bouche.",
+          "Le laisser fixer le rythme : il ouvre la bouche, on avance ; il détourne, on arrête.",
+          "Un environnement calme : pas d'écran, pas d'agitation, pas de public.",
+          "Ne jamais distraire pour faire avaler : cela court-circuite ses signaux.",
+          "S'arrêter s'il se braque : le repas ne se force jamais."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Respecter les textures : les débuts de diversification se font en préparations lisses ; les morceaux viennent bien plus tard.",
+        "Ne jamais forcer : la pression au repas est le facteur qui installe durablement les difficultés alimentaires.",
+        "Distinguer haut-le-cœur et étouffement : un bébé qui tousse et émet du bruit dégage ses voies ; un bébé silencieux, qui ne respire plus et change de couleur, est en train de s'étouffer — c'est une urgence.",
+        "Se former aux gestes d'urgence : les gestes qui sauvent en cas d'étouffement s'apprennent, et cela vaut la peine."
+      ],
+      "principe": "Le réflexe nauséeux protège, il ne refuse pas. Position redressée, cuillère souple, petites quantités, aucune pression : c'est la technique qui s'ajuste, jamais l'enfant qu'on convainc.",
+      "erreurs_a_eviter": [
+        "Pousser la cuillère au fond de la bouche.",
+        "Nourrir bébé allongé ou à demi-couché — risque de fausse route.",
+        "Insister ou distraire pour « faire passer » une cuillerée.",
+        "Conclure qu'il n'aime pas, ou qu'il n'est pas prêt, à partir d'un haut-le-cœur."
+      ],
+      "consulter_si": "Consulter si : bébé s'étouffe — silence, absence de toux, changement de couleur, difficulté à respirer → appeler le 15 immédiatement. Consulter si les hauts-le-cœur sont systématiques, s'il refuse toute prise, s'il vomit de façon répétée, ne prend pas de poids, ou si tu as un doute sur le démarrage de la diversification → pédiatre, médecin traitant ou PMI.",
+      "source": "Source : Santé publique France et ANSES — recommandations sur la diversification alimentaire des enfants de moins de 3 ans."
+    }
+  ]
+}

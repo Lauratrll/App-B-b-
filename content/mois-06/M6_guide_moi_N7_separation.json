@@ -1,0 +1,194 @@
+{
+  "mois": 6,
+  "tranche_age": "6 mois",
+  "categorie": {
+    "id": "sepa",
+    "nom": "Angoisse de séparation",
+    "sous_titre": "Permanence, préférence, retrouvailles",
+    "icone": "💜"
+  },
+  "protocoles": [
+    {
+      "categorie": "sepa",
+      "situation": "Préfiguration de l'angoisse de séparation / cherche du regard",
+      "titre": "La préfiguration / nommer le départ et le retour",
+      "explication": "Il te suit des yeux, se fige quand tu sors du champ, cherche ton visage dans la pièce. C'est le début de la permanence : il commence à comprendre que tu es une personne distincte, qui va et qui vient. Cette compréhension est un progrès — et elle est aussi le terreau de l'angoisse de séparation, qui atteindra son pic dans les mois à venir. Ce que tu poses maintenant compte énormément : nommer ton départ, nommer ton retour, systématiquement. C'est la répétition de ce couple qui construira sa confiance quand le pic arrivera.",
+      "ancrage": "Ce que tu construis maintenant servira au pic. Nommer le départ et le retour, à chaque fois, est le meilleur investissement de ce mois.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — nommer le couple départ-retour",
+        "etapes": [
+          "Annoncer le départ : « je vais dans la cuisine, je reviens » — toujours la même phrase.",
+          "Nommer le retour : « je suis partie, je suis revenue » — systématiquement.",
+          "Parler depuis l'autre pièce : ta voix est le fil qui relie quand ton corps s'éloigne.",
+          "Ne jamais partir en silence : la disparition brusque fabrique l'insécurité.",
+          "Revenir toujours : c'est la fiabilité du retour qui construit la confiance."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : nourrir la sécurité",
+        "etapes": [
+          "Un moment quotidien : bébé sur le dos, éveillé et calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Parler pendant le geste : ta voix associée au toucher devient un repère de sécurité.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Jouer à coucou : cacher ton visage et réapparaître — le jeu construit directement la permanence.",
+        "Cacher un objet sous un linge : et le faire réapparaître — même mécanisme, autre support.",
+        "Multiplier les micro-séparations : quelques minutes, plusieurs fois par jour, avec un autre adulte.",
+        "Anticiper le pic : l'angoisse de séparation s'intensifiera — ce que tu poses maintenant servira."
+      ],
+      "principe": "La permanence se construit par la répétition du couple départ-retour. Ce n'est pas la présence continue qui sécurise, c'est la fiabilité du retour.",
+      "erreurs_a_eviter": [
+        "Partir en cachette pour éviter les pleurs.",
+        "Éviter toute séparation pour « ne pas le perturber » — cela reporte et aggrave le pic.",
+        "Interpréter ces pleurs comme de la manipulation.",
+        "Le placer devant un écran pour l'occuper pendant ton absence."
+      ],
+      "consulter_si": "Consulter si : bébé ne cherche jamais ton visage ni ta voix, ne réagit pas aux bruits forts, ne sourit pas, paraît anormalement mou ou éteint, ou ne cherche jamais le contact → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition et de la vision.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Préférence parentale exclusive / phase normale",
+      "titre": "La préférence exclusive / un signe d'attachement",
+      "explication": "Il hurle dès que quelqu'un d'autre le prend, même le co-parent. Cette préférence exclusive est éprouvante, et elle est le signe d'un attachement qui fonctionne : il a identifié sa figure principale, et il la réclame. Mais elle contient un piège. Plus tu es la seule à réussir, plus les autres se retirent — et plus tu deviens irremplaçable, jusqu'à l'épuisement. La sortie ne passe pas par une rupture brutale : elle passe par des rituels que le co-parent construit à lui, dans des temps où tu n'es pas dans la pièce.",
+      "ancrage": "Cette préférence est un signe de sécurité — mais elle s'aggrave si les autres se retirent. Le co-parent gagne sa place par des rituels à lui, pas en t'assistant.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — installer les rituels du co-parent",
+        "etapes": [
+          "Deux moments récurrents : le bain, le coucher, une sortie — identifiés, pas ponctuels.",
+          "Sortir physiquement de la pièce : ta présence entretient le refus.",
+          "Laisser faire à sa façon : sans consigne, sans correction, sans commentaire après.",
+          "Tenir malgré les pleurs : bébé peut protester au début — cela ne veut pas dire que cela échoue.",
+          "Répéter souvent et court : la fréquence prime largement sur la durée."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : un repère transmissible",
+        "etapes": [
+          "Le co-parent fait le geste : la même séquence, à l'identique.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Toujours au même moment : le repère vient de la régularité, pas de la personne.",
+          "S'arrêter à sa demande : le geste doit rester agréable, quel que soit l'adulte."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Éviter le piège de l'irremplaçable : plus les autres se retirent, plus la charge te revient entièrement.",
+        "Lâcher le contrôle : c'est la condition, et c'est souvent le plus difficile.",
+        "Ne pas rompre brutalement : une séparation longue et non préparée aggrave l'exclusivité.",
+        "Se rappeler que cela s'inverse : les préférences parentales s'échangent souvent au fil des mois."
+      ],
+      "principe": "La préférence exclusive est un signe d'attachement sécure — mais elle se creuse si les autres se retirent. Le co-parent gagne sa place par des rituels propres, jamais en assistant.",
+      "erreurs_a_eviter": [
+        "Rester dans la pièce « pour rassurer » pendant que le co-parent s'en occupe.",
+        "Renoncer aux relais parce qu'« il ne veut que moi ».",
+        "Corriger la façon de faire du co-parent.",
+        "Imposer une longue séparation d'un coup, sans préparation."
+      ],
+      "consulter_si": "Consulter si : bébé refuse tout contact avec quiconque, y compris toi, s'il paraît éteint ou apathique, s'il ne sourit à personne, ou si l'épuisement lié à cette exclusivité devient dangereux pour toi → pédiatre, PMI, ou Allo Parents Bébé (0 800 00 34 56)."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Anxiété visuelle / quand l'absence n'est pas tolérée",
+      "titre": "L'absence intolérable / la voix prend le relais",
+      "explication": "Il ne supporte plus de ne pas te voir. Tu vas aux toilettes, il hurle. Tu te retournes pour prendre un objet, il panique. À six mois, le lien passe encore massivement par les yeux : ce qui n'est pas vu n'existe pas. Ce n'est pas de l'excès d'attachement, ce n'est pas une dépendance à corriger : c'est un cerveau qui construit la permanence, et qui n'y est pas encore. Ta voix est l'outil de transition : elle maintient le lien quand le regard se rompt, et elle lui enseigne, littéralement, que tu continues d'exister.",
+      "ancrage": "Ce qui n'est pas vu n'existe pas encore pour lui. Ta voix est ce qui comble ce vide — et ce qui lui apprend, peu à peu, que tu es toujours là.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — la voix continue",
+        "etapes": [
+          "Parler sans interruption : dès que tu sors de son champ, ta voix continue.",
+          "Annoncer et commenter : « je prends la serviette, je reviens, je suis là » — un flux continu.",
+          "Revenir montrer ton visage : brièvement, à intervalles réguliers.",
+          "L'installer là où il te voit : au sol, en sécurité, dans ton champ.",
+          "Ne pas partir en silence : c'est la disparition brusque qui l'inquiète, pas l'absence."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : ancrer la sécurité",
+        "etapes": [
+          "Un moment quotidien : bébé sur le dos, éveillé et calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Ta voix pendant le geste : associée au toucher, elle devient un repère.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Jouer à coucou : plusieurs fois par jour — c'est le meilleur entraînement à la permanence.",
+        "Allonger progressivement : quelques secondes de plus hors du champ, avec ta voix.",
+        "Ne pas éviter les séparations : les éviter reporte et aggrave le pic à venir.",
+        "Se rappeler que c'est temporaire : la permanence s'installera, et cette anxiété se transformera."
+      ],
+      "principe": "À six mois, ce qui n'est pas vu n'existe pas encore. Ta voix construit la permanence — et c'est elle, pas ta présence continue, qui le rendra capable de te laisser partir.",
+      "erreurs_a_eviter": [
+        "Partir en silence pour éviter les pleurs.",
+        "Éviter toute absence pour ne pas le perturber.",
+        "Le prendre dans les bras à chaque appel — ta voix suffit souvent.",
+        "Le placer devant un écran pendant ton absence."
+      ],
+      "consulter_si": "Consulter si : bébé ne se calme jamais, même quand tu reviens, s'il ne cherche jamais ton visage ni ta voix, s'il ne réagit pas aux bruits forts, ou s'il paraît anormalement mou ou éteint → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition et de la vision.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Décharge au retour / bébé pleure plus quand tu rentres",
+      "titre": "La décharge du retour / une preuve de sécurité",
+      "explication": "Il a passé une bonne journée chez la nounou — et dès que tu franchis la porte, il hurle. C'est violent à recevoir, et cela ressemble à un reproche. Ce n'en est pas un. Toute la journée, il a tenu : il s'est adapté, il a contenu. Ton retour est le signal que le relâchement est possible — parce qu'avec toi, il n'a rien à prouver. Cette décharge est une preuve de sécurité d'attachement, pas un jugement sur ta journée. Ce qu'il demande à cet instant n'est pas du jeu, ni des excuses : c'est du calme.",
+      "ancrage": "Il ne te reproche rien : il se relâche. Cette décharge est la preuve que tu es sa base de sécurité — c'est un compliment déguisé.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — accueillir sans compenser",
+        "etapes": [
+          "Accueillir sans animer : le prendre, le tenir, sans jouer ni parler beaucoup.",
+          "Ne pas compenser par de la stimulation : pas de jeu, pas de sortie, pas d'écran.",
+          "Un retour au calme : pièce sombre, silence, contact.",
+          "Nommer ce qu'il vit : « tu as gardé beaucoup pour toi, tu peux tout lâcher maintenant ».",
+          "Accepter la durée : cette décharge peut prendre du temps."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : le rituel des retrouvailles",
+        "etapes": [
+          "Au retour, chaque soir : toujours au même moment, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : après une journée en collectivité, il peut avoir besoin de calme d'abord."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne pas culpabiliser : cette décharge n'est pas un signe qu'il a mal vécu sa journée.",
+        "Protéger la première demi-heure : sans écran, sans tâche ménagère, sans téléphone.",
+        "Se méfier de la sur-compensation : la culpabilité pousse à stimuler — c'est l'inverse qu'il demande.",
+        "Retenir le mécanisme : un enfant décharge auprès de celui ou celle qui le sécurise le plus."
+      ],
+      "principe": "La décharge du retour est une preuve de sécurité, pas un reproche. Ce qu'il demande à cet instant, c'est du calme — jamais de la compensation.",
+      "erreurs_a_eviter": [
+        "Compenser par du jeu, une sortie ou une animation.",
+        "Interpréter ses pleurs comme la preuve qu'il a été malheureux.",
+        "Enchaîner les tâches ménagères dès le retour.",
+        "Se justifier ou s'excuser auprès de lui."
+      ],
+      "consulter_si": "Consulter si : bébé paraît éteint ou apathique, s'il refuse de boire ou de manger chez la personne qui garde pendant plusieurs jours, s'il perd du poids, ou s'il pleure de façon inconsolable en permanence → pédiatre, PMI, ou psychologue périnatal."
+    }
+  ]
+}

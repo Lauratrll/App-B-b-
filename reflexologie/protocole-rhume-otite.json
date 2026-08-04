@@ -19,7 +19,7 @@
     {
       "ordre": 1,
       "designation": "les sinus",
-      "intention": "De petits points sur les orteils : dégager le visage, respirer plus librement.",
+      "intention": "On réveille en douceur les sinus, à la pointe des orteils.",
       "zones": [
         {
           "zone": "sinus",
@@ -31,21 +31,8 @@
     },
     {
       "ordre": 2,
-      "designation": "le nez et les oreilles",
-      "intention": "On suit la croix du gros orteil : apaiser le nez et les oreilles.",
-      "zones": [
-        {
-          "zone": "oreilles-nez",
-          "designation": "le nez et les oreilles",
-          "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
-        }
-      ]
-    },
-    {
-      "ordre": 3,
       "designation": "l'hypophyse",
-      "intention": "Un point délicat sur le gros orteil : on invite tout l'intérieur au calme.",
+      "intention": "On réveille le chef d'orchestre du corps.",
       "zones": [
         {
           "zone": "hypophyse",
@@ -56,9 +43,22 @@
       ]
     },
     {
+      "ordre": 3,
+      "designation": "le nez",
+      "intention": "On glisse en croix sur le nez — on vise les sinus profonds — pour aider à dégager.",
+      "zones": [
+        {
+          "zone": "nez",
+          "designation": "le nez",
+          "mouvement": "pression-glissee",
+          "description_mouvement": "Faites glisser le pouce en croix : de haut en bas, puis du bord vers les autres orteils"
+        }
+      ]
+    },
+    {
       "ordre": 4,
       "designation": "les amygdales",
-      "intention": "Orteil après orteil, à leur base : soutenir la gorge, apaiser.",
+      "intention": "On apaise les amygdales, à la base du gros orteil.",
       "zones": [
         {
           "zone": "amygdales",
@@ -70,12 +70,12 @@
     },
     {
       "ordre": 5,
-      "designation": "le diaphragme",
-      "intention": "Un lissage lent en travers du pied : relâcher le souffle et les tensions.",
+      "designation": "les oreilles",
+      "intention": "On glisse sur les oreilles, de l'intérieur vers l'extérieur, pour soulager la sensation de pression.",
       "zones": [
         {
-          "zone": "diaphragme",
-          "designation": "le diaphragme",
+          "zone": "oreilles",
+          "designation": "les oreilles",
           "mouvement": "pression-glissee",
           "description_mouvement": "Faites glisser le pouce le long de la zone"
         }
@@ -83,21 +83,8 @@
     },
     {
       "ordre": 6,
-      "designation": "le plexus solaire",
-      "intention": "Au centre de la voûte, une pression douce et maintenue : le point d'apaisement des émotions.",
-      "zones": [
-        {
-          "zone": "plexus-solaire",
-          "designation": "le plexus solaire",
-          "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
-        }
-      ]
-    },
-    {
-      "ordre": 7,
       "designation": "les poumons",
-      "intention": "De petits cercles qui avancent sur le coussinet : ouvrir le souffle, laisser respirer.",
+      "intention": "On ouvre la respiration, on aide bébé à mieux respirer.",
       "zones": [
         {
           "zone": "poumon",
@@ -108,22 +95,74 @@
       ]
     },
     {
-      "ordre": 8,
-      "designation": "l'intestin grêle",
-      "intention": "De petits cercles au centre du pied : apaiser le ventre, dénouer.",
+      "ordre": 7,
+      "designation": "le diaphragme",
+      "intention": "On relâche la coupole du ventre : le souffle se déplie.",
       "zones": [
         {
-          "zone": "intestin-grele",
-          "designation": "l'intestin grêle",
-          "mouvement": "spirale-centripete",
-          "description_mouvement": "Effectuez un mouvement circulaire de l'extérieur vers le centre"
+          "zone": "diaphragme",
+          "designation": "le diaphragme",
+          "mouvement": "pression-glissee",
+          "description_mouvement": "Faites glisser le pouce le long de la zone"
+        }
+      ]
+    },
+    {
+      "ordre": 8,
+      "designation": "le plexus solaire",
+      "intention": "On apaise le centre des émotions.",
+      "zones": [
+        {
+          "zone": "plexus-solaire",
+          "designation": "le plexus solaire",
+          "mouvement": "pression-maintenue",
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
         }
       ]
     },
     {
       "ordre": 9,
+      "designation": "la rate",
+      "intention": "On soutient la rate, alliée des défenses (pied gauche).",
+      "zones": [
+        {
+          "zone": "rate",
+          "designation": "la rate",
+          "mouvement": "pression-circulaire",
+          "description_mouvement": "Exercez une pression circulaire sur la zone"
+        }
+      ]
+    },
+    {
+      "ordre": 10,
+      "designation": "l'intestin grêle",
+      "intention": "On accompagne le ventre, étroitement lié à l'immunité.",
+      "zones": [
+        {
+          "zone": "intestin-grele",
+          "designation": "l'intestin grêle",
+          "mouvement": "boucles-progressives",
+          "description_mouvement": "Effectuez de petits cercles qui avancent, du bord extérieur du pied vers l’intérieur"
+        }
+      ]
+    },
+    {
+      "ordre": 11,
+      "designation": "les ganglions lymphatiques",
+      "intention": "On soutient le drainage, les petits filtres du corps.",
+      "zones": [
+        {
+          "zone": "ganglions-lympahtiques",
+          "designation": "les ganglions lymphatiques",
+          "mouvement": "pression-maintenue",
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+        }
+      ]
+    },
+    {
+      "ordre": 12,
       "designation": "le thymus",
-      "intention": "Un point doux sur le thymus : sécuriser, renforcer le sentiment de protection.",
+      "intention": "On soutient les défenses immunitaires.",
       "zones": [
         {
           "zone": "thymus",
@@ -134,26 +173,13 @@
       ]
     },
     {
-      "ordre": 10,
+      "ordre": 13,
       "designation": "les surrénales",
-      "intention": "Un appui posé sur les surrénales : calmer l'agitation, apaiser le stress.",
+      "intention": "On soutient l'énergie et l'équilibre du corps.",
       "zones": [
         {
           "zone": "surrenales",
           "designation": "les surrénales",
-          "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
-        }
-      ]
-    },
-    {
-      "ordre": 11,
-      "designation": "les ganglions lymphatiques",
-      "intention": "On stimule doucement les ganglions, point par point : soutenir les défenses.",
-      "zones": [
-        {
-          "zone": "ganglions-lympahtiques",
-          "designation": "les ganglions lymphatiques",
           "mouvement": "pression-maintenue",
           "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
         }
@@ -164,5 +190,8 @@
   "disclaimer": "La Réflexologie plantaire ne se substitue pas à un avis médical.",
   "lancement": true,
   "sujet_sensible": true,
-  "visuel": "visuels-protocoles/Visuel - Rhume, otite.png"
+  "visuel": "visuels-protocoles/Visuel - Rhume, otite.png",
+  "age_min_mois": 6,
+  "age_max_mois": 23,
+  "age_statut": "brouillon"
 }

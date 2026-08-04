@@ -1,0 +1,288 @@
+{
+  "mois": 10,
+  "tranche_age": "10 mois",
+  "categorie": {
+    "id": "alim",
+    "nom": "Alimentation & digestion",
+    "sous_titre": "Imitation, pince fine, morceaux, lait",
+    "icone": "🥄"
+  },
+  "protocoles": [
+    {
+      "categorie": "alim",
+      "situation": "Il veut manger comme nous / il refuse son assiette",
+      "titre": "Il veut manger comme vous / l'imitation devient le moteur",
+      "explication": "Il repousse sa purée, tend la main vers ton assiette, et hurle. Ce n'est pas un caprice : l'imitation vient de devenir son premier moteur d'appétit. Ce qu'il veut manger, ce n'est pas ton plat — c'est ce que tu manges, parce que tu le manges. C'est une excellente nouvelle, et c'est un levier bien plus puissant que n'importe quelle recette. Manger ensemble, à la même table, en même temps, fait davantage pour son alimentation que tous les efforts déployés pour lui préparer un plat séparé.",
+      "ancrage": "Il ne veut pas ton assiette : il veut manger comme toi. Manger ensemble fait plus que n'importe quelle recette.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — manger ensemble",
+        "etapes": [
+          "L'installer à table avec vous : au même moment, pas avant.",
+          "Manger devant lui : l'imitation est le moteur — il mange parce que tu manges.",
+          "Lui donner les mêmes aliments : adaptés en taille et en texture, sans sel ajouté, sans sucre.",
+          "Le laisser piocher : dans son assiette, avec les doigts — c'est ainsi qu'il apprend.",
+          "Toujours assis, tronc droit, surveillé : jamais en mouvement, jamais seul."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — un repas partagé",
+        "etapes": [
+          "Un repas court : quelques minutes suffisent — l'attention est limitée.",
+          "Un environnement calme : sans écran, sans agitation.",
+          "Nommer ce qu'il mange : simplement, sans surjouer.",
+          "Accepter le désordre : c'est le prix de l'apprentissage.",
+          "S'arrêter s'il se braque : le repas ne se force jamais."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Adapter, ne pas séparer : les mêmes aliments, coupés, écrasés, sans sel et sans sucre.",
+        "Ne jamais saler : les reins d'un jeune enfant ne le supportent pas — cela vaut pour toute la famille au repas.",
+        "Bannir les aliments à risque : raisin entier, fruits à coque, rondelles, morceaux durs ou glissants.",
+        "Le lait reste la base : au moins 500 ml de lait de suite par jour jusqu'à un an."
+      ],
+      "principe": "L'imitation est devenu son premier moteur. Manger ensemble, les mêmes aliments adaptés, fait plus pour son alimentation que n'importe quelle recette séparée.",
+      "erreurs_a_eviter": [
+        "Le faire manger seul, avant les adultes.",
+        "Lui préparer un plat totalement séparé.",
+        "Saler ou sucrer sa nourriture.",
+        "Donner un aliment à risque d'étouffement."
+      ],
+      "consulter_si": "Consulter si : bébé s'étouffe — silence, absence de toux, changement de couleur → appeler immédiatement le 15. Consulter si : il refuse de manger depuis plusieurs jours, ne prend pas de poids, si sa courbe casse, ou s'il vomit de façon répétée → pédiatre ou médecin traitant.",
+      "source": "Source : ameli.fr (Assurance Maladie) — l'alimentation de l'enfant de 8 mois à 3 ans : le lait de suite enrichi en fer reste indispensable jusqu'à un an."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Il attrape tout entre deux doigts / pince fine et vigilance",
+      "titre": "La pince fine / l'autonomie et le risque, ensemble",
+      "explication": "Il attrape désormais entre le pouce et l'index : c'est la pince fine, et c'est une acquisition majeure. Elle ouvre l'autonomie alimentaire — il peut saisir seul de petits morceaux — et elle ouvre en même temps un risque : ce qu'il attrape va directement dans sa bouche, y compris ce qui traîne au sol. Les deux vont ensemble, et ils demandent la même réponse : tailler les aliments correctement, et bannir sans exception ceux qui présentent un risque d'étouffement.",
+      "ancrage": "La pince fine ouvre l'autonomie et le risque en même temps. Ce qui les gère tous les deux : la taille des aliments, et ce qu'on ne donne jamais.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — tailler et bannir",
+        "etapes": [
+          "Jamais de grain de raisin entier : coupé en quatre, dans le sens de la longueur — c'est l'un des aliments les plus dangereux.",
+          "Jamais de fruits à coque entiers : cacahuète, noisette, amande — en poudre ou en purée fine seulement.",
+          "Jamais de rondelles : saucisse, carotte crue, tout ce qui est rond se coupe en longueur, ou ne se donne pas.",
+          "Des morceaux fondants : qui s'écrasent entre deux doigts — bâtonnets plutôt que cubes.",
+          "Toujours assis, tronc droit, surveillé : jamais en mouvement, jamais seul."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — soutenir l'autonomie",
+        "etapes": [
+          "Le laisser saisir seul : il dose mieux lui-même que tu ne doses pour lui.",
+          "Des bâtonnets à tenir : légumes bien cuits, longs, qu'il peut agripper.",
+          "Le laisser explorer avec les doigts : écraser, toucher, porter — cela fait partie du repas.",
+          "Trier le sol : le test du rouleau de papier toilette — tout ce qui passe dedans est trop petit.",
+          "S'arrêter s'il se braque : le repas ne se force jamais."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se former aux gestes qui sauvent : avec la pince fine et les morceaux, une formation aux premiers secours prend tout son sens.",
+        "Ranger les piles boutons en hauteur : elles peuvent être mortelles si avalées.",
+        "Retenir la distinction : il tousse et fait du bruit — il se protège ; il est silencieux et change de couleur — c'est le 15.",
+        "Ne jamais mettre les doigts dans sa bouche : cela peut enfoncer l'aliment."
+      ],
+      "principe": "La pince fine ouvre l'autonomie et le risque. La réponse est la même pour les deux : des aliments taillés correctement, et une liste de ce qu'on ne donne jamais.",
+      "erreurs_a_eviter": [
+        "Donner un grain de raisin entier, un fruit à coque ou une rondelle.",
+        "Laisser à portée un objet plus petit qu'un rouleau de papier toilette.",
+        "Nourrir bébé en mouvement, en voiture, ou sans surveillance.",
+        "Mettre les doigts dans sa bouche pour retirer un aliment."
+      ],
+      "consulter_si": "Consulter si : bébé s'étouffe — silence, absence de toux, difficulté à respirer, changement de couleur → appeler immédiatement le 15 ou le 112. Après tout épisode d'étouffement, même résolu, ou en cas de toux persistante après un repas → consulter sans délai : un fragment peut être resté dans les voies respiratoires. En cas d'ingestion de pile bouton → le 15 immédiatement, même sans symptôme.",
+      "source": "Source : ANSES et ameli.fr — aliments à risque de fausse route et corps étranger inhalé chez le jeune enfant."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Il ne veut plus de purée lisse / seulement des morceaux",
+      "titre": "Il ne veut plus de lisse / c'est une bonne nouvelle",
+      "explication": "Il repousse la purée lisse et réclame ce qu'il peut attraper. C'est une excellente nouvelle : le passage aux morceaux est un progrès, et il arrive exactement dans la fenêtre où il doit arriver. La tentation, par sécurité, est de revenir en arrière — de remixer, de lisser à nouveau. C'est contre-productif : cela retarde un apprentissage dont la fenêtre se referme après un an. Ce qui se fait : adapter les textures et la taille des morceaux, jamais revenir en arrière.",
+      "ancrage": "Refuser le lisse est un progrès, pas un problème. On adapte les morceaux — on ne remixe pas.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — adapter, pas reculer",
+        "etapes": [
+          "Des morceaux fondants : qui s'écrasent entre deux doigts — légumes bien cuits, fruits mûrs.",
+          "Des bâtonnets à saisir : plutôt que des cubes — plus faciles à tenir et plus sûrs.",
+          "Écraser plutôt que mixer : la fourchette remplace le mixeur.",
+          "Le laisser porter seul à la bouche : il dose mieux lui-même.",
+          "Toujours assis : tronc droit, surveillé, jamais en mouvement."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — accompagner le progrès",
+        "etapes": [
+          "Le laisser explorer avec les doigts : cela fait partie de l'apprentissage.",
+          "Manger la même chose devant lui : l'imitation guide la mastication.",
+          "Un environnement calme : sans écran, sans pression.",
+          "Nommer ce qu'il fait : « tu manges tout seul ».",
+          "S'arrêter s'il se braque : le repas ne se force jamais."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne pas revenir en arrière : remixer retarde un apprentissage dont la fenêtre se referme après un an.",
+        "Distinguer haut-le-cœur et étouffement : il tousse — il se protège ; il est silencieux et change de couleur — c'est le 15.",
+        "Bannir les aliments à risque : raisin entier, fruits à coque, rondelles, morceaux durs.",
+        "Se former aux gestes qui sauvent : c'est le meilleur antidote à la peur."
+      ],
+      "principe": "Refuser le lisse est un progrès à accompagner, jamais à freiner. On adapte la texture et la taille — on ne revient jamais en arrière par précaution.",
+      "erreurs_a_eviter": [
+        "Remixer par sécurité.",
+        "Retarder les morceaux par peur de l'étouffement.",
+        "Donner des morceaux durs, ronds ou glissants.",
+        "Nourrir bébé sans surveillance."
+      ],
+      "consulter_si": "Consulter si : bébé s'étouffe — silence, absence de toux, changement de couleur → appeler immédiatement le 15. Consulter si : les étouffements sont répétés, s'il tousse de façon persistante après les repas, ou s'il ne prend pas de poids → pédiatre sans délai.",
+      "source": "Source : Santé publique France et ANSES — recommandations sur la diversification alimentaire des enfants de moins de 3 ans."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Quel lait après dix mois / sein, lait de suite, lait de vache",
+      "titre": "Quel lait après dix mois / le lait de vache attend un an",
+      "explication": "« Il peut passer au lait de vache, maintenant. » C'est l'un des conseils les plus fréquents, et il est risqué. Avant un an, le lait de vache ne remplace pas le lait infantile : il est très pauvre en fer, et l'utiliser comme lait principal expose à une carence en fer — fréquente chez le nourrisson, et aux conséquences réelles sur le développement. Les repères français sont clairs : au moins 500 ml par jour de lait maternel ou de lait de suite enrichi en fer, jusqu'à un an au minimum.",
+      "ancrage": "Le lait de vache n'est pas un lait infantile : il est pauvre en fer. Avant un an, le lait de suite ou le lait maternel restent la base.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — les repères",
+        "etapes": [
+          "Au moins 500 ml par jour : de lait maternel ou de lait de suite (2ᵉ âge), jusqu'à un an au minimum.",
+          "Le lait de suite est enrichi en fer : c'est ce qui le distingue du lait de vache.",
+          "Poursuivre l'allaitement si tu le souhaites : il reste parfaitement adapté, sans limite d'âge.",
+          "Ne pas remplacer par du lait de vache avant un an : le risque de carence en fer est réel.",
+          "Ne jamais donner de lait végétal : boissons d'amande, de riz, de soja — risque de carences graves chez le nourrisson."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — un repas équilibré",
+        "etapes": [
+          "Des sources de fer à chaque repas : viande, poisson, œuf, légumes secs bien cuits et écrasés.",
+          "De la vitamine C avec le fer : les fruits et légumes améliorent son absorption.",
+          "Proposer de l'eau : à chaque repas, dans une tasse — jamais de jus sucré.",
+          "Un rituel de prise : même position, même moment.",
+          "S'arrêter quand il lâche : ne jamais forcer la fin d'un biberon."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Comprendre le pourquoi : le lait de vache est très pauvre en fer, et la carence en fer est fréquente chez le nourrisson.",
+        "Ne rien changer sans avis : le passage d'un lait à un autre se décide avec le professionnel.",
+        "Ne pas culpabiliser si un lait de vache a été donné : en parler simplement au médecin, sans dramatiser.",
+        "En parler lors de la consultation : le suivi médical existe exactement pour cela."
+      ],
+      "principe": "Le lait de vache n'est pas un lait infantile : il ne couvre pas les besoins en fer avant un an. Le lait de suite ou le lait maternel restent la base — au moins 500 ml par jour.",
+      "erreurs_a_eviter": [
+        "Remplacer le lait infantile par du lait de vache avant un an.",
+        "Donner un lait végétal — risque de carences graves.",
+        "Réduire le lait parce qu'il mange bien — les solides ne le remplacent pas encore.",
+        "Changer de lait sur conseil d'un proche ou d'un vendeur."
+      ],
+      "consulter_si": "Consulter si : bébé boit nettement moins de 500 ml de lait par jour, s'il paraît pâle, fatigué, moins tonique, s'il ne prend pas de poids, si sa courbe casse, ou si tu as un doute sur le lait à lui donner → pédiatre ou médecin traitant. La carence en fer est fréquente et se dépiste simplement.",
+      "source": "Source : ameli.fr (Assurance Maladie) — bien couvrir ses besoins en fer selon l'âge ; ANSES — l'alimentation des nourrissons."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Ses selles changent à chaque aliment / je ne sais plus quoi lui donner",
+      "titre": "Les selles qui changent / sortir de l'hypervigilance",
+      "explication": "Chaque nouvel aliment modifie ses selles — couleur, consistance, odeur — et tu scrutes chaque couche avec inquiétude. Voici ce qui est normal dans un transit qui apprend : voir des morceaux d'aliments non digérés, des variations de couleur selon les légumes, des selles plus molles certains jours, plus formées d'autres. C'est un système digestif qui découvre. L'hypervigilance alimentaire épuise, et elle conduit souvent à des exclusions inutiles qui appauvrissent l'alimentation sans rien régler.",
+      "ancrage": "Un transit qui apprend varie. Scruter chaque couche épuise — et conduit à des exclusions qui n'apportent rien.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — ce qui est normal",
+        "etapes": [
+          "Des morceaux visibles : voir un bout de carotte ou de haricot est normal — cela ne signifie pas qu'il n'a rien absorbé.",
+          "Des changements de couleur : les légumes colorent les selles, sans gravité.",
+          "Des variations de consistance : plus molles, plus formées, d'un jour à l'autre.",
+          "Un aliment nouveau à la fois : et attendre trois jours avant le suivant.",
+          "Ne rien exclure sans avis : les exclusions se décident avec un médecin."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — soutenir le transit",
+        "etapes": [
+          "Proposer de l'eau : à chaque repas.",
+          "Beaucoup de mouvement au sol : il soutient le transit mieux que n'importe quel geste.",
+          "Soin du siège : nettoyer à l'eau, sécher en tamponnant, laisser respirer.",
+          "Un émollient protecteur : sur le siège, en prévention des irritations.",
+          "S'arrêter dès qu'il se crispe : le soin doit rester bref."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir ce qui alerte vraiment : du sang, des selles noires ou décolorées, une diarrhée liquide et persistante, des vomissements, un ventre dur.",
+        "Ne jamais éliminer une famille d'aliments seul.e : gluten, lait, œuf — cela se décide avec un médecin.",
+        "Se méfier de l'hypervigilance : elle épuise et conduit à des exclusions inutiles.",
+        "Noter sans obséder : quelques repères écrits suffisent pour en parler au professionnel."
+      ],
+      "principe": "Un transit qui découvre les aliments varie beaucoup, et c'est normal. Ce qui alerte, c'est le sang, la diarrhée persistante ou la douleur — pas la couleur d'une couche.",
+      "erreurs_a_eviter": [
+        "Scruter chaque couche et s'inquiéter à chaque changement.",
+        "Éliminer un aliment sans avis médical.",
+        "Introduire plusieurs aliments nouveaux le même jour.",
+        "Donner un médicament pour le transit sans avis."
+      ],
+      "consulter_si": "Consulter si : tu vois du sang dans les selles, si elles deviennent noires ou décolorées, liquides et très fréquentes, si bébé vomit, refuse de boire, mouille très peu ses couches, présente une bouche sèche, une somnolence anormale, de la fièvre, ou s'il perd du poids → appeler le 15 en cas de signes de déshydratation ; sinon, pédiatre ou médecin traitant sans délai.",
+      "source": "Source : ameli.fr (Assurance Maladie) — troubles du transit de l'enfant : que faire et quand consulter."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Ventre gonflé en fin de journée / gaz et pleurs",
+      "titre": "Le ventre gonflé du soir / l'accumulation de la journée",
+      "explication": "En fin de journée, son ventre est gonflé, il émet beaucoup de gaz, et il pleure. Rarement une seule cause : c'est une accumulation. Les nouveaux aliments fermentent, l'air avalé pendant les repas et les pleurs s'ajoute, et la fatigue de la journée abaisse son seuil de tolérance à l'inconfort. Le réflexe est de chercher l'aliment coupable et de le supprimer. C'est presque toujours une fausse piste. Ce qui fonctionne, c'est d'agir en amont — sur la journée entière, pas sur le soir.",
+      "ancrage": "Ce n'est pas un aliment coupable : c'est une accumulation. Ce qui se traite, c'est la journée — pas la soirée.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — agir en amont",
+        "etapes": [
+          "Des repas calmes : un bébé énervé avale beaucoup plus d'air.",
+          "Introduire progressivement : de petites quantités augmentées lentement laissent le tube digestif s'adapter.",
+          "Beaucoup de mouvement au sol : il soutient le transit et l'évacuation des gaz.",
+          "Protéger les siestes : la sur-fatigue abaisse son seuil de tolérance à l'inconfort.",
+          "Ne rien supprimer au hasard : les exclusions se décident avec un médecin."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — confort du ventre",
+        "etapes": [
+          "Bébé sur le dos : plan ferme, jambes libres, pièce calme.",
+          "Flexion douce des jambes : ramener lentement ses genoux vers son ventre, puis relâcher.",
+          "Main posée sur le ventre : ta paume réchauffée, immobile, pression douce et constante.",
+          "Vêtements desserrés : vérifier qu'aucun élastique ne comprime son ventre.",
+          "S'arrêter dès qu'il se crispe : sa réaction est la seule mesure."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Distinguer fatigue et ventre : à dix mois, la sur-fatigue produit des soirées qui ressemblent beaucoup à de l'inconfort digestif.",
+        "Ne jamais donner de remède anti-gaz sans avis médical.",
+        "Noter précisément : aliment, heure, signes — c'est ce que le professionnel exploitera.",
+        "En parler si cela persiste : un ventre douloureux avec pleurs et stagnation du poids se montre."
+      ],
+      "principe": "Le ventre du soir est une accumulation — aliments, air avalé, fatigue. Ce qui le règle, c'est la journée entière, pas la suppression d'un aliment au hasard.",
+      "erreurs_a_eviter": [
+        "Supprimer un aliment sans avis médical.",
+        "Donner un remède anti-gaz sans avis.",
+        "Attribuer tous les pleurs du soir au ventre.",
+        "Sacrifier une sieste — la fatigue aggrave tout."
+      ],
+      "consulter_si": "Consulter si : bébé pleure de douleur après les repas de façon répétée, si son ventre est dur et tendu, s'il vomit, refuse de boire, présente du sang dans les selles, une diarrhée persistante, ou s'il ne prend pas de poids → pédiatre ou médecin traitant. Le 15 en cas de ventre dur avec vomissements et arrêt total des selles et des gaz.",
+      "source": "Source : ameli.fr (Assurance Maladie) — troubles du transit de l'enfant : que faire et quand consulter."
+    }
+  ]
+}

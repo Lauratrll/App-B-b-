@@ -1,0 +1,285 @@
+{
+  "mois": 5,
+  "tranche_age": "5 mois",
+  "categorie": {
+    "id": "pleurs",
+    "nom": "Pleurs & sur-stimulation",
+    "sous_titre": "Frustration, heure du loup, bascule, écrans",
+    "icone": "😢"
+  },
+  "protocoles": [
+    {
+      "categorie": "pleurs",
+      "situation": "Il hurle de frustration / son corps ne suit pas encore",
+      "titre": "La frustration motrice / soutenir l'effort, pas le supprimer",
+      "explication": "Il voit l'objet, il tend le bras, il pivote, il pousse — et il n'y arrive pas. Alors il hurle. À cinq mois, l'intention est là bien avant les moyens : c'est le décalage le plus fécond du développement, et le plus bruyant. Cette frustration n'est pas de la souffrance à supprimer : c'est le moteur même de l'apprentissage. Un bébé à qui l'on donne tout ce qu'il désire n'a plus de raison de progresser. Ton rôle est d'ajuster la difficulté — rapprocher, aménager — pour que l'effort reste possible et n'aille pas jusqu'à l'effondrement.",
+      "ancrage": "Sa rage dit que son intelligence dépasse ses moyens. C'est un signe de progrès, pas de détresse. Tu n'as pas à supprimer l'obstacle : à le rendre franchissable.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — ajuster la difficulté",
+        "etapes": [
+          "Rapprocher l'objet de quelques centimètres : juste assez pour que l'effort redevienne possible.",
+          "Nommer ce qu'il vit : « tu veux l'attraper, c'est difficile, tu y arrives presque » — la validation apaise avant l'action.",
+          "Ne pas mettre l'objet dans sa main : cela met fin à l'apprentissage et à la fierté.",
+          "Rester à côté, calme : ta présence tranquille l'aide à tenir l'effort.",
+          "Retirer l'objet avant l'effondrement : quand la rage devient détresse, on arrête et on passe à autre chose."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : redescendre après la frustration",
+        "etapes": [
+          "Une fois la crise passée : bébé sur le dos, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : un pied retiré, une crispation — on arrête."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Aménager plutôt qu'aider : un tapis ferme au sol, deux ou trois objets à bonne distance, du temps, aucune entrave.",
+        "Limiter l'immobilisation : ne pas laisser bébé plus d'une heure d'affilée en transat, poussette, coque ou siège — le corps a besoin de bouger.",
+        "Doser les sessions : quelques minutes suffisent ; au-delà, la fatigue transforme l'effort en détresse.",
+        "Se rappeler la fourchette : chaque enfant progresse à son rythme, et cela ne se force pas."
+      ],
+      "principe": "Supprimer l'obstacle supprime l'apprentissage. Ton geste n'est pas de donner l'objet, mais d'ajuster la distance pour que l'effort reste à sa portée.",
+      "erreurs_a_eviter": [
+        "Mettre l'objet dans sa main dès qu'il s'énerve.",
+        "Retirer tous les objets pour lui « éviter » la frustration.",
+        "Laisser la crise s'installer jusqu'à l'épuisement sans intervenir.",
+        "L'installer dans une position qu'il n'atteint pas seul pour « faciliter » l'attrapage."
+      ],
+      "consulter_si": "Consulter si : bébé ne tend jamais la main vers un objet, ne suit pas un objet du regard, paraît anormalement mou ou raide, si tu observes une asymétrie entre les deux côtés du corps, ou s'il ne réagit pas aux bruits → pédiatre ou PMI, qui orientera si nécessaire vers un kinésithérapeute pédiatrique ou un psychomotricien.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'activité physique du tout-petit et l'exploration de bébé."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Il pleure pendant le change / il n'accepte plus d'être allongé",
+      "titre": "Le change / il ne supporte plus d'être allongé",
+      "explication": "Le change est devenu un combat quotidien : il se cambre, se retourne, hurle. Ce n'est pas contre toi. À cinq mois, il vient de découvrir qu'il peut agir sur le monde — et être maintenu allongé, immobile, pendant que quelqu'un s'occupe de lui, est devenu insupportable. Il ne refuse pas le soin : il refuse la passivité. La réponse n'est pas de le tenir plus fermement, ce qui installe un rapport de force quotidien. C'est de lui donner un rôle : un objet, une parole, une participation.",
+      "ancrage": "Il ne s'oppose pas à toi : il s'oppose à ne rien faire. Lui donner quelque chose à faire vaut mieux que lui tenir les jambes.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — le rendre acteur",
+        "etapes": [
+          "Un objet réservé au change : un seul, qu'il ne voit pas le reste du temps — l'effet de nouveauté est essentiel.",
+          "Annoncer chaque geste : « je soulève tes jambes, je mets la couche » — la prévisibilité réduit l'opposition.",
+          "Changer au sol : sur un tapis, la lutte perd son enjeu et le risque de chute disparaît.",
+          "Aller vite : un change efficace vaut mieux qu'un change parfait.",
+          "Ne jamais le laisser seul sur la table à langer : même une seconde — c'est l'âge des retournements."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — sortir du rapport de force",
+        "etapes": [
+          "Soutenir sans contraindre : glisser une main sous son siège, jamais le soulever par les chevilles.",
+          "Le laisser bouger : il peut se tortiller, cela n'empêche pas le change.",
+          "Ta voix pendant tout le soin : chanter, raconter — occuper son attention autrement que par la contrainte.",
+          "Finir par un moment agréable : quelques secondes de jeu ou de contact.",
+          "S'arrêter si cela dégénère : reposer, souffler, reprendre dans deux minutes."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Choisir les bons moments : changer quand il est calme, pas juste après un jeu excitant.",
+        "Faire tourner l'objet du change : un objet toujours nouveau garde son pouvoir d'attention.",
+        "Passer le relais : le co-parent a souvent une autre dynamique, cela suffit parfois à débloquer.",
+        "Se rappeler que c'est une étape : elle passera — et reviendra à d'autres âges."
+      ],
+      "principe": "Un bébé qui se débat au change n'est pas opposant : il veut agir. Lui donner un rôle désamorce ce que la contrainte ne fera qu'aggraver.",
+      "erreurs_a_eviter": [
+        "Le maintenir de force pour finir le change.",
+        "Le soulever par les chevilles — mauvais pour ses hanches.",
+        "Le laisser seul sur la table à langer, même une seconde.",
+        "Transformer le change en affrontement quotidien."
+      ],
+      "consulter_si": "Consulter si : bébé pleure de douleur au change de façon répétée, si tu observes une gêne quand tu mobilises ses hanches ou ses jambes, une asymétrie des plis, ou une raideur permanente → pédiatre ou médecin traitant. En cas de chute de la table à langer : appeler le 15 ou consulter en urgence, même si bébé semble aller bien."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Pleurs de fin d'après-midi / l'heure du loup s'installe",
+      "titre": "L'heure du loup / anticiper plutôt que distraire",
+      "explication": "Chaque jour, entre dix-sept et dix-neuf heures, la même chose : il pleure, rien ne le console, et toute la maison se tend. Ce creux du soir n'est pas un mystère. Il combine une fatigue accumulée sur la journée, une charge sensorielle qui n'a pas été évacuée, une baisse de la disponibilité des adultes — et souvent, une dernière fenêtre d'éveil trop longue. Le réflexe est de distraire : promenade, jouets, télévision. C'est exactement l'inverse qui fonctionne. Ce moment ne se remplit pas : il s'anticipe et il se vide.",
+      "ancrage": "Ce creux ne se comble pas par de l'animation : il se prépare par du calme. Ce que tu fais à seize heures compte plus que ce que tu fais à dix-huit.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — préparer le creux",
+        "etapes": [
+          "Anticiper dès le milieu d'après-midi : réduire la lumière, le bruit, les sollicitations.",
+          "Protéger la dernière sieste : une fin de journée sans sommeil rend l'heure du loup ingérable.",
+          "Coucher plus tôt : souvent, la solution du soir est un coucher avancé de vingt à trente minutes.",
+          "Un seul adulte auprès de lui : pas de passage de bras, pas de visite dans cette fenêtre.",
+          "Se relayer par tranches : vingt minutes chacun, montre en main."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : préparer la fin de journée",
+        "etapes": [
+          "En milieu d'après-midi : bébé calme, dans une pièce silencieuse.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Alléger la fin de journée : dîner préparé à l'avance, aucune tâche prévue dans cette fenêtre.",
+        "Sortir dehors : quelques minutes d'air frais coupent souvent la spirale mieux que tout le reste.",
+        "Ne pas distraire : télévision, jouets sonores, promenades stimulantes aggravent la surcharge.",
+        "Se rappeler la trajectoire : ce creux s'atténue avec la maturation, chaque enfant à son rythme."
+      ],
+      "principe": "L'heure du loup ne se remplit pas, elle se vide. Anticiper le calme et coucher plus tôt vaut infiniment mieux que distraire un système nerveux déjà saturé.",
+      "erreurs_a_eviter": [
+        "Distraire avec des jouets, une promenade ou un écran.",
+        "Repousser le coucher en espérant qu'il s'épuise.",
+        "Recevoir des visites dans cette fenêtre.",
+        "Enchaîner les techniques d'apaisement — chaque changement relance la stimulation."
+      ],
+      "consulter_si": "Consulter si : les pleurs deviennent inconsolables plusieurs heures par jour, s'ils s'accompagnent de fièvre, de vomissements, d'un refus de boire, d'une cassure de la courbe de poids, ou d'un bébé anormalement mou → pédiatre. Si tu sens la perte de contrôle monter : poser bébé sur le dos dans son lit, sortir de la pièce, appeler un proche ou Allo Parents Bébé (0 800 00 34 56).",
+      "source": "Source : Haute Autorité de Santé — recommandation « Syndrome du bébé secoué ou traumatisme crânien non accidentel par secouement »."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Il s'arrête dès qu'on le prend / est-ce un caprice ?",
+      "titre": "« C'est un caprice » / démonter la question",
+      "explication": "« Il te manipule. » « Tu vas en faire un enfant-roi. » Ces phrases arrivent dès que ton bébé se calme dans tes bras. Elles supposent une compétence qu'il n'a pas : le caprice suppose une intention calculée, une stratégie, une anticipation de ta réaction. Le cerveau d'un bébé de cinq mois n'a pas ces outils — ils apparaissent bien plus tard. Ce qu'il exprime est un besoin réel : le contact. Et le fait qu'il s'arrête dès qu'on le prend ne prouve pas la manipulation : cela prouve que le besoin était le bon et qu'il a été satisfait.",
+      "ancrage": "Qu'il s'arrête dans tes bras ne prouve pas qu'il te manipule : cela prouve que tu as répondu juste. Le caprice suppose un calcul dont son cerveau n'est pas encore capable.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — répondre sans se justifier",
+        "etapes": [
+          "Répondre au besoin : le prendre, sans culpabilité, sans compter.",
+          "Une phrase prête pour l'entourage : « à cet âge, le contact est un besoin, pas un caprice » — puis passer à autre chose.",
+          "Ne pas argumenter : une phrase, un sourire, on n'ouvre pas le débat.",
+          "Aménager pour la suite : le poser au sol, à côté de toi, plutôt que dans une autre pièce.",
+          "Utiliser ta voix : elle maintient le lien même quand tes bras sont pris."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : nourrir la sécurité",
+        "etapes": [
+          "Un moment quotidien : bébé sur le dos, éveillé et calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Comprendre le mécanisme : répondre de façon fiable à un besoin construit la sécurité — et c'est de cette sécurité que naît l'autonomie.",
+        "Alterner les porteurs : le contact n'a pas besoin d'être toujours le tien.",
+        "Protéger ton dos : portage physiologique, alternance des épaules.",
+        "Ne pas se justifier longuement : le débat avec l'entourage n'apporte rien et t'épuise."
+      ],
+      "principe": "Le caprice suppose un calcul dont un bébé de cinq mois n'est pas capable. Répondre à son besoin de contact ne fabrique pas un tyran : cela construit une base de sécurité.",
+      "erreurs_a_eviter": [
+        "Espacer volontairement les prises dans les bras pour « ne pas l'habituer ».",
+        "Laisser pleurer pour lui « apprendre » qu'il n'obtiendra rien.",
+        "Se justifier en détail auprès de chaque personne qui commente.",
+        "Interpréter son apaisement dans tes bras comme la preuve d'une manipulation."
+      ],
+      "consulter_si": "Consulter si : bébé ne se calme jamais, même porté ; s'il refuse le contact de façon systématique ; s'il pleure de façon inconsolable plusieurs heures par jour ; ou si les remarques de l'entourage te mettent en difficulté durable → pédiatre, PMI, sage-femme, ou psychologue périnatal."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Il rit aux éclats puis s'effondre / l'excitation qui bascule",
+      "titre": "Le rire qui bascule / clore avant l'effondrement",
+      "explication": "Il rit aux éclats, vous jouez, c'est un moment de bonheur — et cinq minutes plus tard il hurle. Le rire n'était pas faux : c'est le système nerveux qui, à cinq mois, monte très vite en activation sans savoir redescendre. La joie intense sollicite le corps exactement comme le stress : accélération du rythme cardiaque, tension, excitation. Sans descente organisée, cette montée finit en chute. Le point de bascule est repérable — il arrive souvent juste après le pic de rire, quand les gestes deviennent désordonnés.",
+      "ancrage": "Le rire précède la bascule de quelques secondes. Ce n'est pas le jeu qui doit disparaître : c'est la descente qui doit être ajoutée.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — repérer et clore",
+        "etapes": [
+          "Repérer le pic : gestes désordonnés, respiration rapide, rire qui monte dans les aigus.",
+          "Clore avant, pas après : arrêter le jeu au sommet, pas quand il s'effondre.",
+          "Ralentir progressivement : baisser la voix, ralentir les mouvements, réduire l'amplitude.",
+          "Installer le silence : quelques secondes sans rien dire, ton visage calme et présent.",
+          "Passer au contact : le prendre contre toi, immobile, sans parler."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : le rituel de descente",
+        "etapes": [
+          "Juste après le jeu : bébé sur le dos, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Un seul canal à la fois : ne pas parler et toucher en même temps."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ritualiser la descente : toujours la même séquence après un temps de jeu.",
+        "Raccourcir les pics : quelques minutes de jeu intense suffisent largement.",
+        "Prévenir l'entourage : les jeux surexcitants portés par plusieurs adultes produisent les plus gros contrecoups.",
+        "Ne pas renoncer au jeu : c'est la descente qu'on ajoute, pas la joie qu'on retire."
+      ],
+      "principe": "La joie intense active le système nerveux autant que le stress. À cinq mois, un bébé sait monter mais pas descendre : la descente s'organise, elle ne s'improvise pas.",
+      "erreurs_a_eviter": [
+        "Prolonger le jeu tant qu'il rit.",
+        "Relancer pour obtenir un dernier éclat de rire.",
+        "Enchaîner plusieurs adultes qui le font rire à tour de rôle.",
+        "Interpréter l'effondrement comme une mauvaise humeur."
+      ],
+      "consulter_si": "Consulter si : bébé bascule systématiquement dans une crise inconsolable après chaque échange, s'il ne cherche jamais le contact visuel, s'il se raidit fortement, paraît en détresse dès qu'on le sollicite, ou semble anormalement mou → pédiatre ou PMI."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Un écran allumé dans la pièce / même en bruit de fond",
+      "titre": "L'écran en bruit de fond / la recommandation, sans culpabiliser",
+      "explication": "La recommandation française est nette : pas d'écran avant trois ans. Et elle inclut ce qu'on oublie toujours — la télévision allumée en fond, même sans être regardée. Pour un bébé de cinq mois, un écran est une source de lumière changeante et de sons brusques qu'il ne peut ni filtrer ni fuir. Les études françaises montrent qu'un fond d'écran réduit son temps de jeu, perturbe son attention, et diminue le nombre de mots que les adultes lui adressent. Cela dit : personne ne vit dans un foyer parfait, et l'objectif est de réduire, pas de culpabiliser.",
+      "ancrage": "Ce n'est pas une question de discipline parentale, c'est une question de charge sensorielle. Réduire vaut mieux que culpabiliser — et couper le fond sonore est le geste le plus efficace.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — couper le fond",
+        "etapes": [
+          "Éteindre, pas baisser : un écran en sourdine reste une source de lumière changeante.",
+          "Retirer bébé du champ : le sortir de la pièce si l'écran ne peut pas être éteint.",
+          "Remplacer par du son humain : ta voix, une chanson, un commentaire de ce que tu fais.",
+          "Ne jamais utiliser d'écran pour calmer : cela sur-stimule au lieu d'apaiser.",
+          "Poser ton propre téléphone : pendant les temps d'échange avec lui."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : après la sur-stimulation",
+        "etapes": [
+          "Une fois l'écran éteint : bébé sur le dos, dans le silence.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir la recommandation : pas d'écran avant trois ans — c'est la position des autorités de santé françaises, rappelée dans le carnet de santé.",
+        "Inclure le bruit de fond : une télévision allumée sans être regardée dégrade son attention et son jeu.",
+        "Viser la réduction, pas la perfection : un foyer sans aucun écran est un idéal, pas un critère de jugement.",
+        "Remplacer par du sol : un tapis, deux objets, ton visage — le meilleur support d'éveil qui existe."
+      ],
+      "principe": "Un écran n'apaise pas : il stimule. La recommandation française est zéro écran avant trois ans, bruit de fond compris — et l'objectif est de réduire, pas de se juger.",
+      "erreurs_a_eviter": [
+        "Laisser la télévision allumée en fond pendant qu'il joue ou qu'il tète.",
+        "Utiliser une vidéo pour calmer les pleurs ou occuper bébé.",
+        "Croire qu'un contenu « pour bébé » est adapté avant trois ans — aucun ne l'est.",
+        "Consulter son téléphone pendant les temps d'échange avec lui."
+      ],
+      "consulter_si": "Consulter si : bébé fixe les écrans de façon soutenue et ne réagit plus à ton visage ni à ta voix, s'il paraît absent ou éteint, s'il ne réagit pas aux bruits forts, ou s'il n'entre jamais en contact → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition et de la vision.",
+      "source": "Source : Haut Conseil de la santé publique — avis sur les effets de l'exposition des enfants et des jeunes aux écrans ; repères du carnet de santé de l'enfant."
+    }
+  ]
+}

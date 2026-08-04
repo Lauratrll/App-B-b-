@@ -1,0 +1,195 @@
+{
+  "mois": 4,
+  "tranche_age": "4 mois",
+  "categorie": {
+    "id": "alim",
+    "nom": "Alimentation",
+    "sous_titre": "Efficacité, diversification, quantités",
+    "icone": "🤱"
+  },
+  "protocoles": [
+    {
+      "categorie": "alim",
+      "situation": "Les tétées se raccourcissent / il devient très efficace",
+      "titre": "Les tétées courtes / efficacité, pas pénurie",
+      "explication": "Cinq minutes au sein, et il lâche, repu. La panique arrive vite : « il ne prend plus assez ». C'est le plus souvent l'inverse. À quatre mois, la succion de ton bébé est devenue redoutablement efficace : il obtient en cinq minutes ce qui lui prenait vingt minutes à la naissance. Le sein souple et la tétée courte sont deux signes d'un système qui fonctionne, pas d'un système qui faiblit. Céder à cette peur en introduisant un complément « par sécurité » est précisément ce qui déclenche une vraie baisse de production — et parfois un sevrage non souhaité.",
+      "ancrage": "Une tétée courte n'est pas une tétée insuffisante. Ce sont les couches, le tonus et la courbe de poids qui parlent — jamais le chronomètre.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — objectiver",
+        "etapes": [
+          "Compter les couches : plusieurs couches bien mouillées par jour reste l'indicateur le plus simple.",
+          "Écouter les déglutitions : un « k-a » ample et régulier en début de tétée signe un bon transfert.",
+          "Observer bébé après : détendu, mains ouvertes, calme — c'est un bébé rassasié.",
+          "Continuer à proposer à la demande : sans chronomètre, sans intervalle imposé.",
+          "Faire peser : une pesée en PMI ou chez le pédiatre tranche en une visite."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — soutenir la production",
+        "etapes": [
+          "Peau à peau régulier : il soutient la production autant qu'il apaise.",
+          "Proposer souvent : la stimulation reste le seul levier réel.",
+          "Un environnement sobre : à quatre mois, un bébé distrait tète moins bien — pièce calme, lumière basse.",
+          "S'installer confortablement : dos calé, eau à portée.",
+          "Ne pas chronométrer : la durée ne dit rien de la quantité bue."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se méfier du complément réflexe : donné sans avis, il réduit la stimulation et fait réellement baisser la production.",
+        "Ne pas tirer son lait pour « vérifier » : la quantité tirée ne reflète pas ce que bébé obtient au sein.",
+        "Demander une observation de tétée : consultante en lactation (IBCLC), sage-femme ou PMI.",
+        "Se rappeler que la fourchette est large : certains bébés tètent cinq minutes, d'autres vingt — les deux vont bien."
+      ],
+      "principe": "Une tétée qui raccourcit est le signe d'un bébé devenu efficace. Introduire un complément par peur est le geste qui, lui, fait vraiment baisser la production.",
+      "erreurs_a_eviter": [
+        "Introduire un complément « par sécurité », sans avis médical.",
+        "Espacer les tétées pour « laisser le sein se remplir ».",
+        "Tirer son lait pour mesurer sa production.",
+        "Conclure au manque de lait à partir d'un sein souple ou d'une tétée courte."
+      ],
+      "consulter_si": "Consulter si : bébé ne prend pas de poids ou en perd, si sa courbe casse, s'il mouille très peu ses couches, s'il est difficile à réveiller pour les prises, ou s'il paraît anormalement mou → pédiatre, sage-femme, PMI ou consultante en lactation (IBCLC) sans attendre.",
+      "source": "Source : ameli.fr (Assurance Maladie) — la diversification alimentaire et l'alimentation de l'enfant de 0 à 3 ans."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Il porte tout à la bouche / faut-il commencer à le nourrir ?",
+      "titre": "Tout à la bouche / ce n'est pas un signal de diversification",
+      "explication": "« Il porte tout à la bouche, il réclame de la nourriture ! » — cette phrase, tu vas l'entendre. Elle est fausse. Porter les objets et les mains à la bouche est une étape d'exploration : la bouche est, à cet âge, l'organe sensoriel le plus riche de son corps. C'est ainsi qu'il découvre les formes et les textures, pas qu'il réclame à manger. Les recommandations françaises situent le début de la diversification entre quatre et six mois, jamais avant quatre mois — et le moment se décide avec le professionnel qui suit ton bébé, pas sous la pression de l'entourage.",
+      "ancrage": "La bouche est son outil d'exploration, pas un signal de faim. La diversification se décide avec ton pédiatre — jamais parce qu'on te dit qu'« il est prêt ».",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — répondre à la pression",
+        "etapes": [
+          "Une phrase prête : « la bouche, c'est comme ça qu'il explore — pour la diversification, on suit notre pédiatre ».",
+          "Ne pas argumenter : une phrase, un sourire, et on passe à autre chose.",
+          "Laisser explorer : mains propres, objets propres et adaptés, sans petites pièces.",
+          "Ne rien donner à goûter : ni bout de pain, ni compote « pour voir », ni eau sucrée — jamais.",
+          "En parler au pédiatre : c'est lui qui posera le bon moment et la bonne façon."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — nourrir l'exploration orale",
+        "etapes": [
+          "Des objets adaptés : simples, propres, assez gros pour ne pas être avalés, sans partie détachable.",
+          "Le laisser porter ses mains à la bouche : c'est de l'exploration, pas un symptôme.",
+          "Varier les textures : tissu, bois lisse, silicone — sans multiplier le nombre d'objets.",
+          "Le laisser faire seul : ne pas mettre l'objet dans sa bouche à sa place.",
+          "S'arrêter s'il se lasse : quand il détourne, il a fini."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir la fenêtre officielle : la diversification débute entre quatre et six mois, jamais avant quatre mois révolus.",
+        "Connaître les vrais repères : tenue de tête, position assise avec appui, intérêt pour la nourriture — et l'avis du professionnel.",
+        "Introduire les allergènes selon les recommandations : tous les groupes d'aliments, y compris les allergènes, s'introduisent dès le début de la diversification — mais c'est le professionnel qui pose le cadre.",
+        "Résister à la pression : la diversification précoce, avant quatre mois, est déconseillée."
+      ],
+      "principe": "Porter les objets à la bouche est de l'exploration sensorielle, pas une demande de nourriture. Le début de la diversification se situe entre quatre et six mois — et il se décide avec le professionnel.",
+      "erreurs_a_eviter": [
+        "Donner un aliment « pour goûter » avant l'accord du professionnel.",
+        "Ajouter des céréales dans le biberon pour « le caler » — jamais sans avis médical.",
+        "Donner du miel — interdit avant un an, risque de botulisme infantile.",
+        "Céder à la pression de l'entourage sur le moment de la diversification."
+      ],
+      "consulter_si": "Consulter si : bébé ne prend pas de poids, si sa courbe casse, s'il refuse ses prises de lait, s'il s'étouffe ou tousse en buvant, ou si tu as un doute sur le moment de commencer la diversification → pédiatre, médecin traitant ou PMI. En cas d'étouffement avec objet dans la bouche : appeler le 15.",
+      "source": "Source : Santé publique France et ANSES — recommandations alimentaires pour les enfants de moins de 3 ans : la diversification débute entre 4 et 6 mois."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Les quantités de biberon stagnent / le doute sur sa croissance",
+      "titre": "Les quantités qui stagnent / regarder ailleurs que le volume",
+      "explication": "Ton bébé boit les mêmes quantités qu'il y a un mois, et l'inquiétude monte : « il devrait boire plus, il grandit ». Le volume bu n'augmente pas de façon linéaire — il progresse par paliers, avec des périodes de stagnation parfaitement normales. Le volume est de plus le moins fiable des indicateurs pris isolément : il varie d'un jour à l'autre, d'une prise à l'autre. Ce qui parle, c'est un faisceau — la courbe de poids sur plusieurs semaines, les couches, le tonus, l'éveil, et la façon dont il se comporte après les prises.",
+      "ancrage": "Une stagnation des volumes n'est pas une stagnation de croissance. Ce qui se lit, c'est la courbe sur plusieurs semaines — pas le biberon d'hier.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — construire le faisceau",
+        "etapes": [
+          "Regarder la courbe, pas le chiffre : une progression régulière dans son couloir est le meilleur indicateur.",
+          "Compter les couches : plusieurs couches bien mouillées par jour, avec des selles régulières.",
+          "Observer le tonus et l'éveil : bébé tonique, curieux, qui joue et interagit.",
+          "Respecter le signal de fin : il lâche la tétine, détourne la tête — la prise est terminée.",
+          "Ne pas peser à la maison : la variation quotidienne n'a aucun sens."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — un repas sans pression",
+        "etapes": [
+          "Position semi-assise : bébé redressé, biberon presque à l'horizontale, avec des pauses.",
+          "Un environnement sobre : pièce calme, sans écran ni agitation — un bébé distrait boit moins.",
+          "Faire des pauses : le laisser souffler, proposer le rot, puis reproposer sans forcer.",
+          "Vérifier la tétine : un débit inadapté fatigue bébé, qui s'arrête avant d'avoir assez bu.",
+          "Terminer par du contact : quelques minutes vertical contre toi."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Demander des repères adaptés : le pédiatre ou la PMI donnent des fourchettes selon son poids et son âge — plus fiable qu'un tableau trouvé en ligne.",
+        "Ne jamais modifier la préparation : ni dose, ni dilution, ni marque, sans avis médical.",
+        "Retenir ce qui alerte : cassure de la courbe, perte de poids, couches très peu mouillées, bébé mou ou apathique.",
+        "Se rappeler la fenêtre à venir : la diversification, entre quatre et six mois, modifiera aussi les volumes."
+      ],
+      "principe": "Le volume bu est le moins fiable des indicateurs pris seul. La croissance se lit sur une courbe, sur plusieurs semaines, avec le professionnel — pas sur un biberon.",
+      "erreurs_a_eviter": [
+        "Forcer la fin du biberon « pour ne pas gâcher » — cela casse son signal de satiété.",
+        "Modifier soi-même la dilution ou les doses de la préparation.",
+        "Ajouter des céréales dans le biberon sans avis médical.",
+        "Comparer les quantités à celles d'un autre bébé du même âge."
+      ],
+      "consulter_si": "Consulter si : bébé ne prend pas de poids ou en perd, si sa courbe casse, s'il mouille très peu ses couches, s'il refuse plusieurs prises consécutives, s'il est difficile à réveiller, ou s'il paraît anormalement mou → pédiatre, médecin traitant ou PMI sans attendre.",
+      "source": "Source : ameli.fr (Assurance Maladie) — la diversification alimentaire et l'alimentation de l'enfant de 0 à 3 ans."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Il refuse un sein sur deux / préférence de côté",
+      "titre": "La préférence de côté / explorer sans forcer",
+      "explication": "Ton bébé boude un sein. Les explications possibles sont banales : un débit différent d'un côté, une position moins confortable, une gêne quand il tourne la tête d'un côté, ou une habitude qui s'est installée. La production s'adaptant à la demande, le sein le plus tété produit davantage — ce qui renforce la préférence. Un allaitement peut très bien se poursuivre sur un seul sein, avec une poitrine visiblement asymétrique et sans aucune conséquence. Mais un point mérite d'être vérifié : si bébé résiste à tourner la tête d'un côté, cela se montre.",
+      "ancrage": "Ce n'est ni un rejet ni un échec. On explore doucement, on fait vérifier la nuque si la rotation coince — et on accepte qu'un allaitement asymétrique fonctionne très bien.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — proposer sans forcer",
+        "etapes": [
+          "Commencer par le côté boudé : le proposer en premier, quand bébé a faim mais n'est pas en pleurs.",
+          "Changer de position : ballon de rugby, position allongée — pour aborder le sein sous un autre angle.",
+          "Garder la même orientation du corps : le faire glisser d'un sein à l'autre sans changer la position de sa tête.",
+          "Proposer en demi-sommeil : au réveil de sieste, quand il est détendu.",
+          "Arrêter s'il se braque : on n'insiste jamais, on repropose plus tard."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — desserrer la préférence",
+        "etapes": [
+          "Peau à peau du côté boudé : sans objectif de tétée.",
+          "Varier ses appuis dans la journée : alterner le côté vers lequel il tourne la tête, dans le lit et au sol.",
+          "Bercer du côté délaissé : le porter davantage sur ce bras.",
+          "Observer sa nuque : s'il résiste à tourner la tête d'un côté, on le signale au pédiatre.",
+          "S'arrêter s'il se crispe : le geste doit rester agréable, jamais une manœuvre."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Stimuler le sein délaissé : le tirer un peu après les tétées, pour soutenir la production de ce côté.",
+        "Accepter l'asymétrie : un allaitement sur un seul sein est possible et sans conséquence pour bébé.",
+        "Faire vérifier la nuque : une gêne à tourner la tête se montre au pédiatre, qui orientera vers un kinésithérapeute pédiatrique si nécessaire.",
+        "Se faire accompagner : consultante en lactation (IBCLC), sage-femme ou PMI."
+      ],
+      "principe": "Une préférence de côté n'est ni un rejet ni une urgence. Ce qui se vérifie, c'est la liberté de rotation de sa tête — le reste s'explore, sans jamais forcer.",
+      "erreurs_a_eviter": [
+        "Forcer bébé sur le sein qu'il refuse en maintenant sa tête.",
+        "Arrêter d'office le sein boudé sans avoir cherché la cause.",
+        "Ignorer une raideur de la nuque ou une tête toujours tournée du même côté.",
+        "S'inquiéter d'une poitrine devenue asymétrique — c'est fréquent et sans gravité."
+      ],
+      "consulter_si": "Consulter si : bébé refuse brutalement un sein qu'il prenait bien, s'il résiste quand tu l'orientes d'un côté, s'il ne prend pas assez de poids, ou si le sein délaissé devient rouge, dur et douloureux avec de la fièvre → pédiatre, sage-femme, consultante en lactation (IBCLC) ou PMI."
+    }
+  ]
+}

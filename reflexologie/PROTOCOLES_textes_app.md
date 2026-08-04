@@ -1,14 +1,14 @@
 # Protocoles de Réflexologie — textes de l'app
 
-_Version lisible pour relecture. Les données réelles sont dans les fichiers JSON._
+_Version lisible._
 
 
-**21 protocoles au lancement · 6 reportés.**
+**20 protocoles au lancement · 7 reportés.**
 
 
 ---
 
-## Ouverture commune (à tous les protocoles)
+## Ouverture commune
 
 
 **Avant de commencer**
@@ -21,12 +21,12 @@ _Version lisible pour relecture. Les données réelles sont dans les fichiers JS
 
 
 
-# — PROTOCOLES AU LANCEMENT —
+# — LANCEMENT —
 
 ---
 
 
-## Accueil du nouveau-né
+## Accueil du nouveau-né · âge M0–M1 _(brouillon)_
 
 
 Un premier rendez-vous tout en douceur avec les pieds de ton tout-petit. Ce protocole accueille bébé dans le monde et l'aide à trouver ses repères, à ton contact.
@@ -43,12 +43,12 @@ Un premier rendez-vous tout en douceur avec les pieds de ton tout-petit. Ce prot
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
 
-## Prématurité · ⚠️ sujet sensible
+## Prématurité · ⚠️ sujet sensible · âge M0–M5 _(brouillon)_
 
 
 Un accompagnement tout en douceur pour un tout-petit arrivé en avance. Chaque geste est minuscule, lent et respectueux de sa fragilité.
@@ -59,7 +59,7 @@ Un accompagnement tout en douceur pour un tout-petit arrivé en avance. Chaque g
 
 **Séquence :**
 
-1. **la colonne vertébrale et le nerf vague** _(hors pied : nerf vague)_ — On détend l'axe du dos ; le nerf vague, lui, s'accompagne d'un contact doux hors du pied.
+1. **la colonne vertébrale et le nerf vague** — On glisse le long de la colonne, version allongée qui intègre le nerf vague : détendre tout l'axe et apaiser en profondeur.
 2. **le bassin** — Un mouvement enveloppant sur le talon : ancrer, poser, rassurer.
 3. **les reins** — Un appui tranquille sur les reins : apaiser le trop-plein, relâcher les peurs.
 4. **les poumons** — De petits cercles qui avancent sur le coussinet : ouvrir le souffle, laisser respirer.
@@ -68,12 +68,12 @@ Un accompagnement tout en douceur pour un tout-petit arrivé en avance. Chaque g
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
 
-## Césarienne
+## Césarienne · âge M0–M3 _(brouillon)_
 
 _S'applique : bébé né d'une césarienne ou d'un déclenchement._
 
@@ -99,12 +99,12 @@ Un protocole tout en douceur pour accompagner bébé né d'une césarienne ou d'
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
 
-## Confiance en soi
+## Confiance en soi · âge M17–M23 _(brouillon)_
 
 
 Un protocole pour aider bébé à se sentir solide, enveloppé, en confiance dans son corps.
@@ -129,12 +129,12 @@ Un protocole pour aider bébé à se sentir solide, enveloppé, en confiance dan
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
 
-## Difficultés à téter
+## Difficultés à téter · âge M0–M2 _(brouillon)_
 
 
 Un moment doux pour accompagner la mise en bouche et la succion. On détend la sphère orale et on apaise, sans forcer.
@@ -153,12 +153,12 @@ Un moment doux pour accompagner la mise en bouche et la succion. On détend la s
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
 
-## Séparation
+## Séparation · âge M6–M23 _(brouillon)_
 
 
 Un protocole pour les moments de séparation : apaiser l'inquiétude, rassurer, aider bébé à se sentir en lien même à distance.
@@ -180,12 +180,12 @@ Un protocole pour les moments de séparation : apaiser l'inquiétude, rassurer, 
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
 
-## Coliques
+## Coliques · âge M0–M2 _(brouillon)_
 
 
 Un moment tendre pour soulager le ventre. Les gestes suivent la digestion, lentement, pour dénouer les tensions.
@@ -204,12 +204,12 @@ Un moment tendre pour soulager le ventre. Les gestes suivent la digestion, lente
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
 
-## Inconfort digestif
+## Inconfort digestif · âge M4–M12 _(brouillon)_
 
 
 Un moment tout doux pour apaiser le ventre de bébé quand la digestion le gêne. Les gestes suivent le trajet digestif, lentement, pour l'aider à se détendre et retrouver son confort.
@@ -228,12 +228,12 @@ Un moment tout doux pour apaiser le ventre de bébé quand la digestion le gêne
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
 
-## Frustration motrice
+## Frustration motrice · âge M7–M13 _(brouillon)_
 
 
 Un moment tout doux pour accompagner bébé quand il cherche à bouger, se retrouve coincé et enrage de ne pas encore y arriver. On relâche le corps tendu par l'effort et on apaise la frustration.
@@ -256,12 +256,12 @@ Un moment tout doux pour accompagner bébé quand il cherche à bouger, se retro
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
 
-## Reflux · ⚠️ sujet sensible
+## Reflux · ⚠️ sujet sensible · âge M0–M4 _(brouillon)_
 
 
 Un protocole doux pour accompagner les remontées et l'inconfort du haut du ventre, fréquents chez les tout-petits. On apaise le moment, sans prétendre soigner.
@@ -283,12 +283,12 @@ Un protocole doux pour accompagner les remontées et l'inconfort du haut du vent
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
 
-## Dents
+## Dents · âge M5–M18 _(brouillon)_
 
 
 Un accompagnement pour les poussées dentaires : soulager la bouche, apaiser l'agacement et la tension.
@@ -310,12 +310,12 @@ Un accompagnement pour les poussées dentaires : soulager la bouche, apaiser l'a
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
 
-## Constipation
+## Constipation · âge M2–M23 _(brouillon)_
 
 
 Un protocole pour accompagner le transit en douceur, en suivant le trajet du ventre.
@@ -337,12 +337,12 @@ Un protocole pour accompagner le transit en douceur, en suivant le trajet du ven
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
 
-## Diarrhée · ⚠️ sujet sensible
+## Diarrhée · ⚠️ sujet sensible · âge M13–M23 _(brouillon)_
 
 
 > ⚠️ **Vigilance :** Diarrhée d'origine infectieuse : demander un avis médical.
@@ -369,12 +369,12 @@ Un protocole pour accompagner le ventre de bébé en douceur lorsque le transit 
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
 
-## Mal des transports
+## Mal des transports · âge M21–M23 _(brouillon)_
 
 
 Un protocole pour accompagner bébé quand les trajets le chahutent : apaiser le système de l'équilibre et relâcher le stress.
@@ -388,7 +388,7 @@ Un protocole pour accompagner bébé quand les trajets le chahutent : apaiser le
 1. **la tête** — On commence tout en douceur par la tête, pour accueillir bébé entier.
 2. **la bouche** — On apaise la bouche, porte des premières tensions.
 3. **l'épiphyse** — On pose un appui doux : aider à trouver ses repères, son équilibre.
-4. **la colonne vertébrale et le nerf vague** _(hors pied : nerf vague)_ — On détend l'axe du dos ; le nerf vague, lui, s'accompagne d'un contact doux hors du pied.
+4. **la colonne vertébrale et le nerf vague** — On glisse le long de la colonne, version allongée qui intègre le nerf vague : détendre tout l'axe et apaiser en profondeur.
 5. **le diaphragme** — On relâche la coupole du ventre : la respiration se déplie.
 6. **le thymus** — On soutient les défenses, tout en douceur.
 7. **l'œsophage** — On glisse le long de l'œsophage, on apaise le passage.
@@ -399,12 +399,14 @@ Un protocole pour accompagner bébé quand les trajets le chahutent : apaiser le
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
 
-## Sommeil
+## Sommeil · âge M0–M23 _(brouillon)_
+
+_Version de base M0-M11 ; version AVEC vésicule M12-M23 (variante à intégrer)._
 
 
 Un moment de calme partagé, au creux du soir. Ce protocole de Réflexologie accompagne l'endormissement et le retour au calme, à ton rythme et au sien. Installe-toi : lumière tamisée, ta voix posée, ta respiration lente.
@@ -426,12 +428,12 @@ Un moment de calme partagé, au creux du soir. Ce protocole de Réflexologie acc
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
 
-## Rhume, otite · ⚠️ sujet sensible
+## Rhume, otite · ⚠️ sujet sensible · âge M6–M23 _(brouillon)_
 
 
 Un moment doux pour accompagner l'inconfort du nez et des oreilles, fréquent chez les tout-petits. On apaise, sans prétendre soigner.
@@ -442,26 +444,28 @@ Un moment doux pour accompagner l'inconfort du nez et des oreilles, fréquent ch
 
 **Séquence :**
 
-1. **les sinus** — De petits points sur les orteils : dégager le visage, respirer plus librement.
-2. **le nez et les oreilles** — On suit la croix du gros orteil : apaiser le nez et les oreilles.
-3. **l'hypophyse** — Un point délicat sur le gros orteil : on invite tout l'intérieur au calme.
-4. **les amygdales** — Orteil après orteil, à leur base : soutenir la gorge, apaiser.
-5. **le diaphragme** — Un lissage lent en travers du pied : relâcher le souffle et les tensions.
-6. **le plexus solaire** — Au centre de la voûte, une pression douce et maintenue : le point d'apaisement des émotions.
-7. **les poumons** — De petits cercles qui avancent sur le coussinet : ouvrir le souffle, laisser respirer.
-8. **l'intestin grêle** — De petits cercles au centre du pied : apaiser le ventre, dénouer.
-9. **le thymus** — Un point doux sur le thymus : sécuriser, renforcer le sentiment de protection.
-10. **les surrénales** — Un appui posé sur les surrénales : calmer l'agitation, apaiser le stress.
-11. **les ganglions lymphatiques** — On stimule doucement les ganglions, point par point : soutenir les défenses.
+1. **les sinus** — On réveille en douceur les sinus, à la pointe des orteils.
+2. **l'hypophyse** — On réveille le chef d'orchestre du corps.
+3. **le nez** — On glisse en croix sur le nez — on vise les sinus profonds — pour aider à dégager.
+4. **les amygdales** — On apaise les amygdales, à la base du gros orteil.
+5. **les oreilles** — On glisse sur les oreilles, de l'intérieur vers l'extérieur, pour soulager la sensation de pression.
+6. **les poumons** — On ouvre la respiration, on aide bébé à mieux respirer.
+7. **le diaphragme** — On relâche la coupole du ventre : le souffle se déplie.
+8. **le plexus solaire** — On apaise le centre des émotions.
+9. **la rate** — On soutient la rate, alliée des défenses (pied gauche).
+10. **l'intestin grêle** — On accompagne le ventre, étroitement lié à l'immunité.
+11. **les ganglions lymphatiques** — On soutient le drainage, les petits filtres du corps.
+12. **le thymus** — On soutient les défenses immunitaires.
+13. **les surrénales** — On soutient l'énergie et l'équilibre du corps.
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
 
-## Concentration / Agitation
+## Concentration / Agitation · âge M18–M23 _(brouillon)_
 
 
 Un moment doux pour aider un enfant agité à se poser et à retrouver sa concentration, à ton contact rassurant.
@@ -482,12 +486,12 @@ Un moment doux pour aider un enfant agité à se poser et à retrouver sa concen
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
 
-## Anxiété, nervosité
+## Anxiété, nervosité · âge M19–M23 _(brouillon)_
 
 
 Un protocole enveloppant pour apaiser l'anxiété et dénouer la nervosité, à ton contact rassurant.
@@ -512,12 +516,12 @@ Un protocole enveloppant pour apaiser l'anxiété et dénouer la nervosité, à 
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
 
-## Opposition, frustration
+## Opposition, frustration · âge M14–M23 _(brouillon)_
 
 
 Un protocole tout en douceur pour accompagner bébé dans les moments d'opposition et de frustration : l'aider à relâcher la tension et à se sentir contenu.
@@ -543,12 +547,12 @@ Un protocole tout en douceur pour accompagner bébé dans les moments d'oppositi
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
 
-## Jalousie, fratrie
+## Jalousie, fratrie · âge M22–M23 _(brouillon)_
 
 
 La venue d'un autre bébé dans la famille peut réveiller un sentiment de jalousie et des difficultés à accepter sa place dans la fratrie. Un moment tout doux pour l'aider à se sentir aimé et rassuré.
@@ -568,37 +572,10 @@ La venue d'un autre bébé dans la famille peut réveiller un sentiment de jalou
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
-
----
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 
-## Énurésie
-
-
-Un accompagnement doux autour de la sécurité et de l'ancrage, pour apaiser les tensions.
-
-
-*Derrière ces tensions, souvent un besoin de sécurité : rassure sans pression.*
-
-
-**Séquence :**
-
-1. **la colonne vertébrale** — On accompagne le dos tout du long : détendre l'axe du corps, du haut vers le talon.
-2. **la gorge** — On apaise la zone du cou : relâcher, dénouer.
-3. **les poumons** — De petits cercles qui avancent sur le coussinet : ouvrir le souffle, laisser respirer.
-4. **le diaphragme** — Un lissage lent en travers du pied : relâcher le souffle et les tensions.
-5. **le plexus solaire** — Au centre de la voûte, une pression douce et maintenue : le point d'apaisement des émotions.
-6. **les surrénales** — Un appui posé sur les surrénales : calmer l'agitation, apaiser le stress.
-7. **le système urinaire** — Un appui tranquille sur les reins : apaiser le trop-plein, relâcher les peurs.
-8. **le psoas** _(hors pied : hors pied)_ — Ce geste ne se fait pas sur le pied : suis l'indication, sans animation.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
-
-
-# — PROTOCOLES REPORTÉS (non affichés) —
+# — REPORTÉS —
 
 ---
 
@@ -634,7 +611,7 @@ Un accompagnement respiratoire tout en douceur : ouvrir le souffle, apaiser, ré
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -665,7 +642,7 @@ Un protocole apaisant pour la peau : soutenir l'élimination et calmer les tensi
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -692,7 +669,7 @@ Un moment doux pour soutenir les défenses et apaiser les réactions du corps.
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -718,7 +695,7 @@ Un accompagnement très doux pour soutenir le foie et l'élimination, dans les p
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -743,7 +720,7 @@ Un protocole tout doux pour accompagner les premières éliminations de bébé.
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
 
 ---
 
@@ -774,4 +751,34 @@ Un protocole réconfortant après une chute : apaiser la peur, soulager, rassure
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
-_Disclaimer (en petit, bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+
+---
+
+
+## Énurésie _(reporté)_
+
+
+> _Reporté — l'énurésie ne concerne pas un enfant de moins de 2 ans — hors tranche 0-23 mois_
+
+
+Un accompagnement doux autour de la sécurité et de l'ancrage, pour apaiser les tensions.
+
+
+*Derrière ces tensions, souvent un besoin de sécurité : rassure sans pression.*
+
+
+**Séquence :**
+
+1. **la colonne vertébrale** — On accompagne le dos tout du long : détendre l'axe du corps, du haut vers le talon.
+2. **la gorge** — On apaise la zone du cou : relâcher, dénouer.
+3. **les poumons** — De petits cercles qui avancent sur le coussinet : ouvrir le souffle, laisser respirer.
+4. **le diaphragme** — Un lissage lent en travers du pied : relâcher le souffle et les tensions.
+5. **le plexus solaire** — Au centre de la voûte, une pression douce et maintenue : le point d'apaisement des émotions.
+6. **les surrénales** — Un appui posé sur les surrénales : calmer l'agitation, apaiser le stress.
+7. **le système urinaire** — Un appui tranquille sur les reins : apaiser le trop-plein, relâcher les peurs.
+8. **le psoas** _(hors pied : hors pied)_ — Ce geste ne se fait pas sur le pied : suis l'indication, sans animation.
+
+_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
+
+_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.

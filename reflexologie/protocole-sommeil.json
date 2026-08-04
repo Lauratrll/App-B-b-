@@ -138,5 +138,9 @@
   "note_fin": "Termine en allégeant le contact, puis éloigne-toi en douceur.",
   "disclaimer": "La Réflexologie plantaire ne se substitue pas à un avis médical.",
   "lancement": true,
-  "visuel": "visuels-protocoles/Visuel - Sommeil.png"
+  "visuel": "visuels-protocoles/Visuel - Sommeil.png",
+  "age_min_mois": 0,
+  "age_max_mois": 23,
+  "age_statut": "brouillon",
+  "age_note": "Version de base M0-M11 ; version AVEC vésicule M12-M23 (variante à intégrer)."
 }

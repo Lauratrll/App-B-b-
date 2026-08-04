@@ -1,0 +1,241 @@
+{
+  "mois": 4,
+  "tranche_age": "4 mois",
+  "categorie": {
+    "id": "corps",
+    "nom": "Corps & soins",
+    "sous_titre": "Préhension, crâne, peau, change, nez",
+    "icone": "🌿"
+  },
+  "protocoles": [
+    {
+      "categorie": "corps",
+      "situation": "Il attrape mais lâche aussitôt / la préhension se construit",
+      "titre": "La préhension / attraper, lâcher, recommencer",
+      "explication": "Ton bébé tend la main, touche l'objet, le saisit — et le lâche aussitôt. Il recommence, il rate, il réussit à moitié. C'est exactement ce qui doit se passer : la préhension volontaire se construit par essais et erreurs, et le relâchement contrôlé est une compétence qui vient bien après la saisie. Chaque tentative ratée n'est pas un échec : c'est une information que son cerveau enregistre. Mettre l'objet dans sa main court-circuite tout le processus — il obtient l'objet, mais il n'apprend rien.",
+      "ancrage": "Rater fait partie du travail. Ton rôle n'est pas de lui donner l'objet : c'est de le placer à la bonne distance et de le laisser essayer.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — soutenir sans faire à sa place",
+        "etapes": [
+          "Placer l'objet à bonne distance : à portée de bras tendu, pas dans la main.",
+          "Choisir des objets saisissables : légers, assez fins pour tenir dans sa paume, sans partie détachable.",
+          "Le laisser rater : ne pas corriger le geste, ne pas guider sa main.",
+          "Le laisser porter à la bouche : c'est ainsi qu'il termine son exploration — objets propres, sans petites pièces.",
+          "S'arrêter quand il se lasse : il détourne le regard, il a fini."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — l'éveil libre",
+        "etapes": [
+          "Un tapis ferme au sol : sans coussin, sans transat, sans arche ni mobile.",
+          "Deux ou trois objets seulement : la profusion disperse au lieu de nourrir.",
+          "Varier les positions : sur le dos, sur le côté, sur le ventre éveillé et surveillé.",
+          "Ta présence, sans intervention : à côté, disponible, en silence.",
+          "S'arrêter s'il se crispe : le jeu doit rester un plaisir."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Éviter les objets à piles : ils captent l'attention sans nourrir l'exploration.",
+        "Limiter transat et coque : ils immobilisent le corps et empêchent la préhension libre.",
+        "Vérifier la sécurité des objets : rien qui puisse être avalé, aucune partie détachable, aucune ficelle.",
+        "Se rappeler la fourchette : la préhension volontaire se construit sur plusieurs mois, chaque enfant à son rythme."
+      ],
+      "principe": "On n'apprend pas à attraper en recevant l'objet. Le rater, le reprendre, le lâcher : c'est le processus lui-même qui construit la compétence.",
+      "erreurs_a_eviter": [
+        "Mettre l'objet dans sa main dès qu'il s'énerve.",
+        "Guider ou corriger son geste.",
+        "Multiplier les jouets sonores et lumineux.",
+        "Le laisser de longues heures en transat, mains inaccessibles."
+      ],
+      "consulter_si": "Consulter si : bébé ne tend jamais la main vers un objet vers cinq mois, ne suit pas un objet du regard, n'ouvre pas les mains, paraît anormalement mou ou raide, ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre ou PMI, qui orientera si nécessaire vers un kinésithérapeute pédiatrique ou un psychomotricien.",
+      "source": "Source : Haute Autorité de Santé — « Prévenir la tête plate : conseils aux parents » et prévention des déformations crâniennes positionnelles."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Sa tête reste plate d'un côté / malgré les changements de position",
+      "titre": "Une tête qui reste plate / quand le repositionnement ne suffit plus",
+      "explication": "Tu as alterné les positions, changé l'orientation du lit, varié les sollicitations — et la zone plate est toujours là, voire s'accentue. Posons le seuil clairement : le repositionnement est le premier geste, et il fonctionne souvent. Mais quand il ne suffit pas, la bonne réponse n'est pas de persévérer plus longtemps ni de bricoler à la maison. C'est de consulter, et sans attendre : le crâne est très malléable à cet âge, et plus la prise en charge est précoce, plus elle est simple et efficace.",
+      "ancrage": "Persévérer seul.e n'est pas la bonne réponse quand la variation ne suffit pas. Consulter tôt est le geste le plus efficace — et cela ne veut pas dire que tu as mal fait.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — la conduite à tenir",
+        "etapes": [
+          "Prendre rendez-vous : chez le pédiatre ou le médecin traitant, sans attendre — c'est le geste principal de ce protocole.",
+          "Continuer la variation : alterner l'orientation dans le lit, le côté du portage, le côté des sollicitations.",
+          "Multiplier le temps sur le ventre, éveillé et surveillé : plusieurs fois par jour — c'est ce qui soulage le plus l'appui du crâne.",
+          "Réduire drastiquement transat et coque : ils maintiennent la tête dans la même position.",
+          "Ne jamais utiliser de cale-tête ni de coussin de positionnement : dangereux, ils augmentent le risque d'étouffement."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — l'éveil libre, sans manœuvre",
+        "etapes": [
+          "Tapis ferme au sol : sans coussin, sans arche, sans entrave.",
+          "Jeu de regard des deux côtés : ton visage tantôt à droite, tantôt à gauche.",
+          "Aucune manœuvre sur la nuque : ne jamais tourner ni maintenir la tête de force.",
+          "Portage alterné : changer de bras systématiquement.",
+          "S'arrêter s'il résiste : une résistance à tourner la tête se signale au professionnel."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne pas attendre : plus la prise en charge est précoce, plus elle est simple — le crâne se remodèle bien à cet âge.",
+        "Se laisser orienter : le pédiatre peut adresser à un kinésithérapeute pédiatrique — c'est un parcours banal.",
+        "Continuer le couchage sur le dos : cette règle ne se discute pas ; c'est la variation, pas la position de sommeil, qui est le levier.",
+        "Se déculpabiliser : une zone plate n'est pas la preuve que tu as mal fait."
+      ],
+      "principe": "Quand le repositionnement ne suffit pas, on ne persévère pas plus longtemps : on consulte. La précocité de la prise en charge est le facteur qui compte le plus.",
+      "erreurs_a_eviter": [
+        "Attendre plusieurs mois « pour voir si ça se corrige tout seul ».",
+        "Utiliser un cale-tête, un coussin de positionnement ou un réducteur.",
+        "Coucher bébé sur le côté ou sur le ventre pour soulager l'appui.",
+        "Tourner ou maintenir la tête de bébé de force."
+      ],
+      "consulter_si": "Consulter si : l'aplatissement persiste ou s'accentue malgré la variation des positions, si tu observes une asymétrie du visage ou des oreilles, si bébé résiste ou paraît gêné quand tu l'orientes d'un côté, ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre ou médecin traitant sans tarder, qui orientera vers un kinésithérapeute pédiatrique si nécessaire.",
+      "source": "Source : Haute Autorité de Santé — « Prévenir la tête plate : conseils aux parents » et prévention des déformations crâniennes positionnelles."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Plaques sèches et rugueuses / sa peau tiraille",
+      "titre": "La peau sèche / une routine émolliente simple",
+      "explication": "Des plaques sèches, rugueuses, parfois rouges, apparaissent sur les joues, les bras, les jambes. La peau du nourrisson est fine, sa barrière cutanée immature, et elle perd l'eau plus vite que la nôtre. La réponse tient en un mot : hydrater — régulièrement, avec un produit simple, sans parfum. Ce qui aggrave la situation : les bains longs et chauds, les savons décapants, la multiplication des produits, et surtout les remèdes maison. Si les plaques s'étendent, démangent, suintent ou s'infectent, cela se montre — cela ne se traite pas au hasard.",
+      "ancrage": "Une peau qui tiraille demande une routine simple et répétée, pas une accumulation de produits. Et une plaque qui démange ou qui suinte se montre.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — la routine émolliente",
+        "etapes": [
+          "Bain court et tiède : cinq à dix minutes, à température du corps — l'eau chaude dessèche.",
+          "Un nettoyant doux sans savon : sans parfum, sans colorant, en petite quantité.",
+          "Sécher en tamponnant : jamais frotter, particulièrement sur les plaques.",
+          "Appliquer l'émollient sur peau encore humide : dans les minutes qui suivent le bain, c'est là qu'il agit le mieux.",
+          "Renouveler dans la journée : une à deux fois de plus sur les zones sèches."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — l'application de la crème",
+        "etapes": [
+          "Réchauffer la crème dans tes mains : avant de l'appliquer, pour qu'elle ne soit pas froide.",
+          "Application lente et enveloppante : à mains pleines, pression douce et constante, sans frotter.",
+          "Nommer ce que tu fais : lui parler pendant le soin — c'est aussi un temps de lien.",
+          "Éviter les zones lésées : ne pas appliquer sur une plaque qui suinte ou saigne sans avis médical.",
+          "S'arrêter s'il se crispe : le soin doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Choisir un produit simple : plus la liste d'ingrédients est courte, mieux la peau se porte.",
+        "Éviter les huiles essentielles : contre-indiquées chez le nourrisson, y compris en diffusion.",
+        "Éviter l'huile d'amande douce : elle peut sensibiliser bébé et favoriser une allergie à l'amande.",
+        "Habiller en coton : éviter la laine à même la peau et les matières synthétiques."
+      ],
+      "principe": "Une peau sèche se traite par la régularité, pas par la quantité de produits. Bain court, nettoyant doux, émollient sur peau humide — et un avis médical dès que la plaque démange, suinte ou s'étend.",
+      "erreurs_a_eviter": [
+        "Multiplier les crèmes et les produits « spécial bébé ».",
+        "Utiliser des remèdes maison : huiles végétales non adaptées, huiles essentielles, préparations trouvées en ligne.",
+        "Appliquer une crème à la cortisone sans avis médical.",
+        "Donner des bains longs et chauds tous les jours."
+      ],
+      "consulter_si": "Consulter si : les plaques s'étendent, démangent visiblement, suintent, saignent, se couvrent de croûtes jaunâtres ou de pus, si bébé dort mal ou se gratte, ou s'il présente de la fièvre → pédiatre ou médecin traitant. Une peau très sèche et qui démange chez un nourrisson mérite un avis : il existe des soins efficaces, mais ils se décident avec un médecin, ils ne s'improvisent pas.",
+      "source": "Source : ameli.fr (Assurance Maladie) — peau sèche et dermatite atopique de l'enfant : soins quotidiens et quand consulter."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Il se tortille au change / il ne veut plus rester allongé",
+      "titre": "Le change qui devient un combat / le rendre acteur",
+      "explication": "Le change était un moment simple, et c'est devenu une lutte : il se cambre, se retourne, hurle. Rien de mystérieux — à quatre mois, il a découvert qu'il peut bouger, et rester allongé sans rien faire est devenu insupportable. Il ne s'oppose pas à toi : il s'oppose à l'immobilité. La réponse n'est pas de le tenir plus fermement, ce qui transforme le change en rapport de force quotidien. C'est de lui donner quelque chose à faire — un objet dans les mains, un échange, un rôle.",
+      "ancrage": "Il ne refuse pas le change : il refuse de ne rien faire. Lui donner un rôle vaut mieux que lui tenir les jambes.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — occuper ses mains",
+        "etapes": [
+          "Lui donner un objet : un seul, réservé au change, qu'il ne voit pas le reste du temps.",
+          "Parler et chanter : occuper son attention par ta voix, pas seulement par tes gestes.",
+          "Annoncer chaque geste : « je soulève tes jambes, je mets la couche » — la prévisibilité réduit l'opposition.",
+          "Aller vite : un change efficace vaut mieux qu'un change parfait.",
+          "Ne jamais le laisser seul sur la table à langer : même une seconde, même s'il ne se retourne pas encore."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — sortir du rapport de force",
+        "etapes": [
+          "Changer au sol : sur un tapis, il ne risque pas de tomber, et la lutte perd son enjeu.",
+          "Soutenir sans contraindre : glisser une main sous son siège, jamais le soulever par les chevilles.",
+          "Le laisser bouger : il peut se tortiller, cela n'empêche pas le change.",
+          "Terminer par un moment agréable : quelques secondes de jeu ou de contact, à la fin.",
+          "S'arrêter si cela dégénère : reposer, souffler, reprendre dans deux minutes."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Réduire le nombre de changes forcés : changer aux moments où il est calme, pas juste après une sieste ou un jeu excitant.",
+        "Faire tourner l'objet du change : un objet toujours nouveau garde son pouvoir d'attention.",
+        "Passer le relais : le co-parent a souvent une autre dynamique — cela suffit parfois à débloquer.",
+        "Se rappeler que c'est une étape : elle passera, et elle reviendra à d'autres âges."
+      ],
+      "principe": "Un bébé qui se tortille au change n'est pas un bébé opposant : c'est un bébé qui veut agir. Lui donner un rôle désamorce ce que la contrainte ne fera qu'aggraver.",
+      "erreurs_a_eviter": [
+        "Le maintenir de force pour finir le change.",
+        "Le soulever par les chevilles — dangereux pour ses hanches.",
+        "Le laisser seul sur la table à langer, même une seconde — c'est l'âge des premières chutes.",
+        "Transformer le change en affrontement quotidien."
+      ],
+      "consulter_si": "Consulter si : bébé pleure de douleur au change de façon répétée, si tu observes une gêne quand tu mobilises ses hanches ou ses jambes, une asymétrie des plis, une raideur permanente, ou s'il refuse tout contact → pédiatre ou médecin traitant. En cas de chute de la table à langer : appeler le 15 ou consulter en urgence, même si bébé semble aller bien."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Nez bouché en permanence / le lavage devient une lutte",
+      "titre": "Le lavage de nez / bref, prévisible, sans surprise",
+      "explication": "Le lavage de nez est devenu une bataille : il hurle, se débat, tu culpabilises, et tu finis par y renoncer — ce qui le laisse gêné pour téter et pour dormir. Le problème n'est pas le geste, c'est la façon dont il est vécu : imprévisible, subi, souvent long. Un lavage bref, annoncé, toujours identique, se supporte infiniment mieux qu'un lavage négocié. L'objectif n'est pas qu'il aime : c'est qu'il sache exactement ce qui va se passer, et que ce soit terminé en quelques secondes.",
+      "ancrage": "Il ne s'agit pas de le convaincre. Il s'agit de rendre le geste tellement bref et tellement prévisible qu'il cesse d'être une bataille.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — le geste bref",
+        "etapes": [
+          "Annoncer, toujours pareil : la même phrase, le même ordre — la prévisibilité réduit la lutte.",
+          "Installer bébé sur le côté : tête tournée, allongé, ton bras le maintenant doucement.",
+          "Introduire l'embout sans forcer : juste à l'entrée de la narine du haut.",
+          "Instiller franchement : un geste net, pour que le sérum traverse et ressorte par l'autre narine.",
+          "Terminer immédiatement : essuyer, redresser, câliner — le geste dure quelques secondes, pas une minute."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — après le lavage",
+        "etapes": [
+          "Le redresser tout de suite : contre toi, vertical, quelques instants.",
+          "Un temps de contact : sans parler, sans reproche, sans commentaire.",
+          "Choisir les bons moments : avant les prises et avant le coucher — là où le bénéfice est réel.",
+          "Ne pas multiplier les lavages : quelques-uns par jour, aux moments utiles, pas en continu.",
+          "Aucun produit dans le nez : ni huile, ni pommade, ni spray décongestionnant."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Utiliser des dosettes à usage unique : jetées après chaque narine, jamais réutilisées.",
+        "Observer la respiration plutôt que le bruit : une respiration rapide, sifflante, avec creusement entre les côtes ou battement des ailes du nez, est un signal d'appel.",
+        "Vérifier les prises : un bébé qui lâche le sein ou le biberon pour respirer et qui boit moins doit être vu.",
+        "Éviter la fumée : le tabagisme dans l'environnement aggrave l'encombrement et les risques respiratoires."
+      ],
+      "principe": "Le lavage de nez est un geste d'hygiène, pas une négociation. Bref, annoncé, toujours identique : c'est la prévisibilité qui le rend supportable, pas la douceur de la persuasion.",
+      "erreurs_a_eviter": [
+        "Utiliser un mouche-bébé de façon répétée et agressive — cela irrite la muqueuse et fait saigner.",
+        "Introduire un coton-tige ou un objet dans le nez.",
+        "Donner un sirop ou un décongestionnant — contre-indiqués chez le nourrisson.",
+        "Renoncer au lavage alors que bébé ne peut plus téter ni dormir correctement."
+      ],
+      "consulter_si": "Consulter si : bébé respire vite, siffle, creuse entre les côtes, bat des ailes du nez, change de couleur, marque des pauses respiratoires ; s'il refuse de boire ou boit beaucoup moins ; s'il a de la fièvre ; ou s'il paraît anormalement mou → appeler le 15 en cas de gêne respiratoire, et le pédiatre sans délai dans les autres cas.",
+      "source": "Source : ameli.fr (Assurance Maladie) — comment pratiquer un lavage de nez chez un enfant."
+    }
+  ]
+}

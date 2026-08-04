@@ -1,0 +1,288 @@
+{
+  "mois": 9,
+  "tranche_age": "9 mois",
+  "categorie": {
+    "id": "alim",
+    "nom": "Alimentation & digestion",
+    "sous_titre": "Autonomie, textures, transit",
+    "icone": "🥄"
+  },
+  "protocoles": [
+    {
+      "categorie": "alim",
+      "situation": "Refuse la cuillère / veut tout manger seul",
+      "titre": "Il veut manger seul / l'autonomie s'ouvre",
+      "explication": "Il repousse la cuillère, attrape la nourriture à pleines mains, et refuse d'être nourri. Ce n'est pas un caprice : l'autonomie alimentaire s'ouvre, et sa main sait désormais faire ce que sa bouche demande. Lutter pour garder le contrôle transforme le repas en bras de fer, et la tension au repas est ce qui installe le plus durablement les difficultés alimentaires. Ce qui fonctionne : lui donner des morceaux fondants à saisir, garder une cuillère pour toi — et accepter le désordre, qui est le prix de l'apprentissage.",
+      "ancrage": "Il ne refuse pas de manger : il refuse d'être nourri. Le désordre est le prix de son autonomie — et il vaut largement la peine.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — lui rendre la main",
+        "etapes": [
+          "Des morceaux fondants à saisir : légumes bien cuits, en bâtonnets qu'il peut tenir — jamais de morceaux durs, ronds ou glissants.",
+          "Deux cuillères : une pour lui, une pour toi — tu continues sans lutter.",
+          "Le laisser toucher, écraser, étaler : cela fait partie du repas.",
+          "Un tapis sous la chaise : cela retire l'enjeu du désordre.",
+          "Toujours assis, tronc droit, surveillé : jamais en mouvement, jamais seul."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — un repas apaisé",
+        "etapes": [
+          "Un repas court : quelques minutes suffisent — l'attention est limitée.",
+          "Un environnement calme : sans écran, sans public, sans agitation.",
+          "Nommer ce qu'il fait : « tu manges tout seul, tu y arrives ».",
+          "Ne jamais forcer : ni la cuillère, ni la quantité.",
+          "S'arrêter s'il se braque : le repas ne se force jamais."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se rappeler l'enjeu : la pression au repas installe durablement les difficultés alimentaires.",
+        "Accepter qu'il mange peu : le lait reste la base — au moins 500 ml par jour jusqu'à un an.",
+        "Ne jamais distraire pour faire avaler : écran, jeu, chanson — cela court-circuite ses signaux de satiété.",
+        "Se former aux gestes qui sauvent : avec les morceaux, une formation aux premiers secours prend tout son sens."
+      ],
+      "principe": "Il veut agir, pas refuser. Lui rendre la main sur son repas désamorce ce qu'aucune fermeté ne résoudra — et le désordre est temporaire.",
+      "erreurs_a_eviter": [
+        "Lutter pour garder la cuillère.",
+        "Empêcher bébé de toucher la nourriture.",
+        "Distraire avec un écran pour faire avaler.",
+        "Donner des morceaux durs, ronds ou glissants — risque d'étouffement."
+      ],
+      "consulter_si": "Consulter si : bébé s'étouffe — silence, absence de toux, changement de couleur → appeler immédiatement le 15. Consulter si : il refuse de manger depuis plusieurs jours, ne prend pas de poids, si sa courbe casse, ou s'il vomit de façon répétée → pédiatre, médecin traitant ou PMI.",
+      "source": "Source : ameli.fr (Assurance Maladie) — l'alimentation de l'enfant de 8 mois à 3 ans : des repas équilibrés et bien répartis."
+    },
+    {
+      "categorie": "alim",
+      "situation": "N'accepte que deux ou trois textures / depuis des semaines",
+      "titre": "Il n'accepte que quelques textures / la fenêtre se referme",
+      "explication": "Depuis des semaines, il n'accepte que le lisse, ou que deux ou trois aliments. Voici l'information importante : la fenêtre d'apprentissage des textures se referme progressivement, et il devient plus difficile d'introduire de nouvelles consistances après un an. Ce n'est pas une raison pour forcer — la contrainte au repas est le meilleur moyen d'installer un refus durable. Mais c'est une raison pour ne pas attendre passivement : on continue de proposer, par petites touches, sans bataille et sans commentaire, encore et encore.",
+      "ancrage": "Attendre qu'il « soit prêt » ne le rendra pas prêt. On propose, sans forcer et sans commenter — et on recommence.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — proposer par petites touches",
+        "etapes": [
+          "Un aliment déjà accepté, texture légèrement modifiée : la nouveauté porte sur la consistance, pas sur le goût.",
+          "Une toute petite quantité : à côté de ce qu'il aime, sans insister.",
+          "Sans commentaire : ne pas encourager, ne pas féliciter, ne pas commenter le refus.",
+          "Reproposer souvent : de nombreuses propositions sont souvent nécessaires avant qu'une texture soit acceptée.",
+          "S'arrêter s'il recrache : on retire, on repropose au repas suivant."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — apprivoiser la texture",
+        "etapes": [
+          "Le laisser toucher : les mains dans l'assiette font partie de l'apprentissage.",
+          "Manger la même chose devant lui : l'imitation est un moteur puissant.",
+          "Varier les formes : bâtonnets, écrasés, fondants — plutôt que d'augmenter les quantités.",
+          "Un environnement calme : sans écran, sans pression, sans public.",
+          "S'arrêter s'il se braque : le repas ne se force jamais."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir la fenêtre : les nouvelles textures s'introduisent en général entre six et huit mois, et l'acceptation devient nettement plus difficile après un an.",
+        "Ne jamais forcer : la contrainte installe un refus durable, bien plus grave que le retard de texture.",
+        "En parler au professionnel : une sélectivité qui dure se signale — le pédiatre peut orienter.",
+        "Ne pas comparer : la fourchette est large, et certains enfants sont plus prudents."
+      ],
+      "principe": "La fenêtre des textures se referme, mais la contrainte n'est jamais la réponse. On propose par petites touches, sans commentaire — et on tient dans la durée.",
+      "erreurs_a_eviter": [
+        "Forcer une texture ou insister sur une cuillerée.",
+        "Attendre passivement qu'il « soit prêt ».",
+        "Commenter ou dramatiser le refus.",
+        "Ne proposer que ce qu'il accepte."
+      ],
+      "consulter_si": "Consulter si : bébé n'accepte que très peu d'aliments depuis plusieurs semaines, s'il refuse toute texture épaissie, s'il vomit de façon répétée, ne prend pas de poids, ou si sa courbe casse → pédiatre ou médecin traitant, qui pourra orienter si nécessaire.",
+      "source": "Source : Santé publique France et ANSES — recommandations sur la diversification alimentaire des enfants de moins de 3 ans : progression des textures."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Se distrait au moindre bruit / pendant le repas",
+      "titre": "Il ne peut pas manger et explorer / simplifier l'environnement",
+      "explication": "Un bruit, un mouvement, une conversation — et il lâche tout, tourne la tête, oublie qu'il mangeait. À neuf mois, il ne peut pas manger et explorer en même temps : son attention ne se partage pas encore. La réponse habituelle est d'occuper son attention — jouet, chanson, écran — pour qu'il « oublie » qu'il mange. C'est une mauvaise idée : distraire pour faire avaler court-circuite ses signaux de satiété. Ce qui se règle, c'est l'environnement — pas son attention.",
+      "ancrage": "Il ne peut pas faire deux choses à la fois. Ce qui se simplifie, c'est la pièce — jamais son attention, qu'on ne détourne pas.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — simplifier",
+        "etapes": [
+          "Pièce calme : lumière basse si nécessaire, pas de musique, pas de télévision, jamais d'écran.",
+          "Dos aux stimulations : l'installer face à un mur, pas face à la pièce.",
+          "Un seul adulte : les allées et venues suffisent à le détourner.",
+          "Rien sur la table : pas de jouet, pas d'objet en plus de son assiette.",
+          "Un repas court : quelques minutes suffisent — l'attention est limitée."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — recentrer sans distraire",
+        "etapes": [
+          "Ta voix, tout bas : plutôt que de le laisser chercher les bruits ailleurs.",
+          "Manger avec lui : l'imitation recentre mieux que n'importe quelle animation.",
+          "Nommer ce qu'il mange : simplement, sans surjouer.",
+          "Ne jamais distraire pour faire avaler : cela court-circuite ses signaux de satiété.",
+          "S'arrêter s'il se braque : le repas ne se force jamais."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Vérifier les indicateurs : couches mouillées et courbe de poids disent l'essentiel, pas la quantité d'un repas.",
+        "Profiter des moments calmes : les repas du matin sont souvent les plus efficaces.",
+        "Le lait reste la base : au moins 500 ml par jour jusqu'à un an.",
+        "Se rappeler que la distraction est un progrès : elle signe une curiosité toute neuve."
+      ],
+      "principe": "Un bébé distrait est un bébé curieux. Ce qui se règle, c'est l'environnement — et jamais en le distrayant, ce qui casse ses signaux de satiété.",
+      "erreurs_a_eviter": [
+        "Utiliser un écran ou un jouet pour « capter » son attention pendant le repas.",
+        "Chanter ou animer pour faire avaler une cuillerée.",
+        "Prolonger le repas au-delà de son attention.",
+        "Forcer une quantité."
+      ],
+      "consulter_si": "Consulter si : bébé refuse plusieurs repas consécutifs, ne prend pas de poids, mouille très peu ses couches, si sa courbe casse, ou s'il paraît anormalement mou → pédiatre, médecin traitant ou PMI.",
+      "source": "Source : ameli.fr (Assurance Maladie) — l'alimentation de l'enfant de 8 mois à 3 ans : des repas équilibrés et bien répartis."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Recrache tout systématiquement / ce qu'il met en bouche",
+      "titre": "Il recrache tout / un tri sensoriel, pas un refus",
+      "explication": "Il porte l'aliment à sa bouche, le goûte — et le recrache aussitôt. Systématiquement. Ce n'est pas un refus, et ce n'est pas de la provocation : c'est un tri sensoriel. Il explore une texture, une température, un goût — et il évacue ce que sa bouche ne sait pas encore traiter. Recracher fait partie de l'apprentissage. Ce qui aggrave la situation : commenter, dramatiser, insister, ou retirer définitivement l'aliment. Ce qui aide : représenter, encore et encore, sans un mot.",
+      "ancrage": "Recracher est un tri, pas un verdict. Ce qui compte, c'est de représenter — sans commentaire, sans pression, sans découragement.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — représenter sans commenter",
+        "etapes": [
+          "Ne rien dire : ni encouragement, ni déception, ni commentaire sur le refus.",
+          "Représenter au repas suivant : sans insister, à côté de ce qu'il aime.",
+          "Une toute petite quantité : la nouveauté se propose en petite dose.",
+          "Le laisser toucher et explorer : mettre les mains dedans fait partie du tri.",
+          "S'arrêter s'il se braque : le repas ne se force jamais."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — soutenir l'exploration",
+        "etapes": [
+          "Manger la même chose devant lui : l'imitation est un moteur puissant.",
+          "Varier la présentation : écrasé, en bâtonnet, tiède ou froid — la forme change tout.",
+          "Un environnement calme : sans écran, sans public, sans pression.",
+          "Nommer sans juger : « tu goûtes, tu recraches, c'est comme ça qu'on apprend ».",
+          "S'arrêter s'il se détourne : il indique qu'il a fini."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Compter en propositions : de nombreuses présentations sont souvent nécessaires avant qu'un aliment soit accepté.",
+        "Ne jamais retirer définitivement un aliment : un refus n'est pas un verdict.",
+        "Ne pas remplacer par un aliment qu'il aime : cela lui apprend qu'un refus produit un meilleur plat.",
+        "Distinguer le recrachage du haut-le-cœur : le second protège, le premier trie."
+      ],
+      "principe": "Recracher est un tri sensoriel qui fait partie de l'apprentissage. Ce qui installe un refus durable, ce n'est pas l'aliment : c'est le commentaire et la pression.",
+      "erreurs_a_eviter": [
+        "Commenter, dramatiser ou insister.",
+        "Retirer définitivement l'aliment après un refus.",
+        "Remplacer par un plat qu'il aime pour qu'il mange.",
+        "Forcer une cuillerée."
+      ],
+      "consulter_si": "Consulter si : bébé recrache tout depuis plusieurs semaines, vomit de façon répétée, refuse de boire, ne prend pas de poids, ou si sa courbe casse → pédiatre ou médecin traitant. En cas d'étouffement — silence, absence de toux, changement de couleur → appeler immédiatement le 15.",
+      "source": "Source : Santé publique France et ANSES — recommandations sur la diversification alimentaire des enfants de moins de 3 ans : progression des textures."
+    },
+    {
+      "categorie": "alim",
+      "situation": "La constipation s'installe / selles rares et dures",
+      "titre": "La constipation qui s'installe / eau, fibres, mouvement",
+      "explication": "Ses selles sont dures, rares, difficiles à évacuer — et cela dure. Le mécanisme à connaître est le suivant : une selle douloureuse pousse l'enfant à se retenir, ce qui la rend plus dure encore, donc plus douloureuse. Le cercle s'installe vite. La routine à tenir est simple et elle se joue sur trois leviers : l'eau, proposée à chaque repas ; les fibres, apportées par les légumes et les fruits ; et le mouvement, qui soutient le transit mieux que n'importe quel geste. Et un avis médical dès que cela résiste.",
+      "ancrage": "Le cercle douleur-rétention se casse tôt ou pas du tout. Trois leviers : l'eau, les fibres, le mouvement — et un avis dès que cela résiste.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — la routine",
+        "etapes": [
+          "Proposer de l'eau : à chaque repas, dans une tasse ou un verre.",
+          "Des légumes à chaque repas : ils apportent les fibres qui manquent.",
+          "Des fruits : en purée, écrasés, ou en morceaux fondants.",
+          "Beaucoup de mouvement au sol : il soutient le transit mieux que n'importe quel geste.",
+          "Observer les signes de rétention : il se raidit, croise les jambes, rougit et retient."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — confort du ventre",
+        "etapes": [
+          "Bébé sur le dos : plan ferme, jambes libres, pièce calme.",
+          "Flexion douce des jambes : ramener lentement ses genoux vers son ventre, puis relâcher.",
+          "Main posée sur le ventre : ta paume réchauffée, immobile, pression douce et constante.",
+          "Soin du siège : nettoyer à l'eau, sécher en tamponnant — une fissure douloureuse aggrave la rétention.",
+          "S'arrêter dès qu'il se crispe : sa réaction est la seule mesure."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne rien introduire dans le siège : suppositoire, thermomètre, coton-tige — ces gestes ne s'improvisent pas et aggravent la peur.",
+        "Ne jamais changer de lait seul.e : cela se décide avec un médecin.",
+        "Éviter les jus de fruits : sucrés, et sans effet fiable.",
+        "Consulter dès que cela résiste : une constipation installée se traite, mais bien plus difficilement."
+      ],
+      "principe": "La constipation se juge sur la consistance et le confort, jamais sur la fréquence. L'eau, les fibres et le mouvement sont les trois leviers — et rien ne s'introduit dans le siège à la maison.",
+      "erreurs_a_eviter": [
+        "Stimuler l'anus avec un thermomètre, un coton-tige ou un suppositoire.",
+        "Donner un jus de fruit ou une tisane pour « aider ».",
+        "Changer de lait sans avis médical.",
+        "Attendre que « ça passe » alors qu'il se retient."
+      ],
+      "consulter_si": "Consulter si : les selles sont dures et douloureuses, si bébé se retient, si tu vois des traces de sang, si le ventre est dur et tendu, s'il vomit, refuse de boire, ou ne prend pas de poids → pédiatre ou médecin traitant sans attendre. Le 15 en cas de ventre dur avec vomissements et arrêt total des selles et des gaz.",
+      "source": "Source : ameli.fr (Assurance Maladie) — constipation de l'enfant : que faire et quand consulter."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Il recrache tous les morceaux / la texture ne passe pas",
+      "titre": "Les morceaux ne passent pas / réflexe protecteur ou difficulté ?",
+      "explication": "Dès qu'un morceau arrive, il tousse, a un haut-le-cœur, et recrache tout. Deux choses très différentes peuvent se produire. Le réflexe nauséeux est protecteur : il tousse, fait du bruit, larmoie, recrache — il gère seul, et il ne faut surtout pas intervenir. Ce réflexe recule progressivement avec l'expérience. Une vraie difficulté, elle, se caractérise par des étouffements répétés, des refus systématiques qui durent, une stagnation du poids. La différence se joue sur la durée et sur les signes associés.",
+      "ancrage": "Il tousse et recrache : il se protège, on ne touche à rien. Il est silencieux et change de couleur : c'est le 15.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — reconnaître, puis progresser",
+        "etapes": [
+          "Il tousse, fait du bruit, larmoie : c'est un haut-le-cœur — il gère, on ne fait rien.",
+          "Il est silencieux, ne tousse pas, change de couleur : c'est un étouffement — appeler immédiatement le 15.",
+          "Ne jamais mettre les doigts dans sa bouche : cela peut enfoncer l'aliment.",
+          "Progresser par paliers : épaissir imperceptiblement, un cran à la fois.",
+          "Toujours assis, tronc droit, surveillé : jamais en mouvement, jamais seul."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — apprivoiser les morceaux",
+        "etapes": [
+          "Des morceaux fondants : légumes bien cuits, en bâtonnets — qui s'écrasent entre les doigts.",
+          "Le laisser porter seul à la bouche : il dose mieux lui-même que tu ne doses pour lui.",
+          "Jamais d'aliments ronds, durs ou glissants : raisin entier, fruits à coque, rondelles — ils se coupent en longueur ou ne se donnent pas.",
+          "Un environnement calme : sans écran, sans pression.",
+          "S'arrêter s'il se braque : on repropose au repas suivant."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se rappeler que le réflexe recule : avec l'expérience, le haut-le-cœur se déclenche de plus en plus en arrière de la bouche.",
+        "Ne pas renoncer aux morceaux : la fenêtre d'apprentissage se referme après un an.",
+        "Se former aux gestes qui sauvent : c'est le meilleur antidote à la peur.",
+        "En parler si cela persiste : des étouffements répétés ou un refus qui dure se signalent au pédiatre."
+      ],
+      "principe": "Le réflexe nauséeux protège : il ne se corrige pas, il recule avec l'expérience. La progression se fait par paliers — et certains aliments ne se donnent jamais.",
+      "erreurs_a_eviter": [
+        "Mettre les doigts dans sa bouche pour retirer un aliment.",
+        "Tapoter le dos d'un bébé qui tousse — il gère seul.",
+        "Renoncer définitivement aux morceaux par peur.",
+        "Donner un grain de raisin entier, un fruit à coque ou une rondelle."
+      ],
+      "consulter_si": "Consulter si : bébé s'étouffe — silence, absence de toux, difficulté à respirer, changement de couleur → appeler immédiatement le 15 ou le 112. Consulter si : les étouffements sont répétés, s'il refuse tous les morceaux depuis plusieurs semaines, s'il tousse de façon persistante après un repas, ou s'il ne prend pas de poids → pédiatre sans délai.",
+      "source": "Source : ANSES et ameli.fr — aliments à risque de fausse route et corps étranger inhalé chez le jeune enfant."
+    }
+  ]
+}

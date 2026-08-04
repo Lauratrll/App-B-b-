@@ -1,0 +1,196 @@
+{
+  "mois": 11,
+  "tranche_age": "11 mois",
+  "categorie": {
+    "id": "motricite",
+    "nom": "Motricité & exploration",
+    "sous_titre": "Premiers pas, appuis, grimpe, chaussures",
+    "icone": "🤸"
+  },
+  "protocoles": [
+    {
+      "categorie": "motricite",
+      "situation": "Premiers pas puis plus rien / il n'ose plus se lancer",
+      "titre": "Les premiers pas puis le silence / la confiance revient seule",
+      "explication": "Il a fait trois pas, tout le monde a applaudi — et depuis, plus rien. Il refuse de lâcher, retourne à quatre pattes, ne veut plus se lancer. Ce retour en arrière fait partie de l'apprentissage : après un essai réussi, beaucoup d'enfants consolident avant de recommencer. Parfois aussi, une chute ou l'excitation générale l'ont impressionné. Ce qui aide n'est pas de solliciter — « allez, marche ! », mains tendues, encouragements insistants — mais exactement l'inverse : ne rien demander, et laisser la confiance revenir.",
+      "ancrage": "Un retour en arrière fait partie du chemin. Ne sollicite pas — la confiance revient toute seule si on lui fiche la paix.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — ne rien demander",
+        "etapes": [
+          "Ne pas solliciter : ni « allez, marche », ni mains tendues, ni démonstrations.",
+          "Ne pas dramatiser l'arrêt : il n'a rien perdu.",
+          "Laisser du temps au sol : c'est là que la confiance se reconstruit.",
+          "Placer des appuis stables : à sa hauteur, fixés, pour qu'il se lance quand il voudra.",
+          "Ne pas applaudir trop fort : l'excitation générale peut être ce qui l'a impressionné."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — laisser revenir",
+        "etapes": [
+          "Pieds nus à la maison : la sensation du sol guide l'équilibre.",
+          "Un sol dégagé et amortissant : pour que les chutes restent sans conséquence.",
+          "Ta présence, sans soutien : à côté de lui, disponible, sans le tenir.",
+          "Le laisser tomber et se relever : c'est le chemin.",
+          "S'arrêter s'il fatigue : la fatigue multiplie les chutes."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir la fourchette : la marche s'installe entre dix et dix-huit mois — un arrêt de quelques semaines n'a aucune signification.",
+        "Ne jamais utiliser de trotteur : il n'accélère rien et présente des risques réels.",
+        "Ne pas tenir ses mains : cela lui donne un équilibre qui n'est pas le sien.",
+        "Se méfier de la comparaison : c'est elle, pas le développement, qui crée l'inquiétude."
+      ],
+      "principe": "Un retour en arrière après les premiers pas est fréquent et sans conséquence. La confiance revient d'elle-même — à condition qu'on ne la sollicite pas.",
+      "erreurs_a_eviter": [
+        "Solliciter, encourager avec insistance, tendre les mains.",
+        "Utiliser un trotteur ou un harnais de marche.",
+        "Dramatiser l'arrêt.",
+        "Comparer sa progression à celle d'un autre enfant."
+      ],
+      "consulter_si": "Consulter si : l'enfant ne se déplace d'aucune façon vers douze mois, ne se met jamais debout, ne marche pas du tout vers dix-huit mois, perd une compétence acquise, boite, ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre ou PMI, qui orientera si nécessaire vers un kinésithérapeute pédiatrique ou un psychomotricien.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'activité physique du tout-petit."
+    },
+    {
+      "categorie": "motricite",
+      "situation": "Il marche sur la pointe des pieds / faut-il s'inquiéter",
+      "titre": "La marche sur la pointe des pieds / observer, ne pas corriger",
+      "explication": "Il marche sur la pointe des pieds, et cela inquiète immédiatement. Au début de la marche, c'est fréquent : l'enfant explore ses appuis, teste ses sensations, joue avec les positions de ses pieds. Ce qui compte, ce n'est pas de le corriger — la position ne se redresse pas de l'extérieur — mais d'observer la variété. Un enfant qui marche parfois sur la pointe, parfois à plat, qui pose ses talons quand il est debout immobile, explore. Un enfant qui ne pose jamais le talon, lui, se montre au professionnel.",
+      "ancrage": "Explorer la pointe des pieds est fréquent au début. Ce qui s'observe, c'est la variété des appuis — pas la position elle-même.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — observer",
+        "etapes": [
+          "Regarder la variété : marche-t-il parfois à plat, pose-t-il ses talons debout immobile ?",
+          "Ne pas corriger : ni appuyer sur ses talons, ni le maintenir à plat.",
+          "Pieds nus : la sensation du sol est la meilleure information qu'il puisse recevoir.",
+          "Varier les surfaces : tapis, parquet, herbe, sable — chacune sollicite différemment.",
+          "Observer les mollets : une raideur, une résistance quand tu fléchis le pied, se signale."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — l'éveil libre du pied",
+        "etapes": [
+          "Marcher pieds nus à la maison : autant que possible.",
+          "Réflexologie du pied : balayage de la voûte, du talon vers les orteils, pression douce et constante.",
+          "Varier les sensations : différentes textures sous les pieds.",
+          "Mieux vaut ne pas forcer la position : le pied se forme tout seul, de l'intérieur.",
+          "S'arrêter s'il se crispe : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne pas s'affoler : cette exploration est fréquente au début de la marche.",
+        "Observer plutôt que corriger : la variété des appuis est l'indicateur, pas la position.",
+        "Retenir les signes qui alertent : talon jamais posé, raideur du mollet, asymétrie, perte d'une compétence.",
+        "Poser tes questions en consultation : le suivi médical existe exactement pour cela."
+      ],
+      "principe": "La marche sur la pointe des pieds est fréquente au début. Ce qui compte, c'est la variété des appuis — et un talon jamais posé se montre au professionnel.",
+      "erreurs_a_eviter": [
+        "Corriger la position en appuyant sur ses talons.",
+        "Le chausser rigidement pour « redresser » son pied.",
+        "S'affoler d'une exploration passagère.",
+        "Ignorer une raideur du mollet ou une asymétrie."
+      ],
+      "consulter_si": "Consulter si : l'enfant ne pose jamais le talon au sol, si tu observes une raideur ou une résistance du mollet quand tu fléchis son pied, une asymétrie entre les deux jambes, une boiterie, une perte de compétence acquise, ou si la marche sur la pointe persiste et devient exclusive → pédiatre ou médecin traitant, qui orientera si nécessaire vers un kinésithérapeute pédiatrique.",
+      "source": "Source : ameli.fr (Assurance Maladie) — les examens de suivi médical de l'enfant entre 3 et 18 mois."
+    },
+    {
+      "categorie": "motricite",
+      "situation": "Il grimpe partout / canapé, chaises, escaliers",
+      "titre": "Il grimpe partout / offrir un parcours plutôt qu'un interdit",
+      "explication": "Il grimpe sur le canapé, sur les chaises, dans l'escalier, sur la table basse. Grimper est un besoin moteur profond à cet âge, et aucun interdit ne l'arrêtera — il recommencera dès que tu auras le dos tourné. Ce qui fonctionne, c'est de canaliser : offrir un parcours sûr où grimper est autorisé, et sécuriser absolument tout le reste. Un enfant qui a un endroit pour grimper grimpe moins ailleurs — et un escalier avec barrière est infiniment plus efficace qu'un « non » répété.",
+      "ancrage": "Aucun interdit n'arrêtera un besoin moteur. Offre-lui un endroit pour grimper — et sécurise tout le reste.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — canaliser",
+        "etapes": [
+          "Un parcours autorisé : coussins fermes, petit module, marche basse — un endroit où grimper est possible.",
+          "Barrières d'escalier : en haut et en bas, systématiquement — un escalier n'est pas un terrain d'entraînement libre.",
+          "Fixer les meubles au mur : commodes, étagères, téléviseurs — un meuble qui bascule peut tuer.",
+          "Retirer ce qui permet d'escalader près d'une fenêtre : c'est un danger mortel.",
+          "Un sol amortissant : sous les zones de grimpe."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — accompagner la grimpe",
+        "etapes": [
+          "Lui apprendre à redescendre : à reculons, pieds d'abord — c'est le geste le plus utile.",
+          "L'accompagner dans l'escalier : sous surveillance rapprochée, en lui montrant le retour à reculons.",
+          "Ne pas le porter systématiquement : il apprendra en montant lui-même.",
+          "Rester à côté sans le tenir : disponible, prêt à amortir.",
+          "S'arrêter s'il fatigue : la fatigue multiplie les chutes."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Sécuriser les fenêtres : entrebâilleurs, aucun meuble sous une fenêtre — les défenestrations sont dramatiques et rapides.",
+        "Vérifier chaque pièce : ce qu'il n'atteint pas encore, il l'atteindra dans quelques jours.",
+        "Ne pas laisser une chaise près d'un plan de travail ou d'une fenêtre.",
+        "Retenir que grimper est un besoin : le canaliser fonctionne, l'interdire non."
+      ],
+      "principe": "Grimper est un besoin moteur : aucun interdit ne l'arrêtera. Un parcours sûr canalise — et tout le reste doit être sécurisé, sans exception.",
+      "erreurs_a_eviter": [
+        "Interdire sans offrir d'alternative.",
+        "Laisser un escalier accessible sans barrière.",
+        "Laisser un meuble ou une chaise sous une fenêtre.",
+        "Laisser un meuble non fixé au mur."
+      ],
+      "consulter_si": "Consulter si : après une chute, l'enfant perd connaissance, vomit, devient anormalement somnolent, pleure de façon inconsolable, présente une bosse importante, un saignement, ou un membre qu'il ne mobilise plus → appeler le 15. En cas de chute d'une hauteur, dans un escalier, ou d'une fenêtre : urgence absolue.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — éviter les accidents domestiques des enfants."
+    },
+    {
+      "categorie": "motricite",
+      "situation": "Faut-il des chaussures pour marcher / pieds nus ou souples",
+      "titre": "Les chaussures / le pied nu, le meilleur allié de l'équilibre",
+      "explication": "« Il lui faut de bonnes chaussures pour marcher. » C'est une idée reçue très répandue, et pourtant les repères actuels invitent à faire autrement. Le pied nu est ce qui construit l'équilibre : il informe le cerveau sur le sol, sur l'inclinaison, sur la pression — et cette information est indispensable à l'apprentissage. Une chaussure rigide, elle, réduit cette information et gêne un pied encore en formation. La chaussure a toute sa place dehors, pour protéger du froid et des blessures : souple, large et légère. Pour apprendre à marcher, en revanche, le pied nu reste ce qu'il y a de mieux.",
+      "ancrage": "Le pied nu est le meilleur allié de l'équilibre. La chaussure protège dehors — et plus elle est souple, plus elle laisse le pied travailler.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — pieds nus dedans",
+        "etapes": [
+          "Pieds nus à la maison : le plus souvent possible — c'est ce qui construit l'équilibre.",
+          "Ou des chaussons antidérapants souples : si le sol est froid ou glissant.",
+          "Dehors : une chaussure souple, large, légère, à semelle fine et flexible.",
+          "Vérifier la souplesse : la chaussure doit pouvoir se plier facilement à la main.",
+          "Privilégier une tige souple : une chaussure qui laisse la cheville libre respecte le mouvement naturel du pied."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — nourrir le pied",
+        "etapes": [
+          "Varier les surfaces : tapis, parquet, herbe, sable — chaque texture informe.",
+          "Réflexologie du pied : balayage de la voûte, du talon vers les orteils, pression douce et constante.",
+          "Laisser les orteils libres : une chaussure trop étroite écrase le pied en formation.",
+          "Vérifier la taille souvent : le pied grandit vite, une chaussure trop petite déforme.",
+          "S'arrêter s'il se crispe : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir l'essentiel : la chaussure protège dehors, et le pied nu apprend dedans.",
+        "Se méfier des « chaussures de marche » vendues comme des aides : elles contraignent.",
+        "Éviter les chaussures rigides censées « corriger » un pied — un pied qui se forme n'a pas besoin d'être redressé de l'extérieur.",
+        "En parler en consultation : le suivi médical vérifie les pieds à chaque examen."
+      ],
+      "principe": "Le pied nu est le meilleur allié de l'équilibre — c'est l'information du sol qui guide le cerveau. Dehors, une chaussure souple, large et légère fait parfaitement l'affaire.",
+      "erreurs_a_eviter": [
+        "Compter sur des chaussures rigides pour « aider » à marcher, alors que le pied nu fait mieux.",
+        "Choisir une chaussure qui bloque la cheville plutôt qu'une tige souple.",
+        "Garder une chaussure devenue trop petite.",
+        "Garder l'enfant chaussé en permanence à la maison, alors que le pied nu l'aide davantage."
+      ],
+      "consulter_si": "Consulter si : l'enfant ne pose jamais le talon, boite, présente une asymétrie entre les deux jambes, une déformation visible du pied, une raideur du mollet, ou s'il perd une compétence acquise → pédiatre ou médecin traitant, qui orientera si nécessaire.",
+      "source": "Source : ameli.fr (Assurance Maladie) — les examens de suivi médical de l'enfant entre 3 et 18 mois."
+    }
+  ]
+}

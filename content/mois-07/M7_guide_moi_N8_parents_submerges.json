@@ -1,0 +1,196 @@
+{
+  "mois": 7,
+  "tranche_age": "7 mois",
+  "categorie": {
+    "id": "parent",
+    "nom": "Parents submergés",
+    "sous_titre": "Reprise, nuits hachées, colère, isolement",
+    "icone": "🫶"
+  },
+  "protocoles": [
+    {
+      "categorie": "parent",
+      "situation": "Reprise du travail imminente / l'angoisse monte",
+      "titre": "La reprise imminente / la logistique et l'angoisse, séparément",
+      "explication": "À l'approche de la reprise, deux choses se mélangent et s'aggravent l'une l'autre : une logistique non réglée, et une angoisse qu'on t'interdit implicitement d'avoir. Les séparer change tout. La logistique se découpe : horaires, trajets, qui dépose, qui récupère, plan B. L'angoisse, elle, ne se résout pas par un plan — elle a le droit d'exister, et elle n'est pas le signe que tu fais un mauvais choix. À sept mois, ton bébé est en pleine angoisse de séparation : la préparation compte plus que jamais.",
+      "ancrage": "Tu as le droit de ne pas être sereine. Le plan gère la logistique — il n'a pas à effacer le chagrin.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — découper",
+        "etapes": [
+          "Lister le concret : horaires, trajets, qui dépose, qui récupère, plan B.",
+          "Traiter un point par jour : l'angoisse se nourrit de la liste globale.",
+          "Commencer l'adaptation tôt : quelques heures, puis une demi-journée, puis une journée.",
+          "Un rituel de départ court : une phrase, un baiser, et on part — toujours les mêmes.",
+          "Nommer l'angoisse : elle est légitime, elle n'a pas à être résolue."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — se préparer soi-même",
+        "etapes": [
+          "Trois respirations lentes : expiration plus longue que l'inspiration, avant de partir.",
+          "Écrire ce qui fait peur : la liste écrite est toujours plus petite que celle qui tourne dans la tête.",
+          "Prévoir la première semaine allégée : aucun engagement, aucune sortie.",
+          "Un soutien identifié : quelqu'un à qui écrire le premier jour.",
+          "Accepter les larmes du premier jour : elles sont fréquentes et ne présagent de rien."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Transmettre ses repères par écrit : signes de fatigue, ce qui l'apaise, son rituel.",
+        "Anticiper la peur de l'étranger : à sept mois, l'adaptation demande plus de temps qu'à trois mois.",
+        "Se renseigner sur tes droits : temps partiel, congé parental, aménagements — médecine du travail ou ressources humaines.",
+        "Distinguer angoisse et dépression : une tristesse durable, une perte d'intérêt ou des pensées noires demandent un avis."
+      ],
+      "principe": "La logistique se règle par un plan ; l'angoisse se traverse. Confondre les deux fait échouer les deux — et personne n'a à être serein pour reprendre.",
+      "erreurs_a_eviter": [
+        "Tout organiser la veille.",
+        "Se forcer à « être forte » et taire la tristesse.",
+        "Commencer la garde sans adaptation progressive.",
+        "Partir en cachette le premier jour."
+      ],
+      "consulter_si": "Consulter si : l'angoisse devient envahissante, si elle s'accompagne d'attaques de panique, d'insomnies même quand bébé dort, d'une tristesse qui dure plus de deux semaines, ou de pensées noires → médecin, sage-femme, PMI ou psychologue périnatal. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence.",
+      "source": "Source : ameli.fr (Assurance Maladie) — dépression post-partum : reconnaître les signes et se faire accompagner."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Nuits hachées depuis sept mois / je ne tiens plus debout",
+      "titre": "Sept mois de nuits hachées / le relais est un soin",
+      "explication": "Sept mois de nuits fragmentées. La privation chronique de sommeil n'est pas une fatigue ordinaire : elle altère réellement l'humeur, le jugement, la mémoire et la tolérance émotionnelle. Ce n'est pas un défaut de caractère, et cela ne se corrige pas par la volonté. La conséquence est concrète : un relais nocturne n'est pas un confort qu'on s'accorde quand on a le temps — c'est un soin, au même titre qu'un traitement. Et il doit être organisé, pas espéré.",
+      "ancrage": "Ta fatigue altère ton jugement — c'est physiologique, pas moral. Un relais nocturne n'est pas un luxe : c'est un soin.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — organiser le relais nocturne",
+        "etapes": [
+          "Découper la nuit : chaque parent prend une moitié, avec un bloc de sommeil continu.",
+          "Dormir dans une autre pièce pendant ton bloc : sinon tu te réveilles quand même.",
+          "Une nuit complète par semaine : pour l'un, puis pour l'autre — c'est le minimum vital.",
+          "Demander précisément : « peux-tu prendre la nuit de jeudi » fonctionne, « aide-moi » ne fonctionne pas.",
+          "Accepter que ce soit fait autrement : le co-parent consolera différemment, et cela suffit."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — récupérer par morceaux",
+        "etapes": [
+          "S'allonger dix minutes : même sans dormir, la position allongée réduit la charge.",
+          "Trois respirations lentes : expiration plus longue que l'inspiration.",
+          "Sortir dehors : la lumière du jour aide à réguler ton propre sommeil.",
+          "Manger vraiment : la fatigue s'aggrave d'une alimentation sautée.",
+          "Réduire les écrans le soir : ils retardent ton endormissement."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Repérer les signaux d'alerte : somnolence au volant, oublis répétés, irritabilité extrême.",
+        "Ne pas conduire en état de somnolence : c'est un danger réel et sous-estimé.",
+        "En parler au médecin : une fatigue chronique se dit en consultation.",
+        "Renoncer au mythe du rattrapage : le sommeil se rembourse lentement, par la régularité."
+      ],
+      "principe": "La privation chronique de sommeil altère le jugement et l'humeur — c'est de la physiologie. Le relais nocturne n'est pas un confort : c'est ce qui te protège, et ton bébé avec.",
+      "erreurs_a_eviter": [
+        "Attendre une hypothétique grasse matinée.",
+        "Conduire en état de somnolence.",
+        "Refuser l'aide proposée par pudeur.",
+        "Prendre la fatigue pour une preuve d'incompétence."
+      ],
+      "consulter_si": "Consulter si : la fatigue s'accompagne d'une tristesse qui dure plus de deux semaines, d'une impossibilité de dormir même quand bébé dort, d'une perte d'intérêt, de pensées noires, ou si tu ressens de la somnolence au volant → médecin, sage-femme, PMI ou psychologue périnatal. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence.",
+      "source": "Source : ameli.fr (Assurance Maladie) — dépression post-partum : reconnaître les signes et se faire accompagner."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Je me suis surpris(e) à crier / peur de mes propres gestes",
+      "titre": "Tu t'es surpris.e à crier / reconnaître le point de rupture",
+      "explication": "Tu as crié. Fort. Et tu as vu, dans son regard, l'effet que cela a produit. Depuis, tu as peur de toi. Disons-le sans détour et sans jugement : cela arrive à beaucoup de parents épuisés, cela ne fait pas de toi un mauvais parent, et c'est un signal — pas une faute. Le signal dit une chose : tu es allé.e au bout de tes réserves. Ce qui compte maintenant, c'est de connaître le protocole qui protège, et de l'appliquer avant, pas après. Poser bébé en sécurité et sortir de la pièce n'est jamais un abandon.",
+      "ancrage": "Crier est un signal, pas une identité. Ce qui protège, c'est de savoir quoi faire la prochaine fois que la vague monte — avant, pas après.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — le protocole de sécurité",
+        "etapes": [
+          "Poser bébé en sécurité : à plat sur le dos, dans son lit, sans objet autour.",
+          "Sortir de la pièce : fermer la porte, respirer. Il ne risque rien — les pleurs ne sont pas dangereux.",
+          "Appeler quelqu'un : un proche, une voisine, ou Allo Parents Bébé (0 800 00 34 56).",
+          "Ne jamais secouer, ni frapper, ni serrer fort : les lésions cérébrales peuvent être immédiates et irréversibles.",
+          "Revenir seulement quand tu es redescendu.e : pas avant."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — faire redescendre le corps",
+        "etapes": [
+          "Expiration longue : inspirer par le nez, souffler lentement par la bouche, cinq fois.",
+          "Passer les mains sous l'eau froide : un geste simple qui aide le corps à redescendre.",
+          "Ancrage au sol : pieds à plat, relâcher les épaules et la mâchoire.",
+          "Sortir dehors : même deux minutes sur le pas de la porte.",
+          "Parler à voix haute : dire ce que tu ressens, même seul.e, réduit la charge."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Réparer après : revenir vers lui, le prendre, lui parler doucement — la réparation compte autant que l'erreur.",
+        "En parler à un professionnel : médecin, sage-femme, PMI — cette colère est connue, elle se dit, elle ne se juge pas.",
+        "Anticiper le moment à risque : identifier l'heure où la tension monte, et organiser une présence.",
+        "Ne pas rester seul.e : l'isolement est le principal facteur de risque de perte de contrôle."
+      ],
+      "principe": "Poser bébé en sécurité et sortir de la pièce n'est jamais un abandon : c'est le geste qui protège. Les pleurs ne sont pas dangereux — la perte de contrôle, si.",
+      "erreurs_a_eviter": [
+        "Secouer, frapper, ou serrer fort — même une seconde.",
+        "Attendre d'être à bout pour appeler quelqu'un.",
+        "Taire ce qui s'est passé par honte.",
+        "Se convaincre que « ça n'arrivera plus » sans rien changer."
+      ],
+      "consulter_si": "Consulter si : tu ressens l'envie de secouer ton bébé, si tu as peur de tes propres réactions, ou si tu te sens submergé.e au point de ne plus pouvoir répondre à lui → poser bébé en sécurité, appeler un proche, Allo Parents Bébé (0 800 00 34 56), ou le 15. Si tu penses avoir secoué ton bébé, même légèrement : appeler le 15 immédiatement, même sans symptôme. En cas de pensées suicidaires : 3114.",
+      "source": "Source : Haute Autorité de Santé — recommandation « Syndrome du bébé secoué ou traumatisme crânien non accidentel par secouement »."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Personne pour prendre le relais / isolement du quotidien",
+      "titre": "Personne pour le relais / oser demander avant d'être à bout",
+      "explication": "Pas de famille à proximité, un co-parent absent la semaine, des amis qui ont leur vie. L'isolement n'est pas une plainte : c'est un facteur de risque documenté, pour ta santé mentale et pour la sécurité de ton bébé. Il ne se résout pas en attendant que quelqu'un propose — les gens supposent que ça va parce que tu ne dis rien. Il se résout en identifiant les relais qui existent réellement, y compris institutionnels, et en osant demander avant d'être à bout, pas après.",
+      "ancrage": "Personne ne proposera si tu ne demandes pas. Et les relais institutionnels existent — ils sont faits exactement pour ça.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — identifier les relais réels",
+        "etapes": [
+          "Lister deux ou trois personnes : celles à qui tu peux écrire n'importe quand, sans préambule.",
+          "Demander concrètement : « peux-tu venir mardi de 14h à 17h » — jamais « on se voit bientôt ».",
+          "Contacter la PMI : consultations gratuites, souvent sans rendez-vous, avec des professionnels et d'autres parents.",
+          "Appeler Allo Parents Bébé : 0 800 00 34 56, gratuit, anonyme, sans jugement.",
+          "Se renseigner sur les aides : certaines communes et caisses d'allocations familiales proposent des aides à domicile."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — sortir du huis clos",
+        "etapes": [
+          "Sortir chaque jour : même dix minutes, même sans but.",
+          "Un contact humain quotidien : un appel, une visite, un atelier — décidé la veille.",
+          "Trois respirations lentes : quand la solitude serre.",
+          "Parler à voix haute : dire ce que tu ressens, même seul.e.",
+          "Accepter une aide imparfaite : elle vaut mieux qu'un isolement parfait."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Chercher des pairs : groupe de parents, atelier PMI, association locale, ludothèque.",
+        "Nommer le mécanisme : l'attention retombe après les premiers mois — ce n'est pas un jugement sur toi.",
+        "Retenir que l'isolement est un facteur de risque : pour ta santé, et pour la sécurité de bébé.",
+        "Demander avant d'être à bout : c'est le point qui change tout."
+      ],
+      "principe": "L'isolement n'est pas une fatalité, mais il ne se résout pas seul. Les relais existent — institutionnels compris — et ils se sollicitent avant le point de rupture, pas après.",
+      "erreurs_a_eviter": [
+        "Attendre que quelqu'un demande comment tu vas.",
+        "Répondre « ça va » par réflexe alors que ça ne va pas.",
+        "Refuser une aide proposée par fierté.",
+        "Attendre le point de rupture pour appeler."
+      ],
+      "consulter_si": "Consulter si : l'isolement s'accompagne d'une tristesse qui dure plus de deux semaines, d'insomnies même quand bébé dort, d'une perte d'intérêt, d'irritabilité permanente, ou de pensées noires → médecin, sage-femme, PMI ou psychologue périnatal. Si tu ressens l'envie de secouer ton bébé ou si tu as peur de tes réactions → poser bébé en sécurité et appeler Allo Parents Bébé (0 800 00 34 56) ou le 15. En cas de pensées suicidaires : 3114.",
+      "source": "Source : ameli.fr (Assurance Maladie) — dépression post-partum : reconnaître les signes et se faire accompagner."
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "mois": 3,
+  "tranche_age": "3 mois",
+  "categorie": {
+    "id": "sepa",
+    "nom": "Lien & attachement",
+    "sous_titre": "Reprise, préférences, jalons, décharge",
+    "icone": "💜"
+  },
+  "protocoles": [
+    {
+      "categorie": "sepa",
+      "situation": "La reprise du travail dans 3 semaines / angoisse pour bébé",
+      "titre": "La reprise dans trois semaines / préparer à deux",
+      "explication": "Trois semaines avant la reprise, l'angoisse se concentre souvent sur une question : « va-t-il le vivre mal ? ». À trois mois, ton bébé n'a pas encore l'angoisse de séparation, qui apparaît bien plus tard. Ce qu'il perçoit, en revanche, c'est ton état. Un parent tendu, qui étire les au revoir et revient sur ses pas, transmet une inquiétude que le bébé absorbe. La préparation se joue donc sur deux plans : une familiarisation progressive avec le mode de garde, et un travail sur ta propre sécurité — parce que c'est elle qu'il lit.",
+      "ancrage": "Ce n'est pas sa séparation qu'il redoute, c'est la tienne qu'il ressent. Préparer la reprise, c'est te préparer toi autant que lui.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — construire l'adaptation",
+        "etapes": [
+          "Commencer maintenant : quelques heures, puis une demi-journée, puis une journée — étalées sur deux à trois semaines.",
+          "Un rituel de départ court : une phrase, un baiser, et on part — toujours les mêmes, toujours dans le même ordre.",
+          "Ne jamais partir en cachette : cela fabrique l'insécurité qu'on cherchait à éviter.",
+          "Ne pas revenir sur ses pas : une fois le rituel fait, on sort.",
+          "Transmettre ses repères : signes de faim, de fatigue, ce qui l'apaise — par écrit."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : le rituel des retrouvailles",
+        "etapes": [
+          "Au retour, chaque soir : toujours au même moment, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Parler pendant le geste : ta voix associée au toucher devient le repère du retour.",
+          "S'arrêter à sa demande : après une journée en collectivité, il peut avoir besoin de calme d'abord."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Préparer le biberon en amont : c'est souvent le point de blocage — s'y prendre plusieurs semaines à l'avance.",
+        "Choisir un mode de garde qui te rassure : ton sentiment de sécurité se transmet directement.",
+        "Prévoir les premiers jours difficiles : pleurs, sommeil perturbé — cela s'apaise en général en une à deux semaines.",
+        "Protéger la première semaine : aucun engagement, aucune sortie, rien d'autre à porter."
+      ],
+      "principe": "Ton bébé ne lit pas la séparation, il lit ton état. Un départ court, clair et confiant, et des retrouvailles pleines : c'est cela qui sécurise, pas la durée des au revoir.",
+      "erreurs_a_eviter": [
+        "Partir en cachette pour éviter les pleurs.",
+        "Prolonger les au revoir ou revenir plusieurs fois.",
+        "Commencer la garde le jour même de la reprise, sans adaptation.",
+        "Compenser la culpabilité par de la sur-stimulation le soir — bébé est souvent déjà saturé."
+      ],
+      "consulter_si": "Consulter si : bébé refuse de boire chez la personne qui garde pendant plusieurs jours, s'il perd du poids, s'il paraît éteint ou apathique, s'il pleure de façon inconsolable en permanence, ou si l'angoisse de la reprise devient envahissante pour toi → pédiatre, PMI, ou psychologue périnatal."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Il sourit à tout le monde sauf à moi / je me sens rejetée",
+      "titre": "Il sourit à tout le monde sauf à moi / le paradoxe du parent sécure",
+      "explication": "Il fait des grands sourires à la voisine, au facteur, à la boulangère — et avec toi, il pleure, il râle, il décharge. C'est douloureux, et c'est pourtant un signe excellent. Avec les autres, il « tient » : il est en représentation, poli, sur ses gardes. Avec toi, il se relâche — il sort ce qu'il a accumulé, parce qu'avec toi c'est sans danger. On dit souvent que les enfants gardent le pire pour ceux qu'ils aiment le plus ; c'est vrai dès les premiers mois. Tu es sa base de sécurité, et c'est précisément pour cela que tu reçois la décharge.",
+      "ancrage": "Ce n'est pas un rejet, c'est un compliment déguisé. Il se relâche avec toi parce qu'avec toi, il n'a rien à prouver.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — accueillir la décharge",
+        "etapes": [
+          "Reconnaître ce qui se passe : « il se relâche parce que je suis là » — le dire à voix haute aide.",
+          "Ne pas se braquer : ne pas se retirer par dépit, ne pas répondre par la froideur.",
+          "Accueillir le pleur : le prendre, le porter, sans chercher à le rendre « aussi souriant qu'avec les autres ».",
+          "Baisser les attentes du moment : après une journée sociale, il a besoin de décharger, pas de jouer.",
+          "Se protéger des commentaires : « il est si souriant avec moi » n'est pas une évaluation de toi."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : un temps de relâchement",
+        "etapes": [
+          "Après les visites ou la garde : bébé sur le dos, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Chercher les sourires aux bons moments : le matin au réveil, après la sieste — quand il est disponible, pas quand il décharge.",
+        "Se rappeler le mécanisme : la décharge se fait auprès de la figure d'attachement, jamais auprès des étrangers.",
+        "Se protéger de la comparaison : ce que les autres voient de lui n'est pas ce que tu vis avec lui.",
+        "Nommer la blessure : ce sentiment de rejet est fréquent et rarement dit — le partager le désamorce."
+      ],
+      "principe": "Un bébé décharge auprès de celui ou celle qui le sécurise le plus. Recevoir les pleurs quand les autres reçoivent les sourires n'est pas un rejet : c'est la preuve de ta place.",
+      "erreurs_a_eviter": [
+        "Se retirer ou se braquer par dépit — cela n'améliore rien et abîme le lien.",
+        "Chercher à obtenir un sourire en sur-sollicitant.",
+        "Interpréter les pleurs comme un jugement sur toi.",
+        "Comparer ce que voient les autres à ce que tu vis."
+      ],
+      "consulter_si": "Consulter si : bébé ne sourit à personne vers trois mois, ne fixe pas les visages, ne réagit pas aux bruits forts, ne cherche jamais le contact, ou paraît anormalement mou ou éteint → pédiatre ou PMI. Si le sentiment de rejet devient envahissant ou s'accompagne d'une tristesse durable → médecin, sage-femme ou psychologue périnatal."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "J'ai raté son premier vrai sourire / je culpabilise",
+      "titre": "Le jalon manqué / ce n'est pas là que se joue le lien",
+      "explication": "La nounou l'a vu. Ta belle-mère l'a vu. Toi, tu étais au travail, ou dans une autre pièce. Rater un « premier » fait mal, et cette peine mérite d'être prise au sérieux plutôt que balayée. Mais remettons aussi les choses à leur place : le lien ne se construit pas dans les jalons, il se construit dans les milliers de micro-interactions ordinaires. Les changes, les tétées, les bercements, les regards échangés à trois heures du matin. Ce sont ces répétitions invisibles, et pas les moments spectaculaires, qui fabriquent la sécurité de ton bébé.",
+      "ancrage": "Ta peine est légitime, et le lien n'est pas entamé. Ce qui construit la sécurité, ce ne sont pas les premières fois — ce sont les millièmes.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — remettre le jalon à sa place",
+        "etapes": [
+          "Reconnaître la peine : « je suis triste de l'avoir raté » — sans se le reprocher.",
+          "Ne pas demander qu'on te le cache : les mensonges bienveillants abîment plus qu'ils ne protègent.",
+          "Compter ce que tu as : les nuits, les tétées, les consolations — invisibles et essentielles.",
+          "Provoquer des moments à vous : sans objectif de performance, juste du face-à-face.",
+          "Refuser la culpabilité : rater un jalon ne dit rien de la qualité de ton lien."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : un rendez-vous qui vous appartient",
+        "etapes": [
+          "Un moment fixe, chaque jour : toujours au même moment, toujours avec toi.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Parler pendant le geste : ta voix et ton toucher associés deviennent un repère.",
+          "S'arrêter à sa demande : ce moment est un plaisir partagé, pas un rattrapage."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se méfier de la logique des « premières fois » : elle est en grande partie une construction, et elle culpabilise surtout les mères qui travaillent.",
+        "Photographier moins, regarder plus : chercher à capturer le jalon fait souvent rater le moment.",
+        "Se rappeler que le sourire se répète : il y en aura des milliers, et beaucoup seront pour toi.",
+        "Parler de cette peine : la dire à quelqu'un la désamorce mieux que la minimiser."
+      ],
+      "principe": "Le lien ne se construit pas dans les jalons, mais dans les micro-interactions répétées. Rater une première fois ne retire rien à ce que tu construis chaque jour.",
+      "erreurs_a_eviter": [
+        "Se juger sur les jalons manqués.",
+        "Demander à l'entourage de te mentir ou de te « garder » le jalon.",
+        "Chercher à provoquer un jalon en sur-sollicitant bébé.",
+        "Ruminer seule cette peine sans la dire."
+      ],
+      "consulter_si": "Consulter si : la culpabilité devient envahissante, si elle s'accompagne d'une tristesse qui dure plus de deux semaines, d'un sentiment de vide ou de détachement vis-à-vis de ton bébé, ou de pensées noires → médecin, sage-femme, PMI ou psychologue périnatal : la dépression post-partum se soigne bien. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Il préfère visiblement l'autre parent / je me sens exclue",
+      "titre": "La préférence parentale / une phase, pas un verdict",
+      "explication": "Il se calme mieux avec l'autre parent. Il sourit plus. Il te tend les bras… pour aller vers lui. Cette préférence est fréquente, elle est douloureuse, et elle est presque toujours une phase. Elle dépend souvent de qui donne les soins les plus agréables à ce moment-là, de qui est le plus disponible, ou simplement d'une familiarité de rythme. Elle s'inverse souvent quelques mois plus tard. Ce qui la fait durer, en revanche, c'est le retrait : quand le parent en retrait se protège en s'éloignant, la préférence se creuse au lieu de s'atténuer.",
+      "ancrage": "Cette préférence n'est pas un verdict sur toi. Mais elle se creuse si tu te retires — et elle s'estompe si tu restes présent.e, malgré la blessure.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — ne pas se retirer",
+        "etapes": [
+          "Rester présent.e : continuer à porter, changer, consoler, même quand il proteste.",
+          "Prendre des temps exclusifs : seul.e avec lui, l'autre parent hors de la pièce — la présence de l'autre entretient la préférence.",
+          "Choisir des moments favorables : après la sieste, au réveil — quand il est disponible, pas quand il décharge.",
+          "Ne pas forcer un moment de crise : si l'autre parent le calme mieux dans l'instant, on ne se le dispute pas.",
+          "Nommer ce que tu ressens : à l'autre parent, sans reproche — le non-dit envenime."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : construire ton propre repère",
+        "etapes": [
+          "Un rituel qui t'appartient : toujours le tien, toujours au même moment.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Ta voix, en continu : associée à ton toucher, elle devient ton repère à toi.",
+          "S'arrêter à sa demande : le moment doit rester agréable, pas une reconquête."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "S'attendre à ce que cela s'inverse : les préférences parentales s'échangent souvent au fil des mois.",
+        "Demander à l'autre parent de s'effacer par moments : sortir, laisser la place, ne pas intervenir.",
+        "Ne pas rivaliser : la comparaison des performances abîme le couple et n'aide pas bébé.",
+        "Se rappeler ce qui construit : la répétition des soins, pas la réussite de chaque interaction."
+      ],
+      "principe": "La préférence parentale est une phase, pas un jugement. Ce qui la creuse, c'est le retrait du parent blessé — ce qui l'atténue, c'est la présence, tenue malgré la blessure.",
+      "erreurs_a_eviter": [
+        "Se retirer et laisser l'autre parent tout faire — c'est ce qui installe durablement la préférence.",
+        "Rivaliser ou tenir les comptes des réussites de chacun.",
+        "Interpréter la préférence comme un verdict sur ta valeur.",
+        "Forcer le contact au moment où il réclame l'autre."
+      ],
+      "consulter_si": "Consulter si : la préférence s'accompagne chez toi d'une tristesse qui dure plus de deux semaines, d'un sentiment de rejet envahissant, d'un détachement vis-à-vis de ton bébé, ou de pensées noires → médecin, sage-femme, PMI ou psychologue périnatal. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence."
+    }
+  ]
+}

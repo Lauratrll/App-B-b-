@@ -1,0 +1,195 @@
+{
+  "mois": 8,
+  "tranche_age": "8 mois",
+  "categorie": {
+    "id": "stimu",
+    "nom": "Sur-stimulation",
+    "sous_titre": "Pauses, retour de garde, jeux, famille",
+    "icone": "✨"
+  },
+  "protocoles": [
+    {
+      "categorie": "stimu",
+      "situation": "Il explore sans jamais s'arrêter / il ne sait plus se poser",
+      "titre": "Il n'arrête jamais / créer les pauses qu'il ne prend pas",
+      "explication": "Depuis qu'il se déplace, il n'arrête plus : il rampe, se hisse, attrape, recommence — jusqu'à l'effondrement. Sa motricité toute neuve le pousse en avant, et il n'a aucun frein interne : il ne sait pas décrocher seul. À huit mois, la capacité à s'arrêter n'existe pas encore. C'est donc à toi de créer les pauses qu'il ne prendra jamais spontanément. Sans elles, il accumule jusqu'à la crise — et l'effondrement du soir n'est que la facture de la journée.",
+      "ancrage": "Il ne sait pas s'arrêter tout seul : ce frein-là n'existe pas encore. C'est toi qui poses les pauses.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — imposer des pauses",
+        "etapes": [
+          "Une pause toutes les heures : dix minutes de calme, sans sollicitation, même s'il ne la demande pas.",
+          "Baisser l'environnement : lumière, bruit, objets — tout descend d'un cran.",
+          "Le prendre contre toi : sans jeu, sans parole, juste du contact.",
+          "Repérer les signaux : gestes désordonnés, regard qui fuit, agitation qui s'accélère.",
+          "Ne pas attendre qu'il demande : il ne le demandera pas."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : la pause imposée",
+        "etapes": [
+          "Bébé sur le dos, au calme : lumière tamisée, silence.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Protéger les siestes : elles sont la première pause, et la plus importante.",
+        "Épurer l'espace de jeu : deux ou trois objets, pas dix — la profusion excite.",
+        "Zéro écran : ils empêchent le décrochage au lieu de le permettre.",
+        "Alterner : un temps d'exploration, un temps de calme — toute la journée."
+      ],
+      "principe": "Un bébé de huit mois n'a pas de frein interne : il ne sait pas s'arrêter. Les pauses ne se négocient pas avec lui — elles s'imposent, doucement.",
+      "erreurs_a_eviter": [
+        "Attendre qu'il montre des signes de fatigue pour le poser.",
+        "Le laisser explorer jusqu'à l'effondrement.",
+        "Utiliser un écran pour « le calmer ».",
+        "Enchaîner les activités sans temps de vide."
+      ],
+      "consulter_si": "Consulter si : bébé reste inconsolable plusieurs heures malgré le retour au calme, s'il refuse de boire, présente de la fièvre, ou paraît anormalement mou ou difficile à réveiller → pédiatre, le 15 selon l'urgence.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "Retour de garde explosif / la décharge du soir",
+      "titre": "Le retour de garde / vingt minutes sans rien",
+      "explication": "Il a passé une journée impeccable — et il explose dès que tu arrives. Toute la journée, il a tenu : il s'est adapté, il a contenu, il a été « sage ». Ton retour est le signal que le relâchement est possible. Cette décharge est une preuve de sécurité, pas un reproche. Ce qu'il demande à cet instant n'est ni du jeu, ni des excuses, ni une compensation : c'est vingt minutes où il ne se passe rien. Pas de consigne, pas de sollicitation, pas d'écran — un vide.",
+      "ancrage": "Il ne te reproche rien : il lâche enfin. Vingt minutes sans consigne ni sollicitation valent mieux que n'importe quelle compensation.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — vingt minutes de rien",
+        "etapes": [
+          "Accueillir sans animer : le prendre, le tenir, sans jouer ni parler beaucoup.",
+          "Poser le téléphone : la première demi-heure se fait sans écran.",
+          "Aucune consigne : ni bain, ni repas, ni rangement pendant ce temps.",
+          "Un retour au calme : pièce sombre, silence, contact.",
+          "Accepter la durée : la décharge peut prendre du temps."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : le rituel des retrouvailles",
+        "etapes": [
+          "Au retour, chaque soir : toujours au même moment.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : après une journée en collectivité, il peut avoir besoin de calme d'abord."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne pas culpabiliser : cette décharge n'est pas le signe qu'il a mal vécu sa journée.",
+        "Se méfier de la sur-compensation : la culpabilité pousse à stimuler — c'est l'inverse qu'il demande.",
+        "Décaler le repas si besoin : quinze minutes de calme d'abord valent mieux qu'un repas subi.",
+        "Retenir le mécanisme : un enfant décharge auprès de celui ou celle qui le sécurise le plus."
+      ],
+      "principe": "La décharge du retour est une preuve de sécurité. Ce qu'il demande, c'est un vide — jamais une compensation.",
+      "erreurs_a_eviter": [
+        "Compenser par du jeu, une sortie ou une animation.",
+        "Interpréter ses pleurs comme la preuve qu'il a été malheureux.",
+        "Enchaîner les tâches dès le retour.",
+        "Utiliser un écran pour « souffler »."
+      ],
+      "consulter_si": "Consulter si : bébé paraît éteint ou apathique, s'il refuse de manger ou de boire chez la personne qui garde pendant plusieurs jours, s'il perd du poids, ou s'il pleure de façon inconsolable en permanence → pédiatre, PMI, ou psychologue périnatal."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "Le jeu devient trop fort / il rit puis s'effondre",
+      "titre": "Le jeu qui monte trop / c'est l'adulte qui pose la descente",
+      "explication": "Les jeux d'excitation physique — le lancer en l'air, les chatouilles, le cheval sur les genoux — le font hurler de rire. Puis tout s'effondre. À huit mois, il n'a aucun frein interne : le système nerveux monte très vite, et ne sait pas redescendre. Deux choses. D'abord, la descente doit être posée par l'adulte, systématiquement, avant le point de bascule. Ensuite, un rappel de sécurité : on ne lance jamais un bébé en l'air, et on ne le secoue jamais, même en jeu — les lésions cérébrales peuvent être immédiates.",
+      "ancrage": "Il n'a pas de frein : c'est l'adulte qui pose la descente. Et on ne lance jamais un bébé en l'air, même en riant.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — poser la descente",
+        "etapes": [
+          "Repérer le pic : gestes désordonnés, respiration rapide, rire qui monte dans les aigus.",
+          "Clore avant, pas après : arrêter au sommet, pas quand il s'effondre.",
+          "Ralentir progressivement : baisser la voix, ralentir les gestes, réduire l'amplitude.",
+          "Installer le silence : quelques secondes, ton visage calme.",
+          "Passer au contact : le prendre contre toi, immobile."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : le rituel de descente",
+        "etapes": [
+          "Juste après le jeu : bébé sur le dos, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Un seul canal à la fois : ne pas parler et toucher en même temps."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne jamais lancer bébé en l'air : ni le secouer, ni le faire tournoyer — même en jeu, même en riant.",
+        "Prévenir l'entourage : ces jeux sont fréquents et perçus comme affectueux — ils sont dangereux.",
+        "Éviter les jeux excitants le soir : ils retardent l'endormissement.",
+        "Raccourcir les pics : quelques minutes de jeu intense suffisent."
+      ],
+      "principe": "Le rire précède la bascule. C'est l'adulte qui pose la descente — et un bébé ne se lance jamais en l'air, quelle que soit l'intention.",
+      "erreurs_a_eviter": [
+        "Lancer bébé en l'air, le secouer ou le faire tournoyer — même en jeu.",
+        "Prolonger le jeu tant qu'il rit.",
+        "Enchaîner plusieurs adultes qui l'excitent à tour de rôle.",
+        "Interpréter l'effondrement comme un caprice."
+      ],
+      "consulter_si": "Consulter si : après un jeu de secousse, même léger, bébé vomit, devient anormalement somnolent ou difficile à réveiller, pleure de façon inconsolable, présente une pâleur ou un regard fixe → appeler immédiatement le 15, même si les symptômes semblent légers. Secouer un bébé peut provoquer des lésions cérébrales irréversibles.",
+      "source": "Source : Haute Autorité de Santé — recommandation « Syndrome du bébé secoué ou traumatisme crânien non accidentel par secouement »."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "Repas de famille ingérable / trop de bras, trop de bruit",
+      "titre": "Le repas de famille / un repli et des règles simples",
+      "explication": "Repas de famille : dix adultes, du bruit, des bras qui se tendent, des voix qui montent — et un bébé qui hurle. Il ne sait pas dire stop, il vient d'entrer dans la peur de l'étranger, et il est en pleine phase d'angoisse de séparation. Un repas de famille est, pour lui, une épreuve sensorielle et affective majeure. Deux préparatifs changent tout : prévoir un lieu de repli au calme, et poser à l'avance deux ou trois règles simples pour l'entourage — c'est bien plus efficace que de gérer la crise sur le moment.",
+      "ancrage": "Un repas de famille est une épreuve sensorielle. Un lieu de repli et deux règles annoncées valent mieux que toute la gestion de crise.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — préparer le repli",
+        "etapes": [
+          "Repérer une pièce calme : dès l'arrivée — c'est le refuge en cas de saturation.",
+          "Poser deux règles simples : « on ne se le passe pas de bras en bras » et « on le laisse venir ».",
+          "Le garder près de toi : il observe depuis sa base sûre.",
+          "Sortir aux premiers signaux : regard qui fuit, corps qui se cambre, agitation.",
+          "Écourter : partir avant l'effondrement, pas après."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : décharger après",
+        "etapes": [
+          "Une fois au calme : bébé sur le dos, dans le silence.",
+          "Toucher enveloppant des pieds : les tenir entiers dans tes paumes, immobiles.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Expliquer la peur de l'étranger : « il commence à faire la différence, c'est un progrès » — cela évite les vexations.",
+        "Ne pas s'excuser de sa réaction : elle est normale et attendue.",
+        "Protéger les horaires : sieste et coucher restent prioritaires sur le repas.",
+        "Prévoir de partir tôt : une visite écourtée vaut mieux qu'une soirée détruite."
+      ],
+      "principe": "Il ne sait pas dire stop : c'est toi qui traduis. Un repli prévu et deux règles annoncées transforment un repas subi en moment tenable.",
+      "erreurs_a_eviter": [
+        "Le faire passer de bras en bras pour ne vexer personne.",
+        "Forcer le contact avec des personnes qu'il ne connaît pas.",
+        "Décaler la sieste ou le coucher pour le repas.",
+        "Rester « puisqu'on y est » alors qu'il est saturé."
+      ],
+      "consulter_si": "Consulter si : bébé reste inconsolable plusieurs heures malgré le retour au calme, s'il refuse de boire, présente de la fièvre, ou paraît anormalement mou ou difficile à réveiller → pédiatre, le 15 selon l'urgence.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+    }
+  ]
+}

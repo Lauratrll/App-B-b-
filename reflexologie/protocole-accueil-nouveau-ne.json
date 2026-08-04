@@ -104,5 +104,8 @@
   "note_fin": "Termine en allégeant le contact, puis éloigne-toi en douceur.",
   "disclaimer": "La Réflexologie plantaire ne se substitue pas à un avis médical.",
   "lancement": true,
-  "visuel": "visuels-protocoles/Visuel - Accueil du nouveau-né.png"
+  "visuel": "visuels-protocoles/Visuel - Accueil du nouveau-né.png",
+  "age_min_mois": 0,
+  "age_max_mois": 1,
+  "age_statut": "brouillon"
 }

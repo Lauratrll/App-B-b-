@@ -1,0 +1,196 @@
+{
+  "mois": 10,
+  "tranche_age": "10 mois",
+  "categorie": {
+    "id": "pleurs",
+    "nom": "Pleurs & frustration",
+    "sous_titre": "Chutes, change, interdits, colères",
+    "icone": "😢"
+  },
+  "protocoles": [
+    {
+      "categorie": "pleurs",
+      "situation": "Pleurs de rage quand il tombe / il recommence aussitôt",
+      "titre": "La rage de la chute / accueillir sans surprotéger",
+      "explication": "Il se hisse, il tient debout deux secondes, il tombe — et il hurle de rage. Puis il recommence, immédiatement. Cette séquence est exactement ce qu'il doit faire : l'équilibre debout se construit par le déséquilibre, et la chute fait partie intégrante de l'apprentissage. La rage n'est pas de la douleur : c'est de la frustration. Ton rôle n'est ni de le retenir en permanence — ce qui l'empêcherait d'apprendre à se rattraper — ni de dramatiser la chute. C'est d'accueillir la colère, et de le laisser repartir.",
+      "ancrage": "Il ne pleure pas de douleur : il pleure de rage. La chute fait partie de l'apprentissage — ta réaction calme lui permet de repartir.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — accueillir, puis relancer",
+        "etapes": [
+          "Réagir calmement : ta panique amplifierait sa peur bien plus que le choc.",
+          "Vérifier rapidement : où il s'est cogné, la hauteur, son état général.",
+          "Nommer la colère : « tu es fâché, tu voulais rester debout ».",
+          "Le laisser repartir : une fois consolé, le remettre au sol, sans le surprotéger.",
+          "Ne pas le retenir : un enfant constamment soutenu n'apprend pas à se rattraper."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : redescendre après la frustration",
+        "etapes": [
+          "Une fois la crise passée : bébé sur le dos, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Sécuriser le sol plutôt que le corps : tapis, angles protégés, rien de dur à portée.",
+        "Fixer les meubles au mur : un meuble qui bascule peut tuer.",
+        "Retenir les signes d'alerte d'un choc à la tête : ils justifient un appel immédiat.",
+        "Se rappeler que l'équilibre se construit par le déséquilibre : les chutes sont le chemin."
+      ],
+      "principe": "L'équilibre se construit par le déséquilibre. Ce qui se sécurise, c'est le sol — pas le corps. Et ta réaction calme lui permet de repartir.",
+      "erreurs_a_eviter": [
+        "Le retenir en permanence pour l'empêcher de tomber.",
+        "Dramatiser ou paniquer à chaque chute.",
+        "Le caler assis pour qu'il arrête d'essayer.",
+        "Utiliser un trotteur pour « le stabiliser »."
+      ],
+      "consulter_si": "Consulter si : après un choc à la tête, bébé perd connaissance même brièvement, vomit, devient anormalement somnolent ou difficile à réveiller, pleure de façon inhabituelle et inconsolable, présente une pâleur, une bosse importante, un saignement, ou un membre qu'il ne mobilise plus → appeler le 15 sans attendre.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — éviter les accidents domestiques des enfants."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Il se débat sur la table à langer / il refuse de rester allongé",
+      "titre": "Le change / changer debout ou au sol",
+      "explication": "Rester allongé quand on vient de découvrir qu'on peut se tenir debout est insupportable. Il se cambre, se retourne, hurle — et la table à langer devient un lieu de conflit quotidien, et surtout de danger. Deux réponses, et aucune ne consiste à le maintenir : changer au sol, où il ne risque plus de tomber ; ou changer debout, contre un meuble, ce qui est parfaitement possible avec une couche-culotte. Ce n'est pas un renoncement au confort : c'est la fin d'une lutte inutile.",
+      "ancrage": "Il ne refuse pas le change : il refuse d'être couché. Change-le debout ou au sol — la lutte s'arrête là.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — changer autrement",
+        "etapes": [
+          "Changer au sol : sur un tapis — le risque de chute disparaît.",
+          "Ou changer debout : contre un meuble, avec une couche-culotte — c'est possible et souvent plus simple.",
+          "Ne jamais le laisser seul en hauteur : même une seconde, même sanglé.",
+          "Lui donner un objet : occuper ses mains réduit les mouvements brusques.",
+          "Aller vite : un change efficace vaut mieux qu'un change parfait."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — sortir du rapport de force",
+        "etapes": [
+          "Annoncer chaque geste : « je te change, c'est rapide ».",
+          "Le laisser bouger : au sol ou debout, cela ne pose plus de problème.",
+          "Ta voix, en continu : chanter, raconter — occuper son attention autrement que par la contrainte.",
+          "Terminer par un moment agréable : quelques secondes de contact.",
+          "S'arrêter si cela dégénère : reposer, souffler, reprendre dans deux minutes."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se rappeler qu'une chute de table à langer peut être grave : la vigilance ne suffit plus à cet âge.",
+        "Choisir les bons moments : changer quand il est calme, pas juste après un jeu excitant.",
+        "Passer le relais : le co-parent a souvent une autre dynamique.",
+        "Se rappeler que c'est une étape : elle passera, et elle reviendra à d'autres âges."
+      ],
+      "principe": "Il ne s'oppose pas au change : il s'oppose à l'immobilité. Changer debout ou au sol supprime la lutte — et supprime aussi le risque de chute.",
+      "erreurs_a_eviter": [
+        "Le maintenir de force sur la table à langer.",
+        "Le laisser seul en hauteur, même une seconde.",
+        "Se fier à la sangle de la table à langer.",
+        "Transformer le change en affrontement quotidien."
+      ],
+      "consulter_si": "Consulter si : après une chute d'une hauteur, bébé perd connaissance, vomit, devient anormalement somnolent, pleure de façon inconsolable, présente une bosse importante ou un saignement → appeler le 15 sans attendre. Après toute chute d'une table à langer : consulter en urgence, même si bébé semble aller bien.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — éviter les accidents domestiques des enfants."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Pleurs quand on l'éloigne d'un danger / l'interdit le révolte",
+      "titre": "L'interdit qui révolte / détourner plutôt que répéter",
+      "explication": "Tu l'éloignes de la prise, du four, de l'escalier — et il se révolte. À dix mois, il ne comprend pas le danger : la notion même de conséquence future lui échappe. Répéter « non » n'apprend donc rien, et le répéter dix fois par jour le vide de son sens. Ce qui fonctionne : détourner. Écarter physiquement, poser une limite très courte, et proposer immédiatement une alternative attirante. Son attention se déplace bien plus facilement qu'elle ne se raisonne — et cela n'empêche en rien la limite d'exister.",
+      "ancrage": "Il ne comprend pas le danger : le lui expliquer ne sert à rien. Écarter, poser la limite en trois mots, et détourner vers autre chose.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — écarter et détourner",
+        "etapes": [
+          "Écarter physiquement : calmement, sans négocier.",
+          "Une phrase très courte : « non, c'est dangereux » — une fois, sans discours.",
+          "Proposer immédiatement une alternative : un objet attirant, tendu à la main.",
+          "Nommer sa colère : « tu es fâché, tu voulais y aller ».",
+          "Ne pas céder après la crise : cela apprendrait que la crise fonctionne."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : redescendre après la colère",
+        "etapes": [
+          "Une fois la crise passée : bébé sur le dos, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Sécuriser en amont : moins il y a d'interdits à portée, moins il y a de crises — l'aménagement travaille à ta place.",
+        "Réserver le « non » au danger réel : un « non » utilisé partout ne veut plus rien dire.",
+        "Être constant : la même règle, tous les jours, par tous les adultes.",
+        "Ne jamais taper sur la main : la violence, même légère, n'enseigne rien."
+      ],
+      "principe": "À dix mois, un interdit ne s'explique pas : il se pose et se remplace. Détourner l'attention désamorce ce que la répétition ne fera jamais.",
+      "erreurs_a_eviter": [
+        "Répéter « non » toute la journée.",
+        "Expliquer longuement le danger.",
+        "Taper sur la main ou hausser le ton.",
+        "Céder après la crise pour la faire cesser."
+      ],
+      "consulter_si": "Consulter si : bébé a avalé un produit, un médicament ou un objet → appeler immédiatement le 15 ou le centre antipoison, sans le faire vomir. En cas de brûlure, de chute d'une hauteur, ou d'ingestion de pile bouton → le 15 immédiatement.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — éviter les accidents domestiques des enfants."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Il se jette en arrière en pleurant / la colère prend tout le corps",
+      "titre": "La colère qui prend tout le corps / sécuriser et attendre",
+      "explication": "Il se raidit, s'arc-boute, se jette en arrière — et la colère prend tout son corps. C'est impressionnant, et c'est normal : à dix mois, le cerveau émotionnel déborde sans aucun frein. Il n'a pas encore les circuits qui permettront, bien plus tard, de réguler une émotion aussi intense. Aucun discours ne l'atteint dans cet état — parler, raisonner, gronder ne font qu'ajouter du bruit. Ce qui l'aide : sécuriser son corps pour qu'il ne se blesse pas, et attendre que la vague passe.",
+      "ancrage": "Aucun mot ne l'atteint dans cet état : son cerveau émotionnel a pris toute la place. Sécurise son corps, et attends la vague.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — sécuriser, puis attendre",
+        "etapes": [
+          "Sécuriser le corps : soutenir sa nuque s'il se jette en arrière, écarter les objets durs.",
+          "Le poser au sol si nécessaire : sur un tapis, où il ne peut pas se cogner.",
+          "Se taire : aucun discours, aucune explication, aucune menace — ils ajoutent du bruit.",
+          "Rester présent.e : à côté, calme, disponible — sans le contraindre.",
+          "Attendre la vague : elle passe, et il revient vers toi."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : après la crise",
+        "etapes": [
+          "Une fois la vague passée : bébé sur le dos, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Nommer après, pas pendant : quand il est redescendu, mettre des mots — « tu étais très en colère ».",
+        "Repérer les déclencheurs : fatigue, faim, sur-stimulation sont les trois premiers.",
+        "Ne jamais secouer, ni serrer fort : les lésions cérébrales peuvent être immédiates et irréversibles.",
+        "Se protéger soi : si ta colère monte, poser bébé en sécurité et sortir de la pièce."
+      ],
+      "principe": "Le cerveau émotionnel déborde sans frein à cet âge. Aucun discours ne l'atteint : ce qui aide, c'est un corps sécurisé et un adulte qui attend, calme.",
+      "erreurs_a_eviter": [
+        "Parler, raisonner ou gronder pendant la crise.",
+        "Le contraindre physiquement ou le maintenir de force.",
+        "Secouer, frapper ou serrer fort — jamais.",
+        "Céder à la demande initiale pour faire cesser la crise."
+      ],
+      "consulter_si": "Consulter si : les crises deviennent quotidiennes et inconsolables, si bébé se cogne volontairement la tête de façon répétée, s'il se raidit fortement et ne se calme jamais, s'il perd connaissance pendant une crise, ou si tu sens ta colère devenir difficile à contenir → pédiatre, PMI, ou Allo Parents Bébé (0 800 00 34 56). En cas de perte de connaissance : appeler le 15.",
+      "source": "Source : Haute Autorité de Santé — recommandation « Syndrome du bébé secoué ou traumatisme crânien non accidentel par secouement »."
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "mois": 3,
+  "tranche_age": "3 mois",
+  "categorie": {
+    "id": "pleurs",
+    "nom": "Pleurs & sur-stimulation",
+    "sous_titre": "Fatigue, vagues, écrans, saturation",
+    "icone": "😢"
+  },
+  "protocoles": [
+    {
+      "categorie": "pleurs",
+      "situation": "Pleurs de fatigue / que je ne reconnais pas encore",
+      "titre": "Les pleurs de fatigue / repérer la signature",
+      "explication": "À trois mois, un nouveau type de pleurs apparaît, et il piège beaucoup de parents : les pleurs de fatigue. Ils ne ressemblent pas à un appel — ils sont geignards, irréguliers, entrecoupés de bâillements, avec un regard qui se perd et des mouvements désordonnés. On les prend souvent pour de la faim ou de l'ennui, et on stimule — ce qui aggrave tout. Un bébé sur-fatigué ne s'endort pas mieux : son système nerveux s'emballe, et l'endormissement devient beaucoup plus difficile. Apprendre leur signature, c'est apprendre à coucher avant, pas après.",
+      "ancrage": "Ces pleurs-là ne demandent ni jeu, ni nourriture, ni consolation active. Ils demandent le lit — et le plus tôt possible.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — coucher au bon moment",
+        "etapes": [
+          "Repérer la signature : bâillements, regard qui se perd, frottement du visage, mouvements saccadés, pleurs geignards.",
+          "Ne pas stimuler : ni jeu, ni promenade, ni bras qui bougent — tout cela relance l'éveil.",
+          "Baisser l'ambiance immédiatement : pénombre, silence, un seul adulte.",
+          "Coucher sans attendre : dès les premiers signes, pas quand les pleurs deviennent forts.",
+          "Accompagner sans animer : main posée, voix basse, immobilité."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : accompagner vers le sommeil",
+        "etapes": [
+          "Bébé sur le dos, dans son lit : lumière tamisée, pièce calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Terminer par l'immobilité : une main posée sur son torse jusqu'à ce que sa respiration se pose."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Observer sa fenêtre d'éveil : à trois mois, elle reste courte — souvent une heure trente environ, avec de grandes variations.",
+        "Noter les horaires pendant quelques jours : les signes précoces apparaissent toujours au même moment.",
+        "Éviter la sur-fatigue en fin de journée : c'est là qu'elle fait le plus de dégâts sur la nuit.",
+        "Distinguer de la faim : un bébé qui vient de boire et qui geint en bâillant n'a pas faim."
+      ],
+      "principe": "Un bébé sur-fatigué ne s'endort pas mieux, il s'endort moins bien. Coucher aux premiers signes de fatigue est plus efficace que n'importe quelle technique d'endormissement.",
+      "erreurs_a_eviter": [
+        "Stimuler ou promener un bébé qui montre des signes de fatigue — cela relance l'éveil.",
+        "Proposer une tétée à chaque pleur, sans distinguer faim et fatigue.",
+        "Attendre les pleurs francs pour coucher — la fenêtre est déjà dépassée.",
+        "Repousser le coucher pour qu'il « dorme mieux ensuite »."
+      ],
+      "consulter_si": "Consulter si : bébé pleure de façon inconsolable plusieurs heures, s'il ne dort quasiment pas, s'il présente de la fièvre, refuse de boire, ne prend pas de poids, ou paraît anormalement mou → pédiatre ou PMI, le 15 si l'état général se dégrade.",
+      "source": "Source : ameli.fr (Assurance Maladie) — syndrome du bébé secoué : reconnaître, prévenir, agir."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Il s'arrête puis repart en boucle / des vagues sans fin",
+      "titre": "Les vagues de pleurs / traverser sans empiler",
+      "explication": "Il se calme, tu souffles — et il repart. Trois fois, cinq fois, pendant une heure. Cette décharge par vagues est déroutante parce qu'elle donne l'impression que rien ne fonctionne. En réalité, chaque vague est une décharge de tension qui descend d'un cran. Le piège est d'empiler les stratégies : on berce, puis on donne le sein, puis on promène, puis on met de la musique. Chaque nouvelle stimulation relance le système au lieu de le laisser redescendre. Ce qui aide, c'est de tenir une seule réponse, calme, et de la maintenir entre les vagues.",
+      "ancrage": "Chaque vague qui retombe est un cran de tension en moins, même si cela ne se voit pas. Tenir une seule réponse vaut mieux que d'en essayer cinq.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — tenir la ligne",
+        "etapes": [
+          "Choisir une seule réponse : le contact, le portage lent, ou le calme — et s'y tenir.",
+          "Ne rien ajouter entre deux vagues : pas de nouvelle proposition, pas de changement de pièce.",
+          "Maintenir l'environnement stable : même lumière, même son, même adulte.",
+          "Respirer lentement : ton propre rythme se transmet directement au sien.",
+          "Accepter la répétition : la décharge se fait par paliers, pas d'un coup."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : entre deux vagues",
+        "etapes": [
+          "Pendant une accalmie : bébé calmé, sur le dos, dans le silence.",
+          "Toucher enveloppant des pieds : les tenir entiers dans tes paumes, immobiles.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Un seul canal à la fois : ne pas parler et toucher en même temps.",
+          "S'arrêter à sa demande : s'il se crispe ou retire son pied, on arrête."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se relayer par tranches : vingt minutes chacun, montre en main — la constance vient du relais, pas de l'endurance.",
+        "Se rappeler la trajectoire : les décharges s'espacent nettement dans les mois qui viennent.",
+        "Ne pas mesurer le succès à l'arrêt des pleurs : rester présent.e est déjà une réponse complète.",
+        "Protéger l'après : une fois la vague passée, ne pas relancer d'activité — laisser le calme s'installer."
+      ],
+      "principe": "Empiler les stratégies relance ce qu'on cherche à calmer. Une seule réponse, tenue calmement, laisse au système nerveux la place de redescendre par paliers.",
+      "erreurs_a_eviter": [
+        "Changer de technique toutes les deux minutes.",
+        "Passer bébé de bras en bras pour trouver « qui le calme ».",
+        "Mettre de la musique ou la télévision pour couvrir les pleurs.",
+        "Bercer de plus en plus fort — jamais : aucune secousse n'est anodine."
+      ],
+      "consulter_si": "Consulter si : les pleurs sont inconsolables plusieurs heures par jour, s'ils s'accompagnent de fièvre, de vomissements, d'un refus de boire, d'une cassure de la courbe de poids, ou d'un bébé anormalement mou → pédiatre, le 15 si l'état se dégrade. Si tu sens la perte de contrôle monter : poser bébé sur le dos dans son lit, sortir de la pièce, appeler Allo Parents Bébé (0 800 00 34 56).",
+      "source": "Source : Haute Autorité de Santé — recommandation de bonne pratique « Syndrome du bébé secoué ou traumatisme crânien non accidentel par secouement »."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Pleure dès qu'il ne me voit plus / il me cherche du regard",
+      "titre": "Il te cherche du regard / répondre par la voix",
+      "explication": "Ton bébé pleure dès que tu sors de son champ de vision — et se calme dès que tu reviens. C'est une étape : il commence à percevoir que tu existes, mais pas encore que tu continues d'exister quand il ne te voit plus. Cette permanence-là se construira progressivement dans les mois qui viennent. En attendant, quand tu disparais de sa vue, tu disparais tout court. Ce n'est ni de la manipulation, ni un excès d'attachement : c'est un cerveau qui n'a pas encore l'outil. Ta voix devient alors le fil qui maintient le lien quand ton corps s'éloigne.",
+      "ancrage": "Il ne te réclame pas : il te perd. Ta voix, depuis l'autre pièce, lui apprend que tu continues d'exister — c'est exactement ce qu'il a besoin d'apprendre.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — la voix comme fil",
+        "etapes": [
+          "Parler en continu : depuis l'autre pièce, sans interruption — c'est ce qui le rassure le plus.",
+          "Annoncer avant de partir : « je vais dans la cuisine, je reviens » — toujours la même phrase.",
+          "Revenir montrer ton visage : brièvement, sans le prendre systématiquement.",
+          "L'installer là où il te voit : dans un endroit sûr, à plat, pendant que tu fais autre chose.",
+          "Ne pas partir en silence : la disparition brusque est ce qui l'inquiète le plus."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : nourrir la sécurité",
+        "etapes": [
+          "Un moment quotidien : bébé sur le dos, éveillé et calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Parler pendant le geste : ta voix et ton toucher associés deviennent un repère de sécurité.",
+          "S'arrêter à sa demande : un pied retiré, un regard qui se détourne — on arrête."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Jouer à disparaître : cacher ton visage derrière tes mains et réapparaître — le jeu prépare doucement la permanence.",
+        "Répondre sans tout arrêter : ta voix suffit souvent — tu n'as pas à revenir à chaque fois.",
+        "Impliquer les autres adultes : le co-parent et les proches aussi, pour élargir ses repères.",
+        "Se rappeler la trajectoire : cette étape se transforme progressivement, chaque enfant à son rythme."
+      ],
+      "principe": "Il ne te réclame pas par caprice : quand tu sors de sa vue, tu cesses d'exister pour lui. Ta voix est le fil qui maintient le lien — et c'est ainsi que la permanence se construit.",
+      "erreurs_a_eviter": [
+        "Partir en silence pour éviter les pleurs — la disparition brusque augmente l'insécurité.",
+        "Le prendre dans les bras à chaque appel — ta voix suffit souvent.",
+        "Interpréter ces pleurs comme de la manipulation — son cerveau n'en a pas les moyens.",
+        "Le placer devant un écran pour l'occuper pendant ton absence."
+      ],
+      "consulter_si": "Consulter si : bébé ne se calme jamais, même quand tu reviens, s'il ne cherche jamais ton visage ni ta voix, s'il ne réagit pas aux bruits forts, ou s'il paraît anormalement mou ou éteint → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition et de la vision."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Pleurs aigus et brefs quand on lui parle / l'excitation bascule",
+      "titre": "L'excitation qui bascule / redescendre le niveau",
+      "explication": "Tu lui parles, il répond, il sourit, il s'agite — et brusquement il pousse des cris aigus, brefs, puis se met à pleurer. À trois mois, son système nerveux monte vite en excitation mais ne sait pas encore freiner. Ce qui commence comme un plaisir partagé se retourne en surcharge en quelques secondes. Ces cris aigus sont un signal de bascule, pas de douleur : ils disent « c'est trop, je ne sais plus redescendre ». Ton rôle n'est pas d'arrêter les échanges — c'est d'organiser la descente avant que le point de bascule ne soit atteint.",
+      "ancrage": "Il ne sait pas encore freiner : c'est toi le frein. Un échange se clôt en douceur, il ne s'interrompt pas brutalement.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — organiser la descente",
+        "etapes": [
+          "Repérer les signes précoces : mouvements saccadés, respiration rapide, cris qui montent dans les aigus.",
+          "Ralentir progressivement : baisser la voix, ralentir tes mimiques, réduire l'amplitude.",
+          "Installer le silence : quelques secondes sans rien dire, ton visage calme et présent.",
+          "Passer au contact : le prendre contre toi, immobile, sans parler.",
+          "Ne pas relancer : ne pas chercher un dernier sourire — c'est là que la bascule se produit."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : redescendre après l'échange",
+        "etapes": [
+          "Juste après le jeu : bébé sur le dos, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : un pied retiré, une crispation — on arrête."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Raccourcir les échanges : quelques minutes suffisent — la qualité prime sur la durée.",
+        "Alterner échange et calme : un temps de dialogue, un temps sans sollicitation.",
+        "Prévenir l'entourage : expliquer que les sollicitations en cascade le font basculer.",
+        "Observer son seuil : il varie d'un jour à l'autre selon la fatigue accumulée."
+      ],
+      "principe": "Le cri aigu qui monte n'est pas de la douleur : c'est un signal de bascule. Ce qui protège l'échange, c'est la descente organisée — pas l'arrêt brutal.",
+      "erreurs_a_eviter": [
+        "Prolonger le jeu tant qu'il sourit — le sourire précède souvent la bascule de quelques secondes.",
+        "Relancer pour obtenir une dernière réaction.",
+        "Enchaîner les stimulations différentes — jouets, chatouilles, musique.",
+        "Interpréter la crise qui suit comme de la mauvaise humeur — c'est une surcharge."
+      ],
+      "consulter_si": "Consulter si : bébé bascule systématiquement dans une crise inconsolable après chaque échange, s'il se raidit fortement, ne cherche jamais le contact visuel, paraît en détresse dès qu'on le sollicite, ou semble anormalement mou → pédiatre ou PMI."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Inconsolable après une sortie / supermarché, centre commercial",
+      "titre": "Après le supermarché / anticiper la saturation",
+      "explication": "Une heure au supermarché, et il s'effondre en rentrant — ou pire, il hurle dans la voiture. Un centre commercial concentre tout ce que son système nerveux ne sait pas encore filtrer : lumières crues, musique, annonces sonores, dizaines de visages, températures qui changent. Il ne pleure pas pendant, parce qu'il tient. La décharge arrive après. Le levier n'est donc pas de mieux le consoler au retour : c'est de doser l'exposition — durée courte, horaires calmes, et une décompression prévue dès la sortie.",
+      "ancrage": "Ce n'est pas une sortie ratée : c'est un système nerveux qui a absorbé plus qu'il ne peut traiter. On dose avant, on décharge après.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — la décompression du retour",
+        "etapes": [
+          "Retour au calme immédiat : pièce sombre, silence, un seul adulte.",
+          "Peau à peau : le remettre contre toi, sans parler, sans bercer vivement.",
+          "Aucune stimulation ajoutée : ni musique, ni promenade, ni jouet, ni écran.",
+          "Accepter la décharge : les pleurs peuvent durer — c'est la sortie du trop-plein.",
+          "Coucher ensuite : le sommeil vient souvent une fois la vague passée."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : décharger le trop-plein",
+        "etapes": [
+          "Une fois la première vague passée : bébé calmé, dans le silence.",
+          "Toucher enveloppant des pieds : les tenir entiers dans tes paumes, immobiles.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : s'il se crispe, on arrête sans insister."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Choisir les horaires creux : tôt le matin, quand les lieux sont vides et silencieux.",
+        "Raccourcir la durée : trente minutes maximum dans un lieu à forte charge sensorielle.",
+        "Le protéger visuellement : capote de poussette, portage face à toi — moins de visages, moins de lumière.",
+        "Prévoir la décompression : rentrer directement, sans enchaîner une autre activité."
+      ],
+      "principe": "Un bébé ne se protège pas seul du trop-plein sensoriel : c'est toi son filtre. Doser l'exposition en amont est toujours plus efficace que consoler après l'effondrement.",
+      "erreurs_a_eviter": [
+        "Enchaîner plusieurs sorties dans la même journée.",
+        "Réveiller bébé pour partir faire des courses.",
+        "Le tourner face au monde en portage dans un lieu bruyant — il ne peut plus se protéger du regard.",
+        "Compenser l'effondrement par une stimulation supplémentaire au retour."
+      ],
+      "consulter_si": "Consulter si : bébé reste inconsolable plusieurs heures malgré le retour au calme, s'il refuse de boire, s'il présente de la fièvre, ou s'il paraît anormalement mou ou difficile à réveiller → pédiatre, le 15 selon l'urgence."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Il pleure devant un écran / même allumé en fond",
+      "titre": "Les écrans / zéro avant trois ans, bruit de fond compris",
+      "explication": "La recommandation française est claire : pas d'écran avant trois ans. Et elle ne concerne pas seulement les écrans que bébé regarde. Une télévision allumée en fond, même s'il ne la fixe pas, perturbe son attention, réduit le temps qu'il passe à jouer et à explorer, et diminue le nombre de mots que les adultes lui adressent. Pour un bébé de trois mois, un écran est une source de stimulation qu'il ne peut ni filtrer ni fuir : lumière changeante, sons brusques, rythme impossible à suivre. Les pleurs devant un écran ne sont pas un hasard — ils sont une réponse logique.",
+      "ancrage": "Ce n'est pas une question de discipline parentale, c'est une question de charge sensorielle. Un écran allumé en fond n'est jamais neutre pour un bébé.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — couper la source",
+        "etapes": [
+          "Éteindre, pas baisser : un écran en sourdine reste une source de lumière changeante.",
+          "Retirer bébé du champ : le sortir de la pièce si l'écran ne peut pas être éteint.",
+          "Revenir au calme : lumière basse, silence, contact.",
+          "Attendre la décharge : les pleurs peuvent continuer un moment — c'est la sortie du trop-plein.",
+          "Ne jamais utiliser un écran pour calmer les pleurs : cela sur-stimule au lieu d'apaiser."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : après la sur-stimulation",
+        "etapes": [
+          "Une fois l'écran éteint : bébé sur le dos, dans le silence.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir la recommandation : pas d'écran avant trois ans — c'est la position des autorités de santé françaises.",
+        "Inclure le bruit de fond : une télévision allumée sans être regardée perturbe son attention et son jeu.",
+        "Surveiller ton propre écran : un parent absorbé par son téléphone parle beaucoup moins à son bébé.",
+        "Remplacer par du visage : ton visage à trente centimètres est le meilleur support d'éveil qui existe à cet âge."
+      ],
+      "principe": "Un écran n'est jamais un apaisant : c'est une stimulation qu'un bébé ne peut ni filtrer ni fuir. La recommandation française est zéro écran avant trois ans, bruit de fond compris.",
+      "erreurs_a_eviter": [
+        "Laisser la télévision allumée en fond pendant qu'il joue ou qu'il tète.",
+        "Utiliser une vidéo pour calmer les pleurs ou occuper bébé.",
+        "Consulter son téléphone pendant les temps d'échange avec lui.",
+        "Croire qu'un contenu « pour bébé » est adapté avant trois ans — aucun ne l'est."
+      ],
+      "consulter_si": "Consulter si : bébé fixe les écrans de façon soutenue et ne réagit plus à ton visage ni à ta voix, s'il paraît absent ou éteint, s'il ne sourit pas vers trois mois, ou s'il ne réagit pas aux bruits forts → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition et de la vision.",
+      "source": "Source : Haut Conseil de la santé publique — avis sur les effets de l'exposition des enfants et des jeunes aux écrans."
+    }
+  ]
+}

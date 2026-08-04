@@ -1,0 +1,196 @@
+{
+  "mois": 5,
+  "tranche_age": "5 mois",
+  "categorie": {
+    "id": "sommeil",
+    "nom": "Sommeil",
+    "sous_titre": "Acquis moteurs, retournement, fenêtres d'éveil",
+    "icone": "😴"
+  },
+  "protocoles": [
+    {
+      "categorie": "sommeil",
+      "situation": "Les réveils se multiplient / après des semaines calmes",
+      "titre": "Les réveils qui reviennent / relier aux acquis moteurs",
+      "explication": "Vous aviez retrouvé des nuits acceptables — et tout repart. Avant de chercher une régression mystérieuse ou un problème caché, regarde ce qu'il vient d'apprendre : se retourner, attraper, pivoter, se redresser. Chaque grande acquisition motrice perturbe le sommeil, parce que le cerveau rejoue la nuit ce qu'il a travaillé le jour. Ce n'est pas un recul, ce n'est pas une erreur de ta part, et cela ne demande pas une nouvelle méthode. Cela demande de tenir le cadre, et de donner beaucoup plus d'espace au mouvement pendant la journée.",
+      "ancrage": "Ses réveils ne sont pas un mystère : c'est un cerveau qui s'entraîne. Ce qui les réduit, ce n'est pas une méthode — c'est du mouvement libre en journée.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — pendant la phase",
+        "etapes": [
+          "Ne rien changer : ce n'est pas le moment d'introduire une nouvelle méthode.",
+          "Tenir le cadre : mêmes repères, mêmes horaires approximatifs, même rituel.",
+          "Intervenir par paliers : voix, puis main posée, puis portage seulement si nécessaire.",
+          "Offrir du mouvement le jour : plusieurs temps au sol, sur un tapis ferme, sans entrave.",
+          "Se relayer : chaque parent un bloc de sommeil continu."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : soutenir la phase",
+        "etapes": [
+          "Dans le rituel du soir : toujours au même moment, après le bain.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Limiter l'immobilisation : ne pas laisser bébé plus d'une heure d'affilée en transat, poussette, coque ou siège.",
+        "Multiplier le temps sur le ventre, éveillé et surveillé : c'est là que les acquis se consolident.",
+        "S'attendre à ce que cela recommence : chaque nouvelle acquisition motrice perturbera à nouveau les nuits.",
+        "Mesurer sur plusieurs semaines : le sommeil se lit en tendance, jamais sur deux nuits."
+      ],
+      "principe": "Les réveils qui suivent un progrès moteur ne sont pas une régression : ce sont les répétitions nocturnes d'un cerveau qui apprend. Plus il bouge le jour, moins cela déborde la nuit.",
+      "erreurs_a_eviter": [
+        "Changer de méthode de sommeil en pleine phase.",
+        "Laisser pleurer seul pour « rétablir » les nuits.",
+        "Repousser le coucher pour qu'il dorme mieux.",
+        "Réduire les temps au sol par peur qu'il se fatigue — c'est l'inverse qui aide."
+      ],
+      "consulter_si": "Consulter si : bébé dort très peu au total et ne prend pas de poids, s'il est agité et inconsolable en permanence, s'il est difficile à réveiller pour les prises, ou s'il présente des pauses respiratoires ou un ronflement important → pédiatre ; le 15 en cas de trouble respiratoire.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — le sommeil de bébé."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Il se retourne la nuit / et se réveille coincé sur le ventre",
+      "titre": "Le retournement nocturne / sécuriser sans empêcher",
+      "explication": "Il se retourne, se retrouve sur le ventre, et se réveille en pleurant parce qu'il ne sait pas encore revenir. La règle du couchage ne change pas : on couche toujours bébé sur le dos. En revanche, quand il se retourne seul, on ne passe pas la nuit à le repositionner — l'apprentissage moteur doit se faire, et il se fera. Ce qui devient absolument critique, c'est le lit : dès qu'un bébé bouge, tout ce qui s'y trouve devient un risque d'étouffement. Le lit doit être totalement vide, le matelas ferme, le drap tendu.",
+      "ancrage": "On le couche sur le dos, on ne l'empêche pas de se retourner. Ce qui se contrôle, ce n'est pas sa position — c'est ce qu'il y a dans son lit.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — sécuriser le lit",
+        "etapes": [
+          "Coucher sur le dos : systématiquement, à chaque mise au lit, sans exception.",
+          "Un lit totalement vide : pas de doudou, pas de couverture, pas de coussin, pas de tour de lit.",
+          "Matelas ferme, drap tendu : rien qui puisse se soulever et couvrir son visage.",
+          "Gigoteuse adaptée : à sa taille, sans excès de tissu — jamais de couverture libre.",
+          "Ne plus emmailloter : dès qu'un bébé cherche à se retourner, l'emmaillotage devient dangereux."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — accompagner l'apprentissage",
+        "etapes": [
+          "Beaucoup de temps au sol en journée : c'est là qu'il apprendra à revenir du ventre au dos.",
+          "Ne pas le repositionner toute la nuit : s'il se retourne seul, on le laisse — le couchage initial reste sur le dos.",
+          "Le rassurer sans le sortir du lit : voix, main posée.",
+          "Sécuriser la chambre : rien à portée, meubles fixés, barreaux conformes.",
+          "S'arrêter s'il pleure vraiment : le prendre, le calmer, le recoucher sur le dos."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retirer tout accessoire : cale-bébé, réducteur, coussin de positionnement — dangereux et interdits pendant le sommeil.",
+        "Multiplier le temps sur le ventre éveillé : c'est ce qui accélère le retour dos-ventre-dos.",
+        "Vérifier la chambre entre 18 et 20 °C : la surchauffe est un facteur de risque.",
+        "Se rappeler que cette phase est courte : quand il saura revenir seul, les réveils cesseront."
+      ],
+      "principe": "On couche sur le dos, on ne contrarie pas le retournement — et on vide le lit. Un bébé mobile transforme le moindre objet du lit en risque réel.",
+      "erreurs_a_eviter": [
+        "Ajouter un coussin, un doudou ou une couverture pour « le caler ».",
+        "Utiliser un cale-bébé ou un réducteur.",
+        "Continuer à emmailloter un bébé qui cherche à se retourner.",
+        "Passer la nuit à le remettre sur le dos — le couchage sur le dos concerne la mise au lit."
+      ],
+      "consulter_si": "Consulter si : bébé présente des pauses respiratoires, une respiration bruyante ou gênée, un ronflement important, s'il paraît anormalement mou ou raide, ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre ; le 15 en cas de trouble respiratoire. Rappel : couchage sur le dos, matelas ferme, lit vide, chambre des parents jusqu'à six mois.",
+      "source": "Source : Santé publique France — le couchage sécurisé du nourrisson et la prévention de la mort inattendue du nourrisson."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Les siestes se dérèglent / ses fenêtres d'éveil s'allongent",
+      "titre": "Les siestes qui s'effondrent / recalibrer les fenêtres",
+      "explication": "Les siestes qui fonctionnaient depuis des semaines se réduisent, s'effondrent, deviennent imprévisibles. La cause la plus fréquente est simple, et presque toujours négligée : sa fenêtre d'éveil s'est allongée. Un bébé de cinq mois tient éveillé plus longtemps qu'à trois mois — et les horaires qui marchaient produisent désormais des couchers trop précoces, ou au contraire, si tu as suivi son excitation, des couchers bien trop tardifs. Le sommeil de jour se recalibre régulièrement : ce n'est pas un réglage définitif, c'est un réglage vivant.",
+      "ancrage": "Ses siestes ne se dérèglent pas : c'est ton réglage qui a vieilli. Ce qui se recalibre, c'est la fenêtre d'éveil — pas la durée de la sieste.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — recalibrer",
+        "etapes": [
+          "Observer les signes de fatigue : regard qui se perd, mouvements plus lents, léger geignement — avant les bâillements francs.",
+          "Noter les horaires : quelques jours d'observation révèlent sa nouvelle fenêtre.",
+          "Allonger un peu l'éveil : à cinq mois, il tient souvent nettement plus longtemps qu'avant.",
+          "Coucher aux premiers signes : ni avant, ni après — c'est le point d'équilibre.",
+          "Assombrir la pièce : la pénombre aide autant en journée que la nuit."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : favoriser la détente avant la sieste",
+        "etapes": [
+          "Avant le coucher : bébé calme, sur le dos, lumière tamisée.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Recalibrer régulièrement : la fenêtre d'éveil s'allonge tout au long de la première année.",
+        "Protéger la première sieste : c'est souvent la plus longue et la plus réparatrice.",
+        "Ne pas supprimer la sieste de fin de journée : la dette de sommeil hache la nuit.",
+        "Accepter les siestes en contact : à cet âge, une sieste en portage reste une vraie sieste."
+      ],
+      "principe": "Une sieste qui s'effondre signale presque toujours une fenêtre d'éveil mal calibrée — trop courte ou trop longue. Le réglage du sommeil de jour est vivant : il se refait régulièrement.",
+      "erreurs_a_eviter": [
+        "Garder les mêmes horaires qu'il y a deux mois.",
+        "Attendre les pleurs pour coucher — la fenêtre est déjà dépassée.",
+        "Repousser la sieste en espérant qu'elle soit plus longue.",
+        "Utiliser transat, balancelle ou coque pour prolonger la sieste — jamais pour dormir."
+      ],
+      "consulter_si": "Consulter si : bébé dort très peu au total et ne prend pas de poids, s'il est agité et inconsolable, s'il est difficile à réveiller pour les prises, ou s'il présente des pauses respiratoires → pédiatre ou PMI ; le 15 en cas de trouble respiratoire.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — le sommeil de bébé."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Il ne s'endort qu'en mouvement / poussette, bras, voiture",
+      "titre": "L'endormissement en mouvement / défaire par étapes",
+      "explication": "Il ne s'endort qu'en poussette, en voiture, ou dans les bras qui marchent. Le mouvement est un régulateur puissant, et l'habitude s'est installée sans que personne n'ait rien mal fait. Deux points de sécurité d'abord : un bébé ne doit pas dormir longtemps en coque ou en transat — sa position semi-assise comprime les voies aériennes —, et un sommeil en poussette n'équivaut pas à un sommeil dans un lit. Si cette association t'épuise, elle se défait par étapes, doucement, sans jamais laisser bébé pleurer seul.",
+      "ancrage": "Rien n'a été mal fait. Si cela te convient, tu peux le garder. Si cela t'épuise, cela se défait par étapes — mais le sommeil long se fait dans un lit, à plat, sur le dos.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — les étapes de transition",
+        "etapes": [
+          "Réduire l'amplitude du mouvement : bercer plus lentement, marcher moins, jusqu'à l'immobilité.",
+          "Passer du mouvement au contact : bras immobiles, puis main posée dans le lit.",
+          "Terminer l'endormissement dans le lit : le poser somnolent mais pas totalement endormi.",
+          "Y aller très progressivement : une étape à la fois, sur plusieurs semaines.",
+          "Répondre s'il pleure : on ne laisse jamais un bébé de cinq mois pleurer seul."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : le nouveau repère d'endormissement",
+        "etapes": [
+          "En remplacement du mouvement : bébé sur le dos dans son lit, lumière tamisée.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Terminer par l'immobilité : une main posée sur son torse jusqu'à ce que sa respiration se pose."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Sécuriser les sommeils en déplacement : ne pas laisser bébé dormir longtemps en coque, transat ou siège auto en dehors des trajets — la position semi-assise gêne la respiration.",
+        "Transférer dans le lit dès l'arrivée : un sommeil qui commence en poussette peut se poursuivre dans le lit, à plat, sur le dos.",
+        "Impliquer le co-parent : il peut installer un autre repère d'endormissement, sans les bras habituels.",
+        "Ne jamais utiliser de méthode d'extinction : laisser un bébé pleurer seul n'a pas sa place ici."
+      ],
+      "principe": "Le mouvement endort, mais il ne remplace pas un lit. Défaire une association d'endormissement se fait par étapes, sur plusieurs semaines, et jamais en laissant bébé seul avec ses pleurs.",
+      "erreurs_a_eviter": [
+        "Laisser bébé dormir de longues heures en coque, transat ou balancelle.",
+        "Supprimer brutalement le bercement.",
+        "Laisser pleurer seul pour « casser » l'habitude.",
+        "Multiplier les trajets en voiture pour l'endormir."
+      ],
+      "consulter_si": "Consulter si : bébé ne parvient jamais à s'endormir malgré un cadre calme, s'il est inconsolable, difficile à réveiller pour les prises, s'il présente des pauses respiratoires ou une respiration gênée en position semi-assise, ou si le manque de sommeil devient dangereux pour toi → pédiatre, PMI, médecin, ou Allo Parents Bébé (0 800 00 34 56) ; le 15 en cas de trouble respiratoire.",
+      "source": "Source : ameli.fr (Assurance Maladie) — comment bien coucher un bébé."
+    }
+  ]
+}

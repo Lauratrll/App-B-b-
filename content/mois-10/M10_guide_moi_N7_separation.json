@@ -1,0 +1,195 @@
+{
+  "mois": 10,
+  "tranche_age": "10 mois",
+  "categorie": {
+    "id": "sepa",
+    "nom": "Angoisse de séparation",
+    "sous_titre": "Absence, base sûre, référence, coucher",
+    "icone": "💜"
+  },
+  "protocoles": [
+    {
+      "categorie": "sepa",
+      "situation": "Il panique dès que la porte se ferme / même pour la douche",
+      "titre": "La porte fermée / jouer l'absence courte",
+      "explication": "Tu fermes la porte de la salle de bain, et c'est la panique. L'angoisse de séparation persiste bien au-delà du pic, et une porte fermée est, pour lui, une disparition totale. Éviter de fermer la porte soulage sur le moment, mais n'entraîne rien. Ce qui construit la confiance, c'est l'inverse : jouer l'absence, très courte, à la maison. Fermer la porte cinq secondes en parlant, la rouvrir. Puis dix. Ce sont ces répétitions minuscules qui rendront les vraies séparations possibles.",
+      "ancrage": "Éviter de fermer la porte n'entraîne rien. Jouer l'absence courte, en gardant ta voix, construit la confiance.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — jouer l'absence",
+        "etapes": [
+          "Fermer la porte cinq secondes : en parlant sans interruption — puis rouvrir.",
+          "Allonger très lentement : dix secondes, vingt — sur plusieurs semaines.",
+          "Garder ta voix : c'est elle qui rend l'absence supportable.",
+          "Annoncer et nommer le retour : « je ferme, je reviens » — « je suis revenue ».",
+          "S'arrêter s'il panique : revenir à une durée plus courte, sans forcer."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : ancrer la sécurité",
+        "etapes": [
+          "Un moment quotidien : bébé sur le dos, éveillé et calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Ta voix pendant le geste : associée au toucher, elle devient un repère.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Jouer à coucou : c'est le même entraînement, sous une autre forme.",
+        "Sécuriser la pièce où il attend : pour pouvoir fermer la porte l'esprit tranquille.",
+        "Ne pas éviter les absences : les éviter reporte et aggrave la difficulté.",
+        "Compter en semaines : la permanence se construit progressivement."
+      ],
+      "principe": "Éviter la séparation ne l'apaise pas : cela retarde l'apprentissage. Jouer l'absence courte, avec la voix qui continue, construit la confiance.",
+      "erreurs_a_eviter": [
+        "Éviter de fermer la porte pour ne pas le perturber.",
+        "Partir en silence.",
+        "Le laisser dans une pièce non sécurisée pour avoir la paix.",
+        "Prolonger l'absence alors qu'il panique."
+      ],
+      "consulter_si": "Consulter si : bébé ne se calme jamais, même quand tu reviens, ne cherche jamais ton visage ni ta voix, ne réagit pas aux bruits, ne babille pas, ou paraît anormalement mou ou éteint → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Il s'éloigne puis revient se coller / va-et-vient permanent",
+      "titre": "Le va-et-vient / tu es sa base de sécurité",
+      "explication": "Il s'éloigne pour explorer, revient se coller à toi, repart, revient. Ce va-et-vient est exactement ce qu'il doit faire : tu es sa base de sécurité, et il vient s'y recharger avant de repartir. Ce n'est ni de la dépendance, ni de l'instabilité. Deux erreurs le perturbent : le suivre — ce qui lui retire la responsabilité de l'exploration — et se dérober quand il revient, en le repoussant vers le jeu. Ce dont il a besoin, c'est que tu restes disponible et immobile.",
+      "ancrage": "Tu es sa base : il vient s'y recharger. Reste disponible et immobile — ne le suis pas, et ne le repousse pas.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — rester disponible",
+        "etapes": [
+          "Rester immobile : assise, disponible, à un endroit fixe — c'est cela qui fait la base.",
+          "Ne pas le suivre : le suivre lui retire la responsabilité de son exploration.",
+          "L'accueillir quand il revient : sans commentaire, sans le repousser vers le jeu.",
+          "Le laisser repartir seul : il repartira, quand il sera rechargé.",
+          "Ne pas encourager artificiellement : « va jouer » le prive du choix."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : recharger la base",
+        "etapes": [
+          "Un moment quotidien : bébé sur le dos, éveillé et calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Comprendre le mécanisme : plus la base est fiable, plus l'exploration est audacieuse.",
+        "Sécuriser l'espace : pour pouvoir rester immobile sans avoir à intervenir.",
+        "Ne pas se réjouir trop fort de son éloignement : cela peut l'inquiéter et le faire revenir.",
+        "Se rappeler que le va-et-vient est un signe de sécurité."
+      ],
+      "principe": "Le va-et-vient est le signe d'une base sûre. Rester disponible et immobile soutient l'exploration bien mieux que de l'accompagner partout.",
+      "erreurs_a_eviter": [
+        "Le suivre partout où il explore.",
+        "Le repousser vers le jeu quand il revient.",
+        "Se lever et changer de place sans le prévenir.",
+        "Interpréter son retour comme de la dépendance."
+      ],
+      "consulter_si": "Consulter si : bébé n'explore jamais, ne s'éloigne jamais de toi, ne cherche jamais le contact, ne babille pas, ou paraît anormalement mou ou éteint → pédiatre ou PMI.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Il me cherche du regard avant d'agir / il guette ma réaction",
+      "titre": "Il guette ton visage / ta réaction est sa boussole",
+      "explication": "Avant de toucher un objet, avant de descendre d'un coussin, avant d'approcher un inconnu, il te cherche du regard. C'est une compétence majeure : il utilise ton visage pour évaluer le risque. Ton expression devient littéralement sa boussole — si tu paniques, il conclut au danger ; si tu restes calme, il essaie. Cela veut dire deux choses. Ta réaction compte plus que tes mots. Et cela veut dire aussi que ton anxiété se transmet directement, avant même que tu aies parlé.",
+      "ancrage": "Il lit ton visage avant d'agir. Ton calme n'est pas de l'indifférence : c'est l'information dont il a besoin pour oser.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — offrir un visage lisible",
+        "etapes": [
+          "Rester calme quand il regarde : ton visage est l'information qu'il attend.",
+          "Encourager sans surjouer : un sourire, un hochement de tête — pas une explosion d'enthousiasme.",
+          "Marquer le vrai danger clairement : un visage sérieux et un « non » ferme — réservé à ce qui compte.",
+          "Ne pas paniquer devant une chute imminente : cela l'effraie plus que la chute.",
+          "Nommer simplement : « vas-y, tu peux » ou « non, c'est dangereux »."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : réguler ta propre tension",
+        "etapes": [
+          "Trois respirations lentes : avant d'intervenir, quand ta tension monte.",
+          "Ancrage au sol : pieds à plat, épaules relâchées, mâchoire desserrée.",
+          "Un moment de contact quotidien avec lui : dans le calme.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Comprendre l'enjeu : ton anxiété se transmet directement — un parent hypervigilant produit un enfant prudent.",
+        "Sécuriser l'environnement : c'est ce qui te permet de rester calme sans effort.",
+        "Réserver l'alerte au danger réel : un visage inquiet en permanence le rend craintif.",
+        "Travailler ta propre régulation : c'est un acte pour lui, pas un luxe."
+      ],
+      "principe": "Ton visage est sa boussole. Ton calme lui permet d'oser ; ton anxiété le rend prudent — bien avant que tu aies prononcé un mot.",
+      "erreurs_a_eviter": [
+        "Paniquer ou crier à chaque risque.",
+        "Surjouer l'enthousiasme à chaque geste.",
+        "Utiliser un visage inquiet en permanence.",
+        "Utiliser le « non » pour tout, y compris ce qui n'est pas dangereux."
+      ],
+      "consulter_si": "Consulter si : bébé ne cherche jamais ton regard, ne réagit pas à ton expression, ne babille pas, ne pointe pas du doigt vers douze mois, ou paraît anormalement mou ou éteint → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition et de la vision.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Il ne veut que moi au coucher / le co-parent est refusé",
+      "titre": "Le coucher refusé au co-parent / commencer par le jour",
+      "explication": "Le co-parent tente le coucher, et c'est un échec : hurlements, refus, et tu finis par prendre le relais. C'est logique — le coucher est le moment le plus chargé de la journée en angoisse de séparation. Vouloir y installer le co-parent d'emblée, c'est commencer par le plus difficile. La stratégie qui fonctionne est l'inverse : le co-parent s'installe d'abord dans les rituels du jour — le bain, le repas, le jeu, la sieste — et le coucher vient en dernier, quand le lien est déjà installé.",
+      "ancrage": "Le coucher est le moment le plus chargé : c'est le pire endroit pour commencer. Le co-parent s'installe d'abord dans les rituels du jour.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — commencer par le jour",
+        "etapes": [
+          "Le co-parent prend des moments de jour : le bain, un repas, le jeu, la sieste.",
+          "Tu sors de la pièce : ta présence entretient le refus.",
+          "Répéter souvent : la fréquence prime largement sur la durée.",
+          "Le coucher en dernier : quand le lien est installé sur d'autres moments.",
+          "Y aller par étapes : d'abord une partie du rituel du soir, puis tout."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : un repère transmissible",
+        "etapes": [
+          "Le co-parent fait le geste : la même séquence, à l'identique.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Toujours au même moment : le repère vient de la régularité, pas de la personne.",
+          "S'arrêter à sa demande : le geste doit rester agréable, quel que soit l'adulte."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne pas forcer le coucher : un échec répété au coucher renforce le refus.",
+        "Lâcher le contrôle : il fera autrement, et c'est très bien.",
+        "Éviter le piège de l'irremplaçable : plus tu es la seule à réussir, plus la charge te revient.",
+        "Se rappeler que cela s'inverse : les préférences s'échangent souvent au fil des mois."
+      ],
+      "principe": "Le coucher est le moment le plus chargé de la journée. Le co-parent s'y installe en dernier — après avoir construit le lien sur les rituels du jour.",
+      "erreurs_a_eviter": [
+        "Imposer le coucher au co-parent d'emblée.",
+        "Reprendre bébé dès qu'il pleure.",
+        "Rester dans la pièce « pour rassurer ».",
+        "Corriger la façon de faire de l'autre."
+      ],
+      "consulter_si": "Consulter si : le co-parent se sent durablement exclu, triste, irritable ou détaché, s'il s'isole ou perd tout intérêt pour l'enfant → la dépression périnatale touche aussi les co-parents : en parler au médecin, à la sage-femme, à la PMI ou à un psychologue périnatal. En cas de pensées suicidaires : 3114."
+    }
+  ]
+}

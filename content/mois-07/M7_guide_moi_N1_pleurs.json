@@ -1,0 +1,196 @@
+{
+  "mois": 7,
+  "tranche_age": "7 mois",
+  "categorie": {
+    "id": "pleurs",
+    "nom": "Pleurs & frustration",
+    "sous_titre": "Rage motrice, interdits, peur de l'étranger",
+    "icone": "😢"
+  },
+  "protocoles": [
+    {
+      "categorie": "pleurs",
+      "situation": "Pleurs de rage sur place / il veut avancer sans y arriver",
+      "titre": "La rage de l'immobile / soutenir l'effort",
+      "explication": "Il voit l'objet, il tend le bras, il pousse sur ses jambes — et il ne bouge pas. Ou il recule. La rage est immédiate et totale. À sept mois, l'intention de se déplacer est bien installée, mais la coordination ne suit pas encore. Cette frustration est le moteur même de l'apprentissage : c'est en ratant qu'il ajuste. Ton rôle n'est ni de faire à sa place — ce qui supprimerait l'apprentissage — ni de le laisser s'épuiser. C'est d'ajuster la difficulté : rapprocher l'objet un peu, jamais complètement, pour que l'effort reste possible.",
+      "ancrage": "Sa rage dit que son intelligence dépasse son corps. Rapproche l'objet un peu — jamais complètement.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — ajuster, pas résoudre",
+        "etapes": [
+          "Rapprocher de quelques centimètres : juste assez pour que l'effort redevienne possible.",
+          "Nommer ce qu'il vit : « tu veux y aller et ton corps ne suit pas, c'est rageant ».",
+          "Ne pas donner l'objet : cela met fin à l'apprentissage et à la satisfaction.",
+          "Rester à côté, calme : ta présence tranquille l'aide à tenir l'effort.",
+          "Le libérer avant l'effondrement : quand la rage devient détresse, on change d'activité."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : redescendre après la frustration",
+        "etapes": [
+          "Une fois la crise passée : bébé sur le dos, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Aménager le sol : un tapis ferme, dégagé, avec deux ou trois objets à bonne distance.",
+        "Limiter l'immobilisation : pas plus d'une heure d'affilée en transat, poussette, coque ou siège.",
+        "Doser les sessions : quelques minutes suffisent — la fatigue transforme l'effort en détresse.",
+        "Ne jamais l'installer dans une position qu'il n'atteint pas seul."
+      ],
+      "principe": "Faire à sa place supprime l'apprentissage. Ce qui aide n'est pas de résoudre, mais d'ajuster la difficulté pour que l'effort reste à sa portée.",
+      "erreurs_a_eviter": [
+        "Mettre l'objet dans sa main dès qu'il s'énerve.",
+        "Retirer tous les objets pour lui éviter la frustration.",
+        "Le caler assis ou le mettre debout pour « faciliter ».",
+        "Laisser la crise s'installer jusqu'à l'épuisement."
+      ],
+      "consulter_si": "Consulter si : bébé ne se déplace d'aucune façon vers dix mois, ne se retourne pas, ne tend jamais la main vers un objet, paraît anormalement mou ou raide, s'il perd une compétence acquise, ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre ou PMI, qui orientera si nécessaire vers un kinésithérapeute pédiatrique ou un psychomotricien.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'activité physique du tout-petit et les étapes du développement de bébé."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Pleure dès que je sors de la pièce / la permanence de l'objet démarre",
+      "titre": "Il pleure dès que tu sors / la permanence démarre",
+      "explication": "Il commence à comprendre que tu continues d'exister ailleurs — et c'est précisément cela qui le fait pleurer. Tant qu'il ne le savait pas, ton absence était un vide neutre. Maintenant, il sait que tu es quelque part, et il ne peut pas te rejoindre. C'est un progrès cognitif majeur, et il est douloureux. Ta voix devient l'outil central : elle est la preuve, entendue, que tu es toujours là. Elle relie quand le corps s'éloigne — et elle lui apprend, séparation après séparation, que tu reviens.",
+      "ancrage": "Il ne pleure pas parce qu'il est fragile : il pleure parce qu'il a compris. Ta voix est la preuve sonore que tu existes encore.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — la voix comme fil",
+        "etapes": [
+          "Parler sans interruption : dès que tu sors de son champ, ta voix continue.",
+          "Annoncer avant de partir : « je vais dans la cuisine, je reviens » — toujours la même phrase.",
+          "Nommer le retour : « je suis partie, je suis revenue » — systématiquement.",
+          "L'installer là où il te voit : au sol, en sécurité, dans ton champ quand c'est possible.",
+          "Ne jamais partir en silence : la disparition brusque fabrique l'insécurité."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : ancrer la sécurité",
+        "etapes": [
+          "Un moment quotidien : bébé sur le dos, éveillé et calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Ta voix pendant le geste : associée au toucher, elle devient un repère.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Jouer à coucou : plusieurs fois par jour — c'est l'entraînement direct à la permanence.",
+        "Allonger progressivement : quelques secondes de plus hors du champ, en gardant ta voix.",
+        "Ne pas éviter les séparations : les éviter reporte et aggrave le pic à venir.",
+        "Se rappeler que c'est un progrès : cette angoisse est le signe d'un attachement qui fonctionne."
+      ],
+      "principe": "La permanence se construit par la répétition du couple départ-retour. Ta voix est ce qui comble le vide — et c'est elle qui lui apprend, peu à peu, à te laisser partir.",
+      "erreurs_a_eviter": [
+        "Partir en cachette pour éviter les pleurs.",
+        "Éviter toute absence pour ne pas le perturber.",
+        "Le prendre dans les bras à chaque appel — ta voix suffit souvent.",
+        "Interpréter ces pleurs comme de la manipulation."
+      ],
+      "consulter_si": "Consulter si : bébé ne se calme jamais, même quand tu reviens, s'il ne cherche jamais ton visage ni ta voix, s'il ne réagit pas aux bruits forts, ou s'il paraît anormalement mou ou éteint → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition et de la vision.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Hurle quand on lui retire un objet / colère immédiate",
+      "titre": "L'objet retiré / proposer l'échange, pas l'arrachage",
+      "explication": "Tu lui retires la télécommande, un câble, un objet dangereux — et il hurle de rage. C'est son premier heurt frontal entre son désir et un interdit, et il n'a aucun outil pour le gérer. Arracher l'objet déclenche une crise maximale ; expliquer ne sert à rien à cet âge. Ce qui fonctionne, c'est l'échange : lui tendre autre chose d'intéressant au moment même où tu retires. Son attention se déplace bien plus facilement qu'elle ne se raisonne — et cela ne l'empêche pas d'apprendre la limite.",
+      "ancrage": "À sept mois, on ne raisonne pas une limite : on la pose et on propose autre chose. L'échange désamorce ce que l'arrachage déclenche.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — l'échange",
+        "etapes": [
+          "Tendre l'échange avant de retirer : un autre objet intéressant, présenté à la main.",
+          "Retirer calmement : sans arracher, sans hausser le ton.",
+          "Poser la limite en une phrase : « ça, ce n'est pas pour toi » — courte, ferme, sans colère.",
+          "Nommer sa colère : « tu es fâché, tu voulais le garder » — la validation apaise.",
+          "Accepter la crise si elle vient : elle est normale, elle ne dit rien de ton autorité."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : redescendre après la crise",
+        "etapes": [
+          "Une fois la crise passée : bébé sur le dos, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Sécuriser l'environnement en amont : moins il y a d'objets interdits à portée, moins il y a de crises.",
+        "Ranger en hauteur : câbles, télécommandes, piles boutons, produits ménagers, petits objets.",
+        "Ne pas céder après avoir retiré : rendre l'objet après la crise apprend que la crise fonctionne.",
+        "Être constant : la même règle, tous les jours, par tous les adultes."
+      ],
+      "principe": "À cet âge, une limite se pose et se remplace — elle ne s'explique pas. L'échange déplace l'attention ; l'arrachage déclenche la crise.",
+      "erreurs_a_eviter": [
+        "Arracher l'objet sans rien proposer.",
+        "Rendre l'objet après la crise pour la faire cesser.",
+        "Expliquer longuement — son cerveau n'en a pas les moyens.",
+        "Hausser le ton ou taper sur la main — la violence, même légère, n'enseigne rien."
+      ],
+      "consulter_si": "Consulter si : les crises deviennent quotidiennes et inconsolables, si bébé se cogne volontairement la tête de façon répétée, s'il se raidit fortement et ne se calme jamais, ou si tu sens ta colère devenir difficile à contenir → pédiatre, PMI, ou Allo Parents Bébé (0 800 00 34 56).",
+      "source": "Source : Haute Autorité de Santé — recommandation « Syndrome du bébé secoué ou traumatisme crânien non accidentel par secouement »."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Pleurs à l'approche d'un inconnu / la peur de l'étranger démarre",
+      "titre": "La peur de l'étranger / laisser venir lentement",
+      "explication": "Il souriait à tout le monde ; maintenant il se fige, pleure, se colle à toi dès qu'un visage inconnu s'approche. Sa mémoire des visages s'est précisée : il sait désormais distinguer les siens des autres. Cette peur est un progrès cognitif, pas un défaut de sociabilité — et elle est parfaitement normale. Deux erreurs à éviter : forcer le contact « pour qu'il s'habitue », et s'excuser de sa réaction devant la personne. Ce dont il a besoin, c'est de temps, et d'une base sûre — toi — pour observer avant d'approcher.",
+      "ancrage": "Il ne devient pas sauvage : il devient capable de reconnaître les siens. Cette peur est un progrès — elle ne se corrige pas, elle s'accompagne.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — laisser venir",
+        "etapes": [
+          "Le garder contre toi : il observe depuis sa base sûre, sans être exposé.",
+          "Demander à la personne de ralentir : ne pas le fixer, ne pas tendre les bras d'emblée.",
+          "Laisser la rencontre se faire par le jeu : un objet tendu, un sourire, sans contact direct.",
+          "Nommer ce qu'il vit : « tu ne le connais pas, tu as le droit d'être surpris ».",
+          "Ne pas le forcer : ni bras tendus, ni « fais un sourire »."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : après une rencontre",
+        "etapes": [
+          "Une fois au calme : bébé sur le dos, dans une pièce silencieuse.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne pas s'excuser de sa réaction : « il fait la différence, c'est bon signe » suffit.",
+        "Familiariser progressivement : plusieurs rencontres courtes valent mieux qu'une longue.",
+        "Prévenir la personne qui garde : cette peur peut compliquer une adaptation — mieux vaut l'anticiper.",
+        "Se rappeler que cela passe : cette phase s'atténue au fil des mois, chaque enfant à son rythme."
+      ],
+      "principe": "La peur de l'étranger est un progrès de la mémoire, pas un défaut de caractère. Ton rôle est d'être sa base sûre — pas de le pousser au contact.",
+      "erreurs_a_eviter": [
+        "Forcer bébé à aller dans les bras d'un inconnu.",
+        "S'excuser de sa réaction ou le présenter comme « difficile ».",
+        "Le laisser seul avec une personne qu'il ne connaît pas, sans transition.",
+        "Insister pour obtenir un sourire devant un visiteur."
+      ],
+      "consulter_si": "Consulter si : bébé ne sourit à personne, y compris à toi, ne fixe pas les visages, ne réagit pas aux bruits, ne cherche jamais le contact, ou paraît anormalement mou ou éteint → pédiatre ou PMI.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "mois": 4,
+  "tranche_age": "4 mois",
+  "categorie": {
+    "id": "sepa",
+    "nom": "Lien & attachement",
+    "sous_titre": "Préférences, bras, co-parent, séparation",
+    "icone": "💜"
+  },
+  "protocoles": [
+    {
+      "categorie": "sepa",
+      "situation": "Il ne sourit qu'à certaines personnes / ses premières préférences",
+      "titre": "Les premières préférences / un progrès de l'attachement",
+      "explication": "Il souriait à tout le monde ; maintenant il trie. Il sourit à toi, au co-parent, à la nounou — et il fixe les autres sans réagir, parfois il se fige. Ce changement inquiète souvent l'entourage, qui le prend pour de la timidité ou de la mauvaise humeur. C'est en réalité un progrès majeur : ton bébé distingue désormais les visages familiers des visages inconnus. Cette discrimination sociale est le socle de l'attachement — et elle annonce, dans les mois à venir, une phase où les inconnus pourront franchement l'inquiéter.",
+      "ancrage": "Il ne devient pas difficile : il devient capable de te reconnaître entre tous. C'est une compétence, et c'est une excellente nouvelle.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — respecter le tri",
+        "etapes": [
+          "Ne pas forcer le contact : ne pas le mettre dans les bras d'un inconnu parce qu'il « faut bien ».",
+          "Laisser venir doucement : demander aux proches de s'approcher lentement, sans le prendre d'emblée.",
+          "Rester dans son champ : ta présence visible le rassure pendant les rencontres.",
+          "Nommer ce qu'il vit : « tu ne le connais pas bien, tu as le droit d'être surpris ».",
+          "Le reprendre s'il se fige : sans en faire un drame, sans le forcer à « faire un sourire »."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : un temps de sécurité",
+        "etapes": [
+          "Après une rencontre : bébé sur le dos, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Ta voix pendant le geste : elle est le repère familier par excellence.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Expliquer à l'entourage : « il commence à faire la différence, c'est bon signe » — cela évite les vexations.",
+        "Familiariser progressivement : plusieurs rencontres courtes valent mieux qu'une longue.",
+        "Anticiper la suite : cette discrimination s'accentuera dans les mois qui viennent, jusqu'à une phase où les inconnus l'inquièteront franchement.",
+        "Se rappeler la fourchette : chaque enfant fait ce tri à son rythme."
+      ],
+      "principe": "Trier les visages est un progrès de l'attachement, pas un défaut de caractère. Un bébé qui distingue les siens est un bébé dont le lien se construit.",
+      "erreurs_a_eviter": [
+        "Forcer bébé à aller dans les bras d'une personne qu'il ne connaît pas.",
+        "S'excuser de sa réaction ou le présenter comme « difficile ».",
+        "Insister pour obtenir un sourire devant un visiteur.",
+        "Interpréter son absence de réaction comme de la froideur."
+      ],
+      "consulter_si": "Consulter si : bébé ne sourit à personne, ne fixe pas les visages, ne réagit pas aux bruits, ne cherche jamais le contact, ou paraît anormalement mou ou éteint → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition et de la vision."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Il réclame les bras en permanence / peur de le rendre dépendant",
+      "titre": "Les bras en permanence / répondre ne crée pas la dépendance",
+      "explication": "« Tu vas le rendre dépendant. » Cette phrase revient sans cesse, et elle repose sur une intuition fausse. Les travaux sur l'attachement montrent l'inverse : un enfant dont les besoins de contact sont comblés de façon fiable développe une base de sécurité — et c'est précisément à partir de cette base qu'il ose s'éloigner et explorer. Ce ne sont pas les enfants « habitués aux bras » qui deviennent collants : ce sont ceux dont les appels sont restés sans réponse prévisible. Répondre ne crée pas la dépendance : cela construit l'autonomie de demain.",
+      "ancrage": "Tu ne fabriques pas une dépendance : tu construis une base. C'est de là qu'il partira explorer — pas d'un manque.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — répondre et aménager",
+        "etapes": [
+          "Répondre à l'appel : le prendre, sans culpabilité, sans compter.",
+          "Aménager pour l'autonomie : le poser au sol, sur un tapis, à côté de toi — présent.e, disponible, sans le porter.",
+          "Utiliser ta voix : elle porte le lien même quand tes bras sont pris.",
+          "Le rapprocher de ton activité : l'installer là où il te voit, plutôt que dans une autre pièce.",
+          "Alterner les porteurs : le contact n'a pas besoin d'être toujours le tien."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : nourrir la sécurité",
+        "etapes": [
+          "Un moment quotidien : bébé sur le dos, éveillé et calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Protéger ton dos : portage physiologique, alternance des épaules, s'asseoir pour les longs portages.",
+        "Se relayer : le portage n'est pas l'affaire d'une seule personne.",
+        "Répondre à l'entourage d'une phrase : « on ne rend pas un bébé dépendant en répondant à ses besoins » — puis passer à autre chose.",
+        "Observer le mouvement inverse : plus il se sent en sécurité, plus il accepte des temps au sol, loin de tes bras."
+      ],
+      "principe": "Répondre à un besoin ne crée pas la dépendance : c'est le manque de réponse fiable qui rend anxieux. La sécurité d'aujourd'hui est l'autonomie de demain.",
+      "erreurs_a_eviter": [
+        "Espacer volontairement les prises dans les bras pour « ne pas l'habituer ».",
+        "Laisser pleurer un bébé de quatre mois pour lui apprendre l'autonomie.",
+        "Se justifier longuement auprès de l'entourage.",
+        "Utiliser un portage non physiologique pour porter plus longtemps — la sécurité prime sur la durée."
+      ],
+      "consulter_si": "Consulter si : bébé ne se calme jamais, même porté ; s'il refuse le contact de façon systématique ; s'il pleure de façon inconsolable plusieurs heures par jour ; ou si l'épuisement lié au portage devient dangereux pour toi → pédiatre, PMI, ou Allo Parents Bébé (0 800 00 34 56)."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Le co-parent se sent de trop / le bébé ne veut que moi",
+      "titre": "Le co-parent de trop / construire un lien propre",
+      "explication": "« Il ne veut que toi. » Le co-parent le dit, souvent avec un mélange de tristesse et de soulagement — car cette phrase est aussi une porte de sortie. Elle est fausse : un bébé peut s'attacher à plusieurs adultes, par des canaux différents. Mais elle devient vraie si le co-parent se retire. Le lien ne se construit pas en observant, ni en aidant, ni en attendant que bébé « veuille bien » : il se construit dans des temps exclusifs, où le co-parent fait à sa façon, sans être supervisé — et sans que le parent préféré soit dans la pièce.",
+      "ancrage": "« Il ne veut que toi » devient vrai à force d'être dit. Ce qui inverse la situation, ce ne sont pas les explications — ce sont les temps exclusifs.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — installer l'exclusivité",
+        "etapes": [
+          "Deux moments récurrents : le bain, le coucher, une sortie — identifiés, pas ponctuels.",
+          "Sortir physiquement de la pièce : le parent préféré s'éloigne, idéalement de la maison.",
+          "Aucune consigne, aucune correction : il fera autrement, et c'est très bien.",
+          "Tenir malgré les pleurs : bébé peut protester au début — cela ne veut pas dire que cela ne fonctionne pas.",
+          "Ne pas commenter après : ni « tu aurais dû », ni « moi je fais comme ça »."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — le rituel du co-parent",
+        "etapes": [
+          "Un rituel qui lui appartient : une berceuse, une phrase, un geste — toujours les siens.",
+          "Sa voix, souvent : parler, chanter, raconter.",
+          "Portage régulier : bébé contre lui, visage dégagé, menton décollé.",
+          "La réflexologie du soir : il peut la faire à l'identique, à sa façon.",
+          "Accepter la maladresse du début : le lien se construit dans la répétition."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Lâcher le contrôle : c'est la condition, et c'est souvent le plus difficile pour le parent préféré.",
+        "Nommer le déséquilibre à deux : en parler avant que le ressentiment ne s'installe.",
+        "Lui confier des nuits : le rendormissement, un biberon — cela crée du lien et protège ton sommeil.",
+        "Se rappeler que cela s'inverse : les préférences parentales s'échangent souvent au fil des mois."
+      ],
+      "principe": "Un bébé s'attache à plusieurs adultes, par des canaux différents. Le lien du co-parent ne s'obtient pas en aidant : il se construit dans des temps exclusifs, sans supervision.",
+      "erreurs_a_eviter": [
+        "Corriger systématiquement la façon de faire du co-parent.",
+        "Rester dans la pièce « pour rassurer » pendant son temps exclusif.",
+        "Le cantonner à la logistique — les courses ne créent pas de lien.",
+        "Interpréter les pleurs de bébé avec lui comme la preuve qu'il « n'y arrive pas »."
+      ],
+      "consulter_si": "Consulter si : le co-parent se sent durablement exclu, triste, irritable ou détaché, s'il s'isole ou perd tout intérêt pour le bébé, ou si la tension dans le couple devient permanente → la dépression post-partum touche aussi les co-parents : en parler au médecin, à la sage-femme, à la PMI ou à un psychologue périnatal. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "L'adaptation approche / préparer la séparation",
+      "titre": "Préparer la séparation / des micro-séparations progressives",
+      "explication": "L'adaptation approche, et on te conseille souvent de « ne pas en faire toute une histoire ». C'est un mauvais conseil : une séparation se prépare, et elle se prépare par étapes. À quatre mois, ton bébé n'a pas encore l'angoisse de séparation — mais il a des repères, et un changement brutal de rythme, de lieu, de voix et d'odeurs est une transition majeure. Les micro-séparations progressives, dans les semaines qui précèdent, lui apprennent que tu pars et que tu reviens : c'est ce couple-là, le départ et le retour, qui construit la sécurité.",
+      "ancrage": "Ce n'est pas le départ qui sécurise, c'est le retour — et il apprend cela par la répétition. Quelques micro-séparations valent mieux qu'un grand jour de rupture.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — les micro-séparations",
+        "etapes": [
+          "Commencer petit : dix minutes avec le co-parent ou un proche, dans une autre pièce.",
+          "Augmenter progressivement : une heure, une matinée, une journée — étalées sur plusieurs semaines.",
+          "Un rituel de départ court : une phrase, un baiser, et on part — toujours les mêmes.",
+          "Ne jamais partir en cachette : cela fabrique l'insécurité qu'on cherchait à éviter.",
+          "Toujours revenir : et le nommer au retour — « je suis partie, je suis revenue »."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — l'objet de transition",
+        "etapes": [
+          "Introduire un objet familier : un petit tissu porté par toi, qui garde ton odeur, confié à la personne qui garde.",
+          "Jamais dans le lit ni près du visage : pendant le sommeil, le lit reste vide — cet objet accompagne l'éveil.",
+          "Le réintroduire à chaque séparation : toujours le même, pour qu'il devienne un repère.",
+          "Un rituel de retrouvailles : une demi-heure de contact, sans écran ni tâche ménagère.",
+          "Accepter ses réactions : pleurs, agitation ou indifférence au retour sont tous normaux."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Transmettre ses repères : signes de faim, de fatigue, ce qui l'apaise — par écrit.",
+        "Prévoir une adaptation progressive avec le mode de garde : quelques heures, puis une demi-journée, puis une journée.",
+        "Préparer le biberon en amont : c'est souvent le vrai point de blocage.",
+        "Travailler ta propre sécurité : c'est ton état qu'il perçoit, à cet âge, bien plus que la séparation elle-même."
+      ],
+      "principe": "La sécurité ne naît pas du départ, mais de la répétition du retour. Les micro-séparations enseignent exactement cela — et elles se préparent des semaines à l'avance.",
+      "erreurs_a_eviter": [
+        "Partir en cachette pour éviter les pleurs.",
+        "Commencer la garde le jour même de la reprise, sans adaptation.",
+        "Prolonger les au revoir ou revenir plusieurs fois.",
+        "Laisser un doudou ou un tissu dans le lit pendant le sommeil — le lit reste vide."
+      ],
+      "consulter_si": "Consulter si : bébé refuse de boire chez la personne qui garde pendant plusieurs jours, s'il perd du poids, s'il paraît éteint ou apathique, s'il pleure de façon inconsolable en permanence, ou si l'angoisse de la séparation devient envahissante pour toi → pédiatre, PMI, ou psychologue périnatal."
+    }
+  ]
+}

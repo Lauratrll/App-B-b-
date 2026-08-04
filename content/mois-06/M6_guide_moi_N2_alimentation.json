@@ -1,0 +1,334 @@
+{
+  "mois": 6,
+  "tranche_age": "6 mois",
+  "categorie": {
+    "id": "alim",
+    "nom": "Alimentation & digestion",
+    "sous_titre": "Diversification, allergènes, textures, transit",
+    "icone": "🥄"
+  },
+  "protocoles": [
+    {
+      "categorie": "alim",
+      "situation": "Premier refus de la cuillère / réflexe ou refus ?",
+      "titre": "Le refus de la cuillère / réflexe ou vrai refus ?",
+      "explication": "Tu approches la cuillère, il tourne la tête, il pousse la nourriture hors de sa bouche avec la langue. Ce n'est pas forcément un refus : le réflexe qui pousse tout corps étranger hors de la bouche s'éteint à peine à cet âge. Sa langue fait ce qu'elle a fait pendant six mois — elle repousse. Cela ne dit rien de son goût ni de sa maturité. La réponse n'est ni d'insister, ni d'abandonner : c'est de proposer régulièrement, en petites quantités, en le laissant donner le rythme. La bouche apprend, comme le reste — par répétition.",
+      "ancrage": "Repousser la cuillère n'est pas dire non : c'est une langue qui n'a pas encore appris. On propose, on n'insiste jamais — et on recommence demain.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — proposer sans forcer",
+        "etapes": [
+          "Bébé bien redressé : assis, tronc droit, jamais allongé ni à demi-couché.",
+          "Une cuillère souple et petite : qu'il puisse téter — jamais une cuillère qu'on enfonce.",
+          "Déposer sur le bout de la langue : ne jamais pousser la cuillère au fond de la bouche.",
+          "De très petites quantités : quelques millimètres de préparation lisse.",
+          "S'arrêter au premier refus net : on retire, on repropose au prochain repas — jamais d'insistance."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — apprivoiser la cuillère",
+        "etapes": [
+          "Lui laisser toucher la cuillère : la tenir, l'explorer, la porter seul à la bouche.",
+          "Le laisser fixer le rythme : il ouvre la bouche, on avance ; il détourne, on arrête.",
+          "Un environnement calme : pas d'écran, pas de public, pas d'agitation.",
+          "Le lait reste l'essentiel : à six mois, il couvre encore la majeure partie de ses besoins.",
+          "S'arrêter s'il se braque : le repas ne se force jamais."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Compter en semaines : de nombreuses propositions sont souvent nécessaires avant qu'un aliment soit accepté.",
+        "Respecter les textures : les débuts se font en préparations lisses ; les morceaux viennent bien plus tard.",
+        "Ne jamais forcer : la pression au repas est le facteur qui installe durablement les difficultés alimentaires.",
+        "Ne pas remplacer le lait : la diversification s'ajoute au lait, elle ne le remplace pas à cet âge."
+      ],
+      "principe": "Repousser la cuillère est un réflexe qui s'éteint, pas un jugement sur le goût. Ce qui construit l'acceptation, c'est la répétition calme — jamais l'insistance.",
+      "erreurs_a_eviter": [
+        "Pousser la cuillère au fond de la bouche.",
+        "Nourrir bébé allongé ou à demi-couché — risque de fausse route.",
+        "Insister, distraire ou négocier pour faire passer une cuillerée.",
+        "Conclure qu'il n'aime pas après deux ou trois essais."
+      ],
+      "consulter_si": "Consulter si : bébé refuse toute cuillère depuis plusieurs semaines, s'il ne prend pas de poids, si sa courbe casse, s'il vomit de façon répétée, ou si tu as un doute sur le démarrage de la diversification → pédiatre, médecin traitant ou PMI. En cas d'étouffement : appeler le 15.",
+      "source": "Source : ameli.fr (Assurance Maladie) — la diversification alimentaire : quand et comment commencer."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Hauts-le-cœur sur les textures / le réflexe nauséeux normal",
+      "titre": "Haut-le-cœur ou étouffement / deux signaux, deux réactions",
+      "explication": "C'est le protocole le plus important de la diversification, parce que deux situations très proches appellent des réactions opposées. Le haut-le-cœur est un réflexe de protection : bébé tousse, émet du bruit, ses yeux larmoient, il recrache. Il gère. On ne fait rien, on ne le tapote pas, on le laisse dégager seul. L'étouffement, lui, est silencieux : il ne tousse pas, ne fait aucun bruit, ne respire plus, sa couleur change. Là, c'est une urgence vitale immédiate. Savoir distinguer les deux est la compétence la plus utile de ce mois.",
+      "ancrage": "S'il tousse et fait du bruit, il se protège — tu n'interviens pas. S'il est silencieux et change de couleur, c'est une urgence : le 15, immédiatement.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — reconnaître, puis agir",
+        "etapes": [
+          "Il tousse, fait du bruit, larmoie : c'est un haut-le-cœur — il gère, on ne fait rien, on reste calme.",
+          "Ne pas le tapoter ni mettre les doigts dans sa bouche : cela peut enfoncer l'aliment.",
+          "Il est silencieux, ne tousse pas, ne respire plus, change de couleur : c'est un étouffement.",
+          "Appeler immédiatement le 15 ou le 112 : sans attendre, en gardant le téléphone en haut-parleur.",
+          "Suivre les instructions du 15 : les secours guident les gestes de désobstruction au téléphone."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — prévenir la fausse route",
+        "etapes": [
+          "Toujours assis, tronc droit : jamais allongé, jamais à demi-couché, jamais en mouvement.",
+          "Toujours surveillé : un bébé ne mange jamais seul, ni sans un adulte à côté.",
+          "Textures adaptées : préparations lisses au début — les morceaux viennent bien plus tard.",
+          "Éviter les aliments à risque : ronds, durs, glissants — ils ne se donnent pas à cet âge.",
+          "Un repas calme : ni jeu, ni rire, ni écran, ni voiture pendant qu'il mange."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se former aux gestes qui sauvent : une formation aux premiers secours est le meilleur investissement de ce mois — elle s'apprend en quelques heures.",
+        "Ne jamais improviser une manœuvre : un geste mal exécuté sur un nourrisson peut aggraver la situation — c'est le 15 qui guide.",
+        "Afficher les numéros : 15 et 112, visibles dans la cuisine.",
+        "Après tout épisode d'étouffement : même si l'aliment est ressorti, un avis médical s'impose."
+      ],
+      "principe": "Un bébé qui tousse se protège : on ne fait rien. Un bébé silencieux qui change de couleur s'étouffe : c'est le 15, immédiatement. C'est la seule distinction qui compte.",
+      "erreurs_a_eviter": [
+        "Mettre les doigts dans sa bouche pour retirer un aliment — cela peut l'enfoncer.",
+        "Tapoter le dos d'un bébé qui tousse — il gère, on ne l'interrompt pas.",
+        "Nourrir bébé allongé, en voiture, en mouvement, ou sans surveillance.",
+        "Donner des aliments ronds, durs ou glissants à cet âge."
+      ],
+      "consulter_si": "Consulter si : bébé s'étouffe — silence, absence de toux, difficulté à respirer, changement de couleur → appeler immédiatement le 15 ou le 112. Après tout épisode d'étouffement, même résolu, ou en cas de toux persistante, de respiration bruyante ou de gêne qui suit un repas → consulter sans délai : un fragment peut être resté dans les voies respiratoires.",
+      "source": "Source : ameli.fr (Assurance Maladie) — corps étranger inhalé par fausse route : reconnaître et réagir."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Distractibilité au sein ou au biberon / bébé devient curieux",
+      "titre": "Le bébé distrait / un lieu calme pour boire",
+      "explication": "Il lâche le sein au moindre bruit, tourne la tête, tète trois gorgées, repart. À six mois, le monde est devenu passionnant — et il est incapable de l'ignorer. Ce n'est ni un désintérêt ni un sevrage : c'est une curiosité toute neuve, et c'est un excellent signe. Elle rend simplement les prises plus hachées. La réponse n'est pas de le forcer à se concentrer, ni de conclure qu'il n'a plus besoin de lait : c'est d'abaisser radicalement le niveau de sollicitation autour des prises, et d'accepter qu'il compensera aux moments calmes.",
+      "ancrage": "Il n'est pas distrait par manque de faim : il est captivé par le monde. Ce qui se règle, c'est l'environnement du repas — jamais sa concentration.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — un environnement sobre",
+        "etapes": [
+          "Pièce calme et sombre : lumière basse, volets à demi fermés si nécessaire.",
+          "Silence complet : pas de conversation, pas de musique, pas de télévision, jamais d'écran.",
+          "Dos aux stimulations : l'installer face à un mur, pas face à la pièce.",
+          "Un seul adulte : les allées et venues suffisent à le détourner.",
+          "Ne pas insister s'il lâche : proposer une pause, puis reproposer plus tard."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — recentrer sans forcer",
+        "etapes": [
+          "Contact avant la prise : quelques minutes peau à peau ou contre toi.",
+          "Une main sur son dos : posée, immobile, pendant la prise.",
+          "Ta voix, tout bas : plutôt que de le laisser chercher les bruits ailleurs.",
+          "Profiter des moments calmes : les prises de nuit et de sieste sont souvent plus complètes.",
+          "S'arrêter s'il se braque : jamais forcer une prise."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Vérifier les indicateurs plutôt que la durée : couches mouillées et courbe de poids disent l'essentiel.",
+        "Ne pas conclure au sevrage : à cet âge, la distraction est très fréquente et transitoire.",
+        "Le lait reste l'aliment principal : jusqu'à un an, il couvre l'essentiel de ses besoins.",
+        "Ne pas compenser par plus de solides : les solides ne remplacent pas le lait à cet âge."
+      ],
+      "principe": "Un bébé distrait est un bébé curieux, pas un bébé qui se sèvre. Ce qui se règle, c'est le calme autour de la prise — jamais sa concentration.",
+      "erreurs_a_eviter": [
+        "Forcer bébé à reprendre en maintenant sa tête.",
+        "Utiliser un écran ou un jouet pour « capter » son attention pendant la prise.",
+        "Conclure à un sevrage spontané et arrêter les prises.",
+        "Augmenter les solides pour compenser des prises hachées."
+      ],
+      "consulter_si": "Consulter si : bébé refuse plusieurs prises consécutives, ne prend pas de poids, mouille très peu ses couches, paraît anormalement mou, ou si sa courbe casse → pédiatre, médecin traitant, PMI ou consultante en lactation (IBCLC).",
+      "source": "Source : Haute Autorité de Santé — « Allaitement maternel : mise en œuvre et poursuite dans les 6 premiers mois de vie de l'enfant »."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Selles dures depuis la diversification / transit qui change",
+      "titre": "Le transit qui change / après les premières purées",
+      "explication": "Depuis les premières purées, ses selles ont changé : plus dures, plus sèches, plus difficiles à évacuer. C'est fréquent — le tube digestif découvre autre chose que du lait, et il se réorganise. Deux leviers existent, et ils sont dans cet ordre : l'eau, désormais proposée à chaque repas, et les fibres, apportées par les légumes et les fruits. Ce qui ne se fait jamais : un remède, un jus sucré, un suppositoire, ou un changement de lait décidé seul. Et la constipation se juge sur la consistance et le confort — jamais sur la fréquence.",
+      "ancrage": "Le transit se réorganise, c'est normal. Deux leviers : l'eau et les fibres. Aucun remède maison, aucun changement de lait décidé seul.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — eau et fibres",
+        "etapes": [
+          "Proposer de l'eau : à partir de la diversification, l'eau devient nécessaire — un peu à chaque repas, dans un verre ou une tasse.",
+          "Des légumes à chaque repas : ils apportent les fibres qui manquent au lait.",
+          "Des fruits en purée : en complément, dans le respect des textures lisses.",
+          "Vérifier la consistance : dures et sèches, difficiles à évacuer — c'est ce qui définit la constipation.",
+          "Palper le ventre : dur et tendu en permanence, ou souple entre les selles."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — confort du ventre",
+        "etapes": [
+          "Bébé sur le dos : plan ferme, jambes libres, pièce calme.",
+          "Flexion douce des jambes : ramener lentement ses genoux vers son ventre, puis relâcher.",
+          "Main posée sur le ventre : ta paume réchauffée, immobile, pression douce et constante.",
+          "Beaucoup de mouvement au sol : le mouvement libre soutient le transit mieux que tout geste.",
+          "S'arrêter dès qu'il se crispe : sa réaction est la seule mesure."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne rien introduire dans le siège : suppositoire, thermomètre, coton-tige — ces gestes ne s'improvisent pas.",
+        "Ne jamais modifier une préparation seul.e : ni la dose, ni la dilution, ni la marque.",
+        "Éviter les jus de fruits : ils sont sucrés et n'ont pas leur place dans l'alimentation d'un nourrisson.",
+        "En parler au professionnel : si les selles restent dures malgré l'eau et les fibres."
+      ],
+      "principe": "La constipation se juge sur la consistance et le confort, jamais sur la fréquence. Les deux leviers sont l'eau et les fibres — et rien ne s'introduit dans le siège d'un bébé à la maison.",
+      "erreurs_a_eviter": [
+        "Stimuler l'anus avec un thermomètre, un coton-tige ou un suppositoire.",
+        "Donner un jus de fruit ou une tisane pour « relancer le transit ».",
+        "Changer de lait de sa propre initiative.",
+        "S'alarmer d'une baisse de fréquence chez un bébé au ventre souple et de bonne humeur."
+      ],
+      "consulter_si": "Consulter si : les selles sont dures et sèches, si bébé se plaint en poussant, si tu vois des traces de sang, si le ventre est dur et tendu, s'il vomit, refuse de boire, ne prend pas de poids ou mouille très peu ses couches → pédiatre, médecin traitant ou PMI. Le 15 en cas de ventre dur avec vomissements et arrêt total des selles et des gaz.",
+      "source": "Source : ameli.fr (Assurance Maladie) — constipation de l'enfant : que faire et quand consulter."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Peur d'introduire les allergènes / arachide, œuf, poisson",
+      "titre": "Les allergènes / les introduire tôt, pas tard",
+      "explication": "C'est le point où les recommandations ont le plus changé — et où l'intuition parentale se trompe le plus souvent. Retarder l'introduction des aliments allergènes ne protège pas : au contraire, cela **augmente** le risque d'allergie. Les recommandations françaises actuelles sont claires : tous les groupes d'aliments, y compris les allergènes majeurs — arachide, œuf, poisson, lait de vache, gluten — s'introduisent dès le début de la diversification, entre quatre et six mois, que l'enfant soit ou non à risque d'allergie. Et il n'y a qu'une méthode : un allergène à la fois, en observant.",
+      "ancrage": "L'intuition dit « attendre par précaution ». Les données disent l'inverse : retarder augmente le risque. On introduit tôt, un à la fois, en observant.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — la méthode",
+        "etapes": [
+          "Un allergène à la fois : jamais deux nouveaux le même jour — pour pouvoir identifier ce qui réagit.",
+          "En petite quantité d'abord : puis on augmente progressivement les jours suivants.",
+          "Le matin ou le midi : jamais le soir — pour pouvoir observer bébé pendant plusieurs heures.",
+          "Observer pendant deux heures : rougeurs autour de la bouche, plaques, vomissements, diarrhée.",
+          "Continuer régulièrement : un allergène introduit puis abandonné pendant des semaines perd le bénéfice de l'introduction."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — un repas serein",
+        "etapes": [
+          "Bébé assis, tronc droit : toujours, et toujours surveillé.",
+          "Textures adaptées : arachide sous forme lisse et diluée, jamais entière ni en morceaux — les fruits à coque entiers sont un risque d'étouffement majeur.",
+          "Un environnement calme : ni écran, ni agitation, ni public.",
+          "Ne pas forcer : proposer, observer, s'arrêter s'il refuse.",
+          "S'arrêter s'il se crispe : le repas ne se force jamais."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "En parler au professionnel : surtout si ton enfant a un eczéma sévère, une allergie déjà connue, ou un antécédent familial fort — la démarche peut alors être encadrée.",
+        "Retenir la règle : ne pas retarder — cela vaut aussi pour les enfants à risque.",
+        "Ne jamais donner de fruits à coque entiers : ni cacahuète, ni noisette, ni amande — risque d'étouffement grave avant plusieurs années.",
+        "Noter ce que tu introduis : un carnet simple, avec les dates — utile en cas de réaction."
+      ],
+      "principe": "Retarder les allergènes n'est pas prudent : cela augmente le risque d'allergie. La bonne méthode est de les introduire tôt, un à la fois, en observant — y compris chez les enfants à risque.",
+      "erreurs_a_eviter": [
+        "Retarder l'arachide, l'œuf ou le poisson « par précaution » — cela augmente le risque.",
+        "Introduire deux nouveaux allergènes le même jour.",
+        "Donner un fruit à coque entier — risque d'étouffement grave.",
+        "Introduire un allergène puis l'abandonner pendant des semaines."
+      ],
+      "consulter_si": "Consulter si : après un aliment, bébé présente des plaques qui s'étendent, un gonflement du visage, des lèvres ou des paupières, des vomissements répétés, une pâleur, une gêne à respirer, une voix ou un cri modifié → appeler immédiatement le 15. Pour toute réaction plus légère — rougeurs, diarrhée — ou en cas d'eczéma sévère ou d'antécédent familial d'allergie : en parler au pédiatre ou au médecin traitant avant de poursuivre.",
+      "source": "Source : ANSES (avis 2018) et Santé publique France — introduire les allergènes alimentaires dès le début de la diversification, entre 4 et 6 mois."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Il pousse et grogne pour aller à la selle / le passage aux purées",
+      "titre": "Il pousse et grogne / le transit apprend les solides",
+      "explication": "Il devient rouge, il pousse, il grogne, parfois il pleure — et finit par produire une selle plus consistante qu'avant. Ce n'est pas nécessairement une constipation : c'est un tube digestif qui découvre les solides et qui apprend à coordonner l'évacuation d'une matière nouvelle. Ce qui distingue l'apprentissage de la constipation : la consistance de la selle une fois arrivée, et le confort de bébé après. Une selle molle après un effort, chez un bébé qui se détend ensuite, ce n'est pas une constipation. Une selle dure et sèche, chez un bébé qui pleure, l'est.",
+      "ancrage": "Pousser et grogner n'est pas être constipé. Regarde deux choses : la selle une fois arrivée, et son confort juste après.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — observer, puis soutenir",
+        "etapes": [
+          "Regarder la selle : molle après l'effort — ce n'est pas une constipation ; dure et sèche — c'en est une.",
+          "Observer l'après : il se détend et se remet à jouer, ou il reste crispé et plaintif.",
+          "Palper le ventre : souple entre les selles, ou dur et tendu en permanence.",
+          "Proposer de l'eau : à chaque repas, depuis le début de la diversification.",
+          "Des légumes à chaque repas : les fibres sont le second levier."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — accompagner l'effort",
+        "etapes": [
+          "Le laisser bouger : le mouvement au sol facilite le transit mieux que n'importe quel geste.",
+          "Bébé sur le dos, flexion douce des jambes : genoux vers le ventre, lentement, puis relâcher.",
+          "Main posée sur le ventre : ta paume réchauffée, immobile, pression douce et constante.",
+          "Ne pas le déranger pendant l'effort : le laisser se concentrer, sans le distraire.",
+          "S'arrêter dès qu'il se crispe : sa réaction est la seule mesure."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Introduire les fibres progressivement : légumes et fruits, en textures lisses.",
+        "Ne rien introduire dans le siège : suppositoire, thermomètre, coton-tige — jamais.",
+        "Éviter les jus de fruits : sucrés, sans intérêt, et sans effet fiable sur le transit.",
+        "Consulter si cela dure : des selles dures malgré l'eau et les fibres se montrent au professionnel."
+      ],
+      "principe": "Pousser et grogner fait partie de l'apprentissage. Ce qui définit la constipation, ce n'est pas l'effort : c'est une selle dure et un bébé qui reste inconfortable après.",
+      "erreurs_a_eviter": [
+        "Conclure à une constipation dès qu'il pousse.",
+        "Introduire un suppositoire ou un thermomètre dans le siège.",
+        "Donner un jus de fruit sucré pour « aider ».",
+        "Changer de lait sans avis médical."
+      ],
+      "consulter_si": "Consulter si : les selles sont dures et sèches, si bébé se plaint en poussant, si tu vois des traces de sang, si le ventre est dur et tendu, s'il vomit, refuse de boire, ou ne prend pas de poids → pédiatre, médecin traitant ou PMI. Le 15 en cas de ventre dur avec vomissements et arrêt total des selles et des gaz.",
+      "source": "Source : ameli.fr (Assurance Maladie) — constipation de l'enfant : que faire et quand consulter."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Il refuse la cuillère après une fausse route / on a eu peur",
+      "titre": "Après une fausse route / reprendre sans transmettre la peur",
+      "explication": "Il a fait une fausse route, il a toussé, tu as eu très peur — et depuis, chaque repas est une épreuve. Souvent, ce n'est pas lui qui refuse : c'est toi qui te crispes, et il le perçoit. La peur parentale se transmet directement à la table. Reprendre demande deux choses. D'abord, vérifier les conditions objectives : position assise droite, textures lisses, surveillance constante, aucun aliment à risque. Ensuite, traiter ta propre peur — parce que c'est elle, désormais, qui pèse le plus sur les repas.",
+      "ancrage": "Ce qui bloque le repas n'est peut-être plus sa peur : c'est la tienne. Elle est légitime, et elle se traite — au même titre que la technique.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — sécuriser les conditions",
+        "etapes": [
+          "Position assise, tronc droit : toujours, jamais allongé ni en mouvement.",
+          "Textures lisses : revenir à des préparations très lisses pendant quelques repas.",
+          "Toujours surveillé : un adulte à côté, du début à la fin du repas.",
+          "Aucun aliment à risque : rien de rond, de dur, de glissant, aucun fruit à coque entier.",
+          "Un repas calme : ni jeu, ni rire, ni écran pendant qu'il mange."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — désamorcer la peur",
+        "etapes": [
+          "Respirer avant le repas : trois respirations lentes, expiration plus longue.",
+          "Nommer ta peur : « j'ai peur depuis ce jour-là » — le dire à voix haute la desserre.",
+          "Passer le relais : laisser le co-parent donner quelques repas si tu es trop crispée.",
+          "Aller lentement : quelques cuillerées suffisent, sans objectif de quantité.",
+          "S'arrêter dès que la tension monte : chez lui comme chez toi."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se former aux gestes qui sauvent : la formation aux premiers secours est le meilleur antidote à la peur — elle rend le geste possible au lieu de le laisser imaginaire.",
+        "Revoir la distinction : un bébé qui tousse se protège ; un bébé silencieux qui change de couleur s'étouffe — c'est le 15.",
+        "Consulter si l'épisode a été grave : un avis médical après une fausse route est légitime.",
+        "En parler si la peur persiste : à la PMI, au pédiatre, ou à un psychologue — une peur qui bloque les repas se traite."
+      ],
+      "principe": "Après une fausse route, la peur du parent devient souvent le vrai obstacle. Elle se traite comme le reste : par la sécurisation des conditions, et par la parole.",
+      "erreurs_a_eviter": [
+        "Renoncer à la diversification par peur — elle reste nécessaire.",
+        "Passer aux morceaux « pour l'habituer » — les textures se respectent.",
+        "Cacher sa peur et se crisper en silence — bébé la perçoit.",
+        "Nourrir bébé allongé, en mouvement, ou sans surveillance."
+      ],
+      "consulter_si": "Consulter si : bébé refuse toute alimentation depuis plusieurs jours, s'il ne prend pas de poids, s'il tousse de façon persistante ou présente une respiration bruyante depuis l'épisode → pédiatre sans délai : un fragment peut être resté dans les voies respiratoires. En cas de nouvel étouffement — silence, absence de toux, changement de couleur → appeler immédiatement le 15.",
+      "source": "Source : ameli.fr (Assurance Maladie) — corps étranger inhalé par fausse route : reconnaître et réagir."
+    }
+  ]
+}

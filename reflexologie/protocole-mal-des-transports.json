@@ -48,17 +48,14 @@
     {
       "ordre": 4,
       "designation": "la colonne vertébrale et le nerf vague",
-      "intention": "On détend l'axe du dos ; le nerf vague, lui, s'accompagne d'un contact doux hors du pied.",
+      "intention": "On glisse le long de la colonne, version allongée qui intègre le nerf vague : détendre tout l'axe et apaiser en profondeur.",
       "zones": [
         {
-          "zone": "colonne-vertebrale",
-          "designation": "la colonne vertébrale",
+          "zone": "colonne-nerf-vague",
+          "designation": "la colonne vertébrale et le nerf vague",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la colonne, en intégrant le nerf vague"
         }
-      ],
-      "hors_pied": [
-        "nerf vague"
       ]
     },
     {
@@ -166,5 +163,8 @@
   "note_fin": "Termine en allégeant le contact, puis éloigne-toi en douceur.",
   "disclaimer": "La Réflexologie plantaire ne se substitue pas à un avis médical.",
   "lancement": true,
-  "visuel": "visuels-protocoles/Visuel - Mal des transports.png"
+  "visuel": "visuels-protocoles/Visuel - Mal des transports.png",
+  "age_min_mois": 21,
+  "age_max_mois": 23,
+  "age_statut": "brouillon"
 }

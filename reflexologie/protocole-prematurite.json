@@ -18,17 +18,14 @@
     {
       "ordre": 1,
       "designation": "la colonne vertébrale et le nerf vague",
-      "intention": "On détend l'axe du dos ; le nerf vague, lui, s'accompagne d'un contact doux hors du pied.",
+      "intention": "On glisse le long de la colonne, version allongée qui intègre le nerf vague : détendre tout l'axe et apaiser en profondeur.",
       "zones": [
         {
-          "zone": "colonne-vertebrale",
-          "designation": "la colonne vertébrale",
+          "zone": "colonne-nerf-vague",
+          "designation": "la colonne vertébrale et le nerf vague",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la colonne, en intégrant le nerf vague"
         }
-      ],
-      "hors_pied": [
-        "nerf vague"
       ]
     },
     {
@@ -102,5 +99,8 @@
   "lancement": true,
   "sujet_sensible": true,
   "emotion": "Ta présence calme et enveloppante compte autant que le geste : elle rassure et sécurise.",
-  "visuel": "visuels-protocoles/Visuel - Prématurité.png"
+  "visuel": "visuels-protocoles/Visuel - Prématurité.png",
+  "age_min_mois": 0,
+  "age_max_mois": 5,
+  "age_statut": "brouillon"
 }

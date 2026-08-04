@@ -1,0 +1,195 @@
+{
+  "mois": 8,
+  "tranche_age": "8 mois",
+  "categorie": {
+    "id": "parent",
+    "nom": "Parents submergés",
+    "sous_titre": "Culpabilité, sécurisation, couple, tristesse",
+    "icone": "🫶"
+  },
+  "protocoles": [
+    {
+      "categorie": "parent",
+      "situation": "Culpabilité de la garde / la première semaine de crèche",
+      "titre": "La culpabilité de la garde / ce n'est pas un indicateur",
+      "explication": "La première semaine de crèche est souvent plus dure pour le parent que pour l'enfant. La culpabilité s'installe, et elle prend une forme trompeuse : elle se présente comme une information — « s'il pleure, c'est que ce n'est pas bon pour lui ». C'est faux. La culpabilité est une émotion, pas un indicateur de la qualité de la garde. Les deux se jugent séparément : d'un côté ce que tu ressens, qui est légitime et mérite d'être dit ; de l'autre l'intérêt de ton bébé, qui se juge sur des faits.",
+      "ancrage": "Ta culpabilité est une émotion, pas une évaluation. Ce que tu ressens et ce dont il a besoin sont deux choses distinctes.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — séparer les deux",
+        "etapes": [
+          "Nommer l'émotion : « je me sens coupable » — sans en faire une conclusion sur la garde.",
+          "Regarder les faits : mange-t-il ? dort-il ? est-il détendu au bout d'un moment ? l'équipe est-elle attentive ?",
+          "Demander des retours concrets : combien de temps il a pleuré, ce qu'il a fait de sa journée.",
+          "Ne pas décider dans la culpabilité : aucune décision majeure la première semaine.",
+          "En parler : au co-parent, à une amie — la culpabilité tue quand elle reste silencieuse."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — traverser la première semaine",
+        "etapes": [
+          "Trois respirations lentes : avant d'entrer, et après être partie.",
+          "Un rituel de départ court : une phrase, un baiser, et on part.",
+          "Une demi-heure pleine au retour : sans écran, sans tâche.",
+          "Se protéger la première semaine : aucun engagement en plus.",
+          "Accepter les larmes : les tiennes aussi sont normales."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir la distinction : la culpabilité mesure ton attachement, pas la qualité de la garde.",
+        "Se rappeler que la séparation n'abîme pas le lien : ce qui compte, c'est la fiabilité du retour.",
+        "Alerter s'il y a des faits : un enfant qui ne mange plus, qui régresse durablement, une équipe qui ne répond pas — cela, ce sont des faits.",
+        "Distinguer culpabilité et dépression : une tristesse durable, une perte d'intérêt ou des pensées noires demandent un avis."
+      ],
+      "principe": "La culpabilité n'est pas une évaluation de la garde : c'est une émotion. Elle se dit, elle se traverse — et elle ne décide de rien.",
+      "erreurs_a_eviter": [
+        "Prendre sa culpabilité pour une preuve que la garde est mauvaise.",
+        "Prendre une décision majeure la première semaine.",
+        "Taire ce que tu ressens.",
+        "Juger la garde uniquement à partir de ses pleurs du matin."
+      ],
+      "consulter_si": "Consulter si : la culpabilité devient envahissante, si elle s'accompagne d'une tristesse qui dure plus de deux semaines, d'insomnies, d'une perte d'intérêt, ou de pensées noires → médecin, sage-femme, PMI ou psychologue périnatal. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence.",
+      "source": "Source : ameli.fr (Assurance Maladie) — dépression post-partum : reconnaître les signes et se faire accompagner."
+    },
+    {
+      "categorie": "parent",
+      "situation": "La maison n'est plus à moi / tout sécuriser m'épuise",
+      "titre": "Tout sécuriser / une fois, pas en continu",
+      "explication": "Depuis qu'il se déplace, la maison est devenue un terrain de surveillance permanente. Tu passes tes journées à dire non, à retirer, à rattraper — et c'est épuisant. Le calcul est pourtant simple : sécuriser une fois, complètement, coûte infiniment moins cher que surveiller en continu. Et l'effet sur la charge mentale est immédiat : chaque zone sécurisée est une vigilance en moins. Ce n'est pas la maison que tu perds — c'est la surveillance permanente dont tu te libères.",
+      "ancrage": "Surveiller en continu coûte plus cher que sécuriser une fois. Chaque zone sécurisée est une vigilance en moins dans ta tête.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — sécuriser en une passe",
+        "etapes": [
+          "Faire le tour à quatre pattes : voir la maison à sa hauteur — c'est la seule méthode fiable.",
+          "Escaliers : barrières en haut et en bas.",
+          "Produits ménagers et médicaments : en hauteur, fermés — jamais sous l'évier.",
+          "Meubles fixés au mur : commodes, étagères, téléviseurs — un meuble qui bascule peut tuer.",
+          "Prises, câbles, cordons de rideaux, petits objets : traités en une seule fois."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — récupérer de la charge mentale",
+        "etapes": [
+          "Créer une zone « oui » : une pièce où tout est autorisé, où tu n'as rien à surveiller.",
+          "Lui donner un placard à lui : des objets sûrs qu'il peut vider et remplir.",
+          "Réserver le « non » au danger réel : un « non » partout ne veut plus rien dire.",
+          "Déléguer la sécurisation : c'est une tâche transférable, avec la charge d'y penser.",
+          "Accepter le désordre : une maison d'enfant n'est pas une maison rangée."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Sécuriser en avance : ce qu'il n'atteint pas encore, il l'atteindra dans quelques jours.",
+        "Vérifier les fenêtres : entrebâilleurs, aucun meuble sous une fenêtre.",
+        "Attention à l'eau : jamais seul près d'une baignoire, d'un seau ou d'une piscine.",
+        "Numéro du centre antipoison : affiché, avec le 15."
+      ],
+      "principe": "Sécuriser une fois libère l'exploration et allège la charge mentale. La surveillance permanente épuise et ne protège pas mieux.",
+      "erreurs_a_eviter": [
+        "Surveiller en continu au lieu d'aménager.",
+        "Dire non toute la journée.",
+        "Ranger les produits ménagers sous l'évier.",
+        "Laisser un meuble non fixé au mur."
+      ],
+      "consulter_si": "Consulter si : bébé a avalé un produit, un médicament ou un objet → appeler immédiatement le 15 ou le centre antipoison, sans le faire vomir. En cas de brûlure, de chute d'une hauteur, de noyade même brève, ou d'ingestion de pile bouton → le 15 immédiatement.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — éviter les accidents domestiques des enfants."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Plus de temps à deux / le couple en veilleuse",
+      "titre": "Le couple en veilleuse / des micro-moments protégés",
+      "explication": "Vous ne vous parlez plus que logistique. Les soirées sont mortes, les sorties impossibles, et l'idée d'un week-end en amoureux ressemble à une plaisanterie. Le piège est d'attendre le grand geste réparateur — le dîner, le week-end, les vacances — qui n'arrive jamais et dont l'absence nourrit le ressentiment. Ce qui répare un couple à ce stade, ce ne sont pas les grands projets : ce sont des micro-moments, courts, protégés, et surtout tenus régulièrement.",
+      "ancrage": "Le couple ne se répare pas par un grand geste qui n'arrive jamais : il se répare par vingt minutes, tenues chaque semaine.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — protéger un micro-moment",
+        "etapes": [
+          "Vingt minutes, une fois par semaine : sans téléphone, sans parler du bébé, sans logistique.",
+          "Le mettre à l'agenda : un rendez-vous non négociable, comme un rendez-vous médical.",
+          "Commencer petit : un thé après le coucher vaut mieux qu'un dîner jamais organisé.",
+          "Bannir les sujets pratiques : ni courses, ni planning, ni charge mentale pendant ce temps.",
+          "Le tenir même quand c'est difficile : la régularité compte plus que la qualité."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — reprendre contact",
+        "etapes": [
+          "Du contact sans enjeu : se tenir la main, s'enlacer, sans que cela doive mener ailleurs.",
+          "Se coucher en même temps : une fois par semaine, sans autre objectif.",
+          "Dire une chose positive : chaque jour, une seule — cela contrebalance la logistique.",
+          "Parler en « je » : « je me sens loin de toi » plutôt que « tu ne fais rien ».",
+          "Ne rien forcer : ni pour soi, ni pour l'autre."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Partager la charge mentale : le désir et la disponibilité ne reviennent pas dans l'épuisement.",
+        "Envisager un accompagnement : conseil conjugal, accompagnement du couple — la période est une épreuve reconnue.",
+        "Se faire garder bébé : deux heures suffisent pour changer une semaine.",
+        "Ne pas attendre le grand geste : il n'arrivera pas, et l'attendre nourrit le ressentiment."
+      ],
+      "principe": "Un couple ne se répare pas par un projet lointain : il se répare par des micro-moments courts et tenus. La régularité compte plus que l'ampleur.",
+      "erreurs_a_eviter": [
+        "Attendre le week-end en amoureux qui n'arrivera pas.",
+        "Parler logistique pendant le seul temps à deux.",
+        "Laisser les non-dits s'accumuler jusqu'au conflit.",
+        "S'imposer une reprise des rapports pour « rassurer » l'autre."
+      ],
+      "consulter_si": "Consulter si : la relation devient violente — paroles, gestes, contrôle → 3919, Violences Femmes Info, gratuit et anonyme. Si des douleurs persistent lors des rapports, ou si l'absence de désir s'accompagne d'une tristesse durable ou de pensées noires → sage-femme, médecin, ou psychologue périnatal. En cas de pensées suicidaires : 3114."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Tristesse qui ne passe pas / plusieurs mois après la naissance",
+      "titre": "La tristesse qui dure / une dépression peut venir tard",
+      "explication": "Huit mois après la naissance, et la tristesse est toujours là — ou elle vient d'arriver. Disons-le clairement : une dépression périnatale peut apparaître tardivement, bien après les premières semaines. Le fait qu'elle survienne « tard » ne la rend ni moins réelle, ni moins traitable — mais elle est souvent moins repérée, précisément parce que tout le monde a cessé de surveiller. Et il y a un piège supplémentaire : à ce stade, on se dit que « ce n'est plus l'excuse du post-partum ». Si, ça l'est encore.",
+      "ancrage": "Une dépression peut arriver tard. Ce n'est ni un caractère qui faiblit, ni une fatigue ordinaire — et cela se soigne.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — nommer et appeler",
+        "etapes": [
+          "Repérer la durée : au-delà de deux semaines, presque tous les jours, cela se dit à un professionnel.",
+          "Nommer les signes : tristesse, envie de pleurer, vide, irritabilité, insomnie même quand bébé dort, perte d'intérêt.",
+          "Le dire à quelqu'un : le co-parent, une amie, un professionnel — sortir du silence est le premier acte de soin.",
+          "Prendre rendez-vous : médecin, sage-femme ou PMI, cette semaine — pas « quand ça ira mieux ».",
+          "Ne pas rester seule : organiser une présence dans les jours qui viennent."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — traverser en attendant l'aide",
+        "etapes": [
+          "Une chose par jour : une seule, choisie — le reste peut attendre.",
+          "Sortir dix minutes : la lumière et l'air allègent, même s'ils ne soignent pas.",
+          "Manger et boire : la fatigue physique aggrave tout.",
+          "Écrire ce que tu ressens : quelques lignes, sans te relire.",
+          "Accepter de ne pas ressentir : le lien peut être en veille — il reviendra."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Savoir que la forme tardive existe : une dépression périnatale peut apparaître plusieurs mois après la naissance.",
+        "S'appuyer sur les ressources : MonParcoursPsy (séances remboursées après avis d'un médecin), Maman Blues, PMI, psychologue périnatal.",
+        "Impliquer le co-parent : lui donner un rôle précis — les rendez-vous, les nuits, la maison.",
+        "Retenir que cela se soigne : la prise en charge est efficace, et d'autant plus rapide qu'elle est précoce."
+      ],
+      "principe": "Une dépression périnatale peut apparaître tardivement, et elle est alors moins repérée. La nommer et consulter n'est pas un aveu de faiblesse : c'est un soin.",
+      "erreurs_a_eviter": [
+        "Attendre « que ça passe » au-delà de deux semaines.",
+        "Se dire que « ce n'est plus l'excuse du post-partum ».",
+        "Taire les pensées noires par peur du jugement.",
+        "Se juger sur son manque d'élan — c'est un symptôme, pas un trait de caractère."
+      ],
+      "consulter_si": "Consulter si : la tristesse, l'anxiété ou le vide durent plus de deux semaines, presque tous les jours ; si tu ne dors plus même quand bébé dort ; si tu te sens détachée de ton bébé ; si tu as des pensées noires ou l'impression que tout le monde irait mieux sans toi → médecin, sage-femme, PMI ou psychologue périnatal sans attendre. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence.",
+      "source": "Source : ameli.fr (Assurance Maladie) — dépression post-partum : reconnaître les signes et se faire accompagner."
+    }
+  ]
+}

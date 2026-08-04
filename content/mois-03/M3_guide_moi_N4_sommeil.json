@@ -1,0 +1,196 @@
+{
+  "mois": 3,
+  "tranche_age": "3 mois",
+  "categorie": {
+    "id": "sommeil",
+    "nom": "Sommeil",
+    "sous_titre": "Réorganisation, sommeil léger, siestes courtes",
+    "icone": "😴"
+  },
+  "protocoles": [
+    {
+      "categorie": "sommeil",
+      "situation": "Réveils multiples soudains / la grande réorganisation des 3-4 mois",
+      "titre": "La réorganisation du sommeil / ce n'est pas un retour en arrière",
+      "explication": "Vers trois ou quatre mois, le sommeil de ton bébé se réorganise en profondeur : il passe d'un sommeil de nouveau-né à une architecture plus proche de celle de l'adulte, avec des cycles mieux découpés et des passages d'éveil entre chaque cycle. Résultat paradoxal : il se réveille davantage. Ce n'est pas une régression, ce n'est pas une rechute, et ce n'est pas la conséquence de quelque chose que tu aurais mal fait. C'est une maturation — une étape de progrès qui, sur le moment, ressemble exactement à un recul.",
+      "ancrage": "Ce que tu vis n'est pas un retour en arrière : c'est un changement de logiciel. Il est épuisant, il est normal, et il ne demande pas de nouvelle méthode.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — traverser la réorganisation",
+        "etapes": [
+          "Ne rien changer : ce n'est pas le moment d'introduire une nouvelle méthode de sommeil.",
+          "Tenir le cadre : mêmes repères, mêmes horaires approximatifs, même rituel.",
+          "Intervenir par paliers la nuit : voix, puis main posée, puis portage seulement si nécessaire.",
+          "Surveiller la sur-fatigue : elle s'installe vite pendant cette phase et aggrave tout.",
+          "Se relayer : chaque parent un bloc de sommeil continu, à tour de rôle."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : soutenir la phase",
+        "etapes": [
+          "Dans le rituel du soir : toujours au même moment, après le bain.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se donner un horizon : cette phase dure généralement quelques semaines, chaque enfant à son rythme.",
+        "Ne pas chercher de coupable : ni les dents, ni le lait, ni une erreur de ta part.",
+        "Alléger tout le reste : sur cette période, réduire les engagements au strict minimum.",
+        "Accepter l'aide : c'est la phase où le relais compte le plus."
+      ],
+      "principe": "La réorganisation du sommeil est un progrès qui ressemble à un recul. Elle ne se corrige pas — elle se traverse, avec un cadre stable et des parents qui se relaient.",
+      "erreurs_a_eviter": [
+        "Changer de méthode de sommeil en pleine phase — cela ajoute de l'instabilité.",
+        "Laisser pleurer un bébé de trois mois pour « rétablir » les nuits — inefficace et source de stress.",
+        "Repousser le coucher pour qu'il dorme mieux — la sur-fatigue aggrave la phase.",
+        "Conclure que tout ce que tu avais mis en place était faux."
+      ],
+      "consulter_si": "Consulter si : bébé dort très peu au total et ne prend pas de poids, s'il est agité et inconsolable en permanence, s'il est difficile à réveiller pour les prises, ou s'il présente des pauses respiratoires ou une respiration gênée → pédiatre ; le 15 en cas de trouble respiratoire. Si l'épuisement devient dangereux pour toi → PMI, médecin, ou Allo Parents Bébé (0 800 00 34 56).",
+      "source": "Source : ameli.fr (Assurance Maladie) — comment bien coucher un bébé."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Il s'endort bien mais se réveille au moindre bruit / sommeil léger",
+      "titre": "Le sommeil léger / agir sur l'environnement",
+      "explication": "Ton bébé s'endort sans difficulté — puis se réveille au moindre bruit, souvent après vingt à quarante minutes. En fin de cycle, le sommeil devient très léger : c'est le moment où le moindre stimulus le fait basculer dans l'éveil. Le réflexe est d'intervenir, de le reprendre, de le rendormir. Mais l'intervention elle-même le réveille souvent davantage. Le levier le plus efficace n'est pas ce que tu fais quand il se réveille : c'est l'environnement que tu prépares avant — obscurité, bruit de fond constant, température stable.",
+      "ancrage": "Ce n'est pas un défaut de sommeil : c'est une fin de cycle. Ce qui se travaille, c'est la pièce — pas ton intervention.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — préparer l'environnement",
+        "etapes": [
+          "Obscurité réelle : volets fermés, rideaux occultants — la pénombre ne suffit pas toujours.",
+          "Un bruit de fond constant et bas : un ventilateur, un bruit blanc doux — la constance compte plus que le volume, qui reste faible et la source éloignée.",
+          "Température stable : entre 18 et 20 °C.",
+          "Isoler des bruits ponctuels : ce sont les bruits soudains, pas le bruit continu, qui réveillent.",
+          "Attendre avant d'intervenir : une à deux minutes — beaucoup de réveils de fin de cycle se rendorment seuls."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : détendre avant la sieste",
+        "etapes": [
+          "Avant le coucher : bébé calme, sur le dos, lumière tamisée.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne pas vivre en silence absolu : un environnement trop silencieux rend chaque bruit encore plus saillant.",
+        "Coucher au bon moment : un bébé sur-fatigué a un sommeil plus léger et plus fragmenté.",
+        "Ne pas courir après les siestes longues : les cycles s'enchaînent d'eux-mêmes avec la maturation.",
+        "Accepter les siestes en contact : à cet âge, une sieste en portage est une vraie sieste."
+      ],
+      "principe": "On ne rend pas un sommeil moins léger : on réduit ce qui le perturbe. L'environnement fait bien plus que n'importe quelle intervention au moment du réveil.",
+      "erreurs_a_eviter": [
+        "Intervenir dès le premier bruit qu'il émet — c'est souvent l'intervention qui le réveille.",
+        "Imposer un silence absolu dans la maison — cela rend chaque bruit isolé plus perturbant.",
+        "Utiliser un bruit blanc fort ou posé contre le lit — le volume reste bas, la source éloignée.",
+        "Repousser le coucher pour obtenir une sieste plus longue."
+      ],
+      "consulter_si": "Consulter si : bébé dort très peu au total et ne prend pas de poids, s'il est inconsolable, difficile à réveiller pour les prises, ou s'il présente des pauses respiratoires, une respiration bruyante ou gênée → pédiatre ; le 15 en cas de trouble respiratoire. Rappel : couchage sur le dos, matelas ferme, lit vide.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — le sommeil de bébé et le couchage en sécurité."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Il avait fait ses nuits / et tout est reparti en arrière",
+      "titre": "La nuit qui se défait / l'illusion de l'acquis",
+      "explication": "Il avait enchaîné plusieurs nuits complètes. Tu as cru que c'était acquis — et tout s'est défait. C'est l'un des moments les plus décourageants des premiers mois, parce qu'on a goûté au sommeil et qu'on l'a reperdu. Disons-le clairement : à trois mois, aucune nuit n'est acquise. Le sommeil se construit par vagues, avec des avancées et des reculs liés à la maturation, aux poussées, aux acquisitions. Quelques bonnes nuits ne signifient pas que « ça y est » — et leur disparition ne signifie pas que tu as tout perdu.",
+      "ancrage": "Tu n'as rien cassé et tu n'as rien perdu. Les bonnes nuits n'étaient pas un acquis : elles étaient un aperçu. Elles reviendront.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — tenir sans changer de méthode",
+        "etapes": [
+          "Ne rien changer : c'est le pire moment pour tester une nouvelle méthode.",
+          "Revenir aux repères : même rituel, mêmes horaires approximatifs, même ordre.",
+          "Vérifier la journée : sur-fatigue, fenêtres d'éveil trop longues, coucher trop tardif.",
+          "Intervenir par paliers la nuit : voix, main posée, puis portage si nécessaire.",
+          "Se relayer : chacun un bloc de sommeil continu."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : maintenir le repère du soir",
+        "etapes": [
+          "Dans le rituel du coucher : toujours au même moment.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du gros orteil : appui léger et maintenu quelques secondes, sans tirer.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Renoncer à l'idée d'acquis : le sommeil se construit sur des mois, avec des allers-retours.",
+        "Mesurer sur plusieurs semaines : jamais sur deux nuits.",
+        "Ne pas se laisser désorganiser par les conseils extérieurs : « il devrait faire ses nuits » ne repose sur rien à cet âge.",
+        "Protéger ton sommeil : c'est le seul levier réellement sous ton contrôle."
+      ],
+      "principe": "Aucune nuit n'est acquise à trois mois. Le sommeil avance par vagues — et changer de méthode à chaque recul est précisément ce qui allonge la phase.",
+      "erreurs_a_eviter": [
+        "Changer de méthode à chaque mauvaise nuit.",
+        "Laisser pleurer pour « retrouver » les nuits perdues.",
+        "Repousser le coucher pour le fatiguer.",
+        "Se juger sur les nuits de bébé — elles ne mesurent ni ta compétence, ni ta méthode."
+      ],
+      "consulter_si": "Consulter si : bébé dort très peu et ne prend pas de poids, s'il est agité et inconsolable, difficile à réveiller pour les prises, ou s'il présente des pauses respiratoires → pédiatre ; le 15 en cas de trouble respiratoire. Si le manque de sommeil devient dangereux pour toi → médecin, PMI, ou Allo Parents Bébé (0 800 00 34 56).",
+      "source": "Source : Haute Autorité de Santé — prévention des déformations crâniennes positionnelles et de la mort inattendue du nourrisson (fiche mémo)."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Siestes de 20-30 minutes / malgré une fatigue visible",
+      "titre": "Les siestes courtes / ajuster la fenêtre d'éveil",
+      "explication": "Il bâille, il se frotte les yeux, il est visiblement épuisé — et il dort vingt minutes. Cette contradiction apparente est en réalité très logique : à trois mois, un bébé qui dépasse sa fenêtre d'éveil se retrouve en sur-fatigue, avec un système nerveux emballé qui produit des endormissements difficiles et des siestes courtes. Chercher à allonger la sieste ne fonctionne pas. Le levier est en amont : coucher plus tôt, dès les premiers signes, avant que la fatigue ne devienne visible — parce qu'à ce stade, il est déjà trop tard.",
+      "ancrage": "La fatigue visible, c'est déjà la sur-fatigue. Ce qui se travaille n'est pas la durée de la sieste, mais le moment du coucher.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — coucher avant la sur-fatigue",
+        "etapes": [
+          "Repérer les signes précoces : regard qui se perd, mouvements plus lents, léger geignement — avant les bâillements francs.",
+          "Coucher immédiatement : dès ces premiers signes, sans terminer ce que tu faisais.",
+          "Respecter la fenêtre : à trois mois, elle reste courte, souvent autour d'une heure trente, avec des variations.",
+          "Assombrir la pièce : l'obscurité aide autant en journée que la nuit.",
+          "Accepter le réveil : s'il est réveillé et de bonne humeur, la sieste est finie — on ne force pas."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : favoriser la détente avant la sieste",
+        "etapes": [
+          "Avant le coucher : bébé calme, sur le dos, lumière tamisée.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Noter les horaires : quelques jours d'observation suffisent à repérer sa fenêtre propre.",
+        "Protéger la première sieste : c'est souvent la plus longue et la plus réparatrice.",
+        "Ne pas supprimer une sieste de fin de journée : la dette de sommeil hache la nuit.",
+        "Se rappeler que les siestes s'allongent : avec la maturation, chaque enfant à son rythme."
+      ],
+      "principe": "Une sieste courte malgré une fatigue visible est presque toujours une sieste de sur-fatigue. On ne l'allonge pas — on couche plus tôt.",
+      "erreurs_a_eviter": [
+        "Attendre les bâillements francs et les pleurs pour coucher.",
+        "Repousser la sieste en espérant qu'il dorme plus longtemps.",
+        "Réveiller bébé pour « caler » un rythme.",
+        "Utiliser transat, balancelle ou coque pour prolonger la sieste — jamais pour dormir."
+      ],
+      "consulter_si": "Consulter si : bébé dort très peu au total et ne prend pas de poids, s'il est agité et inconsolable, s'il est difficile à réveiller pour les prises, ou s'il présente des pauses respiratoires → pédiatre ou PMI ; le 15 en cas de trouble respiratoire.",
+      "source": "Source : Santé publique France — le couchage sécurisé du nourrisson et la prévention de la mort inattendue du nourrisson."
+    }
+  ]
+}

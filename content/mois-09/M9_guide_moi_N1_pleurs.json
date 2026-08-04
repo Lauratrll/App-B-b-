@@ -1,0 +1,196 @@
+{
+  "mois": 9,
+  "tranche_age": "9 mois",
+  "categorie": {
+    "id": "pleurs",
+    "nom": "Pleurs & frustration",
+    "sous_titre": "Anticipation, nuit, rage, étranger",
+    "icone": "😢"
+  },
+  "protocoles": [
+    {
+      "categorie": "pleurs",
+      "situation": "Pleure quand je prépare mes affaires / il anticipe le départ",
+      "titre": "Il anticipe ton départ / nommer plutôt que ruser",
+      "explication": "Tu prends ton sac, tes clés, ton manteau — et il fond en larmes avant même que tu aies bougé. C'est un progrès considérable : il a appris à lire les signaux qui annoncent ton départ, et il anticipe. La tentation est immense de ruser — préparer ses affaires en cachette, partir pendant qu'il joue, sortir sans un mot. C'est exactement ce qui aggrave la situation : un enfant qui découvre que sa mère peut disparaître sans prévenir devient vigilant en permanence. Nommer ce qui va se passer, même si cela déclenche des pleurs, construit la confiance.",
+      "ancrage": "Il a compris tes gestes : c'est un progrès. Ruser le rendrait vigilant en permanence — nommer, même si cela fait pleurer, construit la confiance.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — nommer ce qui vient",
+        "etapes": [
+          "Annoncer sans détour : « je vais partir travailler, et je reviendrai ce soir » — même s'il pleure.",
+          "Préparer devant lui : ne pas cacher les gestes du départ.",
+          "Un rituel de départ court : une phrase, un baiser, et on part — toujours les mêmes.",
+          "Partir franchement : sans revenir sur ses pas, sans reprendre bébé.",
+          "Nommer le retour : « je suis partie, je suis revenue » — systématiquement, à chaque fois."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : ancrer la sécurité",
+        "etapes": [
+          "Un moment quotidien : bébé sur le dos, éveillé et calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Ta voix pendant le geste : associée au toucher, elle devient un repère de sécurité.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Comprendre ce qu'il a appris : anticiper un départ demande de la mémoire et de la représentation — c'est un progrès.",
+        "Multiplier les micro-séparations : quelques minutes, plusieurs fois par jour, avec un autre adulte.",
+        "Jouer à coucou : l'entraînement direct à la permanence.",
+        "Ne pas éviter les départs : les éviter reporte et aggrave la difficulté."
+      ],
+      "principe": "Ruser fonctionne une fois, puis se retourne contre toi : un enfant qui peut être quitté sans prévenir devient vigilant en permanence. Nommer, c'est ce qui rassure.",
+      "erreurs_a_eviter": [
+        "Préparer ses affaires en cachette ou partir pendant qu'il joue.",
+        "Partir en silence pour éviter les pleurs.",
+        "Prolonger les au revoir ou revenir plusieurs fois.",
+        "Éviter toute séparation pour ne pas le perturber."
+      ],
+      "consulter_si": "Consulter si : bébé ne se calme jamais, même quand tu reviens, ne cherche jamais ton visage ni ta voix, ne réagit pas aux bruits, ne babille pas, ou paraît anormalement mou ou éteint → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Pleurs nocturnes / il te cherche activement",
+      "titre": "Les pleurs de nuit / il te réclame, toi",
+      "explication": "Ses pleurs nocturnes ont changé de nature : il ne pleure plus au hasard, entre deux cycles. Il t'appelle, toi. Il sait que tu existes, que tu es quelque part, et il te réclame. C'est l'angoisse de séparation qui s'exprime la nuit. La réponse qui fonctionne est contre-intuitive : elle doit être brève, pas longue. Une réponse longue — le sortir du lit, le bercer, le nourrir — le réveille complètement et transforme un appel en moment agréable qui se répétera. Une réponse brève, identique et fiable le rassure sans le réveiller.",
+      "ancrage": "Il ne réclame pas à manger : il te réclame, toi. Une réponse brève rassure ; une réponse longue installe l'habitude.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — bref et constant",
+        "etapes": [
+          "Répondre vite, mais brièvement : quelques secondes, une phrase, une main posée.",
+          "Toujours la même phrase : « je suis là, il fait nuit, dors » — mot pour mot.",
+          "Ne pas le sortir du lit : sauf besoin réel.",
+          "Ne pas allumer, ne pas engager : ni parole prolongée, ni jeu.",
+          "Repartir : sans attendre qu'il se rendorme complètement."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : préparer la nuit",
+        "etapes": [
+          "Dans le rituel du soir : toujours au même moment.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Travailler les séparations du jour : les nuits s'allègent quand l'angoisse diurne est travaillée.",
+        "Ne pas nourrir par réflexe : un appel n'est pas une faim.",
+        "Se relayer : chaque parent une moitié de nuit, pour un bloc continu chacun.",
+        "Compter en semaines : cette phase s'atténue à mesure que la permanence se construit."
+      ],
+      "principe": "La nuit, il t'appelle — il ne réclame pas un repas. Brève et constante, la réponse rassure ; longue et agréable, elle s'installe.",
+      "erreurs_a_eviter": [
+        "Le sortir du lit et le bercer longuement à chaque réveil.",
+        "Le nourrir systématiquement pour le rendormir.",
+        "Allumer la lumière ou engager un échange.",
+        "Changer de réponse chaque nuit."
+      ],
+      "consulter_si": "Consulter si : bébé se réveille en hurlant de façon inconsolable, présente de la fièvre, refuse de boire, ne prend pas de poids, ou présente des pauses respiratoires, une respiration bruyante ou un ronflement important → pédiatre ; le 15 en cas de trouble respiratoire.",
+      "source": "Source : Institut national du sommeil et de la vigilance — le sommeil de l'enfant de 0 à 3 ans ; ameli.fr — sommeil de l'enfant, étapes et évolution."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Frustration sur un objet hors d'atteinte / pleurs de rage",
+      "titre": "L'objet hors d'atteinte / soutenir d'un cran",
+      "explication": "Il veut l'objet, il tend le bras, il rampe — et il n'y arrive pas. La rage est totale. Sa volonté dépasse désormais largement sa portée, et cet écart est le moteur même de son développement. Ton rôle n'est ni de résoudre à sa place — ce qui supprimerait l'apprentissage —, ni de le laisser s'épuiser jusqu'à l'effondrement. C'est de soutenir l'effort d'un cran : rapprocher l'objet de quelques centimètres, juste assez pour que le succès redevienne possible. Le succès qu'il obtient seul vaut mille fois celui que tu lui donnes.",
+      "ancrage": "Rapproche l'objet d'un cran — jamais complètement. Le succès qu'il obtient seul vaut mille fois celui que tu lui donnes.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — soutenir d'un cran",
+        "etapes": [
+          "Rapprocher de quelques centimètres : juste assez pour que l'effort redevienne possible.",
+          "Nommer ce qu'il vit : « tu le veux et tu n'y arrives pas, c'est rageant ».",
+          "Ne pas donner l'objet : cela met fin à l'apprentissage et à la fierté.",
+          "Rester à côté, calme : ta présence tranquille l'aide à tenir l'effort.",
+          "Le libérer avant l'effondrement : quand la rage devient détresse, on change d'activité."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : redescendre après la frustration",
+        "etapes": [
+          "Une fois la crise passée : bébé sur le dos, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Aménager le sol : un grand espace dégagé, des objets à bonne distance, aucune entrave.",
+        "Limiter l'immobilisation : pas plus d'une heure d'affilée en transat, poussette, coque ou siège.",
+        "Doser les sessions : la fatigue transforme l'effort en détresse.",
+        "Ne jamais l'installer dans une position qu'il n'atteint pas seul."
+      ],
+      "principe": "Résoudre à sa place supprime l'apprentissage. Le geste juste est de rapprocher l'objet d'un cran — assez pour que l'effort reste possible, pas assez pour le rendre inutile.",
+      "erreurs_a_eviter": [
+        "Donner l'objet dès qu'il s'énerve.",
+        "Retirer tous les objets pour lui éviter la frustration.",
+        "Le caler assis ou le mettre debout pour « faciliter ».",
+        "Laisser la crise s'installer jusqu'à l'épuisement."
+      ],
+      "consulter_si": "Consulter si : bébé ne se déplace d'aucune façon vers dix mois, ne tend jamais la main vers un objet, paraît anormalement mou ou raide, s'il perd une compétence acquise, ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre ou PMI, qui orientera si nécessaire.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'activité physique du tout-petit et l'exploration de bébé."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Hurle devant un visage inconnu / peur de l'étranger",
+      "titre": "La peur de l'étranger / protéger sans excuser",
+      "explication": "Un visage inconnu s'approche, et il hurle. Cette peur est un progrès cognitif : il a mémorisé les visages familiers, et il distingue désormais ce qui n'en fait pas partie. Ce n'est pas de la timidité, ce n'est pas un défaut de sociabilité, et cela ne se corrige pas. Deux erreurs sont fréquentes et symétriques : le forcer au contact « pour qu'il s'habitue », et s'excuser de sa réaction devant la personne. Ce dont il a besoin, c'est de rester contre toi, d'observer, et de venir de lui-même — s'il vient.",
+      "ancrage": "Sa peur est un progrès de la mémoire, pas un défaut de caractère. Tu n'as ni à le pousser, ni à t'excuser.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — protéger",
+        "etapes": [
+          "Le garder contre toi : il observe depuis sa base sûre, sans être exposé.",
+          "Demander à la personne de ralentir : ne pas le fixer, ne pas tendre les bras d'emblée.",
+          "Laisser la rencontre passer par un objet : un jouet tendu, un sourire, sans contact direct.",
+          "Nommer ce qu'il vit : « tu ne le connais pas, tu as le droit d'être prudent ».",
+          "Ne jamais forcer : ni bras tendus, ni « fais un sourire »."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : après la rencontre",
+        "etapes": [
+          "Une fois au calme : bébé sur le dos, dans une pièce silencieuse.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne pas s'excuser : « il fait la différence, c'est bon signe » suffit — l'excuse le présente comme un problème.",
+        "Familiariser progressivement : plusieurs rencontres courtes valent mieux qu'une longue.",
+        "Prévenir avant les visites : quelques mots suffisent pour éviter les gestes brusques.",
+        "Se rappeler que cela passe : la phase s'atténue au fil des mois, chaque enfant à son rythme."
+      ],
+      "principe": "La peur de l'étranger est un progrès de la mémoire. Ton rôle est d'être la base sûre — pas de pousser au contact, ni de t'excuser de lui.",
+      "erreurs_a_eviter": [
+        "Forcer bébé à aller dans les bras d'un inconnu.",
+        "S'excuser de sa réaction ou le présenter comme « difficile ».",
+        "Le laisser seul avec une personne qu'il ne connaît pas, sans transition.",
+        "Insister pour obtenir un sourire."
+      ],
+      "consulter_si": "Consulter si : bébé ne sourit à personne, y compris à toi, ne fixe pas les visages, ne réagit pas aux bruits, ne babille pas, ne cherche jamais le contact, ou paraît anormalement mou ou éteint → pédiatre ou PMI.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+    }
+  ]
+}

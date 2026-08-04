@@ -1,0 +1,196 @@
+{
+  "mois": 11,
+  "tranche_age": "11 mois",
+  "categorie": {
+    "id": "parent",
+    "nom": "Parents submergés",
+    "sous_titre": "Anniversaire, sevrage, fatigue, temps",
+    "icone": "🫶"
+  },
+  "protocoles": [
+    {
+      "categorie": "parent",
+      "situation": "La pression du premier anniversaire / faire beau, faire bien",
+      "titre": "La pression de l'anniversaire / il ne s'en souviendra pas",
+      "explication": "Le gâteau, le thème, la décoration, les photos, les invités, le cadeau parfait. La pression du premier anniversaire est réelle, et elle est absurde : il ne s'en souviendra pas. Cette fête sert aux adultes — à célébrer une année de survie, à montrer qu'on s'en est sorti, parfois à répondre à une attente familiale. Ce n'est pas illégitime. Mais l'exigence peut être allégée sans rien perdre : ce qui compte pour lui, ce n'est ni le gâteau ni le décor, c'est que la journée reste tenable.",
+      "ancrage": "Il ne s'en souviendra pas. Cette fête est pour toi — alors fais-la à ta mesure, pas à celle des réseaux.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — alléger l'exigence",
+        "etapes": [
+          "Renoncer à une chose : le gâteau maison, le thème, la décoration — une seule, choisie.",
+          "Réduire la liste d'invités : peu de monde, et des gens qu'il connaît.",
+          "Un format court : une à deux heures.",
+          "Ne pas courir après la photo : la chercher fait souvent rater le moment.",
+          "Se donner le droit de ne rien faire : une journée ordinaire est une option parfaitement valable."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — se protéger",
+        "etapes": [
+          "Trois respirations lentes : quand la pression monte.",
+          "Déléguer une partie : le gâteau, les courses, le rangement.",
+          "Se rappeler pourquoi : cette fête célèbre aussi ce que tu as traversé.",
+          "Un moment à toi après : la fête finie, quelque chose de simple, rien que pour toi.",
+          "Accepter l'imparfait : une fête simple est une fête réussie."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se méfier des réseaux : ils fabriquent une norme qui n'existe pas.",
+        "Répondre simplement à l'entourage : « on fait quelque chose de très simple ».",
+        "Protéger la sieste : elle prime sur tout le reste.",
+        "Se rappeler que la journée est pour lui aussi : et lui n'a besoin que de calme."
+      ],
+      "principe": "Il ne se souviendra de rien. Cette fête sert aux adultes — et elle peut être allégée sans rien perdre de ce qu'elle célèbre.",
+      "erreurs_a_eviter": [
+        "Se mettre une pression de perfection pour un enfant qui ne s'en souviendra pas.",
+        "Sacrifier la sieste ou le rythme pour la fête.",
+        "Se comparer aux fêtes vues sur les réseaux.",
+        "Recevoir trop de monde."
+      ],
+      "consulter_si": "Consulter si : la pression et l'épuisement s'accompagnent d'une tristesse qui dure plus de deux semaines, d'insomnies, d'une perte d'intérêt, ou de pensées noires → médecin, sage-femme, PMI ou psychologue périnatal. En cas de pensées suicidaires : 3114.",
+      "source": "Source : ameli.fr (Assurance Maladie) — dépression post-partum : reconnaître les signes et se faire accompagner."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Ambivalence du sevrage / soulagement et tristesse mêlés",
+      "titre": "L'ambivalence du sevrage / les deux émotions coexistent",
+      "explication": "Tu es soulagée de récupérer ton corps — et tu pleures en donnant la dernière tétée. Ces deux émotions ne se contredisent pas : elles coexistent, et elles sont toutes les deux vraies. Le sevrage remue beaucoup plus qu'une question d'alimentation : il touche au corps, à l'identité, à la fin d'une exclusivité, parfois au sentiment que quelque chose se termine pour toujours. Aucune de ces émotions n'a besoin d'être justifiée, ni auprès de toi-même, ni auprès de qui que ce soit.",
+      "ancrage": "Soulagement et tristesse coexistent, et les deux sont vrais. Aucun des deux n'a besoin d'être justifié.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — laisser coexister",
+        "etapes": [
+          "Nommer les deux : « je suis soulagée et je suis triste » — les deux, en même temps.",
+          "Ne pas se justifier : ni le soulagement, ni la tristesse.",
+          "En parler à quelqu'un : cette ambivalence est très fréquente et rarement dite.",
+          "Se donner du temps : les hormones changent, et l'humeur avec — c'est physiologique.",
+          "Ne pas se juger : vouloir arrêter n'a rien à voir avec l'amour que tu lui portes."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — traverser",
+        "etapes": [
+          "Garder un moment de contact : le sevrage retire une tétée, pas un lien.",
+          "Un rituel de remplacement : le même moment, le même contact, sans le lait.",
+          "Trois respirations lentes : quand l'émotion monte.",
+          "Écrire ce que tu ressens : quelques lignes, sans te relire.",
+          "Prendre soin de ton corps : il traverse un changement réel."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Savoir que l'humeur peut fluctuer : la baisse hormonale du sevrage peut s'accompagner d'une tristesse passagère.",
+        "Distinguer tristesse et dépression : une tristesse qui dure plus de deux semaines, une perte d'intérêt ou des pensées noires demandent un avis.",
+        "Se faire accompagner : sage-femme, consultante en lactation (IBCLC), PMI.",
+        "Retenir que le lien ne se retire pas avec la tétée."
+      ],
+      "principe": "Le sevrage touche au corps et à l'identité, pas seulement à l'alimentation. Soulagement et tristesse coexistent — et aucun des deux n'a besoin d'excuse.",
+      "erreurs_a_eviter": [
+        "Se justifier de vouloir arrêter.",
+        "Nier la tristesse ou nier le soulagement.",
+        "Se juger sur son envie d'arrêter.",
+        "Traverser cela seule, en silence."
+      ],
+      "consulter_si": "Consulter si : la tristesse dure plus de deux semaines, si elle s'accompagne d'une perte d'intérêt, d'insomnies, d'un sentiment de vide, ou de pensées noires → médecin, sage-femme, PMI ou psychologue périnatal : la dépression périnatale peut aussi survenir au moment du sevrage. En cas de pensées suicidaires : 3114.",
+      "source": "Source : Haute Autorité de Santé — « Allaitement maternel : mise en œuvre et poursuite » ; 1000-premiers-jours.fr — l'allaitement au fil des mois."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Un an de fatigue accumulée / le corps commence à lâcher",
+      "titre": "Un an de dette / c'est un enjeu de santé",
+      "explication": "Un an de nuits fragmentées. Et maintenant, le corps parle : douleurs, infections à répétition, migraines, tension, oublis. Une dette de sommeil d'une année n'est pas une fatigue ordinaire : elle a des effets physiques réels, et elle ne se rattrape pas par la volonté. C'est un enjeu de santé, au même titre qu'une maladie chronique — et cela se traite comme tel : par des relais organisés, un avis médical, et l'arrêt du mythe selon lequel il suffirait de « tenir encore un peu ».",
+      "ancrage": "Un an de dette de sommeil est un enjeu de santé, pas une question de volonté. Cela se traite — et cela commence par un avis médical.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — traiter comme un enjeu de santé",
+        "etapes": [
+          "Prendre rendez-vous : un médecin, pour parler de ta fatigue — elle est un motif de consultation légitime.",
+          "Organiser un vrai relais nocturne : chaque parent une nuit complète, à tour de rôle.",
+          "Bloquer du sommeil : trois heures continues, à heure fixe, chaque semaine.",
+          "Repérer les signaux d'alerte : somnolence au volant, oublis répétés, infections à répétition.",
+          "Ne pas conduire en état de somnolence : c'est un danger réel."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — récupérer",
+        "etapes": [
+          "S'allonger dix minutes : même sans dormir.",
+          "Trois respirations lentes : expiration plus longue que l'inspiration.",
+          "Sortir dehors : la lumière du jour régule ton propre sommeil.",
+          "Manger vraiment : la fatigue s'aggrave d'une alimentation sautée.",
+          "Réduire les écrans le soir : ils retardent ton endormissement."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Renoncer au mythe du rattrapage : le sommeil se rembourse lentement, par la régularité.",
+        "Faire vérifier : une fatigue qui persiste peut aussi avoir une cause médicale — anémie, thyroïde — qui se dépiste simplement.",
+        "Utiliser les relais : PMI, sage-femme, Allo Parents Bébé (0 800 00 34 56).",
+        "Retenir que ce n'est pas un manque de volonté : c'est de la physiologie."
+      ],
+      "principe": "Un an de dette de sommeil a des effets physiques réels. Ce n'est pas une question de volonté : c'est un enjeu de santé, et il se traite.",
+      "erreurs_a_eviter": [
+        "Attendre une hypothétique grasse matinée.",
+        "Conduire en état de somnolence.",
+        "Refuser l'aide proposée.",
+        "Prendre la fatigue pour une preuve d'incompétence."
+      ],
+      "consulter_si": "Consulter si : la fatigue s'accompagne d'une tristesse qui dure plus de deux semaines, d'infections à répétition, de douleurs persistantes, d'une impossibilité de dormir même quand l'enfant dort, d'une perte d'intérêt, de pensées noires, ou si tu ressens de la somnolence au volant → médecin sans attendre. En cas de pensées suicidaires : 3114.",
+      "source": "Source : ameli.fr (Assurance Maladie) — dépression post-partum : reconnaître les signes et se faire accompagner."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Course permanente entre travail et maison / plus une minute pour moi",
+      "titre": "La course permanente / un créneau à soi est une condition",
+      "explication": "Réveil, crèche, travail, crèche, repas, bain, coucher, ménage, et recommencer. L'agenda est saturé, et il ne reste pas une minute. Dans ce contexte, protéger un créneau pour soi n'est pas un luxe qu'on s'accorde quand tout le reste est fait — c'est une condition pour tenir. Il ne se trouvera jamais tout seul : il se prend, il se met à l'agenda, et il se défend. Et il n'a pas besoin d'être long : trente minutes tenues chaque semaine valent mieux qu'une journée rêvée qui n'arrive jamais.",
+      "ancrage": "Le temps ne se trouvera pas : il se prend. Trente minutes tenues valent mieux qu'une journée rêvée qui n'arrive jamais.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — protéger un créneau",
+        "etapes": [
+          "Le mettre à l'agenda : un créneau daté, non négociable — comme un rendez-vous médical.",
+          "Commencer petit : trente minutes par semaine.",
+          "Demander précisément : « peux-tu le garder jeudi de 18h à 19h ».",
+          "Le défendre : il ne cède ni au ménage, ni aux courses, ni à la fatigue.",
+          "Ne pas s'excuser : ce temps n'a pas à être justifié."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — récupérer",
+        "etapes": [
+          "Trois respirations lentes : plusieurs fois par jour.",
+          "Sortir dehors : même dix minutes entre deux tâches.",
+          "Renoncer à une tâche : chaque jour, une seule — le ménage attendra.",
+          "Un moment sans utilité : sans objectif, sans productivité — c'est le but.",
+          "S'arrêter dès que c'est possible : sans attendre d'y avoir droit."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Partager la charge mentale : la course s'allège d'abord par la répartition.",
+        "Renoncer à la maison parfaite : elle n'existe pas et elle ne nourrit personne.",
+        "Se méfier de l'attente du « bon moment » : il n'arrivera pas.",
+        "Distinguer épuisement et dépression : une tristesse durable ou des pensées noires demandent un avis."
+      ],
+      "principe": "Un créneau à soi n'est pas un luxe : c'est une condition pour tenir. Il ne se trouve pas — il se prend, se date, et se défend.",
+      "erreurs_a_eviter": [
+        "Attendre d'avoir le temps.",
+        "Sacrifier son créneau pour une tâche ménagère.",
+        "S'excuser de prendre du temps pour soi.",
+        "Viser un grand projet plutôt qu'un petit temps tenu."
+      ],
+      "consulter_si": "Consulter si : l'épuisement s'accompagne d'une tristesse qui dure plus de deux semaines, d'insomnies même quand l'enfant dort, d'une perte d'intérêt, d'irritabilité permanente, ou de pensées noires → médecin, sage-femme, PMI ou psychologue périnatal. En cas de pensées suicidaires : 3114.",
+      "source": "Source : ameli.fr (Assurance Maladie) — dépression post-partum : reconnaître les signes et se faire accompagner."
+    }
+  ]
+}

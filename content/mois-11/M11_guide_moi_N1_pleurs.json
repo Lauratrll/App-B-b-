@@ -1,0 +1,195 @@
+{
+  "mois": 11,
+  "tranche_age": "11 mois",
+  "categorie": {
+    "id": "pleurs",
+    "nom": "Pleurs & frustration",
+    "sous_titre": "Opposition, épuisement, habillage, sevrage",
+    "icone": "😢"
+  },
+  "protocoles": [
+    {
+      "categorie": "pleurs",
+      "situation": "Pleurs d'opposition / il refuse et hurle pour tout",
+      "titre": "L'opposition qui pointe / la naissance du « je »",
+      "explication": "Il refuse tout : le change, le repas, la sortie, le manteau. Il hurle, se cambre, dit non de tout son corps. Ce n'est pas un problème d'éducation, et ce n'est pas une régression : c'est la naissance du « je ». Il découvre qu'il est une personne distincte, avec une volonté propre — et il teste cette découverte sur tout ce qui passe. C'est un progrès psychique majeur, et c'est épuisant. Le cadre reste nécessaire, mais il se tient sans bras de fer : on n'éduque pas une volonté naissante, on l'accompagne.",
+      "ancrage": "Son opposition n'est pas dirigée contre toi : elle signe la découverte qu'il est quelqu'un. Le cadre tient — le bras de fer, lui, ne sert à rien.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — tenir sans lutter",
+        "etapes": [
+          "Offrir des choix limités : « le pull rouge ou le bleu » — deux options, jamais une question ouverte.",
+          "Réserver le « non » au danger réel : un « non » utilisé partout perd tout son sens.",
+          "Nommer sa colère : « tu ne veux pas, tu es fâché » — la validation apaise sans céder.",
+          "Tenir la limite calmement : sans discours, sans négociation, sans hausser le ton.",
+          "Ne pas céder après la crise : cela apprendrait que la crise fonctionne."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : redescendre après la crise",
+        "etapes": [
+          "Une fois la vague passée : l'enfant sur le dos, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Comprendre l'enjeu : l'opposition est le signe qu'une personne se construit — c'est une bonne nouvelle, même si elle épuise.",
+        "Réduire le nombre d'occasions de conflit : anticiper, aménager, prévenir plutôt que d'interdire.",
+        "Ne jamais taper ni punir : la violence, même légère, n'enseigne rien et abîme le lien.",
+        "Se relayer : ces phases usent, et le relais fait partie du protocole."
+      ],
+      "principe": "L'opposition signe la naissance du « je », pas un défaut d'éducation. Le cadre se tient calmement — et le bras de fer, lui, n'apprend rien à personne.",
+      "erreurs_a_eviter": [
+        "Entrer en bras de fer sur chaque refus.",
+        "Multiplier les interdits sur des choses sans danger.",
+        "Céder après la crise pour la faire cesser.",
+        "Taper, punir ou humilier."
+      ],
+      "consulter_si": "Consulter si : les crises deviennent quotidiennes et inconsolables, si l'enfant se cogne volontairement la tête de façon répétée, s'il se blesse, ou si tu sens ta colère devenir difficile à contenir → pédiatre, PMI, ou Allo Parents Bébé (0 800 00 34 56).",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Pleurs d'épuisement après ses premiers pas / le corps a trop donné",
+      "titre": "L'épuisement de la marche / le corps a beaucoup donné",
+      "explication": "Depuis qu'il se lance, il s'effondre en larmes en fin de journée, sans raison apparente. L'apprentissage de la marche consomme une énergie considérable : chaque pas mobilise l'équilibre, la concentration, des muscles tout neufs. Son corps donne énormément, et il n'a pas les mots pour dire qu'il est vidé. Le réflexe est de compenser par de la stimulation — jouer, sortir, distraire. C'est l'inverse : ce qui doit être réajusté, ce sont les temps de repos, pas les activités.",
+      "ancrage": "Il n'est pas capricieux : il est vidé. Ce qui se réajuste, ce sont les temps de repos — jamais les stimulations.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — réajuster le repos",
+        "etapes": [
+          "Avancer le coucher : de vingt à trente minutes pendant cette phase.",
+          "Protéger les siestes : elles redeviennent cruciales pendant l'apprentissage de la marche.",
+          "Réduire les sorties : une activité par jour suffit largement.",
+          "Baisser la stimulation du soir : lumière, bruit, jeux excitants.",
+          "Accepter les pleurs de fin de journée : ils sont la facture d'un corps qui a beaucoup donné."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : détendre un corps fatigué",
+        "etapes": [
+          "En fin de journée : l'enfant sur le dos, dans le calme.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes — ils travaillent beaucoup en ce moment.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne pas ajouter de stimulation : ce n'est pas d'activité qu'il manque, c'est de repos.",
+        "S'attendre à des nuits perturbées : chaque grand acquis moteur agite le sommeil.",
+        "Compter en semaines : cette phase intense dure le temps que la marche s'assure.",
+        "Laisser beaucoup de temps au sol : il s'entraîne, et cela le fatigue autant que cela le construit."
+      ],
+      "principe": "L'apprentissage de la marche consomme une énergie énorme. Ce qui se réajuste, ce sont les temps de repos — ajouter des activités ne fait qu'aggraver l'effondrement.",
+      "erreurs_a_eviter": [
+        "Compenser sa fatigue par une sortie ou une activité.",
+        "Supprimer une sieste parce qu'il « bouge beaucoup ».",
+        "Repousser le coucher.",
+        "Interpréter ses pleurs comme un caprice."
+      ],
+      "consulter_si": "Consulter si : l'enfant paraît anormalement fatigué en permanence, s'il perd des compétences acquises, s'il refuse de se déplacer alors qu'il le faisait, s'il boite, ou s'il paraît pâle et sans énergie → pédiatre ou médecin traitant.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'activité physique du tout-petit."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Il hurle quand on l'habille / chaque geste devient un combat",
+      "titre": "L'habillage / transformer la contrainte en coopération",
+      "explication": "L'habillage est devenu une lutte quotidienne : il se cambre, hurle, se débat. Rester immobile pendant qu'un adulte agit sur son corps est devenu insupportable — précisément parce qu'il vient de découvrir qu'il a une volonté. Le maintenir plus fermement ne fait qu'aggraver. Ce qui désamorce : lui rendre une part de contrôle. Un choix limité — deux vêtements, deux ordres possibles — et un jeu transforment une contrainte subie en action partagée. Il ne s'oppose pas à l'habillage : il s'oppose à la passivité.",
+      "ancrage": "Il ne refuse pas le pull : il refuse de subir. Un choix limité lui rend le contrôle — et la lutte s'arrête.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — offrir un choix",
+        "etapes": [
+          "Deux options, pas plus : « le pull bleu ou le rouge » — jamais une question ouverte.",
+          "Le faire participer : « tends ton bras », « pousse ton pied » — un rôle actif.",
+          "En faire un jeu : « où est passée ta main ? » — l'attention se déplace.",
+          "Aller vite : un habillage efficace vaut mieux qu'un habillage parfait.",
+          "Habiller debout ou au sol : plutôt que couché, qui est désormais insupportable."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — sortir du rapport de force",
+        "etapes": [
+          "Annoncer chaque geste : la prévisibilité réduit l'opposition.",
+          "Le laisser bouger : il n'a pas besoin d'être immobile.",
+          "Ta voix, en continu : chanter, raconter — occuper autrement que par la contrainte.",
+          "Terminer par un moment agréable : quelques secondes de contact.",
+          "S'arrêter si cela dégénère : reposer, souffler, reprendre dans deux minutes."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Anticiper : habiller quand il est calme, pas juste après un jeu excitant.",
+        "Réduire les couches de vêtements : moins il y a de gestes, moins il y a de conflit.",
+        "Passer le relais : le co-parent a souvent une autre dynamique.",
+        "Se rappeler que c'est une étape : elle passe, et elle revient à d'autres âges."
+      ],
+      "principe": "Il ne s'oppose pas au vêtement : il s'oppose à la passivité. Lui rendre un choix limité transforme la contrainte en coopération.",
+      "erreurs_a_eviter": [
+        "Le maintenir de force pour finir l'habillage.",
+        "Poser une question ouverte : « tu veux quoi ? » — elle ouvre la porte au refus total.",
+        "Transformer l'habillage en affrontement quotidien.",
+        "Le gronder pour son refus."
+      ],
+      "consulter_si": "Consulter si : l'enfant pleure de douleur à l'habillage de façon répétée, si tu observes une gêne quand tu mobilises ses bras, ses hanches ou ses jambes, une asymétrie, ou une raideur permanente → pédiatre ou médecin traitant."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "Pleurs au moment du sevrage / la tétée lui manque",
+      "titre": "Le sevrage / c'est un rituel qu'on retire, pas seulement du lait",
+      "explication": "Tu réduis les tétées, et il pleure — bien au-delà de la faim. C'est logique : une tétée n'est pas seulement un repas. C'est un moment de contact, de réconfort, de retrouvailles, souvent le rituel d'endormissement. En la retirant, tu retires un aliment et un rituel. Ce qui rend le sevrage douloureux, c'est de retirer le second sans le remplacer. Ce qui l'adoucit : construire un nouveau moment — même durée, même contact, même place dans la journée — avant de supprimer l'ancien.",
+      "ancrage": "Une tétée n'est pas qu'un repas : c'est un rituel. Remplace le moment, pas seulement le lait.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — remplacer le moment",
+        "etapes": [
+          "Construire le nouveau rituel d'abord : même heure, même durée, même contact — avant de retirer la tétée.",
+          "Un contact équivalent : un câlin dans le même fauteuil, une histoire, une berceuse.",
+          "Retirer une seule tétée à la fois : jamais deux, et jamais brutalement.",
+          "Attendre plusieurs jours : entre chaque retrait, pour que le corps et le lien s'ajustent.",
+          "Garder les tétées les plus chargées pour la fin : celle du soir et celle du matin s'enlèvent en dernier."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : le nouveau rituel",
+        "etapes": [
+          "À la place de la tétée retirée : toujours au même moment.",
+          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Aucune date imposée : le sevrage se fait quand vous le décidez, toi et lui — pas quand l'entourage l'exige.",
+        "Protéger ton corps : un sevrage trop rapide expose à l'engorgement — en parler à une sage-femme ou une consultante en lactation (IBCLC).",
+        "Accueillir ton ambivalence : soulagement et tristesse coexistent très souvent.",
+        "Le lait reste nécessaire : au moins 500 ml par jour de lait maternel ou de lait de suite jusqu'à un an."
+      ],
+      "principe": "Le sevrage retire un aliment et un rituel. C'est le second qui fait la douleur — et c'est lui qui doit être remplacé, avant que l'ancien ne disparaisse.",
+      "erreurs_a_eviter": [
+        "Supprimer plusieurs tétées à la fois.",
+        "Sevrer brutalement — douloureux pour lui, risqué pour ton corps.",
+        "Se laisser imposer une date par l'entourage.",
+        "Retirer d'abord la tétée du soir — c'est la plus chargée."
+      ],
+      "consulter_si": "Consulter si : un sein devient rouge, dur et douloureux avec de la fièvre, si l'enfant refuse de boire, ne prend pas de poids, ou si le sevrage s'accompagne chez toi d'une tristesse durable ou de pensées noires → sage-femme, consultante en lactation (IBCLC), médecin ou PMI. En cas de pensées suicidaires : 3114.",
+      "source": "Source : Haute Autorité de Santé — « Allaitement maternel : mise en œuvre et poursuite » ; 1000-premiers-jours.fr — l'allaitement au fil des mois."
+    }
+  ]
+}

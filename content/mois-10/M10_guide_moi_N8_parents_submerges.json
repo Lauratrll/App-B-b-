@@ -1,0 +1,196 @@
+{
+  "mois": 10,
+  "tranche_age": "10 mois",
+  "categorie": {
+    "id": "parent",
+    "nom": "Parents submergés",
+    "sous_titre": "Identité, saturation, charge, réparation",
+    "icone": "🫶"
+  },
+  "protocoles": [
+    {
+      "categorie": "parent",
+      "situation": "Je ne sais plus qui je suis / mon identité a disparu",
+      "titre": "L'identité absorbée / reconstruire un espace à soi",
+      "explication": "Tu es devenue « la maman de ». Tes conversations, ton temps, ton corps, tes pensées — tout est absorbé par le rôle. Et un jour tu réalises que tu ne sais plus ce que tu aimes, ce que tu veux, qui tu es en dehors de lui. Cette dissolution est extrêmement fréquente et rarement dite, parce qu'elle semble ingrate. Elle ne l'est pas. Reconstruire un espace à soi — même minuscule, même dérisoire — n'est pas de l'égoïsme : c'est ce qui permet de tenir dans la durée.",
+      "ancrage": "Se reconstruire un espace n'est pas de l'égoïsme : c'est ce qui permet de tenir. Même minuscule, même dérisoire.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — un espace minuscule",
+        "etapes": [
+          "Identifier une chose qui est à toi : un livre, une marche, une conversation, une activité — une seule.",
+          "La protéger : trente minutes, une fois par semaine, non négociables.",
+          "Demander concrètement : « peux-tu le garder jeudi de 18h à 19h » — précis, daté.",
+          "Ne pas viser grand : un petit espace tenu vaut mieux qu'un grand projet abandonné.",
+          "Ne pas s'excuser : ce temps n'a pas à être justifié."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — se retrouver",
+        "etapes": [
+          "Faire une chose sans utilité : sans objectif, sans productivité — c'est le but.",
+          "Se reconnecter au corps : marcher, s'étirer, respirer.",
+          "Écrire trois lignes : ce que tu aimais avant, ce qui te manque.",
+          "Parler d'autre chose : une conversation où le bébé n'est pas le sujet.",
+          "S'arrêter dès que c'est possible : sans attendre d'y avoir droit."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Nommer la dissolution : elle est fréquente, elle se dit, et elle n'a rien d'ingrat.",
+        "Impliquer le co-parent : ce temps se négocie, il ne se quémande pas.",
+        "Se méfier de l'attente du « bon moment » : il n'arrivera pas — il se prend.",
+        "Distinguer dissolution et dépression : une perte d'intérêt pour tout, une tristesse durable ou des pensées noires demandent un avis."
+      ],
+      "principe": "Reconstruire un espace à soi n'est pas de l'égoïsme : c'est une condition pour tenir. Même minuscule, il doit être protégé — et il ne se justifie pas.",
+      "erreurs_a_eviter": [
+        "Attendre d'avoir le temps ou l'énergie — ils ne viendront pas seuls.",
+        "S'excuser de prendre du temps pour soi.",
+        "Refuser une aide proposée par culpabilité.",
+        "Se juger sur son manque d'élan."
+      ],
+      "consulter_si": "Consulter si : la perte d'identité s'accompagne d'une tristesse qui dure plus de deux semaines, d'une perte d'intérêt pour tout, d'insomnies même quand bébé dort, ou de pensées noires → médecin, sage-femme, PMI ou psychologue périnatal. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence.",
+      "source": "Source : ameli.fr (Assurance Maladie) — dépression post-partum : reconnaître les signes et se faire accompagner."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Je ne supporte plus le bruit / saturation sensorielle",
+      "titre": "Ta saturation sensorielle / elle est réelle",
+      "explication": "Les cris, les jouets sonores, la télévision, les pleurs, les questions, le bruit de fond permanent — et un jour, tu ne supportes plus rien. Cette saturation sensorielle parentale est réelle, physiologique, et très rarement nommée. Elle produit de l'irritabilité, une envie de fuir, parfois des réactions disproportionnées dont on s'en veut ensuite. La reconnaître change tout : ce n'est pas un défaut de patience, c'est un système nerveux saturé. Et un système nerveux saturé a besoin de pauses, pas de volonté.",
+      "ancrage": "Ta saturation est physiologique, pas un défaut de patience. Un système nerveux saturé a besoin de pauses — pas d'efforts.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — organiser des pauses",
+        "etapes": [
+          "Repérer tes signaux : irritabilité qui monte, envie de fuir, sensation d'être agressée par le bruit.",
+          "Couper le bruit de fond : éteindre la télévision, la radio, les jouets sonores — tout ce qui n'est pas nécessaire.",
+          "Une pause sensorielle : cinq minutes dans le silence, seule, avant que la tension n'explose.",
+          "Poser bébé en sécurité : et sortir de la pièce — cela n'est jamais un abandon.",
+          "Demander le relais : avant le point de rupture, pas après."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — faire redescendre",
+        "etapes": [
+          "Trois respirations lentes : expiration plus longue que l'inspiration.",
+          "Le silence, même bref : cinq minutes sans aucun son.",
+          "Passer les mains sous l'eau froide : un geste simple qui aide le corps à redescendre.",
+          "Sortir dehors : même deux minutes.",
+          "Baisser les stimulations chez toi aussi : moins d'écrans, moins de notifications."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retirer les jouets sonores : ils saturent l'enfant autant que toi.",
+        "Zéro écran, pour lui comme en fond : cela allège l'environnement sonore de toute la maison.",
+        "Nommer ta saturation : au co-parent, sans culpabilité — elle est légitime.",
+        "Ne jamais secouer, ni crier fort dans les oreilles : si la tension monte, poser bébé et sortir."
+      ],
+      "principe": "La saturation sensorielle parentale est réelle. Elle se traite par des pauses et par une baisse du bruit — jamais par un effort de volonté supplémentaire.",
+      "erreurs_a_eviter": [
+        "Serrer les dents en attendant que ça passe.",
+        "Laisser la télévision ou les jouets sonores en fond.",
+        "Attendre le point de rupture pour demander un relais.",
+        "Se juger sur son manque de patience."
+      ],
+      "consulter_si": "Consulter si : la saturation s'accompagne d'une irritabilité permanente, d'une tristesse qui dure plus de deux semaines, d'insomnies, ou de pensées noires → médecin, sage-femme, PMI ou psychologue périnatal. Si tu ressens l'envie de secouer ton bébé ou si tu as peur de tes réactions → poser bébé en sécurité, sortir de la pièce, appeler Allo Parents Bébé (0 800 00 34 56) ou le 15. En cas de pensées suicidaires : 3114.",
+      "source": "Source : Haute Autorité de Santé — recommandation « Syndrome du bébé secoué ou traumatisme crânien non accidentel par secouement »."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Charge mentale de la garde / tout organiser, tout anticiper",
+      "titre": "La charge mentale de la garde / un travail invisible",
+      "explication": "Les vêtements de rechange, les couches, le mot pour l'absence, le paiement, les horaires, l'adaptation, le doudou oublié, le rendez-vous du pédiatre à caler entre deux. La logistique de la garde est un travail à part entière, il est invisible, et il repose presque toujours sur la même personne. « Aide-moi » ne fonctionne pas : cela laisse la charge de la répartition à celle qui la porte déjà. Ce qui fonctionne : rendre la liste visible, et transférer des domaines entiers, avec la charge d'y penser incluse.",
+      "ancrage": "Ce n'est pas de l'aide qu'il te faut : c'est un transfert. Un domaine entier, charge d'y penser comprise.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — nommer et répartir",
+        "etapes": [
+          "Écrire la liste complète : tout ce que la garde implique, y compris tout ce qui demande d'y penser.",
+          "Répartir par domaines : « tu prends le lien avec la crèche » plutôt que « tu déposes demain ».",
+          "Transférer la charge d'y penser : celui qui prend le domaine le gère de bout en bout, sans rappel.",
+          "Accepter que ce soit fait autrement : différent n'est pas moins bien.",
+          "Ne pas reprendre : dès que tu reprends, la charge te revient entièrement."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — désamorcer",
+        "etapes": [
+          "Choisir le moment : jamais dans la fatigue du soir.",
+          "Parler en « je » : « je suis épuisée de penser à tout ».",
+          "Un point hebdomadaire : dix minutes pour ajuster — cela évite l'accumulation.",
+          "Reconnaître ce qui est fait : le partage tient mieux quand il n'est pas qu'un reproche.",
+          "S'arrêter si le ton monte : reprendre plus tard."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se méfier du perfectionnisme : exiger que ce soit fait à ta façon annule le partage.",
+        "Rendre la liste visible : affichée, partagée — l'invisible ne se partage pas.",
+        "Envisager un accompagnement : conseil conjugal, accompagnement du couple.",
+        "Retenir que la charge mentale est un sujet de santé : elle épuise autant que le manque de sommeil."
+      ],
+      "principe": "La logistique de la garde est un travail invisible. Elle ne se soulage pas par de l'aide ponctuelle : elle se transfère par domaines entiers, charge d'y penser incluse.",
+      "erreurs_a_eviter": [
+        "Demander « aide-moi ».",
+        "Reprendre une tâche déléguée parce qu'elle n'est pas faite à ta façon.",
+        "Attendre l'explosion pour poser le sujet.",
+        "Tenir le compte des efforts de chacun."
+      ],
+      "consulter_si": "Consulter si : l'épuisement s'accompagne d'une tristesse qui dure plus de deux semaines, d'insomnies même quand bébé dort, d'une perte d'intérêt, d'irritabilité permanente ou de pensées noires → médecin, sage-femme, PMI ou psychologue périnatal. En cas de pensées suicidaires : 3114.",
+      "source": "Source : ameli.fr (Assurance Maladie) — dépression post-partum : reconnaître les signes et se faire accompagner."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Je m'en veux de m'être énervé(e) / réparer après un dérapage",
+      "titre": "Après un dérapage / la réparation compte plus que la perfection",
+      "explication": "Tu as crié, tu as serré son bras un peu fort, tu as claqué une porte. Et depuis, tu t'en veux. Disons-le sans détour : cela arrive à beaucoup de parents épuisés, et cela ne fait pas de toi un mauvais parent. Ce qui construit la sécurité d'un enfant, ce n'est pas l'absence de ratés — c'est la réparation qui suit. Revenir vers lui, nommer, réparer. Et ensuite, regarder ce qui a mené au débordement : la fatigue, l'isolement, la saturation. Car un dérapage est un symptôme, pas une identité.",
+      "ancrage": "La réparation compte plus que la perfection. Un dérapage est un symptôme, pas une identité — et il se répare.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — réparer",
+        "etapes": [
+          "Revenir vers lui : dès que tu es redescendu.e, sans attendre.",
+          "Nommer simplement : « j'ai crié, je suis désolée, ce n'était pas de ta faute ».",
+          "Rétablir le contact : le prendre, le tenir, sans en faire trop.",
+          "Ne pas se justifier auprès de lui : la réparation n'est pas une explication.",
+          "Regarder ce qui a mené là : fatigue, isolement, saturation — c'est cela qui se traite."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — se remettre debout",
+        "etapes": [
+          "Trois respirations lentes : expiration plus longue que l'inspiration.",
+          "Nommer ce que tu ressens : la honte se desserre quand elle est dite.",
+          "En parler à quelqu'un : au co-parent, à une amie, à un professionnel.",
+          "Ne pas ruminer seule : la rumination aggrave, elle ne répare pas.",
+          "Se rappeler l'essentiel : c'est le retour vers lui qui compte, pas l'absence de raté."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir le principe : c'est la réparation, pas la perfection, qui construit la sécurité.",
+        "Traiter la cause : un dérapage signale des réserves épuisées, pas un défaut de caractère.",
+        "Connaître le protocole : si la tension monte, poser bébé en sécurité et sortir de la pièce.",
+        "Ne jamais secouer, frapper ou serrer fort : les lésions cérébrales peuvent être irréversibles."
+      ],
+      "principe": "Ce qui construit la sécurité d'un enfant, ce n'est pas l'absence de ratés : c'est le retour. Nommer, réparer, puis regarder ce qui a mené au débordement.",
+      "erreurs_a_eviter": [
+        "Ruminer seule sans en parler.",
+        "Se convaincre que « ça n'arrivera plus » sans rien changer.",
+        "Taire ce qui s'est passé par honte.",
+        "S'effondrer dans la culpabilité au lieu de réparer."
+      ],
+      "consulter_si": "Consulter si : tu ressens l'envie de secouer ton bébé, si tu as peur de tes propres réactions, ou si tu te sens submergé.e au point de ne plus pouvoir répondre à lui → poser bébé en sécurité, appeler un proche, Allo Parents Bébé (0 800 00 34 56), ou le 15. Si tu penses avoir secoué ton bébé, même légèrement : appeler le 15 immédiatement, même sans symptôme. En cas de pensées suicidaires : 3114.",
+      "source": "Source : Haute Autorité de Santé — recommandation « Syndrome du bébé secoué ou traumatisme crânien non accidentel par secouement »."
+    }
+  ]
+}

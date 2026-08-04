@@ -52,6 +52,46 @@
 
 ---
 
+## Règle du « jamais » — réserver l'interdit au danger réel ⭐
+
+Le mot **« jamais »** (et les tournures « ne pas », « interdit », « il ne faut surtout pas ») est **strict, il fait peur et il culpabilise**. Il a sa place **uniquement sur les vrais dangers vitaux ou graves**. Partout ailleurs, on formule **en positif** : ce qui aide, ce qui est conseillé, ce qui est mieux.
+
+### « Jamais / ne pas » AUTORISÉ (dangers vitaux ou graves)
+
+Réservé à une liste courte et stable de risques réels :
+
+- **secouer** le bébé (syndrome du bébé secoué)
+- **miel** avant un an (botulisme infantile)
+- **collier d'ambre** (étouffement, strangulation)
+- **gel anesthésiant / lidocaïne** avant deux ans
+- **aliments à risque d'étouffement** (raisin entier, fruits à coque, morceaux ronds ou durs)
+- **laisser seul en hauteur** (table à langer, lit, canapé) ou **seul dans l'eau** (baignoire, seau, piscine)
+- **piles boutons**, produits ménagers, médicaments à portée
+- **couchage sécurisé tant que la mort inattendue du nourrisson est un enjeu** (à plat sur le dos, sans surélévation, lit vide) — **ces consignes restent fermes sur les petits mois** ; on ne les allège que sur le grand bébé mobile, et seulement quand le sujet du protocole n'a rien à voir avec le couchage.
+- **médicament donné sans avis médical**
+
+### Formulation POSITIVE ailleurs (développement, confort, habitudes, alimentation hors étouffement)
+
+Sur tout ce qui ne relève pas d'un danger grave — motricité, chaussures, brossage, textures, portage, sommeil, opposition, etc. — on **conseille**, on ne **proscrit** pas.
+
+| ❌ Trop strict, culpabilisant | ✅ Positif, conseillé |
+|------------------------------|----------------------|
+| « Jamais de chaussures pour apprendre » | « Pour apprendre à marcher, le pied nu reste ce qu'il y a de mieux » |
+| « Ne jamais caler bébé assis » | « Mieux vaut le laisser au sol, libre de trouver sa position » |
+| « Il ne faut surtout pas forcer le brossage » | « On apprivoise en douceur, à ton rythme, sans forcer » |
+| « Interdit de tenir ses mains pour marcher » | « Le laisser se déséquilibrer seul l'aide davantage » |
+| « Ne jamais donner de purée lisse une fois les morceaux acceptés » | « Une fois les morceaux acceptés, autant continuer à les proposer » |
+
+### Cas particulier : le cadre de sécurité (`consulter_si`)
+
+Dans le champ `consulter_si`, une tournure comme « ne pose **jamais** le talon » est **acceptable** : elle décrit un **signe d'alerte objectif** à repérer, elle ne culpabilise pas le parent. Le « jamais » descriptif d'un symptôme est autorisé.
+
+### En résumé
+
+Avant d'écrire « jamais » ou « ne pas », se poser une seule question : **est-ce un danger vital ou grave ?** Si oui, le « jamais » protège — on le garde. Si non, on reformule en « ce qui aide / ce qui est conseillé / mieux vaut ».
+
+---
+
 ## Règles de tutoiement
 
 **L'app tutoie systématiquement le parent.**
