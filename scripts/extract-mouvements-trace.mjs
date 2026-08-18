@@ -389,7 +389,9 @@ const GEN_ZONES = [
   // trop » qui se superposait au début, parcours plus court, geste plus lent.
   { id: "zone-estomac-g", side: "left", brush: 34, loopsDiv: 26, rhFactor: 2.6, duree: 6000 },
   { id: "zone-foie-d", side: "left", brush: 26, loopsDiv: 20, duree: 8600 },
-  { id: "zone-rate-g", side: "right", brush: 26, loopsDiv: 20, duree: 8600 },
+  // Rate (pied gauche) : sens GROS ORTEIL → EXTÉRIEUR, en partant d'en bas sur le
+  // bord côté gros orteil (x bas = côté centre). (demande Laura)
+  { id: "zone-rate-g", side: "left", brush: 26, loopsDiv: 20, duree: 8600 },
 ];
 for (const z of GEN_ZONES) {
   sortie[z.id] = { d: bouclesGen(z.id, z), brush: z.brush, passages: 3, duree: z.duree, traineeOp: 0.75 };
