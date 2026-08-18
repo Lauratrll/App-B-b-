@@ -149,12 +149,14 @@ for (const id of ["zone-thyroide-d", "zone-thyroide-g"]) {
   }
 }
 
-// AMYGDALES (demande Laura) : 3 passages, avec retour à la transparence entre
-// chaque et 0,5 s de pause entre les mouvements.
+// AMYGDALES (demande Laura) : 3 passages. Entre chaque, la zone REDEVIENT
+// transparente (fond compris) et reste vide un court instant, pour bien voir
+// les 3 passages distincts.
 for (const id of ["zone-amygdales-d", "zone-amygdales-g"]) {
   if (sortie[id]) {
     sortie[id].passages = 3;
-    sortie[id].efface = 500;
+    sortie[id].efface = 900;
+    sortie[id].effaceTransparent = true;
   }
 }
 

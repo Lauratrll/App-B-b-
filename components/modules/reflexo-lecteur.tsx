@@ -178,6 +178,9 @@ type GeomTrace = {
   traineeOp: number;
   /** Pause entre deux passages (ms), si réglée à part (ex. amygdales 500). */
   efface?: number;
+  /** La zone REDEVIENT transparente (fond compris) entre passages, puis reste
+   *  vide un court instant — pour bien distinguer les passages (ex. amygdales). */
+  effaceTransparent?: boolean;
 };
 type Geom = GeomGlisse | GeomTrace;
 const estTrace = (g: Geom): g is GeomTrace => "d" in g;
@@ -314,6 +317,9 @@ type Anim =
       stride: number;
       /** Pause (effacement) entre deux passages (ms) — réglable par zone (thyroïde). */
       efface: number;
+      /** Entre passages, le FOND de la zone redevient transparent (pas seulement la
+       *  traînée) et reste vide un court instant — pour distinguer les passages. */
+      effaceTransparent: boolean;
       /**
        * Gros intestin enchaîné : une fois son passage fini, ce pied RESTE COLORIÉ
        * pendant que l'autre pied joue, puis les DEUX pieds retrouvent leur
@@ -1141,6 +1147,7 @@ export function ReflexoLecteur({
           let passages: number;
           let enchaine = false;
           let effacePause = GLISSE_T_EFFACE; // pause entre passages (réglable par zone)
+          let effaceTransparent = false; // fond de zone remis à transparent entre passages
           if (estTrace(geom)) {
             traineeD = geom.d;
             brush = geom.brush;
@@ -1149,6 +1156,7 @@ export function ReflexoLecteur({
             fingerR = Math.max(10, brush * 0.42);
             passages = geom.passages || 3;
             effacePause = geom.efface ?? GLISSE_T_EFFACE; // pause entre passages (amygdales)
+            effaceTransparent = geom.effaceTransparent === true;
           } else {
             if (geom.pts.length <= 1) {
               anims.push({ kind: "reveal", groupe: ci });
@@ -1245,6 +1253,7 @@ export function ReflexoLecteur({
             total,
             stride,
             efface: effacePause,
+            effaceTransparent,
             enchaine,
             withinOffset,
             roundActiveEnd: accEnch, // fin de tous les passages du tour (avant la pause)
@@ -1458,11 +1467,21 @@ export function ReflexoLecteur({
             a.trainee.setAttribute("opacity", k > 0.004 ? String(a.trOp) : "0");
           }
         } else {
-          // EFFACEMENT de la traînée avant le passage suivant (forme au repos).
+          // EFFACEMENT de la traînée avant le passage suivant.
           const e = Math.min((t - durAct) / a.efface, 1);
           a.doigt.setAttribute("opacity", "0");
-          a.trainee.setAttribute("opacity", String(a.trOp * (1 - e)));
-          a.groupe.el.style.opacity = String(OP_REPOS);
+          if (a.effaceTransparent) {
+            // La zone REDEVIENT vraiment transparente (traînée ET fond) sur les
+            // ~55 % premiers de la pause, puis reste VIDE le temps restant — un
+            // moment « à zéro » nettement visible entre les 3 passages (amygdales).
+            const clear = Math.min(e / 0.55, 1);
+            a.trainee.setAttribute("opacity", String(a.trOp * (1 - clear)));
+            a.groupe.el.style.opacity = String(OP_REPOS * (1 - clear));
+          } else {
+            // Effacement de la traînée seule ; la forme reste au repos (OP_REPOS).
+            a.trainee.setAttribute("opacity", String(a.trOp * (1 - e)));
+            a.groupe.el.style.opacity = String(OP_REPOS);
+          }
         }
       } else if (a.kind === "urinaire") {
         // COMPOSITE : maintenue vessie → glissée lente → maintenue rein, ×passages.
