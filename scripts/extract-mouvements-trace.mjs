@@ -391,7 +391,7 @@ const GEN_ZONES = [
   { id: "zone-foie-d", side: "left", brush: 26, loopsDiv: 20, duree: 8600 },
   // Rate (pied gauche) : sens GROS ORTEIL → EXTÉRIEUR, départ bord bas côté gros
   // orteil. Doigt plus GROS (brush) → MOINS de boucles. (demande Laura)
-  { id: "zone-rate-g", side: "left", brush: 38, loopsDiv: 28, minLoops: 3, duree: 8600 },
+  { id: "zone-rate-g", side: "left", brush: 38, loopsDiv: 28, minLoops: 3, duree: 5000 },
 ];
 for (const z of GEN_ZONES) {
   sortie[z.id] = { d: bouclesGen(z.id, z), brush: z.brush, passages: 3, duree: z.duree, traineeOp: 0.75 };
