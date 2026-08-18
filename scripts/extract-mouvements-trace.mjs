@@ -181,6 +181,20 @@ for (const [id, p] of Object.entries(SU)) {
   nb++;
 }
 
+// OREILLES : glissé de l'orteil du MILIEU vers le PETIT (base des 4e-5e orteils),
+// à travers les 2 zones d'oreille. 2 s pour la partie milieu, 2 s pour la partie
+// petit (la ligne traverse les 2 zones, mi-parcours entre les deux), 3 passages,
+// 0,5 s de pause + retour à la transparence entre chaque. (demande Laura)
+// Points calés sur le centre des 2 formes, décalés vers l'extérieur de chacune.
+const OREILLES = {
+  "zone-oreilles-d": "M 287.6 228.9 L 203.4 325.6", // milieu (haut, x haut) → petit (bas)
+  "zone-oreilles-g": "M 976.4 228.9 L 1060.6 325.6",
+};
+for (const [id, d] of Object.entries(OREILLES)) {
+  sortie[id] = { d, brush: 50, passages: 3, duree: 4000, efface: 500, traineeOp: 0.75 };
+  nb++;
+}
+
 // INTESTIN GRÊLE : « cercles avancés » (boucles-progressives), PAS une spirale
 // (la spirale est réservée au bassin — CONSIGNES §14 quinquies). Le rail des
 // petits cercles qui avancent est PRÉCALCULÉ et validé dans RAILS_zones.json
