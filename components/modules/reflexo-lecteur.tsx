@@ -101,6 +101,13 @@ const SINUS_DUR_PETIT = 4000;
 const SINUS_PAUSE = 500;
 const SINUS_ALLERS = 2; // 2 aller-retours (→ 4 demi-parcours)
 
+// Nez — travail en CROIX : d'abord la barre VERTICALE (haut → bas, 2 s), puis
+// la barre HORIZONTALE (extérieur du gros orteil → intérieur du pied, 2 s),
+// 0,5 s de pause, et on refait la croix — 3 fois en tout. (Laura)
+const NEZ_BARRE = 2000; // durée d'une barre de la croix
+const NEZ_PAUSE = 500;
+const NEZ_ROUNDS = 3; // la croix est faite 3 fois
+
 const GLISSE_T_EFFACE = 550; // effacement de la traînée entre 2 passages
 const GLISSE_T_FIN = 1200; // temps de maintien de l'état figé avant reprise
 const GLISSE_SEUIL_FIN = 0.82; // au-delà, le dernier passage fige la couleur
@@ -185,6 +192,15 @@ function pointSurMediane(m: PreparedMidline, k: number): { x: number; y: number;
   };
 }
 type PreparedMidline = { pts: number[][]; cum: number[]; total: number };
+
+// Inverse le sens d'un sous-tracé « M x y L x y … » (points en ordre inverse).
+function inverserD(d: string): string {
+  const nums = d.match(/-?\d*\.?\d+/g)?.map(Number) ?? [];
+  const pts: number[][] = [];
+  for (let i = 0; i + 1 < nums.length; i += 2) pts.push([nums[i], nums[i + 1]]);
+  pts.reverse();
+  return "M " + pts.map((p) => `${p[0]} ${p[1]}`).join(" L ");
+}
 
 // Ordre des orteils GROS → PETIT à partir des formes (le gros orteil est la plus
 // grande, à une extrémité de la rangée). Renvoie les indices dans cet ordre.
@@ -322,6 +338,8 @@ type Anim =
   | { kind: "dents"; segments: DentSeg[] }
   // Sinus : orteil par orteil, va-et-vient le long du bord supérieur de l'orteil.
   | { kind: "sinus"; toes: SinusToe[] }
+  // Nez : travail en croix (barre verticale puis horizontale), 3 fois.
+  | { kind: "nez"; croix: NezCroix[] }
   // Zones tracé sans géométrie encore branchée : coloriage progressif seul.
   | { kind: "reveal"; groupe: CibleInfo };
 
@@ -340,6 +358,15 @@ type UrinairePoint = {
   cx: number;
   cy: number;
   ondes: { el: SVGCircleElement; r0: number; decalage: number }[];
+};
+
+// Une croix « nez » (un pied) : barre verticale + barre horizontale + un doigt.
+type NezCroix = {
+  vTrail: SVGPathElement;
+  vLen: number;
+  hTrail: SVGPathElement;
+  hLen: number;
+  doigt: SVGCircleElement;
 };
 
 // Un orteil « sinus » : le doigt fait un va-et-vient le long de son bord supérieur.
@@ -699,6 +726,54 @@ export function ReflexoLecteur({
         const nbOrteils = Math.max(1, ...toes.map((t) => t.ordre + 1));
         stepDurRef.current =
           SINUS_DUR_GROS + (nbOrteils - 1) * SINUS_DUR_PETIT + nbOrteils * SINUS_PAUSE;
+        t0Ref.current = performance.now();
+        return;
+      }
+
+      // NEZ — travail en CROIX : barre verticale (haut → bas) puis horizontale
+      // (extérieur du gros orteil → intérieur du pied), 0,5 s de pause, ×3.
+      const aNez = s.cibles.some((c) => c.includes("zone-nez"));
+      if (aNez && defs && !reducedMotion) {
+        const croix: NezCroix[] = [];
+        for (const f of ["d", "g"] as const) {
+          const ci = info.get(`zone-nez-${f}`);
+          const geom = geomRef.current[`zone-nez-${f}`];
+          if (!ci || !geom || !estTrace(geom)) continue;
+          ci.el.style.display = "";
+          ci.el.style.opacity = String(OP_REPOS);
+          const subs = geom.d.split(/(?=M)/).map((d) => d.trim()).filter(Boolean);
+          if (subs.length < 2) continue;
+          const brush = geom.brush;
+          // Horizontale = extérieur → intérieur : les tracés vont de x bas → x haut ;
+          // pour le pied GAUCHE (intérieur = x bas), on inverse le sens.
+          const vD = subs[0];
+          const hD = f === "g" ? inverserD(subs[1]) : subs[1];
+          const mk = (d: string) => {
+            const trail = document.createElementNS(NS, "path");
+            trail.setAttribute("d", d);
+            trail.setAttribute("fill", "none");
+            trail.setAttribute("stroke", ci.fill);
+            trail.setAttribute("stroke-width", String(brush));
+            trail.setAttribute("stroke-linecap", "round");
+            trail.setAttribute("opacity", "0");
+            gOver.appendChild(trail);
+            const len = trail.getTotalLength();
+            trail.style.strokeDasharray = String(len);
+            trail.style.strokeDashoffset = String(len);
+            return { trail, len };
+          };
+          const v = mk(vD);
+          const h = mk(hD);
+          const doigt = document.createElementNS(NS, "circle");
+          doigt.setAttribute("r", String(Math.max(8, brush * 0.4)));
+          doigt.setAttribute("fill", ci.fill);
+          doigt.setAttribute("opacity", "0");
+          gOver.appendChild(doigt);
+          croix.push({ vTrail: v.trail, vLen: v.len, hTrail: h.trail, hLen: h.len, doigt });
+        }
+        anims.push({ kind: "nez", croix });
+        animsRef.current = anims;
+        stepDurRef.current = NEZ_ROUNDS * (2 * NEZ_BARRE + NEZ_PAUSE);
         t0Ref.current = performance.now();
         return;
       }
@@ -1583,6 +1658,54 @@ export function ReflexoLecteur({
             const reveal = Math.min(1, phase);
             toe.trail.style.strokeDashoffset = String(toe.trailLen * (1 - reveal));
             toe.trail.setAttribute("opacity", String(toe.trOp));
+          }
+        }
+      } else if (a.kind === "nez") {
+        // NEZ — croix : barre VERTICALE (haut→bas, 2 s) puis HORIZONTALE
+        // (extérieur→intérieur, 2 s), 0,5 s de pause, refaite 3 fois.
+        const roundLen = 2 * NEZ_BARRE + NEZ_PAUSE;
+        const round = Math.floor(elapsed / roundLen);
+        if (round >= NEZ_ROUNDS) {
+          for (const c of a.croix) {
+            c.vTrail.style.strokeDashoffset = "0";
+            c.vTrail.setAttribute("opacity", String(OP_FIN));
+            c.hTrail.style.strokeDashoffset = "0";
+            c.hTrail.setAttribute("opacity", String(OP_FIN));
+            c.doigt.setAttribute("opacity", "0");
+          }
+        } else {
+          const tIn = elapsed - round * roundLen;
+          for (const c of a.croix) {
+            if (tIn < NEZ_BARRE) {
+              // Barre verticale (haut → bas). L'horizontale est cachée ce tour.
+              const k = tIn / NEZ_BARRE;
+              const pt = c.vTrail.getPointAtLength(c.vLen * k);
+              c.doigt.setAttribute("cx", String(pt.x));
+              c.doigt.setAttribute("cy", String(pt.y));
+              c.doigt.setAttribute("opacity", "1");
+              c.vTrail.style.strokeDashoffset = String(c.vLen * (1 - k));
+              c.vTrail.setAttribute("opacity", String(OP_TRAINEE));
+              c.hTrail.setAttribute("opacity", "0");
+              c.hTrail.style.strokeDashoffset = String(c.hLen);
+            } else if (tIn < 2 * NEZ_BARRE) {
+              // Barre horizontale ; la verticale reste tracée.
+              const k = (tIn - NEZ_BARRE) / NEZ_BARRE;
+              const pt = c.hTrail.getPointAtLength(c.hLen * k);
+              c.doigt.setAttribute("cx", String(pt.x));
+              c.doigt.setAttribute("cy", String(pt.y));
+              c.doigt.setAttribute("opacity", "1");
+              c.hTrail.style.strokeDashoffset = String(c.hLen * (1 - k));
+              c.hTrail.setAttribute("opacity", String(OP_TRAINEE));
+              c.vTrail.style.strokeDashoffset = "0";
+              c.vTrail.setAttribute("opacity", String(OP_TRAINEE));
+            } else {
+              // Pause : la croix reste visible, doigt caché.
+              c.doigt.setAttribute("opacity", "0");
+              c.vTrail.style.strokeDashoffset = "0";
+              c.vTrail.setAttribute("opacity", String(OP_TRAINEE));
+              c.hTrail.style.strokeDashoffset = "0";
+              c.hTrail.setAttribute("opacity", String(OP_TRAINEE));
+            }
           }
         }
       } else {
