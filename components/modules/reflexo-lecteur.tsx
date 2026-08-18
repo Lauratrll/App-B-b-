@@ -53,8 +53,12 @@ const ONDE_OP = 0.38;
 // Un orteil à la fois (gros → petit), 3 tours par orteil ; l'orteil se colorie
 // au passage du doigt (traînée plus transparente car le doigt repasse 3 fois),
 // se fige à 0.90 en fin de parcours, puis on passe au suivant.
-const CIRC_T_ORTEIL_MAX = 5000; // durée du PLUS GRAND orteil (gros orteil) ; les
-// autres orteils sont plus courts, ∝ à la longueur de leur tracé (vitesse constante).
+// Durée d'un orteil : interpolée entre MIN (petit orteil) et MAX (gros orteil)
+// selon la longueur de son tracé. Le gros orteil dure 5 s ; les petits orteils
+// gardent un « juste milieu » (~4 s) plutôt qu'une durée proportionnelle qui les
+// rendrait trop rapides.
+const CIRC_T_ORTEIL_MIN = 4000; // durée du plus PETIT orteil
+const CIRC_T_ORTEIL_MAX = 5000; // durée du plus GRAND orteil (gros orteil)
 const CIRC_T_PAUSE = 500; // respiration entre deux orteils
 const CIRC_SEUIL_FIN = 0.78; // à partir d'où l'orteil se fige (fondu croisé)
 const CIRC_OP_TRAINEE = 0.6; // traînée plus transparente (repassages, §3)
@@ -464,9 +468,11 @@ export function ReflexoLecteur({
             gOver.removeChild(tmp);
             return { d, len, mid };
           });
-          // Vitesse constante : la durée d'un orteil est ∝ à la longueur de son
-          // tracé, calée pour que le PLUS GRAND orteil dure CIRC_T_ORTEIL_MAX.
+          // Durée d'un orteil interpolée entre MIN (petit) et MAX (gros) selon la
+          // longueur de son tracé : le gros orteil = 5 s, le petit ≈ 4 s.
           const lenMax = traces.reduce((m, t) => Math.max(m, t.len), 0) || 1;
+          const lenMin = traces.reduce((m, t) => Math.min(m, t.len), Infinity);
+          const lenSpan = lenMax - lenMin || 1;
           const usedFill = new Set<number>();
           const orteils: Orteil[] = [];
           for (const tr of traces) {
@@ -489,7 +495,7 @@ export function ReflexoLecteur({
             if (best >= 0) usedFill.add(best);
             const bb = (fill as SVGGraphicsElement).getBBox();
             const rmax = (Math.max(bb.width, bb.height) / 2) * 1.15;
-            const fingerR = Math.max(8, rmax * 0.5);
+            const fingerR = Math.max(9, rmax * 0.55); // doigt très légèrement agrandi
             fill.style.opacity = String(OP_REPOS);
             // Clip du tracé/doigt sur la forme de l'orteil.
             const clip = document.createElementNS(NS, "clipPath");
@@ -523,7 +529,9 @@ export function ReflexoLecteur({
               trailLen: tr.len,
               doigt,
               fingerR,
-              dur: CIRC_T_ORTEIL_MAX * (tr.len / lenMax),
+              dur:
+                CIRC_T_ORTEIL_MIN +
+                (CIRC_T_ORTEIL_MAX - CIRC_T_ORTEIL_MIN) * ((tr.len - lenMin) / lenSpan),
             });
           }
           anims.push({ kind: "circulaire", groupe: ci, orteils });
