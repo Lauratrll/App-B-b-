@@ -509,12 +509,31 @@ export function ReflexoLecteur({
             const id = `zone-dents-machoire-${jaw}-${f}`;
             const ci = info.get(id);
             const geom = geomRef.current[id];
-            if (!ci || !geom || !estTrace(geom)) continue;
+            if (!ci || !geom || !estTrace(geom) || !defs) continue;
             ci.el.style.display = "";
             ci.el.style.opacity = String(OP_REPOS); // dents en filigrane
-            const brush = geom.brush;
+            // Chaque dent est une forme REMPLIE (petites, tailles variables). On
+            // dimensionne le doigt et la brosse d'après la VRAIE taille de chaque
+            // dent, et on clippe le coloriage sur sa forme → doigt adapté, pas de
+            // débordement. (demande Laura : doigt plus petit que la zone.)
+            const dents = Array.from(ci.el.querySelectorAll<SVGGraphicsElement>("path"));
             const subs = geom.d.split(/(?=M)/).map((d) => d.trim()).filter(Boolean);
             subs.forEach((d, toe) => {
+              const dent = dents[toe];
+              const bb = dent ? dent.getBBox() : null;
+              const dentMin = bb ? Math.min(bb.width, bb.height) : 24;
+              const brush = Math.max(12, dentMin * 1.4); // remplit l'épaisseur de la dent (clippé)
+              const fingerR = Math.max(5, dentMin * 0.32); // doigt nettement plus petit que la dent
+              let clipId = "";
+              if (dent) {
+                const clip = document.createElementNS(NS, "clipPath");
+                clipId = `rfxclip-dent-${f}-${jaw}-${toe}`;
+                clip.setAttribute("id", clipId);
+                const cp = document.createElementNS(NS, "path");
+                cp.setAttribute("d", dent.getAttribute("d") || "");
+                clip.appendChild(cp);
+                defs.appendChild(clip);
+              }
               const trail = document.createElementNS(NS, "path");
               trail.setAttribute("d", d);
               trail.setAttribute("fill", "none");
@@ -522,14 +541,16 @@ export function ReflexoLecteur({
               trail.setAttribute("stroke-width", String(brush));
               trail.setAttribute("stroke-linecap", "round");
               trail.setAttribute("stroke-linejoin", "round");
+              if (clipId) trail.setAttribute("clip-path", `url(#${clipId})`);
               trail.setAttribute("opacity", "0");
               gOver.appendChild(trail);
               const trailLen = trail.getTotalLength();
               trail.style.strokeDasharray = String(trailLen);
               trail.style.strokeDashoffset = String(trailLen);
               const doigt = document.createElementNS(NS, "circle");
-              doigt.setAttribute("r", String(Math.max(10, brush * 0.42)));
+              doigt.setAttribute("r", String(fingerR));
               doigt.setAttribute("fill", ci.fill);
+              if (clipId) doigt.setAttribute("clip-path", `url(#${clipId})`);
               doigt.setAttribute("opacity", "0");
               gOver.appendChild(doigt);
               segments.push({ trail, trailLen, doigt, jaw, toe, trOp: OP_TRAINEE });
