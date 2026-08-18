@@ -344,7 +344,7 @@ function bouclesGen(id, opt) {
   const xL = x0 + mX, xR = x0 + w - mX;
   const ycAt = (x) => (interpCol(C.prof, x, 1) + interpCol(C.prof, x, 2)) / 2;
   const RyAt = (x) => Math.max(5, (interpCol(C.prof, x, 2) - interpCol(C.prof, x, 1)) / 2 - mIn);
-  const loops = Math.max(4, Math.round((xR - xL) / opt.loopsDiv));
+  const loops = Math.max(opt.minLoops ?? 4, Math.round((xR - xL) / opt.loopsDiv));
   const a = (xR - xL) / (2 * Math.PI * loops);
   // Amplitude horizontale des boucles : 4·a par défaut (boucles bien croisées) ;
   // réglable par zone (rhFactor plus petit = moins de retour en arrière / de
@@ -389,9 +389,9 @@ const GEN_ZONES = [
   // trop » qui se superposait au début, parcours plus court, geste plus lent.
   { id: "zone-estomac-g", side: "left", brush: 34, loopsDiv: 26, rhFactor: 2.6, duree: 6000 },
   { id: "zone-foie-d", side: "left", brush: 26, loopsDiv: 20, duree: 8600 },
-  // Rate (pied gauche) : sens GROS ORTEIL → EXTÉRIEUR, en partant d'en bas sur le
-  // bord côté gros orteil (x bas = côté centre). (demande Laura)
-  { id: "zone-rate-g", side: "left", brush: 26, loopsDiv: 20, duree: 8600 },
+  // Rate (pied gauche) : sens GROS ORTEIL → EXTÉRIEUR, départ bord bas côté gros
+  // orteil. Doigt plus GROS (brush) → MOINS de boucles. (demande Laura)
+  { id: "zone-rate-g", side: "left", brush: 38, loopsDiv: 28, minLoops: 3, duree: 8600 },
 ];
 for (const z of GEN_ZONES) {
   sortie[z.id] = { d: bouclesGen(z.id, z), brush: z.brush, passages: 3, duree: z.duree, traineeOp: 0.75 };
