@@ -210,40 +210,6 @@ function inverserD(d: string): string {
   return "M " + pts.map((p) => `${p[0]} ${p[1]}`).join(" L ");
 }
 
-// Croix « nez » dérivée de la VRAIE forme de la zone (2 branches remplies) :
-// barre VERTICALE = la colonne x de plus grande étendue verticale ; barre
-// HORIZONTALE = la ligne y de plus grande étendue horizontale. → la croix colle
-// exactement à la zone donnée.
-function croixNez(el: SVGGraphicsElement): {
-  vx: number; vTop: number; vBot: number; hy: number; hLeft: number; hRight: number;
-} {
-  const paths = Array.from(el.querySelectorAll("path")) as SVGGeometryElement[];
-  const bb = el.getBBox();
-  const svg = el.ownerSVGElement;
-  const pt = svg ? svg.createSVGPoint() : null;
-  const fill = (x: number, y: number) => {
-    if (!pt) return false;
-    pt.x = x;
-    pt.y = y;
-    return paths.some((p) => p.isPointInFill(pt));
-  };
-  let vx = bb.x, vTop = bb.y, vBot = bb.y + bb.height, bestH = -1;
-  for (let x = bb.x; x <= bb.x + bb.width; x += 2) {
-    let ymin: number | null = null, ymax = 0;
-    for (let y = bb.y; y <= bb.y + bb.height; y += 2)
-      if (fill(x, y)) { if (ymin === null) ymin = y; ymax = y; }
-    if (ymin !== null && ymax - ymin > bestH) { bestH = ymax - ymin; vx = x; vTop = ymin; vBot = ymax; }
-  }
-  let hy = bb.y, hLeft = bb.x, hRight = bb.x + bb.width, bestW = -1;
-  for (let y = bb.y; y <= bb.y + bb.height; y += 2) {
-    let xmin: number | null = null, xmax = 0;
-    for (let x = bb.x; x <= bb.x + bb.width; x += 2)
-      if (fill(x, y)) { if (xmin === null) xmin = x; xmax = x; }
-    if (xmin !== null && xmax - xmin > bestW) { bestW = xmax - xmin; hy = y; hLeft = xmin; hRight = xmax; }
-  }
-  return { vx, vTop, vBot, hy, hLeft, hRight };
-}
-
 // Ordre des orteils GROS → PETIT à partir des formes (le gros orteil est la plus
 // grande, à une extrémité de la rangée). Renvoie les indices dans cet ordre.
 function trierOrteils(orteils: SVGGraphicsElement[]): number[] {
@@ -407,13 +373,15 @@ type UrinairePoint = {
   ondes: { el: SVGCircleElement; r0: number; decalage: number }[];
 };
 
-// Une croix « nez » (un pied) : barre verticale + barre horizontale + un doigt.
+// Une croix « nez » (un pied) : barre verticale + barre horizontale, chacune avec
+// SON doigt (à la largeur de sa bande) et clippée sur SA forme (bandes distinctes).
 type NezCroix = {
   vTrail: SVGPathElement;
   vLen: number;
+  vDoigt: SVGCircleElement;
   hTrail: SVGPathElement;
   hLen: number;
-  doigt: SVGCircleElement;
+  hDoigt: SVGCircleElement;
 };
 
 // Un orteil « sinus » : le doigt fait un va-et-vient le long de son bord supérieur.
@@ -787,25 +755,36 @@ export function ReflexoLecteur({
           if (!ci) continue;
           ci.el.style.display = "";
           ci.el.style.opacity = String(OP_REPOS);
-          // Croix dérivée de la VRAIE zone (2 branches remplies), pas du rail.
-          const c = croixNez(ci.el);
-          const vD = `M ${c.vx} ${c.vTop} L ${c.vx} ${c.vBot}`; // haut → bas
-          // Horizontale = extérieur → intérieur : le tracé va de x bas → x haut ;
-          // pour le pied GAUCHE (intérieur = x bas), on inverse le sens.
-          let hD = `M ${c.hLeft} ${c.hy} L ${c.hRight} ${c.hy}`;
+          // Les 2 bandes sont des formes DISTINCTES : la verticale (plus HAUTE que
+          // large) et l'horizontale (plus LARGE que haute). Chaque doigt fait la
+          // LARGEUR de SA bande et est clippé sur SA forme → pas de débordement sur
+          // l'autre bande. (demande Laura)
+          const paths = Array.from(ci.el.querySelectorAll<SVGGraphicsElement>("path"));
+          if (paths.length < 2) continue;
+          const vArm =
+            paths.find((p) => { const b = p.getBBox(); return b.height >= b.width; }) ?? paths[0];
+          const hArm = paths.find((p) => p !== vArm) ?? paths[1];
+          const vb = vArm.getBBox();
+          const hb = hArm.getBBox();
+          const vx = vb.x + vb.width / 2; // axe de la bande verticale
+          const hy = hb.y + hb.height / 2; // axe de la bande horizontale
+          const vD = `M ${vx} ${vb.y} L ${vx} ${vb.y + vb.height}`; // haut → bas
+          // Horizontale = extérieur → intérieur ; pied GAUCHE (intérieur = x bas) → inversé.
+          let hD = `M ${hb.x} ${hy} L ${hb.x + hb.width} ${hy}`;
           if (f === "g") hD = inverserD(hD);
-          const brush = 40; // brosse généreuse, CLIPPÉE sur la forme de la croix
-          // Clip sur la vraie forme de la croix → le coloriage RESPECTE la zone.
-          const clip = document.createElementNS(NS, "clipPath");
-          const clipId = `rfxclip-nez-${f}`;
-          clip.setAttribute("id", clipId);
-          ci.el.querySelectorAll("path").forEach((p) => {
+          const mkClip = (arm: SVGGraphicsElement, suffix: string) => {
+            const clip = document.createElementNS(NS, "clipPath");
+            const id = `rfxclip-nez-${f}-${suffix}`;
+            clip.setAttribute("id", id);
             const cp = document.createElementNS(NS, "path");
-            cp.setAttribute("d", p.getAttribute("d") || "");
+            cp.setAttribute("d", arm.getAttribute("d") || "");
             clip.appendChild(cp);
-          });
-          defs.appendChild(clip);
-          const mk = (d: string) => {
+            defs.appendChild(clip);
+            return id;
+          };
+          const vClip = mkClip(vArm, "v");
+          const hClip = mkClip(hArm, "h");
+          const mkBar = (d: string, brush: number, clipId: string) => {
             const trail = document.createElementNS(NS, "path");
             trail.setAttribute("d", d);
             trail.setAttribute("fill", "none");
@@ -818,17 +797,20 @@ export function ReflexoLecteur({
             const len = trail.getTotalLength();
             trail.style.strokeDasharray = String(len);
             trail.style.strokeDashoffset = String(len);
-            return { trail, len };
+            const doigt = document.createElementNS(NS, "circle");
+            doigt.setAttribute("r", String(brush / 2)); // doigt = largeur de la bande
+            doigt.setAttribute("fill", ci.fill);
+            doigt.setAttribute("clip-path", `url(#${clipId})`);
+            doigt.setAttribute("opacity", "0");
+            gOver.appendChild(doigt);
+            return { trail, len, doigt };
           };
-          const v = mk(vD);
-          const h = mk(hD);
-          const doigt = document.createElementNS(NS, "circle");
-          doigt.setAttribute("r", String(Math.max(8, brush * 0.34)));
-          doigt.setAttribute("fill", ci.fill);
-          doigt.setAttribute("clip-path", `url(#${clipId})`);
-          doigt.setAttribute("opacity", "0");
-          gOver.appendChild(doigt);
-          croix.push({ vTrail: v.trail, vLen: v.len, hTrail: h.trail, hLen: h.len, doigt });
+          const v = mkBar(vD, vb.width, vClip); // doigt = largeur bande verticale
+          const h = mkBar(hD, hb.height, hClip); // doigt = "largeur" (hauteur) bande horizontale
+          croix.push({
+            vTrail: v.trail, vLen: v.len, vDoigt: v.doigt,
+            hTrail: h.trail, hLen: h.len, hDoigt: h.doigt,
+          });
         }
         anims.push({ kind: "nez", croix });
         animsRef.current = anims;
@@ -1773,36 +1755,42 @@ export function ReflexoLecteur({
             c.vTrail.setAttribute("opacity", String(OP_FIN));
             c.hTrail.style.strokeDashoffset = "0";
             c.hTrail.setAttribute("opacity", String(OP_FIN));
-            c.doigt.setAttribute("opacity", "0");
+            c.vDoigt.setAttribute("opacity", "0");
+            c.hDoigt.setAttribute("opacity", "0");
           }
         } else {
           const tIn = elapsed - round * roundLen;
           for (const c of a.croix) {
             if (tIn < NEZ_BARRE) {
-              // Barre verticale (haut → bas). L'horizontale est cachée ce tour.
+              // Barre VERTICALE (haut → bas) — doigt à la largeur de la bande
+              // verticale. L'horizontale est cachée ce tour.
               const k = tIn / NEZ_BARRE;
               const pt = c.vTrail.getPointAtLength(c.vLen * k);
-              c.doigt.setAttribute("cx", String(pt.x));
-              c.doigt.setAttribute("cy", String(pt.y));
-              c.doigt.setAttribute("opacity", "1");
+              c.vDoigt.setAttribute("cx", String(pt.x));
+              c.vDoigt.setAttribute("cy", String(pt.y));
+              c.vDoigt.setAttribute("opacity", "1");
+              c.hDoigt.setAttribute("opacity", "0");
               c.vTrail.style.strokeDashoffset = String(c.vLen * (1 - k));
               c.vTrail.setAttribute("opacity", String(OP_TRAINEE));
               c.hTrail.setAttribute("opacity", "0");
               c.hTrail.style.strokeDashoffset = String(c.hLen);
             } else if (tIn < 2 * NEZ_BARRE) {
-              // Barre horizontale ; la verticale reste tracée.
+              // Barre HORIZONTALE — doigt à la largeur de la bande horizontale ;
+              // la verticale reste tracée.
               const k = (tIn - NEZ_BARRE) / NEZ_BARRE;
               const pt = c.hTrail.getPointAtLength(c.hLen * k);
-              c.doigt.setAttribute("cx", String(pt.x));
-              c.doigt.setAttribute("cy", String(pt.y));
-              c.doigt.setAttribute("opacity", "1");
+              c.hDoigt.setAttribute("cx", String(pt.x));
+              c.hDoigt.setAttribute("cy", String(pt.y));
+              c.hDoigt.setAttribute("opacity", "1");
+              c.vDoigt.setAttribute("opacity", "0");
               c.hTrail.style.strokeDashoffset = String(c.hLen * (1 - k));
               c.hTrail.setAttribute("opacity", String(OP_TRAINEE));
               c.vTrail.style.strokeDashoffset = "0";
               c.vTrail.setAttribute("opacity", String(OP_TRAINEE));
             } else {
-              // Pause : la croix reste visible, doigt caché.
-              c.doigt.setAttribute("opacity", "0");
+              // Pause : la croix reste visible, doigts cachés.
+              c.vDoigt.setAttribute("opacity", "0");
+              c.hDoigt.setAttribute("opacity", "0");
               c.vTrail.style.strokeDashoffset = "0";
               c.vTrail.setAttribute("opacity", String(OP_TRAINEE));
               c.hTrail.style.strokeDashoffset = "0";
