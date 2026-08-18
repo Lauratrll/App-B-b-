@@ -158,6 +158,11 @@ for (const id of ["zone-amygdales-d", "zone-amygdales-g"]) {
   }
 }
 
+// OESOPHAGE (demande Laura) : 0,5 s de pause entre chaque passage.
+for (const id of ["zone-oesophage-d", "zone-oesophage-g"]) {
+  if (sortie[id]) sortie[id].efface = 500;
+}
+
 writeFileSync(OUT, JSON.stringify(sortie));
 console.log(
   `✓ ${nbZones} zone(s) glissée extraite(s) (${nbPts} points de médiane) → ${OUT}`,
