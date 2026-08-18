@@ -53,8 +53,9 @@ const ONDE_OP = 0.38;
 // Un orteil à la fois (gros → petit), 3 tours par orteil ; l'orteil se colorie
 // au passage du doigt (traînée plus transparente car le doigt repasse 3 fois),
 // se fige à 0.90 en fin de parcours, puis on passe au suivant.
-const CIRC_T_MVT = 6300; // durée de référence (orteil moyen) — geste LENT et doux
-const CIRC_T_PAUSE = 620; // respiration entre deux orteils
+const CIRC_T_ORTEIL_MAX = 5000; // durée du PLUS GRAND orteil (gros orteil) ; les
+// autres orteils sont plus courts, ∝ à la longueur de leur tracé (vitesse constante).
+const CIRC_T_PAUSE = 500; // respiration entre deux orteils
 const CIRC_SEUIL_FIN = 0.78; // à partir d'où l'orteil se fige (fondu croisé)
 const CIRC_OP_TRAINEE = 0.6; // traînée plus transparente (repassages, §3)
 
@@ -263,6 +264,11 @@ export function ReflexoLecteur({
   const allCiblesRef = useRef<string[]>([]);
 
   const [ready, setReady] = useState(false);
+  // La géométrie est chargée en asynchrone : tant qu'elle n'est pas là, une zone
+  // glissée/tracée n'a pas de doigt (elle retombe sur le simple coloriage). On
+  // suit son arrivée pour REJOUER la préparation de l'étape courante (sinon le
+  // TOUT PREMIER mouvement s'affiche sans doigt tant qu'on n'a pas changé d'étape).
+  const [geomReady, setGeomReady] = useState(false);
   const [step, setStep] = useState(0);
   const [playing, setPlaying] = useState(false);
   const [portrait, setPortrait] = useState(false);
@@ -333,7 +339,10 @@ export function ReflexoLecteur({
       fetch(GEOM_URL).then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
       fetch(GEOM_TRACE_URL).then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
     ]).then(([glisse, trace]) => {
-      if (!cancelled) geomRef.current = { ...glisse, ...trace } as Record<string, Geom>;
+      if (!cancelled) {
+        geomRef.current = { ...glisse, ...trace } as Record<string, Geom>;
+        setGeomReady(true);
+      }
     });
     return () => {
       cancelled = true;
@@ -455,7 +464,9 @@ export function ReflexoLecteur({
             gOver.removeChild(tmp);
             return { d, len, mid };
           });
-          const lenMoy = traces.reduce((s, t) => s + t.len, 0) / (traces.length || 1);
+          // Vitesse constante : la durée d'un orteil est ∝ à la longueur de son
+          // tracé, calée pour que le PLUS GRAND orteil dure CIRC_T_ORTEIL_MAX.
+          const lenMax = traces.reduce((m, t) => Math.max(m, t.len), 0) || 1;
           const usedFill = new Set<number>();
           const orteils: Orteil[] = [];
           for (const tr of traces) {
@@ -512,7 +523,7 @@ export function ReflexoLecteur({
               trailLen: tr.len,
               doigt,
               fingerR,
-              dur: CIRC_T_MVT * (tr.len / (lenMoy || tr.len)),
+              dur: CIRC_T_ORTEIL_MAX * (tr.len / lenMax),
             });
           }
           anims.push({ kind: "circulaire", groupe: ci, orteils });
@@ -1029,8 +1040,10 @@ export function ReflexoLecteur({
   // (Re)prépare l'étape quand elle change ou dès que le SVG est prêt.
   useEffect(() => {
     stepRef.current = step;
+    // On (re)prépare l'étape dès que le SVG est prêt, ET à nouveau quand la
+    // géométrie arrive (geomReady) : la 1re étape est ainsi rebâtie AVEC son doigt.
     if (ready) setupStep(step);
-  }, [ready, step, setupStep]);
+  }, [ready, geomReady, step, setupStep]);
 
   useEffect(() => {
     playingRef.current = playing;
