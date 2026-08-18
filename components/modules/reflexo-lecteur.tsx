@@ -210,6 +210,40 @@ function inverserD(d: string): string {
   return "M " + pts.map((p) => `${p[0]} ${p[1]}`).join(" L ");
 }
 
+// Croix « nez » dérivée de la VRAIE forme de la zone (2 branches remplies) :
+// barre VERTICALE = la colonne x de plus grande étendue verticale ; barre
+// HORIZONTALE = la ligne y de plus grande étendue horizontale. → la croix colle
+// exactement à la zone donnée.
+function croixNez(el: SVGGraphicsElement): {
+  vx: number; vTop: number; vBot: number; hy: number; hLeft: number; hRight: number;
+} {
+  const paths = Array.from(el.querySelectorAll("path")) as SVGGeometryElement[];
+  const bb = el.getBBox();
+  const svg = el.ownerSVGElement;
+  const pt = svg ? svg.createSVGPoint() : null;
+  const fill = (x: number, y: number) => {
+    if (!pt) return false;
+    pt.x = x;
+    pt.y = y;
+    return paths.some((p) => p.isPointInFill(pt));
+  };
+  let vx = bb.x, vTop = bb.y, vBot = bb.y + bb.height, bestH = -1;
+  for (let x = bb.x; x <= bb.x + bb.width; x += 2) {
+    let ymin: number | null = null, ymax = 0;
+    for (let y = bb.y; y <= bb.y + bb.height; y += 2)
+      if (fill(x, y)) { if (ymin === null) ymin = y; ymax = y; }
+    if (ymin !== null && ymax - ymin > bestH) { bestH = ymax - ymin; vx = x; vTop = ymin; vBot = ymax; }
+  }
+  let hy = bb.y, hLeft = bb.x, hRight = bb.x + bb.width, bestW = -1;
+  for (let y = bb.y; y <= bb.y + bb.height; y += 2) {
+    let xmin: number | null = null, xmax = 0;
+    for (let x = bb.x; x <= bb.x + bb.width; x += 2)
+      if (fill(x, y)) { if (xmin === null) xmin = x; xmax = x; }
+    if (xmin !== null && xmax - xmin > bestW) { bestW = xmax - xmin; hy = y; hLeft = xmin; hRight = xmax; }
+  }
+  return { vx, vTop, vBot, hy, hLeft, hRight };
+}
+
 // Ordre des orteils GROS → PETIT à partir des formes (le gros orteil est la plus
 // grande, à une extrémité de la rangée). Renvoie les indices dans cet ordre.
 function trierOrteils(orteils: SVGGraphicsElement[]): number[] {
@@ -750,17 +784,27 @@ export function ReflexoLecteur({
         const croix: NezCroix[] = [];
         for (const f of ["d", "g"] as const) {
           const ci = info.get(`zone-nez-${f}`);
-          const geom = geomRef.current[`zone-nez-${f}`];
-          if (!ci || !geom || !estTrace(geom)) continue;
+          if (!ci) continue;
           ci.el.style.display = "";
           ci.el.style.opacity = String(OP_REPOS);
-          const subs = geom.d.split(/(?=M)/).map((d) => d.trim()).filter(Boolean);
-          if (subs.length < 2) continue;
-          const brush = geom.brush;
-          // Horizontale = extérieur → intérieur : les tracés vont de x bas → x haut ;
+          // Croix dérivée de la VRAIE zone (2 branches remplies), pas du rail.
+          const c = croixNez(ci.el);
+          const vD = `M ${c.vx} ${c.vTop} L ${c.vx} ${c.vBot}`; // haut → bas
+          // Horizontale = extérieur → intérieur : le tracé va de x bas → x haut ;
           // pour le pied GAUCHE (intérieur = x bas), on inverse le sens.
-          const vD = subs[0];
-          const hD = f === "g" ? inverserD(subs[1]) : subs[1];
+          let hD = `M ${c.hLeft} ${c.hy} L ${c.hRight} ${c.hy}`;
+          if (f === "g") hD = inverserD(hD);
+          const brush = 40; // brosse généreuse, CLIPPÉE sur la forme de la croix
+          // Clip sur la vraie forme de la croix → le coloriage RESPECTE la zone.
+          const clip = document.createElementNS(NS, "clipPath");
+          const clipId = `rfxclip-nez-${f}`;
+          clip.setAttribute("id", clipId);
+          ci.el.querySelectorAll("path").forEach((p) => {
+            const cp = document.createElementNS(NS, "path");
+            cp.setAttribute("d", p.getAttribute("d") || "");
+            clip.appendChild(cp);
+          });
+          defs.appendChild(clip);
           const mk = (d: string) => {
             const trail = document.createElementNS(NS, "path");
             trail.setAttribute("d", d);
@@ -768,6 +812,7 @@ export function ReflexoLecteur({
             trail.setAttribute("stroke", ci.fill);
             trail.setAttribute("stroke-width", String(brush));
             trail.setAttribute("stroke-linecap", "round");
+            trail.setAttribute("clip-path", `url(#${clipId})`);
             trail.setAttribute("opacity", "0");
             gOver.appendChild(trail);
             const len = trail.getTotalLength();
@@ -778,8 +823,9 @@ export function ReflexoLecteur({
           const v = mk(vD);
           const h = mk(hD);
           const doigt = document.createElementNS(NS, "circle");
-          doigt.setAttribute("r", String(Math.max(8, brush * 0.4)));
+          doigt.setAttribute("r", String(Math.max(8, brush * 0.34)));
           doigt.setAttribute("fill", ci.fill);
+          doigt.setAttribute("clip-path", `url(#${clipId})`);
           doigt.setAttribute("opacity", "0");
           gOver.appendChild(doigt);
           croix.push({ vTrail: v.trail, vLen: v.len, hTrail: h.trail, hLen: h.len, doigt });
