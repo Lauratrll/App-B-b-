@@ -85,6 +85,14 @@ const U_FINGER_R = 16; // rayon du doigt pendant la glissée
 
 // Glissé — réglages du prototype mouvement-pression-glissee.html.
 const GROS_INTESTIN_PAUSE = 1500; // pause après le pied gauche avant de recommencer (×3)
+
+// Dents — orteil par orteil : pour chaque orteil, mâchoire du HAUT (2 passages
+// de 2 s, 0,5 s de pause entre), puis mâchoire du BAS (idem), puis orteil suivant
+// (du gros orteil vers le petit). (demande Laura)
+const DENTS_PASSAGE = 2000; // durée d'un passage (glissé le long d'une dent)
+const DENTS_PAUSE = 500; // pause entre 2 passages
+const DENTS_PASSAGES = 2; // 2 passages par mâchoire
+
 const GLISSE_T_EFFACE = 550; // effacement de la traînée entre 2 passages
 const GLISSE_T_FIN = 1200; // temps de maintien de l'état figé avant reprise
 const GLISSE_SEUIL_FIN = 0.82; // au-delà, le dernier passage fige la couleur
@@ -257,6 +265,8 @@ type Anim =
   | { kind: "circulaire"; groupe: CibleInfo; orteils: Orteil[] }
   // Zone digestive (§9) : trait glissé ×3 (avec retour transparence), PUIS surface.
   | { kind: "digestive"; groupe: CibleInfo; trait: DigPart; surf: DigPart }
+  // Dents : orteil par orteil, mâchoire haute puis basse (2 passages chacune).
+  | { kind: "dents"; segments: DentSeg[] }
   // Zones tracé sans géométrie encore branchée : coloriage progressif seul.
   | { kind: "reveal"; groupe: CibleInfo };
 
@@ -275,6 +285,16 @@ type UrinairePoint = {
   cx: number;
   cy: number;
   ondes: { el: SVGCircleElement; r0: number; decalage: number }[];
+};
+
+// Un segment « dents » = une dent (un orteil) d'une mâchoire, pour un pied.
+type DentSeg = {
+  trail: SVGPathElement;
+  trailLen: number;
+  doigt: SVGCircleElement;
+  jaw: "haute" | "bas";
+  toe: number; // 0 = gros orteil → 4 = petit
+  trOp: number;
 };
 
 // Une partie de la zone digestive (le trait, ou la surface) : sa forme (opacité
@@ -474,6 +494,57 @@ export function ReflexoLecteur({
         return;
       }
       const defs = defsRef.current;
+
+      // DENTS — cas particulier : l'étape combine mâchoire HAUTE + mâchoire BASSE.
+      // On les joue ORTEIL PAR ORTEIL (gros → petit) : pour chaque orteil, la
+      // mâchoire du haut (2 passages de 2 s, 0,5 s de pause entre), puis celle du
+      // bas (idem), avant de passer à l'orteil suivant. (demande Laura)
+      const aDents =
+        s.cibles.some((c) => c.includes("dents-machoire-haute")) &&
+        s.cibles.some((c) => c.includes("dents-machoire-bas"));
+      if (aDents && !reducedMotion) {
+        const segments: DentSeg[] = [];
+        for (const f of ["d", "g"] as const) {
+          for (const jaw of ["haute", "bas"] as const) {
+            const id = `zone-dents-machoire-${jaw}-${f}`;
+            const ci = info.get(id);
+            const geom = geomRef.current[id];
+            if (!ci || !geom || !estTrace(geom)) continue;
+            ci.el.style.display = "";
+            ci.el.style.opacity = String(OP_REPOS); // dents en filigrane
+            const brush = geom.brush;
+            const subs = geom.d.split(/(?=M)/).map((d) => d.trim()).filter(Boolean);
+            subs.forEach((d, toe) => {
+              const trail = document.createElementNS(NS, "path");
+              trail.setAttribute("d", d);
+              trail.setAttribute("fill", "none");
+              trail.setAttribute("stroke", ci.fill);
+              trail.setAttribute("stroke-width", String(brush));
+              trail.setAttribute("stroke-linecap", "round");
+              trail.setAttribute("stroke-linejoin", "round");
+              trail.setAttribute("opacity", "0");
+              gOver.appendChild(trail);
+              const trailLen = trail.getTotalLength();
+              trail.style.strokeDasharray = String(trailLen);
+              trail.style.strokeDashoffset = String(trailLen);
+              const doigt = document.createElementNS(NS, "circle");
+              doigt.setAttribute("r", String(Math.max(10, brush * 0.42)));
+              doigt.setAttribute("fill", ci.fill);
+              doigt.setAttribute("opacity", "0");
+              gOver.appendChild(doigt);
+              segments.push({ trail, trailLen, doigt, jaw, toe, trOp: OP_TRAINEE });
+            });
+          }
+        }
+        anims.push({ kind: "dents", segments });
+        animsRef.current = anims;
+        // 5 orteils × 2 mâchoires × 2 passages = 20 unités (passage + pause).
+        const nbToes = Math.max(1, ...segments.map((sg) => sg.toe + 1));
+        stepDurRef.current = nbToes * 2 * DENTS_PASSAGES * (DENTS_PASSAGE + DENTS_PAUSE);
+        t0Ref.current = performance.now();
+        return;
+      }
+
       const points = s.mouvement === "pression-maintenue";
       // Séquençage. Par défaut, toutes les zones de l'étape jouent ENSEMBLE.
       // Si `gestesEnchaines`, les GROUPES (zones) s'enchaînent l'un APRÈS l'autre
@@ -1273,6 +1344,52 @@ export function ReflexoLecteur({
               part.trail.setAttribute("opacity", String(OP_TRAINEE * (1 - e)));
               part.shape.style.opacity = String(OP_REPOS);
             }
+          }
+        }
+      } else if (a.kind === "dents") {
+        // DENTS — orteil par orteil (gros → petit) : pour chaque orteil, mâchoire
+        // HAUTE (2 passages de 2 s, 0,5 s de pause entre), puis mâchoire BASSE.
+        // Ordre des « visites » : toe0-haute, toe0-bas, toe1-haute, toe1-bas, …
+        const unit = DENTS_PASSAGE + DENTS_PAUSE;
+        const nbToes = Math.max(1, ...a.segments.map((s) => s.toe + 1));
+        const nbUnits = nbToes * 2 * DENTS_PASSAGES;
+        const uIdx = Math.floor(elapsed / unit);
+        const tIn = elapsed - uIdx * unit;
+        const fini = uIdx >= nbUnits;
+        const curUnit = Math.min(uIdx, nbUnits - 1);
+        const curVisit = Math.floor(curUnit / DENTS_PASSAGES);
+        const passInVisit = curUnit % DENTS_PASSAGES;
+        for (const seg of a.segments) {
+          const segVisit = seg.toe * 2 + (seg.jaw === "bas" ? 1 : 0);
+          if (fini || segVisit < curVisit) {
+            // Dent terminée : reste coloriée.
+            seg.trail.style.strokeDashoffset = "0";
+            seg.trail.setAttribute("opacity", String(OP_FIN));
+            seg.doigt.setAttribute("opacity", "0");
+          } else if (segVisit > curVisit) {
+            // Pas encore travaillée.
+            seg.trail.setAttribute("opacity", "0");
+            seg.trail.style.strokeDashoffset = String(seg.trailLen);
+            seg.doigt.setAttribute("opacity", "0");
+          } else if (tIn < DENTS_PASSAGE) {
+            // Passage : le doigt glisse le long de la dent, le tracé se dévoile.
+            const k = tIn / DENTS_PASSAGE;
+            const pt = seg.trail.getPointAtLength(seg.trailLen * k);
+            seg.doigt.setAttribute("cx", String(pt.x));
+            seg.doigt.setAttribute("cy", String(pt.y));
+            seg.doigt.setAttribute("opacity", k > 0.02 && k < 0.98 ? "1" : "0");
+            seg.trail.style.strokeDashoffset = String(seg.trailLen * (1 - k));
+            seg.trail.setAttribute("opacity", String(seg.trOp));
+          } else if (passInVisit === 0) {
+            // Pause ENTRE les 2 passages : la dent s'efface (on reverra le doigt).
+            const e = Math.min((tIn - DENTS_PASSAGE) / DENTS_PAUSE, 1);
+            seg.doigt.setAttribute("opacity", "0");
+            seg.trail.setAttribute("opacity", String(seg.trOp * (1 - e)));
+          } else {
+            // Pause APRÈS le 2e passage : la dent reste coloriée.
+            seg.doigt.setAttribute("opacity", "0");
+            seg.trail.style.strokeDashoffset = "0";
+            seg.trail.setAttribute("opacity", String(OP_FIN));
           }
         }
       } else {
