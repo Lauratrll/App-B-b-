@@ -19,7 +19,7 @@
     {
       "ordre": 1,
       "designation": "la tête",
-      "intention": "On commence en douceur par les orteils, la zone de la tête : inviter le mental à se poser.",
+      "intention": "On commence tout en douceur par la tête, pour accueillir bébé dans le calme.",
       "zones": [
         {
           "zone": "tete",
@@ -31,21 +31,8 @@
     },
     {
       "ordre": 2,
-      "designation": "l'épiphyse",
-      "intention": "Un temps sur le gros orteil : accompagner le rythme veille-sommeil.",
-      "zones": [
-        {
-          "zone": "epiphyse",
-          "designation": "l'épiphyse",
-          "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
-        }
-      ]
-    },
-    {
-      "ordre": 3,
       "designation": "l'hypophyse",
-      "intention": "Un point délicat sur le gros orteil : on invite tout l'intérieur au calme.",
+      "intention": "On apaise le chef d'orchestre du corps, on invite au relâchement.",
       "zones": [
         {
           "zone": "hypophyse",
@@ -56,9 +43,22 @@
       ]
     },
     {
+      "ordre": 3,
+      "designation": "l'épiphyse",
+      "intention": "On pose un appui doux : l'épiphyse accompagne le rythme jour/nuit.",
+      "zones": [
+        {
+          "zone": "epiphyse",
+          "designation": "l'épiphyse",
+          "mouvement": "pression-maintenue",
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+        }
+      ]
+    },
+    {
       "ordre": 4,
       "designation": "le diaphragme",
-      "intention": "Un lissage lent en travers du pied : relâcher le souffle et les tensions.",
+      "intention": "On relâche la coupole du ventre : la respiration s'apaise, le corps se pose.",
       "zones": [
         {
           "zone": "diaphragme",
@@ -70,12 +70,12 @@
     },
     {
       "ordre": 5,
-      "designation": "le plexus solaire",
-      "intention": "Au centre de la voûte, une pression douce et maintenue : le point d'apaisement des émotions.",
+      "designation": "le thymus",
+      "intention": "On soutient les défenses, tout en douceur.",
       "zones": [
         {
-          "zone": "plexus-solaire",
-          "designation": "le plexus solaire",
+          "zone": "thymus",
+          "designation": "le thymus",
           "mouvement": "pression-maintenue",
           "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
         }
@@ -83,21 +83,8 @@
     },
     {
       "ordre": 6,
-      "designation": "les surrénales",
-      "intention": "Un appui posé sur les surrénales : calmer l'agitation, apaiser le stress.",
-      "zones": [
-        {
-          "zone": "surrenales",
-          "designation": "les surrénales",
-          "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
-        }
-      ]
-    },
-    {
-      "ordre": 7,
       "designation": "la thyroïde",
-      "intention": "On suit la zone de la gorge et de la thyroïde : apaiser, réguler en douceur.",
+      "intention": "On accompagne le rythme du corps, on aide à ralentir.",
       "zones": [
         {
           "zone": "thyroide",
@@ -108,33 +95,32 @@
       ]
     },
     {
-      "ordre": 8,
-      "designation": "le thymus",
-      "intention": "Un point doux sur le thymus : sécuriser, envelopper.",
+      "ordre": 7,
+      "designation": "le plexus solaire",
+      "intention": "On apaise le centre des émotions, on dénoue les tensions du soir.",
       "zones": [
         {
-          "zone": "thymus",
-          "designation": "le thymus",
+          "zone": "plexus-solaire",
+          "designation": "le plexus solaire",
+          "mouvement": "pression-maintenue",
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+        }
+      ]
+    },
+    {
+      "ordre": 8,
+      "designation": "les surrénales",
+      "intention": "On apaise la décharge d'énergie, on invite au repos.",
+      "zones": [
+        {
+          "zone": "surrenales",
+          "designation": "les surrénales",
           "mouvement": "pression-maintenue",
           "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
         }
       ]
     }
   ],
-  "variante": {
-    "condition": "En cas de cauchemars",
-    "age_min_mois": 12,
-    "_note_age": "à partir du mois 12 (choix Laura)",
-    "ajout": [
-      {
-        "zone": "vesicule",
-        "designation": "la vésicule biliaire",
-        "mouvement": "pression-maintenue",
-        "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
-      }
-    ],
-    "texte": "Ajoute un temps doux sur la zone de la vésicule biliaire."
-  },
   "note_fin": "Termine en allégeant le contact, puis éloigne-toi en douceur.",
   "disclaimer": "La Réflexologie plantaire ne se substitue pas à un avis médical.",
   "lancement": true,
@@ -142,5 +128,27 @@
   "age_min_mois": 0,
   "age_max_mois": 23,
   "age_statut": "brouillon",
-  "age_note": "Version de base M0-M11 ; version AVEC vésicule M12-M23 (variante à intégrer)."
+  "age_note": "Sommeil : version de base (8 étapes). Variante « avec cauchemars » à partir de M12 : ajoute la vésicule (étape 9).",
+  "variante": {
+    "condition": "En cas de cauchemars",
+    "age_min_mois": 12,
+    "_note_age": "les cauchemars apparaissent vers 12 mois (choix Laura)",
+    "ajout": [
+      {
+        "ordre": 9,
+        "designation": "la vésicule biliaire",
+        "intention": "On accompagne la vésicule en douceur, pour apaiser les nuits agitées.",
+        "zones": [
+          {
+            "zone": "vesicule",
+            "designation": "la vésicule biliaire",
+            "mouvement": "pression-maintenue",
+            "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          }
+        ]
+      }
+    ],
+    "texte": "Ajoute un temps doux sur la vésicule biliaire, en fin de séquence."
+  },
+  "visuel_cauchemars": "visuels-protocoles/Visuel - Sommeil (avec cauchemars).png"
 }

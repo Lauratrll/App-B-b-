@@ -407,7 +407,7 @@ _Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à u
 
 ## Sommeil · âge M0–M23 _(brouillon)_
 
-_Version de base M0-M11 ; version AVEC vésicule M12-M23 (variante à intégrer)._
+_Base M0–M11 : étapes 1–8 (sans vésicule). À partir de M12 : l'étape 9 (vésicule) s'ajoute._
 
 
 Un moment de calme partagé, au creux du soir. Ce protocole de Réflexologie accompagne l'endormissement et le retour au calme, à ton rythme et au sien. Installe-toi : lumière tamisée, ta voix posée, ta respiration lente.
@@ -418,14 +418,15 @@ Un moment de calme partagé, au creux du soir. Ce protocole de Réflexologie acc
 
 **Séquence :**
 
-1. **la tête** — On commence en douceur par les orteils, la zone de la tête : inviter le mental à se poser.
-2. **l'épiphyse** — Un temps sur le gros orteil : accompagner le rythme veille-sommeil.
-3. **l'hypophyse** — Un point délicat sur le gros orteil : on invite tout l'intérieur au calme.
-4. **le diaphragme** — Un lissage lent en travers du pied : relâcher le souffle et les tensions.
-5. **le plexus solaire** — Au centre de la voûte, une pression douce et maintenue : le point d'apaisement des émotions.
-6. **les surrénales** — Un appui posé sur les surrénales : calmer l'agitation, apaiser le stress.
-7. **la thyroïde** — On suit la zone de la gorge et de la thyroïde : apaiser, réguler en douceur.
-8. **le thymus** — Un point doux sur le thymus : sécuriser, envelopper.
+1. **la tête** — On commence tout en douceur par la tête, pour accueillir bébé dans le calme.
+2. **l'hypophyse** — On apaise le chef d'orchestre du corps, on invite au relâchement.
+3. **l'épiphyse** — On pose un appui doux : l'épiphyse accompagne le rythme jour/nuit.
+4. **le diaphragme** — On relâche la coupole du ventre : la respiration s'apaise, le corps se pose.
+5. **le thymus** — On soutient les défenses, tout en douceur.
+6. **la thyroïde** — On accompagne le rythme du corps, on aide à ralentir.
+7. **le plexus solaire** — On apaise le centre des émotions, on dénoue les tensions du soir.
+8. **les surrénales** — On apaise la décharge d'énergie, on invite au repos.
+9. **la vésicule biliaire** _(à partir de M12)_ — On accompagne la vésicule, tout en douceur.
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
