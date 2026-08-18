@@ -352,12 +352,16 @@ function bouclesGen(id, opt) {
   const startX = sideLeft ? xL : xR;
   const sign = sideLeft ? 1 : -1; // sens d'avance
   const edge = sideLeft ? C.left : C.right;
-  const yc0 = ycAt(startX), Ry0 = RyAt(startX);
   const pts = [];
   const nB = 12;
-  // Bordure : suit le bord du côté de départ, bas → haut.
+  // Bordure : suit le bord du côté de départ, du VRAI bas de la zone (bord bas)
+  // jusqu'au départ des boucles. Commencer sur le bord bas évite que le mouvement
+  // démarre au milieu de la zone (« un début déjà tracé »). (demande Laura)
+  const yBot0 = interpCol(C.prof, startX, 2); // bord bas réel à l'abscisse de départ
+  const yTopBoucles = ycAt(startX) - RyAt(startX); // là où les boucles démarrent
   for (let i = 0; i <= nB; i++) {
-    const y = yc0 + Ry0 * Math.cos(Math.PI * (i / nB));
+    const t = i / nB;
+    const y = yBot0 + (yTopBoucles - yBot0) * t; // bord bas → haut des boucles
     pts.push([interpByY(edge, y) + sign * mIn, y]);
   }
   // Boucles qui avancent (sens `sign`), amplitude épousant le contour, départ haut.
@@ -369,10 +373,14 @@ function bouclesGen(id, opt) {
   return "M " + pts.map((p) => `${Math.round(p[0] * 10) / 10} ${Math.round(p[1] * 10) / 10}`).join(" L ");
 }
 // side = bord de DÉPART ; l'avance se fait vers le bord opposé.
-//   estomac : gros orteil → extérieur (comme le pancréas) · foie/rate : ext → int.
+//   Estomac : il s'affine côté GROS orteil (en haut) et est haut côté EXTÉRIEUR
+//   (en bas) → on démarre côté EXTÉRIEUR (bord bas, comme le pancréas démarre sur
+//   son bord bas) et on avance vers le gros orteil. Pied droit : ext = x bas
+//   (gauche) ; pied gauche : ext = x haut (droite).
+//   Foie/rate : extérieur → intérieur.
 const GEN_ZONES = [
-  { id: "zone-estomac-d", side: "right", brush: 34, loopsDiv: 17, duree: 6000 },
-  { id: "zone-estomac-g", side: "left", brush: 34, loopsDiv: 17, duree: 6000 },
+  { id: "zone-estomac-d", side: "left", brush: 34, loopsDiv: 17, duree: 6000 },
+  { id: "zone-estomac-g", side: "right", brush: 34, loopsDiv: 17, duree: 6000 },
   { id: "zone-foie-d", side: "left", brush: 26, loopsDiv: 20, duree: 8600 },
   { id: "zone-rate-g", side: "right", brush: 26, loopsDiv: 20, duree: 8600 },
 ];
