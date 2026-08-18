@@ -221,37 +221,51 @@ const rails = JSON.parse(readFileSync(R("RAILS_zones.json"), "utf-8")).zones;
 //                   petit orteil (sens INVERSÉ, demande Laura).
 // bbox des zones mesurées sur le SVG.
 const BB_GRELE = { d: [348, 569, 126, 111], g: [788, 568, 104, 87] };
-function bouclesRail([x0, y0, w, h]) {
-  const m = 7; // marge intérieure (le clip rattrape les débordements)
-  const xL = x0 + m, xR = x0 + w - m, yT = y0 + m, yB = y0 + h - m;
-  const yc = (yT + yB) / 2;
-  const Ry = ((yB - yT) / 2) * 0.92; // amplitude verticale (couvre la hauteur)
-  const pts = [];
-  // 1) Bordure : bas → haut, sur le bord GAUCHE (départ).
-  const nB = 10;
-  for (let i = 0; i <= nB; i++) pts.push([xL, yB + (yT - yB) * (i / nB)]);
-  // 2) Boucles qui AVANCENT vers +x, depuis le haut-gauche. bx = 4·a → les
-  //    boucles se croisent (couvrent toute la surface, §7).
+// Génère le tracé de boucles. `inverse=false` (sens de base) : bordure sur le bord
+// GAUCHE (bas→haut) puis boucles avançant vers +x depuis le haut. `inverse=true`
+// (Diarrhée, demande Laura) : bordure sur le bord OPPOSÉ (DROITE, haut→bas) puis
+// boucles repartant DU BAS et avançant vers -x (gauche de l'image).
+const GRELE_BRUSH = 44;
+function bouclesRail([x0, y0, w, h], inverse) {
+  const m = 7; // marge horizontale (le clip rattrape les débordements)
+  const xL = x0 + m, xR = x0 + w - m;
+  const yc = y0 + h / 2;
+  // Amplitude verticale RÉDUITE : le CENTRE du doigt reste dans la zone (il
+  // tourne sur les bords haut/bas au lieu d'en sortir), mais la brosse (large)
+  // atteint quand même les bords → toute la zone se colorie. (demande Laura)
+  const fingerR = GRELE_BRUSH * 0.42;
+  const Ry = Math.max(8, h / 2 - fingerR - 3);
+  const yTop = yc - Ry, yBot = yc + Ry;
   const loops = Math.max(4, Math.round((xR - xL) / 26));
   const a = (xR - xL) / (2 * Math.PI * loops);
-  const Rh = 4 * a;
+  const Rh = 4 * a; // bx = 4·a → boucles qui se croisent (§7)
   const steps = loops * 26;
-  for (let i = 1; i <= steps; i++) {
-    const th = (i / steps) * (2 * Math.PI * loops);
-    pts.push([xL + a * th + Rh * Math.sin(th), yc - Ry * Math.cos(th)]);
+  const pts = [];
+  const nB = 10;
+  if (!inverse) {
+    // Bordure bord GAUCHE, bas → haut ; puis boucles vers +x depuis le haut.
+    for (let i = 0; i <= nB; i++) pts.push([xL, yBot + (yTop - yBot) * (i / nB)]);
+    for (let i = 1; i <= steps; i++) {
+      const th = (i / steps) * (2 * Math.PI * loops);
+      pts.push([xL + a * th + Rh * Math.sin(th), yc - Ry * Math.cos(th)]);
+    }
+  } else {
+    // Bordure bord DROIT, haut → bas ; puis boucles vers -x depuis le BAS.
+    for (let i = 0; i <= nB; i++) pts.push([xR, yTop + (yBot - yTop) * (i / nB)]);
+    for (let i = 1; i <= steps; i++) {
+      const th = (i / steps) * (2 * Math.PI * loops);
+      pts.push([xR - a * th - Rh * Math.sin(th), yc + Ry * Math.cos(th)]);
+    }
   }
   return pts.map((p) => [Math.round(p[0] * 10) / 10, Math.round(p[1] * 10) / 10]);
 }
 for (const f of ["d", "g"]) {
-  const pts = bouclesRail(BB_GRELE[f]);
-  sortie[`zone-intestin-grele-${f}`] = {
-    d: "M " + pts.map((p) => `${p[0]} ${p[1]}`).join(" L "),
-    brush: 44, // gros doigt : colorie toute la zone (PARAMS/§8)
-    passages: 3,
-    duree: 5000, // identique d/g → les deux pieds finissent ensemble
-    traineeOp: 0.75,
-  };
-  nb++;
+  const base = { brush: GRELE_BRUSH, passages: 3, duree: 5000, traineeOp: 0.75 };
+  const toD = (pts) => "M " + pts.map((p) => `${p[0]} ${p[1]}`).join(" L ");
+  sortie[`zone-intestin-grele-${f}`] = { d: toD(bouclesRail(BB_GRELE[f], false)), ...base };
+  // Variante Diarrhée : rail « inverse » dédié (joué à l'endroit, pas en reverse).
+  sortie[`zone-intestin-grele-${f}-inverse`] = { d: toD(bouclesRail(BB_GRELE[f], true)), ...base };
+  nb += 2;
 }
 
 // Longueur d'un polyligne [[x,y],…].

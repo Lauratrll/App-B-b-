@@ -489,7 +489,13 @@ export function ReflexoLecteur({
           if (!ci) continue;
           ci.el.style.display = "";
           ci.el.style.opacity = String(OP_REPOS);
-          const geom = geomRef.current[id];
+          // Certaines zones ont un tracé DÉDIÉ pour le sens inverse (ex. intestin
+          // grêle en Diarrhée : bordure sur le bord opposé, boucles vers l'autre
+          // sens). Quand il existe, on le joue À L'ENDROIT (pas de reverse) ; sinon
+          // on retombe sur le tracé de base joué en reverse (gros intestin, etc.).
+          const railInverse = s.inverse ? geomRef.current[`${id}-inverse`] : undefined;
+          const geom = railInverse ?? geomRef.current[id];
+          const inverseDedie = railInverse !== undefined;
 
         if (id.includes("tete") && geom && estTrace(geom) && defs && !reducedMotion) {
           // PRESSION CIRCULAIRE (tête) : le tracé baké concatène les 5 orteils
@@ -861,7 +867,8 @@ export function ReflexoLecteur({
             offset,
             total,
             stride,
-            reverse: s.inverse === true,
+            // Rail « inverse » dédié → joué à l'endroit ; sinon reverse du rail de base.
+            reverse: s.inverse === true && !inverseDedie,
           });
         } else {
           // Aucune géométrie (ne devrait plus arriver) : coloriage progressif.
