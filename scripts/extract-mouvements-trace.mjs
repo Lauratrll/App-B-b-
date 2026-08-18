@@ -379,8 +379,11 @@ function bouclesGen(id, opt) {
 //   (gauche) ; pied gauche : ext = x haut (droite).
 //   Foie/rate : extérieur → intérieur.
 const GEN_ZONES = [
+  // Pied DROIT : NE PAS TOUCHER (validé) — départ côté extérieur, bord bas.
   { id: "zone-estomac-d", side: "left", brush: 34, loopsDiv: 17, duree: 6000 },
-  { id: "zone-estomac-g", side: "right", brush: 34, loopsDiv: 17, duree: 6000 },
+  // Pied GAUCHE : départ côté GROS ORTEIL (x bas = côté centre), bord bas, en
+  // suivant le bord de la zone. (demande Laura — remise comme avant)
+  { id: "zone-estomac-g", side: "left", brush: 34, loopsDiv: 17, duree: 6000 },
   { id: "zone-foie-d", side: "left", brush: 26, loopsDiv: 20, duree: 8600 },
   { id: "zone-rate-g", side: "right", brush: 26, loopsDiv: 20, duree: 8600 },
 ];
