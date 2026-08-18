@@ -429,5 +429,11 @@ if (rails["colonne-vertebrale-nerf-vague"]) {
   }
 } else console.warn("  ⚠️  colonne-vertebrale-nerf-vague absent de RAILS_zones.json");
 
+// BASSIN (spirale) : 1 s de pause entre chaque passage — les passages allaient
+// trop vite et se confondaient (demande Laura, vu sur « bassin avec ancrage »).
+for (const id of ["zone-bassin-d", "zone-bassin-g"]) {
+  if (sortie[id]) sortie[id].efface = 1000;
+}
+
 writeFileSync(OUT, JSON.stringify(sortie));
 console.log(`✓ ${nb} zone(s) « tracé » extraite(s) → ${OUT}`);
