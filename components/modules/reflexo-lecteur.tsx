@@ -82,6 +82,7 @@ const U_GLISSE = 2900; // glissée lente vessie → rein
 const U_FINGER_R = 16; // rayon du doigt pendant la glissée
 
 // Glissé — réglages du prototype mouvement-pression-glissee.html.
+const GROS_INTESTIN_PAUSE = 1500; // pause après le pied gauche avant de recommencer (×3)
 const GLISSE_T_EFFACE = 550; // effacement de la traînée entre 2 passages
 const GLISSE_T_FIN = 1200; // temps de maintien de l'état figé avant reprise
 const GLISSE_SEUIL_FIN = 0.82; // au-delà, le dernier passage fige la couleur
@@ -462,6 +463,25 @@ export function ReflexoLecteur({
       for (const grp of s.groupes) {
         let grpDuree = 0;
         const grpCibles = s.inverse ? [...grp].reverse() : grp;
+        // Gros intestin (enchaîné) : les deux pieds ont des formes DIFFÉRENTES,
+        // donc des durées de glissé différentes. On les précalcule pour un
+        // ENCHAÎNEMENT FLUIDE — le 2e pied démarre pile quand le 1er finit — suivi
+        // d'une PAUSE de 1,5 s avant de tout recommencer (le tour ×`passages`).
+        const enchaineDurs = grpCibles.map((id) => {
+          const gm = geomRef.current[id];
+          if (gm && !estTrace(gm) && gm.enchaine === true && gm.pts.length > 1) {
+            const m = preparerMediane(gm.pts);
+            return Math.max(GLISSE_T_MIN, Math.min(GLISSE_T_MAX, m.total / GLISSE_VITESSE));
+          }
+          return 0;
+        });
+        const enchaineOffsets: number[] = [];
+        let accEnch = 0;
+        for (const d of enchaineDurs) {
+          enchaineOffsets.push(accEnch);
+          accEnch += d;
+        }
+        const enchaineRound = accEnch + GROS_INTESTIN_PAUSE; // tour = tous les pieds + pause
         let foisIndex = -1; // rang du pied dans le groupe (entrelacement enchaîné)
         for (const id of grpCibles) {
           foisIndex++;
@@ -815,14 +835,14 @@ export function ReflexoLecteur({
           doigt.setAttribute("opacity", "0");
           gOver.appendChild(doigt);
           const segFull = durAct + GLISSE_T_EFFACE; // durée d'un passage
-          // Gros intestin (`enchaine`) : les deux pieds sont ENTRELACÉS — un
-          // « mouvement » = pied droit PUIS pied gauche, le tout répété `passages`
-          // fois (droit+gauche / droit+gauche / droit+gauche). Chaque pied joue
-          // donc un passage tous les `stride` = nbPieds × segFull, décalé de son
-          // rang `foisIndex` dans le groupe. Sans enchaînement : passages
-          // consécutifs (stride = segFull), pas de décalage intra-groupe.
-          const stride = enchaine ? grpCibles.length * segFull : segFull;
-          const withinOffset = enchaine ? foisIndex * segFull : 0;
+          // Gros intestin (`enchaine`) : un « mouvement » = pied droit PUIS pied
+          // gauche ENCHAÎNÉS de façon fluide (le gauche démarre pile quand le droit
+          // finit), suivi d'une pause de 1,5 s ; le tout répété `passages` fois.
+          // Le tour dure `enchaineRound` ; le décalage de départ de ce pied est son
+          // offset cumulé (formes de durées différentes). Sans enchaînement :
+          // passages consécutifs (stride = segFull), pas de décalage.
+          const stride = enchaine ? enchaineRound : segFull;
+          const withinOffset = enchaine ? enchaineOffsets[foisIndex] : 0;
           const total = (passages - 1) * stride + durAct;
           const offset = groupeOffset + withinOffset;
           grpDuree = Math.max(grpDuree, withinOffset + total);
