@@ -220,41 +220,91 @@ const rails = JSON.parse(readFileSync(R("RAILS_zones.json"), "utf-8")).zones;
 //   • pied gauche : départ côté gros orteil (bord intérieur) → avance vers le
 //                   petit orteil (sens INVERSÉ, demande Laura).
 // bbox des zones mesurées sur le SVG.
+// bbox + contours RÉELS de la zone (échantillonnés sur le SVG). Les boucles
+// ÉPOUSENT le contour (§7) : l'amplitude verticale = hauteur locale de la forme,
+// donc les cercles se resserrent au DÉBUT et à la FIN (là où la zone s'arrondit),
+// et la bordure de départ suit le BORD (arc), pas une droite. (demandes Laura)
+//   left/right : x mini/maxi par tranche de y (bords gauche/droit)
+//   prof       : [x, y_haut, y_bas] par tranche de x (profil vertical)
 const BB_GRELE = { d: [348, 569, 126, 111], g: [788, 568, 104, 87] };
-// Génère le tracé de boucles. `inverse=false` (sens de base) : bordure sur le bord
-// GAUCHE (bas→haut) puis boucles avançant vers +x depuis le haut. `inverse=true`
-// (Diarrhée, demande Laura) : bordure sur le bord OPPOSÉ (DROITE, haut→bas) puis
-// boucles repartant DU BAS et avançant vers -x (gauche de l'image).
+const GRELE_CONTOUR = {
+  d: {
+    left: [[385,573],[371,581],[362,589],[356,597],[352,605],[349,613],[349,621],[348,629],[349,637],[350,645],[354,653],[360,660],[368,668],[381,676]],
+    right: [[450,573],[460,581],[466,589],[470,597],[473,605],[474,613],[475,621],[475,629],[474,637],[472,645],[469,653],[464,660],[457,668],[444,676]],
+    prof: [[352,600,652],[360,591,661],[368,584,668],[376,580,672],[384,576,675],[392,573,678],[400,571,680],[408,570,680],[415,569,680],[423,569,680],[431,570,679],[439,571,677],[447,574,673],[455,578,669],[463,584,662],[471,593,653]],
+  },
+  g: {
+    left: [[813,571],[803,577],[797,584],[792,590],[790,596],[788,602],[788,608],[788,615],[788,621],[789,627],[790,633],[793,639],[797,645],[804,652]],
+    right: [[873,571],[883,577],[888,584],[891,590],[891,596],[891,602],[889,608],[887,615],[883,621],[879,627],[874,633],[868,639],[862,645],[853,652]],
+    prof: [[791,590,638],[797,583,646],[804,578,650],[810,574,653],[817,571,654],[823,570,655],[830,569,655],[836,568,655],[843,568,654],[849,568,652],[856,569,649],[862,570,645],[868,572,639],[875,574,633],[881,577,625],[888,582,615]],
+  },
+};
 const GRELE_BRUSH = 44;
-function bouclesRail([x0, y0, w, h], inverse) {
-  const m = 7; // marge horizontale (le clip rattrape les débordements)
-  const xL = x0 + m, xR = x0 + w - m;
-  const yc = y0 + h / 2;
-  // Amplitude verticale RÉDUITE : le CENTRE du doigt reste dans la zone (il
-  // tourne sur les bords haut/bas au lieu d'en sortir), mais la brosse (large)
-  // atteint quand même les bords → toute la zone se colorie. (demande Laura)
+// Interpolation d'une colonne d'une table triée par sa colonne 0.
+function interpCol(table, key, col) {
+  const n = table.length;
+  if (key <= table[0][0]) return table[0][col];
+  if (key >= table[n - 1][0]) return table[n - 1][col];
+  for (let i = 1; i < n; i++) {
+    if (key <= table[i][0]) {
+      const t = (key - table[i - 1][0]) / (table[i][0] - table[i - 1][0] || 1);
+      return table[i - 1][col] + (table[i][col] - table[i - 1][col]) * t;
+    }
+  }
+  return table[n - 1][col];
+}
+// x du bord à l'ordonnée y (contour trié par y).
+function interpByY(contour, y) {
+  const n = contour.length;
+  if (y <= contour[0][1]) return contour[0][0];
+  if (y >= contour[n - 1][1]) return contour[n - 1][0];
+  for (let i = 1; i < n; i++) {
+    if (y <= contour[i][1]) {
+      const t = (y - contour[i - 1][1]) / (contour[i][1] - contour[i - 1][1] || 1);
+      return contour[i - 1][0] + (contour[i][0] - contour[i - 1][0]) * t;
+    }
+  }
+  return contour[n - 1][0];
+}
+function bouclesRail(f, inverse) {
+  const [x0, , w] = BB_GRELE[f];
+  const C = GRELE_CONTOUR[f];
   const fingerR = GRELE_BRUSH * 0.42;
-  const Ry = Math.max(8, h / 2 - fingerR - 3);
-  const yTop = yc - Ry, yBot = yc + Ry;
+  const mIn = fingerR * 0.6; // le centre du doigt reste ~à l'intérieur du bord
+  const mX = 8;
+  const xL = x0 + mX, xR = x0 + w - mX;
+  const ycAt = (x) => (interpCol(C.prof, x, 1) + interpCol(C.prof, x, 2)) / 2;
+  const RyAt = (x) => Math.max(5, (interpCol(C.prof, x, 2) - interpCol(C.prof, x, 1)) / 2 - mIn);
   const loops = Math.max(4, Math.round((xR - xL) / 26));
   const a = (xR - xL) / (2 * Math.PI * loops);
   const Rh = 4 * a; // bx = 4·a → boucles qui se croisent (§7)
-  const steps = loops * 26;
+  const steps = loops * 30;
   const pts = [];
-  const nB = 10;
+  const nB = 12;
   if (!inverse) {
-    // Bordure bord GAUCHE, bas → haut ; puis boucles vers +x depuis le haut.
-    for (let i = 0; i <= nB; i++) pts.push([xL, yBot + (yTop - yBot) * (i / nB)]);
+    // Bordure : suit le bord GAUCHE (arc), bas → haut.
+    const yc0 = ycAt(xL), Ry0 = RyAt(xL);
+    for (let i = 0; i <= nB; i++) {
+      const y = yc0 + Ry0 * Math.cos(Math.PI * (i / nB)); // bas → haut
+      pts.push([interpByY(C.left, y) + mIn, y]);
+    }
+    // Boucles vers +x, amplitude ÉPOUSANT le contour.
     for (let i = 1; i <= steps; i++) {
       const th = (i / steps) * (2 * Math.PI * loops);
-      pts.push([xL + a * th + Rh * Math.sin(th), yc - Ry * Math.cos(th)]);
+      const x = xL + a * th + Rh * Math.sin(th);
+      pts.push([x, ycAt(x) - RyAt(x) * Math.cos(th)]);
     }
   } else {
-    // Bordure bord DROIT, haut → bas ; puis boucles vers -x depuis le BAS.
-    for (let i = 0; i <= nB; i++) pts.push([xR, yTop + (yBot - yTop) * (i / nB)]);
+    // Bordure : suit le bord DROIT (arc), haut → bas ; boucles vers -x depuis le bas.
+    const yc0 = ycAt(xR), Ry0 = RyAt(xR);
+    for (let i = 0; i <= nB; i++) {
+      const y = yc0 - Ry0 * Math.cos(Math.PI * (i / nB)); // haut → bas
+      pts.push([interpByY(C.right, y) - mIn, y]);
+    }
     for (let i = 1; i <= steps; i++) {
       const th = (i / steps) * (2 * Math.PI * loops);
-      pts.push([xR - a * th - Rh * Math.sin(th), yc + Ry * Math.cos(th)]);
+      const x = xR - a * th - Rh * Math.sin(th);
+      pts.push([x, ycAt(x) + RyAt(x) * Math.cos(th)]);
     }
   }
   return pts.map((p) => [Math.round(p[0] * 10) / 10, Math.round(p[1] * 10) / 10]);
@@ -262,9 +312,9 @@ function bouclesRail([x0, y0, w, h], inverse) {
 for (const f of ["d", "g"]) {
   const base = { brush: GRELE_BRUSH, passages: 3, duree: 5000, traineeOp: 0.75 };
   const toD = (pts) => "M " + pts.map((p) => `${p[0]} ${p[1]}`).join(" L ");
-  sortie[`zone-intestin-grele-${f}`] = { d: toD(bouclesRail(BB_GRELE[f], false)), ...base };
+  sortie[`zone-intestin-grele-${f}`] = { d: toD(bouclesRail(f, false)), ...base };
   // Variante Diarrhée : rail « inverse » dédié (joué à l'endroit, pas en reverse).
-  sortie[`zone-intestin-grele-${f}-inverse`] = { d: toD(bouclesRail(BB_GRELE[f], true)), ...base };
+  sortie[`zone-intestin-grele-${f}-inverse`] = { d: toD(bouclesRail(f, true)), ...base };
   nb += 2;
 }
 
