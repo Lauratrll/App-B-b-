@@ -40,9 +40,11 @@ const T_MAINTIEN = 3000;
 const T_RELACHE = 3000;
 const T_RETRAIT = 900;
 const T_CYCLE = T_POSE + T_MAINTIEN + T_RELACHE; // 7000
-const CYCLES_SIMPLE = 3; // 1 point → 3 passages
-const CYCLES_MULTI = 2; // plusieurs points → 2 passages
-const POINT_T_INTER = 1000; // transition entre deux points (zones multi-points)
+const CYCLES_SIMPLE = 3; // 1 point → 3 appuis consécutifs
+// Plusieurs points (ganglions) : on fait 1 fois TOUS les points à la suite, avec
+// une pause entre chaque, puis on RECOMMENCE (GANGLION_ROUNDS tours au total).
+const GANGLION_ROUNDS = 2;
+const POINT_PAUSE = 500; // pause entre deux points (ms)
 const N_ONDES = 3;
 const ONDE_ECART = 1000;
 const ONDE_DUREE = 1000;
@@ -190,7 +192,10 @@ type Anim =
         r0: number;
         ondes: { el: SVGCircleElement; r0: number; decalage: number }[];
       }[];
-      nbCycles: number;
+      /** Nombre d'appuis par « visite » d'un point (1 pour multi-points, 3 pour point unique). */
+      nbCyclesPerVisit: number;
+      /** Nombre de tours (on rejoue toute la séquence de points ; 2 pour les ganglions). */
+      nbRounds: number;
     }
   // Glissé validé : le doigt suit la médiane ; une traînée clippée sur la zone
   // se dévoile à son passage (coloriage), s'efface entre passages, fige à la fin.
@@ -765,10 +770,16 @@ export function ReflexoLecteur({
             }
             pts.push({ appui: a, r0: p.r, ondes });
           }
-          const nbCycles = ci.points.length > 1 ? CYCLES_MULTI : CYCLES_SIMPLE;
-          anims.push({ kind: "points", groupe: ci, pts, nbCycles });
           const nbP = ci.points.length;
-          grpDuree = Math.max(grpDuree, T_INTRO + nbP * nbCycles * T_CYCLE + (nbP - 1) * POINT_T_INTER);
+          const multiPts = nbP > 1;
+          const nbCyclesPerVisit = multiPts ? 1 : CYCLES_SIMPLE;
+          const nbRounds = multiPts ? GANGLION_ROUNDS : 1;
+          anims.push({ kind: "points", groupe: ci, pts, nbCyclesPerVisit, nbRounds });
+          const nbVisites = nbRounds * nbP;
+          grpDuree = Math.max(
+            grpDuree,
+            T_INTRO + nbVisites * nbCyclesPerVisit * T_CYCLE + (nbVisites - 1) * POINT_PAUSE,
+          );
         } else if (geom && defs && !reducedMotion) {
           // MOUVEMENT « TRACÉ » : le doigt suit une trajectoire validée ; une
           // traînée large clippée sur la zone se dévoile à son passage, s'efface
@@ -907,10 +918,10 @@ export function ReflexoLecteur({
       let dur = PASS_DUR * 2;
       for (const a of anims) {
         if (a.kind === "points") {
-          const P = a.pts.length;
+          const nbVisites = a.nbRounds * a.pts.length;
           dur = Math.max(
             dur,
-            T_INTRO + P * a.nbCycles * T_CYCLE + (P - 1) * POINT_T_INTER,
+            T_INTRO + nbVisites * a.nbCyclesPerVisit * T_CYCLE + (nbVisites - 1) * POINT_PAUSE,
           );
         } else if (a.kind === "glisse")
           // offset + durée du mouvement (les zones enchaînées s'additionnent).
@@ -974,24 +985,29 @@ export function ReflexoLecteur({
           continue;
         }
         const te = elapsed - T_INTRO;
-        const bloc = a.nbCycles * T_CYCLE; // durée d'un point (tous ses passages)
-        const unite = bloc + POINT_T_INTER; // + transition vers le point suivant
         const P = a.pts.length;
-        // Point actif : un seul à la fois, du gros orteil vers l'extérieur.
-        let pIndex = 0;
-        let t = te;
-        while (pIndex < P - 1 && t >= unite) {
-          t -= unite;
-          pIndex++;
+        // Séquence de « visites » : tour après tour, chaque tour = tous les points
+        // l'un après l'autre (nbCyclesPerVisit appui(s) chacun), avec POINT_PAUSE
+        // entre eux. Point unique : 1 visite de 3 appuis. Ganglions : 2 tours × P
+        // points, 1 appui + 0,5 s de pause chacun. Toujours du gros orteil vers l'extérieur.
+        const visitDur = a.nbCyclesPerVisit * T_CYCLE;
+        const unite = visitDur + POINT_PAUSE;
+        const nbVisites = a.nbRounds * P;
+        const visite = Math.floor(te / unite);
+        if (visite >= nbVisites) {
+          a.pts.forEach(eteindre);
+        } else {
+          const tInVisite = te - visite * unite;
+          const pActif = visite % P;
+          a.pts.forEach((pt, i) => {
+            if (i !== pActif) {
+              eteindre(pt);
+              return;
+            }
+            if (tInVisite < visitDur) animer(pt, tInVisite % T_CYCLE); // ses appuis
+            else eteindre(pt); // pause avant le point suivant
+          });
         }
-        a.pts.forEach((pt, i) => {
-          if (i !== pIndex) {
-            eteindre(pt);
-            return;
-          }
-          if (t < bloc) animer(pt, t % T_CYCLE); // dans ses passages
-          else eteindre(pt); // en transition vers le point suivant
-        });
       } else if (a.kind === "glisse") {
         const { durAct, passages: P, trLen, total } = a;
         // Enchaînement : cette zone attend son tour (décalage). AVANT son tour,
