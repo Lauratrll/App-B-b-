@@ -49,6 +49,15 @@ const ONDE_DUREE = 1000;
 const ONDE_EXPANSION = 1.5;
 const ONDE_OP = 0.38;
 
+// Pression circulaire (tête) — réglages du prototype mouvement-zone-tete.html.
+// Un orteil à la fois (gros → petit), 3 tours par orteil ; l'orteil se colorie
+// au passage du doigt (traînée plus transparente car le doigt repasse 3 fois),
+// se fige à 0.90 en fin de parcours, puis on passe au suivant.
+const CIRC_T_MVT = 6300; // durée de référence (orteil moyen) — geste LENT et doux
+const CIRC_T_PAUSE = 620; // respiration entre deux orteils
+const CIRC_SEUIL_FIN = 0.78; // à partir d'où l'orteil se fige (fondu croisé)
+const CIRC_OP_TRAINEE = 0.6; // traînée plus transparente (repassages, §3)
+
 // Système urinaire — mouvement composite (§14 quater) : maintenue vessie →
 // glissée lente → maintenue rein, répété `passages` fois. Réglages des pressions
 // maintenues repris du prototype ; la glissée entre les deux points est LENTE.
@@ -206,8 +215,20 @@ type Anim =
       rein: UrinairePoint;
       passages: number;
     }
+  // Pression circulaire (tête) : les orteils se travaillent UN À UN (gros → petit),
+  // 3 tours chacun ; l'orteil se colorie au passage puis se fige, on passe au suivant.
+  | { kind: "circulaire"; groupe: CibleInfo; orteils: Orteil[] }
   // Zones tracé sans géométrie encore branchée : coloriage progressif seul.
   | { kind: "reveal"; groupe: CibleInfo };
+
+type Orteil = {
+  fill: SVGGraphicsElement; // la forme de l'orteil (opacité pilotée à part)
+  trail: SVGPathElement; // le tracé circulaire (3 tours), clippé sur l'orteil
+  trailLen: number;
+  doigt: SVGCircleElement;
+  fingerR: number;
+  dur: number; // durée de cet orteil (∝ longueur du tracé, vitesse constante)
+};
 
 type UrinairePoint = {
   appui: SVGCircleElement;
@@ -415,7 +436,91 @@ export function ReflexoLecteur({
           ci.el.style.opacity = String(OP_REPOS);
           const geom = geomRef.current[id];
 
-        if (id.includes("systeme-urinaire") && ci.points.length >= 2 && defs && !reducedMotion) {
+        if (id.includes("tete") && geom && estTrace(geom) && defs && !reducedMotion) {
+          // PRESSION CIRCULAIRE (tête) : le tracé baké concatène les 5 orteils
+          // (sous-tracés « M … »). On les joue UN À UN (gros → petit), 3 tours
+          // chacun ; chaque orteil se colorie au passage du doigt puis se fige à
+          // 0.90, avant de passer au suivant. La forme (fill) de chaque orteil est
+          // pilotée séparément → les orteils « en amont » restent transparents.
+          ci.el.style.opacity = "1"; // opacité pilotée orteil par orteil
+          const subs = geom.d.split(/(?=M)/).map((s) => s.trim()).filter(Boolean);
+          const fills = Array.from(ci.el.querySelectorAll<SVGGraphicsElement>("path"));
+          // Prépare chaque sous-tracé (longueur + milieu, pour l'appairage).
+          const traces = subs.map((d) => {
+            const tmp = document.createElementNS(NS, "path");
+            tmp.setAttribute("d", d);
+            gOver.appendChild(tmp);
+            const len = tmp.getTotalLength();
+            const mid = tmp.getPointAtLength(len / 2);
+            gOver.removeChild(tmp);
+            return { d, len, mid };
+          });
+          const lenMoy = traces.reduce((s, t) => s + t.len, 0) / (traces.length || 1);
+          const usedFill = new Set<number>();
+          const orteils: Orteil[] = [];
+          for (const tr of traces) {
+            // Appaire le sous-tracé à l'orteil (forme) le PLUS PROCHE (robuste à
+            // l'ordre des <path> dans le SVG).
+            let best = -1;
+            let bestDist = Infinity;
+            fills.forEach((fp, k) => {
+              if (usedFill.has(k)) return;
+              const b = fp.getBBox();
+              const dx = b.x + b.width / 2 - tr.mid.x;
+              const dy = b.y + b.height / 2 - tr.mid.y;
+              const dist = dx * dx + dy * dy;
+              if (dist < bestDist) {
+                bestDist = dist;
+                best = k;
+              }
+            });
+            const fill = best >= 0 ? fills[best] : ci.el;
+            if (best >= 0) usedFill.add(best);
+            const bb = (fill as SVGGraphicsElement).getBBox();
+            const rmax = (Math.max(bb.width, bb.height) / 2) * 1.15;
+            const fingerR = Math.max(8, rmax * 0.5);
+            fill.style.opacity = String(OP_REPOS);
+            // Clip du tracé/doigt sur la forme de l'orteil.
+            const clip = document.createElementNS(NS, "clipPath");
+            const clipId = `rfxclip-tete-${id}-${orteils.length}`;
+            clip.setAttribute("id", clipId);
+            const cp = document.createElementNS(NS, "path");
+            cp.setAttribute("d", fill.getAttribute("d") || "");
+            clip.appendChild(cp);
+            defs.appendChild(clip);
+            const trail = document.createElementNS(NS, "path");
+            trail.setAttribute("d", tr.d);
+            trail.setAttribute("fill", "none");
+            trail.setAttribute("stroke", ci.fill);
+            trail.setAttribute("stroke-width", String(Math.max(fingerR * 2, 18)));
+            trail.setAttribute("stroke-linecap", "round");
+            trail.setAttribute("stroke-linejoin", "round");
+            trail.setAttribute("clip-path", `url(#${clipId})`);
+            trail.setAttribute("opacity", "0");
+            gOver.appendChild(trail);
+            trail.style.strokeDasharray = String(tr.len);
+            trail.style.strokeDashoffset = String(tr.len);
+            const doigt = document.createElementNS(NS, "circle");
+            doigt.setAttribute("r", String(fingerR));
+            doigt.setAttribute("fill", ci.fill);
+            doigt.setAttribute("clip-path", `url(#${clipId})`);
+            doigt.setAttribute("opacity", "0");
+            gOver.appendChild(doigt);
+            orteils.push({
+              fill,
+              trail,
+              trailLen: tr.len,
+              doigt,
+              fingerR,
+              dur: CIRC_T_MVT * (tr.len / (lenMoy || tr.len)),
+            });
+          }
+          anims.push({ kind: "circulaire", groupe: ci, orteils });
+          grpDuree = Math.max(
+            grpDuree,
+            orteils.reduce((s, o) => s + o.dur + CIRC_T_PAUSE, 0),
+          );
+        } else if (id.includes("systeme-urinaire") && ci.points.length >= 2 && defs && !reducedMotion) {
           // SYSTÈME URINAIRE — composite (§14 quater). Deux points : vessie (le
           // plus BAS = cy max) et rein (le plus HAUT = cy min). On construit un
           // trait vessie→rein (pas de clip : la zone n'a que 2 cercles, aucune
@@ -651,6 +756,11 @@ export function ReflexoLecteur({
         else if (a.kind === "urinaire") {
           const cycle = 2 * (U_POSE + U_MAINT) + U_GLISSE;
           dur = Math.max(dur, a.passages * cycle + GLISSE_T_FIN);
+        } else if (a.kind === "circulaire") {
+          dur = Math.max(
+            dur,
+            a.orteils.reduce((s, o) => s + o.dur + CIRC_T_PAUSE, 0) + GLISSE_T_FIN,
+          );
         }
       }
       stepDurRef.current = dur;
@@ -854,6 +964,44 @@ export function ReflexoLecteur({
             const v = Math.min(tr / finMaintien, 1);
             a.groupe.el.style.opacity = String(OP_REPOS + (OP_FIN - OP_REPOS) * v);
           }
+        }
+      } else if (a.kind === "circulaire") {
+        // PRESSION CIRCULAIRE : orteils joués UN À UN (gros → petit). Chaque
+        // orteil : le doigt fait 3 tours, la traînée se dévoile au passage
+        // (coloriage qui s'opacifie au fur et à mesure), puis l'orteil se fige à
+        // 0.90 et on passe au suivant. Les orteils « en amont » restent au repos.
+        let start = 0;
+        for (const o of a.orteils) {
+          const fin = start + o.dur;
+          if (elapsed < start) {
+            // Pas encore : orteil au repos, rien dessiné.
+            o.fill.style.opacity = String(OP_REPOS);
+            o.trail.setAttribute("opacity", "0");
+            o.doigt.setAttribute("opacity", "0");
+          } else if (elapsed >= fin) {
+            // Terminé : l'orteil reste colorié (0.90), traînée et doigt éteints.
+            o.fill.style.opacity = String(OP_FIN);
+            o.trail.setAttribute("opacity", "0");
+            o.doigt.setAttribute("opacity", "0");
+          } else {
+            // En cours : 3 tours, la traînée se dévoile derrière le doigt.
+            const k = (elapsed - start) / o.dur;
+            const pt = o.trail.getPointAtLength(o.trailLen * k);
+            o.doigt.setAttribute("cx", String(pt.x));
+            o.doigt.setAttribute("cy", String(pt.y));
+            o.doigt.setAttribute("opacity", k > 0.004 && k < 0.999 ? "1" : "0");
+            o.trail.style.strokeDashoffset = String(o.trailLen * (1 - k));
+            if (k > CIRC_SEUIL_FIN) {
+              // Fin du parcours : la forme monte vers 0.90, la traînée se résorbe.
+              const v = (k - CIRC_SEUIL_FIN) / (1 - CIRC_SEUIL_FIN);
+              o.fill.style.opacity = String(OP_REPOS + (OP_FIN - OP_REPOS) * v);
+              o.trail.setAttribute("opacity", String(CIRC_OP_TRAINEE * (1 - v)));
+            } else {
+              o.fill.style.opacity = String(OP_REPOS);
+              o.trail.setAttribute("opacity", k > 0.004 ? String(CIRC_OP_TRAINEE) : "0");
+            }
+          }
+          start = fin + CIRC_T_PAUSE;
         }
       } else {
         // Coloriage progressif seul.
