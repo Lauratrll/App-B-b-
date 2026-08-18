@@ -213,6 +213,11 @@ type Anim =
        * fini son passage avant le sien : stride = nbPieds × durée d'un passage.
        */
       stride: number;
+      /**
+       * Gros intestin enchaîné : une fois son passage fini, ce pied RESTE COLORIÉ
+       * pendant que l'autre pied joue (et pendant la pause), au lieu de s'effacer.
+       */
+      enchaine: boolean;
       /** Sens inverse (Diarrhée) : trajectoire parcourue depuis la fin. */
       reverse: boolean;
     }
@@ -867,6 +872,7 @@ export function ReflexoLecteur({
             offset,
             total,
             stride,
+            enchaine,
             // Rail « inverse » dédié → joué à l'endroit ; sinon reverse du rail de base.
             reverse: s.inverse === true && !inverseDedie,
           });
@@ -982,7 +988,6 @@ export function ReflexoLecteur({
           a.doigt.setAttribute("opacity", "0");
           continue;
         }
-        const segFull = durAct + GLISSE_T_EFFACE;
         if (le >= total) {
           // État figé : la zone reste coloriée (OP_FIN), traînée et doigt éteints.
           a.groupe.el.style.opacity = String(OP_FIN);
@@ -1024,19 +1029,19 @@ export function ReflexoLecteur({
             // Traînée cachée tant que le geste n'a rien dévoilé (disque fantôme).
             a.trainee.setAttribute("opacity", k > 0.004 ? String(a.trOp) : "0");
           }
-        } else if (t < segFull) {
+        } else if (a.enchaine) {
+          // GROS INTESTIN : ce pied a fini son passage et RESTE COLORIÉ (tracé
+          // entièrement dévoilé) pendant que l'AUTRE pied joue, et pendant la
+          // pause ; il recommencera au tour suivant. (Pas d'effacement.)
+          a.doigt.setAttribute("opacity", "0");
+          a.trainee.style.strokeDashoffset = "0";
+          a.trainee.setAttribute("opacity", String(a.trOp));
+          a.groupe.el.style.opacity = String(OP_REPOS);
+        } else {
           // EFFACEMENT de la traînée avant le passage suivant (forme au repos).
           const e = Math.min((t - durAct) / GLISSE_T_EFFACE, 1);
           a.doigt.setAttribute("opacity", "0");
           a.trainee.setAttribute("opacity", String(a.trOp * (1 - e)));
-          a.groupe.el.style.opacity = String(OP_REPOS);
-        } else {
-          // ATTENTE (gros intestin entrelacé) : ce pied a fini son passage et
-          // patiente pendant que l'AUTRE pied joue le sien. Zone au repos, sans
-          // traînée ni doigt. (Sans entrelacement, stride = segFull → ce cas
-          // n'arrive jamais.)
-          a.doigt.setAttribute("opacity", "0");
-          a.trainee.setAttribute("opacity", "0");
           a.groupe.el.style.opacity = String(OP_REPOS);
         }
       } else if (a.kind === "urinaire") {
