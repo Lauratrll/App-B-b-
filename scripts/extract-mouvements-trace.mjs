@@ -270,8 +270,8 @@ function bouclesRail(f, inverse) {
   const [x0, , w] = BB_GRELE[f];
   const C = GRELE_CONTOUR[f];
   const fingerR = GRELE_BRUSH * 0.42;
-  const mIn = fingerR * 0.6; // le centre du doigt reste ~à l'intérieur du bord
-  const mX = 8;
+  const mIn = fingerR * 0.7; // le centre du doigt reste à l'intérieur du bord
+  const mX = 11; //  → épouse plus finement le contour (moins de débordement latéral)
   const xL = x0 + mX, xR = x0 + w - mX;
   const ycAt = (x) => (interpCol(C.prof, x, 1) + interpCol(C.prof, x, 2)) / 2;
   const RyAt = (x) => Math.max(5, (interpCol(C.prof, x, 2) - interpCol(C.prof, x, 1)) / 2 - mIn);
