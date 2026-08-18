@@ -346,7 +346,10 @@ function bouclesGen(id, opt) {
   const RyAt = (x) => Math.max(5, (interpCol(C.prof, x, 2) - interpCol(C.prof, x, 1)) / 2 - mIn);
   const loops = Math.max(4, Math.round((xR - xL) / opt.loopsDiv));
   const a = (xR - xL) / (2 * Math.PI * loops);
-  const Rh = 4 * a; // bx = 4·a → boucles qui se chevauchent
+  // Amplitude horizontale des boucles : 4·a par défaut (boucles bien croisées) ;
+  // réglable par zone (rhFactor plus petit = moins de retour en arrière / de
+  // superposition, parcours plus court).
+  const Rh = (opt.rhFactor ?? 4) * a;
   const steps = loops * 30;
   const sideLeft = opt.side === "left";
   const startX = sideLeft ? xL : xR;
@@ -381,9 +384,10 @@ function bouclesGen(id, opt) {
 const GEN_ZONES = [
   // Pied DROIT : NE PAS TOUCHER (validé) — départ côté extérieur, bord bas.
   { id: "zone-estomac-d", side: "left", brush: 34, loopsDiv: 17, duree: 6000 },
-  // Pied GAUCHE : départ côté GROS ORTEIL (x bas = côté centre), bord bas, en
-  // suivant le bord de la zone. (demande Laura — remise comme avant)
-  { id: "zone-estomac-g", side: "left", brush: 34, loopsDiv: 17, duree: 6000 },
+  // Pied GAUCHE : départ côté GROS ORTEIL (x bas = côté centre), bord bas. Moins
+  // de boucles + moins de retour en arrière (rhFactor) → enlève la « boucle en
+  // trop » qui se superposait au début, parcours plus court, geste plus lent.
+  { id: "zone-estomac-g", side: "left", brush: 34, loopsDiv: 26, rhFactor: 2.6, duree: 6000 },
   { id: "zone-foie-d", side: "left", brush: 26, loopsDiv: 20, duree: 8600 },
   { id: "zone-rate-g", side: "right", brush: 26, loopsDiv: 20, duree: 8600 },
 ];
