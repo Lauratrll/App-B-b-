@@ -18,21 +18,8 @@
   "sequence": [
     {
       "ordre": 1,
-      "designation": "les ganglions lymphatiques",
-      "intention": "On stimule doucement les ganglions, point par point : soutenir les défenses.",
-      "zones": [
-        {
-          "zone": "ganglions-lympahtiques",
-          "designation": "les ganglions lymphatiques",
-          "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
-        }
-      ]
-    },
-    {
-      "ordre": 2,
       "designation": "la bouche",
-      "intention": "Un point tout doux vers la bouche : détendre la sphère orale.",
+      "intention": "On apaise la bouche, là où la douleur des gencives se concentre.",
       "zones": [
         {
           "zone": "bouche",
@@ -43,9 +30,9 @@
       ]
     },
     {
-      "ordre": 3,
-      "designation": "les dents et la mâchoire",
-      "intention": "On glisse à la base des orteils : accompagner les dents et la mâchoire.",
+      "ordre": 2,
+      "designation": "les dents (haut et bas)",
+      "intention": "On parcourt les dents du haut puis du bas, pour soulager les gencives.",
       "zones": [
         {
           "zone": "dents-machoire-haute",
@@ -63,9 +50,35 @@
       "gestes_enchaines": true
     },
     {
+      "ordre": 3,
+      "designation": "les sinus",
+      "intention": "On dégage les sinus, souvent gênés pendant les poussées.",
+      "zones": [
+        {
+          "zone": "sinus",
+          "designation": "les sinus",
+          "mouvement": "pression-circulaire",
+          "description_mouvement": "Exercez une pression circulaire sur la zone"
+        }
+      ]
+    },
+    {
       "ordre": 4,
+      "designation": "les ganglions lymphatiques",
+      "intention": "On soutient le drainage, les petits filtres du corps.",
+      "zones": [
+        {
+          "zone": "ganglions-lympahtiques",
+          "designation": "les ganglions lymphatiques",
+          "mouvement": "pression-maintenue",
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+        }
+      ]
+    },
+    {
+      "ordre": 5,
       "designation": "les poumons",
-      "intention": "De petits cercles qui avancent sur le coussinet : ouvrir le souffle, laisser respirer.",
+      "intention": "On ouvre la respiration, on apaise.",
       "zones": [
         {
           "zone": "poumon",
@@ -76,9 +89,9 @@
       ]
     },
     {
-      "ordre": 5,
+      "ordre": 6,
       "designation": "le diaphragme",
-      "intention": "Un lissage lent en travers du pied : relâcher le souffle et les tensions.",
+      "intention": "On relâche la coupole du ventre : le souffle se déplie.",
       "zones": [
         {
           "zone": "diaphragme",
@@ -89,9 +102,9 @@
       ]
     },
     {
-      "ordre": 6,
+      "ordre": 7,
       "designation": "le foie",
-      "intention": "Un temps doux sur le foie : accompagner ce qui se transforme et se digère.",
+      "intention": "On accompagne le foie, tout en douceur.",
       "zones": [
         {
           "zone": "foie",
@@ -102,9 +115,9 @@
       ]
     },
     {
-      "ordre": 7,
+      "ordre": 8,
       "designation": "l'estomac",
-      "intention": "De petits cercles sur l'estomac : apaiser, dénouer le ventre.",
+      "intention": "On apaise le haut du ventre (les poussées perturbent la digestion).",
       "zones": [
         {
           "zone": "estomac",
@@ -115,9 +128,9 @@
       ]
     },
     {
-      "ordre": 8,
+      "ordre": 9,
       "designation": "les surrénales",
-      "intention": "Un appui posé sur les surrénales : calmer l'agitation, apaiser le stress.",
+      "intention": "On soutient l'énergie et l'équilibre du corps.",
       "zones": [
         {
           "zone": "surrenales",

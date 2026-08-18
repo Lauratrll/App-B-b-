@@ -59,12 +59,12 @@ Un accompagnement tout en douceur pour un tout-petit arrivé en avance. Chaque g
 
 **Séquence :**
 
-1. **la colonne vertébrale et le nerf vague** — On glisse le long de la colonne, version allongée qui intègre le nerf vague : détendre tout l'axe et apaiser en profondeur.
-2. **le bassin** — Un mouvement enveloppant sur le talon : ancrer, poser, rassurer.
-3. **les reins** — Un appui tranquille sur les reins : apaiser le trop-plein, relâcher les peurs.
-4. **les poumons** — De petits cercles qui avancent sur le coussinet : ouvrir le souffle, laisser respirer.
-5. **le plexus solaire** — Au centre de la voûte, une pression douce et maintenue : le point d'apaisement des émotions.
-6. **le foie** — Un temps doux sur le foie : accompagner ce qui se transforme et se digère.
+1. **la colonne vertébrale et le nerf vague** — On glisse le long de la colonne, version allongée qui intègre le nerf vague : détendre l'axe et apaiser en profondeur.
+2. **les poumons** — On ouvre la respiration, on aide bébé à trouver son souffle.
+3. **le plexus solaire** — On apaise le centre des émotions, on relâche les tensions.
+4. **le foie** — On accompagne le foie, tout en douceur.
+5. **les reins** — On soutient les reins, l'énergie profonde du corps.
+6. **le bassin** — On termine par le bassin, en spirale lente : ancrer, refermer le soin.
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 
@@ -299,14 +299,15 @@ Un accompagnement pour les poussées dentaires : soulager la bouche, apaiser l'a
 
 **Séquence :**
 
-1. **les ganglions lymphatiques** — On stimule doucement les ganglions, point par point : soutenir les défenses.
-2. **la bouche** — Un point tout doux vers la bouche : détendre la sphère orale.
-3. **les dents et la mâchoire** _(gestes enchaînés)_ — On glisse à la base des orteils : accompagner les dents et la mâchoire.
-4. **les poumons** — De petits cercles qui avancent sur le coussinet : ouvrir le souffle, laisser respirer.
-5. **le diaphragme** — Un lissage lent en travers du pied : relâcher le souffle et les tensions.
-6. **le foie** — Un temps doux sur le foie : accompagner ce qui se transforme et se digère.
-7. **l'estomac** — De petits cercles sur l'estomac : apaiser, dénouer le ventre.
-8. **les surrénales** — Un appui posé sur les surrénales : calmer l'agitation, apaiser le stress.
+1. **la bouche** — On apaise la bouche, là où la douleur des gencives se concentre.
+2. **les dents (haut et bas)** _(gestes enchaînés)_ — On parcourt les dents du haut puis du bas, pour soulager les gencives.
+3. **les sinus** — On dégage les sinus, souvent gênés pendant les poussées.
+4. **les ganglions lymphatiques** — On soutient le drainage, les petits filtres du corps.
+5. **les poumons** — On ouvre la respiration, on apaise.
+6. **le diaphragme** — On relâche la coupole du ventre : le souffle se déplie.
+7. **le foie** — On accompagne le foie, tout en douceur.
+8. **l'estomac** — On apaise le haut du ventre (les poussées perturbent la digestion).
+9. **les surrénales** — On soutient l'énergie et l'équilibre du corps.
 
 _Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
 

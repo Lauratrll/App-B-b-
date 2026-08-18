@@ -18,7 +18,7 @@
     {
       "ordre": 1,
       "designation": "la colonne vertébrale et le nerf vague",
-      "intention": "On glisse le long de la colonne, version allongée qui intègre le nerf vague : détendre tout l'axe et apaiser en profondeur.",
+      "intention": "On glisse le long de la colonne, version allongée qui intègre le nerf vague : détendre l'axe et apaiser en profondeur.",
       "zones": [
         {
           "zone": "colonne-nerf-vague",
@@ -30,34 +30,8 @@
     },
     {
       "ordre": 2,
-      "designation": "le bassin",
-      "intention": "Un mouvement enveloppant sur le talon : ancrer, poser, rassurer.",
-      "zones": [
-        {
-          "zone": "bassin",
-          "designation": "le bassin",
-          "mouvement": "spirale-centripete",
-          "description_mouvement": "Effectuez un mouvement circulaire de l'extérieur vers le centre"
-        }
-      ]
-    },
-    {
-      "ordre": 3,
-      "designation": "les reins",
-      "intention": "Un appui tranquille sur les reins : apaiser le trop-plein, relâcher les peurs.",
-      "zones": [
-        {
-          "zone": "rein",
-          "designation": "les reins",
-          "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
-        }
-      ]
-    },
-    {
-      "ordre": 4,
       "designation": "les poumons",
-      "intention": "De petits cercles qui avancent sur le coussinet : ouvrir le souffle, laisser respirer.",
+      "intention": "On ouvre la respiration, on aide bébé à trouver son souffle.",
       "zones": [
         {
           "zone": "poumon",
@@ -68,9 +42,9 @@
       ]
     },
     {
-      "ordre": 5,
+      "ordre": 3,
       "designation": "le plexus solaire",
-      "intention": "Au centre de la voûte, une pression douce et maintenue : le point d'apaisement des émotions.",
+      "intention": "On apaise le centre des émotions, on relâche les tensions.",
       "zones": [
         {
           "zone": "plexus-solaire",
@@ -81,15 +55,41 @@
       ]
     },
     {
-      "ordre": 6,
+      "ordre": 4,
       "designation": "le foie",
-      "intention": "Un temps doux sur le foie : accompagner ce qui se transforme et se digère.",
+      "intention": "On accompagne le foie, tout en douceur.",
       "zones": [
         {
           "zone": "foie",
           "designation": "le foie",
           "mouvement": "pression-circulaire",
           "description_mouvement": "Exercez une pression circulaire sur la zone"
+        }
+      ]
+    },
+    {
+      "ordre": 5,
+      "designation": "les reins",
+      "intention": "On soutient les reins, l'énergie profonde du corps.",
+      "zones": [
+        {
+          "zone": "rein",
+          "designation": "les reins",
+          "mouvement": "pression-maintenue",
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+        }
+      ]
+    },
+    {
+      "ordre": 6,
+      "designation": "le bassin",
+      "intention": "On termine par le bassin, en spirale lente : ancrer, refermer le soin.",
+      "zones": [
+        {
+          "zone": "bassin",
+          "designation": "le bassin",
+          "mouvement": "spirale-centripete",
+          "description_mouvement": "Effectuez un mouvement circulaire de l'extérieur vers le centre"
         }
       ]
     }
