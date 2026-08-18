@@ -316,9 +316,14 @@ type Anim =
       efface: number;
       /**
        * Gros intestin enchaîné : une fois son passage fini, ce pied RESTE COLORIÉ
-       * pendant que l'autre pied joue (et pendant la pause), au lieu de s'effacer.
+       * pendant que l'autre pied joue, puis les DEUX pieds retrouvent leur
+       * transparence EN MÊME TEMPS (à la fin du passage du 2e pied), avant la pause.
        */
       enchaine: boolean;
+      /** Décalage de départ de ce pied DANS le tour (gros intestin enchaîné). */
+      withinOffset: number;
+      /** Round-time où TOUS les pieds du tour ont fini leur passage (avant la pause). */
+      roundActiveEnd: number;
       /** Sens inverse (Diarrhée) : trajectoire parcourue depuis la fin. */
       reverse: boolean;
     }
@@ -1213,6 +1218,8 @@ export function ReflexoLecteur({
             stride,
             efface: effacePause,
             enchaine,
+            withinOffset,
+            roundActiveEnd: accEnch, // fin de tous les passages du tour (avant la pause)
             // Rail « inverse » dédié → joué à l'endroit ; sinon reverse du rail de base.
             reverse: s.inverse === true && !inverseDedie,
           });
@@ -1321,11 +1328,66 @@ export function ReflexoLecteur({
             else eteindre(pt); // pause avant le point suivant
           });
         }
+      } else if (a.kind === "glisse" && a.enchaine) {
+        // GROS INTESTIN — horloge de TOUR partagée par les deux pieds : un
+        // « mouvement » = pied 1 puis pied 2 (enchaînés) ; le pied 1 reste colorié
+        // pendant que le pied 2 joue ; puis les DEUX pieds retrouvent leur
+        // transparence EN MÊME TEMPS (à la fin du passage du 2e pied), avant la
+        // pause de 1,5 s ; on recommence — `passages` tours. Au dernier tour, la
+        // zone reste figée coloriée.
+        const { durAct, passages: P, trLen } = a;
+        const roundLen = a.stride;
+        const round = Math.floor(elapsed / roundLen);
+        if (round >= P) {
+          a.groupe.el.style.opacity = String(OP_FIN);
+          a.trainee.setAttribute("opacity", "0");
+          a.doigt.setAttribute("opacity", "0");
+          continue;
+        }
+        const rt = elapsed - round * roundLen; // temps DANS le tour (partagé)
+        const isLast = round === P - 1;
+        const gStart = a.withinOffset;
+        const gEnd = a.withinOffset + durAct;
+        if (rt < gStart) {
+          // Pas encore le tour de ce pied : au repos, sans tracé ni doigt.
+          a.groupe.el.style.opacity = String(OP_REPOS);
+          a.trainee.setAttribute("opacity", "0");
+          a.trainee.style.strokeDashoffset = String(trLen);
+          a.doigt.setAttribute("opacity", "0");
+        } else if (rt < gEnd) {
+          // GLISSE de ce pied.
+          const k = (rt - gStart) / durAct;
+          const actif = k > 0.004 && k < 0.999;
+          const kk = a.reverse ? 1 - k : k;
+          const pt = a.med ? pointSurMediane(a.med, kk) : a.trainee.getPointAtLength(trLen * kk);
+          a.doigt.setAttribute("cx", String(pt.x));
+          a.doigt.setAttribute("cy", String(pt.y));
+          a.doigt.setAttribute("r", String(a.fingerR));
+          a.doigt.setAttribute("opacity", actif ? "1" : "0");
+          a.trainee.style.strokeDashoffset = String(a.reverse ? -trLen * (1 - k) : trLen * (1 - k));
+          a.groupe.el.style.opacity = String(OP_REPOS);
+          a.trainee.setAttribute("opacity", k > 0.004 ? String(a.trOp) : "0");
+        } else if (rt < a.roundActiveEnd) {
+          // A joué, l'AUTRE pied joue encore : RESTE COLORIÉ (tracé dévoilé).
+          a.doigt.setAttribute("opacity", "0");
+          a.trainee.style.strokeDashoffset = "0";
+          a.trainee.setAttribute("opacity", String(a.trOp));
+          a.groupe.el.style.opacity = String(OP_REPOS);
+        } else if (isLast) {
+          // Dernier tour, les deux pieds ont fini : zone figée coloriée.
+          a.doigt.setAttribute("opacity", "0");
+          a.trainee.setAttribute("opacity", "0");
+          a.groupe.el.style.opacity = String(OP_FIN);
+        } else {
+          // Les DEUX pieds ont fini → RETOUR TRANSPARENCE au MÊME instant, puis pause.
+          a.doigt.setAttribute("opacity", "0");
+          a.trainee.setAttribute("opacity", "0");
+          a.trainee.style.strokeDashoffset = String(trLen);
+          a.groupe.el.style.opacity = String(OP_REPOS);
+        }
       } else if (a.kind === "glisse") {
         const { durAct, passages: P, trLen, total } = a;
-        // Enchaînement : cette zone attend son tour (décalage). AVANT son tour,
-        // on montre déjà la zone en transparence (OP_REPOS) — les DEUX pieds sont
-        // visibles dès le début — mais sans traînée ni doigt.
+        // AVANT son tour, on montre déjà la zone en transparence (OP_REPOS).
         const le = elapsed - a.offset;
         if (le < 0) {
           a.groupe.el.style.opacity = String(OP_REPOS);
@@ -1340,9 +1402,7 @@ export function ReflexoLecteur({
           a.doigt.setAttribute("opacity", "0");
           continue;
         }
-        // Passage courant : un passage tous les `stride` (= segFull sans
-        // entrelacement ; = 2×segFull pour le gros intestin, le temps que
-        // l'autre pied joue le sien).
+        // Passage courant (un passage tous les `stride`).
         let t = le;
         let p = 0;
         while (p < P - 1 && t >= a.stride) {
@@ -1354,34 +1414,21 @@ export function ReflexoLecteur({
           // GLISSE : le doigt avance, la traînée se dévoile à sa suite.
           const k = t / durAct;
           const actif = k > 0.004 && k < 0.999; // anti-artefact : rien au tout début/fin
-          // Sens inverse (Diarrhée) : on parcourt la trajectoire depuis la fin.
           const kk = a.reverse ? 1 - k : k;
-          // Position + rayon : médiane (avec épaisseur locale) ou tracé baké.
           const pt = a.med ? pointSurMediane(a.med, kk) : a.trainee.getPointAtLength(trLen * kk);
           a.doigt.setAttribute("cx", String(pt.x));
           a.doigt.setAttribute("cy", String(pt.y));
-          a.doigt.setAttribute("r", String(a.fingerR)); // coiffe la traînée
+          a.doigt.setAttribute("r", String(a.fingerR));
           a.doigt.setAttribute("opacity", actif ? "1" : "0");
-          // Dévoilement : depuis la fin du tracé si inverse (décalage négatif).
           a.trainee.style.strokeDashoffset = String(a.reverse ? -trLen * (1 - k) : trLen * (1 - k));
           if (dernier && k > GLISSE_SEUIL_FIN) {
-            // Fin : la zone monte vers OP_FIN, la traînée se résorbe (fondu croisé).
             const v = (k - GLISSE_SEUIL_FIN) / (1 - GLISSE_SEUIL_FIN);
             a.groupe.el.style.opacity = String(OP_REPOS + (OP_FIN - OP_REPOS) * v);
             a.trainee.setAttribute("opacity", String(a.trOp * (1 - v)));
           } else {
             a.groupe.el.style.opacity = String(OP_REPOS);
-            // Traînée cachée tant que le geste n'a rien dévoilé (disque fantôme).
             a.trainee.setAttribute("opacity", k > 0.004 ? String(a.trOp) : "0");
           }
-        } else if (a.enchaine) {
-          // GROS INTESTIN : ce pied a fini son passage et RESTE COLORIÉ (tracé
-          // entièrement dévoilé) pendant que l'AUTRE pied joue, et pendant la
-          // pause ; il recommencera au tour suivant. (Pas d'effacement.)
-          a.doigt.setAttribute("opacity", "0");
-          a.trainee.style.strokeDashoffset = "0";
-          a.trainee.setAttribute("opacity", String(a.trOp));
-          a.groupe.el.style.opacity = String(OP_REPOS);
         } else {
           // EFFACEMENT de la traînée avant le passage suivant (forme au repos).
           const e = Math.min((t - durAct) / a.efface, 1);
