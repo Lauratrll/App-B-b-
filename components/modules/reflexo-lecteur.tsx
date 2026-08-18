@@ -63,6 +63,15 @@ const CIRC_T_PAUSE = 500; // respiration entre deux orteils
 const CIRC_SEUIL_FIN = 0.78; // à partir d'où l'orteil se fige (fondu croisé)
 const CIRC_OP_TRAINEE = 0.6; // traînée plus transparente (repassages, §3)
 
+// Zone digestive — mouvement composite (§9) : d'abord le TRAIT (bande verticale)
+// en pression glissée haut→bas, 3 passages (retour à la transparence entre chaque
+// pour bien voir le doigt passer) ; PUIS la grande SURFACE (talon) en boucles
+// progressives, le doigt partant du début du tracé. Le trait reste colorié
+// pendant que la surface se remplit.
+const DIG_T_TRAIT = 2600; // un passage du trait (glissé), geste lent
+const DIG_TRAIT_PASSAGES = 3;
+const DIG_T_SURF = 9000; // la surface (boucles), geste très lent
+
 // Système urinaire — mouvement composite (§14 quater) : maintenue vessie →
 // glissée lente → maintenue rein, répété `passages` fois. Réglages des pressions
 // maintenues repris du prototype ; la glissée entre les deux points est LENTE.
@@ -223,6 +232,8 @@ type Anim =
   // Pression circulaire (tête) : les orteils se travaillent UN À UN (gros → petit),
   // 3 tours chacun ; l'orteil se colorie au passage puis se fige, on passe au suivant.
   | { kind: "circulaire"; groupe: CibleInfo; orteils: Orteil[] }
+  // Zone digestive (§9) : trait glissé ×3 (avec retour transparence), PUIS surface.
+  | { kind: "digestive"; groupe: CibleInfo; trait: DigPart; surf: DigPart }
   // Zones tracé sans géométrie encore branchée : coloriage progressif seul.
   | { kind: "reveal"; groupe: CibleInfo };
 
@@ -241,6 +252,16 @@ type UrinairePoint = {
   cx: number;
   cy: number;
   ondes: { el: SVGCircleElement; r0: number; decalage: number }[];
+};
+
+// Une partie de la zone digestive (le trait, ou la surface) : sa forme (opacité
+// pilotée à part), son tracé clippé, et le doigt qui le parcourt.
+type DigPart = {
+  shape: SVGGraphicsElement;
+  trail: SVGPathElement;
+  trailLen: number;
+  doigt: SVGCircleElement;
+  fingerR: number;
 };
 
 export function ReflexoLecteur({
@@ -539,6 +560,76 @@ export function ReflexoLecteur({
             grpDuree,
             orteils.reduce((s, o) => s + o.dur + CIRC_T_PAUSE, 0),
           );
+        } else if (id.includes("digestive") && geom && estTrace(geom) && defs && !reducedMotion) {
+          // ZONE DIGESTIVE (§9) — composite : le TRAIT (sous-tracé 0) puis la
+          // SURFACE (sous-tracé 1). Chaque forme (path du groupe) est pilotée en
+          // opacité séparément. On appaire chaque sous-tracé à la forme la plus
+          // proche (robuste à l'ordre des <path>).
+          ci.el.style.opacity = "1";
+          const gTrace = geom;
+          const subs = gTrace.d.split(/(?=M)/).map((s) => s.trim()).filter(Boolean);
+          const fills = Array.from(ci.el.querySelectorAll<SVGGraphicsElement>("path"));
+          const usedFill = new Set<number>();
+          const faireDigPart = (d: string, isSurf: boolean): DigPart => {
+            const tmp = document.createElementNS(NS, "path");
+            tmp.setAttribute("d", d);
+            gOver.appendChild(tmp);
+            const len = tmp.getTotalLength();
+            const mid = tmp.getPointAtLength(len / 2);
+            gOver.removeChild(tmp);
+            let best = -1;
+            let bd = Infinity;
+            fills.forEach((fp, k) => {
+              if (usedFill.has(k)) return;
+              const b = fp.getBBox();
+              const dx = b.x + b.width / 2 - mid.x;
+              const dy = b.y + b.height / 2 - mid.y;
+              const dist = dx * dx + dy * dy;
+              if (dist < bd) {
+                bd = dist;
+                best = k;
+              }
+            });
+            const shape = best >= 0 ? fills[best] : ci.el;
+            if (best >= 0) usedFill.add(best);
+            const bb = (shape as SVGGraphicsElement).getBBox();
+            // Trait : brosse ≈ largeur de la bande. Surface : gros doigt (brush du tracé).
+            const brush = isSurf ? gTrace.brush : Math.max(Math.min(bb.width, bb.height), 18);
+            const fingerR = isSurf ? Math.max(10, brush * 0.42) : brush / 2;
+            shape.style.opacity = String(OP_REPOS);
+            const clip = document.createElementNS(NS, "clipPath");
+            const clipId = `rfxclip-dig-${id}-${isSurf ? "s" : "t"}`;
+            clip.setAttribute("id", clipId);
+            const cp = document.createElementNS(NS, "path");
+            cp.setAttribute("d", shape.getAttribute("d") || "");
+            clip.appendChild(cp);
+            defs.appendChild(clip);
+            const trail = document.createElementNS(NS, "path");
+            trail.setAttribute("d", d);
+            trail.setAttribute("fill", "none");
+            trail.setAttribute("stroke", ci.fill);
+            trail.setAttribute("stroke-width", String(brush));
+            trail.setAttribute("stroke-linecap", "round");
+            trail.setAttribute("stroke-linejoin", "round");
+            trail.setAttribute("clip-path", `url(#${clipId})`);
+            trail.setAttribute("opacity", "0");
+            gOver.appendChild(trail);
+            trail.style.strokeDasharray = String(len);
+            trail.style.strokeDashoffset = String(len);
+            const doigt = document.createElementNS(NS, "circle");
+            doigt.setAttribute("r", String(fingerR));
+            doigt.setAttribute("fill", ci.fill);
+            doigt.setAttribute("clip-path", `url(#${clipId})`);
+            doigt.setAttribute("opacity", "0");
+            gOver.appendChild(doigt);
+            return { shape, trail, trailLen: len, doigt, fingerR };
+          };
+          const trait = faireDigPart(subs[0], false);
+          const surf = faireDigPart(subs[1] ?? subs[0], true);
+          anims.push({ kind: "digestive", groupe: ci, trait, surf });
+          const segTrait = DIG_T_TRAIT + GLISSE_T_EFFACE;
+          const traitTotal = (DIG_TRAIT_PASSAGES - 1) * segTrait + DIG_T_TRAIT;
+          grpDuree = Math.max(grpDuree, traitTotal + DIG_T_SURF);
         } else if (id.includes("systeme-urinaire") && ci.points.length >= 2 && defs && !reducedMotion) {
           // SYSTÈME URINAIRE — composite (§14 quater). Deux points : vessie (le
           // plus BAS = cy max) et rein (le plus HAUT = cy min). On construit un
@@ -780,6 +871,10 @@ export function ReflexoLecteur({
             dur,
             a.orteils.reduce((s, o) => s + o.dur + CIRC_T_PAUSE, 0) + GLISSE_T_FIN,
           );
+        } else if (a.kind === "digestive") {
+          const segTrait = DIG_T_TRAIT + GLISSE_T_EFFACE;
+          const traitTotal = (DIG_TRAIT_PASSAGES - 1) * segTrait + DIG_T_TRAIT;
+          dur = Math.max(dur, traitTotal + DIG_T_SURF + GLISSE_T_FIN);
         }
       }
       stepDurRef.current = dur;
@@ -1021,6 +1116,76 @@ export function ReflexoLecteur({
             }
           }
           start = fin + CIRC_T_PAUSE;
+        }
+      } else if (a.kind === "digestive") {
+        // ZONE DIGESTIVE — d'abord le TRAIT ×3 (retour à la transparence entre
+        // chaque passage pour bien voir le doigt), PUIS la grande SURFACE.
+        const segTrait = DIG_T_TRAIT + GLISSE_T_EFFACE;
+        const P = DIG_TRAIT_PASSAGES;
+        const traitTotal = (P - 1) * segTrait + DIG_T_TRAIT;
+        if (elapsed < traitTotal) {
+          // PHASE 1 : le trait, 3 passages. La surface reste au repos.
+          a.surf.shape.style.opacity = String(OP_REPOS);
+          a.surf.trail.setAttribute("opacity", "0");
+          a.surf.doigt.setAttribute("opacity", "0");
+          let t = elapsed;
+          let p = 0;
+          while (p < P - 1 && t >= segTrait) {
+            t -= segTrait;
+            p++;
+          }
+          const dernier = p === P - 1;
+          const part = a.trait;
+          if (t < DIG_T_TRAIT) {
+            const k = t / DIG_T_TRAIT;
+            const pt = part.trail.getPointAtLength(part.trailLen * k);
+            part.doigt.setAttribute("cx", String(pt.x));
+            part.doigt.setAttribute("cy", String(pt.y));
+            part.doigt.setAttribute("opacity", k > 0.004 && k < 0.999 ? "1" : "0");
+            part.trail.style.strokeDashoffset = String(part.trailLen * (1 - k));
+            if (dernier && k > GLISSE_SEUIL_FIN) {
+              const v = (k - GLISSE_SEUIL_FIN) / (1 - GLISSE_SEUIL_FIN);
+              part.shape.style.opacity = String(OP_REPOS + (OP_FIN - OP_REPOS) * v);
+              part.trail.setAttribute("opacity", String(OP_TRAINEE * (1 - v)));
+            } else {
+              part.shape.style.opacity = String(OP_REPOS);
+              part.trail.setAttribute("opacity", k > 0.004 ? String(OP_TRAINEE) : "0");
+            }
+          } else {
+            // Retour à la transparence (effacement) avant le passage suivant.
+            const e = Math.min((t - DIG_T_TRAIT) / GLISSE_T_EFFACE, 1);
+            part.doigt.setAttribute("opacity", "0");
+            part.trail.setAttribute("opacity", String(OP_TRAINEE * (1 - e)));
+            part.shape.style.opacity = String(OP_REPOS);
+          }
+        } else {
+          // Trait terminé : il reste colorié (0.90) pendant que la surface se remplit.
+          a.trait.shape.style.opacity = String(OP_FIN);
+          a.trait.trail.setAttribute("opacity", "0");
+          a.trait.doigt.setAttribute("opacity", "0");
+          // PHASE 2 : la surface. Le doigt part du DÉBUT du tracé (k=0).
+          const te = elapsed - traitTotal;
+          const part = a.surf;
+          if (te >= DIG_T_SURF) {
+            part.shape.style.opacity = String(OP_FIN);
+            part.trail.setAttribute("opacity", "0");
+            part.doigt.setAttribute("opacity", "0");
+          } else {
+            const k = te / DIG_T_SURF;
+            const pt = part.trail.getPointAtLength(part.trailLen * k);
+            part.doigt.setAttribute("cx", String(pt.x));
+            part.doigt.setAttribute("cy", String(pt.y));
+            part.doigt.setAttribute("opacity", k > 0.004 && k < 0.999 ? "1" : "0");
+            part.trail.style.strokeDashoffset = String(part.trailLen * (1 - k));
+            if (k > 0.85) {
+              const v = (k - 0.85) / (1 - 0.85);
+              part.shape.style.opacity = String(OP_REPOS + (OP_FIN - OP_REPOS) * v);
+              part.trail.setAttribute("opacity", String(OP_TRAINEE * (1 - v)));
+            } else {
+              part.shape.style.opacity = String(OP_REPOS);
+              part.trail.setAttribute("opacity", k > 0.004 ? String(OP_TRAINEE) : "0");
+            }
+          }
         }
       } else {
         // Coloriage progressif seul.
