@@ -170,7 +170,15 @@ type GeomGlisse = {
   /** Pause entre deux passages (ms), si réglée à part (ex. thyroïde 500). */
   efface?: number;
 };
-type GeomTrace = { d: string; brush: number; passages: number; duree: number; traineeOp: number };
+type GeomTrace = {
+  d: string;
+  brush: number;
+  passages: number;
+  duree: number;
+  traineeOp: number;
+  /** Pause entre deux passages (ms), si réglée à part (ex. amygdales 500). */
+  efface?: number;
+};
 type Geom = GeomGlisse | GeomTrace;
 const estTrace = (g: Geom): g is GeomTrace => "d" in g;
 
@@ -1107,6 +1115,7 @@ export function ReflexoLecteur({
             trOp = geom.traineeOp;
             fingerR = Math.max(10, brush * 0.42);
             passages = geom.passages || 3;
+            effacePause = geom.efface ?? GLISSE_T_EFFACE; // pause entre passages (amygdales)
           } else {
             if (geom.pts.length <= 1) {
               anims.push({ kind: "reveal", groupe: ci });

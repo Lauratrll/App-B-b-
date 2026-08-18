@@ -149,6 +149,15 @@ for (const id of ["zone-thyroide-d", "zone-thyroide-g"]) {
   }
 }
 
+// AMYGDALES (demande Laura) : 3 passages, avec retour à la transparence entre
+// chaque et 0,5 s de pause entre les mouvements.
+for (const id of ["zone-amygdales-d", "zone-amygdales-g"]) {
+  if (sortie[id]) {
+    sortie[id].passages = 3;
+    sortie[id].efface = 500;
+  }
+}
+
 writeFileSync(OUT, JSON.stringify(sortie));
 console.log(
   `✓ ${nbZones} zone(s) glissée extraite(s) (${nbPts} points de médiane) → ${OUT}`,
