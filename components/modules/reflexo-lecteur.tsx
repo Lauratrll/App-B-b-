@@ -135,7 +135,16 @@ type CibleInfo = {
 //  - glissé : médiane échantillonnée (pts = [x, y, épaisseur_locale]) + epMax.
 //  - tracé  : chemin baké brut `d` (spirale, boucles, circulaire, composite)
 //             suivi via getPointAtLength, avec sa largeur de brosse et sa durée.
-type GeomGlisse = { pts: number[][]; epMax: number; passages: number; enchaine?: boolean };
+type GeomGlisse = {
+  pts: number[][];
+  epMax: number;
+  passages: number;
+  enchaine?: boolean;
+  /** Durée d'un passage (ms), si réglée à part (ex. thyroïde 4000). Sinon calculée. */
+  dureePassage?: number;
+  /** Pause entre deux passages (ms), si réglée à part (ex. thyroïde 500). */
+  efface?: number;
+};
 type GeomTrace = { d: string; brush: number; passages: number; duree: number; traineeOp: number };
 type Geom = GeomGlisse | GeomTrace;
 const estTrace = (g: Geom): g is GeomTrace => "d" in g;
@@ -213,6 +222,8 @@ type Anim =
        * fini son passage avant le sien : stride = nbPieds × durée d'un passage.
        */
       stride: number;
+      /** Pause (effacement) entre deux passages (ms) — réglable par zone (thyroïde). */
+      efface: number;
       /**
        * Gros intestin enchaîné : une fois son passage fini, ce pied RESTE COLORIÉ
        * pendant que l'autre pied joue (et pendant la pause), au lieu de s'effacer.
@@ -773,6 +784,7 @@ export function ReflexoLecteur({
           let fingerR = 0;
           let passages: number;
           let enchaine = false;
+          let effacePause = GLISSE_T_EFFACE; // pause entre passages (réglable par zone)
           if (estTrace(geom)) {
             traineeD = geom.d;
             brush = geom.brush;
@@ -789,7 +801,10 @@ export function ReflexoLecteur({
             traineeD = "M " + med.pts.map((p) => `${p[0]} ${p[1]}`).join(" L ");
             epMax = geom.epMax;
             brush = Math.max(epMax * 1.5, 22);
-            durAct = Math.max(GLISSE_T_MIN, Math.min(GLISSE_T_MAX, med.total / GLISSE_VITESSE));
+            // Durée d'un passage : réglée à part si `dureePassage` (ex. thyroïde 4 s),
+            // sinon à vitesse constante bornée. Pause entre passages : `efface` sinon défaut.
+            durAct = geom.dureePassage ?? Math.max(GLISSE_T_MIN, Math.min(GLISSE_T_MAX, med.total / GLISSE_VITESSE));
+            effacePause = geom.efface ?? GLISSE_T_EFFACE;
             trOp = OP_TRAINEE;
             passages = geom.passages || 3;
             enchaine = geom.enchaine === true;
@@ -845,7 +860,7 @@ export function ReflexoLecteur({
           if (clipId) doigt.setAttribute("clip-path", `url(#${clipId})`);
           doigt.setAttribute("opacity", "0");
           gOver.appendChild(doigt);
-          const segFull = durAct + GLISSE_T_EFFACE; // durée d'un passage
+          const segFull = durAct + effacePause; // durée d'un passage + pause
           // Gros intestin (`enchaine`) : un « mouvement » = pied droit PUIS pied
           // gauche ENCHAÎNÉS de façon fluide (le gauche démarre pile quand le droit
           // finit), suivi d'une pause de 1,5 s ; le tout répété `passages` fois.
@@ -872,6 +887,7 @@ export function ReflexoLecteur({
             offset,
             total,
             stride,
+            efface: effacePause,
             enchaine,
             // Rail « inverse » dédié → joué à l'endroit ; sinon reverse du rail de base.
             reverse: s.inverse === true && !inverseDedie,
@@ -1039,7 +1055,7 @@ export function ReflexoLecteur({
           a.groupe.el.style.opacity = String(OP_REPOS);
         } else {
           // EFFACEMENT de la traînée avant le passage suivant (forme au repos).
-          const e = Math.min((t - durAct) / GLISSE_T_EFFACE, 1);
+          const e = Math.min((t - durAct) / a.efface, 1);
           a.doigt.setAttribute("opacity", "0");
           a.trainee.setAttribute("opacity", String(a.trOp * (1 - e)));
           a.groupe.el.style.opacity = String(OP_REPOS);

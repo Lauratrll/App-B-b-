@@ -140,6 +140,15 @@ for (const z of ZONES) {
   }
 }
 
+// THYROÏDE (demande Laura) : geste plus lent — un passage en 4 s, avec 0,5 s de
+// pause entre chaque passage (au lieu de la durée calculée sur la longueur).
+for (const id of ["zone-thyroide-d", "zone-thyroide-g"]) {
+  if (sortie[id]) {
+    sortie[id].dureePassage = 4000;
+    sortie[id].efface = 500;
+  }
+}
+
 writeFileSync(OUT, JSON.stringify(sortie));
 console.log(
   `✓ ${nbZones} zone(s) glissée extraite(s) (${nbPts} points de médiane) → ${OUT}`,
