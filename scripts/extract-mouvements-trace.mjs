@@ -60,8 +60,8 @@ for (const [nom, duree] of [["bassin", 6000]]) {
     });
   }
 }
-// Boucles : 1 tracé par pied.
-for (const [nom, duree] of [["poumon", 8600], ["pancreas", 5000], ["estomac", 5000]]) {
+// Boucles : 1 tracé par pied. (estomac régénéré plus bas — départ sur le bord.)
+for (const [nom, duree] of [["poumon", 8600], ["pancreas", 5000]]) {
   for (const f of ["d", "g"]) {
     CONFIG.push({
       zone: `zone-${nom}-${f}`,
@@ -150,29 +150,9 @@ const BB = {
   sinusG: [746.7, 100.7, 334.3, 174.9],
 };
 
-// FOIE : mouvement du poumon (boucles), de l'EXTÉRIEUR vers l'INTÉRIEUR (Laura).
-if (sortie["zone-poumon-d"]) {
-  const src = sortie["zone-poumon-d"];
-  const scale = Math.min(BB.foieD[2] / BB.poumonD[2], BB.foieD[3] / BB.poumonD[3]);
-  sortie["zone-foie-d"] = {
-    d: mapperD(src.d, BB.poumonD, BB.foieD, true),
-    brush: Math.round(src.brush * scale * 10) / 10,
-    passages: 3, duree: 8600, traineeOp: 0.75,
-  };
-  nb++;
-}
-
-// RATE : symétrique du foie (pied gauche) — mouvement du poumon, ext → int.
-if (sortie["zone-poumon-g"]) {
-  const src = sortie["zone-poumon-g"];
-  const scale = Math.min(BB.rateG[2] / BB.poumonG[2], BB.rateG[3] / BB.poumonG[3]);
-  sortie["zone-rate-g"] = {
-    d: mapperD(src.d, BB.poumonG, BB.rateG, true),
-    brush: Math.round(src.brush * scale * 10) / 10,
-    passages: 3, duree: 8600, traineeOp: 0.75,
-  };
-  nb++;
-}
+// FOIE (pied droit) et RATE (pied gauche) sont régénérés plus bas avec le même
+// moteur « cercles avancés » que l'estomac / l'intestin grêle (départ sur le
+// bord, boucles épousant le contour, toute la hauteur). Voir GEN_ZONES.
 
 // SINUS : pression GLISSÉE (demande Laura), orteil par orteil (5 sous-zones).
 // Un petit glissé le long de chaque sous-zone (généré depuis la forme du SVG).
@@ -316,6 +296,75 @@ for (const f of ["d", "g"]) {
   // Variante Diarrhée : rail « inverse » dédié (joué à l'endroit, pas en reverse).
   sortie[`zone-intestin-grele-${f}-inverse`] = { d: toD(bouclesRail(f, true)), ...base };
   nb += 2;
+}
+
+// ESTOMAC / FOIE / RATE — même moteur « cercles avancés » (comme le pancréas,
+// validé) : on COMMENCE par longer le bord du côté de départ (bas → haut), PUIS
+// les boucles avancent en SE CHEVAUCHANT (bx=4·a) et en épousant le contour, sur
+// TOUTE LA HAUTEUR. Évite le « retour en arrière » et le début mal placé.
+// (demandes Laura). Contours mesurés sur le SVG.
+const GEN_CONTOUR = {
+  "zone-estomac-d": { bbox: [439,398,75,53],
+    left: [[480,399],[464,403],[454,407],[448,411],[444,415],[441,419],[439,422],[439,426],[439,430],[439,434],[441,438],[444,441],[449,445],[457,449]],
+    right: [[514,399],[512,403],[510,407],[508,411],[506,415],[505,419],[503,422],[501,426],[500,430],[498,434],[497,438],[496,441],[495,445],[493,449]],
+    prof: [[441,416,440],[447,412,444],[452,409,446],[457,407,448],[463,405,449],[468,403,450],[474,402,450],[479,401,451],[484,400,451],[490,400,451],[495,399,451],[500,398,433],[506,398,420],[511,398,409]] },
+  "zone-estomac-g": { bbox: [750,398,121,58],
+    left: [[750,400],[752,404],[755,408],[756,412],[758,416],[761,420],[762,425],[764,429],[766,433],[767,437],[769,441],[770,445],[771,450],[777,454]],
+    right: [[819,400],[847,404],[857,408],[863,412],[867,416],[870,420],[871,425],[872,429],[872,433],[871,437],[870,441],[868,445],[865,450],[859,454]],
+    prof: [[755,398,416],[763,398,437],[772,399,452],[781,399,453],[789,399,454],[798,400,454],[807,400,455],[815,401,456],[824,402,456],[833,403,456],[841,404,456],[850,405,455],[859,408,454],[867,414,449]] },
+  "zone-foie-d": { bbox: [241,431,126,78],
+    left: [[288,434],[269,440],[257,445],[248,451],[243,456],[241,462],[241,467],[241,473],[241,478],[242,484],[243,490],[245,495],[248,501],[253,506]],
+    right: [[352,434],[359,440],[363,445],[365,451],[366,456],[366,462],[366,467],[365,473],[363,478],[360,484],[356,490],[348,495],[334,501],[313,506]],
+    prof: [[245,452,500],[254,447,507],[263,443,509],[272,440,509],[281,437,509],[290,435,508],[299,433,507],[308,432,505],[317,431,504],[326,431,502],[335,432,499],[344,433,496],[353,435,492],[362,441,485]] },
+  "zone-rate-g": { bbox: [944,429,78,79],
+    left: [[962,432],[954,437],[949,443],[947,449],[945,454],[944,460],[944,466],[944,471],[944,477],[946,483],[948,488],[951,494],[955,500],[962,505]],
+    right: [[1008,432],[1014,437],[1018,443],[1020,449],[1022,454],[1022,460],[1022,466],[1022,471],[1020,477],[1019,483],[1016,488],[1013,494],[1009,500],[1002,505]],
+    prof: [[947,446,489],[952,439,496],[958,435,501],[963,433,505],[969,431,507],[975,430,508],[980,429,508],[986,429,508],[991,429,508],[997,430,507],[1002,431,504],[1008,433,500],[1014,437,494],[1019,443,485]] },
+};
+function bouclesGen(id, opt) {
+  const C = GEN_CONTOUR[id];
+  const [x0, , w] = C.bbox;
+  const fingerR = opt.brush * 0.42;
+  const mIn = fingerR * 0.7;
+  const mX = 11;
+  const xL = x0 + mX, xR = x0 + w - mX;
+  const ycAt = (x) => (interpCol(C.prof, x, 1) + interpCol(C.prof, x, 2)) / 2;
+  const RyAt = (x) => Math.max(5, (interpCol(C.prof, x, 2) - interpCol(C.prof, x, 1)) / 2 - mIn);
+  const loops = Math.max(4, Math.round((xR - xL) / opt.loopsDiv));
+  const a = (xR - xL) / (2 * Math.PI * loops);
+  const Rh = 4 * a; // bx = 4·a → boucles qui se chevauchent
+  const steps = loops * 30;
+  const sideLeft = opt.side === "left";
+  const startX = sideLeft ? xL : xR;
+  const sign = sideLeft ? 1 : -1; // sens d'avance
+  const edge = sideLeft ? C.left : C.right;
+  const yc0 = ycAt(startX), Ry0 = RyAt(startX);
+  const pts = [];
+  const nB = 12;
+  // Bordure : suit le bord du côté de départ, bas → haut.
+  for (let i = 0; i <= nB; i++) {
+    const y = yc0 + Ry0 * Math.cos(Math.PI * (i / nB));
+    pts.push([interpByY(edge, y) + sign * mIn, y]);
+  }
+  // Boucles qui avancent (sens `sign`), amplitude épousant le contour, départ haut.
+  for (let i = 1; i <= steps; i++) {
+    const th = (i / steps) * (2 * Math.PI * loops);
+    const x = startX + sign * a * th + Rh * Math.sin(th);
+    pts.push([x, ycAt(x) - RyAt(x) * Math.cos(th)]);
+  }
+  return "M " + pts.map((p) => `${Math.round(p[0] * 10) / 10} ${Math.round(p[1] * 10) / 10}`).join(" L ");
+}
+// side = bord de DÉPART ; l'avance se fait vers le bord opposé.
+//   estomac : gros orteil → extérieur (comme le pancréas) · foie/rate : ext → int.
+const GEN_ZONES = [
+  { id: "zone-estomac-d", side: "right", brush: 34, loopsDiv: 17, duree: 6000 },
+  { id: "zone-estomac-g", side: "left", brush: 34, loopsDiv: 17, duree: 6000 },
+  { id: "zone-foie-d", side: "left", brush: 26, loopsDiv: 20, duree: 8600 },
+  { id: "zone-rate-g", side: "right", brush: 26, loopsDiv: 20, duree: 8600 },
+];
+for (const z of GEN_ZONES) {
+  sortie[z.id] = { d: bouclesGen(z.id, z), brush: z.brush, passages: 3, duree: z.duree, traineeOp: 0.75 };
+  nb++;
 }
 
 // Longueur d'un polyligne [[x,y],…].
