@@ -70,7 +70,8 @@ const CIRC_OP_TRAINEE = 0.6; // traînée plus transparente (repassages, §3)
 // pendant que la surface se remplit.
 const DIG_T_TRAIT = 2600; // un passage du trait (glissé), geste lent
 const DIG_TRAIT_PASSAGES = 3;
-const DIG_T_SURF = 9000; // la surface (boucles), geste très lent
+const DIG_T_SURF = 6000; // un passage de la surface (boucles), geste lent
+const DIG_SURF_PASSAGES = 3; // la grande surface est aussi parcourue 3 fois
 
 // Système urinaire — mouvement composite (§14 quater) : maintenue vessie →
 // glissée lente → maintenue rein, répété `passages` fois. Réglages des pressions
@@ -629,7 +630,9 @@ export function ReflexoLecteur({
           anims.push({ kind: "digestive", groupe: ci, trait, surf });
           const segTrait = DIG_T_TRAIT + GLISSE_T_EFFACE;
           const traitTotal = (DIG_TRAIT_PASSAGES - 1) * segTrait + DIG_T_TRAIT;
-          grpDuree = Math.max(grpDuree, traitTotal + DIG_T_SURF);
+          const segSurf = DIG_T_SURF + GLISSE_T_EFFACE;
+          const surfTotal = (DIG_SURF_PASSAGES - 1) * segSurf + DIG_T_SURF;
+          grpDuree = Math.max(grpDuree, traitTotal + surfTotal);
         } else if (id.includes("systeme-urinaire") && ci.points.length >= 2 && defs && !reducedMotion) {
           // SYSTÈME URINAIRE — composite (§14 quater). Deux points : vessie (le
           // plus BAS = cy max) et rein (le plus HAUT = cy min). On construit un
@@ -874,7 +877,9 @@ export function ReflexoLecteur({
         } else if (a.kind === "digestive") {
           const segTrait = DIG_T_TRAIT + GLISSE_T_EFFACE;
           const traitTotal = (DIG_TRAIT_PASSAGES - 1) * segTrait + DIG_T_TRAIT;
-          dur = Math.max(dur, traitTotal + DIG_T_SURF + GLISSE_T_FIN);
+          const segSurf = DIG_T_SURF + GLISSE_T_EFFACE;
+          const surfTotal = (DIG_SURF_PASSAGES - 1) * segSurf + DIG_T_SURF;
+          dur = Math.max(dur, traitTotal + surfTotal + GLISSE_T_FIN);
         }
       }
       stepDurRef.current = dur;
@@ -1163,27 +1168,46 @@ export function ReflexoLecteur({
           a.trait.shape.style.opacity = String(OP_FIN);
           a.trait.trail.setAttribute("opacity", "0");
           a.trait.doigt.setAttribute("opacity", "0");
-          // PHASE 2 : la surface. Le doigt part du DÉBUT du tracé (k=0).
+          // PHASE 2 : la surface, 3 passages (retour à la transparence entre
+          // chaque). Le doigt part du DÉBUT du tracé à chaque passage (k=0).
+          const segSurf = DIG_T_SURF + GLISSE_T_EFFACE;
+          const Ps = DIG_SURF_PASSAGES;
+          const surfTotal = (Ps - 1) * segSurf + DIG_T_SURF;
           const te = elapsed - traitTotal;
           const part = a.surf;
-          if (te >= DIG_T_SURF) {
+          if (te >= surfTotal) {
             part.shape.style.opacity = String(OP_FIN);
             part.trail.setAttribute("opacity", "0");
             part.doigt.setAttribute("opacity", "0");
           } else {
-            const k = te / DIG_T_SURF;
-            const pt = part.trail.getPointAtLength(part.trailLen * k);
-            part.doigt.setAttribute("cx", String(pt.x));
-            part.doigt.setAttribute("cy", String(pt.y));
-            part.doigt.setAttribute("opacity", k > 0.004 && k < 0.999 ? "1" : "0");
-            part.trail.style.strokeDashoffset = String(part.trailLen * (1 - k));
-            if (k > 0.85) {
-              const v = (k - 0.85) / (1 - 0.85);
-              part.shape.style.opacity = String(OP_REPOS + (OP_FIN - OP_REPOS) * v);
-              part.trail.setAttribute("opacity", String(OP_TRAINEE * (1 - v)));
+            let t = te;
+            let p = 0;
+            while (p < Ps - 1 && t >= segSurf) {
+              t -= segSurf;
+              p++;
+            }
+            const dernier = p === Ps - 1;
+            if (t < DIG_T_SURF) {
+              const k = t / DIG_T_SURF;
+              const pt = part.trail.getPointAtLength(part.trailLen * k);
+              part.doigt.setAttribute("cx", String(pt.x));
+              part.doigt.setAttribute("cy", String(pt.y));
+              part.doigt.setAttribute("opacity", k > 0.004 && k < 0.999 ? "1" : "0");
+              part.trail.style.strokeDashoffset = String(part.trailLen * (1 - k));
+              if (dernier && k > 0.85) {
+                const v = (k - 0.85) / (1 - 0.85);
+                part.shape.style.opacity = String(OP_REPOS + (OP_FIN - OP_REPOS) * v);
+                part.trail.setAttribute("opacity", String(OP_TRAINEE * (1 - v)));
+              } else {
+                part.shape.style.opacity = String(OP_REPOS);
+                part.trail.setAttribute("opacity", k > 0.004 ? String(OP_TRAINEE) : "0");
+              }
             } else {
+              // Retour à la transparence avant le passage suivant.
+              const e = Math.min((t - DIG_T_SURF) / GLISSE_T_EFFACE, 1);
+              part.doigt.setAttribute("opacity", "0");
+              part.trail.setAttribute("opacity", String(OP_TRAINEE * (1 - e)));
               part.shape.style.opacity = String(OP_REPOS);
-              part.trail.setAttribute("opacity", k > 0.004 ? String(OP_TRAINEE) : "0");
             }
           }
         }
