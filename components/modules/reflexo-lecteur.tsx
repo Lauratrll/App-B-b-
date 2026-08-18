@@ -93,6 +93,14 @@ const DENTS_PASSAGE = 2000; // durée d'un passage (glissé le long d'une dent)
 const DENTS_PAUSE = 500; // pause entre 2 passages
 const DENTS_PASSAGES = 2; // 2 passages par mâchoire
 
+// Sinus — orteil par orteil (gros → petit). Mouvement de va-et-vient le long du
+// bord arrondi SUPÉRIEUR de l'orteil, 2 aller-retours SANS pause, en 5 s pour le
+// gros orteil et 4 s pour les autres, avec 0,5 s de pause entre orteils. (Laura)
+const SINUS_DUR_GROS = 5000;
+const SINUS_DUR_PETIT = 4000;
+const SINUS_PAUSE = 500;
+const SINUS_ALLERS = 2; // 2 aller-retours (→ 4 demi-parcours)
+
 const GLISSE_T_EFFACE = 550; // effacement de la traînée entre 2 passages
 const GLISSE_T_FIN = 1200; // temps de maintien de l'état figé avant reprise
 const GLISSE_SEUIL_FIN = 0.82; // au-delà, le dernier passage fige la couleur
@@ -177,6 +185,51 @@ function pointSurMediane(m: PreparedMidline, k: number): { x: number; y: number;
   };
 }
 type PreparedMidline = { pts: number[][]; cum: number[]; total: number };
+
+// Ordre des orteils GROS → PETIT à partir des formes (le gros orteil est la plus
+// grande, à une extrémité de la rangée). Renvoie les indices dans cet ordre.
+function trierOrteils(orteils: SVGGraphicsElement[]): number[] {
+  const n = orteils.length;
+  if (n === 0) return [];
+  const aire = (el: SVGGraphicsElement) => {
+    const b = el.getBBox();
+    return b.width * b.height;
+  };
+  const idx = orteils.map((_, i) => i);
+  // Le gros orteil est à l'extrémité la plus grande ; on part de là.
+  return aire(orteils[0]) >= aire(orteils[n - 1]) ? idx : idx.reverse();
+}
+
+// Bord SUPÉRIEUR (arc du haut) d'une forme d'orteil : pour chaque tranche en x,
+// le point le plus HAUT du contour (y mini), rentré un peu vers le bas pour que
+// le doigt repose sur le dessus de l'orteil. Renvoie les points de x bas → x haut.
+function bordSuperieur(orteil: SVGGraphicsElement, insetY: number): { x: number; y: number }[] {
+  const p = orteil as SVGPathElement;
+  const bb = p.getBBox();
+  let L = 0;
+  try {
+    L = p.getTotalLength();
+  } catch {
+    return [];
+  }
+  const samples: { x: number; y: number }[] = [];
+  for (let i = 0; i <= 300; i++) {
+    const pt = p.getPointAtLength((L * i) / 300);
+    samples.push({ x: pt.x, y: pt.y });
+  }
+  const nb = 10;
+  const edge: { x: number; y: number }[] = [];
+  for (let b = 0; b < nb; b++) {
+    const xa = bb.x + (bb.width * b) / nb;
+    const xb = bb.x + (bb.width * (b + 1)) / nb;
+    let top: { x: number; y: number } | null = null;
+    for (const s of samples) {
+      if (s.x >= xa && s.x < xb && (!top || s.y < top.y)) top = s;
+    }
+    if (top) edge.push({ x: (xa + xb) / 2, y: top.y + insetY });
+  }
+  return edge;
+}
 
 function preparerMediane(pts: number[][]): PreparedMidline {
   const cum = [0];
@@ -267,6 +320,8 @@ type Anim =
   | { kind: "digestive"; groupe: CibleInfo; trait: DigPart; surf: DigPart }
   // Dents : orteil par orteil, mâchoire haute puis basse (2 passages chacune).
   | { kind: "dents"; segments: DentSeg[] }
+  // Sinus : orteil par orteil, va-et-vient le long du bord supérieur de l'orteil.
+  | { kind: "sinus"; toes: SinusToe[] }
   // Zones tracé sans géométrie encore branchée : coloriage progressif seul.
   | { kind: "reveal"; groupe: CibleInfo };
 
@@ -285,6 +340,17 @@ type UrinairePoint = {
   cx: number;
   cy: number;
   ondes: { el: SVGCircleElement; r0: number; decalage: number }[];
+};
+
+// Un orteil « sinus » : le doigt fait un va-et-vient le long de son bord supérieur.
+type SinusToe = {
+  trail: SVGPathElement;
+  trailLen: number;
+  doigt: SVGCircleElement;
+  fingerR: number;
+  dur: number; // 5 s pour le gros orteil, 4 s pour les autres
+  ordre: number; // ordre de passage : 0 = gros orteil … 4 = petit
+  trOp: number;
 };
 
 // Un segment « dents » = une dent (un orteil) d'une mâchoire, pour un pied.
@@ -562,6 +628,77 @@ export function ReflexoLecteur({
         // 5 orteils × 2 mâchoires × 2 passages = 20 unités (passage + pause).
         const nbToes = Math.max(1, ...segments.map((sg) => sg.toe + 1));
         stepDurRef.current = nbToes * 2 * DENTS_PASSAGES * (DENTS_PASSAGE + DENTS_PAUSE);
+        t0Ref.current = performance.now();
+        return;
+      }
+
+      // SINUS — orteil par orteil (gros → petit), va-et-vient le long du bord
+      // arrondi SUPÉRIEUR de chaque orteil (on travaille le DESSUS, pas le bas).
+      const aSinus = s.cibles.some((c) => c.includes("zone-sinus"));
+      if (aSinus && defs && !reducedMotion) {
+        const toes: SinusToe[] = [];
+        for (const f of ["d", "g"] as const) {
+          const ci = info.get(`zone-sinus-${f}`);
+          if (!ci) continue;
+          ci.el.style.display = "";
+          ci.el.style.opacity = String(OP_REPOS);
+          const dents = Array.from(ci.el.querySelectorAll<SVGGraphicsElement>("path"));
+          const ordreGrosPetit = trierOrteils(dents); // indices, gros → petit
+          ordreGrosPetit.forEach((idx, ordre) => {
+            const orteil = dents[idx];
+            const bb = orteil.getBBox();
+            const hauteur = bb.height;
+            const fingerR = Math.max(5, hauteur * 0.28);
+            // Bord SUPÉRIEUR (arc du haut) échantillonné, légèrement rentré vers
+            // l'intérieur de l'orteil pour que le doigt soit posé sur le dessus.
+            let bord = bordSuperieur(orteil, fingerR * 0.7);
+            // Départ côté GROS ORTEIL : pied droit → côté x haut (vers le centre) ;
+            // pied gauche → côté x bas. Le bord échantillonné va de x bas → x haut.
+            if (f === "d") bord = bord.slice().reverse();
+            if (bord.length < 2) return;
+            const d = "M " + bord.map((p) => `${Math.round(p.x * 10) / 10} ${Math.round(p.y * 10) / 10}`).join(" L ");
+            const clip = document.createElementNS(NS, "clipPath");
+            const clipId = `rfxclip-sinus-${f}-${idx}`;
+            clip.setAttribute("id", clipId);
+            const cp = document.createElementNS(NS, "path");
+            cp.setAttribute("d", orteil.getAttribute("d") || "");
+            clip.appendChild(cp);
+            defs.appendChild(clip);
+            const trail = document.createElementNS(NS, "path");
+            trail.setAttribute("d", d);
+            trail.setAttribute("fill", "none");
+            trail.setAttribute("stroke", ci.fill);
+            trail.setAttribute("stroke-width", String(Math.max(12, hauteur * 0.75)));
+            trail.setAttribute("stroke-linecap", "round");
+            trail.setAttribute("stroke-linejoin", "round");
+            trail.setAttribute("clip-path", `url(#${clipId})`);
+            trail.setAttribute("opacity", "0");
+            gOver.appendChild(trail);
+            const trailLen = trail.getTotalLength();
+            trail.style.strokeDasharray = String(trailLen);
+            trail.style.strokeDashoffset = String(trailLen);
+            const doigt = document.createElementNS(NS, "circle");
+            doigt.setAttribute("r", String(fingerR));
+            doigt.setAttribute("fill", ci.fill);
+            doigt.setAttribute("clip-path", `url(#${clipId})`);
+            doigt.setAttribute("opacity", "0");
+            gOver.appendChild(doigt);
+            toes.push({
+              trail,
+              trailLen,
+              doigt,
+              fingerR,
+              dur: ordre === 0 ? SINUS_DUR_GROS : SINUS_DUR_PETIT,
+              ordre,
+              trOp: OP_TRAINEE,
+            });
+          });
+        }
+        anims.push({ kind: "sinus", toes });
+        animsRef.current = anims;
+        const nbOrteils = Math.max(1, ...toes.map((t) => t.ordre + 1));
+        stepDurRef.current =
+          SINUS_DUR_GROS + (nbOrteils - 1) * SINUS_DUR_PETIT + nbOrteils * SINUS_PAUSE;
         t0Ref.current = performance.now();
         return;
       }
@@ -1411,6 +1548,41 @@ export function ReflexoLecteur({
             seg.doigt.setAttribute("opacity", "0");
             seg.trail.style.strokeDashoffset = "0";
             seg.trail.setAttribute("opacity", String(OP_FIN));
+          }
+        }
+      } else if (a.kind === "sinus") {
+        // SINUS — orteil par orteil (gros → petit) : va-et-vient le long du bord
+        // supérieur, 2 aller-retours SANS pause (5 s gros / 4 s petits), 0,5 s de
+        // pause entre orteils. Les deux pieds jouent le même orteil ensemble.
+        const durOf = (o: number) => (o === 0 ? SINUS_DUR_GROS : SINUS_DUR_PETIT);
+        for (const toe of a.toes) {
+          let start = 0;
+          for (let o = 0; o < toe.ordre; o++) start += durOf(o) + SINUS_PAUSE;
+          const fin = start + toe.dur;
+          if (elapsed < start) {
+            toe.trail.setAttribute("opacity", "0");
+            toe.trail.style.strokeDashoffset = String(toe.trailLen);
+            toe.doigt.setAttribute("opacity", "0");
+          } else if (elapsed >= fin) {
+            // Orteil terminé : reste colorié.
+            toe.trail.style.strokeDashoffset = "0";
+            toe.trail.setAttribute("opacity", String(OP_FIN));
+            toe.doigt.setAttribute("opacity", "0");
+          } else {
+            // Va-et-vient : le doigt oscille 0→1→0→1→0 (2 aller-retours).
+            const t = (elapsed - start) / toe.dur;
+            const phase = t * (2 * SINUS_ALLERS); // 0..4
+            const seg = Math.floor(phase);
+            const frac = phase - seg;
+            const u = seg % 2 === 0 ? frac : 1 - frac;
+            const pt = toe.trail.getPointAtLength(toe.trailLen * u);
+            toe.doigt.setAttribute("cx", String(pt.x));
+            toe.doigt.setAttribute("cy", String(pt.y));
+            toe.doigt.setAttribute("opacity", "1");
+            // Coloriage dévoilé au 1er aller, puis conservé.
+            const reveal = Math.min(1, phase);
+            toe.trail.style.strokeDashoffset = String(toe.trailLen * (1 - reveal));
+            toe.trail.setAttribute("opacity", String(toe.trOp));
           }
         }
       } else {
