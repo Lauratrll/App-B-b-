@@ -7,6 +7,7 @@ import {
   REFLEXO_BG_DOUX,
   REFLEXO_MUTED,
   REFLEXO_TEXT,
+  texteGras,
 } from "@/components/modules/reflexo-design";
 
 // Onglet « Réflexologie plantaire » — remplace l'onglet « Jeux ».
@@ -132,7 +133,7 @@ export default async function ReflexologiePage() {
                 margin: i === 0 ? 0 : "10px 0 0 0",
               }}
             >
-              {p}
+              {texteGras(p)}
             </p>
           ))}
 
@@ -178,7 +179,7 @@ export default async function ReflexologiePage() {
                     margin: 0,
                   }}
                 >
-                  {p.texte}
+                  {texteGras(p.texte)}
                 </p>
               </li>
             ))}
@@ -194,7 +195,7 @@ export default async function ReflexologiePage() {
                 margin: "14px 0 0 0",
               }}
             >
-              {accueilReflexo.note_fin}
+              {texteGras(accueilReflexo.note_fin)}
             </p>
           ) : null}
         </div>

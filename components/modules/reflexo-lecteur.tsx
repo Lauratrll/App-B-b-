@@ -19,6 +19,7 @@
 //    prototypes mouvement-*.html sera branchée ici au palier suivant.
 
 import { useCallback, useEffect, useRef, useState } from "react";
+import { texteGras } from "./reflexo-design";
 import type { ReflexoAnimStep } from "@/lib/reflexologie";
 
 const SVG_URL = "/reflexologie/pieds_bebe_zones_reflexes.svg";
@@ -1954,7 +1955,7 @@ export function ReflexoLecteur({
               <div key={`${z.designation}-${i}`}>
                 <p style={{ fontSize: 17, lineHeight: 1.4, margin: 0 }}>
                   <span style={{ color: EUCAL }}>{i + 1}. </span>
-                  {z.phrase || z.designation}
+                  {texteGras(z.phrase || z.designation)}
                 </p>
                 {z.geste ? (
                   <p style={{ fontSize: 13, color: EUCAL, lineHeight: 1.45, margin: "2px 0 0" }}>
@@ -1967,11 +1968,11 @@ export function ReflexoLecteur({
         ) : (
           <>
             <p className="reflexo-fade" style={{ fontSize: 19, lineHeight: 1.45, margin: "0 0 14px" }}>
-              {s?.intention}
+              {texteGras(s?.intention ?? "")}
             </p>
             {s?.desc ? (
               <p className="reflexo-fade" style={{ fontSize: 14, color: EUCAL, lineHeight: 1.5, margin: 0 }}>
-                {s.desc}
+                {texteGras(s.desc)}
               </p>
             ) : null}
           </>

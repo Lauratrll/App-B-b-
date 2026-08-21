@@ -21,6 +21,7 @@ import {
   REFLEXO_BG_DOUX,
   REFLEXO_MUTED,
   REFLEXO_TEXT,
+  texteGras,
 } from "@/components/modules/reflexo-design";
 
 // Écran d'un protocole de « Réflexologie ».
@@ -118,7 +119,7 @@ export default async function ProtocoleReflexoPage({
             margin: 0,
           }}
         >
-          {protocole.intro}
+          {texteGras(protocole.intro)}
         </p>
       </header>
 
@@ -136,7 +137,7 @@ export default async function ProtocoleReflexoPage({
             margin: 0,
           }}
         >
-          {protocole.emotion}
+          {texteGras(protocole.emotion)}
         </p>
       ) : null}
 
@@ -305,7 +306,7 @@ export default async function ProtocoleReflexoPage({
               margin: 0,
             }}
           >
-            {protocole.variante.texte}
+            {texteGras(protocole.variante.texte)}
           </p>
           {/* Carte récapitulative de la version complète (séquence + variante),
               avec son propre lecteur animé. */}
@@ -351,7 +352,7 @@ export default async function ProtocoleReflexoPage({
           >
             ⚠️
           </span>
-          {protocole.vigilance}
+          {texteGras(protocole.vigilance)}
         </p>
       ) : null}
 
@@ -367,7 +368,7 @@ export default async function ProtocoleReflexoPage({
           margin: 0,
         }}
       >
-        {protocole.note_fin}
+        {texteGras(protocole.note_fin)}
       </p>
 
       {/* 7. Disclaimer — toujours affiché */}
@@ -456,7 +457,7 @@ function EtapeCarte({ etape }: { etape: ReflexoEtape }) {
             margin: "8px 0 0 0",
           }}
         >
-          {pourquoi}
+          {texteGras(pourquoi)}
         </p>
       ) : null}
 
@@ -471,7 +472,7 @@ function EtapeCarte({ etape }: { etape: ReflexoEtape }) {
             margin: "5px 0 0 0",
           }}
         >
-          {zones[0].geste}
+          {texteGras(zones[0].geste)}
         </p>
       ) : null}
 
@@ -548,7 +549,7 @@ function EtapeCarte({ etape }: { etape: ReflexoEtape }) {
                     margin: "2px 0 0 0",
                   }}
                 >
-                  {z.phrase}
+                  {texteGras(z.phrase)}
                 </p>
               ) : null}
               {z.geste ? (
