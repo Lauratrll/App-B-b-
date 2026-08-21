@@ -200,7 +200,7 @@ export default async function ReflexologiePage() {
         </div>
       </details>
 
-      {/* Liste des protocoles publiés + recherche par situation */}
+      {/* Liste des protocoles publiés, dans l'ordre éditorial de l'index */}
       <section style={{ display: "flex", flexDirection: "column", gap: 12 }}>
         <h2
           style={{
