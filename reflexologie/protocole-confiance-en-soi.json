@@ -18,151 +18,166 @@
   "sequence": [
     {
       "ordre": 1,
-      "designation": "la colonne vertébrale et le contour du corps",
-      "intention": "On détend tout l'axe du dos, puis on épouse le contour du corps : soutenir, envelopper, donner confiance.",
+      "designation": "le contour de la colonne vertébrale",
+      "intention": "Détend l'axe du dos, contient le corps.",
       "zones": [
-        {
-          "zone": "colonne-vertebrale",
-          "designation": "la colonne vertébrale",
-          "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
-        },
         {
           "zone": "colonne-vertebrale-contour",
           "designation": "le contour de la colonne vertébrale",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Détend l'axe du dos, contient le corps.",
+          "choix": "Physio"
         }
-      ],
-      "gestes_enchaines": true
+      ]
     },
     {
       "ordre": 2,
       "designation": "l'hypophyse",
-      "intention": "On réveille en douceur le chef d'orchestre du corps.",
+      "intention": "Harmonise la régulation des hormones.",
       "zones": [
         {
           "zone": "hypophyse",
           "designation": "l'hypophyse",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Harmonise la régulation des hormones.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 3,
-      "designation": "le point coronal",
-      "intention": "On pose un appui doux au sommet de la tête : rassembler, apaiser.",
+      "designation": "le chakra coronal",
+      "intention": "Soutient la conscience de soi et la concentration.",
       "zones": [
         {
           "zone": "coronal",
-          "designation": "le point coronal",
+          "designation": "le chakra coronal",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Soutient la conscience de soi et la concentration.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 4,
       "designation": "le thymus",
-      "intention": "On soutient les défenses, tout en douceur.",
+      "intention": "Soutient les défenses immunitaires.",
       "zones": [
         {
           "zone": "thymus",
           "designation": "le thymus",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Soutient les défenses immunitaires.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 5,
       "designation": "le diaphragme",
-      "intention": "On relâche la coupole du ventre : la respiration se déplie.",
+      "intention": "Détend, aide au retour au calme.",
       "zones": [
         {
           "zone": "diaphragme",
           "designation": "le diaphragme",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Détend, aide au retour au calme.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 6,
       "designation": "le plexus solaire",
-      "intention": "On apaise le centre des émotions, là où les tensions se logent.",
+      "intention": "Centre des émotions : libère et apporte de la joie.",
       "zones": [
         {
           "zone": "plexus-solaire",
           "designation": "le plexus solaire",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Centre des émotions : libère et apporte de la joie.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 7,
       "designation": "les surrénales",
-      "intention": "On soutient l'énergie et l'équilibre du corps.",
+      "intention": "Soutient l'énergie et la réponse au stress.",
       "zones": [
         {
           "zone": "surrenales",
           "designation": "les surrénales",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Soutient l'énergie et la réponse au stress.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 8,
       "designation": "l'estomac",
-      "intention": "On apaise le haut du ventre.",
+      "intention": "Digère les émotions, apaise la rumination.",
       "zones": [
         {
           "zone": "estomac",
           "designation": "l'estomac",
           "mouvement": "boucles-progressives",
-          "description_mouvement": "Effectuez de petits cercles qui avancent"
+          "description_mouvement": "Effectuez de petits cercles qui avancent",
+          "phrase": "Digère les émotions, apaise la rumination.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 9,
       "designation": "la vésicule biliaire",
-      "intention": "On accompagne la vésicule en douceur, sans forcer.",
+      "intention": "Apaise l'irritabilité.",
       "zones": [
         {
           "zone": "vesicule",
           "designation": "la vésicule biliaire",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Apaise l'irritabilité.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 10,
       "designation": "le système urinaire",
-      "intention": "On maintient un appui doux sur la vessie, on glisse lentement jusqu'au rein, on y pose l'appui — trois fois.",
+      "intention": "Rejète la peur, soutient la confiance.",
       "zones": [
         {
           "zone": "systeme-urinaire",
           "designation": "le système urinaire",
           "mouvement": "composite",
-          "description_mouvement": "Pression maintenue sur la vessie, puis pression glissée lente jusqu'au rein, puis pression maintenue sur le rein"
+          "description_mouvement": "Pression maintenue sur la vessie, puis pression glissée lente jusqu'au rein, puis pression maintenue sur le rein",
+          "phrase": "Rejète la peur, soutient la confiance.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 11,
       "designation": "le bassin",
-      "intention": "On termine par le bassin, en spirale lente : ancrer, refermer le soin.",
+      "intention": "Détend le bassin et ancre.",
       "zones": [
         {
           "zone": "bassin",
           "designation": "le bassin",
           "mouvement": "spirale-centripete",
-          "description_mouvement": "Effectuez un mouvement circulaire de l'extérieur vers le centre"
+          "description_mouvement": "Effectuez un mouvement circulaire de l'extérieur vers le centre",
+          "phrase": "Détend le bassin et ancre.",
+          "choix": "Physio"
         }
       ]
     }

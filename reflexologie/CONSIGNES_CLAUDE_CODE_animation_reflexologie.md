@@ -151,6 +151,8 @@ Stocker chaque point `[x, y, épaisseur locale]`.
 
 **Zones à plusieurs orteils** (dents haut, dents bas, amygdales) : chaque orteil est un petit glissé, enchaînés du gros orteil vers le petit ; **vitesse constante `VITESSE_EL`** (durée de chaque orteil ∝ sa longueur, le gros orteil dure donc plus longtemps) ; plancher `T_MIN_EL2` 800 ms ; une zone peut avoir sa propre `vitesse_el` (les amygdales sont un peu plus lentes). Passages : 2.
 
+> **⚠️ Cas particulier — les dents sont sur le DESSUS du pied.** Les zones `dents-machoire-haute` et `dents-machoire-bas` se travaillent **sur le dessus du pied**, autour de l'ongle du gros orteil (zone haute et zone basse), **et non sous la plante**. C'est contre-intuitif : l'illustration principale est une vue plantaire, mais ce geste est **dorsal**. **À signaler clairement au parent dans l'app** (texte + éventuellement un petit visuel du dessus du pied). Champs `emplacement` et `mise_en_avant: true` sur ces zones dans `zones-mouvements.json`.
+
 **Zones (pression glissée) :** diaphragme, colonne-vertebrale, **colonne-nerf-vague**, colonne-vertebrale-contour, oesophage, cou, bassin-ancrage, gros-intestin, thyroide, dents-machoire-haute, dents-machoire-bas, amygdales, **nez**, **oreilles**.
 
 Sous-cas particuliers dans ce fichier :

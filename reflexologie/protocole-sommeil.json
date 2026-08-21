@@ -19,104 +19,120 @@
     {
       "ordre": 1,
       "designation": "la tête",
-      "intention": "On commence tout en douceur par la tête, pour accueillir bébé dans le calme.",
+      "intention": "Apaise la tête, accueille bébé entier.",
       "zones": [
         {
           "zone": "tete",
           "designation": "la tête",
           "mouvement": "pression-circulaire",
-          "description_mouvement": "Exercez une pression circulaire sur les orteils"
+          "description_mouvement": "Exercez une pression circulaire sur les orteils",
+          "phrase": "Apaise la tête, accueille bébé entier.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 2,
       "designation": "l'hypophyse",
-      "intention": "On apaise le chef d'orchestre du corps, on invite au relâchement.",
+      "intention": "Harmonise la régulation des hormones.",
       "zones": [
         {
           "zone": "hypophyse",
           "designation": "l'hypophyse",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Harmonise la régulation des hormones.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 3,
       "designation": "l'épiphyse",
-      "intention": "On pose un appui doux : l'épiphyse accompagne le rythme jour/nuit.",
+      "intention": "Régule les cycles éveil-sommeil.",
       "zones": [
         {
           "zone": "epiphyse",
           "designation": "l'épiphyse",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Régule les cycles éveil-sommeil.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 4,
       "designation": "le diaphragme",
-      "intention": "On relâche la coupole du ventre : la respiration s'apaise, le corps se pose.",
+      "intention": "Détend, aide au retour au calme.",
       "zones": [
         {
           "zone": "diaphragme",
           "designation": "le diaphragme",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Détend, aide au retour au calme.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 5,
       "designation": "le thymus",
-      "intention": "On soutient les défenses, tout en douceur.",
+      "intention": "Régule le stress.",
       "zones": [
         {
           "zone": "thymus",
           "designation": "le thymus",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Régule le stress.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 6,
       "designation": "la thyroïde",
-      "intention": "On accompagne le rythme du corps, on aide à ralentir.",
+      "intention": "Accompagne le rythme du métabolisme.",
       "zones": [
         {
           "zone": "thyroide",
           "designation": "la thyroïde",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Accompagne le rythme du métabolisme.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 7,
       "designation": "le plexus solaire",
-      "intention": "On apaise le centre des émotions, on dénoue les tensions du soir.",
+      "intention": "Centre des émotions : libère et apporte de la joie.",
       "zones": [
         {
           "zone": "plexus-solaire",
           "designation": "le plexus solaire",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Centre des émotions : libère et apporte de la joie.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 8,
       "designation": "les surrénales",
-      "intention": "On apaise la décharge d'énergie, on invite au repos.",
+      "intention": "Soutient l'énergie et la réponse au stress.",
       "zones": [
         {
           "zone": "surrenales",
           "designation": "les surrénales",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Soutient l'énergie et la réponse au stress.",
+          "choix": "Physio"
         }
       ]
     }
@@ -137,13 +153,15 @@
       {
         "ordre": 9,
         "designation": "la vésicule biliaire",
-        "intention": "On accompagne la vésicule en douceur, pour apaiser les nuits agitées.",
+        "intention": "Apaise et dissout les cauchemars.",
         "zones": [
           {
             "zone": "vesicule",
             "designation": "la vésicule biliaire",
             "mouvement": "pression-maintenue",
-            "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+            "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+            "phrase": "Apaise et dissout les cauchemars.",
+            "choix": "sur-mesure"
           }
         ]
       }

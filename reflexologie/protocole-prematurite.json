@@ -18,78 +18,90 @@
     {
       "ordre": 1,
       "designation": "la colonne vertébrale et le nerf vague",
-      "intention": "On glisse le long de la colonne, version allongée qui intègre le nerf vague : détendre l'axe et apaiser en profondeur.",
+      "intention": "Détend l'axe du dos et apaise en profondeur.",
       "zones": [
         {
           "zone": "colonne-nerf-vague",
           "designation": "la colonne vertébrale et le nerf vague",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la colonne, en intégrant le nerf vague"
+          "description_mouvement": "Faites glisser le pouce le long de la colonne, en intégrant le nerf vague",
+          "phrase": "Détend l'axe du dos et apaise en profondeur.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 2,
       "designation": "les poumons",
-      "intention": "On ouvre la respiration, on aide bébé à trouver son souffle.",
+      "intention": "Ouvre la respiration, oxygène le corps.",
       "zones": [
         {
           "zone": "poumon",
           "designation": "les poumons",
           "mouvement": "boucles-progressives",
-          "description_mouvement": "Effectuez de petits cercles qui avancent, de l'intérieur vers l'extérieur"
+          "description_mouvement": "Effectuez de petits cercles qui avancent, de l'intérieur vers l'extérieur",
+          "phrase": "Ouvre la respiration, oxygène le corps.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 3,
       "designation": "le plexus solaire",
-      "intention": "On apaise le centre des émotions, on relâche les tensions.",
+      "intention": "Centre des émotions : libère et apporte de la joie.",
       "zones": [
         {
           "zone": "plexus-solaire",
           "designation": "le plexus solaire",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Centre des émotions : libère et apporte de la joie.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 4,
       "designation": "le foie",
-      "intention": "On accompagne le foie, tout en douceur.",
+      "intention": "Relâche la colère et la frustration, invite au calme.",
       "zones": [
         {
           "zone": "foie",
           "designation": "le foie",
           "mouvement": "pression-circulaire",
-          "description_mouvement": "Exercez une pression circulaire sur la zone"
+          "description_mouvement": "Exercez une pression circulaire sur la zone",
+          "phrase": "Relâche la colère et la frustration, invite au calme.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 5,
       "designation": "les reins",
-      "intention": "On soutient les reins, l'énergie profonde du corps.",
+      "intention": "Apaise la peur, donne confiance.",
       "zones": [
         {
           "zone": "rein",
           "designation": "les reins",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Apaise la peur, donne confiance.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 6,
       "designation": "le bassin",
-      "intention": "On termine par le bassin, en spirale lente : ancrer, refermer le soin.",
+      "intention": "Favorise l'ancrage dans son nouveau monde.",
       "zones": [
         {
           "zone": "bassin",
           "designation": "le bassin",
           "mouvement": "spirale-centripete",
-          "description_mouvement": "Effectuez un mouvement circulaire de l'extérieur vers le centre"
+          "description_mouvement": "Effectuez un mouvement circulaire de l'extérieur vers le centre",
+          "phrase": "Favorise l'ancrage dans son nouveau monde.",
+          "choix": "sur-mesure"
         }
       ]
     }

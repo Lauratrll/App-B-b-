@@ -7,9 +7,11 @@ import {
   getProtocole,
   getStepsAnimation,
   ouvertureCommune,
+  texteZone,
   varianteVisible,
   visuelUrl,
-  type ReflexoZone,
+  type ReflexoEtape,
+  type ReflexoZoneTexte,
 } from "@/lib/reflexologie";
 import { ReflexoCarte } from "@/components/modules/reflexo-lecteur";
 import {
@@ -44,6 +46,9 @@ export default async function ProtocoleReflexoPage({
 
   const afficherVariante = varianteVisible(protocole.variante, moisBebe);
   const visuel = visuelUrl(protocole.visuel);
+  // La variante a sa propre carte récapitulative (Sommeil « avec cauchemars » :
+  // 9 zones au lieu de 8) — affichée seulement quand la variante l'est.
+  const visuelVariante = visuelUrl(protocole.visuel_cauchemars);
 
   return (
     <article style={{ display: "flex", flexDirection: "column", gap: 20 }}>
@@ -267,88 +272,7 @@ export default async function ProtocoleReflexoPage({
         </h2>
 
         {protocole.sequence.map((etape) => (
-          <div
-            key={etape.ordre}
-            style={{
-              border: "1px solid rgba(58,50,40,.10)",
-              borderRadius: 13,
-              padding: "13px 15px",
-            }}
-          >
-            <div style={{ display: "flex", alignItems: "baseline", gap: 9 }}>
-              <span
-                aria-hidden
-                style={{
-                  fontSize: 10,
-                  fontWeight: 700,
-                  color: REFLEXO_MUTED,
-                  letterSpacing: ".08em",
-                }}
-              >
-                {String(etape.ordre).padStart(2, "0")}
-              </span>
-              <h3
-                style={{
-                  flex: 1,
-                  fontFamily: PLAYFAIR,
-                  fontWeight: 600,
-                  fontSize: 16,
-                  color: REFLEXO_TEXT,
-                  margin: 0,
-                  lineHeight: 1.25,
-                }}
-              >
-                {etape.designation}
-              </h3>
-            </div>
-
-            <p
-              style={{
-                fontSize: 13,
-                lineHeight: 1.6,
-                color: REFLEXO_TEXT,
-                margin: "8px 0 0 0",
-              }}
-            >
-              {etape.intention}
-            </p>
-
-            {etape.note ? (
-              <p
-                style={{
-                  fontSize: 12,
-                  lineHeight: 1.55,
-                  color: REFLEXO_TEXT,
-                  opacity: 0.8,
-                  fontStyle: "italic",
-                  margin: "7px 0 0 0",
-                }}
-              >
-                {etape.note}
-              </p>
-            ) : null}
-
-            {/* Étape hors pied : pas d'animation, juste le texte. */}
-            {etape.hors_pied ? (
-              <p
-                style={{
-                  fontSize: 10,
-                  color: REFLEXO_MUTED,
-                  letterSpacing: ".1em",
-                  textTransform: "uppercase",
-                  fontWeight: 700,
-                  margin: "9px 0 0 0",
-                }}
-              >
-                Hors du pied
-              </p>
-            ) : (
-              <ZonesEtape
-                zones={etape.zones ?? []}
-                enchainees={etape.gestes_enchaines === true}
-              />
-            )}
-          </div>
+          <EtapeCarte key={etape.ordre} etape={etape} />
         ))}
       </section>
 
@@ -383,8 +307,26 @@ export default async function ProtocoleReflexoPage({
           >
             {protocole.variante.texte}
           </p>
+          {/* Carte récapitulative de la version complète (séquence + variante),
+              avec son propre lecteur animé. */}
+          {visuelVariante ? (
+            <div style={{ marginTop: 12 }}>
+              <ReflexoCarte
+                visuel={visuelVariante}
+                titre={`${protocole.titre} — ${protocole.variante.condition.toLowerCase()}`}
+                steps={getStepsAnimation(protocole, { avecVariante: true })}
+              />
+            </div>
+          ) : null}
+
+          {/* L'ajout de la variante est une (ou plusieurs) ÉTAPE(S) complète(s),
+              à la suite de la séquence — même rendu que les étapes normales. */}
           {protocole.variante.ajout && protocole.variante.ajout.length > 0 ? (
-            <ZonesEtape zones={protocole.variante.ajout} enchainees={false} />
+            <div style={{ display: "grid", gap: 11, marginTop: 11 }}>
+              {protocole.variante.ajout.map((etape) => (
+                <EtapeCarte key={etape.ordre} etape={etape} />
+              ))}
+            </div>
           ) : null}
         </section>
       ) : null}
@@ -449,63 +391,222 @@ export default async function ProtocoleReflexoPage({
 }
 
 /**
- * Les zones d'une étape. En attendant les animations (prototypes
- * mouvement-*.html), on affiche le libellé de la zone et son mouvement.
- * `enchainees` = deux zones jouées l'une après l'autre.
+ * Une étape de la séquence : son numéro, son libellé parent, puis — pour
+ * chaque zone — le GESTE (`geste_court` du catalogue) et le POURQUOI
+ * (`phrase` du protocole, cf. consignes §4 « Textes affichés par zone »).
+ *
+ * Une étape porte le plus souvent UNE zone : son nom est alors déjà le titre
+ * de l'étape, on ne le répète pas. Les étapes à gestes enchaînés (bassin,
+ * dents, cardia/pylore) en portent deux, numérotées dans l'ordre de jeu.
  */
-function ZonesEtape({
-  zones,
-  enchainees,
-}: {
-  zones: ReflexoZone[];
-  enchainees: boolean;
-}) {
-  if (zones.length === 0) return null;
+function EtapeCarte({ etape }: { etape: ReflexoEtape }) {
+  const zones = (etape.zones ?? []).map(texteZone);
+  const uneSeule = zones.length === 1;
+  // Le pourquoi de l'étape : la phrase de la zone prime sur l'intention
+  // historique (elles sont identiques depuis la relecture des textes). Quand
+  // l'étape enchaîne deux zones, chacune porte déjà sa phrase et l'intention
+  // n'en est que la concaténation : on ne la répète pas au-dessus.
+  const pourquoi = uneSeule
+    ? zones[0].phrase || etape.intention
+    : zones.every((z) => z.phrase)
+      ? ""
+      : etape.intention;
+
   return (
-    <ul
+    <div
       style={{
-        listStyle: "none",
-        margin: "11px 0 0 0",
-        padding: 0,
-        display: "grid",
-        gap: 7,
+        border: "1px solid rgba(58,50,40,.10)",
+        borderRadius: 13,
+        padding: "13px 15px",
       }}
     >
-      {zones.map((z, i) => (
-        <li
-          key={`${z.zone}-${i}`}
+      <div style={{ display: "flex", alignItems: "baseline", gap: 9 }}>
+        <span
+          aria-hidden
           style={{
-            background: REFLEXO_BG_DOUX,
-            borderRadius: 10,
-            padding: "9px 11px",
+            fontSize: 10,
+            fontWeight: 700,
+            color: REFLEXO_MUTED,
+            letterSpacing: ".08em",
           }}
         >
-          <p
-            style={{
-              fontSize: 12,
-              fontWeight: 600,
-              color: REFLEXO_TEXT,
-              margin: 0,
-              lineHeight: 1.3,
-            }}
-          >
-            {/* Deux zones enchaînées : on indique l'ordre au parent. */}
-            {enchainees && zones.length > 1 ? `${i + 1}. ` : null}
-            {z.designation}
-          </p>
-          <p
-            style={{
-              fontSize: 12,
-              lineHeight: 1.5,
-              color: REFLEXO_TEXT,
-              opacity: 0.82,
-              margin: "2px 0 0 0",
-            }}
-          >
-            {z.description_mouvement}
-          </p>
-        </li>
-      ))}
-    </ul>
+          {String(etape.ordre).padStart(2, "0")}
+        </span>
+        <h3
+          style={{
+            flex: 1,
+            fontFamily: PLAYFAIR,
+            fontWeight: 600,
+            fontSize: 16,
+            color: REFLEXO_TEXT,
+            margin: 0,
+            lineHeight: 1.25,
+          }}
+        >
+          {etape.designation}
+        </h3>
+      </div>
+
+      {pourquoi ? (
+        <p
+          style={{
+            fontSize: 13,
+            lineHeight: 1.6,
+            color: REFLEXO_TEXT,
+            margin: "8px 0 0 0",
+          }}
+        >
+          {pourquoi}
+        </p>
+      ) : null}
+
+      {/* Le geste, quand l'étape ne porte qu'une zone. */}
+      {uneSeule && zones[0].geste ? (
+        <p
+          style={{
+            fontSize: 12,
+            lineHeight: 1.5,
+            color: REFLEXO_MUTED,
+            fontStyle: "italic",
+            margin: "5px 0 0 0",
+          }}
+        >
+          {zones[0].geste}
+        </p>
+      ) : null}
+
+      {etape.note ? (
+        <p
+          style={{
+            fontSize: 12,
+            lineHeight: 1.55,
+            color: REFLEXO_TEXT,
+            opacity: 0.8,
+            fontStyle: "italic",
+            margin: "7px 0 0 0",
+          }}
+        >
+          {etape.note}
+        </p>
+      ) : null}
+
+      {/* Étape hors pied : pas d'animation, juste le texte. */}
+      {etape.hors_pied ? (
+        <p
+          style={{
+            fontSize: 10,
+            color: REFLEXO_MUTED,
+            letterSpacing: ".1em",
+            textTransform: "uppercase",
+            fontWeight: 700,
+            margin: "9px 0 0 0",
+          }}
+        >
+          Hors du pied
+        </p>
+      ) : null}
+
+      {/* Gestes enchaînés : une ligne par zone, dans l'ordre où on les joue. */}
+      {!uneSeule && zones.length > 0 ? (
+        <ul
+          style={{
+            listStyle: "none",
+            margin: "11px 0 0 0",
+            padding: 0,
+            display: "grid",
+            gap: 7,
+          }}
+        >
+          {zones.map((z, i) => (
+            <li
+              key={`${z.designation}-${i}`}
+              style={{
+                background: REFLEXO_BG_DOUX,
+                borderRadius: 10,
+                padding: "9px 11px",
+              }}
+            >
+              <p
+                style={{
+                  fontSize: 12,
+                  fontWeight: 600,
+                  color: REFLEXO_TEXT,
+                  margin: 0,
+                  lineHeight: 1.3,
+                }}
+              >
+                {etape.gestes_enchaines ? `${i + 1}. ` : null}
+                {z.designation}
+              </p>
+              {z.phrase ? (
+                <p
+                  style={{
+                    fontSize: 12,
+                    lineHeight: 1.5,
+                    color: REFLEXO_TEXT,
+                    opacity: 0.85,
+                    margin: "2px 0 0 0",
+                  }}
+                >
+                  {z.phrase}
+                </p>
+              ) : null}
+              {z.geste ? (
+                <p
+                  style={{
+                    fontSize: 11.5,
+                    lineHeight: 1.45,
+                    color: REFLEXO_MUTED,
+                    fontStyle: "italic",
+                    margin: "2px 0 0 0",
+                  }}
+                >
+                  {z.geste}
+                </p>
+              ) : null}
+            </li>
+          ))}
+        </ul>
+      ) : null}
+
+      {/* Emplacement contre-intuitif (les dents sont SUR LE DESSUS du pied) :
+          mis en avant, sinon le parent suit l'illustration plantaire. */}
+      <EmplacementNote zones={zones} />
+    </div>
+  );
+}
+
+/**
+ * L'avertissement d'emplacement d'une zone qui ne se travaille PAS sous la
+ * plante (aujourd'hui : les deux zones « dents »). Rien n'est affiché pour
+ * toutes les autres zones.
+ */
+function EmplacementNote({ zones }: { zones: ReflexoZoneTexte[] }) {
+  const note = zones.find((z) => z.emplacement)?.emplacement;
+  if (!note) return null;
+  return (
+    <p
+      style={{
+        background: REFLEXO_BG_CADRE,
+        borderRadius: 10,
+        padding: "9px 11px",
+        margin: "9px 0 0 0",
+        fontSize: 12,
+        lineHeight: 1.5,
+        color: REFLEXO_TEXT,
+        fontWeight: 500,
+      }}
+    >
+      <span aria-hidden style={{ marginRight: 6 }}>
+        👆
+      </span>
+      {/* Capitales via textTransform : à l'écran c'est bien « SUR LE DESSUS DU
+          PIED » (choix Laura, l'info est contre-intuitive), mais les lecteurs
+          d'écran lisent le mot au lieu de l'épeler lettre par lettre. */}
+      Ce geste se fait{" "}
+      <strong style={{ textTransform: "uppercase" }}>sur le dessus du pied</strong>,
+      autour de l&apos;ongle du gros orteil (au-dessus et en dessous de
+      l&apos;ongle) — et non sous la plante, contrairement au dessin.
+    </p>
   );
 }

@@ -19,104 +19,120 @@
     {
       "ordre": 1,
       "designation": "la tête",
-      "intention": "On commence en douceur par les orteils, la zone de la tête : inviter le mental à se poser.",
+      "intention": "Favorise la circulation de l'énergie.",
       "zones": [
         {
           "zone": "tete",
           "designation": "la tête",
           "mouvement": "pression-circulaire",
-          "description_mouvement": "Exercez une pression circulaire sur les orteils"
+          "description_mouvement": "Exercez une pression circulaire sur les orteils",
+          "phrase": "Favorise la circulation de l'énergie.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 2,
       "designation": "les poumons",
-      "intention": "De petits cercles qui avancent sur le coussinet : ouvrir le souffle, laisser respirer.",
+      "intention": "Aide à lâcher prise, apaise la tristesse.",
       "zones": [
         {
           "zone": "poumon",
           "designation": "les poumons",
           "mouvement": "boucles-progressives",
-          "description_mouvement": "Effectuez de petits cercles qui avancent, de l'intérieur vers l'extérieur"
+          "description_mouvement": "Effectuez de petits cercles qui avancent, de l'intérieur vers l'extérieur",
+          "phrase": "Aide à lâcher prise, apaise la tristesse.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 3,
       "designation": "la colonne vertébrale",
-      "intention": "On accompagne le dos tout du long : détendre l'axe du corps, du haut vers le talon.",
+      "intention": "Détend, calme le système nerveux.",
       "zones": [
         {
           "zone": "colonne-vertebrale",
           "designation": "la colonne vertébrale",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Détend, calme le système nerveux.",
+          "choix": "sur-mesure"
         }
       ]
     },
     {
       "ordre": 4,
       "designation": "le diaphragme",
-      "intention": "Un lissage lent en travers du pied : relâcher le souffle et les tensions.",
+      "intention": "Détend, aide au retour au calme.",
       "zones": [
         {
           "zone": "diaphragme",
           "designation": "le diaphragme",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Détend, aide au retour au calme.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 5,
       "designation": "le plexus solaire",
-      "intention": "Au centre de la voûte, une pression douce et maintenue : le point d'apaisement des émotions.",
+      "intention": "Centre des émotions : libère et apporte de la joie.",
       "zones": [
         {
           "zone": "plexus-solaire",
           "designation": "le plexus solaire",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Centre des émotions : libère et apporte de la joie.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 6,
       "designation": "la rate",
-      "intention": "Un geste doux côté rate : réconforter, adoucir.",
+      "intention": "Réassure le lien avec la maman.",
       "zones": [
         {
           "zone": "rate",
           "designation": "la rate",
           "mouvement": "pression-circulaire",
-          "description_mouvement": "Exercez une pression circulaire sur la zone"
+          "description_mouvement": "Exercez une pression circulaire sur la zone",
+          "phrase": "Réassure le lien avec la maman.",
+          "choix": "sur-mesure"
         }
       ]
     },
     {
       "ordre": 7,
       "designation": "le pancréas",
-      "intention": "Un passage doux sur le pancréas : équilibre et douceur.",
+      "intention": "Réassure le lien avec le papa.",
       "zones": [
         {
           "zone": "pancreas",
           "designation": "le pancréas",
           "mouvement": "boucles-progressives",
-          "description_mouvement": "Effectuez de petits cercles qui avancent"
+          "description_mouvement": "Effectuez de petits cercles qui avancent",
+          "phrase": "Réassure le lien avec le papa.",
+          "choix": "sur-mesure"
         }
       ]
     },
     {
       "ordre": 8,
       "designation": "le gros intestin",
-      "intention": "On suit le trajet du gros intestin : accompagner en douceur ce qui doit être évacué.",
+      "intention": "Accompagne le lâcher-prise, laisse partir ce qui pèse.",
       "zones": [
         {
           "zone": "gros-intestin",
           "designation": "le gros intestin",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Accompagne le lâcher-prise, laisse partir ce qui pèse.",
+          "choix": "Énergie"
         }
       ]
     }

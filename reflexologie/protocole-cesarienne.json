@@ -9,138 +9,151 @@
   "sequence": [
     {
       "ordre": 1,
-      "designation": "la colonne vertébrale et le contour du corps",
-      "intention": "On détend tout l'axe du dos, puis on épouse le contour du corps : envelopper, poser des limites douces, rassurer.",
+      "designation": "le contour de la colonne vertébrale",
+      "intention": "Détend l'axe du dos, contient le corps.",
       "zones": [
-        {
-          "zone": "colonne-vertebrale",
-          "designation": "la colonne vertébrale",
-          "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
-        },
         {
           "zone": "colonne-vertebrale-contour",
           "designation": "le contour de la colonne vertébrale",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Détend l'axe du dos, contient le corps.",
+          "choix": "Physio"
         }
-      ],
-      "gestes_enchaines": true
+      ]
     },
     {
       "ordre": 2,
       "designation": "la tête",
-      "intention": "On commence en douceur par la tête, pour accueillir bébé tout entier.",
+      "intention": "Apaise la tête, accueille bébé entier.",
       "zones": [
         {
           "zone": "tete",
           "designation": "la tête",
           "mouvement": "pression-circulaire",
-          "description_mouvement": "Exercez une pression circulaire sur les orteils"
+          "description_mouvement": "Exercez une pression circulaire sur les orteils",
+          "phrase": "Apaise la tête, accueille bébé entier.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 3,
       "designation": "le thymus",
-      "intention": "On soutient les défenses, tout en douceur.",
+      "intention": "Soutient les défenses immunitaires.",
       "zones": [
         {
           "zone": "thymus",
           "designation": "le thymus",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Soutient les défenses immunitaires.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 4,
       "designation": "la thyroïde",
-      "intention": "On accompagne le rythme du corps.",
+      "intention": "Accompagne le rythme du métabolisme.",
       "zones": [
         {
           "zone": "thyroide",
           "designation": "la thyroïde",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Accompagne le rythme du métabolisme.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 5,
       "designation": "le diaphragme",
-      "intention": "On relâche la coupole du ventre : la respiration se déplie.",
+      "intention": "Relâche et déplie la respiration.",
       "zones": [
         {
           "zone": "diaphragme",
           "designation": "le diaphragme",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Relâche et déplie la respiration.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 6,
       "designation": "le plexus solaire",
-      "intention": "On apaise le centre des émotions, là où le stress se loge.",
+      "intention": "Centre des émotions : libère et apporte de la joie.",
       "zones": [
         {
           "zone": "plexus-solaire",
           "designation": "le plexus solaire",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Centre des émotions : libère et apporte de la joie.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 7,
       "designation": "l'estomac",
-      "intention": "On apaise le haut du ventre.",
+      "intention": "Digère les émotions, apaise la rumination.",
       "zones": [
         {
           "zone": "estomac",
           "designation": "l'estomac",
           "mouvement": "boucles-progressives",
-          "description_mouvement": "Effectuez de petits cercles qui avancent"
+          "description_mouvement": "Effectuez de petits cercles qui avancent",
+          "phrase": "Digère les émotions, apaise la rumination.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 8,
       "designation": "le pancréas",
-      "intention": "On accompagne le pancréas, tout en douceur.",
+      "intention": "Ancre et rassure.",
       "zones": [
         {
           "zone": "pancreas",
           "designation": "le pancréas",
           "mouvement": "boucles-progressives",
-          "description_mouvement": "Effectuez de petits cercles qui avancent"
+          "description_mouvement": "Effectuez de petits cercles qui avancent",
+          "phrase": "Ancre et rassure.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 9,
       "designation": "les reins",
-      "intention": "On soutient les reins, l'énergie profonde du corps.",
+      "intention": "Apaise la peur, donne confiance.",
       "zones": [
         {
           "zone": "rein",
           "designation": "les reins",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Apaise la peur, donne confiance.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 10,
       "designation": "le bassin",
-      "intention": "On termine par le bassin, en spirale lente : ancrer, refermer le soin.",
+      "intention": "Détend le bassin et ancre.",
       "zones": [
         {
           "zone": "bassin",
           "designation": "le bassin",
           "mouvement": "spirale-centripete",
-          "description_mouvement": "Effectuez un mouvement circulaire de l'extérieur vers le centre"
+          "description_mouvement": "Effectuez un mouvement circulaire de l'extérieur vers le centre",
+          "phrase": "Détend le bassin et ancre.",
+          "choix": "Physio"
         }
       ]
     }

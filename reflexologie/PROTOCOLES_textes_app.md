@@ -1,12 +1,10 @@
 # Protocoles de Réflexologie — textes de l'app
 
-_Version lisible._
+_Version lisible (phrases par zone intégrées)._
 
 
-**20 protocoles au lancement · 7 reportés.**
+**20 au lancement · 5 reportés.**
 
-
----
 
 ## Ouverture commune
 
@@ -20,767 +18,466 @@ _Version lisible._
 - **Un peu d'huile végétale douce** : une noisette adaptée aux bébés.
 
 
-
 # — LANCEMENT —
 
 ---
 
-
-## Accueil du nouveau-né · âge M0–M1 _(brouillon)_
-
+## Accueil du nouveau-né · M0–M1
 
 Un premier rendez-vous tout en douceur avec les pieds de ton tout-petit. Ce protocole accueille bébé dans le monde et l'aide à trouver ses repères, à ton contact.
 
-
 **Séquence :**
 
-1. **la colonne vertébrale** — On accompagne le dos tout du long : détendre l'axe du corps, du haut vers le talon.
-2. **le point de conception** — Un point tout doux qui relie bébé à son tout début : présence et ancrage.
-3. **la tête** — On commence en douceur par les orteils, la zone de la tête : inviter le mental à se poser.
-4. **le plexus solaire** — Au centre de la voûte, une pression douce et maintenue : le point d'apaisement des émotions.
-5. **la zone digestive** — On accompagne tout le ventre en douceur : aider la digestion à se dérouler tranquillement.
-6. **le bassin** _(gestes enchaînés)_ — Un mouvement enveloppant sur le talon, puis un temps d'ancrage : poser, sécuriser, enraciner le tout-petit dans son corps.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+1. **la colonne vertébrale** — _Pression glissée, 3 répétitions._ → Détend l'axe du dos, calme le système nerveux. (Physio)
+2. **le point de conception** — _Pression maintenue, 3 répétitions._ → recentre, point d'équilibre général. (Physio)
+3. **la tête** — _Pression circulaire, 3 répétitions._ → Apaise la tête, accueille bébé entier. (Physio)
+4. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
+5. **la zone digestive** — _Pression glissée, puis travail de la zone, 3 répétitions._ → Accompagne toute la digestion. (Physio)
+6. **le bassin** — _Pression en spirale vers le centre, 3 répétitions._ → Détend le bassin et ancre. (Physio)
+6. **l'ancrage du bassin** — _Pression glissée, 3 répétitions._ → Soutient l'ancrage et la sécurité. (Physio)
 
 ---
 
-
-## Prématurité · ⚠️ sujet sensible · âge M0–M5 _(brouillon)_
-
+## Prématurité · M0–M5
 
 Un accompagnement tout en douceur pour un tout-petit arrivé en avance. Chaque geste est minuscule, lent et respectueux de sa fragilité.
 
-
-*Ta présence calme et enveloppante compte autant que le geste : elle rassure et sécurise.*
-
-
 **Séquence :**
 
-1. **la colonne vertébrale et le nerf vague** — On glisse le long de la colonne, version allongée qui intègre le nerf vague : détendre l'axe et apaiser en profondeur.
-2. **les poumons** — On ouvre la respiration, on aide bébé à trouver son souffle.
-3. **le plexus solaire** — On apaise le centre des émotions, on relâche les tensions.
-4. **le foie** — On accompagne le foie, tout en douceur.
-5. **les reins** — On soutient les reins, l'énergie profonde du corps.
-6. **le bassin** — On termine par le bassin, en spirale lente : ancrer, refermer le soin.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+1. **la colonne vertébrale et le nerf vague** — _Pression glissée, 3 répétitions._ → Détend l'axe du dos et apaise en profondeur. (Physio)
+2. **les poumons** — _Pression rotative, 3 répétitions._ → Ouvre la respiration, oxygène le corps. (Physio)
+3. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
+4. **le foie** — _Pression rotative, 3 répétitions._ → Relâche la colère et la frustration, invite au calme. (Énergie)
+5. **les reins** — _Pression maintenue, 3 répétitions._ → Apaise la peur, donne confiance. (Énergie)
+6. **le bassin** — _Pression en spirale vers le centre, 3 répétitions._ → Favorise l'ancrage dans son nouveau monde. (sur-mesure)
 
 ---
 
-
-## Césarienne · âge M0–M3 _(brouillon)_
-
-_S'applique : bébé né d'une césarienne ou d'un déclenchement._
-
+## Césarienne · M0–M3
 
 Un protocole tout en douceur pour accompagner bébé né d'une césarienne ou d'un déclenchement : l'aider à se sentir enveloppé et en sécurité.
 
-
-*La venue au monde a pu être aidée, précipitée : on prend le temps de contenir, d'envelopper, de rassurer.*
-
-
 **Séquence :**
 
-1. **la colonne vertébrale et le contour du corps** _(gestes enchaînés)_ — On détend tout l'axe du dos, puis on épouse le contour du corps : envelopper, poser des limites douces, rassurer.
-2. **la tête** — On commence en douceur par la tête, pour accueillir bébé tout entier.
-3. **le thymus** — On soutient les défenses, tout en douceur.
-4. **la thyroïde** — On accompagne le rythme du corps.
-5. **le diaphragme** — On relâche la coupole du ventre : la respiration se déplie.
-6. **le plexus solaire** — On apaise le centre des émotions, là où le stress se loge.
-7. **l'estomac** — On apaise le haut du ventre.
-8. **le pancréas** — On accompagne le pancréas, tout en douceur.
-9. **les reins** — On soutient les reins, l'énergie profonde du corps.
-10. **le bassin** — On termine par le bassin, en spirale lente : ancrer, refermer le soin.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+1. **le contour de la colonne vertébrale** — _Pression glissée, 3 répétitions._ → Détend l'axe du dos, contient le corps. (Physio)
+2. **la tête** — _Pression circulaire, 3 répétitions._ → Apaise la tête, accueille bébé entier. (Physio)
+3. **le thymus** — _Pression maintenue, 3 répétitions._ → Soutient les défenses immunitaires. (Physio)
+4. **la thyroïde** — _Pression glissée, 3 répétitions._ → Accompagne le rythme du métabolisme. (Physio)
+5. **le diaphragme** — _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
+6. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
+7. **l'estomac** — _Pression rotative, 3 répétitions._ → Digère les émotions, apaise la rumination. (Énergie)
+8. **le pancréas** — _Pression rotative, 3 répétitions._ → Ancre et rassure. (Énergie)
+9. **les reins** — _Pression maintenue, 3 répétitions._ → Apaise la peur, donne confiance. (Énergie)
+10. **le bassin** — _Pression en spirale vers le centre, 3 répétitions._ → Détend le bassin et ancre. (Physio)
 
 ---
 
-
-## Confiance en soi · âge M17–M23 _(brouillon)_
-
+## Confiance en soi · M17–M23
 
 Un protocole pour aider bébé à se sentir solide, enveloppé, en confiance dans son corps.
 
-
-*On l'accompagne à trouver son ancrage, à se sentir contenu et rassuré.*
-
-
 **Séquence :**
 
-1. **la colonne vertébrale et le contour du corps** _(gestes enchaînés)_ — On détend tout l'axe du dos, puis on épouse le contour du corps : soutenir, envelopper, donner confiance.
-2. **l'hypophyse** — On réveille en douceur le chef d'orchestre du corps.
-3. **le point coronal** — On pose un appui doux au sommet de la tête : rassembler, apaiser.
-4. **le thymus** — On soutient les défenses, tout en douceur.
-5. **le diaphragme** — On relâche la coupole du ventre : la respiration se déplie.
-6. **le plexus solaire** — On apaise le centre des émotions, là où les tensions se logent.
-7. **les surrénales** — On soutient l'énergie et l'équilibre du corps.
-8. **l'estomac** — On apaise le haut du ventre.
-9. **la vésicule biliaire** — On accompagne la vésicule en douceur, sans forcer.
-10. **le système urinaire** — On maintient un appui doux sur la vessie, on glisse lentement jusqu'au rein, on y pose l'appui — trois fois.
-11. **le bassin** — On termine par le bassin, en spirale lente : ancrer, refermer le soin.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+1. **le contour de la colonne vertébrale** — _Pression glissée, 3 répétitions._ → Détend l'axe du dos, contient le corps. (Physio)
+2. **l'hypophyse** — _Pression maintenue, 3 répétitions._ → Harmonise la régulation des hormones. (Physio)
+3. **le chakra coronal** — _Pression maintenue, 3 répétitions._ → Soutient la conscience de soi et la concentration. (Physio)
+4. **le thymus** — _Pression maintenue, 3 répétitions._ → Soutient les défenses immunitaires. (Physio)
+5. **le diaphragme** — _Pression glissée, 3 répétitions._ → Détend, aide au retour au calme. (Énergie)
+6. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
+7. **les surrénales** — _Pression maintenue, 3 répétitions._ → Soutient l'énergie et la réponse au stress. (Physio)
+8. **l'estomac** — _Pression rotative, 3 répétitions._ → Digère les émotions, apaise la rumination. (Énergie)
+9. **la vésicule biliaire** — _Pression maintenue, 3 répétitions._ → Apaise l'irritabilité. (Énergie)
+10. **le système urinaire** — _Point de pression, puis pression glissée, puis point de pression, 3 répétitions._ → Rejète la peur, soutient la confiance. (Énergie)
+11. **le bassin** — _Pression en spirale vers le centre, 3 répétitions._ → Détend le bassin et ancre. (Physio)
 
 ---
 
-
-## Difficultés à téter · âge M0–M2 _(brouillon)_
-
+## Difficultés à téter · M0–M2
 
 Un moment doux pour accompagner la mise en bouche et la succion. On détend la sphère orale et on apaise, sans forcer.
 
-
 **Séquence :**
 
-1. **la tête** — On commence en douceur par les orteils, la zone de la tête : inviter le mental à se poser.
-2. **la bouche** — Un point tout doux vers la bouche : détendre la sphère orale.
-3. **l'hypophyse** — Un point délicat sur le gros orteil : on invite tout l'intérieur au calme.
-4. **les poumons** — De petits cercles qui avancent sur le coussinet : ouvrir le souffle, laisser respirer.
-5. **le plexus solaire** — Au centre de la voûte, une pression douce et maintenue : le point d'apaisement des émotions.
-6. **le diaphragme** — Un lissage lent en travers du pied : relâcher le souffle et les tensions.
-7. **l'œsophage** — On suit doucement l'œsophage : accompagner le passage, de haut en bas.
-8. **le cardia** — Un point apaisant vers le cardia : dénouer le haut du ventre.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+1. **la tête** — _Pression circulaire, 3 répétitions._ → Apaise la tête, accueille bébé entier. (Physio)
+2. **la bouche** — _Pression maintenue, 3 répétitions._ → Stimule la bouche et la langue. (sur-mesure)
+3. **l'hypophyse** — _Pression maintenue, 3 répétitions._ → Harmonise la régulation des hormones. (Physio)
+4. **les poumons** — _Pression rotative, 3 répétitions._ → Ouvre la respiration, oxygène le corps. (Physio)
+5. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
+6. **le diaphragme** — _Pression glissée, 3 répétitions._ → Détend, aide au retour au calme. (Énergie)
+7. **l'œsophage** — _Pression glissée, 3 répétitions._ → Accueille le passage des aliments. (Physio)
+8. **le cardia** — _Pression maintenue, 3 répétitions._ → Soutient l'ouverture et la fermeture de l'estomac. (Physio)
 
 ---
 
-
-## Séparation · âge M6–M23 _(brouillon)_
-
+## Séparation · M6–M23
 
 Un protocole pour les moments de séparation : apaiser l'inquiétude, rassurer, aider bébé à se sentir en lien même à distance.
 
-
-*Ta présence calme rassure : bébé sent le lien même quand vient le moment de se séparer.*
-
-
 **Séquence :**
 
-1. **la tête** — On commence en douceur par les orteils, la zone de la tête : inviter le mental à se poser.
-2. **les poumons** — De petits cercles qui avancent sur le coussinet : ouvrir le souffle, laisser respirer.
-3. **la colonne vertébrale** — On accompagne le dos tout du long : détendre l'axe du corps, du haut vers le talon.
-4. **le diaphragme** — Un lissage lent en travers du pied : relâcher le souffle et les tensions.
-5. **le plexus solaire** — Au centre de la voûte, une pression douce et maintenue : le point d'apaisement des émotions.
-6. **la rate** — Un geste doux côté rate : réconforter, adoucir.
-7. **le pancréas** — Un passage doux sur le pancréas : équilibre et douceur.
-8. **le gros intestin** — On suit le trajet du gros intestin : accompagner en douceur ce qui doit être évacué.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+1. **la tête** — _Pression circulaire, 3 répétitions._ → Favorise la circulation de l'énergie. (Énergie)
+2. **les poumons** — _Pression rotative, 3 répétitions._ → Aide à lâcher prise, apaise la tristesse. (Énergie)
+3. **la colonne vertébrale** — _Pression glissée, 3 répétitions._ → Détend, calme le système nerveux. (sur-mesure)
+4. **le diaphragme** — _Pression glissée, 3 répétitions._ → Détend, aide au retour au calme. (Énergie)
+5. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
+6. **la rate** — _Pression rotative, 3 répétitions._ → Réassure le lien avec la maman. (sur-mesure)
+7. **le pancréas** — _Pression rotative, 3 répétitions._ → Réassure le lien avec le papa. (sur-mesure)
+8. **le gros intestin** — _Pression glissée, 3 répétitions._ → Accompagne le lâcher-prise, laisse partir ce qui pèse. (Énergie)
 
 ---
 
-
-## Coliques · âge M0–M2 _(brouillon)_
-
+## Coliques · M0–M2
 
 Un moment tendre pour soulager le ventre. Les gestes suivent la digestion, lentement, pour dénouer les tensions.
 
-
 **Séquence :**
 
-1. **le sacrum et les lombaires** — On glisse le long du bas du dos : détendre le sacrum et les lombaires, apaiser le ventre par le bas.
-2. **le diaphragme** — Un lissage lent en travers du pied : relâcher le souffle et les tensions.
-3. **le plexus solaire** — Au centre de la voûte, une pression douce et maintenue : le point d'apaisement des émotions.
-4. **l'œsophage** — On suit doucement l'œsophage : accompagner le passage, de haut en bas.
-5. **le cardia** — Un point apaisant vers le cardia : dénouer le haut du ventre.
-6. **l'estomac** — De petits cercles sur l'estomac : apaiser, dénouer le ventre.
-7. **l'intestin grêle** — De petits cercles au centre du pied : apaiser le ventre, dénouer.
-8. **le gros intestin** — On suit le trajet du gros intestin : accompagner en douceur ce qui doit être évacué.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+1. **le sacrum et les lombaires** — _Pression glissée, 3 répétitions._ → Détend le bas du dos et le bassin. (Physio)
+2. **le diaphragme** — _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
+3. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Dénoue les tensions du ventre et du souffle. (Physio)
+4. **l'œsophage** — _Pression glissée, 3 répétitions._ → Accueille le passage des aliments. (Physio)
+5. **le cardia** — _Pression maintenue, 3 répétitions._ → Soutient l'ouverture et la fermeture de l'estomac. (Physio)
+6. **l'estomac** — _Pression rotative, 3 répétitions._ → Apaise le haut du ventre, aide la digestion. (Physio)
+7. **l'intestin grêle** — _Pression rotative, 3 répétitions._ → Accompagne l'assimilation des nutriments. (Physio)
+8. **le gros intestin** — _Pression glissée, 3 répétitions._ → Accompagne le transit et l'élimination. (Physio)
 
 ---
 
-
-## Inconfort digestif · âge M4–M12 _(brouillon)_
-
+## Inconfort digestif · M4–M12
 
 Un moment tout doux pour apaiser le ventre de bébé quand la digestion le gêne. Les gestes suivent le trajet digestif, lentement, pour l'aider à se détendre et retrouver son confort.
 
-
 **Séquence :**
 
-1. **le sacrum et les lombaires** — On glisse le long du bas du dos : détendre le sacrum et les lombaires, apaiser le ventre par le bas.
-2. **le diaphragme** — Un lissage lent en travers du pied : relâcher le souffle et les tensions.
-3. **le plexus solaire** — Au centre de la voûte, une pression douce et maintenue : le point d'apaisement des émotions.
-4. **l'œsophage** — On suit doucement l'œsophage : accompagner le passage, de haut en bas.
-5. **le cardia** — Un point apaisant vers le cardia : dénouer le haut du ventre.
-6. **l'estomac** — De petits cercles sur l'estomac : apaiser, dénouer le ventre.
-7. **l'intestin grêle** — De petits cercles au centre du pied : apaiser le ventre, dénouer.
-8. **le gros intestin** — On suit le trajet du gros intestin : accompagner en douceur ce qui doit être évacué.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+1. **le sacrum et les lombaires** — _Pression glissée, 3 répétitions._ → Détend le bas du dos et le bassin. (Physio)
+2. **le diaphragme** — _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
+3. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Dénoue les tensions du ventre et du souffle. (Physio)
+4. **l'œsophage** — _Pression glissée, 3 répétitions._ → Accueille le passage des aliments. (Physio)
+5. **le cardia** — _Pression maintenue, 3 répétitions._ → Soutient l'ouverture et la fermeture de l'estomac. (Physio)
+6. **l'estomac** — _Pression rotative, 3 répétitions._ → Apaise le haut du ventre, aide la digestion. (Physio)
+7. **l'intestin grêle** — _Pression rotative, 3 répétitions._ → Accompagne l'assimilation des nutriments. (Physio)
+8. **le gros intestin** — _Pression glissée, 3 répétitions._ → Accompagne le transit et l'élimination. (Physio)
 
 ---
 
-
-## Frustration motrice · âge M7–M13 _(brouillon)_
-
+## Frustration motrice · M7–M13
 
 Un moment tout doux pour accompagner bébé quand il cherche à bouger, se retrouve coincé et enrage de ne pas encore y arriver. On relâche le corps tendu par l'effort et on apaise la frustration.
 
-
-*On accueille sa colère de ne pas encore réussir : elle dit son élan et son envie de grandir.*
-
-
 **Séquence :**
 
-1. **la colonne vertébrale et le contour du corps** _(gestes enchaînés)_ — On détend tout l'axe du dos, puis on épouse le contour du corps : relâcher un corps tendu par l'effort, envelopper, rassurer.
-2. **la tête** — On accueille bébé tout entier, on apaise la tête.
-3. **les épaules** — On pose un appui doux sur les épaules : relâcher les tensions du haut du corps.
-4. **les hanches** — On pose un appui doux sur les hanches : détendre le bas du corps, base des mouvements.
-5. **le bassin** — On relâche le bassin en spirale lente : apaiser les jambes qui s'agitent, ancrer.
-6. **le diaphragme** — On relâche la coupole du ventre : la respiration, coupée par la frustration, se déplie.
-7. **le plexus solaire** — On apaise le centre des émotions, là où la colère se noue.
-8. **le foie** — On accompagne le foie, là où la colère et la frustration se déposent.
-9. **les surrénales** — On apaise la décharge de stress et d'énergie de la colère.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+1. **le contour de la colonne vertébrale** — _Pression glissée, 3 répétitions._ → Détend l'axe du dos, contient le corps. (Physio)
+2. **la tête** — _Pression circulaire, 3 répétitions._ → Favorise la circulation de l'énergie. (Énergie)
+3. **les épaules** — _Pression maintenue, 3 répétitions._ → Relâche les tensions, soutient les bras. (sur-mesure)
+4. **les hanches** — _Pression maintenue, 3 répétitions._ → Soutient un axe central de la motricité. (sur-mesure)
+5. **le bassin** — _Pression en spirale vers le centre, 3 répétitions._ → Détend le bassin et ancre. (Physio)
+6. **le diaphragme** — _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
+7. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
+8. **le foie** — _Pression rotative, 3 répétitions._ → Relâche la colère et la frustration, invite au calme. (Énergie)
+9. **les surrénales** — _Pression maintenue, 3 répétitions._ → Soutient l'énergie et la réponse au stress. (Physio)
 
 ---
 
-
-## Reflux · ⚠️ sujet sensible · âge M0–M4 _(brouillon)_
-
+## Reflux · M0–M4
 
 Un protocole doux pour accompagner les remontées et l'inconfort du haut du ventre, fréquents chez les tout-petits. On apaise le moment, sans prétendre soigner.
 
-
-*L'inconfort peut agacer ou inquiéter bébé : ta présence calme et ton geste doux l'apaisent.*
-
-
 **Séquence :**
 
-1. **la colonne vertébrale** — On accompagne le dos tout du long : détendre l'axe du corps, du haut vers le talon.
-2. **la tête** — On commence par les orteils, la zone de la tête : inviter au calme.
-3. **la bouche** — Un point tout doux vers la bouche : détendre la sphère orale.
-4. **le diaphragme** — Un lissage lent en travers du pied : relâcher le souffle et les tensions.
-5. **l'œsophage** — On suit doucement l'œsophage, de haut en bas : accompagner le passage.
-6. **le cardia** — Un point apaisant au cardia : dénouer la jonction avec l'estomac.
-7. **l'estomac** — De petits cercles sur l'estomac : apaiser, dénouer le ventre.
-8. **le foie** — Un temps doux sur le foie : accompagner ce qui se digère.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+1. **la colonne vertébrale** — _Pression glissée, 3 répétitions._ → Détend l'axe du dos, calme le système nerveux. (Physio)
+2. **le diaphragme** — _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
+3. **la tête** — _Pression circulaire, 3 répétitions._ → Apaise la tête, accueille bébé entier. (Physio)
+4. **la bouche** — _Pression maintenue, 3 répétitions._ → Apaise la bouche dans sa gloabilté. (sur-mesure)
+5. **l'œsophage** — _Pression glissée, 3 répétitions._ → Accueille le passage des aliments. (Physio)
+6. **le cardia** — _Pression maintenue, 3 répétitions._ → Soutient l'ouverture et la fermeture de l'estomac. (Physio)
+7. **l'estomac** — _Pression rotative, 3 répétitions._ → Apaise le haut du ventre, aide la digestion. (Physio)
+8. **le foie** — _Pression rotative, 3 répétitions._ → Filtre et nettoie le corps, calme la colère. (sur-mesure)
 
 ---
 
-
-## Dents · âge M5–M18 _(brouillon)_
-
+## Dents · M5–M18
 
 Un accompagnement pour les poussées dentaires : soulager la bouche, apaiser l'agacement et la tension.
 
-
-*L'inconfort peut rendre bébé grognon : ta douceur et ta patience apaisent autant que le geste.*
-
-
 **Séquence :**
 
-1. **la bouche** — On apaise la bouche, là où la douleur des gencives se concentre.
-2. **les dents (haut et bas)** _(gestes enchaînés)_ — On parcourt les dents du haut puis du bas, pour soulager les gencives.
-3. **les sinus** — On dégage les sinus, souvent gênés pendant les poussées.
-4. **les ganglions lymphatiques** — On soutient le drainage, les petits filtres du corps.
-5. **les poumons** — On ouvre la respiration, on apaise.
-6. **le diaphragme** — On relâche la coupole du ventre : le souffle se déplie.
-7. **le foie** — On accompagne le foie, tout en douceur.
-8. **l'estomac** — On apaise le haut du ventre (les poussées perturbent la digestion).
-9. **les surrénales** — On soutient l'énergie et l'équilibre du corps.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+1. **la bouche** — _Pression maintenue, 3 répétitions._ → Apaise la bouche et les gencives. (Physio)
+2. **les dents et la mâchoire du haut** — _Sur le DESSUS du pied, pression glissée sur le bord de l'ongle, 2 répétitions_ → Soulage les gencives du haut. (Physio)
+2. **les dents et la mâchoire du bas** — _Sur le DESSUS du pied, pression glissée sur le bord de l'ongle, 2 répétitions_ → Soulage les gencives du bas. (Physio)
+3. **les sinus** — _Pression glissée, 2 allers-retours_ → Soulage les voies respiratoires. (Physio)
+4. **les ganglions lymphatiques** — _Pression maintenue, 2 répétitions._ → Soutient les anticorps. (Physio)
+5. **les poumons** — _Pression rotative, 3 répétitions._ → Aide à lâcher prise, apaise la tristesse. (Énergie)
+6. **le diaphragme** — _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
+7. **le foie** — _Pression rotative, 3 répétitions._ → Relâche la colère et la frustration, invite au calme. (Énergie)
+8. **l'estomac** — _Pression rotative, 3 répétitions._ → Accompagne les brûlures d'estomac. (sur-mesure)
+9. **les surrénales** — _Pression maintenue, 3 répétitions._ → Soutient l'énergie et la réponse à la douleur. (Énergie)
 
 ---
 
-
-## Constipation · âge M2–M23 _(brouillon)_
-
+## Constipation · M2–M23
 
 Un protocole pour accompagner le transit en douceur, en suivant le trajet du ventre.
 
-
 **Séquence :**
 
-1. **la colonne vertébrale** — On détend d'abord tout l'axe du dos : le calme part de là.
-2. **l'hypophyse** — On réveille en douceur le chef d'orchestre du corps.
-3. **les poumons** — On ouvre la respiration, on aide bébé à se poser.
-4. **le thymus** — On soutient les défenses, tout en douceur.
-5. **la thyroïde** — On accompagne le rythme du corps.
-6. **le diaphragme** — On relâche la coupole du ventre : la respiration se déplie.
-7. **le foie** — On accompagne le travail du foie, sans forcer.
-8. **l'estomac** — On apaise le haut du ventre.
-9. **les surrénales** — On soutient l'énergie et l'équilibre du corps.
-10. **l'intestin grêle** — On suit le trajet fin de l'intestin, tout doucement.
-11. **le gros intestin** — On accompagne le trajet du gros intestin, jusqu'au bout.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+1. **la colonne vertébrale** — _Pression glissée, 3 répétitions._ → Détend l'axe du dos, calme le système nerveux. (Physio)
+2. **l'hypophyse** — _Pression maintenue, 3 répétitions._ → Harmonise la régulation des hormones. (Physio)
+3. **les poumons** — _Pression rotative, 3 répétitions._ → Aide à lâcher prise, apaise la tristesse. (Énergie)
+4. **le thymus** — _Pression maintenue, 3 répétitions._ → Régule le stress en soutenant les défenses. (sur-mesure)
+5. **la thyroïde** — _Pression glissée, 3 répétitions._ → Accompagne le rythme du métabolisme. (Physio)
+6. **le diaphragme** — _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
+7. **le foie** — _Pression rotative, 3 répétitions._ → Relâche la colère et la frustration. (sur-mesure)
+8. **l'estomac** — _Pression rotative, 3 répétitions._ → Apaise le haut du ventre, aide la digestion. (Physio)
+9. **les surrénales** — _Pression maintenue, 3 répétitions._ → Soutient l'énergie et la réponse au stress. (Physio)
+10. **l'intestin grêle** — _Pression rotative, 3 répétitions._ → Accompagne l'assimilation des nutriments. (Physio)
+11. **le gros intestin** — _Pression glissée, 3 répétitions._ → Accompagne le transit et l'élimination. (Physio)
 
 ---
 
-
-## Diarrhée · ⚠️ sujet sensible · âge M13–M23 _(brouillon)_
-
-
-> ⚠️ **Vigilance :** Diarrhée d'origine infectieuse : demander un avis médical.
-
+## Diarrhée · M13–M23
 
 Un protocole pour accompagner le ventre de bébé en douceur lorsque le transit s'emballe.
 
-
 **Séquence :**
 
-1. **la colonne vertébrale** — On détend d'abord tout l'axe du dos : le calme part de là.
-2. **l'hypophyse** — On réveille en douceur le chef d'orchestre du corps.
-3. **les poumons** — On ouvre la respiration, on aide bébé à se poser.
-4. **le thymus** — On soutient les défenses, tout en douceur.
-5. **la thyroïde** — On accompagne le rythme du corps.
-6. **le diaphragme** — On relâche la coupole du ventre : la respiration se déplie.
-7. **le foie** — On accompagne le travail du foie, sans forcer.
-8. **l'estomac** — On apaise le haut du ventre.
-9. **les surrénales** — On soutient l'énergie et l'équilibre du corps.
-10. **l'intestin grêle** — On suit le trajet fin de l'intestin, mais dans le sens inverse.
-11. **le gros intestin** — On accompagne le gros intestin dans le sens inverse : du bas du pied gauche vers le bas du pied droit.
-
-> 📝 Les étapes 10 (intestin grêle) et 11 (gros intestin) se jouent dans le SENS INVERSE du geste habituel — variante d'animation à créer.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+1. **la colonne vertébrale** — _Pression glissée, 3 répétitions._ → Détend l'axe du dos, calme le système nerveux. (Physio)
+2. **l'hypophyse** — _Pression maintenue, 3 répétitions._ → Harmonise la régulation des hormones. (Physio)
+3. **les poumons** — _Pression rotative, 3 répétitions._ → Aide à lâcher prise, apaise la tristesse. (Énergie)
+4. **le thymus** — _Pression maintenue, 3 répétitions._ → Régule le stress. (Énergie)
+5. **la thyroïde** — _Pression glissée, 3 répétitions._ → Accompagne le rythme du métabolisme. (Physio)
+6. **le diaphragme** — _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
+7. **le foie** — _Pression rotative, 3 répétitions._ → Relâche la colère et la frustration. (sur-mesure)
+8. **l'estomac** — _Pression rotative, 3 répétitions._ → Apaise le haut du ventre, aide la digestion. (Physio)
+9. **les surrénales** — _Pression maintenue, 3 répétitions._ → Soutient l'énergie et la réponse au stress. (Physio)
+10. **l'intestin grêle** — _Pression rotative, 3 répétitions._ → Accompagne l'assimilation des nutriments. (Physio)
+11. **le gros intestin** — _Pression glissée, 3 répétitions._ → Accompagne le transit et l'élimination. (Physio)
 
 ---
 
-
-## Mal des transports · âge M21–M23 _(brouillon)_
-
+## Mal des transports · M21–M23
 
 Un protocole pour accompagner bébé quand les trajets le chahutent : apaiser le système de l'équilibre et relâcher le stress.
 
-
-*On l'aide à retrouver ses repères et à évacuer les tensions du voyage.*
-
-
 **Séquence :**
 
-1. **la tête** — On commence tout en douceur par la tête, pour accueillir bébé entier.
-2. **la bouche** — On apaise la bouche, porte des premières tensions.
-3. **l'épiphyse** — On pose un appui doux : aider à trouver ses repères, son équilibre.
-4. **la colonne vertébrale et le nerf vague** — On glisse le long de la colonne, version allongée qui intègre le nerf vague : détendre tout l'axe et apaiser en profondeur.
-5. **le diaphragme** — On relâche la coupole du ventre : la respiration se déplie.
-6. **le thymus** — On soutient les défenses, tout en douceur.
-7. **l'œsophage** — On glisse le long de l'œsophage, on apaise le passage.
-8. **le cardia** — On pose un appui doux à l'entrée de l'estomac.
-9. **l'estomac** — On apaise le haut du ventre.
-10. **le foie** — On accompagne le travail du foie, sans forcer.
-11. **le gros intestin** — On accompagne le trajet du gros intestin, jusqu'au bout.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+1. **la colonne vertébrale et le nerf vague** — _Pression glissée, 3 répétitions._ → Apaise l'axe du dos et diffuse les informations. (sur-mesure)
+2. **le chakra coronal** — _Pression maintenue, 3 répétitions._ → Soutient la conscience de soi et la concentration. (Physio)
+3. **la tête** — _Pression circulaire, 3 répétitions._ → Favorise la circulation des informations. (sur-mesure)
+4. **les oreilles** — _Pression glissée, 3 répétitions._ → Soutien le système vestibulaire. (sur-mesure)
+5. **la bouche** — _Pression maintenue, 3 répétitions._ → Régule la salivation. (sur-mesure)
+6. **le diaphragme** — _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
+7. **le thymus** — _Pression maintenue, 3 répétitions._ → Régule le stress. (Énergie)
+8. **l'œsophage** — _Pression glissée, 3 répétitions._ → Apaise et limite les rejets. (sur-mesure)
+8. **le cardia** — _Pression maintenue, 3 répétitions._ → Soutient l'ouverture et la fermeture de l'estomac. (Physio)
+9. **l'estomac** — _Pression rotative, 3 répétitions._ → Apaise le haut du ventre, aide la digestion. (Physio)
+10. **le foie** — _Pression rotative, 3 répétitions._ → Relâche la colère et la frustration. (sur-mesure)
+11. **le gros intestin** — _Pression glissée, 3 répétitions._ → Accompagne le lâcher-prise. (sur-mesure)
 
 ---
 
-
-## Sommeil · âge M0–M23 _(brouillon)_
-
-_Base M0–M11 : étapes 1–8 (sans vésicule). À partir de M12 : l'étape 9 (vésicule) s'ajoute._
-
+## Sommeil · M0–M23
 
 Un moment de calme partagé, au creux du soir. Ce protocole de Réflexologie accompagne l'endormissement et le retour au calme, à ton rythme et au sien. Installe-toi : lumière tamisée, ta voix posée, ta respiration lente.
 
-
-*Ton propre apaisement compte autant que le geste : ta voix posée et ta respiration lente l'accompagnent vers le sommeil.*
-
-
 **Séquence :**
 
-1. **la tête** — On commence tout en douceur par la tête, pour accueillir bébé dans le calme.
-2. **l'hypophyse** — On apaise le chef d'orchestre du corps, on invite au relâchement.
-3. **l'épiphyse** — On pose un appui doux : l'épiphyse accompagne le rythme jour/nuit.
-4. **le diaphragme** — On relâche la coupole du ventre : la respiration s'apaise, le corps se pose.
-5. **le thymus** — On soutient les défenses, tout en douceur.
-6. **la thyroïde** — On accompagne le rythme du corps, on aide à ralentir.
-7. **le plexus solaire** — On apaise le centre des émotions, on dénoue les tensions du soir.
-8. **les surrénales** — On apaise la décharge d'énergie, on invite au repos.
-9. **la vésicule biliaire** _(à partir de M12)_ — On accompagne la vésicule, tout en douceur.
+1. **la tête** — _Pression circulaire, 3 répétitions._ → Apaise la tête, accueille bébé entier. (Physio)
+2. **l'hypophyse** — _Pression maintenue, 3 répétitions._ → Harmonise la régulation des hormones. (Physio)
+3. **l'épiphyse** — _Pression maintenue, 3 répétitions._ → Régule les cycles éveil-sommeil. (Physio)
+4. **le diaphragme** — _Pression glissée, 3 répétitions._ → Détend, aide au retour au calme. (Énergie)
+5. **le thymus** — _Pression maintenue, 3 répétitions._ → Régule le stress. (Énergie)
+6. **la thyroïde** — _Pression glissée, 3 répétitions._ → Accompagne le rythme du métabolisme. (Physio)
+7. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
+8. **les surrénales** — _Pression maintenue, 3 répétitions._ → Soutient l'énergie et la réponse au stress. (Physio)
 
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+**Variante — En cas de cauchemars** (dès 12 mois)
+   +. **la vésicule biliaire** → Apaise et dissout les cauchemars.
 
 ---
 
-
-## Rhume, otite · ⚠️ sujet sensible · âge M6–M23 _(brouillon)_
-
+## Rhume, otite · M6–M23
 
 Un moment doux pour accompagner l'inconfort du nez et des oreilles, fréquent chez les tout-petits. On apaise, sans prétendre soigner.
 
-
-*Se sentir encombré peut contrarier bébé : accueille son émotion avec douceur.*
-
-
 **Séquence :**
 
-1. **les sinus** — On réveille en douceur les sinus, à la pointe des orteils.
-2. **l'hypophyse** — On réveille le chef d'orchestre du corps.
-3. **le nez** — On glisse en croix sur le nez — on vise les sinus profonds — pour aider à dégager.
-4. **les amygdales** — On apaise les amygdales, à la base du gros orteil.
-5. **les oreilles** — On glisse sur les oreilles, de l'intérieur vers l'extérieur, pour soulager la sensation de pression.
-6. **les poumons** — On ouvre la respiration, on aide bébé à mieux respirer.
-7. **le diaphragme** — On relâche la coupole du ventre : le souffle se déplie.
-8. **le plexus solaire** — On apaise le centre des émotions.
-9. **la rate** — On soutient la rate, alliée des défenses (pied gauche).
-10. **l'intestin grêle** — On accompagne le ventre, étroitement lié à l'immunité.
-11. **les ganglions lymphatiques** — On soutient le drainage, les petits filtres du corps.
-12. **le thymus** — On soutient les défenses immunitaires.
-13. **les surrénales** — On soutient l'énergie et l'équilibre du corps.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+1. **l'hypophyse** — _Pression maintenue, 3 répétitions._ → Harmonise la régulation des hormones. (Physio)
+2. **les sinus** — _Pression glissée, 2 allers-retours_ → Soulage les voies respiratoires. (Physio)
+3. **le nez** — _Pression glissée, 3 répétitions._ → Dégage les sinus profonds. (Physio)
+4. **les oreilles** — _Pression glissée, 3 répétitions._ → Soulage la pression. (Physio)
+5. **les amygdales** — _Pression glissée, 3 répétitions._ → Soutient la gorge et les défenses. (Physio)
+6. **les ganglions lymphatiques** — _Pression maintenue, 2 répétitions._ → Soutient les anticorps. (Physio)
+7. **le thymus** — _Pression maintenue, 3 répétitions._ → Soutient les défenses immunitaires. (Physio)
+8. **les poumons** — _Pression rotative, 3 répétitions._ → Ouvre la respiration, oxygène le corps. (Physio)
+9. **le diaphragme** — _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
+10. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
+11. **la rate** — _Pression rotative, 3 répétitions._ → Apaise l'inquiétude, ancre et rassure. (Énergie)
+12. **les surrénales** — _Pression maintenue, 3 répétitions._ → Soutient l'énergie et la réponse à la douleur. (Énergie)
+13. **l'intestin grêle** — _Pression rotative, 3 répétitions._ → Trie le pur et l'impur. (sur-mesure)
 
 ---
 
-
-## Concentration / Agitation · âge M18–M23 _(brouillon)_
-
+## Concentration / Agitation · M18–M23
 
 Un moment doux pour aider un enfant agité à se poser et à retrouver sa concentration, à ton contact rassurant.
 
-
 **Séquence :**
 
-1. **la colonne vertébrale** — On accompagne le dos tout du long : détendre l'axe du corps, du haut vers le talon.
-2. **l'hypophyse** — Un point délicat sur le gros orteil : on invite tout l'intérieur au calme.
-3. **le point coronal** — Un point tout en haut du gros orteil : apaiser, recentrer.
-4. **le thymus** — Un point doux sur le thymus : sécuriser, renforcer le sentiment de protection.
-5. **la thyroïde** — On suit la zone de la gorge et de la thyroïde : apaiser, réguler en douceur.
-6. **le diaphragme** — Un lissage lent en travers du pied : relâcher le souffle et les tensions.
-7. **le foie** — Un temps doux sur le foie : accompagner ce qui se transforme et se digère.
-8. **la vésicule biliaire** — Un point doux sur la vésicule : apaiser les tensions.
-9. **les reins** — Un appui tranquille sur les reins : apaiser le trop-plein, relâcher les peurs.
-10. **le bassin** — Un mouvement enveloppant sur le talon : ancrer, poser, rassurer.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+1. **la colonne vertébrale** — _Pression glissée, 3 répétitions._ → Détend l'axe du dos, calme le système nerveux. (Physio)
+2. **l'hypophyse** — _Pression maintenue, 3 répétitions._ → Harmonise la régulation des hormones. (Physio)
+3. **le chakra coronal** — _Pression maintenue, 3 répétitions._ → Soutient la conscience de soi et la concentration. (Physio)
+4. **le thymus** — _Pression maintenue, 3 répétitions._ → Régule le stress. (Énergie)
+5. **la thyroïde** — _Pression glissée, 3 répétitions._ → Accompagne le rythme du métabolisme. (Physio)
+6. **le diaphragme** — _Pression glissée, 3 répétitions._ → Détend, aide au retour au calme. (Énergie)
+7. **le foie** — _Pression rotative, 3 répétitions._ → Relâche la colère et la frustration. (sur-mesure)
+8. **la vésicule biliaire** — _Pression maintenue, 3 répétitions._ → Apaise l'irritabilité. (Énergie)
+9. **les reins** — _Pression maintenue, 3 répétitions._ → Apaise la peur, donne confiance. (Énergie)
+10. **le bassin** — _Pression en spirale vers le centre, 3 répétitions._ → Ancre bébé dans son corps. (sur-mesure)
 
 ---
 
-
-## Anxiété, nervosité · âge M19–M23 _(brouillon)_
-
+## Anxiété, nervosité · M19–M23
 
 Un protocole enveloppant pour apaiser l'anxiété et dénouer la nervosité, à ton contact rassurant.
 
-
-*Accueille l'émotion de bébé avant de vouloir l'apaiser : être entendu calme déjà.*
-
-
 **Séquence :**
 
-1. **la colonne vertébrale** — On accompagne le dos tout du long : détendre l'axe du corps, du haut vers le talon.
-2. **l'hypophyse** — Un point délicat sur le gros orteil : on invite tout l'intérieur au calme.
-3. **le point coronal** — Un point tout en haut du gros orteil : apaiser, recentrer.
-4. **le thymus** — Un point doux sur le thymus : sécuriser, renforcer le sentiment de protection.
-5. **les poumons** — De petits cercles qui avancent sur le coussinet : ouvrir le souffle, laisser respirer.
-6. **le diaphragme** — Un lissage lent en travers du pied : relâcher le souffle et les tensions.
-7. **le plexus solaire** — Au centre de la voûte, une pression douce et maintenue : le point d'apaisement des émotions.
-8. **les surrénales** — Un appui posé sur les surrénales : calmer l'agitation, apaiser le stress.
-9. **la rate** — Un geste doux côté rate : réconforter, adoucir.
-10. **le pancréas** — Un passage doux sur le pancréas : équilibre et douceur.
-11. **le système urinaire** — Un appui tranquille sur les reins : apaiser le trop-plein, relâcher les peurs.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+1. **la colonne vertébrale** — _Pression glissée, 3 répétitions._ → Détend l'axe du dos, calme le système nerveux. (Physio)
+2. **l'hypophyse** — _Pression maintenue, 3 répétitions._ → Harmonise la régulation des hormones. (Physio)
+3. **le chakra coronal** — _Pression maintenue, 3 répétitions._ → Soutient la conscience de soi et la concentration. (Physio)
+4. **le thymus** — _Pression maintenue, 3 répétitions._ → Régule le stress. (Énergie)
+5. **les poumons** — _Pression rotative, 3 répétitions._ → Ouvre la respiration, oxygène le corps. (Physio)
+6. **le diaphragme** — _Pression glissée, 3 répétitions._ → Détend, aide au retour au calme. (Énergie)
+7. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
+8. **les surrénales** — _Pression maintenue, 3 répétitions._ → Soutient l'énergie et la réponse au stress. (Physio)
+9. **la rate** — _Pression rotative, 3 répétitions._ → Apaise l'inquiétude, ancre et rassure. (Énergie)
+10. **le pancréas** — _Pression rotative, 3 répétitions._ → Ancre et rassure. (Énergie)
+11. **le système urinaire** — _Point de pression, puis pression glissée, puis point de pression, 3 répétitions._ → Rejète la peur, soutient la confiance. (Énergie)
 
 ---
 
-
-## Opposition, frustration · âge M14–M23 _(brouillon)_
-
+## Opposition, frustration · M14–M23
 
 Un protocole tout en douceur pour accompagner bébé dans les moments d'opposition et de frustration : l'aider à relâcher la tension et à se sentir contenu.
 
-
-*On accueille sa colère et sa frustration sans les juger : elles ont le droit d'exister, on est là.*
-
-
 **Séquence :**
 
-1. **la colonne vertébrale et le contour du corps** _(gestes enchaînés)_ — On détend tout l'axe du dos, puis on épouse le contour du corps : contenir, rassurer, poser un cadre doux.
-2. **la tête** — On accueille bébé tout entier, on apaise la tête.
-3. **la thyroïde** — On accompagne le rythme du corps, on aide à relâcher la tension.
-4. **le diaphragme** — On relâche la coupole du ventre : la respiration se déplie.
-5. **le plexus solaire** — On apaise le centre des émotions, là où la frustration se loge.
-6. **le foie** — On accompagne le foie, là où la colère se dépose.
-7. **la vésicule biliaire** — On accompagne la vésicule, tout en douceur.
-8. **le pancréas** — On accompagne le pancréas, sans forcer.
-9. **la rate** — On soutient la rate, en douceur.
-10. **la vessie** — On pose un appui doux sur la vessie, pour finir d'apaiser.
-
-> 📝 À FAIRE PLUS TARD : proposer un choix multiple — opposition/frustration envers papa ? envers maman ? (adapter éventuellement l'accompagnement)
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+1. **le contour de la colonne vertébrale** — _Pression glissée, 3 répétitions._ → Détend l'axe du dos, contient le corps. (Physio)
+2. **la tête** — _Pression circulaire, 3 répétitions._ → Favorise la circulation de l'énergie. (Énergie)
+3. **la thyroïde** — _Pression glissée, 3 répétitions._ → Accompagne le rythme du métabolisme. (Physio)
+4. **le diaphragme** — _Pression glissée, 3 répétitions._ → Détend, aide au retour au calme. (Énergie)
+5. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
+6. **le foie** — _Pression rotative, 3 répétitions._ → Relâche la colère et la frustration, invite au calme. (Énergie)
+7. **la vésicule biliaire** — _Pression maintenue, 3 répétitions._ → Apaise l'irritabilité. (Énergie)
+8. **la rate** — _Pression rotative, 3 répétitions._ → Apaise l'inquiétude, ancre et rassure. (Énergie)
+9. **le pancréas** — _Pression rotative, 3 répétitions._ → Ancre et rassure. (Énergie)
+10. **la vessie** — _Pression maintenue, 3 répétitions._ → Apaise la peur, soutient la sérénité. (Énergie)
 
 ---
 
-
-## Jalousie, fratrie · âge M22–M23 _(brouillon)_
-
+## Jalousie, fratrie · M22–M23
 
 La venue d'un autre bébé dans la famille peut réveiller un sentiment de jalousie et des difficultés à accepter sa place dans la fratrie. Un moment tout doux pour l'aider à se sentir aimé et rassuré.
 
-
-*On accueille sa jalousie sans la juger : elle dit son besoin d'être vu et rassuré à sa juste place.*
-
-
 **Séquence :**
 
-1. **la colonne vertébrale** — On détend d'abord tout l'axe du dos : le calme part de là.
-2. **le point coronal** — On pose un appui doux au sommet de la tête : rassembler, apaiser.
-3. **la thyroïde** — On accompagne le rythme du corps, on aide à relâcher la tension.
-4. **l'estomac** — On apaise le haut du ventre, là où les émotions se nouent.
-5. **les reins** — On soutient les reins, l'énergie profonde et l'ancrage.
-6. **le bassin** — On termine par le bassin, en spirale lente : ancrer, refermer le soin.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+1. **la colonne vertébrale** — _Pression glissée, 3 répétitions._ → Détend l'axe du dos, calme le système nerveux. (Physio)
+2. **le chakra coronal** — _Pression maintenue, 3 répétitions._ → Soutient la conscience de soi et la concentration. (Physio)
+3. **la thyroïde** — _Pression glissée, 3 répétitions._ → Accompagne le rythme du métabolisme. (Physio)
+4. **l'estomac** — _Pression rotative, 3 répétitions._ → Digère les émotions, apaise la rumination. (Énergie)
+5. **les reins** — _Pression maintenue, 3 répétitions._ → Apaise la peur, donne confiance. (Énergie)
+6. **le bassin** — _Pression en spirale vers le centre, 3 répétitions._ → Détend le bassin et ancre. (Physio)
 
 
 # — REPORTÉS —
 
 ---
 
-
 ## Bronchite, asthme _(reporté)_
-
-
-> _Reporté — sujet trop médical — reporté à un cadre ultérieur_
-
 
 Un accompagnement respiratoire tout en douceur : ouvrir le souffle, apaiser, réconforter.
 
-
-*La respiration difficile peut inquiéter : ton calme aide bébé à relâcher.*
-
-
 **Séquence :**
 
-1. **la colonne vertébrale** — On accompagne le dos tout du long : détendre l'axe du corps, du haut vers le talon.
-2. **l'hypophyse** — Un point délicat sur le gros orteil : on invite tout l'intérieur au calme.
-3. **la gorge** — On apaise la zone du cou : relâcher, dénouer.
-4. **les amygdales** — Orteil après orteil, à leur base : soutenir la gorge, apaiser.
-5. **les ganglions lymphatiques** — On stimule doucement les ganglions, point par point : soutenir les défenses.
-6. **le thymus** — Un point doux sur le thymus : sécuriser, renforcer le sentiment de protection.
-7. **le pharynx** _(hors pied : hors pied)_ — Ce geste ne se fait pas sur le pied : suis l'indication, sans animation.
-8. **les poumons** — De petits cercles qui avancent sur le coussinet : ouvrir le souffle, laisser respirer.
-9. **le diaphragme** — Un lissage lent en travers du pied : relâcher le souffle et les tensions.
-10. **le plexus solaire** — Au centre de la voûte, une pression douce et maintenue : le point d'apaisement des émotions.
-11. **la rate** — Un geste doux côté rate : réconforter, adoucir.
-12. **les surrénales** — Un appui posé sur les surrénales : calmer l'agitation, apaiser le stress.
-13. **l'intestin grêle** — De petits cercles au centre du pied : apaiser le ventre, dénouer.
-14. **le gros intestin** — On suit le trajet du gros intestin : accompagner en douceur ce qui doit être évacué.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+1. **la colonne vertébrale** — _Pression glissée, 3 répétitions._ →  
+2. **l'hypophyse** — _Pression maintenue, 3 répétitions._ →  
+3. **le cou** — _Pression glissée, 3 répétitions._ →  
+4. **les amygdales** — _Pression glissée, 3 répétitions._ →  
+5. **les ganglions lymphatiques** — _Pression maintenue, 2 répétitions._ →  
+6. **le thymus** — _Pression maintenue, 3 répétitions._ →  
+8. **les poumons** — _Pression rotative, 3 répétitions._ →  
+9. **le diaphragme** — _Pression glissée, 3 répétitions._ →  
+10. **le plexus solaire** — _Pression maintenue, 3 répétitions._ →  
+11. **la rate** — _Pression rotative, 3 répétitions._ →  
+12. **les surrénales** — _Pression maintenue, 3 répétitions._ →  
+13. **l'intestin grêle** — _Pression rotative, 3 répétitions._ →  
+14. **le gros intestin** — _Pression glissée, 3 répétitions._ →  
 
 ---
-
 
 ## Eczéma _(reporté)_
 
-
-> _Reporté — sujet trop médical — reporté à un cadre ultérieur_
-
-
 Un protocole apaisant pour la peau : soutenir l'élimination et calmer les tensions.
-
 
 **Séquence :**
 
-1. **l'hypophyse** — Un point délicat sur le gros orteil : on invite tout l'intérieur au calme.
-2. **les ganglions lymphatiques** — On stimule doucement les ganglions, point par point : soutenir les défenses.
-3. **la thyroïde** — On suit la zone de la gorge et de la thyroïde : apaiser, réguler en douceur.
-4. **les poumons** — De petits cercles qui avancent sur le coussinet : ouvrir le souffle, laisser respirer.
-5. **le diaphragme** — Un lissage lent en travers du pied : relâcher le souffle et les tensions.
-6. **le plexus solaire** — Au centre de la voûte, une pression douce et maintenue : le point d'apaisement des émotions.
-7. **les surrénales** — Un appui posé sur les surrénales : calmer l'agitation, apaiser le stress.
-8. **le foie** — Un temps doux sur le foie : accompagner ce qui se transforme et se digère.
-9. **le système urinaire** — Un appui tranquille sur les reins : apaiser le trop-plein, relâcher les peurs.
-10. **l'intestin grêle** — De petits cercles au centre du pied : apaiser le ventre, dénouer.
-11. **le gros intestin** — On suit le trajet du gros intestin : accompagner en douceur ce qui doit être évacué.
-12. **la colonne vertébrale** — On accompagne le dos tout du long : détendre l'axe du corps, du haut vers le talon.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+1. **l'hypophyse** — _Pression maintenue, 3 répétitions._ →  
+2. **les ganglions lymphatiques** — _Pression maintenue, 2 répétitions._ →  
+3. **la thyroïde** — _Pression glissée, 3 répétitions._ →  
+4. **les poumons** — _Pression rotative, 3 répétitions._ →  
+5. **le diaphragme** — _Pression glissée, 3 répétitions._ →  
+6. **le plexus solaire** — _Pression maintenue, 3 répétitions._ →  
+7. **les surrénales** — _Pression maintenue, 3 répétitions._ →  
+8. **le foie** — _Pression rotative, 3 répétitions._ →  
+9. **les reins** — _Pression maintenue, 3 répétitions._ →  
+10. **l'intestin grêle** — _Pression rotative, 3 répétitions._ →  
+11. **le gros intestin** — _Pression glissée, 3 répétitions._ →  
+12. **la colonne vertébrale** — _Pression glissée, 3 répétitions._ →  
 
 ---
-
 
 ## Allergies _(reporté)_
 
-
-> _Reporté — sujet trop médical — reporté à un cadre ultérieur_
-
-
 Un moment doux pour soutenir les défenses et apaiser les réactions du corps.
-
 
 **Séquence :**
 
-1. **l'hypophyse** — Un point délicat sur le gros orteil : on invite tout l'intérieur au calme.
-2. **la thyroïde** — On suit la zone de la gorge et de la thyroïde : apaiser, réguler en douceur.
-3. **les ganglions lymphatiques** — On stimule doucement les ganglions, point par point : soutenir les défenses.
-4. **les surrénales** — Un appui posé sur les surrénales : calmer l'agitation, apaiser le stress.
-5. **les reins** — Un appui tranquille sur les reins : apaiser le trop-plein, relâcher les peurs.
-6. **l'intestin grêle** — De petits cercles au centre du pied : apaiser le ventre, dénouer.
-7. **le gros intestin** — On suit le trajet du gros intestin : accompagner en douceur ce qui doit être évacué.
-8. **les poumons** — De petits cercles qui avancent sur le coussinet : ouvrir le souffle, laisser respirer.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+1. **l'hypophyse** — _Pression maintenue, 3 répétitions._ →  
+2. **la thyroïde** — _Pression glissée, 3 répétitions._ →  
+3. **les ganglions lymphatiques** — _Pression maintenue, 2 répétitions._ →  
+4. **les surrénales** — _Pression maintenue, 3 répétitions._ →  
+5. **les reins** — _Pression maintenue, 3 répétitions._ →  
+6. **l'intestin grêle** — _Pression rotative, 3 répétitions._ →  
+7. **le gros intestin** — _Pression glissée, 3 répétitions._ →  
+8. **les poumons** — _Pression rotative, 3 répétitions._ →  
 
 ---
-
 
 ## Ictère _(reporté)_
 
-
-> _Reporté — sujet trop médical — reporté à un cadre ultérieur_
-
-
 Un accompagnement très doux pour soutenir le foie et l'élimination, dans les premiers jours.
-
 
 **Séquence :**
 
-1. **la tête** — On commence en douceur par les orteils, la zone de la tête : inviter le mental à se poser.
-2. **les poumons** — De petits cercles qui avancent sur le coussinet : ouvrir le souffle, laisser respirer.
-3. **le diaphragme** — Un lissage lent en travers du pied : relâcher le souffle et les tensions.
-4. **le plexus solaire** — Au centre de la voûte, une pression douce et maintenue : le point d'apaisement des émotions.
-5. **le foie** — Un temps doux sur le foie : accompagner ce qui se transforme et se digère.
-6. **la colonne vertébrale** — On accompagne le dos tout du long : détendre l'axe du corps, du haut vers le talon.
-7. **le gros intestin** — On suit le trajet du gros intestin : accompagner en douceur ce qui doit être évacué.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+1. **la tête** — _Pression circulaire, 3 répétitions._ →  
+2. **les poumons** — _Pression rotative, 3 répétitions._ →  
+3. **le diaphragme** — _Pression glissée, 3 répétitions._ →  
+4. **le plexus solaire** — _Pression maintenue, 3 répétitions._ →  
+5. **le foie** — _Pression rotative, 3 répétitions._ →  
+6. **la colonne vertébrale** — _Pression glissée, 3 répétitions._ →  
+7. **le gros intestin** — _Pression glissée, 3 répétitions._ →  
 
 ---
-
 
 ## Méconium _(reporté)_
 
-
-> _Reporté — sujet trop médical — reporté à un cadre ultérieur_
-
-
 Un protocole tout doux pour accompagner les premières éliminations de bébé.
 
-
 **Séquence :**
 
-1. **la tête** — On commence en douceur par les orteils, la zone de la tête : inviter le mental à se poser.
-2. **le diaphragme** — Un lissage lent en travers du pied : relâcher le souffle et les tensions.
-3. **le plexus solaire** — Au centre de la voûte, une pression douce et maintenue : le point d'apaisement des émotions.
-4. **le foie** — Un temps doux sur le foie : accompagner ce qui se transforme et se digère.
-5. **le gros intestin** — On suit le trajet du gros intestin : accompagner en douceur ce qui doit être évacué.
-6. **la colonne vertébrale** — On accompagne le dos tout du long : détendre l'axe du corps, du haut vers le talon.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
-
----
-
-
-## Chutes _(reporté)_
-
-
-> _Reporté — protocole complexe : nécessite des vues de côté (épaule, hanche) et d'autres éléments à créer — reporté_
-
-
-Un protocole réconfortant après une chute : apaiser la peur, soulager, rassurer.
-
-
-*La peur suit souvent la chute plus que la douleur : rassure d'abord, le geste vient ensuite.*
-
-
-**Séquence :**
-
-1. **la tête** — On commence en douceur par les orteils, la zone de la tête : inviter le mental à se poser.
-2. **l'hypophyse** — Un point délicat sur le gros orteil : on invite tout l'intérieur au calme.
-3. **le thymus** — Un point doux sur le thymus : sécuriser, renforcer le sentiment de protection.
-4. **le foie** — Un temps doux sur le foie : accompagner ce qui se transforme et se digère.
-5. **les surrénales** — Un appui posé sur les surrénales : calmer l'agitation, apaiser le stress.
-6. **le système urinaire** — Un appui tranquille sur les reins : apaiser le trop-plein, relâcher les peurs.
-7. **le bassin** — Un mouvement enveloppant sur le talon : ancrer, poser, rassurer.
-8. **la colonne vertébrale** — On accompagne le dos tout du long : détendre l'axe du corps, du haut vers le talon.
-9. **l'épaule ou la hanche** _(hors pied : hors pied)_ — Ce geste ne se fait pas sur le pied : suis l'indication, sans animation.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
-
----
-
-
-## Énurésie _(reporté)_
-
-
-> _Reporté — l'énurésie ne concerne pas un enfant de moins de 2 ans — hors tranche 0-23 mois_
-
-
-Un accompagnement doux autour de la sécurité et de l'ancrage, pour apaiser les tensions.
-
-
-*Derrière ces tensions, souvent un besoin de sécurité : rassure sans pression.*
-
-
-**Séquence :**
-
-1. **la colonne vertébrale** — On accompagne le dos tout du long : détendre l'axe du corps, du haut vers le talon.
-2. **la gorge** — On apaise la zone du cou : relâcher, dénouer.
-3. **les poumons** — De petits cercles qui avancent sur le coussinet : ouvrir le souffle, laisser respirer.
-4. **le diaphragme** — Un lissage lent en travers du pied : relâcher le souffle et les tensions.
-5. **le plexus solaire** — Au centre de la voûte, une pression douce et maintenue : le point d'apaisement des émotions.
-6. **les surrénales** — Un appui posé sur les surrénales : calmer l'agitation, apaiser le stress.
-7. **le système urinaire** — Un appui tranquille sur les reins : apaiser le trop-plein, relâcher les peurs.
-8. **le psoas** _(hors pied : hors pied)_ — Ce geste ne se fait pas sur le pied : suis l'indication, sans animation.
-
-_Note de fin :_ Termine en allégeant le contact, puis éloigne-toi en douceur.
-
-_Disclaimer (bas de page) :_ La Réflexologie plantaire ne se substitue pas à un avis médical.
+1. **la tête** — _Pression circulaire, 3 répétitions._ →  
+2. **le diaphragme** — _Pression glissée, 3 répétitions._ →  
+3. **le plexus solaire** — _Pression maintenue, 3 répétitions._ →  
+4. **le foie** — _Pression rotative, 3 répétitions._ →  
+5. **le gros intestin** — _Pression glissée, 3 répétitions._ →  
+6. **la colonne vertébrale** — _Pression glissée, 3 répétitions._ →  

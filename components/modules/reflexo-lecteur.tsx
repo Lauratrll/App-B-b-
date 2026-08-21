@@ -1945,12 +1945,55 @@ export function ReflexoLecteur({
         >
           {s?.horsPied ? s.designation : nomZone(s?.designation ?? "")}
         </h2>
-        <p className="reflexo-fade" style={{ fontSize: 19, lineHeight: 1.45, margin: "0 0 14px" }}>
-          {s?.intention}
-        </p>
-        {s?.desc ? (
-          <p className="reflexo-fade" style={{ fontSize: 14, color: EUCAL, lineHeight: 1.5, margin: 0 }}>
-            {s.desc}
+        {/* Le pourquoi + le geste. Une étape à gestes enchaînés (bassin, dents,
+            cardia/pylore) porte deux zones : on montre les deux, dans l'ordre
+            où elles se jouent. Cf. consignes §4 « Textes affichés par zone ». */}
+        {(s?.zonesTexte?.length ?? 0) > 1 ? (
+          <div className="reflexo-fade" style={{ display: "grid", gap: 12, margin: "0 0 14px" }}>
+            {s.zonesTexte.map((z, i) => (
+              <div key={`${z.designation}-${i}`}>
+                <p style={{ fontSize: 17, lineHeight: 1.4, margin: 0 }}>
+                  <span style={{ color: EUCAL }}>{i + 1}. </span>
+                  {z.phrase || z.designation}
+                </p>
+                {z.geste ? (
+                  <p style={{ fontSize: 13, color: EUCAL, lineHeight: 1.45, margin: "2px 0 0" }}>
+                    {z.designation} — {z.geste}
+                  </p>
+                ) : null}
+              </div>
+            ))}
+          </div>
+        ) : (
+          <>
+            <p className="reflexo-fade" style={{ fontSize: 19, lineHeight: 1.45, margin: "0 0 14px" }}>
+              {s?.intention}
+            </p>
+            {s?.desc ? (
+              <p className="reflexo-fade" style={{ fontSize: 14, color: EUCAL, lineHeight: 1.5, margin: 0 }}>
+                {s.desc}
+              </p>
+            ) : null}
+          </>
+        )}
+        {/* Les dents se travaillent SUR LE DESSUS du pied : l'illustration est
+            plantaire, le parent doit être prévenu au moment du geste. */}
+        {s?.emplacement ? (
+          <p
+            className="reflexo-fade"
+            style={{
+              marginTop: 12,
+              padding: "9px 11px",
+              borderRadius: 10,
+              background: "rgba(58,50,40,.07)",
+              fontSize: 13,
+              lineHeight: 1.45,
+            }}
+          >
+            {/* Capitales via textTransform : voir la note de la page protocole. */}
+            👆 Ce geste se fait{" "}
+            <strong style={{ textTransform: "uppercase" }}>sur le dessus du pied</strong>,
+            autour de l&apos;ongle du gros orteil — et non sous la plante.
           </p>
         ) : null}
         <div style={{ display: "flex", gap: 7, margin: "22px 0 0", flexWrap: "wrap" }}>

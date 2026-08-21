@@ -18,104 +18,120 @@
     {
       "ordre": 1,
       "designation": "la colonne vertébrale",
-      "intention": "On accompagne le dos tout du long : détendre l'axe du corps, du haut vers le talon.",
+      "intention": "Détend l'axe du dos, calme le système nerveux.",
       "zones": [
         {
           "zone": "colonne-vertebrale",
           "designation": "la colonne vertébrale",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Détend l'axe du dos, calme le système nerveux.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 2,
-      "designation": "la tête",
-      "intention": "On commence par les orteils, la zone de la tête : inviter au calme.",
-      "zones": [
-        {
-          "zone": "tete",
-          "designation": "la tête",
-          "mouvement": "pression-circulaire",
-          "description_mouvement": "Exercez une pression circulaire sur les orteils"
-        }
-      ]
-    },
-    {
-      "ordre": 3,
-      "designation": "la bouche",
-      "intention": "Un point tout doux vers la bouche : détendre la sphère orale.",
-      "zones": [
-        {
-          "zone": "bouche",
-          "designation": "la bouche",
-          "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
-        }
-      ]
-    },
-    {
-      "ordre": 4,
       "designation": "le diaphragme",
-      "intention": "Un lissage lent en travers du pied : relâcher le souffle et les tensions.",
+      "intention": "Relâche et déplie la respiration.",
       "zones": [
         {
           "zone": "diaphragme",
           "designation": "le diaphragme",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Relâche et déplie la respiration.",
+          "choix": "Physio"
+        }
+      ]
+    },
+    {
+      "ordre": 3,
+      "designation": "la tête",
+      "intention": "Apaise la tête, accueille bébé entier.",
+      "zones": [
+        {
+          "zone": "tete",
+          "designation": "la tête",
+          "mouvement": "pression-circulaire",
+          "description_mouvement": "Exercez une pression circulaire sur les orteils",
+          "phrase": "Apaise la tête, accueille bébé entier.",
+          "choix": "Physio"
+        }
+      ]
+    },
+    {
+      "ordre": 4,
+      "designation": "la bouche",
+      "intention": "Apaise la bouche dans sa gloabilté.",
+      "zones": [
+        {
+          "zone": "bouche",
+          "designation": "la bouche",
+          "mouvement": "pression-maintenue",
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Apaise la bouche dans sa gloabilté.",
+          "choix": "sur-mesure"
         }
       ]
     },
     {
       "ordre": 5,
       "designation": "l'œsophage",
-      "intention": "On suit doucement l'œsophage, de haut en bas : accompagner le passage.",
+      "intention": "Accueille le passage des aliments.",
       "zones": [
         {
           "zone": "oesophage",
           "designation": "l'œsophage",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Accueille le passage des aliments.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 6,
       "designation": "le cardia",
-      "intention": "Un point apaisant au cardia : dénouer la jonction avec l'estomac.",
+      "intention": "Soutient l'ouverture et la fermeture de l'estomac.",
       "zones": [
         {
           "zone": "cardia",
           "designation": "le cardia",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Soutient l'ouverture et la fermeture de l'estomac.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 7,
       "designation": "l'estomac",
-      "intention": "De petits cercles sur l'estomac : apaiser, dénouer le ventre.",
+      "intention": "Apaise le haut du ventre, aide la digestion.",
       "zones": [
         {
           "zone": "estomac",
           "designation": "l'estomac",
           "mouvement": "boucles-progressives",
-          "description_mouvement": "Effectuez de petits cercles qui avancent"
+          "description_mouvement": "Effectuez de petits cercles qui avancent",
+          "phrase": "Apaise le haut du ventre, aide la digestion.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 8,
       "designation": "le foie",
-      "intention": "Un temps doux sur le foie : accompagner ce qui se digère.",
+      "intention": "Filtre et nettoie le corps, calme la colère.",
       "zones": [
         {
           "zone": "foie",
           "designation": "le foie",
           "mouvement": "pression-circulaire",
-          "description_mouvement": "Exercez une pression circulaire sur la zone"
+          "description_mouvement": "Exercez une pression circulaire sur la zone",
+          "phrase": "Filtre et nettoie le corps, calme la colère.",
+          "choix": "sur-mesure"
         }
       ]
     }

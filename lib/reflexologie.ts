@@ -16,8 +16,11 @@
 // sur le champ `lancement`. Un protocole qui passe à `true` apparaît tout seul.
 //
 // ➕ Ajouter un protocole = déposer le JSON dans /reflexologie ET l'ajouter à
-// PROTOCOLES ci-dessous (imports statiques obligatoires pour le bundling). Le
-// reste (ordre, visibilité) est piloté par les données, pas par le code.
+// PROTOCOLES_SUR_DISQUE ci-dessous (imports statiques obligatoires pour le
+// bundling). Le reste (ordre, visibilité) est piloté par les données.
+//
+// ➖ Retirer un protocole de l'app sans supprimer le fichier : ajouter son id à
+// `retires_deontologie` dans protocoles-index.json (cf. RETIRES_DEONTOLOGIE).
 // ===========================================================================
 
 import indexJson from "@/reflexologie/protocoles-index.json";
@@ -31,7 +34,6 @@ import allergies from "@/reflexologie/protocole-allergies.json";
 import anxieteNervosite from "@/reflexologie/protocole-anxiete-nervosite.json";
 import bronchiteAsthme from "@/reflexologie/protocole-bronchite-asthme.json";
 import cesarienne from "@/reflexologie/protocole-cesarienne.json";
-import chutes from "@/reflexologie/protocole-chutes.json";
 import coliques from "@/reflexologie/protocole-coliques.json";
 import confianceEnSoi from "@/reflexologie/protocole-confiance-en-soi.json";
 import constipation from "@/reflexologie/protocole-constipation.json";
@@ -39,7 +41,6 @@ import dents from "@/reflexologie/protocole-dents.json";
 import diarrhee from "@/reflexologie/protocole-diarrhee.json";
 import difficultesATeter from "@/reflexologie/protocole-difficultes-a-teter.json";
 import eczema from "@/reflexologie/protocole-eczema.json";
-import enuresie from "@/reflexologie/protocole-enuresie.json";
 import frustrationMotrice from "@/reflexologie/protocole-frustration-motrice.json";
 import ictere from "@/reflexologie/protocole-ictere.json";
 import inconfortDigestif from "@/reflexologie/protocole-inconfort-digestif.json";
@@ -62,6 +63,15 @@ export type ReflexoZone = {
   description_mouvement: string;
   /** Sens du geste (certaines zones se jouent en sens inverse). Détail d'animation. */
   sens?: string;
+  /**
+   * Le « pourquoi » de CETTE zone dans CE protocole — la phrase à montrer au
+   * parent. Laura a tranché protocole par protocole entre la version physio
+   * et la version énergétique du catalogue, ou écrit une phrase sur-mesure :
+   * au sein d'un protocole, c'est ce champ qui prime (consignes §4).
+   */
+  phrase?: string;
+  /** Provenance de `phrase` : Physio | Énergie | sur-mesure. Suivi interne. */
+  choix?: string;
 };
 
 export type ReflexoEtape = {
@@ -81,7 +91,8 @@ export type ReflexoVariante = {
   condition: string;
   /** La variante n'est proposée qu'à partir de cet âge (en mois). */
   age_min_mois?: number;
-  ajout?: ReflexoZone[];
+  /** Étapes AJOUTÉES à la séquence (même forme qu'une étape normale). */
+  ajout?: ReflexoEtape[];
   texte: string;
 };
 
@@ -98,6 +109,8 @@ export type ReflexoProtocole = {
    * Convertie en URL servable par `visuelUrl()`.
    */
   visuel?: string;
+  /** Carte récapitulative de la VARIANTE (ex. « Sommeil (avec cauchemars) »). */
+  visuel_cauchemars?: string;
   intro: string;
   emotion?: string;
   ouverture: { titre: string; etapes: string[] };
@@ -154,14 +167,13 @@ export type ReflexoListItem = {
 
 // Tous les protocoles présents sur disque, publiés ou non. Le filtrage se fait
 // plus bas sur `lancement`, jamais sur cette liste.
-const PROTOCOLES = [
+const PROTOCOLES_SUR_DISQUE = [
   accueilNouveauNe,
   agitationConcentration,
   allergies,
   anxieteNervosite,
   bronchiteAsthme,
   cesarienne,
-  chutes,
   coliques,
   confianceEnSoi,
   constipation,
@@ -169,7 +181,6 @@ const PROTOCOLES = [
   diarrhee,
   difficultesATeter,
   eczema,
-  enuresie,
   frustrationMotrice,
   ictere,
   inconfortDigestif,
@@ -184,12 +195,32 @@ const PROTOCOLES = [
   sommeil,
 ] as unknown as ReflexoProtocole[];
 
+/**
+ * Protocoles RETIRÉS de l'app pour raison déontologique : ce sont des sujets
+ * pathologiques (bronchite/asthme, eczéma, allergies, ictère, méconium) qu'un
+ * praticien en réflexologie ne peut pas prétendre accompagner. Ils ne doivent
+ * apparaître NULLE PART — ni liste, ni recherche, ni page directe (404).
+ *
+ * La liste vit dans protocoles-index.json (`retires_deontologie`), jamais en
+ * dur ici : en retirer un id suffit à le faire réapparaître.
+ */
+const RETIRES_DEONTOLOGIE = new Set<string>(
+  (indexJson as { retires_deontologie?: string[] }).retires_deontologie ?? [],
+);
+
+/** Ce que l'app connaît vraiment : le disque MOINS les retraits déontologiques. */
+const PROTOCOLES = PROTOCOLES_SUR_DISQUE.filter((p) => !RETIRES_DEONTOLOGIE.has(p.id));
+
 const PAR_ID = new Map(PROTOCOLES.map((p) => [p.id, p]));
 
 // L'index porte l'ordre d'affichage voulu (et non l'ordre alphabétique des
 // fichiers) : on s'en sert comme référence de tri.
-const ORDRE_LANCEMENT: string[] = indexJson.lancement;
-const ORDRE_REPORTES: string[] = (indexJson as { reportes?: string[] }).reportes ?? [];
+const ORDRE_LANCEMENT: string[] = indexJson.lancement.filter(
+  (id) => !RETIRES_DEONTOLOGIE.has(id),
+);
+const ORDRE_REPORTES: string[] = (
+  (indexJson as { reportes?: string[] }).reportes ?? []
+).filter((id) => !RETIRES_DEONTOLOGIE.has(id));
 
 // ⚠️ TEMPORAIRE (demande Laura) : afficher TOUS les protocoles, publiés ET
 // reportés, le temps de la relecture. Repasser à `false` pour ne montrer que
@@ -245,15 +276,85 @@ export function getIdsPublies(): string[] {
 
 // --- Lecteur animé ---------------------------------------------------------
 
-// Catalogue des 37 zones : id de zone → ids des éléments SVG (`cibles`) à
-// animer. C'est le pont entre une étape de protocole (qui cite une `zone`) et
-// l'illustration des pieds (qui porte les `id` SVG).
-const CATALOGUE_CIBLES = new Map<string, string[]>(
-  (catalogueJson.zones as { id: string; cibles?: string[] }[]).map((z) => [
+/**
+ * Une zone du catalogue `zones-mouvements.json` (41 zones), côté TEXTE.
+ * C'est le pont entre une étape de protocole (qui cite une `zone`) et
+ * l'illustration des pieds (qui porte les `id` SVG).
+ */
+export type ReflexoZoneCatalogue = {
+  id: string;
+  designation: string;
+  /** Ids d'éléments SVG à révéler/animer. */
+  cibles: string[];
+  /** Le geste, en une ligne : « Pression glissée, 3 répétitions. » */
+  geste_court: string;
+  /** Bibliothèque de référence — le protocole a déjà tranché via `zone.phrase`. */
+  phrase_physio: string;
+  phrase_energie: string;
+  /**
+   * Cas contre-intuitif à signaler au parent : les dents se travaillent sur le
+   * DESSUS du pied, pas sous la plante. Présent seulement sur ces zones-là.
+   */
+  emplacement?: string;
+  mise_en_avant?: boolean;
+};
+
+const CATALOGUE = new Map<string, ReflexoZoneCatalogue>(
+  (
+    catalogueJson.zones as {
+      id: string;
+      designation?: string;
+      cibles?: string[];
+      geste_court?: string;
+      phrase_physio?: string;
+      phrase_energie?: string;
+      emplacement?: string;
+      mise_en_avant?: boolean;
+    }[]
+  ).map((z) => [
     z.id,
-    z.cibles ?? [],
+    {
+      id: z.id,
+      designation: z.designation ?? "",
+      cibles: z.cibles ?? [],
+      geste_court: z.geste_court ?? "",
+      phrase_physio: z.phrase_physio ?? "",
+      phrase_energie: z.phrase_energie ?? "",
+      emplacement: z.emplacement,
+      mise_en_avant: z.mise_en_avant,
+    },
   ]),
 );
+
+/** La fiche catalogue d'une zone (textes + cibles SVG), ou null si inconnue. */
+export function getZoneCatalogue(id: string): ReflexoZoneCatalogue | null {
+  return CATALOGUE.get(id) ?? null;
+}
+
+/**
+ * Les trois lignes à montrer au parent pour une zone d'un protocole :
+ * son nom, le geste (catalogue) et le pourquoi (`phrase` du protocole, qui
+ * prime toujours sur les phrases génériques du catalogue).
+ * `emplacement` n'est renseigné que pour les zones contre-intuitives (dents).
+ */
+export type ReflexoZoneTexte = {
+  designation: string;
+  geste: string;
+  phrase: string;
+  emplacement?: string;
+};
+
+export function texteZone(z: ReflexoZone): ReflexoZoneTexte {
+  const c = CATALOGUE.get(z.zone);
+  return {
+    designation: z.designation || c?.designation || z.zone,
+    // Le catalogue fait foi pour le geste ; la description longue du protocole
+    // sert de filet si `geste_court` venait à manquer.
+    geste: c?.geste_court || z.description_mouvement || "",
+    phrase: z.phrase ?? "",
+    emplacement: c?.mise_en_avant ? c.emplacement : undefined,
+  };
+}
 
 /**
  * Une étape telle que la consomme le lecteur animé paysage : le texte synchronisé
@@ -263,8 +364,19 @@ export type ReflexoAnimStep = {
   ordre: number;
   designation: string;
   intention: string;
-  /** Description du mouvement (1re zone de l'étape). */
+  /** Le geste, en une ligne (1re zone de l'étape) — `geste_court` du catalogue. */
   desc: string;
+  /**
+   * Une ligne par zone de l'étape : nom, geste, pourquoi. Les étapes à gestes
+   * enchaînés (bassin, dents, cardia/pylore) en ont deux — le lecteur les
+   * affiche toutes les deux, dans l'ordre où elles se jouent.
+   */
+  zonesTexte: ReflexoZoneTexte[];
+  /**
+   * Consigne d'emplacement contre-intuitive à mettre en avant (les dents se
+   * travaillent SUR LE DESSUS du pied). Absente pour toutes les autres zones.
+   */
+  emplacement?: string;
   mouvement: string | null;
   /** Étape hors pied : aucune zone à animer, texte seul. */
   horsPied: boolean;
@@ -285,18 +397,34 @@ export type ReflexoAnimStep = {
   inverse: boolean;
 };
 
-/** Convertit la séquence d'un protocole en étapes prêtes pour le lecteur animé. */
-export function getStepsAnimation(protocole: ReflexoProtocole): ReflexoAnimStep[] {
-  return protocole.sequence.map((e) => {
+/**
+ * Convertit la séquence d'un protocole en étapes prêtes pour le lecteur animé.
+ * `avecVariante` ajoute à la suite les étapes de la variante (ex. Sommeil
+ * « avec cauchemars » : la vésicule en 9e) — c'est la version que montre la
+ * carte récapitulative de la variante.
+ */
+export function getStepsAnimation(
+  protocole: ReflexoProtocole,
+  { avecVariante = false }: { avecVariante?: boolean } = {},
+): ReflexoAnimStep[] {
+  const sequence = avecVariante
+    ? [...protocole.sequence, ...(protocole.variante?.ajout ?? [])]
+    : protocole.sequence;
+  return sequence.map((e) => {
     const zones = e.zones ?? [];
     const groupes = zones
-      .map((z) => CATALOGUE_CIBLES.get(z.zone) ?? [])
+      .map((z) => CATALOGUE.get(z.zone)?.cibles ?? [])
       .filter((g) => g.length > 0);
+    const zonesTexte = zones.map(texteZone);
     return {
       ordre: e.ordre,
       designation: e.designation,
-      intention: e.intention,
-      desc: zones[0]?.description_mouvement ?? "",
+      // Le « pourquoi » : la phrase de la 1re zone si elle existe (elle prime),
+      // sinon l'intention historique de l'étape.
+      intention: zonesTexte[0]?.phrase || e.intention,
+      desc: zonesTexte[0]?.geste ?? "",
+      zonesTexte,
+      emplacement: zonesTexte.find((z) => z.emplacement)?.emplacement,
       mouvement: zones[0]?.mouvement ?? null,
       horsPied: e.hors_pied === true,
       cibles: groupes.flat(),

@@ -18,104 +18,120 @@
     {
       "ordre": 1,
       "designation": "le sacrum et les lombaires",
-      "intention": "On glisse le long du bas du dos : détendre le sacrum et les lombaires, apaiser le ventre par le bas.",
+      "intention": "Détend le bas du dos et le bassin.",
       "zones": [
         {
           "zone": "sacrum-lombaire",
           "designation": "le sacrum et les lombaires",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Détend le bas du dos et le bassin.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 2,
       "designation": "le diaphragme",
-      "intention": "Un lissage lent en travers du pied : relâcher le souffle et les tensions.",
+      "intention": "Relâche et déplie la respiration.",
       "zones": [
         {
           "zone": "diaphragme",
           "designation": "le diaphragme",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Relâche et déplie la respiration.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 3,
       "designation": "le plexus solaire",
-      "intention": "Au centre de la voûte, une pression douce et maintenue : le point d'apaisement des émotions.",
+      "intention": "Dénoue les tensions du ventre et du souffle.",
       "zones": [
         {
           "zone": "plexus-solaire",
           "designation": "le plexus solaire",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Dénoue les tensions du ventre et du souffle.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 4,
       "designation": "l'œsophage",
-      "intention": "On suit doucement l'œsophage : accompagner le passage, de haut en bas.",
+      "intention": "Accueille le passage des aliments.",
       "zones": [
         {
           "zone": "oesophage",
           "designation": "l'œsophage",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Accueille le passage des aliments.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 5,
       "designation": "le cardia",
-      "intention": "Un point apaisant vers le cardia : dénouer le haut du ventre.",
+      "intention": "Soutient l'ouverture et la fermeture de l'estomac.",
       "zones": [
         {
           "zone": "cardia",
           "designation": "le cardia",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Soutient l'ouverture et la fermeture de l'estomac.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 6,
       "designation": "l'estomac",
-      "intention": "De petits cercles sur l'estomac : apaiser, dénouer le ventre.",
+      "intention": "Apaise le haut du ventre, aide la digestion.",
       "zones": [
         {
           "zone": "estomac",
           "designation": "l'estomac",
           "mouvement": "boucles-progressives",
-          "description_mouvement": "Effectuez de petits cercles qui avancent"
+          "description_mouvement": "Effectuez de petits cercles qui avancent",
+          "phrase": "Apaise le haut du ventre, aide la digestion.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 7,
       "designation": "l'intestin grêle",
-      "intention": "De petits cercles au centre du pied : apaiser le ventre, dénouer.",
+      "intention": "Accompagne l'assimilation des nutriments.",
       "zones": [
         {
           "zone": "intestin-grele",
           "designation": "l'intestin grêle",
           "mouvement": "boucles-progressives",
-          "description_mouvement": "Effectuez de petits cercles qui avancent, du bord extérieur du pied vers l’intérieur"
+          "description_mouvement": "Effectuez de petits cercles qui avancent, du bord extérieur du pied vers l'intérieur",
+          "phrase": "Accompagne l'assimilation des nutriments.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 8,
       "designation": "le gros intestin",
-      "intention": "On suit le trajet du gros intestin : accompagner en douceur ce qui doit être évacué.",
+      "intention": "Accompagne le transit et l'élimination.",
       "zones": [
         {
           "zone": "gros-intestin",
           "designation": "le gros intestin",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Accompagne le transit et l'élimination.",
+          "choix": "Physio"
         }
       ]
     }

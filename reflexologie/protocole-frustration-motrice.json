@@ -8,125 +8,136 @@
   "sequence": [
     {
       "ordre": 1,
-      "designation": "la colonne vertébrale et le contour du corps",
-      "intention": "On détend tout l'axe du dos, puis on épouse le contour du corps : relâcher un corps tendu par l'effort, envelopper, rassurer.",
+      "designation": "le contour de la colonne vertébrale",
+      "intention": "Détend l'axe du dos, contient le corps.",
       "zones": [
-        {
-          "zone": "colonne-vertebrale",
-          "designation": "la colonne vertébrale",
-          "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
-        },
         {
           "zone": "colonne-vertebrale-contour",
           "designation": "le contour de la colonne vertébrale",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Détend l'axe du dos, contient le corps.",
+          "choix": "Physio"
         }
-      ],
-      "gestes_enchaines": true
+      ]
     },
     {
       "ordre": 2,
       "designation": "la tête",
-      "intention": "On accueille bébé tout entier, on apaise la tête.",
+      "intention": "Favorise la circulation de l'énergie.",
       "zones": [
         {
           "zone": "tete",
           "designation": "la tête",
           "mouvement": "pression-circulaire",
-          "description_mouvement": "Exercez une pression circulaire sur les orteils"
+          "description_mouvement": "Exercez une pression circulaire sur les orteils",
+          "phrase": "Favorise la circulation de l'énergie.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 3,
       "designation": "les épaules",
-      "intention": "On pose un appui doux sur les épaules : relâcher les tensions du haut du corps.",
+      "intention": "Relâche les tensions, soutient les bras.",
       "zones": [
         {
           "zone": "epaule",
           "designation": "les épaules",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Relâche les tensions, soutient les bras.",
+          "choix": "sur-mesure"
         }
       ]
     },
     {
       "ordre": 4,
       "designation": "les hanches",
-      "intention": "On pose un appui doux sur les hanches : détendre le bas du corps, base des mouvements.",
+      "intention": "Soutient un axe central de la motricité.",
       "zones": [
         {
           "zone": "hanche",
           "designation": "les hanches",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Soutient un axe central de la motricité.",
+          "choix": "sur-mesure"
         }
       ]
     },
     {
       "ordre": 5,
       "designation": "le bassin",
-      "intention": "On relâche le bassin en spirale lente : apaiser les jambes qui s'agitent, ancrer.",
+      "intention": "Détend le bassin et ancre.",
       "zones": [
         {
           "zone": "bassin",
           "designation": "le bassin",
           "mouvement": "spirale-centripete",
-          "description_mouvement": "Effectuez un mouvement circulaire de l'extérieur vers le centre"
+          "description_mouvement": "Effectuez un mouvement circulaire de l'extérieur vers le centre",
+          "phrase": "Détend le bassin et ancre.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 6,
       "designation": "le diaphragme",
-      "intention": "On relâche la coupole du ventre : la respiration, coupée par la frustration, se déplie.",
+      "intention": "Relâche et déplie la respiration.",
       "zones": [
         {
           "zone": "diaphragme",
           "designation": "le diaphragme",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Relâche et déplie la respiration.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 7,
       "designation": "le plexus solaire",
-      "intention": "On apaise le centre des émotions, là où la colère se noue.",
+      "intention": "Centre des émotions : libère et apporte de la joie.",
       "zones": [
         {
           "zone": "plexus-solaire",
           "designation": "le plexus solaire",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Centre des émotions : libère et apporte de la joie.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 8,
       "designation": "le foie",
-      "intention": "On accompagne le foie, là où la colère et la frustration se déposent.",
+      "intention": "Relâche la colère et la frustration, invite au calme.",
       "zones": [
         {
           "zone": "foie",
           "designation": "le foie",
           "mouvement": "pression-circulaire",
-          "description_mouvement": "Exercez une pression circulaire sur la zone"
+          "description_mouvement": "Exercez une pression circulaire sur la zone",
+          "phrase": "Relâche la colère et la frustration, invite au calme.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 9,
       "designation": "les surrénales",
-      "intention": "On apaise la décharge de stress et d'énergie de la colère.",
+      "intention": "Soutient l'énergie et la réponse au stress.",
       "zones": [
         {
           "zone": "surrenales",
           "designation": "les surrénales",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Soutient l'énergie et la réponse au stress.",
+          "choix": "Physio"
         }
       ]
     }

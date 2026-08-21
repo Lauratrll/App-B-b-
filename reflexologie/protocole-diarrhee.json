@@ -20,145 +20,165 @@
     {
       "ordre": 1,
       "designation": "la colonne vertébrale",
-      "intention": "On détend d'abord tout l'axe du dos : le calme part de là.",
+      "intention": "Détend l'axe du dos, calme le système nerveux.",
       "zones": [
         {
           "zone": "colonne-vertebrale",
           "designation": "la colonne vertébrale",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Détend l'axe du dos, calme le système nerveux.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 2,
       "designation": "l'hypophyse",
-      "intention": "On réveille en douceur le chef d'orchestre du corps.",
+      "intention": "Harmonise la régulation des hormones.",
       "zones": [
         {
           "zone": "hypophyse",
           "designation": "l'hypophyse",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Harmonise la régulation des hormones.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 3,
       "designation": "les poumons",
-      "intention": "On ouvre la respiration, on aide bébé à se poser.",
+      "intention": "Aide à lâcher prise, apaise la tristesse.",
       "zones": [
         {
           "zone": "poumon",
           "designation": "les poumons",
           "mouvement": "boucles-progressives",
-          "description_mouvement": "Effectuez de petits cercles qui avancent, de l'intérieur vers l'extérieur"
+          "description_mouvement": "Effectuez de petits cercles qui avancent, de l'intérieur vers l'extérieur",
+          "phrase": "Aide à lâcher prise, apaise la tristesse.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 4,
       "designation": "le thymus",
-      "intention": "On soutient les défenses, tout en douceur.",
+      "intention": "Régule le stress.",
       "zones": [
         {
           "zone": "thymus",
           "designation": "le thymus",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Régule le stress.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 5,
       "designation": "la thyroïde",
-      "intention": "On accompagne le rythme du corps.",
+      "intention": "Accompagne le rythme du métabolisme.",
       "zones": [
         {
           "zone": "thyroide",
           "designation": "la thyroïde",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Accompagne le rythme du métabolisme.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 6,
       "designation": "le diaphragme",
-      "intention": "On relâche la coupole du ventre : la respiration se déplie.",
+      "intention": "Relâche et déplie la respiration.",
       "zones": [
         {
           "zone": "diaphragme",
           "designation": "le diaphragme",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Relâche et déplie la respiration.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 7,
       "designation": "le foie",
-      "intention": "On accompagne le travail du foie, sans forcer.",
+      "intention": "Relâche la colère et la frustration.",
       "zones": [
         {
           "zone": "foie",
           "designation": "le foie",
           "mouvement": "pression-circulaire",
-          "description_mouvement": "Exercez une pression circulaire sur la zone"
+          "description_mouvement": "Exercez une pression circulaire sur la zone",
+          "phrase": "Relâche la colère et la frustration.",
+          "choix": "sur-mesure"
         }
       ]
     },
     {
       "ordre": 8,
       "designation": "l'estomac",
-      "intention": "On apaise le haut du ventre.",
+      "intention": "Apaise le haut du ventre, aide la digestion.",
       "zones": [
         {
           "zone": "estomac",
           "designation": "l'estomac",
           "mouvement": "boucles-progressives",
-          "description_mouvement": "Effectuez de petits cercles qui avancent"
+          "description_mouvement": "Effectuez de petits cercles qui avancent",
+          "phrase": "Apaise le haut du ventre, aide la digestion.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 9,
       "designation": "les surrénales",
-      "intention": "On soutient l'énergie et l'équilibre du corps.",
+      "intention": "Soutient l'énergie et la réponse au stress.",
       "zones": [
         {
           "zone": "surrenales",
           "designation": "les surrénales",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Soutient l'énergie et la réponse au stress.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 10,
       "designation": "l'intestin grêle",
-      "intention": "On suit le trajet fin de l'intestin, mais dans le sens inverse.",
+      "intention": "Accompagne l'assimilation des nutriments.",
       "zones": [
         {
           "zone": "intestin-grele",
           "designation": "l'intestin grêle",
           "mouvement": "boucles-progressives",
-          "description_mouvement": "Effectuez de petits cercles qui avancent, du bord extérieur du pied vers l’intérieur",
-          "sens": "inverse"
+          "description_mouvement": "Effectuez de petits cercles qui avancent, du bord extérieur du pied vers l'intérieur",
+          "phrase": "Accompagne l'assimilation des nutriments.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 11,
       "designation": "le gros intestin",
-      "intention": "On accompagne le gros intestin dans le sens inverse : du bas du pied gauche vers le bas du pied droit.",
+      "intention": "Accompagne le transit et l'élimination.",
       "zones": [
         {
           "zone": "gros-intestin",
           "designation": "le gros intestin",
           "mouvement": "pression-glissee",
           "description_mouvement": "Faites glisser le pouce le long de la zone",
-          "sens": "inverse"
+          "phrase": "Accompagne le transit et l'élimination.",
+          "choix": "Physio"
         }
       ]
     }

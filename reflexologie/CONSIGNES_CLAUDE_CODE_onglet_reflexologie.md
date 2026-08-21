@@ -40,11 +40,14 @@ _(Césarienne et Confiance en soi sont **deux protocoles distincts** ; Inconfort
 > **Bornes d'âge — BROUILLON, ne pas activer le filtre.** Chaque protocole porte désormais `age_min_mois` / `age_max_mois` **et** `age_statut: "brouillon"` ; l'index porte le drapeau `_bornes_age`. **Claude Code ne doit PAS activer le filtre par âge** tant que ce drapeau est là : Laura veut d'abord relire toutes les bornes librement. Afficher tous les protocoles publiés sans restriction d'âge pour l'instant.
 >
 > _Sommeil_ : bornes M0–M23, avec une note — version de base M0–M11, version **avec vésicule** M12–M23 (variante à intégrer plus tard).
-> _Énurésie_ : **reporté** (l'énurésie ne concerne pas un enfant de moins de 2 ans).
 
-**7 protocoles reportés** (`"lancement": false`, `raison_report` renseigné), présents dans les données mais **non affichés** : Bronchite, asthme · Eczéma · Allergies · Ictère · Méconium · **Chutes** _(vues de côté à créer)_ · **Énurésie** _(pas avant 2 ans)_.
+**5 protocoles reportés** (`"lancement": false`, `raison_report` renseigné), présents dans les données mais **non affichés** : Bronchite, asthme · Eczéma · Allergies · Ictère · Méconium.
 
-> Le code filtre sur `lancement === true`. Ne rien coder en dur : si le champ passe à `true` un jour, le protocole apparaît.
+> **⚠️ Ces 5-là sont RETIRÉS de l'app pour raison déontologique** (sujets pathologiques qu'un praticien en réflexologie ne peut pas prétendre accompagner) : ils sont listés dans `protocoles-index.json` › `retires_deontologie`, et `lib/reflexologie.ts` les écarte **à la source** — invisibles en liste, en recherche et même en URL directe (404), quel que soit `lancement`. Pour en réintégrer un : retirer son id de cette liste.
+>
+> **Chutes** et **Énurésie** ont été **supprimés** le 21/08/2026 (décision Laura) : fichiers, visuels et entrées d'index effacés — Chutes demandait des vues de côté à créer, l'énurésie ne concerne pas un enfant de moins de 2 ans. Récupérables dans l'historique git si besoin.
+
+> Pour le reste, le code filtre sur `lancement === true`. Ne rien coder en dur : si le champ passe à `true` un jour, le protocole apparaît.
 
 **Reflux, Prématurité, Rhume-otite et Diarrhée** sont publiés mais portent `"sujet_sensible": true` (la Diarrhée porte en plus une `vigilance` : « diarrhée d'origine infectieuse : demander un avis médical ») : garder des **termes prudents** (« accompagner », « apaiser l'inconfort », « soulager le moment »), **jamais** « soigner », « traiter », « guérir ».
 
@@ -57,7 +60,7 @@ _(Césarienne et Confiance en soi sont **deux protocoles distincts** ; Inconfort
 | `protocoles-index.json` | La liste : quels protocoles, lesquels au lancement, lesquels reportés. **Point de départ du code.** |
 | `protocole-<id>.json` | Un protocole complet (ouverture, étapes, variante, note de fin). Un par protocole. |
 | `_ouverture-commune.json` | L'ouverture identique à tous les protocoles. |
-| `zones-mouvements.json` | Le catalogue des 41 zones et de leur mouvement. |
+| `zones-mouvements.json` | Le catalogue des 41 zones et de leur mouvement. Chaque zone porte aussi : `geste_court` (description du geste, ex. « Pression glissée, 3 répétitions. »), `phrase_physio` (le pourquoi physiologique) et `phrase_energie` (le pourquoi émotionnel/énergétique — MTC). |
 | `protocole-<id>.json` → champ `visuel` | Chemin de la **carte récapitulative** du protocole (`visuels-protocoles/Visuel - <titre>.png`). |
 | `maquette-lecteur-paysage.html` | **Maquette** du lecteur animé en paysage (référence de mise en page). |
 | `pieds_bebe_zones_reflexes.svg` | L'illustration des pieds + toutes les zones. |
@@ -84,6 +87,15 @@ Dans l'ordre, tel que chaque `protocole-<id>.json` le décrit :
 8. **Disclaimer** (`disclaimer`, commun) : la phrase exacte **« La Réflexologie plantaire ne se substitue pas à un avis médical. »**, affichée **en petit, en bas de chaque protocole**. **Toujours présente.**
 
 L'animation de chaque zone reprend exactement les prototypes `mouvement-*.html` (voir les consignes d'animation). Écran prévu en **mode paysage**.
+
+### Textes affichés par zone (nouveau)
+
+Pour chaque zone **dans un protocole**, l'objet `zones[]` de l'étape porte désormais deux champs, à afficher au moment où la zone s'anime :
+
+- **`phrase`** — la phrase à montrer au parent (le « pourquoi » de cette zone dans ce protocole). Elle est déjà **la bonne** : Laura a choisi, par protocole, entre la version physiologique et la version émotionnelle, ou a écrit une phrase sur-mesure.
+- **`choix`** — `Physio`, `Énergie` ou `sur-mesure` (provenance de la phrase ; utile pour le suivi, pas forcément à afficher).
+
+Le **geste** à afficher vient du `geste_court` de la zone (catalogue). Les phrases « génériques » par zone (`phrase_physio`, `phrase_energie`) restent dans le catalogue comme bibliothèque de référence, mais **au sein d'un protocole, c'est `zones[].phrase` qui prime**.
 
 ---
 

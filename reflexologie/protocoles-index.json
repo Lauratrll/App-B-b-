@@ -27,9 +27,15 @@
     "eczema",
     "allergies",
     "ictere",
-    "meconium",
-    "chutes",
-    "enuresie"
+    "meconium"
+  ],
+  "_note_retires_deontologie": "Protocoles RETIRÉS de l'app : sujets pathologiques qu'un praticien en réflexologie ne peut pas prétendre accompagner (déontologie). Les fichiers restent sur le disque, mais lib/reflexologie.ts ne les charge plus — ni liste, ni page, ni recherche. Pour en réintégrer un : le retirer de cette liste.",
+  "retires_deontologie": [
+    "bronchite-asthme",
+    "eczema",
+    "allergies",
+    "ictere",
+    "meconium"
   ],
   "accueil": "accueil-onglet-reflexologie.json",
   "ouverture_commune": "_ouverture-commune.json",
@@ -180,7 +186,7 @@
       "id": "sommeil",
       "titre": "Sommeil",
       "fichier": "protocole-sommeil.json",
-      "nb_etapes": 9,
+      "nb_etapes": 8,
       "lancement": true,
       "sujet_sensible": false,
       "variante": true,
@@ -285,26 +291,6 @@
       "sujet_sensible": false,
       "variante": false,
       "raison_report": "sujet trop médical — reporté à un cadre ultérieur"
-    },
-    {
-      "id": "chutes",
-      "titre": "Chutes",
-      "fichier": "protocole-chutes.json",
-      "nb_etapes": 9,
-      "lancement": false,
-      "sujet_sensible": false,
-      "variante": false,
-      "raison_report": "protocole complexe : nécessite des vues de côté (épaule, hanche) et d'autres éléments à créer — reporté"
-    },
-    {
-      "id": "enuresie",
-      "titre": "Énurésie",
-      "fichier": "protocole-enuresie.json",
-      "nb_etapes": 8,
-      "lancement": false,
-      "sujet_sensible": false,
-      "variante": false,
-      "raison_report": "l'énurésie ne concerne pas un enfant de moins de 2 ans — hors tranche 0-23 mois"
     }
   ],
   "_bornes_age": "BROUILLON — Laura doit relire toutes les bornes d'âge (age_min_mois/age_max_mois) avant validation. NE PAS activer le filtre par âge tant que ce drapeau est présent."

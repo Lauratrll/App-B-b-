@@ -9,78 +9,90 @@
     {
       "ordre": 1,
       "designation": "la colonne vertébrale",
-      "intention": "On détend d'abord tout l'axe du dos : le calme part de là.",
+      "intention": "Détend l'axe du dos, calme le système nerveux.",
       "zones": [
         {
           "zone": "colonne-vertebrale",
           "designation": "la colonne vertébrale",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Détend l'axe du dos, calme le système nerveux.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 2,
-      "designation": "le point coronal",
-      "intention": "On pose un appui doux au sommet de la tête : rassembler, apaiser.",
+      "designation": "le chakra coronal",
+      "intention": "Soutient la conscience de soi et la concentration.",
       "zones": [
         {
           "zone": "coronal",
-          "designation": "le point coronal",
+          "designation": "le chakra coronal",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Soutient la conscience de soi et la concentration.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 3,
       "designation": "la thyroïde",
-      "intention": "On accompagne le rythme du corps, on aide à relâcher la tension.",
+      "intention": "Accompagne le rythme du métabolisme.",
       "zones": [
         {
           "zone": "thyroide",
           "designation": "la thyroïde",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Accompagne le rythme du métabolisme.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 4,
       "designation": "l'estomac",
-      "intention": "On apaise le haut du ventre, là où les émotions se nouent.",
+      "intention": "Digère les émotions, apaise la rumination.",
       "zones": [
         {
           "zone": "estomac",
           "designation": "l'estomac",
           "mouvement": "boucles-progressives",
-          "description_mouvement": "Effectuez de petits cercles qui avancent"
+          "description_mouvement": "Effectuez de petits cercles qui avancent",
+          "phrase": "Digère les émotions, apaise la rumination.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 5,
       "designation": "les reins",
-      "intention": "On soutient les reins, l'énergie profonde et l'ancrage.",
+      "intention": "Apaise la peur, donne confiance.",
       "zones": [
         {
           "zone": "rein",
           "designation": "les reins",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Apaise la peur, donne confiance.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 6,
       "designation": "le bassin",
-      "intention": "On termine par le bassin, en spirale lente : ancrer, refermer le soin.",
+      "intention": "Détend le bassin et ancre.",
       "zones": [
         {
           "zone": "bassin",
           "designation": "le bassin",
           "mouvement": "spirale-centripete",
-          "description_mouvement": "Effectuez un mouvement circulaire de l'extérieur vers le centre"
+          "description_mouvement": "Effectuez un mouvement circulaire de l'extérieur vers le centre",
+          "phrase": "Détend le bassin et ancre.",
+          "choix": "Physio"
         }
       ]
     }

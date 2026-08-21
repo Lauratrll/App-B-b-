@@ -18,84 +18,98 @@
     {
       "ordre": 1,
       "designation": "la colonne vertébrale",
-      "intention": "On accompagne le dos tout du long : détendre l'axe du corps, du haut vers le talon.",
+      "intention": "Détend l'axe du dos, calme le système nerveux.",
       "zones": [
         {
           "zone": "colonne-vertebrale",
           "designation": "la colonne vertébrale",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Détend l'axe du dos, calme le système nerveux.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 2,
       "designation": "le point de conception",
-      "intention": "Un point tout doux qui relie bébé à son tout début : présence et ancrage.",
+      "intention": "Recentre, point d'équilibre général.",
       "zones": [
         {
           "zone": "point-conception",
           "designation": "le point de conception",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Recentre, point d'équilibre général.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 3,
       "designation": "la tête",
-      "intention": "On commence en douceur par les orteils, la zone de la tête : inviter le mental à se poser.",
+      "intention": "Apaise la tête, accueille bébé entier.",
       "zones": [
         {
           "zone": "tete",
           "designation": "la tête",
           "mouvement": "pression-circulaire",
-          "description_mouvement": "Exercez une pression circulaire sur les orteils"
+          "description_mouvement": "Exercez une pression circulaire sur les orteils",
+          "phrase": "Apaise la tête, accueille bébé entier.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 4,
       "designation": "le plexus solaire",
-      "intention": "Au centre de la voûte, une pression douce et maintenue : le point d'apaisement des émotions.",
+      "intention": "Centre des émotions : libère et apporte de la joie.",
       "zones": [
         {
           "zone": "plexus-solaire",
           "designation": "le plexus solaire",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Centre des émotions : libère et apporte de la joie.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 5,
       "designation": "la zone digestive",
-      "intention": "On accompagne tout le ventre en douceur : aider la digestion à se dérouler tranquillement.",
+      "intention": "Accompagne toute la digestion.",
       "zones": [
         {
           "zone": "digestive",
           "designation": "la zone digestive",
           "mouvement": "composite",
-          "description_mouvement": "Faites glisser le pouce le long du trait, puis de petits cercles sur la zone"
+          "description_mouvement": "Faites glisser le pouce le long du trait, puis de petits cercles sur la zone",
+          "phrase": "Accompagne toute la digestion.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 6,
-      "designation": "le bassin",
-      "intention": "Un mouvement enveloppant sur le talon, puis un temps d'ancrage : poser, sécuriser, enraciner le tout-petit dans son corps.",
+      "designation": "le bassin et l'ancrage",
+      "intention": "Détend le bassin et ancre. · Soutient l'ancrage et la sécurité.",
       "zones": [
         {
           "zone": "bassin",
           "designation": "le bassin",
           "mouvement": "spirale-centripete",
-          "description_mouvement": "Effectuez un mouvement circulaire de l'extérieur vers le centre"
+          "description_mouvement": "Effectuez un mouvement circulaire de l'extérieur vers le centre",
+          "phrase": "Détend le bassin et ancre.",
+          "choix": "Physio"
         },
         {
           "zone": "bassin-ancrage",
           "designation": "l'ancrage du bassin",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Soutient l'ancrage et la sécurité.",
+          "choix": "Physio"
         }
       ],
       "gestes_enchaines": true

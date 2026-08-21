@@ -8,144 +8,175 @@
   "sequence": [
     {
       "ordre": 1,
-      "designation": "la tête",
-      "intention": "On commence tout en douceur par la tête, pour accueillir bébé entier.",
-      "zones": [
-        {
-          "zone": "tete",
-          "designation": "la tête",
-          "mouvement": "pression-circulaire",
-          "description_mouvement": "Exercez une pression circulaire sur les orteils"
-        }
-      ]
-    },
-    {
-      "ordre": 2,
-      "designation": "la bouche",
-      "intention": "On apaise la bouche, porte des premières tensions.",
-      "zones": [
-        {
-          "zone": "bouche",
-          "designation": "la bouche",
-          "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
-        }
-      ]
-    },
-    {
-      "ordre": 3,
-      "designation": "l'épiphyse",
-      "intention": "On pose un appui doux : aider à trouver ses repères, son équilibre.",
-      "zones": [
-        {
-          "zone": "epiphyse",
-          "designation": "l'épiphyse",
-          "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
-        }
-      ]
-    },
-    {
-      "ordre": 4,
       "designation": "la colonne vertébrale et le nerf vague",
-      "intention": "On glisse le long de la colonne, version allongée qui intègre le nerf vague : détendre tout l'axe et apaiser en profondeur.",
+      "intention": "Apaise l'axe du dos et diffuse les informations.",
       "zones": [
         {
           "zone": "colonne-nerf-vague",
           "designation": "la colonne vertébrale et le nerf vague",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la colonne, en intégrant le nerf vague"
+          "description_mouvement": "Faites glisser le pouce le long de la colonne, en intégrant le nerf vague",
+          "phrase": "Apaise l'axe du dos et diffuse les informations.",
+          "choix": "sur-mesure"
+        }
+      ]
+    },
+    {
+      "ordre": 2,
+      "designation": "le chakra coronal",
+      "intention": "Soutient la conscience de soi et la concentration.",
+      "zones": [
+        {
+          "zone": "coronal",
+          "designation": "le chakra coronal",
+          "mouvement": "pression-maintenue",
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Soutient la conscience de soi et la concentration.",
+          "choix": "Physio"
+        }
+      ]
+    },
+    {
+      "ordre": 3,
+      "designation": "la tête",
+      "intention": "Favorise la circulation des informations.",
+      "zones": [
+        {
+          "zone": "tete",
+          "designation": "la tête",
+          "mouvement": "pression-circulaire",
+          "description_mouvement": "Exercez une pression circulaire sur les orteils",
+          "phrase": "Favorise la circulation des informations.",
+          "choix": "sur-mesure"
+        }
+      ]
+    },
+    {
+      "ordre": 4,
+      "designation": "les oreilles",
+      "intention": "Soutien le système vestibulaire.",
+      "zones": [
+        {
+          "zone": "oreilles",
+          "designation": "les oreilles",
+          "mouvement": "pression-glissee",
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Soutien le système vestibulaire.",
+          "choix": "sur-mesure"
         }
       ]
     },
     {
       "ordre": 5,
-      "designation": "le diaphragme",
-      "intention": "On relâche la coupole du ventre : la respiration se déplie.",
+      "designation": "la bouche",
+      "intention": "Régule la salivation.",
       "zones": [
         {
-          "zone": "diaphragme",
-          "designation": "le diaphragme",
-          "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "zone": "bouche",
+          "designation": "la bouche",
+          "mouvement": "pression-maintenue",
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Régule la salivation.",
+          "choix": "sur-mesure"
         }
       ]
     },
     {
       "ordre": 6,
-      "designation": "le thymus",
-      "intention": "On soutient les défenses, tout en douceur.",
+      "designation": "le diaphragme",
+      "intention": "Relâche et déplie la respiration.",
       "zones": [
         {
-          "zone": "thymus",
-          "designation": "le thymus",
-          "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "zone": "diaphragme",
+          "designation": "le diaphragme",
+          "mouvement": "pression-glissee",
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Relâche et déplie la respiration.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 7,
-      "designation": "l'œsophage",
-      "intention": "On glisse le long de l'œsophage, on apaise le passage.",
+      "designation": "le thymus",
+      "intention": "Régule le stress.",
       "zones": [
         {
-          "zone": "oesophage",
-          "designation": "l'œsophage",
-          "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "zone": "thymus",
+          "designation": "le thymus",
+          "mouvement": "pression-maintenue",
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Régule le stress.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 8,
-      "designation": "le cardia",
-      "intention": "On pose un appui doux à l'entrée de l'estomac.",
+      "designation": "l'œsophage et le cardia",
+      "intention": "Apaise et limite les rejets. · Soutient l'ouverture et la fermeture de l'estomac.",
       "zones": [
+        {
+          "zone": "oesophage",
+          "designation": "l'œsophage",
+          "mouvement": "pression-glissee",
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Apaise et limite les rejets.",
+          "choix": "sur-mesure"
+        },
         {
           "zone": "cardia",
           "designation": "le cardia",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Soutient l'ouverture et la fermeture de l'estomac.",
+          "choix": "Physio"
         }
-      ]
+      ],
+      "gestes_enchaines": true
     },
     {
       "ordre": 9,
       "designation": "l'estomac",
-      "intention": "On apaise le haut du ventre.",
+      "intention": "Apaise le haut du ventre, aide la digestion.",
       "zones": [
         {
           "zone": "estomac",
           "designation": "l'estomac",
           "mouvement": "boucles-progressives",
-          "description_mouvement": "Effectuez de petits cercles qui avancent"
+          "description_mouvement": "Effectuez de petits cercles qui avancent",
+          "phrase": "Apaise le haut du ventre, aide la digestion.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 10,
       "designation": "le foie",
-      "intention": "On accompagne le travail du foie, sans forcer.",
+      "intention": "Relâche la colère et la frustration.",
       "zones": [
         {
           "zone": "foie",
           "designation": "le foie",
           "mouvement": "pression-circulaire",
-          "description_mouvement": "Exercez une pression circulaire sur la zone"
+          "description_mouvement": "Exercez une pression circulaire sur la zone",
+          "phrase": "Relâche la colère et la frustration.",
+          "choix": "sur-mesure"
         }
       ]
     },
     {
       "ordre": 11,
       "designation": "le gros intestin",
-      "intention": "On accompagne le trajet du gros intestin, jusqu'au bout.",
+      "intention": "Accompagne le lâcher-prise.",
       "zones": [
         {
           "zone": "gros-intestin",
           "designation": "le gros intestin",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Accompagne le lâcher-prise.",
+          "choix": "sur-mesure"
         }
       ]
     }

@@ -19,32 +19,38 @@
     {
       "ordre": 1,
       "designation": "la bouche",
-      "intention": "On apaise la bouche, là où la douleur des gencives se concentre.",
+      "intention": "Apaise la bouche et les gencives.",
       "zones": [
         {
           "zone": "bouche",
           "designation": "la bouche",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Apaise la bouche et les gencives.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 2,
       "designation": "les dents (haut et bas)",
-      "intention": "On parcourt les dents du haut puis du bas, pour soulager les gencives.",
+      "intention": "Soulage les gencives du haut. · Soulage les gencives du bas.",
       "zones": [
         {
           "zone": "dents-machoire-haute",
           "designation": "les dents et la mâchoire du haut",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Sur le DESSUS du pied (autour de l'ongle), faites glisser doucement le long de la zone — haut et bas de l'ongle, pas sous le pied",
+          "phrase": "Soulage les gencives du haut.",
+          "choix": "Physio"
         },
         {
           "zone": "dents-machoire-bas",
           "designation": "les dents et la mâchoire du bas",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Sur le DESSUS du pied (autour de l'ongle), faites glisser doucement le long de la zone — haut et bas de l'ongle, pas sous le pied",
+          "phrase": "Soulage les gencives du bas.",
+          "choix": "Physio"
         }
       ],
       "gestes_enchaines": true
@@ -52,91 +58,105 @@
     {
       "ordre": 3,
       "designation": "les sinus",
-      "intention": "On dégage les sinus, souvent gênés pendant les poussées.",
+      "intention": "Soulage les voies respiratoires.",
       "zones": [
         {
           "zone": "sinus",
           "designation": "les sinus",
           "mouvement": "pression-circulaire",
-          "description_mouvement": "Exercez une pression circulaire sur la zone"
+          "description_mouvement": "Exercez une pression circulaire sur la zone",
+          "phrase": "Soulage les voies respiratoires.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 4,
       "designation": "les ganglions lymphatiques",
-      "intention": "On soutient le drainage, les petits filtres du corps.",
+      "intention": "Soutient les anticorps.",
       "zones": [
         {
           "zone": "ganglions-lympahtiques",
           "designation": "les ganglions lymphatiques",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Soutient les anticorps.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 5,
       "designation": "les poumons",
-      "intention": "On ouvre la respiration, on apaise.",
+      "intention": "Aide à lâcher prise, apaise la tristesse.",
       "zones": [
         {
           "zone": "poumon",
           "designation": "les poumons",
           "mouvement": "boucles-progressives",
-          "description_mouvement": "Effectuez de petits cercles qui avancent, de l'intérieur vers l'extérieur"
+          "description_mouvement": "Effectuez de petits cercles qui avancent, de l'intérieur vers l'extérieur",
+          "phrase": "Aide à lâcher prise, apaise la tristesse.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 6,
       "designation": "le diaphragme",
-      "intention": "On relâche la coupole du ventre : le souffle se déplie.",
+      "intention": "Relâche et déplie la respiration.",
       "zones": [
         {
           "zone": "diaphragme",
           "designation": "le diaphragme",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Relâche et déplie la respiration.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 7,
       "designation": "le foie",
-      "intention": "On accompagne le foie, tout en douceur.",
+      "intention": "Relâche la colère et la frustration, invite au calme.",
       "zones": [
         {
           "zone": "foie",
           "designation": "le foie",
           "mouvement": "pression-circulaire",
-          "description_mouvement": "Exercez une pression circulaire sur la zone"
+          "description_mouvement": "Exercez une pression circulaire sur la zone",
+          "phrase": "Relâche la colère et la frustration, invite au calme.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 8,
       "designation": "l'estomac",
-      "intention": "On apaise le haut du ventre (les poussées perturbent la digestion).",
+      "intention": "Accompagne les brûlures d'estomac.",
       "zones": [
         {
           "zone": "estomac",
           "designation": "l'estomac",
           "mouvement": "boucles-progressives",
-          "description_mouvement": "Effectuez de petits cercles qui avancent"
+          "description_mouvement": "Effectuez de petits cercles qui avancent",
+          "phrase": "Accompagne les brûlures d'estomac.",
+          "choix": "sur-mesure"
         }
       ]
     },
     {
       "ordre": 9,
       "designation": "les surrénales",
-      "intention": "On soutient l'énergie et l'équilibre du corps.",
+      "intention": "Soutient l'énergie et la réponse à la douleur.",
       "zones": [
         {
           "zone": "surrenales",
           "designation": "les surrénales",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Soutient l'énergie et la réponse à la douleur.",
+          "choix": "Énergie"
         }
       ]
     }
@@ -147,5 +167,8 @@
   "visuel": "visuels-protocoles/Visuel - Dents.png",
   "age_min_mois": 5,
   "age_max_mois": 18,
-  "age_statut": "brouillon"
+  "age_statut": "brouillon",
+  "notes": [
+    "Zone des dents : elle se situe sur le DESSUS du pied (autour de l'ongle du gros orteil), pas sur la plante. À mettre en avant dans l'app."
+  ]
 }

@@ -18,170 +18,196 @@
   "sequence": [
     {
       "ordre": 1,
-      "designation": "les sinus",
-      "intention": "On réveille en douceur les sinus, à la pointe des orteils.",
-      "zones": [
-        {
-          "zone": "sinus",
-          "designation": "les sinus",
-          "mouvement": "pression-circulaire",
-          "description_mouvement": "Exercez une pression circulaire sur la zone"
-        }
-      ]
-    },
-    {
-      "ordre": 2,
       "designation": "l'hypophyse",
-      "intention": "On réveille le chef d'orchestre du corps.",
+      "intention": "Harmonise la régulation des hormones.",
       "zones": [
         {
           "zone": "hypophyse",
           "designation": "l'hypophyse",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Harmonise la régulation des hormones.",
+          "choix": "Physio"
+        }
+      ]
+    },
+    {
+      "ordre": 2,
+      "designation": "les sinus",
+      "intention": "Soulage les voies respiratoires.",
+      "zones": [
+        {
+          "zone": "sinus",
+          "designation": "les sinus",
+          "mouvement": "pression-circulaire",
+          "description_mouvement": "Exercez une pression circulaire sur la zone",
+          "phrase": "Soulage les voies respiratoires.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 3,
       "designation": "le nez",
-      "intention": "On glisse en croix sur le nez — on vise les sinus profonds — pour aider à dégager.",
+      "intention": "Dégage les sinus profonds.",
       "zones": [
         {
           "zone": "nez",
           "designation": "le nez",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce en croix : de haut en bas, puis du bord vers les autres orteils"
+          "description_mouvement": "Faites glisser le pouce en croix : de haut en bas, puis du bord vers les autres orteils",
+          "phrase": "Dégage les sinus profonds.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 4,
-      "designation": "les amygdales",
-      "intention": "On apaise les amygdales, à la base du gros orteil.",
-      "zones": [
-        {
-          "zone": "amygdales",
-          "designation": "les amygdales",
-          "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
-        }
-      ]
-    },
-    {
-      "ordre": 5,
       "designation": "les oreilles",
-      "intention": "On glisse sur les oreilles, de l'intérieur vers l'extérieur, pour soulager la sensation de pression.",
+      "intention": "Soulage la pression.",
       "zones": [
         {
           "zone": "oreilles",
           "designation": "les oreilles",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Soulage la pression.",
+          "choix": "Physio"
+        }
+      ]
+    },
+    {
+      "ordre": 5,
+      "designation": "les amygdales",
+      "intention": "Soutient la gorge et les défenses.",
+      "zones": [
+        {
+          "zone": "amygdales",
+          "designation": "les amygdales",
+          "mouvement": "pression-glissee",
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Soutient la gorge et les défenses.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 6,
-      "designation": "les poumons",
-      "intention": "On ouvre la respiration, on aide bébé à mieux respirer.",
-      "zones": [
-        {
-          "zone": "poumon",
-          "designation": "les poumons",
-          "mouvement": "boucles-progressives",
-          "description_mouvement": "Effectuez de petits cercles qui avancent, de l'intérieur vers l'extérieur"
-        }
-      ]
-    },
-    {
-      "ordre": 7,
-      "designation": "le diaphragme",
-      "intention": "On relâche la coupole du ventre : le souffle se déplie.",
-      "zones": [
-        {
-          "zone": "diaphragme",
-          "designation": "le diaphragme",
-          "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
-        }
-      ]
-    },
-    {
-      "ordre": 8,
-      "designation": "le plexus solaire",
-      "intention": "On apaise le centre des émotions.",
-      "zones": [
-        {
-          "zone": "plexus-solaire",
-          "designation": "le plexus solaire",
-          "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
-        }
-      ]
-    },
-    {
-      "ordre": 9,
-      "designation": "la rate",
-      "intention": "On soutient la rate, alliée des défenses (pied gauche).",
-      "zones": [
-        {
-          "zone": "rate",
-          "designation": "la rate",
-          "mouvement": "pression-circulaire",
-          "description_mouvement": "Exercez une pression circulaire sur la zone"
-        }
-      ]
-    },
-    {
-      "ordre": 10,
-      "designation": "l'intestin grêle",
-      "intention": "On accompagne le ventre, étroitement lié à l'immunité.",
-      "zones": [
-        {
-          "zone": "intestin-grele",
-          "designation": "l'intestin grêle",
-          "mouvement": "boucles-progressives",
-          "description_mouvement": "Effectuez de petits cercles qui avancent, du bord extérieur du pied vers l’intérieur"
-        }
-      ]
-    },
-    {
-      "ordre": 11,
       "designation": "les ganglions lymphatiques",
-      "intention": "On soutient le drainage, les petits filtres du corps.",
+      "intention": "Soutient les anticorps.",
       "zones": [
         {
           "zone": "ganglions-lympahtiques",
           "designation": "les ganglions lymphatiques",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Soutient les anticorps.",
+          "choix": "Physio"
         }
       ]
     },
     {
-      "ordre": 12,
+      "ordre": 7,
       "designation": "le thymus",
-      "intention": "On soutient les défenses immunitaires.",
+      "intention": "Soutient les défenses immunitaires.",
       "zones": [
         {
           "zone": "thymus",
           "designation": "le thymus",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Soutient les défenses immunitaires.",
+          "choix": "Physio"
         }
       ]
     },
     {
-      "ordre": 13,
+      "ordre": 8,
+      "designation": "les poumons",
+      "intention": "Ouvre la respiration, oxygène le corps.",
+      "zones": [
+        {
+          "zone": "poumon",
+          "designation": "les poumons",
+          "mouvement": "boucles-progressives",
+          "description_mouvement": "Effectuez de petits cercles qui avancent, de l'intérieur vers l'extérieur",
+          "phrase": "Ouvre la respiration, oxygène le corps.",
+          "choix": "Physio"
+        }
+      ]
+    },
+    {
+      "ordre": 9,
+      "designation": "le diaphragme",
+      "intention": "Relâche et déplie la respiration.",
+      "zones": [
+        {
+          "zone": "diaphragme",
+          "designation": "le diaphragme",
+          "mouvement": "pression-glissee",
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Relâche et déplie la respiration.",
+          "choix": "Physio"
+        }
+      ]
+    },
+    {
+      "ordre": 10,
+      "designation": "le plexus solaire",
+      "intention": "Centre des émotions : libère et apporte de la joie.",
+      "zones": [
+        {
+          "zone": "plexus-solaire",
+          "designation": "le plexus solaire",
+          "mouvement": "pression-maintenue",
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Centre des émotions : libère et apporte de la joie.",
+          "choix": "Énergie"
+        }
+      ]
+    },
+    {
+      "ordre": 11,
+      "designation": "la rate",
+      "intention": "Apaise l'inquiétude, ancre et rassure.",
+      "zones": [
+        {
+          "zone": "rate",
+          "designation": "la rate",
+          "mouvement": "pression-circulaire",
+          "description_mouvement": "Exercez une pression circulaire sur la zone",
+          "phrase": "Apaise l'inquiétude, ancre et rassure.",
+          "choix": "Énergie"
+        }
+      ]
+    },
+    {
+      "ordre": 12,
       "designation": "les surrénales",
-      "intention": "On soutient l'énergie et l'équilibre du corps.",
+      "intention": "Soutient l'énergie et la réponse à la douleur.",
       "zones": [
         {
           "zone": "surrenales",
           "designation": "les surrénales",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Soutient l'énergie et la réponse à la douleur.",
+          "choix": "Énergie"
+        }
+      ]
+    },
+    {
+      "ordre": 13,
+      "designation": "l'intestin grêle",
+      "intention": "Trie le pur et l'impur.",
+      "zones": [
+        {
+          "zone": "intestin-grele",
+          "designation": "l'intestin grêle",
+          "mouvement": "boucles-progressives",
+          "description_mouvement": "Effectuez de petits cercles qui avancent, du bord extérieur du pied vers l'intérieur",
+          "phrase": "Trie le pur et l'impur.",
+          "choix": "sur-mesure"
         }
       ]
     }

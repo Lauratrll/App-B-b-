@@ -12,7 +12,7 @@
 // encode pour l'URL via visuelUrl() dans lib/reflexologie.ts.
 // ===========================================================================
 
-import { readdirSync, mkdirSync, copyFileSync, existsSync } from "node:fs";
+import { readdirSync, mkdirSync, copyFileSync, existsSync, rmSync } from "node:fs";
 import { join } from "node:path";
 
 const REFLEXO = join(process.cwd(), "reflexologie");
@@ -32,6 +32,17 @@ for (const f of pngs) {
   copyFileSync(join(SRC, f), join(DEST_VISUELS, f));
 }
 console.log(`✓ ${pngs.length} visuel(s) copié(s) vers public/reflexologie/visuels/`);
+
+// Un visuel renommé côté source laissait sinon son ancienne version traîner ici
+// (public/reflexologie/ est .gitignore : Vercel repart de zéro, pas la machine
+// de Laura). On aligne donc la destination sur la source.
+const attendus = new Set(pngs);
+for (const f of readdirSync(DEST_VISUELS)) {
+  if (f.toLowerCase().endsWith(".png") && !attendus.has(f)) {
+    rmSync(join(DEST_VISUELS, f));
+    console.log(`  – ${f} (retiré : absent de la source)`);
+  }
+}
 
 // L'illustration des pieds (avec tous les id de zones) est injectée par le
 // lecteur animé — elle doit être servable depuis /public.

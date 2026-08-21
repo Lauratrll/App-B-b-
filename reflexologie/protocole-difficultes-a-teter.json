@@ -18,104 +18,120 @@
     {
       "ordre": 1,
       "designation": "la tête",
-      "intention": "On commence en douceur par les orteils, la zone de la tête : inviter le mental à se poser.",
+      "intention": "Apaise la tête, accueille bébé entier.",
       "zones": [
         {
           "zone": "tete",
           "designation": "la tête",
           "mouvement": "pression-circulaire",
-          "description_mouvement": "Exercez une pression circulaire sur les orteils"
+          "description_mouvement": "Exercez une pression circulaire sur les orteils",
+          "phrase": "Apaise la tête, accueille bébé entier.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 2,
       "designation": "la bouche",
-      "intention": "Un point tout doux vers la bouche : détendre la sphère orale.",
+      "intention": "Stimule la bouche et la langue.",
       "zones": [
         {
           "zone": "bouche",
           "designation": "la bouche",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Stimule la bouche et la langue.",
+          "choix": "sur-mesure"
         }
       ]
     },
     {
       "ordre": 3,
       "designation": "l'hypophyse",
-      "intention": "Un point délicat sur le gros orteil : on invite tout l'intérieur au calme.",
+      "intention": "Harmonise la régulation des hormones.",
       "zones": [
         {
           "zone": "hypophyse",
           "designation": "l'hypophyse",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Harmonise la régulation des hormones.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 4,
       "designation": "les poumons",
-      "intention": "De petits cercles qui avancent sur le coussinet : ouvrir le souffle, laisser respirer.",
+      "intention": "Ouvre la respiration, oxygène le corps.",
       "zones": [
         {
           "zone": "poumon",
           "designation": "les poumons",
           "mouvement": "boucles-progressives",
-          "description_mouvement": "Effectuez de petits cercles qui avancent, de l'intérieur vers l'extérieur"
+          "description_mouvement": "Effectuez de petits cercles qui avancent, de l'intérieur vers l'extérieur",
+          "phrase": "Ouvre la respiration, oxygène le corps.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 5,
       "designation": "le plexus solaire",
-      "intention": "Au centre de la voûte, une pression douce et maintenue : le point d'apaisement des émotions.",
+      "intention": "Centre des émotions : libère et apporte de la joie.",
       "zones": [
         {
           "zone": "plexus-solaire",
           "designation": "le plexus solaire",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Centre des émotions : libère et apporte de la joie.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 6,
       "designation": "le diaphragme",
-      "intention": "Un lissage lent en travers du pied : relâcher le souffle et les tensions.",
+      "intention": "Détend, aide au retour au calme.",
       "zones": [
         {
           "zone": "diaphragme",
           "designation": "le diaphragme",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Détend, aide au retour au calme.",
+          "choix": "Énergie"
         }
       ]
     },
     {
       "ordre": 7,
       "designation": "l'œsophage",
-      "intention": "On suit doucement l'œsophage : accompagner le passage, de haut en bas.",
+      "intention": "Accueille le passage des aliments.",
       "zones": [
         {
           "zone": "oesophage",
           "designation": "l'œsophage",
           "mouvement": "pression-glissee",
-          "description_mouvement": "Faites glisser le pouce le long de la zone"
+          "description_mouvement": "Faites glisser le pouce le long de la zone",
+          "phrase": "Accueille le passage des aliments.",
+          "choix": "Physio"
         }
       ]
     },
     {
       "ordre": 8,
       "designation": "le cardia",
-      "intention": "Un point apaisant vers le cardia : dénouer le haut du ventre.",
+      "intention": "Soutient l'ouverture et la fermeture de l'estomac.",
       "zones": [
         {
           "zone": "cardia",
           "designation": "le cardia",
           "mouvement": "pression-maintenue",
-          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez"
+          "description_mouvement": "Exercez une pression douce et maintenue, puis relâchez",
+          "phrase": "Soutient l'ouverture et la fermeture de l'estomac.",
+          "choix": "Physio"
         }
       ]
     }
