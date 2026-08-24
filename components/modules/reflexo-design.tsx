@@ -16,6 +16,12 @@ import type { ReactNode } from "react";
 // ce qui les fait tenir ensemble. Chaque famille porte en plus un correcteur
 // d'intensité (un turquoise crie plus qu'un violet à réglage égal).
 //
+// DOSAGE calé sur la signature pastel mesurée dans Guide-moi : ses 8 cases sont
+// en moyenne à clarté 0,873 pour une intensité 0,038, et les fonds de ligne
+// d'ici sont à 0,878 / 0,035. Une première version à 0,900 / 0,049 avait été
+// jugée « trop fluo » par Laura, à juste titre : très clair ET soutenu, c'est la
+// recette exacte du néon. Ne pas remonter ces valeurs.
+//
 // Laura aime le camaïeu : les paires serrées (les deux violets à 2,8, turquoise
 // et sauge à 2,9) sont VOULUES. Ne pas les « corriger ».
 // ---------------------------------------------------------------------------
@@ -47,11 +53,11 @@ export type ReflexoFamille = {
 };
 
 export const REFLEXO_GAMME: ReflexoFamille[] = [
-  { nom: "Violet bleuté", bg: "#D8DBFF", avatarBg: "#BBBEFA", doux: "#E9EBFF", accent: "#E2E4FF", profond: "#545587" },
-  { nom: "Violet lilas", bg: "#EAD4F9", avatarBg: "#D6B6EA", doux: "#F4E7FC", accent: "#F1DEFD", profond: "#694E7A" },
-  { nom: "Bleu ciel", bg: "#BFE4FE", avatarBg: "#92CCF5", doux: "#DCF0FF", accent: "#CFEBFF", profond: "#2B6083" },
-  { nom: "Turquoise vert", bg: "#C1E8D8", avatarBg: "#9AD3BC", doux: "#DDF3E9", accent: "#CFEFE1", profond: "#336654" },
-  { nom: "Sauge", bg: "#D4E5C7", avatarBg: "#B5CDA3", doux: "#E7F1E0", accent: "#DDECD3", profond: "#4D633C" },
+  { nom: "Violet bleuté", bg: "#D2D4F0", avatarBg: "#B7BAE2", doux: "#E5E7F9", accent: "#DEE0F7", profond: "#545584" },
+  { nom: "Violet lilas", bg: "#DFD0E9", avatarBg: "#C9B4D7", doux: "#EEE4F4", accent: "#E9DDF1", profond: "#684F78" },
+  { nom: "Bleu ciel", bg: "#C1DBEE", avatarBg: "#9EC3DF", doux: "#DBEBF7", accent: "#D0E5F5", profond: "#2F6081" },
+  { nom: "Turquoise vert", bg: "#C5DED3", avatarBg: "#A3C7B8", doux: "#DDEDE6", accent: "#D3E8DF", profond: "#366654" },
+  { nom: "Sauge", bg: "#D0DBC8", avatarBg: "#B4C4A8", doux: "#E4EBDF", accent: "#DCE5D6", profond: "#4E623E" },
 ];
 
 /**
