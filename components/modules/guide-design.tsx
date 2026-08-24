@@ -37,7 +37,11 @@ export const GUIDE_SLOTS: SlotStyle[] = [
   { bg: "#F5D0C8", avatarBg: "rgba(255,255,255,.50)", camaieu: ["#EABDB1", "#F3DFD9", "#E3AFA0", "#F5D0C8", "#EFCDC2"] },
   { bg: "#F8DBC9", avatarBg: "rgba(255,255,255,.55)", camaieu: ["#EEC7B0", "#F4E4DA", "#E7B99F", "#F8DBC9", "#F2D4C2"] },
   { bg: "#EDE0D4", avatarBg: "rgba(255,255,255,.55)", camaieu: ["#E0CFBE", "#EFE7DF", "#D7C3AE", "#EDE0D4", "#E5D6C5"] },
-  { bg: "#BCD0A0", avatarBg: "rgba(255,255,255,.45)", camaieu: ["#A6C088", "#D9DFC7", "#96B477", "#BCD0A0", "#CAD8B2"] },
+  // Slot 5 poudré le 24/08/2026 (demande Laura) : le vert ressortait un peu
+  // plus que ses voisins. Son intensité passe de 0,068 à 0,053, sa teinte et sa
+  // clarté sont inchangées — le camaïeu suit le même facteur, pour que la
+  // page 2 reste accordée à la case de la page 1.
+  { bg: "#BECEA9", avatarBg: "rgba(255,255,255,.45)", camaieu: ["#A9BE93", "#DADECC", "#9AB283", "#BECEA9", "#CCD7B9"] },
   { bg: "#B0C0AC", avatarBg: "rgba(255,255,255,.45)", camaieu: ["#9CB098", "#D4D8CD", "#8EA48A", "#B0C0AC", "#BFCCBC"] },
   { bg: "#C8D8DC", avatarBg: "rgba(255,255,255,.50)", camaieu: ["#B2C6CC", "#DFE3E2", "#A2B9C0", "#C8D8DC", "#D4E0E3"] },
   { bg: "#E8F0F2", avatarBg: "rgba(255,255,255,.60)", camaieu: ["#D0DEE1", "#EDEEEC", "#BFD1D5", "#E8F0F2", "#DCE8EB"] },

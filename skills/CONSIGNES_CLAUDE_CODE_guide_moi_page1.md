@@ -1,5 +1,7 @@
 # CONSIGNES CLAUDE CODE — Page 1 Guide-moi !
 
+> **Slot 5 (vert) poudré le 24/08/2026** — demande de Laura : il ressortait un peu plus que ses voisins. Intensité 0,068 → 0,053, teinte et clarté inchangées ; le camaïeu suit le même facteur. Les valeurs ci-dessous sont déjà à jour.
+
 **Statut : VALIDÉ V10 — design figé, ne pas modifier sans validation explicite de la fondatrice.**
 
 Cette fiche est autoportée : elle contient tout le nécessaire pour implémenter la page d'accueil "Guide-moi !" sans avoir à interpréter d'autres documents.
@@ -62,7 +64,7 @@ export const CATEGORIES: Category[] = [
   { key: 'alim',    name: 'Alimentation',        bg: '#F5D0C8', avatarBg: 'rgba(255,255,255,.50)' },
   { key: 'sommeil', name: 'Sommeil',             bg: '#F8DBC9', avatarBg: 'rgba(255,255,255,.55)' },
   { key: 'corps',   name: 'Corps & soins',       bg: '#EDE0D4', avatarBg: 'rgba(255,255,255,.55)' },
-  { key: 'stimu',   name: 'Sur-stimulation',     bg: '#BCD0A0', avatarBg: 'rgba(255,255,255,.45)' },
+  { key: 'stimu',   name: 'Sur-stimulation',     bg: '#BECEA9', avatarBg: 'rgba(255,255,255,.45)' },
   { key: 'sepa',    name: 'Lien & attachement',  bg: '#B0C0AC', avatarBg: 'rgba(255,255,255,.45)' },
   { key: 'sante',   name: 'Santé',               bg: '#C8D8DC', avatarBg: 'rgba(255,255,255,.50)' },
   { key: 'parent',  name: 'Parent dépassé',      bg: '#E8F0F2', avatarBg: 'rgba(255,255,255,.60)' },

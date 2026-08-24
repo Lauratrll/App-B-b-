@@ -1,5 +1,7 @@
 # CONSIGNES CLAUDE CODE — Page 2 Situations
 
+> **Slot 5 (vert) poudré le 24/08/2026** — demande de Laura : il ressortait un peu plus que ses voisins. Intensité 0,068 → 0,053, teinte et clarté inchangées ; le camaïeu suit le même facteur. Les valeurs ci-dessous sont déjà à jour.
+
 **Statut : VALIDÉ V2 — design figé, ne pas modifier sans validation explicite de la fondatrice.**
 
 Cette fiche est autoportée : elle contient tout le nécessaire pour implémenter la page "Situations" (liste des 4 situations d'une catégorie) sans avoir à interpréter d'autres documents.
@@ -85,7 +87,7 @@ export const CATEGORY_COLORS: Record<CategoryKey, string> = {
   alim:    '#F5D0C8',
   sommeil: '#F8DBC9',
   corps:   '#EDE0D4',
-  stimu:   '#BCD0A0',
+  stimu:   '#BECEA9',
   sepa:    '#B0C0AC',
   sante:   '#C8D8DC',
   parent:  '#E8F0F2',
@@ -97,7 +99,7 @@ export const CAMAIEUX: Record<CategoryKey, [string, string, string, string]> = {
   alim:    ['#EABDB1', '#F3DFD9', '#E3AFA0', '#F5D0C8'],
   sommeil: ['#EEC7B0', '#F4E4DA', '#E7B99F', '#F8DBC9'],
   corps:   ['#E0CFBE', '#EFE7DF', '#D7C3AE', '#EDE0D4'],
-  stimu:   ['#A6C088', '#D9DFC7', '#96B477', '#BCD0A0'],
+  stimu:   ['#A9BE93', '#DADECC', '#9AB283', '#BECEA9'],
   sepa:    ['#9CB098', '#D4D8CD', '#8EA48A', '#B0C0AC'],
   sante:   ['#B2C6CC', '#DFE3E2', '#A2B9C0', '#C8D8DC'],
   parent:  ['#D0DEE1', '#EDEEEC', '#BFD1D5', '#E8F0F2'],
@@ -506,7 +508,7 @@ Couleurs "deep" par catégorie :
 | Alim | `#F5D0C8` | `#E0AA9A` |
 | Sommeil | `#F8DBC9` | `#E5B498` |
 | Corps | `#EDE0D4` | `#D4BFA8` |
-| Stimu | `#BCD0A0` | `#90B070` |
+| Stimu | `#BECEA9` | `#90B070` |
 | Sepa | `#B0C0AC` | `#88A084` |
 | Santé | `#C8D8DC` | `#9CB4BC` |
 | Parent | `#E8F0F2` | `#B8CCD0` |
