@@ -12,7 +12,15 @@
 // encode pour l'URL via visuelUrl() dans lib/reflexologie.ts.
 // ===========================================================================
 
-import { readdirSync, mkdirSync, copyFileSync, existsSync, rmSync } from "node:fs";
+import {
+  readdirSync,
+  mkdirSync,
+  copyFileSync,
+  existsSync,
+  rmSync,
+  readFileSync,
+  writeFileSync,
+} from "node:fs";
 import { join } from "node:path";
 
 const REFLEXO = join(process.cwd(), "reflexologie");
@@ -60,4 +68,55 @@ for (const GEOM of ["mouvements-glisse.json", "mouvements-trace.json"]) {
     copyFileSync(join(REFLEXO, GEOM), join(DEST_REFLEXO, GEOM));
     console.log(`✓ ${GEOM} copié vers public/reflexologie/`);
   }
+}
+
+// ---------------------------------------------------------------------------
+// Icônes de protocole : reflexologie/visuels-icones/icone-<id>.svg
+//
+// Laura les dessine dans Illustrator, un fichier par protocole, nommé d'après
+// l'id du protocole. On en extrait les seuls tracés vers un JSON importé
+// statiquement par l'app (même voie que les protocoles : un import statique est
+// la façon fiable de faire embarquer un fichier par Vercel).
+//
+// L'export Illustrator n'écrit AUCUNE couleur (Laura dessine en noir pur) :
+// c'est ce qui permet à l'app de colorer l'icône via `fill: currentColor`.
+// Si une couleur apparaît un jour dans un fichier, on le signale ici plutôt
+// que de la laisser se figer dans l'app.
+// ---------------------------------------------------------------------------
+const ICONES_SRC = join(REFLEXO, "visuels-icones");
+const ICONES_JSON = join(REFLEXO, "icones-protocoles.json");
+
+if (existsSync(ICONES_SRC)) {
+  const icones = {};
+  const avertissements = [];
+  for (const f of readdirSync(ICONES_SRC).filter((f) => f.toLowerCase().endsWith(".svg"))) {
+    const brut = readFileSync(join(ICONES_SRC, f), "utf8");
+    const id = f.replace(/^icone-/, "").replace(/\.svg$/i, "");
+    const viewBox = (brut.match(/viewBox="([^"]+)"/) ?? [])[1];
+    const traces = [...brut.matchAll(/<path[^>]*\sd="([^"]+)"/g)].map((m) => m[1]);
+    if (!viewBox || traces.length === 0) {
+      avertissements.push(`${f} : ni viewBox ni tracé exploitable — ignorée`);
+      continue;
+    }
+    const couleurs = [...brut.matchAll(/(?:fill|stroke)="([^"]+)"/g)].map((m) => m[1]);
+    if (couleurs.length) avertissements.push(`${f} : couleur en dur (${couleurs.join(", ")}) — l'icône ne suivra pas la couleur du texte`);
+    const autres = [...new Set((brut.match(/<(circle|rect|ellipse|polygon|polyline|line|text|image)\b/g) ?? []))];
+    if (autres.length) avertissements.push(`${f} : formes non converties en tracé (${autres.join(", ")}) — à vectoriser dans Illustrator`);
+    icones[id] = { viewBox, traces };
+  }
+  writeFileSync(
+    ICONES_JSON,
+    `${JSON.stringify(
+      {
+        _note: "GÉNÉRÉ par scripts/sync-reflexo-visuels.mjs depuis reflexologie/visuels-icones/. Ne pas éditer à la main : modifier le SVG et relancer `npm run sync-visuels`.",
+        icones,
+      },
+      null,
+      2,
+    )}\n`,
+  );
+  console.log(`✓ ${Object.keys(icones).length} icône(s) de protocole extraite(s) vers icones-protocoles.json`);
+  for (const a of avertissements) console.warn(`⚠️  ${a}`);
+} else {
+  console.warn(`⚠️  ${ICONES_SRC} introuvable — les protocoles garderont le picto générique.`);
 }

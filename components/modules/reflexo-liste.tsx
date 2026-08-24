@@ -6,6 +6,7 @@
 import Link from "next/link";
 import type { ReflexoListItem } from "@/lib/reflexologie";
 import { REFLEXO_MUTED, REFLEXO_TEXT, PLAYFAIR, slotReflexo } from "./reflexo-design";
+import { ReflexoIcone } from "./reflexo-icone";
 
 export function ReflexoListe({ protocoles }: { protocoles: ReflexoListItem[] }) {
   return (
@@ -26,6 +27,8 @@ export function ReflexoListe({ protocoles }: { protocoles: ReflexoListItem[] }) 
                 textDecoration: "none",
               }}
             >
+              {/* L'icône propre au protocole (dessinée par Laura). Elle hérite
+                  de la couleur du texte, d'où le `color` posé ici. */}
               <span
                 aria-hidden
                 style={{
@@ -33,27 +36,14 @@ export function ReflexoListe({ protocoles }: { protocoles: ReflexoListItem[] }) 
                   height: 28,
                   borderRadius: "50%",
                   background: slot.avatarBg,
+                  color: REFLEXO_TEXT,
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
                   flexShrink: 0,
                 }}
               >
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke={REFLEXO_TEXT}
-                  strokeWidth="1.6"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  {/* Empreinte de pied : plante + orteils */}
-                  <path d="M9.2 20.5c-1.9 0-3-1.3-3-3.1 0-1.6.8-2.5.8-4.2 0-1.3-.6-2.2-.6-3.7 0-2.7 1.8-4.6 4-4.6s3.8 1.9 3.8 4.4c0 2-.9 3.1-.9 4.6 0 1.9 1 2.7 1 4.3 0 1.5-1.2 2.3-2.6 2.3z" />
-                  <circle cx="16.4" cy="6.6" r="1.25" />
-                  <circle cx="17.6" cy="10.1" r="1.05" />
-                </svg>
+                <ReflexoIcone id={p.id} taille={17} />
               </span>
               <span style={{ flex: 1, minWidth: 0 }}>
                 <span

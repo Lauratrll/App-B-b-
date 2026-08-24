@@ -27,6 +27,7 @@ import indexJson from "@/reflexologie/protocoles-index.json";
 import accueilJson from "@/reflexologie/accueil-onglet-reflexologie.json";
 import ouvertureJson from "@/reflexologie/_ouverture-commune.json";
 import catalogueJson from "@/reflexologie/zones-mouvements.json";
+import iconesJson from "@/reflexologie/icones-protocoles.json";
 
 import accueilNouveauNe from "@/reflexologie/protocole-accueil-nouveau-ne.json";
 import agitationConcentration from "@/reflexologie/protocole-agitation-concentration.json";
@@ -272,6 +273,22 @@ export function getProtocole(id: string): ReflexoProtocole | null {
 /** Ids des protocoles publiés — pour `generateStaticParams`. */
 export function getIdsPublies(): string[] {
   return getProtocolesPublies().map((p) => p.id);
+}
+
+/**
+ * Icône d'un protocole : les tracés extraits du SVG dessiné par Laura
+ * (reflexologie/visuels-icones/icone-<id>.svg → icones-protocoles.json, généré
+ * par scripts/sync-reflexo-visuels.mjs). Aucune couleur : l'icône prend celle
+ * du texte qui l'entoure.
+ */
+export type ReflexoIconeData = { viewBox: string; traces: string[] };
+
+const ICONES = (iconesJson as { icones: Record<string, ReflexoIconeData> }).icones;
+
+/** L'icône du protocole `id`, ou null si elle n'est pas encore dessinée. */
+export function getIconeProtocole(id: string): ReflexoIconeData | null {
+  const i = ICONES[id];
+  return i && i.traces.length > 0 ? i : null;
 }
 
 // --- Lecteur animé ---------------------------------------------------------
