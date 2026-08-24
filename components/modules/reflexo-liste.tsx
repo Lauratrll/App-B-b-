@@ -5,7 +5,7 @@
 
 import Link from "next/link";
 import type { ReflexoListItem } from "@/lib/reflexologie";
-import { REFLEXO_MUTED, REFLEXO_TEXT, PLAYFAIR, slotReflexo } from "./reflexo-design";
+import { REFLEXO_TEXT, PLAYFAIR, slotReflexo } from "./reflexo-design";
 import { ReflexoIcone } from "./reflexo-icone";
 
 export function ReflexoListe({ protocoles }: { protocoles: ReflexoListItem[] }) {
@@ -59,12 +59,14 @@ export function ReflexoListe({ protocoles }: { protocoles: ReflexoListItem[] }) 
                 >
                   {p.titre}
                 </span>
+                {/* Le ton « profond » de la famille, et non l'eucalyptus : sur
+                    un fond de la gamme celui-ci tombe à 2,2 de contraste. */}
                 <span
                   style={{
                     display: "block",
                     marginTop: 3,
                     fontSize: 11.5,
-                    color: REFLEXO_MUTED,
+                    color: slot.profond,
                     lineHeight: 1.35,
                   }}
                 >

@@ -4,9 +4,9 @@ import { ReflexoListe } from "@/components/modules/reflexo-liste";
 import {
   PLAYFAIR,
   REFLEXO_BG_CADRE,
-  REFLEXO_BG_DOUX,
   REFLEXO_MUTED,
   REFLEXO_TEXT,
+  REFLEXO_TERRACOTTA,
   texteGras,
 } from "@/components/modules/reflexo-design";
 
@@ -59,10 +59,13 @@ export default async function ReflexologiePage() {
         details.reflexo-intro > summary::-webkit-details-marker { display: none; }
         details.reflexo-intro[open] .reflexo-chevron { transform: rotate(180deg); }
       `}</style>
+      {/* L'introduction n'est PAS un protocole : elle prend le terracotta
+          clair, seule couleur hors de la gamme des protocoles, pour se détacher
+          de la liste (choix Laura). */}
       <details
         className="reflexo-intro"
         style={{
-          background: REFLEXO_BG_DOUX,
+          background: REFLEXO_TERRACOTTA.doux,
           borderRadius: 14,
           overflow: "hidden",
         }}
@@ -95,7 +98,7 @@ export default async function ReflexologiePage() {
                 display: "block",
                 marginTop: 3,
                 fontSize: 9,
-                color: REFLEXO_MUTED,
+                color: REFLEXO_TERRACOTTA.profond,
                 letterSpacing: ".13em",
                 textTransform: "uppercase",
                 fontWeight: 600,

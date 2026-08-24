@@ -16,11 +16,10 @@ import {
 import { ReflexoCarte } from "@/components/modules/reflexo-lecteur";
 import {
   PLAYFAIR,
-  REFLEXO_BG_ACCENT,
-  REFLEXO_BG_CADRE,
-  REFLEXO_BG_DOUX,
   REFLEXO_MUTED,
   REFLEXO_TEXT,
+  REFLEXO_GAMME,
+  REFLEXO_TERRACOTTA,
   texteGras,
 } from "@/components/modules/reflexo-design";
 
@@ -44,6 +43,16 @@ export default async function ProtocoleReflexoPage({
 
   // Protocole inconnu OU reporté (lancement: false) → 404, jamais affiché.
   if (!protocole) notFound();
+
+  // Chaque bloc de la fiche prend une famille de la gamme, toujours la même
+  // d'un protocole à l'autre : c'est la fonction du bloc qui donne la couleur,
+  // jamais le protocole. Le terracotta reste réservé à ce qui demande de
+  // l'attention (vigilance, emplacement contre-intuitif, disclaimer).
+  const C_EMOTION = REFLEXO_GAMME[0]; // violet bleuté — le ressenti du parent
+  const C_OUVERTURE = REFLEXO_GAMME[4]; // sauge — l'installation, le vivant
+  const C_GESTE = REFLEXO_GAMME[3]; // turquoise vert — l'identité de l'onglet
+  const C_VARIANTE = REFLEXO_GAMME[1]; // violet lilas — la version alternative
+  const C_FIN = REFLEXO_GAMME[2]; // bleu ciel — la sortie en douceur
 
   const afficherVariante = varianteVisible(protocole.variante, moisBebe);
   const visuel = visuelUrl(protocole.visuel);
@@ -127,7 +136,7 @@ export default async function ProtocoleReflexoPage({
       {protocole.emotion ? (
         <p
           style={{
-            background: REFLEXO_BG_ACCENT,
+            background: C_EMOTION.accent,
             borderRadius: 12,
             padding: "13px 15px",
             fontSize: 13,
@@ -145,7 +154,7 @@ export default async function ProtocoleReflexoPage({
           (version courte : libellé gras + phrase brève), cf. consignes §4.3. */}
       <section
         style={{
-          background: REFLEXO_BG_DOUX,
+          background: C_OUVERTURE.doux,
           borderRadius: 14,
           padding: "15px 16px",
         }}
@@ -153,7 +162,7 @@ export default async function ProtocoleReflexoPage({
         <h2
           style={{
             fontSize: 10,
-            color: REFLEXO_MUTED,
+            color: C_OUVERTURE.profond,
             letterSpacing: ".13em",
             textTransform: "uppercase",
             fontWeight: 700,
@@ -183,7 +192,7 @@ export default async function ProtocoleReflexoPage({
                   width: 17,
                   height: 17,
                   borderRadius: "50%",
-                  background: REFLEXO_MUTED,
+                  background: C_OUVERTURE.profond,
                   color: "#FFFFFF",
                   fontSize: 9,
                   fontWeight: 700,
@@ -262,7 +271,7 @@ export default async function ProtocoleReflexoPage({
         <h2
           style={{
             fontSize: 10,
-            color: REFLEXO_MUTED,
+            color: C_GESTE.profond,
             letterSpacing: ".13em",
             textTransform: "uppercase",
             fontWeight: 700,
@@ -281,7 +290,7 @@ export default async function ProtocoleReflexoPage({
       {protocole.variante && afficherVariante ? (
         <section
           style={{
-            background: REFLEXO_BG_ACCENT,
+            background: C_VARIANTE.accent,
             borderRadius: 13,
             padding: "14px 15px",
           }}
@@ -289,7 +298,7 @@ export default async function ProtocoleReflexoPage({
           <h2
             style={{
               fontSize: 10,
-              color: REFLEXO_MUTED,
+              color: C_VARIANTE.profond,
               letterSpacing: ".13em",
               textTransform: "uppercase",
               fontWeight: 700,
@@ -336,7 +345,7 @@ export default async function ProtocoleReflexoPage({
       {protocole.vigilance ? (
         <p
           style={{
-            background: REFLEXO_BG_CADRE,
+            background: REFLEXO_TERRACOTTA.accent,
             borderRadius: 12,
             padding: "12px 14px",
             fontSize: 12.5,
@@ -359,7 +368,7 @@ export default async function ProtocoleReflexoPage({
       {/* 6. Note de fin — consentement + sortie en douceur, toujours affichée */}
       <p
         style={{
-          background: REFLEXO_BG_DOUX,
+          background: C_FIN.doux,
           borderRadius: 12,
           padding: "13px 15px",
           fontSize: 13,
@@ -374,7 +383,7 @@ export default async function ProtocoleReflexoPage({
       {/* 7. Disclaimer — toujours affiché */}
       <p
         style={{
-          background: REFLEXO_BG_CADRE,
+          background: REFLEXO_TERRACOTTA.doux,
           borderRadius: 11,
           padding: "11px 13px",
           fontSize: 11,
@@ -400,6 +409,9 @@ export default async function ProtocoleReflexoPage({
  * de l'étape, on ne le répète pas. Les étapes à gestes enchaînés (bassin,
  * dents, cardia/pylore) en portent deux, numérotées dans l'ordre de jeu.
  */
+// La famille du geste, la même pour toutes les étapes de toutes les fiches.
+const GESTE = REFLEXO_GAMME[3];
+
 function EtapeCarte({ etape }: { etape: ReflexoEtape }) {
   const zones = (etape.zones ?? []).map(texteZone);
   const uneSeule = zones.length === 1;
@@ -416,7 +428,7 @@ function EtapeCarte({ etape }: { etape: ReflexoEtape }) {
   return (
     <div
       style={{
-        border: "1px solid rgba(58,50,40,.10)",
+        background: GESTE.doux,
         borderRadius: 13,
         padding: "13px 15px",
       }}
@@ -427,7 +439,7 @@ function EtapeCarte({ etape }: { etape: ReflexoEtape }) {
           style={{
             fontSize: 10,
             fontWeight: 700,
-            color: REFLEXO_MUTED,
+            color: GESTE.profond,
             letterSpacing: ".08em",
           }}
         >
@@ -467,7 +479,7 @@ function EtapeCarte({ etape }: { etape: ReflexoEtape }) {
           style={{
             fontSize: 12,
             lineHeight: 1.5,
-            color: REFLEXO_MUTED,
+            color: GESTE.profond,
             fontStyle: "italic",
             margin: "5px 0 0 0",
           }}
@@ -522,7 +534,7 @@ function EtapeCarte({ etape }: { etape: ReflexoEtape }) {
             <li
               key={`${z.designation}-${i}`}
               style={{
-                background: REFLEXO_BG_DOUX,
+                background: GESTE.accent,
                 borderRadius: 10,
                 padding: "9px 11px",
               }}
@@ -557,7 +569,7 @@ function EtapeCarte({ etape }: { etape: ReflexoEtape }) {
                   style={{
                     fontSize: 11.5,
                     lineHeight: 1.45,
-                    color: REFLEXO_MUTED,
+                    color: GESTE.profond,
                     fontStyle: "italic",
                     margin: "2px 0 0 0",
                   }}
@@ -588,7 +600,7 @@ function EmplacementNote({ zones }: { zones: ReflexoZoneTexte[] }) {
   return (
     <p
       style={{
-        background: REFLEXO_BG_CADRE,
+        background: REFLEXO_TERRACOTTA.accent,
         borderRadius: 10,
         padding: "9px 11px",
         margin: "9px 0 0 0",
