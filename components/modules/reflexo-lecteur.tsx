@@ -120,6 +120,90 @@ const OP_TRAINEE = 0.75; // opacité de la traînée (le sillage du doigt)
 const OP_REPOS = 0.3; // zone au repos
 const OP_FIN = 0.9; // zone terminée (valeur du SVG d'origine)
 
+// --- Lisibilité de l'empreinte ---------------------------------------------
+// Les couleurs de zones du SVG sont très claires : sur le fond #DFBEB0 elles ne
+// tiennent que 1,53 de contraste en moyenne, certaines 1,00. Téléphone posé à
+// plat sur la table, l'écran vu de biais perd encore du contraste et le geste
+// devient illisible — or c'est précisément la posture d'un parent qui masse.
+//
+// On baisse donc la CLARTÉ jusqu'à atteindre CONTRASTE_EMPREINTE. La teinte est
+// conservée, la couleur reste reconnaissable, et une zone déjà assez foncée
+// n'est pas touchée : on ne fonce que ce qui en a besoin.
+const CONTRASTE_EMPREINTE = 2.5;
+const L_MIN_EMPREINTE = 0.42; // sous ce seuil la teinte s'écrase, ce n'est plus joli
+
+const canalLin = (x: number) => (x <= 0.04045 ? x / 12.92 : Math.pow((x + 0.055) / 1.055, 2.4));
+const canalGamma = (x: number) => (x <= 0.0031308 ? 12.92 * x : 1.055 * Math.pow(x, 1 / 2.4) - 0.055);
+
+function luminance([r, g, b]: number[]): number {
+  const [R, G, B] = [r, g, b].map(canalLin);
+  return 0.2126 * R + 0.7152 * G + 0.0722 * B;
+}
+function contrasteRgb(a: number[], b: number[]): number {
+  const [x, y] = [luminance(a), luminance(b)].sort((p, q) => q - p);
+  return (x + 0.05) / (y + 0.05);
+}
+function versOklab([r, g, b]: number[]): number[] {
+  const [R, G, B] = [r, g, b].map(canalLin);
+  const l = Math.cbrt(0.4122214708 * R + 0.5363325363 * G + 0.0514459929 * B);
+  const m = Math.cbrt(0.2119034982 * R + 0.6806995451 * G + 0.1073969566 * B);
+  const s = Math.cbrt(0.0883024619 * R + 0.2817188376 * G + 0.6299787005 * B);
+  return [
+    0.2104542553 * l + 0.793617785 * m - 0.0040720468 * s,
+    1.9779984951 * l - 2.428592205 * m + 0.4505937099 * s,
+    0.0259040371 * l + 0.7827717662 * m - 0.808675766 * s,
+  ];
+}
+function depuisOklab([L, a, b]: number[]): number[] {
+  const l = (L + 0.3963377774 * a + 0.2158037573 * b) ** 3;
+  const m = (L - 0.1055613458 * a - 0.0638541728 * b) ** 3;
+  const s = (L - 0.0894841775 * a - 1.291485548 * b) ** 3;
+  return [
+    4.0767416621 * l - 3.3077115913 * m + 0.2309699292 * s,
+    -1.2684380046 * l + 2.6097574011 * m - 0.3413193965 * s,
+    -0.0041960863 * l - 0.7034186147 * m + 1.707614701 * s,
+  ].map((v) => Math.min(1, Math.max(0, canalGamma(v))));
+}
+const FOND_RGB = [0xdf / 255, 0xbe / 255, 0xb0 / 255];
+
+/** `rgb(r, g, b)` → [0-1, 0-1, 0-1], ou null si ce n'est pas une couleur. */
+function lireRgb(css: string): number[] | null {
+  const m = css.match(/-?[\d.]+/g);
+  if (!m || m.length < 3) return null;
+  return m.slice(0, 3).map((v) => Number(v) / 255);
+}
+
+/** La couleur assombrie juste ce qu'il faut, ou la couleur d'origine. */
+export function assombrirEmpreinte(css: string): string {
+  const rgb = lireRgb(css);
+  if (!rgb) return css;
+  if (contrasteRgb(rgb, FOND_RGB) >= CONTRASTE_EMPREINTE) return css;
+  const lab = versOklab(rgb);
+  for (let k = 0.98; k > 0.3; k -= 0.02) {
+    const essai = depuisOklab(lab.map((v) => v * k));
+    if (contrasteRgb(essai, FOND_RGB) >= CONTRASTE_EMPREINTE || lab[0] * k <= L_MIN_EMPREINTE) {
+      return `rgb(${essai.map((v) => Math.round(v * 255)).join(", ")})`;
+    }
+  }
+  return css;
+}
+
+// Une zone n'est assombrie qu'une fois, même si le lecteur la relit.
+const ZONES_ASSOMBRIES = new WeakSet<Element>();
+
+/** Applique l'assombrissement à une zone et à toutes ses formes filles. */
+function assombrirZone(zone: Element) {
+  if (ZONES_ASSOMBRIES.has(zone)) return;
+  ZONES_ASSOMBRIES.add(zone);
+  const formes: Element[] = [zone, ...Array.from(zone.querySelectorAll("path, circle, ellipse, polygon, rect"))];
+  for (const f of formes) {
+    const style = (f as SVGGraphicsElement).style;
+    const calc = getComputedStyle(f);
+    if (calc.fill && calc.fill !== "none") style.fill = assombrirEmpreinte(calc.fill);
+    if (calc.stroke && calc.stroke !== "none") style.stroke = assombrirEmpreinte(calc.stroke);
+  }
+}
+
 // Zones « tracé » sans géométrie encore branchée : durée d'un passage.
 const PASS_DUR = 3600;
 
@@ -490,6 +574,12 @@ export function ReflexoLecteur({
   const lireCible = useCallback((svg: SVGSVGElement, id: string): CibleInfo | null => {
     const el = svg.getElementById(id) as SVGGraphicsElement | null;
     if (!el) return null;
+    // Les couleurs de zones du SVG ne tiennent que 1,5 de contraste en moyenne
+    // sur le fond du lecteur : à plat sur une table, sous un angle, le geste
+    // devient illisible. On les assombrit AVANT de les lire, une seule fois par
+    // élément, pour que la forme révélée, la traînée et le doigt suivent
+    // ensemble. Cf. assombrirEmpreinte().
+    assombrirZone(el);
     const couleur = (node: Element): string => {
       let f = getComputedStyle(node).fill;
       if (!f || f === "none" || f === "rgb(0, 0, 0)") {
