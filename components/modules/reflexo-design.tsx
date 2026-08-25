@@ -74,6 +74,25 @@ export const REFLEXO_TERRACOTTA: ReflexoFamille = {
 };
 
 /**
+ * Le fond du lecteur animé et des cartes de protocole — la couleur « vidéo ».
+ * Source unique : `reflexo-lecteur.tsx` l'importe d'ici plutôt que d'en garder
+ * une copie, pour que la cohérence soit structurelle et pas un hasard de deux
+ * codes hexadécimaux identiques.
+ *
+ * L'introduction de l'accueil la reprend (choix Laura, 25/08/2026) : plus
+ * foncée que les fonds de la gamme, elle rattache visuellement le bloc à ce
+ * que le parent verra en lançant une animation.
+ */
+export const REFLEXO_FOND_LECTEUR = "#DFBEB0";
+
+/**
+ * Le ton des mentions posées SUR ce fond. Le `profond` du terracotta (#7F4C38)
+ * n'y tient que 4,05 de contraste, sous le seuil des 9 px en capitales : on
+ * descend d'un cran dans la même famille pour repasser à 5,2.
+ */
+export const REFLEXO_FOND_LECTEUR_TEXTE = "#6B3D2B";
+
+/**
  * La famille d'une ligne de la liste, **par position**.
  *
  * ⚠️ Volontairement indexé sur le RANG et non sur l'id du protocole : l'ordre

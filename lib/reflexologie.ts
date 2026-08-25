@@ -113,6 +113,12 @@ export type ReflexoProtocole = {
   /** Carte récapitulative de la VARIANTE (ex. « Sommeil (avec cauchemars) »). */
   visuel_cauchemars?: string;
   intro: string;
+  /**
+   * Sous-titre COURT affiché sous le titre dans la liste (page 1) : un verbe en
+   * tête, 12 mots maximum. Écrit à la main dans le JSON. Sans lui, on retombe
+   * sur la première phrase de `intro` (ancien comportement).
+   */
+  accroche?: string;
   emotion?: string;
   ouverture: { titre: string; etapes: string[] };
   sequence: ReflexoEtape[];
@@ -162,6 +168,18 @@ export type ReflexoListItem = {
   sujet_sensible: boolean;
   categorie_guide_moi?: string;
   nb_etapes: number;
+  /**
+   * Le NUMÉRO DE SLOT du protocole : sa position dans l'ordre de l'index,
+   * indépendante de ce qui est affiché à l'écran. C'est lui qui donne sa
+   * couleur, via `slotReflexo()`.
+   *
+   * ⚠️ Surtout pas l'index de la boucle d'affichage. Quand les protocoles
+   * seront dispatchés par mois, la liste n'en montrera qu'un sous-ensemble et
+   * son index repartirait de 0, alors que la fiche garderait le rang global :
+   * la carte et la fiche donneraient deux couleurs différentes au même
+   * protocole. Un seul numéro, calculé ici, sert aux deux écrans.
+   */
+  rang: number;
 };
 
 // --- Sources ---------------------------------------------------------------
@@ -233,7 +251,7 @@ const ORDRE_AFFICHAGE = [...ORDRE_LANCEMENT, ...ORDRE_REPORTES];
 
 // --- Accès -----------------------------------------------------------------
 
-/** Première phrase de l'intro — sert d'accroche courte dans la liste. */
+/** Repli : première phrase de l'intro, quand le JSON n'a pas d'`accroche`. */
 function accrocheDepuisIntro(intro: string): string {
   const premiere = intro.split(/(?<=\.)\s/)[0]?.trim() ?? intro;
   return premiere.length > 130 ? `${premiere.slice(0, 127).trimEnd()}…` : premiere;
@@ -253,13 +271,14 @@ export function getProtocolesPublies(): ReflexoListItem[] {
   };
   return visibles
     .sort((a, b) => rang(a.id) - rang(b.id) || a.titre.localeCompare(b.titre, "fr"))
-    .map((p) => ({
+    .map((p, rang) => ({
       id: p.id,
       titre: p.titre,
-      accroche: accrocheDepuisIntro(p.intro),
+      accroche: p.accroche?.trim() || accrocheDepuisIntro(p.intro),
       sujet_sensible: p.sujet_sensible === true,
       categorie_guide_moi: p.categorie_guide_moi,
       nb_etapes: p.sequence.length,
+      rang,
     }));
 }
 

@@ -56,7 +56,10 @@ export default async function ProtocoleReflexoPage({
   // jamais le protocole. Le terracotta reste réservé à ce qui demande de
   // l'attention (vigilance, emplacement contre-intuitif, disclaimer).
   const C_EMOTION = REFLEXO_GAMME[0]; // violet bleuté — le ressenti du parent
-  const C_OUVERTURE = REFLEXO_GAMME[4]; // sauge — l'installation, le vivant
+  // « Avant de commencer » prend la couleur DU PROTOCOLE (choix Laura, 25/08) :
+  // même teinte que sa carte dans la liste et que son picto, pour que l'entrée
+  // dans la fiche prolonge la case sur laquelle le parent a tapé.
+  const C_OUVERTURE = famille;
   const C_GESTE = REFLEXO_GAMME[3]; // turquoise vert — l'identité de l'onglet
   const C_VARIANTE = REFLEXO_GAMME[1]; // violet lilas — la version alternative
   const C_FIN = REFLEXO_GAMME[2]; // bleu ciel — la sortie en douceur

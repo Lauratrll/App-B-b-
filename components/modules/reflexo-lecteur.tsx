@@ -19,7 +19,7 @@
 //    prototypes mouvement-*.html sera branchée ici au palier suivant.
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { texteGras } from "./reflexo-design";
+import { texteGras, REFLEXO_FOND_LECTEUR } from "./reflexo-design";
 import type { ReflexoAnimStep } from "@/lib/reflexologie";
 
 const SVG_URL = "/reflexologie/pieds_bebe_zones_reflexes.svg";
@@ -32,7 +32,9 @@ const GLISSE_T_MIN = 2000;
 const GLISSE_T_MAX = 7000;
 const INK = "#3A3228";
 const EUCAL = "#6f5f52";
-const BG_PIED = "#DFBEB0";
+// Le fond de la scène vit dans reflexo-design : l'introduction de l'accueil
+// reprend la même couleur, il ne doit y en avoir qu'une définition.
+const BG_PIED = REFLEXO_FOND_LECTEUR;
 
 // Pression maintenue — réglages des prototypes (ms).
 const T_INTRO = 1000; // la forme reste 1 s en opacité faible avant le geste

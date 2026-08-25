@@ -6,7 +6,8 @@ import {
   REFLEXO_BG_CADRE,
   REFLEXO_MUTED,
   REFLEXO_TEXT,
-  REFLEXO_TERRACOTTA,
+  REFLEXO_FOND_LECTEUR,
+  REFLEXO_FOND_LECTEUR_TEXTE,
   texteGras,
 } from "@/components/modules/reflexo-design";
 
@@ -19,7 +20,9 @@ export default async function ReflexologiePage() {
   const protocoles = getProtocolesPublies();
 
   return (
-    <div style={{ display: "flex", flexDirection: "column", gap: 22 }}>
+    // 8 px de marge latérale sur TOUTE la page : l'introduction, le titre
+    // « Les protocoles » et les cases sont ferrés sur la même ligne.
+    <div style={{ display: "flex", flexDirection: "column", gap: 22, padding: "0 8px" }}>
       {/* En-tête : titre Playfair + sous-titre capitales Eucalyptus */}
       <header style={{ textAlign: "center", padding: "4px 0 2px" }}>
         <h1
@@ -59,13 +62,14 @@ export default async function ReflexologiePage() {
         details.reflexo-intro > summary::-webkit-details-marker { display: none; }
         details.reflexo-intro[open] .reflexo-chevron { transform: rotate(180deg); }
       `}</style>
-      {/* L'introduction n'est PAS un protocole : elle prend le terracotta
-          clair, seule couleur hors de la gamme des protocoles, pour se détacher
-          de la liste (choix Laura). */}
+      {/* L'introduction n'est PAS un protocole : elle reprend le fond du
+          lecteur animé (choix Laura, 25/08). Plus foncée que les fonds de la
+          gamme, elle se détache de la liste ET annonce ce que le parent verra
+          en lançant une animation. */}
       <details
         className="reflexo-intro"
         style={{
-          background: REFLEXO_TERRACOTTA.doux,
+          background: REFLEXO_FOND_LECTEUR,
           borderRadius: 14,
           overflow: "hidden",
         }}
@@ -98,7 +102,7 @@ export default async function ReflexologiePage() {
                 display: "block",
                 marginTop: 3,
                 fontSize: 9,
-                color: REFLEXO_TERRACOTTA.profond,
+                color: REFLEXO_FOND_LECTEUR_TEXTE,
                 letterSpacing: ".13em",
                 textTransform: "uppercase",
                 fontWeight: 600,
