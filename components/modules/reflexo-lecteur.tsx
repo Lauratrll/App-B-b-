@@ -134,19 +134,21 @@ const OP_FIN = 0.9; // zone terminée (valeur du SVG d'origine)
 //
 // Seule la couleur du DOIGT change. Les zones, la traînée et le coloriage
 // gardent les teintes d'origine du SVG.
-// ON N'ASSOMBRIT PAS. Deux tentatives l'ont fait et Laura les a refusées, à
-// juste titre : la clarté moyenne tombait de 0,741 à 0,630, et un pastel qu'on
-// fonce vire au gris.
+// Le doigt est la couleur de sa zone, poussée au maximum d'intensité que
+// l'écran sait afficher, puis à peine assombrie.
 //
-// L'erreur était dans la mesure. Le contraste WCAG ne regarde que la
-// LUMINOSITÉ, donc il ne voit qu'une façon de détacher le doigt : le foncer.
-// L'œil, lui, distingue aussi la COULEUR. En poussant l'intensité au maximum
-// affichable à clarté constante, l'écart perçu (ΔE OKLab) atteint 15 sur les 29
-// couleurs de zones — très au-dessus du seuil de 10 où l'écart est franc — sans
-// perdre un seul point de clarté.
+// Ce dosage est le fruit de trois essais. Assombrir pour gagner du contraste
+// WCAG faisait tomber la clarté de 0,741 à 0,630 : un pastel qu'on fonce vire
+// au gris, et Laura l'a refusé deux fois. À l'inverse, saturer sans rien
+// assombrir garde toute la gaieté mais laisse le rond un peu discret.
 //
-// Le doigt est donc la couleur de sa zone, en plus vif. Jamais en plus sombre.
+// Le réglage retenu est le milieu exact des deux, mesuré sur les 29 couleurs de
+// zones : clarté 0,691 et écart perçu 17,0, quand les deux extrêmes donnaient
+// 0,630 / 20,2 et 0,741 / 15,1. On mesure en ΔE OKLab et non en contraste WCAG,
+// parce que celui-ci ne regarde que la luminosité — il ne connaît qu'une façon
+// de détacher un élément, le foncer, alors que l'œil distingue aussi la couleur.
 const DOIGT_SATURATION_MAX = 4; // borne haute ; on s'arrête à ce que l'écran sait afficher
+const DOIGT_CLARTE = 0.93; // 1 = clarté de la zone ; plus bas = plus profond, plus gris
 
 const canalLin = (x: number) => (x <= 0.04045 ? x / 12.92 : Math.pow((x + 0.055) / 1.055, 2.4));
 const canalGamma = (x: number) => (x <= 0.0031308 ? 12.92 * x : 1.055 * Math.pow(x, 1 / 2.4) - 0.055);
@@ -177,9 +179,10 @@ const depuisOklab = (lab: number[]) =>
 const affichable = (rgb: number[]) => rgb.every((v) => v >= -0.002 && v <= 1.002);
 
 /**
- * La couleur du doigt : celle de sa zone, poussée au maximum d'intensité que
- * l'écran sait afficher, **à clarté strictement inchangée**. Le rond est donc
- * la version éclatante de sa zone, jamais une version assombrie.
+ * La couleur du doigt : celle de sa zone, saturée au maximum affichable, puis
+ * assombrie d'un cheveu. L'intensité est poussée AVANT la baisse de clarté et
+ * n'est jamais rabaissée ensuite — c'est ce qui empêche le rond de virer au
+ * gris tout en le posant un ton plus profond que sa zone.
  */
 function couleurDoigt(css: string): string {
   const m = css.match(/-?[\d.]+/g);
@@ -191,7 +194,8 @@ function couleurDoigt(css: string): string {
     if (!affichable(depuisOklabBrut(essai))) break;
     vif = essai;
   }
-  return `rgb(${depuisOklab(vif).map((v) => Math.round(v * 255)).join(", ")})`;
+  const final = [vif[0] * DOIGT_CLARTE, vif[1], vif[2]];
+  return `rgb(${depuisOklab(final).map((v) => Math.round(v * 255)).join(", ")})`;
 }
 
 // Zones « tracé » sans géométrie encore branchée : durée d'un passage.
