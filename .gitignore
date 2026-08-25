@@ -52,3 +52,7 @@ Thumbs.db
 # visuels des protocoles + illustration SVG des pieds. Régénérés par
 # scripts/sync-reflexo-visuels.mjs (lancé par `npm run dev` et `build`).
 /public/reflexologie/
+
+# Documents de travail (nuanciers, aperçus) — générés à la demande,
+# gardés en local par Laura, pas dans le dépôt.
+/docs/
