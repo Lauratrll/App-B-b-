@@ -1958,153 +1958,178 @@ export function ReflexoLecteur({
   };
 
   // Scène + panneau, en paysage. En portrait, on pivote l'ensemble de 90°.
+  // Rien ne touche les bords : le conteneur porte sa propre marge, et le
+  // panneau réserve en haut la place du bouton « fermer ».
   const player = (
-    <div style={{ display: "flex", height: "100%", width: "100%", alignItems: "stretch" }}>
-      {/* Scène : illustration des pieds, calée à gauche, fond #DFBEB0 */}
+    <div
+      style={{
+        display: "flex",
+        height: "100%",
+        width: "100%",
+        alignItems: "stretch",
+        gap: 16,
+        padding: "14px 16px 16px",
+        boxSizing: "border-box",
+      }}
+    >
+      {/* Scène : le nom du protocole EN FLUX au-dessus du dessin, jamais en
+          surimpression — c'est ce qui garantit qu'il ne couvrira jamais les
+          pieds, quelle que soit la taille de l'écran. */}
       <div
         style={{
-          position: "relative",
           flex: "1.7 1 0",
           minWidth: 0,
           display: "flex",
-          alignItems: "center",
-          justifyContent: "flex-start",
+          flexDirection: "column",
+          minHeight: 0,
         }}
       >
-        <div ref={stageRef} style={{ width: "100%", height: "100%" }} />
-        {!playing ? (
-          <button
-            onClick={() => setPlaying(true)}
-            aria-label="Lancer la lecture"
-            style={{
-              position: "absolute",
-              left: "38%",
-              top: "50%",
-              transform: "translate(-50%,-50%)",
-              width: 82,
-              height: 82,
-              borderRadius: "50%",
-              border: "none",
-              background: "rgba(58,50,40,.8)",
-              cursor: "pointer",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="#fff" style={{ marginLeft: 4 }}>
-              <path d="M8 5.5v13l11-6.5z" />
-            </svg>
-          </button>
-        ) : null}
+        <p
+          style={{
+            flexShrink: 0,
+            margin: "0 0 8px",
+            textAlign: "center",
+            fontFamily: "var(--font-playfair), Georgia, serif",
+            fontWeight: 700,
+            fontSize: 19,
+            lineHeight: 1.2,
+            color: INK,
+          }}
+        >
+          {titre}
+        </p>
+        <div ref={stageRef} style={{ flex: "1 1 0", minHeight: 0, width: "100%" }} />
       </div>
 
-      {/* Panneau texte, synchronisé */}
+      {/* Panneau texte : un corps qui respire, un pied FIGÉ. Les commandes ne
+          bougent donc jamais, quelle que soit la longueur du texte. */}
       <div
         style={{
           flex: "1 1 0",
-          minWidth: 240,
-          maxWidth: 460,
+          minWidth: 230,
+          maxWidth: 430,
           display: "flex",
           flexDirection: "column",
-          justifyContent: "center",
-          padding: "28px 36px 28px 14px",
+          minHeight: 0,
+          paddingTop: 38, // dégage le bouton « fermer », en haut à droite
         }}
       >
-        <div style={{ fontSize: 11, textTransform: "uppercase", letterSpacing: "2px", color: EUCAL, marginBottom: 12 }}>
-          {titre} · étape {s?.ordre ?? step + 1} / {steps.length}
-        </div>
-        <h2
-          className="reflexo-fade"
+        <div
           style={{
-            fontFamily: "var(--font-playfair), Georgia, serif",
-            fontSize: 30,
-            letterSpacing: ".3px",
-            margin: "0 0 12px",
-            lineHeight: 1.15,
+            flex: "1 1 0",
+            minHeight: 0,
+            overflow: "hidden",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
           }}
         >
-          {s?.horsPied ? s.designation : nomZone(s?.designation ?? "")}
-        </h2>
-        {/* Le pourquoi + le geste. Une étape à gestes enchaînés (bassin, dents,
-            cardia/pylore) porte deux zones : on montre les deux, dans l'ordre
-            où elles se jouent. Cf. consignes §4 « Textes affichés par zone ». */}
-        {(s?.zonesTexte?.length ?? 0) > 1 ? (
-          <div className="reflexo-fade" style={{ display: "grid", gap: 12, margin: "0 0 14px" }}>
-            {s.zonesTexte.map((z, i) => (
-              <div key={`${z.designation}-${i}`}>
-                <p style={{ fontSize: 17, lineHeight: 1.4, margin: 0 }}>
-                  <span style={{ color: EUCAL }}>{i + 1}. </span>
-                  {texteGras(z.phrase || z.designation)}
-                </p>
-                {z.geste ? (
-                  <p style={{ fontSize: 13, color: EUCAL, lineHeight: 1.45, margin: "2px 0 0" }}>
-                    {z.designation} — {z.geste}
-                  </p>
-                ) : null}
-              </div>
-            ))}
+          {/* Le décompte suit celui des étapes, dans l'écriture des sous-titres. */}
+          <div style={{ fontSize: 11, textTransform: "uppercase", letterSpacing: "2px", color: EUCAL, marginBottom: 8 }}>
+            {s?.horsPied ? "Étape" : "Zone réflexe"} {s?.ordre ?? step + 1} / {steps.length}
           </div>
-        ) : (
-          <>
-            <p className="reflexo-fade" style={{ fontSize: 19, lineHeight: 1.45, margin: "0 0 14px" }}>
-              {texteGras(s?.intention ?? "")}
-            </p>
-            {s?.desc ? (
-              <p className="reflexo-fade" style={{ fontSize: 14, color: EUCAL, lineHeight: 1.5, margin: 0 }}>
-                {texteGras(s.desc)}
-              </p>
-            ) : null}
-          </>
-        )}
-        {/* Les dents se travaillent SUR LE DESSUS du pied : l'illustration est
-            plantaire, le parent doit être prévenu au moment du geste. */}
-        {s?.emplacement ? (
-          <p
+          <h2
             className="reflexo-fade"
             style={{
-              marginTop: 12,
-              padding: "9px 11px",
-              borderRadius: 10,
-              background: "rgba(58,50,40,.07)",
-              fontSize: 13,
-              lineHeight: 1.45,
+              fontFamily: "var(--font-playfair), Georgia, serif",
+              // 18 px est le plafond mesuré : au-delà, « la colonne vertébrale »
+              // passe à deux lignes sur le plus petit paysage (230 px de colonne).
+              fontSize: 18,
+              letterSpacing: ".2px",
+              margin: "0 0 10px",
+              lineHeight: 1.2,
             }}
           >
-            {/* Capitales via textTransform : voir la note de la page protocole. */}
-            👆 Ce geste se fait{" "}
-            <strong style={{ textTransform: "uppercase" }}>sur le dessus du pied</strong>,
-            autour de l&apos;ongle du gros orteil — et non sous la plante.
-          </p>
-        ) : null}
-        <div style={{ display: "flex", gap: 7, margin: "22px 0 0", flexWrap: "wrap" }}>
-          {steps.map((_, k) => (
-            <span
-              key={k}
+            {s?.horsPied ? s.designation : nomZone(s?.designation ?? "")}
+          </h2>
+          {/* Le pourquoi + le geste. Une étape à gestes enchaînés (bassin, dents,
+              cardia/pylore) porte deux zones : on montre les deux, dans l'ordre
+              où elles se jouent. Cf. consignes §4 « Textes affichés par zone ». */}
+          {(s?.zonesTexte?.length ?? 0) > 1 ? (
+            <div className="reflexo-fade" style={{ display: "grid", gap: 10, margin: 0 }}>
+              {s.zonesTexte.map((z, i) => (
+                <div key={`${z.designation}-${i}`}>
+                  <p style={{ fontSize: 15, lineHeight: 1.4, margin: 0 }}>
+                    <span style={{ color: EUCAL }}>{i + 1}. </span>
+                    {texteGras(z.phrase || z.designation)}
+                  </p>
+                  {z.geste ? (
+                    <p style={{ fontSize: 12.5, color: EUCAL, lineHeight: 1.45, margin: "2px 0 0" }}>
+                      {z.designation} — {z.geste}
+                    </p>
+                  ) : null}
+                </div>
+              ))}
+            </div>
+          ) : (
+            <>
+              <p className="reflexo-fade" style={{ fontSize: 15, lineHeight: 1.45, margin: "0 0 10px" }}>
+                {texteGras(s?.intention ?? "")}
+              </p>
+              {s?.desc ? (
+                <p className="reflexo-fade" style={{ fontSize: 13, color: EUCAL, lineHeight: 1.5, margin: 0 }}>
+                  {texteGras(s.desc)}
+                </p>
+              ) : null}
+            </>
+          )}
+          {/* Les dents se travaillent SUR LE DESSUS du pied : l'illustration est
+              plantaire, le parent doit être prévenu au moment du geste. */}
+          {s?.emplacement ? (
+            <p
+              className="reflexo-fade"
               style={{
-                width: 9,
-                height: 9,
-                borderRadius: "50%",
-                background: k === step ? INK : k < step ? "rgba(58,50,40,.5)" : "rgba(58,50,40,.22)",
+                marginTop: 10,
+                padding: "8px 10px",
+                borderRadius: 10,
+                background: "rgba(58,50,40,.07)",
+                fontSize: 12,
+                lineHeight: 1.45,
               }}
-            />
-          ))}
+            >
+              {/* Capitales via textTransform : voir la note de la page protocole. */}
+              👆 Ce geste se fait{" "}
+              <strong style={{ textTransform: "uppercase" }}>sur le dessus du pied</strong>,
+              autour de l&apos;ongle du gros orteil — et non sous la plante.
+            </p>
+          ) : null}
         </div>
-        <div style={{ display: "flex", alignItems: "center", gap: 12, marginTop: 20 }}>
-          <button onClick={goPrev} aria-label="Étape précédente" disabled={step === 0} style={ctlGhost(step === 0)}>
-            ◀
-          </button>
-          <button onClick={() => setPlaying((p) => !p)} style={ctlSolid}>
-            {playing ? "Pause ⏸" : "Lecture ▶"}
-          </button>
-          <button
-            onClick={goNext}
-            aria-label="Étape suivante"
-            disabled={step === steps.length - 1}
-            style={ctlGhost(step === steps.length - 1)}
-          >
-            ▶
-          </button>
+
+        {/* Pied figé : pastilles + commandes. Symboles seuls, sans libellé. */}
+        <div style={{ flexShrink: 0, paddingTop: 14 }}>
+          <div style={{ display: "flex", gap: 7, marginBottom: 12, flexWrap: "wrap" }}>
+            {steps.map((_, k) => (
+              <span
+                key={k}
+                style={{
+                  width: 8,
+                  height: 8,
+                  borderRadius: "50%",
+                  background: k === step ? INK : k < step ? "rgba(58,50,40,.5)" : "rgba(58,50,40,.22)",
+                }}
+              />
+            ))}
+          </div>
+          <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+            <button onClick={goPrev} aria-label="Étape précédente" disabled={step === 0} style={ctlGhost(step === 0)}>
+              ❮
+            </button>
+            <button
+              onClick={() => setPlaying((p) => !p)}
+              aria-label={playing ? "Mettre en pause" : "Lancer la lecture"}
+              style={ctlSolid}
+            >
+              {playing ? "❚❚" : "▶"}
+            </button>
+            <button
+              onClick={goNext}
+              aria-label="Étape suivante"
+              disabled={step === steps.length - 1}
+              style={ctlGhost(step === steps.length - 1)}
+            >
+              ❯
+            </button>
+          </div>
         </div>
       </div>
     </div>
