@@ -270,6 +270,15 @@ export function getProtocole(id: string): ReflexoProtocole | null {
   return p;
 }
 
+/**
+ * Le rang d'un protocole dans la liste affichée, ou -1 s'il n'y figure pas.
+ * Sert à retrouver SA couleur : la gamme est attribuée par position, donc la
+ * fiche doit reprendre la teinte de la ligne sur laquelle le parent a tapé.
+ */
+export function getRangProtocole(id: string): number {
+  return getProtocolesPublies().findIndex((p) => p.id === id);
+}
+
 /** Ids des protocoles publiés — pour `generateStaticParams`. */
 export function getIdsPublies(): string[] {
   return getProtocolesPublies().map((p) => p.id);

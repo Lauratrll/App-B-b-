@@ -9,8 +9,10 @@ import { REFLEXO_TEXT, PLAYFAIR, slotReflexo } from "./reflexo-design";
 import { ReflexoIcone } from "./reflexo-icone";
 
 export function ReflexoListe({ protocoles }: { protocoles: ReflexoListItem[] }) {
+  // Un peu de marge latérale (demande Laura) : les cases colorées respirent
+  // au lieu de toucher les bords de l'écran.
   return (
-    <ul style={{ display: "grid", gap: 9, listStyle: "none", margin: 0, padding: 0 }}>
+    <ul style={{ display: "grid", gap: 9, listStyle: "none", margin: "0 8px", padding: 0 }}>
       {protocoles.map((p, i) => {
         const slot = slotReflexo(i);
         return (

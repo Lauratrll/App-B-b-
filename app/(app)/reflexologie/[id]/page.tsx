@@ -5,6 +5,7 @@ import { getBabyMonth } from "@/lib/utils";
 import {
   getIdsPublies,
   getProtocole,
+  getRangProtocole,
   getStepsAnimation,
   ouvertureCommune,
   texteZone,
@@ -14,12 +15,14 @@ import {
   type ReflexoZoneTexte,
 } from "@/lib/reflexologie";
 import { ReflexoCarte } from "@/components/modules/reflexo-lecteur";
+import { ReflexoIcone } from "@/components/modules/reflexo-icone";
 import {
   PLAYFAIR,
   REFLEXO_MUTED,
   REFLEXO_TEXT,
   REFLEXO_GAMME,
   REFLEXO_TERRACOTTA,
+  slotReflexo,
   texteGras,
 } from "@/components/modules/reflexo-design";
 
@@ -43,6 +46,10 @@ export default async function ProtocoleReflexoPage({
 
   // Protocole inconnu OU reporté (lancement: false) → 404, jamais affiché.
   if (!protocole) notFound();
+
+  // La couleur PROPRE au protocole : celle de sa ligne dans la liste, pour que
+  // l'ouverture de la fiche prolonge la case sur laquelle le parent a tapé.
+  const famille = slotReflexo(Math.max(0, getRangProtocole(params.id)));
 
   // Chaque bloc de la fiche prend une famille de la gamme, toujours la même
   // d'un protocole à l'autre : c'est la fonction du bloc qui donne la couleur,
@@ -91,17 +98,23 @@ export default async function ProtocoleReflexoPage({
         Tous les protocoles
       </Link>
 
-      {/* 1. Titre + intro */}
-      <header>
+      {/* 1. Titre — centré, picto du protocole au-dessus dans SA couleur, même
+          traitement que la page 2 de Guide-moi. La teinte vient du rang du
+          protocole dans la liste : on retrouve la couleur de la ligne sur
+          laquelle le parent vient de taper. */}
+      <header style={{ textAlign: "center", margin: "10px 0 0" }}>
+        <span style={{ display: "block", margin: "0 auto 12px", width: 34, color: famille.avatarBg }}>
+          <ReflexoIcone id={protocole.id} taille={34} />
+        </span>
         <h1
           style={{
             fontFamily: PLAYFAIR,
             fontWeight: 700,
-            fontSize: 25,
+            fontSize: 26,
             color: REFLEXO_TEXT,
             letterSpacing: "-.015em",
-            lineHeight: 1.15,
-            margin: "0 0 10px 0",
+            lineHeight: 1.1,
+            margin: "0 0 8px 0",
           }}
         >
           {protocole.titre}
@@ -109,12 +122,12 @@ export default async function ProtocoleReflexoPage({
         {protocole.s_applique ? (
           <p
             style={{
-              fontSize: 10,
-              color: REFLEXO_MUTED,
-              letterSpacing: ".08em",
+              fontSize: 9,
+              color: famille.profond,
+              letterSpacing: ".07em",
               textTransform: "uppercase",
-              fontWeight: 700,
-              margin: "0 0 10px 0",
+              fontWeight: 600,
+              margin: "0 0 12px 0",
             }}
           >
             Pour {protocole.s_applique}
@@ -125,7 +138,8 @@ export default async function ProtocoleReflexoPage({
             fontSize: 13.5,
             lineHeight: 1.6,
             color: REFLEXO_TEXT,
-            margin: 0,
+            textAlign: "left",
+            margin: "14px 0 0",
           }}
         >
           {texteGras(protocole.intro)}
