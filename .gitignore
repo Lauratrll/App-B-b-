@@ -56,3 +56,6 @@ Thumbs.db
 # Documents de travail (nuanciers, aperçus) — générés à la demande,
 # gardés en local par Laura, pas dans le dépôt.
 /docs/
+
+# Brouillons de contenu remplacés — gardés en local, jamais importés.
+content/**/*_anciens/
