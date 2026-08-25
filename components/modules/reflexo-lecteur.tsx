@@ -134,26 +134,22 @@ const OP_FIN = 0.9; // zone terminée (valeur du SVG d'origine)
 //
 // Seule la couleur du DOIGT change. Les zones, la traînée et le coloriage
 // gardent les teintes d'origine du SVG.
-// On SATURE d'abord, on n'assombrit qu'ensuite et seulement de ce qui manque
-// encore. Une première version baissait la clarté ET l'intensité ensemble : le
-// doigt ressortait mieux, mais la couleur devenait terne. Saturer seul ne
-// suffit pas non plus — le contraste plafonne à 1,35 et le rond se perd. Les
-// deux combinés donnent la même lisibilité que l'assombrissement seul, avec
-// 60 % d'intensité en plus.
-const DOIGT_CONTRASTE = 1.8; // écart visé entre le doigt et sa zone au repos
-const DOIGT_SATURATION = 1.9; // intensité visée, rabotée si la couleur sort de l'écran
-const DOIGT_L_MIN = 0.45; // plancher de clarté : en dessous la teinte s'écrase
+// ON N'ASSOMBRIT PAS. Deux tentatives l'ont fait et Laura les a refusées, à
+// juste titre : la clarté moyenne tombait de 0,741 à 0,630, et un pastel qu'on
+// fonce vire au gris.
+//
+// L'erreur était dans la mesure. Le contraste WCAG ne regarde que la
+// LUMINOSITÉ, donc il ne voit qu'une façon de détacher le doigt : le foncer.
+// L'œil, lui, distingue aussi la COULEUR. En poussant l'intensité au maximum
+// affichable à clarté constante, l'écart perçu (ΔE OKLab) atteint 15 sur les 29
+// couleurs de zones — très au-dessus du seuil de 10 où l'écart est franc — sans
+// perdre un seul point de clarté.
+//
+// Le doigt est donc la couleur de sa zone, en plus vif. Jamais en plus sombre.
+const DOIGT_SATURATION_MAX = 4; // borne haute ; on s'arrête à ce que l'écran sait afficher
 
 const canalLin = (x: number) => (x <= 0.04045 ? x / 12.92 : Math.pow((x + 0.055) / 1.055, 2.4));
 const canalGamma = (x: number) => (x <= 0.0031308 ? 12.92 * x : 1.055 * Math.pow(x, 1 / 2.4) - 0.055);
-const luminance = (c: number[]) => {
-  const [r, g, b] = c.map(canalLin);
-  return 0.2126 * r + 0.7152 * g + 0.0722 * b;
-};
-const contrasteRgb = (a: number[], b: number[]) => {
-  const [x, y] = [luminance(a), luminance(b)].sort((p, q) => q - p);
-  return (x + 0.05) / (y + 0.05);
-};
 function versOklab(c: number[]): number[] {
   const [R, G, B] = c.map(canalLin);
   const l = Math.cbrt(0.4122214708 * R + 0.5363325363 * G + 0.0514459929 * B);
@@ -180,41 +176,22 @@ const depuisOklab = (lab: number[]) =>
   depuisOklabBrut(lab).map((v) => Math.min(1, Math.max(0, canalGamma(v))));
 const affichable = (rgb: number[]) => rgb.every((v) => v >= -0.002 && v <= 1.002);
 
-const FOND_RGB = [0xdf / 255, 0xbe / 255, 0xb0 / 255];
-
-/** Monte l'intensité autant que l'écran le permet, sans toucher à la clarté. */
-function saturer([L, a, b]: number[], facteur: number): number[] {
-  for (let f = facteur; f > 1; f -= 0.05) {
-    if (affichable(depuisOklabBrut([L, a * f, b * f]))) return [L, a * f, b * f];
-  }
-  return [L, a, b];
-}
-
 /**
- * La couleur du doigt : celle de sa zone, rendue plus vive, et approfondie
- * seulement si elle ne se détache toujours pas assez du fond qu'elle survole.
- * L'intensité, elle, ne redescend jamais — c'est ce qui garde la couleur gaie.
+ * La couleur du doigt : celle de sa zone, poussée au maximum d'intensité que
+ * l'écran sait afficher, **à clarté strictement inchangée**. Le rond est donc
+ * la version éclatante de sa zone, jamais une version assombrie.
  */
 function couleurDoigt(css: string): string {
   const m = css.match(/-?[\d.]+/g);
   if (!m || m.length < 3) return css;
-  const zone = m.slice(0, 3).map((v) => Number(v) / 255);
-  // Ce que le doigt survole : sa zone affichée au repos par-dessus le fond.
-  const dessous = zone.map((v, i) => v * OP_REPOS + FOND_RGB[i] * (1 - OP_REPOS));
-  const sature = saturer(versOklab(zone), DOIGT_SATURATION);
-  const enRgb = (lab: number[]) => `rgb(${depuisOklab(lab).map((v) => Math.round(v * 255)).join(", ")})`;
-
-  if (contrasteRgb(depuisOklab(sature), dessous) >= DOIGT_CONTRASTE) return enRgb(sature);
-  for (let k = 0.98; k > 0.25; k -= 0.02) {
-    const essai = [sature[0] * k, sature[1], sature[2]];
-    if (
-      contrasteRgb(depuisOklab(essai), dessous) >= DOIGT_CONTRASTE ||
-      sature[0] * k <= DOIGT_L_MIN
-    ) {
-      return enRgb(essai);
-    }
+  const [L, a, b] = versOklab(m.slice(0, 3).map((v) => Number(v) / 255));
+  let vif = [L, a, b];
+  for (let f = 1; f <= DOIGT_SATURATION_MAX; f += 0.05) {
+    const essai = [L, a * f, b * f];
+    if (!affichable(depuisOklabBrut(essai))) break;
+    vif = essai;
   }
-  return enRgb(sature);
+  return `rgb(${depuisOklab(vif).map((v) => Math.round(v * 255)).join(", ")})`;
 }
 
 // Zones « tracé » sans géométrie encore branchée : durée d'un passage.
