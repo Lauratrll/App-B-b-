@@ -120,6 +120,74 @@ const OP_TRAINEE = 0.75; // opacité de la traînée (le sillage du doigt)
 const OP_REPOS = 0.3; // zone au repos
 const OP_FIN = 0.9; // zone terminée (valeur du SVG d'origine)
 
+// --- Densité du doigt -------------------------------------------------------
+// Le rond qui avance est déjà à opacité 1 : il n'y a plus d'opacité à gagner.
+// Ce qui lui manque, c'est de la DENSITÉ — il porte exactement la teinte de sa
+// zone, très claire, posé sur cette même zone au repos à 0,30. L'écart entre
+// les deux ne fait que 1,15 : téléphone posé à plat sur la table, on suit mal
+// la forme qui avance.
+//
+// ⚠️ Un assombrissement à pourcentage fixe ne marche PAS ici : sur une teinte
+// claire, foncer un peu rapproche d'abord le doigt de la luminosité de son
+// fond, donc le rend MOINS visible avant de le rendre plus visible. On vise
+// donc un contraste, pas un pourcentage.
+//
+// Seule la couleur du DOIGT change. Les zones, la traînée et le coloriage
+// gardent les teintes d'origine du SVG.
+const DOIGT_CONTRASTE = 1.8; // écart visé entre le doigt et sa zone au repos
+const DOIGT_L_MIN = 0.45; // plancher de clarté : en dessous la teinte s'écrase
+
+const canalLin = (x: number) => (x <= 0.04045 ? x / 12.92 : Math.pow((x + 0.055) / 1.055, 2.4));
+const canalGamma = (x: number) => (x <= 0.0031308 ? 12.92 * x : 1.055 * Math.pow(x, 1 / 2.4) - 0.055);
+const luminance = (c: number[]) => {
+  const [r, g, b] = c.map(canalLin);
+  return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+};
+const contrasteRgb = (a: number[], b: number[]) => {
+  const [x, y] = [luminance(a), luminance(b)].sort((p, q) => q - p);
+  return (x + 0.05) / (y + 0.05);
+};
+function versOklab(c: number[]): number[] {
+  const [R, G, B] = c.map(canalLin);
+  const l = Math.cbrt(0.4122214708 * R + 0.5363325363 * G + 0.0514459929 * B);
+  const m = Math.cbrt(0.2119034982 * R + 0.6806995451 * G + 0.1073969566 * B);
+  const s = Math.cbrt(0.0883024619 * R + 0.2817188376 * G + 0.6299787005 * B);
+  return [
+    0.2104542553 * l + 0.793617785 * m - 0.0040720468 * s,
+    1.9779984951 * l - 2.428592205 * m + 0.4505937099 * s,
+    0.0259040371 * l + 0.7827717662 * m - 0.808675766 * s,
+  ];
+}
+function depuisOklab([L, a, b]: number[]): number[] {
+  const l = (L + 0.3963377774 * a + 0.2158037573 * b) ** 3;
+  const m = (L - 0.1055613458 * a - 0.0638541728 * b) ** 3;
+  const s = (L - 0.0894841775 * a - 1.291485548 * b) ** 3;
+  return [
+    4.0767416621 * l - 3.3077115913 * m + 0.2309699292 * s,
+    -1.2684380046 * l + 2.6097574011 * m - 0.3413193965 * s,
+    -0.0041960863 * l - 0.7034186147 * m + 1.707614701 * s,
+  ].map((v) => Math.min(1, Math.max(0, canalGamma(v))));
+}
+const FOND_RGB = [0xdf / 255, 0xbe / 255, 0xb0 / 255];
+
+/** La couleur de la zone, approfondie juste assez pour que le doigt s'en détache. */
+function couleurDoigt(css: string): string {
+  const m = css.match(/-?[\d.]+/g);
+  if (!m || m.length < 3) return css;
+  const zone = m.slice(0, 3).map((v) => Number(v) / 255);
+  // Ce que le doigt survole : sa zone affichée au repos par-dessus le fond.
+  const dessous = zone.map((v, i) => v * OP_REPOS + FOND_RGB[i] * (1 - OP_REPOS));
+  if (contrasteRgb(zone, dessous) >= DOIGT_CONTRASTE) return css;
+  const lab = versOklab(zone);
+  for (let k = 0.98; k > 0.25; k -= 0.02) {
+    const essai = depuisOklab(lab.map((v) => v * k));
+    if (contrasteRgb(essai, dessous) >= DOIGT_CONTRASTE || lab[0] * k <= DOIGT_L_MIN) {
+      return `rgb(${essai.map((v) => Math.round(v * 255)).join(", ")})`;
+    }
+  }
+  return css;
+}
+
 // Zones « tracé » sans géométrie encore branchée : durée d'un passage.
 const PASS_DUR = 3600;
 
@@ -666,7 +734,7 @@ export function ReflexoLecteur({
               trail.style.strokeDashoffset = String(trailLen);
               const doigt = document.createElementNS(NS, "circle");
               doigt.setAttribute("r", String(fingerR));
-              doigt.setAttribute("fill", ci.fill);
+              doigt.setAttribute("fill", couleurDoigt(ci.fill));
               if (clipId) doigt.setAttribute("clip-path", `url(#${clipId})`);
               doigt.setAttribute("opacity", "0");
               gOver.appendChild(doigt);
@@ -730,7 +798,7 @@ export function ReflexoLecteur({
             trail.style.strokeDashoffset = String(trailLen);
             const doigt = document.createElementNS(NS, "circle");
             doigt.setAttribute("r", String(fingerR));
-            doigt.setAttribute("fill", ci.fill);
+            doigt.setAttribute("fill", couleurDoigt(ci.fill));
             doigt.setAttribute("clip-path", `url(#${clipId})`);
             doigt.setAttribute("opacity", "0");
             gOver.appendChild(doigt);
@@ -808,7 +876,7 @@ export function ReflexoLecteur({
             trail.style.strokeDashoffset = String(len);
             const doigt = document.createElementNS(NS, "circle");
             doigt.setAttribute("r", String(brush / 2)); // doigt = largeur de la bande
-            doigt.setAttribute("fill", ci.fill);
+            doigt.setAttribute("fill", couleurDoigt(ci.fill));
             doigt.setAttribute("clip-path", `url(#${clipId})`);
             doigt.setAttribute("opacity", "0");
             gOver.appendChild(doigt);
@@ -942,7 +1010,7 @@ export function ReflexoLecteur({
             trail.style.strokeDashoffset = String(tr.len);
             const doigt = document.createElementNS(NS, "circle");
             doigt.setAttribute("r", String(fingerR));
-            doigt.setAttribute("fill", ci.fill);
+            doigt.setAttribute("fill", couleurDoigt(ci.fill));
             doigt.setAttribute("clip-path", `url(#${clipId})`);
             doigt.setAttribute("opacity", "0");
             gOver.appendChild(doigt);
@@ -1020,7 +1088,7 @@ export function ReflexoLecteur({
             trail.style.strokeDashoffset = String(len);
             const doigt = document.createElementNS(NS, "circle");
             doigt.setAttribute("r", String(fingerR));
-            doigt.setAttribute("fill", ci.fill);
+            doigt.setAttribute("fill", couleurDoigt(ci.fill));
             doigt.setAttribute("clip-path", `url(#${clipId})`);
             doigt.setAttribute("opacity", "0");
             gOver.appendChild(doigt);
@@ -1081,7 +1149,7 @@ export function ReflexoLecteur({
           trait.style.strokeDashoffset = String(traitLen);
           const doigt = document.createElementNS(NS, "circle");
           doigt.setAttribute("r", String(U_FINGER_R));
-          doigt.setAttribute("fill", ci.fill);
+          doigt.setAttribute("fill", couleurDoigt(ci.fill));
           doigt.setAttribute("opacity", "0");
           gOver.appendChild(doigt);
           const passages = geom && "passages" in geom ? geom.passages : 3;
@@ -1224,7 +1292,7 @@ export function ReflexoLecteur({
           doigt.setAttribute("cx", String(p0.x));
           doigt.setAttribute("cy", String(p0.y));
           doigt.setAttribute("r", String(fingerR));
-          doigt.setAttribute("fill", ci.fill);
+          doigt.setAttribute("fill", couleurDoigt(ci.fill));
           if (clipId) doigt.setAttribute("clip-path", `url(#${clipId})`);
           doigt.setAttribute("opacity", "0");
           gOver.appendChild(doigt);
