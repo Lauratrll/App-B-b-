@@ -1,0 +1,192 @@
+{
+  "mois": 12,
+  "tranche_age": "12 mois",
+  "categorie": {
+    "id": "sepa",
+    "nom": "Séparation & socialisation",
+    "sous_titre": "Adaptation, agrippement, bras des proches, retrouvailles",
+    "icone": "💛"
+  },
+  "protocoles": [
+    {
+      "categorie": "sepa",
+      "situation": "Adaptation crèche difficile / il pleure à chaque arrivée",
+      "titre": "L'arrivée en garde / le rituel de départ des premières semaines",
+      "explication": "Vers 12 mois, ton enfant sait que tu continues d'exister quand tu disparais, mais il ne sait pas encore quand tu reviens : la notion de durée lui échappe complètement. Le moment de l'arrivée concentre donc toute la difficulté, alors que la journée elle-même se passe souvent bien. C'est pourquoi il pleure fort à la porte et joue tranquillement quelques minutes plus tard. Ces pleurs ne disent pas que la garde est mauvaise, ils disent que le lien avec toi fonctionne. L'adaptation se compte en semaines, pas en jours.",
+      "ancrage": "Ce sont les cinq minutes les plus dures de ta journée, et elles ne durent pas cinq minutes pour lui. Tu peux partir clairement, même quand il pleure.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : au moment de partir",
+        "etapes": [
+          "Toujours dire au revoir : un départ escamoté lui apprend à te surveiller en permanence.",
+          "Annoncer le retour par un repère concret : « je reviens après le goûter », plutôt qu'une heure.",
+          "Tenir un rituel identique et bref : la même phrase, le même geste, le même trajet vers la porte.",
+          "Passer le relais physiquement : le confier dans les bras de l'adulte plutôt que de le poser au sol.",
+          "Partir sans revenir sur tes pas : chaque retour en arrière relance l'espoir et recommence la séparation."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : le sceau des au revoir",
+        "etapes": [
+          "Un geste secret entre vous : deux tapes dans la main, ou un bisou dans la paume qu'il referme.",
+          "Toucher léger sur le dos de sa main : quelques secondes, en le regardant dans les yeux.",
+          "Dire la même phrase à chaque fois : les mots répétés deviennent un objet rassurant.",
+          "Refermer sa main sur le bisou : il peut le garder et le retrouver plus tard dans la journée.",
+          "Rester bref : ce rituel dure quinze secondes, c'est ce qui le rend efficace."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Transmettre ses repères : doudou, tissu portant ton odeur, rythme des siestes, mots de la maison.",
+        "Demander un retour d'information : savoir combien de temps les pleurs ont duré change complètement le vécu du parent.",
+        "S'entraîner à la maison : quitter la pièce en annonçant le retour, puis revenir vraiment, plusieurs fois par jour.",
+        "Alléger les semaines d'adaptation : week-ends calmes, moins de visites, coucher un peu plus tôt."
+      ],
+      "principe": "Ce qui rassure un enfant, ce n'est pas d'éviter la séparation, c'est de vivre des départs qui se ressemblent et des retours qui arrivent. La prévisibilité vaut plus que la douceur du moment.",
+      "erreurs_a_eviter": [
+        "S'éclipser quand il a le dos tourné : l'enfant devient vigilant et supporte encore moins les séparations suivantes.",
+        "Étirer les au revoir en multipliant les câlins : la tension monte à chaque minute supplémentaire.",
+        "Promettre d'arriver tôt sans pouvoir le tenir : la parole donnée perd sa valeur de repère.",
+        "Changer d'organisation après une journée difficile : les pleurs du début ne mesurent pas la qualité de la garde."
+      ],
+      "consulter_si": "Consulter si : ton enfant pleure sans interruption toute la journée au-delà de trois semaines, s'il refuse de boire et de manger sur place, s'il régresse nettement à la maison, ou s'il devient éteint et sans réaction → en parler avec l'équipe et avec le pédiatre ou la PMI."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "S'accroche à ma jambe / me suit dans chaque pièce",
+      "titre": "L'agrippement / la voix qui remplace la présence",
+      "explication": "Ton enfant vient de comprendre que tu existes toujours quand tu n'es plus visible, et cette découverte le rend d'abord plus inquiet : il sait maintenant que quelque chose lui manque. Il te suit, s'accroche à ta jambe, proteste dès que la porte se ferme. Cette phase apparaît chez la plupart des enfants entre 8 et 18 mois, avec des pics et des accalmies. Elle est le signe d'un attachement qui fonctionne, et elle s'apaise quand l'expérience lui montre, dix fois par jour, que tu reviens.",
+      "ancrage": "Répondre à ce besoin ne le rend pas plus collant, c'est ce qui l'autorise à s'éloigner ensuite. Tu peux l'emmener avec toi pour l'instant, sans t'inquiéter pour plus tard.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : quand tu quittes la pièce",
+        "etapes": [
+          "Annoncer avant de disparaître : « je vais dans la cuisine, je reviens », même pour trente secondes.",
+          "Garder le lien par la voix : parler ou chanter depuis l'autre pièce, ta voix te remplace un moment.",
+          "Revenir avant les pleurs : quelques secondes d'absence réussies valent mieux qu'une minute de détresse.",
+          "L'emmener quand c'est plus simple : le porter avec toi rassure et n'entretient rien.",
+          "Signaler ton retour : « me voilà, je suis revenue », pour boucler l'aller-retour dans sa tête."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : nourrir le réservoir de sécurité",
+        "etapes": [
+          "Prévoir un moment fixe : chaque jour à la même heure, dix minutes rien qu'à vous deux.",
+          "Zone du plexus solaire : au centre de la voûte, cercles lents, une minute par pied.",
+          "Balayage du talon vers les orteils : passages réguliers, pression douce et constante.",
+          "Regard et voix disponibles : le geste compte moins que ton attention entière pendant ces minutes.",
+          "S'arrêter quand il part jouer : c'est le meilleur signe que le réservoir est plein."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Jouer à cache-cache : disparaître derrière un linge et réapparaître transforme la séparation en jeu maîtrisé.",
+        "Installer un coin près de toi : un tiroir autorisé dans la cuisine lui permet d'être là sans être dans tes jambes.",
+        "Nommer les allers-retours de la journée : chaque départ annoncé et chaque retour souligné construit la confiance.",
+        "Alterner les adultes familiers : du temps seul avec l'autre parent ou un grand-parent élargit sa base de sécurité."
+      ],
+      "principe": "Un enfant explore d'autant plus loin qu'il sait où revenir. La sécurité ne se donne pas en poussant à l'autonomie : elle se donne en étant fiable, et l'autonomie vient d'elle-même.",
+      "erreurs_a_eviter": [
+        "Se cacher pour tester s'il pleure : le doute qui s'installe augmente la surveillance.",
+        "Le laisser seul pour l'habituer : à cet âge, l'entraînement à la séparation ne fabrique aucune sécurité.",
+        "Le confier brusquement à un adulte peu familier : la nouveauté au mauvais moment renforce l'agrippement.",
+        "Le traiter de collant devant lui : il comprend le ton et la répétition bien avant les mots."
+      ],
+      "consulter_si": "Consulter si : ton enfant ne se détache jamais, même quelques secondes, même en ta présence, s'il ne s'intéresse à aucun jeu, s'il ne cherche jamais le contact avec d'autres adultes familiers, ou si cette phase ne s'atténue pas du tout après 18 mois → en parler au pédiatre ou à la PMI."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Refuse les bras des grands-parents / même familiers",
+      "titre": "Les bras refusés / protéger sans froisser",
+      "explication": "Autour de la première année, ton enfant trie très clairement les personnes : il distingue les visages familiers des autres, et il choisit qui a le droit de le porter. Refuser les bras d'un grand-parent qu'il voit pourtant souvent n'a rien d'un rejet affectif : c'est une prudence normale, qui apparaît chez la plupart des enfants entre 8 et 18 mois. Elle s'accentue quand il est fatigué ou dans un lieu inhabituel. Forcer le contact à ce moment-là ne rapproche pas, cela renforce la méfiance.",
+      "ancrage": "Ce refus n'est pas un jugement sur les proches, et tu n'as pas à le corriger. Ton rôle est de protéger son rythme, en trouvant les mots pour l'expliquer aux adultes.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : au moment des retrouvailles familiales",
+        "etapes": [
+          "Le garder contre toi à l'arrivée : il observe la scène depuis un endroit sûr avant d'y entrer.",
+          "Demander aux adultes d'attendre : rester assis, parler doucement, s'occuper d'autre chose, sans tendre les bras.",
+          "Passer par un objet : un jouet tendu ou un jeu commencé au sol crée un pont sans contact direct.",
+          "Nommer son ressenti à voix haute : « tu as besoin d'un peu de temps, c'est normal ».",
+          "Laisser venir le contact de lui : le plus souvent, il s'approche seul au bout de quelques dizaines de minutes."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : le relais qui rassure",
+        "etapes": [
+          "Rester en contact pendant la transition : ta main sur son dos pendant qu'un proche s'approche.",
+          "Faire le passage assis : donner l'enfant d'un adulte assis à un autre adulte assis, sans le soulever en l'air.",
+          "Garder ton visage visible : il vérifie ton expression avant d'accepter.",
+          "Le reprendre sans commentaire s'il se raidit : le retour vers toi n'est pas un échec.",
+          "Réessayer plus tard dans la journée : la deuxième tentative se passe souvent mieux que la première."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Prévenir avant la visite : expliquer aux proches ce qui se joue à cet âge évite les remarques et les gestes forcés.",
+        "Retrouver dans un lieu neutre : un parc ou un jardin déclenche moins de méfiance qu'une maison inconnue.",
+        "Miser sur les habitudes : les proches qui participent au bain, au repas ou au jeu deviennent familiers plus vite.",
+        "Éviter les jours de fatigue : après une nuit courte ou une journée de garde, la tolérance est au plus bas."
+      ],
+      "principe": "Un enfant accorde sa confiance à son rythme, et ce tri est une compétence, pas un défaut d'éducation. Ce qui rapproche un proche, c'est la présence répétée et tranquille, pas l'insistance du moment.",
+      "erreurs_a_eviter": [
+        "Le déposer de force dans les bras d'un proche : le message reçu est que son refus ne compte pas.",
+        "L'accuser d'être timide ou capricieux devant tout le monde : l'étiquette colle et la gêne augmente.",
+        "Multiplier les visages nouveaux dans la même journée : la méfiance se cumule au lieu de s'apprivoiser.",
+        "S'excuser longuement auprès des adultes vexés : la scène se prolonge sous ses yeux au lieu de se refermer."
+      ],
+      "consulter_si": "Consulter si : ton enfant refuse aussi le contact avec ses parents, s'il ne sourit à personne, s'il ne cherche jamais le regard des adultes qu'il connaît, ou s'il devient soudainement méfiant après un événement précis → en parler au pédiatre ou à la PMI."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "M'ignore au moment des retrouvailles / il me boude en fin de journée",
+      "titre": "Les retrouvailles froides / lire le rejet du soir",
+      "explication": "Tu arrives, tu tends les bras, et ton enfant se détourne, continue de jouer, ou part vers l'adulte qui l'a gardé. Ce moment déroute beaucoup de parents. Il ne s'agit ni de bouderie ni de préférence : à un an, un enfant n'a pas les moyens de bouder, ce qui suppose une intention et une mémoire du reproche. Ce qu'il montre, c'est un temps de transition dont il a besoin pour passer d'un monde à l'autre, et parfois la trace de l'effort qu'il a fourni toute la journée.",
+      "ancrage": "Ce moment ne dit rien de ton lien avec lui, et il ne se répare pas en insistant. Tu peux te rendre disponible et attendre qu'il vienne.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : dans la première minute",
+        "etapes": [
+          "S'accroupir et attendre : se rendre disponible sans le happer dans les bras.",
+          "Entrer dans son jeu plutôt que l'interrompre : commenter ce qu'il fait, à son niveau.",
+          "Laisser le temps de transition : certains enfants ont besoin de finir avant de te rejoindre.",
+          "Mettre des mots sans exiger de réponse : « je suis là, on rentre quand tu veux ».",
+          "Accueillir la vague si elle arrive plus tard : le contact revient souvent d'un coup, quelques minutes après."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : se retrouver par le corps",
+        "etapes": [
+          "Proposer la main plutôt que les bras : une paume ouverte posée au sol près de lui.",
+          "Accepter le contact partiel : une main sur ton genou, un dos appuyé contre toi, cela compte déjà.",
+          "Contact large et immobile quand il vient : ta paume sur son dos, sans bercer.",
+          "Respiration lente : ton calme lui dit que rien ne s'est cassé pendant la journée.",
+          "Ne rien exiger de plus : ni bisou, ni sourire, ni mot, le lien se rétablit tout seul."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Prévenir l'adulte qui garde : une transition annoncée quelques minutes avant ton arrivée facilite le passage.",
+        "Garder le même déroulé chaque soir : même trajet, mêmes gestes, la prévisibilité apaise ce moment.",
+        "Se donner le droit d'être touchée : ce petit rejet fait mal, le dire à quelqu'un allège.",
+        "Repérer les jours difficiles : après une nuit courte ou une journée dense, la froideur du soir est plus marquée."
+      ],
+      "principe": "À un an, se détourner n'est pas un message adressé au parent : c'est le temps nécessaire à un tout-petit pour passer d'un monde à l'autre. Ce qui répare ce moment, c'est la disponibilité tranquille, pas la demande de preuve d'amour.",
+      "erreurs_a_eviter": [
+        "Insister pour obtenir un câlin immédiat : la pression prolonge le retrait au lieu de le lever.",
+        "Interpréter le geste comme une préférence pour l'autre adulte : l'attachement ne se mesure pas à cet instant.",
+        "Reprocher le comportement à l'enfant ou à la personne qui l'a gardé : la tension s'ajoute à la fatigue du soir.",
+        "Tenter de compenser par un cadeau ou une sortie : le besoin du moment est le calme et la présence."
+      ],
+      "consulter_si": "Consulter si : ton enfant ne manifeste aucune réaction à ton arrivée, jamais, quel que soit le jour, s'il paraît éteint ou triste plusieurs jours de suite, ou si ces retours s'accompagnent de régressions marquées du sommeil et de l'alimentation → en parler au pédiatre ou à la PMI."
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "mois": 12,
+  "tranche_age": "12 mois",
+  "categorie": {
+    "id": "sommeil",
+    "nom": "Sommeil",
+    "sous_titre": "Siestes, coucher, réveils debout, matins trop tôt",
+    "icone": "😴"
+  },
+  "protocoles": [
+    {
+      "categorie": "sommeil",
+      "situation": "Refus de la sieste du matin / mais s'écroule avant le déjeuner",
+      "titre": "La sieste du matin / le rythme qui commence à bouger",
+      "explication": "Vers 12 mois, la plupart des enfants font encore deux siestes, une le matin et une l'après-midi. Le passage à une sieste unique se produit le plus souvent entre 15 et 18 mois, parfois plus tard : à un an, il est rarement installé. Ce qui arrive, c'est une phase de flottement. Ton enfant repousse la sieste du matin plusieurs jours, la réclame ensuite, ou s'endort au moment du repas. Ce désordre passager accompagne les grandes acquisitions motrices et ne signifie pas qu'il est prêt à s'en passer.",
+      "ancrage": "Personne ne peut faire dormir un enfant, et ce n'est pas ce qu'on te demande. Ce qui reste dans tes mains, c'est le calme, l'horaire et l'obscurité.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : quand la sieste est refusée",
+        "etapes": [
+          "Guetter les signaux : bâillements, frottement des yeux, gestes moins précis, agitation soudaine.",
+          "Proposer quand même le temps calme : pénombre, gigoteuse, même rituel court, sans exiger le sommeil.",
+          "Limiter à vingt minutes : s'il ne dort pas, on ressort et on retentera plus tard.",
+          "Basculer sur un repos allongé : lecture immobile ou câlin dans le noir, le corps récupère même sans dormir.",
+          "Avancer le déjeuner et le coucher du soir : une sieste sautée se rattrape aux extrémités de la journée."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : inviter au repos de la journée",
+        "etapes": [
+          "Choisir le moment juste avant la sieste : enfant allongé, pièce dans la pénombre.",
+          "Zone du gros orteil : appui léger et maintenu quelques secondes sur chaque pied.",
+          "Bord interne du pied : remonter lentement du talon vers le gros orteil, deux ou trois passages.",
+          "Ralentir progressivement le geste : la main qui ralentit invite le corps à ralentir aussi.",
+          "S'arrêter s'il s'anime : un enfant qui rit ou se redresse n'est pas en train de recevoir le geste."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Observer sur deux semaines : noter les heures d'endormissement et de réveil montre s'il s'agit d'une phase ou d'un vrai virage.",
+        "Décaler par petits pas : quand la sieste unique s'installe vraiment, avancer celle du matin par tranches de quinze minutes.",
+        "Protéger la lumière du matin : sortir tôt aide l'horloge interne à caler les temps de repos.",
+        "Accorder les lieux de garde : crèche, assistante maternelle et maison gagnent à viser les mêmes créneaux."
+      ],
+      "principe": "Le besoin de sommeil de jour ne disparaît pas d'un coup, il se déplace. Tant qu'un enfant s'écroule en fin de matinée ou devient ingérable en fin d'après-midi, la place du repos est à ajuster plutôt qu'à supprimer.",
+      "erreurs_a_eviter": [
+        "Supprimer les deux siestes après quelques refus : la fatigue accumulée dégrade les nuits en quelques jours.",
+        "Laisser la sieste s'étirer jusqu'en fin d'après-midi : l'endormissement du soir devient alors très difficile.",
+        "Réveiller en plein sommeil profond pour tenir un horaire : l'enfant reste grognon et désorganisé pour l'après-midi.",
+        "Comparer aux autres enfants du même âge : l'âge du passage à une sieste varie de plusieurs mois d'un enfant à l'autre."
+      ],
+      "consulter_si": "Consulter si : ton enfant dort moins de dix heures par tranche de vingt-quatre heures de façon durable, s'il ne dort pas du tout en journée alors qu'il montre une fatigue permanente, s'il s'endort brutalement à toute heure, ou si la fatigue s'accompagne d'une perte d'appétit ou d'entrain → en parler au pédiatre.",
+      "source": "Source : besoins de sommeil et siestes du jeune enfant, mpedia.fr (AFPA) ; Institut national du sommeil et de la vigilance."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Se met debout dans son lit la nuit / et ne sait plus se recoucher",
+      "titre": "Debout dans le lit / la nouvelle compétence qui réveille",
+      "explication": "Se hisser debout est l'acquisition motrice du moment, et le cerveau s'entraîne la nuit à ce qu'il vient d'apprendre le jour. Ton enfant se retrouve debout, agrippé aux barreaux, sans savoir encore refaire le chemin inverse : se rasseoir demande un contrôle qui arrive un peu plus tard. Il appelle parce qu'il est coincé, pas parce qu'il veut jouer. Cette phase dure généralement quelques semaines, le temps que la descente devienne aussi automatique que la montée.",
+      "ancrage": "Il ne cherche pas à prolonger la soirée : il est bloqué et il te le dit. Tu peux lui donner un coup de main sans transformer le moment en échange.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : quand il appelle debout",
+        "etapes": [
+          "Y aller sans lumière : la pénombre garde la nuit du côté de la nuit.",
+          "L'aider à s'asseoir plutôt qu'à s'allonger : plier ses genoux, poser ses mains, le laisser terminer le mouvement.",
+          "Réduire l'échange au minimum : pas de jeu, pas de mot supplémentaire, pas de sortie de chambre.",
+          "Reposer et sortir vite : rester longtemps installe une nouvelle habitude d'endormissement.",
+          "Recommencer autant de fois que nécessaire : c'est la répétition tranquille qui raccourcit la phase."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : redescendre dans le corps",
+        "etapes": [
+          "Main large sur le dos : une fois couché, poser la paume entière sans bouger.",
+          "Pression douce et constante : le poids de la main donne une sensation d'enveloppe.",
+          "Deux ou trois respirations audibles : ton souffle sert de repère dans le noir.",
+          "Retrait millimètre par millimètre : lever la main lentement plutôt que d'un coup.",
+          "Ne rien ajouter s'il s'est rendormi : le geste s'arrête là où le sommeil reprend."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "S'entraîner le jour : jouer à monter et redescendre d'un coussin ou du canapé apprend la descente en pleine lumière.",
+        "Baisser le sommier : dès qu'il se hisse debout, le matelas au niveau le plus bas devient indispensable.",
+        "Vérifier la sécurité du lit : rien à escalader autour, aucun cordon ni tour de lit à portée.",
+        "Prévoir des temps de mouvement en fin de journée : un corps qui s'est beaucoup exercé s'entraîne moins la nuit."
+      ],
+      "principe": "Ce qu'un enfant vient d'apprendre s'invite dans son sommeil jusqu'à devenir automatique. Le raccourci n'est pas d'empêcher le mouvement la nuit, mais de lui donner le jour de quoi le maîtriser complètement.",
+      "erreurs_a_eviter": [
+        "Le rallonger de force en le maintenant : il se redresse aussitôt et l'énervement s'ajoute au blocage.",
+        "Entraver les jambes pour l'empêcher de se lever : dangereux, et sans effet sur l'apprentissage.",
+        "Faire durer le moment avec un long câlin : l'enfant retient qu'être debout ramène du temps avec toi.",
+        "Laisser le lit en position haute : la chute par-dessus les barreaux devient possible en quelques jours."
+      ],
+      "consulter_si": "Consulter si : ton enfant ne se hisse debout d'aucune façon à 15 mois, s'il n'utilise qu'un seul côté du corps pour se lever, s'il chute très souvent de tout son long, ou s'il pleure de douleur en s'appuyant sur une jambe → en parler au pédiatre, qui pourra orienter vers un kinésithérapeute pédiatrique ou un psychomotricien."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Coucher qui s'éternise / il se relève dès qu'on sort",
+      "titre": "Le coucher qui s'étire / la première limite testée",
+      "explication": "À un an, ton enfant comprend que tu continues d'exister derrière la porte, et il n'a aucune envie de te quitter pour la nuit. Se relever dès que tu sors est sa façon de vérifier que tu reviens, et de tester pour la première fois où se situe la limite. Ce n'est ni du caprice ni de la manipulation : c'est un besoin de sécurité qui rencontre une capacité motrice toute neuve. Un rituel court, identique et prévisible est ce qui referme le mieux la soirée à cet âge.",
+      "ancrage": "Ta constance vaut mieux que ta fermeté d'un seul soir. Tu peux revenir dix fois avec le même calme, c'est cette répétition qui installe le cadre.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : au moment du coucher",
+        "etapes": [
+          "Tenir un rituel court : trois ou quatre étapes, toujours les mêmes, dans le même ordre, en quinze minutes.",
+          "Annoncer la fin clairement : « dernière chanson, puis je sors », et s'y tenir.",
+          "Recoucher sans discussion : le remettre au lit avec une phrase identique, « il fait nuit, je suis là ».",
+          "Réduire l'échange à chaque retour : moins de mots, moins de lumière, moins de contact à chaque passage.",
+          "S'éloigner par paliers : rester près du lit, puis vers la porte, puis dans le couloir, sur plusieurs soirs."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : apaiser avant de quitter la chambre",
+        "etapes": [
+          "S'installer au bord du lit : lumière basse, voix qui ralentit, quelques minutes seulement.",
+          "Zone du plexus solaire : au centre de la voûte, cercles lents, une minute par pied.",
+          "Balayage de la voûte : du talon vers les orteils, plusieurs passages réguliers.",
+          "Terminer toujours pareil : la même phrase courte à la fin du geste devient le signal de la sortie.",
+          "S'arrêter s'il se réanime : quand le geste excite au lieu d'apaiser, on le réserve à un autre moment."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Avancer l'heure du coucher : un enfant couché en sur-fatigue met plus longtemps à s'endormir, pas moins.",
+        "Baisser la lumière une heure avant : la pénombre du soir prépare le corps à l'endormissement.",
+        "Écarter les écrans en fin de journée : leur lumière retarde la sécrétion de mélatonine.",
+        "Se mettre d'accord entre adultes : deux réponses différentes d'un soir à l'autre allongent la phase."
+      ],
+      "principe": "Un coucher se tient par la prévisibilité, pas par le volume de la voix. Ce que l'enfant apprend, ce n'est pas qu'il n'a pas le droit de se lever, c'est que la réponse sera la même à chaque fois.",
+      "erreurs_a_eviter": [
+        "Rallonger le rituel à chaque demande : la soirée s'étire et l'endormissement recule d'autant.",
+        "Sortir de la chambre en catimini : l'enfant redouble de vigilance les soirs suivants.",
+        "Ramener l'enfant dans le lit parental pour terminer la nuit : le repère de sommeil se déplace très vite.",
+        "Changer de méthode tous les trois soirs : il doit alors apprendre plusieurs réponses au lieu d'en reconnaître une."
+      ],
+      "consulter_si": "Consulter si : l'endormissement dépasse une heure chaque soir depuis plusieurs semaines malgré un cadre régulier, si ton enfant ronfle avec des pauses respiratoires, s'il se réveille en pleurant de douleur, ou si l'épuisement familial devient difficile à porter → en parler au pédiatre ou à la PMI."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Réveils à 5h du matin / impossible de le rendormir",
+      "titre": "Le réveil trop tôt / agir sur la journée plutôt que sur l'enfant",
+      "explication": "Un réveil à cinq heures n'est pas un caprice matinal : c'est le résultat de plusieurs réglages. En fin de nuit, le sommeil devient plus léger, la moindre lumière ou le moindre bruit suffit à faire basculer l'enfant dans l'éveil. S'y ajoutent souvent une sieste terminée trop tard, un coucher trop tardif qui crée de la sur-fatigue, ou une chambre qui s'éclaire tôt. Ce sont ces réglages qui bougent, bien plus que la volonté de ton enfant, sur qui rien ne peut être exigé à cette heure.",
+      "ancrage": "Tu ne peux pas lui demander de se rendormir, tu peux modifier ce qui l'entoure. Le levier est dans la journée d'avant, pas dans le petit matin.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : ce matin",
+        "etapes": [
+          "Traiter cinq heures comme la nuit : pénombre, voix basse, aucun jeu, aucune sortie de chambre.",
+          "Attendre quelques minutes avant d'entrer : certains réveils se referment seuls si personne n'intervient.",
+          "Décaler le lever officiel : ouvrir les volets à une heure fixe, la même chaque jour, pour donner le signal du matin.",
+          "Éviter le premier repas trop tôt : un petit déjeuner à cinq heures fixe le réveil à cinq heures.",
+          "Reporter la sieste du matin : une sieste trop précoce confirme la nuit écourtée."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : prolonger la nuit sans le réveiller",
+        "etapes": [
+          "Main immobile sur le dos : présence chaude et discrète, sans parler.",
+          "Pression douce et constante : le poids de la main invite le corps à rester couché.",
+          "Respiration lente près de lui : ralentir ton souffle donne un rythme à suivre.",
+          "Aucun contact visuel appuyé : le regard et le sourire réveillent complètement à cette heure.",
+          "Se retirer en douceur : alléger la main progressivement dès qu'il se rendort."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Occulter vraiment la chambre : rideaux épais et veilleuse éteinte, la lumière du petit matin est le déclencheur le plus fréquent.",
+        "Reculer la fin de la dernière sieste : la terminer avant seize heures évite un endormissement trop précoce le soir.",
+        "Avancer plutôt que reculer le coucher : la sur-fatigue provoque des réveils de fin de nuit.",
+        "Repérer les bruits du matin : chauffage, volets des voisins, réveil d'un adulte, tout se déclenche à la même heure."
+      ],
+      "principe": "En fin de nuit, le sommeil ne tient plus qu'à un fil : la lumière, le bruit et l'heure du coucher pèsent plus que tout le reste. On agit sur l'environnement et sur le rythme de la veille, pas sur l'enfant au moment où il se réveille.",
+      "erreurs_a_eviter": [
+        "Commencer la journée dès le premier appel : le réveil devient l'heure de lever et se fixe pour des semaines.",
+        "Coucher plus tard en espérant un réveil plus tardif : la fatigue accumulée avance encore le réveil.",
+        "Allumer la lumière ou proposer un écran pour patienter : le signal du matin est donné et la nuit se termine là.",
+        "Supprimer la sieste pour fatiguer davantage : les nuits se dégradent en quelques jours."
+      ],
+      "consulter_si": "Consulter si : les réveils précoces s'accompagnent de pleurs de douleur, de ronflements avec pauses respiratoires, d'une faim visible malgré des repas suffisants, ou s'ils épuisent durablement toute la famille malgré ces ajustements → en parler au pédiatre ou à la PMI.",
+      "source": "Source : rythmes veille-sommeil du jeune enfant, mpedia.fr (AFPA) ; Institut national du sommeil et de la vigilance."
+    }
+  ]
+}

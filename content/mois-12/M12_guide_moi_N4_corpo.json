@@ -1,0 +1,286 @@
+{
+  "mois": 12,
+  "tranche_age": "12 mois",
+  "categorie": {
+    "id": "corpo",
+    "nom": "Corps, dents & confort",
+    "sous_titre": "Premiers pas, chutes, escalade, molaires, brossage",
+    "icone": "🦶"
+  },
+  "protocoles": [
+    {
+      "categorie": "corpo",
+      "situation": "Pas encore de premiers pas / à 12 mois",
+      "titre": "Les premiers pas / ils ne sont pas là au premier anniversaire",
+      "explication": "La marche autonome s'installe le plus souvent entre 9 et 18 mois. À 12 mois, moins de la moitié des enfants marchent seuls, et ceux qui commencent à 16 ou 17 mois se situent pleinement dans la norme. Chaque enfant suit son propre chemin : certains passent par le quatre pattes, d'autres se déplacent assis sur les fesses, d'autres restent longtemps debout le long des meubles avant de lâcher. Ce qui compte n'est pas la date mais la progression : les appuis se renforcent, l'équilibre s'affine, l'envie d'aller plus loin grandit.",
+      "ancrage": "Ce n'est ni une course ni une compétition, et rien de ce que tu fais ne peut avancer la date. Ton rôle est d'offrir de l'espace et du temps au sol.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : soutenir sans devancer",
+        "etapes": [
+          "Libérer le sol : dégager une zone large, sans tapis glissant ni obstacle, où il se déplace à sa façon.",
+          "Offrir des appuis stables : meubles bas et lourds à sa hauteur, plutôt que des mains tenues au-dessus de sa tête.",
+          "Placer l'objet convoité un peu plus loin : le désir de l'atteindre fait plus que n'importe quel encouragement.",
+          "Le laisser pieds nus à l'intérieur : la plante du pied a besoin de sentir le sol pour ajuster l'équilibre.",
+          "Célébrer chaque étape : se lever, tenir debout, faire un pas de côté comptent autant que le premier pas."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : réveiller les appuis du pied",
+        "etapes": [
+          "Installer au calme : allongé sur le dos, après le bain, pieds découverts.",
+          "Envelopper le pied dans tes deux mains : quelques instants immobiles pour réchauffer.",
+          "Balayage complet de la voûte : du talon vers les orteils, lentement, plusieurs passages.",
+          "Zone du talon : appui doux et maintenu, la zone qui reçoit le poids du corps debout.",
+          "Terminer en mobilisant les orteils : les écarter délicatement un à un, sans forcer."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Privilégier la motricité libre : laisser l'enfant atteindre seul chaque position, comme le décrivent les travaux d'*Emmi Pikler*.",
+        "Réserver les équipements de maintien aux temps courts : transat et siège rehausseur réduisent le temps d'exploration au sol.",
+        "Marcher sur des sols variés : herbe, sable et pente sollicitent l'équilibre bien mieux qu'un sol plat.",
+        "Noter les acquis dans le carnet de santé : utile aux visites de suivi, et rassurant à relire quelques mois plus tard."
+      ],
+      "principe": "La marche n'est pas une compétence à enseigner, c'est une conquête qui arrive quand le corps est prêt. Le seul levier de l'adulte est l'espace laissé libre, pas l'entraînement.",
+      "erreurs_a_eviter": [
+        "Utiliser un youpala ou trotteur : il masque la vue des pieds et retarde les appuis, les pédiatres le déconseillent.",
+        "Le faire marcher en le tenant par les deux mains en hauteur : la position tire sur les épaules et fausse son équilibre.",
+        "L'installer dans des positions qu'il n'atteint pas seul : il ne peut ni s'en dégager ni progresser.",
+        "Comparer avec un cousin ou un enfant de la crèche : l'écart normal entre deux enfants dépasse largement six mois."
+      ],
+      "consulter_si": "Consulter si : ton enfant ne tient pas assis seul, ne se déplace d'aucune façon, ne se met pas debout avec appui à 12 mois, s'il n'utilise qu'un côté du corps, s'il reste très mou ou très raide, ou s'il perd une capacité acquise → en parler au pédiatre, qui pourra orienter vers un kinésithérapeute pédiatrique ou un psychomotricien.",
+      "source": "Source : repères du développement moteur du jeune enfant et déconseil du trotteur, mpedia.fr (AFPA)."
+    },
+    {
+      "categorie": "corpo",
+      "situation": "Chutes à répétition / dès qu'il lâche les appuis",
+      "titre": "Les chutes / apprendre l'équilibre par l'erreur",
+      "explication": "Un enfant qui apprend à marcher tombe des dizaines de fois par jour, et c'est ainsi qu'il apprend. Son centre de gravité est haut, sa tête est lourde, ses réflexes de protection des bras arrivent tout juste. La grande majorité des chutes se font sur les fesses ou en avant sur les mains, sans gravité. Chaque atterrissage affine son ajustement et l'aide à mieux se rattraper la fois suivante. Ce qu'il retient de la chute dépend beaucoup de ce qu'il lit sur ton visage juste après.",
+      "ancrage": "Ton calme lui apprend à se relever, ta panique lui apprend à avoir peur. Une seconde de respiration avant de réagir change tout le message.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : juste après la chute",
+        "etapes": [
+          "Observer avant de bondir : le laisser montrer comment il va, sans cri ni exclamation.",
+          "Consoler sans dramatiser : « tu es tombé, je suis là », d'une voix posée s'il pleure.",
+          "Appliquer du froid sur une bosse : un linge frais quelques minutes, sans jauger la gravité à son volume.",
+          "Vérifier les membres : s'il ne se sert plus d'un côté comme avant, cela demande un avis médical.",
+          "Le laisser repartir : reprendre le mouvement après une chute fait partie de la confiance."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : apaiser après la frayeur",
+        "etapes": [
+          "Intervenir une fois consolé : le geste vient quand les pleurs sont passés.",
+          "Zone du plexus solaire : au centre de la voûte, cercles lents pendant quelques instants.",
+          "Balayage lent de la voûte : du talon vers les orteils, en respirant lentement avec lui.",
+          "Main posée sur le haut du dos : chaleur immobile pendant qu'il redescend.",
+          "S'arrêter dès qu'il se détend : il repart jouer, le geste a fait son travail."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Sécuriser sans capitonner : coins des meubles bas protégés, sol dégagé, tapis antidérapants, et de l'espace pour tomber.",
+        "Renforcer l'équilibre par le jeu : monter sur un coussin, franchir une marche basse, porter un objet en marchant.",
+        "Habiller les jambes : genoux couverts pour amortir, chevilles libres pour bouger.",
+        "Le laisser expérimenter la perte d'équilibre : un enfant retenu en permanence ne construit pas ses parades."
+      ],
+      "principe": "Les chutes sont le prix normal de l'apprentissage moteur, et l'enfant qui tombe apprend à se rattraper. Ce n'est pas la taille de la bosse qui renseigne, c'est le comportement de l'enfant dans les heures qui suivent.",
+      "erreurs_a_eviter": [
+        "Réagir de façon spectaculaire à chaque chute : l'enfant apprend à craindre le mouvement plutôt qu'à s'ajuster.",
+        "Le gronder après une chute : la peur du reproche s'ajoute à la surprise du choc.",
+        "Renoncer aux sorties par crainte des chutes : la prudence se construit en pratiquant, pas en évitant.",
+        "Laisser un escalier ouvert ou une fenêtre accessible : à cet âge, le vrai danger vient de la hauteur, pas du sol."
+      ],
+      "consulter_si": "Consulter si : ton enfant chute constamment de tout son long sans se rattraper, s'il boite ou refuse de poser un pied, s'il ne se sert plus normalement d'un bras, ou si les chutes s'accompagnent d'une perte d'acquis → en parler au pédiatre, qui pourra orienter vers un kinésithérapeute pédiatrique ou un psychomotricien."
+    },
+    {
+      "categorie": "corpo",
+      "situation": "Grimpe partout / sans conscience du vide",
+      "titre": "L'escalade / sécuriser la maison quand la verticalité arrive",
+      "explication": "Grimper est un besoin moteur puissant et sain : c'est ainsi que ton enfant développe sa force, son équilibre et la conscience de son corps dans l'espace. Il escalade le canapé, les chaises, les tiroirs ouverts. Son cerveau, lui, ne mesure pas encore le vide ni les conséquences : la zone qui anticipe le risque est très immature à un an. Il n'explore pas pour désobéir, il explore ce que son corps sait faire. C'est l'environnement qui doit s'adapter, bien avant l'enfant.",
+      "ancrage": "Ton rôle n'est pas d'empêcher le mouvement mais d'aménager le terrain. Un besoin canalisé s'exprime là où c'est sûr, un besoin bloqué ressort ailleurs.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : quand il grimpe",
+        "etapes": [
+          "Se rapprocher pour parer : se placer en dessous plutôt que de crier de loin.",
+          "Sécuriser d'abord, expliquer ensuite : « je te tiens », puis « on descend, c'est haut ».",
+          "Rediriger vers le même plaisir : « tu veux grimper, viens, on va là où c'est permis ».",
+          "Nommer la limite en peu de mots : « le meuble, on ne monte pas ; le coussin, oui ».",
+          "Garder une voix calme : la peur criée l'excite, une voix ferme et posée cadre mieux."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : relâcher les jambes après l'effort",
+        "etapes": [
+          "Choisir un moment calme : allongé, après le bain ou avant la sieste.",
+          "Envelopper les mollets : une main de chaque côté, pression douce et constante, sans pétrir.",
+          "Remonter lentement de la cheville vers le genou : deux ou trois passages par jambe.",
+          "Mobiliser les chevilles : petits cercles très lents, dans un sens puis dans l'autre.",
+          "S'arrêter s'il retire sa jambe : le geste s'arrête là où son plaisir s'arrête."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Fixer les meubles au mur : commode, bibliothèque et téléviseur basculent sous le poids d'un enfant qui s'y suspend.",
+        "Poser des barrières aux escaliers : en haut systématiquement, en bas pour l'entraînement encadré.",
+        "Aménager un espace où grimper est permis : coussins empilés, petit parcours, structure adaptée à son âge.",
+        "Sortir chaque jour se dépenser : un enfant qui a grimpé dehors escalade moins les meubles."
+      ],
+      "principe": "Sécuriser l'environnement protège mieux qu'interdire le mouvement. Un enfant à qui l'on offre de vrais défis moteurs prend moins de risques dangereux que celui à qui tout est refusé.",
+      "erreurs_a_eviter": [
+        "Tout interdire sans offrir d'alternative : le besoin de grimper ressort ailleurs, souvent plus dangereusement.",
+        "Compter sur un seul rappel pour qu'il comprenne : l'anticipation du danger n'est pas encore en place.",
+        "Laisser une chaise ou un carton près d'un plan de travail : il s'en sert d'escabeau en quelques secondes.",
+        "Se fier à une barrière basse ou mal fixée : elle donne une sécurité que l'enfant franchit en quelques jours."
+      ],
+      "consulter_si": "Consulter si : ton enfant semble ne percevoir aucun danger de façon vraiment inhabituelle, s'il paraît souvent déséquilibré au point de chuter sans cesse, ou si son besoin de mouvement s'accompagne d'un mal-être → en parler au pédiatre, qui pourra orienter vers un psychomotricien. Un grand besoin de grimper reste le plus souvent normal à cet âge."
+    },
+    {
+      "categorie": "corpo",
+      "situation": "Se cogne la tête en tombant / quand faut-il s'inquiéter",
+      "titre": "Le choc à la tête / les signes qui demandent un avis",
+      "explication": "Les chocs à la tête sont fréquents chez un enfant qui apprend à marcher : sa tête est lourde et proportionnellement plus grosse que celle d'un adulte, et elle arrive souvent en premier. La grande majorité de ces chocs sont bénins : une bosse apparaît, l'enfant pleure, puis repart jouer. Ce qui renseigne sur la gravité, ce n'est ni le bruit ni la taille de la bosse, mais le comportement de l'enfant dans les heures qui suivent. Certains signes demandent un avis rapide, et ils sont observables sans être médecin.",
+      "ancrage": "Tu n'as pas à évaluer une blessure, tu as à observer un comportement. Repérer les bons signes et appeler suffit, c'est le professionnel qui juge.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : dans les minutes qui suivent",
+        "etapes": [
+          "Rester calme et le consoler : le prendre contre toi, voix posée, le temps que les pleurs passent.",
+          "Appliquer du froid enveloppé dans un linge : quelques minutes sur la bosse, sans appuyer.",
+          "Regarder ses réactions : est-ce qu'il te reconnaît, se console, bouge normalement ses quatre membres.",
+          "Noter l'heure du choc : utile si un signe apparaît plus tard dans la journée.",
+          "Appeler le 15 sans attendre : perte de connaissance, vomissements répétés ou somnolence anormale."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : accompagner la frayeur, une fois le doute levé",
+        "etapes": [
+          "Attendre d'avoir vérifié les signes : le contact vient après l'observation, pas à la place.",
+          "Contact enveloppant : ta paume large posée sur son dos, immobile, quelques instants.",
+          "Respiration lente et audible : ton souffle l'aide à redescendre après la frayeur.",
+          "Rester dans le calme un moment : lumière basse, peu de bruit, activité posée.",
+          "Écarter la zone du choc : aucun geste ni pression sur la tête ou la nuque."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Surveiller quarante-huit heures : c'est la période où d'éventuels signes apparaissent, y compris la nuit.",
+        "Connaître les numéros : le 15 pour une urgence, le pédiatre ou le médecin traitant pour un doute sans signe.",
+        "Réduire les hauteurs accessibles : table à langer, canapé et lit sont les lieux de chute les plus fréquents à cet âge.",
+        "Prévenir les autres adultes : tout le monde à la maison gagne à connaître les signes de surveillance."
+      ],
+      "principe": "Ce n'est pas l'intensité du choc qui décide, c'est l'état de l'enfant ensuite. Un enfant qui joue, mange et dort comme d'habitude va bien ; un changement net de comportement demande un avis, même sans bosse visible.",
+      "erreurs_a_eviter": [
+        "Juger la gravité à la taille de la bosse : elle ne dit rien de ce qui se passe à l'intérieur.",
+        "Le laisser dormir sans l'avoir observé après le choc : mieux vaut vérifier qu'il se réveille normalement.",
+        "Attendre le lendemain quand un signe d'alerte apparaît : ces signes appellent un appel immédiat.",
+        "Appliquer une pommade ou un remède sur la bosse sans avis : le froid enveloppé suffit."
+      ],
+      "consulter_si": "Consulter si, après un choc à la tête : perte de connaissance même brève, vomissements répétés, somnolence anormale ou difficulté à le réveiller, comportement inhabituel, convulsion, écoulement par le nez ou l'oreille, ou membre qui ne fonctionne plus normalement → appeler le 15 ou se rendre aux urgences. Avant 2 ans, un avis médical reste prudent même sans signe visible.",
+      "source": "Source : conduite à tenir devant un traumatisme crânien de l'enfant, Ameli ; mpedia.fr (AFPA)."
+    },
+    {
+      "categorie": "corpo",
+      "situation": "Premières molaires / douleur sourde et joues rouges",
+      "titre": "Les premières molaires / soulager une gêne qui dure",
+      "explication": "Après les incisives et les canines, les premières molaires percent le plus souvent entre 12 et 18 mois. Ce sont de grosses dents plates qui traversent une gencive épaisse : la gêne est plus large et s'étale davantage dans le temps qu'avec une incisive. Ton enfant bave, mâchouille, a parfois les joues rouges, devient grognon par vagues. Une poussée dentaire reste une gêne modérée : elle ne donne pas de vraie fièvre et ne rend pas malade. L'ordre et les dates d'apparition varient beaucoup d'un enfant à l'autre.",
+      "ancrage": "Tu ne peux pas accélérer la sortie de la dent, tu peux rendre l'attente plus douce. Le froid, la pression et ta présence sont ce dont tu disposes.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : soulager la gencive",
+        "etapes": [
+          "Proposer du froid : anneau de dentition réfrigéré, ou gant de toilette humide et frais à mâchouiller.",
+          "Appliquer une contre-pression : avec un doigt propre, presser la gencive quelques secondes, cela apaise.",
+          "Donner à mâcher au repas : un aliment frais et ferme adapté à son âge, toujours sous surveillance.",
+          "Essuyer la bave régulièrement : garder le menton sec limite les rougeurs de la peau.",
+          "Rester disponible : un enfant gêné se console autant par les bras que par le froid."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : accompagner la poussée dentaire",
+        "etapes": [
+          "S'installer contre toi : assis ou allongé, pieds accessibles, dans le calme.",
+          "Base des orteils : parcourir doucement la ligne située juste sous les orteils, plusieurs passages.",
+          "Zone du gros orteil : appui léger et maintenu, sa face interne correspond à la sphère de la mâchoire.",
+          "Balayage de la voûte : du talon vers les orteils, pression douce et constante, pour terminer.",
+          "S'arrêter à sa demande : un pied retiré ou une crispation met fin au geste."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Écarter le collier d'ambre : inefficace, et dangereux par risque de strangulation et d'étouffement.",
+        "Demander conseil avant tout produit : gels et préparations pour gencives demandent l'accord du médecin ou du pharmacien.",
+        "Garder le cadre du soir : les repères habituels aident à traverser les quelques nuits plus agitées.",
+        "Prévoir des anneaux en double : l'un au frais pendant que l'autre est utilisé, l'effet du froid est court."
+      ],
+      "principe": "Une poussée dentaire s'accompagne, elle ne se médicalise pas. Elle explique une gêne, une bave et une humeur variable, mais elle n'explique ni une fièvre élevée ni un enfant abattu.",
+      "erreurs_a_eviter": [
+        "Mettre un collier de dentition autour du cou : le danger est réel et l'efficacité n'a pas été démontrée.",
+        "Utiliser un gel anesthésiant à la lidocaïne : il ne convient pas avant deux ans.",
+        "Attribuer aux dents une forte fièvre et attendre : c'est passer à côté d'une autre cause à chercher.",
+        "Donner un médicament de sa propre initiative : toute dose se vérifie auprès d'un professionnel."
+      ],
+      "consulter_si": "Consulter si : fièvre élevée ou persistante, diarrhée importante, refus de boire, abattement inhabituel, ou douleur qui ne cède à rien → en parler au pédiatre, car ces signes ne relèvent pas des dents. Pour toute douleur nécessitant un médicament, demander la dose adaptée au poids au pédiatre ou au pharmacien.",
+      "source": "Source : poussées dentaires et danger du collier d'ambre chez le jeune enfant, mpedia.fr (AFPA) ; Direction générale de la concurrence, de la consommation et de la répression des fraudes."
+    },
+    {
+      "categorie": "corpo",
+      "situation": "Refuse le brossage de dents / se débat chaque soir",
+      "titre": "Le brossage / en faire un jeu d'imitation",
+      "explication": "Le brossage commence dès la première dent, bien avant que l'enfant comprenne pourquoi. À 12 mois, il ne peut pas encore coopérer volontairement : ouvrir la bouche pour laisser quelqu'un y entrer demande une confiance qui se construit. Se débattre est une réaction normale à une sensation nouvelle dans une zone très sensible, d'autant plus quand les molaires travaillent. Ce qui compte à cet âge, c'est l'habitude : un geste quotidien, court et prévisible, qui deviendra naturel bien avant qu'il sache cracher.",
+      "ancrage": "Vise la régularité plutôt que la perfection. Trente secondes acceptées chaque jour valent mieux qu'un brossage complet obtenu de force.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : au moment du brossage",
+        "etapes": [
+          "Se brosser les dents devant lui : à cet âge, l'imitation entraîne bien plus que la consigne.",
+          "Installer une position stable : assis sur tes genoux, dos contre toi, tête légèrement en appui.",
+          "Doser le dentifrice fluoré adapté à son âge : une trace suffit, la quantité se règle avec ton pédiatre, ton dentiste ou ton pharmacien.",
+          "Aller vite et régulièrement : quelques secondes par zone, sans chercher à tout faire du premier coup.",
+          "Terminer sur du positif : une chanson, un jeu de miroir, pour que le moment se referme bien."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : apprivoiser la bouche avant la brosse",
+        "etapes": [
+          "Laisser la brosse en dehors du moment du soir : il la mâchouille seul, à un autre moment de la journée.",
+          "Toucher léger autour de la bouche : joues, lèvres, menton, du bout des doigts, s'il apprécie.",
+          "Passer un doigt propre sur ses gencives : quelques secondes, pour l'habituer au contact intérieur.",
+          "Nommer chaque geste avant de le faire : l'annonce supprime l'effet de surprise.",
+          "Arrêter à son signal : une main qui repousse est une limite qu'on respecte, on réessaie plus tard."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ancrer le brossage dans le rituel du soir : la même place dans la séquence, tous les jours, à la même heure.",
+        "Choisir une brosse à très petite tête et poils souples : le confort change tout à cet âge.",
+        "Lui donner sa propre brosse : une pour lui pendant que tu utilises la tienne rend le moment plus acceptable.",
+        "Limiter le sucre entre les repas : ce qui protège le plus ses dents se joue aussi dans l'assiette."
+      ],
+      "principe": "À cet âge, on installe une habitude bien plus qu'on ne nettoie des dents. L'enfant qui associe ce moment à la douceur et à l'imitation acceptera le vrai brossage sans lutte quand il en aura l'âge.",
+      "erreurs_a_eviter": [
+        "Maintenir la tête pour ouvrir la bouche de force : la lutte s'installe pour des années.",
+        "Sauter le brossage parce qu'il n'a que quelques dents : les caries touchent aussi les dents de lait très tôt.",
+        "Donner un biberon de lait ou une boisson sucrée après le brossage : le sucre reste au contact des dents toute la nuit.",
+        "Négocier longuement chaque soir : plus le brossage dure, plus il devient un enjeu."
+      ],
+      "consulter_si": "Consulter si : tu remarques des taches blanches, brunes ou noires sur les dents, une gencive rouge et gonflée qui saigne, une dent cassée ou déplacée après une chute, ou une douleur qui gêne l'alimentation → prendre rendez-vous chez un chirurgien-dentiste. En France, un examen bucco-dentaire pris en charge est proposé à partir de 3 ans, et rien n'empêche une consultation avant.",
+      "source": "Source : hygiène bucco-dentaire du jeune enfant et prévention de la carie précoce, Union française pour la santé bucco-dentaire ; mpedia.fr (AFPA)."
+    }
+  ]
+}

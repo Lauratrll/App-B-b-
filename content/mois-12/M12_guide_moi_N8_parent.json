@@ -1,0 +1,193 @@
+{
+  "mois": 12,
+  "tranche_age": "12 mois",
+  "categorie": {
+    "id": "parent",
+    "nom": "Parents submergés",
+    "sous_titre": "Épuisement du cap d'un an, colère, couple, comparaison",
+    "icone": "🫶"
+  },
+  "protocoles": [
+    {
+      "categorie": "parent",
+      "situation": "Épuisement du cap de la première année / le bilan qui pèse",
+      "titre": "Le cap d'un an / la fatigue que l'anniversaire révèle",
+      "explication": "Le premier anniversaire agit comme un point de bascule : on regarde en arrière, et douze mois de nuits hachées, de vigilance permanente et de charge invisible apparaissent d'un coup. Beaucoup de parents décrivent une fatigue qui tombe précisément à ce moment, alors que le plus dur semblait passé. Cette fatigue-là n'est pas une faiblesse : elle est cumulative, physiologique, et elle met du temps à se combler. Le corps demande sa dette au moment où l'urgence se relâche, ce qui est logique même si c'est déroutant.",
+      "ancrage": "Tu n'as pas à te justifier d'être épuisée après une année pareille. Ce que tu ressens est le prix normal de ce que tu as porté, et cela se répare.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : alléger cette semaine",
+        "etapes": [
+          "Trier ce qui doit vraiment être fait : nourri, changé, en sécurité, et toi qui manges et bois, le reste peut attendre.",
+          "Protéger un vrai bloc de sommeil : quelques heures d'affilée, une fois dans la semaine, pendant que quelqu'un prend le relais.",
+          "Demander une chose précise : « peux-tu venir jeudi de 17h à 19h » fonctionne mieux qu'un « aide-moi » général.",
+          "Sortir dehors chaque jour : quelques minutes de lumière naturelle changent l'humeur plus qu'on ne le croit.",
+          "Dire à voix haute que c'est dur : à une amie, au co-parent, à la PMI, tenir seule est ce qui coûte le plus cher."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : récupérer un peu, tout de suite",
+        "etapes": [
+          "Auto-toucher des mains : presser la pulpe de chaque doigt, une main puis l'autre, une minute en tout.",
+          "Zone du plexus solaire de ta paume : au creux de la main, cercles lents, pression douce et constante.",
+          "Respiration allongée : inspiration par le nez, expiration deux fois plus longue, cinq fois de suite.",
+          "Pieds au sol, épaules relâchées : dix secondes d'attention à ton propre appui, debout ou assise.",
+          "S'allonger jambes surélevées : cinq minutes contre un mur ou un canapé, même sans dormir."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Faire un point médical : la fatigue durable mérite un examen, notamment du fer et de la thyroïde, à voir avec ton médecin.",
+        "Répartir la charge invisible : lister ce que chacun porte réellement rend visible ce qui se décide sans être dit.",
+        "Connaître les relais : PMI, Allo Parents Bébé au 0 800 00 34 56, associations de soutien aux parents.",
+        "Se donner un horizon court : une chose agréable prévue dans la semaine tient mieux qu'un grand projet lointain."
+      ],
+      "principe": "La fatigue de la première année ne se rattrape pas par la volonté, elle s'allège par le tri et par l'aide. Un parent qui souffle est plus disponible pour son enfant qu'un parent irréprochable et à bout.",
+      "erreurs_a_eviter": [
+        "Attendre d'être au bout du rouleau pour demander : l'aide arrive plus facilement avant l'effondrement.",
+        "Rattraper le retard domestique pendant les siestes : le sommeil perdu ne se récupère pas en rangeant.",
+        "Se comparer aux parents qui « assurent » : ce qui se voit de l'extérieur ne dit rien de ce qui se vit dedans.",
+        "Multiplier les excitants pour tenir : l'énergie empruntée se paie sur le sommeil de la nuit suivante."
+      ],
+      "consulter_si": "Consulter si : la fatigue s'accompagne de tristesse durable, de pleurs quotidiens, de perte d'appétit, d'insomnie même quand ton enfant dort, ou d'un sentiment de ne plus pouvoir continuer → en parler à ton médecin traitant, à la PMI, ou appeler le 3114, gratuit et joignable à toute heure. Une dépression post-partum peut apparaître ou se prolonger bien au-delà des premiers mois."
+    },
+    {
+      "categorie": "parent",
+      "situation": "La colère monte en moi / j'ai crié et je m'en veux",
+      "titre": "La colère du parent / sortir avant le débordement",
+      "explication": "La colère qui monte face à un tout-petit n'est pas un défaut d'amour : c'est un système d'alarme saturé. Manque de sommeil, bruit continu, sollicitation permanente, sentiment d'impuissance, tout cela réduit la capacité du cerveau à réguler l'émotion. Presque tous les parents connaissent ce moment, et beaucoup n'osent pas le dire. Crier ne fait pas de toi une mauvaise mère : ce qui compte, c'est ce que tu fais juste avant le débordement, et ce que tu répares juste après.",
+      "ancrage": "Tu as le droit de sortir de la pièce plutôt que de rester à tout prix. Poser ton enfant en sécurité et respirer est un geste de protection, pas un abandon.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : quand tu sens que ça monte",
+        "etapes": [
+          "Repérer le signal du corps : mâchoire serrée, cœur qui accélère, gorge nouée, c'est le moment d'agir.",
+          "Poser ton enfant en sécurité : dans son lit ou au sol dans une pièce sûre, même s'il pleure.",
+          "Sortir deux minutes : dans une autre pièce, sur le palier, dans la salle de bain, porte entrouverte.",
+          "Faire baisser la tension physiquement : eau froide sur les poignets et le visage, expiration longue, cinq fois.",
+          "Revenir et réparer : « j'ai crié, je suis désolée, ce n'est pas ta faute », d'une voix redevenue calme."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : faire redescendre ton propre système",
+        "etapes": [
+          "Ancrage par les pieds : sentir tes deux appuis au sol, poids réparti, dix secondes.",
+          "Pression sur ta paume : appuyer le pouce au centre de l'autre main, cercles lents, trente secondes par main.",
+          "Respiration en carré : inspirer, retenir, expirer, retenir, sur quatre temps chacun, cinq cycles.",
+          "Relâcher les épaules et la mâchoire : monter les épaules, puis les laisser tomber d'un coup, trois fois.",
+          "Se parler comme à une amie : « c'est une journée dure, je fais ce que je peux »."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Repérer tes heures à risque : la fin de journée et les nuits hachées reviennent dans presque tous les récits.",
+        "Convenir d'un signal avec le co-parent : un mot qui veut dire « prends le relais maintenant », sans discussion.",
+        "En parler à un professionnel : médecin traitant, psychologue, ou dispositif MonParcoursPsy sur avis médical.",
+        "Sortir de l'isolement : lieux d'accueil parents-enfants, PMI, groupes de parole, tout ce qui rompt le huis clos."
+      ],
+      "principe": "Un parent ne se contrôle pas mieux en se jugeant, il se régule mieux en s'arrêtant plus tôt. Ce que l'enfant retient sur la durée, ce n'est pas l'absence de cris, c'est la réparation qui suit et la fiabilité du lien.",
+      "erreurs_a_eviter": [
+        "Rester dans la pièce coûte que coûte : la tension monte au lieu de redescendre.",
+        "Garder ces moments secrets par honte : le silence isole et augmente le risque de recommencer.",
+        "Se promettre de ne plus jamais crier : la promesse impossible ajoute de la culpabilité au prochain épisode.",
+        "Attendre que la fatigue passe toute seule : sans relais ni sommeil, les débordements se rapprochent."
+      ],
+      "consulter_si": "Consulter si : tu as peur de tes propres gestes, si les cris deviennent quotidiens, si tu as des pensées qui t'effraient, ou si tu te sens au bord de perdre le contrôle → en parler sans attendre à ton médecin, à la PMI, ou appeler le 3114, gratuit et joignable à toute heure. Un bébé ou un jeune enfant ne doit jamais être secoué : quelques secondes de secousse peuvent provoquer des lésions cérébrales graves. En cas de doute après un geste brusque, appeler le 15.",
+      "source": "Source : prévention du syndrome du bébé secoué, Haute Autorité de santé ; mpedia.fr (AFPA)."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Couple mis de côté / une année sans nous",
+      "titre": "Le couple d'après / rouvrir un espace, même minuscule",
+      "explication": "Après un an, beaucoup de couples constatent qu'ils sont devenus une équipe logistique très efficace et deux personnes qui ne se parlent plus vraiment. Ce glissement est presque inévitable : la fatigue, l'organisation et la priorité donnée au bébé occupent tout l'espace disponible. S'y ajoute souvent un déséquilibre de charge, rarement dit, qui use plus que les tâches elles-mêmes. Reconnaître ce mouvement ne signale pas un couple en danger : c'est une étape très fréquente, et elle se travaille par de très petites choses.",
+      "ancrage": "Il n'y a personne à blâmer dans ce glissement, et il ne se répare pas en une grande conversation. Vous pouvez rouvrir un espace minuscule, mais réel.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : cette semaine",
+        "etapes": [
+          "Poser dix minutes ensemble : une fois dans la semaine, téléphones dans une autre pièce.",
+          "Interdire un seul sujet : pendant ces dix minutes, ni logistique, ni planning, ni enfant.",
+          "Commencer par une question ouverte : « qu'est-ce qui t'a traversé cette semaine, toi ».",
+          "Écouter sans réparer : l'autre parle, tu dis « j'ai entendu », sans solution ni contre-argument.",
+          "Nommer une chose que l'autre a faite : un merci précis vaut mieux qu'un compliment général."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : le minimum vital de contact",
+        "etapes": [
+          "Une main posée, une minute : un soir dans la semaine, sans rien dire, juste la présence.",
+          "Se tenir debout dos à dos : sentir la respiration de l'autre pendant quelques cycles.",
+          "Toucher des mains : presser la paume de l'autre, doigt après doigt, sans commentaire.",
+          "Respirer au même rythme : caler ton souffle sur le sien pendant une minute.",
+          "S'arrêter là : le rituel est court par construction, il ne demande aucune énergie supplémentaire."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Rendre visible la charge invisible : lister qui pense à quoi, pas seulement qui fait quoi.",
+        "Poser une sortie au calendrier : une fois par mois, garde organisée à l'avance, première heure sans parler de l'enfant.",
+        "Accepter le déséquilibre temporaire : sur certaines périodes, l'un porte plus, à condition que ce soit dit et reconnu.",
+        "Consulter à deux si le dialogue est bloqué : conseil conjugal ou accompagnement de couple, avant que le silence s'installe."
+      ],
+      "principe": "Un couple parental se répare par la fréquence, pas par l'intensité. Dix minutes chaque semaine tiennent mieux qu'un week-end en amoureux prévu dans six mois et sans cesse repoussé.",
+      "erreurs_a_eviter": [
+        "Attendre d'avoir le temps et l'énergie : ce moment n'arrive pas tout seul, il se pose dans l'agenda.",
+        "Régler les comptes pendant les dix minutes : le rendez-vous devient un tribunal et personne ne le reprend.",
+        "Parler organisation en croyant parler du couple : la logistique occupe la place et rien ne se dit vraiment.",
+        "Attendre que l'autre devine le déséquilibre : ce qui n'est pas nommé reste invisible pour celui qui ne le porte pas."
+      ],
+      "consulter_si": "Consulter si : la communication est rompue depuis plusieurs mois, si les disputes deviennent quotidiennes devant l'enfant, si l'un de vous se sent constamment rabaissé, ou en cas de violence verbale ou physique → en parler à un professionnel. Pour les violences au sein du couple, le 3919 est gratuit et anonyme ; en cas de danger immédiat, appeler le 17."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Comparaison aux autres enfants / le leur marche déjà",
+      "titre": "La comparaison / désamorcer le classement des jalons",
+      "explication": "Autour d'un an, les écarts entre enfants deviennent spectaculaires : l'un marche, l'autre rampe encore, un troisième dit trois mots quand le tien n'en dit aucun. C'est la période où les acquisitions sont les plus visibles et les plus commentées, dans la famille comme dans les groupes de parents. Ces écarts ne prédisent rien : la fourchette normale est large pour la marche comme pour le langage, et l'ordre d'arrivée des compétences n'annonce ni le niveau ni les capacités futures. Ce qui se compare facilement est justement ce qui compte le moins.",
+      "ancrage": "L'inquiétude que tu ressens est une inquiétude de parent attentif, pas un signal sur ton enfant. Tu peux la reconnaître sans la laisser diriger ton quotidien.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : quand la comparaison serre le ventre",
+        "etapes": [
+          "Nommer ce qui se passe en toi : « je compare, et cela m'angoisse », plutôt que de ruminer en silence.",
+          "Ramener le regard sur ton enfant : noter trois choses qu'il sait faire aujourd'hui et qu'il ne savait pas le mois dernier.",
+          "Vérifier les vrais repères plutôt que les récits : les fourchettes officielles sont bien plus larges que les conversations.",
+          "Couper court aux remarques : « chaque enfant a son rythme », répété calmement, suffit à clore le sujet.",
+          "Mettre à distance ce qui alimente : les comptes de réseaux sociaux qui serrent le ventre peuvent être mis en sourdine."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : revenir à ton enfant réel",
+        "etapes": [
+          "Dix minutes au sol avec lui : sans téléphone, sans objectif, à son rythme.",
+          "Le regarder faire sans intervenir : observer ce qu'il tente, comment il s'y prend, ce qui l'occupe.",
+          "Contact des mains : envelopper ses mains dans les tiennes quelques instants.",
+          "Respirer lentement à côté de lui : ton calme est perceptible, ton inquiétude aussi.",
+          "Terminer par un mot vrai : dire tout haut une chose que tu aimes chez lui, aujourd'hui."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Utiliser les visites de suivi : le professionnel qui le connaît vérifie les repères mieux que n'importe quelle comparaison.",
+        "Tenir un carnet des progrès : relire trois mois en arrière est le meilleur remède au sentiment de stagnation.",
+        "Choisir tes conversations : certains groupes de parents rassurent, d'autres alimentent la course.",
+        "Poser tes questions plutôt que les garder : une inquiétude formulée à un professionnel se lève souvent en une phrase."
+      ],
+      "principe": "Les jalons du développement sont des fourchettes, pas un classement. Un enfant se compare utilement à lui-même il y a trois mois, jamais à l'enfant d'à côté.",
+      "erreurs_a_eviter": [
+        "Chercher des réponses dans les forums la nuit : l'inquiétude grandit avec la fatigue et les récits extrêmes.",
+        "Stimuler davantage pour rattraper : l'enfant sent la pression et la relation se tend sans que rien n'avance.",
+        "Répéter devant lui qu'il est en retard : les mots des adultes construisent l'image qu'il a de lui.",
+        "Attendre la prochaine visite avec une vraie inquiétude en tête : un rendez-vous se demande quand la question est là."
+      ],
+      "consulter_si": "Consulter si : ton enfant ne se déplace d'aucune façon, ne se met pas debout avec appui, ne réagit pas à son prénom, ne pointe rien à 15 mois, ou s'il perd une capacité acquise → en parler au pédiatre. Ce sont les seuls repères qui demandent une vérification, le reste relève des variations normales entre enfants."
+    }
+  ]
+}

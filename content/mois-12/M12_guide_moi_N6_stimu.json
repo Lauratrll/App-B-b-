@@ -1,0 +1,193 @@
+{
+  "mois": 12,
+  "tranche_age": "12 mois",
+  "categorie": {
+    "id": "stimu",
+    "nom": "Sur-stimulation",
+    "sous_titre": "Anniversaire, écrans en fond, retour de garde, trop de jouets",
+    "icone": "✨"
+  },
+  "protocoles": [
+    {
+      "categorie": "stimu",
+      "situation": "Saturé le jour de son anniversaire / trop de monde et de cadeaux",
+      "titre": "La fête d'un an / une journée à sa mesure",
+      "explication": "Un premier anniversaire réunit beaucoup de monde, de bruit, de mains qui se tendent et de visages penchés au-dessus de lui. Ton enfant, lui, dispose d'un système nerveux qui ne filtre pas encore : tout entre en même temps, sans tri possible. Passé un certain seuil, il ne peut plus traiter, et cela ressort en pleurs, en agitation, ou par un retrait soudain. Cette réaction ne gâche pas la fête, elle en fait partie. Ce sont les repères habituels de la journée qui l'aident le plus à tenir.",
+      "ancrage": "La fête est d'abord pour les adultes, et c'est très bien ainsi. Tu peux la vivre pleinement en gardant un œil sur les signaux qu'il t'envoie.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : quand il commence à déborder",
+        "etapes": [
+          "Repérer les premiers signes : regard qui fuit, agitation des mains, cris aigus, frottement des yeux.",
+          "L'extraire du groupe : une pièce à part, lumière basse, une seule personne avec lui.",
+          "Réduire les stimulations d'un coup : couper la musique, ranger les cadeaux ouverts, écarter les conversations.",
+          "Le garder contre toi : le contact vertical et immobile fait redescendre plus vite que n'importe quelle distraction.",
+          "Écourter sans culpabilité : coucher, ou repartir plus tôt, sont des décisions légitimes."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : la bulle de récupération",
+        "etapes": [
+          "S'isoler quelques minutes : à l'écart du bruit, assis, lui contre toi.",
+          "Main large et immobile sur son dos : pression douce et constante, sans bercer ni tapoter.",
+          "Souffle lent et audible : ralentir ta respiration lui donne un rythme à suivre.",
+          "Peu de mots, ou aucun : le silence fait partie du soin à ce moment précis.",
+          "Attendre son signal pour revenir : quand il redresse la tête et regarde autour, la bulle a fait son travail."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Fêter en petit comité : à un an, quelques personnes suffisent, la mémoire de l'événement est celle des adultes.",
+        "Caler l'horaire sur son rythme : après la sieste, sur une durée courte, plutôt qu'en fin de journée.",
+        "Prévenir les invités : on laisse l'enfant venir de lui-même plutôt que de se le passer de bras en bras.",
+        "Prévoir un lieu de repli : une pièce calme identifiée à l'avance, avec son doudou et de quoi le coucher."
+      ],
+      "principe": "Un tout-petit ne se fatigue pas seulement de ce qu'il fait, mais de tout ce qu'il reçoit. Réduire le nombre de sources de stimulation agit toujours plus vite que d'ajouter quelque chose pour le calmer.",
+      "erreurs_a_eviter": [
+        "Le faire passer de bras en bras pour le montrer : la succession d'odeurs et de visages accélère la surcharge.",
+        "Le réveiller pour l'ouverture des cadeaux : un enfant sorti de sa sieste ne dispose d'aucune réserve.",
+        "Chanter et applaudir tout près de son visage : le volume et la proximité suffisent à déclencher les pleurs.",
+        "Enchaîner la fête et une autre sortie le même jour : la récupération demande autant de temps que la stimulation."
+      ],
+      "consulter_si": "Consulter si : ton enfant hurle dès qu'il entre dans un lieu bruyant, se bouche les oreilles de façon systématique, met plusieurs heures à récupérer après chaque événement, ou évite tout contact visuel avec les personnes qui l'approchent → en parler au pédiatre, qui pourra orienter vers un psychomotricien ou un ergothérapeute spécialisé en intégration sensorielle."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "Télévision allumée en fond / il décroche et s'agite",
+      "titre": "L'écran en bruit de fond / ce qu'il prend à la place",
+      "explication": "Un écran allumé dans la pièce capte l'attention de ton enfant même quand il ne le regarde pas : les mouvements rapides et les changements de son attirent son regard toutes les quelques secondes. Son jeu se hache, son attention se fragmente, et l'agitation monte. Le fond sonore recouvre aussi la voix humaine, celle qui nourrit son langage. Les repères français sont clairs sur ce point : avant trois ans, les écrans n'apportent rien au développement, et le bruit de fond compte autant que le temps passé devant.",
+      "ancrage": "Il ne s'agit pas de discipline mais d'organisation, et personne ne vit sans fatigue ni besoin de souffler. Tu peux changer ce qu'il y a autour de l'écran plutôt que de lutter contre lui.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : reprendre la main",
+        "etapes": [
+          "Éteindre plutôt que baisser : un écran allumé en fond capte l'attention même sans être regardé.",
+          "Remplacer par du son choisi : musique douce ou radio parlée, qui n'appelle pas le regard.",
+          "Annoncer la fin avant de couper : « encore un peu et on éteint », puis le faire vraiment.",
+          "Proposer un relais concret : une activité à deux dans la minute qui suit, plutôt qu'un jouet posé seul.",
+          "Poser ton propre téléphone pendant les repas et les jeux : ton écran capte aussi son attention."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : réoccuper le corps",
+        "etapes": [
+          "Proposer un temps de contact juste après : dix minutes au sol, à sa hauteur.",
+          "Toucher enveloppant sur les bras et les jambes : paume entière, pression douce et constante.",
+          "Jeux de mains et de doigts : comptines gestuelles qui ramènent l'attention dans le corps.",
+          "Regard et voix : nommer ce que vous faites, redonner sa place à l'échange.",
+          "Terminer par le mouvement : le laisser repartir explorer dès qu'il en a envie."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Créer des zones sans écran : la table des repas et la chambre restent hors de portée.",
+        "Anticiper les moments de creux : trajets, attente, préparation du repas, prévoir un petit sac d'objets simples.",
+        "Se mettre d'accord entre adultes : une règle qui varie d'une pièce à l'autre ne tient jamais longtemps.",
+        "Informer les proches : les grands-parents ignorent souvent que les recommandations françaises ont changé."
+      ],
+      "principe": "Avant trois ans, un enfant apprend par ce qu'il touche, manipule et partage avec un adulte. Un écran occupe l'attention sans nourrir aucune de ces trois voies : le problème n'est pas ce qu'il montre, c'est ce qu'il remplace.",
+      "erreurs_a_eviter": [
+        "Utiliser l'écran pour faire manger : l'enfant ne perçoit plus ce qu'il mange ni le moment où il n'a plus faim.",
+        "S'en servir pour calmer une crise : la tension disparaît de la surface sans avoir été traversée.",
+        "Compter sur les contenus éducatifs : avant trois ans, aucun contenu ne remplace un échange avec un adulte.",
+        "Rallumer dès qu'il proteste : la protestation est vive et brève, elle ne remet pas la décision en cause."
+      ],
+      "consulter_si": "Consulter si : ton enfant ne réagit plus quand on lui parle, ne cherche plus le contact visuel, s'oppose violemment à l'arrêt de l'écran au point que le quotidien en dépende, ou si son langage et son jeu semblent stagner → en parler au pédiatre lors de la prochaine visite.",
+      "source": "Source : recommandations françaises sur l'exposition aux écrans avant 3 ans, Santé publique France ; Haut Conseil de la santé publique."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "Craque au retour de crèche / décharge dès la porte franchie",
+      "titre": "Le retour de garde / le sas qui absorbe la décharge",
+      "explication": "Toute la journée, ton enfant s'est adapté : du bruit, d'autres enfants, des adultes qui ne sont pas toi, un rythme collectif. Il a tenu, et tenir demande énormément d'énergie à un an. En franchissant la porte, il retrouve l'endroit et la personne où il peut enfin lâcher. La décharge sort d'un coup, en pleurs ou en agitation, souvent avant même d'avoir enlevé le manteau. Ce n'est pas le signe d'une mauvaise journée : c'est le signe que tu es sa base de sécurité.",
+      "ancrage": "Cette décharge n'est pas dirigée contre toi et ne juge pas ta journée. Tu peux la recevoir plutôt que d'essayer de l'arrêter.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : les dix premières minutes",
+        "etapes": [
+          "Enlever le manteau et s'asseoir au sol : dix minutes sans rien d'autre à faire.",
+          "Accueillir les pleurs sans les questionner : « je suis là, ta journée a été longue ».",
+          "Baisser le niveau sonore : pas de télévision, pas de conversation téléphonique, lumière douce.",
+          "Reporter tout le reste : courses, repas et bain attendent la fin du sas.",
+          "Laisser repartir quand il le décide : le sas se termine quand il se lève et part jouer."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : le contact qui absorbe",
+        "etapes": [
+          "S'installer au sol contre toi : sa tête posée, ton dos calé, rien à tenir.",
+          "Paume large et immobile sur son dos : présence chaude, sans mouvement.",
+          "Balayage lent le long du dos : de la nuque vers le bas, quelques passages réguliers.",
+          "Respiration audible : ton souffle donne le rythme du retour au calme.",
+          "Alléger quand il se détend : retirer la main progressivement, sans rupture."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Préparer le repas la veille : les vingt minutes gagnées sont exactement celles qui comptent.",
+        "Créer un rituel de retrouvailles : la même chanson dans la voiture, le même livre en rentrant.",
+        "Écourter les transmissions sur place : demander l'essentiel et le reste par message.",
+        "Alléger les fins de journée : une soirée sans course ni visite pendant les semaines de reprise."
+      ],
+      "principe": "Un enfant se relâche là où il se sent le plus en sécurité. La décharge du soir ne mesure pas la difficulté de sa journée, elle mesure la confiance qu'il a en toi pour la déposer.",
+      "erreurs_a_eviter": [
+        "Enchaîner directement bain et repas : la journée s'allonge au moment où il n'a plus de réserve.",
+        "Lui demander de raconter sa journée : à cet âge, la question ajoute une charge sans apporter de réponse.",
+        "Se sentir jugée par la crise du couloir : elle survient précisément parce qu'il est enfin en sécurité.",
+        "Compenser par un cadeau ou un écran : le besoin du moment est le contact, pas la nouveauté."
+      ],
+      "consulter_si": "Consulter si : ton enfant paraît éteint ou triste plusieurs jours de suite, s'il refuse de boire et de manger sur son lieu de garde, s'il régresse nettement à la maison sur le sommeil et l'alimentation, ou s'il ne se console avec personne → en parler avec l'équipe et avec le pédiatre ou la PMI."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "Trop de jouets devant lui / il passe de l'un à l'autre",
+      "titre": "Le trop-plein de jouets / restaurer une attention éparpillée",
+      "explication": "Face à trente jouets étalés au sol, ton enfant ne voit pas trente possibilités : il voit un environnement dont il ne peut pas faire le tri. Son attention est encore courte et très sensible à la nouveauté, si bien que chaque objet dans son champ de vision l'appelle avant qu'il ait fini d'explorer le précédent. Il papillonne, s'énerve, finit par tout renverser. Avec moins d'objets accessibles, il joue plus longtemps avec chacun, invente davantage, et s'apaise de lui-même.",
+      "ancrage": "Ce n'est pas une attention à corriger, c'est un environnement à alléger. Ce que tu retires lui rend de la disponibilité.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : alléger l'espace",
+        "etapes": [
+          "Ranger la majorité des jouets : n'en laisser que six à huit accessibles, le reste hors de vue.",
+          "Présenter les objets posés, pas empilés : ce qui se voit entièrement s'attrape et se repose plus facilement.",
+          "S'asseoir près de lui sans diriger : ta présence tranquille prolonge son temps de jeu.",
+          "Nommer ce qu'il fait plutôt que de proposer autre chose : « tu as mis le cube dedans », et il continue.",
+          "Ranger ensemble à la fin : une caisse, une chanson, toujours le même geste de clôture."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : recentrer avant de jouer",
+        "etapes": [
+          "Marquer un temps d'arrêt : deux minutes assis avec lui avant d'ouvrir le coin jeu.",
+          "Presser la pulpe de chaque doigt : un doigt après l'autre, pression brève et douce.",
+          "Envelopper ses mains dans les tiennes : quelques instants, paume contre paume.",
+          "Ralentir ta voix et tes gestes : le rythme de l'adulte donne le rythme du jeu qui suit.",
+          "Le laisser partir de lui-même : il choisit son premier objet, tu ne le choisis pas pour lui."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Faire tourner les jouets : changer le panier toutes les deux ou trois semaines redonne de la nouveauté sans rien acheter.",
+        "Ouvrir aux objets du quotidien : boîtes, cuillères en bois et foulards sont souvent plus riches que les jouets sonores.",
+        "Éteindre les jouets à musique et lumières : ils occupent l'enfant au lieu de le laisser agir.",
+        "Prévenir la famille avant les fêtes : proposer une idée précise évite l'accumulation d'objets peu utilisés."
+      ],
+      "principe": "La concentration d'un tout-petit dépend surtout de ce qui l'entoure. Moins d'objets visibles, plus de temps sur chacun : c'est l'environnement qui construit l'attention, bien avant la volonté de l'enfant.",
+      "erreurs_a_eviter": [
+        "Ajouter un jouet dès qu'il s'ennuie : l'ennui précède souvent l'invention, il vaut la peine d'être laissé.",
+        "Tout laisser accessible en permanence : l'abondance supprime l'effet de découverte.",
+        "Intervenir dès qu'il bute sur une difficulté : la solution donnée trop vite interrompt son exploration.",
+        "Multiplier les jouets sonores en pensant l'éveiller : le bruit prend la place que devrait occuper son propre jeu."
+      ],
+      "consulter_si": "Consulter si : ton enfant ne s'arrête sur aucune activité, même quelques secondes, s'il ne regarde jamais ce que tu lui montres, s'il répète sans fin le même geste sans variation, ou s'il ne joue à rien avec toi → en parler au pédiatre lors de la prochaine visite de suivi."
+    }
+  ]
+}

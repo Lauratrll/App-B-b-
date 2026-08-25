@@ -1,0 +1,195 @@
+{
+  "mois": 12,
+  "tranche_age": "12 mois",
+  "categorie": {
+    "id": "langage",
+    "nom": "Langage & communication",
+    "sous_titre": "Premiers mots, prénom, pointage, compréhension",
+    "icone": "💬"
+  },
+  "protocoles": [
+    {
+      "categorie": "langage",
+      "situation": "Aucun mot à 12 mois / seulement des babillages",
+      "titre": "Les premiers mots / ce qui se construit avant eux",
+      "explication": "Les premiers mots apparaissent le plus souvent entre 10 et 18 mois : à 12 mois, beaucoup d'enfants n'en produisent aucun, et cela reste dans la norme. Avant de parler, ton enfant construit tout ce qui rend la parole possible : il comprend des consignes simples, réagit à son prénom, babille avec des sons variés, tend les bras, cherche ton regard pour partager une découverte. La compréhension prend toujours plusieurs mois d'avance sur la production. Ce sont ces signes, bien plus que le nombre de mots, qui disent que le langage est en route.",
+      "ancrage": "Ce que tu observes compte plus que ce que tu comptes. Repère ce qu'il comprend et ce qu'il cherche à te dire autrement : c'est là que se voit le langage qui vient.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : nourrir la parole aujourd'hui",
+        "etapes": [
+          "Se mettre face à lui : à sa hauteur, visage visible, il a besoin de voir ta bouche bouger.",
+          "Nommer ce qu'il regarde : dire le mot de l'objet qu'il fixe, au moment où il le fixe.",
+          "Parler court et vrai : des phrases simples, « c'est le chien » plutôt que « le ouah-ouah ».",
+          "Laisser un silence après avoir parlé : ce blanc de quelques secondes est l'espace où il tente sa réponse.",
+          "Accueillir toute production : un son, une syllabe, un geste, on répond comme à un vrai message."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : éveiller la sphère de la bouche",
+        "etapes": [
+          "Choisir un temps calme et disponible : après le bain, en face à face, en dehors des repas.",
+          "Zone du gros orteil : sa base correspond à la zone gorge, appui léger et maintenu quelques secondes.",
+          "Pulpe des orteils : parcourir un à un les autres orteils, lentement, en nommant ce que tu fais.",
+          "Alterner avec ta voix : parler pendant le geste associe le contact et le son.",
+          "S'arrêter s'il retire son pied : le geste reste un plaisir partagé, pas un exercice."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Lire chaque jour : imagiers et livres à volets nourrissent le vocabulaire bien avant la première parole.",
+        "Chanter les mêmes comptines : la répétition mélodique et les gestes associés portent les premiers mots.",
+        "Réduire le bruit de fond : télévision et radio en continu masquent la voix humaine dont il a besoin.",
+        "Garder du temps en face à face : dix minutes d'échange à deux valent mieux qu'une heure de sollicitations."
+      ],
+      "principe": "Le langage se construit dans l'échange à deux, pas dans l'exposition aux mots. Un enfant apprend à parler parce que quelqu'un lui répond, pas parce qu'il entend beaucoup de vocabulaire autour de lui.",
+      "erreurs_a_eviter": [
+        "Lui faire répéter un mot pour l'obtenir : la pression bloque plus souvent la parole qu'elle ne la déclenche.",
+        "Devancer toutes ses demandes : un enfant dont tout est anticipé n'a aucune raison de chercher à demander.",
+        "Comparer aux enfants du même âge : l'écart entre deux enfants peut atteindre plusieurs mois sans rien signifier.",
+        "Employer un langage déformé en pensant simplifier : il devra désapprendre le mot avant de l'apprendre."
+      ],
+      "consulter_si": "Consulter si : ton enfant ne réagit pas à son prénom, ne se retourne pas vers les bruits, ne babille pas du tout, ne pointe rien et ne cherche pas ton regard à 12 mois → demander un examen de l'audition et en parler au pédiatre. Un bilan auditif est possible à tout âge, y compris chez le nourrisson.",
+      "source": "Source : repères de développement du langage et dépistage auditif du jeune enfant, mpedia.fr (AFPA) ; Haute Autorité de santé."
+    },
+    {
+      "categorie": "langage",
+      "situation": "Ne répond pas à son prénom / le bilan auditif des 12 mois",
+      "titre": "Le prénom sans réponse / le seul repère vraiment ferme",
+      "explication": "Vers un an, un enfant se retourne quand on l'appelle par son prénom, même occupé à autre chose. C'est l'un des rares repères qui ne souffre pas d'attente : il ne dépend ni du caractère ni du rythme personnel, mais de l'audition et de l'attention. Une absence de réaction répétée peut venir d'une baisse d'audition passagère, souvent liée à du liquide derrière le tympan après des rhumes à répétition, ou d'une difficulté durable. Dans les deux cas, un examen simple et indolore permet de savoir, et il existe à tout âge.",
+      "ancrage": "Faire vérifier l'audition n'est pas dramatiser, c'est écarter une question en quelques jours. Une audition bien entendue est le socle sur lequel les mots vont s'installer.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : observer avant le rendez-vous",
+        "etapes": [
+          "Tester hors de son champ de vision : l'appeler doucement depuis l'arrière, sans toucher ni bouger d'objet.",
+          "Varier les sons : voix douce, voix forte, clochette, papier froissé, pour voir ce qui le fait réagir.",
+          "Observer les autres canaux : est-ce qu'il se retourne au claquement de porte, à la voix de la télévision.",
+          "Noter ce que tu constates : sur trois jours, quelques lignes suffisent à donner une image fiable au médecin.",
+          "Prendre rendez-vous sans attendre : le pédiatre ou le médecin traitant oriente vers l'examen adapté."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : accompagner la sphère des oreilles",
+        "etapes": [
+          "Choisir un moment calme : allongé contre toi, pieds accessibles, sans bruit autour.",
+          "Base des orteils, côté externe : parcourir doucement cette ligne, plusieurs passages lents.",
+          "Zone des petits orteils : appui léger et maintenu quelques secondes sur chacun.",
+          "Terminer par un balayage de la voûte : du talon vers les orteils, pression douce et constante.",
+          "S'arrêter à sa demande : ce geste accompagne le confort, il ne remplace aucun examen."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Rassembler l'historique : nombre de rhumes, épisodes d'otite, ronflements, tout cela intéresse le professionnel.",
+        "Poser la question à la visite du douzième mois : elle comporte déjà un temps consacré à l'audition et au langage.",
+        "Continuer à parler normalement : même en attendant le résultat, le bain de langage garde toute son utilité.",
+        "Informer le lieu de garde : l'équipe observe l'enfant dans un autre environnement sonore et complète l'information."
+      ],
+      "principe": "Certains repères se rattrapent tranquillement, celui-ci se vérifie. Une audition contrôlée tôt évite des mois de retard sur le langage, et le plus souvent l'examen se termine par une bonne nouvelle.",
+      "erreurs_a_eviter": [
+        "Se rassurer parce qu'il réagit aux vibrations : sentir un pas dans le sol n'est pas entendre.",
+        "Attendre les 18 mois pour en parler : ce repère précis se vérifie dès qu'il interroge.",
+        "Conclure au caractère : « il est dans son monde » ou « il est têtu » retarde la vérification.",
+        "Hausser fortement la voix au quotidien : cela masque le doute au lieu de le lever."
+      ],
+      "consulter_si": "Consulter si : ton enfant ne réagit pas à son prénom, ne se retourne pas vers un bruit soudain, ne babille plus alors qu'il babillait, ou s'il enchaîne les rhumes avec un sommeil bruyant → en parler au pédiatre ou au médecin traitant, qui demandera un examen de l'audition et orientera si besoin vers un ORL.",
+      "source": "Source : dépistage des troubles de l'audition chez l'enfant et repères des visites obligatoires, Haute Autorité de santé ; mpedia.fr (AFPA)."
+    },
+    {
+      "categorie": "langage",
+      "situation": "Crie pour demander / au lieu de montrer du doigt",
+      "titre": "Le cri pour demander / installer le pont des gestes",
+      "explication": "À 12 mois, ton enfant sait ce qu'il veut mais ne dispose d'aucun mot pour le dire. Le cri est l'outil le plus rapide et le plus efficace dont il dispose : il fonctionne, donc il le garde. Le pointage du doigt, lui, apparaît le plus souvent entre 10 et 15 mois et change tout : il permet de montrer, puis de partager une découverte en cherchant ton regard. C'est ce va-et-vient entre l'objet et toi qui prépare les mots. Le cri diminue à mesure que ce pont se construit.",
+      "ancrage": "Tu peux entendre la demande sans encourager le cri. Réponds au besoin, en offrant en même temps le geste qui remplacera le cri demain.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : au moment où il crie",
+        "etapes": [
+          "Baisser ta propre voix : plus tu parles bas, plus il baisse le volume pour t'entendre.",
+          "Venir près de lui : répondre depuis l'autre pièce l'oblige à crier plus fort.",
+          "Nommer la demande et pointer : « tu veux de l'eau », en montrant le verre du doigt.",
+          "Faire le geste juste avant de donner : montrer, ou faire le signe, puis tendre l'objet.",
+          "Donner sans exiger la performance : il n'a pas à réussir le geste pour obtenir ce dont il a besoin."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : réveiller la main qui montre",
+        "etapes": [
+          "Prendre sa main dans la tienne : paume ouverte, sans forcer aucun doigt.",
+          "Presser la pulpe de chaque doigt : quelques secondes par doigt, en le regardant.",
+          "Terminer par l'index : appui léger sur la dernière phalange, celle qui sert à montrer.",
+          "Jouer les comptines à doigts : les jeux de mains réveillent la motricité fine en riant.",
+          "Lâcher dès qu'il retire sa main : on ne guide pas un doigt de force vers un objet."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Pointer souvent devant lui : l'index de l'adulte, suivi d'un regard vers l'enfant, est le meilleur modèle du geste.",
+        "Installer trois signes utiles : « encore », « fini », « à boire », proposés de la même façon par tous les adultes.",
+        "Mettre l'essentiel à sa portée : quelques jouets accessibles réduisent d'autant les appels à l'aide.",
+        "Lire des imagiers en montrant : le doigt posé sur l'image donne au pointage une occasion quotidienne."
+      ],
+      "principe": "Un enfant abandonne un moyen de communication quand un autre marche aussi bien et coûte moins d'effort. Ce n'est donc pas le cri qu'on éteint, c'est le canal de remplacement qu'on rend disponible.",
+      "erreurs_a_eviter": [
+        "Répondre plus fort que lui : l'enfant apprend que le volume est la bonne réponse à une demande.",
+        "Attendre volontairement qu'il se taise pour répondre : la demande n'est pas encore négociable à cet âge.",
+        "Exiger le mot ou le signe avant de donner : la contrainte transforme la communication en épreuve.",
+        "Manipuler son doigt pour lui apprendre à pointer : le geste imposé ne devient pas une intention."
+      ],
+      "consulter_si": "Consulter si : ton enfant ne pointe pas et ne montre rien d'aucune manière à 15 mois, s'il ne suit pas du regard ce que tu montres, s'il ne partage jamais un regard de plaisir avec toi, ou s'il ne réagit pas à son prénom → en parler au pédiatre sans attendre. Ces signes justifient une évaluation, ils ne concluent rien à eux seuls.",
+      "source": "Source : signes d'alerte du développement de la communication chez le jeune enfant, mpedia.fr (AFPA) ; Haute Autorité de santé."
+    },
+    {
+      "categorie": "langage",
+      "situation": "Comprend tout sans rien dire / écart entre comprendre et parler",
+      "titre": "Comprendre avant de parler / un décalage normal",
+      "explication": "Ton enfant va chercher ses chaussures quand tu le lui demandes, il ferme la porte, il regarde le chien quand tu le nommes, et pourtant il ne dit rien. Cet écart est la règle et non l'exception : à 12 mois, la compréhension a plusieurs mois d'avance sur la production. Comprendre demande de reconnaître une forme sonore ; parler demande en plus de coordonner souffle, langue, lèvres et mémoire du mot. Ce stock de mots compris se remplit en silence pendant des mois, puis se déverse souvent d'un coup entre 18 et 24 mois.",
+      "ancrage": "Ce silence n'est pas un vide, c'est un stock qui se constitue. Tu peux continuer à lui parler comme s'il te répondait déjà.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : nourrir la production",
+        "etapes": [
+          "Nommer lentement et une seule fois : un mot détaché, prononcé clairement, vaut mieux qu'une phrase répétée.",
+          "Créer de petits manques : poser le doudou en vue et hors d'atteinte donne une raison de demander.",
+          "Proposer un choix concret : présenter deux objets et attendre qu'il désigne celui qu'il veut.",
+          "Reprendre ce qu'il produit en le complétant : à un son « ba », répondre « oui, le ballon ».",
+          "Laisser le silence faire son travail : trois secondes d'attente après ta phrase ouvrent la porte à sa tentative."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : le face-à-face qui fait parler",
+        "etapes": [
+          "S'installer genoux contre genoux : assis au sol, à la même hauteur, sans jouet entre vous.",
+          "Poser tes mains ouvertes sur ses genoux : contact léger et stable pendant l'échange.",
+          "Suivre son regard : regarder ce qu'il regarde avant de parler de ce qu'il regarde.",
+          "Marquer les silences : compter trois secondes intérieurement avant de reprendre la parole.",
+          "Terminer sur son initiative : quand il se lève et part jouer, l'échange s'arrête là."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Commenter le quotidien : décrire les gestes du bain, du repas et de l'habillage donne des mots à des situations vécues.",
+        "Raconter les mêmes livres : la répétition d'un même imagier installe le vocabulaire plus vite que la nouveauté.",
+        "Noter les mots compris : la liste de ce qu'il exécute sans geste d'aide rassure et sert aux visites de suivi.",
+        "Prévenir l'entourage : les proches qui parlent à sa place ralentissent l'occasion de produire."
+      ],
+      "principe": "La compréhension précède toujours la production, et l'écart entre les deux est normal pendant des mois. Ce qui fait avancer un enfant silencieux n'est pas la sollicitation, c'est le nombre d'occasions qu'il a de vouloir dire quelque chose.",
+      "erreurs_a_eviter": [
+        "Multiplier les questions fermées : « c'est quoi ça » place l'enfant en évaluation plutôt qu'en échange.",
+        "Répéter le mot dix fois d'affilée : la répétition insistante brouille le repère sonore.",
+        "Anticiper chaque besoin avant qu'il ne le manifeste : l'occasion de communiquer disparaît.",
+        "Interpréter le silence comme un manque d'intelligence : c'est souvent l'inverse qui se joue."
+      ],
+      "consulter_si": "Consulter si : ton enfant ne comprend aucune consigne simple à 15 mois, s'il ne réagit pas à son prénom, s'il a cessé de babiller alors qu'il babillait, ou s'il ne partage jamais son attention avec toi → en parler au pédiatre, qui pourra demander un examen de l'audition et orienter vers un orthophoniste."
+    }
+  ]
+}

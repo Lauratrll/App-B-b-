@@ -1,0 +1,194 @@
+{
+  "mois": 12,
+  "tranche_age": "12 mois",
+  "categorie": {
+    "id": "alim",
+    "nom": "Alimentation",
+    "sous_titre": "Sevrage du biberon, lait de croissance, repas partagés",
+    "icone": "🥣"
+  },
+  "protocoles": [
+    {
+      "categorie": "alim",
+      "situation": "Refus du biberon du matin / on parle de sevrage",
+      "titre": "Le biberon du matin / accompagner la fin en douceur",
+      "explication": "Vers un an, le biberon perd peu à peu sa place de repas pour devenir un moment de réconfort. Quand ton enfant le refuse le matin, c'est souvent que la faim se déplace vers les aliments solides, alors que le besoin de succion et de câlin, lui, reste présent. Les deux besoins se séparent, et c'est ce décalage qui déroute. Il n'existe pas d'âge obligatoire pour arrêter : les repères français situent la transition vers le verre entre un an et deux ans, avec de grandes variations d'un enfant à l'autre.",
+      "ancrage": "Le refus du matin est une information, pas un problème à résoudre dans la journée. Tu peux suivre son rythme et garder le câlin même quand le biberon s'en va.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : au petit déjeuner",
+        "etapes": [
+          "Proposer sans insister : présenter le biberon, accepter le refus, passer à la suite sans commentaire.",
+          "Offrir la même chose autrement : du lait dans un verre à bec ou un petit verre, posé près de son assiette.",
+          "Compléter par du solide : pain, fruit, produit laitier adapté, pour que le matin reste un vrai repas.",
+          "Garder le temps de câlin : le moment de proximité se poursuit, séparé du contenu du biberon.",
+          "Observer sur la semaine : c'est la tendance sur plusieurs jours qui compte, pas un matin isolé."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : garder le lien du moment lacté",
+        "etapes": [
+          "S'installer comme avant : même fauteuil, même position, même lumière du matin.",
+          "Contact large et immobile : une main à plat sur son dos pendant qu'il boit ou mange.",
+          "Voix posée et rythme lent : le calme du moment compte plus que ce qui est avalé.",
+          "Laisser sa main libre : il touche ton visage, tes cheveux, il se rassure autrement que par la succion.",
+          "Terminer quand il se détache : c'est lui qui donne le signal de fin."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Avancer d'un biberon à la fois : commencer par celui qui compte le moins pour lui, en général celui du matin.",
+        "Proposer le verre en journée : hors des moments de faim, la nouveauté s'apprivoise mieux.",
+        "Choisir une période calme : reporter la transition pendant une poussée dentaire, une maladie ou une entrée en garde.",
+        "En parler au suivi médical : le pédiatre ou la PMI ajustent les quantités et rassurent sur les apports."
+      ],
+      "principe": "Le biberon s'en va par le contenu bien avant de s'en aller par le contenant. Tant que le réconfort trouve une autre forme, l'enfant lâche l'objet de lui-même, souvent sans qu'on ait à le lui retirer.",
+      "erreurs_a_eviter": [
+        "Supprimer tous les biberons la même semaine : la perte de repère se paie sur le sommeil et l'humeur.",
+        "Forcer la prise du matin pour atteindre une quantité : le repas devient un enjeu et le refus se renforce.",
+        "Compenser avec une boisson sucrée : l'appétit du repas baisse et les dents sont exposées tôt au sucre.",
+        "Décider sous la pression de l'entourage : un sevrage engagé sans conviction s'interrompt souvent en cours de route."
+      ],
+      "consulter_si": "Consulter si : ton enfant refuse aussi les aliments solides depuis plusieurs jours, s'il boit moins de 300 ml de lait ou d'équivalent laitier par jour de façon durable, s'il ne prend plus de poids, ou s'il pleure de douleur en buvant → en parler au pédiatre ou à la PMI. Pour l'allaitement : sage-femme ou consultante en lactation IBCLC.",
+      "source": "Source : repères alimentaires des enfants de 1 à 3 ans, Santé publique France, programme national nutrition santé ; mpedia.fr (AFPA)."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Refus du lait de croissance / après le passage du lait infantile",
+      "titre": "Le lait de croissance / quand il n'en veut pas",
+      "explication": "Le changement de lait modifie le goût, l'odeur et parfois la température de ce que ton enfant connaissait depuis des mois : le refus est fréquent et logique. Le lait de croissance apporte notamment du fer et des acides gras utiles à cet âge, ce que le lait de vache ordinaire couvre moins bien. Refuser ce lait ne compromet pourtant pas son alimentation : ces apports se retrouvent dans d'autres aliments du quotidien, et les repères français laissent plusieurs chemins possibles pour couvrir les besoins d'un enfant d'un an.",
+      "ancrage": "Un refus de lait n'est pas un refus de grandir, et ce n'est pas un échec de ta part. Tu peux couvrir ses besoins autrement, avec l'avis du professionnel qui le suit.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : cette semaine",
+        "etapes": [
+          "Y aller par étapes : mélanger l'ancien et le nouveau lait, en augmentant la part du nouveau tous les deux ou trois jours.",
+          "Servir à la bonne température : tiède comme avant, la sensation compte autant que le goût.",
+          "Changer de contenant : le même lait passe parfois beaucoup mieux dans un verre que dans le biberon.",
+          "Proposer sans insister : présenter, attendre, retirer sans commentaire si le refus est net.",
+          "Assurer les apports en parallèle : yaourts, fromages et laitages adaptés prennent le relais du verre refusé."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : dédramatiser le moment lacté",
+        "etapes": [
+          "Boire à côté de lui : porter ton propre verre à la bouche en même temps que lui, l'imitation fait le reste.",
+          "Laisser toucher et sentir : il explore le verre, met les doigts, goûte du bout des lèvres.",
+          "Garder les mains ouvertes : ne pas guider le verre vers sa bouche, il choisit son moment.",
+          "Contact du dos : une main posée, immobile, pendant qu'il tente une gorgée.",
+          "Terminer sans bilan : on range le verre comme n'importe quel aliment, sans commenter la quantité."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Diversifier les sources de calcium : produits laitiers adaptés, et certaines eaux minérales riches en calcium.",
+        "Soigner les apports en fer : viande, poisson, œuf et légumes secs bien cuits, à proposer régulièrement.",
+        "Faire vérifier les besoins : le pédiatre ou la PMI peuvent contrôler la croissance et conseiller un complément si nécessaire.",
+        "Garder la vitamine D : la supplémentation se poursuit après un an, selon l'avis du médecin qui suit ton enfant."
+      ],
+      "principe": "Ce sont les apports de la journée entière qui comptent, pas le contenu d'un verre. Un enfant qui refuse un lait précis reste très bien nourri dès lors que le calcium et le fer arrivent par d'autres aliments.",
+      "erreurs_a_eviter": [
+        "Sucrer ou aromatiser pour faire passer : le goût sucré s'installe et le refus du lait nature se renforce.",
+        "Basculer sur une boisson végétale : ces boissons ne couvrent pas les besoins nutritionnels du jeune enfant.",
+        "Multiplier les laits différents la même semaine : l'enfant n'a pas le temps de s'habituer à un goût.",
+        "Transformer le verre en négociation : plus le moment dure, plus le refus se fixe."
+      ],
+      "consulter_si": "Consulter si : ton enfant refuse tout produit laitier et toute autre source de calcium, s'il pâlit et se fatigue vite, s'il boit plus d'un litre de lait par jour au détriment des repas, ou si sa courbe de poids s'infléchit → en parler au pédiatre ou au médecin traitant, qui pourra vérifier notamment le fer.",
+      "source": "Source : repères alimentaires des enfants de 1 à 3 ans et place du lait de croissance, Santé publique France, programme national nutrition santé ; mpedia.fr (AFPA)."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Jette la nourriture par terre / et guette ta réaction",
+      "titre": "La nourriture jetée / l'expérience qui attend ta réaction",
+      "explication": "Jeter est une découverte fascinante à cet âge : ton enfant vérifie que l'objet tombe, qu'il fait du bruit, et surtout que l'adulte réagit toujours de la même façon. Le regard qu'il te lance juste après le geste fait partie de l'expérience. Ce comportement a une seconde fonction très fréquente : signaler que le repas est terminé pour lui. Quand la faim est passée, l'assiette devient un terrain de jeu. La phase s'apaise en quelques semaines lorsque la réponse reste constante.",
+      "ancrage": "Regarde d'abord ce qu'il te dit avant de voir ce qu'il fait. Le moment où il commence à jeter t'indique le moment où le repas est fini pour lui.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : au premier aliment lancé",
+        "etapes": [
+          "Réagir le moins possible : ni rire, ni sursaut, ni discours, la réaction est le carburant du geste.",
+          "Dire la règle une fois : « la nourriture reste dans l'assiette », d'une voix neutre.",
+          "Retirer l'assiette au deuxième jet : le repas se termine calmement, sans reproche.",
+          "Proposer la sortie de table : « tu n'as plus faim, on descend », en le faisant vraiment.",
+          "Ramasser plus tard : nettoyer devant lui transforme le sol en spectacle à recommencer."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : refermer le repas en douceur",
+        "etapes": [
+          "Marquer la fin par un rituel : passer un gant tiède sur les mains et le visage, toujours de la même façon.",
+          "Contact des paumes : envelopper ses mains dans les tiennes quelques instants après le nettoyage.",
+          "Le porter debout un instant : la verticalité aide la digestion et referme le moment.",
+          "Annoncer la suite : dire ce qui vient maintenant, du même ton chaque jour.",
+          "Rester bref : le rituel dure moins d'une minute et ferme le repas sans rien relancer."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Servir en petites portions : trois bouchées à la fois donnent moins de matière à lancer et moins de gâchis.",
+        "Offrir un temps de lancer autorisé : balles molles dans un panier, hors des repas, rassasient la découverte.",
+        "Rapprocher le repas des signaux de faim : un enfant sans appétit commence à jouer dès la première minute.",
+        "Accorder les adultes : si l'un rit et l'autre gronde, le geste se maintient beaucoup plus longtemps."
+      ],
+      "principe": "Un comportement qui déclenche une réaction forte se répète, quelle que soit la nature de la réaction. Le calme tranquille de l'adulte est ce qui éteint le geste, bien avant les explications.",
+      "erreurs_a_eviter": [
+        "Ramasser chaque bouchée en la rendant : la boucle du jeu se referme parfaitement pour l'enfant.",
+        "Appeler les autres adultes pour voir : l'attention collective installe le geste durablement.",
+        "Prolonger le repas pour qu'il finisse son assiette : la fin de faim se transforme en lutte quotidienne.",
+        "Punir un geste d'expérimentation : à cet âge, la sanction ne fait pas de lien avec l'acte et abîme le moment du repas."
+      ],
+      "consulter_si": "Consulter si : ton enfant jette systématiquement sans rien manger, s'il perd du poids, s'il refuse presque tous les aliments depuis plusieurs semaines, ou si chaque repas se termine en crise pour toute la famille → en parler au pédiatre ou à la PMI. Une diététicienne pédiatrique peut aussi aider à retrouver un climat apaisé à table."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Veut la cuillère et refuse l'aide / le repas devient un combat",
+      "titre": "La cuillère disputée / donner l'autonomie sans perdre le repas",
+      "explication": "Vers 12 mois, la pince entre le pouce et l'index devient précise, et ton enfant découvre qu'il peut porter lui-même la nourriture à sa bouche. Vouloir la cuillère n'est pas une opposition : c'est une compétence toute neuve qui demande à s'exercer. Manger seul mobilise en même temps la vue, la main, la bouche et l'équilibre du buste, ce qui explique que le résultat soit long et salissant. Cet apprentissage s'étale sur plusieurs mois, et l'exercice quotidien est ce qui le fait avancer.",
+      "ancrage": "Le désordre du repas est la trace de son travail. Tu peux garder une main dans le jeu sans lui reprendre la sienne.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : la technique des deux cuillères",
+        "etapes": [
+          "Sortir deux cuillères : une pour lui, une pour toi, chacun avance de son côté.",
+          "Préremplir la sienne : la garnir et la poser près de sa main plutôt que de la porter à sa bouche.",
+          "Servir épais : purées denses, yaourts fermes et bâtonnets tiennent mieux le trajet jusqu'à la bouche.",
+          "Installer le décor pour salir : bavoir à manches, tapis sous la chaise, tenue qui ne craint rien.",
+          "Laisser les doigts faire : la main reste son outil le plus fiable pendant encore plusieurs mois."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : préparer les mains avant de manger",
+        "etapes": [
+          "Réchauffer ses mains dans les tiennes : quelques instants, paume contre paume, avant de l'installer.",
+          "Presser la pulpe de chaque doigt : un doigt après l'autre, pression douce et brève.",
+          "Ouvrir la paume en éventail : écarter délicatement les doigts, puis relâcher.",
+          "Terminer par les deux doigts de la pince : un appui bref sur chacun, ce sont eux qui travailleront le plus.",
+          "Passer à table sans transition : le geste est court, il annonce le repas plutôt qu'il ne le remplace."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Adapter le matériel : cuillère à manche court et large, bol à ventouse, verre lourd à fond plat.",
+        "Vérifier l'installation : pieds en appui et table à hauteur de coudes libèrent les bras pour manger.",
+        "Manger en même temps que lui : les repas partagés apprennent plus que les repas surveillés.",
+        "Prévoir du temps : trente minutes sans urgence valent mieux qu'un repas rapide donné à sa place."
+      ],
+      "principe": "L'autonomie alimentaire s'acquiert par la répétition d'essais imparfaits. Un enfant nourri entièrement par l'adulte pour aller plus vite apprend surtout à attendre la cuillère plus longtemps.",
+      "erreurs_a_eviter": [
+        "Essuyer sa bouche et ses mains à chaque bouchée : les interruptions constantes cassent la concentration.",
+        "Reprendre la cuillère dès que ça déborde : le contrôle repris à l'adulte relance immédiatement la lutte.",
+        "Terminer l'assiette de force : la quantité avalée cesse alors de dépendre de sa faim.",
+        "Installer un écran pour qu'il se tienne tranquille : il ne perçoit plus ce qu'il mange ni le moment où il est rassasié."
+      ],
+      "consulter_si": "Consulter si : ton enfant ne cherche jamais à attraper d'aliment avec ses doigts à 12 mois, s'il n'utilise qu'une seule main de façon systématique, s'il fatigue vite en portant sa main à la bouche, ou s'il refuse tout contact avec la nourriture → en parler au pédiatre, qui pourra orienter vers un psychomotricien ou un ergothérapeute."
+    }
+  ]
+}
