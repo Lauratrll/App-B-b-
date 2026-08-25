@@ -34,6 +34,7 @@ Ces cinq principes s'appliquent à **chaque** protocole, sans exception :
 
 Constance typographique obligatoire dans **tous** les champs (situation, titre, explication, ancrage, étapes, principe…) :
 
+- **Tiret cadratin `—` interdit dans les contenus.** Aucun tiret long dans un champ destiné au parent. Remplacer par deux-points, virgules, parenthèses pour un aparté secondaire, ou réécrire la phrase. Varier les solutions : enchaîner les deux-points crée une autre signature mécanique. Voir `SKILL_contenu.md` § « Le tiret cadratin est interdit ». Le demi-cadratin `–` reste réservé aux fourchettes chiffrées (3–4 mois, 17h–19h), jamais en incise.
 - **Guillemets français « » uniquement**, jamais de guillemets droits `"`. Une citation courte de la voix du parent ou de l'enfant se met entre « » (pas de guillemets droits, y compris imbriqués).
 - **Espaces insécables (U+00A0) obligatoires** : avant `:`, `;`, `!`, `?`, avant `»` et après `«`.
 - **« Réflexologie » toujours écrit en toutes lettres** — jamais l'abréviation « réflexo ».
@@ -119,7 +120,7 @@ Chaque protocole contient **exactement** ces 9 champs obligatoires, dans cet ord
   "geste_doux": {
     "couleur_fond": "#E1F5EE",
     "couleur_texte": "#085041",
-    "titre": "Geste doux — ...",
+    "titre": "Geste doux : ...",
     "etapes": ["...", "...", "...", "...", "..."]
   },
   "pour_aller_plus_loin": ["...", "...", "...", "..."],
@@ -210,7 +211,7 @@ synthétique. Les deux champs ne sont jamais identiques.
 {
   "couleur_fond": "#FCEBEB",
   "couleur_texte": "#A32D2D",
-  "titre": "Action immédiate — [complément]",
+  "titre": "Action immédiate : [complément]",
   "etapes": [
     "Étape 1 — verbe d'action, court",
     "...",
@@ -222,8 +223,8 @@ synthétique. Les deux champs ne sont jamais identiques.
 **Règles :**
 - **5 étapes maximum** — pas plus
 - Chaque étape : 1 phrase de 15-25 mots max
-- **Format « Amorce : suite » imposé** : chaque étape commence par une amorce courte (2-4 mots ou un verbe d'action), suivie de « : » (ou « — »), puis du détail. L'amorce est mise en gras à l'affichage. Ex : « S'accroupir : se mettre à sa hauteur, sans le toucher tout de suite. »
-- Le `titre` inclut un complément après un tiret (ex. « Action immédiate — désamorcer le moment du repas »)
+- **Format « Amorce : suite » imposé** : chaque étape commence par une amorce courte (2-4 mots ou un verbe d'action), suivie de « : », puis du détail. L'amorce est mise en gras à l'affichage. Ex : « S'accroupir : se mettre à sa hauteur, sans le toucher tout de suite. »
+- Le `titre` inclut un complément après un deux-points (ex. « Action immédiate : désamorcer le moment du repas »)
 - Couleurs fixes (codes verrouillés) : fond `#FCEBEB`, texte `#A32D2D`
 - **Exception catégorie `parent`** : pour les protocoles de la catégorie `parent`, l'action immédiate utilise fond `#FBEAF0`, texte `#72243E`
 
@@ -235,7 +236,7 @@ synthétique. Les deux champs ne sont jamais identiques.
 {
   "couleur_fond": "#E1F5EE",
   "couleur_texte": "#085041",
-  "titre": "Geste doux — après la crise uniquement",
+  "titre": "Geste doux : après la crise uniquement",
   "etapes": [
     "Étape réflexo ou de contact doux",
     "...",
@@ -246,10 +247,10 @@ synthétique. Les deux champs ne sont jamais identiques.
 
 **Règles :**
 - **5 étapes maximum**
-- **Format « Amorce : suite » imposé** : chaque étape commence par une amorce courte suivie de « : » (ou « — »), puis du détail. L'amorce est mise en gras à l'affichage. Ex : « Zone du plexus solaire : centre de la voûte plantaire, cercles lents, 1 min par pied. »
-- **Titre — le mot « Réflexologie » doit apparaître quand le geste en relève.** Quand le geste doux repose sur la réflexologie (le cas le plus fréquent), le titre commence par « Réflexologie » pour que le parent comprenne immédiatement de quoi il s'agit. **Format : « Réflexologie : [précision courte] »** (ex. « Réflexologie : apaisement et sécurité », « Réflexologie : préparer une transition »). Uniquement pour un geste **non** réflexologique (contact, pression proprioceptive, portage), garder le préfixe « Geste doux — [précision] ».
+- **Format « Amorce : suite » imposé** : chaque étape commence par une amorce courte suivie de « : », puis du détail. L'amorce est mise en gras à l'affichage. Ex : « Zone du plexus solaire : centre de la voûte plantaire, cercles lents, 1 min par pied. »
+- **Titre — le mot « Réflexologie » doit apparaître quand le geste en relève.** Quand le geste doux repose sur la réflexologie (le cas le plus fréquent), le titre commence par « Réflexologie » pour que le parent comprenne immédiatement de quoi il s'agit. **Format : « Réflexologie : [précision courte] »** (ex. « Réflexologie : apaisement et sécurité », « Réflexologie : préparer une transition »). Uniquement pour un geste **non** réflexologique (contact, pression proprioceptive, portage), garder le préfixe « Geste doux : [précision] ».
 - Inclure si pertinent une zone réflexe et sa durée
-- **La Réflexologie n'est PAS systématique.** Elle n'apparaît que là où elle est réellement pertinente, et elle est **exclue** des contextes à risque allergène ou à enjeu d'autonomie corporelle : **alimentation / appétit**, **propreté**, **constipation et transit**. Dans ces contextes, utiliser « Geste doux — … » (position, portage, confort, respiration).
+- **La Réflexologie n'est PAS systématique.** Elle n'apparaît que là où elle est réellement pertinente, et elle est **exclue** des contextes à risque allergène ou à enjeu d'autonomie corporelle : **alimentation / appétit**, **propreté**, **constipation et transit**. Dans ces contextes, utiliser « Geste doux : … » (position, portage, confort, respiration).
 - **Clause d'arrêt, à inclure quand c'est pertinent** : « S'arrêter à sa demande : s'il retire son pied ou se crispe, on arrête sans insister. » Le geste est toujours réalisé **par le parent, sur son propre enfant**.
 - **Réflexologie — vocabulaire imposé (RÈGLE MISE À JOUR) :**
   - **Jamais de pression chiffrée.** Ne plus écrire « pression 0/10 » ni aucune échelle numérique. Décrire la pression de façon qualitative : « pression douce et constante », « toucher doux et enveloppant », « appui léger et maintenu ».
@@ -309,6 +310,45 @@ Champ **facultatif**, ajouté **uniquement quand c'est nécessaire**, pour rendr
 - **Réellement vérifiées et correctement attribuées** : on cite l'auteur/l'organisme, on ne s'approprie pas la méthode d'un professionnel, on n'invente jamais une référence.
 - **Une seule ligne discrète**, affichée en petit en bas de la fiche. Format : chaîne unique commençant par « Source : … ».
 - Ex. : « Source : ne pas forcer, respecter l'appétit de l'enfant — repères pédiatriques mpedia.fr (AFPA) ; courbe de croissance : HAS. »
+
+---
+
+## 3bis. Répartition des informations — la matrice anti-redondance ⭐
+
+> **Point de vigilance n°1 des contenus actuels.** Les mêmes idées circulent d'un bloc à l'autre : ce qui se passe, l'ancrage, l'action, le principe et les erreurs finissent par dire la même chose avec d'autres mots. Résultat : le parent lit quatre fois la même information et ne retient rien.
+
+### La matrice : une question par bloc
+
+| Bloc | La question à laquelle il répond | Angle exclusif | Ce qu'il ne contient JAMAIS |
+|------|----------------------------------|----------------|------------------------------|
+| `explication` | Que vit l'enfant, et pourquoi ? | Côté enfant : mécanisme développemental ou neurologique | Aucun conseil, aucun geste, aucune consigne au parent |
+| `ancrage` | Comment le parent se positionne avant d'agir ? | Côté parent : posture, permission, déculpabilisation | Ne redit pas le mécanisme, ne donne aucune technique |
+| `action_immediate` | Que faire dans la minute ? | Gestes concrets, séquencés, ici et maintenant | Rien de préventif, rien d'organisationnel, rien de long terme |
+| `geste_doux` | Quel geste corporel après la vague ? | Toucher et réflexologie : zone, qualité, consentement | Aucun conseil éducatif, aucune logistique |
+| `pour_aller_plus_loin` | Que mettre en place en amont, ou dans la durée ? | Prévention, environnement, organisation, ressources, professionnels | Aucune reprise des étapes déjà données |
+| `principe` | Que retenir si on oublie tout le reste ? | Une loi générale, formulée en abstraction | Pas de résumé des étapes, pas de consigne pratique nouvelle |
+| `erreurs_a_eviter` | Quel piège fréquent, et quelle conséquence ? | Constat + conséquence, sur des pièges non traités ailleurs | Pas la simple négation de ce qui vient d'être conseillé (1 maximum) |
+| `consulter_si` | Quand ce n'est plus de notre ressort ? | Critères observables + professionnel nommé | Aucun conseil d'accompagnement |
+
+### La seule répétition autorisée
+
+Une notion centrale peut réapparaître **une seconde fois au maximum**, à condition de **changer de niveau** : l'action donne **le geste**, le principe donne **la loi**. Jamais trois fois, jamais avec les mêmes mots.
+
+### Le test des 8 lignes (obligatoire avant de valider un protocole)
+
+Écrire en brouillon **une ligne par bloc** résumant son idée-clé, puis relire les 8 lignes ensemble :
+1. Deux lignes disent la même chose → réécrire l'une des deux ou la supprimer.
+2. Une ligne ne répond pas à la question de son bloc → elle est mal placée, la déplacer.
+3. Une expression signature (« il ne fait pas exprès », « ce n'est pas un caprice », « son cerveau est en travaux ») apparaît deux fois → n'en garder qu'une.
+
+### Exemple de dérive (à ne pas reproduire)
+
+- `explication` : « il ne mesure pas encore le danger »
+- `ancrage` : « ce n'est pas de la désobéissance, son cerveau ne juge pas le risque »
+- `principe` : « grimper est un besoin normal, pas un caprice »
+- `erreurs_a_eviter` : « croire qu'il comprendra après un seul rappel »
+
+Quatre formulations pour une seule idée. **Correction** : garder le mécanisme dans l'explication, donner au parent une posture dans l'ancrage, énoncer une loi neuve dans le principe, et réserver les erreurs à des pièges non dits.
 
 ---
 
@@ -419,3 +459,9 @@ Si un protocole fait moins de 350 mots, il est probablement trop sec — étoffe
 - [ ] Aucune précaution interdite (huiles essentielles, lidocaïne, miel...)
 - [ ] Le protocole est VRAIMENT différent des 3 autres protocoles de sa catégorie
 - [ ] Le volume est entre 400 et 700 mots
+- [ ] **Aucun tiret cadratin `—`**, et la ponctuation de remplacement est variée
+- [ ] **Test des 8 lignes passé : une information, un seul bloc** (§ 3bis)
+- [ ] Le principe énonce une loi de fond, pas un résumé ; une seule erreur-miroir maximum
+- [ ] **Libellé `situation` repris à l'identique du tableau de pilotage**
+- [ ] **Contrôle qualité en 3 passes effectué** (voir `SKILL_contenu.md`)
+- [ ] **Difficultés, alertes et interrogations signalées à la fondatrice**

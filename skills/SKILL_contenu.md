@@ -268,6 +268,28 @@ Les conseils de saison doivent toujours croiser : **âge du bébé** × **saison
 
 Ces règles s'appliquent à **l'intégralité des contenus** : protocoles Guide-moi !, Prendre soin de moi, coucher, saison, partager & rassurer, jeux, UI copy, onboarding, emails, notifications.
 
+### Le tiret cadratin est interdit ⭐
+
+**Le tiret cadratin `—` (U+2014) est banni de tous les contenus publiés.** Raison : c'est la signature typographique la plus reconnaissable des textes générés par IA. Les contenus de l'app doivent se lire comme écrits à la main.
+
+- **Interdit dans les contenus** : `—` sous toutes ses fonctions (incise, apposition, séparateur de titre, introduction d'exemple).
+- **Reste autorisé** : le trait d'union `-` des mots composés (peau-à-peau, quatre-pattes) et le demi-cadratin `–` **uniquement dans les fourchettes chiffrées** (0–4 semaines, 3–4 mois, 17h–19h). Le demi-cadratin n'est jamais une incise.
+- Les **fichiers de skills** (documentation interne) peuvent encore en contenir : la règle porte sur les **contenus destinés aux parents** (JSON, UI, emails, notifications).
+
+**Comment remplacer, en choisissant selon la phrase :**
+
+| Fonction du tiret | ✅ Solutions |
+|---|---|
+| Séparateur de titre de bloc | Deux-points : « Action immédiate : dans la minute qui suit ». |
+| Incise courte | Virgules : « Ces pleurs, très fréquents le soir, s'apaisent d'eux-mêmes. » |
+| Aparté vraiment secondaire | Parenthèses : « Le collier d'ambre (ni efficace ni sans danger) est à écarter. » |
+| Introduction d'une conséquence | Deux-points, ou une phrase à part : « Il se sent incompris : sa colère grimpe. » |
+| Amorce d'étape ou de puce | Deux-points uniquement : « **S'accroupir** : se mettre à sa hauteur. » |
+| Nom de chercheur, référence d'étude | Virgules + italique : « Les recherches en neurosciences, notamment celles de *Catherine Gueguen*, montrent que… » |
+| Cas où rien ne tombe juste | **Réécrire la phrase.** Deux phrases courtes valent mieux qu'une phrase à rallonge ponctuée. |
+
+**Vigilance sur l'effet de report.** Remplacer tous les tirets par des deux-points crée une autre signature mécanique. **Varier** : deux-points, virgules, parenthèses, point-virgule, phrase séparée. Dans un même bloc, ne pas enchaîner trois amorces construites à l'identique quand une reformulation est possible.
+
 ### Termes à écrire en toutes lettres — jamais d'abréviation
 
 - **« dépression post-partum »** : toujours en toutes lettres, **jamais « DPP »**, même après l'avoir déjà nommée dans le même texte, et **jamais entre parenthèses comme abréviation** (pas de « dépression post-partum (DPP) »). C'est un sujet sensible : le sens doit rester immédiatement clair et ne jamais risquer d'être perdu ou incompris par le parent.
@@ -297,22 +319,97 @@ Exemples (l'espace figurée ici est en réalité un U+00A0) :
 
 ### Noms propres et références d'études — en italique ⭐
 
-Dans **tous les contenus de l'app**, les **noms propres de chercheurs/auteurs** et les **références d'études ou de théories** s'écrivent en **italique** (`*...*`), et sont introduits **entre tirets cadratins — … —**, jamais entre parenthèses.
-- ✅ « Les recherches en neurosciences — notamment celles de *Daniel Siegel* et *Catherine Gueguen* — montrent que… »
+Dans **tous les contenus de l'app**, les **noms propres de chercheurs/auteurs** et les **références d'études ou de théories** s'écrivent en **italique** (`*...*`), et sont introduits **entre virgules**, ou intégrés directement à la phrase. **Jamais entre tirets cadratins** (règle modifiée le 25/08/2026) ; les parenthèses restent possibles quand la mention est vraiment secondaire.
+- ✅ « Les recherches en neurosciences, notamment celles de *Daniel Siegel* et *Catherine Gueguen*, montrent que… »
 - ✅ « …la phase d'individuation-séparation décrite par *Margaret Mahler*. »
-- ❌ « …les recherches (Daniel Siegel, Catherine Gueguen) montrent… »
+- ❌ « Les recherches en neurosciences — notamment celles de *Daniel Siegel* — montrent… »
 
 (Reste valable : pas de référence légale précise — on évoque le thème et on renvoie vers un professionnel nommé.)
 
 ### Dynamiser les pavés denses par la ponctuation
 
 Les blocs de prose longs (typiquement « La réalité du post-partum » : `pour_la_maman` / `pour_le_papa_co_parent`) gardent **toute** leur information mais s'aèrent :
-- **Pas de parenthèses** : remplacer par un tiret — explication —, ou par un deux-points : selon le cas. Les exemples cités le sont **sans parenthèses**, directement entre guillemets : « je vois que tu veux ce jouet ».
-- **Listes en points à la ligne** : chaque item sur sa propre ligne (saut de ligne `\n`), **amorce en gras** `**…**`, séparée de la suite par un tiret — (définition/explication) ou par deux-points : (quand l'item est suivi d'un exemple cité). Ex. : `**Sécurité affective** — être aimé inconditionnellement.` / `**Claire** : « la télécommande n'est pas un jouet ».`
+- **Ponctuation variée** : deux-points, virgules, point-virgule, ou parenthèses pour un aparté secondaire, jamais de tiret cadratin. Les exemples cités le sont directement entre guillemets : « je vois que tu veux ce jouet ».
+- **Listes en points à la ligne** : chaque item sur sa propre ligne (saut de ligne `\n`), **amorce en gras** `**…**`, séparée de la suite par **deux-points**. Ex. : `**Sécurité affective** : être aimé inconditionnellement.` / `**Claire** : « la télécommande n'est pas un jouet ».`
 - **Découpe en sous-sections titrées** : un bloc long peut être découpé par des **sous-titres** thématiques (ligne commençant par `## `). Ils restent **dans un cadre unique** (pas de cadres séparés), pour ne pas tomber dans un effet « protocole ». Les sous-titres parlent à une maman parfois dépassée : **compassion et permission douce**, le plus souvent en « **Tu peux…** » (« Tu peux créer de la confiance », « Tu peux trouver cela difficile »), avec un **chapeau de bloc rassurant** (« Repose-toi sur les neurosciences »). Jamais des intitulés de manuel. À réinjecter dans **tous** les pavés post-partum structurés.
-- **Adapter au registre** : structure légère (sous-titres en filet) quand le mois est **didactique** ; **prose qui coule** quand le mois est **émotionnel** (post-partum aigu) — le but est le réconfort, pas la checklist.
+- **Adapter au registre** : structure légère (sous-titres en filet) quand le mois est **didactique** ; **prose qui coule** quand le mois est **émotionnel** (post-partum aigu). Le but est le réconfort, pas la checklist.
 - **Puces** : chaque point d'une liste commence par `• ` ; la puce est **colorée** (accent), mais l'**amorce en gras reste en noir** comme le corps du texte (l'emphase vient de la graisse, pas de la couleur).
 - **Micro-format de rendu** (implémenté par Claude Code) : Markdown inline — `## sous-titre` (rendu en CAPITALES via CSS), `• puce`, `**gras**` (noir corps), `*italique*` — et sauts de ligne `\n` (paragraphes séparés par `\n\n`). Pas d'all-caps dans la source.
+
+---
+
+## Répartition de l'information — la règle anti-redondance ⭐
+
+> **Règle transverse, valable pour toutes les rubriques.** C'est le défaut le plus visible des contenus produits jusqu'ici : la même idée revient dans « ce qui se passe », dans « pour toi », dans l'action, dans le principe et dans les erreurs. Le parent a alors l'impression de relire quatre fois la même chose, et chaque bloc perd sa valeur propre.
+
+### Le principe
+
+**Une information appartient à un seul bloc.** Chaque bloc répond à une **question différente**. Avant d'écrire, on décide dans quel bloc chaque information vit, puis on ne la redit pas ailleurs.
+
+### La seule répétition autorisée
+
+Une notion centrale peut réapparaître **une seconde fois au maximum**, à condition de **changer de niveau** :
+- l'action dit **le geste** (« se mettre à sa hauteur avant de parler »),
+- le principe dit **la loi générale** (« un enfant se régule sur le corps de l'adulte avant de se réguler sur ses mots »).
+
+Jamais trois fois. Jamais avec les mêmes mots. Jamais un bloc qui résume simplement le bloc précédent.
+
+### Ce qui compte comme redondance (à traquer)
+
+- **La reformulation cosmétique** : « il ne fait pas exprès » dans l'explication, « ce n'est pas un caprice » dans l'ancrage, « il ne cherche pas à te provoquer » dans le principe. Une seule de ces trois phrases survit.
+- **L'erreur-miroir** : une « erreur à éviter » qui n'est que la négation d'une étape déjà donnée. Une seule tolérée par contenu, et seulement si elle apporte la **conséquence** qui n'a pas été dite ailleurs.
+- **Le principe-résumé** : un « principe à retenir » qui récapitule les étapes au lieu d'énoncer une règle de fond nouvelle.
+- **L'expression signature répétée** : une formule marquante ne s'emploie **qu'une fois** dans un même contenu.
+- **Le conseil qui migre** : un conseil de prévention placé à la fois dans l'action immédiate et dans « pour aller plus loin ».
+
+### Le test des 8 lignes (obligatoire avant livraison)
+
+Avant de valider un contenu, écrire en brouillon **une ligne par bloc** résumant son idée-clé. Si deux lignes disent la même chose, réécrire l'une des deux. Ce test prend deux minutes et supprime l'essentiel des redites.
+
+*(La matrice détaillée bloc par bloc pour les protocoles Guide-moi ! est dans `SKILL_protocole.md` § 3bis.)*
+
+---
+
+## Contrôle qualité avant livraison — 3 passes obligatoires ⭐
+
+> Aucun contenu n'est livré sans ces trois relectures, **dans cet ordre**, chacune avec un seul objectif en tête. Relire « en général » ne fonctionne pas : on ne voit qu'un type de défaut à la fois.
+
+**Passe 1 — Fond, prudence et bienveillance**
+- Le ton déculpabilise le parent et présente l'enfant avec bienveillance ; l'émotion de l'enfant est validée avant toute résolution.
+- La variabilité des rythmes est rappelée dès qu'un jalon développemental est évoqué.
+- **Règle du « jamais »** respectée : l'interdit est réservé au danger vital ou grave, tout le reste est formulé en positif.
+- Aucun mot du registre médical réservé, aucune marque commerciale, aucune règle de droit chiffrée.
+- Aucune promesse de résultat, aucun diagnostic individualisé, non-substitution rappelée et professionnel nommé.
+- Le `consulter_si` repose sur des critères observables, jamais sur « si tu t'inquiètes ».
+- Toute affirmation sensible est sourcée, en source française vérifiée.
+
+**Passe 2 — Répartition et redondance**
+- Test des 8 lignes : une idée par bloc.
+- Aucune expression signature répétée dans le même contenu.
+- Au maximum une erreur-miroir, et elle apporte une conséquence nouvelle.
+- Le principe énonce une règle de fond, pas un résumé.
+
+**Passe 3 — Orthographe et typographie**
+- **Zéro tiret cadratin `—`** dans le contenu, et ponctuation de remplacement variée.
+- Guillemets français « » partout, jamais de guillemets droits.
+- Espaces insécables U+00A0 avant `: ; ! ?`, avant `»`, après `«`.
+- « réflexologie » et « dépression post-partum » en toutes lettres.
+- Accents présents sur les capitales, accords et conjugaison vérifiés, masculin par défaut pour l'enfant.
+- Comptes de champs respectés et JSON valide (parsé) avant livraison.
+
+**Automatisation.** Les points mécaniques de la passe 3 (insécables, tirets cadratins, guillemets droits, mots interdits, comptes de champs, validité JSON) sont vérifiés par le script `qa_contenu.py`. Le script ne remplace ni la passe 1 ni la passe 2.
+
+---
+
+## Règles de collaboration ⭐
+
+À la fin de chaque livraison, **toujours signaler à la fondatrice** :
+
+- **Les difficultés** : ce qui n'a pas pu être fait, ce qui a été approximé, ce qui manque pour bien faire.
+- **Les alertes** : contradiction entre deux règles, contenu existant non conforme, sujet à faire relire par un professionnel ou un juriste, source introuvable ou fragile.
+- **Les interrogations** : choix éditorial qui aurait pu être tranché autrement, arbitrage pris par défaut, question ouverte qui mérite sa décision.
+
+Ne jamais livrer un contenu en laissant croire qu'il est parfaitement conforme quand un doute subsiste.
 
 ---
 
@@ -330,6 +427,11 @@ Les blocs de prose longs (typiquement « La réalité du post-partum » : `pour_
 - [ ] **Le mot « massage » est absent** : remplacé par toucher / geste doux / pression douce / stimulation des zones réflexes
 - [ ] **Contenu général, jamais un diagnostic individualisé** d'un enfant précis
 - [ ] **Le geste est réalisé par le parent sur son propre enfant** (l'app ne « pratique » pas)
-- [ ] Noms propres / références d'études en italique, introduits entre tirets (jamais entre parenthèses)
+- [ ] Noms propres / références d'études en italique, introduits entre virgules (jamais entre tirets)
+- [ ] **Aucun tiret cadratin `—` dans le contenu**
+- [ ] **Règle du « jamais » respectée** : interdit réservé au danger grave, positif partout ailleurs
+- [ ] **Test des 8 lignes passé : une information, un seul bloc**
+- [ ] **Les 3 passes de contrôle qualité ont été faites**
+- [ ] **Difficultés, alertes et interrogations signalées à la fondatrice**
 - [ ] La phrase "ce n'est pas un substitut au médecin" est présente si pertinent
 - [ ] Les numéros d'urgence sont cités si le contexte le demande
