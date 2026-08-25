@@ -12,7 +12,7 @@ _Version lisible (phrases par zone intégrées)._
 **Avant de commencer**
 
 - **Choisis le bon moment** : bébé disponible, au calme et au chaud.
-- **Parle-lui doucement** : explique ce que tu vas faire.
+- **Parle-lui doucement** : explique ce que tu vas faire, et l'objectif de la séance.
 - **Recueille son accord** : s'il s'agite ou se détourne, remets à plus tard.
 - **Réchauffe ses pieds** : un instant entre tes mains.
 - **Un peu d'huile végétale douce** : une noisette adaptée aux bébés.
@@ -26,7 +26,7 @@ _Version lisible (phrases par zone intégrées)._
 
 _Sous-titre (liste) : Accueillir bébé dans le monde et l'aider à trouver ses repères._
 
-Les premières semaines, tout est nouveau pour lui : la lumière, les bruits, l'espace autour de son corps. Ce moment aux pieds est un premier rendez-vous tout en douceur, où ton toucher lui redonne des repères. Peu à peu, il apprend que le monde est un endroit sûr, parce que tu es là.
+Les premières semaines, tout est nouveau pour lui : la lumière, les bruits, l'espace autour de son corps. Ce moment aux pieds est **un temps de lien**, et aussi **un coup de pouce au démarrage de son corps** : on accompagne le système nerveux, la respiration, la digestion et l'ancrage, les grandes fonctions qui se mettent en route. Les zones travaillées sont **volontairement larges** : à cet âge, son système nerveux est encore en pleine maturation et les messages qui remontent au cerveau restent diffus, peu localisés. Sa peau plantaire, elle, est déjà très riche en récepteurs : c'est par elle que tout passe.
 
 **Séquence :**
 
@@ -42,9 +42,9 @@ Les premières semaines, tout est nouveau pour lui : la lumière, les bruits, l'
 
 ## Naissance prématurée · M0–M5
 
-_Sous-titre (liste) : Accompagner un tout-petit arrivé en avance, par des gestes minuscules._
+_Sous-titre (liste) : Rassurer un bébé arrivé plus tôt que prévu, avec une grande douceur._
 
-Ton bébé est arrivé en avance, et son corps demande encore beaucoup de lenteur. Chaque geste est ici minuscule, respectueux de sa fragilité, et s'arrête dès qu'il le demande. Rien n'est à rattraper : il s'agit de lui offrir du temps et de la sécurité. Demande l'accord de l'équipe qui le suit avant de commencer.
+Ton bébé est arrivé plus tôt que prévu, **avant d'être tout à fait prêt**, et son corps garde la mémoire de ce départ précipité. Tu peux **lui mettre des mots dessus** pendant la séance, simplement : lui dire qu'il est né un peu tôt, que c'est passé, et **qu'aujourd'hui il est là, en sécurité, avec toi**. La séquence soutient sa respiration et son ancrage, et passe par les zones qui apaisent la peur. Elle se pratique dès les premiers jours avec une extrême douceur, et garde tout son sens des mois plus tard. Demande l'accord de l'équipe qui le suit avant de commencer. **_Ta présence calme compte autant que le geste : c'est elle qui le sécurise._**
 
 **Séquence :**
 
@@ -59,9 +59,9 @@ Ton bébé est arrivé en avance, et son corps demande encore beaucoup de lenteu
 
 ## Césarienne ou déclenchement · M0–M3
 
-_Sous-titre (liste) : Envelopper bébé dont la naissance a été aidée ou précipitée._
+_Sous-titre (liste) : Rassurer bébé quand la naissance a été aidée ou précipitée._
 
-La naissance de ton bébé ne s'est pas passée comme tu l'avais imaginée, et cela peut laisser une trace, chez lui comme chez toi. Rien n'est à réparer : il s'agit simplement de lui offrir du temps, du contenant et de la sécurité. Ce moment aux pieds l'enveloppe et lui dit qu'il est arrivé, entier, et attendu.
+La naissance de ton bébé a été aidée, parfois précipitée, et son corps en garde la trace. **Rien n'est à réparer** : il s'agit de lui redonner du temps et de la sécurité. La séquence détend l'axe du dos et la respiration, souvent contractés par une arrivée rapide, puis passe par les zones qui **apaisent la peur et ramènent de l'ancrage**. **_Ce que tu as vécu de cette naissance a aussi le droit d'exister : ce moment vous appartient à tous les deux._**
 
 **Séquence :**
 
@@ -82,7 +82,7 @@ La naissance de ton bébé ne s'est pas passée comme tu l'avais imaginée, et c
 
 _Sous-titre (liste) : Aider bébé à se sentir solide, ancré et en confiance._
 
-La confiance ne s'enseigne pas, elle se dépose : c'est en se sentant en sécurité que bébé ose explorer, tomber et recommencer. Ce moment aux pieds l'aide à sentir ses appuis et son corps entier. Un socle tranquille, à retrouver aussi souvent que vous en avez envie.
+La confiance ne s'enseigne pas, **elle se dépose** : c'est en se sentant en sécurité que bébé ose explorer, tomber et recommencer. La séquence va bien au-delà de l'ancrage : elle passe par les zones de l'émotion et de l'énergie, celles qui **apaisent la peur**, dénouent l'irritabilité et soutiennent la réponse au stress. **_Ce que l'on nourrit ici, c'est sa sécurité affective, ce socle intérieur depuis lequel il ose._**
 
 **Séquence :**
 
@@ -104,7 +104,7 @@ La confiance ne s'enseigne pas, elle se dépose : c'est en se sentant en sécuri
 
 _Sous-titre (liste) : Détendre la sphère orale pour accompagner la succion, sans forcer._
 
-La succion demande une coordination fine, que bébé met parfois du temps à trouver. Rien ne se force ici : plus sa bouche et sa mâchoire sont détendues, plus la mise en bouche redevient possible. Ce moment aux pieds l'apaise, entre deux tétées, sans enjeu et sans attente de résultat.
+La succion demande **une coordination fine**, que bébé met parfois du temps à trouver. Rien ne se force ici : la séquence détend la bouche, l'œsophage et l'entrée de l'estomac, et apaise le système nerveux avant l'effort. **À faire juste avant une tétée**, au calme, sans enjeu et sans attente de résultat.
 
 **Séquence :**
 
@@ -123,7 +123,7 @@ La succion demande une coordination fine, que bébé met parfois du temps à tro
 
 _Sous-titre (liste) : Rassurer bébé et garder le lien même au moment de se quitter._
 
-Vers la fin de la première année, bébé comprend que tu peux partir, mais pas encore que tu reviens toujours. Son angoisse est un signe de son attachement, pas un pas en arrière. Ce moment aux pieds, avant une séparation ou aux retrouvailles, l'aide à apaiser cette inquiétude et à sentir que le lien tient.
+L'angoisse de séparation est **un signe d'attachement, pas un pas en arrière** : bébé sait que tu peux partir, il ne sait pas encore que tu reviens toujours. **Commence plusieurs jours avant une séparation prévue**, ou dès que l'inquiétude s'installe, et mets des mots pendant la séance : où tu vas, qui sera là, et le moment des retrouvailles. La séquence passe par les zones du lâcher-prise et de la tristesse, et par celles qui réassurent le lien avec maman et avec papa. **_Ses pleurs au moment de partir ne disent pas que tu t'y prends mal : ils disent qu'il tient à toi._**
 
 **Séquence :**
 
@@ -142,7 +142,7 @@ Vers la fin de la première année, bébé comprend que tu peux partir, mais pas
 
 _Sous-titre (liste) : Soulager le ventre noué en suivant le trajet de la digestion._
 
-Les coliques éprouvent bébé, et elles t'éprouvent aussi. Son système digestif est encore tout jeune : il apprend son métier, souvent bruyamment. Ce moment aux pieds suit lentement le trajet de la digestion pour dénouer les tensions, sans jamais forcer. Ton calme compte autant que ton geste.
+Les coliques éprouvent bébé, et **elles t'éprouvent aussi**. Son système digestif est encore tout jeune : il apprend son métier, souvent bruyamment. Ce moment aux pieds **suit lentement le trajet de la digestion** pour dénouer les tensions, sans jamais forcer. **_Ton calme compte autant que ton geste._**
 
 **Séquence :**
 
@@ -161,7 +161,7 @@ Les coliques éprouvent bébé, et elles t'éprouvent aussi. Son système digest
 
 _Sous-titre (liste) : Apaiser le ventre quand la digestion gêne bébé._
 
-Entre deux nouvelles saveurs, la digestion de bébé se cherche encore. Ce moment aux pieds suit lentement le trajet digestif pour l'aider à se détendre et à retrouver son confort. Prends le temps : la lenteur fait une grande partie du travail.
+Entre deux nouvelles saveurs, **la digestion de bébé se cherche encore**. Ce moment aux pieds suit lentement le trajet digestif pour l'aider à se détendre et à retrouver son confort. Prends le temps : **la lenteur fait une grande partie du travail**.
 
 **Séquence :**
 
@@ -180,7 +180,7 @@ Entre deux nouvelles saveurs, la digestion de bébé se cherche encore. Ce momen
 
 _Sous-titre (liste) : Relâcher le corps tendu quand bébé enrage de ne pas y arriver._
 
-Bébé veut avancer, se retourner, attraper, et son corps ne suit pas encore. Cet écart entre l'envie et le possible crée une tension bien réelle, dans les muscles autant que dans l'humeur. Ce moment aux pieds relâche le corps fatigué par l'effort et apaise ce qui déborde.
+Bébé veut avancer, se retourner, attraper, et **son corps ne suit pas encore**. Cet écart entre l'envie et le possible crée **une tension bien réelle**, dans les muscles autant que dans l'humeur. Ce moment aux pieds relâche le corps fatigué par l'effort et apaise ce qui déborde. **_Sa colère de ne pas encore réussir dit son élan et son envie de grandir._**
 
 **Séquence :**
 
@@ -200,7 +200,7 @@ Bébé veut avancer, se retourner, attraper, et son corps ne suit pas encore. Ce
 
 _Sous-titre (liste) : Apaiser les remontées et l'inconfort du haut du ventre._
 
-Les remontées sont fréquentes chez les tout-petits : le haut de leur ventre n'est pas encore tout à fait mûr, et le temps fait une grande partie du travail. Ce moment aux pieds apaise l'inconfort et le vécu de l'instant, sans prétendre soigner. Si bébé pleure beaucoup ou ne prend pas de poids, parles-en à ton médecin.
+Les remontées sont fréquentes chez les tout-petits : **le haut de leur ventre n'est pas encore tout à fait mûr**, et le temps fait une grande partie du travail. Ce moment aux pieds apaise l'inconfort et le vécu de l'instant, sans prétendre soigner. Si bébé pleure beaucoup ou ne prend pas de poids, parles-en à ton médecin. **_L'inconfort peut l'agacer ou l'inquiéter : ta présence calme et ton geste doux l'apaisent._**
 
 **Séquence :**
 
@@ -219,7 +219,7 @@ Les remontées sont fréquentes chez les tout-petits : le haut de leur ventre n'
 
 _Sous-titre (liste) : Soulager la bouche et apaiser l'agacement des poussées dentaires._
 
-La poussée d'une dent, c'est une tension qui s'installe dans toute la bouche et finit par colorer la journée entière. Bébé n'est pas capricieux : il est traversé par quelque chose qu'il ne comprend pas et ne sait pas nommer. Ce moment aux pieds soulage la mâchoire et apaise l'agacement.
+La poussée d'une dent, c'est une tension qui s'installe dans toute la bouche et finit par colorer la journée entière. **Bébé n'est pas capricieux** : il est traversé par quelque chose qu'il ne comprend pas et ne sait pas nommer. Ce moment aux pieds **soulage la mâchoire et apaise l'agacement**. **_Ta douceur et ta patience apaisent autant que le geste._**
 
 **Séquence :**
 
@@ -240,7 +240,7 @@ La poussée d'une dent, c'est une tension qui s'installe dans toute la bouche et
 
 _Sous-titre (liste) : Accompagner le transit en douceur, en suivant le trajet du ventre._
 
-Le ventre de bébé se noue parfois, au fil des changements d'alimentation ou de rythme. Ce moment aux pieds accompagne le transit en suivant le trajet naturel du ventre, sans jamais brusquer. Si l'inconfort s'installe ou dure, parles-en à ton médecin.
+Le ventre de bébé se noue parfois, au fil des **changements d'alimentation ou de rythme**. Ce moment aux pieds accompagne le transit en suivant le trajet naturel du ventre, **sans jamais brusquer**. Si l'inconfort s'installe ou dure, parles-en à ton médecin.
 
 **Séquence :**
 
@@ -262,7 +262,7 @@ Le ventre de bébé se noue parfois, au fil des changements d'alimentation ou de
 
 _Sous-titre (liste) : Apaiser le ventre de bébé quand le transit s'emballe._
 
-Quand le transit s'emballe, le ventre de bébé travaille beaucoup et le fatigue. Ce moment aux pieds l'apaise et le rassure, en accompagnement seulement. Reste attentive aux signes de fatigue ou de déshydratation : un avis médical reste indispensable si cela se prolonge.
+Quand le transit s'emballe, le ventre de bébé travaille beaucoup et **le fatigue**. Ce moment aux pieds l'apaise et le rassure, en accompagnement seulement. **Reste attentive aux signes de fatigue ou de déshydratation** : un avis médical reste indispensable si cela se prolonge.
 
 **Séquence :**
 
@@ -284,7 +284,7 @@ Quand le transit s'emballe, le ventre de bébé travaille beaucoup et le fatigue
 
 _Sous-titre (liste) : Apaiser l'équilibre et relâcher le stress quand les trajets chahutent._
 
-En voiture ou en train, le système de l'équilibre de bébé est encore immature et se laisse vite déborder par le mouvement. Ce moment aux pieds l'aide à retrouver ses repères et à relâcher les tensions du voyage. À faire avant le départ, ou à l'arrivée, au calme.
+En voiture ou en train, **le système de l'équilibre de bébé est encore immature** et se laisse vite déborder par le mouvement. Ce moment aux pieds l'aide à retrouver ses repères et à relâcher les tensions du voyage. **À faire avant le départ**, ou à l'arrivée, au calme.
 
 **Séquence :**
 
@@ -307,7 +307,7 @@ En voiture ou en train, le système de l'équilibre de bébé est encore immatur
 
 _Sous-titre (liste) : Accompagner l'endormissement et le retour au calme, au creux du soir._
 
-Le sommeil de bébé est fait de cycles courts, et les réveils font partie de son apprentissage, même quand ils sont épuisants. Ce moment de calme partagé accompagne l'endormissement et le retour au calme, à ton rythme et au sien. Installe-toi : lumière tamisée, ta voix posée, ta respiration lente.
+Le sommeil de bébé est fait de **cycles courts**, et les réveils font partie de son apprentissage, même quand ils sont épuisants. Son horloge interne se construit petit à petit : ce sont **les repères qui reviennent**, la lumière du jour, la pénombre du soir, les rituels répétés, qui l'aident peu à peu à distinguer le jour de la nuit. La séquence accompagne ce travail en passant par les zones liées aux rythmes et au retour au calme. Installe-toi : lumière tamisée, ta voix posée, ta respiration lente. **_Ton propre apaisement compte autant que le geste._**
 
 **Séquence :**
 
@@ -329,7 +329,7 @@ Le sommeil de bébé est fait de cycles courts, et les réveils font partie de s
 
 _Sous-titre (liste) : Soulager le nez encombré et l'inconfort des oreilles._
 
-Un nez pris, une oreille gênée, et toute la journée s'en trouve changée : bébé respire moins bien, tète moins bien, dort moins bien. Ce moment aux pieds apaise cet inconfort et l'accompagne, sans prétendre soigner. Fièvre, douleur d'oreille ou pleurs inhabituels : direction le médecin.
+Un nez pris, une oreille gênée, et **toute la journée s'en trouve changée** : bébé respire moins bien, tète moins bien, dort moins bien. Ce moment aux pieds apaise cet inconfort et l'accompagne, sans prétendre soigner. Fièvre, douleur d'oreille ou pleurs inhabituels : direction le médecin. **_S'il n'a pas envie qu'on touche à ses pieds aujourd'hui, remets à plus tard : son inconfort a le droit d'être là._**
 
 **Séquence :**
 
@@ -353,7 +353,7 @@ Un nez pris, une oreille gênée, et toute la journée s'en trouve changée : b�
 
 _Sous-titre (liste) : Aider un enfant agité à se poser et à se concentrer._
 
-Quand tout part dans tous les sens, ton enfant n'agit pas contre toi : son cerveau, encore en pleine construction, n'a pas fini d'apprendre à trier ce qui l'entoure. Ce moment aux pieds lui offre une pause sensorielle, un point d'appui pour redescendre. Sans attendre de résultat immédiat : c'est la répétition tranquille qui l'aide à se poser.
+Quand tout part dans tous les sens, **ton enfant n'agit pas contre toi** : son cerveau, encore en pleine construction, n'a pas fini d'apprendre à trier ce qui l'entoure. Ce moment aux pieds lui offre **une pause sensorielle**, un point d'appui pour redescendre. Sans attendre de résultat immédiat : c'est **la répétition tranquille** qui l'aide à se poser.
 
 **Séquence :**
 
@@ -374,7 +374,7 @@ Quand tout part dans tous les sens, ton enfant n'agit pas contre toi : son cerve
 
 _Sous-titre (liste) : Apaiser l'inquiétude et dénouer la nervosité, à ton contact._
 
-L'inquiétude de bébé se loge dans son corps bien avant de pouvoir se dire avec des mots : ventre noué, sommeil léger, sursauts. Ce moment aux pieds lui offre un point d'appui pour redescendre, dans le contact et le calme. Rien à réussir, rien à corriger : juste un temps ensemble.
+L'inquiétude de bébé **se loge dans son corps** bien avant de pouvoir se dire avec des mots : ventre noué, sommeil léger, sursauts. Ce moment aux pieds lui offre un point d'appui pour redescendre, dans le contact et le calme. Rien à réussir, rien à corriger : juste un temps ensemble. **_Accueille son émotion avant de vouloir l'apaiser : être entendu calme déjà._**
 
 **Séquence :**
 
@@ -396,7 +396,7 @@ L'inquiétude de bébé se loge dans son corps bien avant de pouvoir se dire ave
 
 _Sous-titre (liste) : Relâcher la tension de l'opposition et aider bébé à se sentir contenu._
 
-« Non », « pas comme ça », et la tempête arrive. À cet âge, la partie du cerveau qui freine l'émotion est encore en chantier : bébé ne choisit pas de perdre le contrôle. Ta présence calme lui sert d'appui le temps que la vague passe. Ce moment aux pieds, une fois l'orage retombé, l'aide à relâcher et à se sentir contenu.
+« Non », « pas comme ça », et la tempête arrive. À cet âge, **la partie du cerveau qui freine l'émotion est encore en chantier** : bébé ne choisit pas de perdre le contrôle. Ta présence calme lui sert d'appui le temps que la vague passe. Ce moment aux pieds, une fois l'orage retombé, l'aide à relâcher et à se sentir contenu. **_Sa colère et sa frustration ont le droit d'exister : tu es là, c'est ce qui compte._**
 
 **Séquence :**
 
@@ -417,7 +417,7 @@ _Sous-titre (liste) : Relâcher la tension de l'opposition et aider bébé à se
 
 _Sous-titre (liste) : Aider ton enfant à se sentir aimé et sûr de sa place._
 
-L'arrivée d'un autre enfant bouscule la place que ton aîné croyait sienne, et il n'a pas les mots pour le dire. Ce qu'il exprime maladroitement est souvent une demande d'attention rien qu'à lui. Ce moment aux pieds, exclusif, lui rappelle qu'il reste aimé et attendu à sa juste place.
+L'arrivée d'un autre enfant **bouscule la place que ton aîné croyait sienne**, et il n'a pas les mots pour le dire. Ce qu'il exprime maladroitement est souvent **une demande d'attention rien qu'à lui**. Ce moment aux pieds, exclusif, lui rappelle qu'il reste aimé et attendu à sa juste place. **_Tu n'as pas à choisir entre tes enfants : un temps rien qu'à lui suffit souvent à faire redescendre la tension._**
 
 **Séquence :**
 
@@ -437,7 +437,7 @@ L'arrivée d'un autre enfant bouscule la place que ton aîné croyait sienne, et
 
 _Sous-titre (liste) : Ouvrir le souffle quand la respiration se fait courte._
 
-Quand le souffle se fait court, l'inquiétude monte vite, chez bébé comme chez toi. Ce moment aux pieds ouvre la respiration en douceur et réconforte. Il ne remplace jamais l'avis de ton médecin : il l'accompagne.
+Quand le souffle se fait court, **l'inquiétude monte vite**, chez bébé comme chez toi. Ce moment aux pieds ouvre la respiration en douceur et réconforte. **Il ne remplace jamais l'avis de ton médecin** : il l'accompagne.
 
 **Séquence :**
 
@@ -461,7 +461,7 @@ Quand le souffle se fait court, l'inquiétude monte vite, chez bébé comme chez
 
 _Sous-titre (liste) : Apaiser la peau et soutenir l'élimination en douceur._
 
-La peau de bébé raconte souvent ce que son corps traverse. Ce moment aux pieds apaise les tensions et soutient l'élimination, en complément de ce que ton médecin a mis en place.
+La peau de bébé **raconte souvent ce que son corps traverse**. Ce moment aux pieds apaise les tensions et soutient l'élimination, en complément de ce que ton médecin a mis en place.
 
 **Séquence :**
 
@@ -484,7 +484,7 @@ La peau de bébé raconte souvent ce que son corps traverse. Ce moment aux pieds
 
 _Sous-titre (liste) : Soutenir les défenses du corps et apaiser ses réactions._
 
-Le corps de bébé réagit fort à ce qu'il rencontre. Ce moment aux pieds soutient ses défenses et apaise les tensions, sans prétendre soigner. Il vient en accompagnement de ce que ton médecin a mis en place.
+Le corps de bébé réagit fort à ce qu'il rencontre. Ce moment aux pieds **soutient ses défenses et apaise les tensions**, sans prétendre soigner. Il vient en accompagnement de ce que ton médecin a mis en place.
 
 **Séquence :**
 
@@ -503,7 +503,7 @@ Le corps de bébé réagit fort à ce qu'il rencontre. Ce moment aux pieds souti
 
 _Sous-titre (liste) : Soutenir le foie et l'élimination dans les tout premiers jours._
 
-Les tout premiers jours, le corps de ton bébé apprend à éliminer. Ce moment aux pieds, très doux, soutient ce travail. Il vient toujours en accompagnement du suivi médical de la maternité.
+Les tout premiers jours, le corps de ton bébé **apprend à éliminer**. Ce moment aux pieds, très doux, soutient ce travail. Il vient toujours en accompagnement du **suivi médical de la maternité**.
 
 **Séquence :**
 
@@ -521,7 +521,7 @@ Les tout premiers jours, le corps de ton bébé apprend à éliminer. Ce moment 
 
 _Sous-titre (liste) : Accompagner les toutes premières éliminations de bébé._
 
-Les toutes premières éliminations demandent un vrai travail au corps de ton nouveau-né. Ce moment aux pieds, minuscule et lent, l'accompagne avec beaucoup de douceur.
+Les toutes premières éliminations demandent **un vrai travail au corps de ton nouveau-né**. Ce moment aux pieds, minuscule et lent, l'accompagne avec beaucoup de douceur.
 
 **Séquence :**
 
