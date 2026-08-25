@@ -54,7 +54,7 @@
     },
     {
       "id": "prematurite",
-      "titre": "Prématurité",
+      "titre": "Naissance prématurée",
       "fichier": "protocole-prematurite.json",
       "nb_etapes": 6,
       "lancement": true,
@@ -64,7 +64,7 @@
     },
     {
       "id": "cesarienne",
-      "titre": "Césarienne",
+      "titre": "Césarienne ou déclenchement",
       "fichier": "protocole-cesarienne.json",
       "nb_etapes": 10,
       "lancement": true,
@@ -94,7 +94,7 @@
     },
     {
       "id": "separation",
-      "titre": "Séparation",
+      "titre": "Angoisse de séparation",
       "fichier": "protocole-separation.json",
       "nb_etapes": 8,
       "lancement": true,
@@ -144,7 +144,7 @@
     },
     {
       "id": "dents",
-      "titre": "Dents",
+      "titre": "Poussées dentaires",
       "fichier": "protocole-dents.json",
       "nb_etapes": 9,
       "lancement": true,
@@ -184,7 +184,7 @@
     },
     {
       "id": "sommeil",
-      "titre": "Sommeil",
+      "titre": "Sommeil agité",
       "fichier": "protocole-sommeil.json",
       "nb_etapes": 8,
       "lancement": true,
@@ -194,7 +194,7 @@
     },
     {
       "id": "rhume-otite",
-      "titre": "Rhume, otite",
+      "titre": "Rhume et oreilles",
       "fichier": "protocole-rhume-otite.json",
       "nb_etapes": 13,
       "lancement": true,
@@ -204,7 +204,7 @@
     },
     {
       "id": "agitation-concentration",
-      "titre": "Concentration / Agitation",
+      "titre": "Manque de concentration",
       "fichier": "protocole-agitation-concentration.json",
       "nb_etapes": 10,
       "lancement": true,
@@ -234,7 +234,7 @@
     },
     {
       "id": "jalousie-fratrie",
-      "titre": "Jalousie, fratrie",
+      "titre": "Jalousie",
       "fichier": "protocole-jalousie-fratrie.json",
       "nb_etapes": 6,
       "lancement": true,
