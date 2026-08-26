@@ -1940,6 +1940,8 @@ export function ReflexoLecteur({
     const t = setTimeout(() => {
       setStep((s) => {
         if (s < steps.length - 1) return s + 1;
+        // Fin de séquence : ce n'est PAS une pause demandée par le parent, donc
+        // une flèche relancera bien la lecture.
         setPlaying(false);
         return s;
       });
@@ -1948,14 +1950,25 @@ export function ReflexoLecteur({
   }, [ready, playing, step, steps.length]);
 
   const s = steps[step];
-  const goPrev = () => {
-    setPlaying(false);
-    setStep((v) => Math.max(0, v - 1));
+
+  /**
+   * Naviguer d'une zone à l'autre ne doit pas arrêter la lecture : si le parent
+   * n'a pas lui-même appuyé sur pause, l'animation repart sur la zone visée.
+   * Seule une pause EXPLICITE tient — d'où ce drapeau, distinct de `playing`,
+   * qui retombe aussi à zéro quand la séquence se termine d'elle-même.
+   */
+  const pauseVoulue = useRef(false);
+  const allerA = (calcul: (v: number) => number) => {
+    setStep(calcul);
+    setPlaying(!pauseVoulue.current);
   };
-  const goNext = () => {
-    setPlaying(false);
-    setStep((v) => Math.min(steps.length - 1, v + 1));
-  };
+  const goPrev = () => allerA((v) => Math.max(0, v - 1));
+  const goNext = () => allerA((v) => Math.min(steps.length - 1, v + 1));
+  const basculerLecture = () =>
+    setPlaying((p) => {
+      pauseVoulue.current = p; // on passait de « en lecture » à « en pause »
+      return !p;
+    });
 
   // Scène + panneau, en paysage. En portrait, on pivote l'ensemble de 90°.
   // Rien ne touche les bords : le conteneur porte sa propre marge, et le
@@ -1968,7 +1981,7 @@ export function ReflexoLecteur({
         width: "100%",
         alignItems: "stretch",
         gap: 16,
-        padding: "14px 16px 16px",
+        padding: "14px 16px 28px",
         boxSizing: "border-box",
       }}
     >
@@ -1977,7 +1990,7 @@ export function ReflexoLecteur({
           pieds, quelle que soit la taille de l'écran. */}
       <div
         style={{
-          flex: "1.7 1 0",
+          flex: "1.4 1 0",
           minWidth: 0,
           display: "flex",
           flexDirection: "column",
@@ -1987,7 +2000,7 @@ export function ReflexoLecteur({
         <p
           style={{
             flexShrink: 0,
-            margin: "0 0 8px",
+            margin: "14px 0 10px",
             textAlign: "center",
             fontFamily: "var(--font-playfair), Georgia, serif",
             fontWeight: 700,
@@ -2032,9 +2045,10 @@ export function ReflexoLecteur({
             className="reflexo-fade"
             style={{
               fontFamily: "var(--font-playfair), Georgia, serif",
-              // 18 px est le plafond mesuré : au-delà, « la colonne vertébrale »
-              // passe à deux lignes sur le plus petit paysage (230 px de colonne).
-              fontSize: 18,
+              // 20 px : le plafond mesuré une fois la colonne de texte élargie
+              // (le panneau est passé de 1,7:1 à 1,4:1). Au-delà, « la colonne
+              // vertébrale » repasserait à deux lignes sur le plus petit paysage.
+              fontSize: 20,
               letterSpacing: ".2px",
               margin: "0 0 10px",
               lineHeight: 1.2,
@@ -2049,13 +2063,13 @@ export function ReflexoLecteur({
             <div className="reflexo-fade" style={{ display: "grid", gap: 10, margin: 0 }}>
               {s.zonesTexte.map((z, i) => (
                 <div key={`${z.designation}-${i}`}>
-                  <p style={{ fontSize: 15, lineHeight: 1.4, margin: 0 }}>
+                  <p style={{ fontSize: 16, lineHeight: 1.4, margin: 0 }}>
                     <span style={{ color: EUCAL }}>{i + 1}. </span>
                     {texteGras(z.phrase || z.designation)}
                   </p>
                   {z.geste ? (
-                    <p style={{ fontSize: 12.5, color: EUCAL, lineHeight: 1.45, margin: "2px 0 0" }}>
-                      {z.designation} — {z.geste}
+                    <p style={{ fontSize: 13, color: EUCAL, lineHeight: 1.45, fontStyle: "italic", margin: "2px 0 0" }}>
+                      {z.geste}
                     </p>
                   ) : null}
                 </div>
@@ -2063,11 +2077,11 @@ export function ReflexoLecteur({
             </div>
           ) : (
             <>
-              <p className="reflexo-fade" style={{ fontSize: 15, lineHeight: 1.45, margin: "0 0 10px" }}>
+              <p className="reflexo-fade" style={{ fontSize: 16, lineHeight: 1.45, margin: "0 0 10px" }}>
                 {texteGras(s?.intention ?? "")}
               </p>
               {s?.desc ? (
-                <p className="reflexo-fade" style={{ fontSize: 13, color: EUCAL, lineHeight: 1.5, margin: 0 }}>
+                <p className="reflexo-fade" style={{ fontSize: 13, color: EUCAL, lineHeight: 1.5, fontStyle: "italic", margin: 0 }}>
                   {texteGras(s.desc)}
                 </p>
               ) : null}
@@ -2115,7 +2129,7 @@ export function ReflexoLecteur({
               ❮
             </button>
             <button
-              onClick={() => setPlaying((p) => !p)}
+              onClick={basculerLecture}
               aria-label={playing ? "Mettre en pause" : "Lancer la lecture"}
               style={ctlSolid}
             >

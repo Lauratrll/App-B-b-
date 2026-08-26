@@ -33,7 +33,7 @@
       "vitesse": "constante, durée de chaque orteil proportionnelle à sa longueur (le gros orteil dure plus longtemps)",
       "vitesse_px_ms": 0.06,
       "valide": true,
-      "geste_court": "Pression glissée, 3 répétitions.",
+      "geste_court": "Pression glissée, 3 répétitions.",
       "phrase_physio": "Soutient la gorge et les défenses.",
       "phrase_energie": ""
     },
@@ -61,7 +61,7 @@
       "note": "PAS de miroir : le même sens de rotation sur les deux talons",
       "duree_passage_ms": 6000,
       "valide": true,
-      "geste_court": "Pression en spirale vers le centre, 3 répétitions.",
+      "geste_court": "Pression en spirale vers le centre, 3 répétitions.",
       "phrase_physio": "Détend le bassin et ancre.",
       "phrase_energie": ""
     },
@@ -84,7 +84,7 @@
       "passages": 3,
       "sens": "du bord intérieur vers l'extérieur",
       "valide": true,
-      "geste_court": "Pression glissée, 3 répétitions.",
+      "geste_court": "Pression glissée, 3 répétitions.",
       "phrase_physio": "Soutient l'ancrage et la sécurité.",
       "phrase_energie": ""
     },
@@ -109,7 +109,7 @@
       "nb_points": 1,
       "passages": 3,
       "valide": true,
-      "geste_court": "Pression maintenue, 3 répétitions.",
+      "geste_court": "Pression maintenue, 3 répétitions.",
       "phrase_physio": "Apaise la bouche et les gencives.",
       "phrase_energie": ""
     },
@@ -132,7 +132,7 @@
       "nb_points": 1,
       "passages": 3,
       "valide": true,
-      "geste_court": "Pression maintenue, 3 répétitions.",
+      "geste_court": "Pression maintenue, 3 répétitions.",
       "phrase_physio": "Soutient l'ouverture et la fermeture de l'estomac.",
       "phrase_energie": ""
     },
@@ -155,7 +155,7 @@
       "sens": "du haut (gros orteil) vers le bas (talon)",
       "passages": 3,
       "valide": true,
-      "geste_court": "Pression glissée, 3 répétitions.",
+      "geste_court": "Pression glissée, 3 répétitions.",
       "phrase_physio": "Détend l'axe du dos, calme le système nerveux.",
       "phrase_energie": ""
     },
@@ -178,7 +178,7 @@
       "passages": 3,
       "sens": "du haut, le long du bord, puis autour du talon",
       "valide": true,
-      "geste_court": "Pression glissée, 3 répétitions.",
+      "geste_court": "Pression glissée, 3 répétitions.",
       "phrase_physio": "Détend l'axe du dos, contient le corps.",
       "phrase_energie": ""
     },
@@ -201,7 +201,7 @@
       "passages": 3,
       "sens": "du bord intérieur vers l'extérieur",
       "valide": true,
-      "geste_court": "Pression glissée, 3 répétitions.",
+      "geste_court": "Pression glissée, 3 répétitions.",
       "phrase_physio": "Détend la nuque et la gorge.",
       "phrase_energie": ""
     },
@@ -228,7 +228,7 @@
       "valide": true,
       "emplacement": "SUR LE DESSUS DU PIED, autour de l'ongle du gros orteil (zone haute et zone basse) — PAS sous le pied",
       "mise_en_avant": true,
-      "geste_court": "Sur le DESSUS du pied, pression glissée sur le bord de l'ongle, 2 répétitions.",
+      "geste_court": "Sur le DESSUS du pied, pression glissée sur le bord de l'ongle, 2 répétitions.",
       "phrase_physio": "Soulage les gencives du bas.",
       "phrase_energie": ""
     },
@@ -255,7 +255,7 @@
       "valide": true,
       "emplacement": "SUR LE DESSUS DU PIED, autour de l'ongle du gros orteil (zone haute et zone basse) — PAS sous le pied",
       "mise_en_avant": true,
-      "geste_court": "Sur le DESSUS du pied, pression glissée sur le bord de l'ongle, 2 répétitions.",
+      "geste_court": "Sur le DESSUS du pied, pression glissée sur le bord de l'ongle, 2 répétitions.",
       "phrase_physio": "Soulage les gencives du haut.",
       "phrase_energie": ""
     },
@@ -278,7 +278,7 @@
       "sens": "du bord intérieur (gros orteil) vers l'extérieur (petit orteil)",
       "passages": 3,
       "valide": true,
-      "geste_court": "Pression glissée, 3 répétitions.",
+      "geste_court": "Pression glissée, 3 répétitions.",
       "phrase_physio": "Relâche et déplie la respiration.",
       "phrase_energie": "Détend, aide au retour au calme."
     },
@@ -298,14 +298,14 @@
         "designation": false,
         "mouvement": false
       },
-      "sens": "d'abord le trait vertical en pression glissée (3 passages, haut vers bas), puis la grande surface en boucles progressives du centre vers l'extérieur (3 passages)",
+      "sens": "d'abord le trait vertical en pression glissée (3 passages, haut vers bas), puis la grande surface en boucles progressives du centre vers l'extérieur (3 passages)",
       "passages": 3,
       "nb_elements": 2,
       "note": "zone composite : 2 éléments avec 2 mouvements différents, joués l un après l autre",
       "duree_surface_ms": 9000,
       "depart": "commence par peindre le bord (bordure centrale) avant de dérouler les boucles",
       "valide": true,
-      "geste_court": "Pression glissée, puis travail de la zone, 3 répétitions.",
+      "geste_court": "Pression glissée, puis travail de la zone, 3 répétitions.",
       "phrase_physio": "Accompagne toute la digestion.",
       "phrase_energie": ""
     },
@@ -328,7 +328,7 @@
       "nb_points": 1,
       "passages": 3,
       "valide": true,
-      "geste_court": "Pression maintenue, 3 répétitions.",
+      "geste_court": "Pression maintenue, 3 répétitions.",
       "phrase_physio": "Régule les cycles éveil-sommeil.",
       "phrase_energie": ""
     },
@@ -354,7 +354,7 @@
       "duree_passage_ms": 5000,
       "depart": "commence par peindre le bord (bordure centrale) avant de dérouler les boucles",
       "valide": true,
-      "geste_court": "Pression rotative, 3 répétitions.",
+      "geste_court": "Pression rotative, 3 répétitions.",
       "mouvement_label": "Pression rotative",
       "phrase_physio": "Apaise le haut du ventre, aide la digestion.",
       "phrase_energie": "Digère les émotions, apaise la rumination."
@@ -376,7 +376,7 @@
       },
       "passages": 3,
       "valide": true,
-      "geste_court": "Pression rotative, 3 répétitions.",
+      "geste_court": "Pression rotative, 3 répétitions.",
       "phrase_physio": "Filtre et nettoie.",
       "phrase_energie": "Relâche la colère et la frustration, invite au calme."
     },
@@ -400,7 +400,7 @@
       "ordre": "du point le plus proche du gros orteil vers l'extérieur",
       "passages": 2,
       "valide": true,
-      "geste_court": "Pression maintenue, 2 répétitions.",
+      "geste_court": "Pression maintenue, 2 répétitions.",
       "phrase_physio": "Soutient les anticorps.",
       "phrase_energie": ""
     },
@@ -425,7 +425,7 @@
       "enchaine_pieds": true,
       "note": "seule zone NON miroir : chaque pied a sa propre forme et son propre tracé",
       "valide": true,
-      "geste_court": "Pression glissée, 3 répétitions.",
+      "geste_court": "Pression glissée, 3 répétitions.",
       "phrase_physio": "Accompagne le transit et l'élimination.",
       "phrase_energie": "Accompagne le lâcher-prise, laisse partir ce qui pèse."
     },
@@ -448,7 +448,7 @@
       "nb_points": 1,
       "passages": 3,
       "valide": true,
-      "geste_court": "Pression maintenue, 3 répétitions.",
+      "geste_court": "Pression maintenue, 3 répétitions.",
       "phrase_physio": "Harmonise la régulation des hormones.",
       "phrase_energie": ""
     },
@@ -473,7 +473,7 @@
       "miroir": false,
       "note": "sens horaire choisi pour suivre le sens de la digestion — À VALIDER",
       "valide": true,
-      "geste_court": "Pression rotative, 3 répétitions.",
+      "geste_court": "Pression rotative, 3 répétitions.",
       "mouvement_label": "Pression rotative",
       "phrase_physio": "Accompagne l'assimilation des nutriments.",
       "phrase_energie": "Apaise l'agitation et l'excitation, invite au repos."
@@ -497,7 +497,7 @@
       "passages": 3,
       "sens": "du haut vers le bas",
       "valide": true,
-      "geste_court": "Pression glissée, 3 répétitions.",
+      "geste_court": "Pression glissée, 3 répétitions.",
       "phrase_physio": "Accueille le passage des aliments.",
       "phrase_energie": ""
     },
@@ -523,7 +523,7 @@
       "duree_passage_ms": 5000,
       "depart": "commence par peindre le bord (bordure centrale) avant de dérouler les boucles",
       "valide": true,
-      "geste_court": "Pression rotative, 3 répétitions.",
+      "geste_court": "Pression rotative, 3 répétitions.",
       "mouvement_label": "Pression rotative",
       "phrase_physio": "Accompagne la digestion et régule la glycémie.",
       "phrase_energie": "Ancre et rassure."
@@ -547,7 +547,7 @@
       "nb_points": 1,
       "passages": 3,
       "valide": true,
-      "geste_court": "Pression maintenue, 3 répétitions.",
+      "geste_court": "Pression maintenue, 3 répétitions.",
       "phrase_physio": "Dénoue les tensions du ventre et du souffle.",
       "phrase_energie": "Centre des émotions : libère et apporte de la joie."
     },
@@ -570,7 +570,7 @@
       "nb_points": 1,
       "passages": 3,
       "valide": true,
-      "geste_court": "Pression maintenue, 3 répétitions.",
+      "geste_court": "Pression maintenue, 3 répétitions.",
       "phrase_physio": "recentre, point d'équilibre général.",
       "phrase_energie": ""
     },
@@ -598,7 +598,7 @@
       "depart": "commence par peindre le bord (bordure centrale) avant de dérouler les boucles",
       "duree_passage_ms": 8600,
       "valide": true,
-      "geste_court": "Pression rotative, 3 répétitions.",
+      "geste_court": "Pression rotative, 3 répétitions.",
       "mouvement_label": "Pression rotative",
       "phrase_physio": "Ouvre la respiration, oxygène le corps.",
       "phrase_energie": "Aide à lâcher prise, apaise la tristesse."
@@ -620,7 +620,7 @@
       },
       "passages": 3,
       "valide": true,
-      "geste_court": "Pression rotative, 3 répétitions.",
+      "geste_court": "Pression rotative, 3 répétitions.",
       "phrase_physio": "Soutient les défenses et l'énergie du sang.",
       "phrase_energie": "Apaise l'inquiétude, ancre et rassure."
     },
@@ -643,7 +643,7 @@
       "nb_points": 1,
       "passages": 3,
       "valide": true,
-      "geste_court": "Pression maintenue, 3 répétitions.",
+      "geste_court": "Pression maintenue, 3 répétitions.",
       "phrase_physio": "Soutient l'équilibre de l'eau et élimine les déchets.",
       "phrase_energie": "Apaise la peur, donne confiance."
     },
@@ -665,7 +665,7 @@
       },
       "passages": 3,
       "valide": true,
-      "geste_court": "Pression glissée, 2 allers-retours.",
+      "geste_court": "Pression glissée, 2 allers-retours.",
       "phrase_physio": "Soulage les voies respiratoires.",
       "phrase_energie": ""
     },
@@ -688,7 +688,7 @@
       "nb_points": 1,
       "passages": 3,
       "valide": true,
-      "geste_court": "Pression maintenue, 3 répétitions.",
+      "geste_court": "Pression maintenue, 3 répétitions.",
       "phrase_physio": "Soutient l'énergie et la réponse au stress.",
       "phrase_energie": "Soutient l'énergie et la réponse à la douleur."
     },
@@ -709,7 +709,7 @@
         "mouvement": false
       },
       "valide": true,
-      "geste_court": "Pression circulaire, 3 répétitions.",
+      "geste_court": "Pression circulaire, 3 répétitions.",
       "phrase_physio": "Apaise la tête, accueille bébé entier.",
       "phrase_energie": "Favorise la circulation de l'énergie."
     },
@@ -732,7 +732,7 @@
       "nb_points": 1,
       "passages": 3,
       "valide": true,
-      "geste_court": "Pression maintenue, 3 répétitions.",
+      "geste_court": "Pression maintenue, 3 répétitions.",
       "phrase_physio": "Soutient les défenses immunitaires.",
       "phrase_energie": "Régule le stress."
     },
@@ -757,7 +757,7 @@
       "note": "zone dessinée AU TRAIT (fill:none, stroke-width:20) : le tracé est déjà la médiane, aucun détourage",
       "duree_passage_ms": 2600,
       "valide": true,
-      "geste_court": "Pression glissée, 3 répétitions.",
+      "geste_court": "Pression glissée, 3 répétitions.",
       "phrase_physio": "Accompagne le rythme du métabolisme.",
       "phrase_energie": ""
     },
@@ -779,7 +779,7 @@
       "nb_points": 1,
       "passages": 3,
       "valide": true,
-      "geste_court": "Pression maintenue, 3 répétitions.",
+      "geste_court": "Pression maintenue, 3 répétitions.",
       "phrase_physio": "Accompagne la digestion des graisses.",
       "phrase_energie": "Apaise l'irritabilité."
     },
@@ -801,7 +801,7 @@
         "designation": false,
         "mouvement": false
       },
-      "geste_court": "Pression maintenue, 3 répétitions.",
+      "geste_court": "Pression maintenue, 3 répétitions.",
       "phrase_physio": "Soutient la conscience de soi et la concentration.",
       "phrase_energie": ""
     },
@@ -823,7 +823,7 @@
         "designation": false,
         "mouvement": false
       },
-      "geste_court": "Pression glissée, 3 répétitions.",
+      "geste_court": "Pression glissée, 3 répétitions.",
       "phrase_physio": "Détend le bas du dos et le bassin.",
       "phrase_energie": ""
     },
@@ -845,11 +845,11 @@
         "mouvement": false
       },
       "enchainement": [
-        "pression maintenue 3 s sur le point vessie",
+        "pression maintenue 3 s sur le point vessie",
         "pression glissée lente vessie → rein",
         "pression maintenue sur le rein"
       ],
-      "geste_court": "Point de pression, puis pression glissée, puis point de pression, 3 répétitions.",
+      "geste_court": "Point de pression, puis pression glissée, puis point de pression, 3 répétitions.",
       "phrase_physio": "Accompagne les reins et la vessie.",
       "phrase_energie": "Rejète la peur, soutient la confiance."
     },
@@ -868,7 +868,7 @@
         "designation": false,
         "mouvement": false
       },
-      "geste_court": "Pression maintenue, 3 répétitions.",
+      "geste_court": "Pression maintenue, 3 répétitions.",
       "phrase_physio": "Accompagne l'élimination urinaire.",
       "phrase_energie": "Apaise la peur, soutient la sérénité."
     },
@@ -887,7 +887,7 @@
         "designation": false,
         "mouvement": false
       },
-      "geste_court": "Pression maintenue, 3 répétitions.",
+      "geste_court": "Pression maintenue, 3 répétitions.",
       "phrase_physio": "Relâche les tensions.",
       "phrase_energie": ""
     },
@@ -906,7 +906,7 @@
         "designation": false,
         "mouvement": false
       },
-      "geste_court": "Pression maintenue, 3 répétitions.",
+      "geste_court": "Pression maintenue, 3 répétitions.",
       "phrase_physio": "Détend et ancre la base de la motricité.",
       "phrase_energie": ""
     },
@@ -926,9 +926,9 @@
         "mouvement": false
       },
       "sequence": "croix-complete-par-passage",
-      "sens": "le nez de haut en bas, puis du bord vers les autres orteils ; une passe = toute la croix, répétée 3 fois",
+      "sens": "le nez de haut en bas, puis du bord vers les autres orteils ; une passe = toute la croix, répétée 3 fois",
       "passages": 3,
-      "geste_court": "Pression glissée, 3 répétitions.",
+      "geste_court": "Pression glissée, 3 répétitions.",
       "phrase_physio": "Dégage les sinus profonds.",
       "phrase_energie": ""
     },
@@ -949,7 +949,7 @@
       },
       "passages": 3,
       "sens": "de l'intérieur vers l'extérieur",
-      "geste_court": "Pression glissée, 3 répétitions.",
+      "geste_court": "Pression glissée, 3 répétitions.",
       "phrase_physio": "Soulage la pression.",
       "phrase_energie": ""
     },
@@ -971,7 +971,7 @@
       "sens": "du haut vers le bas, le long de la colonne allongée",
       "passages": 3,
       "note": "version allongée de la colonne intégrant le nerf vague ; s'utilise À LA PLACE de la colonne (jamais en plus)",
-      "geste_court": "Pression glissée, 3 répétitions.",
+      "geste_court": "Pression glissée, 3 répétitions.",
       "phrase_physio": "Détend l'axe du dos et apaise en profondeur.",
       "phrase_energie": "Active l'apaisement profond : ralentit, calme, sécurise."
     }
