@@ -32,6 +32,13 @@ const GLISSE_T_MIN = 2000;
 const GLISSE_T_MAX = 7000;
 const INK = "#3A3228";
 const EUCAL = "#6f5f52";
+// Écran de conclusion : le temps de lire la phrase de fin, sans se presser.
+const CONCLUSION_DUR = 7000;
+// Respiration réglable entre deux étapes (choix du parent, ms). Le mouvement se
+// fige sur sa dernière image pendant ce temps : le geste a le temps d'être
+// reproduit sur le pied avant que l'écran ne passe à la zone suivante.
+const PAUSES_SUPP = [0, 3000, 6000] as const;
+const PAUSE_CLE = "reflexo-pause-etapes";
 // Le fond de la scène vit dans reflexo-design : l'introduction de l'accueil
 // reprend la même couleur, il ne doit y en avoir qu'une définition.
 const BG_PIED = REFLEXO_FOND_LECTEUR;
@@ -506,10 +513,28 @@ export function ReflexoLecteur({
   steps,
   titre,
   onClose,
+  noteFin,
+  onMesure,
 }: {
   steps: ReflexoAnimStep[];
   titre: string;
   onClose: () => void;
+  /**
+   * La note de fin du protocole (« Termine en allégeant le contact… »). Quand
+   * elle est fournie, la lecture se termine par un écran de conclusion : toutes
+   * les zones s'effacent et cette phrase reste seule. Ce n'est PAS une étape —
+   * elle ne porte pas de numéro et n'entre pas dans le décompte (choix Laura).
+   */
+  noteFin?: string;
+  /**
+   * Mode MESURE (page /dev-durees-reflexo, hors production). Le lecteur prépare
+   * chaque étape sans la jouer, additionne les durées réelles et renvoie le
+   * total en millisecondes. C'est la seule façon d'annoncer une durée juste sur
+   * le bouton « Lancer le protocole » : elle est calculée par le moteur
+   * d'animation lui-même, jamais réestimée à côté (qui dériverait au premier
+   * réglage de mouvement).
+   */
+  onMesure?: (totalMs: number) => void;
 }) {
   const stageRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement | null>(null);
@@ -535,6 +560,33 @@ export function ReflexoLecteur({
   const [step, setStep] = useState(0);
   const [playing, setPlaying] = useState(false);
   const [portrait, setPortrait] = useState(false);
+  // Respiration entre deux étapes, choisie par le parent et retenue d'une
+  // lecture à l'autre. Elle n'allonge que l'attente AVANT de passer à la zone
+  // suivante : ni le mouvement, ni le texte, ni la durée annoncée sur le bouton
+  // ne changent (demande Laura).
+  const [pauseSupp, setPauseSupp] = useState(0);
+  useEffect(() => {
+    try {
+      const v = Number(window.localStorage.getItem(PAUSE_CLE));
+      if (PAUSES_SUPP.includes(v as (typeof PAUSES_SUPP)[number])) setPauseSupp(v);
+    } catch {
+      /* stockage indisponible : on reste sur « sans pause » */
+    }
+  }, []);
+  const choisirPause = (v: number) => {
+    setPauseSupp(v);
+    try {
+      window.localStorage.setItem(PAUSE_CLE, String(v));
+    } catch {
+      /* stockage indisponible : le choix vaut pour cette lecture */
+    }
+  };
+
+  // Nombre d'écrans à parcourir : les étapes, plus l'écran de conclusion quand
+  // le protocole a une note de fin. La conclusion n'est PAS une étape : elle ne
+  // s'ajoute ni au décompte affiché ni aux pastilles.
+  const nbEcrans = steps.length + (noteFin ? 1 : 0);
+  const conclusion = Boolean(noteFin) && step >= steps.length;
 
   const reducedMotion =
     typeof window !== "undefined" &&
@@ -685,7 +737,12 @@ export function ReflexoLecteur({
       const anims: Anim[] = [];
       const s = steps[i];
       if (!s) {
+        // Écran de conclusion (i === steps.length) : plus aucune zone visible —
+        // les pieds redeviennent nus, comme au moment où l'on retire ses mains.
+        // Le masquage vient d'être fait juste au-dessus, il n'y a rien à animer.
         animsRef.current = anims;
+        stepDurRef.current = CONCLUSION_DUR;
+        t0Ref.current = performance.now();
         return;
       }
       const defs = defsRef.current;
@@ -1915,7 +1972,10 @@ export function ReflexoLecteur({
         t0Ref.current = now; // gel en pause
         return;
       }
-      renderFrame(now - t0Ref.current);
+      // Le temps rendu est borné à la durée réelle de l'étape : pendant la
+      // respiration réglable qui suit, le mouvement reste figé sur sa dernière
+      // image au lieu de repartir pour un tour.
+      renderFrame(Math.min(now - t0Ref.current, stepDurRef.current));
     };
     rafRef.current = requestAnimationFrame(loop);
     return () => cancelAnimationFrame(rafRef.current);
@@ -1933,21 +1993,37 @@ export function ReflexoLecteur({
     playingRef.current = playing;
   }, [playing]);
 
+  // Mesure de la durée totale (hors production) : on prépare chaque étape à la
+  // suite, sans rien jouer, et on additionne les durées que le moteur calcule
+  // lui-même. L'étape courante est remise en place à la fin.
+  const mesureFaite = useRef(false);
+  useEffect(() => {
+    if (!onMesure || !ready || !geomReady || mesureFaite.current) return;
+    mesureFaite.current = true;
+    let total = 0;
+    for (let i = 0; i < steps.length; i++) {
+      setupStep(i);
+      total += stepDurRef.current;
+    }
+    setupStep(stepRef.current);
+    onMesure(total + (noteFin ? CONCLUSION_DUR : 0));
+  }, [onMesure, ready, geomReady, steps.length, setupStep, noteFin]);
+
   // Lecture auto : avance quand le mouvement de l'étape est terminé (durée réelle
   // calculée dans setupStep → stepDurRef), s'arrête à la dernière étape.
   useEffect(() => {
     if (!ready || !playing) return;
     const t = setTimeout(() => {
       setStep((s) => {
-        if (s < steps.length - 1) return s + 1;
+        if (s < nbEcrans - 1) return s + 1;
         // Fin de séquence : ce n'est PAS une pause demandée par le parent, donc
         // une flèche relancera bien la lecture.
         setPlaying(false);
         return s;
       });
-    }, stepDurRef.current);
+    }, stepDurRef.current + pauseSupp);
     return () => clearTimeout(t);
-  }, [ready, playing, step, steps.length]);
+  }, [ready, playing, step, nbEcrans, pauseSupp]);
 
   const s = steps[step];
 
@@ -1963,7 +2039,7 @@ export function ReflexoLecteur({
     setPlaying(!pauseVoulue.current);
   };
   const goPrev = () => allerA((v) => Math.max(0, v - 1));
-  const goNext = () => allerA((v) => Math.min(steps.length - 1, v + 1));
+  const goNext = () => allerA((v) => Math.min(nbEcrans - 1, v + 1));
   const basculerLecture = () =>
     setPlaying((p) => {
       pauseVoulue.current = p; // on passait de « en lecture » à « en pause »
@@ -2037,9 +2113,16 @@ export function ReflexoLecteur({
             justifyContent: "center",
           }}
         >
-          {/* Le décompte suit celui des étapes, dans l'écriture des sous-titres. */}
+          {/* Le décompte suit celui des étapes, dans l'écriture des sous-titres.
+              La conclusion n'en fait pas partie : elle ne porte pas de numéro. */}
           <div style={{ fontSize: 11, textTransform: "uppercase", letterSpacing: "2px", color: EUCAL, marginBottom: 8 }}>
-            {s?.horsPied ? "Étape" : "Zone réflexe"} {s?.ordre ?? step + 1} / {steps.length}
+            {conclusion ? (
+              "Pour finir"
+            ) : (
+              <>
+                {s?.horsPied ? "Étape" : "Zone réflexe"} {s?.ordre ?? step + 1} / {steps.length}
+              </>
+            )}
           </div>
           <h2
             className="reflexo-fade"
@@ -2054,12 +2137,16 @@ export function ReflexoLecteur({
               lineHeight: 1.2,
             }}
           >
-            {s?.horsPied ? s.designation : nomZone(s?.designation ?? "")}
+            {conclusion ? "Termine en douceur" : s?.horsPied ? s.designation : nomZone(s?.designation ?? "")}
           </h2>
           {/* Le pourquoi + le geste. Une étape à gestes enchaînés (bassin, dents,
               cardia/pylore) porte deux zones : on montre les deux, dans l'ordre
               où elles se jouent. Cf. consignes §4 « Textes affichés par zone ». */}
-          {(s?.zonesTexte?.length ?? 0) > 1 ? (
+          {conclusion ? (
+            <p className="reflexo-fade" style={{ fontSize: 16, lineHeight: 1.45, margin: 0 }}>
+              {texteGras(noteFin ?? "")}
+            </p>
+          ) : (s?.zonesTexte?.length ?? 0) > 1 ? (
             <div className="reflexo-fade" style={{ display: "grid", gap: 10, margin: 0 }}>
               {s.zonesTexte.map((z, i) => (
                 <div key={`${z.designation}-${i}`}>
@@ -2109,8 +2196,35 @@ export function ReflexoLecteur({
           ) : null}
         </div>
 
-        {/* Pied figé : pastilles + commandes. Symboles seuls, sans libellé. */}
+        {/* Pied figé : respiration, pastilles, commandes. */}
         <div style={{ flexShrink: 0, paddingTop: 14 }}>
+          {/* Respiration entre les étapes : le temps de reproduire le geste sur
+              le pied avant que l'écran ne passe à la zone suivante. */}
+          <div style={{ display: "flex", alignItems: "center", gap: 7, marginBottom: 10, flexWrap: "wrap" }}>
+            <span style={{ fontSize: 9, textTransform: "uppercase", letterSpacing: "1.5px", color: EUCAL }}>
+              Pause
+            </span>
+            {PAUSES_SUPP.map((v) => (
+              <button
+                key={v}
+                onClick={() => choisirPause(v)}
+                aria-pressed={pauseSupp === v}
+                style={{
+                  border: "none",
+                  borderRadius: 8,
+                  padding: "5px 9px",
+                  fontSize: 11,
+                  fontWeight: 600,
+                  cursor: "pointer",
+                  background: pauseSupp === v ? INK : "rgba(58,50,40,.12)",
+                  color: pauseSupp === v ? "#fff" : INK,
+                }}
+              >
+                {/* Espace insécable avant « s » : le nombre et son unité ne se séparent jamais. */}
+                {v === 0 ? "Aucune" : `+${v / 1000} s`}
+              </button>
+            ))}
+          </div>
           <div style={{ display: "flex", gap: 7, marginBottom: 12, flexWrap: "wrap" }}>
             {steps.map((_, k) => (
               <span
@@ -2138,8 +2252,8 @@ export function ReflexoLecteur({
             <button
               onClick={goNext}
               aria-label="Étape suivante"
-              disabled={step === steps.length - 1}
-              style={ctlGhost(step === steps.length - 1)}
+              disabled={step === nbEcrans - 1}
+              style={ctlGhost(step === nbEcrans - 1)}
             >
               ❯
             </button>
@@ -2227,79 +2341,57 @@ function ctlGhost(disabled: boolean): React.CSSProperties {
 
 // --- La carte visuelle + déclenchement du lecteur --------------------------
 
+/** Durée annoncée sur le bouton, arrondie à la minute (jamais « 0 min »). */
+function minutes(ms: number): string {
+  // Espace insécable : « 3 min » ne doit jamais se couper en fin de ligne.
+  return `${Math.max(1, Math.round(ms / 60000))} min`;
+}
+
 /**
- * Carte « Les zones réflexes, pas à pas » : l'image récapitulative avec un
- * bouton ▶ qui ouvre le lecteur animé en plein écran.
+ * Carte « Les zones réflexes, pas à pas » : l'image récapitulative, suivie du
+ * bouton qui ouvre le lecteur animé en plein écran.
+ *
+ * UN SEUL bouton, et il est nommé (choix Laura). Le disque posé sur l'image
+ * faisait doublon : un pictogramme ne dit pas ce qu'il déclenche, et celui-là
+ * ne tenait que 1,73 de contraste sur le fond de la carte. Le libellé fait le
+ * travail que le symbole seul ne faisait pas ; la durée annoncée à côté évite
+ * au parent de se lancer sans savoir combien de temps cela va prendre.
  */
 export function ReflexoCarte({
   visuel,
   titre,
   steps,
   couleur,
+  noteFin,
+  dureeMs,
 }: {
   visuel: string;
   titre: string;
   steps: ReflexoAnimStep[];
-  /**
-   * Le ton profond de la famille du protocole, pour le bouton de lecture.
-   * Un disque blanc ne tenait que 1,73 de contraste sur le fond de la carte :
-   * beaucoup de parents seraient passés à côté. Ces tons-là montent à 4,0, avec
-   * un triangle blanc à 7,0 par-dessus — sans virer au rouge d'alerte.
-   */
+  /** Le ton profond de la famille du protocole : le bouton porte sa couleur. */
   couleur?: string;
+  /** La note de fin du protocole, affichée en conclusion de la lecture animée. */
+  noteFin?: string;
+  /**
+   * Durée totale MESURÉE de l'animation (ms), lue dans
+   * reflexologie/durees-protocoles.json — jamais estimée à la main.
+   */
+  dureeMs?: number;
 }) {
   const [open, setOpen] = useState(false);
   const jouable = steps.some((s) => s.cibles.length > 0);
 
   return (
     <>
-      <div style={{ position: "relative", borderRadius: 14, overflow: "hidden", background: BG_PIED }}>
+      <div style={{ borderRadius: 14, overflow: "hidden", background: BG_PIED }}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={visuel}
           alt={`Zones réflexes du protocole ${titre}, numérotées dans l'ordre des étapes`}
           style={{ display: "block", width: "100%", height: "auto" }}
         />
-        {jouable ? (
-          <button
-            onClick={() => setOpen(true)}
-            aria-label="Lancer la lecture animée"
-            style={{
-              position: "absolute",
-              inset: 0,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              border: "none",
-              background: "transparent",
-              cursor: "pointer",
-            }}
-          >
-            <span
-              style={{
-                width: 54,
-                height: 54,
-                borderRadius: "50%",
-                background: couleur ?? INK,
-                boxShadow: "0 3px 12px rgba(58,50,40,.28)",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              {/* Triangle blanc sur le disque coloré : le sens de lecture reste
-                  évident, et son contraste passe de 1,0 à 7,0. */}
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="#FFFFFF">
-                <path d="M8 5.5v13l11-6.5z" />
-              </svg>
-            </span>
-          </button>
-        ) : null}
       </div>
 
-      {/* Le bouton nommé, sous l'image. Un pictogramme seul se rate — même
-          bien contrasté, rien ne dit au parent ce qu'il déclenche. Le disque
-          sur l'image marque l'endroit, ce bouton nomme l'action. */}
       {jouable ? (
         <button
           onClick={() => setOpen(true)}
@@ -2324,10 +2416,18 @@ export function ReflexoCarte({
             <path d="M8 5.5v13l11-6.5z" />
           </svg>
           Lancer le protocole
+          {dureeMs ? (
+            // La durée reste en retrait : c'est un repère, pas le titre du bouton.
+            <span style={{ fontWeight: 400, fontStyle: "italic", opacity: 0.82 }}>
+              &mdash; {minutes(dureeMs)}
+            </span>
+          ) : null}
         </button>
       ) : null}
 
-      {open ? <ReflexoLecteur steps={steps} titre={titre} onClose={() => setOpen(false)} /> : null}
+      {open ? (
+        <ReflexoLecteur steps={steps} titre={titre} noteFin={noteFin} onClose={() => setOpen(false)} />
+      ) : null}
     </>
   );
 }

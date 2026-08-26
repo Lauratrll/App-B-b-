@@ -28,6 +28,7 @@ import accueilJson from "@/reflexologie/accueil-onglet-reflexologie.json";
 import ouvertureJson from "@/reflexologie/_ouverture-commune.json";
 import catalogueJson from "@/reflexologie/zones-mouvements.json";
 import iconesJson from "@/reflexologie/icones-protocoles.json";
+import dureesJson from "@/reflexologie/durees-protocoles.json";
 
 import accueilNouveauNe from "@/reflexologie/protocole-accueil-nouveau-ne.json";
 import agitationConcentration from "@/reflexologie/protocole-agitation-concentration.json";
@@ -288,6 +289,24 @@ export function getProtocole(id: string): ReflexoProtocole | null {
   const p = PAR_ID.get(id);
   if (!p || (!TOUT_VISIBLE && p.lancement !== true)) return null;
   return p;
+}
+
+/**
+ * La durée totale de la lecture animée d'un protocole, en millisecondes, ou
+ * `undefined` si elle n'a pas encore été mesurée (le bouton n'annonce alors
+ * aucune durée plutôt qu'une durée fausse).
+ *
+ * Ces valeurs sortent du moteur d'animation lui-même : elles dépendent de la
+ * géométrie réelle des zones (longueur des médianes, nombre de points d'appui,
+ * nombre d'orteils), qu'aucun calcul « à côté » ne saurait reproduire sans
+ * dériver. Régénération : `npm run dev`, puis /dev-durees-reflexo.
+ */
+export function getDureeAnimation(
+  id: string,
+  { avecVariante = false }: { avecVariante?: boolean } = {},
+): number | undefined {
+  const cle = avecVariante ? `${id}+variante` : id;
+  return (dureesJson.durees as Record<string, number>)[cle] || undefined;
 }
 
 /**

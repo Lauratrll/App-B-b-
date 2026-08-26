@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { requireProfile } from "@/lib/auth";
 import { getBabyMonth } from "@/lib/utils";
 import {
+  getDureeAnimation,
   getIdsPublies,
   getProtocole,
   getRangProtocole,
@@ -250,6 +251,8 @@ export default async function ProtocoleReflexoPage({
             titre={protocole.titre}
             steps={getStepsAnimation(protocole)}
             couleur={famille.profond}
+            noteFin={protocole.note_fin}
+            dureeMs={getDureeAnimation(params.id)}
           />
           <p
             style={{
@@ -263,6 +266,25 @@ export default async function ProtocoleReflexoPage({
             Tourne ton téléphone pour la lecture animée.
           </p>
         </section>
+      ) : null}
+
+      {/* 4 bis. Régularité — rappel COMMUN à tous les protocoles, placé juste
+          après la carte animée et avant la séquence (choix Laura) : c'est la
+          répétition des stimulations qui compte, pas une séance isolée. */}
+      {protocole.regularite ? (
+        <p
+          style={{
+            background: C_FIN.accent,
+            borderRadius: 12,
+            padding: "13px 15px",
+            fontSize: 12.5,
+            lineHeight: 1.6,
+            color: REFLEXO_TEXT,
+            margin: 0,
+          }}
+        >
+          {texteGras(protocole.regularite)}
+        </p>
       ) : null}
 
       {/* 5. Séquence — une étape = un libellé parent, une intention, ses zones */}
@@ -325,6 +347,8 @@ export default async function ProtocoleReflexoPage({
                 titre={`${protocole.titre} — ${protocole.variante.condition.toLowerCase()}`}
                 steps={getStepsAnimation(protocole, { avecVariante: true })}
                 couleur={C_VARIANTE.profond}
+                noteFin={protocole.note_fin}
+                dureeMs={getDureeAnimation(params.id, { avecVariante: true })}
               />
             </div>
           ) : null}
@@ -340,6 +364,41 @@ export default async function ProtocoleReflexoPage({
           ) : null}
         </section>
       ) : null}
+
+      {/* 6. La sortie en douceur — DERNIER GESTE de la séquence, et non une note
+          de bas de page : elle ferme les étapes, dans leur couleur, et le lecteur
+          animé se termine sur cette même phrase (choix Laura). Pas de numéro :
+          c'est une conclusion, elle n'allonge pas le décompte des étapes. */}
+      <div
+        style={{
+          background: GESTE.doux,
+          borderRadius: 13,
+          padding: "13px 15px",
+        }}
+      >
+        <h3
+          style={{
+            fontSize: 10,
+            color: GESTE.profond,
+            letterSpacing: ".13em",
+            textTransform: "uppercase",
+            fontWeight: 700,
+            margin: "0 0 6px 0",
+          }}
+        >
+          Pour finir
+        </h3>
+        <p
+          style={{
+            fontSize: 13,
+            lineHeight: 1.6,
+            color: REFLEXO_TEXT,
+            margin: 0,
+          }}
+        >
+          {texteGras(protocole.note_fin)}
+        </p>
+      </div>
 
       {/* Vigilance — ligne de sécurité mise en avant, si présente */}
       {protocole.vigilance ? (
@@ -362,39 +421,6 @@ export default async function ProtocoleReflexoPage({
             ⚠️
           </span>
           {texteGras(protocole.vigilance)}
-        </p>
-      ) : null}
-
-      {/* 6. Note de fin — consentement + sortie en douceur, toujours affichée */}
-      <p
-        style={{
-          background: C_FIN.doux,
-          borderRadius: 12,
-          padding: "13px 15px",
-          fontSize: 13,
-          lineHeight: 1.6,
-          color: REFLEXO_TEXT,
-          margin: 0,
-        }}
-      >
-        {texteGras(protocole.note_fin)}
-      </p>
-
-      {/* 6 bis. Régularité — rappel COMMUN à tous les protocoles : c'est la
-          répétition qui compte, pas la performance d'une séance (demande Laura). */}
-      {protocole.regularite ? (
-        <p
-          style={{
-            background: C_FIN.accent,
-            borderRadius: 12,
-            padding: "13px 15px",
-            fontSize: 12.5,
-            lineHeight: 1.6,
-            color: REFLEXO_TEXT,
-            margin: 0,
-          }}
-        >
-          {texteGras(protocole.regularite)}
         </p>
       ) : null}
 

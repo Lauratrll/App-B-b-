@@ -1,0 +1,26 @@
+{
+  "_comment": "Durées totales des lectures animées, en millisecondes, MESURÉES par le moteur du lecteur lui-même (page /dev-durees-reflexo, hors production). Ne pas éditer à la main : régénérer après toute modification des constantes de temps de components/modules/reflexo-lecteur.tsx, ou après un changement de séquence. Clé « <id> » = séquence de base, « <id>+variante » = séquence complétée par la variante. La pause réglable entre étapes n'entre PAS dans ces durées : c'est un choix du parent, la durée annoncée reste celle de la lecture normale.",
+  "durees": {
+    "accueil-nouveau-ne": 148382,
+    "prematurite": 149636,
+    "cesarienne": 206657,
+    "confiance-en-soi": 249990,
+    "difficultes-a-teter": 168657,
+    "separation": 169533,
+    "coliques": 146420,
+    "inconfort-digestif": 146420,
+    "frustration-motrice": 204957,
+    "reflux": 158572,
+    "dents": 273790,
+    "constipation": 233766,
+    "diarrhee": 233766,
+    "mal-des-transports": 229254,
+    "sommeil": 168557,
+    "sommeil+variante": 190557,
+    "rhume-otite": 303878,
+    "agitation-concentration": 206405,
+    "anxiete-nervosite": 239505,
+    "opposition-frustration": 210557,
+    "jalousie-fratrie": 120315
+  }
+}
