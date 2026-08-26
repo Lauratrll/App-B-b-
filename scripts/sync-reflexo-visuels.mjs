@@ -22,6 +22,7 @@ import {
   writeFileSync,
 } from "node:fs";
 import { join } from "node:path";
+import { execSync } from "node:child_process";
 
 const REFLEXO = join(process.cwd(), "reflexologie");
 const SRC = join(REFLEXO, "visuels-protocoles");
@@ -119,4 +120,33 @@ if (existsSync(ICONES_SRC)) {
   for (const a of avertissements) console.warn(`⚠️  ${a}`);
 } else {
   console.warn(`⚠️  ${ICONES_SRC} introuvable — les protocoles garderont le picto générique.`);
+}
+
+// ---------------------------------------------------------------------------
+// Repère de version, publiquement lisible sur /reflexologie/build.json.
+//
+// Ajouté le 25/08/2026 après une séance où Laura ne voyait aucun changement à
+// l'écran alors que tout était poussé : impossible de savoir, depuis le dépôt,
+// QUEL commit tournait réellement en ligne. Ce fichier tranche la question en
+// une requête, sans avoir à ouvrir le tableau de bord Vercel.
+//
+// Sur Vercel, le commit vient des variables d'environnement du build ; en
+// local, de git.
+// ---------------------------------------------------------------------------
+{
+  const lireGit = () => {
+    try {
+      return execSync("git rev-parse --short HEAD", { encoding: "utf-8" }).trim();
+    } catch {
+      return null;
+    }
+  };
+  const commit =
+    process.env.VERCEL_GIT_COMMIT_SHA?.slice(0, 7) ?? lireGit() ?? "inconnu";
+  const message = process.env.VERCEL_GIT_COMMIT_MESSAGE ?? null;
+  writeFileSync(
+    join(DEST_REFLEXO, "build.json"),
+    `${JSON.stringify({ commit, message, construitLe: new Date().toISOString() }, null, 2)}\n`,
+  );
+  console.log(`✓ repère de version écrit : commit ${commit}`);
 }
