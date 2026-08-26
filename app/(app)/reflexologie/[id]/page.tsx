@@ -28,8 +28,8 @@ import {
 
 // Écran d'un protocole de « Réflexologie ».
 // Ordre imposé par reflexologie/CONSIGNES_CLAUDE_CODE_onglet_reflexologie.md §4 :
-// titre + intro → émotion → ouverture → séquence → variante (selon l'âge)
-// → note de fin (toujours) → disclaimer (toujours).
+// titre + intro (l'accueil de l'émotion y est intégré) → ouverture → séquence
+// → note de fin (toujours) → régularité (toujours) → disclaimer (toujours).
 
 export function generateStaticParams() {
   return getIdsPublies().map((id) => ({ id }));
@@ -55,7 +55,6 @@ export default async function ProtocoleReflexoPage({
   // d'un protocole à l'autre : c'est la fonction du bloc qui donne la couleur,
   // jamais le protocole. Le terracotta reste réservé à ce qui demande de
   // l'attention (vigilance, emplacement contre-intuitif, disclaimer).
-  const C_EMOTION = REFLEXO_GAMME[0]; // violet bleuté — le ressenti du parent
   // « Avant de commencer » prend la couleur DU PROTOCOLE (choix Laura, 25/08) :
   // même teinte que sa carte dans la liste et que son picto, pour que l'entrée
   // dans la fiche prolonge la case sur laquelle le parent a tapé.
@@ -148,24 +147,6 @@ export default async function ProtocoleReflexoPage({
           {texteGras(protocole.intro)}
         </p>
       </header>
-
-      {/* 2. Émotion — accueille le ressenti, si présente */}
-      {protocole.emotion ? (
-        <p
-          style={{
-            background: C_EMOTION.accent,
-            borderRadius: 12,
-            padding: "13px 15px",
-            fontSize: 13,
-            lineHeight: 1.6,
-            color: REFLEXO_TEXT,
-            fontStyle: "italic",
-            margin: 0,
-          }}
-        >
-          {texteGras(protocole.emotion)}
-        </p>
-      ) : null}
 
       {/* 3. Ouverture — installation, avant tout toucher réflexe. Source COMMUNE
           (version courte : libellé gras + phrase brève), cf. consignes §4.3. */}
@@ -397,16 +378,33 @@ export default async function ProtocoleReflexoPage({
         {texteGras(protocole.note_fin)}
       </p>
 
-      {/* 7. Disclaimer — toujours affiché */}
+      {/* 6 bis. Régularité — rappel COMMUN à tous les protocoles : c'est la
+          répétition qui compte, pas la performance d'une séance (demande Laura). */}
+      {protocole.regularite ? (
+        <p
+          style={{
+            background: C_FIN.accent,
+            borderRadius: 12,
+            padding: "13px 15px",
+            fontSize: 12.5,
+            lineHeight: 1.6,
+            color: REFLEXO_TEXT,
+            margin: 0,
+          }}
+        >
+          {texteGras(protocole.regularite)}
+        </p>
+      ) : null}
+
+      {/* Disclaimer — note discrète, POSÉE SUR LE FOND, sans encart (choix
+          Laura) : c'est une mention légale, pas un bloc de contenu. */}
       <p
         style={{
-          background: REFLEXO_TERRACOTTA.doux,
-          borderRadius: 11,
-          padding: "11px 13px",
+          padding: "0 2px",
           fontSize: 11,
           lineHeight: 1.5,
           color: REFLEXO_TEXT,
-          opacity: 0.9,
+          opacity: 0.7,
           fontStyle: "italic",
           margin: 0,
         }}

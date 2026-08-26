@@ -1,9 +1,9 @@
 import { requireProfile } from "@/lib/auth";
 import { accueilReflexo, getProtocolesPublies } from "@/lib/reflexologie";
 import { ReflexoListe } from "@/components/modules/reflexo-liste";
+import { ReflexoReplier } from "@/components/modules/reflexo-replier";
 import {
   PLAYFAIR,
-  REFLEXO_BG_CADRE,
   REFLEXO_MUTED,
   REFLEXO_TEXT,
   REFLEXO_FOND_LECTEUR,
@@ -205,6 +205,10 @@ export default async function ReflexologiePage() {
               {texteGras(accueilReflexo.note_fin)}
             </p>
           ) : null}
+
+          {/* Repli de bas de bloc : l'introduction est longue, on doit pouvoir
+              la refermer là où on finit de la lire, sans remonter au titre. */}
+          <ReflexoReplier />
         </div>
       </details>
 
@@ -231,16 +235,15 @@ export default async function ReflexologiePage() {
         )}
       </section>
 
-      {/* Disclaimer — toujours affiché */}
+      {/* Disclaimer — note discrète, POSÉE SUR LE FOND, sans encart (choix
+          Laura) : c'est une mention légale, pas un bloc de contenu. */}
       <p
         style={{
-          background: REFLEXO_BG_CADRE,
-          borderRadius: 11,
-          padding: "11px 13px",
+          padding: "0 2px",
           fontSize: 11,
           lineHeight: 1.5,
           color: REFLEXO_TEXT,
-          opacity: 0.9,
+          opacity: 0.7,
           fontStyle: "italic",
           margin: 0,
         }}
