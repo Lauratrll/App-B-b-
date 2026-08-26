@@ -119,13 +119,14 @@ export type ReflexoProtocole = {
    * sur la première phrase de `intro` (ancien comportement).
    */
   accroche?: string;
-  emotion?: string;
   ouverture: { titre: string; etapes: string[] };
   sequence: ReflexoEtape[];
   variante?: ReflexoVariante;
   /** Ligne de sécurité mise en avant (ex. diarrhée infectieuse → avis médical). */
   vigilance?: string;
   note_fin: string;
+  /** Rappel commun de fin de fiche : la régularité prime sur la performance. */
+  regularite?: string;
   disclaimer: string;
   lancement: boolean;
   /** Termes prudents obligatoires : accompagner / apaiser, jamais soigner. */
