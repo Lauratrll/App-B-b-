@@ -249,6 +249,7 @@ export default async function ProtocoleReflexoPage({
             visuel={visuel}
             titre={protocole.titre}
             steps={getStepsAnimation(protocole)}
+            couleur={famille.profond}
           />
           <p
             style={{
@@ -259,7 +260,7 @@ export default async function ProtocoleReflexoPage({
               margin: 0,
             }}
           >
-            Appuie sur ▶ et tourne ton téléphone pour la lecture animée.
+            Tourne ton téléphone pour la lecture animée.
           </p>
         </section>
       ) : null}
@@ -323,6 +324,7 @@ export default async function ProtocoleReflexoPage({
                 visuel={visuelVariante}
                 titre={`${protocole.titre} — ${protocole.variante.condition.toLowerCase()}`}
                 steps={getStepsAnimation(protocole, { avecVariante: true })}
+                couleur={C_VARIANTE.profond}
               />
             </div>
           ) : null}

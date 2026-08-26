@@ -2235,10 +2235,18 @@ export function ReflexoCarte({
   visuel,
   titre,
   steps,
+  couleur,
 }: {
   visuel: string;
   titre: string;
   steps: ReflexoAnimStep[];
+  /**
+   * Le ton profond de la famille du protocole, pour le bouton de lecture.
+   * Un disque blanc ne tenait que 1,73 de contraste sur le fond de la carte :
+   * beaucoup de parents seraient passés à côté. Ces tons-là montent à 4,0, avec
+   * un triangle blanc à 7,0 par-dessus — sans virer au rouge d'alerte.
+   */
+  couleur?: string;
 }) {
   const [open, setOpen] = useState(false);
   const jouable = steps.some((s) => s.cibles.length > 0);
@@ -2272,20 +2280,52 @@ export function ReflexoCarte({
                 width: 54,
                 height: 54,
                 borderRadius: "50%",
-                background: "rgba(255,255,255,.85)",
-                boxShadow: "0 2px 10px rgba(58,50,40,.22)",
+                background: couleur ?? INK,
+                boxShadow: "0 3px 12px rgba(58,50,40,.28)",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
               }}
             >
-              <svg width="22" height="22" viewBox="0 0 24 24" fill={INK}>
+              {/* Triangle blanc sur le disque coloré : le sens de lecture reste
+                  évident, et son contraste passe de 1,0 à 7,0. */}
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="#FFFFFF">
                 <path d="M8 5.5v13l11-6.5z" />
               </svg>
             </span>
           </button>
         ) : null}
       </div>
+
+      {/* Le bouton nommé, sous l'image. Un pictogramme seul se rate — même
+          bien contrasté, rien ne dit au parent ce qu'il déclenche. Le disque
+          sur l'image marque l'endroit, ce bouton nomme l'action. */}
+      {jouable ? (
+        <button
+          onClick={() => setOpen(true)}
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            gap: 9,
+            width: "100%",
+            marginTop: 10,
+            padding: 14,
+            border: "none",
+            borderRadius: 13,
+            background: couleur ?? INK,
+            color: "#FFFFFF",
+            fontSize: 15,
+            fontWeight: 600,
+            cursor: "pointer",
+          }}
+        >
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="#FFFFFF" aria-hidden>
+            <path d="M8 5.5v13l11-6.5z" />
+          </svg>
+          Lancer le protocole
+        </button>
+      ) : null}
 
       {open ? <ReflexoLecteur steps={steps} titre={titre} onClose={() => setOpen(false)} /> : null}
     </>
