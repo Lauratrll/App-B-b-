@@ -16,14 +16,36 @@ import type { ReactNode } from "react";
 // ce qui les fait tenir ensemble. Chaque famille porte en plus un correcteur
 // d'intensité (un turquoise crie plus qu'un violet à réglage égal).
 //
-// DOSAGE calé sur la signature pastel mesurée dans Guide-moi : ses 8 cases sont
-// en moyenne à clarté 0,873 pour une intensité 0,038, et les fonds de ligne
-// d'ici sont à 0,878 / 0,035. Une première version à 0,900 / 0,049 avait été
-// jugée « trop fluo » par Laura, à juste titre : très clair ET soutenu, c'est la
-// recette exacte du néon. Ne pas remonter ces valeurs.
+// DOSAGE calé sur Guide-moi, en deux temps.
 //
-// Laura aime le camaïeu : les paires serrées (les deux violets à 2,8, turquoise
-// et sauge à 2,9) sont VOULUES. Ne pas les « corriger ».
+// 1. La CLARTÉ : les 8 cases de Guide-moi sont en moyenne à 0,868, les fonds de
+//    ligne d'ici à 0,878. C'était juste dès la première fois, et ça n'a pas
+//    bougé. Une version à 0,900 / 0,049 avait été jugée « trop fluo » par Laura :
+//    très clair ET soutenu, c'est la recette exacte du néon.
+//
+// 2. L'INTENSITÉ, corrigée le 28/08/2026 — les fonds paraissaient encore
+//    « lumineux » à Laura. La moyenne de Guide-moi (0,037) est un leurre : elle
+//    cache un écart énorme entre ses CHAUDS, qui montent à 0,069, et ses FROIDS,
+//    qui tombent à 0,018–0,020. Guide-moi s'autorise d'être colorée dans le
+//    chaud et devient presque grise dans le froid. Or les cinq familles d'ici
+//    sont TOUTES froides : à 0,038 elles étaient au double de ce que la
+//    référence se permet dans cette zone. L'intensité des fonds est donc passée
+//    de 0,038 à 0,029 (−25 %), les autres rôles ont suivi dans la même
+//    proportion. Teintes, clarté et ordre inchangés — rien de ce que Laura a
+//    validé le 24/08 ne bouge, et aucune couleur de TEXTE n'a été touchée.
+//
+// ⚠️ Ne remonter ni la clarté ni l'intensité. Et pour toute nouvelle couleur :
+// c'est le registre FROID de Guide-moi (≈ 0,020) qui sert de plafond, pas sa
+// moyenne — la moyenne autoriserait un pastel froid que l'œil lit comme du néon.
+//
+// Laura aime le camaïeu : les paires serrées (les deux violets, turquoise et
+// sauge) sont VOULUES. Ne pas les « corriger ». La baisse d'intensité du 28/08
+// les a encore rapprochées d'un quart — c'est assumé, et c'est ce qui borne la
+// marge de manœuvre si on voulait poudrer davantage.
+//
+// UNE EXCEPTION à la règle « intensité commune par rôle » : le `profond` de la
+// sauge (voir son commentaire). La sauge est donc la plus vive des cinq sur ce
+// seul rôle — et c'est le seul rôle que la baisse d'intensité n'a pas touché.
 // ---------------------------------------------------------------------------
 
 export const PLAYFAIR = "var(--font-playfair), Georgia, serif";
@@ -53,11 +75,21 @@ export type ReflexoFamille = {
 };
 
 export const REFLEXO_GAMME: ReflexoFamille[] = [
-  { nom: "Violet bleuté", bg: "#D2D4F0", avatarBg: "#B7BAE2", doux: "#E5E7F9", accent: "#DEE0F7", profond: "#545584" },
-  { nom: "Violet lilas", bg: "#DFD0E9", avatarBg: "#C9B4D7", doux: "#EEE4F4", accent: "#E9DDF1", profond: "#684F78" },
-  { nom: "Bleu ciel", bg: "#C1DBEE", avatarBg: "#9EC3DF", doux: "#DBEBF7", accent: "#D0E5F5", profond: "#2F6081" },
-  { nom: "Turquoise vert", bg: "#C5DED3", avatarBg: "#A3C7B8", doux: "#DDEDE6", accent: "#D3E8DF", profond: "#366654" },
-  { nom: "Sauge", bg: "#D0DBC8", avatarBg: "#B4C4A8", doux: "#E4EBDF", accent: "#DCE5D6", profond: "#4E623E" },
+  { nom: "Violet bleuté", bg: "#D3D5EA", avatarBg: "#B8BBDC", doux: "#E6E7F7", accent: "#DFE0F3", profond: "#545584" },
+  { nom: "Violet lilas", bg: "#DDD2E4", avatarBg: "#C7B6D3", doux: "#EDE5F2", accent: "#E7DEEE", profond: "#684F78" },
+  { nom: "Bleu ciel", bg: "#C6DAE8", avatarBg: "#A3C2D9", doux: "#DDEBF5", accent: "#D3E5F2", profond: "#2F6081" },
+  { nom: "Turquoise vert", bg: "#C9DCD4", avatarBg: "#A7C6B9", doux: "#DEECE6", accent: "#D6E7DF", profond: "#366654" },
+  // Le `profond` de la sauge SORT de la règle « intensité commune par rôle » :
+  // OKLCH L 0.478 C 0.090 H 124 au lieu de L 0.470 C 0.056 H 132. Le kaki
+  // d'origine (#4E623E) agressait l'œil de Laura (28/08) — c'était l'olive, pas
+  // la profondeur. On ne pouvait pas l'éclaircir : ce ton porte l'accroche de
+  // 11,5 px sur le fond de ligne, où le contraste n'a plus aucune marge : 4,50
+  // pour un seuil de 4,50, depuis que l'intensité des fonds a baissé le 28/08.
+  // Ce vert tendre garde donc la même densité (5,32 sur `doux`, 6,46 en blanc
+  // sur lui) et gagne en franchise. C'est la sauge qui fixe désormais le
+  // plancher de la gamme : pour des fonds encore plus poudrés, il faudrait
+  // d'abord donner à cette accroche sa propre teinte foncée.
+  { nom: "Sauge", bg: "#D2DACB", avatarBg: "#B5C3AC", doux: "#E5EBE0", accent: "#DDE5D8", profond: "#526528" },
 ];
 
 /**
