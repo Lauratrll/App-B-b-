@@ -304,18 +304,22 @@ export default async function ProtocoleReflexoPage({
                 display: "block",
                 fontFamily: PLAYFAIR,
                 fontWeight: 700,
-                fontSize: 18,
+                // 17 comme « Les zones réflexes, pas à pas » juste au-dessus :
+                // deux titres de même rang, donc de même taille (choix Laura).
+                fontSize: 17,
                 color: REFLEXO_TEXT,
                 lineHeight: 1.2,
               }}
             >
-              Les zones réflexes en bref
+              Les zones réflexes, en bref
             </span>
             <span
               style={{
                 display: "block",
                 marginTop: 3,
-                fontSize: 9,
+                // 10 : la taille des intitulés de section de la fiche
+                // (« Jour après jour », « Avant de commencer »).
+                fontSize: 10,
                 color: REFLEXO_FOND_LECTEUR_TEXTE,
                 letterSpacing: ".13em",
                 textTransform: "uppercase",
@@ -503,9 +507,9 @@ export default async function ProtocoleReflexoPage({
  * dents, cardia/pylore) en portent deux, numérotées dans l'ordre de jeu.
  */
 // Les étapes vivent DANS l'encart terracotta : carte blanche, comme les
-// précautions de l'introduction de l'accueil. Le numéro et les sous-lignes de
-// zones gardent la famille du geste, la même sur toutes les fiches.
-const GESTE = REFLEXO_GAMME[3];
+// précautions de l'introduction de l'accueil. Le numéro d'étape reprend le brun
+// du sous-titre de l'encart (choix Laura, 28/08) — en turquoise, il se lisait
+// comme l'élément d'une autre famille de couleurs.
 
 function EtapeCarte({ etape }: { etape: ReflexoEtape }) {
   const zones = (etape.zones ?? []).map(texteZone);
@@ -534,7 +538,7 @@ function EtapeCarte({ etape }: { etape: ReflexoEtape }) {
           style={{
             fontSize: 10,
             fontWeight: 700,
-            color: GESTE.profond,
+            color: REFLEXO_FOND_LECTEUR_TEXTE,
             letterSpacing: ".08em",
           }}
         >

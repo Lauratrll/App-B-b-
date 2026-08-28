@@ -2383,72 +2383,77 @@ export function ReflexoCarte({
 
   return (
     <>
-      <div style={{ borderRadius: 14, overflow: "hidden", background: BG_PIED }}>
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={visuel}
-          alt={`Zones réflexes du protocole ${titre}, numérotées dans l'ordre des étapes`}
-          style={{ display: "block", width: "100%", height: "auto" }}
-        />
-      </div>
+      {/* L'image et son bouton forment UN bloc : 6 px entre les deux, quelle que
+          soit la mise en page du parent (choix Laura, 28/08). Sans ce conteneur,
+          l'écart dépendait du `gap` de la section, qui s'ajoutait à la marge du
+          bouton — 20 px, le bouton se détachait de la carte. */}
+      <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+        <div style={{ borderRadius: 14, overflow: "hidden", background: BG_PIED }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={visuel}
+            alt={`Zones réflexes du protocole ${titre}, numérotées dans l'ordre des étapes`}
+            style={{ display: "block", width: "100%", height: "auto" }}
+          />
+        </div>
 
-      {jouable ? (
-        <button
-          onClick={() => setOpen(true)}
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            gap: 9,
-            width: "100%",
-            marginTop: 10,
-            padding: 14,
-            border: "none",
-            borderRadius: 13,
-            background: couleur ?? INK,
-            color: "#FFFFFF",
-            fontSize: 15,
-            fontWeight: 600,
-            cursor: "pointer",
-          }}
-        >
-          {/* Le triangle dans un rond blanc (choix Laura, 28/08) : posé nu sur
-              la couleur du bouton, il se lisait comme un ornement. Le disque en
-              fait un bouton de lecture reconnaissable au premier coup d'œil. */}
-          <span
-            aria-hidden
+        {jouable ? (
+          <button
+            onClick={() => setOpen(true)}
             style={{
-              flexShrink: 0,
-              width: 24,
-              height: 24,
-              borderRadius: "50%",
-              background: "#FFFFFF",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
+              gap: 9,
+              width: "100%",
+              padding: 14,
+              border: "none",
+              borderRadius: 13,
+              background: couleur ?? INK,
+              color: "#FFFFFF",
+              fontSize: 15,
+              fontWeight: 600,
+              cursor: "pointer",
             }}
           >
-            {/* Décalé d'1 px : un triangle centré géométriquement paraît à gauche. */}
-            <svg
-              width="13"
-              height="13"
-              viewBox="0 0 24 24"
-              fill={couleur ?? INK}
+            {/* Le triangle dans un rond blanc (choix Laura, 28/08) : posé nu sur
+                la couleur du bouton, il se lisait comme un ornement. Le disque en
+                fait un bouton de lecture reconnaissable au premier coup d'œil. */}
+            <span
               aria-hidden
-              style={{ marginLeft: 1 }}
+              style={{
+                flexShrink: 0,
+                width: 24,
+                height: 24,
+                borderRadius: "50%",
+                background: "#FFFFFF",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
             >
-              <path d="M8 5.5v13l11-6.5z" />
-            </svg>
-          </span>
-          Lancer le protocole
-          {dureeMs ? (
-            // La durée reste en retrait : c'est un repère, pas le titre du bouton.
-            <span style={{ fontWeight: 400, fontStyle: "italic", opacity: 0.82 }}>
-              &mdash; {minutes(dureeMs)}
+              {/* Décalé d'1 px : un triangle centré géométriquement paraît à gauche. */}
+              <svg
+                width="13"
+                height="13"
+                viewBox="0 0 24 24"
+                fill={couleur ?? INK}
+                aria-hidden
+                style={{ marginLeft: 1 }}
+              >
+                <path d="M8 5.5v13l11-6.5z" />
+              </svg>
             </span>
-          ) : null}
-        </button>
-      ) : null}
+            Lancer le protocole
+            {dureeMs ? (
+              // La durée reste en retrait : c'est un repère, pas le titre du bouton.
+              <span style={{ fontWeight: 400, fontStyle: "italic", opacity: 0.82 }}>
+                &mdash; {minutes(dureeMs)}
+              </span>
+            ) : null}
+          </button>
+        ) : null}
+      </div>
 
       {open ? (
         <ReflexoLecteur steps={steps} titre={titre} noteFin={noteFin} onClose={() => setOpen(false)} />
