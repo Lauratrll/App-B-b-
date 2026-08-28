@@ -4,7 +4,8 @@
   "accroche": "Soulager le ventre noué en suivant le trajet de la digestion.",
   "categorie_guide_moi": null,
   "lien_pathologie": false,
-  "intro": "Les coliques éprouvent bébé, et **elles t'éprouvent aussi**. Son système digestif est encore tout jeune : il apprend son métier, souvent bruyamment. Ce moment aux pieds **suit lentement le trajet de la digestion** pour dénouer les tensions, sans jamais forcer. **_Ton calme compte autant que ton geste._**",
+  "intro": "Les coliques éprouvent bébé, et **elles t'éprouvent aussi**. Son système digestif est encore tout jeune : il apprend son métier, souvent bruyamment. La séquence détend d'abord le bas du dos et le diaphragme, puis **descend tout le trajet digestif**, de l'œsophage au gros intestin, dans l'ordre où la digestion se fait. On dénoue, on n'appuie jamais.",
+  "intro_note": "Ton calme compte autant que ton geste.",
   "ouverture": {
     "titre": "Avant de commencer",
     "etapes": [
@@ -138,7 +139,8 @@
     }
   ],
   "note_fin": "Termine en allégeant le contact, puis éloigne-toi en douceur.",
-  "regularite": "**Jour après jour.** La réflexologie agit dans la répétition de la stimulation des zones réflexes, pas dans l'exploit d'une seule séance. Quelques minutes régulières, avec un bon dialogue, valent mieux qu'une longue séance de temps en temps. Bébé reconnaît le rituel et se détend plus vite, et tes gestes gagnent en assurance.",
+  "regularite_titre": "Jour après jour",
+  "regularite": "La réflexologie agit dans **la répétition de ces stimulations de zones**, pas dans l'exploit d'une seule séance. **Quelques minutes régulières**, avec un bon dialogue, valent mieux qu'une longue séance de temps en temps. Bébé reconnaît le rituel et se détend plus vite, et tes gestes gagnent en assurance.",
   "disclaimer": "La réflexologie plantaire ne se substitue pas à un avis médical.",
   "lancement": true,
   "visuel": "visuels-protocoles/Visuel - Coliques.png",

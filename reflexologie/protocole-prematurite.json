@@ -4,7 +4,8 @@
   "accroche": "Rassurer un bébé arrivé plus tôt que prévu, avec une grande douceur.",
   "categorie_guide_moi": null,
   "lien_pathologie": false,
-  "intro": "Ton bébé est arrivé plus tôt que prévu, **avant d'être tout à fait prêt**, et son corps garde la mémoire de ce départ précipité. Tu peux **lui mettre des mots dessus** pendant la séance, simplement : lui dire qu'il est né un peu tôt, que c'est passé, et **qu'aujourd'hui il est là, en sécurité, avec toi**. La séquence soutient sa respiration et son ancrage, et passe par les zones qui apaisent la peur. Elle se pratique dès les premiers jours avec une extrême douceur, et garde tout son sens des mois plus tard. Demande l'accord de l'équipe qui le suit avant de commencer. **_Ta présence calme compte autant que le geste : c'est elle qui le sécurise._**",
+  "intro": "Ton bébé est arrivé plus tôt que prévu, **avant d'être tout à fait prêt**, et son corps garde la mémoire de ce départ précipité. Tu peux **lui mettre des mots dessus** pendant la séance, simplement : lui dire qu'il est né un peu tôt, que c'est passé, et **qu'aujourd'hui il est là, en sécurité, avec toi**. La séquence soutient sa respiration et son ancrage, et passe par les zones qui apaisent la peur. Elle se pratique dès les premiers jours avec une extrême douceur, et garde tout son sens des mois plus tard. Demande l'accord de l'équipe qui le suit avant de commencer.",
+  "intro_note": "Ta présence calme compte autant que le geste : c'est elle qui le sécurise.",
   "ouverture": {
     "titre": "Avant de commencer",
     "etapes": [
@@ -108,7 +109,8 @@
     }
   ],
   "note_fin": "Termine en allégeant le contact, puis éloigne-toi en douceur.",
-  "regularite": "**Jour après jour.** La réflexologie agit dans la répétition de la stimulation des zones réflexes, pas dans l'exploit d'une seule séance. Quelques minutes régulières, avec un bon dialogue, valent mieux qu'une longue séance de temps en temps. Bébé reconnaît le rituel et se détend plus vite, et tes gestes gagnent en assurance.",
+  "regularite_titre": "Jour après jour",
+  "regularite": "La réflexologie agit dans **la répétition de ces stimulations de zones**, pas dans l'exploit d'une seule séance. **Quelques minutes régulières**, avec un bon dialogue, valent mieux qu'une longue séance de temps en temps. Bébé reconnaît le rituel et se détend plus vite, et tes gestes gagnent en assurance.",
   "disclaimer": "La réflexologie plantaire ne se substitue pas à un avis médical.",
   "lancement": true,
   "sujet_sensible": true,

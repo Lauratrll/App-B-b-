@@ -4,7 +4,7 @@
 >
 > **Aucun protocole de réflexologie n'est décrit ni créé ici.** Ce document ne fait que constater ce qui existe, ce qui est hors bornes d'âge et ce qui manque. Les décisions appartiennent à Laura.
 >
-> Mise à jour : 25 août 2026. Mois couverts : M0, M1, M2, M3, M4, M5, M12. À enrichir au fil des mois corrigés.
+> Mise à jour : 26 août 2026. Mois couverts : M0, M1, M2, M3, M4, M5, M6, M12. À enrichir au fil des mois corrigés.
 
 ---
 
@@ -201,6 +201,247 @@ Source : `reflexologie/protocoles-index.json` (bornes d'âge encore marquées BR
 
 ---
 
+## 6quater. M6
+
+> Premier mois où **Angoisse de séparation** (M6–M23) et **Rhume et oreilles** (M6–M23) entrent dans les bornes. **Frustration motrice** ne démarre qu'à M7 : aucun lien possible depuis les protocoles de motricité de ce mois.
+
+| Catégorie | Protocole Guide-moi ! | Thème appelé | Protocole | Statut |
+|-----------|----------------------|--------------|-----------|--------|
+| pleurs | Bloqué sur le ventre | frustration motrice | Frustration motrice (M7–M13) | 🟡 |
+| pleurs | Il craque le soir | sur-stimulation | — | 🔴 |
+| pleurs | Les réveils en pleurs | sommeil | Sommeil agité | ✅ |
+| pleurs | Il pleure dès que je sors | séparation | Angoisse de séparation | ✅ |
+| alim | Il repousse la cuillère | — | hors périmètre : alimentation | ⛔ |
+| alim | Le haut-le-cœur | — | hors périmètre : alimentation | ⛔ |
+| alim | Il lâche à chaque bruit | — | hors périmètre : tétée et biberon | ⛔ |
+| alim | Les selles sont dures | transit | Constipation | ✅ |
+| alim | Les allergènes | — | hors périmètre : alimentation | ⛔ |
+| alim | Il pousse et grogne | inconfort digestif | Inconfort digestif | ✅ |
+| alim | Après une fausse route | — | hors périmètre : alimentation | ⛔ |
+| sommeil | Ses nuits se défont | sommeil | Sommeil agité | ✅ |
+| sommeil | Coincé sur le ventre | sommeil | Sommeil agité | ✅ |
+| sommeil | Le réveil de cinq heures | — | hors périmètre : le geste remplacerait la prise de nuit | ⛔ |
+| sommeil | Le passage à deux siestes | sommeil | Sommeil agité | ✅ |
+| motricite | Pas encore de retournement | motricité libre | Frustration motrice (M7–M13) | 🟡 |
+| motricite | Il ne tient pas assis | motricité libre | — | 🔴 |
+| motricite | Les petits chocs | réassurance après une chute | — | 🔴 |
+| motricite | Il hurle dès que je le pose | motricité libre, sécurité affective | — | 🔴 |
+| dents | La première dent arrive | dents | Poussées dentaires | ✅ |
+| dents | Il ne veut plus manger | — | hors périmètre : contexte alimentaire | ⛔ |
+| dents | Il se réveille la nuit | sommeil | Sommeil agité | ✅ |
+| dents | Il mordille tout | — | hors périmètre : exploration orale, la gencive n'est qu'un décor | ⛔ |
+| dents | Le menton irrité | — | hors périmètre : peau | ⛔ |
+| stimu | Après une grosse journée | sur-stimulation | — | 🔴 |
+| stimu | L'heure du loup | sommeil, fin de journée | Sommeil agité | ✅ |
+| stimu | Le bain qui excite | sommeil, rituel du soir | Sommeil agité | ✅ |
+| stimu | Après les visites | sur-stimulation, trop-plein social | — | 🔴 |
+| sepa | Il te cherche du regard | séparation | Angoisse de séparation | ✅ |
+| sepa | Il ne veut que moi | séparation | Angoisse de séparation | ✅ |
+| sepa | Même aller aux toilettes | séparation | Angoisse de séparation | 🟢 |
+| sepa | Il hurle quand je rentre | séparation | Angoisse de séparation | ✅ |
+| parent | les 4 protocoles | — | hors périmètre : gestes destinés au parent, pas au bébé | ⛔ |
+
+**Bilan M6** : 14 liens posés, 2 protocoles hors bornes d'âge (🟡), 6 manques réels (🔴), 9 contextes hors périmètre (⛔).
+
+> Sur « Même aller aux toilettes », le geste doux retenu n'est pas un geste de réflexologie mais un lange porteur d'odeur : le lien reste possible mais n'a pas été posé, à valider.
+
+---
+
+## 6quater-bis. M7
+
+> Mois de la **première dent**, de la **permanence de l'objet** et de l'entrée dans la **peur de l'étranger**. C'est aussi le premier mois où **Frustration motrice** (M7–M13) entre dans ses bornes : « La rage de l'immobile » porte le tout premier lien de la série, un mois avant M8. **Angoisse de séparation** est le protocole le plus sollicité du mois, avec cinq liens.
+>
+> Décision du 26/08 : `lien_reflexologie` n'est posé que sur les blocs intitulés « Réflexologie : … », jamais sur un bloc « Geste doux : … », même quand un protocole du module existerait. Quatre liens posés par erreur sur des gestes de confort du ventre ou de la gencive ont été retirés le jour même.
+
+| Catégorie | Protocole Guide-moi ! | Protocole réflexo lié | Statut |
+|-----------|----------------------|------------------------|--------|
+| pleurs | La rage de l'immobile | Frustration motrice | ✅ |
+| pleurs | La permanence qui démarre | Angoisse de séparation | ✅ |
+| pleurs | L'objet retiré | — | 🔴 |
+| pleurs | L'arrivée de la peur de l'étranger | Angoisse de séparation | ✅ |
+| alim | Le passage aux textures | — | ⛔ |
+| alim | La cuillère disputée | — | ⛔ |
+| alim | La baisse du lait | — | ⛔ |
+| alim | Les plaques autour de la bouche | — | ⛔ |
+| alim | La rétention des selles | — | ⛔ |
+| alim | Le ventre ballonné | — | ⛔ |
+| sommeil | L'entraînement nocturne | — | 🔴 |
+| sommeil | L'endormissement qui se complique | Sommeil agité | ✅ |
+| sommeil | Les réveils de vérification | Sommeil agité | ✅ |
+| sommeil | La demande de doudou | — | 🔴 |
+| motri | Le quatre pattes qui ne vient pas | — | 🔴 |
+| motri | La marche arrière | — | 🔴 |
+| motri | L'assise qui ne vient pas | — | 🔴 |
+| motri | Le passage par la bouche | — | 🔴 |
+| dents | La peau déjà abîmée | — | 🔴 |
+| dents | La percée de la première dent | — | 🔴 |
+| dents | La morsure qui recommence | — | 🔴 |
+| dents | La gencive bleutée | — | 🔴 |
+| sur-stim | Le trop de bras | — | 🔴 |
+| sur-stim | L'immobilisation en sortie | Frustration motrice | ✅ |
+| sur-stim | La télévision qui tient compagnie | — | 🔴 |
+| sur-stim | La relance sans fin | — | 🔴 |
+| sépa | Le refuge dans mon cou | Angoisse de séparation | ✅ |
+| sépa | La filature | Angoisse de séparation | ✅ |
+| sépa | Le jeu de coucou | — | 🔴 |
+| sépa | Le relais refusé | Angoisse de séparation | ✅ |
+| parent | La reprise au pire moment | — | ⛔ |
+| parent | Les sept mois de nuits hachées | — | ⛔ |
+| parent | La peur de moi-même | — | ⛔ |
+| parent | Les relais institutionnels | — | ⛔ |
+
+**Bilan M7 : 9 liens sur 34 protocoles.** Répartition : Angoisse de séparation ×5, Sommeil agité ×2, Frustration motrice ×2.
+
+**Ce qui manque à M7**, par ordre d'utilité :
+
+| Thème absent | Protocoles concernés |
+|--------------|----------------------|
+| **Sur-stimulation, trop-plein sensoriel** | Le trop de bras, La relance sans fin, La télévision qui tient compagnie |
+| **Frustration non motrice** (objet retiré, limite posée) | L'objet retiré — *Opposition, frustration* commence à M14, donc hors bornes |
+| **Confort digestif du nourrisson diversifié** | Le ventre ballonné, La rétention des selles — les gestes existent mais restent des massages du ventre, pas de la réflexologie |
+| **Poussées dentaires en bloc « Réflexologie »** | La percée de la première dent, La gencive bleutée — même remarque |
+
+## 6quinquies. M8
+
+> Premier mois où **Frustration motrice** (M7–M13) entre dans les bornes : le protocole « Bloqué debout, il hurle » porte le premier lien de la série. **Opposition, frustration** (M14–M23) reste hors bornes : les protocoles de limite de M8 n'ont donc pas de lien, décision prise avec Laura le 26/08.
+
+| Catégorie | Protocole Guide-moi ! | Protocole réflexo lié | Statut |
+|-----------|----------------------|------------------------|--------|
+| pleurs | La panique du départ | Angoisse de séparation | ✅ |
+| pleurs | Après une chute | — | 🔴 |
+| pleurs | Il hurle quand je dis non | — | 🔴 |
+| pleurs | Il s'accroche au coucher | Sommeil agité | ✅ |
+| alim | Il jette tout par terre | — | ⛔ |
+| alim | S'il fait du bruit il gère | — | ⛔ |
+| alim | Il boit mal à la tasse | — | ⛔ |
+| alim | Il ne mange que chez nous | — | ⛔ |
+| alim | Les selles sont molles | Inconfort digestif | ✅ |
+| alim | L'inconfort du soir | Inconfort digestif | ✅ |
+| sommeil | Debout dans son lit | — | 🔴 |
+| sommeil | Des nuits hachées | Sommeil agité | ✅ |
+| sommeil | Retrouvé en travers du lit | — | 🔴 |
+| sommeil | Il se réveille dès que tu sors | — | 🔴 |
+| motricite | Il touche à tout | — | 🔴 |
+| motricite | Il rampe sur le ventre | — | 🔴 |
+| motricite | La table à langer | — | 🔴 |
+| motricite | Bloqué debout, il hurle | Frustration motrice | ✅ |
+| dents | La deuxième vague de dents | Poussées dentaires | ✅ |
+| dents | Il refuse le brossage | — | 🔴 |
+| dents | Nuit agitée, joue rouge | Sommeil agité | ✅ |
+| dents | Il mordille tout | — | 🔴 |
+| stimu | Il n'arrête jamais | — | 🔴 |
+| stimu | Le retour de garde | Angoisse de séparation | ✅ |
+| stimu | Le jeu qui monte trop | — | 🔴 |
+| stimu | Le repas de famille | — | 🔴 |
+| sepa | Le pic de l'angoisse | Angoisse de séparation | ✅ |
+| sepa | Il refuse son autre parent | Angoisse de séparation | ✅ |
+| sepa | Le matin à la crèche | — | 🔴 |
+| sepa | Il tend les bras puis te repousse | — | 🔴 |
+| parent | La culpabilité de la garde | — | ⛔ |
+| parent | Tout surveiller m'épuise | — | ⛔ |
+| parent | Le couple en veilleuse | — | ⛔ |
+| parent | La tristesse qui dure | — | ⛔ |
+
+> 11 liens sur 34 protocoles. Les protocoles sans lien relèvent soit d'un thème hors périmètre (alimentation, brossage, gestes destinés au parent), soit d'un thème encore absent de l'app (sur-stimulation, réassurance après une chute, sécurité du couchage).
+
+## 6sexies. M9
+
+> Premier mois où **Rhume et oreilles** (M6–M23) est réellement mobilisé, sur le protocole du lavage de nez. **Constipation** (M2–M23) entre également en usage. **Opposition, frustration** (M14–M23) reste hors bornes.
+
+| Catégorie | Protocole Guide-moi ! | Protocole réflexo lié | Statut |
+|-----------|----------------------|------------------------|--------|
+| pleurs | Il pleure avant ton départ | Angoisse de séparation | ✅ |
+| pleurs | La nuit il ne veut que toi | — | 🔴 |
+| pleurs | La rage devant un objet | Frustration motrice | ✅ |
+| pleurs | Il hurle devant un inconnu | — | 🔴 |
+| alim | Il veut manger seul | — | ⛔ |
+| alim | Son menu se réduit | — | ⛔ |
+| alim | Il se distrait à table | — | ⛔ |
+| alim | Il recrache tout | — | ⛔ |
+| alim | La constipation s'installe | Constipation | ✅ |
+| alim | Les morceaux ne passent pas | — | ⛔ |
+| sommeil | Debout dans son lit à minuit | — | 🔴 |
+| sommeil | Réveillé à quatre heures | — | 🔴 |
+| sommeil | Refus de la sieste du matin | Sommeil agité | ✅ |
+| sommeil | Il t'appelle la nuit | — | 🔴 |
+| motricite | Pas de quatre pattes | — | 🔴 |
+| motricite | Debout et bloqué | Frustration motrice | ✅ |
+| motricite | Coincé sous un meuble | — | 🔴 |
+| motricite | Il se déplace sur les fesses | — | 🔴 |
+| dents | Plusieurs dents à la fois | Poussées dentaires | ✅ |
+| dents | Il mord tout, même toi | — | 🔴 |
+| dents | Réveils la nuit | — | 🔴 |
+| dents | Dents espacées ou de travers | — | 🔴 |
+| dents | Le lavage de nez | Rhume et oreilles | ✅ |
+| stimu | Le retour de crèche | — | 🔴 |
+| stimu | Il ne veut que tes bras | — | 🔴 |
+| stimu | Après la visite | — | 🔴 |
+| stimu | Il craque en pleine sortie | — | 🔴 |
+| sepa | Deux minutes sans toi | Angoisse de séparation | ✅ |
+| sepa | Il refuse ses grands-parents | — | 🔴 |
+| sepa | Il vérifie que tu es là la nuit | — | 🔴 |
+| sepa | Refus soudain de la garde | — | 🔴 |
+| parent | Saturé du contact | — | ⛔ |
+| parent | L'hypervigilance | — | ⛔ |
+| parent | La culpabilité qui dure | — | ⛔ |
+| parent | Les journées se ressemblent | — | ⛔ |
+
+> 8 liens sur 35 protocoles. Les protocoles sans lien relèvent soit d'un thème hors périmètre (alimentation, gestes destinés au parent), soit d'un thème encore absent de l'app (sur-stimulation, réassurance après une chute, sécurité du couchage), soit d'un protocole déjà lié ailleurs dans le même mois.
+
+## 6septies. M10
+
+> Mois du **debout**, de la **pince fine** et du **référencement social** : il consulte ton visage avant d'agir. Treize blocs « Réflexologie » et neuf liens posés. **Angoisse de séparation** et **Sommeil agité** portent l'essentiel.
+>
+> Trois protocoles restent sans lien alors qu'ils en mériteraient un : « L'interdit qui révolte » et « La colère du corps entier » relèvent d'*Opposition, frustration*, qui ne commence qu'à M14 ; « Le guet de mon visage » n'a aucun protocole correspondant. C'est la même limite qu'à M8 : la frustration non motrice n'est couverte nulle part avant quatorze mois.
+
+| Catégorie | Protocole Guide-moi ! | Protocole réflexo lié | Statut |
+|-----------|----------------------|------------------------|--------|
+| pleurs | La rage de la chute | Frustration motrice | ✅ |
+| pleurs | Le change qui se bagarre | — | 🔴 |
+| pleurs | L'interdit qui révolte | — | 🔴 |
+| pleurs | La colère du corps entier | — | 🔴 |
+| alim | L'envie de manger comme nous | — | ⛔ |
+| alim | La pince fine | — | ⛔ |
+| alim | Le refus des purées lisses | — | ⛔ |
+| alim | Le choix du lait | — | ⛔ |
+| alim | Les selles qui changent | — | ⛔ |
+| alim | Le ventre gonflé du soir | — | ⛔ |
+| sommeil | Le debout du coucher | Sommeil agité | ✅ |
+| sommeil | L'effritement de la sieste du matin | Sommeil agité | ✅ |
+| sommeil | Le réveil à heure fixe | Sommeil agité | ✅ |
+| sommeil | La prise de nuit | Sommeil agité | ✅ |
+| motri | Le longement des meubles | — | 🔴 |
+| motri | L'absence de marche | — | 🔴 |
+| motri | Les chutes à répétition | — | 🔴 |
+| motri | La pression du trotteur | — | 🔴 |
+| dents | La lèvre gonflée | Poussées dentaires | ✅ |
+| dents | Le grincement de dents | — | 🔴 |
+| dents | La toux de la nuit | — | 🔴 |
+| dents | Les genoux et les mains rêches | — | 🔴 |
+| dents | Le premier brossage | — | 🔴 |
+| sur-stim | L'imitation en boucle | — | 🔴 |
+| sur-stim | La décharge motrice du soir | — | 🔴 |
+| sur-stim | Le refus de la poussette | — | 🔴 |
+| sur-stim | Les lieux de jeu collectifs | — | 🔴 |
+| sépa | La porte fermée | Angoisse de séparation | ✅ |
+| sépa | Le va-et-vient | Angoisse de séparation | ✅ |
+| sépa | Le guet de mon visage | — | 🔴 |
+| sépa | Le coucher refusé à l'autre parent | Angoisse de séparation | ✅ |
+| parent | L'identité absorbée | — | ⛔ |
+| parent | La saturation sensorielle | — | ⛔ |
+| parent | L'interface avec la garde | — | ⛔ |
+| parent | L'après-dérapage | — | ⛔ |
+
+**Bilan M10 : 9 liens sur 35 protocoles.** Répartition : Sommeil agité ×4, Angoisse de séparation ×3, Frustration motrice ×1, Poussées dentaires ×1.
+
+**Ce qui manque à M10**, par ordre d'utilité :
+
+| Thème absent | Protocoles concernés |
+|--------------|----------------------|
+| **Frustration non motrice** (limite posée, colère du corps entier) | L'interdit qui révolte, La colère du corps entier — *Opposition, frustration* commence à M14 |
+| **Sur-stimulation, trop-plein sensoriel** | L'imitation en boucle, La décharge motrice du soir, Les lieux de jeu collectifs |
+| **Référencement social** (il consulte ton visage) | Le guet de mon visage — aucun protocole n'existe |
+| **Régulation du parent lui-même** | La saturation sensorielle, L'après-dérapage — les blocs sont des gestes de confort, pas de la réflexologie |
 ## 7. M12
 
 | Catégorie | Protocole Guide-moi ! | Thème appelé | Protocole | Statut |

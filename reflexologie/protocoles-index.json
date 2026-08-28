@@ -29,7 +29,7 @@
     "ictere",
     "meconium"
   ],
-  "_note_retires_deontologie": "Protocoles RETIRÉS de l'app : sujets pathologiques qu'un praticien en réflexologie ne peut pas prétendre accompagner (déontologie). Les fichiers restent sur le disque, mais lib/reflexologie.ts ne les charge plus — ni liste, ni page, ni recherche. Pour en réintégrer un : le retirer de cette liste.",
+  "_note_retires_deontologie": "Protocoles RETIRÉS de l'app : sujets pathologiques qu'un praticien en réflexologie ne peut pas prétendre accompagner (déontologie). Les fichiers restent sur le disque, mais lib/reflexologie.ts ne les charge plus, ni liste, ni page, ni recherche. Pour en réintégrer un : le retirer de cette liste.",
   "retires_deontologie": [
     "bronchite-asthme",
     "eczema",
@@ -250,7 +250,7 @@
       "lancement": false,
       "sujet_sensible": false,
       "variante": false,
-      "raison_report": "sujet trop médical — reporté à un cadre ultérieur"
+      "raison_report": "sujet trop médical, reporté à un cadre ultérieur"
     },
     {
       "id": "eczema",
@@ -260,7 +260,7 @@
       "lancement": false,
       "sujet_sensible": false,
       "variante": false,
-      "raison_report": "sujet trop médical — reporté à un cadre ultérieur"
+      "raison_report": "sujet trop médical, reporté à un cadre ultérieur"
     },
     {
       "id": "allergies",
@@ -270,7 +270,7 @@
       "lancement": false,
       "sujet_sensible": false,
       "variante": false,
-      "raison_report": "sujet trop médical — reporté à un cadre ultérieur"
+      "raison_report": "sujet trop médical, reporté à un cadre ultérieur"
     },
     {
       "id": "ictere",
@@ -280,7 +280,7 @@
       "lancement": false,
       "sujet_sensible": false,
       "variante": false,
-      "raison_report": "sujet trop médical — reporté à un cadre ultérieur"
+      "raison_report": "sujet trop médical, reporté à un cadre ultérieur"
     },
     {
       "id": "meconium",
@@ -290,8 +290,8 @@
       "lancement": false,
       "sujet_sensible": false,
       "variante": false,
-      "raison_report": "sujet trop médical — reporté à un cadre ultérieur"
+      "raison_report": "sujet trop médical, reporté à un cadre ultérieur"
     }
   ],
-  "_bornes_age": "BROUILLON — Laura doit relire toutes les bornes d'âge (age_min_mois/age_max_mois) avant validation. NE PAS activer le filtre par âge tant que ce drapeau est présent."
+  "_bornes_age": "BROUILLON : Laura doit relire toutes les bornes d'âge (age_min_mois/age_max_mois) avant validation. NE PAS activer le filtre par âge tant que ce drapeau est présent."
 }

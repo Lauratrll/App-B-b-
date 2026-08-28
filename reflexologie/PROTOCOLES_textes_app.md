@@ -1,4 +1,4 @@
-# Protocoles de Réflexologie — textes de l'app
+# Protocoles de Réflexologie · textes de l'app
 
 _Version lisible (phrases par zone intégrées)._
 
@@ -18,11 +18,20 @@ _Version lisible (phrases par zone intégrées)._
 - **Un peu d'huile végétale douce** : une noisette adaptée aux bébés.
 
 
-# — LANCEMENT —
+## Encart « Jour après jour » (commun)
+
+_Affiché sur chaque fiche, juste après la carte animée et avant « Le geste, pas à pas »._
+
+**JOUR APRÈS JOUR**
+
+La réflexologie agit dans **la répétition de ces stimulations de zones**, pas dans l'exploit d'une seule séance. **Quelques minutes régulières**, avec un bon dialogue, valent mieux qu'une longue séance de temps en temps. Bébé reconnaît le rituel et se détend plus vite, et tes gestes gagnent en assurance.
+
+
+# · LANCEMENT ·
 
 ---
 
-## Accueil du nouveau-né · M0–M1
+## Accueil du nouveau-né · M0-M1
 
 _Sous-titre (liste) : Accueillir bébé dans le monde et l'aider à trouver ses repères._
 
@@ -30,406 +39,430 @@ Les premières semaines, tout est nouveau pour lui : la lumière, les bruits, l'
 
 **Séquence :**
 
-1. **la colonne vertébrale** — _Pression glissée, 3 répétitions._ → Détend l'axe du dos, calme le système nerveux. (Physio)
-2. **le point de conception** — _Pression maintenue, 3 répétitions._ → recentre, point d'équilibre général. (Physio)
-3. **la tête** — _Pression circulaire, 3 répétitions._ → Apaise la tête, accueille bébé entier. (Physio)
-4. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
-5. **la zone digestive** — _Pression glissée, puis travail de la zone, 3 répétitions._ → Accompagne toute la digestion. (Physio)
-6. **le bassin** — _Pression en spirale vers le centre, 3 répétitions._ → Détend le bassin et ancre. (Physio)
-6. **l'ancrage du bassin** — _Pression glissée, 3 répétitions._ → Soutient l'ancrage et la sécurité. (Physio)
+1. **la colonne vertébrale** · _Pression glissée, 3 répétitions._ → Détend l'axe du dos, calme le système nerveux. (Physio)
+2. **le point de conception** · _Pression maintenue, 3 répétitions._ → recentre, point d'équilibre général. (Physio)
+3. **la tête** · _Pression circulaire, 3 répétitions._ → Apaise la tête, accueille bébé entier. (Physio)
+4. **le plexus solaire** · _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
+5. **la zone digestive** · _Pression glissée, puis travail de la zone, 3 répétitions._ → Accompagne toute la digestion. (Physio)
+6. **le bassin** · _Pression en spirale vers le centre, 3 répétitions._ → Détend le bassin et ancre. (Physio)
+6. **l'ancrage du bassin** · _Pression glissée, 3 répétitions._ → Soutient l'ancrage et la sécurité. (Physio)
 
 ---
 
-## Naissance prématurée · M0–M5
+## Naissance prématurée · M0-M5
 
 _Sous-titre (liste) : Rassurer un bébé arrivé plus tôt que prévu, avec une grande douceur._
 
-Ton bébé est arrivé plus tôt que prévu, **avant d'être tout à fait prêt**, et son corps garde la mémoire de ce départ précipité. Tu peux **lui mettre des mots dessus** pendant la séance, simplement : lui dire qu'il est né un peu tôt, que c'est passé, et **qu'aujourd'hui il est là, en sécurité, avec toi**. La séquence soutient sa respiration et son ancrage, et passe par les zones qui apaisent la peur. Elle se pratique dès les premiers jours avec une extrême douceur, et garde tout son sens des mois plus tard. Demande l'accord de l'équipe qui le suit avant de commencer. **_Ta présence calme compte autant que le geste : c'est elle qui le sécurise._**
+Ton bébé est arrivé plus tôt que prévu, **avant d'être tout à fait prêt**, et son corps garde la mémoire de ce départ précipité. Tu peux **lui mettre des mots dessus** pendant la séance, simplement : lui dire qu'il est né un peu tôt, que c'est passé, et **qu'aujourd'hui il est là, en sécurité, avec toi**. La séquence soutient sa respiration et son ancrage, et passe par les zones qui apaisent la peur. Elle se pratique dès les premiers jours avec une extrême douceur, et garde tout son sens des mois plus tard. Demande l'accord de l'équipe qui le suit avant de commencer.
+
+_Ta présence calme compte autant que le geste : c'est elle qui le sécurise._
 
 **Séquence :**
 
-1. **la colonne vertébrale et le nerf vague** — _Pression glissée, 3 répétitions._ → Détend l'axe du dos et apaise en profondeur. (Physio)
-2. **les poumons** — _Pression rotative, 3 répétitions._ → Ouvre la respiration, oxygène le corps. (Physio)
-3. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
-4. **le foie** — _Pression rotative, 3 répétitions._ → Relâche la colère et la frustration, invite au calme. (Énergie)
-5. **les reins** — _Pression maintenue, 3 répétitions._ → Apaise la peur, donne confiance. (Énergie)
-6. **le bassin** — _Pression en spirale vers le centre, 3 répétitions._ → Favorise l'ancrage dans son nouveau monde. (sur-mesure)
+1. **la colonne vertébrale et le nerf vague** · _Pression glissée, 3 répétitions._ → Détend l'axe du dos et apaise en profondeur. (Physio)
+2. **les poumons** · _Pression rotative, 3 répétitions._ → Ouvre la respiration, oxygène le corps. (Physio)
+3. **le plexus solaire** · _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
+4. **le foie** · _Pression rotative, 3 répétitions._ → Relâche la colère et la frustration, invite au calme. (Énergie)
+5. **les reins** · _Pression maintenue, 3 répétitions._ → Apaise la peur, donne confiance. (Énergie)
+6. **le bassin** · _Pression en spirale vers le centre, 3 répétitions._ → Favorise l'ancrage dans son nouveau monde. (sur-mesure)
 
 ---
 
-## Césarienne ou déclenchement · M0–M3
+## Césarienne ou déclenchement · M0-M3
 
 _Sous-titre (liste) : Rassurer bébé quand la naissance a été aidée ou précipitée._
 
-La naissance de ton bébé a été aidée, parfois précipitée, et son corps en garde la trace. **Rien n'est à réparer** : il s'agit de lui redonner du temps et de la sécurité. La séquence détend l'axe du dos et la respiration, souvent contractés par une arrivée rapide, puis passe par les zones qui **apaisent la peur et ramènent de l'ancrage**. **_Ce que tu as vécu de cette naissance a aussi le droit d'exister : ce moment vous appartient à tous les deux._**
+La naissance de ton bébé a été aidée, parfois précipitée, et son corps en garde la trace. **Rien n'est à réparer** : il s'agit de lui redonner du temps et de la sécurité. La séquence détend l'axe du dos et la respiration, souvent contractés par une arrivée rapide, puis passe par les zones qui **apaisent la peur et ramènent de l'ancrage**.
+
+_Ce que tu as vécu de cette naissance a aussi le droit d'exister : ce moment vous appartient à tous les deux._
 
 **Séquence :**
 
-1. **le contour de la colonne vertébrale** — _Pression glissée, 3 répétitions._ → Détend l'axe du dos, contient le corps. (Physio)
-2. **la tête** — _Pression circulaire, 3 répétitions._ → Apaise la tête, accueille bébé entier. (Physio)
-3. **le thymus** — _Pression maintenue, 3 répétitions._ → Soutient les défenses immunitaires. (Physio)
-4. **la thyroïde** — _Pression glissée, 3 répétitions._ → Accompagne le rythme du métabolisme. (Physio)
-5. **le diaphragme** — _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
-6. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
-7. **l'estomac** — _Pression rotative, 3 répétitions._ → Digère les émotions, apaise la rumination. (Énergie)
-8. **le pancréas** — _Pression rotative, 3 répétitions._ → Ancre et rassure. (Énergie)
-9. **les reins** — _Pression maintenue, 3 répétitions._ → Apaise la peur, donne confiance. (Énergie)
-10. **le bassin** — _Pression en spirale vers le centre, 3 répétitions._ → Détend le bassin et ancre. (Physio)
+1. **le contour de la colonne vertébrale** · _Pression glissée, 3 répétitions._ → Détend l'axe du dos, contient le corps. (Physio)
+2. **la tête** · _Pression circulaire, 3 répétitions._ → Apaise la tête, accueille bébé entier. (Physio)
+3. **le thymus** · _Pression maintenue, 3 répétitions._ → Soutient les défenses immunitaires. (Physio)
+4. **la thyroïde** · _Pression glissée, 3 répétitions._ → Accompagne le rythme du métabolisme. (Physio)
+5. **le diaphragme** · _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
+6. **le plexus solaire** · _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
+7. **l'estomac** · _Pression rotative, 3 répétitions._ → Digère les émotions, apaise la rumination. (Énergie)
+8. **le pancréas** · _Pression rotative, 3 répétitions._ → Ancre et rassure. (Énergie)
+9. **les reins** · _Pression maintenue, 3 répétitions._ → Apaise la peur, donne confiance. (Énergie)
+10. **le bassin** · _Pression en spirale vers le centre, 3 répétitions._ → Détend le bassin et ancre. (Physio)
 
 ---
 
-## Confiance en soi · M17–M23
+## Confiance en soi · M17-M23
 
 _Sous-titre (liste) : Aider bébé à se sentir solide, ancré et en confiance._
 
-La confiance ne s'enseigne pas, **elle se dépose** : c'est en se sentant en sécurité que bébé ose explorer, tomber et recommencer. La séquence va bien au-delà de l'ancrage : elle passe par les zones de l'émotion et de l'énergie, celles qui **apaisent la peur**, dénouent l'irritabilité et soutiennent la réponse au stress. **_Ce que l'on nourrit ici, c'est sa sécurité affective, ce socle intérieur depuis lequel il ose._**
+La confiance ne s'enseigne pas, **elle se dépose** : c'est en se sentant en sécurité que bébé ose explorer, tomber et recommencer. La séquence va bien au-delà de l'ancrage : elle passe par les zones de l'émotion et de l'énergie, celles qui **apaisent la peur**, dénouent l'irritabilité et soutiennent la réponse au stress.
+
+_Ce que l'on nourrit ici, c'est sa sécurité affective, ce socle intérieur depuis lequel il ose._
 
 **Séquence :**
 
-1. **le contour de la colonne vertébrale** — _Pression glissée, 3 répétitions._ → Détend l'axe du dos, contient le corps. (Physio)
-2. **l'hypophyse** — _Pression maintenue, 3 répétitions._ → Harmonise la régulation des hormones. (Physio)
-3. **le chakra coronal** — _Pression maintenue, 3 répétitions._ → Soutient la conscience de soi et la concentration. (Physio)
-4. **le thymus** — _Pression maintenue, 3 répétitions._ → Soutient les défenses immunitaires. (Physio)
-5. **le diaphragme** — _Pression glissée, 3 répétitions._ → Détend, aide au retour au calme. (Énergie)
-6. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
-7. **les surrénales** — _Pression maintenue, 3 répétitions._ → Soutient l'énergie et la réponse au stress. (Physio)
-8. **l'estomac** — _Pression rotative, 3 répétitions._ → Digère les émotions, apaise la rumination. (Énergie)
-9. **la vésicule biliaire** — _Pression maintenue, 3 répétitions._ → Apaise l'irritabilité. (Énergie)
-10. **le système urinaire** — _Point de pression, puis pression glissée, puis point de pression, 3 répétitions._ → Rejète la peur, soutient la confiance. (Énergie)
-11. **le bassin** — _Pression en spirale vers le centre, 3 répétitions._ → Détend le bassin et ancre. (Physio)
+1. **le contour de la colonne vertébrale** · _Pression glissée, 3 répétitions._ → Détend l'axe du dos, contient le corps. (Physio)
+2. **l'hypophyse** · _Pression maintenue, 3 répétitions._ → Harmonise la régulation des hormones. (Physio)
+3. **le chakra coronal** · _Pression maintenue, 3 répétitions._ → Soutient la conscience de soi et la concentration. (Physio)
+4. **le thymus** · _Pression maintenue, 3 répétitions._ → Soutient les défenses immunitaires. (Physio)
+5. **le diaphragme** · _Pression glissée, 3 répétitions._ → Détend, aide au retour au calme. (Énergie)
+6. **le plexus solaire** · _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
+7. **les surrénales** · _Pression maintenue, 3 répétitions._ → Soutient l'énergie et la réponse au stress. (Physio)
+8. **l'estomac** · _Pression rotative, 3 répétitions._ → Digère les émotions, apaise la rumination. (Énergie)
+9. **la vésicule biliaire** · _Pression maintenue, 3 répétitions._ → Apaise l'irritabilité. (Énergie)
+10. **le système urinaire** · _Point de pression, puis pression glissée, puis point de pression, 3 répétitions._ → Rejète la peur, soutient la confiance. (Énergie)
+11. **le bassin** · _Pression en spirale vers le centre, 3 répétitions._ → Détend le bassin et ancre. (Physio)
 
 ---
 
-## Difficultés à téter · M0–M2
+## Difficultés à téter · M0-M2
 
 _Sous-titre (liste) : Détendre la sphère orale pour accompagner la succion, sans forcer._
 
-La succion demande **une coordination fine**, que bébé met parfois du temps à trouver. Rien ne se force ici : la séquence détend la bouche, l'œsophage et l'entrée de l'estomac, et apaise le système nerveux avant l'effort. **À faire juste avant une tétée**, au calme, sans enjeu et sans attente de résultat.
+La succion demande **une coordination fine**, que bébé met parfois du temps à trouver. Rien ne se force ici : la séquence détend la bouche, l'œsophage et l'entrée de l'estomac, et apaise le système nerveux avant l'effort. **À faire juste avant une tétée**, au calme, sans enjeu et sans attente de résultat immédiat.
 
 **Séquence :**
 
-1. **la tête** — _Pression circulaire, 3 répétitions._ → Apaise la tête, accueille bébé entier. (Physio)
-2. **la bouche** — _Pression maintenue, 3 répétitions._ → Stimule la bouche et la langue. (sur-mesure)
-3. **l'hypophyse** — _Pression maintenue, 3 répétitions._ → Harmonise la régulation des hormones. (Physio)
-4. **les poumons** — _Pression rotative, 3 répétitions._ → Ouvre la respiration, oxygène le corps. (Physio)
-5. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
-6. **le diaphragme** — _Pression glissée, 3 répétitions._ → Détend, aide au retour au calme. (Énergie)
-7. **l'œsophage** — _Pression glissée, 3 répétitions._ → Accueille le passage des aliments. (Physio)
-8. **le cardia** — _Pression maintenue, 3 répétitions._ → Soutient l'ouverture et la fermeture de l'estomac. (Physio)
+1. **la tête** · _Pression circulaire, 3 répétitions._ → Apaise la tête, accueille bébé entier. (Physio)
+2. **la bouche** · _Pression maintenue, 3 répétitions._ → Stimule la bouche et la langue. (sur-mesure)
+3. **l'hypophyse** · _Pression maintenue, 3 répétitions._ → Harmonise la régulation des hormones. (Physio)
+4. **les poumons** · _Pression rotative, 3 répétitions._ → Ouvre la respiration, oxygène le corps. (Physio)
+5. **le plexus solaire** · _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
+6. **le diaphragme** · _Pression glissée, 3 répétitions._ → Détend, aide au retour au calme. (Énergie)
+7. **l'œsophage** · _Pression glissée, 3 répétitions._ → Accueille le passage des aliments. (Physio)
+8. **le cardia** · _Pression maintenue, 3 répétitions._ → Soutient l'ouverture et la fermeture de l'estomac. (Physio)
 
 ---
 
-## Angoisse de séparation · M6–M23
+## Angoisse de séparation · M6-M23
 
 _Sous-titre (liste) : Rassurer bébé et garder le lien même au moment de se quitter._
 
-L'angoisse de séparation est **un signe d'attachement, pas un pas en arrière** : bébé sait que tu peux partir, il ne sait pas encore que tu reviens toujours. **Commence plusieurs jours avant une séparation prévue**, ou dès que l'inquiétude s'installe, et mets des mots pendant la séance : où tu vas, qui sera là, et le moment des retrouvailles. La séquence passe par les zones du lâcher-prise et de la tristesse, et par celles qui réassurent le lien avec maman et avec papa. **_Ses pleurs au moment de partir ne disent pas que tu t'y prends mal : ils disent qu'il tient à toi._**
+L'angoisse de séparation est **un signe d'attachement, pas un pas en arrière** : bébé sait que tu peux partir, il ne sait pas encore que tu reviens toujours. **Commence plusieurs jours avant une séparation prévue**, ou dès que l'inquiétude s'installe, et mets des mots pendant la séance : où tu vas, qui sera là, et le moment des retrouvailles. La séquence passe par les zones du lâcher-prise et de la tristesse, et par celles qui réassurent le lien avec maman et avec papa.
+
+_Ses pleurs au moment de partir ne disent pas que tu t'y prends mal : ils disent qu'il tient à toi._
 
 **Séquence :**
 
-1. **la tête** — _Pression circulaire, 3 répétitions._ → Favorise la circulation de l'énergie. (Énergie)
-2. **les poumons** — _Pression rotative, 3 répétitions._ → Aide à lâcher prise, apaise la tristesse. (Énergie)
-3. **la colonne vertébrale** — _Pression glissée, 3 répétitions._ → Détend, calme le système nerveux. (sur-mesure)
-4. **le diaphragme** — _Pression glissée, 3 répétitions._ → Détend, aide au retour au calme. (Énergie)
-5. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
-6. **la rate** — _Pression rotative, 3 répétitions._ → Réassure le lien avec la maman. (sur-mesure)
-7. **le pancréas** — _Pression rotative, 3 répétitions._ → Réassure le lien avec le papa. (sur-mesure)
-8. **le gros intestin** — _Pression glissée, 3 répétitions._ → Accompagne le lâcher-prise, laisse partir ce qui pèse. (Énergie)
+1. **la tête** · _Pression circulaire, 3 répétitions._ → Favorise la circulation de l'énergie. (Énergie)
+2. **les poumons** · _Pression rotative, 3 répétitions._ → Aide à lâcher prise, apaise la tristesse. (Énergie)
+3. **la colonne vertébrale** · _Pression glissée, 3 répétitions._ → Détend, calme le système nerveux. (sur-mesure)
+4. **le diaphragme** · _Pression glissée, 3 répétitions._ → Détend, aide au retour au calme. (Énergie)
+5. **le plexus solaire** · _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
+6. **la rate** · _Pression rotative, 3 répétitions._ → Réassure le lien avec la maman. (sur-mesure)
+7. **le pancréas** · _Pression rotative, 3 répétitions._ → Réassure le lien avec le papa. (sur-mesure)
+8. **le gros intestin** · _Pression glissée, 3 répétitions._ → Accompagne le lâcher-prise, laisse partir ce qui pèse. (Énergie)
 
 ---
 
-## Coliques · M0–M2
+## Coliques · M0-M2
 
 _Sous-titre (liste) : Soulager le ventre noué en suivant le trajet de la digestion._
 
-Les coliques éprouvent bébé, et **elles t'éprouvent aussi**. Son système digestif est encore tout jeune : il apprend son métier, souvent bruyamment. Ce moment aux pieds **suit lentement le trajet de la digestion** pour dénouer les tensions, sans jamais forcer. **_Ton calme compte autant que ton geste._**
+Les coliques éprouvent bébé, et **elles t'éprouvent aussi**. Son système digestif est encore tout jeune : il apprend son métier, souvent bruyamment. La séquence détend d'abord le bas du dos et le diaphragme, puis **descend tout le trajet digestif**, de l'œsophage au gros intestin, dans l'ordre où la digestion se fait. On dénoue, on n'appuie jamais.
+
+_Ton calme compte autant que ton geste._
 
 **Séquence :**
 
-1. **le sacrum et les lombaires** — _Pression glissée, 3 répétitions._ → Détend le bas du dos et le bassin. (Physio)
-2. **le diaphragme** — _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
-3. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Dénoue les tensions du ventre et du souffle. (Physio)
-4. **l'œsophage** — _Pression glissée, 3 répétitions._ → Accueille le passage des aliments. (Physio)
-5. **le cardia** — _Pression maintenue, 3 répétitions._ → Soutient l'ouverture et la fermeture de l'estomac. (Physio)
-6. **l'estomac** — _Pression rotative, 3 répétitions._ → Apaise le haut du ventre, aide la digestion. (Physio)
-7. **l'intestin grêle** — _Pression rotative, 3 répétitions._ → Accompagne l'assimilation des nutriments. (Physio)
-8. **le gros intestin** — _Pression glissée, 3 répétitions._ → Accompagne le transit et l'élimination. (Physio)
+1. **le sacrum et les lombaires** · _Pression glissée, 3 répétitions._ → Détend le bas du dos et le bassin. (Physio)
+2. **le diaphragme** · _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
+3. **le plexus solaire** · _Pression maintenue, 3 répétitions._ → Dénoue les tensions du ventre et du souffle. (Physio)
+4. **l'œsophage** · _Pression glissée, 3 répétitions._ → Accueille le passage des aliments. (Physio)
+5. **le cardia** · _Pression maintenue, 3 répétitions._ → Soutient l'ouverture et la fermeture de l'estomac. (Physio)
+6. **l'estomac** · _Pression rotative, 3 répétitions._ → Apaise le haut du ventre, aide la digestion. (Physio)
+7. **l'intestin grêle** · _Pression rotative, 3 répétitions._ → Accompagne l'assimilation des nutriments. (Physio)
+8. **le gros intestin** · _Pression glissée, 3 répétitions._ → Accompagne le transit et l'élimination. (Physio)
 
 ---
 
-## Inconfort digestif · M4–M12
+## Inconfort digestif · M4-M12
 
 _Sous-titre (liste) : Apaiser le ventre quand la digestion gêne bébé._
 
-Entre deux nouvelles saveurs, **la digestion de bébé se cherche encore**. Ce moment aux pieds suit lentement le trajet digestif pour l'aider à se détendre et à retrouver son confort. Prends le temps : **la lenteur fait une grande partie du travail**.
+Entre deux nouvelles saveurs, **la digestion de bébé se cherche encore**. Le parcours reprend l'ordre de la digestion : on relâche d'abord le bas du dos, le diaphragme et **le plexus solaire**, puis on accompagne le passage des aliments, de l'entrée de l'estomac jusqu'à l'élimination. **Va lentement** : c'est la lenteur du geste qui détend, pas la force.
 
 **Séquence :**
 
-1. **le sacrum et les lombaires** — _Pression glissée, 3 répétitions._ → Détend le bas du dos et le bassin. (Physio)
-2. **le diaphragme** — _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
-3. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Dénoue les tensions du ventre et du souffle. (Physio)
-4. **l'œsophage** — _Pression glissée, 3 répétitions._ → Accueille le passage des aliments. (Physio)
-5. **le cardia** — _Pression maintenue, 3 répétitions._ → Soutient l'ouverture et la fermeture de l'estomac. (Physio)
-6. **l'estomac** — _Pression rotative, 3 répétitions._ → Apaise le haut du ventre, aide la digestion. (Physio)
-7. **l'intestin grêle** — _Pression rotative, 3 répétitions._ → Accompagne l'assimilation des nutriments. (Physio)
-8. **le gros intestin** — _Pression glissée, 3 répétitions._ → Accompagne le transit et l'élimination. (Physio)
+1. **le sacrum et les lombaires** · _Pression glissée, 3 répétitions._ → Détend le bas du dos et le bassin. (Physio)
+2. **le diaphragme** · _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
+3. **le plexus solaire** · _Pression maintenue, 3 répétitions._ → Dénoue les tensions du ventre et du souffle. (Physio)
+4. **l'œsophage** · _Pression glissée, 3 répétitions._ → Accueille le passage des aliments. (Physio)
+5. **le cardia** · _Pression maintenue, 3 répétitions._ → Soutient l'ouverture et la fermeture de l'estomac. (Physio)
+6. **l'estomac** · _Pression rotative, 3 répétitions._ → Apaise le haut du ventre, aide la digestion. (Physio)
+7. **l'intestin grêle** · _Pression rotative, 3 répétitions._ → Accompagne l'assimilation des nutriments. (Physio)
+8. **le gros intestin** · _Pression glissée, 3 répétitions._ → Accompagne le transit et l'élimination. (Physio)
 
 ---
 
-## Frustration motrice · M7–M13
+## Frustration motrice · M7-M13
 
 _Sous-titre (liste) : Relâcher le corps tendu quand bébé enrage de ne pas y arriver._
 
-Bébé veut avancer, se retourner, attraper, et **son corps ne suit pas encore**. Cet écart entre l'envie et le possible crée **une tension bien réelle**, dans les muscles autant que dans l'humeur. Ce moment aux pieds relâche le corps fatigué par l'effort et apaise ce qui déborde. **_Sa colère de ne pas encore réussir dit son élan et son envie de grandir._**
+Bébé veut avancer, se retourner, attraper, et **son corps ne suit pas encore**. Cet écart entre l'envie et le possible crée **une tension bien réelle**, dans les muscles autant que dans l'humeur. La séquence suit ce corps à l'ouvrage : les épaules, les hanches, le bassin, tout ce qui a poussé et tiré dans la journée. Elle passe ensuite par **le foie et le plexus solaire**, les zones du relâchement émotionnel.
+
+_Sa colère de ne pas encore réussir dit son élan et son envie de grandir._
 
 **Séquence :**
 
-1. **le contour de la colonne vertébrale** — _Pression glissée, 3 répétitions._ → Détend l'axe du dos, contient le corps. (Physio)
-2. **la tête** — _Pression circulaire, 3 répétitions._ → Favorise la circulation de l'énergie. (Énergie)
-3. **les épaules** — _Pression maintenue, 3 répétitions._ → Relâche les tensions, soutient les bras. (sur-mesure)
-4. **les hanches** — _Pression maintenue, 3 répétitions._ → Soutient un axe central de la motricité. (sur-mesure)
-5. **le bassin** — _Pression en spirale vers le centre, 3 répétitions._ → Détend le bassin et ancre. (Physio)
-6. **le diaphragme** — _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
-7. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
-8. **le foie** — _Pression rotative, 3 répétitions._ → Relâche la colère et la frustration, invite au calme. (Énergie)
-9. **les surrénales** — _Pression maintenue, 3 répétitions._ → Soutient l'énergie et la réponse au stress. (Physio)
+1. **le contour de la colonne vertébrale** · _Pression glissée, 3 répétitions._ → Détend l'axe du dos, contient le corps. (Physio)
+2. **la tête** · _Pression circulaire, 3 répétitions._ → Favorise la circulation de l'énergie. (Énergie)
+3. **les épaules** · _Pression maintenue, 3 répétitions._ → Relâche les tensions, soutient les bras. (sur-mesure)
+4. **les hanches** · _Pression maintenue, 3 répétitions._ → Soutient un axe central de la motricité. (sur-mesure)
+5. **le bassin** · _Pression en spirale vers le centre, 3 répétitions._ → Détend le bassin et ancre. (Physio)
+6. **le diaphragme** · _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
+7. **le plexus solaire** · _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
+8. **le foie** · _Pression rotative, 3 répétitions._ → Relâche la colère et la frustration, invite au calme. (Énergie)
+9. **les surrénales** · _Pression maintenue, 3 répétitions._ → Soutient l'énergie et la réponse au stress. (Physio)
 
 ---
 
-## Reflux · M0–M4
+## Reflux · M0-M4
 
 _Sous-titre (liste) : Apaiser les remontées et l'inconfort du haut du ventre._
 
-Les remontées sont fréquentes chez les tout-petits : **le haut de leur ventre n'est pas encore tout à fait mûr**, et le temps fait une grande partie du travail. Ce moment aux pieds apaise l'inconfort et le vécu de l'instant, sans prétendre soigner. Si bébé pleure beaucoup ou ne prend pas de poids, parles-en à ton médecin. **_L'inconfort peut l'agacer ou l'inquiéter : ta présence calme et ton geste doux l'apaisent._**
+Les remontées sont fréquentes chez les tout-petits : **le haut de leur ventre n'est pas encore tout à fait mûr**. La séquence s'y concentre : le diaphragme, l'œsophage, puis **le cardia**, cette porte entre l'œsophage et l'estomac qui apprend encore à se fermer. Elle apaise l'inconfort et le vécu du moment, sans prétendre soigner. Si bébé pleure beaucoup ou ne prend pas de poids, parles-en à ton médecin.
 
 **Séquence :**
 
-1. **la colonne vertébrale** — _Pression glissée, 3 répétitions._ → Détend l'axe du dos, calme le système nerveux. (Physio)
-2. **le diaphragme** — _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
-3. **la tête** — _Pression circulaire, 3 répétitions._ → Apaise la tête, accueille bébé entier. (Physio)
-4. **la bouche** — _Pression maintenue, 3 répétitions._ → Apaise la bouche dans sa gloabilté. (sur-mesure)
-5. **l'œsophage** — _Pression glissée, 3 répétitions._ → Accueille le passage des aliments. (Physio)
-6. **le cardia** — _Pression maintenue, 3 répétitions._ → Soutient l'ouverture et la fermeture de l'estomac. (Physio)
-7. **l'estomac** — _Pression rotative, 3 répétitions._ → Apaise le haut du ventre, aide la digestion. (Physio)
-8. **le foie** — _Pression rotative, 3 répétitions._ → Filtre et nettoie le corps, calme la colère. (sur-mesure)
+1. **la colonne vertébrale** · _Pression glissée, 3 répétitions._ → Détend l'axe du dos, calme le système nerveux. (Physio)
+2. **le diaphragme** · _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
+3. **la tête** · _Pression circulaire, 3 répétitions._ → Apaise la tête, accueille bébé entier. (Physio)
+4. **la bouche** · _Pression maintenue, 3 répétitions._ → Apaise la bouche dans sa gloabilté. (sur-mesure)
+5. **l'œsophage** · _Pression glissée, 3 répétitions._ → Accueille le passage des aliments. (Physio)
+6. **le cardia** · _Pression maintenue, 3 répétitions._ → Soutient l'ouverture et la fermeture de l'estomac. (Physio)
+7. **l'estomac** · _Pression rotative, 3 répétitions._ → Apaise le haut du ventre, aide la digestion. (Physio)
+8. **le foie** · _Pression rotative, 3 répétitions._ → Filtre et nettoie le corps, calme la colère. (sur-mesure)
 
 ---
 
-## Poussées dentaires · M5–M18
+## Poussées dentaires · M5-M18
 
 _Sous-titre (liste) : Soulager la bouche et apaiser l'agacement des poussées dentaires._
 
-La poussée d'une dent, c'est une tension qui s'installe dans toute la bouche et finit par colorer la journée entière. **Bébé n'est pas capricieux** : il est traversé par quelque chose qu'il ne comprend pas et ne sait pas nommer. Ce moment aux pieds **soulage la mâchoire et apaise l'agacement**. **_Ta douceur et ta patience apaisent autant que le geste._**
+La poussée d'une dent, c'est une tension qui s'installe dans toute la bouche et finit par colorer la journée entière. **Bébé n'est pas capricieux** : il est traversé par quelque chose qu'il ne comprend pas et ne sait pas nommer. La séquence commence par **la bouche et les deux mâchoires**, là où ça pousse, puis élargit aux sinus et aux ganglions, souvent pris eux aussi. Elle finit par les zones qui **relâchent l'agacement et soutiennent la réponse à la douleur**.
+
+_Ta douceur et ta patience apaisent autant que le geste._
 
 **Séquence :**
 
-1. **la bouche** — _Pression maintenue, 3 répétitions._ → Apaise la bouche et les gencives. (Physio)
-2. **les dents et la mâchoire du haut** — _Sur le DESSUS du pied, pression glissée sur le bord de l'ongle, 2 répétitions_ → Soulage les gencives du haut. (Physio)
-2. **les dents et la mâchoire du bas** — _Sur le DESSUS du pied, pression glissée sur le bord de l'ongle, 2 répétitions_ → Soulage les gencives du bas. (Physio)
-3. **les sinus** — _Pression glissée, 2 allers-retours_ → Soulage les voies respiratoires. (Physio)
-4. **les ganglions lymphatiques** — _Pression maintenue, 2 répétitions._ → Soutient les anticorps. (Physio)
-5. **les poumons** — _Pression rotative, 3 répétitions._ → Aide à lâcher prise, apaise la tristesse. (Énergie)
-6. **le diaphragme** — _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
-7. **le foie** — _Pression rotative, 3 répétitions._ → Relâche la colère et la frustration, invite au calme. (Énergie)
-8. **l'estomac** — _Pression rotative, 3 répétitions._ → Accompagne les brûlures d'estomac. (sur-mesure)
-9. **les surrénales** — _Pression maintenue, 3 répétitions._ → Soutient l'énergie et la réponse à la douleur. (Énergie)
+1. **la bouche** · _Pression maintenue, 3 répétitions._ → Apaise la bouche et les gencives. (Physio)
+2. **les dents et la mâchoire du haut** · _Sur le DESSUS du pied, pression glissée sur le bord de l'ongle, 2 répétitions_ → Soulage les gencives du haut. (Physio)
+2. **les dents et la mâchoire du bas** · _Sur le DESSUS du pied, pression glissée sur le bord de l'ongle, 2 répétitions_ → Soulage les gencives du bas. (Physio)
+3. **les sinus** · _Pression glissée, 2 allers-retours_ → Soulage les voies respiratoires. (Physio)
+4. **les ganglions lymphatiques** · _Pression maintenue, 2 répétitions._ → Soutient les anticorps. (Physio)
+5. **les poumons** · _Pression rotative, 3 répétitions._ → Aide à lâcher prise, apaise la tristesse. (Énergie)
+6. **le diaphragme** · _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
+7. **le foie** · _Pression rotative, 3 répétitions._ → Relâche la colère et la frustration, invite au calme. (Énergie)
+8. **l'estomac** · _Pression rotative, 3 répétitions._ → Accompagne les brûlures d'estomac. (sur-mesure)
+9. **les surrénales** · _Pression maintenue, 3 répétitions._ → Soutient l'énergie et la réponse à la douleur. (Énergie)
 
 ---
 
-## Constipation · M2–M23
+## Constipation · M2-M23
 
 _Sous-titre (liste) : Accompagner le transit en douceur, en suivant le trajet du ventre._
 
-Le ventre de bébé se noue parfois, au fil des **changements d'alimentation ou de rythme**. Ce moment aux pieds accompagne le transit en suivant le trajet naturel du ventre, **sans jamais brusquer**. Si l'inconfort s'installe ou dure, parles-en à ton médecin.
+Le ventre de bébé se noue parfois, au fil des **changements d'alimentation ou de rythme**. Retenir, c'est souvent aussi une affaire de tension : la séquence travaille donc les deux, **le lâcher-prise et le transit**. On relâche le dos, la respiration et le foie, on accompagne le rythme du corps, puis on suit l'intestin grêle et le gros intestin, sans jamais brusquer. Si l'inconfort s'installe ou dure, parles-en à ton médecin.
 
 **Séquence :**
 
-1. **la colonne vertébrale** — _Pression glissée, 3 répétitions._ → Détend l'axe du dos, calme le système nerveux. (Physio)
-2. **l'hypophyse** — _Pression maintenue, 3 répétitions._ → Harmonise la régulation des hormones. (Physio)
-3. **les poumons** — _Pression rotative, 3 répétitions._ → Aide à lâcher prise, apaise la tristesse. (Énergie)
-4. **le thymus** — _Pression maintenue, 3 répétitions._ → Régule le stress en soutenant les défenses. (sur-mesure)
-5. **la thyroïde** — _Pression glissée, 3 répétitions._ → Accompagne le rythme du métabolisme. (Physio)
-6. **le diaphragme** — _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
-7. **le foie** — _Pression rotative, 3 répétitions._ → Relâche la colère et la frustration. (sur-mesure)
-8. **l'estomac** — _Pression rotative, 3 répétitions._ → Apaise le haut du ventre, aide la digestion. (Physio)
-9. **les surrénales** — _Pression maintenue, 3 répétitions._ → Soutient l'énergie et la réponse au stress. (Physio)
-10. **l'intestin grêle** — _Pression rotative, 3 répétitions._ → Accompagne l'assimilation des nutriments. (Physio)
-11. **le gros intestin** — _Pression glissée, 3 répétitions._ → Accompagne le transit et l'élimination. (Physio)
+1. **la colonne vertébrale** · _Pression glissée, 3 répétitions._ → Détend l'axe du dos, calme le système nerveux. (Physio)
+2. **l'hypophyse** · _Pression maintenue, 3 répétitions._ → Harmonise la régulation des hormones. (Physio)
+3. **les poumons** · _Pression rotative, 3 répétitions._ → Aide à lâcher prise, apaise la tristesse. (Énergie)
+4. **le thymus** · _Pression maintenue, 3 répétitions._ → Régule le stress en soutenant les défenses. (sur-mesure)
+5. **la thyroïde** · _Pression glissée, 3 répétitions._ → Accompagne le rythme du métabolisme. (Physio)
+6. **le diaphragme** · _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
+7. **le foie** · _Pression rotative, 3 répétitions._ → Relâche la colère et la frustration. (sur-mesure)
+8. **l'estomac** · _Pression rotative, 3 répétitions._ → Apaise le haut du ventre, aide la digestion. (Physio)
+9. **les surrénales** · _Pression maintenue, 3 répétitions._ → Soutient l'énergie et la réponse au stress. (Physio)
+10. **l'intestin grêle** · _Pression rotative, 3 répétitions._ → Accompagne l'assimilation des nutriments. (Physio)
+11. **le gros intestin** · _Pression glissée, 3 répétitions._ → Accompagne le transit et l'élimination. (Physio)
 
 ---
 
-## Diarrhée · M13–M23
+## Diarrhée · M13-M23
 
 _Sous-titre (liste) : Apaiser le ventre de bébé quand le transit s'emballe._
 
-Quand le transit s'emballe, le ventre de bébé travaille beaucoup et **le fatigue**. Ce moment aux pieds l'apaise et le rassure, en accompagnement seulement. **Reste attentive aux signes de fatigue ou de déshydratation** : un avis médical reste indispensable si cela se prolonge.
+Quand le transit s'emballe, le ventre de bébé travaille beaucoup et **le fatigue**. La séquence apaise d'abord le système nerveux et la respiration, puis accompagne le rythme du corps et **le travail des deux intestins**, sans chercher à le presser. **Reste attentive aux signes de fatigue ou de déshydratation** : un avis médical reste indispensable si cela se prolonge.
 
 **Séquence :**
 
-1. **la colonne vertébrale** — _Pression glissée, 3 répétitions._ → Détend l'axe du dos, calme le système nerveux. (Physio)
-2. **l'hypophyse** — _Pression maintenue, 3 répétitions._ → Harmonise la régulation des hormones. (Physio)
-3. **les poumons** — _Pression rotative, 3 répétitions._ → Aide à lâcher prise, apaise la tristesse. (Énergie)
-4. **le thymus** — _Pression maintenue, 3 répétitions._ → Régule le stress. (Énergie)
-5. **la thyroïde** — _Pression glissée, 3 répétitions._ → Accompagne le rythme du métabolisme. (Physio)
-6. **le diaphragme** — _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
-7. **le foie** — _Pression rotative, 3 répétitions._ → Relâche la colère et la frustration. (sur-mesure)
-8. **l'estomac** — _Pression rotative, 3 répétitions._ → Apaise le haut du ventre, aide la digestion. (Physio)
-9. **les surrénales** — _Pression maintenue, 3 répétitions._ → Soutient l'énergie et la réponse au stress. (Physio)
-10. **l'intestin grêle** — _Pression rotative, 3 répétitions._ → Accompagne l'assimilation des nutriments. (Physio)
-11. **le gros intestin** — _Pression glissée, 3 répétitions._ → Accompagne le transit et l'élimination. (Physio)
+1. **la colonne vertébrale** · _Pression glissée, 3 répétitions._ → Détend l'axe du dos, calme le système nerveux. (Physio)
+2. **l'hypophyse** · _Pression maintenue, 3 répétitions._ → Harmonise la régulation des hormones. (Physio)
+3. **les poumons** · _Pression rotative, 3 répétitions._ → Aide à lâcher prise, apaise la tristesse. (Énergie)
+4. **le thymus** · _Pression maintenue, 3 répétitions._ → Régule le stress. (Énergie)
+5. **la thyroïde** · _Pression glissée, 3 répétitions._ → Accompagne le rythme du métabolisme. (Physio)
+6. **le diaphragme** · _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
+7. **le foie** · _Pression rotative, 3 répétitions._ → Relâche la colère et la frustration. (sur-mesure)
+8. **l'estomac** · _Pression rotative, 3 répétitions._ → Apaise le haut du ventre, aide la digestion. (Physio)
+9. **les surrénales** · _Pression maintenue, 3 répétitions._ → Soutient l'énergie et la réponse au stress. (Physio)
+10. **l'intestin grêle** · _Pression rotative, 3 répétitions._ → Accompagne l'assimilation des nutriments. (Physio)
+11. **le gros intestin** · _Pression glissée, 3 répétitions._ → Accompagne le transit et l'élimination. (Physio)
 
 ---
 
-## Mal des transports · M21–M23
+## Mal des transports · M21-M23
 
 _Sous-titre (liste) : Apaiser l'équilibre et relâcher le stress quand les trajets chahutent._
 
-En voiture ou en train, **le système de l'équilibre de bébé est encore immature** et se laisse vite déborder par le mouvement. Ce moment aux pieds l'aide à retrouver ses repères et à relâcher les tensions du voyage. **À faire avant le départ**, ou à l'arrivée, au calme.
+En voiture ou en train, **le système de l'équilibre de bébé est encore immature** et se laisse vite déborder par le mouvement. La séquence va là où cela se joue : **les oreilles, siège de l'équilibre**, la tête et le nerf vague qui font circuler l'information, puis l'estomac et son entrée, pour apaiser le haut du ventre et limiter les rejets. **À faire avant le départ**, ou à l'arrivée, au calme.
 
 **Séquence :**
 
-1. **la colonne vertébrale et le nerf vague** — _Pression glissée, 3 répétitions._ → Apaise l'axe du dos et diffuse les informations. (sur-mesure)
-2. **le chakra coronal** — _Pression maintenue, 3 répétitions._ → Soutient la conscience de soi et la concentration. (Physio)
-3. **la tête** — _Pression circulaire, 3 répétitions._ → Favorise la circulation des informations. (sur-mesure)
-4. **les oreilles** — _Pression glissée, 3 répétitions._ → Soutien le système vestibulaire. (sur-mesure)
-5. **la bouche** — _Pression maintenue, 3 répétitions._ → Régule la salivation. (sur-mesure)
-6. **le diaphragme** — _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
-7. **le thymus** — _Pression maintenue, 3 répétitions._ → Régule le stress. (Énergie)
-8. **l'œsophage** — _Pression glissée, 3 répétitions._ → Apaise et limite les rejets. (sur-mesure)
-8. **le cardia** — _Pression maintenue, 3 répétitions._ → Soutient l'ouverture et la fermeture de l'estomac. (Physio)
-9. **l'estomac** — _Pression rotative, 3 répétitions._ → Apaise le haut du ventre, aide la digestion. (Physio)
-10. **le foie** — _Pression rotative, 3 répétitions._ → Relâche la colère et la frustration. (sur-mesure)
-11. **le gros intestin** — _Pression glissée, 3 répétitions._ → Accompagne le lâcher-prise. (sur-mesure)
+1. **la colonne vertébrale et le nerf vague** · _Pression glissée, 3 répétitions._ → Apaise l'axe du dos et diffuse les informations. (sur-mesure)
+2. **le chakra coronal** · _Pression maintenue, 3 répétitions._ → Soutient la conscience de soi et la concentration. (Physio)
+3. **la tête** · _Pression circulaire, 3 répétitions._ → Favorise la circulation des informations. (sur-mesure)
+4. **les oreilles** · _Pression glissée, 3 répétitions._ → Soutien le système vestibulaire. (sur-mesure)
+5. **la bouche** · _Pression maintenue, 3 répétitions._ → Régule la salivation. (sur-mesure)
+6. **le diaphragme** · _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
+7. **le thymus** · _Pression maintenue, 3 répétitions._ → Régule le stress. (Énergie)
+8. **l'œsophage** · _Pression glissée, 3 répétitions._ → Apaise et limite les rejets. (sur-mesure)
+8. **le cardia** · _Pression maintenue, 3 répétitions._ → Soutient l'ouverture et la fermeture de l'estomac. (Physio)
+9. **l'estomac** · _Pression rotative, 3 répétitions._ → Apaise le haut du ventre, aide la digestion. (Physio)
+10. **le foie** · _Pression rotative, 3 répétitions._ → Relâche la colère et la frustration. (sur-mesure)
+11. **le gros intestin** · _Pression glissée, 3 répétitions._ → Accompagne le lâcher-prise. (sur-mesure)
 
 ---
 
-## Sommeil agité · M0–M23
+## Sommeil agité · M0-M23
 
 _Sous-titre (liste) : Accompagner l'endormissement et le retour au calme, au creux du soir._
 
-Le sommeil de bébé est fait de **cycles courts**, et les réveils font partie de son apprentissage, même quand ils sont épuisants. Son horloge interne se construit petit à petit : ce sont **les repères qui reviennent**, la lumière du jour, la pénombre du soir, les rituels répétés, qui l'aident peu à peu à distinguer le jour de la nuit. La séquence accompagne ce travail en passant par les zones liées aux rythmes et au retour au calme. Installe-toi : lumière tamisée, ta voix posée, ta respiration lente. **_Ton propre apaisement compte autant que le geste._**
+Le sommeil de bébé est fait de **cycles courts**, et les réveils font partie de son apprentissage, même quand ils sont épuisants. Son horloge interne se construit petit à petit : ce sont **les repères qui reviennent**, la lumière du jour, la pénombre du soir, les rituels répétés, qui l'aident peu à peu à distinguer le jour de la nuit. La séquence accompagne ce travail en passant par les zones liées aux rythmes et au retour au calme. Installe-toi : lumière tamisée, ta voix posée, ta respiration lente.
+
+_Ton propre apaisement compte autant que le geste._
 
 **Séquence :**
 
-1. **la tête** — _Pression circulaire, 3 répétitions._ → Apaise la tête, accueille bébé entier. (Physio)
-2. **l'hypophyse** — _Pression maintenue, 3 répétitions._ → Harmonise la régulation des hormones. (Physio)
-3. **l'épiphyse** — _Pression maintenue, 3 répétitions._ → Régule les cycles éveil-sommeil. (Physio)
-4. **le diaphragme** — _Pression glissée, 3 répétitions._ → Détend, aide au retour au calme. (Énergie)
-5. **le thymus** — _Pression maintenue, 3 répétitions._ → Régule le stress. (Énergie)
-6. **la thyroïde** — _Pression glissée, 3 répétitions._ → Accompagne le rythme du métabolisme. (Physio)
-7. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
-8. **les surrénales** — _Pression maintenue, 3 répétitions._ → Soutient l'énergie et la réponse au stress. (Physio)
+1. **la tête** · _Pression circulaire, 3 répétitions._ → Apaise la tête, accueille bébé entier. (Physio)
+2. **l'hypophyse** · _Pression maintenue, 3 répétitions._ → Harmonise la régulation des hormones. (Physio)
+3. **l'épiphyse** · _Pression maintenue, 3 répétitions._ → Régule les cycles éveil-sommeil. (Physio)
+4. **le diaphragme** · _Pression glissée, 3 répétitions._ → Détend, aide au retour au calme. (Énergie)
+5. **le thymus** · _Pression maintenue, 3 répétitions._ → Régule le stress. (Énergie)
+6. **la thyroïde** · _Pression glissée, 3 répétitions._ → Accompagne le rythme du métabolisme. (Physio)
+7. **le plexus solaire** · _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
+8. **les surrénales** · _Pression maintenue, 3 répétitions._ → Soutient l'énergie et la réponse au stress. (Physio)
 
-**Variante — En cas de cauchemars** (dès 12 mois)
+**Variante · En cas de cauchemars** (dès 12 mois)
    +. **la vésicule biliaire** → Apaise et dissout les cauchemars.
 
 ---
 
-## Rhume et oreilles · M6–M23
+## Rhume et oreilles · M6-M23
 
 _Sous-titre (liste) : Soulager le nez encombré et l'inconfort des oreilles._
 
-Un nez pris, une oreille gênée, et **toute la journée s'en trouve changée** : bébé respire moins bien, tète moins bien, dort moins bien. Ce moment aux pieds apaise cet inconfort et l'accompagne, sans prétendre soigner. Fièvre, douleur d'oreille ou pleurs inhabituels : direction le médecin. **_S'il n'a pas envie qu'on touche à ses pieds aujourd'hui, remets à plus tard : son inconfort a le droit d'être là._**
+Un nez pris, une oreille gênée, et **toute la journée s'en trouve changée** : bébé respire moins bien, tète moins bien, dort moins bien. La séquence suit le trajet de l'encombrement : **les sinus, le nez, les oreilles** pour la pression, puis les amygdales, les ganglions et le thymus, qui soutiennent les défenses. Elle ouvre ensuite la respiration, et finit par apaiser. Fièvre, douleur d'oreille ou pleurs inhabituels : direction le médecin.
+
+_S'il n'a pas envie qu'on touche à ses pieds aujourd'hui, remets à plus tard._
 
 **Séquence :**
 
-1. **l'hypophyse** — _Pression maintenue, 3 répétitions._ → Harmonise la régulation des hormones. (Physio)
-2. **les sinus** — _Pression glissée, 2 allers-retours_ → Soulage les voies respiratoires. (Physio)
-3. **le nez** — _Pression glissée, 3 répétitions._ → Dégage les sinus profonds. (Physio)
-4. **les oreilles** — _Pression glissée, 3 répétitions._ → Soulage la pression. (Physio)
-5. **les amygdales** — _Pression glissée, 3 répétitions._ → Soutient la gorge et les défenses. (Physio)
-6. **les ganglions lymphatiques** — _Pression maintenue, 2 répétitions._ → Soutient les anticorps. (Physio)
-7. **le thymus** — _Pression maintenue, 3 répétitions._ → Soutient les défenses immunitaires. (Physio)
-8. **les poumons** — _Pression rotative, 3 répétitions._ → Ouvre la respiration, oxygène le corps. (Physio)
-9. **le diaphragme** — _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
-10. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
-11. **la rate** — _Pression rotative, 3 répétitions._ → Apaise l'inquiétude, ancre et rassure. (Énergie)
-12. **les surrénales** — _Pression maintenue, 3 répétitions._ → Soutient l'énergie et la réponse à la douleur. (Énergie)
-13. **l'intestin grêle** — _Pression rotative, 3 répétitions._ → Trie le pur et l'impur. (sur-mesure)
+1. **l'hypophyse** · _Pression maintenue, 3 répétitions._ → Harmonise la régulation des hormones. (Physio)
+2. **les sinus** · _Pression glissée, 2 allers-retours_ → Soulage les voies respiratoires. (Physio)
+3. **le nez** · _Pression glissée, 3 répétitions._ → Dégage les sinus profonds. (Physio)
+4. **les oreilles** · _Pression glissée, 3 répétitions._ → Soulage la pression. (Physio)
+5. **les amygdales** · _Pression glissée, 3 répétitions._ → Soutient la gorge et les défenses. (Physio)
+6. **les ganglions lymphatiques** · _Pression maintenue, 2 répétitions._ → Soutient les anticorps. (Physio)
+7. **le thymus** · _Pression maintenue, 3 répétitions._ → Soutient les défenses immunitaires. (Physio)
+8. **les poumons** · _Pression rotative, 3 répétitions._ → Ouvre la respiration, oxygène le corps. (Physio)
+9. **le diaphragme** · _Pression glissée, 3 répétitions._ → Relâche et déplie la respiration. (Physio)
+10. **le plexus solaire** · _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
+11. **la rate** · _Pression rotative, 3 répétitions._ → Apaise l'inquiétude, ancre et rassure. (Énergie)
+12. **les surrénales** · _Pression maintenue, 3 répétitions._ → Soutient l'énergie et la réponse à la douleur. (Énergie)
+13. **l'intestin grêle** · _Pression rotative, 3 répétitions._ → Trie le pur et l'impur. (sur-mesure)
 
 ---
 
-## Manque de concentration · M18–M23
+## Manque de concentration · M18-M23
 
 _Sous-titre (liste) : Aider un enfant agité à se poser et à se concentrer._
 
-Quand tout part dans tous les sens, **ton enfant n'agit pas contre toi** : son cerveau, encore en pleine construction, n'a pas fini d'apprendre à trier ce qui l'entoure. Ce moment aux pieds lui offre **une pause sensorielle**, un point d'appui pour redescendre. Sans attendre de résultat immédiat : c'est **la répétition tranquille** qui l'aide à se poser.
+Quand tout part dans tous les sens, **ton enfant n'agit pas contre toi** : son cerveau, encore en pleine construction, n'a pas fini d'apprendre à trier ce qui l'entoure. La séquence commence par **calmer le système nerveux**, puis apaise ce qui parasite l'attention : l'irritabilité, la nervosité, la peur. Elle passe ensuite par les zones de **la conscience de soi et de l'ancrage**, celles qui aident un enfant à se rassembler pour se poser. Sans attendre de résultat immédiat : c'est la répétition tranquille qui l'aide.
 
 **Séquence :**
 
-1. **la colonne vertébrale** — _Pression glissée, 3 répétitions._ → Détend l'axe du dos, calme le système nerveux. (Physio)
-2. **l'hypophyse** — _Pression maintenue, 3 répétitions._ → Harmonise la régulation des hormones. (Physio)
-3. **le chakra coronal** — _Pression maintenue, 3 répétitions._ → Soutient la conscience de soi et la concentration. (Physio)
-4. **le thymus** — _Pression maintenue, 3 répétitions._ → Régule le stress. (Énergie)
-5. **la thyroïde** — _Pression glissée, 3 répétitions._ → Accompagne le rythme du métabolisme. (Physio)
-6. **le diaphragme** — _Pression glissée, 3 répétitions._ → Détend, aide au retour au calme. (Énergie)
-7. **le foie** — _Pression rotative, 3 répétitions._ → Relâche la colère et la frustration. (sur-mesure)
-8. **la vésicule biliaire** — _Pression maintenue, 3 répétitions._ → Apaise l'irritabilité. (Énergie)
-9. **les reins** — _Pression maintenue, 3 répétitions._ → Apaise la peur, donne confiance. (Énergie)
-10. **le bassin** — _Pression en spirale vers le centre, 3 répétitions._ → Ancre bébé dans son corps. (sur-mesure)
+1. **la colonne vertébrale** · _Pression glissée, 3 répétitions._ → Détend l'axe du dos, calme le système nerveux. (Physio)
+2. **l'hypophyse** · _Pression maintenue, 3 répétitions._ → Harmonise la régulation des hormones. (Physio)
+3. **le chakra coronal** · _Pression maintenue, 3 répétitions._ → Soutient la conscience de soi et la concentration. (Physio)
+4. **le thymus** · _Pression maintenue, 3 répétitions._ → Régule le stress. (Énergie)
+5. **la thyroïde** · _Pression glissée, 3 répétitions._ → Accompagne le rythme du métabolisme. (Physio)
+6. **le diaphragme** · _Pression glissée, 3 répétitions._ → Détend, aide au retour au calme. (Énergie)
+7. **le foie** · _Pression rotative, 3 répétitions._ → Relâche la colère et la frustration. (sur-mesure)
+8. **la vésicule biliaire** · _Pression maintenue, 3 répétitions._ → Apaise l'irritabilité. (Énergie)
+9. **les reins** · _Pression maintenue, 3 répétitions._ → Apaise la peur, donne confiance. (Énergie)
+10. **le bassin** · _Pression en spirale vers le centre, 3 répétitions._ → Ancre bébé dans son corps. (sur-mesure)
 
 ---
 
-## Anxiété, nervosité · M19–M23
+## Anxiété, nervosité · M19-M23
 
 _Sous-titre (liste) : Apaiser l'inquiétude et dénouer la nervosité, à ton contact._
 
-L'inquiétude de bébé **se loge dans son corps** bien avant de pouvoir se dire avec des mots : ventre noué, sommeil léger, sursauts. Ce moment aux pieds lui offre un point d'appui pour redescendre, dans le contact et le calme. Rien à réussir, rien à corriger : juste un temps ensemble. **_Accueille son émotion avant de vouloir l'apaiser : être entendu calme déjà._**
+L'inquiétude de bébé **se loge dans son corps** bien avant de pouvoir se dire avec des mots : ventre noué, sommeil léger, sursauts. La séquence suit ce chemin-là : on ouvre la respiration et le diaphragme, on passe par **le plexus solaire et les surrénales**, zones de l'émotion et de la réponse au stress, puis par celles qui **ancrent et éloignent la peur**. Rien à réussir, rien à corriger : le corps se déleste à son rythme.
+
+_Accueille son émotion avant de vouloir l'apaiser : être entendu calme déjà._
 
 **Séquence :**
 
-1. **la colonne vertébrale** — _Pression glissée, 3 répétitions._ → Détend l'axe du dos, calme le système nerveux. (Physio)
-2. **l'hypophyse** — _Pression maintenue, 3 répétitions._ → Harmonise la régulation des hormones. (Physio)
-3. **le chakra coronal** — _Pression maintenue, 3 répétitions._ → Soutient la conscience de soi et la concentration. (Physio)
-4. **le thymus** — _Pression maintenue, 3 répétitions._ → Régule le stress. (Énergie)
-5. **les poumons** — _Pression rotative, 3 répétitions._ → Ouvre la respiration, oxygène le corps. (Physio)
-6. **le diaphragme** — _Pression glissée, 3 répétitions._ → Détend, aide au retour au calme. (Énergie)
-7. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
-8. **les surrénales** — _Pression maintenue, 3 répétitions._ → Soutient l'énergie et la réponse au stress. (Physio)
-9. **la rate** — _Pression rotative, 3 répétitions._ → Apaise l'inquiétude, ancre et rassure. (Énergie)
-10. **le pancréas** — _Pression rotative, 3 répétitions._ → Ancre et rassure. (Énergie)
-11. **le système urinaire** — _Point de pression, puis pression glissée, puis point de pression, 3 répétitions._ → Rejète la peur, soutient la confiance. (Énergie)
+1. **la colonne vertébrale** · _Pression glissée, 3 répétitions._ → Détend l'axe du dos, calme le système nerveux. (Physio)
+2. **l'hypophyse** · _Pression maintenue, 3 répétitions._ → Harmonise la régulation des hormones. (Physio)
+3. **le chakra coronal** · _Pression maintenue, 3 répétitions._ → Soutient la conscience de soi et la concentration. (Physio)
+4. **le thymus** · _Pression maintenue, 3 répétitions._ → Régule le stress. (Énergie)
+5. **les poumons** · _Pression rotative, 3 répétitions._ → Ouvre la respiration, oxygène le corps. (Physio)
+6. **le diaphragme** · _Pression glissée, 3 répétitions._ → Détend, aide au retour au calme. (Énergie)
+7. **le plexus solaire** · _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
+8. **les surrénales** · _Pression maintenue, 3 répétitions._ → Soutient l'énergie et la réponse au stress. (Physio)
+9. **la rate** · _Pression rotative, 3 répétitions._ → Apaise l'inquiétude, ancre et rassure. (Énergie)
+10. **le pancréas** · _Pression rotative, 3 répétitions._ → Ancre et rassure. (Énergie)
+11. **le système urinaire** · _Point de pression, puis pression glissée, puis point de pression, 3 répétitions._ → Rejète la peur, soutient la confiance. (Énergie)
 
 ---
 
-## Opposition, frustration · M14–M23
+## Opposition, frustration · M14-M23
 
 _Sous-titre (liste) : Relâcher la tension de l'opposition et aider bébé à se sentir contenu._
 
-« Non », « pas comme ça », et la tempête arrive. À cet âge, **la partie du cerveau qui freine l'émotion est encore en chantier** : bébé ne choisit pas de perdre le contrôle. Ta présence calme lui sert d'appui le temps que la vague passe. Ce moment aux pieds, une fois l'orage retombé, l'aide à relâcher et à se sentir contenu. **_Sa colère et sa frustration ont le droit d'exister : tu es là, c'est ce qui compte._**
+« Non », « pas comme ça », et la tempête arrive. À cet âge, **la partie du cerveau qui freine l'émotion est encore en chantier** : bébé ne choisit pas de perdre le contrôle. Une fois l'orage retombé, la séquence contient le corps, puis travaille **le foie et la vésicule biliaire**, les zones de la colère et de l'irritabilité, avant de finir sur celles qui **ancrent et apaisent la peur**.
+
+_Sa colère et sa frustration ont le droit d'exister : tu es là, c'est ce qui compte._
 
 **Séquence :**
 
-1. **le contour de la colonne vertébrale** — _Pression glissée, 3 répétitions._ → Détend l'axe du dos, contient le corps. (Physio)
-2. **la tête** — _Pression circulaire, 3 répétitions._ → Favorise la circulation de l'énergie. (Énergie)
-3. **la thyroïde** — _Pression glissée, 3 répétitions._ → Accompagne le rythme du métabolisme. (Physio)
-4. **le diaphragme** — _Pression glissée, 3 répétitions._ → Détend, aide au retour au calme. (Énergie)
-5. **le plexus solaire** — _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
-6. **le foie** — _Pression rotative, 3 répétitions._ → Relâche la colère et la frustration, invite au calme. (Énergie)
-7. **la vésicule biliaire** — _Pression maintenue, 3 répétitions._ → Apaise l'irritabilité. (Énergie)
-8. **la rate** — _Pression rotative, 3 répétitions._ → Apaise l'inquiétude, ancre et rassure. (Énergie)
-9. **le pancréas** — _Pression rotative, 3 répétitions._ → Ancre et rassure. (Énergie)
-10. **la vessie** — _Pression maintenue, 3 répétitions._ → Apaise la peur, soutient la sérénité. (Énergie)
+1. **le contour de la colonne vertébrale** · _Pression glissée, 3 répétitions._ → Détend l'axe du dos, contient le corps. (Physio)
+2. **la tête** · _Pression circulaire, 3 répétitions._ → Favorise la circulation de l'énergie. (Énergie)
+3. **la thyroïde** · _Pression glissée, 3 répétitions._ → Accompagne le rythme du métabolisme. (Physio)
+4. **le diaphragme** · _Pression glissée, 3 répétitions._ → Détend, aide au retour au calme. (Énergie)
+5. **le plexus solaire** · _Pression maintenue, 3 répétitions._ → Centre des émotions : libère et apporte de la joie. (Énergie)
+6. **le foie** · _Pression rotative, 3 répétitions._ → Relâche la colère et la frustration, invite au calme. (Énergie)
+7. **la vésicule biliaire** · _Pression maintenue, 3 répétitions._ → Apaise l'irritabilité. (Énergie)
+8. **la rate** · _Pression rotative, 3 répétitions._ → Apaise l'inquiétude, ancre et rassure. (Énergie)
+9. **le pancréas** · _Pression rotative, 3 répétitions._ → Ancre et rassure. (Énergie)
+10. **la vessie** · _Pression maintenue, 3 répétitions._ → Apaise la peur, soutient la sérénité. (Énergie)
 
 ---
 
-## Jalousie · M22–M23
+## Jalousie · M22-M23
 
 _Sous-titre (liste) : Aider ton enfant à se sentir aimé et sûr de sa place._
 
-L'arrivée d'un autre enfant **bouscule la place que ton aîné croyait sienne**, et il n'a pas les mots pour le dire. Ce qu'il exprime maladroitement est souvent **une demande d'attention rien qu'à lui**. Ce moment aux pieds, exclusif, lui rappelle qu'il reste aimé et attendu à sa juste place. **_Tu n'as pas à choisir entre tes enfants : un temps rien qu'à lui suffit souvent à faire redescendre la tension._**
+L'arrivée d'un autre enfant **bouscule la place que ton aîné croyait sienne**, et il n'a pas les mots pour le dire. La séquence est courte et va à l'essentiel : **la conscience de soi**, l'estomac où se digèrent les émotions et se ruminent les pensées, les reins qui apaisent la peur, le bassin qui ancre. Un moment qui n'appartient qu'à lui, et qui lui rappelle qu'il reste aimé et attendu à sa juste place.
+
+_Tu n'as pas à choisir entre tes enfants : un temps rien qu'à lui suffit souvent à faire redescendre la tension._
 
 **Séquence :**
 
-1. **la colonne vertébrale** — _Pression glissée, 3 répétitions._ → Détend l'axe du dos, calme le système nerveux. (Physio)
-2. **le chakra coronal** — _Pression maintenue, 3 répétitions._ → Soutient la conscience de soi et la concentration. (Physio)
-3. **la thyroïde** — _Pression glissée, 3 répétitions._ → Accompagne le rythme du métabolisme. (Physio)
-4. **l'estomac** — _Pression rotative, 3 répétitions._ → Digère les émotions, apaise la rumination. (Énergie)
-5. **les reins** — _Pression maintenue, 3 répétitions._ → Apaise la peur, donne confiance. (Énergie)
-6. **le bassin** — _Pression en spirale vers le centre, 3 répétitions._ → Détend le bassin et ancre. (Physio)
+1. **la colonne vertébrale** · _Pression glissée, 3 répétitions._ → Détend l'axe du dos, calme le système nerveux. (Physio)
+2. **le chakra coronal** · _Pression maintenue, 3 répétitions._ → Soutient la conscience de soi et la concentration. (Physio)
+3. **la thyroïde** · _Pression glissée, 3 répétitions._ → Accompagne le rythme du métabolisme. (Physio)
+4. **l'estomac** · _Pression rotative, 3 répétitions._ → Digère les émotions, apaise la rumination. (Énergie)
+5. **les reins** · _Pression maintenue, 3 répétitions._ → Apaise la peur, donne confiance. (Énergie)
+6. **le bassin** · _Pression en spirale vers le centre, 3 répétitions._ → Détend le bassin et ancre. (Physio)
 
 
-# — REPORTÉS —
+# · REPORTÉS ·
 
 ---
 
@@ -441,19 +474,19 @@ Quand le souffle se fait court, **l'inquiétude monte vite**, chez bébé comme 
 
 **Séquence :**
 
-1. **la colonne vertébrale** — _Pression glissée, 3 répétitions._ →  
-2. **l'hypophyse** — _Pression maintenue, 3 répétitions._ →  
-3. **le cou** — _Pression glissée, 3 répétitions._ →  
-4. **les amygdales** — _Pression glissée, 3 répétitions._ →  
-5. **les ganglions lymphatiques** — _Pression maintenue, 2 répétitions._ →  
-6. **le thymus** — _Pression maintenue, 3 répétitions._ →  
-8. **les poumons** — _Pression rotative, 3 répétitions._ →  
-9. **le diaphragme** — _Pression glissée, 3 répétitions._ →  
-10. **le plexus solaire** — _Pression maintenue, 3 répétitions._ →  
-11. **la rate** — _Pression rotative, 3 répétitions._ →  
-12. **les surrénales** — _Pression maintenue, 3 répétitions._ →  
-13. **l'intestin grêle** — _Pression rotative, 3 répétitions._ →  
-14. **le gros intestin** — _Pression glissée, 3 répétitions._ →  
+1. **la colonne vertébrale** · _Pression glissée, 3 répétitions._ →  
+2. **l'hypophyse** · _Pression maintenue, 3 répétitions._ →  
+3. **le cou** · _Pression glissée, 3 répétitions._ →  
+4. **les amygdales** · _Pression glissée, 3 répétitions._ →  
+5. **les ganglions lymphatiques** · _Pression maintenue, 2 répétitions._ →  
+6. **le thymus** · _Pression maintenue, 3 répétitions._ →  
+8. **les poumons** · _Pression rotative, 3 répétitions._ →  
+9. **le diaphragme** · _Pression glissée, 3 répétitions._ →  
+10. **le plexus solaire** · _Pression maintenue, 3 répétitions._ →  
+11. **la rate** · _Pression rotative, 3 répétitions._ →  
+12. **les surrénales** · _Pression maintenue, 3 répétitions._ →  
+13. **l'intestin grêle** · _Pression rotative, 3 répétitions._ →  
+14. **le gros intestin** · _Pression glissée, 3 répétitions._ →  
 
 ---
 
@@ -465,18 +498,18 @@ La peau de bébé **raconte souvent ce que son corps traverse**. Ce moment aux p
 
 **Séquence :**
 
-1. **l'hypophyse** — _Pression maintenue, 3 répétitions._ →  
-2. **les ganglions lymphatiques** — _Pression maintenue, 2 répétitions._ →  
-3. **la thyroïde** — _Pression glissée, 3 répétitions._ →  
-4. **les poumons** — _Pression rotative, 3 répétitions._ →  
-5. **le diaphragme** — _Pression glissée, 3 répétitions._ →  
-6. **le plexus solaire** — _Pression maintenue, 3 répétitions._ →  
-7. **les surrénales** — _Pression maintenue, 3 répétitions._ →  
-8. **le foie** — _Pression rotative, 3 répétitions._ →  
-9. **les reins** — _Pression maintenue, 3 répétitions._ →  
-10. **l'intestin grêle** — _Pression rotative, 3 répétitions._ →  
-11. **le gros intestin** — _Pression glissée, 3 répétitions._ →  
-12. **la colonne vertébrale** — _Pression glissée, 3 répétitions._ →  
+1. **l'hypophyse** · _Pression maintenue, 3 répétitions._ →  
+2. **les ganglions lymphatiques** · _Pression maintenue, 2 répétitions._ →  
+3. **la thyroïde** · _Pression glissée, 3 répétitions._ →  
+4. **les poumons** · _Pression rotative, 3 répétitions._ →  
+5. **le diaphragme** · _Pression glissée, 3 répétitions._ →  
+6. **le plexus solaire** · _Pression maintenue, 3 répétitions._ →  
+7. **les surrénales** · _Pression maintenue, 3 répétitions._ →  
+8. **le foie** · _Pression rotative, 3 répétitions._ →  
+9. **les reins** · _Pression maintenue, 3 répétitions._ →  
+10. **l'intestin grêle** · _Pression rotative, 3 répétitions._ →  
+11. **le gros intestin** · _Pression glissée, 3 répétitions._ →  
+12. **la colonne vertébrale** · _Pression glissée, 3 répétitions._ →  
 
 ---
 
@@ -488,14 +521,14 @@ Le corps de bébé réagit fort à ce qu'il rencontre. Ce moment aux pieds **sou
 
 **Séquence :**
 
-1. **l'hypophyse** — _Pression maintenue, 3 répétitions._ →  
-2. **la thyroïde** — _Pression glissée, 3 répétitions._ →  
-3. **les ganglions lymphatiques** — _Pression maintenue, 2 répétitions._ →  
-4. **les surrénales** — _Pression maintenue, 3 répétitions._ →  
-5. **les reins** — _Pression maintenue, 3 répétitions._ →  
-6. **l'intestin grêle** — _Pression rotative, 3 répétitions._ →  
-7. **le gros intestin** — _Pression glissée, 3 répétitions._ →  
-8. **les poumons** — _Pression rotative, 3 répétitions._ →  
+1. **l'hypophyse** · _Pression maintenue, 3 répétitions._ →  
+2. **la thyroïde** · _Pression glissée, 3 répétitions._ →  
+3. **les ganglions lymphatiques** · _Pression maintenue, 2 répétitions._ →  
+4. **les surrénales** · _Pression maintenue, 3 répétitions._ →  
+5. **les reins** · _Pression maintenue, 3 répétitions._ →  
+6. **l'intestin grêle** · _Pression rotative, 3 répétitions._ →  
+7. **le gros intestin** · _Pression glissée, 3 répétitions._ →  
+8. **les poumons** · _Pression rotative, 3 répétitions._ →  
 
 ---
 
@@ -507,13 +540,13 @@ Les tout premiers jours, le corps de ton bébé **apprend à éliminer**. Ce mom
 
 **Séquence :**
 
-1. **la tête** — _Pression circulaire, 3 répétitions._ →  
-2. **les poumons** — _Pression rotative, 3 répétitions._ →  
-3. **le diaphragme** — _Pression glissée, 3 répétitions._ →  
-4. **le plexus solaire** — _Pression maintenue, 3 répétitions._ →  
-5. **le foie** — _Pression rotative, 3 répétitions._ →  
-6. **la colonne vertébrale** — _Pression glissée, 3 répétitions._ →  
-7. **le gros intestin** — _Pression glissée, 3 répétitions._ →  
+1. **la tête** · _Pression circulaire, 3 répétitions._ →  
+2. **les poumons** · _Pression rotative, 3 répétitions._ →  
+3. **le diaphragme** · _Pression glissée, 3 répétitions._ →  
+4. **le plexus solaire** · _Pression maintenue, 3 répétitions._ →  
+5. **le foie** · _Pression rotative, 3 répétitions._ →  
+6. **la colonne vertébrale** · _Pression glissée, 3 répétitions._ →  
+7. **le gros intestin** · _Pression glissée, 3 répétitions._ →  
 
 ---
 
@@ -525,9 +558,9 @@ Les toutes premières éliminations demandent **un vrai travail au corps de ton 
 
 **Séquence :**
 
-1. **la tête** — _Pression circulaire, 3 répétitions._ →  
-2. **le diaphragme** — _Pression glissée, 3 répétitions._ →  
-3. **le plexus solaire** — _Pression maintenue, 3 répétitions._ →  
-4. **le foie** — _Pression rotative, 3 répétitions._ →  
-5. **le gros intestin** — _Pression glissée, 3 répétitions._ →  
-6. **la colonne vertébrale** — _Pression glissée, 3 répétitions._ →  
+1. **la tête** · _Pression circulaire, 3 répétitions._ →  
+2. **le diaphragme** · _Pression glissée, 3 répétitions._ →  
+3. **le plexus solaire** · _Pression maintenue, 3 répétitions._ →  
+4. **le foie** · _Pression rotative, 3 répétitions._ →  
+5. **le gros intestin** · _Pression glissée, 3 répétitions._ →  
+6. **la colonne vertébrale** · _Pression glissée, 3 répétitions._ →  

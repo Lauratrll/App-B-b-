@@ -22,6 +22,8 @@ import {
   REFLEXO_MUTED,
   REFLEXO_TEXT,
   REFLEXO_GAMME,
+  REFLEXO_FOND_LECTEUR,
+  REFLEXO_FOND_LECTEUR_TEXTE,
   REFLEXO_TERRACOTTA,
   slotReflexo,
   texteGras,
@@ -29,8 +31,9 @@ import {
 
 // Écran d'un protocole de « Réflexologie ».
 // Ordre imposé par reflexologie/CONSIGNES_CLAUDE_CODE_onglet_reflexologie.md §4 :
-// titre + intro (l'accueil de l'émotion y est intégré) → ouverture → séquence
-// → note de fin (toujours) → régularité (toujours) → disclaimer (toujours).
+// titre + intro (l'accueil de l'émotion y est intégré) → ouverture → carte des
+// zones → séquence repliée → régularité (toujours) → disclaimer (toujours).
+// La note de fin ne s'affiche plus ici : elle vit dans le lecteur animé.
 
 export function generateStaticParams() {
   return getIdsPublies().map((id) => ({ id }));
@@ -60,9 +63,12 @@ export default async function ProtocoleReflexoPage({
   // même teinte que sa carte dans la liste et que son picto, pour que l'entrée
   // dans la fiche prolonge la case sur laquelle le parent a tapé.
   const C_OUVERTURE = famille;
-  const C_GESTE = REFLEXO_GAMME[3]; // turquoise vert — l'identité de l'onglet
   const C_VARIANTE = REFLEXO_GAMME[1]; // violet lilas — la version alternative
-  const C_FIN = REFLEXO_GAMME[2]; // bleu ciel — la sortie en douceur
+  // « Jour après jour » forme une UNITÉ avec « Avant de commencer » (choix
+  // Laura) : même fond (`doux`) et même couleur d'intitulé (`profond`), donc
+  // même famille — celle du protocole, variable d'une fiche à l'autre. Les deux
+  // encarts encadrent la séance : ce qu'on installe avant, ce qu'on répète après.
+  const C_REGULARITE = famille;
 
   const afficherVariante = varianteVisible(protocole.variante, moisBebe);
   const visuel = visuelUrl(protocole.visuel);
@@ -147,6 +153,22 @@ export default async function ProtocoleReflexoPage({
         >
           {texteGras(protocole.intro)}
         </p>
+        {/* La phrase qui accueille l'émotion : même bloc que l'intro, distinguée
+            par l'italique seul (pas d'encart, pas de marqueur dans le texte). */}
+        {protocole.intro_note ? (
+          <p
+            style={{
+              fontSize: 13.5,
+              lineHeight: 1.6,
+              color: REFLEXO_TEXT,
+              fontStyle: "italic",
+              textAlign: "left",
+              margin: "10px 0 0",
+            }}
+          >
+            {texteGras(protocole.intro_note)}
+          </p>
+        ) : null}
       </header>
 
       {/* 3. Ouverture — installation, avant tout toucher réflexe. Source COMMUNE
@@ -231,18 +253,6 @@ export default async function ProtocoleReflexoPage({
             >
               Les zones réflexes, pas à pas
             </h2>
-            <p
-              style={{
-                fontSize: 9,
-                color: REFLEXO_MUTED,
-                letterSpacing: ".13em",
-                textTransform: "uppercase",
-                fontWeight: 600,
-                margin: "3px 0 0 0",
-              }}
-            >
-              Dans l&apos;ordre des étapes
-            </p>
           </div>
 
           {/* Carte cliquable : image + ▶ qui ouvre le lecteur animé paysage. */}
@@ -254,58 +264,127 @@ export default async function ProtocoleReflexoPage({
             noteFin={protocole.note_fin}
             dureeMs={getDureeAnimation(params.id)}
           />
-          <p
-            style={{
-              fontSize: 10.5,
-              color: REFLEXO_MUTED,
-              fontStyle: "italic",
-              textAlign: "center",
-              margin: 0,
-            }}
-          >
-            Tourne ton téléphone pour la lecture animée.
-          </p>
         </section>
       ) : null}
 
-      {/* 4 bis. Régularité — rappel COMMUN à tous les protocoles, placé juste
-          après la carte animée et avant la séquence (choix Laura) : c'est la
-          répétition des stimulations qui compte, pas une séance isolée. */}
-      {protocole.regularite ? (
-        <p
+      {/* 4 bis. Séquence — REPLIÉE par défaut (choix Laura, 25/08) : le détail
+          du geste vit dans le lecteur animé, où il est calé sur le pied. Ici on
+          ne garde qu'un aide-mémoire, zone + pourquoi, pour le parent qui
+          connaît déjà le protocole et veut décoder les numéros de la carte. */}
+      <style>{`
+        details.reflexo-sequence > summary { list-style: none; }
+        details.reflexo-sequence > summary::-webkit-details-marker { display: none; }
+        details.reflexo-sequence[open] .reflexo-chevron-seq { transform: rotate(180deg); }
+      `}</style>
+      {/* Même encart que l'« Introduction » de l'accueil (choix Laura, 28/08) :
+          le fond du lecteur — celui de l'image des pieds juste au-dessus — pour
+          rattacher l'aide-mémoire à la carte qu'il sert à décoder, et des étapes
+          en cartes blanches à l'intérieur. */}
+      <details
+        className="reflexo-sequence"
+        style={{
+          background: REFLEXO_FOND_LECTEUR,
+          borderRadius: 14,
+          overflow: "hidden",
+        }}
+      >
+        <summary
           style={{
-            background: C_FIN.accent,
+            listStyle: "none",
+            cursor: "pointer",
+            display: "flex",
+            alignItems: "center",
+            gap: 12,
+            padding: "14px 16px",
+          }}
+        >
+          <span style={{ flex: 1, minWidth: 0 }}>
+            <span
+              style={{
+                display: "block",
+                fontFamily: PLAYFAIR,
+                fontWeight: 700,
+                fontSize: 18,
+                color: REFLEXO_TEXT,
+                lineHeight: 1.2,
+              }}
+            >
+              Les zones réflexes en bref
+            </span>
+            <span
+              style={{
+                display: "block",
+                marginTop: 3,
+                fontSize: 9,
+                color: REFLEXO_FOND_LECTEUR_TEXTE,
+                letterSpacing: ".13em",
+                textTransform: "uppercase",
+                fontWeight: 600,
+              }}
+            >
+              {protocole.sequence.length} étapes
+            </span>
+          </span>
+          <svg
+            className="reflexo-chevron-seq"
+            width="15"
+            height="15"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke={REFLEXO_TEXT}
+            strokeWidth="1.8"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden
+            style={{ flexShrink: 0, transition: "transform .2s ease" }}
+          >
+            <path d="M6 9l6 6 6-6" />
+          </svg>
+        </summary>
+
+        <div style={{ display: "grid", gap: 9, padding: "0 16px 18px" }}>
+          {protocole.sequence.map((etape) => (
+            <EtapeCarte key={etape.ordre} etape={etape} />
+          ))}
+        </div>
+      </details>
+
+      {/* 4 ter. Régularité — encart COMMUN à tous les protocoles, placé juste
+          après l'aide-mémoire des zones (choix Laura) : c'est la
+          répétition des stimulations qui compte, pas une séance isolée. Même
+          traitement que « Avant de commencer » : intitulé en capitales. */}
+      {protocole.regularite ? (
+        <section
+          style={{
+            background: C_REGULARITE.doux,
             borderRadius: 12,
             padding: "13px 15px",
-            fontSize: 12.5,
-            lineHeight: 1.6,
-            color: REFLEXO_TEXT,
-            margin: 0,
           }}
         >
-          {texteGras(protocole.regularite)}
-        </p>
+          <h2
+            style={{
+              fontSize: 10,
+              color: C_REGULARITE.profond,
+              letterSpacing: ".13em",
+              textTransform: "uppercase",
+              fontWeight: 700,
+              margin: "0 0 8px 0",
+            }}
+          >
+            {protocole.regularite_titre ?? "Jour après jour"}
+          </h2>
+          <p
+            style={{
+              fontSize: 12.5,
+              lineHeight: 1.6,
+              color: REFLEXO_TEXT,
+              margin: 0,
+            }}
+          >
+            {texteGras(protocole.regularite)}
+          </p>
+        </section>
       ) : null}
-
-      {/* 5. Séquence — une étape = un libellé parent, une intention, ses zones */}
-      <section style={{ display: "flex", flexDirection: "column", gap: 11 }}>
-        <h2
-          style={{
-            fontSize: 10,
-            color: C_GESTE.profond,
-            letterSpacing: ".13em",
-            textTransform: "uppercase",
-            fontWeight: 700,
-            margin: 0,
-          }}
-        >
-          Le geste, pas à pas
-        </h2>
-
-        {protocole.sequence.map((etape) => (
-          <EtapeCarte key={etape.ordre} etape={etape} />
-        ))}
-      </section>
 
       {/* 5. Variante — seulement si l'âge de bébé la rend pertinente */}
       {protocole.variante && afficherVariante ? (
@@ -344,7 +423,7 @@ export default async function ProtocoleReflexoPage({
             <div style={{ marginTop: 12 }}>
               <ReflexoCarte
                 visuel={visuelVariante}
-                titre={`${protocole.titre} — ${protocole.variante.condition.toLowerCase()}`}
+                titre={`${protocole.titre}, ${protocole.variante.condition.toLowerCase()}`}
                 steps={getStepsAnimation(protocole, { avecVariante: true })}
                 couleur={C_VARIANTE.profond}
                 noteFin={protocole.note_fin}
@@ -365,40 +444,10 @@ export default async function ProtocoleReflexoPage({
         </section>
       ) : null}
 
-      {/* 6. La sortie en douceur — DERNIER GESTE de la séquence, et non une note
-          de bas de page : elle ferme les étapes, dans leur couleur, et le lecteur
-          animé se termine sur cette même phrase (choix Laura). Pas de numéro :
-          c'est une conclusion, elle n'allonge pas le décompte des étapes. */}
-      <div
-        style={{
-          background: GESTE.doux,
-          borderRadius: 13,
-          padding: "13px 15px",
-        }}
-      >
-        <h3
-          style={{
-            fontSize: 10,
-            color: GESTE.profond,
-            letterSpacing: ".13em",
-            textTransform: "uppercase",
-            fontWeight: 700,
-            margin: "0 0 6px 0",
-          }}
-        >
-          Pour finir
-        </h3>
-        <p
-          style={{
-            fontSize: 13,
-            lineHeight: 1.6,
-            color: REFLEXO_TEXT,
-            margin: 0,
-          }}
-        >
-          {texteGras(protocole.note_fin)}
-        </p>
-      </div>
+      {/* 6. La sortie en douceur — retirée de la page (choix Laura, 28/08) :
+          elle n'est PAS une note de bas de page, c'est le dernier geste. Le
+          lecteur animé la garde et s'y termine — cf. `noteFin` passé à
+          <ReflexoCarte /> plus haut. Ne pas la réintroduire ici. */}
 
       {/* Vigilance — ligne de sécurité mise en avant, si présente */}
       {protocole.vigilance ? (
@@ -444,15 +493,18 @@ export default async function ProtocoleReflexoPage({
 }
 
 /**
- * Une étape de la séquence : son numéro, son libellé parent, puis — pour
- * chaque zone — le GESTE (`geste_court` du catalogue) et le POURQUOI
- * (`phrase` du protocole, cf. consignes §4 « Textes affichés par zone »).
+ * Une étape de la séquence, en version AIDE-MÉMOIRE : son numéro, son libellé
+ * parent et le POURQUOI (`phrase` du protocole). La description du geste n'est
+ * plus reprise ici (choix Laura, 25/08) : elle est induite par la forme de la
+ * zone sur la carte, et détaillée dans le lecteur animé.
  *
  * Une étape porte le plus souvent UNE zone : son nom est alors déjà le titre
  * de l'étape, on ne le répète pas. Les étapes à gestes enchaînés (bassin,
  * dents, cardia/pylore) en portent deux, numérotées dans l'ordre de jeu.
  */
-// La famille du geste, la même pour toutes les étapes de toutes les fiches.
+// Les étapes vivent DANS l'encart terracotta : carte blanche, comme les
+// précautions de l'introduction de l'accueil. Le numéro et les sous-lignes de
+// zones gardent la famille du geste, la même sur toutes les fiches.
 const GESTE = REFLEXO_GAMME[3];
 
 function EtapeCarte({ etape }: { etape: ReflexoEtape }) {
@@ -471,9 +523,9 @@ function EtapeCarte({ etape }: { etape: ReflexoEtape }) {
   return (
     <div
       style={{
-        background: GESTE.doux,
-        borderRadius: 13,
-        padding: "13px 15px",
+        background: "#FFFFFF",
+        borderRadius: 10,
+        padding: "11px 13px",
       }}
     >
       <div style={{ display: "flex", alignItems: "baseline", gap: 9 }}>
@@ -513,21 +565,6 @@ function EtapeCarte({ etape }: { etape: ReflexoEtape }) {
           }}
         >
           {texteGras(pourquoi)}
-        </p>
-      ) : null}
-
-      {/* Le geste, quand l'étape ne porte qu'une zone. */}
-      {uneSeule && zones[0].geste ? (
-        <p
-          style={{
-            fontSize: 12,
-            lineHeight: 1.5,
-            color: GESTE.profond,
-            fontStyle: "italic",
-            margin: "5px 0 0 0",
-          }}
-        >
-          {texteGras(zones[0].geste)}
         </p>
       ) : null}
 
@@ -573,53 +610,21 @@ function EtapeCarte({ etape }: { etape: ReflexoEtape }) {
             gap: 7,
           }}
         >
+          {/* Aucune distinction (choix Laura, 28/08) : ni encart, ni gras, ni
+              corps différent — ces lignes sont du texte de la carte comme le
+              reste, elles ne sont pas d'un autre niveau de lecture. */}
           {zones.map((z, i) => (
             <li
               key={`${z.designation}-${i}`}
               style={{
-                background: GESTE.accent,
-                borderRadius: 10,
-                padding: "9px 11px",
+                fontSize: 13,
+                lineHeight: 1.6,
+                color: REFLEXO_TEXT,
               }}
             >
-              <p
-                style={{
-                  fontSize: 12,
-                  fontWeight: 600,
-                  color: REFLEXO_TEXT,
-                  margin: 0,
-                  lineHeight: 1.3,
-                }}
-              >
-                {etape.gestes_enchaines ? `${i + 1}. ` : null}
-                {z.designation}
-              </p>
-              {z.phrase ? (
-                <p
-                  style={{
-                    fontSize: 12,
-                    lineHeight: 1.5,
-                    color: REFLEXO_TEXT,
-                    opacity: 0.85,
-                    margin: "2px 0 0 0",
-                  }}
-                >
-                  {texteGras(z.phrase)}
-                </p>
-              ) : null}
-              {z.geste ? (
-                <p
-                  style={{
-                    fontSize: 11.5,
-                    lineHeight: 1.45,
-                    color: GESTE.profond,
-                    fontStyle: "italic",
-                    margin: "2px 0 0 0",
-                  }}
-                >
-                  {z.geste}
-                </p>
-              ) : null}
+              {etape.gestes_enchaines ? `${i + 1}. ` : null}
+              {z.designation}
+              {z.phrase ? <> : {texteGras(z.phrase)}</> : null}
             </li>
           ))}
         </ul>
@@ -662,7 +667,7 @@ function EmplacementNote({ zones }: { zones: ReflexoZoneTexte[] }) {
       Ce geste se fait{" "}
       <strong style={{ textTransform: "uppercase" }}>sur le dessus du pied</strong>,
       autour de l&apos;ongle du gros orteil (au-dessus et en dessous de
-      l&apos;ongle) — et non sous la plante, contrairement au dessin.
+      l&apos;ongle), et non sous la plante, contrairement au dessin.
     </p>
   );
 }

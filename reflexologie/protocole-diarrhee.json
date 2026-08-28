@@ -4,7 +4,7 @@
   "accroche": "Apaiser le ventre de bébé quand le transit s'emballe.",
   "categorie_guide_moi": null,
   "lien_pathologie": false,
-  "intro": "Quand le transit s'emballe, le ventre de bébé travaille beaucoup et **le fatigue**. Ce moment aux pieds l'apaise et le rassure, en accompagnement seulement. **Reste attentive aux signes de fatigue ou de déshydratation** : un avis médical reste indispensable si cela se prolonge.",
+  "intro": "Quand le transit s'emballe, le ventre de bébé travaille beaucoup et **le fatigue**. La séquence apaise d'abord le système nerveux et la respiration, puis accompagne le rythme du corps et **le travail des deux intestins**, sans chercher à le presser. **Reste attentive aux signes de fatigue ou de déshydratation** : un avis médical reste indispensable si cela se prolonge.",
   "vigilance": "Diarrhée d'origine infectieuse : demander un avis médical.",
   "sujet_sensible": true,
   "ouverture": {
@@ -185,10 +185,11 @@
     }
   ],
   "notes": [
-    "Les étapes 10 (intestin grêle) et 11 (gros intestin) se jouent dans le SENS INVERSE du geste habituel — variante d'animation à créer."
+    "Les étapes 10 (intestin grêle) et 11 (gros intestin) se jouent dans le SENS INVERSE du geste habituel, variante d'animation à créer."
   ],
   "note_fin": "Termine en allégeant le contact, puis éloigne-toi en douceur.",
-  "regularite": "**Jour après jour.** La réflexologie agit dans la répétition de la stimulation des zones réflexes, pas dans l'exploit d'une seule séance. Quelques minutes régulières, avec un bon dialogue, valent mieux qu'une longue séance de temps en temps. Bébé reconnaît le rituel et se détend plus vite, et tes gestes gagnent en assurance.",
+  "regularite_titre": "Jour après jour",
+  "regularite": "La réflexologie agit dans **la répétition de ces stimulations de zones**, pas dans l'exploit d'une seule séance. **Quelques minutes régulières**, avec un bon dialogue, valent mieux qu'une longue séance de temps en temps. Bébé reconnaît le rituel et se détend plus vite, et tes gestes gagnent en assurance.",
   "disclaimer": "La réflexologie plantaire ne se substitue pas à un avis médical.",
   "lancement": true,
   "visuel": "visuels-protocoles/Visuel - Diarrhée.png",

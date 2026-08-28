@@ -4,7 +4,8 @@
   "accroche": "Soulager le nez encombré et l'inconfort des oreilles.",
   "categorie_guide_moi": null,
   "lien_pathologie": false,
-  "intro": "Un nez pris, une oreille gênée, et **toute la journée s'en trouve changée** : bébé respire moins bien, tète moins bien, dort moins bien. Ce moment aux pieds apaise cet inconfort et l'accompagne, sans prétendre soigner. Fièvre, douleur d'oreille ou pleurs inhabituels : direction le médecin. **_S'il n'a pas envie qu'on touche à ses pieds aujourd'hui, remets à plus tard : son inconfort a le droit d'être là._**",
+  "intro": "Un nez pris, une oreille gênée, et **toute la journée s'en trouve changée** : bébé respire moins bien, tète moins bien, dort moins bien. La séquence suit le trajet de l'encombrement : **les sinus, le nez, les oreilles** pour la pression, puis les amygdales, les ganglions et le thymus, qui soutiennent les défenses. Elle ouvre ensuite la respiration, et finit par apaiser. Fièvre, douleur d'oreille ou pleurs inhabituels : direction le médecin.",
+  "intro_note": "S'il n'a pas envie qu'on touche à ses pieds aujourd'hui, remets à plus tard.",
   "ouverture": {
     "titre": "Avant de commencer",
     "etapes": [
@@ -213,7 +214,8 @@
     }
   ],
   "note_fin": "Termine en allégeant le contact, puis éloigne-toi en douceur.",
-  "regularite": "**Jour après jour.** La réflexologie agit dans la répétition de la stimulation des zones réflexes, pas dans l'exploit d'une seule séance. Quelques minutes régulières, avec un bon dialogue, valent mieux qu'une longue séance de temps en temps. Bébé reconnaît le rituel et se détend plus vite, et tes gestes gagnent en assurance.",
+  "regularite_titre": "Jour après jour",
+  "regularite": "La réflexologie agit dans **la répétition de ces stimulations de zones**, pas dans l'exploit d'une seule séance. **Quelques minutes régulières**, avec un bon dialogue, valent mieux qu'une longue séance de temps en temps. Bébé reconnaît le rituel et se détend plus vite, et tes gestes gagnent en assurance.",
   "disclaimer": "La réflexologie plantaire ne se substitue pas à un avis médical.",
   "lancement": true,
   "sujet_sensible": true,

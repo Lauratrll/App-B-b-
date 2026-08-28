@@ -4,7 +4,8 @@
   "accroche": "Accompagner l'endormissement et le retour au calme, au creux du soir.",
   "categorie_guide_moi": "Sommeil",
   "lien_pathologie": false,
-  "intro": "Le sommeil de bébé est fait de **cycles courts**, et les réveils font partie de son apprentissage, même quand ils sont épuisants. Son horloge interne se construit petit à petit : ce sont **les repères qui reviennent**, la lumière du jour, la pénombre du soir, les rituels répétés, qui l'aident peu à peu à distinguer le jour de la nuit. La séquence accompagne ce travail en passant par les zones liées aux rythmes et au retour au calme. Installe-toi : lumière tamisée, ta voix posée, ta respiration lente. **_Ton propre apaisement compte autant que le geste._**",
+  "intro": "Le sommeil de bébé est fait de **cycles courts**, et les réveils font partie de son apprentissage, même quand ils sont épuisants. Son horloge interne se construit petit à petit : ce sont **les repères qui reviennent**, la lumière du jour, la pénombre du soir, les rituels répétés, qui l'aident peu à peu à distinguer le jour de la nuit. La séquence accompagne ce travail en passant par les zones liées aux rythmes et au retour au calme. Installe-toi : lumière tamisée, ta voix posée, ta respiration lente.",
+  "intro_note": "Ton propre apaisement compte autant que le geste.",
   "ouverture": {
     "titre": "Avant de commencer",
     "etapes": [
@@ -138,7 +139,8 @@
     }
   ],
   "note_fin": "Termine en allégeant le contact, puis éloigne-toi en douceur.",
-  "regularite": "**Jour après jour.** La réflexologie agit dans la répétition de la stimulation des zones réflexes, pas dans l'exploit d'une seule séance. Quelques minutes régulières, avec un bon dialogue, valent mieux qu'une longue séance de temps en temps. Bébé reconnaît le rituel et se détend plus vite, et tes gestes gagnent en assurance.",
+  "regularite_titre": "Jour après jour",
+  "regularite": "La réflexologie agit dans **la répétition de ces stimulations de zones**, pas dans l'exploit d'une seule séance. **Quelques minutes régulières**, avec un bon dialogue, valent mieux qu'une longue séance de temps en temps. Bébé reconnaît le rituel et se détend plus vite, et tes gestes gagnent en assurance.",
   "disclaimer": "La réflexologie plantaire ne se substitue pas à un avis médical.",
   "lancement": true,
   "visuel": "visuels-protocoles/Visuel - Sommeil.png",

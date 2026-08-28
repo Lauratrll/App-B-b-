@@ -115,6 +115,12 @@ export type ReflexoProtocole = {
   visuel_cauchemars?: string;
   intro: string;
   /**
+   * Phrase d'accueil de l'émotion qui ferme l'intro. Champ à part pour que
+   * le texte reste PROPRE : l'italique est posé par le rendu, jamais par des
+   * marqueurs dans le contenu (demande Laura, 25/08).
+   */
+  intro_note?: string;
+  /**
    * Sous-titre COURT affiché sous le titre dans la liste (page 1) : un verbe en
    * tête, 12 mots maximum. Écrit à la main dans le JSON. Sans lui, on retombe
    * sur la première phrase de `intro` (ancien comportement).
@@ -126,8 +132,10 @@ export type ReflexoProtocole = {
   /** Ligne de sécurité mise en avant (ex. diarrhée infectieuse → avis médical). */
   vigilance?: string;
   note_fin: string;
-  /** Rappel commun de fin de fiche : la régularité prime sur la performance. */
+  /** Rappel commun : la régularité prime sur la performance d'une séance. */
   regularite?: string;
+  /** Intitulé de cet encart, en capitales (défaut : « Jour après jour »). */
+  regularite_titre?: string;
   disclaimer: string;
   lancement: boolean;
   /** Termes prudents obligatoires : accompagner / apaiser, jamais soigner. */

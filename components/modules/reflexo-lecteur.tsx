@@ -2191,7 +2191,7 @@ export function ReflexoLecteur({
               {/* Capitales via textTransform : voir la note de la page protocole. */}
               👆 Ce geste se fait{" "}
               <strong style={{ textTransform: "uppercase" }}>sur le dessus du pied</strong>,
-              autour de l&apos;ongle du gros orteil — et non sous la plante.
+              autour de l&apos;ongle du gros orteil, et non sous la plante.
             </p>
           ) : null}
         </div>
@@ -2267,7 +2267,7 @@ export function ReflexoLecteur({
     <div
       role="dialog"
       aria-modal="true"
-      aria-label={`Lecteur de réflexologie — ${titre}`}
+      aria-label={`Lecteur de réflexologie : ${titre}`}
       style={{ position: "fixed", inset: 0, zIndex: 60, background: BG_PIED, color: INK, overflow: "hidden" }}
     >
       <style>{`.reflexo-fade { transition: opacity .35s; }`}</style>
@@ -2412,9 +2412,34 @@ export function ReflexoCarte({
             cursor: "pointer",
           }}
         >
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="#FFFFFF" aria-hidden>
-            <path d="M8 5.5v13l11-6.5z" />
-          </svg>
+          {/* Le triangle dans un rond blanc (choix Laura, 28/08) : posé nu sur
+              la couleur du bouton, il se lisait comme un ornement. Le disque en
+              fait un bouton de lecture reconnaissable au premier coup d'œil. */}
+          <span
+            aria-hidden
+            style={{
+              flexShrink: 0,
+              width: 24,
+              height: 24,
+              borderRadius: "50%",
+              background: "#FFFFFF",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            {/* Décalé d'1 px : un triangle centré géométriquement paraît à gauche. */}
+            <svg
+              width="13"
+              height="13"
+              viewBox="0 0 24 24"
+              fill={couleur ?? INK}
+              aria-hidden
+              style={{ marginLeft: 1 }}
+            >
+              <path d="M8 5.5v13l11-6.5z" />
+            </svg>
+          </span>
           Lancer le protocole
           {dureeMs ? (
             // La durée reste en retrait : c'est un repère, pas le titre du bouton.

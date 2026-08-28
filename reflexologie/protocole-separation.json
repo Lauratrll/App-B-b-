@@ -4,7 +4,8 @@
   "accroche": "Rassurer bébé et garder le lien même au moment de se quitter.",
   "categorie_guide_moi": null,
   "lien_pathologie": false,
-  "intro": "L'angoisse de séparation est **un signe d'attachement, pas un pas en arrière** : bébé sait que tu peux partir, il ne sait pas encore que tu reviens toujours. **Commence plusieurs jours avant une séparation prévue**, ou dès que l'inquiétude s'installe, et mets des mots pendant la séance : où tu vas, qui sera là, et le moment des retrouvailles. La séquence passe par les zones du lâcher-prise et de la tristesse, et par celles qui réassurent le lien avec maman et avec papa. **_Ses pleurs au moment de partir ne disent pas que tu t'y prends mal : ils disent qu'il tient à toi._**",
+  "intro": "L'angoisse de séparation est **un signe d'attachement, pas un pas en arrière** : bébé sait que tu peux partir, il ne sait pas encore que tu reviens toujours. **Commence plusieurs jours avant une séparation prévue**, ou dès que l'inquiétude s'installe, et mets des mots pendant la séance : où tu vas, qui sera là, et le moment des retrouvailles. La séquence passe par les zones du lâcher-prise et de la tristesse, et par celles qui réassurent le lien avec maman et avec papa.",
+  "intro_note": "Ses pleurs au moment de partir ne disent pas que tu t'y prends mal : ils disent qu'il tient à toi.",
   "ouverture": {
     "titre": "Avant de commencer",
     "etapes": [
@@ -138,7 +139,8 @@
     }
   ],
   "note_fin": "Termine en allégeant le contact, puis éloigne-toi en douceur.",
-  "regularite": "**Jour après jour.** La réflexologie agit dans la répétition de la stimulation des zones réflexes, pas dans l'exploit d'une seule séance. Quelques minutes régulières, avec un bon dialogue, valent mieux qu'une longue séance de temps en temps. Bébé reconnaît le rituel et se détend plus vite, et tes gestes gagnent en assurance.",
+  "regularite_titre": "Jour après jour",
+  "regularite": "La réflexologie agit dans **la répétition de ces stimulations de zones**, pas dans l'exploit d'une seule séance. **Quelques minutes régulières**, avec un bon dialogue, valent mieux qu'une longue séance de temps en temps. Bébé reconnaît le rituel et se détend plus vite, et tes gestes gagnent en assurance.",
   "disclaimer": "La réflexologie plantaire ne se substitue pas à un avis médical.",
   "lancement": true,
   "visuel": "visuels-protocoles/Visuel - Séparation.png",

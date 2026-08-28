@@ -214,7 +214,7 @@
       ],
       "forme": "surface",
       "mouvement": "pression-glissee",
-      "description_mouvement": "Sur le DESSUS du pied (autour de l'ongle), faites glisser doucement le long de la zone — haut et bas de l'ongle, pas sous le pied",
+      "description_mouvement": "Sur le DESSUS du pied (autour de l'ongle), faites glisser doucement le long de la zone, haut et bas de l'ongle, pas sous le pied",
       "sequence": "elements-successifs",
       "simultane_deux_pieds": true,
       "a_valider": {
@@ -226,7 +226,7 @@
       "nb_elements": 5,
       "vitesse": "constante, durée de chaque orteil proportionnelle à sa longueur (le gros orteil dure plus longtemps)",
       "valide": true,
-      "emplacement": "SUR LE DESSUS DU PIED, autour de l'ongle du gros orteil (zone haute et zone basse) — PAS sous le pied",
+      "emplacement": "SUR LE DESSUS DU PIED, autour de l'ongle du gros orteil (zone haute et zone basse) : PAS sous le pied",
       "mise_en_avant": true,
       "geste_court": "Sur le DESSUS du pied, pression glissée sur le bord de l'ongle, 2 répétitions.",
       "phrase_physio": "Soulage les gencives du bas.",
@@ -241,7 +241,7 @@
       ],
       "forme": "surface",
       "mouvement": "pression-glissee",
-      "description_mouvement": "Sur le DESSUS du pied (autour de l'ongle), faites glisser doucement le long de la zone — haut et bas de l'ongle, pas sous le pied",
+      "description_mouvement": "Sur le DESSUS du pied (autour de l'ongle), faites glisser doucement le long de la zone, haut et bas de l'ongle, pas sous le pied",
       "sequence": "elements-successifs",
       "simultane_deux_pieds": true,
       "a_valider": {
@@ -253,7 +253,7 @@
       "nb_elements": 5,
       "vitesse": "constante, durée de chaque orteil proportionnelle à sa longueur (le gros orteil dure plus longtemps)",
       "valide": true,
-      "emplacement": "SUR LE DESSUS DU PIED, autour de l'ongle du gros orteil (zone haute et zone basse) — PAS sous le pied",
+      "emplacement": "SUR LE DESSUS DU PIED, autour de l'ongle du gros orteil (zone haute et zone basse) : PAS sous le pied",
       "mise_en_avant": true,
       "geste_court": "Sur le DESSUS du pied, pression glissée sur le bord de l'ongle, 2 répétitions.",
       "phrase_physio": "Soulage les gencives du haut.",
@@ -471,7 +471,7 @@
       "passages": 3,
       "sens": "du bord extérieur du pied vers le centre",
       "miroir": false,
-      "note": "sens horaire choisi pour suivre le sens de la digestion — À VALIDER",
+      "note": "sens horaire choisi pour suivre le sens de la digestion, À VALIDER",
       "valide": true,
       "geste_court": "Pression rotative, 3 répétitions.",
       "mouvement_label": "Pression rotative",
@@ -976,7 +976,7 @@
       "phrase_energie": "Active l'apaisement profond : ralentit, calme, sécurise."
     }
   ],
-  "_statut": "Tous les mouvements validés par Laura — prêt pour la compilation des protocoles",
+  "_statut": "Tous les mouvements validés par Laura, prêt pour la compilation des protocoles",
   "_date_validation": "2026-07-22",
   "_note_designations": "Les désignations (article + nom) ont été rédigées par l'assistant et validées par Laura ; ajustables à tout moment."
 }

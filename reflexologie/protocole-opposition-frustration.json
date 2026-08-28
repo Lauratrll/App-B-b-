@@ -4,7 +4,8 @@
   "accroche": "Relâcher la tension de l'opposition et aider bébé à se sentir contenu.",
   "categorie_guide_moi": null,
   "lien_pathologie": false,
-  "intro": "« Non », « pas comme ça », et la tempête arrive. À cet âge, **la partie du cerveau qui freine l'émotion est encore en chantier** : bébé ne choisit pas de perdre le contrôle. Ta présence calme lui sert d'appui le temps que la vague passe. Ce moment aux pieds, une fois l'orage retombé, l'aide à relâcher et à se sentir contenu. **_Sa colère et sa frustration ont le droit d'exister : tu es là, c'est ce qui compte._**",
+  "intro": "« Non », « pas comme ça », et la tempête arrive. À cet âge, **la partie du cerveau qui freine l'émotion est encore en chantier** : bébé ne choisit pas de perdre le contrôle. Une fois l'orage retombé, la séquence contient le corps, puis travaille **le foie et la vésicule biliaire**, les zones de la colère et de l'irritabilité, avant de finir sur celles qui **ancrent et apaisent la peur**.",
+  "intro_note": "Sa colère et sa frustration ont le droit d'exister : tu es là, c'est ce qui compte.",
   "sequence": [
     {
       "ordre": 1,
@@ -168,11 +169,12 @@
     ]
   },
   "note_fin": "Termine en allégeant le contact, puis éloigne-toi en douceur.",
-  "regularite": "**Jour après jour.** La réflexologie agit dans la répétition de la stimulation des zones réflexes, pas dans l'exploit d'une seule séance. Quelques minutes régulières, avec un bon dialogue, valent mieux qu'une longue séance de temps en temps. Bébé reconnaît le rituel et se détend plus vite, et tes gestes gagnent en assurance.",
+  "regularite_titre": "Jour après jour",
+  "regularite": "La réflexologie agit dans **la répétition de ces stimulations de zones**, pas dans l'exploit d'une seule séance. **Quelques minutes régulières**, avec un bon dialogue, valent mieux qu'une longue séance de temps en temps. Bébé reconnaît le rituel et se détend plus vite, et tes gestes gagnent en assurance.",
   "disclaimer": "La réflexologie plantaire ne se substitue pas à un avis médical.",
   "lancement": true,
   "notes": [
-    "À FAIRE PLUS TARD : proposer un choix multiple — opposition/frustration envers papa ? envers maman ? (adapter éventuellement l'accompagnement)"
+    "À FAIRE PLUS TARD : proposer un choix multiple, opposition/frustration envers papa ? envers maman ? (adapter éventuellement l'accompagnement)"
   ],
   "visuel": "visuels-protocoles/Visuel - Opposition, frustration.png",
   "age_min_mois": 14,

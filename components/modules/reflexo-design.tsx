@@ -128,17 +128,25 @@ export const REFLEXO_BG_CADRE = REFLEXO_TERRACOTTA.accent;
  * pour du texte affiché à des parents.
  */
 export function texteGras(texte: string): ReactNode {
-  // Découpe en alternant : hors-gras, gras, hors-gras… (les captures du split
-  // atterrissent aux index impairs).
-  const morceaux = texte.split(/\*\*(.+?)\*\*/g);
+  // Découpe en gardant les marqueurs : **gras** et _italique_ (les captures du
+  // split atterrissent aux index impairs, on relit alors le marqueur). Le gras
+  // est rendu récursivement, ce qui permet **_gras italique_** — la mise en
+  // forme des phrases d'accueil de l'émotion, en fin d'intro.
+  const morceaux = texte.split(/(\*\*[^*]+\*\*|_[^_\n]+_)/g);
   if (morceaux.length === 1) return texte;
-  return morceaux.map((m, i) =>
-    i % 2 === 1 ? (
-      <strong key={i} style={{ fontWeight: 600 }}>
-        {m}
-      </strong>
-    ) : (
-      m
-    ),
-  );
+  return morceaux.map((m, i) => {
+    if (i % 2 === 0) return m;
+    if (m.startsWith("**")) {
+      return (
+        <strong key={i} style={{ fontWeight: 600 }}>
+          {texteGras(m.slice(2, -2))}
+        </strong>
+      );
+    }
+    return (
+      <em key={i} style={{ fontStyle: "italic" }}>
+        {m.slice(1, -1)}
+      </em>
+    );
+  });
 }
