@@ -5,6 +5,7 @@ import { getBabyMonth } from "@/lib/utils";
 import { getReflexoFromSoin, getSoinConseil } from "@/lib/content";
 import { isPinned } from "@/lib/pinned";
 import { SoinDetail } from "@/components/modules/soin-detail";
+import { estMasque } from "@/components/modules/soin-design";
 import { PinButton } from "@/components/modules/pin-button";
 
 export default async function ConseilPage({
@@ -16,6 +17,9 @@ export default async function ConseilPage({
   const mois = getBabyMonth(new Date(profile.birthdate));
   const conseil = await getSoinConseil(mois, params.id);
   if (!conseil) notFound();
+  // Slot masqué (auto-massage, méditation) : le contenu reste en base mais
+  // n'est plus accessible, y compris par URL directe. Cf. SLOTS_MASQUES.
+  if (estMasque(conseil.numero)) notFound();
 
   // Si le conseil est un protocole réflexo, on récupère la ligne 'reflexo'
   // correspondante pour afficher un bouton Épingler dédié.

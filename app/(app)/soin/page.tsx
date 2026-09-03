@@ -13,6 +13,7 @@ import {
   TITRE_COURT,
   formatTitre,
   SoinPicto,
+  estMasque,
 } from "@/components/modules/soin-design";
 
 // Écran A — accueil « Prendre soin de moi ».
@@ -30,7 +31,14 @@ export default async function SoinPage() {
   const meta = await getSoinMeta(mois);
   const conseils = await getSoinConseils(mois);
 
-  if (conseils.length === 0) {
+  // Tri stable par numero (l'id change chaque mois) ; repli sur l'ordre.
+  // Les slots masqués (auto-massage, méditation) sont retirés de la liste —
+  // leur contenu reste en base, cf. SLOTS_MASQUES dans soin-design.
+  const items = [...conseils]
+    .filter((c) => !estMasque(c.numero))
+    .sort((a, b) => (a.numero ?? a.ordre) - (b.numero ?? b.ordre));
+
+  if (items.length === 0) {
     return (
       <section className="space-y-5">
         <header className="space-y-1">
@@ -51,11 +59,6 @@ export default async function SoinPage() {
     meta?.promesse_du_mois ?? meta?.theme_du_mois ?? meta?.titre_rubrique ?? "Prendre soin de moi";
   const label = meta?.nom_rubrique ?? "Prendre soin de moi";
   const intro = meta?.intention_du_mois ?? meta?.description ?? "";
-
-  // Tri stable par numero (l'id change chaque mois) ; repli sur l'ordre.
-  const items = [...conseils].sort(
-    (a, b) => (a.numero ?? a.ordre) - (b.numero ?? b.ordre),
-  );
 
   return (
     <div
@@ -105,17 +108,25 @@ export default async function SoinPage() {
             lineHeight: 1.5,
             color: WARM_BODY,
             textAlign: "center",
-            margin: "0 auto 14px",
-            maxWidth: 320,
+            margin: "0 auto 20px",
+            maxWidth: 300,
           }}
         >
           {intro}
         </p>
       ) : null}
 
-      {/* §5 — 5 cases, 82 % centrées, sans bordure */}
+      {/* §5 — cases centrées, sans bordure. Les slots 1 et 2 étant masqués,
+          il en reste 3 : on leur donne plus de hauteur et plus d'écart. */}
       <div
-        style={{ display: "flex", flexDirection: "column", gap: 8, width: "82%", margin: "0 auto" }}
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          gap: 11,
+          width: "84%",
+          maxWidth: 300,
+          margin: "0 auto",
+        }}
       >
         {items.map((c, i) => {
           const numero = c.numero ?? i + 1;
@@ -131,8 +142,8 @@ export default async function SoinPage() {
                 display: "flex",
                 alignItems: "center",
                 gap: 13,
-                borderRadius: 11,
-                padding: "9px 12px",
+                borderRadius: 13,
+                padding: "12px 13px",
                 background: fond,
                 textDecoration: "none",
               }}
@@ -140,8 +151,8 @@ export default async function SoinPage() {
               <span
                 aria-hidden
                 style={{
-                  width: 38,
-                  height: 38,
+                  width: 42,
+                  height: 42,
                   borderRadius: "50%",
                   flexShrink: 0,
                   display: "flex",
@@ -151,9 +162,9 @@ export default async function SoinPage() {
                 }}
               >
                 {COULEUR_SLOT[numero] ? (
-                  <SoinPicto numero={numero} size={21} color={INK} strokeWidth={1.6} />
+                  <SoinPicto numero={numero} size={23} color={INK} strokeWidth={1.6} />
                 ) : (
-                  <span style={{ fontSize: 19, lineHeight: 1 }}>{c.icone ?? "•"}</span>
+                  <span style={{ fontSize: 21, lineHeight: 1 }}>{c.icone ?? "•"}</span>
                 )}
               </span>
               <span style={{ flex: 1, display: "flex", flexDirection: "column", minWidth: 0 }}>
@@ -161,7 +172,7 @@ export default async function SoinPage() {
                   style={{
                     fontFamily: PLAYFAIR,
                     fontWeight: 600,
-                    fontSize: 14,
+                    fontSize: 15,
                     color: INK,
                     lineHeight: 1.18,
                   }}
@@ -171,10 +182,10 @@ export default async function SoinPage() {
                 {promesse ? (
                   <span
                     style={{
-                      fontSize: 11.5,
+                      fontSize: 12,
                       fontStyle: "italic",
-                      lineHeight: 1.3,
-                      marginTop: 2,
+                      lineHeight: 1.32,
+                      marginTop: 3,
                       color: INK,
                     }}
                   >

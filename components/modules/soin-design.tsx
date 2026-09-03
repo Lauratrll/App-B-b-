@@ -135,3 +135,16 @@ export function SoinPicto({
     </svg>
   );
 }
+
+// ----------------------------------------------------------------------------
+// Slots temporairement masqués (décision fondatrice, 03/09/2026).
+//   1 — Auto-massage    : les gestes doivent être retravaillés avant publication
+//   2 — Méditation audio: les enregistrements ne sont pas prêts
+// Le contenu reste intact (JSON + base) : il suffira de vider ce Set pour le
+// remettre en ligne. Un accès direct à /soin/<id> d'un slot masqué renvoie 404.
+// ----------------------------------------------------------------------------
+export const SLOTS_MASQUES = new Set<number>([1, 2]);
+
+export function estMasque(numero?: number): boolean {
+  return numero != null && SLOTS_MASQUES.has(numero);
+}
