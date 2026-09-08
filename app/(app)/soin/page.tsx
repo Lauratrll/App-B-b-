@@ -67,6 +67,7 @@ export default async function SoinPage() {
         flexDirection: "column",
         justifyContent: "center",
         minHeight: "100%",
+        paddingTop: 36,
       }}
     >
       {/* §5 — En-tête : label AU-DESSUS du grand titre (typos respectives).
@@ -108,7 +109,7 @@ export default async function SoinPage() {
             lineHeight: 1.5,
             color: WARM_BODY,
             textAlign: "center",
-            margin: "0 auto 20px",
+            margin: "0 auto 32px",
             maxWidth: 300,
           }}
         >
