@@ -59,3 +59,22 @@ Thumbs.db
 
 # Brouillons de contenu remplacés — gardés en local, jamais importés.
 content/**/*_anciens/
+
+# Sauvegardes prises avant une passe de réécriture (« l'état d'avant »).
+# Elles doublonnent l'historique git, qui garde déjà chaque version.
+content/**/_avant_*/
+content/_avant_*/
+
+# Dossiers de travail locaux, hors application : veille concurrentielle,
+# sauvegardes de dossiers entiers, versions archivées. Volumineux (100 Mo+),
+# ils n'ont rien à faire dans le dépôt.
+/Concurrence/
+/_sauvegardes/
+/_anciens/
+
+# Python
+__pycache__/
+*.pyc
+
+# Sauvegardes de fichiers isolés prises avant réécriture.
+content/**/_avant_*.json
