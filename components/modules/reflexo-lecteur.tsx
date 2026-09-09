@@ -34,11 +34,15 @@ const INK = "#3A3228";
 const EUCAL = "#6f5f52";
 // Écran de conclusion : le temps de lire la phrase de fin, sans se presser.
 const CONCLUSION_DUR = 7000;
-// Respiration réglable entre deux étapes (choix du parent, ms). Le mouvement se
-// fige sur sa dernière image pendant ce temps : le geste a le temps d'être
-// reproduit sur le pied avant que l'écran ne passe à la zone suivante.
-const PAUSES_SUPP = [0, 3000, 6000] as const;
-const PAUSE_CLE = "reflexo-pause-etapes";
+// Vitesse de lecture réglable (choix du parent). Elle a remplacé la respiration
+// entre les étapes le 09/09/2026 : « +3 s / +6 s » demandait de comprendre où la
+// pause allait s'insérer, là où « 0,5× » se lit sans explication. Et surtout, le
+// ralenti sert les deux usages — suivre le geste sur le pied pendant qu'il se
+// dessine, ou simplement avoir le temps de le lire.
+// C'est la même animation, jouée sur une horloge plus lente : aucun mouvement
+// n'est recalculé.
+const VITESSES = [1, 0.75, 0.5] as const;
+const VITESSE_CLE = "reflexo-vitesse";
 // Le fond de la scène vit dans reflexo-design : l'introduction de l'accueil
 // reprend la même couleur, il ne doit y en avoir qu'une définition.
 const BG_PIED = REFLEXO_FOND_LECTEUR;
@@ -560,23 +564,35 @@ export function ReflexoLecteur({
   const [step, setStep] = useState(0);
   const [playing, setPlaying] = useState(false);
   const [portrait, setPortrait] = useState(false);
-  // Respiration entre deux étapes, choisie par le parent et retenue d'une
-  // lecture à l'autre. Elle n'allonge que l'attente AVANT de passer à la zone
-  // suivante : ni le mouvement, ni le texte, ni la durée annoncée sur le bouton
-  // ne changent (demande Laura).
-  const [pauseSupp, setPauseSupp] = useState(0);
+  // Vitesse de lecture, choisie par le parent et retenue d'une lecture à
+  // l'autre : qui a besoin du ralenti en a besoin plusieurs séances de suite, et
+  // qui a intégré les zones remet 1× d'un geste — le réglage actif est toujours
+  // affiché sous le pied, personne ne reste ralenti sans le voir.
+  // La durée annoncée sur le bouton reste celle de la vitesse normale (demande
+  // Laura) : le parent qui met le ralenti fait lui-même le lien.
+  const [vitesse, setVitesse] = useState<number>(1);
+  const vitesseRef = useRef<number>(1);
   useEffect(() => {
     try {
-      const v = Number(window.localStorage.getItem(PAUSE_CLE));
-      if (PAUSES_SUPP.includes(v as (typeof PAUSES_SUPP)[number])) setPauseSupp(v);
+      const v = Number(window.localStorage.getItem(VITESSE_CLE));
+      if (VITESSES.includes(v as (typeof VITESSES)[number])) {
+        setVitesse(v);
+        vitesseRef.current = v;
+      }
     } catch {
-      /* stockage indisponible : on reste sur « sans pause » */
+      /* stockage indisponible : on reste à vitesse normale */
     }
   }, []);
-  const choisirPause = (v: number) => {
-    setPauseSupp(v);
+  const choisirVitesse = (v: number) => {
+    // Ré-ancrage de l'horloge : le temps déjà joué de l'étape est conservé, mais
+    // exprimé dans la nouvelle échelle. Sans cela, changer de vitesse au milieu
+    // d'un geste le ferait sauter en avant ou en arrière.
+    const joue = (performance.now() - t0Ref.current) * vitesseRef.current;
+    t0Ref.current = performance.now() - joue / v;
+    vitesseRef.current = v;
+    setVitesse(v);
     try {
-      window.localStorage.setItem(PAUSE_CLE, String(v));
+      window.localStorage.setItem(VITESSE_CLE, String(v));
     } catch {
       /* stockage indisponible : le choix vaut pour cette lecture */
     }
@@ -1972,10 +1988,14 @@ export function ReflexoLecteur({
         t0Ref.current = now; // gel en pause
         return;
       }
-      // Le temps rendu est borné à la durée réelle de l'étape : pendant la
-      // respiration réglable qui suit, le mouvement reste figé sur sa dernière
-      // image au lieu de repartir pour un tour.
-      renderFrame(Math.min(now - t0Ref.current, stepDurRef.current));
+      // Le temps rendu est mis à l'échelle de la vitesse choisie : c'est le SEUL
+      // endroit où le ralenti agit. Tous les mouvements se calculent à partir de
+      // ce temps écoulé, ils suivent donc sans qu'aucune de leurs constantes ne
+      // bouge. Il reste borné à la durée de l'étape : le mouvement se fige sur
+      // sa dernière image au lieu de repartir pour un tour.
+      renderFrame(
+        Math.min((now - t0Ref.current) * vitesseRef.current, stepDurRef.current),
+      );
     };
     rafRef.current = requestAnimationFrame(loop);
     return () => cancelAnimationFrame(rafRef.current);
@@ -2013,6 +2033,12 @@ export function ReflexoLecteur({
   // calculée dans setupStep → stepDurRef), s'arrête à la dernière étape.
   useEffect(() => {
     if (!ready || !playing) return;
+    // Ce qu'il reste à jouer de l'étape, en temps réel : la part déjà jouée est
+    // retirée puis le reste est dilaté par la vitesse. Changer de vitesse en
+    // cours d'étape rejoue cet effet, qui reprend donc le compte au bon endroit
+    // au lieu de repartir sur une étape entière.
+    const joue = (performance.now() - t0Ref.current) * vitesseRef.current;
+    const restant = Math.max(0, stepDurRef.current - joue) / vitesseRef.current;
     const t = setTimeout(() => {
       setStep((s) => {
         if (s < nbEcrans - 1) return s + 1;
@@ -2021,9 +2047,9 @@ export function ReflexoLecteur({
         setPlaying(false);
         return s;
       });
-    }, stepDurRef.current + pauseSupp);
+    }, restant);
     return () => clearTimeout(t);
-  }, [ready, playing, step, nbEcrans, pauseSupp]);
+  }, [ready, playing, step, nbEcrans, vitesse]);
 
   const s = steps[step];
 
@@ -2196,19 +2222,20 @@ export function ReflexoLecteur({
           ) : null}
         </div>
 
-        {/* Pied figé : respiration, pastilles, commandes. */}
+        {/* Pied figé : vitesse, pastilles, commandes. */}
         <div style={{ flexShrink: 0, paddingTop: 14 }}>
-          {/* Respiration entre les étapes : le temps de reproduire le geste sur
-              le pied avant que l'écran ne passe à la zone suivante. */}
+          {/* Vitesse de lecture : le ralenti laisse le temps de suivre le geste
+              sur le pied pendant qu'il se dessine à l'écran. */}
           <div style={{ display: "flex", alignItems: "center", gap: 7, marginBottom: 10, flexWrap: "wrap" }}>
             <span style={{ fontSize: 9, textTransform: "uppercase", letterSpacing: "1.5px", color: EUCAL }}>
-              Pause
+              Vitesse
             </span>
-            {PAUSES_SUPP.map((v) => (
+            {VITESSES.map((v) => (
               <button
                 key={v}
-                onClick={() => choisirPause(v)}
-                aria-pressed={pauseSupp === v}
+                onClick={() => choisirVitesse(v)}
+                aria-pressed={vitesse === v}
+                aria-label={v === 1 ? "Vitesse normale" : `Ralenti ${v.toLocaleString("fr-FR")} fois`}
                 style={{
                   border: "none",
                   borderRadius: 8,
@@ -2216,12 +2243,12 @@ export function ReflexoLecteur({
                   fontSize: 11,
                   fontWeight: 600,
                   cursor: "pointer",
-                  background: pauseSupp === v ? INK : "rgba(58,50,40,.12)",
-                  color: pauseSupp === v ? "#fff" : INK,
+                  background: vitesse === v ? INK : "rgba(58,50,40,.12)",
+                  color: vitesse === v ? "#fff" : INK,
                 }}
               >
-                {/* Espace insécable avant « s » : le nombre et son unité ne se séparent jamais. */}
-                {v === 0 ? "Aucune" : `+${v / 1000} s`}
+                {/* Virgule décimale et « × » multiplicatif : 0,75× et non 0.75x. */}
+                {`${v.toLocaleString("fr-FR")}×`}
               </button>
             ))}
           </div>
