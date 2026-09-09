@@ -10,10 +10,10 @@
   "protocoles": [
     {
       "categorie": "sepa",
-      "situation": "Adaptation crèche difficile / il pleure à chaque arrivée",
-      "titre": "L'arrivée en garde / le rituel de départ des premières semaines",
+      "situation": "L'arrivée en garde / Il pleure à chaque arrivée",
+      "titre": "Le rituel des premiers jours",
       "explication": "Vers 12 mois, ton enfant sait que tu continues d'exister quand tu disparais, mais il ne sait pas encore quand tu reviens : la notion de durée lui échappe complètement. Le moment de l'arrivée concentre donc toute la difficulté, alors que la journée elle-même se passe souvent bien. C'est pourquoi il pleure fort à la porte et joue tranquillement quelques minutes plus tard. Ces pleurs ne disent pas que la garde est mauvaise, ils disent que le lien avec toi fonctionne. L'adaptation se compte en semaines, pas en jours.",
-      "ancrage": "Ce sont les cinq minutes les plus dures de ta journée, et elles ne durent pas cinq minutes pour lui. Tu peux partir clairement, même quand il pleure.",
+      "ancrage": "Ce sont les 5 minutes les plus dures de ta journée, et elles ne durent pas 5 minutes pour lui. Tu peux partir clairement, même quand il pleure.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -55,8 +55,8 @@
     },
     {
       "categorie": "sepa",
-      "situation": "S'accroche à ma jambe / me suit dans chaque pièce",
-      "titre": "L'agrippement / la voix qui remplace la présence",
+      "situation": "L'accrochage à ma jambe / Il me suit dans chaque pièce",
+      "titre": "Rassurer à la voix",
       "explication": "Ton enfant vient de comprendre que tu existes toujours quand tu n'es plus visible, et cette découverte le rend d'abord plus inquiet : il sait maintenant que quelque chose lui manque. Il te suit, s'accroche à ta jambe, proteste dès que la porte se ferme. Cette phase apparaît chez la plupart des enfants entre 8 et 18 mois, avec des pics et des accalmies. Elle est le signe d'un attachement qui fonctionne, et elle s'apaise quand l'expérience lui montre, dix fois par jour, que tu reviens.",
       "ancrage": "Répondre à ce besoin ne le rend pas plus collant, c'est ce qui l'autorise à s'éloigner ensuite. Tu peux l'emmener avec toi pour l'instant, sans t'inquiéter pour plus tard.",
       "action_immediate": {
@@ -66,7 +66,7 @@
         "etapes": [
           "Annoncer avant de disparaître : « je vais dans la cuisine, je reviens », même pour trente secondes.",
           "Garder le lien par la voix : parler ou chanter depuis l'autre pièce, ta voix te remplace un moment.",
-          "Revenir avant les pleurs : quelques secondes d'absence réussies valent mieux qu'une minute de détresse.",
+          "Revenir avant les pleurs : quelques secondes d'absence réussies valent mieux qu'1 minute de détresse.",
           "L'emmener quand c'est plus simple : le porter avec toi rassure et n'entretient rien.",
           "Signaler ton retour : « me voilà, je suis revenue », pour boucler l'aller-retour dans sa tête."
         ]
@@ -76,8 +76,8 @@
         "couleur_texte": "#085041",
         "titre": "Réflexologie : nourrir le réservoir de sécurité",
         "etapes": [
-          "Prévoir un moment fixe : chaque jour à la même heure, dix minutes rien qu'à vous deux.",
-          "Zone du plexus solaire : au centre de la voûte, cercles lents, une minute par pied.",
+          "Prévoir un moment fixe : chaque jour à la même heure, 10 minutes rien qu'à vous deux.",
+          "Zone du plexus solaire : au centre de la voûte, cercles lents, 1 minute par pied.",
           "Balayage du talon vers les orteils : passages réguliers, pression douce et constante.",
           "Regard et voix disponibles : le geste compte moins que ton attention entière pendant ces minutes.",
           "S'arrêter quand il part jouer : c'est le meilleur signe que le réservoir est plein."
@@ -100,8 +100,8 @@
     },
     {
       "categorie": "sepa",
-      "situation": "Refuse les bras des grands-parents / même familiers",
-      "titre": "Les bras refusés / protéger sans froisser",
+      "situation": "Le refus des bras des grands-parents / Il les refuse même s'il les connaît",
+      "titre": "Protéger sans froisser",
       "explication": "Autour de la première année, ton enfant trie très clairement les personnes : il distingue les visages familiers des autres, et il choisit qui a le droit de le porter. Refuser les bras d'un grand-parent qu'il voit pourtant souvent n'a rien d'un rejet affectif : c'est une prudence normale, qui apparaît chez la plupart des enfants entre 8 et 18 mois. Elle s'accentue quand il est fatigué ou dans un lieu inhabituel. Forcer le contact à ce moment-là ne rapproche pas, cela renforce la méfiance.",
       "ancrage": "Ce refus n'est pas un jugement sur les proches, et tu n'as pas à le corriger. Ton rôle est de protéger son rythme, en trouvant les mots pour l'expliquer aux adultes.",
       "action_immediate": {
@@ -145,8 +145,8 @@
     },
     {
       "categorie": "sepa",
-      "situation": "M'ignore au moment des retrouvailles / il me boude en fin de journée",
-      "titre": "Les retrouvailles froides / lire le rejet du soir",
+      "situation": "Les retrouvailles froides / Il m'ignore quand je viens le chercher",
+      "titre": "Le rejet du soir n'en est pas un",
       "explication": "Tu arrives, tu tends les bras, et ton enfant se détourne, continue de jouer, ou part vers l'adulte qui l'a gardé. Ce moment déroute beaucoup de parents. Il ne s'agit ni de bouderie ni de préférence : à un an, un enfant n'a pas les moyens de bouder, ce qui suppose une intention et une mémoire du reproche. Ce qu'il montre, c'est un temps de transition dont il a besoin pour passer d'un monde à l'autre, et parfois la trace de l'effort qu'il a fourni toute la journée.",
       "ancrage": "Ce moment ne dit rien de ton lien avec lui, et il ne se répare pas en insistant. Tu peux te rendre disponible et attendre qu'il vienne.",
       "action_immediate": {

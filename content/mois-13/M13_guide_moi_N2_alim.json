@@ -1,0 +1,196 @@
+{
+  "mois": 13,
+  "tranche_age": "13 mois",
+  "categorie": {
+    "id": "alim",
+    "nom": "Alimentation",
+    "sous_titre": "Appétit qui baisse, textures, lait et repas",
+    "icone": "🍽️"
+  },
+  "protocoles": [
+    {
+      "categorie": "alim",
+      "situation": "Le repas debout / Il refuse de s'asseoir pour manger",
+      "titre": "Un repas court, mais assis",
+      "explication": "Vers treize mois, ton enfant marche ou s'y prépare, et il vient de découvrir qu'il peut partir quand il veut. Rester assis n'est plus une évidence : c'est un choix qu'il refait à chaque repas. Son attention est courte et son besoin de bouger immense. Se lever dit souvent une chose très simple : il n'a plus faim. Il y a aussi une raison de sécurité à le rasseoir. Quand le corps se déplace, la bouche et la gorge ne travaillent plus ensemble aussi bien, et le morceau passe plus facilement de travers.",
+      "ancrage": "Tu n'as pas à le convaincre de rester assis. Tu as à rendre la chaise confortable et le repas assez court pour qu'il y arrive.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : au moment où il se lève",
+        "etapes": [
+          "Vérifier l'assise : pieds posés sur un repose-pied, dos calé, plateau à hauteur de ses coudes.",
+          "Le rasseoir une fois : sans commentaire et sans explication longue, en le reposant simplement.",
+          "Dire la règle en cinq mots : « on mange assis », et rien de plus.",
+          "Accepter le deuxième départ : s'il redescend encore, le repas est fini pour lui, calmement.",
+          "Rien ne repart avec lui : le plat et le verre restent sur la table, jamais dans ses mains debout."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : poser le corps avant de s'asseoir",
+        "etapes": [
+          "Ralentir ensemble : 2 minutes sur tes genoux ou dans tes bras avant d'approcher la chaise.",
+          "Appui des pieds : ses plantes bien à plat contre tes cuisses, un appui ferme et immobile.",
+          "Paume sur le haut du dos : une main large entre les omoplates, posée sans bouger, le temps de trois respirations.",
+          "Le porter jusqu'à la table : le trajet dans les bras vaut mieux que l'appel depuis la cuisine.",
+          "S'arrêter s'il se raidit : on passe à table sans insister, le contact a déjà fait son travail."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Dépenser avant : un temps de mouvement libre juste avant le repas rend l'assise beaucoup plus facile.",
+        "Avancer l'heure : un enfant qui arrive sur-fatigué à table tient encore moins longtemps assis.",
+        "Manger en même temps que lui : il reste plus volontiers quand les adultes sont attablés aussi.",
+        "Accorder les lieux de vie : crèche, assistante maternelle, grands-parents, la même règle partout évite de la rejouer chaque jour."
+      ],
+      "principe": "Un tout-petit ne reste pas à table par obéissance. Il y reste tant qu'il a faim et tant que son corps est bien installé. Le cadre tient par sa constance, jamais par sa durée.",
+      "erreurs_a_eviter": [
+        "Poser l'assiette par terre pour qu'il mange quand même : la table perd sa place et le retour devient difficile.",
+        "Le laisser circuler avec un morceau dans la bouche : c'est exactement le moment où la fausse route arrive.",
+        "Commenter chaque descente devant lui : l'attention reçue rend le départ intéressant à refaire.",
+        "Changer de règle selon les soirs : une règle qui bouge se fait retester tous les jours."
+      ],
+      "consulter_si": "Consulter si : ton enfant ne tient pas assis seul de façon stable à treize mois, s'il se fatigue très vite dès qu'il est assis sans appui, s'il tousse ou s'étrangle à presque chaque repas, ou s'il ne prend plus de poids → pédiatre, médecin traitant ou PMI, qui pourront orienter vers un psychomotricien si besoin.",
+      "source": "Source : manger assis et sans se déplacer pour limiter le risque de fausse route, Assurance Maladie, ameli.fr ; repères alimentaires des enfants de 1 à 3 ans, Santé publique France, programme national nutrition santé."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Les aliments mous / Il recrache dès que ça résiste",
+      "titre": "Avancer par paliers minuscules",
+      "explication": "À treize mois, mâcher est encore un apprentissage. Les molaires n'ont souvent pas percé, et la langue apprend tout juste à pousser le morceau d'un côté puis de l'autre. Le haut-le-cœur qui suit une texture nouvelle est un réflexe de protection, pas un étouffement : il est bruyant, ton enfant tousse, il devient rouge, et c'est ce réflexe même qui le protège. Ce réflexe recule vers le fond de la bouche au fil des mois, et c'est l'exercice qui le fait reculer. Rester au lisse le retarde sans jamais le supprimer.",
+      "ancrage": "Ce qu'il recrache n'est pas un échec de ta cuisine, c'est une bouche qui apprend. Tu peux avancer très lentement ; ce qui compte, c'est de ne pas revenir complètement en arrière.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : quand il recrache le morceau",
+        "etapes": [
+          "Rester calme et silencieux : ta réaction décide de ce qu'il retiendra de ce moment.",
+          "S'il tousse, ne rien faire : le bruit prouve qu'il respire, on ne tape pas dans le dos et on ne met aucun doigt dans sa bouche.",
+          "Le signe qui change tout : plus aucun bruit, lèvres ou ongles qui bleuissent, appeler le 15 et donner cinq claques fermes entre les omoplates.",
+          "Ne pas remettre la bouchée : le morceau reste de côté et le repas continue sans lui.",
+          "Reproposer la même chose écrasée : on descend d'un cran de texture, pas de dix."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Hors du repas : la texture par les mains",
+        "etapes": [
+          "Sortir l'aliment du repas : le poser sur la table à un autre moment, cru ou cuit, sans assiette et sans cuillère.",
+          "Toucher avant de goûter : écraser, casser, sentir, il découvre la résistance avec ses doigts.",
+          "Porter à la bouche sans avaler : lécher, mordre, recracher, tout est permis à ce stade.",
+          "Nommer la sensation : dur, mou, qui craque, le mot arrive en même temps que la découverte.",
+          "Arrêter dès qu'il s'en va : la séance dure ce qu'elle dure, et elle recommence un autre jour."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Épaissir plutôt que morceler : une purée moins mixée avance plus sûrement qu'un morceau posé dessus.",
+        "Garder un aliment sûr dans chaque assiette : la présence de ce qu'il aime lui permet d'oser le reste.",
+        "Le faire cuisiner : laver, écraser, verser, la main qui prépare accepte plus facilement.",
+        "Faire le point au suivi médical : pédiatre ou PMI vérifient la croissance et rassurent sur le rythme."
+      ],
+      "principe": "Une bouche apprend les textures comme une main apprend l'escalier, une marche à la fois. Ce qui bloque durablement n'est jamais la texture refusée : c'est le retour définitif au lisse.",
+      "erreurs_a_eviter": [
+        "Tout remixer après une toux : le réflexe ne recule pas si la bouche cesse de travailler.",
+        "Cacher un morceau dans la purée : la surprise renforce la méfiance de la bouchée suivante.",
+        "Montrer sa peur à chaque toux : il apprend alors qu'il y a quelque chose à craindre à table.",
+        "Passer du lisse au morceau franc le même jour : les deux extrêmes épuisent l'apprentissage."
+      ],
+      "consulter_si": "Consulter si : un morceau reste bloqué et qu'il cesse de respirer → 15 ou 112 immédiatement. Consulter si, par ailleurs : ton enfant n'accepte plus aucune texture autre que lisse depuis plusieurs mois, s'il tousse ou s'étrangle à presque chaque repas, s'il a des haut-le-cœur sans rien dans la bouche, ou s'il perd du poids → pédiatre, médecin traitant ou PMI, qui pourront orienter vers un orthophoniste ou un ergothérapeute.",
+      "source": "Source : progression des textures dans la diversification, Santé publique France, programme national nutrition santé ; conduite à tenir en cas d'inhalation de corps étranger, Assurance Maladie, ameli.fr ; repères pédiatriques mpedia.fr (AFPA)."
+    },
+    {
+      "categorie": "alim",
+      "situation": "L'appétit qui tombe / Il mange beaucoup moins qu'avant",
+      "titre": "Il grandit moins vite, il mange moins",
+      "explication": "Après le premier anniversaire, la croissance ralentit franchement. Ton enfant a pris beaucoup de poids et de taille en douze mois, il en prendra bien moins pendant les douze suivants, et son appétit suit cette courbe. La baisse arrive souvent d'un coup, en quelques semaines, ce qui la rend spectaculaire. Ce n'est ni une maladie ni un caprice : c'est un corps qui n'a plus les mêmes besoins. La fourchette est large d'un enfant à l'autre, et deux enfants du même âge peuvent avoir des assiettes très différentes en allant très bien tous les deux.",
+      "ancrage": "Ce qui a changé, ce sont ses besoins, pas ton repas. Tu peux poser le décompte des cuillères et regarder plutôt comment il va dans sa journée.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : au repas où tu le remarques",
+        "etapes": [
+          "Regarder son énergie : un enfant qui joue, grimpe et rit mange à sa faim, même si cela te paraît peu.",
+          "Compter les couches mouillées : cinq à six par jour disent qu'il boit assez.",
+          "Servir petit : une assiette modeste, et il redemande s'il a encore faim.",
+          "Laisser la fin lui appartenir : quand il repousse, le repas s'arrête là.",
+          "Ne rien dire à voix haute : ni décompte, ni déception, ni félicitation sur ce qu'il a avalé."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Observer bébé : les repères qui rassurent vraiment",
+        "etapes": [
+          "Ouvrir le carnet de santé : la courbe qui y est tracée est le seul juge fiable, et c'est le professionnel qui la lit.",
+          "Poser la question au prochain rendez-vous : le suivi médical de cet âge est fait pour ça.",
+          "Recompter le hors-repas : lait, compotes, biscuits et jus comptent déjà dans sa journée.",
+          "Regarder ses nuits : un enfant qui dort d'une traite et se réveille de bonne humeur n'a pas faim la nuit.",
+          "Laisser passer sept jours avant de conclure : un tout-petit compense d'un jour sur l'autre."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Tenir quatre repas et rien entre : petit déjeuner, déjeuner, goûter, dîner, la faim a besoin de temps pour monter.",
+        "Éloigner le lait du repas : un biberon juste avant remplit l'estomac que le repas allait remplir.",
+        "Manger tous ensemble : un enfant qui voit manger mange davantage que celui qu'on regarde manger.",
+        "En parler avant que ça ronge : un professionnel de santé tranche en 2 minutes ce qui inquiète depuis des semaines."
+      ],
+      "principe": "L'appétit d'un enfant suit sa courbe de croissance, pas l'inquiétude de ses parents. Une baisse qui arrive après un an, chez un enfant tonique et qui grandit, est le signe que son corps fonctionne exactement comme il doit.",
+      "erreurs_a_eviter": [
+        "Compenser avec un biberon dès qu'il a peu mangé : le repas suivant sera plus petit encore.",
+        "Proposer autre chose pour qu'il avale quelque chose : il apprend qu'un refus fait apparaître mieux.",
+        "Le peser à la maison chaque semaine : le chiffre bouge d'un jour à l'autre et nourrit l'angoisse sans rien mesurer.",
+        "Le comparer à l'enfant d'à côté : les besoins vont du simple au double au même âge."
+      ],
+      "consulter_si": "Consulter si : ton enfant maigrit, si sa courbe s'infléchit d'un rendez-vous à l'autre, s'il est plus triste, plus mou ou plus pâle que d'habitude, s'il boit très peu, ou si la baisse dure au-delà de deux semaines sans autre explication → pédiatre, médecin traitant ou PMI. Une diététicienne pédiatrique peut compléter si les apports sont en cause.",
+      "source": "Source : l'appétit baisse après un an avec le ralentissement de la croissance, et la courbe reste le repère, repères pédiatriques mpedia.fr (AFPA) ; surveillance des courbes de croissance, Haute Autorité de Santé ; quatre repas par jour, Assurance Maladie, ameli.fr."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Le biberon au lieu du repas / Il ne veut que du lait",
+      "titre": "Remettre le lait à sa place",
+      "explication": "À treize mois, le lait n'est plus l'aliment principal : il devient un aliment parmi d'autres, et très souvent un refuge. Le biberon rassure, il se boit sans effort, il ne demande ni de mâcher ni de choisir, et il arrive toujours au même moment de la journée. Ce qui pose problème n'est pas le lait lui-même, c'est le volume : un estomac plein de lait n'a plus de place pour le reste, et le fer, que le lait apporte peu, vient justement du repas. Les repères français conseillent environ cinq cents millilitres de lait ou de produits laitiers par jour à cet âge, sans dépasser huit cents.",
+      "ancrage": "Il ne réclame pas du lait contre ton repas, il réclame ce qui le rassure le plus vite. Tu peux garder le réconfort et déplacer seulement le lait.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : quand il réclame le biberon à table",
+        "etapes": [
+          "Servir le repas d'abord : le lait vient après, jamais avant ni pendant.",
+          "Donner le lait à la fin : ce qu'il boit alors complète le repas au lieu de le remplacer.",
+          "Proposer au verre ou à la tasse : le même lait dans un autre contenant se boit en plus petite quantité.",
+          "Nommer l'attente sans céder : « le lait arrive après », dit une fois, avec le calme d'une évidence.",
+          "Garder le câlin dans le repas : il monte sur tes genoux, il touche ton bras, le réconfort ne part pas avec le biberon."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : donner le réconfort autrement",
+        "etapes": [
+          "Repérer son heure de creux : c'est le plus souvent la fin d'après-midi qui déclenche la demande.",
+          "Prendre l'avance : le prendre contre toi avant qu'il réclame, pas une fois qu'il pleure.",
+          "Envelopper plutôt que bercer : les deux bras autour de lui, sans mouvement, il se pose plus vite.",
+          "Paume contre paume : ses mains dans les tiennes, un appui ferme et immobile, sans rien dire.",
+          "Le laisser partir de lui-même : dès qu'il se tortille, on ouvre les bras sans le retenir."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Compter tout ce qui est laitier : biberons, yaourts, fromage, la journée entière se lit d'un seul bloc.",
+        "Décaler le biberon du goûter : une heure et demie avant le dîner laisse la faim revenir.",
+        "Remplacer un biberon par un vrai goûter : pain, fruit, laitage, il mâche et il apprend.",
+        "En parler au suivi médical : pédiatre ou PMI vérifient le fer et les apports avant tout changement."
+      ],
+      "principe": "Le lait ne se retire pas, il se replace. Tant qu'il arrive après le repas et non à sa place, il redevient ce qu'il doit être à cet âge : un complément, et un moment de réconfort.",
+      "erreurs_a_eviter": [
+        "Remplir le biberon pour qu'il dorme mieux : la nuit se hache et le petit déjeuner finit par disparaître.",
+        "Supprimer le biberon d'un coup : le réconfort perdu se cherche ailleurs, souvent la nuit.",
+        "Le laisser à disposition dans la journée : la faim n'a jamais le temps de monter jusqu'au repas.",
+        "Changer de lait en espérant qu'il mange mieux : un changement se décide avec le médecin, et le transit met une à deux semaines à se remettre en place."
+      ],
+      "consulter_si": "Consulter si : ton enfant boit plus de huit cents millilitres de lait par jour et refuse presque tout le reste, s'il pâlit et se fatigue vite, s'il ne prend plus de poids, ou si le refus des solides dure au-delà de deux semaines → pédiatre, médecin traitant ou PMI, qui pourront vérifier notamment le fer.",
+      "source": "Source : environ 500 ml de lait ou de produits laitiers par jour entre 1 et 3 ans, 800 ml au maximum, repères pédiatriques mpedia.fr (AFPA) ; quatre repas par jour et place du lait de croissance, Assurance Maladie, ameli.fr ; repères du programme national nutrition santé, Santé publique France."
+    }
+  ]
+}

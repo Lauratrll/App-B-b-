@@ -1,0 +1,194 @@
+{
+  "mois": 22,
+  "tranche_age": "22 mois",
+  "categorie": {
+    "id": "alim",
+    "nom": "Alimentation",
+    "sous_titre": "Appétit et émotions, retours en arrière, satiété",
+    "icone": "🍚"
+  },
+  "protocoles": [
+    {
+      "categorie": "alim",
+      "situation": "L'appétit après le changement / Il ne mange plus depuis",
+      "titre": "L'appétit dit ce qu'il ne sait pas dire",
+      "explication": "À vingt-deux mois, ton enfant comprend beaucoup plus qu'il ne peut exprimer, et ce qui le traverse ressort par le corps : le sommeil, la propreté en cours d'acquisition, et l'appétit. Un déménagement, l'arrivée d'un bébé, une nouvelle nounou, une séparation, une hospitalisation, même un simple changement de chambre : tout cela peut couper la faim pendant plusieurs jours. Ce n'est pas un caprice et ce n'est pas de la manipulation. C'est la seule façon dont il dispose pour dire que quelque chose a bougé.",
+      "ancrage": "Ce n'est pas le repas qu'il faudrait réparer, c'est ce qui a changé autour. Tu peux poser la question de l'assiette et t'occuper d'abord de ce qui l'a secoué.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : au repas où il ne mange plus",
+        "etapes": [
+          "Retirer toute pression : aucune quantité attendue, aucune remarque sur ce qui reste dans l'assiette.",
+          "Nommer ce qui a changé : « le bébé est arrivé et tout est différent », il comprend même s'il ne répond pas.",
+          "Servir ce qu'il aime : ce n'est pas la semaine pour élargir son répertoire.",
+          "Manger près de lui, sans le regarder manger : ta présence compte plus que ton attention à son assiette.",
+          "Veiller à ce qu'il boive : sur quelques jours, la boisson compte davantage que ce qu'il avale."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Observer bébé : ce qui a changé dans sa vie",
+        "etapes": [
+          "Les quatre dernières semaines : qui est parti, qui est arrivé, ce qui a bougé dans la maison.",
+          "Ses autres signaux : sommeil, colères, doudou, propreté, ils bougent souvent tous en même temps.",
+          "Le moment où ça a commencé : la date du changement et celle du refus se superposent presque toujours.",
+          "Ce qui va bien malgré tout : ce qu'il continue de faire dit que le fond tient.",
+          "Sa boisson et ses couches : le repère qui compte vraiment pendant les jours creux."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Remettre du prévisible : mêmes horaires, même place, même rituel de coucher, le repas suit le reste.",
+        "Lui donner du temps à deux : 10 minutes seul avec toi chaque jour font souvent plus que trois dîners.",
+        "Prévenir le mode de garde : la même souplesse là-bas évite d'ajouter une pression de plus.",
+        "Attendre deux à trois semaines : l'appétit revient quand le reste s'est reposé, rarement avant."
+      ],
+      "principe": "Chez un tout-petit, l'appétit est un baromètre avant d'être un besoin. Quand il chute après un bouleversement, c'est la vie autour qui demande à être apaisée, et l'assiette suit d'elle-même.",
+      "erreurs_a_eviter": [
+        "Insister davantage parce que la période est difficile : on ajoute une contrainte à un enfant déjà débordé.",
+        "Proposer des aliments plaisir pour compenser : le sucre devient la réponse à l'émotion, et cela s'installe.",
+        "Lui demander ce qui ne va pas à table : il n'a pas les mots, et la question transforme le repas en examen.",
+        "Croire que ça passera en deux jours : ces phases se comptent en semaines, et le savoir évite de paniquer."
+      ],
+      "consulter_si": "Consulter si : ton enfant perd du poids, si sa courbe s'infléchit, s'il boit très peu, s'il est anormalement triste, mou ou en retrait depuis plusieurs semaines, s'il régresse sur plusieurs plans à la fois, ou si le changement en cause est un événement grave → pédiatre, médecin traitant ou PMI. Un psychologue de la petite enfance accompagne aussi ce type de période.",
+      "source": "Source : ne pas forcer un enfant à manger et repères de surveillance de l'appétit, mpedia.fr (AFPA) ; surveillance de la courbe de croissance, Haute Autorité de Santé."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Le biberon du petit / Il réclame celui du bébé",
+      "titre": "Accorder sans le renvoyer à son âge",
+      "explication": "Voir un plus petit boire au biberon réveille chez ton enfant une question très simple : est-ce que ce qu'on lui donne, à lui, je peux encore l'avoir ? À vingt-deux mois, réclamer le biberon du bébé n'est pas une régression inquiétante, c'est une demande de place. Elle arrive souvent quelques semaines après l'arrivée du petit, quand l'excitation des débuts est retombée et que le quotidien s'est réorganisé sans lui. Ces demandes durent quelques jours à quelques semaines quand elles obtiennent une réponse simple.",
+      "ancrage": "Il ne redevient pas un bébé, il vérifie qu'il a toujours sa place. Tu peux accorder ce qu'il demande sans que cela remette quoi que ce soit en cause.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : quand il réclame le biberon",
+        "etapes": [
+          "Donner ce qu'il demande : un biberon à lui, avec son lait, sans en faire une affaire.",
+          "Ne rien dire sur son âge : « tu es grand maintenant » est exactement ce qui fait durer la demande.",
+          "S'installer comme pour le petit : sur les genoux, dans les bras, le contenant compte moins que la place.",
+          "Nommer ce qu'il vit : « toi aussi tu voudrais être le bébé », dit sans reproche et sans rire.",
+          "Ne pas le proposer les jours suivants : disponible s'il demande, jamais mis en avant."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : lui rendre sa place d'aîné",
+        "etapes": [
+          "Un temps à deux chaque jour : 10 minutes sans le petit, prévisibles, et il les attend.",
+          "Le porter encore : il a grandi, il a toujours besoin de tes bras, et il n'ose plus toujours demander.",
+          "Le laisser aider s'il en a envie : donner le bain, tenir le biberon, il choisit sa place de grand.",
+          "Ne pas lui demander d'être raisonnable : cette phrase-là arrive presque toujours au mauvais moment.",
+          "Finir la journée par un rituel qui n'est qu'à lui : une chanson, un livre, quelque chose que le bébé n'a pas."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Accorder franchement plutôt qu'à moitié : une demande à demi satisfaite se rejoue tous les jours.",
+        "Éviter les grands changements en même temps : lit, propreté, entrée en collectivité peuvent attendre.",
+        "Lui donner des privilèges de grand : se servir seul, choisir le dessert, veiller un peu plus tard.",
+        "Prévenir l'entourage : les remarques sur « le grand qui fait le bébé » ralentissent tout."
+      ],
+      "principe": "Ce qui se demande obtient beaucoup plus vite sa réponse que ce qui se refuse. Un retour en arrière accordé sans commentaire se referme de lui-même ; un retour en arrière refusé s'installe.",
+      "erreurs_a_eviter": [
+        "Refuser au nom de son âge : la demande se déplace sur le doudou, la tétine ou les nuits.",
+        "Le moquer gentiment devant les autres : il défendra sa demande d'autant plus longtemps.",
+        "Reprendre le biberon dès le lendemain : la réponse doit tenir quelques jours pour faire son effet.",
+        "Lui donner celui du bébé : un biberon à lui, avec son lait, dit qu'il a sa propre place."
+      ],
+      "consulter_si": "Consulter si : les retours en arrière se multiplient sur plusieurs plans à la fois, s'ils s'accompagnent d'une tristesse durable ou d'un retrait, s'il refuse de s'alimenter autrement qu'au biberon depuis plusieurs semaines, ou s'il se montre agressif envers le petit de façon répétée → pédiatre, médecin traitant ou PMI, qui pourront orienter vers un psychologue de la petite enfance."
+    },
+    {
+      "categorie": "alim",
+      "situation": "La demande d'assistance / Il ne veut plus être autonome",
+      "titre": "Rendre la main sans bras de fer",
+      "explication": "Il sait manger seul depuis des mois, et il tend sa cuillère en demandant qu'on le fasse à sa place. Ce n'est pas une compétence perdue, c'est une compétence mise de côté : à vingt-deux mois, être nourri est une façon de demander de l'attention exclusive, dans un moment où l'adulte est justement disponible et assis. Le sens du geste est important à comprendre, parce qu'il change complètement la réponse : ce qu'il réclame, ce n'est pas la cuillère, c'est toi.",
+      "ancrage": "Ce n'est pas de la paresse et ce n'est pas un retour en arrière. Tu peux répondre à ce qu'il demande vraiment, ce qui coûte beaucoup moins cher que de discuter la cuillère.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : quand il te tend sa cuillère",
+        "etapes": [
+          "Donner les premières bouchées : trois ou quatre, sans commentaire, la demande se referme souvent là.",
+          "Rester assis à côté de lui : ce qui compte est ta présence, pas la main qui tient la cuillère.",
+          "Lui rendre la cuillère doucement : « à toi maintenant », posé, sans marchander le nombre de bouchées.",
+          "Ne pas rappeler ce qu'il sait faire : « tu sais bien manger tout seul » relance le bras de fer.",
+          "Accepter qu'il s'arrête là : s'il ne reprend pas, le repas est fini, et ce n'est pas un échec."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Hors du repas : lui rendre le geste",
+        "etapes": [
+          "Cuisiner ensemble : verser, mélanger, écraser, la main retrouve du plaisir loin de l'enjeu du repas.",
+          "Le faire servir les autres : distribuer le pain lui rend un rôle actif que la cuillère avait perdu.",
+          "Jouer à transvaser : semoule, eau, gobelets, le geste s'entretient sans qu'on le lui demande.",
+          "Le laisser faire ce qui l'intéresse : mettre la table, porter son assiette, choisir sa place.",
+          "Ne rien attendre en retour au repas suivant : le lien entre les deux se fait tout seul."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Chercher ce qui a bougé : ces demandes suivent souvent un changement, une fatigue ou une période de tension.",
+        "Donner de l'attention avant qu'il la réclame : 10 minutes en amont valent mieux qu'un repas de négociation.",
+        "Alléger le repas : moins d'adultes, moins de bruit, il demande moins quand il est déjà entouré.",
+        "Laisser passer la phase : accordée sans enjeu, elle se referme en général en quelques semaines."
+      ],
+      "principe": "Une demande de retour en arrière se traite en donnant ce qui est demandé au lieu de démontrer ce dont il est capable. La compétence revient d'elle-même quand elle cesse d'être l'objet du désaccord.",
+      "erreurs_a_eviter": [
+        "Refuser catégoriquement pour ne pas céder : le repas devient un bras de fer et la demande se durcit.",
+        "Le nourrir jusqu'au bout tous les jours : la facilité s'installe et le geste se perd pour de bon.",
+        "Faire un marché avec lui : « je t'en donne trois, tu fais le reste » transforme le repas en négociation.",
+        "S'inquiéter devant lui de sa régression : nommer une régression est le meilleur moyen de l'installer."
+      ],
+      "consulter_si": "Consulter si : ton enfant refuse de manger dès qu'on ne le nourrit pas depuis plusieurs semaines, s'il perd du poids, s'il perd aussi d'autres acquis comme la marche, le langage ou la propreté en cours, ou si ce retour en arrière s'accompagne d'une tristesse durable → pédiatre, médecin traitant ou PMI, qui pourront orienter vers un psychomotricien ou un psychologue de la petite enfance."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Les grandes quantités / Il se ressert sans fin",
+      "titre": "Ralentir pour que la satiété arrive",
+      "explication": "La sensation d'être rassasié met un certain temps à remonter jusqu'au cerveau. Quand un enfant mange très vite, il a le temps d'avaler beaucoup avant que ce signal arrive, et il redemande sincèrement, sans tricher. À vingt-deux mois, plusieurs choses accélèrent le repas : une grande faim mal placée dans la journée, l'envie de retourner jouer, ou un repas trop court pour être vécu. Ce sur quoi on agit vraiment, c'est le rythme du repas, jamais la quantité qu'on autorise ou qu'on refuse.",
+      "ancrage": "Tu n'as pas à rationner son assiette. Tu as à ralentir le repas assez pour que son corps ait le temps de lui dire qu'il a assez mangé.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : pendant le repas",
+        "etapes": [
+          "Servir en petites portions : il se ressert autant qu'il veut, mais le geste crée une pause à chaque fois.",
+          "Poser un verre d'eau : boire entre les bouchées ralentit sans qu'on ait rien à demander.",
+          "Manger à son rythme à toi : il cale le sien sur celui de la table, plus que sur les consignes.",
+          "Faire durer par la parole : raconter sa journée occupe le temps que la satiété demande.",
+          "Attendre avant de resservir : le temps de vider les assiettes des autres suffit souvent."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Observer bébé : les signes qu'il a assez mangé",
+        "etapes": [
+          "Le rythme qui ralentit : les bouchées s'espacent avant qu'il le dise avec des mots.",
+          "Le regard qui part : il commence à s'intéresser à autre chose que son assiette.",
+          "Les mains qui jouent : à cet âge, jouer avec la nourriture arrive après la faim, presque toujours.",
+          "Le buste qui se renverse : il s'appuie au dossier, il se tourne, le corps a fini avant la bouche.",
+          "Les propositions qu'il repousse : un « non » à la cuillère qui approche est un vrai signal."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Vérifier l'espacement des repas : un enfant qui arrive affamé mange trop vite, quoi qu'on fasse.",
+        "Manger tous ensemble : le repas partagé dure naturellement plus longtemps qu'un repas servi seul.",
+        "Éviter les écrans à table : ils déconnectent complètement de la sensation de faim et de satiété.",
+        "En parler au suivi médical plutôt qu'à lui : le pédiatre lit la courbe, c'est son rôle et pas le tien."
+      ],
+      "principe": "La satiété n'arrive pas en même temps que la dernière bouchée, elle arrive quelques minutes après. Un repas qui prend son temps se règle tout seul, alors qu'un repas rationné apprend à manger contre ses sensations.",
+      "erreurs_a_eviter": [
+        "Refuser la deuxième portion sans explication : la nourriture devient un enjeu et l'envie augmente.",
+        "Commenter ce qu'il mange ou son poids devant lui : c'est ainsi que s'installent les rapports difficiles à la nourriture.",
+        "Le faire manger seul en avance pour aller plus vite : le repas raccourcit et la satiété n'a pas le temps d'arriver.",
+        "Compenser le lendemain en servant moins : l'alternance entre restriction et abondance accélère encore le repas."
+      ],
+      "consulter_si": "Consulter si : sa courbe de poids s'écarte nettement de sa ligne habituelle sur plusieurs mois, s'il réclame à manger en permanence y compris la nuit, si la faim s'accompagne d'une soif importante et de couches très lourdes, ou s'il vomit après les repas → pédiatre, médecin traitant ou PMI. Le suivi de la courbe par un professionnel est le seul repère fiable, jamais la sensation d'un repas.",
+      "source": "Source : respecter l'appétit de l'enfant, ne pas forcer et ne pas restreindre, repères pédiatriques mpedia.fr (AFPA) ; quatre repas par jour et repères alimentaires des enfants de 1 à 3 ans, Assurance Maladie, ameli.fr ; surveillance de la courbe de croissance, Haute Autorité de Santé."
+    }
+  ]
+}

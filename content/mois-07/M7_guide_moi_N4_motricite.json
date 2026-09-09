@@ -10,16 +10,16 @@
   "protocoles": [
     {
       "categorie": "motricite",
-      "situation": "Il ne se met pas à quatre pattes / la fourchette est large",
-      "titre": "Pas de quatre pattes / le déplacement compte, pas sa forme",
-      "explication": "Il ne se met pas à quatre pattes, et l'inquiétude monte — d'autant que le quatre pattes est présenté partout comme une étape obligatoire. Elle ne l'est pas. Beaucoup d'enfants ne rampent jamais sur les mains et les genoux : ils se déplacent sur le ventre, roulent, glissent sur les fesses, ou passent directement à la station debout. Ce qui compte n'est pas la forme du déplacement : c'est qu'il se déplace, d'une manière ou d'une autre, et qu'il progresse. La fourchette est très large, et le quatre pattes n'est pas un jalon obligatoire.",
+      "situation": "Le quatre pattes qui ne vient pas / Il ne s'y met pas encore",
+      "titre": "Le déplacement compte, pas sa forme",
+      "explication": "Il ne se met pas à quatre pattes, et l'inquiétude monte, d'autant que le quatre pattes est présenté partout comme une étape obligatoire. Elle ne l'est pas. Beaucoup d'enfants ne rampent jamais sur les mains et les genoux : ils se déplacent sur le ventre, roulent, glissent sur les fesses, ou passent directement à la station debout. Ce qui compte n'est pas la forme du déplacement : c'est qu'il se déplace, d'une manière ou d'une autre, et qu'il progresse. La fourchette est très large, et le quatre pattes n'est pas un jalon obligatoire.",
       "ancrage": "Le quatre pattes n'est pas une étape obligatoire. Ce qui compte, c'est qu'il trouve un moyen d'aller vers ce qu'il veut.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — donner de la place",
+        "titre": "Action immédiate : donner de la place",
         "etapes": [
-          "Un grand espace au sol : dégagé, ferme, sans entrave — c'est le seul « exercice » qui compte.",
+          "Un grand espace au sol : dégagé, ferme, sans entrave, c'est le seul « exercice » qui compte.",
           "Beaucoup de temps sur le ventre, éveillé et surveillé : c'est là que le déplacement se prépare.",
           "Placer un objet à distance : à peine hors de portée, pour donner envie d'y aller.",
           "Ne jamais le mettre en position quatre pattes : ni le placer, ni le maintenir.",
@@ -29,41 +29,41 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — l'éveil libre",
+        "titre": "Geste doux : l'éveil libre",
         "etapes": [
-          "Varier les positions : dos, ventre, côtés — plusieurs fois par jour.",
+          "Varier les positions : dos, ventre, côtés, plusieurs fois par jour.",
           "Ta présence au sol : à côté de lui, à sa hauteur, sans le manipuler.",
           "Deux objets seulement : la profusion disperse au lieu de nourrir.",
-          "Varier les surfaces : tapis, parquet, couverture — la sensation guide le mouvement.",
+          "Varier les surfaces : tapis, parquet, couverture, car la sensation guide le mouvement.",
           "S'arrêter s'il fatigue : quelques minutes suffisent."
         ]
       },
       "pour_aller_plus_loin": [
-        "Retenir la règle : le quatre pattes n'est pas obligatoire — certains enfants ne le font jamais.",
+        "Retenir la règle : le quatre pattes n'est pas obligatoire, et certains enfants ne le font jamais.",
         "On n'a pas besoin de l'entraîner : forcer une acquisition ne l'avance pas.",
-        "Se méfier des trotteurs : les youpalas sont dangereux et déconseillés — ils retardent la marche et provoquent des accidents graves.",
+        "Se méfier des trotteurs : les youpalas sont dangereux et déconseillés, car ils retardent la marche et provoquent des accidents graves.",
         "Poser tes questions en consultation : le suivi médical existe pour cela."
       ],
       "principe": "La forme du déplacement n'a pas d'importance : c'est le déplacement qui compte. Le quatre pattes n'est pas un jalon obligatoire, et la fourchette est très large.",
       "erreurs_a_eviter": [
         "Placer ou maintenir bébé en position quatre pattes.",
-        "Utiliser un trotteur ou un youpala — dangereux et déconseillés.",
+        "Utiliser un trotteur ou un youpala : il se déplace sans avoir construit l'équilibre qui va avec, et atteint des hauteurs qu'il ne maîtrise pas.",
         "Caler bébé assis ou le mettre debout pour « l'aider ».",
         "Comparer sa progression à celle d'un autre enfant."
       ],
       "consulter_si": "Consulter si : bébé ne se déplace d'aucune façon vers dix mois, ne se retourne pas, ne tient pas assis vers neuf mois, paraît anormalement mou ou raide, s'il perd une compétence acquise, ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre ou PMI, qui orientera si nécessaire.",
-      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'activité physique du tout-petit et les étapes du développement de bébé."
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), l'activité physique du tout-petit et les étapes du développement de bébé."
     },
     {
       "categorie": "motricite",
-      "situation": "Il rampe en reculant / il s'éloigne de ce qu'il veut",
-      "titre": "Il recule au lieu d'avancer / une phase normale",
-      "explication": "Il pousse sur ses bras, et il recule — s'éloignant précisément de l'objet qu'il convoite. La rage est totale, et le spectacle est déroutant. C'est pourtant une phase parfaitement normale : les bras poussent avant que les jambes ne tirent, et la coordination avant-arrière prend du temps à se mettre en place. Il n'y a rien à corriger, rien à rééduquer, et surtout rien à manipuler. Ce qui l'aide : du temps au sol, un objet placé à bonne distance, et un parent qui n'intervient pas.",
+      "situation": "La marche arrière / Il rampe en reculant et s'éloigne",
+      "titre": "Une phase normale et courte",
+      "explication": "Il pousse sur ses bras, et il recule, s'éloignant précisément de l'objet qu'il convoite. La rage est totale, et le spectacle est déroutant. C'est pourtant une phase parfaitement normale : les bras poussent avant que les jambes ne tirent, et la coordination avant-arrière prend du temps à se mettre en place. Il n'y a rien à corriger, rien à rééduquer, et surtout rien à manipuler. Ce qui l'aide : du temps au sol, un objet placé à bonne distance, et un parent qui n'intervient pas.",
       "ancrage": "Il ne fait pas d'erreur : ses bras sont simplement plus forts que ses jambes. Cela se coordonne tout seul, avec du temps au sol.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — accompagner sans corriger",
+        "titre": "Action immédiate : accompagner sans corriger",
         "etapes": [
           "Le laisser faire : ne pas corriger sa position, ne pas guider ses jambes.",
           "Placer l'objet à bonne distance : à peine hors de portée, dans son axe.",
@@ -75,7 +75,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — soutenir la coordination par le jeu",
+        "titre": "Geste doux : soutenir la coordination par le jeu",
         "etapes": [
           "Beaucoup de temps sur le ventre : c'est là que les appuis se construisent.",
           "Varier les surfaces : un tapis un peu rugueux offre plus d'accroche qu'un parquet glissant.",
@@ -90,7 +90,7 @@
         "Éviter les vêtements qui glissent : une tenue qui accroche un peu facilite les appuis.",
         "Ne rien corriger : la coordination se construit seule."
       ],
-      "principe": "Reculer avant d'avancer est une phase normale de la coordination. Il n'y a rien à corriger — seulement du temps au sol et un parent qui n'intervient pas.",
+      "principe": "Reculer avant d'avancer est une phase normale de la coordination. Il n'y a rien à corriger, seulement du temps au sol et un parent qui n'intervient pas.",
       "erreurs_a_eviter": [
         "Guider ses jambes ou pousser ses pieds.",
         "Le placer en position quatre pattes.",
@@ -98,30 +98,30 @@
         "Utiliser un trotteur pour « l'aider à avancer »."
       ],
       "consulter_si": "Consulter si : bébé ne se déplace d'aucune façon vers dix mois, s'il ne pousse que d'un seul côté, paraît anormalement mou ou raide, ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre ou PMI, qui orientera si nécessaire vers un kinésithérapeute pédiatrique ou un psychomotricien.",
-      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'activité physique du tout-petit et les étapes du développement de bébé."
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), l'activité physique du tout-petit et les étapes du développement de bébé."
     },
     {
       "categorie": "motricite",
-      "situation": "Ne tient pas assis seul / faut-il l'installer calé",
-      "titre": "L'assise non acquise / le sol libre, encore",
-      "explication": "Il ne tient toujours pas assis seul, et l'envie de le caler — coussins, siège de sol, transat redressé — devient pressante. La règle ne change pas : on n'installe jamais un bébé dans une position qu'il n'atteint pas seul. Un bébé calé assis ne peut ni se rattraper, ni changer de position, ni explorer : il subit une posture. Et surtout, il est privé du chemin qui y mène — les appuis latéraux, la rotation du tronc, le passage par le côté. C'est ce chemin, et non la position finale, qui construit son équilibre.",
-      "ancrage": "Le caler assis ne l'entraîne pas : cela le prive du chemin qui mène à l'assise. C'est le chemin qui construit l'équilibre, pas la position.",
+      "situation": "L'assise qui ne vient pas / Il ne tient toujours pas assis seul",
+      "titre": "Ce qui manque, c'est la rotation",
+      "explication": "À sept mois, beaucoup d'enfants s'assoient seuls, et celui qui n'y arrive pas encore inquiète. Ce qui se regarde alors n'est pas la position finale, c'est le chemin qui y mène. Un enfant s'assoit en passant par le côté : il roule, il pivote, il prend appui sur un bras, et il se redresse. S'il ne s'assoit pas, c'est le plus souvent qu'une de ces étapes manque encore, et c'est elle qui se travaille, pas l'assise. La fourchette va de six à neuf mois environ, et le rendez-vous médical du neuvième mois est prévu exactement pour faire ce point.",
+      "ancrage": "Ce n'est pas l'assise qu'on cherche, c'est la rotation. Regarde s'il roule et s'il pivote au sol, c'est là que se joue la suite.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — le sol, encore",
+        "titre": "Action immédiate : travailler la rotation",
         "etapes": [
-          "Le poser à plat, au sol : sur le dos, sur le ventre, sur le côté — libre de changer.",
-          "Ne pas le caler : ni coussins, ni siège de sol, ni transat redressé.",
-          "Placer les objets à sa hauteur : au sol, pour qu'il pivote et se déplace vers eux.",
-          "Le tenir contre toi si tu veux le redresser : assis contre ton torse, soutenu — pas posé seul.",
-          "Le laisser trouver ses appuis : il passera par le côté, en s'appuyant sur son bras."
+          "Le poser à plat : sur le dos, au sol, sans coussin ni siège.",
+          "Placer un objet sur le côté, un peu hors de portée : c'est ce qui déclenche le pivot.",
+          "Alterner les côtés : beaucoup d'enfants ne tournent que d'un seul côté au début.",
+          "Le laisser passer par le ventre : c'est de là qu'il poussera sur son bras.",
+          "Ne pas l'asseoir pour l'aider : cela supprime justement l'étape qui manque."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — l'éveil libre",
+        "titre": "Geste doux : l'éveil libre",
         "etapes": [
           "Tapis ferme et large : sans coussin, sans arche, sans entrave.",
           "Temps sur le ventre, éveillé et surveillé : c'est là que le tronc se renforce.",
@@ -131,34 +131,34 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Retenir la règle : jamais une position qu'il n'atteint pas seul.",
-        "Se méfier des sièges d'assise : vendus comme des aides au développement, ce sont des contraintes.",
-        "Limiter l'immobilisation : pas plus d'une heure d'affilée en transat, poussette, coque ou siège.",
-        "Se rappeler la fourchette : l'assise autonome arrive généralement entre six et neuf mois, avec de grandes variations."
+        "Compter le temps au sol : deux heures réparties dans la journée changent tout, une heure d'affilée ne suffit pas.",
+        "Limiter les sièges : transat, chaise haute, coque et poussette immobilisent le tronc.",
+        "Regarder s'il utilise ses deux côtés : une préférence marquée et constante se signale au médecin.",
+        "Préparer la consultation du neuvième mois : noter ce qu'il fait, plutôt que ce qu'il ne fait pas."
       ],
-      "principe": "On n'installe jamais un bébé dans une position qu'il n'atteint pas seul. Ce qui construit l'équilibre, c'est le chemin — les appuis, la rotation, le passage par le côté.",
+      "principe": "On ne s'assoit pas d'un bloc, on y arrive par le côté. Ce qui construit l'assise, c'est la rotation du tronc et l'appui sur le bras.",
       "erreurs_a_eviter": [
-        "Caler bébé assis dans des coussins ou un siège de sol.",
-        "Utiliser un transat redressé pour « l'entraîner ».",
-        "Le mettre debout ou utiliser un youpala.",
-        "Comparer son assise à celle d'un autre enfant."
+        "Le caler avec des coussins pour l'entraîner : il tient alors une posture dont il ne peut pas sortir.",
+        "Comparer à un enfant du même âge : la fourchette de l'assise couvre trois mois entiers.",
+        "Multiplier les sièges pour le redresser : chaque heure assise est une heure de moins au sol.",
+        "Repousser jusqu'aux neuf mois si quelque chose t'inquiète vraiment : ce rendez-vous s'avance."
       ],
-      "consulter_si": "Consulter si : bébé ne tient pas assis du tout vers neuf mois, ne tient pas sa tête droite et stable, paraît anormalement mou ou raide, s'il perd une compétence acquise, ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre ou PMI, qui orientera si nécessaire.",
-      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'activité physique du tout-petit et les étapes du développement de bébé."
+      "consulter_si": "Consulter si : il ne roule pas du tout, ne tient pas sa tête droite, garde les mains toujours fermées, n'utilise qu'un seul côté du corps, paraît très mou ou au contraire très raide → pédiatre ou médecin traitant, sans attendre le bilan du neuvième mois.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), l'activité physique du tout-petit et les étapes du développement de bébé."
     },
     {
       "categorie": "motricite",
-      "situation": "Tout passe par la bouche / petits objets et risque d'étouffement",
-      "titre": "Tout à la bouche / trier le sol, pas interdire",
-      "explication": "Il attrape tout et le porte immédiatement à sa bouche. C'est son principal mode de connaissance : la bouche lui apprend les formes, les textures, les températures. L'empêcher, c'est le priver de son outil d'exploration le plus riche. Mais avec la mobilité, le risque change de nature : il atteint désormais ce qu'il ne pouvait pas atteindre hier. La réponse n'est donc pas d'interdire le geste — c'est de trier le sol. Tout ce qui passe par un rouleau de papier toilette est trop petit et doit disparaître de son territoire.",
+      "situation": "Le passage par la bouche / Il porte à sa bouche tout ce qu'il trouve",
+      "titre": "Trier le sol plutôt qu'interdire",
+      "explication": "Il attrape tout et le porte immédiatement à sa bouche. C'est son principal mode de connaissance : la bouche lui apprend les formes, les textures, les températures. L'empêcher, c'est le priver de son outil d'exploration le plus riche. Mais avec la mobilité, le risque change de nature : il atteint désormais ce qu'il ne pouvait pas atteindre hier. La réponse n'est donc pas d'interdire le geste, c'est de trier le sol. Tout ce qui passe par un rouleau de papier toilette est trop petit et doit disparaître de son territoire.",
       "ancrage": "On n'interdit pas le geste, on trie le sol. Le test est simple : ce qui passe dans un rouleau de papier toilette est trop petit.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — trier le territoire",
+        "titre": "Action immédiate : trier le territoire",
         "etapes": [
-          "Le test du rouleau : tout ce qui passe dans un rouleau de papier toilette est trop petit — cela disparaît du sol.",
-          "Ranger les piles boutons en hauteur : elles peuvent être mortelles si avalées — c'est la priorité absolue.",
+          "Le test du rouleau : tout ce qui passe dans un rouleau de papier toilette est trop petit, cela disparaît du sol.",
+          "Ranger les piles boutons en hauteur : elles peuvent être mortelles si avalées, c'est la priorité absolue.",
           "Retirer les petites pièces : boutons, capuchons, pièces de monnaie, billes, cacahuètes.",
           "Vérifier les jouets : rien de détachable, aucune ficelle, aucun cordon.",
           "Se mettre à sa hauteur : à quatre pattes, pour voir ce qu'il voit."
@@ -167,10 +167,10 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — enrichir l'exploration",
+        "titre": "Geste doux : enrichir l'exploration",
         "etapes": [
           "Offrir des supports sûrs : objets assez gros, solides, sans partie détachable.",
-          "Varier les textures : tissu, bois lisse, silicone — quelques objets, pas dix.",
+          "Varier les textures : tissu, bois lisse, silicone, quelques objets, pas dix.",
           "Nommer ce qu'il touche : « c'est dur, c'est doux, c'est froid ».",
           "Ne pas interrompre : quand il explore, il travaille.",
           "S'arrêter s'il se détourne : il indique qu'il en a assez."
@@ -179,18 +179,18 @@
       "pour_aller_plus_loin": [
         "Sécuriser en avance : ce qu'il n'atteint pas encore, il l'atteindra dans quelques jours.",
         "Se former aux gestes qui sauvent : une formation aux premiers secours est le meilleur investissement de cette période.",
-        "Ne jamais laisser de fruits à coque entiers à portée : cacahuètes, noisettes, amandes — risque d'étouffement grave.",
+        "Ne jamais laisser de fruits à coque entiers à portée : cacahuètes, noisettes, amandes, risque d'étouffement grave.",
         "Vérifier les plantes et produits ménagers : rangés en hauteur, fermés, hors de portée."
       ],
       "principe": "La bouche est son outil de connaissance : on ne l'empêche pas d'explorer, on trie ce qu'elle peut atteindre. Le test du rouleau règle l'essentiel.",
       "erreurs_a_eviter": [
         "Empêcher bébé de porter les objets à sa bouche.",
         "Laisser à portée un objet plus petit qu'un rouleau de papier toilette.",
-        "Laisser accessibles des piles boutons — elles peuvent être mortelles.",
+        "Laisser accessibles des piles boutons : avalées, elles brûlent l'œsophage en quelques heures et peuvent être mortelles.",
         "Laisser des fruits à coque entiers à sa portée."
       ],
-      "consulter_si": "Consulter si : bébé a avalé ou inhalé un objet → appeler immédiatement le 15, surtout en cas de pile bouton, même sans symptôme. Consulter si : il tousse de façon persistante, présente une respiration bruyante ou une gêne à respirer, une salivation soudaine avec difficulté à avaler → le 15 en cas de difficulté à respirer ; sinon, pédiatre sans délai. En cas d'étouffement — silence, absence de toux, changement de couleur → 15 immédiatement.",
-      "source": "Source : ameli.fr (Assurance Maladie) — corps étranger inhalé par fausse route ; 1000-premiers-jours.fr — éviter les accidents domestiques."
+      "consulter_si": "Consulter si : bébé a avalé ou inhalé un objet → appeler immédiatement le 15, surtout en cas de pile bouton, même sans symptôme. Consulter si : il tousse de façon persistante, présente une respiration bruyante ou une gêne à respirer, une salivation soudaine avec difficulté à avaler → le 15 en cas de difficulté à respirer ; sinon, pédiatre sans délai. En cas d'étouffement (silence, absence de toux, changement de couleur) → 15 immédiatement.",
+      "source": "Source : ameli.fr (Assurance Maladie), corps étranger inhalé par fausse route ; 1000-premiers-jours.fr, éviter les accidents domestiques."
     }
   ]
 }

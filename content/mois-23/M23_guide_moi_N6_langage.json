@@ -4,15 +4,15 @@
   "categorie": {
     "id": "langage",
     "ordre": 4,
-    "nom": "Langage & Communication",
-    "sous_titre": "Parler, comprendre, se faire entendre",
+    "nom": "Langage & communication",
+    "sous_titre": "Premiers mots, consignes, se faire comprendre",
     "icone": "💬"
   },
   "protocoles": [
     {
       "categorie": "langage",
-      "situation": "Parle encore très peu pour son âge",
-      "titre": "Le langage / parle encore très peu",
+      "situation": "Le langage qui tarde / Il parle encore très peu pour son âge",
+      "titre": "Ce qui se regarde avant le nombre de mots",
       "explication": "À 23 mois, la fourchette du langage est très large : certains enfants alignent déjà de petites phrases, d'autres n'ont que quelques mots — et les deux sont normaux. En moyenne, vers 2 ans, un enfant utilise autour d'une cinquantaine de mots et commence à en associer deux (« encore lait », « papa parti »), mais ce sont des repères, pas des obligations. Ton enfant comprend souvent bien plus qu'il ne dit : la compréhension précède toujours l'expression. Un enfant calme, qui interagit, pointe et cherche à communiquer construit son langage, même s'il parle peu.",
       "ancrage": "Comparer n'aide pas ; parler avec lui, oui. Ton rôle n'est pas de le faire répéter, mais de baigner ses journées de mots.",
       "action_immediate": {
@@ -56,8 +56,8 @@
     },
     {
       "categorie": "langage",
-      "situation": "Crie et s'énerve quand on ne le comprend pas",
-      "titre": "Se faire comprendre / crie quand on ne le comprend pas",
+      "situation": "Le cri d'incompréhension / Il s'énerve quand je ne comprends pas",
+      "titre": "Reformuler, puis proposer un geste",
       "explication": "À 23 mois, ton enfant a plein d'idées et d'envies… mais pas encore les mots pour les dire. Ce décalage entre ce qu'il veut exprimer et ce qu'il peut prononcer est une source de frustration énorme : il crie, tape, se roule par terre parce qu'il n'arrive pas à se faire comprendre. Ce n'est pas de la comédie : c'est la détresse réelle de buter contre un mur. Plus tu l'aides à mettre des mots ou des gestes sur ses besoins, moins la frustration a besoin d'exploser.",
       "ancrage": "Derrière le cri, un besoin qui cherche à sortir. Ton rôle : deviner, nommer, et lui montrer qu'il existe d'autres façons que le cri de se faire entendre.",
       "action_immediate": {
@@ -100,8 +100,8 @@
     },
     {
       "categorie": "langage",
-      "situation": "Semble ne pas écouter, ne suit pas les consignes",
-      "titre": "La compréhension / semble ne pas écouter les consignes",
+      "situation": "Les consignes non suivies / Il semble ne pas m'écouter",
+      "titre": "Une consigne à la fois, à sa hauteur",
       "explication": "« Il fait la sourde oreille ! » À 23 mois, ton enfant comprend souvent bien plus qu'il n'obéit — mais comprendre et obéir sont deux choses différentes. Il saisit surtout les consignes simples et concrètes (« donne », « viens »), une à la fois, pas les phrases longues ni les demandes en cascade. Et même quand il comprend, il n'a pas encore la maturité pour s'arrêter net dans ce qui l'absorbe. Ignorer une consigne, à cet âge, c'est plus souvent « je suis concentré ailleurs » ou « c'est trop pour moi » que « je te défie ».",
       "ancrage": "Il n'est ni sourd ni insolent : il est petit, concentré ailleurs, et vite dépassé par les consignes trop longues. Simplifie, et tu seras entendu.",
       "action_immediate": {
@@ -144,8 +144,8 @@
     },
     {
       "categorie": "langage",
-      "situation": "Répète tout et teste les gros mots",
-      "titre": "Les mots nouveaux / répète tout et teste les gros mots",
+      "situation": "Les gros mots répétés / Il répète tout et teste les gros mots",
+      "titre": "L'attention entretient, l'indifférence désamorce",
       "explication": "Vers 23 mois, ton enfant devient un perroquet : il répète tout ce qu'il entend et capte les mots au vol — y compris ceux que tu préférerais qu'il n'apprenne pas. C'est un formidable signe : son cerveau enregistre le langage à toute vitesse par imitation. Quand il lâche un gros mot, il n'en comprend en général pas le sens : il a juste remarqué qu'il déclenche une réaction forte. Plus cette réaction est vive (rire ou colère), plus il a envie de recommencer.",
       "ancrage": "Ce n'est pas de la vulgarité, c'est de l'imitation et de la curiosité. Ta réaction — ou ton absence de réaction — décide de la suite.",
       "action_immediate": {

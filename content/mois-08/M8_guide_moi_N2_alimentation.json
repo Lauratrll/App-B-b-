@@ -10,279 +10,327 @@
   "protocoles": [
     {
       "categorie": "alim",
-      "situation": "Il jette systématiquement sa nourriture / jeu ou refus",
-      "titre": "Il jette tout / une expérience, pas une provocation",
-      "explication": "Il prend sa cuillère, la tend au-dessus du bord — et lâche. Puis regarde tomber. Puis recommence. Ce n'est pas de la provocation : c'est une expérience physique passionnante. Il découvre la gravité, la cause et l'effet, et le fait qu'il produit un résultat sur le monde. Réagir avec agacement transforme un apprentissage en jeu de réaction — et là, il recommencera pour voir ta tête. La réponse est double : donner un autre support au geste, et terminer le repas quand jeter remplace manger.",
-      "ancrage": "Il ne te teste pas : il teste la gravité. Ta réaction agacée est précisément ce qui transformerait cela en jeu.",
+      "situation": "La nourriture jetée / Il jette tout par terre",
+      "titre": "Il découvre la gravité",
+      "explication": "Il prend sa cuillère, la tend au-dessus du bord, et lâche. Puis regarde tomber. Puis recommence. Ce geste répétitif est l'une des grandes expériences de cet âge : il découvre que les objets tombent toujours vers le bas, qu'ils font du bruit en arrivant, et surtout qu'il est à l'origine de tout cela. C'est la première fois qu'il produit un effet prévisible sur le monde, et cette découverte-là vaut bien quelques cuillères par terre.",
+      "ancrage": "Ce qu'il fait est un travail, même si cela n'en a pas l'air vu du sol. Tu peux lui rendre ce geste possible ailleurs, et arrêter le repas quand jeter a remplacé manger.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — au moment où il jette",
+        "titre": "Action immédiate : au moment où il jette",
         "etapes": [
-          "Réagir sans expression : ni rire, ni colère — une réaction forte relance le geste.",
-          "Nommer sobrement : « la nourriture reste dans l'assiette ».",
-          "Un tapis sous la chaise : cela retire l'enjeu du désordre.",
-          "Terminer le repas s'il jette au lieu de manger : calmement — le repas s'arrête, sans punition.",
-          "Ne pas ramasser en boucle : rendre l'objet dix fois installe le jeu."
+          "Garder un visage neutre : ni rire ni colère, une réaction forte relance le geste pour la voir encore.",
+          "Nommer sobrement : « la nourriture reste dans l'assiette », une fois, sans commentaire.",
+          "Poser un tapis sous la chaise : cela retire l'enjeu du désordre et détend tout le monde.",
+          "Terminer le repas s'il jette au lieu de manger : calmement, on descend de chaise, sans punition.",
+          "Proposer autre chose ensuite : un panier et des objets à jeter dedans, le geste retrouve un lieu."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — donner un support au geste",
+        "titre": "Geste doux : donner un support au geste",
         "etapes": [
-          "Un temps de lâcher, hors repas : un panier, des objets à jeter dedans — le geste est légitime, le lieu change.",
-          "Des jeux de transvasement : remplir, vider, faire tomber — sous surveillance.",
-          "Nommer ce qu'il découvre : « ça tombe ! » — les mots accompagnent l'expérience.",
-          "Le laisser toucher la nourriture : cela fait partie de l'apprentissage du repas.",
-          "S'arrêter s'il se lasse : quand il détourne, il a fini."
+          "Un temps de lâcher hors repas : un panier, des objets à faire tomber dedans, autant qu'il veut.",
+          "Des jeux de transvasement : remplir, vider, verser d'un contenant à l'autre, sous surveillance.",
+          "Nommer ce qu'il découvre : « ça tombe », les mots accompagnent l'expérience et l'enrichissent.",
+          "Le laisser toucher la nourriture : les mains dans l'assiette font partie de l'apprentissage du repas.",
+          "S'arrêter s'il se lasse : quand il détourne le regard, l'expérience est terminée."
         ]
       },
       "pour_aller_plus_loin": [
-        "Distinguer jeu et refus : s'il jette avant d'avoir mangé, il n'a probablement plus faim.",
-        "Ne pas forcer : la pression au repas installe durablement les difficultés alimentaires.",
-        "Raccourcir les repas : l'attention à cet âge est très limitée.",
-        "Se rappeler que cela passe : la phase dure quelques semaines."
+        "Distinguer le jeu du refus : s'il jette avant d'avoir mangé, c'est le plus souvent qu'il n'a plus faim.",
+        "Laisser l'appétit décider : la pression au repas installe durablement les difficultés alimentaires.",
+        "Raccourcir les repas : l'attention d'un bébé de huit mois se compte en minutes, pas en quarts d'heure.",
+        "Servir de petites quantités : une assiette peu remplie, réapprovisionnée, limite les dégâts sans limiter le repas."
       ],
-      "principe": "Jeter est une expérience de physique, pas une provocation. Ta réaction agacée est ce qui la transformerait en jeu — la réponse est un support ailleurs, et un repas qui s'arrête.",
+      "principe": "Un geste répété chez un tout-petit est presque toujours une expérience en cours, pas un message adressé à l'adulte. La question utile n'est donc pas comment le faire cesser, mais où il peut avoir lieu.",
       "erreurs_a_eviter": [
-        "Se fâcher ou hausser le ton — cela transforme le geste en jeu de réaction.",
-        "Ramasser et rendre l'objet en boucle.",
-        "Forcer bébé à finir après qu'il a commencé à jeter.",
-        "Punir ou taper la main."
+        "Se fâcher ou hausser le ton : la réaction devient le vrai jeu, et il recommencera pour l'obtenir.",
+        "Ramasser et rendre l'objet en boucle : la partie se met en place à deux, et elle ne s'arrête plus.",
+        "Le forcer à finir après qu'il a commencé à jeter : le repas devient un rapport de force qu'il retiendra.",
+        "Punir ou taper la main : à huit mois il ne fait aucun lien entre son geste et la sanction, il n'en retient que la peur."
       ],
       "consulter_si": "Consulter si : bébé refuse de manger depuis plusieurs jours, ne prend pas de poids, si sa courbe casse, s'il vomit de façon répétée, ou si les repas deviennent une source de conflit permanent → pédiatre, médecin traitant ou PMI.",
-      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'exploration de bébé et les étapes du développement."
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), l'exploration de bébé et les étapes du développement."
     },
     {
       "categorie": "alim",
-      "situation": "Haut-le-cœur sur un morceau / différencier de l'étouffement",
-      "titre": "Haut-le-cœur ou étouffement / les deux tableaux",
-      "explication": "Avec les morceaux, la question devient centrale — et elle mérite d'être connue par cœur, parce que deux situations très proches appellent des réactions opposées. Le haut-le-cœur est protecteur : il tousse, il fait du bruit, ses yeux larmoient, il recrache. Il gère seul, et on ne touche à rien. L'étouffement est silencieux : il ne tousse pas, n'émet aucun son, ne respire plus, sa couleur change. C'est une urgence vitale immédiate. Et certains aliments ne se donnent jamais entiers, quel que soit son âge.",
-      "ancrage": "S'il tousse, il se protège — on ne touche à rien. S'il est silencieux et change de couleur, c'est le 15, immédiatement.",
+      "situation": "Le haut-le-cœur sur un morceau / J'ai eu très peur",
+      "titre": "S'il fait du bruit, il gère",
+      "explication": "Il a toussé, ses yeux ont larmoyé, il a recraché, et ton cœur s'est arrêté. Ce qui vient de se passer est un réflexe de protection : chez un tout-petit, la zone qui le déclenche se situe très en avant sur la langue, ce qui rend l'épisode fréquent et spectaculaire, et c'est justement ce réflexe qui évacue le morceau. L'étouffement, lui, ne fait aucun bruit : rien ne passe, donc rien ne sonne. S'ajoute à cela une question de forme, car certains aliments ronds et fermes ont exactement le diamètre d'une trachée d'enfant.",
+      "ancrage": "Un enfant qui tousse à table est un enfant dont les voies respiratoires sont ouvertes. Ce que tu dois savoir reconnaître tient en une phrase : du bruit, tu restes à côté ; le silence avec un changement de couleur, tu appelles le 15.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — reconnaître, puis agir",
+        "titre": "Action immédiate : reconnaître, puis agir",
         "etapes": [
-          "Il tousse, fait du bruit, larmoie : c'est un haut-le-cœur — il gère, on ne fait rien, on reste calme.",
-          "Ne pas le tapoter, ne pas mettre les doigts dans sa bouche : cela peut enfoncer l'aliment.",
-          "Il est silencieux, ne tousse pas, ne respire plus, change de couleur : c'est un étouffement.",
-          "Appeler immédiatement le 15 ou le 112 : sans attendre, téléphone en haut-parleur.",
-          "Suivre les instructions du 15 : les secours guident les gestes de désobstruction au téléphone."
+          "Bruit, toux, larmes : il évacue tout seul, tu restes assise à côté de lui, calme et visible.",
+          "Ne rien mettre dans sa bouche : un doigt qui cherche le morceau l'enfonce plus souvent qu'il ne le sort.",
+          "Ne pas taper dans le dos tant qu'il tousse : la toux dégage mieux que n'importe quel geste.",
+          "Silence et lèvres qui changent de couleur : pas de toux, pas un son, c'est une urgence vitale.",
+          "Appeler le 15 ou le 112 en haut-parleur : les secours dictent la manœuvre en direct, pas à pas."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — les aliments à bannir",
+        "titre": "Geste doux : les formes qui bouchent",
         "etapes": [
-          "Jamais de grain de raisin entier : coupé en quatre, dans le sens de la longueur — c'est un des aliments les plus dangereux.",
-          "Jamais de fruits à coque entiers : cacahuète, noisette, amande — en poudre ou en purée fine seulement.",
-          "Jamais de saucisse ou de rondelle : tout ce qui est rond et de la taille d'une trachée se coupe en longueur.",
-          "Attention à la tomate cerise, aux morceaux de pomme crue, aux cubes de fromage : coupés petits, jamais ronds.",
+          "Le grain de raisin : jamais entier, coupé en quatre dans le sens de la longueur.",
+          "Les fruits à coque : jamais entiers avant plusieurs années, en poudre ou en purée fine seulement.",
+          "Tout ce qui est rond et ferme : saucisse, tomate cerise, cube de fromage, coupés en longueur, jamais en rondelles.",
+          "La pomme et la carotte crues : râpées ou cuites, un morceau dur se casse en éclats qui bloquent.",
           "Toujours assis, tronc droit, surveillé : jamais en mouvement, jamais en voiture, jamais seul."
         ]
       },
       "pour_aller_plus_loin": [
-        "Se former aux gestes qui sauvent : une formation aux premiers secours est le meilleur investissement de cette période.",
-        "Ne jamais improviser une manœuvre : un geste mal exécuté sur un bébé peut aggraver la situation — c'est le 15 qui guide.",
-        "Afficher les numéros : 15 et 112, visibles dans la cuisine.",
-        "Après tout épisode d'étouffement : même résolu, un avis médical s'impose."
+        "Couper autrement les aliments ronds et fermes : raisins et tomates cerises en quatre dans la longueur, saucisse coupée en bâtonnets et non en rondelles.",
+        "Écarter jusqu'à cinq ans : fruits à coque entiers, bonbons durs, morceaux de pomme crue, pop-corn.",
+        "Suivre une formation aux gestes qui sauvent : quelques heures suffisent, et beaucoup de communes en organisent gratuitement.",
+        "Afficher le 15 et le 112 dans la cuisine : visibles et lisibles par n'importe quelle personne présente."
       ],
-      "principe": "Un bébé qui tousse se protège : on ne fait rien. Un bébé silencieux qui change de couleur s'étouffe : c'est le 15. Et le raisin entier, les fruits à coque et tout ce qui est rond ne se donnent jamais.",
+      "principe": "Le bruit est le meilleur signe de sécurité qui existe à table. Un enfant silencieux au moment où il devrait faire du bruit est la seule situation qui demande d'agir dans la seconde.",
       "erreurs_a_eviter": [
-        "Donner un grain de raisin entier, un fruit à coque, une rondelle de saucisse.",
-        "Mettre les doigts dans sa bouche pour retirer un aliment.",
-        "Tapoter le dos d'un bébé qui tousse — il gère, on ne l'interrompt pas.",
-        "Nourrir bébé en mouvement, en voiture, ou sans surveillance."
+        "Donner un grain de raisin entier, un fruit à coque ou une rondelle de saucisse : ces formes épousent le diamètre d'une trachée d'enfant.",
+        "Introduire un doigt dans sa bouche pour retirer un aliment : le geste repousse le morceau vers le fond.",
+        "Revenir aux textures lisses après chaque épisode : le réflexe s'apprivoise en mangeant, il ne disparaît pas en évitant.",
+        "Le laisser manger dans la voiture ou en marchant : personne ne le voit, et le mouvement multiplie les fausses routes."
       ],
-      "consulter_si": "Consulter si : bébé s'étouffe — silence, absence de toux, difficulté à respirer, changement de couleur → appeler immédiatement le 15 ou le 112. Après tout épisode d'étouffement, même résolu, ou en cas de toux persistante, de respiration bruyante ou de gêne qui suit un repas → consulter sans délai : un fragment peut être resté dans les voies respiratoires.",
-      "source": "Source : ANSES (avis sur l'alimentation des enfants de 0 à 3 ans) et ameli.fr — aliments à risque de fausse route et corps étranger inhalé."
+      "consulter_si": "Consulter si : bébé devient silencieux en mangeant, ne tousse plus, change de couleur, ou paraît chercher son air → appeler le 15 ou le 112 immédiatement, en haut-parleur. Après tout épisode important, même si l'aliment est ressorti et qu'il va bien → faire examiner bébé le jour même.",
+      "source": "Source : ANSES, avis relatif aux risques d'étouffement liés aux aliments chez l'enfant de moins de 5 ans."
     },
     {
       "categorie": "alim",
-      "situation": "Il boit mal à la tasse / l'eau au repas s'installe",
-      "titre": "La tasse / apprendre par imitation, sans forcer",
-      "explication": "Avec les solides, l'eau devient nécessaire — et la tasse s'apprend. Il la renverse, la mordille, la jette, en boit trois gouttes. C'est normal : boire à la tasse demande une coordination nouvelle, et cela prend des semaines. Deux points comptent. D'abord, l'eau est la seule boisson nécessaire : ni jus, ni sirop, ni boisson sucrée, jamais. Ensuite, on n'apprend pas en forçant les quantités : on apprend par imitation, en proposant à chaque repas, et en acceptant qu'il en boive très peu au début.",
-      "ancrage": "L'eau est la seule boisson dont il a besoin. La tasse s'apprend par imitation, sur des semaines — jamais en forçant les quantités.",
+      "situation": "L'apprentissage de la tasse / Il renverse tout",
+      "titre": "Cela s'apprend par imitation",
+      "explication": "Il la renverse, la mordille, la jette, en boit trois gouttes. Boire à la tasse demande une coordination entièrement nouvelle : incliner sans trop incliner, avaler pendant que le liquide arrive, respirer entre deux gorgées. Rien de tout cela n'est automatique, et l'apprentissage prend des semaines. Avec les solides, l'eau devient nécessaire, et c'est la seule boisson dont il ait besoin : les boissons sucrées n'apportent rien qu'il ne trouve déjà ailleurs.",
+      "ancrage": "Trois gorgées et une flaque, c'est une tasse réussie à cet âge. Tu peux la poser sur la table sans rien attendre de plus : les quantités viendront toutes seules.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — proposer sans forcer",
+        "titre": "Action immédiate : proposer sans forcer",
         "etapes": [
-          "Proposer à chaque repas : un peu d'eau, dans une tasse ou un verre — depuis le début de la diversification.",
-          "Le laisser manipuler : la tenir, la renverser, la mordiller — cela fait partie de l'apprentissage.",
-          "Boire devant lui : l'imitation est le principal moteur.",
-          "De petites quantités : quelques gorgées suffisent au début.",
-          "Ne jamais forcer : ni la quantité, ni la tenue de la tasse."
+          "Proposer à chaque repas : un peu d'eau, dans une tasse ou un verre, sans attendre qu'il réclame.",
+          "Le laisser manipuler : la tenir, la renverser, la mordiller, tout cela fait partie de l'apprentissage.",
+          "Boire devant lui : l'imitation est de loin le principal moteur à cet âge.",
+          "De petites quantités : quelques gorgées suffisent, on remplit peu et on remplit souvent.",
+          "S'arrêter quand il repousse : on repropose au repas suivant, sans y revenir."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — installer le geste",
+        "titre": "Geste doux : installer le geste",
         "etapes": [
-          "Une tasse simple : légère, à deux anses, sans valve compliquée qui demande une succion forte.",
+          "Une tasse simple : légère, à deux anses, sans valve qui demande une succion forte.",
           "L'aider sans faire à sa place : soutenir le fond de la tasse, sans la tenir pour lui.",
-          "Bébé assis, tronc droit : toujours, et toujours surveillé.",
-          "Un tapis sous la chaise : cela retire l'enjeu du désordre.",
-          "S'arrêter s'il se braque : on repropose au repas suivant."
+          "Bébé assis, tronc droit : toujours, et toujours sous surveillance d'un adulte.",
+          "Un tapis sous la chaise : cela retire l'enjeu du désordre, pour lui comme pour toi.",
+          "S'arrêter s'il se braque : la tasse doit rester un objet agréable, pas un exercice."
         ]
       },
       "pour_aller_plus_loin": [
-        "Retenir la règle : l'eau est la seule boisson nécessaire — jamais de jus, de sirop, ni de boisson sucrée.",
-        "Proposer davantage en cas de chaleur ou de fièvre : l'eau se propose plus souvent.",
-        "Le lait reste la base : au moins 500 ml par jour jusqu'à un an — l'eau s'ajoute, elle ne remplace pas.",
-        "Se rappeler que cela prend des semaines : la coordination de la tasse est un apprentissage long."
+        "Retenir la règle : l'eau est la seule boisson nécessaire, avant comme après un an.",
+        "En proposer davantage par temps chaud ou en cas de fièvre : les besoins montent vite chez un tout-petit.",
+        "Garder le lait au centre : au moins 500 ml par jour jusqu'à un an, l'eau s'ajoute, elle ne remplace pas.",
+        "Compter en semaines : la coordination de la tasse est un apprentissage long, et il aboutit toujours."
       ],
-      "principe": "L'eau est la seule boisson nécessaire, et la tasse s'apprend par imitation. Forcer les quantités n'accélère rien — proposer à chaque repas, si.",
+      "principe": "Une compétence de bouche s'installe par exposition répétée, pas par insistance. Ce qui compte, c'est le nombre de fois où la tasse est là, pas ce qu'il y a bu.",
       "erreurs_a_eviter": [
-        "Donner des jus de fruits, du sirop ou une boisson sucrée.",
-        "Forcer bébé à boire une quantité définie.",
-        "Remplacer une partie du lait par de l'eau.",
-        "Proposer une boisson sucrée dans un biberon — l'eau est la seule boisson qui n'expose pas les dents au sucre."
+        "Donner du jus de fruits, du sirop ou une boisson sucrée : le goût du sucré s'installe vite, et il expose ses premières dents.",
+        "Forcer une quantité définie : la contrainte associe la tasse à un moment désagréable, et l'apprentissage recule.",
+        "Remplacer une partie du lait par de l'eau : le lait reste sa principale source de calcium et d'énergie jusqu'à un an.",
+        "Multiplier les modèles de tasses : changer d'objet chaque semaine relance l'apprentissage à zéro."
       ],
       "consulter_si": "Consulter si : bébé refuse toute boisson, mouille très peu ses couches, présente une bouche sèche, une fontanelle creuse, une somnolence anormale, ou de la fièvre avec un refus de boire → appeler le 15 en cas de signes de déshydratation ; sinon, pédiatre ou médecin traitant sans délai.",
-      "source": "Source : ameli.fr (Assurance Maladie) — l'alimentation de l'enfant de 8 mois à 3 ans : des repas équilibrés et bien répartis."
+      "source": "Source : ameli.fr (Assurance Maladie), l'alimentation de l'enfant de 8 mois à 3 ans : des repas équilibrés et bien répartis."
     },
     {
       "categorie": "alim",
-      "situation": "Il refuse de manger chez la nounou / mais mange bien à la maison",
-      "titre": "Il ne mange pas chez la nounou / c'est de la sécurité, pas du goût",
-      "explication": "Il mange très bien à la maison, et refuse chez la personne qui le garde. Le réflexe est de changer les menus. Mais le problème n'est presque jamais la nourriture : manger, c'est s'abandonner — on doit se sentir suffisamment en sécurité pour lâcher prise. Chez un adulte encore peu familier, en pleine phase d'angoisse de séparation, cette sécurité n'est pas là. Ce qui se transmet, ce ne sont donc pas des recettes : ce sont les repères du repas — la position, les mots, le rythme, l'objet familier.",
-      "ancrage": "Il ne refuse pas la nourriture : il refuse de lâcher prise. Ce qui se transmet, ce sont les repères — pas les menus.",
+      "situation": "Les régurgitations / Il rend encore, assis à table",
+      "titre": "Le mot reflux, et ce qu'il change",
+      "explication": "Autour de toi, quelqu'un a fini par poser le mot : reflux. Et avec le mot arrivent les conseils, les marques de lait, parfois le médicament d'un cousin. Voilà ce qu'on peut en dire. Chez un bébé qui grossit bien, qui mange, qui dort et qui n'a pas mal, ce qu'on appelle un reflux simple ne demande aucun médicament. C'est la position de la Haute Autorité de Santé, et elle est claire. Ce n'est pas de la négligence, c'est l'inverse : donner un traitement inutile à un nourrisson n'est jamais neutre. Et le temps travaille pour vous. Il ne reste des régurgitations que chez cinq pour cent des enfants entre dix et douze mois, au moment où ils se mettent debout et se déplacent. Vous êtes à quelques mois de la fin.",
+      "ancrage": "Le mot fait peur et il ne change rien à ce que tu vois. C'est ton bébé qu'on regarde, pas une étiquette.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — transmettre les repères",
+        "titre": "Action immédiate : répondre au mot reflux",
         "etapes": [
-          "Écrire le déroulé du repas : position, ordre, mots utilisés, rythme — à transmettre tel quel.",
-          "Transmettre ses signaux : comment il montre qu'il a faim, qu'il a fini, qu'il en a assez.",
-          "Confier un objet familier : un bavoir, une cuillère, une tasse — les mêmes qu'à la maison.",
-          "Demander qu'on ne le force jamais : la pression au repas aggrave tout, surtout en adaptation.",
-          "Accepter qu'il mange peu : le lait couvre l'essentiel de ses besoins — au moins 500 ml par jour."
+          "Revenir à ce que tu observes : son poids, son sommeil, ses repas, sa douleur. Ce sont les seuls critères.",
+          "Ne rien prendre dans une pharmacie familiale : aucun médicament d'un autre enfant ne se donne au tien.",
+          "Alléger la portion du soir : un estomac plein juste avant le coucher remonte davantage.",
+          "Le garder droit après le repas : 20 à 30 minutes, avant tout jeu au sol.",
+          "Poser la question au médecin, pas au groupe : c'est lui qui pose un nom, s'il y a un nom à poser."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — soutenir l'adaptation",
+        "titre": "Observer bébé : ce qui compte vraiment",
         "etapes": [
-          "Un temps de familiarisation : plus long à cet âge, à cause de l'angoisse de séparation.",
-          "Un rituel de départ court : une phrase, un baiser, et on part — toujours les mêmes.",
-          "Des retrouvailles pleines : une demi-heure sans écran ni tâche.",
-          "Compenser à la maison : proposer un repas complet au retour, sans culpabiliser.",
-          "S'arrêter s'il se braque : le repas ne se force jamais, nulle part."
+          "Sa courbe de poids : elle monte régulièrement, c'est le critère le plus rassurant qui existe.",
+          "Son sommeil : il dort comme avant, ou ses nuits se sont hachées depuis ?",
+          "Ses repas : il mange avec appétit, ou il se détourne et se cambre ?",
+          "Sa respiration : une toux qui revient à chaque repas se raconte au médecin.",
+          "Sa journée : un bébé qui joue et qui rit entre deux remontées n'est pas un bébé qui souffre."
         ]
       },
       "pour_aller_plus_loin": [
-        "Faire un point régulier avec la personne qui garde : sans reproche, en cherchant ensemble.",
-        "Ne pas changer les menus en panique : le problème n'est pas le goût.",
-        "Surveiller les indicateurs : couches mouillées, courbe de poids, énergie.",
-        "Compter en semaines : cela s'améliore en général en une à trois semaines."
+        "Retenir la position officielle : un reflux simple, chez un enfant qui va bien, ne demande aucun médicament.",
+        "Se rappeler la trajectoire : il n'en reste plus que cinq pour cent des enfants entre dix et douze mois.",
+        "Ne rien surélever soi-même : coussins, cales et matelas inclinés augmentent le risque d'étouffement.",
+        "Laisser le médecin nommer : un mot posé par un proche n'engage rien, un avis rendu après examen, si."
       ],
-      "principe": "Manger demande de se sentir en sécurité. Ce qui débloque, ce ne sont pas de nouveaux menus : ce sont les repères familiers du repas, transmis tels quels.",
+      "principe": "Un mot posé par l'entourage n'engage personne, et même nommé par un médecin, ce que vit ton bébé n'appelle pas forcément un traitement. Ce qui décide, c'est l'enfant qu'on a devant soi.",
       "erreurs_a_eviter": [
-        "Changer les menus en espérant qu'il mangera.",
-        "Demander qu'on le force à finir.",
-        "Culpabiliser la personne qui garde.",
-        "Conclure qu'il n'aime pas être gardé."
+        "Donner à ton bébé un médicament destiné à un autre enfant, même de la famille.",
+        "Changer de lait, sa dose ou sa dilution de sa propre initiative : cela se décide avec un médecin, jamais devant un rayon.",
+        "Surélever la tête du lit, incliner son matelas ou glisser une cale dessous : ces montages augmentent le risque d'étouffement.",
+        "Multiplier les avis sur les réseaux jusqu'à en trouver un qui inquiète."
+      ],
+      "consulter_si": "Consulter si : ton bébé fait un malaise, devient tout mou, bleuit autour des lèvres ou peine à respirer pendant une remontée, ou si ce qui remonte est verdâtre ou contient du sang → appeler immédiatement le 15. Consulter si, par ailleurs : il pleure fort pendant ou après les repas, s'il refuse de boire, si sa courbe de poids casse, s'il vomit en jet, ou si une toux ou une gêne respiratoire reviennent → pédiatre ou médecin traitant sans attendre. Consulter aussi si : les régurgitations durent encore au-delà de son premier anniversaire → en parler au médecin.",
+      "source": "Source : un reflux simple ne nécessite aucun traitement médicamenteux chez un nourrisson qui va bien, Haute Autorité de Santé, fiche pertinence « Reflux gastro-œsophagien chez l'enfant de moins d'un an », 2024 ; régurgitations chez 5 % des enfants de 10 à 12 mois, Assurance Maladie, ameli.fr, définition et causes du reflux gastro-œsophagien du nourrisson."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Le refus de manger en garde / Il mange bien à la maison",
+      "titre": "Ce n'est pas le menu, c'est la sécurité",
+      "explication": "Il mange très bien à la maison et refuse chez la personne qui le garde. Manger demande quelque chose qu'on oublie souvent : s'abandonner. Il faut cesser de surveiller son environnement pour se concentrer sur sa bouche, et cela ne se fait que lorsqu'on se sent assez en sécurité. Chez un adulte encore peu familier, en plein pic de l'angoisse de séparation, cette sécurité n'est pas encore là. Ce n'est donc pas son appétit qui est en cause, c'est son niveau de vigilance.",
+      "ancrage": "Il ne refuse pas la nourriture, il refuse de baisser la garde. Ce qui se transmet à la personne qui le garde, ce sont ses repères, pas des recettes.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : transmettre les repères",
+        "etapes": [
+          "Écrire le déroulé du repas : position, ordre, mots utilisés, rythme, à transmettre tel quel.",
+          "Transmettre ses signaux : comment il montre qu'il a faim, qu'il a fini, qu'il en a assez.",
+          "Confier un objet familier : un bavoir, une cuillère, une tasse, les mêmes qu'à la maison.",
+          "Demander qu'on respecte son appétit : la pression au repas aggrave tout, et plus encore en adaptation.",
+          "Accepter qu'il mange peu : le lait couvre l'essentiel de ses besoins, au moins 500 ml par jour."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : soutenir l'adaptation",
+        "etapes": [
+          "Un temps de familiarisation plus long : à cet âge, l'angoisse de séparation rallonge toutes les adaptations.",
+          "Un rituel de départ court : une phrase, un baiser, et on part, toujours les mêmes.",
+          "Des retrouvailles pleines : une demi-heure sans écran ni tâche ménagère.",
+          "Un repas complet au retour : sans rattrapage anxieux, simplement parce qu'il a faim.",
+          "S'arrêter s'il se braque : le repas ne se force nulle part, ni chez toi ni ailleurs."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Faire un point régulier avec la personne qui garde : sans reproche, en cherchant ensemble ce qui bloque.",
+        "Regarder les indicateurs plutôt que les quantités : couches mouillées, courbe de poids, énergie de la journée.",
+        "Compter en semaines : cela s'améliore en général en une à trois semaines, à mesure que l'adulte devient familier.",
+        "Demander qu'il mange près des autres enfants : l'imitation débloque souvent ce que rien d'autre ne débloque."
+      ],
+      "principe": "Un enfant mange là où il se sent en sécurité, et son appétit suit ce sentiment de sécurité avant de suivre le contenu de l'assiette. C'est pour cela qu'il mange d'abord avec les gens qu'il connaît, et seulement ensuite avec les autres.",
+      "erreurs_a_eviter": [
+        "Changer les menus en espérant qu'il mangera : le goût n'est pas en cause, et le changement ajoute de l'inconnu.",
+        "Demander qu'on le force à finir : la contrainte prolonge exactement la méfiance qu'on cherche à lever.",
+        "Reprocher la situation à la personne qui garde : un adulte sur la défensive devient moins disponible, et le repas se durcit.",
+        "Conclure qu'il ne supporte pas d'être gardé : c'est le repas qui coince, pas la garde."
       ],
       "consulter_si": "Consulter si : bébé refuse de manger et de boire chez la personne qui garde pendant plusieurs jours, s'il perd du poids, si sa courbe casse, s'il mouille très peu ses couches, ou s'il paraît éteint ou apathique → pédiatre, médecin traitant ou PMI.",
-      "source": "Source : ameli.fr (Assurance Maladie) — l'alimentation de l'enfant de 8 mois à 3 ans : des repas équilibrés et bien répartis."
+      "source": "Source : ameli.fr (Assurance Maladie), l'alimentation de l'enfant de 8 mois à 3 ans : des repas équilibrés et bien répartis."
     },
     {
       "categorie": "alim",
-      "situation": "Le transit se dérègle / selles molles depuis les nouveaux aliments",
-      "titre": "Les selles molles / lire le transit, ne rien éliminer",
-      "explication": "Depuis les nouveaux aliments, ses selles sont molles, plus fréquentes, parfois avec des morceaux visibles. C'est fréquent : la flore intestinale se réorganise, et certains aliments transitent presque tels quels — voir un morceau de carotte dans la couche ne signifie pas qu'il n'a rien absorbé. Ce qui se fait : introduire un aliment à la fois, attendre, observer. Ce qui ne se fait jamais : éliminer une famille entière d'aliments de sa propre initiative. Une exclusion inutile appauvrit l'alimentation, et masque parfois autre chose.",
-      "ancrage": "Un transit qui bouge apprend. Éliminer une famille d'aliments seul.e appauvrit son alimentation sans rien régler.",
+      "situation": "Les selles molles / Son transit a changé avec les repas",
+      "titre": "Lire avant d'exclure quoi que ce soit",
+      "explication": "Depuis les nouveaux aliments, ses selles sont molles, plus fréquentes, parfois avec des morceaux visibles. Sa flore intestinale est en pleine réorganisation : elle apprend à traiter des aliments qu'elle n'avait jamais rencontrés, et cela prend plusieurs semaines. Voir un morceau de carotte dans la couche ne signifie pas qu'il n'a rien absorbé, seulement que les fibres, elles, traversent. Ce qui distingue ce réglage d'une vraie diarrhée : la diarrhée est liquide, très fréquente, et elle déshydrate.",
+      "ancrage": "Un transit qui bouge est un transit qui apprend. Tu as le temps d'observer avant de conclure, et retirer un aliment est la dernière chose à faire, pas la première.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — observer sans exclure",
+        "titre": "Action immédiate : observer avant de conclure",
         "etapes": [
-          "Un aliment nouveau à la fois : c'est la seule façon de lire ce qui réagit.",
-          "Attendre trois jours : avant d'en introduire un autre.",
-          "Noter précisément : aliment, heure, aspect des selles, durée.",
-          "Distinguer selles molles et diarrhée : une diarrhée est liquide, très fréquente, et peut déshydrater.",
-          "Ne rien exclure sans avis : les exclusions se décident avec un médecin."
+          "Un aliment nouveau à la fois : c'est la seule façon de savoir ce qui réagit.",
+          "Attendre trois jours : avant d'en introduire un autre, le transit a besoin de ce délai.",
+          "Noter précisément : aliment, heure, aspect des selles, durée, c'est ce que le médecin lira.",
+          "Distinguer selles molles et diarrhée : liquide et très fréquente, la diarrhée change de catégorie.",
+          "Proposer de l'eau plus souvent : des selles fréquentes font perdre plus d'eau que d'habitude."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — soutenir le transit",
+        "titre": "Réflexologie : apaiser le ventre",
         "etapes": [
-          "Proposer de l'eau : à chaque repas, et davantage en cas de selles fréquentes.",
-          "Beaucoup de mouvement au sol : il soutient le transit mieux que n'importe quel geste.",
-          "Soin du siège : nettoyer à l'eau, sécher en tamponnant, laisser respirer — les selles molles irritent vite.",
-          "Un émollient protecteur : sur le siège, à chaque change, en prévention.",
-          "S'arrêter dès qu'il se crispe : le soin doit rester bref."
-        ]
+          "Ce que ça apaise : l'inconfort d'un transit qui se réorganise.",
+          "Le bon moment : à distance des repas, dans le calme."
+        ],
+        "lien_reflexologie": {
+          "id": "inconfort-digestif",
+          "titre": "Inconfort digestif"
+        }
       },
       "pour_aller_plus_loin": [
-        "Ne jamais éliminer une famille d'aliments seul.e : gluten, lait, œuf — ces exclusions se décident avec un médecin.",
+        "Protéger le siège : nettoyer à l'eau, sécher en tamponnant, et un émollient à chaque change, les selles molles irritent vite.",
         "Repérer les signes de déshydratation : couches très peu mouillées, bouche sèche, somnolence, yeux cernés.",
-        "Ne pas donner de médicament antidiarrhéique sans avis médical.",
-        "En parler si cela dure : au-delà de quelques jours, cela se montre."
+        "Beaucoup de mouvement au sol : le mouvement libre soutient le transit mieux que n'importe quel geste.",
+        "Le montrer si cela dure : au-delà de quelques jours, cela se regarde plutôt que cela ne s'interprète."
       ],
-      "principe": "Un transit qui se réorganise est un transit qui apprend. Les exclusions décidées seul.e appauvrissent l'alimentation, masquent parfois autre chose — et ne règlent rien.",
+      "principe": "Une exclusion alimentaire décidée seule appauvrit l'assiette d'un enfant en pleine construction, et elle masque parfois la vraie cause. C'est pour cela qu'elle se décide avec un médecin, jamais à la maison.",
       "erreurs_a_eviter": [
-        "Éliminer le gluten, le lait ou une autre famille d'aliments sans avis médical.",
-        "Introduire plusieurs aliments nouveaux le même jour.",
-        "Donner un médicament antidiarrhéique sans avis.",
-        "Réduire les boissons parce que les selles sont molles."
+        "Éliminer le gluten, le lait ou une autre famille d'aliments sans avis médical : l'exclusion se voit sur la croissance, et elle brouille la piste de celui qui cherchera ensuite.",
+        "Introduire plusieurs aliments nouveaux le même jour : en cas de réaction, plus rien n'est identifiable.",
+        "Donner un médicament antidiarrhéique sans avis : la plupart sont contre-indiqués chez le tout-petit.",
+        "Réduire les boissons parce que les selles sont molles : c'est exactement le moment où il en a le plus besoin."
       ],
       "consulter_si": "Consulter si : les selles deviennent liquides et très fréquentes, si bébé vomit, refuse de boire, mouille très peu ses couches, présente une bouche sèche, une somnolence anormale, du sang dans les selles, de la fièvre, ou s'il perd du poids → appeler le 15 en cas de signes de déshydratation ; sinon, pédiatre ou médecin traitant sans délai.",
-      "source": "Source : ameli.fr (Assurance Maladie) — troubles du transit de l'enfant : que faire et quand consulter."
+      "source": "Source : ameli.fr (Assurance Maladie), troubles du transit de l'enfant : que faire et quand consulter."
     },
     {
       "categorie": "alim",
-      "situation": "Il se tortille après le biberon du soir / inconfort digestif",
-      "titre": "L'inconfort du soir / le rot, le débit, la position",
-      "explication": "Après le biberon du soir, il se tortille, grogne, se cambre. Le réflexe le plus courant est de changer de lait. C'est presque toujours une mauvaise piste — et c'est un geste qui ne se décide jamais seul. Trois leviers, dans cet ordre : le rot, pris sans hâte et éventuellement en cours de biberon ; le débit de la tétine, qui fait avaler plus ou moins d'air ; et la position, redressée pendant et après la prise. Ces trois ajustements règlent la grande majorité des inconforts du soir.",
-      "ancrage": "Avant de changer de lait — ce qui ne se décide jamais seul — il y a trois leviers : le rot, le débit, la position.",
+      "situation": "L'inconfort du soir / Il se tortille après son biberon",
+      "titre": "Le rot, le débit, la position",
+      "explication": "Après le biberon du soir, il se tortille, grogne, se cambre. Le soir est le moment où tout se cumule : la fatigue de la journée, un système digestif encore jeune, et souvent une prise plus rapide parce qu'il est énervé. Or plus un bébé boit vite et agité, plus il avale d'air, et cet air se paie ensuite. Trois réglages suffisent dans la grande majorité des cas, et ils sont entre tes mains : le rot, le débit de la tétine, et la position pendant et après la prise.",
+      "ancrage": "Ce n'est pas le lait qu'on change en premier, c'est la façon dont il le boit. Un lait infantile ne se change pas de sa propre initiative, et cela vaut aussi pour revenir en arrière.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — les trois leviers",
+        "titre": "Action immédiate : les trois réglages",
         "etapes": [
-          "Le rot, sans hâte : bébé vertical, dos droit, main à plat entre les omoplates — et une pause en cours de biberon.",
-          "Vérifier le débit : une tétine trop rapide fait avaler beaucoup d'air ; trop lente, elle le fatigue.",
-          "Position redressée : pendant la prise, et un moment après — sans le remuer.",
-          "Un environnement calme : un bébé énervé avale plus d'air.",
-          "Ne pas forcer la fin du biberon : cela casse son signal de satiété."
+          "Le rot sans hâte : bébé vertical, dos droit, main à plat entre les omoplates, avec une pause en cours de biberon.",
+          "Vérifier le débit : une tétine trop rapide fait avaler beaucoup d'air, trop lente elle le fatigue.",
+          "Position redressée : pendant la prise et un moment après, sans le remuer.",
+          "Un environnement calme : un bébé énervé boit vite et avale plus d'air.",
+          "Le laisser s'arrêter quand il a fini : forcer les dernières gorgées casse son signal de satiété."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — confort du ventre",
+        "titre": "Réflexologie : détendre le ventre",
         "etapes": [
-          "Bébé sur le dos : plan ferme, jambes libres, pièce calme.",
-          "Flexion douce des jambes : ramener lentement ses genoux vers son ventre, puis relâcher.",
-          "Main posée sur le ventre : ta paume réchauffée, immobile, pression douce et constante.",
-          "Vêtements desserrés : vérifier qu'aucun élastique ne comprime son ventre.",
-          "S'arrêter dès qu'il se crispe : sa réaction est la seule mesure."
-        ]
+          "Ce que ça apaise : le ventre tendu de l'après-biberon.",
+          "Le bon moment : une bonne demi-heure après la prise, pas juste après."
+        ],
+        "lien_reflexologie": {
+          "id": "inconfort-digestif",
+          "titre": "Inconfort digestif"
+        }
       },
       "pour_aller_plus_loin": [
-        "Ne jamais changer de lait seul.e : la composition et la dilution engagent sa santé — cela se décide avec un médecin.",
-        "Ne rien épaissir ni ajouter : ni céréales, ni farine, sans avis médical.",
+        "Desserrer ses vêtements : vérifier qu'aucun élastique ne comprime son ventre au moment de la prise.",
         "Décaler le biberon du soir : un peu plus tôt, hors de la fenêtre de fatigue maximale.",
-        "Distinguer fatigue et ventre : à huit mois, la sur-fatigue provoque des soirées qui ressemblent à de l'inconfort digestif."
+        "Distinguer la fatigue du ventre : à huit mois, la sur-fatigue provoque des soirées qui ressemblent beaucoup à de l'inconfort digestif.",
+        "Faire valider tout changement de lait : la composition et la dilution engagent sa santé, et le retour en arrière est un changement de plus."
       ],
-      "principe": "Trois leviers avant tout le reste : le rot, le débit, la position. Un lait infantile ne se change jamais de sa propre initiative.",
+      "principe": "L'air avalé pendant une prise se paie toujours après, et c'est le rythme de la tétée qui décide de la quantité. Un inconfort du soir se règle donc pendant le biberon, pas une fois qu'il est fini.",
       "erreurs_a_eviter": [
-        "Changer de lait sur conseil d'un proche, d'un vendeur ou d'un forum.",
-        "Ajouter des céréales ou de la farine dans le biberon sans avis médical.",
-        "Donner un médicament ou un remède anti-gaz sans avis.",
-        "Le laisser boire seul, allongé et sans surveillance — le biberon du coucher se donne dans les bras, éveillé."
+        "Changer de lait sur conseil d'un proche, d'un vendeur ou d'un forum : l'estomac met une à deux semaines à se réhabituer, et le transit se dérègle davantage entre-temps.",
+        "Ajouter des céréales ou de la farine dans le biberon sans avis médical : cela modifie la densité de la préparation et n'a rien d'anodin.",
+        "Donner un remède anti-gaz sans avis : la plupart n'ont pas fait la preuve de leur efficacité chez le nourrisson.",
+        "Le laisser boire seul et allongé : le risque de fausse route et d'otite augmente, et le biberon du soir se donne dans les bras, éveillé."
       ],
       "consulter_si": "Consulter si : bébé pleure de douleur après chaque prise, refuse de boire, vomit en jet, présente du sang ou de la bile, un ventre dur et tendu, une toux ou une gêne respiratoire pendant les prises, ou si sa courbe de poids casse → pédiatre sans attendre ; le 15 en cas de malaise ou de difficulté à respirer.",
-      "source": "Source : Haute Autorité de Santé — « Reflux du nourrisson : un médicament est-il nécessaire ? », document destiné aux parents (2024)."
+      "source": "Source : Haute Autorité de Santé, document destiné aux parents sur le reflux du nourrisson et la place des médicaments."
     }
   ]
 }

@@ -10,26 +10,26 @@
   "protocoles": [
     {
       "categorie": "alim",
-      "situation": "Il refuse tout ce qu'il aimait / du jour au lendemain",
-      "titre": "Il refuse ce qu'il aimait / l'affirmation de soi passe par l'assiette",
-      "explication": "Du jour au lendemain, il refuse les légumes qu'il adorait, recrache ce qu'il réclamait la semaine dernière. Ce n'est pas un dégoût, et ce n'est pas un problème de goût : c'est l'affirmation de soi qui passe par l'assiette. Le repas est l'un des rares terrains où un enfant de onze mois peut exercer un pouvoir réel — et il l'exerce. La réponse qui aggrave tout : transformer le repas en enjeu. La réponse qui fonctionne : maintenir l'offre, sans commentaire, et laisser le pouvoir là où il compte peu.",
-      "ancrage": "Il ne refuse pas les légumes : il exerce un pouvoir. Ne transforme pas le repas en enjeu — c'est le seul terrain où il peut gagner.",
+      "situation": "Le refus de ce qu'il aimait / Il rejette tout d'un coup",
+      "titre": "L'affirmation de soi passe par l'assiette",
+      "explication": "Du jour au lendemain, il refuse les légumes qu'il adorait, recrache ce qu'il réclamait la semaine dernière. Ce n'est pas un dégoût, et ce n'est pas un problème de goût : c'est l'affirmation de soi qui passe par l'assiette. Le repas est l'un des rares terrains où un enfant de onze mois peut exercer un pouvoir réel, et il l'exerce. La réponse qui aggrave tout : transformer le repas en enjeu. La réponse qui fonctionne : maintenir l'offre, sans commentaire, et laisser le pouvoir là où il compte peu.",
+      "ancrage": "Il ne refuse pas les légumes : il exerce un pouvoir. Ne transforme pas le repas en enjeu. C'est le seul terrain où il peut gagner.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — maintenir l'offre, sans enjeu",
+        "titre": "Action immédiate : maintenir l'offre, sans enjeu",
         "etapes": [
           "Continuer à proposer : le même aliment, régulièrement, sans insister.",
           "Aucun commentaire : ni encouragement, ni déception, ni négociation.",
           "Ne pas remplacer par un plat qu'il aime : cela lui apprend qu'un refus produit mieux.",
-          "Terminer le repas calmement : s'il ne mange pas, le repas s'arrête — sans drame.",
+          "Terminer le repas calmement : s'il ne mange pas, le repas s'arrête, sans drame.",
           "Ne jamais forcer : la pression au repas installe durablement les difficultés alimentaires."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — désamorcer l'enjeu",
+        "titre": "Geste doux : désamorcer l'enjeu",
         "etapes": [
           "Manger ensemble : l'imitation reste le moteur le plus puissant.",
           "Le laisser se servir seul : rendre le pouvoir là où il est sans conséquence.",
@@ -39,12 +39,12 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Compter en semaines : ces phases durent, puis passent — et la variété revient.",
+        "Compter en semaines : ces phases durent, puis passent, et la variété revient.",
         "Regarder la semaine, pas le repas : les apports s'équilibrent sur plusieurs jours.",
         "Ne pas céder sur le sucre : un refus de légumes ne se compense pas par un dessert.",
         "Vérifier les indicateurs : la courbe de poids dit l'essentiel, pas le contenu d'une assiette."
       ],
-      "principe": "Le repas est l'un des rares terrains où il peut exercer un vrai pouvoir. Ne le transforme pas en enjeu : maintiens l'offre, sans commentaire — et le pouvoir perd son intérêt.",
+      "principe": "Le repas est l'un des rares terrains où il peut exercer un vrai pouvoir. Ne le transforme pas en enjeu : maintiens l'offre, sans commentaire, et le pouvoir perd son intérêt.",
       "erreurs_a_eviter": [
         "Forcer, négocier ou récompenser pour qu'il mange.",
         "Remplacer par un plat qu'il aime.",
@@ -52,18 +52,18 @@
         "Compenser un refus de légumes par un dessert sucré."
       ],
       "consulter_si": "Consulter si : l'enfant refuse de manger depuis plusieurs jours, ne prend pas de poids, si sa courbe casse, s'il vomit de façon répétée, ou si le refus s'accompagne d'une fatigue inhabituelle ou d'une pâleur → pédiatre ou médecin traitant.",
-      "source": "Source : Santé publique France et ANSES — recommandations sur la diversification alimentaire des enfants de moins de 3 ans."
+      "source": "Source : Santé publique France et ANSES, recommandations sur la diversification alimentaire des enfants de moins de 3 ans."
     },
     {
       "categorie": "alim",
-      "situation": "Je veux arrêter l'allaitement / comment sevrer en douceur",
-      "titre": "Le sevrage / une tétée à la fois, sans date imposée",
-      "explication": "Tu veux arrêter — pour des raisons qui t'appartiennent, et qui n'ont pas à être justifiées. Le sevrage progressif protège deux choses à la fois : ton corps, qui a besoin de temps pour réduire la production sans engorgement ni douleur ; et le lien, parce qu'une tétée n'est pas qu'un aliment, c'est un rituel. La méthode tient en une phrase : retirer une tétée à la fois, attendre plusieurs jours, puis passer à la suivante. Et aucune date ne s'impose — ni celle de l'entourage, ni celle du travail.",
-      "ancrage": "Tu n'as aucune justification à donner. Une tétée à la fois, plusieurs jours d'écart — c'est ce qui protège ton corps et le lien.",
+      "situation": "L'arrêt de l'allaitement / Je veux sevrer en douceur",
+      "titre": "Une tétée à la fois, sans date imposée",
+      "explication": "Tu veux arrêter, pour des raisons qui t'appartiennent, et qui n'ont pas à être justifiées. Le sevrage progressif protège deux choses à la fois : ton corps, qui a besoin de temps pour réduire la production sans engorgement ni douleur ; et le lien, parce qu'une tétée n'est pas qu'un aliment, c'est un rituel. La méthode tient en une phrase : retirer une tétée à la fois, attendre plusieurs jours, puis passer à la suivante. Et aucune date ne s'impose, ni celle de l'entourage, ni celle du travail.",
+      "ancrage": "Tu n'as aucune justification à donner. Une tétée à la fois, plusieurs jours d'écart. C'est ce qui protège ton corps et le lien.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — la méthode",
+        "titre": "Action immédiate : la méthode",
         "etapes": [
           "Une tétée à la fois : jamais deux, jamais toutes en même temps.",
           "Commencer par la moins chargée : souvent celle du milieu de journée.",
@@ -75,9 +75,9 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — protéger ton corps",
+        "titre": "Geste doux : protéger ton corps",
         "etapes": [
-          "Exprimer un peu si tension : juste pour soulager, sans vider — sinon la production se maintient.",
+          "Exprimer un peu si tension : juste pour soulager, sans vider, sinon la production se maintient.",
           "Du froid sur les seins : après la mise au sein, pour réduire l'inconfort.",
           "Un soutien-gorge confortable : ni compressif, ni serré.",
           "Surveiller les signes : un sein rouge, dur, douloureux, avec de la fièvre, se montre sans attendre.",
@@ -85,34 +85,34 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Aucune date imposée : le sevrage se décide par toi — l'allaitement peut se poursuivre aussi longtemps que vous le souhaitez.",
-        "Se faire accompagner : sage-femme, consultante en lactation (IBCLC) ou PMI — surtout si le sevrage doit être rapide.",
+        "Aucune date imposée : le sevrage se décide par toi, l'allaitement peut se poursuivre aussi longtemps que vous le souhaitez.",
+        "Se faire accompagner : sage-femme, consultante en lactation (IBCLC) ou PMI, surtout si le sevrage doit être rapide.",
         "Le lait reste nécessaire : au moins 500 ml par jour de lait de suite jusqu'à un an, en remplacement.",
-        "Accueillir l'ambivalence : soulagement et tristesse coexistent très souvent — les deux sont légitimes."
+        "Accueillir l'ambivalence : soulagement et tristesse coexistent très souvent, les deux sont légitimes."
       ],
-      "principe": "Le sevrage protège deux choses : ton corps et le rituel. Une tétée à la fois, plusieurs jours d'écart — et aucune date que tu n'aurais pas choisie.",
+      "principe": "Le sevrage protège deux choses : ton corps et le rituel. Une tétée à la fois, plusieurs jours d'écart, et aucune date que tu n'aurais pas choisie.",
       "erreurs_a_eviter": [
-        "Sevrer brutalement — risque d'engorgement et de douleur.",
+        "Sevrer brutalement : risque d'engorgement et de douleur.",
         "Supprimer plusieurs tétées en même temps.",
         "Se laisser imposer une date par l'entourage ou le travail.",
-        "Commencer par la tétée du soir — c'est la plus chargée."
+        "Commencer par la tétée du soir : c'est la plus chargée."
       ],
-      "consulter_si": "Consulter si : un sein devient rouge, dur, chaud et douloureux, avec de la fièvre ou des courbatures, si une boule persiste, ou si le sevrage s'accompagne chez toi d'une tristesse durable ou de pensées noires → sage-femme, consultante en lactation (IBCLC), médecin ou PMI sans attendre. En cas de pensées suicidaires : 3114.",
-      "source": "Source : Haute Autorité de Santé — « Allaitement maternel : mise en œuvre et poursuite » ; 1000-premiers-jours.fr — l'allaitement au fil des mois."
+      "consulter_si": "Consulter si : un sein devient rouge, dur, chaud et douloureux, avec de la fièvre ou des courbatures, si une boule persiste, ou si le sevrage s'accompagne chez toi d'une tristesse durable ou de pensées noires → sage-femme, consultante en lactation (IBCLC), médecin ou PMI sans attendre. Si les pensées noires s'installent, le 3114 répond jour et nuit.",
+      "source": "Source : Haute Autorité de Santé, « Allaitement maternel : mise en œuvre et poursuite » ; 1000-premiers-jours.fr, l'allaitement au fil des mois."
     },
     {
       "categorie": "alim",
-      "situation": "Il refuse d'être nourri / il veut la fourchette",
-      "titre": "Il veut la fourchette / accepter l'inefficacité des débuts",
-      "explication": "Il repousse la cuillère et tend la main vers ta fourchette. Il veut l'outil des grands — et c'est un excellent signe. Les débuts seront spectaculairement inefficaces : il piquera à côté, renversera, mangera avec les doigts entre deux tentatives. C'est normal, et c'est exactement ce qu'il doit faire. La tentation de reprendre le contrôle « parce qu'il ne mange rien » est forte, mais elle coûte cher : la lutte au repas est ce qui installe le plus durablement les difficultés alimentaires.",
-      "ancrage": "Il veut l'outil des grands. Les débuts seront inefficaces — c'est le prix de l'autonomie, et il vaut la peine.",
+      "situation": "La fourchette réclamée / Il refuse d'être nourri",
+      "titre": "Accepter l'inefficacité des débuts",
+      "explication": "Il repousse la cuillère et tend la main vers ta fourchette. Il veut l'outil des grands, et c'est un excellent signe. Les débuts seront spectaculairement inefficaces : il piquera à côté, renversera, mangera avec les doigts entre deux tentatives. C'est normal, et c'est exactement ce qu'il doit faire. La tentation de reprendre le contrôle « parce qu'il ne mange rien » est forte, mais elle coûte cher : la lutte au repas est ce qui installe le plus durablement les difficultés alimentaires.",
+      "ancrage": "Il veut l'outil des grands. Les débuts seront inefficaces. C'est le prix de l'autonomie, et il vaut la peine.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — lui donner l'outil",
+        "titre": "Action immédiate : lui donner l'outil",
         "etapes": [
           "Une fourchette adaptée : petite, à bouts arrondis, légère.",
-          "Deux couverts : un pour lui, un pour toi — tu continues sans lutter.",
+          "Deux couverts : un pour lui, un pour toi, tu continues sans lutter.",
           "Le laisser piquer et rater : c'est l'apprentissage lui-même.",
           "Le laisser manger avec les doigts entre deux : cela reste parfaitement normal.",
           "Un tapis sous la chaise : cela retire l'enjeu du désordre."
@@ -121,7 +121,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — soutenir l'autonomie",
+        "titre": "Geste doux : soutenir l'autonomie",
         "etapes": [
           "Manger devant lui : l'imitation guide le geste.",
           "Ne pas guider sa main : le laisser trouver seul.",
@@ -131,35 +131,35 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Accepter l'inefficacité : il mangera peu au début — le lait reste la base, au moins 500 ml par jour jusqu'à un an.",
+        "Accepter l'inefficacité : il mangera peu au début. Le lait reste la base, au moins 500 ml par jour jusqu'à un an.",
         "Ne pas reprendre le contrôle : la lutte au repas coûte bien plus cher que quelques cuillerées perdues.",
         "Toujours assis, tronc droit, surveillé : jamais en mouvement, jamais seul.",
         "Bannir les aliments à risque : raisin entier, fruits à coque, rondelles, morceaux durs ou glissants."
       ],
-      "principe": "Vouloir la fourchette est un progrès. Les débuts sont inefficaces — et reprendre le contrôle coûte bien plus cher que le désordre.",
+      "principe": "Vouloir la fourchette est un progrès. Les débuts sont inefficaces, et reprendre le contrôle coûte bien plus cher que le désordre.",
       "erreurs_a_eviter": [
         "Lutter pour garder le couvert.",
         "Reprendre le contrôle « parce qu'il ne mange rien ».",
         "Empêcher les doigts dans l'assiette.",
         "Donner un aliment à risque d'étouffement."
       ],
-      "consulter_si": "Consulter si : l'enfant s'étouffe — silence, absence de toux, changement de couleur → appeler immédiatement le 15. Consulter si : il refuse de manger depuis plusieurs jours, ne prend pas de poids, ou si sa courbe casse → pédiatre ou médecin traitant.",
-      "source": "Source : ANSES et ameli.fr — aliments à risque de fausse route et corps étranger inhalé chez le jeune enfant."
+      "consulter_si": "Consulter si : l'enfant s'étouffe, silence, absence de toux, changement de couleur → appeler immédiatement le 15. Consulter si : il refuse de manger depuis plusieurs jours, ne prend pas de poids, ou si sa courbe casse → pédiatre ou médecin traitant.",
+      "source": "Source : ANSES et ameli.fr, aliments à risque de fausse route et corps étranger inhalé chez le jeune enfant."
     },
     {
       "categorie": "alim",
-      "situation": "Le gâteau du premier anniversaire / que peut-il vraiment manger",
-      "titre": "Le gâteau du premier anniversaire / gourmand et sûr",
-      "explication": "Le premier anniversaire arrive, et la question du gâteau avec. Deux points fermes, et le reste est libre. Le premier : **pas de miel avant un an** — le risque de botulisme infantile est réel et grave, et cet ingrédient est fréquent dans les recettes « saines ». Le second : les aliments à risque d'étouffement — fruits à coque, raisins entiers, bonbons — n'ont pas leur place. Pour le reste, un gâteau peu sucré, fondant, sans miel, fait très bien l'affaire. Et le sucre ajouté n'a aucun intérêt à cet âge.",
-      "ancrage": "Deux règles fermes : pas de miel avant un an, et rien de rond ni de dur. Pour le reste, fais-toi plaisir — et lui aussi.",
+      "situation": "Le gâteau d'anniversaire / Je ne sais pas ce qu'il peut",
+      "titre": "Gourmand et sûr à la fois",
+      "explication": "Le premier anniversaire arrive, et la question du gâteau avec. Deux points fermes, et le reste est libre. Le premier : **pas de miel avant un an**. Le risque de botulisme infantile est réel et grave, et cet ingrédient est fréquent dans les recettes « saines ». Le second : les aliments à risque d'étouffement, fruits à coque, raisins entiers, bonbons, n'ont pas leur place. Pour le reste, un gâteau peu sucré, fondant, sans miel, fait très bien l'affaire. Et le sucre ajouté n'a aucun intérêt à cet âge.",
+      "ancrage": "Deux règles fermes : pas de miel avant un an, et rien de rond ni de dur. Pour le reste, fais-toi plaisir, et lui aussi.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — les deux règles",
+        "titre": "Action immédiate : les deux règles",
         "etapes": [
-          "Pas de miel avant un an : le risque de botulisme infantile est réel — vérifier chaque recette.",
+          "Pas de miel avant un an : le risque de botulisme infantile est réel, vérifier chaque recette.",
           "Aucun aliment rond ou dur : fruits à coque, raisins entiers, bonbons, morceaux durs.",
-          "Un gâteau fondant et peu sucré : purée de fruits, banane écrasée — le sucre ajouté n'a aucun intérêt.",
+          "Un gâteau fondant et peu sucré : purée de fruits, banane écrasée. Le sucre ajouté n'a aucun intérêt.",
           "Toujours assis, tronc droit, surveillé : y compris pendant la fête.",
           "Prévoir la surveillance : dans une fête, un adulte reste dédié à lui pendant qu'il mange."
         ]
@@ -167,7 +167,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — une fête à sa mesure",
+        "titre": "Geste doux : une fête à sa mesure",
         "etapes": [
           "Un format court : une à deux heures maximum.",
           "Peu d'invités : les fêtes d'un an submergent presque toujours l'enfant.",
@@ -177,89 +177,90 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Retenir l'interdit du miel : avant un an, sans exception — y compris dans un gâteau cuit.",
+        "Retenir l'interdit du miel : avant un an, sans exception, y compris dans un gâteau cuit.",
         "Pas de sucre ajouté : il n'apporte rien et installe une préférence durable.",
         "Se rappeler que la fête est pour les adultes : lui n'a besoin que d'un moment tranquille.",
         "Se former aux gestes qui sauvent : dans une fête, avec des aliments partout, cela prend tout son sens."
       ],
-      "principe": "Deux règles fermes : pas de miel avant un an, et rien de rond ni de dur. Le reste est une affaire de plaisir — et la fête, elle, se pense pour lui.",
+      "principe": "Deux règles fermes : pas de miel avant un an, et rien de rond ni de dur. Le reste est une affaire de plaisir, et la fête, elle, se pense pour lui.",
       "erreurs_a_eviter": [
-        "Donner du miel — risque de botulisme infantile avant un an.",
+        "Donner du miel : risque de botulisme infantile avant un an.",
         "Laisser des fruits à coque, des raisins entiers ou des bonbons à portée.",
         "Ajouter du sucre inutilement.",
         "Le laisser manger sans surveillance pendant la fête."
       ],
-      "consulter_si": "Consulter si : l'enfant s'étouffe — silence, absence de toux, changement de couleur → appeler immédiatement le 15 ou le 112. Consulter si : après avoir mangé, il présente des plaques qui s'étendent, un gonflement du visage ou des lèvres, des vomissements, une pâleur, ou une gêne à respirer → appeler immédiatement le 15.",
-      "source": "Source : Santé publique France / mangerbouger.fr — à partir d'un an : comment l'aider à manger comme les grands."
+      "consulter_si": "Consulter si : l'enfant s'étouffe, silence, absence de toux, changement de couleur → appeler immédiatement le 15 ou le 112. Consulter si : après avoir mangé, il présente des plaques qui s'étendent, un gonflement du visage ou des lèvres, des vomissements, une pâleur, ou une gêne à respirer → appeler immédiatement le 15.",
+      "source": "Source : Santé publique France / mangerbouger.fr, à partir d'un an : comment l'aider à manger comme les grands."
     },
     {
       "categorie": "alim",
-      "situation": "Il se retient d'aller à la selle / il a peur d'avoir mal",
-      "titre": "Il se retient / casser le cercle avant qu'il s'installe",
-      "explication": "Il se raidit, croise les jambes, rougit — et retient. Il a eu mal une fois, et il a compris qu'aller à la selle fait mal. Le cercle est en train de se former : une selle douloureuse pousse à se retenir, la rétention rend la selle plus dure, qui devient plus douloureuse encore. Ce cercle se casse tôt, ou il s'installe pour des mois. C'est l'un des rares cas où il ne faut pas attendre : les leviers domestiques — eau, fibres, mouvement — se mettent en place immédiatement, et un avis médical s'impose sans tarder.",
-      "ancrage": "La peur d'avoir mal est en train de s'installer. Ce cercle se casse maintenant — ou il durera des mois.",
+      "situation": "La peur d'aller à la selle / Il se retient, ça fait mal",
+      "titre": "Défaire un cercle déjà installé",
+      "explication": "À onze mois, il a compris. Il a eu mal une fois, il sait ce qui va se passer, et il fait tout pour l'éviter : il se raidit, croise les jambes, se cache derrière un meuble, rougit et retient. Ce n'est plus seulement une question de transit, c'est devenu une peur, et la peur est ce qui alimente le cercle. Plus il se retient, plus la selle durcit dans le rectum, plus elle fera mal, plus il se retiendra. À ce stade les leviers de la maison aident, mais ils suffisent rarement seuls.",
+      "ancrage": "Il ne fait pas de caprice, il évite une douleur qu'il connaît. Ce que tu peux faire de plus utile est de retirer toute tension de ce moment, et de ne pas attendre pour demander un avis.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — agir maintenant",
+        "titre": "Action immédiate : quand tu le vois se retenir",
         "etapes": [
-          "Proposer de l'eau : à chaque repas, largement.",
-          "Des fibres à chaque repas : légumes, fruits, céréales complètes adaptées.",
-          "Beaucoup de mouvement : il soutient le transit mieux que n'importe quel geste.",
-          "Ne rien introduire dans le siège : suppositoire, thermomètre — cela aggrave la peur.",
-          "Prendre rendez-vous : sans attendre — c'est le point clé de ce protocole."
+          "Ne rien dire et ne pas le fixer : la moindre attention sur ce moment renforce la retenue.",
+          "Le laisser où il se sent tranquille : debout derrière le canapé, accroupi dans un coin, on ne le déplace pas.",
+          "L'aider à s'accroupir : genoux plus hauts que les fesses, c'est la position qui ouvre le passage.",
+          "Rester à côté sans commenter : ta présence calme fait plus que n'importe quelle phrase d'encouragement.",
+          "Prendre rendez-vous cette semaine : à ce stade, un avis médical n'attend pas la fin du mois."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — confort et détente",
+        "titre": "Réflexologie : relâcher le ventre",
         "etapes": [
-          "L'enfant sur le dos : plan ferme, jambes libres, pièce calme.",
-          "Flexion douce des jambes : ramener lentement ses genoux vers son ventre, puis relâcher.",
-          "Main posée sur le ventre : ta paume réchauffée, immobile, pression douce et constante.",
-          "Soin du siège : nettoyer à l'eau, sécher en tamponnant — une fissure douloureuse entretient la rétention.",
-          "S'arrêter dès qu'il se crispe : sa réaction est la seule mesure."
-        ]
+          "Ce que ça apaise : la tension du ventre chez un enfant qui se retient.",
+          "Le bon moment : au calme, jamais au moment où il se retient."
+        ],
+        "lien_reflexologie": {
+          "id": "constipation",
+          "titre": "Constipation"
+        }
       },
       "pour_aller_plus_loin": [
-        "Ne pas attendre : une constipation avec rétention se traite, mais bien plus difficilement une fois installée.",
-        "Ne jamais dramatiser devant lui : la tension autour de la selle aggrave la rétention.",
-        "Ne rien changer sans avis : ni lait, ni traitement.",
-        "Éviter les jus de fruits : sucrés, et sans effet fiable."
+        "Consulter sans attendre : une rétention installée demande souvent un accompagnement médical, et plus on tarde plus c'est long.",
+        "Tenir l'eau et les fibres dans la durée : ce sont des leviers de fond, ils agissent sur des semaines et pas sur un jour.",
+        "Ne rien introduire pour faire venir la selle : ces gestes confirment sa peur et peuvent blesser.",
+        "Garder le sujet hors de la conversation familiale : ce qui se commente devant lui devient un enjeu de plus."
       ],
-      "principe": "Le cercle douleur-rétention-douleur s'installe vite et se défait lentement. C'est l'un des rares cas où l'on ne temporise pas : on consulte.",
+      "principe": "Une fois la peur installée, ce n'est plus le transit qu'on traite en premier, c'est la douleur et l'enjeu. Un enfant lâche ce qu'il retient quand il cesse d'avoir mal et quand plus personne ne l'observe.",
       "erreurs_a_eviter": [
-        "Attendre que « ça passe » alors qu'il se retient.",
-        "Introduire un suppositoire ou un thermomètre dans le siège.",
-        "Donner un jus de fruit ou un remède sans avis.",
-        "Dramatiser ou s'énerver au moment de la selle."
+        "L'encourager, le féliciter, le surveiller : toute attention portée à ce moment le rend plus difficile.",
+        "S'agacer devant lui : il entend que c'est important, et sa retenue devient un enjeu entre vous.",
+        "Attendre encore quelques semaines : c'est ce délai-là qui transforme quelques jours difficiles en plusieurs mois.",
+        "Chercher à déclencher la selle en introduisant quelque chose dans son siège : le geste blesse la confiance autant que la muqueuse."
       ],
-      "consulter_si": "Consulter si : l'enfant se retient, si les selles sont dures et douloureuses, si tu vois des traces de sang, si le ventre est dur et tendu, s'il vomit, refuse de boire, ou ne prend pas de poids → pédiatre ou médecin traitant sans attendre. Le 15 en cas de ventre dur avec vomissements et arrêt total des selles et des gaz.",
-      "source": "Source : ameli.fr (Assurance Maladie) — constipation de l'enfant : que faire et quand consulter."
+      "consulter_si": "Consulter si : ton enfant se retient volontairement, si les selles sont dures et l'évacuation douloureuse, si tu vois du sang sur la couche ou sur le papier, si son ventre reste dur, s'il perd l'appétit ou ne prend plus de poids → pédiatre ou médecin traitant sans attendre, c'est le cas où l'on ne temporise pas. Appeler le 15 si le ventre est dur et tendu avec des vomissements et plus aucune selle ni aucun gaz.",
+      "source": "Source : cercle douleur-rétention chez le jeune enfant et gestes à ne pas faire soi-même, repères pédiatriques mpedia.fr (AFPA) ; constipation de l'enfant, Assurance Maladie, ameli.fr."
     },
     {
       "categorie": "alim",
-      "situation": "Le passage au lait de croissance / son transit est perturbé",
-      "titre": "Le passage au lait de croissance / une chose à la fois",
-      "explication": "Le changement de lait approche, et son transit réagit — selles plus molles, plus dures, ou plus fréquentes. C'est fréquent : un changement de lait modifie réellement le transit, le temps que la flore s'adapte. Deux principes. Le premier : ne jamais changer plusieurs choses à la fois — un lait, une nouvelle texture et un nouvel aliment le même jour rendent toute lecture impossible. Le second : le passage se fait progressivement, en mélangeant les deux laits sur plusieurs jours, jamais d'un coup.",
+      "situation": "Le passage au lait de croissance / Son transit a changé",
+      "titre": "Une chose à la fois",
+      "explication": "Le changement de lait approche, et son transit réagit : selles plus molles, plus dures, ou plus fréquentes. C'est fréquent : un changement de lait modifie réellement le transit, le temps que la flore s'adapte. Deux principes. Le premier : ne jamais changer plusieurs choses à la fois. Un lait, une nouvelle texture et un nouvel aliment le même jour rendent toute lecture impossible. Le second : le passage se fait progressivement, en mélangeant les deux laits sur plusieurs jours, jamais d'un coup.",
       "ancrage": "Un lait ne se change jamais d'un coup, ni en même temps qu'autre chose. Progressif, et une seule variable à la fois.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — la transition progressive",
+        "titre": "Action immédiate : la transition progressive",
         "etapes": [
           "Mélanger les deux laits : en augmentant la proportion du nouveau, sur cinq à sept jours.",
           "Ne changer qu'une chose à la fois : ni nouvelle texture, ni nouvel aliment en même temps.",
           "Respecter la préparation : les doses indiquées sur la boîte, sans jamais forcer sur la poudre.",
-          "Observer le transit : selles, confort, ventre — sur plusieurs jours.",
+          "Observer le transit : selles, confort, ventre, sur plusieurs jours.",
           "Ne rien décider seul.e : un changement de lait se décide avec le professionnel."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — soutenir la transition",
+        "titre": "Geste doux : soutenir la transition",
         "etapes": [
           "Proposer de l'eau : à chaque repas.",
           "Beaucoup de mouvement : il soutient le transit.",
@@ -269,20 +270,20 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Retenir les repères : le lait de croissance, enrichi en fer, est recommandé après un an — le lait de vache ne couvre pas les besoins en fer avant trois ans.",
-        "Si tu choisis le lait de vache : il doit être entier, jamais demi-écrémé — et il demande de veiller aux apports en fer par l'alimentation.",
+        "Retenir les repères : le lait de croissance, enrichi en fer, est recommandé après un an, le lait de vache ne couvre pas les besoins en fer avant trois ans.",
+        "Si tu choisis le lait de vache : il doit être entier, jamais demi-écrémé, et il demande de veiller aux apports en fer par l'alimentation.",
         "Poursuivre l'allaitement est aussi une option : sans limite d'âge.",
         "En parler en consultation : le choix du lait se fait avec le professionnel."
       ],
-      "principe": "Un changement de lait modifie réellement le transit. Il se fait progressivement, et jamais en même temps qu'un autre changement — sinon on ne peut plus rien lire.",
+      "principe": "Un changement de lait modifie réellement le transit. Il se fait progressivement, et jamais en même temps qu'un autre changement : sinon on ne peut plus rien lire.",
       "erreurs_a_eviter": [
         "Changer de lait d'un coup.",
         "Changer plusieurs choses le même jour.",
-        "Donner du lait demi-écrémé — les besoins en matières grasses sont élevés jusqu'à trois ans.",
+        "Donner du lait demi-écrémé. Les besoins en matières grasses sont élevés jusqu'à trois ans.",
         "Changer de lait sans avis médical."
       ],
       "consulter_si": "Consulter si : le transit reste perturbé plusieurs jours, si les selles deviennent liquides et très fréquentes, si l'enfant vomit, refuse de boire, présente du sang dans les selles, une pâleur, une fatigue inhabituelle, ou s'il ne prend pas de poids → pédiatre ou médecin traitant.",
-      "source": "Source : ameli.fr (Assurance Maladie) et ANSES — l'alimentation de l'enfant de 0 à 3 ans : lait de suite, lait de croissance et besoins en fer."
+      "source": "Source : ameli.fr (Assurance Maladie) et ANSES, l'alimentation de l'enfant de 0 à 3 ans : lait de suite, lait de croissance et besoins en fer."
     }
   ]
 }

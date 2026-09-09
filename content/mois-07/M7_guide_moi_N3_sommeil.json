@@ -10,14 +10,14 @@
   "protocoles": [
     {
       "categorie": "sommeil",
-      "situation": "Se réveille à quatre pattes dans son lit / il s'entraîne la nuit",
-      "titre": "Il s'entraîne la nuit / donner du sol le jour",
-      "explication": "Tu le retrouves à quatre pattes, ou assis, ou debout contre les barreaux — en pleine nuit, hurlant, incapable de redescendre. Son cerveau consolide pendant le sommeil ce qu'il a travaillé le jour : c'est un mécanisme normal, et c'est même le signe que l'apprentissage fonctionne. Ce n'est pas la nuit qu'on règle cela : c'est le jour. Plus il a d'occasions de s'entraîner librement au sol — monter, descendre, se rasseoir — plus vite son corps saura défaire ce qu'il vient de faire, y compris à moitié endormi.",
-      "ancrage": "Il ne fait pas de crise : il répète. La sortie de cette phase se joue au sol, en journée — pas dans son lit à trois heures du matin.",
+      "situation": "L'entraînement nocturne / Il se réveille à quatre pattes dans son lit",
+      "titre": "Donner du sol dans la journée",
+      "explication": "Tu le retrouves à quatre pattes, ou assis, ou debout contre les barreaux, en pleine nuit, hurlant, incapable de redescendre. Son cerveau consolide pendant le sommeil ce qu'il a travaillé le jour : c'est un mécanisme normal, et c'est même le signe que l'apprentissage fonctionne. Ce n'est pas la nuit qu'on règle cela : c'est le jour. Plus il a d'occasions de s'entraîner librement au sol (monter, descendre, se rasseoir), plus vite son corps saura défaire ce qu'il vient de faire, y compris à moitié endormi.",
+      "ancrage": "Il ne fait pas de crise : il répète. La sortie de cette phase se joue au sol, en journée, et pas dans son lit à 3h du matin.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — la nuit",
+        "titre": "Action immédiate : la nuit",
         "etapes": [
           "Le recoucher calmement : sans allumer, sans parler beaucoup, sans le sortir du lit.",
           "Un lit sécurisé : matelas ferme, drap tendu, rien qui traîne, barreaux conformes.",
@@ -29,11 +29,11 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — entraîner le jour",
+        "titre": "Geste doux : entraîner le jour",
         "etapes": [
           "Beaucoup de temps au sol : plusieurs fois par jour, sur un tapis ferme, sans entrave.",
           "L'entraîner à redescendre : le laisser chercher comment se rasseoir, sans le faire à sa place.",
-          "Ne jamais le mettre debout : ni le placer, ni le maintenir — il apprendra seul.",
+          "Ne jamais le mettre debout : ni le placer, ni le maintenir, il apprendra seul.",
           "Limiter transat et coque : ils empêchent l'entraînement.",
           "S'arrêter s'il fatigue : quelques minutes suffisent."
         ]
@@ -44,7 +44,7 @@
         "S'attendre à ce que cela recommence : chaque nouvelle acquisition motrice perturbera les nuits.",
         "Compter en semaines : la phase dure le temps que le mouvement soit maîtrisé."
       ],
-      "principe": "Le cerveau consolide la nuit ce qu'il apprend le jour. Ce qui raccourcit cette phase, ce n'est pas une méthode de sommeil — c'est du temps libre au sol.",
+      "principe": "Le cerveau consolide la nuit ce qu'il apprend le jour. Ce qui raccourcit cette phase, ce n'est pas une méthode de sommeil, c'est du temps libre au sol.",
       "erreurs_a_eviter": [
         "Le rasseoir ou le recoucher vingt fois en jouant avec lui.",
         "Ajouter des coussins ou un cale-bébé pour l'empêcher de bouger.",
@@ -52,18 +52,18 @@
         "Réduire le temps au sol par peur qu'il se fatigue."
       ],
       "consulter_si": "Consulter si : bébé présente des pauses respiratoires, une respiration bruyante, un ronflement important, s'il paraît anormalement mou ou raide, s'il perd une compétence acquise, ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre ; le 15 en cas de trouble respiratoire.",
-      "source": "Source : ameli.fr (Assurance Maladie) — comment bien coucher un bébé : les règles du couchage sécurisé."
+      "source": "Source : ameli.fr (Assurance Maladie), comment bien coucher un bébé : les règles du couchage sécurisé."
     },
     {
       "categorie": "sommeil",
-      "situation": "Ne s'endort plus sans moi / l'endormissement se complique",
-      "titre": "L'endormissement se complique / réduire l'aide par paliers",
-      "explication": "Il s'endormait seul, et maintenant il ne supporte plus que tu quittes la chambre. Ce n'est pas un caprice, et ce n'est pas un recul de son autonomie : l'angoisse de séparation naissante se rejoue au coucher, qui est la plus longue séparation de la journée. La réponse n'est ni de céder complètement — en restant jusqu'à l'endormissement total pendant des mois — ni de partir brutalement. C'est de réduire l'aide par paliers : rester, mais un peu moins présent chaque semaine.",
-      "ancrage": "Ce n'est pas de la régression : c'est l'angoisse de séparation qui se rejoue au coucher. On ne part pas brutalement — on réduit l'aide, palier par palier.",
+      "situation": "L'endormissement qui se complique / Il ne s'endort plus sans moi",
+      "titre": "Réduire l'aide par paliers",
+      "explication": "Il s'endormait seul, et maintenant il ne supporte plus que tu quittes la chambre. Ce n'est pas un caprice, et ce n'est pas un recul de son autonomie : l'angoisse de séparation naissante se rejoue au coucher, qui est la plus longue séparation de la journée. La réponse n'est ni de céder complètement, en restant jusqu'à l'endormissement total pendant des mois, ni de partir brutalement. C'est de réduire l'aide par paliers : rester, mais un peu moins présent chaque semaine.",
+      "ancrage": "Ce n'est pas de la régression : c'est l'angoisse de séparation qui se rejoue au coucher. On ne part pas brutalement, on réduit l'aide palier par palier.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — les paliers",
+        "titre": "Action immédiate : les paliers",
         "etapes": [
           "Rester, mais s'asseoir : à côté du lit plutôt qu'allongé contre lui.",
           "Réduire le contact : main posée, puis simplement présent, puis assis plus loin.",
@@ -80,17 +80,21 @@
           "Dans le rituel du soir : toujours au même moment, toujours à la même place.",
           "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
           "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
           "Terminer par l'immobilité : une main posée sur son torse jusqu'à ce que sa respiration se pose."
-        ]
+        ],
+        "lien_reflexologie": {
+          "id": "sommeil",
+          "titre": "Sommeil agité"
+        }
       },
       "pour_aller_plus_loin": [
-        "Nommer le départ : « je sors et je reviens » — et revenir vraiment, une première fois, rapidement.",
+        "Nommer le départ : « je sors et je reviens », et revenir vraiment, une première fois, rapidement.",
         "Impliquer le co-parent : il peut prendre le coucher, ce qui desserre l'exclusivité.",
         "Ne jamais utiliser de méthode d'extinction : laisser pleurer seul n'a pas sa place ici.",
-        "Compter en semaines : chaque palier demande du temps — la précipitation fait tout recommencer."
+        "Compter en semaines : chaque palier demande du temps, et la précipitation fait tout recommencer."
       ],
-      "principe": "L'angoisse de séparation se rejoue au coucher. On ne la casse pas : on réduit l'aide par paliers, en restant présent — et jamais en laissant pleurer seul.",
+      "principe": "L'angoisse de séparation se rejoue au coucher. On ne la casse pas : on réduit l'aide par paliers, en restant présent, et jamais en laissant pleurer seul.",
       "erreurs_a_eviter": [
         "Partir brutalement de la chambre pour « l'habituer ».",
         "Laisser pleurer seul.",
@@ -98,23 +102,23 @@
         "Se reprocher d'avoir « créé » cette dépendance."
       ],
       "consulter_si": "Consulter si : bébé ne parvient jamais à s'endormir malgré un cadre calme, s'il est inconsolable, difficile à réveiller pour les prises, ne prend pas de poids, ou si le manque de sommeil devient dangereux pour toi → pédiatre, PMI, médecin, ou Allo Parents Bébé (0 800 00 34 56).",
-      "source": "Source : Institut national du sommeil et de la vigilance et 1000-premiers-jours.fr — le sommeil de l'enfant."
+      "source": "Source : Institut national du sommeil et de la vigilance et 1000-premiers-jours.fr, le sommeil de l'enfant."
     },
     {
       "categorie": "sommeil",
-      "situation": "Réveils multiples et courts / il cherche à te retrouver",
-      "titre": "Les réveils de vérification / réponse brève et constante",
-      "explication": "Il se réveille cinq fois, brièvement, et se rendort dès que tu apparais. Il ne se réveille pas de faim : il se réveille pour vérifier que tu es toujours là. C'est l'angoisse de séparation qui s'exprime la nuit, et la réponse qui fonctionne est contre-intuitive : elle doit être brève, pas longue. Une réponse longue — le prendre, le bercer, le nourrir — le réveille complètement et lui apprend qu'un réveil produit un moment agréable. Une réponse brève et toujours identique le rassure sans le réveiller.",
+      "situation": "Les réveils de vérification / Il se réveille souvent, très brièvement",
+      "titre": "Une réponse brève et constante",
+      "explication": "Il se réveille cinq fois, brièvement, et se rendort dès que tu apparais. Il ne se réveille pas de faim : il se réveille pour vérifier que tu es toujours là. C'est l'angoisse de séparation qui s'exprime la nuit, et la réponse qui fonctionne est contre-intuitive : elle doit être brève, pas longue. Une réponse longue (le prendre, le bercer, le nourrir) le réveille complètement et lui apprend qu'un réveil produit un moment agréable. Une réponse brève et toujours identique le rassure sans le réveiller.",
       "ancrage": "Il ne réclame pas à manger : il vérifie que tu existes. Une réponse brève rassure ; une réponse longue le réveille et s'installe.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — bref et constant",
+        "titre": "Action immédiate : bref et constant",
         "etapes": [
           "Répondre vite, mais brièvement : quelques secondes, une phrase, une main posée.",
-          "Toujours la même phrase : « je suis là, il fait nuit, dors » — mot pour mot.",
+          "Toujours la même phrase : « je suis là, il fait nuit, dors », mot pour mot.",
           "Ne pas le sortir du lit : sauf besoin réel.",
-          "Pas de lumière, pas d'échange : ni parole prolongée, ni jeu.",
+          "Pas de lumière, pas d'échange : ni parole prolongée, ni jeu.",
           "Repartir : sans attendre qu'il se rendorme complètement."
         ]
       },
@@ -126,9 +130,13 @@
           "Dans le rituel du soir : toujours au même moment.",
           "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
           "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
           "S'arrêter à sa demande : le geste doit rester agréable."
-        ]
+        ],
+        "lien_reflexologie": {
+          "id": "sommeil",
+          "titre": "Sommeil agité"
+        }
       },
       "pour_aller_plus_loin": [
         "Travailler la permanence le jour : le jeu de coucou, les départs annoncés, les retours nommés.",
@@ -136,7 +144,7 @@
         "Se relayer : chaque parent une moitié de nuit, pour un bloc continu chacun.",
         "Compter en semaines : cette phase s'atténue à mesure que la permanence se construit."
       ],
-      "principe": "Un réveil de vérification demande une preuve, pas un repas. Brève et constante, la réponse rassure — longue et agréable, elle s'installe.",
+      "principe": "Un réveil de vérification demande une preuve, pas un repas. Brève et constante, la réponse rassure ; longue et agréable, elle s'installe.",
       "erreurs_a_eviter": [
         "Prendre bébé dans les bras et le bercer longuement à chaque réveil.",
         "Le nourrir systématiquement pour le rendormir.",
@@ -144,20 +152,20 @@
         "Changer de réponse chaque nuit."
       ],
       "consulter_si": "Consulter si : bébé se réveille en hurlant de façon inconsolable, présente de la fièvre, refuse de boire, ne prend pas de poids, ou présente des pauses respiratoires, une respiration bruyante ou un ronflement important → pédiatre ; le 15 en cas de trouble respiratoire.",
-      "source": "Source : Institut national du sommeil et de la vigilance et 1000-premiers-jours.fr — le sommeil de l'enfant."
+      "source": "Source : Institut national du sommeil et de la vigilance et 1000-premiers-jours.fr, le sommeil de l'enfant."
     },
     {
       "categorie": "sommeil",
-      "situation": "Il réclame un doudou / faut-il le laisser dans le lit",
-      "titre": "Le doudou / possible, mais sous conditions",
-      "explication": "Vers sept mois, l'objet transitionnel devient réellement utile : il porte l'odeur et la présence rassurante du parent, et il aide l'enfant à traverser la séparation du coucher. Mais il touche directement aux règles du couchage sécurisé, et cela ne se prend pas à la légère. Avant six mois, aucun objet dans le lit — c'est absolu. Après, un doudou reste possible à condition qu'il soit adapté : plat, léger, de taille adaptée, aux normes, en un seul morceau, sans ruban, sans bille, sans partie détachable.",
-      "ancrage": "Un doudou après six mois est possible — mais pas n'importe lequel, et pas n'importe comment. Le lit reste un endroit sûr avant d'être douillet.",
+      "situation": "La demande de doudou / Il réclame un doudou dans son lit",
+      "titre": "Possible, mais sous conditions",
+      "explication": "Vers sept mois, l'objet transitionnel devient réellement utile : il porte l'odeur et la présence rassurante du parent, et il aide l'enfant à traverser la séparation du coucher. Mais il touche directement aux règles du couchage sécurisé, et cela ne se prend pas à la légère. Avant six mois, aucun objet dans le lit. C'est absolu. Après, un doudou reste possible à condition qu'il soit adapté : plat, léger, de taille adaptée, aux normes, en un seul morceau, sans ruban, sans bille, sans partie détachable.",
+      "ancrage": "Un doudou après six mois est possible, mais pas n'importe lequel, et pas n'importe comment. Le lit reste un endroit sûr avant d'être douillet.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — choisir et sécuriser",
+        "titre": "Action immédiate : choisir et sécuriser",
         "etapes": [
-          "Un doudou plat et léger : un carré de tissu ou une peluche plate — jamais volumineux ni rembourré.",
+          "Un doudou plat et léger : un carré de tissu ou une peluche plate, jamais volumineux ni rembourré.",
           "Aux normes, adapté aux moins de 36 mois : c'est un critère de sécurité, pas de confort.",
           "En un seul morceau : sans ruban, sans bille, sans yeux cousus, sans étiquette détachable.",
           "Le seul objet du lit : pas de couverture, pas de coussin, pas de tour de lit, pas de peluches multiples.",
@@ -167,30 +175,30 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — installer le repère",
+        "titre": "Geste doux : installer le repère",
         "etapes": [
           "L'imprégner de ton odeur : le garder contre toi quelques heures avant de le lui confier.",
           "L'introduire dans le rituel : toujours au même moment, avant le coucher.",
-          "En avoir deux identiques : pour les lavages et les pertes — cela évite des drames.",
+          "En avoir deux identiques : pour les lavages et les pertes, cela évite des drames.",
           "Le laisser choisir : c'est souvent l'enfant qui élit son doudou, pas le parent.",
           "Le laver régulièrement : un doudou propre reste un doudou reconnaissable si le lavage est fréquent."
         ]
       },
       "pour_aller_plus_loin": [
-        "Vérifier régulièrement l'état : coutures, parties qui se détachent, rembourrage qui sort — un doudou abîmé devient dangereux.",
+        "Vérifier régulièrement l'état : coutures, parties qui se détachent, rembourrage qui sort, car un doudou abîmé devient dangereux.",
         "Ne pas multiplier les objets : un seul, dans un lit par ailleurs vide.",
-        "Se rappeler la règle d'avant six mois : aucun objet dans le lit, sans exception.",
+        "Un collier de dentition autour du cou : la ficelle peut s'enrouler, les perles se détacher. Rien ne se porte au cou d'un bébé, ni le jour ni la sieste.",
         "Ne pas forcer : certains enfants n'adoptent jamais de doudou, et c'est parfaitement normal."
       ],
-      "principe": "Un doudou est utile après six mois — à condition d'être plat, léger, aux normes, en un seul morceau, et seul dans un lit par ailleurs vide.",
+      "principe": "Un doudou est utile après six mois, à condition d'être plat, léger, aux normes, en un seul morceau, et seul dans un lit par ailleurs vide.",
       "erreurs_a_eviter": [
         "Mettre un doudou dans le lit avant six mois.",
         "Utiliser une peluche volumineuse, rembourrée, ou avec des parties détachables.",
         "Ajouter plusieurs peluches, une couverture ou un coussin.",
         "Garder un doudou abîmé dont le rembourrage ou les coutures cèdent."
       ],
-      "consulter_si": "Consulter si : bébé présente des pauses respiratoires, une respiration bruyante, un ronflement important, ou si tu as un doute sur la sécurité de son couchage → pédiatre, PMI, ou médecin traitant ; le 15 en cas de trouble respiratoire. Rappel : couchage sur le dos, matelas ferme, lit sans objet superflu.",
-      "source": "Source : ameli.fr (Assurance Maladie) — comment bien coucher un bébé : les règles du couchage sécurisé."
+      "consulter_si": "Consulter si : bébé présente des pauses respiratoires, une respiration bruyante, un ronflement important, ou si tu as un doute sur la sécurité de son couchage → pédiatre, PMI, ou médecin traitant ; le 15 en cas de trouble respiratoire. Rappel : couchage sur le dos, matelas ferme, lit sans objet superflu, rien autour du cou.",
+      "source": "Source : ameli.fr (Assurance Maladie), comment bien coucher un bébé : les règles du couchage sécurisé."
     }
   ]
 }

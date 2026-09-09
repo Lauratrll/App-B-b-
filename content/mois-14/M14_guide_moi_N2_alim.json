@@ -1,0 +1,242 @@
+{
+  "mois": 14,
+  "tranche_age": "14 mois",
+  "categorie": {
+    "id": "alim",
+    "nom": "Alimentation",
+    "sous_titre": "Refus du nouveau, fixations, dents et repas tendus",
+    "icone": "🥕"
+  },
+  "protocoles": [
+    {
+      "categorie": "alim",
+      "situation": "Le refus du nouveau / Il ne veut plus rien goûter",
+      "titre": "Proposer huit fois avant qu'il aime",
+      "explication": "Vers quatorze mois, beaucoup d'enfants se mettent à refuser ce qu'ils acceptaient le mois d'avant. C'est le début de la méfiance envers l'inconnu, qui apparaît dans la deuxième année et s'installe surtout après dix-huit mois. Elle a une utilité : un enfant qui se déplace seul et porte tout à sa bouche a besoin d'un frein. Un refus n'est donc pas un goût, c'est une première rencontre qui n'a pas pris. Un aliment doit souvent revenir au moins huit fois, sans contrainte, avant d'être accepté, et ce nombre augmente encore avec l'âge.",
+      "ancrage": "Ce n'est pas ta cuisine qu'il refuse, c'est l'inconnu. Ton travail n'est pas de le convaincre aujourd'hui : il est de faire revenir l'aliment sans que cela devienne un sujet entre vous.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : quand il repousse l'assiette",
+        "etapes": [
+          "Accueillir le refus tout de suite : un « non merci » se reçoit comme celui d'un adulte.",
+          "Laisser l'aliment dans l'assiette : il n'a pas à le manger, seulement à le voir de près.",
+          "Ne rien remplacer : le repas continue avec ce qui est déjà servi.",
+          "Détourner le regard de son assiette : il goûte beaucoup plus facilement quand personne ne surveille.",
+          "Refermer sans bilan : on débarrasse comme un repas ordinaire, parce que c'en est un."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Hors du repas : le faire revenir",
+        "etapes": [
+          "Choisir un seul aliment : celui qu'on veut faire entrer, un à la fois et pas trois.",
+          "Le remettre tous les deux ou trois jours : la répétition compte davantage que la quantité.",
+          "Changer sa forme à chaque passage : cru en bâtonnet, cuit en morceau, mélangé, chaud puis froid.",
+          "Le poser aussi dans ton assiette : c'est surtout ce que mangent les grands qu'il surveille.",
+          "Compter les rencontres, pas les bouchées : huit passages tranquilles valent mieux qu'une bouchée arrachée."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Servir tout le monde pareil : un seul repas pour la famille supprime la question du plat de remplacement.",
+        "L'emmener aux courses : choisir le légume lui-même le rend beaucoup moins étranger.",
+        "Rester neutre devant les autres : ne pas raconter en sa présence qu'il ne mange rien.",
+        "Tenir sur des saisons : cette phase dure des mois et ne se mesure pas au repas près."
+      ],
+      "principe": "Un aliment refusé n'est pas un aliment perdu, c'est un aliment qui n'a pas encore été rencontré assez de fois. Ce qui décide de son entrée dans le répertoire, c'est le nombre de passages tranquilles, pas la bouchée obtenue.",
+      "erreurs_a_eviter": [
+        "Le retirer du menu après un refus : on supprime justement les passages qui l'auraient fait accepter.",
+        "Promettre le dessert contre une bouchée : l'aliment devient un péage et perd toute chance d'être aimé.",
+        "Goûter à sa place pour montrer que c'est bon : il perçoit la pression bien avant le plaisir.",
+        "Aligner trois nouveautés le même soir : trois inconnus dans une assiette se font refuser ensemble."
+      ],
+      "consulter_si": "Consulter si : le refus s'étend à des familles entières d'aliments pendant plusieurs mois, s'il ne tolère plus qu'une poignée d'aliments, s'il perd du poids ou si sa courbe s'infléchit, ou si l'approche d'un aliment nouveau déclenche chez lui une angoisse visible → pédiatre, médecin traitant ou PMI, qui pourront orienter vers une diététicienne pédiatrique.",
+      "source": "Source : le refus des aliments nouveaux et l'exposition répétée sans contrainte, repères pédiatriques mpedia.fr (AFPA) ; ne pas forcer et respecter l'appétit de l'enfant, Assurance Maladie, ameli.fr."
+    },
+    {
+      "categorie": "alim",
+      "situation": "L'aliment en boucle / Il veut le même plat chaque jour",
+      "titre": "Faire varier sans rien retirer",
+      "explication": "La fixation est l'autre visage de la méfiance envers le nouveau : ce qui est connu rassure, et ton enfant réclame précisément ce dont il est sûr. À quatorze mois, il découvre aussi qu'il peut demander et obtenir, et la répétition lui donne une prise sur une journée qu'il ne décide pas. Ces phases sont transitoires : elles durent quelques semaines à quelques mois, et elles passent d'autant plus vite qu'elles ne deviennent pas un enjeu. Quelques semaines de menu resserré ne créent pas de carence chez un enfant qui grandit bien.",
+      "ancrage": "Tu peux lui laisser son plat préféré sans renoncer au reste. Ce que tu tiens, ce n'est pas la variété d'aujourd'hui, c'est la présence de ce qu'il ne réclame pas.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : au repas qu'il réclame encore",
+        "etapes": [
+          "Servir le plat demandé : le refuser d'un coup transforme la fixation en bataille.",
+          "Ajouter une chose à côté : une seule, en petite quantité, sans en parler.",
+          "Réduire un peu la part du plat fétiche : assez pour laisser de la place, pas assez pour qu'il le remarque.",
+          "Ne pas nommer sa préférence : « ton plat », « celui que tu adores », l'étiquette la renforce.",
+          "Accepter qu'il ne touche que le connu : la nouveauté était là, c'est déjà le travail du repas."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Hors du repas : la variation minuscule",
+        "etapes": [
+          "Ne changer qu'une chose à la fois : la forme, ou la cuisson, ou l'accompagnement, jamais les trois.",
+          "Garder le nom du plat : les mêmes mots, même si le contenu a légèrement bougé.",
+          "Décaler la présentation : couper autrement, servir dans un autre plat, poser les aliments séparés.",
+          "Revenir en arrière si ça bloque : on refait le plat d'origine au repas suivant, sans commentaire.",
+          "Avancer d'un cran par semaine : la variation se compte en semaines, pas en repas."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Faire tourner les repas de la famille : c'est l'offre régulière qui élargit le répertoire, pas la négociation.",
+        "Cuisiner avec lui : verser les pâtes, laver la carotte, écraser la pomme de terre, la main s'attache au plat.",
+        "Garder la nouveauté hors du repas : un aliment posé sur la table du goûter n'a rien à prouver.",
+        "Prévenir le mode de garde : la même souplesse à la crèche ou chez l'assistante maternelle évite les tensions."
+      ],
+      "principe": "Une fixation se traverse en la laissant tranquille. Ce qu'on garde ouvert, ce n'est pas l'assiette du jour, c'est l'accès permanent à autre chose, posé sans condition et sans commentaire.",
+      "erreurs_a_eviter": [
+        "Supprimer le plat fétiche pour l'obliger à varier : le repas devient un rapport de force et la fixation se durcit.",
+        "Servir sa demande à tous les repas de la journée : le répertoire se referme au lieu de se stabiliser.",
+        "Faire remarquer chaque essai raté : l'échec commenté devient une identité chez un enfant de cet âge.",
+        "Cacher la nouveauté dans le plat aimé : la surprise abîme la confiance dans le seul plat qui restait sûr."
+      ],
+      "consulter_si": "Consulter si : la fixation dure au-delà de deux mois sans que rien d'autre passe, si elle porte sur un aliment unique, si ton enfant refuse toute une catégorie comme les protéines ou les féculents, s'il pâlit et se fatigue vite, ou si sa courbe s'infléchit → pédiatre, médecin traitant ou PMI. Une diététicienne pédiatrique peut vérifier les apports.",
+      "source": "Source : sélectivité et fixations alimentaires du jeune enfant, repères pédiatriques mpedia.fr (AFPA) ; repères alimentaires des enfants de 1 à 3 ans, Santé publique France, programme national nutrition santé."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Les trois jours sans manger / Il ne mange presque plus",
+      "titre": "Regarder la boisson avant l'assiette",
+      "explication": "Une baisse brutale sur quelques jours a presque toujours une cause passagère : une dent qui perce, un nez pris, un virus qui commence, une grosse fatigue, un changement dans sa vie. Le corps met alors la digestion en veilleuse pour s'occuper d'autre chose. Sur trois jours, ce qui compte vraiment n'est pas ce qu'il mange, mais ce qu'il boit : un tout-petit tient sans manger beaucoup plus longtemps qu'il ne tient sans boire. Un enfant qui boit, qui mouille ses couches et qui garde son entrain traverse ces journées sans dommage.",
+      "ancrage": "Tu n'as pas à le faire manger cette semaine. Tu as à veiller à ce qu'il boive et à surveiller trois ou quatre repères simples, ce qui est beaucoup plus facile.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : sur les jours où il ne mange pas",
+        "etapes": [
+          "Proposer à boire très souvent : de l'eau, en petites quantités, toute la journée plutôt qu'un grand verre.",
+          "Vérifier les couches : cinq à six mouillées par jour signent qu'il boit assez.",
+          "Regarder son entrain : un enfant qui joue et qui râle va mieux qu'un enfant anormalement calme.",
+          "Servir sans insister : une petite assiette de ce qu'il aime, présentée puis retirée sans mot.",
+          "Ne pas basculer sur le sucré : biscuits et compotes calment l'inquiétude du parent, pas la faim de l'enfant."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Observer bébé : les repères de chaque jour",
+        "etapes": [
+          "Le nombre de couches mouillées : le repère le plus fiable et le plus simple à tenir.",
+          "L'aspect de sa bouche : lèvres et langue humides, pleurs avec des larmes.",
+          "Son niveau d'activité : il se déplace, il s'oppose, il réclame, tout cela est bon signe.",
+          "Sa température et son nez : une dent, un rhume ou un début de virus expliquent souvent tout.",
+          "Ce qui se remet en route : la première vraie faim revient souvent le soir, avant le retour des repas complets."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Alléger la journée : moins de sorties et un coucher avancé aident plus que n'importe quelle assiette.",
+        "Fractionner l'offre : de petites quantités à plusieurs moments passent mieux que trois vrais repas.",
+        "Garder le lait dans la journée : quand le solide ne passe pas, il reste un apport simple et accepté.",
+        "Noter ce que tu observes : deux lignes par jour rendent le coup de téléphone au médecin beaucoup plus utile."
+      ],
+      "principe": "Sur quelques jours, un enfant se juge à ce qu'il boit et à son entrain, pas au contenu de son assiette. La faim revient d'elle-même quand la cause passagère s'en va, à condition qu'on n'ait pas transformé ces trois jours en bataille.",
+      "erreurs_a_eviter": [
+        "Forcer une bouchée parce que ça dure : la peur du parent devient une peur du repas chez l'enfant.",
+        "Remplacer l'eau par des jus : le sucre coupe encore l'appétit et n'hydrate pas mieux.",
+        "Attendre une semaine pour appeler : quelques jours suffisent à justifier un avis, c'est le rôle du médecin.",
+        "Conclure seul à une dent : la dent explique une baisse d'appétit, jamais une fièvre élevée ni une diarrhée."
+      ],
+      "consulter_si": "Consulter si : ton enfant mouille très peu ses couches, s'il a la bouche sèche, s'il pleure sans larmes, s'il est pâle avec les yeux cernés, s'il est anormalement mou ou difficile à réveiller, s'il respire vite, ou s'il vomit tout ce qu'il boit → appeler le 15 ou le 112. Consulter si, par ailleurs : la baisse dure plus de trois ou quatre jours, s'il a une fièvre qui persiste, ou s'il perd du poids → pédiatre, médecin traitant ou PMI, sans urgence.",
+      "source": "Source : signes de déshydratation du nourrisson et du jeune enfant, Assurance Maladie, ameli.fr ; perte d'appétit passagère et repères de surveillance, mpedia.fr (AFPA) ; surveillance de la courbe de croissance, Haute Autorité de Santé."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Le repas qui finit en crise / Il termine en larmes",
+      "titre": "Changer le cadre, pas le menu",
+      "explication": "À quatorze mois, ton enfant comprend beaucoup plus qu'il ne peut dire, et cet écart le met en colère plusieurs fois par jour. Le repas tombe presque toujours au pire moment : la fin de matinée ou la fin de journée, quand la fatigue est haute et les mots absents. Il voudrait la cuillère, le verre, ton assiette, et il ne sait ni le demander ni attendre. La crise du repas parle donc rarement de nourriture : elle parle d'un enfant à bout d'outils, assis devant une table où tout lui échappe.",
+      "ancrage": "Ce n'est pas le repas qui a raté, c'est le moment qui était trop dur pour lui. Ton calme est ce qui lui manque à cet instant, et tu n'as rien d'autre à réussir.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : quand les larmes montent",
+        "etapes": [
+          "Nommer ce qu'il vit : « tu es en colère, tu voulais le faire tout seul », dit doucement et une seule fois.",
+          "Arrêter le repas là : on ne finit pas une assiette pendant une crise, on la met de côté.",
+          "Le sortir de la chaise : le siège devient un piège quand le corps déborde.",
+          "Baisser tout autour : moins de lumière, moins de bruit, moins d'adultes qui parlent.",
+          "Attendre sans rien demander : on reste près, on ne raisonne pas, la vague passe seule."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : revenir au calme après la vague",
+        "etapes": [
+          "Ouvrir les bras sans les imposer : il vient s'il en a besoin, et parfois il ne vient pas tout de suite.",
+          "Pression large et immobile : une main à plat sur le haut du dos, sans tapoter ni bercer.",
+          "Ralentir ta propre respiration : son rythme se cale sur le tien avant de se caler sur tes mots.",
+          "Peu de mots, très bas : une phrase courte répétée vaut mieux qu'une explication.",
+          "Attendre qu'il relâche : les épaules qui descendent disent que c'est fini, pas les larmes qui s'arrêtent."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Avancer l'heure du repas : 15 minutes plus tôt changent souvent tout, avant que la fatigue prenne le dessus.",
+        "Lui donner une prise réelle : sa cuillère, son verre, le choix entre deux choses, la colère baisse quand il décide de quelque chose.",
+        "Alléger la table : un seul adulte face à lui, pas de télévision, pas de conversation par-dessus sa tête.",
+        "Prévoir un repas plus tôt les jours de garde : la décharge du retour tombe pile à l'heure du dîner."
+      ],
+      "principe": "Une crise de fin de repas se prévient par l'heure et par l'installation, pas par le contenu de l'assiette. Un enfant qui déborde n'apprend rien pendant la vague : il apprend après, dans le calme qu'on lui a tenu.",
+      "erreurs_a_eviter": [
+        "Vouloir finir l'assiette pour ne pas céder : la crise s'allonge et le repas devient le moment redouté de la journée.",
+        "Expliquer longuement pendant qu'il hurle : les mots n'arrivent plus jusqu'à lui à cet instant.",
+        "Sortir un écran pour que ça s'arrête : il se calme sans comprendre ce qui s'est passé, et cela recommence à l'identique.",
+        "Compenser avec un dessert dès que les larmes tombent : la crise devient le chemin le plus court vers le sucré."
+      ],
+      "consulter_si": "Consulter si : les crises reviennent à presque tous les repas depuis plusieurs semaines, si ton enfant se cogne la tête ou se mord pendant ces moments, s'il refuse de s'alimenter au point de perdre du poids, ou si toute la famille redoute désormais l'heure du repas → pédiatre, médecin traitant ou PMI, qui pourront orienter vers un psychologue de la petite enfance."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Les dents qui font mal / Il ne mange plus depuis",
+      "titre": "Adapter la texture et la température",
+      "explication": "Entre treize et dix-neuf mois, les premières molaires percent. Ce sont les plus larges, et leur passage à travers la gencive est le plus douloureux de toute la poussée dentaire. Mâcher appuie précisément sur la zone qui travaille, donc ton enfant évite le côté qui fait mal, puis évite de mâcher, puis refuse le repas. La poussée dentaire donne une douleur, de l'irritabilité, une salive abondante, des gencives gonflées, des joues rouges et une baisse d'appétit. Elle ne donne ni fièvre au-dessus de trente-huit degrés, ni diarrhée, ni altération de l'état général.",
+      "ancrage": "Il ne refuse pas le repas, il évite ce qui appuie sur sa gencive. Tu peux rendre le repas mangeable pendant quelques jours, sans changer quoi que ce soit au fond.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : au repas où il refuse de mâcher",
+        "etapes": [
+          "Baisser la température : un plat tiède ou frais passe quand un plat chaud réveille la douleur.",
+          "Ramollir sans tout remixer : écraser à la fourchette, allonger avec un peu de liquide, garder un peu de matière.",
+          "Proposer du froid avant : un morceau de concombre froid ou un anneau sorti du réfrigérateur endort la gencive.",
+          "Retirer l'acide et le salé : agrumes, tomate et plats relevés piquent une gencive ouverte.",
+          "Écourter le repas : trois bouchées confortables valent mieux que 20 minutes de lutte."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : soulager la gencive",
+        "etapes": [
+          "Ce que ça apaise : la douleur de la gencive qui travaille.",
+          "Le bon moment : juste avant le repas, pour qu'il puisse mâcher."
+        ],
+        "lien_reflexologie": {
+          "id": "dents",
+          "titre": "Poussées dentaires"
+        }
+      },
+      "pour_aller_plus_loin": [
+        "Décaler les nouveautés : ce n'est pas la semaine pour tenter un aliment inconnu ou une texture plus dure.",
+        "Maintenir le brossage : une brosse très souple et un geste bref valent mieux qu'un arrêt de plusieurs jours.",
+        "Demander au pharmacien avant tout produit : c'est lui qui sait ce qui convient à son âge.",
+        "Reprendre les textures dès que ça passe : quelques jours de plats mous ne remettent pas l'apprentissage en cause."
+      ],
+      "principe": "Une gencive qui travaille se ménage, elle ne se contourne pas. On ajuste ce qu'on sert le temps que la dent passe, puis on revient exactement là où l'apprentissage en était.",
+      "erreurs_a_eviter": [
+        "Revenir au tout lisse pendant plusieurs semaines : la mastication perd le terrain qu'elle avait gagné.",
+        "Frotter la gencive avec un objet dur : la muqueuse est déjà enflammée et le geste augmente la douleur.",
+        "Mettre une fièvre élevée sur le compte des dents : c'est l'erreur la plus risquée de la deuxième année.",
+        "Donner un aliment très froid trop longtemps : le froid soulage par touches courtes, pas en continu."
+      ],
+      "consulter_si": "Consulter si : ton enfant a une fièvre supérieure à trente-huit degrés, une diarrhée, un état général qui se dégrade, une gencive rouge et gonflée avec du pus, ou s'il refuse de s'alimenter depuis plus de trois ou quatre jours → pédiatre ou médecin traitant, sans urgence. Ces signes ne s'expliquent pas par les dents et demandent un autre regard.",
+      "source": "Source : symptômes réellement liés à la poussée dentaire, absence de fièvre supérieure à 38 °C et de diarrhée, Assurance Maladie, ameli.fr ; calendrier d'éruption des premières molaires, mpedia.fr (AFPA)."
+    }
+  ]
+}

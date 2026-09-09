@@ -1,0 +1,194 @@
+{
+  "mois": 20,
+  "tranche_age": "20 mois",
+  "categorie": {
+    "id": "alim",
+    "nom": "Alimentation",
+    "sous_titre": "Lait autrement, jeu à table, morceaux, rituels",
+    "icone": "🥛"
+  },
+  "protocoles": [
+    {
+      "categorie": "alim",
+      "situation": "Le biberon refusé / Il ne veut plus boire comme un bébé",
+      "titre": "Garder le lait, changer le contenant",
+      "explication": "Vers vingt mois, beaucoup d'enfants repoussent le biberon parce qu'ils ont compris à quoi il sert et à qui il ressemble. Ce n'est pas le lait qu'ils refusent, c'est l'objet, et souvent après avoir vu un plus petit s'en servir. Le lait, lui, reste utile : un lait adapté est recommandé jusqu'à trois ans, et il apporte notamment du calcium et du fer que le reste de son assiette couvre moins bien. Il n'y a donc rien à arrêter, seulement à servir autrement.",
+      "ancrage": "Il ne renonce pas au lait, il renonce au biberon. Tu peux accueillir ce refus comme une bonne nouvelle et t'occuper seulement de la façon dont l'apport continue.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : au moment où il repousse le biberon",
+        "etapes": [
+          "Accepter sans insister : ranger le biberon comme si de rien n'était, sans le lui reprocher.",
+          "Reproposer le même lait au verre : un grand verre, une paille, une tasse, tout sauf la tétine.",
+          "Le laisser se servir : verser lui-même dans son verre change complètement l'attrait du moment.",
+          "Passer par le laitage : yaourt, fromage blanc, fromage, la journée compte l'apport en entier.",
+          "Ne rien commenter sur le fait qu'il grandit : la remarque le pousse à refuser encore plus fort."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Hors du repas : proposer le lait autrement",
+        "etapes": [
+          "Le cuisiner avec lui : semoule au lait, riz au lait, gâteau, il verse et il mélange lui-même.",
+          "Le servir chaud, dans un bol : un lait tiède à la cuillère n'a plus rien à voir avec un biberon.",
+          "Le mélanger sans le sucrer : une pointe de cacao non sucré ou un fruit écrasé suffit à relancer.",
+          "Le laisser choisir son verre : celui qu'il a désigné se vide beaucoup plus souvent que l'autre.",
+          "Garder le moment de câlin : ce qui lui manquait dans le biberon, c'était souvent ce temps-là."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Compter tout ce qui est laitier : lait, yaourts et fromage se lisent ensemble sur la journée entière.",
+        "Ne pas insister sur l'objet : un biberon repoussé plusieurs jours de suite ne se rattrape pas, il se remplace.",
+        "Garder le biberon disponible sans le proposer : certains enfants y reviennent d'eux-mêmes quelques semaines plus tard.",
+        "En parler au suivi médical : pédiatre ou PMI vérifient les apports et le fer en quelques minutes."
+      ],
+      "principe": "Ce qui compte, c'est ce qui arrive dans la journée, jamais le récipient dans lequel cela arrive. Un enfant qui grandit a le droit de vouloir changer d'objet sans qu'on lui retire ce qu'il y avait dedans.",
+      "erreurs_a_eviter": [
+        "Profiter du refus pour arrêter le lait : les apports baissent d'un coup alors que rien ne l'imposait.",
+        "Insister pour qu'il reprenne le biberon : le refus se transforme en position de principe et se durcit.",
+        "Le sucrer ou l'aromatiser pour le faire passer : le goût sucré s'installe et le lait nature passe encore moins.",
+        "Le comparer au plus petit devant lui : « toi tu es grand » lui donne une raison de plus de refuser."
+      ],
+      "consulter_si": "Consulter si : ton enfant refuse le lait et tous les produits laitiers, s'il pâlit ou se fatigue vite, s'il ne prend plus de poids, ou si le refus s'étend à d'autres familles d'aliments depuis plusieurs semaines → pédiatre, médecin traitant ou PMI, qui pourront vérifier notamment le fer et le calcium.",
+      "source": "Source : un lait adapté recommandé jusqu'à 3 ans et maintien de l'apport lacté par les produits laitiers, repères pédiatriques mpedia.fr (AFPA) ; repères alimentaires des enfants de 1 à 3 ans, Assurance Maladie, ameli.fr."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Le faire semblant / Il fait mine de manger et joue",
+      "titre": "Se servir du jeu au lieu de le combattre",
+      "explication": "Vers vingt mois, le jeu du faire-semblant s'installe et devient une grande affaire : il donne à manger à son doudou, il fait « miam » sans rien avaler, il te tend une cuillère vide. C'est une étape importante de son développement, la même qui lui permettra bientôt de raconter et d'imaginer. À table, cela se mélange au repas et brouille les cartes : on ne sait plus s'il joue à manger ou s'il mange pour de vrai. Les deux peuvent coexister, à condition que la fin du repas, elle, reste claire.",
+      "ancrage": "Ce jeu-là n'est pas une fuite, c'est un progrès qui arrive au mauvais moment. Tu peux lui donner sa place, et garder pour toi la décision du moment où la table se referme.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : quand il joue à manger",
+        "etapes": [
+          "Entrer dans le jeu une fois : « le doudou a fini, à ton tour », l'imitation fait souvent le reste.",
+          "Manger toi-même en même temps : il copie ce qu'il voit bien plus qu'il n'écoute ce qu'on lui dit.",
+          "Ne pas transformer chaque bouchée en jeu : l'avion et le train donnent une bouchée et en coûtent trois.",
+          "Distinguer les deux moments : la dînette reste sur le côté, l'assiette reste devant lui.",
+          "Refermer nettement : « le repas est terminé », et le jeu continue ailleurs s'il en a envie."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Hors du repas : jouer à manger pour de bon",
+        "etapes": [
+          "Sortir la dînette au calme : faire manger les peluches, mettre la table, servir tout le monde.",
+          "Lui donner de vrais objets : une petite cuillère, un bol, un verre, le jeu gagne à ressembler au réel.",
+          "Rejouer le repas d'avant : ce qu'il a vécu à table se digère mieux quand il le remet en scène.",
+          "Nommer ce qu'il fait : « tu donnes la soupe au doudou », les mots arrivent avec le jeu.",
+          "Arrêter quand il change d'activité : le jeu a fait son travail, il n'a pas besoin d'être prolongé."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Garder une durée de repas courte : le faire-semblant occupe surtout le temps où la faim est passée.",
+        "Manger tous ensemble : la table partagée donne au jeu un modèle à imiter au lieu d'un vide à remplir.",
+        "Laisser un doudou assis à côté, pas dans l'assiette : la place du jeu est visible et elle a une limite.",
+        "Lui confier un rôle réel : servir le pain ou distribuer les serviettes lui donne mieux que du semblant."
+      ],
+      "principe": "Le faire-semblant est une compétence neuve, et une compétence neuve s'exerce partout, y compris là où elle dérange. Ce qui se cadre n'est pas le jeu lui-même, c'est le moment où le repas se termine.",
+      "erreurs_a_eviter": [
+        "Nourrir à l'avion pour faire passer les bouchées : l'attention se déplace du goût vers le spectacle.",
+        "Interdire le jeu à table sans rien proposer ailleurs : le besoin ne disparaît pas, il ressort au repas suivant.",
+        "Rire de chaque cuillère vide qu'il te tend : le geste devient un numéro qui remplace le repas.",
+        "Prolonger la table en espérant qu'il finisse par manger : le jeu prend toute la place que le temps lui laisse."
+      ],
+      "consulter_si": "Consulter si : ton enfant fait semblant à tous les repas sans jamais rien avaler depuis plusieurs semaines, s'il perd du poids, si sa courbe s'infléchit, ou s'il ne porte plus rien à sa bouche → pédiatre, médecin traitant ou PMI, qui pourront orienter vers une diététicienne pédiatrique ou un psychologue de la petite enfance."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Le raisin entier / Il a failli s'étouffer",
+      "titre": "Reprendre le repas après la frayeur",
+      "explication": "Un raisin entier a exactement la forme et la taille qui bouchent une trachée d'enfant, et il glisse. C'est pour cela que les repères officiels demandent de couper les aliments mous, ronds ou ovales avant de les servir, et d'écarter les aliments petits, durs et ronds jusqu'à cinq ans. Après un épisode comme celui-là, deux choses se jouent en même temps : ce que tu changes concrètement dans l'assiette, et ce que ta peur fait au repas. À vingt mois, un enfant lit très bien la tension d'un adulte, et il l'attribue à ce qu'il a dans la bouche.",
+      "ancrage": "Ta peur est justifiée, il s'en est fallu de peu. Elle a sa place dans la façon dont tu prépares l'assiette, elle n'a rien à faire dans la façon dont tu le regardes manger.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : aux repas qui suivent",
+        "etapes": [
+          "Fendre en deux dans la longueur : c'est la forme ronde qui bouche, pas la taille du morceau.",
+          "Ce qui attend encore quelques années : tout ce qui est petit, dur et sec, des fruits à coque aux bonbons, en passant par le pop-corn et la carotte crue.",
+          "Reprendre les mêmes aliments : revenir en arrière sur les textures entretient la peur des deux côtés.",
+          "Se placer à côté, pas en face : ton regard fixé sur sa bouche lui apprend qu'il y a de quoi s'inquiéter.",
+          "Respirer avant de servir : deux respirations lentes, expiration plus longue, avant qu'il s'installe."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Si ça arrive : le geste qui débloque",
+        "etapes": [
+          "Il tousse, il crie, il pleure : l'air passe, on ne touche à rien et on reste tout près de lui.",
+          "Le silence est le signal : plus un bruit, le visage qui change, les mains qui montent vers la gorge.",
+          "Appeler et agir en même temps : le 15 ou le 112 en haut-parleur, sans attendre qu'on décroche.",
+          "Cinq claques dos : penché vers l'avant, la paume ouverte, entre les deux épaules, sans retenir son geste.",
+          "Cinq poussées ventre : à genoux derrière lui, le poing au creux de l'estomac, on remonte, puis on recommence l'alternance."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Faire vérifier après l'épisode : une toux qui traîne ou un souffle bruyant s'examine, même si l'aliment est ressorti.",
+        "Écrire ce qui se coupe : une note sur le frigo évite d'avoir à y penser à chaque repas, et elle vaut pour qui le garde.",
+        "Passer le relais quelques repas : si la peur te bloque, laisser l'autre parent servir aide les deux.",
+        "En parler si l'angoisse persiste : la PMI, le pédiatre ou un psychologue accompagnent une peur qui s'installe."
+      ],
+      "principe": "Ce qui protège se décide dans la cuisine, avant que l'assiette parte. La vigilance pendant le repas ne rattrape pas un aliment mal préparé, et elle transmet à l'enfant une inquiétude qui ne lui appartient pas.",
+      "erreurs_a_eviter": [
+        "Revenir aux purées après la frayeur : la mastication cesse de progresser et la difficulté revient plus tard.",
+        "Lui raconter ce qui a failli arriver : à vingt mois il retient la peur, pas la leçon.",
+        "Surveiller chaque bouchée en retenant ton souffle : il mange moins, et il mange mal.",
+        "Considérer qu'un aliment déjà avalé sans problème est sûr : la découpe se fait à chaque fois, sans exception."
+      ],
+      "consulter_si": "Consulter si : il ne fait plus aucun bruit et que sa respiration se bloque → appeler immédiatement le 15 ou le 112. Consulter si, par ailleurs : il garde une toux, une respiration bruyante ou une gêne après l'épisode, s'il vomit, s'il refuse toute nourriture solide depuis, ou si tu redoutes chaque repas depuis ce jour-là → pédiatre ou médecin traitant, sans délai.",
+      "source": "Source : ne pas donner d'aliments petits, durs et ronds avant 5 ans et couper les aliments mous, ronds ou ovales, Santé publique France, programme national nutrition santé (mangerbouger.fr) ; conduite à tenir en cas d'inhalation de corps étranger, Assurance Maladie, ameli.fr."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Le refus du changement / Il veut son bol et sa place",
+      "titre": "Assouplir un rituel sans le casser",
+      "explication": "À vingt mois, ton enfant vit dans un monde qui change sans lui demander son avis, et il découvre qu'il peut en fixer quelques morceaux. Le bol bleu, la place à gauche, la cuillère à manche rouge : ces détails ne sont pas des caprices, ce sont des points d'appui. Ils rassurent réellement, et beaucoup d'enfants mangent mieux quand ils sont respectés. La question n'est donc pas de les faire tomber, mais d'éviter qu'ils deviennent si nombreux qu'un repas chez quelqu'un d'autre devienne impossible.",
+      "ancrage": "Céder sur le bol n'est pas céder sur le fond. Tu peux accorder ce qui ne coûte rien, et garder ton énergie pour les quelques choses qui comptent vraiment.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : quand il refuse ce qui a changé",
+        "etapes": [
+          "Accorder ce qui est possible : si le bol est propre, le lui donner règle le repas en trois secondes.",
+          "Nommer ce qu'il vit : « tu voulais le bleu », dit calmement, avant toute autre chose.",
+          "Dire simplement quand ce n'est pas possible : « il est au lave-vaisselle », sans excuse ni discussion.",
+          "Proposer un choix de remplacement : « le vert ou le jaune ? », il décide quelque chose et la tension tombe.",
+          "Tenir la fin : si la crise arrive, on l'accompagne, on ne ressort pas le bol bleu au milieu."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : traverser le refus sans forcer",
+        "etapes": [
+          "S'accroupir à sa hauteur : le refus se reçoit face à face, pas depuis l'autre bout de la cuisine.",
+          "Poser une main large sur son dos : un contact immobile pendant que la contrariété passe.",
+          "Ralentir ta voix plutôt que la baisser : c'est le rythme qui l'apaise, plus que le volume.",
+          "Attendre sans rien demander : on ne raisonne pas pendant la vague, on est là pendant qu'elle passe.",
+          "Reprendre le repas quand ses épaules retombent : c'est le signe, pas l'arrêt des larmes."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Faire tourner les objets doucement : changer une chose de temps en temps, pas tout le même jour.",
+        "Garder deux ou trois rituels solides : ceux qui l'aident vraiment se protègent, les autres s'assouplissent.",
+        "Préparer les repas ailleurs : chez les grands-parents ou au restaurant, annoncer à l'avance ce qui sera différent.",
+        "Emporter un objet familier en déplacement : sa cuillère dans le sac évite un repas entier de bataille."
+      ],
+      "principe": "Un rituel est une béquille utile, à condition de rester une parmi quelques-unes. Ce qui se surveille n'est pas l'attachement à un objet, c'est le nombre de conditions sans lesquelles le repas devient impossible.",
+      "erreurs_a_eviter": [
+        "Tout accorder pour éviter la crise : les conditions se multiplient et le moindre déplacement devient un problème.",
+        "Tout refuser par principe : on transforme un besoin de sécurité en rapport de force quotidien.",
+        "Changer plusieurs repères le même jour : l'accumulation dépasse ce qu'il peut absorber à cet âge.",
+        "Se moquer gentiment de son bol devant les autres : il défendra son rituel d'autant plus fort."
+      ],
+      "consulter_si": "Consulter si : les conditions du repas se multiplient au point que ton enfant ne peut plus manger ailleurs qu'à sa place habituelle, si elles s'étendent à l'habillage, au coucher et aux trajets, si elles s'accompagnent d'une détresse importante au moindre imprévu, ou s'il refuse de s'alimenter quand l'une d'elles manque → pédiatre, médecin traitant ou PMI, qui pourront orienter vers un psychologue de la petite enfance."
+    }
+  ]
+}

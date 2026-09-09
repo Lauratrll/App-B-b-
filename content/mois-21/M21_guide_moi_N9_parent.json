@@ -1,0 +1,192 @@
+{
+  "mois": 21,
+  "tranche_age": "21 mois",
+  "categorie": {
+    "id": "parent",
+    "nom": "Parents submergés",
+    "sous_titre": "La peur, l'imitation, la morsure, les règles",
+    "icone": "🫶"
+  },
+  "protocoles": [
+    {
+      "categorie": "parent",
+      "situation": "Sa peur engendre la mienne / J'ai plus peur que lui",
+      "titre": "Ce que ma peur ajoute à la sienne",
+      "explication": "Il s'est mis à hurler devant l'aspirateur, et tu as senti ton propre cœur s'emballer. Vers vingt et un mois arrivent les premières vraies peurs : le noir, l'aspirateur, l'eau qui s'écoule, un chien, un bruit soudain. C'est un progrès et non un problème, car avoir peur demande de l'imagination : se représenter ce qui pourrait arriver est une acquisition. Ce qui complique tout, c'est quand la peur de l'enfant réveille celle de l'adulte. Le corps du parent se tend, la voix se serre, et l'enfant lit ce corps-là bien avant les mots rassurants.",
+      "ancrage": "Tu n'as pas à ne rien ressentir. Tu as à ne pas lui renvoyer la tienne en plus de la sienne.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : au moment où il a peur",
+        "etapes": [
+          "Vérifier ton corps d'abord : épaules, mâchoire, voix, avant de dire quoi que ce soit.",
+          "Nommer sans dramatiser : « tu as eu peur du bruit », et rien de plus.",
+          "Ne pas rassurer trois fois : rassurer trop confirme qu'il y avait de quoi avoir peur.",
+          "Montrer ce que c'est : ouvrir le placard, toucher l'aspirateur éteint, regarder ensemble.",
+          "Rester à côté sans le forcer : il approchera à son rythme, ou pas ce soir."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : faire redescendre la tienne d'abord",
+        "etapes": [
+          "Desserrer la mâchoire avant de parler : c'est elle qui trahit le plus vite.",
+          "Poser une main sur ton propre ventre : sentir le souffle, 10 secondes, avant de le rassurer.",
+          "Ralentir volontairement tes gestes : il cale les siens sur les tiens.",
+          "Baisser la voix d'un ton : plus bas que d'habitude, et pas plus doux.",
+          "Attendre 3 secondes avant de répondre : le temps que ton corps redescende."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Repérer ce qui t'appartient : une peur ancienne à toi se reconnaît à ce qu'elle serre le ventre.",
+        "Laisser l'autre parent gérer celle qui te touche : il la portera plus légèrement.",
+        "Préparer l'objet de la peur au calme : lire un livre sur le noir en pleine journée.",
+        "Trier les images et les histoires : à cet âge, c'est encore à l'adulte de le faire."
+      ],
+      "principe": "Un enfant mesure le danger sur le visage de son parent avant de le mesurer sur le monde. Ce qui le rassure n'est pas ce qu'on lui dit, c'est ce que notre corps montre pendant qu'on le dit.",
+      "erreurs_a_eviter": [
+        "Se moquer gentiment : « il n'y a rien » lui apprend que ce qu'il ressent ne compte pas.",
+        "Forcer le contact avec ce qui l'effraie : une exposition imposée ancre au lieu d'éteindre.",
+        "Multiplier les protections : veilleuse, porte, doudou, tout à la fois, dit que le danger est réel.",
+        "Raconter sa propre frayeur devant lui : il l'adopte plus vite qu'on ne le croit."
+      ],
+      "consulter_si": "Consulter si : la peur l'empêche de dormir plusieurs semaines, s'il refuse des situations ordinaires du quotidien, ou si elle s'étend à de plus en plus de choses → en parler au médecin ou à la PMI. Et si c'est la tienne qui devient envahissante, elle se parle aussi. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+    },
+    {
+      "categorie": "parent",
+      "situation": "L'aide qui complique tout / Il défait ce que je range",
+      "titre": "L'inclure sans y passer la soirée",
+      "explication": "Tu as plié le linge pendant qu'il le sortait du panier, un vêtement à la fois, très concentré. À vingt et un mois, il veut faire comme toi, et c'est un progrès. Mais son aide n'en est pas encore une : il vide le panier pendant que tu le remplis, il sort les assiettes que tu ranges, il emporte le linge propre dans la mauvaise pièce. Il ne défait pas exprès. Il refait le geste qu'il vient de voir, parce que c'est ainsi qu'il apprend, et le sens de la tâche lui échappe encore complètement.",
+      "ancrage": "Le refuser te pèse, et le laisser faire te pèse aussi. Il existe un troisième chemin : lui donner une tâche qui ne défait pas la tienne.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : lui donner autre chose à faire",
+        "etapes": [
+          "Lui ouvrir un chantier à côté : sa pile de linge, son bac, son éponge, à lui.",
+          "Lui confier la fin et pas le début : appuyer sur le bouton, fermer le tiroir, poser le dernier.",
+          "Travailler dans l'autre sens : commencer par ce qu'il ne peut pas défaire.",
+          "Dire non sans le renvoyer : « pas celui-là, viens, tu prends celui-ci ».",
+          "Arrêter avant que ça dérape : 2 minutes de vraie participation valent mieux que dix de conflit."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : quand il défait pour la troisième fois",
+        "etapes": [
+          "Poser ce que tu tiens : les mains vides désamorcent l'agacement plus vite que la volonté.",
+          "Sortir de la pièce 10 secondes : le temps que la pile redevienne une pile.",
+          "Relâcher la mâchoire : c'est là que l'agacement se voit en premier.",
+          "Regarder ce qu'il fabrique : il y a souvent une logique, elle n'est simplement pas la tienne.",
+          "Reprendre plus tard : la tâche attendra, l'envie de participer, non."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Choisir les tâches qui supportent son aide : le linge, la table, l'arrosage, jamais le rangement fin.",
+        "Garder les tâches fragiles hors de sa présence : pendant la sieste, ou quand il est gardé.",
+        "Lui donner un espace à défaire et refaire : une boîte, un tiroir, un panier bien à lui.",
+        "Se rappeler ce que cela prépare : ce qu'on refuse aujourd'hui se redemandera dans trois ans."
+      ],
+      "principe": "Un enfant de cet âge ne cherche pas à aider, il cherche à faire pareil. Ce n'est donc pas de l'aide qu'on lui confie, c'est une tâche à lui, menée à côté de la tienne.",
+      "erreurs_a_eviter": [
+        "L'écarter systématiquement : l'envie de participer ne revient pas quand on l'a refusée longtemps.",
+        "Le laisser tout faire pour ne pas le vexer : la soirée y passe, et l'agacement finit par sortir.",
+        "Lui expliquer pourquoi c'est mal rangé : la logique du rangement ne s'attrape pas à cet âge.",
+        "Attendre qu'il soit plus grand pour l'inclure : à quatre ans, il n'en aura plus envie."
+      ],
+      "consulter_si": "Consulter si : la fatigue ne cède plus au repos, si la tristesse dure depuis plus de deux semaines, ou si plus rien ne te fait envie → en parler à ton médecin, à la sage-femme ou à la PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+    },
+    {
+      "categorie": "parent",
+      "situation": "La conversation avec l'autre parent / Il a mordu",
+      "titre": "Poser la limite, et lui prêter les mots",
+      "explication": "La professionnelle t'attend avec un mot dans la main et un air désolé. Ton fils a mordu, et un autre parent va l'apprendre ce soir. Mordre, à vingt et un mois, n'est presque jamais de l'agressivité. C'est le geste d'un enfant qui n'a pas encore les mots pour dire l'excitation, la frustration ou le trop-plein, et la bouche est ce qu'il a de plus rapide. Il ne mesure pas non plus la douleur qu'il provoque : cette compréhension-là vient plus tard. Cela ne veut pas dire qu'on laisse faire, mais que la limite s'apprend en la répétant, calmement, autant de fois qu'il le faudra.",
+      "ancrage": "Tu n'as ni à défendre ton enfant ni à t'excuser d'être son parent. Tu as deux choses à faire : lui dire non clairement, et traverser une conversation courte.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : d'abord l'enfant, ensuite l'adulte",
+        "etapes": [
+          "S'occuper d'abord de celui qui a mal : le consoler devant ton enfant, il apprend en regardant.",
+          "Dire non, court et ferme : « on ne mord pas, ça fait mal », en le regardant.",
+          "Nommer ce qu'il voulait : « tu voulais le camion, et tu ne savais pas comment le dire ».",
+          "Lui donner le mot à la place : « tu peux dire non », ou « à moi », et le lui faire répéter.",
+          "Reconnaître court auprès de l'autre parent : « je suis désolée », et rien de plus."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Retrouver le contact : après avoir posé la limite",
+        "etapes": [
+          "Rester près de lui : il vient d'être repris, il a besoin de savoir que le lien tient.",
+          "Poser une main à plat dans son dos : appui léger et maintenu, quelques secondes.",
+          "Ne pas reparler de la morsure : c'est fait, et il ne le retiendra pas mieux en boucle.",
+          "Reprendre une activité calme : sortir de l'endroit et du groupe où cela s'est joué.",
+          "S'arrêter à sa demande : s'il se dégage, on le laisse et on reste à côté."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Lui donner d'autres moyens de dire : un mot simple, un signe, et venir chercher un adulte.",
+        "Proposer un objet à mordre : un anneau, un tissu, quelque chose d'autorisé et toujours accessible.",
+        "Repérer les moments à risque : la fin de journée, la faim, un espace trop petit, trop de monde.",
+        "Passer la main au professionnel : la crèche ou l'assistante maternelle a vu, c'est son rôle de raconter. Sans professionnel, rester factuelle et s'écarter."
+      ],
+      "principe": "Une morsure à cet âge dit un débordement, pas une intention. La limite se pose à chaque fois, dans les mêmes mots, et ce qui la fait tenir n'est pas la punition : c'est de lui donner un autre moyen de dire la même chose.",
+      "erreurs_a_eviter": [
+        "Punir en rentrant : le lien entre le geste et la punition est rompu depuis longtemps.",
+        "Lui faire dire pardon devant tout le monde : la honte publique n'apprend rien à cet âge.",
+        "Mordre pour lui montrer : le geste enseigne exactement ce qu'on voulait éviter.",
+        "Se contenter d'interdire : privé d'une autre façon de le dire, il recommencera la fois suivante."
+      ],
+      "consulter_si": "Consulter si : les morsures se répètent plusieurs fois par semaine malgré les aménagements, si elles visent toujours le même enfant, ou si elles s'accompagnent d'autres gestes qui blessent → en parler à l'équipe, au médecin ou à la PMI."
+    },
+    {
+      "categorie": "parent",
+      "situation": "L'éducation sans relais / Je pose toutes les règles",
+      "titre": "Sortir du rôle du parent qui dit non",
+      "explication": "« Demande à ta mère. » Tu l'as entendu trois fois cette semaine, et à chaque fois c'est toi qui as dû dire non. Quand une seule personne pose les règles, il ne se passe pas seulement qu'elle s'épuise : les rôles se figent. L'un devient celui qui cadre, l'autre celui avec qui c'est facile. L'enfant l'apprend très vite et s'adresse à chacun selon ce qu'il veut obtenir. Ce n'est pas de la manipulation, c'est de l'observation, et cela renforce le déséquilibre un peu plus à chaque fois.",
+      "ancrage": "Tu n'es pas plus sévère. Tu es seulement la seule personne à porter la part qui n'est agréable pour personne.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : sortir du face-à-face",
+        "etapes": [
+          "Nommer le déséquilibre hors de sa présence : le constat, jamais le reproche.",
+          "Choisir trois règles à porter à deux : les mêmes mots, les mêmes limites, chez l'un comme chez l'autre.",
+          "Le laisser les poser devant toi : ne pas reprendre, même si la formulation diffère.",
+          "Ne pas intervenir quand il s'en occupe : intervenir une fois annule le partage.",
+          "Prendre le rôle agréable à ton tour : le jeu, le bain, ce qui fait rire."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Retrouver le contact : reprendre une place agréable",
+        "etapes": [
+          "Faire une chose sans consigne avec lui : 10 minutes où tu ne demandes rien.",
+          "Le laisser mener : il choisit, tu suis, sans corriger.",
+          "Poser une main à plat dans son dos : appui léger et maintenu, quelques secondes.",
+          "Rire d'abord, cadrer après : l'ordre change ce qu'il retient de toi.",
+          "S'arrêter à sa demande : s'il part jouer, on le laisse partir."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Décider les règles à deux, au calme : celles qui ne sont pas décidées ensemble ne tiennent pas.",
+        "Les écrire quelque part : ce qui est écrit ne se renégocie pas chaque soir.",
+        "Alterner qui tient la fin de journée : c'est le créneau où le rôle se fige.",
+        "Sans autre parent, s'appuyer sur ceux qui gardent : leur demander de tenir les mêmes trois règles."
+      ],
+      "principe": "Un enfant n'a pas besoin d'un parent gentil et d'un parent sévère, il a besoin de deux adultes qui disent la même chose. Partager les règles n'allège pas seulement la charge, cela empêche les rôles de se figer.",
+      "erreurs_a_eviter": [
+        "Reprendre l'autre quand il pose mal la règle : il cesse d'en poser, et tout revient.",
+        "Se plaindre devant l'enfant : il apprend que la règle est un sujet de dispute.",
+        "Attendre que l'autre propose : ce qui n'est pas nommé ne se voit pas.",
+        "Vouloir tout tenir à l'identique : trois règles communes suffisent, le reste peut différer."
+      ],
+      "consulter_si": "Consulter si : les tensions tournent régulièrement en disputes devant l'enfant, ou si tu ne te sens pas en sécurité chez toi → en parler à ton médecin ou à la PMI. Violences dans le couple, physiques, verbales, psychologiques ou économiques : le 3919, gratuit et anonyme. En cas de danger immédiat, le 17 ou le 15."
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "mois": 17,
+  "tranche_age": "17 mois",
+  "categorie": {
+    "id": "alim",
+    "nom": "Alimentation",
+    "sous_titre": "Repas en collectivité, envies, morceaux, bras de fer",
+    "icone": "🍲"
+  },
+  "protocoles": [
+    {
+      "categorie": "alim",
+      "situation": "Le repas à la crèche / Il mange à la maison, pas là-bas",
+      "titre": "Travailler avec l'équipe, pas contre lui",
+      "explication": "Manger demande d'être détendu, et un tout-petit ne l'est pas de la même façon partout. À la crèche ou chez l'assistante maternelle, il y a du bruit, d'autres enfants, des odeurs inconnues, une cuillère qui n'est pas la tienne et des plats qu'il n'a jamais vus. Beaucoup d'enfants mangent alors très peu et rattrapent le soir ou le week-end. À dix-sept mois, cet écart est fréquent, et il se réduit à mesure que le lieu devient familier, souvent en quelques semaines.",
+      "ancrage": "Il ne se prive pas, il attend d'être en confiance. Ton travail n'est pas de le nourrir à distance : il est de comprendre ce qui se passe, et de ne pas déséquilibrer le soir.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : au retour, le soir",
+        "etapes": [
+          "Proposer un vrai goûter : consistant et à l'heure, il rentre souvent avec une faim en retard.",
+          "Servir un dîner normal : ni double portion, ni plat de compensation, ni supplément de dessert.",
+          "Ne pas commenter sa journée devant lui : « il paraît que tu n'as rien mangé » installe le sujet pour longtemps.",
+          "Accepter qu'il mange beaucoup ce soir-là : le rattrapage est logique et il n'a rien d'inquiétant.",
+          "Garder l'heure du coucher : un dîner qui s'étire pour compenser abîme la nuit sans remplir l'estomac."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Observer bébé : ce que dit sa journée entière",
+        "etapes": [
+          "Additionner les quatre repas : petit déjeuner, ce qui a été mangé là-bas, goûter et dîner se lisent ensemble.",
+          "Repérer le vrai creux : s'il rentre affamé, il a peu mangé ; s'il rentre calme, il a mangé plus qu'on ne t'a dit.",
+          "Regarder les jours sans garde : ce qu'il mange le week-end donne son appétit réel.",
+          "Suivre son entrain de fin de journée : un enfant qui joue en rentrant n'est pas un enfant qui a faim.",
+          "Compter en semaines : l'écart entre les lieux se referme en général sur quelques semaines."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Demander le détail à l'équipe : ce qu'il a goûté, ce qu'il a refusé, où il est assis et à côté de qui.",
+        "Faire circuler ses repères : son plat préféré, sa façon de tenir sa cuillère, ce qui le met en confiance à table.",
+        "Servir chez toi un plat du menu de là-bas : le retrouver à la maison le rend familier pour la fois suivante.",
+        "Demander une pesée au suivi médical si le doute dure : quelques minutes suffisent à lever plusieurs semaines d'inquiétude."
+      ],
+      "principe": "Un enfant mange là où il se sent en sécurité, et la sécurité s'installe par la répétition, pas par l'insistance. Ce qui se joue à la crèche se règle avec l'équipe, jamais dans l'assiette du soir.",
+      "erreurs_a_eviter": [
+        "Compenser le soir par une double portion : il perd son rythme et mange encore moins le lendemain là-bas.",
+        "Le questionner sur ce qu'il a mangé : à cet âge il n'a pas les mots, et il perçoit surtout ton inquiétude.",
+        "Demander à l'équipe de le faire manger davantage : la pression au repas produit exactement l'effet inverse.",
+        "Envoyer ses propres plats sans en parler : cela l'écarte du repas commun, qui est justement ce qui l'aidera."
+      ],
+      "consulter_si": "Consulter si : ton enfant ne mange presque rien ni à la maison ni en garde, s'il perd du poids, si sa courbe s'infléchit d'un rendez-vous à l'autre, s'il refuse aussi de boire là-bas, ou si l'écart ne se réduit pas après plusieurs mois d'adaptation → pédiatre, médecin traitant ou PMI, qui pourront orienter vers une diététicienne pédiatrique.",
+      "source": "Source : quatre repas par jour et repères alimentaires des enfants de 1 à 3 ans, Assurance Maladie, ameli.fr ; ne pas forcer et respecter l'appétit, repères pédiatriques mpedia.fr (AFPA) ; surveillance de la courbe de croissance, Haute Autorité de Santé."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Les envies alimentaires / Il veut ce que je lui refuse",
+      "titre": "Inclure sans tout autoriser",
+      "explication": "À dix-sept mois, ton enfant repère très bien ce qui se passe dans les assiettes des autres, et il réclame ce qu'il voit. Derrière la demande, il y a rarement le goût d'un aliment précis : il y a l'envie d'appartenir au repas et de faire comme les grands. Beaucoup de refus deviennent alors inutiles, parce qu'on peut lui donner la même chose sous une forme qui lui convient. Restent quelques vraies limites, et elles tiennent en trois mots : le sel, le sucre, et les morceaux à risque.",
+      "ancrage": "Tu peux dire oui bien plus souvent que tu ne le crois, à condition d'adapter la forme. Les quelques non qui restent seront plus faciles à tenir parce qu'ils seront rares.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : quand il réclame ton assiette",
+        "etapes": [
+          "Trier vite : est-ce trop salé, trop sucré, un morceau à risque, ou rien de tout cela ?",
+          "Dire oui si rien ne s'y oppose : la même chose, coupée ou écrasée, servie dans son assiette à lui.",
+          "Donner la vraie raison quand c'est non : « c'est trop salé pour toi », dit une fois, sans négociation.",
+          "Proposer l'équivalent tout de suite : le même plat en version douce, ou l'aliment d'à côté qui lui va.",
+          "Ne pas revenir dessus : une limite répétée trois fois devient une conversation, et la conversation nourrit la demande."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Hors du repas : cuisiner sa version à lui",
+        "etapes": [
+          "Prélever avant d'assaisonner : sa part sort de la casserole avant le sel, l'épice et la sauce.",
+          "Le faire participer à sa part : mélanger, écraser, verser, il voit que c'est le même plat.",
+          "Couper avec lui : il pose les morceaux dans son assiette, la découpe devient un geste partagé.",
+          "Goûter ensemble en même temps : la première bouchée prise à deux vaut mieux que dix encouragements.",
+          "Arrêter s'il s'agite : on sert et on passe à table, la cuisine n'est pas un test."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Cuisiner sans sel ajouté : on sale ensuite dans les assiettes des adultes, personne n'est privé de rien.",
+        "Limiter le sucré avant trois ans : biscuits, chocolat et confiseries restent occasionnels, pas quotidiens.",
+        "Garder l'eau comme seule boisson : jus et sirops se remplacent par de l'eau, y compris les versions allégées.",
+        "Écarter durablement les aliments à risque : les petits durs et ronds comme la cacahuète ne se donnent pas avant cinq ans."
+      ],
+      "principe": "Ce qu'il réclame, c'est presque toujours de faire partie du repas, et pas l'aliment lui-même. Un non qui s'accompagne d'un équivalent immédiat ferme la demande ; un non seul l'entretient.",
+      "erreurs_a_eviter": [
+        "Manger devant lui ce qu'on lui refuse : la règle devient incompréhensible et la demande se répète chaque soir.",
+        "Céder après 5 minutes d'insistance : il apprend combien de temps tenir, et il tiendra ce temps-là la prochaine fois.",
+        "Multiplier les interdits pour simplifier : plus la liste est longue, moins chaque non a de poids.",
+        "Transformer un aliment refusé en récompense de fin de repas : le sucré prend alors une valeur qu'il n'a pas."
+      ],
+      "consulter_si": "Consulter si : ton enfant ne mange plus que des produits sucrés ou très salés, s'il refuse tous les plats préparés à la maison, s'il prend du poids très rapidement ou si sa courbe s'écarte de sa ligne habituelle → pédiatre, médecin traitant ou PMI. Une diététicienne pédiatrique peut aider à rééquilibrer sans régime.",
+      "source": "Source : modérer le sel, limiter les aliments gras et sucrés, l'eau comme seule boisson nécessaire, repères alimentaires des enfants de 1 à 3 ans, Assurance Maladie, ameli.fr ; ne pas donner d'aliments petits, durs et ronds avant 5 ans, Santé publique France, programme national nutrition santé (mangerbouger.fr)."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Les morceaux qui bloquent / Il s'étouffe facilement",
+      "titre": "Préparer l'assiette avant de servir",
+      "explication": "Certains enfants gardent longtemps une bouche qui se laisse surprendre : la mastication est encore inégale, le morceau part en arrière avant d'avoir été broyé, et la toux arrive. À dix-sept mois, cela ne veut pas dire qu'il y a un problème, mais cela veut dire que la découpe compte davantage chez lui que chez un autre. Deux repères officiels tiennent presque tout : les aliments petits, durs et ronds ne se donnent pas avant cinq ans, et les aliments mous, ronds ou ovales se coupent avant d'arriver dans l'assiette.",
+      "ancrage": "Tu n'as pas à surveiller chaque bouchée, tu as à préparer l'assiette en amont. Ce qui est bien coupé avant de partir à table n'a plus besoin d'être surveillé pendant.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : au moment de préparer l'assiette",
+        "etapes": [
+          "Couper le rond et l'ovale : tomate cerise, raisin, olive, mozzarella, saucisse, rien n'arrive entier.",
+          "Écarter jusqu'à cinq ans : cacahuètes, noisettes, amandes, bonbons durs, pop-corn, morceaux de carotte crue.",
+          "Retirer ce qui file : peaux de fruits, gros nerfs de viande, arêtes, fils de haricot ou de céleri.",
+          "Assis et tourné vers sa table : le tronc droit, pas de dos, pas debout, pas en marchant.",
+          "Un adulte à table du début à la fin : pas dans la cuisine à côté, à table avec lui."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Si ça arrive : le geste qui débloque",
+        "etapes": [
+          "Toux, cris, larmes : tout ce qui fait du bruit signifie que l'air passe, on n'intervient pas et on reste près de lui.",
+          "Le silence est le signal : plus un son, le visage qui vire, les mains qui vont à la gorge.",
+          "Un adulte appelle, l'autre agit : le 15 ou le 112 en haut-parleur, et les gestes commencent tout de suite.",
+          "Cinq claques entre les omoplates : penché en avant, du plat de la main, fermement.",
+          "Cinq compressions abdominales : à genoux derrière lui, le poing entre nombril et sternum, vers le haut, puis on alterne."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Faire une liste sur le frigo : ce qui se coupe et ce qui attend, lisible par toute personne qui le nourrit.",
+        "Prévenir la famille élargie : c'est souvent chez les grands-parents que la cacahuète arrive dans une main.",
+        "Travailler la mastication autrement : bâtonnets fermes à croquer plutôt que petits morceaux à avaler.",
+        "Faire vérifier après un épisode marquant : une toux qui traîne ou un souffle bruyant s'examine, même si l'aliment est ressorti."
+      ],
+      "principe": "La sécurité d'un repas se joue dans la cuisine, avant qu'il soit servi, et non dans la vigilance pendant qu'il mange. Un enfant ne peut pas apprendre à se protéger d'un aliment qui n'aurait pas dû arriver dans son assiette.",
+      "erreurs_a_eviter": [
+        "Se fier à ce qu'il a réussi une fois : un aliment avalé sans encombre hier peut bloquer demain.",
+        "Le laisser manger dans la voiture ou en poussette : le corps en mouvement rend la fausse route plus facile.",
+        "Mettre les doigts dans sa bouche pour attraper un morceau : le geste enfonce plus souvent qu'il ne retire.",
+        "Repasser tout au mixeur après une frayeur : la mastication cesse de progresser et la difficulté revient plus tard."
+      ],
+      "consulter_si": "Consulter si : le bruit s'arrête et que sa respiration se bloque → appeler immédiatement le 15 ou le 112. Consulter si, par ailleurs : il tousse à presque tous les repas, s'il garde une toux ou une respiration bruyante après un épisode, si un aliment ressort par le nez, ou si la gêne à avaler existe aussi avec les liquides → pédiatre ou médecin traitant sans délai, qui pourront orienter vers un orthophoniste ou un examen ORL.",
+      "source": "Source : ne pas donner d'aliments petits, durs et ronds avant 5 ans, couper les aliments mous ronds ou ovales, enfant assis et surveillé pendant tout le repas, Santé publique France, programme national nutrition santé (mangerbouger.fr) ; conduite à tenir en cas d'inhalation de corps étranger, Assurance Maladie, ameli.fr."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Le bras de fer du repas / Il refuse pour refuser",
+      "titre": "Rendre la quantité à l'enfant",
+      "explication": "Vers dix-sept mois, dire non devient une découverte en soi, et le repas est l'un des rares endroits où l'enfant a un pouvoir total : personne ne peut avaler à sa place. Quand la table est devenue un terrain de négociation, le refus n'a plus grand-chose à voir avec l'aliment. Il dit : je décide de quelque chose. Chaque insistance lui confirme qu'il tient là un levier, et le repas se transforme en épreuve de force quotidienne dont personne ne sort gagnant.",
+      "ancrage": "Tu ne peux pas gagner ce bras de fer, et c'est une bonne nouvelle : cela veut dire que tu peux le quitter. Ce que tu gardes, c'est ce que tu proposes et quand.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : au repas suivant",
+        "etapes": [
+          "Poser le partage à voix haute une fois : « je choisis ce qu'il y a, tu choisis ce que tu manges ».",
+          "Servir et se taire : plus aucun commentaire sur son assiette pendant tout le repas.",
+          "Manger ton propre repas : tourner ton attention vers ta table retire l'enjeu en quelques minutes.",
+          "Accepter le refus sans le relever : ni soupir, ni regard appuyé, ni « tant pis pour toi ».",
+          "Clore à l'heure prévue : le repas se termine quand il se termine, pas quand l'assiette est vide."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : desserrer la table",
+        "etapes": [
+          "Souffler avant de servir : deux respirations lentes pour toi, avant même qu'il s'asseye.",
+          "Baisser le décor : moins de lumière, moins de bruit, un seul adulte face à lui.",
+          "Poser une main sur son dos en passant : un contact bref, sans rien demander en échange.",
+          "Parler d'autre chose : sa journée, un jeu, le chien du voisin, tout sauf le contenu de l'assiette.",
+          "Terminer par un moment à deux : quelques minutes de câlin après la table, sans lien avec ce qu'il a mangé."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Lui donner de vrais choix ailleurs : ses chaussures, sa chanson, l'ordre du bain, le besoin de décider se rassasie aussi hors du repas.",
+        "Deux options plutôt qu'une question ouverte : « des carottes ou des courgettes » se répond, « qu'est-ce que tu veux » non.",
+        "Accorder les adultes : quand l'un insiste et l'autre lâche, l'enfant continue de chercher où est la limite.",
+        "Laisser passer une semaine avant de juger : un repas se détend en quelques jours, un climat en quelques semaines."
+      ],
+      "principe": "Le parent décide de ce qui est servi, du lieu et de l'heure. L'enfant décide de ce qu'il mange et de la quantité. Ce partage éteint la dispute, parce qu'il ne reste plus rien à se disputer.",
+      "erreurs_a_eviter": [
+        "Négocier bouchée par bouchée : chaque « encore une » lui prouve que la table est un terrain de discussion.",
+        "Punir ou priver de dessert : la nourriture prend un poids affectif qui se paie longtemps après.",
+        "Cuisiner autre chose quand il refuse : le refus devient le moyen le plus rapide d'obtenir mieux.",
+        "Raconter la scène devant lui le soir même : il s'installe dans le rôle qu'on lui décrit."
+      ],
+      "consulter_si": "Consulter si : le refus s'accompagne d'une perte de poids ou d'une cassure de la courbe, si ton enfant refuse presque tout depuis plusieurs semaines, si chaque repas se termine en crise pour toute la famille, ou si tu te sens débordée par ces moments → pédiatre, médecin traitant ou PMI. Un psychologue de la petite enfance peut aider quand le climat des repas s'est durablement tendu.",
+      "source": "Source : le parent est garant de l'offre et du cadre, l'enfant de la quantité, et ne pas forcer un enfant à manger, repères pédiatriques mpedia.fr (AFPA)."
+    }
+  ]
+}

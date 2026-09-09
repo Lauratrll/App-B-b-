@@ -1,0 +1,195 @@
+{
+  "mois": 16,
+  "tranche_age": "16 mois",
+  "categorie": {
+    "id": "alim",
+    "nom": "Alimentation",
+    "sous_titre": "Autonomie, protéines, durée du repas, boire au verre",
+    "icone": "🥄"
+  },
+  "protocoles": [
+    {
+      "categorie": "alim",
+      "situation": "La cuillère refusée / Il repousse ma main",
+      "titre": "Le laisser faire sans qu'il mange moins",
+      "explication": "À seize mois, ton enfant a compris qu'il peut faire à ta place, et repousser ta main est sa façon de le dire avant d'avoir les mots. Le problème n'est pas cette revendication, elle est saine : c'est que son geste est encore lent et coûteux. Il se fatigue avant d'avoir mangé, et il abandonne le repas non pas rassasié mais épuisé par l'effort. C'est là que la quantité réellement avalée peut chuter, alors même que tout se passe bien du point de vue de l'apprentissage.",
+      "ancrage": "Tu n'as pas à choisir entre le laisser faire et qu'il mange assez. Ces deux choses tiennent ensemble si tu déplaces ton aide au lieu de la retirer.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : quand il repousse ta main",
+        "etapes": [
+          "Retirer ta main tout de suite : insister une seconde de plus et le repas devient une lutte.",
+          "Charger sa cuillère et la lui tendre : tu prépares, il porte, personne ne perd la face.",
+          "Commencer par le plus nourrissant : ce qui compte le plus se mange pendant qu'il a encore de l'énergie.",
+          "Épaissir l'assiette : ce qui tient sur la cuillère arrive à la bouche, ce qui coule n'y arrive pas.",
+          "Proposer ton aide à la fin, une seule fois : « je t'aide pour les dernières ? », et accepter le non."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Observer bébé : ce qui entre vraiment",
+        "etapes": [
+          "La journée entière : le petit déjeuner et le goûter comptent autant que le dîner qui s'est mal passé.",
+          "Repérer le moment où il lâche : c'est souvent le geste qui fatigue avant que la faim soit passée.",
+          "Recompter le lait et les laitages : ils comblent une part de ce qui manque, et parfois davantage que prévu.",
+          "Regarder son entrain plutôt que son assiette : un enfant qui grimpe et qui râle a eu ce qu'il lui fallait.",
+          "Attendre la semaine entière : cette phase se compte en semaines, pas en repas, avant de changer quoi que ce soit."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Deux cuillères, deux mains : la sienne et la tienne travaillent en parallèle sans se disputer le même objet.",
+        "Servir des aliments qui se mangent avec les doigts : bâtonnets et dés lui font gagner en efficacité tout de suite.",
+        "Décaler le repas quand il est trop fatigué : le geste autonome demande de l'énergie qu'il n'a plus le soir tard.",
+        "En parler au suivi médical si la baisse dure : pédiatre ou PMI vérifient la croissance en quelques minutes."
+      ],
+      "principe": "Un enfant qui repousse la main de l'adulte ne refuse pas la nourriture, il refuse d'être passif. L'aide qui reste acceptable est celle qui prépare, jamais celle qui porte à sa place.",
+      "erreurs_a_eviter": [
+        "Reprendre la cuillère de force quand le temps presse : le repas suivant commencera par un refus, avant même la première bouchée.",
+        "Le nourrir pendant qu'il est distrait : il avale sans percevoir ce qu'il mange ni le moment où il est rassasié.",
+        "Compenser chaque repas raté par un biberon : la faim ne remonte plus jusqu'au repas d'après.",
+        "Attendre qu'il demande de l'aide : à cet âge il abandonne plus volontiers qu'il ne demande."
+      ],
+      "consulter_si": "Consulter si : ton enfant perd du poids, si sa courbe s'infléchit d'un rendez-vous à l'autre, s'il abandonne tous ses repas au bout de quelques bouchées depuis plusieurs semaines, s'il est pâle ou se fatigue vite → pédiatre, médecin traitant ou PMI. Une diététicienne pédiatrique peut évaluer les apports réels si le doute persiste.",
+      "source": "Source : laisser l'enfant manger seul et ne pas forcer les quantités, repères pédiatriques mpedia.fr (AFPA) ; surveillance de la courbe de croissance, Haute Autorité de Santé ; repères alimentaires des enfants de 1 à 3 ans, Santé publique France, programme national nutrition santé."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Les féculents seuls / Il ne veut ni viande ni poisson",
+      "titre": "Faire entrer la protéine autrement",
+      "explication": "Les féculents sont doux, tendres, prévisibles et faciles à mâcher. La viande et le poisson demandent l'inverse : une texture qui résiste, un goût plus marqué, parfois des fibres qui restent en bouche. À seize mois, une bouche qui apprend encore à mâcher choisit logiquement le plus simple. Il y a aussi une bonne nouvelle dans les repères français : la portion attendue à cet âge est petite, de l'ordre de trente grammes de viande ou de poisson par jour, soit environ six cuillères à café, ou le tiers d'un œuf.",
+      "ancrage": "La quantité dont il a besoin est bien plus petite que celle que tu imagines. Tu peux viser une bouchée acceptée plutôt qu'une assiette finie.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : au repas qu'il trie",
+        "etapes": [
+          "Changer la texture avant l'aliment : haché, en boulette, en croquette, mixé dans une sauce, la même viande devient mangeable.",
+          "Réduire la part : trois petits morceaux dans l'assiette valent mieux qu'une portion qui décourage d'avance.",
+          "Passer par l'œuf : brouillé, en omelette, dans un gratin, il est souvent accepté quand la viande ne l'est pas.",
+          "Associer céréales et légumes secs : semoule et pois chiches, riz et lentilles, la protéine arrive sans viande.",
+          "Ne pas retirer les féculents : les priver de ce qu'il aime ne fait pas apparaître l'envie du reste."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Hors du repas : apprivoiser la viande et le poisson",
+        "etapes": [
+          "Le laisser toucher à froid : un morceau cuit posé dans sa main, sans assiette et sans obligation.",
+          "Rouler les boulettes avec lui : les mains dans la préparation, c'est là que la méfiance tombe.",
+          "Sentir avant de goûter : nommer l'odeur du poisson qui cuit, sans lui demander ce qu'il en pense.",
+          "Écraser à la fourchette ensemble : voir l'aliment changer de forme le rend beaucoup moins impressionnant.",
+          "Arrêter dès qu'il se détourne : on range, et on recommence un autre jour sans en reparler."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Compter sur la semaine : quelques repas sans viande ni poisson dans une semaine ne posent aucun problème.",
+        "Surveiller le fer plutôt que la viande : lentilles, œuf, boudin et céréales enrichies y contribuent aussi.",
+        "Garder le lait à sa place : un excès de lait gêne l'absorption du fer et coupe l'appétit du repas.",
+        "En parler au suivi médical si le refus s'installe : pédiatre ou PMI peuvent vérifier simplement le fer."
+      ],
+      "principe": "Ce qui se refuse à seize mois, c'est presque toujours une texture avant d'être un aliment. Changer la forme ouvre bien plus de portes que répéter le même morceau dans la même assiette.",
+      "erreurs_a_eviter": [
+        "Servir la viande en morceau entier à chaque fois : c'est la forme la plus difficile à mâcher qui revient sans cesse.",
+        "Supprimer les féculents pour l'obliger à manger le reste : il finit le repas affamé et le refus se durcit.",
+        "Négocier bouchée par bouchée : l'enjeu s'installe précisément sur l'aliment qu'on veut faire entrer.",
+        "Se rassurer avec la charcuterie : trop salée et trop grasse à cet âge, elle ne remplace pas une protéine du repas."
+      ],
+      "consulter_si": "Consulter si : ton enfant refuse aussi les œufs, les laitages et les légumes secs, s'il est pâle, s'essouffle ou se fatigue anormalement vite, s'il ne prend plus de poids, ou si le refus des protéines dure depuis plusieurs mois → pédiatre, médecin traitant ou PMI, qui pourront vérifier le fer et orienter vers une diététicienne pédiatrique.",
+      "source": "Source : portion d'environ 30 g de viande ou de poisson par jour après un an, soit six cuillères à café, ou le tiers d'un œuf, Assurance Maladie, ameli.fr ; repères alimentaires des enfants de 1 à 3 ans, Santé publique France, programme national nutrition santé ; repères pédiatriques mpedia.fr (AFPA)."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Le repas sans fin / Il se lève à chaque bouchée",
+      "titre": "Un repas court avec une fin claire",
+      "explication": "À seize mois, tenir assis relève d'un effort réel : l'attention est courte, le corps réclame du mouvement, et l'envie de retourner jouer arrive bien avant que l'assiette soit vide. Se lever puis revenir n'est pas de la provocation, c'est un enfant qui alterne entre deux besoins qu'il ne sait pas encore hiérarchiser. Le repas s'étire alors sur trois quarts d'heure, l'assiette refroidit, et tout le monde en sort épuisé sans qu'il ait mangé davantage.",
+      "ancrage": "Ce qui épuise tout le monde, ce n'est pas ce qu'il mange, c'est la durée. Tu peux raccourcir sans rien perdre de ce qui entre dedans.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : quand il quitte la table",
+        "etapes": [
+          "Annoncer la fin à l'avance : « encore un peu et on aura fini », posé une fois, sans négocier.",
+          "Le laisser partir au deuxième départ : le repas se termine là, calmement et sans reproche.",
+          "Débarrasser son assiette avec lui : il porte son assiette, la fin devient un geste et non une punition.",
+          "Ne pas rouvrir 10 minutes après : ce qui a été débarrassé reste débarrassé jusqu'au repas suivant.",
+          "Tenir le goûter ou le repas suivant à l'heure : la faim revient au bon moment si rien n'arrive entre-temps."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Observer bébé : combien de temps il tient",
+        "etapes": [
+          "Regarder une fois sans rien dire : du premier au dernier vrai intérêt, c'est souvent bien plus court qu'on ne croit.",
+          "Repérer son signal d'arrêt : il quitte sa chaise, il joue avec la nourriture, il regarde ailleurs, tout cela dit la même chose.",
+          "Noter l'heure du départ : trop tôt, il avait faim depuis longtemps ; trop tard, il était fatigué avant de s'asseoir.",
+          "Comparer midi et soir : les deux repas n'ont presque jamais la même durée tenable.",
+          "Caler la table sur ce qu'il tient : on clôt avant qu'il s'échappe, pas après."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Bouger avant de s'asseoir : un temps de mouvement libre juste avant le repas rallonge le temps d'assise.",
+        "Servir tout en même temps : des plats qui arrivent l'un après l'autre allongent la table sans rien ajouter dans l'assiette.",
+        "Vérifier la chaise : pieds en appui et bonne hauteur de plateau, un corps mal calé se lève plus vite.",
+        "Accorder les adultes : une règle tenue de la même façon par tout le monde n'a pas besoin d'être répétée."
+      ],
+      "principe": "La longueur d'un repas ne fait pas la quantité mangée. Un enfant mange dans les premières minutes, et tout ce qui vient après relève de la négociation, pas de la faim.",
+      "erreurs_a_eviter": [
+        "Le rattraper à chaque fois pour le rasseoir : le va-et-vient devient le jeu le plus intéressant du repas.",
+        "Lui donner encore quelques bouchées dans le salon : le repas n'a plus de lieu, donc plus de fin.",
+        "Étirer le repas en espérant qu'il finisse : au-delà de son attention, il joue au lieu de manger.",
+        "Sortir un écran pour le fixer sur sa chaise : il reste assis, mais il ne perçoit plus ce qu'il avale."
+      ],
+      "consulter_si": "Consulter si : ton enfant ne tient jamais assis plus de quelques secondes, y compris en dehors des repas, s'il perd du poids, s'il refuse de s'alimenter au point que chaque repas se termine à vide, ou si cette agitation s'accompagne d'un retard de langage qui t'inquiète → pédiatre, médecin traitant ou PMI, qui pourront orienter vers un psychomotricien."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Le verre des grands / Il veut boire comme nous",
+      "titre": "Passer au verre et varier les façons de boire",
+      "explication": "Boire au verre ouvert est un geste plus difficile qu'il n'y paraît : incliner sans voir ce qui arrive, doser le débit avec les lèvres, et coordonner le liquide avec la respiration. À seize mois, ton enfant en a l'envie bien avant d'en avoir la précision, d'où les vagues sur la table. Les repères officiels encouragent d'ailleurs à lui proposer l'eau au verre en l'aidant : c'est en le faisant qu'il apprend, pas en attendant d'y arriver.",
+      "ancrage": "Ce qu'il renverse est le prix d'un geste qu'il ne peut apprendre qu'en le ratant. Tu peux réduire ce que ça coûte plutôt que repousser le moment.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : au moment où il veut boire seul",
+        "etapes": [
+          "Un fond d'eau seulement : deux ou trois centimètres, ce qui se renverse reste sans conséquence.",
+          "Un verre petit et lourd : un vrai verre à fond épais tient mieux qu'un gobelet léger en plastique.",
+          "Accompagner par-dessous : ta main sous la sienne pour freiner l'inclinaison, pas pour tenir à sa place.",
+          "Le laisser reposer le verre : c'est le mouvement le plus difficile, il vaut la peine d'attendre qu'il le fasse.",
+          "Éponger sans commenter : le torchon arrive, la remarque non."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Hors du repas : varier les façons de boire",
+        "etapes": [
+          "Proposer la paille : aspirer demande autre chose que téter, les lèvres se serrent autour et la langue reste en arrière.",
+          "Une paille courte : trop enfoncée dans la bouche, elle fait téter au lieu de faire aspirer, et le geste ne s'apprend pas.",
+          "Alterner les contenants : verre ouvert, verre à bec, paille, gourde, chacun demande une prise différente.",
+          "S'entraîner dans le bain : un gobelet dans l'eau, il verse et il boit sans que rien ne salisse.",
+          "S'arrêter dès qu'il s'en lasse : c'est un jeu de quelques minutes, jamais un exercice."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Garder l'eau à portée : un verre accessible dans la journée installe l'habitude de boire sans qu'on la demande.",
+        "L'eau comme seule boisson nécessaire : jus, sirops et sodas se remplacent par de l'eau, y compris allégés.",
+        "Le laisser se servir : une petite carafe légère lui donne le geste de verser, très demandé à cet âge.",
+        "Garder le biberon tant qu'il le veut : le verre s'ajoute aux façons de boire, il ne les remplace pas toutes."
+      ],
+      "principe": "Un geste nouveau s'installe en le pratiquant à petites doses et sans enjeu, pas en attendant qu'il soit maîtrisé. Multiplier les manières de boire vaut mieux que remplacer l'une par l'autre.",
+      "erreurs_a_eviter": [
+        "Remplir le verre à ras bord : la première inclinaison vide tout, et il n'a rien appris du geste.",
+        "Tenir le verre à sa place jusqu'au bout : il boit, mais sa main n'apprend rien du dosage.",
+        "Supprimer le biberon parce qu'il sait boire au verre : ce sont deux gestes différents et deux besoins différents.",
+        "Proposer un jus pour lui donner envie de boire : le sucre s'installe et l'eau devient fade à côté."
+      ],
+      "consulter_si": "Consulter si : ton enfant tousse ou s'étrangle à presque chaque gorgée, si le liquide ressort par le nez, s'il n'arrive pas du tout à fermer les lèvres autour d'un bord ou d'une paille à seize mois, ou s'il refuse de boire au point de mouiller très peu ses couches → pédiatre, médecin traitant ou PMI, qui pourront orienter vers une orthophoniste.",
+      "source": "Source : proposer l'eau au verre en aidant l'enfant, et l'eau comme seule boisson nécessaire, Santé publique France, programme national nutrition santé (mangerbouger.fr) ; repères alimentaires des enfants de 1 à 3 ans, Assurance Maladie, ameli.fr."
+    }
+  ]
+}

@@ -4,193 +4,193 @@
   "categorie": {
     "id": "sommeil",
     "nom": "Sommeil",
-    "sous_titre": "Debout dans le lit, réveil précoce, siestes",
+    "sous_titre": "Debout la nuit, réveil de l'aube, sieste, appels",
     "icone": "😴"
   },
   "protocoles": [
     {
       "categorie": "sommeil",
-      "situation": "Se réveille debout dans son lit / ne sait plus se rasseoir",
-      "titre": "Debout, coincé / entraîner la descente le jour",
-      "explication": "Il se hisse contre les barreaux, s'y agrippe — et reste bloqué debout, hurlant, incapable de se rasseoir. Le corps apprend à monter plusieurs semaines avant d'apprendre à descendre : c'est une séquence normale. Le rasseoir vingt fois par nuit ne lui apprend rien, et transforme la nuit en jeu. Ce qui résout le problème se joue en journée : lui montrer, en jeu, le geste de plier les genoux pour se rasseoir — et le laisser s'entraîner, encore et encore, sur le sol.",
-      "ancrage": "Il sait monter, pas descendre. Ce n'est pas dans son lit à minuit qu'il l'apprendra, mais au sol, en journée.",
+      "situation": "Les nuits debout / Il se réveille debout et ne sait plus se rasseoir",
+      "titre": "Traverser la nuit au plus court",
+      "explication": "Il se hisse aux barreaux dans son sommeil, se retrouve debout, et se réveille pour de bon parce qu'il ne sait pas redescendre. Chez beaucoup de bébés, cela se produit plusieurs fois dans la même nuit pendant quelques semaines. La raison est simple : le mouvement qu'il travaille toute la journée continue de se rejouer la nuit, y compris pendant le sommeil léger de fin de cycle. Ce qui se passe à minuit n'est donc pas un problème de sommeil, c'est un mouvement qui déborde sur la nuit.",
+      "ancrage": "Se relever cinq fois pour rasseoir un bébé debout, nuit après nuit, épuise vraiment. La nuit n'est pas le moment où il apprendra quoi que ce soit : elle se traverse le plus brièvement possible.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — la nuit",
+        "titre": "Action immédiate : à minuit",
         "etapes": [
-          "Le rasseoir calmement : sans allumer, sans parler beaucoup, sans en faire un jeu.",
-          "Une phrase courte, toujours la même : « il fait nuit, on dort ».",
-          "Descendre le matelas : au niveau le plus bas.",
-          "Un lit vide : matelas ferme, drap tendu, aucun objet superflu.",
-          "Repartir : sans attendre qu'il se rendorme complètement."
+          "Le rasseoir en un seul geste : sans lumière et sans commentaire, il reste dans son lit.",
+          "Une phrase toujours identique : « il fait nuit, on dort », puis plus rien.",
+          "Repartir sans attendre qu'il se rendorme : rester à côté prolonge l'éveil.",
+          "Descendre le matelas au cran le plus bas : debout, il peut basculer par-dessus les barreaux.",
+          "Attendre quelques instants avant d'entrer : il se rassoit parfois seul quand personne n'arrive."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — entraîner la descente, en jeu",
+        "titre": "Geste doux : le recoucher sans le réveiller",
         "etapes": [
-          "Montrer le geste : plier les genoux, poser les fesses — lentement, plusieurs fois par jour.",
-          "L'entraîner contre un meuble bas : au sol, en jeu, sans le faire à sa place.",
-          "Le laisser chercher : c'est en cherchant qu'il apprend, même en râlant.",
-          "Beaucoup de temps libre au sol : c'est le seul « exercice » qui compte.",
-          "S'arrêter s'il fatigue : quelques minutes suffisent."
+          "Poser d'abord une main immobile sur son dos : il perçoit une présence avant un mouvement.",
+          "Décrocher ses mains des barreaux une par une : lentement, un doigt après l'autre.",
+          "L'accompagner jusqu'au matelas sans le lâcher : le contact se maintient pendant toute la descente.",
+          "Garder ta main posée le temps d'une respiration : puis alléger avant de la retirer.",
+          "Éviter son visage et ses mains : ce sont les zones les plus réactives pendant le sommeil."
         ]
       },
       "pour_aller_plus_loin": [
-        "Sécuriser la chambre : dès qu'il se hisse, tout ce qui est à portée devient un risque.",
-        "Fixer les meubles au mur : un meuble qui bascule peut tuer.",
-        "Compter en semaines : la descente s'apprend quelques semaines après la montée.",
-        "Ne pas changer le cadre du coucher : la stabilité est le seul levier pendant la phase."
+        "Refaire le tour du lit : barreaux conformes, rien d'accroché, aucun objet à escalader à côté.",
+        "Garder le lit vide : ni coussin, ni tour de lit, ni peluche volumineuse.",
+        "Vous répartir les nuits : un parent par nuit, plutôt que deux parents à moitié réveillés.",
+        "Compter en semaines : la nuit se calme d'elle-même quand le mouvement est maîtrisé en journée."
       ],
-      "principe": "Le corps apprend à monter avant de descendre. Ce qui résout les nuits, c'est l'entraînement au sol en journée — pas le rasseoir répété.",
+      "principe": "Un mouvement en cours d'acquisition se rejoue la nuit. On ne l'enseigne pas à minuit, on limite ce qu'il coûte à tout le monde en attendant.",
       "erreurs_a_eviter": [
-        "Le rasseoir vingt fois en jouant avec lui la nuit.",
-        "Laisser le matelas en position haute.",
-        "Ajouter des coussins ou un cale-bébé pour l'empêcher de bouger.",
-        "Réduire le temps au sol par peur qu'il se fatigue."
+        "Jouer ou parler longuement en le rasseyant : la nuit devient un moment intéressant, et il rappelle.",
+        "Le sortir du lit pour le calmer : il se réveille complètement et l'endormissement recommence à zéro.",
+        "Glisser un coussin ou un cale-bébé pour le bloquer : ces objets sont un risque d'étouffement, et ils sont déconseillés.",
+        "Changer le rituel du coucher pendant cette phase : il perd ses repères au moment où il en a le plus besoin."
       ],
-      "consulter_si": "Consulter si : bébé présente des pauses respiratoires, une respiration bruyante, un ronflement important, paraît anormalement mou ou raide, ou s'il perd une compétence acquise → pédiatre ; le 15 en cas de trouble respiratoire.",
-      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'activité physique du tout-petit et l'exploration de bébé."
+      "consulter_si": "Consulter si : bébé présente des pauses respiratoires, une respiration bruyante, un ronflement important, paraît anormalement mou ou raide, ou perd une compétence qu'il avait acquise → pédiatre ; appeler le 15 en cas de trouble respiratoire."
     },
     {
       "categorie": "sommeil",
-      "situation": "Réveil à 4h30 / impossible de le rendormir",
-      "titre": "Le réveil de l'aube / se traite en journée",
-      "explication": "Quatre heures trente, et il est réveillé pour de bon. Le sommeil de fin de nuit est le plus léger, et c'est là que tout se joue. La cause est rarement la nuit elle-même : elle se trouve dans la journée. Trois leviers, dans cet ordre : la répartition des siestes — supprimer celle du matin trop tôt est une cause fréquente de réveil précoce ; les fenêtres d'éveil, qui doivent être ajustées ; et la lumière du matin, qui réveille et empêche de se rendormir. On agit sur la journée, pas sur quatre heures trente.",
-      "ancrage": "Le réveil de l'aube se traite en journée. Supprimer la sieste du matin trop tôt est l'une des causes les plus fréquentes.",
+      "situation": "Le réveil de l'aube / Il est réveillé à 4h, pour de bon",
+      "titre": "Ce qui se règle la veille au soir",
+      "explication": "À 4h, il est réveillé et ne se rendort pas. Ce n'est pas un hasard d'horaire : la fin de nuit est faite presque uniquement de sommeil léger, celui d'où l'on émerge au moindre signal. Un rai de lumière, un bruit de chauffage, une couche pleine ou une faim naissante suffisent à transformer un micro-réveil ordinaire en réveil complet. Et une fois éveillé à cette heure-là, un bébé de neuf mois n'a plus assez de pression de sommeil pour repartir facilement.",
+      "ancrage": "Commencer sa journée à 4h, plusieurs jours d'affilée, casse tout le reste. Ce qui se joue à cette heure-là s'est décidé bien avant, et c'est plutôt une bonne nouvelle : cela se règle ailleurs qu'au milieu de la nuit.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — les trois leviers",
+        "titre": "Action immédiate : à 4h",
         "etapes": [
-          "Garder la sieste du matin : à neuf mois, elle est encore nécessaire — elle disparaît en général entre quinze et dix-huit mois.",
-          "Obscurcir la chambre : rideaux occultants — la lumière du petit matin empêche le rendormissement.",
-          "Ajuster les fenêtres d'éveil : ni trop courtes, ni trop longues — la sur-fatigue provoque des réveils précoces.",
-          "Ne pas commencer la journée : rester dans la pénombre, ne pas allumer, ne pas parler.",
-          "Ne pas avancer le petit-déjeuner : cela déplace le réveil au lieu de le supprimer."
+          "Laisser la chambre dans le noir : la lumière signale à son horloge interne que la journée commence.",
+          "Rester dans la pénombre et parler très peu : la nuit continue tant que rien n'indique le contraire.",
+          "Le laisser dans son lit s'il n'est pas en détresse : certains bébés se rendorment après 10 ou 15 minutes.",
+          "Ne pas avancer le premier repas : son corps s'y habitue et le réveil se fixe à cette heure.",
+          "Attendre l'heure habituelle pour commencer la journée : même si l'attente est longue."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Réflexologie : préparer la nuit",
+        "titre": "Geste doux : accompagner la fin de nuit",
         "etapes": [
-          "Dans le rituel du soir : toujours au même moment.",
-          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
+          "Entrer sans allumer et sans le prendre : une main posée sur son dos suffit à signaler ta présence.",
+          "Une pression constante plutôt qu'un bercement : le mouvement réveille, le poids apaise.",
+          "Respirer lentement à côté de lui : à cet âge, il cale souvent son rythme sur celui de l'adulte proche.",
+          "Retirer ta main par étapes : moins de poids, puis les doigts, puis plus rien.",
+          "Ressortir avant qu'il soit tout à fait endormi : il termine seul, dans le décor qu'il retrouvera."
         ]
       },
       "pour_aller_plus_loin": [
-        "Vérifier le coucher du soir : un coucher trop tardif provoque une sur-fatigue qui réveille tôt.",
-        "Compter le sommeil total : entre quatre et onze mois, un bébé dort en moyenne douze à seize heures par vingt-quatre heures, siestes comprises.",
-        "Se relayer sur les levers : à tour de rôle, pour que chacun dorme.",
-        "Compter en semaines : les ajustements du sommeil de jour mettent une à deux semaines à produire leur effet la nuit."
+        "Occulter la chambre pour de bon : rideaux épais, interstices bouchés, veilleuse éteinte ou très basse.",
+        "Vérifier l'heure du coucher : un coucher trop tardif fatigue à l'excès et avance le réveil au lieu de le retarder.",
+        "Regarder le sommeil sur vingt-quatre heures : siestes comprises, c'est le total qui compte.",
+        "Se relayer sur les levers : un matin sur deux chacun change la semaine entière."
       ],
-      "principe": "Le réveil précoce ne se traite pas à l'aube : il se traite en journée. Les siestes, les fenêtres d'éveil et l'obscurité de la chambre font l'essentiel.",
+      "principe": "La fin de nuit ne se rattrape pas au moment où elle a lieu. Ce qui la protège, c'est ce qui a été réglé la veille : la lumière, l'heure du coucher, et la quantité de sommeil de la journée.",
       "erreurs_a_eviter": [
-        "Supprimer la sieste du matin pour « fatiguer » bébé — c'est une cause fréquente de réveil précoce.",
-        "Repousser le coucher du soir.",
-        "Allumer et commencer la journée à quatre heures trente.",
-        "Changer de stratégie toutes les nuits."
+        "Ouvrir les volets et démarrer la journée : son horloge enregistre cette heure comme l'heure du réveil.",
+        "Le prendre dans le lit parental pour gagner une heure : la solution du jour devient l'attente de tous les matins suivants.",
+        "Le nourrir automatiquement à cette heure : la faim se déplace et finit par le réveiller vraiment.",
+        "Changer d'approche chaque matin : sans régularité, aucun réglage n'a le temps de produire un effet."
       ],
-      "consulter_si": "Consulter si : bébé dort très peu au total et ne prend pas de poids, s'il est agité et inconsolable, s'il est difficile à réveiller, ou s'il présente des pauses respiratoires ou un ronflement important → pédiatre ; le 15 en cas de trouble respiratoire.",
-      "source": "Source : Institut national du sommeil et de la vigilance — le sommeil de l'enfant de 0 à 3 ans ; ameli.fr — sommeil de l'enfant, étapes et évolution."
+      "consulter_si": "Consulter si : bébé dort très peu sur l'ensemble des vingt-quatre heures et ne prend pas de poids, s'il est agité et inconsolable, difficile à réveiller, ou s'il présente des pauses respiratoires, une respiration bruyante ou un ronflement important → pédiatre ; appeler le 15 en cas de trouble respiratoire."
     },
     {
       "categorie": "sommeil",
-      "situation": "Refus brutal de la sieste du matin / trop tôt pour la supprimer",
-      "titre": "Le refus de la sieste du matin / ne pas la supprimer",
-      "explication": "Il refuse la sieste du matin depuis quelques jours, et la tentation est grande de conclure qu'il n'en a plus besoin. C'est presque toujours prématuré. À neuf mois, la sieste du matin reste nécessaire : elle disparaît en général bien plus tard, entre quinze et dix-huit mois. Un refus passager est le plus souvent lié à une fenêtre d'éveil mal calibrée — trop courte au réveil — ou à une phase de progrès moteur. Supprimer la sieste du matin trop tôt crée une dette de sommeil qui hache les nuits et provoque des réveils précoces.",
-      "ancrage": "Un refus de quelques jours n'est pas la fin de la sieste. À neuf mois, elle est encore nécessaire — elle partira bien plus tard.",
+      "situation": "Le refus de la sieste du matin / Il a arrêté du jour au lendemain",
+      "titre": "Décaler l'horaire, pas supprimer la sieste",
+      "explication": "Depuis quelques jours, il ne s'endort plus le matin : il joue, il babille, il se met debout. La conclusion qui vient à l'esprit est qu'il n'en a plus besoin. C'est presque toujours trop tôt : la sieste du matin disparaît en général bien plus tard, autour de quinze à dix-huit mois. Ce qui change à neuf mois, c'est le temps qu'il tient éveillé au réveil, qui s'allonge de quelques dizaines de minutes. Proposée à l'ancien horaire, la sieste tombe alors trop tôt, et un bébé qui n'a pas encore assez de fatigue ne s'endort pas.",
+      "ancrage": "Un matin sans sieste transforme la journée entière, et il est tentant d'en tirer une conclusion définitive. Quelques jours de refus ne disent rien encore : c'est l'horaire qui se déplace, pas le besoin qui disparaît.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — ajuster, pas supprimer",
+        "titre": "Action immédiate : décaler, pas supprimer",
         "etapes": [
-          "Décaler la sieste : de quinze à trente minutes plus tard — la fenêtre d'éveil s'est allongée.",
-          "Assombrir la chambre : la pénombre aide autant le matin que le soir.",
-          "Repérer les signes de fatigue : regard qui se perd, mouvements plus lents — coucher à ce moment-là.",
-          "La proposer même s'il la refuse : le calme dans la chambre, même sans sommeil, reste réparateur.",
-          "Avancer le coucher du soir : pendant la phase de refus, cela compense la dette."
+          "Repousser la sieste de 15 à 30 minutes : la fenêtre d'éveil du matin s'est allongée.",
+          "Repérer ses signes de fatigue plutôt que l'heure : regard qui se perd, gestes plus lents, frottement des yeux.",
+          "Assombrir la chambre autant que le soir : la lumière du matin retarde l'endormissement.",
+          "Proposer le temps calme même s'il ne dort pas : 20 minutes au calme dans la pénombre réparent déjà.",
+          "Coucher un peu plus tôt le soir ces jours-là : la dette de la journée se rattrape par le soir, pas par une sieste plus tardive."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Réflexologie : favoriser la détente avant la sieste",
+        "titre": "Réflexologie : préparer la sieste",
         "etapes": [
-          "Avant le coucher : bébé calme, lumière tamisée.",
-          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
-        ]
+          "Juste avant le coucher, dans la pénombre : bébé calme, allongé sur le dos.",
+          "Réchauffer ses pieds entre tes paumes : immobiles, le temps de quelques respirations.",
+          "Balayer la voûte du talon vers les orteils : lentement, pression douce et constante.",
+          "Cercles au centre de la voûte : 1 minute par pied, sans presser.",
+          "Terminer par une main posée sur son torse : jusqu'à ce que sa respiration se pose."
+        ],
+        "lien_reflexologie": {
+          "id": "sommeil",
+          "titre": "Sommeil agité"
+        }
       },
       "pour_aller_plus_loin": [
-        "Retenir le calendrier : c'est la sieste de fin d'après-midi qui disparaît en premier, entre neuf et douze mois ; celle du matin tient jusque vers quinze à dix-huit mois.",
-        "Ne pas supprimer d'un coup : la dette de sommeil se paie en réveils nocturnes et en réveils précoces.",
-        "Relier aux progrès moteurs : un refus passager suit souvent une nouvelle acquisition.",
-        "Compter en semaines : ces refus passent, si l'on ne démonte pas le rythme."
+        "Connaître l'ordre des disparitions : c'est la sieste de fin d'après-midi qui s'efface la première, entre neuf et douze mois.",
+        "Relier le refus à ce qu'il apprend : un refus passager suit souvent une acquisition motrice récente.",
+        "Tenir le même horaire plusieurs jours : un réglage ne se juge pas sur une matinée.",
+        "Transmettre le nouvel horaire à la personne qui le garde : une sieste décalée d'un côté seulement ne s'installe pas."
       ],
-      "principe": "À neuf mois, la sieste du matin reste nécessaire. Un refus passager s'ajuste — il ne se traite pas par une suppression, qui hache les nuits et réveille tôt.",
+      "principe": "Un enfant s'endort quand la fatigue est suffisante, pas quand l'horaire est arrivé. Un refus répété interroge le réglage avant d'interroger le besoin.",
       "erreurs_a_eviter": [
-        "Supprimer la sieste du matin après quelques refus.",
-        "Repousser le coucher du soir parce qu'il a moins dormi.",
-        "Réveiller bébé pour forcer un rythme.",
-        "S'attendre à une transition linéaire."
+        "Supprimer la sieste après quelques refus : la dette s'accumule et ressort en réveils nocturnes et en réveils très matinaux.",
+        "Retarder le soir parce qu'il a moins dormi le matin : un bébé trop fatigué s'endort plus mal et se réveille davantage.",
+        "Le laisser jouer longtemps dans son lit en attendant : le lit devient un lieu d'éveil et le coucher du soir se complique.",
+        "Changer d'horaire tous les jours : son corps n'a pas le temps de se caler sur quoi que ce soit."
       ],
-      "consulter_si": "Consulter si : bébé dort très peu au total et ne prend pas de poids, s'il est agité et inconsolable, s'il est difficile à réveiller, ou s'il présente des pauses respiratoires → pédiatre ou PMI ; le 15 en cas de trouble respiratoire.",
-      "source": "Source : Institut national du sommeil et de la vigilance — le sommeil de l'enfant de 0 à 3 ans ; ameli.fr — sommeil de l'enfant, étapes et évolution."
+      "consulter_si": "Consulter si : bébé dort très peu au total et ne prend pas de poids, s'il est agité et inconsolable, difficile à réveiller, ou s'il présente des pauses respiratoires ou un ronflement important → pédiatre ou PMI ; appeler le 15 en cas de trouble respiratoire."
     },
     {
       "categorie": "sommeil",
-      "situation": "M'appelle la nuit / juste pour vérifier ma présence",
-      "titre": "Il t'appelle la nuit / une réponse verbale suffit souvent",
-      "explication": "Il ne pleure plus vraiment : il appelle. Un son, un mot, un cri bref — et il attend. C'est un progrès : le pleur laisse place à l'appel. Et cela change la réponse possible : là où un pleur demandait un contact, un appel peut souvent se satisfaire d'une voix. Répondre depuis le couloir, sans entrer, sans allumer, suffit fréquemment à le rassurer et à le laisser se rendormir seul. Le sortir du lit, en revanche, le réveille complètement — et transforme un appel en réveil réel.",
-      "ancrage": "Le pleur devient appel : c'est un progrès. Et un appel peut souvent se satisfaire d'une voix — pas d'un contact.",
+      "situation": "Les appels de la nuit / Il ne pleure plus, il m'appelle",
+      "titre": "Répondre par la voix avant d'entrer",
+      "explication": "Ses réveils ont changé de son. Il ne pleure plus vraiment : il lance un son, une syllabe, un appel bref, puis il écoute. C'est le babillage de la journée qui arrive dans la nuit, et cela change ce qu'il attend. Un pleur demandait qu'on vienne. Un appel demande d'abord une réponse, et une réponse peut être vocale. Beaucoup de bébés de cet âge se rendorment dès qu'ils ont obtenu la preuve sonore que quelqu'un est là.",
+      "ancrage": "Entendre son prénom appelé à 2h du matin ne laisse personne indifférent, et l'on se lève souvent avant même d'avoir réfléchi. Tu peux essayer une réponse plus légère avant de te lever.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — répondre par la voix",
+        "titre": "Action immédiate : répondre sans entrer",
         "etapes": [
-          "Répondre sans entrer : depuis le couloir, d'une voix calme — « je suis là, dors ».",
-          "Toujours la même phrase : mot pour mot, chaque nuit.",
-          "Attendre : quelques instants avant d'entrer — souvent, il se rendort.",
-          "Entrer sans allumer : si l'appel persiste, une main posée, une phrase, et on repart.",
-          "Ne pas le sortir du lit : sauf besoin réel."
+          "Répondre depuis le couloir : une voix calme, sans ouvrir la porte.",
+          "Toujours la même phrase : « je suis là, il fait nuit », mot pour mot.",
+          "Attendre ensuite en silence : souvent, l'appel s'arrête là.",
+          "Entrer sans allumer si l'appel revient : une main posée, la même phrase, et tu ressors.",
+          "Le laisser dans son lit : sauf besoin réel, une couche ou une douleur."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Réflexologie : préparer la nuit",
+        "titre": "Geste doux : préparer la réponse du soir",
         "etapes": [
-          "Dans le rituel du soir : toujours au même moment.",
-          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
+          "Utiliser la même phrase au coucher : il la reconnaît la nuit parce qu'il l'a entendue le soir.",
+          "L'associer à un geste précis : une main posée sur le torse, toujours au même endroit.",
+          "Terminer le rituel hors des bras : couché dans son lit, éveillé, avec ta voix.",
+          "Sortir progressivement de la chambre : la voix d'abord, puis le silence.",
+          "Répéter à l'identique chaque soir : la nuit s'appuie sur ce que le soir a installé."
         ]
       },
       "pour_aller_plus_loin": [
-        "Travailler les séparations du jour : les nuits s'allègent quand la permanence progresse.",
-        "Se relayer : chaque parent une moitié de nuit.",
-        "Ne pas nourrir par réflexe : un appel n'est pas une faim.",
-        "Compter en semaines : cette phase s'atténue avec la permanence."
+        "Travailler les séparations de la journée : les appels de nuit s'espacent quand le jour a été entraîné.",
+        "Éviter de le nourrir par réflexe : un appel n'est pas une demande de repas à cet âge.",
+        "Partager les réponses entre vous : la voix de l'autre parent fonctionne aussi, si elle dit la même chose.",
+        "Compter en semaines : ces appels s'espacent à mesure qu'il gagne en confiance dans ton retour."
       ],
-      "principe": "Un appel n'est pas un pleur : il peut souvent se satisfaire d'une voix. Le sortir du lit transforme un appel en réveil complet.",
+      "principe": "Un enfant demande d'abord ce qui lui suffit, et il escalade seulement si personne ne répond. Commencer par la réponse la plus légère laisse la place à toutes les autres.",
       "erreurs_a_eviter": [
-        "Le sortir du lit à chaque appel.",
-        "Allumer la lumière ou engager un échange.",
-        "Le nourrir systématiquement.",
-        "Changer de réponse chaque nuit."
+        "Le sortir du lit dès le premier appel : il se réveille complètement et la nuit repart de zéro.",
+        "Allumer ou engager la conversation : l'appel devient un échange, et un échange donne envie de recommencer.",
+        "Le nourrir à chaque réveil : la faim finit par se caler sur l'heure de l'appel.",
+        "Répondre différemment chaque nuit : sans réponse prévisible, il appelle plus fort pour savoir à quoi s'attendre."
       ],
-      "consulter_si": "Consulter si : bébé se réveille en hurlant de façon inconsolable, présente de la fièvre, refuse de boire, ne prend pas de poids, ou présente des pauses respiratoires, une respiration bruyante ou un ronflement important → pédiatre ; le 15 en cas de trouble respiratoire.",
-      "source": "Source : Institut national du sommeil et de la vigilance — le sommeil de l'enfant de 0 à 3 ans ; ameli.fr — sommeil de l'enfant, étapes et évolution."
+      "consulter_si": "Consulter si : bébé se réveille en hurlant de façon inconsolable, présente de la fièvre, refuse de boire, ne prend pas de poids, ou présente des pauses respiratoires, une respiration bruyante ou un ronflement important → pédiatre ; appeler le 15 en cas de trouble respiratoire."
     }
   ]
 }

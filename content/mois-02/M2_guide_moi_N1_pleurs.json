@@ -10,18 +10,18 @@
   "protocoles": [
     {
       "categorie": "pleurs",
-      "situation": "Pleurs encore imprévisibles / malgré la fin du pic",
-      "titre": "Après le pic / une décrue qui n'est pas linéaire",
-      "explication": "Le sommet de la courbe des pleurs est derrière vous — mais la descente n'est pas une ligne droite. Il y aura encore des soirées difficiles, des journées entières sans raison apparente, et des retours en arrière qui te feront croire que rien n'a changé. La décrue se lit sur plusieurs semaines, pas d'un jour à l'autre. Ce qui compte n'est pas la soirée d'hier, mais la tendance sur un mois. Réajuster tes attentes ne fait pas disparaître les pleurs — cela t'évite de les vivre comme un échec personnel à chaque rechute.",
+      "situation": "L'après-pic des pleurs / Il pleure encore, sans logique",
+      "titre": "Une accalmie en dents de scie",
+      "explication": "Le sommet de la courbe des pleurs est derrière vous, mais la descente n'est pas une ligne droite. Il y aura encore des soirées difficiles, des journées entières sans raison apparente, et des retours en arrière qui te feront croire que rien n'a changé. La décrue se lit sur plusieurs semaines, pas d'un jour à l'autre. Ce qui compte n'est pas la soirée d'hier, mais la tendance sur un mois. Réajuster tes attentes ne fait pas disparaître les pleurs : cela t'évite de les vivre comme un échec personnel à chaque rechute.",
       "ancrage": "Une mauvaise soirée n'annule pas les progrès. Tu n'as rien perdu, tu n'as rien mal fait : tu es sur une pente qui descend en zigzag.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — quand la soirée dérape",
+        "titre": "Action immédiate : quand la soirée dérape",
         "etapes": [
           "Revenir aux bases : lumière basse, silence, un seul adulte, portage lent.",
-          "Ne pas chercher une cause nouvelle : l'enquête frénétique agite tout le monde et prolonge la crise.",
-          "Vérifier l'essentiel : faim, couche, chaleur, trop-plein — puis s'arrêter là.",
+          "Cesser l'enquête : chercher une cause nouvelle agite tout le monde et prolonge la crise.",
+          "Vérifier l'essentiel : faim, couche, chaleur, trop-plein, puis s'arrêter là.",
           "Accepter la vague : rester présent.e sans objectif de résultat.",
           "Se relayer avant la rupture : passer le relais quand la tension monte, pas après."
         ]
@@ -34,40 +34,40 @@
           "Choisir un moment hors crise : après le bain ou en journée.",
           "Réchauffer ses pieds : les tenir immobiles dans tes paumes quelques instants.",
           "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante, plusieurs passages.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
-          "S'arrêter à sa demande : un pied retiré, une crispation — on arrête sans insister."
+          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
+          "S'arrêter à sa demande : un pied retiré, une crispation, on arrête sans insister."
         ]
       },
       "pour_aller_plus_loin": [
         "Regarder la tendance : comparer une semaine à celle d'il y a un mois, jamais une soirée à la veille.",
-        "Noter les bonnes journées : elles existent et la fatigue les efface — les écrire les rend visibles.",
-        "Maintenir le relais organisé : ne pas démonter le plan de soutien sous prétexte que « ça va mieux ».",
+        "Noter les bonnes journées : elles existent et la fatigue les efface, les écrire les rend visibles.",
+        "Maintenir le relais organisé : le plan de soutien tient aussi les semaines où ça va mieux.",
         "Se rappeler la trajectoire : les pleurs continuent de diminuer au fil des mois, chaque bébé à son rythme."
       ],
-      "principe": "La décrue des pleurs est réelle mais irrégulière. Ce qui se mesure, c'est la tendance sur plusieurs semaines — pas la soirée que tu viens de traverser.",
+      "principe": "Ce qui s'améliore lentement se juge de loin. Sur un mois, la différence saute aux yeux ; sur deux soirs, elle reste invisible.",
       "erreurs_a_eviter": [
         "Conclure à une rechute ou à une régression devant une mauvaise soirée.",
-        "Reprendre l'enquête sur les causes à chaque épisode — l'agitation prolonge la crise.",
+        "Reprendre l'enquête sur les causes à chaque épisode : l'agitation prolonge la crise.",
         "Démonter le plan de relais dès que quelques nuits sont meilleures.",
         "Mesurer ta compétence à la durée des pleurs."
       ],
       "consulter_si": "Consulter si : les pleurs s'accompagnent de fièvre, de vomissements répétés, de sang dans les selles, d'un refus de boire, d'une cassure de la courbe de poids, ou d'un bébé anormalement mou → pédiatre sans délai, ou le 15 si l'état général se dégrade. Si tu sens la perte de contrôle monter : poser bébé sur le dos dans son lit, sortir de la pièce, appeler un proche ou Allo Parents Bébé (0 800 00 34 56).",
-      "source": "Source : ameli.fr (Assurance Maladie) — syndrome du bébé secoué : reconnaître, prévenir, agir."
+      "source": "Source : ameli.fr (Assurance Maladie), syndrome du bébé secoué : reconnaître, prévenir, agir."
     },
     {
       "categorie": "pleurs",
-      "situation": "Pleure dès que l'échange s'arrête / il réclame du lien",
-      "titre": "Le pleur d'appel / il réclame l'échange",
-      "explication": "Quelque chose de nouveau apparaît vers deux mois : ton bébé pleure quand tu t'éloignes ou quand l'échange s'interrompt — et il s'arrête dès que tu reviens dans son champ de vision. Ce n'est pas un caprice, et ce n'est pas de la manipulation : c'est un pleur d'appel social, le signe qu'il découvre le plaisir de l'échange et qu'il sait désormais le réclamer. C'est une excellente nouvelle sur le plan du développement — et une nouvelle charge pour toi. Y répondre ne crée aucune mauvaise habitude ; en revanche, y répondre par une sur-stimulation l'épuise.",
+      "situation": "Le pleur d'appel / Il pleure dès que l'échange s'arrête",
+      "titre": "Il réclame le lien, pas un besoin",
+      "explication": "Quelque chose de nouveau apparaît vers deux mois : ton bébé pleure quand tu t'éloignes ou quand l'échange s'interrompt, et il s'arrête dès que tu reviens dans son champ de vision. C'est un pleur d'appel social, le signe qu'il découvre le plaisir de l'échange et qu'il sait désormais le réclamer. C'est une excellente nouvelle sur le plan du développement, et une nouvelle charge pour toi. Y répondre ne crée aucune mauvaise habitude ; en revanche, y répondre par une sur-stimulation l'épuise.",
       "ancrage": "Ce pleur-là est une compétence nouvelle, pas un problème. Tu peux y répondre sans le divertir : ta voix, ton visage et ton calme suffisent.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — répondre sans sur-stimuler",
+        "titre": "Action immédiate : répondre sans sur-stimuler",
         "etapes": [
-          "Répondre par la voix : parler depuis l'autre pièce — souvent, cela suffit à le rassurer.",
+          "Répondre par la voix : parler depuis l'autre pièce, souvent, cela suffit à le rassurer.",
           "Revenir dans son champ : se pencher, montrer ton visage à trente centimètres.",
-          "Ne pas surenchérir : ni jouet agité, ni chatouilles, ni musique — le lien, pas le spectacle.",
+          "Rester sobre : ni jouet agité, ni chatouilles, ni musique, c'est le lien qui apaise, pas le spectacle.",
           "Le rapprocher de toi : l'installer là où il te voit pendant que tu fais autre chose.",
           "Clore doucement : prévenir avant de partir, en gardant ta voix quelques instants."
         ]
@@ -81,40 +81,40 @@
           "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
           "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
           "Rester dans son champ : ton visage à trente centimètres pendant le geste.",
-          "S'arrêter à sa demande : un pied retiré, un regard qui se détourne — on arrête."
+          "S'arrêter à sa demande : un pied retiré, un regard qui se détourne, on arrête."
         ]
       },
       "pour_aller_plus_loin": [
         "Comprendre le progrès : réclamer l'échange signe une maturation sociale, pas un problème de caractère.",
         "Ritualiser des temps d'échange courts : quelques minutes de face-à-face, plusieurs fois par jour, valent mieux qu'une longue session.",
-        "Accepter de ne pas répondre à tout : un bébé peut attendre quelques instants en entendant ta voix — ce n'est pas de l'abandon.",
-        "Impliquer les autres adultes : le co-parent, les proches — le lien social ne se joue pas qu'avec toi."
+        "Accepter de ne pas répondre à tout : un bébé peut attendre quelques instants en entendant ta voix, ce n'est pas de l'abandon.",
+        "Impliquer les autres adultes : le co-parent, les proches. Le lien social ne se joue pas qu'avec toi."
       ],
-      "principe": "Le pleur d'appel n'est pas un caprice, c'est une compétence. Y répondre par la voix et le regard construit sa sécurité ; y répondre par de la stimulation le sature.",
+      "principe": "Un besoin de lien se comble par de la présence, pas par du divertissement. C'est toute la différence entre apaiser un bébé et l'occuper.",
       "erreurs_a_eviter": [
-        "Ignorer volontairement ce pleur pour « ne pas l'habituer » — à cet âge, il ne peut rien apprendre de cela.",
-        "Répondre en le divertissant à chaque fois — cela installe un besoin d'animation permanente.",
+        "Ignorer volontairement ce pleur pour « ne pas l'habituer », à cet âge, il ne peut rien apprendre de cela.",
+        "Répondre en le divertissant à chaque fois : cela installe un besoin d'animation permanente.",
         "Le placer devant un écran pour occuper son attention.",
-        "Interpréter ce pleur comme de la manipulation — son cerveau n'en a pas les moyens."
+        "Interpréter ce pleur comme un début de manipulation : à deux mois, il découvre l'échange, il n'a rien à obtenir."
       ],
       "consulter_si": "Consulter si : bébé ne cherche jamais le contact, ne réagit ni à ta voix ni à ton visage, ne se calme jamais quand tu reviens, ou paraît anormalement mou ou apathique → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition et de la vision."
     },
     {
       "categorie": "pleurs",
-      "situation": "Les pleurs du soir reviennent par vagues / sans prévenir",
-      "titre": "Les vagues du soir / un protocole de relais",
-      "explication": "Les pleurs du soir n'ont pas disparu : ils reviennent par vagues, certains soirs plus que d'autres, sans logique apparente. Chercher à chaque fois la cause — le lait, la fatigue, la journée, le repas — est épuisant et, la plupart du temps, sans réponse. Ce qui change vraiment la soirée, ce n'est pas l'enquête : c'est l'organisation. Savoir à l'avance qui prend le relais, à quelle heure, et pendant combien de temps, transforme une soirée subie en soirée traversée à deux. Le protocole du soir est un protocole parental avant d'être un protocole bébé.",
-      "ancrage": "Tu n'as pas à trouver la cause. Tu as à organiser la soirée. Un relais décidé à l'avance vaut mieux qu'une heure de recherche à bout de forces.",
+      "situation": "Les vagues du soir / Ses pleurs reviennent par vagues",
+      "titre": "Se relayer à deux, par tranches",
+      "explication": "Les pleurs du soir n'ont pas disparu : ils reviennent par vagues, certains soirs plus que d'autres, sans logique apparente. Chercher à chaque fois la cause, le lait, la fatigue, la journée, le repas, est épuisant et, la plupart du temps, sans réponse. Ce qui change vraiment la soirée, ce n'est pas l'enquête : c'est l'organisation. Savoir à l'avance qui prend le relais, à quelle heure, et pendant combien de temps, transforme une soirée subie en soirée traversée à deux. Le plan du soir est un plan parental avant d'être un plan bébé.",
+      "ancrage": "Tu n'as pas à trouver la cause, tu as à organiser la soirée. Et si l'agacement monte plus vite qu'avant, ce n'est pas que tu aimes moins ton bébé : c'est que la réserve s'épuise, chez tout le monde. Un relais décidé à l'avance vaut mieux qu'une heure de recherche à bout de forces.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — le protocole du soir",
+        "titre": "Action immédiate : le plan du soir",
         "etapes": [
           "Réduire dès la fin d'après-midi : lumière basse, bruit minimal, pas de visite.",
-          "Se répartir des créneaux : chacun prend vingt à trente minutes, en alternance, montre en main.",
+          "Se répartir des créneaux : chacun prend 20 à 30 minutes, en alternance, montre en main.",
           "Porter en marchant : rythme lent et régulier, sans changement d'ambiance.",
           "Sortir dehors : quelques minutes d'air frais coupent souvent la spirale.",
-          "Passer le relais avant la limite : dès que la tension monte, on change d'adulte — jamais après."
+          "Passer le relais avant la limite : dès que la tension monte, on change d'adulte, jamais après."
         ]
       },
       "geste_doux": {
@@ -125,42 +125,42 @@
           "En début d'après-midi : bébé calme, dans une pièce silencieuse.",
           "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
           "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
           "S'arrêter à sa demande : s'il se crispe ou retire son pied, on arrête sans insister."
         ]
       },
       "pour_aller_plus_loin": [
-        "Écrire le protocole : qui, quand, combien de temps — affiché, pas mémorisé.",
+        "Écrire le plan : qui, quand, combien de temps, affiché, pas mémorisé.",
         "Prévoir le cas « parent seul » : si personne n'est là, décider à l'avance où poser bébé et qui appeler.",
         "Alléger les soirées : dîner préparé à l'avance, pas de tâche ménagère prévue dans cette fenêtre.",
         "Se rappeler la trajectoire : ces vagues s'espacent au fil des semaines, chaque bébé à son rythme."
       ],
-      "principe": "Le protocole du soir est d'abord un protocole parental. Ce qui protège la soirée, ce n'est pas de trouver la cause — c'est le relais organisé à l'avance.",
+      "principe": "Une soirée difficile se prépare l'après-midi, jamais pendant les pleurs. Ce qui tient sur la durée, ce sont des adultes qui se relaient à heure décidée.",
       "erreurs_a_eviter": [
         "Reprendre l'enquête sur les causes à chaque vague.",
-        "Enchaîner les tétées de consolation à toute vitesse — un ventre trop plein ajoute de l'inconfort.",
+        "Enchaîner les tétées de consolation à toute vitesse : un ventre trop plein ajoute de l'inconfort.",
         "Tenir seul.e jusqu'à l'épuisement pour ne pas déranger l'autre parent.",
         "Mettre la télévision ou de la musique forte pour couvrir les pleurs."
       ],
-      "consulter_si": "Consulter si : les pleurs deviennent inhabituels — cri différent, bébé inconsolable plusieurs heures, fièvre, refus de boire, vomissements, bébé mou ou difficile à réveiller → pédiatre, ou le 15 selon l'urgence. Si les soirées te mettent en danger de perdre le contrôle : poser bébé en sécurité sur le dos, sortir de la pièce, appeler Allo Parents Bébé (0 800 00 34 56).",
-      "source": "Source : Haute Autorité de Santé — recommandation de bonne pratique « Syndrome du bébé secoué ou traumatisme crânien non accidentel par secouement »."
+      "consulter_si": "Consulter si : les pleurs deviennent inhabituels, cri différent, bébé inconsolable plusieurs heures, fièvre, refus de boire, vomissements, bébé mou ou difficile à réveiller → pédiatre, ou le 15 selon l'urgence. Si les soirées te mettent en danger de perdre le contrôle : poser bébé en sécurité sur le dos, sortir de la pièce, appeler Allo Parents Bébé (0 800 00 34 56).",
+      "source": "Source : Haute Autorité de Santé, recommandation de bonne pratique « Syndrome du bébé secoué ou traumatisme crânien non accidentel par secouement »."
     },
     {
       "categorie": "pleurs",
-      "situation": "Le portage ne suffit plus / ce qui marchait ne marche plus",
-      "titre": "Quand ce qui marchait ne marche plus / renouveler la palette",
-      "explication": "Le portage, le bercement, le peau à peau : tes outils du premier mois ne fonctionnent plus aussi bien. C'est déstabilisant — et c'est logique. Ton bébé change : il perçoit davantage, il s'habitue aux stimulations, il a d'autres besoins. Ce n'est pas que tu fais moins bien, c'est que lui n'est plus le même. Il ne s'agit donc pas de « mieux » porter, mais d'élargir la palette : varier les sensations, tester d'autres appuis, accepter parfois de ne rien faire. Aucune technique n'a de garantie — c'est un répertoire, pas une solution.",
-      "ancrage": "Ce n'est pas toi qui as perdu la main : c'est lui qui a changé. Élargir ta palette est plus utile que perfectionner un geste qui ne prend plus.",
+      "situation": "La méthode qui ne marche plus / Il ne se calme plus dans mes bras",
+      "titre": "Changer d'outil, pas d'objectif",
+      "explication": "Le portage, le bercement, le peau à peau : tes outils du premier mois ne fonctionnent plus aussi bien. C'est déstabilisant, et c'est logique. Ton bébé change : il perçoit davantage, il s'habitue aux stimulations, il a d'autres besoins. Ce n'est pas que tu fais moins bien, c'est que lui n'est plus le même. Il ne s'agit donc pas de « mieux » porter, mais d'élargir la palette : varier les sensations, tester d'autres appuis, accepter parfois de ne rien faire. Aucune technique n'a de garantie. C'est un répertoire, pas une solution.",
+      "ancrage": "Voir tomber à plat ce qui marchait la semaine dernière donne un sentiment d'impuissance que beaucoup de parents décrivent. Ce n'est pourtant pas toi qui as perdu la main, c'est lui qui a changé : élargir ta palette est plus utile que perfectionner un geste qui ne prend plus.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — élargir le répertoire",
+        "titre": "Action immédiate : élargir le répertoire",
         "etapes": [
           "Changer d'appui : le tenir en position ventrale sur ton avant-bras, tête soutenue, plutôt que contre l'épaule.",
           "Changer d'ambiance : sortir dehors, changer de pièce, ouvrir une fenêtre.",
-          "Changer de porteur : l'autre parent, un proche — une autre odeur, un autre rythme.",
+          "Changer de porteur : l'autre parent, un proche, une autre odeur, un autre rythme.",
           "Essayer le vide : le poser en sécurité sur le dos, ta main posée, sans rien faire d'autre.",
-          "Un essai à la fois : laisser une à deux minutes à chaque tentative avant de changer."
+          "Un essai à la fois : laisser 1 à 2 minutes à chaque tentative avant de changer."
         ]
       },
       "geste_doux": {
@@ -176,36 +176,36 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Tenir un carnet des essais : ce qui a marché, ce qui n'a rien donné — les schémas apparaissent à l'écrit.",
+        "Tenir un carnet des essais : ce qui a marché, ce qui n'a rien donné, les schémas apparaissent à l'écrit.",
         "Accepter l'absence de solution : certains épisodes ne se résolvent pas, et rester présent.e est déjà une réponse complète.",
-        "Ne pas s'acharner sur une technique : quand un outil ne prend plus, on ne l'améliore pas, on en change.",
-        "Se relayer : la palette de l'autre parent est différente de la tienne — c'est une richesse, pas une concurrence."
+        "Changer d'outil plutôt que d'insister : quand une technique ne prend plus, on en essaie une autre.",
+        "Se relayer : la palette de l'autre parent est différente de la tienne. C'est une richesse, pas une concurrence."
       ],
-      "principe": "Un outil qui cesse de fonctionner ne signale pas ton échec : il signale que ton bébé change. La bonne réponse n'est pas de mieux faire — c'est d'avoir plus d'options.",
+      "principe": "Un outil qui cesse de fonctionner ne signale pas ton échec : il signale que ton bébé change. La bonne réponse n'est pas de mieux faire, c'est d'avoir plus d'options.",
       "erreurs_a_eviter": [
         "Répéter le même geste de plus en plus fort en espérant qu'il finisse par marcher.",
-        "Enchaîner toutes les techniques en quelques minutes — chaque changement est une stimulation de plus.",
+        "Enchaîner toutes les techniques en quelques minutes : chaque changement est une stimulation de plus.",
         "Conclure que bébé « te rejette » parce que le portage ne l'apaise plus.",
-        "Bercer plus vite ou plus fort — jamais : aucune secousse n'est anodine."
+        "Bercer plus vite ou plus fort, jamais : aucune secousse n'est anodine."
       ],
       "consulter_si": "Consulter si : bébé ne se calme jamais, quelle que soit la stratégie, plusieurs heures d'affilée ; s'il refuse de boire, perd du poids, présente de la fièvre, ou paraît anormalement mou → pédiatre ou PMI, le 15 si l'état général se dégrade."
     },
     {
       "categorie": "pleurs",
-      "situation": "S'excite pendant les gazouillis / n'arrive plus à redescendre",
-      "titre": "L'excitation qui monte / clore l'échange avant la bascule",
-      "explication": "Vous jouez, il gazouille, il sourit — et soudain tout bascule : il s'agite, se raidit, se met à pleurer. À deux mois, son système nerveux ne sait pas encore freiner. Il monte en excitation sans pouvoir redescendre seul, et l'échange plaisant se retourne en surcharge. Ce n'est pas le jeu qui pose problème : c'est l'absence de descente. Ton rôle n'est pas d'écourter les moments de plaisir, mais de les clore progressivement — en ralentissant, en baissant la voix, en laissant le silence revenir avant que la bascule n'arrive.",
-      "ancrage": "Il ne sait pas encore freiner : c'est toi le frein. Clore un échange en douceur n'est pas l'interrompre — c'est lui apprendre la descente.",
+      "situation": "Le jeu qui finit en pleurs / Il gazouille, s'agite, et tout se retourne",
+      "titre": "Les signes arrivent avant les cris",
+      "explication": "À deux mois, l'échange se joue en face à face : ta voix, ton visage, ses gazouillis. Il monte vite, et il n'a aucun frein interne. Ce qui surprend le plus la première fois, c'est que rien ne semble annoncer la bascule. En réalité tout l'annonce, mais dans un langage qu'on n'a pas encore appris à lire. Quatre signes reviennent chez presque tous les bébés, et le plus souvent dans le même ordre : le regard se détourne, la respiration s'accélère, les gestes se désordonnent, les mains se ferment. Entre le premier et les pleurs, il te reste souvent une bonne minute.",
+      "ancrage": "Tu n'as rien raté : tu ne savais pas encore où regarder. Ces signes-là s'apprennent en quelques jours, et ils te donnent une longueur d'avance.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — organiser la descente",
+        "titre": "Action immédiate : les quatre signes",
         "etapes": [
-          "Repérer les signes précoces : mouvements plus saccadés, respiration rapide, regard qui se fixe ou se détourne.",
-          "Ralentir progressivement : baisser la voix, ralentir tes mimiques, réduire l'amplitude.",
-          "Installer le silence : quelques secondes sans rien dire, ton visage calme et présent.",
-          "Passer au contact : le prendre contre toi, immobile, sans parler.",
-          "Ne pas relancer : ne pas chercher un dernier sourire — c'est là que la bascule se produit."
+          "Le regard qui décroche : il quitte le tien une seconde, puis revient. C'est presque toujours le premier.",
+          "La respiration qui s'accélère : sa poitrine monte plus vite, souvent avant tout le reste.",
+          "Les gestes qui se désordonnent : les bras battent au lieu de bouger.",
+          "Les mains qui se ferment : des poings serrés annoncent les pleurs de très près.",
+          "Ralentir au premier signe, pas au dernier : dès que le regard décroche, tu baisses d'un cran."
         ]
       },
       "geste_doux": {
@@ -216,40 +216,40 @@
           "Juste après le jeu : bébé sur le dos, dans le calme.",
           "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
           "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
           "Un seul canal à la fois : ne pas parler et toucher en même temps."
         ]
       },
       "pour_aller_plus_loin": [
-        "Raccourcir les échanges : quelques minutes suffisent à cet âge — la qualité prime largement sur la durée.",
-        "Espacer les moments de jeu : un temps d'échange, un temps de calme, en alternance.",
-        "Prévenir l'entourage : expliquer que les sollicitations en cascade le font basculer.",
-        "Observer sa fenêtre : chaque bébé a son seuil, et il varie d'un jour à l'autre selon la fatigue."
+        "Noter les siens : chaque bébé a son ordre, et il se repère en trois ou quatre fois.",
+        "Regarder son visage pendant que tu joues : c'est là que tout se voit, pas dans ses mains.",
+        "Tenir compte de l'heure : le même signe arrive bien plus tôt en fin de journée.",
+        "Le dire à celui qui joue avec lui : ces signes ne se voient que si on sait qu'ils existent."
       ],
-      "principe": "Un bébé de deux mois monte en excitation sans savoir redescendre. Le geste utile n'est pas d'écourter le plaisir : c'est d'organiser la descente avant le point de bascule.",
+      "principe": "Un bébé de deux mois annonce sa saturation avant de la subir. Ce n'est pas le jeu qui se raccourcit, c'est le regard de l'adulte qui s'entraîne.",
       "erreurs_a_eviter": [
-        "Prolonger le jeu tant qu'il sourit — le sourire précède souvent la bascule de quelques secondes.",
-        "Relancer l'échange pour obtenir un dernier gazouillis.",
-        "Enchaîner les stimulations différentes — jouets, chatouilles, musique.",
-        "Interpréter la crise qui suit comme une mauvaise humeur — c'est une surcharge."
+        "Attendre les pleurs pour arrêter : à ce stade la descente ne se fait plus toute seule.",
+        "Chercher un dernier sourire : c'est presque toujours celui-là qui fait basculer.",
+        "Confondre un regard qui décroche et un bébé qui s'ennuie : il se protège, il ne se désintéresse pas.",
+        "Se fier à une durée plutôt qu'à lui : son seuil change d'un jour à l'autre."
       ],
-      "consulter_si": "Consulter si : bébé bascule systématiquement dans une crise inconsolable après chaque échange, s'il ne cherche jamais le contact visuel, s'il se raidit fortement ou paraît en détresse dès qu'on le sollicite, ou s'il paraît anormalement mou → pédiatre ou PMI."
+      "consulter_si": "Consulter si : bébé ne cherche jamais ton regard, ne réagit ni à ta voix ni à ton visage, se raidit ou pleure dès qu'on le sollicite, ou paraît anormalement mou → pédiatre ou PMI."
     },
     {
       "categorie": "pleurs",
-      "situation": "Agité et inconsolable après les visites / le trop-plein social",
-      "titre": "Le trop-plein social / la décompression après les visites",
-      "explication": "Ton bébé a été charmant pendant la visite — et il s'effondre une fois la porte fermée. C'est la règle, pas l'exception. Il ne pleure pas pendant, parce qu'il tient : il absorbe les voix, les odeurs, les bras, les visages. La décharge arrive après, quand le calme revient et que son système nerveux lâche. À deux mois, il perçoit bien plus qu'au premier mois — et sature donc plus vite. Le levier n'est pas de mieux le consoler après : c'est de doser la charge avant, et d'installer une décompression systématique après le départ.",
-      "ancrage": "Tu as le droit de cadrer les visites, même si cela déçoit. Protéger le calme de ton bébé n'est pas de l'inhospitalité — c'est une réponse à un système nerveux qui ne filtre pas encore.",
+      "situation": "Le trop-plein social / Il est inconsolable après les visites",
+      "titre": "Décompresser après, cadrer avant",
+      "explication": "Ton bébé a été charmant pendant la visite, et il s'effondre une fois la porte fermée. C'est la règle, pas l'exception. Il ne pleure pas pendant, parce qu'il tient : il absorbe les voix, les odeurs, les bras, les visages. La décharge arrive après, quand le calme revient et que son système nerveux lâche. À deux mois, il perçoit bien plus qu'au premier mois, et sature donc plus vite. Le levier n'est pas de mieux le consoler après : c'est de doser la charge avant, et d'installer une décompression systématique après le départ.",
+      "ancrage": "Refuser une visite ou l'écourter n'a rien d'impoli, c'est un choix d'organisation. Tu peux le dire simplement, sans te justifier.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — la décompression d'après",
+        "titre": "Action immédiate : la décompression d'après",
         "etapes": [
           "Retour au calme immédiat : pièce sombre, silence, un seul adulte auprès de lui.",
           "Peau à peau : le remettre contre toi, sans parler, sans bercer vivement.",
           "Aucune stimulation ajoutée : ni musique, ni promenade, ni jouet.",
-          "Accepter la décharge : les pleurs peuvent durer — c'est la sortie du trop-plein, pas un problème nouveau.",
+          "Accepter la décharge : les pleurs peuvent durer. C'est la sortie du trop-plein, pas un problème nouveau.",
           "Coucher sans attendre le calme parfait : le sommeil vient souvent une fois la vague passée."
         ]
       },
@@ -261,22 +261,22 @@
           "Une fois la première vague passée : bébé calmé, dans le silence.",
           "Toucher enveloppant des pieds : les tenir entiers dans tes paumes, immobiles.",
           "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
           "S'arrêter à sa demande : s'il se crispe ou retire son pied, on arrête."
         ]
       },
       "pour_aller_plus_loin": [
-        "Cadrer avant : durée courte, un ou deux visiteurs, pas d'enchaînement de bras — annoncé avant la visite.",
-        "Préparer une phrase : « on est ravis de vous voir, on garde court pour préserver son rythme » — dite avec le sourire, elle passe.",
+        "Cadrer avant : durée courte, un ou deux visiteurs, pas d'enchaînement de bras, annoncé avant la visite.",
+        "Préparer une phrase : « on est ravis de vous voir, on garde court pour préserver son rythme », dite avec le sourire, elle passe.",
         "Protéger la fin de journée : éviter les visites dans la fenêtre où les pleurs sont déjà les plus intenses.",
-        "Observer les signaux de saturation : regard qui fuit, bâillements, hoquet, agitation — ce sont ses mots."
+        "Observer les signaux de saturation : regard qui fuit, bâillements, hoquet, agitation, ce sont ses mots."
       ],
-      "principe": "Un bébé ne se protège pas seul du trop-plein : c'est toi son filtre. Réduire l'entrée de stimulations est toujours plus efficace que de consoler une fois la surcharge installée.",
+      "principe": "La décharge arrive toujours après l'effort, jamais pendant. Un bébé qui tient bon devant les invités paiera la note une fois la porte fermée, et cela ne dit rien de la qualité de la visite.",
       "erreurs_a_eviter": [
         "Faire passer bébé de bras en bras pour ne vexer personne.",
         "Réveiller bébé pour qu'il « profite » des visiteurs.",
         "Compenser après coup par une promenade ou une animation supplémentaire.",
-        "S'excuser de protéger son calme — ton cadre est légitime."
+        "S'excuser de protéger son calme : ton cadre est légitime."
       ],
       "consulter_si": "Consulter si : bébé reste inconsolable plusieurs heures malgré le retour au calme, s'il refuse de boire, s'il présente de la fièvre, ou s'il paraît anormalement mou ou difficile à réveiller → pédiatre, ou le 15 selon l'urgence. Si ces épisodes t'épuisent au point que tu ne tiens plus → PMI, sage-femme, ou Allo Parents Bébé (0 800 00 34 56)."
     }

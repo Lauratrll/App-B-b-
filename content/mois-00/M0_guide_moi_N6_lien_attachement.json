@@ -10,8 +10,8 @@
   "protocoles": [
     {
       "categorie": "sepa",
-      "situation": "Je n'arrive pas à décoder ses pleurs / l'apprentissage parental",
-      "titre": "Décoder ses pleurs / un apprentissage, pas un instinct",
+      "situation": "Le décodage des pleurs / Je n'arrive pas à savoir ce qu'il veut",
+      "titre": "Un apprentissage, pas un instinct",
       "explication": "Personne ne naît en sachant lire les pleurs d'un nouveau-né. L'idée d'un « instinct maternel » qui saurait d'emblée est un mythe, et il fait beaucoup de dégâts : il transforme un apprentissage normal en preuve d'incompétence. Le décodage se construit dans la répétition. Tu essaies, tu observes, tu ajustes, et progressivement des régularités apparaissent. Certains bébés ont des pleurs très différenciés, d'autres presque identiques quelle que soit la cause. Cela ne dit rien de toi. Et il reste toujours une part de pleurs sans cause identifiable : c'est normal.",
       "ancrage": "Ne pas savoir n'est pas échouer. Tu apprends à connaître une personne que tu rencontres depuis quelques jours à peine. Cela prend du temps, et c'est exactement ce qui doit se passer.",
       "action_immediate": {
@@ -55,8 +55,8 @@
     },
     {
       "categorie": "sepa",
-      "situation": "Je me sens incompétent(e) comme parent / les premières semaines",
-      "titre": "Le sentiment d'incompétence / présence plutôt que performance",
+      "situation": "Le sentiment d'incompétence / J'ai l'impression de ne pas savoir faire",
+      "titre": "Présent vaut mieux que parfait",
       "explication": "Ce sentiment est l'un des plus partagés des premières semaines, et l'un des moins dits. Tu compares ton intérieur, fait de doutes et de fatigue, à l'extérieur des autres, fait de photos et de récits lissés. La sécurité affective de ton bébé ne se construit pas sur des gestes parfaits : elle se construit sur la répétition de réponses suffisamment bonnes. Les recherches sur l'attachement montrent qu'un parent n'a pas besoin d'être ajusté en permanence : il a besoin de revenir, encore et encore. C'est la réparation, pas la perfection, qui construit le lien.",
       "ancrage": "Tu n'as pas à être un.e parent parfait.e. Tu as à être présent.e, et à revenir après les moments ratés. C'est différent, et c'est largement suffisant.",
       "action_immediate": {
@@ -79,7 +79,7 @@
           "Un moment court et régulier : quelques minutes chaque jour, toujours au même moment.",
           "Réchauffer ses pieds : les tenir dans tes paumes, sans rien faire d'autre.",
           "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
           "Se laisser regarder : ce moment n'a pas d'objectif de performance. C'est un temps de lien, pour vous deux."
         ]
       },
@@ -96,12 +96,12 @@
         "Taire ce sentiment par honte : le dire est ce qui le désamorce.",
         "Prendre la fatigue pour une preuve d'incompétence : c'est une preuve de manque de sommeil."
       ],
-      "consulter_si": "Consulter si : le sentiment d'incompétence s'accompagne d'une tristesse qui dure plus de deux semaines, d'une perte d'intérêt pour tout, de troubles du sommeil même quand bébé dort, de pensées noires, ou d'un sentiment de détachement vis-à-vis de ton bébé → médecin, sage-femme, PMI ou psychologue périnatal. En cas de pensées suicidaires, appeler le 3114, gratuit et disponible en permanence."
+      "consulter_si": "Consulter si : le sentiment d'incompétence s'accompagne d'une tristesse qui dure plus de deux semaines, d'une perte d'intérêt pour tout, de troubles du sommeil même quand bébé dort, de pensées noires, ou d'un sentiment de détachement vis-à-vis de ton bébé → médecin, sage-femme, PMI ou psychologue périnatal. Si les pensées noires s'installent, le 3114 répond jour et nuit."
     },
     {
       "categorie": "sepa",
-      "situation": "Bébé ne semble pas me reconnaître / la connexion en construction",
-      "titre": "La reconnaissance / bien avant le sourire",
+      "situation": "La reconnaissance / J'ai l'impression qu'il ne me reconnaît pas",
+      "titre": "Il te connaît déjà par l'odeur et la voix",
       "explication": "Tu attends un signe : un regard, un sourire, une réaction qui dise « c'est toi ». Ces signes visibles arrivent plus tard. Le sourire volontaire apparaît souvent vers six à huit semaines, avec une fourchette large. Mais ton bébé te reconnaît déjà, autrement : à ton odeur, à ta voix qu'il entendait avant de naître, au rythme de ton cœur, à ta façon de le porter. Cette reconnaissance sensorielle précède largement la reconnaissance visuelle. L'absence de retour visible n'est pas une absence de lien : c'est un lien qui ne parle pas encore ta langue.",
       "ancrage": "Il te reconnaît déjà, avec des sens que tu ne vois pas à l'œuvre. Le lien n'attend pas son premier sourire pour exister : il existe pendant que tu l'attends.",
       "action_immediate": {
@@ -145,9 +145,9 @@
     },
     {
       "categorie": "sepa",
-      "situation": "Peur de trop le porter / le mythe du bébé gâté",
-      "titre": "Le mythe du bébé gâté / porter n'est pas gâter",
-      "explication": "« Tu vas lui donner de mauvaises habitudes. » Cette phrase, tu vas l'entendre, souvent avec affection, et toujours à tort. On ne gâte pas un nouveau-né. Le besoin de contact n'est pas un caprice à réprimer : c'est un besoin neurologique, aussi réel que la faim. Un bébé porté pleure moins, régule mieux sa température et son rythme cardiaque, et construit une base de sécurité solide. Ce sont les bébés dont les besoins de contact ont été comblés qui explorent le plus librement ensuite. Répondre maintenant, c'est préparer l'autonomie plus tard.",
+      "situation": "Le mythe du bébé gâté / J'ai peur de trop le porter",
+      "titre": "Porter n'est pas gâter",
+      "explication": "« Tu vas lui donner de mauvaises habitudes. » Cette phrase, tu vas l'entendre, souvent avec affection, et toujours à tort. On ne gâte pas un nouveau-né. Le besoin de contact est un besoin neurologique, aussi réel que la faim. Un bébé porté pleure moins, régule mieux sa température et son rythme cardiaque, et construit une base de sécurité solide. Ce sont les bébés dont les besoins de contact ont été comblés qui explorent le plus librement ensuite. Répondre maintenant, c'est préparer l'autonomie plus tard.",
       "ancrage": "Tu ne fabriques pas une mauvaise habitude : tu réponds à un besoin. Et tu as le droit de le dire simplement à ceux qui t'expliquent le contraire.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -169,7 +169,7 @@
           "Un rendez-vous régulier : chaque jour, quelques minutes, dans le calme.",
           "Réchauffer ses pieds : les tenir dans tes paumes avant de commencer.",
           "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
           "Profiter du moment : ce temps de contact nourrit le lien autant que le portage."
         ]
       },

@@ -4,192 +4,189 @@
   "categorie": {
     "id": "parent",
     "nom": "Parents submergés",
-    "sous_titre": "Culpabilité, sécurisation, couple, tristesse",
+    "sous_titre": "Culpabilité, charge mentale, couple, tristesse",
     "icone": "🫶"
   },
   "protocoles": [
     {
       "categorie": "parent",
-      "situation": "Culpabilité de la garde / la première semaine de crèche",
-      "titre": "La culpabilité de la garde / ce n'est pas un indicateur",
-      "explication": "La première semaine de crèche est souvent plus dure pour le parent que pour l'enfant. La culpabilité s'installe, et elle prend une forme trompeuse : elle se présente comme une information — « s'il pleure, c'est que ce n'est pas bon pour lui ». C'est faux. La culpabilité est une émotion, pas un indicateur de la qualité de la garde. Les deux se jugent séparément : d'un côté ce que tu ressens, qui est légitime et mérite d'être dit ; de l'autre l'intérêt de ton bébé, qui se juge sur des faits.",
-      "ancrage": "Ta culpabilité est une émotion, pas une évaluation. Ce que tu ressens et ce dont il a besoin sont deux choses distinctes.",
+      "situation": "La culpabilité de la garde / Je culpabilise chaque jour",
+      "titre": "Une émotion n'est pas une évaluation",
+      "explication": "Tu l'as posé, tu as dit au revoir, et tu marches vers la voiture avec cette boule qui ne part jamais avant le premier feu rouge. Trois mois que ça dure. Déposer son enfant chaque matin en ayant mal au ventre ne veut pas dire qu'on fait un mauvais choix. C'est une confusion très courante et très coûteuse : on prend l'intensité d'une émotion pour une information sur la réalité. La culpabilité est un signal social ; elle se déclenche quand on s'éloigne de ce qu'on croit attendu de soi, pas quand on nuit à quelqu'un. Pour savoir si la garde convient à ton enfant, il existe des éléments observables, et ils n'ont rien à voir avec ce que tu ressens sur le trottoir : comment il mange sur place, s'il dort, s'il explore, s'il se console, et comment il te retrouve le soir. Ce sont ceux-là qui répondent à la question.",
+      "ancrage": "Ce que tu ressens le matin parle de ton attachement, pas de la qualité de la journée qu'il va passer. Une boule au ventre n'est pas un avis sur ta crèche.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — séparer les deux",
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : regarder les faits de la semaine",
         "etapes": [
-          "Nommer l'émotion : « je me sens coupable » — sans en faire une conclusion sur la garde.",
-          "Regarder les faits : mange-t-il ? dort-il ? est-il détendu au bout d'un moment ? l'équipe est-elle attentive ?",
-          "Demander des retours concrets : combien de temps il a pleuré, ce qu'il a fait de sa journée.",
-          "Ne pas décider dans la culpabilité : aucune décision majeure la première semaine.",
-          "En parler : au co-parent, à une amie — la culpabilité tue quand elle reste silencieuse."
+          "Demander comment se passent les repas : un enfant qui mange sur place est un enfant qui se sent en sécurité.",
+          "Demander s'il dort : le sommeil hors de la maison est l'un des meilleurs indicateurs.",
+          "Observer les retrouvailles : venir vers toi, se blottir, ou même pleurer de soulagement, tout cela est bon signe.",
+          "Écrire ce que tu observes pendant une semaine : les faits résistent mieux que les impressions du matin.",
+          "Poser une question précise si quelque chose accroche : elle se règle en une conversation, la plupart du temps."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — traverser la première semaine",
+        "titre": "Geste doux : le matin, sur le trottoir",
         "etapes": [
-          "Trois respirations lentes : avant d'entrer, et après être partie.",
-          "Un rituel de départ court : une phrase, un baiser, et on part.",
-          "Une demi-heure pleine au retour : sans écran, sans tâche.",
-          "Se protéger la première semaine : aucun engagement en plus.",
-          "Accepter les larmes : les tiennes aussi sont normales."
+          "Faire un départ court : quelques secondes, une phrase, toujours la même.",
+          "Souffler longuement en repartant : cinq fois, l'expiration plus longue que l'inspiration.",
+          "Nommer ce que tu ressens : « je suis triste de le laisser » n'est pas « je lui fais du mal ».",
+          "Regarder autre chose tout de suite : la rumination démarre dans les deux premières minutes.",
+          "Se donner un rendez-vous mental pour le soir : ce que tu veux lui demander à la retrouvaille."
         ]
       },
       "pour_aller_plus_loin": [
-        "Retenir la distinction : la culpabilité mesure ton attachement, pas la qualité de la garde.",
-        "Se rappeler que la séparation n'abîme pas le lien : ce qui compte, c'est la fiabilité du retour.",
-        "Alerter s'il y a des faits : un enfant qui ne mange plus, qui régresse durablement, une équipe qui ne répond pas — cela, ce sont des faits.",
-        "Distinguer culpabilité et dépression : une tristesse durable, une perte d'intérêt ou des pensées noires demandent un avis."
+        "Se souvenir que la collectivité apporte aussi : des enfants, des jeux, d'autres adultes, du langage.",
+        "Prendre au sérieux ce qui accroche vraiment : un changement net et durable de comportement se signale et se discute.",
+        "Se rappeler que la culpabilité vise presque toujours la même personne : dans la plupart des familles, elle épargne l'autre parent.",
+        "Parler avec d'autres parents du même lieu : la même émotion, racontée, perd beaucoup de sa force."
       ],
-      "principe": "La culpabilité n'est pas une évaluation de la garde : c'est une émotion. Elle se dit, elle se traverse — et elle ne décide de rien.",
+      "principe": "La culpabilité mesure l'écart avec ce qu'on croit qu'on devrait ressentir, jamais la qualité de ce que vit l'enfant. Ce qui répond, ce sont des faits observables.",
       "erreurs_a_eviter": [
-        "Prendre sa culpabilité pour une preuve que la garde est mauvaise.",
-        "Prendre une décision majeure la première semaine.",
-        "Taire ce que tu ressens.",
-        "Juger la garde uniquement à partir de ses pleurs du matin."
+        "Prendre la force de l'émotion pour une preuve : plus elle est forte, moins elle est informative.",
+        "Compenser le soir par des journées surchargées : un enfant fatigué a besoin de calme, pas de rattrapage.",
+        "Chercher des signes de reproche chez lui : ses pleurs du soir sont de la décharge, pas un procès.",
+        "Se juger sur les matins difficiles : ils existent chez presque tous les enfants, dans presque tous les modes de garde."
       ],
-      "consulter_si": "Consulter si : la culpabilité devient envahissante, si elle s'accompagne d'une tristesse qui dure plus de deux semaines, d'insomnies, d'une perte d'intérêt, ou de pensées noires → médecin, sage-femme, PMI ou psychologue périnatal. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence.",
-      "source": "Source : ameli.fr (Assurance Maladie) — dépression post-partum : reconnaître les signes et se faire accompagner."
+      "consulter_si": "Consulter si : la culpabilité devient envahissante, si elle s'accompagne d'insomnies, d'une perte d'intérêt pour tout, ou d'une tristesse qui dure plus de deux semaines → médecin, sage-femme ou PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
     },
     {
       "categorie": "parent",
-      "situation": "La maison n'est plus à moi / tout sécuriser m'épuise",
-      "titre": "Tout sécuriser / une fois, pas en continu",
-      "explication": "Depuis qu'il se déplace, la maison est devenue un terrain de surveillance permanente. Tu passes tes journées à dire non, à retirer, à rattraper — et c'est épuisant. Le calcul est pourtant simple : sécuriser une fois, complètement, coûte infiniment moins cher que surveiller en continu. Et l'effet sur la charge mentale est immédiat : chaque zone sécurisée est une vigilance en moins. Ce n'est pas la maison que tu perds — c'est la surveillance permanente dont tu te libères.",
-      "ancrage": "Surveiller en continu coûte plus cher que sécuriser une fois. Chaque zone sécurisée est une vigilance en moins dans ta tête.",
+      "situation": "La surveillance permanente / Je ne décroche jamais",
+      "titre": "Une passe régulière, pas une veille continue",
+      "explication": "Il est chez sa grand-mère pour l'après-midi. Tu as la maison pour toi, et tu viens de te surprendre à guetter un bruit qui ne peut pas venir. Il y a un état dont on ne sort plus : une oreille toujours branchée, l'esprit qui vérifie même quand quelqu'un d'autre s'en occupe, le sommeil qui reste à la surface. Cette vigilance a été utile les premiers mois. Elle l'est beaucoup moins maintenant, et elle épuise autant que les nuits. Elle a aussi un effet pervers : un cerveau qui surveille en continu finit par ne plus distinguer ce qui compte de ce qui ne compte pas, et il déclenche pour tout. Ce qui la remplace n'est pas de baisser la garde. C'est de la structurer : des vérifications décidées, à des moments choisis, plutôt qu'une veille permanente qui ne s'arrête jamais.",
+      "ancrage": "Ton caractère n'a pas changé. Ton système d'alerte est resté allumé depuis huit mois, et personne ne lui a jamais dit qu'il pouvait baisser d'un cran.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — sécuriser en une passe",
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : passer de la veille à la passe",
         "etapes": [
-          "Faire le tour à quatre pattes : voir la maison à sa hauteur — c'est la seule méthode fiable.",
-          "Escaliers : barrières en haut et en bas.",
-          "Produits ménagers et médicaments : en hauteur, fermés — jamais sous l'évier.",
-          "Meubles fixés au mur : commodes, étagères, téléviseurs — un meuble qui bascule peut tuer.",
-          "Prises, câbles, cordons de rideaux, petits objets : traités en une seule fois."
+          "Décider des moments de vérification : deux ou trois passages, plutôt qu'un contrôle continu.",
+          "Baisser le volume de l'écoute-bébé : il est presque toujours réglé beaucoup trop haut.",
+          "Éloigner le téléphone quand quelqu'un d'autre garde : la disponibilité permanente empêche de décrocher.",
+          "S'occuper les mains pendant ce temps : le corps engagé ailleurs coupe la boucle plus vite que la volonté.",
+          "Laisser passer un bruit sans se lever : la plupart des bruits de nuit ne sont pas des appels."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — récupérer de la charge mentale",
+        "titre": "Geste doux : quand l'oreille reste branchée",
         "etapes": [
-          "Créer une zone « oui » : une pièce où tout est autorisé, où tu n'as rien à surveiller.",
-          "Lui donner un placard à lui : des objets sûrs qu'il peut vider et remplir.",
-          "Réserver le « non » au danger réel : un « non » partout ne veut plus rien dire.",
-          "Déléguer la sécurisation : c'est une tâche transférable, avec la charge d'y penser.",
-          "Accepter le désordre : une maison d'enfant n'est pas une maison rangée."
+          "Poser une main sur le ventre et sentir le souffle : dix respirations, sans rien surveiller.",
+          "Nommer ce qui est déjà en place : il est en sécurité, quelqu'un est là, tu peux relâcher.",
+          "Relâcher la nuque et la mâchoire : l'hypervigilance s'y installe avant tout le reste.",
+          "Sortir de la pièce plutôt que de résister sur place : la distance fait ce que l'effort ne fait pas.",
+          "Se donner 5 minutes sans intervenir : elles suffisent souvent à voir que rien n'arrive."
         ]
       },
       "pour_aller_plus_loin": [
-        "Sécuriser en avance : ce qu'il n'atteint pas encore, il l'atteindra dans quelques jours.",
-        "Vérifier les fenêtres : entrebâilleurs, aucun meuble sous une fenêtre.",
-        "Attention à l'eau : jamais seul près d'une baignoire, d'un seau ou d'une piscine.",
-        "Numéro du centre antipoison : affiché, avec le 15."
+        "Vérifier une bonne fois les règles de couchage : sur le dos, matelas ferme, lit vide, rien autour du cou. Une fois vérifiées, elles n'ont plus à l'être chaque nuit.",
+        "Transmettre les consignes par écrit à qui garde : ce qui est écrit se relâche mieux que ce qui est surveillé.",
+        "Repérer ce qui rallume la vigilance : le manque de sommeil et les recherches nocturnes en tête.",
+        "En parler si elle ne baisse pas : une vigilance qui organise toutes les journées se dit au médecin."
       ],
-      "principe": "Sécuriser une fois libère l'exploration et allège la charge mentale. La surveillance permanente épuise et ne protège pas mieux.",
+      "principe": "Une vigilance structurée protège autant qu'une veille continue, et elle coûte infiniment moins cher. Le passage de l'une à l'autre se décide, il ne se produit pas tout seul.",
       "erreurs_a_eviter": [
-        "Surveiller en continu au lieu d'aménager.",
-        "Dire non toute la journée.",
-        "Ranger les produits ménagers sous l'évier.",
-        "Laisser un meuble non fixé au mur."
+        "Vérifier davantage pour être tranquille : chaque vérification renforce le besoin de la suivante.",
+        "Être la seule personne à connaître les consignes : cela rend impossible de passer la main.",
+        "Dormir avec l'écoute-bébé à côté de l'oreille : il amplifie des bruits qui n'appellent rien.",
+        "Se juger sévèrement pour cette vigilance : elle a une histoire, et elle se déprogramme progressivement."
       ],
-      "consulter_si": "Consulter si : bébé a avalé un produit, un médicament ou un objet → appeler immédiatement le 15 ou le centre antipoison, sans le faire vomir. En cas de brûlure, de chute d'une hauteur, de noyade même brève, ou d'ingestion de pile bouton → le 15 immédiatement.",
-      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — éviter les accidents domestiques des enfants."
+      "consulter_si": "Consulter si : la vigilance devient impossible à interrompre, si elle s'accompagne de vérifications incessantes, d'insomnies même quand ton enfant dort, d'attaques de panique, ou d'une tristesse qui dure plus de deux semaines → médecin, sage-femme ou PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
     },
     {
       "categorie": "parent",
-      "situation": "Plus de temps à deux / le couple en veilleuse",
-      "titre": "Le couple en veilleuse / des micro-moments protégés",
-      "explication": "Vous ne vous parlez plus que logistique. Les soirées sont mortes, les sorties impossibles, et l'idée d'un week-end en amoureux ressemble à une plaisanterie. Le piège est d'attendre le grand geste réparateur — le dîner, le week-end, les vacances — qui n'arrive jamais et dont l'absence nourrit le ressentiment. Ce qui répare un couple à ce stade, ce ne sont pas les grands projets : ce sont des micro-moments, courts, protégés, et surtout tenus régulièrement.",
-      "ancrage": "Le couple ne se répare pas par un grand geste qui n'arrive jamais : il se répare par vingt minutes, tenues chaque semaine.",
+      "situation": "La répartition des nuits / Je me lève toujours",
+      "titre": "Écrire la relève au lieu de la supposer",
+      "explication": "Cette nuit encore, tu as entendu le premier bruit et tu étais debout avant d'avoir ouvert les yeux. À côté, il dormait. Il ne fait pas exprès : il n'a simplement rien entendu, parce qu'il n'entend plus depuis longtemps. Dans beaucoup de familles, la même personne se lève toutes les nuits sans que cela ait jamais été décidé. Cela s'est installé au début, pour de bonnes raisons, souvent l'allaitement, puis c'est resté par habitude bien après. Le déséquilibre s'entretient tout seul : celui qui se lève entend le premier bruit et bouge avant que l'autre n'émerge, et la discussion, elle, a lieu en pleine nuit, c'est-à-dire au pire moment possible. La seule chose qui change durablement les nuits, c'est un tour écrit, décidé de jour, à froid : quelles nuits, qui, et ce qui se passe si l'enfant réclame l'autre.",
+      "ancrage": "Ce n'est pas un manque de bonne volonté en face. C'est une organisation qui ne s'est jamais dite à voix haute, et qui ne se corrigera pas toute seule.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — protéger un micro-moment",
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : poser un tour de nuit",
         "etapes": [
-          "Vingt minutes, une fois par semaine : sans téléphone, sans parler du bébé, sans logistique.",
-          "Le mettre à l'agenda : un rendez-vous non négociable, comme un rendez-vous médical.",
-          "Commencer petit : un thé après le coucher vaut mieux qu'un dîner jamais organisé.",
-          "Bannir les sujets pratiques : ni courses, ni planning, ni charge mentale pendant ce temps.",
-          "Le tenir même quand c'est difficile : la régularité compte plus que la qualité."
+          "Choisir un moment de jour pour en parler : jamais la nuit, jamais après une nuit difficile.",
+          "Attribuer des nuits entières : deux nuits chacun repose plus que deux moitiés chaque nuit.",
+          "Écrire le tour sur le frigo : ce qui est affiché ne se renégocie pas à chaque réveil.",
+          "Décider ce qui se passe s'il réclame l'autre : celui qui est de garde y va quand même, et cela s'installe en quelques nuits.",
+          "Prévoir la version sans autre parent : viser un bloc protégé en début de nuit, et une nuit de récupération confiée à quelqu'un une fois par mois."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — reprendre contact",
+        "titre": "Geste doux : la nuit où ce n'est pas ton tour",
         "etapes": [
-          "Du contact sans enjeu : se tenir la main, s'enlacer, sans que cela doive mener ailleurs.",
-          "Se coucher en même temps : une fois par semaine, sans autre objectif.",
-          "Dire une chose positive : chaque jour, une seule — cela contrebalance la logistique.",
-          "Parler en « je » : « je me sens loin de toi » plutôt que « tu ne fais rien ».",
-          "Ne rien forcer : ni pour soi, ni pour l'autre."
+          "Dormir dans une autre pièce si c'est possible : la distance permet de ne pas se réveiller au premier bruit.",
+          "Mettre des bouchons d'oreille : ils n'empêchent pas d'entendre un vrai appel.",
+          "Éteindre l'écoute-bébé de ton côté : il n'y a aucune raison que deux personnes veillent la même nuit.",
+          "Résister au premier bruit : attendre 1 minute, l'autre y va, et l'habitude se déplace.",
+          "Ne pas vérifier au matin comment cela s'est passé : le contrôle annule la relève."
         ]
       },
       "pour_aller_plus_loin": [
-        "Partager la charge mentale : le désir et la disponibilité ne reviennent pas dans l'épuisement.",
-        "Envisager un accompagnement : conseil conjugal, accompagnement du couple — la période est une épreuve reconnue.",
-        "Se faire garder bébé : deux heures suffisent pour changer une semaine.",
-        "Ne pas attendre le grand geste : il n'arrivera pas, et l'attendre nourrit le ressentiment."
+        "Adapter selon les contraintes réelles : celui qui conduit ou qui travaille tôt garde les nuits qui précèdent ses jours les plus lourds.",
+        "Tenir compte de l'allaitement sans en faire un obstacle : un biberon de lait tiré libère une nuit entière.",
+        "Refaire le point au bout de quinze jours : le tour glisse toujours un peu, et se réajuste sans conflit.",
+        "Regarder les réveils eux-mêmes avec un professionnel : certains s'expliquent et s'améliorent, cela se discute en consultation."
       ],
-      "principe": "Un couple ne se répare pas par un projet lointain : il se répare par des micro-moments courts et tenus. La régularité compte plus que l'ampleur.",
+      "principe": "Une relève de nuit qui n'est pas écrite retombe toujours sur la même personne. Ce qui répartit les nuits, ce n'est pas la bonne volonté, c'est un tour décidé au calme et affiché.",
       "erreurs_a_eviter": [
-        "Attendre le week-end en amoureux qui n'arrivera pas.",
-        "Parler logistique pendant le seul temps à deux.",
-        "Laisser les non-dits s'accumuler jusqu'au conflit.",
-        "S'imposer une reprise des rapports pour « rassurer » l'autre."
+        "En parler pendant la nuit : aucune conversation de 3h du matin ne débouche sur un accord.",
+        "Se lever quand même « parce que ça ira plus vite » : c'est exactement ce qui empêche l'habitude de changer.",
+        "Attendre que l'autre propose : il ne voit pas ce qu'il ne vit pas.",
+        "Renoncer parce que l'enfant réclame l'autre parent : cela dure quelques nuits, puis cela passe."
       ],
-      "consulter_si": "Consulter si : la relation devient violente — paroles, gestes, contrôle → 3919, Violences Femmes Info, gratuit et anonyme. Si des douleurs persistent lors des rapports, ou si l'absence de désir s'accompagne d'une tristesse durable ou de pensées noires → sage-femme, médecin, ou psychologue périnatal. En cas de pensées suicidaires : 3114."
+      "consulter_si": "Consulter si : la privation de sommeil s'accompagne d'une tristesse qui dure plus de deux semaines, d'une irritabilité permanente, ou de somnolence au volant → médecin sans attendre. Allo Parents Bébé, 0 800 00 34 56, gratuit."
     },
     {
       "categorie": "parent",
-      "situation": "Tristesse qui ne passe pas / plusieurs mois après la naissance",
-      "titre": "La tristesse qui dure / une dépression peut venir tard",
-      "explication": "Huit mois après la naissance, et la tristesse est toujours là — ou elle vient d'arriver. Disons-le clairement : une dépression périnatale peut apparaître tardivement, bien après les premières semaines. Le fait qu'elle survienne « tard » ne la rend ni moins réelle, ni moins traitable — mais elle est souvent moins repérée, précisément parce que tout le monde a cessé de surveiller. Et il y a un piège supplémentaire : à ce stade, on se dit que « ce n'est plus l'excuse du post-partum ». Si, ça l'est encore.",
-      "ancrage": "Une dépression peut arriver tard. Ce n'est ni un caractère qui faiblit, ni une fatigue ordinaire — et cela se soigne.",
+      "situation": "La tristesse qui s'installe / Ça ne passe pas",
+      "titre": "Ce qui se passe quand on va en parler",
+      "explication": "Tu as le numéro du cabinet dans ton téléphone depuis six semaines. Tu ne l'as pas composé. Au bout de huit mois, une tristesse qui dure n'est plus mise sur le compte des hormones ni de l'adaptation. Beaucoup de parents restent pourtant sans en parler, moins par honte que par flou : on ne sait pas à qui s'adresser, ni ce qui va se passer, ni ce qu'on risque de déclencher. Autant le dire simplement. Le premier rendez-vous se prend chez un médecin généraliste, une sage-femme ou à la PMI. Il consiste à décrire depuis quand cela dure et ce que cela a rendu impossible. Personne ne juge la manière dont tu t'occupes de ton enfant, et personne ne te le retire. À la fin, il y a le plus souvent une orientation, parfois un suivi, et surtout une chose qui a enfin été dite à quelqu'un dont c'est le métier.",
+      "ancrage": "Huit mois après, cela n'a rien de tardif ni d'anormal. Ce qui compte n'est pas l'ancienneté, c'est que cela cesse de durer en silence.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — nommer et appeler",
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : préparer le rendez-vous",
         "etapes": [
-          "Repérer la durée : au-delà de deux semaines, presque tous les jours, cela se dit à un professionnel.",
-          "Nommer les signes : tristesse, envie de pleurer, vide, irritabilité, insomnie même quand bébé dort, perte d'intérêt.",
-          "Le dire à quelqu'un : le co-parent, une amie, un professionnel — sortir du silence est le premier acte de soin.",
-          "Prendre rendez-vous : médecin, sage-femme ou PMI, cette semaine — pas « quand ça ira mieux ».",
-          "Ne pas rester seule : organiser une présence dans les jours qui viennent."
+          "Compter les mois : depuis combien de temps c'est presque quotidien. C'est la donnée que le médecin attend.",
+          "Noter ce que cela empêche : dormir, manger, voir des gens, avoir envie de quelque chose.",
+          "Prendre le rendez-vous en disant le motif : « je ne vais pas bien depuis plusieurs mois » suffit.",
+          "Emporter les notes : le jour du rendez-vous, tout paraît toujours moins grave qu'en vrai.",
+          "Se faire accompagner si c'est plus facile : rien n'oblige à y aller sans personne."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — traverser en attendant l'aide",
+        "titre": "Geste doux : les jours où rien ne va",
         "etapes": [
-          "Une chose par jour : une seule, choisie — le reste peut attendre.",
-          "Sortir dix minutes : la lumière et l'air allègent, même s'ils ne soignent pas.",
-          "Manger et boire : la fatigue physique aggrave tout.",
-          "Écrire ce que tu ressens : quelques lignes, sans te relire.",
-          "Accepter de ne pas ressentir : le lien peut être en veille — il reviendra."
+          "Réduire les objectifs à trois : lui, manger, sortir. Le reste attend.",
+          "Marcher 20 minutes dehors : bouger fait plus, sur l'humeur, que d'attendre que l'envie revienne.",
+          "Prévenir une personne en trois mots : « aujourd'hui c'est difficile ».",
+          "Accepter une journée ratée : elle ne dit rien de la semaine.",
+          "Se coucher tôt : le manque de sommeil aggrave tout, et c'est le seul levier immédiat."
         ]
       },
       "pour_aller_plus_loin": [
-        "Savoir que la forme tardive existe : une dépression périnatale peut apparaître plusieurs mois après la naissance.",
-        "S'appuyer sur les ressources : MonParcoursPsy (séances remboursées après avis d'un médecin), Maman Blues, PMI, psychologue périnatal.",
-        "Impliquer le co-parent : lui donner un rôle précis — les rendez-vous, les nuits, la maison.",
-        "Retenir que cela se soigne : la prise en charge est efficace, et d'autant plus rapide qu'elle est précoce."
+        "Savoir que le second parent est concerné : plus de 10 % des pères traversent une dépression dans l'année qui suit la naissance, *d'après l'Inserm, cohorte Elfe*. Chez eux, elle est encore moins repérée.",
+        "Demander au médecin ce qui existe : selon les situations, un suivi psychologique pris en charge peut être proposé, et cela se discute en consultation.",
+        "S'appuyer sur Maman Blues : information, témoignages et orientation, souvent le premier pas avant de consulter.",
+        "Demander à la PMI : la puéricultrice reçoit sans rendez-vous dans beaucoup de communes, et elle sait vers qui orienter."
       ],
-      "principe": "Une dépression périnatale peut apparaître tardivement, et elle est alors moins repérée. La nommer et consulter n'est pas un aveu de faiblesse : c'est un soin.",
+      "principe": "Un abattement qui dure des mois relève d'un accompagnement, pas d'un effort supplémentaire. Ce premier échange consiste seulement à décrire, et c'est déjà lui qui change quelque chose.",
       "erreurs_a_eviter": [
-        "Attendre « que ça passe » au-delà de deux semaines.",
-        "Se dire que « ce n'est plus l'excuse du post-partum ».",
-        "Taire les pensées noires par peur du jugement.",
-        "Se juger sur son manque d'élan — c'est un symptôme, pas un trait de caractère."
+        "Attendre d'avoir touché le fond : plus c'est dit tôt, plus c'est court.",
+        "Se dire qu'on n'a pas de raison valable : elle n'en demande aucune.",
+        "Minimiser une fois sur place parce que ça va mieux : la description porte sur les mois, pas sur l'heure.",
+        "Craindre qu'on te retire ton enfant : les professionnels de la périnatalité accompagnent, ils ne sanctionnent pas."
       ],
-      "consulter_si": "Consulter si : la tristesse, l'anxiété ou le vide durent plus de deux semaines, presque tous les jours ; si tu ne dors plus même quand bébé dort ; si tu te sens détachée de ton bébé ; si tu as des pensées noires ou l'impression que tout le monde irait mieux sans toi → médecin, sage-femme, PMI ou psychologue périnatal sans attendre. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence.",
-      "source": "Source : ameli.fr (Assurance Maladie) — dépression post-partum : reconnaître les signes et se faire accompagner."
+      "consulter_si": "Consulter si : la tristesse dure plus de deux semaines, si plus rien ne te fait envie, si tu dors mal même quand bébé dort, ou si tu te sens vide ou détachée de lui → médecin, sage-femme ou PMI sans attendre. Allo Parents Bébé, 0 800 00 34 56, gratuit. Si les pensées noires s'installent, le 3114 répond jour et nuit."
     }
   ]
 }

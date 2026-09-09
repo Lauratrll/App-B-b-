@@ -1,0 +1,193 @@
+{
+  "mois": 16,
+  "tranche_age": "16 mois",
+  "categorie": {
+    "id": "parent",
+    "nom": "Parents submergés",
+    "sous_titre": "Les cris, le dîner, le dos, le jeu",
+    "icone": "🫶"
+  },
+  "protocoles": [
+    {
+      "categorie": "parent",
+      "situation": "Les cris que je ne supporte plus / Mon corps se tend",
+      "titre": "Ce n'est pas ta patience, c'est ton corps",
+      "explication": "Il a crié parce que le yaourt n'était pas le bon. Tu as senti tes épaules monter d'un coup, avant même de comprendre pourquoi il criait. À seize mois, le cri reste son moyen le plus efficace de se faire entendre : il a des mots, mais pas assez pour dire l'urgence, et le cri passe toujours. Du côté de l'adulte, un cri d'enfant déclenche une réaction automatique : le sursaut, le cœur qui accélère, les épaules qui montent. Cette réaction ne s'éteint pas avec la volonté, et elle s'épuise au contraire quand elle se répète toute la journée. Ce qui se fatigue chez toi n'est donc pas ton caractère : c'est un système d'alarme qui n'a pas eu une seule journée de congé depuis seize mois.",
+      "ancrage": "Si ton corps se tend avant même que tu aies pensé quoi que ce soit, ce n'est pas un manque de patience. C'est un réflexe, et un réflexe se protège au lieu de se combattre.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : quand le cri part",
+        "etapes": [
+          "Baisser le volume autour : couper la musique, la radio, l'écran, tout de suite.",
+          "Descendre la voix au lieu de la monter : parler plus bas l'oblige à écouter pour entendre.",
+          "Reculer d'un pas : deux mètres de distance suffisent à faire retomber le sursaut.",
+          "Mettre des mots sur ce qu'il veut : « tu veux le camion, et tu n'y arrives pas ».",
+          "Sortir 30 secondes si rien ne redescend : lui en sécurité, toi juste à côté."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : faire retomber le sursaut",
+        "etapes": [
+          "Boucher les oreilles 10 secondes : la coupure sonore fait redescendre le sursaut plus vite que tout.",
+          "Poser deux doigts sous les oreilles : appui léger et maintenu, 10 secondes de chaque côté.",
+          "Bâiller volontairement, deux fois : cela relâche la mâchoire et l'oreille interne.",
+          "Frotter lentement les avant-bras, du poignet au coude : trois allers-retours, en soufflant.",
+          "Boire quelques gorgées d'eau : le geste de déglutir fait redescendre la tension du cou."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Réduire le bruit de fond de la journée : sans musique ni écran allumé, un cri fatigue deux fois moins.",
+        "Repérer l'heure des cris : ils tombent presque toujours au même moment, la faim ou la fin de journée.",
+        "Lui donner des mots à la place : montrer, pointer, un signe simple pour « encore » et « fini ».",
+        "Alterner avec quelqu'un sur ce créneau : 10 minutes de relais changent toute la fin de journée."
+      ],
+      "principe": "Un cri d'enfant produit une réaction automatique chez l'adulte, et personne ne s'y habitue. Ce qui protège n'est pas de mieux tenir, c'est de faire baisser le volume total de la journée.",
+      "erreurs_a_eviter": [
+        "Crier plus fort pour couvrir : le volume monte des deux côtés et rien ne redescend.",
+        "Attendre que ça passe sans rien changer : la tension ne redescend pas seule d'un cri à l'autre.",
+        "Se juger de ne pas supporter : personne ne s'habitue à un cri, l'oreille est faite ainsi.",
+        "Céder pour faire cesser le cri : il retient que c'est le cri qui marche le mieux."
+      ],
+      "consulter_si": "Consulter si : tu as peur de tes propres gestes, si les cris deviennent quotidiens, ou si tu te sens au bord de perdre le contrôle → en parler à ton médecin ou à la PMI, ou appeler Allo Parents Bébé, 0 800 00 34 56, gratuit. Un tout-petit ne doit jamais être secoué : quelques secondes suffisent à provoquer des lésions graves. Et si tu as besoin de parler de ce que tu ressens envers ton enfant, le 119 répond aussi aux parents, jour et nuit, et il n'apparaît sur aucun relevé de téléphone."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Le dîner à réinventer / Je ne sais plus quoi cuisiner",
+      "titre": "Trois dîners qui tournent, et c'est tout",
+      "explication": "Il est 18h30, tu ouvres le frigo, et tu restes devant sans rien voir. Encore des pâtes, tu ne peux plus. Ce qui se joue au dîner à seize mois n'est pourtant pas la variété, c'est la répétition. Un enfant a besoin de rencontrer un aliment plusieurs fois avant de l'accepter, et il mange plus volontiers ce qu'il reconnaît. Ce que tu prends pour un manque d'imagination est donc exactement ce dont il a besoin : la même assiette, souvent, avec une seule chose qui change. La lassitude est de ton côté, pas du sien, et c'est elle qui a besoin d'être soulagée, pas son menu.",
+      "ancrage": "Tu n'as pas à inventer un dîner par soir. Personne ne le fait, et lui n'en a pas besoin.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : décider ce soir pour la semaine",
+        "etapes": [
+          "Écrire trois dîners que tu sais faire les yeux fermés : trois suffisent, pas dix.",
+          "Les faire tourner sans t'excuser : la répétition l'aide plus qu'elle ne l'ennuie.",
+          "Changer une seule chose à la fois : le légume, la forme, la couleur de l'assiette.",
+          "Cuisiner en double une fois : le dîner de demain est déjà prêt.",
+          "Servir ce que vous mangez, en plus simple : deux repas au lieu d'un, c'est là qu'est le coût."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : avant de passer à table",
+        "etapes": [
+          "S'asseoir 5 minutes avant de servir : souffler avant que tout commence.",
+          "Souffler plus long qu'on inspire : quatre temps dedans, six dehors, cinq fois.",
+          "Relâcher les épaules : les monter vers les oreilles, puis les laisser tomber d'un coup, trois fois.",
+          "Manger avec lui plutôt que de le regarder manger : il mange mieux, et toi aussi.",
+          "Se dire que ce dîner n'a pas à être réussi : il a à être là."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Tenir une liste de courses fixe : les mêmes bases chaque semaine, le reste en variante.",
+        "Garder un stock de secours : deux ou trois dépannages au congélateur pour les soirs qui dérapent.",
+        "Avancer le dîner avant le bain : un enfant fatigué mange mal, et un parent pressé cuisine mal.",
+        "Confier le dîner entier un soir par semaine : le menu compris, pas seulement l'exécution."
+      ],
+      "principe": "Ce qui coûte au dîner n'est pas de cuisiner, c'est de décider chaque soir quoi cuisiner. Un menu qui tourne retire une décision par jour, et c'est cette décision-là qui pesait.",
+      "erreurs_a_eviter": [
+        "Cuisiner un plat à part pour lui : deux repas doublent la charge sans améliorer ce qu'il mange.",
+        "Changer de recette parce qu'il a refusé une fois : un aliment se représente, il ne se retire pas.",
+        "Attendre l'inspiration au moment de servir : la décision se prend le matin, ou elle ne se prend pas.",
+        "Juger la journée sur ce qu'il a mangé au dîner : c'est la semaine qui compte, pas le repas."
+      ],
+      "consulter_si": "Consulter si : il refuse une catégorie entière d'aliments depuis plusieurs semaines, s'il ne prend plus de poids, ou si chaque repas devient un conflit → en parler au médecin, à la PMI ou à une diététicienne. Et si la charge du quotidien ne cède plus, en parler aussi pour toi. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Le dos et les nuits / Mon corps ne suit plus",
+      "titre": "Le mouvement plutôt que le repos",
+      "explication": "Tu t'es baissée pour ramasser un jouet et quelque chose a tiré dans le bas du dos. Tu es restée pliée 3 secondes de trop. À seize mois ton enfant pèse une dizaine de kilos, il se porte encore beaucoup, et il se porte souvent mal : sur une hanche, en se penchant en avant, d'un seul bras. Ajoute des nuits encore coupées, et le dos finit par parler. Ce n'est pas de la fragilité : c'est une charge répétée sur un corps qui ne récupère pas la nuit. Et contrairement à ce que le réflexe commande, ce qui soulage un dos comme celui-là n'est pas de s'immobiliser, c'est de le remettre en mouvement.",
+      "ancrage": "Ton dos n'est pas un détail à régler plus tard. C'est l'outil avec lequel tu portes tout le reste, y compris lui.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : quand le dos bloque",
+        "etapes": [
+          "Continuer à bouger : rester couché plus d'un jour ou deux entretient la douleur au lieu de l'apaiser.",
+          "Changer la façon de le porter : contre le buste, haut, jamais posé sur une seule hanche.",
+          "Plier les genoux pour le soulever : le dos droit, la force dans les jambes.",
+          "Le faire monter au lieu de le hisser : sur le canapé, sur la table à langer, avec ton aide.",
+          "Poser de la chaleur sur la zone tendue : quelques minutes, plusieurs fois dans la journée."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : le soir, quand le dos tire",
+        "etapes": [
+          "S'allonger sur le dos, genoux pliés : 3 minutes, les pieds à plat au sol.",
+          "Basculer doucement le bassin : dix allers-retours lents, sans forcer.",
+          "Ramener un genou vers la poitrine : 10 secondes de chaque côté, en soufflant.",
+          "Relâcher les épaules : les monter, puis les laisser tomber d'un coup, trois fois.",
+          "Marcher 5 minutes avant de te coucher : le mouvement calme mieux que l'immobilité."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Régler une fois ce qui se règle : la hauteur du lit à barreaux, le siège auto, le moyen de portage.",
+        "Le faire marcher davantage : à seize mois, il tient debout plus longtemps qu'on ne le croit.",
+        "Bouger un peu chaque jour : la marche, quelques étirements, ce que tu tiendras vraiment.",
+        "En parler au médecin ou à un kinésithérapeute : c'est le bon moment, pas dans six mois."
+      ],
+      "principe": "Un dos douloureux ne demande pas du repos, il demande du mouvement adapté et une charge mieux répartie. L'immobilité soulage sur l'instant et aggrave sur la durée.",
+      "erreurs_a_eviter": [
+        "S'arrêter complètement en attendant que ça passe : l'inactivité prolongée entretient la douleur.",
+        "Le porter sur une hanche par habitude : c'est la position la plus fréquente, et la plus coûteuse.",
+        "Attendre de ne plus avoir mal pour bouger : c'est en bougeant que la douleur cède.",
+        "Prendre un produit sans avis : demander au pharmacien ou au médecin avant."
+      ],
+      "consulter_si": "Consulter si : la douleur descend dans une jambe, si tu ressens des fourmillements ou une perte de force, si elle te réveille la nuit, ou si elle dure au-delà de quelques semaines → médecin traitant, qui orientera vers un kinésithérapeute si nécessaire.",
+      "source": "Source : lombalgie commune, rester en mouvement plutôt qu'au repos, ameli.fr (Assurance Maladie)."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Le jeu qui me pèse / Je n'aime pas jouer avec lui",
+      "titre": "Le lien passe par ce que tu aimes faire",
+      "explication": "Il te tend le même cube pour la quinzième fois et tu regardes l'heure. Tu t'en veux, parce qu'un bon parent devrait aimer ça. À seize mois, ce dont il a besoin n'est pourtant pas qu'on joue avec lui : c'est qu'on soit disponible pendant qu'il joue. Il explore seul par tranches courtes, puis il revient vérifier que tu es là. Ce qui construit le lien à cet âge, c'est l'attention partagée, pas la qualité du jeu de l'adulte. Beaucoup de parents ne s'amusent pas au sol avec des cubes, et cela ne change rien pour l'enfant.",
+      "ancrage": "Ne pas aimer jouer ne dit rien de ton amour pour lui. Cela dit seulement que le tapis n'est pas ta langue, et qu'il en existe d'autres.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : ce soir, à la place du jeu",
+        "etapes": [
+          "Faire une vraie chose ensemble : mettre la table, plier le linge, appuyer sur le bouton.",
+          "Rester assise près de lui sans jouer : ta présence suffit à ce qu'il continue seul.",
+          "Nommer ce qu'il fait : « tu as empilé trois cubes », c'est déjà de l'attention partagée.",
+          "Choisir 10 minutes courtes et vraies : mieux qu'une heure passée à regarder l'heure.",
+          "Garder ce que tu aimes : lire, chanter, marcher, cuisiner, ce sont des jeux aussi."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Retrouver le contact : autrement que par le jeu",
+        "etapes": [
+          "S'installer contre lui : le contact vaut le jeu, et il coûte beaucoup moins.",
+          "Chanter la même chanson chaque soir : la répétition installe le lien mieux que la nouveauté.",
+          "Poser une main à plat dans son dos : appui léger et maintenu, quelques secondes.",
+          "Le porter en marchant : bouger ensemble est un partage à part entière.",
+          "S'arrêter à sa demande : s'il part explorer, on le laisse partir."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Trouver la forme qui te va : la lecture, la musique, la cuisine, la marche, le bain.",
+        "Laisser du jeu libre : il n'a pas besoin d'un adulte animateur, il a besoin d'un adulte présent.",
+        "Confier le jeu à quelqu'un qui aime ça : un grand-parent, l'autre parent, la crèche.",
+        "Ne pas transformer le jeu en apprentissage : corriger sa tour, c'est la lui retirer."
+      ],
+      "principe": "Le lien ne se mesure pas au temps passé à genoux sur un tapis. Il se construit dans l'attention partagée, quelle que soit l'activité, et un parent qui s'ennuie ne partage rien.",
+      "erreurs_a_eviter": [
+        "Jouer en regardant son téléphone : 10 minutes présentes valent mieux qu'une heure absente.",
+        "Se forcer et le montrer : il perçoit le manque d'envie bien avant les mots.",
+        "Occuper chaque minute de jeu : c'est l'ennui qui déclenche l'exploration.",
+        "Se comparer aux parents qui adorent ça : le lien se joue ailleurs que sur le tapis."
+      ],
+      "consulter_si": "Consulter si : le plaisir d'être avec lui a disparu depuis plusieurs semaines, si tu te sens loin de lui, ou si plus rien ne te fait envie → en parler à ton médecin, à la sage-femme ou à la PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+    }
+  ]
+}

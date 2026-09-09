@@ -1,0 +1,195 @@
+{
+  "mois": 18,
+  "tranche_age": "18 mois",
+  "categorie": {
+    "id": "alim",
+    "nom": "Alimentation",
+    "sous_titre": "Appétit irrégulier, autonomie, variété, assiette jetée",
+    "icone": "🥗"
+  },
+  "protocoles": [
+    {
+      "categorie": "alim",
+      "situation": "L'appétit variable / Il mange bien un jour, puis rien",
+      "titre": "L'assiette finie n'est pas un objectif",
+      "explication": "Vers dix-huit mois, la croissance a nettement ralenti, et l'appétit ne se règle plus repas par repas : il se règle sur plusieurs jours. Ton enfant peut avaler deux assiettes un midi et picorer trois bouchées le lendemain sans que rien n'aille de travers. Les causes d'un jour creux sont presque toujours concrètes et extérieures à l'assiette, et elles se repèrent en quelques secondes quand on sait où regarder.",
+      "ancrage": "Ce qui se lit, c'est la semaine, pas le repas que tu viens de vivre. Tu peux arrêter de chercher une explication au repas d'aujourd'hui, elle est presque toujours ailleurs.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : au repas où il ne mange presque rien",
+        "etapes": [
+          "Le laisser s'arrêter : quand il repousse, c'est fini, et cela vaut aussi le jour où il n'a rien touché.",
+          "Ne rien proposer d'autre : la cuisine ne rouvre pas, sinon le repas suivant sera plus petit encore.",
+          "Garder la même quantité servie : une assiette modeste, identique aux bons jours comme aux mauvais.",
+          "Ne pas commenter l'écart : « hier tu avais tout mangé » transforme la faim en performance.",
+          "Tenir l'heure du repas suivant : rien entre les deux, la faim a besoin de ce temps pour remonter."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Observer bébé : ce qui explique un jour creux",
+        "etapes": [
+          "Ce qu'il a dépensé la veille : une journée de parc et une journée de pluie ne donnent pas la même faim.",
+          "Ses gencives : une dent qui travaille fait passer l'envie de mâcher avant d'être visible.",
+          "Sa nuit et sa sieste : un enfant en dette de sommeil mange souvent moins et s'agite plus.",
+          "Sa journée de garde : un retour de collectivité coupe l'appétit du soir bien plus souvent qu'on ne croit.",
+          "Ce qu'il a bu : lait, compotes à boire et jus remplissent avant que la table arrive."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Tenir quatre repas et rien entre : le grignotage est ce qui lisse la faim jusqu'à la faire disparaître.",
+        "Regarder les repères objectifs : énergie, humeur, sommeil et courbe de croissance disent l'essentiel.",
+        "Servir en deux temps : une petite assiette, puis la suite s'il en redemande, plutôt qu'une grande qui décourage.",
+        "En parler au bilan des dix-huit mois : c'est un rendez-vous prévu, et 2 minutes y suffisent."
+      ],
+      "principe": "Ce qui reste dans l'assiette ne mesure rien du tout. Un enfant qui grandit, qui dort et qui joue mange à sa faim, même quand la journée d'aujourd'hui dit le contraire.",
+      "erreurs_a_eviter": [
+        "Resservir en douce pour rattraper le repas d'avant : il perçoit l'ajout et la méfiance s'installe.",
+        "Ajouter un biberon les jours creux : la faim du lendemain baisse à son tour et le cycle s'entretient.",
+        "Distraire pour faire passer les bouchées : il avale sans percevoir ni sa faim ni sa satiété.",
+        "Comparer avec un autre enfant du même âge : les besoins varient beaucoup d'un enfant à l'autre au même âge."
+      ],
+      "consulter_si": "Consulter si : ton enfant maigrit, si sa courbe s'infléchit d'un rendez-vous à l'autre, s'il est plus pâle, plus mou ou plus triste que d'habitude, si les jours creux deviennent la règle sur plusieurs semaines, ou s'il boit très peu → pédiatre, médecin traitant ou PMI. Une diététicienne pédiatrique peut évaluer les apports si le doute persiste.",
+      "source": "Source : l'appétit baisse avec le ralentissement de la croissance après un an et ne pas forcer l'enfant, repères pédiatriques mpedia.fr (AFPA) ; quatre repas par jour, Assurance Maladie, ameli.fr ; surveillance de la courbe de croissance, Haute Autorité de Santé."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Le tout seul à table / Il refuse mon aide",
+      "titre": "Aménager le repas pour qu'il fasse seul",
+      "explication": "À dix-huit mois, faire seul n'est plus une envie parmi d'autres, c'est une revendication permanente, et le repas en est le terrain le plus visible. Ton enfant sait désormais porter, tremper, verser, mais avec une précision très inégale d'un geste à l'autre. Ce qui coince rarement, c'est sa capacité : ce qui coince, c'est ce que le repas laisse derrière lui, et la fatigue de devoir tout nettoyer trois fois par jour finit par pousser l'adulte à reprendre la main.",
+      "ancrage": "Ce n'est pas ton aide qu'il refuse, c'est d'être fait à sa place. Tu peux préparer la pièce pour qu'il se débrouille, et récupérer ainsi la sortie de table.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : avant de le mettre à table",
+        "etapes": [
+          "Protéger le sol d'abord : un tapis lavable ou une nappe sous la chaise change tout ce qui suit.",
+          "Assiette ventouse et verre lourd : ce qui ne glisse pas et ne bascule pas divise le nettoyage par deux.",
+          "Servir de petites quantités : moins il y en a devant lui, moins il y en a par terre.",
+          "Bavoir à manches et manches remontées : il peut plonger les mains sans que le vêtement en pâtisse.",
+          "Poser ton aide en mots, pas en gestes : « je te tiens le bol ? », et accepter le non."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Hors du repas : lui confier la fin",
+        "etapes": [
+          "Lui donner une éponge : passer sur son plateau fait partie du repas, et il aime beaucoup ça.",
+          "Porter son assiette jusqu'à l'évier : le trajet lui appartient, même s'il marche très lentement.",
+          "Ramasser à deux ce qui est tombé : sans reproche, comme une étape ordinaire de la fin du repas.",
+          "Se laver les mains ensemble : le même geste chaque jour referme le repas mieux qu'une phrase.",
+          "Arrêter s'il se lasse : tu finis, il regarde, l'idée est passée quand même."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Choisir le matériel une fois pour toutes : couverts à manche court, verre à fond épais, assiette à rebord haut.",
+        "Servir des aliments qui pardonnent : ce qui se pique ou s'attrape salit beaucoup moins que ce qui coule.",
+        "Nettoyer une seule fois, à la fin : les passages de gant en cours de repas cassent sa concentration.",
+        "Le laisser s'exercer ailleurs : verser et transvaser dans le bain ou dehors, là où le désordre ne coûte rien."
+      ],
+      "principe": "Ce qui décourage l'autonomie n'est presque jamais l'enfant, c'est ce qu'elle coûte à l'adulte. Un repas aménagé pour salir sans conséquence est un repas où plus personne n'a de raison de reprendre la cuillère.",
+      "erreurs_a_eviter": [
+        "Reprendre la main quand on est pressé : le repas d'après commencera par un refus, avant même la première bouchée.",
+        "Lui interdire les doigts pour limiter les dégâts : c'est encore son outil le plus efficace à cet âge.",
+        "Attendre qu'il soit propre pour le laisser faire : la propreté du geste vient après la pratique, pas avant.",
+        "Faire du nettoyage une punition : sortir de table devient un mauvais moment, et il quitte la chaise plus vite encore."
+      ],
+      "consulter_si": "Consulter si : ton enfant n'arrive pas à porter un aliment jusqu'à sa bouche, s'il se sert systématiquement d'une seule main, si sa main tremble ou fatigue très vite, ou s'il perd du poids depuis qu'il mange seul → pédiatre, médecin traitant ou PMI, qui pourront orienter vers un ergothérapeute ou un psychomotricien.",
+      "source": "Source : encourager l'enfant à manger seul, avec ses doigts puis avec ses couverts, Santé publique France, programme national nutrition santé (mangerbouger.fr)."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Le pain et les pâtes / Il ne veut plus que ça",
+      "titre": "Élargir à partir de ce qu'il aime",
+      "explication": "Ces deux aliments réunissent tout ce qu'un enfant de dix-huit mois recherche : un goût doux, une texture prévisible, une couleur qui ne change pas d'un jour à l'autre, et une facilité à mâcher qui ne demande aucun effort. Se replier dessus n'est ni de la paresse ni un défaut d'éducation, c'est une façon de choisir le terrain sûr à un âge où il découvre qu'il peut choisir. Ces phases durent en général quelques semaines à quelques mois, et elles s'ouvrent d'autant plus vite qu'elles ne deviennent pas un sujet à table.",
+      "ancrage": "Tu n'as pas à lui faire lâcher ce qu'il aime. Tu as à faire en sorte que le reste continue d'exister à côté, ce qui demande beaucoup moins d'énergie.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : au repas qu'il trie",
+        "etapes": [
+          "Servir ce qu'il aime, en quantité mesurée : présent dans l'assiette, mais pas seul et pas à volonté.",
+          "Poser le reste à côté, visible : il n'a pas à en manger, il a à le voir dans la même assiette.",
+          "Accrocher le nouveau à l'ancien : la sauce sur les pâtes, la garniture dans le pain, le contact se fait tout seul.",
+          "Ne pas retirer ce qu'il refuse en cours de repas : l'aliment reste jusqu'à ce qu'on débarrasse.",
+          "Finir sans commentaire : ni « tu n'as encore rien pris », ni « bravo tu as goûté »."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Hors du repas : élargir par le connu",
+        "etapes": [
+          "Partir de son aliment : garnir un pain avec lui, ajouter une chose et une seule, qu'il choisit.",
+          "Le laisser touiller les pâtes : verser la sauce et mélanger le rend responsable du plat.",
+          "Toucher le nouvel aliment cru : le tenir, le sentir, le casser, sans qu'il ait à le goûter.",
+          "Changer une seule variable : la forme des pâtes, ou la couleur du pain, jamais les deux à la fois.",
+          "Arrêter dès qu'il repose l'aliment : la séance est finie, et elle recommence un autre jour."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Mesurer sur la semaine : ce qu'il a mangé sur sept jours dit bien plus que le contenu d'un dîner.",
+        "Garder l'aliment refusé au menu de la famille : ce qui disparaît de la table disparaît de son répertoire.",
+        "Varier les féculents plutôt que les supprimer : semoule, riz, pomme de terre, lentilles, l'ouverture commence là.",
+        "Surveiller le fer plutôt que la variété : lentilles, œuf et céréales enrichies y contribuent pendant que la phase passe."
+      ],
+      "principe": "Un répertoire ne s'élargit pas en retirant ce qui rassure, mais en posant du nouveau juste à côté. L'aliment refusé n'a besoin que d'une chose : rester présent, sans qu'on lui demande quoi que ce soit.",
+      "erreurs_a_eviter": [
+        "Rationner le pain pour l'obliger à goûter le reste : il finit le repas affamé et le refus se durcit.",
+        "Le laisser se resservir de pâtes à volonté : le terrain sûr occupe alors toute la place de l'assiette.",
+        "Le décrire devant lui comme difficile : à cet âge l'étiquette devient une identité qu'il défend.",
+        "Renoncer à présenter un aliment refusé trois fois : c'est en général là que les présentations commençaient à compter."
+      ],
+      "consulter_si": "Consulter si : le répertoire se réduit encore de mois en mois, s'il refuse aussi les fruits, les laitages et les protéines, s'il est pâle ou se fatigue vite, s'il perd du poids, ou si l'approche d'un aliment nouveau déclenche une angoisse visible → pédiatre, médecin traitant ou PMI, qui pourront orienter vers une diététicienne pédiatrique.",
+      "source": "Source : proposer sans forcer et représenter l'aliment refusé, repères pédiatriques mpedia.fr (AFPA) ; varier les féculents et repères alimentaires des enfants de 1 à 3 ans, Santé publique France, programme national nutrition santé."
+    },
+    {
+      "categorie": "alim",
+      "situation": "La nourriture par terre / Il jette tout de sa chaise",
+      "titre": "Une fin de repas plutôt qu'une punition",
+      "explication": "À dix-huit mois, jeter n'a plus tout à fait le même sens qu'à un an. La découverte de la chute est faite : ce qu'il vérifie maintenant, c'est ce que fait l'adulte, et si la réponse est la même que la dernière fois. Le geste dit très souvent une chose simple, qu'il n'a pas encore les mots pour formuler : il n'a plus faim, ou il s'ennuie à table. Le distinguer d'une provocation est le point de bascule du protocole, parce que les deux appellent exactement la même réponse : une sortie de table calme et prévisible.",
+      "ancrage": "Il ne cherche pas à te fâcher, il cherche à savoir ce qui arrive. Ta constance vaut mieux que ta réaction, et elle te coûte beaucoup moins cher.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : au premier objet qui tombe",
+        "etapes": [
+          "Rester neutre de visage : c'est ta réaction qu'il regarde, bien avant l'assiette au sol.",
+          "Dire la règle en quelques mots : « la nourriture reste dans l'assiette », une seule fois.",
+          "Retirer l'assiette au deuxième jet : sans hausser le ton, en annonçant que le repas est terminé.",
+          "Le descendre de sa chaise : la fin est un changement de lieu, pas une sanction.",
+          "Ramasser plus tard : ramasser devant lui referme la boucle du jeu qu'il vient de lancer."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : refermer le repas sans conflit",
+        "etapes": [
+          "Le prendre pour le descendre : le contact fait la transition mieux qu'une explication.",
+          "Nommer ce que tu comprends : « tu as fini », posé calmement, même si tu n'en es pas certaine.",
+          "Marquer la fin toujours pareil : la même phrase et le même geste, tous les jours, à tous les repas.",
+          "Proposer autre chose tout de suite : un jeu, un livre, la table n'est plus le sujet.",
+          "Ne pas revenir dessus après : le repas est clos, et rien n'en est reparlé au suivant."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Repérer le moment du premier jet : il arrive presque toujours au moment exact où la faim est passée.",
+        "Servir moins et resservir : une petite assiette laisse moins de matière au jeu et se remplit à la demande.",
+        "Lui donner un lancer autorisé ailleurs : balles, coussins, jeux d'eau, le besoin de lancer est réel à cet âge.",
+        "Accorder les adultes : si l'un en rit et l'autre gronde, il continuera de chercher où est la règle."
+      ],
+      "principe": "Un comportement qui déclenche une réaction forte se répète, quelle que soit la nature de cette réaction. Ce qui l'éteint, c'est une conséquence toujours identique, annoncée calmement et appliquée sans discussion.",
+      "erreurs_a_eviter": [
+        "Rendre ce qui a été jeté : la boucle se referme exactement comme il l'espérait.",
+        "Rire ou appeler quelqu'un pour voir : l'attention collective installe le geste pour des semaines.",
+        "Le gronder longuement : à cet âge le discours se perd, et il ne reste que l'intensité de la scène.",
+        "Prolonger le repas pour qu'il finisse son assiette : la fin de faim devient une lutte quotidienne."
+      ],
+      "consulter_si": "Consulter si : ton enfant jette systématiquement sans rien manger depuis plusieurs semaines, s'il perd du poids, si le geste s'accompagne de crises longues à chaque repas, ou s'il se cogne ou se mord dans ces moments-là → pédiatre, médecin traitant ou PMI, qui pourront orienter vers un psychologue de la petite enfance."
+    }
+  ]
+}

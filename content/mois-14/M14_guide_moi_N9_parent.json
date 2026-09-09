@@ -1,0 +1,193 @@
+{
+  "mois": 14,
+  "tranche_age": "14 mois",
+  "categorie": {
+    "id": "parent",
+    "nom": "Parents submergés",
+    "sous_titre": "Interdire, réparer, répartir, s'accorder",
+    "icone": "🫶"
+  },
+  "protocoles": [
+    {
+      "categorie": "parent",
+      "situation": "L'épuisement du non / Je passe la journée à interdire",
+      "titre": "Baisser le nombre de non, pas la fermeté",
+      "explication": "Tu as dit non à la télécommande, non aux prises, non au tiroir de la cuisine, non à la plante. Il est 9h30. À quatorze mois, ton enfant touche à tout parce que c'est ainsi qu'il apprend : la main avant les yeux, la bouche avant la main. Il ne garde pas encore la règle d'un jour sur l'autre, et il n'entend pas l'interdit comme une information, plutôt comme un obstacle à contourner. Chaque non lui demande de freiner une envie, un effort que son cerveau ne sait pas encore produire seul. Il y a donc deux façons d'en arriver à moins d'interdits : lui demander de changer, ce qui n'arrivera pas cette année, ou changer la pièce, ce qui prend un quart d'heure.",
+      "ancrage": "Si tu dis non cinquante fois par jour, ce n'est pas qu'il désobéit cinquante fois. C'est que la maison lui propose cinquante fois quelque chose d'interdit.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : faire tomber les non de la journée",
+        "etapes": [
+          "Regarder la pièce à sa hauteur : s'accroupir et voir ce qui appelle la main, prises, câbles, télécommande.",
+          "Ranger trois choses, une seule fois : ce qui est hors de portée ne se négocie plus jamais.",
+          "Transformer un non en oui conditionnel : « pas le vase, mais cette boîte, oui ».",
+          "Garder les non qui protègent : le four, les escaliers, la rue, et laisser tomber les autres aujourd'hui.",
+          "Détourner avant d'interdire : lui mettre autre chose dans les mains avant qu'il atteigne l'objet."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Retrouver le contact : après une journée de non",
+        "etapes": [
+          "5 minutes sans consigne : s'asseoir au sol près de lui et ne rien demander.",
+          "Le laisser mener : il choisit le jeu, tu suis, sans corriger ni proposer mieux.",
+          "Nommer ce qu'il fait : « tu as mis le cube dedans », plutôt que ce qu'il devrait faire.",
+          "Poser une main à plat dans son dos : appui léger et maintenu, quelques secondes.",
+          "S'arrêter à sa demande : s'il part jouer ailleurs, on le laisse partir."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Sécuriser une pièce entière : un seul endroit où tout est permis vaut mieux que dix interdits partout.",
+        "Prévenir avant de changer d'activité : « encore un tour, puis on rentre » évite la moitié des refus.",
+        "Laisser réparer une maladresse : passer l'éponge avec lui apprend plus qu'une interdiction de plus.",
+        "Compter les non d'une seule matinée : le total surprend, et il montre lesquels peuvent tomber."
+      ],
+      "principe": "Un enfant de cet âge n'apprend pas une règle en l'entendant, il l'apprend en la rencontrant moins souvent. L'aménagement fait le travail que la répétition ne fait pas encore.",
+      "erreurs_a_eviter": [
+        "Multiplier les avertissements avant d'agir : la parole seule n'arrête pas un geste déjà commencé.",
+        "Céder sur un non qui protège : ce sont les seuls qui doivent tenir tous les jours.",
+        "Expliquer longuement pourquoi c'est interdit : la raison viendra bien plus tard, pas maintenant.",
+        "Interdire un besoin plutôt qu'un objet : grimper, vider, transvaser trouvent ailleurs où aller."
+      ],
+      "consulter_si": "Consulter si : tu as peur de tes propres gestes, si les cris deviennent quotidiens, ou si tu te sens au bord de perdre le contrôle → en parler à ton médecin ou à la PMI, ou appeler Allo Parents Bébé, 0 800 00 34 56, gratuit. Un tout-petit ne doit jamais être secoué : quelques secondes suffisent à provoquer des lésions graves. Et si tu as besoin de parler de ce que tu ressens envers ton enfant, le 119 répond aussi aux parents, jour et nuit, et il n'apparaît sur aucun relevé de téléphone."
+    },
+    {
+      "categorie": "parent",
+      "situation": "La réparation après le cri / J'ai crié, et maintenant ?",
+      "titre": "Ce que l'enfant retient, c'est le retour",
+      "explication": "Tu as crié. Fort. Il s'est arrêté net, et maintenant il te regarde sans bouger. Quand une voix monte, son cerveau reçoit d'abord un signal d'alerte : le corps se fige, le cœur accélère, et pendant ce temps-là les mots ne passent plus. Ce n'est donc pas le cri qui décide de ce qu'il en retiendra, c'est ce qui vient ensuite. À quatorze mois il ne comprend pas encore l'explication, mais il perçoit très bien le retour du calme et de ton attention. Ce qui se joue dans les minutes qui viennent compte davantage que ce qui vient de se passer.",
+      "ancrage": "Si tu t'en veux, c'est bien que ce n'est pas ce que tu voulais faire. Un cri n'est pas une méthode : c'est ce qui sort quand on est à bout.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : revenir dans les minutes qui suivent",
+        "etapes": [
+          "Attendre d'être redescendu : réparer avec la voix encore tendue ne répare rien.",
+          "Se mettre à sa hauteur : s'accroupir, et attendre qu'il te regarde.",
+          "Nommer ce qui s'est passé : « j'ai crié fort, ça t'a fait peur ».",
+          "Dire que ce n'est pas de sa faute : « ce n'est pas toi, c'était ma fatigue ».",
+          "Reprendre le fil : un jeu, un livre, une tâche à deux, et ne plus y revenir ensuite."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Retrouver le contact : quand il revient vers toi",
+        "etapes": [
+          "Ouvrir les bras sans avancer : il choisit s'il vient, et quand.",
+          "Le prendre sans serrer fort : le contact rassure, la pression inquiète.",
+          "Respirer lentement contre lui : il cale son rythme sur celui de ton corps.",
+          "Parler bas et peu : le ton fait plus que les mots à cet âge.",
+          "S'arrêter à sa demande : s'il se dégage, on le laisse et on reste à côté."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Regarder ce qui précède : la faim, le bruit, ou une consigne répétée trois fois reviennent presque toujours juste avant.",
+        "Décider maintenant où tu iras : choisir la pièce à l'avance évite de la chercher au mauvais moment.",
+        "En parler une fois à voix haute : le garder pour soi est ce qui rend la fois suivante plus probable.",
+        "Préparer la phrase de réparation : l'avoir prête évite de la chercher au mauvais moment."
+      ],
+      "principe": "Un cri n'apprend rien à un enfant de cet âge. Ce qui lui apprend quelque chose, c'est de voir qu'un adulte peut se tromper, le dire, et que le lien tient quand même.",
+      "erreurs_a_eviter": [
+        "S'excuser longuement : à cet âge trois phrases passent, un discours non.",
+        "Lui demander un câlin pour se rassurer soi-même : la réparation change de sens si c'est lui qui console.",
+        "Se promettre de ne plus jamais crier : la promesse impossible ajoute de la culpabilité à la fois suivante.",
+        "Ne rien dire en espérant qu'il oublie : il n'oublie pas le moment, seulement l'explication."
+      ],
+      "consulter_si": "Consulter si : tu as peur de tes propres gestes, si les cris deviennent quotidiens, ou si tu te sens au bord de perdre le contrôle → en parler à ton médecin ou à la PMI, ou appeler Allo Parents Bébé, 0 800 00 34 56, gratuit. Un tout-petit ne doit jamais être secoué : quelques secondes suffisent à provoquer des lésions graves. Et si tu as besoin de parler de ce que tu ressens envers ton enfant, le 119 répond aussi aux parents, jour et nuit, et il n'apparaît sur aucun relevé de téléphone.",
+      "source": "Source : prévention du syndrome du bébé secoué, Haute Autorité de santé ; les violences éducatives, 1000-premiers-jours.fr."
+    },
+    {
+      "categorie": "parent",
+      "situation": "La logistique qui déborde / Tout passe par moi",
+      "titre": "Transférer des blocs, pas des tâches",
+      "explication": "Tu es dans la file du supermarché et tu te souviens d'un coup que le rendez-vous du quinzième mois se prend maintenant, que la taille 24 mois n'existe plus dans son armoire, et que la crèche est fermée jeudi. À quatorze mois, la vie de ton enfant se complique d'un coup : un mode de garde, des repas qui changent, des rendez-vous, des vêtements déjà trop petits. Ce qui déborde n'est pas le nombre de choses à faire, c'est le nombre de choses à décider. Porter la liste, y penser, anticiper, se souvenir : ce travail-là ne se voit pas, et il ne s'arrête jamais, même quand les mains sont libres.",
+      "ancrage": "Ce n'est pas un défaut d'organisation. Tu es le seul endroit où la liste est écrite, et c'est exactement pour cela qu'elle pèse autant.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : sortir la liste de ta tête",
+        "etapes": [
+          "Tout écrire en vrac : 10 minutes, sans trier, sur un papier ou dans le téléphone.",
+          "Regrouper en blocs : la garde, la santé, les repas, les vêtements, les papiers.",
+          "Choisir un bloc entier à donner : celui qui pèse le plus, pas celui qui part le plus facilement.",
+          "Le donner en entier : la décision avec l'exécution, sinon la charge revient par la fenêtre.",
+          "Afficher qui a quoi : le frigo suffit, la mémoire non."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : quand la liste tourne le soir",
+        "etapes": [
+          "Écrire les trois choses de demain : la tête cesse de les répéter une fois qu'elles sont posées.",
+          "Souffler plus long qu'on inspire : quatre temps dedans, six dehors, cinq fois.",
+          "Poser les mains à plat sur le ventre : sentir le souffle bouger sous les paumes, 10 secondes.",
+          "Relâcher les épaules : les monter vers les oreilles, puis les laisser tomber d'un coup, trois fois.",
+          "Se dire que la liste attendra : elle attendra, et c'est vérifiable demain matin."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Donner un bloc et pas une tâche : « les rendez-vous, c'est toi, tous », plutôt que « prends celui de jeudi ».",
+        "Tenir 10 minutes le dimanche : la semaine se décide une fois, au lieu de quinze fois.",
+        "Arrêter une tâche que personne ne réclame : un repassage, un rangement, quelque chose qui ne manquera à personne.",
+        "Sans autre parent, transférer vers l'extérieur : la crèche, une voisine, une livraison, un service quand c'est possible."
+      ],
+      "principe": "Ce qui épuise n'est pas d'exécuter, c'est de décider. Une tâche déléguée revient toujours ; un bloc dont quelqu'un d'autre est devenu responsable ne revient pas.",
+      "erreurs_a_eviter": [
+        "Déléguer en vérifiant derrière : le contrôle annule le transfert et double le travail.",
+        "Attendre que l'autre voie tout seul : ce qui est invisible ne se devine pas, il se montre.",
+        "Tout répartir d'un coup : un seul bloc tenu vaut mieux que cinq abandonnés en deux semaines.",
+        "Refaire à sa manière ce qui a été fait autrement : c'est le plus sûr moyen que ça revienne chez toi."
+      ],
+      "consulter_si": "Consulter si : la fatigue ne cède plus au repos, si la tristesse dure depuis plus de deux semaines, ou si plus rien ne te fait envie → en parler à ton médecin, à la sage-femme ou à la PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Le désaccord devant lui / On ne donne pas la même règle",
+      "titre": "Un cadre commun devant lui, le débat après",
+      "explication": "Tu viens de dire non au gâteau avant le dîner. Il se tourne vers l'autre parent, qui dit « allez, une bouchée ». Et il te regarde toi, pour voir ce qui va se passer. À quatorze mois, ton enfant lit surtout les visages et le ton. Quand deux adultes ne disent pas la même chose devant lui, il ne comprend pas la contradiction : il perçoit la tension, et il cherche lequel des deux va l'emporter. Ce n'est pas de la manipulation, c'est une lecture de sécurité. Il a besoin de savoir à quoi s'attendre, et un cadre qui change selon l'adulte présent ne le lui dit pas.",
+      "ancrage": "Vous n'avez pas à penser pareil. Vous avez à dire la même chose pendant les 3 minutes où il vous regarde.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : tenir devant lui, discuter après",
+        "etapes": [
+          "Laisser la main à celui qui a parlé le premier : même s'il a tort, on ne se contredit pas devant l'enfant.",
+          "Couper court d'un mot : « on en parle après », et il n'en entend pas davantage.",
+          "S'occuper de l'enfant, pas du désaccord : la crise se traite maintenant, le débat attend.",
+          "Reposer la question hors de la pièce : 5 minutes plus tard, dans la cuisine, sans lui.",
+          "Se mettre d'accord sur une seule chose : celle qui reviendra demain, pas sur toutes."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : avant de reprendre la conversation",
+        "etapes": [
+          "Sortir de la pièce quelques minutes : la discussion reprend mieux ailleurs, et debout.",
+          "Souffler plus long qu'on inspire : quatre temps dedans, six dehors, cinq fois.",
+          "Relâcher la mâchoire et les épaules : trois fois, avant de reparler.",
+          "Commencer par ce sur quoi vous êtes d'accord : il y en a presque toujours plus qu'on ne croit.",
+          "Reporter si la fatigue parle : un désaccord se règle mal en fin de soirée."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "S'accorder sur trois règles, pas trente : celles qui protègent, et qui tiennent chez l'un comme chez l'autre.",
+        "Décider au calme : un dimanche matin vaut mieux qu'un soir de crise.",
+        "Écrire les trois règles quelque part : ce qui est écrit ne se renégocie pas chaque soir.",
+        "Laisser à chacun sa manière sur tout le reste : le rituel du bain n'a pas à être identique pour être bon."
+      ],
+      "principe": "Un enfant n'a pas besoin de deux parents identiques, il a besoin d'un cadre qui ne dépende pas de qui est là. L'accord se joue sur les règles, jamais sur le style.",
+      "erreurs_a_eviter": [
+        "Trancher devant lui pour avoir raison : il retient la tension, pas la règle.",
+        "Renvoyer à l'autre parent : la règle devient une question de personne au lieu d'être une règle.",
+        "Laisser filer pour éviter la dispute : une règle qui change un jour sur deux est celle qui tient le moins.",
+        "Reprendre le débat le soir même, épuisés : la fatigue transforme un désaccord éducatif en conflit de couple."
+      ],
+      "consulter_si": "Consulter si : les désaccords tournent régulièrement en disputes devant l'enfant, ou si tu ne te sens pas en sécurité chez toi → en parler à ton médecin ou à la PMI. Violences dans le couple, physiques, verbales, psychologiques ou économiques : le 3919, gratuit et anonyme. En cas de danger immédiat, le 17 ou le 15."
+    }
+  ]
+}

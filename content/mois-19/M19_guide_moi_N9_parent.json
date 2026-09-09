@@ -1,0 +1,239 @@
+{
+  "mois": 19,
+  "tranche_age": "19 mois",
+  "categorie": {
+    "id": "parent",
+    "nom": "Parents submergés",
+    "sous_titre": "Déléguer, aimer, comparer, varier",
+    "icone": "🫶"
+  },
+  "protocoles": [
+    {
+      "categorie": "parent",
+      "situation": "Le combat du matin / Il refuse de se préparer",
+      "titre": "Le lien d'abord, la liste ensuite",
+      "explication": "Il est 7h40. Tu as le manteau dans une main, une chaussure dans l'autre, et lui est assis par terre à faire rouler une voiture comme s'il avait la journée devant lui. Tu as déjà demandé trois fois. La voix monte, tu t'entends, et tu ne te reconnais pas. Ce n'est ni un problème d'autorité, ni une envie de sa part de te compliquer la vie. À cet âge, deux choses se croisent. Le temps n'existe pas encore pour lui : « on est en retard » ne veut rien dire, et l'agitation qu'il perçoit dans ta voix l'inquiète plus qu'elle ne le presse, alors il ralentit. Et entre un et trois ans, ce qui compte pour lui n'est pas la finalité, c'est de le faire lui-même. Mettre sa chaussure tout seul, même à l'envers, même en 5 minutes, vaut parfois bien plus à ses yeux que lorsque tu la lui mets vite. Refuser, à son âge, c'est la façon la plus simple de dire « c'est moi qui décide un peu ». L'heure de départ ne bougera pas, c'est vrai. Mais tout le reste est flexible, et il y a bien plus de marge qu'on ne le croit.",
+      "ancrage": "Tu n'es pas en train d'abîmer quelque chose. Un enfant ne tient pas le compte des matins difficiles : ce qu'il retient, c'est le parent qui revient vers lui après. Et non, il ne va pas te détester parce que tu le presses. À cet âge, il t'aime notamment parce que tu es le parent qui est là, tous les jours, même les matins comme celui-ci.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : demain matin",
+        "etapes": [
+          "2 minutes de câlin avant la première consigne : un enfant qui a ressenti l'attachement de son parent coopère davantage.",
+          "Demander une seule chose à la fois : descendre à sa hauteur, à genoux, en le regardant.",
+          "Nommer ce qu'il vit avant d'insister : « tu voulais encore jouer, mais on doit partir. »",
+          "Passer par le jeu plutôt que par l'autorité : « ce pull, il va sur ta tête ou sur ton pied ? »",
+          "Sinon, l'habiller en disant : « je t'aide, ce matin c'est trop dur pour toi et moi », sans en faire une défaite."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Retrouver le contact : sur le trajet, et le soir",
+        "etapes": [
+          "Ne rien reprendre en chemin : il a déjà tourné la page, et le sermon ne répare que l'adulte.",
+          "Le dire une fois, doucement : « ce matin a été dur pour nous deux », et s'arrêter là.",
+          "Étirer l'au revoir de 3 secondes : c'est peu, mais c'est ce qu'il emporte de vous.",
+          "Souffler longuement une fois la porte passée : ce que tu ressens a le droit d'exister.",
+          "Se retrouver le soir par le jeu : à cet âge, on se raccommode en jouant, pas en discutant."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se lever un quart d'heure avant lui : c'est le levier qui agit sur tous les autres, et il se décide la veille au soir.",
+        "Préparer la veille : les vêtements sortis avec lui, le sac fait, le petit déjeuner posé sur la table.",
+        "L'habiller debout, au sol, plutôt que sur la table à langer : dès qu'il se tortille, la table devient un endroit où on le maintient, alors que plus libre au sol il peut viser la manche lui-même.",
+        "Mettre les gestes à sa portée : un marchepied au lavabo, une patère à sa hauteur, des chaussures simples à enfiler.",
+        "Afficher la routine en images : visualiser les étapes, et le faire participer."
+      ],
+      "principe": "Un tout-petit ne connaît pas l'heure, il ne connaît que toi. Ce qui apaise un matin, ce n'est jamais d'obtenir plus vite : c'est de demander moins, de commencer par le câlin plutôt que par la consigne, et d'accepter que certains matins se terminent avec les chaussures dans le sac. Ce qu'il gardera de ces années-là, ce n'est pas l'heure à laquelle vous êtes arrivés.",
+      "erreurs_a_eviter": [
+        "Enchaîner trois consignes en 10 secondes : il n'en entend aucune, et chacune sonne comme un reproche.",
+        "Poser des questions ouvertes : « tu veux mettre tes chaussures ? » appelle un non qu'on ne peut pas accepter.",
+        "Menacer de partir sans lui : la peur obtient parfois le manteau, mais elle abîme la confiance qu'il a dans le fait que tu ne l'abandonnes pas.",
+        "Chercher la solution uniquement sur le matin : un enfant couché tard s'oppose davantage au réveil, et beaucoup de matins se jouent la veille."
+      ],
+      "consulter_si": "Consulter si : l'opposition est massive dans tous les moments de la journée depuis plusieurs mois, si ton enfant se met en danger ou frappe régulièrement, si tu n'arrives plus à retrouver de temps calmes avec lui, ou si ces départs te laissent dans une colère qui ne redescend pas → en parler au médecin ou à la PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Les blocs délégués / Je passe la main, je porte encore",
+      "titre": "Pourquoi un bloc délégué revient toujours",
+      "explication": "Tu lui avais confié les rendez-vous. Et ce matin, tu as demandé s'il avait bien pris celui du vaccin. Un bloc, ce n'est pas une tâche. Une tâche, c'est « prendre le rendez-vous de jeudi ». Un bloc, c'est « les rendez-vous » : tous, avec le fait d'y penser, de choisir la date, de s'en souvenir. C'est cette part-là, celle qui se passe dans la tête, qui pèse le plus lourd. Et un bloc confié revient pour trois raisons : seule l'exécution a été donnée, on vérifie derrière, ou on reprend la main à la première urgence. Aucune des trois n'est de la mauvaise volonté ; les trois se corrigent.",
+      "ancrage": "Tu n'as pas mal délégué. Tu as repris, comme presque tout le monde, au premier moment où ça n'allait pas assez vite.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : faire tenir un seul bloc",
+        "etapes": [
+          "Nommer le bloc en entier : « les rendez-vous », et pas « prends celui de jeudi ».",
+          "Donner la décision avec : les dates, le choix du praticien, le rappel dans l'agenda.",
+          "Ne rien vérifier pendant quinze jours : c'est la seule partie difficile, et la seule qui compte.",
+          "Laisser une erreur arriver : un rendez-vous manqué apprend plus qu'un rappel.",
+          "Sortir le bloc de ta liste, physiquement : barré, effacé, retiré de l'agenda."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : quand la main veut reprendre",
+        "etapes": [
+          "Attendre dix respirations avant d'intervenir : la plupart du temps, ça se règle sans toi.",
+          "Glisser les mains sous les cuisses, assise : le geste empêche littéralement de reprendre.",
+          "Souffler par la bouche, lèvres pincées : cinq fois, comme pour éteindre une bougie.",
+          "Quitter la pièce où ça se passe : ne pas voir facilite énormément.",
+          "Évaluer ce que ça coûterait vraiment : la plupart des conséquences sont minuscules."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Transférer un bloc à la fois : le deuxième attend que le premier ait tenu un mois.",
+        "Écrire qui porte quoi, à un endroit visible : ce qui n'est pas écrit revient à celui qui se souvient.",
+        "Accepter une autre façon de faire : la qualité n'est pas le sujet, la charge l'est.",
+        "Sans autre parent, transférer hors du foyer : la crèche, une voisine, une commande récurrente, un service."
+      ],
+      "principe": "Un bloc ne revient pas parce que l'autre ne fait pas, il revient parce qu'on reprend. Confier une tâche soulage un jour ; céder la décision soulage tous les jours.",
+      "erreurs_a_eviter": [
+        "Vérifier « juste une fois » : c'est exactement le geste qui ramène le bloc.",
+        "Reprendre la main dès que ça coince : une seule reprise efface des semaines de transfert.",
+        "Commenter la manière : la critique décourage plus vite que n'importe quel oubli.",
+        "Reprendre le bloc après un oubli : l'oubli fait partie de l'apprentissage, y compris chez un adulte."
+      ],
+      "consulter_si": "Consulter si : la fatigue ne cède plus au repos, si la tristesse dure depuis plus de deux semaines, ou si plus rien ne te fait envie → en parler à ton médecin, à la sage-femme ou à la PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+    },
+    {
+      "categorie": "parent",
+      "situation": "L'amour est différent / Je m'en veux de le penser",
+      "titre": "Des liens différents, pas des amours inégaux",
+      "explication": "Tu l'as pensé en te couchant, et tu as eu honte aussitôt : avec lui, ce n'est pas pareil. Le lien n'est pas le même partout, mais ce n'est pas une question de quantité d'amour. Il diffère d'un enfant à l'autre quand il y en a plusieurs, parce que chacun est arrivé dans une vie différente. Il diffère de celui de l'autre parent, qui n'a ni la même histoire ni la même place. Et il diffère d'une période à l'autre avec le même enfant, parce que la fatigue et les âges changent tout. Ce qui se compare mal, ce n'est pas l'amour : ce sont les circonstances dans lesquelles il s'est installé.",
+      "ancrage": "Te poser la question est déjà une réponse. Un parent indifférent ne culpabilise pas.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : cette semaine",
+        "etapes": [
+          "Passer 10 minutes seul à seul : avec celui dont tu te sens loin, sans personne d'autre et sans consigne.",
+          "Chercher ce qui vous relie tous les deux : une chanson, un jeu, un chemin, une blague.",
+          "Ne pas surcompenser : donner plus par culpabilité se sent immédiatement.",
+          "Dire ce qu'il a fait plutôt que ce qu'il est : le compliment sur l'être sonne faux quand il est forcé.",
+          "Recommencer demain : c'est la répétition qui construit, pas l'intensité."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Retrouver le contact : avec celui dont tu te sens loin",
+        "etapes": [
+          "S'installer côte à côte, sans se regarder : c'est plus facile pour tous les deux.",
+          "Poser une main sur son épaule : appui léger et maintenu, quelques secondes.",
+          "Faire ensemble une chose que tu aimes, toi : il sentira que ce n'est pas un devoir.",
+          "Se laisser surprendre : ce qui rapproche est rarement ce qu'on avait prévu.",
+          "S'arrêter à sa demande : s'il n'en veut pas, on repropose un autre jour."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se souvenir des débuts : un lien plus difficile commence souvent par des premiers mois difficiles.",
+        "Ne pas en parler devant lui : c'est une question d'adulte, elle se traite entre adultes.",
+        "Regarder ce qui a changé chez toi : la fatigue, le travail, un deuil, ce n'est pas toujours lui.",
+        "En parler à un professionnel si cela pèse : médecin, PMI ou psychologue, sans attendre des années."
+      ],
+      "principe": "L'amour parental n'est pas une quantité qui se partage, c'est une relation qui se construit avec chacun, et à son rythme. Deux liens peuvent avancer très différemment sans qu'aucun vaille moins que l'autre.",
+      "erreurs_a_eviter": [
+        "Compenser par des cadeaux ou des permissions : l'enfant perçoit la compensation, pas l'amour.",
+        "Se forcer à des élans qu'on ne ressent pas : le lien se bâtit par la répétition, pas par la performance.",
+        "Comparer à voix haute : même en positif, la comparaison assigne une place à chacun.",
+        "Attendre que le sentiment revienne pour agir : c'est en faisant que le lien se réchauffe."
+      ],
+      "consulter_si": "Consulter si : ce sentiment dure depuis des mois, s'il s'accompagne d'un rejet que tu n'arrives pas à contenir, ou si tu évites régulièrement ton enfant → en parler à ton médecin, à la PMI, ou à un psychologue. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+    },
+    {
+      "categorie": "parent",
+      "situation": "La comparaison des bébés / Je ne vois que leurs progrès",
+      "titre": "Regarder son chemin, pas l'écart",
+      "explication": "Au vestiaire, une mère raconte que sa fille fait des phrases. Le tien enfile son manteau à l'envers en riant, et tu souris en pensant à autre chose. Entre 18 et 24 mois, les écarts entre enfants du même âge sont à leur maximum, et ils se voient tous les matins. Le problème n'est pas qu'ils existent, c'est ce que le regard fait ensuite : à force de mesurer l'écart, on finit par ne plus voir ce que son propre enfant vient d'apprendre. Et un tout-petit qui sent qu'on attend de lui autre chose que ce dont il est capable ralentit, au lieu d'accélérer.",
+      "ancrage": "Ton enfant progresse. Il progresse simplement dans un ordre qui n'est pas celui du voisin, et cet ordre-là est le sien.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : revenir à lui",
+        "etapes": [
+          "Nommer trois choses qu'il fait aujourd'hui : et qu'il ne faisait pas il y a un mois.",
+          "Le lui dire devant lui : « tu montes l'escalier tout seul, maintenant ».",
+          "Couper court au vestiaire : « il a son rythme », puis passer à autre chose.",
+          "Ne rien commenter devant lui : il comprend le ton, et déjà beaucoup de mots.",
+          "Retirer une exigence du jour : celle que tu avais ajoutée pour rattraper quelque chose."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : quand la comparaison prend au vestiaire",
+        "etapes": [
+          "Serrer puis relâcher les orteils dans les chaussures : trois fois, personne ne le voit.",
+          "Allonger l'expiration en marchant : quatre pas dedans, six pas dehors, jusqu'à la voiture.",
+          "Poser une main au milieu de la poitrine : appui léger et maintenu, 10 secondes.",
+          "Le regarder avant de partir : lui, et pas la comparaison.",
+          "Repousser la pensée à ce soir : se dire « j'y penserai plus tard » suffit souvent à la ranger."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Tenir un carnet de ses progrès : trois lignes par mois suffisent à voir la pente.",
+        "Demander à l'équipe ce qu'il fait bien : la question ouvre autre chose que la comparaison.",
+        "S'appuyer sur les rendez-vous de suivi : ils existent exactement pour repérer ce qui doit l'être.",
+        "Éviter le vestiaire aux heures de pointe : 10 minutes de décalage changent la scène."
+      ],
+      "principe": "Un enfant ne progresse pas plus vite parce qu'on attend davantage de lui : il progresse quand ce qu'il sait faire est vu. La comparaison ne crée pas d'élan, elle crée de la pression, et la pression freine.",
+      "erreurs_a_eviter": [
+        "Chercher à lui faire rattraper : la pression sur un tout-petit ralentit plus qu'elle n'accélère.",
+        "Minimiser ce qu'il réussit : à force de regarder ailleurs, ses progrès deviennent invisibles.",
+        "Se rassurer en trouvant plus lent que le sien : le réflexe s'installe et revient chaque matin.",
+        "Garder une inquiétude sans la poser : une question au médecin coûte 5 minutes."
+      ],
+      "consulter_si": "Consulter si : vers 2 ans ton enfant dit moins d'une cinquantaine de mots, n'associe pas deux mots, comprend peu de ce qu'on lui dit, ou n'utilise presque pas de consonnes → en parler au médecin, qui décidera d'un bilan. Ce sont les critères du dépistage, pas des moyennes.",
+      "source": "Source : repères du suivi et critères d'orientation pour le langage, ameli.fr (Assurance Maladie)."
+    },
+    {
+      "categorie": "parent",
+      "situation": "L'envie de tout envoyer promener / Je m'ennuie",
+      "titre": "La lassitude n'est pas de la fatigue",
+      "explication": "Tu as dormi 7 heures cette nuit, ce qui n'était pas arrivé depuis des mois. Et l'envie de ne rien faire était exactement la même au réveil. La lassitude et la fatigue ne se réparent pas de la même façon : la fatigue cède au sommeil, la lassitude vient de la répétition et le sommeil n'y change rien. À dix-neuf mois, les journées se ressemblent beaucoup : les mêmes gestes, les mêmes horaires, les mêmes phrases répétées dix fois. Ce qui manque n'est donc pas du repos, c'est de la variation, et il en faut très peu pour que quelque chose bouge.",
+      "ancrage": "En avoir assez ne veut pas dire en avoir assez de lui. Cela veut dire que la semaine n'a plus rien qui t'appartienne.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : casser la répétition cette semaine",
+        "etapes": [
+          "Changer une seule chose demain : le trajet, le parc, l'heure du bain, la musique.",
+          "Sortir de la maison une fois de plus : même 10 minutes, même sans but.",
+          "Confier un moment répétitif : le bain ou le coucher, une fois cette semaine.",
+          "Faire une chose sans utilité : un appel, un chapitre, un gâteau, quelque chose de gratuit.",
+          "Prévoir une chose à attendre : un point dans la semaine suffit à changer les sept jours."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : quand tout se ressemble",
+        "etapes": [
+          "Changer de position : s'asseoir par terre, se tenir ailleurs, autrement.",
+          "Faire entrer une sensation neuve : une odeur, une musique, une fenêtre ouverte.",
+          "Étirer les bras au-dessus de la tête : 10 secondes, en soufflant, deux fois.",
+          "Marcher pieds nus quelques minutes : le sol change ce que le corps enregistre.",
+          "Compter cinq choses par la fenêtre : la nouveauté se trouve aussi sur place."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Inscrire une chose à toi dans la semaine : la même chaque semaine, à la même heure.",
+        "Alterner les tâches avec l'autre parent : ce n'est pas la charge qui use, c'est toujours la même.",
+        "Varier ce qui est variable : les trajets, les parcs, les livres, les repas du week-end.",
+        "Se donner une échéance : cette phase très répétitive se desserre nettement vers 2 ans."
+      ],
+      "principe": "La lassitude n'est ni un manque d'amour ni un manque de sommeil : c'est un manque de variation. Elle ne se répare pas en dormant, elle se répare en changeant quelque chose.",
+      "erreurs_a_eviter": [
+        "Chercher à dormir plus pour aller mieux : le sommeil répare la fatigue, pas la lassitude.",
+        "Attendre les vacances : deux semaines ne compensent pas cinquante semaines identiques.",
+        "Se culpabiliser de s'ennuyer : le quotidien d'un tout-petit est objectivement répétitif.",
+        "Tout changer d'un coup : une seule variation tenue vaut mieux qu'un grand plan abandonné."
+      ],
+      "consulter_si": "Consulter si : la fatigue ne cède plus au repos, si la tristesse dure depuis plus de deux semaines, ou si plus rien ne te fait envie → en parler à ton médecin, à la sage-femme ou à la PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+    }
+  ]
+}

@@ -4,239 +4,201 @@
   "categorie": {
     "id": "dents",
     "nom": "Dents & petits inconforts",
-    "sous_titre": "Percée, brossage, mordillement, peau",
+    "sous_titre": "Percée, brossage, nuit, mordillement",
     "icone": "🦷"
   },
   "protocoles": [
     {
       "categorie": "dents",
-      "situation": "Deux dents du bas percées / les incisives du haut arrivent",
-      "titre": "La deuxième vague / souvent plus douloureuse",
-      "explication": "Les deux incisives du bas sont sorties, et celles du haut arrivent. Beaucoup de parents constatent que cette deuxième vague est plus difficile — gencive plus tendue, nuits plus agitées, humeur plus dure. Ce qui soulage reste le même : le froid, la pression, la patience. Ce qui ne se fait jamais reste aussi le même : le gel anesthésiant, contre-indiqué avant deux ans, et le collier d'ambre, dangereux et inefficace. Et une percée dure quelques jours — pas plusieurs semaines.",
-      "ancrage": "Le froid et la pression soulagent. Le gel anesthésiant et le collier d'ambre, non — l'un est contre-indiqué, l'autre peut étouffer.",
+      "situation": "La deuxième vague de dents / Il a les incisives du haut qui arrivent",
+      "titre": "Souvent plus dure que la première",
+      "explication": "Les deux incisives du bas sont sorties, et celles du haut poussent. Beaucoup de parents trouvent cette deuxième vague plus difficile que la première, et il y a une raison anatomique : les incisives du haut sont plus larges, elles traversent une gencive plus épaisse, et elles sortent souvent à deux ou à quatre en même temps. La gencive est tendue, la salive coule davantage, l'humeur se durcit. Une percée reste pourtant courte : quelques jours par dent, pas plusieurs semaines d'affilée.",
+      "ancrage": "Ce qui soulage vraiment tient en deux mots : le froid et la pression. Et une percée a une fin, même quand la troisième nuit difficile donne le sentiment inverse.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — soulager",
+        "titre": "Action immédiate : soulager la gencive",
         "etapes": [
-          "Un anneau de dentition réfrigéré : sorti du réfrigérateur, jamais du congélateur.",
-          "Un linge propre et frais : humidifié, à mordiller sous surveillance.",
-          "Une pression du doigt propre : quelques secondes sur la gencive, sans forcer.",
-          "Des aliments frais : purée sortie du réfrigérateur — le froid soulage.",
-          "Accepter quelques nuits difficiles : elles sont limitées dans le temps."
+          "Un anneau de dentition sorti du réfrigérateur : frais, jamais congelé.",
+          "Un linge propre humidifié et frais : à mordiller sous ta surveillance.",
+          "Une pression du doigt propre sur la gencive : quelques secondes, sans forcer, en remontant vers la dent qui pousse.",
+          "Des aliments froids adaptés à son âge : une purée sortie du réfrigérateur soulage pendant qu'il mange.",
+          "Sécher le menton régulièrement : la salive irrite la peau en quelques heures."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — traverser la percée",
+        "titre": "Réflexologie : traverser la percée",
         "etapes": [
-          "Beaucoup de contact : la présence apaise plus que n'importe quel remède.",
-          "Réflexologie du soir : dans le rituel, balayage de la voûte, pression douce et constante.",
-          "Un rituel de coucher inchangé : la stabilité rassure pendant une phase inconfortable.",
-          "Protéger la peau du menton : la bave augmente pendant la percée.",
-          "S'arrêter s'il se crispe : le geste doit rester agréable."
-        ]
+          "Au calme, en fin de journée : jamais au plus fort de la douleur.",
+          "Envelopper ses pieds dans tes paumes : les réchauffer sans bouger, le temps de quelques respirations.",
+          "Balayer la voûte du talon vers les orteils : lentement, pression douce et régulière.",
+          "Travailler la base des orteils : de petits cercles à la racine de chaque orteil, un pied puis l'autre.",
+          "T'arrêter s'il retire son pied : le geste doit rester agréable, sinon il n'apaise plus rien."
+        ],
+        "lien_reflexologie": {
+          "id": "dents",
+          "titre": "Poussées dentaires"
+        }
       },
       "pour_aller_plus_loin": [
-        "Ne jamais utiliser de gel anesthésiant : les gels à la lidocaïne sont contre-indiqués avant deux ans.",
-        "Ne jamais utiliser de collier d'ambre : risque d'étouffement et de strangulation, sans efficacité démontrée.",
-        "Ne pas attribuer une fièvre aux dents : elle a toujours une autre cause, et elle se fait examiner.",
-        "Ne pas donner de médicament sans avis médical."
+        "Compter en jours : une dent perturbe quelques jours, et les vagues sont espacées de plusieurs semaines.",
+        "Ne jamais expliquer une fièvre par les dents : elle a toujours une autre cause, et elle se fait examiner.",
+        "Ne donner aucun médicament, même en vente libre, sans avis médical : les doses dépendent du poids.",
+        "Prévoir des journées plus calmes pendant la percée : moins de sorties, plus de contact, un coucher plus tôt."
       ],
-      "principe": "Une percée dure quelques jours, pas des semaines. Le froid et la pression soulagent — et une fièvre ne s'explique jamais par les dents.",
+      "principe": "La douleur d'une percée est locale et brève. Ce qui la calme agit sur la gencive elle-même, par le froid ou par la pression, pas sur l'ensemble du corps.",
       "erreurs_a_eviter": [
-        "Utiliser un collier d'ambre — étouffement et strangulation.",
-        "Appliquer un gel anesthésiant — contre-indiqué avant deux ans.",
-        "Mettre un anneau de dentition au congélateur.",
-        "Attribuer une fièvre, une diarrhée ou des pleurs intenses aux dents."
+        "Mettre l'anneau de dentition au congélateur : le froid extrême brûle la gencive au lieu de l'endormir.",
+        "Mettre une fièvre, une diarrhée ou des pleurs intenses sur le compte des dents : la vraie cause reste sans réponse pendant ce temps.",
+        "Multiplier les remèdes en même temps : tu ne sais plus ce qui aide et ce qui gêne.",
+        "Attendre plusieurs semaines avant de consulter parce que « c'est les dents » : une percée qui dure des semaines n'est pas une percée."
       ],
       "consulter_si": "Consulter si : bébé a de la fièvre, refuse de boire, présente des plaques blanches dans la bouche, une éruption qui s'étend, une gencive qui saigne abondamment, ou paraît anormalement mou → pédiatre ou médecin traitant sans délai. Une fièvre ne s'explique jamais par les dents.",
-      "source": "Source : ameli.fr (Assurance Maladie) — poussées dentaires : symptômes, soulagement et quand consulter."
+      "source": "Source : ameli.fr (Assurance Maladie), poussées dentaires : symptômes, soulagement et quand consulter."
     },
     {
       "categorie": "dents",
-      "situation": "Il refuse le brossage / premières dents à nettoyer",
-      "titre": "Le brossage / commencer en douceur, à ton rythme",
-      "explication": "Les premières dents arrivent, et avec elles la question du brossage. Voici l'information, sans injonction : les dents de lait peuvent se carier, et le brossage aide à l'éviter. Voici la réalité : beaucoup de bébés refusent, beaucoup de parents renoncent, et un brossage arraché de force n'apporte rien — il abîme durablement le rapport au soin. Ce qui compte à cet âge n'est pas la performance du geste : c'est de commencer doucement, d'apprivoiser, et de faire ce qui est possible chez vous, sans culpabilité.",
-      "ancrage": "Tu n'as rien à réussir. Un brossage raté n'est pas grave, et un bébé qui refuse n'est pas un bébé négligé. On apprivoise — on ne force jamais.",
+      "situation": "Le refus du brossage / Il serre les lèvres et tourne la tête",
+      "titre": "Apprivoiser avant de frotter",
+      "explication": "Les premières dents sont là, et avec elles la question du brossage. Deux choses sont vraies en même temps. Les dents de lait se carient, et elles se carient d'autant plus vite qu'elles sont poreuses et que le sucre stagne la nuit. Et un bébé de huit mois vit une brosse dans sa bouche comme une intrusion : il serre, il tourne la tête, il pleure. Un brossage obtenu de force marche une fois, puis installe un refus qui peut durer des années.",
+      "ancrage": "Tu n'as rien à réussir ce soir. Un brossage raté n'est pas un soin manqué, et un bébé qui refuse n'est pas un bébé négligé : à cet âge, ce qui s'installe, c'est l'habitude, pas la performance.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — commencer en douceur",
+        "titre": "Action immédiate : commencer petit",
         "etapes": [
-          "Commencer par le jeu : lui donner une brosse à mâchouiller, sans rien attendre de plus.",
-          "Un geste très court : trois secondes suffisent au début — c'est l'habitude qui compte, pas la durée.",
-          "Une brosse souple adaptée : petite tête, poils très souples — ou un linge doux si la brosse est refusée.",
-          "Une trace de dentifrice fluoré, si tu en utilises : de la largeur de la brosse, pas plus — ou rien du tout au début, l'eau convient aussi.",
-          "S'arrêter dès qu'il se braque : on repose, on repropose demain. Jamais de bouche ouverte de force."
+          "Lui donner la brosse à mâchouiller d'abord : sans rien attendre de plus pendant plusieurs jours.",
+          "Viser trois secondes : une dent frottée, c'est déjà un brossage à cet âge.",
+          "Une brosse à petite tête et poils très souples : ou un linge doux enroulé sur ton doigt si la brosse est refusée.",
+          "Une trace de dentifrice fluoré : de la largeur de la brosse, pas davantage, et l'eau seule convient pour commencer.",
+          "T'arrêter dès qu'il se braque : on repropose demain, jamais en maintenant la tête."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — apprivoiser à son rythme",
+        "titre": "Geste doux : l'apprivoiser à son rythme",
         "etapes": [
-          "Un moment agréable : sur tes genoux, en chantant, jamais dans la précipitation du coucher.",
-          "L'imitation d'abord : se brosser les dents devant lui — c'est ainsi que la plupart des enfants s'y mettent.",
-          "Le laisser tenir la brosse : la mâchouiller, la manipuler, la découvrir — c'est déjà du brossage.",
-          "Un linge doux sur le doigt : une alternative simple quand la brosse est refusée.",
-          "Renoncer sans culpabilité : ce qui n'est pas possible aujourd'hui le sera dans quelques semaines."
+          "Choisir un moment détendu : sur tes genoux, en chantant, pas dans la précipitation du coucher.",
+          "Te brosser les dents devant lui : l'imitation fait plus de la moitié du travail à cet âge.",
+          "Le laisser tenir la brosse et la porter à sa bouche : c'est déjà de l'apprentissage.",
+          "Passer un linge humide sur ses dents en jouant : la sensation devient familière sans enjeu.",
+          "Renoncer pour ce soir sans en faire une affaire : ce qui n'est pas possible aujourd'hui le sera dans quelques semaines."
         ]
       },
       "pour_aller_plus_loin": [
-        "Y aller à ton rythme : une fois par jour, ou quelques jours par semaine — mieux vaut peu et serein que rien et conflictuel.",
-        "Se rappeler les repères, si tu veux les suivre : deux fois par jour, une trace de dentifrice fluoré à 1000 ppm, geste fait par l'adulte jusque vers cinq ans.",
-        "Si le biberon fait partie de son rituel du coucher : c'est très courant et cela n'a rien de honteux — proposer quelques gorgées d'eau après, ou passer un linge doux sur les dents quand c'est possible, suffit à limiter le sucre qui stagne.",
-        "En parler au professionnel : le pédiatre, le médecin ou le dentiste répondront mieux qu'un forum — et sans jugement."
+        "Connaître les repères sans t'y enfermer : deux fois par jour, un dentifrice fluoré à 1 000 ppm, et le geste fait par l'adulte jusque vers cinq ans.",
+        "Faire passer quelques gorgées d'eau après un biberon du soir : le lait qui stagne la nuit est ce qui abîme le plus les dents.",
+        "Préférer peu et serein à rien et conflictuel : une fois par jour tenue vaut mieux que deux fois arrachées.",
+        "Poser tes questions au dentiste : une première visite peut se faire sans problème particulier, juste pour voir."
       ],
-      "principe": "Un brossage arraché de force n'apporte rien et abîme le rapport au soin pour longtemps. Ce qui compte, c'est d'apprivoiser doucement — et d'accepter que le rythme soit le vôtre.",
+      "principe": "Un soin obtenu par la force s'obtient une fois. Un soin apprivoisé s'obtient tous les jours pendant des années.",
       "erreurs_a_eviter": [
-        "Forcer l'ouverture de la bouche ou maintenir la tête — cela installe un refus durable.",
-        "Transformer le brossage en conflit quotidien.",
-        "Culpabiliser d'un brossage raté ou oublié — cela n'aide ni toi, ni lui.",
-        "Mettre une noisette de dentifrice — la quantité utile est une simple trace."
+        "Forcer l'ouverture de la bouche ou maintenir la tête : le refus se fixe, et il devient beaucoup plus difficile à lever plus tard.",
+        "En faire un rendez-vous de conflit quotidien : la salle de bains devient un endroit qu'il refuse d'avance.",
+        "Mettre une noisette de dentifrice : à cet âge il l'avale, et la quantité utile est une simple trace.",
+        "Culpabiliser d'un brossage oublié : la culpabilité fait renoncer plus sûrement que l'oubli lui-même."
       ],
-      "consulter_si": "Consulter si : tu observes une tache blanche, brune ou noire sur une dent, une gencive rouge, gonflée ou qui saigne, une dent qui bouge, ou si bébé a mal en mangeant → chirurgien-dentiste ou pédiatre. Une première visite chez le dentiste peut aussi se faire simplement pour poser tes questions, sans problème particulier.",
-      "source": "Source : Union française pour la santé bucco-dentaire (UFSBD) et ameli.fr — brossage des dents de l'enfant et dosage du dentifrice fluoré."
+      "consulter_si": "Consulter si : tu observes une tache blanche, brune ou noire sur une dent, une gencive rouge, gonflée ou qui saigne, une dent qui bouge, ou si bébé a mal en mangeant → chirurgien-dentiste ou pédiatre.",
+      "source": "Source : Union française pour la santé bucco-dentaire (UFSBD) et ameli.fr, brossage des dents de l'enfant et dosage du dentifrice fluoré."
     },
     {
       "categorie": "dents",
-      "situation": "Nuit agitée et joue rouge / la poussée réveille",
-      "titre": "La nuit agitée / ce qui vient de la dent, ce qui vient du sommeil",
-      "explication": "Nuit agitée, joue rouge, gencive gonflée : la dent est une explication plausible. Mais elle devient trop souvent l'explication de tout — et pendant ce temps, on ne traite pas ce qui se traite. Une percée perturbe quelques nuits, avec des signes concrets : gencive tendue, salivation, mâchonnement, joue rouge. Au-delà de quelques jours, et sans ces signes, ce sont d'autres causes à regarder : les acquis moteurs, la sur-fatigue, l'angoisse de séparation. Le distinguer évite de changer le cadre du coucher pour rien.",
-      "ancrage": "Une dent explique quelques nuits, pas plusieurs semaines. Au-delà, ce sont le sommeil et la motricité qui sont en cause.",
+      "situation": "La nuit agitée et la joue rouge / Je mets ça sur le compte des dents",
+      "titre": "Trois ou quatre nuits, pas trois semaines",
+      "explication": "Il se réveille, il a la joue rouge, la gencive gonflée : la dent est une explication crédible. Elle devient pourtant l'explication de tout, et c'est là que le problème commence, parce qu'une cause invoquée est une cause qu'on ne cherche plus. Une percée s'accompagne de signes visibles et simultanés : gencive tendue, salivation abondante, besoin de mordre, joue chaude. Sans ces signes, ou au-delà de quelques nuits, ce sont d'autres pistes qui expliquent les réveils à huit mois : un progrès moteur en cours, une fatigue accumulée, ou le pic de l'angoisse de séparation.",
+      "ancrage": "Une dent explique quelques nuits, pas trois semaines. Regarder ce qui se passe vraiment évite de bouleverser un coucher qui fonctionnait.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — faire la part des choses",
+        "titre": "Action immédiate : faire la part des choses",
         "etapes": [
-          "Chercher les signes concrets : gencive tendue, salivation, mâchonnement, joue rouge — sinon, ce ne sont probablement pas les dents.",
-          "Regarder la durée : une dent perturbe quelques nuits ; plusieurs semaines, c'est autre chose.",
-          "Vérifier les acquis moteurs : se hisser, se déplacer — chaque progrès agite les nuits.",
-          "Vérifier la journée : sur-fatigue et fenêtres d'éveil mal calibrées hachent la nuit.",
-          "Ne pas changer le cadre : garder le même rituel pendant la phase."
+          "Regarder sa gencive à la lumière : tendue et blanchie sur la crête, ou normale.",
+          "Compter les nuits : au-delà de trois ou quatre, la piste dentaire s'épuise.",
+          "Passer en revue ses acquisitions du moment : se hisser, ramper, se déplacer.",
+          "Regarder sa journée : trop peu de sieste, trop de stimulation, un coucher trop tardif.",
+          "Ne rien changer au rituel pendant que tu observes : une seule variable à la fois."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Réflexologie : accompagner la nuit",
+        "titre": "Réflexologie : reposer la nuit",
         "etapes": [
-          "Dans le rituel du soir : toujours au même moment.",
-          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
-        ]
+          "Dans le rituel du soir : au même moment chaque jour, avant la mise au lit.",
+          "Réchauffer ses pieds entre tes paumes : quelques respirations sans bouger.",
+          "Balayer la voûte du talon vers les orteils : lentement, pression douce et constante.",
+          "Cercles au centre de la voûte : 1 minute par pied, sur la zone du plexus solaire.",
+          "Finir main posée sur son torse : jusqu'à ce que sa respiration se pose."
+        ],
+        "lien_reflexologie": {
+          "id": "sommeil",
+          "titre": "Sommeil agité"
+        }
       },
       "pour_aller_plus_loin": [
-        "Soulager la gencive en journée : froid et pression, pour que la nuit soit plus calme.",
-        "Ne pas donner de médicament sans avis médical.",
-        "Ne jamais attribuer une fièvre aux dents : elle se fait examiner.",
-        "Compter en semaines : les nuits se réorganisent, et cela prend du temps."
+        "Soulager la gencive en journée : ce qui est apaisé le jour se rejoue moins la nuit.",
+        "Tenir le même cadre de coucher pendant la phase : changer de méthode en plein milieu allonge la période.",
+        "Ne donner aucun médicament du soir en routine sans avis médical.",
+        "Reparler des réveils à la consultation de suivi : ils font partie des questions ordinaires."
       ],
-      "principe": "« C'est les dents » est l'explication qui empêche de chercher. Une dent, ce sont quelques nuits et des signes concrets — le reste appartient au sommeil et à la motricité.",
+      "principe": "Une explication trop commode empêche de chercher la vraie. Un symptôme qui dure plus longtemps que la cause supposée mérite qu'on reprenne l'observation à zéro.",
       "erreurs_a_eviter": [
-        "Attribuer systématiquement tous les réveils aux dents.",
-        "Donner un médicament chaque soir « pour les dents » sans avis médical.",
-        "Changer de méthode de sommeil à chaque poussée supposée.",
-        "Attribuer une fièvre aux dents."
+        "Mettre tous les réveils sur le compte des dents : la cause réelle continue pendant ce temps.",
+        "Donner un médicament chaque soir pour les dents sans avis médical : tu masques un signal utile.",
+        "Changer de méthode de sommeil à chaque poussée supposée : il perd ses repères et se réveille davantage.",
+        "Attribuer une fièvre aux dents : une fièvre a toujours une autre cause et se fait examiner."
       ],
       "consulter_si": "Consulter si : bébé a de la fièvre, refuse de boire, présente des vomissements, une diarrhée, une éruption, s'il paraît anormalement mou, ou si les réveils s'accompagnent de pleurs inconsolables → pédiatre ou médecin traitant. Une fièvre ne s'explique jamais par les dents.",
-      "source": "Source : ameli.fr (Assurance Maladie) — poussées dentaires : symptômes, soulagement et quand consulter."
+      "source": "Source : ameli.fr (Assurance Maladie), poussées dentaires : symptômes, soulagement et quand consulter."
     },
     {
       "categorie": "dents",
-      "situation": "Il mordille tout ce qu'il trouve / soulager sans risque",
-      "titre": "Il mordille tout / soulager sans danger",
-      "explication": "Il mordille les barreaux, tes doigts, le coin du tapis, tous les objets qui passent. C'est à la fois de l'exploration et un besoin de pression sur des gencives douloureuses. Les deux réponses sûres sont simples : un anneau de dentition réfrigéré — jamais congelé —, et un gant ou un linge humide et frais. Ce qui circule beaucoup et qui est à proscrire : le collier d'ambre, qui présente un risque d'étouffement et de strangulation, et les gels anesthésiants, contre-indiqués avant deux ans.",
-      "ancrage": "Deux réponses sûres : l'anneau réfrigéré et le linge humide frais. Deux réponses dangereuses : le collier d'ambre et le gel anesthésiant.",
+      "situation": "Le mordillement / Il mordille tout ce qu'il trouve",
+      "titre": "Ce qu'il peut mordre sans danger",
+      "explication": "Il mordille les barreaux, tes doigts, le coin du tapis, tout ce qui passe à sa portée. Deux choses se superposent : la bouche reste son principal outil pour connaître un objet, et la pression sur une gencive douloureuse soulage réellement, parce qu'elle diminue la sensation venue de la dent qui pousse. Ce besoin est donc sain. Ce qui pose problème, ce n'est pas qu'il morde, c'est ce qu'il a sous la main, et certains produits vendus pour cet âge sont dangereux.",
+      "ancrage": "Il ne s'agit pas de l'empêcher de mordre, mais de choisir ce qu'il mord. Deux objets sûrs à portée valent mieux que dix interdictions.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — soulager sans risque",
+        "titre": "Action immédiate : lui donner quoi mordre",
         "etapes": [
-          "Un anneau réfrigéré : sorti du réfrigérateur, jamais du congélateur — le froid extrême brûle la gencive.",
-          "Un gant ou un linge humide et frais : propre, à mordiller sous surveillance.",
-          "Une pression du doigt propre : quelques secondes sur la gencive.",
-          "Vérifier l'objet : rien de détachable, rien de trop petit, aucune ficelle.",
-          "Toujours sous surveillance : un objet à mordiller ne se laisse jamais dans le lit."
+          "Un anneau de dentition réfrigéré : sorti du réfrigérateur, jamais du congélateur.",
+          "Un gant ou un linge humide et frais : propre, tenu par lui, sous ta surveillance.",
+          "Vérifier l'objet avant de le donner : rien de détachable, aucune ficelle, aucune pièce qui se dévisse.",
+          "Retirer l'objet à mordiller au moment du coucher : rien de tout cela ne reste dans le lit.",
+          "Proposer plutôt que retirer : lui tendre l'objet autorisé avant d'enlever celui qu'il a pris."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — canaliser le besoin",
+        "titre": "Geste doux : accompagner le besoin",
         "etapes": [
-          "Offrir des supports variés : textures différentes, formes différentes.",
-          "Le laisser explorer : la bouche reste son principal outil de connaissance.",
-          "Nommer ce qu'il ressent : « ça te gratte, ça fait mal ».",
-          "Protéger la peau du menton : la bave irrite vite.",
-          "S'arrêter s'il se détourne : il indique qu'il en a assez."
+          "Varier les textures : lisse, strié, souple, ferme, chaque sensation l'intéresse différemment.",
+          "Le laisser porter les objets à sa bouche : c'est ainsi qu'il les connaît, pas par le regard.",
+          "Mettre des mots sur ce qu'il ressent : « ça te gêne dans la bouche, tu as besoin d'appuyer ».",
+          "Sécher son menton souvent : la salive irrite la peau en quelques heures.",
+          "T'arrêter s'il se détourne : il te dit qu'il en a assez."
         ]
       },
       "pour_aller_plus_loin": [
-        "Ne jamais utiliser de collier d'ambre : risque d'étouffement et de strangulation, sans efficacité démontrée.",
-        "Ne jamais utiliser de gel anesthésiant : les gels à la lidocaïne sont contre-indiqués avant deux ans.",
-        "Trier le sol : le test du rouleau de papier toilette — tout ce qui passe dedans est trop petit.",
-        "Ranger les piles boutons en hauteur : elles peuvent être mortelles si avalées."
+        "Garder deux anneaux en rotation au réfrigérateur : il y en a toujours un de frais quand l'autre sert.",
+        "Trier le sol une fois par semaine : tout ce qui passe dans un rouleau de papier toilette peut être avalé.",
+        "Ranger les piles boutons en hauteur et fermées : avalées, elles provoquent des lésions graves en quelques heures.",
+        "Dire à la personne qui le garde ce qui est autorisé : les objets sûrs, et ceux qui n'entrent jamais dans sa bouche."
       ],
-      "principe": "L'anneau réfrigéré et le linge frais soulagent sans danger. Le collier d'ambre peut étouffer ou étrangler, et le gel anesthésiant est contre-indiqué avant deux ans.",
+      "principe": "Un besoin qui insiste ne se supprime pas, il se canalise. On remplace l'objet, on ne retire pas le geste.",
       "erreurs_a_eviter": [
-        "Utiliser un collier d'ambre — risque d'étouffement et de strangulation.",
-        "Appliquer un gel anesthésiant sur les gencives.",
-        "Mettre un anneau de dentition au congélateur.",
-        "Laisser un objet à mordiller dans le lit pendant le sommeil."
+        "Lui laisser mordre ce qui traîne : un objet qui n'est pas prévu pour cela peut se casser dans sa bouche.",
+        "Mettre un produit sur sa gencive sans avoir demandé : le pharmacien te dira ce qui convient.",
+        "Mettre l'anneau au congélateur : le froid extrême blesse la muqueuse au lieu de la calmer.",
+        "Laisser un objet à mordiller dans le lit pendant le sommeil : tout objet libre dans un lit est un risque d'étouffement."
       ],
-      "consulter_si": "Consulter si : bébé a avalé ou inhalé un objet → appeler immédiatement le 15, surtout en cas de pile bouton, même sans symptôme. Consulter si : il a de la fièvre, refuse de boire, présente une salivation soudaine avec difficulté à avaler, ou une gêne à respirer → le 15 en cas de difficulté respiratoire ; sinon, pédiatre sans délai.",
-      "source": "Source : ameli.fr (Assurance Maladie) — poussées dentaires : symptômes, soulagement et quand consulter."
-    },
-    {
-      "categorie": "dents",
-      "situation": "Plaques sèches qui le grattent / la peau réagit",
-      "titre": "La peau qui gratte / un traitement de fond, avec un médecin",
-      "explication": "Des plaques sèches, rugueuses, qui reviennent toujours aux mêmes endroits — plis, joues, bras — et qui le démangent au point de perturber son sommeil. Il ne s'agit plus d'une simple peau sèche : une peau qui démange, qui suinte, ou qui s'étend relève d'un avis médical. C'est une affection qui se traite au long cours, avec un médecin, et non par la surenchère de crèmes en libre-service. Ce que tu peux faire au quotidien : hydrater tous les jours, repérer les déclencheurs, et ne jamais appliquer de traitement sans avis.",
-      "ancrage": "Une peau qui démange n'est plus une peau sèche : c'est un avis médical. L'hydratation quotidienne est ton rôle — le traitement, celui du médecin.",
-      "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — la routine quotidienne",
-        "etapes": [
-          "Bain court et tiède : cinq à dix minutes, à température du corps — l'eau chaude aggrave.",
-          "Un nettoyant doux sans savon : sans parfum, sans antibactérien, sans huile essentielle.",
-          "Sécher en tamponnant : jamais frotter, surtout sur les plaques.",
-          "Appliquer l'émollient sur peau encore humide : dans les minutes qui suivent le bain, tous les jours.",
-          "Renouveler dans la journée : une à deux fois de plus sur les zones sèches."
-        ]
-      },
-      "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
-        "titre": "Geste doux — l'application de la crème",
-        "etapes": [
-          "Réchauffer la crème dans tes mains : avant de l'appliquer.",
-          "Application lente et enveloppante : à mains pleines, pression douce et constante, sans frotter.",
-          "Couper les ongles courts : les griffures d'un enfant qui se gratte surinfectent la peau.",
-          "Habiller en coton : éviter la laine à même la peau et les matières synthétiques.",
-          "S'arrêter s'il se crispe : le soin doit rester agréable."
-        ]
-      },
-      "pour_aller_plus_loin": [
-        "Repérer les déclencheurs : chaleur, transpiration, laine, savons parfumés, poussière, air très sec.",
-        "Ne jamais appliquer de crème à la cortisone sans avis : le traitement se décide avec un médecin.",
-        "Éviter les huiles essentielles : contre-indiquées chez le nourrisson.",
-        "Ne pas exclure d'aliment de sa propre initiative : le lien entre peau et alimentation ne se décide jamais seul."
-      ],
-      "principe": "Une peau qui démange se traite au long cours, avec un médecin. L'hydratation quotidienne est le socle — la surenchère de crèmes et les exclusions décidées seule, non.",
-      "erreurs_a_eviter": [
-        "Multiplier les crèmes et les produits « spécial bébé ».",
-        "Appliquer une crème à la cortisone sans avis médical.",
-        "Exclure un aliment de sa propre initiative en espérant faire disparaître les plaques.",
-        "Donner des bains longs et chauds."
-      ],
-      "consulter_si": "Consulter si : les plaques démangent, s'étendent, suintent, saignent, se couvrent de croûtes jaunâtres ou de pus, si bébé dort mal ou se gratte jusqu'au sang, ou s'il présente de la fièvre → pédiatre ou médecin traitant. Une peau qui démange chez un nourrisson se prend en charge : il existe des traitements efficaces, mais ils se décident avec un médecin.",
-      "source": "Source : ameli.fr (Assurance Maladie) — dermatite atopique de l'enfant : soins quotidiens, facteurs déclenchants et prise en charge."
+      "consulter_si": "Consulter si : bébé a avalé ou inhalé un objet → appeler le 15 immédiatement, en particulier s'il s'agit d'une pile bouton, même sans aucun symptôme. Consulter si : il a de la fièvre, refuse de boire, se met à saliver soudainement avec une difficulté à avaler, ou respire mal → appeler le 15 en cas de gêne respiratoire, sinon pédiatre sans délai.",
+      "source": "Source : ameli.fr (Assurance Maladie), poussées dentaires : symptômes, soulagement et quand consulter."
     }
   ]
 }

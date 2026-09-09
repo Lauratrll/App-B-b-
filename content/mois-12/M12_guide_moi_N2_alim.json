@@ -10,20 +10,20 @@
   "protocoles": [
     {
       "categorie": "alim",
-      "situation": "Refus du biberon du matin / on parle de sevrage",
-      "titre": "Le biberon du matin / accompagner la fin en douceur",
-      "explication": "Vers un an, le biberon perd peu à peu sa place de repas pour devenir un moment de réconfort. Quand ton enfant le refuse le matin, c'est souvent que la faim se déplace vers les aliments solides, alors que le besoin de succion et de câlin, lui, reste présent. Les deux besoins se séparent, et c'est ce décalage qui déroute. Il n'existe pas d'âge obligatoire pour arrêter : les repères français situent la transition vers le verre entre un an et deux ans, avec de grandes variations d'un enfant à l'autre.",
-      "ancrage": "Le refus du matin est une information, pas un problème à résoudre dans la journée. Tu peux suivre son rythme et garder le câlin même quand le biberon s'en va.",
+      "situation": "Le biberon du matin / Il le refuse, on me dit d'arrêter",
+      "titre": "Le biberon se garde tant qu'il le veut",
+      "explication": "Vers un an, la faim se déplace vers les aliments solides, et certains biberons tombent d'eux-mêmes. Ce n'est pas pour autant un signal d'arrêt. Le lait reste un apport important jusqu'à trois ans, et le biberon est aussi un objet de réconfort : il apaise, il rassure, il fait partie de ses repères. Il n'existe aucun âge officiel pour le quitter. Tant que la diversification se fait à côté et que ton enfant grandit bien, le biberon peut rester aussi longtemps qu'il en veut, et l'allaitement aussi longtemps que vous le souhaitez tous les deux.",
+      "ancrage": "La pression vient de l'entourage, pas de son corps. Tu peux suivre son rythme à lui, et laisser cet objet s'en aller le jour où il ne le réclamera plus.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate : au petit déjeuner",
+        "titre": "Action immédiate : au matin où il n'en veut pas",
         "etapes": [
-          "Proposer sans insister : présenter le biberon, accepter le refus, passer à la suite sans commentaire.",
-          "Offrir la même chose autrement : du lait dans un verre à bec ou un petit verre, posé près de son assiette.",
-          "Compléter par du solide : pain, fruit, produit laitier adapté, pour que le matin reste un vrai repas.",
-          "Garder le temps de câlin : le moment de proximité se poursuit, séparé du contenu du biberon.",
-          "Observer sur la semaine : c'est la tendance sur plusieurs jours qui compte, pas un matin isolé."
+          "Accepter le refus du matin : un biberon boudé un jour n'annonce rien du tout.",
+          "Le reproposer plus tard : le même lait à un autre moment de la journée passe souvent très bien.",
+          "Changer de contenant, pas de boisson : verre à bec, tasse, petit verre, c'est l'apport qui compte.",
+          "Compléter par un laitage : yaourt, fromage blanc, fromage, la journée se lit d'un seul bloc.",
+          "Ne rien annoncer à personne : il n'y a pas d'arrêt en cours, donc rien à commenter."
         ]
       },
       "geste_doux": {
@@ -39,25 +39,25 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Avancer d'un biberon à la fois : commencer par celui qui compte le moins pour lui, en général celui du matin.",
-        "Proposer le verre en journée : hors des moments de faim, la nouveauté s'apprivoise mieux.",
-        "Choisir une période calme : reporter la transition pendant une poussée dentaire, une maladie ou une entrée en garde.",
-        "En parler au suivi médical : le pédiatre ou la PMI ajustent les quantités et rassurent sur les apports."
+        "Compter le lait sur la journée entière : biberons, laitages et fromage se lisent ensemble, pas biberon par biberon.",
+        "Proposer le lait autrement quand il boude le biberon : dans une semoule, un riz au lait, un yaourt.",
+        "Laisser le biberon suivre son cours : il s'en va quand l'enfant n'en veut plus, pas à une date décidée.",
+        "Répondre à l'entourage une fois : « il n'y a pas d'âge obligatoire », dit calmement, évite dix conversations."
       ],
-      "principe": "Le biberon s'en va par le contenu bien avant de s'en aller par le contenant. Tant que le réconfort trouve une autre forme, l'enfant lâche l'objet de lui-même, souvent sans qu'on ait à le lui retirer.",
+      "principe": "Le biberon n'est pas une étape à franchir, c'est un contenant. Il se garde aussi longtemps que l'enfant le veut, du moment que les repas solides tiennent leur place. Ce qui compte, c'est le lait de la journée, pas l'objet dans lequel il est servi.",
       "erreurs_a_eviter": [
-        "Supprimer tous les biberons la même semaine : la perte de repère se paie sur le sommeil et l'humeur.",
-        "Forcer la prise du matin pour atteindre une quantité : le repas devient un enjeu et le refus se renforce.",
-        "Compenser avec une boisson sucrée : l'appétit du repas baisse et les dents sont exposées tôt au sucre.",
-        "Décider sous la pression de l'entourage : un sevrage engagé sans conviction s'interrompt souvent en cours de route."
+        "Arrêter le biberon parce qu'il aurait « passé l'âge » : cet âge n'existe pas, et le réconfort perdu se cherche ailleurs.",
+        "Supprimer le lait en même temps que le biberon : ce sont deux choses différentes, et le lait reste recommandé jusqu'à trois ans.",
+        "Insister pour lui faire finir sa prise du matin : le refus se durcit et le moment devient un enjeu quotidien.",
+        "Décider sous la pression de l'entourage : un arrêt engagé sans conviction s'interrompt souvent en cours de route."
       ],
-      "consulter_si": "Consulter si : ton enfant refuse aussi les aliments solides depuis plusieurs jours, s'il boit moins de 300 ml de lait ou d'équivalent laitier par jour de façon durable, s'il ne prend plus de poids, ou s'il pleure de douleur en buvant → en parler au pédiatre ou à la PMI. Pour l'allaitement : sage-femme ou consultante en lactation IBCLC.",
-      "source": "Source : repères alimentaires des enfants de 1 à 3 ans, Santé publique France, programme national nutrition santé ; mpedia.fr (AFPA)."
+      "consulter_si": "Consulter si : ton enfant refuse aussi les aliments solides depuis plusieurs jours, s'il refuse le lait et tous les produits laitiers, s'il ne prend plus de poids, ou s'il pleure de douleur en buvant → en parler au pédiatre ou à la PMI. Pour l'allaitement : sage-femme ou consultante en lactation IBCLC.",
+      "source": "Source : un lait adapté recommandé jusqu'à 3 ans, Assurance Maladie, ameli.fr ; maintenir les apports lactés autrement quand l'enfant boude le biberon, repères pédiatriques mpedia.fr (AFPA) ; repères alimentaires des enfants de 1 à 3 ans, Santé publique France, programme national nutrition santé."
     },
     {
       "categorie": "alim",
-      "situation": "Refus du lait de croissance / après le passage du lait infantile",
-      "titre": "Le lait de croissance / quand il n'en veut pas",
+      "situation": "Le refus du lait de croissance / Il n'en veut plus",
+      "titre": "Ce qu'on peut faire quand il n'en veut pas",
       "explication": "Le changement de lait modifie le goût, l'odeur et parfois la température de ce que ton enfant connaissait depuis des mois : le refus est fréquent et logique. Le lait de croissance apporte notamment du fer et des acides gras utiles à cet âge, ce que le lait de vache ordinaire couvre moins bien. Refuser ce lait ne compromet pourtant pas son alimentation : ces apports se retrouvent dans d'autres aliments du quotidien, et les repères français laissent plusieurs chemins possibles pour couvrir les besoins d'un enfant d'un an.",
       "ancrage": "Un refus de lait n'est pas un refus de grandir, et ce n'est pas un échec de ta part. Tu peux couvrir ses besoins autrement, avec l'avis du professionnel qui le suit.",
       "action_immediate": {
@@ -102,8 +102,8 @@
     },
     {
       "categorie": "alim",
-      "situation": "Jette la nourriture par terre / et guette ta réaction",
-      "titre": "La nourriture jetée / l'expérience qui attend ta réaction",
+      "situation": "L'assiette jetée / Il jette et guette ma réaction",
+      "titre": "Ta réaction est ce qu'il étudie",
       "explication": "Jeter est une découverte fascinante à cet âge : ton enfant vérifie que l'objet tombe, qu'il fait du bruit, et surtout que l'adulte réagit toujours de la même façon. Le regard qu'il te lance juste après le geste fait partie de l'expérience. Ce comportement a une seconde fonction très fréquente : signaler que le repas est terminé pour lui. Quand la faim est passée, l'assiette devient un terrain de jeu. La phase s'apaise en quelques semaines lorsque la réponse reste constante.",
       "ancrage": "Regarde d'abord ce qu'il te dit avant de voir ce qu'il fait. Le moment où il commence à jeter t'indique le moment où le repas est fini pour lui.",
       "action_immediate": {
@@ -127,7 +127,7 @@
           "Contact des paumes : envelopper ses mains dans les tiennes quelques instants après le nettoyage.",
           "Le porter debout un instant : la verticalité aide la digestion et referme le moment.",
           "Annoncer la suite : dire ce qui vient maintenant, du même ton chaque jour.",
-          "Rester bref : le rituel dure moins d'une minute et ferme le repas sans rien relancer."
+          "Rester bref : le rituel dure moins d'1 minute et ferme le repas sans rien relancer."
         ]
       },
       "pour_aller_plus_loin": [
@@ -147,8 +147,8 @@
     },
     {
       "categorie": "alim",
-      "situation": "Veut la cuillère et refuse l'aide / le repas devient un combat",
-      "titre": "La cuillère disputée / donner l'autonomie sans perdre le repas",
+      "situation": "La cuillère arrachée / Il veut faire seul",
+      "titre": "L'autonomie sans le combat",
       "explication": "Vers 12 mois, la pince entre le pouce et l'index devient précise, et ton enfant découvre qu'il peut porter lui-même la nourriture à sa bouche. Vouloir la cuillère n'est pas une opposition : c'est une compétence toute neuve qui demande à s'exercer. Manger seul mobilise en même temps la vue, la main, la bouche et l'équilibre du buste, ce qui explique que le résultat soit long et salissant. Cet apprentissage s'étale sur plusieurs mois, et l'exercice quotidien est ce qui le fait avancer.",
       "ancrage": "Le désordre du repas est la trace de son travail. Tu peux garder une main dans le jeu sans lui reprendre la sienne.",
       "action_immediate": {
@@ -179,7 +179,7 @@
         "Adapter le matériel : cuillère à manche court et large, bol à ventouse, verre lourd à fond plat.",
         "Vérifier l'installation : pieds en appui et table à hauteur de coudes libèrent les bras pour manger.",
         "Manger en même temps que lui : les repas partagés apprennent plus que les repas surveillés.",
-        "Prévoir du temps : trente minutes sans urgence valent mieux qu'un repas rapide donné à sa place."
+        "Prévoir du temps : 30 minutes sans urgence valent mieux qu'un repas rapide donné à sa place."
       ],
       "principe": "L'autonomie alimentaire s'acquiert par la répétition d'essais imparfaits. Un enfant nourri entièrement par l'adulte pour aller plus vite apprend surtout à attendre la cuillère plus longtemps.",
       "erreurs_a_eviter": [

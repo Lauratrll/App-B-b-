@@ -1,0 +1,192 @@
+{
+  "mois": 12,
+  "tranche_age": "12 mois",
+  "categorie": {
+    "id": "parent",
+    "nom": "Parents submergés",
+    "sous_titre": "Épuisement du cap d'un an, colère, couple, comparaison",
+    "icone": "🫶"
+  },
+  "protocoles": [
+    {
+      "categorie": "parent",
+      "situation": "Le cap d'un an / Le bilan me pèse plus que prévu",
+      "titre": "Regarder l'année sans la noter",
+      "explication": "Les invités sont partis, la maison est en désordre, et tu es assise au milieu en train de te demander si tu as été à la hauteur de cette année. Le cap d'un an déclenche un bilan chez presque tous les parents, et il est rarement tendre. On compare l'année vécue à celle qu'on avait imaginée, on repère surtout les cris, les moments d'absence et les choses qu'on n'a pas su faire, et on en tire une conclusion générale sur soi. Ce mécanisme a un défaut : la mémoire garde beaucoup mieux les moments difficiles que les milliers de gestes ordinaires qui ont constitué l'essentiel de l'année. Le bilan est donc faux, non par excès de sévérité, mais parce qu'il est fait avec des données incomplètes. Et il tombe au pire moment, quand la fatigue accumulée rend tout plus sombre.",
+      "ancrage": "Ce que tu es en train de faire n'est pas un bilan, c'est une addition de ce qui a fait mal. Un an de gestes ordinaires ne se raconte pas, et c'est pourtant cela qui a compté.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : refaire le compte autrement",
+        "etapes": [
+          "Écrire cinq choses apprises cette année : par lui, et par toi.",
+          "Ajouter trois moments que tu as aimés : ils existent, ils sont juste moins bruyants que les autres.",
+          "Regarder d'où vous partiez il y a un an : le point de départ change complètement la lecture.",
+          "Nommer une chose difficile sans en faire un jugement : « ça a été dur » n'est pas « j'ai échoué ».",
+          "Reporter le bilan à un jour reposé : celui qu'on fait un soir d'épuisement ne vaut rien."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : quand le bilan devient dur",
+        "etapes": [
+          "Fermer les photos et les vidéos : elles montrent une année en accéléré, pas telle qu'elle a été vécue.",
+          "Souffler longuement dix fois : le jugement sur soi serre la poitrine avant d'occuper la tête.",
+          "Se dire une phrase vraie : il va bien, et c'est en grande partie grâce à toi.",
+          "Appeler quelqu'un qui a vu cette année de près : il en a une lecture très différente.",
+          "S'arrêter là : le bilan n'a pas à être terminé ce soir."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Distinguer la fatigue du bilan : une année de sommeil coupé assombrit tout ce qu'on regarde.",
+        "Se rappeler ce qui n'était pas de ton fait : les conditions matérielles, l'aide disponible, la santé, le travail.",
+        "En parler avec l'autre parent : deux mémoires de la même année ne retiennent jamais les mêmes choses.",
+        "Se donner une deuxième année plus facile : les repères sont posés, et beaucoup de choses s'allègent maintenant."
+      ],
+      "principe": "Un bilan fait de mémoire retient les moments difficiles et efface l'ordinaire, qui était pourtant l'essentiel. Ce qui donne une lecture juste, c'est de compter aussi ce qui a été appris et traversé.",
+      "erreurs_a_eviter": [
+        "Faire le bilan un soir de fatigue : c'est le moment où il est le plus faux.",
+        "Comparer l'année vécue à l'année rêvée : la seconde n'a jamais existé.",
+        "Chercher ce qu'on aurait dû faire autrement : on ne juge pas avec un regard reposé des décisions prises dans l'épuisement.",
+        "Garder ce bilan pour soi : dit à voix haute, il se corrige presque toujours."
+      ],
+      "consulter_si": "Consulter si : la tristesse dure plus de deux semaines, si plus rien ne te fait envie, si tu dors mal même quand bébé dort, ou si tu te sens vide ou détachée de lui → médecin, sage-femme ou PMI sans attendre. Allo Parents Bébé, 0 800 00 34 56, gratuit. Si les pensées noires s'installent, le 3114 répond jour et nuit."
+    },
+    {
+      "categorie": "parent",
+      "situation": "La colère qui revient / Je ne comprends pas pourquoi",
+      "titre": "Chercher le motif plutôt que la cause",
+      "explication": "Encore. Tu t'étais dit que non, et c'est reparti pareil, au même moment, pour la même bêtise. Quand la colère revient régulièrement sans qu'on comprenne pourquoi, la tentation est de chercher une explication du côté du caractère, ou de ce qui se serait cassé. C'est presque toujours la mauvaise piste. Une colère qui se répète suit en réalité un motif très concret, et ce motif est presque toujours le même : une heure de la journée, une situation précise, un enchaînement de fatigue et de faim, un moment où l'on est seul avec plusieurs choses à tenir. On ne le voit pas parce qu'on regarde chaque épisode isolément. Il apparaît dès qu'on note trois ou quatre épisodes de suite, et une fois qu'il est visible, il devient modifiable.",
+      "ancrage": "Ce n'est pas ton caractère qui a changé. C'est le même moment de la journée qui produit le même résultat, depuis des semaines, sans que personne ne l'ait encore regardé.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Si ça arrive : le retrait d'urgence",
+        "etapes": [
+          "Poser l'enfant en sécurité : dans son lit ou dans un espace sans danger.",
+          "Sortir de la pièce : fermer la porte, quelques minutes, il ne risque rien.",
+          "Faire baisser la tension physiquement : souffler long, passer les mains sous l'eau froide.",
+          "Appeler quelqu'un avant de revenir : un proche, une voisine, ou Allo Parents Bébé, 0 800 00 34 56.",
+          "Ne jamais secouer un enfant : quelques secondes suffisent à provoquer des lésions graves."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : tenir le relevé de la semaine",
+        "etapes": [
+          "Noter l'heure à chaque fois : c'est la donnée qui parle le plus vite.",
+          "Noter ce qui se passait juste avant : les 10 minutes qui précèdent, pas la scène elle-même.",
+          "Noter ton état : depuis combien de temps sans manger, sans t'asseoir, sans relais.",
+          "Ne rien conclure avant trois épisodes : un seul ne montre rien, trois montrent presque toujours quelque chose.",
+          "Relire le relevé au calme : le motif saute aux yeux, il n'a pas besoin d'être cherché."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Modifier le moment repéré plutôt que soi : avancer le repas, décaler le bain, prévoir un relais à cette heure-là.",
+        "Manger et boire avant ce créneau : la faim et la déshydratation abaissent le seuil de tolérance.",
+        "Préparer la scène à l'avance : ce qui est prêt d'avance retire la moitié de la tension.",
+        "En parler au médecin si le motif ne se laisse pas modifier : cette conversation est fréquente, et elle est utile."
+      ],
+      "principe": "Une colère récurrente obéit à un motif de conditions, pas à un trait de caractère. On le rend visible en le notant, et on agit ensuite sur le moment précis, pas sur la volonté.",
+      "erreurs_a_eviter": [
+        "Chercher une explication psychologique avant d'avoir regardé les faits : le motif est souvent bien plus simple.",
+        "Se promettre de mieux se contrôler : la promesse ne modifie aucune des conditions.",
+        "Ne rien noter parce qu'on croit déjà savoir : le relevé montre presque toujours autre chose que ce qu'on pensait.",
+        "Attendre un épisode plus grave pour en parler : c'est maintenant que c'est le plus simple à dire."
+      ],
+      "consulter_si": "Consulter si : tu as peur de tes propres gestes, si l'envie de secouer te traverse, ou si tu te sens au bord de perdre le contrôle → poser bébé en sécurité, appeler un proche ou Allo Parents Bébé, 0 800 00 34 56, gratuit. Un bébé ne doit jamais être secoué : quelques secondes suffisent à provoquer des lésions graves. Si tu penses l'avoir secoué, même légèrement : appeler le 15 immédiatement, même sans symptôme."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Le couple mis de côté / Aucun temps à deux depuis un an",
+      "titre": "Un espace minuscule, mais qui existe",
+      "explication": "Vous vous êtes dit trois phrases aujourd'hui : le rendez-vous de mardi, le paquet de couches, qui se lève demain. Il est 22h et vous regardez chacun un écran. Après un an, beaucoup de couples n'ont plus eu un seul moment à deux, et le sujet finit par ne plus se poser du tout : on n'en parle pas parce qu'il n'y a pas de solution évidente, et parce que chacun est trop fatigué pour ouvrir un dossier de plus. Ce qui use n'est pourtant pas l'absence de soirées. C'est de ne plus jamais être ensemble autrement qu'en équipe d'organisation. Et ce qui répare cela n'a rien à voir avec une grande sortie : 20 minutes régulières, sans écran et sans logistique, font davantage qu'un dîner annuel, parce qu'elles se répètent et qu'elles ne demandent ni budget, ni garde, ni énergie.",
+      "ancrage": "Vous n'avez pas cessé d'être un couple. Vous n'avez simplement plus passé une minute ensemble sans être en train de gérer quelque chose.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : installer 20 minutes",
+        "etapes": [
+          "Choisir un jour fixe : le même chaque semaine, sinon cela ne se produit pas.",
+          "Poser une règle unique : on ne parle ni de l'enfant, ni de l'organisation.",
+          "Laisser les téléphones dans une autre pièce : 20 minutes interrompues ne comptent pas.",
+          "Commencer petit : 20 minutes tenues valent mieux qu'une soirée prévue et annulée.",
+          "Recommencer la semaine suivante : les premières fois sont toujours maladroites."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : se retrouver sans discussion",
+        "etapes": [
+          "S'asseoir côte à côte sans rien dire : la présence fait déjà une partie du travail.",
+          "Se toucher sans que cela mène ailleurs : une main, une épaule, sans enjeu.",
+          "Sortir 10 minutes ensemble : le trottoir change les conversations.",
+          "Se raconter une chose de sa journée à soi : une seule, qui ne concerne pas la maison.",
+          "S'arrêter avant que ça se tende : mieux vaut court et bon que long et raté."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Regarder la répartition avant le reste : un déséquilibre de charge éteint un couple plus sûrement que le manque de soirées.",
+        "Organiser une garde une fois par mois : quelques heures, même en journée, cela se demande.",
+        "Accepter que les envies ne reviennent pas en même temps : c'est le cas le plus fréquent, et cela se dit.",
+        "En parler à un professionnel si le silence s'installe durablement : une conversation extérieure débloque souvent en quelques séances."
+      ],
+      "principe": "Ce qui répare un couple parental n'est pas la durée du temps passé ensemble, c'est sa régularité et le fait qu'il ne serve pas à s'organiser. 20 minutes chaque semaine font plus qu'une soirée exceptionnelle.",
+      "erreurs_a_eviter": [
+        "Attendre d'avoir du temps et de l'énergie : ils ne reviendront pas d'eux-mêmes cette année.",
+        "Utiliser ce moment pour régler les sujets qui fâchent : il n'y survivra pas.",
+        "Viser une grande soirée : elle se prépare, se reporte, et n'a jamais lieu.",
+        "Conclure du silence actuel que quelque chose est fini : la plupart des couples traversent cette année-là."
+      ],
+      "consulter_si": "Consulter si : la tension dans le couple devient permanente, si l'un des deux se sent durablement exclu, triste ou détaché → en parler au médecin, à la sage-femme ou à la PMI. Si la relation devient violente, en paroles, en gestes ou par le contrôle → 3919, Violences Femmes Info, gratuit et anonyme."
+    },
+    {
+      "categorie": "parent",
+      "situation": "La comparaison des jalons / Les autres marchent déjà",
+      "titre": "C'est l'âge où les écarts sont les plus visibles",
+      "explication": "Au goûter d'anniversaire, deux enfants couraient entre les jambes des adultes. Le tien se déplaçait à quatre pattes, très vite, très content. Tu n'as pensé qu'à ça de toute l'après-midi. Autour d'un an, les différences entre enfants atteignent leur maximum de visibilité : certains marchent depuis deux mois, d'autres ne se lèvent pas encore, certains disent des mots, d'autres aucun. Ces écarts frappent parce qu'ils sont spectaculaires, et parce qu'un anniversaire pousse tout le monde à faire le point en même temps. Ils ne disent pourtant presque rien. La majorité des enfants marchent seuls entre 12 et 15 mois, il n'est pas rare d'attendre 18 mois sans que cela inquiète personne, et la date d'acquisition ne prédit rien de la suite. Un enfant qui marche tard ne marchera pas moins bien. Ce que le suivi médical regarde, ce n'est pas la date : c'est que les acquisitions progressent et qu'aucune ne disparaisse.",
+      "ancrage": "Ton enfant n'est pas en retard sur les autres. Il est à un âge où deux enfants du même mois peuvent être très loin l'un de l'autre, sans que cela signifie quoi que ce soit.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : sortir du classement",
+        "etapes": [
+          "Regarder ce qu'il fait, lui : se déplacer autrement, se hisser, comprendre, communiquer à sa façon.",
+          "Comparer avec lui-même il y a trois mois : c'est la seule comparaison qui renseigne.",
+          "Écarter les tableaux trouvés en ligne : ils donnent des moyennes, et une moyenne n'est pas un objectif.",
+          "Poser la question au rendez-vous : elle y trouvera une réponse, pas chez les autres parents.",
+          "Couper court aux conversations de comparaison : « il fait les choses dans son ordre » suffit."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : quand la comparaison revient",
+        "etapes": [
+          "Regarder ton enfant jouer 3 minutes sans rien attendre : il montre beaucoup en 3 minutes.",
+          "Ne pas le mettre à l'épreuve : les tests improvisés inquiètent et n'apprennent rien.",
+          "Souffler longuement dix fois : l'inquiétude comparative se loge dans la poitrine.",
+          "Nommer ce qu'il a acquis ce mois-ci : il y a toujours quelque chose, souvent invisible.",
+          "Reporter la question au prochain rendez-vous : c'est là qu'elle se traite sérieusement."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Savoir ce que regarde le suivi : la progression, la symétrie des mouvements, la compréhension, le contact. Jamais une date isolée.",
+        "Utiliser la consultation prévue : les rendez-vous de suivi de cette période sont faits exactement pour cette question.",
+        "Se rappeler que se déplacer autrement compte : ramper, se traîner assis ou marcher à quatre pattes longtemps sont des variantes fréquentes.",
+        "Demander un avis si quelque chose régresse : une capacité acquise qui disparaît est le seul signal qui ne s'attend pas."
+      ],
+      "principe": "Autour d'un an, la fourchette normale d'acquisition de la marche va de 12 à 18 mois, et la date n'annonce rien. Ce qui se surveille, c'est la progression d'ensemble et l'absence de régression.",
+      "erreurs_a_eviter": [
+        "Le faire marcher en le tenant par les mains pour l'entraîner : la marche arrive quand le corps est prêt.",
+        "Utiliser un trotteur pour accélérer : il ne fait pas gagner de temps, et il est déconseillé pour la posture comme pour les risques de chute.",
+        "Interroger tout l'entourage : chaque réponse ajoute de l'inquiétude sans ajouter de repère.",
+        "Prendre l'avance d'un autre enfant pour une note attribuée à ses parents."
+      ],
+      "consulter_si": "Consulter si : ton enfant perd une capacité qu'il avait acquise, s'il ne se déplace pas du tout d'une manière ou d'une autre, s'il ne réagit pas à son prénom, s'il ne pointe pas du doigt, ou si un côté du corps bouge nettement moins que l'autre → médecin ou PMI sans attendre."
+    }
+  ]
+}

@@ -4,15 +4,15 @@
   "categorie": {
     "id": "proprete",
     "ordre": 6,
-    "nom": "Propreté",
-    "sous_titre": "Le bon moment, le pot, les ratés",
+    "nom": "Propreté & autonomie",
+    "sous_titre": "Le bon moment, le pot, les accidents",
     "icone": "🚽"
   },
   "protocoles": [
     {
       "categorie": "proprete",
-      "situation": "Se demander s'il est prêt pour la propreté",
-      "titre": "La propreté / repérer les signes qu'il est prêt",
+      "situation": "Les signes de la propreté / Je me demande s'il est prêt",
+      "titre": "Les signes qui disent qu'il est prêt",
       "explication": "La propreté n'est pas un apprentissage qu'on impose, mais une maturité qui arrive : elle dépend du développement du système nerveux de ton enfant, pas de sa volonté ni de la tienne. Tant que son corps ne sait pas encore commander les muscles qui retiennent le pipi et le caca, aucun entraînement ne marche — c'est comme demander de marcher avant que les jambes soient prêtes. Cette maturité s'installe le plus souvent entre 2 et 3 ans, parfois plus tard, et chaque enfant a son rythme. À 23 mois, ton enfant peut être prêt… ou pas encore, et les deux sont normaux.",
       "ancrage": "Tu n'as rien à « réussir » : ton rôle est d'observer les signes et d'attendre le bon moment. Rien ne presse, et la précipitation ralentit tout.",
       "action_immediate": {
@@ -56,8 +56,8 @@
     },
     {
       "categorie": "proprete",
-      "situation": "Introduire le pot en douceur",
-      "titre": "Le pot / l'introduire en douceur, sans pression",
+      "situation": "L'introduction du pot / Je veux le proposer sans pression",
+      "titre": "En douceur, et sans aucune date",
       "explication": "Quand les signes sont là, introduire le pot se fait tout en douceur, comme un jeu et non comme une leçon. À 23 mois, ton enfant a besoin d'apprivoiser l'objet et de comprendre à quoi il sert, sans jamais s'y sentir contraint. La propreté ne se « dresse » pas : elle s'installe par l'imitation, la régularité et le plaisir de grandir. Plus l'ambiance est légère, plus ça avance ; plus il y a d'enjeu et de tension, plus ça bloque. Ton rôle est d'offrir l'occasion, pas d'obtenir un résultat.",
       "ancrage": "Le pot n'est pas un examen à réussir : c'est une nouvelle habitude à apprivoiser. Détends-toi, et l'aventure devient légère pour vous deux.",
       "action_immediate": {
@@ -100,8 +100,8 @@
     },
     {
       "categorie": "proprete",
-      "situation": "Il a encore beaucoup d'accidents",
-      "titre": "Les petits accidents / accompagner les ratés sans dramatiser",
+      "situation": "Les petits accidents / Il en a encore beaucoup",
+      "titre": "Accompagner les ratés sans dramatiser",
       "explication": "Les « accidents » ne sont pas vraiment des accidents : ce sont des étapes normales d'un apprentissage. À 23 mois, même quand ton enfant commence à comprendre, il ne sait pas encore anticiper à temps — il est absorbé par son jeu, ou il sent l'envie trop tard. Se tromper fait partie du chemin, exactement comme tomber en apprenant à marcher. Ce qui compte n'est pas d'éviter les ratés, mais la façon dont on les accueille : sans honte ni reproche, l'enfant garde confiance et progresse ; grondé, il se crispe et régresse.",
       "ancrage": "Un pipi par terre n'est pas un échec, c'est une étape. Ta réaction tranquille lui apprend qu'il a le droit d'apprendre à son rythme.",
       "action_immediate": {
@@ -144,8 +144,8 @@
     },
     {
       "categorie": "proprete",
-      "situation": "Il refuse catégoriquement le pot",
-      "titre": "Le refus du pot / il n'en veut pas encore",
+      "situation": "Le refus du pot / Il n'en veut pas du tout",
+      "titre": "Reculer, et reproposer plus tard",
       "explication": "Parfois, ton enfant refuse catégoriquement le pot — et c'est une information, pas un problème. Souvent, cela veut dire qu'il n'est pas encore prêt, ou qu'il se sent trop poussé et se braque : à 23 mois, l'opposition est aussi une façon d'affirmer qu'il décide de son corps. Le confort des couches peut aussi lui plaire, ou l'idée de grandir ne l'intéresse pas encore. Forcer ne sert à rien : cela crée des tensions, parfois de la rétention et de la constipation, et retarde tout. La meilleure réponse est souvent de reculer et d'attendre.",
       "ancrage": "Son refus n'est pas de l'entêtement à briser : c'est un « pas maintenant » à respecter. Reculer sans en faire un drame est souvent le vrai raccourci.",
       "action_immediate": {

@@ -1,0 +1,194 @@
+{
+  "mois": 15,
+  "tranche_age": "15 mois",
+  "categorie": {
+    "id": "parent",
+    "nom": "Parents submergés",
+    "sous_titre": "Le geste, la charge, l'envie de fuir, la garde",
+    "icone": "🫶"
+  },
+  "protocoles": [
+    {
+      "categorie": "parent",
+      "situation": "La tape qui est partie / Je ne veux pas recommencer",
+      "titre": "Un plan pour que ça ne recommence pas",
+      "explication": "Ta main est partie avant ta pensée. Une tape sur la main, pas fort, et il t'a regardé avec une tête que tu n'oublieras pas. À quinze mois, une tape ne lui apprend pas ce qu'il ne faut pas faire. Il n'établit pas de lien entre le geste et son comportement : ce qu'il retient, c'est la surprise, et que l'adulte qui le protège peut aussi lui faire mal. Les gestes de ce type ne changent pas ce qu'il fera demain, et ils entament ce sur quoi il s'appuie pour apprendre. Ce n'est pas une question de morale, c'est une question de mécanique. Et si tu lis ces lignes, c'est que tu cherches déjà comment ne pas recommencer.",
+      "ancrage": "Une tape partie ne fait pas de toi un parent violent. Elle dit qu'un seuil a été franchi ce jour-là, et un seuil, ça se repère et ça se recule.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : dans l'heure qui suit",
+        "etapes": [
+          "Poser des mots simples : « je t'ai tapé, je n'aurais pas dû, ce n'est pas de ta faute ».",
+          "Ne pas se justifier devant lui : l'explication n'est pas pour lui, elle est pour toi.",
+          "Reprendre le contact sans forcer : rester près de lui, il reviendra de lui-même.",
+          "Écrire ce qui a précédé : l'heure, la fatigue, ce qu'il faisait, ce qui venait juste avant.",
+          "Le dire à quelqu'un le jour même : l'autre parent, une amie, un professionnel. Quelqu'un."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Si ça arrive : sentir que ça remonte",
+        "etapes": [
+          "Poser l'enfant en sécurité : dans son lit ou au sol dans une pièce sûre, même s'il pleure.",
+          "Sortir de la pièce : une autre pièce, le palier, la salle de bain, porte entrouverte.",
+          "Faire baisser par le corps : eau froide sur les poignets et le visage, expiration longue, cinq fois.",
+          "Appeler quelqu'un avant de revenir : n'importe qui, du moment que quelqu'un décroche.",
+          "Revenir quand la voix est redescendue : pas avant, même si les pleurs durent."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Repérer les trois conditions : la fatigue, l'heure et le déclencheur reviennent presque toujours ensemble.",
+        "Reculer une seule d'entre elles : décaler le repas, coucher plus tôt, retirer une sortie de la semaine.",
+        "Convenir d'un relais : un mot qui veut dire « prends la suite », sans discussion. Sans autre parent, une personne à appeler.",
+        "En parler à un professionnel : médecin traitant, PMI, ou lieu d'accueil parents-enfants, avant que cela se répète."
+      ],
+      "principe": "Un geste qui part ne se retient pas par la volonté, il se prévient par les conditions. On ne devient pas plus solide en se le promettant, on le devient en retirant du poids à l'heure où le seuil est le plus bas.",
+      "erreurs_a_eviter": [
+        "Se dire que ce n'est pas si grave : la banalisation est exactement ce qui fait recommencer.",
+        "Se dire que c'est irréparable : la honte enferme, et elle empêche d'en parler à qui que ce soit.",
+        "Ne rien changer à la journée : à conditions identiques, le même seuil revient au même moment.",
+        "Attendre d'aller mieux pour en parler : c'est au moment où ça va mal que l'aide sert le plus."
+      ],
+      "consulter_si": "Consulter si : tu as peur de tes propres gestes, si les cris deviennent quotidiens, ou si tu te sens au bord de perdre le contrôle → en parler à ton médecin ou à la PMI, ou appeler Allo Parents Bébé, 0 800 00 34 56, gratuit. Un tout-petit ne doit jamais être secoué : quelques secondes suffisent à provoquer des lésions graves. Et si tu as besoin de parler de ce que tu ressens envers ton enfant, le 119 répond aussi aux parents, jour et nuit, et il n'apparaît sur aucun relevé de téléphone.",
+      "source": "Source : prévention du syndrome du bébé secoué, Haute Autorité de santé ; les violences éducatives, 1000-premiers-jours.fr."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Les charges invisibles / Je crois qu'il ne mesure pas",
+      "titre": "Montrer la charge avant de la répartir",
+      "explication": "« Tu n'as qu'à me demander. » Il l'a dit gentiment, sans se douter que c'est exactement le problème. Ce qui n'est pas visible ne se partage pas. Le travail qui pèse le plus n'est pas celui qu'on fait, c'est celui qu'on porte : penser à la pointure, à la date du rappel, au goûter de jeudi. Un parent qui exécute quand on le lui demande ne porte rien : il attend une demande. Tant que la liste vit dans une seule tête, il n'y a rien à répartir. Il n'y a qu'à déléguer, et déléguer fatigue presque autant que faire.",
+      "ancrage": "Ce n'est pas une question de savoir mieux s'expliquer. Vous avez à regarder la même liste, au même moment, et elle n'existe nulle part.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : rendre la liste visible",
+        "etapes": [
+          "Tout écrire pendant une semaine : y compris ce qui prend 30 secondes.",
+          "Marquer qui y pense, pas qui le fait : c'est cette colonne-là qui déséquilibre tout.",
+          "Montrer la liste sans commentaire : la lire à deux suffit, le reproche referme la discussion.",
+          "Choisir ensemble un bloc à basculer : celui qui revient le plus souvent dans la colonne.",
+          "Fixer une date de revue : dans quinze jours, 10 minutes, pour ajuster."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : avant d'en parler",
+        "etapes": [
+          "Choisir le moment : ni le soir tard, ni devant l'enfant.",
+          "Souffler plus long qu'on inspire : quatre temps dedans, six dehors, cinq fois.",
+          "Poser les épaules : les monter vers les oreilles, puis les laisser tomber d'un coup, trois fois.",
+          "Commencer par une phrase en « je » : « je porte la liste, et je n'y arrive plus ».",
+          "S'arrêter si le ton monte : reprendre demain vaut mieux qu'une soirée gâchée."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Transférer la décision avec la tâche : « les chaussures, c'est toi », pointure comprise.",
+        "Rendre le calendrier commun : un agenda partagé retire une part de la mémoire à porter.",
+        "Accepter que ce soit fait autrement : refaire derrière annule le transfert en une fois.",
+        "Sans autre parent, viser l'extérieur : la crèche, une voisine, une commande récurrente, un service."
+      ],
+      "principe": "La répartition ne se joue pas sur les tâches, elle se joue sur qui y pense. Une tâche exécutée à la demande reste portée par celui qui a demandé.",
+      "erreurs_a_eviter": [
+        "Faire la liste pour prouver : elle sert à décider, pas à gagner une discussion.",
+        "Demander de l'aide plutôt qu'un partage : « aide-moi » installe que la charge est la tienne.",
+        "Tout dire d'un coup un soir de fatigue : la conversation se referme avant la fin.",
+        "Reprendre le bloc au premier oubli : un transfert demande quelques semaines avant de tenir."
+      ],
+      "consulter_si": "Consulter si : la fatigue ne cède plus au repos, si la tristesse dure depuis plus de deux semaines, ou si plus rien ne te fait envie → en parler à ton médecin, à la sage-femme ou à la PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+    },
+    {
+      "categorie": "parent",
+      "situation": "L'envie de s'échapper / J'ai pensé à partir, un instant",
+      "titre": "Une pensée qui dit la fatigue, pas l'amour",
+      "explication": "Tu conduisais, il dormait à l'arrière, et l'idée est venue toute seule : continuer tout droit. 2 secondes, pas plus. Puis tu as mis le clignotant, et tu t'es fait peur. L'envie de partir traverse beaucoup de parents, et presque aucun ne la dit. Elle n'arrive pas quand on aime moins : elle arrive quand on est au bout de ce qu'on peut porter sans relais. Une pensée n'est pas une intention. Un cerveau fatigué fabrique des images de sortie comme il fabriquerait n'importe quelle autre issue, et ce qui compte n'est pas qu'elle soit venue, c'est ce qu'elle signale.",
+      "ancrage": "Cette pensée ne dit rien de ton amour pour lui. Elle dit que tu portes cela depuis trop longtemps, sans relais, et que personne ne s'en est encore aperçu.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : ce soir",
+        "etapes": [
+          "La dire à quelqu'un : une amie, l'autre parent, un professionnel. Quelqu'un qui ne jugera pas.",
+          "Sortir 10 minutes : le tour du pâté de maisons change davantage que rien du tout.",
+          "Passer la main pour la soirée : même une heure, même faite autrement que par toi.",
+          "Manger et boire quelque chose : la faim et le manque d'eau noircissent tout.",
+          "Se coucher plus tôt, une fois : une nuit ne règle rien, mais elle change le lendemain."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : quand la pensée revient",
+        "etapes": [
+          "Nommer la pensée sans la suivre : « voilà l'envie de partir », et la laisser passer.",
+          "Sentir les deux pieds au sol : poids réparti, 10 secondes, sans bouger.",
+          "Poser les mains à plat sur le ventre : sentir le souffle bouger sous les paumes, 10 secondes.",
+          "Appuyer le pouce au centre de l'autre paume : pression douce et maintenue, 30 secondes par main.",
+          "Regarder une seule chose autour de toi : une couleur, un son, une texture, pour revenir dans la pièce."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Poser un relais régulier : une demi-journée par semaine, écrite, tenue comme un rendez-vous.",
+        "Regarder ce qui a changé depuis un mois : le sommeil, l'appétit et l'envie sont les trois qui parlent.",
+        "Prendre rendez-vous : ton médecin saura dire si ce que tu traverses demande un accompagnement.",
+        "Pousser la porte d'un lieu d'accueil parents-enfants ou de la PMI : entendre d'autres parents dire la même chose désamorce beaucoup."
+      ],
+      "principe": "Une pensée d'échappée n'est pas un désamour, c'est un signal de charge. On ne la fait pas taire, on retire du poids là où il est le plus lourd.",
+      "erreurs_a_eviter": [
+        "La garder pour soi : c'est le silence qui la rend lourde, pas la pensée elle-même.",
+        "Se juger d'y avoir pensé : la culpabilité ajoute une charge à celle qui a produit la pensée.",
+        "Attendre d'être au bout pour demander : l'aide sert mieux avant qu'après.",
+        "Compter sur un week-end pour tout régler : ce qui use est quotidien, ce qui soulage doit l'être aussi."
+      ],
+      "consulter_si": "Consulter si : la fatigue ne cède plus au repos, si la tristesse dure depuis plus de deux semaines, ou si plus rien ne te fait envie → en parler à ton médecin, à la sage-femme ou à la PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit. Si les pensées noires s'installent, le 3114 répond jour et nuit.",
+      "source": "Source : baby blues et dépression post-partum, ameli.fr (Assurance Maladie) ; 1000-premiers-jours.fr."
+    },
+    {
+      "categorie": "parent",
+      "situation": "La jalousie / J'ai l'impression qu'il préfère sa nounou",
+      "titre": "Un lien de plus n'enlève rien au tien",
+      "explication": "Il a dit son prénom à elle avant de dire le tien. Tu as souri, tu as dit bravo, et tu as gardé ça pour toi tout le trajet. À quinze mois, un enfant s'attache à plusieurs adultes en même temps, et ces liens ne se font pas concurrence. Il ne compare pas et ne choisit pas : il se tourne vers celui qui est là. Le mot qui sort en premier est souvent celui qu'il entend le plus dans la journée, pas celui qui compte le plus pour lui. Ce que tu prends pour une préférence est le signe que l'adaptation a réussi.",
+      "ancrage": "Ce n'est pas agréable, et il est normal que ça pique. Ce que tu ressens là n'enlève rien à ce que tu représentes pour lui.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : au moment où ça pique",
+        "etapes": [
+          "Ne pas corriger devant lui : reprendre le mot le vexe et ne change rien.",
+          "Accueillir sans commenter : « oui, elle s'occupe bien de toi », puis passer à autre chose.",
+          "Reprendre par le corps : le prendre, l'installer contre toi, sans exiger de mot en retour.",
+          "Attendre le vrai retour : les retrouvailles se jouent souvent 10 minutes après, pas à la seconde.",
+          "Se rappeler ce qui est à toi : le coucher, le réveil, le doudou, ce sont les tiens."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Retrouver le contact : au retour de la garde",
+        "etapes": [
+          "5 minutes sans consigne : s'asseoir près de lui, sans le déshabiller ni le presser.",
+          "Le laisser mener : il choisit le jeu, tu suis, sans corriger ni proposer mieux.",
+          "Poser une main à plat dans son dos : appui léger et maintenu, quelques secondes.",
+          "Nommer ce qu'il fait plutôt que de poser des questions : « tu as sorti le camion ».",
+          "S'arrêter à sa demande : s'il part jouer, on le laisse partir et on reste disponible."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se réserver un moment qui n'appartient qu'à vous : le bain, le livre du soir, le même chaque jour.",
+        "Demander le récit de la journée : savoir ce qu'il a vécu réduit beaucoup le sentiment d'être hors du coup.",
+        "Dire ce que tu ressens à un adulte, pas à l'enfant : c'est un sentiment d'adulte, il n'a pas à le porter.",
+        "Regarder sur la durée : ce sont les jours de fièvre et de gros chagrin qui disent vers qui il va."
+      ],
+      "principe": "Un enfant qui s'attache à la personne qui le garde ne se détache pas de son parent. Ces liens s'additionnent, ils ne se remplacent jamais.",
+      "erreurs_a_eviter": [
+        "Lui demander qui il préfère : la question met l'enfant dans une position impossible.",
+        "Prendre de la distance avec la personne qui garde : la tension se paie sur l'enfant, qui la sent.",
+        "Compenser par des cadeaux ou des permissions : le lien ne se rattrape pas par ce qu'on donne.",
+        "Se retenir de dire ce qu'on ressent : gardé pour soi, ce sentiment tourne à la rancune."
+      ],
+      "consulter_si": "Consulter si : ton enfant ne cherche plus le contact avec toi au retour, s'il ne réagit ni à ton départ ni à tes retrouvailles depuis plusieurs semaines, ou si l'adaptation ne se fait toujours pas après un mois → en parler au médecin, à la PMI, ou avec l'équipe qui l'accueille."
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "mois": 19,
+  "tranche_age": "19 mois",
+  "categorie": {
+    "id": "alim",
+    "nom": "Alimentation",
+    "sous_titre": "Durée du repas, rythme de la journée, table et boisson",
+    "icone": "🍽️"
+  },
+  "protocoles": [
+    {
+      "categorie": "alim",
+      "situation": "Le jeu à la place du repas / Il joue, il ne mange pas",
+      "titre": "Une durée tenable et une fin nette",
+      "explication": "À dix-neuf mois, ton enfant reste volontiers à table, mais son intérêt pour ce qu'il y a dans l'assiette s'épuise bien avant que la table soit débarrassée. Il se met alors à trier, écraser, empiler, faire rouler les petits pois. Ce n'est pas de la provocation : c'est une main qui a envie d'explorer pendant qu'une bouche n'a plus faim. Le moment où le jeu commence est presque toujours le moment exact où la faim s'est arrêtée, et c'est une information précieuse plutôt qu'un problème.",
+      "ancrage": "Le jeu n'est pas ce qui l'empêche de manger, c'est ce qui suit le moment où il a fini. Tu peux t'appuyer sur ce signal au lieu de lutter contre lui.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : quand la nourriture devient un jouet",
+        "etapes": [
+          "Lire le signal : les mains qui jouent disent qu'il n'a plus faim, presque à tous les coups.",
+          "Proposer une dernière fois : « tu veux encore quelque chose ? », posé une seule fois.",
+          "Annoncer la fin : « on va débarrasser », dit calmement, sans attendre de réponse.",
+          "Retirer l'assiette : sans reproche, sans commentaire sur ce qui reste dedans.",
+          "Le faire descendre : la fin du repas est un changement de lieu, pas une sanction."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Hors du repas : donner du jeu ailleurs",
+        "etapes": [
+          "Sortir de quoi manipuler : pâte à modeler, semoule sèche, eau et gobelets, les mains ont leur compte ailleurs.",
+          "Transvaser pour de vrai : verser d'un récipient à l'autre est le geste qu'il cherche à faire dans son assiette.",
+          "Cuisiner avec lui : pétrir, écraser, mélanger, le même plaisir arrive au bon moment.",
+          "Prévoir ce temps avant le repas : une main rassasiée de manipulation reste plus tranquille à table.",
+          "Arrêter quand il s'en détourne : la séance a duré ce qu'elle devait durer."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Servir en deux temps : une petite assiette, puis la suite s'il en redemande, plutôt qu'une grande qui invite au tri.",
+        "Caler la durée sur lui : quand la table dépasse ce qu'il tient, tout ce qui suit relève du jeu et non de la faim.",
+        "Retirer les distractions : ni jouet ni écran à table, ce qui reste devant lui est ce qu'il regarde.",
+        "Accorder les adultes : une fin de repas décidée de la même façon par tout le monde n'a pas à se rejouer."
+      ],
+      "principe": "Un enfant s'arrête de manger avant de s'arrêter de bouger. Reconnaître le moment où la faim est passée évite d'inventer une bataille là où il n'y a qu'un repas terminé.",
+      "erreurs_a_eviter": [
+        "Rallonger la table en espérant qu'il finisse : le jeu s'installe et l'assiette ne se vide pas pour autant.",
+        "Lui donner un jouet pour qu'il tienne assis : il joue au lieu de manger, avec ton accord cette fois.",
+        "Le nourrir pendant qu'il joue : il avale sans percevoir ce qu'il mange ni le moment où il est rassasié.",
+        "Reproposer à manger 20 minutes plus tard : le repas suivant perd sa faim et le cycle recommence."
+      ],
+      "consulter_si": "Consulter si : ton enfant joue à tous les repas sans jamais rien avaler, s'il perd du poids ou si sa courbe s'infléchit d'un rendez-vous à l'autre, s'il ne tient pas assis quelques minutes en dehors des repas, ou si le repas se termine en crise pour toute la famille depuis plusieurs semaines → pédiatre, médecin traitant ou PMI, qui pourront orienter vers un psychomotricien."
+    },
+    {
+      "categorie": "alim",
+      "situation": "La faim d'après le repas / Il réclame 10 minutes après",
+      "titre": "Quatre rendez-vous et rien entre",
+      "explication": "Ce n'est presque jamais une vraie faim. Un enfant de dix-neuf mois quitte souvent la table sans avoir beaucoup mangé, parce qu'autre chose l'appelait, puis la sensation revient une fois qu'il est calmé, ou qu'il s'ennuie, ou qu'il voit un placard s'ouvrir. Si le grignotage répond à chaque fois, la faim n'a plus le temps de monter jusqu'au repas suivant et le cercle se referme. Les repères français tiennent en une phrase simple : quatre prises par jour, petit déjeuner, déjeuner, goûter, dîner, et rien entre les deux.",
+      "ancrage": "Tu ne le prives de rien en refermant la table. Tu lui rends la faim du repas suivant, ce qui est exactement ce qui manque en ce moment.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : quand il réclame après la table",
+        "etapes": [
+          "Proposer de l'eau : la soif se confond très souvent avec la faim à cet âge.",
+          "Nommer sans négocier : « le repas est fini, le goûter est à 16h », une phrase, une fois.",
+          "Reproposer le plat s'il insiste : le même que tout à l'heure, ni fromage, ni compote, ni biscuit.",
+          "Changer de pièce : l'envie tombe presque toujours dès que la cuisine n'est plus en vue.",
+          "Occuper les mains : un livre, un jeu, sortir dehors, l'ennui est le premier déclencheur."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : accueillir la demande sans céder",
+        "etapes": [
+          "S'accroupir à sa hauteur : la demande se reçoit face à face, pas depuis l'évier.",
+          "Le prendre un moment : un câlin court répond souvent mieux qu'un biscuit à ce qu'il réclame.",
+          "Poser une main sur son ventre : le contact calme aide à distinguer la faim de l'agitation.",
+          "Parler doucement d'autre chose : la voix qui change de sujet fait plus que l'explication.",
+          "Rester si la colère monte : on ne cède pas, on ne s'en va pas non plus."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Tenir les horaires : des repas à heure régulière font revenir la faim au bon moment, en quelques jours.",
+        "Rendre le goûter consistant : pain, fruit et laitage tiennent jusqu'au dîner bien mieux qu'un biscuit.",
+        "Fermer les placards visibles : ce qui est à portée de main et de regard se réclame toute la journée.",
+        "Prévenir qui le garde : un goûter décalé ou une compote donnée à 16h30 change tout le dîner."
+      ],
+      "principe": "La faim a besoin d'un intervalle pour monter. Chaque bouchée donnée entre deux repas prélève sur le repas suivant, et c'est ainsi qu'un enfant finit par n'avoir jamais faim à table tout en réclamant sans arrêt.",
+      "erreurs_a_eviter": [
+        "Donner autre chose que le plat refusé : il apprend qu'un refus fait apparaître mieux, et il le rejouera.",
+        "Céder pour éviter la crise du moment : la demande revient plus tôt et plus fort le lendemain.",
+        "Compter les compotes à boire pour rien : elles rassasient autant qu'un repas et ne se voient pas passer.",
+        "Supprimer le goûter pour qu'il dîne mieux : la fin de journée devient trop longue et le dîner se passe encore plus mal."
+      ],
+      "consulter_si": "Consulter si : ton enfant réclame en permanence et prend du poids rapidement, si sa courbe s'écarte de sa ligne habituelle, s'il se réveille la nuit en réclamant à manger, ou si la faim s'accompagne d'une soif très importante et de couches beaucoup plus lourdes → pédiatre, médecin traitant ou PMI, qui pourront orienter vers une diététicienne pédiatrique.",
+      "source": "Source : quatre repas par jour et l'eau comme seule boisson nécessaire, repères alimentaires des enfants de 1 à 3 ans, Assurance Maladie, ameli.fr ; limiter les produits sucrés avant 3 ans, Santé publique France, programme national nutrition santé ; surveillance de la courbe de croissance, Haute Autorité de Santé."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Le repas en mouvement / Il mange en courant partout",
+      "titre": "Le repas a un lieu, et il ne bouge pas",
+      "explication": "À dix-neuf mois, marcher, grimper et courir sont devenus si faciles qu'ils prennent le pas sur tout le reste, y compris sur la faim. L'enfant part avec son morceau de pain, revient, repart. La difficulté n'est pas seulement que le repas s'éternise : quand le corps se déplace, la coordination entre le fait d'avaler et celui de respirer devient moins précise, et le morceau passe plus facilement de travers. C'est la raison pour laquelle les repères officiels demandent que l'enfant soit assis et sous le regard d'un adulte pendant tout le repas.",
+      "ancrage": "Ce n'est pas une question d'obéissance, c'est une question de sécurité, et cela rend la règle plus facile à tenir. Tu peux la dire une fois pour toutes, sans avoir à la défendre.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : quand il part avec sa bouchée",
+        "etapes": [
+          "Récupérer ce qu'il emporte : la nourriture reste sur la table, tout de suite et sans discussion.",
+          "Dire la raison en cinq mots : « on mange assis, sinon ça passe de travers ».",
+          "Le ramener une fois : replacé sur sa chaise, calmement, sans le porter de force.",
+          "Clore au deuxième départ : le repas est terminé pour lui, et l'assiette part avec.",
+          "Ne rien laisser à portée : plus d'assiette sur la table basse, plus de morceau dans sa main."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : ramener le corps à table",
+        "etapes": [
+          "Le laisser courir avant : 10 minutes de mouvement libre juste avant, le corps arrive vidé de son trop-plein.",
+          "Le porter jusqu'à sa chaise : le trajet dans les bras marque le passage mieux qu'un appel de loin.",
+          "Caler les pieds : un repose-pied ferme sous ses plantes, un corps stable a moins envie de repartir.",
+          "Poser une main sur son dos en t'asseyant : un contact bref au moment où le repas commence.",
+          "Rester assis toi aussi : un adulte qui se lève six fois donne exactement l'exemple inverse."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Un seul lieu pour manger : la table, à tous les repas et pour tous les goûters, y compris le week-end.",
+        "Raccourcir plutôt qu'assouplir : un repas court et assis vaut mieux qu'un repas long et nomade.",
+        "Écarter la voiture et la poussette : ce sont les endroits où la fausse route arrive le plus souvent.",
+        "Transmettre la règle : elle vaut chez les grands-parents et au parc autant qu'à la maison."
+      ],
+      "principe": "Manger est une activité qui demande d'être posé, et c'est le seul moment de la journée où l'immobilité protège vraiment. Un repas qui se déplace perd à la fois son cadre et sa sécurité.",
+      "erreurs_a_eviter": [
+        "Le suivre avec l'assiette pour qu'il avale quelques bouchées : le repas n'a plus de lieu, donc plus de fin.",
+        "Lui donner un morceau pour patienter pendant qu'on prépare : il apprend que la nourriture circule dans la maison.",
+        "Le rasseoir de force à chaque départ : la table devient un affrontement et il en part encore plus vite.",
+        "Faire une exception les jours de fatigue : une règle qui varie se fait tester à chaque repas."
+      ],
+      "consulter_si": "Consulter si : ton enfant s'étouffe, c'est-à-dire qu'il ne fait plus aucun bruit et que sa respiration se bloque → appeler immédiatement le 15 ou le 112. Consulter si, par ailleurs : il tousse fréquemment pendant les repas, s'il garde une toux ou une respiration bruyante après un épisode, ou s'il ne parvient jamais à rester assis quelques minutes, même en dehors des repas → pédiatre, médecin traitant ou PMI.",
+      "source": "Source : enfant assis et surveillé pendant toute la durée du repas, et aliments à risque d'étouffement, Santé publique France, programme national nutrition santé (mangerbouger.fr) ; conduite à tenir en cas d'inhalation de corps étranger, Assurance Maladie, ameli.fr."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Le manque d'eau / Il ne boit presque rien",
+      "titre": "Rendre l'eau accessible et attirante",
+      "explication": "Beaucoup d'enfants de cet âge boivent peu à table, tout simplement parce qu'ils sont occupés ailleurs et que la soif ne se fait pas encore sentir comme chez un adulte. Une grande partie de l'eau dont ils ont besoin arrive d'ailleurs par les aliments, les soupes, les fruits et les laitages. L'eau reste la seule boisson dont ton enfant a besoin, et ce qui renseigne le mieux n'est pas la quantité versée dans son verre : ce sont ses couches, la couleur de ses urines et son entrain dans la journée.",
+      "ancrage": "Tu n'as pas à lui faire boire une quantité décidée d'avance. Tu as à rendre l'eau facile à attraper et agréable à prendre, et à savoir ce que tu regardes.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : dans la journée",
+        "etapes": [
+          "Poser un verre à sa hauteur : ce qu'il peut attraper seul se boit sans qu'on ait à le proposer.",
+          "Proposer à chaque changement : au réveil, au retour du parc, avant le bain, la régularité fait le volume.",
+          "Servir un fond à la fois : un petit verre rempli plusieurs fois se boit mieux qu'un grand verre plein.",
+          "Varier le contenant : verre, paille, gourde, gobelet, la nouveauté relance la prise à cet âge.",
+          "Boire devant lui : à cet âge, ce que font les adultes se copie plus vite que ce qu'ils demandent."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Observer bébé : les signes qui comptent",
+        "etapes": [
+          "Le nombre de couches mouillées : le repère le plus simple et le plus fiable de la journée.",
+          "La couleur des urines : claires et peu odorantes, c'est bon signe ; foncées, il boit trop peu.",
+          "Sa bouche et ses lèvres : humides, et des larmes qui coulent quand il pleure.",
+          "Son entrain : un enfant qui court, qui râle et qui grimpe n'est pas un enfant en manque d'eau.",
+          "Les jours de chaleur et de fièvre : ce sont les seuls où relancer souvent change vraiment quelque chose."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Garder l'eau comme seule boisson : jus, sirops et sodas se remplacent par de l'eau, y compris les versions allégées.",
+        "Compter ce qui hydrate aussi : soupes, compotes, fruits frais et laitages apportent une bonne part du total.",
+        "Sortir la gourde en promenade : c'est souvent dehors qu'il boit le plus volontiers.",
+        "Prévenir qui le garde : proposer à boire aux mêmes moments qu'à la maison évite les journées sans."
+      ],
+      "principe": "Un enfant boit quand l'eau est là, à sa portée, et sans qu'on la lui demande. Ce qui compte se lit dans ses couches et dans son énergie, jamais dans le volume que tu as réussi à lui faire avaler.",
+      "erreurs_a_eviter": [
+        "Sucrer l'eau ou ajouter du sirop : le goût sucré s'installe et l'eau nature devient fade à côté.",
+        "Le forcer à finir son verre : le moment devient un enjeu et la prise baisse au repas suivant.",
+        "Remplacer l'eau par du lait toute la journée : l'appétit du repas s'effondre et le fer s'absorbe moins bien.",
+        "Ne proposer qu'aux repas : l'essentiel de ce qu'il boit se joue entre les repas, pas à table."
+      ],
+      "consulter_si": "Consulter si : ton enfant urine très peu, s'il a les lèvres et la langue sèches, s'il pleure sans produire de larmes, s'il est pâle et cerné, s'il devient difficile à réveiller ou s'il respire plus vite que d'habitude → appeler le 15 ou le 112. Consulter si, par ailleurs : il se met soudain à boire énormément et à mouiller des couches très lourdes, ou s'il refuse toute boisson depuis plus d'une journée → pédiatre ou médecin traitant, sans délai.",
+      "source": "Source : l'eau est la seule boisson nécessaire, et signes de déshydratation du nourrisson et du jeune enfant, Assurance Maladie, ameli.fr ; éviter les boissons sucrées avant 3 ans, Santé publique France, programme national nutrition santé (mangerbouger.fr)."
+    }
+  ]
+}

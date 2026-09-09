@@ -10,8 +10,8 @@
   "protocoles": [
     {
       "categorie": "sommeil",
-      "situation": "Refus de la sieste du matin / mais s'écroule avant le déjeuner",
-      "titre": "La sieste du matin / le rythme qui commence à bouger",
+      "situation": "La sieste du matin / Il la refuse et s'écroule avant midi",
+      "titre": "Le rythme commence à bouger",
       "explication": "Vers 12 mois, la plupart des enfants font encore deux siestes, une le matin et une l'après-midi. Le passage à une sieste unique se produit le plus souvent entre 15 et 18 mois, parfois plus tard : à un an, il est rarement installé. Ce qui arrive, c'est une phase de flottement. Ton enfant repousse la sieste du matin plusieurs jours, la réclame ensuite, ou s'endort au moment du repas. Ce désordre passager accompagne les grandes acquisitions motrices et ne signifie pas qu'il est prêt à s'en passer.",
       "ancrage": "Personne ne peut faire dormir un enfant, et ce n'est pas ce qu'on te demande. Ce qui reste dans tes mains, c'est le calme, l'horaire et l'obscurité.",
       "action_immediate": {
@@ -21,7 +21,7 @@
         "etapes": [
           "Guetter les signaux : bâillements, frottement des yeux, gestes moins précis, agitation soudaine.",
           "Proposer quand même le temps calme : pénombre, gigoteuse, même rituel court, sans exiger le sommeil.",
-          "Limiter à vingt minutes : s'il ne dort pas, on ressort et on retentera plus tard.",
+          "Limiter à 20 minutes : s'il ne dort pas, on ressort et on retentera plus tard.",
           "Basculer sur un repos allongé : lecture immobile ou câlin dans le noir, le corps récupère même sans dormir.",
           "Avancer le déjeuner et le coucher du soir : une sieste sautée se rattrape aux extrémités de la journée."
         ]
@@ -40,7 +40,7 @@
       },
       "pour_aller_plus_loin": [
         "Observer sur deux semaines : noter les heures d'endormissement et de réveil montre s'il s'agit d'une phase ou d'un vrai virage.",
-        "Décaler par petits pas : quand la sieste unique s'installe vraiment, avancer celle du matin par tranches de quinze minutes.",
+        "Décaler par petits pas : quand la sieste unique s'installe vraiment, avancer celle du matin par tranches de 15 minutes.",
         "Protéger la lumière du matin : sortir tôt aide l'horloge interne à caler les temps de repos.",
         "Accorder les lieux de garde : crèche, assistante maternelle et maison gagnent à viser les mêmes créneaux."
       ],
@@ -56,8 +56,8 @@
     },
     {
       "categorie": "sommeil",
-      "situation": "Se met debout dans son lit la nuit / et ne sait plus se recoucher",
-      "titre": "Debout dans le lit / la nouvelle compétence qui réveille",
+      "situation": "Le debout dans le lit / Il se met debout et ne se recouche plus",
+      "titre": "La descente s'apprend en journée",
       "explication": "Se hisser debout est l'acquisition motrice du moment, et le cerveau s'entraîne la nuit à ce qu'il vient d'apprendre le jour. Ton enfant se retrouve debout, agrippé aux barreaux, sans savoir encore refaire le chemin inverse : se rasseoir demande un contrôle qui arrive un peu plus tard. Il appelle parce qu'il est coincé, pas parce qu'il veut jouer. Cette phase dure généralement quelques semaines, le temps que la descente devienne aussi automatique que la montée.",
       "ancrage": "Il ne cherche pas à prolonger la soirée : il est bloqué et il te le dit. Tu peux lui donner un coup de main sans transformer le moment en échange.",
       "action_immediate": {
@@ -101,8 +101,8 @@
     },
     {
       "categorie": "sommeil",
-      "situation": "Coucher qui s'éternise / il se relève dès qu'on sort",
-      "titre": "Le coucher qui s'étire / la première limite testée",
+      "situation": "Le coucher qui s'étire / Il se relève dès que je sors",
+      "titre": "La première limite qu'il teste",
       "explication": "À un an, ton enfant comprend que tu continues d'exister derrière la porte, et il n'a aucune envie de te quitter pour la nuit. Se relever dès que tu sors est sa façon de vérifier que tu reviens, et de tester pour la première fois où se situe la limite. Ce n'est ni du caprice ni de la manipulation : c'est un besoin de sécurité qui rencontre une capacité motrice toute neuve. Un rituel court, identique et prévisible est ce qui referme le mieux la soirée à cet âge.",
       "ancrage": "Ta constance vaut mieux que ta fermeté d'un seul soir. Tu peux revenir dix fois avec le même calme, c'est cette répétition qui installe le cadre.",
       "action_immediate": {
@@ -110,7 +110,7 @@
         "couleur_texte": "#A32D2D",
         "titre": "Action immédiate : au moment du coucher",
         "etapes": [
-          "Tenir un rituel court : trois ou quatre étapes, toujours les mêmes, dans le même ordre, en quinze minutes.",
+          "Tenir un rituel court : trois ou quatre étapes, toujours les mêmes, dans le même ordre, en 15 minutes.",
           "Annoncer la fin clairement : « dernière chanson, puis je sors », et s'y tenir.",
           "Recoucher sans discussion : le remettre au lit avec une phrase identique, « il fait nuit, je suis là ».",
           "Réduire l'échange à chaque retour : moins de mots, moins de lumière, moins de contact à chaque passage.",
@@ -123,7 +123,7 @@
         "titre": "Réflexologie : apaiser avant de quitter la chambre",
         "etapes": [
           "S'installer au bord du lit : lumière basse, voix qui ralentit, quelques minutes seulement.",
-          "Zone du plexus solaire : au centre de la voûte, cercles lents, une minute par pied.",
+          "Zone du plexus solaire : au centre de la voûte, cercles lents, 1 minute par pied.",
           "Balayage de la voûte : du talon vers les orteils, plusieurs passages réguliers.",
           "Terminer toujours pareil : la même phrase courte à la fin du geste devient le signal de la sortie.",
           "S'arrêter s'il se réanime : quand le geste excite au lieu d'apaiser, on le réserve à un autre moment."
@@ -146,19 +146,19 @@
     },
     {
       "categorie": "sommeil",
-      "situation": "Réveils à 5h du matin / impossible de le rendormir",
-      "titre": "Le réveil trop tôt / agir sur la journée plutôt que sur l'enfant",
-      "explication": "Un réveil à cinq heures n'est pas un caprice matinal : c'est le résultat de plusieurs réglages. En fin de nuit, le sommeil devient plus léger, la moindre lumière ou le moindre bruit suffit à faire basculer l'enfant dans l'éveil. S'y ajoutent souvent une sieste terminée trop tard, un coucher trop tardif qui crée de la sur-fatigue, ou une chambre qui s'éclaire tôt. Ce sont ces réglages qui bougent, bien plus que la volonté de ton enfant, sur qui rien ne peut être exigé à cette heure.",
+      "situation": "Le réveil de 5h / Il se réveille à 5h et ne se rendort pas",
+      "titre": "Agir sur la journée, pas sur l'aube",
+      "explication": "Un réveil à 5h n'est pas un caprice matinal : c'est le résultat de plusieurs réglages. En fin de nuit, le sommeil devient plus léger, la moindre lumière ou le moindre bruit suffit à faire basculer l'enfant dans l'éveil. S'y ajoutent souvent une sieste terminée trop tard, un coucher trop tardif qui crée de la sur-fatigue, ou une chambre qui s'éclaire tôt. Ce sont ces réglages qui bougent, bien plus que la volonté de ton enfant, sur qui rien ne peut être exigé à cette heure.",
       "ancrage": "Tu ne peux pas lui demander de se rendormir, tu peux modifier ce qui l'entoure. Le levier est dans la journée d'avant, pas dans le petit matin.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
         "titre": "Action immédiate : ce matin",
         "etapes": [
-          "Traiter cinq heures comme la nuit : pénombre, voix basse, aucun jeu, aucune sortie de chambre.",
+          "Traiter 5h comme la nuit : pénombre, voix basse, aucun jeu, aucune sortie de chambre.",
           "Attendre quelques minutes avant d'entrer : certains réveils se referment seuls si personne n'intervient.",
           "Décaler le lever officiel : ouvrir les volets à une heure fixe, la même chaque jour, pour donner le signal du matin.",
-          "Éviter le premier repas trop tôt : un petit déjeuner à cinq heures fixe le réveil à cinq heures.",
+          "Éviter le premier repas trop tôt : un petit déjeuner à 5h fixe le réveil à 5h.",
           "Reporter la sieste du matin : une sieste trop précoce confirme la nuit écourtée."
         ]
       },
@@ -176,7 +176,7 @@
       },
       "pour_aller_plus_loin": [
         "Occulter vraiment la chambre : rideaux épais et veilleuse éteinte, la lumière du petit matin est le déclencheur le plus fréquent.",
-        "Reculer la fin de la dernière sieste : la terminer avant seize heures évite un endormissement trop précoce le soir.",
+        "Reculer la fin de la dernière sieste : la terminer avant 16h évite un endormissement trop précoce le soir.",
         "Avancer plutôt que reculer le coucher : la sur-fatigue provoque des réveils de fin de nuit.",
         "Repérer les bruits du matin : chauffage, volets des voisins, réveil d'un adulte, tout se déclenche à la même heure."
       ],

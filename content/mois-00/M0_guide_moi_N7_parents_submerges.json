@@ -10,184 +10,185 @@
   "protocoles": [
     {
       "categorie": "parent",
-      "situation": "Je n'en peux plus / l'épuisement des premières semaines",
-      "titre": "L'épuisement / trier plutôt que tenir",
-      "explication": "L'épuisement des premières semaines n'est pas une fatigue ordinaire : c'est une dette de sommeil accumulée, doublée d'une charge mentale continue et d'un corps qui récupère. Te dire « repose-toi quand bébé dort » est souvent irréaliste, et cela ajoute de la culpabilité à la fatigue. Ce qui aide vraiment, ce n'est pas un conseil de repos : c'est un tri. Qu'est-ce qui doit être fait, qu'est-ce qui peut attendre, qu'est-ce qui peut être délégué, et qui peut être appelé. L'épuisement ne se surmonte pas par la volonté, il se traverse en allégeant la charge.",
-      "ancrage": "Tu n'as pas à tenir. Tu as à trier. Demander de l'aide n'est pas un aveu de faiblesse : c'est la seule stratégie qui fonctionne durablement.",
+      "situation": "L'épuisement des débuts / Je n'en peux plus, déjà",
+      "titre": "Trier plutôt que tenir",
+      "explication": "Il est 15h. Tu n'as pas déjeuné, tu portes le même pyjama qu'hier, et il vient de se rendormir sur toi pour la quatrième fois. Tu te dis que tu devrais en profiter pour dormir, mais tu sais déjà que tu n'y arriveras pas. Ce que tu traverses n'est pas une fatigue ordinaire : c'est une dette de sommeil qui s'accumule sans jamais se rattraper, posée sur un corps qui se répare encore, et doublée d'une tête qui ne s'éteint plus. Face à ça, « repose-toi quand bébé dort » n'aide personne. C'est inapplicable la plupart des jours, et ça ajoute de la culpabilité à l'épuisement. Ce qui change vraiment les choses est plus petit, et plus concret : décider chaque matin ce qui doit être fait aujourd'hui, ce qui peut attendre la semaine prochaine, et ce qui ne sera pas fait du tout.",
+      "ancrage": "Tu n'as pas à tenir, tu as à trier. Et être déjà à bout au bout de quinze jours ne dit rien de ce que tu vaudras dans six mois : ces semaines-ci sont les plus denses de toute l'année.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate : le tri de la journée",
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : la liste du jour",
         "etapes": [
-          "Identifier l'essentiel : bébé nourri, changé, en sécurité, et toi qui manges et bois. Le reste est optionnel aujourd'hui.",
-          "Lâcher le ménage : le linge, la vaisselle et le rangement peuvent attendre, ce ne sont pas des urgences.",
-          "Déléguer une tâche précise : demander « peux-tu apporter à manger jeudi » fonctionne mieux qu'un « aide-moi » général.",
-          "Protéger un bloc de sommeil : trois heures continues, une fois par jour, pendant que quelqu'un garde bébé.",
-          "Refuser les visites : « pas cette semaine » est une phrase complète."
+          "Écrire les trois choses vraiment obligatoires : bébé nourri, changé, en sécurité. Toi qui manges et qui bois.",
+          "Barrer le ménage : le linge, la vaisselle et le rangement ne sont pas des urgences, ce sont des décors.",
+          "Choisir une seule tâche en plus : celle qui te soulagera le plus si elle est faite.",
+          "Dire non aux visites : « pas cette semaine » est une phrase complète, elle n'a pas à s'expliquer.",
+          "Reporter tout le reste à un jour nommé : ce qui a une date cesse de tourner dans la tête."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : récupérer, même un peu",
+        "titre": "Geste doux : reprendre du terrain sur la journée",
         "etapes": [
-          "Trois respirations lentes : inspiration par le nez, expiration longue par la bouche, avant de reprendre bébé.",
-          "Poser les pieds au sol : sentir le contact, épaules relâchées, mâchoire desserrée, dix secondes suffisent.",
-          "S'allonger dix minutes : même sans dormir, la position allongée réduit la charge physique.",
-          "Sortir dehors : quelques minutes de lumière naturelle et d'air font plus que rien du tout.",
-          "Manger vraiment : garder à portée de main de quoi manger sans avoir à cuisiner."
+          "S'asseoir vraiment 2 minutes : le dos appuyé, les pieds à plat, pas debout contre un plan de travail.",
+          "Souffler plus longtemps qu'on inspire : quatre temps dedans, six dehors, cinq fois.",
+          "Boire un grand verre d'eau : la déshydratation seule fabrique déjà de la fatigue.",
+          "Ouvrir en grand et regarder dehors : la lumière du jour recale l'horloge interne, c'est mieux qu'un café.",
+          "S'allonger 10 minutes sans viser le sommeil : la position couchée décharge le corps même éveillée."
         ]
       },
       "pour_aller_plus_loin": [
-        "Faire la liste de qui peut aider : voisins, famille, amis, association, et leur attribuer une tâche concrète, pas une disponibilité vague.",
-        "Se relayer la nuit : chaque parent dispose d'un bloc de sommeil continu, à tour de rôle, même en cas d'allaitement.",
-        "Connaître les relais : PMI, sage-femme à domicile, Allo Parents Bébé (0 800 00 34 56), ces relais existent pour cela.",
-        "Se donner un horizon : cette phase est intense mais elle n'est pas définitive ; le dire à voix haute aide à tenir."
+        "Faire venir la sage-femme à la maison : des séances de suivi sont prévues après la naissance, au cabinet ou chez toi, et elles se demandent simplement.",
+        "Appeler la PMI de ton secteur : une puéricultrice peut se déplacer à domicile, c'est gratuit et sans conditions.",
+        "Se renseigner sur l'aide à domicile de la CAF : une intervention à la maison existe pour les familles en difficulté passagère.",
+        "Repérer l'heure la plus dure de la journée : c'est celle-là qui s'allège en priorité, pas la journée entière.",
+        "Préparer la veille ce qui coince : le sac, les vêtements, le petit déjeuner sorti."
       ],
-      "principe": "L'épuisement ne se combat pas par la volonté : il s'allège par le tri et par l'aide. Un parent reposé est plus utile à son bébé qu'un parent parfait et à bout.",
+      "principe": "L'épuisement du début ne se surmonte pas par la volonté, il s'allège en enlevant des choses et en faisant entrer de l'aide. Une journée réussie, en ce moment, c'est une journée où l'essentiel a été fait et où le reste a été laissé sans remords.",
       "erreurs_a_eviter": [
-        "Vouloir tout tenir pour prouver quelque chose : la maison en ordre ne nourrit personne.",
-        "Refuser l'aide proposée par pudeur : l'aide non prise ne revient pas toujours.",
-        "S'excuser d'être fatigué.e. La fatigue des premières semaines n'a pas à se justifier.",
-        "Attendre le point de rupture pour appeler quelqu'un : on appelle avant, pas après."
+        "Vouloir tenir la maison à niveau pour prouver que ça va : personne ne compte les assiettes.",
+        "Attendre d'avoir fini pour se poser : il n'y a pas de fin, la liste se remplit toute seule.",
+        "S'excuser d'être à bout : cette fatigue-là n'a pas à se justifier auprès de qui que ce soit.",
+        "Additionner les journées sans jamais regarder ce qui pourrait sauter : le tri se refait chaque matin."
       ],
-      "consulter_si": "Consulter si : l'épuisement s'accompagne d'une tristesse qui dure plus de deux semaines, d'une impossibilité de dormir même quand bébé dort, d'une perte totale d'intérêt, de pensées noires, ou du sentiment de ne plus pouvoir répondre à ton bébé → médecin, sage-femme, PMI ou psychologue périnatal sans attendre. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence."
+      "consulter_si": "Consulter si : l'épuisement s'accompagne d'une tristesse qui dure plus de deux semaines, d'une impossibilité de dormir même quand bébé dort, d'une perte totale d'intérêt, ou du sentiment de ne plus pouvoir répondre à ton bébé → médecin, sage-femme ou PMI sans attendre. Allo Parents Bébé, 0 800 00 34 56, gratuit. Si les pensées noires s'installent, le 3114 répond jour et nuit."
     },
     {
       "categorie": "parent",
-      "situation": "Je ne ressens pas ce que j'aurais dû ressentir / l'absence de coup de foudre",
-      "titre": "L'absence de coup de foudre / l'attachement lent",
-      "explication": "Le récit du coup de foudre à la naissance est un récit, pas une norme. Beaucoup de parents ne ressentent pas d'amour fulgurant, mais un mélange d'étrangeté, de responsabilité et de fatigue. L'attachement se construit le plus souvent lentement, par le soin répété : nourrir, porter, consoler, recommencer. Ce n'est ni un défaut d'amour ni un mauvais présage. Ce qui mérite attention, c'est autre chose : une tristesse qui s'installe, un vide qui dure, une incapacité à ressentir quoi que ce soit. Cette frontière-là compte, et elle se pose avec un professionnel.",
-      "ancrage": "Ne pas ressentir tout de suite n'est pas ne pas aimer. Beaucoup d'attachements commencent par le soin, et le sentiment vient après, sans que rien ne soit abîmé.",
+      "situation": "L'absence de coup de foudre / Je ne ressens pas l'amour",
+      "titre": "Le lien commence par les gestes",
+      "explication": "Tout le monde attendait ta réaction à la maternité, et il ne s'est rien passé. Tu l'as pris, tu l'as regardé, et tu as pensé : « c'est un bébé ». Depuis, tu fais les gestes, un par un, et tu attends que quelque chose arrive. Le coup de foudre à la naissance est un récit, pas une norme. Beaucoup de parents découvrent à la place un mélange d'étrangeté, de responsabilité écrasante et de fatigue, et se demandent en silence ce qui cloche chez eux. Ce qui se passe est plus simple : l'attachement se construit le plus souvent par le soin répété. Nourrir, porter, consoler, recommencer. Le sentiment arrive ensuite, parfois en quelques jours, parfois en quelques semaines, sans que rien ne soit abîmé. Une seule chose mérite d'être surveillée à côté, et elle est différente : une tristesse qui s'installe et ne repart pas.",
+      "ancrage": "Ne rien ressentir tout de suite, ce n'est pas ne pas aimer. Et non, tu n'as pas loupé quelque chose d'irrattrapable : beaucoup d'histoires entre un parent et son enfant commencent par les mains, longtemps avant de commencer par le cœur.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
         "titre": "Action immédiate : quand la culpabilité monte",
         "etapes": [
-          "Nommer sans juger : « je ne ressens pas encore ce que j'attendais », le dire à voix haute retire une partie de la honte.",
-          "Continuer les gestes : le soin construit le lien, même quand l'émotion n'est pas là.",
-          "Peau à peau : le contact prolongé agit, indépendamment de ce que tu ressens sur le moment.",
-          "Se couper des récits idéalisés : réseaux, films, discours d'entourage. Ils fabriquent une norme qui n'existe pas.",
-          "En parler à une personne de confiance : ce sentiment est bien plus fréquent qu'il n'est dit."
+          "Le dire à voix haute une fois : « je ne ressens pas encore ce qu'on m'avait décrit. » Le silence pèse plus lourd que la phrase.",
+          "Continuer les gestes sans attendre l'émotion : c'est le soin qui appelle le sentiment, et pas l'inverse.",
+          "Le poser contre toi, peau contre peau : le contact prolongé travaille même quand tu ne ressens rien.",
+          "Fermer les récits idéalisés : les réseaux et les phrases de l'entourage fabriquent une norme qui n'existe pas.",
+          "En parler à une personne sûre : ce sentiment est bien plus répandu qu'il n'est raconté."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : laisser le lien se construire",
+        "titre": "Retrouver le contact : quelques minutes sans objectif",
         "etapes": [
-          "Un temps quotidien sans objectif : quelques minutes avec bébé, sans chercher à ressentir quoi que ce soit.",
-          "Regarder ses détails : ses mains, ses oreilles, ses expressions, l'attachement passe souvent par la découverte concrète.",
-          "Porter et bercer : les gestes précèdent souvent les sentiments, et les appellent.",
-          "Se laisser du temps : ce lien-là ne s'invoque pas sur commande.",
-          "Accueillir ce qui vient : y compris l'ambivalence, qui est fréquente et ne se raconte presque jamais."
+          "S'installer avec lui sans rien chercher : ni jeu, ni stimulation, ni émotion à produire.",
+          "Regarder un détail précis : ses ongles, le pli de son poignet, la forme de son oreille.",
+          "Le porter en marchant lentement : le bercement travaille sur toi autant que sur lui.",
+          "Lui parler de choses ordinaires : ta voix compte plus que ce qu'elle raconte.",
+          "Accueillir ce qui vient, y compris rien : la journée n'a pas à produire un sentiment."
         ]
       },
       "pour_aller_plus_loin": [
-        "Distinguer lenteur et souffrance : un attachement lent s'accompagne de moments qui se réchauffent ; une tristesse permanente qui dure au-delà de deux semaines relève de la dépression post-partum, qui se soigne bien.",
-        "Connaître l'entretien postnatal : un entretien avec une sage-femme ou un médecin est prévu après la naissance. C'est un espace fait pour ces mots-là.",
-        "Ne pas rester seul.e avec ça : le dire à un professionnel ne retire personne à personne.",
-        "S'appuyer sur les ressources : Maman Blues, MonParcoursPsy (séances remboursées après avis d'un médecin), PMI, psychologue périnatal."
+        "Garder l'entretien postnatal : un rendez-vous avec une sage-femme ou un médecin est prévu entre la 4e et la 8e semaine, et il sert précisément à repérer ce qui ne va pas dans les pensées.",
+        "Demander un second entretien si besoin : il peut être proposé quelques semaines après le premier, mais il se demande.",
+        "Distinguer la lenteur de la souffrance : quand le lien met du temps, il y a quand même des moments où quelque chose passe, un regard, un sourire. Quand c'est une tristesse installée, il n'y en a plus aucun.",
+        "Savoir que le second parent le vit aussi : l'attachement lent n'est pas réservé à celle qui a accouché.",
+        "Connaître les relais : PMI, Maman Blues, Allo Parents Bébé, 0 800 00 34 56, gratuit."
       ],
-      "principe": "Le soin construit le lien autant que le sentiment. L'attachement lent est une trajectoire fréquente et normale. Ce qui doit alerter, c'est la tristesse durable, pas le rythme du sentiment.",
+      "principe": "Le soin construit le lien aussi bien que le sentiment. Un attachement qui démarre lentement est une trajectoire fréquente, pas un défaut de fabrication. Ce qui mérite attention, c'est un moral qui reste bas jour après jour, sans aucun moment de mieux. Pas le rythme auquel le sentiment arrive.",
       "erreurs_a_eviter": [
-        "Se forcer à jouer l'émotion attendue devant les autres : cela isole davantage.",
-        "Interpréter l'absence de coup de foudre comme un signe que tu n'es pas fait.e pour ça.",
-        "Attendre que le sentiment arrive avant de prendre soin : c'est souvent l'inverse qui se produit.",
-        "Taire une tristesse qui dure par peur du jugement : la dépression post-partum est fréquente et se soigne."
+        "Jouer l'émotion attendue devant les autres : la comédie isole encore plus que le silence.",
+        "Lire l'absence de coup de foudre comme un signe que tu n'es pas fait pour ça.",
+        "Attendre de ressentir pour t'occuper de lui : c'est presque toujours dans l'autre sens que ça se passe.",
+        "Taire une tristesse qui dure par peur du jugement : une équipe de périnatalité connaît ce sujet par cœur."
       ],
-      "consulter_si": "Consulter si : la tristesse dure plus de deux semaines, si tu n'éprouves plus de plaisir à rien, si tu dors mal même quand bébé dort, si tu te sens vide ou détaché.e de ton bébé, ou si tu as des pensées noires → médecin, sage-femme, PMI ou psychologue périnatal sans attendre : la dépression post-partum se soigne bien. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence."
+      "consulter_si": "Consulter si : la tristesse dure plus de deux semaines, si plus rien ne te fait envie, si tu dors mal même quand bébé dort, ou si tu te sens vide ou détachée de lui → médecin, sage-femme ou PMI sans attendre. Allo Parents Bébé, 0 800 00 34 56, gratuit. Si les pensées noires s'installent, le 3114 répond jour et nuit."
     },
     {
       "categorie": "parent",
-      "situation": "Je suis seul(e) à gérer / l'isolement qui épuise",
-      "titre": "L'isolement / sortir du huis clos",
-      "explication": "Être seul.e des journées entières avec un nouveau-né est l'une des situations les plus éprouvantes des premières semaines, et l'une des plus risquées. L'isolement épuise, brouille le jugement, amplifie les pleurs perçus et fait monter la tension. C'est dans ce huis clos que surviennent la plupart des pertes de contrôle. Le savoir n'est pas culpabilisant : c'est protecteur. Un adulte épuisé, seul, face à un bébé inconsolable, peut avoir une réaction qu'il ne se croyait pas capable d'avoir. La parade n'est pas la volonté : c'est de faire entrer quelqu'un d'autre dans la journée.",
-      "ancrage": "Ton objectif n'est pas de tenir seul.e le plus longtemps possible. C'est de ne pas rester seul.e. Un appel, une visite, une sortie : chacun d'eux est un geste de sécurité.",
+      "situation": "L'isolement / Je gère tout, seule, toute la journée",
+      "titre": "Faire entrer quelqu'un dans la journée",
+      "explication": "La porte s'est refermée à 8h et elle se rouvrira à 19h. Entre les deux, il y a toi, lui, et le bruit du lave-linge. Tu as parlé à personne depuis hier soir. Passer des journées entières seule avec un nouveau-né est l'une des situations les plus dures des premières semaines, et l'une des plus risquées. Le huis clos épuise, brouille le jugement et rend les pleurs plus intolérables qu'ils ne le sont. Ce n'est pas une question de caractère : un adulte seul, privé de sommeil, face à un bébé qui ne se console pas, peut avoir une réaction qu'il ne se croyait pas capable d'avoir. Le savoir n'est pas culpabilisant, c'est protecteur. Et la parade n'est pas de résister davantage : c'est de faire entrer un autre adulte dans la journée, même brièvement, même par téléphone.",
+      "ancrage": "Ton objectif n'est pas de tenir seule le plus longtemps possible, il est de ne pas rester seule. Un appel, une visite, une sortie : chacun est un geste de sécurité, pas un caprice.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate : quand la tension monte",
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : rompre le huis clos aujourd'hui",
         "etapes": [
-          "Poser bébé en sécurité : à plat sur le dos, dans son lit, sans objet autour.",
-          "Sortir de la pièce : fermer la porte, respirer, quelques minutes. Il ne risque rien dans son lit.",
-          "Appeler quelqu'un : un proche, une voisine, ou Allo Parents Bébé (0 800 00 34 56).",
-          "Ne jamais secouer bébé : même une seconde, même doucement. Les lésions cérébrales peuvent être immédiates et irréversibles.",
-          "Revenir quand tu es redescendu.e : reprendre bébé une fois ton corps calmé, pas avant."
+          "Passer un appel maintenant : quelqu'un à qui parler 5 minutes, sans attendre d'avoir une raison.",
+          "Sortir avec lui : 20 minutes dehors changent l'air de la journée entière.",
+          "Fixer un créneau avec un proche : « jeudi de 14h à 16h » se tient, « quand tu peux » ne se tient jamais.",
+          "Appeler la PMI de ton secteur : l'accueil est gratuit, et une puéricultrice peut venir chez toi.",
+          "Demander une visite de sage-femme à domicile : ces séances sont prévues après la naissance, au cabinet ou à la maison."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : se réguler soi-même d'abord",
+        "titre": "Geste doux : quand les murs se referment",
         "etapes": [
-          "Expiration longue : inspirer par le nez, souffler lentement par la bouche, cinq fois.",
-          "Ancrage au sol : les pieds à plat, sentir l'appui, relâcher les épaules et la mâchoire.",
-          "Passer les mains sous l'eau froide : un geste simple qui aide le corps à redescendre.",
-          "Sortir dehors : même dix minutes, même avec bébé en portage.",
-          "Parler à voix haute : dire ce que tu ressens, même seul.e, réduit la charge."
+          "Ouvrir une fenêtre en grand : l'air froid sur le visage coupe court à la boucle.",
+          "Mettre une voix dans la pièce : radio, message vocal, appel, la présence sonore d'un adulte compte.",
+          "Marcher d'une pièce à l'autre avec lui : le mouvement calme deux corps à la fois.",
+          "Dire à voix haute ce que tu ressens : même sans personne en face, l'énoncé décharge.",
+          "Prévoir le lendemain avant le soir : une seule chose au programme suffit à rouvrir l'horizon."
         ]
       },
       "pour_aller_plus_loin": [
-        "Programmer du contact humain : un rendez-vous par jour, une amie, une sortie, un atelier PMI, un groupe de parents.",
-        "Utiliser les relais existants : la PMI est gratuite et accueille sans rendez-vous dans de nombreux départements ; la sage-femme peut venir à domicile.",
-        "Organiser des relais concrets : deux heures de garde par un proche, à date fixe, valent mieux qu'une aide vague.",
-        "Poser le sujet avec l'autre parent : la répartition de la charge se discute, et elle se réajuste."
+        "Repérer les lieux ouverts sans rendez-vous : PMI, lieux d'accueil enfants-parents, bibliothèques, ils existent dans presque toutes les communes.",
+        "Se donner une régularité plutôt qu'une fréquence : une fois par semaine tenue vaut mieux que trois fois envisagées.",
+        "Nommer la répartition avec l'autre parent : la solitude de la journée se raconte, elle ne se devine pas.",
+        "Accepter l'aide sous forme de tâche : « peux-tu apporter à manger jeudi » se reçoit mieux qu'un « dis-moi si tu as besoin »."
       ],
-      "principe": "L'isolement est le principal facteur de risque de perte de contrôle. Poser bébé en sécurité et sortir de la pièce n'est jamais un abandon : c'est le geste qui protège vraiment.",
+      "principe": "L'isolement est le premier facteur qui fait basculer un parent, bien avant la fatigue ou le caractère. Ce n'est pas un défaut de volonté à corriger, c'est une situation à casser, en y faisant entrer quelqu'un d'autre.",
       "erreurs_a_eviter": [
-        "Secouer bébé, même une seconde, même sans colère apparente : le risque de lésions graves est immédiat.",
-        "Attendre d'être à bout pour appeler : l'appel se fait avant le point de rupture.",
-        "Rester dans le noir, seul.e, des heures avec les pleurs : le huis clos aggrave tout.",
-        "Se dire que « demander de l'aide, c'est avouer qu'on n'y arrive pas » : c'est exactement l'inverse."
+        "Attendre d'être au bout pour appeler : l'appel se passe avant, quand on peut encore parler.",
+        "Rester des heures dans le noir avec les pleurs : le huis clos aggrave tout, y compris la perception du bruit.",
+        "Traduire « je demande de l'aide » par « je n'y arrive pas » : c'est exactement l'inverse.",
+        "Décliner les propositions par pudeur : une aide refusée deux fois ne se propose pas une troisième."
       ],
-      "consulter_si": "Consulter si : tu ressens de la colère ou l'envie de secouer ton bébé, si tu as peur de tes propres réactions, si tu te sens submergé.e au point de ne plus pouvoir répondre à bébé → poser bébé en sécurité, appeler un proche, Allo Parents Bébé (0 800 00 34 56), ou le 15. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence.",
-      "source": "Source : ameli.fr (Assurance Maladie), syndrome du bébé secoué : reconnaître, prévenir, agir."
+      "consulter_si": "Consulter si : tu as peur de tes propres gestes, si l'envie de secouer te traverse, ou si tu te sens au bord de perdre le contrôle → poser bébé en sécurité, appeler un proche ou Allo Parents Bébé, 0 800 00 34 56, gratuit. Un bébé ne doit jamais être secoué : quelques secondes suffisent à provoquer des lésions graves. Si tu penses l'avoir secoué, même légèrement : appeler le 15 immédiatement, même sans symptôme."
     },
     {
       "categorie": "parent",
-      "situation": "J'ai peur de faire du mal à mon bébé / pensées intrusives du post-partum",
-      "titre": "Les pensées intrusives / les nommer pour les désamorcer",
-      "explication": "Des images ou des pensées violentes qui surgissent malgré toi, le laisser tomber, le blesser, qu'il lui arrive quelque chose, sont un phénomène fréquent du post-partum. Elles sont vécues avec effroi, et presque jamais racontées. Ce sont des pensées intrusives : elles ne reflètent ni ton désir, ni ton intention. Chez la grande majorité des parents, elles sont le symptôme d'un cerveau en hypervigilance, pas d'un danger. Ce qui les rend supportables, c'est de pouvoir les nommer. Et ce qui change tout, c'est d'en parler à un professionnel, qui les connaît, et qui ne te jugera pas.",
-      "ancrage": "Avoir ces pensées ne fait pas de toi un danger pour ton bébé. Ce qui compte, c'est de ne pas rester seul.e avec elles. Elles perdent beaucoup de leur force dès qu'elles sont dites.",
+      "situation": "Les pensées intrusives / Des images me font peur",
+      "titre": "Une pensée n'est pas une intention",
+      "explication": "L'image arrive en une seconde, en le portant dans l'escalier ou en le changeant : et si je le lâchais. Elle repart aussitôt, et elle te laisse glacée. Tu n'en as parlé à personne. Ces images violentes qui surgissent sans prévenir sont un phénomène fréquent des premières semaines, et elles ne se racontent presque jamais. Ce sont des pensées intrusives : elles ne disent rien de ce que tu veux, rien de ce que tu ferais. Chez la grande majorité des parents, elles sont le signe d'un cerveau branché en alerte permanente sur la survie d'un tout-petit, et non l'annonce d'un danger. Deux choses les rendent supportables : pouvoir les nommer pour ce qu'elles sont, et ne pas les garder pour soi.",
+      "ancrage": "Ce qui te fait peur dans cette pensée, c'est justement qu'elle va contre tout ce que tu veux. Et non, personne ne retire un bébé à un parent parce qu'il a eu peur d'une image : ce n'est pas ainsi que travaille une équipe de périnatalité.",
       "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate : quand la pensée surgit",
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : quand l'image surgit",
         "etapes": [
-          "La reconnaître : « c'est une pensée intrusive, ce n'est pas une intention », la nommer réduit son emprise.",
-          "Ne pas lutter contre elle : chercher à la chasser la renforce ; la laisser passer la fait refluer.",
-          "Mettre bébé en sécurité si tu as peur : à plat sur le dos dans son lit, puis sortir de la pièce le temps de redescendre.",
-          "Appeler quelqu'un : dire ce qui se passe à une personne de confiance ou à un professionnel.",
-          "Ne pas rester seul.e : c'est le seul point non négociable."
+          "La nommer pour ce qu'elle est : « c'est une pensée intrusive », dit à voix basse, cela suffit souvent.",
+          "Ne pas lutter contre elle : la chasser la renforce, la laisser passer la fait refluer.",
+          "Changer de pièce ou de posture : le corps sort de la boucle avant la tête.",
+          "Le dire à quelqu'un dans la journée : une personne de confiance ou un professionnel, sans détailler l'image.",
+          "Le reprendre quand c'est retombé : rien ne presse, il est en sécurité pendant ce temps."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : revenir au corps",
+        "titre": "Geste doux : revenir dans la pièce",
         "etapes": [
-          "Expiration longue : cinq respirations, l'expiration plus longue que l'inspiration.",
-          "Ancrage sensoriel : nommer à voix haute cinq choses que tu vois autour de toi.",
-          "Contact avec le sol : pieds à plat, épaules relâchées, mâchoire desserrée.",
-          "Bouger un peu : marcher, sortir, boire un verre d'eau, le corps sort de la boucle avant la tête.",
-          "Écrire la pensée : la poser sur le papier lui retire souvent son caractère envahissant."
+          "Nommer cinq choses que tu vois : les dire à voix haute, une par une, sans se presser.",
+          "Poser les mains à plat sur une surface froide : le contact ramène l'attention au présent.",
+          "Souffler par la bouche, longuement : cinq fois, l'expiration deux fois plus longue que l'inspiration.",
+          "Écrire la pensée sur un papier : posée sur la page, elle occupe moins la tête.",
+          "Boire un verre d'eau debout, lentement : un geste banal casse la spirale mieux qu'un effort de volonté."
         ]
       },
       "pour_aller_plus_loin": [
-        "En parler à un professionnel : médecin, sage-femme, PMI, psychologue périnatal. Ces pensées sont connues et prises au sérieux, sans jugement.",
-        "Distinguer pensée et intention : une pensée intrusive te terrifie, précisément parce qu'elle va contre ce que tu veux.",
-        "Repérer ce qui les nourrit : manque de sommeil, isolement, hypervigilance, agir sur ces trois leviers réduit leur fréquence.",
-        "Connaître les ressources : MonParcoursPsy (séances remboursées après avis d'un médecin), Maman Blues, Allo Parents Bébé (0 800 00 34 56)."
+        "Le dire à l'entretien postnatal : ce rendez-vous avec une sage-femme ou un médecin est prévu entre la 4e et la 8e semaine, et repérer ce genre de symptôme est exactement son rôle.",
+        "Agir sur ce qui les nourrit : le manque de sommeil, l'isolement et l'état d'alerte permanent en augmentent la fréquence.",
+        "Organiser une présence quand elles sont intenses : quelqu'un dans la pièce, ou au bout du fil, c'est la priorité du jour.",
+        "Connaître les relais : Allo Parents Bébé, 0 800 00 34 56, gratuit, et Mon soutien psy, des séances de psychologue prises en charge par l'Assurance Maladie."
       ],
-      "principe": "Une pensée intrusive n'est pas une intention. Ce qui la rend dangereuse, c'est le silence et l'isolement, pas la pensée elle-même. En parler est le geste le plus protecteur qui existe.",
+      "principe": "Une pensée intrusive ne dit rien de ce que tu ferais, et c'est le silence qui la rend lourde. En parler est le geste le plus protecteur qui existe, pour toi comme pour lui.",
       "erreurs_a_eviter": [
-        "Garder ces pensées secrètes par honte ou par peur qu'on te retire ton bébé : les professionnels de périnatalité connaissent ce symptôme.",
-        "Lutter frontalement contre la pensée pour la faire taire : cela l'amplifie.",
-        "Rester seul.e avec bébé quand ces pensées sont intenses, organiser une présence est prioritaire.",
-        "Conclure que tu es un danger : la détresse que provoque la pensée dit exactement le contraire."
+        "Garder ces pensées secrètes par peur qu'on te retire ton bébé : la honte est ce qui les fait durer, jamais leur contenu.",
+        "Lutter frontalement contre l'image pour la faire taire : l'effort l'amplifie.",
+        "En conclure que tu es un danger : la détresse que la pensée provoque dit exactement le contraire.",
+        "Chercher un sens caché à l'image : elle n'en a pas, elle est un symptôme de fatigue et d'alerte."
       ],
-      "consulter_si": "Consulter si : ces pensées deviennent envahissantes, si elles s'accompagnent d'une peur de passer à l'acte, d'une tristesse durable, d'une perte de contact avec la réalité, d'idées noires ou d'un sentiment d'irréalité → médecin, sage-femme, PMI ou psychologue périnatal sans attendre ; le 15 en cas d'urgence. En cas de pensées suicidaires : 3114, gratuit, disponible en permanence. Ces symptômes se soignent bien lorsqu'ils sont pris en charge."
+      "consulter_si": "Consulter si : ces pensées deviennent envahissantes, si elles s'accompagnent d'une peur de passer à l'acte, d'une tristesse durable, d'un sentiment d'irréalité ou d'une perte de contact avec le réel → médecin, sage-femme ou PMI sans attendre ; le 15 en cas d'urgence. Si les pensées noires s'installent, le 3114 répond jour et nuit. Ces symptômes s'accompagnent très bien dès qu'ils sont dits."
     }
   ]
 }

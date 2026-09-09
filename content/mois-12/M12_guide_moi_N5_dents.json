@@ -1,0 +1,104 @@
+{
+  "mois": 12,
+  "tranche_age": "12 mois",
+  "categorie": {
+    "id": "dents",
+    "nom": "Dents & petits inconforts",
+    "sous_titre": "Premières molaires, brossage",
+    "icone": "🦷"
+  },
+  "protocoles": [
+    {
+      "categorie": "corpo",
+      "situation": "Les premières molaires / Il a les joues rouges et une douleur sourde",
+      "titre": "Soulager une gêne qui dure",
+      "explication": "Après les incisives et les canines, les premières molaires percent le plus souvent entre 12 et 18 mois. Ce sont de grosses dents plates qui traversent une gencive épaisse : la gêne est plus large et s'étale davantage dans le temps qu'avec une incisive. Ton enfant bave, mâchouille, a parfois les joues rouges, devient grognon par vagues. Une poussée dentaire reste une gêne modérée : elle ne donne pas de vraie fièvre et ne rend pas malade. L'ordre et les dates d'apparition varient beaucoup d'un enfant à l'autre.",
+      "ancrage": "Tu ne peux pas accélérer la sortie de la dent, tu peux rendre l'attente plus douce. Le froid, la pression et ta présence sont ce dont tu disposes.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : soulager la gencive",
+        "etapes": [
+          "Proposer du froid : anneau de dentition réfrigéré, ou gant de toilette humide et frais à mâchouiller.",
+          "Appliquer une contre-pression : avec un doigt propre, presser la gencive quelques secondes, cela apaise.",
+          "Donner à mâcher au repas : un aliment frais et ferme adapté à son âge, toujours sous surveillance.",
+          "Essuyer la bave régulièrement : garder le menton sec limite les rougeurs de la peau.",
+          "Rester disponible : un enfant gêné se console autant par les bras que par le froid."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : accompagner la poussée dentaire",
+        "etapes": [
+          "S'installer contre toi : assis ou allongé, pieds accessibles, dans le calme.",
+          "Base des orteils : parcourir doucement la ligne située juste sous les orteils, plusieurs passages.",
+          "Zone du gros orteil : appui léger et maintenu, sa face interne correspond à la sphère de la mâchoire.",
+          "Balayage de la voûte : du talon vers les orteils, pression douce et constante, pour terminer.",
+          "S'arrêter à sa demande : un pied retiré ou une crispation met fin au geste."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Vérifier ce qu'il mord : anneau intact, jouet aux normes, rien qui puisse se casser.",
+        "Demander conseil avant tout produit : gels et préparations pour gencives demandent l'accord du médecin ou du pharmacien.",
+        "Garder le cadre du soir : les repères habituels aident à traverser les quelques nuits plus agitées.",
+        "Prévoir des anneaux en double : l'un au frais pendant que l'autre est utilisé, l'effet du froid est court."
+      ],
+      "principe": "Une poussée dentaire s'accompagne, elle ne se médicalise pas. Elle explique une gêne, une bave et une humeur variable, mais elle n'explique ni une fièvre élevée ni un enfant abattu.",
+      "erreurs_a_eviter": [
+        "Repousser le brossage jusqu'à la fin de la poussée : la gencive est sensible, la dent se brosse quand même, tout doucement.",
+        "Mettre un produit sur la gencive sans avoir demandé : le pharmacien te dira ce qui convient.",
+        "Attribuer aux dents une forte fièvre et attendre : c'est passer à côté d'une autre cause à chercher.",
+        "Donner un médicament de sa propre initiative : toute dose se vérifie auprès d'un professionnel."
+      ],
+      "consulter_si": "Consulter si : fièvre élevée ou persistante, diarrhée importante, refus de boire, abattement inhabituel, ou douleur qui ne cède à rien → en parler au pédiatre, car ces signes ne relèvent pas des dents. Pour toute douleur nécessitant un médicament, demander la dose adaptée au poids au pédiatre ou au pharmacien.",
+      "source": "Source : poussées dentaires de l'enfant, mpedia.fr (Association française de pédiatrie ambulatoire)."
+    },
+    {
+      "categorie": "corpo",
+      "situation": "Le brossage refusé / Il se débat chaque soir",
+      "titre": "En faire un jeu d'imitation",
+      "explication": "Le brossage commence dès la première dent, bien avant que l'enfant comprenne pourquoi. À 12 mois, il ne peut pas encore coopérer volontairement : ouvrir la bouche pour laisser quelqu'un y entrer demande une confiance qui se construit. Se débattre est une réaction normale à une sensation nouvelle dans une zone très sensible, d'autant plus quand les molaires travaillent. Ce qui compte à cet âge, c'est l'habitude : un geste quotidien, court et prévisible, qui deviendra naturel bien avant qu'il sache cracher.",
+      "ancrage": "Vise la régularité plutôt que la perfection. Trente secondes acceptées chaque jour valent mieux qu'un brossage complet obtenu de force.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : au moment du brossage",
+        "etapes": [
+          "Se brosser les dents devant lui : à cet âge, l'imitation entraîne bien plus que la consigne.",
+          "Installer une position stable : assis sur tes genoux, dos contre toi, tête légèrement en appui.",
+          "Doser le dentifrice fluoré adapté à son âge : une trace suffit, la quantité se règle avec ton pédiatre, ton dentiste ou ton pharmacien.",
+          "Aller vite et régulièrement : quelques secondes par zone, sans chercher à tout faire du premier coup.",
+          "Terminer sur du positif : une chanson, un jeu de miroir, pour que le moment se referme bien."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : apprivoiser la bouche avant la brosse",
+        "etapes": [
+          "Laisser la brosse en dehors du moment du soir : il la mâchouille seul, à un autre moment de la journée.",
+          "Toucher léger autour de la bouche : joues, lèvres, menton, du bout des doigts, s'il apprécie.",
+          "Passer un doigt propre sur ses gencives : quelques secondes, pour l'habituer au contact intérieur.",
+          "Nommer chaque geste avant de le faire : l'annonce supprime l'effet de surprise.",
+          "Arrêter à son signal : une main qui repousse est une limite qu'on respecte, on réessaie plus tard."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ancrer le brossage dans le rituel du soir : la même place dans la séquence, tous les jours, à la même heure.",
+        "Choisir une brosse à très petite tête et poils souples : le confort change tout à cet âge.",
+        "Lui donner sa propre brosse : une pour lui pendant que tu utilises la tienne rend le moment plus acceptable.",
+        "Limiter le sucre entre les repas : ce qui protège le plus ses dents se joue aussi dans l'assiette."
+      ],
+      "principe": "À cet âge, on installe une habitude bien plus qu'on ne nettoie des dents. L'enfant qui associe ce moment à la douceur et à l'imitation acceptera le vrai brossage sans lutte quand il en aura l'âge.",
+      "erreurs_a_eviter": [
+        "Maintenir la tête pour ouvrir la bouche de force : la lutte s'installe pour des années.",
+        "Sauter le brossage parce qu'il n'a que quelques dents : les caries touchent aussi les dents de lait très tôt.",
+        "Donner un biberon de lait ou une boisson sucrée après le brossage : le sucre reste au contact des dents toute la nuit.",
+        "Négocier longuement chaque soir : plus le brossage dure, plus il devient un enjeu."
+      ],
+      "consulter_si": "Consulter si : tu remarques des taches blanches, brunes ou noires sur les dents, une gencive rouge et gonflée qui saigne, une dent cassée ou déplacée après une chute, ou une douleur qui gêne l'alimentation → prendre rendez-vous chez un chirurgien-dentiste. En France, un examen bucco-dentaire pris en charge est proposé à partir de 3 ans, et rien n'empêche une consultation avant.",
+      "source": "Source : hygiène bucco-dentaire du jeune enfant et prévention de la carie précoce, Union française pour la santé bucco-dentaire ; mpedia.fr (AFPA)."
+    }
+  ]
+}

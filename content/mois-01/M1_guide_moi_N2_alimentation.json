@@ -10,14 +10,14 @@
   "protocoles": [
     {
       "categorie": "alim",
-      "situation": "Confusion sein-tétine / la prise se dérègle",
-      "titre": "Sein et tétine / quand la prise se dérègle",
-      "explication": "Téter au sein et boire au biberon ne demandent pas la même mécanique : la bouche s'ouvre autrement, la langue travaille autrement, l'effort n'est pas le même. Quand les deux s'alternent tôt et souvent, certains bébés se mettent à téter le sein comme une tétine — bouche peu ouverte, succion superficielle — et la prise devient douloureuse et peu efficace. Ce n'est pas irréversible, et cela n'oblige à choisir aucun camp. Cela veut dire que la prise se retravaille, avec une aide compétente, sans opposer sein et biberon.",
-      "ancrage": "Tu n'as pas à choisir entre allaiter et donner un biberon. Tu as à retrouver une succion efficace — et cela s'accompagne bien mieux à deux qu'en persévérant seule.",
+      "situation": "La confusion sein-tétine / Il ne tète plus comme avant",
+      "titre": "Quand la prise se dérègle",
+      "explication": "Téter au sein et boire au biberon ne demandent pas la même mécanique : la bouche s'ouvre autrement, la langue travaille autrement, l'effort n'est pas le même. Quand les deux s'alternent tôt et souvent, certains bébés se mettent à téter le sein comme une tétine, bouche peu ouverte, succion superficielle, et la prise devient douloureuse et peu efficace. Ce n'est pas irréversible, et cela n'oblige à choisir aucun camp. Cela veut dire que la prise se retravaille, avec une aide compétente, sans opposer sein et biberon.",
+      "ancrage": "Tu n'as pas à choisir entre allaiter et donner un biberon. Tu as à retrouver une succion efficace, et cela s'accompagne bien mieux à deux qu'en persévérant seule.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — retrouver une bonne prise",
+        "titre": "Action immédiate : retrouver une bonne prise",
         "etapes": [
           "Peau à peau avant la prise : quelques minutes contre toi, sans objectif, pour retrouver les repères.",
           "Attendre la grande ouverture : stimuler sa lèvre supérieure et attendre une bouche grande ouverte avant d'amener bébé au sein.",
@@ -29,9 +29,9 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — retrouver le chemin du sein",
+        "titre": "Geste doux : retrouver le chemin du sein",
         "etapes": [
-          "Position semi-allongée : toi sur le dos, bébé à plat ventre sur toi — il retrouve ses réflexes de fouissement.",
+          "Position semi-allongée : toi sur le dos, bébé à plat ventre sur toi, il retrouve ses réflexes de fouissement.",
           "Le laisser chercher : ne pas guider sa tête, le laisser ramper et attraper seul.",
           "Contact prolongé hors des repas : le sein devient un lieu de confort, pas seulement de nourriture.",
           "Répéter court et souvent : quelques essais calmes valent mieux qu'une longue lutte.",
@@ -39,79 +39,79 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Demander une observation de tétée : consultante en lactation (IBCLC), sage-femme ou PMI — c'est le geste le plus efficace, et le plus rapide.",
+        "Demander une observation de tétée : consultante en lactation (IBCLC), sage-femme ou PMI. C'est le geste le plus efficace, et le plus rapide.",
         "Adapter le biberon : un débit lent et des pauses fréquentes rapprochent la mécanique du biberon de celle du sein.",
-        "Ne pas culpabiliser le biberon : il n'est pas l'ennemi ; c'est la façon de l'introduire et de le donner qui compte.",
-        "Surveiller les indicateurs : couches mouillées, déglutitions, prise de poids — ils disent si les prises restent efficaces."
+        "Déculpabiliser le biberon : il n'est pas l'ennemi ; c'est la façon de l'introduire et de le donner qui compte.",
+        "Surveiller les indicateurs : couches mouillées, déglutitions, prise de poids. Ils disent si les prises restent efficaces."
       ],
-      "principe": "Sein et biberon ne s'opposent pas : ce sont deux mécaniques différentes qu'un bébé peut apprendre à alterner. Ce qui se répare, c'est la prise — et cela se répare avec un professionnel, pas avec de la volonté.",
+      "principe": "Sein et biberon ne s'opposent pas : ce sont deux mécaniques différentes qu'un bébé peut apprendre à alterner. Ce qui s'ajuste, c'est la prise, et cet ajustement s'obtient avec un professionnel, pas à force de volonté.",
       "erreurs_a_eviter": [
-        "Supprimer brutalement tout biberon en espérant « rétablir » le sein — cela met bébé en détresse sans régler la prise.",
-        "Laisser une prise superficielle s'installer parce que « ça finira par passer » — la douleur et la baisse de production s'installent avec.",
-        "Multiplier les tétines et les modèles en quelques jours — trop de changements brouillent l'apprentissage.",
+        "Supprimer brutalement tout biberon en espérant « rétablir » le sein : cela met bébé en détresse sans régler la prise.",
+        "Laisser une prise superficielle s'installer parce que « ça finira par passer » : la douleur et la baisse de production s'installent avec.",
+        "Multiplier les tétines et les modèles en quelques jours : trop de changements brouillent l'apprentissage.",
         "Attendre des semaines avant de demander de l'aide."
       ],
       "consulter_si": "Consulter si : la douleur persiste, si des crevasses apparaissent, si bébé ne prend pas de poids ou mouille peu ses couches, si les tétées deviennent très longues et inefficaces → sage-femme, consultante en lactation (IBCLC), PMI ou pédiatre. Une pesée et une observation de tétée tranchent la plupart des situations.",
-      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les positions d'allaitement et les conseils pour bien débuter l'allaitement."
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), les positions d'allaitement et les conseils pour bien débuter l'allaitement."
     },
     {
       "categorie": "alim",
-      "situation": "Tétées groupées du soir / il réclame sans arrêt",
-      "titre": "Les tétées groupées / il réclame sans arrêt le soir",
-      "explication": "En fin de journée, ton bébé réclame toutes les vingt minutes, s'endort, se réveille, repart au sein. Ces salves de tétées rapprochées sont un fonctionnement normal du nourrisson : elles regroupent les prises et, surtout, elles envoient une commande de production pour les jours suivants. Ce n'est donc pas un signe que ton lait manque — c'est un signe que le système fonctionne. Ces épisodes se concentrent souvent le soir, au moment où la fatigue de toute la maison est au plus haut, ce qui les rend plus éprouvants qu'ils ne sont inquiétants.",
-      "ancrage": "Ces soirées ne disent rien d'un manque de lait. Elles demandent surtout une chose : que tu sois installée confortablement, nourrie, et relayée sur tout le reste.",
+      "situation": "Les tétées groupées / Il réclame sans arrêt le soir",
+      "titre": "Une phase courte, à traverser installée",
+      "explication": "En fin de journée, il réclame toutes les 20 minutes, s'endort au sein, se réveille dès qu'on le pose, et repart. Ces salves du soir sont un fonctionnement normal du nourrisson, et elles passent commande pour la production des jours suivants. Ce qui les rend si dures n'est pas leur nature : c'est l'heure à laquelle elles tombent. Elles arrivent quand la maison est fatiguée, quand le dîner n'est pas fait, souvent en même temps que le pic de pleurs du soir. C'est donc autant une question d'organisation que d'allaitement.",
+      "ancrage": "Ces soirées ne disent rien de ton lait. Se sentir réduite à une source de nourriture pendant ces heures-là est une pensée que beaucoup de mères ont et qu'aucune n'ose dire.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — traverser la salve",
+        "titre": "Action immédiate : quand la salve commence",
         "etapes": [
-          "S'installer pour durer : dos calé, coussins, eau et de quoi manger à portée de main.",
-          "Proposer sans compter : ni chronomètre, ni intervalle imposé — on suit ses signaux.",
-          "Alterner les seins : laisser le premier bien se vider avant de proposer le second.",
-          "Déléguer le reste : le linge, le dîner, l'aîné — tout ce qui n'est pas la tétée peut être fait par quelqu'un d'autre.",
-          "Accepter la soirée : ces salves durent quelques heures, puis se referment."
+          "Décider que la soirée est prise : accepter d'y être plutôt que d'espérer en sortir change tout.",
+          "Tout amener à portée : eau, repas, téléphone, télécommande, avant de t'asseoir et pas après.",
+          "Passer la main sur le reste : le dîner, le linge, l'aîné, le bain, rien de tout cela n'a besoin de toi.",
+          "Baisser la pièce : lumière chaude, peu de bruit, ce qui apaise bébé t'apaise aussi.",
+          "Le laisser mener : ni chronomètre, ni intervalle, il alterne succion et pauses à sa façon."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — rendre la soirée tenable",
+        "titre": "Geste doux : rendre la soirée tenable pour toi",
         "etapes": [
-          "Créer un nid : un endroit dédié, confortable, où tu peux rester longtemps sans te lever.",
-          "Peau à peau prolongé : il apaise bébé et soutient la production.",
-          "Baisser les stimulations : lumière douce, pas d'écran fort, peu de bruit autour de vous.",
-          "Respirer lentement : quelques respirations profondes pendant la tétée, pour toi.",
-          "Se faire accompagner : la présence calme de l'autre parent change la traversée de la soirée."
+          "Caler ton dos et tes bras : un coussin sous le bras qui porte, la douleur d'épaule vient de là.",
+          "Poser tes pieds à plat : un repose-pied ou une pile de livres, le bassin se relâche aussitôt.",
+          "Souffler plus longtemps que tu n'inspires : quelques respirations, les yeux fermés, pendant qu'il tète.",
+          "Faire venir quelqu'un : la présence calme de l'autre parent près de toi change la traversée.",
+          "Te lever entre deux salves : 3 minutes debout, à marcher, valent mieux que deux heures immobile."
         ]
       },
       "pour_aller_plus_loin": [
-        "Reconnaître les pics : autour de trois et six semaines, les tétées se rapprochent quelques jours puis se réespacent — c'est une commande de production, pas un manque.",
-        "Se méfier du biberon « de complément » réflexe : donné sans avis, il réduit la stimulation et peut faire baisser la production.",
-        "Vérifier les vrais indicateurs : couches mouillées, déglutitions audibles, courbe de poids.",
-        "Prévoir un relais du soir : quelqu'un qui s'occupe de tout le reste pendant que tu tètes."
+        "Situer les pics : vers trois et six semaines, ces salves s'intensifient quelques jours puis se calment.",
+        "Prévoir la soirée à l'avance : dîner préparé le matin, plateau prêt, la logistique fait plus que la volonté.",
+        "Nommer ce que ça coûte : le dire à voix haute au co-parent évite que l'épuisement se transforme en rancune.",
+        "En parler si les soirs deviennent noirs : sage-femme, PMI ou médecin, une fatigue qui vire à la tristesse se dit."
       ],
-      "principe": "La fréquence des tétées ne mesure pas la qualité de ton lait. Les tétées groupées sont un mécanisme d'ajustement — les seuls indicateurs fiables restent les couches, les déglutitions et la courbe de poids.",
+      "principe": "Un bébé qui réclame le soir ne manque de rien, il passe commande pour la semaine suivante. Ce qui se règle pendant ces heures-là n'est pas son alimentation, c'est ton installation.",
       "erreurs_a_eviter": [
-        "Espacer les tétées à l'horloge pour « créer un rythme » — cela réduit la stimulation et le transfert.",
-        "Conclure au manque de lait parce que le sein paraît souple ou que bébé pleure — aucun des deux n'est un indicateur.",
-        "Multiplier tisanes et compléments censés augmenter la production — c'est la stimulation régulière qui agit.",
-        "Se comparer au rythme d'un autre bébé — la fourchette normale est très large."
+        "Vouloir écourter la salve en donnant un biberon : la stimulation baisse et la soirée suivante sera pareille.",
+        "Rester debout à faire autre chose entre deux prises : l'épuisement vient du va-et-vient, pas de la tétée.",
+        "Attendre l'heure de la prochaine tétée : l'horloge n'a rien à faire dans ces soirées-là.",
+        "Encaisser sans le dire : personne ne devine ce que tu traverses si tu ne le nommes pas."
       ],
-      "consulter_si": "Consulter si : bébé ne prend pas de poids ou en perd, mouille très peu ses couches, est difficile à réveiller pour les prises, semble toujours insatisfait, ou si les tétées sont douloureuses → sage-femme, consultante en lactation (IBCLC), PMI ou pédiatre pour une pesée et une observation de tétée.",
-      "source": "Source : Santé publique France — Le guide de l'allaitement maternel."
+      "consulter_si": "Consulter si : bébé ne prend pas de poids ou en perd, s'il mouille très peu ses couches, si tu dois le réveiller pour les prises, s'il paraît insatisfait après chaque tétée, si les tétées sont douloureuses, ou si ces soirées te laissent dans une tristesse qui ne passe pas → sage-femme, consultante en lactation IBCLC, PMI ou médecin traitant.",
+      "source": "Source : tétées groupées et ajustement de la production, Santé publique France, le guide de l'allaitement maternel ; repères pédiatriques mpedia.fr (AFPA)."
     },
     {
       "categorie": "alim",
-      "situation": "Le lait arrive trop vite / bébé s'étrangle et lâche",
-      "titre": "Le flux trop rapide / il s'étrangle et lâche le sein",
-      "explication": "Dès les premières succions, le lait jaillit, ton bébé s'étouffe, tousse, lâche le sein et pleure — puis y revient, et rebelote. Ce flux très puissant en début de tétée est fréquent, surtout quand la production est abondante. Bébé n'a pas encore la coordination pour gérer un tel débit : il avale de l'air, se cabre, se met en colère. Ce n'est pas une intolérance, ce n'est pas un refus. C'est une question de débit — et le débit se ralentit par la position et par quelques gestes simples.",
+      "situation": "Le flux trop rapide / Il s'étrangle et lâche le sein",
+      "titre": "Ralentir le débit, position par position",
+      "explication": "Dès les premières succions, le lait jaillit, ton bébé s'étouffe, tousse, lâche le sein et pleure, puis y revient, et rebelote. Ce flux très puissant en début de tétée est fréquent, surtout quand la production est abondante. Bébé n'a pas encore la coordination pour gérer un tel débit : il avale de l'air, se cabre, se met en colère. Ce n'est pas une intolérance, ce n'est pas un refus. C'est une question de débit, et le débit se ralentit par la position et par quelques gestes simples.",
       "ancrage": "Ce n'est ni ton lait ni ton bébé qui posent problème : c'est la vitesse. Elle se régule, et les tétées redeviennent calmes en quelques jours le plus souvent.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — ralentir le flux",
+        "titre": "Action immédiate : ralentir le flux",
         "etapes": [
-          "S'installer en arrière : semi-allongée sur le dos, bébé à plat ventre sur toi — le lait coule contre la gravité.",
+          "S'installer en arrière : semi-allongée sur le dos, bébé à plat ventre sur toi, le lait coule contre la gravité.",
           "Amorcer avant la prise : exprimer un peu de lait à la main pour laisser passer le premier jet.",
           "Faire des pauses : le redresser dès qu'il tousse, le laisser respirer, puis reprendre.",
           "Rot en cours de tétée : une pause verticale au milieu de la prise réduit l'air avalé.",
@@ -121,7 +121,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — un repas plus calme",
+        "titre": "Geste doux : un repas plus calme",
         "etapes": [
           "Peau à peau avant : quelques minutes contre toi pour qu'il aborde la tétée détendu.",
           "Proposer avant les pleurs : un bébé calme gère bien mieux un flux rapide qu'un bébé affamé.",
@@ -131,112 +131,112 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Demander une observation : consultante en lactation (IBCLC), sage-femme ou PMI — elles ajustent la position en une séance.",
-        "Ne pas tirer son lait « pour désengorger » sans avis : cela stimule encore la production et entretient le flux fort.",
+        "Demander une observation : consultante en lactation (IBCLC), sage-femme ou PMI, elles ajustent la position en une séance.",
+        "Attendre un avis avant de tirer son lait « pour désengorger » : la stimulation supplémentaire entretient la production et le flux fort.",
         "Observer les suites : moins d'air avalé, c'est moins de pleurs et de gaz après le repas.",
         "Se rassurer sur la durée : cela s'atténue souvent en quelques semaines, quand la production s'ajuste et que bébé se coordonne mieux."
       ],
-      "principe": "Un bébé qui s'étrangle au sein ne rejette pas le lait : il subit un débit qu'il ne sait pas encore gérer. La position et les pauses règlent l'essentiel — et un professionnel accélère beaucoup les choses.",
+      "principe": "Un bébé qui s'étrangle au sein ne rejette pas le lait : il subit un débit qu'il ne sait pas encore gérer. La position et les pauses règlent l'essentiel, et un professionnel accélère beaucoup les choses.",
       "erreurs_a_eviter": [
         "Insister en le remettant au sein alors qu'il tousse et se cabre.",
-        "Conclure à une intolérance ou un reflux — ces hypothèses appartiennent au médecin.",
-        "Tirer beaucoup de lait avant chaque tétée sans avis — cela entretient le problème.",
+        "Conclure à une intolérance ou un reflux : ces hypothèses appartiennent au médecin.",
+        "Tirer beaucoup de lait avant chaque tétée sans avis : cela entretient le problème.",
         "Passer au biberon dans l'urgence, sans avoir ajusté la position."
       ],
       "consulter_si": "Consulter si : bébé tousse ou s'étouffe à chaque prise, devient bleu ou gris pendant la tétée, refuse le sein de façon répétée, ne prend pas de poids, ou si tu présentes un sein rouge, dur et douloureux avec de la fièvre → sage-femme, consultante en lactation (IBCLC) ou pédiatre ; le 15 en cas de gêne respiratoire pendant la prise.",
-      "source": "Source : Haute Autorité de Santé — « Allaitement maternel : mise en œuvre et poursuite dans les 6 premiers mois de vie de l'enfant »."
+      "source": "Source : Haute Autorité de Santé, « Allaitement maternel : mise en œuvre et poursuite dans les 6 premiers mois de vie de l'enfant »."
     },
     {
       "categorie": "alim",
-      "situation": "La prise de poids qui inquiète / objectiver",
-      "titre": "La courbe de poids / sortir de l'angoisse du chiffre",
-      "explication": "La courbe de poids est devenue le thermomètre de la valeur parentale — et c'est épuisant. Quelques repères : les premiers jours, tous les bébés perdent du poids, c'est normal. Ensuite, la prise est rapide les deux premiers mois. Mais un chiffre isolé ne veut rien dire : c'est la tendance sur plusieurs pesées qui compte, et elle se lit avec un professionnel, sur les courbes du carnet de santé. À côté du poids, d'autres indicateurs parlent : les couches mouillées, le tonus, l'éveil, la façon dont bébé boit et se console.",
-      "ancrage": "Une pesée n'est pas un jugement sur toi. Ce qui compte, c'est la tendance — et elle se lit à deux, avec le professionnel qui suit ton bébé.",
+      "situation": "La courbe de poids / Le chiffre m'angoisse",
+      "titre": "Sortir de l'angoisse du chiffre",
+      "explication": "La courbe de poids est devenue le thermomètre de la valeur parentale, et c'est épuisant. Quelques repères : les premiers jours, tous les bébés perdent du poids, c'est normal. Ensuite, la prise est rapide les deux premiers mois. Mais un chiffre isolé ne veut rien dire : c'est la tendance sur plusieurs pesées qui compte, et elle se lit avec un professionnel, sur les courbes du carnet de santé. À côté du poids, d'autres indicateurs parlent : les couches mouillées, le tonus, l'éveil, la façon dont bébé boit et se console.",
+      "ancrage": "Une pesée n'est pas un jugement sur toi. Ce qui compte, c'est la tendance, et elle se lit à deux, avec le professionnel qui suit ton bébé.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — objectiver plutôt que ruminer",
+        "titre": "Action immédiate : objectiver plutôt que ruminer",
         "etapes": [
           "Compter les couches : plusieurs couches bien mouillées par jour, avec des selles régulières, est un indicateur solide.",
           "Observer l'éveil : bébé qui se réveille pour réclamer, tète activement, se détend après la prise.",
           "Écouter les déglutitions : un « k-a » régulier pendant la tétée signe un transfert réel de lait.",
-          "Ne pas peser tous les jours à la maison : la variation quotidienne n'a pas de sens et alimente l'angoisse.",
+          "Espacer les pesées : la variation d'un jour à l'autre n'a pas de sens et alimente l'angoisse.",
           "Prendre rendez-vous : une pesée chez la sage-femme, en PMI ou chez le pédiatre tranche en une visite."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — apaiser l'angoisse du chiffre",
+        "titre": "Geste doux : apaiser l'angoisse du chiffre",
         "etapes": [
           "Écrire ses questions : noter ce qui t'inquiète avant le rendez-vous, pour ne rien oublier sur le moment.",
           "Sortir des comparaisons : couper les groupes et les discussions où l'on compare les poids.",
           "Peau à peau : il soutient la prise et t'aide, toi aussi, à redescendre.",
-          "Respirer avant les prises : ton état se transmet — un repas serein commence par un parent posé.",
+          "Respirer avant les prises : ton état se transmet, un repas serein commence par un parent posé.",
           "Demander à voir la courbe : faire expliquer le tracé plutôt que retenir un chiffre isolé."
         ]
       },
       "pour_aller_plus_loin": [
-        "Comprendre les courbes : celles du carnet de santé situent ton bébé dans une population réelle — une courbe basse mais régulière n'est pas une courbe qui inquiète.",
+        "Comprendre les courbes : celles du carnet de santé situent ton bébé dans une population réelle. Une courbe basse mais régulière n'est pas une courbe qui inquiète.",
         "Retenir ce qui alerte vraiment : une cassure de la courbe, une perte de poids, un bébé apathique ou qui mouille peu ses couches.",
         "Se faire aider sur l'allaitement plutôt que compléter d'office : consultante en lactation (IBCLC), sage-femme, PMI.",
-        "Ne jamais modifier une préparation seul.e : ni la dose, ni la marque, ni la dilution — cela se décide avec un médecin."
+        "Ne jamais modifier une préparation seul.e : ni la dose, ni la marque, ni la dilution, cela se décide avec un médecin."
       ],
-      "principe": "Un chiffre isolé ne dit rien : c'est la tendance qui parle, et elle se lit avec un professionnel. Les couches, le tonus et l'éveil de ton bébé sont des indicateurs aussi sérieux que la balance.",
+      "principe": "Une courbe se lit sur des semaines, pas sur une pesée. Peser plus souvent n'apporte pas plus d'information : cela ajoute du bruit et de l'inquiétude.",
       "erreurs_a_eviter": [
-        "Peser bébé tous les jours à la maison — les variations quotidiennes n'ont aucune signification.",
-        "Comparer sa courbe à celle d'un autre bébé — chaque enfant a son propre couloir de croissance.",
-        "Donner un complément « pour être sûr » sans avis médical — cela peut faire baisser la production.",
-        "Modifier soi-même les quantités ou la dilution d'une préparation — jamais."
+        "Peser bébé tous les jours à la maison : les variations quotidiennes n'ont aucune signification.",
+        "Comparer sa courbe à celle d'un autre bébé : chaque enfant a son propre couloir de croissance.",
+        "Donner un complément « pour être sûr » sans avis médical : cela peut faire baisser la production.",
+        "Modifier soi-même les quantités ou la dilution d'une préparation, jamais."
       ],
       "consulter_si": "Consulter si : bébé ne retrouve pas son poids de naissance dans les délais attendus, si sa courbe casse, s'il perd du poids, mouille très peu ses couches, est difficile à réveiller pour les prises, ou paraît anormalement mou → pédiatre, sage-femme ou PMI sans attendre.",
-      "source": "Source : ameli.fr (Assurance Maladie) — les examens de suivi médical du nourrisson jusqu'à 2 mois et les courbes du carnet de santé."
+      "source": "Source : ameli.fr (Assurance Maladie), les examens de suivi médical du nourrisson jusqu'à 2 mois et les courbes du carnet de santé."
     },
     {
       "categorie": "alim",
-      "situation": "Il ne veut plus qu'un seul sein / préférence de côté",
-      "titre": "La préférence de côté / il ne veut plus qu'un sein",
-      "explication": "Beaucoup de bébés se mettent, à un moment, à bouder un sein. Les raisons possibles sont banales : un débit différent d'un côté, une position moins confortable, une gêne quand il tourne la tête d'un côté, ou simplement une habitude installée. La production s'adapte à la demande : un sein davantage tété produit davantage, ce qui renforce la préférence. Ce n'est pas grave en soi — un allaitement peut se poursuivre sur un seul sein — mais cela vaut la peine d'explorer sans forcer, et de faire vérifier si bébé tourne toujours la tête du même côté.",
-      "ancrage": "Ce n'est pas un rejet, et ce n'est pas un échec. C'est une préférence — qui s'explore doucement, et qui n'a pas besoin d'être « corrigée » à tout prix.",
+      "situation": "La préférence de côté / Il ne veut plus qu'un seul sein",
+      "titre": "Regarder la position et le cou",
+      "explication": "À un mois, ton bébé ne choisit pas encore grand-chose : c'est toi qui l'installes, et sa tête tourne peu. Quand un sein est boudé si tôt, la cause est presque toujours mécanique. Un débit plus rapide d'un côté le fait s'étrangler et lâcher. Une position moins confortable lui tord le cou sans qu'on s'en aperçoive. Ou bien il tourne la tête plus facilement d'un côté que de l'autre depuis la naissance, et le sein qui l'oblige à se tourner de l'autre côté devient celui qu'il refuse.",
+      "ancrage": "Ce n'est ni un rejet ni un échec, c'est un corps qui cherche son confort. Tu peux changer ce qui l'entoure avant de conclure quoi que ce soit sur sa préférence.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — proposer sans forcer",
+        "titre": "Action immédiate : à la prochaine tétée",
         "etapes": [
-          "Commencer par le côté boudé : le proposer en premier, quand bébé a faim mais n'est pas encore en pleurs.",
-          "Changer de position : essayer le ballon de rugby ou la position allongée pour aborder le sein sous un autre angle.",
-          "Garder la même orientation du corps : le faire glisser d'un sein à l'autre sans changer la position de sa tête et de son corps.",
-          "Proposer en demi-sommeil : au réveil de sieste, quand il est détendu et moins opposant.",
-          "Arrêter s'il se braque : on n'insiste jamais — on repropose plus tard."
+          "Le proposer en premier : le côté boudé quand il a faim, avant les pleurs, jamais après une longue attente.",
+          "Le faire glisser sans le retourner : d'un sein à l'autre en gardant sa tête et son corps dans le même axe.",
+          "Changer d'angle : la position allongée ou en ballon de rugby aborde le sein autrement que la madone.",
+          "Retenir le flux s'il s'étrangle : quelques gouttes exprimées avant la mise au sein calment un débit trop vif.",
+          "Ranger s'il se braque : on ne maintient jamais sa tête, on repropose plus tard dans la journée."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — desserrer la préférence",
+        "titre": "Geste doux : rendre la rotation facile des deux côtés",
         "etapes": [
-          "Peau à peau du côté boudé : le poser contre ce sein, sans objectif de tétée.",
-          "Varier ses appuis dans la journée : alterner le côté vers lequel il tourne la tête, dans le lit et sur le tapis.",
-          "Bercer du côté délaissé : le porter davantage sur ce bras dans les moments calmes.",
-          "Observer sa nuque : s'il tourne toujours la tête du même côté et résiste, en parler au pédiatre.",
-          "S'arrêter s'il se crispe : le geste doit rester agréable, jamais une manœuvre."
+          "Peau à peau du côté boudé : le poser contre ce sein-là, sans aucun objectif de tétée.",
+          "Alterner le sens dans le lit : sa tête à une extrémité un jour, à l'autre le lendemain, il tourne vers la pièce.",
+          "Déplacer ce qui l'attire : la lumière, ton visage, le mobile, il suit ce qu'il veut voir.",
+          "Le porter sur l'autre bras : les moments calmes de la journée changent aussi d'appui.",
+          "Regarder comment il tourne : s'il résiste d'un côté, ou s'il pleure quand tu l'orientes, on le signale."
         ]
       },
       "pour_aller_plus_loin": [
-        "Stimuler le sein délaissé : le tirer un peu après les tétées, si tu le souhaites, pour soutenir la production de ce côté.",
-        "Accepter l'asymétrie : un allaitement peut fonctionner sur un seul sein, avec une poitrine visiblement asymétrique — c'est sans conséquence.",
-        "Faire vérifier la nuque : une gêne à tourner la tête d'un côté se montre au pédiatre, qui orientera si nécessaire vers un kinésithérapeute pédiatrique.",
-        "Se faire accompagner : consultante en lactation (IBCLC), sage-femme ou PMI pour ajuster positions et production."
+        "Faire vérifier le cou sans tarder : une rotation qui coince se corrige d'autant mieux qu'on s'y prend tôt, le pédiatre orientera vers un kinésithérapeute pédiatrique si besoin.",
+        "Comparer les deux débits : un sein qui coule beaucoup plus vite explique à lui seul beaucoup de refus.",
+        "Se faire regarder tétér : une sage-femme, une consultante en lactation IBCLC ou la PMI voient en 10 minutes ce qui coince dans la position.",
+        "Ne rien décider tout de suite : à un mois, une préférence bouge souvent d'elle-même en quelques semaines."
       ],
-      "principe": "Une préférence de côté n'est ni un rejet ni une urgence. On explore doucement, on fait vérifier la nuque si bébé tourne toujours la tête du même côté — et on accepte qu'un allaitement puisse très bien fonctionner asymétrique.",
+      "principe": "Un bébé de un mois refuse un côté avec son corps avant de le refuser avec son goût. C'est donc la position, le débit et la liberté de sa nuque qu'on regarde en premier, jamais sa volonté.",
       "erreurs_a_eviter": [
-        "Forcer bébé sur le sein qu'il refuse, en maintenant sa tête — cela installe un blocage durable.",
-        "Arrêter d'office le sein boudé sans avoir cherché la cause.",
-        "Ignorer une raideur de la nuque ou une tête toujours tournée du même côté — cela se montre au pédiatre.",
-        "S'inquiéter d'une poitrine devenue asymétrique — c'est fréquent et sans gravité."
+        "Maintenir sa tête contre le sein refusé : le geste crée une aversion qui dure bien au-delà de la tétée.",
+        "Le coucher toujours dans le même sens : l'appui se répète et la rotation préférée se renforce jour après jour.",
+        "Attendre plusieurs mois avant de montrer sa nuque : plus on tarde, plus la correction demande de séances.",
+        "Conclure trop vite qu'il n'aime pas ce sein : à cet âge il ne choisit pas, il subit une position."
       ],
-      "consulter_si": "Consulter si : bébé refuse brutalement un sein qu'il prenait bien, s'il tourne toujours la tête du même côté ou résiste quand tu l'orientes de l'autre, s'il ne prend pas assez de poids, ou si le sein délaissé devient rouge, dur et douloureux avec de la fièvre → pédiatre, sage-femme, consultante en lactation (IBCLC) ou PMI.",
-      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les positions d'allaitement et les conseils pour bien débuter l'allaitement."
+      "consulter_si": "Consulter si : ton bébé tourne toujours la tête du même côté, s'il résiste ou pleure quand tu l'orientes de l'autre, s'il a le crâne qui s'aplatit d'un côté, s'il ne prend pas assez de poids, ou si le sein délaissé devient rouge, dur et douloureux avec de la fièvre → pédiatre, sage-femme, consultante en lactation IBCLC ou PMI. Une rotation limitée se montre sans attendre.",
+      "source": "Source : positions d'allaitement et conduite à tenir devant un refus de sein, 1000-premiers-jours.fr ; asymétrie de rotation de la tête du nourrisson, repères pédiatriques mpedia.fr (AFPA)."
     }
   ]
 }

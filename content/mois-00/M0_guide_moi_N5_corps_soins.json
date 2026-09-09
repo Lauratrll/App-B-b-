@@ -10,8 +10,8 @@
   "protocoles": [
     {
       "categorie": "corps",
-      "situation": "Cordon ombilical / comment en prendre soin",
-      "titre": "Le cordon ombilical / le soin quotidien",
+      "situation": "Le cordon ombilical / Je n'ose pas y toucher",
+      "titre": "Le geste quotidien, en trois temps",
       "explication": "Le cordon sèche, noircit, puis tombe seul. Le plus souvent entre une et trois semaines, parfois plus tard, chaque bébé à son rythme. Il n'y a rien à accélérer et rien à arracher. Le principe du soin tient en deux mots : propre et sec. Un cordon laissé à l'air, non couvert par la couche, sèche plus vite. Quelques gouttes de sang ou une petite croûte au moment de la chute sont fréquentes et sans gravité. Ce qui compte, ce sont les signes autour du nombril : rougeur qui s'étend, odeur, écoulement, fièvre.",
       "ancrage": "Tu ne peux pas « rater » un cordon. Nettoyer, sécher, laisser à l'air : cela suffit. Le reste, c'est du temps.",
       "action_immediate": {
@@ -56,8 +56,8 @@
     },
     {
       "categorie": "corps",
-      "situation": "Sa peau / sécheresse, desquamation, petits boutons",
-      "titre": "La peau du nouveau-né / l'adaptation à l'air libre",
+      "situation": "La peau du nouveau-né / Il pèle et de petits boutons sortent",
+      "titre": "L'adaptation à l'air libre",
       "explication": "La peau de ton bébé sort de neuf mois dans le liquide amniotique. Elle s'adapte à l'air libre : elle pèle, elle sèche, elle rougit, elle se couvre parfois de petits boutons qui apparaissent et disparaissent en quelques jours. Ces phénomènes sont très fréquents et transitoires. La règle est le minimalisme : moins on applique de produits sur une peau immature, mieux elle s'équilibre. Ce qui mérite un avis n'est pas un bouton isolé, mais une éruption qui s'étend, des vésicules, une peau qui suinte, ou de la fièvre associée.",
       "ancrage": "Une peau qui pèle n'est pas une peau abîmée : c'est une peau qui s'adapte. Tu n'as pas besoin de la « traiter », seulement de la respecter.",
       "action_immediate": {
@@ -90,7 +90,7 @@
         "Protéger du soleil par l'ombre et le vêtement : avant six mois, on ne l'expose pas, la crème solaire ne remplace pas l'ombre.",
         "Observer l'évolution : la desquamation des premières semaines s'atténue seule ; il n'y a rien à accélérer."
       ],
-      "principe": "La peau du nouveau-né s'équilibre d'elle-même. Moins de produits, des toilettes courtes, et de l'observation : c'est le protocole le plus efficace des premières semaines.",
+      "principe": "La peau du nouveau-né s'équilibre toute seule. Moins de produits, des toilettes courtes, un peu d'observation : c'est tout ce qu'il y a à faire, et c'est ce qui marche le mieux.",
       "erreurs_a_eviter": [
         "Multiplier les crèmes et les produits « spécial bébé » : ils fragilisent une barrière cutanée immature.",
         "Percer ou gratter les petits boutons : risque d'infection, sans aucun bénéfice.",
@@ -102,9 +102,9 @@
     },
     {
       "categorie": "corps",
-      "situation": "Bébé mou ou très tendu / ce que dit son tonus",
-      "titre": "Son tonus / entre souplesse et raideur",
-      "explication": "Le nouveau-né a un tonus particulier : ses membres sont repliés, souvent toniques, alors que sa nuque et son tronc sont encore très souples. C'est pourquoi sa tête doit être soutenue en permanence. Certains bébés paraissent plus mous, d'autres plus raides, et cette variabilité est normale : la fourchette est large et ne dit rien de son avenir. Le tonus se construit progressivement, du haut vers le bas. Ce protocole n'est pas là pour évaluer ton bébé. Cela, seul un professionnel le fait, mais pour t'aider à savoir ce qui se surveille et ce qui s'observe tranquillement.",
+      "situation": "Le tonus / Il me paraît trop mou, ou trop raide",
+      "titre": "Ce que dit son tonus",
+      "explication": "Le nouveau-né a un tonus particulier : ses membres sont repliés, souvent toniques, alors que sa nuque et son tronc sont encore très souples. C'est pourquoi sa tête doit être soutenue en permanence. Certains bébés paraissent plus mous, d'autres plus raides, et cette variabilité est normale : la fourchette est large et ne dit rien de son avenir. Le tonus se construit progressivement, du haut vers le bas. Il ne s'agit pas d'évaluer ton bébé. Cela, seul un professionnel le fait, mais pour t'aider à savoir ce qui se surveille et ce qui s'observe tranquillement.",
       "ancrage": "Tu n'as pas à mesurer son tonus, ni à le comparer. Tu as à le manipuler avec soin, à observer, et à poser tes questions au professionnel qui le suit.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -136,7 +136,7 @@
         "Poser tes questions au bon moment : les consultations obligatoires des premiers mois sont faites pour cela.",
         "Ne pas comparer : chaque enfant a son propre rythme, et ce n'est ni une course ni une compétition."
       ],
-      "principe": "La variabilité du tonus est normale à cet âge. Ce n'est pas au parent d'évaluer. C'est au professionnel. Ton rôle est de soutenir, de varier les positions, et de signaler ce qui te surprend.",
+      "principe": "Le tonus varie beaucoup d'un bébé à l'autre à cet âge, et il s'évalue avec des mains entraînées. Toi, tu es la personne qui le voit tous les jours : c'est toi qui remarqueras ce qui change.",
       "erreurs_a_eviter": [
         "Faire des « exercices » de renforcement trouvés en ligne : l'éveil du corps se fait par le jeu libre, pas par des manœuvres.",
         "Tirer bébé par les bras pour l'asseoir ou tester sa force : dangereux pour les épaules et sans intérêt.",
@@ -147,8 +147,8 @@
     },
     {
       "categorie": "corps",
-      "situation": "Porter bébé en sécurité / position physiologique du nouveau-né",
-      "titre": "Le portage / la position physiologique",
+      "situation": "Le portage / Je ne sais pas si je le tiens bien",
+      "titre": "La position physiologique, point par point",
       "explication": "Porter un nouveau-né n'est pas seulement pratique : c'est ce qui l'apaise le plus efficacement. Mais le portage a des règles de sécurité, et elles ne sont pas négociables. Un nouveau-né n'a pas le contrôle de sa tête ni de ses voies aériennes : mal installé, menton collé au torse, il peut se retrouver en difficulté respiratoire sans émettre le moindre bruit. La position physiologique, dos rond, jambes repliées, tête soutenue, visage dégagé, est à la fois la plus sûre et la plus confortable pour lui.",
       "ancrage": "Le portage est le geste le plus apaisant dont tu disposes. Il demande une seule chose en retour : une vérification systématique du visage et du menton, à chaque installation.",
       "action_immediate": {
@@ -172,7 +172,7 @@
           "Marche lente et régulière : le rythme constant est ce qui apaise le plus son système nerveux.",
           "Une main sur son dos : posée, immobile, pendant la marche.",
           "Ta voix en fond : parler ou fredonner tout bas pendant le portage.",
-          "Vérifier toutes les dix minutes : un coup d'œil au visage et au menton, systématiquement."
+          "Vérifier toutes les 10 minutes : un coup d'œil au visage et au menton, systématiquement."
         ]
       },
       "pour_aller_plus_loin": [
@@ -192,8 +192,8 @@
     },
     {
       "categorie": "corps",
-      "situation": "Nez bouché / respiration bruyante",
-      "titre": "Le nez bouché / le lavage de nez",
+      "situation": "Le nez bouché / Il respire bruyamment",
+      "titre": "Le lavage de nez, bref et prévisible",
       "explication": "Ton bébé respire uniquement par le nez pendant les premières semaines : un nez encombré le gêne pour téter, pour dormir, pour respirer tranquillement. Il grogne, siffle, semble « pris ». Chez le nouveau-né, un nez bruyant est très souvent lié à des sécrétions dans un nez minuscule, pas à une maladie. Le geste utile est le lavage de nez au sérum physiologique : c'est un geste d'hygiène, simple, à faire avant les prises et avant le coucher. Mais chez un tout-petit, toute gêne respiratoire vraie se juge sur la respiration, pas sur le bruit.",
       "ancrage": "Un nez bruyant n'est pas forcément un bébé en difficulté. Ce que tu regardes, ce n'est pas le bruit : c'est la façon dont il respire, et dont il boit.",
       "action_immediate": {
@@ -238,8 +238,8 @@
     },
     {
       "categorie": "corps",
-      "situation": "Bébé prématuré ou petit poids / les premières semaines à la maison",
-      "titre": "Le retour à la maison / bébé né prématurément",
+      "situation": "Le retour à la maison / Il est né avant terme, j'ai peur",
+      "titre": "Les premières semaines d'un bébé prématuré",
       "explication": "Rentrer à la maison après un séjour en néonatalogie est un moment mêlé : soulagement et vertige à la fois. Ton bébé n'est pas fragile comme du verre, mais il a besoin d'un environnement calme, de beaucoup de sommeil et de beaucoup de contact. Un repère structure tout le reste : l'âge corrigé. Ses acquisitions se lisent à l'âge qu'il aurait s'il était né à terme, pas à sa date de naissance. Le comparer aux autres bébés de son âge civil n'a aucun sens et fabrique une inquiétude inutile. Chaque enfant avance à son rythme, et lui plus encore.",
       "ancrage": "Tu rentres avec un bébé, pas avec un dossier médical. Ton rôle n'est pas de le surveiller comme un appareil : c'est de le porter, de le nourrir, et de t'appuyer sur l'équipe qui le suit.",
       "action_immediate": {

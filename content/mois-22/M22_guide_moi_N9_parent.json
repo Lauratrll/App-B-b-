@@ -1,0 +1,192 @@
+{
+  "mois": 22,
+  "tranche_age": "22 mois",
+  "categorie": {
+    "id": "parent",
+    "nom": "Parents submergés",
+    "sous_titre": "L'autonomie, l'héritage, les vacances, l'écran",
+    "icone": "🫶"
+  },
+  "protocoles": [
+    {
+      "categorie": "parent",
+      "situation": "Ce que je fais à sa place / Je vais plus vite que lui",
+      "titre": "Lui laisser le temps d'essayer",
+      "explication": "Il avait presque réussi sa chaussure. Tu la lui as prise des mains pour gagner 30 secondes, et il s'est mis à hurler. À vingt-deux mois, ton enfant sait faire beaucoup plus qu'on ne lui laisse faire : enfiler une chaussure, monter sur sa chaise, se laver les mains, ranger un jouet dans un bac. Il en est capable, lentement, et souvent mal. Le problème n'est donc pas qu'il ne sache pas, c'est qu'un adulte pressé va cinq fois plus vite. Et chaque fois qu'on fait à sa place, on lui retire un essai, et on garde la tâche.",
+      "ancrage": "Aller plus vite que lui n'est pas de l'impatience mal placée. C'est ce qui arrive quand la journée est trop courte, et cela se règle en choisissant où tu acceptes d'être lent.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : choisir un endroit où tu ralentis",
+        "etapes": [
+          "Choisir un seul moment : les chaussures, les mains, la chaise, un seul.",
+          "Y ajouter 5 minutes : le temps se prend avant, jamais pendant.",
+          "S'asseoir et attendre : rester debout à côté rend l'attente insupportable.",
+          "Ne pas commenter la lenteur : « allez, dépêche » retire l'envie d'essayer.",
+          "Le laisser finir même mal : une chaussure à l'envers reste une chaussure enfilée."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : pendant qu'il essaie",
+        "etapes": [
+          "Poser les mains sur les genoux : c'est le geste qui empêche de faire à sa place.",
+          "Compter dix respirations : il aura souvent fini avant la dixième.",
+          "Regarder ses mains plutôt que l'heure : l'attention change ce qu'on ressent de l'attente.",
+          "Relâcher la mâchoire : c'est là que l'impatience s'installe en premier.",
+          "Se rappeler ce qu'il apprend : dans six mois, ce geste sera le sien."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Aménager pour qu'il puisse : un banc devant le lavabo, des chaussures à scratch, un crochet bas.",
+        "Ajouter un geste par mois : les mains, puis les chaussures, puis le manteau.",
+        "Décaler le réveil de 10 minutes : l'autonomie du matin se prend sur le sommeil, pas sur la patience.",
+        "Garder les matins pressés : ils existent, mais ils ne défont rien de ce qui est acquis."
+      ],
+      "principe": "Un enfant n'apprend pas à faire seul en grandissant, il apprend en ayant le droit d'essayer. Chaque essai qu'on lui laisse est un geste qui deviendra le sien.",
+      "erreurs_a_eviter": [
+        "Attendre qu'il demande : il ne demandera pas, c'est à l'adulte de lui laisser la place.",
+        "Refaire derrière lui sous ses yeux : le geste annule ce qu'il vient de réussir.",
+        "Tout lui laisser d'un coup : deux ou trois gestes suffisent, le reste viendra.",
+        "Confondre autonomie et débrouille : à deux ans il essaie seul, il ne se gère pas seul."
+      ],
+      "consulter_si": "Consulter si : la fatigue ne cède plus au repos, si la tristesse dure depuis plus de deux semaines, ou si plus rien ne te fait envie → en parler à ton médecin, à la sage-femme ou à la PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Les réflexes hérités / Je repense à mon enfance",
+      "titre": "Reconnaître le geste qui n'est pas de toi",
+      "explication": "Tu as dit « arrête de pleurer » avec une voix qui n'était pas la tienne. C'était celle de ton père. Certaines phrases sortent avant même qu'on les ait pensées : le ton qui monte d'un coup, la punition qui tombe, la phrase qu'on s'était juré de ne jamais dire. Ce sont souvent des gestes appris, entendus mille fois quand on était petit, et rangés là sans qu'on les ait choisis. Ils reviennent surtout quand on est fatigué, parce que la fatigue coupe le tri. Les repérer ne demande de faire le procès de personne : cela demande seulement de reconnaître, sur le moment, que ce geste-là ne vient pas de toi.",
+      "ancrage": "Rien ne t'oblige à refaire ce que tu as reçu. Tu es en train de le remarquer, et c'est exactement ce qui permet de choisir.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : quand la phrase est sortie",
+        "etapes": [
+          "La reconnaître à voix basse : « ça, ce n'est pas ce que je voulais dire ».",
+          "La reprendre devant lui : « je recommence », puis redire autrement.",
+          "Écrire la phrase le soir : la voir écrite suffit souvent à la désamorcer.",
+          "Chercher ce qui l'a déclenchée : l'heure, le bruit, la fatigue, presque jamais lui.",
+          "Préparer le remplacement : une phrase à dire à la place, prête pour la fois suivante."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : quand ça remonte de loin",
+        "etapes": [
+          "Poser une main au milieu de la poitrine : appui léger et maintenu, 10 secondes.",
+          "Sentir les deux pieds au sol : poids réparti, 10 secondes, sans bouger.",
+          "Nommer l'époque : « ça, c'était avant », puis revenir dans la pièce.",
+          "Regarder ton enfant : il n'est pas l'enfant que tu étais, et tu n'es pas l'adulte que tu as eu.",
+          "Expirer une fois, longuement : avant de retourner vers lui."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Faire la liste de ce que tu gardes : il y a presque toujours plus à garder qu'à laisser.",
+        "Décider une phrase à ne plus dire : une seule, remplacée par une autre, choisie celle-là.",
+        "En parler avec l'autre parent : chacun a les siennes, et ce ne sont jamais les mêmes.",
+        "En parler à un professionnel si ce qui remonte est lourd : médecin, PMI, ou psychologue."
+      ],
+      "principe": "Ce qu'on répète sans l'avoir décidé n'est pas un trait de caractère, c'est une habitude apprise. Une habitude se repère, et ce qui se repère peut se remplacer.",
+      "erreurs_a_eviter": [
+        "Se juger d'avoir ces réflexes : ils ne disent rien de ce que tu veux, seulement de ce que tu as entendu.",
+        "Vouloir tout changer d'un coup : une phrase à la fois tient, dix ne tiennent pas.",
+        "Accuser ceux qui les ont transmis : le procès n'aide pas, le tri si.",
+        "Attendre d'être reposée pour y arriver : c'est dans la fatigue qu'ils sortent, donc qu'on les repère."
+      ],
+      "consulter_si": "Consulter si : ce qui remonte de ton enfance t'envahit, t'empêche de dormir, ou revient dès que tu es avec lui → en parler à ton médecin, qui saura t'orienter. Et si tu as peur de tes propres gestes, ou si les cris deviennent quotidiens → en parler sans attendre au médecin ou à la PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Les vacances qui n'en sont pas / Je fais pareil là-bas",
+      "titre": "Négocier avant de partir, pas sur place",
+      "explication": "C'est le troisième jour, il est 22h, tu laves un biberon dans un évier trop bas et tu te demandes en quoi ce sont des vacances. En vacances, la charge ne disparaît pas : elle change de décor. Les repas, les siestes, le linge, la sécurité d'un lieu inconnu, tout est là, souvent en plus compliqué, et sans les repères de la maison. S'y ajoute une attente qui pèse, celle de passer un bon moment. C'est cette attente-là qui rend la déception si vive quand la semaine finit par ressembler à toutes les autres.",
+      "ancrage": "Tu n'es pas difficile. Tu pars avec le même travail, dans une cuisine que tu ne connais pas, et sans le lit dans lequel il s'endort.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : avant de partir",
+        "etapes": [
+          "Décider un seul point à deux : qui se lève le matin, ou qui gère les repas, un seul.",
+          "Écrire un vrai temps pour chacun : 2 heures à toi, inscrites dans la semaine.",
+          "Réduire le programme : une sortie par jour, et rien du tout le jour de l'arrivée.",
+          "Emporter les repères du coucher : le doudou, la veilleuse, le même livre.",
+          "Renoncer d'avance à ce qui ne tiendra pas : les horaires, la sieste parfaite, le calme."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : sur place, quand ça ressemble à la maison",
+        "etapes": [
+          "Sortir 10 minutes sans personne : marcher jusqu'au bout de la rue suffit.",
+          "Changer une seule habitude : le café dehors, la douche le soir, un détail à toi.",
+          "Regarder le paysage 2 minutes : le décor fait une partie du travail.",
+          "Étirer les bras au-dessus de la tête : 10 secondes, deux fois, en soufflant.",
+          "Nommer une chose agréable de la journée : à voix haute, même minuscule."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Écrire ce qui a manqué, au retour : c'est cela qui se négocie pour la fois suivante.",
+        "Choisir un lieu qui allège : une cuisine équipée, un lave-linge, un endroit où il peut courir.",
+        "Partir avec d'autres adultes : quatre adultes pour deux enfants changent tout.",
+        "Prévoir une journée sans rien : au milieu du séjour, pas à la fin."
+      ],
+      "principe": "Des vacances ne reposent pas parce qu'on change de lieu, elles reposent quand la charge change de mains. Ce qui n'a pas été décidé avant de partir se rejoue sur place, à l'identique.",
+      "erreurs_a_eviter": [
+        "Attendre d'être arrivés pour s'organiser : sur place, c'est celui qui a l'habitude qui reprend tout.",
+        "Vouloir rattraper l'année en une semaine : une attente aussi forte rend la déception certaine.",
+        "Multiplier les visites : un enfant de deux ans fatigué coûte plus qu'une journée gâchée.",
+        "Ne rien dire de sa déception : gardée pour soi, elle revient au voyage suivant."
+      ],
+      "consulter_si": "Consulter si : la fatigue ne cède plus au repos, si la tristesse dure depuis plus de deux semaines, ou si plus rien ne te fait envie → en parler à ton médecin, à la sage-femme ou à la PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Le téléphone du soir / Je scrolle au lieu de dormir",
+      "titre": "Ce que l'écran prend à ta nuit",
+      "explication": "Tu t'étais dit 5 minutes. Il est minuit vingt et tu ne sais plus ce que tu cherchais. Le soir, quand la maison se tait enfin, le téléphone offre exactement ce qui manque : quelque chose qui ne demande rien. Le problème n'est pas la volonté, c'est le mécanisme. Le défilement n'a pas de fin, donc rien ne signale qu'il est temps d'arrêter ; la lumière et l'attention réveillée retardent l'endormissement ; et l'heure grignotée est prise sur la seule nuit disponible.",
+      "ancrage": "Ce n'est pas du temps perdu, c'est du temps pris sur la seule chose qui te réparerait. Tu n'as pas besoin de plus de volonté, tu as besoin d'une fin.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : ce soir",
+        "etapes": [
+          "Décider une heure de fin : une seule, dite à voix haute avant de commencer.",
+          "Mettre le chargeur hors de la chambre : c'est la mesure qui marche le mieux.",
+          "Préparer ce qui vient à la place : un livre posé sur le lit, une douche, un épisode minuté.",
+          "Couper les notifications du soir : ce qui vibre relance l'attention à chaque fois.",
+          "Se coucher avant d'ouvrir : une fois allongée, il devient presque impossible de s'arrêter."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : à la place du téléphone",
+        "etapes": [
+          "Passer à une lumière chaude : une lampe basse plutôt que le plafonnier.",
+          "Poser les jambes contre le mur 5 minutes : le corps redescend et le mental suit.",
+          "Frictionner les mains puis les poser sur les yeux : 10 secondes de noir tiède.",
+          "Écrire trois lignes sur la journée : la tête cesse de la repasser une fois qu'elle est posée.",
+          "Expirer plus longuement qu'on inspire : quatre temps dedans, six dehors, dix fois."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Reculer l'heure de fin de 10 minutes par semaine : plus tenable qu'un arrêt net.",
+        "Se donner ce temps ailleurs dans la journée : le besoin est réel, c'est le moment qui est mauvais.",
+        "Retirer une application du téléphone : la friction suffit souvent à casser l'automatisme.",
+        "Noter l'heure réelle du coucher sur une semaine : l'écart surprend presque tout le monde."
+      ],
+      "principe": "L'écran du soir ne prend pas du temps libre, il prend du sommeil. Ce n'est pas un manque de volonté : c'est un objet conçu pour ne jamais indiquer qu'on peut s'arrêter.",
+      "erreurs_a_eviter": [
+        "Décider d'arrêter complètement : les résolutions absolues tiennent trois soirs.",
+        "S'installer au lit avant de commencer : la position couchée annule les meilleures intentions.",
+        "Se culpabiliser au lieu de changer un réglage : la honte ne coupe rien, le chargeur si.",
+        "Compenser la fatigue par plus de café : le soir suivant se décale encore un peu."
+      ],
+      "consulter_si": "Consulter si : la fatigue ne cède plus au repos, si la tristesse dure depuis plus de deux semaines, ou si plus rien ne te fait envie → en parler à ton médecin, à la sage-femme ou à la PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+    }
+  ]
+}

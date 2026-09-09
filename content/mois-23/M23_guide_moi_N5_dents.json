@@ -1,0 +1,57 @@
+{
+  "mois": 23,
+  "tranche_age": "23 mois",
+  "categorie": {
+    "id": "dents",
+    "nom": "Dents & petits inconforts",
+    "sous_titre": "Molaires, gencives",
+    "icone": "🦷"
+  },
+  "protocoles": [
+    {
+      "categorie": "corpo",
+      "situation": "Les molaires / Il bave, mâchouille et devient grognon",
+      "titre": "Soulager une gêne qui dure des jours",
+      "explication": "Vers 23 mois arrivent souvent les deuxièmes molaires : de grosses dents qui percent une gencive épaisse, ce qui peut gêner ton enfant. Il bave, mâchouille tout, dort parfois moins bien, cherche à mordre pour soulager la pression. Contrairement à une idée répandue, une poussée dentaire reste une gêne modérée : elle ne donne pas de vraie fièvre et ne rend pas malade. Si de la fièvre ou d'autres symptômes apparaissent, ils ont une autre cause à chercher ailleurs. Chaque enfant vit ses dents différemment, et cette étape passe.",
+      "ancrage": "Tu ne peux pas faire pousser ses dents plus vite, mais tu peux l'aider à traverser l'inconfort. Le froid et ta présence sont tes meilleurs alliés.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — soulager l'inconfort",
+        "etapes": [
+          "Proposer du froid : anneau de dentition réfrigéré (pas congelé), gant de toilette humide et frais à mâchouiller.",
+          "Contre-pression : avec un doigt propre, presser doucement la gencive quelques secondes — cela apaise.",
+          "Aliment frais adapté à son âge, toujours sous surveillance : le froid engourdit et soulage la gencive.",
+          "Essuyer la bave régulièrement : garder le menton au sec évite rougeurs et irritations.",
+          "Rassurer et câliner : la gêne rend grognon ; ta présence calme apaise autant que le froid."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — accompagner la gêne",
+        "etapes": [
+          "Un temps câlin au calme : contre toi, l'enfant se détend et sent moins la douleur.",
+          "Voix douce, nommer ce qu'il vit : « je sais, tes dents te gênent, je suis là ».",
+          "Toucher enveloppant sur le dos ou la joue, sans appuyer sur la mâchoire.",
+          "Proposer le froid pendant le câlin : deux apaisements en même temps."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Proposer du froid plutôt qu'un produit : un anneau réfrigéré, un linge frais, un aliment sortant du réfrigérateur.",
+        "Demander conseil au médecin ou au pharmacien avant tout produit : c'est le bon interlocuteur pour la gencive.",
+        "Ne pas tout attribuer aux dents : une fièvre, une diarrhée importante ou un abattement ont une autre origine à explorer.",
+        "Anticiper le sommeil perturbé : quelques nuits plus agitées sont possibles ; garder le cadre du coucher stable aide à traverser."
+      ],
+      "principe": "Une poussée dentaire ne se raccourcit pas, elle s'accompagne : froid, contre-pression douce, présence. Ce qui dépasse la gêne d'une gencive se fait examiner, plutôt que d'être mis sur le compte des dents.",
+      "erreurs_a_eviter": [
+        "Ajouter une nouveauté au coucher pendant la poussée : les repères habituels aident plus que tout.",
+        "Utiliser un produit sans avis : la sécurité et la dose se vérifient avec un professionnel.",
+        "Attribuer une forte fièvre « aux dents » et attendre — c'est passer à côté d'une autre cause.",
+        "Donner un médicament « au cas où » sans dose vérifiée par un professionnel — jamais d'automédication à l'aveugle."
+      ],
+      "consulter_si": "Consulter si : fièvre élevée ou persistante, diarrhée importante, refus de boire, abattement inhabituel, ou douleur qui ne cède à rien → pédiatre, car ce n'est pas la faute des dents. Pour toute douleur nécessitant un médicament, demander la dose adaptée au poids à ton pédiatre ou pharmacien. En cas d'inquiétude sur l'état général : 15 (SAMU).",
+      "source": "Source : poussées dentaires de l'enfant, mpedia.fr (Association française de pédiatrie ambulatoire)."
+    }
+  ]
+}

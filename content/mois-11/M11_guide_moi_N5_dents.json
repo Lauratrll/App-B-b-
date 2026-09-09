@@ -10,9 +10,9 @@
   "protocoles": [
     {
       "categorie": "dents",
-      "situation": "Quatre dents en même temps / douleur qui déborde",
-      "titre": "Quatre dents ensemble / une phase intense",
-      "explication": "Quatre dents bougent en même temps, et la douleur déborde : nuits hachées, humeur impossible, refus de manger, joues rouges. Les poussées groupées de la fin de la première année sont souvent les plus intenses. Ce qui soulage reste inchangé : le froid, la pression douce, le confort, la présence et la stabilité des repères. Ce qui ne se fait jamais reste également inchangé : le gel anesthésiant, contre-indiqué avant deux ans, et le collier d'ambre, dangereux et sans efficacité démontrée.",
+      "situation": "Les quatre dents ensemble / Il a mal partout et ne dort plus",
+      "titre": "Une phase intense, mais limitée",
+      "explication": "Quatre dents bougent en même temps, et la douleur déborde : nuits hachées, humeur impossible, refus de manger, joues rouges. Les poussées groupées de la fin de la première année sont souvent les plus intenses. Ce qui soulage reste inchangé : le froid, la pression douce, le confort, la présence et la stabilité des repères. Ce qui ne change pas non plus, c'est la règle sur les produits : tout ce qui s'applique dans la bouche d'un enfant de cet âge se demande d'abord au pharmacien.",
       "ancrage": "Une poussée groupée est intense mais limitée dans le temps. Le froid, la pression et la stabilité des repères sont ce qui aide réellement.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -34,20 +34,20 @@
           "Dans le rituel du soir : toujours au même moment.",
           "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
           "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
           "S'arrêter à sa demande : le geste doit rester agréable."
         ]
       },
       "pour_aller_plus_loin": [
-        "Ne jamais utiliser de gel anesthésiant : les gels à la lidocaïne sont contre-indiqués avant deux ans.",
-        "Ne jamais utiliser de collier d'ambre : risque d'étouffement et de strangulation.",
+        "Demander au pharmacien avant tout produit : gels, granules ou sirops se choisissent avec lui.",
+        "Renouveler les anneaux abîmés : un anneau fendu ou percé se remplace tout de suite.",
         "Ne pas attribuer une fièvre aux dents : elle a toujours une autre cause, et elle se fait examiner.",
         "Ne donner aucun médicament sans avis médical."
       ],
-      "principe": "Une poussée groupée est intense, mais elle passe. Le froid, la pression et la stabilité aident — le gel et le collier d'ambre, jamais.",
+      "principe": "Une poussée groupée est intense, mais elle passe. Le froid, la pression et la stabilité aident ; pour tout produit, l'avis se demande avant d'appliquer.",
       "erreurs_a_eviter": [
-        "Utiliser un collier d'ambre — risque d'étouffement et de strangulation.",
-        "Appliquer un gel anesthésiant — contre-indiqué avant deux ans.",
+        "Enchaîner les nouveautés pendant la poussée : mieux vaut garder les repères tels qu'ils sont.",
+        "Appliquer un produit sur la gencive sans avis : le pharmacien est là pour cela.",
         "Mettre un anneau de dentition au congélateur.",
         "Attribuer une fièvre, une diarrhée ou des pleurs intenses aux dents."
       ],
@@ -56,8 +56,8 @@
     },
     {
       "categorie": "dents",
-      "situation": "Il mord quand il est énervé / la mâchoire décharge la tension",
-      "titre": "Il mord / une décharge, pas une méchanceté",
+      "situation": "La morsure de colère / Il mord quand il est énervé",
+      "titre": "Une décharge, pas une méchanceté",
       "explication": "Il mord — toi, un autre enfant, un adulte. C'est violent à recevoir, et cela inquiète. Mais à onze mois, mordre n'est pas une agression : c'est une décharge. La mâchoire est un exutoire puissant, et quand la tension monte — frustration, excitation, fatigue — elle sort par là. Il n'a ni les mots, ni le contrôle. Trois gestes, dans cet ordre : nommer, proposer un objet à mordre, tenir la limite. Et jamais mordre en retour pour « lui montrer », ce qui n'enseigne rien.",
       "ancrage": "Mordre est une décharge, pas une méchanceté. Nommer, offrir un exutoire, tenir la limite — jamais mordre en retour.",
       "action_immediate": {
@@ -80,7 +80,7 @@
           "Une fois la vague passée : l'enfant sur le dos, dans le calme.",
           "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
           "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
           "S'arrêter à sa demande : le geste doit rester agréable."
         ]
       },
@@ -102,8 +102,8 @@
     },
     {
       "categorie": "dents",
-      "situation": "Réveils dentaires avant l'anniversaire / les molaires approchent",
-      "titre": "Les molaires approchent / distinguer la dent de l'opposition",
+      "situation": "L'arrivée des molaires / Ses réveils reviennent avant son anniversaire",
+      "titre": "Distinguer la dent de l'opposition",
       "explication": "Les premières molaires se préparent, et les nuits redeviennent difficiles. Mais à onze mois, une autre cause s'installe en parallèle : l'opposition au coucher. Et les deux se ressemblent. Une douleur dentaire réveille en pleine nuit, avec des signes concrets — gencive tendue, salivation, joue rouge, mâchonnement. Une opposition, elle, se manifeste au moment du coucher, pas au milieu de la nuit, et cède quand le cadre est tenu. Confondre les deux conduit à traiter le mauvais problème pendant des semaines.",
       "ancrage": "La dent réveille en pleine nuit ; l'opposition se joue au coucher. Les confondre fait traiter le mauvais problème.",
       "action_immediate": {
@@ -126,7 +126,7 @@
           "Dans le rituel du soir : toujours au même moment.",
           "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
           "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
           "S'arrêter à sa demande : le geste doit rester agréable."
         ]
       },
@@ -148,8 +148,8 @@
     },
     {
       "categorie": "dents",
-      "situation": "Rougeurs du siège qui reviennent / la peau est fragile",
-      "titre": "Les rougeurs du siège / reprendre la routine",
+      "situation": "Le retour des rougeurs / Sa peau redevient rouge à chaque change",
+      "titre": "Reprendre la routine du début",
       "explication": "Depuis que l'alimentation s'est diversifiée, les selles ont changé — plus acides, plus fréquentes, parfois plus irritantes — et les rougeurs du siège reviennent. Ce n'est pas un défaut de soin : c'est une peau fragile face à des selles nouvelles. La routine reste la même, et elle reste efficace : changer souvent, nettoyer à l'eau, sécher soigneusement, aérer, protéger. Et une rougeur qui résiste plus de trois à quatre jours, qui s'étend ou qui suinte, se montre — elle ne se traite pas au hasard.",
       "ancrage": "Ce n'est pas un défaut de soin : les selles ont changé. La routine reste la même — et une rougeur qui résiste se montre.",
       "action_immediate": {

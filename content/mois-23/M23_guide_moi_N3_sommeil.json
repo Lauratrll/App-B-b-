@@ -5,14 +5,14 @@
     "id": "sommeil",
     "ordre": 2,
     "nom": "Sommeil",
-    "sous_titre": "Grand lit, réveils, peurs de la nuit",
+    "sous_titre": "Grand lit, réveils, terreurs, peur du noir",
     "icone": "😴"
   },
   "protocoles": [
     {
       "categorie": "sommeil",
-      "situation": "On s'apprête à passer au grand lit",
-      "titre": "Le grand lit / préparer la transition",
+      "situation": "Le passage au grand lit / Je me demande quand le faire",
+      "titre": "Préparer la transition avant de la faire",
       "explication": "Pour ton enfant, son lit n'est pas qu'un meuble : c'est son cocon, un espace sacré de sécurité où il se sait protégé. À 23 mois, il a besoin de repères stables et d'un sentiment de maîtrise sur ce qui le concerne. Un changement de lit décidé du jour au lendemain peut être vécu comme une petite perte de ce refuge. À l'inverse, un passage annoncé, expliqué, où il a son mot à dire, devient une étape qu'il traverse en confiance. Préparer, c'est transformer un bouleversement en aventure choisie.",
       "ancrage": "Cette transition se prépare surtout côté parent : ton calme et ta clarté rassurent ton enfant plus que n'importe quel équipement. Prends le temps qu'il faut — rien n'oblige à aller vite.",
       "action_immediate": {
@@ -56,8 +56,8 @@
     },
     {
       "categorie": "sommeil",
-      "situation": "Se lève sans cesse de son grand lit et en sort",
-      "titre": "Le grand lit / se lève sans cesse",
+      "situation": "Les sorties du grand lit / Il se lève sans cesse et en sort",
+      "titre": "Raccompagner sans parler, à chaque fois",
       "explication": "Une fois dans le grand lit, ton enfant a d'un coup une immense liberté : plus de barreaux, plus de limite physique. À 23 mois, il a le corps pour se lever, mais pas encore le cerveau pour résister à l'envie de le faire. Se relever n'est ni un caprice ni de la provocation : c'est l'exploration normale de cette nouveauté, et une façon de vérifier que tu es toujours là. Son lit reste son cocon, un espace sacré de sécurité : ton rôle est de l'aider à s'y déposer, calmement et à son rythme.",
       "ancrage": "Ces allers-retours répétés peuvent être une vraie épreuve : ton calme, même quand la fatigue monte, est ton meilleur outil. La transition est parfois longue, sur plusieurs semaines — ce n'est pas un échec, c'est un cadre qui s'installe.",
       "action_immediate": {
@@ -101,8 +101,8 @@
     },
     {
       "categorie": "sommeil",
-      "situation": "Se réveille la nuit et vient dans le lit des parents",
-      "titre": "Les réveils nocturnes / vient dans le lit des parents",
+      "situation": "Les réveils nocturnes / Il vient dans notre lit chaque nuit",
+      "titre": "Décider la règle, puis la tenir",
       "explication": "À 23 mois, ton enfant traverse plusieurs micro-réveils par nuit, entre deux cycles de sommeil : c'est physiologique. Depuis qu'il dort dans un grand lit, il peut se lever seul et vient te chercher, toi, sa base de sécurité. Ce n'est pas de la manipulation : c'est de l'attachement. Son cerveau cherche à se réguler auprès du tien pour se rendormir. Un changement de lit ou une phase d'angoisse de séparation peuvent amplifier ces venues pendant quelques semaines. La fourchette est large : certains enfants ont besoin de plus de présence que d'autres, et c'est normal.",
       "ancrage": "Il ne cherche pas à gagner un bras de fer : il cherche à se sentir en sécurité pour repartir dormir. Tu peux répondre à ce besoin tout en gardant un cadre clair et un ton posé.",
       "action_immediate": {
@@ -146,8 +146,8 @@
     },
     {
       "categorie": "sommeil",
-      "situation": "Se réveille en hurlant, les yeux ouverts, inconsolable",
-      "titre": "Les terreurs nocturnes / le réveil qui n'en est pas un",
+      "situation": "Les terreurs nocturnes / Il hurle les yeux ouverts, inconsolable",
+      "titre": "Un réveil qui n'en est pas un",
       "explication": "Les terreurs nocturnes apparaissent souvent entre 2 et 4 ans, en début de nuit. Ton enfant se dresse, crie, semble terrifié, les yeux ouverts… mais il dort profondément : son cerveau est coincé entre deux stades de sommeil lent. Il ne te voit pas et ne t'entend pas vraiment. Ce n'est ni un cauchemar — qui survient plus tard dans la nuit et dont on se souvient — ni de la douleur. C'est impressionnant mais bénin, et il n'en gardera aucun souvenir au matin. La fourchette d'âge est large et l'épisode se résout de lui-même.",
       "ancrage": "Ce n'est pas toi qu'il appelle, et ce n'est pas à toi de le réveiller. Ton rôle : veiller à ce qu'il ne se blesse pas, et attendre que la vague passe.",
       "action_immediate": {
@@ -191,8 +191,8 @@
     },
     {
       "categorie": "sommeil",
-      "situation": "Refuse de rester seul pour s'endormir, réclame ta présence",
-      "titre": "La peur du noir / besoin de présence au coucher",
+      "situation": "La peur du noir / Il refuse de rester seul pour s'endormir",
+      "titre": "Une présence qui diminue par paliers",
       "explication": "Vers 23 mois, l'imagination de ton enfant explose : c'est merveilleux le jour, mais le soir, cela fait naître des peurs bien réelles pour lui — le noir, les ombres, le fait d'être seul. En même temps, l'angoisse de séparation est vive : se coucher, c'est te quitter pour toute la nuit. Sa peur n'est pas un caprice ni du cinéma : pour lui, elle est vraie, même si le danger, lui, ne l'est pas. Il a besoin que tu reconnaisses cette peur et que tu l'aides à apprivoiser, pas à pas, le fait de rester seul. Chaque enfant avance à son rythme sur ce chemin.",
       "ancrage": "Tu n'as pas à supprimer sa peur ni à la nier : tu as à l'accompagner assez pour qu'il se sente en sécurité, puis à t'effacer doucement. Le rassurer, ce n'est pas le rendre dépendant.",
       "action_immediate": {
@@ -203,7 +203,7 @@
           "Valider la peur : « je sais que le noir te fait peur, je te crois » — nommer rassure plus que minimiser.",
           "Allumer un repère : veilleuse chaude et basse, porte entrouverte, un objet-gardien près de lui.",
           "Présence dégressive : rester d'abord près du lit, puis un peu plus loin les soirs suivants — s'effacer par paliers.",
-          "Un retour fiable : « je reviens te voir dans cinq minutes » — et le faire vraiment, pour qu'il apprenne que tu tiens parole.",
+          "Un retour fiable : « je reviens te voir dans 5 minutes » — et le faire vraiment, pour qu'il apprenne que tu tiens parole.",
           "Ne pas transformer en long échange : rassurer avec peu de mots, toujours les mêmes, puis laisser le calme s'installer."
         ]
       },

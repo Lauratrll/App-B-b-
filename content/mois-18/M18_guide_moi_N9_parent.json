@@ -1,0 +1,192 @@
+{
+  "mois": 18,
+  "tranche_age": "18 mois",
+  "categorie": {
+    "id": "parent",
+    "nom": "Parents submergés",
+    "sous_titre": "L'usure, le cri, la maison, l'opposition",
+    "icone": "🫶"
+  },
+  "protocoles": [
+    {
+      "categorie": "parent",
+      "situation": "L'usure des crises / Je n'ai plus de réserve",
+      "titre": "Des relais courts, avant le point de rupture",
+      "explication": "Il s'est jeté par terre parce que tu lui as tendu la banane déjà épluchée. C'est la quatrième crise avant midi, et tu n'as même plus l'énergie de t'agacer. Vers dix-huit mois, ton enfant intègre qu'il est une personne distincte de toi, et il cherche à le marquer. Le « non » devient son outil principal, et il le teste partout. Il ne s'oppose pas contre toi, il s'oppose pour exister. Ce qui use n'est donc pas une crise, c'est le nombre. Et ce nombre est à son maximum à cet âge précis, parce que la capacité de dire non arrive bien avant celle de se calmer.",
+      "ancrage": "Tu n'as pas moins de patience qu'avant. Tu en dépenses simplement beaucoup plus, tous les jours, depuis plusieurs semaines.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : ce soir, si la réserve est vide",
+        "etapes": [
+          "Renoncer à une chose de la soirée : le rangement, le bain, un vrai repas, une seule.",
+          "Passer la main 10 minutes : à qui que ce soit, même par téléphone si personne n'est là.",
+          "Laisser filer les crises sans enjeu : celles qui ne touchent ni la sécurité ni le respect.",
+          "Sortir dehors 5 minutes avec lui : le dehors coupe plus de crises que n'importe quelle phrase.",
+          "Avancer le coucher de 20 minutes : le sien, et le tien si c'est possible."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : reconstituer un peu de réserve",
+        "etapes": [
+          "S'allonger 3 minutes, jambes surélevées contre un mur : le corps redescend vite.",
+          "Poser une main sur le front, l'autre sur la nuque : 10 secondes, sans rien faire d'autre.",
+          "Compter les expirations jusqu'à dix : recommencer si on perd le compte, c'est le but.",
+          "Desserrer les poings et écarter les doigts : cinq fois, très lentement.",
+          "Manger quelque chose de chaud : le corps enregistre la chaleur comme un signal de sécurité."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Installer un relais court et régulier : 20 minutes chaque jour valent mieux qu'un après-midi par mois.",
+        "Choisir trois batailles, pas trente : les autres se rangent, s'écartent, ou s'oublient.",
+        "Décider la fin de journée à l'avance : ce qui n'est pas prévu se décide au pire moment.",
+        "Se rappeler que cette phase se déplace : le nombre de non baisse à mesure qu'il parle."
+      ],
+      "principe": "L'opposition de cet âge n'est pas dirigée contre toi, elle sert à le construire. Ce n'est donc pas ta réserve qui doit grandir, ce sont les occasions de la vider qui doivent diminuer.",
+      "erreurs_a_eviter": [
+        "Tenir sur tout pour ne pas céder : trente batailles par jour n'en font gagner aucune.",
+        "Attendre un long moment de repos : il n'arrive jamais, et l'attente use encore davantage.",
+        "Prendre l'opposition pour un rapport de force : elle en devient un si on la traite comme telle.",
+        "Se juger d'avoir moins de patience : une réserve se vide, elle ne se fabrique pas par la volonté."
+      ],
+      "consulter_si": "Consulter si : tu as peur de tes propres gestes, si les cris deviennent quotidiens, ou si tu te sens au bord de perdre le contrôle → en parler à ton médecin ou à la PMI, ou appeler Allo Parents Bébé, 0 800 00 34 56, gratuit. Un tout-petit ne doit jamais être secoué : quelques secondes suffisent à provoquer des lésions graves. Et si tu as besoin de parler de ce que tu ressens envers ton enfant, le 119 répond aussi aux parents, jour et nuit, et il n'apparaît sur aucun relevé de téléphone."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Le cri plus fort que le sien / J'ai honte",
+      "titre": "Monter le ton ne fait jamais redescendre",
+      "explication": "Tu as crié plus fort que lui pour couvrir ses cris. Ça a marché 2 secondes, puis il a crié encore plus fort, et une voisine a fermé sa fenêtre. Quand deux voix montent en même temps, l'enfant n'entend plus le contenu, il entend le volume. Son cerveau bascule en alerte et il crie plus fort à son tour, parce que c'est le seul outil dont il dispose pour être entendu par-dessus le bruit. Une escalade ne s'arrête donc jamais par le haut : elle s'arrête quand l'un des deux redescend, et à dix-huit mois, ce ne peut pas être lui.",
+      "ancrage": "La honte que tu ressens dit que tu tiens à lui. Elle ne dit rien de ce que tu vaux comme parent.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : casser l'escalade",
+        "etapes": [
+          "S'arrêter de parler : le silence coupe une escalade plus vite que n'importe quelle phrase.",
+          "Descendre la voix d'un cran, puis d'un autre : il baisse la sienne pour continuer à t'entendre.",
+          "S'accroupir : la hauteur du corps fait autant que le ton de la voix.",
+          "Attendre sans rien exiger : ni excuse, ni regard, ni obéissance immédiate.",
+          "Nommer après, jamais pendant : « on a crié tous les deux, c'était trop fort »."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Retrouver le contact : quand les deux voix sont retombées",
+        "etapes": [
+          "Se remettre à sa hauteur en silence : rester là suffit souvent à rouvrir la porte.",
+          "Ouvrir les bras sans avancer : il vient s'il en a envie, sinon il viendra plus tard.",
+          "Poser une main à plat entre ses omoplates : appui léger et maintenu, quelques secondes.",
+          "Chuchoter une phrase courte : la voix basse répare mieux que les mots choisis.",
+          "S'arrêter à sa demande : s'il se dégage, on le laisse et on reste dans la pièce."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Repérer le moment de bascule : ce n'est presque jamais la première crise, c'est la troisième d'affilée.",
+        "Baisser le bruit ambiant en fin de journée : moins de fond sonore, moins d'escalade.",
+        "Dire à l'entourage ce qui aide : « ne commente pas sur le moment » est une vraie aide.",
+        "En parler à quelqu'un : une honte gardée pour soi rend la fois suivante plus probable."
+      ],
+      "principe": "Deux voix qui montent ne se rencontrent jamais en haut. C'est toujours l'adulte qui redescend le premier, non parce qu'il a tort, mais parce qu'il en est capable et que l'enfant ne l'est pas encore.",
+      "erreurs_a_eviter": [
+        "Répéter la consigne plus fort : le volume remplace le sens, et l'enfant décroche.",
+        "Exiger des excuses juste après : à cet âge elles sont récitées et ne réparent rien.",
+        "Se punir soi-même toute la soirée : la culpabilité prend la place de la réparation.",
+        "Faire comme si rien ne s'était passé : il a besoin d'entendre que l'adulte l'a vu aussi."
+      ],
+      "consulter_si": "Consulter si : tu as peur de tes propres gestes, si les cris deviennent quotidiens, ou si tu te sens au bord de perdre le contrôle → en parler à ton médecin ou à la PMI, ou appeler Allo Parents Bébé, 0 800 00 34 56, gratuit. Un tout-petit ne doit jamais être secoué : quelques secondes suffisent à provoquer des lésions graves. Et si tu as besoin de parler de ce que tu ressens envers ton enfant, le 119 répond aussi aux parents, jour et nuit, gratuitement."
+    },
+    {
+      "categorie": "parent",
+      "situation": "La maison à ranger encore / Je repasse derrière lui",
+      "titre": "Ce qu'un enfant de 18 mois peut vraiment faire",
+      "explication": "Tu as ramassé les mêmes cubes pour la troisième fois aujourd'hui, pendant qu'il te regardait faire, debout à côté. À dix-huit mois, ton enfant veut faire comme toi, et il en est capable bien plus tôt qu'on ne le croit : porter son assiette, jeter sa couche à la poubelle, mettre le linge dans le panier, pousser un tiroir. Ce sont des gestes à sa portée. Il ne les fera ni bien ni vite, et il faudra parfois repasser derrière. Mais l'envie d'imiter est à son sommet maintenant, et elle ne restera pas aussi forte : dans deux ans, il faudra la demander.",
+      "ancrage": "Tu ne lui demandes pas de t'aider. Tu lui laisses la place qu'il réclame déjà en te suivant partout.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : lui confier une chose, ce soir",
+        "etapes": [
+          "Choisir un geste, un seul : porter son assiette au plan de travail, et rien d'autre.",
+          "Le montrer une fois, lentement : à cet âge il copie ce qu'il voit, pas ce qu'il entend.",
+          "Le laisser rater : une assiette qui tombe fait partie de l'apprentissage.",
+          "Ne pas repasser derrière devant lui : le refaire sous ses yeux lui retire ce qu'il vient de faire.",
+          "Dire ce qu'il a fait plutôt qu'il est gentil : « tu as porté ton assiette »."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : quand la maison déborde quand même",
+        "etapes": [
+          "Fermer la porte des autres pièces : un désordre qu'on ne voit plus pèse moins lourd.",
+          "Fixer un point immobile 30 secondes : les yeux se reposent du désordre.",
+          "Poser les mains à plat sur une surface froide : le plan de travail, 10 secondes.",
+          "Aller au bout d'une seule chose : en commencer trois fatigue plus que d'en finir une.",
+          "S'asseoir 2 minutes d'abord : un rangement commencé debout depuis une heure ne finit jamais."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ajouter un geste par mois : jeter sa couche, mettre le linge au panier, appuyer sur le bouton.",
+        "Baisser ce qu'il doit atteindre : un panier à sa hauteur transforme une consigne en évidence.",
+        "Accepter la lenteur de ces semaines-là : c'est par elle qu'un geste finit par devenir le sien.",
+        "Renoncer chaque jour à un rangement : celui que personne ne remarquera."
+      ],
+      "principe": "Un enfant de cet âge ne participe pas pour aider, il participe pour faire comme toi. C'est ce moteur-là qui installe l'autonomie, et il est bien plus fort maintenant qu'il ne le sera à trois ans.",
+      "erreurs_a_eviter": [
+        "Attendre qu'il soit plus grand : l'envie d'imiter est maximale maintenant, elle baissera.",
+        "Corriger le geste pendant qu'il le fait : il abandonne, et il ne revient pas de sitôt.",
+        "Transformer la participation en obligation : ce qui est exigé perd tout son intérêt pour lui.",
+        "Ranger derrière lui en soupirant : il entend le soupir bien avant d'en comprendre le sens."
+      ],
+      "consulter_si": "Consulter si : la fatigue ne cède plus au repos, si la tristesse dure depuis plus de deux semaines, ou si plus rien ne te fait envie → en parler à ton médecin, à la sage-femme ou à la PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+    },
+    {
+      "categorie": "parent",
+      "situation": "L'enfant que je ne reconnais plus / Il s'oppose à tout",
+      "titre": "Le non qui construit, pas le non qui défie",
+      "explication": "Il a dit non au bain, non au canard du bain, non à sortir du bain. Vers dix-huit mois, ton enfant comprend qu'il est une personne à part entière, et il cherche à le montrer. Le « non » est l'outil qu'il vient de trouver pour cela, et il le teste partout, y compris sur des choses dont il avait envie 10 secondes plus tôt. Il ne dit pas non à toi, il dit oui à lui-même. C'est une étape du développement, pas un changement de caractère. Le jour où elle n'arrive pas, c'est cela qui inquiète les professionnels.",
+      "ancrage": "Ton enfant n'a pas changé. Il vient d'ajouter quelque chose, et ce quelque chose est bruyant.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : quand le non tombe sur tout",
+        "etapes": [
+          "Proposer deux choix qui te vont : « le pull rouge ou le bleu », jamais « tu veux t'habiller ».",
+          "Annoncer avant d'agir : « je vais te prendre dans les bras » évite la moitié des refus.",
+          "Accepter le non quand il ne coûte rien : céder là où c'est possible économise pour la suite.",
+          "Nommer son envie même en refusant : « tu voulais y aller seul, et là je te porte ».",
+          "Changer de pièce plutôt que d'insister : le décor fait davantage que l'argument."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : après une journée de non",
+        "etapes": [
+          "S'asseoir 2 minutes dans le noir : lumière éteinte, sans téléphone.",
+          "Poser les paumes sur les cuisses, doigts relâchés : 10 secondes, sans rien serrer.",
+          "Faire un soupir sonore, bouche ouverte : trois fois, sans retenir le bruit.",
+          "Passer le bout des doigts sur le cuir chevelu : petits cercles lents, 30 secondes.",
+          "Se rappeler une chose drôle de la journée : il y en a presque toujours une."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Réduire le nombre de moments où il doit obéir : l'habillage, la sortie, le repas, pas plus.",
+        "Lui donner du pouvoir sur ce qui ne compte pas : l'ordre du bain, la couleur du bol, le chemin.",
+        "Prévenir les transitions : « encore une fois, puis on range » vaut mieux qu'un arrêt net.",
+        "Se rappeler que cela se déplace : le non recule à mesure que les mots arrivent."
+      ],
+      "principe": "Dire non est la première façon qu'un enfant a de dire qu'il existe séparément. Cela se desserre à mesure qu'il trouve d'autres mots pour se dire, et ces mots-là arrivent vite.",
+      "erreurs_a_eviter": [
+        "Poser des questions fermées : « tu veux » appelle un non presque à chaque fois.",
+        "Répondre au non par un non : deux refus face à face n'ouvrent aucune sortie.",
+        "Lire l'opposition comme un manque de respect : il n'en a pas encore la notion, seulement l'élan.",
+        "Céder après avoir tenu longtemps : il retient combien de temps tenir, pas la règle."
+      ],
+      "consulter_si": "Consulter si : il s'oppose au point de se mettre en danger, s'il se cogne la tête volontairement de façon répétée, s'il ne cherche plus le contact après une crise, ou si les crises durent plus d'une vingtaine de minutes plusieurs fois par jour → en parler au médecin ou à la PMI."
+    }
+  ]
+}

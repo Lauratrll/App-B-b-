@@ -1,0 +1,239 @@
+{
+  "mois": 13,
+  "tranche_age": "13 mois",
+  "categorie": {
+    "id": "parent",
+    "nom": "Parents submergés",
+    "sous_titre": "Patience, pauses, limites et avis des autres",
+    "icone": "🫶"
+  },
+  "protocoles": [
+    {
+      "categorie": "parent",
+      "situation": "La patience qui lâche / Je craque dix fois par jour",
+      "titre": "L'usure vient de la série, pas de la crise",
+      "explication": "Il vient de vider le tiroir. Le même tiroir. Tu l'as rangé il y a 10 minutes, et tu t'entends dire non d'une voix que tu ne reconnais pas. À treize mois, ton enfant vérifie le monde en le refaisant. Il grimpe, il vide, il recommence, non pour te provoquer mais parce que son cerveau apprend par répétition et ne garde pas encore la règle d'un jour sur l'autre. Ce que tu vis pour la dixième fois, lui le vit pour la première. C'est cette asymétrie qui use : il découvre pendant que tu répètes. Et ce n'est pas la dixième bêtise qui fait craquer, c'est la neuvième additionnée aux huit précédentes.",
+      "ancrage": "Ce ne sont pas dix colères, c'est une seule fatigue qui remonte dix fois. Tu n'as pas à trouver plus de patience : tu as à casser la série.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : couper la série en cours",
+        "etapes": [
+          "Repérer l'heure : le créneau qui casse est presque toujours le même, avant le repas ou au retour de garde.",
+          "Baisser d'un cran sur ce créneau : une seule règle tenue, les autres attendent une heure.",
+          "Sortir du face-à-face : changer de pièce, ouvrir une fenêtre, passer les poignets sous l'eau froide.",
+          "Lui donner une chose à faire : un bac à vider, l'eau du bain, ce qui occupe ses mains près de toi.",
+          "Manger ou boire quelque chose : la faim du parent fait la moitié des dix."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : faire redescendre entre deux",
+        "etapes": [
+          "Souffler plus long qu'on inspire : quatre temps dedans, six dehors, cinq fois.",
+          "Relâcher la mâchoire : décoller les dents du haut de celles du bas, laisser tomber les épaules.",
+          "Appuyer le pouce au centre de l'autre paume : pression douce et maintenue, 30 secondes par main.",
+          "Sentir les deux pieds au sol : poids réparti, 10 secondes, avant de repartir.",
+          "Se parler comme on parlerait à quelqu'un qu'on aime : « c'est un créneau dur, pas une journée ratée »."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Décaler ce qui coince : avancer son repas avant le bain, préparer la veille ce qui casse le matin.",
+        "Sortir une tâche du créneau rouge : les courses, les papiers, tout ce qui peut attendre une autre heure.",
+        "Convenir d'un mot avec l'autre parent : un signal qui veut dire « prends le relais », sans discussion. Sans autre parent, une personne à qui envoyer ce mot.",
+        "Noter trois jours de suite : l'heure et le déclencheur sautent aux yeux plus vite qu'on ne croit."
+      ],
+      "principe": "Un parent ne devient pas plus patient en se le promettant. Il le devient quand la journée cesse de lui demander dix fois la même chose au même moment.",
+      "erreurs_a_eviter": [
+        "Se promettre de ne plus s'énerver : la promesse impossible ajoute de la culpabilité au onzième épisode.",
+        "Répéter la même consigne plus fort : à treize mois le volume ne remplace pas une mémoire qui n'est pas encore là.",
+        "Attendre le week-end pour souffler : la série se rejoue chaque jour, elle se coupe chaque jour.",
+        "Compter les crises de la journée : le décompte ajoute une charge et ne change rien à la série."
+      ],
+      "consulter_si": "Consulter si : tu as peur de tes propres gestes, si les cris deviennent quotidiens, ou si tu te sens au bord de perdre le contrôle → en parler à ton médecin ou à la PMI, ou appeler Allo Parents Bébé, 0 800 00 34 56, gratuit. Un tout-petit ne doit jamais être secoué : quelques secondes suffisent à provoquer des lésions graves. Et si tu as besoin de parler de ce que tu ressens envers ton enfant, le 119 répond aussi aux parents, jour et nuit, et il n'apparaît sur aucun relevé de téléphone.",
+      "source": "Source : prévention du syndrome du bébé secoué, Haute Autorité de santé ; les violences éducatives, 1000-premiers-jours.fr."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Les mini-pauses introuvables / Je n'ai pas 5 min. à moi",
+      "titre": "Prendre la pause qui existe déjà",
+      "explication": "Il joue par terre, tranquille. Tu t'assieds. Il lève la tête, il se lève, il vient. 4 secondes. À treize mois, ton enfant ne sait pas encore attendre longtemps, mais il attend très bien quelques secondes. Il peut jouer seul par tranches courtes, à condition de te voir ou de t'entendre : ta présence à distance lui suffit, alors que ton absence complète ne lui suffit pas encore. C'est ce qui rend la coupure très courte possible, et la demi-heure improbable. Autrement dit, la pause que tu attends n'existe pas ; celle que tu peux prendre, si.",
+      "ancrage": "Tu n'attends pas le bon moment, il ne viendra pas de lui-même. Tu prends celui qui existe déjà, plusieurs fois par jour, et personne ne t'a jamais dit que cela suffisait.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : les 90 secondes qui existent",
+        "etapes": [
+          "L'installer en sécurité : parc, chambre dégagée, porte ouverte, à portée de voix et de regard.",
+          "Annoncer et revenir vraiment : « je reviens », puis revenir, la fois suivante en dépend.",
+          "Boire un verre d'eau debout, sans téléphone : le défilement occupe l'attention au lieu de la relâcher.",
+          "S'asseoir 30 secondes : le corps enregistre l'assise comme une pause, pas la station debout.",
+          "Revenir avant qu'il appelle : une pause écourtée vaut mieux qu'une pause interrompue."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : recharger en 90 secondes",
+        "etapes": [
+          "Fermer les yeux le temps de trois respirations : c'est déjà une coupure sensorielle.",
+          "Poser les mains à plat sur le ventre : sentir le souffle bouger sous les paumes, 10 secondes.",
+          "Incliner la nuque d'un côté puis de l'autre : 5 secondes de chaque côté, sans forcer.",
+          "Presser le creux entre le pouce et l'index : appui léger et maintenu, 15 secondes par main.",
+          "Regarder le plus loin possible : par la fenêtre, 20 secondes, les yeux se reposent de la pièce."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Aménager un espace où il ne risque rien : c'est ce qui transforme une pause impossible en pause banale.",
+        "Découper au lieu d'attendre : trois fois 90 secondes valent mieux qu'une heure jamais prise.",
+        "Poser un créneau à soi dans la semaine : un seul, écrit sur le calendrier, tenu comme un rendez-vous.",
+        "Dire ce dont tu as besoin sans le faire deviner : « samedi matin, 2 heures » plutôt que « j'aimerais souffler »."
+      ],
+      "principe": "Le repos ne se met pas de côté comme une dette qu'on rembourse un jour. Il se prend en petites quantités, souvent, ou il ne se prend pas.",
+      "erreurs_a_eviter": [
+        "Attendre qu'il dorme pour souffler : c'est aussi l'heure où tout le reste attend.",
+        "Prendre la pause avec le téléphone : l'attention reste occupée, la fatigue ne bouge pas.",
+        "Renoncer parce que la pause paraît ridiculement courte : c'est la demi-heure suivante qui change.",
+        "Compter sur le week-end pour rattraper : le corps ne récupère pas en une fois ce qu'il perd en sept nuits."
+      ],
+      "consulter_si": "Consulter si : la fatigue ne cède plus au repos, si la tristesse dure depuis plus de deux semaines, ou si plus rien ne te fait envie → en parler à ton médecin, à la sage-femme ou à la PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Le doute à chaque limite / J'ai peur de mal les poser",
+      "titre": "Une limite tenue calmement ne blesse pas",
+      "explication": "Tu as dit non trois fois, il a recommencé trois fois, et tu te demandes si tu es trop dure ou pas assez. À treize mois, ton enfant ne peut pas encore se retenir tout seul : la partie de son cerveau qui freine une envie n'est pas mature, et elle ne le sera pas avant plusieurs années. Quand tu poses une limite, tu ne lui demandes donc pas de comprendre : tu freines à sa place, le temps qu'il apprenne à le faire. Il proteste parce qu'il n'a pas d'autre langage pour dire sa déception, pas parce que la limite serait injuste. Et le fait qu'il recommence ne dit rien de ta fermeté : c'est exactement comme cela qu'il apprend.",
+      "ancrage": "Dire non et rester présent ne sont pas deux gestes contraires. Tu as le droit de tenir, et de l'accompagner en même temps.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : poser la limite et rester",
+        "etapes": [
+          "Descendre à sa hauteur : s'accroupir avant de parler, sans le retenir tout de suite.",
+          "Dire la limite une fois, courte : « je ne suis pas d'accord, on va faire autrement ».",
+          "Nommer ce qu'il ressent : « tu en avais très envie, et je dis non, c'est dur ».",
+          "Proposer l'autre chose : la même envie ailleurs, avec un objet qui se prête à ça.",
+          "Rester à côté pendant qu'il proteste : sans céder, et sans le laisser seul avec ça."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Retrouver le contact : quand la protestation retombe",
+        "etapes": [
+          "Attendre qu'il vienne : ouvrir les bras sans avancer, c'est lui qui choisit le moment.",
+          "Poser une main à plat dans son dos : appui léger et maintenu, sans frotter ni tapoter.",
+          "Respirer plus lentement que lui : il cale son rythme sur celui de ton corps, pas sur tes mots.",
+          "Parler bas et peu : quelques mots suffisent, c'est le ton qui fait le travail.",
+          "S'arrêter à sa demande : s'il se dégage ou se crispe, on arrête sans insister."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Choisir trois règles, pas trente : celles qui protègent, et celles qui tiennent vraiment tous les jours.",
+        "Décider les règles au calme : avant le conflit, jamais pendant, et à deux quand c'est possible.",
+        "Aménager plutôt qu'interdire : ranger ce qui déclenche fait tomber dix non par jour.",
+        "Accepter la répétition : à cet âge une règle se réapprend chaque jour, ce n'est pas un échec d'éducation."
+      ],
+      "principe": "Ce qui abîme un enfant n'est pas la limite, c'est l'humiliation qui l'accompagne parfois. Poser un cadre clair et rester présent pendant qu'il le traverse sont une seule et même chose.",
+      "erreurs_a_eviter": [
+        "Expliquer longuement pendant la crise : une fois le corps débordé, les mots ne passent plus.",
+        "Céder après avoir tenu 10 minutes : il retient que la protestation finit par marcher.",
+        "L'isoler pour qu'il se calme seul : son cerveau ne sait pas encore redescendre sans un adulte à côté.",
+        "Changer la règle selon la fatigue du jour : l'incohérence coûte plus à l'enfant que la règle elle-même."
+      ],
+      "consulter_si": "Consulter si : tu as peur de tes propres gestes, si les cris deviennent quotidiens, ou si tu te sens au bord de perdre le contrôle → en parler à ton médecin ou à la PMI, ou appeler Allo Parents Bébé, 0 800 00 34 56, gratuit. Un tout-petit ne doit jamais être secoué : quelques secondes suffisent à provoquer des lésions graves. Et si tu as besoin de parler de ce que tu ressens envers ton enfant, le 119 répond aussi aux parents, jour et nuit, et il n'apparaît sur aucun relevé de téléphone."
+    },
+    {
+      "categorie": "parent",
+      "situation": "La préférence parentale / Il ne veut que l'un de nous",
+      "titre": "Une préférence n'est pas un classement",
+      "explication": "Tu tends les bras et il se détourne pour aller vers l'autre. Ou bien c'est l'inverse : c'est toi qu'il réclame du matin au soir, et tu n'as pas eu 10 minutes à toi depuis des semaines. Dans les deux cas ça fait mal, et presque personne ne le dit à voix haute. Voici ce qui se passe vraiment. Un tout-petit ne construit pas un seul lien, il en construit plusieurs : ses parents, la personne qui le garde, ses grands-parents. Mais il les range dans un ordre, et cet ordre ne sert qu'à une chose : savoir vers qui courir sans réfléchir quand il a peur, mal, ou trop sommeil. C'est un réflexe de protection, pas un jugement. La preuve se voit tous les jours : dès qu'il va bien, il joue avec tout le monde. La préférence ne réapparaît que dans les moments où il déborde. Et elle tourne : dans quelques mois, ce sera probablement l'autre.",
+      "ancrage": "Être celui qu'il repousse ne dit rien de ce que tu vaux pour lui. Et être celui qu'il réclame n'est pas une récompense, c'est une charge. Vous avez tous les deux une bonne raison d'être fatigués ce soir.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : cette semaine, à deux",
+        "etapes": [
+          "Confier un moment entier au parent écarté : le bain, ou le coucher, du début à la fin, sans relais.",
+          "Faire sortir l'autre de la pièce : rester à côté entretient l'appel et ne laisse aucune place.",
+          "Tenir les premières minutes : il proteste au début, puis la suite se passe presque toujours bien.",
+          "Ne rien commenter devant lui : « il ne veut que sa mère », répété, installe le rôle plus que la phase.",
+          "Recommencer demain, au même moment : c'est la répétition qui construit, pas la réussite du premier soir."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Retrouver le contact : quand le refus fait mal",
+        "etapes": [
+          "Laisser passer les trente premières secondes : ce refus pique très fort et retombe vite.",
+          "Ne pas insister avec les bras : revenir jouer à côté de lui, sans rien lui demander.",
+          "Regarder six mois en arrière : il réclamait quelqu'un d'autre, et personne ne s'en souvient.",
+          "Le dire à l'autre parent : « ça me fait mal » se dit, sinon ça s'installe en rancune.",
+          "Passer la main sans culpabilité : quand c'est toi qu'on réclame sans arrêt, il a quand même besoin de vous deux."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Donner au parent moins réclamé un territoire à lui : le bain chaque soir, ou les matins du week-end, toujours les mêmes.",
+        "Se méfier des phrases qui figent : « papa ne sait pas faire », dite cent fois, finit par devenir vraie pour lui.",
+        "Savoir que plusieurs adultes sûrs protègent : un enfant qui en a plusieurs traverse mieux la garde, les imprévus et les séparations.",
+        "Repérer les moments où la préférence disparaît : quand il va bien, il va vers tout le monde. C'est là qu'on voit qu'il n'y a pas de classement."
+      ],
+      "principe": "Un tout-petit ne classe pas ses parents par ordre d'amour, il organise ses adresses de secours. Celui qu'il appelle en premier est simplement celui dont il devine le mieux la réponse, et cela se construit dans le soin ordinaire et répété. Le lien de l'autre n'est pas en retard : il est en train de se faire, dans les gestes qu'on lui laisse.",
+      "erreurs_a_eviter": [
+        "Forcer le passage de bras pendant qu'il pleure : cela associe l'autre parent au moment où on l'arrache.",
+        "Le laisser choisir à chaque fois : à cet âge il choisira toujours le même, et l'écart se creuse tout seul.",
+        "Compenser par des sorties et des jeux : c'est le quotidien qui construit un lien, pas l'exceptionnel.",
+        "Lire cette préférence comme un verdict sur toi : elle changera plusieurs fois avant ses trois ans."
+      ],
+      "consulter_si": "Consulter si : le refus d'un parent devient total et dure des mois sans jamais s'inverser, si ton enfant ne cherche aucun adulte quand il a mal ou quand il a peur, ou si cette situation s'accompagne chez toi d'une tristesse qui dure plus de deux semaines → en parler au médecin, à la sage-femme ou à la PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Les avis extérieurs / « Ça n'a jamais tué personne »",
+      "titre": "Répondre sans entrer dans le débat",
+      "explication": "« Une petite tape n'a jamais tué personne. » C'est ta belle-mère, c'est dit en riant, et tout le monde regarde ailleurs. À treize mois, un enfant n'associe pas une douleur à son comportement : il l'associe à la personne qui l'a provoquée. C'est pour cette raison que la punition physique n'apprend rien. Elle ne modifie pas le comportement, et elle entame la confiance et le lien, qui sont justement ce sur quoi il s'appuie pour apprendre. Ce que la loi française interdit depuis 2019, la pédiatrie le déconseillait déjà. Tu n'as donc pas à trouver les bons arguments au milieu du repas : tu as seulement à tenir une ligne.",
+      "ancrage": "Tu n'as personne à convaincre. Tu as une ligne à tenir, et une phrase courte y suffit mieux qu'une discussion.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : couper court sans conflit",
+        "etapes": [
+          "Répondre court : « chez nous on ne tape pas », puis passer à autre chose.",
+          "Ne pas argumenter sur le fond : cette discussion-là ne se gagne pas au dessert.",
+          "Reprendre l'enfant : le prendre, changer de pièce, la scène s'arrête là.",
+          "Dire ce qui est attendu plutôt que ce qui est reproché : « appelez-moi, je m'en occupe ».",
+          "Poser la règle à ceux qui le gardent : une phrase, au calme, et jamais devant l'enfant."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : après la remarque",
+        "etapes": [
+          "Desserrer la mâchoire et les épaules : trois fois, en soufflant long.",
+          "Sortir 2 minutes : le temps que la colère de l'adulte redescende, pas celle de l'enfant.",
+          "Appuyer le pouce au centre de l'autre paume : pression douce et maintenue, 30 secondes par main.",
+          "Se redire la phrase choisie : l'avoir prête évite de la chercher la fois suivante.",
+          "Revenir vers l'enfant avant la conversation : lui aussi a entendu."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Préparer trois phrases : une pour la famille, une pour un inconnu, une pour celui qui le garde.",
+        "Dire ce qui marche plutôt que ce qui est interdit : proposer un choix, prévenir avant de changer d'activité, laisser réparer une maladresse.",
+        "Nommer ce qui n'est pas négociable chez ceux qui gardent : le reste peut varier, pas ça.",
+        "En parler à la PMI ou dans un lieu d'accueil parents-enfants : entendre d'autres parents désamorce beaucoup."
+      ],
+      "principe": "Un tout-petit n'apprend pas d'une douleur, il apprend de la relation. Tout ce qui entame le lien entame en même temps ce qui permettait à la règle de passer.",
+      "erreurs_a_eviter": [
+        "Débattre devant l'enfant : il comprend le ton bien avant les mots.",
+        "Laisser passer pour éviter la dispute : le silence est lu comme un accord par celui qui garde.",
+        "Répondre par une leçon d'éducation : la personne se ferme, et la règle ne passe plus du tout.",
+        "Croire qu'une fois suffit : la phrase se redit calmement, autant de fois qu'il le faut."
+      ],
+      "consulter_si": "Consulter si : tu as peur de tes propres gestes, si les cris deviennent quotidiens, ou si tu te sens au bord de perdre le contrôle → en parler à ton médecin ou à la PMI, ou appeler Allo Parents Bébé, 0 800 00 34 56, gratuit. Un tout-petit ne doit jamais être secoué : quelques secondes suffisent à provoquer des lésions graves. Si quelqu'un frappe ton enfant malgré tes avertissements, le 119 répond jour et nuit, gratuitement, et il n'apparaît sur aucun relevé de téléphone.",
+      "source": "Source : les violences éducatives, 1000-premiers-jours.fr ; éduquer autrement, mpedia.fr (AFPA)."
+    }
+  ]
+}

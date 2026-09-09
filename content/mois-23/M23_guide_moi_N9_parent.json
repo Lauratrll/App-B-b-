@@ -1,0 +1,193 @@
+{
+  "mois": 23,
+  "tranche_age": "23 mois",
+  "categorie": {
+    "id": "parent",
+    "nom": "Parents submergés",
+    "sous_titre": "L'école, les règles, le geste, le doute",
+    "icone": "🫶"
+  },
+  "protocoles": [
+    {
+      "categorie": "parent",
+      "situation": "L'entrée à l'école / J'angoisse plus que lui",
+      "titre": "Ce qui se prépare, et ce qui attend",
+      "explication": "Tu as déjà regardé les listes de fournitures, comparé deux écoles et repéré le trajet. Lui joue avec un carton dans le couloir. À deux ans, l'entrée en collectivité est encore loin pour lui, et déjà très proche pour toi. Il ne se projette pas : il vivra la séparation le jour où elle arrivera, pas avant. Toi, tu la vis déjà. Le risque n'est donc pas qu'il ne soit pas prêt, c'est qu'il apprenne l'inquiétude avant d'avoir rencontré la situation, parce qu'il lit ton visage bien mieux qu'un calendrier.",
+      "ancrage": "Ton angoisse est légitime et elle n'a pas à disparaître. Elle a seulement à ne pas voyager jusqu'à lui.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : ce qui se prépare maintenant",
+        "etapes": [
+          "En parler peu, et simplement : quelques phrases, pas un programme.",
+          "Montrer le lieu de loin : passer devant, sans commentaire inquiet.",
+          "Lire une histoire sur le sujet : elle travaille mieux que les explications.",
+          "Répondre à ses questions sans les devancer : il demande ce dont il a besoin.",
+          "Garder tes inquiétudes entre adultes : elles se disent, mais pas devant lui."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : quand l'inquiétude monte",
+        "etapes": [
+          "Poser une main sur le ventre : sentir le souffle bouger sous la paume, 10 secondes.",
+          "Nommer précisément ce qui t'inquiète : une peur nommée occupe moins de place.",
+          "Regarder ce qu'il sait déjà faire : il a appris énormément en un an.",
+          "Repousser la question à la rentrée : la préparation utile prend quelques semaines, pas des mois.",
+          "Expirer plus longuement qu'on inspire : quatre temps dedans, six dehors, cinq fois."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se renseigner sur le concret : les visites, l'adaptation, les horaires, tout cela se demande.",
+        "Ne pas faire de la propreté un objectif : elle vient à son rythme et n'a pas à devenir un enjeu.",
+        "Multiplier les petites séparations d'ici là : une heure chez quelqu'un vaut mille explications.",
+        "Parler à des parents dont l'enfant y est déjà : le concret rassure mieux que les principes."
+      ],
+      "principe": "Un enfant ne se prépare pas des mois à l'avance à une séparation, il s'y prépare en vivant de petites séparations qui se passent bien. Ce qui se transmet longtemps à l'avance, ce n'est pas la préparation, c'est l'inquiétude.",
+      "erreurs_a_eviter": [
+        "En parler tous les jours : la répétition transforme un événement ordinaire en épreuve.",
+        "Promettre que tout sera facile : une promesse invérifiable se retourne dès le premier jour.",
+        "En faire une condition de propreté : la pression avancée est ce qui la retarde le plus.",
+        "L'interroger pour se rassurer : « tu es content ? » demandé dix fois installe le doute."
+      ],
+      "consulter_si": "Consulter si : la séparation reste impossible après plusieurs semaines d'adaptation, s'il refuse de manger ou de dormir quand tu n'es pas là, ou si ton angoisse t'empêche de dormir ou de le laisser → en parler au médecin ou à la PMI."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Les règles de la maison / Je passe pour la méchante",
+      "titre": "Trois règles tenues valent mieux que trente",
+      "explication": "Tu as compté : tu as dit non onze fois avant le déjeuner, et il a désobéi onze fois. À deux ans, ton enfant ne retient pas une liste de règles. Il retient ce qui se répète, exactement pareil, tous les jours. Trente interdits ne lui apprennent rien parce qu'aucun n'est assez constant pour devenir un repère ; trois règles tenues chaque jour deviennent une évidence en quelques semaines. Et ce qui rend une règle acceptable pour lui, ce n'est pas la douceur du ton, c'est de savoir qu'elle ne bougera pas.",
+      "ancrage": "Poser un cadre ne fait pas de toi la méchante. Ce qui fait mal, ce n'est pas la limite, c'est le regard qu'il te lance juste après.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : choisir les trois",
+        "etapes": [
+          "En écrire trois, pas plus : ce qui protège, ce qui respecte, ce qui structure la journée.",
+          "Les formuler en positif : « on marche dans l'escalier » plutôt que « ne cours pas ».",
+          "Les faire valider par l'autre parent : une règle portée par un seul n'en est pas une.",
+          "Les dire à ceux qui le gardent : les mêmes mots, et les mêmes trois.",
+          "Laisser tomber le reste, ouvertement : décider de laisser n'est pas céder."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Retrouver le contact : après avoir tenu",
+        "etapes": [
+          "Rester dans la pièce pendant qu'il traverse : il ne redescend pas seul à cet âge.",
+          "Ouvrir les bras sans avancer : il vient quand il est prêt.",
+          "Poser une main à plat dans son dos : appui léger et maintenu, quelques secondes.",
+          "Nommer sans revenir sur la règle : « c'était dur, et je suis là ».",
+          "Reprendre quelque chose d'agréable ensemble : le cadre tient mieux quand le lien reprend juste après."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Les revoir tous les deux ou trois mois : elles évoluent avec ce qu'il sait faire.",
+        "Aménager plutôt qu'interdire : ce qui est hors de portée ne demande aucune règle.",
+        "Vérifier qu'elles tiennent les mauvais jours : une règle qui saute le vendredi n'en est pas une.",
+        "Prévenir avant les transitions : la plupart des conflits n'ont rien à voir avec la règle elle-même."
+      ],
+      "principe": "Ce qui apprend une règle à un enfant de deux ans, ce n'est ni le ton ni l'explication, c'est la constance. Et poser une limite claire tout en restant près de lui pendant qu'il la traverse sont un seul et même geste.",
+      "erreurs_a_eviter": [
+        "Multiplier les interdits : plus il y en a, moins chacun est tenu, et moins il en retient.",
+        "Le laisser seul pour qu'il se calme : à deux ans, il ne se régule pas encore sans un adulte.",
+        "Expliquer longuement pendant la crise : les mots ne passent plus une fois le corps débordé.",
+        "Changer selon la fatigue du jour : c'est l'irrégularité qui coûte, pas la limite."
+      ],
+      "consulter_si": "Consulter si : tu as peur de tes propres gestes, si les cris deviennent quotidiens, ou si tu te sens au bord de perdre le contrôle → en parler à ton médecin ou à la PMI, ou appeler Allo Parents Bébé, 0 800 00 34 56, gratuit. Un tout-petit ne doit jamais être secoué : quelques secondes suffisent à provoquer des lésions graves. Et si tu as besoin de parler de ce que tu ressens envers ton enfant, le 119 répond aussi aux parents, jour et nuit, gratuitement."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Le geste brusque / Ça m'a échappé, et je m'en veux",
+      "titre": "Un geste isolé n'est pas une trajectoire",
+      "explication": "Tu l'as posé sur sa chaise plus brusquement que tu ne voulais. Il n'a rien. Toi, tu tournes autour de ça depuis une heure. Un geste brusque chez un parent qui tient depuis deux ans n'est pas le début d'une série. C'est presque toujours le point où plusieurs choses se sont additionnées : le manque de sommeil, une journée difficile, et une goutte de trop. Ce qui distingue un geste isolé d'un basculement, ce n'est pas sa gravité sur le moment : c'est ce qui vient après, ce qu'on en fait, et si on en parle à quelqu'un.",
+      "ancrage": "T'en vouloir n'est pas le problème, c'est même le signe que rien n'est banalisé. Ce qui compte maintenant, ce sont les prochaines vingt-4 heures.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : dans les vingt-4 heures",
+        "etapes": [
+          "Vérifier qu'il va bien : s'il a été bousculé, secoué ou cogné, appeler le 15 sans attendre.",
+          "Réparer simplement : « je n'aurais pas dû, ce n'est pas de ta faute ».",
+          "Le dire à un adulte le jour même : c'est ce qui empêche le geste de se répéter.",
+          "Écrire ce qui a précédé : l'heure, la fatigue, ce qui s'était accumulé depuis le matin.",
+          "Retirer une chose de demain : une sortie, une exigence, une course."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : quand la culpabilité tourne",
+        "etapes": [
+          "Poser les deux mains à plat sur une table : 10 secondes, sans rien serrer.",
+          "Le dire une fois à voix haute : puis ne plus y revenir pendant la nuit.",
+          "Sentir les deux pieds au sol : poids réparti, 10 secondes.",
+          "Expirer plus longuement qu'on inspire : quatre temps dedans, six dehors, cinq fois.",
+          "Se coucher plus tôt : la culpabilité gonfle avec la fatigue."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Regarder si c'est isolé ou si cela revient : la fréquence est le seul critère qui compte vraiment.",
+        "Poser un relais avant le prochain point bas : une demi-journée écrite dans la semaine.",
+        "En parler à un professionnel : médecin, PMI, lieu d'accueil parents-enfants, sans attendre.",
+        "Ne pas garder ça pour toi : c'est la honte qui fait recommencer, pas le geste lui-même."
+      ],
+      "principe": "Ce qui protège un enfant n'est pas un parent qui ne dérape jamais, c'est un parent qui le voit, le répare et en parle. Le silence est le seul facteur qui transforme un geste isolé en habitude.",
+      "erreurs_a_eviter": [
+        "Se convaincre que ce n'était rien : la banalisation ouvre la porte à la fois suivante.",
+        "Se convaincre que c'est irréparable : la honte enferme et empêche d'en parler à quiconque.",
+        "Ne rien changer à la journée : à conditions identiques, le même point bas revient.",
+        "Attendre que cela se reproduise pour demander de l'aide : elle sert mieux avant."
+      ],
+      "consulter_si": "Consulter si : tu as peur de tes propres gestes, si les cris deviennent quotidiens, ou si tu te sens au bord de perdre le contrôle → en parler à ton médecin ou à la PMI, ou appeler Allo Parents Bébé, 0 800 00 34 56, gratuit. Un tout-petit ne doit jamais être secoué : quelques secondes suffisent à provoquer des lésions graves. Et si tu as besoin de parler de ce que tu ressens envers ton enfant, le 119 répond aussi aux parents, jour et nuit, et il n'apparaît sur aucun relevé de téléphone.",
+      "source": "Source : prévention du syndrome du bébé secoué, Haute Autorité de santé."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Le doute permanent / Je ne sais plus si je fais bien",
+      "titre": "Le doute qui cherche, le doute qui bloque",
+      "explication": "Il est 23h et tu refais la scène du goûter pour la quatrième fois. Tu ne cherches plus quoi faire : tu cherches si tu es un bon parent. Douter fait partie du métier, et c'est même ce qui rend attentif : un parent qui ne doute jamais ne se remet jamais en question. Mais il existe deux doutes. L'un pose une question et cherche une réponse, puis se referme dès qu'on a essayé quelque chose. L'autre tourne sans fin, revient chaque soir et ne conclut jamais, parce que sa vraie question n'est pas « qu'est-ce que je fais » mais « est-ce que je vaux quelque chose ».",
+      "ancrage": "Tu n'as pas besoin de certitude. Tu as besoin de pouvoir décider ce soir, et de savoir que ce n'est pas définitif.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : sortir de la boucle ce soir",
+        "etapes": [
+          "Poser la question autrement : « qu'est-ce que je fais demain », pas « est-ce que je fais bien ».",
+          "Choisir une seule chose à essayer : et se donner une semaine avant de juger.",
+          "Écrire la question : sur le papier elle a une taille, dans la tête elle n'en a pas.",
+          "Demander à une personne, pas à cinq : les avis multiples fabriquent le doute au lieu de le lever.",
+          "Se donner une heure limite : passé 22h, aucune décision éducative n'est bonne."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : quand la boucle repart le soir",
+        "etapes": [
+          "Se lever et changer de pièce : la boucle s'accroche à la position.",
+          "Poser une main au milieu de la poitrine : appui léger et maintenu, 10 secondes.",
+          "Nommer la pensée sans la suivre : « voilà le doute », et la laisser passer.",
+          "Compter cinq choses autour de toi : cela ramène l'attention dans la pièce.",
+          "Reporter à demain matin, à voix haute : « j'y repense demain » suffit souvent."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Regarder ce qui a été traversé en deux ans : la liste est longue, et elle s'oublie vite.",
+        "Réduire les sources : moins de comptes suivis, moins d'avis, moins de doutes.",
+        "Choisir deux ou trois repères qui te ressemblent : et s'y tenir plutôt que de tout comparer.",
+        "En parler à un professionnel si le doute paralyse : médecin, PMI, ou psychologue."
+      ],
+      "principe": "Un doute qui cherche une réponse est utile ; un doute qui revient chaque soir sans jamais conclure ne parle plus de l'enfant, il parle de la confiance qu'on s'accorde. Les deux ne se traitent pas de la même façon.",
+      "erreurs_a_eviter": [
+        "Chercher la bonne méthode : il n'y en a pas une, il y en a une qui te ressemble.",
+        "Multiplier les avis : chaque nouvel avis ajoute une possibilité de se tromper.",
+        "Juger sur une seule journée : c'est la répétition sur des mois qui construit, pas un soir.",
+        "Confondre douter et mal faire : ce sont deux choses différentes, et souvent opposées."
+      ],
+      "consulter_si": "Consulter si : le doute t'empêche de décider ou de dormir, s'il revient chaque soir depuis plusieurs semaines, ou si plus rien ne te fait envie → en parler à ton médecin, à la sage-femme ou à la PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+    }
+  ]
+}

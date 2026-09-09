@@ -2,62 +2,16 @@
   "mois": 23,
   "tranche_age": "23 mois",
   "categorie": {
-    "id": "corpo",
-    "ordre": 3,
-    "nom": "Corps & Motricité",
-    "sous_titre": "Bouger, grimper, tomber, dents",
+    "id": "motricite",
+    "nom": "Motricité & exploration",
+    "sous_titre": "Escalade, chutes, besoin de bouger, jeu",
     "icone": "🤸"
   },
   "protocoles": [
     {
       "categorie": "corpo",
-      "situation": "Grognon, bave, mâchouille tout : ses molaires poussent",
-      "titre": "Les dents / molaires qui poussent",
-      "explication": "Vers 23 mois arrivent souvent les deuxièmes molaires : de grosses dents qui percent une gencive épaisse, ce qui peut gêner ton enfant. Il bave, mâchouille tout, dort parfois moins bien, cherche à mordre pour soulager la pression. Contrairement à une idée répandue, une poussée dentaire reste une gêne modérée : elle ne donne pas de vraie fièvre et ne rend pas malade. Si de la fièvre ou d'autres symptômes apparaissent, ils ont une autre cause à chercher ailleurs. Chaque enfant vit ses dents différemment, et cette étape passe.",
-      "ancrage": "Tu ne peux pas faire pousser ses dents plus vite, mais tu peux l'aider à traverser l'inconfort. Le froid et ta présence sont tes meilleurs alliés.",
-      "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — soulager l'inconfort",
-        "etapes": [
-          "Proposer du froid : anneau de dentition réfrigéré (pas congelé), gant de toilette humide et frais à mâchouiller.",
-          "Contre-pression : avec un doigt propre, presser doucement la gencive quelques secondes — cela apaise.",
-          "Aliment frais adapté à son âge, toujours sous surveillance : le froid engourdit et soulage la gencive.",
-          "Essuyer la bave régulièrement : garder le menton au sec évite rougeurs et irritations.",
-          "Rassurer et câliner : la gêne rend grognon ; ta présence calme apaise autant que le froid."
-        ]
-      },
-      "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
-        "titre": "Geste doux — accompagner la gêne",
-        "etapes": [
-          "Un temps câlin au calme : contre toi, l'enfant se détend et sent moins la douleur.",
-          "Voix douce, nommer ce qu'il vit : « je sais, tes dents te gênent, je suis là ».",
-          "Toucher enveloppant sur le dos ou la joue, sans appuyer sur la mâchoire.",
-          "Proposer le froid pendant le câlin : deux apaisements en même temps."
-        ]
-      },
-      "pour_aller_plus_loin": [
-        "Éviter le collier d'ambre : inefficace et dangereux (risque de strangulation et d'étouffement) — les autorités françaises le déconseillent formellement.",
-        "Écarter les gels anesthésiants : leur sécurité n'est pas garantie à cet âge ; demander conseil au médecin ou au pharmacien avant tout produit.",
-        "Ne pas tout attribuer aux dents : une fièvre, une diarrhée importante ou un abattement ont une autre origine à explorer.",
-        "Anticiper le sommeil perturbé : quelques nuits plus agitées sont possibles ; garder le cadre du coucher stable aide à traverser."
-      ],
-      "principe": "Une poussée dentaire se soulage, elle ne se soigne pas : froid, contre-pression douce, présence. Elle reste une gêne passagère, sans fièvre ni maladie. Le bon réflexe est de ne pas médicaliser à l'excès et de chercher ailleurs si d'autres symptômes apparaissent.",
-      "erreurs_a_eviter": [
-        "Mettre un collier de dentition (ambre ou autre) — danger d'étouffement et de strangulation, efficacité jamais prouvée.",
-        "Utiliser un gel anesthésiant sans avis médical — sécurité non garantie à cet âge.",
-        "Attribuer une forte fièvre « aux dents » et attendre — c'est passer à côté d'une autre cause.",
-        "Donner un médicament « au cas où » sans dose vérifiée par un professionnel — jamais d'automédication à l'aveugle."
-      ],
-      "consulter_si": "Consulter si : fièvre élevée ou persistante, diarrhée importante, refus de boire, abattement inhabituel, ou douleur qui ne cède à rien → pédiatre, car ce n'est pas la faute des dents. Pour toute douleur nécessitant un médicament, demander la dose adaptée au poids à ton pédiatre ou pharmacien. En cas d'inquiétude sur l'état général : 15 (SAMU).",
-      "source": "Source : poussées dentaires (gêne modérée, sans fièvre) et danger du collier d'ambre — mpedia.fr (AFPA) ; DGCCRF."
-    },
-    {
-      "categorie": "corpo",
-      "situation": "Grimpe sur tout, sans conscience du danger",
-      "titre": "L'escalade / grimpe partout sans voir le danger",
+      "situation": "L'escalade sans peur / Il grimpe sur tout sans voir le danger",
+      "titre": "Un endroit pour grimper, et des meubles fixés",
       "explication": "À 23 mois, grimper est un besoin moteur puissant et sain : c'est ainsi que ton enfant développe sa force, son équilibre et la conscience de son corps dans l'espace. Il escalade le canapé, les chaises, les meubles… mais son cerveau ne mesure pas encore le danger ni le vide : la partie qui anticipe les conséquences est très immature. Il ne « fait pas de bêtises », il explore ce que son corps sait faire. Ton rôle n'est pas d'empêcher le mouvement, mais de rendre son environnement sûr pour qu'il grimpe sans se blesser.",
       "ancrage": "Ce n'est pas de la désobéissance : c'est un cerveau qui explore plus vite qu'il ne juge le risque. À toi d'aménager le terrain plutôt que de lutter contre un besoin normal.",
       "action_immediate": {
@@ -100,8 +54,8 @@
     },
     {
       "categorie": "corpo",
-      "situation": "Tombe et se cogne souvent en explorant",
-      "titre": "Les chutes / tombe et se cogne en explorant",
+      "situation": "Les chutes en explorant / Il tombe et se cogne en explorant",
+      "titre": "Amortir le sol, accueillir sans dramatiser",
       "explication": "À 23 mois, ton enfant court, grimpe, se retourne… et tombe : ses capacités motrices avancent plus vite que leur maîtrise, et les chutes font partie de l'apprentissage. La grande majorité sont sans gravité — une bosse, quelques larmes, et c'est reparti. Chaque chute affine son équilibre et sa prudence. Ta réaction compte beaucoup : un enfant regarde le visage de son parent pour savoir si c'est grave. Rester calme l'aide à se calmer ; paniquer amplifie sa peur, souvent plus que la douleur elle-même.",
       "ancrage": "La plupart des chutes font plus de peur que de mal. Ton calme rassure ton enfant et t'aide à observer ce qui compte vraiment : son comportement, pas la taille de la bosse.",
       "action_immediate": {
@@ -145,8 +99,8 @@
     },
     {
       "categorie": "corpo",
-      "situation": "Ne tient pas en place, bouge sans arrêt",
-      "titre": "Le besoin de bouger / ne tient pas en place",
+      "situation": "Le besoin de bouger / Il ne tient pas en place une minute",
+      "titre": "Dépenser avant d'exiger le calme",
       "explication": "À 23 mois, ton enfant a un besoin de mouvement immense et physiologique : bouger, courir, grimper, c'est ainsi que son corps et son cerveau se construisent. Rester assis ou calme longtemps lui demande un effort qu'il ne peut pas encore fournir. Ce n'est ni de l'énervement à calmer de force ni un trop-plein à éteindre : c'est un moteur qui a besoin de tourner. À cet âge, cette agitation motrice est la norme, pas le signe d'un trouble. Un enfant qui se dépense assez est aussi un enfant plus apaisé et qui dort mieux.",
       "ancrage": "Il n'a pas « trop » d'énergie : il a l'énergie de son âge. Ton rôle n'est pas de la contenir, mais de lui offrir de quoi la dépenser.",
       "action_immediate": {
@@ -186,6 +140,50 @@
         "Supprimer les sorties les jours chargés — c'est justement là qu'il a le plus besoin de se dépenser."
       ],
       "consulter_si": "Consulter si : l'agitation s'accompagne d'une souffrance (l'enfant ne trouve jamais de repos, se met sans cesse en danger, ne communique pas, ou régresse), ou si elle t'inquiète vraiment au quotidien → en parler au pédiatre, qui pourra orienter vers un psychomotricien. Un simple grand besoin de bouger, sans autre signe, est le propre de cet âge."
+    },
+    {
+      "categorie": "corpo",
+      "situation": "Le trop de jouets / Il passe de l'un à l'autre et s'ennuie",
+      "titre": "Faire tourner plutôt qu'ajouter",
+      "explication": "Ton enfant a plein de jouets… et pourtant il papillonne, ne joue à rien plus de 2 minutes, réclame sans cesse « autre chose ». Ce n'est pas un manque de jouets, c'est le contraire : trop de choix sature son cerveau de 23 mois. Face à une montagne d'objets, il ne parvient ni à choisir ni à se concentrer — chaque jouet devient un appel qui l'empêche d'explorer vraiment le précédent. Moins de jouets visibles, c'est paradoxalement plus de jeu, plus profond et plus long. Un tout-petit joue mieux avec peu, mais bien présenté.",
+      "ancrage": "Son agitation n'est pas un ennui à combler par plus de jouets : c'est un trop-plein à alléger. En retirer, c'est lui redonner la capacité de jouer.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — quand il papillonne",
+        "etapes": [
+          "Ranger l'excès sous ses yeux : ne laisser que quelques jouets accessibles, dégager l'espace.",
+          "Présenter un seul jeu à la fois, posé et invitant : un plateau, un coin, une proposition claire.",
+          "Jouer un instant avec lui pour amorcer : ta présence relance l'attention mieux qu'un nouveau jouet.",
+          "Résister à « donner autre chose » : l'aider à rester sur un jeu plutôt qu'à en changer.",
+          "Nommer ce qu'il fait : « tu empiles, ça tient ! » — l'intérêt de l'adulte prolonge le jeu."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — retrouver le plaisir de jouer",
+        "etapes": [
+          "S'asseoir au sol avec lui, sans téléphone, disponible : le jeu naît de la présence.",
+          "Proposer des objets simples et ouverts : cuillères, boîtes, tissus — l'imagination fait le reste.",
+          "Laisser des silences : ne pas sur-animer, lui laisser explorer à son rythme.",
+          "Valoriser la concentration : « tu as bien cherché », plutôt que multiplier les jouets."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Mettre en place la rotation des jouets : ranger la plupart des jouets hors de vue, n'en laisser qu'une petite sélection accessible, et la changer toutes les une à deux semaines. Les jouets « revenus » retrouvent tout leur attrait, comme neufs.",
+        "Varier les registres dans la sélection : un jeu de manipulation, un de construction, un d'imitation, des livres — de la variété sans la surcharge.",
+        "Observer avant de renouveler : garder ce qui capte vraiment, ranger ce qu'il délaisse — la rotation se règle sur son intérêt réel.",
+        "Privilégier le peu et le durable : quelques jouets ouverts valent mieux qu'une montagne d'objets à effet immédiat."
+      ],
+      "principe": "Trop de jouets étouffe le jeu au lieu de le nourrir : un tout-petit se concentre et invente davantage avec peu d'objets bien choisis. La rotation des jouets — n'en laisser qu'une petite sélection à la fois et la renouveler régulièrement — entretient la nouveauté sans la surcharge, et rallonge nettement le temps de jeu autonome.",
+      "erreurs_a_eviter": [
+        "Répondre à l'ennui par un nouveau jouet — on renforce le papillonnage qu'on veut calmer.",
+        "Laisser tous les jouets accessibles en permanence — la surcharge visuelle disperse l'attention.",
+        "Multiplier les jouets à piles très stimulants — ils occupent mais n'apprennent pas à jouer.",
+        "Sur-animer chaque jeu — l'enfant a aussi besoin de s'ennuyer un peu pour inventer."
+      ],
+      "consulter_si": "Consulter si : ton enfant ne parvient jamais à se poser sur aucune activité, même seul avec peu de jouets et un adulte présent, ou si cela s'accompagne d'un retard de langage ou d'un évitement du contact → en parler au pédiatre. Un tout-petit qui papillonne mais se concentre mieux dès qu'on allège et qu'on l'accompagne, c'est simplement un cerveau de 2 ans qui a besoin de moins pour jouer plus."
     }
   ]
 }

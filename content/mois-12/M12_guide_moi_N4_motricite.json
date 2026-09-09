@@ -2,16 +2,16 @@
   "mois": 12,
   "tranche_age": "12 mois",
   "categorie": {
-    "id": "corpo",
-    "nom": "Corps, dents & confort",
-    "sous_titre": "Premiers pas, chutes, escalade, molaires, brossage",
-    "icone": "🦶"
+    "id": "motricite",
+    "nom": "Motricité & exploration",
+    "sous_titre": "Premiers pas, chutes, escalade, sécurité",
+    "icone": "🤸"
   },
   "protocoles": [
     {
       "categorie": "corpo",
-      "situation": "Pas encore de premiers pas / à 12 mois",
-      "titre": "Les premiers pas / ils ne sont pas là au premier anniversaire",
+      "situation": "L'attente des premiers pas / Il ne marche toujours pas à un an",
+      "titre": "Ce que l'on regarde à cet âge",
       "explication": "La marche autonome s'installe le plus souvent entre 9 et 18 mois. À 12 mois, moins de la moitié des enfants marchent seuls, et ceux qui commencent à 16 ou 17 mois se situent pleinement dans la norme. Chaque enfant suit son propre chemin : certains passent par le quatre pattes, d'autres se déplacent assis sur les fesses, d'autres restent longtemps debout le long des meubles avant de lâcher. Ce qui compte n'est pas la date mais la progression : les appuis se renforcent, l'équilibre s'affine, l'envie d'aller plus loin grandit.",
       "ancrage": "Ce n'est ni une course ni une compétition, et rien de ce que tu fais ne peut avancer la date. Ton rôle est d'offrir de l'espace et du temps au sol.",
       "action_immediate": {
@@ -56,8 +56,8 @@
     },
     {
       "categorie": "corpo",
-      "situation": "Chutes à répétition / dès qu'il lâche les appuis",
-      "titre": "Les chutes / apprendre l'équilibre par l'erreur",
+      "situation": "Les chutes / Il tombe dès qu'il lâche les appuis",
+      "titre": "Apprendre l'équilibre par l'erreur",
       "explication": "Un enfant qui apprend à marcher tombe des dizaines de fois par jour, et c'est ainsi qu'il apprend. Son centre de gravité est haut, sa tête est lourde, ses réflexes de protection des bras arrivent tout juste. La grande majorité des chutes se font sur les fesses ou en avant sur les mains, sans gravité. Chaque atterrissage affine son ajustement et l'aide à mieux se rattraper la fois suivante. Ce qu'il retient de la chute dépend beaucoup de ce qu'il lit sur ton visage juste après.",
       "ancrage": "Ton calme lui apprend à se relever, ta panique lui apprend à avoir peur. Une seconde de respiration avant de réagir change tout le message.",
       "action_immediate": {
@@ -101,8 +101,8 @@
     },
     {
       "categorie": "corpo",
-      "situation": "Grimpe partout / sans conscience du vide",
-      "titre": "L'escalade / sécuriser la maison quand la verticalité arrive",
+      "situation": "L'escalade sans conscience du vide / Il grimpe sans voir le danger",
+      "titre": "Sécuriser la maison d'un coup",
       "explication": "Grimper est un besoin moteur puissant et sain : c'est ainsi que ton enfant développe sa force, son équilibre et la conscience de son corps dans l'espace. Il escalade le canapé, les chaises, les tiroirs ouverts. Son cerveau, lui, ne mesure pas encore le vide ni les conséquences : la zone qui anticipe le risque est très immature à un an. Il n'explore pas pour désobéir, il explore ce que son corps sait faire. C'est l'environnement qui doit s'adapter, bien avant l'enfant.",
       "ancrage": "Ton rôle n'est pas d'empêcher le mouvement mais d'aménager le terrain. Un besoin canalisé s'exprime là où c'est sûr, un besoin bloqué ressort ailleurs.",
       "action_immediate": {
@@ -146,8 +146,8 @@
     },
     {
       "categorie": "corpo",
-      "situation": "Se cogne la tête en tombant / quand faut-il s'inquiéter",
-      "titre": "Le choc à la tête / les signes qui demandent un avis",
+      "situation": "Le choc à la tête / Il s'est cogné la tête en tombant",
+      "titre": "Les signes qui demandent un avis",
       "explication": "Les chocs à la tête sont fréquents chez un enfant qui apprend à marcher : sa tête est lourde et proportionnellement plus grosse que celle d'un adulte, et elle arrive souvent en premier. La grande majorité de ces chocs sont bénins : une bosse apparaît, l'enfant pleure, puis repart jouer. Ce qui renseigne sur la gravité, ce n'est ni le bruit ni la taille de la bosse, mais le comportement de l'enfant dans les heures qui suivent. Certains signes demandent un avis rapide, et ils sont observables sans être médecin.",
       "ancrage": "Tu n'as pas à évaluer une blessure, tu as à observer un comportement. Repérer les bons signes et appeler suffit, c'est le professionnel qui juge.",
       "action_immediate": {
@@ -189,98 +189,6 @@
       ],
       "consulter_si": "Consulter si, après un choc à la tête : perte de connaissance même brève, vomissements répétés, somnolence anormale ou difficulté à le réveiller, comportement inhabituel, convulsion, écoulement par le nez ou l'oreille, ou membre qui ne fonctionne plus normalement → appeler le 15 ou se rendre aux urgences. Avant 2 ans, un avis médical reste prudent même sans signe visible.",
       "source": "Source : conduite à tenir devant un traumatisme crânien de l'enfant, Ameli ; mpedia.fr (AFPA)."
-    },
-    {
-      "categorie": "corpo",
-      "situation": "Premières molaires / douleur sourde et joues rouges",
-      "titre": "Les premières molaires / soulager une gêne qui dure",
-      "explication": "Après les incisives et les canines, les premières molaires percent le plus souvent entre 12 et 18 mois. Ce sont de grosses dents plates qui traversent une gencive épaisse : la gêne est plus large et s'étale davantage dans le temps qu'avec une incisive. Ton enfant bave, mâchouille, a parfois les joues rouges, devient grognon par vagues. Une poussée dentaire reste une gêne modérée : elle ne donne pas de vraie fièvre et ne rend pas malade. L'ordre et les dates d'apparition varient beaucoup d'un enfant à l'autre.",
-      "ancrage": "Tu ne peux pas accélérer la sortie de la dent, tu peux rendre l'attente plus douce. Le froid, la pression et ta présence sont ce dont tu disposes.",
-      "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate : soulager la gencive",
-        "etapes": [
-          "Proposer du froid : anneau de dentition réfrigéré, ou gant de toilette humide et frais à mâchouiller.",
-          "Appliquer une contre-pression : avec un doigt propre, presser la gencive quelques secondes, cela apaise.",
-          "Donner à mâcher au repas : un aliment frais et ferme adapté à son âge, toujours sous surveillance.",
-          "Essuyer la bave régulièrement : garder le menton sec limite les rougeurs de la peau.",
-          "Rester disponible : un enfant gêné se console autant par les bras que par le froid."
-        ]
-      },
-      "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
-        "titre": "Réflexologie : accompagner la poussée dentaire",
-        "etapes": [
-          "S'installer contre toi : assis ou allongé, pieds accessibles, dans le calme.",
-          "Base des orteils : parcourir doucement la ligne située juste sous les orteils, plusieurs passages.",
-          "Zone du gros orteil : appui léger et maintenu, sa face interne correspond à la sphère de la mâchoire.",
-          "Balayage de la voûte : du talon vers les orteils, pression douce et constante, pour terminer.",
-          "S'arrêter à sa demande : un pied retiré ou une crispation met fin au geste."
-        ]
-      },
-      "pour_aller_plus_loin": [
-        "Écarter le collier d'ambre : inefficace, et dangereux par risque de strangulation et d'étouffement.",
-        "Demander conseil avant tout produit : gels et préparations pour gencives demandent l'accord du médecin ou du pharmacien.",
-        "Garder le cadre du soir : les repères habituels aident à traverser les quelques nuits plus agitées.",
-        "Prévoir des anneaux en double : l'un au frais pendant que l'autre est utilisé, l'effet du froid est court."
-      ],
-      "principe": "Une poussée dentaire s'accompagne, elle ne se médicalise pas. Elle explique une gêne, une bave et une humeur variable, mais elle n'explique ni une fièvre élevée ni un enfant abattu.",
-      "erreurs_a_eviter": [
-        "Mettre un collier de dentition autour du cou : le danger est réel et l'efficacité n'a pas été démontrée.",
-        "Utiliser un gel anesthésiant à la lidocaïne : il ne convient pas avant deux ans.",
-        "Attribuer aux dents une forte fièvre et attendre : c'est passer à côté d'une autre cause à chercher.",
-        "Donner un médicament de sa propre initiative : toute dose se vérifie auprès d'un professionnel."
-      ],
-      "consulter_si": "Consulter si : fièvre élevée ou persistante, diarrhée importante, refus de boire, abattement inhabituel, ou douleur qui ne cède à rien → en parler au pédiatre, car ces signes ne relèvent pas des dents. Pour toute douleur nécessitant un médicament, demander la dose adaptée au poids au pédiatre ou au pharmacien.",
-      "source": "Source : poussées dentaires et danger du collier d'ambre chez le jeune enfant, mpedia.fr (AFPA) ; Direction générale de la concurrence, de la consommation et de la répression des fraudes."
-    },
-    {
-      "categorie": "corpo",
-      "situation": "Refuse le brossage de dents / se débat chaque soir",
-      "titre": "Le brossage / en faire un jeu d'imitation",
-      "explication": "Le brossage commence dès la première dent, bien avant que l'enfant comprenne pourquoi. À 12 mois, il ne peut pas encore coopérer volontairement : ouvrir la bouche pour laisser quelqu'un y entrer demande une confiance qui se construit. Se débattre est une réaction normale à une sensation nouvelle dans une zone très sensible, d'autant plus quand les molaires travaillent. Ce qui compte à cet âge, c'est l'habitude : un geste quotidien, court et prévisible, qui deviendra naturel bien avant qu'il sache cracher.",
-      "ancrage": "Vise la régularité plutôt que la perfection. Trente secondes acceptées chaque jour valent mieux qu'un brossage complet obtenu de force.",
-      "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate : au moment du brossage",
-        "etapes": [
-          "Se brosser les dents devant lui : à cet âge, l'imitation entraîne bien plus que la consigne.",
-          "Installer une position stable : assis sur tes genoux, dos contre toi, tête légèrement en appui.",
-          "Doser le dentifrice fluoré adapté à son âge : une trace suffit, la quantité se règle avec ton pédiatre, ton dentiste ou ton pharmacien.",
-          "Aller vite et régulièrement : quelques secondes par zone, sans chercher à tout faire du premier coup.",
-          "Terminer sur du positif : une chanson, un jeu de miroir, pour que le moment se referme bien."
-        ]
-      },
-      "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
-        "titre": "Geste doux : apprivoiser la bouche avant la brosse",
-        "etapes": [
-          "Laisser la brosse en dehors du moment du soir : il la mâchouille seul, à un autre moment de la journée.",
-          "Toucher léger autour de la bouche : joues, lèvres, menton, du bout des doigts, s'il apprécie.",
-          "Passer un doigt propre sur ses gencives : quelques secondes, pour l'habituer au contact intérieur.",
-          "Nommer chaque geste avant de le faire : l'annonce supprime l'effet de surprise.",
-          "Arrêter à son signal : une main qui repousse est une limite qu'on respecte, on réessaie plus tard."
-        ]
-      },
-      "pour_aller_plus_loin": [
-        "Ancrer le brossage dans le rituel du soir : la même place dans la séquence, tous les jours, à la même heure.",
-        "Choisir une brosse à très petite tête et poils souples : le confort change tout à cet âge.",
-        "Lui donner sa propre brosse : une pour lui pendant que tu utilises la tienne rend le moment plus acceptable.",
-        "Limiter le sucre entre les repas : ce qui protège le plus ses dents se joue aussi dans l'assiette."
-      ],
-      "principe": "À cet âge, on installe une habitude bien plus qu'on ne nettoie des dents. L'enfant qui associe ce moment à la douceur et à l'imitation acceptera le vrai brossage sans lutte quand il en aura l'âge.",
-      "erreurs_a_eviter": [
-        "Maintenir la tête pour ouvrir la bouche de force : la lutte s'installe pour des années.",
-        "Sauter le brossage parce qu'il n'a que quelques dents : les caries touchent aussi les dents de lait très tôt.",
-        "Donner un biberon de lait ou une boisson sucrée après le brossage : le sucre reste au contact des dents toute la nuit.",
-        "Négocier longuement chaque soir : plus le brossage dure, plus il devient un enjeu."
-      ],
-      "consulter_si": "Consulter si : tu remarques des taches blanches, brunes ou noires sur les dents, une gencive rouge et gonflée qui saigne, une dent cassée ou déplacée après une chute, ou une douleur qui gêne l'alimentation → prendre rendez-vous chez un chirurgien-dentiste. En France, un examen bucco-dentaire pris en charge est proposé à partir de 3 ans, et rien n'empêche une consultation avant.",
-      "source": "Source : hygiène bucco-dentaire du jeune enfant et prévention de la carie précoce, Union française pour la santé bucco-dentaire ; mpedia.fr (AFPA)."
     }
   ]
 }

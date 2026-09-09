@@ -1,0 +1,195 @@
+{
+  "mois": 15,
+  "tranche_age": "15 mois",
+  "categorie": {
+    "id": "alim",
+    "nom": "Alimentation",
+    "sous_titre": "Manger seul, légumes, imitation, mastication",
+    "icone": "🍴"
+  },
+  "protocoles": [
+    {
+      "categorie": "alim",
+      "situation": "La fourchette tout seul / Il en met partout",
+      "titre": "Le désordre fait partie de l'apprentissage",
+      "explication": "À quinze mois, ton enfant sait attraper et porter à sa bouche, mais la rotation du poignet n'est pas encore là. La fourchette demande quatre choses à la suite : viser, piquer, tourner le manche, arriver jusqu'à la bouche sans que tout tombe. Chaque essai raté est un essai qui compte, et cet apprentissage s'étale sur des mois. La quantité vraiment avalée baisse pendant cette période, parce qu'une partie du repas passe désormais dans le geste plutôt que dans l'estomac.",
+      "ancrage": "Ce qu'il renverse est la trace de son travail, pas un dégât. Tu peux préparer le terrain pour salir tranquillement, et garder ton énergie pour la fin du repas.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : pendant qu'il essaie",
+        "etapes": [
+          "Sortir deux fourchettes : la sienne pour essayer, la tienne pour compléter sans lui prendre la main.",
+          "Piquer à sa place : tu prépares la bouchée sur sa fourchette, il fait le trajet tout seul.",
+          "Servir ce qui se pique : dés de légumes cuits fermes, morceaux de pâtes, cubes de fromage.",
+          "Épaissir ce qui glisse : une purée dense tient sur les dents de la fourchette, une purée liquide non.",
+          "Installer pour salir : bavoir à manches, tapis sous la chaise, et on ramasse une seule fois, à la fin."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Hors du repas : s'entraîner sans enjeu",
+        "etapes": [
+          "Transvaser à la cuillère : semoule ou riz sec d'un bol à l'autre, assis, quelques minutes.",
+          "Viser à vide : porter une cuillère vide à la bouche, juste pour le trajet et le mouvement du bras.",
+          "Piquer pour de faux : des morceaux de pâte à modeler ou d'éponge, le geste s'apprend sans la faim.",
+          "Guider main sur main : ta main sur la sienne trois secondes, puis tu la retires et tu le laisses.",
+          "Arrêter dès qu'il s'en va : c'est un jeu, il ne se prolonge pas et il revient un autre jour."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Choisir le bon matériel : fourchette courte, manche large, dents arrondies, assiette à rebord et fond antidérapant.",
+        "Vérifier l'installation : pieds en appui, coudes au niveau du plateau, la main travaille mieux quand le buste est stable.",
+        "Compléter à la fin, pas pendant : quelques bouchées données une fois qu'il a terminé d'essayer.",
+        "Prévenir le mode de garde : le même droit d'essayer à la crèche ou chez l'assistante maternelle."
+      ],
+      "principe": "Ce qui salit et ce qui nourrit sont ici le même geste. Moins on interrompt pour nettoyer, plus la concentration reste entière, et c'est elle qui rend la main précise.",
+      "erreurs_a_eviter": [
+        "Retirer la fourchette dès que ça tombe : il perd l'essai au moment précis où il allait comprendre.",
+        "Servir ce qui ne se pique pas : une purée liquide et des petits pois font échouer un geste qui était bon.",
+        "Le nourrir en parallèle pour aller plus vite : les deux fourchettes se gênent et il finit par lâcher la sienne.",
+        "Commenter le résultat à voix haute : « regarde ce que tu as fait » transforme un apprentissage en faute."
+      ],
+      "consulter_si": "Consulter si : ton enfant perd du poids depuis qu'il mange seul, s'il n'arrive pas à porter un aliment jusqu'à sa bouche à quinze mois, s'il se sert systématiquement d'une seule main, si sa main fatigue ou tremble très vite, ou si le repas s'étire au point qu'il ne mange plus assez → pédiatre, médecin traitant ou PMI, qui pourront orienter vers un ergothérapeute ou un psychomotricien.",
+      "source": "Source : encourager l'enfant à manger seul, avec ses doigts puis avec ses couverts, Santé publique France, programme national nutrition santé (mangerbouger.fr) ; repères pédiatriques mpedia.fr (AFPA)."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Les légumes écartés / Il mange tout, sauf les légumes",
+      "titre": "Le légume revient sans chantage",
+      "explication": "Le légume est l'aliment le plus souvent écarté, et pour de bonnes raisons de son point de vue : il est amer plus souvent que les autres, sa texture est fibreuse, et son goût varie d'une cuisson à l'autre. À quinze mois, ton enfant ne le découvre plus, il l'a identifié et il le trie. Ce tri est une étape, pas un goût définitif : ce qui le fait bouger, c'est de continuer à croiser le légume à table, dans un climat qui ne demande rien.",
+      "ancrage": "Tu n'as pas à lui faire aimer les légumes cette semaine. Tu as à faire en sorte qu'ils restent dans le paysage, ce qui est beaucoup plus simple et beaucoup plus efficace.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : au repas où il les écarte",
+        "etapes": [
+          "Le servir à part : dans un petit ramequin à côté, il n'a pas à en manger, seulement à l'avoir devant lui.",
+          "Changer la forme, pas le légume : bâtonnet cru, rôti, en soupe, en galette, la même carotte a quatre visages.",
+          "Le poser près de ce qu'il aime : à côté des pâtes, pas mélangé dedans.",
+          "N'échanger contre rien : pas de dessert promis, pas de « une bouchée pour maman »."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Hors du repas : cuisiner et toucher le légume",
+        "etapes": [
+          "L'emmener le choisir : le tenir dans sa main au marché ou au rayon change déjà son statut.",
+          "Le laver avec lui : les mains dans l'eau et sur la peau du légume, sans rien avoir à goûter.",
+          "Lui donner un vrai rôle : casser les haricots, écosser les petits pois, tourner l'essoreuse à salade.",
+          "Nommer sans vendre : sa couleur, son odeur, le bruit qu'il fait quand on le casse, pas son goût.",
+          "S'arrêter avant qu'il se lasse : 2 minutes de préparation valent mieux qu'un quart d'heure tenu de force."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Le voir dans ton assiette : un légume que les adultes mangent avec plaisir finit par se demander tout seul.",
+        "Compter en semaines : un légume accepté demande souvent une dizaine de présentations, parfois davantage.",
+        "Garder l'apport ailleurs : fruits, féculents complets et laitages couvrent l'essentiel pendant que le légume attend.",
+        "Le faire pousser : un pot de radis ou d'herbes sur le rebord de la fenêtre le rend familier avant d'être une bouchée."
+      ],
+      "principe": "Un légume refusé garde sa place à table sans obligation d'en manger. C'est sa présence répétée et détendue qui le fait entrer, alors qu'une récompense déplace l'envie vers la récompense et pas vers l'aliment.",
+      "erreurs_a_eviter": [
+        "Le cacher mixé dans le plat : il ne l'apprend pas, et il perd confiance dans le plat qu'il aimait.",
+        "Dire devant lui qu'il n'aime pas les légumes : l'étiquette devient une identité qu'il se met à défendre.",
+        "Ne plus en servir du tout : le légume quitte sa vue, et les présentations qui l'auraient fait entrer avec.",
+        "Changer de légume à chaque refus : il n'en croise aucun assez souvent pour l'apprivoiser."
+      ],
+      "consulter_si": "Consulter si : le refus s'étend aux fruits et aux protéines et pas seulement aux légumes, si ton enfant tolère de moins en moins d'aliments au fil des mois, s'il est pâle ou se fatigue vite, ou si son transit se bloque durablement → pédiatre, médecin traitant ou PMI, qui pourront orienter vers une diététicienne pédiatrique.",
+      "source": "Source : proposer sans forcer, représenter l'aliment refusé et ne pas s'en servir comme récompense, repères pédiatriques mpedia.fr (AFPA) et Assurance Maladie, ameli.fr ; repères alimentaires des enfants de 1 à 3 ans, Santé publique France, programme national nutrition santé."
+    },
+    {
+      "categorie": "alim",
+      "situation": "L'assiette des grands / Il pioche dans la mienne",
+      "titre": "Servir la même chose à tout le monde",
+      "explication": "À quinze mois, l'imitation devient le moteur principal de ses apprentissages, et elle s'applique à table comme ailleurs. Le même aliment n'a pas la même valeur dans son assiette et dans la tienne : ce qui vient de l'assiette d'un adulte est validé d'avance. Piocher chez toi n'est donc pas un vol, c'est une demande d'appartenance au repas. Et c'est une chance, parce que cela ouvre un chemin vers des aliments qu'il écarte quand ils lui sont servis directement.",
+      "ancrage": "Ce qu'il cherche, c'est le repas que vous faites ensemble, pas le contenu de ton assiette. Tu peux lui donner ce qu'il demande sans que cela te coûte quoi que ce soit.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : à ce repas-ci",
+        "etapes": [
+          "Lui servir le même plat : la même chose que toi, dans son assiette, avant même qu'il demande.",
+          "Adapter le plat familial : cuisiner sans sel ajouté, et saler ensuite dans son assiette à soi.",
+          "Écarter ce qui n'est pas pour lui : morceaux durs, ronds ou petits, plats très relevés, charcuterie.",
+          "Le laisser piocher un peu : une bouchée prise chez toi vaut mieux qu'une bataille pour son assiette.",
+          "Manger en même temps que lui : c'est le partage qu'il cherche, davantage que ce qu'il y a dedans."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Hors du repas : le faire entrer dans le repas des grands",
+        "etapes": [
+          "Le faire mettre la table : sa serviette, sa cuillère, celles des autres, il entre dans le repas avant de s'asseoir.",
+          "Lui donner à porter : un plat léger ou le panier de pain, le trajet jusqu'à la table lui appartient.",
+          "Le laisser se servir : rempli par lui-même dans le plat commun, ce qu'il met dans son assiette se mange mieux.",
+          "Prendre le temps du début : quelques secondes assis tous ensemble avant la première bouchée.",
+          "S'arrêter si l'excitation monte : on le pose, on souffle, et on passe à table sans commentaire."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Un seul plat pour tout le monde : cuisiner deux repas installe l'idée qu'il existe une nourriture d'enfant à part.",
+        "Sa place à la table, pas à côté : la chaise tirée contre la table, à hauteur des autres, change son statut.",
+        "Éteindre les écrans à table : ce qu'il imite est exactement ce qu'il voit faire, y compris le fait de regarder ailleurs.",
+        "Servir de petites quantités : une assiette modeste dans laquelle il peut en redemander."
+      ],
+      "principe": "L'imitation est à cet âge le moteur le plus puissant de son répertoire alimentaire. Ce qui décide de ce qu'il goûte, c'est ce qu'il voit manger autour de lui, davantage que ce qu'on dépose dans son assiette.",
+      "erreurs_a_eviter": [
+        "Défendre ton assiette : le refus rend son contenu encore plus désirable qu'il ne l'était.",
+        "Lui préparer un plat à part tous les soirs : la table se coupe en deux et son répertoire se referme.",
+        "Saler le plat pendant la cuisson : le sel d'un plat d'adulte est trop élevé pour un enfant de cet âge.",
+        "Lui donner à goûter tout ce qu'il montre : les aliments durs, ronds et petits restent hors de sa portée."
+      ],
+      "consulter_si": "Consulter si : ton enfant refuse tout ce qui se trouve dans sa propre assiette depuis plusieurs semaines, s'il ne mange plus que dans celle des autres, s'il perd du poids, ou si tu ne sais pas quels plats du repas familial lui conviennent → pédiatre, médecin traitant ou PMI. Une diététicienne pédiatrique peut aider à adapter le repas de toute la famille.",
+      "source": "Source : modérer le sel et ne pas resaler les plats, repères alimentaires des enfants de 1 à 3 ans, Assurance Maladie, ameli.fr ; passage au repas familial et repas partagé, Santé publique France, programme national nutrition santé (mangerbouger.fr)."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Les bouchées avalées tout rond / Il avale sans mâcher",
+      "titre": "Ralentir avant de mâcher mieux",
+      "explication": "À quinze mois, les premières molaires viennent à peine de percer ou n'ont pas fini de sortir. Ton enfant broie donc surtout avec ses gencives et ses incisives, et il compense ce qu'il ne peut pas encore mâcher en avalant. La vitesse fait le reste : quand il a très faim ou qu'il est pressé de retourner jouer, la bouchée part avant d'avoir été travaillée. C'est le mécanisme d'accident le plus fréquent à cet âge, et c'est aussi celui sur lequel on a le plus de prise.",
+      "ancrage": "Ce n'est pas de la gourmandise, c'est une bouche qui n'a pas encore ses outils. Tu peux agir sur trois choses : la taille des bouchées, la vitesse, et ce qui est dans l'assiette.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : pendant le repas",
+        "etapes": [
+          "Servir peu à la fois : trois ou quatre morceaux dans l'assiette, on complète quand ils sont finis.",
+          "Réduire la taille : des morceaux plus petits que ce qu'il pourrait avaler d'un coup, jamais ronds.",
+          "Poser un rythme : une gorgée d'eau entre les bouchées ralentit sans qu'on ait à le dire.",
+          "Rester assis et surveillé : bien assis, tronc droit, un adulte à côté de lui pendant tout le repas.",
+          "Couper ce qui est rond ou ovale : tomate cerise, raisin, olive, saucisse, tout cela se coupe en deux au moins."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Si ça arrive : le geste qui débloque",
+        "etapes": [
+          "Tant qu'il tousse : il respire, et son corps travaille tout seul. On ne tape pas et on n'attrape rien dans sa bouche.",
+          "Le basculement : le bruit s'arrête, il ne tousse plus, son visage change de couleur.",
+          "Le 15 ou le 112 en haut-parleur : on appelle et on agit en même temps, sans attendre la réponse.",
+          "Cinq claques dans le dos : penché vers l'avant, cinq claques fermes du plat de la main entre les omoplates.",
+          "Puis cinq compressions : à genoux derrière lui, ton poing entre son nombril et son sternum, on enfonce vers le haut, et on alterne."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Retenir la règle des cinq ans : les aliments petits, durs et ronds comme la cacahuète ne se donnent pas avant cet âge.",
+        "Couper systématiquement : les aliments mous, ronds ou ovales se coupent en deux avant d'arriver dans l'assiette.",
+        "Regarder ce qu'il mange ailleurs : c'est souvent en dehors de la maison que les aliments à risque arrivent dans sa main.",
+        "Mettre les petits objets hors d'atteinte : à cet âge, billes, piles boutons et capuchons partent en bouche aussi vite que la nourriture."
+      ],
+      "principe": "Mâcher s'apprend, et cela prend des mois de plus que manger. Ce qui protège pendant ce temps ne tient pas à ce qu'on lui demande de faire, mais à ce qu'on met dans l'assiette, à la façon dont il est assis, et à la présence d'un adulte à côté.",
+      "erreurs_a_eviter": [
+        "Remplir l'assiette pour qu'il patiente : plus il y a de morceaux devant lui, plus les bouchées s'enchaînent vite.",
+        "Le faire manger en marchant ou en voiture : le corps en mouvement rend la fausse route plus facile.",
+        "Lui dire de mâcher pendant qu'il a la bouche pleine : parler avec un morceau dans la bouche l'expose davantage.",
+        "Revenir au tout lisse pour éviter le risque : la mastication ne progresse plus, et le problème se déplace de quelques mois."
+      ],
+      "consulter_si": "Consulter si : le bruit s'arrête et que sa respiration se bloque, c'est un étouffement → appeler immédiatement le 15 ou le 112. Consulter si, par ailleurs : il tousse à presque chaque repas, s'il vomit après avoir avalé un morceau, s'il garde une respiration bruyante ou une toux qui traîne après un épisode, ou s'il refuse toute texture depuis une frayeur → pédiatre ou médecin traitant, sans délai.",
+      "source": "Source : ne pas donner d'aliments petits, durs et ronds avant 5 ans, couper les aliments mous ronds ou ovales, enfant assis et surveillé pendant tout le repas, Santé publique France, programme national nutrition santé (mangerbouger.fr) ; conduite à tenir en cas d'inhalation de corps étranger, Assurance Maladie, ameli.fr."
+    }
+  ]
+}

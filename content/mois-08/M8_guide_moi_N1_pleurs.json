@@ -10,20 +10,20 @@
   "protocoles": [
     {
       "categorie": "pleurs",
-      "situation": "Pleurs de panique dès que je disparais / même deux secondes",
-      "titre": "La panique du départ / la constance des retours",
-      "explication": "Deux secondes hors de son champ, et c'est la panique totale. L'angoisse de séparation atteint son pic autour de huit à dix mois : il a compris que tu continues d'exister ailleurs, mais il n'a aucune certitude que tu reviendras. La tentation est d'éviter les départs — ne plus sortir de la pièce, ne plus le confier. C'est exactement l'inverse de ce qui l'aidera. Ce qui construit la confiance, ce n'est pas l'absence de départ : c'est la répétition de retours fiables, annoncés, systématiques.",
-      "ancrage": "Éviter les départs n'apaise rien : cela retarde l'apprentissage. Ce qui construit la confiance, c'est la constance de tes retours.",
+      "situation": "La panique du départ / Il panique dès que je disparais",
+      "titre": "Tenir pendant la crise",
+      "explication": "Deux secondes hors de son champ de vision, et c'est une crise entière. Ce qui se passe dans son corps à ce moment-là n'a rien de mesuré : la peur déclenche une réaction physique immédiate, le cœur s'emballe, les pleurs deviennent incontrôlables, et plus rien de ce qui se dit ne l'atteint. Un bébé de huit mois n'a aucun moyen de faire redescendre cet état tout seul : il lui faut un corps calme à côté du sien. C'est pour cela qu'expliquer ne sert à rien pendant la crise, et que le contact, lui, sert.",
+      "ancrage": "Ces cris qui repartent à la moindre porte qui se ferme fatiguent énormément, et beaucoup de parents se demandent à ce stade s'ils ne l'ont pas rendu trop dépendant. Ce n'est pas le cas : pendant la crise, tu n'as rien à corriger, tu as juste à rester.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — annoncer, partir, revenir",
+        "titre": "Action immédiate : annoncer, partir, revenir",
         "etapes": [
-          "Annoncer avant de partir : « je vais dans la cuisine, je reviens » — toujours la même phrase.",
-          "Parler depuis l'autre pièce : ta voix est la preuve sonore que tu existes toujours.",
-          "Revenir vite la première fois : et nommer le retour — « je suis partie, je suis revenue ».",
-          "Ne jamais partir en silence : la disparition brusque fabrique l'insécurité qu'on veut éviter.",
-          "Ne pas céder à l'évitement : continuer à sortir de la pièce, même brièvement."
+          "Revenir dans son champ de vision : te voir compte plus que tout ce que tu pourrais dire.",
+          "Le prendre contre toi sans parler beaucoup : ton calme se transmet par le corps avant les mots.",
+          "Une main large et immobile dans son dos : la pression constante fait redescendre plus vite que le bercement.",
+          "Ralentir ta propre respiration : il cale la sienne sur celle de l'adulte qui le porte.",
+          "Attendre que les pleurs s'espacent avant de parler : tant qu'il crie, aucune parole ne lui parvient."
         ]
       },
       "geste_doux": {
@@ -31,91 +31,94 @@
         "couleur_texte": "#085041",
         "titre": "Réflexologie : ancrer la sécurité",
         "etapes": [
-          "Un moment quotidien : bébé sur le dos, éveillé et calme.",
-          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Ta voix pendant le geste : associée au toucher, elle devient un repère.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
-        ]
+          "Un moment quotidien : bébé sur le dos, éveillé et calme, dans une pièce à bonne température.",
+          "Réchauffer ses pieds : les tenir entiers dans tes paumes, immobiles.",
+          "Zone des poumons : sous la base des orteils, petits cercles qui avancent vers l'extérieur.",
+          "Zone du plexus solaire : appui doux et maintenu au centre de la voûte, puis on relâche.",
+          "S'arrêter à sa demande : un pied retiré, une crispation, on arrête."
+        ],
+        "lien_reflexologie": {
+          "id": "separation",
+          "titre": "Angoisse de séparation"
+        }
       },
       "pour_aller_plus_loin": [
-        "Jouer à coucou : plusieurs fois par jour — c'est l'entraînement direct à la permanence.",
-        "Multiplier les micro-séparations : quelques minutes avec un autre adulte, régulièrement.",
-        "Se rappeler que c'est un pic : cette phase culmine autour de huit à dix mois, puis s'atténue.",
-        "Ne pas culpabiliser : cette angoisse est le signe d'un attachement qui fonctionne."
+        "Ne pas chercher à raisonner pendant la crise : les mots servent après, quand il est redescendu.",
+        "Repérer les moments où cela tombe : la panique arrive presque toujours sur un fond de fatigue ou de faim.",
+        "Prévoir les disparitions inévitables : la douche, les toilettes, la cuisine, plutôt que de les repousser toute la journée.",
+        "Compter en semaines : ce pic se situe le plus souvent entre huit et dix mois, puis il s'atténue."
       ],
-      "principe": "Ce n'est pas l'absence de séparation qui construit la sécurité : c'est la répétition de retours fiables. Éviter les départs ne fait que reporter l'apprentissage.",
+      "principe": "Un tout-petit ne se calme pas par le raisonnement, il se calme par le contact d'un corps déjà calme. Ce qui apaise pendant une crise et ce qui la prévient sont deux choses différentes.",
       "erreurs_a_eviter": [
-        "Partir en cachette pour éviter les pleurs.",
-        "Éviter toute séparation pour ne pas le perturber.",
-        "Prolonger les au revoir ou revenir plusieurs fois.",
-        "Interpréter cette panique comme de la manipulation."
+        "Lui expliquer longuement pendant qu'il hurle : rien de ce qui se dit ne lui parvient à ce niveau de détresse.",
+        "Le laisser pleurer seul le temps que cela passe : à cet âge il n'a aucun moyen interne de faire retomber la peur.",
+        "T'énerver contre toi-même de ne pas y arriver : la crise dure ce qu'elle dure, et sa durée ne mesure pas ta compétence.",
+        "Lire cette panique comme de la manipulation : à huit mois, il ne sait pas encore prévoir l'effet de ce qu'il fait."
       ],
-      "consulter_si": "Consulter si : bébé ne se calme jamais, même quand tu reviens, ne cherche jamais ton visage ni ta voix, ne réagit pas aux bruits forts, ne babille pas, ou paraît anormalement mou ou éteint → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition.",
-      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+      "consulter_si": "Consulter si : bébé ne se calme jamais, même quand tu reviens, ne cherche jamais ton visage ni ta voix, ne réagit pas aux bruits forts, ne babille pas, ou paraît anormalement mou ou éteint → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition."
     },
     {
       "categorie": "pleurs",
-      "situation": "Pleurs après une chute / la peur plus que le mal",
-      "titre": "Après une chute / il lit ta réaction avant de décider",
-      "explication": "Il tombe, il se relève, il te regarde — et c'est seulement là qu'il se met à pleurer. Ce n'est pas de la comédie : à cet âge, il utilise ton visage pour évaluer la gravité de ce qui vient de se passer. Si tu paniques, il conclut que c'est grave. Si tu restes calme, il reprend souvent son jeu. Cela ne veut pas dire minimiser ou ignorer : cela veut dire vérifier calmement d'abord, puis nommer ce qui s'est passé. Ta réaction est une information qu'il utilise pour construire la sienne.",
-      "ancrage": "Il regarde ton visage avant de décider s'il a peur. Ton calme n'est pas de l'indifférence : c'est une information qui l'aide.",
+      "situation": "Le regard après la chute / Il tombe et me cherche des yeux",
+      "titre": "Ton visage décide s'il a peur",
+      "explication": "Il tombe, il se relève, il te cherche des yeux, et c'est seulement là qu'il se met à pleurer. Ce temps d'arrêt porte un nom : il consulte ton visage pour savoir ce qu'il doit penser de ce qui vient d'arriver. C'est une compétence sociale qui apparaît justement vers huit mois, et elle vaut pour tout ce qu'il ne sait pas encore évaluer seul : un bruit inconnu, un visage nouveau, une marche ratée. Ton expression lui sert littéralement de mode d'emploi du monde.",
+      "ancrage": "Ce n'est pas de la comédie, c'est une question qu'il te pose avec les yeux. Ton visage calme n'est pas de l'indifférence : c'est la réponse dont il a besoin pour décider s'il a peur.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — vérifier, puis nommer",
+        "titre": "Action immédiate : vérifier, puis nommer",
         "etapes": [
-          "Réagir calmement : ne pas crier, ne pas te précipiter en panique.",
-          "Vérifier d'abord : où il s'est cogné, la hauteur de la chute, son état général.",
-          "Le prendre et le rassurer : sans dramatiser, sans commenter longuement.",
+          "Garder un visage calme : c'est la première information qu'il reçoit, avant même la douleur.",
+          "Vérifier d'abord : où il s'est cogné, la hauteur de la chute, la façon dont il bouge.",
+          "Le prendre contre toi : sans dramatiser le moment ni le commenter longuement.",
           "Nommer ce qui s'est passé : « tu es tombé, tu t'es fait peur, je suis là ».",
-          "Observer les signes d'alerte : perte de connaissance, vomissements, somnolence anormale, pâleur."
+          "Le remettre au sol une fois consolé : s'il repart jouer, c'est le meilleur des signes."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — l'apaisement",
+        "titre": "Geste doux : redescendre après la frayeur",
         "etapes": [
-          "Contact calme : le tenir contre toi, sans le secouer, sans le bercer vivement.",
-          "Voix posée : quelques mots, doucement.",
-          "Un temps d'immobilité : quelques minutes avant de le remettre au sol.",
-          "Le laisser reprendre : une fois consolé, il retourne jouer — c'est bon signe.",
-          "S'arrêter s'il se crispe : rester disponible sans le solliciter."
+          "Contre toi, assis : son torse contre le tien, sans bercer vivement.",
+          "Une main large sur son dos : posée, immobile, sans tapoter.",
+          "Respirer plus lentement que lui : il cale peu à peu son rythme sur le tien.",
+          "Ta voix, sur le même ton : quelques mots répétés lentement, toujours les mêmes.",
+          "Le laisser repartir quand il le montre : son regard qui retourne vers le sol est le signal."
         ]
       },
       "pour_aller_plus_loin": [
-        "Sécuriser après coup : ce qui l'a fait tomber se corrige immédiatement.",
-        "Ne pas le surprotéger : un enfant qu'on retient en permanence n'apprend pas à se rattraper.",
-        "Retenir les signes d'alerte d'un choc à la tête : ils justifient un appel immédiat.",
-        "Ne jamais donner de médicament sans avis médical après une chute."
+        "Corriger la zone dans la foulée : ce qui l'a fait tomber se sécurise pendant que c'est frais.",
+        "Le laisser retomber : c'est en tombant qu'il apprend à mettre les mains devant, et ces réflexes-là ne s'enseignent pas.",
+        "Demander le même calme à l'entourage : un seul adulte qui crie annule l'effet de tous les autres.",
+        "Connaître les signes qui font appeler : les relire une fois au calme évite d'avoir à réfléchir dans l'urgence."
       ],
-      "principe": "Il lit ta réaction avant de décider s'il a mal. Vérifier calmement, puis nommer, l'aide bien plus que de minimiser ou de dramatiser.",
+      "principe": "Vers huit mois, un enfant décide de ce qu'il ressent en regardant le visage de l'adulte. Cela vaut pour la peur comme pour la confiance : il emprunte l'émotion avant de fabriquer la sienne.",
       "erreurs_a_eviter": [
-        "Paniquer ou crier — cela amplifie sa peur.",
-        "Minimiser sans vérifier : « ce n'est rien » sans regarder.",
-        "Le distraire immédiatement pour qu'il « oublie ».",
-        "Donner un médicament sans avis médical."
+        "Sursauter et crier à chaque chute : ta réaction lui apprend à craindre un moment qu'il aurait traversé sans rien.",
+        "Dire « ce n'est rien » sans avoir regardé : la réassurance ne remplace pas la vérification, et il sent la différence.",
+        "Le distraire tout de suite pour qu'il oublie : l'émotion non nommée revient au prochain incident.",
+        "Donner un médicament sans avis médical : un antalgique peut masquer un signe qu'on avait besoin de voir."
       ],
-      "consulter_si": "Consulter si : après un choc à la tête, bébé perd connaissance même brièvement, vomit, devient anormalement somnolent ou difficile à réveiller, pleure de façon inhabituelle et inconsolable, présente une pâleur, une bosse importante, un saignement, une pupille anormale, ou un comportement qui te surprend → appeler le 15 sans attendre. En cas de chute d'une hauteur — table à langer, lit, escalier → consulter en urgence, même si bébé semble aller bien.",
-      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — éviter les accidents domestiques des enfants."
+      "consulter_si": "Consulter si : après un choc à la tête, bébé perd connaissance même brièvement, vomit, devient anormalement somnolent ou difficile à réveiller, pleure de façon inhabituelle et inconsolable, présente une pâleur, une bosse importante, un saignement, une pupille anormale, ou un comportement qui te surprend → appeler le 15 sans attendre. Après une chute d'une hauteur, table à langer, lit ou escalier : consulter en urgence, même si bébé semble aller bien.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), éviter les accidents domestiques des enfants."
     },
     {
       "categorie": "pleurs",
-      "situation": "Pleurs de colère quand on dit non / le premier interdit",
-      "titre": "Le premier interdit / tenir la limite, accueillir la colère",
-      "explication": "Tu dis non — la prise électrique, l'escalier, le four — et il hurle de rage. Deux gestes distincts sont à faire, et on les confond souvent. Le premier : tenir la limite. Un interdit de sécurité n'est pas négociable, et il ne se discute pas avec un bébé de huit mois. Le second : accueillir la colère qui suit. Tenir la limite ne veut pas dire ignorer son émotion, et accueillir son émotion ne veut pas dire céder. Ce sont deux choses différentes, et il a besoin des deux.",
-      "ancrage": "Tenir la limite et accueillir la colère sont deux gestes distincts. Il a besoin des deux — et céder n'est aucun des deux.",
+      "situation": "La colère devant l'interdit / Il hurle dès que je dis non",
+      "titre": "Tenir la limite et accueillir l'émotion",
+      "explication": "Tu dis non, la prise électrique, l'escalier, le four, et il hurle de rage. À huit mois, il ne comprend pas encore le danger, mais il comprend parfaitement qu'on vient de l'empêcher. Sa colère est entière et sans filtre, parce que la partie de son cerveau qui apprendra à la modérer ne sera pas fonctionnelle avant plusieurs années. Ce qu'il vit est une contrariété immense, sans aucun outil pour la relativiser, et sans intention derrière.",
+      "ancrage": "Tenir la limite et accueillir la colère sont deux gestes différents, et il a besoin des deux. Tu peux être inflexible sur la prise électrique et douce avec ce qu'il ressent, en même temps.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — les deux gestes",
+        "titre": "Action immédiate : les deux gestes",
         "etapes": [
           "Tenir la limite : l'écarter physiquement, calmement, sans négocier.",
-          "Une phrase courte et ferme : « non, c'est dangereux » — une fois, sans discours.",
-          "Proposer un échange : un autre objet intéressant, tendu immédiatement.",
-          "Accueillir la colère : « tu es fâché, tu voulais y aller » — la validation apaise sans céder.",
-          "Ne pas céder après la crise : rendre l'objet apprend que la crise fonctionne."
+          "Une phrase courte et ferme : « non, c'est dangereux », une fois, sans discours.",
+          "Proposer un échange : un autre objet intéressant, tendu dans la seconde.",
+          "Accueillir la colère : « tu es fâché, tu voulais y aller », mettre des mots apaise sans rien céder.",
+          "Rester à côté pendant la crise : ta présence calme fait plus que n'importe quelle explication."
         ]
       },
       "geste_doux": {
@@ -124,44 +127,44 @@
         "titre": "Réflexologie : redescendre après la colère",
         "etapes": [
           "Une fois la crise passée : bébé sur le dos, dans le calme.",
-          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Réchauffer ses pieds : les tenir entiers dans tes paumes, immobiles.",
           "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
+          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
+          "S'arrêter à sa demande : un pied retiré, une crispation, on arrête."
         ]
       },
       "pour_aller_plus_loin": [
-        "Sécuriser en amont : moins il y a d'interdits à portée, moins il y a de crises — l'aménagement fait le travail à ta place.",
-        "Être constant : la même règle, tous les jours, par tous les adultes.",
-        "Ne pas multiplier les interdits : réserver le « non » à ce qui est réellement dangereux.",
-        "Ne jamais taper sur la main : la violence, même légère, n'enseigne rien et abîme le lien."
+        "Sécuriser en amont : moins il y a d'interdits à portée, moins il y a de crises, et l'aménagement fait le travail à ta place.",
+        "Garder la même règle partout : tous les adultes, tous les jours, sinon il teste laquelle est la vraie.",
+        "Réserver le non à ce qui est dangereux : un interdit qui sert dix fois par jour ne veut plus rien dire.",
+        "Prévoir la sortie : décider à l'avance où tu poses bébé et qui tu appelles si tu sens que tu ne tiens plus."
       ],
-      "principe": "Un interdit de sécurité ne se négocie pas — et la colère qui suit n'est pas un problème à résoudre. Tenir la limite et accueillir l'émotion sont deux gestes complémentaires.",
+      "principe": "Une limite protège l'enfant, l'accueil de sa colère protège la relation. Renoncer à la première le met en danger, renoncer à la seconde lui apprend que ses émotions dérangent.",
       "erreurs_a_eviter": [
-        "Céder après la crise pour la faire cesser.",
-        "Expliquer longuement — son cerveau n'en a pas les moyens.",
-        "Taper sur la main ou hausser le ton.",
-        "Multiplier les interdits sur des choses sans danger."
+        "Céder après la crise pour la faire cesser : il retient que la crise fonctionne, et la suivante sera plus longue.",
+        "Expliquer longuement pourquoi c'est dangereux : son cerveau n'a pas encore les moyens de suivre, et le flot de mots ajoute à la tension.",
+        "Taper sur la main ou hausser le ton : la peur remplace la compréhension, et elle abîme le lien sans rien enseigner.",
+        "Multiplier les interdits sur des choses sans danger : le mot s'use, et il ne servira plus quand il faudra vraiment."
       ],
-      "consulter_si": "Consulter si : les crises deviennent quotidiennes et inconsolables, si bébé se cogne volontairement la tête de façon répétée, s'il se raidit fortement et ne se calme jamais, ou si tu sens ta colère devenir difficile à contenir → pédiatre, PMI, ou Allo Parents Bébé (0 800 00 34 56).",
-      "source": "Source : Haute Autorité de Santé — recommandation « Syndrome du bébé secoué ou traumatisme crânien non accidentel par secouement »."
+      "consulter_si": "Consulter si : les crises deviennent quotidiennes et inconsolables, si bébé se cogne volontairement la tête de façon répétée, s'il se raidit fortement et ne se calme jamais, ou si tu sens ta colère devenir difficile à contenir → pédiatre, PMI, ou Allo Parents Bébé (0 800 00 34 56). Si tu ne tiens plus : poser bébé sur le dos dans son lit, sortir de la pièce, appeler.",
+      "source": "Source : Haute Autorité de Santé, recommandation « Syndrome du bébé secoué ou traumatisme crânien non accidentel par secouement »."
     },
     {
       "categorie": "pleurs",
-      "situation": "Pleurs inconsolables au coucher / il ne veut pas te lâcher",
-      "titre": "Le coucher / allonger le rituel, pas raccourcir la présence",
-      "explication": "Le coucher est devenu un déchirement : il s'accroche, hurle, ne veut pas te lâcher. C'est logique — le coucher est la plus longue séparation de la journée, et il arrive en pleine phase de pic de l'angoisse. Le réflexe est d'écourter : abréger le rituel, partir vite, « ne pas faire durer ». C'est l'inverse qui fonctionne. Un rituel plus long, plus prévisible, avec une présence tranquille, prépare la séparation. Ce qui se raccourcit, ce n'est pas ta présence : c'est l'aide que tu apportes, par paliers, sur plusieurs semaines.",
-      "ancrage": "Écourter le rituel aggrave l'angoisse. Ce qui se réduit, c'est l'aide — jamais la présence, et jamais brutalement.",
+      "situation": "L'accrochage du coucher / Il ne veut pas me lâcher le soir",
+      "titre": "Allonger le rituel, réduire l'aide",
+      "explication": "Le coucher est devenu un déchirement : il s'agrippe, hurle, ne veut pas te lâcher. La coïncidence est mauvaise et elle explique tout : le coucher est la plus longue séparation de la journée, et il tombe en plein pic de l'angoisse de séparation. S'ajoute à cela une journée entière de tension accumulée, qui ressort exactement au moment où le calme se fait. Ce n'est donc pas le sommeil qu'il refuse, c'est le fait de te perdre de vue pour dix heures.",
+      "ancrage": "Le soir, quand il s'accroche et que tout le monde est à bout, beaucoup de parents voudraient juste pouvoir sortir de la chambre. Ce n'est pas ta présence qui doit se réduire, c'est l'aide, et elle se réduit lentement.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — allonger le rituel",
+        "titre": "Action immédiate : allonger le rituel",
         "etapes": [
-          "Allonger le rituel : quinze à vingt minutes, calmes, toujours identiques.",
-          "Le rendre prévisible : mêmes étapes, même ordre, mêmes mots — c'est la prévisibilité qui rassure.",
-          "Rester présent.e : assis à côté du lit, main posée si nécessaire.",
-          "Nommer le départ : « je sors et je reviens » — et revenir une première fois, vite.",
-          "Répondre s'il pleure : on ne laisse jamais un bébé de huit mois pleurer seul."
+          "Allonger le rituel : 15 à 20 minutes calmes, toujours les mêmes.",
+          "Le rendre prévisible : mêmes étapes, même ordre, mêmes mots, c'est la répétition qui rassure.",
+          "Rester présent.e : assis à côté du lit, une main posée si nécessaire.",
+          "Nommer le départ : « je sors et je reviens », puis revenir une première fois, vite.",
+          "Répondre s'il pleure : à huit mois, il appelle, et on vient."
         ]
       },
       "geste_doux": {
@@ -170,27 +173,30 @@
         "titre": "Réflexologie : le cœur du rituel",
         "etapes": [
           "Toujours au même moment : après le bain, avant la berceuse.",
-          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
+          "Réchauffer ses pieds : les tenir entiers dans tes paumes, immobiles.",
           "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
           "Terminer par l'immobilité : une main posée sur son torse jusqu'à ce que sa respiration se pose."
-        ]
+        ],
+        "lien_reflexologie": {
+          "id": "sommeil",
+          "titre": "Sommeil agité"
+        }
       },
       "pour_aller_plus_loin": [
-        "Réduire l'aide par paliers : rester allongé, puis assis, puis assis plus loin — un palier par semaine.",
-        "Impliquer le co-parent : il peut prendre le coucher, ce qui desserre l'exclusivité.",
-        "Travailler la permanence le jour : coucou, départs annoncés, retours nommés.",
-        "Ne jamais utiliser de méthode d'extinction : laisser pleurer seul n'a pas sa place ici."
+        "Réduire l'aide par paliers : rester allongé, puis assis, puis assis plus loin, un palier par semaine.",
+        "Confier le coucher au co-parent : cela desserre l'exclusivité et donne une soirée à l'autre parent.",
+        "Travailler la permanence le jour : les départs annoncés et les retours nommés servent le soir venu.",
+        "Ne rien changer d'autre en ce moment : une seule modification à la fois, sinon plus rien n'est lisible."
       ],
-      "principe": "Le coucher concentre l'angoisse de toute la journée. Un rituel plus long et plus prévisible prépare la séparation — ce qui se réduit, c'est l'aide, par paliers.",
+      "principe": "Le coucher est la séparation la plus longue de la journée, et il arrive quand les réserves de tout le monde sont vides. Ce qui apaise ce moment ne se joue pas dans sa durée, mais dans le fait qu'il soit toujours identique.",
       "erreurs_a_eviter": [
-        "Écourter le rituel pour « ne pas faire durer ».",
-        "Partir brutalement de la chambre.",
-        "Laisser pleurer seul.",
-        "Changer plusieurs choses à la fois dans le rituel."
+        "Écourter le rituel pour ne pas faire durer : la séparation arrive plus vite et sans préparation, et les pleurs s'allongent.",
+        "Partir brutalement de la chambre : la disparition sans signal est précisément ce qui fait douter du retour.",
+        "Laisser pleurer seul : seul dans le noir, il n'a aucun moyen de se réguler.",
+        "Changer plusieurs choses à la fois dans le rituel : sans repère stable, il recommence à zéro chaque soir."
       ],
-      "consulter_si": "Consulter si : bébé ne parvient jamais à s'endormir malgré un cadre calme, s'il est inconsolable, difficile à réveiller, ne prend pas de poids, ou si le manque de sommeil devient dangereux pour toi → pédiatre, PMI, médecin, ou Allo Parents Bébé (0 800 00 34 56).",
-      "source": "Source : Institut national du sommeil et de la vigilance et ameli.fr — le sommeil de l'enfant."
+      "consulter_si": "Consulter si : bébé ne parvient jamais à s'endormir malgré un cadre calme, s'il est inconsolable, difficile à réveiller, ne prend pas de poids, ou si le manque de sommeil devient dangereux pour toi → pédiatre, PMI, médecin, ou Allo Parents Bébé (0 800 00 34 56)."
     }
   ]
 }

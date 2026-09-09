@@ -4,15 +4,15 @@
   "categorie": {
     "id": "sepa",
     "ordre": 7,
-    "nom": "Séparation & Crèche",
-    "sous_titre": "Départs, retrouvailles, autres enfants",
+    "nom": "Séparation & socialisation",
+    "sous_titre": "Départs, retrouvailles, autres enfants, sorties",
     "icone": "💔"
   },
   "protocoles": [
     {
       "categorie": "sepa",
-      "situation": "Pleure et s'accroche quand tu pars le matin",
-      "titre": "Le départ / pleure quand tu la déposes",
+      "situation": "Le départ du matin / Il pleure et s'accroche quand je pars",
+      "titre": "Un au revoir court et toujours le même",
       "explication": "Vers 18-24 mois, l'angoisse de séparation est vive : ton enfant a compris que tu existes même quand tu n'es pas là… mais pas encore que tu reviens toujours. Te voir partir déclenche une vraie détresse — pleurs, cris, il s'accroche. Ce n'est ni de la comédie ni un échec de ta part : c'est la preuve d'un attachement solide, sain et normal. Bonne nouvelle : la plupart des enfants se consolent quelques minutes après le départ, une fois happés par la vie du lieu. Ta façon de partir compte plus que la durée de ses pleurs.",
       "ancrage": "Ses larmes ne veulent pas dire « ne pars pas » mais « je t'aime et tu me manques déjà ». Un départ clair et confiant le rassure plus qu'un départ hésitant.",
       "action_immediate": {
@@ -55,8 +55,8 @@
     },
     {
       "categorie": "sepa",
-      "situation": "Fait une crise ou te rejette au moment des retrouvailles",
-      "titre": "Les retrouvailles / crise ou rejet en fin de journée",
+      "situation": "Les retrouvailles difficiles / Il me rejette quand je viens le chercher",
+      "titre": "La décharge du soir n'est pas un rejet",
       "explication": "Tu reviens plein d'amour… et ton enfant se met à hurler, te tape ou t'ignore. Ce « rejet » des retrouvailles est déroutant mais très fréquent : toute la journée, il a tenu bon loin de toi en contenant ses émotions ; en te retrouvant, toi sa personne-refuge, il lâche tout d'un coup. C'est un immense soulagement qui sort de travers. Le rejet dit en réalité : « tu m'as manqué tellement fort que je t'en veux d'être parti ». La fin de journée ajoute la fatigue et la faim au trop-plein.",
       "ancrage": "Sa crise n'est pas contre toi, elle est pour toi : c'est près de toi qu'il ose enfin déposer ses émotions. Accueille la vague plutôt que de chercher à l'expliquer.",
       "action_immediate": {
@@ -83,7 +83,7 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Prévoir un sas de décompression : quinze minutes calmes au retour, sans écran ni sollicitation.",
+        "Prévoir un sas de décompression : 15 minutes calmes au retour, sans écran ni sollicitation.",
         "Anticiper faim et fatigue : une petite collation et un rythme du soir apaisé désamorcent bien des crises.",
         "Offrir de l'attention pleine et brève : quelques minutes vraiment présent valent mieux qu'une soirée distraite.",
         "Ne pas enchaîner les activités le soir : après une journée de séparation, il a besoin de calme et de toi."
@@ -99,8 +99,8 @@
     },
     {
       "categorie": "sepa",
-      "situation": "Te suit partout, ne supporte pas de te perdre de vue",
-      "titre": "« Ne pars pas » / l'angoisse de te perdre de vue",
+      "situation": "La poursuite permanente / Il me suit partout et ne me lâche pas",
+      "titre": "Nommer où tu vas, et revenir",
       "explication": "Ton enfant te colle, te suit aux toilettes, panique si tu quittes la pièce : c'est une phase intense d'angoisse de séparation, très courante autour de 2 ans. Il commence à se vivre comme une personne distincte de toi, ce qui est vertigineux : te perdre de vue, même une minute, peut lui donner l'impression de te perdre tout court. Ce besoin de te garder en vue n'est ni un caprice ni une mauvaise habitude : c'est une étape de construction de sa sécurité intérieure. Elle passe quand il intègre, peu à peu, que tu reviens toujours.",
       "ancrage": "Il ne cherche pas à te posséder : il a besoin d'être sûr de ta base pour oser explorer. Le rassurer aujourd'hui, c'est l'aider à se détacher demain.",
       "action_immediate": {
@@ -143,8 +143,8 @@
     },
     {
       "categorie": "sepa",
-      "situation": "Conflits avec les autres enfants, ne veut pas partager",
-      "titre": "Les autres enfants / conflits et partage difficile",
+      "situation": "Les conflits entre enfants / Il ne veut rien partager",
+      "titre": "Le partage ne s'impose pas encore",
       "explication": "À 23 mois, ton enfant joue surtout à côté des autres, pas encore vraiment avec eux : le vrai jeu partagé vient plus tard. Le partage, lui, n'est pas encore accessible — pour son cerveau, « à moi » veut dire « ça fait partie de moi », alors céder un jouet est vécu comme une perte réelle. Les conflits (arracher, pousser, mordre) ne sont pas de la méchanceté : ce sont les maladresses d'un enfant qui n'a ni les mots ni le contrôle de ses impulsions. L'empathie et le partage s'apprennent doucement, par l'exemple et le temps, pas par l'obligation.",
       "ancrage": "Il n'est pas « égoïste » : partager est encore au-dessus de ses capacités. Ton rôle est d'accompagner les gestes, pas d'exiger une générosité qu'il ne peut pas encore avoir.",
       "action_immediate": {
@@ -184,6 +184,50 @@
         "Régler tous les conflits à sa place — l'empêche d'apprendre, avec ton aide, à les traverser."
       ],
       "consulter_si": "Consulter si : l'agressivité envers les autres enfants est constante, intense et impossible à contenir malgré l'accompagnement, s'accompagne d'un isolement, d'une absence de tout intérêt pour les autres ou d'un langage qui ne vient pas → en parler au pédiatre. Des conflits et un « à moi » bien affirmés sont, eux, le quotidien normal de cet âge."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Le trop-plein d'après-fête / Il craque après une belle journée",
+      "titre": "Prévoir la descente avant la sortie",
+      "explication": "Les sorties « positives » — parc, anniversaire, visite, voyage — sont aussi des sur-stimulations pour un cerveau de 23 mois : beaucoup de bruit, de monde, d'images, d'émotions fortes. À la fin, le système nerveux ne peut plus tout traiter, il « déborde ». L'enfant pleure, semble triste sans raison, refuse tout : c'est le contrecoup d'une journée trop pleine, même si elle était belle. Ce n'est ni de l'ingratitude ni un caprice — sa joie l'a autant fatigué que l'aurait fait une peine. Plus l'événement a été grand, plus le retour au calme sera long.",
+      "ancrage": "Sa joie l'a épuisé : une trop grande journée appelle un tout petit retour. Ton rôle n'est pas de comprendre pourquoi il pleure, mais de l'aider à atterrir.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — l'atterrissage",
+        "etapes": [
+          "Ne pas chercher la cause du chagrin : il n'y en a pas une, il y a un « trop ».",
+          "Réduire tout de suite les stimulations : pénombre, silence, un espace calme.",
+          "Contenir en douceur : un câlin long, une couverture, tes bras — le corps enveloppé rassure.",
+          "Peu de mots, peu de questions : juste être là, présent et tranquille.",
+          "Mettre des mots simples : « tu as vécu plein de choses, ton cœur est plein »."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — aider à redescendre",
+        "etapes": [
+          "Un bercement lent, dans tes bras, sans rien attendre en retour.",
+          "Un bain tiède à la veilleuse, sans jeu ni stimulation.",
+          "Retrouver un repère familier : doudou, tétine, chanson douce du soir.",
+          "Un temps de contact peau à peau ou blotti, jusqu'à ce qu'il se dépose."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Prévoir la récupération : après une grosse sortie, réserver une à deux heures de calme obligatoire.",
+        "Limiter les événements : un grand moment par week-end, c'est déjà beaucoup pour un tout-petit.",
+        "Prévenir l'entourage : partir tôt, sans pression, avant que le trop-plein n'éclate.",
+        "Emporter ses repères partout : doudou, tétine, couverture familière rassurent en terrain nouveau."
+      ],
+      "principe": "Plus la stimulation a été grande, même joyeuse, plus le temps de récupération est long : un anniversaire de trois heures peut demander une journée de retour au calme. Anticiper et accepter ce besoin évite les conflits. On n'explique pas le trop-plein, on l'accompagne vers le calme.",
+      "erreurs_a_eviter": [
+        "Penser « il devrait être content après une telle journée » — la fatigue dépasse le plaisir.",
+        "Rester longtemps après l'événement « le temps qu'il se remette » — il ne se remet qu'au calme.",
+        "Enchaîner les sorties en pensant qu'il « s'habituera » — on ne s'habitue pas à la sur-stimulation.",
+        "Le gronder d'être grognon — il vit un contrecoup, pas une bouderie."
+      ],
+      "consulter_si": "Consulter si : la sensibilité à la stimulation devient extrême (l'enfant ne supporte plus aucune sortie, développe des symptômes physiques), ou si le trop-plein ne s'apaise jamais malgré le retour au calme → en parler au pédiatre. Un contrecoup après une grosse journée, qui passe au calme, est parfaitement normal — certains enfants sont juste plus sensibles que d'autres."
     }
   ]
 }

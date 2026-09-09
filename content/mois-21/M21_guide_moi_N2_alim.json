@@ -1,0 +1,195 @@
+{
+  "mois": 21,
+  "tranche_age": "21 mois",
+  "categorie": {
+    "id": "alim",
+    "nom": "Alimentation",
+    "sous_titre": "Repas en garde, imitation, légumes, lait du soir",
+    "icone": "🥣"
+  },
+  "protocoles": [
+    {
+      "categorie": "alim",
+      "situation": "Les repas sans moi / On me dit qu'il ne mange rien",
+      "titre": "Lire ce qu'on te rapporte",
+      "explication": "Ce qui te revient le soir est un résumé : une assiette rendue, une phrase en deux mots, parfois une ligne sur un cahier. Il y manque presque tout, à commencer par ce qui s'est passé autour de la table. À vingt et un mois, un enfant peut très bien picorer un jour parce qu'un copain est parti, parce que le plat ne ressemblait à rien de connu, ou parce qu'il a passé l'heure à regarder les autres. Le compte rendu dit ce qui reste dans l'assiette, il ne dit jamais pourquoi.",
+      "ancrage": "Ce qu'on te raconte est une information partielle, pas un jugement sur toi. Tu peux la compléter par deux questions précises plutôt que de rentrer avec toute l'inquiétude.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : au moment où on te le dit",
+        "etapes": [
+          "Demander ce qu'il y avait : le menu exact, et si c'était un plat qu'il connaissait déjà.",
+          "Demander comment ça s'est passé : s'il s'est levé, s'il a joué, s'il a surtout regardé les autres.",
+          "Demander qui était à côté : un voisin de table qui change bouleverse le repas d'un enfant de cet âge.",
+          "Remercier et refermer : la conversation s'arrête là, elle ne se prolonge pas dans la voiture.",
+          "Ne rien en dire devant lui : il comprend beaucoup à cet âge, et il retient l'inquiétude avant les mots."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Hors du repas : préparer ce qui se passe là-bas",
+        "etapes": [
+          "Refaire un plat du menu : retrouvé à la maison, il devient familier pour la fois suivante.",
+          "Le cuisiner avec lui : ce qu'il a préparé une fois se reconnaît dans une assiette servie ailleurs.",
+          "Lui montrer le plat avant : voir et sentir chez toi ce qu'il retrouvera là-bas lève une partie de la méfiance.",
+          "Lui raconter la journée à venir : nommer le moment du repas là-bas l'aide à s'y projeter.",
+          "S'arrêter s'il se détourne : c'est une préparation, pas une leçon à retenir."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Se fier au week-end : ce qu'il mange les jours sans garde donne son appétit réel, mieux que n'importe quel résumé.",
+        "Regarder la pente sur un mois : un compte rendu isolé ne dit rien, une tendance dit quelque chose.",
+        "Demander que personne n'insiste : la pression à table produit l'effet inverse, là-bas comme ici.",
+        "Faire le point au suivi médical : la courbe tranche en 2 minutes ce qui inquiète depuis des semaines."
+      ],
+      "principe": "Un compte rendu décrit une assiette, jamais un enfant. Ce qui se joue en collectivité se comprend en posant des questions à ceux qui étaient là, et se règle avec le temps, jamais en rattrapant le soir.",
+      "erreurs_a_eviter": [
+        "Rapporter la remarque devant lui : le sujet entre à la maison et s'installe à ta table pour des semaines.",
+        "Interroger la personne qui le garde comme si elle était en faute : on perd l'alliance dont on a justement besoin.",
+        "Conclure d'un seul compte rendu : un jour sans appétit reste un jour sans appétit, rien de plus.",
+        "Réorganiser toute sa journée sur cette phrase : goûter, dîner et coucher se décalent pour un chiffre approximatif."
+      ],
+      "consulter_si": "Consulter si : les comptes rendus se dégradent de mois en mois au lieu de s'améliorer, si ton enfant mange aussi très peu les jours où il reste avec toi, s'il maigrit, s'il devient pâle ou fatigable, ou si son appétit s'est effondré partout depuis un événement précis → pédiatre, médecin traitant ou PMI. Le carnet de santé et la pesée trancheront ce qu'aucun compte rendu ne peut trancher.",
+      "source": "Source : quatre repas par jour et repères alimentaires des enfants de 1 à 3 ans, Assurance Maladie, ameli.fr ; ne pas forcer et respecter l'appétit, repères pédiatriques mpedia.fr (AFPA) ; surveillance de la courbe de croissance, Haute Autorité de Santé."
+    },
+    {
+      "categorie": "alim",
+      "situation": "L'assiette du voisin / Il veut celle d'à côté",
+      "titre": "Se servir de ce que font les autres enfants",
+      "explication": "Vers vingt et un mois, l'imitation change de cible : ce ne sont plus seulement les adultes qui donnent envie, ce sont les autres enfants. Un frère, une sœur, un copain de crèche ou le petit voisin de table pèse plus lourd qu'un parent, parce qu'il ressemble à ce que ton enfant est en train de devenir. Un légume refusé pendant des semaines peut se manger d'un coup parce qu'un autre enfant l'a mangé devant lui. C'est le levier le plus puissant dont tu disposes à cet âge.",
+      "ancrage": "Ce n'est pas de la convoitise, c'est la façon dont il apprend en ce moment. Tu peux t'en servir plutôt que de défendre les assiettes les unes des autres.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : quand il lorgne l'assiette d'à côté",
+        "etapes": [
+          "Servir la même chose à tous : la question disparaît d'elle-même quand les assiettes se ressemblent.",
+          "Le laisser prendre une fois : une bouchée piochée chez l'autre vaut mieux qu'un refus de principe.",
+          "Mettre le plat au milieu : servi dans un plat commun, l'aliment appartient à tout le monde.",
+          "Ne rien commenter s'il goûte : le silence protège l'essai, la félicitation le rend suspect.",
+          "Poser la limite du geste, pas de l'envie : « tu demandes avant de prendre », dit calmement."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Hors du repas : se servir de l'imitation",
+        "etapes": [
+          "L'installer près d'un enfant qui mange bien : la place à table n'est pas un détail à cet âge.",
+          "Inviter un copain à déjeuner : un enfant de son âge ouvre des portes qu'aucun adulte n'ouvre.",
+          "Le faire servir les autres : distribuer le pain ou verser l'eau le met dans le repas commun.",
+          "Manger dehors avec d'autres : pique-nique, cantine familiale, la nouveauté passe mieux en groupe.",
+          "Le laisser regarder sans rien attendre : voir manger est déjà la moitié du travail."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Servir tout le monde pareil : cuisiner un plat d'enfant à part supprime le levier qu'on cherche à utiliser.",
+        "Éviter de comparer à voix haute : « regarde, lui il mange » retourne le levier en reproche.",
+        "Profiter des repas de fratrie : l'aîné ou le plus jeune fait avancer plus vite qu'une semaine d'insistance.",
+        "Rester patient sur le rythme : l'imitation ouvre des portes, elle ne les ouvre pas au repas suivant."
+      ],
+      "principe": "Un enfant de cet âge goûte ce qu'il voit goûter par quelqu'un qui lui ressemble. Ce qui fait entrer un aliment n'est presque jamais l'insistance de l'adulte, c'est l'exemple d'un autre enfant.",
+      "erreurs_a_eviter": [
+        "Défendre l'assiette de son frère ou de sa sœur : le conflit remplace l'apprentissage qui était en train de se faire.",
+        "Le forcer à goûter parce que l'autre a goûté : la comparaison devient une pression et l'effet s'inverse.",
+        "Souligner qu'il a enfin mangé un légume : l'attention transforme l'essai en performance à refaire.",
+        "Séparer les enfants pour avoir la paix : on supprime la seule chose qui faisait avancer le repas."
+      ],
+      "consulter_si": "Consulter si : ton enfant ne mange que dans l'assiette des autres et jamais dans la sienne depuis plusieurs semaines, s'il perd du poids, si les repas de fratrie se terminent systématiquement en conflit, ou si son répertoire se réduit malgré l'exemple des autres → pédiatre, médecin traitant ou PMI, qui pourront orienter vers une diététicienne pédiatrique."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Les légumes abandonnés / Il n'en mange plus du tout",
+      "titre": "Tenir la présence, lâcher la bataille",
+      "explication": "Quand un enfant a cessé de manger des légumes depuis plusieurs semaines, deux choses se sont installées en même temps : son refus, et l'inquiétude qui l'accompagne à chaque repas. La seconde entretient le premier bien plus qu'on ne le croit, parce qu'à vingt et un mois il repère parfaitement le moment où l'assiette devient un sujet. Sur le plan des apports, quelques semaines sans légumes chez un enfant qui mange des fruits, des féculents et des laitages ne créent pas de carence : c'est le temps long qui compte.",
+      "ancrage": "Tu peux relâcher la pression sans renoncer à l'objectif. Ce qui fait revenir un légume, c'est sa présence tranquille sur la table, pas la conviction que tu y mets.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : au repas d'aujourd'hui",
+        "etapes": [
+          "En servir une toute petite quantité : deux morceaux dans un coin, sans le dire et sans y revenir.",
+          "Ne rien attendre du repas : aujourd'hui, l'objectif est qu'il en voie, pas qu'il en mange.",
+          "Le laisser trier en paix : trier fait partie du chemin, et le commenter le fige.",
+          "Manger le légume avec plaisir devant lui : sans le regarder, sans rien lui proposer.",
+          "Débarrasser sans bilan : ce qui est reparti intact repartira intact demain, et ce n'est pas grave."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Hors du repas : remettre le légume dans sa vie",
+        "etapes": [
+          "Le faire cuisiner : éplucher, casser, essorer, ce que la main a préparé se méfie moins.",
+          "L'emmener choisir : au marché ou au rayon, il en prend un et c'est le sien.",
+          "En faire pousser : un pot de radis ou d'herbes sur le rebord de la fenêtre, arrosé par lui.",
+          "En donner à goûter aux autres : servir sa famille le met du bon côté de l'assiette.",
+          "S'arrêter avant l'ennui : 2 minutes suffisent, et ça recommence un autre jour."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Compter sur plusieurs mois : dix à quinze présentations tranquilles sont souvent nécessaires à cet âge.",
+        "Assurer les apports en attendant : fruits crus et cuits, féculents complets, laitages couvrent l'essentiel.",
+        "Varier les formes plutôt que les légumes : cru, rôti, en soupe, en galette, le même légume a plusieurs visages.",
+        "Le retirer du sujet familial : ne plus en parler à table pendant deux semaines change souvent plus que dix stratégies."
+      ],
+      "principe": "Un aliment qui a quitté l'assiette a besoin d'y revenir sans que rien ne lui soit demandé. Ce qui bloque une réouverture n'est pas le goût de l'enfant, c'est l'enjeu que l'adulte met sur la bouchée.",
+      "erreurs_a_eviter": [
+        "Le cacher mixé dans les plats : il ne l'apprend pas, et il se méfie ensuite du plat qu'il aimait.",
+        "Promettre le dessert contre une bouchée : le légume devient un péage et perd toute chance d'être aimé.",
+        "Dire devant lui qu'il déteste les légumes : à cet âge l'étiquette devient une identité qu'il défend.",
+        "Arrêter d'en servir puisqu'il n'en mange pas : on supprime les présentations qui l'auraient fait revenir."
+      ],
+      "consulter_si": "Consulter si : le refus s'étend aux fruits et aux protéines et pas seulement aux légumes, si le nombre d'aliments acceptés se réduit de mois en mois, si ton enfant est pâle ou se fatigue vite, si son transit se bloque durablement, ou s'il perd du poids → pédiatre, médecin traitant ou PMI, qui pourront orienter vers une diététicienne pédiatrique.",
+      "source": "Source : proposer sans forcer, représenter l'aliment refusé et ne pas s'en servir comme récompense, repères pédiatriques mpedia.fr (AFPA) ; repères alimentaires des enfants de 1 à 3 ans, Santé publique France, programme national nutrition santé ; ne pas forcer l'enfant à manger, Assurance Maladie, ameli.fr."
+    },
+    {
+      "categorie": "alim",
+      "situation": "Le lait du soir / Il en boit tant qu'il ne dîne plus",
+      "titre": "Déplacer le lait, garder le rituel",
+      "explication": "Le lait du soir occupe deux places à la fois, et c'est ce qui rend la situation difficile à démêler. Il nourrit, et il apaise : il arrive au moment où la journée se referme, il se boit sans effort, et il fait partie du chemin vers le lit. Quand il est pris juste avant le dîner, ou en trop grande quantité, il remplit l'estomac que le repas allait remplir. Il n'y a pourtant rien à supprimer : un lait adapté reste recommandé jusqu'à trois ans, et le rituel du soir a sa valeur propre.",
+      "ancrage": "Ce n'est pas le lait qui pose problème, c'est l'heure à laquelle il arrive. Tu peux le déplacer sans rien retirer à ce moment-là de la journée.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : ce soir",
+        "etapes": [
+          "Dîner d'abord, lait ensuite : l'ordre à lui seul règle une bonne partie de la situation.",
+          "Réduire la quantité par petits paliers : un peu moins chaque soir, sans annonce et sans négociation.",
+          "Éloigner le goûter du dîner : deux heures d'écart laissent la faim remonter.",
+          "Garder le contenant qu'il aime : ce n'est pas le moment de changer aussi le verre ou le biberon.",
+          "Servir un dîner simple : ce qu'il aime, en petite quantité, pour que la faim retrouve la table."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : garder le réconfort du soir",
+        "etapes": [
+          "Garder le même fauteuil : même place, même lumière, même moment, seule la boisson bouge.",
+          "Le prendre contre toi sans rien tenir : les bras d'abord, le verre ensuite ou pas du tout.",
+          "Main large et immobile sur son dos : le contact fait la moitié de ce que faisait le lait.",
+          "Lire une histoire à la place : le rituel garde sa longueur, il change seulement de contenu.",
+          "Terminer quand il se détache : c'est lui qui donne le signal de la fin, comme avant."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Compter le lait de la journée entière : biberons, verres, yaourts et fromage se lisent ensemble.",
+        "Tenir les repères du jour : environ cinq cents millilitres de produits lactés, huit cents au plus, biberons et laitages confondus.",
+        "Déplacer sur une semaine ou deux : un changement progressif se garde, un changement brutal se paie sur les nuits.",
+        "En parler au suivi médical : pédiatre ou PMI vérifient les apports et le fer si le lait a pris beaucoup de place."
+      ],
+      "principe": "Ce moment n'est pas seulement un aliment, c'est une façon de finir la journée. On peut en réduire le volume à condition de laisser intact ce qu'il apaise, sinon ce qui est retiré se cherche ailleurs, souvent la nuit.",
+      "erreurs_a_eviter": [
+        "Le supprimer d'un coup : le réconfort perdu se cherche ailleurs, et les réveils reprennent.",
+        "Le donner juste avant de passer à table : l'estomac est déjà plein quand le dîner arrive.",
+        "Le remplir davantage les soirs où il n'a pas dîné : la faim du lendemain baisse à son tour.",
+        "Ajouter du sirop ou des céréales pour qu'il en prenne davantage : le goût sucré s'installe et le dîner passe encore moins bien."
+      ],
+      "consulter_si": "Consulter si : ton enfant boit plus de huit cents millilitres de lait par jour et refuse presque tous les repas, s'il pâlit ou se fatigue vite, s'il ne prend plus de poids, ou si le refus du dîner dure depuis plusieurs semaines → pédiatre, médecin traitant ou PMI, qui pourront vérifier notamment le fer.",
+      "source": "Source : un lait adapté recommandé jusqu'à 3 ans, environ 500 ml de lait ou de produits laitiers par jour et 800 ml au maximum, repères pédiatriques mpedia.fr (AFPA) ; quatre repas par jour, Assurance Maladie, ameli.fr."
+    }
+  ]
+}

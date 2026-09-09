@@ -4,191 +4,193 @@
   "categorie": {
     "id": "sepa",
     "nom": "Angoisse de séparation",
-    "sous_titre": "Absence, proches, nuit, garde",
+    "sous_titre": "Absence, proches, nuit, mode de garde",
     "icone": "💜"
   },
   "protocoles": [
     {
       "categorie": "sepa",
-      "situation": "Pleure dès que je quitte la pièce / même deux minutes",
-      "titre": "Deux minutes d'absence / ta voix te représente",
-      "explication": "Deux minutes, et c'est la panique. Il n'a pas encore la capacité de te représenter mentalement en ton absence : quand tu disparais, il n'a rien pour te faire exister. C'est précisément cette capacité qui se construit maintenant — et ta voix est l'outil qui la construit. Continuer à lui parler depuis l'autre pièce lui donne, littéralement, un support pour te maintenir présente. Ce n'est pas un truc pour le calmer : c'est un entraînement cognitif, et il fonctionne.",
-      "ancrage": "Ta voix depuis l'autre pièce n'est pas une astuce : c'est le support qui lui permet de te faire exister quand il ne te voit pas.",
+      "situation": "Les pleurs dès que je sors / Il ne supporte pas 2 minutes seul",
+      "titre": "Le jeu de la voix qui répond",
+      "explication": "Tu sors de la pièce, et les pleurs démarrent avant que la porte soit franchie. Ce qui lui manque n'est pas ta présence, c'est le moyen de te faire exister pendant qu'il ne te voit pas. Or il vient d'acquérir quelque chose de très utile pour cela : il babille, il émet des syllabes répétées, et il attend une réponse. Sa voix et la tienne peuvent donc se répondre à travers un mur, et chaque échange lui donne une preuve que tu es toujours là, sans que tu aies besoin de revenir.",
+      "ancrage": "Ne plus pouvoir aller aux toilettes seule finit par peser plus lourd que les nuits. Ce que tu peux lui apprendre en ce moment, ce n'est pas à se passer de toi, c'est à te retrouver autrement que par les yeux.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — la voix continue",
+        "titre": "Action immédiate : se répondre à distance",
         "etapes": [
-          "Parler sans interruption : dès que tu sors de son champ, ta voix continue.",
-          "Commenter ce que tu fais : « je prends une serviette, je reviens, je suis là ».",
-          "Annoncer avant de partir : toujours la même phrase.",
-          "Revenir montrer ton visage : brièvement, à intervalles réguliers.",
-          "Ne jamais partir en silence : la disparition brusque fabrique l'insécurité."
+          "Continuer à parler dès que tu sors de son champ : ta voix prend le relais de ton visage.",
+          "Dire ce que tu es en train de faire : « je prends une serviette, je reviens ».",
+          "Attendre sa réponse et y répondre : un son, une syllabe, et tu renvoies le même.",
+          "Revenir avant qu'il se mette à pleurer : la réussite compte plus que la durée.",
+          "Allonger de quelques secondes chaque jour : la progression se mesure en secondes, pas en minutes."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Réflexologie : ancrer la sécurité",
+        "titre": "Réflexologie : nourrir le sentiment de sécurité",
         "etapes": [
-          "Un moment quotidien : bébé sur le dos, éveillé et calme.",
-          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Ta voix pendant le geste : associée au toucher, elle devient un repère.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
-        ]
+          "Un moment fixe chaque jour : bébé sur le dos, éveillé et calme.",
+          "Envelopper ses pieds dans tes paumes : immobiles, le temps de quelques respirations.",
+          "Balayer la voûte du talon vers les orteils : lentement, pression douce et constante.",
+          "Reprendre les sons qu'il émet pendant le geste : le toucher, ta voix et la sienne s'associent.",
+          "T'arrêter s'il retire son pied : des séances courtes et régulières valent mieux qu'une longue."
+        ],
+        "lien_reflexologie": {
+          "id": "separation",
+          "titre": "Angoisse de séparation"
+        }
       },
       "pour_aller_plus_loin": [
-        "Jouer à coucou : plusieurs fois par jour — c'est l'entraînement direct.",
-        "Allonger progressivement : quelques secondes de plus hors du champ, avec ta voix.",
-        "Ne pas éviter les absences : les éviter reporte et aggrave la difficulté.",
-        "Se rappeler que c'est un progrès : cette angoisse est le signe d'un attachement qui fonctionne."
+        "Jouer à cacher un objet sous un linge : il apprend sur un support neutre ce qu'il n'ose pas encore avec toi.",
+        "Jouer à coucou en variant les cachettes : derrière une porte, derrière un meuble, avec la voix qui continue.",
+        "Laisser une porte ouverte plutôt que fermée : le son passe, et le son suffit souvent.",
+        "Confier de courts moments à un autre adulte : la fréquence compte plus que la durée."
       ],
-      "principe": "Ta voix est le support qui lui permet de te représenter en ton absence. C'est un entraînement cognitif — pas une simple consolation.",
+      "principe": "Un enfant se rassure d'abord par les yeux, puis par la voix, puis par le souvenir. Chaque étape s'entraîne, et celle de la voix est celle de cet âge.",
       "erreurs_a_eviter": [
-        "Partir en silence pour éviter les pleurs.",
-        "Éviter toute absence pour ne pas le perturber.",
-        "Le prendre dans les bras à chaque appel.",
-        "Le placer devant un écran pendant ton absence."
+        "Sortir en silence pour ne pas déclencher les pleurs : il se met à surveiller tes déplacements toute la journée.",
+        "Attendre qu'il pleure pour revenir : il apprend que c'est le pleur qui te ramène.",
+        "Renoncer à sortir de la pièce : sans occasion de vérifier, la représentation ne s'entraîne pas.",
+        "Allonger l'absence d'un coup parce qu'une fois s'est bien passée : une réussite isolée ne dit pas encore que l'étape est acquise."
       ],
-      "consulter_si": "Consulter si : bébé ne se calme jamais, même quand tu reviens, ne cherche jamais ton visage ni ta voix, ne réagit pas aux bruits, ne babille pas, ou paraît anormalement mou ou éteint → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition.",
-      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+      "consulter_si": "Consulter si : bébé ne se calme jamais, même à ton retour, ne cherche jamais ton visage ni ta voix, ne réagit pas aux bruits, ne babille pas, ou paraît anormalement mou ou éteint → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition."
     },
     {
       "categorie": "sepa",
-      "situation": "Hurle avec les grands-parents familiers / pourtant connus",
-      "titre": "Il refuse les grands-parents / le temps dans la même pièce",
-      "explication": "Il connaît ses grands-parents, il les voit souvent — et il hurle dès qu'ils s'approchent. C'est déroutant, et cela blesse. L'angoisse de séparation ne fait pas de distinction entre inconnus et proches : à ce stade, tout ce qui n'est pas sa figure d'attachement peut être refusé. Ce qui fonctionne n'est jamais le bras tendu : c'est le temps passé dans la même pièce, sans exigence de contact. Il finira par venir — mais c'est lui qui décide du moment, et cela peut prendre une heure.",
-      "ancrage": "Le bras tendu échoue toujours. Ce qui fonctionne, c'est le temps dans la même pièce, sans rien exiger.",
+      "situation": "Le refus des grands-parents / Il hurle avec des gens qu'il connaît",
+      "titre": "Les vingt premières minutes de la visite",
+      "explication": "Il les connaît, il les voit régulièrement, et il hurle dès qu'ils s'approchent. Ce qui se joue ici surprend souvent : à cet âge, ce n'est pas la connaissance d'un visage qui rassure, c'est sa fréquence récente. Une personne vue toutes les deux semaines redevient partiellement étrangère entre deux visites. S'y ajoute une différence de rythme : un adulte qui n'a pas vu son petit-enfant depuis quinze jours arrive avec de l'élan, des bras tendus et une voix forte, exactement ce qui déclenche le repli.",
+      "ancrage": "Voir ses parents blessés par la réaction de son enfant met dans une position inconfortable des deux côtés. Personne n'est en cause, et ce qui se déroule dans les vingt premières minutes décide de tout le reste de la visite.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — du temps, pas des bras",
+        "titre": "Action immédiate : les vingt premières minutes",
         "etapes": [
-          "Demander qu'on ne tende pas les bras : ni immédiatement, ni après dix minutes.",
-          "Rester dans la même pièce : lui, toi, et la personne — sans exigence de contact.",
-          "Laisser passer par le jeu : un objet posé au sol, un jeu parallèle, sans le regarder fixement.",
-          "Le garder contre toi : il observe depuis sa base sûre.",
-          "Attendre qu'il vienne : il viendra, souvent après un long moment."
+          "Demander de ne pas tendre les bras en arrivant : ni tout de suite, ni après 10 minutes.",
+          "Faire asseoir la personne au sol : à sa hauteur, de trois quarts plutôt qu'en face.",
+          "Le garder près de toi sans le retenir : il s'éloignera de lui-même quand il sera prêt.",
+          "Faire passer le premier échange par un objet : un jouet posé au sol, sans le regarder fixement.",
+          "Laisser les adultes parler entre eux : il comprend que la personne est acceptée en te voyant détendue."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Réflexologie : après la visite",
+        "titre": "Geste doux : un geste qui appartient au grand-parent",
         "etapes": [
-          "Une fois au calme : bébé sur le dos, dans le silence.",
-          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
+          "Lui confier un moment simple et répétable : tourner les pages d'un livre, verser l'eau du bain.",
+          "Toujours le même à chaque visite : la répétition fabrique la familiarité mieux que la durée.",
+          "Un contact latéral plutôt que frontal : une main posée sur le dos pendant qu'ils regardent la même chose.",
+          "Accepter un contact partiel : une main sur le genou est déjà un progrès considérable.",
+          "S'arrêter dès qu'il se raidit : la prochaine visite reprendra un cran plus loin."
         ]
       },
       "pour_aller_plus_loin": [
-        "Expliquer aux grands-parents : « ce n'est pas contre vous, c'est une phase de l'attachement » — et le dire avant la visite.",
-        "Multiplier les visites courtes : la fréquence prime largement sur la durée.",
-        "Ne pas s'excuser de lui : cela le présente comme un problème.",
-        "Se rappeler que cela passe : cette phase s'atténue au fil des mois."
+        "Prévenir avant la visite plutôt que sur place : un message la veille évite tous les malaises du salon.",
+        "Préférer des visites courtes et fréquentes : la familiarité se construit par le nombre, pas par la durée.",
+        "Proposer un appel vidéo entre deux visites : la voix et le visage restent présents entre les rencontres.",
+        "Rappeler que la phase est traversée par tous les bébés : le dire à l'avance évite qu'elle soit prise personnellement."
       ],
-      "principe": "L'angoisse ne distingue pas les proches des inconnus. Le bras tendu échoue ; le temps partagé dans la même pièce, sans exigence, fonctionne.",
+      "principe": "Ce qui rend une personne familière à un tout-petit, c'est la fréquence récente, pas l'ancienneté du lien. Un visage se réapprivoise à chaque fois qu'il a disparu longtemps.",
       "erreurs_a_eviter": [
-        "Forcer le contact avec les grands-parents.",
-        "Le laisser seul avec eux sans transition.",
-        "S'excuser de sa réaction.",
-        "Espacer les visites parce que « ça se passe mal »."
+        "Le mettre dans les bras pour faire plaisir : la peur se confirme et la visite suivante commence plus mal.",
+        "T'excuser de sa réaction devant lui : il perçoit au ton qu'il vient de décevoir.",
+        "Espacer les visites parce que cela se passe mal : chaque semaine sans se voir rend la personne un peu plus étrangère.",
+        "Le laisser seul avec eux sans transition : la séparation brutale s'ajoute à la peur au lieu de la lever."
       ],
-      "consulter_si": "Consulter si : bébé ne sourit à personne, y compris à toi, ne réagit pas aux bruits, ne babille pas, ne cherche jamais le contact, ou paraît anormalement mou ou éteint → pédiatre ou PMI."
+      "consulter_si": "Consulter si : bébé ne sourit à personne, pas même à toi, ne réagit pas aux bruits, ne babille pas, ne cherche jamais le contact, ou paraît anormalement mou ou éteint → pédiatre ou PMI."
     },
     {
       "categorie": "sepa",
-      "situation": "Se réveille pour vérifier ma présence / puis se rendort",
-      "titre": "La vérification nocturne / travailler le jour",
-      "explication": "Il se réveille, t'appelle, se rendort dès qu'il t'a vue ou entendue. Ce n'est ni la faim, ni les dents, ni la douleur : c'est une vérification. Et une vérification nocturne est le symptôme d'une angoisse diurne. C'est un point essentiel : traiter la nuit sans traiter le jour ne fonctionne pas. Ce qui allège réellement les nuits, ce sont les séparations travaillées en journée — départs annoncés, retours nommés, jeu de coucou, micro-séparations répétées. La nuit suit le jour, jamais l'inverse.",
-      "ancrage": "Une vérification nocturne est le symptôme d'une angoisse de jour. La nuit suit le jour — c'est là qu'on agit.",
+      "situation": "La vérification nocturne / Il se réveille, me voit, et se rendort",
+      "titre": "Travailler le jour pour alléger la nuit",
+      "explication": "Il se réveille, appelle, se rendort dès qu'il t'a vue ou entendue. Ce type de réveil ne vient ni de la faim ni de la douleur : c'est une vérification, et elle se produit dans le sommeil léger de fin de cycle, au moment où un bébé remonte brièvement à la surface. Ce qu'il vérifie la nuit est exactement ce qui l'inquiète le jour. C'est pour cela qu'une nuit travaillée seule change peu de choses, alors qu'une journée mieux entraînée allège les nuits en une à deux semaines.",
+      "ancrage": "Travailler sur les journées quand on est réveillée toutes les nuits demande une énergie que l'on n'a pas toujours. Il ne s'agit pas d'en faire plus, mais de placer autrement quelques minutes déjà existantes.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — la nuit, brièvement",
+        "titre": "Action immédiate : ce que tu changes le jour",
         "etapes": [
-          "Répondre par la voix : depuis le couloir, sans entrer, si cela suffit.",
-          "Une réponse brève et identique : « je suis là, dors » — mot pour mot.",
-          "Ne pas le sortir du lit : sauf besoin réel.",
-          "Ne pas allumer : la pénombre du début à la fin.",
-          "Repartir : sans attendre qu'il se rendorme complètement."
+          "Annoncer chacune de tes sorties de pièce : même pour trente secondes, avec la même phrase.",
+          "Nommer ton retour à chaque fois : « je suis partie, je suis revenue », y compris s'il n'a pas pleuré.",
+          "Prévoir trois vraies séparations dans la journée : quelques minutes avec un autre adulte, à des moments calmes.",
+          "Jouer à faire disparaître et réapparaître : un objet, ton visage, une personne derrière une porte.",
+          "Éviter d'ajouter un changement en ce moment : nouvelle chambre, nouveau lit, nouveau mode de garde."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — travailler les séparations le jour",
+        "titre": "Geste doux : un repère qui traverse la nuit",
         "etapes": [
-          "Jouer à coucou : plusieurs fois par jour.",
-          "Annoncer chaque départ et nommer chaque retour : même pour deux minutes.",
-          "Micro-séparations : quelques minutes avec un autre adulte, régulièrement.",
-          "Parler depuis l'autre pièce : le fil vocal qui construit la permanence.",
-          "S'arrêter s'il panique : revenir à des absences plus courtes."
+          "Choisir un geste précis du coucher : une main posée sur le torse, toujours au même endroit.",
+          "L'accompagner de la même phrase : celle que tu emploieras aussi la nuit.",
+          "Le faire aussi avant la sieste : le repère se renforce deux fois par jour au lieu d'une.",
+          "Terminer le rituel hors des bras : couché, éveillé, avec ta voix et ta main.",
+          "Refaire exactement le même geste la nuit : il reconnaît le signal avant de reconnaître la situation."
         ]
       },
       "pour_aller_plus_loin": [
-        "Retenir le principe : la nuit suit le jour — traiter la nuit seule ne fonctionne pas.",
-        "Se relayer : chaque parent une moitié de nuit.",
-        "Ne pas nourrir par réflexe : une vérification n'est pas une faim.",
-        "Compter en semaines : la permanence se construit progressivement."
+        "Laisser au réglage le temps d'agir : les nuits suivent les journées avec plusieurs jours de décalage.",
+        "Impliquer l'autre parent dans les séparations du jour : il devient une présence rassurante, pas un substitut.",
+        "Garder le même déroulé chez la personne qui le garde : deux façons de faire ralentissent l'apprentissage.",
+        "Noter les nuits sur deux semaines : les progrès sont réels et peu visibles au jour le jour."
       ],
-      "principe": "La vérification nocturne est le symptôme d'une angoisse diurne. Travailler les séparations du jour allège les nuits — l'inverse ne marche pas.",
+      "principe": "Un symptôme nocturne renvoie souvent à une question posée dans la journée. On le traite donc à l'heure où l'enfant est disponible pour apprendre, pas à l'heure où il se manifeste.",
       "erreurs_a_eviter": [
-        "Traiter uniquement la nuit sans rien changer au jour.",
-        "Le sortir du lit et le bercer longuement.",
-        "Le nourrir systématiquement.",
-        "Éviter toute séparation en journée pour « le préserver »."
+        "Chercher une solution qui n'agit que sur la nuit : la cause reste entière et la nuit revient.",
+        "Supprimer les séparations de la journée pour qu'il dorme mieux : il a alors encore moins de preuves que tu reviens.",
+        "Introduire un changement important pendant cette phase : tout ce qui bouge relance la vérification.",
+        "Juger l'effet sur deux nuits : ce type de réglage se mesure sur deux semaines."
       ],
-      "consulter_si": "Consulter si : bébé se réveille en hurlant de façon inconsolable, présente de la fièvre, refuse de boire, ne prend pas de poids, ou présente des pauses respiratoires ou un ronflement important → pédiatre ; le 15 en cas de trouble respiratoire.",
-      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+      "consulter_si": "Consulter si : bébé se réveille en hurlant de façon inconsolable, présente de la fièvre, refuse de boire, ne prend pas de poids, ou présente des pauses respiratoires, une respiration bruyante ou un ronflement important → pédiatre ; appeler le 15 en cas de trouble respiratoire."
     },
     {
       "categorie": "sepa",
-      "situation": "Refuse la garde depuis une semaine / pleurs à chaque arrivée",
-      "titre": "Le refus soudain de la garde / se traite avec le lieu",
-      "explication": "Il allait bien à la crèche, et depuis une semaine il hurle chaque matin. Un refus soudain a presque toujours une explication : le pic de l'angoisse de séparation, un changement dans le lieu — un professionnel absent, un nouveau groupe —, une maladie récente, ou une période de progrès moteur. Ce refus ne se traite pas seule à la maison : il se traite avec le lieu de garde. Le rituel, l'objet familier, la régularité, et surtout un échange franc avec les professionnels sont les vrais leviers.",
-      "ancrage": "Un refus soudain a presque toujours une cause. Il ne se règle pas seule à la maison : il se règle avec l'équipe.",
+      "situation": "Le refus soudain de la garde / Il hurle chaque matin depuis une semaine",
+      "titre": "Chercher ce qui a changé sur place",
+      "explication": "Pendant des mois tout s'est bien passé, et depuis une semaine il hurle chaque matin. Un basculement aussi net a presque toujours une cause identifiable, et elle est rarement chez lui seul : une personne de référence partie ou absente, un changement de groupe ou de salle, un enfant nouveau, une maladie récente qui a coupé le rythme, ou une semaine de vacances qui a suffi à défaire l'habitude. Le pic de l'angoisse de séparation, à cet âge, amplifie tout le reste.",
+      "ancrage": "Un refus qui apparaît d'un coup fait immédiatement douter du lieu et de la décision de le confier. Avant d'en conclure quoi que ce soit, il y a une question simple à poser sur place : qu'est-ce qui a changé.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — reprendre les repères",
+        "titre": "Action immédiate : cette semaine",
         "etapes": [
-          "Parler aux professionnels : demander ce qui a changé — un départ, un nouveau groupe, un incident.",
-          "Un rituel de départ très court : une phrase, un baiser, et on part — toujours les mêmes.",
-          "Un objet familier : un tissu portant ton odeur, remis à l'équipe pour l'éveil.",
-          "Confier à la même personne : autant que possible, le même adulte à l'accueil.",
-          "Ne jamais partir en cachette : cela fabrique l'insécurité."
+          "Demander à l'équipe ce qui a changé : départ, absence, nouveau groupe, incident, réorganisation.",
+          "Demander combien de temps il pleure après ton départ : la réponse rassure presque toujours.",
+          "Raccourcir le rituel du matin plutôt que l'allonger : une phrase, un geste, et tu pars.",
+          "Confier un tissu portant ton odeur : pour les temps d'éveil, jamais dans le lit pendant le sommeil.",
+          "Maintenir la régularité des jours : espacer les jours de garde aggrave presque toujours le refus."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Réflexologie : le rituel des retrouvailles",
+        "titre": "Geste doux : reconstruire l'habitude",
         "etapes": [
-          "Au retour, chaque soir : toujours au même moment.",
-          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
-          "S'arrêter à sa demande : il peut avoir besoin de calme avant de contact."
+          "Arriver 5 minutes plus tôt : le temps de poser ses affaires avec lui, sans précipitation.",
+          "Faire toujours le même trajet dans la pièce : le même vestiaire, le même endroit où on se dit au revoir.",
+          "Le confier au même adulte quand c'est possible : un visage connu fait la moitié du travail.",
+          "Le passer de bras en bras plutôt que de le poser au sol : il change de portage, pas d'univers.",
+          "Nommer le retour au moment de partir : « je reviens après le goûter », la même phrase chaque jour."
         ]
       },
       "pour_aller_plus_loin": [
-        "Demander combien de temps il pleure : c'est souvent très court — l'équipe peut te le dire.",
-        "Maintenir la régularité : espacer les jours de garde aggrave généralement le refus.",
-        "Alerter si les faits l'exigent : un enfant qui ne mange plus, régresse durablement, ou une équipe qui ne répond pas — cela, ce sont des faits.",
-        "Traiter ta culpabilité séparément : elle est réelle, elle se dit — et elle ne se résout pas par un protocole."
+        "Écrire ses repères pour l'équipe : signes de fatigue, façon de le calmer, déroulé du repas.",
+        "Demander un point à la fin de la semaine : plutôt qu'une inquiétude qui grandit tous les matins.",
+        "Compter en semaines : un refus lié à un changement se résorbe en général en une à trois semaines.",
+        "Distinguer le refus du matin de la journée entière : ce sont deux informations différentes."
       ],
-      "principe": "Un refus soudain se traite avec le lieu de garde, pas seule à la maison. Le rituel, l'objet familier, la régularité et l'échange avec l'équipe sont les leviers.",
+      "principe": "Un comportement qui change brutalement répond presque toujours à un changement extérieur. La première question à poser n'est pas comment le faire cesser, mais ce qui a bougé autour de lui.",
       "erreurs_a_eviter": [
-        "Espacer les jours de garde en espérant que cela s'arrange.",
-        "Partir en cachette.",
-        "Changer de rituel chaque matin.",
-        "Juger la garde uniquement à partir de ses pleurs du matin."
+        "Décider de changer de mode de garde dans la semaine : le pic d'angoisse est le pire moment pour trancher.",
+        "Espacer les jours pour le ménager : chaque absence supplémentaire rend le retour plus difficile.",
+        "Allonger les au revoir : la séparation s'étire et la détresse avec elle.",
+        "Juger la qualité du lieu à partir de ses pleurs du matin : ces pleurs disent la séparation, pas l'endroit."
       ],
-      "consulter_si": "Consulter si : bébé refuse de manger et de boire à la garde pendant plusieurs jours, s'il perd du poids, s'il paraît éteint ou apathique, s'il régresse durablement, ou si tu observes des marques inexpliquées → pédiatre, PMI, ou médecin traitant sans attendre."
+      "consulter_si": "Consulter si : bébé refuse de manger et de boire sur son lieu de garde plusieurs jours de suite, perd du poids, paraît éteint ou apathique, perd des compétences acquises, ou si tu observes des marques inexpliquées → pédiatre, PMI ou médecin traitant sans attendre."
     }
   ]
 }

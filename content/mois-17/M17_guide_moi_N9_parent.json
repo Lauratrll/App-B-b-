@@ -1,0 +1,195 @@
+{
+  "mois": 17,
+  "tranche_age": "17 mois",
+  "categorie": {
+    "id": "parent",
+    "nom": "Parents submergés",
+    "sous_titre": "Le geste, deux enfants, le couple, l'écran",
+    "icone": "🫶"
+  },
+  "protocoles": [
+    {
+      "categorie": "parent",
+      "situation": "Le geste qui part / J'ai peur de lui faire mal",
+      "titre": "Mettre de la distance quand ça monte",
+      "explication": "Tu as attrapé son bras un peu trop fort pour le faire descendre de la chaise. Il ne s'est rien passé de grave. Mais tu as senti, une seconde, que quelque chose aurait pu partir. Quand la colère monte très haut, le cerveau bascule en mode alerte : le raisonnement s'éteint quelques secondes, et le corps agit avant la pensée. Ce n'est pas un défaut de caractère, c'est un mécanisme, et il touche des parents qui aiment profondément leur enfant. Ce qui fait la différence n'est donc pas la force de la volonté : c'est la distance. Deux mètres et une porte suffisent à laisser au raisonnement le temps de revenir.",
+      "ancrage": "Avoir peur de son propre geste est le signe que tu veux protéger ton enfant. C'est cette peur-là qui te fait passer la porte à temps.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : maintenant, dans cet ordre",
+        "etapes": [
+          "Poser l'enfant en sécurité : dans son lit ou au sol dans une pièce sûre, même s'il hurle.",
+          "Sortir : une autre pièce, le palier, la salle de bain, porte entrouverte.",
+          "Faire baisser par le corps : eau froide sur les poignets et le visage, expiration longue, cinq fois.",
+          "Appeler quelqu'un avant de revenir : l'autre parent, une amie, un professionnel.",
+          "Revenir quand la voix est redescendue : quelques minutes de pleurs ne lui feront pas de mal."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : pendant les 2 minutes dehors",
+        "etapes": [
+          "Souffler plus long qu'on inspire : quatre temps dedans, six dehors, dix fois.",
+          "Sentir les deux pieds au sol : poids réparti, 10 secondes, sans bouger.",
+          "Serrer les poings fort puis relâcher : trois fois, la tension sort par les mains.",
+          "Appuyer le pouce au centre de l'autre paume : pression douce et maintenue, 30 secondes par main.",
+          "Se parler à voix basse : « je suis sortie, il est en sécurité, ça va redescendre »."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Décider à l'avance où tu iras : la pièce, la porte, ce que tu feras, avant d'en avoir besoin.",
+        "Retirer une charge de l'heure à risque : un repas avancé, une sortie en moins, un coucher plus tôt.",
+        "Poser un relais régulier et non ponctuel : une demi-journée par semaine, écrite, tenue.",
+        "En parler à un professionnel : médecin, PMI, lieu d'accueil parents-enfants, sans attendre que ça se répète."
+      ],
+      "principe": "La colère d'un parent ne se retient pas par la volonté, elle se coupe par la distance. Sortir de la pièce n'est pas abandonner son enfant, c'est le mettre à l'abri de ce qui monte.",
+      "erreurs_a_eviter": [
+        "Rester dans la pièce coûte que coûte : la tension monte au lieu de redescendre.",
+        "Attendre de savoir si c'est grave pour sortir : on sort d'abord, on évalue après.",
+        "Croire qu'un enfant qui pleure quelques minutes est en danger : ce n'est pas le cas.",
+        "Garder ça pour soi par honte : le silence isole et rapproche la fois suivante."
+      ],
+      "consulter_si": "Consulter si : tu as peur de tes propres gestes, si les cris deviennent quotidiens, ou si tu te sens au bord de perdre le contrôle → en parler à ton médecin ou à la PMI, ou appeler Allo Parents Bébé, 0 800 00 34 56, gratuit. Un tout-petit ne doit jamais être secoué : quelques secondes suffisent à provoquer des lésions graves. Après un geste brusque, appeler le 15. Et si tu as besoin de parler de ce que tu ressens envers ton enfant, le 119 répond aussi aux parents, jour et nuit.",
+      "source": "Source : prévention du syndrome du bébé secoué, Haute Autorité de santé."
+    },
+    {
+      "categorie": "parent",
+      "situation": "L'épuisement à deux enfants / Je ne me partage pas",
+      "titre": "Une attention imparfaite reste une attention",
+      "explication": "Le petit hurle dans le couloir, le grand t'appelle depuis la salle de bain, et tu es debout entre les deux sans savoir par où commencer. Deux enfants ne demandent pas deux fois plus : ils demandent en même temps. À dix-sept mois, le plus jeune ne peut pas attendre longtemps, et l'aîné, lui, comprend très bien qu'il attend. Aucun parent ne répond aux deux à la seconde, et ce n'est pas ce qui construit leur sécurité. Ce qui la construit, c'est de revenir, chaque fois, même en retard.",
+      "ancrage": "Tu n'as pas à être équitable à la minute. Tu as à revenir, et ils apprennent tous les deux que tu reviens.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : quand les deux appellent",
+        "etapes": [
+          "Nommer l'attente à voix haute : « je finis avec lui, et j'arrive ».",
+          "Traiter l'urgence, pas le plus fort : celui qui crie n'est pas toujours celui qui a besoin.",
+          "Donner à l'aîné une tâche qui compte : tenir la couche, choisir le livre, appuyer sur le bouton.",
+          "Regrouper quand c'est possible : un livre pour deux vaut mieux que deux lectures séparées.",
+          "Revenir vers celui qui a attendu : 10 secondes de retour valent la promesse tenue."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Retrouver le contact : en fin de journée, avec chacun",
+        "etapes": [
+          "5 minutes seul à seul avec chacun : la régularité compte plus que la durée.",
+          "S'asseoir près de lui sans consigne : c'est lui qui choisit ce qu'on fait.",
+          "Poser une main à plat dans son dos : appui léger et maintenu, quelques secondes.",
+          "Nommer une chose faite ensemble aujourd'hui : une seule suffit.",
+          "S'arrêter à sa demande : s'il part, on le laisse partir."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Décaler les moments plutôt que de les partager : le bain de l'un pendant que l'autre dîne.",
+        "Donner un rôle réel à l'aîné : aider est une place, ce n'est pas de la garde.",
+        "Accepter que l'un attende : une attente courte et nommée n'abîme rien.",
+        "Demander un relais sur le créneau qui casse : c'est la fin de journée pour presque tout le monde."
+      ],
+      "principe": "La sécurité d'un enfant ne vient pas d'une réponse immédiate, elle vient d'une réponse fiable. Deux enfants apprennent alors la même chose : on revient toujours.",
+      "erreurs_a_eviter": [
+        "Viser exactement la même chose pour les deux : l'équité minute par minute est impossible et épuisante.",
+        "Répondre systématiquement au plus bruyant : le calme finit par apprendre que crier est ce qui marche.",
+        "Faire porter l'aîné comme un second adulte : donner un coup de main oui, surveiller non.",
+        "Se juger sur les moments ratés : ils sont nombreux chez tout le monde et ils ne décident de rien."
+      ],
+      "consulter_si": "Consulter si : la fatigue ne cède plus au repos, si la tristesse dure depuis plus de deux semaines, ou si plus rien ne te fait envie → en parler à ton médecin, à la sage-femme ou à la PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Le couple réduit au planning / On ne se parle plus",
+      "titre": "Décider une fois, au lieu de renégocier",
+      "explication": "« Tu le couches ou je le couche ? » C'est la sixième soirée d'affilée que la question se pose, et c'est aussi la seule phrase que vous vous serez dite. Quand tout doit être décidé chaque soir, la conversation se remplit d'organisation et il ne reste plus de place pour autre chose. Ce n'est pas que vous n'ayez plus rien à vous dire : c'est que la logistique occupe tout l'espace disponible. Tant que rien n'est attribué une fois pour toutes, chaque journée redemande les mêmes arbitrages, et ces arbitrages usent la conversation avant même qu'elle commence.",
+      "ancrage": "Vous n'êtes pas devenus deux collègues. Vous faites tourner un service sans avoir jamais écrit qui fait quoi.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : 10 minutes, une seule fois",
+        "etapes": [
+          "Poser un moment fixe : 10 minutes, le même jour chaque semaine, hors de la présence de l'enfant.",
+          "Lister ce qui revient toutes les semaines : les courses, la garde, les rendez-vous, les bains, les nuits.",
+          "Attribuer des blocs entiers : la décision avec l'exécution, sinon rien ne change.",
+          "Écrire à un endroit visible : le frigo, un carnet, un agenda partagé.",
+          "Fermer à l'heure : ce qui n'a pas été traité attendra la semaine prochaine."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : avant la conversation",
+        "etapes": [
+          "Marcher 2 minutes avant de commencer : la conversation démarre autrement quand on est debout.",
+          "Ouvrir la poitrine : mains croisées dans le dos, épaules en arrière, 10 secondes.",
+          "Poser la langue derrière les dents du haut : la mâchoire se desserre toute seule, 30 secondes.",
+          "Annoncer une durée : 10 minutes dites à l'avance, et on s'y tient.",
+          "Commencer par ce qui marche : nommer une chose que l'autre fait bien ouvre autrement."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Sortir la logistique de la soirée : réglée le dimanche, elle ne revient plus tous les soirs.",
+        "Ne pas repasser derrière : refaire à sa manière ramène le bloc chez toi en une semaine.",
+        "Garder 10 minutes sans organisation : une fois la logistique posée, il reste de la place.",
+        "Sans autre parent, viser l'extérieur : la crèche, une voisine, une commande récurrente, un service."
+      ],
+      "principe": "Une conversation de couple ne se libère pas en décidant de parler d'autre chose. Elle se libère quand l'organisation cesse de se rejouer tous les soirs.",
+      "erreurs_a_eviter": [
+        "Régler chaque question au moment où elle se présente : c'est ce qui occupe toutes les soirées.",
+        "Attribuer une tâche sans la décision : la charge revient par la fenêtre en quelques jours.",
+        "Tout aborder d'un coup : un bloc par semaine tient mieux que cinq abandonnés.",
+        "Confondre organisation et lien : régler qui fait quoi ne remplace pas le temps passé ensemble."
+      ],
+      "consulter_si": "Consulter si : les tensions tournent régulièrement en disputes devant l'enfant, ou si tu ne te sens pas en sécurité chez toi → en parler à ton médecin ou à la PMI. Violences dans le couple, physiques, verbales, psychologiques ou économiques : le 3919, gratuit et anonyme. En cas de danger immédiat, le 17 ou le 15."
+    },
+    {
+      "categorie": "parent",
+      "situation": "Les enfants des autres / Ils parlent, marchent, dorment",
+      "titre": "Des fourchettes plus larges qu'on ne croit",
+      "explication": "Sur la vidéo, la petite de la crèche récite une comptine entière. Le tien dit « encore » et « papa », et tu as regardé la vidéo trois fois. À dix-sept mois, l'écart entre deux enfants du même âge est à son maximum : l'un marche depuis cinq mois, l'autre depuis trois semaines ; l'un dit vingt mots, l'autre en dit trois et comprend tout ce qu'on lui demande. Ces écarts ne prédisent rien et se resserrent d'eux-mêmes. Et ce qui apparaît sur un écran est toujours ce qui va bien : personne ne filme les journées difficiles, ni les mois où rien n'arrive.",
+      "ancrage": "Tu ne compares pas ton enfant à la moyenne. Tu le compares aux quelques enfants dont on t'a montré les réussites.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : couper la source",
+        "etapes": [
+          "Fermer l'application qui déclenche : la comparaison s'arrête quand l'exposition s'arrête.",
+          "Masquer trois comptes plutôt que de tout supprimer : c'est plus tenable, et souvent suffisant.",
+          "Regarder ton enfant 10 minutes : ce qu'il sait faire aujourd'hui, pas ce qui manque.",
+          "Écrire ce qu'il a appris ce mois-ci : trois choses, même minuscules.",
+          "Poser la question à un professionnel plutôt qu'à un écran : le médecin, la PMI, la crèche."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : quand la comparaison serre le ventre",
+        "etapes": [
+          "Poser le téléphone hors de portée : à l'autre bout de la pièce, écran vers le bas.",
+          "Regarder le plus loin possible : par la fenêtre, 20 secondes, les yeux se reposent de l'écran.",
+          "Frotter les paumes puis les poser sur les yeux : 10 secondes de noir tiède.",
+          "Étirer la nuque d'un côté puis de l'autre : 5 secondes de chaque côté, sans forcer.",
+          "Aller le regarder 2 minutes : cela fait plus que n'importe quelle réponse trouvée en ligne."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Poser une heure sans téléphone : celle où la fatigue rend déjà tout plus lourd.",
+        "Se rappeler l'ordre de grandeur : sur la marche, la fourchette normale va de 12 à 18 mois. Sur les premiers mots, elle est encore plus large. Ce sont des repères pour élargir, jamais pour situer quelqu'un dedans.",
+        "S'appuyer sur les rendez-vous de suivi : ce sont eux qui repèrent, pas les fils d'actualité.",
+        "Noter tes questions pour le prochain rendez-vous : deux lignes suffisent, et elles évitent d'oublier sur place.",
+        "En parler à la crèche ou à l'assistante maternelle : elles voient des dizaines d'enfants et relativisent vite."
+      ],
+      "principe": "Un écart d'acquisition à cet âge ne dit rien de l'avenir. Ce qui compte n'est pas l'avance, c'est le mouvement : un enfant qui progresse à son rythme progresse.",
+      "erreurs_a_eviter": [
+        "Se fier à un enfant vu 10 minutes : on ne voit jamais ses jours sans.",
+        "Chercher la réponse dans les commentaires : chacun décrit le sien, aucun ne connaît le tien.",
+        "Stimuler pour rattraper : la pression se sent, et elle bloque plus qu'elle n'aide.",
+        "Se rassurer en comparant vers le bas : le soulagement dure une heure et le réflexe s'installe."
+      ],
+      "consulter_si": "Consulter si : vers 18 mois ton enfant ne tente pas de dire des mots, ne babille pas, ou ne pointe pas du doigt → en parler au médecin ou à la PMI, qui décideront d'un bilan. Ce sont les repères du suivi, pas des moyennes.",
+      "source": "Source : repères du suivi de l'enfant et signes d'alerte du langage, ameli.fr (Assurance Maladie)."
+    }
+  ]
+}

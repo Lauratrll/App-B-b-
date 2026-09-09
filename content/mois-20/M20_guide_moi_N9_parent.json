@@ -1,0 +1,193 @@
+{
+  "mois": 20,
+  "tranche_age": "20 mois",
+  "categorie": {
+    "id": "parent",
+    "nom": "Parents submergés",
+    "sous_titre": "La colère, l'autorité, la soirée, le regard",
+    "icone": "🫶"
+  },
+  "protocoles": [
+    {
+      "categorie": "parent",
+      "situation": "La colère qui explose / Je n'ai pas le temps de sortir",
+      "titre": "Les 3 secondes qui restent quand même",
+      "explication": "Il a renversé le verre, et tu as hurlé avant même d'avoir vu que c'était de l'eau. Parfois la colère ne monte pas : elle éclate. Entre le déclencheur et le geste, il n'y a pas les quelques secondes qu'on croit avoir. Le cerveau bascule d'un coup en alerte, presque toujours après une journée où tout s'est empilé. Ce n'est pas une question de volonté, et ce n'est pas non plus une fatalité. Quand la sortie n'est plus possible, il reste des gestes de 3 secondes, et ils suffisent à casser l'élan. Ils se choisissent maintenant, au calme, pas au moment où plus rien ne se réfléchit.",
+      "ancrage": "Si ça monte trop vite pour que tu puisses partir, ce n'est pas que tu te contrôles moins bien que les autres. C'est que ton seuil est descendu très bas, et un seuil, ça se remonte.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : les 3 secondes qu'il te reste",
+        "etapes": [
+          "Bloquer tes mains : les mettre dans le dos, ou t'asseoir dessus, tout de suite.",
+          "S'asseoir par terre : depuis le sol, un geste brusque devient beaucoup plus difficile.",
+          "Sortir le son ailleurs : crier dans un coussin ou contre un mur, jamais vers lui.",
+          "Le poser là où il ne risque rien : au sol dans la pièce, même si tu le poses vite.",
+          "Compter à voix haute jusqu'à dix : la voix occupe la bouche et ralentit le corps."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : juste après, quand ça retombe",
+        "etapes": [
+          "Pousser contre un mur, bras tendus : 10 secondes, la force sort par les mains.",
+          "Expirer fort par la bouche : trois fois, comme après un effort.",
+          "Passer les avant-bras sous l'eau froide : jusqu'aux coudes, 20 secondes.",
+          "Se rasseoir près de lui sans parler : la présence répare avant les mots.",
+          "Dire une phrase courte : « c'est moi qui étais en colère, pas toi »."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Remonter le seuil plutôt que la vigilance : dormir une heure de plus change davantage qu'une résolution.",
+        "Repérer ce qui s'empile : la faim, le bruit, une contrariété du travail, rarement l'enfant seul.",
+        "Retirer une chose des journées à risque : une course, une visite, une exigence.",
+        "En parler à un professionnel : quand la montée est trop rapide pour être coupée, ce n'est plus une question d'organisation."
+      ],
+      "principe": "Une colère qui éclate sans montée ne se prévient pas dans l'instant, elle se prévient la veille. Ce qui protège l'enfant n'est pas la maîtrise de soi, c'est un seuil remonté.",
+      "erreurs_a_eviter": [
+        "Se promettre de mieux se contrôler : la promesse ne change pas le seuil, elle ajoute de la honte.",
+        "Attendre d'être calmée pour le poser : on le pose d'abord, on se calme après.",
+        "Croire qu'un enfant posé un peu vite est en danger : ce n'est pas le cas, une secousse l'est.",
+        "Garder ça pour soi : ce qui n'est dit à personne recommence presque toujours."
+      ],
+      "consulter_si": "Consulter si : tu as peur de tes propres gestes, si les cris deviennent quotidiens, ou si tu te sens au bord de perdre le contrôle → en parler à ton médecin ou à la PMI, ou appeler Allo Parents Bébé, 0 800 00 34 56, gratuit. Un tout-petit ne doit jamais être secoué : quelques secondes suffisent à provoquer des lésions graves. Après un geste brusque, appeler le 15. Et si tu as besoin de parler de ce que tu ressens envers ton enfant, le 119 répond aussi aux parents, jour et nuit.",
+      "source": "Source : prévention du syndrome du bébé secoué, Haute Autorité de santé."
+    },
+    {
+      "categorie": "parent",
+      "situation": "L'autorité qui lâche le soir / Je cède par fatigue",
+      "titre": "Moins de règles, pour tenir celles qui restent",
+      "explication": "Tu as tenu sur le bonbon à 10h, sur la télévision à 15h, et à 19h30 tu as dit oui aux deux. Tenir une règle demande de l'énergie, et cette énergie s'épuise dans la journée comme le reste. À vingt mois, ton enfant le perçoit très bien : il ne teste pas davantage le soir, il teste au moment où ça cède. Ce n'est pas de la stratégie, c'est de l'apprentissage. Il repère ce qui est stable, et une règle qui tient le matin et lâche à 19h lui apprend qu'elle dépend de l'heure. D'où la seule sortie possible : moins de règles, pour que celles qui restent tiennent jusqu'au bout de la journée.",
+      "ancrage": "Céder le soir n'est pas un défaut d'autorité. C'est ce qui arrive quand on essaie de tout tenir depuis 8h du matin.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : ce soir, réduire la liste",
+        "etapes": [
+          "Choisir trois règles pour la soirée : la sécurité, une habitude, et rien d'autre.",
+          "Annoncer ce qui ne changera pas : « après le bain, le pyjama, c'est comme ça ».",
+          "Laisser tomber le reste ouvertement : décider de laisser vaut mieux que céder.",
+          "Prévenir avant chaque étape : « encore une fois, puis on range » évite la moitié des refus.",
+          "Avancer la dernière bataille : ce qui se joue à 20h se règle beaucoup mieux à 18h30."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : avant la dernière heure",
+        "etapes": [
+          "Manger ou boire quelque chose vers 17h : la moitié des lâchages sont des baisses d'énergie.",
+          "S'asseoir 5 minutes avant le bain : souvent le seul moment vraiment disponible.",
+          "Baisser les lumières : une pièce plus sombre calme les deux, pas seulement lui.",
+          "Poser une main au milieu de la poitrine : appui léger et maintenu, 10 secondes.",
+          "Décider ce qui tiendra ce soir : l'avoir choisi évite d'improviser quand on ne peut plus."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Écrire les trois règles de la maison : peu nombreuses, et les mêmes chez les deux parents.",
+        "Décaler le rituel du soir plus tôt : 20 minutes suffisent souvent à tout changer.",
+        "Alterner qui tient la fin de journée : la même personne tous les soirs s'use plus vite.",
+        "Accepter les soirs qui ne ressemblent à rien : ils ne défont pas ce qui est construit le reste du temps."
+      ],
+      "principe": "Une règle ne vaut que si elle tient toujours. Trois règles tenues chaque soir valent mieux que quinze qui lâchent une fois sur deux : c'est la constance qui apprend, pas la fermeté.",
+      "erreurs_a_eviter": [
+        "Multiplier les règles pour compenser : plus il y en a, plus il y en a qui cèdent.",
+        "Céder après avoir tenu longtemps : il retient qu'insister marche, pas que la règle existe.",
+        "Se rattraper le lendemain par plus de sévérité : l'irrégularité coûte plus cher que la souplesse.",
+        "Confondre autorité et voix forte : ce qui tient, c'est la répétition, pas le volume."
+      ],
+      "consulter_si": "Consulter si : la fatigue ne cède plus au repos, si la tristesse dure depuis plus de deux semaines, ou si plus rien ne te fait envie → en parler à ton médecin, à la sage-femme ou à la PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+    },
+    {
+      "categorie": "parent",
+      "situation": "La soirée qui n'existe plus / Il s'endort tard",
+      "titre": "Une heure de fermeture pour la maison",
+      "explication": "Il est 21h15. Il court encore dans le couloir, et toi tu as renoncé à la soirée que tu t'étais promise. À vingt mois, un enfant ne sait pas décider seul que la journée est finie. Ce sont les repères extérieurs qui le lui disent : la lumière qui baisse, les jouets qui rentrent dans leur bac, la cuisine qui s'éteint. Sans ces repères, la soirée s'étire, et elle s'étire pour tout le monde. Un rituel de fermeture, il le comprend très bien à cet âge, bien mieux qu'une consigne énoncée.",
+      "ancrage": "Tu n'as pas à choisir entre t'occuper de lui et exister. La soirée peut avoir une fin, et c'est toi qui la poses.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : fermer la maison ce soir",
+        "etapes": [
+          "Choisir une heure et s'y tenir : la même chaque soir, c'est ce qui la rend lisible.",
+          "Ranger avec lui et pas à sa place : 2 minutes, un bac, la même chanson à chaque fois.",
+          "Éteindre la cuisine : lumière baissée, plan dégagé, le signal est visuel avant d'être dit.",
+          "Baisser les lumières partout : le corps enregistre l'obscurité mieux que les phrases.",
+          "Rester avec lui pendant qu'il traverse ça : une fermeture s'accompagne, elle ne se subit pas seul."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Retrouver le contact : le dernier temps de la journée",
+        "etapes": [
+          "S'asseoir près de lui sans écran : 10 minutes valent mieux qu'une heure distraite.",
+          "Poser une main à plat dans son dos : appui léger et maintenu, quelques secondes.",
+          "Parler bas : une voix qui baisse fait baisser la sienne.",
+          "Raconter la journée en trois phrases : ce qui a été fait, et que c'est fini.",
+          "S'arrêter à sa demande : s'il a besoin de plus de présence ce soir, on la lui donne."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Avancer le dîner : une soirée qui commence tard finit tard, quoi qu'on fasse.",
+        "Garder la dernière demi-heure sans écran : pour lui, et pour toi aussi.",
+        "Aller vers un endormissement plus autonome sans jamais le laisser pleurer seul : on recule d'un pas à la fois, en restant là.",
+        "Décider à l'avance ce que tu fais de l'heure gagnée : sinon elle se remplit toute seule de rangement."
+      ],
+      "principe": "Une journée dont la fin n'est jamais annoncée n'en a pas. Poser ce repère n'enlève rien à l'enfant : cela lui dit où la journée s'arrête, et cela rend au parent le droit d'être autre chose qu'un parent, le soir.",
+      "erreurs_a_eviter": [
+        "Poser la limite sans rester : à cet âge, il ne traverse pas seul ce qu'on lui demande.",
+        "Laisser l'heure glisser tous les soirs : un repère qui bouge n'est plus un repère.",
+        "Remplir l'heure gagnée de tâches : elle disparaît en une semaine.",
+        "Attendre qu'il dorme pour commencer sa soirée : elle ne commence alors jamais."
+      ],
+      "consulter_si": "Consulter si : il met plus d'une heure à s'endormir tous les soirs, ou si la fatigue de la journée devient ingérable pour lui comme pour toi → en parler au médecin ou à la PMI. Et si ta fatigue à toi ne cède plus au repos, elle se parle aussi. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+    },
+    {
+      "categorie": "parent",
+      "situation": "La honte en public / Le regard des autres quand il crie",
+      "titre": "Répondre à l'enfant, pas au public",
+      "explication": "Il est allongé par terre au rayon des yaourts. Une dame s'est arrêtée pour regarder. Tu as entendu ta propre voix devenir bizarrement douce et menaçante à la fois. En public, deux choses se jouent en même temps : ton enfant traverse une crise qu'il ne contrôle pas, et toi tu traverses le regard des gens autour, qui n'a rien à voir avec lui. Le piège est que ce regard prenne le dessus. On parle plus fort, on menace, on cède pour en finir, et l'enfant reçoit une réponse qui ne s'adressait pas à lui. Ce que les gens pensent dure 30 secondes ; ce qu'il apprend reste.",
+      "ancrage": "Tu n'as personne à convaincre au square. Tu as un enfant en crise et 2 minutes à traverser avec lui.",
+      "action_immediate": {
+        "couleur_fond": "#FBEAF0",
+        "couleur_texte": "#72243E",
+        "titre": "Action immédiate : quand ça éclate dehors",
+        "etapes": [
+          "Se baisser à sa hauteur : le geste change ta posture avant de changer la sienne.",
+          "Le sortir du passage : un banc, un coin, un mur, deux mètres plus loin.",
+          "Parler bas : en public, c'est la voix basse qui calme le plus vite.",
+          "Ne rien expliquer aux gens : « ça va aller » suffit, puis on se retourne vers lui.",
+          "Attendre la fin sans forcer : porter un enfant qui se débat ne raccourcit rien."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux : pendant que le regard pèse",
+        "etapes": [
+          "Regarder ton enfant et pas autour : ce qui coupe le poids du regard, c'est de ne plus le chercher.",
+          "Sentir les deux pieds au sol : poids réparti, 10 secondes, sans bouger.",
+          "Laisser tomber les épaules d'un coup : elles remontent toujours en public.",
+          "Expirer par la bouche sans bruit : quatre fois, personne ne le voit.",
+          "Se répéter une phrase prête : « ils auront oublié dans 5 minutes, lui non »."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Préparer deux phrases : une pour l'inconnu qui commente, une pour celui qui veut aider.",
+        "Choisir les sorties aux bonnes heures : après la sieste et après manger, jamais avant.",
+        "Prévenir avant de partir : « on prend le pain, et on rentre » évite une partie des crises.",
+        "En parler à d'autres parents : découvrir que tout le monde y passe change beaucoup de choses."
+      ],
+      "principe": "Une crise en public n'est pas un examen de ton autorité, c'est un enfant débordé au mauvais endroit. La seule question qui vaille est celle que tu te poserais à la maison.",
+      "erreurs_a_eviter": [
+        "Céder pour que ça s'arrête : le magasin lui apprend alors ce que la maison ne lui apprend pas.",
+        "Menacer pour tenir devant les autres : une menace non suivie coûte plus cher qu'une crise.",
+        "Se justifier auprès des gens : l'explication prolonge la scène et le laisse seul dedans.",
+        "Renoncer à sortir : l'évitement rétrécit la vie et n'apprend rien à personne."
+      ],
+      "consulter_si": "Consulter si : les crises durent plus d'une vingtaine de minutes plusieurs fois par jour, s'il se met en danger pendant, ou si tu redoutes chaque sortie au point de ne plus sortir → en parler au médecin ou à la PMI."
+    }
+  ]
+}

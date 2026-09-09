@@ -10,17 +10,17 @@
   "protocoles": [
     {
       "categorie": "stimu",
-      "situation": "S'agite dans les bras des visiteurs / trop de mains, trop de voix",
-      "titre": "Trop de bras / traduire ses signaux",
-      "explication": "On se le passe, on le chatouille, on l'appelle, on le photographie — et il s'agite, se raidit, finit par hurler. À sept mois, il ne sait pas dire stop, et il vient en plus d'entrer dans la peur de l'étranger. Il envoie pourtant des signaux clairs : il détourne le regard, se cambre, cherche ton visage, se fige. Personne ne les lit — c'est ton rôle de les traduire. Ce n'est pas de l'impolitesse : c'est ce que ferait n'importe quel adulte pour une personne qui ne peut pas parler.",
+      "situation": "Le trop de bras / Il s'agite dans les bras des visiteurs",
+      "titre": "Traduire ses signaux à l'entourage",
+      "explication": "On se le passe, on le chatouille, on l'appelle, on le photographie, et il s'agite, se raidit, finit par hurler. À sept mois, il ne sait pas dire stop, et il vient en plus d'entrer dans la peur de l'étranger. Il envoie pourtant des signaux clairs : il détourne le regard, se cambre, cherche ton visage, se fige. Personne ne les lit, et c'est ton rôle de les traduire. Ce n'est pas de l'impolitesse : c'est ce que ferait n'importe quel adulte pour une personne qui ne peut pas parler.",
       "ancrage": "Il envoie des signaux que personne ne lit. Traduire pour lui n'est pas être désagréable : c'est le protéger.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — traduire et reprendre",
+        "titre": "Action immédiate : traduire et reprendre",
         "etapes": [
           "Lire les signaux : regard qui fuit, corps qui se cambre, visage qui se fige, recherche de ton visage.",
-          "Le reprendre sans attendre : « il a besoin d'une pause » — c'est une phrase complète.",
+          "Le reprendre sans attendre : « il a besoin d'une pause », c'est une phrase complète.",
           "Ne pas le faire circuler : un ou deux adultes maximum, pas un passage de bras en bras.",
           "Le garder contre toi : il observe depuis sa base sûre, sans être exposé.",
           "Sortir de la pièce si nécessaire : quelques minutes au calme suffisent souvent."
@@ -34,13 +34,13 @@
           "Une fois au calme : bébé sur le dos, dans le silence.",
           "Toucher enveloppant des pieds : les tenir entiers dans tes paumes, immobiles.",
           "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
           "S'arrêter à sa demande : le geste doit rester agréable."
         ]
       },
       "pour_aller_plus_loin": [
-        "Cadrer avant : durée courte, un ou deux visiteurs, pas de passage de bras — annoncé avant la visite.",
-        "Expliquer la peur de l'étranger : « il commence à faire la différence, c'est un progrès » — cela évite les vexations.",
+        "Cadrer avant : durée courte, un ou deux visiteurs, pas de passage de bras, annoncé avant la visite.",
+        "Expliquer la peur de l'étranger : « il commence à faire la différence, c'est un progrès », cela évite les vexations.",
         "Ne pas s'excuser de sa réaction : elle est normale et attendue à cet âge.",
         "Protéger la fin de journée : éviter les visites dans la fenêtre où il est déjà saturé."
       ],
@@ -52,24 +52,24 @@
         "Réveiller bébé pour qu'il « profite » des visiteurs."
       ],
       "consulter_si": "Consulter si : bébé reste inconsolable plusieurs heures malgré le retour au calme, s'il refuse de boire, présente de la fièvre, ou paraît anormalement mou ou difficile à réveiller → pédiatre, le 15 selon l'urgence.",
-      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), les étapes du développement de bébé."
     },
     {
       "categorie": "stimu",
-      "situation": "Craque dans les magasins / bruit, lumière, monde",
-      "titre": "Les magasins / écourter et prévoir le sas",
-      "explication": "Vingt minutes dans un supermarché et il s'effondre. Un lieu clos concentre tout ce que son cerveau ne sait pas filtrer : lumières crues, annonces sonores, dizaines de visages inconnus — et il vient d'entrer dans la peur de l'étranger, ce qui double la charge. Il ne pleure pas pendant : il tient. La décharge arrive après. Le levier n'est pas de mieux le consoler dans le rayon : c'est d'écourter, de choisir les horaires creux, et de prévoir un sas de retour au calme dès la sortie.",
-      "ancrage": "Ce n'est pas une sortie ratée : c'est un cerveau qui a absorbé plus qu'il ne peut traiter. On dose avant, on décharge après.",
+      "situation": "L'immobilisation en sortie / Il se débat dans la poussette et le caddie",
+      "titre": "Bouger avant, pas pendant",
+      "explication": "Depuis qu'il se déplace au sol, rester sanglé est devenu une contrainte physique, plus seulement un ennui. Un enfant qui vient de découvrir qu'il peut aller chercher lui-même ce qu'il voit supporte mal qu'on l'attache face à des rayons pleins de choses hors de portée. Ce n'est donc plus la durée de la sortie qui décide, c'est le rapport entre le temps immobile et le temps où il a pu bouger avant. Une sortie qui suit une heure au sol se passe tout autrement qu'une sortie qui suit une sieste et un trajet en voiture.",
+      "ancrage": "Il ne se plaint pas de la sortie, il se plaint d'être empêché. Ce qui se prépare, ce n'est pas la sortie, c'est ce qui vient juste avant.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — écourter et décompresser",
+        "titre": "Action immédiate : sortir après le sol",
         "etapes": [
-          "Repérer les premiers signaux : regard qui fuit, agitation, geignements, mains crispées.",
-          "Partir à ce moment-là : ne pas attendre les pleurs — c'est déjà trop tard.",
-          "Le protéger visuellement : capote de poussette, portage face à toi — moins de visages, moins de lumière.",
-          "Rentrer directement : ne pas enchaîner une deuxième activité.",
-          "Un sas au retour : pièce sombre, silence, aucune stimulation."
+          "30 minutes au sol avant de partir : c'est le réglage le plus efficace.",
+          "Lui donner quelque chose à tenir : un objet à lui, jamais un produit du rayon.",
+          "Le sortir une fois à mi-parcours : le porter 2 minutes suffit à relâcher le corps.",
+          "Nommer ce qu'il voit : sa main ne peut pas attraper, ta voix peut désigner.",
+          "Partir au premier raidissement : il se cambre avant de crier."
         ]
       },
       "geste_doux": {
@@ -80,41 +80,45 @@
           "Une fois la première vague passée : bébé sur le dos, dans le silence.",
           "Toucher enveloppant des pieds : les tenir entiers dans tes paumes, immobiles.",
           "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
           "S'arrêter à sa demande : le geste doit rester agréable."
-        ]
+        ],
+        "lien_reflexologie": {
+          "id": "frustration-motrice",
+          "titre": "Frustration motrice"
+        }
       },
       "pour_aller_plus_loin": [
-        "Choisir les horaires creux : tôt le matin, quand les lieux sont vides.",
-        "Raccourcir par défaut : trente minutes maximum dans un lieu à forte charge sensorielle.",
-        "Fractionner : deux sorties courtes valent mieux qu'une longue.",
-        "Assumer le renoncement : annuler une sortie n'est pas un échec, c'est un réglage."
+        "Éviter d'enchaîner la voiture et le caddie : deux immobilisations d'affilée, c'est ce qui casse une sortie.",
+        "Préférer le portage pour les sorties courtes : son corps bouge avec le tien.",
+        "Garder un objet réservé aux sorties : sorti seulement là, il garde son intérêt.",
+        "Reporter sans culpabiliser : une course remise à demain vaut mieux qu'une course finie en crise."
       ],
-      "principe": "Un bébé ne se protège pas seul du trop-plein sensoriel : c'est toi son filtre. Doser l'exposition en amont est toujours plus efficace que consoler l'effondrement.",
+      "principe": "Un enfant qui vient d'acquérir le déplacement tolère l'immobilité en proportion de ce qu'il a bougé avant. Une sortie ne se règle pas pendant, elle se règle dans l'heure qui précède.",
       "erreurs_a_eviter": [
-        "Prolonger la sortie « puisqu'on y est ».",
-        "Enchaîner plusieurs lieux dans la même sortie.",
-        "Le tourner face au monde en portage dans un lieu bruyant.",
-        "Compenser l'effondrement par une stimulation supplémentaire."
+        "Le rattacher aussitôt qu'il proteste : son corps a besoin de quelques secondes libres, pas d'une lutte.",
+        "Lui donner un produit du rayon pour le calmer : il faudra le reprendre, et la crise arrivera là.",
+        "Prolonger « puisqu'on y est » : le temps immobile s'additionne, il ne se remet pas à zéro.",
+        "Le laisser debout dans le caddie : les chutes de caddie envoient chaque année des enfants aux urgences."
       ],
-      "consulter_si": "Consulter si : bébé reste inconsolable plusieurs heures malgré le retour au calme, s'il refuse de boire, présente de la fièvre, ou paraît anormalement mou ou difficile à réveiller → pédiatre, le 15 selon l'urgence."
+      "consulter_si": "Consulter si : il se raidit fortement et de façon répétée dès qu'on le porte ou l'installe, s'il ne se détend jamais au sol, s'il refuse toute position sur le ventre, ou s'il paraît douloureux quand on le manipule → pédiatre ou médecin traitant."
     },
     {
       "categorie": "stimu",
-      "situation": "Écran allumé en fond / il décroche et s'agite",
-      "titre": "L'écran en fond / couper change tout",
-      "explication": "La télévision tourne en fond, il ne la regarde pas — mais il décroche de son jeu, s'agite, s'endort moins bien. Ce n'est pas une impression : les travaux français montrent qu'un écran allumé en arrière-plan perturbe l'attention de l'enfant, réduit le temps qu'il passe à jouer, et diminue le nombre de mots que les adultes lui adressent. La recommandation est nette : pas d'écran avant trois ans, bruit de fond compris. Et l'objectif n'est pas la perfection — c'est de couper, et de constater la différence.",
-      "ancrage": "Un écran en fond n'est jamais neutre : il capte l'attention même quand il n'est pas regardé. Coupe une semaine, et regarde la différence.",
+      "situation": "La télévision qui tient compagnie / Je l'allume parce que je suis seule",
+      "titre": "Remplacer l'image par du son",
+      "explication": "La télévision n'est pas allumée pour lui, elle est allumée pour toi. Des journées entières sans adulte à qui parler, et un poste qui fait du bruit humain dans la pièce : la raison est compréhensible, et elle ne mérite aucun reproche. La recommandation nationale est nette, pas d'écran avant trois ans, bruit de fond compris, et il vaut la peine de savoir pourquoi. Ce qui gêne n'est pas le bruit, c'est l'image qui change : elle capte le regard d'un bébé de sept mois qui vient tout juste de pouvoir se déplacer vers ce qui l'attire, elle interrompt son exploration à chaque plan, et elle réduit le nombre de mots que les adultes lui adressent. Le son seul ne fait rien de tout cela. C'est pour cette raison que passer à la radio, à un podcast ou à de la musique règle l'essentiel sans rien te retirer.",
+      "ancrage": "Tu n'as pas à supprimer ce qui te tient compagnie. Tu as à choisir une compagnie qui n'attrape pas son regard.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — couper",
+        "titre": "Action immédiate : échanger la source",
         "etapes": [
-          "Éteindre, pas baisser : un écran en sourdine reste une source de lumière changeante.",
-          "Remplacer par du son humain : ta voix, une chanson, un commentaire de ce que tu fais.",
-          "Poser ton propre téléphone : pendant les temps d'échange et de jeu.",
-          "Ne jamais utiliser un écran pour calmer : cela sur-stimule au lieu d'apaiser.",
-          "Observer sur une semaine : jeu plus long, attention plus soutenue, endormissement plus facile."
+          "Éteindre l'écran, allumer la radio : le bruit humain reste, l'image disparaît.",
+          "Choisir un podcast ou de la musique : une voix continue tient très bien compagnie.",
+          "Garder l'écran pour un moment choisi : quand il dort, ou quand il n'est pas dans la pièce.",
+          "Poser une règle simple : pas d'image allumée quand il joue au sol.",
+          "Commenter ce que tu fais à voix haute : c'est ce qui lui apporte le plus, et cela te fait parler."
         ]
       },
       "geste_doux": {
@@ -125,42 +129,42 @@
           "Une fois l'écran éteint : bébé sur le dos, dans le silence.",
           "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
           "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
           "S'arrêter à sa demande : le geste doit rester agréable."
         ]
       },
       "pour_aller_plus_loin": [
         "Retenir la recommandation : pas d'écran avant trois ans, bruit de fond compris.",
-        "Viser la réduction, pas la perfection : un foyer sans aucun écran est un idéal, pas un critère de jugement.",
-        "Remplacer par du sol : un tapis, deux objets, ton visage.",
-        "Protéger le soir : les écrans en fin de journée retardent l'endormissement, chez lui comme chez toi."
+        "Repérer les moments où l'écran s'allume tout seul : le repas, la fin de journée, le retour des courses.",
+        "Ne pas viser le zéro absolu du jour au lendemain : commencer par les heures de jeu au sol.",
+        "Chercher une compagnie réelle en parallèle : la radio comble le silence, elle ne remplace pas un contact."
       ],
-      "principe": "Un écran allumé en fond n'est jamais neutre : il dégrade l'attention, le jeu et le langage. Couper est le geste unique, et son effet se voit en une semaine.",
+      "principe": "Ce qui perturbe un bébé dans un écran allumé, c'est l'image qui change, pas le bruit. Une voix qui parle dans une pièce ne coûte rien à son attention, une image lui en coûte à chaque plan.",
       "erreurs_a_eviter": [
-        "Laisser la télévision allumée en fond pendant qu'il joue.",
-        "Utiliser une vidéo pour calmer les pleurs ou occuper bébé.",
-        "Croire qu'un contenu « pour bébé » est adapté avant trois ans.",
-        "Consulter son téléphone pendant les temps d'échange avec lui."
+        "Baisser le son plutôt qu'éteindre : une image muette reste une lumière qui change.",
+        "Se dire qu'il est trop petit pour être gêné : c'est précisément à cet âge que l'attention se construit.",
+        "Utiliser une vidéo pour le calmer : l'apaisement est immédiat, et le contrecoup arrive juste après.",
+        "Se juger sévèrement : la question est pratique, elle n'est pas morale."
       ],
-      "consulter_si": "Consulter si : bébé ne réagit plus à ton visage ni à ta voix, paraît absent ou éteint, ne réagit pas aux bruits forts, ne cherche jamais le contact, ou ne babille pas → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition et de la vision.",
-      "source": "Source : Haut Conseil de la santé publique — avis sur les effets de l'exposition des enfants et des jeunes aux écrans ; repères du carnet de santé."
+      "consulter_si": "Consulter si : il ne réagit ni aux sons ni à ton appel, s'il ne suit pas des yeux un objet qui bouge, s'il ne babille pas du tout, ou s'il paraît absent quand on lui parle → pédiatre ou PMI. Le sujet des écrans se discute aussi lors du bilan des neuf mois.",
+      "source": "Source : Haut Conseil de la santé publique, avis sur les effets de l'exposition des enfants et des jeunes aux écrans ; repères du carnet de santé."
     },
     {
       "categorie": "stimu",
-      "situation": "Le jeu bascule en pleurs / il rit puis s'effondre",
-      "titre": "Le rire qui bascule / baisser avant le point de rupture",
-      "explication": "Il rit aux éclats, vous jouez — et brusquement tout s'effondre. Le rire n'était pas faux : c'est le système nerveux qui monte très vite en activation sans savoir redescendre. La joie intense sollicite le corps exactement comme le stress. Le point de bascule est repérable : il arrive souvent juste après le pic de rire, quand les gestes deviennent désordonnés et la respiration rapide. Ce n'est pas le jeu qui pose problème : c'est l'absence de descente organisée.",
-      "ancrage": "Le rire précède la bascule de quelques secondes. Ce n'est pas la joie qu'on retire — c'est la descente qu'on ajoute.",
+      "situation": "La relance sans fin / Il en redemande et ne sait plus s'arrêter",
+      "titre": "Remplacer le jeu, pas seulement l'arrêter",
+      "explication": "À sept mois, il ne reçoit plus le jeu, il le réclame : il tape ta main, tend les bras, refait lui-même le geste qui t'a fait rire. Arrêter ne suffit donc plus, puisque c'est lui qui relance. Et l'adulte lit cette relance comme une demande, alors que c'est un système nerveux monté trop haut qui cherche à retrouver ce qui l'a mis là. Ce qui le fait redescendre à cet âge n'est pas l'arrêt du jeu : c'est le changement d'activité. Il se déplace maintenant, et un changement de plan au sol fait le travail que le silence faisait il y a deux mois.",
+      "ancrage": "Sa relance n'est pas une demande, c'est un moteur qui tourne à vide. Tu n'as pas à négocier avec elle, tu as à proposer autre chose.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — organiser la descente",
+        "titre": "Action immédiate : substituer, pas interrompre",
         "etapes": [
-          "Repérer le pic : gestes désordonnés, respiration rapide, rire qui monte dans les aigus.",
-          "Clore avant, pas après : arrêter le jeu au sommet, pas quand il s'effondre.",
-          "Ralentir progressivement : baisser la voix, ralentir les mouvements, réduire l'amplitude.",
-          "Installer le silence : quelques secondes sans rien dire, ton visage calme.",
-          "Passer au contact : le prendre contre toi, immobile, sans parler."
+          "Repérer la relance : il refait le geste, tape ta main, tend les bras en riant trop fort.",
+          "Ne pas relancer une dernière fois : chaque reprise repart d'un niveau plus haut.",
+          "Changer de plan : le poser au sol plutôt que de continuer face à face.",
+          "Proposer un objet lent : un tissu, un panier à vider, quelque chose qui occupe les mains.",
+          "Rester à côté sans animer : ta présence silencieuse fait le reste."
         ]
       },
       "geste_doux": {
@@ -171,24 +175,24 @@
           "Juste après le jeu : bébé sur le dos, dans le calme.",
           "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
           "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, une minute par pied.",
+          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
           "Un seul canal à la fois : ne pas parler et toucher en même temps."
         ]
       },
       "pour_aller_plus_loin": [
-        "Ritualiser la descente : toujours la même séquence après un temps de jeu.",
-        "Raccourcir les pics : quelques minutes de jeu intense suffisent.",
-        "Prévenir l'entourage : les jeux surexcitants portés par plusieurs adultes produisent les plus gros contrecoups.",
-        "Éviter les jeux excitants le soir : ils retardent l'endormissement."
+        "Décaler les jeux vifs : les garder pour le matin, jamais dans l'heure qui précède le coucher.",
+        "Prévenir celui qui le fait rire : c'est souvent l'adulte qui rentre le soir qui relance sans le savoir.",
+        "Compter les relances plutôt que les minutes : trois reprises d'affilée annoncent la chute mieux qu'une durée.",
+        "Observer où il redescend le mieux : au sol pour certains, en portage pour d'autres, cela se repère en quelques jours."
       ],
-      "principe": "La joie intense active le système nerveux autant que le stress. À sept mois, il sait monter mais pas descendre : la descente s'organise, elle ne s'improvise pas.",
+      "principe": "Un bébé qui relance ne réclame pas la suite du jeu, il cherche à retrouver l'état où il était. À sept mois, ce n'est pas l'arrêt qui fait redescendre, c'est le changement d'activité.",
       "erreurs_a_eviter": [
-        "Prolonger le jeu tant qu'il rit.",
-        "Relancer pour obtenir un dernier éclat de rire.",
-        "Enchaîner plusieurs adultes qui le font rire à tour de rôle.",
-        "Interpréter l'effondrement comme un caprice."
+        "Céder à la relance parce qu'il rit : le rire de trop est déjà le signe que ça déborde.",
+        "Arrêter net sans rien proposer : le vide relance l'excitation au lieu de la faire tomber.",
+        "Le passer à un autre adulte pour continuer : le jeu repart à zéro avec un corps déjà saturé.",
+        "Le gronder quand il s'effondre : il ne contrôle pas ce qui vient de lâcher."
       ],
-      "consulter_si": "Consulter si : bébé bascule systématiquement dans une crise inconsolable après chaque échange, s'il se raidit fortement, ne cherche jamais le contact visuel, ou paraît anormalement mou → pédiatre ou PMI."
+      "consulter_si": "Consulter si : bébé ne parvient jamais à redescendre, même porté et au calme, s'il reste inconsolable plus d'une heure, s'il ne réagit ni à ta voix ni à ton visage, ou s'il paraît inhabituellement mou ou éteint → pédiatre ou PMI."
     }
   ]
 }

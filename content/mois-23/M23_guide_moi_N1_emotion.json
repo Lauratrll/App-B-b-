@@ -4,15 +4,15 @@
   "categorie": {
     "id": "emotion",
     "ordre": 5,
-    "nom": "Émotions",
-    "sous_titre": "Colère, opposition, morsures, jalousie",
+    "nom": "Colère & débordement",
+    "sous_titre": "Crises, limites, morsures, fin de journée, jalousie",
     "icone": "🌪️"
   },
   "protocoles": [
     {
       "categorie": "emotion",
-      "situation": "Crise de colère intense qui déborde et dure",
-      "titre": "La grande colère / la crise qui déborde",
+      "situation": "La grande colère / Sa crise déborde et dure très longtemps",
+      "titre": "Sécuriser, se taire, rester là",
       "explication": "À 23 mois, ton enfant ressent des émotions immenses avec un cerveau encore tout petit pour les gérer. Quand la colère monte, la partie qui pourrait le calmer est débordée par celle des émotions : il n'a aucun moyen de s'arrêter seul. La crise n'est ni un choix ni de la manipulation, c'est une tempête neurologique qui doit passer. Il ne t'en veut pas et ne cherche pas à te punir : il est submergé et a besoin d'une présence solide pour traverser, pas de raisonnements.",
       "ancrage": "Tu n'as pas à arrêter la crise, mais à rester le phare pendant la tempête. Ta présence calme lui apprend, peu à peu, que les émotions se traversent.",
       "action_immediate": {
@@ -33,7 +33,7 @@
         "titre": "Réflexologie : après la crise, revenir au calme",
         "etapes": [
           "Quand la vague est passée, l'accueillir contre toi, sans revenir sur la crise à chaud.",
-          "Zone du plexus solaire : au centre de la voûte, cercles lents une à deux minutes — apaise le système nerveux.",
+          "Zone du plexus solaire : au centre de la voûte, cercles lents 1 à 2 minutes — apaise le système nerveux.",
           "Balayage doux de la voûte, du talon vers les orteils, en respirant lentement avec lui.",
           "S'arrêter dès qu'il se détend ou retire son pied — le retour au calme lui appartient."
         ]
@@ -55,8 +55,8 @@
     },
     {
       "categorie": "emotion",
-      "situation": "Explose dès qu'on lui pose une limite ou qu'on refuse",
-      "titre": "La frustration / face à un « non » ou une limite",
+      "situation": "La frustration devant la limite / Il explose dès que je refuse",
+      "titre": "La limite tient, l'émotion se traverse",
       "explication": "À 23 mois, ton enfant veut tout, tout de suite, et vit chaque « non » comme une catastrophe : c'est l'âge de la toute-puissance qui se heurte au réel. La frustration est un apprentissage majeur — découvrir que le monde ne cède pas à tous ses désirs — mais son cerveau n'a pas encore les outils pour l'encaisser sans exploser. Il ne conteste pas ton autorité : il vit une déception énorme qu'il ne sait pas gérer. Ton rôle n'est pas de lui éviter la frustration, mais de l'accompagner à la traverser.",
       "ancrage": "Tu peux tenir la limite ET accueillir sa peine : les deux vont ensemble. Un « non » ferme dit avec douceur sécurise plus qu'il ne blesse.",
       "action_immediate": {
@@ -99,8 +99,8 @@
     },
     {
       "categorie": "emotion",
-      "situation": "Dit « non » à tout et veut tout faire seul",
-      "titre": "L'opposition / le « non » et « moi tout seul »",
+      "situation": "Le non permanent / Il dit non à tout et veut tout faire seul",
+      "titre": "Offrir des choix dans un cadre fixe",
       "explication": "Vers 23 mois s'ouvre l'âge de l'affirmation : ton enfant découvre qu'il est une personne à part entière, avec sa volonté propre. Dire « non », vouloir « faire tout seul », s'opposer, c'est ainsi qu'il construit son identité — ce n'est pas dirigé contre toi, c'est un passage indispensable. Son « non » veut souvent dire « je veux décider », pas « je refuse vraiment ». Contrarier systématiquement cet élan l'épuise autant que toi ; lui donner des espaces de pouvoir, dans un cadre clair, apaise l'opposition.",
       "ancrage": "Son opposition est bon signe : elle dit qu'il grandit et prend confiance. Ton rôle : lui laisser du pouvoir sur les petites choses, et garder le cap sur les grandes.",
       "action_immediate": {
@@ -143,8 +143,8 @@
     },
     {
       "categorie": "emotion",
-      "situation": "Mord ou tape quand il est débordé",
-      "titre": "La morsure / mord quand il est débordé",
+      "situation": "La morsure / Il mord ou tape quand il déborde",
+      "titre": "Une décharge, pas une intention",
       "explication": "Mordre, à 23 mois, est fréquent et n'a rien d'un acte de méchanceté : c'est une décharge. Quand l'émotion (colère, excitation, fatigue, frustration) dépasse ses capacités et qu'il n'a pas les mots, elle sort par le corps — la bouche, les mains. Parfois c'est aussi sensoriel, un besoin de pression sur les gencives, ou une façon maladroite d'entrer en contact. Il ne mesure pas la douleur qu'il cause : l'empathie est encore en construction. Ce comportement se dépasse avec l'âge, les mots, et une réponse calme et constante.",
       "ancrage": "Ce n'est pas ton enfant qui est « méchant » : c'est une émotion trop grande qui déborde par le corps. Ton calme et une limite claire valent mieux que la punition.",
       "action_immediate": {
@@ -187,8 +187,97 @@
     },
     {
       "categorie": "emotion",
-      "situation": "Jaloux depuis l'arrivée d'un bébé",
-      "titre": "La jalousie / l'arrivée d'un petit frère ou d'une sœur",
+      "situation": "La fin de journée / Plus rien ne passe après 17h",
+      "titre": "Anticiper deux heures avant",
+      "explication": "Entre 17h et 19h, beaucoup d'enfants deviennent ingérables : c'est « l'heure du loup », un moment physiologiquement difficile. La fatigue de la journée est à son comble, la glycémie chute, et le petit stock d'énergie pour se contrôler est épuisé. Résultat : pleurs, crises, refus de tout, pour un rien. Ce n'est ni un caprice ni un défi — c'est de la neurochimie pure, que ton enfant subit autant que toi. Beaucoup de parents croient qu'il « fait exprès » à ce moment-là ; en réalité, il n'a plus aucune réserve pour tenir.",
+      "ancrage": "Cette heure difficile n'est pas une faiblesse de ton enfant, c'est une réalité de son corps fatigué. Ton anticipation et ton calme sont le seul vrai antidote.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — entre 17h et 19h",
+        "etapes": [
+          "Baisser le rythme et les stimulations : lumière douce, moins de bruit, moins d'exigences.",
+          "Proposer une petite collation : un ventre qui a faim tient encore moins bien la fatigue.",
+          "Nommer sans gronder : « tu es fatigué, la journée a été longue, je t'aide ».",
+          "Réduire les enjeux : reporter ce qui peut l'être, éviter les consignes et les conflits.",
+          "Avancer le bain ou le coucher si ça déborde : couper court plutôt que d'étirer la soirée."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : traverser l'heure du loup",
+        "etapes": [
+          "L'installer au calme contre toi, lumière tamisée, dès que la tension monte.",
+          "Zone du plexus solaire : au centre de la voûte, cercles lents 1 à 2 minutes — apaise le système nerveux.",
+          "Balayage doux de la voûte, du talon vers les orteils, en respirant lentement avec lui.",
+          "S'arrêter dès qu'il se détend ou retire son pied."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Anticiper le créneau : organiser sa journée pour que 17h-19h soit la plage la plus calme possible.",
+        "Préparer le repas du soir avant l'heure critique : ne pas être en cuisine quand il craque.",
+        "Se relayer avec l'autre parent sur ce moment si possible : un pour l'enfant, un pour l'intendance.",
+        "Coucher un peu plus tôt les jours difficiles : la sur-fatigue empire tout, le sommeil répare."
+      ],
+      "principe": "L'heure du loup est universelle et physiologique : on ne la raisonne pas, on la traverse. Trois piliers : baisser la stimulation, recharger l'énergie par une collation, et coucher à temps. Improviser dans cette heure est presque toujours un échec ; l'anticiper la transforme.",
+      "erreurs_a_eviter": [
+        "Penser qu'il « fait des caprices » — c'est de la fatigue physiologique, pas de la mauvaise volonté.",
+        "Multiplier les activités pour « l'occuper » — la stimulation supplémentaire empire l'état.",
+        "Repousser le repas ou le coucher — la sur-fatigue rend l'endormissement encore plus dur.",
+        "Répondre à son énervement par le tien — deux tensions valent moins qu'un calme qui contient."
+      ],
+      "consulter_si": "Consulter si : cette difficulté de fin de journée devient ingérable tous les jours malgré un rythme adapté, s'accompagne d'une dégradation du sommeil, de l'humeur ou de l'appétit sur la durée → en parler au pédiatre. Vérifier aussi l'absence de cause physique (poussée dentaire, otite). Une « heure du loup » qui s'apaise avec l'anticipation est banale."
+    },
+    {
+      "categorie": "emotion",
+      "situation": "L'après-écran / Il est agité et dérégulé après un écran",
+      "titre": "Ce qui se passe pendant, et juste après",
+      "explication": "Après un écran, ton enfant est souvent surexcité, irritable, a du mal à se poser ou à s'endormir : à 23 mois, son cerveau n'est pas équipé pour traiter le flot d'images rapides et de sons d'un écran. Cela le sur-stimule au lieu de le calmer, perturbe son attention et son sommeil, et remplace les échanges réels dont il a besoin pour grandir. Les recommandations officielles sont claires : avant 3 ans, pas d'écran, même en fond sonore. Ce n'est pas une question de volonté ou de « bon » programme — c'est son cerveau en construction qui n'est pas prêt.",
+      "ancrage": "L'écran promet du calme et livre l'inverse : de l'excitation. Réduire les écrans n'est pas une privation, c'est rendre à ton enfant ce dont il a vraiment besoin — toi, le jeu, le réel.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — quand l'écran l'a dérégulé",
+        "etapes": [
+          "Éteindre calmement, sans négocier une « dernière fois » : la coupure sera plus dure si elle traîne.",
+          "Rediriger vers le corps et le réel : sortir, bouger, manipuler — décharger l'excitation.",
+          "Accueillir la frustration de l'arrêt : « c'est dur d'arrêter, je sais » — sans céder.",
+          "Reconnecter par la présence : un jeu ensemble, un câlin, remplace ce que l'écran occupait.",
+          "Éviter l'écran en fin de journée et avant le coucher : il perturbe l'endormissement."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Geste doux — redescendre après l'écran",
+        "etapes": [
+          "Proposer une activité lente et sensorielle : eau, pâte, transvaser — recentrer l'attention.",
+          "Un temps calme à deux, sans image : lire, chanter, se blottir.",
+          "Baisser la lumière et le bruit : aider le système nerveux à se réguler.",
+          "Nommer le retour au calme : « on repose nos yeux, on retrouve le doux »."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Viser le zéro écran avant 3 ans : c'est le repère officiel du carnet de santé, y compris la télé en fond sonore.",
+        "Jamais d'écran pour calmer, aux repas ou avant de dormir : ce sont les moments les plus sensibles.",
+        "Soigner son propre usage : un parent souvent sur son téléphone réduit sans le vouloir les échanges (« technoférence »).",
+        "Remplacer plutôt qu'interdire seulement : offrir du jeu, du dehors, du lien — l'écran comble un vide qu'on peut remplir autrement."
+      ],
+      "principe": "Avant 3 ans, l'écran sur-stimule un cerveau qui a besoin d'interactions réelles pour se construire : il excite au lieu d'apaiser et grignote le sommeil et l'attention. Le retirer n'est pas une punition mais un cadeau de disponibilité. On remplace l'écran par du réel, sans culpabilité mais avec constance.",
+      "erreurs_a_eviter": [
+        "Utiliser l'écran pour calmer une crise — il déconnecte sur le moment mais dérègle ensuite.",
+        "Laisser la télévision en fond sonore — même non regardée, elle appauvrit les échanges et l'attention.",
+        "Négocier « juste encore un épisode » — chaque rallonge rend l'arrêt plus difficile.",
+        "Mettre un écran au repas ou avant le coucher — il coupe l'appétit et retarde l'endormissement."
+      ],
+      "consulter_si": "Consulter si : ton enfant semble ne se calmer qu'avec un écran, présente un retard de langage, un sommeil très perturbé ou un repli sur lui-même → en parler au pédiatre. Réduire les écrans est souvent la première mesure, simple et efficace. Si tu te sens débordé et que l'écran est devenu un recours quotidien, en parler sans honte permet de trouver d'autres appuis.",
+      "source": "Source : avant 3 ans, pas d'écran (y compris en fond sonore), jamais pour calmer, aux repas ni avant le coucher — repères officiels du carnet de santé (Santé publique France, « 1000 premiers jours »)."
+    },
+    {
+      "categorie": "emotion",
+      "situation": "La jalousie / Il a changé depuis l'arrivée du bébé",
+      "titre": "Lui rendre une place, pas des cadeaux",
       "explication": "L'arrivée d'un bébé bouleverse le monde de ton aîné : du jour au lendemain, il partage ton attention, ton corps, ta disponibilité. À 23 mois, il n'a pas les mots pour dire « j'ai peur de ne plus compter », alors cela sort autrement : régressions (pipi, langage de bébé), colères, agressivité envers le bébé, besoin de coller. Ce n'est ni de la méchanceté ni un caprice : c'est de l'insécurité affective. Il ne cherche pas à t'embêter — il vérifie qu'il a toujours sa part de toi.",
       "ancrage": "Sa jalousie n'est pas un défaut à mater, c'est un appel : « est-ce que je compte toujours pour toi ? ». Ta réponse, encore et encore, est oui.",
       "action_immediate": {
