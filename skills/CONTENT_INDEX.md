@@ -1,5 +1,21 @@
 # CONTENT_INDEX.md — Index synthétique des contenus produits
 
+> ⚠️ **Mise à jour du 8 septembre 2026.** Ce document portait plusieurs informations devenues fausses
+> ou interdites par les règles arrêtées depuis : *MonParcoursPsy* (devenu **Mon soutien psy**, et
+> accessible désormais sans passage obligatoire par un médecin), le nombre de séances prises en charge,
+> la durée du congé de paternité, l'article L1225-25, et une prévalence de dépression paternelle de
+> « 8-10 % » (l'Inserm mesure **plus de 10 %**). Toutes corrigées ici. **Rappel de la règle du
+> 3 septembre 2026 : aucun chiffre ne s'écrit sur une aide, un droit ou un dispositif** — le nom exact,
+> ce à quoi il sert, et où le vérifier.
+
+> ⚠ AVERTISSEMENT DU 29 AOÛT 2026 — **LES STATUTS DE CE FICHIER SONT PÉRIMÉS.**
+>
+> Les colonnes « À produire » de ce document datent de **mai 2026**. Elles annoncent comme non écrits trente-sept mois-modules qui existent aujourd'hui dans `content/`. **Ne jamais s'en servir pour savoir ce qui est écrit.**
+>
+> Pour Guide-moi !, la seule source fiable est **`GUIDE2_situations.xlsx`** (colonne Statut), et le mode d'emploi est **`claude/00_DOCUMENTS_REFERENCE.md`** dans le projet Claude « APP bébé ».
+>
+> Ce qui reste utile ici : **la mémoire éditoriale** — les adjectifs de mois, les formules déjà employées, les angles déjà pris. C'est pour ça qu'on le garde, et c'est le seul usage à en faire tant qu'il n'a pas été régénéré.
+
 > Ce fichier est l'outil de mémoire éditoriale du projet.
 > À mettre à jour à la fin de chaque mois produit.
 > Permet à Claude (dans toute nouvelle conversation) de savoir ce qui a déjà été dit sans relire les 18+ JSON complets.
@@ -92,7 +108,7 @@ L'app couvre **24 mois de contenu**, numérotés de **M0 à M23**.
 3. **Auto-reconnaissance** · *sous-titre/titre visuel :* « Une minute vocale par semaine, pour reconnaître ce que je traverse »
    Format vocal/audio : enregistrer 1 min dans son téléphone (écrire est trop demandant à M0). 5 amorces fournies.
 4. **Réalité du post-partum** · *sous-titre/titre visuel :* « Les 4 premières semaines, ce que personne ne dit assez fort »
-   Section la plus dense. Côté maman (utérus, périnée, lochies, chute hormonale, baby blues J3-J10, fatigue cellulaire allaitement OU absorption lactation biberon). Côté co-parent (place de spectateur, fatigue tue, dépression post-partum paternelle 8-10%). 8 signaux d'alerte. Urgence 3114. 6 ressources.
+   Section la plus dense. Côté maman (utérus, périnée, lochies, chute hormonale, baby blues J3-J10, fatigue cellulaire allaitement OU absorption lactation biberon). Côté co-parent (place de spectateur, fatigue tue, dépression post-partum paternelle (plus de 10 % des pères, Inserm, cohorte Elfe)). 8 signaux d'alerte. Urgence 3114. 6 ressources.
 5. **Challenge couple** · *sous-titre/titre visuel :* « Une main posée, 1 minute, le minimum vital de présence physique »
    Mini-rituel sensoriel. Un soir dans la semaine, poser une main sur l'autre en silence pendant 1 min. **Sobriété assumée**, calibré pour parents épuisés sans énergie pour plus.
 
@@ -116,7 +132,7 @@ Rituel 7 étapes adapté au nourrisson : 19h-19h30 début, bain non obligatoire,
 ## Mois 1 — L'Éveillé
 
 **Statut :** 🔶 Partiel. Seul `03_prendre_soin_de_moi.json` est produit (26/05/2026, nouvelle méthode). Les 5 autres fichiers du mois restent à produire (`01_protocoles.json`, `02_coucher.json`, `04_saison.json`, `05_partager_rassurer.json`, `06_jeux.json`).
-**Période développementale :** premiers sourires sociaux, regard qui accroche, début du fixage de l'attention, pic des coliques du soir (M1-M3), nuits encore très hachées, congé paternité qui se termine (28 jours en France depuis 2021).
+**Période développementale :** premiers sourires sociaux, regard qui accroche, début du fixage de l'attention, pic des coliques du soir (M1-M3), nuits encore très hachées, congé de paternité qui se termine.
 
 ### Prendre soin de moi (03) — NOUVELLE MÉTHODE (26/05/2026)
 
@@ -133,14 +149,14 @@ Rituel 7 étapes adapté au nourrisson : 19h-19h30 début, bain non obligatoire,
 3. **Auto-reconnaissance** · *sous-titre/titre visuel :* « Cartographier mon cercle de soutien, avant d'avoir besoin de demander »
    Format **carte du cercle de soutien** (dessin / carte mentale). 3 cercles concentriques (proche / régulier / lointain), placer chaque personne avec des actions précises possibles. Acte préparatoire à la demande, sans pression de demander tout de suite. 5 amorces.
 4. **Réalité du post-partum** · *sous-titre/titre visuel :* « Le moment où l'entourage s'éloigne, et ce qui se passe à l'intérieur »
-   Côté maman (diastasis, périnée à rééduquer bilan 6-8 semaines, effluvium qui s'annonce, sommeil qui ne reviendra pas avant des mois, bascule baby blues → DPP). Côté co-parent (reprise du travail à la fin du congé paternité 28 jours, transition présence totale → absence diurne avec nuits hachées). 8 signaux d'alerte. Urgence 3114. 6 ressources dont MonParcoursPsy.
+   Côté maman (diastasis, périnée à rééduquer bilan 6-8 semaines, effluvium qui s'annonce, sommeil qui ne reviendra pas avant des mois, bascule baby blues → DPP). Côté co-parent (reprise du travail à la fin du congé de paternité, transition présence totale → absence diurne avec nuits hachées). 8 signaux d'alerte. Urgence 3114. 6 ressources dont Mon soutien psy.
 5. **Challenge couple** · *sous-titre/titre visuel :* « La carte à tirer : demander une seule chose précise, sans honte »
    Mécanique **échange écrit aveugle / tirage de question**. L'un écrit 5 questions précises sur un papier (ex : « Qu'est-ce que tu aimerais que je fasse pour toi cette semaine, sans avoir à le redemander ? »), l'autre tire au hasard et répond. Règle d'or : l'écoutant dit juste « ok, j'ai entendu », sans réparer ni minimiser.
 
 ### Spécificités Mois 1 (à reprendre dans les autres fichiers à produire)
 
 - **Pic des coliques du soir** : 18h-21h, peut durer 1h à 3h, atteint son pic vers M1-M2 puis décroît
-- **Fin du congé paternité / second parent en France** : 28 jours depuis 2021 (dont 7 obligatoires). Transition brutale pour les couples
+- **Fin du congé de paternité / second parent en France** : transition brutale pour les couples. Durées et conditions : à vérifier sur ameli.fr, jamais à écrire dans le contenu
 - **Premiers sourires sociaux** : autour de 6 semaines, ils marquent le passage du nourrisson au bébé qui interagit
 - **Sommeil fragile** : pas de rythme stable, micro-siestes, nuits encore quasi inexistantes
 - **Risque DPP qui démarre** : la bascule du baby blues physiologique vers une DPP s'amorce souvent à M1-M2 quand la fatigue s'installe pour durer
@@ -167,7 +183,7 @@ Rituel 7 étapes adapté au nourrisson : 19h-19h30 début, bain non obligatoire,
 3. **Auto-reconnaissance** · *sous-titre/titre visuel :* « Écrire le récit de ta naissance, avant de tourner la page de la bulle »
    Format **récit de naissance / d'accouchement** (écriture longue, 30-45 min). Bouclage symbolique de la phase première semaine, mise en mots des éventuels traumatismes, préservation d'un témoignage à transmettre. 6 amorces fournies.
 4. **Réalité du post-partum** · *sous-titre/titre visuel :* « Reprendre, ne pas reprendre, négocier, et ce que ton corps en dit »
-   Côté maman (corps pas encore prêt, périnée à rééduquer avant la reprise, fatigue cellulaire, anxiété de séparation maternelle physiologique, **droits en France** : article L1225-25 sur la restitution du poste, visite de pré-reprise, droit à 1h/jour pour l'allaitement jusqu'à 1 an). Côté co-parent (3 questions à éviter, 3 questions à privilégier dans le repositionnement de sa partenaire). 8 signaux d'alerte. Urgence 3114. 6 ressources dont visite de pré-reprise auprès de la médecine du travail.
+   Côté maman (corps pas encore prêt, périnée à rééduquer avant la reprise, fatigue cellulaire, anxiété de séparation maternelle physiologique, **droits en France** : restitution du poste, visite de reprise auprès du médecin du travail (obligatoire au retour d'un congé de maternité), temps de pause pour allaiter — **nommés, jamais chiffrés, et renvoyés à service-public.fr**). Côté co-parent (3 questions à éviter, 3 questions à privilégier dans le repositionnement de sa partenaire). 8 signaux d'alerte. Urgence 3114. 6 ressources dont visite de pré-reprise auprès de la médecine du travail.
 5. **Challenge couple** · *sous-titre/titre visuel :* « Le dessin partagé : imaginer les 3 prochains mois, sans se disputer »
    Mécanique **dessin partagé en silence sur une même feuille**. Pendant 10 min, chacun dessine sur une feuille A3 ce qu'il aimerait pour les 3 prochains mois. Le silence est essentiel. La feuille devient un « tiers » à commenter ensemble, ce qui désamorce les reproches frontaux des conversations sur la reprise.
 
@@ -210,7 +226,7 @@ Rituel 7 étapes adapté au nourrisson : 19h-19h30 début, bain non obligatoire,
 - **Pic statistique de la DPP** : la dépression post-partum culmine souvent vers M3-M4 (pas M0)
 - **Pression réflexo douce** : 0/10
 - **Pas encore d'angoisse de séparation classique** (apparaît vers M7-M9) → catégorie `sepa` orientée vers questions parentales de lien
-- **Numéros à connaître** : 15, 3114, Allo Parents Bébé, MonParcoursPsy, médecin traitant, PMI
+- **Numéros à connaître** : 15, 3114, Allo Parents Bébé, Mon soutien psy, médecin traitant, PMI
 
 ### Saison (04_saison)
 
@@ -267,7 +283,7 @@ Rituel adapté au bébé qui commence à structurer un rythme. Régression des 4
 - **Précautions à 6 mois** : pas d'huiles essentielles, paracétamol selon dose pédiatrique vérifiée, pas de gel lidocaïne, jamais de collier d'ambre, pas de cale-bébé (interdits MIN), surveillance constante à la cuillère, formation IPS recommandée (distinction toux/étouffement)
 - **Professionnels cités** : pédiatre, psychomotricien, kinésithérapeute pédiatrique, orthophoniste spécialisé en oralité, IBCLC (allaitement), consultant en sommeil pédiatrique respectueux, médecin généraliste (DPP tardive)
 - **Pression réflexo** : 0/10 sur tous protocoles bébé, 4/10 sur auto-soin parent (couleur fond rose #FBEAF0 pour les "geste_doux" des protocoles parent — alignement M3)
-- **Numéros à connaître** : 15, 3114, Allo Parents Bébé 0 800 00 34 56, MonParcoursPsy (12 séances remboursées sur prescription)
+- **Numéros à connaître** : 15, 3114, Allo Parents Bébé 0 800 00 34 56, Mon soutien psy
 
 ### Saison (04_saison)
 
@@ -337,7 +353,7 @@ Rituel 6 étapes (17h30-20h), séquence réflexo 7 min (avec adaptation aux reto
 - **Précautions à 9 mois** : pas d'huiles essentielles avant 3 ans, pas de gel lidocaïne avant 2 ans, jamais de collier d'ambre, paracétamol selon dose pédiatrique vérifiée, pas de cale-bébé (MIN), pas de tour de lit, vigilance fausses-routes (raisin/myrtilles/tomate cerise toujours coupés)
 - **Professionnels cités** : pédiatre, psychomotricien (shuffling, hypotonie), kinésithérapeute pédiatrique, orthophoniste spécialisé en oralité, IBCLC, consultant en sommeil respectueux, médecin généraliste (DPP tardive, bilan TSH/ferritine/vit D)
 - **Pression réflexo** : 0/10 sur tous protocoles bébé. Couleur fond rose `#FBEAF0` (texte `#A04A6F`) pour les `geste_doux` des 4 protocoles catégorie `parent` (auto-soin)
-- **Numéros à connaître** : 15, 3114, Allo Parents Bébé 0 800 00 34 56, MonParcoursPsy (12 séances remboursées sur prescription), Maman Blues
+- **Numéros à connaître** : 15, 3114, Allo Parents Bébé 0 800 00 34 56, Mon soutien psy, Maman Blues
 
 ### Saison (04_saison)
 
@@ -735,7 +751,7 @@ Les 4 points peuvent varier selon le besoin physiologique du mois.
 
 - 15 (SAMU), 3114 (prévention suicide)
 - Allo Parents Bébé : 0 800 00 34 56
-- MonParcoursPsy (12 séances/an remboursées sur prescription médicale)
+- Mon soutien psy (séances de psychologue prises en charge par l'Assurance Maladie)
 - Maman Blues, SOLIPAM, PMI
 
 ---
@@ -814,7 +830,7 @@ Chaque mois interpolé se positionne entre deux jalons déjà produits.
 
   **Fichiers à jour** : M0, M1 (référence canonique fournie par la maman), M2 — tous migrés vers cette convention le 26/05/2026.
 
-- ⭐ **Validé (26/05/2026)** : **pas de références juridiques précises** dans les contenus. L'app n'est pas une source de droit. Plutôt qu'affirmer une loi (article L1225-25, durée légale de congé, nombre de séances remboursées, etc.), évoquer la thématique et **orienter vers les bons interlocuteurs** (sage-femme, médecine du travail, RH, syndicat, service public). Raison : le droit évolue, varie selon les situations, et une affirmation devenue fausse exposerait l'app à de la responsabilité. Voir SKILL_contenu.md § « Pas de références juridiques précises » pour les reformulations type. **M0, M1 et M2 ont été nettoyés de leurs références juridiques précises le 26/05/2026** (article L1225-25, mention « 28 jours » de congé paternité, mention « 12 séances remboursées » pour MonParcoursPsy → reformulés en évocations + orientations).
+- ⭐ **Validé (26/05/2026)** : **pas de références juridiques précises** dans les contenus. L'app n'est pas une source de droit. Plutôt qu'affirmer une loi (article L1225-25, durée légale de congé, nombre de séances remboursées, etc.), évoquer la thématique et **orienter vers les bons interlocuteurs** (sage-femme, médecine du travail, RH, syndicat, service public). Raison : le droit évolue, varie selon les situations, et une affirmation devenue fausse exposerait l'app à de la responsabilité. Voir SKILL_contenu.md § « Pas de références juridiques précises » pour les reformulations type. **M0, M1 et M2 ont été nettoyés de leurs références juridiques précises le 26/05/2026** (article L1225-25, mention « 28 jours » de congé paternité, mention « 12 séances remboursées » pour Mon soutien psy → reformulés en évocations + orientations).
 
 - ⭐ **Validé (26/05/2026)** : **placeholders runtime `{prenom}` et `{genre}`** pour personnaliser ponctuellement les contenus. À l'inscription, les parents renseignent le prénom et le genre du bébé (« fille » ou « garçon »). Code remplace ces placeholders dans les textes affichés. **Règles d'usage** : avec parcimonie (1-2 occurrences max par fichier), jamais dans les méditations audio ni les contenus médicaux d'urgence, toujours pour ajouter une touche d'émotion à un moment-clé. Garder « bébé » comme formulation par défaut, et personnaliser uniquement quand l'émotion le justifie (ouverture d'une méditation, célébration d'un cap, moments d'anxiété de séparation, etc.). Voir SKILL_contenu.md § « Personnalisation par prénom et genre ». **M2 contient 1 occurrence test `{prenom}` à l'idée de laisser {prenom}** (section post-partum, anxiété de séparation maternelle).
 

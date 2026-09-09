@@ -110,7 +110,7 @@
       "lancement": true,
       "sujet_sensible": false,
       "variante": false,
-      "age": "M0-M2"
+      "age": "M0-M3"
     },
     {
       "id": "inconfort-digestif",
@@ -140,7 +140,7 @@
       "lancement": true,
       "sujet_sensible": true,
       "variante": false,
-      "age": "M0-M4"
+      "age": "M0-M8"
     },
     {
       "id": "dents",
@@ -160,7 +160,7 @@
       "lancement": true,
       "sujet_sensible": false,
       "variante": false,
-      "age": "M2-M23"
+      "age": "M1-M23"
     },
     {
       "id": "diarrhee",

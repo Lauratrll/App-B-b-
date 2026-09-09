@@ -77,8 +77,8 @@ pleurs (6) · alim (5) · digestion (4) · sommeil (4) · corps (6) · sepa (4) 
 | 1 | Pleurs & sur-stimulation | Pleurs & frustration | Colère & émotions | Colère & débordement |
 | 2 | Alimentation | Alimentation & digestion | Alimentation | Alimentation |
 | 3 | Ventre & digestion | Sommeil | Sommeil | Sommeil |
-| 4 | Sommeil | Motricité & exploration | Corps, dents & confort | Corps, dents & confort |
-| 5 | Corps & soins | Dents & petits inconforts | Langage & communication | Langage & communication |
+| 4 | Sommeil | Motricité & exploration | Motricité & exploration | Motricité & exploration |
+| 5 | Corps & soins | Dents & petits inconforts | Dents & petits inconforts | Dents & petits inconforts |
 | 6 | Lien & attachement | Sur-stimulation | Sur-stimulation | Propreté & autonomie |
 | 7 | Parents submergés | Angoisse de séparation | Séparation & socialisation | Séparation & socialisation |
 | 8 | — | Parents submergés | Parents submergés | Parents submergés |
@@ -92,9 +92,14 @@ pleurs (6) · alim (5) · digestion (4) · sommeil (4) · corps (6) · sepa (4) 
 > bain · bave · poussées dentaires · brossage · transit · portage.
 > Ces sujets interdits restent légitimes **dans le `consulter_si`**, comme critères d'orientation.
 
+> ⚠ **Corrigé le 2 septembre 2026.** La catégorie « Corps, dents & confort » de M12-M23 a été
+> **supprimée le 28/08** : le corps se lit désormais en trois thèmes, Corps & soins (M0-M5) puis
+> Motricité & exploration et Dents & petits inconforts (M6-M23). Le tableau ci-dessus est corrigé
+> en conséquence, et les colonnes M12-M17 / M18-M23 se lisent avec Langage en 6, Sur-stimulation
+> ou Propreté en 7, Séparation en 8 et **Parents submergés hors du dégradé**, avec sa couleur propre.
+
 **Fusions actées :** Sur-stimulation → Pleurs (M0–M5) · Sur-stimulation → Colère & débordement
-(M18–M23) · Ventre & digestion → Alimentation (dès M6) · Corps + Petits inconforts (M0–M5) ·
-Dents → Corps (dès M12).
+(M18–M23) · Ventre & digestion → Alimentation (dès M6) · Corps + Petits inconforts (M0–M5).
 
 **Règle :** chaque catégorie a un identifiant court et stable (`digestion`, pas `ventre_et_digestion`), un nom long affiché dans l'UI, un `sous_titre` court (3-6 mots, affiché en Page 2) et une `icone` emoji de repli — la Page 1 et la Page 2 utilisant des pictos SVG, cet emoji ne sert que de valeur par défaut.
 
@@ -147,31 +152,41 @@ L2 en italique, slash en noir).
 - ✅ « Refus du biberon / préparer une introduction réussie »
 - ❌ « Néophobie alimentaire post-12 mois »
 
-> **Ne jamais réafficher `situation` sur l'écran du protocole (Page 3)** : ce serait un doublon du
-> `titre`. Ce champ ne sert que de libellé de bouton dans la liste d'une catégorie.
+> ⚠ **Corrigé le 2 septembre 2026.** `situation` **s'affiche bien en page 3**, en sous-titre
+> au-dessus du `titre`. La règle inverse écrite ici datait d'avant la bascule du 26/08.
 
 > ⚠️ **Les fichiers M23 utilisent la convention inverse** (`situation` en phrase parent sans slash,
 > `titre` avec slash). Ils sont **hors norme** et font l'objet d'une passe d'alignement.
 > La règle en vigueur est celle décrite ici.
 
 ### 3.3 `titre` (string) — titre de l'écran, Page 3
-Le titre du protocole affiché en grand. **Il est distinct de `situation`** : plus éditorial, plus
-synthétique. Les deux champs ne sont jamais identiques.
 
-**Construction en deux parties OBLIGATOIRE**, séparées par « / » (espace, slash, espace) :
+> ⚠ **Réécrit le 2 septembre 2026.** Cette section imposait un `titre` « en deux parties séparées
+> par / ». C'était l'ancienne convention, abandonnée à la bascule du 26/08/2026 : la partie 1 du
+> titre répétait mot pour mot la partie 1 de la situation, et le parent lisait deux fois la même
+> chose. `SKILL_contenu.md` § « Le champ affiché sur le bouton est `situation` » fait foi.
 
-**« [Thème / famille] / [précision de la situation] »**
+**Le `titre` porte le principe d'action du protocole**, en une phrase courte. C'est ce que le
+protocole propose de faire, ramené à son principe.
 
-- La **première partie** situe le thème récurrent : l'objet, la grande question ou la famille de situations (« Le grand lit », « Les réveils nocturnes », « La peur du noir »…).
-- La **seconde partie** précise la situation concrète du protocole (« préparer la transition », « se lève sans cesse », « vient dans le lit des parents »…).
-- Une même première partie peut être partagée par plusieurs situations d'un même sous-thème (ex. les deux « Le grand lit / … »), ce qui les regroupe visuellement.
+| Champ | Où il s'affiche | Ce qu'il porte |
+|---|---|---|
+| **`situation`** | page 2, sur le bouton de la carte, **et en sous-titre au-dessus du titre en page 3** | le libellé en deux parties séparées par « / » |
+| **`titre`** | page 3, en titre du protocole | **le principe d'action**, en une phrase brève |
 
-**Exemples validés :**
-- « Le grand lit / préparer la transition »
-- « Le grand lit / se lève sans cesse »
-- « Les réveils nocturnes / vient dans le lit des parents »
-- « Les terreurs nocturnes / le réveil qui n'en est pas un »
-- « La peur du noir / besoin de présence au coucher »
+**Règles :**
+- **Pas de séparateur « / »**, pas deux parties : une seule phrase.
+- **48 caractères maximum**, initiale majuscule, pas de point final.
+- **Pas d'impératif** : on énonce le principe, on ne donne pas l'ordre.
+- **Explicite par rapport au contenu** : le titre doit dire ce que ce protocole-là apporte, et
+  répondre à la scène annoncée par `situation`. Si ce n'est pas le cas, c'est le `titre` qu'on
+  réaligne : le libellé, lui, est arrêté.
+
+**Exemples réels du corpus :**
+- « Sortir avant le débordement »
+- « Donner du sol dans la journée »
+- « Rendre la charge visible avant de la répartir »
+- « Une émotion n'est pas une évaluation »
 
 ### 3.4 `explication` (3-5 phrases — 60-100 mots)
 **Objectif :** expliquer ce qui se passe POUR l'enfant, pas POUR le parent.
@@ -221,12 +236,53 @@ synthétique. Les deux champs ne sont jamais identiques.
 ```
 
 **Règles :**
-- **5 étapes maximum** — pas plus
+- **5 étapes**, 6 au maximum si une idée mérite sa ligne (voir « Un point de plus, quand une idée le mérite »)
 - Chaque étape : 1 phrase de 15-25 mots max
 - **Format « Amorce : suite » imposé** : chaque étape commence par une amorce courte (2-4 mots ou un verbe d'action), suivie de « : », puis du détail. L'amorce est mise en gras à l'affichage. Ex : « S'accroupir : se mettre à sa hauteur, sans le toucher tout de suite. »
 - Le `titre` inclut un complément après un deux-points (ex. « Action immédiate : désamorcer le moment du repas »)
 - Couleurs fixes (codes verrouillés) : fond `#FCEBEB`, texte `#A32D2D`
 - **Exception catégorie `parent`** : pour les protocoles de la catégorie `parent`, l'action immédiate utilise fond `#FBEAF0`, texte `#72243E`
+
+### 3.6ter Le lait infantile ⭐
+
+Le lait est le seul aliment du nourrisson, et c'est le sujet sur lequel l'entourage et les forums donnent le plus de conseils. La ligne éditoriale de l'app est stricte et **ne varie jamais** :
+
+1. **On n'incite jamais à changer de lait.** Le changement n'apparaît nulle part comme une piste, une option ou une solution. Il n'existe dans les contenus que sous deux formes : une interdiction (« ne se change pas de sa propre initiative ») ou une erreur à éviter.
+2. **On propose d'abord les réglages à la portée du parent**, et le premier de tous est la **température**. À température du corps, le lait est **plus digeste** pour un système digestif encore immature : c'est la base, et c'est le réglage le plus simple à essayer. Deux précisions obligatoires à chaque fois :
+   - **réchauffage au bain-marie** ;
+   - **le micro-ondes est fortement déconseillé**, il chauffe de façon inégale et peut brûler.
+
+   **Le geste de mélange compte aussi.** On **roule le biberon entre les paumes**, à l'horizontale, plutôt que de l'agiter de haut en bas : la poudre se dissout aussi bien et il se forme beaucoup moins de bulles. Un lait plein de mousse fait avaler de l'air, et cet air se paie en inconfort digestif. Si de la mousse s'est formée, on la laisse retomber avant de donner : **aucun repère de temps ne se donne ici**, cela relève du bon sens de l'observation, et un chiffre inventé n'apporterait rien. **Ne jamais écrire « secouer »** dans un protocole de préparation.
+
+   **L'inclinaison du biberon reste un détail, et s'écrit comme tel.** ⭐ Une **légère inclinaison**, biberon presque à l'horizontale, bébé redressé : cela suffit, et cela se dit en une incise, jamais en développement. On **n'écrit pas qu'il faut remplir la tétine de lait**, ce qui reviendrait à trop incliner. C'est un réglage qui peaufine, pas un geste qui décide du confort digestif : lui donner plus de place que cela déséquilibre la fiche et inquiète un parent pour rien.
+
+   On explique le bénéfice (la digestion), on ne diabolise pas le froid : pas de « jamais froid », pas de formulation qui transforme un réglage de confort en faute. Viennent ensuite le dosage (une mesure rase pour 30 ml, jamais plus de poudre), le choix de l'eau, la position et le rythme de la prise.
+
+   **L'eau du biberon, telle qu'on l'écrit.** L'eau du robinet **convient**, et on le dit dans cet ordre-là : d'abord qu'elle convient, ensuite les précautions. Eau froide, laissée couler quelques secondes, ni adoucie ni filtrée en carafe. Une eau embouteillée portant la mention *convenant à l'alimentation des nourrissons* est une alternative, pas la norme. **Le repère du plomb se dit aussi** : dans un immeuble d'avant 1948, les canalisations peuvent en contenir, et la mairie renseigne en un appel. C'est une information utile et vérifiable en cinq minutes, elle se donne sans dramatiser et sans sous-entendre que le parent aurait dû le savoir. Ces gestes-là s'essaient avant toute idée de changer quoi que ce soit.
+3. **Un changement se valide avec le médecin**, à l'aller comme au retour. Revenir au lait précédent est un changement de plus, il se décide de la même façon.
+4. **Le temps d'adaptation est un message obligatoire.** Après un changement, l'estomac d'un nourrisson met **une à deux semaines**, parfois davantage, à se réhabituer : le transit se dérègle avant de se remettre en place. Chaque protocole qui touche à un changement de lait doit le dire, sinon le parent rechange au bout de trois jours et prolonge l'inconfort.
+
+**Test avant de valider un protocole qui parle de lait** : un parent inquiet pourrait-il en repartir avec l'idée d'essayer un autre lait ? Si oui, le texte est à reprendre.
+
+---
+
+### 3.6bis La règle de temps avant d'orienter ⭐
+
+Sur un **sujet banal** (constipation du nourrisson, régurgitations, pleurs du soir, rougeurs, sommeil qui se dérègle), un protocole qui envoie consulter dès la première occurrence transforme un événement ordinaire en alerte, et il fait exactement l'inverse de ce que l'app promet. Le parent repart avec plus d'inquiétude qu'en arrivant.
+
+**Structure obligatoire de l'orientation sur un sujet banal :**
+
+1. **Une fenêtre de temps chiffrée**, pendant laquelle le parent accompagne : « si cela persiste au-delà de trois ou quatre jours malgré les gestes de confort ».
+2. **Puis l'orientation, sans urgence** : « → pédiatre, médecin traitant ou PMI, sans urgence ».
+3. **À part, la liste courte des signes qui court-circuitent le délai** : sang, vomissements, refus de boire, absence de prise de poids, ventre dur et tendu en permanence, etc. Ceux-là s'appellent tout de suite, et ils sont nommés séparément.
+
+Un sujet **grave d'emblée** (fièvre avant trois mois, difficulté à respirer, suspicion de secouement, arrêt total des selles et des gaz) n'a évidemment pas de fenêtre de temps : il s'oriente immédiatement.
+
+**Conséquence sur la réflexologie** : quand une règle de temps existe, le geste et le lien ont toute leur place, ils occupent précisément cette fenêtre d'accompagnement. Quand le protocole oriente d'emblée vers une consultation, le geste n'apporte rien et brouille le message.
+
+**Test avant de valider un `consulter_si`** : est-ce qu'un parent dont l'enfant va bien pourrait cocher tous les critères ? Si oui, le seuil est mal posé.
+
+---
 
 ### 3.7 `geste_doux` (objet)
 **Objectif :** l'élément réflexologique ou de régulation douce, après l'action immédiate.
@@ -241,16 +297,60 @@ synthétique. Les deux champs ne sont jamais identiques.
     "Étape réflexo ou de contact doux",
     "...",
     "..."
-  ]
+  ],
+  "lien_reflexologie": { "id": "sommeil", "titre": "Sommeil agité" }
 }
 ```
 
+#### Le lien vers l'onglet Réflexologie ⭐
+
+Quand la thématique du protocole correspond à un protocole de l'onglet **Réflexologie plantaire**, on ajoute le champ facultatif **`lien_reflexologie`** dans `geste_doux`. Il renvoie le parent vers la séquence complète et animée, sans la recopier.
+
+**Deux conditions cumulatives, aucune exception :**
+
+1. **La thématique correspond vraiment.** Sommeil ↔ `sommeil`, régurgitations ↔ `reflux`, selles ↔ `constipation`, coliques ↔ `coliques`, séparation ↔ `separation`, dents ↔ `dents`, etc. Pas de rapprochement approximatif : un protocole sur les pleurs de sur-stimulation n'est pas un protocole « anxiété ».
+2. **Le protocole de réflexologie est disponible au mois travaillé.** ⚠️ C'est l'erreur la plus facile à commettre. Les bornes d'âge sont dans **`reflexologie/protocoles-index.json`** (champs `age_min_mois` / `age_max_mois`, résumés par le champ `age`). Exemple : `coliques` s'arrête à M2, donc un protocole M3 « la fin des coliques » ne peut **pas** pointer dessus ; `separation` ne démarre qu'à M6, donc pas de lien depuis un M3 sur la reprise du travail. **Toujours ouvrir le tableau de répartition avant d'écrire un lien.**
+
+**On ne modifie jamais le protocole de réflexologie lui-même** depuis Guide-moi : on l'utilise tel qu'il est, ou on ne le lie pas. Les étapes écrites dans `geste_doux` restent le geste court du protocole Guide-moi, elles ne sont pas la séquence complète.
+
+Sont hors périmètre du lien : les protocoles retirés pour déontologie (`bronchite-asthme`, `eczema`, `allergies`, `ictere`, `meconium`) et tout protocole `lancement: false`.
+
 **Règles :**
-- **5 étapes maximum**
+- **5 étapes**, 6 au maximum si une idée mérite sa ligne
 - **Format « Amorce : suite » imposé** : chaque étape commence par une amorce courte suivie de « : », puis du détail. L'amorce est mise en gras à l'affichage. Ex : « Zone du plexus solaire : centre de la voûte plantaire, cercles lents, 1 min par pied. »
 - **Titre — le mot « Réflexologie » doit apparaître quand le geste en relève.** Quand le geste doux repose sur la réflexologie (le cas le plus fréquent), le titre commence par « Réflexologie » pour que le parent comprenne immédiatement de quoi il s'agit. **Format : « Réflexologie : [précision courte] »** (ex. « Réflexologie : apaisement et sécurité », « Réflexologie : préparer une transition »). Uniquement pour un geste **non** réflexologique (contact, pression proprioceptive, portage), garder le préfixe « Geste doux : [précision] ».
 - Inclure si pertinent une zone réflexe et sa durée
-- **La Réflexologie n'est PAS systématique.** Elle n'apparaît que là où elle est réellement pertinente, et elle est **exclue** des contextes à risque allergène ou à enjeu d'autonomie corporelle : **alimentation / appétit**, **propreté**, **constipation et transit**. Dans ces contextes, utiliser « Geste doux : … » (position, portage, confort, respiration).
+- **Trois titres au maximum par thème ⭐ — arrêté le 28 août, précisé le 1er septembre 2026.** Le titre du bloc ne change pas d'un protocole à l'autre. Chaque thème dispose de **trois titres au plus**, choisis pour couvrir le maximum de situations, plus les deux registres imposés par le sujet.
+
+  | Titre | Portée | Emploi |
+  |---|---|---|
+  | `Réflexologie : …` | **transverse** | dès que le geste relève de la réflexologie (règle ci-dessus) |
+  | `Geste doux : …` | **transverse** | geste corporel non réflexologique : position, portage, contact, respiration |
+  | `Observer bébé : …` | **transverse** | quand ce qu'on demande au parent est de regarder et de lire, pas d'agir. Décision de Laura : « peut intervenir dans tous les slots » |
+  | `Si ça arrive : …` | **transverse, réservé** | uniquement le danger vital, quand le geste doit être trouvé sans réfléchir (étouffement) |
+  | le troisième titre | **propre au thème** | il porte la couleur du thème et ne sort pas de son slot |
+
+  **Le troisième titre est thématisé, et il se cherche.** Décision de Laura : « "hors du repas" reste thématisé à "alimentation". Si nécessaire, en trouver un qui s'adapte à chaque slot et au contenu : le but étant de rester dans la création pertinente et intelligente des contenus. » Autrement dit, on ne recycle pas le titre d'un thème dans un autre : à chaque nouveau thème, on cherche le titre qui dit vraiment ce que le bloc fait dans ce thème-là.
+
+  **Un titre thématisé ne sort jamais de son slot.** On n'emprunte pas `Hors du repas` à
+  l'alimentation pour un protocole de sommeil : `qa_contenu.py` le signale.
+
+  | Thème | Troisième titre | Ce qu'il contient |
+  |---|---|---|
+  | Alimentation (M6+) | `Hors du repas : …` | ce qui se travaille en dehors du moment du repas |
+  | Ventre & digestion (M0-M5) | `Au moment du lait : …` | ce que le parent change avant, pendant et après la prise de lait *(arrêté le 01/09, remplace « Après le repas »)* |
+  | Parents submergés | `Retrouver le contact : …` | le geste corporel **avec l'enfant** quand le lien est éteint *(arrêté le 02/09)* |
+- **La Réflexologie n'est PAS systématique.** Elle n'apparaît que là où elle est réellement pertinente, et elle est **exclue** des contextes à risque allergène, à enjeu d'autonomie corporelle, ou à enjeu de peau. Dans ces contextes, utiliser « Geste doux : … » (position, portage, contact, respiration).
+
+  **Contextes où la Réflexologie est interdite ⭐ :**
+  - **alimentation et appétit** (tétée, biberon, quantités, diversification, morsure du sein)
+  - **endormissement lié à la tétée** : tout protocole où le geste viendrait remplacer ou accompagner une prise alimentaire, même sous couvert de sommeil
+  - **propreté**
+  - **peau et dermatologie** (sécheresse, eczéma, érythème, croûtes) : la peau du nourrisson est le terrain le plus sensible, aucun geste appuyé ni aucun produit ne s'y ajoute
+
+  **Contextes où la Réflexologie est AUTORISÉE, contrairement à ce qui était écrit avant ⭐ :**
+  - **digestion et transit** : l'onglet Réflexologie comporte des protocoles *Constipation*, *Diarrhée* et *Inconfort digestif*. Le geste et le lien sont donc légitimes sur ces sujets, dans les bornes d'âge de chaque protocole.
+  - **poussée dentaire** : autorisée **seulement quand le protocole traite réellement de la dent ou du besoin de soulager une gencive**. Un protocole où la gencive n'est qu'un décor (une morsure pendant la tétée, une salivation qu'on explique par autre chose) ne reçoit ni geste ni lien. Le test : si on retirait la douleur de gencive, le protocole existerait-il encore de la même façon ? Si oui, pas de réflexologie.
 - **Clause d'arrêt, à inclure quand c'est pertinent** : « S'arrêter à sa demande : s'il retire son pied ou se crispe, on arrête sans insister. » Le geste est toujours réalisé **par le parent, sur son propre enfant**.
 - **Réflexologie — vocabulaire imposé (RÈGLE MISE À JOUR) :**
   - **Jamais de pression chiffrée.** Ne plus écrire « pression 0/10 » ni aucune échelle numérique. Décrire la pression de façon qualitative : « pression douce et constante », « toucher doux et enveloppant », « appui léger et maintenu ».
@@ -258,11 +358,72 @@ synthétique. Les deux champs ne sont jamais identiques.
   - **Ne jamais employer « caresse ».** Une caresse chatouille et peut être désagréable — ce n'est pas la sensation recherchée. Vocabulaire autorisé : « toucher », « pression douce », « geste doux », « stimulation des zones réflexes », « geste de balayage ».
 - Couleurs fixes : fond `#E1F5EE`, texte `#085041` (vert sauge — codes verrouillés, cf. M14 réel)
 
-### 3.8 `pour_aller_plus_loin` (liste — exactement 4 points)
+### Un point de plus, quand une idée le mérite ⭐ — arrêté le 8 septembre 2026
+
+**Décision de Laura**, en deux temps : « pourquoi se limiter à 4 points s'il en faut plus ? La table
+à langer nécessite son point à elle seule », puis « on ajoute de la souplesse dans le nombre de
+points dans les catégories. Si c'est nécessaire, on ajoute un point ».
+
+**Le compte de référence ne bouge pas.** C'est le standard visuel de l'app, et surtout il oblige à
+choisir, ce qui est la moitié du travail d'écriture :
+
+| Bloc | Référence | Toléré |
+|---|---|---|
+| `action_immediate.etapes` | 5 | 6 |
+| `geste_doux.etapes` | 5 | 6 |
+| `pour_aller_plus_loin` | 4 | 5 |
+| `erreurs_a_eviter` | 4 | 5 |
+
+**Ce qui change, c'est la sanction.** Le point supplémentaire n'est plus une erreur : il est admis
+**quand une idée est écrasée en étant fondue dans une autre**. C'est le seul motif recevable.
+
+**Le test :** est-ce que ce point dit quelque chose que les autres ne disent pas, et est-ce que
+l'y fondre lui ferait perdre son sens ? Si oui, il prend sa ligne. Sinon, il n'existe pas.
+
+> **Le cas qui a produit la règle.** Le protocole *Le combat du matin* (M19) traitait dans une seule
+> ligne les gestes à mettre à sa portée et le fait de l'habiller au sol plutôt que sur la table à
+> langer. Deux idées différentes, dont l'une répondait à une question précise du parent : la table à
+> langer y perdait son explication. Elle a désormais sa ligne.
+
+**Et le plafond de mots ne coupe pas une carte validée ⭐ — arrêté le 9 septembre 2026.**
+Décision de Laura, à propos du *Combat du matin* (M19), qui pèse 812 mots pour un plafond de 800 :
+« la laisser. Et parfois c'est le cadre de sécurité qui est très lourd. » Le plafond sert à empêcher
+la dérive, pas à raboter une carte relue ligne à ligne par la fondatrice — ni à faire payer à un
+protocole la longueur de son `consulter_si`, qui n'est pas de la rédaction mais de la protection.
+
+**Ce que la souplesse n'autorise pas.** Elle ne sert **jamais** à caser une pensée de plus, ni à
+éviter de trancher entre deux formulations, ni à compenser un protocole qui n'a pas trouvé son
+angle. Un bloc qui déborde systématiquement signale presque toujours que le protocole traite deux
+sujets et qu'il faut en couper un.
+
+**Et le vrai plafond n'est pas le nombre de puces.** C'est le **volume du protocole**, qui reste
+entre **350 et 800 mots**. Un point de plus pris sur un protocole déjà long se paie ailleurs, et
+c'est le compteur de mots qui arbitre, pas la puce.
+
+**Un dispositif rapporté par la recherche s'ajoute, il ne remplace pas ⭐ — arrêté le 8 septembre
+2026.** Décision de Laura, à la question posée pendant la passe mois par mois : « tu passes à
+5 points s'il en manque un. »
+
+Le cas est précis : la vérification à la source française fait apparaître un **dispositif réel que
+le protocole ne mentionnait pas** — le congé supplémentaire de naissance, le TISF de la Caf, un
+lieu d'accueil enfants-parents, un rendez-vous prévu par le parcours de soin. La tentation est de
+le substituer à un point existant pour tenir le compte de 4. **C'est l'inverse qu'on fait : on
+passe à 5.**
+
+**La raison.** Un point existant a déjà été jugé utile ; le retirer pour faire de la place, c'est
+échanger une aide contre une autre au lieu d'en donner deux. Et une porte concrète est précisément
+ce qui distingue ce corpus d'un article de blog : elle vaut plus qu'une puce de mise en page.
+
+**Ce que cela ne change pas** : le test de l'idée écrasée reste le seul motif, le plafond reste le
+volume du protocole, et un bloc qui déborde de deux points signale toujours un protocole qui traite
+deux sujets. **On passe à 5, pas à 6.**
+
+### 3.8 `pour_aller_plus_loin` (liste — 4 points, 5 quand une idée mérite sa ligne)
 **Objectif :** ce que le parent peut faire à plus long terme.
 
 **Règles :**
-- **Exactement 4 points** — c'est un standard visuel dans l'app
+- **4 points par défaut, 5 au maximum.** Voir la règle générale de souplesse ci-dessous : elle vaut
+  pour tous les blocs, pas seulement pour celui-ci.
 - **Format imposé « Amorce : suite »** : chaque point commence par une amorce courte de 2-4 mots, suivie de « : », puis du développement. L'amorce est mise en gras à l'affichage (lecture rapide). Ex : « Tenir un journal : noter les déclencheurs sur une semaine. »
 - Amorce = un groupe nominal ou verbal court (pas une phrase complète) ; pas de « : » ailleurs dans le point
 - Chaque point : 1-2 phrases max après l'amorce
@@ -277,11 +438,11 @@ synthétique. Les deux champs ne sont jamais identiques.
 - "La régularité est plus puissante que le contenu du rituel. Même rituel à ± 15 min chaque soir."
 - "Plus tu offres d'inputs sensoriels adaptés dans la journée, moins le besoin de se cogner sera intense en crise."
 
-### 3.10 `erreurs_a_eviter` (liste — exactement 4 erreurs)
+### 3.10 `erreurs_a_eviter` (liste — 4 erreurs, 5 quand une idée mérite sa ligne)
 **Objectif :** les pièges fréquents — informatif, pas culpabilisant.
 
 **Règles :**
-- **Exactement 4 erreurs** — c'est un standard visuel
+- **4 erreurs**, 5 au maximum si une idée mérite sa ligne (voir « Un point de plus, quand une idée le mérite »)
 - Formuler comme un constat factuel suivi de sa conséquence neurologique/développementale
 - ✅ "Reculer l'heure du coucher espérant qu'il soit plus fatigué — crée la sur-fatigue qui empêche le sommeil"
 - ❌ "Ne reculez pas l'heure du coucher !" (injonction)
@@ -294,19 +455,25 @@ synthétique. Les deux champs ne sont jamais identiques.
 - Toujours formulé ainsi : "Consulter si : [symptôme observable] → [action]"
 - Jamais "si tu t'inquiètes" (subjectif)
 - Toujours avec un critère mesurable : durée, fréquence, intensité, signe physique
-- Inclure les numéros d'urgence quand pertinent : 15 (SAMU), 3114 (prévention suicide)
+- Inclure les numéros utiles quand pertinent : **15** (Samu, urgence vitale), **119** (Allo Enfance
+  en danger, gratuit, 24 h/24, et c'est le numéro que l'Assurance Maladie nomme pour le parent qui
+  sent qu'il risque de secouer), **Allo Parents Bébé 0 800 00 34 56** (gratuit, en journée du lundi
+  au vendredi, psychologues et puéricultrice, parents d'enfants de moins de trois ans)
+- ⛔ **Le 3114 et le sujet du suicide ne figurent nulle part dans l'app** — arrêté le 02/09/2026,
+  voir `SKILL_contenu.md`
 - Inclure la suggestion d'un professionnel spécialisé si pertinent (psychomotricien, orthophoniste, ergothérapeute)
 
 ### 3.12 `source` (string — optionnel, conditionnel)
 
 Champ **facultatif**, ajouté **uniquement quand c'est nécessaire**, pour rendre une affirmation défendable.
 
-**Quand l'ajouter :**
-- Seulement si le protocole avance une affirmation qui touche un **sujet sensible** (nutrition, santé, corps, motricité/kiné, sommeil médicalisé…).
-- **Jamais** sur les sujets libres (posture parentale, comportement, émotions, jeu…) : pas de champ `source` du tout.
+**Quand l'ajouter — deux portes, et deux seulement (règle du 08/09/2026, détail dans `SKILL_contenu.md`) :**
+- **La sécurité légale** : le texte avance une affirmation qui engage la responsabilité de l'app — danger, geste à ne pas faire, conduite à tenir médicale, seuil de dépistage, interdit posé par la loi. Là, la source est obligatoire.
+- **L'étude officielle avec un chiffre** : une donnée sourcée qui éclaire un fait et le rend saisissable. Là, la source est du crédit, pas une protection.
+- **Jamais** sur du savoir-faire éducatif (posture parentale, comportement, émotions, jeu…) : citer une référence sous une évidence de métier laisse croire que l'app ne le savait pas d'elle-même.
 
 **Règles (voir `SKILL_contenu.md` § Sourcing des affirmations sensibles pour le détail) :**
-- Sources **obligatoirement françaises** : HAS, Santé publique France / PNNS, sociétés savantes, pédiatres (AFPA / mpedia.fr), CERIN… **Aucune source étrangère** sur un sujet sensible (défendabilité en droit français).
+- Sources **obligatoirement françaises et institutionnelles** : Haute Autorité de Santé, Assurance Maladie (ameli.fr), Santé publique France, ANSES, Inserm, mpedia.fr (AFPA), 1000-premiers-jours.fr, sociétés savantes, UFSBD. **Aucune source étrangère** sur un sujet sensible (défendabilité en droit français), et **aucun organisme financé par une filière** : le CERIN a été retiré du corpus le 08/09/2026 pour cette raison.
 - **Réellement vérifiées et correctement attribuées** : on cite l'auteur/l'organisme, on ne s'approprie pas la méthode d'un professionnel, on n'invente jamais une référence.
 - **Une seule ligne discrète**, affichée en petit en bas de la fiche. Format : chaîne unique commençant par « Source : … ».
 - Ex. : « Source : ne pas forcer, respecter l'appétit de l'enfant — repères pédiatriques mpedia.fr (AFPA) ; courbe de croissance : HAS. »
@@ -350,6 +517,21 @@ Une notion centrale peut réapparaître **une seconde fois au maximum**, à cond
 
 Quatre formulations pour une seule idée. **Correction** : garder le mécanisme dans l'explication, donner au parent une posture dans l'ancrage, énoncer une loi neuve dans le principe, et réserver les erreurs à des pièges non dits.
 
+### Le contrôle croisé obligatoire : situation ↔ principe ↔ action ↔ erreurs ⭐
+
+Les redites les plus tenaces ne sont pas entre l'explication et l'ancrage : elles sont entre **l'action immédiate et les erreurs à éviter**, parce qu'une erreur est souvent écrite comme la négation de l'étape qu'on vient de donner. Vérifier les quatre couples, un par un :
+
+| Couple | Ce qu'on cherche | Comment on corrige |
+|--------|------------------|--------------------|
+| `situation` ↔ `principe` | Le principe reformule l'intitulé de la situation | Le principe doit énoncer une loi qui dépasse la scène décrite |
+| `principe` ↔ `action_immediate` | Le principe résume les étapes | Le principe monte d'un cran, il ne récapitule pas |
+| `action_immediate` ↔ `erreurs_a_eviter` | Une étape et une erreur sont la même idée à l'endroit et à l'envers | **On garde l'étape positive et on remplace l'erreur** par un piège qu'on n'a pas encore nommé |
+| `erreurs_a_eviter` ↔ `pour_aller_plus_loin` | Le même conseil, une fois en positif, une fois en négatif | On n'en garde qu'un des deux |
+
+**Un point d'action qui est en réalité une erreur déguisée sort de l'action.** Si une étape ne dit que « ne pas faire X », elle appartient aux erreurs, pas à l'action immédiate. L'action immédiate ne contient que des gestes que le parent peut poser.
+
+**Alléger vaut mieux que compléter.** On n'est pas obligé de remplir chaque bloc jusqu'à la limite. Un protocole de cinq étapes utiles vaut mieux qu'un protocole de cinq étapes dont deux se répètent : un parent épuisé lit ce qui est court et distinct, il décroche de ce qui tourne en rond. La seule exception reste celle du § « La seule répétition autorisée » : deux formulations différentes d'un point vraiment important, à deux niveaux différents.
+
 ---
 
 ## 4. Différenciation des 4 situations par catégorie
@@ -385,7 +567,7 @@ Un protocole bien calibré pèse **2,5 à 3,5 Ko** en JSON. Pour 32 protocoles, 
 | ancrage | 20-40 mots |
 | action_immediate.etapes | 5 × 15-25 mots = 75-125 mots |
 | geste_doux.etapes | 5 × 15-25 mots = 75-125 mots |
-| pour_aller_plus_loin | 4 × 15-25 mots = 60-100 mots |
+| pour_aller_plus_loin | 4 (ou 5) × 15-25 mots = 60-125 mots |
 | principe | 30-50 mots |
 | erreurs_a_eviter | 4 × 15-25 mots = 60-100 mots |
 | consulter_si | 30-60 mots |
@@ -419,8 +601,9 @@ Si un protocole fait moins de 350 mots, il est probablement trop sec — étoffe
 
 ### Transverses (tous mois)
 - 15 = SAMU, urgences vitales
-- 3114 = prévention suicide (parents)
-- MonParcoursPsy = 8 séances/an remboursées
+- 119 = Allo Enfance en danger, gratuit, 24 h/24, n'apparaît sur aucun relevé de téléphone
+- Allo Parents Bébé = 0 800 00 34 56, gratuit, en journée du lundi au vendredi
+- Mon soutien psy = des séances de psychologue prises en charge par l'Assurance Maladie, sur rendez-vous direct ou après avis d'un médecin (jamais de nombre de séances : voir la règle sur les chiffres des dispositifs)
 - Maman Blues = association soutien dépression post-partum
 
 ---
@@ -442,8 +625,8 @@ Si un protocole fait moins de 350 mots, il est probablement trop sec — étoffe
 - [ ] Les 9 champs obligatoires sont présents
 - [ ] L'explication est 3-5 phrases, bienveillante envers l'enfant
 - [ ] L'ancrage est 1-2 phrases adressées au parent
-- [ ] Action immédiate = exactement 5 étapes max
-- [ ] Geste doux = exactement 5 étapes max, avec zone réflexe si pertinent
+- [ ] Action immédiate = 5 étapes (6 si une idée le justifie)
+- [ ] Geste doux = 5 étapes (6 si une idée le justifie), avec zone réflexe si pertinent
 - [ ] Geste doux : AUCUNE pression chiffrée, AUCUN emploi de « massage » (ni affirmé ni nié), AUCUN « caresse »
 - [ ] Typographie : guillemets « » + espaces insécables (avant : ; ! ? et autour des guillemets), « Réflexologie » en toutes lettres
 - [ ] Titre du geste doux réflexologique au format « Réflexologie : … » (le mot apparaît clairement)
@@ -451,9 +634,9 @@ Si un protocole fait moins de 350 mots, il est probablement trop sec — étoffe
 - [ ] Émotion de l'enfant validée/reformulée avant la résolution (sauf nourrisson pré-verbal et éveil partiel type terreur nocturne)
 - [ ] Titre construit en deux parties « Thème / précision de la situation » (séparateur « / »)
 - [ ] `source` (si sujet sensible uniquement) : source française vérifiée et attribuée, une ligne discrète ; aucune source sur les sujets libres
-- [ ] Pour aller plus loin = exactement 4 points
+- [ ] Pour aller plus loin = 4 points (5 si une idée le justifie) · Erreurs = 4 (5 si justifié) · Étapes = 5 (6 si justifié)
 - [ ] Principe = 1-2 phrases de fond
-- [ ] Erreurs à éviter = exactement 4 erreurs, formulées comme constats
+- [ ] Erreurs à éviter = 4 erreurs (5 si une idée le justifie), formulées comme constats
 - [ ] Consulter_si = critères objectifs uniquement
 - [ ] Aucune formulation interdite (votre enfant, il faut, malheureusement)
 - [ ] Aucune précaution interdite (huiles essentielles, lidocaïne, miel...)

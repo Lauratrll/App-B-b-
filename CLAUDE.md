@@ -139,7 +139,7 @@ Chaque mois contient les mêmes 6 modules — seul le contenu change.
 
 |#|Module|Description|
 |-|-|-|
-|1|🧭 Guide-moi !|8 catégories × 4 situations par défaut (32 protocoles), différenciés par mois. Une catégorie peut monter à 5 situations quand une thématique le justifie — décision éditoriale de la fondatrice. 4 reste la norme (32, déjà dense en information).|
+|1|🧭 Guide-moi !|**Architecture arrêtée le 28/08/2026.** 13 thèmes répartis sur 24 mois, dont un seul par mois parle du parent. Le nombre de cartes varie par tranche : **7 cartes de M0 à M5, 8 de M6 à M11, 9 de M12 à M23**. Chaque carte porte 4 à 6 situations. Le détail par mois est dans `GUIDE2_situations.xlsx` (feuille Architecture) et dans `claude/00_DOCUMENTS_REFERENCE.md` du projet Claude.|
 |2|🌸 Prends soin de toi|6 gestes parentaux (réflexo, méditation, écriture, réalité, couple, soin)|
 |3|🌿 Conseil de saison|2 conseils adaptés à l'âge + saison en cours|
 |4|🌙 Préparer le coucher|Rituel personnalisé selon thème développemental|
@@ -249,12 +249,11 @@ CREATE POLICY "content readable" ON content
 
 ## 📅 État d'avancement
 
-|Mois|Guide-moi !|Soin|Saison|Coucher|Audio|Jeux|
-|-|-|-|-|-|-|-|
-|0|✅ complet|✅|✅|✅|✅|✅|
-|14|✅ complet|✅|✅|✅|✅|✅|
-|1–13|⏳ à faire|⏳|⏳|⏳|⏳|⏳|
-|15–24|⏳ à faire|⏳|⏳|⏳|⏳|⏳|
+> **⚠ Ce tableau était faux jusqu'au 29/08/2026** — il datait de mai et disait que seuls M0 et M14 existaient.
+
+**Guide-moi ! au 29 août 2026 :** les 24 mois existent dans `content/`. **848 situations sont arrêtées, 453 protocoles sont déjà écrits, 395 restent à écrire.** Le décompte à jour, mois par mois et thème par thème, est dans `GUIDE2_situations.xlsx` (feuille Pilotage) — c'est la seule source fiable, ce fichier-ci ne doit plus porter de compte.
+
+Les autres modules (Soin, Saison, Coucher, Audio, Jeux) n'ont pas été audités le 29/08 : se fier à `content/` et non à `skills/CONTENT_INDEX.md`, dont les statuts datent de mai.
 
 \---
 
@@ -262,7 +261,10 @@ CREATE POLICY "content readable" ON content
 
 * Skills éditoriaux : `/skills/SKILL\_protocole.md`, `/skills/SKILL\_contenu.md`
 * Skills techniques : `/skills/SKILL\_bdd.md`, `/skills/SKILL\_ui.md`
-* Contenu JSON : `/content/mois-00/`, `/content/mois-14/`
+* Contenu JSON : `/content/mois-00/` à `/content/mois-23/` (les 24 mois existent)
+* **Tableau maître des situations : `GUIDE2_situations.xlsx`** — une ligne = une situation = un protocole
+* **À lire en premier avant d'écrire du contenu Guide-moi : `claude/00_DOCUMENTS_REFERENCE.md`** dans le projet Claude « APP bébé »
+* ⚠ `skills/CONTENT_INDEX.md` : statuts périmés (mai 2026), ne pas s'y fier pour savoir ce qui est écrit
 * Doc Supabase : https://supabase.com/docs
 * Doc Stripe : https://stripe.com/docs
 * Doc Next.js : https://nextjs.org/docs

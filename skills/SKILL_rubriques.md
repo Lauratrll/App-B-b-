@@ -375,7 +375,7 @@ Pour les fichiers `01_protocoles.json` déjà produits **avant l'introduction de
 
 4. **Auto-reconnaissance** — participatif, format à varier mois par mois (liste écrite, voix enregistrée, lettre à soi-même...). Toujours avec `espace_pour_ecrire: true` ou équivalent. Donner 4-5 amorces si blocage.
 
-5. **Réalité du post-partum maman ET papa** — deux sections distinctes. Plus dense dans les premiers mois (M0 à M6), plus condensé après. Bienveillant, sans jugement. Toujours inclure : signaux à ne pas négliger + qui consulter (3114, sage-femme, MonParcoursPsy, Allo Parents Bébé, Maman Blues).
+5. **Réalité du post-partum maman ET papa** — deux sections distinctes. Plus dense dans les premiers mois (M0 à M6), plus condensé après. Bienveillant, sans jugement. Toujours inclure : signaux à ne pas négliger + qui consulter (sage-femme, Mon soutien psy, Allo Parents Bébé, Maman Blues). Le 3114 n'apparaît que là où le texte nomme les pensées noires, voir `SKILL_contenu.md`.
 
 6. **Challenge couple** — simple, amusant, durée 5-10 min, hebdomadaire. Un challenge différent chaque mois.
 

@@ -155,7 +155,7 @@ _Ses pleurs au moment de partir ne disent pas que tu t'y prends mal : ils disent
 
 ---
 
-## Coliques · M0-M2
+## Coliques · M0-M3
 
 _Sous-titre (liste) : Soulager le ventre noué en suivant le trajet de la digestion._
 
@@ -217,7 +217,7 @@ _Sa colère de ne pas encore réussir dit son élan et son envie de grandir._
 
 ---
 
-## Reflux · M0-M4
+## Reflux · M0-M8
 
 _Sous-titre (liste) : Apaiser les remontées et l'inconfort du haut du ventre._
 
@@ -259,7 +259,7 @@ _Ta douceur et ta patience apaisent autant que le geste._
 
 ---
 
-## Constipation · M2-M23
+## Constipation · M1-M23
 
 _Sous-titre (liste) : Accompagner le transit en douceur, en suivant le trajet du ventre._
 
