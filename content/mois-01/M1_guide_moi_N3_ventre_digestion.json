@@ -12,7 +12,7 @@
       "categorie": "digestion",
       "situation": "Le pic des coliques / Il se tord tous les soirs",
       "titre": "Le mois le plus dur, et il a une fin",
-      "explication": "Vers six semaines, ces pleurs atteignent leur maximum. C'est mesuré et c'est attendu : ils ont commencé vers trois semaines, ils culminent maintenant, et ils s'éteindront entre trois et quatre mois. Ce mois-ci est donc le plus intense, et c'est aussi celui où l'on doute le plus de soi. Aucun geste ne raccourcit cette période, mais certains rendent la soirée traversable : le contact, le mouvement, et un fond sonore régulier. Ils n'arrêtent pas les pleurs, ils les rendent tenables, pour lui comme pour toi.",
+      "explication": "Il est 20h. Tu as dîné debout, il hurle depuis la sortie du bain, et tu te demandes si ce sera comme ça tous les soirs. Non : tu es au sommet. Ces pleurs ont commencé vers trois semaines, c'est vers six qu'ils culminent, et ils s'éteindront entre trois et quatre mois. C'est la période de sa vie où un bébé pleure le plus, même quand tout va bien. Ce mois-ci est donc le plus dur, et c'est aussi celui où l'on doute le plus de soi.",
       "ancrage": "Tu n'échoues pas : ces soirées se traversent, elles ne se résolvent pas. C'est le mois où le plus de parents se disent qu'ils n'y arriveront pas, et celui où ils y arrivent quand même, à plusieurs.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -23,7 +23,7 @@
           "Un fond sonore régulier : hotte, sèche-cheveux, pluie, un bruit constant couvre et apaise mieux que le silence.",
           "Le contact large : ta main à plat sur son dos ou son ventre, chaude, immobile, plutôt que des tapotements.",
           "L'emmener dehors : l'air frais et le changement d'ambiance coupent souvent la crise, même 10 minutes.",
-          "Le poser quand tu sens monter : sur le dos dans son lit, et tu sors respirer, il ne risque rien."
+          "Le poser quand tu sens monter : bébé sur le dos dans son lit, tu sors de la pièce, tu respires. Il ne risque rien."
         ]
       },
       "geste_doux": {
@@ -32,7 +32,10 @@
         "titre": "Réflexologie : apaisement du soir",
         "etapes": [
           "Ce que ça apaise : le ventre tendu des soirées les plus difficiles.",
-          "Le bon moment : en début de soirée, avant que ça monte."
+          "Le bon moment : en début de soirée, avant que ça monte, jamais au cœur de la crise.",
+          "Le bas du dos : le long du bord interne du pied, le pouce descend lentement, du milieu vers le talon.",
+          "Le diaphragme, puis le plexus solaire : juste sous les coussinets des orteils, une pression douce et maintenue, 1 minute par pied.",
+          "S'arrêter à sa demande : s'il retire son pied ou se crispe, on arrête sans insister."
         ],
         "lien_reflexologie": {
           "id": "coliques",
@@ -40,26 +43,27 @@
         }
       },
       "pour_aller_plus_loin": [
-        "Se faire regarder pendant une prise : une bouche mal positionnée avale beaucoup d'air, c'est la piste la plus utile.",
+        "Se faire regarder pendant une prise : la sage-femme du suivi à domicile, la puéricultrice de la PMI ou une consultante en lactation voit en une tétée ce qu'on cherche depuis trois semaines.",
         "Organiser le créneau à deux : savoir qui prend le relais entre 18h et 21h, décidé le matin.",
         "Alterner portage et pause : bercer sans arrêt épuise le parent et sur-stimule parfois le bébé.",
-        "Retenir la date : le pic est maintenant, et il redescend à partir de ce mois-ci."
+        "Retenir la date : le pic est maintenant, et il redescend à partir de ce mois-ci.",
+        "Appeler Allo Parents Bébé : 0 800 00 34 56, gratuit, du lundi au vendredi de 10h à 13h et de 14h à 18h, avec des psychologues et une puéricultrice au bout du fil."
       ],
-      "principe": "Au pic, aucun geste ne raccourcit la période : ils la rendent traversable. Ce qui fait la différence sur ce mois-là, c'est le nombre d'adultes disponibles, pas le nombre de remèdes essayés.",
+      "principe": "Au pic, aucun geste ne raccourcit la période : ils la rendent seulement traversable. Ce qui fait la différence sur ce mois-là, c'est le nombre d'adultes disponibles, pas le nombre de remèdes essayés.",
       "erreurs_a_eviter": [
         "Changer de position toutes les 2 minutes : l'enchaînement de tentatives excite au lieu d'apaiser.",
-        "Chercher le bon produit : aucun n'a fait la preuve qu'il raccourcit ces semaines, et le pharmacien le dira.",
+        "Chercher le bon produit de rayon en rayon : c'est au pharmacien de dire ce qui convient à cet âge, et il le dira en une minute.",
         "Se relayer seulement quand l'un des deux craque : le relais se décide avant, à heure fixe.",
         "Attribuer chaque pleur au ventre : à six semaines, la fatigue et le trop-plein de la journée en produisent autant."
       ],
-      "consulter_si": "Consulter si : son ventre est dur et tendu en permanence avec des vomissements, ou si ton bébé devient anormalement mou → appeler immédiatement le 15. Consulter si, par ailleurs : les pleurs s'accompagnent de fièvre, de vomissements en jet, de sang dans les selles, d'un refus de boire, ou d'une cassure de la courbe de poids → pédiatre ou médecin traitant sans délai. Si tu sens que tu pourrais le secouer : pose-le sur le dos dans son lit, sors de la pièce, et appelle le 119 ou Allo Parents Bébé au 0 800 00 34 56.",
-      "source": "Source : pic des pleurs vers 6 semaines et disparition vers 3 à 4 mois, repères pédiatriques mpedia.fr (AFPA) ; prévention du syndrome du bébé secoué, Assurance Maladie, ameli.fr."
+      "consulter_si": "Consulter si : son ventre est dur et tendu en permanence avec des vomissements, ou si ton bébé devient anormalement mou → appeler immédiatement le 15. Consulter si, par ailleurs : les pleurs s'accompagnent de fièvre, de vomissements en jet, de sang dans les selles, d'un refus de boire, ou d'une cassure de la courbe de poids → pédiatre ou médecin traitant sans délai. Si tu sens que tu pourrais le secouer : pose bébé sur le dos dans son lit, sors de la pièce, et appelle Allo Parents Bébé au 0 800 00 34 56. Et si tu as besoin de parler de ce que tu ressens envers ton enfant, le 119 répond aussi aux parents, jour et nuit, et il n'apparaît sur aucun relevé de téléphone.",
+      "source": "Source : repères des pleurs du nourrisson, pic et évolution, mpedia.fr (Association Française de Pédiatrie Ambulatoire) et 1000-premiers-jours.fr ; prévention du syndrome du bébé secoué, Assurance Maladie (ameli.fr) et Haute Autorité de Santé."
     },
     {
       "categorie": "digestion",
       "situation": "Les régurgitations / Il rend encore après le lait",
       "titre": "Les gestes qui changent quelque chose",
-      "explication": "À un mois il boit davantage, et les remontées deviennent plus visibles qu'à la naissance. Rien ne s'est aggravé : c'est le volume qui a augmenté pendant que la maturation, elle, prend son temps. Il n'y a pas de traitement à chercher, mais il y a des gestes qui font une vraie différence, et ils tiennent tous à la même idée : moins d'air avalé, et le temps de laisser descendre ce qui vient d'arriver. Ce sont des réglages simples, pas des contraintes, et ils s'essaient sur quelques jours.",
+      "explication": "Tu le poses dans son lit après la tétée du soir, et il en rend la moitié sur son drap. À un mois il boit davantage, alors les remontées deviennent plus visibles qu'à la naissance. Rien ne s'est aggravé : c'est le volume qui a augmenté pendant que la maturation, elle, prend son temps. Il n'y a pas de traitement à chercher, mais il y a des réglages qui font une vraie différence, et ils tiennent tous à la même idée : moins d'air avalé, et le temps de laisser descendre ce qui vient d'arriver.",
       "ancrage": "Tu ne peux pas empêcher les remontées, et ce n'est pas le but. Tu peux réduire ce qui les majore, et ça se joue sur trois moments : pendant, juste après, et dans la journée.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -79,7 +83,10 @@
         "titre": "Réflexologie : apaiser les remontées",
         "etapes": [
           "Ce que ça apaise : la gêne du haut du ventre entre deux prises.",
-          "Le bon moment : loin des tétées, dans un moment calme de la journée."
+          "Le bon moment : loin des tétées, dans un moment calme de la journée.",
+          "La colonne vertébrale : le long du bord interne du pied, le pouce remonte du talon vers le gros orteil, sans appuyer.",
+          "Le cardia : la porte entre l'œsophage et l'estomac, encore souple à cet âge. Un appui léger et maintenu, puis on relâche.",
+          "S'arrêter à sa demande : s'il retire son pied ou se crispe, on arrête sans insister."
         ],
         "lien_reflexologie": {
           "id": "reflux",
@@ -87,15 +94,16 @@
         }
       },
       "pour_aller_plus_loin": [
-        "Limiter le transat et le siège-auto en journée : la position tassée majore les remontées, hors des trajets nécessaires.",
+        "Limiter le transat et le siège-auto en journée : la position tassée comprime le ventre et majore les remontées, hors des trajets nécessaires.",
         "Vérifier le débit de la tétine : trop rapide, il avale et il ressort ; trop lent, il s'énerve et avale de l'air.",
-        "Se faire regarder pendant une tétée : une prise du sein qui laisse entrer de l'air se corrige en une séance.",
-        "Essayer une chose à la fois : sur quelques jours, sinon on ne sait pas ce qui a marché."
+        "Se faire regarder pendant une tétée : une sage-femme ou une consultante en lactation repère en une séance une prise qui laisse entrer de l'air.",
+        "Essayer une chose à la fois : sur quelques jours, sinon on ne sait pas ce qui a marché.",
+        "En parler au prochain rendez-vous : la consultation de suivi regarde justement les remontées et le poids, et deux lignes notées d'ici là suffisent à en parler."
       ],
       "principe": "On ne supprime pas des remontées qui sont mécaniques, on réduit ce qui les amplifie. L'air avalé et la position couchée juste après la prise sont les deux seuls leviers vraiment à ta portée.",
       "erreurs_a_eviter": [
         "Le coucher tout de suite après la prise : c'est le moment où le trop-plein ressort le plus facilement.",
-        "Le laisser longtemps dans le transat : la position pliée comprime le ventre et majore les remontées.",
+        "Réduire ses prises parce qu'il rend beaucoup : c'est le trop-plein qui ressort, pas le signe qu'il mange trop, et il repartira chercher ce qui lui manque.",
         "Épaissir le lait de sa propre initiative : et le lait maternel tiré ne s'épaissit pas.",
         "Tout changer la même semaine : plus rien ne permet de savoir ce qui a aidé."
       ],
@@ -106,7 +114,7 @@
       "categorie": "digestion",
       "situation": "Les gaz / Il se tortille après chaque tétée",
       "titre": "Ce qui sort l'air, et ce qui ne sert à rien",
-      "explication": "À un mois, ton bébé se tortille bien après la fin de la tétée, et plus seulement juste après. Il tire sur ses jambes, son ventre gargouille, il émet des gaz bruyants, puis il se détend d'un coup et tout semble oublié. Ce n'est plus le moment du rot : là, l'air est déjà descendu, et il traverse un intestin encore lent, dont les muscles se coordonnent tout juste. Ce qui te frappe, ce sont ses mimiques, et elles trompent souvent : à cet âge, un bébé n'a pas de visage neutre, il grimace autant pour travailler que pour souffrir. Le vrai levier n'est donc pas dans le geste d'après. Il est dans le déroulé de la tétée elle-même, là où l'air est avalé.",
+      "explication": "À un mois, ton bébé se tortille bien après la fin de la tétée, et plus seulement juste après. Il tire sur ses jambes, son ventre gargouille, il émet des gaz bruyants, puis il se détend d'un coup et tout semble oublié. Ce n'est plus le moment du rot : l'air est déjà descendu, et il traverse un intestin encore lent, dont les muscles se coordonnent tout juste. Ce qui te frappe, ce sont ses mimiques, et elles trompent souvent : à cet âge, un bébé grimace autant pour travailler que pour souffrir.",
       "ancrage": "Un ventre bruyant n'est pas un ventre malade. Ce qui te renseigne, c'est ce qui vient ensuite : s'il se détend et repart, son corps a fait son travail.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -127,7 +135,7 @@
         "etapes": [
           "Vérifier sa prise au sein : bouche grande ouverte, menton contre le sein, lèvres retroussées, sans bruit de claquement.",
           "Mélanger en roulant le biberon entre les mains : secouer fort emprisonne des bulles d'air dans le lait, et ces bulles-là finissent dans son ventre.",
-          "Incliner le biberon : la tétine pleine de lait du début à la fin, avec un débit qui lui convient.",
+          "Incliner à peine le biberon : presque à l'horizontale, bébé redressé, avec un débit de tétine qui lui convient.",
           "Couper la tétée d'une pause : le redresser une fois au milieu plutôt que d'attendre un rot à la fin.",
           "Ne pas attendre les pleurs : un bébé affamé qui sanglote avale plus d'air qu'il ne prend de lait."
         ]
@@ -152,18 +160,18 @@
       "categorie": "digestion",
       "situation": "Les selles espacées / Il ne fait plus tous les jours",
       "titre": "Rare ne veut pas dire constipé",
-      "explication": "Il allait tous les jours, parfois à chaque tétée, et voilà qu'il saute un jour, puis deux. Ce ralentissement est banal après le premier mois : son intestin devient plus efficace, il absorbe davantage de ce qu'il reçoit, et il lui reste moins à évacuer. Ce n'est pas le nombre de jours qui décrit une constipation, c'est la consistance de la selle et l'aisance avec laquelle elle sort. Une autre scène brouille souvent la lecture : ton bébé pousse, devient tout rouge, gémit, se tortille de longues minutes, et rien ne vient, ou bien une selle parfaitement molle finit par arriver. Ce n'est pas de la constipation. C'est un bébé qui n'a pas encore appris à pousser et à relâcher en même temps, et cela s'apprend tout seul en quelques semaines.",
+      "explication": "Il allait tous les jours, parfois à chaque tétée, et voilà qu'il saute un jour, puis deux. Ce ralentissement est banal après le premier mois : son intestin devient plus efficace, il absorbe davantage, et il lui reste moins à évacuer. Ce n'est pas le nombre de jours qui décrit une constipation, c'est la consistance de la selle et l'aisance avec laquelle elle sort. Une autre scène brouille la lecture : il pousse, devient rouge, gémit de longues minutes, et finit par sortir une selle parfaitement molle. Ce n'est pas de la constipation. C'est un bébé qui n'a pas encore appris à pousser et à relâcher en même temps.",
       "ancrage": "Tu n'as pas à tenir un calendrier. Deux choses te renseignent : ce que tu trouves dans la couche, et la tête que fait ton bébé le reste de la journée.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
         "titre": "Action immédiate : ce que dit la couche",
         "etapes": [
-          "Ouvrir la couche et regarder : molle ou pâteuse, même après plusieurs jours, ce n'est pas une constipation.",
+          "Ouvrir la couche et regarder : molle ou pâteuse, même au bout de trois jours, ce n'est pas une constipation.",
           "Poser la main sur son ventre : souple entre deux selles, il n'y a rien à débloquer.",
           "Le regarder pousser jusqu'au bout : s'il se détend et que la selle est molle, son corps apprend, c'est tout.",
           "Vérifier ses couches mouillées : plusieurs par jour disent qu'il boit assez.",
-          "Ne rien introduire pour faire venir la selle : ni coton-tige, ni suppositoire, ni embout de thermomètre."
+          "Vérifier ce qui comprime : une couche trop serrée, un body devenu juste, une sangle de siège qui barre le ventre."
         ]
       },
       "geste_doux": {
@@ -174,8 +182,8 @@
           "L'installer sur le dos : plan ferme, couche ouverte, jambes entièrement libres.",
           "Plier et déplier ses jambes : ses genoux vers son ventre quelques secondes, puis on relâche.",
           "Poser une paume tiède sur son ventre : immobile, sans appuyer, le temps de quelques respirations.",
-          "Soigner le siège : eau tiède, séchage en tamponnant, quelques minutes à l'air libre.",
-          "S'arrêter s'il se crispe : rien ne se poursuit contre sa réaction."
+          "Veiller au siège : eau tiède, séchage en tamponnant, quelques minutes à l'air libre.",
+          "S'arrêter à sa demande : s'il se crispe ou se raidit, on arrête sans insister."
         ],
         "lien_reflexologie": {
           "id": "constipation",
@@ -183,10 +191,10 @@
         }
       },
       "pour_aller_plus_loin": [
-        "Ne pas toucher au lait : dose, dilution et marque ne se modifient qu'avec un médecin, jamais pour un transit qui s'espace.",
-        "Ne pas donner d'eau : avant six mois, le lait couvre tous ses besoins, y compris en eau.",
+        "Laisser passer quelques jours avant de s'inquiéter : c'est ce que le médecin proposera aussi, tant que le ventre reste souple et que ce qui sort est mou.",
         "Le porter et le laisser bouger : le portage, le temps au sol et les jambes libres soutiennent le transit mieux qu'un remède.",
-        "Écrire deux lignes : la consistance et son confort sur quelques jours, c'est ce que le médecin te demandera."
+        "Écrire deux lignes : la consistance et son confort sur quelques jours, c'est ce que le médecin te demandera.",
+        "Passer à la PMI ou en parler à la sage-femme : la consultation de puériculture est gratuite, et une couche montrée vaut mieux qu'une couche décrite."
       ],
       "principe": "Un transit qui ralentit suit sa maturation, il ne la contrarie pas. Et l'effort qu'il met à pousser ne dit rien tant que ce qui sort reste mou.",
       "erreurs_a_eviter": [

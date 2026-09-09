@@ -31,6 +31,17 @@ REFRAINS_SECURITE = [
  # sinon il se lit comme un soupcon. C'est donc un refrain de securite, mot pour mot.
  "si tu as besoin de parler de ce que tu ressens envers ton enfant",
  "le 119 répond aussi aux parents",
+ # --- 09/09/2026, passe Ventre & digestion : trois formulations arretees qui se repetent
+ # mot pour mot d'un protocole a l'autre et ne sont pas de la recopie.
+ # 1. La clause d'arret du geste de reflexologie (SKILL_protocole 3.7, consentement du bebe).
+ "S'arrêter à sa demande",
+ # 2. Le renvoi au pharmacien (regle du 26/08 : on ne prend pas position sur un remede).
+ "c'est lui qui sait ce qui convient à cet âge",
+ "Demander au pharmacien",
+ # 3. Les portes institutionnelles nommees (meme statut que « Mon soutien psy », 03/09).
+ "Pousser la porte de la PMI",
+ "Poser la question à la PMI",
+ "les consultations de suivi des premières semaines",
 ]
 # --- Refrains institutionnels : noms de dispositifs et portes d'entree.
 # Decision du 03/09/2026 : la formulation de « Mon soutien psy » est arretee mot pour mot

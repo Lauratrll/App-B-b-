@@ -12,8 +12,8 @@
       "categorie": "digestion",
       "situation": "Les coliques / Il se tord et hurle en fin de journée",
       "titre": "Ce qui aide vraiment, et ce qui ne fait rien",
-      "explication": "Ce qu'on appelle « coliques » n'est pas une maladie et n'a pas de cause unique identifiée. Ce sont des pleurs intenses, souvent en fin de journée, chez un bébé qui va bien par ailleurs : ils commencent vers trois semaines, culminent vers six, puis s'éteignent entre trois et quatre mois. Ton bébé serre les poings, replie les jambes, devient rouge. Ce n'est pas ton lait, ce n'est pas ce que tu manges, ce n'est pas un manque de quelque chose. Et il n'existe aucun remède qui les fasse disparaître.",
-      "ancrage": "Personne ne dit à quel point entendre pleurer son bébé sans pouvoir l'apaiser rend impuissant, et parfois furieux. Ce que tu ressens là est partagé par presque tous les parents, et ça se dit.",
+      "explication": "Il est 19h. Il a tété il y a une heure, sa couche est propre, et il hurle depuis 20 minutes, les poings serrés, les jambes repliées, le visage rouge. Ces pleurs-là portent un nom, les coliques, et ce nom ne désigne aucune maladie. Ils commencent vers trois semaines, culminent vers six, puis s'éteignent entre trois et quatre mois. C'est aussi la période où tous les bébés pleurent le plus : un nouveau-né en bonne santé peut pleurer 2 à 3 heures par jour, *d'après le programme des 1000 premiers jours*. Ce n'est ni ton lait, ni ce que tu manges.",
+      "ancrage": "La phrase que personne ne dit, c'est celle-là : par moments, tu n'as plus envie de le prendre. Ce n'est pas un défaut de tendresse. C'est ce que produit une heure de pleurs qu'on n'arrive pas à apaiser.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -21,9 +21,9 @@
         "etapes": [
           "Le porter contre toi : à plat sur ton torse, sa tête soutenue, en marchant lentement.",
           "Baisser tout autour : lumière faible, pas de musique, un seul adulte dans la pièce.",
-          "Alterner plutôt qu'insister : quelques minutes portées, quelques minutes posé, il n'y a pas une bonne position.",
+          "Alterner plutôt qu'insister : quelques minutes porté, quelques minutes posé, il n'y a pas une bonne position.",
           "Passer le relais avant d'être à bout : au premier agacement, pas au dixième.",
-          "Si tu es seule et que tu ne tiens plus : le coucher sur le dos dans son lit, sortir de la chambre, fermer la porte, respirer."
+          "Si tu ne tiens plus : poser bébé sur le dos dans son lit, sortir de la pièce, fermer la porte, respirer."
         ]
       },
       "geste_doux": {
@@ -31,8 +31,11 @@
         "couleur_texte": "#085041",
         "titre": "Réflexologie : apaisement du soir",
         "etapes": [
-          "Ce que ça apaise : les tensions du ventre en fin de journée.",
-          "Le bon moment : avant le pic du soir, pas au milieu de la crise."
+          "Ce que ça apaise : les tensions du ventre quand la crise approche.",
+          "Le bon moment : avant le pic, pas au milieu de la crise, et à distance d'une tétée.",
+          "Le plexus solaire : au centre de la voûte, une pression douce et maintenue, puis on relâche, 1 minute par pied.",
+          "Le trajet du ventre : de l'estomac vers le bas du pied, de petits cercles qui avancent, dans l'ordre où la digestion se fait.",
+          "S'arrêter à sa demande : s'il retire son pied ou se crispe, on arrête sans insister."
         ],
         "lien_reflexologie": {
           "id": "coliques",
@@ -40,10 +43,11 @@
         }
       },
       "pour_aller_plus_loin": [
-        "Limiter l'air avalé : rouler le biberon entre les paumes plutôt que l'agiter, et laisser retomber la mousse.",
-        "Servir le lait à température du corps : réchauffé au bain-marie, plus digeste ainsi ; le micro-ondes est fortement déconseillé, il chauffe de façon inégale.",
+        "Limiter l'air avalé : rouler le biberon entre les paumes plutôt que l'agiter, et laisser retomber la mousse avant de donner.",
+        "Servir le lait à température du corps : réchauffé au bain-marie, il est plus digeste ; le micro-ondes est fortement déconseillé, il chauffe de façon inégale.",
         "Sortir de la maison : marcher dehors en portage change l'ambiance sonore et apaise souvent les deux.",
-        "Prévenir qui le garde : toute personne qui s'occupe de lui doit savoir qu'on ne secoue jamais un bébé, et quoi faire à la place."
+        "Prévenir qui le garde : toute personne qui s'occupe de lui doit savoir qu'on ne secoue jamais un bébé, et quoi faire à la place.",
+        "Pousser la porte de la PMI : les consultations de puériculture y sont gratuites et ouvertes à tous, la puéricultrice peut aussi venir à la maison, et l'annuaire des centres est sur service-public.fr."
       ],
       "principe": "Ces pleurs ne se réparent pas, ils se traversent, et personne ne les traverse seul. Ce qui protège vraiment ton bébé pendant ces semaines, ce n'est pas un remède : c'est un parent relayé, qui a le droit de poser son enfant et de sortir de la pièce.",
       "erreurs_a_eviter": [
@@ -52,25 +56,26 @@
         "Utiliser des huiles essentielles : contre-indiquées chez le nourrisson, y compris en diffusion.",
         "Rester seul des heures avec les pleurs : l'isolement est ce qui précède presque toujours la perte de contrôle."
       ],
-      "consulter_si": "Consulter si : son ventre est dur et tendu en permanence avec des vomissements, ou si ton bébé devient anormalement mou → appeler immédiatement le 15. Consulter si, par ailleurs : les pleurs s'accompagnent de fièvre, de vomissements en jet, de sang dans les selles, d'un refus de boire, ou d'une cassure de la courbe de poids → pédiatre ou médecin traitant sans délai. Si tu sens que tu pourrais le secouer : pose-le sur le dos dans son lit, sors de la pièce, et appelle le 119 ou Allo Parents Bébé au 0 800 00 34 56.",
-      "source": "Source : pleurs excessifs du nourrisson, début vers 3 semaines, pic vers 6 semaines, disparition vers 3 à 4 mois, repères pédiatriques mpedia.fr (AFPA) ; conduite à tenir face aux pleurs et prévention du syndrome du bébé secoué, Assurance Maladie, ameli.fr."
+      "consulter_si": "Consulter si : son ventre est dur et tendu en permanence avec des vomissements, ou si ton bébé devient anormalement mou → appeler immédiatement le 15. Consulter si, par ailleurs : les pleurs s'accompagnent de fièvre, de vomissements en jet, de sang dans les selles, d'un refus de boire, ou d'une cassure de la courbe de poids → pédiatre ou médecin traitant sans délai. Si tu sens que tu pourrais le secouer : pose bébé sur le dos dans son lit, sors de la pièce, et appelle Allo Parents Bébé au 0 800 00 34 56. Et si tu as besoin de parler de ce que tu ressens envers ton enfant, le 119 répond aussi aux parents, jour et nuit, et il n'apparaît sur aucun relevé de téléphone.",
+      "source": "Source : conduite à tenir devant les pleurs du nourrisson et prévention du syndrome du bébé secoué, Assurance Maladie (ameli.fr) et Haute Autorité de Santé."
     },
     {
       "categorie": "digestion",
       "situation": "Les régurgitations / Il rend après chaque prise",
-      "titre": "Pourquoi ça remonte, et ce qui alerte",
-      "explication": "Trois choses se combinent chez un nouveau-né. Le muscle qui ferme le haut de son estomac n'a pas fini de mûrir, son estomac est petit et presque horizontal quand il est couché, et il avale un peu d'air en buvant. Le trop-plein ressort donc tout seul, sans effort, souvent au moment du rot. C'est le mécanisme, et il n'a rien à voir avec un vomissement : celui-là est projeté avec force, précédé d'un effort visible, et il ne se lit pas de la même façon. Savoir distinguer les deux est ce qui compte le plus ce premier mois.",
-      "ancrage": "Ce que tu vois sur ton pull impressionne bien plus que ce que ton bébé ressent. Ce que tu as à savoir tient en une différence : est-ce que ça coule, ou est-ce que c'est projeté ?",
+      "titre": "Distinguer ce qui coule de ce qui est projeté",
+      "explication": "Tu le redresses, tu tapotes, et une flaque de lait tiède coule dans ton cou pour la troisième fois de la journée. Chez un nouveau-né, trois choses se combinent : le muscle qui ferme le haut de l'estomac n'a pas fini de mûrir, l'estomac est petit et presque horizontal quand il est couché, et il avale un peu d'air en buvant. Le trop-plein ressort tout seul, sans effort, souvent au moment du rot. Le vomissement, lui, part avec force et suit une contraction visible.",
+      "ancrage": "Ce que tu vois sur ton pull impressionne beaucoup plus que ce que ton bébé ressent. Et la peur qu'il ne garde rien se règle sur la balance, pas sur le nombre de bavoirs.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
         "titre": "Action immédiate : au moment où ça remonte",
         "etapes": [
           "Le redresser sans le secouer : contre ton épaule, dos droit, ta main à plat entre ses omoplates.",
-          "Le laisser finir : essuyer, changer le bavoir, sans commentaire et sans agitation autour de lui.",
+          "Le garder vertical ensuite : dans les bras ou en écharpe, 20 à 30 minutes, le temps que l'air remonte.",
+          "Essuyer sans t'agiter : changer le bavoir, sans commentaire et sans branle-bas autour de lui.",
           "Regarder comment c'est sorti : un filet qui coule au coin de la bouche, ou une projection à distance.",
-          "Le coucher à plat sur le dos : la règle ne change pas, même chez un bébé qui régurgite beaucoup.",
-          "Le signe qui change tout : projeté loin à chaque prise avant six semaines, verdâtre, ou avec un malaise. On appelle."
+          "Le coucher à plat, sur le dos : même chez un bébé qui rend à chaque repas, et sans rien glisser sous le matelas.",
+          "Le signe qui change tout : projeté loin à chaque prise avant six semaines, verdâtre, ou avec une gêne pour respirer. On appelle."
         ]
       },
       "geste_doux": {
@@ -78,8 +83,11 @@
         "couleur_texte": "#085041",
         "titre": "Réflexologie : apaiser les remontées",
         "etapes": [
-          "Ce que ça apaise : l'inconfort du haut du ventre après la prise.",
-          "Le bon moment : à distance des tétées, quand il est calme et déshabillé."
+          "Ce que ça apaise : l'inconfort du haut du ventre une fois le lait avalé.",
+          "Le bon moment : à distance des tétées, quand il est calme et déshabillé.",
+          "Le diaphragme : sous le coussinet des orteils, le pouce glisse lentement d'un bord du pied à l'autre.",
+          "Le cardia, puis l'estomac : cette porte entre l'œsophage et l'estomac apprend encore à se fermer. Pression douce et maintenue, puis on relâche.",
+          "S'arrêter à sa demande : s'il retire son pied ou se crispe, on arrête sans insister."
         ],
         "lien_reflexologie": {
           "id": "reflux",
@@ -87,10 +95,11 @@
         }
       },
       "pour_aller_plus_loin": [
-        "Retenir la différence : la régurgitation coule sans effort, le vomissement est projeté avec une contraction.",
         "Vérifier la prise : un sein mal pris ou une tétine inadaptée font avaler beaucoup plus d'air.",
-        "Ne rien surélever : coussins, cales et matelas inclinés font glisser le bébé vers le bas et sont dangereux.",
-        "Prévoir du linge partout : c'est le vrai sujet des premières semaines, et il n'est pas médical."
+        "Écourter les moments en transat : la position assise comprime l'estomac et entretient les remontées ; dans la journée, le portage ou le tapis au sol valent mieux.",
+        "Prévoir du linge partout : c'est le vrai sujet des premières semaines, et il n'est pas médical.",
+        "Poser la question au prochain examen : les consultations de suivi des premières semaines sont prises en charge sans avance de frais, et elles regardent justement les remontées, la courbe de poids et le confort digestif.",
+        "Demander au pharmacien avant tout produit : laits épaissis, eaux spéciales, compléments, c'est lui qui sait ce qui convient à cet âge."
       ],
       "principe": "Un symptôme se juge à ce qu'il coûte au bébé, pas à ce qu'il laisse sur les vêtements. Tant que le poids monte et que ton bébé est confortable, il n'y a rien à changer.",
       "erreurs_a_eviter": [
@@ -100,14 +109,14 @@
         "Donner un produit anti-remontées sans avis : demander au pharmacien ou au médecin avant."
       ],
       "consulter_si": "Consulter si : ton bébé fait un malaise, devient tout mou, bleuit autour des lèvres ou peine à respirer pendant une remontée, ou si ce qui remonte est verdâtre ou contient du sang → appeler immédiatement le 15. Consulter si, par ailleurs : il pleure fort pendant ou après les tétées, s'il refuse de boire, si sa courbe de poids casse, s'il vomit en jet, ou si une toux ou une gêne respiratoire reviennent → pédiatre ou médecin traitant sans attendre. Consulter aussi si : les vomissements sont projetés à chaque tétée avant six semaines → sans délai.",
-      "source": "Source : régurgitations du nourrisson, conduite à tenir et signes devant faire consulter, Assurance Maladie, ameli.fr ; couchage à plat sur le dos sans surélévation, 1000-premiers-jours.fr."
+      "source": "Source : régurgitations du nourrisson, position verticale après le repas et signes devant faire consulter, Assurance Maladie (ameli.fr) et Haute Autorité de Santé ; couchage à plat sur le dos sans surélévation, 1000-premiers-jours.fr."
     },
     {
       "categorie": "digestion",
       "situation": "Le rot qui ne vient pas / Il se tortille après la tétée",
       "titre": "L'après-repas, position par position",
-      "explication": "Ton bébé vient de finir sa prise. Il pousse, il rougit, il se raidit, et rien ne sort. À la maternité on t'a appris à le faire roter, alors tu attends, et l'attente s'étire. Le rot, c'est l'évacuation de l'air avalé pendant la tétée : téter, avaler et respirer sont trois gestes que ton nouveau-né coordonne encore mal, et cet apprentissage lui fait prendre de l'air en même temps que le lait. Cet air remonte quand son corps est redressé. Il peut aussi remonter très longtemps après la fin de la tétée, ou descendre et ressortir plus bas. Deux choses valent la peine d'être connues : le rot n'est pas obligatoire, même s'il est conseillé pour détendre l'estomac, et qu'il vienne ou non ne dit rien de la façon dont sa tétée est passée.",
-      "ancrage": "Le rot ne se commande pas. Tu peux lui offrir la position et le temps, tu ne peux pas décider qu'il vienne. Un bébé détendu qu'on couche sans rot est un bébé bien couché.",
+      "explication": "Ton bébé vient de finir sa prise. Il pousse, il rougit, il se raidit, et rien ne sort. À la maternité on t'a appris à le faire roter, alors tu attends, et l'attente s'étire. Téter, avaler et respirer sont trois gestes qu'un nouveau-né coordonne encore mal : il prend de l'air en même temps que le lait. Cet air remonte quand son corps est redressé, parfois longtemps après la fin de la tétée, parfois pas du tout. Il descend alors, et il ressort plus bas.",
+      "ancrage": "Le rot ne se commande pas : tu offres la position et le temps, tu ne décides pas qu'il vienne. Et si tu as peur de mal faire en le couchant sans, retiens ceci : un bébé détendu est un bébé bien couché.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -117,7 +126,7 @@
           "Marcher un peu ainsi : le pas et la verticalité font souvent plus qu'une tape dans le dos.",
           "Changer d'appui : assis sur ta cuisse, le dos droit, ta main tenant sa mâchoire et son torse.",
           "3 à 5 minutes, pas plus : au-delà, l'attente use tout le monde sans rien accélérer.",
-          "Le coucher ensuite : sur le dos, à plat, s'il est détendu. Le rot n'est pas une condition pour dormir."
+          "Le coucher à plat, sur le dos : dès qu'il est détendu, même si rien n'est sorti."
         ]
       },
       "geste_doux": {
@@ -133,12 +142,13 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Agir pendant la tétée plutôt qu'après : une bouche grande ouverte sur l'aréole, une tétine remplie de lait jusqu'au bout, et un biberon mélangé en le roulant entre les mains, parce que le secouer fort y emprisonne des bulles d'air qu'il avalera.",
+        "Agir pendant la tétée plutôt qu'après : une bouche grande ouverte sur l'aréole, ou un biberon à peine incliné et bébé redressé, et il avale beaucoup moins d'air.",
+        "Préparer le biberon sans bulles : on le roule entre les paumes, à l'horizontale ; l'agiter de haut en bas y emprisonne de l'air qu'il avalera ensuite.",
         "Le redresser au milieu de la tétée : une pause verticale à mi-parcours vaut mieux qu'un seul rot espéré à la fin.",
         "Le nourrir avant les pleurs : un bébé qui pleure avale beaucoup d'air en tétant, et repart avec une bulle de plus.",
-        "Ramener doucement ses genoux vers son ventre quelques secondes quand il pousse : ce mouvement aide l'air à circuler vers le bas."
+        "Ramener doucement ses genoux vers son ventre quand il pousse : quelques secondes suffisent, ce mouvement aide l'air à circuler vers le bas."
       ],
-      "principe": "Le rot n'est pas un résultat à obtenir, c'est une possibilité à offrir. La seule mesure qui compte, c'est son confort à lui, pas la bulle qui sort.",
+      "principe": "Le rot n'est pas un résultat à obtenir, c'est une possibilité à offrir. Il est conseillé, il n'est pas obligatoire, et la seule mesure qui compte est le confort de ton bébé, pas la bulle qui sort.",
       "erreurs_a_eviter": [
         "Tapoter fort ou secouer bébé pour faire sortir l'air : aucune secousse n'est anodine, à aucun moment de la première année.",
         "Le tenir debout un quart d'heure durant : l'air ne se laisse pas convaincre, et l'attente épuise le parent.",
@@ -146,14 +156,14 @@
         "Lire dans l'absence de rot un signe de mauvaise digestion : le rot ne renseigne pas sur la façon dont sa tétée passe."
       ],
       "consulter_si": "Consulter si : son ventre est dur et gonflé, il vomit, et plus rien ne passe, ni selle ni gaz → appeler immédiatement le 15. Consulter si, par ailleurs : il pleure intensément après chaque tétée sans se calmer, s'il refuse de boire, si son ventre reste dur, s'il vomit en jet, ou si son poids stagne → pédiatre ou médecin traitant.",
-      "source": "Source : les rots du nourrisson, évacuation de l'air dégluti, rot non obligatoire et position verticale, mpedia.fr (Association Française de Pédiatrie Ambulatoire) ; pauses pour le rot pendant la tétée et couchage à plat sur le dos, Assurance Maladie, ameli.fr."
+      "source": "Source : rots du nourrisson et évacuation de l'air dégluti, mpedia.fr (Association Française de Pédiatrie Ambulatoire) ; pauses pendant la tétée et couchage à plat sur le dos, Assurance Maladie (ameli.fr)."
     },
     {
       "categorie": "digestion",
       "situation": "Les premières selles / Je ne sais pas ce qui est normal",
       "titre": "Décoder sans s'inquiéter",
-      "explication": "Les toutes premières selles s'appellent le méconium : noires ou vert très foncé, collantes, épaisses, elles s'évacuent dans les premiers jours. Puis les selles changent : elles deviennent jaunes, granuleuses et très fréquentes chez le bébé allaité, plus fermes et plus espacées chez le bébé au biberon. La fréquence varie énormément, plusieurs fois par jour, ou un jour sur deux. Ce qui compte n'est pas le nombre, mais l'aspect et le confort de bébé. Chaque bébé installe son propre transit, et la fourchette normale est large.",
-      "ancrage": "Tu n'as pas à compter les selles. Tu as à repérer les quelques aspects qui font appeler, pour tout le reste, la variété est la norme.",
+      "explication": "Tu ouvres la couche et tu ne sais pas quoi penser de ce que tu vois. Les toutes premières selles s'appellent le méconium : noires ou vert très foncé, collantes, épaisses, elles s'évacuent dans les premiers jours. Puis tout change. Jaunes, granuleuses et très fréquentes chez le bébé allaité, plus fermes et plus espacées chez le bébé au biberon. La fréquence va de plusieurs fois par jour à un jour sur deux, et cette fourchette-là est normale d'un bout à l'autre.",
+      "ancrage": "Tu n'as pas à compter les selles. Trois couleurs seulement font appeler ; pour tout le reste, la variété est la règle, et non le signe que quelque chose t'échappe.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -175,24 +185,24 @@
           "Sécher soigneusement : tamponner, en insistant sur les plis, avant de refermer la couche.",
           "Laisser respirer : quelques minutes fesses à l'air, sur une serviette, à chaque change quand c'est possible.",
           "Changer souvent : une couche laissée trop longtemps est la première cause de rougeurs.",
-          "Appliquer un produit protecteur si la peau rougit : une crème adaptée aux bébés, sans parfum."
+          "Demander au pharmacien si la peau rougit : c'est lui qui dira quel produit convient à cet âge."
         ]
       },
       "pour_aller_plus_loin": [
-        "Distinguer les modes d'alimentation : allaité, bébé peut avoir une selle à chaque tétée ou une tous les plusieurs jours, sans que ce soit anormal.",
-        "Se méfier des solutions maison : jus de fruits, eau supplémentaire ou geste dans le siège n'ont pas leur place chez un nouveau-né sans avis médical.",
-        "Ne pas donner d'eau : avant six mois, l'eau n'est pas nécessaire et peut être dangereuse, le lait suffit.",
-        "Retenir les couleurs qui alertent : blanche ou décolorée, noire après les premiers jours, ou avec du sang, ce sont les trois seules qui déclenchent un appel."
+        "Distinguer les modes d'alimentation : allaité, bébé peut avoir une selle à chaque tétée ou une tous les deux ou trois jours, sans que ce soit anormal.",
+        "Photographier plutôt que décrire : une photo de la couche dans le téléphone vaut mieux qu'un souvenir approximatif le jour du rendez-vous.",
+        "Noter dans le carnet de santé : le poids s'y trace à chaque visite, et c'est ce tracé qui répond le mieux à la question « est-ce qu'il va bien ? ».",
+        "Profiter du suivi à domicile : après la sortie de maternité, un suivi par une sage-femme est prévu et se demande librement ; c'est le bon moment pour montrer une couche sans avoir de rendez-vous à décrocher."
       ],
       "principe": "La fréquence des selles varie énormément et ne dit presque rien à elle seule. Ce sont la couleur, l'aspect, et surtout le confort et la courbe de poids de bébé qui donnent la vraie information.",
       "erreurs_a_eviter": [
         "Chercher à déclencher la selle en introduisant quelque chose dans son siège : chez un nouveau-né, le risque est d'ulcérer l'anus.",
         "Donner de l'eau, un jus de fruit ou une tisane à un bébé de moins de six mois : le lait couvre tous ses besoins, y compris en eau.",
-        "Conclure à une constipation dès qu'un jour passe sans selle : chez le bébé allaité, c'est fréquent et sans gravité si le ventre est souple.",
+        "Conclure à une constipation dès qu'un jour passe sans selle : chez un bébé nourri au sein, c'est fréquent et sans gravité si le ventre reste souple.",
         "S'alarmer d'une selle verte isolée chez un bébé qui va bien : la couleur seule ne signe rien."
       ],
-      "consulter_si": "Consulter si : les selles sont blanches ou décolorées, noires après les premiers jours de vie, ou contiennent du sang ; si bébé n'a pas émis de méconium dans les premières quarante-huit heures ; si le ventre est dur et tendu avec vomissements ; ou si bébé ne mouille presque plus ses couches → pédiatre sans délai, et le 15 en cas de ventre dur avec vomissements.",
-      "source": "Source : ameli.fr (Assurance Maladie), constipation de l'enfant : que faire et quand consulter."
+      "consulter_si": "Consulter si : les selles sont blanches ou décolorées, très noires en dehors des premiers jours, ou contiennent du sang ; si bébé n'a pas émis de méconium dans les premiers jours de vie ; ou s'il ne mouille presque plus ses couches → pédiatre ou médecin traitant sans délai. Consulter aussi si : son ventre est dur et tendu avec des vomissements → appeler immédiatement le 15.",
+      "source": "Source : selles du nourrisson, méconium, couleurs devant faire consulter et constipation de l'enfant, Assurance Maladie (ameli.fr) et mpedia.fr (Association Française de Pédiatrie Ambulatoire) ; ne pas utiliser de thermomètre pour faciliter l'émission des selles, ameli.fr."
     }
   ]
 }
