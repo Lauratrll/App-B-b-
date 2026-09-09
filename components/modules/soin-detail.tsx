@@ -632,7 +632,7 @@ function B3Gabarit({ g }: { g: Rec }) {
                   <span style={{ width: 10, height: 10, borderRadius: "50%", flexShrink: 0, position: "relative", top: 1, background: swatch[i] ?? "#F0CFB8", border: "1px solid #C8806A" }} />
                   <span style={{ fontSize: 11.5, lineHeight: 1.4, color: WARM_BODY }}>
                     <strong style={{ color: WARM_LABEL, fontWeight: 700 }}>{str(c.label)}</strong>
-                    {str(c.indice) ? ` — ${str(c.indice)}` : ""}
+                    {str(c.indice) ? `\u00a0: ${str(c.indice)}` : ""}
                   </span>
                 </div>
               ))}
@@ -749,13 +749,19 @@ function B4({ c }: { c: Rec }) {
   );
 }
 
-// Met « 3114 » en gras Coral-dark dans le texte d'urgence.
+// Met les numeros d'appel en gras Coral-dark dans le texte d'urgence.
+// Le relais par defaut est Allo Parents Bebe (lun-ven, journee). Le 3114 est
+// remis le 02/09/2026 sur les seuls mois qui nomment les pensees noires (M0, M3,
+// M7) : c'est le seul joignable jour et nuit. Le 119, le 3919, le 17 et le 15
+// restent selon la situation.
+const NUMEROS_URGENCE = /(0\s?800\s?00\s?34\s?56|\b3114\b|\b3919\b|\b119\b|\b17\b|\b15\b)/;
+
 function renderUrgence(texte: string): ReactNode {
-  const parts = texte.split(/(3114)/);
+  const parts = texte.split(NUMEROS_URGENCE);
   return parts.map((p, i) =>
-    p === "3114" ? (
-      <strong key={i} style={{ fontWeight: 700, color: CORAL_DARK }}>
-        3114
+    NUMEROS_URGENCE.test(p) && i % 2 === 1 ? (
+      <strong key={i} style={{ fontWeight: 700, color: CORAL_DARK, whiteSpace: "nowrap" }}>
+        {p}
       </strong>
     ) : (
       <span key={i}>{p}</span>

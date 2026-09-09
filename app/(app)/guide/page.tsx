@@ -6,7 +6,7 @@ import {
   CategoryIcon,
   GUIDE_MUTED,
   GUIDE_TEXT,
-  slotFor,
+  slotForCategorie,
 } from "@/components/modules/guide-design";
 
 // Page 1 « Guide-moi ! » — grille des catégories du mois.
@@ -87,7 +87,7 @@ export default async function GuidePage() {
         }}
       >
         {meta.categories.map((cat, i) => {
-          const slot = slotFor(i);
+          const slot = slotForCategorie(cat.id, i);
           return (
             <Link
               key={cat.id}

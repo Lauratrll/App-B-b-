@@ -8,7 +8,7 @@ import {
   GUIDE_MUTED,
   GUIDE_TEXT,
   parseSituation,
-  slotFor,
+  slotForCategorie,
 } from "@/components/modules/guide-design";
 
 // Page 2 « Situations » — liste des 4 situations d'une catégorie.
@@ -150,7 +150,7 @@ export function SituationsView({
   slotIndex: number;
   situations: SituationListItem[];
 }) {
-  const slot = slotFor(slotIndex);
+  const slot = slotForCategorie(categorie.id, slotIndex);
 
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
@@ -244,10 +244,10 @@ export function SituationsView({
             <SituationButton
               key={s.id}
               href={`/guide/${categorie.id}/${s.ordre}`}
-              // Libellé du bouton = titre en 2 parties « THÈME / angle » (avec « / »).
-              // `titre` retombe sur `situation` quand un mois n'a pas de titre dédié
-              // (cf. getGuideSituations), donc sans effet sur M0/M14.
-              situation={s.titre}
+              // Libellé du bouton = `situation` en 2 parties « LE FAIT / il fait ceci ».
+              // Depuis la bascule du 26/08, `titre` ne porte plus que le principe de
+              // solution (une seule partie, sans « / ») : il est réservé à la page 3.
+              situation={s.situation}
               bgColor={slot.camaieu[i % slot.camaieu.length]}
             />
           ))}

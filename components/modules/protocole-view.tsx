@@ -1,5 +1,6 @@
 import React from "react";
 import type { ProtocoleGuide } from "@/lib/content";
+import { GUIDE_MUTED, parseSituation } from "@/components/modules/guide-design";
 
 // ----------------------------------------------------------------------------
 // Composant d'affichage d'un protocole Guide-moi !
@@ -8,7 +9,9 @@ import type { ProtocoleGuide } from "@/lib/content";
 // Règles imposées par le spec :
 //  - 8 blocs colorés, ordre figé
 //  - Amorce avant le premier ":" en gras
-//  - On NE réaffiche PAS `situation` (déjà servi comme libellé de bouton)
+//  - En-tête : partie 1 de `situation` en petites capitales (sous-titre),
+//    puis `titre` = le principe de la solution (bascule du 26/08).
+//    La partie 2 de `situation` n'est PAS réaffichée (déjà lue en page 2).
 //  - Les `couleur_fond` / `couleur_texte` du JSON sont IGNORÉS — couleurs
 //    pilotées par ce composant.
 // ----------------------------------------------------------------------------
@@ -38,11 +41,42 @@ const C = {
 /* Met en gras la partie avant le premier séparateur d'amorce.
  * Séparateurs reconnus : ":" et tiret cadratin "—" (le premier qui apparaît).
  * Le séparateur d'origine est conservé tel quel après l'amorce en gras. */
+// Deux marques, deux usages, et rien d'autre (regles des 08 et 09/09/2026) :
+//   *...*   -> italique, RESERVE a la citation d'une etude juste apres le chiffre
+//              qu'elle appuie (« ..., *d'apres l'Inserm* »).
+//   **...** -> gras, pour accentuer quelques mots dans un corps de texte.
+// La ligne `source` ne sert qu'a la protection legale ; le credit se joue dans la phrase.
+function Ital({ texte }: { texte: string }) {
+  if (!texte.includes("*")) return <>{texte}</>;
+  const parts = texte.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g);
+  return (
+    <>
+      {parts.map((seg, i) => {
+        if (seg.startsWith("**") && seg.endsWith("**") && seg.length > 4) {
+          return (
+            <strong key={i} style={{ fontWeight: 700 }}>
+              {seg.slice(2, -2)}
+            </strong>
+          );
+        }
+        if (seg.startsWith("*") && seg.endsWith("*") && seg.length > 2) {
+          return (
+            <em key={i} style={{ fontStyle: "italic" }}>
+              {seg.slice(1, -1)}
+            </em>
+          );
+        }
+        return <React.Fragment key={i}>{seg}</React.Fragment>;
+      })}
+    </>
+  );
+}
+
 function LigneAvecAmorce({ texte }: { texte: string }) {
   const iColon = texte.indexOf(":");
   const iDash = texte.indexOf("—");
   const candidats = [iColon, iDash].filter((i) => i !== -1);
-  if (candidats.length === 0) return <>{texte}</>;
+  if (candidats.length === 0) return <Ital texte={texte} />;
   const i = Math.min(...candidats);
   const sep = texte[i];
   return (
@@ -50,7 +84,7 @@ function LigneAvecAmorce({ texte }: { texte: string }) {
       <strong style={{ fontWeight: 700 }}>
         {texte.slice(0, i).trim()} {sep}
       </strong>
-      {texte.slice(i + 1)}
+      <Ital texte={texte.slice(i + 1)} />
     </>
   );
 }
@@ -165,7 +199,23 @@ export function ProtocoleView({ protocole }: { protocole: ProtocoleGuide }) {
   const p = protocole;
   return (
     <div style={{ padding: "14px 16px 80px" }}>
-      {/* Titre seul — NE PAS afficher p.situation ici (doublon) */}
+      {/* Sous-titre = partie 1 de `situation` : le parent retrouve d'un coup
+          d'oeil la situation sur laquelle il vient de cliquer. */}
+      <div
+        style={{
+          fontSize: 10,
+          color: GUIDE_MUTED,
+          letterSpacing: ".08em",
+          textTransform: "uppercase",
+          fontWeight: 600,
+          lineHeight: 1.3,
+          margin: "0 0 6px",
+        }}
+      >
+        {parseSituation(p.situation).firstPart}
+      </div>
+
+      {/* Titre = le principe de la solution */}
       <h1
         style={{
           fontSize: 17,
@@ -186,7 +236,7 @@ export function ProtocoleView({ protocole }: { protocole: ProtocoleGuide }) {
         bg={C.cequisepasse.bg}
         accent={C.cequisepasse.accent}
       >
-        {p.explication}
+        <Ital texte={p.explication} />
       </EncartSimple>
 
       {/* 2. Pour toi, parent */}
@@ -249,7 +299,7 @@ export function ProtocoleView({ protocole }: { protocole: ProtocoleGuide }) {
         bg={C.principe.bg}
         accent={C.principe.accent}
       >
-        {p.principe}
+        <Ital texte={p.principe} />
       </EncartSimple>
 
       {/* 7. Erreurs à éviter — croix rouges */}
