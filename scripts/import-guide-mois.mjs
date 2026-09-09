@@ -19,8 +19,16 @@
 // Idempotent : supprime module='guide' du mois visé, puis réinsère.
 // Ne touche PAS aux autres modules ni aux autres mois.
 //
-//   node scripts/import-guide-mois.mjs 12 --dry   → montre ce qui serait fait
-//   node scripts/import-guide-mois.mjs 12         → écrit en base
+// ⚠️ L'import remplace le module « guide » du mois. Depuis le 01/09/2026 il REFUSE
+// de tourner si la base contient une catégorie qui n'a plus de fichier dans le
+// dossier du mois : elle serait effacée. Il faut alors soit remettre le fichier,
+// soit passer --remplacer-tout en connaissance de cause.
+// Une erreur de lecture de la base arrête aussi l'import : sans réseau, l'ancienne
+// version annonçait « 0 ligne existante » et donnait l'illusion d'un mois vide.
+//
+//   node scripts/import-guide-mois.mjs 12 --dry              → montre ce qui serait fait
+//   node scripts/import-guide-mois.mjs 12                    → écrit en base
+//   node scripts/import-guide-mois.mjs 12 --remplacer-tout   → autorise la suppression
 // ===========================================================================
 
 import { config } from "dotenv";
@@ -32,6 +40,7 @@ config({ path: ".env.local", quiet: true });
 config({ path: ".env", quiet: true });
 
 const DRY = process.argv.includes("--dry");
+const REMPLACER_TOUT = process.argv.includes("--remplacer-tout");
 const MOIS = Number(process.argv.slice(2).find((a) => /^\d+$/.test(a)));
 
 if (!Number.isInteger(MOIS) || MOIS < 0 || MOIS > 24) {
@@ -159,11 +168,32 @@ async function main() {
   }
 
   const supabase = client();
-  const { data: avant } = await supabase
+
+  // Lecture de l'existant. Une erreur de lecture n'est JAMAIS traitee comme une
+  // base vide : sans reseau, l'ancienne version annoncait « 0 ligne existante »
+  // et laissait croire qu'il n'y avait rien a perdre.
+  const { data: avant, error: erreurLecture } = await supabase
     .from("content")
-    .select("data")
+    .select("categorie, data")
     .eq("mois", MOIS)
     .eq("module", "guide");
+  if (erreurLecture) {
+    if (!DRY) {
+      console.error(
+        `\n  ✗ Lecture de la base impossible → ${erreurLecture.message}` +
+          `\n    Rien n'a ete lu, donc rien ne sera ecrit. Verifier le reseau et les cles de .env.local.`,
+      );
+      process.exit(1);
+    }
+    console.log(
+      `\n  ⚠️  Base injoignable (${erreurLecture.message}).` +
+        `\n     Les controles sur les fichiers ci-dessus sont valides ; la comparaison avec la base` +
+        `\n     n'a PAS pu etre faite. Relancer la simulation depuis un poste connecte avant d'importer.`,
+    );
+    console.log("\nSimulation : rien n'a ete ecrit.");
+    return;
+  }
+
   const cadratinsBase = (avant ?? []).reduce(
     (n, r) => n + (JSON.stringify(r.data).match(/—/g) ?? []).length,
     0,
@@ -173,8 +203,33 @@ async function main() {
       (cadratinsBase ? `, dont ${cadratinsBase} tiret(s) cadratin(s) que cet import va corriger` : ""),
   );
 
+  // GARDE-FOU : une categorie presente en base et absente du dossier serait
+  // effacee par le DELETE. On refuse plutot que de perdre du contenu ecrit.
+  const surDisque = new Set(categories.map(({ json }) => json.categorie.id));
+  const enBase = new Set(
+    (avant ?? []).map((r) => r.categorie).filter((c) => c && c !== "_meta"),
+  );
+  const perdues = [...enBase].filter((c) => !surDisque.has(c)).sort();
+
+  if (perdues.length) {
+    if (!REMPLACER_TOUT) {
+      console.error(
+        `\n  ✗ IMPORT REFUSE — ${perdues.length} categorie(s) existent en base et n'ont aucun fichier` +
+          ` dans ${DOSSIER} :\n      ${perdues.join(", ")}` +
+          `\n    Cet import les effacerait. Rien n'a ete ecrit.` +
+          `\n    Soit tu remets les fichiers manquants dans le dossier du mois, soit tu relances avec` +
+          ` --remplacer-tout si tu veux vraiment que ce mois ne garde que les fichiers presents.`,
+      );
+      process.exit(1);
+    }
+    console.log(
+      `\n  ⚠️  --remplacer-tout : ${perdues.length} categorie(s) vont etre SUPPRIMEES de la base` +
+        ` (${perdues.join(", ")}).`,
+    );
+  }
+
   if (DRY) {
-    console.log("\nSimulation : rien n'a été écrit. Relancer sans --dry pour importer.");
+    console.log("\nSimulation : rien n'a ete ecrit. Relancer sans --dry pour importer.");
     return;
   }
 
