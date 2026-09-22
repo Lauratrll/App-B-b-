@@ -69,9 +69,12 @@ function SituationButton({
         borderRadius: 12,
         display: "flex",
         alignItems: "center",
-        gap: 12,
-        padding: "14px 18px",
-        width: "78%",
+        // Toute la largeur, marges serrées : une situation de 55 caractères
+        // tient sur 2 lignes (le fait, puis la phrase). À 78 %, une sur quatre
+        // passait à 3 lignes (mesuré le 22/09).
+        gap: 8,
+        padding: "14px 14px 14px 16px",
+        width: "100%",
         textDecoration: "none",
       }}
     >

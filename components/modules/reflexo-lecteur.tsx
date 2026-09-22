@@ -34,6 +34,9 @@ const INK = "#3A3228";
 const EUCAL = "#6f5f52";
 // Écran de conclusion : le temps de lire la phrase de fin, sans se presser.
 const CONCLUSION_DUR = 7000;
+// Écran gardé allumé encore 3 min après l'arrêt de la lecture (fin ou pause) :
+// le parent relance sans avoir à déverrouiller.
+const GARDER_ALLUME_APRES = 3 * 60 * 1000;
 // Vitesse de lecture réglable (choix du parent). Elle a remplacé la respiration
 // entre les étapes le 09/09/2026 : « +3 s / +6 s » demandait de comprendre où la
 // pause allait s'insérer, là où « 0,5× » se lit sans explication. Et surtout, le
@@ -2012,6 +2015,49 @@ export function ReflexoLecteur({
   useEffect(() => {
     playingRef.current = playing;
   }, [playing]);
+
+  // ÉCRAN ALLUMÉ : le parent a les deux mains sur bébé, il ne doit pas avoir à
+  // retoucher le téléphone. Tant que le lecteur est ouvert, l'écran ne se met
+  // pas en veille pendant la lecture, ni pendant GARDER_ALLUME_APRES une fois
+  // la lecture arrêtée (fin ou pause) : de quoi relancer sans déverrouiller.
+  // Passé ce délai sans lecture, on rend la main au réglage du téléphone.
+  // Navigateur sans Wake Lock (anciens iOS) : rien ne se passe, sans erreur.
+  const [garderAllume, setGarderAllume] = useState(true);
+  useEffect(() => {
+    if (playing) {
+      setGarderAllume(true);
+      return;
+    }
+    const t = setTimeout(() => setGarderAllume(false), GARDER_ALLUME_APRES);
+    return () => clearTimeout(t);
+  }, [playing]);
+  useEffect(() => {
+    if (!garderAllume || !("wakeLock" in navigator)) return;
+    let verrou: WakeLockSentinel | null = null;
+    let fini = false;
+    const demander = async () => {
+      if (fini || document.visibilityState !== "visible") return;
+      try {
+        const v = await navigator.wakeLock.request("screen");
+        if (fini) v.release().catch(() => {});
+        else verrou = v;
+      } catch {
+        // Refus (économie d'énergie, onglet caché…) : on n'insiste pas.
+      }
+    };
+    // Le téléphone relâche le verrou quand l'app passe en arrière-plan : on le
+    // redemande au retour.
+    const auRetour = () => {
+      if (document.visibilityState === "visible") demander();
+    };
+    demander();
+    document.addEventListener("visibilitychange", auRetour);
+    return () => {
+      fini = true;
+      document.removeEventListener("visibilitychange", auRetour);
+      verrou?.release().catch(() => {});
+    };
+  }, [garderAllume]);
 
   // Mesure de la durée totale (hors production) : on prépare chaque étape à la
   // suite, sans rien jouer, et on additionne les durées que le moteur calcule
