@@ -12,7 +12,7 @@
       "categorie": "alim",
       "situation": "Le jeu à la place du repas / Il joue, il ne mange pas",
       "titre": "Une durée tenable et une fin nette",
-      "explication": "À dix-neuf mois, ton enfant reste volontiers à table, mais son intérêt pour ce qu'il y a dans l'assiette s'épuise bien avant que la table soit débarrassée. Il se met alors à trier, écraser, empiler, faire rouler les petits pois. Ce n'est pas de la provocation : c'est une main qui a envie d'explorer pendant qu'une bouche n'a plus faim. Le moment où le jeu commence est presque toujours le moment exact où la faim s'est arrêtée, et c'est une information précieuse plutôt qu'un problème.",
+      "explication": "Il a mangé trois cuillères, et depuis 10 minutes il fait rouler ses petits pois un par un. À dix-neuf mois, ton enfant reste volontiers à table, mais son intérêt pour ce qu'il y a dans l'assiette s'épuise bien avant que la table soit débarrassée. Il se met alors à trier, écraser, empiler, faire rouler les petits pois. Ce n'est pas de la provocation : c'est une main qui a envie d'explorer pendant qu'une bouche n'a plus faim. Le moment où le jeu commence est presque toujours le moment exact où la faim s'est arrêtée, et c'est une information précieuse plutôt qu'un problème.",
       "ancrage": "Le jeu n'est pas ce qui l'empêche de manger, c'est ce qui suit le moment où il a fini. Tu peux t'appuyer sur ce signal au lieu de lutter contre lui.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -57,7 +57,7 @@
       "categorie": "alim",
       "situation": "La faim d'après le repas / Il réclame 10 minutes après",
       "titre": "Quatre rendez-vous et rien entre",
-      "explication": "Ce n'est presque jamais une vraie faim. Un enfant de dix-neuf mois quitte souvent la table sans avoir beaucoup mangé, parce qu'autre chose l'appelait, puis la sensation revient une fois qu'il est calmé, ou qu'il s'ennuie, ou qu'il voit un placard s'ouvrir. Si le grignotage répond à chaque fois, la faim n'a plus le temps de monter jusqu'au repas suivant et le cercle se referme. Les repères français tiennent en une phrase simple : quatre prises par jour, petit déjeuner, déjeuner, goûter, dîner, et rien entre les deux.",
+      "explication": "Il a quitté la table sans presque rien manger, et il tire déjà sur la porte du placard. Ce n'est presque jamais une vraie faim. Un enfant de dix-neuf mois quitte souvent la table sans avoir beaucoup mangé, parce qu'autre chose l'appelait, puis la sensation revient une fois qu'il est calmé, ou qu'il s'ennuie, ou qu'il voit un placard s'ouvrir. Si le grignotage répond à chaque fois, la faim n'a plus le temps de monter jusqu'au repas suivant et le cercle se referme. Les repères français tiennent en une phrase simple : quatre prises par jour, petit déjeuner, déjeuner, goûter, dîner, et rien entre les deux.",
       "ancrage": "Tu ne le prives de rien en refermant la table. Tu lui rends la faim du repas suivant, ce qui est exactement ce qui manque en ce moment.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -74,7 +74,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : accueillir la demande sans céder",
+        "titre": "Accueillir la demande sans céder",
         "etapes": [
           "S'accroupir à sa hauteur : la demande se reçoit face à face, pas depuis l'évier.",
           "Le prendre un moment : un câlin court répond souvent mieux qu'un biscuit à ce qu'il réclame.",
@@ -103,7 +103,7 @@
       "categorie": "alim",
       "situation": "Le repas en mouvement / Il mange en courant partout",
       "titre": "Le repas a un lieu, et il ne bouge pas",
-      "explication": "À dix-neuf mois, marcher, grimper et courir sont devenus si faciles qu'ils prennent le pas sur tout le reste, y compris sur la faim. L'enfant part avec son morceau de pain, revient, repart. La difficulté n'est pas seulement que le repas s'éternise : quand le corps se déplace, la coordination entre le fait d'avaler et celui de respirer devient moins précise, et le morceau passe plus facilement de travers. C'est la raison pour laquelle les repères officiels demandent que l'enfant soit assis et sous le regard d'un adulte pendant tout le repas.",
+      "explication": "Il part avec son morceau de pain, fait le tour du canapé, revient, repart. À dix-neuf mois, marcher, grimper et courir sont devenus si faciles qu'ils prennent le pas sur tout le reste, y compris sur la faim. L'enfant part avec son morceau de pain, revient, repart. La difficulté n'est pas seulement que le repas s'éternise : quand le corps se déplace, la coordination entre le fait d'avaler et celui de respirer devient moins précise, et le morceau passe plus facilement de travers. C'est la raison pour laquelle les repères officiels demandent que l'enfant soit assis et sous le regard d'un adulte pendant tout le repas.",
       "ancrage": "Ce n'est pas une question d'obéissance, c'est une question de sécurité, et cela rend la règle plus facile à tenir. Tu peux la dire une fois pour toutes, sans avoir à la défendre.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -120,7 +120,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : ramener le corps à table",
+        "titre": "Ramener le corps à table",
         "etapes": [
           "Le laisser courir avant : 10 minutes de mouvement libre juste avant, le corps arrive vidé de son trop-plein.",
           "Le porter jusqu'à sa chaise : le trajet dans les bras marque le passage mieux qu'un appel de loin.",
@@ -149,7 +149,7 @@
       "categorie": "alim",
       "situation": "Le manque d'eau / Il ne boit presque rien",
       "titre": "Rendre l'eau accessible et attirante",
-      "explication": "Beaucoup d'enfants de cet âge boivent peu à table, tout simplement parce qu'ils sont occupés ailleurs et que la soif ne se fait pas encore sentir comme chez un adulte. Une grande partie de l'eau dont ils ont besoin arrive d'ailleurs par les aliments, les soupes, les fruits et les laitages. L'eau reste la seule boisson dont ton enfant a besoin, et ce qui renseigne le mieux n'est pas la quantité versée dans son verre : ce sont ses couches, la couleur de ses urines et son entrain dans la journée.",
+      "explication": "Son verre est encore plein à la fin du repas, comme hier, comme avant-hier. Beaucoup d'enfants de cet âge boivent peu à table, tout simplement parce qu'ils sont occupés ailleurs et que la soif ne se fait pas encore sentir comme chez un adulte. Une grande partie de l'eau dont ils ont besoin arrive d'ailleurs par les aliments, les soupes, les fruits et les laitages. L'eau reste la seule boisson dont ton enfant a besoin, et ce qui renseigne le mieux n'est pas la quantité versée dans son verre : ce sont ses couches, la couleur de ses urines et son entrain dans la journée.",
       "ancrage": "Tu n'as pas à lui faire boire une quantité décidée d'avance. Tu as à rendre l'eau facile à attraper et agréable à prendre, et à savoir ce que tu regardes.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",

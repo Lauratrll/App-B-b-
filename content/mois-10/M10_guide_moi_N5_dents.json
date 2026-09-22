@@ -32,9 +32,9 @@
         "titre": "Réflexologie : accompagner les nuits difficiles",
         "etapes": [
           "Dans le rituel du soir : toujours au même moment.",
-          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
+          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
+          "La séquence « Poussées dentaires » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
+          "Ta voix tout bas pendant la séquence : toujours les mêmes mots, qui deviennent un repère.",
           "S'arrêter à sa demande : le geste doit rester agréable."
         ],
         "lien_reflexologie": {
@@ -79,14 +79,19 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : canaliser le besoin",
+        "titre": "Canaliser le besoin",
         "etapes": [
           "Offrir des supports à mordiller : anneau, linge frais, le besoin de pression est réel.",
+          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
+          "Suivre la séquence « Poussées dentaires » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
           "Nommer sans dramatiser : « tu découvres tes dents ».",
           "Un environnement calme : le grincement augmente souvent avec la tension.",
-          "Réflexologie du soir : dans le rituel, pour accompagner la détente.",
           "S'arrêter s'il se détourne : le geste doit rester agréable."
-        ]
+        ],
+        "lien_reflexologie": {
+          "id": "dents",
+          "titre": "Poussées dentaires"
+        }
       },
       "pour_aller_plus_loin": [
         "Se rappeler que c'est bénin : le grincement du jeune enfant est une phase d'exploration fréquente.",
@@ -125,14 +130,19 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : soulager avant la nuit",
+        "titre": "Soulager avant la nuit",
         "etapes": [
           "Soulager la gencive en journée : le froid et la pression réduisent la salivation réflexe.",
+          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
+          "La séquence « Poussées dentaires » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
           "Protéger la peau du menton : tamponner, sécher, appliquer un émollient simple.",
           "Un bavoir changé souvent : plutôt qu'une peau constamment humide.",
-          "Réflexologie du soir : dans le rituel, pour favoriser la détente.",
           "S'arrêter s'il se crispe : le geste doit rester agréable."
-        ]
+        ],
+        "lien_reflexologie": {
+          "id": "dents",
+          "titre": "Poussées dentaires"
+        }
       },
       "pour_aller_plus_loin": [
         "Distinguer la salive d'une vraie toux : une toux qui persiste en journée, sèche ou grasse, avec fièvre ou gêne respiratoire, est autre chose, et elle se montre.",
@@ -171,7 +181,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : l'application de la crème",
+        "titre": "L'application de la crème",
         "etapes": [
           "Réchauffer la crème dans tes mains : avant de l'appliquer.",
           "Application lente et enveloppante : à mains pleines, pression douce et constante, sans frotter.",
@@ -208,7 +218,7 @@
         "titre": "Action immédiate : court et prévisible",
         "etapes": [
           "Toujours au même moment : la prévisibilité désamorce ce que la surprise déclenche.",
-          "Un geste très court : trois à cinq secondes suffisent, c'est l'habitude qui compte.",
+          "Un geste très court : 3 à 5 secondes suffisent, c'est l'habitude qui compte.",
           "Une brosse souple, ou un linge doux : selon ce qu'il accepte.",
           "Une trace de dentifrice fluoré, si tu en utilises : de la largeur de la brosse, ou de l'eau seule, cela convient aussi.",
           "S'arrêter dès qu'il se braque : jamais de bouche ouverte de force."
@@ -217,7 +227,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : en faire un jeu",
+        "titre": "En faire un jeu",
         "etapes": [
           "L'imitation d'abord : se brosser les dents devant lui.",
           "Lui donner une brosse à lui : pour qu'il joue et mâchouille pendant que tu passes la tienne.",

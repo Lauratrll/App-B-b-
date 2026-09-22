@@ -32,10 +32,10 @@
         "titre": "Réflexologie : apaiser la bouche et la mâchoire",
         "etapes": [
           "Dans le calme, à distance des repas : bébé sur le dos, pieds nus, dans une pièce à bonne température.",
-          "Réchauffer ses pieds : les tenir entiers dans tes paumes, immobiles.",
-          "Zone de la bouche : à la base du gros orteil, appui léger et maintenu, puis on relâche.",
-          "Zone des dents et de la mâchoire : sur le dessus du pied, autour de l'ongle du gros orteil, en glissant doucement de part et d'autre.",
-          "S'arrêter à sa demande : un pied retiré, une crispation, on arrête sans insister."
+          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
+          "Suivre la séquence « Poussées dentaires » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
+          "Ta voix tout bas pendant la séquence : toujours les mêmes mots, qui deviennent un repère.",
+          "S'arrêter à sa demande : un mouvement de retrait, une crispation, on arrête sans insister."
         ],
         "lien_reflexologie": {
           "id": "dents",
@@ -79,7 +79,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : traverser la phase",
+        "titre": "Traverser la phase",
         "etapes": [
           "Un repas court : quelques minutes, sans objectif de quantité.",
           "Bébé assis, tronc droit : toujours, et toujours sous surveillance d'un adulte.",
@@ -128,9 +128,9 @@
         "titre": "Réflexologie : accompagner la nuit",
         "etapes": [
           "Dans le rituel du soir : toujours au même moment, après le bain.",
-          "Réchauffer ses pieds : les tenir entiers dans tes paumes, immobiles.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
+          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
+          "La séquence « Sommeil agité » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
+          "Garder ta voix posée : quelques mots toujours identiques, ou un air fredonné.",
           "S'arrêter à sa demande : le geste doit rester agréable."
         ],
         "lien_reflexologie": {
@@ -139,7 +139,7 @@
         }
       },
       "pour_aller_plus_loin": [
-        "Soulager la gencive en journée : le froid et la pression agissent au moment où ils sont appliqués, pas huit heures plus tard.",
+        "Soulager la gencive en journée : le froid et la pression agissent au moment où ils sont appliqués, pas 8 heures plus tard.",
         "Tenir un relevé sur dix jours : les réveils et ce que tu observes en journée, côte à côte, rendent la cause évidente.",
         "Se rappeler la trajectoire : les nuits se réorganisent en ce moment, et cela prend des semaines.",
         "Se relayer : une cause qu'on met du temps à identifier coûte des nuits, autant les partager."
@@ -175,7 +175,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : enrichir l'exploration",
+        "titre": "Enrichir l'exploration",
         "etapes": [
           "Varier les textures : tissu, bois lisse, silicone, quelques objets seulement plutôt que dix.",
           "Nommer ce qu'il touche : « c'est dur », « c'est doux », les mots accompagnent la découverte.",
@@ -221,7 +221,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : un soin qu'il accepte",
+        "titre": "Un soin qu'il accepte",
         "etapes": [
           "Le prévenir avant de commencer : « je vais mettre de la crème », toujours la même phrase.",
           "Réchauffer la crème entre tes doigts : une crème froide sur une peau irritée fait sursauter.",

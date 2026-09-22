@@ -100,6 +100,26 @@ méthode ne marche pas. Prévoir explicitement la sortie basse (« sinon, l'habi
 Il peut porter une phrase qui tient chaud pour la journée : *« Ce qu'il gardera de ces années-là,
 ce n'est pas l'heure à laquelle vous êtes arrivés. »*
 
+**Nommer ce que le parent ressent, là où c'est propice, pas partout ⭐ — arrêté le 22 septembre
+2026.** Décision de Laura, sur la ligne « Se donner le droit d'être touchée : ce petit rejet fait mal,
+le dire à quelqu'un allège » (M12, retrouvailles) : « ça j'aime. C'est important. Garder, et mettre
+des émotions sur d'autres protocoles quand c'est propice. (mais pas partout !!) » Une ligne qui
+reconnaît que le parent a le droit d'être blessé, vexé ou inquiet a sa place quand la scène le touche
+directement : un rejet, une préférence, une comparaison, une colère. Elle n'a rien à faire dans un
+protocole purement pratique. Une ligne par protocole au plus, jamais en ouverture de liste.
+
+**Le parent peut s'excuser et se montrer vulnérable ⭐ — arrêté le 22 septembre 2026.** Décision de
+Laura (M12, colère) : savoir s'excuser auprès de son enfant, ne pas l'incriminer pour ses propres
+ressentis, mettre des mots sur ses émotions. Formulation type : « j'ai crié, j'étais à bout, ce n'est
+pas de ta faute ». Deux garde-fous : l'excuse reste courte et l'adulte garde la responsabilité, on
+ne demande jamais à l'enfant de consoler le parent ni de pardonner.
+
+**Une comparaison n'est jamais un sujet de motricité seule.** Décision de Laura (M12, comparaison des
+étapes) : le sujet, c'est le parent qui compare, ne voit plus les progrès de son enfant à leur juste
+valeur, lui met la pression ou se crée une angoisse de retard, et cela vaut pour la marche comme pour
+le langage, les repas ou les contacts avec les autres. Un protocole de comparaison ne doit pas se lire
+comme un protocole de motricité.
+
 ### Ce que la règle n'autorise pas
 
 Elle n'autorise ni la flatterie, ni le réconfort creux, ni la promesse. « Tu fais de ton mieux » et

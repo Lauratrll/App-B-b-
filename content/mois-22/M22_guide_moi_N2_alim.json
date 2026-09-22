@@ -12,7 +12,7 @@
       "categorie": "alim",
       "situation": "L'appétit après le changement / Il ne mange plus depuis",
       "titre": "L'appétit dit ce qu'il ne sait pas dire",
-      "explication": "À vingt-deux mois, ton enfant comprend beaucoup plus qu'il ne peut exprimer, et ce qui le traverse ressort par le corps : le sommeil, la propreté en cours d'acquisition, et l'appétit. Un déménagement, l'arrivée d'un bébé, une nouvelle nounou, une séparation, une hospitalisation, même un simple changement de chambre : tout cela peut couper la faim pendant plusieurs jours. Ce n'est pas un caprice et ce n'est pas de la manipulation. C'est la seule façon dont il dispose pour dire que quelque chose a bougé.",
+      "explication": "Depuis le déménagement, il picore. Trois bouchées, et il descend de sa chaise. À vingt-deux mois, ton enfant comprend beaucoup plus qu'il ne peut exprimer, et ce qui le traverse ressort par le corps : le sommeil, la propreté en cours d'acquisition, et l'appétit. Un déménagement, l'arrivée d'un bébé, une nouvelle nounou, une séparation, une hospitalisation, même un simple changement de chambre : tout cela peut couper la faim pendant plusieurs jours. Ce n'est pas un caprice et ce n'est pas de la manipulation. C'est la seule façon dont il dispose pour dire que quelque chose a bougé.",
       "ancrage": "Ce n'est pas le repas qu'il faudrait réparer, c'est ce qui a changé autour. Tu peux poser la question de l'assiette et t'occuper d'abord de ce qui l'a secoué.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -75,7 +75,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : lui rendre sa place d'aîné",
+        "titre": "Lui rendre sa place d'aîné",
         "etapes": [
           "Un temps à deux chaque jour : 10 minutes sans le petit, prévisibles, et il les attend.",
           "Le porter encore : il a grandi, il a toujours besoin de tes bras, et il n'ose plus toujours demander.",
@@ -148,7 +148,7 @@
       "categorie": "alim",
       "situation": "Les grandes quantités / Il se ressert sans fin",
       "titre": "Ralentir pour que la satiété arrive",
-      "explication": "La sensation d'être rassasié met un certain temps à remonter jusqu'au cerveau. Quand un enfant mange très vite, il a le temps d'avaler beaucoup avant que ce signal arrive, et il redemande sincèrement, sans tricher. À vingt-deux mois, plusieurs choses accélèrent le repas : une grande faim mal placée dans la journée, l'envie de retourner jouer, ou un repas trop court pour être vécu. Ce sur quoi on agit vraiment, c'est le rythme du repas, jamais la quantité qu'on autorise ou qu'on refuse.",
+      "explication": "Il a fini son assiette en 5 minutes et il tend déjà son bol en redemandant. La sensation d'être rassasié met un certain temps à remonter jusqu'au cerveau. Quand un enfant mange très vite, il a le temps d'avaler beaucoup avant que ce signal arrive, et il redemande sincèrement, sans tricher. À vingt-deux mois, plusieurs choses accélèrent le repas : une grande faim mal placée dans la journée, l'envie de retourner jouer, ou un repas trop court pour être vécu. Ce sur quoi on agit vraiment, c'est le rythme du repas, jamais la quantité qu'on autorise ou qu'on refuse.",
       "ancrage": "Tu n'as pas à rationner son assiette. Tu as à ralentir le repas assez pour que son corps ait le temps de lui dire qu'il a assez mangé.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -187,8 +187,7 @@
         "Le faire manger seul en avance pour aller plus vite : le repas raccourcit et la satiété n'a pas le temps d'arriver.",
         "Compenser le lendemain en servant moins : l'alternance entre restriction et abondance accélère encore le repas."
       ],
-      "consulter_si": "Consulter si : sa courbe de poids s'écarte nettement de sa ligne habituelle sur plusieurs mois, s'il réclame à manger en permanence y compris la nuit, si la faim s'accompagne d'une soif importante et de couches très lourdes, ou s'il vomit après les repas → pédiatre, médecin traitant ou PMI. Le suivi de la courbe par un professionnel est le seul repère fiable, jamais la sensation d'un repas.",
-      "source": "Source : respecter l'appétit de l'enfant, ne pas forcer et ne pas restreindre, repères pédiatriques mpedia.fr (AFPA) ; quatre repas par jour et repères alimentaires des enfants de 1 à 3 ans, Assurance Maladie, ameli.fr ; surveillance de la courbe de croissance, Haute Autorité de Santé."
+      "consulter_si": "Consulter si : sa courbe de poids s'écarte nettement de sa ligne habituelle sur plusieurs mois, s'il réclame à manger en permanence y compris la nuit, si la faim s'accompagne d'une soif importante et de couches très lourdes, ou s'il vomit après les repas → pédiatre, médecin traitant ou PMI. Le suivi de la courbe par un professionnel est le seul repère fiable, jamais la sensation d'un repas."
     }
   ]
 }

@@ -29,7 +29,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : lui donner les conditions",
+        "titre": "Lui donner les conditions",
         "etapes": [
           "Un grand sol dégagé et ferme : ni tapis mou, ni coussins, ni parc trop étroit.",
           "Le poser sur le ventre plusieurs fois par jour : éveillé, surveillé, quelques minutes à la fois.",
@@ -78,9 +78,9 @@
         "titre": "Réflexologie : après la colère",
         "etapes": [
           "Attendre que les pleurs baissent : le geste vient après la crise, jamais pendant.",
+          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
+          "Suivre la séquence « Frustration motrice » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
           "L'installer contre toi, pieds libres : assis sur tes genoux ou allongé face à toi.",
-          "Envelopper ses pieds dans tes paumes : immobiles, le temps de quelques respirations.",
-          "Balayer la voûte du talon vers les orteils : lentement, pression douce et régulière.",
           "Finir par de longs effleurements sur les mollets : pour relâcher des jambes qui ont beaucoup poussé."
         ],
         "lien_reflexologie": {
@@ -89,7 +89,7 @@
         }
       },
       "pour_aller_plus_loin": [
-        "Répéter très souvent et très brièvement : cinq fois trente secondes valent mieux qu'une séance de 5 minutes.",
+        "Répéter très souvent et très brièvement : cinq fois 30 secondes valent mieux qu'une séance de 5 minutes.",
         "Proposer des hauteurs différentes : un appui bas, puis un peu plus haut, à mesure qu'il réussit.",
         "Poser un tapis dans sa zone d'entraînement : les chutes sur les fesses font partie du programme.",
         "Regarder le progrès sur deux semaines : il descend d'abord en tombant, puis en se retenant, puis proprement."
@@ -107,9 +107,9 @@
     {
       "categorie": "motricite",
       "situation": "Les blocages sous les meubles / Il se coince et ne sait pas repartir",
-      "titre": "Attendre dix secondes avant d'intervenir",
+      "titre": "Attendre 10 secondes avant d'intervenir",
       "explication": "Il avance sur le ventre, se glisse sous le canapé, arrive au bout et ne sait plus repartir. Se déplacer vers l'avant s'acquiert bien avant la marche arrière, qui demande de pousser au lieu de tirer et de coordonner autrement les appuis. Il se retrouve donc régulièrement bloqué là où il est entré tout seul. Ces quelques secondes de blocage sont précisément le moment où le mouvement suivant se cherche : c'est en poussant dans tous les sens qu'il finit par trouver la marche arrière.",
-      "ancrage": "Entendre son enfant hurler sous un meuble donne envie de le dégager immédiatement, et personne ne va te reprocher de le faire. Lui laisser dix secondes d'essai n'est pas de l'indifférence, c'est ce qui lui apprend à sortir seul la prochaine fois.",
+      "ancrage": "Entendre son enfant hurler sous un meuble donne envie de le dégager immédiatement, et personne ne va te reprocher de le faire. Lui laisser 10 secondes d'essai n'est pas de l'indifférence, c'est ce qui lui apprend à sortir seul la prochaine fois.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -125,7 +125,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : préparer la marche arrière",
+        "titre": "Préparer la marche arrière",
         "etapes": [
           "Beaucoup de temps sur le ventre, sur sol ferme : c'est là que se construit la poussée des bras.",
           "Poser un objet légèrement derrière son épaule : il apprend à pivoter avant d'apprendre à reculer.",
@@ -153,25 +153,25 @@
     {
       "categorie": "motricite",
       "situation": "Le déplacement sur les fesses / Il avance assis et ne rampe jamais",
-      "titre": "Une variante connue, rien à corriger",
-      "explication": "Il ne rampe pas et ne se met pas à quatre pattes : assis, il pousse sur ses mains et sur ses talons et avance ainsi dans toute la pièce. Ce mode de déplacement porte un nom chez les professionnels, il concerne une part non négligeable des enfants, et il revient souvent dans une même famille. Les enfants concernés se mettent debout et marchent, parfois quelques semaines plus tard que les autres, sans que cela change quoi que ce soit ensuite. Il n'y a donc rien à redresser dans sa façon d'avancer.",
-      "ancrage": "C'est le mode de déplacement qui déclenche le plus de remarques, et il n'appelle aucune correction. Ce qu'il te demande, c'est de l'espace et du temps, pas une méthode.",
+      "titre": "Lui rendre du temps au sol",
+      "explication": "Il ne rampe pas et ne se met pas à quatre pattes : assis, il pousse sur ses mains et sur ses talons et traverse ainsi toute la pièce. Autour de toi, on dit que c'est une façon d'avancer comme une autre. Les kinésithérapeutes et les psychomotriciens qui suivent les tout-petits le connaissent bien. Il n'est pas grave en soi, mais ils le relient souvent à deux choses : peu de temps passé sur le ventre, et une assise installée avant que l'enfant sache s'y mettre seul. Assis, ces enfants sont stables, mais ils ne découvrent pas le chemin pour en sortir : basculer sur le côté, prendre appui sur une main, passer à quatre pattes. Ce n'est la faute de personne, beaucoup de parents assoient leur bébé en toute confiance. Et à neuf mois, il est encore temps de lui rendre ce qui lui manque, par le jeu.",
+      "ancrage": "Tu n'as rien abîmé. Ce qu'il lui faut maintenant, c'est du temps au sol et des occasions de sortir de l'assise par lui-même, pas un exercice.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate : le laisser faire",
+        "titre": "Action immédiate : lui rendre le sol",
         "etapes": [
-          "Ne pas modifier sa position : ni le remettre à quatre pattes, ni l'empêcher d'avancer assis.",
-          "Dégager un grand espace ferme : il avance mieux sur une surface qui ne s'enfonce pas.",
-          "Placer les objets à distance : il ira vers eux, à sa manière.",
-          "Continuer à le poser sur le ventre en jeu : sans en faire un exercice, quelques minutes à la fois.",
+          "Arrêter de l'installer assis : le poser sur le dos ou sur le ventre, et le laisser trouver seul le chemin vers l'assise.",
+          "Proposer le ventre en jeu, chaque jour : quelques minutes à la fois, avec toi au sol, face à lui.",
+          "Placer les objets sur le côté et un peu en hauteur : pour les attraper, il doit tourner le buste et passer sur une main.",
+          "Dégager un grand espace ferme : un sol qui ne s'enfonce pas facilite les passages d'une position à l'autre.",
           "Vérifier qu'il utilise ses deux côtés : une poussée toujours du même côté se signale en consultation."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : varier ce que son corps rencontre",
+        "titre": "Varier ce que son corps rencontre",
         "etapes": [
           "Alterner les positions d'éveil : sur le dos, sur le ventre, sur le côté, assis quand il y arrive seul.",
           "Changer de surface dans la journée : tapis, parquet, herbe, la sensation guide le mouvement.",
@@ -181,20 +181,20 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "En parler à la consultation de suivi : c'est une façon d'avancer bien identifiée, et elle se signale simplement.",
-        "Demander s'il y en a eu dans la famille : la réponse rassure souvent d'un coup.",
+        "En parler à la consultation de suivi : le médecin peut orienter vers un kinésithérapeute ou un psychomotricien, qui proposera des jeux adaptés.",
+        "Jouer sur des coussins et des pentes douces : monter, descendre, basculer sur le côté, tout ce qui l'amène à changer de position.",
         "Écarter trotteur et youpala : ils sont déconseillés et ne font marcher personne plus tôt.",
-        "Regarder la progression, pas la forme : ce qui compte est qu'il aille plus loin et plus vite qu'il y a un mois."
+        "Regarder les passages, pas seulement le déplacement : ce qui compte est qu'il apprenne à entrer et sortir seul de chaque position."
       ],
-      "principe": "Deux enfants en bonne santé peuvent atteindre la même compétence par deux chemins différents. Ce qui s'observe, c'est le progrès dans le temps, pas la ressemblance avec le voisin.",
+      "principe": "Un enfant qui atteint seul chaque position apprend aussi à en sortir. Le temps au sol, sur le dos et sur le ventre, est ce qui construit ces passages, et il n'est jamais trop tard pour le lui rendre.",
       "erreurs_a_eviter": [
-        "Le replacer à quatre pattes ou l'empêcher d'avancer assis : il perd du temps de déplacement sans rien gagner.",
-        "Chercher à corriger sa façon de se déplacer : rien ne le justifie, et la contrainte gêne le mouvement.",
+        "L'installer assis pour qu'il joue tranquille : il y reste, mais il n'apprend pas à en sortir.",
+        "Le mettre toi-même à quatre pattes : le chemin se construit en jouant, pas en plaçant le corps.",
         "Utiliser un trotteur : il se déplace sans construire l'équilibre, et l'engin cause des accidents graves.",
-        "Comparer sa progression à celle d'un autre enfant : la comparaison alimente une inquiétude que rien ne justifie."
+        "Te reprocher de l'avoir assis : c'est une pratique très répandue, et ce qui compte est ce que tu fais maintenant."
       ],
-      "consulter_si": "Consulter si : bébé ne se déplace d'aucune manière vers dix mois, ne tient pas assis seul, ne se sert que d'un seul côté du corps, paraît anormalement mou ou raide, ou perd une compétence qu'il avait acquise → pédiatre ou PMI, qui orientera si besoin.",
-      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), les étapes du développement et la motricité libre."
+      "consulter_si": "Consulter si : bébé ne se déplace d'aucune manière vers dix mois, ne passe jamais seul de l'assise au ventre ou à quatre pattes, ne se sert que d'un seul côté du corps, paraît anormalement mou ou raide, ou perd une compétence qu'il avait acquise → pédiatre ou PMI, qui orientera si besoin vers un kinésithérapeute ou un psychomotricien.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), la motricité libre et les positions que l'enfant atteint seul."
     }
   ]
 }

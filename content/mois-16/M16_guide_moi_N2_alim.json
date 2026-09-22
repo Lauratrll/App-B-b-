@@ -12,7 +12,7 @@
       "categorie": "alim",
       "situation": "La cuillère refusée / Il repousse ma main",
       "titre": "Le laisser faire sans qu'il mange moins",
-      "explication": "À seize mois, ton enfant a compris qu'il peut faire à ta place, et repousser ta main est sa façon de le dire avant d'avoir les mots. Le problème n'est pas cette revendication, elle est saine : c'est que son geste est encore lent et coûteux. Il se fatigue avant d'avoir mangé, et il abandonne le repas non pas rassasié mais épuisé par l'effort. C'est là que la quantité réellement avalée peut chuter, alors même que tout se passe bien du point de vue de l'apprentissage.",
+      "explication": "Il repousse ta main dès qu'elle approche. Un quart d'heure plus tard, il a porté trois cuillères à sa bouche et il quitte la table. À seize mois, ton enfant a compris qu'il peut faire à ta place, et repousser ta main est sa façon de le dire avant d'avoir les mots. Le problème n'est pas cette revendication, elle est saine : c'est que son geste est encore lent et coûteux. Il se fatigue avant d'avoir mangé, et il abandonne le repas non pas rassasié mais épuisé par l'effort.",
       "ancrage": "Tu n'as pas à choisir entre le laisser faire et qu'il mange assez. Ces deux choses tiennent ensemble si tu déplaces ton aide au lieu de la retirer.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -51,14 +51,13 @@
         "Compenser chaque repas raté par un biberon : la faim ne remonte plus jusqu'au repas d'après.",
         "Attendre qu'il demande de l'aide : à cet âge il abandonne plus volontiers qu'il ne demande."
       ],
-      "consulter_si": "Consulter si : ton enfant perd du poids, si sa courbe s'infléchit d'un rendez-vous à l'autre, s'il abandonne tous ses repas au bout de quelques bouchées depuis plusieurs semaines, s'il est pâle ou se fatigue vite → pédiatre, médecin traitant ou PMI. Une diététicienne pédiatrique peut évaluer les apports réels si le doute persiste.",
-      "source": "Source : laisser l'enfant manger seul et ne pas forcer les quantités, repères pédiatriques mpedia.fr (AFPA) ; surveillance de la courbe de croissance, Haute Autorité de Santé ; repères alimentaires des enfants de 1 à 3 ans, Santé publique France, programme national nutrition santé."
+      "consulter_si": "Consulter si : ton enfant perd du poids, si sa courbe s'infléchit d'un rendez-vous à l'autre, s'il abandonne tous ses repas au bout de quelques bouchées depuis plusieurs semaines, s'il est pâle ou se fatigue vite → pédiatre, médecin traitant ou PMI. Une diététicienne pédiatrique peut évaluer les apports réels si le doute persiste."
     },
     {
       "categorie": "alim",
       "situation": "Les féculents seuls / Il ne veut ni viande ni poisson",
       "titre": "Faire entrer la protéine autrement",
-      "explication": "Les féculents sont doux, tendres, prévisibles et faciles à mâcher. La viande et le poisson demandent l'inverse : une texture qui résiste, un goût plus marqué, parfois des fibres qui restent en bouche. À seize mois, une bouche qui apprend encore à mâcher choisit logiquement le plus simple. Il y a aussi une bonne nouvelle dans les repères français : la portion attendue à cet âge est petite, de l'ordre de trente grammes de viande ou de poisson par jour, soit environ six cuillères à café, ou le tiers d'un œuf.",
+      "explication": "Il a mangé toutes les pâtes, et la viande est restée dans un coin de l'assiette. Comme hier. Les féculents sont doux, tendres, prévisibles et faciles à mâcher. La viande et le poisson demandent l'inverse : une texture qui résiste, un goût plus marqué, parfois des fibres qui restent en bouche. À seize mois, une bouche qui apprend encore à mâcher choisit logiquement le plus simple. Il y a aussi une bonne nouvelle dans les repères français : la portion attendue à cet âge est petite, de l'ordre de 30 g de viande ou de poisson par jour, soit environ six cuillères à café, ou le tiers d'un œuf.",
       "ancrage": "La quantité dont il a besoin est bien plus petite que celle que tu imagines. Tu peux viser une bouchée acceptée plutôt qu'une assiette finie.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -104,7 +103,7 @@
       "categorie": "alim",
       "situation": "Le repas sans fin / Il se lève à chaque bouchée",
       "titre": "Un repas court avec une fin claire",
-      "explication": "À seize mois, tenir assis relève d'un effort réel : l'attention est courte, le corps réclame du mouvement, et l'envie de retourner jouer arrive bien avant que l'assiette soit vide. Se lever puis revenir n'est pas de la provocation, c'est un enfant qui alterne entre deux besoins qu'il ne sait pas encore hiérarchiser. Le repas s'étire alors sur trois quarts d'heure, l'assiette refroidit, et tout le monde en sort épuisé sans qu'il ait mangé davantage.",
+      "explication": "Il se lève, il revient, il se relève. 45 minutes plus tard, l'assiette est froide et à moitié pleine. À seize mois, tenir assis relève d'un effort réel : l'attention est courte, le corps réclame du mouvement, et l'envie de retourner jouer arrive bien avant que l'assiette soit vide. Se lever puis revenir n'est pas de la provocation, c'est un enfant qui alterne entre deux besoins qu'il ne sait pas encore hiérarchiser. Le repas s'étire, et tout le monde en sort épuisé sans qu'il ait mangé davantage.",
       "ancrage": "Ce qui épuise tout le monde, ce n'est pas ce qu'il mange, c'est la durée. Tu peux raccourcir sans rien perdre de ce qui entre dedans.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -149,7 +148,7 @@
       "categorie": "alim",
       "situation": "Le verre des grands / Il veut boire comme nous",
       "titre": "Passer au verre et varier les façons de boire",
-      "explication": "Boire au verre ouvert est un geste plus difficile qu'il n'y paraît : incliner sans voir ce qui arrive, doser le débit avec les lèvres, et coordonner le liquide avec la respiration. À seize mois, ton enfant en a l'envie bien avant d'en avoir la précision, d'où les vagues sur la table. Les repères officiels encouragent d'ailleurs à lui proposer l'eau au verre en l'aidant : c'est en le faisant qu'il apprend, pas en attendant d'y arriver.",
+      "explication": "Il a repoussé sa tasse à bec, il a tendu la main vers ton verre, et il y a maintenant de l'eau partout. Boire au verre ouvert est un geste plus difficile qu'il n'y paraît : incliner sans voir ce qui arrive, doser le débit avec les lèvres, et coordonner le liquide avec la respiration. À seize mois, ton enfant en a l'envie bien avant d'en avoir la précision. Les repères officiels encouragent d'ailleurs à lui proposer l'eau au verre en l'aidant : c'est en le faisant qu'il apprend, pas en attendant d'y arriver.",
       "ancrage": "Ce qu'il renverse est le prix d'un geste qu'il ne peut apprendre qu'en le ratant. Tu peux réduire ce que ça coûte plutôt que repousser le moment.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",

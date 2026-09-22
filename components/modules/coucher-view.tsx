@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 import type { CoucherModule } from "@/lib/content";
 import type { Genre } from "@/lib/auth";
 
@@ -41,7 +42,7 @@ const RITUEL = [
   { bg: "#98B4C9", accent: "#2A5673" },
 ];
 
-const TEASER_REFLEXO = "Six points sur ses pieds pour relâcher tout son petit corps.";
+const TEASER_REFLEXO = "La séquence du soir, pour relâcher tout son petit corps.";
 const TEASER_BERCEUSE = "Quelques mots à murmurer pour refermer la journée.";
 
 // ----------------------------------------------------------------------------
@@ -642,6 +643,30 @@ export function CoucherView({
           {reflexo.intro ? (
             <div style={{ fontSize: 11, color: C.reflexo.label, lineHeight: 1.55, marginBottom: 9 }}>
               {p(reflexo.intro)}
+            </div>
+          ) : null}
+          {reflexo.lien_reflexologie ? (
+            <Link
+              href={`/reflexologie/${reflexo.lien_reflexologie.id}`}
+              style={{
+                display: "block",
+                textAlign: "center",
+                background: C.reflexo.accent,
+                color: "#FFFFFF",
+                fontSize: 11,
+                fontWeight: 700,
+                borderRadius: 9,
+                padding: "9px 12px",
+                textDecoration: "none",
+                marginBottom: 9,
+              }}
+            >
+              Ouvrir la séquence « {reflexo.lien_reflexologie.titre} »
+            </Link>
+          ) : null}
+          {reflexo.cloture ? (
+            <div style={{ fontSize: 10.5, fontStyle: "italic", color: C.reflexo.label, lineHeight: 1.5, marginBottom: 6 }}>
+              {p(reflexo.cloture)}
             </div>
           ) : null}
           {reflexo.etapes.map((e, i) => (

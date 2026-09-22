@@ -13,7 +13,7 @@
       "categorie": "alim",
       "situation": "Le refus de la nouveauté / Il ne goûte rien de nouveau",
       "titre": "Continuer à proposer sans insister",
-      "explication": "Vers 23 mois, beaucoup d'enfants traversent une phase de néophobie : ils refusent tout aliment nouveau, surtout les légumes et les textures inhabituelles. C'est une étape normale du développement, repérée par la recherche en nutrition pédiatrique, qui culmine entre 2 et 6 ans. À l'origine, un réflexe de prudence : en devenant autonome, l'enfant se méfie de ce qu'il ne connaît pas. Ce n'est ni un caprice ni un rejet de ta cuisine. Un aliment refusé aujourd'hui pourra être accepté après plusieurs présentations, sans pression.",
+      "explication": "Tu as posé une seule rondelle de courgette au bord de l'assiette. Il l'a vue tout de suite, et il n'a plus rien mangé. Vers 23 mois, beaucoup d'enfants traversent une phase de néophobie : ils refusent tout aliment nouveau, surtout les légumes et les textures inhabituelles. C'est une étape normale du développement, repérée par la recherche en nutrition pédiatrique, qui culmine entre 2 et 6 ans. À l'origine, un réflexe de prudence : en devenant autonome, l'enfant se méfie de ce qu'il ne connaît pas. Ce n'est ni un caprice ni un rejet de ta cuisine. Un aliment refusé aujourd'hui pourra être accepté après plusieurs présentations, sans pression.",
       "ancrage": "Ton enfant n'a pas besoin d'aimer tout de suite : il a besoin de rencontrer l'aliment plusieurs fois, sereinement. Ton calme à table pèse plus que le contenu de l'assiette.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -35,7 +35,8 @@
           "Toucher hors des repas : sentir, écraser, casser l'aliment cru, sans aucune obligation de goûter.",
           "Cuisiner ensemble : laver, mélanger, déchirer les feuilles, le contact réduit la méfiance.",
           "Nommer les couleurs et les odeurs en jouant : l'aliment devient familier avant d'être mangé.",
-          "Féliciter l'exploration, pas la consommation : « tu as senti la tomate, bravo »."
+          "Féliciter l'exploration, pas la consommation : « tu as senti la tomate, bravo ».",
+          "S'arrêter s'il se braque : le but est qu'il garde envie de revenir près de l'aliment, pas qu'il le goûte aujourd'hui."
         ]
       },
       "pour_aller_plus_loin": [
@@ -58,7 +59,7 @@
       "categorie": "alim",
       "situation": "Le petit mangeur / Il mange très peu à chaque repas",
       "titre": "Regarder la semaine, pas le repas",
-      "explication": "Après un an, la croissance ralentit nettement : l'enfant grandit moins vite qu'en première année, donc son appétit baisse. C'est physiologique. À 23 mois, il mange souvent « comme un oiseau » un jour, beaucoup le lendemain. Il régule son appétit sur plusieurs jours, pas sur un repas. Son estomac est petit, ses besoins varient selon l'énergie dépensée et les poussées de croissance. Un enfant actif, de bonne humeur et qui grandit bien mange à sa faim, même si cela te paraît peu.",
+      "explication": "Trois cuillères, et il descend. Et tout le monde autour de toi trouve qu'il ne mange rien. Après un an, la croissance ralentit nettement : l'enfant grandit moins vite qu'en première année, donc son appétit baisse. C'est physiologique. À 23 mois, il mange souvent « comme un oiseau » un jour, beaucoup le lendemain. Il régule son appétit sur plusieurs jours, pas sur un repas. Son estomac est petit, ses besoins varient selon l'énergie dépensée et les poussées de croissance. Un enfant actif, de bonne humeur et qui grandit bien mange à sa faim, même si cela te paraît peu.",
       "ancrage": "Ton inquiétude est légitime, mais forcer ne remplit pas un estomac : cela apprend à manger contre ses sensations. Tu offres, il régule, ce partage de rôles protège son appétit.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -75,17 +76,18 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : un temps de lien sans enjeu",
+        "titre": "Un temps de lien sans enjeu",
         "etapes": [
           "Un moment calme avant : un câlin ou une histoire, pour arriver détendu à table.",
           "Manger en famille, sans écran, en se parlant : le repas partagé nourrit autant que l'assiette.",
           "Montrer ton propre plaisir : manger avec appétit, sans surveiller son assiette du regard.",
-          "Après le repas, ne rien conditionner à ce qu'il a mangé : le lien reste inconditionnel."
+          "Après le repas, ne rien conditionner à ce qu'il a mangé : le lien reste inconditionnel.",
+          "Le laisser descendre quand il a fini : le lien ne se joue jamais sur les dernières bouchées."
         ]
       },
       "pour_aller_plus_loin": [
         "Poser le bon partage : le parent choisit ce qui est proposé et le cadre du repas, l'enfant décide s'il mange et en quelle quantité. Les pédiatres recommandent de ne pas forcer et de respecter l'appétit.",
-        "Lire sur sept jours : l'équilibre d'un tout-petit se juge sur plusieurs jours, jamais sur un dîner.",
+        "Lire sur sept jours : ce qui s'équilibre à cet âge s'équilibre sur la semaine, jamais sur un dîner.",
         "Proposer des aliments simples et nourrissants qu'il apprécie, sans multiplier les options qui dispersent.",
         "Se fier aux repères objectifs : énergie, humeur, sommeil et courbe de croissance disent l'essentiel."
       ],
@@ -96,14 +98,13 @@
         "Récompenser ou punir selon ce qui est mangé : donne à la nourriture un pouvoir émotionnel.",
         "Multiplier repas et grignotages « au cas où » : il n'a jamais vraiment faim à table."
       ],
-      "consulter_si": "Consulter si : perte de poids, cassure de la courbe de croissance, fatigue inhabituelle, pâleur, ou refus quasi total de s'alimenter qui dure → pédiatre ou PMI ; une diététicienne pédiatrique peut évaluer les apports. Le suivi de la courbe par un professionnel est le seul vrai juge de l'équilibre, pas la sensation d'un repas.",
-      "source": "Source : ne pas forcer, respecter l'appétit de l'enfant, petites portions, repères pédiatriques mpedia.fr (AFPA) ; suivi de la courbe de croissance : HAS."
+      "consulter_si": "Consulter si : perte de poids, cassure de la courbe de croissance, fatigue inhabituelle, pâleur, ou refus quasi total de s'alimenter qui dure → pédiatre ou PMI ; une diététicienne pédiatrique peut évaluer les apports. Le suivi de la courbe par un professionnel est le seul vrai juge de l'équilibre, pas la sensation d'un repas."
     },
     {
       "categorie": "alim",
       "situation": "Les goûts qui changent / Il rejette ce qu'il adorait",
       "titre": "Servir sans commenter le refus",
-      "explication": "À 23 mois, ton enfant peut adorer les pâtes pendant deux semaines puis les refuser du jour au lendemain : ce sont les fixations et revirements alimentaires, très courants et transitoires. Deux moteurs : son goût se développe et change, et il découvre le pouvoir de dire « non » pour s'affirmer. Ce n'est pas une régression ni un défaut d'éducation. Ces variations passent d'elles-mêmes tant qu'elles ne deviennent pas un enjeu entre vous. La constance tranquille de l'offre finit toujours par l'emporter.",
+      "explication": "Les pâtes, c'était tous les jours pendant deux semaines. Depuis hier, il n'en veut plus. À 23 mois, ton enfant peut adorer les pâtes pendant deux semaines puis les refuser du jour au lendemain : ce sont les fixations et revirements alimentaires, très courants et transitoires. Deux moteurs : son goût se développe et change, et il découvre le pouvoir de dire « non » pour s'affirmer. Ce n'est pas une régression ni un défaut d'éducation. Ces variations passent d'elles-mêmes tant qu'elles ne deviennent pas un enjeu entre vous. La constance tranquille de l'offre finit toujours par l'emporter.",
       "ancrage": "Ce n'est pas contre toi : il teste, il change, il grandit. Tu n'as pas à courir après ses goûts du jour, juste à continuer d'offrir, calmement.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -119,11 +120,13 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : le plaisir partagé à table",
+        "titre": "Le plaisir partagé à table",
         "etapes": [
           "Le manger toi-même : avec un plaisir sincère, et sans insister pour qu'il en prenne.",
           "Sentir, décrire, raconter : recréer de la curiosité autour du plat, en légèreté.",
-          "Le laisser servir, verser, choisir dans le plat commun : l'autonomie ranime l'envie."
+          "Le laisser servir, verser, choisir dans le plat commun : l'autonomie ranime l'envie.",
+          "Servir le plat au milieu de la table : qu'il se serve lui-même change souvent tout, même pour un plat refusé la veille.",
+          "Ne rien dire quand il en reprend : le commentaire, même admiratif, transforme l'aliment en enjeu."
         ]
       },
       "pour_aller_plus_loin": [
@@ -145,7 +148,7 @@
       "categorie": "alim",
       "situation": "Le repas qui ne tient pas / Il se lève et il jette",
       "titre": "Un cadre court et des règles stables",
-      "explication": "À 23 mois, rester assis longtemps est un vrai effort : son attention est courte et son besoin de bouger immense. Se lever, jeter la nourriture ou refuser la chaise n'est pas de la provocation. C'est souvent sa façon de dire « j'ai fini », « je m'ennuie » ou « je teste ce qui se passe si… ». Jeter le fascine aussi par la cause à effet qu'il découvre. Il n'a encore ni les mots ni le contrôle de soi pour faire autrement. Un cadre calme et court l'aide à apprendre peu à peu à rester.",
+      "explication": "Il s'assoit, il se relève, il jette une poignée par terre, et tout est terminé avant d'avoir commencé. À 23 mois, rester assis longtemps est un vrai effort : son attention est courte et son besoin de bouger immense. Se lever, jeter la nourriture ou refuser la chaise n'est pas de la provocation. C'est souvent sa façon de dire « j'ai fini », « je m'ennuie » ou « je teste ce qui se passe si… ». Jeter le fascine aussi par la cause à effet qu'il découvre. Il n'a encore ni les mots ni le contrôle de soi pour faire autrement. Un cadre calme et court l'aide à apprendre peu à peu à rester.",
       "ancrage": "Derrière le chahut, un message : « je n'ai plus faim » ou « c'est trop long pour moi ». Nommer ce besoin apaise plus vite qu'un rappel à l'ordre.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -162,10 +165,13 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Réflexologie : revenir au calme",
+        "titre": "Refermer l'épisode une fois la table quittée",
         "etapes": [
-          "Ce que ça apaise : l'agitation qui reste après une table tendue.",
-          "Le bon moment : une fois la table quittée, dans tes bras."
+          "Le prendre dans les bras une fois la table quittée : sans revenir sur ce qui vient de se passer.",
+          "Un contact large et immobile : ta main à plat dans son dos, pendant que vous regardez autre chose.",
+          "Baisser la voix et le rythme : parler moins fort et plus lentement fait redescendre les deux.",
+          "Changer de pièce : quitter le lieu du repas referme l'épisode mieux que n'importe quelle phrase.",
+          "Ne pas y revenir plus tard : ce qui est fini est fini, et cela ne se rejoue pas au moment du coucher."
         ],
         "lien_reflexologie": {
           "id": "opposition-frustration",
@@ -174,7 +180,7 @@
       },
       "pour_aller_plus_loin": [
         "Ajuster les attentes à son âge : viser un moment court et convivial, pas un repas long et immobile.",
-        "Soigner l'installation : chaise adaptée, pieds calés, table à bonne hauteur aident à tenir assis.",
+        "Bien l'installer : chaise adaptée, pieds calés, table à bonne hauteur aident à tenir assis.",
         "Le rendre acteur : servir, choisir sa cuillère, débarrasser son assiette, l'implication réduit l'agitation.",
         "Dépenser avant, apaiser autour : du mouvement avant le repas et un climat calme pendant facilitent le fait de rester."
       ],

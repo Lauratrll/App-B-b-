@@ -29,7 +29,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : protéger sans irriter",
+        "titre": "Protéger sans irriter",
         "etapes": [
           "Appliquer avant les phases de bave : une barrière protège mieux qu'elle ne répare.",
           "Application lente : à mains réchauffées, pression douce et constante, sans frotter.",
@@ -75,14 +75,19 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : traverser la percée",
+        "titre": "Traverser la percée",
         "etapes": [
           "Beaucoup de contact : le portage et la présence apaisent plus que n'importe quel remède.",
-          "Réflexologie du soir : dans le rituel, balayage de la voûte, pression douce et constante.",
+          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
+          "Suivre la séquence « Poussées dentaires » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
           "Un rituel de coucher inchangé : la stabilité rassure pendant une phase inconfortable.",
           "Protéger la peau du menton : la bave augmente pendant la percée.",
           "S'arrêter s'il se crispe : le geste doit rester agréable."
-        ]
+        ],
+        "lien_reflexologie": {
+          "id": "dents",
+          "titre": "Poussées dentaires"
+        }
       },
       "pour_aller_plus_loin": [
         "Noter les vraies dates : trois ou quatre nuits difficiles, pas trois semaines, c'est le repère qui évite d'attribuer tout aux dents.",
@@ -121,7 +126,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : soulager la gencive autrement",
+        "titre": "Soulager la gencive autrement",
         "etapes": [
           "Un anneau réfrigéré avant la tétée : une gencive soulagée mord moins.",
           "Un linge propre et frais : humidifié, à mordiller sous surveillance.",
@@ -143,7 +148,7 @@
         "Décider d'arrêter l'allaitement dans la semaine qui suit : cette décision se prend au calme, pas sous le coup de la douleur.",
         "Laisser le sein en bouche alors qu'il joue et ne tète plus : c'est exactement là que la morsure arrive."
       ],
-      "consulter_si": "Consulter si : ta poitrine reste douloureuse plus de quarante-huit heures, si une crevasse saigne, si tu as de la fièvre ou une zone rouge et dure, ou si l'envie d'arrêter s'installe alors que tu ne le souhaites pas → sage-femme, consultante en lactation (IBCLC) ou médecin.",
+      "consulter_si": "Consulter si : ta poitrine reste douloureuse plus de 48 heures, si une crevasse saigne, si tu as de la fièvre ou une zone rouge et dure, ou si l'envie d'arrêter s'installe alors que tu ne le souhaites pas → sage-femme, consultante en lactation (IBCLC) ou médecin.",
       "source": "Source : Haute Autorité de Santé, « Allaitement maternel : mise en œuvre et poursuite dans les 6 premiers mois de vie de l'enfant »."
     },
     {
@@ -167,7 +172,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : le confort de la gencive",
+        "titre": "Le confort de la gencive",
         "etapes": [
           "Un anneau réfrigéré : sorti du réfrigérateur, jamais du congélateur.",
           "Un linge propre et frais : à mordiller sous surveillance.",

@@ -29,7 +29,7 @@
     {
       "etape": 4,
       "titre": "Massage et réflexologie, puis pyjama",
-      "description": "Sur la table à langer ou le lit, pièce à 22-24°C. Mains chaudes, huile végétale neutre (amande douce, calendula). Mouvements lents, pression 0/10. Parler ou chantonner pendant. 5 min maximum — bébé fatigue vite à cet âge. Enchaîner avec la séquence réflexologielogie ci-dessous, puis, l'huile pénétrée, enfiler son pyjama et sa gigoteuse — ainsi, tu pourras le poser sans le rhabiller s'il s'endort à la tétée."
+      "description": "Sur la table à langer ou le lit, pièce à 22-24°C. Mains chaudes, huile végétale neutre (amande douce, calendula). Mouvements lents, pression 0/10. Parler ou chantonner pendant. 5 min maximum — bébé fatigue vite à cet âge. Enchaîner avec la séquence de réflexologie « Sommeil agité », puis, l'huile pénétrée, enfiler son pyjama et sa gigoteuse — ainsi, tu pourras le poser sans le rhabiller s'il s'endort à la tétée."
     },
     {
       "etape": 5,
@@ -43,48 +43,13 @@
     }
   ],
   "reflexologie_du_coucher": {
-    "titre": "Séquence réflexologie du soir — 7 minutes",
-    "intro": "Après le bain ou le pyjama, avant la dernière tétée. Bébé allongé sur le dos, toi assise face à ses pieds. Voix très basse, mouvements infimes. À 3 mois, les zones de réflexologie sont très réceptives — la pression doit être encore plus légère qu'à un âge plus avancé.",
-    "duree_totale": "7 minutes",
-    "pression": "0/10 — c'est une caresse, pas un massage",
-    "etapes": [
-      {
-        "zone": "Réchauffer les pieds",
-        "duree": "1 minute",
-        "geste": "Envelopper les deux pieds de bébé dans tes paumes, immobile. Synchroniser ton souffle au sien.",
-        "ce_que_cest": "Préparation et présence — le contact avant tout geste"
-      },
-      {
-        "zone": "Gros orteil (cerveau / système nerveux)",
-        "duree": "1 minute par pied",
-        "geste": "Effleurage très lent du coussinet du gros orteil, du bout vers la base.",
-        "ce_que_cest": "Apaisement du système nerveux central — zone tête en réflexologie"
-      },
-      {
-        "zone": "Voûte haute (diaphragme et respiration)",
-        "duree": "1 minute",
-        "geste": "Effleurement large sous la base des orteils, sur les deux pieds.",
-        "ce_que_cest": "Détend la respiration et le diaphragme — facilite l'endormissement"
-      },
-      {
-        "zone": "Centre de la voûte (plexus solaire)",
-        "duree": "1 minute",
-        "geste": "Cercles infimes au centre de la voûte plantaire, sens horaire, très lents.",
-        "ce_que_cest": "Régulation du stress, apaisement de la sphère digestive — zone clé du calme"
-      },
-      {
-        "zone": "Talon (ancrage)",
-        "duree": "1 minute par pied",
-        "geste": "Pression maintenue immobile au creux du talon. Pas de mouvement, juste du contact.",
-        "ce_que_cest": "Sensation de sécurité, ancrage corporel"
-      },
-      {
-        "zone": "Envelopper et clore",
-        "duree": "1 minute",
-        "geste": "Envelopper à nouveau les deux pieds dans tes mains. Murmurer : \"Tu peux dormir. Je suis là.\"",
-        "ce_que_cest": "Clôture rituelle — bébé associe ce geste à la fin du jour"
-      }
-    ]
+    "titre": "Réflexologie du soir",
+    "intro": "Après le bain ou le pyjama, avant la dernière tétée. Bébé allongé sur le dos, toi face à ses pieds. Voix très basse, mouvements infimes. La séquence « Sommeil agité » se suit pas à pas, animée, dans l'onglet Réflexologie. Elle reste la même tout au long des deux ans : c'est sa répétition, soir après soir, qui en fait un repère.",
+    "etapes": [],
+    "lien_reflexologie": {
+      "id": "sommeil",
+      "titre": "Sommeil agité"
+    }
   },
   "script_audio_du_soir": {
     "titre": "Berceuse-rituel « Le monde se ralentit »",

@@ -13,7 +13,7 @@
       "situation": "Le refus de ce qu'il aimait / Il rejette tout d'un coup",
       "titre": "L'affirmation de soi passe par l'assiette",
       "explication": "Du jour au lendemain, il refuse les légumes qu'il adorait, recrache ce qu'il réclamait la semaine dernière. Ce n'est pas un dégoût, et ce n'est pas un problème de goût : c'est l'affirmation de soi qui passe par l'assiette. Le repas est l'un des rares terrains où un enfant de onze mois peut exercer un pouvoir réel, et il l'exerce. La réponse qui aggrave tout : transformer le repas en enjeu. La réponse qui fonctionne : maintenir l'offre, sans commentaire, et laisser le pouvoir là où il compte peu.",
-      "ancrage": "Il ne refuse pas les légumes : il exerce un pouvoir. Ne transforme pas le repas en enjeu. C'est le seul terrain où il peut gagner.",
+      "ancrage": "Tu te demandes ce que tu as changé, et tu n'as rien changé. Ce refus ne parle pas de ta cuisine : il parle de lui, qui vient de découvrir qu'il peut dire non quelque part.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -29,7 +29,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : désamorcer l'enjeu",
+        "titre": "Désamorcer l'enjeu",
         "etapes": [
           "Manger ensemble : l'imitation reste le moteur le plus puissant.",
           "Le laisser se servir seul : rendre le pouvoir là où il est sans conséquence.",
@@ -41,13 +41,13 @@
       "pour_aller_plus_loin": [
         "Compter en semaines : ces phases durent, puis passent, et la variété revient.",
         "Regarder la semaine, pas le repas : les apports s'équilibrent sur plusieurs jours.",
-        "Ne pas céder sur le sucre : un refus de légumes ne se compense pas par un dessert.",
+        "Le dessert n'est pas une monnaie : proposé ou non, il ne se gagne pas et ne se retire pas. Sinon c'est le sucré qui prend de la valeur, et le reste qui en perd.",
         "Vérifier les indicateurs : la courbe de poids dit l'essentiel, pas le contenu d'une assiette."
       ],
-      "principe": "Le repas est l'un des rares terrains où il peut exercer un vrai pouvoir. Ne le transforme pas en enjeu : maintiens l'offre, sans commentaire, et le pouvoir perd son intérêt.",
+      "principe": "Un enfant de cet âge cherche un endroit où son avis pèse, et l'assiette est le premier qu'il trouve. Lui répondre, c'est lui donner un terrain qui compte moins, pas lui reprendre celui-là.",
       "erreurs_a_eviter": [
         "Forcer, négocier ou récompenser pour qu'il mange.",
-        "Remplacer par un plat qu'il aime.",
+        "Cuisiner un second plat quand le premier est refusé.",
         "Commenter ou dramatiser le refus.",
         "Compenser un refus de légumes par un dessert sucré."
       ],
@@ -75,7 +75,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : protéger ton corps",
+        "titre": "Protéger ton corps",
         "etapes": [
           "Exprimer un peu si tension : juste pour soulager, sans vider, sinon la production se maintient.",
           "Du froid sur les seins : après la mise au sein, pour réduire l'inconfort.",
@@ -85,7 +85,7 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Aucune date imposée : le sevrage se décide par toi, l'allaitement peut se poursuivre aussi longtemps que vous le souhaitez.",
+        "Aucune date imposée : le sevrage se décide par toi, et l'allaitement peut se poursuivre aussi longtemps que tu le souhaites.",
         "Se faire accompagner : sage-femme, consultante en lactation (IBCLC) ou PMI, surtout si le sevrage doit être rapide.",
         "Le lait reste nécessaire : au moins 500 ml par jour de lait de suite jusqu'à un an, en remplacement.",
         "Accueillir l'ambivalence : soulagement et tristesse coexistent très souvent, les deux sont légitimes."
@@ -104,8 +104,8 @@
       "categorie": "alim",
       "situation": "La fourchette réclamée / Il refuse d'être nourri",
       "titre": "Accepter l'inefficacité des débuts",
-      "explication": "Il repousse la cuillère et tend la main vers ta fourchette. Il veut l'outil des grands, et c'est un excellent signe. Les débuts seront spectaculairement inefficaces : il piquera à côté, renversera, mangera avec les doigts entre deux tentatives. C'est normal, et c'est exactement ce qu'il doit faire. La tentation de reprendre le contrôle « parce qu'il ne mange rien » est forte, mais elle coûte cher : la lutte au repas est ce qui installe le plus durablement les difficultés alimentaires.",
-      "ancrage": "Il veut l'outil des grands. Les débuts seront inefficaces. C'est le prix de l'autonomie, et il vaut la peine.",
+      "explication": "Il repousse la cuillère et tend la main vers ta fourchette. Il veut l'outil des grands, et c'est un excellent signe. Les débuts seront spectaculairement approximatifs : il piquera à côté, renversera, reviendra aux doigts entre deux tentatives. C'est normal, et c'est exactement ce qu'il a à faire. La tentation de reprendre la main est forte, mais elle coûte cher : c'est le bras de fer au repas qui installe le plus durablement les difficultés alimentaires.",
+      "ancrage": "Tu ramasses depuis 10 minutes et tu te demandes si tu ne ferais pas mieux de le nourrir toi-même. Tu le peux, ce soir. Mais ce qu'il apprend en ratant, personne ne peut l'apprendre à sa place.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -121,7 +121,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : soutenir l'autonomie",
+        "titre": "Soutenir l'autonomie",
         "etapes": [
           "Manger devant lui : l'imitation guide le geste.",
           "Ne pas guider sa main : le laisser trouver seul.",
@@ -131,12 +131,12 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Accepter l'inefficacité : il mangera peu au début. Le lait reste la base, au moins 500 ml par jour jusqu'à un an.",
-        "Ne pas reprendre le contrôle : la lutte au repas coûte bien plus cher que quelques cuillerées perdues.",
+        "Le lait continue son travail pendant ce temps-là : ce qu'il perd en cuillerées arrivées à destination, il ne le perd pas dans sa journée.",
+        "Ne pas reprendre la main : quelques cuillerées perdues se rattrapent au repas suivant, une lutte installée, beaucoup moins.",
         "Toujours assis, tronc droit, surveillé : jamais en mouvement, jamais seul.",
         "Bannir les aliments à risque : raisin entier, fruits à coque, rondelles, morceaux durs ou glissants."
       ],
-      "principe": "Vouloir la fourchette est un progrès. Les débuts sont inefficaces, et reprendre le contrôle coûte bien plus cher que le désordre.",
+      "principe": "Vouloir la fourchette est un progrès, et un progrès ne se juge pas au résultat du soir. Ce qui s'abîme au repas ne se répare pas vite, alors que le désordre, lui, se ramasse.",
       "erreurs_a_eviter": [
         "Lutter pour garder le couvert.",
         "Reprendre le contrôle « parce qu'il ne mange rien ».",
@@ -150,16 +150,16 @@
       "categorie": "alim",
       "situation": "Le gâteau d'anniversaire / Je ne sais pas ce qu'il peut",
       "titre": "Gourmand et sûr à la fois",
-      "explication": "Le premier anniversaire arrive, et la question du gâteau avec. Deux points fermes, et le reste est libre. Le premier : **pas de miel avant un an**. Le risque de botulisme infantile est réel et grave, et cet ingrédient est fréquent dans les recettes « saines ». Le second : les aliments à risque d'étouffement, fruits à coque, raisins entiers, bonbons, n'ont pas leur place. Pour le reste, un gâteau peu sucré, fondant, sans miel, fait très bien l'affaire. Et le sucre ajouté n'a aucun intérêt à cet âge.",
-      "ancrage": "Deux règles fermes : pas de miel avant un an, et rien de rond ni de dur. Pour le reste, fais-toi plaisir, et lui aussi.",
+      "explication": "Le premier anniversaire arrive, et la question du gâteau avec. Deux dangers seulement, et tout le reste est libre. **Le miel d'abord** : il peut contenir des spores responsables du botulisme infantile, une maladie rare mais grave chez le nourrisson, et il se glisse dans beaucoup de recettes présentées comme saines. **Puis tout ce qui est rond, dur ou glissant**, qui bloque une gorge de cet âge en une seconde. Pour le reste, un gâteau fondant et peu sucré fait très bien l'affaire, et le sucre ajouté n'apporte rien à cet âge.",
+      "ancrage": "Deux choses ne se négocient pas, et tout le reste t'appartient. Tu n'as pas à renoncer à la fête pour rester du côté de la sécurité.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
         "titre": "Action immédiate : les deux règles",
         "etapes": [
-          "Pas de miel avant un an : le risque de botulisme infantile est réel, vérifier chaque recette.",
+          "Pas de miel avant un an : vérifier chaque recette, y compris celles qu'on n'a pas faites soi-même.",
           "Aucun aliment rond ou dur : fruits à coque, raisins entiers, bonbons, morceaux durs.",
-          "Un gâteau fondant et peu sucré : purée de fruits, banane écrasée. Le sucre ajouté n'a aucun intérêt.",
+          "Un gâteau fondant et peu sucré : purée de fruits, banane écrasée, yaourt. La texture compte bien plus que le goût.",
           "Toujours assis, tronc droit, surveillé : y compris pendant la fête.",
           "Prévoir la surveillance : dans une fête, un adulte reste dédié à lui pendant qu'il mange."
         ]
@@ -167,9 +167,9 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : une fête à sa mesure",
+        "titre": "Une fête à sa mesure",
         "etapes": [
-          "Un format court : une à deux heures maximum.",
+          "Un format court : une à 2 heures maximum.",
           "Peu d'invités : les fêtes d'un an submergent presque toujours l'enfant.",
           "Respecter la sieste : elle prime sur l'horaire de la fête.",
           "Un lieu de repli : une pièce calme, identifiée dès l'arrivée.",
@@ -177,16 +177,16 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Retenir l'interdit du miel : avant un an, sans exception, y compris dans un gâteau cuit.",
-        "Pas de sucre ajouté : il n'apporte rien et installe une préférence durable.",
+        "Prévoir sa part à part : un petit gâteau à lui, préparé par toi, règle la question sans avoir à discuter avec qui que ce soit.",
+        "Les bougies et la décoration : une bougie, et rien qui se détache. Billes de sucre, perles, petits éléments plantés dessus finissent tous dans une bouche.",
         "Se rappeler que la fête est pour les adultes : lui n'a besoin que d'un moment tranquille.",
         "Se former aux gestes qui sauvent : dans une fête, avec des aliments partout, cela prend tout son sens."
       ],
-      "principe": "Deux règles fermes : pas de miel avant un an, et rien de rond ni de dur. Le reste est une affaire de plaisir, et la fête, elle, se pense pour lui.",
+      "principe": "Un premier anniversaire se fête d'abord pour ceux qui regardent, rarement pour celui qui souffle. Deux interdits tiennent le cadre, et tout le reste est du plaisir.",
       "erreurs_a_eviter": [
-        "Donner du miel : risque de botulisme infantile avant un an.",
+        "Accepter un gâteau apporté sans demander ce qu'il y a dedans : le miel se cache souvent dans les pâtisseries, et la cuisson ne l'enlève pas.",
         "Laisser des fruits à coque, des raisins entiers ou des bonbons à portée.",
-        "Ajouter du sucre inutilement.",
+        "Le faire souffler au milieu de dix adultes qui filment : à un an, c'est la surcharge qui gâche la fête, pas le gâteau.",
         "Le laisser manger sans surveillance pendant la fête."
       ],
       "consulter_si": "Consulter si : l'enfant s'étouffe, silence, absence de toux, changement de couleur → appeler immédiatement le 15 ou le 112. Consulter si : après avoir mangé, il présente des plaques qui s'étendent, un gonflement du visage ou des lèvres, des vomissements, une pâleur, ou une gêne à respirer → appeler immédiatement le 15.",
@@ -213,10 +213,13 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Réflexologie : relâcher le ventre",
+        "titre": "Hors du repas : les leviers de fond",
         "etapes": [
-          "Ce que ça apaise : la tension du ventre chez un enfant qui se retient.",
-          "Le bon moment : au calme, jamais au moment où il se retient."
+          "L'eau toujours à portée : une tasse sur la table basse, dans le sac, à chaque repas, sans attendre qu'il réclame.",
+          "Des fibres à chaque assiette : légumes verts et fruits cuits, pas seulement la carotte et la banane.",
+          "Bouger tous les jours : à quatre pattes, debout, en poussant un chariot, le corps entier soutient le transit.",
+          "Un moment tranquille après le repas du matin : c'est souvent là que le corps se met en route, à condition qu'on ne le presse pas.",
+          "Le bain du soir : de l'eau tiède, du temps, et rien qu'on attende de lui."
         ],
         "lien_reflexologie": {
           "id": "constipation",
@@ -250,7 +253,7 @@
         "couleur_texte": "#A32D2D",
         "titre": "Action immédiate : la transition progressive",
         "etapes": [
-          "Mélanger les deux laits : en augmentant la proportion du nouveau, sur cinq à sept jours.",
+          "Ne bouger qu'une chose : le lait, et rien d'autre cette semaine. Ni nouvelle texture, ni nouvel aliment.",
           "Ne changer qu'une chose à la fois : ni nouvelle texture, ni nouvel aliment en même temps.",
           "Respecter la préparation : les doses indiquées sur la boîte, sans jamais forcer sur la poudre.",
           "Observer le transit : selles, confort, ventre, sur plusieurs jours.",
@@ -260,7 +263,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : soutenir la transition",
+        "titre": "Soutenir la transition",
         "etapes": [
           "Proposer de l'eau : à chaque repas.",
           "Beaucoup de mouvement : il soutient le transit.",
@@ -275,7 +278,7 @@
         "Poursuivre l'allaitement est aussi une option : sans limite d'âge.",
         "En parler en consultation : le choix du lait se fait avec le professionnel."
       ],
-      "principe": "Un changement de lait modifie réellement le transit. Il se fait progressivement, et jamais en même temps qu'un autre changement : sinon on ne peut plus rien lire.",
+      "principe": "Un transit qui bouge après un lait nouveau dit simplement qu'une flore se réinstalle, et cela prend du temps. Ce qui rend la période lisible, c'est de n'avoir touché qu'un seul paramètre.",
       "erreurs_a_eviter": [
         "Changer de lait d'un coup.",
         "Changer plusieurs choses le même jour.",

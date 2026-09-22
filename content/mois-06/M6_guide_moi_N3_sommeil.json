@@ -31,9 +31,9 @@
         "titre": "Réflexologie : soutenir la phase",
         "etapes": [
           "Dans le rituel du soir : toujours au même moment, après le bain.",
-          "Réchauffer ses pieds : les tenir entiers dans tes paumes, immobiles.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
+          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
+          "Suivre la séquence « Sommeil agité » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
+          "Ta voix tout bas pendant la séquence : toujours les mêmes mots, qui deviennent un repère.",
           "S'arrêter à sa demande : le geste doit rester agréable."
         ],
         "lien_reflexologie": {
@@ -80,10 +80,10 @@
         "titre": "Réflexologie : préparer une nuit plus calme",
         "etapes": [
           "Dans le rituel du soir : bébé sur le dos, lumière tamisée, après le bain.",
-          "Réchauffer ses pieds : les tenir entiers dans tes paumes, immobiles.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
-          "S'arrêter à sa demande : un pied retiré, une crispation, on arrête."
+          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
+          "La séquence « Sommeil agité » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
+          "Parler doucement pendant la séquence : raconter ce que tu fais, sur le même ton.",
+          "S'arrêter à sa demande : un mouvement de retrait, une crispation, on arrête."
         ],
         "lien_reflexologie": {
           "id": "sommeil",
@@ -111,7 +111,7 @@
       "situation": "Le réveil d'avant l'aube / Il se réveille à 5h, affamé",
       "titre": "Faim réelle ou habitude installée",
       "explication": "Il se réveille à 5h, réclame, boit, et se rendort. Puis cela devient tous les jours. Le sommeil de fin de nuit est le plus léger de tous : les phases profondes sont derrière, le corps est proche de son heure de réveil, et le moindre appui extérieur suffit à ancrer un repère. Une vraie faim se voit : il boit une prise complète, activement, avec des déglutitions régulières, et se rendort repu. Un rendormissement, c'est autre chose : il tète quelques minutes et s'endort avant d'avoir vraiment bu.",
-      "ancrage": "Un réveil à 5h n'est pas toujours une faim. Tu peux prendre trente secondes pour regarder comment il boit avant de décider quoi que ce soit.",
+      "ancrage": "Un réveil à 5h n'est pas toujours une faim. Tu peux prendre 30 secondes pour regarder comment il boit avant de décider quoi que ce soit.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -127,7 +127,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : accompagner sans sortir du lit",
+        "titre": "Accompagner sans sortir du lit",
         "etapes": [
           "Rester à hauteur du lit : sans le prendre, sans allumer, sans parler fort.",
           "Main posée sur son torse : immobile, jusqu'à ce que sa respiration se pose.",
@@ -155,7 +155,7 @@
       "categorie": "sommeil",
       "situation": "Le passage à deux siestes / Ses fenêtres d'éveil s'allongent",
       "titre": "Réajuster sans supprimer",
-      "explication": "Les trois siestes ne tiennent plus : la dernière est refusée, ou elle décale le coucher, ou elle s'effondre au bout de 20 minutes. C'est le signe que ses fenêtres d'éveil se sont allongées, elles atteignent souvent deux à trois heures à cet âge. La transition s'étale sur plusieurs semaines, et elle avance rarement en ligne droite : certains jours il aura encore besoin de trois siestes, d'autres de deux, selon sa nuit et selon ce qu'il a dépensé.",
+      "explication": "Les trois siestes ne tiennent plus : la dernière est refusée, ou elle décale le coucher, ou elle s'effondre au bout de 20 minutes. C'est le signe que ses fenêtres d'éveil se sont allongées, elles atteignent souvent 2 à 3 heures à cet âge. La transition s'étale sur plusieurs semaines, et elle avance rarement en ligne droite : certains jours il aura encore besoin de trois siestes, d'autres de deux, selon sa nuit et selon ce qu'il a dépensé.",
       "ancrage": "Tu n'as pas à trancher entre deux et trois siestes. Tu peux suivre ce que son corps demande, jour après jour, sans figer de règle.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -175,9 +175,9 @@
         "titre": "Réflexologie : favoriser la détente avant la sieste",
         "etapes": [
           "Avant le coucher : bébé calme, sur le dos, lumière tamisée.",
-          "Réchauffer ses pieds : les tenir entiers dans tes paumes, immobiles.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
+          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
+          "Suivre la séquence « Sommeil agité » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
+          "Garder ta voix posée : quelques mots toujours identiques, ou un air fredonné.",
           "S'arrêter à sa demande : le geste doit rester agréable."
         ],
         "lien_reflexologie": {

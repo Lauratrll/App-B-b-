@@ -32,11 +32,15 @@
         "titre": "Réflexologie : recharger la sécurité",
         "etapes": [
           "Un moment quotidien : l'enfant sur le dos, éveillé et calme.",
-          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
+          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
+          "Suivre la séquence « Angoisse de séparation » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
+          "Garder ta voix posée : quelques mots toujours identiques, ou un air fredonné.",
           "S'arrêter à sa demande : le geste doit rester agréable."
-        ]
+        ],
+        "lien_reflexologie": {
+          "id": "separation",
+          "titre": "Angoisse de séparation"
+        }
       },
       "pour_aller_plus_loin": [
         "Offrir d'autres appuis : meubles bas, stables, à sa hauteur — tes jambes ne sont pas son seul point d'équilibre.",
@@ -78,11 +82,15 @@
         "titre": "Réflexologie : ancrer la sécurité",
         "etapes": [
           "Un moment quotidien : toujours au même moment.",
-          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
+          "La séquence « Angoisse de séparation » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
           "Ta voix pendant le geste : associée au toucher, elle reste un repère puissant.",
           "S'arrêter à sa demande : le geste doit rester agréable."
-        ]
+        ],
+        "lien_reflexologie": {
+          "id": "separation",
+          "titre": "Angoisse de séparation"
+        }
       },
       "pour_aller_plus_loin": [
         "Relier au progrès : une rechute suit presque toujours une nouvelle acquisition.",
@@ -124,11 +132,15 @@
         "titre": "Réflexologie : le rituel des retrouvailles",
         "etapes": [
           "Au retour, chaque jour : toujours au même moment.",
-          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
+          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
+          "Suivre la séquence « Angoisse de séparation » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
+          "Parler doucement pendant la séquence : raconter ce que tu fais, sur le même ton.",
           "S'arrêter à sa demande : il peut avoir besoin de calme d'abord."
-        ]
+        ],
+        "lien_reflexologie": {
+          "id": "separation",
+          "titre": "Angoisse de séparation"
+        }
       },
       "pour_aller_plus_loin": [
         "Réactualiser régulièrement : un rituel se met à jour à mesure qu'il grandit.",
@@ -170,11 +182,16 @@
         "titre": "Réflexologie : un repère transmissible",
         "etapes": [
           "Un geste que l'équipe peut reproduire : la même séquence, à l'identique.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
+          "La séquence « Angoisse de séparation » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
           "Toujours au même moment : le repère vient de la régularité.",
           "Le pratiquer aussi à la maison : pour qu'il soit reconnu ailleurs.",
           "S'arrêter à sa demande : le geste doit rester agréable, quel que soit l'adulte."
-        ]
+        ],
+        "lien_reflexologie": {
+          "id": "separation",
+          "titre": "Angoisse de séparation"
+        }
       },
       "pour_aller_plus_loin": [
         "Ne pas forcer le doudou : un objet imposé ne devient jamais un objet transitionnel.",

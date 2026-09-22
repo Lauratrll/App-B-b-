@@ -11,7 +11,7 @@
     {
       "categorie": "digestion",
       "situation": "Les coliques / Il se tord et hurle en fin de journée",
-      "titre": "Ce qui aide vraiment, et ce qui ne fait rien",
+      "titre": "Traverser la soirée sans rester seul",
       "explication": "Il est 19h. Il a tété il y a une heure, sa couche est propre, et il hurle depuis 20 minutes, les poings serrés, les jambes repliées, le visage rouge. Ces pleurs-là portent un nom, les coliques, et ce nom ne désigne aucune maladie. Ils commencent vers trois semaines, culminent vers six, puis s'éteignent entre trois et quatre mois. C'est aussi la période où tous les bébés pleurent le plus : un nouveau-né en bonne santé peut pleurer 2 à 3 heures par jour, *d'après le programme des 1000 premiers jours*. Ce n'est ni ton lait, ni ce que tu manges.",
       "ancrage": "La phrase que personne ne dit, c'est celle-là : par moments, tu n'as plus envie de le prendre. Ce n'est pas un défaut de tendresse. C'est ce que produit une heure de pleurs qu'on n'arrive pas à apaiser.",
       "action_immediate": {
@@ -29,13 +29,13 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Réflexologie : apaisement du soir",
+        "titre": "Le contact avant que ça monte",
         "etapes": [
-          "Ce que ça apaise : les tensions du ventre quand la crise approche.",
-          "Le bon moment : avant le pic, pas au milieu de la crise, et à distance d'une tétée.",
-          "Le plexus solaire : au centre de la voûte, une pression douce et maintenue, puis on relâche, 1 minute par pied.",
-          "Le trajet du ventre : de l'estomac vers le bas du pied, de petits cercles qui avancent, dans l'ordre où la digestion se fait.",
-          "S'arrêter à sa demande : s'il retire son pied ou se crispe, on arrête sans insister."
+          "Commencer avant les pleurs : ces gestes apaisent beaucoup mieux un bébé encore calme qu'un bébé déjà lancé.",
+          "Peau à peau : son torse nu contre le tien, une couverture sur vous deux, dans le calme et sans rien faire d'autre.",
+          "À plat ventre sur ton avant-bras : sa tête au creux de ton coude, ton autre main sous son ventre, tu marches lentement.",
+          "Ta voix plutôt que le silence : parler bas, chantonner toujours la même chose, il reconnaît le son avant les mots.",
+          "S'arrêter s'il se crispe : certains soirs rien ne prend, et le poser en sécurité est un geste aussi."
         ],
         "lien_reflexologie": {
           "id": "coliques",
@@ -49,7 +49,7 @@
         "Prévenir qui le garde : toute personne qui s'occupe de lui doit savoir qu'on ne secoue jamais un bébé, et quoi faire à la place.",
         "Pousser la porte de la PMI : les consultations de puériculture y sont gratuites et ouvertes à tous, la puéricultrice peut aussi venir à la maison, et l'annuaire des centres est sur service-public.fr."
       ],
-      "principe": "Ces pleurs ne se réparent pas, ils se traversent, et personne ne les traverse seul. Ce qui protège vraiment ton bébé pendant ces semaines, ce n'est pas un remède : c'est un parent relayé, qui a le droit de poser son enfant et de sortir de la pièce.",
+      "principe": "Ces pleurs ne se réparent pas, ils se traversent, et personne ne les traverse seul. Ce qui protège vraiment ton bébé, ce n'est pas un énième remède : c'est un parent relayé par un autre adulte, ou qui le met en sécurité avant de s'éloigner quelques minutes.",
       "erreurs_a_eviter": [
         "Changer de lait, sa dose ou sa dilution de sa propre initiative : cela se décide avec un médecin, jamais devant un rayon.",
         "Enchaîner les produits trouvés en ligne : demander au pharmacien avant, c'est lui qui sait ce qui convient à cet âge.",
@@ -81,13 +81,13 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Réflexologie : apaiser les remontées",
+        "titre": "Au moment du lait : moins de trop-plein",
         "etapes": [
-          "Ce que ça apaise : l'inconfort du haut du ventre une fois le lait avalé.",
-          "Le bon moment : à distance des tétées, quand il est calme et déshabillé.",
-          "Le diaphragme : sous le coussinet des orteils, le pouce glisse lentement d'un bord du pied à l'autre.",
-          "Le cardia, puis l'estomac : cette porte entre l'œsophage et l'estomac apprend encore à se fermer. Pression douce et maintenue, puis on relâche.",
-          "S'arrêter à sa demande : s'il retire son pied ou se crispe, on arrête sans insister."
+          "Le nourrir avant les pleurs : un bébé qui sanglote avale beaucoup d'air en même temps que le lait.",
+          "Faire une pause au milieu : le redresser une fois en cours de prise, plutôt que d'attendre la fin.",
+          "Le laisser s'arrêter quand il s'arrête : un biberon terminé de force ressort presque toujours.",
+          "Peu de bruit et peu de lumière : dans le calme il tète plus lentement, et il avale moins d'air.",
+          "Le même rituel à chaque fois : même position, même bras, même rythme ; son corps anticipe et se contracte moins."
         ],
         "lien_reflexologie": {
           "id": "reflux",
@@ -179,7 +179,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : le confort du siège",
+        "titre": "Le confort du siège",
         "etapes": [
           "Nettoyer à l'eau : eau tiède et savon doux, sans frotter, plutôt que des lingettes parfumées.",
           "Sécher soigneusement : tamponner, en insistant sur les plis, avant de refermer la couche.",

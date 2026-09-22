@@ -12,15 +12,15 @@
       "categorie": "sepa",
       "situation": "La porte fermée / Il panique dès que je ferme une porte",
       "titre": "Jouer l'absence courte",
-      "explication": "Tu fermes la porte de la salle de bain, et c'est la panique. L'angoisse de séparation persiste bien au-delà du pic, et une porte fermée est, pour lui, une disparition totale. Éviter de fermer la porte soulage sur le moment, mais n'entraîne rien. Ce qui construit la confiance, c'est l'inverse : jouer l'absence, très courte, à la maison. Fermer la porte cinq secondes en parlant, la rouvrir. Puis dix. Ce sont ces répétitions minuscules qui rendront les vraies séparations possibles.",
+      "explication": "Tu fermes la porte de la salle de bain, et c'est la panique. L'angoisse de séparation persiste bien au-delà du pic, et une porte fermée est, pour lui, une disparition totale. Éviter de fermer la porte soulage sur le moment, mais n'entraîne rien. Ce qui construit la confiance, c'est l'inverse : jouer l'absence, très courte, à la maison. Fermer la porte 5 secondes en parlant, la rouvrir. Puis dix. Ce sont ces répétitions minuscules qui rendront les vraies séparations possibles.",
       "ancrage": "Éviter de fermer la porte n'entraîne rien. Jouer l'absence courte, en gardant ta voix, construit la confiance.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
         "titre": "Action immédiate : jouer l'absence",
         "etapes": [
-          "Fermer la porte cinq secondes : en parlant sans interruption, puis rouvrir.",
-          "Allonger très lentement : dix secondes, vingt, sur plusieurs semaines.",
+          "Fermer la porte 5 secondes : en parlant sans interruption, puis rouvrir.",
+          "Allonger très lentement : 10 secondes, vingt, sur plusieurs semaines.",
           "Garder ta voix : c'est elle qui rend l'absence supportable.",
           "Annoncer et nommer le retour : « je ferme, je reviens », puis « je suis revenue ».",
           "S'arrêter s'il panique : revenir à une durée plus courte, sans forcer."
@@ -32,8 +32,8 @@
         "titre": "Réflexologie : ancrer la sécurité",
         "etapes": [
           "Un moment quotidien : bébé sur le dos, éveillé et calme.",
-          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
+          "La séquence « Angoisse de séparation » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
           "Ta voix pendant le geste : associée au toucher, elle devient un repère.",
           "S'arrêter à sa demande : le geste doit rester agréable."
         ],
@@ -82,9 +82,9 @@
         "titre": "Réflexologie : recharger la base",
         "etapes": [
           "Un moment quotidien : bébé sur le dos, éveillé et calme.",
-          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
+          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
+          "Suivre la séquence « Angoisse de séparation » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
+          "Parler doucement pendant la séquence : raconter ce que tu fais, sur le même ton.",
           "S'arrêter à sa demande : le geste doit rester agréable."
         ],
         "lien_reflexologie": {
@@ -132,11 +132,16 @@
         "titre": "Réflexologie : réguler ta propre tension",
         "etapes": [
           "Trois respirations lentes : avant d'intervenir, quand ta tension monte.",
+          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
+          "La séquence « Angoisse de séparation » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
           "Ancrage au sol : pieds à plat, épaules relâchées, mâchoire desserrée.",
           "Un moment de contact quotidien avec lui : dans le calme.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
           "S'arrêter à sa demande : le geste doit rester agréable."
-        ]
+        ],
+        "lien_reflexologie": {
+          "id": "separation",
+          "titre": "Angoisse de séparation"
+        }
       },
       "pour_aller_plus_loin": [
         "Comprendre l'enjeu : ton anxiété se transmet directement, et un parent hypervigilant produit un enfant prudent.",
@@ -178,8 +183,8 @@
         "titre": "Réflexologie : un repère transmissible",
         "etapes": [
           "Le co-parent fait le geste : la même séquence, à l'identique.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
+          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
+          "Suivre la séquence « Angoisse de séparation » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
           "Toujours au même moment : le repère vient de la régularité, pas de la personne.",
           "S'arrêter à sa demande : le geste doit rester agréable, quel que soit l'adulte."
         ],

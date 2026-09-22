@@ -12,8 +12,8 @@
       "categorie": "alim",
       "situation": "La prise du sein / Il prend mal, et ça me fait mal",
       "titre": "Corriger la position avant tout le reste",
-      "explication": "Une tétée bien positionnée n'est pas douloureuse. Si tu as mal, ce n'est ni une fatalité, ni le signe que tu n'es pas faite pour allaiter : c'est presque toujours une question de position et de prise. Quand bébé n'attrape que le mamelon, il tire, il pince, il se fatigue et il transfère peu de lait. Quand il ouvre grand et prend une bonne part de l'aréole, la succion devient efficace et confortable. Cela s'ajuste, souvent en quelques essais, parfois avec l'aide d'un professionnel, et cela vaut la peine de demander tôt.",
-      "ancrage": "La douleur n'est pas le prix à payer, et redouter la prochaine tétée n'a rien d'anormal quand chacune fait mal. C'est un signal d'ajustement, pas un verdict sur ta capacité à nourrir ton bébé, et demander de l'aide dès les premiers jours change tout.",
+      "explication": "Tu appréhendes la prochaine tétée. Tu comptes les heures qui restent, tu serres les dents au moment où il attrape, et tu te dis que ça finira bien par passer. Une tétée bien positionnée n'est pourtant pas douloureuse. Quand bébé n'attrape que le mamelon, il tire, il pince, il se fatigue et il transfère peu de lait. Quand il ouvre grand et attrape bien plus que le mamelon, la succion devient efficace et confortable. Rien de tout cela n'est définitif : cela s'ajuste, et souvent vite.",
+      "ancrage": "La douleur n'est pas le prix à payer, et redouter la prochaine tétée n'a rien d'anormal quand chacune fait mal. C'est un signal d'ajustement, pas un verdict sur ta capacité à nourrir ton bébé, et il vaut mieux le dire tôt que tenir trois semaines.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -29,7 +29,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : récupérer entre deux tétées",
+        "titre": "Récupérer entre deux tétées",
         "etapes": [
           "Soulager après la tétée : quelques gouttes de ton lait étalées sur le mamelon, puis laisser sécher à l'air libre.",
           "Changer de position : varier madone, ballon de rugby, allongée sur le côté, chaque position sollicite la bouche autrement.",
@@ -58,7 +58,7 @@
       "categorie": "alim",
       "situation": "Les tétées rapprochées / Il réclame toutes les heures",
       "titre": "Ce qui est normal et ce qui alerte",
-      "explication": "Un nouveau-né tète huit à douze fois par vingt-quatre heures, et ces prises se regroupent souvent, parfois toutes les heures pendant une soirée entière. Son estomac a la taille d'une petite bille et le lait maternel se digère vite : la fréquence est donc normale, et elle ne dit rien de ce que tu produis. Ce qui renseigne vraiment tient en quatre choses observables à la maison : ce que tu entends pendant la tétée, ce que tu vois dans les couches, comment il est juste après, et ce que dit la balance chez le professionnel.",
+      "explication": "Il vient de téter. 20 minutes plus tard, il cherche encore avec la bouche, et la question arrive toute seule : est-ce que j'ai assez de lait ? Un nouveau-né tète huit à douze fois par 24 heures, et ces prises se regroupent souvent, parfois toutes les heures pendant une soirée entière. Son estomac a la taille d'une petite bille et le lait maternel se digère vite : la fréquence est donc normale, et elle ne mesure en rien ta production.",
       "ancrage": "Téter souvent n'est pas un échec de ton lait, c'est le fonctionnement des premières semaines. Ton doute est légitime, et il se lève avec des repères, pas avec une intuition.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -104,7 +104,7 @@
       "categorie": "alim",
       "situation": "L'endormissement au sein / Il s'endort avant la fin",
       "titre": "Terminer la prise sans le réveiller",
-      "explication": "Téter demande un effort considérable à un nouveau-né. Le calme du contact, la chaleur, la succion : tout invite au sommeil. S'endormir au sein ou au biberon est normal. Cela devient un point d'attention seulement quand bébé s'endort avant d'avoir assez bu, se réveille peu après affamé, et repart dans des prises courtes et fréquentes qui l'épuisent. L'objectif n'est pas de le tenir éveillé de force, mais de le réveiller juste assez pour qu'il termine sa prise, doucement, sans le stimuler à l'excès.",
+      "explication": "Il tète, ses paupières tombent, sa succion ralentit, et il lâche au bout de 5 minutes. Une heure après, il réclame de nouveau. Téter demande un effort considérable à un nouveau-né, et le calme du contact, la chaleur, la succion : tout invite au sommeil. S'endormir au sein ou au biberon est normal. Cela devient un point d'attention seulement quand il s'endort avant d'avoir assez bu, et qu'il repart dans des prises courtes et fréquentes qui l'épuisent.",
       "ancrage": "Le réveiller en douceur n'est pas le brusquer. Tu ne cherches pas à le maintenir éveillé : tu l'aides à finir ce qu'il a commencé, pour qu'il dorme ensuite vraiment rassasié.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -121,10 +121,10 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : relancer sans sur-stimuler",
+        "titre": "Relancer sans sur-stimuler",
         "etapes": [
           "Contact peau à peau : le déshabiller et le poser contre toi relance souvent la succion mieux que tout le reste.",
-          "Toucher léger de la plante des pieds : du talon vers les orteils, un ou deux passages, juste pour l'éveiller.",
+          "Lui découvrir les mains et les pieds : un peu de fraîcheur suffit souvent à le réveiller, sans rien de plus.",
           "Changer sa position : le redresser légèrement, sans le sortir du contact.",
           "Voix douce et régulière : lui parler pendant la prise le maintient présent sans l'exciter.",
           "S'arrêter s'il est vraiment repu : mains ouvertes, corps relâché, il lâche seul, on ne force jamais une fin de prise."
@@ -150,7 +150,7 @@
       "categorie": "alim",
       "situation": "L'introduction du biberon / Il refuse la tétine",
       "titre": "Sans forcer et sans urgence",
-      "explication": "Téter et boire au biberon sont deux mécaniques différentes. Au sein, ton bébé creuse la langue, étire le mamelon et déclenche lui-même le flux. À la tétine, le lait descend tout seul dès qu'il appuie. Refuser n'a donc rien d'un caprice : c'est un corps qui ne reconnaît ni la matière, ni le débit, ni le mouvement qu'on lui demande. Un apprentissage de ce genre se fait par petites touches, chez un bébé calme, et il ne se fait jamais chez un bébé affamé.",
+      "explication": "Tu lui présentes la tétine, il tourne la tête, il arque le dos, et le biberon repart au réfrigérateur intact pour la troisième fois. Téter et boire au biberon sont deux mécaniques différentes : au sein, il creuse la langue, étire le mamelon et déclenche lui-même le flux ; à la tétine, le lait descend tout seul dès qu'il appuie. Refuser n'a donc rien d'un caprice. C'est un corps qui ne reconnaît ni la matière, ni le débit, ni le mouvement qu'on lui demande.",
       "ancrage": "Un refus n'est pas un échec, c'est une information. Rien ne t'oblige à réussir aujourd'hui, et c'est justement ce qui rend l'apprentissage possible.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -167,7 +167,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : apprivoiser la tétine",
+        "titre": "Apprivoiser la tétine",
         "etapes": [
           "Contact avant l'objet : quelques minutes peau à peau ou contre le torse, sans rien présenter.",
           "La lui laisser en main : hors des repas, il la touche, la mordille, la porte à la bouche comme un jouet.",
@@ -196,7 +196,7 @@
       "categorie": "alim",
       "situation": "Le rythme des prises / J'hésite à poser des horaires",
       "titre": "Partir de lui, pas de l'horloge",
-      "explication": "La question revient à chaque génération, et les avis autour de toi seront contradictoires. Chez le nouveau-né, la réponse est assez simple : on part des signaux de bébé, pas d'un tableau d'horaires. Son estomac est petit, ses besoins varient d'un jour à l'autre, et un rythme régulier finit par s'installer de lui-même, à son propre tempo. Répondre à ses signaux d'éveil ne crée pas d'anarchie : c'est ainsi qu'il apprend que ses besoins reçoivent une réponse. Le rythme viendra. Chaque bébé à sa vitesse, et la fourchette est large.",
+      "explication": "Ta mère dit toutes les 3 heures, l'application dit à la demande, et toi tu regardes ton bébé sans savoir lequel des deux écouter. Chez le nouveau-né, la réponse est assez simple : on part de ses signaux, pas d'un tableau d'horaires. Son estomac est petit, ses besoins varient d'un jour à l'autre, et un rythme régulier finit par s'installer de lui-même, à son propre tempo. Répondre à ses signaux d'éveil ne crée pas d'anarchie : c'est ainsi qu'il apprend que ses besoins reçoivent une réponse.",
       "ancrage": "Tu n'as pas à choisir un camp. Observer ton bébé est une méthode à part entière, et c'est la plus fiable des premières semaines.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -206,14 +206,14 @@
           "Repérer les signes précoces : il s'agite, tourne la tête, cherche avec la bouche, porte ses mains à la bouche.",
           "Proposer à ce moment-là : un bébé qui n'a pas encore pleuré boit mieux et plus calmement.",
           "Préparer juste avant la prise : une mesure rase pour 30 ml d'eau, selon la boîte, puis rouler le biberon entre tes paumes, à l'horizontale, plutôt que de l'agiter de haut en bas.",
-          "Respecter les pauses : le laisser souffler, faire le rot, puis reproposer sans forcer la fin du biberon.",
+          "Respecter les pauses : le laisser souffler, faire le rot, puis reproposer sans insister s'il ne repart pas.",
           "Accepter les variations : certains jours, il boira plus, d'autres moins, c'est normal."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : installer un cadre souple",
+        "titre": "Installer un cadre souple",
         "etapes": [
           "Un rituel court avant la prise : même position, même endroit, ta voix, les repères rassurent plus que l'horloge.",
           "Le contact avant tout : le prendre contre toi quelques instants avant de donner le biberon.",

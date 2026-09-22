@@ -23,7 +23,7 @@
           "Observer la douleur : se cambre-t-il, pleure-t-il pendant ou après les prises, de façon répétée ?",
           "Observer le retentissement : refuse-t-il de boire, dort-il mal, tousse-t-il pendant les prises ?",
           "Distinguer du vomissement : la régurgitation remonte sans effort, le vomissement est projeté avec contraction.",
-          "Noter ce que tu vois : ces observations sont exactement ce dont le professionnel a besoin."
+          "Écrire trois lignes : la date, ce que tu as vu, ce qui l'accompagnait. C'est ce qui manque le plus au rendez-vous."
         ]
       },
       "geste_doux": {
@@ -32,7 +32,7 @@
         "titre": "Au moment du lait : le confort de l'après-prise",
         "etapes": [
           "Prendre le temps du rot : bébé vertical contre ton épaule, ta main à plat entre ses omoplates.",
-          "Le garder droit 20 minutes : contre toi, sans le remuer et sans le faire jouer.",
+          "Le garder droit 20 à 30 minutes : contre toi, sans le remuer et sans le faire jouer.",
           "Éviter le siège incliné après la tétée : transat et cosy compriment le ventre et aggravent les remontées.",
           "Desserrer ce qui comprime : un élastique de body ou une couche serrée suffisent à faire remonter.",
           "Le coucher à plat, sur le dos : cette règle ne change pas, même chez un bébé qui régurgite beaucoup."
@@ -44,7 +44,7 @@
       },
       "pour_aller_plus_loin": [
         "Fractionner les prises : un peu moins, un peu plus souvent, si les grosses prises sont suivies de grosses remontées.",
-        "Ne rien surélever soi-même : coussins, cales et matelas inclinés augmentent le risque d'étouffement.",
+        "Faire vérifier la prise : une consultante en lactation, une sage-femme ou la puéricultrice de la PMI voit en une tétée ce qu'on cherche depuis des semaines.",
         "Ne rien épaissir ni changer sans avis : lait, préparation, traitement se décident avec le médecin.",
         "Prendre rendez-vous : une persistance à quatre mois se fait examiner. C'est une consultation, pas une urgence."
       ],
@@ -62,15 +62,15 @@
       "categorie": "digestion",
       "situation": "Les selles dures / Il pousse et ça lui fait mal",
       "titre": "Ce qui a changé juste avant",
-      "explication": "Il pousse, il devient rouge, il pleure, et ce qui sort est dur et sec, en petites billes ou en boudin. À quatre mois c'est fréquent, surtout au biberon, et c'est le plus souvent passager. Deux choses valent la peine d'être sues. La première, c'est ce qui définit une constipation : la dureté de la selle et la douleur qu'elle provoque, jamais le nombre de jours d'attente. La seconde, c'est qu'un transit qui se dérègle suit presque toujours un changement, et qu'il vaut la peine de remonter deux ou trois semaines en arrière. Un nouveau lait, un passage de l'allaitement au biberon, une marque changée pour cause de rupture ou de promotion : un estomac de nourrisson met une à deux semaines à s'habituer à une nouvelle composition, parfois davantage.",
-      "ancrage": "Cherche d'abord ce qui a bougé récemment. Et si c'est le lait, sache qu'un changement se corrige avec la personne qui l'a conseillé, jamais devant un rayon.",
+      "explication": "Il pousse, il devient rouge, il pleure, et ce qui sort est dur et sec, en petites billes ou en boudin. À quatre mois c'est fréquent, surtout au biberon, et c'est le plus souvent passager. Deux choses valent la peine d'être sues. La première, c'est ce qui définit une constipation : la dureté de la selle et la douleur qu'elle provoque, jamais le nombre de jours d'attente. La seconde, c'est qu'un transit qui se dérègle suit presque toujours un changement, et qu'il vaut la peine de remonter deux ou trois semaines en arrière. Un nouveau lait, un passage de l'allaitement au biberon, une marque changée pour cause de rupture ou de promotion : un estomac de nourrisson met du temps à s'habituer à une nouvelle composition.",
+      "ancrage": "Cherche d'abord ce qui a bougé récemment. Et si c'est le lait, sache qu'un changement se corrige avec la personne qui l'a conseillé, et pas de ton côté.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
         "titre": "Action immédiate : remonter le fil",
         "etapes": [
-          "Regarder ce qui sort : dur et sec, en petites billes ou en boudin, avec un effort visible. C'est cela, une constipation.",
-          "Remonter deux à trois semaines : un nouveau lait, un passage au biberon, une marque ou une dose changée ?",
+          "Ouvrir la couche et décrire : ce que tu vois maintenant, tu l'auras oublié dans trois jours. Deux mots suffisent.",
+          "Remonter deux à trois semaines : qu'est-ce qui a changé dans ce qu'il boit, ou dans la façon dont il le boit ?",
           "Vérifier la préparation : une mesure rase pour 30 ml d'eau, jamais tassée, jamais davantage.",
           "Ne rien modifier de plus : ni la dilution, ni la marque, ni un ajout quelconque dans le biberon.",
           "Ne rien introduire pour faire venir la selle : ni coton-tige, ni suppositoire, ni embout de thermomètre."
@@ -79,13 +79,13 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : confort du ventre et du siège",
+        "titre": "Confort du ventre et du siège",
         "etapes": [
           "Le poser sur le dos, couche ouverte : plan ferme, jambes entièrement dégagées.",
-          "Ramener ses genoux vers son ventre : tenir trois secondes, relâcher, recommencer sans forcer.",
+          "Ramener ses genoux vers son ventre : tenir 3 secondes, relâcher, recommencer sans forcer.",
           "Poser ta paume tiède sur son ventre : immobile, sans appuyer, le temps de quelques respirations.",
           "Le laisser gigoter au sol chaque jour : le mouvement libre fait plus pour le transit qu'un geste ponctuel.",
-          "Soigner le siège : eau tiède, séchage en tamponnant, quelques minutes à l'air."
+          "Veiller au siège : eau tiède, séchage en tamponnant, quelques minutes à l'air."
         ],
         "lien_reflexologie": {
           "id": "constipation",
@@ -112,8 +112,8 @@
       "categorie": "digestion",
       "situation": "La bave avalée / Il a des hauts-le-cœur et gargouille",
       "titre": "Une déglutition encore immature",
-      "explication": "Ton bébé produit désormais beaucoup de salive, et il ne sait pas encore l'avaler efficacement. Résultat : il gargouille, il tousse, il a parfois des hauts-le-cœur, il se réveille en toussant. C'est une conséquence de la maturation salivaire, pas un signe de dents. La première dent apparaît en moyenne bien plus tard, avec une fourchette très large. Ce n'est pas non plus une infection. C'est inconfortable, cela s'améliore avec la coordination, et cela ne demande aucun traitement. La seule chose qui compte : distinguer un gargouillis d'une vraie gêne respiratoire.",
-      "ancrage": "Ces bruits sont inconfortables à entendre et rarement inconfortables à vivre. Il gargouille, il tousse, et il continue de boire, de dormir et de sourire.",
+      "explication": "Ton bébé produit désormais beaucoup de salive, et il ne sait pas encore l'avaler. Résultat : il gargouille, il tousse, il a parfois des hauts-le-cœur, il se réveille en toussant. C'est un décalage de maturation qui se comble avec la coordination, pas un signe de dents. Sa bouche travaille bien avant que les dents n'arrivent : c'est par elle qu'il découvre, il y porte ses mains puis tout ce qu'il attrape, et ses gencives s'activent longtemps à l'avance. Ce n'est pas non plus une infection. La seule chose qui compte : distinguer un gargouillis d'une vraie gêne respiratoire.",
+      "ancrage": "Ces bruits sont inconfortables à entendre et rarement inconfortables à vivre. Entre deux, il continue de boire, de dormir et de sourire.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -129,7 +129,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : protéger la peau et le confort",
+        "titre": "Protéger la peau et le confort",
         "etapes": [
           "Nettoyer à l'eau tiède : sans savon, plusieurs fois par jour, sur le menton et le cou.",
           "Sécher en tamponnant : particulièrement dans les plis du cou.",
@@ -146,19 +146,19 @@
       ],
       "principe": "Un bébé fabrique sa salive bien avant de savoir l'avaler, et ce décalage fait beaucoup de bruit pour rien. Ce qui s'entend inquiète le parent, ce qui se regarde le renseigne.",
       "erreurs_a_eviter": [
-        "Attribuer une fièvre, une diarrhée ou des pleurs intenses aux dents.",
+        "Attribuer une fièvre, une diarrhée ou des pleurs intenses aux dents : une dent qui perce ne fait ni monter la température ni changer les selles.",
         "Mettre l'anneau au congélateur : le froid extrême peut brûler la gencive.",
-        "Choisir seule un produit pour sa gencive : cela se demande au pharmacien.",
+        "Choisir un produit pour sa gencive sans avis : cela se demande au pharmacien.",
         "Donner un sirop antitussif : contre-indiqué chez le nourrisson."
       ],
       "consulter_si": "Consulter si : bébé présente une gêne à respirer, une respiration sifflante ou rapide, un creusement entre les côtes, une toux persistante, des étouffements répétés en buvant, une salivation soudaine avec difficulté à avaler, de la fièvre, ou s'il refuse de boire → pédiatre sans délai ; appeler le 15 en cas de difficulté à respirer.",
-      "source": "Source : UFSBD (Union française pour la santé bucco-dentaire), rubrique « Bébés et enfants »."
+      "source": "Source : salivation et signes de la poussée dentaire, Assurance Maladie (ameli.fr) ; exploration par la bouche entre trois et six mois, sante.fr et mpedia.fr (Association Française de Pédiatrie Ambulatoire) ; UFSBD, rubrique « Bébés et enfants »."
     },
     {
       "categorie": "digestion",
       "situation": "Le retour des coliques / Il se tord de nouveau le soir",
-      "titre": "Tenir sans essayer un nouveau remède",
-      "explication": "Vous aviez retrouvé des soirées calmes, et voilà que le ventre se durcit à nouveau, que les jambes se replient, que les pleurs reviennent. Ces rechutes de fin de parcours sont fréquentes : la maturation digestive n'est pas linéaire, et une poussée de croissance, une journée chargée ou une fatigue accumulée suffisent à faire ressurgir un épisode. Le danger, à ce stade, n'est pas le ventre de bébé : c'est le découragement du parent, et la tentation de repartir dans une quête de remèdes qu'on avait abandonnée à raison.",
+      "titre": "Tenir sans multiplier les remèdes",
+      "explication": "Tu avais retrouvé des soirées calmes, et voilà que le ventre se durcit à nouveau, que les jambes se replient, que les pleurs reviennent. Ces rechutes de fin de parcours sont fréquentes : la maturation digestive n'est pas linéaire, et une poussée de croissance, une journée chargée ou une fatigue accumulée suffisent à faire ressurgir un épisode. Le danger, à ce stade, n'est pas le ventre de bébé : c'est le découragement du parent, et la tentation de repartir dans une quête de remèdes qu'on avait abandonnée à raison.",
       "ancrage": "Voir revenir ce qu'on croyait fini est décourageant, et il n'y a rien d'anormal à s'entendre soupirer devant son propre bébé. Une rechute n'annule pas les progrès : ce qui te protège maintenant, ce n'est pas un nouveau produit, c'est de ne pas repartir en arrière.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -175,10 +175,13 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Réflexologie : apaisement du soir",
+        "titre": "Le bain avant la soirée",
         "etapes": [
-          "Ce que ça apaise : les tensions qui reviennent en fin de journée.",
-          "Le bon moment : en début de soirée, avant les pleurs."
+          "Un bain tiède en début de soirée : l'eau chaude détend, et le moment tombe bien avant la montée des pleurs.",
+          "Le tenir en flexion dans l'eau : dos rond contre ton avant-bras, genoux repliés, il se relâche mieux ainsi.",
+          "Sortir et sécher sans agiter : lumière basse, pas de jeu, on enchaîne sur la tétée ou le coucher.",
+          "Ta paume tiède sur son ventre ensuite : immobile, sans appuyer, le temps de quelques respirations.",
+          "S'arrêter s'il se crispe : un bain qui excite au lieu d'apaiser ne se force pas, il s'essaie le matin."
         ],
         "lien_reflexologie": {
           "id": "inconfort-digestif",
@@ -196,9 +199,9 @@
         "Conclure que les progrès étaient une illusion parce qu'une soirée a été mauvaise.",
         "Multiplier les remèdes trouvés en ligne : beaucoup sont inutiles, certains dangereux avant un an.",
         "Utiliser des huiles essentielles : contre-indiquées chez le nourrisson, y compris en diffusion.",
-        "Reprendre une méthode abandonnée à raison, faute de mieux."
+        "Reprendre une méthode qu'on avait laissée tomber, faute de mieux : la fatigue fait rouvrir des portes qu'on avait fermées pour de bonnes raisons."
       ],
-      "consulter_si": "Consulter si : son ventre est dur et tendu en permanence avec des vomissements, ou si ton bébé devient anormalement mou → appeler immédiatement le 15. Consulter si, par ailleurs : les pleurs s'accompagnent de fièvre, de vomissements en jet, de sang dans les selles, d'un refus de boire, ou d'une cassure de la courbe de poids → pédiatre ou médecin traitant sans délai. Si tu sens que tu pourrais le secouer : pose-le sur le dos dans son lit, sors de la pièce, et appelle le 119 ou Allo Parents Bébé au 0 800 00 34 56.",
+      "consulter_si": "Consulter si : son ventre est dur et tendu en permanence avec des vomissements, ou si ton bébé devient anormalement mou → appeler immédiatement le 15. Consulter si, par ailleurs : les pleurs s'accompagnent de fièvre, de vomissements en jet, de sang dans les selles, d'un refus de boire, ou d'une cassure de la courbe de poids → pédiatre ou médecin traitant sans délai. Si tu sens que tu pourrais le secouer : pose bébé sur le dos dans son lit, sors de la pièce, et appelle Allo Parents Bébé au 0 800 00 34 56. Et si tu as besoin de parler de ce que tu ressens envers ton enfant, le 119 répond aussi aux parents, jour et nuit, et il n'apparaît sur aucun relevé de téléphone.",
       "source": "Source : mpedia.fr (Association Française de Pédiatrie Ambulatoire), « Décoder les pleurs et les coliques »."
     }
   ]

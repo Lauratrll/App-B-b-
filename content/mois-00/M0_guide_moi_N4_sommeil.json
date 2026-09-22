@@ -32,11 +32,15 @@
         "titre": "Réflexologie : préparer la nuit",
         "etapes": [
           "Un moment fixe : après le bain ou avant le coucher, toujours au même moment de la soirée.",
-          "Réchauffer ses pieds : les tenir quelques instants dans tes paumes.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante, plusieurs passages.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied, apaisement.",
+          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
+          "Suivre la séquence « Sommeil agité » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
+          "Parler doucement pendant la séquence : raconter ce que tu fais, sur le même ton.",
           "Terminer dans la pénombre : coucher bébé sur le dos, sans relancer la lumière ni la parole."
-        ]
+        ],
+        "lien_reflexologie": {
+          "id": "sommeil",
+          "titre": "Sommeil agité"
+        }
       },
       "pour_aller_plus_loin": [
         "Répéter la même séquence : le rituel du soir vaut par sa régularité, pas par son contenu.",
@@ -78,11 +82,15 @@
         "titre": "Réflexologie : accompagner l'endormissement",
         "etapes": [
           "Bébé sur le dos dans son lit : lumière tamisée, pièce calme, ta voix posée.",
-          "Réchauffer ses pieds : les tenir dans tes paumes avant de commencer.",
-          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
+          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
+          "La séquence « Sommeil agité » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
+          "Garder ta voix posée : quelques mots toujours identiques, ou un air fredonné.",
           "Terminer par l'immobilité : une main posée sur son torse, sans bouger, jusqu'à ce que sa respiration s'installe."
-        ]
+        ],
+        "lien_reflexologie": {
+          "id": "sommeil",
+          "titre": "Sommeil agité"
+        }
       },
       "pour_aller_plus_loin": [
         "Varier les modes d'endormissement : bras, portage, lit avec ta main posée, pour qu'aucun ne devienne la seule voie possible.",
@@ -124,11 +132,15 @@
         "titre": "Réflexologie : détendre avant la pose",
         "etapes": [
           "Juste avant le coucher : bébé calme, dans son lit, lumière basse.",
-          "Réchauffer ses pieds : les tenir immobiles dans tes paumes quelques instants.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
+          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
+          "Suivre la séquence « Sommeil agité » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
+          "Ta voix tout bas pendant la séquence : toujours les mêmes mots, qui deviennent un repère.",
           "Finir mains posées : une main sur le torse, immobile, le temps que sa respiration se pose."
-        ]
+        ],
+        "lien_reflexologie": {
+          "id": "sommeil",
+          "titre": "Sommeil agité"
+        }
       },
       "pour_aller_plus_loin": [
         "Emmailloter si cela l'apaise : bras contenus, hanches et jambes libres et pliées, couché sur le dos, jamais serré au niveau des jambes.",
@@ -170,11 +182,15 @@
         "titre": "Réflexologie : préparer une nuit plus calme",
         "etapes": [
           "Un moment fixe en soirée : après le bain, dans la pénombre.",
-          "Réchauffer ses pieds : quelques instants dans tes paumes avant de commencer.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante, plusieurs passages.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
-          "S'arrêter à sa demande : un pied retiré, une crispation, on arrête sans insister."
-        ]
+          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
+          "La séquence « Sommeil agité » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
+          "Parler doucement pendant la séquence : raconter ce que tu fais, sur le même ton.",
+          "S'arrêter à sa demande : un mouvement de retrait, une crispation, on arrête sans insister."
+        ],
+        "lien_reflexologie": {
+          "id": "sommeil",
+          "titre": "Sommeil agité"
+        }
       },
       "pour_aller_plus_loin": [
         "Vérifier l'environnement avant de chercher une cause : chaleur, bruit, lumière, vêtements trop serrés sont les premiers suspects.",

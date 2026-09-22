@@ -12,7 +12,7 @@
       "categorie": "sommeil",
       "situation": "La sieste du matin / Il la refuse et s'écroule avant midi",
       "titre": "Le rythme commence à bouger",
-      "explication": "Vers 12 mois, la plupart des enfants font encore deux siestes, une le matin et une l'après-midi. Le passage à une sieste unique se produit le plus souvent entre 15 et 18 mois, parfois plus tard : à un an, il est rarement installé. Ce qui arrive, c'est une phase de flottement. Ton enfant repousse la sieste du matin plusieurs jours, la réclame ensuite, ou s'endort au moment du repas. Ce désordre passager accompagne les grandes acquisitions motrices et ne signifie pas qu'il est prêt à s'en passer.",
+      "explication": "Vers 12 mois, la plupart des enfants font encore deux siestes, une le matin et une l'après-midi. Le passage à une sieste unique se produit le plus souvent entre 15 et 18 mois, parfois plus tard : à un an, il est rarement installé. Ce qui arrive, c'est une phase de flottement. Ton enfant repousse la sieste du matin plusieurs jours, la réclame ensuite, ou s'endort au moment du repas. Ce désordre passager accompagne les grandes acquisitions motrices mais ne signifie pas qu'il est prêt à s'en passer.",
       "ancrage": "Personne ne peut faire dormir un enfant, et ce n'est pas ce qu'on te demande. Ce qui reste dans tes mains, c'est le calme, l'horaire et l'obscurité.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -32,11 +32,15 @@
         "titre": "Réflexologie : inviter au repos de la journée",
         "etapes": [
           "Choisir le moment juste avant la sieste : enfant allongé, pièce dans la pénombre.",
-          "Zone du gros orteil : appui léger et maintenu quelques secondes sur chaque pied.",
-          "Bord interne du pied : remonter lentement du talon vers le gros orteil, deux ou trois passages.",
+          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
+          "Suivre la séquence « Sommeil agité » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
           "Ralentir progressivement le geste : la main qui ralentit invite le corps à ralentir aussi.",
           "S'arrêter s'il s'anime : un enfant qui rit ou se redresse n'est pas en train de recevoir le geste."
-        ]
+        ],
+        "lien_reflexologie": {
+          "id": "sommeil",
+          "titre": "Sommeil agité"
+        }
       },
       "pour_aller_plus_loin": [
         "Observer sur deux semaines : noter les heures d'endormissement et de réveil montre s'il s'agit d'une phase ou d'un vrai virage.",
@@ -51,7 +55,7 @@
         "Réveiller en plein sommeil profond pour tenir un horaire : l'enfant reste grognon et désorganisé pour l'après-midi.",
         "Comparer aux autres enfants du même âge : l'âge du passage à une sieste varie de plusieurs mois d'un enfant à l'autre."
       ],
-      "consulter_si": "Consulter si : ton enfant dort moins de dix heures par tranche de vingt-quatre heures de façon durable, s'il ne dort pas du tout en journée alors qu'il montre une fatigue permanente, s'il s'endort brutalement à toute heure, ou si la fatigue s'accompagne d'une perte d'appétit ou d'entrain → en parler au pédiatre.",
+      "consulter_si": "Consulter si : ton enfant dort moins de 10 heures par tranche de 24 heures de façon durable, s'il ne dort pas du tout en journée alors qu'il montre une fatigue permanente, s'il s'endort brutalement à toute heure, ou si la fatigue s'accompagne d'une perte d'appétit ou d'entrain → en parler au pédiatre.",
       "source": "Source : besoins de sommeil et siestes du jeune enfant, mpedia.fr (AFPA) ; Institut national du sommeil et de la vigilance."
     },
     {
@@ -75,7 +79,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : redescendre dans le corps",
+        "titre": "Redescendre dans le corps",
         "etapes": [
           "Main large sur le dos : une fois couché, poser la paume entière sans bouger.",
           "Pression douce et constante : le poids de la main donne une sensation d'enveloppe.",
@@ -123,11 +127,15 @@
         "titre": "Réflexologie : apaiser avant de quitter la chambre",
         "etapes": [
           "S'installer au bord du lit : lumière basse, voix qui ralentit, quelques minutes seulement.",
-          "Zone du plexus solaire : au centre de la voûte, cercles lents, 1 minute par pied.",
-          "Balayage de la voûte : du talon vers les orteils, plusieurs passages réguliers.",
+          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
+          "La séquence « Sommeil agité » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
           "Terminer toujours pareil : la même phrase courte à la fin du geste devient le signal de la sortie.",
           "S'arrêter s'il se réanime : quand le geste excite au lieu d'apaiser, on le réserve à un autre moment."
-        ]
+        ],
+        "lien_reflexologie": {
+          "id": "sommeil",
+          "titre": "Sommeil agité"
+        }
       },
       "pour_aller_plus_loin": [
         "Avancer l'heure du coucher : un enfant couché en sur-fatigue met plus longtemps à s'endormir, pas moins.",
@@ -165,7 +173,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : prolonger la nuit sans le réveiller",
+        "titre": "Prolonger la nuit sans le réveiller",
         "etapes": [
           "Main immobile sur le dos : présence chaude et discrète, sans parler.",
           "Pression douce et constante : le poids de la main invite le corps à rester couché.",

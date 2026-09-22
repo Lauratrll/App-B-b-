@@ -130,7 +130,7 @@ Notes :
   "geste_doux": {
     "couleur_fond": "#DCE9CF",
     "couleur_texte": "#3F5C2E",
-    "titre": "Geste doux — après la crise uniquement",
+    "titre": "Après la crise uniquement",
     "etapes": ["...", "..."]
   },
   "pour_aller_plus_loin": ["...", "...", "...", "..."],

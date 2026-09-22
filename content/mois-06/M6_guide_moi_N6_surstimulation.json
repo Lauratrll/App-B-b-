@@ -29,12 +29,12 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Réflexologie : le temps du sas",
+        "titre": "Le temps du sas",
         "etapes": [
-          "Bébé sur le dos, dans le calme : lumière tamisée, pièce silencieuse.",
-          "Toucher enveloppant des pieds : les tenir entiers dans tes paumes, immobiles.",
-          "Balayage de la voûte : du talon vers les orteils, très lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
+          "Bébé contre toi, dans le calme : lumière tamisée, pièce silencieuse.",
+          "Une main à plat sur son ventre : immobile, chaude, sans appuyer.",
+          "Ta respiration lente, tout près de lui : il la sent, et finit souvent par la suivre.",
+          "Un seul son doux, ou le silence : ta voix tout bas, toujours la même phrase.",
           "S'arrêter à sa demande : le geste doit rester agréable."
         ]
       },
@@ -56,7 +56,7 @@
     {
       "categorie": "stimu",
       "situation": "Le creux du soir / Il craque dans le creux du soir",
-      "titre": "Tout se joue deux heures avant",
+      "titre": "Tout se joue 2 heures avant",
       "explication": "Chaque jour, la même chose entre 17h et 19h : il pleure, rien ne le console, et toute la maison se tend. Ce creux cumule deux choses, une fatigue accumulée depuis le matin et une charge sensorielle qui n'a pas été évacuée. Il tombe de surcroît au moment de la journée où les adultes sont les moins disponibles, ce qui le rend plus dur qu'il ne l'est. Chez la plupart des bébés, il s'atténue nettement entre trois et six mois, puis disparaît de lui-même.",
       "ancrage": "Tu n'y peux plus grand-chose à 18h, et ce n'est pas faute d'essayer. Là où tu as prise, c'est plus tôt dans la journée, quand tout va encore bien.",
       "action_immediate": {
@@ -77,9 +77,9 @@
         "titre": "Réflexologie : préparer la fin de journée",
         "etapes": [
           "En milieu d'après-midi : bébé calme, dans une pièce silencieuse.",
-          "Réchauffer ses pieds : les tenir entiers dans tes paumes, immobiles.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
+          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
+          "La séquence « Sommeil agité » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
+          "Parler doucement pendant la séquence : raconter ce que tu fais, sur le même ton.",
           "S'arrêter à sa demande : le geste doit rester agréable."
         ],
         "lien_reflexologie": {
@@ -127,9 +127,9 @@
         "titre": "Réflexologie : remplacer le bain dans le rituel",
         "etapes": [
           "À la place du bain, le soir : bébé sur le dos, lumière tamisée.",
-          "Réchauffer ses pieds : les tenir entiers dans tes paumes, immobiles.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
+          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
+          "Suivre la séquence « Sommeil agité » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
+          "Garder ta voix posée : quelques mots toujours identiques, ou un air fredonné.",
           "Terminer par l'immobilité : une main posée sur son torse, jusqu'à ce que sa respiration se pose."
         ],
         "lien_reflexologie": {
@@ -157,7 +157,7 @@
       "categorie": "stimu",
       "situation": "La décharge d'après-visite / Il décharge quand tout le monde part",
       "titre": "Cadrer avant, accueillir après",
-      "explication": "Il a été charmant pendant deux heures, et il s'effondre dès la porte fermée. Ce n'est ni un rejet des personnes venues, ni de l'ingratitude. Pendant la visite, il tient : il absorbe les voix, les visages, les bras, les odeurs, sans pouvoir dire stop. À six mois, il commence en plus à trier les visages et à préférer les familiers, ce qui rend la circulation de bras en bras beaucoup plus coûteuse qu'à trois mois. La décharge arrive après, auprès de la personne avec qui il se sent le plus en sécurité.",
+      "explication": "Il a été charmant pendant 2 heures, et il s'effondre dès la porte fermée. Ce n'est ni un rejet des personnes venues, ni de l'ingratitude. Pendant la visite, il tient : il absorbe les voix, les visages, les bras, les odeurs, sans pouvoir dire stop. À six mois, il commence en plus à trier les visages et à préférer les familiers, ce qui rend la circulation de bras en bras beaucoup plus coûteuse qu'à trois mois. La décharge arrive après, auprès de la personne avec qui il se sent le plus en sécurité.",
       "ancrage": "Ces pleurs sont une décharge, pas un reproche. C'est auprès de toi qu'il lâche, et cela dit exactement où se trouve sa sécurité.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -174,7 +174,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : retrouver ton odeur",
+        "titre": "Retrouver ton odeur",
         "etapes": [
           "Peau à peau, assis : son torse contre le tien, sans bercer, sans parler.",
           "Une main large sur son dos : posée, immobile, le temps qu'il se pose.",

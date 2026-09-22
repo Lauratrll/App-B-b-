@@ -12,7 +12,7 @@
       "categorie": "pleurs",
       "situation": "La panique du départ / Il panique dès que je disparais",
       "titre": "Tenir pendant la crise",
-      "explication": "Deux secondes hors de son champ de vision, et c'est une crise entière. Ce qui se passe dans son corps à ce moment-là n'a rien de mesuré : la peur déclenche une réaction physique immédiate, le cœur s'emballe, les pleurs deviennent incontrôlables, et plus rien de ce qui se dit ne l'atteint. Un bébé de huit mois n'a aucun moyen de faire redescendre cet état tout seul : il lui faut un corps calme à côté du sien. C'est pour cela qu'expliquer ne sert à rien pendant la crise, et que le contact, lui, sert.",
+      "explication": "2 secondes hors de son champ de vision, et c'est une crise entière. Ce qui se passe dans son corps à ce moment-là n'a rien de mesuré : la peur déclenche une réaction physique immédiate, le cœur s'emballe, les pleurs deviennent incontrôlables, et plus rien de ce qui se dit ne l'atteint. Un bébé de huit mois n'a aucun moyen de faire redescendre cet état tout seul : il lui faut un corps calme à côté du sien. C'est pour cela qu'expliquer ne sert à rien pendant la crise, et que le contact, lui, sert.",
       "ancrage": "Ces cris qui repartent à la moindre porte qui se ferme fatiguent énormément, et beaucoup de parents se demandent à ce stade s'ils ne l'ont pas rendu trop dépendant. Ce n'est pas le cas : pendant la crise, tu n'as rien à corriger, tu as juste à rester.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -32,10 +32,10 @@
         "titre": "Réflexologie : ancrer la sécurité",
         "etapes": [
           "Un moment quotidien : bébé sur le dos, éveillé et calme, dans une pièce à bonne température.",
-          "Réchauffer ses pieds : les tenir entiers dans tes paumes, immobiles.",
-          "Zone des poumons : sous la base des orteils, petits cercles qui avancent vers l'extérieur.",
-          "Zone du plexus solaire : appui doux et maintenu au centre de la voûte, puis on relâche.",
-          "S'arrêter à sa demande : un pied retiré, une crispation, on arrête."
+          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
+          "Suivre la séquence « Angoisse de séparation » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
+          "Garder ta voix posée : quelques mots toujours identiques, ou un air fredonné.",
+          "S'arrêter à sa demande : un mouvement de retrait, une crispation, on arrête."
         ],
         "lien_reflexologie": {
           "id": "separation",
@@ -78,7 +78,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : redescendre après la frayeur",
+        "titre": "Redescendre après la frayeur",
         "etapes": [
           "Contre toi, assis : son torse contre le tien, sans bercer vivement.",
           "Une main large sur son dos : posée, immobile, sans tapoter.",
@@ -124,13 +124,13 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Réflexologie : redescendre après la colère",
+        "titre": "Redescendre après la colère",
         "etapes": [
-          "Une fois la crise passée : bébé sur le dos, dans le calme.",
-          "Réchauffer ses pieds : les tenir entiers dans tes paumes, immobiles.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
-          "S'arrêter à sa demande : un pied retiré, une crispation, on arrête."
+          "Une fois la crise passée : bébé contre toi, dans le calme.",
+          "Sa tête au creux de ton épaule : ta main à plat dans son dos, qui ne bouge pas.",
+          "Un balancement très lent, puis plus rien : le mouvement qui s'arrête l'aide à s'arrêter aussi.",
+          "Souffler longuement près de lui : ton calme passe par ton corps avant tes mots.",
+          "S'arrêter à sa demande : un mouvement de retrait, une crispation, on arrête."
         ]
       },
       "pour_aller_plus_loin": [
@@ -153,7 +153,7 @@
       "categorie": "pleurs",
       "situation": "L'accrochage du coucher / Il ne veut pas me lâcher le soir",
       "titre": "Allonger le rituel, réduire l'aide",
-      "explication": "Le coucher est devenu un déchirement : il s'agrippe, hurle, ne veut pas te lâcher. La coïncidence est mauvaise et elle explique tout : le coucher est la plus longue séparation de la journée, et il tombe en plein pic de l'angoisse de séparation. S'ajoute à cela une journée entière de tension accumulée, qui ressort exactement au moment où le calme se fait. Ce n'est donc pas le sommeil qu'il refuse, c'est le fait de te perdre de vue pour dix heures.",
+      "explication": "Le coucher est devenu un déchirement : il s'agrippe, hurle, ne veut pas te lâcher. La coïncidence est mauvaise et elle explique tout : le coucher est la plus longue séparation de la journée, et il tombe en plein pic de l'angoisse de séparation. S'ajoute à cela une journée entière de tension accumulée, qui ressort exactement au moment où le calme se fait. Ce n'est donc pas le sommeil qu'il refuse, c'est le fait de te perdre de vue pour 10 heures.",
       "ancrage": "Le soir, quand il s'accroche et que tout le monde est à bout, beaucoup de parents voudraient juste pouvoir sortir de la chambre. Ce n'est pas ta présence qui doit se réduire, c'est l'aide, et elle se réduit lentement.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -173,9 +173,9 @@
         "titre": "Réflexologie : le cœur du rituel",
         "etapes": [
           "Toujours au même moment : après le bain, avant la berceuse.",
-          "Réchauffer ses pieds : les tenir entiers dans tes paumes, immobiles.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
+          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
+          "Suivre la séquence « Sommeil agité » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
+          "Parler doucement pendant la séquence : raconter ce que tu fais, sur le même ton.",
           "Terminer par l'immobilité : une main posée sur son torse jusqu'à ce que sa respiration se pose."
         ],
         "lien_reflexologie": {

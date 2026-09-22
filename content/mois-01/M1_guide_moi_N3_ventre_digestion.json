@@ -29,13 +29,13 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Réflexologie : apaisement du soir",
+        "titre": "Observer bébé : lire la soirée qui monte",
         "etapes": [
-          "Ce que ça apaise : le ventre tendu des soirées les plus difficiles.",
-          "Le bon moment : en début de soirée, avant que ça monte, jamais au cœur de la crise.",
-          "Le bas du dos : le long du bord interne du pied, le pouce descend lentement, du milieu vers le talon.",
-          "Le diaphragme, puis le plexus solaire : juste sous les coussinets des orteils, une pression douce et maintenue, 1 minute par pied.",
-          "S'arrêter à sa demande : s'il retire son pied ou se crispe, on arrête sans insister."
+          "Repérer l'heure : la crise revient souvent au même moment, et cela se voit en trois soirs notés.",
+          "Les signes qui précèdent : le regard qui se fixe, les poings qui se ferment, les jambes qui se replient.",
+          "Agir avant le cri : c'est dans ces minutes-là que le portage et le calme font le plus d'effet.",
+          "Écarter la faim : si la dernière prise est toute récente, ce n'est probablement pas ce qu'il réclame.",
+          "Noter ce qui a aidé ce soir-là : la liste change d'un soir à l'autre, et c'est normal d'en avoir plusieurs."
         ],
         "lien_reflexologie": {
           "id": "coliques",
@@ -80,13 +80,13 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Réflexologie : apaiser les remontées",
+        "titre": "Observer bébé : est-ce que ça le gêne ?",
         "etapes": [
-          "Ce que ça apaise : la gêne du haut du ventre entre deux prises.",
-          "Le bon moment : loin des tétées, dans un moment calme de la journée.",
-          "La colonne vertébrale : le long du bord interne du pied, le pouce remonte du talon vers le gros orteil, sans appuyer.",
-          "Le cardia : la porte entre l'œsophage et l'estomac, encore souple à cet âge. Un appui léger et maintenu, puis on relâche.",
-          "S'arrêter à sa demande : s'il retire son pied ou se crispe, on arrête sans insister."
+          "Juste après la remontée : détendu et prêt à repartir, ou grimaçant, cambré, qui refuse de reprendre.",
+          "Pendant la prise : un filet silencieux, ou une gêne qui le fait tousser et se raidir.",
+          "Les couches mouillées : plusieurs par jour disent qu'il garde ce qu'il lui faut.",
+          "La courbe du carnet de santé : c'est elle qui répond, pas la quantité sur ton pull.",
+          "Le moment où c'est sorti : tout de suite, ou longtemps après. C'est une information utile au médecin."
         ],
         "lien_reflexologie": {
           "id": "reflux",
@@ -113,7 +113,7 @@
     {
       "categorie": "digestion",
       "situation": "Les gaz / Il se tortille après chaque tétée",
-      "titre": "Ce qui sort l'air, et ce qui ne sert à rien",
+      "titre": "L'air se joue pendant la tétée, pas après",
       "explication": "À un mois, ton bébé se tortille bien après la fin de la tétée, et plus seulement juste après. Il tire sur ses jambes, son ventre gargouille, il émet des gaz bruyants, puis il se détend d'un coup et tout semble oublié. Ce n'est plus le moment du rot : l'air est déjà descendu, et il traverse un intestin encore lent, dont les muscles se coordonnent tout juste. Ce qui te frappe, ce sont ses mimiques, et elles trompent souvent : à cet âge, un bébé grimace autant pour travailler que pour souffrir.",
       "ancrage": "Un ventre bruyant n'est pas un ventre malade. Ce qui te renseigne, c'est ce qui vient ensuite : s'il se détend et repart, son corps a fait son travail.",
       "action_immediate": {
@@ -177,7 +177,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : confort du ventre et du siège",
+        "titre": "Confort du ventre et du siège",
         "etapes": [
           "L'installer sur le dos : plan ferme, couche ouverte, jambes entièrement libres.",
           "Plier et déplier ses jambes : ses genoux vers son ventre quelques secondes, puis on relâche.",

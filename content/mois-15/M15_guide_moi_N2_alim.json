@@ -12,7 +12,7 @@
       "categorie": "alim",
       "situation": "La fourchette tout seul / Il en met partout",
       "titre": "Le désordre fait partie de l'apprentissage",
-      "explication": "À quinze mois, ton enfant sait attraper et porter à sa bouche, mais la rotation du poignet n'est pas encore là. La fourchette demande quatre choses à la suite : viser, piquer, tourner le manche, arriver jusqu'à la bouche sans que tout tombe. Chaque essai raté est un essai qui compte, et cet apprentissage s'étale sur des mois. La quantité vraiment avalée baisse pendant cette période, parce qu'une partie du repas passe désormais dans le geste plutôt que dans l'estomac.",
+      "explication": "Il y a plus de purée sur la table, sur ses cheveux et sur le mur que dans son assiette. À quinze mois, ton enfant sait attraper et porter à sa bouche, mais la rotation du poignet n'est pas encore là. La fourchette demande quatre choses à la suite : viser, piquer, tourner le manche, arriver jusqu'à la bouche sans que tout tombe. Chaque essai raté est un essai qui compte, et cet apprentissage s'étale sur des mois. La quantité vraiment avalée baisse pendant cette période, parce qu'une partie du repas passe désormais dans le geste plutôt que dans l'estomac.",
       "ancrage": "Ce qu'il renverse est la trace de son travail, pas un dégât. Tu peux préparer le terrain pour salir tranquillement, et garder ton énergie pour la fin du repas.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -34,7 +34,7 @@
           "Transvaser à la cuillère : semoule ou riz sec d'un bol à l'autre, assis, quelques minutes.",
           "Viser à vide : porter une cuillère vide à la bouche, juste pour le trajet et le mouvement du bras.",
           "Piquer pour de faux : des morceaux de pâte à modeler ou d'éponge, le geste s'apprend sans la faim.",
-          "Guider main sur main : ta main sur la sienne trois secondes, puis tu la retires et tu le laisses.",
+          "Guider main sur main : ta main sur la sienne 3 secondes, puis tu la retires et tu le laisses.",
           "Arrêter dès qu'il s'en va : c'est un jeu, il ne se prolonge pas et il revient un autre jour."
         ]
       },
@@ -51,14 +51,13 @@
         "Le nourrir en parallèle pour aller plus vite : les deux fourchettes se gênent et il finit par lâcher la sienne.",
         "Commenter le résultat à voix haute : « regarde ce que tu as fait » transforme un apprentissage en faute."
       ],
-      "consulter_si": "Consulter si : ton enfant perd du poids depuis qu'il mange seul, s'il n'arrive pas à porter un aliment jusqu'à sa bouche à quinze mois, s'il se sert systématiquement d'une seule main, si sa main fatigue ou tremble très vite, ou si le repas s'étire au point qu'il ne mange plus assez → pédiatre, médecin traitant ou PMI, qui pourront orienter vers un ergothérapeute ou un psychomotricien.",
-      "source": "Source : encourager l'enfant à manger seul, avec ses doigts puis avec ses couverts, Santé publique France, programme national nutrition santé (mangerbouger.fr) ; repères pédiatriques mpedia.fr (AFPA)."
+      "consulter_si": "Consulter si : ton enfant perd du poids depuis qu'il mange seul, s'il n'arrive pas à porter un aliment jusqu'à sa bouche à quinze mois, s'il se sert systématiquement d'une seule main, si sa main fatigue ou tremble très vite, ou si le repas s'étire au point qu'il ne mange plus assez → pédiatre, médecin traitant ou PMI, qui pourront orienter vers un ergothérapeute ou un psychomotricien."
     },
     {
       "categorie": "alim",
       "situation": "Les légumes écartés / Il mange tout, sauf les légumes",
       "titre": "Le légume revient sans chantage",
-      "explication": "Le légume est l'aliment le plus souvent écarté, et pour de bonnes raisons de son point de vue : il est amer plus souvent que les autres, sa texture est fibreuse, et son goût varie d'une cuisson à l'autre. À quinze mois, ton enfant ne le découvre plus, il l'a identifié et il le trie. Ce tri est une étape, pas un goût définitif : ce qui le fait bouger, c'est de continuer à croiser le légume à table, dans un climat qui ne demande rien.",
+      "explication": "Il a trié les courgettes une par une, il les a posées sur le bord de l'assiette, et il a mangé tout le reste. Le légume est l'aliment le plus souvent écarté, et pour de bonnes raisons de son point de vue : il est amer plus souvent que les autres, sa texture est fibreuse, et son goût varie d'une cuisson à l'autre. À quinze mois, il ne le découvre plus, il l'a identifié et il le trie. Ce tri est une étape, pas un goût définitif : ce qui le fait bouger, c'est de continuer à croiser le légume à table, dans un climat qui ne demande rien.",
       "ancrage": "Tu n'as pas à lui faire aimer les légumes cette semaine. Tu as à faire en sorte qu'ils restent dans le paysage, ce qui est beaucoup plus simple et beaucoup plus efficace.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -96,14 +95,13 @@
         "Ne plus en servir du tout : le légume quitte sa vue, et les présentations qui l'auraient fait entrer avec.",
         "Changer de légume à chaque refus : il n'en croise aucun assez souvent pour l'apprivoiser."
       ],
-      "consulter_si": "Consulter si : le refus s'étend aux fruits et aux protéines et pas seulement aux légumes, si ton enfant tolère de moins en moins d'aliments au fil des mois, s'il est pâle ou se fatigue vite, ou si son transit se bloque durablement → pédiatre, médecin traitant ou PMI, qui pourront orienter vers une diététicienne pédiatrique.",
-      "source": "Source : proposer sans forcer, représenter l'aliment refusé et ne pas s'en servir comme récompense, repères pédiatriques mpedia.fr (AFPA) et Assurance Maladie, ameli.fr ; repères alimentaires des enfants de 1 à 3 ans, Santé publique France, programme national nutrition santé."
+      "consulter_si": "Consulter si : le refus s'étend aux fruits et aux protéines et pas seulement aux légumes, si ton enfant tolère de moins en moins d'aliments au fil des mois, s'il est pâle ou se fatigue vite, ou si son transit se bloque durablement → pédiatre, médecin traitant ou PMI, qui pourront orienter vers une diététicienne pédiatrique."
     },
     {
       "categorie": "alim",
       "situation": "L'assiette des grands / Il pioche dans la mienne",
       "titre": "Servir la même chose à tout le monde",
-      "explication": "À quinze mois, l'imitation devient le moteur principal de ses apprentissages, et elle s'applique à table comme ailleurs. Le même aliment n'a pas la même valeur dans son assiette et dans la tienne : ce qui vient de l'assiette d'un adulte est validé d'avance. Piocher chez toi n'est donc pas un vol, c'est une demande d'appartenance au repas. Et c'est une chance, parce que cela ouvre un chemin vers des aliments qu'il écarte quand ils lui sont servis directement.",
+      "explication": "Il a devant lui exactement le même plat que toi, et c'est dans ton assiette qu'il pioche. À quinze mois, l'imitation devient le moteur principal de ses apprentissages, et elle s'applique à table comme ailleurs. Le même aliment n'a pas la même valeur dans son assiette et dans la tienne : ce qui vient de l'assiette d'un adulte est validé d'avance. Piocher chez toi n'est donc pas un vol, c'est une demande d'appartenance au repas. Et c'est une chance, parce que cela ouvre un chemin vers des aliments qu'il écarte quand ils lui sont servis directement.",
       "ancrage": "Ce qu'il cherche, c'est le repas que vous faites ensemble, pas le contenu de ton assiette. Tu peux lui donner ce qu'il demande sans que cela te coûte quoi que ce soit.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -149,7 +147,7 @@
       "categorie": "alim",
       "situation": "Les bouchées avalées tout rond / Il avale sans mâcher",
       "titre": "Ralentir avant de mâcher mieux",
-      "explication": "À quinze mois, les premières molaires viennent à peine de percer ou n'ont pas fini de sortir. Ton enfant broie donc surtout avec ses gencives et ses incisives, et il compense ce qu'il ne peut pas encore mâcher en avalant. La vitesse fait le reste : quand il a très faim ou qu'il est pressé de retourner jouer, la bouchée part avant d'avoir été travaillée. C'est le mécanisme d'accident le plus fréquent à cet âge, et c'est aussi celui sur lequel on a le plus de prise.",
+      "explication": "Tu l'as vu avaler un morceau presque entier, et tu n'as plus respiré pendant une seconde. À quinze mois, les premières molaires viennent à peine de percer ou n'ont pas fini de sortir. Ton enfant broie donc surtout avec ses gencives et ses incisives, et il compense ce qu'il ne peut pas encore mâcher en avalant. La vitesse fait le reste : quand il a très faim ou qu'il est pressé de retourner jouer, la bouchée part avant d'avoir été travaillée. C'est le mécanisme d'accident le plus fréquent à cet âge, et c'est aussi celui sur lequel on a le plus de prise.",
       "ancrage": "Ce n'est pas de la gourmandise, c'est une bouche qui n'a pas encore ses outils. Tu peux agir sur trois choses : la taille des bouchées, la vitesse, et ce qui est dans l'assiette.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",

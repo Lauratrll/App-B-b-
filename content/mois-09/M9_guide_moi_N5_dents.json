@@ -32,10 +32,10 @@
         "titre": "Réflexologie : accompagner la poussée",
         "etapes": [
           "Au calme, à distance des repas : jamais au plus fort de la douleur.",
-          "Envelopper ses pieds dans tes paumes : les réchauffer sans bouger, quelques respirations.",
-          "Travailler la base des orteils : de petits cercles à la racine de chaque orteil, un pied puis l'autre.",
-          "Remonter sur le dessus du pied : autour de la base de l'ongle du gros orteil, en appuis légers.",
-          "T'arrêter s'il retire son pied : le geste vaut par ce qu'il apaise, pas par sa durée."
+          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
+          "La séquence « Poussées dentaires » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
+          "Garder ta voix posée : quelques mots toujours identiques, ou un air fredonné.",
+          "T'arrêter s'il se détourne : le geste vaut par ce qu'il apaise, pas par sa durée."
         ],
         "lien_reflexologie": {
           "id": "dents",
@@ -79,7 +79,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : lui donner de quoi appuyer",
+        "titre": "Lui donner de quoi appuyer",
         "etapes": [
           "Varier les résistances : souple, ferme, strié, chaque texture répond à un besoin différent.",
           "Proposer avant qu'il cherche : l'objet arrive avant l'épaule, pas après.",
@@ -125,7 +125,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : répondre à ce que tu as observé",
+        "titre": "Répondre à ce que tu as observé",
         "etapes": [
           "Si c'est la gencive : une pression du doigt et de la fraîcheur avant le coucher, pas en pleine nuit.",
           "Si c'est l'angoisse : une réponse courte, la même chaque fois, sans le sortir du lit.",
@@ -171,7 +171,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : le soin qui compte vraiment",
+        "titre": "Le soin qui compte vraiment",
         "etapes": [
           "Passer un linge doux sur les dents chaque soir : si la brosse est encore refusée.",
           "Une brosse à petite tête et poils très souples : quelques secondes suffisent à cet âge.",
@@ -199,9 +199,9 @@
     {
       "categorie": "dents",
       "situation": "La lutte du lavage de nez / Il se débat et je finis par renoncer",
-      "titre": "À deux, et bouclé en dix secondes",
+      "titre": "À deux, et bouclé en 10 secondes",
       "explication": "Le lavage de nez tourne à la bagarre : il se cambre, tourne la tête, repousse ta main, et tu finis par renoncer. Ce qui a changé, ce n'est pas le geste, c'est lui : à neuf mois il est fort, mobile, et il anticipe ce qui arrive dès qu'il voit la dosette. Le nez encombré, lui, reste un vrai sujet à cet âge, surtout en collectivité, parce qu'un tout-petit respire mal par la bouche en dormant et en buvant.",
-      "ancrage": "Maintenir un enfant qui hurle pour un geste d'hygiène met profondément mal à l'aise, et beaucoup de parents finissent par y renoncer. Un lavage à deux, annoncé et bouclé en dix secondes, change complètement ce moment.",
+      "ancrage": "Maintenir un enfant qui hurle pour un geste d'hygiène met profondément mal à l'aise, et beaucoup de parents finissent par y renoncer. Un lavage à deux, annoncé et bouclé en 10 secondes, change complètement ce moment.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -220,9 +220,9 @@
         "titre": "Réflexologie : après le lavage",
         "etapes": [
           "Une fois calmé, contre toi : pieds libres, sans reparler de ce qui vient de se passer.",
-          "Réchauffer ses pieds entre tes paumes : quelques respirations sans bouger.",
-          "Travailler la base des orteils : de petits cercles sur le coussinet sous chaque orteil.",
-          "Remonter le long du bord interne du pied : en appuis lents et réguliers, un pied puis l'autre.",
+          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
+          "Suivre la séquence « Rhume et oreilles » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
+          "Ta voix tout bas pendant la séquence : toujours les mêmes mots, qui deviennent un repère.",
           "T'arrêter s'il se crispe : ce moment doit compenser le précédent, pas s'y ajouter."
         ],
         "lien_reflexologie": {
@@ -243,7 +243,7 @@
         "Renoncer parce qu'il pleure : le nez encombré gêne les repas et le sommeil, et la gêne dure plus longtemps que le lavage.",
         "Utiliser un mouche-bébé à répétition sans avis : l'aspiration répétée irrite la muqueuse et entretient l'encombrement."
       ],
-      "consulter_si": "Consulter si : bébé respire vite ou difficilement, creuse entre les côtes, refuse de boire, a de la fièvre plus de quarante-huit heures, tire sur son oreille avec de la fièvre, ou paraît anormalement mou → médecin traitant ou pédiatre sans délai ; appeler le 15 en cas de gêne respiratoire marquée.",
+      "consulter_si": "Consulter si : bébé respire vite ou difficilement, creuse entre les côtes, refuse de boire, a de la fièvre plus de 48 heures, tire sur son oreille avec de la fièvre, ou paraît anormalement mou → médecin traitant ou pédiatre sans délai ; appeler le 15 en cas de gêne respiratoire marquée.",
       "source": "Source : ameli.fr (Assurance Maladie), rhinopharyngite de l'enfant : lavage de nez et signes qui doivent alerter."
     }
   ]

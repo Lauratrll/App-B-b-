@@ -30,7 +30,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — un objet de lien pour la journée",
+        "titre": "Un objet de lien pour la journée",
         "etapes": [
           "Glisser un objet à toi (foulard, photo) dans son sac : un morceau de toi qui reste près de lui.",
           "Un doudou ou une tétine familière : des repères stables qui traversent la journée.",
@@ -77,10 +77,15 @@
         "titre": "Réflexologie : décompresser après la journée",
         "etapes": [
           "Une fois à la maison, au calme, l'installer contre toi s'il l'accepte.",
-          "Zone du plexus solaire : au centre de la voûte, cercles lents quelques instants — évacue la tension du jour.",
-          "Balayage doux de la voûte, du talon vers les orteils, en respirant lentement avec lui.",
-          "S'arrêter dès qu'il se détend ou retire son pied — le laisser atterrir en douceur."
-        ]
+          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
+          "La séquence « Angoisse de séparation » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
+          "Parler doucement pendant la séquence : raconter ce que tu fais, sur le même ton.",
+          "S'arrêter dès qu'il se détend ou se détourne — le laisser atterrir en douceur."
+        ],
+        "lien_reflexologie": {
+          "id": "separation",
+          "titre": "Angoisse de séparation"
+        }
       },
       "pour_aller_plus_loin": [
         "Prévoir un sas de décompression : 15 minutes calmes au retour, sans écran ni sollicitation.",
@@ -118,7 +123,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — nourrir sa sécurité intérieure",
+        "titre": "Nourrir sa sécurité intérieure",
         "etapes": [
           "Offrir des temps de présence pleine : quelques minutes vraiment avec lui remplissent son réservoir de sécurité.",
           "Jouer à se cacher et réapparaître (coucou, cache-cache) : apprendre par le jeu que l'absence est temporaire.",
@@ -162,7 +167,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — apprendre à partager en douceur",
+        "titre": "Apprendre à partager en douceur",
         "etapes": [
           "Jouer au « chacun son tour » à la maison, avec toi : s'entraîner sans enjeu.",
           "Nommer et féliciter les gestes gentils quand ils arrivent : « tu lui as donné la balle, c'était doux ».",
@@ -206,7 +211,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — aider à redescendre",
+        "titre": "Aider à redescendre",
         "etapes": [
           "Un bercement lent, dans tes bras, sans rien attendre en retour.",
           "Un bain tiède à la veilleuse, sans jeu ni stimulation.",
@@ -215,12 +220,12 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Prévoir la récupération : après une grosse sortie, réserver une à deux heures de calme obligatoire.",
+        "Prévoir la récupération : après une grosse sortie, réserver une à 2 heures de calme obligatoire.",
         "Limiter les événements : un grand moment par week-end, c'est déjà beaucoup pour un tout-petit.",
         "Prévenir l'entourage : partir tôt, sans pression, avant que le trop-plein n'éclate.",
         "Emporter ses repères partout : doudou, tétine, couverture familière rassurent en terrain nouveau."
       ],
-      "principe": "Plus la stimulation a été grande, même joyeuse, plus le temps de récupération est long : un anniversaire de trois heures peut demander une journée de retour au calme. Anticiper et accepter ce besoin évite les conflits. On n'explique pas le trop-plein, on l'accompagne vers le calme.",
+      "principe": "Plus la stimulation a été grande, même joyeuse, plus le temps de récupération est long : un anniversaire de 3 heures peut demander une journée de retour au calme. Anticiper et accepter ce besoin évite les conflits. On n'explique pas le trop-plein, on l'accompagne vers le calme.",
       "erreurs_a_eviter": [
         "Penser « il devrait être content après une telle journée » — la fatigue dépasse le plaisir.",
         "Rester longtemps après l'événement « le temps qu'il se remette » — il ne se remet qu'au calme.",

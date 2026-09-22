@@ -236,6 +236,102 @@ TITRES_THEMATISES = {
 }
 
 
+# ---------------------------------------------------------------------------
+# Prise de position sur un remede — ALERTE, jamais bloquante. Ajoute le 9/09/2026.
+#
+# Regle du 26 aout 2026, PRECISEE par Laura le 9 septembre : ce qui est interdit,
+# c'est le jugement porte sur un produit — son efficacite, son innocuite, sa
+# posologie. Ce qui reste autorise, et qu'elle a valide explicitement :
+#   - une mise en garde generale et QUANTIFIEE sur une categorie
+#     (« beaucoup des remedes trouves en ligne sont inutiles, certains dangereux ») ;
+#   - le renvoi au pharmacien ou au medecin, qui dit QUI decide et non ce que ca vaut ;
+#   - les consignes de securite arretees (« contre-indiquees chez le nourrisson »).
+# Son avertissement, aussi important que la regle : « trop nuancer ne veut plus
+# rien dire ». Une phrase videe de sa charge ne protege personne.
+#
+# Le script ne juge pas le contexte. Il montre la phrase, la relecture tranche.
+# Il ne signale donc QUE les formes absolues, et il se tait devant un quantifieur.
+# ---------------------------------------------------------------------------
+QUANTIFIEUR = r"(?:beaucoup|certain(?:s|es)?|souvent|parfois|la plupart|quelques|nombreux|nombreuses)"
+
+# Les mots qui font qu'on parle bien d'un REMEDE, et non d'autre chose. Sans l'un
+# d'eux a proximite, « inefficace » ou « inutile » decrit une tetee, un effort ou
+# une exclusion alimentaire : ce n'est pas une prise de position sur un produit.
+PRODUIT = (r"rem[eè]des?|produits?|traitements?|m[ée]dicaments?|sirop|gel\b|granule"
+           r"|hom[ée]opath|compl[ée]ments?|tisane|probiotique|anti-?(?:gaz|reflux|colique)"
+           r"|pharmacien|posologie")
+
+# --- Formes qui se suffisent a elles-memes : elles nomment deja le remede,
+#     ou elles disent d'elles-memes qu'il n'y a rien a soigner.
+POSITIONS_REMEDE = [
+    (r"n['’]a\s+(?:jamais\s+)?fait\s+la\s+preuve",
+     "position absolue sur un remede (« n'a fait la preuve »)"),
+    (r"il\s+n['’]y\s+a\s+pas\s+de\s+rem[eè]de|ce\s+ne\s+sont\s+pas\s+des\s+rem[eè]des",
+     "position absolue sur un remede"),
+    # VALIDES PAR LAURA le 9 septembre 2026, et donc retires du motif :
+    #   « ce n'est pas un (enieme) remede : c'est un parent relaye »
+    #   « le nombre d'adultes disponibles, pas le nombre de remedes essayes »
+    #   « soutiennent le transit mieux qu'un remede »
+    # Ce sont des CONTRASTES, pas des jugements portes sur un produit nomme, et les
+    # retirer vidait les phrases de leur charge. Son avertissement fait regle :
+    # « trop nuancer ne veut plus rien dire ». Un motif qui crie sur une tournure
+    # que la fondatrice a validee est du bruit pur, il ne reste pas.
+    (r"efficacit[ée][^.!?]{0,40}?(?:n['’]est\s+pas|jamais|non)\s+(?:prouv|d[ée]montr)",
+     "position sur l'efficacite d'un remede"),
+    # Le cas « ca se soigne tout seul » : l'app ne decide jamais d'elle-meme
+    # qu'il n'y a rien a soigner. Regle du 26 aout, le plus risque des trois.
+    (r"se\s+r[èe]gle\s+tout\s+seul|passe\s+tout\s+seul|passe\s+sans\s+rien\s+faire"
+     r"|rien\s+[àa]\s+soigner",
+     "l'app decide seule qu'il n'y a rien a soigner"),
+]
+
+# --- Formes qui ne valent que si un remede est dans les parages.
+POSITIONS_SI_PRODUIT = [
+    (r"\binefficac|sans\s+efficacit[ée]", "jugement d'efficacite sur un remede"),
+    (r"\binutil", "jugement d'efficacite sur un remede"),
+    (r"ne\s+ser(?:t|vent)\s+[àa]\s+rien|ne\s+f(?:ait|ont)\s+rien\b",
+     "jugement d'efficacite sur un remede"),
+    (r"ne\s+(?:demande|n[ée]cessite|r[ée]clame)\s+aucun",
+     "l'app decide seule qu'il n'y a rien a soigner"),
+]
+
+# --- Moyenne de developpement. Regle du 28 aout : seuls les seuils de depistage
+#     entrent. Seule exception (9 septembre) : une fourchette d'acquisition donnee
+#     EN ENTIER, qui sert a elargir et jamais a situer un enfant.
+MOYENNES = [
+    (r"\ben\s+moyenne\b|\bmoyenne\s+d['’][âa]ge\b",
+     "moyenne de developpement (seuls les seuils de depistage entrent)"),
+    (r"\bla\s+plupart\s+des\s+(?:enfants|b[ée]b[ée]s)\b",
+     "« la plupart des » (Laura, 9/09 : ca depend du sujet, ne pas pousser une "
+     "comparaison qui peut inquieter ou rabaisser)"),
+]
+
+# Quand une affirmation est ATTRIBUEE a une institution francaise dans la meme phrase,
+# ce n'est plus l'app qui prend position : elle relaie, et elle nomme qui decide.
+# Le script ne fait pas taire l'alerte pour autant — il nomme l'institution trouvee,
+# pour que la relecture tranche en une seconde au lieu d'aller rouvrir la carte.
+INSTITUTIONS = (r"Haute Autorit[ée] de Sant[ée]|\bHAS\b|Assurance Maladie|ameli|Sant[ée] publique "
+                r"France|ANSES|Inserm|mpedia|AFPA|UFSBD|1000[- ]premiers[- ]jours|caf\.fr"
+                r"|service-public|monenfant")
+
+
+def _attribution(texte, debut, fin, fenetre=150):
+    """Nom de l'institution citee autour du motif, s'il y en a une."""
+    m = re.search(INSTITUTIONS, texte[max(0, debut - fenetre):fin + fenetre], re.I)
+    return m.group(0) if m else None
+
+
+def _proche(motif, texte, debut, fin, fenetre=90):
+    return re.search(motif, texte[max(0, debut - fenetre):fin + fenetre], re.I) is not None
+
+
+def _encadre_par_un_quantifieur(texte, debut, fin, fenetre=60):
+    """Vrai si un quantifieur prudent se trouve juste avant ou juste apres le motif.
+    « beaucoup sont inutiles » est valide ; « c'est inutile » ne l'est pas."""
+    autour = texte[max(0, debut - fenetre):fin + fenetre]
+    return re.search(QUANTIFIEUR, autour, re.I) is not None
+
+
 def verifier_protocole(proto, etiquette, rapport):
     def dire(gravite, msg):
         rapport.append((gravite, f"{etiquette} : {msg}"))
@@ -280,8 +376,10 @@ def verifier_protocole(proto, etiquette, rapport):
                     if titre.startswith(tuple(t for c in TITRES_THEMATISES for t in TITRES_THEMATISES[c])):
                         dire("ALERTE", f"geste_doux : titre thematise emprunte a un autre slot "
                                        f"« {titre} » (categorie « {cat} »)")
-                    else:
-                        dire("ALERTE", f"geste_doux : titre inattendu « {titre} » (categorie « {cat} »)")
+                    elif titre.startswith("Geste doux"):
+                        # Laura, 22/09 : le prefixe « Geste doux » est supprime, le titre est la seule precision
+                        dire("ALERTE", f"geste_doux : prefixe « Geste doux » a retirer « {titre} »")
+                    # sinon : titre libre (ancien « Geste doux : … » sans son prefixe), accepte
 
     # --- Format situation / titre, nouvelle convention du 26/08/2026 ---------------
     # AVANT : situation = « scene / detail », titre = « scene / ce que le protocole apporte ».
@@ -350,9 +448,26 @@ def verifier_protocole(proto, etiquette, rapport):
 
     for chemin, texte in textes(proto):
         for motif, msg, gravite in INTERDITS:
-            for m in re.finditer(motif, texte):
+            for m in re.finditer(motif, texte, re.I):
                 extrait = texte[max(0, m.start() - 30):m.end() + 30].replace("\n", " ")
                 dire(gravite, f"{msg} dans {chemin} : …{extrait}…")
+
+        # Prise de position sur un remede, et moyennes de developpement : ALERTE seule.
+        for motif, msg, exige_produit in ([(a, b, False) for a, b in POSITIONS_REMEDE]
+                                          + [(a, b, True) for a, b in POSITIONS_SI_PRODUIT]):
+            for m in re.finditer(motif, texte, re.I):
+                if exige_produit and not _proche(PRODUIT, texte, m.start(), m.end()):
+                    continue
+                if _encadre_par_un_quantifieur(texte, m.start(), m.end()):
+                    continue
+                extrait = texte[max(0, m.start() - 40):m.end() + 40].replace("\n", " ")
+                qui = _attribution(texte, m.start(), m.end())
+                suffixe = f" [attribue a {qui}, a confirmer]" if qui else ""
+                dire("ALERTE", f"{msg}{suffixe} dans {chemin} : …{extrait}…")
+        for motif, msg in MOYENNES:
+            for m in re.finditer(motif, texte, re.I):
+                extrait = texte[max(0, m.start() - 40):m.end() + 40].replace("\n", " ")
+                dire("ALERTE", f"{msg} dans {chemin} : …{extrait}…")
 
 
 def verifier_fichier(chemin, check_only=False):

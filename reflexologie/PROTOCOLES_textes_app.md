@@ -330,7 +330,7 @@ En voiture ou en train, **le système de l'équilibre de bébé est encore immat
 
 _Sous-titre (liste) : Accompagner l'endormissement et le retour au calme, au creux du soir._
 
-Le sommeil de bébé est fait de **cycles courts**, et les réveils font partie de son apprentissage, même quand ils sont épuisants. Son horloge interne se construit petit à petit : ce sont **les repères qui reviennent**, la lumière du jour, la pénombre du soir, les rituels répétés, qui l'aident peu à peu à distinguer le jour de la nuit. La séquence accompagne ce travail en passant par les zones liées aux rythmes et au retour au calme. Installe-toi : lumière tamisée, ta voix posée, ta respiration lente.
+Le sommeil de bébé est fait de **cycles courts**. Les réveils sont physiologiques et font partie de son développement, même s'ils sont parfois épuisants pour les parents. Son horloge interne se construit petit à petit : ce sont **les repères qui reviennent**, la lumière du jour, la pénombre du soir, les rituels répétés, qui l'aident peu à peu à distinguer le jour de la nuit. Ce protocole l'accompagne, en passant par les zones liées au rythme circadien et à la relaxation. Installe-toi : lumière tamisée, ta voix posée, ta respiration lente.
 
 _Ton propre apaisement compte autant que le geste._
 

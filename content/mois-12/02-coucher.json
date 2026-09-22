@@ -70,7 +70,7 @@
     {
       "etape": 5,
       "titre": "Massage, réflexologie, puis pyjama",
-      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud — pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou de réflexologie du soir. Mains réchauffées, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas. L'huile posée, on passe ensuite au pyjama — qu'il peut t'aider à enfiler."
+      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud — pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou la séquence de réflexologie « Sommeil agité ». Mains réchauffées, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas. L'huile posée, on passe ensuite au pyjama — qu'il peut t'aider à enfiler."
     },
     {
       "etape": 6,
@@ -90,51 +90,12 @@
   ],
   "reflexologie_du_coucher": {
     "titre": "Réflexologie du soir",
-    "intro": "Juste après le massage, ton enfant encore au chaud, les pieds découverts. Voix très basse, mouvements infimes.",
-    "duree_totale": "7 minutes",
-    "pression": "0/10 — c'est une caresse, pas un massage",
-    "consentement": "Avant tout, observe les réactions de ton enfant. Le massage et la réflexologie se font avec son accord : à la moindre crispation, si ton enfant retire son pied ou se braque, arrête-toi. C'est un moment de plaisir partagé, jamais une technique à imposer.",
-    "etapes": [
-      {
-        "zone": "Envelopper les pieds",
-        "duree": "1 minute",
-        "geste": "Tes paumes autour des deux pieds, immobile. Synchronise ton souffle au sien.",
-        "ce_que_cest": "Présence et contact avant tout geste"
-      },
-      {
-        "zone": "Gros orteil",
-        "duree": "1 minute / pied",
-        "geste": "Effleurage lent du coussinet, du bout vers la base.",
-        "ce_que_cest": "Apaise le système nerveux"
-      },
-      {
-        "zone": "Voûte haute",
-        "duree": "1 minute",
-        "geste": "Effleurement large sous la base des orteils.",
-        "ce_que_cest": "Détend la respiration et le diaphragme"
-      },
-      {
-        "zone": "Centre de la voûte (plexus solaire)",
-        "duree": "1 minute",
-        "geste": "Cercles infimes au centre, sens horaire, très lents.",
-        "ce_que_cest": "Zone clé du calme"
-      },
-      {
-        "zone": "Talon",
-        "duree": "1 minute / pied",
-        "geste": "Pression maintenue immobile au creux du talon. Juste du contact.",
-        "ce_que_cest": "Ancrage, sécurité"
-      },
-      {
-        "zone": "Envelopper et clore",
-        "duree": "1 minute",
-        "geste": "Envelopper à nouveau les pieds. Murmurer : « Tu peux dormir. Je suis là. »",
-        "ce_que_cest": "Clôture en douceur"
-      }
-    ],
-    "focus_par_theme": {
-      "motricite": "Insiste sur le talon et la voûte plantaire : pression maintenue et immobile, pour ramener le calme dans le bas du corps après une journée de mouvement.",
-      "langage": "En douceur, la face interne du gros orteil (zone gorge / expression) : cercles infimes, 1 minute par pied."
+    "intro": "Après le bain, ton enfant encore au chaud, les pieds découverts. Voix très basse, mouvements infimes. La séquence « Sommeil agité » se suit pas à pas, animée, dans l'onglet Réflexologie. Elle reste la même tout au long des deux ans : c'est sa répétition, soir après soir, qui en fait un repère.",
+    "consentement": "Avant tout, observe les réactions de ton enfant. La réflexologie se fait avec son accord : à la moindre crispation, si ton enfant retire son pied ou se braque, arrête-toi. C'est un moment de plaisir partagé, jamais une technique à imposer.",
+    "etapes": [],
+    "lien_reflexologie": {
+      "id": "sommeil",
+      "titre": "Sommeil agité"
     }
   },
   "script_audio_du_soir": {

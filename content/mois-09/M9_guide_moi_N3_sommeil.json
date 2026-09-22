@@ -29,7 +29,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : le recoucher sans le réveiller",
+        "titre": "Le recoucher sans le réveiller",
         "etapes": [
           "Poser d'abord une main immobile sur son dos : il perçoit une présence avant un mouvement.",
           "Décrocher ses mains des barreaux une par une : lentement, un doigt après l'autre.",
@@ -74,7 +74,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : accompagner la fin de nuit",
+        "titre": "Accompagner la fin de nuit",
         "etapes": [
           "Entrer sans allumer et sans le prendre : une main posée sur son dos suffit à signaler ta présence.",
           "Une pression constante plutôt qu'un bercement : le mouvement réveille, le poids apaise.",
@@ -86,7 +86,7 @@
       "pour_aller_plus_loin": [
         "Occulter la chambre pour de bon : rideaux épais, interstices bouchés, veilleuse éteinte ou très basse.",
         "Vérifier l'heure du coucher : un coucher trop tardif fatigue à l'excès et avance le réveil au lieu de le retarder.",
-        "Regarder le sommeil sur vingt-quatre heures : siestes comprises, c'est le total qui compte.",
+        "Regarder le sommeil sur 24 heures : siestes comprises, c'est le total qui compte.",
         "Se relayer sur les levers : un matin sur deux chacun change la semaine entière."
       ],
       "principe": "La fin de nuit ne se rattrape pas au moment où elle a lieu. Ce qui la protège, c'est ce qui a été réglé la veille : la lumière, l'heure du coucher, et la quantité de sommeil de la journée.",
@@ -96,7 +96,7 @@
         "Le nourrir automatiquement à cette heure : la faim se déplace et finit par le réveiller vraiment.",
         "Changer d'approche chaque matin : sans régularité, aucun réglage n'a le temps de produire un effet."
       ],
-      "consulter_si": "Consulter si : bébé dort très peu sur l'ensemble des vingt-quatre heures et ne prend pas de poids, s'il est agité et inconsolable, difficile à réveiller, ou s'il présente des pauses respiratoires, une respiration bruyante ou un ronflement important → pédiatre ; appeler le 15 en cas de trouble respiratoire."
+      "consulter_si": "Consulter si : bébé dort très peu sur l'ensemble des 24 heures et ne prend pas de poids, s'il est agité et inconsolable, difficile à réveiller, ou s'il présente des pauses respiratoires, une respiration bruyante ou un ronflement important → pédiatre ; appeler le 15 en cas de trouble respiratoire."
     },
     {
       "categorie": "sommeil",
@@ -122,9 +122,9 @@
         "titre": "Réflexologie : préparer la sieste",
         "etapes": [
           "Juste avant le coucher, dans la pénombre : bébé calme, allongé sur le dos.",
-          "Réchauffer ses pieds entre tes paumes : immobiles, le temps de quelques respirations.",
-          "Balayer la voûte du talon vers les orteils : lentement, pression douce et constante.",
-          "Cercles au centre de la voûte : 1 minute par pied, sans presser.",
+          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
+          "La séquence « Sommeil agité » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
+          "Ta voix tout bas pendant la séquence : toujours les mêmes mots, qui deviennent un repère.",
           "Terminer par une main posée sur son torse : jusqu'à ce que sa respiration se pose."
         ],
         "lien_reflexologie": {
@@ -168,7 +168,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : préparer la réponse du soir",
+        "titre": "Préparer la réponse du soir",
         "etapes": [
           "Utiliser la même phrase au coucher : il la reconnaît la nuit parce qu'il l'a entendue le soir.",
           "L'associer à un geste précis : une main posée sur le torse, toujours au même endroit.",

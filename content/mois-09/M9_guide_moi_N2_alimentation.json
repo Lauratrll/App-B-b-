@@ -29,7 +29,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : un repas qui se passe bien",
+        "titre": "Un repas qui se passe bien",
         "etapes": [
           "Installer ses pieds sur un appui : des jambes qui pendent fatiguent et raccourcissent le repas.",
           "Te mettre à sa hauteur, sur le côté : en face et au-dessus, on surveille ; à côté, on accompagne.",
@@ -75,7 +75,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : apprivoiser avant de goûter",
+        "titre": "Apprivoiser avant de goûter",
         "etapes": [
           "Le laisser toucher l'aliment sans avoir à le manger : la main est la première étape de l'acceptation.",
           "Lui en donner à écraser pendant que tu cuisines : hors du repas, sans enjeu.",
@@ -121,7 +121,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : le ramener sans l'occuper",
+        "titre": "Le ramener sans l'occuper",
         "etapes": [
           "Baisser la voix au lieu de la lever : il se tourne vers ce qu'il doit chercher pour entendre.",
           "Poser une main sur la tablette, dans son champ : un point fixe qui le ramène à l'assiette.",
@@ -167,7 +167,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : aider sa bouche à travailler",
+        "titre": "Aider sa bouche à travailler",
         "etapes": [
           "Lui donner un aliment long à tenir : un bâtonnet fondant qu'il porte lui-même sur le côté de sa bouche.",
           "Proposer des températures différentes : tiède, frais, la sensation change et l'intérêt aussi.",
@@ -213,10 +213,13 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Réflexologie : le confort du ventre",
+        "titre": "Desserrer ce qui se retient",
         "etapes": [
-          "Ce que ça soutient : le transit et le relâchement du ventre.",
-          "Le bon moment : tous les jours, au même moment, loin des repas."
+          "Le laisser pousser debout ou accroupi : allongé, il n'a ni la pesanteur ni l'appui de ses jambes.",
+          "Une paume tiède sur son ventre : immobile, sans appuyer, le temps de quelques respirations.",
+          "Le bain tiède quand il se retient : l'eau chaude détend le ventre et le siège.",
+          "Regarder la peau du siège : une rougeur ou une petite fissure suffisent à lui faire retenir la suivante.",
+          "Rester là sans commenter : ni encouragement, ni regard insistant, l'attention sur ce moment renforce la retenue."
         ],
         "lien_reflexologie": {
           "id": "constipation",
@@ -225,8 +228,8 @@
       },
       "pour_aller_plus_loin": [
         "Juger sur la consistance et le confort : la fréquence seule ne dit rien, certains bébés vont à la selle tous les trois jours sans difficulté.",
-        "Éviter les jus de fruits : sucrés, et sans effet fiable sur le transit.",
-        "Ne pas changer de lait de sa propre initiative : cela se décide avec un médecin, dans les deux sens.",
+        "Laisser tomber les jus de fruits : l'eau fait le travail, et le sucre d'un jus n'a rien à faire dans une journée de neuf mois.",
+        "Changer de lait, sa dose ou sa dilution de sa propre initiative : cela se décide avec un médecin, dans les deux sens.",
         "Signaler un antibiotique récent : un traitement bouscule la flore intestinale, et le transit peut mettre plusieurs semaines à retrouver son rythme."
       ],
       "principe": "Une douleur qui se répète apprend au corps à éviter le geste qui la déclenche. C'est pour cela qu'une constipation se traite tôt, quand la peur n'est pas encore installée.",
@@ -260,7 +263,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : entraîner la mâchoire",
+        "titre": "Entraîner la mâchoire",
         "etapes": [
           "Lui donner un bâtonnet ferme à mordiller sous surveillance : un aliment qui résiste sans se détacher.",
           "Déposer la bouchée sur le côté de sa bouche : la langue apprend à la déplacer plutôt qu'à la repousser.",

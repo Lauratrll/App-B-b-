@@ -36,7 +36,7 @@
     {
       "etape": 4,
       "titre": "Massage doux",
-      "description": "Quelques minutes de tes mains valent tous les mots du monde. Serviette préchauffée, une seule partie du corps découverte à la fois, le reste couvert. Mains réchauffées, une noisette d'huile végétale neutre (amande douce, calendula), gestes lents, pression 0/10. Chantonne ta berceuse pendant que tu le masses. 5 minutes suffisent. Enchaîne la réflexologie tant qu'il est au chaud. Puis, l'huile pénétrée, enfile-lui son pyjama et sa gigoteuse — pour pouvoir le poser sans le rhabiller s'il s'endort à la tétée."
+      "description": "Quelques minutes de tes mains valent tous les mots du monde. Serviette préchauffée, une seule partie du corps découverte à la fois, le reste couvert. Mains réchauffées, une noisette d'huile végétale neutre (amande douce, calendula), gestes lents, pression 0/10. Chantonne ta berceuse pendant que tu le masses. 5 minutes suffisent. Enchaîne la séquence de réflexologie « Sommeil agité » tant qu'il est au chaud. Puis, l'huile pénétrée, enfile-lui son pyjama et sa gigoteuse — pour pouvoir le poser sans le rhabiller s'il s'endort à la tétée."
     },
     {
       "etape": 5,
@@ -50,49 +50,14 @@
     }
   ],
   "reflexologie_du_coucher": {
-    "titre": "Séquence réflexologie du soir — 6 minutes",
-    "intro": "Juste après le massage, bébé encore au chaud, sur le dos, les pieds découverts, toi assise face à lui. À 1 mois, ses zones réflexo sont très réceptives : la pression doit rester celle d'une plume. Si bébé proteste sur une zone, passe à la suivante.",
-    "duree_totale": "6 minutes",
-    "pression": "0/10 — c'est une caresse, pas un massage",
-    "consentement": "Avant tout, observe les réactions de bébé. Le massage et la réflexologie se font avec son accord : à la moindre crispation, si bébé retire son pied ou se détourne, arrête-toi. C'est un moment de plaisir partagé, jamais une technique à imposer.",
-    "etapes": [
-      {
-        "zone": "Envelopper les pieds et respirer",
-        "duree": "1 minute",
-        "geste": "Tes paumes autour des deux pieds, immobiles. Allonge ton expiration pour que bébé cale son souffle sur le tien.",
-        "ce_que_cest": "Co-régulation par le souffle — ton calme se transmet directement."
-      },
-      {
-        "zone": "Gros orteil (système nerveux)",
-        "duree": "30 secondes par pied",
-        "geste": "Effleurage très lent du coussinet du gros orteil, du bout vers la base.",
-        "ce_que_cest": "Apaise le système nerveux après la décharge du soir."
-      },
-      {
-        "zone": "Sous les orteils (poitrine et respiration)",
-        "duree": "1 minute",
-        "geste": "Effleurement large sous la base des orteils, sur les deux pieds.",
-        "ce_que_cest": "Détend la respiration, souvent saccadée après une période de pleurs."
-      },
-      {
-        "zone": "Centre de la voûte (plexus solaire)",
-        "duree": "1 minute",
-        "geste": "Un doigt, cercles infimes au centre de la voûte, sens horaire, très lents.",
-        "ce_que_cest": "Apaise le stress et la sphère digestive — utile après une fin de journée tendue."
-      },
-      {
-        "zone": "Talon (ancrage)",
-        "duree": "30 secondes par pied",
-        "geste": "Contact immobile au creux du talon, sans appuyer.",
-        "ce_que_cest": "Ancrage et sentiment de sécurité."
-      },
-      {
-        "zone": "Clore en tenant",
-        "duree": "1 minute",
-        "geste": "Reprends les deux pieds dans tes mains et murmure ta phrase du soir.",
-        "ce_que_cest": "Signal de fin — la journée se termine ici."
-      }
-    ]
+    "titre": "Réflexologie du soir",
+    "intro": "Après le bain, bébé encore au chaud, sur le dos, les pieds découverts, face à toi. À 1 mois, tout passe par la douceur de ta main et le calme de ta voix : s'il proteste, on s'arrête là. La séquence « Sommeil agité » se suit pas à pas, animée, dans l'onglet Réflexologie. Elle reste la même tout au long des deux ans : c'est sa répétition, soir après soir, qui en fait un repère.",
+    "consentement": "Avant tout, observe les réactions de bébé. La réflexologie se fait avec son accord : à la moindre crispation, si bébé retire son pied ou se détourne, arrête-toi. C'est un moment de plaisir partagé, jamais une technique à imposer.",
+    "etapes": [],
+    "lien_reflexologie": {
+      "id": "sommeil",
+      "titre": "Sommeil agité"
+    }
   },
   "script_audio_du_soir": {
     "titre": "Berceuse-rituel « Tu peux tout déposer »",

@@ -12,8 +12,8 @@
       "categorie": "digestion",
       "situation": "Les régurgitations / Il rend souvent après le lait",
       "titre": "Le sommet, et ce qui bascule",
-      "explication": "Deux mois est en général le moment où les remontées sont les plus abondantes : il boit beaucoup, et le clapet qui ferme le haut de l'estomac termine tout juste sa maturation. À partir de maintenant, cela va décroître, doucement d'abord, puis nettement quand il tiendra assis et qu'il commencera à manger autre chose. C'est aussi le mois où l'analyse change de nature : jusqu'ici la quantité n'était qu'un désagrément, à présent des remontées vraiment abondantes méritent d'être montrées, même sans autre signe.",
-      "ancrage": "Tu es probablement au sommet, et ce que tu vis aujourd'hui ne va pas empirer. Ce que tu peux faire, c'est vérifier une fois que ce qui se passe reste dans l'ordinaire.",
+      "explication": "Tu as pris l'habitude d'avoir un lange sur l'épaule en permanence, et cette semaine il ne suffit plus. C'est attendu : à deux mois il boit beaucoup, et le clapet qui ferme le haut de l'estomac termine tout juste sa maturation. À partir de maintenant cela va décroître, doucement d'abord, puis nettement quand il tiendra assis et qu'il commencera à manger autre chose. Ce mois-ci change pourtant la lecture : jusqu'ici la quantité n'était qu'un désagrément, à présent des remontées très abondantes se montrent, même sans autre signe.",
+      "ancrage": "Tu es probablement au sommet, et ce que tu vis aujourd'hui ne va pas empirer. La seule chose à faire, c'est vérifier une fois, plutôt que douter tous les soirs.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -23,7 +23,7 @@
           "Tenir les 20 à 30 minutes verticales : c'est le geste qui change le plus de choses.",
           "Fractionner davantage si besoin : au biberon, un peu moins et un peu plus souvent.",
           "Sortir le transat de la journée : la position pliée comprime le ventre en dehors des trajets nécessaires.",
-          "Toujours à plat sur le dos pour dormir : rien ne se surélève, à aucun âge, quelle que soit la quantité rendue."
+          "Compter les couches mouillées : plusieurs par jour, il garde ce qu'il lui faut malgré ce qui ressort."
         ]
       },
       "geste_doux": {
@@ -31,20 +31,24 @@
         "couleur_texte": "#085041",
         "titre": "Observer bébé : ce qui a changé depuis le premier mois",
         "etapes": [
-          "La quantité : elle a probablement augmenté, et c'est attendu à deux mois.",
+          "La quantité : elle a probablement augmenté ces dernières semaines, et cela suit simplement ce qu'il boit.",
           "Son confort pendant : se cambre-t-il, crie-t-il, ou est-ce que ça coule sans qu'il le remarque ?",
           "Son appétit : il réclame et il boit avec plaisir, c'est le repère le plus rassurant.",
           "Sa courbe au dernier rendez-vous : elle avance dans son couloir, la question est réglée.",
           "Ses nuits : les remontées ne le réveillent pas, ou elles commencent à le gêner."
-        ]
+        ],
+        "lien_reflexologie": {
+          "id": "reflux",
+          "titre": "Reflux"
+        }
       },
       "pour_aller_plus_loin": [
         "Se rappeler la trajectoire : cela s'atténue avec la position assise, puis nettement à la diversification.",
         "Ne rien épaissir soi-même : l'épaississement se décide avec le médecin, et le lait maternel tiré ne s'épaissit pas.",
         "Compter deux semaines pour juger : quand un médecin propose un changement, c'est le délai nécessaire pour voir un effet.",
-        "Montrer une fois plutôt que douter trois mois : une consultation lève ce qui pèse depuis des semaines."
+        "En parler à la consultation du deuxième mois : elle est prévue, prise en charge sans avance de frais, et elle regarde justement les remontées, le poids et le confort digestif."
       ],
-      "principe": "Ce qui décide n'est pas la quantité mais le retentissement : le poids, le confort et l'appétit. La seule exception est ce mois-ci, où des remontées vraiment abondantes se montrent même quand tout le reste va bien.",
+      "principe": "Ce qui décide n'est pas la quantité mais le retentissement : le poids, le confort et l'appétit. La seule exception est ce mois-ci, où des remontées hors du commun se montrent même quand tout le reste va bien.",
       "erreurs_a_eviter": [
         "Espacer les prises pour qu'il rende moins : il boit alors davantage d'un coup, et il rend plus.",
         "Le laisser dormir en transat parce qu'il rend moins assis : le sommeil se fait à plat sur le dos, sans exception.",
@@ -58,15 +62,15 @@
       "categorie": "digestion",
       "situation": "La fin des coliques / Il a encore le ventre dur le soir",
       "titre": "Tenir la fin sans s'épuiser",
-      "explication": "À deux mois, les soirées difficiles s'espacent, mais tu en as maintenant deux derrière toi. C'est précisément là que beaucoup de parents lâchent : pas au plus dur, mais quand on voit le bout et que la réserve est vide. La fatigue s'est accumulée, la nuit ne répare plus, l'agacement monte plus vite qu'avant, et la tentation d'essayer n'importe quel produit devient forte. Le sujet de ce mois-ci n'est plus le ventre de ton bébé : c'est ce qu'il reste à ceux qui s'en occupent.",
-      "ancrage": "Il n'y a pas de remède à trouver, il y a une fin de parcours à tenir. Ce que tu peux demander maintenant, c'est du temps de récupération, pas des conseils de plus.",
+      "explication": "Tu as compté les jours, tu sais qu'on t'a dit trois mois, et ce soir tu es encore debout dans le couloir. À deux mois les soirées difficiles s'espacent, mais tu en as deux derrière toi. C'est précisément là que beaucoup de parents lâchent : pas au plus dur, mais quand on voit le bout et que la réserve est vide. La fatigue s'est accumulée, la nuit ne répare plus, l'agacement monte plus vite qu'avant. Le sujet de ce mois-ci n'est plus le ventre de ton bébé : c'est ce qu'il reste à ceux qui s'en occupent.",
+      "ancrage": "Il n'y a pas un énième remède à trouver, il y a une fin de parcours à tenir. Ce que tu peux demander maintenant, c'est du temps de récupération, pas des conseils de plus.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
         "titre": "Action immédiate : organiser cette semaine",
         "etapes": [
-          "Nommer le créneau : les deux heures les plus dures de la journée, et qui les prend, décidé à l'avance.",
-          "Demander du sommeil, pas de l'aide : une personne qui garde deux heures pendant que tu dors vaut dix conseils.",
+          "Nommer le créneau : les 2 heures les plus dures de la journée, et qui les prend, décidé à l'avance.",
+          "Demander du sommeil, pas de l'aide : une personne qui garde 2 heures pendant que tu dors vaut dix conseils.",
           "Sortir une fois sans lui : marcher 20 minutes seule change plus la soirée que n'importe quel produit.",
           "Baisser tout le reste : le ménage, les visites, les repas élaborés attendront encore quelques semaines.",
           "Le poser dès que la tension monte : sur le dos dans son lit, tu sors, tu respires, tu reviens."
@@ -75,10 +79,13 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Réflexologie : apaisement du soir",
+        "titre": "Le contact qui demande le moins",
         "etapes": [
-          "Ce que ça apaise : ce qui reste de tension au ventre le soir.",
-          "Le bon moment : au calme, une fois qu'il est déshabillé."
+          "Le portage plutôt que les bras : une écharpe libère tes mains et ton dos, et il reste contre toi.",
+          "S'asseoir au lieu d'arpenter : le bercement d'un fauteuil fait souvent le même effet que les allers-retours du couloir.",
+          "Le peau à peau du soir : torse contre torse, une couverture sur vous deux, sans chercher à faire autre chose.",
+          "Chantonner toujours la même chose : c'est la répétition qui apaise, pas la mélodie, et elle ne demande aucune énergie.",
+          "S'arrêter quand ça n'aide pas : certains soirs rien ne prend, et le mettre en sécurité pour souffler est un geste aussi."
         ],
         "lien_reflexologie": {
           "id": "coliques",
@@ -89,24 +96,25 @@
         "Se dire les choses à deux : « je n'en peux plus » se dit avant d'être vrai, pas après.",
         "Accepter une aide imparfaite : quelqu'un qui ne fait pas comme toi vaut mieux que personne.",
         "Regarder la courbe des soirées : elles s'espacent déjà, même si ça ne se sent pas encore.",
+        "Demander l'entretien postnatal : il est prévu entre la quatrième et la huitième semaine, avec une sage-femme ou un médecin, et il existe justement pour ce moment-ci.",
         "En parler au professionnel qui te suit : sage-femme, médecin ou PMI, une fatigue qui vire à la tristesse se dit."
       ],
       "principe": "À ce stade, ce qui a le plus d'effet ne se fait plus sur le bébé mais autour de lui. Un parent qui a dormi traverse la fin de cette période ; un parent isolé s'épuise et se met en danger.",
       "erreurs_a_eviter": [
-        "Essayer un nouveau produit chaque semaine : c'est le signe de l'épuisement, pas une piste, et le pharmacien le confirmera.",
+        "Essayer un nouveau produit chaque semaine : c'est souvent le signe de l'épuisement, et c'est au pharmacien de dire ce qui convient à cet âge.",
         "Attendre d'être au bout pour demander : l'aide se demande quand on tient encore, pas quand on a lâché.",
         "Refuser une aide parce qu'elle ne fait pas comme toi : c'est le sommeil qui compte, pas la méthode.",
         "Reprendre le rythme d'avant dès que ça s'améliore : la récupération demande plus longtemps que la crise."
       ],
-      "consulter_si": "Consulter si : son ventre est dur et tendu en permanence avec des vomissements, ou si ton bébé devient anormalement mou → appeler immédiatement le 15. Consulter si, par ailleurs : les pleurs s'accompagnent de fièvre, de vomissements en jet, de sang dans les selles, d'un refus de boire, ou d'une cassure de la courbe de poids → pédiatre ou médecin traitant sans délai. Consulter si, pour toi : la tristesse dure au-delà de deux semaines, si tu n'as plus de plaisir avec ton bébé, ou si tu as peur de tes réactions → sage-femme, médecin traitant ou PMI. En cas d'urgence pour toi, le 119 répond jour et nuit.",
+      "consulter_si": "Consulter si : son ventre est dur et tendu en permanence avec des vomissements, ou si ton bébé devient anormalement mou → appeler immédiatement le 15. Consulter si, par ailleurs : les pleurs s'accompagnent de fièvre, de vomissements en jet, de sang dans les selles, d'un refus de boire, ou d'une cassure de la courbe de poids → pédiatre ou médecin traitant sans délai. Consulter si, pour toi : la tristesse dure au-delà de deux semaines, si tu n'as plus de plaisir avec ton bébé, ou si tu as peur de tes réactions → sage-femme, médecin traitant ou PMI. Et si tu as besoin de parler de ce que tu ressens envers ton enfant, le 119 répond aussi aux parents, jour et nuit, et il n'apparaît sur aucun relevé de téléphone.",
       "source": "Source : accompagnement des pleurs excessifs du nourrisson et repères de durée, mpedia.fr (AFPA) ; épuisement parental et prévention du syndrome du bébé secoué, Assurance Maladie, ameli.fr."
     },
     {
       "categorie": "digestion",
       "situation": "Les selles espacées / Il n'a pas fait depuis des jours",
       "titre": "Un intestin devenu plus efficace",
-      "explication": "D'une semaine à l'autre, tout change : ton bébé qui salissait quatre couches par jour n'en salit plus qu'une tous les deux ou trois jours, parfois moins. Ce basculement arrive souvent entre six et huit semaines, et il inquiète d'autant plus qu'il est brutal. Ce qui se passe est pourtant une bonne nouvelle : son intestin a gagné en maturité, il tire presque tout du lait qu'il reçoit, et il ne reste plus grand-chose à évacuer. Autour de toi, on va s'en mêler. On te parlera de jus, de lait spécial, de gestes à faire. Rien de tout cela ne s'impose devant un bébé au ventre souple, qui boit et qui grossit. Ce qui décrirait une constipation, ce serait une selle dure et sèche, difficile à sortir, chez un bébé gêné.",
-      "ancrage": "Un changement brutal fait peur, et l'entourage amplifie. Tu peux tenir bon : c'est la couche et son humeur qui décident, pas le calendrier ni les conseils.",
+      "explication": "D'une semaine à l'autre, tout change : ton bébé qui salissait quatre couches par jour n'en salit plus qu'une tous les deux ou trois jours, parfois moins. Ce basculement arrive souvent entre six et huit semaines, et il inquiète d'autant plus qu'il est brutal. Ce qui se passe est pourtant une bonne nouvelle : son intestin a gagné en maturité, il tire presque tout du lait qu'il reçoit, et il ne reste plus grand-chose à évacuer. Ce qui décrirait une constipation, ce serait une selle dure et sèche, difficile à sortir, chez un bébé gêné.",
+      "ancrage": "Un changement brutal fait peur, et l'entourage amplifie. Tu peux tenir bon : c'est la couche et son humeur qui décident, pas le calendrier ni les conseils de la famille.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -122,10 +130,13 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Réflexologie : soutenir le transit",
+        "titre": "Le ventre sous la paume",
         "etapes": [
-          "Ce que ça soutient : le travail du ventre quand les selles s'espacent.",
-          "Le bon moment : chaque jour, au calme, loin des tétées."
+          "L'allonger jambes libres : couche ouverte, sur un plan ferme, quelques minutes sans rien qui serre.",
+          "Une paume tiède posée : immobile sur son ventre, le temps de quelques respirations, sans appuyer.",
+          "Le porter souvent dans la journée : le pas et la verticalité font plus pour lui qu'un moment de gymnastique.",
+          "Le bain tiède du soir : l'eau chaude détend, et c'est un moment qui ne demande rien de plus.",
+          "S'arrêter à sa demande : s'il se crispe ou se raidit, on arrête sans insister."
         ],
         "lien_reflexologie": {
           "id": "constipation",
@@ -134,16 +145,16 @@
       },
       "pour_aller_plus_loin": [
         "Le lait ne se change pas pour cela : un transit qui s'espace n'est pas un motif de changement, et un lait se choisit avec un médecin.",
-        "L'eau ne relance rien : avant six mois, le lait suffit, et un complément d'eau n'est pas anodin.",
+        "En parler au rendez-vous du deuxième mois : il est prévu ce mois-ci, et le transit fait partie de ce qu'il regarde.",
         "Se souvenir que cela repart : chez beaucoup de bébés, le rythme se resserre de lui-même à la diversification.",
-        "Retenir ce qui alerte : une selle sèche en petites billes, du sang, un ventre tendu, un refus de boire."
+        "Retenir ce qui alerte : du sang, un ventre tendu même au repos, un refus de boire, ou une selle qu'il ne parvient pas à sortir."
       ],
       "principe": "Le nombre de jours n'est pas un symptôme. Ce que tu trouves dans la couche et l'état de ton bébé en disent plus long que n'importe quel rythme perdu.",
       "erreurs_a_eviter": [
         "Chercher à déclencher la selle en introduisant quelque chose dans son siège : le risque est d'ulcérer l'anus, et l'attente n'en est pas une raison.",
         "Donner de l'eau, un jus de fruit ou une tisane à un bébé de moins de six mois : le lait couvre tous ses besoins, y compris en eau.",
         "Changer de lait, sa dose ou sa dilution de sa propre initiative : cela se décide avec un médecin, jamais devant un rayon.",
-        "Suivre l'avis le plus alarmiste de l'entourage plutôt que ce que tu observes chez lui."
+        "Suivre l'avis le plus alarmiste de l'entourage : ce que tu observes chez lui en dit plus long que ce que quelqu'un a vécu avec un autre bébé."
       ],
       "consulter_si": "Consulter si : son ventre est dur, il vomit, et plus rien ne passe, ni selle ni gaz → appeler immédiatement le 15. Consulter si, par ailleurs : ce qui sort est dur et sec, s'il pleure en poussant, si tu vois du sang, si son ventre reste tendu même au calme, s'il vomit, s'il refuse de boire, s'il ne prend pas de poids, ou s'il mouille très peu ses couches → pédiatre, sage-femme ou PMI.",
       "source": "Source : espacement physiologique des selles du nourrisson et abstention de traitement quand l'enfant va bien, Assurance Maladie, ameli.fr, reconnaître la constipation chez l'enfant ; aspect et fréquence des selles de 0 à 6 mois, mpedia.fr (Association Française de Pédiatrie Ambulatoire)."
@@ -152,7 +163,7 @@
       "categorie": "digestion",
       "situation": "La cambrure à la tétée / Il se cambre et lâche le sein",
       "titre": "Chercher la cause du côté de la position",
-      "explication": "Ton bébé se cambre, se raidit, tourne la tête, lâche le sein ou la tétine, puis y revient. Ce mouvement peut avoir beaucoup d'explications banales : un flux trop rapide qu'il ne gère pas, de l'air avalé, une position qui tire, un débit de tétine inadapté, une fatigue, ou un besoin de pause. À toi de décrire, pas de conclure : nommer une cause reviendrait à conclure à sa place, et ce n'est ni ton rôle ni le mien. Ce que tu peux faire, c'est explorer les pistes mécaniques et rassembler des observations précises pour le professionnel.",
+      "explication": "Il tète, puis il se cambre, se raidit, tourne la tête, lâche le sein ou la tétine, et y revient. Ce mouvement a beaucoup d'explications banales : un flux trop rapide qu'il ne gère pas encore, de l'air avalé, une position qui tire, un débit de tétine inadapté, une fatigue, ou simplement un besoin de pause. Aucune ne se lit sur son visage, et c'est bien pour cela qu'on ne devine pas : les mêmes gestes recouvrent des causes très différentes.",
       "ancrage": "Tu n'as pas à savoir pourquoi. Tu as à explorer ce qui se règle simplement, et à décrire précisément ce que tu vois, pour que le professionnel, lui, puisse conclure.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -180,7 +191,7 @@
       },
       "pour_aller_plus_loin": [
         "Noter des observations précises : à quel moment de la prise, à quelle fréquence, avec quels autres signes. C'est ce que le professionnel exploitera.",
-        "Ne rien conclure seul.e : ni reflux, ni intolérance, ni allergie, ces hypothèses appartiennent au médecin.",
+        "Ne rien conclure de ton côté : ni reflux, ni intolérance, ni allergie, ces hypothèses appartiennent au médecin.",
         "Demander une observation de tétée : consultante en lactation (IBCLC), sage-femme ou PMI règlent souvent la question en une séance.",
         "Ne rien changer sans avis : ni lait, ni préparation, ni traitement."
       ],

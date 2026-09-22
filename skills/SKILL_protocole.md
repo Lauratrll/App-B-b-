@@ -125,7 +125,7 @@ Chaque protocole contient **exactement** ces 9 champs obligatoires, dans cet ord
   "geste_doux": {
     "couleur_fond": "#E1F5EE",
     "couleur_texte": "#085041",
-    "titre": "Geste doux : ...",
+    "titre": "[précision courte, sans préfixe]",
     "etapes": ["...", "...", "...", "...", "..."]
   },
   "pour_aller_plus_loin": ["...", "...", "...", "..."],
@@ -292,9 +292,9 @@ Un sujet **grave d'emblée** (fièvre avant trois mois, difficulté à respirer,
 {
   "couleur_fond": "#E1F5EE",
   "couleur_texte": "#085041",
-  "titre": "Geste doux : après la crise uniquement",
+  "titre": "Après la crise uniquement",
   "etapes": [
-    "Étape réflexo ou de contact doux",
+    "Étape de contact doux, ou renvoi vers la séquence de l'onglet Réflexologie",
     "...",
     "..."
   ],
@@ -311,21 +311,55 @@ Quand la thématique du protocole correspond à un protocole de l'onglet **Réfl
 1. **La thématique correspond vraiment.** Sommeil ↔ `sommeil`, régurgitations ↔ `reflux`, selles ↔ `constipation`, coliques ↔ `coliques`, séparation ↔ `separation`, dents ↔ `dents`, etc. Pas de rapprochement approximatif : un protocole sur les pleurs de sur-stimulation n'est pas un protocole « anxiété ».
 2. **Le protocole de réflexologie est disponible au mois travaillé.** ⚠️ C'est l'erreur la plus facile à commettre. Les bornes d'âge sont dans **`reflexologie/protocoles-index.json`** (champs `age_min_mois` / `age_max_mois`, résumés par le champ `age`). Exemple : `coliques` s'arrête à M2, donc un protocole M3 « la fin des coliques » ne peut **pas** pointer dessus ; `separation` ne démarre qu'à M6, donc pas de lien depuis un M3 sur la reprise du travail. **Toujours ouvrir le tableau de répartition avant d'écrire un lien.**
 
+#### On n'invente jamais une séquence de réflexologie ⭐⭐ — arrêté le 9 septembre 2026
+
+**Décision de Laura**, sur une faute commise pendant la passe *Ventre & digestion* : « soit on donne
+un lien réflexologie, soit on ne propose pas de réflexologie. […] **tu n'inventes pas de protocole
+réflexologie plantaire, palmaire ou autre manipulation à points de pression.** »
+
+**La faute exacte à ne plus refaire.** Neuf `geste_doux` du slot ne portaient que deux lignes, et je
+les ai étoffés en composant une séquence courte : une zone réflexe, une qualité de pression, une
+durée. Les zones venaient bien des protocoles validés (`plexus solaire`, `cardia`, `diaphragme`,
+`colonne vertébrale`), mais **les choisir, les ordonner et leur donner une durée, c'est écrire un
+protocole de réflexologie** — un protocole que personne n'a validé, dans un module qui l'est.
+
+**La règle, en deux branches, et il n'y en a pas de troisième :**
+
+| Situation | Ce qu'on écrit |
+|---|---|
+| Un protocole de réflexologie **existe** et couvre le mois | on pose `lien_reflexologie`. **C'est lui, l'offre de réflexologie.** Le bloc `geste_doux` ne décrit alors ni zone, ni pression, ni durée : il porte autre chose d'utile, sous l'un des titres du thème. |
+| Aucun protocole ne couvre le mois, ou le sujet n'est pas réflexologique | pas de réflexologie du tout. Le bloc porte un vrai `Geste doux` d'apaisement (contact, portage, position, voix), ou l'un des titres du thème. |
+
+**Ce qui est donc interdit dans un `geste_doux` de Guide-moi :** nommer une zone réflexe, décrire un
+mouvement de réflexologie (pression maintenue, pression glissée, boucles progressives), donner une
+durée par pied, ordonner une suite de zones. Que ce soit sur le pied, sur la main ou ailleurs.
+
+**Ce qui reste possible et souhaitable**, et Laura le dit : « il y a sûrement des choses
+intéressantes à dire ». Un bloc qui ne fait pas de réflexologie n'est pas un bloc vide. Il porte le
+contact et le portage qui apaisent, ce qui se règle au moment du lait, ou ce que le parent doit
+regarder. Le lien vers l'onglet reste posé à côté.
+
+**Le test avant d'écrire un `geste_doux` :** est-ce que j'ai décidé moi-même d'une zone, d'un ordre
+ou d'une durée de geste réflexe ? Si oui, la phrase sort, et le lien la remplace.
+
 **On ne modifie jamais le protocole de réflexologie lui-même** depuis Guide-moi : on l'utilise tel qu'il est, ou on ne le lie pas. Les étapes écrites dans `geste_doux` restent le geste court du protocole Guide-moi, elles ne sont pas la séquence complète.
 
 Sont hors périmètre du lien : les protocoles retirés pour déontologie (`bronchite-asthme`, `eczema`, `allergies`, `ictere`, `meconium`) et tout protocole `lancement: false`.
 
 **Règles :**
 - **5 étapes**, 6 au maximum si une idée mérite sa ligne
-- **Format « Amorce : suite » imposé** : chaque étape commence par une amorce courte suivie de « : », puis du détail. L'amorce est mise en gras à l'affichage. Ex : « Zone du plexus solaire : centre de la voûte plantaire, cercles lents, 1 min par pied. »
-- **Titre — le mot « Réflexologie » doit apparaître quand le geste en relève.** Quand le geste doux repose sur la réflexologie (le cas le plus fréquent), le titre commence par « Réflexologie » pour que le parent comprenne immédiatement de quoi il s'agit. **Format : « Réflexologie : [précision courte] »** (ex. « Réflexologie : apaisement et sécurité », « Réflexologie : préparer une transition »). Uniquement pour un geste **non** réflexologique (contact, pression proprioceptive, portage), garder le préfixe « Geste doux : [précision] ».
-- Inclure si pertinent une zone réflexe et sa durée
+- **Format « Amorce : suite » imposé** : chaque étape commence par une amorce courte suivie de « : », puis du détail. L'amorce est mise en gras à l'affichage. Ex : « Une main à plat sur son ventre : immobile, chaude, sans appuyer. »
+- **Titre — le mot « Réflexologie » doit apparaître quand le geste en relève.** Quand le geste doux repose sur la réflexologie (le cas le plus fréquent), le titre commence par « Réflexologie » pour que le parent comprenne immédiatement de quoi il s'agit. **Format : « Réflexologie : [précision courte] »** (ex. « Réflexologie : apaisement et sécurité », « Réflexologie : préparer une transition »). Pour un geste **non** réflexologique (contact, pression proprioceptive, portage, respiration), **le titre est la précision seule, sans préfixe** : « Le sceau des au revoir », « Se retrouver sans discussion ».
+- **Plus jamais de préfixe « Geste doux » ⭐ — arrêté le 22 septembre 2026.** Décision de Laura, en relisant M12 : « Geste doux : le titre va pas. Garder juste la 2e partie du titre. […] Finalement généraliser ça. » Le mot ne disait rien au parent : la couleur du bloc suffit à le situer, et c'est la précision qui porte le sens. Propagation faite le 22/09 : **313 titres dans 109 fichiers**, première lettre passée en majuscule. Les autres préfixes restent, parce qu'eux disent quelque chose : `Réflexologie :`, `Observer bébé :`, `Si ça arrive :` et les titres thématisés. `qa_contenu.py` signale tout titre qui recommence par « Geste doux ».
+- **Jamais de zone réflexe, de mouvement ni de durée par pied** : quand la réflexologie est pertinente, une étape renvoie à la séquence de l'onglet (« Suivre la séquence « Sommeil agité » : elle se fait pas à pas, animée, dans l'onglet Réflexologie. ») et `lien_reflexologie` est posé.
+- **Coucher, même règle (22/09)** : la « Séquence réflexologie du soir » des 23 fichiers `02-coucher` est remplacée par un renvoi vers « Sommeil agité » (`reflexologie_du_coucher.lien_reflexologie`, `etapes` vide, bouton « Ouvrir la séquence » dans `coucher-view.tsx`). Jeux M0 et M6 : geste réflexo du mois retiré. Prendre soin de moi : **non touché**, décision de Laura (rubrique masquée pour l'instant).
+- **Passe du 22 septembre 2026 ⭐** — décision de Laura : « on retire toutes les réflexologies inventées ». 180 `geste_doux` de Guide-moi réécrits : 102 renvoient désormais à une séquence validée (lien posé, étape de renvoi, plus aucune zone), 78 sont devenus des gestes de contact sans réflexologie (préfixe « Réflexologie : » retiré du titre). Liens posés par correspondance stricte thème et bornes d'âge : sommeil → `sommeil`, séparation M6+ → `separation`, lien & attachement M0-M1 → `accueil-nouveau-ne`, dents M5-M18 → `dents`, colère M14+ → `opposition-frustration`, épuisement moteur M7-M13 → `frustration-motrice`.
 - **Trois titres au maximum par thème ⭐ — arrêté le 28 août, précisé le 1er septembre 2026.** Le titre du bloc ne change pas d'un protocole à l'autre. Chaque thème dispose de **trois titres au plus**, choisis pour couvrir le maximum de situations, plus les deux registres imposés par le sujet.
 
   | Titre | Portée | Emploi |
   |---|---|---|
   | `Réflexologie : …` | **transverse** | dès que le geste relève de la réflexologie (règle ci-dessus) |
-  | `Geste doux : …` | **transverse** | geste corporel non réflexologique : position, portage, contact, respiration |
+  | *(précision seule, sans préfixe)* | **transverse** | geste corporel non réflexologique : position, portage, contact, respiration. Ancien « Geste doux : … », préfixe supprimé le 22/09 |
   | `Observer bébé : …` | **transverse** | quand ce qu'on demande au parent est de regarder et de lire, pas d'agir. Décision de Laura : « peut intervenir dans tous les slots » |
   | `Si ça arrive : …` | **transverse, réservé** | uniquement le danger vital, quand le geste doit être trouvé sans réfléchir (étouffement) |
   | le troisième titre | **propre au thème** | il porte la couleur du thème et ne sort pas de son slot |
@@ -340,7 +374,7 @@ Sont hors périmètre du lien : les protocoles retirés pour déontologie (`bron
   | Alimentation (M6+) | `Hors du repas : …` | ce qui se travaille en dehors du moment du repas |
   | Ventre & digestion (M0-M5) | `Au moment du lait : …` | ce que le parent change avant, pendant et après la prise de lait *(arrêté le 01/09, remplace « Après le repas »)* |
   | Parents submergés | `Retrouver le contact : …` | le geste corporel **avec l'enfant** quand le lien est éteint *(arrêté le 02/09)* |
-- **La Réflexologie n'est PAS systématique.** Elle n'apparaît que là où elle est réellement pertinente, et elle est **exclue** des contextes à risque allergène, à enjeu d'autonomie corporelle, ou à enjeu de peau. Dans ces contextes, utiliser « Geste doux : … » (position, portage, contact, respiration).
+- **La Réflexologie n'est PAS systématique.** Elle n'apparaît que là où elle est réellement pertinente, et elle est **exclue** des contextes à risque allergène, à enjeu d'autonomie corporelle, ou à enjeu de peau. Dans ces contextes, écrire un geste non réflexologique (position, portage, contact, respiration), titré par sa seule précision.
 
   **Contextes où la Réflexologie est interdite ⭐ :**
   - **alimentation et appétit** (tétée, biberon, quantités, diversification, morsure du sein)
@@ -626,7 +660,8 @@ Si un protocole fait moins de 350 mots, il est probablement trop sec — étoffe
 - [ ] L'explication est 3-5 phrases, bienveillante envers l'enfant
 - [ ] L'ancrage est 1-2 phrases adressées au parent
 - [ ] Action immédiate = 5 étapes (6 si une idée le justifie)
-- [ ] Geste doux = 5 étapes (6 si une idée le justifie), avec zone réflexe si pertinent
+- [ ] Geste doux = 5 étapes (6 si une idée le justifie), **aucune zone réflexe** : la réflexologie passe par `lien_reflexologie` et une étape de renvoi
+- [ ] Titre du geste doux : jamais de préfixe « Geste doux » (22/09), la précision seule, ou un préfixe qui dit quelque chose (`Réflexologie :`, `Observer bébé :`, `Si ça arrive :`, titre thématisé)
 - [ ] Geste doux : AUCUNE pression chiffrée, AUCUN emploi de « massage » (ni affirmé ni nié), AUCUN « caresse »
 - [ ] Typographie : guillemets « » + espaces insécables (avant : ; ! ? et autour des guillemets), « Réflexologie » en toutes lettres
 - [ ] Titre du geste doux réflexologique au format « Réflexologie : … » (le mot apparaît clairement)

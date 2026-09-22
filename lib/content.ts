@@ -41,11 +41,14 @@ export type GuideMeta = {
   categories: CategorieGuide[];
 };
 
+export type LienReflexologie = { id: string; titre: string };
+
 export type BlocActionne = {
   couleur_fond: string;
   couleur_texte: string;
   titre: string;
   etapes: string[];
+  lien_reflexologie?: LienReflexologie;
 };
 
 export type ProtocoleGuide = {
@@ -125,7 +128,9 @@ export type CoucherModule = {
     pression?: string;
     consentement?: string;
     focus_par_theme?: Record<string, string>;
+    cloture?: string;
     etapes: ReflexologieEtape[];
+    lien_reflexologie?: LienReflexologie;
   };
   script_audio_du_soir?: {
     titre: string;

@@ -7,7 +7,8 @@ import json, io, re, glob, sys, collections
 NB = {u"une":1,u"deux":2,u"trois":3,u"quatre":4,u"cinq":5,u"six":6,u"sept":7,u"huit":8,
       u"neuf":9,u"dix":10,u"onze":11,u"douze":12,u"treize":13,u"quatorze":14,u"quinze":15,
       u"seize":16,u"vingt":20,u"trente":30,u"quarante":40,u"cinquante":50,u"soixante":60}
-COMP = {u"vingt-cinq":25,u"trente-cinq":35,u"quarante-cinq":45,u"cinquante-cinq":55,
+COMP = {u"vingt-quatre":24,u"quarante-huit":48,u"trente-six":36,u"soixante-douze":72,
+        u"vingt-cinq":25,u"trente-cinq":35,u"quarante-cinq":45,u"cinquante-cinq":55,
         u"soixante-dix":70,u"soixante-quinze":75,u"quatre-vingt-dix":90,
         u"quatre-vingt-quinze":95,u"quatre-vingts":80,u"quatre-vingt":80}
 TOUS = sorted(list(COMP)+list(NB), key=len, reverse=True)
@@ -18,9 +19,9 @@ SEP = u"(?:\\s*(?:,\\s*)?(?:à|a|ou|puis)\\s+)"
 #   « qu'1 heure », « en 1 seconde » ne s'ecrivent pas, et « une heure » designe le plus
 #   souvent un moment (« a une heure decidee », « une heure de la journee »), pas une duree.
 MOT2 = u"(?:%s)" % u"|".join([w for w in TOUS if w != u"une"])
-RX  = re.compile(u"\\b(%s(?:%s%s)*)\\s+(minutes?)\\b" % (MOT, SEP, MOT), re.I)
-RX2 = re.compile(u"\\b(%s(?:%s%s)*)\\s+(secondes?|heures?)\\b" % (MOT2, SEP, MOT2), re.I)
-RXMOT = re.compile(u"\\b(%s)\\b" % MOT, re.I)
+RX  = re.compile(u"(?<![\\w-])(%s(?:%s%s)*)\\s+(minutes?)\\b" % (MOT, SEP, MOT), re.I)
+RX2 = re.compile(u"(?<![\\w-])(%s(?:%s%s)*)\\s+(secondes?|heures?)\\b" % (MOT2, SEP, MOT2), re.I)
+RXMOT = re.compile(u"(?<![\\w-])(%s)\\b" % MOT, re.I)
 
 def chiffre(m):
     w = m.group(1).lower()

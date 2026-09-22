@@ -36,7 +36,7 @@
     {
       "etape": 4,
       "titre": "Massage doux",
-      "description": "À 2 mois, il accroche ton regard : profite de chaque seconde. Serviette préchauffée, une seule zone découverte à la fois. Mains réchauffées, une noisette d'huile végétale neutre (amande douce, calendula), gestes lents, pression 0/10. Capte son regard, souris-lui, chantonne ta berceuse. 5 minutes suffisent, puis enchaîne la réflexologie tant qu'il est au chaud. Puis enfile-lui son pyjama et sa gigoteuse, pour pouvoir le poser tel quel s'il s'endort en buvant."
+      "description": "À 2 mois, il accroche ton regard : profite de chaque seconde. Serviette préchauffée, une seule zone découverte à la fois. Mains réchauffées, une noisette d'huile végétale neutre (amande douce, calendula), gestes lents, pression 0/10. Capte son regard, souris-lui, chantonne ta berceuse. 5 minutes suffisent, puis enchaîne la séquence de réflexologie « Sommeil agité » tant qu'il est au chaud. Puis enfile-lui son pyjama et sa gigoteuse, pour pouvoir le poser tel quel s'il s'endort en buvant."
     },
     {
       "etape": 5,
@@ -50,49 +50,14 @@
     }
   ],
   "reflexologie_du_coucher": {
-    "titre": "Séquence réflexologie du soir — 7 minutes",
-    "intro": "Juste après le massage, bébé encore au chaud, sur le dos, les pieds découverts, face à toi. À 2 mois, il accroche ton regard : tu peux alterner les caresses des pieds et un contact visuel doux. Pression d'une plume.",
-    "duree_totale": "7 minutes",
-    "pression": "0/10 — c'est une caresse, pas un massage",
-    "consentement": "Avant tout, observe les réactions de bébé. Le massage et la réflexologie se font avec son accord : à la moindre crispation, si bébé retire son pied ou se détourne, arrête-toi. C'est un moment de plaisir partagé, jamais une technique à imposer.",
-    "etapes": [
-      {
-        "zone": "Envelopper et accorder les souffles",
-        "duree": "1 minute",
-        "geste": "Tes paumes autour des deux pieds, immobiles. Cale lentement ton souffle, et laisse bébé suivre.",
-        "ce_que_cest": "Mise en lien et co-régulation avant les gestes."
-      },
-      {
-        "zone": "Gros orteil (système nerveux)",
-        "duree": "1 minute par pied",
-        "geste": "Effleurage très lent du coussinet du gros orteil, du bout vers la base.",
-        "ce_que_cest": "Apaise le système nerveux central."
-      },
-      {
-        "zone": "Sous les orteils (respiration)",
-        "duree": "1 minute",
-        "geste": "Effleurement large sous la base des orteils, sur les deux pieds.",
-        "ce_que_cest": "Détend la respiration et le diaphragme — facilite l'endormissement."
-      },
-      {
-        "zone": "Centre de la voûte (plexus solaire)",
-        "duree": "1 minute",
-        "geste": "Un doigt, cercles infimes au centre de la voûte, sens horaire, très lents.",
-        "ce_que_cest": "Zone clé du calme et de l'apaisement digestif."
-      },
-      {
-        "zone": "Bord interne du pied",
-        "duree": "1 minute",
-        "geste": "Glisse un doigt le long du bord interne du pied, du gros orteil vers le talon, très lentement.",
-        "ce_que_cest": "Suit la ligne de détente du dos — relâchement global du corps."
-      },
-      {
-        "zone": "Clore en tenant le regard",
-        "duree": "1 minute",
-        "geste": "Reprends les pieds dans tes mains, capte son regard, et murmure ta phrase du soir.",
-        "ce_que_cest": "Clôture par le contact et le lien, désormais bien présent."
-      }
-    ]
+    "titre": "Réflexologie du soir",
+    "intro": "Après le bain, bébé encore au chaud, sur le dos, face à toi. À 2 mois, il accroche ton regard : garde ton visage dans son champ pendant la séquence. La séquence « Sommeil agité » se suit pas à pas, animée, dans l'onglet Réflexologie. Elle reste la même tout au long des deux ans : c'est sa répétition, soir après soir, qui en fait un repère.",
+    "consentement": "Avant tout, observe les réactions de bébé. La réflexologie se fait avec son accord : à la moindre crispation, si bébé retire son pied ou se détourne, arrête-toi. C'est un moment de plaisir partagé, jamais une technique à imposer.",
+    "etapes": [],
+    "lien_reflexologie": {
+      "id": "sommeil",
+      "titre": "Sommeil agité"
+    }
   },
   "script_audio_du_soir": {
     "titre": "Berceuse-rituel « On se connaît, toi et moi »",

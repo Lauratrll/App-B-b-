@@ -42,6 +42,34 @@ REFRAINS_SECURITE = [
  "Pousser la porte de la PMI",
  "Poser la question à la PMI",
  "les consultations de suivi des premières semaines",
+ # --- 09/09/2026, passe Alimentation : les cadres de securite du repas.
+ # Decision du 01/09 : « une consigne de securite s'ecrit une fois pour toutes et se
+ # repete partout ou le meme risque se presente ». Elles ne sont donc pas de la recopie.
+ "tête plus basse que le corps",            # desobstruction : le geste vital, mot pour mot
+ "entre les omoplates",
+ "au milieu du sternum",
+ "le silence est le signal",
+ "pas de miel avant un an",                 # botulisme infantile
+ "Donner du miel",
+ "raisin entier, fruits à coque",           # la liste des aliments a risque d'etouffement
+ "aliments à risque",
+ "assis, tronc droit, surveillé",           # la position du repas
+ "Toujours assis, tronc droit",
+ "jamais en mouvement",
+ "la diversification débute entre quatre et six mois",
+ "Ajouter des céréales dans le biberon",
+ "Se former aux gestes qui sauvent",
+ "une toux qui traîne ou un souffle bruyant",   # apres un episode d'etouffement
+ "Faire vérifier après",
+ "la mastication cesse de progresser",
+ # Le geste de desobstruction, mot pour mot (M5, M6, M15, M17, M20).
+ "S'il tousse, ne rien faire",
+ "Le signe d'alerte",
+ "Appeler le 15 ou le 112",
+ "Cinq claques dans le dos",
+ "Puis cinq pressions",
+ "Toujours surveillé",
+ "Écarter les aliments à risque",
 ]
 # --- Refrains institutionnels : noms de dispositifs et portes d'entree.
 # Decision du 03/09/2026 : la formulation de « Mon soutien psy » est arretee mot pour mot

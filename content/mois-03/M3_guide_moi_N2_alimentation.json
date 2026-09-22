@@ -12,7 +12,7 @@
       "categorie": "alim",
       "situation": "Les tétées qui s'espacent / J'ai peur de manquer",
       "titre": "Ta lactation a changé, pas baissé",
-      "explication": "Vers trois mois, ton corps arrête de fabriquer d'avance. Les premières semaines, les seins se remplissaient entre les tétées, débordaient, coulaient à la moindre pensée. Maintenant la production s'est calée sur ce que ton bébé prend réellement : elle se fait au fil de la tétée, sans réserve et sans tension. Les seins deviennent souples, les fuites cessent, la sensation d'éjection s'estompe. Tout cela ressemble à une baisse, et c'est exactement l'inverse : c'est le signe que le système est arrivé à son régime de croisière.",
+      "explication": "Tes seins sont souples depuis quelques jours, tu ne fuis plus dans tes vêtements, et la conclusion arrive toute seule : ton lait s'en va. Vers trois mois, ton corps arrête simplement de fabriquer d'avance. Les premières semaines, les seins se remplissaient entre les tétées, débordaient, coulaient à la moindre pensée. Maintenant la production s'est calée sur ce que ton bébé prend réellement : elle se fait au fil de la tétée, sans réserve et sans tension. Tout cela ressemble à une baisse, et c'est exactement l'inverse : le système est arrivé à son régime de croisière.",
       "ancrage": "Ce n'est pas ta production qui a changé, c'est la façon dont ton corps la fabrique. Un sein souple n'est pas un sein vide, et cette différence-là vaut la peine d'être connue.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -29,7 +29,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : relancer l'éjection sans forcer",
+        "titre": "Relancer l'éjection sans forcer",
         "etapes": [
           "Peau à peau quelques minutes avant : c'est ce qui déclenche le réflexe le plus sûrement.",
           "Un linge tiède sur le sein : posé le temps de t'installer, il facilite la descente du lait.",
@@ -75,7 +75,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : recentrer sans forcer",
+        "titre": "Recentrer sans forcer",
         "etapes": [
           "Contact avant la prise : quelques minutes peau à peau, sans objectif.",
           "Une main sur son dos : posée, immobile, pendant la prise.",
@@ -104,7 +104,7 @@
       "categorie": "alim",
       "situation": "Le refus du biberon / Il refuse celui de l'autre parent",
       "titre": "Sortir de la pièce pour que ça marche",
-      "explication": "Ton bébé prend le biberon avec sa nounou, avec sa grand-mère, et le refuse avec l'autre parent dès que tu es là. Ce n'est pas une préférence de personne, c'est une question d'odeur et de disponibilité : à trois mois, il te repère à quelques mètres, il sait ce qui existe, et il attend. Tant que la source qu'il connaît est dans la pièce, aucune autre proposition n'a de chance. Ce n'est pas non plus un rejet du co-parent, et c'est important à dire, parce que c'est souvent ainsi que ce refus est vécu.",
+      "explication": "Ton bébé prend le biberon avec sa nounou, avec sa grand-mère, et le refuse avec l'autre parent dès que tu es là. Ce n'est pas une préférence de personne, c'est une question d'odeur et de disponibilité : à trois mois, il te repère à quelques mètres, il sait ce qui existe, et il attend. Tant que la source qu'il connaît est dans la pièce, aucune autre proposition n'a de chance. Ce n'est pas non plus un rejet de l'autre parent, et c'est important à dire, parce que c'est souvent ainsi que ce refus est vécu.",
       "ancrage": "Ce n'est pas l'autre parent qu'il refuse, c'est toi qu'il détecte. Sortir n'est pas abandonner : c'est la seule chose qui rende l'essai possible.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -121,7 +121,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : le rituel qui appartient au co-parent",
+        "titre": "Le rituel qui appartient au autre parent",
         "etapes": [
           "Un lieu à lui : le même fauteuil, la même lumière, à chaque fois, pour qu'un repère se construise.",
           "Sa voix en continu : parler, chanter, commenter, c'est ce qui remplace ce que le bébé cherche.",
@@ -131,7 +131,7 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Passer par un tiers d'abord : nounou, grand-mère, ami, l'essai réussit parfois avec eux avant de réussir avec le co-parent.",
+        "Passer par un tiers d'abord : nounou, grand-mère, ami, l'essai réussit parfois avec eux avant de réussir avec l'autre parent.",
         "Répéter souvent et court : quelques minutes chaque jour installent plus qu'une longue tentative du week-end.",
         "Préparer aussi le parent qui sort : c'est un moment difficile, et savoir qu'il l'est aide à ne pas rentrer trop tôt.",
         "Demander de l'aide si le blocage dure : consultante en lactation IBCLC, sage-femme ou PMI. D'autres modes de prise existent."
@@ -139,18 +139,18 @@
       "principe": "Un bébé choisit toujours la source la plus familière quand elle est à portée. Ce qui rend le relais possible tient à ce qu'on retire de la pièce, pas à ce qu'on ajoute au biberon.",
       "erreurs_a_eviter": [
         "Rester à côté pour rassurer : c'est précisément ce qui fait échouer chaque tentative.",
-        "Reprendre le bébé dès qu'il pleure : le co-parent n'a jamais le temps d'installer quoi que ce soit.",
+        "Reprendre le bébé dès qu'il pleure : l'autre parent n'a jamais le temps d'installer quoi que ce soit.",
         "Guider l'autre parent par la voix ou par messages : l'essai reste le tien, et le bébé ne s'y trompe pas.",
         "Conclure qu'il n'aime pas le biberon : c'est la présence de la mère qui est en cause, pas l'objet."
       ],
       "consulter_si": "Consulter si : bébé refuse toute prise pendant plusieurs heures et mouille peu ses couches, s'il perd du poids, s'il tousse ou s'étrangle pendant les prises, ou si le refus persiste après plusieurs semaines d'essais menés en ton absence → sage-femme, consultante en lactation IBCLC, PMI ou pédiatre.",
-      "source": "Source : difficultés d'introduction du biberon chez l'enfant allaité et rôle du co-parent, mpedia.fr (AFPA)."
+      "source": "Source : difficultés d'introduction du biberon chez l'enfant allaité et rôle de l'autre parent, mpedia.fr (AFPA)."
     },
     {
       "categorie": "alim",
       "situation": "Le doute avant la garde / Je ne sais quoi transmettre",
       "titre": "Des repères, pas des horaires",
-      "explication": "Confier son bébé oblige à mettre par écrit ce qu'on faisait jusque-là d'instinct. Et là, le réflexe est presque toujours le même : un tableau, tant de millilitres, à telle heure. Cela rassure, mais cela transmet la mauvaise chose. Une consigne chiffrée oblige la personne qui garde à regarder l'horloge au lieu de regarder l'enfant, et à finir un biberon même quand il détourne la tête. Ce qui se transmet utilement, c'est une façon de le lire : ce qu'il fait quand il a faim, ce qu'il fait quand il a assez, ce qu'il fait quand il fatigue.",
+      "explication": "Tu as commencé trois fois la feuille que tu dois laisser, et trois fois tu l'as recommencée. Confier son bébé oblige à mettre par écrit ce qu'on faisait jusque-là d'instinct, et le réflexe est presque toujours le même : un tableau, tant de millilitres, à telle heure. Cela rassure, mais cela transmet la mauvaise chose. Une consigne chiffrée oblige la personne qui garde à regarder l'horloge au lieu de regarder l'enfant, et à finir un biberon même quand il détourne la tête. Ce qui se transmet utilement, c'est une façon de le lire.",
       "ancrage": "Ce que tu transmets, ce n'est pas un tableau : c'est la façon de lire ton bébé. C'est cela qui le protégera mieux qu'un chiffre.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -167,7 +167,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : un cadre souple",
+        "titre": "Un cadre souple",
         "etapes": [
           "Prévoir une adaptation progressive : quelques heures, puis une demi-journée, puis une journée.",
           "Fournir une odeur familière : un lange porté par toi, remis à la personne qui garde, jamais dans le lit ni près du visage.",
@@ -189,8 +189,7 @@
         "Conserver un biberon entamé pour la prise suivante : ce qui reste se jette une fois la prise terminée.",
         "Ne rien transmettre par peur de « trop en dire » : ces repères font gagner du temps à tout le monde."
       ],
-      "consulter_si": "Consulter si : bébé refuse de boire chez la personne qui garde pendant plusieurs jours, s'il perd du poids, si sa courbe casse, s'il mouille très peu ses couches, ou s'il paraît anormalement mou → pédiatre, sage-femme ou PMI.",
-      "source": "Source : ameli.fr (Assurance Maladie), le suivi médical du nourrisson et les courbes du carnet de santé."
+      "consulter_si": "Consulter si : bébé refuse de boire chez la personne qui garde pendant plusieurs jours, s'il perd du poids, si sa courbe casse, s'il mouille très peu ses couches, ou s'il paraît anormalement mou → pédiatre, sage-femme ou PMI."
     }
   ]
 }

@@ -29,13 +29,13 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : le sceau des au revoir",
+        "titre": "Le sceau des au revoir",
         "etapes": [
           "Un geste secret entre vous : deux tapes dans la main, ou un bisou dans la paume qu'il referme.",
           "Toucher léger sur le dos de sa main : quelques secondes, en le regardant dans les yeux.",
           "Dire la même phrase à chaque fois : les mots répétés deviennent un objet rassurant.",
           "Refermer sa main sur le bisou : il peut le garder et le retrouver plus tard dans la journée.",
-          "Rester bref : ce rituel dure quinze secondes, c'est ce qui le rend efficace."
+          "Rester bref : ce rituel dure 15 secondes, c'est ce qui le rend efficace."
         ]
       },
       "pour_aller_plus_loin": [
@@ -44,14 +44,14 @@
         "S'entraîner à la maison : quitter la pièce en annonçant le retour, puis revenir vraiment, plusieurs fois par jour.",
         "Alléger les semaines d'adaptation : week-ends calmes, moins de visites, coucher un peu plus tôt."
       ],
-      "principe": "Ce qui rassure un enfant, ce n'est pas d'éviter la séparation, c'est de vivre des départs qui se ressemblent et des retours qui arrivent. La prévisibilité vaut plus que la douceur du moment.",
+      "principe": "Ce qui rassure un enfant, ce n'est pas d'éviter la séparation, c'est de vivre des départs qui se ressemblent et des retours qui arrivent. La prévisibilité vaut autant que la douceur du moment.",
       "erreurs_a_eviter": [
         "S'éclipser quand il a le dos tourné : l'enfant devient vigilant et supporte encore moins les séparations suivantes.",
         "Étirer les au revoir en multipliant les câlins : la tension monte à chaque minute supplémentaire.",
         "Promettre d'arriver tôt sans pouvoir le tenir : la parole donnée perd sa valeur de repère.",
         "Changer d'organisation après une journée difficile : les pleurs du début ne mesurent pas la qualité de la garde."
       ],
-      "consulter_si": "Consulter si : ton enfant pleure sans interruption toute la journée au-delà de trois semaines, s'il refuse de boire et de manger sur place, s'il régresse nettement à la maison, ou s'il devient éteint et sans réaction → en parler avec l'équipe et avec le pédiatre ou la PMI."
+      "consulter_si": "Consulter si : ton enfant refuse de boire et de manger sur place, régresse nettement à la maison, ou devient éteint et sans réaction → en parler avec l'équipe et avec le pédiatre ou la PMI."
     },
     {
       "categorie": "sepa",
@@ -64,7 +64,7 @@
         "couleur_texte": "#A32D2D",
         "titre": "Action immédiate : quand tu quittes la pièce",
         "etapes": [
-          "Annoncer avant de disparaître : « je vais dans la cuisine, je reviens », même pour trente secondes.",
+          "Annoncer avant de disparaître : « je vais dans la cuisine, je reviens », même pour 30 secondes.",
           "Garder le lien par la voix : parler ou chanter depuis l'autre pièce, ta voix te remplace un moment.",
           "Revenir avant les pleurs : quelques secondes d'absence réussies valent mieux qu'1 minute de détresse.",
           "L'emmener quand c'est plus simple : le porter avec toi rassure et n'entretient rien.",
@@ -77,11 +77,15 @@
         "titre": "Réflexologie : nourrir le réservoir de sécurité",
         "etapes": [
           "Prévoir un moment fixe : chaque jour à la même heure, 10 minutes rien qu'à vous deux.",
-          "Zone du plexus solaire : au centre de la voûte, cercles lents, 1 minute par pied.",
-          "Balayage du talon vers les orteils : passages réguliers, pression douce et constante.",
+          "L'installer au calme : allongé sur le dos, éveillé et détendu, dans un endroit qu'il connaît.",
+          "Suivre la séquence Angoisse de séparation : elle est détaillée et animée dans l'onglet Réflexologie.",
           "Regard et voix disponibles : le geste compte moins que ton attention entière pendant ces minutes.",
           "S'arrêter quand il part jouer : c'est le meilleur signe que le réservoir est plein."
-        ]
+        ],
+        "lien_reflexologie": {
+          "id": "separation",
+          "titre": "Angoisse de séparation"
+        }
       },
       "pour_aller_plus_loin": [
         "Jouer à cache-cache : disparaître derrière un linge et réapparaître transforme la séparation en jeu maîtrisé.",
@@ -119,7 +123,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : le relais qui rassure",
+        "titre": "Le relais qui rassure",
         "etapes": [
           "Rester en contact pendant la transition : ta main sur son dos pendant qu'un proche s'approche.",
           "Faire le passage assis : donner l'enfant d'un adulte assis à un autre adulte assis, sans le soulever en l'air.",
@@ -164,7 +168,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : se retrouver par le corps",
+        "titre": "Se retrouver par le corps",
         "etapes": [
           "Proposer la main plutôt que les bras : une paume ouverte posée au sol près de lui.",
           "Accepter le contact partiel : une main sur ton genou, un dos appuyé contre toi, cela compte déjà.",

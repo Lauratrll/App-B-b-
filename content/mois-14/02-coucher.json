@@ -18,7 +18,7 @@
     "Demande de doudou ou de tétine"
   ],
   "variantes_developpementales": {
-    "intro": "Chaque enfant avance à son rythme. Choisis l'axe où [prénom] se développe le plus en ce moment : le premier temps du rituel, la réflexologielogie et la berceuse s'adapteront pour l'accompagner exactement là où il en est.",
+    "intro": "Chaque enfant avance à son rythme. Choisis l'axe où [prénom] se développe le plus en ce moment : le premier temps du rituel et la berceuse s'adapteront pour l'accompagner exactement là où il en est.",
     "question_selecteur": "Où en est [prénom] en ce moment ?",
     "themes": [
       {
@@ -66,7 +66,7 @@
     {
       "etape": 5,
       "titre": "Massage, réflexologie, puis pyjama",
-      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud — pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou de réflexologie du soir. Mains réchauffées, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologielogie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas. L'huile posée, on passe ensuite au pyjama — qu'il peut t'aider à enfiler."
+      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud — pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou la séquence de réflexologie « Sommeil agité ». Mains réchauffées, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas. L'huile posée, on passe ensuite au pyjama — qu'il peut t'aider à enfiler."
     },
     {
       "etape": 6,
@@ -85,54 +85,15 @@
     }
   ],
   "reflexologie_du_coucher": {
-    "titre": "Séquence réflexologie du soir — 7 minutes",
-    "intro": "Après le bain, avant l'histoire. L'enfant allongé sur le dos, toi assise à ses pieds. Voix très basse, mouvements lents.",
-    "duree_totale": "7 minutes",
-    "pression": "0/10 — c'est une caresse, pas un massage",
-    "etapes": [
-      {
-        "zone": "Réchauffer les pieds",
-        "duree": "1 minute",
-        "geste": "Tenir les deux pieds dans tes paumes, sans bouger. Souffle calme.",
-        "ce_que_cest": "Préparation et présence"
-      },
-      {
-        "zone": "Gros orteil (cerveau / calme)",
-        "duree": "1 minute par pied",
-        "geste": "Cercles très lents dans le sens horaire sur le coussinet du gros orteil.",
-        "ce_que_cest": "Apaisement du système nerveux"
-      },
-      {
-        "zone": "Voûte haute (diaphragme)",
-        "duree": "1 minute",
-        "geste": "Pression très douce sous la base des orteils, zone large.",
-        "ce_que_cest": "Détend la respiration"
-      },
-      {
-        "zone": "Centre de la voûte (plexus solaire)",
-        "duree": "1 minute",
-        "geste": "Glissé lent du pouce du centre de la voûte vers le talon.",
-        "ce_que_cest": "Régule le système nerveux, apaise l'anxiété"
-      },
-      {
-        "zone": "Talon (ancrage)",
-        "duree": "1 minute par pied",
-        "geste": "Pression maintenue immobile sur le talon.",
-        "ce_que_cest": "Sensation de sécurité"
-      },
-      {
-        "zone": "Envelopper et tenir",
-        "duree": "1 minute",
-        "geste": "Envelopper les deux pieds dans tes mains. Voix : \"Tu peux dormir. Je suis là.\"",
-        "ce_que_cest": "Clôture rituelle"
-      }
-    ],
-    "consentement": "Avant tout, observe les réactions de l'enfant. Le massage et la réflexologielogie se font avec son accord : à la moindre crispation, s'il retire son pied ou se détourne, arrête-toi. À 14 mois, l'explorateur peut vouloir « faire seul » ou refuser : respecte-le, c'est un moment de plaisir partagé, jamais une technique à imposer.",
-    "focus_par_theme": {
-      "motricite": "Insiste sur le bord interne du pied et le talon : pression maintenue et immobile, plus longue, pour ramener le calme dans un corps qui a marché et grimpé toute la journée.",
-      "langage": "Ajoute la face interne du gros orteil (zone gorge / expression) : cercles infimes, 1 min par pied, pour apaiser un enfant très occupé à nommer et à répéter ses premiers mots."
-    },
-    "cloture": "Terminer en tenant à nouveau les deux pieds dans tes paumes pendant 30 secondes — fermeture du soin. Murmurer : « Tu peux te reposer. Je suis là. »"
+    "titre": "Réflexologie du soir",
+    "intro": "Après le bain, avant l'histoire. L'enfant allongé sur le dos, toi à ses pieds. Voix très basse, mouvements lents. La séquence « Sommeil agité » se suit pas à pas, animée, dans l'onglet Réflexologie. Elle reste la même tout au long des deux ans : c'est sa répétition, soir après soir, qui en fait un repère.",
+    "consentement": "Avant tout, observe les réactions de l'enfant. La réflexologie se fait avec son accord : à la moindre crispation, s'il retire son pied ou se détourne, arrête-toi. À 14 mois, l'explorateur peut vouloir « faire seul » ou refuser : respecte-le, c'est un moment de plaisir partagé, jamais une technique à imposer.",
+    "cloture": "Terminer par quelques secondes immobiles, tes mains posées sur lui. Murmurer : « Tu peux te reposer. Je suis là. »",
+    "etapes": [],
+    "lien_reflexologie": {
+      "id": "sommeil",
+      "titre": "Sommeil agité"
+    }
   },
   "script_audio_du_soir": {
     "titre": "Berceuse-rituel \"Tu es en sécurité\"",

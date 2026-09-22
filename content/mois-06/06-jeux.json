@@ -19,7 +19,12 @@
       "titre": "Le panier sensoriel des saveurs",
       "duree": "10-15 minutes",
       "frequence": "2-3 fois par semaine, en dehors des repas",
-      "developpe": ["Éveil oral", "Motricité fine", "Reconnaissance des textures", "Préparation à la diversification"],
+      "developpe": [
+        "Éveil oral",
+        "Motricité fine",
+        "Reconnaissance des textures",
+        "Préparation à la diversification"
+      ],
       "materiel": [
         "Un panier ou plateau bas",
         "5-6 aliments à explorer (pas à avaler) : bâtonnet de carotte crue, morceau de courgette cuite ferme, tige de céleri, écorce d'orange, feuille de basilic, pain croûton dur",
@@ -41,7 +46,12 @@
       "titre": "Le jeu du « coucou » structuré",
       "duree": "5-10 minutes",
       "frequence": "Quotidien, idéalement en plusieurs micro-sessions de 2-3 min",
-      "developpe": ["Permanence de l'objet", "Lien d'attachement sécure", "Anticipation cognitive", "Régulation émotionnelle"],
+      "developpe": [
+        "Permanence de l'objet",
+        "Lien d'attachement sécure",
+        "Anticipation cognitive",
+        "Régulation émotionnelle"
+      ],
       "materiel": [
         "Un foulard léger en coton",
         "2-3 jouets familiers de bébé (doudou, hochet)",
@@ -62,7 +72,12 @@
       "titre": "Parcours de retournement",
       "duree": "15-20 minutes",
       "frequence": "Quotidien si possible, en plusieurs courtes sessions",
-      "developpe": ["Motricité globale", "Coordination ventre-dos", "Renforcement des chaînes musculaires", "Schéma corporel"],
+      "developpe": [
+        "Motricité globale",
+        "Coordination ventre-dos",
+        "Renforcement des chaînes musculaires",
+        "Schéma corporel"
+      ],
       "materiel": [
         "Un tapis ferme au sol, espace dégagé (1m² minimum)",
         "3-4 jouets attractifs (anneau, hochet, foulard de couleur)",
@@ -84,7 +99,12 @@
       "titre": "Le miroir des expressions",
       "duree": "10 minutes",
       "frequence": "2-3 fois par semaine",
-      "developpe": ["Reconnaissance émotionnelle", "Neurones miroirs", "Conscience de soi naissante", "Lien social"],
+      "developpe": [
+        "Reconnaissance émotionnelle",
+        "Neurones miroirs",
+        "Conscience de soi naissante",
+        "Lien social"
+      ],
       "materiel": [
         "Un miroir de sécurité (incassable, pour bébé)",
         "Ton visage",
@@ -100,22 +120,6 @@
       ]
     }
   ],
-  "geste_reflexo_du_mois": {
-    "titre": "Le voyage des pieds aux mains",
-    "intro": "Mini-rituel réflexo court à intégrer aux interactions quotidiennes. À 6 mois, bébé découvre activement ses pieds et ses mains — c'est le moment idéal pour renforcer la conscience corporelle par le toucher réflexe.",
-    "duree": "2-3 minutes",
-    "moment": "Pendant le change, après le bain, ou dans un moment de calme",
-    "etapes": [
-      "Prendre un pied dans tes mains, lui dire « voici ton pied gauche »",
-      "Effleurer doucement chaque orteil du gros au petit, en les nommant",
-      "Glissé doux de la voûte plantaire vers les orteils, 2 fois",
-      "Passer à l'autre pied, même séquence",
-      "Remonter aux mains, prendre une main : « voici ta main gauche »",
-      "Ouvrir doucement chaque doigt, du pouce à l'auriculaire",
-      "Terminer en joignant ses mains et ses pieds dans un câlin court"
-    ],
-    "ce_que_ca_fait": "Stimule les zones réflexes du système nerveux et du schéma corporel. Aide bébé à intégrer la conscience de ses extrémités — préparation au quatre pattes et à la coordination fine. Crée un mini-rituel sensoriel apaisant à reprendre quotidiennement."
-  },
   "rythme_journee_type": {
     "titre": "Repères d'une journée à 6 mois",
     "intro": "Un repère, pas un protocole rigide. Chaque bébé a son tempo — celui-ci sert juste de balise.",

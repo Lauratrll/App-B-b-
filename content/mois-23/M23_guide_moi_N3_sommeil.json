@@ -33,11 +33,15 @@
         "titre": "Réflexologie : préparer une transition",
         "etapes": [
           "Premier moment dans le lit : l'installer allongé dans son nouveau lit en journée, détendu, à tes côtés.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, plusieurs passages — installe le calme.",
-          "Zone du plexus solaire : au centre de la voûte, cercles lents pendant 1 minute par pied — apaisement.",
+          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
+          "La séquence « Sommeil agité » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
           "Toucher doux et constant : accompagner d'une voix posée, en nommant que ce lit est son espace à lui, bien à lui.",
-          "S'arrêter à sa demande : s'il retire son pied ou se relève, on arrête sans insister — le geste reste un plaisir."
-        ]
+          "S'arrêter à sa demande : s'il se détourne ou se relève, on arrête sans insister — le geste reste un plaisir."
+        ],
+        "lien_reflexologie": {
+          "id": "sommeil",
+          "titre": "Sommeil agité"
+        }
       },
       "pour_aller_plus_loin": [
         "Garder le lien avec l'ancien repère : au début, laisser le même doudou, la même veilleuse, la même couverture — la continuité rassure dans le changement.",
@@ -78,11 +82,15 @@
         "titre": "Réflexologie : apaisement et sécurité",
         "etapes": [
           "S'installer au calme : enfant allongé dans son lit, lumière tamisée, ta voix posée.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, le long de la plante du pied, plusieurs passages.",
-          "Zone du plexus solaire : au centre de la voûte, cercles lents pendant 1 minute par pied — apaisement.",
-          "Zone du gros orteil : appui doux et maintenu quelques secondes — aide à relâcher le mental.",
-          "Toucher léger et constant : si l'enfant retire son pied, on s'arrête sans insister."
-        ]
+          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
+          "Suivre la séquence « Sommeil agité » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
+          "Ta voix tout bas pendant la séquence : toujours les mêmes mots, qui deviennent un repère.",
+          "S'arrêter à sa demande : s'il se détourne ou se relève, on arrête sans insister."
+        ],
+        "lien_reflexologie": {
+          "id": "sommeil",
+          "titre": "Sommeil agité"
+        }
       },
       "pour_aller_plus_loin": [
         "Tenir le même cap chaque soir : la cohérence d'un soir à l'autre apprend plus vite à l'enfant que la fermeté d'un seul soir.",
@@ -123,11 +131,15 @@
         "titre": "Réflexologie : pour aider à se rendormir",
         "etapes": [
           "Main posée : une main large et immobile sur le dos ou le ventre — ta chaleur et ton immobilité invitent au calme.",
-          "Zone du talon : appui doux et maintenu sous chaque talon — effet d'ancrage, de retour au sol.",
-          "Balayage lent de la voûte : du talon vers les orteils, quelques passages réguliers.",
+          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
+          "Suivre la séquence « Sommeil agité » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
           "Respiration guidée : ralentis ta propre respiration près de lui — il se cale sur ton rythme.",
           "Toucher constant, jamais appuyé : dès qu'il se détend, alléger puis retirer la main sans le réveiller."
-        ]
+        ],
+        "lien_reflexologie": {
+          "id": "sommeil",
+          "titre": "Sommeil agité"
+        }
       },
       "pour_aller_plus_loin": [
         "Viser un endormissement autonome le soir : un enfant qui s'endort apaisé et seul dans son lit réclame moins d'aide lors des réveils de la nuit.",
@@ -168,11 +180,15 @@
         "titre": "Réflexologie : pour accompagner le retour au calme",
         "etapes": [
           "Attendre l'apaisement complet : n'intervenir qu'une fois qu'il est retombé dans un sommeil calme.",
+          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
+          "La séquence « Sommeil agité » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
           "Main immobile sur le dos : présence chaude et discrète, sans le réveiller.",
-          "Balayage très lent de la voûte : un ou deux passages doux, du talon vers les orteils.",
-          "Zone du plexus solaire : cercles lents pendant quelques instants — accompagne le retour au calme.",
           "Se retirer en douceur : dès qu'il dort paisiblement, alléger le contact puis s'éloigner."
-        ]
+        ],
+        "lien_reflexologie": {
+          "id": "sommeil",
+          "titre": "Sommeil agité"
+        }
       },
       "pour_aller_plus_loin": [
         "Protéger le sommeil : la sur-fatigue et les couchers trop tardifs favorisent les terreurs — avancer légèrement l'heure du coucher aide souvent.",
@@ -213,11 +229,15 @@
         "titre": "Réflexologie : pour dénouer la peur",
         "etapes": [
           "S'asseoir près de lui : voix posée, respiration lente qu'il peut entendre.",
+          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
+          "Suivre la séquence « Sommeil agité » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
           "Main enveloppante sur la poitrine : présence chaude et immobile, qui apaise le rythme cardiaque.",
-          "Balayage lent de la voûte : du talon vers les orteils, régulier, pour relâcher les tensions.",
-          "Zone du gros orteil : appui doux et maintenu — accompagne le relâchement du mental et des pensées qui inquiètent.",
           "Toucher constant et léger : à mesure qu'il se détend, alléger le contact puis t'éloigner sans rupture brutale."
-        ]
+        ],
+        "lien_reflexologie": {
+          "id": "sommeil",
+          "titre": "Sommeil agité"
+        }
       },
       "pour_aller_plus_loin": [
         "Apprivoiser le noir de jour : jouer avec une lampe de poche, faire des ombres rigolotes — le noir devient familier et amusant.",

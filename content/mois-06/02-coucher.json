@@ -29,7 +29,7 @@
     {
       "etape": 4,
       "titre": "Massage, réflexologie, puis pyjama",
-      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud — pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou de réflexologie du soir. Mains réchauffées, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologielogie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas. L'huile posée, on passe ensuite au pyjama."
+      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud — pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou la séquence de réflexologie « Sommeil agité ». Mains réchauffées, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas. L'huile posée, on passe ensuite au pyjama."
     },
     {
       "etape": 5,
@@ -43,54 +43,19 @@
     }
   ],
   "reflexologie_du_coucher": {
-    "titre": "Séquence réflexologie du soir — 7 minutes",
-    "intro": "Après le pyjama, avant l'histoire. Bébé allongé sur le dos, toi assise face à ses pieds. Voix très basse, mouvements infimes. À 6 mois, les zones de réflexologie sont encore très réceptives — la pression doit rester celle d'une caresse. Adaptation : si bébé tente de se retourner pendant la séquence, accepter qu'il se mette sur le côté ou le ventre et adapter ton geste à sa position.",
-    "duree_totale": "7 minutes",
-    "pression": "0/10 — c'est une caresse, pas un massage",
-    "etapes": [
-      {
-        "zone": "Réchauffer les pieds",
-        "duree": "1 minute",
-        "geste": "Envelopper les deux pieds de bébé dans tes paumes, immobile. Synchroniser ton souffle au sien.",
-        "ce_que_cest": "Préparation et présence — le contact avant tout geste"
-      },
-      {
-        "zone": "Gros orteil (cerveau / système nerveux)",
-        "duree": "1 minute par pied",
-        "geste": "Effleurement très lent du coussinet du gros orteil, du bout vers la base, en alternance droite-gauche.",
-        "ce_que_cest": "Apaisement du système nerveux central — zone tête en réflexologie"
-      },
-      {
-        "zone": "Voûte haute (poumons et diaphragme)",
-        "duree": "1 minute",
-        "geste": "Glissé large sous la base des orteils, sur toute la largeur de chaque pied.",
-        "ce_que_cest": "Détend la respiration et le diaphragme — facilite l'endormissement"
-      },
-      {
-        "zone": "Centre de la voûte (plexus solaire et estomac)",
-        "duree": "1 minute",
-        "geste": "Cercles infimes au centre de la voûte plantaire, sens horaire, très lents.",
-        "ce_que_cest": "Régulation du stress et apaisement de la sphère digestive — particulièrement utile depuis le début de la diversification"
-      },
-      {
-        "zone": "Bord interne du pied (colonne vertébrale)",
-        "duree": "1 minute par pied",
-        "geste": "Glissé doux du talon vers le gros orteil, le long du bord interne.",
-        "ce_que_cest": "Libère les tensions axiales liées aux nouveaux mouvements de retournement"
-      },
-      {
-        "zone": "Talon (ancrage et bassin)",
-        "duree": "1 minute",
-        "geste": "Pression maintenue immobile au creux de chaque talon, alternance ou ensemble. Pas de mouvement, juste du contact.",
-        "ce_que_cest": "Ancrage corporel — rappelle à bébé la sensation contenante in utero"
-      }
-    ],
-    "cloture": "Terminer en tenant à nouveau les deux pieds dans tes paumes pendant 30 secondes — fermeture du soin. Murmurer la phrase d'ancrage du soir."
+    "titre": "Réflexologie du soir",
+    "intro": "Après le pyjama, avant l'histoire. Bébé allongé sur le dos, toi face à ses pieds. Voix très basse, mouvements infimes. À 6 mois, s'il tente de se retourner pendant la séquence, accepte qu'il se mette sur le côté ou sur le ventre. La séquence « Sommeil agité » se suit pas à pas, animée, dans l'onglet Réflexologie. Elle reste la même tout au long des deux ans : c'est sa répétition, soir après soir, qui en fait un repère.",
+    "cloture": "Terminer par quelques secondes immobiles, tes mains posées sur lui. Murmurer la phrase d'ancrage du soir.",
+    "etapes": [],
+    "lien_reflexologie": {
+      "id": "sommeil",
+      "titre": "Sommeil agité"
+    }
   },
   "script_audio_du_soir": {
     "titre": "« Le monde se repose maintenant »",
     "duree": "~5 minutes",
-    "instruction": "À écouter sur enceinte douce pendant la séquence réflexologie et le pyjama, volume bas. Voix grave et lente. Ou à lire à voix haute, posément, en regardant bébé. Les pauses sont des silences réels — pas des indications de ton.",
+    "instruction": "À écouter sur enceinte douce pendant la réflexologie et le pyjama, volume bas. Voix grave et lente. Ou à lire à voix haute, posément, en regardant bébé. Les pauses sont des silences réels — pas des indications de ton.",
     "texte": "[Prénom]...\n\nBonsoir, [mon tout petit/ma toute petite].\n\nLa journée s'achève.\n\nTu as beaucoup vécu aujourd'hui.\n\n[Pause — 5 secondes]\n\nTu as goûté. Tu as touché. Tu as regardé, écouté, senti.\n\nTu as essayé des mouvements nouveaux. Tu t'es peut-être [retourné/retournée]. Tu as peut-être tendu la main vers quelque chose. Tu as peut-être ri.\n\nTout ça, c'était beaucoup.\n\nMaintenant, le monde se repose.\n\n[Pause — 5 secondes]\n\nDehors, les bruits s'éloignent. Les lumières s'éteignent. Les oiseaux se posent.\n\nDans la maison aussi, ça ralentit. Ma voix devient plus basse. Mes gestes deviennent plus lents.\n\nTout se prépare pour la nuit.\n\n[Pause — 5 secondes]\n\nTon corps a beaucoup travaillé aujourd'hui.\n\nIl a digéré des saveurs nouvelles. Il a appris des mouvements nouveaux. Il a poussé peut-être une dent qui veut sortir.\n\nMaintenant, il peut se reposer.\n\n[Pause — 5 secondes]\n\nLa nuit, c'est juste un long câlin doux.\n\nMême quand je ne suis pas dans la pièce, je suis là.\n\nMa voix reste dans ta tête. Mon odeur reste dans ta peau. Mon amour ne s'éteint pas avec la lumière.\n\n[Pause — 10 secondes]\n\nSi tu te réveilles cette nuit, c'est ok.\n\nTon corps apprend. Tes nuits changent. Ça arrive à tous les bébés de 6 mois.\n\nJe serai là. Toujours.\n\n[Pause — 5 secondes]\n\nMaintenant, tu peux te déposer.\n\nTon corps est en sécurité.\n\nTon cœur est en sécurité.\n\nTu es [aimé/aimée].\n\nDors, mon amour. Dors.\n\nBonne nuit."
   },
   "signaux_de_fatigue": [

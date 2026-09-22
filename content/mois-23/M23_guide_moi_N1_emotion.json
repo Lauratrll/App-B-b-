@@ -33,10 +33,15 @@
         "titre": "Réflexologie : après la crise, revenir au calme",
         "etapes": [
           "Quand la vague est passée, l'accueillir contre toi, sans revenir sur la crise à chaud.",
-          "Zone du plexus solaire : au centre de la voûte, cercles lents 1 à 2 minutes — apaise le système nerveux.",
-          "Balayage doux de la voûte, du talon vers les orteils, en respirant lentement avec lui.",
-          "S'arrêter dès qu'il se détend ou retire son pied — le retour au calme lui appartient."
-        ]
+          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
+          "La séquence « Opposition, frustration » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
+          "Garder ta voix posée : quelques mots toujours identiques, ou un air fredonné.",
+          "S'arrêter dès qu'il se détend ou se détourne — le retour au calme lui appartient."
+        ],
+        "lien_reflexologie": {
+          "id": "opposition-frustration",
+          "titre": "Opposition, frustration"
+        }
       },
       "pour_aller_plus_loin": [
         "Reconnecter après, pas pendant : une fois calmé, un câlin et quelques mots simples referment l'épisode.",
@@ -74,7 +79,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — accueillir la déception",
+        "titre": "Accueillir la déception",
         "etapes": [
           "Rester physiquement présent, à côté de lui, sans forcer le contact.",
           "Une main calme et immobile s'il l'accepte : ta stabilité l'aide à redescendre.",
@@ -118,7 +123,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — offrir du pouvoir en sécurité",
+        "titre": "Offrir du pouvoir en sécurité",
         "etapes": [
           "Confier de petites responsabilités à sa portée : porter, ranger, appuyer sur le bouton.",
           "Valoriser ses réussites autonomes : « tu l'as fait tout seul » — nourrir sa fierté.",
@@ -162,7 +167,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — canaliser le besoin de mordre",
+        "titre": "Canaliser le besoin de mordre",
         "etapes": [
           "Offrir un exutoire sensoriel sûr : anneau à mâcher, aliment croquant adapté, sous surveillance.",
           "Proposer des jeux de décharge : taper une pâte, presser, malaxer — évacuer par le corps.",
@@ -188,7 +193,7 @@
     {
       "categorie": "emotion",
       "situation": "La fin de journée / Plus rien ne passe après 17h",
-      "titre": "Anticiper deux heures avant",
+      "titre": "Anticiper 2 heures avant",
       "explication": "Entre 17h et 19h, beaucoup d'enfants deviennent ingérables : c'est « l'heure du loup », un moment physiologiquement difficile. La fatigue de la journée est à son comble, la glycémie chute, et le petit stock d'énergie pour se contrôler est épuisé. Résultat : pleurs, crises, refus de tout, pour un rien. Ce n'est ni un caprice ni un défi — c'est de la neurochimie pure, que ton enfant subit autant que toi. Beaucoup de parents croient qu'il « fait exprès » à ce moment-là ; en réalité, il n'a plus aucune réserve pour tenir.",
       "ancrage": "Cette heure difficile n'est pas une faiblesse de ton enfant, c'est une réalité de son corps fatigué. Ton anticipation et ton calme sont le seul vrai antidote.",
       "action_immediate": {
@@ -206,12 +211,13 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Réflexologie : traverser l'heure du loup",
+        "titre": "Traverser l'heure du loup",
         "etapes": [
           "L'installer au calme contre toi, lumière tamisée, dès que la tension monte.",
-          "Zone du plexus solaire : au centre de la voûte, cercles lents 1 à 2 minutes — apaise le système nerveux.",
-          "Balayage doux de la voûte, du talon vers les orteils, en respirant lentement avec lui.",
-          "S'arrêter dès qu'il se détend ou retire son pied."
+          "L'envelopper sans serrer : tes bras autour de lui, ses mains ramenées vers le centre de son corps.",
+          "Tes mains posées sur ses épaules : une pression douce et immobile, qui lui redonne ses contours.",
+          "Laisser le silence faire : quelques respirations sans rien dire ni rien proposer.",
+          "S'arrêter dès qu'il se détend ou se détourne."
         ]
       },
       "pour_aller_plus_loin": [
@@ -250,7 +256,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — redescendre après l'écran",
+        "titre": "Redescendre après l'écran",
         "etapes": [
           "Proposer une activité lente et sensorielle : eau, pâte, transvaser — recentrer l'attention.",
           "Un temps calme à deux, sans image : lire, chanter, se blottir.",
@@ -295,7 +301,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux — du temps rien qu'à lui",
+        "titre": "Du temps rien qu'à lui",
         "etapes": [
           "Réserver chaque jour un moment exclusif, sans le bébé : quelques minutes qui n'appartiennent qu'à lui.",
           "Le regarder, le nommer, le câliner : « je suis tellement content d'être avec toi, là ».",

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import type { ProtocoleGuide } from "@/lib/content";
 import { GUIDE_MUTED, parseSituation } from "@/components/modules/guide-design";
 
@@ -142,10 +143,12 @@ function EncartEtapes({
   titre,
   etapes,
   theme,
+  lien,
 }: {
   titre: string;
   etapes: string[];
   theme: { bg: string; accent: string; label: string };
+  lien?: { id: string; titre: string };
 }) {
   return (
     <div
@@ -191,6 +194,25 @@ function EncartEtapes({
           </div>
         </div>
       ))}
+      {lien ? (
+        <Link
+          href={`/reflexologie/${lien.id}`}
+          style={{
+            display: "block",
+            textAlign: "center",
+            background: theme.accent,
+            color: "#FFFFFF",
+            fontSize: 11,
+            fontWeight: 700,
+            borderRadius: 9,
+            padding: "8px 12px",
+            textDecoration: "none",
+            marginTop: 8,
+          }}
+        >
+          Ouvrir la séquence « {lien.titre} »
+        </Link>
+      ) : null}
     </div>
   );
 }
@@ -290,6 +312,7 @@ export function ProtocoleView({ protocole }: { protocole: ProtocoleGuide }) {
         titre={p.geste_doux.titre}
         etapes={p.geste_doux.etapes}
         theme={C.gestedoux}
+        lien={p.geste_doux.lien_reflexologie}
       />
 
       {/* 6. Principe à retenir */}

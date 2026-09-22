@@ -32,11 +32,15 @@
         "titre": "Réflexologie : un temps de dialogue tranquille",
         "etapes": [
           "Bébé éveillé et calme : sur le dos, dans le silence, sans écran autour.",
-          "Réchauffer ses pieds : les tenir immobiles dans tes paumes.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
+          "Suivre la séquence « Accueil du nouveau-né » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
           "Parler pendant le geste : ta voix associée à ton toucher renforce le repère sensoriel.",
-          "S'arrêter à sa demande : un pied retiré, un regard qui se détourne, on arrête."
-        ]
+          "S'arrêter à sa demande : un mouvement de retrait, un regard qui se détourne, on arrête."
+        ],
+        "lien_reflexologie": {
+          "id": "accueil-nouveau-ne",
+          "titre": "Accueil du nouveau-né"
+        }
       },
       "pour_aller_plus_loin": [
         "Se rappeler la fourchette : le sourire social arrive souvent entre six et huit semaines, mais chaque enfant a son rythme. Ce n'est ni une course ni un test.",
@@ -77,11 +81,15 @@
         "titre": "Réflexologie : un moment de présence, sans attente",
         "etapes": [
           "Bébé sur le dos, éveillé et détendu : lumière douce, pas de bruit autour.",
-          "Réchauffer ses pieds : les tenir dans tes paumes, immobiles.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
+          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
+          "La séquence « Accueil du nouveau-né » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
           "Rester dans son champ : ton visage à trente centimètres pendant le geste.",
           "S'arrêter à sa demande : ce moment n'a aucun objectif de performance."
-        ]
+        ],
+        "lien_reflexologie": {
+          "id": "accueil-nouveau-ne",
+          "titre": "Accueil du nouveau-né"
+        }
       },
       "pour_aller_plus_loin": [
         "Oublier les jouets d'éveil : à cet âge, ton visage est le meilleur support visuel qui existe.",
@@ -122,11 +130,15 @@
         "titre": "Réflexologie : un rendez-vous quotidien avec lui",
         "etapes": [
           "Un moment court et régulier : quelques minutes chaque jour, toujours au même moment.",
-          "Réchauffer ses pieds : les tenir dans tes paumes avant de commencer.",
-          "Balayage de la voûte : du talon vers les orteils, lentement, pression douce et constante.",
-          "Zone du plexus solaire : cercles lents au centre de la voûte, 1 minute par pied.",
+          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
+          "Suivre la séquence « Accueil du nouveau-né » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
+          "Parler doucement pendant la séquence : raconter ce que tu fais, sur le même ton.",
           "Se laisser regarder : ce temps n'a pas d'objectif. C'est un temps de lien, pour vous deux."
-        ]
+        ],
+        "lien_reflexologie": {
+          "id": "accueil-nouveau-ne",
+          "titre": "Accueil du nouveau-né"
+        }
       },
       "pour_aller_plus_loin": [
         "Compter les micro-interactions : chaque réponse à un pleur, chaque regard, chaque geste de soin est une brique du lien.",
@@ -164,7 +176,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : le lien du co-parent",
+        "titre": "Le lien du co-parent",
         "etapes": [
           "Un temps quotidien : quelques minutes, toujours les mêmes, qui lui appartiennent.",
           "Sa voix, souvent : lui parler, chanter, raconter. La voix est un canal de reconnaissance puissant.",

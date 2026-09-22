@@ -29,7 +29,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : donner un support au geste",
+        "titre": "Donner un support au geste",
         "etapes": [
           "Un temps de lâcher hors repas : un panier, des objets à faire tomber dedans, autant qu'il veut.",
           "Des jeux de transvasement : remplir, vider, verser d'un contenant à l'autre, sous surveillance.",
@@ -51,8 +51,7 @@
         "Le forcer à finir après qu'il a commencé à jeter : le repas devient un rapport de force qu'il retiendra.",
         "Punir ou taper la main : à huit mois il ne fait aucun lien entre son geste et la sanction, il n'en retient que la peur."
       ],
-      "consulter_si": "Consulter si : bébé refuse de manger depuis plusieurs jours, ne prend pas de poids, si sa courbe casse, s'il vomit de façon répétée, ou si les repas deviennent une source de conflit permanent → pédiatre, médecin traitant ou PMI.",
-      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), l'exploration de bébé et les étapes du développement."
+      "consulter_si": "Consulter si : bébé refuse de manger depuis plusieurs jours, ne prend pas de poids, si sa courbe casse, s'il vomit de façon répétée, ou si les repas deviennent une source de conflit permanent → pédiatre, médecin traitant ou PMI."
     },
     {
       "categorie": "alim",
@@ -75,7 +74,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : les formes qui bouchent",
+        "titre": "Les formes qui bouchent",
         "etapes": [
           "Le grain de raisin : jamais entier, coupé en quatre dans le sens de la longueur.",
           "Les fruits à coque : jamais entiers avant plusieurs années, en poudre ou en purée fine seulement.",
@@ -121,7 +120,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : installer le geste",
+        "titre": "Installer le geste",
         "etapes": [
           "Une tasse simple : légère, à deux anses, sans valve qui demande une succion forte.",
           "L'aider sans faire à sa place : soutenir le fond de la tasse, sans la tenir pour lui.",
@@ -150,7 +149,7 @@
       "categorie": "alim",
       "situation": "Les régurgitations / Il rend encore, assis à table",
       "titre": "Le mot reflux, et ce qu'il change",
-      "explication": "Autour de toi, quelqu'un a fini par poser le mot : reflux. Et avec le mot arrivent les conseils, les marques de lait, parfois le médicament d'un cousin. Voilà ce qu'on peut en dire. Chez un bébé qui grossit bien, qui mange, qui dort et qui n'a pas mal, ce qu'on appelle un reflux simple ne demande aucun médicament. C'est la position de la Haute Autorité de Santé, et elle est claire. Ce n'est pas de la négligence, c'est l'inverse : donner un traitement inutile à un nourrisson n'est jamais neutre. Et le temps travaille pour vous. Il ne reste des régurgitations que chez cinq pour cent des enfants entre dix et douze mois, au moment où ils se mettent debout et se déplacent. Vous êtes à quelques mois de la fin.",
+      "explication": "Autour de toi, quelqu'un a fini par poser le mot : reflux. Et avec le mot arrivent les conseils, les marques de lait, parfois le médicament d'un cousin. Voilà ce qu'on peut en dire. Chez un bébé qui grossit bien, qui mange, qui dort et qui n'a pas mal, ce qu'on appelle un reflux simple ne demande aucun médicament, *c'est la position de la Haute Autorité de Santé*. Ce n'est pas de la négligence, c'est l'inverse, parce que donner un traitement inutile à un nourrisson n'est jamais neutre. Et le temps travaille pour toi : *les régurgitations ne concernent plus que 5 % des enfants entre dix et douze mois, d'après la Haute Autorité de Santé*, au moment où ils se mettent debout et se déplacent. Tu es à quelques mois de la fin.",
       "ancrage": "Le mot fait peur et il ne change rien à ce que tu vois. C'est ton bébé qu'on regarde, pas une étiquette.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -177,12 +176,12 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Retenir la position officielle : un reflux simple, chez un enfant qui va bien, ne demande aucun médicament.",
-        "Se rappeler la trajectoire : il n'en reste plus que cinq pour cent des enfants entre dix et douze mois.",
-        "Ne rien surélever soi-même : coussins, cales et matelas inclinés augmentent le risque d'étouffement.",
-        "Laisser le médecin nommer : un mot posé par un proche n'engage rien, un avis rendu après examen, si."
+        "Ce que le médecin regarde : la courbe, la douleur, le sommeil, la respiration. Un examen, pas une liste de symptômes racontés au téléphone.",
+        "Laisser le médecin nommer : ce qu'un proche déclare n'engage rien, un avis rendu après examen, si.",
+        "La visite du onzième ou du douzième mois : le calendrier de suivi en prévoit une, prise en charge sans avance de frais. C'est l'endroit pour faire le point sans créer un rendez-vous exprès.",
+        "Ce qui change à cet âge : il se met debout, il se déplace, et cette verticalité fait le travail que les cales ne feront jamais."
       ],
-      "principe": "Un mot posé par l'entourage n'engage personne, et même nommé par un médecin, ce que vit ton bébé n'appelle pas forcément un traitement. Ce qui décide, c'est l'enfant qu'on a devant soi.",
+      "principe": "Une étiquette prononcée par l'entourage n'engage personne, et même posée par un médecin, ce que vit ton bébé n'appelle pas forcément un traitement. Ce qui décide, c'est l'enfant qu'on a devant soi.",
       "erreurs_a_eviter": [
         "Donner à ton bébé un médicament destiné à un autre enfant, même de la famille.",
         "Changer de lait, sa dose ou sa dilution de sa propre initiative : cela se décide avec un médecin, jamais devant un rayon.",
@@ -196,7 +195,7 @@
       "categorie": "alim",
       "situation": "Le refus de manger en garde / Il mange bien à la maison",
       "titre": "Ce n'est pas le menu, c'est la sécurité",
-      "explication": "Il mange très bien à la maison et refuse chez la personne qui le garde. Manger demande quelque chose qu'on oublie souvent : s'abandonner. Il faut cesser de surveiller son environnement pour se concentrer sur sa bouche, et cela ne se fait que lorsqu'on se sent assez en sécurité. Chez un adulte encore peu familier, en plein pic de l'angoisse de séparation, cette sécurité n'est pas encore là. Ce n'est donc pas son appétit qui est en cause, c'est son niveau de vigilance.",
+      "explication": "Il mange très bien à la maison et refuse chez la personne qui le garde. Manger demande quelque chose qu'on oublie souvent : s'abandonner. Manger demande de cesser de surveiller son environnement pour se concentrer sur sa bouche, et cela ne se fait que lorsqu'on se sent assez en sécurité. Chez un adulte encore peu familier, en plein pic de l'angoisse de séparation, cette sécurité n'est pas encore là. Ce n'est donc pas son appétit qui est en cause, c'est son niveau de vigilance.",
       "ancrage": "Il ne refuse pas la nourriture, il refuse de baisser la garde. Ce qui se transmet à la personne qui le garde, ce sont ses repères, pas des recettes.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -213,7 +212,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Geste doux : soutenir l'adaptation",
+        "titre": "Soutenir l'adaptation",
         "etapes": [
           "Un temps de familiarisation plus long : à cet âge, l'angoisse de séparation rallonge toutes les adaptations.",
           "Un rituel de départ court : une phrase, un baiser, et on part, toujours les mêmes.",
@@ -259,10 +258,13 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Réflexologie : apaiser le ventre",
+        "titre": "Protéger le siège pendant que ça se règle",
         "etapes": [
-          "Ce que ça apaise : l'inconfort d'un transit qui se réorganise.",
-          "Le bon moment : à distance des repas, dans le calme."
+          "Changer sans attendre : une selle molle laissée en place irrite la peau en quelques heures.",
+          "Nettoyer à l'eau tiède : sans savon parfumé et sans lingette, en tamponnant plutôt qu'en frottant.",
+          "Sécher complètement : surtout dans les plis, avant de refermer la couche.",
+          "Laisser à l'air quelques minutes : à chaque change, sur une serviette.",
+          "Demander au pharmacien si la peau rougit : c'est lui qui sait ce qui convient à son âge."
         ],
         "lien_reflexologie": {
           "id": "inconfort-digestif",
@@ -270,7 +272,7 @@
         }
       },
       "pour_aller_plus_loin": [
-        "Protéger le siège : nettoyer à l'eau, sécher en tamponnant, et un émollient à chaque change, les selles molles irritent vite.",
+        "Garder les légumes malgré tout : ce sont eux qui apportent les fibres, même quand le transit fait du bruit.",
         "Repérer les signes de déshydratation : couches très peu mouillées, bouche sèche, somnolence, yeux cernés.",
         "Beaucoup de mouvement au sol : le mouvement libre soutient le transit mieux que n'importe quel geste.",
         "Le montrer si cela dure : au-delà de quelques jours, cela se regarde plutôt que cela ne s'interprète."
@@ -306,10 +308,13 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Réflexologie : détendre le ventre",
+        "titre": "Hors du repas : décharger la journée avant le soir",
         "etapes": [
-          "Ce que ça apaise : le ventre tendu de l'après-biberon.",
-          "Le bon moment : une bonne demi-heure après la prise, pas juste après."
+          "Protéger la sieste de l'après-midi : c'est elle qui décide de la soirée, bien plus que le contenu du biberon.",
+          "Du sol en fin de journée : ramper et rouler font plus pour son ventre qu'une promenade en poussette.",
+          "Baisser la maison avant la prise : lumière, bruit, écrans, tout ce qui l'excite se paie ensuite.",
+          "Une main large et immobile sur son ventre : posée, chaude, sans appuyer, une fois la prise digérée.",
+          "S'arrêter à sa demande : s'il se crispe ou se détourne, on arrête sans insister."
         ],
         "lien_reflexologie": {
           "id": "inconfort-digestif",
@@ -319,7 +324,7 @@
       "pour_aller_plus_loin": [
         "Desserrer ses vêtements : vérifier qu'aucun élastique ne comprime son ventre au moment de la prise.",
         "Décaler le biberon du soir : un peu plus tôt, hors de la fenêtre de fatigue maximale.",
-        "Distinguer la fatigue du ventre : à huit mois, la sur-fatigue provoque des soirées qui ressemblent beaucoup à de l'inconfort digestif.",
+        "Repérer l'heure du basculement : la même gêne qui passe inaperçue l'après-midi devient insupportable en fin de journée.",
         "Faire valider tout changement de lait : la composition et la dilution engagent sa santé, et le retour en arrière est un changement de plus."
       ],
       "principe": "L'air avalé pendant une prise se paie toujours après, et c'est le rythme de la tétée qui décide de la quantité. Un inconfort du soir se règle donc pendant le biberon, pas une fois qu'il est fini.",
