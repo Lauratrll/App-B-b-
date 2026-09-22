@@ -17,6 +17,11 @@ import {
 
 const PLAYFAIR = "var(--font-playfair), Georgia, serif";
 
+// Largeur maximale d'une case : juste de quoi faire tenir une situation de
+// 55 caractères sur 2 lignes (le fait, puis la phrase). Mesuré le 22/09 sur
+// les 606 situations : 270 px de texte + marges et flèche.
+const CASES_LARGEUR_MAX = 322;
+
 const FIRST_STYLE: React.CSSProperties = {
   fontSize: 12,
   color: GUIDE_TEXT,
@@ -69,9 +74,7 @@ function SituationButton({
         borderRadius: 12,
         display: "flex",
         alignItems: "center",
-        // Toute la largeur, marges serrées : une situation de 55 caractères
-        // tient sur 2 lignes (le fait, puis la phrase). À 78 %, une sur quatre
-        // passait à 3 lignes (mesuré le 22/09).
+        // Largeur donnée par la liste (cf. CASES_LARGEUR_MAX) ; marges serrées.
         gap: 8,
         padding: "14px 14px 14px 16px",
         width: "100%",
@@ -235,12 +238,18 @@ export function SituationsView({
           Aucune situation disponible pour cette catégorie.
         </p>
       ) : (
+        // Les cases prennent la largeur de la situation la plus longue de la
+        // liste (toutes identiques, centrées), plafonnée à CASES_LARGEUR_MAX :
+        // pas de grand vide entre le texte et la flèche quand les situations
+        // sont courtes, et au-delà de 55 caractères on passe à 3 lignes.
         <div
           style={{
             display: "flex",
             flexDirection: "column",
             gap: 11,
-            alignItems: "center",
+            width: "fit-content",
+            maxWidth: `min(100%, ${CASES_LARGEUR_MAX}px)`,
+            margin: "0 auto",
           }}
         >
           {situations.map((s, i) => (
