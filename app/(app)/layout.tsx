@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { Suspense } from "react";
-import { getCurrentProfile, requireUser } from "@/lib/auth";
+import { getApercu, getCurrentProfile, requireUser } from "@/lib/auth";
 import { getBabyMonth } from "@/lib/utils";
 import { PinToast } from "@/components/modules/pin-toast";
+import { ApercuAdminBar } from "@/components/modules/apercu-admin-bar";
 
 export default async function AppLayout({
   children,
@@ -12,6 +13,7 @@ export default async function AppLayout({
   await requireUser();
   const profile = await getCurrentProfile();
   const babyMonth = profile ? getBabyMonth(new Date(profile.birthdate)) : null;
+  const apercu = await getApercu();
 
   return (
     <div className="flex min-h-dvh flex-col">
@@ -40,6 +42,13 @@ export default async function AppLayout({
           </button>
         </form>
       </header>
+      {apercu && profile && babyMonth !== null ? (
+        <ApercuAdminBar
+          key={`${babyMonth}-${profile.genre}`}
+          mois={babyMonth}
+          genre={profile.genre}
+        />
+      ) : null}
 
       <main className="flex-1 px-5 pt-6 pb-4">{children}</main>
 

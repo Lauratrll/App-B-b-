@@ -121,6 +121,18 @@ CREATE TABLE content (
   updated\_at TIMESTAMPTZ DEFAULT now()
 );
 
+-- Admins (mode « aperçu » : choisir le mois et le genre affichés)
+CREATE TABLE admins (
+  email TEXT PRIMARY KEY CHECK (email = lower(email)),
+  note TEXT,
+  created\_at TIMESTAMPTZ DEFAULT now()
+);
+-- RLS activée SANS policy : gérée uniquement depuis le dashboard Supabase.
+-- Fonction is\_admin() (SECURITY DEFINER) : l'utilisateur connecté est-il admin ?
+-- Aperçu stocké en cookies (apercu\_mois, apercu\_genre), appliqué par
+-- getCurrentProfile() dans lib/auth.ts ; le profil réel = getRealProfile().
+-- Migration : supabase/migrations/0004\_admins\_et\_verrou\_profil.sql
+
 -- Épinglés
 CREATE TABLE pinned (
   id UUID PRIMARY KEY DEFAULT gen\_random\_uuid(),
@@ -210,10 +222,14 @@ function isSubscriptionActive(subscription: Subscription): boolean {
 Toujours activer RLS sur toutes les tables utilisateur.
 
 ```sql
--- profiles : utilisateur voit uniquement son propre profil
+-- profiles : VERROUILLÉ après création (prénom, date, genre).
+-- Lecture + création de son propre profil ; modification réservée aux admins ;
+-- aucune suppression. Corrections parents : à la main dans le dashboard.
 ALTER TABLE profiles ENABLE ROW LEVEL SECURITY;
-CREATE POLICY "own profile" ON profiles
-  FOR ALL USING (auth.uid() = user\_id);
+CREATE POLICY "profile select own" ON profiles FOR SELECT USING (auth.uid() = user\_id);
+CREATE POLICY "profile insert own" ON profiles FOR INSERT WITH CHECK (auth.uid() = user\_id);
+CREATE POLICY "profile update admin" ON profiles FOR UPDATE
+  USING (auth.uid() = user\_id AND is\_admin()) WITH CHECK (auth.uid() = user\_id AND is\_admin());
 
 -- subscriptions : idem
 ALTER TABLE subscriptions ENABLE ROW LEVEL SECURITY;
