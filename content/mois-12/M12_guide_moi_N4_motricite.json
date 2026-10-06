@@ -12,7 +12,7 @@
       "categorie": "corpo",
       "situation": "L'attente des premiers pas / Il ne marche toujours pas à un an",
       "titre": "Ce que l'on regarde à cet âge",
-      "explication": "La marche autonome s'installe le plus souvent entre 9 et 18 mois. À 12 mois, moins de la moitié des enfants marchent seuls, et ceux qui commencent à 16 ou 17 mois se situent pleinement dans la norme. Chaque enfant suit son propre chemin : certains passent par le quatre pattes, d'autres restent longtemps debout le long des meubles avant de lâcher. Ce qui compte n'est pas la date mais la progression : les appuis se renforcent, l'équilibre s'affine, l'envie d'aller plus loin grandit.",
+      "explication": "La marche autonome s'installe le plus souvent entre 8 et 18 mois : c'est la fenêtre mesurée par l'*étude de l'OMS sur le développement moteur, 2006*, auprès d'enfants suivis dans cinq pays. À 12 mois, moins de la moitié des enfants marchent seuls, et ceux qui commencent à 16 ou 17 mois se situent pleinement dans la norme. Chaque enfant suit son propre chemin : certains passent par le quatre pattes, d'autres restent longtemps debout le long des meubles avant de lâcher. Ce qui compte n'est pas la date mais la progression : les appuis se renforcent, l'équilibre s'affine, l'envie d'aller plus loin grandit.",
       "ancrage": "Ce n'est ni une course ni une compétition, et rien de ce que tu fais ne peut avancer la date. Ton rôle est d'offrir de l'espace et du temps au sol.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -20,10 +20,10 @@
         "titre": "Action immédiate : soutenir sans devancer",
         "etapes": [
           "Libérer le sol : dégager une zone large, sans tapis glissant ni obstacle, où il se déplace à sa façon.",
-          "Offrir des appuis stables : meubles bas et lourds à sa hauteur, plutôt que des mains tenues au-dessus de sa tête.",
+          "Offrir des appuis stables : meubles bas et lourds à sa hauteur, un pouf ferme, une caisse, plutôt que des mains tenues au-dessus de sa tête.",
           "Placer l'objet convoité un peu plus loin : le désir de l'atteindre fait plus que n'importe quel encouragement.",
-          "Le laisser pieds nus à l'intérieur : la plante du pied a besoin de sentir le sol pour ajuster l'équilibre.",
-          "Célébrer chaque étape : se lever, tenir debout, faire un pas de côté comptent autant que le premier pas."
+          "Le laisser pieds nus à l'intérieur : la plante du pied sent le sol et ajuste l'équilibre.",
+          "Se dire que le quatre pattes est déjà un travail complet : il renforce les bras et les épaules, et c'est lui qui apprend à se rattraper sur ses mains quand on tombe debout."
         ]
       },
       "geste_doux": {
@@ -31,9 +31,9 @@
         "couleur_texte": "#085041",
         "titre": "Laisser le pied découvrir le sol",
         "etapes": [
-          "Pieds nus à la maison : la plante du pied a besoin de sentir le sol pour ajuster l'équilibre.",
-          "Varier ce qu'il y a sous ses pieds : tapis, parquet, herbe, sable, chaque surface lui apprend quelque chose.",
-          "Un appui bas et stable à portée : un pouf ferme, une caisse, pour se hisser quand il en a envie.",
+          "Varier ce qu'il y a sous ses pieds à la maison : tapis, parquet, carrelage, chaque surface lui apprend quelque chose.",
+          "Éviter les chaussures rigides : pieds nus ou chaussettes antidérapantes à l'intérieur, semelle souple dehors.",
+          "Sortir marcher sur des sols vivants : herbe, sable et petites pentes sollicitent l'équilibre bien mieux qu'un sol plat.",
           "Le laisser jouer avec ses pieds : les attraper, les regarder, c'est aussi ainsi qu'il les découvre.",
           "Ne jamais le mettre debout toi-même : il se lève quand ses appuis sont prêts, pas avant."
         ]
@@ -41,7 +41,7 @@
       "pour_aller_plus_loin": [
         "Privilégier la motricité libre : laisser l'enfant atteindre seul chaque position, comme le décrivent les travaux d'*Emmi Pikler*.",
         "Réserver les équipements de maintien aux temps courts : transat et siège rehausseur réduisent le temps d'exploration au sol.",
-        "Marcher sur des sols variés : herbe, sable et pente sollicitent l'équilibre bien mieux qu'un sol plat.",
+        "Filmer 30 secondes de temps en temps : les progrès invisibles au quotidien sautent aux yeux d'un mois sur l'autre.",
         "Noter les acquis dans le carnet de santé : utile aux visites de suivi, et rassurant à relire quelques mois plus tard."
       ],
       "principe": "La marche n'est pas une compétence à enseigner, c'est une conquête qui arrive quand le corps est prêt. Le seul levier de l'adulte est l'espace laissé libre, pas l'entraînement.",
@@ -52,13 +52,13 @@
         "Comparer avec un cousin ou un enfant de la crèche : l'écart normal entre deux enfants dépasse largement six mois."
       ],
       "consulter_si": "Consulter si : ton enfant ne tient pas assis seul, ne se déplace d'aucune façon, ne se met pas debout avec appui à 12 mois, s'il n'utilise qu'un côté du corps, s'il reste très mou ou très raide, ou s'il perd une capacité acquise → en parler au pédiatre, qui pourra orienter vers un kinésithérapeute pédiatrique ou un psychomotricien.",
-      "source": "Source : repères du développement moteur du jeune enfant et déconseil du trotteur, mpedia.fr (AFPA)."
+      "source": "Source : fenêtres d'acquisition des étapes motrices, étude de l'OMS sur le développement moteur, 2006 ; repères du développement moteur et déconseil du trotteur, mpedia.fr (AFPA)."
     },
     {
       "categorie": "corpo",
       "situation": "Les chutes / Il tombe dès qu'il lâche les appuis",
       "titre": "Apprendre l'équilibre par l'erreur",
-      "explication": "Un enfant qui apprend à marcher tombe des dizaines de fois par jour, et c'est ainsi qu'il apprend. Son centre de gravité est haut, sa tête est lourde, ses réflexes de protection des bras arrivent tout juste. La grande majorité des chutes se font sur les fesses ou en avant sur les mains, sans gravité. Chaque atterrissage affine son ajustement et l'aide à mieux se rattraper la fois suivante. Ce qu'il retient de la chute dépend beaucoup de ce qu'il lit sur ton visage juste après.",
+      "explication": "Un enfant qui apprend à marcher tombe des dizaines de fois par jour, et c'est ainsi qu'il apprend. Son centre de gravité est haut, sa tête est lourde, ses réflexes de protection des bras arrivent tout juste. La grande majorité des chutes se font sur les fesses ou en avant sur les mains, sans conséquence. Chaque atterrissage affine son ajustement et l'aide à mieux se rattraper la fois suivante. Quand il s'est vraiment fait mal, la question ne se pose pas : on le prend, on le soigne, on le rassure. Le reste du temps, ce qu'il retient de la chute dépend beaucoup de ce qu'il lit sur ton visage juste après.",
       "ancrage": "Ton calme lui apprend à se relever, ta panique lui apprend à avoir peur. Une seconde de respiration avant de réagir change tout le message.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -66,29 +66,29 @@
         "titre": "Action immédiate : juste après la chute",
         "etapes": [
           "Observer avant de bondir : le laisser montrer comment il va, sans cri ni exclamation.",
-          "Consoler sans dramatiser : « tu es tombé, je suis là », d'une voix posée s'il pleure.",
-          "Appliquer du froid sur une bosse : un linge frais quelques minutes, sans jauger la gravité à son volume.",
-          "Vérifier les membres : s'il ne se sert plus d'un côté comme avant, cela demande un avis médical.",
+          "Le consoler autant qu'il le demande : « tu es tombé, je suis là », et le prendre contre toi s'il en a besoin.",
+          "S'il a une bosse, appliquer du froid enveloppé dans un linge, quelques minutes : la taille de la bosse ne dit rien, c'est son comportement dans les heures qui suivent qui renseigne.",
+          "Vérifier ses membres : est-ce qu'il bouge ses bras et ses jambes comme d'habitude, est-ce qu'un mouvement lui fait mal ?",
           "Le laisser repartir : reprendre le mouvement après une chute fait partie de la confiance."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Apaiser après la frayeur",
+        "titre": "Ce que ta réaction lui apprend",
         "etapes": [
-          "Intervenir une fois consolé : le geste vient quand les pleurs sont passés.",
-          "Main posée sur le haut du dos : chaleur immobile pendant qu'il redescend.",
-          "Ta respiration lente, tout près de lui : il la sent, et finit souvent par la suivre.",
-          "Mettre un mot sur la frayeur : « tu as eu peur, c'est fini », une phrase, pas plus.",
-          "S'arrêter dès qu'il se détend : il repart jouer, le geste a fait son travail."
+          "Attendre une seconde avant de réagir : il cherche ton visage, et c'est lui qui lui dit si c'était grave.",
+          "Nommer sans dramatiser : « tu es tombé, ça a surpris », plutôt qu'un « oh là là » qui l'inquiète.",
+          "Le consoler jusqu'au bout : un enfant rassuré repart explorer plus vite qu'un enfant pressé de se relever.",
+          "Tendre la main plutôt que de le remettre debout : se relever seul fait partie de ce qu'il apprend.",
+          "Garder un œil sur son comportement dans les heures qui suivent : c'est le vrai indicateur, pas la chute elle-même."
         ]
       },
       "pour_aller_plus_loin": [
         "Sécuriser sans capitonner : coins des meubles bas protégés, sol dégagé, tapis antidérapants, et de l'espace pour tomber.",
         "Renforcer l'équilibre par le jeu : monter sur un coussin, franchir une marche basse, porter un objet en marchant.",
-        "Habiller les jambes : genoux couverts pour amortir, chevilles libres pour bouger.",
-        "Le laisser expérimenter la perte d'équilibre : un enfant retenu en permanence ne construit pas ses parades."
+        "Habiller pour amortir : genoux couverts, chevilles libres, pieds nus ou semelles souples.",
+        "Se rappeler l'ordre de grandeur : un jeune marcheur fait en moyenne 2 400 pas et 17 chutes par heure de jeu libre, et ce sont ces chutes qui construisent son équilibre (*Adolph et al., 2012*)."
       ],
       "principe": "Les chutes sont le prix normal de l'apprentissage moteur, et l'enfant qui tombe apprend à se rattraper. Ce n'est pas la taille de la bosse qui renseigne, c'est le comportement de l'enfant dans les heures qui suivent.",
       "erreurs_a_eviter": [
@@ -120,13 +120,13 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Relâcher les jambes après l'effort",
+        "titre": "Apprendre à redescendre",
         "etapes": [
-          "Choisir un moment calme : allongé, après le bain ou avant la sieste.",
-          "Envelopper les mollets : une main de chaque côté, pression douce et constante, sans pétrir.",
-          "Remonter lentement de la cheville vers le genou : deux ou trois passages par jambe.",
-          "Mobiliser les chevilles : petits cercles très lents, dans un sens puis dans l'autre.",
-          "S'arrêter s'il retire sa jambe : le geste s'arrête là où son plaisir s'arrête."
+          "Lui montrer le chemin du retour : le retourner doucement pour qu'il descende les pieds en premier, chaque fois qu'il est bloqué en haut.",
+          "S'asseoir puis glisser : depuis le canapé, l'aider à s'asseoir au bord et à se laisser glisser jusqu'au sol.",
+          "Répéter sur une marche basse : monter, se retourner, descendre, plusieurs fois, comme un jeu.",
+          "Poser ta main sans le porter : un appui au bassin suffit à corriger l'équilibre, c'est lui qui fait le mouvement.",
+          "N'ouvrir les hauteurs qu'une fois la descente acquise : c'est le repère le plus fiable pour doser ce qu'on autorise."
         ]
       },
       "pour_aller_plus_loin": [
@@ -148,47 +148,50 @@
       "categorie": "corpo",
       "situation": "Le choc à la tête / Il s'est cogné la tête en tombant",
       "titre": "Les signes qui demandent un avis",
-      "explication": "Les chocs à la tête sont fréquents chez un enfant qui apprend à marcher : sa tête est lourde et proportionnellement plus grosse que celle d'un adulte, et elle arrive souvent en premier. La grande majorité de ces chocs sont bénins : une bosse apparaît, l'enfant pleure, puis repart jouer. Ce qui renseigne sur la gravité, ce n'est ni le bruit ni la taille de la bosse, mais le comportement de l'enfant dans les heures qui suivent. Certains signes demandent un avis rapide, et ils sont observables sans être médecin.",
-      "ancrage": "Tu n'as pas à évaluer une blessure, tu as à observer un comportement. Repérer les bons signes et appeler suffit, c'est le professionnel qui juge.",
+      "explication": "Les chocs à la tête sont fréquents chez un enfant qui apprend à marcher : sa tête est lourde et proportionnellement plus grosse que celle d'un adulte, et elle arrive souvent en premier. La grande majorité de ces chocs sont bénins : une bosse apparaît, l'enfant pleure, puis repart jouer. Ce qui renseigne sur la gravité, ce n'est ni le bruit ni la taille de la bosse, mais son comportement dans les heures qui suivent. Quelques signes se repèrent facilement à la maison, et ce sont eux qui font appeler.",
+      "ancrage": "Tu n'as pas à évaluer une blessure, tu as à observer et à appeler. Repère les signes, appelle si tu doutes, et c'est le professionnel qui tranche.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate : dans les minutes qui suivent",
+        "titre": "Action immédiate : les signes qui font appeler le 15",
         "etapes": [
-          "Rester calme et le consoler : le prendre contre toi, voix posée, le temps que les pleurs passent.",
-          "Appliquer du froid enveloppé dans un linge : quelques minutes sur la bosse, sans appuyer.",
-          "Regarder ses réactions : est-ce qu'il te reconnaît, se console, bouge normalement ses quatre membres.",
-          "Noter l'heure du choc : utile si un signe apparaît plus tard dans la journée.",
-          "Appeler le 15 sans attendre : perte de connaissance, vomissements répétés ou somnolence anormale."
+          "Perte de connaissance, même de quelques secondes : appeler le 15 sans attendre.",
+          "Vomissements répétés, plus de deux fois : à faire évaluer tout de suite.",
+          "Somnolence anormale, enfant difficile à réveiller ou très abattu : appeler.",
+          "Comportement inhabituel : il ne te reconnaît pas, gémit sans se consoler, paraît confus, ou un membre ne bouge plus comme avant.",
+          "Convulsion, pâleur soudaine, sang ou liquide clair qui coule du nez ou de l'oreille : appeler le 15 immédiatement.",
+          "Chute d'une hauteur importante, sur une surface dure, ou choc violent : appeler le 15, et ne pas le déplacer si la nuque ou le dos peuvent être touchés, sauf danger immédiat."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Accompagner la frayeur, une fois le doute levé",
+        "titre": "Après un choc, sans signe d'alerte",
         "etapes": [
-          "Attendre d'avoir vérifié les signes : le contact vient après l'observation, pas à la place.",
-          "Contact enveloppant : ta paume large posée sur son dos, immobile, quelques instants.",
-          "Respiration lente et audible : ton souffle l'aide à redescendre après la frayeur.",
-          "Rester dans le calme un moment : lumière basse, peu de bruit, activité posée.",
-          "Écarter la zone du choc : aucun geste ni pression sur la tête ou la nuque."
+          "Le consoler contre toi : le prendre, le bercer, le temps que les pleurs passent.",
+          "Du froid enveloppé dans un linge : quelques minutes sur la bosse, sans appuyer, jamais de glace à même la peau.",
+          "Noter l'heure du choc et ce qu'il a fait juste après : ces repères servent si tu appelles plus tard.",
+          "Ralentir le reste de la journée : jeu calme, peu de bruit, coucher un peu plus tôt.",
+          "Ne donner aucun médicament sans avis : si la douleur le gêne, appeler le médecin."
         ]
       },
       "pour_aller_plus_loin": [
-        "Surveiller 48 heures : c'est la période où d'éventuels signes apparaissent, y compris la nuit.",
-        "Connaître les numéros : le 15 pour une urgence, le pédiatre ou le médecin traitant pour un doute sans signe.",
-        "Réduire les hauteurs accessibles : table à langer, canapé et lit sont les lieux de chute les plus fréquents à cet âge.",
-        "Prévenir les autres adultes : tout le monde à la maison gagne à connaître les signes de surveillance."
+        "Surveiller 48 heures : c'est la période où un signe peut apparaître, y compris la nuit.",
+        "La première nuit, aller le voir toutes les 4 heures : vérifier sa respiration, sa position, et qu'il réagit quand tu le touches.",
+        "Connaître les numéros : le 15, ou le 112 depuis un portable, pour une urgence ; le médecin traitant pour un doute sans signe.",
+        "Prévenir les autres adultes : crèche, garde et proches doivent connaître le choc et les signes à guetter.",
+        "Réduire les hauteurs accessibles : table à langer, canapé et lit sont les lieux de chute les plus fréquents à cet âge."
       ],
       "principe": "Ce n'est pas l'intensité du choc qui décide, c'est l'état de l'enfant ensuite. Un enfant qui joue, mange et dort comme d'habitude va bien ; un changement net de comportement demande un avis, même sans bosse visible.",
       "erreurs_a_eviter": [
-        "Juger la gravité à la taille de la bosse : elle ne dit rien de ce qui se passe à l'intérieur.",
-        "Le laisser dormir sans l'avoir observé après le choc : mieux vaut vérifier qu'il se réveille normalement.",
+        "Juger la gravité à ce qu'on voit sur son crâne : ce qui compte se passe à l'intérieur.",
+        "Le laisser dormir sans être allé le voir : vérifier sa respiration et sa réaction fait partie de la surveillance.",
         "Attendre le lendemain quand un signe d'alerte apparaît : ces signes appellent un appel immédiat.",
-        "Appliquer une pommade ou un remède sur la bosse sans avis : le froid enveloppé suffit."
+        "Le relever et le porter après une chute violente : au moindre doute sur sa colonne, on appelle d'abord.",
+        "Appliquer une pommade ou un remède sans avis : le froid enveloppé suffit."
       ],
       "consulter_si": "Consulter si, après un choc à la tête : perte de connaissance même brève, vomissements répétés, somnolence anormale ou difficulté à le réveiller, comportement inhabituel, convulsion, écoulement par le nez ou l'oreille, ou membre qui ne fonctionne plus normalement → appeler le 15 ou se rendre aux urgences. Avant 2 ans, un avis médical reste prudent même sans signe visible.",
-      "source": "Source : conduite à tenir devant un traumatisme crânien de l'enfant, Ameli ; mpedia.fr (AFPA)."
+      "source": "Source : traumatisme crânien de l'enfant, conduite à tenir et surveillance à domicile, CHU de Nantes ; traumatisme crânien léger de l'enfant, Société française de pédiatrie, Pas à Pas en Pédiatrie ; mpedia.fr (AFPA)."
     }
   ]
 }

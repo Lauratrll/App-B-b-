@@ -20,7 +20,7 @@
         "titre": "Action immédiate : au matin où il n'en veut pas",
         "etapes": [
           "Accepter le refus du matin : un biberon boudé un jour n'annonce rien du tout.",
-          "Le reproposer plus tard : le même lait à un autre moment de la journée passe souvent très bien.",
+          "Le reproposer plus tard : un biberon préparé à un autre moment de la journée passe souvent très bien.",
           "Changer de contenant, pas de boisson : verre à bec, tasse, petit verre, c'est l'apport qui compte.",
           "Compléter par un laitage : yaourt, fromage blanc, fromage, la journée se lit d'un seul bloc.",
           "Ne rien annoncer à personne : il n'y a pas d'arrêt en cours, donc rien à commenter."
@@ -32,8 +32,8 @@
         "titre": "Garder le lien du moment lacté",
         "etapes": [
           "S'installer comme avant : même fauteuil, même position, même lumière du matin.",
-          "Contact large et immobile : une main à plat sur son dos pendant qu'il boit ou mange.",
-          "Voix posée et rythme lent : le calme du moment compte plus que ce qui est avalé.",
+          "Le garder contre toi comme avant : dans tes bras en câlin, ou assis près de toi s'il préfère.",
+          "Voix posée et rythme lent : le calme s'associe au moment du biberon.",
           "Laisser sa main libre : il touche ton visage, tes cheveux, il se rassure autrement que par la succion.",
           "Terminer quand il se détache : c'est lui qui donne le signal de fin."
         ]
@@ -69,7 +69,7 @@
           "Servir à la bonne température : tiède comme avant, la sensation compte autant que le goût.",
           "Changer de contenant : le même lait passe parfois beaucoup mieux dans un verre que dans le biberon.",
           "Proposer sans insister : présenter, attendre, retirer sans commentaire si le refus est net.",
-          "Assurer les apports en parallèle : yaourts, fromages et laitages adaptés prennent le relais du verre refusé."
+          "Assurer les apports en parallèle : ce lait est enrichi en fer, en bons acides gras, en vitamines et en minéraux, et ces apports se retrouvent dans les laitages, la viande, le poisson, l'œuf, les légumes secs et les huiles végétales."
         ]
       },
       "geste_doux": {
@@ -79,8 +79,8 @@
         "etapes": [
           "Boire à côté de lui : porter ton propre verre à la bouche en même temps que lui, l'imitation fait le reste.",
           "Laisser toucher et sentir : il explore le verre, met les doigts, goûte du bout des lèvres.",
-          "Garder les mains ouvertes : ne pas guider le verre vers sa bouche, il choisit son moment.",
-          "Contact du dos : une main posée, immobile, pendant qu'il tente une gorgée.",
+          "Poser le verre à sa portée et retirer tes mains : c'est lui qui le prend, au moment où il le décide.",
+          "Ne rien commenter pendant qu'il boit : ni encouragement, ni félicitation, l'attention appuyée coupe souvent l'élan.",
           "Terminer sans bilan : on range le verre comme n'importe quel aliment, sans commenter la quantité."
         ]
       },
@@ -166,13 +166,13 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Préparer les mains avant de manger",
+        "titre": "Apprendre la cuillère en dehors des repas",
         "etapes": [
-          "Réchauffer ses mains dans les tiennes : quelques instants, paume contre paume, avant de l'installer.",
-          "Presser la pulpe de chaque doigt : un doigt après l'autre, pression douce et brève.",
-          "Ouvrir la paume en éventail : écarter délicatement les doigts, puis relâcher.",
-          "Terminer par les deux doigts de la pince : un appui bref sur chacun, ce sont eux qui travailleront le plus.",
-          "Passer à table sans transition : le geste est court, il annonce le repas plutôt qu'il ne le remplace."
+          "Lui laisser une cuillère dans ses jeux : au bain, au sol, dans une boîte, sans aliment en jeu.",
+          "Transvaser pour le plaisir : deux récipients, de l'eau ou de la semoule, et une cuillère, sous ta surveillance.",
+          "Jouer à nourrir une peluche : elle ouvre la bouche, il apprend à viser, et personne ne se salit.",
+          "Lui donner une cuillère pendant que tu cuisines : il remue dans un saladier vide, il tape, il apprend le geste.",
+          "S'arrêter quand il passe à autre chose : c'est un jeu, pas un exercice."
         ]
       },
       "pour_aller_plus_loin": [
@@ -189,6 +189,52 @@
         "Installer un écran pour qu'il se tienne tranquille : il ne perçoit plus ce qu'il mange ni le moment où il est rassasié."
       ],
       "consulter_si": "Consulter si : ton enfant ne cherche jamais à attraper d'aliment avec ses doigts à 12 mois, s'il n'utilise qu'une seule main de façon systématique, s'il fatigue vite en portant sa main à la bouche, ou s'il refuse tout contact avec la nourriture → en parler au pédiatre, qui pourra orienter vers un psychomotricien ou un ergothérapeute."
+    },
+    {
+      "categorie": "alim",
+      "situation": "L'allaitement après un an / je continue et ça dérange",
+      "titre": "Répondre une fois, et continuer",
+      "explication": "Au repas de famille, quelqu'un a lancé « quoi, tu allaites encore ? », et toute la table a attendu ta réponse. Vers un an, l'allaitement devient un sujet de conversation publique alors qu'il ne concerne que vous deux. Ce qui se dit autour est souvent faux : le lait maternel ne devient ni de l'eau ni une habitude vide, sa composition continue de s'adapter, et il apporte des nutriments et des anticorps au milieu d'une alimentation devenue variée. En France, l'Assurance Maladie rappelle que l'allaitement se poursuit sans date d'arrêt dès lors que la diversification est en place, et l'*OMS* cite deux ans et au-delà comme repère, pas comme injonction. Ce que ton enfant y trouve n'est pas seulement nutritionnel : c'est un endroit de retour, court et fiable, dans l'année où il apprend à s'éloigner.",
+      "ancrage": "Tu n'as pas à justifier un choix de santé devant une table. Et non, tu ne le rends pas dépendant : c'est de là qu'il repart explorer.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : quand la remarque tombe",
+        "etapes": [
+          "Une seule réponse, courte : « il tète encore une ou deux fois par jour, ça nous va », puis parler d'autre chose.",
+          "Rendre la question à celui qui la pose : « pourquoi tu me demandes ça ? », sans agressivité, referme le sujet la plupart du temps.",
+          "Énoncer le cadre plutôt que te défendre : « il n'y a pas d'âge obligatoire pour arrêter », c'est exact et cela clôt le débat.",
+          "Ne pas argumenter devant lui : à un an, il comprend le ton et sent que son moment devient un problème.",
+          "Se mettre d'accord avec l'autre parent : la même phrase dans deux bouches vaut mieux qu'un long débat."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Hors du repas : protéger vos tétées",
+        "etapes": [
+          "Repérer les tétées qui comptent vraiment : le réveil, le retour de garde, le soir. Ce sont celles-là qu'on garde en dernier.",
+          "Les décaler des repas : une tétée prise à distance de l'assiette ne coupe plus l'appétit, et cesse d'être discutée.",
+          "Choisir ton endroit quand tu es invitée : une chambre, un canapé à l'écart, pour ne pas gérer la table en même temps.",
+          "Préparer ta phrase à l'avance : celle qui sort toute seule quand la remarque arrive, toujours la même.",
+          "Se rappeler que le nombre de tétées monte et descend : une semaine plus dense n'annonce pas plus une régression qu'une semaine calme n'annonce un arrêt."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Garder le repère sous la main : c'est l'Assurance Maladie qui l'écrit, et c'est la seule phrase dont tu aies besoin face à une remarque.",
+        "Trouver un appui extérieur : une consultante en lactation IBCLC, une association de soutien à l'allaitement, ou simplement d'autres mères qui allaitent encore.",
+        "Anticiper les dates où les questions reviennent : l'anniversaire, l'entrée en collectivité, les repas de fête.",
+        "Surveiller ce qui se surveille vraiment à cet âge : des repas variés, la vitamine D selon l'avis du médecin, et une courbe de poids qui suit son chemin."
+      ],
+      "principe": "Un allaitement qui dure n'a pas besoin d'être justifié, il a besoin d'être protégé. Ce qui épuise une mère, ce sont rarement les tétées, ce sont les commentaires qui les entourent.",
+      "erreurs_a_eviter": [
+        "Argumenter longuement : plus la réponse est longue, plus elle invite à la contradiction.",
+        "Arrêter sous la pression : un sevrage décidé par d'autres se traverse mal, des deux côtés.",
+        "Cacher les tétées : le secret transforme un choix banal en sujet honteux.",
+        "Compter sur une preuve scientifique pour convaincre la famille : ce n'est presque jamais une question d'information."
+      ],
+      "consulter_si": "Consulter si : ton enfant ne prend plus de poids, s'il refuse presque tous les aliments solides, si les tétées deviennent douloureuses, ou si tu te sens épuisée, enfermée dans ces tétées, ou prête à arrêter sans savoir comment → sage-femme, consultante en lactation IBCLC, médecin ou PMI.",
+      "source": "Source : poursuite de l'allaitement maternel avec la diversification, Assurance Maladie, ameli.fr ; allaitement jusqu'à deux ans ou au-delà en complément de l'alimentation, Organisation mondiale de la santé."
     }
   ]
 }
