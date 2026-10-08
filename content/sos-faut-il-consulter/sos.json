@@ -1,0 +1,240 @@
+{
+  "_lisez_moi": "Rubrique S.O.S « Dois-je consulter ? ». Source de vérité éditoriale : les deux fichiers .md de ce dossier. Toute citation entre « » est recopiée MOT POUR MOT (ameli.fr ou carnet de santé) : ne jamais reformuler. Vouvoiement, pas de placeholders. Niveaux : comprendre (jaune), journee (orange), urgence (orange sanguine). Lu en import statique par app/(app)/sos — pas de Supabase.",
+  "bandeau": {
+    "texte": "« Appeler les urgences : le 15 ou le 112 mais aussi le 114 au service des personnes ayant des difficultés à parler ou à entendre »",
+    "numeros": ["15", "112", "114"],
+    "source": "Source : ameli.fr — « Bronchiolite : que faire ? », 3 juillet 2026"
+  },
+  "tranches": [
+    {
+      "id": "avant-3-mois",
+      "label": "Avant 3 mois",
+      "mois_min": 0,
+      "mois_max": 2,
+      "intro": {
+        "texte": "« Avant trois mois, consultez rapidement un médecin en cas de fièvre, de diarrhée, de vomissements ou de difficultés à respirer. »",
+        "source": "Source : Carnet de santé, édition 2024"
+      },
+      "themes": [
+        {
+          "id": "fievre",
+          "nom": "Fièvre",
+          "blocs": [
+            {
+              "titre": "Fièvre",
+              "niveau": "urgence",
+              "items": ["« Consultez en urgence si la fièvre concerne votre nourrisson de moins de trois mois »"],
+              "source": "Source : ameli.fr — « Votre enfant a de la fièvre : que faire et quand consulter ? », 3 septembre 2024"
+            }
+          ]
+        },
+        {
+          "id": "diarrhee-vomissements",
+          "nom": "Diarrhée et vomissements",
+          "blocs": [
+            {
+              "titre": "Diarrhée",
+              "niveau": "journee",
+              "items": ["« Si votre nourrisson (de moins de 2 ans) a une diarrhée aiguë (au moins trois selles liquides en quelques heures) avec ou sans vomissements, il est important de consulter rapidement. »"],
+              "source": "Source : ameli.fr — « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025"
+            },
+            {
+              "titre": "Vomissements",
+              "niveau": "urgence",
+              "items": ["« Votre bébé vomit de manière répétée et ne boit plus »"],
+              "conclusion": "→ consultation en urgence",
+              "source": "Source : ameli.fr — « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025"
+            }
+          ]
+        },
+        {
+          "id": "respiration",
+          "nom": "Difficultés à respirer",
+          "blocs": [
+            {
+              "titre": "Difficultés à respirer (bronchiolite)",
+              "niveau": "urgence",
+              "items": [
+                "« Mon nourrisson est âgé de moins de 2 mois. »",
+                "« Il est né prématurément (avant 36 semaines d'aménorrhée). »"
+              ],
+              "conclusion": "→ « Je contacte sans tarder le service d'aide médicale d'urgence (Samu) : 15 ou 112. »",
+              "source": "Source : ameli.fr — « Bronchiolite : que faire ? », 3 juillet 2026"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-partir-de-3-mois",
+      "label": "À partir de 3 mois",
+      "mois_min": 3,
+      "mois_max": 24,
+      "themes": [
+        {
+          "id": "fievre",
+          "nom": "Fièvre",
+          "blocs": [
+            {
+              "titre": "C'est quoi ?",
+              "niveau": "comprendre",
+              "texte": "« On parle de fièvre si la température corporelle dépasse 38 °C »"
+            },
+            {
+              "titre": "Les bons réflexes",
+              "niveau": "comprendre",
+              "items": [
+                "« Mettez votre enfant dans une pièce fraîche et aérée (entre 18 et 20 °C) »",
+                "« Ne le couvrez pas trop ; enlevez-lui des épaisseurs de vêtements »",
+                "« Donnez-lui souvent de l'eau fraîche ou une boisson qu'il aime »"
+              ]
+            },
+            {
+              "titre": "Observer son comportement",
+              "niveau": "comprendre",
+              "texte": "« Le comportement de votre enfant est également révélateur. S'il n'est pas comme d'habitude, surveillez-le attentivement. »"
+            },
+            {
+              "titre": "Les médicaments",
+              "niveau": "comprendre",
+              "items": [
+                "« Il n'est pas toujours nécessaire de donner un médicament si la température ne dépasse pas 38,5 °C. »",
+                "« Privilégiez l'utilisation du paracétamol »",
+                "« N'utilisez qu'un seul type de médicament pour faire baisser la fièvre »",
+                "« La dose doit être adaptée à son poids »",
+                "« assurez-vous qu'il n'a pas déjà reçu un antipyrétique sous une forme ou une autre »",
+                "« L'aspirine ne doit pas être administrée chez l'enfant sans avis médical »"
+              ]
+            },
+            {
+              "titre": "Consultez dans la journée si :",
+              "niveau": "journee",
+              "items": [
+                "« votre enfant fiévreux est suivi pour une maladie chronique »",
+                "« votre enfant a des épisodes de fièvre fréquents »",
+                "« la fièvre persiste plus de deux jours chez votre enfant de moins de deux ans et plus de trois jours chez votre enfant de plus de deux ans »",
+                "« la fièvre réapparaît alors qu'elle avait disparu depuis plus de 24 heures »",
+                "« elle est accompagnée de tout autre symptôme qui vous inquiète »"
+              ]
+            },
+            {
+              "titre": "Consultez en urgence si :",
+              "niveau": "urgence",
+              "items": [
+                "« une température élevée (supérieure à 40 °C) »",
+                "« un état général qui se dégrade (il ne mange plus, refuse de boire, il est somnolent) »",
+                "« des maux de tête importants, une raideur de la nuque, des vomissements »",
+                "« une déshydratation (muqueuses sèches, urines moins fréquentes) »",
+                "« une respiration difficile (respiration rapide et plus courte, pauses respiratoires) »"
+              ],
+              "source": "Sources : ameli.fr — « Votre enfant a de la fièvre : que faire et quand consulter ? », « Comprendre et gérer la fièvre chez l'enfant », « Les médicaments en cas de fièvre chez l'enfant », 3 septembre 2024"
+            }
+          ]
+        },
+        {
+          "id": "diarrhee-vomissements",
+          "nom": "Diarrhée et vomissements",
+          "blocs": [
+            {
+              "titre": "Que faire ? La SRO",
+              "niveau": "comprendre",
+              "definition": "SRO = solution de réhydratation orale.",
+              "texte": "« SRO, disponible sans ordonnance en pharmacie : un sachet à diluer dans 200 ml d'eau fraîche non sucrée. »",
+              "source": "Source : Carnet de santé, édition 2024"
+            },
+            {
+              "titre": "",
+              "niveau": "comprendre",
+              "items": [
+                "« Si vous allaitez, poursuivez l'allaitement comme d'habitude et proposez à votre enfant de la SRO entre les tétées. »",
+                "« Si votre enfant boit du lait en poudre, remplacez ce lait par une SRO. »",
+                "« Après 4 à 6 heures maximum, réintroduisez le lait habituel et donnez-lui de la SRO entre les biberons. »",
+                "« Dans un premier temps, proposez à votre enfant la SRO plusieurs fois par heure et en très petites quantités. »",
+                "« Si votre enfant vomit, donnez-lui la boisson bien fraîche, par petites gorgées ou à la cuillère. »"
+              ]
+            },
+            {
+              "titre": "Consultez rapidement si :",
+              "niveau": "journee",
+              "items": [
+                "« Si votre nourrisson (de moins de 2 ans) a une diarrhée aiguë (au moins trois selles liquides en quelques heures) avec ou sans vomissements, il est important de consulter rapidement. »",
+                "« Si la gastro-entérite persiste plus de deux jours ou s'aggrave »",
+                "« Si la diarrhée survient dans le cadre d'une toxi-infection collective (crèche, école) »"
+              ]
+            },
+            {
+              "titre": "Consultez en urgence si :",
+              "niveau": "urgence",
+              "items": [
+                "« Votre bébé vomit de manière répétée et ne boit plus »",
+                "« Votre enfant ne mange plus et ne boit plus »",
+                "« La diarrhée persiste plus de deux jours, s'aggrave »",
+                "« La diarrhée s'accompagne d'une fièvre supérieure à 38,5° C »",
+                "« Les selles contiennent des glaires ou du sang »",
+                "« Votre enfant présente des signes de déshydratation »"
+              ],
+              "source": "Source : ameli.fr — « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025"
+            },
+            {
+              "titre": "Consultez immédiatement votre médecin si :",
+              "niveau": "urgence",
+              "items": ["« le vomissement est sanglant ou vert. »"],
+              "source": "Source : Carnet de santé, édition 2024"
+            },
+            {
+              "titre": "Les signes de déshydratation — votre enfant :",
+              "niveau": "comprendre",
+              "items": [
+                "« Est anormalement agité ou au contraire il est apathique et dort beaucoup »",
+                "« Est difficile à réveiller et gémit »",
+                "« A un comportement inhabituel »",
+                "« Est pâle et a les yeux creux et cernés »",
+                "« A la langue sèche et collante »",
+                "« Respire rapidement »",
+                "« Continue de vomir malgré l'ingestion de solutions de réhydratation orale (SRO) »",
+                "« A une perte de poids de plus de 5 % »"
+              ],
+              "source": "Source : ameli.fr — « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025"
+            }
+          ]
+        },
+        {
+          "id": "respiration",
+          "nom": "Difficultés à respirer",
+          "blocs": [
+            {
+              "titre": "Les gestes qui soulagent",
+              "niveau": "comprendre",
+              "items": [
+                "« désencombrez le nez de votre enfant avant les repas et régulièrement »",
+                "« lorsqu'il est éveillé, gardez votre enfant droit, ce qui peut l'aider à mieux respirer »",
+                "« continuez à l'alimenter normalement en fractionnant ses repas s'il est fatigué »",
+                "« aérez sa chambre fréquemment et maintenez la température à 19 °C au maximum »"
+              ]
+            },
+            {
+              "titre": "Consultez dans la journée",
+              "niveau": "journee",
+              "texte": "« Mon nourrisson de plus de 2 mois a des symptômes de bronchiolite, son état général est conservé et il continue à s'alimenter. Je contacte mon médecin sans attendre. »"
+            },
+            {
+              "titre": "Appelez le 15 ou le 112 si :",
+              "niveau": "urgence",
+              "items": [
+                "« Il est né prématurément (avant 36 semaines d'aménorrhée). »",
+                "« Il est atteint d'une maladie cardiaque, d'une maladie respiratoire ou d'un déficit immunitaire »",
+                "« Il boit moins de la moitié de ses biberons à 3 repas consécutifs »",
+                "« Il vomit systématiquement »",
+                "« Son comportement m'inquiète : il dort tout le temps et il manque de tonus »",
+                "« Il est pâle, il geint et/ou ses lèvres et ses doigts bleuissent »",
+                "« Il a de plus en plus de mal à respirer : sa respiration est rapide et plus courte ou irrégulière et lente, il fait des pauses respiratoires, il présente des battements des narines, les espaces entre ses côtes et au-dessus de ses clavicules se creusent (tirage intercostal). »"
+              ],
+              "conclusion": "→ « Je contacte sans tarder le service d'aide médicale d'urgence (Samu) : 15 ou 112. »",
+              "source": "Source : ameli.fr — « Bronchiolite : que faire ? », 3 juillet 2026"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

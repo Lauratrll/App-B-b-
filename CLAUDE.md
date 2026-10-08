@@ -53,7 +53,7 @@ Format cible    : Mobile-first, max-width 390px
     /soin           → Module Prends soin de toi
     /saison         → Module Conseil de saison
     /coucher        → Module Préparer le coucher
-    /audio          → Module Partager \& rassurer
+    /sos            → Module S.O.S Dois-je consulter ? (remplace /audio le 08/10/2026)
     /jeux           → Module Jeux \& stimulation
     /profil         → Profil bébé
     /epingles       → Protocoles épinglés
@@ -113,7 +113,7 @@ CREATE TABLE subscriptions (
 CREATE TABLE content (
   id UUID PRIMARY KEY DEFAULT gen\_random\_uuid(),
   mois INTEGER CHECK (mois BETWEEN 0 AND 24),
-  module TEXT CHECK (module IN ('guide', 'soin', 'saison', 'coucher', 'audio', 'jeux')),
+  module TEXT CHECK (module IN ('guide', 'soin', 'saison', 'coucher', 'audio', 'jeux')),  -- 'audio' n'est plus utilisé (lignes supprimées le 08/10/2026)  -- 'audio' n'est plus utilisé (lignes supprimées le 08/10/2026)
   categorie TEXT,
   situation TEXT,
   data JSONB NOT NULL,
@@ -155,7 +155,7 @@ Chaque mois contient les mêmes 6 modules — seul le contenu change.
 |2|🌸 Prends soin de toi|6 gestes parentaux (réflexo, méditation, écriture, réalité, couple, soin)|
 |3|🌿 Conseil de saison|2 conseils adaptés à l'âge + saison en cours|
 |4|🌙 Préparer le coucher|Rituel personnalisé selon thème développemental|
-|5|💜 Partager \& rassurer|3 scripts audio par trimestre|
+|5|🆘 S.O.S Dois-je consulter ?|**Remplace Partager \& rassurer le 08/10/2026.** Repères officiels (ameli, carnet de santé 2024) cités mot pour mot, vouvoiement. 2 tranches : avant 3 mois (M0-M2) / à partir de 3 mois (M3+). Page 1 = 3 slots (Fièvre, Diarrhée et vomissements, Difficultés à respirer) ; page 2 = blocs comme un protocole. Gamme jaune bouton d'or / orange / orange sanguine (slot par rang, bloc par niveau d'urgence). Données : `content/sos-faut-il-consulter/sos.json` en import statique (pas de Supabase) ; design : `components/modules/sos-design.tsx`.|
 |6|🎯 Jeux \& stimulation|3 activités adaptées à l'âge|
 
 ### Structure d'un protocole Guide-moi ! (JSONB)

@@ -8,7 +8,7 @@ const MODULES = [
   { href: "/coucher", title: "Préparer le coucher", subtitle: "Rituel du soir", bg: "#E4EEF0" },
   { href: "/soin", title: "Prendre soin de moi", subtitle: "Gestes parentaux", bg: "#F5E4DE" },
   { href: "/saison", title: "Vivre la saison", subtitle: "Adapté au mois", bg: "#DCE8E4" },
-  { href: "/audio", title: "Partager & rassurer", subtitle: "Scripts audio", bg: "#E8EEF2" },
+  { href: "/sos", title: "S.O.S Dois-je consulter ?", subtitle: "Repères officiels", bg: "#FFE3CD" },
   { href: "/reflexologie", title: "Réflexologie plantaire", subtitle: "Apaiser bébé", bg: "#EDE4D4" },
 ] as const;
 

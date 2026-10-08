@@ -290,39 +290,6 @@ export type SaisonMeta = {
   logique_selection?: unknown;
 };
 
-export type ScriptAudio = {
-  id: string;
-  titre: string;
-  duree_estimee?: string;
-  contexte_ideal?: string;
-  theme?: string;
-  couleur?: string;
-  couleur_texte?: string;
-  intention?: string;
-  preparation_parent?: string;
-  texte: string;
-};
-
-export type AudioMeta = {
-  mois: number;
-  titre_rubrique?: string;
-  sous_titre?: string;
-  description?: string;
-  ancrage?: string;
-  trimestre?: string;
-  comment_utiliser?: string[];
-};
-
-export type ScriptListItem = {
-  id: string;
-  ordre: number;
-  titre: string;
-  duree_estimee?: string;
-  theme?: string;
-  couleur?: string;
-  couleur_texte?: string;
-};
-
 export type ActiviteType = "standard" | "socle" | "complementaire";
 
 export type ActiviteJeu = {
@@ -633,70 +600,6 @@ export const getSaisonVersion = unstable_cache(
     return data.data as SaisonVersion;
   },
   ["saison-version"],
-  CACHE_OPTIONS,
-);
-
-// ---- Audio ---------------------------------------------------------------
-
-export const getAudioMeta = unstable_cache(
-  async (mois: number): Promise<AudioMeta | null> => {
-    const supabase = createAdminClient();
-    const { data, error } = await supabase
-      .from("content")
-      .select("data")
-      .eq("mois", mois)
-      .eq("module", "audio")
-      .eq("categorie", "_meta")
-      .maybeSingle();
-    if (error || !data) return null;
-    return data.data as AudioMeta;
-  },
-  ["audio-meta"],
-  CACHE_OPTIONS,
-);
-
-export const getAudioScripts = unstable_cache(
-  async (mois: number): Promise<ScriptListItem[]> => {
-    const supabase = createAdminClient();
-    const { data, error } = await supabase
-      .from("content")
-      .select("ordre, situation, data")
-      .eq("mois", mois)
-      .eq("module", "audio")
-      .eq("categorie", "script")
-      .order("ordre", { ascending: true });
-    if (error || !data) return [];
-    return data.map((row) => {
-      const d = row.data as ScriptAudio;
-      return {
-        id: row.situation as string,
-        ordre: (row.ordre as number) ?? 0,
-        titre: d.titre,
-        duree_estimee: d.duree_estimee,
-        theme: d.theme,
-        couleur: d.couleur,
-        couleur_texte: d.couleur_texte,
-      };
-    });
-  },
-  ["audio-scripts"],
-  CACHE_OPTIONS,
-);
-
-export const getAudioScript = unstable_cache(
-  async (mois: number, id: string): Promise<ScriptAudio | null> => {
-    const supabase = createAdminClient();
-    const { data, error } = await supabase
-      .from("content")
-      .select("data")
-      .eq("mois", mois)
-      .eq("module", "audio")
-      .eq("situation", id)
-      .maybeSingle();
-    if (error || !data) return null;
-    return data.data as ScriptAudio;
-  },
-  ["audio-script"],
   CACHE_OPTIONS,
 );
 

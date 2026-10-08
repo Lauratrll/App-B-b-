@@ -88,7 +88,7 @@
 | 🌙 Préparer le coucher | `#E8F0F2` | `#8A9E98` |
 | 🌸 Prendre soin de moi | `#F5D0C8` | `#D4604A` |
 | 🌿 Conseil de saison | `#D4E0DC` | `#8A9E98` |
-| 💜 Partager & rassurer | `#E8F0F2` | `#C8D8DC` |
+| 🆘 S.O.S Dois-je consulter ? | `#FFE3CD` | jaune `#FFCD67` · orange `#FFC18F` · sanguine `#FFBAA5` (cf. sos-design.tsx) |
 | 🎯 Jeux & stimulation | `#EDE0D4` | `#C89878` |
 
 ---

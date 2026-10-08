@@ -6,7 +6,6 @@
 //   guide    → 1 ligne par protocole + 1 ligne metadata (categorie='_meta')
 //   soin     → 1 ligne par conseil   + 1 ligne metadata
 //   saison   → 1 ligne par version (printemps/ete/automne/hiver) + meta
-//   audio    → 1 ligne par script    + 1 ligne metadata
 //   jeux     → 1 ligne par activité  + 1 ligne metadata
 //   coucher  → 1 ligne unique (bloc cohérent : rituel + réflexo + audio)
 //
@@ -185,30 +184,6 @@ function decomposeSaison(json, mois) {
   return rows;
 }
 
-function decomposeAudio(json, mois) {
-  const rows = [];
-  const { scripts, ...meta } = json;
-  rows.push({
-    mois,
-    module: "audio",
-    categorie: "_meta",
-    situation: null,
-    ordre: 0,
-    data: meta,
-  });
-  (scripts || []).forEach((s, i) => {
-    rows.push({
-      mois,
-      module: "audio",
-      categorie: "script",
-      situation: s.id ?? null,
-      ordre: i,
-      data: s,
-    });
-  });
-  return rows;
-}
-
 function decomposeJeux(json, mois) {
   const rows = [];
   const { activites, activites_socle, activites_complementaires, ...meta } =
@@ -317,7 +292,6 @@ const FILE_HANDLERS = {
   "02-coucher.json": { module: "coucher", fn: decomposeCoucher },
   "03-soin.json": { module: "soin", fn: decomposeSoin },
   "04-saison.json": { module: "saison", fn: decomposeSaison },
-  "05-audio.json": { module: "audio", fn: decomposeAudio },
   "06-jeux.json": { module: "jeux", fn: decomposeJeux },
 };
 
@@ -342,9 +316,6 @@ const NAME_HINTS = [
   { keyword: "soin", expected: "03-soin.json" },
   { keyword: "prendre_soin", expected: "03-soin.json" },
   { keyword: "saison", expected: "04-saison.json" },
-  { keyword: "audio", expected: "05-audio.json" },
-  { keyword: "partager", expected: "05-audio.json" },
-  { keyword: "rassurer", expected: "05-audio.json" },
   { keyword: "jeux", expected: "06-jeux.json" },
   { keyword: "jeu", expected: "06-jeux.json" },
 ];
