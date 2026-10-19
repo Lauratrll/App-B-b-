@@ -5,6 +5,7 @@ import {
   SOS_MUTED,
   SOS_SANGUINE,
   SOS_TEXT,
+  SosAccueil,
   SosBandeau,
   SosIcone,
   SosSource,
@@ -26,6 +27,8 @@ export default async function SosPage() {
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
       <SosBandeau complet />
+
+      <SosAccueil />
 
       <div style={{ textAlign: "center", padding: "4px 0 20px" }}>
         <div
