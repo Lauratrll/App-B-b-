@@ -120,20 +120,26 @@ const CORAIL_TEXTE = "#7A3E2E";
 // SMS sous « Cas particulier ». Version complète en page 1, compacte ensuite.
 export function SosBandeau({ complet }: { complet?: boolean }) {
   const { titre, numeros, cas_particulier: cas } = SOS.bandeau;
-  const pastille = (href: string, label: string, n: string, grand?: boolean) => (
+  const pastille = (
+    href: string,
+    label: string,
+    n: string,
+    grand?: boolean,
+    petit?: boolean,
+  ) => (
     <a
       key={n}
       href={href}
       aria-label={label}
       style={{
-        minWidth: grand ? 50 : 46,
-        height: grand ? 32 : 34,
+        minWidth: petit ? 40 : grand ? 50 : 46,
+        height: petit ? 26 : grand ? 32 : 34,
         padding: "0 10px",
         borderRadius: 19,
         background: "#fff",
         color: CORAIL_FONCE,
         fontWeight: 700,
-        fontSize: grand ? 15 : 14,
+        fontSize: petit ? 12.5 : grand ? 15 : 14,
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
@@ -176,13 +182,14 @@ export function SosBandeau({ complet }: { complet?: boolean }) {
     );
   }
 
+  // Le 114 (cas particulier) en plus petit (choix Laura, 19/10).
   const ligne = (n: SosNumero, href: string, label: string) => (
-    <div key={n.numero} style={{ display: "flex", alignItems: "center", gap: 10, marginTop: 6 }}>
-      {pastille(href, label, n.numero, true)}
-      <div style={{ color: CORAIL_FONCE, lineHeight: 1.3 }}>
-        <div style={{ fontSize: 12, fontWeight: 700 }}>{n.nom}</div>
+    <div key={n.numero} style={{ display: "flex", alignItems: "center", gap: 8, marginTop: 5 }}>
+      {pastille(href, label, n.numero, false, true)}
+      <div style={{ color: CORAIL_FONCE, lineHeight: 1.25 }}>
+        <div style={{ fontSize: 10.5, fontWeight: 700 }}>{n.nom}</div>
         {n.precision ? (
-          <div style={{ fontSize: 10, color: CORAIL_TEXTE }}>{n.precision}</div>
+          <div style={{ fontSize: 9, color: CORAIL_TEXTE }}>{n.precision}</div>
         ) : null}
       </div>
     </div>
@@ -201,7 +208,47 @@ export function SosBandeau({ complet }: { complet?: boolean }) {
       >
         {titre}
       </div>
-      {numeros.map((n) => ligne(n, `tel:${n.numero}`, `Appeler le ${n.numero}`))}
+      {/* 15 et 112 côte à côte (choix Laura, 19/10) : la page d'ouverture doit
+          tenir sur un écran sans défiler. Pastille + nom sur une ligne, la
+          précision dessous. */}
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: `repeat(${numeros.length}, minmax(0, 1fr))`,
+          gap: 10,
+          marginTop: 7,
+        }}
+      >
+        {numeros.map((n) => (
+          <div key={n.numero}>
+            <div style={{ display: "flex", alignItems: "center", gap: 7 }}>
+              {pastille(`tel:${n.numero}`, `Appeler le ${n.numero}`, n.numero, true)}
+              <div
+                style={{
+                  fontSize: 11.5,
+                  fontWeight: 700,
+                  color: CORAIL_FONCE,
+                  lineHeight: 1.2,
+                }}
+              >
+                {n.nom}
+              </div>
+            </div>
+            {n.precision ? (
+              <div
+                style={{
+                  fontSize: 9.5,
+                  color: CORAIL_TEXTE,
+                  lineHeight: 1.3,
+                  marginTop: 4,
+                }}
+              >
+                {n.precision}
+              </div>
+            ) : null}
+          </div>
+        ))}
+      </div>
       {cas ? (
         <div
           style={{

@@ -8,7 +8,6 @@ import {
   SosAccueil,
   SosBandeau,
   SosIcone,
-  SosSource,
   tonSlot,
   trancheSos,
 } from "@/components/modules/sos-design";
@@ -54,7 +53,7 @@ export default async function SosPage() {
       </div>
 
       {tranche.intro ? (
-        <div style={{ margin: "0 0 4px" }}>
+        <div style={{ margin: "0 0 10px" }}>
           <div
             style={{
               background: SOS_SANGUINE.bg,
@@ -70,7 +69,6 @@ export default async function SosPage() {
           >
             {tranche.intro.texte}
           </div>
-          <SosSource>{tranche.intro.source}</SosSource>
         </div>
       ) : null}
 

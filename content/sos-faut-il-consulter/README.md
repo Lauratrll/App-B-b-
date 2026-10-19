@@ -10,9 +10,9 @@ Bouton SOS qui remplace l'onglet « Partager & rassurer ». Repères officiels p
    ⚠ **Exception assumée à la règle 8 du CLAUDE.md** (« droits d'auteur — contenu toujours original ») : ici, ce sont des repères de santé publique officiels, cités avec leur source. Ne pas les réécrire « en version originale ».
 2. **Vouvoiement** dans cette rubrique uniquement (le reste de l'app tutoie).
 3. **Pas de placeholders** `{prenom}` / `{genre}` dans cette rubrique.
-4. **Source affichée** sous chaque bloc (une ligne discrète, champ `source`).
+4. **Source affichée** (exception 19/10/2026, Laura : pas de source sous l'encadré « Avant 3 mois » de la page d'ouverture ; la Fièvre à partir de 3 mois a sa source en bas de page) sous chaque bloc (une ligne discrète, champ `source`).
 5. **Aucun contenu Réflexologie** dans le SOS.
-6. **Bandeau des numéros sur la page d'ouverture seulement, sous les slots des maladies** (🔁 19/10/2026, Laura : retiré des pages de chaque maladie, puis placé sous les slots et non plus au-dessus), sans ligne source : 15 (SAMU) et 112 (numéro d'urgence européen) en premier, cliquables en `tel:` ; le 114 à part, sous « Cas particulier », cliquable en `sms:114`.
+6. **Bandeau des numéros sur la page d'ouverture seulement, sous les slots des maladies** (🔁 19/10/2026, Laura : retiré des pages de chaque maladie, puis placé sous les slots et non plus au-dessus ; 15 et 112 côte à côte, 114 en plus petit, pour que la page tienne sur un écran sans défiler), sans ligne source : 15 (SAMU) et 112 (numéro d'urgence européen) en premier, cliquables en `tel:` ; le 114 à part, sous « Cas particulier », cliquable en `sms:114`.
    ⚠ 19/10/2026 : la structure de `bandeau` dans `sos.json` a changé (`titre`, `numeros[]` avec `numero`/`nom`/`precision`, `cas_particulier`). Adapter le composant du bandeau.
 7. Accessible en un clic depuis toutes les pages (usage d'une main, la nuit).
 8. **Deux niveaux d'action seulement** (tranché le 19/10/2026), titres fixes :
