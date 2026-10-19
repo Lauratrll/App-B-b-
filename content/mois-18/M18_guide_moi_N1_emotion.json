@@ -1,0 +1,58 @@
+{
+  "mois": 18,
+  "tranche_age": "18 mois",
+  "categorie": {
+    "id": "emotion",
+    "nom": "Colère & émotions",
+    "sous_titre": "Le « non » à tout, colères, affirmation de soi",
+    "icone": "🌋"
+  },
+  "protocoles": [
+    {
+      "categorie": "emotion",
+      "situation": "Le non à tout / Il refuse même ce qu'il aimait",
+      "titre": "Un non qui n'est pas un défi",
+      "explication": "Il dit non au bain, non au repas, non à sortir, et parfois non à ce qu'il aimait la veille. À cet âge, ton enfant peut exprimer plus fortement ses préférences¹. Ses refus ne signifient pas forcément qu'il cherche à te défier³. C'est l'âge du « non », qui se poursuit jusqu'à trois ans². Cela peut épuiser.",
+      "ancrage": "Son non n'efface pas ce qu'il t'aime. Ton calme lui montre que ta présence reste la même.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : trier ses non",
+        "etapes": [
+          "Trier ses non : un non réflexe n'attend pas de réponse, un vrai refus mérite d'être entendu.",
+          "Laisser passer le non réflexe : continue ce que tu faisais, calmement, sans le relever.",
+          "Écouter le vrai refus : « tu ne veux pas le bain, je t'entends ». Puis dire la suite.",
+          "Donner un rôle : « tu me passes la serviette ? » donne une place à sa volonté.",
+          "Garder tes non pour ce qui compte : sa sécurité, le respect des autres, ce dont la famille a besoin."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Un moment où il décide",
+        "etapes": [
+          "Dix minutes à lui : il choisit le jeu, tu le suis sans diriger.",
+          "Un câlin à son initiative : tu ouvres les bras, il vient quand il veut.",
+          "Plexus solaire : trente secondes par pied, voix douce, à son rythme.",
+          "Une activité sans consigne : transvaser, peindre, empiler, sans résultat attendu.",
+          "Finir par un oui partagé : un livre ou une chanson qu'il aime, ensemble."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Comprendre l'enjeu : ces refus accompagnent une personnalité qui se construit, une étape que beaucoup de familles traversent².",
+        "Réduire les occasions de conflit : anticiper, prévenir, annoncer plutôt que de multiplier les questions.",
+        "Revoir une limite à froid : si elle ne convient plus, tu peux l'ajuster plus tard, pour une bonne raison, et non en pleine crise.",
+        "Se relayer : ces phases usent, et passer la main à l'autre adulte est un vrai geste de soutien."
+      ],
+      "principe": "Un non qui passe sans combat ne coûte rien. Garde ton énergie pour les limites qui comptent, et laisse-lui le reste.",
+      "erreurs_a_eviter": [
+        "Entrer en bras de fer sur chaque non.",
+        "Argumenter longuement pour le convaincre : il n'a pas encore les mots pour te suivre.",
+        "Se contredire entre adultes en pleine crise : la tension monte et la limite se brouille.",
+        "Taper, punir ou humilier."
+      ],
+      "consulter_si": "Consulter si : les crises deviennent quotidiennes et inconsolables, si l'enfant cherche à se blesser, si la communication semble se perdre, ou si tu sens ta colère devenir difficile à contenir → pédiatre, PMI, ou Allo Parents Bébé (0 800 00 34 56).",
+      "source": "Source : ¹ l'enfant se découvre distinct de ses parents vers 8 mois et le marque plus nettement vers 18 mois ; ² l'âge du « non » entre 1 et 3 ans ; ³ l'enfant ne rejette pas ses parents : mpedia.fr (Association Française de Pédiatrie Ambulatoire), « Apprendre à s'affirmer », mis à jour le 7 février 2022."
+    }
+  ]
+}

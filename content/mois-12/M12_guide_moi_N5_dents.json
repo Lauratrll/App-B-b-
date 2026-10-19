@@ -4,65 +4,15 @@
   "categorie": {
     "id": "dents",
     "nom": "Dents & petits inconforts",
-    "sous_titre": "Premières molaires, brossage",
+    "sous_titre": "Brossage",
     "icone": "🦷"
   },
   "protocoles": [
     {
       "categorie": "corpo",
-      "situation": "Les premières molaires / Il a les joues rouges et une douleur sourde",
-      "titre": "Soulager une gêne qui dure",
-      "explication": "Après les incisives et les canines, les premières molaires percent le plus souvent entre 12 et 18 mois. Ce sont de grosses dents plates qui traversent une gencive épaisse : la gêne est plus large et s'étale davantage dans le temps qu'avec une incisive. Ton enfant bave, mâchouille, a parfois les joues rouges, devient grognon par vagues. Une poussée dentaire reste une gêne modérée : elle ne donne pas de vraie fièvre et ne rend pas malade. L'ordre et les dates d'apparition varient beaucoup d'un enfant à l'autre.",
-      "ancrage": "Tu ne peux pas accélérer la sortie de la dent, tu peux rendre l'attente plus douce. Le froid, la pression et ta présence sont ce dont tu disposes.",
-      "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate : soulager la gencive",
-        "etapes": [
-          "Proposer du froid : anneau de dentition réfrigéré, ou gant de toilette humide et frais à mâchouiller.",
-          "Appliquer une contre-pression : avec un doigt propre, presser la gencive quelques secondes, cela apaise.",
-          "Donner à mâcher au repas : un aliment frais et ferme adapté à son âge, toujours sous surveillance.",
-          "Essuyer la bave régulièrement : garder le menton sec limite les rougeurs de la peau.",
-          "Rester disponible : un enfant gêné se console autant par les bras que par le froid."
-        ]
-      },
-      "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
-        "titre": "Réflexologie : accompagner la poussée dentaire",
-        "etapes": [
-          "S'installer contre toi : assis ou allongé, pieds accessibles, dans le calme.",
-          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
-          "Suivre la séquence « Poussées dentaires » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Parler doucement pendant la séquence : raconter ce que tu fais, sur le même ton.",
-          "S'arrêter à sa demande : un mouvement de retrait ou une crispation met fin au geste."
-        ],
-        "lien_reflexologie": {
-          "id": "dents",
-          "titre": "Poussées dentaires"
-        }
-      },
-      "pour_aller_plus_loin": [
-        "Vérifier ce qu'il mord : anneau intact, jouet aux normes, rien qui puisse se casser.",
-        "Demander conseil avant tout produit : gels et préparations pour gencives demandent l'accord du médecin ou du pharmacien.",
-        "Garder le cadre du soir : les repères habituels aident à traverser les quelques nuits plus agitées.",
-        "Prévoir des anneaux en double : l'un au frais pendant que l'autre est utilisé, l'effet du froid est court."
-      ],
-      "principe": "Une poussée dentaire s'accompagne, elle ne se médicalise pas. Elle explique une gêne, une bave et une humeur variable, mais elle n'explique ni une fièvre élevée ni un enfant abattu.",
-      "erreurs_a_eviter": [
-        "Repousser le brossage jusqu'à la fin de la poussée : la gencive est sensible, la dent se brosse quand même, tout doucement.",
-        "Mettre un produit sur la gencive sans avoir demandé : le pharmacien te dira ce qui convient.",
-        "Attribuer aux dents une forte fièvre et attendre : c'est passer à côté d'une autre cause à chercher.",
-        "Donner un médicament de sa propre initiative : toute dose se vérifie auprès d'un professionnel."
-      ],
-      "consulter_si": "Consulter si : fièvre élevée ou persistante, diarrhée importante, refus de boire, abattement inhabituel, ou douleur qui ne cède à rien → en parler au pédiatre, car ces signes ne relèvent pas des dents. Pour toute douleur nécessitant un médicament, demander la dose adaptée au poids au pédiatre ou au pharmacien.",
-      "source": "Source : poussées dentaires de l'enfant, mpedia.fr (Association française de pédiatrie ambulatoire)."
-    },
-    {
-      "categorie": "corpo",
       "situation": "Le brossage refusé / Il se débat chaque soir",
       "titre": "En faire un jeu d'imitation",
-      "explication": "Le brossage commence dès la première dent, bien avant que l'enfant comprenne pourquoi. À 12 mois, il ne peut pas encore coopérer volontairement : ouvrir la bouche pour laisser quelqu'un y entrer demande une confiance qui se construit. Se débattre est une réaction normale à une sensation nouvelle dans une zone très sensible, d'autant plus quand les molaires travaillent. Ce qui compte à cet âge, c'est l'habitude : un geste quotidien, court et prévisible, qui deviendra naturel bien avant qu'il sache cracher.",
+      "explication": "Le brossage commence dès la première dent, bien avant que l'enfant comprenne pourquoi. À 12 mois, il ne peut pas encore coopérer volontairement : ouvrir la bouche pour laisser quelqu'un y entrer demande une confiance qui se construit. Se débattre est une réaction normale à une sensation nouvelle dans une zone très sensible, d'autant plus quand une dent travaille. Ce qui compte à cet âge, c'est l'habitude : un geste quotidien, court et prévisible, qui deviendra naturel bien avant qu'il sache cracher.",
       "ancrage": "Vise la régularité plutôt que la perfection. 30 secondes acceptées chaque jour valent mieux qu'un brossage complet obtenu de force.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",

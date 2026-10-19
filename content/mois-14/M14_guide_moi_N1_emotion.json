@@ -1,0 +1,58 @@
+{
+  "mois": 14,
+  "tranche_age": "14 mois",
+  "categorie": {
+    "id": "emotion",
+    "nom": "Colère & émotions",
+    "sous_titre": "Premiers « non », colères, affirmation de soi",
+    "icone": "🌋"
+  },
+  "protocoles": [
+    {
+      "categorie": "emotion",
+      "situation": "Les premiers « non » / Il dit non de plus en plus",
+      "titre": "Il découvre qu'il peut dire non",
+      "explication": "Il refuse une chose, puis une autre, et parfois ce qu'il voulait un instant plus tôt. Entre un et trois ans, ton enfant pose les bases de l'affirmation de soi : c'est l'âge du « non »¹. Avec ce mot, il apprend qu'il peut être entendu et pris en compte². Son « non » veut parfois dire « oui » : il peut chercher ton attention, tester ta réaction, éprouver les limites³. Ce n'est pas un rejet⁴.",
+      "ancrage": "Son non n'est pas dirigé contre toi⁴. Tu peux l'entendre et garder le tien sur ce qui compte : les deux peuvent exister.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : entendre son non, garder le tien",
+        "etapes": [
+          "Chercher le pourquoi : fatigue, faim, envie d'attention ? Son non cache parfois un oui.",
+          "Entendre son refus : « j'ai bien entendu, tu ne veux pas ». Il a le droit de dire non.",
+          "Dire ton non en peu de mots : une phrase simple, sans débat interminable.",
+          "Garder tes non pour ce qui compte : sa sécurité, le respect des autres, ce dont la famille a besoin.",
+          "Lui laisser des oui : un choix entre deux options, une petite décision qui lui appartient."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Reconnecter sans confrontation",
+        "etapes": [
+          "Un câlin court : dix secondes, quand la journée devient électrique, sans rien demander.",
+          "Plexus solaire : trente secondes par pied, en lui chantant doucement.",
+          "Une activité où il décide : peinture libre, transvasement, son bac à coussins.",
+          "Un jeu du oui : des propositions drôles auxquelles il aura plaisir à répondre oui.",
+          "Sortir dehors vingt minutes : changer d'air détend souvent toute la maison."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Comprendre l'enjeu : ces premiers non préparent l'autonomie, et l'étape se prolonge jusqu'à trois ans¹.",
+        "Lui laisser de vraies décisions : vêtements, livre, jeu, des choix qui lui appartiennent vraiment.",
+        "Nommer son refus : « tu n'as pas envie, je comprends ».",
+        "Célébrer ses oui : « tu as dit oui, on y va ensemble »."
+      ],
+      "principe": "Quand ton enfant peut dire non et être entendu, il apprend aussi à dire oui, et à entendre ton non⁵. Garde les limites qui comptent, et ajuste celles qui ne conviennent plus.",
+      "erreurs_a_eviter": [
+        "Punir ou se moquer de son non.",
+        "Entrer dans une discussion sans fin : « tu dis non, mais moi je dis si ! ».",
+        "Dire non à tout toi aussi : les non importants se perdent dans la masse.",
+        "Céder sur ce qui compte pour avoir la paix : la limite se brouille."
+      ],
+      "consulter_si": "Consulter si : les crises deviennent quotidiennes et inconsolables, si l'enfant cherche à se blesser, si la communication semble se perdre, ou si tu sens ta colère devenir difficile à contenir → pédiatre, PMI, ou Allo Parents Bébé (0 800 00 34 56).",
+      "source": "Source : ¹ l'âge du « non » entre 1 et 3 ans, où l'enfant pose les bases de l'affirmation de soi ; ² en disant non, il comprend qu'il peut s'affirmer et être pris en compte ; ³ le « non » qui cherche l'attention, teste la réaction, éprouve les limites ; ⁴ l'enfant ne rejette pas ses parents ; ⁵ dire non permet de mieux dire oui ensuite : mpedia.fr (Association Française de Pédiatrie Ambulatoire), « Apprendre à s'affirmer », mis à jour le 7 février 2022."
+    }
+  ]
+}

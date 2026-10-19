@@ -10,20 +10,20 @@
   "protocoles": [
     {
       "categorie": "pleurs",
-      "situation": "L'opposition qui arrive / Il refuse et hurle pour tout",
-      "titre": "La naissance du « je »",
-      "explication": "Il refuse tout : le change, le repas, la sortie, le manteau. Il hurle, se cambre, dit non de tout son corps. Ce n'est pas un problème d'éducation, et ce n'est pas une régression : c'est la naissance du « je ». Il découvre qu'il est une personne distincte, avec une volonté propre — et il teste cette découverte sur tout ce qui passe. C'est un progrès psychique majeur, et c'est épuisant. Le cadre reste nécessaire, mais il se tient sans bras de fer : on n'éduque pas une volonté naissante, on l'accompagne.",
-      "ancrage": "Son opposition n'est pas dirigée contre toi : elle signe la découverte qu'il est quelqu'un. Le cadre tient — le bras de fer, lui, ne sert à rien.",
+      "situation": "Les hurlements du refus / Il s'affirme en criant",
+      "titre": "Entendre son refus, tenir le cadre",
+      "explication": "Il refuse le change, le repas, la sortie, le manteau, et il le dit de tout son corps : il hurle, il se cambre. Ton enfant s'affirme depuis la naissance, par ses pleurs, ses regards, ses gestes¹. Ses préférences sont de plus en plus nettes, mais il n'a pas encore les mots : son cri est sa façon de te les faire entendre. L'âge du « non », celui de l'affirmation de soi par le refus, arrive : il s'étend de un à trois ans¹. Son « non » peut aussi être une imitation de ce qu'il entend autour de lui. La fatigue, la faim ou une poussée de dents peuvent s'y ajouter. Cette étape est plus ou moins tumultueuse selon les enfants, et elle peut épuiser.",
+      "ancrage": "Il ne te rejette pas : en refusant, il s'affirme, et cela fait partie de sa construction. Tu peux tenir un cadre et rester à ses côtés : les limites le rassurent¹.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — tenir sans lutter",
+        "titre": "Action immédiate : décoder et tenir",
         "etapes": [
-          "Offrir des choix limités : « le pull rouge ou le bleu » — deux options, jamais une question ouverte.",
-          "Réserver le « non » au danger réel : un « non » utilisé partout perd tout son sens.",
-          "Nommer sa colère : « tu ne veux pas, tu es fâché » — la validation apaise sans céder.",
-          "Tenir la limite calmement : sans discours, sans négociation, sans hausser le ton.",
-          "Ne pas céder après la crise : cela apprendrait que la crise fonctionne."
+          "Regarder ce qu'il montre : son regard, sa main, son corps disent souvent ce qu'il veut ou refuse.",
+          "Nommer ce que tu comprends : « tu ne veux pas le manteau, tu es fâché ».",
+          "Offrir deux choix : « le pull rouge ou le bleu ? », qu'il peut désigner du regard.",
+          "Garder tes non pour ce qui compte, et varier les mots : « stop », « c'est interdit ».",
+          "Tenir et adapter : si la limite reste nécessaire, essaie de la maintenir calmement. Tu peux aussi adapter ta réponse à l'âge, aux besoins et à l'état de fatigue de ton enfant."
         ]
       },
       "geste_doux": {
@@ -39,31 +39,31 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Comprendre l'enjeu : l'opposition est le signe qu'une personne se construit — c'est une bonne nouvelle, même si elle épuise.",
-        "Réduire le nombre d'occasions de conflit : anticiper, aménager, prévenir plutôt que d'interdire.",
-        "Ne jamais taper ni punir : la violence, même légère, n'enseigne rien et abîme le lien.",
-        "Se relayer : ces phases usent, et le relais fait partie du protocole."
+        "Comprendre l'enjeu : ces refus accompagnent une personnalité qui se construit, une bonne nouvelle même si elle épuise.",
+        "Varier tes façons de dire non : il reprend beaucoup ce qu'il entend, et un « non » répété à longueur de journée peut devenir le sien.",
+        "Choisir tes limites : sa sécurité, le respect des autres, ce dont la famille a besoin. Anticipe et aménage plutôt que de multiplier les non.",
+        "Revoir une limite à froid : si elle ne convient plus, tu peux l'ajuster plus tard, pour une bonne raison, et non en pleine crise."
       ],
-      "principe": "L'opposition signe la naissance du « je », pas un défaut d'éducation. Le cadre se tient calmement — et le bras de fer, lui, n'apprend rien à personne.",
+      "principe": "Anticipe le besoin d'autonomie qui arrive : dès maintenant, ton enfant montre l'envie d'essayer et de choisir. Lui laisser de petites décisions peut alléger ses refus. Garde les limites importantes, même s'il proteste, et ajuste celles qui ne conviennent plus.",
       "erreurs_a_eviter": [
         "Entrer en bras de fer sur chaque refus.",
-        "Multiplier les interdits sur des choses sans danger.",
-        "Céder après la crise pour la faire cesser.",
+        "Multiplier les non sur des choses sans enjeu : ceux qui comptent se perdent dans la masse.",
+        "Se contredire entre adultes en pleine crise : la tension monte et la limite se brouille.",
         "Taper, punir ou humilier."
       ],
       "consulter_si": "Consulter si : les crises deviennent quotidiennes et inconsolables, si l'enfant se cogne volontairement la tête de façon répétée, s'il se blesse, ou si tu sens ta colère devenir difficile à contenir → pédiatre, PMI, ou Allo Parents Bébé (0 800 00 34 56).",
-      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — les étapes du développement de bébé."
+      "source": "Source : ¹ mpedia.fr (Association Française de Pédiatrie Ambulatoire), « Apprendre à s'affirmer », mis à jour le 7 février 2022 : l'affirmation de soi dès la naissance, l'âge du « non » entre 1 et 3 ans, le besoin de limites rassurantes."
     },
     {
       "categorie": "pleurs",
       "situation": "L'épuisement de la marche / Il s'effondre après ses premiers pas",
       "titre": "Le corps a beaucoup donné",
-      "explication": "Depuis qu'il se lance, il s'effondre en larmes en fin de journée, sans raison apparente. L'apprentissage de la marche consomme une énergie considérable : chaque pas mobilise l'équilibre, la concentration, des muscles tout neufs. Son corps donne énormément, et il n'a pas les mots pour dire qu'il est vidé. Le réflexe est de compenser par de la stimulation — jouer, sortir, distraire. C'est l'inverse : ce qui doit être réajusté, ce sont les temps de repos, pas les activités.",
-      "ancrage": "Il n'est pas capricieux : il est vidé. Ce qui se réajuste, ce sont les temps de repos — jamais les stimulations.",
+      "explication": "Depuis qu'il se lance, il s'effondre en larmes en fin de journée, sans raison apparente. L'apprentissage de la marche consomme une énergie considérable : chaque pas mobilise l'équilibre, la concentration, des muscles tout neufs. Son corps donne énormément, et il n'a pas les mots pour dire qu'il est vidé. Le réflexe est de compenser par de la stimulation : jouer, sortir, distraire. C'est l'inverse : ce qui doit être réajusté, ce sont les temps de repos, pas les activités.",
+      "ancrage": "Il n'est pas capricieux : il est vidé. Ce qui se réajuste, ce sont les temps de repos, jamais les stimulations.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — réajuster le repos",
+        "titre": "Action immédiate : réajuster le repos",
         "etapes": [
           "Avancer le coucher : de 20 à 30 minutes pendant cette phase.",
           "Protéger les siestes : elles redeviennent cruciales pendant l'apprentissage de la marche.",
@@ -94,7 +94,7 @@
         "Compter en semaines : cette phase intense dure le temps que la marche s'assure.",
         "Laisser beaucoup de temps au sol : il s'entraîne, et cela le fatigue autant que cela le construit."
       ],
-      "principe": "L'apprentissage de la marche consomme une énergie énorme. Ce qui se réajuste, ce sont les temps de repos — ajouter des activités ne fait qu'aggraver l'effondrement.",
+      "principe": "L'apprentissage de la marche consomme une énergie énorme. Ce qui se réajuste, ce sont les temps de repos : ajouter des activités ne fait qu'aggraver l'effondrement.",
       "erreurs_a_eviter": [
         "Compenser sa fatigue par une sortie ou une activité.",
         "Supprimer une sieste parce qu'il « bouge beaucoup ».",
@@ -102,22 +102,22 @@
         "Interpréter ses pleurs comme un caprice."
       ],
       "consulter_si": "Consulter si : l'enfant paraît anormalement fatigué en permanence, s'il perd des compétences acquises, s'il refuse de se déplacer alors qu'il le faisait, s'il boite, ou s'il paraît pâle et sans énergie → pédiatre ou médecin traitant.",
-      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé) — l'activité physique du tout-petit."
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), l'activité physique du tout-petit."
     },
     {
       "categorie": "pleurs",
       "situation": "L'habillage / Il hurle à chaque vêtement",
       "titre": "Transformer la contrainte en coopération",
-      "explication": "L'habillage est devenu une lutte quotidienne : il se cambre, hurle, se débat. Rester immobile pendant qu'un adulte agit sur son corps est devenu insupportable — précisément parce qu'il vient de découvrir qu'il a une volonté. Le maintenir plus fermement ne fait qu'aggraver. Ce qui désamorce : lui rendre une part de contrôle. Un choix limité — deux vêtements, deux ordres possibles — et un jeu transforment une contrainte subie en action partagée. Il ne s'oppose pas à l'habillage : il s'oppose à la passivité.",
-      "ancrage": "Il ne refuse pas le pull : il refuse de subir. Un choix limité lui rend le contrôle — et la lutte s'arrête.",
+      "explication": "L'habillage est devenu une lutte quotidienne : il se cambre, hurle, se débat. Rester immobile pendant qu'un adulte agit sur son corps est devenu insupportable, précisément parce qu'il vient de découvrir qu'il a une volonté. Le maintenir plus fermement ne fait qu'aggraver. Ce qui désamorce : lui rendre une part de contrôle. Un choix limité (deux vêtements, deux ordres possibles) et un jeu transforment une contrainte subie en action partagée. Il ne s'oppose pas à l'habillage : il s'oppose à la passivité.",
+      "ancrage": "Il ne refuse pas le pull : il refuse de subir. Un choix limité lui rend le contrôle, et la lutte s'arrête.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — offrir un choix",
+        "titre": "Action immédiate : offrir un choix",
         "etapes": [
-          "Deux options, pas plus : « le pull bleu ou le rouge » — jamais une question ouverte.",
-          "Le faire participer : « tends ton bras », « pousse ton pied » — un rôle actif.",
-          "En faire un jeu : « où est passée ta main ? » — l'attention se déplace.",
+          "Deux options, pas plus : « le pull bleu ou le rouge », jamais une question ouverte.",
+          "Le faire participer : « tends ton bras », « pousse ton pied ». Un rôle actif.",
+          "En faire un jeu : « où est passée ta main ? ». L'attention se déplace.",
           "Aller vite : un habillage efficace vaut mieux qu'un habillage parfait.",
           "Habiller debout ou au sol : plutôt que couché, qui est désormais insupportable."
         ]
@@ -129,7 +129,7 @@
         "etapes": [
           "Annoncer chaque geste : la prévisibilité réduit l'opposition.",
           "Le laisser bouger : il n'a pas besoin d'être immobile.",
-          "Ta voix, en continu : chanter, raconter — occuper autrement que par la contrainte.",
+          "Ta voix, en continu : chanter, raconter. Occuper autrement que par la contrainte.",
           "Terminer par un moment agréable : quelques secondes de contact.",
           "S'arrêter si cela dégénère : reposer, souffler, reprendre dans 2 minutes."
         ]
@@ -143,7 +143,7 @@
       "principe": "Il ne s'oppose pas au vêtement : il s'oppose à la passivité. Lui rendre un choix limité transforme la contrainte en coopération.",
       "erreurs_a_eviter": [
         "Le maintenir de force pour finir l'habillage.",
-        "Poser une question ouverte : « tu veux quoi ? » — elle ouvre la porte au refus total.",
+        "Poser une question ouverte : « tu veux quoi ? ». Elle ouvre la porte au refus total.",
         "Transformer l'habillage en affrontement quotidien.",
         "Le gronder pour son refus."
       ],
@@ -153,14 +153,14 @@
       "categorie": "pleurs",
       "situation": "Les pleurs du sevrage / Il réclame la tétée qu'on a retirée",
       "titre": "On retire un rituel, pas seulement du lait",
-      "explication": "Tu réduis les tétées, et il pleure — bien au-delà de la faim. C'est logique : une tétée n'est pas seulement un repas. C'est un moment de contact, de réconfort, de retrouvailles, souvent le rituel d'endormissement. En la retirant, tu retires un aliment et un rituel. Ce qui rend le sevrage douloureux, c'est de retirer le second sans le remplacer. Ce qui l'adoucit : construire un nouveau moment — même durée, même contact, même place dans la journée — avant de supprimer l'ancien.",
+      "explication": "Tu réduis les tétées, et il pleure, bien au-delà de la faim. C'est logique : une tétée n'est pas seulement un repas. C'est un moment de contact, de réconfort, de retrouvailles, souvent le rituel d'endormissement. En la retirant, tu retires un aliment et un rituel. Ce qui rend le sevrage douloureux, c'est de retirer le second sans le remplacer. Ce qui l'adoucit : construire un nouveau moment (même durée, même contact, même place dans la journée) avant de supprimer l'ancien.",
       "ancrage": "Une tétée n'est pas qu'un repas : c'est un rituel. Remplace le moment, pas seulement le lait.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate — remplacer le moment",
+        "titre": "Action immédiate : remplacer le moment",
         "etapes": [
-          "Construire le nouveau rituel d'abord : même heure, même durée, même contact — avant de retirer la tétée.",
+          "Construire le nouveau rituel d'abord : même heure, même durée, même contact. Avant de retirer la tétée.",
           "Un contact équivalent : un câlin dans le même fauteuil, une histoire, une berceuse.",
           "Retirer une seule tétée à la fois : jamais deux, et jamais brutalement.",
           "Attendre plusieurs jours : entre chaque retrait, pour que le corps et le lien s'ajustent.",
@@ -180,20 +180,20 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Aucune date imposée : le sevrage se fait quand vous le décidez, toi et lui — pas quand l'entourage l'exige.",
-        "Protéger ton corps : un sevrage trop rapide expose à l'engorgement — en parler à une sage-femme ou une consultante en lactation (IBCLC).",
+        "Aucune date imposée : le sevrage se fait quand vous le décidez, toi et lui, pas quand l'entourage l'exige.",
+        "Protéger ton corps : un sevrage trop rapide expose à l'engorgement, en parler à une sage-femme ou une consultante en lactation (IBCLC).",
         "Accueillir ton ambivalence : soulagement et tristesse coexistent très souvent.",
         "Le lait reste nécessaire : au moins 500 ml par jour de lait maternel ou de lait de suite jusqu'à un an."
       ],
-      "principe": "Le sevrage retire un aliment et un rituel. C'est le second qui fait la douleur — et c'est lui qui doit être remplacé, avant que l'ancien ne disparaisse.",
+      "principe": "Le sevrage retire un aliment et un rituel. C'est le second qui fait la douleur, et c'est lui qui doit être remplacé, avant que l'ancien ne disparaisse.",
       "erreurs_a_eviter": [
         "Supprimer plusieurs tétées à la fois.",
-        "Sevrer brutalement — douloureux pour lui, risqué pour ton corps.",
+        "Sevrer brutalement : douloureux pour lui, risqué pour ton corps.",
         "Se laisser imposer une date par l'entourage.",
-        "Retirer d'abord la tétée du soir — c'est la plus chargée."
+        "Retirer d'abord la tétée du soir : c'est la plus chargée."
       ],
       "consulter_si": "Consulter si : un sein devient rouge, dur et douloureux avec de la fièvre, si l'enfant refuse de boire, ne prend pas de poids, ou si le sevrage s'accompagne chez toi d'une tristesse durable ou de pensées noires → sage-femme, consultante en lactation (IBCLC), médecin ou PMI. Si les pensées noires s'installent, le 3114 répond jour et nuit.",
-      "source": "Source : Haute Autorité de Santé — « Allaitement maternel : mise en œuvre et poursuite » ; 1000-premiers-jours.fr — l'allaitement au fil des mois."
+      "source": "Source : Haute Autorité de Santé (« Allaitement maternel : mise en œuvre et poursuite » ; 1000-premiers-jours.fr) l'allaitement au fil des mois."
     }
   ]
 }
