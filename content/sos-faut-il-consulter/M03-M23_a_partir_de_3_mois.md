@@ -31,8 +31,6 @@
 - « une déshydratation (muqueuses sèches, urines moins fréquentes) »
 - « une respiration difficile (respiration rapide et plus courte, pauses respiratoires) »
 
-Sources : ameli.fr — « Votre enfant a de la fièvre : que faire et quand consulter ? », « Comprendre et gérer la fièvre chez l'enfant », « Les médicaments en cas de fièvre chez l'enfant », 3 septembre 2024
-
 **Consultez rapidement votre médecin si :**
 - « votre enfant fiévreux est suivi pour une maladie chronique »
 - « votre enfant a des épisodes de fièvre fréquents »
@@ -58,6 +56,8 @@ Sources : ameli.fr — « Votre enfant a de la fièvre : que faire et quand cons
 - « La dose doit être adaptée à son poids »
 - « assurez-vous qu'il n'a pas déjà reçu un antipyrétique sous une forme ou une autre »
 - « L'aspirine ne doit pas être administrée chez l'enfant sans avis médical »
+
+Sources : ameli.fr — « Votre enfant a de la fièvre : que faire et quand consulter ? », « Comprendre et gérer la fièvre chez l'enfant », « Les médicaments en cas de fièvre chez l'enfant », 3 septembre 2024
 
 ### Vomissements
 
