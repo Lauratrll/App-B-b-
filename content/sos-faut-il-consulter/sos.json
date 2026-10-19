@@ -74,6 +74,23 @@
               "source": "Sources : ameli.fr, « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025 ; « Régurgitations du nourrisson : que faire ? », 24 mars 2026"
             },
             {
+              "titre": "Les signes de déshydratation",
+              "niveau": "comprendre",
+              "items": [
+                "« Est anormalement agité ou au contraire il est apathique et dort beaucoup »",
+                "« Est difficile à réveiller et gémit »",
+                "« A un comportement inhabituel »",
+                "« Est pâle et a les yeux creux et cernés »",
+                "« A la langue sèche et collante »",
+                "« Respire rapidement »",
+                "« Continue de vomir malgré l'ingestion de solutions de réhydratation orale »",
+                "« A une perte de poids de plus de 5 % »",
+                "« urine très peu dans ses couches »"
+              ],
+              "source": "Sources : ameli.fr, « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025 ; « Déshydratation », 24 janvier 2025 (urine)",
+              "texte": "« consulter votre médecin immédiatement si votre nourrisson : »"
+            },
+            {
               "titre": "Consultez rapidement votre médecin si :",
               "niveau": "journee",
               "items": [
@@ -106,6 +123,23 @@
                 "« Plus le bébé est jeune, plus le risque de déshydratation est grand. »"
               ],
               "source": "Sources : ameli.fr, « Déshydratation », 24 janvier 2025 ; « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025"
+            },
+            {
+              "titre": "Que faire ? La solution de réhydratation orale",
+              "niveau": "comprendre",
+              "texte": "« Solution de réhydratation orale, disponible sans ordonnance en pharmacie : un sachet à diluer dans 200 ml d'eau fraîche non sucrée. »",
+              "source": "Source : Carnet de santé, édition 2024"
+            },
+            {
+              "titre": "",
+              "niveau": "comprendre",
+              "items": [
+                "« Tant que vous n'avez pas vu votre médecin, alimentez votre nourrisson fréquemment sans changer son alimentation (continuez l'allaitement maternel ou poursuivez l'alimentation avec son lait habituel) et complétez les prises de nourriture par une solution de réhydratation. »",
+                "« Si vous allaitez, poursuivez l'allaitement comme d'habitude et proposez à votre enfant de la solution de réhydratation orale entre les tétées. »",
+                "« Dans un premier temps, proposez à votre enfant la solution de réhydratation orale plusieurs fois par heure et en très petites quantités. »",
+                "« Si votre enfant vomit, donnez-lui la boisson bien fraîche, par petites gorgées ou à la cuillère. »"
+              ],
+              "source": "Source : ameli.fr, « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025"
             }
           ]
         },
@@ -113,6 +147,23 @@
           "id": "diarrhee",
           "nom": "Diarrhée",
           "blocs": [
+            {
+              "titre": "Les signes de déshydratation",
+              "niveau": "comprendre",
+              "items": [
+                "« Est anormalement agité ou au contraire il est apathique et dort beaucoup »",
+                "« Est difficile à réveiller et gémit »",
+                "« A un comportement inhabituel »",
+                "« Est pâle et a les yeux creux et cernés »",
+                "« A la langue sèche et collante »",
+                "« Respire rapidement »",
+                "« Continue de vomir malgré l'ingestion de solutions de réhydratation orale »",
+                "« A une perte de poids de plus de 5 % »",
+                "« urine très peu dans ses couches »"
+              ],
+              "source": "Sources : ameli.fr, « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025 ; « Déshydratation », 24 janvier 2025 (urine)",
+              "texte": "« consulter votre médecin immédiatement si votre nourrisson : »"
+            },
             {
               "titre": "Consultez rapidement votre médecin si :",
               "niveau": "journee",
@@ -150,6 +201,23 @@
                 "« Plus le bébé est jeune, plus le risque de déshydratation est grand. »"
               ],
               "source": "Sources : ameli.fr, « Déshydratation », 24 janvier 2025 ; « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025"
+            },
+            {
+              "titre": "Que faire ? La solution de réhydratation orale",
+              "niveau": "comprendre",
+              "texte": "« Solution de réhydratation orale, disponible sans ordonnance en pharmacie : un sachet à diluer dans 200 ml d'eau fraîche non sucrée. »",
+              "source": "Source : Carnet de santé, édition 2024"
+            },
+            {
+              "titre": "",
+              "niveau": "comprendre",
+              "items": [
+                "« Tant que vous n'avez pas vu votre médecin, alimentez votre nourrisson fréquemment sans changer son alimentation (continuez l'allaitement maternel ou poursuivez l'alimentation avec son lait habituel) et complétez les prises de nourriture par une solution de réhydratation. »",
+                "« Si vous allaitez, poursuivez l'allaitement comme d'habitude et proposez à votre enfant de la solution de réhydratation orale entre les tétées. »",
+                "« Dans un premier temps, proposez à votre enfant la solution de réhydratation orale plusieurs fois par heure et en très petites quantités. »",
+                "« Si votre enfant vomit, donnez-lui la boisson bien fraîche, par petites gorgées ou à la cuillère. »"
+              ],
+              "source": "Source : ameli.fr, « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025"
             }
           ]
         },
@@ -325,7 +393,7 @@
               "source": "Sources : ameli.fr, « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025 ; Carnet de santé, édition 2024 (vomissement sanglant ou vert)"
             },
             {
-              "titre": "Les signes de déshydratation : votre enfant :",
+              "titre": "Les signes de déshydratation",
               "niveau": "comprendre",
               "items": [
                 "« Est anormalement agité ou au contraire il est apathique et dort beaucoup »",
@@ -338,7 +406,8 @@
                 "« A une perte de poids de plus de 5 % »",
                 "« urine très peu dans ses couches »"
               ],
-              "source": "Sources : ameli.fr, « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025 ; « Déshydratation », 24 janvier 2025 (urine)"
+              "source": "Sources : ameli.fr, « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025 ; « Déshydratation », 24 janvier 2025 (urine)",
+              "texte": "« consulter votre médecin immédiatement si votre nourrisson : »"
             },
             {
               "titre": "Consultez rapidement votre médecin si :",
@@ -411,7 +480,7 @@
               "source": "Source : ameli.fr, « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025"
             },
             {
-              "titre": "Les signes de déshydratation : votre enfant :",
+              "titre": "Les signes de déshydratation",
               "niveau": "comprendre",
               "items": [
                 "« Est anormalement agité ou au contraire il est apathique et dort beaucoup »",
@@ -424,7 +493,8 @@
                 "« A une perte de poids de plus de 5 % »",
                 "« urine très peu dans ses couches »"
               ],
-              "source": "Sources : ameli.fr, « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025 ; « Déshydratation », 24 janvier 2025 (urine)"
+              "source": "Sources : ameli.fr, « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025 ; « Déshydratation », 24 janvier 2025 (urine)",
+              "texte": "« consulter votre médecin immédiatement si votre nourrisson : »"
             },
             {
               "titre": "Consultez rapidement votre médecin si :",

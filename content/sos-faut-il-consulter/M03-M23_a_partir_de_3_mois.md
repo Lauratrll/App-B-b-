@@ -69,7 +69,8 @@ Sources : ameli.fr — « Votre enfant a de la fièvre : que faire et quand cons
 
 Sources : ameli.fr — « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025 ; Carnet de santé, édition 2024 (vomissement sanglant ou vert)
 
-**Les signes de déshydratation : votre enfant :**
+**Les signes de déshydratation**
+« consulter votre médecin immédiatement si votre nourrisson : »
 - « Est anormalement agité ou au contraire il est apathique et dort beaucoup »
 - « Est difficile à réveiller et gémit »
 - « A un comportement inhabituel »
@@ -131,7 +132,8 @@ Source : ameli.fr — « Diarrhée et gastro-entérite de l'enfant : que faire e
 
 Source : ameli.fr — « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025
 
-**Les signes de déshydratation : votre enfant :**
+**Les signes de déshydratation**
+« consulter votre médecin immédiatement si votre nourrisson : »
 - « Est anormalement agité ou au contraire il est apathique et dort beaucoup »
 - « Est difficile à réveiller et gémit »
 - « A un comportement inhabituel »

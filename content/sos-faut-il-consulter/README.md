@@ -24,6 +24,7 @@ Bouton SOS qui remplace l'onglet « Partager & rassurer ». Repères officiels p
 11. **Accueil SOS** : afficher en tête de la page qui liste les thèmes le message `accueil.message` de `sos.json` (« En cas de doute, appelez le 15. »), avec le 15 cliquable en `tel:`.
 12. **Champ `note`** (bloc « Une cause possible : la bronchiolite ») : phrase de l'app, à afficher en italique en tête du bloc, avant les citations. Elle évite l'auto-diagnostic.
 13. **Thème `choc-tete` « Choc à la tête »** (ajouté le 19/10/2026, M0 à M23) : source fiche ARS Normandie (d'après le carnet de santé). Citations à la 1re personne (« je »), garder telles quelles. Prévoir une icône dans `components/modules/sos-design.tsx`. Pas de consigne « glace » ni « ne pas déplacer » : absentes des sources officielles.
+14. **Avant 3 mois : bloc « Que faire ? » avec la solution de réhydratation orale conservé** (tranché le 19/10/2026) : ameli le donne pour tous les moins de 2 ans, « avant même de consulter ». Il s'affiche après « Consultez rapidement votre médecin » : la solution ne remplace pas la consultation.
 
 ## Impact sur l'architecture
 - Remplace le module 💜 Partager & rassurer (`/audio`) dans la navigation. **Proposer le plan technique à Laura avant de toucher au code** (route, schéma `content.module`, CLAUDE.md à mettre à jour).
