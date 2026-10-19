@@ -26,7 +26,7 @@ export default async function SosPage() {
 
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
-      <div style={{ textAlign: "center", padding: "4px 0 20px" }}>
+      <div style={{ textAlign: "center", padding: "0 0 14px" }}>
         <h1
           style={{
             fontFamily: PLAYFAIR,
@@ -54,7 +54,7 @@ export default async function SosPage() {
       </div>
 
       {tranche.intro ? (
-        <div style={{ margin: "0 0 14px" }}>
+        <div style={{ margin: "0 0 4px" }}>
           <div
             style={{
               background: SOS_SANGUINE.bg,
@@ -79,7 +79,7 @@ export default async function SosPage() {
           display: "grid",
           gridTemplateColumns: "max-content",
           justifyContent: "center",
-          gap: 10,
+          gap: 8,
           maxWidth: "100%",
         }}
       >
@@ -95,7 +95,7 @@ export default async function SosPage() {
                 display: "flex",
                 alignItems: "center",
                 gap: 12,
-                padding: "11px 14px",
+                padding: "9px 14px",
                 width: "100%",
                 textDecoration: "none",
               }}
@@ -145,7 +145,7 @@ export default async function SosPage() {
       </div>
 
       {/* Numéros d'urgence sous les slots (choix Laura, 19/10) */}
-      <div style={{ marginTop: 22 }}>
+      <div style={{ marginTop: 30 }}>
         <SosBandeau complet />
       </div>
 

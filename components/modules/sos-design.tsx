@@ -126,14 +126,14 @@ export function SosBandeau({ complet }: { complet?: boolean }) {
       href={href}
       aria-label={label}
       style={{
-        minWidth: grand ? 56 : 46,
-        height: grand ? 38 : 34,
+        minWidth: grand ? 50 : 46,
+        height: grand ? 32 : 34,
         padding: "0 10px",
         borderRadius: 19,
         background: "#fff",
         color: CORAIL_FONCE,
         fontWeight: 700,
-        fontSize: grand ? 16 : 14,
+        fontSize: grand ? 15 : 14,
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
@@ -177,7 +177,7 @@ export function SosBandeau({ complet }: { complet?: boolean }) {
   }
 
   const ligne = (n: SosNumero, href: string, label: string) => (
-    <div key={n.numero} style={{ display: "flex", alignItems: "center", gap: 10, marginTop: 8 }}>
+    <div key={n.numero} style={{ display: "flex", alignItems: "center", gap: 10, marginTop: 6 }}>
       {pastille(href, label, n.numero, true)}
       <div style={{ color: CORAIL_FONCE, lineHeight: 1.3 }}>
         <div style={{ fontSize: 12, fontWeight: 700 }}>{n.nom}</div>
@@ -189,7 +189,7 @@ export function SosBandeau({ complet }: { complet?: boolean }) {
   );
 
   return (
-    <div style={{ background: CORAIL_CLAIR, borderRadius: 12, padding: "11px 13px", margin: "0 0 18px" }}>
+    <div style={{ background: CORAIL_CLAIR, borderRadius: 12, padding: "9px 12px" }}>
       <div
         style={{
           fontSize: 10,
@@ -206,8 +206,8 @@ export function SosBandeau({ complet }: { complet?: boolean }) {
         <div
           style={{
             borderTop: "1px solid rgba(138,48,32,.15)",
-            marginTop: 10,
-            paddingTop: 8,
+            marginTop: 8,
+            paddingTop: 6,
           }}
         >
           <div
@@ -238,7 +238,7 @@ export function SosAccueil() {
   return (
     <div
       style={{
-        padding: "26px 4px 8px",
+        padding: "10px 4px 4px",
         fontSize: 9,
         color: SOS_MUTED,
         lineHeight: 1.4,
