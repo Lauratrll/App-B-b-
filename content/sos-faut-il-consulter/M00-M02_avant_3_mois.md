@@ -83,17 +83,23 @@ Sources : ameli.fr — « Déshydratation », 24 janvier 2025 ; « Diarrhée et 
 
 **Que faire ? La solution de réhydratation orale**
 « Solution de réhydratation orale, disponible sans ordonnance en pharmacie : un sachet à diluer dans 200 ml d'eau fraîche non sucrée. »
-
-Source : Carnet de santé, édition 2024
-
 - « Tant que vous n'avez pas vu votre médecin, alimentez votre nourrisson fréquemment sans changer son alimentation (continuez l'allaitement maternel ou poursuivez l'alimentation avec son lait habituel) et complétez les prises de nourriture par une solution de réhydratation. »
 - « Si vous allaitez, poursuivez l'allaitement comme d'habitude et proposez à votre enfant de la solution de réhydratation orale entre les tétées. »
 - « Dans un premier temps, proposez à votre enfant la solution de réhydratation orale plusieurs fois par heure et en très petites quantités. »
 - « Si votre enfant vomit, donnez-lui la boisson bien fraîche, par petites gorgées ou à la cuillère. »
 
-Source : ameli.fr — « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025
+Sources : Carnet de santé, édition 2024 ; ameli.fr — « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025
 
 ### Diarrhée
+
+**Consultez en urgence si :**
+- « Votre enfant ne mange plus et ne boit plus »
+- « La diarrhée persiste plus de deux jours, s'aggrave »
+- « La diarrhée s'accompagne d'une fièvre supérieure à 38,5° C »
+- « Les selles contiennent des glaires ou du sang »
+- « Votre enfant présente des signes de déshydratation »
+
+Source : ameli.fr — « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025
 
 **Les signes de déshydratation**
 « consulter votre médecin immédiatement si votre nourrisson : »
@@ -137,15 +143,12 @@ Sources : ameli.fr — « Déshydratation », 24 janvier 2025 ; « Diarrhée et 
 
 **Que faire ? La solution de réhydratation orale**
 « Solution de réhydratation orale, disponible sans ordonnance en pharmacie : un sachet à diluer dans 200 ml d'eau fraîche non sucrée. »
-
-Source : Carnet de santé, édition 2024
-
 - « Tant que vous n'avez pas vu votre médecin, alimentez votre nourrisson fréquemment sans changer son alimentation (continuez l'allaitement maternel ou poursuivez l'alimentation avec son lait habituel) et complétez les prises de nourriture par une solution de réhydratation. »
 - « Si vous allaitez, poursuivez l'allaitement comme d'habitude et proposez à votre enfant de la solution de réhydratation orale entre les tétées. »
 - « Dans un premier temps, proposez à votre enfant la solution de réhydratation orale plusieurs fois par heure et en très petites quantités. »
 - « Si votre enfant vomit, donnez-lui la boisson bien fraîche, par petites gorgées ou à la cuillère. »
 
-Source : ameli.fr — « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025
+Sources : Carnet de santé, édition 2024 ; ameli.fr — « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025
 
 ### Difficultés à respirer
 

@@ -53,7 +53,7 @@ Ce qui l'aide à s'endormir [apaisé/apaisée] : **un coucher calme, des histoi
 
 **Ses repères, à 20 mois**
 **Sur 24 heures** : environ 11 à 14 heures de sommeil : autour de 11 heures la nuit, et une sieste d'environ 2 heures. Entre deux enfants du même âge, 2 à 3 heures d'écart sont normales : il y a des petits et des gros dormeurs.
-**Faire ses nuits** : à cet âge, faire ses nuits ne veut plus dire ne pas se réveiller. Entre 1 et 3 ans, un enfant se réveille en moyenne trois fois par nuit. Ce qui change, ce n'est pas le nombre de réveils : c'est qu'[il/elle] apprend à se rendormir seul, le plus souvent sans que tu l'entendes.
+**Faire ses nuits** : à cet âge, faire ses nuits ne veut plus dire ne pas se réveiller. Entre 1 et 3 ans, un enfant se réveille en moyenne trois fois par nuit. Ce qui change, ce n'est pas le nombre de réveils : c'est qu'[il/elle] apprend à se rendormir [seul/seule], le plus souvent sans que tu l'entendes.
 
 ---
 
@@ -86,7 +86,7 @@ Sortir chaque jour reste **le meilleur repère pour son horloge biologique**. Et
 ### La fin de journée
 
 #### La redescente
-Après la sieste, l'après-midi est fait pour bouger : dehors, courir, grimper. **Le soir, son corps a besoin de redescendre**, et à cet âge, [il/elle] ne sait pas encore freiner seul. Garde les chatouilles, les courses-poursuites et les bagarres pour avant le dîner. Après, place aux jeux calmes : livres, dessins, pâte à modeler, bain.
+Après la sieste, l'après-midi est fait pour bouger : dehors, courir, grimper. **Le soir, son corps a besoin de redescendre**, et à cet âge, [il/elle] ne sait pas encore freiner [seul/seule]. Garde les chatouilles, les courses-poursuites et les bagarres pour avant le dîner. Après, place aux jeux calmes : livres, dessins, pâte à modeler, bain.
 
 #### Annoncer ce qui vient
 [Il/Elle] supporte mieux d'arrêter quand il sait ce qui vient. **Annonce les étapes à l'avance** : « Après le bain, on lit l'histoire, puis dodo. » Un dernier tour de jeu, un minuteur, une chanson de rangement : la fin de la journée devient un passage, plus une coupure.
