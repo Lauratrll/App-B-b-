@@ -8,20 +8,17 @@
     "numeros": [
       {
         "numero": "15",
-        "nom": "SAMU",
-        "precision": "Urgence médicale"
+        "nom": "SAMU"
       },
       {
         "numero": "112",
-        "nom": "Numéro d'urgence européen",
-        "precision": "Depuis un portable ou partout en Europe"
+        "nom": "Urgence européenne"
       }
     ],
     "cas_particulier": {
       "titre": "Cas particulier",
       "numero": "114",
-      "nom": "Urgence par SMS",
-      "precision": "Pour les personnes ayant des difficultés à parler ou à entendre"
+      "nom": "Urgence par SMS"
     }
   },
   "niveaux": {

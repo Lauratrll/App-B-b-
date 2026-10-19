@@ -4,15 +4,13 @@
 
 **En cas de doute, appelez le 15.**
 
-## Bandeau permanent (en haut de chaque écran SOS)
+## Bandeau des numéros (page d'ouverture, sous les maladies)
 
 **Appeler les urgences**
 
-- **15 — SAMU** : urgence médicale
-- **112 — Numéro d'urgence européen** : depuis un portable ou partout en Europe
-
-*Cas particulier*
-- **114 — Urgence par SMS** : pour les personnes ayant des difficultés à parler ou à entendre
+- **15 — SAMU**
+- **112 — Urgence européenne**
+- **114 — Urgence par SMS** (envoi d'un SMS)
 
 ## Les deux niveaux (légende affichée sur chaque écran)
 

@@ -182,21 +182,17 @@ export function SosBandeau({ complet }: { complet?: boolean }) {
     );
   }
 
-  // Le 114 (cas particulier) en plus petit (choix Laura, 19/10).
-  const ligne = (n: SosNumero, href: string, label: string) => (
-    <div key={n.numero} style={{ display: "flex", alignItems: "center", gap: 8, marginTop: 5 }}>
-      {pastille(href, label, n.numero, false, true)}
-      <div style={{ color: CORAIL_FONCE, lineHeight: 1.25 }}>
-        <div style={{ fontSize: 10.5, fontWeight: 700 }}>{n.nom}</div>
-        {n.precision ? (
-          <div style={{ fontSize: 9, color: CORAIL_TEXTE }}>{n.precision}</div>
-        ) : null}
-      </div>
-    </div>
-  );
+  // Les trois numéros sur une seule ligne (choix Laura, 19/10) : pastille, et
+  // le nom en petit dessous. 15 et 112 en appel, 114 en SMS. Sans sous-texte.
+  const tous = [
+    ...numeros.map((n) => ({ n, href: `tel:${n.numero}`, label: `Appeler le ${n.numero}` })),
+    ...(cas
+      ? [{ n: cas, href: `sms:${cas.numero}`, label: `Envoyer un SMS au ${cas.numero}` }]
+      : []),
+  ];
 
   return (
-    <div style={{ background: CORAIL_CLAIR, borderRadius: 12, padding: "9px 12px" }}>
+    <div style={{ background: CORAIL_CLAIR, borderRadius: 12, padding: "9px 10px 10px" }}>
       <div
         style={{
           fontSize: 10,
@@ -204,73 +200,39 @@ export function SosBandeau({ complet }: { complet?: boolean }) {
           letterSpacing: ".08em",
           textTransform: "uppercase",
           color: CORAIL_FONCE,
+          textAlign: "center",
         }}
       >
         {titre}
       </div>
-      {/* 15 et 112 côte à côte (choix Laura, 19/10) : la page d'ouverture doit
-          tenir sur un écran sans défiler. Pastille + nom sur une ligne, la
-          précision dessous. */}
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: `repeat(${numeros.length}, minmax(0, 1fr))`,
-          gap: 10,
-          marginTop: 7,
+          gridTemplateColumns: `repeat(${tous.length}, minmax(0, 1fr))`,
+          gap: 6,
+          marginTop: 8,
         }}
       >
-        {numeros.map((n) => (
-          <div key={n.numero}>
-            <div style={{ display: "flex", alignItems: "center", gap: 7 }}>
-              {pastille(`tel:${n.numero}`, `Appeler le ${n.numero}`, n.numero, true)}
-              <div
-                style={{
-                  fontSize: 11.5,
-                  fontWeight: 700,
-                  color: CORAIL_FONCE,
-                  lineHeight: 1.2,
-                }}
-              >
-                {n.nom}
-              </div>
+        {tous.map(({ n, href, label }) => (
+          <div
+            key={n.numero}
+            style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 4 }}
+          >
+            {pastille(href, label, n.numero, true)}
+            <div
+              style={{
+                fontSize: 9.5,
+                fontWeight: 700,
+                color: CORAIL_FONCE,
+                lineHeight: 1.2,
+                textAlign: "center",
+              }}
+            >
+              {n.nom}
             </div>
-            {n.precision ? (
-              <div
-                style={{
-                  fontSize: 9.5,
-                  color: CORAIL_TEXTE,
-                  lineHeight: 1.3,
-                  marginTop: 4,
-                }}
-              >
-                {n.precision}
-              </div>
-            ) : null}
           </div>
         ))}
       </div>
-      {cas ? (
-        <div
-          style={{
-            borderTop: "1px solid rgba(138,48,32,.15)",
-            marginTop: 8,
-            paddingTop: 6,
-          }}
-        >
-          <div
-            style={{
-              fontSize: 9,
-              fontWeight: 700,
-              letterSpacing: ".07em",
-              textTransform: "uppercase",
-              color: CORAIL_TEXTE,
-            }}
-          >
-            {cas.titre}
-          </div>
-          {ligne(cas, `sms:${cas.numero}`, `Envoyer un SMS au ${cas.numero}`)}
-        </div>
-      ) : null}
     </div>
   );
 }
