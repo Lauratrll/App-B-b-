@@ -2,6 +2,7 @@ import Link from "next/link";
 import { requireProfile } from "@/lib/auth";
 import { getBabyMonth } from "@/lib/utils";
 import {
+  SOS,
   SOS_MUTED,
   SOS_SANGUINE,
   SOS_TEXT,
@@ -60,7 +61,7 @@ export default async function SosPage() {
             fontWeight: 600,
           }}
         >
-          {tranche.label}
+          {[SOS.accueil?.origine, tranche.label].filter(Boolean).join(" · ")}
         </div>
       </div>
 

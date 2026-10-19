@@ -39,7 +39,7 @@
       "mois_min": 0,
       "mois_max": 2,
       "intro": {
-        "texte": "Avant trois mois, consultez rapidement un médecin en cas de fièvre, de diarrhée, de vomissements ou de difficultés à respirer.",
+        "texte": "« Avant trois mois, consultez rapidement un médecin en cas de fièvre, de diarrhée, de vomissements ou de difficultés à respirer. »",
         "source": "Source : Carnet de santé, édition 2024"
       },
       "themes": [
@@ -75,63 +75,79 @@
             {
               "titre": "Consultez rapidement votre médecin si :",
               "niveau": "journee",
-              "items": [
-                "Les régurgitations sont douloureuses et s'accompagnent de pleurs, et parfois de traces de sang",
-                "Les régurgitations sont abondantes (surtout si le nourrisson a moins de 2 mois)",
-                "Votre nourrisson pleure beaucoup. Il se tortille pendant la prise du biberon et a du mal à le finir",
-                "Il refuse de s'alimenter et ne grossit plus, voire perd du poids",
-                "Il a des troubles du sommeil et il est agité."
+              "sections": [
+                {
+                  "titre": "Il vomit",
+                  "items": [
+                    "Mon nourrisson de moins de trois mois se met à vomir."
+                  ]
+                },
+                {
+                  "titre": "Il régurgite",
+                  "items": [
+                    "Les régurgitations sont douloureuses et s'accompagnent de pleurs, et parfois de traces de sang",
+                    "Les régurgitations sont abondantes (surtout si le nourrisson a moins de 2 mois)",
+                    "Votre nourrisson pleure beaucoup. Il se tortille pendant la prise du biberon et a du mal à le finir",
+                    "Il refuse de s'alimenter et ne grossit plus, voire perd du poids",
+                    "Il a des troubles du sommeil et il est agité."
+                  ]
+                }
               ],
-              "source": "Source : ameli.fr, « Régurgitations du nourrisson : que faire ? », 24 mars 2026"
+              "source": "Sources : ameli.fr, « Nausées et vomissements : que faire et quand consulter ? », 31 juillet 2024 ; « Régurgitations du nourrisson : que faire ? », 24 mars 2026"
             },
             {
-              "titre": "Les signes de déshydratation",
+              "titre": "",
               "niveau": "comprendre",
-              "items": [
-                "Est anormalement agité ou au contraire il est apathique et dort beaucoup",
-                "Est difficile à réveiller et gémit",
-                "A un comportement inhabituel",
-                "Est pâle et a les yeux creux et cernés",
-                "A la langue sèche et collante",
-                "Respire rapidement",
-                "Continue de vomir malgré l'ingestion de solutions de réhydratation orale",
-                "A une perte de poids de plus de 5 %",
-                "Urine très peu dans ses couches",
-                "Absence d'urines"
+              "sections": [
+                {
+                  "titre": "C'est quoi, la déshydratation ?",
+                  "items": [
+                    "La déshydratation correspond à un manque d'eau et de sels minéraux dans le corps",
+                    "Chez le nourrisson, la perte d'eau peut être très rapide",
+                    "La complication de la gastro-entérite de l'enfant est la déshydratation.",
+                    "Plus le bébé est jeune, plus le risque de déshydratation est grand."
+                  ]
+                },
+                {
+                  "titre": "Les signes de déshydratation",
+                  "items": [
+                    "Est anormalement agité ou au contraire il est apathique et dort beaucoup",
+                    "Est difficile à réveiller et gémit",
+                    "A un comportement inhabituel",
+                    "Est pâle et a les yeux creux et cernés",
+                    "A la langue sèche et collante",
+                    "Respire rapidement",
+                    "Continue de vomir malgré l'ingestion de solutions de réhydratation orale",
+                    "A une perte de poids de plus de 5 %",
+                    "Urine très peu dans ses couches",
+                    "Absence d'urines"
+                  ]
+                }
               ],
-              "source": "Sources : ameli.fr, « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025 ; « Déshydratation », 24 janvier 2025 (urine) ; mpedia.fr (AFPA), « Gastro-entérite aiguë chez l'enfant : que faire ? », 18 septembre 2024 (absence d'urines)",
-              "texte": "Consulter votre médecin immédiatement si votre nourrisson :"
+              "source": "Sources : ameli.fr, « Déshydratation », 24 janvier 2025 ; « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025 ; mpedia.fr (AFPA), « Gastro-entérite aiguë chez l'enfant : que faire ? », 18 septembre 2024"
             },
             {
-              "titre": "C'est quoi, un vomissement ?",
+              "titre": "",
               "niveau": "comprendre",
-              "items": [
-                "Le vomissement est le rejet du contenu de l'estomac par la bouche.",
-                "Il correspond à un réflexe mécanique de défense de l'organisme destiné à vider l'estomac."
-              ],
-              "source": "Source : ameli.fr, « Nausées et vomissements : un réflexe mécanique dû à diverses causes », 31 juillet 2024"
-            },
-            {
-              "titre": "Ou une régurgitation ?",
-              "niveau": "comprendre",
-              "items": [
-                "La régurgitation est une remontée passive du contenu gastrique ou œsophagien dans la bouche, sans effort de vomissement ni nausées.",
-                "Le rejet du lait par la bouche est spontané, survient sans effort et peut survenir lors d'un rot.",
-                "C'est un phénomène habituel qui guérit spontanément",
-                "Disparaît généralement avant l'âge de 1 an."
+              "sections": [
+                {
+                  "titre": "C'est quoi, un vomissement ?",
+                  "items": [
+                    "Le vomissement est le rejet du contenu de l'estomac par la bouche.",
+                    "Il correspond à un réflexe mécanique de défense de l'organisme destiné à vider l'estomac."
+                  ]
+                },
+                {
+                  "titre": "Ou une régurgitation ?",
+                  "items": [
+                    "La régurgitation est une remontée passive du contenu gastrique ou œsophagien dans la bouche, sans effort de vomissement ni nausées.",
+                    "Le rejet du lait par la bouche est spontané, survient sans effort et peut survenir lors d'un rot.",
+                    "C'est un phénomène habituel qui guérit spontanément",
+                    "Disparaît généralement avant l'âge de 1 an."
+                  ]
+                }
               ],
               "source": "Sources : ameli.fr, « Nausées et vomissements : un réflexe mécanique dû à diverses causes », 31 juillet 2024 ; « Définition et causes du reflux gastro-œsophagien du nourrisson », 24 mars 2026"
-            },
-            {
-              "titre": "Le risque : la déshydratation",
-              "niveau": "comprendre",
-              "items": [
-                "La déshydratation correspond à un manque d'eau et de sels minéraux dans le corps",
-                "Chez le nourrisson, la perte d'eau peut être très rapide",
-                "La complication de la gastro-entérite de l'enfant est la déshydratation.",
-                "Plus le bébé est jeune, plus le risque de déshydratation est grand."
-              ],
-              "source": "Sources : ameli.fr, « Déshydratation », 24 janvier 2025 ; « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025"
             },
             {
               "titre": "Que faire ? La solution de réhydratation orale",
@@ -173,22 +189,35 @@
               "source": "Source : ameli.fr, « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025"
             },
             {
-              "titre": "Les signes de déshydratation",
+              "titre": "",
               "niveau": "comprendre",
-              "items": [
-                "Est anormalement agité ou au contraire il est apathique et dort beaucoup",
-                "Est difficile à réveiller et gémit",
-                "A un comportement inhabituel",
-                "Est pâle et a les yeux creux et cernés",
-                "A la langue sèche et collante",
-                "Respire rapidement",
-                "Continue de vomir malgré l'ingestion de solutions de réhydratation orale",
-                "A une perte de poids de plus de 5 %",
-                "Urine très peu dans ses couches",
-                "Absence d'urines"
+              "sections": [
+                {
+                  "titre": "C'est quoi, la déshydratation ?",
+                  "items": [
+                    "La déshydratation correspond à un manque d'eau et de sels minéraux dans le corps",
+                    "Chez le nourrisson, la perte d'eau peut être très rapide",
+                    "La complication de la gastro-entérite de l'enfant est la déshydratation.",
+                    "Plus le bébé est jeune, plus le risque de déshydratation est grand."
+                  ]
+                },
+                {
+                  "titre": "Les signes de déshydratation",
+                  "items": [
+                    "Est anormalement agité ou au contraire il est apathique et dort beaucoup",
+                    "Est difficile à réveiller et gémit",
+                    "A un comportement inhabituel",
+                    "Est pâle et a les yeux creux et cernés",
+                    "A la langue sèche et collante",
+                    "Respire rapidement",
+                    "Continue de vomir malgré l'ingestion de solutions de réhydratation orale",
+                    "A une perte de poids de plus de 5 %",
+                    "Urine très peu dans ses couches",
+                    "Absence d'urines"
+                  ]
+                }
               ],
-              "source": "Sources : ameli.fr, « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025 ; « Déshydratation », 24 janvier 2025 (urine) ; mpedia.fr (AFPA), « Gastro-entérite aiguë chez l'enfant : que faire ? », 18 septembre 2024 (absence d'urines)",
-              "texte": "Consulter votre médecin immédiatement si votre nourrisson :"
+              "source": "Sources : ameli.fr, « Déshydratation », 24 janvier 2025 ; « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025 ; mpedia.fr (AFPA), « Gastro-entérite aiguë chez l'enfant : que faire ? », 18 septembre 2024"
             },
             {
               "titre": "C'est quoi, une diarrhée ?",
@@ -208,17 +237,6 @@
                 "Ces selles, souvent liquides avec grumeaux et jaunes ocre, ne doivent pas vous inquiéter."
               ],
               "source": "Source : mpedia.fr (AFPA), « Diarrhée de bébé : causes, symptômes et traitement », 26 septembre 2022"
-            },
-            {
-              "titre": "Le risque : la déshydratation",
-              "niveau": "comprendre",
-              "items": [
-                "La déshydratation correspond à un manque d'eau et de sels minéraux dans le corps",
-                "Chez le nourrisson, la perte d'eau peut être très rapide",
-                "La complication de la gastro-entérite de l'enfant est la déshydratation.",
-                "Plus le bébé est jeune, plus le risque de déshydratation est grand."
-              ],
-              "source": "Sources : ameli.fr, « Déshydratation », 24 janvier 2025 ; « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025"
             },
             {
               "titre": "Que faire ? La solution de réhydratation orale",
@@ -409,64 +427,81 @@
             {
               "titre": "Consultez rapidement votre médecin si :",
               "niveau": "journee",
-              "items": [
-                "Consultez si les régurgitations apparaissent après l'âge de 6 mois ou persistent au-delà d'un an.",
-                "Les régurgitations sont douloureuses et s'accompagnent de pleurs, et parfois de traces de sang",
-                "Les régurgitations sont abondantes",
-                "Votre nourrisson pleure beaucoup. Il se tortille pendant la prise du biberon et a du mal à le finir",
-                "Il refuse de s'alimenter et ne grossit plus, voire perd du poids",
-                "Il a des troubles du sommeil et il est agité."
+              "sections": [
+                {
+                  "titre": "Il vomit",
+                  "items": [
+                    "Les vomissements s'aggravent ou persistent plus de 2 jours.",
+                    "D'autres symptômes apparaissent"
+                  ]
+                },
+                {
+                  "titre": "Il régurgite",
+                  "items": [
+                    "Consultez si les régurgitations apparaissent après l'âge de 6 mois ou persistent au-delà d'un an.",
+                    "Les régurgitations sont douloureuses et s'accompagnent de pleurs, et parfois de traces de sang",
+                    "Les régurgitations sont abondantes",
+                    "Votre nourrisson pleure beaucoup. Il se tortille pendant la prise du biberon et a du mal à le finir",
+                    "Il refuse de s'alimenter et ne grossit plus, voire perd du poids",
+                    "Il a des troubles du sommeil et il est agité."
+                  ]
+                }
               ],
-              "source": "Source : ameli.fr, « Régurgitations du nourrisson : que faire ? », 24 mars 2026"
+              "source": "Sources : ameli.fr, « Nausées et vomissements : que faire et quand consulter ? », 31 juillet 2024 ; « Régurgitations du nourrisson : que faire ? », 24 mars 2026"
             },
             {
-              "titre": "Les signes de déshydratation",
+              "titre": "",
               "niveau": "comprendre",
-              "items": [
-                "Est anormalement agité ou au contraire il est apathique et dort beaucoup",
-                "Est difficile à réveiller et gémit",
-                "A un comportement inhabituel",
-                "Est pâle et a les yeux creux et cernés",
-                "A la langue sèche et collante",
-                "Respire rapidement",
-                "Continue de vomir malgré l'ingestion de solutions de réhydratation orale",
-                "A une perte de poids de plus de 5 %",
-                "Urine très peu dans ses couches",
-                "Absence d'urines"
+              "sections": [
+                {
+                  "titre": "C'est quoi, la déshydratation ?",
+                  "items": [
+                    "La déshydratation correspond à un manque d'eau et de sels minéraux dans le corps",
+                    "Chez le nourrisson, la perte d'eau peut être très rapide",
+                    "La complication de la gastro-entérite de l'enfant est la déshydratation.",
+                    "Plus le bébé est jeune, plus le risque de déshydratation est grand."
+                  ]
+                },
+                {
+                  "titre": "Les signes de déshydratation",
+                  "items": [
+                    "Est anormalement agité ou au contraire il est apathique et dort beaucoup",
+                    "Est difficile à réveiller et gémit",
+                    "A un comportement inhabituel",
+                    "Est pâle et a les yeux creux et cernés",
+                    "A la langue sèche et collante",
+                    "Respire rapidement",
+                    "Continue de vomir malgré l'ingestion de solutions de réhydratation orale",
+                    "A une perte de poids de plus de 5 %",
+                    "Urine très peu dans ses couches",
+                    "Absence d'urines"
+                  ]
+                }
               ],
-              "source": "Sources : ameli.fr, « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025 ; « Déshydratation », 24 janvier 2025 (urine) ; mpedia.fr (AFPA), « Gastro-entérite aiguë chez l'enfant : que faire ? », 18 septembre 2024 (absence d'urines)",
-              "texte": "Consulter votre médecin immédiatement si votre nourrisson :"
+              "source": "Sources : ameli.fr, « Déshydratation », 24 janvier 2025 ; « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025 ; mpedia.fr (AFPA), « Gastro-entérite aiguë chez l'enfant : que faire ? », 18 septembre 2024"
             },
             {
-              "titre": "C'est quoi, un vomissement ?",
+              "titre": "",
               "niveau": "comprendre",
-              "items": [
-                "Le vomissement est le rejet du contenu de l'estomac par la bouche.",
-                "Il correspond à un réflexe mécanique de défense de l'organisme destiné à vider l'estomac."
-              ],
-              "source": "Source : ameli.fr, « Nausées et vomissements : un réflexe mécanique dû à diverses causes », 31 juillet 2024"
-            },
-            {
-              "titre": "Ou une régurgitation ?",
-              "niveau": "comprendre",
-              "items": [
-                "La régurgitation est une remontée passive du contenu gastrique ou œsophagien dans la bouche, sans effort de vomissement ni nausées.",
-                "Le rejet du lait par la bouche est spontané, survient sans effort et peut survenir lors d'un rot.",
-                "C'est un phénomène habituel qui guérit spontanément",
-                "Disparaît généralement avant l'âge de 1 an."
+              "sections": [
+                {
+                  "titre": "C'est quoi, un vomissement ?",
+                  "items": [
+                    "Le vomissement est le rejet du contenu de l'estomac par la bouche.",
+                    "Il correspond à un réflexe mécanique de défense de l'organisme destiné à vider l'estomac."
+                  ]
+                },
+                {
+                  "titre": "Ou une régurgitation ?",
+                  "items": [
+                    "La régurgitation est une remontée passive du contenu gastrique ou œsophagien dans la bouche, sans effort de vomissement ni nausées.",
+                    "Le rejet du lait par la bouche est spontané, survient sans effort et peut survenir lors d'un rot.",
+                    "C'est un phénomène habituel qui guérit spontanément",
+                    "Disparaît généralement avant l'âge de 1 an."
+                  ]
+                }
               ],
               "source": "Sources : ameli.fr, « Nausées et vomissements : un réflexe mécanique dû à diverses causes », 31 juillet 2024 ; « Définition et causes du reflux gastro-œsophagien du nourrisson », 24 mars 2026"
-            },
-            {
-              "titre": "Le risque : la déshydratation",
-              "niveau": "comprendre",
-              "items": [
-                "La déshydratation correspond à un manque d'eau et de sels minéraux dans le corps",
-                "Chez le nourrisson, la perte d'eau peut être très rapide",
-                "La complication de la gastro-entérite de l'enfant est la déshydratation.",
-                "Plus le bébé est jeune, plus le risque de déshydratation est grand."
-              ],
-              "source": "Sources : ameli.fr, « Déshydratation », 24 janvier 2025 ; « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025"
             },
             {
               "titre": "Que faire ? La solution de réhydratation orale",
@@ -510,22 +545,35 @@
               "source": "Source : ameli.fr, « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025"
             },
             {
-              "titre": "Les signes de déshydratation",
+              "titre": "",
               "niveau": "comprendre",
-              "items": [
-                "Est anormalement agité ou au contraire il est apathique et dort beaucoup",
-                "Est difficile à réveiller et gémit",
-                "A un comportement inhabituel",
-                "Est pâle et a les yeux creux et cernés",
-                "A la langue sèche et collante",
-                "Respire rapidement",
-                "Continue de vomir malgré l'ingestion de solutions de réhydratation orale",
-                "A une perte de poids de plus de 5 %",
-                "Urine très peu dans ses couches",
-                "Absence d'urines"
+              "sections": [
+                {
+                  "titre": "C'est quoi, la déshydratation ?",
+                  "items": [
+                    "La déshydratation correspond à un manque d'eau et de sels minéraux dans le corps",
+                    "Chez le nourrisson, la perte d'eau peut être très rapide",
+                    "La complication de la gastro-entérite de l'enfant est la déshydratation.",
+                    "Plus le bébé est jeune, plus le risque de déshydratation est grand."
+                  ]
+                },
+                {
+                  "titre": "Les signes de déshydratation",
+                  "items": [
+                    "Est anormalement agité ou au contraire il est apathique et dort beaucoup",
+                    "Est difficile à réveiller et gémit",
+                    "A un comportement inhabituel",
+                    "Est pâle et a les yeux creux et cernés",
+                    "A la langue sèche et collante",
+                    "Respire rapidement",
+                    "Continue de vomir malgré l'ingestion de solutions de réhydratation orale",
+                    "A une perte de poids de plus de 5 %",
+                    "Urine très peu dans ses couches",
+                    "Absence d'urines"
+                  ]
+                }
               ],
-              "source": "Sources : ameli.fr, « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025 ; « Déshydratation », 24 janvier 2025 (urine) ; mpedia.fr (AFPA), « Gastro-entérite aiguë chez l'enfant : que faire ? », 18 septembre 2024 (absence d'urines)",
-              "texte": "Consulter votre médecin immédiatement si votre nourrisson :"
+              "source": "Sources : ameli.fr, « Déshydratation », 24 janvier 2025 ; « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025 ; mpedia.fr (AFPA), « Gastro-entérite aiguë chez l'enfant : que faire ? », 18 septembre 2024"
             },
             {
               "titre": "C'est quoi, une diarrhée ?",
@@ -545,17 +593,6 @@
                 "Ces selles, souvent liquides avec grumeaux et jaunes ocre, ne doivent pas vous inquiéter."
               ],
               "source": "Source : mpedia.fr (AFPA), « Diarrhée de bébé : causes, symptômes et traitement », 26 septembre 2022"
-            },
-            {
-              "titre": "Le risque : la déshydratation",
-              "niveau": "comprendre",
-              "items": [
-                "La déshydratation correspond à un manque d'eau et de sels minéraux dans le corps",
-                "Chez le nourrisson, la perte d'eau peut être très rapide",
-                "La complication de la gastro-entérite de l'enfant est la déshydratation.",
-                "Plus le bébé est jeune, plus le risque de déshydratation est grand."
-              ],
-              "source": "Sources : ameli.fr, « Déshydratation », 24 janvier 2025 ; « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025"
             },
             {
               "titre": "Que faire ? La solution de réhydratation orale",

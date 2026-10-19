@@ -25,6 +25,8 @@ export type SosBloc = {
   note?: string; // phrase de l'app, en italique en tête du bloc (pas une citation)
   texte?: string;
   items?: string[];
+  // Sous-parties d'un même bloc (README §16), chacune avec son titre en gras.
+  sections?: { titre: string; texte?: string; items?: string[] }[];
   conclusion?: string;
   source?: string;
 };
@@ -360,6 +362,34 @@ export function SosBlocView({ bloc }: { bloc: SosBloc }) {
     lineHeight: 1.55,
     margin: 0,
   };
+  const liste = (items: string[]) => (
+    <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+      {items.map((it, i) => (
+        <li
+          key={i}
+          style={{
+            ...texte,
+            display: "flex",
+            gap: 7,
+            marginTop: i === 0 ? 0 : 5,
+          }}
+        >
+          <span
+            aria-hidden
+            style={{
+              width: 5,
+              height: 5,
+              borderRadius: "50%",
+              background: ton.accent,
+              flexShrink: 0,
+              marginTop: 6,
+            }}
+          />
+          <span>{it}</span>
+        </li>
+      ))}
+    </ul>
+  );
   return (
     <>
       <div
@@ -386,34 +416,14 @@ export function SosBlocView({ bloc }: { bloc: SosBloc }) {
           </p>
         ) : null}
         {bloc.texte ? <p style={texte}>{bloc.texte}</p> : null}
-        {bloc.items && bloc.items.length > 0 ? (
-          <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-            {bloc.items.map((it, i) => (
-              <li
-                key={i}
-                style={{
-                  ...texte,
-                  display: "flex",
-                  gap: 7,
-                  marginTop: i === 0 ? 0 : 5,
-                }}
-              >
-                <span
-                  aria-hidden
-                  style={{
-                    width: 5,
-                    height: 5,
-                    borderRadius: "50%",
-                    background: ton.accent,
-                    flexShrink: 0,
-                    marginTop: 6,
-                  }}
-                />
-                <span>{it}</span>
-              </li>
-            ))}
-          </ul>
-        ) : null}
+        {bloc.items && bloc.items.length > 0 ? liste(bloc.items) : null}
+        {bloc.sections?.map((sec, si) => (
+          <div key={si} style={{ marginTop: si === 0 ? 0 : 11 }}>
+            <p style={{ ...texte, fontWeight: 700, marginBottom: 5 }}>{sec.titre}</p>
+            {sec.texte ? <p style={{ ...texte, marginBottom: 5 }}>{sec.texte}</p> : null}
+            {sec.items && sec.items.length > 0 ? liste(sec.items) : null}
+          </div>
+        ))}
         {bloc.conclusion ? (
           <p style={{ ...texte, fontWeight: 700, marginTop: 8 }}>
             {bloc.conclusion}

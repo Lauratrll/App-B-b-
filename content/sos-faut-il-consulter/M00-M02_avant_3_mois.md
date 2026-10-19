@@ -2,7 +2,8 @@
 
 ## Accueil SOS (page qui liste les thèmes)
 
-*Repères officiels*
+**Dois-je consulter ?**
+*Repères officiels · Avant 3 mois*
 
 **En cas de doute, appelez le 15.**
 
@@ -22,7 +23,7 @@
 
 ## Avant 3 mois
 
-Avant trois mois, consultez rapidement un médecin en cas de fièvre, de diarrhée, de vomissements ou de difficultés à respirer.
+« Avant trois mois, consultez rapidement un médecin en cas de fièvre, de diarrhée, de vomissements ou de difficultés à respirer. »
 
 Source : Carnet de santé, édition 2024
 
@@ -44,16 +45,25 @@ Source : ameli.fr — « Votre enfant a de la fièvre : que faire et quand consu
 Sources : ameli.fr — « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025 ; « Régurgitations du nourrisson : que faire ? », 24 mars 2026 ; mpedia.fr (AFPA) — « Gastro-entérite aiguë chez l'enfant : que faire ? », 18 septembre 2024 (refus de la solution)
 
 **Consultez rapidement votre médecin si :**
+**Il vomit**
+- Mon nourrisson de moins de trois mois se met à vomir.
+
+**Il régurgite**
 - Les régurgitations sont douloureuses et s'accompagnent de pleurs, et parfois de traces de sang
 - Les régurgitations sont abondantes (surtout si le nourrisson a moins de 2 mois)
 - Votre nourrisson pleure beaucoup. Il se tortille pendant la prise du biberon et a du mal à le finir
 - Il refuse de s'alimenter et ne grossit plus, voire perd du poids
 - Il a des troubles du sommeil et il est agité.
 
-Source : ameli.fr — « Régurgitations du nourrisson : que faire ? », 24 mars 2026
+Sources : ameli.fr — « Nausées et vomissements : que faire et quand consulter ? », 31 juillet 2024 ; « Régurgitations du nourrisson : que faire ? », 24 mars 2026
+
+**C'est quoi, la déshydratation ?**
+- La déshydratation correspond à un manque d'eau et de sels minéraux dans le corps
+- Chez le nourrisson, la perte d'eau peut être très rapide
+- La complication de la gastro-entérite de l'enfant est la déshydratation.
+- Plus le bébé est jeune, plus le risque de déshydratation est grand.
 
 **Les signes de déshydratation**
-Consulter votre médecin immédiatement si votre nourrisson :
 - Est anormalement agité ou au contraire il est apathique et dort beaucoup
 - Est difficile à réveiller et gémit
 - A un comportement inhabituel
@@ -65,13 +75,11 @@ Consulter votre médecin immédiatement si votre nourrisson :
 - Urine très peu dans ses couches
 - Absence d'urines
 
-Sources : ameli.fr — « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025 ; « Déshydratation », 24 janvier 2025 (urine) ; mpedia.fr (AFPA) — « Gastro-entérite aiguë chez l'enfant : que faire ? », 18 septembre 2024 (absence d'urines)
+Sources : ameli.fr — « Déshydratation », 24 janvier 2025 ; « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025 ; mpedia.fr (AFPA) — « Gastro-entérite aiguë chez l'enfant : que faire ? », 18 septembre 2024
 
 **C'est quoi, un vomissement ?**
 - Le vomissement est le rejet du contenu de l'estomac par la bouche.
 - Il correspond à un réflexe mécanique de défense de l'organisme destiné à vider l'estomac.
-
-Source : ameli.fr — « Nausées et vomissements : un réflexe mécanique dû à diverses causes », 31 juillet 2024
 
 **Ou une régurgitation ?**
 - La régurgitation est une remontée passive du contenu gastrique ou œsophagien dans la bouche, sans effort de vomissement ni nausées.
@@ -80,14 +88,6 @@ Source : ameli.fr — « Nausées et vomissements : un réflexe mécanique dû �
 - Disparaît généralement avant l'âge de 1 an.
 
 Sources : ameli.fr — « Nausées et vomissements : un réflexe mécanique dû à diverses causes », 31 juillet 2024 ; « Définition et causes du reflux gastro-œsophagien du nourrisson », 24 mars 2026
-
-**Le risque : la déshydratation**
-- La déshydratation correspond à un manque d'eau et de sels minéraux dans le corps
-- Chez le nourrisson, la perte d'eau peut être très rapide
-- La complication de la gastro-entérite de l'enfant est la déshydratation.
-- Plus le bébé est jeune, plus le risque de déshydratation est grand.
-
-Sources : ameli.fr — « Déshydratation », 24 janvier 2025 ; « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025
 
 **Que faire ? La solution de réhydratation orale**
 Solution de réhydratation orale, disponible sans ordonnance en pharmacie : un sachet à diluer dans 200 ml d'eau fraîche non sucrée.
@@ -115,8 +115,13 @@ Sources : ameli.fr — « Diarrhée et gastro-entérite de l'enfant : que faire 
 
 Source : ameli.fr — « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025
 
+**C'est quoi, la déshydratation ?**
+- La déshydratation correspond à un manque d'eau et de sels minéraux dans le corps
+- Chez le nourrisson, la perte d'eau peut être très rapide
+- La complication de la gastro-entérite de l'enfant est la déshydratation.
+- Plus le bébé est jeune, plus le risque de déshydratation est grand.
+
 **Les signes de déshydratation**
-Consulter votre médecin immédiatement si votre nourrisson :
 - Est anormalement agité ou au contraire il est apathique et dort beaucoup
 - Est difficile à réveiller et gémit
 - A un comportement inhabituel
@@ -128,7 +133,7 @@ Consulter votre médecin immédiatement si votre nourrisson :
 - Urine très peu dans ses couches
 - Absence d'urines
 
-Sources : ameli.fr — « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025 ; « Déshydratation », 24 janvier 2025 (urine) ; mpedia.fr (AFPA) — « Gastro-entérite aiguë chez l'enfant : que faire ? », 18 septembre 2024 (absence d'urines)
+Sources : ameli.fr — « Déshydratation », 24 janvier 2025 ; « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025 ; mpedia.fr (AFPA) — « Gastro-entérite aiguë chez l'enfant : que faire ? », 18 septembre 2024
 
 **C'est quoi, une diarrhée ?**
 - Présence de selles molles ou liquides et augmentation de leur fréquence
@@ -142,14 +147,6 @@ Source : ameli.fr — « Symptômes et causes de la gastro-entérite chez l'enfa
 - Ces selles, souvent liquides avec grumeaux et jaunes ocre, ne doivent pas vous inquiéter.
 
 Source : mpedia.fr (AFPA) — « Diarrhée de bébé : causes, symptômes et traitement », 26 septembre 2022
-
-**Le risque : la déshydratation**
-- La déshydratation correspond à un manque d'eau et de sels minéraux dans le corps
-- Chez le nourrisson, la perte d'eau peut être très rapide
-- La complication de la gastro-entérite de l'enfant est la déshydratation.
-- Plus le bébé est jeune, plus le risque de déshydratation est grand.
-
-Sources : ameli.fr — « Déshydratation », 24 janvier 2025 ; « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025
 
 **Que faire ? La solution de réhydratation orale**
 Solution de réhydratation orale, disponible sans ordonnance en pharmacie : un sachet à diluer dans 200 ml d'eau fraîche non sucrée.
