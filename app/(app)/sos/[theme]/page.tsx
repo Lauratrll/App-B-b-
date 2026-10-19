@@ -5,7 +5,6 @@ import { getBabyMonth } from "@/lib/utils";
 import {
   SOS_MUTED,
   SOS_TEXT,
-  SosBandeau,
   SosBlocView,
   SosIcone,
   tonSlot,
@@ -32,7 +31,6 @@ export default async function SosThemePage({
 
   return (
     <div style={{ display: "flex", flexDirection: "column", paddingBottom: 40 }}>
-      <SosBandeau />
 
       <Link
         href="/sos"

@@ -7,6 +7,8 @@ import sosData from "@/content/sos-faut-il-consulter/sos.json";
 // Supabase). Citations ameli / carnet de santé recopiées MOT POUR MOT.
 //
 // Gamme validée le 08/10/2026 : jaune bouton d'or → orange → orange sanguine.
+// Adoucie en pastel le 19/10/2026 (Laura) pour rejoindre l'ADN de l'app
+// (pêche, corail clair, abricot) : mêmes teintes, moins saturées.
 //  - Page 1 : couleur de slot PAR RANG (0 jaune, 1 orange, 2 sanguine).
 //  - Page 2 : couleur de bloc PAR NIVEAU d'urgence
 //    (comprendre = jaune, journee = orange, urgence = sanguine).
@@ -72,25 +74,25 @@ export type SosTon = {
 };
 
 export const SOS_JAUNE: SosTon = {
-  slot: "#FFCD67",
-  pastille: "#FFB42D",
-  bg: "#FFE9BA",
-  accent: "#FFAA00",
-  label: "#814D00",
+  slot: "#FBE8C0",
+  pastille: "#F2D59A",
+  bg: "#FDF4E1",
+  accent: "#E8C47E",
+  label: "#73541C",
 };
 export const SOS_ORANGE: SosTon = {
-  slot: "#FFC18F",
-  pastille: "#F3A262",
-  bg: "#FFE3CD",
-  accent: "#F0903C",
-  label: "#814200",
+  slot: "#FAD2B3",
+  pastille: "#F3B88C",
+  bg: "#FDE8D9",
+  accent: "#EDA36E",
+  label: "#7E4820",
 };
 export const SOS_SANGUINE: SosTon = {
-  slot: "#FFBAA5",
-  pastille: "#FC9980",
-  bg: "#FFE0D6",
-  accent: "#FA8467",
-  label: "#873B28",
+  slot: "#F6C4B6",
+  pastille: "#EFA996",
+  bg: "#FBE2DA",
+  accent: "#E68D76",
+  label: "#83402F",
 };
 
 const GAMME = [SOS_JAUNE, SOS_ORANGE, SOS_SANGUINE];
@@ -105,9 +107,12 @@ export const TON_NIVEAU: Record<SosNiveau, SosTon> = {
   urgence: SOS_SANGUINE,
 };
 
-// Bandeau urgences — corail, hors gamme, en haut de chaque écran S.O.S.
-const CORAIL = "#D4604A";
+// Bandeau urgences — en haut de chaque écran S.O.S. Pastel depuis le 19/10
+// (Laura : le corail plein était trop saturé) : fond corail clair, numéros en
+// pastilles blanches, chiffres et textes corail foncé.
+const CORAIL_CLAIR = "#F5D0C8";
 const CORAIL_FONCE = "#8A3020";
+const CORAIL_TEXTE = "#7A3E2E";
 
 // Bandeau sans ligne source (README §6) : 15 et 112 en appel, 114 à part en
 // SMS sous « Cas particulier ». Version complète en page 1, compacte ensuite.
@@ -142,7 +147,7 @@ export function SosBandeau({ complet }: { complet?: boolean }) {
     return (
       <div
         style={{
-          background: CORAIL,
+          background: CORAIL_CLAIR,
           borderRadius: 12,
           padding: "8px 12px",
           margin: "0 0 18px",
@@ -158,7 +163,7 @@ export function SosBandeau({ complet }: { complet?: boolean }) {
             fontWeight: 700,
             letterSpacing: ".08em",
             textTransform: "uppercase",
-            color: "#fff",
+            color: CORAIL_FONCE,
           }}
         >
           Urgences
@@ -172,24 +177,24 @@ export function SosBandeau({ complet }: { complet?: boolean }) {
   const ligne = (n: SosNumero, href: string, label: string) => (
     <div key={n.numero} style={{ display: "flex", alignItems: "center", gap: 10, marginTop: 8 }}>
       {pastille(href, label, n.numero, true)}
-      <div style={{ color: "#fff", lineHeight: 1.3 }}>
+      <div style={{ color: CORAIL_FONCE, lineHeight: 1.3 }}>
         <div style={{ fontSize: 12, fontWeight: 700 }}>{n.nom}</div>
         {n.precision ? (
-          <div style={{ fontSize: 10, color: "rgba(255,255,255,.88)" }}>{n.precision}</div>
+          <div style={{ fontSize: 10, color: CORAIL_TEXTE }}>{n.precision}</div>
         ) : null}
       </div>
     </div>
   );
 
   return (
-    <div style={{ background: CORAIL, borderRadius: 12, padding: "11px 13px", margin: "0 0 18px" }}>
+    <div style={{ background: CORAIL_CLAIR, borderRadius: 12, padding: "11px 13px", margin: "0 0 18px" }}>
       <div
         style={{
           fontSize: 10,
           fontWeight: 700,
           letterSpacing: ".08em",
           textTransform: "uppercase",
-          color: "#fff",
+          color: CORAIL_FONCE,
         }}
       >
         {titre}
@@ -198,7 +203,7 @@ export function SosBandeau({ complet }: { complet?: boolean }) {
       {cas ? (
         <div
           style={{
-            borderTop: "1px solid rgba(255,255,255,.35)",
+            borderTop: "1px solid rgba(138,48,32,.15)",
             marginTop: 10,
             paddingTop: 8,
           }}
@@ -209,7 +214,7 @@ export function SosBandeau({ complet }: { complet?: boolean }) {
               fontWeight: 700,
               letterSpacing: ".07em",
               textTransform: "uppercase",
-              color: "rgba(255,255,255,.88)",
+              color: CORAIL_TEXTE,
             }}
           >
             {cas.titre}
