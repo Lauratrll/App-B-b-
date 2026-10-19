@@ -8,7 +8,9 @@ import sosData from "@/content/sos-faut-il-consulter/sos.json";
 //
 // Gamme validée le 08/10/2026 : jaune bouton d'or → orange → orange sanguine.
 // Adoucie en pastel le 19/10/2026 (Laura) pour rejoindre l'ADN de l'app
-// (pêche, corail clair, abricot) : mêmes teintes, moins saturées.
+// (pêche, corail clair, abricot) : mêmes teintes, moins saturées. Puis
+// réchauffées (Laura : jaune des blocs fade, écriture marron) : fond jaune plus
+// ensoleillé, textes terre cuite et corail au lieu de bruns.
 //  - Page 1 : couleur de slot PAR RANG (0 jaune, 1 orange, 2 sanguine).
 //  - Page 2 : couleur de bloc PAR NIVEAU d'urgence
 //    (comprendre = jaune, journee = orange, urgence = sanguine).
@@ -76,23 +78,23 @@ export type SosTon = {
 export const SOS_JAUNE: SosTon = {
   slot: "#FBE8C0",
   pastille: "#F2D59A",
-  bg: "#FDF4E1",
-  accent: "#E8C47E",
-  label: "#73541C",
+  bg: "#FFEDC4",
+  accent: "#F4BC4A",
+  label: "#A3561A",
 };
 export const SOS_ORANGE: SosTon = {
   slot: "#FAD2B3",
   pastille: "#F3B88C",
   bg: "#FDE8D9",
   accent: "#EDA36E",
-  label: "#7E4820",
+  label: "#A4471F",
 };
 export const SOS_SANGUINE: SosTon = {
   slot: "#F6C4B6",
   pastille: "#EFA996",
   bg: "#FBE2DA",
   accent: "#E68D76",
-  label: "#83402F",
+  label: "#A33A2B",
 };
 
 const GAMME = [SOS_JAUNE, SOS_ORANGE, SOS_SANGUINE];

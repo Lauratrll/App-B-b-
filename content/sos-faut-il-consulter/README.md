@@ -26,7 +26,7 @@ Bouton SOS qui remplace l'onglet « Partager & rassurer ». Repères officiels p
 13. **Thème `choc-tete` « Choc à la tête »** (ajouté le 19/10/2026, M0 à M23) : source fiche ARS Normandie (d'après le carnet de santé). Citations à la 1re personne (« je »), garder telles quelles. Prévoir une icône dans `components/modules/sos-design.tsx`. Pas de consigne « glace » ni « ne pas déplacer » : absentes des sources officielles.
 14. **Avant 3 mois : bloc « Que faire ? » avec la solution de réhydratation orale conservé** (tranché le 19/10/2026) : ameli le donne pour tous les moins de 2 ans, « avant même de consulter ». Il s'affiche après « Consultez rapidement votre médecin » : la solution ne remplace pas la consultation.
 
-15. **Couleurs adoucies en pastel** (19/10/2026, Laura) pour rejoindre l'ADN de l'app : mêmes teintes jaune → orange → orange sanguine, moins saturées ; bandeau en corail clair `#F5D0C8`, numéros en pastilles blanches, chiffres corail foncé `#8A3020`. Valeurs dans `components/modules/sos-design.tsx`.
+15. **Couleurs adoucies en pastel** (19/10/2026, Laura) pour rejoindre l'ADN de l'app : mêmes teintes jaune → orange → orange sanguine, moins saturées ; bandeau en corail clair `#F5D0C8`, numéros en pastilles blanches, chiffres corail foncé `#8A3020`. 🔁 Puis réchauffées (Laura : jaune des blocs fade, écriture marron « caca ») : fond jaune plus ensoleillé, textes des blocs en terre cuite et corail, jamais en brun. Valeurs dans `components/modules/sos-design.tsx`.
 
 ## Impact sur l'architecture
 - Remplace le module 💜 Partager & rassurer (`/audio`) dans la navigation. **Proposer le plan technique à Laura avant de toucher au code** (route, schéma `content.module`, CLAUDE.md à mettre à jour).
