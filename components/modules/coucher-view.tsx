@@ -15,12 +15,12 @@ import type { Genre } from "@/lib/auth";
 // Erreurs à éviter. (Plus de bloc « Consulter si » dans le Coucher.)
 // ----------------------------------------------------------------------------
 
-const TEXT = "#3A3228";
+export const TEXT = "#3A3228";
 const SUBTITLE = "#8A9E98"; // sous-titre de page (gris Eucalyptus) §9
 const FOCUS_BORDER = "#1F4456"; // filet de l'étape de focus §4
 
 // §5 — couleurs des blocs (Coucher uniquement)
-const C = {
+export const C = {
   cequisepasse: { bg: "#F8E0D8", accent: "#E0A48E", label: "#8A4030" },
   reperes: { bg: "#EDE0D4", accent: "#C89878", label: "#7A5038" },
   signaux: { bg: "#F8DBC8", accent: "#DB936B", label: "#9A4F2A" },
@@ -32,7 +32,7 @@ const C = {
 };
 
 // §4 — rituel pas à pas, camaïeu bleu clair → foncé (jusqu'à 7 crans).
-const RITUEL = [
+export const RITUEL = [
   { bg: "#ECF2F5", accent: "#6E97A6" },
   { bg: "#E0EAEF", accent: "#628D9E" },
   { bg: "#D3E1E8", accent: "#568397" },
@@ -51,7 +51,7 @@ const TEASER_BERCEUSE = "Quelques mots à murmurer pour refermer la journée.";
 //   genre === 'fille'  → 2e forme ; sinon (garçon ou non renseigné) → 1re.
 // [prénom] / [Prénom] → babyName.
 // ----------------------------------------------------------------------------
-function personaliser(
+export function personaliser(
   texte: string | undefined,
   prenom: string,
   genre: Genre | null,
@@ -64,7 +64,7 @@ function personaliser(
 }
 
 // §9 — amorce en gras : coupe sur le premier « : » ou « — ».
-function LigneAvecAmorce({ texte }: { texte: string }) {
+export function LigneAvecAmorce({ texte }: { texte: string }) {
   const m = texte.match(/^(.*?)(\s*[:—])(\s*)([\s\S]*)$/);
   if (!m) return <>{texte}</>;
   return (
@@ -77,14 +77,14 @@ function LigneAvecAmorce({ texte }: { texte: string }) {
   );
 }
 
-const labelStyle: React.CSSProperties = {
+export const labelStyle: React.CSSProperties = {
   fontSize: 9,
   fontWeight: 700,
   textTransform: "uppercase",
   letterSpacing: ".07em",
 };
 
-const encartBase = (accent: string, bg: string): React.CSSProperties => ({
+export const encartBase = (accent: string, bg: string): React.CSSProperties => ({
   background: bg,
   borderLeft: `3px solid ${accent}`,
   borderRadius: "0 12px 12px 0",
@@ -95,7 +95,7 @@ const encartBase = (accent: string, bg: string): React.CSSProperties => ({
 // ----------------------------------------------------------------------------
 // Pictos au trait (§6). Pas d'emoji.
 // ----------------------------------------------------------------------------
-function LineIcon({
+export function LineIcon({
   stroke,
   size = 15,
   children,
@@ -141,13 +141,13 @@ const PictoOndes = () => (
     <path d="M3.5 18c1.4-1.7 2.8-1.7 4.2 0s2.8 1.7 4.2 0 2.8-1.7 4.2 0 2.8 1.7 4.2 0" />
   </LineIcon>
 );
-const PictoHorloge = () => (
+export const PictoHorloge = () => (
   <LineIcon stroke="#4A7990">
     <circle cx="12" cy="12" r="8.5" />
     <path d="M12 7.5V12l3 2" />
   </LineIcon>
 );
-const PictoPied = () => (
+export const PictoPied = () => (
   <LineIcon stroke={C.reflexo.accent}>
     {/* Semelle : coussinet, cambrure (arche), talon. */}
     <path d="M12 9C14.8 9 16.4 10.6 16.4 12.8C16.4 14.1 15.7 14.8 15.5 16C15.3 17.2 15.8 18 15.8 19.2C15.8 21 14.2 22 12 22C9.8 22 8.2 21 8.2 19.2C8.2 18 8.7 17.2 8.5 16C8.3 14.8 7.6 14.1 7.6 12.8C7.6 10.6 9.2 9 12 9Z" />
@@ -159,14 +159,14 @@ const PictoPied = () => (
     <circle cx="16.7" cy="7.9" r=".64" fill={C.reflexo.accent} stroke="none" />
   </LineIcon>
 );
-const PictoNote = () => (
+export const PictoNote = () => (
   <LineIcon stroke={C.berceuse.accent}>
     <path d="M9 17V6l9-2v9" />
     <circle cx="6.8" cy="17.2" r="2.1" />
     <circle cx="15.8" cy="14.4" r="2.1" />
   </LineIcon>
 );
-const PictoDuo = () => (
+export const PictoDuo = () => (
   <LineIcon stroke={C.coparent.accent}>
     <circle cx="8.6" cy="8" r="2.6" />
     <circle cx="16" cy="9" r="2.1" />
@@ -175,7 +175,7 @@ const PictoDuo = () => (
   </LineIcon>
 );
 
-function LuneEtoile() {
+export function LuneEtoile() {
   return (
     <svg
       width={36}
@@ -200,7 +200,7 @@ function LuneEtoile() {
 }
 
 // En-tête de bloc : picto + label en capitales.
-function BlocHeader({
+export function BlocHeader({
   picto,
   label,
   color,
@@ -218,7 +218,7 @@ function BlocHeader({
 }
 
 // Puce de liste.
-function Puce({
+export function Puce({
   accent,
   color,
   children,
@@ -236,7 +236,7 @@ function Puce({
 }
 
 // §2 — bloc déroulant (Réflexologie + Berceuse). Fermé par défaut.
-function Deroulant({
+export function Deroulant({
   theme,
   picto,
   titre,
@@ -312,6 +312,211 @@ function Deroulant({
       </button>
       {open ? <div style={{ marginTop: 11 }}>{children}</div> : null}
     </div>
+  );
+}
+
+// Réflexologie du soir (déroulant) — partagée avec l'écran Sommeil.
+export function ReflexoDuSoir({
+  reflexo,
+  p,
+  themeObj,
+}: {
+  reflexo: NonNullable<CoucherModule["reflexologie_du_coucher"]>;
+  p: (t?: string) => string;
+  themeObj: { id: string; titre: string } | null;
+}) {
+  return (
+    <Deroulant
+      theme={C.reflexo}
+      picto={<PictoPied />}
+      titre={reflexo.titre}
+      teaser={TEASER_REFLEXO}
+      teaserColor="#5E7A48"
+    >
+      {/* §8 — note de consentement en tête */}
+      {reflexo.consentement ? (
+        <div
+          style={{
+            background: "#E8F0DF",
+            border: "1px dashed #82A56A",
+            borderRadius: 9,
+            padding: "9px 11px",
+            fontSize: 10.5,
+            fontStyle: "italic",
+            color: "#3F5C2E",
+            lineHeight: 1.5,
+            marginBottom: 10,
+          }}
+        >
+          {p(reflexo.consentement)}
+        </div>
+      ) : null}
+
+      {/* Focus réflexo piloté par le thème actif (M12+) */}
+      {themeObj && reflexo.focus_par_theme?.[themeObj.id] ? (
+        <div
+          style={{
+            background: "rgba(255,255,255,.55)",
+            borderLeft: `3px solid ${FOCUS_BORDER}`,
+            borderRadius: "0 8px 8px 0",
+            padding: "8px 10px",
+            marginBottom: 10,
+          }}
+        >
+          <div
+            style={{
+              ...labelStyle,
+              fontSize: 8.5,
+              color: FOCUS_BORDER,
+              marginBottom: 3,
+            }}
+          >
+            Focus du soir · {themeObj.titre}
+          </div>
+          <div style={{ fontSize: 11, color: TEXT, lineHeight: 1.5 }}>
+            {p(reflexo.focus_par_theme[themeObj.id])}
+          </div>
+        </div>
+      ) : null}
+
+      {reflexo.duree_totale || reflexo.pression ? (
+        <div style={{ fontSize: 9, color: C.reflexo.accent, fontWeight: 600, marginBottom: 7 }}>
+          {[reflexo.duree_totale, reflexo.pression].filter(Boolean).join(" · ")}
+        </div>
+      ) : null}
+      {reflexo.intro ? (
+        <div style={{ fontSize: 11, color: C.reflexo.label, lineHeight: 1.55, marginBottom: 9 }}>
+          {p(reflexo.intro)}
+        </div>
+      ) : null}
+      {reflexo.lien_reflexologie ? (
+        <Link
+          href={`/reflexologie/${reflexo.lien_reflexologie.id}`}
+          style={{
+            display: "block",
+            textAlign: "center",
+            background: C.reflexo.accent,
+            color: "#FFFFFF",
+            fontSize: 11,
+            fontWeight: 700,
+            borderRadius: 9,
+            padding: "9px 12px",
+            textDecoration: "none",
+            marginBottom: 9,
+          }}
+        >
+          Ouvrir la séquence « {reflexo.lien_reflexologie.titre} »
+        </Link>
+      ) : null}
+      {reflexo.cloture ? (
+        <div style={{ fontSize: 10.5, fontStyle: "italic", color: C.reflexo.label, lineHeight: 1.5, marginBottom: 6 }}>
+          {p(reflexo.cloture)}
+        </div>
+      ) : null}
+      {reflexo.etapes.map((e, i) => (
+        <div
+          key={i}
+          style={{
+            background: "rgba(255,255,255,.5)",
+            borderRadius: 8,
+            padding: "8px 10px",
+            marginBottom: 6,
+          }}
+        >
+          <div style={{ display: "flex", gap: 6, alignItems: "flex-start" }}>
+            <div
+              style={{
+                width: 17,
+                height: 17,
+                borderRadius: "50%",
+                fontSize: 9,
+                fontWeight: 700,
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                flexShrink: 0,
+                marginTop: 1,
+                background: C.reflexo.accent,
+                color: "#FFFFFF",
+              }}
+            >
+              {i + 1}
+            </div>
+            <div style={{ flex: 1 }}>
+              <div style={{ fontSize: 11, fontWeight: 700, color: C.reflexo.label }}>
+                {e.zone}
+                {e.duree ? (
+                  <span style={{ fontWeight: 400, color: C.reflexo.accent }}> · {e.duree}</span>
+                ) : null}
+              </div>
+              <div style={{ fontSize: 11, color: TEXT, lineHeight: 1.5, marginTop: 2 }}>
+                {p(e.geste)}
+              </div>
+              {e.ce_que_cest ? (
+                <div style={{ fontSize: 10, fontStyle: "italic", color: "#6E7B72", marginTop: 2 }}>
+                  {p(e.ce_que_cest)}
+                </div>
+              ) : null}
+            </div>
+          </div>
+        </div>
+      ))}
+    </Deroulant>
+  );
+}
+
+// Berceuse du soir (déroulant) — partagée avec l'écran Sommeil.
+export function BerceuseDuSoir({
+  berceuse,
+  p,
+  themeObj,
+}: {
+  berceuse: NonNullable<CoucherModule["script_audio_du_soir"]>;
+  p: (t?: string) => string;
+  themeObj: { id: string } | null;
+}) {
+  return (
+    <Deroulant
+      theme={C.berceuse}
+      picto={<PictoNote />}
+      titre={berceuse.titre}
+      teaser={TEASER_BERCEUSE}
+      teaserColor="#9A5A48"
+    >
+      {/* §7 — le champ `instruction` n'est PAS rendu (métadonnée d'auteur). */}
+      {p(berceuse.texte)
+        .split(/\n\n+/)
+        .map((strophe, si) => {
+          const passage =
+            themeObj && berceuse.passage_par_theme?.[themeObj.id]
+              ? p(berceuse.passage_par_theme[themeObj.id])
+              : "";
+          const segments = strophe.split("[passage_theme]");
+          return (
+            <p
+              key={si}
+              style={{
+                fontFamily: "var(--font-nunito), system-ui, sans-serif",
+                fontStyle: "italic",
+                fontSize: 12.5,
+                lineHeight: 1.3,
+                // §7 — texte de la berceuse en noir chaud (pas en pêche).
+                color: TEXT,
+                margin: "0 0 6px",
+              }}
+            >
+              {segments.map((seg, gi) => (
+                <React.Fragment key={gi}>
+                  {seg}
+                  {gi < segments.length - 1 ? (
+                    <span style={{ color: "#8A4030" }}>{passage}</span>
+                  ) : null}
+                </React.Fragment>
+              ))}
+            </p>
+          );
+        })}
+    </Deroulant>
   );
 }
 
@@ -581,189 +786,10 @@ export function CoucherView({
       ) : null}
 
       {/* 6. Réflexologie du soir — déroulant */}
-      {reflexo ? (
-        <Deroulant
-          theme={C.reflexo}
-          picto={<PictoPied />}
-          titre={reflexo.titre}
-          teaser={TEASER_REFLEXO}
-          teaserColor="#5E7A48"
-        >
-          {/* §8 — note de consentement en tête */}
-          {reflexo.consentement ? (
-            <div
-              style={{
-                background: "#E8F0DF",
-                border: "1px dashed #82A56A",
-                borderRadius: 9,
-                padding: "9px 11px",
-                fontSize: 10.5,
-                fontStyle: "italic",
-                color: "#3F5C2E",
-                lineHeight: 1.5,
-                marginBottom: 10,
-              }}
-            >
-              {p(reflexo.consentement)}
-            </div>
-          ) : null}
-
-          {/* Focus réflexo piloté par le thème actif (M12+) */}
-          {themeObj && reflexo.focus_par_theme?.[themeObj.id] ? (
-            <div
-              style={{
-                background: "rgba(255,255,255,.55)",
-                borderLeft: `3px solid ${FOCUS_BORDER}`,
-                borderRadius: "0 8px 8px 0",
-                padding: "8px 10px",
-                marginBottom: 10,
-              }}
-            >
-              <div
-                style={{
-                  ...labelStyle,
-                  fontSize: 8.5,
-                  color: FOCUS_BORDER,
-                  marginBottom: 3,
-                }}
-              >
-                Focus du soir · {themeObj.titre}
-              </div>
-              <div style={{ fontSize: 11, color: TEXT, lineHeight: 1.5 }}>
-                {p(reflexo.focus_par_theme[themeObj.id])}
-              </div>
-            </div>
-          ) : null}
-
-          {reflexo.duree_totale || reflexo.pression ? (
-            <div style={{ fontSize: 9, color: C.reflexo.accent, fontWeight: 600, marginBottom: 7 }}>
-              {[reflexo.duree_totale, reflexo.pression].filter(Boolean).join(" · ")}
-            </div>
-          ) : null}
-          {reflexo.intro ? (
-            <div style={{ fontSize: 11, color: C.reflexo.label, lineHeight: 1.55, marginBottom: 9 }}>
-              {p(reflexo.intro)}
-            </div>
-          ) : null}
-          {reflexo.lien_reflexologie ? (
-            <Link
-              href={`/reflexologie/${reflexo.lien_reflexologie.id}`}
-              style={{
-                display: "block",
-                textAlign: "center",
-                background: C.reflexo.accent,
-                color: "#FFFFFF",
-                fontSize: 11,
-                fontWeight: 700,
-                borderRadius: 9,
-                padding: "9px 12px",
-                textDecoration: "none",
-                marginBottom: 9,
-              }}
-            >
-              Ouvrir la séquence « {reflexo.lien_reflexologie.titre} »
-            </Link>
-          ) : null}
-          {reflexo.cloture ? (
-            <div style={{ fontSize: 10.5, fontStyle: "italic", color: C.reflexo.label, lineHeight: 1.5, marginBottom: 6 }}>
-              {p(reflexo.cloture)}
-            </div>
-          ) : null}
-          {reflexo.etapes.map((e, i) => (
-            <div
-              key={i}
-              style={{
-                background: "rgba(255,255,255,.5)",
-                borderRadius: 8,
-                padding: "8px 10px",
-                marginBottom: 6,
-              }}
-            >
-              <div style={{ display: "flex", gap: 6, alignItems: "flex-start" }}>
-                <div
-                  style={{
-                    width: 17,
-                    height: 17,
-                    borderRadius: "50%",
-                    fontSize: 9,
-                    fontWeight: 700,
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    flexShrink: 0,
-                    marginTop: 1,
-                    background: C.reflexo.accent,
-                    color: "#FFFFFF",
-                  }}
-                >
-                  {i + 1}
-                </div>
-                <div style={{ flex: 1 }}>
-                  <div style={{ fontSize: 11, fontWeight: 700, color: C.reflexo.label }}>
-                    {e.zone}
-                    {e.duree ? (
-                      <span style={{ fontWeight: 400, color: C.reflexo.accent }}> · {e.duree}</span>
-                    ) : null}
-                  </div>
-                  <div style={{ fontSize: 11, color: TEXT, lineHeight: 1.5, marginTop: 2 }}>
-                    {p(e.geste)}
-                  </div>
-                  {e.ce_que_cest ? (
-                    <div style={{ fontSize: 10, fontStyle: "italic", color: "#6E7B72", marginTop: 2 }}>
-                      {p(e.ce_que_cest)}
-                    </div>
-                  ) : null}
-                </div>
-              </div>
-            </div>
-          ))}
-        </Deroulant>
-      ) : null}
+      {reflexo ? <ReflexoDuSoir reflexo={reflexo} p={p} themeObj={themeObj} /> : null}
 
       {/* 7. Berceuse-rituel — déroulant, Nunito italique, paragraphes */}
-      {berceuse ? (
-        <Deroulant
-          theme={C.berceuse}
-          picto={<PictoNote />}
-          titre={berceuse.titre}
-          teaser={TEASER_BERCEUSE}
-          teaserColor="#9A5A48"
-        >
-          {/* §7 — le champ `instruction` n'est PAS rendu (métadonnée d'auteur). */}
-          {p(berceuse.texte)
-            .split(/\n\n+/)
-            .map((strophe, si) => {
-              const passage =
-                themeObj && berceuse.passage_par_theme?.[themeObj.id]
-                  ? p(berceuse.passage_par_theme[themeObj.id])
-                  : "";
-              const segments = strophe.split("[passage_theme]");
-              return (
-                <p
-                  key={si}
-                  style={{
-                    fontFamily: "var(--font-nunito), system-ui, sans-serif",
-                    fontStyle: "italic",
-                    fontSize: 12.5,
-                    lineHeight: 1.3,
-                    // §7 — texte de la berceuse en noir chaud (pas en pêche).
-                    color: TEXT,
-                    margin: "0 0 6px",
-                  }}
-                >
-                  {segments.map((seg, gi) => (
-                    <React.Fragment key={gi}>
-                      {seg}
-                      {gi < segments.length - 1 ? (
-                        <span style={{ color: "#8A4030" }}>{passage}</span>
-                      ) : null}
-                    </React.Fragment>
-                  ))}
-                </p>
-              );
-            })}
-        </Deroulant>
-      ) : null}
+      {berceuse ? <BerceuseDuSoir berceuse={berceuse} p={p} themeObj={themeObj} /> : null}
 
       {/* 8. La place du co-parent (amorce en gras) */}
       {coucher.co_parent ? (
