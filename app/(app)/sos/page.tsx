@@ -48,7 +48,7 @@ export default async function SosPage() {
             fontWeight: 600,
           }}
         >
-          Repères officiels · {tranche.label}
+          {tranche.label}
         </div>
       </div>
 
