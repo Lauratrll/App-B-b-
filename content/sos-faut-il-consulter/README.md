@@ -12,7 +12,7 @@ Bouton SOS qui remplace l'onglet « Partager & rassurer ». Repères officiels p
 3. **Pas de placeholders** `{prenom}` / `{genre}` dans cette rubrique.
 4. **Source affichée** sous chaque bloc (une ligne discrète, champ `source`).
 5. **Aucun contenu Réflexologie** dans le SOS.
-6. **Bandeau des numéros en haut de la page d'ouverture seulement** (🔁 19/10/2026, Laura : retiré des pages de chaque maladie), sans ligne source : 15 (SAMU) et 112 (numéro d'urgence européen) en premier, cliquables en `tel:` ; le 114 à part, sous « Cas particulier », cliquable en `sms:114`.
+6. **Bandeau des numéros sur la page d'ouverture seulement, sous les slots des maladies** (🔁 19/10/2026, Laura : retiré des pages de chaque maladie, puis placé sous les slots et non plus au-dessus), sans ligne source : 15 (SAMU) et 112 (numéro d'urgence européen) en premier, cliquables en `tel:` ; le 114 à part, sous « Cas particulier », cliquable en `sms:114`.
    ⚠ 19/10/2026 : la structure de `bandeau` dans `sos.json` a changé (`titre`, `numeros[]` avec `numero`/`nom`/`precision`, `cas_particulier`). Adapter le composant du bandeau.
 7. Accessible en un clic depuis toutes les pages (usage d'une main, la nuit).
 8. **Deux niveaux d'action seulement** (tranché le 19/10/2026), titres fixes :
@@ -20,7 +20,7 @@ Bouton SOS qui remplace l'onglet « Partager & rassurer ». Repères officiels p
    - `urgence` → « Consultez en urgence si : » (sous-titre : « Appelez le 15 (SAMU) : un professionnel vous oriente, vers les urgences si besoin. »)
    Légende dans `sos.json` > `niveaux` (titre + sous_titre) : à afficher sur chaque écran. Le champ `definition` du bloc solution de réhydratation orale a été supprimé.
 9. **Vomissements et Diarrhée séparés** (tranché le 19/10/2026) : le thème `diarrhee-vomissements` est remplacé par deux thèmes, `vomissements` et `diarrhee`, chacun lisible seul (répétitions assumées : déshydratation, solution de réhydratation orale, signes). Adapter les icônes de `components/modules/sos-design.tsx` (clé `diarrhee-vomissements` à remplacer).
-10. **Ordre des blocs dans chaque thème** (tranché le 19/10/2026) : 1. Consultez en urgence → (signes de déshydratation juste dessous, pour vomissements et diarrhée) → 2. Consultez rapidement → 3. C'est quoi ? → 4. Que faire ?. Ne jamais réordonner : le parent doit d'abord savoir s'il doit se précipiter.
+10. **Ordre des blocs dans chaque thème** (tranché le 19/10/2026, révisé le même jour) : 1. Consultez en urgence → 2. Consultez rapidement → 3. Les signes de déshydratation (vomissements et diarrhée) → 4. C'est quoi ? → 5. Que faire ?. Ne jamais réordonner.
 11. **Accueil SOS** : afficher en bas de la page qui liste les thèmes (🔁 19/10, au style de la mention de protection de Guide-moi) le message `accueil.message` de `sos.json` (« En cas de doute, appelez le 15. »), avec le 15 cliquable en `tel:`.
 12. **Champ `note`** (bloc « Une cause possible : la bronchiolite ») : phrase de l'app, à afficher en italique en tête du bloc, avant les citations. Elle évite l'auto-diagnostic.
 13. **Thème `choc-tete` « Choc à la tête »** (ajouté le 19/10/2026, M0 à M23) : source fiche ARS Normandie (d'après le carnet de santé). Citations à la 1re personne (« je »), garder telles quelles. Prévoir une icône dans `components/modules/sos-design.tsx`. Pas de consigne « glace » ni « ne pas déplacer » : absentes des sources officielles.

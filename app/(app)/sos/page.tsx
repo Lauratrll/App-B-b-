@@ -26,8 +26,6 @@ export default async function SosPage() {
 
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
-      <SosBandeau complet />
-
       <div style={{ textAlign: "center", padding: "4px 0 20px" }}>
         <h1
           style={{
@@ -144,6 +142,11 @@ export default async function SosPage() {
             </Link>
           );
         })}
+      </div>
+
+      {/* Numéros d'urgence sous les slots (choix Laura, 19/10) */}
+      <div style={{ marginTop: 22 }}>
+        <SosBandeau complet />
       </div>
 
       {/* Phrase de protection, en bas comme sur Guide-moi */}
