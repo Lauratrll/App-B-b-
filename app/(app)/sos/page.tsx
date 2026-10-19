@@ -28,21 +28,7 @@ export default async function SosPage() {
     <div style={{ display: "flex", flexDirection: "column" }}>
       <SosBandeau complet />
 
-      <SosAccueil />
-
       <div style={{ textAlign: "center", padding: "4px 0 20px" }}>
-        <div
-          style={{
-            fontSize: 10,
-            color: SOS_SANGUINE.label,
-            letterSpacing: ".1em",
-            textTransform: "uppercase",
-            fontWeight: 700,
-            margin: "0 0 6px",
-          }}
-        >
-          S.O.S
-        </div>
         <h1
           style={{
             fontFamily: PLAYFAIR,
@@ -159,6 +145,9 @@ export default async function SosPage() {
           );
         })}
       </div>
+
+      {/* Phrase de protection, en bas comme sur Guide-moi */}
+      <SosAccueil />
     </div>
   );
 }

@@ -221,33 +221,35 @@ export function SosBandeau({ complet }: { complet?: boolean }) {
   );
 }
 
-// Message d'accueil de la page 1 (README §11) : le « 15 » est cliquable.
+// Phrase de protection en bas de la page 1, à l'image de la mention préventive
+// de Guide-moi (choix Laura, 19/10) : petite, centrée, italique, gris doux.
+// Le « 15 » reste cliquable.
 export function SosAccueil() {
   const message = SOS.accueil?.message;
   if (!message) return null;
   const morceaux = message.split(/(\b15\b)/);
   return (
-    <p
+    <div
       style={{
+        padding: "26px 4px 8px",
+        fontSize: 9,
+        color: SOS_MUTED,
+        lineHeight: 1.4,
         textAlign: "center",
-        fontFamily: "var(--font-playfair), Georgia, serif",
-        fontWeight: 600,
-        fontSize: 16,
-        color: CORAIL_FONCE,
-        margin: "0 0 16px",
-        lineHeight: 1.3,
+        fontStyle: "italic",
+        marginBottom: "auto",
       }}
     >
       {morceaux.map((m, i) =>
         m === "15" ? (
-          <a key={i} href="tel:15" style={{ color: CORAIL_FONCE, textDecoration: "underline" }}>
+          <a key={i} href="tel:15" style={{ color: SOS_MUTED, textDecoration: "underline" }}>
             15
           </a>
         ) : (
           <React.Fragment key={i}>{m}</React.Fragment>
         ),
       )}
-    </p>
+    </div>
   );
 }
 
