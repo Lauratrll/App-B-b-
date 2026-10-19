@@ -24,7 +24,19 @@ export default async function SosPage() {
   const tranche = trancheSos(mois);
 
   return (
-    <div style={{ display: "flex", flexDirection: "column" }}>
+    // Contenu centré verticalement entre l'en-tête et la barre du bas, même
+    // marge en haut et en bas (choix Laura, 19/10). 136 px = en-tête 45 +
+    // barre du bas 51 + marges du <main> 40 (app/(app)/layout.tsx).
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        minHeight: "calc(100dvh - 136px)",
+        // Le <main> a 24 px en haut et 16 px en bas : 8 px ici égalisent.
+        paddingBottom: 8,
+      }}
+    >
       <div style={{ textAlign: "center", padding: "0 0 14px" }}>
         <h1
           style={{
@@ -143,7 +155,7 @@ export default async function SosPage() {
       </div>
 
       {/* Numéros d'urgence sous les slots (choix Laura, 19/10) */}
-      <div style={{ marginTop: 30 }}>
+      <div style={{ marginTop: 40 }}>
         <SosBandeau complet />
       </div>
 

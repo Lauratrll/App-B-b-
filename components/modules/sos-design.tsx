@@ -254,7 +254,6 @@ export function SosAccueil() {
         lineHeight: 1.4,
         textAlign: "center",
         fontStyle: "italic",
-        marginBottom: "auto",
       }}
     >
       {origine ? <div style={{ fontStyle: "normal", fontWeight: 600 }}>{origine}</div> : null}
