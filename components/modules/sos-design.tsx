@@ -114,7 +114,6 @@ export const TON_NIVEAU: Record<SosNiveau, SosTon> = {
 // pastilles blanches, chiffres et textes corail foncé.
 const CORAIL_CLAIR = "#F5D0C8";
 const CORAIL_FONCE = "#8A3020";
-const CORAIL_TEXTE = "#7A3E2E";
 
 // Bandeau sans ligne source (README §6) : 15 et 112 en appel, 114 à part en
 // SMS sous « Cas particulier ». Version complète en page 1, compacte ensuite.
