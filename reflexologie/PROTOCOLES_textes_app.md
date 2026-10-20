@@ -326,7 +326,7 @@ En voiture ou en train, **le système de l'équilibre de bébé est encore immat
 
 ---
 
-## Sommeil agité · M0-M23
+## Sommeil paisible · M0-M23
 
 _Sous-titre (liste) : Accompagner l'endormissement et le retour au calme, au creux du soir._
 
