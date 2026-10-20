@@ -238,13 +238,12 @@ export function SosBandeau({ complet }: { complet?: boolean }) {
   );
 }
 
-// Phrase de protection en bas de la page 1, précédée de « Repères officiels »
-// (README §11), à l'image de la mention préventive
-// de Guide-moi (choix Laura, 19/10) : petite, centrée, italique, gris doux.
+// Phrase de protection en bas de la page 1 (README §11), à l'image de la mention
+// préventive de Guide-moi (choix Laura, 19/10) : petite, centrée, italique, gris doux.
 // Le « 15 » reste cliquable.
+// « Repères officiels » n'y figure plus : il est déjà en sous-titre (Laura, 20/10).
 export function SosAccueil() {
   const message = SOS.accueil?.message;
-  const origine = SOS.accueil?.origine;
   if (!message) return null;
   const morceaux = message.split(/(\b15\b)/);
   return (
@@ -258,7 +257,6 @@ export function SosAccueil() {
         fontStyle: "italic",
       }}
     >
-      {origine ? <div style={{ fontStyle: "normal", fontWeight: 600 }}>{origine}</div> : null}
       {morceaux.map((m, i) =>
         m === "15" ? (
           <a key={i} href="tel:15" style={{ color: SOS_MUTED, textDecoration: "underline" }}>
