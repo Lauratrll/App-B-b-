@@ -397,6 +397,9 @@ Historique : 🔁 28/08 « seuls les critères de dépistage » → 🔁 08/09 p
 
 # 10. Design, UI, code
 
+- ✅ (20/10) **Sommeil : moins de déroulants** (Laura). Tous les volets des parties sont **ouverts**, sans chevron ni fermeture, et sans phrase d'aperçu. Dans « Toujours accessible », **seul « La sécurité » reste repliable** ; les autres blocs sont ouverts. Code : `components/modules/sommeil-view.tsx`. 🔁 remplace « volets repliés » du 19/10 (§3).
+- ✅ (20/10) **Fiche Guide-moi à mise en page libre** : un protocole peut porter `sections` (titre libre + thème de couleur : intro, info, action, geste, parent, cadre), affichées dans l'ordre du JSON à la place des rubriques fixes. Première utilisation : « L'épuisement après la tétée » (Parents submergés, M0-M3). Code : `components/modules/protocole-view.tsx`, type `SectionLibre` dans `lib/content.ts`.
+
 - ✅ (20/10, fin) **Retour avec son mot** (Laura) : « ‹ Guide-moi ! », « ‹ Alimentation »… dans une pastille blanche qui englobe le texte, typo du sous-titre « Dans quelles situations ? ». **Épinglés : entrée seulement sur l'accueil.** Ailleurs, à droite : rien, ou « épingler » (épingle +) là où l'on a décidé qu'on peut épingler, **dont les fiches de Réflexologie plantaire** (rendues épinglables : une ligne `content` par fiche, `scripts/import-reflexo-plantaire.mjs`).
 
 - ✅ (20/10, suite) **Barre du bas selon l'écran** (Laura) : cohérence cardiaque et SOS sont des portes d'entrée de rubrique, **ils ne s'affichent que sur l'accueil**. Partout ailleurs, leurs places reçoivent le **Retour** (la flèche « ‹ Guide-moi ! », « ‹ Alimentation »… retirée du haut des pages) et le bouton **Épingler** (épingle + plus), à côté des Épinglés. Plus aucun bouton en haut des pages. **Bandeau du haut supprimé** et « Bonjour » retiré : le prénom et l'âge ne s'écrivent qu'une fois, sur l'accueil, avec le picto « 3 traits » calé à droite sur la même ligne.

@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import type { ProtocoleGuide } from "@/lib/content";
+import type { ProtocoleGuide, SectionLibre } from "@/lib/content";
 import { GUIDE_MUTED, parseSituation } from "@/components/modules/guide-design";
 
 // ----------------------------------------------------------------------------
@@ -217,6 +217,80 @@ function EncartEtapes({
   );
 }
 
+// Cartes à mise en page libre : sections dans l'ordre du JSON, titres du JSON.
+const THEMES_LIBRES: Record<
+  SectionLibre["theme"],
+  { bg: string; accent: string; label: string }
+> = {
+  intro: C.pourtoiparent,
+  info: C.cequisepasse,
+  action: C.actionimm,
+  geste: C.gestedoux,
+  parent: C.pourtoiparent,
+  cadre: C.cadre,
+};
+
+function SectionsLibres({ sections }: { sections: SectionLibre[] }) {
+  return (
+    <>
+      {sections.map((sec, i) => {
+        const t = THEMES_LIBRES[sec.theme];
+        const cadre = sec.theme === "cadre";
+        return (
+          <div
+            key={i}
+            style={{
+              background: t.bg,
+              ...(cadre
+                ? { border: `1px solid ${t.accent}`, borderRadius: 10 }
+                : {
+                    borderLeft: `3px solid ${t.accent}`,
+                    borderRadius: "0 12px 12px 0",
+                  }),
+              padding: "11px 13px",
+              marginBottom: 8,
+            }}
+          >
+            {sec.titre ? <div style={labelStyle(t.label)}>{sec.titre}</div> : null}
+            {sec.contenu.map((bloc, j) =>
+              Array.isArray(bloc) ? (
+                <ul
+                  key={j}
+                  style={{
+                    margin: "0 0 6px",
+                    paddingLeft: 16,
+                    fontSize: 11,
+                    color: C.text,
+                    lineHeight: 1.55,
+                  }}
+                >
+                  {bloc.map((li, k) => (
+                    <li key={k} style={{ marginBottom: 3 }}>
+                      <Ital texte={li} />
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <div
+                  key={j}
+                  style={{
+                    fontSize: 11,
+                    color: cadre ? C.cadre.textBody : C.text,
+                    lineHeight: 1.55,
+                    marginBottom: 6,
+                  }}
+                >
+                  <Ital texte={bloc} />
+                </div>
+              ),
+            )}
+          </div>
+        );
+      })}
+    </>
+  );
+}
+
 export function ProtocoleView({ protocole }: { protocole: ProtocoleGuide }) {
   const p = protocole;
   return (
@@ -251,6 +325,10 @@ export function ProtocoleView({ protocole }: { protocole: ProtocoleGuide }) {
         {p.titre}
       </h1>
 
+      {p.sections ? (
+        <SectionsLibres sections={p.sections} />
+      ) : (
+        <>
       {/* 1. Ce qui se passe */}
       <EncartSimple
         label="Ce qui se passe"
@@ -393,6 +471,9 @@ export function ProtocoleView({ protocole }: { protocole: ProtocoleGuide }) {
           {p.consulter_si}
         </div>
       </div>
+
+        </>
+      )}
 
       {/* 9. Source — ligne discrete, optionnelle, hors encart */}
       {p.source && (

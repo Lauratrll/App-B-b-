@@ -65,41 +65,7 @@ function Inline({ texte }: { texte: string }) {
   );
 }
 
-// Découpe un paragraphe en phrases, sans couper à l'intérieur d'un **gras**
-// ni d'une citation « … ».
-function phrases(texte: string): string[] {
-  const out: string[] = [];
-  let debut = 0;
-  let gras = false;
-  let citation = 0;
-  for (let i = 0; i < texte.length; i++) {
-    if (texte.startsWith("**", i)) {
-      gras = !gras;
-      i++;
-      continue;
-    }
-    if (texte[i] === "«") citation++;
-    if (texte[i] === "»") citation = Math.max(0, citation - 1);
-    if (!gras && citation === 0 && /[.!?…»]/.test(texte[i]) && texte[i + 1] === " " && (texte[i] !== "»" || /[.!?…]/.test(texte[i - 2] ?? ""))) {
-      out.push(texte.slice(debut, i + 1).trim());
-      debut = i + 2;
-    }
-  }
-  if (debut < texte.length) out.push(texte.slice(debut).trim());
-  return out;
-}
-
-// La phrase visible d'emblée : la première phrase du volet qui porte du gras.
-function premierGras(volet: SommeilVolet): string | null {
-  for (const b of volet.blocs) {
-    const textes = b.type === "liste" ? b.items : [b.texte];
-    for (const t of textes) {
-      const phrase = phrases(t).find((ph) => ph.includes("**"));
-      if (phrase) return phrase;
-    }
-  }
-  return null;
-}
+// (20/10) Plus de phrase d'aperçu sous les titres : les volets sont tous ouverts.
 
 // Volet « sélecteur » : une citation (la question) suivie d'une liste de choix
 // « **Titre, angle** : texte » (M20 : Le moment à son image).
@@ -280,9 +246,10 @@ function Volet({
   numero?: number;
   selecteur?: { choix: string | null; setChoix: (id: string) => void };
 }) {
-  const [open, setOpen] = useState(false);
+  // 20/10 (Laura) : tous les volets sont ouverts, sans déroulé ni fermeture.
+  const open = true;
   const sel = estSelecteur(volet) && selecteur;
-  const apercu = sel ? null : premierGras(volet);
+  const apercu: string | null = null;
   const titre = volet.titre ? p(volet.titre).replace(/^\d+\.\s*/, "") : null;
 
   // Volet sans titre (texte d'introduction) : toujours ouvert.
@@ -296,18 +263,13 @@ function Volet({
 
   return (
     <div style={encartBase(theme.accent, theme.bg)}>
-      <button
-        type="button"
-        onClick={() => setOpen((o) => !o)}
-        aria-expanded={open}
+      <div
         style={{
-          all: "unset",
           boxSizing: "border-box",
           display: "flex",
           width: "100%",
           gap: 9,
           alignItems: "flex-start",
-          cursor: "pointer",
         }}
       >
         {numero ? (
@@ -350,8 +312,7 @@ function Volet({
             </span>
           ) : null}
         </span>
-        <Chevron open={open} accent={theme.accent} />
-      </button>
+      </div>
       {open ? (
         <div style={{ marginTop: 9 }}>
           {sel ? (
@@ -532,7 +493,10 @@ function BlocToujours({
   p: (t?: string) => string;
   theme: { bg: string; accent: string; label: string };
 }) {
-  const [open, setOpen] = useState(false);
+  // 20/10 (Laura) : seul le bloc « La sécurité » reste repliable ; les autres sont ouverts.
+  const repliable = /s[ée]curit[ée]/i.test(section.titre ?? "");
+  const [ouvertManuel, setOpen] = useState(false);
+  const open = repliable ? ouvertManuel : true;
   return (
     <div
       style={{
@@ -545,8 +509,9 @@ function BlocToujours({
     >
       <button
         type="button"
-        onClick={() => setOpen((o) => !o)}
-        aria-expanded={open}
+        onClick={repliable ? () => setOpen((o) => !o) : undefined}
+        aria-expanded={repliable ? open : undefined}
+        disabled={!repliable}
         style={{
           all: "unset",
           boxSizing: "border-box",
@@ -554,13 +519,13 @@ function BlocToujours({
           width: "100%",
           gap: 9,
           alignItems: "center",
-          cursor: "pointer",
+          cursor: repliable ? "pointer" : "default",
         }}
       >
         <span style={{ flex: 1, ...labelStyle, fontSize: 10, color: theme.label }}>
           {p(section.titre)}
         </span>
-        <Chevron open={open} accent={theme.accent} />
+        {repliable ? <Chevron open={open} accent={theme.accent} /> : null}
       </button>
       {open ? (
         <div style={{ marginTop: 9 }}>
