@@ -413,6 +413,8 @@ Historique : 🔁 28/08 « seuls les critères de dépistage » → 🔁 08/09 p
 
 # 11. Chantiers décidés, pas encore faits
 
+- **Gestes d'apaisement épinglables** (20/10, Laura) : quand la rubrique *Gestes d'apaisement* (boîte à outils, `/apaisement`) sera construite, ses outils pourront s'épingler. Il faudra alors : un module épinglable et son quota dans `lib/pinned.ts` (`PIN_QUOTAS`, `PINNABLE_MODULES`), des lignes `content` pour chaque outil, `<NavPin />` sur la page de l'outil, et une section dans `/epingles`.
+
 - Prévention du bébé secoué dans la rubrique sommeil de M0 à M11 (P0) ; faite à M3 et M9.
 - Bloc commun « La sécurité » (06/10) : **pas de partie lit / sommier / cordons** (pas notre rôle, lits à barreaux ou au sol) ; une seule phrase `[M6-M11]` : « Avant qu'il se hisse : si son lit a des barreaux, pense à baisser le sommier. » Plusieurs tétines dans le lit : **à partir de M12**. Dents : « quelques jours autour de la sortie », « tous les réveils ne sont pas dus aux dents » (Macknin 2000) ; pas de « 3 nuits ». Repères d'usage gardés sans source : nuque chaude et moite, nuits agitées après un vaccin.
 - Guide-moi Sommeil : créer ou enrichir les situations sorties de la rubrique (tétine perdue, terreurs nocturnes, dents, nez bouché, reflux, oreilles, respiration).
