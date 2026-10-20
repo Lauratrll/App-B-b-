@@ -1,9 +1,10 @@
-import Link from "next/link";
 import { Suspense } from "react";
 import { getApercu, getCurrentProfile, requireUser } from "@/lib/auth";
 import { getBabyMonth } from "@/lib/utils";
 import { PinToast } from "@/components/modules/pin-toast";
 import { ApercuAdminBar } from "@/components/modules/apercu-admin-bar";
+import { AppMenu } from "@/components/ui/app-menu";
+import { BottomNav } from "@/components/ui/bottom-nav";
 
 export default async function AppLayout({
   children,
@@ -20,8 +21,11 @@ export default async function AppLayout({
       <Suspense fallback={null}>
         <PinToast />
       </Suspense>
-      <header className="flex items-center justify-between border-b border-neutral-200 px-5 py-3">
-        <div className="text-sm">
+      {/* En-tête : menu « 3 traits » (réglages) à gauche, bébé au centre.
+          Hauteur 45 px, reprise par la page SOS. */}
+      <header className="grid h-[45px] grid-cols-[44px_1fr_44px] items-center border-b border-neutral-200 px-3">
+        <AppMenu />
+        <div className="text-center text-sm">
           {profile ? (
             <>
               <span className="font-medium text-neutral-900">
@@ -33,14 +37,7 @@ export default async function AppLayout({
             <span className="text-neutral-500">Bienvenue</span>
           )}
         </div>
-        <form action="/auth/signout" method="post">
-          <button
-            type="submit"
-            className="text-xs text-neutral-500 underline underline-offset-2"
-          >
-            Se déconnecter
-          </button>
-        </form>
+        <span aria-hidden />
       </header>
       {apercu && profile && babyMonth !== null ? (
         <ApercuAdminBar
@@ -50,30 +47,10 @@ export default async function AppLayout({
         />
       ) : null}
 
-      <main className="flex-1 px-5 pt-6 pb-4">{children}</main>
+      {/* pb-8 : le tiers des boutons ronds qui dépasse au-dessus de la barre. */}
+      <main className="flex-1 px-5 pt-6 pb-8">{children}</main>
 
-      <nav className="sticky bottom-0 grid grid-cols-5 border-t border-neutral-200 bg-white text-[10px]">
-        <Link href="/dashboard" className="flex flex-col items-center gap-1 py-2">
-          <span aria-hidden>🏠</span>
-          <span>Accueil</span>
-        </Link>
-        <Link href="/guide" className="flex flex-col items-center gap-1 py-2">
-          <span aria-hidden>🧭</span>
-          <span>Guide-moi</span>
-        </Link>
-        <Link href="/epingles" className="flex flex-col items-center gap-1 py-2">
-          <span aria-hidden>📌</span>
-          <span>Épinglés</span>
-        </Link>
-        <Link href="/soin" className="flex flex-col items-center gap-1 py-2">
-          <span aria-hidden>🌸</span>
-          <span>Moi</span>
-        </Link>
-        <Link href="/profil" className="flex flex-col items-center gap-1 py-2">
-          <span aria-hidden>👶</span>
-          <span>Bébé</span>
-        </Link>
-      </nav>
+      <BottomNav />
     </div>
   );
 }

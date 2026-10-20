@@ -55,6 +55,11 @@ Format cible    : Mobile-first, max-width 390px
     /coucher        → Module Préparer le coucher
     /sos            → Module S.O.S Dois-je consulter ? (remplace /audio le 08/10/2026)
     /jeux           → Module Jeux \& stimulation
+    /apaisement     → Gestes d'apaisement, boîte à outils (20/10/2026, à construire)
+    /coherence      → Cohérence cardiaque, bouton rond de la barre du bas (20/10/2026, à créer)
+    /compte         → Mes informations (menu des réglages « 3 traits »)
+    /contact        → Nous contacter (à remplir)
+    /mentions-legales → Mentions légales (à remplir)
     /profil         → Profil bébé
     /epingles       → Protocoles épinglés
     /abonnement     → Gestion abonnement Stripe
@@ -276,6 +281,8 @@ Les autres modules (Soin, Saison, Coucher, Audio, Jeux) n'ont pas été audités
 ## 🔗 Ressources
 
 * Skills éditoriaux : `/skills/SKILL\_protocole.md`, `/skills/SKILL\_contenu.md`
+* **Registre des décisions : `/skills/DECISIONS.md`** (source unique des décisions de Laura)
+* ⭐ **Règle de tenue des fichiers (17/10/2026)** : on travaille sur l'ordinateur, sur le fichier qui est lu, **sans créer de versions** (pas de `_v2`, pas d'addendum). Chaque décision de Laura est inscrite dans `skills/DECISIONS.md` ET reportée dans le skill concerné **dans le même geste**, avant de passer à la suite. Sauvegarde avant modification dans `_sauvegardes/AAAA-MM-JJ/`. La copie du projet Claude (`claude/DECISIONS.md`, `claude/SKILL_*.md`) est écrasée par celle de l'ordinateur, jamais l'inverse.
 * Skills techniques : `/skills/SKILL\_bdd.md`, `/skills/SKILL\_ui.md`
 * Contenu JSON : `/content/mois-00/` à `/content/mois-23/` (les 24 mois existent)
 * **Tableau maître des situations : `GUIDE2_situations.xlsx`** — une ligne = une situation = un protocole

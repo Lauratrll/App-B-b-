@@ -401,20 +401,19 @@ Chaque case module a un fond coloré + un pattern SVG illustré en arrière-plan
 </button>
 ```
 
-### Navigation principale (5 onglets)
+### Navigation principale (4 entrées — validé le 20/10/2026)
 
-```tsx
-<nav style={{
-  background: '#F2EDE8',
-  borderTop: '0.5px solid #C8D8DC',
-  display: 'flex', justifyContent: 'space-around',
-  padding: '9px 0 5px'
-}}>
-  {/* Icônes SVG outline — jamais d'emoji dans la nav */}
-  {/* Couleur inactive : #8A9E98 (Eucalyptus) */}
-  {/* Couleur active : #D4604A (Coral) */}
-</nav>
-```
+Code : `components/ui/bottom-nav.tsx`. Ordre : **Accueil · Cohérence cardiaque · SOS · Épinglés**.
+
+- **Accueil** et **Épinglés** : picto seul, sans mot (libellé en `aria-label`), dans une pastille ronde de 40 px. Même trait que les pictos des cases Guide-moi (grille 24, trait 1,6, bouts arrondis). Inactif Eucalyptus `#8A9E98` sur pastille blanche translucide ; actif Corail `#D4604A` sur pastille `#F5D0C8`.
+- **Cohérence cardiaque** (2e position) et **SOS** (3e, au centre) : **boutons ronds de 54 px, 2/3 sur la barre, 1/3 au-dessus, sur le fond de la page**. Visibles, pas principaux.
+  - Cohérence : fond `#F5D0C8`, bord `#E0A48E`, picto cœur traversé d'une onde douce `#8A3020` → `/coherence` (contenu à créer).
+  - SOS : fond orange S.O.S `#FAD2B3`, bord `#EDA36E`, mot « SOS » en Playfair `#A4471F` → `/sos`.
+- Barre : fond `#F2EDE8`, filet haut `0.5px #C8D8DC`, hauteur 56 px + encoche iPhone.
+
+### En-tête et menu des réglages (validé le 20/10/2026)
+
+Code : `components/ui/app-menu.tsx`. Picto **« 3 traits » en haut à gauche** de l'en-tête = les réglages. Panneau qui glisse depuis la gauche : **Mon bébé** (`/profil`) · **Mes informations** (`/compte`) · **Mon abonnement** (`/abonnement`) ; sous un filet, en plus petit : **Nous contacter** (`/contact`) et **Mentions légales** (`/mentions-legales`), pages vides placées pour ne pas les oublier ; « Se déconnecter » en bas. Le prénom et le mois du bébé restent au centre de l'en-tête (hauteur 45 px).
 
 ### Badge / tag
 
@@ -461,8 +460,18 @@ Grille 6 modules (2 colonnes — cases illustrées avec pattern SVG)
 ↓
 Card "Épinglé récemment" (Cream + bordure Coral à gauche)
 ↓
-Navigation fixe (5 onglets — icônes SVG outline)
+Navigation fixe (4 entrées, dont 2 boutons ronds — voir ci-dessus)
 ```
+
+**Ordre de la grille (20/10/2026)**, ligne par ligne :
+
+| Gauche | Droite |
+|---|---|
+| Préparer le coucher (nom à changer) | Guide-moi ! |
+| Gestes d'apaisement — *Boîte à outils* (`/apaisement`, à construire, fond `#E5EBDD`) | Prendre soin de moi |
+| Réflexologie plantaire | Vivre la saison |
+
+S.O.S n'est plus une case de l'accueil : son entrée est le bouton rond de la barre du bas.
 
 ---
 

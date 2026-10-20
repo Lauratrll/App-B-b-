@@ -2,14 +2,21 @@ import Link from "next/link";
 import { requireProfile } from "@/lib/auth";
 import { getBabyMonth, getSeason } from "@/lib/utils";
 
-// Couleurs conformes au SKILL_ui.md (section "Cases modules — validé")
+// Couleurs conformes au SKILL_ui.md (section "Cases modules — validé").
+// Ordre de la grille arrêté par Laura le 20/10/2026, ligne par ligne :
+//   Préparer le coucher · Guide-moi !
+//   Gestes d'apaisement · Prendre soin de moi
+//   Réflexologie plantaire · Vivre la saison
+// S.O.S n'est plus une case : il a son bouton rond dans la barre du bas.
 const MODULES = [
-  { href: "/guide", title: "Guide-moi !", subtitle: "Protocoles", bg: "#EDE0D4" },
   { href: "/coucher", title: "Préparer le coucher", subtitle: "Rituel du soir", bg: "#E4EEF0" },
+  { href: "/guide", title: "Guide-moi !", subtitle: "Protocoles", bg: "#EDE0D4" },
+  // Boîte à outils, contenu à construire (20/10). Sauge poudrée, entre le bleu
+  // du coucher et le rose de « Prendre soin de moi ».
+  { href: "/apaisement", title: "Gestes d'apaisement", subtitle: "Boîte à outils", bg: "#E5EBDD" },
   { href: "/soin", title: "Prendre soin de moi", subtitle: "Gestes parentaux", bg: "#F5E4DE" },
-  { href: "/saison", title: "Vivre la saison", subtitle: "Adapté au mois", bg: "#DCE8E4" },
-  { href: "/sos", title: "S.O.S Dois-je consulter ?", subtitle: "Repères officiels", bg: "#FFE3CD" },
   { href: "/reflexologie", title: "Réflexologie plantaire", subtitle: "Apaiser bébé", bg: "#EDE4D4" },
+  { href: "/saison", title: "Vivre la saison", subtitle: "Adapté au mois", bg: "#DCE8E4" },
 ] as const;
 
 const SEASON_LABELS: Record<string, string> = {
