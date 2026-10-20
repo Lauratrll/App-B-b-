@@ -22,8 +22,9 @@
 //   node scripts/import-guide-parent.mjs --dry        → simulation, 24 mois
 //   node scripts/import-guide-parent.mjs              → écrit les 24 mois
 //   node scripts/import-guide-parent.mjs 15           → un seul mois
-//   node scripts/import-guide-parent.mjs 3 --ajouter  → ajoute seulement les
-//      protocoles absents de la base, sans rien supprimer (garde les épingles)
+//   node scripts/import-guide-parent.mjs 3 --ajouter  → ajoute les protocoles
+//      absents et met à jour EN PLACE ceux qui ont changé, sans rien supprimer
+//      (les fiches gardent leur id, donc leurs épingles)
 // ===========================================================================
 
 import { config } from "dotenv";
@@ -54,6 +55,16 @@ const supabase = createClient(SUPABASE_URL, SERVICE_ROLE_KEY, {
 });
 
 const CATEGORIE = "parent";
+
+// Compare deux contenus sans tenir compte de l'ordre des champs (la base
+// JSONB ne le garde pas).
+const trier = (o) =>
+  Array.isArray(o)
+    ? o.map(trier)
+    : o && typeof o === "object"
+      ? Object.fromEntries(Object.keys(o).sort().map((k) => [k, trier(o[k])]))
+      : o;
+const memeTexte = (a, b) => JSON.stringify(trier(a)) === JSON.stringify(trier(b));
 
 /** Le fichier « Parents submergés » du mois, quel que soit son rang N. */
 function fichierParent(mois) {
@@ -126,14 +137,30 @@ async function importMois(mois) {
         ordre: ordreParent + 1 + i,
         data: { ...p, categorie: CATEGORIE },
       }));
+    // Fiches déjà en base dont le texte a changé : mises à jour EN PLACE
+    // (UPDATE par id), jamais supprimées.
+    const parSituation = new Map(dejaParent.map((r) => [r.data?.situation, r]));
+    const modifiees = json.protocoles
+      .map((p) => ({ p, r: parSituation.get(p.situation) }))
+      .filter(({ p, r }) => r && memeTexte(r.data, { ...p, categorie: CATEGORIE }) === false);
     console.log(
-      `M${String(mois).padStart(2, "0")} : ${nouvelles.length} protocole(s) à ajouter` +
-        nouvelles.map((l) => `\n   + ordre ${l.ordre} : ${l.situation}`).join(""),
+      `M${String(mois).padStart(2, "0")} : ${nouvelles.length} à ajouter, ${modifiees.length} à mettre à jour` +
+        nouvelles.map((l) => `\n   + ordre ${l.ordre} : ${l.situation}`).join("") +
+        modifiees.map(({ r }) => `\n   ~ ordre ${r.ordre} : ${r.data?.situation}`).join(""),
     );
-    if (DRY || nouvelles.length === 0) return { ecrit: 0 };
-    const ins = await supabase.from("content").insert(nouvelles);
-    if (ins.error) throw new Error(`mois ${mois} : INSERT → ${ins.error.message}`);
-    return { ecrit: nouvelles.length };
+    if (DRY) return { ecrit: 0 };
+    if (nouvelles.length) {
+      const ins = await supabase.from("content").insert(nouvelles);
+      if (ins.error) throw new Error(`mois ${mois} : INSERT → ${ins.error.message}`);
+    }
+    for (const { p, r } of modifiees) {
+      const up = await supabase
+        .from("content")
+        .update({ data: { ...p, categorie: CATEGORIE }, situation: p.situation ?? p.titre ?? null })
+        .eq("id", r.id);
+      if (up.error) throw new Error(`mois ${mois} : UPDATE → ${up.error.message}`);
+    }
+    return { ecrit: nouvelles.length + modifiees.length };
   }
 
   const lignes = json.protocoles.map((p, i) => ({

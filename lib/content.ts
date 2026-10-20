@@ -58,7 +58,7 @@ export type BlocActionne = {
  *  paragraphe, un tableau de chaînes = une liste à puces. */
 export type SectionLibre = {
   titre?: string;
-  theme: "intro" | "info" | "action" | "geste" | "parent" | "cadre";
+  theme: "intro" | "info" | "action" | "geste" | "parent" | "principe" | "cadre";
   contenu: (string | string[])[];
 };
 

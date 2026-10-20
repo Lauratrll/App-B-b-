@@ -227,6 +227,7 @@ const THEMES_LIBRES: Record<
   action: C.actionimm,
   geste: C.gestedoux,
   parent: C.pourtoiparent,
+  principe: C.principe,
   cadre: C.cadre,
 };
 
