@@ -397,6 +397,8 @@ Historique : 🔁 28/08 « seuls les critères de dépistage » → 🔁 08/09 p
 
 # 10. Design, UI, code
 
+- ✅ (20/10, fin) **Retour avec son mot** (Laura) : « ‹ Guide-moi ! », « ‹ Alimentation »… dans une pastille blanche qui englobe le texte, typo du sous-titre « Dans quelles situations ? ». **Épinglés : entrée seulement sur l'accueil.** Ailleurs, à droite : rien, ou « épingler » (épingle +) là où l'on a décidé qu'on peut épingler, **dont les fiches de Réflexologie plantaire** (rendues épinglables : une ligne `content` par fiche, `scripts/import-reflexo-plantaire.mjs`).
+
 - ✅ (20/10, suite) **Barre du bas selon l'écran** (Laura) : cohérence cardiaque et SOS sont des portes d'entrée de rubrique, **ils ne s'affichent que sur l'accueil**. Partout ailleurs, leurs places reçoivent le **Retour** (la flèche « ‹ Guide-moi ! », « ‹ Alimentation »… retirée du haut des pages) et le bouton **Épingler** (épingle + plus), à côté des Épinglés. Plus aucun bouton en haut des pages. **Bandeau du haut supprimé** et « Bonjour » retiré : le prénom et l'âge ne s'écrivent qu'une fois, sur l'accueil, avec le picto « 3 traits » calé à droite sur la même ligne.
 
 - ✅ (20/10) **S.O.S, page 1** (Laura) : « Repères officiels » retiré du bas de l'écran, il est déjà écrit en sous-titre. Reste en bas : « En cas de doute, appelez le 15. »

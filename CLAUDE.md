@@ -138,6 +138,10 @@ CREATE TABLE admins (
 -- getCurrentProfile() dans lib/auth.ts ; le profil réel = getRealProfile().
 -- Migration : supabase/migrations/0004\_admins\_et\_verrou\_profil.sql
 
+-- content, module 'reflexo', categorie 'plantaire' (20/10/2026) : une ligne par fiche de
+-- l'onglet Réflexologie plantaire (situation = id, mois = 0, data = {id, titre}), qui ne sert
+-- qu'à l'épingler ; créée par scripts/import-reflexo-plantaire.mjs, jamais supprimée.
+
 -- Épinglés
 CREATE TABLE pinned (
   id UUID PRIMARY KEY DEFAULT gen\_random\_uuid(),

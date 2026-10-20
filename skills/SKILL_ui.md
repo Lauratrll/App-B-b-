@@ -410,9 +410,9 @@ Code : `components/ui/bottom-nav.tsx`. Ordre : **Accueil · Cohérence cardiaque
   - Cohérence : fond `#F5D0C8`, bord `#E0A48E`, picto cœur traversé d'une onde douce `#8A3020` → `/coherence` (contenu à créer).
   - SOS : fond orange S.O.S `#FAD2B3`, bord `#EDA36E`, mot « SOS » en Playfair `#A4471F` → `/sos`.
 - Barre : fond `#F2EDE8`, filet haut `0.5px #C8D8DC`, hauteur 56 px + encoche iPhone.
-- **Les deux boutons ronds n'apparaissent que sur l'accueil** (20/10) : ce sont des portes d'entrée de rubrique. **Dans toutes les autres pages**, la barre devient : **Accueil · Retour · Épingler · Épinglés**.
-  - **Retour** : flèche seule, même pastille ; elle remplace le lien « ‹ Guide-moi ! », « ‹ Alimentation »… qui était en haut des pages (retiré partout). Elle mène à la page parente (`/guide/alimentation/3` → `/guide/alimentation` → `/guide` → accueil ; une fiche ouverte depuis les épingles revient aux épingles).
-  - **Épingler** : épingle + petit « + », seulement sur une fiche qui s'épingle (Guide-moi, réflexologie de Prendre soin de moi, fiche épinglée) ; déjà épinglée = épingle + coche, en Corail. La page le déclare avec `<NavPin />` (`components/ui/nav-context.tsx`). Plus aucun bouton « Épingler » en haut des fiches.
+- **Les deux boutons ronds et les Épinglés n'apparaissent que sur l'accueil** (20/10) : ce sont des portes d'entrée. **Dans toutes les autres pages**, la barre devient : **Accueil · Retour · (Épingler)**.
+  - **Retour** : flèche + **nom de la page où l'on revient** (« ‹ GUIDE-MOI ! », « ‹ ALIMENTATION », « ‹ RÉFLEXOLOGIE »…), dans une pastille blanche qui englobe le texte, typographie du sous-titre « Dans quelles situations ? » (capitales espacées, 10 px, gras, Eucalyptus). Il remplace le lien qui était en haut des pages (retiré partout). Absent sur la page d'une rubrique (c'est Accueil qui ramène). Libellé par défaut d'après la page parente ; une page dont le libellé dépend des données le déclare avec `<NavBack />` (fiche Guide-moi → nom de la catégorie).
+  - **Épingler** : épingle + petit « + », calé à droite, **seulement sur une fiche qui s'épingle** : Guide-moi, Réflexologie plantaire, réflexologie de Prendre soin de moi, fiche ouverte depuis les épingles. Sinon rien. Déjà épinglée = épingle + coche, en Corail. La page le déclare avec `<NavPin />` (`components/ui/nav-context.tsx`). Plus aucun bouton « Épingler » en haut des fiches.
 
 ### Plus de bandeau en haut, menu des réglages sur l'accueil (validé le 20/10/2026)
 

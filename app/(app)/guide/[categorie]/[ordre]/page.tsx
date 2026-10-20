@@ -5,7 +5,7 @@ import { getBabyMonth } from "@/lib/utils";
 import { getGuideMeta, getGuideProtocole } from "@/lib/content";
 import { isPinned } from "@/lib/pinned";
 import { ProtocoleView } from "@/components/modules/protocole-view";
-import { NavPin } from "@/components/ui/nav-context";
+import { NavBack, NavPin } from "@/components/ui/nav-context";
 
 export default async function ProtocolePage({
   params,
@@ -31,6 +31,7 @@ export default async function ProtocolePage({
   return (
     <section className="space-y-5">
       {/* Retour et « épingler » : dans la barre du bas (20/10). */}
+      <NavBack href={`/guide/${params.categorie}`} label={categorie.nom} />
       <NavPin contentId={contentId} isPinned={pinned} returnUrl={returnUrl} />
 
       <ProtocoleView protocole={protocole} />

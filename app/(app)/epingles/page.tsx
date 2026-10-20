@@ -57,7 +57,14 @@ export default async function EpinglesPage() {
                 key={pin.id}
                 pin={pin}
                 moisActuel={moisActuel}
-                href={`/epingle/${pin.content_id}`}
+                // Fiche de l'onglet Réflexologie plantaire (20/10) : elle s'ouvre
+                // à sa place, et elle ne dépend pas du mois.
+                href={
+                  pin.categorie === "plantaire"
+                    ? `/reflexologie/${pin.situation}`
+                    : `/epingle/${pin.content_id}`
+                }
+                sansMois={pin.categorie === "plantaire"}
                 fallbackTitre={`Réflexologie · ${pin.categorie ?? ""} · mois ${pin.mois}`}
               />
             ))}
@@ -122,18 +129,20 @@ function PinCard({
   moisActuel,
   href,
   fallbackTitre,
+  sansMois = false,
 }: {
   pin: PinnedItem;
   moisActuel: number;
   href: string;
   fallbackTitre?: string;
+  sansMois?: boolean;
 }) {
   const titre =
     ((pin.data as { titre?: string }).titre as string) ??
     fallbackTitre ??
     pin.situation ??
     "Sans titre";
-  const moisDepasse = pin.mois !== moisActuel;
+  const moisDepasse = !sansMois && pin.mois !== moisActuel;
   const confirmMessage = moisDepasse
     ? `Bébé a maintenant ${moisActuel} mois, ce contenu était pour le mois ${pin.mois}. Si tu le retires, tu perdras l'accès. Confirmer ?`
     : undefined;
@@ -149,6 +158,7 @@ function PinCard({
         </Link>
         <RemovePinButton pinId={pin.id} confirmMessage={confirmMessage} />
       </div>
+      {sansMois ? null : (
       <p className="mt-1.5 text-xs text-neutral-500">
         Mois {pin.mois}
         {moisDepasse ? (
@@ -157,6 +167,7 @@ function PinCard({
           </span>
         ) : null}
       </p>
+      )}
     </li>
   );
 }

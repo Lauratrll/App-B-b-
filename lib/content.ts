@@ -51,6 +51,17 @@ export type BlocActionne = {
   lien_reflexologie?: LienReflexologie;
 };
 
+/** Section libre : cartes « hors gabarit » (ex. Allaitement et sommeil, M0-M3).
+ *  Quand `sections` est présent, le composant l'affiche à la place des 8 blocs
+ *  figés, dans l'ordre du tableau. Les champs classiques restent renseignés
+ *  (recherche, QA) mais ne sont pas affichés. `contenu` : une chaîne = un
+ *  paragraphe, un tableau de chaînes = une liste à puces. */
+export type SectionLibre = {
+  titre?: string;
+  theme: "intro" | "info" | "action" | "geste" | "parent" | "cadre";
+  contenu: (string | string[])[];
+};
+
 export type ProtocoleGuide = {
   categorie: string;
   situation: string;
@@ -67,6 +78,8 @@ export type ProtocoleGuide = {
    *  (nutrition, sante, corps, motricite, sommeil medicalise, post-partum).
    *  Affichee en 9px italique sous le Cadre de securite. */
   source?: string;
+  /** Mise en page libre (voir SectionLibre). Optionnel. */
+  sections?: SectionLibre[];
 };
 
 export type SituationListItem = {
@@ -750,5 +763,25 @@ export const getReflexoFromJeux = unstable_cache(
     };
   },
   ["reflexo-jeux"],
+  CACHE_OPTIONS,
+);
+
+/** Ligne `content` d'une fiche de Réflexologie plantaire, qui ne sert qu'à
+ *  l'épingler (créée par scripts/import-reflexo-plantaire.mjs, 20/10/2026).
+ *  null si le script n'a pas encore été lancé pour cette fiche. */
+export const getReflexoPlantaireContentId = unstable_cache(
+  async (id: string): Promise<string | null> => {
+    const supabase = createAdminClient();
+    const { data, error } = await supabase
+      .from("content")
+      .select("id")
+      .eq("module", "reflexo")
+      .eq("categorie", "plantaire")
+      .eq("situation", id)
+      .maybeSingle();
+    if (error || !data) return null;
+    return data.id as string;
+  },
+  ["reflexo-plantaire"],
   CACHE_OPTIONS,
 );

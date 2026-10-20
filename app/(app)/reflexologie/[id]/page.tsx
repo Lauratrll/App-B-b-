@@ -14,6 +14,9 @@ import {
   type ReflexoEtape,
   type ReflexoZoneTexte,
 } from "@/lib/reflexologie";
+import { getReflexoPlantaireContentId } from "@/lib/content";
+import { isPinned } from "@/lib/pinned";
+import { NavPin } from "@/components/ui/nav-context";
 import { ReflexoCarte } from "@/components/modules/reflexo-lecteur";
 import { ReflexoIcone } from "@/components/modules/reflexo-icone";
 import {
@@ -75,9 +78,16 @@ export default async function ProtocoleReflexoPage({
   // 9 zones au lieu de 8) — affichée seulement quand la variante l'est.
   const visuelVariante = visuelUrl(protocole.visuel_cauchemars);
 
+  // « Épingler » dans la barre du bas (Laura, 20/10).
+  const contentId = await getReflexoPlantaireContentId(params.id);
+  const pinned = contentId ? await isPinned(contentId) : false;
+
   return (
     <article style={{ display: "flex", flexDirection: "column", gap: 20 }}>
-      {/* Le retour vers la liste est dans la barre du bas (20/10). */}
+      {/* Le retour vers la liste et « épingler » sont dans la barre du bas (20/10). */}
+      {contentId ? (
+        <NavPin contentId={contentId} isPinned={pinned} returnUrl={`/reflexologie/${params.id}`} />
+      ) : null}
 
       {/* 1. Titre — centré, picto du protocole au-dessus dans SA couleur, même
           traitement que la page 2 de Guide-moi. La teinte vient du rang du

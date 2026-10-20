@@ -13,10 +13,10 @@ import { useNav } from "./nav-context";
 // Accueil et Épinglés : pictos seuls (sans mot), même trait que les pictos des
 // cases Guide-moi (24 px de grille, trait 1,6, bouts arrondis), dans une
 // pastille ronde. Couleur active Corail, inactive Eucalyptus (SKILL_ui).
-// Les deux boutons ronds n'apparaissent QUE sur l'accueil (Laura, 20/10) :
-// ce sont des portes d'entrée de rubrique. Ailleurs, leurs places reçoivent
-// le Retour (la flèche qui était en haut des pages) et, quand la page
-// s'épingle, le bouton « épingler » (épingle + plus), à côté des Épinglés.
+// Les deux boutons ronds et les Épinglés n'apparaissent QUE sur l'accueil
+// (Laura, 20/10) : ce sont des portes d'entrée. Ailleurs, la barre porte
+// Accueil, le Retour (flèche + nom de la page parente, en pastille) et, quand
+// la page s'épingle, le bouton « épingler » (épingle + plus), sinon rien.
 // Les réglages (mon bébé, mes informations, mon abonnement) sont dans le menu
 // « 3 traits » de l'en-tête (components/ui/app-menu.tsx).
 // ----------------------------------------------------------------------------
@@ -165,13 +165,26 @@ function BoutonRond({
   );
 }
 
-/** Où mène le Retour : la page parente dans l'arborescence, l'accueil pour
- *  une rubrique. Une fiche ouverte depuis les épingles revient aux épingles. */
-function cibleRetour(pathname: string): string {
-  if (pathname.startsWith("/epingle/")) return "/epingles";
+// Libellé du Retour selon la page de destination (même mot que l'ancien
+// lien du haut). Une page dont le libellé dépend des données (la catégorie de
+// Guide-moi) le déclare elle-même avec <NavBack />.
+const LIBELLES: Record<string, string> = {
+  "/guide": "Guide-moi !",
+  "/reflexologie": "Réflexologie",
+  "/sos": "Dois-je consulter ?",
+  "/soin": "Prendre soin de moi",
+  "/epingles": "Mes épingles",
+};
+
+/** Retour par défaut : la page parente, seulement sous une rubrique (sur la
+ *  page d'une rubrique, c'est le bouton Accueil qui ramène). Une fiche ouverte
+ *  depuis les épingles revient aux épingles. */
+function retourParDefaut(pathname: string): { href: string; label: string } | null {
+  if (pathname.startsWith("/epingle/")) return { href: "/epingles", label: LIBELLES["/epingles"] };
   const morceaux = pathname.split("/").filter(Boolean);
-  if (morceaux.length <= 1) return "/dashboard";
-  return "/" + morceaux.slice(0, -1).join("/");
+  if (morceaux.length <= 1) return null;
+  const href = "/" + morceaux.slice(0, -1).join("/");
+  return { href, label: LIBELLES[href] ?? "Retour" };
 }
 
 function Pastille({ actif, children }: { actif: boolean; children: React.ReactNode }) {
@@ -207,51 +220,80 @@ function BoutonEpingler() {
   );
 }
 
+/** Retour : flèche + nom de la page où l'on revient, dans une pastille blanche
+ *  qui englobe le texte. Même typographie que le sous-titre « Dans quelles
+ *  situations ? » de Guide-moi (capitales espacées, gris eucalyptus). */
+function BoutonRetour({ href, label }: { href: string; label: string }) {
+  return (
+    <Link
+      href={href}
+      aria-label={"Retour : " + label}
+      className="flex min-w-0 items-center gap-1.5 rounded-full transition-transform active:scale-[0.97]"
+      style={{ height: 40, padding: "0 14px 0 10px", background: "rgba(255,255,255,.55)" }}
+    >
+      <svg width={14} height={14} viewBox="0 0 24 24" fill="none" stroke={INACTIVE} strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" aria-hidden style={{ flexShrink: 0 }}>
+        {ICONE_RETOUR}
+      </svg>
+      <span
+        className="truncate"
+        style={{ fontSize: 10, color: INACTIVE, letterSpacing: ".07em", textTransform: "uppercase", fontWeight: 600 }}
+      >
+        {label}
+      </span>
+    </Link>
+  );
+}
+
+const STYLE_BARRE = {
+  background: "#F2EDE8",
+  borderTop: "0.5px solid #C8D8DC",
+  paddingBottom: "env(safe-area-inset-bottom)",
+} as const;
+
 export function BottomNav() {
   const pathname = usePathname() ?? "";
+  const { back } = useNav();
   const estSur = (base: string) =>
-    pathname === base || pathname.startsWith(`${base}/`);
-  const accueil = estSur("/dashboard");
+    pathname === base || pathname.startsWith(base + "/");
 
+  // Accueil : Accueil · Cohérence (rond) · SOS (rond) · Épinglés.
+  if (estSur("/dashboard")) {
+    return (
+      <nav aria-label="Navigation principale" className="sticky bottom-0 z-30 grid grid-cols-4" style={STYLE_BARRE}>
+        <OngletPicto href="/dashboard" label="Accueil" actif>
+          {ICONE_ACCUEIL}
+        </OngletPicto>
+        <BoutonRond href="/coherence" label="Cohérence cardiaque" actif={false} fond="#F5D0C8" bord="#E0A48E">
+          <svg width={28} height={28} viewBox="0 0 24 24" fill="none" stroke="#8A3020" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+            {ICONE_COHERENCE}
+          </svg>
+        </BoutonRond>
+        <BoutonRond href="/sos" label="SOS, dois-je consulter ?" actif={false} fond="#FAD2B3" bord="#EDA36E">
+          <span className="font-display font-bold" style={{ fontSize: 15, letterSpacing: "0.04em", color: "#A4471F" }}>
+            SOS
+          </span>
+        </BoutonRond>
+        <OngletPicto href="/epingles" label="Épinglés" actif={false}>
+          {ICONE_EPINGLE}
+        </OngletPicto>
+      </nav>
+    );
+  }
+
+  // Ailleurs : Accueil · Retour (avec son libellé) · … · Épingler (si la page
+  // s'épingle). Les Épinglés ne s'ouvrent que depuis l'accueil (Laura, 20/10).
+  const retour = back ?? retourParDefaut(pathname);
   return (
-    <nav
-      aria-label="Navigation principale"
-      className="sticky bottom-0 z-30 grid grid-cols-4"
-      style={{
-        background: "#F2EDE8",
-        borderTop: "0.5px solid #C8D8DC",
-        paddingBottom: "env(safe-area-inset-bottom)",
-      }}
-    >
-      <OngletPicto href="/dashboard" label="Accueil" actif={accueil}>
-        {ICONE_ACCUEIL}
-      </OngletPicto>
-
-      {accueil ? (
-        <>
-          <BoutonRond href="/coherence" label="Cohérence cardiaque" actif={false} fond="#F5D0C8" bord="#E0A48E">
-            <svg width={28} height={28} viewBox="0 0 24 24" fill="none" stroke="#8A3020" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-              {ICONE_COHERENCE}
-            </svg>
-          </BoutonRond>
-          <BoutonRond href="/sos" label="SOS, dois-je consulter ?" actif={false} fond="#FAD2B3" bord="#EDA36E">
-            <span className="font-display font-bold" style={{ fontSize: 15, letterSpacing: "0.04em", color: "#A4471F" }}>
-              SOS
-            </span>
-          </BoutonRond>
-        </>
-      ) : (
-        <>
-          <OngletPicto href={cibleRetour(pathname)} label="Retour" actif={false}>
-            {ICONE_RETOUR}
-          </OngletPicto>
-          <BoutonEpingler />
-        </>
-      )}
-
-      <OngletPicto href="/epingles" label="Épinglés" actif={estSur("/epingles")}>
-        {ICONE_EPINGLE}
-      </OngletPicto>
+    <nav aria-label="Navigation principale" className="sticky bottom-0 z-30 flex items-center gap-1 px-2" style={STYLE_BARRE}>
+      <div className="w-[64px] shrink-0">
+        <OngletPicto href="/dashboard" label="Accueil" actif={false}>
+          {ICONE_ACCUEIL}
+        </OngletPicto>
+      </div>
+      {retour ? <BoutonRetour href={retour.href} label={retour.label} /> : null}
+      <div className="ml-auto w-[64px] shrink-0">
+        <BoutonEpingler />
+      </div>
     </nav>
   );
 }

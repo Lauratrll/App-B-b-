@@ -1,4 +1,4 @@
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { requireProfile } from "@/lib/auth";
 import { getBabyMonth } from "@/lib/utils";
 import {
@@ -21,6 +21,10 @@ export default async function EpingleViewPage({
   const moisActuel = getBabyMonth(new Date(profile.birthdate));
   const content = await getContentById(params.id);
   if (!content) notFound();
+  // Fiche de Réflexologie plantaire : elle s'ouvre dans son onglet (20/10).
+  if (content.module === "reflexo" && content.categorie === "plantaire" && content.situation) {
+    redirect(`/reflexologie/${content.situation}`);
+  }
 
   const pinned = await isPinned(content.id);
   const returnUrl = `/epingle/${content.id}`;
