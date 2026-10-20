@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { requireProfile } from "@/lib/auth";
 import { getBabyMonth, getSeason } from "@/lib/utils";
+import { AppMenu } from "@/components/ui/app-menu";
 
 // Couleurs conformes au SKILL_ui.md (section "Cases modules — validé").
 // Ordre de la grille arrêté par Laura le 20/10/2026, ligne par ligne :
@@ -31,13 +32,17 @@ export default async function DashboardPage() {
   const babyMonth = getBabyMonth(new Date(profile.birthdate));
   const season = getSeason(new Date());
 
+  // pb-4 : le tiers des boutons ronds de la barre du bas dépasse au-dessus.
   return (
-    <section className="space-y-5">
+    <section className="space-y-5 pb-4">
       <header className="space-y-1">
-        <p className="text-sm text-eucal">Bonjour 👋</p>
-        <h1 className="font-display text-2xl font-semibold text-charcoal">
-          {profile.baby_name}, {babyMonth} mois
-        </h1>
+        {/* Prénom et âge, et à droite le menu « 3 traits » des réglages (20/10). */}
+        <div className="flex items-center justify-between">
+          <h1 className="font-display text-2xl font-semibold text-charcoal">
+            {profile.baby_name}, {babyMonth} mois
+          </h1>
+          <AppMenu />
+        </div>
         <p className="text-[10px] font-semibold uppercase tracking-[0.15em] text-eucal">
           {SEASON_LABELS[season]}
         </p>

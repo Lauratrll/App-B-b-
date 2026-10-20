@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 // Menu « 3 traits » de l'en-tête (choix Laura, 20/10/2026) : les réglages.
 // Mon bébé · Mes informations · Mon abonnement ; puis Nous contacter et
 // Mentions légales (à remplir) ; Se déconnecter en bas.
-// Panneau qui glisse depuis la gauche, fermé par le fond, la croix ou Échap.
+// Panneau qui glisse depuis la droite (le bouton est à droite du prénom, sur l'accueil), fermé par le fond, la croix ou Échap.
 // ----------------------------------------------------------------------------
 
 const TEXT = "#3A3228";
@@ -56,7 +56,7 @@ export function AppMenu() {
         onClick={() => setOuvert(true)}
         aria-label="Réglages"
         aria-expanded={ouvert}
-        className="-ml-2 flex h-11 w-11 items-center justify-center rounded-full"
+        className="-mr-3 flex h-11 w-11 items-center justify-center rounded-full"
       >
         <svg
           width={22}
@@ -76,7 +76,7 @@ export function AppMenu() {
 
       {/* Fond + panneau, toujours montés pour l'animation. */}
       <div
-        className="fixed inset-0 z-50"
+        className="fixed inset-0 z-50 overflow-hidden"
         style={{ pointerEvents: ouvert ? "auto" : "none" }}
         aria-hidden={!ouvert}
       >
@@ -89,11 +89,11 @@ export function AppMenu() {
           role="dialog"
           aria-modal="true"
           aria-label="Réglages"
-          className="absolute left-0 top-0 flex h-full w-[78%] max-w-[300px] flex-col transition-transform duration-200 ease-out"
+          className="absolute right-0 top-0 flex h-full w-[78%] max-w-[300px] flex-col transition-transform duration-200 ease-out"
           style={{
             background: "#F2EDE8",
-            transform: ouvert ? "translateX(0)" : "translateX(-100%)",
-            boxShadow: ouvert ? "4px 0 18px rgba(58,50,40,.15)" : "none",
+            transform: ouvert ? "translateX(0)" : "translateX(100%)",
+            boxShadow: ouvert ? "-4px 0 18px rgba(58,50,40,.15)" : "none",
           }}
         >
           <div className="flex items-center justify-between px-5 pb-2 pt-4">

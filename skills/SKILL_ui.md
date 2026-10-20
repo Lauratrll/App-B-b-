@@ -410,10 +410,13 @@ Code : `components/ui/bottom-nav.tsx`. Ordre : **Accueil · Cohérence cardiaque
   - Cohérence : fond `#F5D0C8`, bord `#E0A48E`, picto cœur traversé d'une onde douce `#8A3020` → `/coherence` (contenu à créer).
   - SOS : fond orange S.O.S `#FAD2B3`, bord `#EDA36E`, mot « SOS » en Playfair `#A4471F` → `/sos`.
 - Barre : fond `#F2EDE8`, filet haut `0.5px #C8D8DC`, hauteur 56 px + encoche iPhone.
+- **Les deux boutons ronds n'apparaissent que sur l'accueil** (20/10) : ce sont des portes d'entrée de rubrique. **Dans toutes les autres pages**, la barre devient : **Accueil · Retour · Épingler · Épinglés**.
+  - **Retour** : flèche seule, même pastille ; elle remplace le lien « ‹ Guide-moi ! », « ‹ Alimentation »… qui était en haut des pages (retiré partout). Elle mène à la page parente (`/guide/alimentation/3` → `/guide/alimentation` → `/guide` → accueil ; une fiche ouverte depuis les épingles revient aux épingles).
+  - **Épingler** : épingle + petit « + », seulement sur une fiche qui s'épingle (Guide-moi, réflexologie de Prendre soin de moi, fiche épinglée) ; déjà épinglée = épingle + coche, en Corail. La page le déclare avec `<NavPin />` (`components/ui/nav-context.tsx`). Plus aucun bouton « Épingler » en haut des fiches.
 
-### En-tête et menu des réglages (validé le 20/10/2026)
+### Plus de bandeau en haut, menu des réglages sur l'accueil (validé le 20/10/2026)
 
-Code : `components/ui/app-menu.tsx`. Picto **« 3 traits » en haut à gauche** de l'en-tête = les réglages. Panneau qui glisse depuis la gauche : **Mon bébé** (`/profil`) · **Mes informations** (`/compte`) · **Mon abonnement** (`/abonnement`) ; sous un filet, en plus petit : **Nous contacter** (`/contact`) et **Mentions légales** (`/mentions-legales`), pages vides placées pour ne pas les oublier ; « Se déconnecter » en bas. Le prénom et le mois du bébé restent au centre de l'en-tête (hauteur 45 px).
+**Aucun bandeau en haut des pages** (retiré le 20/10 : il répétait le prénom et l'âge et faisait descendre les titres). Sur l'accueil, plus de « Bonjour » : le titre « Léon, 6 mois » reste seul, et le picto **« 3 traits »** est sur sa ligne, **calé à droite, sans fioritures**. Code : `components/ui/app-menu.tsx`. Panneau qui glisse depuis la droite : **Mon bébé** (`/profil`) · **Mes informations** (`/compte`) · **Mon abonnement** (`/abonnement`) ; sous un filet, en plus petit : **Nous contacter** (`/contact`) et **Mentions légales** (`/mentions-legales`), pages vides placées pour ne pas les oublier ; « Se déconnecter » en bas.
 
 ### Badge / tag
 
@@ -452,7 +455,7 @@ Code : `components/ui/app-menu.tsx`. Picto **« 3 traits » en haut à gauche** 
 ## Structure de la page d'accueil (Dashboard)
 
 ```
-TopBar (Peach — prénom bébé + mois + saison)
+Titre « Prénom, X mois » + picto « 3 traits » à droite, saison en dessous (pas de bandeau, 20/10)
 ↓
 Card "Mois X" (Cream — illustration bébé + progression)
 ↓

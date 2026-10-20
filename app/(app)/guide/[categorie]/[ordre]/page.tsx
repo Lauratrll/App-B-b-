@@ -5,8 +5,7 @@ import { getBabyMonth } from "@/lib/utils";
 import { getGuideMeta, getGuideProtocole } from "@/lib/content";
 import { isPinned } from "@/lib/pinned";
 import { ProtocoleView } from "@/components/modules/protocole-view";
-import { PinButton } from "@/components/modules/pin-button";
-import { CategoryIcon } from "@/components/modules/guide-design";
+import { NavPin } from "@/components/ui/nav-context";
 
 export default async function ProtocolePage({
   params,
@@ -31,26 +30,8 @@ export default async function ProtocolePage({
 
   return (
     <section className="space-y-5">
-      <div className="flex items-center justify-between">
-        <Link
-          href={`/guide/${params.categorie}`}
-          className="inline-flex items-center gap-1 text-xs text-neutral-500"
-        >
-          <span aria-hidden>←</span>
-          <CategoryIcon
-            categoryKey={categorie.id}
-            color="currentColor"
-            size={14}
-            emoji={categorie.icone}
-          />
-          <span>{categorie.nom}</span>
-        </Link>
-        <PinButton
-          contentId={contentId}
-          isPinned={pinned}
-          returnUrl={returnUrl}
-        />
-      </div>
+      {/* Retour et « épingler » : dans la barre du bas (20/10). */}
+      <NavPin contentId={contentId} isPinned={pinned} returnUrl={returnUrl} />
 
       <ProtocoleView protocole={protocole} />
 

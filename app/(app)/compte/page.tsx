@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { requireUser } from "@/lib/auth";
 
 // « Mes informations » (menu des réglages, 20/10/2026) : l'adresse du compte.
@@ -6,9 +5,6 @@ export default async function ComptePage() {
   const user = await requireUser();
   return (
     <section className="space-y-5">
-      <Link href="/dashboard" className="text-xs text-eucal">
-        ← Accueil
-      </Link>
       <h1 className="font-display text-2xl font-semibold text-charcoal">
         Mes informations
       </h1>

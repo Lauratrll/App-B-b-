@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { requireProfile } from "@/lib/auth";
 import { getBabyMonth } from "@/lib/utils";
@@ -78,34 +77,7 @@ export default async function ProtocoleReflexoPage({
 
   return (
     <article style={{ display: "flex", flexDirection: "column", gap: 20 }}>
-      {/* Retour */}
-      <Link
-        href="/reflexologie"
-        style={{
-          display: "inline-flex",
-          alignItems: "center",
-          gap: 6,
-          fontSize: 11,
-          color: REFLEXO_MUTED,
-          textDecoration: "none",
-          fontWeight: 600,
-        }}
-      >
-        <svg
-          width="12"
-          height="12"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke={REFLEXO_MUTED}
-          strokeWidth="1.9"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          aria-hidden
-        >
-          <path d="M15 6l-6 6 6 6" />
-        </svg>
-        Tous les protocoles
-      </Link>
+      {/* Le retour vers la liste est dans la barre du bas (20/10). */}
 
       {/* 1. Titre — centré, picto du protocole au-dessus dans SA couleur, même
           traitement que la page 2 de Guide-moi. La teinte vient du rang du

@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { requireProfile } from "@/lib/auth";
 import { getBabyMonth } from "@/lib/utils";
@@ -31,34 +30,9 @@ export default async function SosThemePage({
 
   return (
     <div style={{ display: "flex", flexDirection: "column", paddingBottom: 40 }}>
+      {/* Le retour vers « Dois-je consulter ? » est dans la barre du bas (20/10). */}
 
-      <Link
-        href="/sos"
-        style={{
-          display: "inline-flex",
-          alignItems: "center",
-          gap: 4,
-          color: SOS_MUTED,
-          fontSize: 11,
-          textDecoration: "none",
-        }}
-      >
-        <svg
-          width="12"
-          height="12"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke={SOS_MUTED}
-          strokeWidth="1.8"
-          strokeLinecap="round"
-          aria-hidden
-        >
-          <path d="M15 6l-6 6 6 6" />
-        </svg>
-        <span>Dois-je consulter ?</span>
-      </Link>
-
-      <div style={{ textAlign: "center", margin: "22px 0 20px" }}>
+      <div style={{ textAlign: "center", margin: "4px 0 20px" }}>
         <span
           style={{
             width: 40,

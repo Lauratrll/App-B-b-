@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { requireProfile } from "@/lib/auth";
 import { getBabyMonth } from "@/lib/utils";
@@ -8,7 +7,7 @@ import {
   type CoucherModule,
 } from "@/lib/content";
 import { isPinned } from "@/lib/pinned";
-import { PinButton } from "@/components/modules/pin-button";
+import { NavPin } from "@/components/ui/nav-context";
 import { ProtocoleView } from "@/components/modules/protocole-view";
 import { CoucherView } from "@/components/modules/coucher-view";
 import { ReflexoView } from "@/components/modules/reflexo-view";
@@ -29,19 +28,8 @@ export default async function EpingleViewPage({
 
   return (
     <section className="space-y-5">
-      <div className="flex items-center justify-between">
-        <Link
-          href="/epingles"
-          className="inline-flex items-center gap-1 text-xs text-neutral-500"
-        >
-          ← Mes épingles
-        </Link>
-        <PinButton
-          contentId={content.id}
-          isPinned={pinned}
-          returnUrl={returnUrl}
-        />
-      </div>
+      {/* Retour et « épingler » : dans la barre du bas (20/10). */}
+      <NavPin contentId={content.id} isPinned={pinned} returnUrl={returnUrl} />
 
       {moisDepasse ? (
         <p className="rounded-xl bg-amber-50 p-3 text-xs text-amber-900">

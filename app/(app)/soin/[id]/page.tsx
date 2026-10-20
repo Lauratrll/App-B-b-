@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { requireProfile } from "@/lib/auth";
 import { getBabyMonth } from "@/lib/utils";
@@ -6,7 +5,7 @@ import { getReflexoFromSoin, getSoinConseil } from "@/lib/content";
 import { isPinned } from "@/lib/pinned";
 import { SoinDetail } from "@/components/modules/soin-detail";
 import { estMasque } from "@/components/modules/soin-design";
-import { PinButton } from "@/components/modules/pin-button";
+import { NavPin } from "@/components/ui/nav-context";
 
 export default async function ConseilPage({
   params,
@@ -31,21 +30,10 @@ export default async function ConseilPage({
 
   return (
     <section className="space-y-5">
-      <div className="flex items-center justify-between">
-        <Link
-          href="/soin"
-          className="inline-flex items-center gap-1 text-xs text-neutral-500"
-        >
-          ← Tous les conseils
-        </Link>
-        {reflexo ? (
-          <PinButton
-            contentId={reflexo.contentId}
-            isPinned={reflexoPinned}
-            returnUrl={returnUrl}
-          />
-        ) : null}
-      </div>
+      {/* Retour et « épingler » : dans la barre du bas (20/10). */}
+      {reflexo ? (
+        <NavPin contentId={reflexo.contentId} isPinned={reflexoPinned} returnUrl={returnUrl} />
+      ) : null}
       <SoinDetail conseil={conseil} prenom={profile.baby_name} />
     </section>
   );

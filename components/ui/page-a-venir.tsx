@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 // Page d'attente d'une rubrique dont le contenu reste à écrire.
 export function PageAVenir({
   surtitre,
@@ -12,9 +10,6 @@ export function PageAVenir({
 }) {
   return (
     <section className="space-y-4">
-      <Link href="/dashboard" className="text-xs text-eucal">
-        ← Accueil
-      </Link>
       <header className="space-y-1">
         <p
           className="text-[10px] font-semibold uppercase text-eucal"

@@ -160,35 +160,9 @@ export function SituationsView({
 
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
-      {/* Breadcrumb retour */}
-      <Link
-        href="/guide"
-        style={{
-          display: "inline-flex",
-          alignItems: "center",
-          gap: 4,
-          color: GUIDE_MUTED,
-          fontSize: 11,
-          textDecoration: "none",
-        }}
-      >
-        <svg
-          width="12"
-          height="12"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke={GUIDE_MUTED}
-          strokeWidth="1.8"
-          strokeLinecap="round"
-          aria-hidden
-        >
-          <path d="M15 6l-6 6 6 6" />
-        </svg>
-        <span>Guide-moi !</span>
-      </Link>
-
+      {/* Le retour vers Guide-moi ! est dans la barre du bas (20/10). */}
       {/* Bloc titre : picto + nom catégorie + sous-titre fixe */}
-      <div style={{ textAlign: "center", margin: "32px 0" }}>
+      <div style={{ textAlign: "center", margin: "4px 0 32px" }}>
         <span style={{ display: "block", margin: "0 auto 10px", width: 32 }}>
           <CategoryIcon
             categoryKey={categorie.id}
