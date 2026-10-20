@@ -22,6 +22,8 @@
 //   node scripts/import-guide-parent.mjs --dry        → simulation, 24 mois
 //   node scripts/import-guide-parent.mjs              → écrit les 24 mois
 //   node scripts/import-guide-parent.mjs 15           → un seul mois
+//   node scripts/import-guide-parent.mjs 3 --ajouter  → ajoute seulement les
+//      protocoles absents de la base, sans rien supprimer (garde les épingles)
 // ===========================================================================
 
 import { config } from "dotenv";
@@ -33,6 +35,7 @@ config({ path: ".env.local", quiet: true });
 config({ path: ".env", quiet: true });
 
 const DRY = process.argv.includes("--dry");
+const AJOUTER = process.argv.includes("--ajouter");
 const MOIS_ARG = process.argv.slice(2).find((a) => /^\d+$/.test(a));
 const MOIS_LISTE = MOIS_ARG
   ? [Number(MOIS_ARG)]
@@ -106,6 +109,32 @@ async function importMois(mois) {
   // On prolonge le compteur du mois pour ne pas empiéter sur les autres.
   const ordreMax = autres.reduce((n, r) => Math.max(n, r.ordre ?? 0), -1);
   const depart = autres.length ? ordreMax + 1 : 0;
+
+  // --ajouter (20/10/2026) : n'insère QUE les protocoles absents de la base
+  // (comparés par `situation`), à la suite des ordres existants, sans rien
+  // supprimer. Les fiches déjà en ligne gardent leur id, donc leurs épingles.
+  if (AJOUTER) {
+    const presentes = new Set(dejaParent.map((r) => r.data?.situation));
+    const ordreParent = dejaParent.reduce((n, r) => Math.max(n, r.ordre ?? 0), depart - 1);
+    const nouvelles = json.protocoles
+      .filter((p) => !presentes.has(p.situation))
+      .map((p, i) => ({
+        mois,
+        module: "guide",
+        categorie: CATEGORIE,
+        situation: p.situation ?? p.titre ?? null,
+        ordre: ordreParent + 1 + i,
+        data: { ...p, categorie: CATEGORIE },
+      }));
+    console.log(
+      `M${String(mois).padStart(2, "0")} : ${nouvelles.length} protocole(s) à ajouter` +
+        nouvelles.map((l) => `\n   + ordre ${l.ordre} : ${l.situation}`).join(""),
+    );
+    if (DRY || nouvelles.length === 0) return { ecrit: 0 };
+    const ins = await supabase.from("content").insert(nouvelles);
+    if (ins.error) throw new Error(`mois ${mois} : INSERT → ${ins.error.message}`);
+    return { ecrit: nouvelles.length };
+  }
 
   const lignes = json.protocoles.map((p, i) => ({
     mois,
