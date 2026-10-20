@@ -252,7 +252,7 @@
             "Quand tu allaites, ton corps libère **deux hormones** qui agissent aussi sur ton sommeil.",
             [
               "**L'ocytocine**, libérée à chaque tétée, apaise et détend. Elle donne envie de t'assoupir en même temps que ton bébé, même quand tu n'es pas fatiguée.",
-              "**La prolactine**, qui accompagne la fabrication du lait, t'aide à entrer **plus vite en sommeil profond**, celui qui répare le corps, et à te rendormir plus facilement après un réveil, *d'après Blyton et al., Journal of Sleep Research, 2002*."
+              "**La prolactine**, qui accompagne la fabrication du lait, t'aide à entrer **plus vite en sommeil profond**, celui qui répare le corps, et à te rendormir plus facilement après un réveil¹."
             ],
             "Ces effets s'installent **progressivement**, au rythme de ta lactation. Ils varient d'une maman à l'autre, et d'un jour à l'autre.",
             "Comme tu peux tomber plus vite en sommeil profond, il arrive qu'un **réveil au bout d'un quart d'heure** te laisse dans un **gros brouillard**, comme si l'épuisement était au maximum. Un réveil en plein sommeil profond, provoqué par un facteur extérieur, est simplement **plus lourd pour ton cerveau**. **Laisse-toi un moment pour retrouver tes esprits.**"
@@ -287,11 +287,11 @@
           "titre": "Si tu t'endors pendant une tétée de nuit",
           "theme": "action",
           "contenu": [
-            "Cela arrive souvent, sans l'avoir décidé. En France, **la Haute Autorité de santé recommande que bébé dorme dans son propre lit, dans ta chambre.** Si tu sens que tu risques de t'endormir, mieux vaut **préparer et sécuriser ta position à l'avance** que lutter :",
+            "Cela arrive souvent, sans l'avoir décidé. En France, **la Haute Autorité de santé recommande que bébé dorme dans son propre lit, dans ta chambre.**² Si tu sens que tu risques de t'endormir, mieux vaut **préparer et sécuriser ta position à l'avance** que lutter :",
             [
-              "**Ton lit** plutôt qu'un canapé ou un fauteuil, les endroits les plus à risque",
+              "**Ton lit** plutôt qu'un canapé ou un fauteuil, les endroits les plus à risque³",
               "**Une surface ferme**, rien autour de bébé (ni oreiller ni couette), **bébé sur le dos**, sans risque de tomber ni de se coincer",
-              "Bébé **né à terme et de poids normal** (sinon, parles-en à ta sage-femme)",
+              "Bébé **né à terme et de poids normal**³ (sinon, parles-en à ta sage-femme)",
               "**Préviens ton co-parent** : il prend le relais pour veiller pendant la tétée",
               "Au réveil, **remets bébé dans son propre lit**"
             ]
@@ -312,14 +312,14 @@
           ]
         }
       ],
-      "explication": "Quand tu allaites, ton corps libère deux hormones qui agissent aussi sur ton sommeil. L'ocytocine, libérée à chaque tétée, apaise et détend. Elle donne envie de t'assoupir en même temps que ton bébé, même quand tu n'es pas fatiguée. La prolactine, qui accompagne la fabrication du lait, t'aide à entrer plus vite en sommeil profond, celui qui répare le corps, et à te rendormir plus facilement après un réveil, d'après Blyton et al., Journal of Sleep Research, 2002. Ces effets s'installent progressivement, au rythme de ta lactation. Ils varient d'une maman à l'autre, et d'un jour à l'autre. Comme tu peux tomber plus vite en sommeil profond, il arrive qu'un réveil au bout d'un quart d'heure te laisse dans un gros brouillard, comme si l'épuisement était au maximum. Un réveil en plein sommeil profond, provoqué par un facteur extérieur, est simplement plus lourd pour ton cerveau. Laisse-toi un moment pour retrouver tes esprits.",
+      "explication": "Quand tu allaites, ton corps libère deux hormones qui agissent aussi sur ton sommeil. L'ocytocine, libérée à chaque tétée, apaise et détend. Elle donne envie de t'assoupir en même temps que ton bébé, même quand tu n'es pas fatiguée. La prolactine, qui accompagne la fabrication du lait, t'aide à entrer plus vite en sommeil profond, celui qui répare le corps, et à te rendormir plus facilement après un réveil¹. Ces effets s'installent progressivement, au rythme de ta lactation. Ils varient d'une maman à l'autre, et d'un jour à l'autre. Comme tu peux tomber plus vite en sommeil profond, il arrive qu'un réveil au bout d'un quart d'heure te laisse dans un gros brouillard, comme si l'épuisement était au maximum. Un réveil en plein sommeil profond, provoqué par un facteur extérieur, est simplement plus lourd pour ton cerveau. Laisse-toi un moment pour retrouver tes esprits.",
       "ancrage": "Ce n'est pas de la faiblesse : ton corps suit le rythme de ton bébé, qui dort par petites phases, de jour comme de nuit.",
       "action_immediate": {
         "couleur_fond": "#FBEAF0",
         "couleur_texte": "#72243E",
         "titre": "Si tu t'endors pendant une tétée de nuit",
         "etapes": [
-          "Ton lit plutôt qu'un canapé ou un fauteuil, les endroits les plus à risque",
+          "Ton lit plutôt qu'un canapé ou un fauteuil, les endroits les plus à risque³",
           "Une surface ferme, rien autour de bébé (ni oreiller ni couette), bébé sur le dos, sans risque de tomber ni de se coincer",
           "Bébé né à terme et de poids normal (sinon, parles-en à ta sage-femme)",
           "Préviens ton co-parent : il prend le relais pour veiller pendant la tétée",
@@ -343,7 +343,7 @@
       "principe": "Il arrive que tu donnes une tétée à un moment où tu n'as pas envie, ou pas la possibilité, de te reposer. Juste après, une grosse fatigue t'envahit et tu luttes pour ne pas t'endormir. Ce n'est pas un manque de volonté : pendant la tétée, l'ocytocine détend ton corps et la prolactine t'entraîne vers le sommeil profond. Le comprendre aide à ne pas te reprocher cette fatigue : c'est ton corps qui répond.",
       "erreurs_a_eviter": [],
       "consulter_si": "Si la fatigue devient écrasante, si tu n'arrives pas à dormir même quand ton bébé dort, ou si tu te sens triste ou anxieuse depuis plusieurs jours, parles-en à ton médecin, à ta sage-femme ou à la PMI.",
-      "source": "Source : Blyton D. M., Sullivan C. E. et Edwards N., Journal of Sleep Research, 2002 ; Haute Autorité de santé et Conseil national professionnel de pédiatrie, fiche mémo « Prévention des déformations crâniennes positionnelles et mort inattendue du nourrisson », février 2020 ; gouvernement écossais, Safer Sleep for Babies, 2024."
+      "source": "Source : ¹ prolactine, sommeil profond et rendormissement de la mère qui allaite, Blyton D. M., Sullivan C. E. et Edwards N., Journal of Sleep Research, 2002 ; ² bébé dans son propre lit, dans la chambre des parents, Haute Autorité de santé et Conseil national professionnel de pédiatrie, fiche mémo « Prévention des déformations crâniennes positionnelles et mort inattendue du nourrisson », février 2020 ; ³ canapé et fauteuil plus à risque, bébé né à terme et de poids normal, gouvernement écossais, Safer Sleep for Babies, 2024."
     }
   ]
 }
