@@ -37,8 +37,10 @@ export async function updateSession(request: NextRequest) {
     },
   );
 
-  // IMPORTANT : appel auth.getUser() rafraîchit la session si nécessaire.
-  await supabase.auth.getUser();
+  // IMPORTANT : rafraîchit la session si nécessaire. getClaims() vérifie le
+  // jeton sur place (clé publique du projet) au lieu d'interroger le serveur
+  // d'authentification à chaque requête comme getUser() (20/10/2026).
+  await supabase.auth.getClaims();
 
   return response;
 }
