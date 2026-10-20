@@ -228,6 +228,7 @@ const THEMES_LIBRES: Record<
   geste: C.gestedoux,
   parent: C.pourtoiparent,
   principe: C.principe,
+  plusloin: C.pourallerplus,
   cadre: C.cadre,
 };
 
