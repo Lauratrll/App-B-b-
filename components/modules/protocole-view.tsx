@@ -254,19 +254,22 @@ function SectionsLibres({ sections }: { sections: SectionLibre[] }) {
             {sec.titre ? <div style={labelStyle(t.label)}>{sec.titre}</div> : null}
             {sec.contenu.map((bloc, j) =>
               Array.isArray(bloc) ? (
-                <ul
-                  key={j}
-                  style={{
-                    margin: "0 0 6px",
-                    paddingLeft: 16,
-                    fontSize: 11,
-                    color: C.text,
-                    lineHeight: 1.55,
-                  }}
-                >
+                // Puces en points colorés, de la couleur du bloc (comme le Sommeil).
+                <ul key={j} style={{ margin: "2px 0 6px", padding: 0, listStyle: "none" }}>
                   {bloc.map((li, k) => (
-                    <li key={k} style={{ marginBottom: 3 }}>
-                      <Ital texte={li} />
+                    <li
+                      key={k}
+                      style={{ display: "flex", gap: 7, alignItems: "flex-start", marginBottom: 5 }}
+                    >
+                      <span
+                        aria-hidden
+                        style={{ color: t.accent, fontWeight: 700, lineHeight: 1.55, fontSize: 11, flexShrink: 0 }}
+                      >
+                        •
+                      </span>
+                      <span style={{ fontSize: 11, color: cadre ? C.cadre.textBody : C.text, lineHeight: 1.55 }}>
+                        <Ital texte={li} />
+                      </span>
                     </li>
                   ))}
                 </ul>
