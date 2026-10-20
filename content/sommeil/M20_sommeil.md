@@ -150,7 +150,7 @@ On range un jouet ou deux ensemble : il aime se sentir acteur du soir.
 Un bain court, salle de bain chauffée, tapis antidérapant. **Ne le laisse jamais seul dans le bain, même une seconde.** Laisse-le laver une partie de son corps lui-même avant de finir le geste : il participe, tu veilles.
 
 #### 4. Le massage, la réflexologie, puis le pyjama
-En sortie de bain, au chaud, une zone du corps à la fois : un massage doux et/ou la séquence de réflexologie « Sommeil agité », **une huile végétale adaptée à l'enfant**, une pression très légère. Ce soir, ce sera le massage, la réflexologie ou les deux, selon qu'il est réceptif et selon ta fatigue. Puis le pyjama : **laisse-le choisir entre deux**, tenter d'enfiler une manche.
+En sortie de bain, au chaud, une zone du corps à la fois : un massage doux et/ou la séquence de réflexologie « Sommeil paisible », **une huile végétale adaptée à l'enfant**, une pression très légère. Ce soir, ce sera le massage, la réflexologie ou les deux, selon qu'il est réceptif et selon ta fatigue. Puis le pyjama : **laisse-le choisir entre deux**, tenter d'enfiler une manche.
 
 #### 5. Le lait du soir, puis les dents
 S'il prend encore un lait le soir, au sein ou au biberon, il trouve sa place ici, au calme, tout contre toi, ou au dessert du dîner. **Dans tous les cas, avant le brossage des dents** : le lait ne reste pas sur les dents pour la nuit.
@@ -167,7 +167,7 @@ Le doudou est tout près : **il devient le compagnon de la nuit.** Si une peur 
 ### Les cartes
 <!-- Titres retenus pour cette tranche d'âge (doc 27), à écrire. -->
 - Le massage
-- La réflexologie « Sommeil agité »
+- La réflexologie « Sommeil paisible »
 - Bouger avant de se poser
 - Raconter sa journée
 - Accueillir ce qui a pesé

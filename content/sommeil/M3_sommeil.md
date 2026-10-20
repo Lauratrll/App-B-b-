@@ -157,7 +157,7 @@ Un bain court, **eau à 37 °C vérifiée au thermomètre de bain**, dans une pi
 **Le réflexe des points cardinaux** : quand on touche sa joue ou le coin de sa bouche, il tourne la tête de ce côté pour chercher à téter. **Dans le bain, ne touche pas son visage** : il pourrait tourner la tête vers l'eau et en aspirer. Ce réflexe s'intègre généralement vers 3 à 4 mois.
 
 #### 2. Le massage, la réflexologie, puis le pyjama
-Un massage doux : mains chaudes, **une huile végétale adaptée au bébé**, des gestes lents et enveloppants, avec une pression très légère. Parle ou chantonne. Court : à cet âge, il se fatigue vite. Enchaîne, si tu veux, avec la séquence de réflexologie « Sommeil agité ». Puis le pyjama et la gigoteuse : s'il s'endort au sein ou au biberon, tu pourras le poser sans le rhabiller.
+Un massage doux : mains chaudes, **une huile végétale adaptée au bébé**, des gestes lents et enveloppants, avec une pression très légère. Parle ou chantonne. Court : à cet âge, il se fatigue vite. Enchaîne, si tu veux, avec la séquence de réflexologie « Sommeil paisible ». Puis le pyjama et la gigoteuse : s'il s'endort au sein ou au biberon, tu pourras le poser sans le rhabiller.
 
 #### 3. La dernière tétée ou le dernier biberon, tout contre toi
 Dans la pénombre, une **lumière ambrée et faible** si tu as besoin d'y voir. Pas de téléphone. S'il s'endort en buvant, laisse-le finir tranquillement. Un rot, un moment à la verticale contre toi, puis tu le poses.
@@ -171,7 +171,7 @@ Toujours **la même phrase**, chaque soir : « La nuit arrive. Tu es en sécur
 ### Les cartes
 <!-- Titres retenus pour cette tranche d'âge (doc 27), à écrire. -->
 - Le massage
-- La réflexologie « Sommeil agité »
+- La réflexologie « Sommeil paisible »
 - Le bain enveloppé
 - Les mains qui enveloppent
 - Poser sans le réveiller (le réflexe de Moro)

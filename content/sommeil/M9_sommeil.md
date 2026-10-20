@@ -133,7 +133,7 @@ Le repas du soir, il bien assis face à toi, sans jouet ni écran, puis la tét�
 Un bain court, dans une salle de bain chauffée à l'avance. **Il tient debout ou se hisse : tapis antidérapant, et ne le laisse jamais seul dans le bain, même une seconde.** S'il en sort régulièrement surexcité, déplace le bain à l'après-midi ou à un soir sur deux.
 
 #### 3. Le massage, la réflexologie, puis le pyjama
-En sortie de bain, encore dévêtu mais au chaud, une zone du corps à la fois : un massage doux et/ou la séquence de réflexologie « Sommeil agité ». Mains réchauffées, **une huile végétale adaptée au bébé**, une pression très légère. **À toi de choisir ce soir**, selon qu'il est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas.
+En sortie de bain, encore dévêtu mais au chaud, une zone du corps à la fois : un massage doux et/ou la séquence de réflexologie « Sommeil paisible ». Mains réchauffées, **une huile végétale adaptée au bébé**, une pression très légère. **À toi de choisir ce soir**, selon qu'il est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas.
 
 #### 4. L'histoire, dans sa chambre
 La lecture se fait à présent **dans sa chambre**, lumière basse, lui sur tes genoux : un livre cartonné, lu lentement. Lire là chaque soir l'aide à apprivoiser sa chambre comme un endroit doux. **La même histoire plusieurs semaines** : à 9 mois, la répétition rassure. Pointe les images : il commence à pointer en retour.
@@ -150,7 +150,7 @@ En fin d'histoire, dis la suite, **toujours dans les mêmes mots** : « Mainte
 ### Les cartes
 <!-- Titres retenus pour cette tranche d'âge (doc 27), à écrire. -->
 - Le massage
-- La réflexologie « Sommeil agité »
+- La réflexologie « Sommeil paisible »
 - Bouger avant de se poser
 - Les jeux de coucou
 - Le moment rien qu'à vous
