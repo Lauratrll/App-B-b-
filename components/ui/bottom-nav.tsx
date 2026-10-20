@@ -107,7 +107,7 @@ function OngletPicto({
 }) {
   const color = actif ? ACTIVE : INACTIVE;
   return (
-    <Link
+    <Link prefetch
       href={href}
       aria-label={label}
       aria-current={actif ? "page" : undefined}
@@ -145,7 +145,7 @@ function BoutonRond({
 }) {
   return (
     <div className="relative flex justify-center" style={{ height: BOTTOM_NAV_HEIGHT }}>
-      <Link
+      <Link prefetch
         href={href}
         aria-label={label}
         aria-current={actif ? "page" : undefined}
@@ -225,7 +225,7 @@ function BoutonEpingler() {
  *  situations ? » de Guide-moi (capitales espacées, gris eucalyptus). */
 function BoutonRetour({ href, label }: { href: string; label: string }) {
   return (
-    <Link
+    <Link prefetch
       href={href}
       aria-label={"Retour : " + label}
       className="flex min-w-0 items-center gap-1.5 rounded-full transition-transform active:scale-[0.97]"

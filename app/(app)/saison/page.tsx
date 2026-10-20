@@ -59,7 +59,7 @@ export default async function SaisonPage({
         {SAISONS.map((s) => {
           const isActive = s.key === saisonChoisie;
           return (
-            <Link
+            <Link prefetch
               key={s.key}
               href={`/saison?s=${s.key}`}
               className={`flex flex-col items-center gap-1 rounded-xl border px-2 py-2 text-[10px] ${

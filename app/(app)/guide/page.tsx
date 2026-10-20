@@ -89,7 +89,7 @@ export default async function GuidePage() {
         {meta.categories.map((cat, i) => {
           const slot = slotForCategorie(cat.id, i);
           return (
-            <Link
+            <Link prefetch
               key={cat.id}
               href={`/guide/${cat.id}`}
               style={{

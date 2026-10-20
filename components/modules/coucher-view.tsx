@@ -390,7 +390,7 @@ export function ReflexoDuSoir({
         </div>
       ) : null}
       {reflexo.lien_reflexologie ? (
-        <Link
+        <Link prefetch
           href={`/reflexologie/${reflexo.lien_reflexologie.id}`}
           style={{
             display: "block",

@@ -21,7 +21,7 @@ export function ReflexoListe({ protocoles }: { protocoles: ReflexoListItem[] }) 
         const slot = slotReflexo(p.rang);
         return (
           <li key={p.id}>
-            <Link
+            <Link prefetch
               href={`/reflexologie/${p.id}`}
               style={{
                 display: "flex",

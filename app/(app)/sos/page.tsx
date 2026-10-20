@@ -97,7 +97,7 @@ export default async function SosPage() {
         {tranche.themes.map((t, i) => {
           const ton = tonSlot(i);
           return (
-            <Link
+            <Link prefetch
               key={t.id}
               href={`/sos/${t.id}`}
               style={{

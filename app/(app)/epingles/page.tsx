@@ -150,7 +150,7 @@ function PinCard({
   return (
     <li className="rounded-2xl border border-neutral-200 p-4">
       <div className="flex items-start justify-between gap-3">
-        <Link
+        <Link prefetch
           href={href}
           className="flex-1 text-sm font-medium leading-tight text-neutral-900"
         >

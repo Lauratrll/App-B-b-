@@ -55,7 +55,7 @@ export default async function DashboardPage() {
             m.href === "/saison" ? SEASON_LABELS[season] : m.subtitle;
           return (
             <li key={m.href}>
-              <Link
+              <Link prefetch
                 href={m.href}
                 className="flex h-[130px] flex-col items-center justify-center gap-1.5 rounded-[14px] border border-black/[0.07] px-3 py-3 text-center transition-transform active:scale-[0.97]"
                 style={{ backgroundColor: m.bg }}

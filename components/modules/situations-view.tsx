@@ -67,7 +67,7 @@ function SituationButton({
   }, [firstPart]);
 
   return (
-    <Link
+    <Link prefetch
       href={href}
       style={{
         background: bgColor,

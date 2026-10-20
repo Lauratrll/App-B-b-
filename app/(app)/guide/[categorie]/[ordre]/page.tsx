@@ -37,7 +37,7 @@ export default async function ProtocolePage({
       <ProtocoleView protocole={protocole} />
 
       <div className="pt-4 text-center">
-        <Link
+        <Link prefetch
           href={`/guide/${params.categorie}`}
           className="text-xs text-neutral-500 underline"
         >

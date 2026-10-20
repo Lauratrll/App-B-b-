@@ -136,7 +136,7 @@ export default async function SoinPage() {
           const titre = TITRE_COURT[numero] ?? c.nom_outil ?? c.titre ?? "";
           const promesse = c.promesse ?? c.sous_titre;
           return (
-            <Link
+            <Link prefetch
               key={c.id}
               href={`/soin/${c.id}`}
               style={{
