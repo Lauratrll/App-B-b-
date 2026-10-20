@@ -446,7 +446,7 @@ Les scripts s'inspirent **librement** de ces approches, sans jamais citer verbat
 
 - **Haptonomie périnatale** (Frans Veldman, années 1960) — le bébé est sensible à l'intention affective dès le 2e trimestre. La parole adressée et le toucher conscient construisent le lien.
 - **Psychologie périnatale** (Bernard Golse, école française) — le bébé a une vie psychique précoce. L'émotion est déjà un mode de communication.
-- **Audition fœtale et voix maternelle** (Marie-Claire Busnel) — le nouveau-né préfère la voix maternelle entendue in utero. Reconnexion sonore validée scientifiquement.
+- **Audition fœtale et voix maternelle** (Marie-Claire Busnel) — le nouveau-né préfère la voix maternelle entendue in utero. Reconnexion sonore documentée.
 - **Constellations familiales** (approche systémique, méthode développée à partir des années 1980) — un enfant peut porter inconsciemment des charges qui ne lui appartiennent pas (deuils non faits, fausses couches précédentes, secrets de famille). Les nommer libère.
 - **Communication consciente / Parole au bébé** (approches contemporaines) — adresser des mots clairs et bienveillants au bébé, même pré-verbal, est un acte de reconnaissance qui apaise.
 - **Mémoire prénatale** — recherches contemporaines sur la sensibilité fœtale à l'atmosphère émotionnelle maternelle dès le 2e trimestre.
@@ -642,9 +642,8 @@ Cette palette est **indicative et ajustable** — la fondatrice peut faire évol
 - Toujours expliqué simplement, jamais en jargon
 - Références : Pikler (motricité libre), Bowlby/Ainsworth (attachement), Montessori (Montessori uniquement comme inspiration, jamais comme dogme)
 
-**Pression réflexo :**
-- M0 à M12 : "0/10 — c'est une caresse, pas un massage"
-- M12 à M24 : "0/10 — c'est une caresse" (même prudence)
+**Pression réflexo (corrigé le 06/10) :**
+- Jamais de pression chiffrée (plus de « 0/10 »), jamais « caresse » : décrire qualitativement, « pression douce et constante », « appui léger et maintenu ».
 
 **Précautions absolues :**
 - Pas d'huiles essentielles avant 3 ans
@@ -654,7 +653,7 @@ Cette palette est **indicative et ajustable** — la fondatrice peut faire évol
 
 **Cadre légal — transverse à toutes les rubriques :**
 L'app édite de l'**information générale** appliquée par le parent à **son propre enfant** ; elle ne diagnostique pas et ne pratique aucun acte. On ne franchit jamais les actes réservés au **médecin**, à la **sage-femme** et au **kiné**. Concrètement, dans tous les contenus :
-- **Aucun mot du registre médical réservé** : ni *thérapie / soigner / guérir / diagnostic / prescrire / patient*, ni — surtout — **« massage »** (réservé au kiné) ; on dit **toucher, geste doux, pression douce, stimulation des zones réflexes**.
+- **Aucun mot du registre médical réservé** : ni *thérapie / soigner / guérir / diagnostic / prescrire / patient*, ni **« massage thérapeutique / de rééducation / médical »** (réservé au kiné). **Le mot « massage » seul est autorisé** pour le massage bien-être fait par le parent (règle du 29/08, rappelée le 06/10) : on écrit « massage », jamais une périphrase comme « moment de toucher ». Pour la réflexologie : **pression douce, stimulation des zones réflexes**.
 - **Motricité = éveil et jeu, jamais rééducation.**
 - **Jamais de promesse** : « aide à / apaise », jamais « guérit / garantit ».
 - **Non-substitution + renvoi** au professionnel nommé dès qu'on frôle la santé, le corps ou le post-partum.

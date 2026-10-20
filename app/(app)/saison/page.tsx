@@ -33,7 +33,7 @@ export default async function SaisonPage({
       <section className="space-y-5">
         <header className="space-y-1">
           <p className="text-2xl" aria-hidden>🌿</p>
-          <h1 className="text-2xl font-semibold">Vivre la saison — {saisonLabel}</h1>
+          <h1 className="text-2xl font-semibold">Vivre la saison&nbsp;: {saisonLabel}</h1>
         </header>
         <p className="rounded-xl bg-amber-50 p-4 text-sm text-amber-900">
           Le conseil de saison du mois {mois} n&apos;est pas encore disponible.
@@ -48,7 +48,7 @@ export default async function SaisonPage({
       <header className="space-y-1">
         <p className="text-2xl" aria-hidden>🌿</p>
         <h1 className="text-2xl font-semibold leading-tight">
-          Vivre la saison — {saisonLabel}
+          Vivre la saison&nbsp;: {saisonLabel}
         </h1>
         {meta.sous_titre ? (
           <p className="text-sm text-neutral-600">{meta.sous_titre}</p>

@@ -4,11 +4,11 @@
   "rubrique": "preparer_le_coucher",
   "titre_rubrique": "Préparer le coucher",
   "sous_titre": "Un esprit, un corps, et un cœur apaisé",
-  "description": "À 22 mois, la tendresse de ton enfant s'exprime à pleins bras : il fait des câlins spontanés, donne des bisous, console son doudou — et toi — et commence à dire, à sa façon, qu'il t'aime. Le coucher devient un magnifique échange : l'enfant ne fait plus que recevoir l'affection, il en donne aussi, et cette réciprocité est une étape précieuse de l'attachement, une vraie fenêtre pour approfondir le lien. Seul point de vigilance : la tendresse peut aussi devenir un « encore un câlin » qui repousse le coucher. La recevoir pleinement, puis tenir le cadre, apprend à l'enfant que l'amour et la limite vont ensemble. À cet âge, l'enfant a une sieste unique l'après-midi, et tu peux envisager le passage à un lit au sol.",
+  "description": "À 22 mois, la tendresse de ton enfant s'exprime à pleins bras : il fait des câlins spontanés, donne des bisous, console son doudou, et toi, et commence à dire, à sa façon, qu'il t'aime. Le coucher devient un magnifique échange : l'enfant ne fait plus que recevoir l'affection, il en donne aussi, et cette réciprocité est une étape précieuse de l'attachement, une vraie fenêtre pour approfondir le lien. Seul point de vigilance : la tendresse peut aussi devenir un « encore un câlin » qui repousse le coucher. La recevoir pleinement, puis tenir le cadre, apprend à l'enfant que l'amour et la limite vont ensemble. À cet âge, l'enfant a une sieste unique l'après-midi, et tu peux envisager le passage à un lit au sol.",
   "reperes_cles": [
-    "Coucher entre 19h et 20h, à heure régulière — la régularité reste le socle, même quand le câlin s'allonge",
-    "Fenêtre d'éveil d'environ 5 à 6h — après la sieste unique de l'après-midi",
-    "Le rituel comme échange de tendresse — accueillir les câlins offerts sans repousser l'heure du coucher"
+    "Coucher entre 19h et 20h, à heure régulière : la régularité reste le socle, même quand le câlin s'allonge",
+    "Fenêtre d'éveil d'environ 5 à 6h : après la sieste unique de l'après-midi",
+    "Le rituel comme échange de tendresse : accueillir les câlins offerts sans repousser l'heure du coucher"
   ],
   "signaux_de_fatigue": [
     "Bâillements, frottement des yeux et des oreilles",
@@ -18,7 +18,7 @@
     "Pleurs faciles, besoin d'être rassuré"
   ],
   "variantes_developpementales": {
-    "intro": "Chaque enfant avance à son rythme, et à cet âge les écarts sont grands. En observant [prénom], repère le domaine qui l'occupe le plus en ce moment — ce vers quoi son élan va spontanément. Choisis cet axe : le premier temps du rituel et la berceuse s'adapteront pour valider et accompagner ce mouvement, exactement là où [prénom] en est déjà. Il ne s'agit pas de pousser vers une nouvelle compétence, mais de soutenir celle qui se déploie déjà.",
+    "intro": "Chaque enfant avance à son rythme, et à cet âge les écarts sont grands. En observant [prénom], repère le domaine qui l'occupe le plus en ce moment : ce vers quoi son élan va spontanément. Choisis cet axe : le premier temps du rituel et la berceuse s'adapteront pour valider et accompagner ce mouvement, exactement là où [prénom] en est déjà. Il ne s'agit pas de pousser vers une nouvelle compétence, mais de soutenir celle qui se déploie déjà.",
     "question_selecteur": "Où en est [prénom] en ce moment ?",
     "themes": [
       {
@@ -27,7 +27,7 @@
         "sous_titre": "[Il marche, court, grimpe sans arrêt/Elle marche, court, grimpe sans arrêt]",
         "etape_rituel": {
           "titre": "Décharger le corps avant la nuit",
-          "description": "Avant de baisser l'ambiance, un dernier moment de mouvement libre et encadré : marcher d'un meuble à l'autre, un petit parcours doux au sol. Pas de jeu excitant ni de chatouilles — laisser le corps dépenser ses dernières réserves pour qu'il accepte ensuite de se poser. Puis on ralentit franchement."
+          "description": "Avant de baisser l'ambiance, un dernier moment de mouvement libre et encadré : marcher d'un meuble à l'autre, un petit parcours doux au sol. Pas de jeu excitant ni de chatouilles : laisser le corps dépenser ses dernières réserves pour qu'il accepte ensuite de se poser. Puis on ralentit franchement."
         }
       },
       {
@@ -45,7 +45,7 @@
         "sous_titre": "[Il vit de grandes émotions, se fâche, se console/Elle vit de grandes émotions, se fâche, se console]",
         "etape_rituel": {
           "titre": "Accueillir les émotions de la journée",
-          "description": "Un temps calme dans tes bras pour accueillir ce qui a pesé : « Tu étais très content, et aussi un peu fâché tout à l'heure. C'est passé. Je suis là. » Nommer sans raviver, juste accueillir et laisser retomber. Pose une main sur son cœur et respire lentement avec lui — ton calme devient le sien."
+          "description": "Un temps calme dans tes bras pour accueillir ce qui a pesé : « Tu étais très content, et aussi un peu fâché tout à l'heure. C'est passé. Je suis là. » Nommer sans raviver, juste accueillir et laisser retomber. Pose une main sur son cœur et respire lentement avec lui : ton calme devient le sien."
         }
       },
       {
@@ -54,7 +54,7 @@
         "sous_titre": "[Il fait des câlins, donne des bisous spontanés/Elle fait des câlins, donne des bisous spontanés]",
         "etape_rituel": {
           "titre": "Un temps de tendresse partagée",
-          "description": "Avant de baisser l'ambiance, un moment de câlins et de mots doux, où l'enfant donne autant qu'il reçoit. Accueille ce qu'il t'offre — un bisou, un « câlin », un doudou tendu — nomme-le, rends-le. Cette tendresse réciproque referme la journée et prépare un endormissement serein."
+          "description": "Avant de baisser l'ambiance, un moment de câlins et de mots doux, où l'enfant donne autant qu'il reçoit. Accueille ce qu'il t'offre (un bisou, un « câlin », un doudou tendu) nomme-le, rends-le. Cette tendresse réciproque referme la journée et prépare un endormissement serein."
         }
       }
     ]
@@ -64,16 +64,16 @@
       "etape": 1,
       "focus_theme": true,
       "titre": "Décharger le corps avant la nuit",
-      "description": "Premier temps adapté à [prénom] (modifiable avec le sélecteur ci-dessus). Par défaut — Motricité : un dernier moment de mouvement encadré pour dépenser les dernières réserves. Pour un enfant très câlin le soir, l'axe Tendresse referme la journée par un échange affectueux."
+      "description": "Premier temps adapté à [prénom] (modifiable avec le sélecteur ci-dessus). Par défaut : Motricité : un dernier moment de mouvement encadré pour dépenser les dernières réserves. Pour un enfant très câlin le soir, l'axe Tendresse referme la journée par un échange affectueux."
     },
     {
       "etape": 2,
       "titre": "Baisser l'ambiance et clore la journée d'éveil",
-      "description": "Éteindre les plafonniers, allumer des lampes basses. Couper musique vive et jeux sonores. Couper tous les écrans (téléphone, télé, tablette). Proposer le rangement d'un jouet ou deux comme une responsabilité simple — l'enfant aime se sentir acteur du soir."
+      "description": "Éteindre les plafonniers, allumer des lampes basses. Couper musique vive et jeux sonores. Couper tous les écrans (téléphone, télé, tablette). Proposer le rangement d'un jouet ou deux comme une responsabilité simple : l'enfant aime se sentir acteur du soir."
     },
     {
       "titre": "Le repas du soir, en famille",
-      "description": "Le dîner se prend à table, à heure régulière, sans écran. À cet âge, ton enfant mange de plus en plus comme vous : propose un repas simple et complet et laisse-le manger seul à sa façon, même maladroite — c'est ainsi qu'il gagne en autonomie. Termine par un temps calme à table plutôt qu'en jeu, pour amorcer la descente vers la nuit. S'il prend encore un lait du soir, il viendra plus tard, dans le calme de la chambre.",
+      "description": "Le dîner se prend à table, à heure régulière, sans écran. À cet âge, ton enfant mange de plus en plus comme vous : propose un repas simple et complet et laisse-le manger seul à sa façon, même maladroite : c'est ainsi qu'il gagne en autonomie. Termine par un temps calme à table plutôt qu'en jeu, pour amorcer la descente vers la nuit. S'il prend encore un lait du soir, il viendra plus tard, dans le calme de la chambre.",
       "etape": 3
     },
     {
@@ -84,7 +84,7 @@
     {
       "etape": 5,
       "titre": "Massage, réflexologie, puis pyjama",
-      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud — pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou la séquence de réflexologie « Sommeil agité ». Mains réchauffées, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas. L'huile posée, le pyjama vient après : laisse-le choisir entre deux modèles, tenter d'enfiler une manche."
+      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud : pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou la séquence de réflexologie « Sommeil agité ». Mains réchauffées, huile végétale neutre (amande douce, calendula), pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas. L'huile posée, le pyjama vient après : laisse-le choisir entre deux modèles, tenter d'enfiler une manche."
     },
     {
       "etape": 6,
@@ -104,7 +104,7 @@
   ],
   "reflexologie_du_coucher": {
     "titre": "Réflexologie du soir",
-    "intro": "Après le bain, l'enfant allongé sur le dos, toi face à ses pieds. Voix très basse, mouvements infimes. À 22 mois, ce contact tendre prolonge l'élan affectif de la journée — c'est un échange, pas un soin imposé. La séquence « Sommeil agité » se suit pas à pas, animée, dans l'onglet Réflexologie. Elle reste la même tout au long des deux ans : c'est sa répétition, soir après soir, qui en fait un repère.",
+    "intro": "Après le bain, l'enfant allongé sur le dos, toi face à ses pieds. Voix très basse, mouvements infimes. À 22 mois, ce contact tendre prolonge l'élan affectif de la journée : c'est un échange, pas un soin imposé. La séquence « Sommeil agité » se suit pas à pas, animée, dans l'onglet Réflexologie. Elle reste la même tout au long des deux ans : c'est sa répétition, soir après soir, qui en fait un repère.",
     "consentement": "Avant tout, observe les réactions de l'enfant. La réflexologie se fait avec son accord : à la moindre crispation, s'il retire son pied ou se détourne, arrête-toi. À cet âge, il peut vouloir te toucher les pieds à son tour : c'est un beau partage. C'est un moment de plaisir mutuel.",
     "cloture": "Terminer par quelques secondes immobiles, tes mains posées sur lui. Murmurer : « Tu peux te reposer. Je suis là. »",
     "etapes": [],
@@ -117,17 +117,17 @@
     "titre": "« Toute cette tendresse »",
     "duree": "~5 minutes",
     "instruction": "Voix grave et lente, volume bas, dans la pénombre.",
-    "texte": "[Prénom]...\n\nLa journée se termine maintenant.\n\nAujourd'hui, tu m'as fait des câlins. Tu as serré ton doudou. Tu as donné de la tendresse, toi aussi. Ton petit cœur sait aimer, et ça me touche tellement.\n\n[passage_theme]\n\nCe soir, je t'enveloppe de toute ma tendresse — celle que tu me donnes, et celle que je te rends. Il y en a assez pour toute la nuit.\n\nTous les câlins de la journée, tu les gardes en toi. Ils te tiennent chaud, même dans le noir.\n\nJe suis là. La maison est calme. Ton doudou est avec toi.\n\nSi tu te réveilles, je ne suis pas loin.\n\nMaintenant, tu peux te déposer, [mon tout petit/ma toute petite].\n\nTu es en sécurité.\n\nTu es au chaud.\n\nTu es [aimé/aimée].\n\nDors, mon amour. Dors.\n\nBonne nuit.",
+    "texte": "[Prénom]...\n\nLa journée se termine maintenant.\n\nAujourd'hui, tu m'as fait des câlins. Tu as serré ton doudou. Tu as donné de la tendresse, toi aussi. Ton petit cœur sait aimer, et ça me touche tellement.\n\n[passage_theme]\n\nCe soir, je t'enveloppe de toute ma tendresse : celle que tu me donnes, et celle que je te rends. Il y en a assez pour toute la nuit.\n\nTous les câlins de la journée, tu les gardes en toi. Ils te tiennent chaud, même dans le noir.\n\nJe suis là. La maison est calme. Ton doudou est avec toi.\n\nSi tu te réveilles, je ne suis pas loin.\n\nMaintenant, tu peux te déposer, [mon tout petit/ma toute petite].\n\nTu es en sécurité.\n\nTu es au chaud.\n\nTu es [aimé/aimée].\n\nDors, mon amour. Dors.\n\nBonne nuit.",
     "passage_par_theme": {
       "motricite": "Ton corps a tant bougé aujourd'hui. Maintenant, tout ton petit corps peut se poser, tout doux.",
       "langage": "Tu as dit tant de mots aujourd'hui, et même des mots d'amour. Ta voix peut se reposer, maintenant.",
       "emotions": "Toutes tes émotions d'aujourd'hui ont eu leur place. Elles peuvent se reposer en toi, bien au chaud.",
-      "tendresse": "Tu as donné tant de câlins aujourd'hui. Cette nuit, c'est toi qu'on enveloppe — laisse-toi câliner, tu n'as rien à faire."
+      "tendresse": "Tu as donné tant de câlins aujourd'hui. Cette nuit, c'est toi qu'on enveloppe. Laisse-toi câliner, tu n'as rien à faire."
     }
   },
   "erreurs_a_eviter": [
-    "Les écrans (télévision, tablette, téléphone) dans l'heure qui précède le coucher — la lumière bleue inhibe la sécrétion de mélatonine et retarde l'endormissement de 30 à 90 minutes ; concerne aussi les écrans visibles en arrière-plan",
-    "Laisser la tendresse repousser sans fin l'heure du coucher — recevoir les câlins, puis tenir le cadre (« un dernier câlin, puis on dort ») ; sinon le « encore un câlin » devient un moyen de retarder le sommeil",
-    "Reculer l'heure du coucher en pensant que l'enfant sera « plus fatigué » — la sur-fatigue libère du cortisol qui empêche l'endormissement et fragmente la nuit"
+    "Les écrans (télévision, tablette, téléphone) dans l'heure qui précède le coucher : la lumière bleue inhibe la sécrétion de mélatonine et retarde l'endormissement de 30 à 90 minutes ; concerne aussi les écrans visibles en arrière-plan",
+    "Laisser la tendresse repousser sans fin l'heure du coucher : recevoir les câlins, puis tenir le cadre (« un dernier câlin, puis on dort ») ; sinon le « encore un câlin » devient un moyen de retarder le sommeil",
+    "Reculer l'heure du coucher en pensant que l'enfant sera « plus fatigué » : la sur-fatigue libère du cortisol qui empêche l'endormissement et fragmente la nuit"
   ]
 }

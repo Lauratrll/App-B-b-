@@ -30,7 +30,7 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Parentalité consciente — 0 à 24 mois",
+  title: "Parentalité consciente, 0 à 24 mois",
   description:
     "Accompagnement de parentalité consciente pour les parents de bébés de 0 à 24 mois.",
   icons: {

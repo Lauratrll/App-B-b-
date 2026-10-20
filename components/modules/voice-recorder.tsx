@@ -162,7 +162,7 @@ export function VoiceRecorder({ filename }: { filename?: string }) {
             Dictaphone intégré
           </p>
           <p className="text-xs text-rose-900/70">
-            Enregistrement local — rien n&apos;est envoyé à BeSerene.
+            Enregistrement local&nbsp;: rien n&apos;est envoyé à BeSerene.
           </p>
         </div>
         {state === "recording" ? (

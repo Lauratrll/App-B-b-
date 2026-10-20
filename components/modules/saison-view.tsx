@@ -87,13 +87,13 @@ export function SaisonView({ version }: { version: SaisonVersion }) {
                 {/* Fallback anciens champs */}
                 {!idee.texte && idee.ce_que_ca_apporte ? (
                   <p className="text-sm leading-relaxed text-neutral-700">
-                    <span className="font-medium">Ce que ça apporte —</span>{" "}
+                    <span className="font-medium">Ce que ça apporte&nbsp;:</span>{" "}
                     {idee.ce_que_ca_apporte}
                   </p>
                 ) : null}
                 {!idee.texte && idee.comment ? (
                   <p className="text-sm italic leading-relaxed text-neutral-600">
-                    <span className="font-medium not-italic">Comment —</span>{" "}
+                    <span className="font-medium not-italic">Comment&nbsp;:</span>{" "}
                     {idee.comment}
                   </p>
                 ) : null}

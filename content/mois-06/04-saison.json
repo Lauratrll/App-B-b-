@@ -3,9 +3,9 @@
   "tranche_age": "6 mois",
   "rubrique": "saison",
   "titre_rubrique": "Saison",
-  "sous_titre": "Mois 6 — Le Réceptif · Vivre la saison ensemble",
-  "description_m": "À 6 mois, {prenom} s'ouvre aux saveurs nouvelles, aux textures, aux odeurs de la cuisine. La diversification commence — et la saison offre une palette différente à chaque période de l'année. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
-  "description_f": "À 6 mois, {prenom} s'ouvre aux saveurs nouvelles, aux textures, aux odeurs de la cuisine. La diversification commence — et la saison offre une palette différente à chaque période de l'année. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "sous_titre": "Mois 6 : Le Réceptif · Vivre la saison ensemble",
+  "description_m": "À 6 mois, {prenom} s'ouvre aux saveurs nouvelles, aux textures, aux odeurs de la cuisine. La diversification commence, et la saison offre une palette différente à chaque période de l'année. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
+  "description_f": "À 6 mois, {prenom} s'ouvre aux saveurs nouvelles, aux textures, aux odeurs de la cuisine. La diversification commence, et la saison offre une palette différente à chaque période de l'année. Deux idées simples à vivre ensemble, et un mémo d'habillage pour la nuit.",
   "logique_selection": {
     "regle": "À 6 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
     "mapping": {
@@ -33,7 +33,7 @@
   },
   "habillage_nuit_memo": {
     "titre": "Bien habiller bébé pour la nuit",
-    "intro": "Un repère à garder en tête toute l'année — pratique aussi quand vous partez en vacances dans une autre saison.",
+    "intro": "Un repère à garder en tête toute l'année : pratique aussi quand vous partez en vacances dans une autre saison.",
     "version_a_afficher": "plus_grand",
     "note_version": "À 6 mois, bébé régule mieux sa température : on utilise le schéma 4 mois et plus."
   },
@@ -48,11 +48,11 @@
       "idees_du_moment": [
         {
           "titre": "L'éveil aux herbes aromatiques",
-          "texte": "À 6 mois, son olfaction est très fine et marque profondément sa mémoire affective. Un pot de menthe, basilic, romarin ou thym sur le rebord d'une fenêtre devient son premier petit jardin sensoriel. Bébé assis dans tes bras face au pot, froisse une feuille entre tes doigts et approche tes doigts à 10 cm de son nez. Nomme. Laisse aussi sa main plonger dans la terre du pot — cette exposition mesurée aux microbes du sol éduque son système immunitaire en construction. Mains pleines de terre dans la bouche en petite quantité : pas dangereux, même protecteur."
+          "texte": "À 6 mois, son olfaction est très fine et marque profondément sa mémoire affective. Un pot de menthe, basilic, romarin ou thym sur le rebord d'une fenêtre devient son premier petit jardin sensoriel. Bébé assis dans tes bras face au pot, froisse une feuille entre tes doigts et approche tes doigts à 10 cm de son nez. Nomme. Laisse aussi sa main plonger dans la terre du pot : cette exposition mesurée aux microbes du sol éduque son système immunitaire en construction. Mains pleines de terre dans la bouche en petite quantité : pas dangereux, même protecteur."
         },
         {
           "titre": "Le marché des couleurs",
-          "texte": "À 6 mois, son cerveau associe images, odeurs et saveurs — c'est exactement le moment où il bénéficie d'aller voir ce qu'il va manger. Le marché de printemps regorge de couleurs vives (radis rose, asperge violette, jeunes carottes orange) et d'odeurs concentrées. Porte-le en écharpe ou en porte-bébé face à toi, balade-toi lentement entre les étals, arrête-toi à un stand de légumes, fais-lui toucher et sentir. Avoir vu l'aliment l'aidera à le reconnaître à table."
+          "texte": "À 6 mois, son cerveau associe images, odeurs et saveurs : c'est exactement le moment où il bénéficie d'aller voir ce qu'il va manger. Le marché de printemps regorge de couleurs vives (radis rose, asperge violette, jeunes carottes orange) et d'odeurs concentrées. Porte-le en écharpe ou en porte-bébé face à toi, balade-toi lentement entre les étals, arrête-toi à un stand de légumes, fais-lui toucher et sentir. Avoir vu l'aliment l'aidera à le reconnaître à table."
         }
       ]
     },
@@ -61,16 +61,16 @@
       "couleur_theme": "#FAEEDA",
       "couleur_accent": "#633806",
       "emoji": "☀️",
-      "ambiance": "Tomates juteuses, melon parfumé, pêches sucrées, courgettes tendres. L'été est une saison généreuse en saveurs et en eau — exactement ce dont bébé a besoin pour démarrer.",
+      "ambiance": "Tomates juteuses, melon parfumé, pêches sucrées, courgettes tendres. L'été est une saison généreuse en saveurs et en eau, exactement ce dont bébé a besoin pour démarrer.",
       "a_savoir_cette_saison": "Les insectes piqueurs sont à leur pic : moustiques le soir, abeilles et guêpes autour des fruits et des boissons sucrées. Une moustiquaire sur la poussette ou la nacelle est l'option la plus simple et la plus sûre à cet âge. Pour les répulsifs, demande conseil au pharmacien.\n\nPar forte chaleur, propose le sein ou le biberon de lait plus souvent. À 6 mois, tu peux aussi commencer à proposer un peu d'eau plate à la cuillère ou au verre, en complément.",
       "idees_du_moment": [
         {
           "titre": "Première bouchée de melon",
-          "texte": "À 6 mois, bébé adore les saveurs sucrées naturelles — c'est physiologique, le lait maternel est sucré. Le melon d'été est doux, juteux, gorgé d'eau (utile par forte chaleur), riche en bêta-carotène. Une saveur de l'été qui marquera durablement sa mémoire affective. Choisis un melon mûr à point : une petite cuillère de purée fine, ou un bâtonnet ferme à laisser sucer (DME), dans un moment calme à l'ombre fraîche."
+          "texte": "À 6 mois, bébé adore les saveurs sucrées naturelles : c'est physiologique, le lait maternel est sucré. Le melon d'été est doux, juteux, gorgé d'eau (utile par forte chaleur), riche en bêta-carotène. Une saveur de l'été qui marquera durablement sa mémoire affective. Choisis un melon mûr à point : une petite cuillère de purée fine, ou un bâtonnet ferme à laisser sucer (DME), dans un moment calme à l'ombre fraîche."
         },
         {
           "titre": "Les pieds dans le sable frais",
-          "texte": "À 6 mois, son sens proprioceptif (la conscience de son corps dans l'espace) est en pleine construction. Le sable frais sous ses pieds nus offre une stimulation tactile incroyablement riche — chaque grain envoie un signal différent à son cortex. C'est aussi un moment de pause apaisante en pleine chaleur. Tôt le matin ou en fin de journée, à l'ombre, tiens-le debout et laisse ses pieds frôler puis appuyer doucement sur le sable."
+          "texte": "À 6 mois, son sens proprioceptif (la conscience de son corps dans l'espace) est en pleine construction. Le sable frais sous ses pieds nus offre une stimulation tactile incroyablement riche, chaque grain envoie un signal différent à son cortex. C'est aussi un moment de pause apaisante en pleine chaleur. Tôt le matin ou en fin de journée, à l'ombre, tiens-le debout et laisse ses pieds frôler puis appuyer doucement sur le sable."
         }
       ]
     },
@@ -79,16 +79,16 @@
       "couleur_theme": "#F5E4DE",
       "couleur_accent": "#C0723A",
       "emoji": "🍂",
-      "ambiance": "Potimarrons, châtaignes, pommes, poires, betteraves — l'automne est une explosion de saveurs douces et réconfortantes. Une saison parfaite pour démarrer la diversification.",
+      "ambiance": "Potimarrons, châtaignes, pommes, poires, betteraves : l'automne est une explosion de saveurs douces et réconfortantes. Une saison parfaite pour démarrer la diversification.",
       "a_savoir_cette_saison": "Le passage à l'heure d'hiver fin octobre peut désorganiser son rythme jour-nuit en pleine construction. Anticiper en décalant progressivement de 10-15 minutes par jour les 3-4 jours qui précèdent : siestes, repas, coucher. Plus doux que le saut d'une heure d'un coup.\n\nMaintenir des sorties extérieures à la lumière du jour aide aussi à recaler son horloge interne.",
       "idees_du_moment": [
         {
           "titre": "Le tas de feuilles à explorer assis",
-          "texte": "À 6 mois, si bébé tient assis seul (sinon cale-le contre toi) — l'occasion d'une première vraie position d'observateur dehors. Installe-le au bord d'un grand tas de feuilles propres dans un parc ou un jardin. Un monde nouveau s'ouvre : il peut prendre une feuille, l'examiner, la déchirer, voir ses voisins virevolter au vent. Surveillance rapprochée — tout va à la bouche."
+          "texte": "À 6 mois, si bébé tient assis seul (sinon cale-le contre toi) : l'occasion d'une première vraie position d'observateur dehors. Installe-le au bord d'un grand tas de feuilles propres dans un parc ou un jardin. Un monde nouveau s'ouvre : il peut prendre une feuille, l'examiner, la déchirer, voir ses voisins virevolter au vent. Surveillance rapprochée, tout va à la bouche."
         },
         {
           "titre": "Cuisiner avec lui face à toi",
-          "texte": "À 6 mois, son olfaction et son audition se raffinent — il enregistre profondément les ambiances. Installe-le en transat dans la cuisine, bien face à toi pour qu'il voie ce que tu fais. Pendant la préparation d'une soupe ou d'une compote, fais-lui sentir les pommes, toucher une feuille de poireau, entendre le couteau qui coupe. Une mémoire affective de la maison se construit là."
+          "texte": "À 6 mois, son olfaction et son audition se raffinent : il enregistre profondément les ambiances. Installe-le en transat dans la cuisine, bien face à toi pour qu'il voie ce que tu fais. Pendant la préparation d'une soupe ou d'une compote, fais-lui sentir les pommes, toucher une feuille de poireau, entendre le couteau qui coupe. Une mémoire affective de la maison se construit là."
         }
       ]
     },
@@ -98,15 +98,15 @@
       "couleur_accent": "#486878",
       "emoji": "❄️",
       "ambiance": "Soupes qui mijotent, mandarines parfumées, compotes de poires, vanille et cannelle. L'hiver est une saison cocon où les saveurs réconfortantes accompagnent la diversification.",
-      "a_savoir_cette_saison": "À 6 mois, bébé commence à se retourner, à se déplacer. C'est le bon moment pour faire un tour de la maison à quatre pattes — littéralement — pour repérer ce qui devient à sa portée : prises électriques (cache-prises), coins de meubles, fils qui traînent, plantes en pot à hauteur du sol.\n\nQualité de l'air intérieur : aérer 10 minutes par jour malgré le froid, éviter les bougies parfumées et les diffuseurs d'huiles essentielles, qui chargent l'air en particules fines.",
+      "a_savoir_cette_saison": "À 6 mois, bébé commence à se retourner, à se déplacer. C'est le bon moment pour faire un tour de la maison à quatre pattes, littéralement, pour repérer ce qui devient à sa portée : prises électriques (cache-prises), coins de meubles, fils qui traînent, plantes en pot à hauteur du sol.\n\nQualité de l'air intérieur : aérer 10 minutes par jour malgré le froid, éviter les bougies parfumées et les diffuseurs d'huiles essentielles, qui chargent l'air en particules fines.",
       "idees_du_moment": [
         {
           "titre": "La boîte à textures de Noël",
-          "texte": "À 6 mois, sa pince palmaire s'affine et il adore explorer ce qui est nouveau au toucher. Une petite boîte en carton remplie de matières de la saison des fêtes : une boule en feutrine, un ruban en velours, une petite branche de houx (sans baies — toxiques), un papier de soie, un morceau de pomme de pin. Il sort, examine, repose, recommence. Mémoire tactile saisonnière en construction."
+          "texte": "À 6 mois, sa pince palmaire s'affine et il adore explorer ce qui est nouveau au toucher. Une petite boîte en carton remplie de matières de la saison des fêtes : une boule en feutrine, un ruban en velours, une petite branche de houx (sans baies : toxiques), un papier de soie, un morceau de pomme de pin. Il sort, examine, repose, recommence. Mémoire tactile saisonnière en construction."
         },
         {
           "titre": "L'odeur d'une mandarine pelée",
-          "texte": "À 6 mois, son olfaction est très fine. L'odeur d'une mandarine fraîchement pelée est l'une des plus puissantes et joyeuses de l'hiver — huiles essentielles libérées dans l'air, fraîcheur, vivacité. Cette odeur marque profondément sa mémoire saisonnière (sans qu'il en mange encore — agrumes plutôt vers 7-8 mois). Pèle une mandarine devant lui, approche les zestes à 15-20 cm de son nez, nomme. Mange le fruit devant lui — il apprend par l'observation."
+          "texte": "À 6 mois, son olfaction est très fine. L'odeur d'une mandarine fraîchement pelée est l'une des plus puissantes et joyeuses de l'hiver : huiles essentielles libérées dans l'air, fraîcheur, vivacité. Cette odeur marque profondément sa mémoire saisonnière (sans qu'il en mange encore : agrumes plutôt vers 7-8 mois). Pèle une mandarine devant lui, approche les zestes à 15-20 cm de son nez, nomme. Mange le fruit devant lui : il apprend par l'observation."
         }
       ]
     }

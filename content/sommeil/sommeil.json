@@ -17,7 +17,21 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Le sommeil de {prenom} n'est pas un interrupteur : **c'est son cerveau qui passe d'un état de vigilance à un autre**¹. Depuis sa naissance, [il/elle] entre dans le sommeil par la marche du haut, le sommeil agité. [Il/Elle] bouge, grimace, entrouvre les yeux, et pourtant [il/elle] dort. Le test qui vaut pour tout : **est-ce qu'[il/elle] interagit avec toi ? Si non, c'est le signe qu'[il/elle] dort encore.**"
+                    "texte": "Le sommeil de ton bébé n'est pas un interrupteur : **c'est son cerveau qui passe d'un état de vigilance à un autre**¹, de l'éveil au sommeil, et du sommeil à l'éveil. Ces états, tu peux apprendre à les reconnaître :"
+                  },
+                  {
+                    "type": "liste",
+                    "items": [
+                      "**le sommeil agité** : il bouge, grimace, ses yeux roulent sous ses paupières, et pourtant il dort ;",
+                      "**le sommeil calme** : il est immobile, sa respiration est régulière ;",
+                      "**l'éveil calme** : ses yeux sont ouverts et brillants, il te regarde, il bouge peu ;",
+                      "**l'éveil agité** : il s'agite, ses mouvements deviennent désordonnés ;",
+                      "**les pleurs**."
+                    ]
+                  },
+                  {
+                    "type": "p",
+                    "texte": "À 3 mois, **un cycle complet dure environ une heure**, de jour comme de nuit."
                   }
                 ]
               },
@@ -26,7 +40,33 @@
                 "blocs": [
                   {
                     "type": "p",
+                    "texte": "Depuis sa naissance, il entre dans le sommeil par la marche du haut, le sommeil agité. Il bouge, grimace, entrouvre les yeux, et pourtant il s'est endormi. Le test facile : **est-ce qu'il interagit avec toi ? Si non, cela peut être le signe qu'il dort encore, même s'il a les yeux ouverts.**"
+                  },
+                  {
+                    "type": "p",
                     "texte": "Le sommeil agité du nourrisson, celui qui répare surtout le cerveau, est **un sommeil paradoxal en construction**. Chez l'adulte, le sommeil paradoxal est un sommeil où le cerveau s'active mais où le corps reste immobile. Chez ton bébé de 3 mois, il s'accompagne encore de petits mouvements : grimaces, sursauts, petits pleurs non rythmés, doigts qui s'agitent… Mois après mois, ces gestes diminuent : son corps apprend à rester tranquille pendant que son cerveau travaille. **Ces mouvements-là ne sont pas des réveils** : des chercheurs pensent même qu'ils aident son cerveau à faire connaissance avec son corps²."
+                  },
+                  {
+                    "type": "p",
+                    "texte": "**Un bébé peut pleurer en dormant.** Il peut bouger beaucoup, gémir, pousser de petits pleurs, et pourtant dormir, et aller bien. À la naissance, ce sommeil agité occupe environ la moitié de son sommeil, et à 3 mois, il en tient encore une grande part. C'est souvent en se précipitant vers lui à ce moment-là qu'on le réveille sans le vouloir. **Apprendre à le reconnaître, c'est lui laisser son sommeil.**"
+                  },
+                  {
+                    "type": "p",
+                    "texte": "**Sommeil agité ou éveil agité ? Les signaux qui les distinguent :**"
+                  },
+                  {
+                    "type": "liste",
+                    "items": [
+                      "**ses yeux** : fermés ou entrouverts, le regard ne se pose sur rien en sommeil agité ; ouverts, ils cherchent, ils te trouvent quand il est éveillé ;",
+                      "**ses pleurs** : brefs, irréguliers, ils s'arrêtent d'eux-mêmes en sommeil agité ; à l'éveil, ils montent et s'installent ;",
+                      "**ses mouvements** : des sursauts, des grimaces, des doigts qui s'agitent, par à-coups, en sommeil agité ; des mouvements de plus en plus amples à l'éveil ;",
+                      "**sa respiration** : irrégulière en sommeil agité ;",
+                      "**ta présence** : en sommeil agité, il ne réagit ni à ta voix ni à ton visage ; éveillé, il te répond."
+                    ]
+                  },
+                  {
+                    "type": "p",
+                    "texte": "Dans le doute, **attends quelques instants et observe** : s'il dort, ça passe tout seul."
                   }
                 ]
               },
@@ -35,7 +75,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Vient ensuite le sommeil calme, immobile, la respiration régulière. Il ne dure qu'une vingtaine de minutes par cycle, et c'est lui qui se divisera bientôt en **sommeil léger** et en **sommeil profond**, celui qui répare surtout le corps. À 3 mois, **un cycle complet dure environ une heure**, de jour comme de nuit."
+                    "texte": "Vient ensuite le sommeil calme, immobile, la respiration régulière. Il ne dure qu'une vingtaine de minutes par cycle, et c'est lui qui se divisera bientôt en **sommeil léger** et en **sommeil profond**, celui qui répare surtout le corps."
                   }
                 ]
               },
@@ -44,7 +84,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Côté hormones, la mélatonine donne l'heure, elle n'endort pas. S'[il/elle] est [allaité/allaitée], [il/elle] en reçoit depuis ses premiers jours par le lait maternel, plus riche le soir. Et à présent, son propre cerveau commence à en fabriquer. Son corps commence aussi à faire le lien : **la lumière signale le jour et la période d'éveil ; la pénombre indique la nuit et appelle le sommeil.** C'est ce qu'on appelle le rythme circadien, et il commence doucement à se mettre en place. Ce rythme, et l'efficacité des hormones qui l'accompagnent, ne seront pleinement installés qu'autour de 9 mois."
+                    "texte": "Côté hormones, la mélatonine donne l'heure, elle n'endort pas. S'il est allaité, il en reçoit depuis ses premiers jours par le lait maternel, qui en est plus riche le soir. Et à présent, son propre cerveau commence à en fabriquer. Son corps commence aussi à faire le lien : **la lumière signale le jour et la période d'éveil ; la pénombre indique la nuit et appelle le sommeil.** C'est ce qu'on appelle le rythme circadien, et il commence doucement à se mettre en place. Ce rythme, et l'efficacité des hormones qui l'accompagnent, ne seront pleinement installés qu'autour de 9 mois."
                   }
                 ]
               },
@@ -79,7 +119,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "C'est par ce calme-là qu'[il/elle] va apprendre à entrer dans la nuit. Les enregistrements du sommeil des bébés le montrent³ : jusqu'à 3 mois, ils s'endorment surtout par le sommeil agité ; à partir de 6 mois, surtout par le sommeil calme. **Entre les deux, tout se mélange d'un soir à l'autre.** Le jour, [il/elle] dépense son énergie ; la nuit, son cerveau répare et se développe."
+                    "texte": "C'est par ce calme-là qu'il va apprendre à entrer dans la nuit. Les enregistrements du sommeil des bébés le montrent³ : jusqu'à 3 mois, ils s'endorment surtout par le sommeil agité ; à partir de 6 mois, surtout par le sommeil calme. **Entre les deux, tout se mélange d'un soir à l'autre.**"
                   }
                 ]
               }
@@ -105,20 +145,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**Ce n'est pas toi qui as perdu la main** : c'est la porte d'entrée de son sommeil qui change de place. Quand [il/elle] se réveille, [il/elle] ne se réveille pas contre toi, [il/elle] te demande de l'aide pour redescendre. Rien ne s'abîme : [il/elle] apprend des marches qui n'existaient pas le mois dernier."
-                  }
-                ]
-              },
-              {
-                "titre": "Ses repères, à 3 mois",
-                "blocs": [
-                  {
-                    "type": "p",
-                    "texte": "**Sur 24 heures** : environ 14 à 17 heures de sommeil, dont une dizaine d'heures la nuit, entrecoupées de réveils, et le reste en plusieurs siestes dans la journée. Entre deux bébés du même âge, 2 à 3 heures d'écart sont normales : il y a des petits et des gros dormeurs."
-                  },
-                  {
-                    "type": "p",
-                    "texte": "**Faire ses nuits** : à 3 mois, c'est enchaîner environ 5 heures d'affilée. Pas 12. S'[il/elle] y arrive, c'est merveilleux : c'est déjà une vraie nuit, et n'en attends pas davantage pour l'instant, c'est normal et c'est très bien. À cet âge, avoir encore besoin de manger la nuit est normal : beaucoup de bébés en ont besoin pour grandir, surtout ceux qui sont allaités. Et son cerveau apprend encore à enchaîner ses cycles tout seul : [il/elle] se réveille à la fin d'un cycle, et c'est là qu'[il/elle] peut sentir qu'[il/elle] a faim. S'[il/elle] n'y est pas encore, rien ne va mal."
+                    "texte": "**Ce n'est pas toi qui as perdu la main** : c'est la porte d'entrée de son sommeil qui change de place. Quand il se réveille, il ne se réveille pas contre toi, il te demande de l'aide pour redescendre. Rien ne s'abîme : il apprend des marches qui n'existaient pas le mois dernier."
                   }
                 ]
               }
@@ -131,15 +158,6 @@
             "chapeau": null,
             "volets": [
               {
-                "titre": "Ce qui est normal",
-                "blocs": [
-                  {
-                    "type": "p",
-                    "texte": "À 3 mois, **se réveiller la nuit est normal**, et beaucoup de bébés ont encore besoin de boire. Chez beaucoup, les nuits commencent à s'allonger : **environ 5 heures d'affilée, c'est déjà une belle nuit à cet âge.** Et beaucoup de bruits de la nuit ne sont pas des réveils : grimaces, soupirs, petits pleurs non rythmés, c'est souvent le sommeil agité. Le test qui vaut pour tout : **est-ce qu'[il/elle] interagit avec toi ? Si non, c'est le signe qu'[il/elle] dort encore.**"
-                  }
-                ]
-              },
-              {
                 "titre": "Ses repères, à 3 mois",
                 "blocs": [
                   {
@@ -148,7 +166,11 @@
                   },
                   {
                     "type": "p",
-                    "texte": "**Faire ses nuits** : à 3 mois, c'est enchaîner environ 5 heures d'affilée. Pas 12. S'[il/elle] y arrive, c'est merveilleux : c'est déjà une vraie nuit, et n'en attends pas davantage pour l'instant, c'est normal et c'est très bien. À cet âge, avoir encore besoin de manger la nuit est normal : beaucoup de bébés en ont besoin pour grandir, surtout ceux qui sont allaités. Et son cerveau apprend encore à enchaîner ses cycles tout seul : [il/elle] se réveille à la fin d'un cycle, et c'est là qu'[il/elle] peut sentir qu'[il/elle] a faim. S'[il/elle] n'y est pas encore, rien ne va mal."
+                    "texte": "**Faire ses nuits** : à 3 mois, c'est enchaîner **environ 5 heures d'affilée**. **S'il dort 5 heures d'affilée, c'est merveilleux : c'est déjà une vraie nuit.** Certains bébés vont déjà plus loin et dorment toute la nuit d'une traite, jusqu'à 12 heures : chez eux, le besoin de boire la nuit s'est déjà espacé. Mais c'est très variable d'un bébé à l'autre : beaucoup ont encore besoin de manger la nuit pour grandir, surtout ceux qui sont allaités. **Reste à l'écoute de ton bébé** : s'il réclame, c'est qu'il en a besoin. Et s'il n'y est pas encore, rien ne va mal."
+                  },
+                  {
+                    "type": "p",
+                    "texte": "**Se réveiller la nuit est normal** : son cerveau apprend encore à enchaîner ses cycles tout seul. Il remonte près de la surface à la fin d'un cycle, et c'est là qu'il peut sentir qu'il a faim. Et beaucoup de bruits de la nuit ne sont pas des réveils : grimaces, soupirs, petits pleurs non rythmés, c'est souvent le sommeil agité."
                   }
                 ]
               }
@@ -168,20 +190,34 @@
             "chapeau": null,
             "volets": [
               {
-                "titre": "L'éveil calme, son meilleur moment",
+                "titre": "L'éveil calme, le moment pour créer du lien",
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "À 3 mois, ses moments d'**éveil calme** durent environ 30 minutes, 4 fois par jour : près de 2 heures en tout. C'est là qu'[il/elle] est le plus disponible : yeux ouverts et brillants, [il/elle] te regarde, suit ce qui bouge, bouge peu. C'est le moment des échanges, des jeux de visage, du temps au sol."
+                    "texte": "À 3 mois, ses moments d'**éveil calme** durent environ 30 minutes, 4 fois par jour : près de 2 heures en tout. C'est là qu'il est le plus disponible : yeux ouverts et brillants, il te regarde, suit ce qui bouge, bouge peu. C'est le moment des échanges, des jeux de visage, du temps au sol."
                   }
                 ]
               },
               {
-                "titre": "Le bon moment pour dormir",
+                "titre": "Ses signaux de fatigue",
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**La fin de l'éveil calme est ton signal.** Le regard décroche, les mouvements deviennent désordonnés, [il/elle] détourne la tête, se frotte les yeux : l'éveil passe de calme à agité. C'est le moment de lui proposer de dormir, avant les pleurs. **Regarde ton bébé plutôt que l'horloge** : d'un jour à l'autre, ça bouge."
+                    "texte": "**La fin de l'éveil calme est ton signal.** Quand il a reçu tout ce qu'il pouvait recevoir, il passe de l'éveil calme à l'éveil agité : c'est le signe qu'il a besoin de dormir. Les signaux à guetter :"
+                  },
+                  {
+                    "type": "liste",
+                    "items": [
+                      "son regard se fige, décroche, part dans le vague ;",
+                      "il détourne la tête dès que tu lui parles ou que tu lui montres quelque chose ;",
+                      "il se frotte les yeux ou les oreilles ;",
+                      "ses bras et ses jambes s'agitent, ses mouvements deviennent saccadés ;",
+                      "il commence à grogner, à se plaindre."
+                    ]
+                  },
+                  {
+                    "type": "p",
+                    "texte": "C'est le moment de lui proposer de dormir, avant les pleurs. **Regarde ton bébé plutôt que l'horloge** : d'un jour à l'autre, ça bouge."
                   }
                 ]
               },
@@ -190,7 +226,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "À cet âge, les siestes ne suivent pas encore d'horaire : **en moyenne trois par jour, mais d'un bébé à l'autre, d'une à cinq**⁴. Ce qui compte, ce n'est pas le nombre, c'est qu'[il/elle] puisse dormir quand l'éveil calme se termine. Pour les siestes de la journée, une lumière douce suffit : garder un peu de jour l'aide à faire la différence avec la nuit."
+                    "texte": "À cet âge, les siestes ne suivent pas encore d'horaire : **en moyenne trois par jour, mais d'un bébé à l'autre, d'une à cinq**⁴. Ce qui compte, ce n'est pas le nombre, c'est qu'il puisse dormir quand l'éveil calme se termine. Pour les siestes de la journée, **une petite pénombre suffit** : garder un peu de lumière du jour l'aide à faire la différence avec la nuit."
                   }
                 ]
               },
@@ -199,7 +235,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Une sieste de 45 minutes s'arrête souvent quand un cycle se termine, au moment où [il/elle] remonte près de la surface. **Avant de conclure qu'[il/elle] est [réveillé/réveillée], regarde** : s'[il/elle] bouge, grimace, ouvre un œil sans interagir avec toi, [il/elle] dort peut-être encore, en sommeil agité. Laisse-lui quelques secondes : [il/elle] peut repartir pour un cycle. Et si la sieste s'arrête là, **elle n'est pas ratée** : même à 3 mois, un petit somme aide à retenir ce qu'[il/elle] vient de découvrir⁵."
+                    "texte": "Une sieste de 45 minutes s'arrête souvent quand un cycle se termine, au moment où il remonte près de la surface. **Avant de conclure qu'il est réveillé, regarde** : s'il bouge, grimace, ouvre un œil sans interagir avec toi, il dort peut-être encore, en sommeil agité. Laisse-lui quelques secondes : il peut repartir pour un cycle. Et si la sieste s'arrête là, **elle n'est pas ratée** : même à 3 mois, un petit somme aide à retenir ce qu'il vient de découvrir⁵."
                   }
                 ]
               },
@@ -208,7 +244,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "S'il faut [le/la] réveiller, pour un départ le matin ou une sieste qui s'étire tard dans la journée, tu peux le faire **en douceur**. **Ouvre la porte, laisse entrer la lumière et les bruits de la maison, parle doucement à côté** : [il/elle] sortira du sommeil quand [il/elle] sera [prêt/prête], sans être [tiré/tirée] d'un cycle en plein milieu."
+                    "texte": "S'il faut le réveiller, pour un départ le matin ou une sieste qui s'étire tard dans la journée, tu peux le faire **en douceur**. **Ouvre la porte, laisse entrer la lumière et les bruits de la maison, parle doucement à côté** : il sortira du sommeil quand il sera prêt, sans être réveillé en plein milieu d'un sommeil calme."
                   }
                 ]
               },
@@ -217,7 +253,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Sors avec [lui/elle] dans la journée, le matin si tu peux : **la lumière du jour est le repère le plus fort pour son horloge biologique**. Une heure de lever à peu près régulière donne aussi un point de départ à sa journée. Et dans ses moments d'éveil, du temps au sol, sous ton regard."
+                    "texte": "Sors avec lui dans la journée, le matin si tu peux : **la lumière du jour est le repère le plus fort pour son horloge biologique**. Une heure de lever à peu près régulière donne aussi un point de départ à sa journée. Et dans ses moments d'éveil, du temps au sol, sous ton regard."
                   }
                 ]
               }
@@ -234,7 +270,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Chez beaucoup de bébés, **les pleurs se regroupent en fin d'après-midi et en soirée**⁶. Bonne nouvelle : à 3 mois, le plus fort est en général derrière vous, les pleurs diminuent peu à peu⁷. Certains soirs, pourtant, rien ne marche. **Certains pleurs ne s'arrêtent pas, et ce n'est pas ta faute**⁸ : rester près de [lui/elle], c'est déjà l'aider."
+                    "texte": "Chez beaucoup de bébés, **les pleurs se regroupent en fin d'après-midi et en soirée**⁶. Bonne nouvelle : à 3 mois, le plus fort est en général derrière vous, les pleurs diminuent peu à peu⁷. Certains soirs, pourtant, rien ne marche. **Certains pleurs ne s'arrêtent pas, et ce n'est pas ta faute**⁸ : rester près de lui, c'est déjà l'aider."
                   }
                 ]
               },
@@ -252,7 +288,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "En fin de journée, **baisse les lumières** : des lampes basses et chaudes plutôt que le plafonnier. Son horloge biologique ne sait pas encore lire l'heure seule : la pénombre du soir est un des repères que tu lui donnes, pour qu'[il/elle] fasse le lien entre la nuit et le sommeil."
+                    "texte": "En fin de journée, **baisse les lumières** : des lampes basses et chaudes plutôt que le plafonnier. Son horloge biologique ne sait pas encore lire l'heure seule : la pénombre du soir est un des repères que tu lui donnes, pour qu'il fasse le lien entre la nuit et le sommeil."
                   }
                 ]
               },
@@ -265,7 +301,7 @@
                   },
                   {
                     "type": "p",
-                    "texte": "Si tu sens que tu craques : **couche-[le/la] sur le dos dans son lit, sors de la pièce, respire, appelle quelqu'un.** Allo Parents Bébé : 0 800 00 34 56 (gratuit). Danger immédiat : le 15."
+                    "texte": "Si tu sens que tu craques : **couche-le sur le dos dans son lit, sors de la pièce, respire, appelle quelqu'un.** Allo Parents Bébé : 0 800 00 34 56 (gratuit). Danger immédiat : le 15."
                   }
                 ]
               }
@@ -291,7 +327,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**La mise au lit du soir et la tétée de fin de soirée sont deux moments différents.** Si [il/elle] se réveille encore pour boire vers 23 h, **tu n'as pas à l'attendre pour aller dormir** : couche-toi quand [il/elle] dort, [il/elle] saura t'appeler."
+                    "texte": "**La mise au lit du soir et la tétée de fin de soirée sont deux moments différents.** S'il se réveille encore pour boire vers 23 h, **tu n'as pas à l'attendre pour aller dormir** : couche-toi quand il dort, il saura t'appeler."
                   }
                 ]
               }
@@ -308,7 +344,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Entre deux cycles, [il/elle] remonte près de la surface. **Laisse-lui quelques instants** pour voir s'[il/elle] redescend [seul/seule] : parfois, [il/elle] se rendort. À cet âge, [il/elle] n'a pas toujours les capacités pour s'apaiser à nouveau : **s'[il/elle] se réveille vraiment et t'appelle, tu viens.** Lui donner sa chance, ce n'est jamais le laisser pleurer."
+                    "texte": "Entre deux cycles, il remonte près de la surface. **Laisse-lui quelques instants** pour voir s'il redescend seul : parfois, il se rendort. Et ses petits pleurs ne veulent pas toujours dire qu'il est réveillé : en sommeil agité, il peut pleurer en dormant (voir « Bébé bouge pendant son sommeil »). À cet âge, il n'a pas toujours les capacités pour s'apaiser à nouveau : **s'il se réveille vraiment et t'appelle, tu viens.** Lui donner sa chance, ce n'est jamais le laisser pleurer."
                   }
                 ]
               },
@@ -317,7 +353,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Garde la nuit **sombre et calme** : une lumière ambrée et faible pour toi, une voix basse, pas de jeu, pas de téléphone. Change la couche si c'est nécessaire, dans la pénombre. Si [il/elle] boit au biberon, **prépare-le au moment de le donner**. Puis tu [le/la] recouches **sur le dos**."
+                    "texte": "Garde la nuit **sombre et calme** : une lumière ambrée et faible pour toi, une voix basse, pas de jeu, pas de téléphone. Change la couche si c'est nécessaire, dans la pénombre. S'il boit au biberon, **prépare-le au moment de le donner**. Puis tu le recouches **sur le dos**."
                   }
                 ]
               },
@@ -326,11 +362,11 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**Appelle le 15** si [il/elle] fait des pauses respiratoires, si ses lèvres bleuissent, s'[il/elle] est difficile à réveiller ou respire avec difficulté."
+                    "texte": "**Appelle le 15** s'il fait des pauses respiratoires, si ses lèvres bleuissent, s'il est difficile à réveiller ou respire avec difficulté."
                   },
                   {
                     "type": "p",
-                    "texte": "**Consulte ton médecin** si ses pleurs de nuit sont inhabituels et que tu ne [le/la] reconnais pas, s'[il/elle] refuse de boire, ou s'[il/elle] a de la fièvre (les repères sont dans SOS)."
+                    "texte": "**Consulte ton médecin** si ses pleurs de nuit sont inhabituels et que tu ne le reconnais pas, s'il refuse de boire, ou s'il a de la fièvre (les repères sont dans SOS)."
                   },
                   {
                     "type": "p",
@@ -358,11 +394,11 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Un bain court, **eau à 37 °C vérifiée au thermomètre de bain**, dans une pièce chauffée, lumière tamisée, voix lente. Le bain enveloppé, [il/elle] dans un lange, peut l'apaiser au point qu'[il/elle] s'assoupisse : **tiens-[le/la] toujours, visage hors de l'eau**, et la fin du bain se décide avant qu'[il/elle] se refroidisse. Rien d'autre dans l'eau, pas de téléphone. **Ne [le/la] lâche jamais dans le bain, même une seconde** : à cet âge, [il/elle] ne tient pas encore [assis/assise]. Certains bébés se réveillent au bain au lieu de s'apaiser : chez eux, il se donne plutôt le matin."
+                    "texte": "Un bain court, **eau à 37 °C vérifiée au thermomètre de bain**, dans une pièce chauffée, lumière tamisée, voix lente. Dans un lange, le bain enveloppé peut l'apaiser au point qu'il s'assoupisse : **tiens-le toujours, visage hors de l'eau**, et la fin du bain se décide avant qu'il se refroidisse. Rien d'autre dans l'eau, pas de téléphone. **Ne le lâche jamais dans le bain, même une seconde** : à cet âge, il ne tient pas encore assis. Certains bébés se réveillent au bain au lieu de s'apaiser : chez eux, il se donne plutôt le matin."
                   },
                   {
                     "type": "p",
-                    "texte": "**Le réflexe des points cardinaux** : quand on touche sa joue ou le coin de sa bouche, [il/elle] tourne la tête de ce côté pour chercher à téter. **Dans le bain, ne touche pas son visage** : [il/elle] pourrait tourner la tête vers l'eau et en aspirer. Ce réflexe s'intègre généralement vers 3 à 4 mois."
+                    "texte": "**Le réflexe des points cardinaux** : quand on touche sa joue ou le coin de sa bouche, il tourne la tête de ce côté pour chercher à téter. **Dans le bain, ne touche pas son visage** : il pourrait tourner la tête vers l'eau et en aspirer. Ce réflexe s'intègre généralement vers 3 à 4 mois."
                   }
                 ]
               },
@@ -371,7 +407,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Un massage doux : mains chaudes, **une huile végétale adaptée au bébé**, des gestes lents et enveloppants, avec une pression très légère. Parle ou chantonne. Court : à cet âge, [il/elle] se fatigue vite. Enchaîne, si tu veux, avec la séquence de réflexologie « Sommeil agité ». Puis le pyjama et la gigoteuse : s'[il/elle] s'endort au sein ou au biberon, tu pourras [le/la] poser sans [le/la] rhabiller."
+                    "texte": "Un massage doux : mains chaudes, **une huile végétale adaptée au bébé**, des gestes lents et enveloppants, avec une pression très légère. Parle ou chantonne. Court : à cet âge, il se fatigue vite. Enchaîne, si tu veux, avec la séquence de réflexologie « Sommeil agité ». Puis le pyjama et la gigoteuse : s'il s'endort au sein ou au biberon, tu pourras le poser sans le rhabiller."
                   }
                 ]
               },
@@ -380,7 +416,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Dans la pénombre, une **lumière ambrée et faible** si tu as besoin d'y voir. Pas de téléphone. S'[il/elle] s'endort en buvant, laisse-[le/la] finir tranquillement. Un rot, un moment à la verticale contre toi, puis tu [le/la] poses."
+                    "texte": "Dans la pénombre, une **lumière ambrée et faible** si tu as besoin d'y voir. Pas de téléphone. S'il s'endort en buvant, laisse-le finir tranquillement. Un rot, un moment à la verticale contre toi, puis tu le poses."
                   }
                 ]
               },
@@ -389,7 +425,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Toujours **la même phrase**, chaque soir : « La nuit arrive. Tu es en sécurité. Je suis là. » **Pose-[le/la] sur le dos, dans son lit nu**, les fesses puis la tête. Une main posée sur son ventre quelques instants, puis tu sors en silence. Si tu utilises un bruit blanc : **volume bas, loin du lit, pas toute la nuit.**"
+                    "texte": "Toujours **la même phrase**, chaque soir : « La nuit arrive. Tu es en sécurité. Je suis là. » **Pose-le sur le dos, dans son lit nu**, les fesses puis la tête. Une main posée sur son ventre quelques instants, puis tu sors en silence. Si tu utilises un bruit blanc : **volume bas, loin du lit, pas toute la nuit.**"
                   }
                 ]
               }
@@ -442,7 +478,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Le coucher n'appartient pas à un seul parent. **Quand le co-parent le prend régulièrement, dès les premières semaines**, chacun y gagne : le parent qui allaite récupère un peu de temps pour [lui/elle], le co-parent construit son propre lien **et sa confiance en lui**, et {prenom} apprend qu'il y a plusieurs bras sûrs pour l'accompagner vers la nuit. Les mêmes étapes, dans le même ordre, mais **avec ses gestes et sa voix à [lui/elle]** : pas une copie, sa version."
+                    "texte": "Le coucher n'appartient pas à un seul parent. **Quand le co-parent le prend régulièrement, dès les premières semaines**, chacun y gagne : le parent qui allaite récupère un peu de temps pour lui, le co-parent construit son propre lien **et sa confiance en lui**, et ton bébé apprend qu'il y a plusieurs bras sûrs pour l'accompagner vers la nuit. Les mêmes étapes, dans le même ordre, mais **avec ses gestes et sa voix à lui** : pas une copie, sa version."
                   },
                   {
                     "type": "liste",
@@ -478,7 +514,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**Couche-[le/la] sur le dos, pour la nuit comme pour les siestes**, jamais sur le ventre ni sur le côté. **À plat, même en cas de reflux** : sur le dos, une régurgitation ne [le/la] met pas en danger, et incliner le lit ne réduit pas le reflux."
+                    "texte": "**Couche-le sur le dos, pour la nuit comme pour les siestes**, jamais sur le ventre ni sur le côté. **À plat, même en cas de reflux** : sur le dos, une régurgitation ne le met pas en danger, et incliner le lit ne réduit pas le reflux."
                   }
                 ]
               },
@@ -496,7 +532,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**Son lit dans ta chambre, les 6 premiers mois** : dormir près de toi le protège, chacun dans son lit. **Ne t'endors jamais avec [lui/elle] sur un canapé ou dans un fauteuil.** Si tu sens que tu risques de t'endormir en [le/la] nourrissant la nuit, fais-le dans ton lit plutôt que sur un canapé, et repose-[le/la] dans son lit dès que possible."
+                    "texte": "**Son lit dans ta chambre, les 6 premiers mois** : dormir près de toi le protège, chacun dans son lit. **Ne t'endors jamais avec lui sur un canapé ou dans un fauteuil.** Si tu sens que tu risques de t'endormir en le nourrissant la nuit, fais-le dans ton lit plutôt que sur un canapé, et repose-le dans son lit dès que possible."
                   }
                 ]
               },
@@ -505,7 +541,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**Entre 18 et 20 °C**, sans trop [le/la] couvrir, la tête toujours dégagée : un peu frais vaut mieux que trop chaud. **Aucune fumée** dans le logement ni près de [lui/elle]."
+                    "texte": "**Entre 18 et 20 °C**, sans trop le couvrir, la tête toujours dégagée : un peu frais vaut mieux que trop chaud. **Aucune fumée** dans le logement ni près de lui."
                   }
                 ]
               },
@@ -514,7 +550,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**Au moment de dormir, sans forcer** s'[il/elle] n'en veut pas, **jamais attachée**. S'[il/elle] est [allaité/allaitée], une fois l'allaitement bien installé."
+                    "texte": "**Au moment de dormir, sans forcer** s'il n'en veut pas, **jamais attachée**. S'il est allaité, une fois l'allaitement bien installé."
                   }
                 ]
               },
@@ -533,14 +569,23 @@
           {
             "id": "il-se-reveille-plus-que-d-habitude",
             "titre": "Il se réveille plus que d'habitude ?",
-            "chapeau": "**Avant de chercher loin, vérifie le plus simple.**",
+            "chapeau": null,
             "volets": [
+              {
+                "titre": null,
+                "blocs": [
+                  {
+                    "type": "p",
+                    "texte": "**Avant de chercher loin, vérifie le plus simple.**"
+                  }
+                ]
+              },
               {
                 "titre": "En dix secondes",
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "La température de la chambre (18 à 20 °C ; sa nuque chaude et moite, [il/elle] a trop chaud), ses vêtements, sa couche, un bruit ou une lumière, **la tétine perdue** (jamais attachée). Et tout simplement la faim."
+                    "texte": "La température de la chambre (18 à 20 °C ; sa nuque chaude et moite, il a trop chaud), ses vêtements, sa couche, un bruit ou une lumière, **la tétine perdue** (jamais attachée). Et tout simplement la faim."
                   }
                 ]
               },
@@ -554,7 +599,7 @@
                 ]
               },
               {
-                "titre": "Si tu es [inquiet/inquiète]",
+                "titre": "Si quelque chose t'inquiète",
                 "blocs": [
                   {
                     "type": "p",
@@ -588,7 +633,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "À 9 mois, **son sommeil ressemble déjà beaucoup au tien**. [Il/Elle] entre dans la nuit par le sommeil calme, passe par le sommeil léger, puis descend en début de nuit jusqu'au sommeil profond, celui qui répare surtout le corps : c'est en y entrant que **l'hormone de croissance est libérée**¹. Le sommeil paradoxal, celui qui répare surtout le cerveau, arrive à présent plutôt en fin de nuit. À la naissance, le sommeil agité occupait plus de la moitié de ses nuits ; le sommeil paradoxal qu'il est devenu n'en occupe plus qu'environ un cinquième."
+                    "texte": "À 9 mois, **son sommeil ressemble déjà beaucoup au tien**. Il entre dans la nuit par le sommeil calme, passe par le sommeil léger, puis descend en début de nuit jusqu'au sommeil profond, celui qui répare surtout le corps : c'est en y entrant que **l'hormone de croissance est libérée**¹. Le sommeil paradoxal, celui qui répare surtout le cerveau, arrive à présent plutôt en fin de nuit. À la naissance, le sommeil agité occupait plus de la moitié de ses nuits ; le sommeil paradoxal qu'il est devenu n'en occupe plus qu'environ un cinquième."
                   }
                 ]
               },
@@ -597,7 +642,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Son corps a bien fait le lien : la lumière signale le jour et la période d'éveil ; la pénombre indique la nuit et appelle le sommeil. **Son rythme circadien est installé.** Ses deux horloges hormonales sont en place : la mélatonine monte le soir et, vers 9 mois, agit enfin vraiment sur son rythme ; le cortisol monte au réveil, un rythme qui s'installe entre 6 et 9 mois². Elles donnent l'heure ; **le sommeil, c'est toujours son cerveau qui le fait.**"
+                    "texte": "Son corps a bien fait le lien : la lumière signale le jour et la période d'éveil ; la pénombre indique la nuit et appelle le sommeil. **Son rythme circadien est installé.** Ses deux horloges hormonales sont en place : la mélatonine monte le soir et agit enfin vraiment sur son rythme ; le cortisol monte au réveil. Ce rythme s'installe vraiment entre 6 et 9 mois². Ces hormones donnent l'heure ; **mais l'endormissement et le sommeil restent le travail du cerveau.**"
                   }
                 ]
               },
@@ -623,7 +668,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "9 mois est une étape charnière, et elle bouscule les nuits. Deux grands chantiers avancent en même temps. **Le corps** : ramper, se hisser, se mettre debout, chacun à son heure. **Et une découverte** : tu continues d'exister quand tu quittes la pièce. Avant, tu disparaissais ; à présent, tu es quelque part, et [il/elle] peut t'appeler."
+                    "texte": "9 mois est une étape charnière, et elle bouscule les nuits. Deux grands chantiers avancent en même temps. **Le corps** : ramper, se hisser, se mettre debout, chacun à son heure. **Et une découverte** : tu continues d'exister quand tu quittes la pièce. Avant, tu disparaissais ; à présent, tu es quelque part, et il peut t'appeler."
                   }
                 ]
               },
@@ -632,7 +677,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Les études le confirment³ : quand une compétence motrice arrive, les réveils augmentent. **Ce n'est pas son sommeil qui recule, c'est son cerveau qui travaille ailleurs**, au rythme de son acquisition à [lui/elle], pas de son âge."
+                    "texte": "Les études le confirment³ : quand une compétence motrice arrive, les réveils augmentent. **Ce n'est pas son sommeil qui recule, c'est son cerveau qui travaille ailleurs**, au rythme de son acquisition à lui, pas de son âge."
                   }
                 ]
               }
@@ -649,7 +694,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Chez beaucoup de bébés, **les appels de nuit reviennent**, alors que c'était réglé. S'[il/elle] commence à se hisser, tu [le/la] retrouveras peut-être debout contre les barreaux, à moitié [endormi/endormie], sans savoir encore redescendre. **Le coucher peut s'étirer** : [il/elle] sait à présent que tu pars. Ses siestes bougent aussi : la troisième commence souvent à résister, et le passage à deux se fait entre 9 et 12 mois."
+                    "texte": "Chez beaucoup de bébés, **les appels de nuit reviennent**, alors que c'était réglé. S'il commence à se hisser, tu le retrouveras peut-être debout contre les barreaux, à moitié endormi, sans savoir encore redescendre. **Le coucher peut s'étirer** : il sait à présent que tu pars. Ses siestes bougent aussi : la troisième commence souvent à résister, et le passage à deux se fait entre 9 et 12 mois."
                   }
                 ]
               },
@@ -658,20 +703,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "[Il/Elle] ne le fait pas exprès, [il/elle] ne peut pas faire autrement ; se mettre à ta place, ce sera vers 4 ans. **Avant 1 an, on ne parle pas de trouble du sommeil.** Quand la compétence est installée, le sommeil de {prenom} se repose."
-                  }
-                ]
-              },
-              {
-                "titre": "Ses repères, à 9 mois",
-                "blocs": [
-                  {
-                    "type": "p",
-                    "texte": "**Sur 24 heures** : environ 12 à 15 heures de sommeil : 10 à 12 heures la nuit, et 2 à 3 heures de jour, en 2 ou 3 siestes. Entre deux bébés du même âge, 2 à 3 heures d'écart sont normales : il y a des petits et des gros dormeurs."
-                  },
-                  {
-                    "type": "p",
-                    "texte": "**Faire ses nuits** : entre 6 mois et 1 an, le repère devient une plage d'environ 6 heures d'affilée. Beaucoup de bébés n'y sont pas encore à 1 an, et ça ne dit rien de leur développement. À cet âge, ce qui se joue la nuit est surtout neurologique : [il/elle] apprend à se rendormir entre deux cycles, en plein chantier. Et les réveils de nuit restent l'affaire de la majorité des enfants jusqu'à 3 ans."
+                    "texte": "Il ne le fait pas exprès, il ne peut pas faire autrement ; se mettre à ta place, ce sera vers 4 ans. **Avant 1 an, on ne parle pas de trouble du sommeil.** Quand la compétence est installée, son sommeil se repose."
                   }
                 ]
               }
@@ -684,15 +716,6 @@
             "chapeau": null,
             "volets": [
               {
-                "titre": "Ce qui est normal",
-                "blocs": [
-                  {
-                    "type": "p",
-                    "texte": "À 9 mois, **beaucoup de bébés se réveillent encore la nuit**, et c'est normal. Le repère : **environ 6 heures d'affilée**, et beaucoup n'y sont pas encore. En ce moment, ses acquisitions remuent ses nuits : les appels peuvent revenir alors que c'était réglé. Et en fin de nuit, quand le sommeil paradoxal domine, [il/elle] remonte plus souvent près de la surface."
-                  }
-                ]
-              },
-              {
                 "titre": "Ses repères, à 9 mois",
                 "blocs": [
                   {
@@ -701,7 +724,11 @@
                   },
                   {
                     "type": "p",
-                    "texte": "**Faire ses nuits** : entre 6 mois et 1 an, le repère devient une plage d'environ 6 heures d'affilée. Beaucoup de bébés n'y sont pas encore à 1 an, et ça ne dit rien de leur développement. À cet âge, ce qui se joue la nuit est surtout neurologique : [il/elle] apprend à se rendormir entre deux cycles, en plein chantier. Et les réveils de nuit restent l'affaire de la majorité des enfants jusqu'à 3 ans."
+                    "texte": "**Faire ses nuits** : entre 6 mois et 1 an, le repère devient **environ 6 heures d'affilée**. **S'il les enchaîne, c'est une vraie nuit.** Certains bébés dorment déjà toute la nuit d'une traite ; beaucoup n'y sont pas encore à 1 an, et ça ne dit rien de leur développement."
+                  },
+                  {
+                    "type": "p",
+                    "texte": "**Se réveiller la nuit est normal** : à cet âge, ce qui se joue la nuit est surtout neurologique. Il apprend à se rendormir entre deux cycles, en plein chantier : ses acquisitions remuent ses nuits, et les appels peuvent revenir alors que c'était réglé. En fin de nuit, quand le sommeil paradoxal domine, il remonte plus souvent près de la surface. Et les réveils de nuit restent l'affaire de la majorité des enfants jusqu'à 3 ans."
                   }
                 ]
               }
@@ -725,7 +752,20 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "À 9 mois, ses temps d'éveil sont plus longs, et ses signaux changent : **le regard qui décroche, l'intérêt qui tombe pour ses jouets**, les yeux et les oreilles qu'[il/elle] frotte. Souvent aussi une agitation inhabituelle : [il/elle] se relève sans cesse, escalade, ou au contraire s'accroche à toi et refuse d'être [posé/posée]. C'est le moment de proposer la sieste."
+                    "texte": "À 9 mois, ses temps d'éveil sont plus longs, et **ses signaux changent** :"
+                  },
+                  {
+                    "type": "liste",
+                    "items": [
+                      "son regard se fige ou décroche, **l'intérêt pour ses jouets tombe** ;",
+                      "il se frotte les yeux, les oreilles ou le nez ;",
+                      "une agitation inhabituelle : il se relève sans cesse, escalade, ses mouvements deviennent désordonnés ;",
+                      "ou au contraire, **il s'accroche à toi**, refuse d'être posé au sol, demande les bras."
+                    ]
+                  },
+                  {
+                    "type": "p",
+                    "texte": "C'est le moment de proposer la sieste."
                   }
                 ]
               },
@@ -743,7 +783,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Les signes, à voir **plusieurs jours de suite** : [il/elle] refuse la troisième sieste sereinement, [il/elle] n'a pas l'air [fatigué/fatiguée] à ce moment-là, [il/elle] tient jusqu'au coucher sans s'effondrer, et ses nuits restent bonnes. Un seul signe ne suffit pas. Pendant l'adaptation, **avancer un peu le coucher du soir** aide : c'est normal, et ça ne dure pas. Et si les nuits se dégradent, revenir à trois siestes n'est pas un échec : c'était peut-être un peu tôt."
+                    "texte": "Les signes, à voir **plusieurs jours de suite** : il refuse la troisième sieste sereinement, il n'a pas l'air fatigué à ce moment-là, il tient jusqu'au coucher sans s'effondrer, et ses nuits restent bonnes. Un seul signe ne suffit pas. Pendant l'adaptation, **avancer un peu le coucher du soir** aide : c'est normal, et ça ne dure pas. Et si les nuits se dégradent, revenir à trois siestes n'est pas un échec : c'était peut-être un peu tôt."
                   }
                 ]
               },
@@ -752,7 +792,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Si une sieste se prolonge et risque de décaler le coucher, ou s'il faut [le/la] réveiller le matin, tu peux le faire **en douceur**. **Ouvre la porte, laisse entrer la lumière et les bruits de la maison, parle doucement à côté** : [il/elle] sortira du sommeil quand [il/elle] sera [prêt/prête], sans être [tiré/tirée] d'un cycle en plein milieu."
+                    "texte": "Si une sieste se prolonge et risque de décaler le coucher, ou s'il faut le réveiller le matin, tu peux le faire **en douceur**. **Ouvre la porte, laisse entrer la lumière et les bruits de la maison, parle doucement à côté** : il sortira du sommeil quand il sera prêt, sans être réveillé en plein milieu d'un sommeil profond."
                   }
                 ]
               },
@@ -761,7 +801,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Laisse-lui du **temps libre au sol**, pieds nus : c'est le jour qu'[il/elle] s'entraîne à ce qu'[il/elle] apprend, à son rythme. Et sors chaque jour, avec une heure de lever à peu près régulière : **ce sont les repères qui entretiennent son rythme circadien**, maintenant installé."
+                    "texte": "Laisse-lui du **temps libre au sol**, pieds nus : c'est le jour qu'il s'entraîne à ce qu'il apprend, à son rythme. Et sors chaque jour, avec une heure de lever à peu près régulière : **ce sont les repères qui entretiennent son rythme circadien**, maintenant installé."
                   }
                 ]
               }
@@ -787,7 +827,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "[Il/Elle] sait à présent que tu pars quand tu sors de la pièce. **Un moment de proximité avant le rituel**, sans téléphone, l'aide à faire le plein de toi avant la séparation de la nuit. Ce n'est pas le prolonger : c'est le préparer."
+                    "texte": "Il sait à présent que tu pars quand tu sors de la pièce. **Un moment de proximité avant le rituel**, sans téléphone, l'aide à faire le plein de toi avant la séparation de la nuit. Ce n'est pas le prolonger : c'est le préparer."
                   }
                 ]
               },
@@ -796,7 +836,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "En fin de journée, **baisse les lumières** : des lampes basses et chaudes plutôt que le plafonnier. **Les écrans allumés, télévision en fond comprise, ajoutent les deux choses qu'on cherche à retirer le soir** : de la lumière et de l'agitation, des images et des sons qui changent sans arrêt. Éteins-les dans la pièce où [il/elle] est."
+                    "texte": "En fin de journée, **baisse les lumières** : des lampes basses et chaudes plutôt que le plafonnier. **Les écrans allumés, télévision en fond comprise, ajoutent les deux choses qu'on cherche à retirer le soir** : de la lumière et de l'agitation, des images et des sons qui changent sans arrêt. Éteins-les dans la pièce où il est."
                   }
                 ]
               },
@@ -809,7 +849,7 @@
                   },
                   {
                     "type": "p",
-                    "texte": "Si tu sens que tu craques : **couche-[le/la] sur le dos dans son lit, sors de la pièce, respire, appelle quelqu'un.** Allo Parents Bébé : 0 800 00 34 56 (gratuit). Danger immédiat : le 15."
+                    "texte": "Si tu sens que tu craques : **couche-le sur le dos dans son lit, sors de la pièce, respire, appelle quelqu'un.** Allo Parents Bébé : 0 800 00 34 56 (gratuit). Danger immédiat : le 15."
                   }
                 ]
               }
@@ -840,8 +880,8 @@
                   {
                     "type": "liste",
                     "items": [
-                      "**[Il/Elle] est en forme**, joue, se relève en riant : [il/elle] n'a pas encore sommeil. Le coucher arrive peut-être un peu tôt, ou la dernière sieste a fini tard.",
-                      "**[Il/Elle] s'agite, pleure pour un rien**, s'accroche à toi ou se tortille dans tes bras : c'est souvent la **surfatigue**. Le coucher arrive peut-être un peu tard."
+                      "**Il est en forme**, joue, se relève en riant : il n'a pas encore sommeil. Le coucher arrive peut-être un peu tôt, ou la dernière sieste a fini tard.",
+                      "**Il s'agite, pleure pour un rien**, s'accroche à toi ou se tortille dans tes bras : c'est souvent la **surfatigue**. Le coucher arrive peut-être un peu tard."
                     ]
                   }
                 ]
@@ -859,7 +899,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**Attends quelques instants avant d'agir** : souvent, [il/elle] se tourne, grogne, et se rendort. S'[il/elle] t'appelle vraiment, viens, et **commence par le moins** : ta voix, la phrase du soir, une main posée sur [lui/elle]. Tu [le/la] prends dans tes bras si ça ne suffit pas. Jamais [le/la] laisser pleurer [seul/seule] : [il/elle] n'a pas toujours les capacités pour s'apaiser à nouveau."
+                    "texte": "**Attends quelques instants avant d'agir** : souvent, il se tourne, grogne, et se rendort. S'il t'appelle vraiment, viens, et **commence par le moins** : ta voix, la phrase du soir, une main posée sur lui. Tu le prends dans tes bras si ça ne suffit pas. Jamais le laisser pleurer seul : il n'a pas toujours les capacités pour s'apaiser à nouveau."
                   }
                 ]
               },
@@ -868,7 +908,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "S'[il/elle] vient d'apprendre à se hisser, tu [le/la] retrouveras peut-être debout dans son lit, à moitié [endormi/endormie], sans savoir redescendre. **Recouche-[le/la] calmement, sans en faire un jeu.** Et le jour, entraîne-[le/la] à redescendre : plier les genoux, poser les fesses. Quand [il/elle] saura, les nuits se reposeront."
+                    "texte": "S'il vient d'apprendre à se hisser, tu le retrouveras peut-être debout dans son lit, à moitié endormi, sans savoir redescendre. **Recouche-le calmement, sans en faire un jeu.** Et le jour, entraîne-le à redescendre : plier les genoux, poser les fesses. Quand il saura, les nuits se reposeront."
                   }
                 ]
               },
@@ -877,7 +917,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "S'[il/elle] boit encore la nuit, garde ce moment **sombre, calme et court**. Donner plus de lait le soir ne réduit pas les réveils de nuit⁵ : [il/elle] ne se réveille pas parce qu'[il/elle] a mal mangé. Biberon préparé au moment de le donner."
+                    "texte": "S'il boit encore la nuit, garde ce moment **sombre, calme et court**. Donner plus de lait le soir ne réduit pas les réveils de nuit⁵ : il ne se réveille pas parce qu'il a mal mangé. Biberon préparé au moment de le donner."
                   }
                 ]
               },
@@ -886,11 +926,11 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**Appelle le 15** si [il/elle] fait des pauses respiratoires, si ses lèvres bleuissent, s'[il/elle] est difficile à réveiller ou respire avec difficulté."
+                    "texte": "**Appelle le 15** s'il fait des pauses respiratoires, si ses lèvres bleuissent, s'il est difficile à réveiller ou respire avec difficulté."
                   },
                   {
                     "type": "p",
-                    "texte": "**Consulte ton médecin** s'[il/elle] **ronfle presque toutes les nuits, hors rhume**, s'[il/elle] dort la bouche ouverte, s'[il/elle] transpire beaucoup en dormant ou si son sommeil est très agité : c'est le médecin qui dira s'il faut aller plus loin. Et pour la fièvre, les repères sont dans SOS."
+                    "texte": "**Consulte ton médecin** s'il **ronfle presque toutes les nuits, hors rhume**, s'il dort la bouche ouverte, s'il transpire beaucoup en dormant ou si son sommeil est très agité : c'est le médecin qui dira s'il faut aller plus loin. Et pour la fièvre, les repères sont dans SOS."
                   },
                   {
                     "type": "p",
@@ -918,7 +958,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Le repas du soir, [il/elle] bien [assis/assise] face à toi, sans jouet ni écran, puis la tétée ou le biberon. **Le lait reste un pilier à 9 mois.** Si un soir [il/elle] refuse les solides, fatigue ou mal de dents, ne force pas : un repas plus lacté fera l'affaire."
+                    "texte": "Le repas du soir, il bien assis face à toi, sans jouet ni écran, puis la tétée ou le biberon. **Le lait reste un pilier à 9 mois.** Si un soir il refuse les solides, fatigue ou mal de dents, ne force pas : un repas plus lacté fera l'affaire."
                   }
                 ]
               },
@@ -927,7 +967,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Un bain court, dans une salle de bain chauffée à l'avance. **[Il/Elle] tient debout ou se hisse : tapis antidérapant, et ne [le/la] laisse jamais [seul/seule] dans le bain, même une seconde.** S'[il/elle] en sort régulièrement [surexcité/surexcitée], déplace le bain à l'après-midi ou à un soir sur deux."
+                    "texte": "Un bain court, dans une salle de bain chauffée à l'avance. **Il tient debout ou se hisse : tapis antidérapant, et ne le laisse jamais seul dans le bain, même une seconde.** S'il en sort régulièrement surexcité, déplace le bain à l'après-midi ou à un soir sur deux."
                   }
                 ]
               },
@@ -936,7 +976,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "En sortie de bain, encore [dévêtu/dévêtue] mais au chaud, une zone du corps à la fois : un massage doux et/ou la séquence de réflexologie « Sommeil agité ». Mains réchauffées, **une huile végétale adaptée au bébé**, une pression très légère. **À toi de choisir ce soir**, selon qu'[il/elle] est [réceptif/réceptive] et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'[il/elle] se détourne, ne force pas."
+                    "texte": "En sortie de bain, encore dévêtu mais au chaud, une zone du corps à la fois : un massage doux et/ou la séquence de réflexologie « Sommeil agité ». Mains réchauffées, **une huile végétale adaptée au bébé**, une pression très légère. **À toi de choisir ce soir**, selon qu'il est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas."
                   }
                 ]
               },
@@ -945,7 +985,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "La lecture se fait à présent **dans sa chambre**, lumière basse, [lui/elle] sur tes genoux : un livre cartonné, lu lentement. Lire là chaque soir l'aide à apprivoiser sa chambre comme un endroit doux. **La même histoire plusieurs semaines** : à 9 mois, la répétition rassure. Pointe les images : [il/elle] commence à pointer en retour."
+                    "texte": "La lecture se fait à présent **dans sa chambre**, lumière basse, lui sur tes genoux : un livre cartonné, lu lentement. Lire là chaque soir l'aide à apprivoiser sa chambre comme un endroit doux. **La même histoire plusieurs semaines** : à 9 mois, la répétition rassure. Pointe les images : il commence à pointer en retour."
                   }
                 ]
               },
@@ -954,7 +994,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "En fin d'histoire, dis la suite, **toujours dans les mêmes mots** : « Maintenant je te pose dans ton lit. Je sors. Et au matin, je reviens. » **Nommer le départ l'aide à le traverser** ; partir en catimini quand [il/elle] semble [distrait/distraite] lui apprend au contraire que tu peux disparaître à tout moment."
+                    "texte": "En fin d'histoire, dis la suite, **toujours dans les mêmes mots** : « Maintenant je te pose dans ton lit. Je sors. Et au matin, je reviens. » **Nommer le départ l'aide à le traverser** ; partir en catimini quand il semble distrait lui apprend au contraire que tu peux disparaître à tout moment."
                   }
                 ]
               },
@@ -963,7 +1003,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**Sur le dos, dans un lit nu**, avec sa gigoteuse : s'[il/elle] se retourne ensuite, [il/elle] trouve sa position. Le doudou se câline pendant l'histoire et **reste hors du lit jusqu'à 1 an**. La phrase de chaque soir : « La nuit arrive. Tu es en sécurité. Je sors maintenant. Au matin, je reviens. » Une main sur son ventre un instant, puis tu sors. **S'[il/elle] proteste, reviens, redis la même phrase, et ressors** : tu ne [le/la] laisses pas pleurer [seul/seule], tu lui montres que tu reviens. Si tu utilises un bruit blanc : **volume bas, loin du lit, pas toute la nuit.**"
+                    "texte": "**Sur le dos, dans un lit nu**, avec sa gigoteuse : s'il se retourne ensuite, il trouve sa position. Le doudou se câline pendant l'histoire et **reste hors du lit jusqu'à 1 an**. La phrase de chaque soir : « La nuit arrive. Tu es en sécurité. Je sors maintenant. Au matin, je reviens. » Une main sur son ventre un instant, puis tu sors. **S'il proteste, reviens, redis la même phrase, et ressors** : tu ne le laisses pas pleurer seul, tu lui montres que tu reviens. Si tu utilises un bruit blanc : **volume bas, loin du lit, pas toute la nuit.**"
                   }
                 ]
               }
@@ -1016,7 +1056,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "À 9 mois, beaucoup de bébés réclament **un parent plutôt que l'autre** au coucher, souvent celui qui le couche le plus. Ce n'est pas un rejet du co-parent : [il/elle] demande ce qu'[il/elle] connaît le mieux, au moment où [il/elle] découvre que tu peux partir. **Ça passe, surtout si le co-parent continue de prendre sa place**, calmement, soir après soir. Plus il a pris le coucher souvent, depuis la naissance, plus ce cap se franchit facilement, pour bébé comme pour sa confiance à lui."
+                    "texte": "À 9 mois, beaucoup de bébés réclament **un parent plutôt que l'autre** au coucher, souvent celui qui le couche le plus. Ce n'est pas un rejet du co-parent : il demande ce qu'il connaît le mieux, au moment où il découvre que tu peux partir. **Ça passe, surtout si le co-parent continue de prendre sa place**, calmement, soir après soir. Plus il a pris le coucher souvent, depuis la naissance, plus ce cap se franchit facilement, pour bébé comme pour sa confiance à lui."
                   },
                   {
                     "type": "liste",
@@ -1052,7 +1092,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**Couche-[le/la] sur le dos, pour la nuit comme pour les siestes**, jamais sur le ventre ni sur le côté. **À plat, même en cas de reflux** : sur le dos, une régurgitation ne [le/la] met pas en danger, et incliner le lit ne réduit pas le reflux. Le jour où [il/elle] se retourne [seul/seule] dans les deux sens, tu continues de [le/la] coucher sur le dos, puis tu [le/la] laisses trouver sa position."
+                    "texte": "**Couche-le sur le dos, pour la nuit comme pour les siestes**, jamais sur le ventre ni sur le côté. **À plat, même en cas de reflux** : sur le dos, une régurgitation ne le met pas en danger, et incliner le lit ne réduit pas le reflux. Le jour où il se retourne seul dans les deux sens, tu continues de le coucher sur le dos, puis tu le laisses trouver sa position."
                   }
                 ]
               },
@@ -1070,7 +1110,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**Ne t'endors jamais avec [lui/elle] sur un canapé ou dans un fauteuil.** Si tu sens que tu risques de t'endormir en [le/la] nourrissant la nuit, fais-le dans ton lit plutôt que sur un canapé, et repose-[le/la] dans son lit dès que possible."
+                    "texte": "**Ne t'endors jamais avec lui sur un canapé ou dans un fauteuil.** Si tu sens que tu risques de t'endormir en le nourrissant la nuit, fais-le dans ton lit plutôt que sur un canapé, et repose-le dans son lit dès que possible."
                   }
                 ]
               },
@@ -1079,7 +1119,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**Entre 18 et 20 °C**, sans trop [le/la] couvrir, la tête toujours dégagée : un peu frais vaut mieux que trop chaud. **Aucune fumée** dans le logement ni près de [lui/elle]."
+                    "texte": "**Entre 18 et 20 °C**, sans trop le couvrir, la tête toujours dégagée : un peu frais vaut mieux que trop chaud. **Aucune fumée** dans le logement ni près de lui."
                   }
                 ]
               },
@@ -1088,7 +1128,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**Au moment de dormir, sans forcer** s'[il/elle] n'en veut pas, **jamais attachée**. S'[il/elle] est [allaité/allaitée], une fois l'allaitement bien installé."
+                    "texte": "**Au moment de dormir, sans forcer** s'il n'en veut pas, **jamais attachée**. S'il est allaité, une fois l'allaitement bien installé."
                   }
                 ]
               },
@@ -1101,7 +1141,7 @@
                   },
                   {
                     "type": "p",
-                    "texte": "Avant qu'[il/elle] se hisse : si son lit a des barreaux, pense à baisser le sommier."
+                    "texte": "Avant qu'il se hisse : si son lit a des barreaux, pense à baisser le sommier."
                   }
                 ]
               }
@@ -1111,14 +1151,23 @@
           {
             "id": "il-se-reveille-plus-que-d-habitude",
             "titre": "Il se réveille plus que d'habitude ?",
-            "chapeau": "**Avant de chercher loin, vérifie le plus simple.**",
+            "chapeau": null,
             "volets": [
+              {
+                "titre": null,
+                "blocs": [
+                  {
+                    "type": "p",
+                    "texte": "**Avant de chercher loin, vérifie le plus simple.**"
+                  }
+                ]
+              },
               {
                 "titre": "En dix secondes",
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "La température de la chambre (18 à 20 °C ; sa nuque chaude et moite, [il/elle] a trop chaud), ses vêtements, sa couche, un bruit ou une lumière, **la tétine perdue** (jamais attachée)."
+                    "texte": "La température de la chambre (18 à 20 °C ; sa nuque chaude et moite, il a trop chaud), ses vêtements, sa couche, un bruit ou une lumière, **la tétine perdue** (jamais attachée)."
                   }
                 ]
               },
@@ -1132,7 +1181,7 @@
                 ]
               },
               {
-                "titre": "Si tu es [inquiet/inquiète]",
+                "titre": "Si quelque chose t'inquiète",
                 "blocs": [
                   {
                     "type": "p",
@@ -1166,7 +1215,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "À 20 mois, **son sommeil a pris l'organisation de celui d'un adulte** : ce passage se fait entre 12 et 18 mois. [Il/Elle] s'endort par le sommeil léger et plonge vite dans **un sommeil profond, plus profond encore que le tien**, qui domine le début de nuit : c'est là que son corps se répare. Le sommeil paradoxal, celui qui répare surtout le cerveau, revient par vagues de plus en plus longues vers le matin."
+                    "texte": "À 20 mois, **son sommeil a pris l'organisation de celui d'un adulte** : ce passage se fait entre 12 et 18 mois. Il s'endort par le sommeil léger et plonge vite dans **un sommeil profond, plus profond encore que le tien**, qui domine le début de nuit : c'est là que son corps se répare. Le sommeil paradoxal, celui qui répare surtout le cerveau, revient par vagues de plus en plus longues vers le matin."
                   }
                 ]
               },
@@ -1175,7 +1224,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Entre deux cycles, [il/elle] remonte près de la surface plusieurs fois par nuit, comme toi, **le plus souvent sans que tu le saches.** La plupart des enfants de cet âge ne font plus qu'une sieste, et **elle leur restera utile bien après 2 ans.**"
+                    "texte": "Entre deux cycles, il remonte près de la surface plusieurs fois par nuit, comme toi, **le plus souvent sans que tu le saches.** La plupart des enfants de cet âge ne font plus qu'une sieste, et **elle leur restera utile bien après 2 ans.**"
                   }
                 ]
               },
@@ -1184,7 +1233,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Ses cycles ne sont pas encore aussi longs que les tiens : ils le seront vers 3 ou 4 ans. Et son horloge à [lui/elle], du matin ou du soir, n'est pas encore marquée : elle prendra plus de place en grandissant."
+                    "texte": "Ses cycles ne sont pas encore aussi longs que les tiens : ils le seront vers 3 ou 4 ans. Et son horloge à lui, du matin ou du soir, n'est pas encore marquée : elle prendra plus de place en grandissant."
                   }
                 ]
               }
@@ -1201,7 +1250,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Ce qui bouge n'est plus l'escalier : **c'est ce qu'[il/elle] emporte en le descendant.** [Il/Elle] vient d'entrer dans le monde des images et des mots : [il/elle] fait semblant, [il/elle] nomme, [il/elle] invente."
+                    "texte": "Ce qui bouge n'est plus l'escalier : **c'est ce qu'il emporte en le descendant.** Il vient d'entrer dans le monde des images et des mots : il fait semblant, il nomme, il invente."
                   }
                 ]
               },
@@ -1210,7 +1259,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Un cerveau qui imagine peut aussi imaginer ce qui fait peur, l'ombre dans le coin, le bruit derrière la porte. **Ces peurs ne sont pas des caprices : [il/elle] ne les choisit pas.**"
+                    "texte": "Un cerveau qui imagine peut aussi imaginer ce qui fait peur, l'ombre dans le coin, le bruit derrière la porte. **Ces peurs ne sont pas des caprices : il ne les choisit pas.**"
                   }
                 ]
               },
@@ -1219,7 +1268,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Et [il/elle] se découvre quelqu'un de séparé de toi, qui veut, qui refuse, qui négocie. **Le coucher devient le moment où sa journée s'arrête**, pendant que celle des autres continue."
+                    "texte": "Et il se découvre quelqu'un de séparé de toi, qui veut, qui refuse, qui négocie. **Le coucher devient le moment où sa journée s'arrête**, pendant que celle des autres continue."
                   }
                 ]
               }
@@ -1245,15 +1294,15 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Parfois, en début de nuit, un cri : [il/elle] est [assis/assise], les yeux ouverts, [il/elle] ne te reconnaît pas. À cet âge, cela ressemble le plus souvent à **une terreur nocturne, un réveil incomplet du sommeil profond.** Le test qui vaut pour tout, encore : **est-ce qu'[il/elle] interagit avec toi ? Si non, c'est le signe qu'[il/elle] dort encore.** {prenom} ne vit pas l'épisode comme toi et **n'en gardera aucun souvenir** ; il passe tout seul, en quelques minutes."
+                    "texte": "Parfois, en début de nuit, un cri : il est assis, les yeux ouverts, il ne te reconnaît pas. À cet âge, cela ressemble le plus souvent à **une terreur nocturne, un réveil incomplet du sommeil profond.** Le test facile, encore : **est-ce qu'il interagit avec toi ? Si non, cela peut être le signe qu'il dort encore, même s'il a les yeux ouverts.** Ton enfant ne vit pas l'épisode comme toi et **n'en gardera aucun souvenir** ; il passe tout seul, en quelques minutes."
+                  },
+                  {
+                    "type": "p",
+                    "texte": "**Ne le réveille pas** : reste tout près, écarte ce qui pourrait le blesser, et attends que ça passe. Le pas à pas est dans Guide-moi."
                   },
                   {
                     "type": "p",
                     "texte": "Rien de tout ça n'est de la mauvaise volonté : c'est la face nocturne d'un cerveau qui grandit vite."
-                  },
-                  {
-                    "type": "p",
-                    "texte": "**Ne [le/la] réveille pas** : reste tout près, écarte ce qui pourrait [le/la] blesser, et attends que ça passe. Le pas à pas est dans Guide-moi."
                   }
                 ]
               }
@@ -1266,28 +1315,6 @@
             "chapeau": null,
             "volets": [
               {
-                "titre": "Ce qui est normal",
-                "blocs": [
-                  {
-                    "type": "p",
-                    "texte": "Entre 1 et 3 ans, **la plupart des enfants se réveillent encore la nuit, environ 3 fois**, le plus souvent sans que tu le saches : [il/elle] remonte près de la surface, se retourne, et redescend. Le repère, à présent, ce n'est plus de dormir d'une traite : **c'est de savoir se rendormir [seul/seule].** Certaines nuits, [il/elle] t'appellera quand même, et c'est normal."
-                  }
-                ]
-              },
-              {
-                "titre": "Et les cauchemars ?",
-                "blocs": [
-                  {
-                    "type": "p",
-                    "texte": "Fait-[il/elle] déjà de mauvais rêves ? **Personne ne peut le savoir tant qu'[il/elle] ne sait pas raconter ce qu'[il/elle] a vu.** Les cauchemars qu'on peut reconnaître apparaissent plutôt vers 2 ans et demi ou 3 ans. Mais si, en fin de nuit, [il/elle] se réveille en pleurs, **te reconnaît et se calme dans tes bras**, ça ressemble à un mauvais rêve : console-[le/la], redis la phrase du soir, reste le temps qu'il faut. C'est l'inverse de la terreur nocturne, où [il/elle] ne te reconnaît pas."
-                  },
-                  {
-                    "type": "p",
-                    "texte": "Ce qui l'aide à s'endormir [apaisé/apaisée] : **un coucher calme, des histoires douces, et un moment pour déposer sa journée** avant le rituel."
-                  }
-                ]
-              },
-              {
                 "titre": "Ses repères, à 20 mois",
                 "blocs": [
                   {
@@ -1296,7 +1323,20 @@
                   },
                   {
                     "type": "p",
-                    "texte": "**Faire ses nuits** : à cet âge, faire ses nuits ne veut plus dire ne pas se réveiller. Entre 1 et 3 ans, un enfant se réveille en moyenne trois fois par nuit. Ce qui change, ce n'est pas le nombre de réveils : c'est qu'[il/elle] apprend à se rendormir [seul/seule], le plus souvent sans que tu l'entendes."
+                    "texte": "**Faire ses nuits** : à cet âge, faire ses nuits ne veut plus dire ne pas se réveiller. Entre 1 et 3 ans, **la plupart des enfants se réveillent encore la nuit, environ 3 fois** : ils remontent près de la surface, se retournent, et redescendent. Le repère, à présent, ce n'est plus de dormir d'une traite : **c'est de savoir se rendormir seul**, le plus souvent sans que tu l'entendes. Certaines nuits, il t'appellera quand même, et c'est normal."
+                  }
+                ]
+              },
+              {
+                "titre": "Et les cauchemars ?",
+                "blocs": [
+                  {
+                    "type": "p",
+                    "texte": "Fait-il déjà de mauvais rêves ? **Personne ne peut le savoir tant qu'il ne sait pas raconter ce qu'il a vu.** Les cauchemars qu'on peut reconnaître apparaissent plutôt vers 2 ans et demi ou 3 ans. Mais si, en fin de nuit, il se réveille en pleurs, **te reconnaît et se calme dans tes bras**, ça ressemble à un mauvais rêve : console-le, redis la phrase du soir, reste le temps qu'il faut. C'est l'inverse de la terreur nocturne, où il ne te reconnaît pas."
+                  },
+                  {
+                    "type": "p",
+                    "texte": "Ce qui l'aide à s'endormir apaisé : **un coucher calme, des histoires douces, et un moment pour déposer sa journée** avant le rituel."
                   }
                 ]
               }
@@ -1320,11 +1360,21 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**Le regard qui se fige, l'envie de se blottir : c'est le moment de ralentir.**"
+                    "texte": "À 20 mois, la fatigue ne se voit pas toujours là où on l'attend. **Les signaux à guetter** :"
+                  },
+                  {
+                    "type": "liste",
+                    "items": [
+                      "son regard se fige, part dans le vague ;",
+                      "il se frotte les yeux ou les oreilles ;",
+                      "**une excitation soudaine**, comme un regain d'énergie, ou au contraire un repli ;",
+                      "ses émotions débordent plus vite, ses petites peurs aussi ;",
+                      "il cherche son doudou, le contact, tes bras."
+                    ]
                   },
                   {
                     "type": "p",
-                    "texte": "À 20 mois, la fatigue se voit aussi autrement : une excitation soudaine, comme un regain d'énergie, ou au contraire un repli. Les émotions débordent plus vite, les petites peurs aussi. [Il/Elle] cherche son doudou, le contact, tes bras."
+                    "texte": "C'est le moment de ralentir."
                   }
                 ]
               },
@@ -1342,7 +1392,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "À cet âge, refuser la sieste ne veut pas forcément dire ne plus en avoir besoin : **c'est souvent l'affirmation de soi**, le « non » qui s'invite partout. Les signes que le besoin est toujours là : [il/elle] s'endort en voiture dès que ça roule, [il/elle] est très irritable en fin d'après-midi, [il/elle] s'effondre au dîner, et, paradoxe fréquent, **ses nuits se dégradent les jours sans sieste**."
+                    "texte": "À cet âge, refuser la sieste ne veut pas forcément dire ne plus en avoir besoin : **c'est souvent l'affirmation de soi**, le « non » qui s'invite partout. Les signes que le besoin est toujours là : il s'endort en voiture dès que ça roule, il est très irritable en fin d'après-midi, il s'effondre au dîner, et, paradoxe fréquent, **ses nuits se dégradent les jours sans sieste**."
                   }
                 ]
               },
@@ -1351,7 +1401,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**La sieste reste nécessaire à cet âge.** Un **temps calme** juste avant l'aide à y entrer : sa chambre ou un coin tranquille, des livres, le doudou, une lumière douce. Les jours où elle ne passe pas, garde ce temps calme à la même heure, sans obligation de dormir : son corps se repose quand même, et souvent l'enfant qui « refuse de dormir » s'endort une fois la pression retirée."
+                    "texte": "**La sieste reste nécessaire à cet âge.** Un **temps calme** juste avant l'aide à y entrer : sa chambre ou un coin tranquille, des livres, le doudou, une petite pénombre. Les jours où elle ne passe pas, garde ce temps calme à la même heure, sans obligation de dormir : son corps se repose quand même, et souvent l'enfant qui « refuse de dormir » s'endort une fois la pression retirée."
                   }
                 ]
               },
@@ -1360,7 +1410,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**Une sieste qui finit tard peut décaler le coucher** : à cet âge, plus la sieste se termine tard, plus l'endormissement du soir recule¹. [Il/Elle] te semble « du soir » ? Avant de conclure, regarde deux heures : celle de son lever et celle de la fin de sa sieste. À son âge, ce sont elles qui décident le plus souvent du coucher. Son horloge biologique à [lui/elle] prendra plus de place en grandissant."
+                    "texte": "**Une sieste qui finit tard peut décaler le coucher** : à cet âge, plus la sieste se termine tard, plus l'endormissement du soir recule¹. Il te semble « du soir » ? Avant de conclure, regarde deux heures : celle de son lever et celle de la fin de sa sieste. À son âge, ce sont elles qui décident le plus souvent du coucher. Son horloge biologique à lui prendra plus de place en grandissant."
                   }
                 ]
               },
@@ -1369,7 +1419,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Si une sieste se prolonge et risque de décaler le coucher, ou s'il faut [le/la] réveiller le matin, tu peux le faire **en douceur**. **Ouvre la porte, laisse entrer la lumière et les bruits de la maison, parle doucement à côté** : [il/elle] sortira du sommeil quand [il/elle] sera [prêt/prête], sans être [tiré/tirée] d'un cycle en plein milieu."
+                    "texte": "Si une sieste se prolonge et risque de décaler le coucher, ou s'il faut le réveiller le matin, tu peux le faire **en douceur**. **Ouvre la porte, laisse entrer la lumière et les bruits de la maison, parle doucement à côté** : il sortira du sommeil quand il sera prêt, sans être réveillé en plein milieu d'un sommeil profond."
                   }
                 ]
               },
@@ -1378,7 +1428,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Sortir chaque jour reste **le meilleur repère pour son horloge biologique**. Et c'est dehors que son corps trouve l'espace dont il a besoin : courir, grimper, sauter."
+                    "texte": "Sortir chaque jour reste **le repère le plus fort pour son horloge biologique**. Et c'est dehors que son corps trouve l'espace dont il a besoin : courir, grimper, sauter."
                   }
                 ]
               }
@@ -1395,7 +1445,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Après la sieste, l'après-midi est fait pour bouger : dehors, courir, grimper. **Le soir, son corps a besoin de redescendre**, et à cet âge, [il/elle] ne sait pas encore freiner [seul/seule]. Garde les chatouilles, les courses-poursuites et les bagarres pour avant le dîner. Après, place aux jeux calmes : livres, dessins, pâte à modeler, bain."
+                    "texte": "Après la sieste, l'après-midi est fait pour bouger : dehors, courir, grimper. **Le soir, son corps a besoin de redescendre**, et à cet âge, il ne sait pas encore freiner seul. Garde les chatouilles, les courses-poursuites et les bagarres pour avant le dîner. Après, place aux jeux calmes : livres, dessins, pâte à modeler, bain."
                   }
                 ]
               },
@@ -1404,7 +1454,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "[Il/Elle] supporte mieux d'arrêter quand il sait ce qui vient. **Annonce les étapes à l'avance** : « Après le bain, on lit l'histoire, puis dodo. » Un dernier tour de jeu, un minuteur, une chanson de rangement : la fin de la journée devient un passage, plus une coupure."
+                    "texte": "Il supporte mieux d'arrêter quand il sait ce qui vient. **Annonce les étapes à l'avance** : « Après le bain, on lit l'histoire, puis dodo. » Un dernier tour de jeu, un minuteur, une chanson de rangement : la fin de la journée devient un passage, plus une coupure."
                   }
                 ]
               },
@@ -1412,7 +1462,7 @@
                 "titre": "Le moment à son image",
                 "blocs": [
                   {
-                    "type": "citation",
+                    "type": "p",
                     "texte": "**Où en est {prenom} en ce moment ? Choisis ce qui l'occupe le plus, et le dernier moment de sa journée suivra son élan.**"
                   },
                   {
@@ -1431,7 +1481,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "En fin de journée, **baisse les lumières**. Chez le jeune enfant, **même une lumière de pièce ordinaire freine fortement la mélatonine**, le signal du soir qui annonce la nuit². **Un écran ajoute sa propre lumière, tout près des yeux**, et des images qui bougent vite : de quoi exciter un cerveau qu'on cherche à apaiser. Éteins-les dans la pièce où [il/elle] est."
+                    "texte": "En fin de journée, **baisse les lumières**. Chez le jeune enfant, **même une lumière de pièce ordinaire freine fortement la mélatonine**, le signal du soir qui annonce la nuit². **Un écran ajoute sa propre lumière, tout près des yeux**, et des images qui bougent vite : de quoi exciter un cerveau qu'on cherche à apaiser. Éteins-les dans la pièce où il est."
                   }
                 ]
               }
@@ -1462,8 +1512,8 @@
                   {
                     "type": "liste",
                     "items": [
-                      "**[Il/Elle] est en forme**, joue, réclame encore : [il/elle] n'a pas encore sommeil. Le coucher arrive peut-être un peu tôt, ou la sieste a fini tard.",
-                      "**[Il/Elle] s'agite, pleure pour un rien**, a comme un regain d'énergie alors qu'il se fait tard : c'est souvent la **surfatigue**. Le coucher arrive peut-être un peu tard."
+                      "**Il est en forme**, joue, réclame encore : il n'a pas encore sommeil. Le coucher arrive peut-être un peu tôt, ou la sieste a fini tard.",
+                      "**Il s'agite, pleure pour un rien**, a comme un regain d'énergie alors qu'il se fait tard : c'est souvent la **surfatigue**. Le coucher arrive peut-être un peu tard."
                     ]
                   }
                 ]
@@ -1481,7 +1531,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Viens, et **fais court** : la phrase du soir, le doudou retrouvé, la gourde à portée de main s'[il/elle] a soif, puis tu ressors. La nuit n'est pas le moment de discuter : **les mêmes mots, chaque fois**, c'est ce qui [le/la] rassure. S'[il/elle] a peur, reste le temps qu'il faut, calmement : [il/elle] ne la choisit pas."
+                    "texte": "Viens, et **fais court** : la phrase du soir, le doudou retrouvé, la gourde à portée de main s'il a soif, puis tu ressors. La nuit n'est pas le moment de discuter : **les mêmes mots, chaque fois**, c'est ce qui le rassure. S'il a peur, reste le temps qu'il faut, calmement : il ne la choisit pas."
                   }
                 ]
               },
@@ -1490,11 +1540,11 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**Appelle le 15** si [il/elle] fait des pauses respiratoires, si ses lèvres bleuissent, ou s'[il/elle] respire avec difficulté."
+                    "texte": "**Appelle le 15** s'il fait des pauses respiratoires, si ses lèvres bleuissent, ou s'il respire avec difficulté."
                   },
                   {
                     "type": "p",
-                    "texte": "**Consulte ton médecin** s'[il/elle] **ronfle plus de 3 nuits par semaine, assez fort pour l'entendre porte fermée**, s'[il/elle] respire par la bouche la nuit comme le jour, fait des pauses suivies d'une reprise bruyante, transpire beaucoup en dormant, ou si l'oreiller est souvent mouillé le matin³. Consulte aussi si les terreurs nocturnes deviennent très fréquentes ou s'[il/elle] se blesse."
+                    "texte": "**Consulte ton médecin** s'il **ronfle plus de 3 nuits par semaine, assez fort pour l'entendre porte fermée**, s'il respire par la bouche la nuit comme le jour, fait des pauses suivies d'une reprise bruyante, transpire beaucoup en dormant, ou si l'oreiller est souvent mouillé le matin³. Consulte aussi si les terreurs nocturnes deviennent très fréquentes ou s'il se blesse."
                   },
                   {
                     "type": "p",
@@ -1522,7 +1572,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "On range un jouet ou deux ensemble : [il/elle] aime se sentir [acteur/actrice] du soir."
+                    "texte": "On range un jouet ou deux ensemble : il aime se sentir acteur du soir."
                   }
                 ]
               },
@@ -1531,7 +1581,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "À table, à heure régulière, sans écran. Laisse-[le/la] **manger [seul/seule], à sa façon, même maladroite** : c'est comme ça qu'[il/elle] gagne en autonomie. Termine par un temps calme à table plutôt que par un jeu."
+                    "texte": "À table, à heure régulière, sans écran. Laisse-le **manger seul, à sa façon, même maladroite** : c'est comme ça qu'il gagne en autonomie. Termine par un temps calme à table plutôt que par un jeu."
                   }
                 ]
               },
@@ -1540,7 +1590,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Un bain court, salle de bain chauffée, tapis antidérapant. **Ne [le/la] laisse jamais [seul/seule] dans le bain, même une seconde.** Laisse-[le/la] laver une partie de son corps [lui/elle]-même avant de finir le geste : [il/elle] participe, tu veilles."
+                    "texte": "Un bain court, salle de bain chauffée, tapis antidérapant. **Ne le laisse jamais seul dans le bain, même une seconde.** Laisse-le laver une partie de son corps lui-même avant de finir le geste : il participe, tu veilles."
                   }
                 ]
               },
@@ -1549,7 +1599,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "En sortie de bain, au chaud, une zone du corps à la fois : un massage doux et/ou la séquence de réflexologie « Sommeil agité », **une huile végétale adaptée à l'enfant**, une pression très légère. Ce soir, ce sera le massage, la réflexologie ou les deux, selon qu'[il/elle] est [réceptif/réceptive] et selon ta fatigue. Puis le pyjama : **laisse-[le/la] choisir entre deux**, tenter d'enfiler une manche."
+                    "texte": "En sortie de bain, au chaud, une zone du corps à la fois : un massage doux et/ou la séquence de réflexologie « Sommeil agité », **une huile végétale adaptée à l'enfant**, une pression très légère. Ce soir, ce sera le massage, la réflexologie ou les deux, selon qu'il est réceptif et selon ta fatigue. Puis le pyjama : **laisse-le choisir entre deux**, tenter d'enfiler une manche."
                   }
                 ]
               },
@@ -1558,7 +1608,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "S'[il/elle] prend encore un lait le soir, au sein ou au biberon, il trouve sa place ici, au calme, tout contre toi, ou au dessert du dîner. **Dans tous les cas, avant le brossage des dents** : le lait ne reste pas sur les dents pour la nuit."
+                    "texte": "S'il prend encore un lait le soir, au sein ou au biberon, il trouve sa place ici, au calme, tout contre toi, ou au dessert du dîner. **Dans tous les cas, avant le brossage des dents** : le lait ne reste pas sur les dents pour la nuit."
                   }
                 ]
               },
@@ -1567,7 +1617,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**Une seule histoire**, ou un nombre annoncé à l'avance, pour tenir le cadre. [Il/Elle] choisit le livre et tourne les pages. Le soir, des histoires douces et rassurantes plutôt que celles qui font peur. Voix posée, rythme lent."
+                    "texte": "**Une seule histoire**, ou un nombre annoncé à l'avance, pour tenir le cadre. Il choisit le livre et tourne les pages. Le soir, des histoires douces et rassurantes plutôt que celles qui font peur. Voix posée, rythme lent."
                   }
                 ]
               },
@@ -1576,7 +1626,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Le doudou est tout près : **il devient le compagnon de la nuit.** Si une peur apparaît, **vérifiez la chambre ensemble**, calmement, sans la dramatiser ni t'en moquer. La phrase de chaque soir : « La nuit est douce. Ton doudou veille, et je veille aussi. Tu es en sécurité. » Puis tu sors doucement. **Une veilleuse ?** Seulement si [il/elle] en a besoin : s'[il/elle] exprime une peur du noir, ou s'[il/elle] a besoin de se repérer quand [il/elle] se réveille, pour attraper sa gourde ou son doudou. Alors **une lumière orange, très très faible**, hors de son regard : la lumière, même faible, freine la mélatonine."
+                    "texte": "Le doudou est tout près : **il devient le compagnon de la nuit.** Si une peur apparaît, **vérifiez la chambre ensemble**, calmement, sans la dramatiser ni t'en moquer. La phrase de chaque soir : « La nuit est douce. Ton doudou veille, et je veille aussi. Tu es en sécurité. » Puis tu sors doucement. **Une veilleuse ?** Seulement s'il en a besoin : s'il exprime une peur du noir, ou s'il a besoin de se repérer quand il se réveille, pour attraper sa gourde ou son doudou. Alors **une lumière orange, très très faible**, hors de son regard : la lumière, même faible, freine la mélatonine."
                   }
                 ]
               }
@@ -1630,7 +1680,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "À 20 mois, le « non, pas toi ! » au moment du coucher est fréquent. **Ce n'est pas un jugement sur le co-parent** : c'est l'âge de l'affirmation, et choisir qui le couche est une des rares choses qu'[il/elle] peut décider. La préférence change souvent d'un mois à l'autre. **Ce qui [le/la] rassure, c'est que le rituel reste le même**, quel que soit le parent."
+                    "texte": "À 20 mois, le « non, pas toi ! » au moment du coucher est fréquent. **Ce n'est pas un jugement sur le co-parent** : c'est l'âge de l'affirmation, et choisir qui le couche est une des rares choses qu'il peut décider. La préférence change souvent d'un mois à l'autre. **Ce qui le rassure, c'est que le rituel reste le même**, quel que soit le parent."
                   },
                   {
                     "type": "liste",
@@ -1664,7 +1714,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**Couche-[le/la] sur le dos, pour la nuit comme pour les siestes**, jamais sur le ventre ni sur le côté. **À plat, même en cas de reflux** : sur le dos, une régurgitation ne [le/la] met pas en danger, et incliner le lit ne réduit pas le reflux. Le jour où [il/elle] se retourne [seul/seule] dans les deux sens, tu continues de [le/la] coucher sur le dos, puis tu [le/la] laisses trouver sa position."
+                    "texte": "**Couche-le sur le dos, pour la nuit comme pour les siestes**, jamais sur le ventre ni sur le côté. **À plat, même en cas de reflux** : sur le dos, une régurgitation ne le met pas en danger, et incliner le lit ne réduit pas le reflux. Le jour où il se retourne seul dans les deux sens, tu continues de le coucher sur le dos, puis tu le laisses trouver sa position."
                   }
                 ]
               },
@@ -1673,7 +1723,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**Un matelas ferme, à la taille exacte du lit, et rien d'autre** : ni couette, ni oreiller, ni tour de lit, ni cale-bébé, ni cocon, ni réducteur. **Une gigoteuse à sa taille** remplace la couverture. Pas de bonnet pour dormir. On ne l'emmaillote pas pour dormir. Un doudou peut à présent dormir avec [lui/elle]."
+                    "texte": "**Un matelas ferme, à la taille exacte du lit, et rien d'autre** : ni couette, ni oreiller, ni tour de lit, ni cale-bébé, ni cocon, ni réducteur. **Une gigoteuse à sa taille** remplace la couverture. Pas de bonnet pour dormir. On ne l'emmaillote pas pour dormir. Un doudou peut à présent dormir avec lui."
                   }
                 ]
               },
@@ -1682,7 +1732,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**Ne t'endors jamais avec [lui/elle] sur un canapé ou dans un fauteuil.** Si tu sens que tu risques de t'endormir en [le/la] nourrissant la nuit, fais-le dans ton lit plutôt que sur un canapé, et repose-[le/la] dans son lit dès que possible."
+                    "texte": "**Ne t'endors jamais avec lui sur un canapé ou dans un fauteuil.** Si tu sens que tu risques de t'endormir en le nourrissant la nuit, fais-le dans ton lit plutôt que sur un canapé, et repose-le dans son lit dès que possible."
                   }
                 ]
               },
@@ -1691,7 +1741,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**Entre 18 et 20 °C**, sans trop [le/la] couvrir, la tête toujours dégagée : un peu frais vaut mieux que trop chaud. **Aucune fumée** dans le logement ni près de [lui/elle]."
+                    "texte": "**Entre 18 et 20 °C**, sans trop le couvrir, la tête toujours dégagée : un peu frais vaut mieux que trop chaud. **Aucune fumée** dans le logement ni près de lui."
                   }
                 ]
               },
@@ -1700,7 +1750,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**Au moment de dormir, sans forcer** s'[il/elle] n'en veut pas, **jamais attachée**. S'[il/elle] est [allaité/allaitée], une fois l'allaitement bien installé."
+                    "texte": "**Au moment de dormir, sans forcer** s'il n'en veut pas, **jamais attachée**. S'il est allaité, une fois l'allaitement bien installé."
                   }
                 ]
               },
@@ -1719,14 +1769,23 @@
           {
             "id": "il-se-reveille-plus-que-d-habitude",
             "titre": "Il se réveille plus que d'habitude ?",
-            "chapeau": "**Avant de chercher loin, vérifie le plus simple.**",
+            "chapeau": null,
             "volets": [
+              {
+                "titre": null,
+                "blocs": [
+                  {
+                    "type": "p",
+                    "texte": "**Avant de chercher loin, vérifie le plus simple.**"
+                  }
+                ]
+              },
               {
                 "titre": "En dix secondes",
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "La température de la chambre (18 à 20 °C ; sa nuque chaude et moite, [il/elle] a trop chaud), ses vêtements, sa couche, un bruit ou une lumière, **la tétine perdue** (jamais attachée)."
+                    "texte": "La température de la chambre (18 à 20 °C ; sa nuque chaude et moite, il a trop chaud), ses vêtements, sa couche, un bruit ou une lumière, **la tétine perdue** (jamais attachée)."
                   }
                 ]
               },
@@ -1740,7 +1799,7 @@
                 ]
               },
               {
-                "titre": "Si tu es [inquiet/inquiète]",
+                "titre": "Si quelque chose t'inquiète",
                 "blocs": [
                   {
                     "type": "p",

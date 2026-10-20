@@ -215,7 +215,7 @@ export function ConseilView({ conseil }: { conseil: ConseilSoin }) {
       conseil.challenge_du_mois ? (
         <section className="space-y-3 rounded-2xl bg-amber-50 p-5">
           <h2 className="text-xs font-semibold uppercase tracking-wide text-amber-900">
-            Challenge du mois — {(conseil.challenge_du_mois as Challenge).nom}
+            Challenge du mois&nbsp;: {(conseil.challenge_du_mois as Challenge).nom}
           </h2>
           <p className="text-sm leading-relaxed text-amber-950">
             {(conseil.challenge_du_mois as Challenge).deroule}

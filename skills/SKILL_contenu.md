@@ -39,6 +39,16 @@
 - Condescendante ("voici ce que vous devez faire")
 - Alarmiste sauf quand c'est nécessaire (cadre de sécurité)
 
+### La posture de l'app ⭐
+
+> **Décision de Laura, 15/10/2026.**
+
+> **Être ferme sur les repères, précise sur les gestes, honnête sur les limites.**
+
+- **Ferme sur les repères** : les seuils, les fourchettes et le cadre de sécurité se disent sans conditionnel inutile ni précaution à rallonge.
+- **Précise sur les gestes** : ce que le parent fait, étape par étape, en peu de mots et sans flou.
+- **Honnête sur les limites** : celles de ce que l'app sait et de ce qu'un geste peut apporter. On dit quand c'est difficile, quand il n'y a pas de solution magique, quand il faut un professionnel.
+
 ### Exemples de corrections de ton :
 
 | ❌ À éviter | ✅ À utiliser |
@@ -120,6 +130,20 @@ valeur, lui met la pression ou se crée une angoisse de retard, et cela vaut pou
 le langage, les repas ou les contacts avec les autres. Un protocole de comparaison ne doit pas se lire
 comme un protocole de motricité.
 
+**On ne laisse jamais entendre qu'un enfant attend seul ⭐ — arrêté le 28 septembre 2026.** Décision de
+Laura, sur « Intervenir une fois consolé : le geste vient quand les pleurs sont passés » : cette tournure
+donne l'impression que le parent attend la fin des pleurs sans aider. La consolation vient toujours
+d'abord, et elle est nommée : « Consoler d'abord, proposer le geste ensuite ». Quand la ligne
+n'apporte rien d'autre que ce délai, elle se supprime. Passe du 28/09 : 6 formulations corrigées dans
+le corpus, plus les blocs de chutes de M12 et M23.
+
+**Sécurité : un sujet à risque se protège, il ne s'effleure pas ⭐ — arrêté le 28 septembre 2026.**
+Décision de Laura sur le choc à la tête : les signes qui font appeler passent en **action immédiate**,
+développés, et le reste de la carte vient après. Trois protections obligatoires sur ce type de sujet :
+ne pas mobiliser l'enfant quand la nuque ou le dos peuvent être touchés, aucun médicament sans avis,
+et les modalités de surveillance (48 heures, première nuit toutes les 4 heures). On n'écrit jamais
+« sans être médecin » : le parent observe et appelle, le professionnel tranche.
+
 ### Ce que la règle n'autorise pas
 
 Elle n'autorise ni la flatterie, ni le réconfort creux, ni la promesse. « Tu fais de ton mieux » et
@@ -134,6 +158,8 @@ produire de l'empathie : décrire la scène n'est pas la dramatiser.
 ---
 
 ## Règle du « jamais » — réserver l'interdit au danger réel ⭐
+
+> ⚠ **Cette règle porte sur le vocabulaire de l'interdit, pas sur l'existence des limites.** Elle ne dit jamais qu'on ne pose une limite à l'enfant que face au danger : voir « Les limites posées à l'enfant ».
 
 Le mot **« jamais »** (et les tournures « ne pas », « interdit », « il ne faut surtout pas ») est **strict, il fait peur et il culpabilise**. Il a sa place **uniquement sur les vrais dangers vitaux ou graves**. Partout ailleurs, on formule **en positif** : ce qui aide, ce qui est conseillé, ce qui est mieux.
 
@@ -171,6 +197,8 @@ Dans le champ `consulter_si`, une tournure comme « ne pose **jamais** le talon 
 
 Avant d'écrire « jamais » ou « ne pas », se poser une seule question : **est-ce un danger vital ou grave ?** Si oui, le « jamais » protège — on le garde. Si non, on reformule en « ce qui aide / ce qui est conseillé / mieux vaut ».
 
+**Attention à ne pas confondre les deux questions.** « Ce mot est-il un interdit ? » (ici : réservé au danger) n'est pas « cette limite est-elle légitime ? » (voir « Les limites posées à l'enfant » : oui dès qu'elle protège la sécurité, le respect d'autrui ou les besoins de la famille). Une limite légitime hors danger se pose, **en positif**.
+
 ---
 
 ## Un réglage n'est pas une faute ⭐
@@ -193,6 +221,34 @@ Beaucoup de conseils du quotidien sont des **réglages de confort** : la tempér
 **La ligne de partage.** Le vocabulaire de l'interdit reste réservé aux **dangers réels** (voir « Règle du « jamais » »), et à eux seuls. Un micro-ondes qui brûle est un danger, donc on le déconseille explicitement ; un biberon froid n'en est pas un, donc on n'en fait pas une faute. Avant d'écrire un interdit, la question est toujours la même : **est-ce que quelque chose de grave arrive si le parent ne le fait pas ?**
 
 ---
+
+## Les limites posées à l'enfant : trois fondements, pas un seul ⭐
+
+> **Décision de Laura, 15/10/2026**, en réécrivant M11 « pleurs / opposition ». Elle corrige la formule « réserver le non au danger réel », trop étroite : les limites peuvent aussi concerner le respect d'autrui et les besoins de la famille.
+
+**La règle.** Un « non » tenu a **trois fondements**, tous légitimes :
+
+| Fondement | Ce qu'il protège | Exemples |
+|---|---|---|
+| **La sécurité** | son corps, et celui des autres | la prise, l'escalier, la rue, un objet qui blesse |
+| **Le respect d'autrui** | l'autre enfant, le parent, l'animal, les affaires de quelqu'un | mordre, taper, tirer les cheveux, arracher un jouet |
+| **Les besoins de la famille** | le rythme et le repos de tous, parent compris | le sommeil du petit frère, l'heure du repas, le calme du soir, la fatigue du parent |
+
+Tout ce qui n'entre dans aucun de ces trois fondements est un réglage, pas une limite : choix cadré, « oui » possible, ou aménagement de l'environnement. Le tri se fait entre **les non qui comptent** et **ceux qui ne servent à rien**, pas entre « danger » et « tout le reste ».
+
+**Comment l'écrire :**
+
+- **On n'écrit jamais** « réserve le non au danger réel » ni aucune formule qui réduit la limite au seul danger. On écrit : « Garde tes non pour ce qui compte : sa sécurité, le respect des autres, ce dont la famille a besoin. »
+- **Le besoin du parent et de la famille est une raison valable**, dite sans s'en excuser.
+- **Le respect d'autrui est un apprentissage, pas une faute.** À cet âge, l'enfant découvre que l'autre a un corps et des besoins : on le lui montre, on ne le lui reproche pas.
+- **La limite se formule en positif et en peu de mots** : « les mains, c'est pour toucher doucement ». Le « jamais » reste réservé au danger vital.
+- **La limite et l'émotion sont deux gestes distincts.** On tient la limite et on accueille l'émotion, sans céder ni punir. Accueillir sa colère n'oblige pas à changer la décision.
+- **Une limite se tient, et elle peut se revoir.** On l'ajuste quand elle n'est plus adaptée, **à froid et pour une raison**, jamais en pleine crise : on distingue réviser une règle et céder sous la pression.
+- **On ne justifie jamais une limite par un apprentissage prêté à l'enfant** (« sinon il apprend que la crise fonctionne », « il saura que ça marche ») : raisonnement de conditionnement, trop catégorique, qui fait porter au parent la faute d'avoir cédé. On dit ce que la limite protège.
+- **Toujours une direction très claire** : **tenir les limites importantes sans entrer dans un rapport de force.** On dit ce qu'on tient, ce qu'on laisse, et ce qu'on n'engage pas : le bras de fer, la victoire à obtenir, la dernière parole.
+- **Formulation de référence** : « Garde une limite importante, même si ton enfant proteste. Accueillir sa colère ne signifie pas devoir changer ta décision. En revanche, tu peux ajuster une limite si elle n'est plus adaptée. »
+
+**Le test, avant d'écrire une limite :** protège-t-elle sa sécurité, un autre, ou ce dont la famille a besoin ? Si oui, elle a sa place, en positif. Si aucun des trois, c'est un réglage.
 
 ## Le vocabulaire de la transaction est interdit ⭐ — arrêté le 2 septembre 2026
 
@@ -512,7 +568,7 @@ Le verbe **soigner** est interdit à l'infinitif (acte réservé). La forme conj
 
 ---
 
-**Le mot « massage » dans le module Réflexo :** la décision du 29/08 s'applique ici comme ailleurs — **le bien-être est autorisé, le thérapeutique ne l'est pas** (voir la règle plus haut). Dans ce module précis, on continue cependant de préférer **toucher**, **geste doux**, **pression douce**, **stimulation des zones réflexes** : ce sont les termes propres à la réflexologie, plus justes que « massage » pour décrire un appui maintenu sur une zone. C'est un choix de précision, plus une interdiction. La tournure « ce n'est pas un massage » reste proscrite, elle attire l'attention sur un débat qui n'a pas lieu d'être. **Règle réflexologie à jour :** aucune pression chiffrée ni échelle numérique, et **jamais « caresse »** (la caresse chatouille, ce n'est pas la sensation recherchée). Décrire qualitativement : « pression douce et constante », « appui léger et maintenu ».
+**Le mot « massage » dans le module Réflexo :** la décision du 29/08 s'applique ici comme ailleurs — **le bien-être est autorisé, le thérapeutique ne l'est pas** (voir la règle plus haut). Dans ce module précis, on continue cependant de préférer **toucher**, **geste doux**, **pression douce**, **stimulation des zones réflexes** : ce sont les termes propres à la réflexologie, plus justes que « massage » pour décrire un appui maintenu sur une zone. C'est un choix de précision, plus une interdiction. **Hors réflexologie (rituel du soir, bain, toucher bien-être), on écrit « massage », « massage doux » : jamais de périphrase comme « moment de toucher » (Laura, 06/10).** La tournure « ce n'est pas un massage » reste proscrite, elle attire l'attention sur un débat qui n'a pas lieu d'être. **Règle réflexologie à jour :** aucune pression chiffrée ni échelle numérique, et **jamais « caresse »** (la caresse chatouille, ce n'est pas la sensation recherchée). Décrire qualitativement : « pression douce et constante », « appui léger et maintenu ».
 
 **« Patient » : c'est le nom qui est interdit, pas l'adjectif.** Ce qui pose problème, c'est de désigner le bébé ou le parent comme **un patient** : cela installe l'app dans une relation de soin qu'elle n'a pas. « Ton enfant n'est pas un patient », « une patiente de la PMI » : à proscrire. En revanche l'adjectif décrit une qualité du parent et n'a rien de médical, il est **pleinement autorisé** : « sois patient », « les parents les plus patients », « c'est une situation qui use, pas un défaut de patience ». Le mot **patience** n'est jamais concerné.
 
@@ -525,6 +581,25 @@ Le verbe **soigner** est interdit à l'infinitif (acte réservé). La forme conj
 accompagnement · soutien · compagnon du quotidien · bien-être · mieux-être · apaisement · sérénité · détente · geste doux · toucher · contact peau à peau · pression douce · stimulation des zones réflexes · réflexologie *(toujours en toutes lettres, jamais « réflexo »)* · éveil · découverte · aide à · apaise · favorise · soutient · accompagne.
 
 **Jamais de promesse de résultat.** « Aide à apaiser », « favorise l'endormissement » — jamais « guérit les coliques », « règle les troubles du sommeil », « garantit ». (Cohérent avec la règle scientifique : « aide à / apaise », jamais « garantit ».)
+
+### Ne jamais écrire « scientifiquement validé » ⭐ — arrêté le 16 octobre 2026
+
+**Ni pour Guide-moi dans son ensemble, ni pour une fiche, une méthode ou un geste.** L'app n'est pas validée par une instance scientifique, et la réflexologie n'a pas de caution scientifique dure. On écrit : **« informations documentées, sources consultables et conseils pratiques »**, et seulement quand c'est effectivement le cas pour le contenu concerné.
+
+- Même famille, même interdit : « prouvé scientifiquement », « démontré » sans étude citée, « la science dit », « validé par des experts ».
+- **Une affirmation sur le développement psychologique ou physiologique du bébé** (« le sommeil range les mots », « le non est une façon d'affirmer sa personnalité ») est une affirmation sensible, même si le thème ne figure pas dans la liste des sujets à source. Elle porte une source pertinente dans le champ `source` et se formule avec sa nuance (« souvent », « beaucoup d'enfants », « vers la fin de la première année »), jamais comme une loi.
+- Une formule certaine sur un comportement qui peut avoir **plusieurs explications** (« ce n'est pas un problème d'éducation », « il fait ça parce que ») est reformulée : on nomme une cause possible parmi d'autres, sans culpabiliser le parent.
+
+### Le bébé est une personne unique dès sa naissance, et une personne qui se construit ⭐ — arrêté le 17 octobre 2026
+
+Les deux sont vrais et se disent ensemble. **Il est unique dès sa naissance** : on n'écrit jamais qu'il « naît comme sujet », « devient quelqu'un » ou « découvre le je » à tel âge. **Il se construit en permanence** : « une personnalité qui se construit », « qui s'affirme » sont justes et autorisés. Ce qui change avec l'âge, c'est ce qu'il expérimente et exprime. À M11, les refus sont une façon de tester l'effet de ses réactions : peut-il peser sur la situation, décider, s'affirmer ? On l'écrit ainsi, pas comme un désir précis d'« autre chose » que ses parents. Une source qui parle de naissance du « je » se cite pour ce qu'elle dit de l'affirmation de soi, pas dans ses mots.
+
+### Le mot « protocole » ne s'affiche pas au parent ⭐ — arrêté le 16 octobre 2026
+
+« Protocole » suggère une procédure validée et standardisée, ce que l'app n'est pas, et ce qui contredit sa posture non médicale. **Dans tout texte lu par le parent** (contenu, interface, emails, notifications), on écrit **« repères et gestes »**, ou « fiche » / « situation » selon le contexte. Jamais « le relais fait partie du protocole ».
+
+- Le mot reste **en interne** : noms de champs JSON (`protocoles`), fichiers, skills, code, conversations de travail.
+- Reste à renommer côté interface : le sous-titre « Protocoles » de la carte Guide-moi du dashboard (`app/(app)/dashboard/page.tsx`), le texte alternatif des visuels du lecteur de réflexologie, et les occurrences encore présentes dans le contenu vivant (à lister par `qa_contenu.py`).
 
 ### Périmètre sage-femme / périnatalité
 
@@ -656,10 +731,31 @@ dans tous les autres cas. La vérification reste traçable sans encombrer le par
 
 Sommeil ordinaire (rythmes, cycles, siestes, réveils), pleurs et émotions, lien et attachement, séparation, posture parentale, organisation du quotidien, jeu, éveil. Ce sont les sujets d'accompagnement, le cœur du métier de la fondatrice : elle en parle en son nom. Le sommeil ne devient sourçable que lorsqu'il touche au **couchage sécurisé** (danger vital).
 
+### Ne pas prêter d'intention à l'enfant ⭐ — arrêté le 17 octobre 2026
+
+Un refus, une crise ou un « non » ne s'écrit pas comme une stratégie de l'enfant : pas « il teste sa puissance », « il cherche à te défier », « il veut te manipuler », « il fait exprès ». On décrit ce qu'il **peut** vivre ou exprimer, au conditionnel de l'observation (« peut », « souvent », « à cet âge »), et on dit ce que le refus **ne signifie pas forcément**.
+
+*Exemple retenu par Laura (M18) :* plutôt que « Il refuse pour tester sa puissance », écrire : « À cet âge, ton enfant peut exprimer plus fortement ses préférences. Ses refus ne signifient pas forcément qu'il cherche à te défier. »
+
+Une source qui emploie ce vocabulaire (« tester la réaction », « tester sa puissance ») se **cite** pour le fait observé, mais la fiche ne le reprend pas comme une intention certaine. Voir aussi *Le bébé est une personne unique dès sa naissance, et une personne qui se construit*.
+
+### Sources citées en entier, reliées à la phrase par un numéro ⭐ — arrêté le 17 octobre 2026
+
+Toute source citée porte sa **référence complète** dans la ligne `source` (auteurs, titre exact, revue ou institution, année, volume pour une étude) et un **petit numéro en exposant** (¹ ² ³) à la **fin de la phrase qu'elle appuie**. Format : `Source : ¹ ce qu'elle appuie, référence complète ; ² …`. Pas de nom de chercheur dans la phrase. Une source dont on n'a pas lu le contenu (page bloquée, résumé seul d'un outil) n'est pas citée. Exemple : M3 « La découverte des mains ».
+
+**Une même source citée plusieurs fois garde le même numéro (19 octobre 2026).** Si trois phrases d'une fiche s'appuient sur le même article, on met le même petit chiffre (¹) à chacune, et une seule ligne de source en bas qui dit ce que l'article soutient. On ne crée pas ¹ ² ³ ⁴ pour un seul article. Un fait courant qui n'a pas besoin de preuve (« il ne te rejette pas ») s'écrit sans numéro.
+
 ### Quelles sources
 
 - **Institutions françaises uniquement** : HAS, Santé publique France, ameli.fr, sante.fr, mpedia.fr (AFPA), Haut Conseil de la santé publique, Inserm, 1000-premiers-jours.fr, UFSBD, PNNS, ANSES. **Pas le CERIN** : financé par la filière laitière, retiré du corpus le 08/09/2026.
-- **Pas de source étrangère.** ⭐ Ni anglo-saxonne, ni nordique : illisible pour une maman française, invérifiable pour elle, et sans valeur défensive en droit français. On peut en revanche **s'inspirer librement de la théorie** issue de la recherche nordique ou internationale sur les neurosciences et le sommeil : elle nourrit le fond du texte, elle n'apparaît pas en référence.
+- **Les institutions françaises d'abord, une étude étrangère quand il n'y a rien en France ⭐⭐ — arrêté le 28 septembre 2026.** Décision de Laura, qui remplace l'interdiction des sources étrangères : « ce n'est pas grave si ce sont des sources étrangères, quand il n'y a pas de sources française, le principal c'est la validité de l'étude. […] Les études libres d'usage, c'est ce qui donnera de la crédibilité à nos propos. » Donc :
+  1. **On cherche d'abord en France** (liste ci-dessus). Une recommandation française existante gagne toujours contre une étude étrangère.
+  2. **À défaut, une étude ou une recommandation étrangère est citable**, à condition qu'elle soit **identifiable et vérifiée** : auteurs, année, revue ou institution. Une étude de référence, une revue à comité de lecture, une société savante ou une association professionnelle. Jamais un blog, jamais un cabinet privé, jamais un compte de réseau social.
+  3. **On transmet le contexte et la conclusion réelle**, sans la déformer ni l'élargir : ce que l'étude a mesuré, sur qui, et ce qu'elle conclut. Si elle porte sur le temps passé sur le ventre, elle ne prouve rien sur le déplacement assis. Une étude dont on n'a pas lu le résumé ne se cite pas.
+  4. **On cite, on ne recopie pas.** Le nom et l'année en italique dans la phrase, la référence dans le champ `source`. Aucun extrait traduit, aucun tableau repris.
+  5. **Une étude sert le propos ou elle sort** : elle appuie un levier d'action ou un repère, elle ne décore pas la carte.
+  Exemples en service : *étude de l'OMS sur le développement moteur, 2006* (fenêtres d'acquisition, dont marche seul entre 8,2 et 17,6 mois) ; *Adolph et al., 2012* (2 400 pas et 17 chutes par heure chez le jeune marcheur) ; *Majnemer et Barr, 2005* (temps éveillé sur le ventre et acquisitions motrices).
+  **Reste interdit :** un chiffre de seuil ou de conduite à tenir repris d'une recommandation étrangère plus permissive que la française — voir la règle suivante.
 - **Quand les chiffres divergent, c'est la valeur française prudente qui gagne.** ⭐ Sur un sujet sensible, les repères chiffrés varient d'un pays à l'autre : durées de conservation du lait, seuils de température, délais avant de consulter, quantités. **On retient toujours l'option française et la plus prudente des deux**, jamais la plus permissive trouvée ailleurs. Deux raisons : c'est la seule qui soit opposable et vérifiable par une maman française, et une consigne prudente qui se révèle excessive ne fait courir aucun risque, alors qu'une consigne permissive, si. Exemple : lait maternel tiré, **48 heures au réfrigérateur et 4 mois au congélateur** (repères français), et non les 4 jours et 6 à 12 mois que citent des recommandations internationales.
 - **Une même source peut revenir plusieurs fois**, c'est normal et c'est même rassurant. La seule limite : ne pas être **exclusivement adossé à deux références** pour tout un mois. Viser au moins quatre institutions différentes par mois.
 - Sources **réellement vérifiées et correctement attribuées** : ne jamais s'approprier la méthode d'un professionnel (on cite l'auteur), ne jamais inventer une référence, un titre de document ou une date. En cas de doute sur l'intitulé exact, vérifier avant de livrer, ou nommer l'institution et sa rubrique plutôt qu'un titre approximatif.
@@ -692,6 +788,33 @@ Sommeil ordinaire (rythmes, cycles, siestes, réveils), pleurs et émotions, lie
 - Chaque étape d'action : 1 phrase, maximum 20 mots
 - Conseil préventif : 2 à 4 phrases (40–80 mots)
 - Cadre de sécurité : 2 à 3 lignes
+
+## Dans quel thème ranger une situation ⭐⭐ — arrêté le 28 septembre 2026
+
+**Décision de Laura**, partie d'un constat sur le siège auto rangé dans Motricité : « un parent qui cherche ce sujet là ne le cherchera pas là ». L'app n'a **aucune recherche** : la navigation va du mois au thème, puis du thème à la situation. Le thème porte donc tout le poids, et il se choisit sur **l'endroit où la mère va chercher**, pas sur le mécanisme de développement qui explique la scène.
+
+**Le test, avant de placer un libellé :** sous quel mot la mère cherche-t-elle à 23 heures, l'objet ou l'émotion ? Elle cherche l'objet quand cet objet a son propre thème (les dents, le lit, l'assiette). Sinon, elle cherche l'émotion.
+
+**La répartition, validée :**
+
+| Ce que vit l'enfant | Thème | Exemples |
+|---|---|---|
+| Ce qu'il fait **seul avec son corps** | **Motricité & exploration** | marcher, tomber, grimper, les chaussures comme équipement de marche |
+| Ce qu'il **refuse alors que l'adulte doit le faire** | **le slot pleurs et colère** — « Pleurs & colère » dans le tableau, nom affiché évolutif dans l'app | habillage, change, siège auto |
+| Ce qu'il **veut faire seul** | **Autonomie & propreté** | mettre ses chaussures, s'habiller, la cuillère |
+
+**Deux exceptions et une limite.**
+- **Le brossage reste dans Dents & petits inconforts** : la mère cherche « les dents ». Il y est déjà sur cinq mois, c'est cohérent.
+- **Avant M12**, le thème **Corps & soins** existe et garde les actes de soin (change, bain, lavage de nez, ongles). La règle ci-dessus s'applique à partir de M12, quand Corps & soins disparaît du plan.
+- **Autonomie & propreté n'existe qu'à partir de M18.** Avant, un « il veut faire seul » reste dans le slot pleurs et colère.
+
+
+**Un seul nom de slot dans le tableau, un nom affiché qui évolue dans l'app ⭐ — arrêté le 28 septembre 2026.**
+Décision de Laura : « on laisse une ligne claire dans le tableau, mais on garde l'évolution du nom du slot avec les mois. »
+- **Tableau** (`GUIDE2_situations.xlsx`) : **« Pleurs & colère »**, sur les 24 mois. 126 cellules renommées le 28/09, l'ancien nom « Pleurs, colère et débordement » est retiré. C'est le nom de travail, il sert à retrouver une ligne, pas à parler au parent.
+- **App** (`categorie.nom` des JSON) : le fil éditorial ne change pas — *Pleurs & sur-stimulation* (M0-M5), *Pleurs & frustration* (M6-M11), *Colère & émotions* (M12-M17), *Colère & débordement* (M23). Le nom affiché suit l'âge de l'enfant, parce que ce n'est pas la même chose qu'on vient chercher à 2 mois et à 20 mois.
+
+**Appliqué le 28/09 :** siège auto M18 et change debout M19 déplacés de Motricité vers le slot pleurs et colère ; main dans la couche M22 vers Autonomie & propreté ; chaussures M21 confirmées dans Motricité. À vérifier à chaque passe mensuelle, en même temps que le **sous-titre du thème**, qui doit contenir les mots concrets que la mère scanne sur la page des thèmes (« habillage, change »), pas seulement « refus du corps ».
 
 ### Le champ affiché sur le bouton est `situation`, pas `titre` ⭐
 
@@ -1266,6 +1389,8 @@ Avant de valider un contenu, écrire en brouillon **une ligne par bloc** résuma
 
 **Passe 1 — Fond, prudence et bienveillance**
 - **Aucun réglage de confort formulé comme une faute** (voir « Un réglage n'est pas une faute »).
+- **Limites** : aucune formule ne réduit le « non » au seul danger. Sécurité, respect d'autrui et besoins de la famille sont des fondements légitimes ; aucune limite n'est justifiée par un apprentissage prêté à l'enfant (« sinon il apprend que… ») ; la direction est claire : tenir les limites importantes sans rapport de force.
+- **Affirmations de développement** nuancées, sourcées, sans culpabiliser le parent ; aucun « scientifiquement validé » ; le bébé est une personne dès la naissance.
 - Le ton déculpabilise le parent et présente l'enfant avec bienveillance ; l'émotion de l'enfant est validée avant toute résolution.
 - La variabilité des rythmes est rappelée dès qu'un jalon développemental est évoqué.
 - **Règle du « jamais »** respectée : l'interdit est réservé au danger vital ou grave, tout le reste est formulé en positif.
@@ -1313,6 +1438,9 @@ Ne jamais livrer un contenu en laissant croire qu'il est parfaitement conforme q
 ## Checklist éditoriale avant publication d'un contenu
 
 - [ ] Le ton est bienveillant envers le parent ET envers le bébé
+- [ ] **Posture tenue : ferme sur les repères, précise sur les gestes, honnête sur les limites**
+- [ ] **Limites : trois fondements (sécurité, respect d'autrui, besoins de la famille), jamais « le non réservé au danger réel », jamais justifiées par « sinon il apprend que… », direction claire sans rapport de force**
+- [ ] **Le bébé est une personne dès sa naissance : jamais « il devient quelqu'un »**
 - [ ] Aucun terme médical non expliqué
 - [ ] « dépression post-partum » écrite en toutes lettres partout (aucun « DPP »)
 - [ ] Espaces insécables (U+00A0) présentes avant `: ; ! ?` et `»`, et après `«`
@@ -1320,6 +1448,8 @@ Ne jamais livrer un contenu en laissant croire qu'il est parfaitement conforme q
 - [ ] Le cadre de sécurité est présent avec des critères objectifs
 - [ ] La longueur respecte les limites définies
 - [ ] Aucune promesse de résultat garanti
+- [ ] **Aucun « scientifiquement validé » (ni équivalent) ; toute affirmation de développement porte une source pertinente et sa nuance**
+- [ ] **Le mot « protocole » n'apparaît dans aucun texte lu par le parent (« repères et gestes »)**
 - [ ] **Aucun mot du registre médical réservé** (thérapie, soigner, guérir, diagnostic, prescrire, le nom « patient »…) — voir tableau « Cadre légal »
 - [ ] **Aucun massage présenté comme thérapeutique** : le geste apaise, détend, accompagne — il ne soigne jamais. Pas de « thérapeutique », « rééducation », « médical », aucun effet promis sur une pathologie nommée
 - [ ] **Contenu général, jamais un diagnostic individualisé** d'un enfant précis

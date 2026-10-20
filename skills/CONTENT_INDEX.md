@@ -731,8 +731,7 @@ Les 4 points peuvent varier selon le besoin physiologique du mois.
 
 ## Pression réflexo
 
-- M0-M12 : "0/10 — c'est une caresse, pas un massage"
-- M12-M23 : "0/10 — c'est une caresse"
+- Corrigé le 06/10 : jamais de pression chiffrée, jamais « caresse », jamais « ce n'est pas un massage ». Pression décrite qualitativement. Le mot « massage » (bien-être) est autorisé ; seul « massage thérapeutique / de rééducation / médical » est interdit.
 
 ## Couleurs UI fixes
 

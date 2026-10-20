@@ -37,7 +37,7 @@ export default async function HomePage() {
       </div>
 
       <p className="text-xs text-neutral-400">
-        5,90 €/mois ou 50,90 €/an — sans publicité.
+        5,90 €/mois ou 50,90 €/an, sans publicité.
       </p>
     </main>
   );

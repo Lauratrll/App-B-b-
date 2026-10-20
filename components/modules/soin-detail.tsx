@@ -396,7 +396,7 @@ function LecteurAudio({ duree }: { duree: string }) {
       <span style={{ flex: 1, height: 4, borderRadius: 2, background: "rgba(200,128,106,.3)" }}>
         <span style={{ display: "block", width: "0%", height: "100%", borderRadius: 2, background: PEACH_DARK }} />
       </span>
-      <span style={{ fontSize: 10.5, color: WARM_LABEL, flexShrink: 0 }}>0:00&nbsp;/&nbsp;{duree || "—"}</span>
+      <span style={{ fontSize: 10.5, color: WARM_LABEL, flexShrink: 0 }}>0:00&nbsp;/&nbsp;{duree || "–"}</span>
     </div>
   );
 }

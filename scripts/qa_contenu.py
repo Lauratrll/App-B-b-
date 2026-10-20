@@ -19,7 +19,7 @@ Ce que fait le script :
   2. SIGNALE, sans corriger, les points qui demandent une decision humaine :
        - tiret cadratin —
        - guillemets droits
-       - vocabulaire interdit (massage, caresse, reflexo, therapie, diagnostic...)
+       - vocabulaire interdit (massage therapeutique, caresse, reflexo, therapie, diagnostic...)
        - formulations interdites (votre enfant, il faut, malheureusement)
        - pression chiffree (0/10)
        - comptes de champs (4 points, 4 erreurs, 5 etapes — un de plus admis, 9 champs)
@@ -49,7 +49,9 @@ CHAMPS_OBLIGATOIRES = [
 INTERDITS = [
     (r"—", "tiret cadratin", "ERREUR"),
     (r"[\"“”]", "guillemet droit ou typographique anglais", "ERREUR"),
-    (r"\bmassages?\b|\bmasser\b|\bmassant\b", "mot « massage » (acte reserve au kine)", "ERREUR"),
+    # 06/10 : « massage » (bien-etre) est autorise ; seul le massage therapeutique / de reeducation / medical est interdit.
+    (r"\bmassages?\s+(th[ée]rapeutiques?|de\s+r[ée][ée]ducation|m[ée]dicaux|m[ée]dical)", "« massage therapeutique / de reeducation / medical » (acte reserve au kine)", "ERREUR"),
+    (r"(ce\s+n.est\s+pas|pas)\s+un\s+massage", "tournure « ce n'est pas un massage » (proscrite)", "ERREUR"),
     (r"\bcaresses?\b|\bcaresser\b|\bcaressant\b", "mot « caresse » (proscrit en reflexologie)", "ERREUR"),
     (r"\breflexo\b|\bréflexo\b(?!logie)", "abreviation « reflexo »", "ERREUR"),
     (r"\bth[ée]rap", "registre « therapie »", "ERREUR"),
@@ -407,6 +409,12 @@ def verifier_protocole(proto, etiquette, rapport):
     if " / " not in situation:
         dire("ALERTE", f"situation sans separateur « / » : « {situation} »")
     else:
+        # Longueur du libelle (SKILL_contenu, « NON NEGOCIABLE ») : cible 50, 55 au maximum.
+        _lg = len(situation.replace("\u00a0", " "))
+        if _lg > 55:
+            dire("ALERTE", f"situation TROP LONGUE ({_lg} car., 55 max, regle non negociable) : « {situation} »")
+        elif _lg > 50:
+            dire("ALERTE", f"situation longue ({_lg} car., cible 50) : « {situation} »")
         _p1, _p2 = [y.strip() for y in situation.split(" / ", 1)]
         import re as _re2
         _ARRETES_P1 = {"Sept mois de nuits hachees"}

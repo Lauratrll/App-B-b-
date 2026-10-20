@@ -10,8 +10,8 @@ export default function AbonnementPage() {
       <div className="space-y-3 rounded-xl border border-neutral-200 p-4">
         <p className="text-sm font-medium">Formules</p>
         <ul className="space-y-2 text-sm text-neutral-700">
-          <li>Mensuel — 5,90 €/mois</li>
-          <li>Annuel — 50,90 €/an (4,24 €/mois)</li>
+          <li>Mensuel&nbsp;: 5,90 €/mois</li>
+          <li>Annuel&nbsp;: 50,90 €/an (4,24 €/mois)</li>
         </ul>
       </div>
       <p className="rounded-xl bg-neutral-100 p-4 text-sm text-neutral-700">

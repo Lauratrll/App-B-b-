@@ -4,11 +4,11 @@
   "rubrique": "preparer_le_coucher",
   "titre_rubrique": "Préparer le coucher",
   "sous_titre": "Un esprit, un corps, et un cœur apaisé",
-  "description": "À 19 mois, ton enfant a intégré les routines : il sait ce qui vient, anticipe les étapes et trouve une grande sécurité dans la régularité. Son cerveau adore cette prévisibilité — savoir ce qui vient libère son système nerveux de l'inquiétude de l'inconnu. Un sens du temps commence aussi à s'installer : « après », « encore », « tout à l'heure » prennent du sens. Le soir, c'est le moment d'appuyer sur cette force : un rituel toujours identique, annoncé étape par étape (« on finit l'histoire, puis c'est le lit »), transforme le coucher en terrain connu et rassurant, et désamorce les protestations en aidant son cerveau à lâcher l'activité en cours sans heurt. À cet âge, l'enfant garde une sieste unique l'après-midi, et tu peux envisager le passage à un lit au sol.",
+  "description": "À 19 mois, ton enfant a intégré les routines : il sait ce qui vient, anticipe les étapes et trouve une grande sécurité dans la régularité. Son cerveau adore cette prévisibilité : savoir ce qui vient libère son système nerveux de l'inquiétude de l'inconnu. Un sens du temps commence aussi à s'installer : « après », « encore », « tout à l'heure » prennent du sens. Le soir, c'est le moment d'appuyer sur cette force : un rituel toujours identique, annoncé étape par étape (« on finit l'histoire, puis c'est le lit »), transforme le coucher en terrain connu et rassurant, et désamorce les protestations en aidant son cerveau à lâcher l'activité en cours sans heurt. À cet âge, l'enfant garde une sieste unique l'après-midi, et tu peux envisager le passage à un lit au sol.",
   "reperes_cles": [
-    "Coucher entre 19h et 20h, à heure fixe — la régularité ancre l'horloge interne",
-    "Fenêtre d'éveil d'environ 5 à 6h — après la sieste unique de l'après-midi",
-    "Annoncer chaque étape à voix haute — « après l'histoire, le lit » : anticiper rassure et désamorce les protestations"
+    "Coucher entre 19h et 20h, à heure fixe : la régularité ancre l'horloge interne",
+    "Fenêtre d'éveil d'environ 5 à 6h : après la sieste unique de l'après-midi",
+    "Annoncer chaque étape à voix haute : « après l'histoire, le lit » : anticiper rassure et désamorce les protestations"
   ],
   "signaux_de_fatigue": [
     "Bâillements, frottement des yeux et des oreilles",
@@ -18,7 +18,7 @@
     "Réclame le doudou, le contact, sa routine connue"
   ],
   "variantes_developpementales": {
-    "intro": "Chaque enfant avance à son rythme, et à cet âge les écarts sont grands. En observant [prénom], repère le domaine qui l'occupe le plus en ce moment — ce vers quoi son élan va spontanément. Choisis cet axe : le premier temps du rituel et la berceuse s'adapteront pour valider et accompagner ce mouvement, exactement là où [prénom] en est déjà. Il ne s'agit pas de pousser vers une nouvelle compétence, mais de soutenir celle qui se déploie déjà.",
+    "intro": "Chaque enfant avance à son rythme, et à cet âge les écarts sont grands. En observant [prénom], repère le domaine qui l'occupe le plus en ce moment : ce vers quoi son élan va spontanément. Choisis cet axe : le premier temps du rituel et la berceuse s'adapteront pour valider et accompagner ce mouvement, exactement là où [prénom] en est déjà. Il ne s'agit pas de pousser vers une nouvelle compétence, mais de soutenir celle qui se déploie déjà.",
     "question_selecteur": "Où en est [prénom] en ce moment ?",
     "themes": [
       {
@@ -27,7 +27,7 @@
         "sous_titre": "[Il marche, court, grimpe sans arrêt/Elle marche, court, grimpe sans arrêt]",
         "etape_rituel": {
           "titre": "Décharger le corps avant la nuit",
-          "description": "Avant de baisser l'ambiance, un dernier moment de mouvement libre et encadré : marcher d'un meuble à l'autre, un petit parcours doux au sol. Pas de jeu excitant ni de chatouilles — laisser le corps dépenser ses dernières réserves pour qu'il accepte ensuite de se poser. Puis on ralentit franchement."
+          "description": "Avant de baisser l'ambiance, un dernier moment de mouvement libre et encadré : marcher d'un meuble à l'autre, un petit parcours doux au sol. Pas de jeu excitant ni de chatouilles : laisser le corps dépenser ses dernières réserves pour qu'il accepte ensuite de se poser. Puis on ralentit franchement."
         }
       },
       {
@@ -45,7 +45,7 @@
         "sous_titre": "[Il vit de grandes émotions, se fâche, se console/Elle vit de grandes émotions, se fâche, se console]",
         "etape_rituel": {
           "titre": "Accueillir les tensions de la journée",
-          "description": "Un temps calme dans tes bras pour accueillir ce qui a pesé : « Tu étais très fâché tout à l'heure quand il a fallu ranger. C'est passé. Je suis là. » Nommer sans raviver, juste accueillir et laisser retomber. Pose une main sur son cœur et respire lentement avec lui — ton calme devient le sien."
+          "description": "Un temps calme dans tes bras pour accueillir ce qui a pesé : « Tu étais très fâché tout à l'heure quand il a fallu ranger. C'est passé. Je suis là. » Nommer sans raviver, juste accueillir et laisser retomber. Pose une main sur son cœur et respire lentement avec lui : ton calme devient le sien."
         }
       },
       {
@@ -64,16 +64,16 @@
       "etape": 1,
       "focus_theme": true,
       "titre": "Décharger le corps avant la nuit",
-      "description": "Premier temps adapté à [prénom] (modifiable avec le sélecteur ci-dessus). Par défaut — Motricité : un dernier moment de mouvement encadré pour dépenser les dernières réserves. Pour un enfant qui s'appuie beaucoup sur sa routine, l'axe Autonomie le laisse dérouler les gestes qu'il connaît."
+      "description": "Premier temps adapté à [prénom] (modifiable avec le sélecteur ci-dessus). Par défaut : Motricité : un dernier moment de mouvement encadré pour dépenser les dernières réserves. Pour un enfant qui s'appuie beaucoup sur sa routine, l'axe Autonomie le laisse dérouler les gestes qu'il connaît."
     },
     {
       "etape": 2,
       "titre": "Baisser l'ambiance et clore la journée d'éveil",
-      "description": "Éteindre les plafonniers, allumer des lampes basses. Couper musique vive et écrans (téléphone, télé, tablette). Annonce ce qui vient — « bientôt le bain » — pour que son cerveau anticipe et se prépare en douceur."
+      "description": "Éteindre les plafonniers, allumer des lampes basses. Couper musique vive et écrans (téléphone, télé, tablette). Annonce ce qui vient, « bientôt le bain », pour que son cerveau anticipe et se prépare en douceur."
     },
     {
       "titre": "Le repas du soir, en famille",
-      "description": "Le dîner se prend à table, à heure régulière, sans écran. À cet âge, ton enfant mange de plus en plus comme vous : propose un repas simple et complet et laisse-le manger seul à sa façon, même maladroite — c'est ainsi qu'il gagne en autonomie. Termine par un temps calme à table plutôt qu'en jeu, pour amorcer la descente vers la nuit. S'il prend encore un lait du soir, il viendra plus tard, dans le calme de la chambre.",
+      "description": "Le dîner se prend à table, à heure régulière, sans écran. À cet âge, ton enfant mange de plus en plus comme vous : propose un repas simple et complet et laisse-le manger seul à sa façon, même maladroite : c'est ainsi qu'il gagne en autonomie. Termine par un temps calme à table plutôt qu'en jeu, pour amorcer la descente vers la nuit. S'il prend encore un lait du soir, il viendra plus tard, dans le calme de la chambre.",
       "etape": 3
     },
     {
@@ -84,7 +84,7 @@
     {
       "etape": 5,
       "titre": "Massage, réflexologie, puis pyjama",
-      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud — pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou la séquence de réflexologie « Sommeil agité ». Mains réchauffées, huile végétale neutre (amande douce, calendula) — pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas. L'huile posée, le pyjama vient après : laisse-le choisir entre deux modèles, tenter d'enfiler une manche."
+      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud : pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou la séquence de réflexologie « Sommeil agité ». Mains réchauffées, huile végétale neutre (amande douce, calendula), pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas. L'huile posée, le pyjama vient après : laisse-le choisir entre deux modèles, tenter d'enfiler une manche."
     },
     {
       "etape": 6,
@@ -122,12 +122,12 @@
       "motricite": "Ton corps a suivi le rythme du jour : il a bougé, joué, exploré. Maintenant il suit le rythme du soir, et il ralentit.",
       "langage": "Tu as nommé le monde toute la journée. Tes mots se reposent ; le silence du soir est doux, lui aussi.",
       "emotions": "Les émotions du jour sont passées, les unes après les autres, comme les heures. Elles peuvent se poser, maintenant.",
-      "autonomie": "Tu as fait tant de choses par toi-même aujourd'hui. Cette nuit, laisse le rythme du soir te porter — tu n'as rien à faire."
+      "autonomie": "Tu as fait tant de choses par toi-même aujourd'hui. Cette nuit, laisse le rythme du soir te porter : tu n'as rien à faire."
     }
   },
   "erreurs_a_eviter": [
-    "Les écrans (télévision, tablette, téléphone) dans l'heure qui précède le coucher — la lumière bleue inhibe la sécrétion de mélatonine et retarde l'endormissement de 30 à 90 minutes ; concerne aussi les écrans visibles en arrière-plan",
-    "Entrer dans la négociation au moment du coucher — répondre à chaque « encore » et multiplier les explications nourrit le bras de fer ; mieux vaut proposer les choix en amont et garder une phrase rituelle inchangée",
-    "Reculer l'heure du coucher en pensant que l'enfant sera « plus fatigué » — la sur-fatigue libère du cortisol qui empêche l'endormissement et fragmente la nuit"
+    "Les écrans (télévision, tablette, téléphone) dans l'heure qui précède le coucher : la lumière bleue inhibe la sécrétion de mélatonine et retarde l'endormissement de 30 à 90 minutes ; concerne aussi les écrans visibles en arrière-plan",
+    "Entrer dans la négociation au moment du coucher : répondre à chaque « encore » et multiplier les explications nourrit le bras de fer ; mieux vaut proposer les choix en amont et garder une phrase rituelle inchangée",
+    "Reculer l'heure du coucher en pensant que l'enfant sera « plus fatigué » : la sur-fatigue libère du cortisol qui empêche l'endormissement et fragmente la nuit"
   ]
 }
