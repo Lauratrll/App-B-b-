@@ -35,6 +35,12 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJ...
 SUPABASE_SERVICE_ROLE_KEY=eyJ...
 ```
 
+**Région et rapidité (20/10/2026) :**
+- Supabase est à **Francfort (eu-central-1)**. Les fonctions Vercel tournent au même endroit : `vercel.json` → `"regions": ["fra1"]`. Ne jamais remettre les fonctions loin de Supabase : chaque requête à la base traverserait l'océan (avant, en `iad1` Washington : 480 à 690 ms par page).
+- Session vérifiée sur place avec `getClaims()` (clé ES256), sans appel au serveur d'auth (`lib/auth.ts`, `lib/supabase/middleware.ts`).
+- Contenu lu via `unstable_cache` (1 h, tag `content`) dans `lib/content.ts`.
+- Côté téléphone : liens de l'app en `<Link prefetch>` (page préparée avant le toucher) et `experimental.staleTimes` dans `next.config.mjs` (30 s / 5 min). Toute action qui change ce que voit le parent (épingle, profil, aperçu admin) doit appeler `revalidatePath("/", "layout")` pour vider ce cache.
+
 ---
 
 ## Schéma complet des tables

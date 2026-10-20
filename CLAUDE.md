@@ -25,8 +25,8 @@ Positionnement : zéro jargon médical, parentalité consciente, solutions actio
 
 ```
 Framework       : Next.js 14 (App Router)
-Hébergement     : Vercel (plan gratuit)
-Base de données : Supabase (PostgreSQL)
+Hébergement     : Vercel (plan gratuit), fonctions à Francfort (fra1, vercel.json)
+Base de données : Supabase (PostgreSQL), région eu-central-1 (Francfort)
 Auth            : Supabase Auth (email + Google)
 Paiements       : Stripe (abonnements récurrents)
 Emails          : Resend
