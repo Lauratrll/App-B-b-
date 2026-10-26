@@ -1,0 +1,110 @@
+{
+  "mois": 18,
+  "tranche_age": "18 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 18 : Le Diplomate · Vivre la saison ensemble",
+  "description_m": "{prenom} s'ouvre aux autres : il tend, il donne, il observe les enfants. Le « chacun son tour » commence à l'intriguer.",
+  "description_f": "{prenom} s'ouvre aux autres : elle tend, elle donne, elle observe les enfants. Le « chacun son tour » commence à l'intriguer.",
+  "logique_selection": {
+    "regle": "À 18 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année : pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 18 mois, bébé régule très bien sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_18",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Le printemps fait sortir tout le monde : voisins, enfants, oiseaux, fleurs qui s'offrent. Pour le Diplomate, qui apprend à donner et à recevoir, chaque rencontre devient un petit échange.",
+      "idees_du_moment": [
+        {
+          "titre": "Facteur de brins d'herbe",
+          "texte": "Dans un parc ou un jardin, cueillez ensemble une fleur, un brin d'herbe, un pissenlit. Puis il devient facteur : « pour la dame, pour le monsieur du banc, pour toi ». Il tend, regarde, attend peut-être un merci, ou garde sa fleur serrée un moment avant de la lâcher. Tout se passe à son rythme. S'il marche déjà, il fait sa tournée de banc en banc ; s'il se déplace autrement, les destinataires viennent à lui, ou tu portes le courrier dans tes bras."
+        },
+        {
+          "titre": "La loge au bord du bac",
+          "texte": "Au bord d'un bac à sable, tu étales un plaid : la loge de bébé, vous êtes là pour le spectacle. Dans ton sac, une passoire et deux cuillères en bois, qui font de jolis sons sur un seau. Il observe, s'approche à son rythme, tend parfois un objet, revient se lover contre toi. D'autres enfants viennent peut-être regarder ses drôles d'outils. Tu peux souffler « chut, ça commence ». S'il marche déjà, il fait des allers-retours entre le plaid et le sable ; sinon, assis ou porté, il suit tout depuis sa loge."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_18",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été met les tables dehors et les familles ensemble. Le Diplomate y passe de main en main, observe les grands et les petits, et goûte au plaisir d'être avec les autres.",
+      "idees_du_moment": [
+        {
+          "titre": "La balle qui voyage dans un tube",
+          "texte": "Un long tube de carton, posé en pente sur l'herbe, à l'ombre. Tu lâches une balle par le haut, elle déboule en bas, et c'est à lui de la renvoyer à l'autre bout, vers un cousin, une voisine, un grand frère qui attend. Chacun son tour d'envoyer, chacun son tour de recevoir. Il verra peut-être les autres rire. S'il marche déjà, il court la ramasser ; s'il est assis, quelqu'un la lui roule de nouveau."
+        },
+        {
+          "titre": "Le tour de table des pêches",
+          "texte": "Pose au centre de la table de dehors une corbeille de pêches, d'abricots ou de prunes, avec leurs couleurs et leur parfum. Il les prend une à une et les tend aux gens autour : à mamie, au cousin, à toi. Chaque fruit change de main, se hume, se frotte sur la joue, laisse son duvet sur la peau. C'est une ronde de couleurs et de parfums. S'il marche déjà, il fait le tour de la table ; sinon, la corbeille passe vers lui et il tend depuis sa chaise."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_18",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne rassemble autour de ce que la saison donne : cônes, marrons, soupes qui mijotent. Le Diplomate y découvre le va-et-vient des mains, un pour toi, un pour moi.",
+      "idees_du_moment": [
+        {
+          "titre": "Troc de trésors du sous-bois",
+          "texte": "Au pied des arbres, vous ramassez : une pomme de pin, un marron luisant, un morceau d'écorce. Tu lui tends ta pomme de pin ; il te tend son marron. Tu le prends, tu le sens, tu le lui rends ou tu le gardes, « merci ». Puis c'est lui qui offre en premier. Le troc dure aussi longtemps que vous aimez. S'il marche déjà, il part chercher plus loin de nouveaux trésors ; assis sur un tronc ou sur une couverture, ses mains font le même va-et-vient."
+        },
+        {
+          "titre": "Le facteur du goûter",
+          "texte": "Pour le goûter, bébé devient facteur. Tu lui confies un petit plateau (un couvercle de boîte fait très bien l'affaire) avec une part pour chacun, et une consigne en chanson : « Un pour mamie, un pour papa… ». Il fait la tournée de la table, tend, lâche, observe le sourire qui revient. Tu ajoutes un « driiing » de sonnette à chaque livraison, et bientôt il le dit avec toi. À chaque don, tu nommes celui qui reçoit. S'il marche déjà, il fait le tour pour de vrai ; sinon, assis, il passe de main en main depuis son siège."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_18",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver rapproche : repas qui durent, paquets, lumières, visages familiers. Le Diplomate y découvre le plaisir de remettre quelque chose à quelqu'un et de voir son sourire.",
+      "idees_du_moment": [
+        {
+          "titre": "Un paquet pour chacun",
+          "texte": "Emballe de petits objets dans du papier de soie, du papier journal ou des chutes de tissu : une cuillère en bois, un galet, un ruban. Autour de vous, la famille ou les amis attendent. Il prend un paquet, le tend à quelqu'un, écoute le froissement du papier, guette le sourire de l'autre, puis en veut un deuxième. S'il marche déjà, il fait la tournée du salon ; s'il se déplace autrement, les paquets sont posés devant lui et chacun vient chercher le sien."
+        },
+        {
+          "titre": "Bonjour aux chaises",
+          "texte": "Avant le repas de fête, c'est lui qui prépare la table. Avec un panier ou dans ses mains, il fait la tournée : devant chaque chaise, il pose une serviette, et tu dis à voix haute « Bonjour, mamie ! », « Bonjour, tonton ! » à la place qui va l'accueillir. Il t'imite peut-être, salue la chaise, tape dessus du plat de la main. S'il marche déjà, il fait le tour de la table ; sinon, assis sur tes genoux, il te tend les serviettes une à une et vous les posez ensemble."
+        }
+      ]
+    }
+  }
+}

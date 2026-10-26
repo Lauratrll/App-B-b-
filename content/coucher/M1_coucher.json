@@ -1,0 +1,94 @@
+{
+  "mois": 1,
+  "tranche_age": "1 mois",
+  "rubrique": "preparer_le_coucher",
+  "titre_rubrique": "Préparer le coucher",
+  "sous_titre": "Un esprit, un corps, et un cœur apaisé",
+  "description": "À 1 mois, bébé est un peu plus éveillé dans la journée, mais son rythme jour/nuit n'est toujours pas installé : la mélatonine, l'hormone du sommeil, ne se met en place que vers 6 à 12 semaines. Les pleurs du soir, eux, montent souvent en intensité autour de 6 semaines : c'est un pic normal de décharge, pas un signe que tu fais mal. Ton rituel du soir reste une trame souple : toujours les mêmes gestes, dans le même ordre, pour préparer doucement la nuit.",
+  "reperes_cles": [
+    "Toujours pas d'horaire fixe : la mélatonine n'est pas encore produite. Tu poses une suite de gestes régulière, pas une heure sur la pendule.",
+    "Bébé tient éveillé environ 1 heure d'affilée : couche-le dès les premiers signes de fatigue, avant les pleurs, pour éviter la sur-fatigue.",
+    "Les pleurs du soir peuvent culminer vers 6 semaines : ils ne durent pas et déchargent la tension de la journée. Ton rôle est de contenir, pas de les faire cesser à tout prix."
+  ],
+  "signaux_de_fatigue": [
+    "Le regard se détourne et fuit le contact",
+    "Bâillements, paupières lourdes",
+    "Bébé frotte son visage contre toi ou contre le matelas",
+    "Petits gémissements ou pleurnichements qui montent",
+    "Mouvements désordonnés des bras et des jambes"
+  ],
+  "rituel_etapes": [
+    {
+      "etape": 1,
+      "titre": "Baisser la lumière et le bruit",
+      "description": "C'est l'heure où tu annonces la nuit, tout doucement. Éteins le plafonnier, passe aux lampes de chevet. Coupe les écrans et la musique rythmée. Baisse la voix, ralentis tes gestes : ce sont les premiers repères que bébé apprend à reconnaître. Limite les stimulations et les passages dans sa pièce."
+    },
+    {
+      "etape": 2,
+      "titre": "Contenir la fenêtre des pleurs",
+      "description": "Vers 6 semaines, les pleurs du soir peuvent monter fort. Ce n'est pas contre toi : bébé vide le trop-plein de sa journée, et tes bras sont son refuge. Porte-le contre toi, berce-le verticalement, marche un peu. Un léger bruit blanc, à faible volume et à distance, peut aider le temps de l'apaiser. Si la crise s'installe, change d'air : quelques minutes dehors, ou une fenêtre ouverte. Et si la tension monte en toi aussi, passe le relais : ce n'est pas un échec, c'est de la sagesse."
+    },
+    {
+      "etape": 3,
+      "titre": "Bain ou toilette (pas tous les soirs)",
+      "description": "Le bain est maintenant possible si le cordon est cicatrisé. Court (5 à 7 min), eau à 37°C au thermomètre, salle de bain chauffée à l'avance si tu peux. Lumière tamisée, voix grave et lente. Profite de ce moment de peau pour le regarder, lui sourire. Le bain n'apaise pas tous les bébés : si le tien s'excite, garde-le pour le matin."
+    },
+    {
+      "etape": 4,
+      "titre": "Massage doux",
+      "description": "Quelques minutes de tes mains valent tous les mots du monde. Serviette préchauffée, une seule partie du corps découverte à la fois, le reste couvert. Mains réchauffées, une noisette d'huile végétale neutre (amande douce, calendula), gestes lents, pression 0/10. Chantonne ta berceuse pendant que tu le masses. 5 minutes suffisent. Enchaîne la séquence de réflexologie « Sommeil paisible » tant qu'il est au chaud. Puis, l'huile pénétrée, enfile-lui son pyjama et sa gigoteuse, pour pouvoir le poser sans le rhabiller s'il s'endort à la tétée."
+    },
+    {
+      "etape": 5,
+      "titre": "Dernière prise de lait, tout contre toi",
+      "description": "Le dernier câlin de la journée. Pénombre, lumière orange si possible, aucun écran. Bébé en pyjama, blotti tout contre toi. Murmure-lui ta berceuse pendant qu'il prend son lait. S'il s'endort en buvant, laisse-le finir, fais-lui faire son rot, garde-le quelques minutes à la verticale, puis pose-le directement dans son lit, sans le rhabiller."
+    },
+    {
+      "etape": 6,
+      "titre": "Phrase d'ancrage et pose dans le lit",
+      "description": "Le passage des bras au lit, tout en douceur. Chambre dans le noir, autour de 18-20°C. Dis ta phrase rituelle, toujours la même : « C'est l'heure de se reposer. Je suis là, tout près. » Bébé sur le dos, matelas ferme et dégagé (ni couette, ni oreiller, ni tour de lit). Pose-le en deux temps (fesses puis haut du corps), avec une légère inclinaison sur le côté pour éviter le réflexe de Moro, encore très présent à 1 mois, puis recouche-le sur le dos. Coupe le bruit blanc éventuel une fois endormi (20 à 30 min). Garde une main sur son ventre un instant, puis sors en silence. S'il sursaute, ne rallume pas : pose ta main et murmure ta phrase."
+    }
+  ],
+  "reflexologie_du_coucher": {
+    "titre": "Réflexologie du soir",
+    "intro": "Après le bain, bébé encore au chaud, sur le dos, les pieds découverts, face à toi. À 1 mois, tout passe par la douceur de ta main et le calme de ta voix : s'il proteste, on s'arrête là. La séquence « Sommeil paisible » se suit pas à pas, animée, dans l'onglet Réflexologie. Elle reste la même tout au long des deux ans : c'est sa répétition, soir après soir, qui en fait un repère.",
+    "consentement": "Avant tout, observe les réactions de bébé. La réflexologie se fait avec son accord : à la moindre crispation, si bébé retire son pied ou se détourne, arrête-toi. C'est un moment de plaisir partagé, jamais une technique à imposer.",
+    "etapes": [],
+    "lien_reflexologie": {
+      "id": "sommeil",
+      "titre": "Sommeil paisible"
+    }
+  },
+  "script_audio_du_soir": {
+    "titre": "Berceuse-rituel « Tu peux tout déposer »",
+    "duree": "~4 minutes",
+    "instruction": "À lire ou à chanter à voix grave et lente, volume très bas, dans la pénombre, pendant la dernière prise de lait ou juste après : tu peux aussi en reprendre les premières phrases pendant le massage. Bébé ne comprend pas encore les mots, mais il perçoit pleinement le rythme et la douceur de ta voix. Personnalise si tu veux.",
+    "texte": "[prénom]...\n\nAujourd'hui, tu as tout reçu en même temps.\n\nLa lumière, les voix, les odeurs, le froid, le chaud, la faim, les bras.\n\nPour toi, tout est encore nouveau. Tout arrive très fort.\n\nC'est beaucoup. Je le sais.\n\nAlors maintenant, tu peux tout déposer.\n\nPose la lumière. Pose les bruits. Pose ce qui a été trop fort.\n\nTu n'as plus rien à porter ce soir.\n\nCe qui était lourd, je le tiens pour toi.\n\nMon corps est calme. Mon souffle est lent.\n\nSens comme tout ralentit autour de toi.\n\nTes poings peuvent s'ouvrir. Ton ventre peut se relâcher.\n\nIl n'y a plus rien à faire. Plus rien à attendre.\n\nJuste mon souffle, et le tien.\n\nTu vas te reposer dans ton lit, tout près de moi.\n\nJe ne suis jamais loin. Je veille sur ton sommeil.\n\nTu es en sécurité. Tu es au chaud. Tu es [aimé/aimée].\n\nDépose tout, [mon tout petit/ma toute petite]. Et dors.\n\nBonne nuit."
+  },
+  "co_parent": {
+    "titre": "Se relayer pendant la fenêtre des pleurs",
+    "texte": "Le pic des pleurs du soir, vers 6 semaines, est éprouvant pour bébé comme pour celui qui le porte. C'est justement le moment où se relayer change tout : quand la tension monte en toi, passer bébé à l'autre parent (ou à un proche de confiance) n'est pas un échec, c'est une protection, pour toi comme pour lui. Un parent reposé apaise mieux qu'un parent à bout.",
+    "actions": [
+      "Convenez d'un signal à l'avance : quand l'un sature, l'autre prend le relais sans discuter.",
+      "Alternez qui porte bébé pendant la fenêtre des pleurs : par tranches de 15 à 20 minutes.",
+      "Si tu es seule, prévois un plan B pour les soirs difficiles : un proche joignable, une marche dehors, une vraie pause posée."
+    ]
+  },
+  "cadre_de_securite": {
+    "titre": "Cadre de sécurité : prévenir la mort inattendue du nourrisson",
+    "intro": "À 1 mois, le réflexe de Moro est encore très présent et les pleurs du soir peuvent culminer : ces règles de couchage ne se négocient pas, à chaque sommeil, sieste comprise. Si tu emmaillotes bébé pour le rassurer, laisse toujours les hanches libres, jamais sur le ventre, et arrête dès les premiers signes de retournement.",
+    "regles": [
+      "Sur le dos, à chaque sommeil : jamais sur le ventre ni sur le côté, la nuit comme pour les siestes. C'est la mesure qui réduit le plus le risque.",
+      "Un lit nu et ferme : matelas ferme aux dimensions exactes du lit, sans couette, oreiller, couverture, tour de lit ni peluche. Une gigoteuse à sa taille remplace toute couverture.",
+      "Dans ta chambre, mais dans son lit : bébé dort dans la même pièce que toi jusqu'à 6 mois, dans son propre couchage. Partager ton lit, et plus encore t'endormir avec lui sur un canapé ou un fauteuil, augmente le risque.",
+      "Une chambre à 18-20°C : sans surchauffe et sans trop couvrir bébé, la tête toujours dégagée. Un peu frais vaut mieux que trop chaud.",
+      "Un air sans tabac : aucune cigarette dans le logement ni près de bébé ; l'exposition au tabac, avant comme après la naissance, est un facteur de risque majeur.",
+      "Tétine et allaitement, des alliés : proposer la tétine au moment de l'endormissement et allaiter sont des facteurs protecteurs, sans jamais forcer la tétine si bébé n'en veut pas."
+    ]
+  },
+  "erreurs_a_eviter": [
+    "Les écrans et la lumière vive le soir (télévision, téléphone, plafonnier) : la lumière freine la mise en place du rythme jour/nuit, justement en train de s'amorcer. Pénombre dès la tombée du jour.",
+    "Surstimuler bébé en fin de journée pour qu'il « se fatigue » (jeux excitants, chatouilles, visites animées) : un nouveau-né sur-stimulé s'endort moins bien, pas mieux. La fin de journée se descend en intensité.",
+    "Coucher bébé sur le ventre, le couvrir (couette, oreiller, tour de lit) ou partager ton lit pour dormir : ce sont les écueils du sommeil sécurisé. Les règles complètes sont dans le Cadre de sécurité ci-dessus."
+  ]
+}

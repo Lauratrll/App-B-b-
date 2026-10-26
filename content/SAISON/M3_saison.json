@@ -1,0 +1,110 @@
+{
+  "mois": 3,
+  "tranche_age": "3 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 3 : L'Attentif · Vivre la saison ensemble",
+  "description_m": "À 3 mois, {prenom} suit du regard, attrape ce qui passe à portée de ses mains et reste captivé par les moindres mouvements. Il semble guetter ce que le monde a à lui montrer.",
+  "description_f": "À 3 mois, {prenom} suit du regard, attrape ce qui passe à portée de ses mains et reste captivée par les moindres mouvements. Elle semble guetter ce que le monde a à lui montrer.",
+  "logique_selection": {
+    "regle": "À 3 mois, l'app sélectionne la version saisonnière selon le mois civil en cours (et non plus la saison de naissance).",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année : pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "nourrisson",
+    "note_version": "À 3 mois, bébé régule encore mal sa température : on utilise le schéma 0-4 mois."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_03",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Le printemps fait bouger des branches, ouvrir des fleurs, filer des nuages. Un bébé attentif, qui suit du regard et tend déjà les mains, ne sait plus où donner de la tête.",
+      "idees_du_moment": [
+        {
+          "titre": "Un papillon de pâquerette",
+          "texte": "Cueille une pâquerette et fais-en un petit papillon blanc. Bébé est dans tes bras ou sur un plaid, et si tu portes un pull sombre, le blanc ressort comme une étoile. Tu fais voler la fleur au bout de tes doigts en dessinant un grand huit couché, lentement, avec un petit bruit d'ailes : « frrr ». Ses yeux la suivent peut-être d'un côté à l'autre. Puis le papillon se pose sur le bout de ton nez, sur le sien, au creux de sa main, avant de repartir."
+        },
+        {
+          "titre": "Sous le rideau de la branche",
+          "texte": "Tu étends une couverture sous un arbre aux longues branches souples, un saule, un bouleau, un cerisier. Bébé est allongé sur le dos et regarde en l'air, ou dans tes bras si tu préfères. Le vent fait onduler les branches et leurs jeunes feuilles à contre-jour. Son regard peut s'accrocher, glisser, revenir. Il tend peut-être une main vers elles, même de loin. Tu peux dire tout bas « ça danse », puis te taire et regarder aussi."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_03",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été joue avec la lumière et l'eau : taches qui bougent, éclats sur les murs, empreintes qui sèchent au soleil. Pour un bébé attentif, c'est un théâtre de formes et de contrastes à suivre du regard.",
+      "idees_du_moment": [
+        {
+          "titre": "Les empreintes qui s'effacent",
+          "texte": "Tu t'installes à l'ombre d'un mur, bébé dans les bras, une bassine d'eau tiède-fraîche à tes pieds. Tu trempes les siens juste un instant, le temps d'un petit « oh ». Surprise, plaisir ou retrait : tout est juste. Puis tu poses doucement ses plantes mouillées sur une dalle ou une ardoise chauffée par le soleil. Deux empreintes brillantes apparaissent, pâlissent, disparaissent sous ses yeux. Il suit peut-être le dessin qui s'efface. Tu peux recommencer, et poser tes pieds nus à côté des siens pour une empreinte plus grande."
+        },
+        {
+          "titre": "Le drap qui respire",
+          "texte": "Tu tends un drap clair entre deux chaises ou sur une corde à linge, à l'ombre, et tu installes bébé en dessous, sur une couverture. Le vent soulève le tissu, qui se gonfle puis retombe, la lumière filtre et change de teinte. Parfois il suit ces ondulations, écarte les doigts comme pour attraper l'air, ou s'assoupit. Tu t'allonges à côté, et vous regardez ensemble la maison respirer."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_03",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne empile ses couleurs sur les étals, ses odeurs de terre et de fumée, ses voix qui se croisent. Un bébé attentif y suit tout lentement, et le ciel après la pluie fait le reste.",
+      "idees_du_moment": [
+        {
+          "titre": "Le ciel dans la flaque",
+          "texte": "Après la pluie, tu cherches une flaque tranquille et tu t'y arrêtes, bébé dans les bras ou en écharpe, face à toi. Au fond, le ciel, les branches, les nuages défilent à l'envers. Une goutte tombe : des cercles s'étendent. Tu peux lui montrer la flaque, puis le vrai ciel au-dessus. Il regarde tour à tour les cercles et ton visage qui s'y reflète. Avec un peu de chance, il sourira à ce deuxième toi."
+        },
+        {
+          "titre": "Le marché en notes de musique",
+          "texte": "Bébé en écharpe, face à toi, tu traverses le marché d'automne comme une partition. Chaque couleur a sa note : la courge orange, un « ooo » grave et long ; le radis rose, un petit « ti » pointu ; la pomme, une note ronde qui monte. Tu chantonnes tout bas en t'arrêtant devant chaque étal, tu approches un brin de thym ou une châtaigne de son nez. Il suit peut-être tes lèvres, tourne la tête vers une voix qui passe. Les odeurs et les couleurs deviennent une chanson que vous êtes seuls à connaître."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_03",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver allume des lueurs dans le soir et fait ressortir les matières douces. Pour un bébé attentif, il y a des lumières à fixer et de la laine à attraper.",
+      "idees_du_moment": [
+        {
+          "titre": "Les vitrines allumées du soir",
+          "texte": "En fin d'après-midi, quand la nuit tombe, tu fais un petit tour dehors, bébé en écharpe ou en poussette. Les vitrines s'allument, les guirlandes clignotent, les phares glissent sur la route mouillée. Il fixe une lumière un long moment, puis se tourne vers une autre. Tu peux commenter tout bas : « là, c'est rouge, là c'est doré ». Dans le noir qui arrive, ces points chauds font un étrange et beau tableau."
+        },
+        {
+          "titre": "Des mains dans la laine",
+          "texte": "Sur un tapis, tu poses une écharpe épaisse, un pompon, une moufle, tout ce qui est doux et tricoté. Bébé, sur le dos ou sur le ventre, est à portée de ces matières. Tu glisses un bout de laine dans sa main, tu le frôles sur son bras. Parfois sa main l'attrape, le serre, le lâche, et il le regarde de près. Tu l'aides à tirer légèrement : un petit mouvement, et la laine bouge avec lui. L'hiver, ça se vit aussi avec les mains."
+        }
+      ]
+    }
+  }
+}

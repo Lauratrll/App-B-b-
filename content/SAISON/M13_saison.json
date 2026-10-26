@@ -1,0 +1,110 @@
+{
+  "mois": 13,
+  "tranche_age": "13 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 13 : L'Affirmé · Vivre la saison ensemble",
+  "description_m": "{prenom} découvre le plaisir de dire oui, non et surtout « moi ». Il montre du doigt, choisit, refuse, recommence, et il adore que ça se voie.",
+  "description_f": "{prenom} découvre le plaisir de dire oui, non et surtout « moi ». Elle montre du doigt, choisit, refuse, recommence, et elle adore que ça se voie.",
+  "logique_selection": {
+    "regle": "À 13 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année : pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 13 mois, bébé régule très bien sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_13",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Le printemps choisit ses couleurs sans demander l'avis de personne, et l'Affirmé aime ça. Entre fleurs à désigner et chemins à décider, chaque petit « moi, celui-là » trouve son décor.",
+      "idees_du_moment": [
+        {
+          "titre": "Le bouquet de sa composition",
+          "texte": "Rentre de balade avec trois brins de fleurs ou d'herbes et pose deux petits pots devant lui. Il décide : celui-ci à gauche, celui-là à droite, ou dans ta main plutôt. Qu'il soit debout contre la table basse, assis sur ton genou ou installé au sol, laisse-le trancher, même si le résultat étonne. Le « non » et le « encore » font aussi partie du jeu. À la fin, son bouquet prend place sur la table, bien en vue."
+        },
+        {
+          "titre": "Ses bottes signent le trottoir",
+          "texte": "Quand la pluie s'arrête, il enfile ses bottes, à lui, comme il l'entend. Dehors, il choisit la flaque, puis le trottoir sec. Il pose une botte mouillée et laisse une empreinte sombre qui brille. Il recommence, regarde, change de place, décide où signer. Tu le suis sans diriger : il marche, se tient à ta main, ou tu le portes jusqu'à la flaque de son choix. Puis vous regardez les empreintes sécher, s'effacer une à une, et il en réclame d'autres. Chaque trace est sa signature sur la ville."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_13",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été offre des options partout : l'ombre ou le soleil, le sable sec ou mouillé, la pelle ou le seau. L'Affirmé y goûte le plaisir d'avoir son mot à dire, du bout du doigt.",
+      "idees_du_moment": [
+        {
+          "titre": "Le panier des chapeaux",
+          "texte": "Quand la lumière est trop vive dehors, pose un panier de chapeaux d'été, de foulards et de lunettes sans verres devant un miroir bas. Laisse-le choisir, enfiler, refuser, ôter, recommencer. Il se peut qu'il préfère coiffer ta tête, ou tenir le bob comme un volant. S'il marche déjà, il ira peut-être chercher d'autres pièces dans la maison ; s'il se déplace autrement, il tend la main vers celle qu'il veut."
+        },
+        {
+          "titre": "Le seau au ruban qu'il a choisi",
+          "texte": "Trois rubans de couleurs différentes sur la table : c'est lui qui choisit celui qui sera noué à l'anse de son seau. Voilà un seau et une pelle à lui, reconnaissables de loin. Au bac à sable ou dans un coin de jardin, à l'ombre, il remplit, retourne, tapote. Chaque pâté devient sa signature, et tu l'admires : « un pâté signé de lui ». S'il veut prêter sa pelle, c'est son choix ; sinon elle reste dans sa main. S'il marche déjà, il file remplir son seau plus loin ; sinon, assis près de toi, le sable vient à lui."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_13",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne remplit les poches, les paniers, les mains : tout se ramasse, se garde, se refuse ou se donne. Un décor sur mesure pour l'Affirmé, qui sait déjà ce qu'il veut garder.",
+      "idees_du_moment": [
+        {
+          "titre": "Le trésor qui tinte",
+          "texte": "Au parc, donne-lui un petit seau ou une poche en tissu, et laisse-le choisir ses marrons et ses pommes de pin, à son rythme. Il ramasse, hésite, garde, te tend parfois un trophée. S'il marche déjà, il trottine d'un arbre à l'autre ; sinon, tu poses quelques trouvailles près de lui, sur un plaid. Au retour, il verse son butin dans une vieille boîte en métal : ça tinte, ça roule, ça résonne. Secoue la boîte avec lui, et son trésor se met à faire de la musique."
+        },
+        {
+          "titre": "Le plaid du jour",
+          "texte": "Un après-midi de pluie, sors trois plaids ou écharpes aux couleurs d'automne : ocre, bordeaux, vert mousse. Laisse-le désigner celui qui sera son plaid du jour, puis installe-toi avec lui près de la fenêtre pour écouter les gouttes. Il peut le traîner partout, s'y enrouler ou en réclamer un autre. S'il marche déjà, il le trimbalera de pièce en pièce comme une cape ; s'il se déplace autrement, il le tire vers lui ou te le tend."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_13",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver aime les rituels et les petits objets qui brillent : guirlandes, pompons, boules douces. L'Affirmé y décide de tout, de l'étoile à accrocher à la botte à enfiler.",
+      "idees_du_moment": [
+        {
+          "titre": "La branche aux ornements",
+          "texte": "Pose une branche dans un grand vase et présente-lui trois décorations légères : un pompon, une étoile en tissu, un ruban. Il décide laquelle s'accroche, et à quel endroit. Puis il défait, refait, déplace. S'il se tient debout, il atteint les rameaux du bas ; s'il est assis, tu lui tends la branche à hauteur de mains ; porté, il pointe l'endroit exact. Le soir, une guirlande lumineuse derrière la branche fait briller tout son travail."
+        },
+        {
+          "titre": "Le terrain choisi pour ses bottes",
+          "texte": "Enfile-lui ses bottes et rendez-vous dans un parc après la pluie. Offre-lui des options : la boue qui fait plof, le gravier qui crisse, l'herbe qui éclabousse, le trottoir qui résonne. C'est lui qui montre où poser les pieds, y retourne, change d'avis. S'il marche déjà, il choisira en piétinant ; s'il se déplace autrement, il pointe depuis tes bras ou la poussette, et c'est toi qui testes le sol avec tes propres bottes pour lui."
+        }
+      ]
+    }
+  }
+}

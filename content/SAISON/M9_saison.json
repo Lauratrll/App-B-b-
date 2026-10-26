@@ -1,0 +1,110 @@
+{
+  "mois": 9,
+  "tranche_age": "9 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 9 : Le Curieux · Vivre la saison ensemble",
+  "description_m": "À 9 mois, {prenom} est curieux de tout : il pointe, ouvre, attrape, retourne chaque chose dans ses mains. Le monde entier devient une question joyeuse.",
+  "description_f": "À 9 mois, {prenom} est curieuse de tout : elle pointe, ouvre, attrape, retourne chaque chose dans ses mains. Le monde entier devient une question joyeuse.",
+  "logique_selection": {
+    "regle": "À 9 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année : pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 9 mois, bébé régule bien sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_09",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Au printemps, tout est petit, nouveau, minuscule à regarder de près : un pétale, une brindille, une tache de lumière sur le sol. Un bébé Curieux y trouve de quoi s'émerveiller à chaque pas.",
+      "idees_du_moment": [
+        {
+          "titre": "La pochette aux trouvailles",
+          "texte": "Pour la promenade, glisse dans ta poche une petite pochette en tissu. À chaque arrêt, tu ramasses une trouvaille douce : un pétale tombé, une brindille, un galet lisse, une plume. Il la regarde, la tient un instant, la sent, avant qu'elle ne disparaisse dans la pochette avec un « hop ». De retour à la maison, vide le tout sur la table et laissez-vous surprendre : il choisit, reprend, repose. S'il se déplace à quatre pattes, il ira peut-être les chercher ; assis ou porté, il les regarde défiler sous tes doigts."
+        },
+        {
+          "titre": "Les taches de couleur sur le parquet",
+          "texte": "Aligne sur le rebord de la fenêtre quelques bocaux transparents remplis d'eau colorée : un peu de thé, de colorant, de sirop de fraise. Quand le soleil du printemps traverse les verres, des taches rouges, ambrées, vertes se posent sur le sol. Il les suit des yeux, glisse la main dedans, voit sa peau changer de couleur. Tu déplaces un bocal, la tache bouge, et il cherche où elle est partie. Un petit spectacle de lumière qui change au fil de la matinée."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_09",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été éclaire tout : les ombres dansent, les marchés débordent de couleurs, les odeurs montent des paniers. Un bébé Curieux ne sait plus où poser les yeux, et tant mieux.",
+      "idees_du_moment": [
+        {
+          "titre": "Attraper les ombres du feuillage",
+          "texte": "Sous un grand arbre, étale une couverture claire et laisse la lumière du feuillage y dessiner ses pièces d'or qui bougent. Il pose la main sur une tache, elle glisse sur ses doigts, une autre apparaît ailleurs. Agite doucement une branche basse ou souffle dessus pour faire danser le dessin. Il rit, pointe, cherche à ramasser la lumière. S'il se déplace seul, il suivra les taches à sa façon ; assis près de toi, il les regarde passer sur tes jambes, ton bras, le bout de son pied."
+        },
+        {
+          "titre": "Le cabas du marché renversé",
+          "texte": "Au retour du marché, renverse ton cabas sur un grand drap, au sol ou sur la terrasse à l'ombre. Pêches, herbes, citrons, tomates cabossées : il tâte les peaux lisses ou duvetées, roule une pomme, hume une branche de basilic. Tu nommes les couleurs, tu froisses une feuille pour faire monter son parfum. Chaque objet a sa façon de rouler, de sentir, de peser dans la main. Le marché continue chez vous, et il garde peut-être longtemps le goût de ces odeurs mélangées au bout de ses doigts."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_09",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne tapisse le monde de matières nouvelles : écorces rugueuses, mousses moelleuses, papiers qui crissent, lumière qui s'allonge. Un bébé Curieux touche, compare et revient toujours y goûter du bout des doigts.",
+      "idees_du_moment": [
+        {
+          "titre": "La mousse, l'écorce et la pierre lisse",
+          "texte": "Le long d'un vieux mur ou d'un sentier forestier, arrête-toi devant trois matières voisines : la mousse épaisse, l'écorce striée, la pierre polie par la pluie. Guide doucement sa main de l'une à l'autre en nommant le ressenti : doux, rugueux, lisse. Son visage se plisse, s'étonne, ses doigts reviennent à la mousse. Porté contre toi ou assis sur ton genou, il découvre ce contraste sans bouger d'un pas. S'il se déplace seul, il ira peut-être de l'une à l'autre de lui-même."
+        },
+        {
+          "titre": "Le grand rouleau de papier froissé",
+          "texte": "Déroule au sol un long rouleau de papier kraft, de la table jusqu'au canapé. Pose dessus quelques crayons gras aux couleurs de l'automne, ocre, brun, rouille. Il froisse, tape, déchire, écoute le bruit sec que fait le papier sous sa paume. Tu traces un trait large, il t'imite peut-être avec un gribouillis. Quand le papier est bien abîmé, roulez-vous dedans comme dans un grand paquet-cadeau. Un terrain de jeu qui crisse, qui sent le carton et la pluie dehors."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_09",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver ramène l'exploration à la maison : tiroirs, étoffes, recoins, lumières qui s'allument tôt. Un bébé Curieux y découvre un nouveau monde, à portée de main et de regard.",
+      "idees_du_moment": [
+        {
+          "titre": "Le coffre aux écharpes",
+          "texte": "Ouvre devant lui une vieille valise ou une grande boîte remplie d'écharpes, de bonnets, de gants et de chaussettes de toutes les matières : laine épaisse, soie lisse, velours côtelé, maille tricotée. Il plonge les mains, en sort une manche, un pompon, passe le tissu sur sa joue. Tu l'enroules d'une écharpe pour un petit coucou, tu en fais flotter une autre au-dessus de lui. Chaque matière a son poids, sa façon de glisser. Au fond du coffre, il reste toujours un nouveau trésor à dénicher."
+        },
+        {
+          "titre": "Le givre sous le doigt",
+          "texte": "Par un matin de gel, porte-le jusqu'à une rambarde, un pare-brise ou une feuille givrée. Pose son index sur la surface blanche et laisse-le sentir ce sucre piquant qui fond sous sa chaleur. Il retire la main, regarde le bout de son doigt mouillé, y retourne. Souffle ensuite sur le givre pour qu'il voie la vapeur et la trace. Dans ton écharpe, assis ou contre ta hanche, il observe tout en gardant ton épaule contre lui. Un petit laboratoire de l'hiver."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "mois": 23,
+  "tranche_age": "23 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 23 : L'Aventurier · Vivre la saison ensemble",
+  "description_m": "{prenom} veut voir plus loin, toucher plus haut, essayer ce qui l'intrigue. Chaque coin du monde devient une expédition, et il part, curieux de tout, le sourire aux lèvres.",
+  "description_f": "{prenom} veut voir plus loin, toucher plus haut, essayer ce qui l'intrigue. Chaque coin du monde devient une expédition, et elle part, curieuse de tout, le sourire aux lèvres.",
+  "logique_selection": {
+    "regle": "À 23 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année : pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 23 mois, bébé régule très bien sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_23",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Le printemps rouvre les chemins : sentiers qui sèchent, herbes qui poussent, premiers ruisseaux. L'Aventurier y trouve un monde à explorer, mousse ou boue sous les pieds, et un horizon à viser.",
+      "idees_du_moment": [
+        {
+          "titre": "Des jumelles en carton",
+          "texte": "Deux rouleaux de papier toilette scotchés côte à côte, une ficelle pour le cou : voilà des jumelles d'explorateur. Il les porte à ses yeux, balaye la pièce, repère un lion derrière le canapé, une montagne en haut du placard, un fleuve sur le tapis. Tu lui prêtes une carte au trésor griffonnée en trois traits. La maison se change en continent. Il explore debout, à son rythme, en se déplaçant comme il aime, ou installé sur ton épaule, en vigie."
+        },
+        {
+          "titre": "Les îles du ruisseau",
+          "texte": "Au bord du ruisseau, les grosses pierres plates deviennent des îles. Ta main dans la sienne, vous passez de l'une à l'autre en donnant un nom à chacune : l'île de la tortue, l'île du gâteau, l'île du grand saut. Il hésite, calcule, tend la jambe, atterrit, et tu lances le bruit d'arrivée : « toc ! ». À la dernière pierre, il choisit un petit caillou pour sa poche, souvenir de la traversée. S'il marche déjà, il tente les pas au fil des pierres ; sinon, porté ou assis au bord, il regarde l'eau filer et donne ses « toc »."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_23",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été donne des horizons larges : plages, forêts, prairies, ciel clair jusqu'au soir. L'Aventurier s'y lance, curieux de tout, et rentre les poches pleines de souvenirs.",
+      "idees_du_moment": [
+        {
+          "titre": "Disparaître dans l'herbe haute",
+          "texte": "Dans un champ ou au bord d'un chemin, repère un coin d'herbe haute. Vous vous y enfoncez comme dans la jungle : les tiges frôlent ses jambes ou ses mains, chatouillent, bruissent. « Où est l'explorateur ? » Tu fais semblant de le chercher, il pouffe. Des graines, des insectes, des fleurs sauvages apparaissent. Il traverse à pied, la main dans la tienne, ou assis dans l'écharpe, au niveau des épis qui lui chatouillent les doigts."
+        },
+        {
+          "titre": "Explorateur à la lampe de poche",
+          "texte": "Volets mi-clos, ou rideaux tirés, une petite lampe de poche pour lui. Le salon devient une grotte : le faisceau se pose sur un tableau, une plante, ton pied, le dos d'un livre. « Qu'est-ce qu'on trouve là ? » Il balaie le plafond, suit un cercle de lumière qui court sur le mur, te fait des signaux. Il te guide dans la pénombre, et tu t'étonnes de chaque découverte. Il peut explorer debout, accroupi, ou depuis ton épaule, en dirigeant la lumière."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_23",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne secoue les arbres et ouvre le ciel : vent qui court, flaques, odeurs de sous-bois. L'Aventurier y trouve de quoi défier le décor et rentrer en héros, les joues rouges.",
+      "idees_du_moment": [
+        {
+          "titre": "Le vent emporte nos « ouh »",
+          "texte": "Par une journée de vent, sortez face à lui, bras tendus. Tu lances un grand « ouh » et tu regardes ce que le vent en fait : il l'emporte, le déforme, le renvoie en morceaux. Il t'imite peut-être, crie à son tour, rit quand sa voix s'envole. S'il marche déjà, il avance contre la bourrasque, les bras comme des ailes ; sinon, porté ou assis près de toi, il la sent sur son visage. Tu peux ajouter un sac en papier qui gonfle comme une voile. Rentrez avec les joues rouges et les oreilles pleines de souffle."
+        },
+        {
+          "titre": "Un carton, une fusée",
+          "texte": "Récupère un grand carton, de ceux qui arrivent avec un livreur. Il devient fusée : des gommettes en hublots, un bouton dessiné au feutre, un compte à rebours. « Trois, deux, un, décollage ! » Il s'installe à l'intérieur, tu fais le bruit du moteur, vous partez pour la lune, une planète, un voyage lointain. Au retour, il raconte à sa façon ce qu'il a vu. Assis dedans, tiré doucement sur le sol, ou debout en pilote, il décolle à sa manière."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_23",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver redessine le paysage : sol givré ou mouillé, ciel bas, souffle visible. L'Aventurier aime tout ce qui craque, glisse ou résonne, dehors comme sous le plaid.",
+      "idees_du_moment": [
+        {
+          "titre": "Le chemin qui craque",
+          "texte": "Pars en mission pour trouver tout ce qui craque sous les pieds : givre, gravier, branches sèches, croûte de flaque, tapis de glands. Chaque pas devient un son à écouter : « Crrrac ! » Il pose le pied, ou la main, tu fais l'écho en riant. Vous dressez la carte des bruits du chemin, en repérant les plus forts. Il explore en marchant ou en trottinant, mais aussi depuis tes bras, en tendant l'oreille à chaque craquement que tu lui fais découvrir."
+        },
+        {
+          "titre": "Le traîneau de couverture",
+          "texte": "Étale une grande couverture ou un plaid épais sur le parquet. Il s'y installe, assis ou allongé sur le ventre, et tu tires doucement : le traîneau part vers le pôle Nord. Vous traversez la forêt du couloir, le désert de la cuisine, la banquise du salon. À chaque étape, il y a une surprise : un animal en peluche, une lampe qui s'allume. Il peut aussi tirer à son tour, ou accompagner à pied, pendant que ses peluches voyagent."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "mois": 8,
+  "tranche_age": "8 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 8 : L'Attaché · Vivre la saison ensemble",
+  "description_m": "À 8 mois, {prenom} sait très bien que tu es toi, et il le montre : il te cherche des yeux, te suit, s'accroche à ton regard. Son attachement prend toute la place, et c'est beau.",
+  "description_f": "À 8 mois, {prenom} sait très bien que tu es toi, et elle le montre : elle te cherche des yeux, te suit, s'accroche à ton regard. Son attachement prend toute la place, et c'est beau.",
+  "logique_selection": {
+    "regle": "À 8 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année : pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 8 mois, bébé régule mieux sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_08",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Le printemps fait respirer la maison et le jardin : un voilage qui gonfle, un plaid dans l'herbe, des voix qui s'éloignent puis reviennent. Pour un bébé Attaché, tout va et vient autour de toi.",
+      "idees_du_moment": [
+        {
+          "titre": "Le plaid et son refrain",
+          "texte": "Étends un grand plaid sous un arbre, juste vous deux. Autour, à portée de bras, dispose quelques trouvailles : un galet, une pomme de pin, un brin d'herbe haute. Il part vers elles, rampe, marche ou se penche depuis ton giron, puis revient te les montrer. À chaque retour, tu chantes le même refrain, deux notes toujours pareilles : « te revoilà ! ». Très vite, il t'attend peut-être pour le chanter avec toi. Le plaid devient une petite île, et tes bras le port où l'on revient."
+        },
+        {
+          "titre": "Silhouettes derrière le voilage",
+          "texte": "Un voilage léger gonflé par le vent de la fenêtre ouverte, et te voilà de l'autre côté, simple ombre qui se dessine. Approche ton visage, retire-toi, glisse ta main à travers le tissu. Il guette, tend les doigts vers cette forme qu'il reconnaît, et son rire éclate quand tu écartes le rideau. Le tissu qui bouge, la lumière qui passe au travers, ta voix qui n'a pas quitté la pièce : tout raconte que tu es là, même quand il te devine à peine."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_08",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été déplace tout : les lieux, les horaires, les lumières. Au milieu de ces décors changeants, ton odeur, ta voix et tes bras restent le port d'attache d'un bébé Attaché.",
+      "idees_du_moment": [
+        {
+          "titre": "Bercés à l'ombre du tilleul",
+          "texte": "Sous un grand arbre, assieds-toi dos contre le tronc, lui blotti contre ta poitrine. Balance-toi très doucement, au rythme des cigales ou du vent dans les feuilles, et murmure ce que vous entendez : un oiseau, un rire lointain, une porte qui claque. Il sent ton souffle monter et descendre, regarde les taches de lumière trembler sur ta chemise. L'été s'agite tout autour, mais vous gardez ce petit îlot qui oscille. S'il préfère aller explorer l'herbe à côté, ton regard le suit."
+        },
+        {
+          "titre": "Le foulard qui sent la maison",
+          "texte": "Avant de partir en vacances, garde quelques jours un foulard ou un carré de tissu doux contre toi, puis glisse-le dans le sac. Dans le décor inconnu d'un gîte, d'un camping ou d'une chambre chez des cousins, déplie-le sur la couverture. Il y plonge le nez, le froisse, le serre, le suit des doigts. Ton odeur voyage avec vous, et chaque endroit nouveau devient un peu plus familier. Il le cherche peut-être d'abord des yeux, puis des mains, avant de se lancer à la découverte."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_08",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "Les journées raccourcissent et la lumière dorée glisse plus tôt sur les murs. Pour un bébé Attaché, ce sont les retrouvailles du soir, la porte qui s'ouvre et ta voix dans l'entrée, qui donnent à la saison sa couleur.",
+      "idees_du_moment": [
+        {
+          "titre": "Toc toc, c'est moi",
+          "texte": "Quand tu rentres, arrête-toi derrière la porte et frappe un petit rythme, toujours le même : toc, toc-toc-toc. Annonce ensuite ton nom en chantant, puis ouvre en grand. Parfois il reconnaît la mélodie avant même de te voir, tourne la tête, accélère à quatre pattes ou lève les bras depuis ceux de la personne qui l'a gardé. Les retrouvailles prennent alors une forme bien à vous, comme une chanson à deux voix, et le soir qui tombe plus tôt devient une petite cérémonie dorée."
+        },
+        {
+          "titre": "Sous ton grand manteau",
+          "texte": "Par un après-midi de vent et de feuillage roux, enfile un grand manteau ou un poncho ample par-dessus l'écharpe ou le porte-bébé où il est blotti. Marche lentement. Sous la laine, il entend ton cœur, ta voix qui résonne dans ta poitrine, et le monde passe en bruits feutrés : le vent, des pas, un chien qui aboie au loin. Il sort parfois le nez pour regarder, puis replonge contre toi. Une petite cabane qui avance, avec toi pour toit."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_08",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "Les soirées se resserrent autour des lampes, des plaids et des visages qui se pressent. Un bébé Attaché guette ton regard au milieu des autres, et la saison devient une longue chaleur partagée contre toi.",
+      "idees_du_moment": [
+        {
+          "titre": "La guirlande de visages",
+          "texte": "Accroche une guirlande lumineuse près du canapé et suspends-y, avec des pinces à linge, des photos de ceux qu'il aime : grands-parents, cousins, voisine, et même son doudou. Le soir, allumez-la et laissez défiler les visages ensemble. Tu les nommes à voix douce, tu imites leur façon de dire bonjour, tu inventes une petite chanson pour chacun. Il pointe, sourit, détourne parfois la tête pour se lover contre toi. À la prochaine visite des fêtes, ces visages auront déjà un air de famille pour lui."
+        },
+        {
+          "titre": "La fête écoutée depuis la pièce d'à côté",
+          "texte": "Au milieu des fêtes, vous glissez dans la pièce voisine, porte entrouverte, une seule lampe allumée. Bébé contre toi, vous écoutez la fête comme une radio lointaine : un éclat de rire, un tintement de verres, une chaise qui traîne. Tu chuchotes qui est qui : « ça, c'est tonton qui rit ». Il tourne la tête vers chaque bruit, puis se blottit dans ton cou pour souffler un peu. Quand l'envie de retrouver les autres revient, vous repartez ensemble, sur ta hanche, avec un refuge à portée de pas."
+        }
+      ]
+    }
+  }
+}

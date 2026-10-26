@@ -1,0 +1,110 @@
+{
+  "mois": 12,
+  "tranche_age": "12 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 12 : Le Marcheur · Vivre la saison ensemble",
+  "description_m": "{prenom} a le monde devant lui et l'envie de s'y rendre. Debout, à quatre pattes, assis ou dans tes bras, chaque façon d'avancer est la sienne, et il va vers ce qui l'appelle.",
+  "description_f": "{prenom} a le monde devant elle et l'envie de s'y rendre. Debout, à quatre pattes, assise ou dans tes bras, chaque façon d'avancer est la sienne, et elle va vers ce qui l'appelle.",
+  "logique_selection": {
+    "regle": "À 12 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année : pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 12 mois, bébé régule très bien sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_12",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Le printemps déplie ses chemins : herbe neuve, terre qui cède, pétales qui glissent. Un décor rêvé pour le Marcheur, qu'il avance debout, à quatre pattes ou porté, vers tout ce qui l'appelle.",
+      "idees_du_moment": [
+        {
+          "titre": "Le chemin des mille textures",
+          "texte": "Étale sur l'herbe un tapis de surprises : une serviette éponge, un carré de mousse trouvé en route, un petit tas de terre meuble, une planche de bois lisse. Laisse-le les rejoindre à sa façon. S'il marche déjà, tu le verras peut-être tester chaque sol du bout des orteils ; s'il se déplace à quatre pattes, assis ou dans tes bras, ses mains feront la découverte. Tu peux souffler un mot par matière : doux, mou, rugueux, frais."
+        },
+        {
+          "titre": "Le vent qui entre dans la maison",
+          "texte": "Ouvre la fenêtre en grand et accroche des rubans légers à une poignée, ou une écharpe en soie au dossier d'une chaise. Quand le vent les fait danser, il vient parfois vers eux, les bras tendus. Qu'il avance debout, à quatre pattes en se tortillant ou dans tes bras jusqu'au rebord, laisse-le suivre la danse des yeux et des mains. Avec le vent entrent l'odeur de l'herbe coupée et celle de la terre mouillée."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_12",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été étire les journées et réchauffe les sols : sable doux, pierres tiédies, ombres fraîches. Le Marcheur y trouve mille raisons d'aller plus loin, à son rythme, du bout des orteils ou du bout des doigts.",
+      "idees_du_moment": [
+        {
+          "titre": "Les pieds dans le ruisseau",
+          "texte": "Installe-toi au bord d'un ruisseau ou d'une plage de galets, à l'ombre d'un arbre, et pose les pieds de bébé dans l'eau claire. Elle court sur ses chevilles, les galets roulent dessous, ça glougloute. S'il marche déjà, il tentera peut-être quelques pas entre deux pierres, ta main tout près ; s'il préfère rester assis ou dans tes bras, il jouera avec l'eau du bout des doigts. Tu restes tout près, et vous écoutez la rivière raconter."
+        },
+        {
+          "titre": "Les rayures de lumière",
+          "texte": "Quand le soleil tape fort, ferme à moitié les volets : des bandes de lumière dorée se posent sur le sol. Installe-toi au bout de la pièce et regarde-le les poursuivre. S'il marche déjà, il les enjambera peut-être en riant ; s'il avance à quatre pattes ou en se tortillant, il les touchera de la paume ; s'il est dans tes bras, vous les suivrez des yeux. Passe ta main dedans et fais naître des ombres qui bougent."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_12",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne allonge les ombres et dore la fin d'après-midi. Le Marcheur peut y poursuivre, au rythme de ses jambes ou de son regard, une lumière qui change à chaque minute.",
+      "idees_du_moment": [
+        {
+          "titre": "L'ombre qui s'allonge",
+          "texte": "En fin d'après-midi, quand le soleil est bas, sors sur un chemin dégagé ou une place. Ton ombre et la sienne s'étirent loin devant vous. S'il marche déjà, il tentera peut-être d'attraper la sienne, de sauter dessus, de la perdre et de la retrouver ; s'il se déplace à quatre pattes ou assis, il regardera la sienne bouger quand il tape des mains. Dans tes bras, il suivra ton ombre qui salue. Fais des grands bras, des petits, un chapeau d'ombre."
+        },
+        {
+          "titre": "Le couloir de linge qui sent bon",
+          "texte": "Un jour de pluie, drape des draps et des serviettes sur un étendoir pour dessiner un couloir de tissu, et installe-toi à l'autre bout en l'appelant par son nom. S'il marche déjà, il se faufilera peut-être en frôlant les plis ; à quatre pattes ou en se tortillant, il traversera en soulevant le tissu ; porté, il passera avec toi, tout doucement. Le linge sent la lessive et le grand air, et la pluie tambourine pendant ce temps."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_12",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver ramène les jeux dans la maison : chaussettes qui glissent, parfums de soupe, lumière basse. Le Marcheur y invente ses trajets entre un meuble, un tapis et tes bras ouverts.",
+      "idees_du_moment": [
+        {
+          "titre": "La route des couvertures",
+          "texte": "Aligne par terre une route de couvertures : une en laine, une polaire, un plaid en velours, une serviette épaisse. Assieds-toi au bout, bras ouverts. S'il marche déjà, il traversera peut-être en testant chaque matière sous ses pieds ; s'il avance à quatre pattes ou sur les fesses, chaque couverture change sa façon de glisser ; porté, il touchera chaque tissu du bout des doigts quand tu passeras dessus. Chuchote le nom de chacune : doux, piquant, lisse."
+        },
+        {
+          "titre": "Le sachet de cannelle dans la poche",
+          "texte": "Pendant que ça mijote, tu prépares un sachet-surprise : un bâton de cannelle, un morceau d'écorce d'orange et une branche de thym dans un carré de tissu noué d'un ruban. Bébé le renifle, le serre, le secoue. Tu nommes les parfums à mi-voix : « cannelle, orange, thym ». S'il marche déjà, il trottine dans la cuisine, sachet en main, et le glisse dans ta poche ; sinon, assis près de toi ou porté, il le garde contre lui. Le sachet voyage ensuite dans son manteau, un parfum de maison au milieu du gris."
+        }
+      ]
+    }
+  }
+}

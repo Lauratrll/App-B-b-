@@ -1,0 +1,202 @@
+{
+  "mois": 6,
+  "tranche_age": "6 mois",
+  "categorie": {
+    "id": "stimu",
+    "nom": "Sur-stimulation",
+    "sous_titre": "Décompression, heure du loup, bain, visites",
+    "icone": "✨"
+  },
+  "protocoles": [
+    {
+      "categorie": "stimu",
+      "situation": "L'après-grosse journée / Il est débordé et inconsolable",
+      "titre": "Voir la saturation venir",
+      "explication": "Sorties, visites, jeux, découvertes : la journée a été belle, et il s'effondre le soir. Un bébé de six mois enregistre bien plus qu'il ne trie, et sa saturation ne s'annonce pas par des pleurs. Elle se voit avant, dans de tout petits signes : le regard qui se détourne de ce qu'on lui montre, les mains qui se crispent, les mouvements qui s'accélèrent sans but, une agitation qui monte alors qu'il vient de rire. Ce langage-là précède les pleurs de 20 à 30 minutes.",
+      "ancrage": "Ses petits signes passent toujours avant les pleurs, et ils sont plus faciles à repérer qu'on ne croit. Une fois que tu les connais, beaucoup de soirées se passent autrement.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : ouvrir un sas",
+        "etapes": [
+          "Repérer le signal : regard qui fuit, mains crispées, agitation sans but, bâillements.",
+          "Ouvrir un temps de rien : 15 à 20 minutes sans rien lui proposer, avant le rituel du soir.",
+          "Pièce sombre et silencieuse : lumière basse, aucun bruit de fond, aucun écran.",
+          "Un seul adulte auprès de lui : sans passage de bras, sans visite qui prolonge.",
+          "Un seul canal à la fois : la voix ou le toucher, plutôt que les deux ensemble."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Le temps du sas",
+        "etapes": [
+          "Bébé contre toi, dans le calme : lumière tamisée, pièce silencieuse.",
+          "Une main à plat sur son ventre : immobile, chaude, sans appuyer.",
+          "Ta respiration lente, tout près de lui : il la sent, et finit souvent par la suivre.",
+          "Un seul son doux, ou le silence : ta voix tout bas, toujours la même phrase.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Placer le sas au même moment chaque jour : un temps calme prévu à heure fixe se défend mieux qu'un temps improvisé.",
+        "Épurer l'espace de jeu : deux ou trois objets à la fois, sans jouet sonore ni lumineux.",
+        "Tenir un mini-relevé : les jours où il s'effondre et ce que contenait la journée, la corrélation saute aux yeux en une semaine.",
+        "Partager la lecture des signaux : co-parent, nounou ou crèche, tout le monde gagne à repérer les mêmes."
+      ],
+      "principe": "Un système nerveux immature n'envoie pas de signal d'alarme, il envoie des signaux faibles. Ces petits signes-là sont ce qu'un bébé de six mois a de plus proche d'un mot.",
+      "erreurs_a_eviter": [
+        "Attendre les pleurs pour alléger : à ce stade la décharge est lancée, et plus rien ne l'arrête.",
+        "Compenser une journée chargée par un moment de jeu très animé : l'intention est bonne, la charge s'ajoute.",
+        "Confondre l'excitation avec de l'énergie : un bébé qui rit très fort en fin de journée est souvent déjà au-delà de sa limite.",
+        "Prévoir plusieurs sorties le même jour : chacune est raisonnable seule, l'addition ne l'est pas."
+      ],
+      "consulter_si": "Consulter si : bébé reste inconsolable plusieurs heures malgré le retour au calme, s'il refuse de boire, présente de la fièvre, ou paraît anormalement mou ou difficile à réveiller → pédiatre, le 15 selon l'urgence."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "Le creux du soir / Il craque dans le creux du soir",
+      "titre": "Tout se joue 2 heures avant",
+      "explication": "Chaque jour, la même chose entre 17h et 19h : il pleure, rien ne le console, et toute la maison se tend. Ce creux cumule deux choses, une fatigue accumulée depuis le matin et une charge sensorielle qui n'a pas été évacuée. Il tombe de surcroît au moment de la journée où les adultes sont les moins disponibles, ce qui le rend plus dur qu'il ne l'est. Chez la plupart des bébés, il s'atténue nettement entre trois et six mois, puis disparaît de lui-même.",
+      "ancrage": "Tu n'y peux plus grand-chose à 18h, et ce n'est pas faute d'essayer. Là où tu as prise, c'est plus tôt dans la journée, quand tout va encore bien.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : préparer le creux",
+        "etapes": [
+          "Baisser le niveau dès le milieu d'après-midi : moins de lumière, moins de bruit, moins de sollicitations.",
+          "Protéger la dernière sieste : une fin de journée sans sommeil rend ce creux ingérable.",
+          "Coucher plus tôt : très souvent, la solution du soir est un coucher avancé de 20 à 30 minutes.",
+          "Un seul adulte auprès de lui : sans passage de bras, sans visite dans cette fenêtre.",
+          "Se relayer par tranches : 20 minutes chacun, montre en main, avant que l'énervement monte."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : préparer la fin de journée",
+        "etapes": [
+          "En milieu d'après-midi : bébé calme, dans une pièce silencieuse.",
+          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
+          "La séquence « Sommeil paisible » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
+          "Parler doucement pendant la séquence : raconter ce que tu fais, sur le même ton.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ],
+        "lien_reflexologie": {
+          "id": "sommeil",
+          "titre": "Sommeil paisible"
+        }
+      },
+      "pour_aller_plus_loin": [
+        "Alléger la fin de journée : dîner préparé à l'avance, aucune tâche prévue dans cette fenêtre.",
+        "Sortir dehors quelques minutes : l'air frais et le changement de lumière coupent souvent la spirale.",
+        "Se rappeler la trajectoire : ce creux s'atténue avec la maturation, il ne s'installe pas pour l'année.",
+        "Prévenir l'entourage : dire que la maison est injoignable entre 17h et 19h évite d'avoir à s'en justifier chaque jour."
+      ],
+      "principe": "La fatigue d'un tout-petit ne se voit pas quand elle arrive, elle se voit le soir, d'un coup. C'est pour cela que les meilleures soirées se préparent en plein après-midi, quand tout va encore bien.",
+      "erreurs_a_eviter": [
+        "Distraire avec des jouets, une promenade animée ou un écran : la distraction ajoute une entrée à un système qui n'en trie plus aucune.",
+        "Repousser le coucher en espérant qu'il s'épuise : la sur-fatigue rend l'endormissement plus long et la nuit plus hachée.",
+        "Recevoir des visites dans cette fenêtre : le moment où il a le moins de réserve est aussi celui où on l'expose le plus.",
+        "Vouloir cuisiner, ranger et le porter en même temps : l'agacement de l'adulte devient à son tour une stimulation."
+      ],
+      "consulter_si": "Consulter si : les pleurs deviennent inconsolables plusieurs heures par jour, s'ils s'accompagnent de fièvre, de vomissements, d'un refus de boire, ou d'un bébé anormalement mou → pédiatre. Si tu sens la perte de contrôle monter : poser bébé sur le dos dans son lit, sortir de la pièce, appeler un proche ou Allo Parents Bébé (0 800 00 34 56).",
+      "source": "Source : Haute Autorité de Santé, recommandation « Syndrome du bébé secoué ou traumatisme crânien non accidentel par secouement »."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "Le bain qui excite / Il ressort du bain surexcité",
+      "titre": "Le déplacer dans la journée",
+      "explication": "On te dit que le bain apaise et prépare au sommeil. Chez ton bébé, c'est l'inverse : il en sort surexcité, il crie, il ne s'endort plus. Le bain est en réalité une expérience sensorielle intense, qui cumule en quelques minutes le déshabillage, le changement de température, la nudité, l'eau, la lumière et beaucoup de manipulation. Chez certains bébés cela détend, chez d'autres cela réveille tout. Les deux réactions sont normales et n'annoncent rien de particulier.",
+      "ancrage": "Le bain n'apaise pas tous les bébés. Le déplacer dans la journée n'est pas un renoncement : c'est un réglage, et il t'appartient.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : ajuster le bain",
+        "etapes": [
+          "Le déplacer en journée : le matin ou en début d'après-midi, hors du rituel du soir.",
+          "Le raccourcir : 5 minutes suffisent, l'excitation monte avec la durée.",
+          "Baisser les stimulations : lumière douce, silence, sans jouet ni jeu d'eau.",
+          "Espacer les bains : un bain tous les deux ou trois jours suffit largement à cet âge.",
+          "Ne jamais le laisser seul dans l'eau : même une seconde, même avec un transat de bain."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : remplacer le bain dans le rituel",
+        "etapes": [
+          "À la place du bain, le soir : bébé sur le dos, lumière tamisée.",
+          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
+          "Suivre la séquence « Sommeil paisible » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
+          "Garder ta voix posée : quelques mots toujours identiques, ou un air fredonné.",
+          "Terminer par l'immobilité : une main posée sur son torse, jusqu'à ce que sa respiration se pose."
+        ],
+        "lien_reflexologie": {
+          "id": "sommeil",
+          "titre": "Sommeil paisible"
+        }
+      },
+      "pour_aller_plus_loin": [
+        "Vérifier la température : autour de 37 °C, contrôlée avant chaque bain, au thermomètre plutôt qu'au coude.",
+        "Observer ce qui l'excite précisément : l'eau, la nudité ou le déshabillage, chacun appelle un réglage différent.",
+        "Reconstruire un rituel sans bain : trois étapes simples, toujours dans le même ordre, toujours au même endroit.",
+        "Se donner le droit : aucun texte n'impose un bain quotidien, ni un bain le soir."
+      ],
+      "principe": "Un rituel n'a de valeur que par sa régularité, jamais par son contenu. Ce qui endort un enfant, c'est de reconnaître la suite des étapes, quelles qu'elles soient.",
+      "erreurs_a_eviter": [
+        "Maintenir le bain du soir parce qu'il est censé apaiser : le rituel se juge sur l'effet obtenu, pas sur sa réputation.",
+        "Prolonger le bain pour qu'il se détende : plus l'exposition dure, plus la charge sensorielle augmente.",
+        "Ajouter des jouets d'eau pour le calmer : le jeu transforme le bain en moment d'activité.",
+        "Changer d'horaire tous les deux jours : sans régularité, aucun réglage ne peut être évalué."
+      ],
+      "consulter_si": "Consulter si : bébé reste inconsolable après chaque bain malgré ces ajustements, s'il présente une peau très irritée ou des lésions, ou s'il se raidit fortement dès qu'on le manipule → pédiatre, médecin traitant ou PMI.",
+      "source": "Source : ameli.fr (Assurance Maladie), le bain de bébé : température, fréquence et sécurité."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "La décharge d'après-visite / Il décharge quand tout le monde part",
+      "titre": "Cadrer avant, accueillir après",
+      "explication": "Il a été charmant pendant 2 heures, et il s'effondre dès la porte fermée. Ce n'est ni un rejet des personnes venues, ni de l'ingratitude. Pendant la visite, il tient : il absorbe les voix, les visages, les bras, les odeurs, sans pouvoir dire stop. À six mois, il commence en plus à trier les visages et à préférer les familiers, ce qui rend la circulation de bras en bras beaucoup plus coûteuse qu'à trois mois. La décharge arrive après, auprès de la personne avec qui il se sent le plus en sécurité.",
+      "ancrage": "Ces pleurs sont une décharge, pas un reproche. C'est auprès de toi qu'il lâche, et cela dit exactement où se trouve sa sécurité.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : cadrer la visite",
+        "etapes": [
+          "Annoncer la durée à l'avance : une heure, dite au moment où on fixe le rendez-vous.",
+          "Limiter le nombre de bras : une ou deux personnes le portent, pas toute la tablée.",
+          "Traduire ses signaux à voix haute : « il détourne le regard, il a besoin d'une pause ».",
+          "Prévoir une pièce de repli : le sortir du groupe 10 minutes avant qu'il craque.",
+          "Fermer la porte et revenir au calme : pièce sombre, silence, un seul adulte."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Retrouver ton odeur",
+        "etapes": [
+          "Peau à peau, assis : son torse contre le tien, sans bercer, sans parler.",
+          "Une main large sur son dos : posée, immobile, le temps qu'il se pose.",
+          "Respirer plus lentement que lui : il cale peu à peu son rythme sur le tien.",
+          "Le laisser pleurer contre toi : la vague sort, elle n'a pas besoin d'être arrêtée.",
+          "Attendre le relâchement : les épaules qui tombent disent que c'est passé."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Préparer une phrase toute prête : « on garde court pour préserver son rythme », dite avec le sourire, elle passe très bien.",
+        "Espacer les visites : deux visites dans la même journée coûtent bien plus que le double d'une seule.",
+        "Expliquer le tri des visages à l'entourage : savoir que c'est un progrès évite qu'un grand-parent le prenne pour lui.",
+        "Choisir le créneau : une visite en début de journée se traverse infiniment mieux qu'une visite en fin d'après-midi."
+      ],
+      "principe": "Un tout-petit ne sait pas encore dire non à un bras tendu, et l'entourage ne voit que le sourire. Tant qu'il ne peut pas poser sa limite, quelqu'un la pose pour lui : c'est pleinement le rôle du parent.",
+      "erreurs_a_eviter": [
+        "Le faire passer de bras en bras pour ne vexer personne : chaque nouvelle odeur et chaque nouvelle voix relancent la charge.",
+        "Le réveiller pour qu'il profite des visiteurs : la visite se fait alors sur un capital de sommeil qu'il n'a pas.",
+        "Le pousser vers quelqu'un qu'il évite : forcer le contact apprend surtout que son signal ne sert à rien.",
+        "S'excuser de protéger son calme : l'excuse laisse penser que la demande est négociable."
+      ],
+      "consulter_si": "Consulter si : bébé reste inconsolable plusieurs heures malgré le retour au calme, s'il refuse de boire, présente de la fièvre, ou paraît anormalement mou ou difficile à réveiller → pédiatre, le 15 selon l'urgence."
+    }
+  ]
+}

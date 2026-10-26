@@ -1,0 +1,110 @@
+{
+  "mois": 20,
+  "tranche_age": "20 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 20 : Le Symbolique · Vivre la saison ensemble",
+  "description_m": "{prenom} fait semblant partout : un bâton devient cuillère, un galet devient téléphone, et sa peluche a toujours un peu faim. Son imaginaire transforme tout ce qu'il touche.",
+  "description_f": "{prenom} fait semblant partout : un bâton devient cuillère, un galet devient téléphone, et sa peluche a toujours un peu faim. Son imaginaire transforme tout ce qu'elle touche.",
+  "logique_selection": {
+    "regle": "À 20 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année : pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 20 mois, bébé régule très bien sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_20",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Au printemps, tout se prête à la métamorphose : un pétale devient pièce d'or, une brindille devient baguette magique. Le Symbolique trouve dehors un royaume entier d'objets qui rêvent d'être autre chose.",
+      "idees_du_moment": [
+        {
+          "titre": "Le magasin de pétales",
+          "texte": "Étale un grand foulard sur l'herbe : c'est le comptoir. Il y dispose pétales, cailloux, brins d'herbe, la marchandise du jour. Tu pousses la porte du magasin : « Bonjour, je voudrais trois pièces d'or, s'il te plaît ! » Il te tend un pétale avec le plus grand sérieux, et tu le remercies comme s'il s'agissait d'un trésor. S'il marche déjà, il file cueillir de nouveaux articles ; s'il se déplace autrement, assis sur le foulard, tout arrive à portée de main, ou tu lui rapportes des idées de rayons."
+        },
+        {
+          "titre": "Un jardin dans un couvercle",
+          "texte": "Pose le couvercle d'une grande boîte sur la table ou sur le tapis. Autour, la collecte de la matinée : mousse, brins d'herbe, fleurs de pissenlit, petits cailloux. Un jardin se compose, une cuillère devient arrosoir, un bouchon devient fontaine. Le doudou vient en visite, et tu demandes à la fleur si elle a bien dormi. Il invente peut-être sa propre histoire de jardinier, debout autour de la table, assis sur tes genoux ou allongé sur le ventre pour voir de plus près."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_20",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été prête ses accessoires à l'imaginaire : un seau devient chapeau, une coquille devient tasse, une serviette devient cape. Le Symbolique joue la fête, au soleil comme à l'ombre.",
+      "idees_du_moment": [
+        {
+          "titre": "Le bateau d'écorce et ses passagers",
+          "texte": "Un morceau d'écorce, une feuille plantée en voile, et le voilà bateau. Au bord d'une rivière calme, d'une fontaine ou d'une grande vasque, vous le posez sur l'eau, toi tout près de lui. Qui voyage aujourd'hui ? Un caillou capitaine, une fleur passagère, le doudou en croisière. Il souffle sur la voile, commente le trajet à sa façon, fait au revoir de la main. S'il marche déjà, il suit le bateau le long de la rive ; sinon, assis à ton côté, il le regarde partir."
+        },
+        {
+          "titre": "Le théâtre d'ombres derrière le drap",
+          "texte": "Volets mi-clos, un drap blanc tendu entre deux chaises ou accroché à une porte, une lampe posée derrière. Les ombres entrent en scène : ta main devient oiseau, le doudou devient géant, une louche devient dragon. Il rit, il montre du doigt, il répond à l'ombre, et bientôt il envoie sa propre main sur la scène. Il peut jouer debout devant le drap, assis sur un coussin, ou porté contre toi pour toucher le tissu et voir les personnages apparaître."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_20",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne remplit les poches de marrons, de glands et d'écorces. Pour le Symbolique, chaque trouvaille attend de devenir autre chose : un trésor, un œuf, un bijou, un petit animal de la forêt.",
+      "idees_du_moment": [
+        {
+          "titre": "L'écureuil et ses cachettes",
+          "texte": "Sous les arbres, tu deviens écureuil, lui aussi. Chacun son panier de glands et de marrons, et la mission de les mettre à l'abri pour l'hiver : dans un creux, sous un tas de feuilles, dans la capuche de ton manteau. « Chut, personne ne regarde, je cache le mien ! » Certains jours, il invente la cachette la plus drôle, ou vient te la révéler en chuchotant. S'il marche déjà, il trottine d'une cachette à l'autre ; s'il se déplace autrement, assis ou porté, il glisse ses trésors dans ton écharpe."
+        },
+        {
+          "titre": "Allô, ici le hérisson",
+          "texte": "Un jour de pluie, une pomme de pin, une coquille ou un gros marron devient téléphone. Tu fais « dring dring », il décroche et colle l'objet contre son oreille. Au bout du fil, le hérisson de la forêt prend des nouvelles : « Allô ? Il pleut chez vous aussi ? » Tu varies les voix, tu grognes un peu, tu reçois ses réponses en mots, en babillages ou en gestes. Le doudou veut parler aussi, puis un autre animal appelle. La conversation peut durer longtemps, depuis le canapé, le tapis ou ton épaule."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_20",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver rapproche et allume les lampes. Une couverture devient montagne, une cuillère devient micro, et le Symbolique mène sa troupe de peluches de scène en scène, bien au chaud.",
+      "idees_du_moment": [
+        {
+          "titre": "Le train du salon",
+          "texte": "Aligne des coussins et des écharpes pour dessiner la voie ferrée, pose un carton qui sera la locomotive. Le doudou monte, les autres peluches suivent, et le train démarre avec son « tchou tchou ». Tu annonces les gares : « Prochain arrêt, la cuisine ! » Il pousse le carton à sa façon, il chante, il klaxonne. S'il se déplace autrement, il s'installe dans le carton comme chef de gare, et c'est toi qui fais avancer le convoi doucement sur le tapis."
+        },
+        {
+          "titre": "Souffler comme un dragon",
+          "texte": "Dehors, un petit nuage sort de ta bouche quand tu respires fort. Voilà un dragon ! Tu souffles, il regarde, puis il essaie à son tour : « Prouuuh ! » Chaque souffle visible devient une fumée, un secret, un fantôme qui s'envole. Le doudou-dragon vient aussi, et vous croisez des dragons à chaque coin de rue. Parfois il invente ses propres rugissements, parfois il te regarde avec de grands yeux. Il rugit en marchant, ou observe depuis l'écharpe, le porte-bébé ou la poussette."
+        }
+      ]
+    }
+  }
+}

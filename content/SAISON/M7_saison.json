@@ -1,0 +1,110 @@
+{
+  "mois": 7,
+  "tranche_age": "7 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 7 : Le Mobile · Vivre la saison ensemble",
+  "description_m": "{prenom} cherche à rejoindre ce qui l'attire, à sa façon : en roulant, en pivotant, en tendant les bras ou en se laissant porter.",
+  "description_f": "{prenom} cherche à rejoindre ce qui l'attire, à sa façon : en roulant, en pivotant, en tendant les bras ou en se laissant porter.",
+  "logique_selection": {
+    "regle": "À 7 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année : pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 7 mois, bébé régule mieux sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_07",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "La terre se réveille, l'herbe chatouille, tout invite à aller voir plus loin. Un printemps de Mobile, où chaque coin de jardin devient un petit voyage.",
+      "idees_du_moment": [
+        {
+          "titre": "Le chemin de pâquerettes",
+          "texte": "Sur la pelouse, tu étales une couverture et tu disposes des fleurs, des brins d'herbe, des pétales en traînée jusqu'à un joli bouquet un peu plus loin. S'il roule ou rampe, il suit la piste et attrape ce qu'il trouve ; s'il reste assis, il se penche et tend les bras ; s'il aime être porté, tu l'emmènes de fleur en fleur. Il garde parfois une pâquerette en main tout le chemin. Il peut aussi te la tendre. Peu importe où il arrive : la destination, c'est le trajet."
+        },
+        {
+          "titre": "Le rideau qui respire",
+          "texte": "Fenêtre ouverte, un rideau de voile se gonfle et retombe dans le courant d'air. Tu l'installes à proximité, sur le tapis ou sur tes genoux. Il suit le tissu des yeux, tend les mains, se tortille pour l'attraper. S'il se déplace seul, il se rapprochera peut-être de la fenêtre ; s'il préfère rester sur toi, tu peux avancer le rideau vers lui. Tu verras peut-être qu'il rit quand le tissu lui frôle la joue. Un souffle de printemps et une chorégraphie improvisée."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_07",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "Le sable qui s'étire, l'herbe sèche, le carrelage frais de la cuisine : l'été multiplie les surfaces à traverser pour un Mobile qui aime aller voir.",
+      "idees_du_moment": [
+        {
+          "titre": "Le radeau de serviette",
+          "texte": "Sur une grande serviette de plage posée sur l'herbe ou la terrasse à l'ombre, il s'installe, couché ou assis. Tu tires doucement la serviette à reculons, comme un radeau qui glisse. Tu ralentis, tu t'arrêtes, tu repars. Il rit, s'accroche au bord ou observe le décor qui défile. C'est souvent le moment où il réclame un nouveau tour en s'agitant. S'il préfère descendre pour explorer l'herbe, la serviette devient une île de départ. Un voyage autour de la maison."
+        },
+        {
+          "titre": "Le sol frais de la cuisine",
+          "texte": "Volets mi-clos, tu t'étends à plat ventre sur le carrelage frais, tout près de lui. Il glisse, roule, pivote sur la surface lisse, ou reste assis à observer ta joue contre le sol. Tu poses des objets en haut de la pièce : une cuillère en bois, une balle en tissu. Il se déplace vers eux, tend le bras depuis tes genoux, ou préfère te regarder faire. Il imite peut-être ta position. Un petit refuge de fraîcheur."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_07",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "Les troncs rugueux, les boîtes de carton, les teintes de rouille et les fruits qui brillent : l'automne offre des chemins à suivre et des trésors à saisir pour un Mobile en route.",
+      "idees_du_moment": [
+        {
+          "titre": "Le tunnel de carton",
+          "texte": "Un grand carton ouvert aux deux bouts, couché sur le tapis, devient un passage. De l'autre côté, tu agites une écharpe couleur de feuille et tu l'appelles : « coucou, je suis là ! » S'il rampe ou roule, il s'y engage ; s'il reste assis, il regarde ta main surgir par l'ouverture ; s'il préfère les bras, tu fais le tour avec lui. Il réclame peut-être un nouveau passage. Le carton résonne, et c'est déjà une belle aventure."
+        },
+        {
+          "titre": "La pomme qui brille sur ta manche",
+          "texte": "Dans un verger ou sous un pommier de jardin, tu cueilles une pomme devant lui, à la hauteur de son regard. Tu la frottes sur ta manche en chantonnant « frotte, frotte, frotte », puis tu la lui présentes : elle brille, et son petit visage s'y reflète, tout déformé. Tu la poses dans sa main, assez grosse pour qu'il la serre à deux mains. Il la tourne, la sent, la laisse rouler. S'il marche déjà, il file la rattraper ; sinon, assis ou porté, il te la tend pour que tu la fasses briller encore."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_07",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "Le tapis du salon devient un grand territoire, la lumière s'allonge sur le sol, les voix sonnent plus fort dans les pièces chaudes : l'hiver invite le Mobile à aller à la rencontre de tout.",
+      "idees_du_moment": [
+        {
+          "titre": "La chanson qui change de coin",
+          "texte": "Tu chantes une comptine ou une chanson d'hiver en te déplaçant d'un coin à l'autre de la pièce : près de la fenêtre, derrière un rideau, à côté du canapé. Ta voix change de direction, et il tourne la tête pour te chercher. S'il roule ou rampe, il suivra peut-être la voix ; s'il reste assis, il pivotera sur place ; s'il est dans tes bras, il écoutera la musique se promener. Chaque nouvelle apparition lui arrache parfois un sourire. Le salon devient un petit théâtre vivant."
+        },
+        {
+          "titre": "Une piste de neige sur l'assiette",
+          "texte": "Si la neige est tombée, rapporte-en une belle poignée dans une assiette sombre et pose-la sur le tapis du salon. Derrière, allume une lampe de poche : la neige se met à scintiller. Du bout d'une cuillère, trace un chemin, puis laisse bébé y poser un doigt, une paume. S'il se déplace déjà, il vient jusqu'à l'assiette ; s'il reste assis ou porté, tu la rapproches de lui. La neige fond, l'eau apparaît, et tu souffles dessus en chantonnant un « brrr » joyeux."
+        }
+      ]
+    }
+  }
+}

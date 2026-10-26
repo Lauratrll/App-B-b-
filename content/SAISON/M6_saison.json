@@ -1,0 +1,110 @@
+{
+  "mois": 6,
+  "tranche_age": "6 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 6 : Le Réceptif · Vivre la saison ensemble",
+  "description_m": "{prenom} s'imprègne de tout ce qui l'entoure : une odeur, une voix, une couleur, et il reçoit l'ambiance en entier.",
+  "description_f": "{prenom} s'imprègne de tout ce qui l'entoure : une odeur, une voix, une couleur, et elle reçoit l'ambiance en entier.",
+  "logique_selection": {
+    "regle": "À 6 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année : pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 6 mois, bébé régule mieux sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_06",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Les parfums se mêlent, la terre sent la pluie, les voix portent plus loin dans l'air doux. Un printemps fait pour un Réceptif qui accueille tout ce que la saison lui murmure.",
+      "idees_du_moment": [
+        {
+          "titre": "Les fanes qui chatouillent",
+          "texte": "Au marché de printemps, bébé en écharpe ou en porte-bébé face à toi, arrête-toi devant les bottes de radis et de carottes. Prends une fane, ce panache de feuilles vertes, et passe-la sur le dos de sa main : ça chatouille comme une plume. Puis froisse un brin de menthe ou de persil entre tes doigts et approche-le de son nez. Il agrippe peut-être le feuillage, fronce le nez, ou sourit. Les couleurs vives, les odeurs, les voix du marchand : il découvre tout en voyageant contre toi."
+        },
+        {
+          "titre": "Les yeux fermés, l'oreille ouverte",
+          "texte": "Sur un banc ou sur l'herbe, tu t'installes avec lui contre toi et tu chuchotes ce que tu entends : un merle, une sonnette de vélo, le vent dans les feuilles. Puis tu te tais, et vous écoutez. Il tourne peut-être la tête vers chaque son, ou reste simplement lové dans le calme. Tu peux baisser la voix à mesure que les sons s'éloignent. S'il se déplace déjà, il ira peut-être vers un bruit ; sinon, ton bras suffit à l'emmener. Un paysage sonore, sans rien d'autre à faire."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_06",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "Les fruits gorgés de soleil, les voix qui s'étirent dans le soir, l'eau qui scintille : l'été est un festin pour un Réceptif qui s'imprègne de tout.",
+      "idees_du_moment": [
+        {
+          "titre": "La corbeille aux mille couleurs",
+          "texte": "Sur la table de la cuisine, tu poses une corbeille de fruits d'été : pêches, abricots, melon, prunes. Il est sur tes genoux, face à toi. Tu fais rouler une pêche contre sa main, tu grattes la peau pour en libérer le parfum, tu nommes les couleurs : rose, orangé, vert. Il s'attarde sur une odeur, tend la main vers le fruit le plus brillant ou observe simplement. La cuisine sent l'été, et vous êtes au centre."
+        },
+        {
+          "titre": "Les pieds à la fontaine",
+          "texte": "Au bord d'une fontaine ou d'un petit bassin, assis contre toi à l'ombre, tu trempes doucement ses pieds. L'eau scintille, éclabousse, murmure. Tu restes tout près, tu laisses ses orteils jouer avec les gouttes, tu fais tinter l'eau avec ta main. Il fixe les reflets sur sa peau, donne des coups de pied ou se laisse bercer par le bruit. Un grand sourire accompagne parfois l'eau qui rejaillit. Un petit moment suspendu au milieu de la journée."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_06",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "Les sous-bois humides, les couleurs de rouille et de vin, la laine qui sent le feu de bois : l'automne parle à tous les sens d'un Réceptif.",
+      "idees_du_moment": [
+        {
+          "titre": "Après la pluie, le sous-bois",
+          "texte": "Dans l'écharpe, tu t'arrêtes dans un sous-bois après une averse. Tu inspires bruyamment : « hmm, ça sent la terre ! » Tu t'approches d'un tronc, d'une touffe de mousse, tu laisses la goutte tomber d'une branche près de lui. Il fronce le nez, lève les yeux vers le bruit des gouttes ou se blottit contre toi. Il cherche peut-être l'odeur à son tour. Dans le sous-bois, chaque arrêt est un petit récit de sons et de parfums."
+        },
+        {
+          "titre": "Les écharpes couleur de feuille",
+          "texte": "Près d'une fenêtre claire, tu rassembles des écharpes ou des tissus d'automne : ocre, rouille, bordeaux, vert mousse. Tu les lèves un à un devant lui en les laissant onduler, puis tu les poses sur son ventre ou sur son visage, le temps d'un « coucou ». Il s'arrête sur une couleur, s'empare d'un tissu ou bâille tranquillement. Ses yeux reviennent souvent vers le même. Le salon prend les teintes de la forêt."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_06",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "La résine du sapin, les voix voilées par la brume, la laine douce contre la joue : l'hiver enveloppe un Réceptif de sensations feutrées.",
+      "idees_du_moment": [
+        {
+          "titre": "La branche de sapin",
+          "texte": "Tu rapportes une branche de sapin et tu la poses sur le tapis. Tu la frottes doucement entre tes paumes pour que son parfum de résine monte. Tu la passes près de son nez, tu laisses ses doigts effleurer les aiguilles, tu fais danser la branche devant ses yeux. Il y plonge son visage, la tient un instant ou la regarde simplement. Il y revient parfois, comme à une vieille connaissance. Toute la pièce prend l'odeur de la forêt."
+        },
+        {
+          "titre": "Dans le brouillard, tout est doux",
+          "texte": "Un matin de brume, dans l'écharpe, tu marches lentement. Les sons sont voilés, les formes floues, la lumière blanche. Tu murmures ce que tu vois apparaître : un arbre, un réverbère, un oiseau. Il se peut qu'il observe, qu'il ferme les yeux, ou qu'il se tourne vers ta voix. Tu peux t'asseoir sur un banc, le temps d'écouter le silence du dehors. Il reste parfois attentif à ce paysage sans contours. Une promenade comme une page blanche."
+        }
+      ]
+    }
+  }
+}

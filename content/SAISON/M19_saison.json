@@ -1,0 +1,110 @@
+{
+  "mois": 19,
+  "tranche_age": "19 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 19 : Le Rythmé · Vivre la saison ensemble",
+  "description_m": "{prenom} bat la mesure dès qu'une musique passe. Il aime les refrains qui reviennent et les gestes qu'on répète.",
+  "description_f": "{prenom} bat la mesure dès qu'une musique passe. Elle aime les refrains qui reviennent et les gestes qu'on répète.",
+  "logique_selection": {
+    "regle": "À 19 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année : pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 19 mois, bébé régule très bien sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_19",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Le printemps a ses cadences : oiseaux du matin, gouttes sur les feuilles, pas qui s'accélèrent. Le Rythmé s'en empare, tape, balance, répète, et la saison devient une scène où battre la mesure.",
+      "idees_du_moment": [
+        {
+          "titre": "La clôture qui joue du xylophone",
+          "texte": "Prends un bâton ou une cuillère en bois et fais-le courir sur les barreaux d'une grille, d'une rambarde, d'une clôture : tac-tac-tac-tac. Ça va vite quand tu avances vite, ça ralentit quand tu t'arrêtes. Il écoute, puis veut essayer, tape sur un barreau, puis sur trois. S'il marche déjà, il longe la grille en tapant ; s'il est porté, tu lui rapproches la grille ou tu guides sa main sur le bâton pour qu'il sente le va-et-vient."
+        },
+        {
+          "titre": "Le vent mène la danse",
+          "texte": "Sous un arbre aux branches qui balancent, vous dansez comme elles. Quand le vent est doux, tu te balances lentement et il se laisse bercer dans tes bras, ou ondule sur place. Quand il souffle plus fort, tu accélères, tu tournes, tu tapes des pieds. Quand il s'arrête, vous devenez statues, les yeux dans les branches, jusqu'à la prochaine bourrasque. S'il marche déjà, il invente sa propre danse à côté de toi ; sinon, assis sur un plaid, il bat la mesure avec ses mains. Le vent est le chef d'orchestre."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_19",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été a un tempo lent et ensoleillé : cigales, balançoires, cliquetis, rires qui reviennent. Le Rythmé y bat la mesure partout, avec les mains, les pieds et tout son corps.",
+      "idees_du_moment": [
+        {
+          "titre": "La balançoire qui compte",
+          "texte": "Sur une balançoire, un hamac ou simplement dans tes bras qui se balancent, installe un petit compte : « un, deux, trois, et hop ! ». À l'ombre d'un arbre, le mouvement prend son tempo et le « hop » arrive toujours au même endroit. Parfois il l'attend, le dit ou rit avant toi. Tu glisses parfois un silence avant le « hop », pour voir. Que l'élan vienne d'une balançoire ou de tes bras, c'est le même plaisir qui revient."
+        },
+        {
+          "titre": "Les maracas aux coquillages",
+          "texte": "Derrière les volets mi-clos, à l'heure où la maison est calme, prépare deux boîtes fermées au ruban, chacune remplie de coquillages ou de graines ramassés cet été. Secoue la première : chhh-chhh. Puis la deuxième : tic-tic. Il choisit sa maraca, la secoue au rythme de ta chanson, ou invente un rythme qui n'appartient qu'à lui. S'il marche déjà, il danse avec ; s'il est assis, il bat la mesure sur ses genoux."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_19",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne joue en sourdine : pluie, gravier, vent, pas pressés. Le Rythmé reconnaît chaque refrain de la saison et le reprend à sa manière.",
+      "idees_du_moment": [
+        {
+          "titre": "Lent, vite, lent sur le chemin",
+          "texte": "Sur un chemin de gravier, de sable ou d'écorce, tes pas craquent. Joue avec le tempo : craque, craque, craque, puis vite, vite, vite, puis très lent. Il écoute peut-être, essaie, accélère ou s'arrête net, et tu t'arrêtes avec lui. S'il marche déjà, ses pas répondent aux tiens ; s'il est porté ou en poussette, tu marques le rythme de tes pas sous lui, et il bat la mesure avec ses mains."
+        },
+        {
+          "titre": "Les casseroles sous la pluie",
+          "texte": "Quand la pluie tombe, pose sur le rebord de la fenêtre ou sous la gouttière trois récipients différents : une casserole, un verre en plastique, un bol en métal. Ping, plok, tchac : chaque goutte a sa voix. Il écoute, tourne la tête, tape peut-être en même temps. Tu changes les récipients de place, et la musique change. Debout contre la fenêtre ou assis sur tes genoux, il suit le concert du regard."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_19",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver aime les refrains : souffle visible, clochettes, chansons du soir. Pour le Rythmé, ces rendez-vous qui reviennent font une musique rassurante, tout en douceur.",
+      "idees_du_moment": [
+        {
+          "titre": "Un carillon pour le vent d'hiver",
+          "texte": "Accroche à une branche, un balcon ou un porte-manteau des cuillères, des clés et des couvercles suspendus à des ficelles. Quand le vent passe, tout tinte. Quand il n'y en a pas, c'est à lui de secouer, et le tintement répond. Il écoute, imite, tape en cadence. S'il marche déjà, il va tinter lui-même ; sinon, tu l'amènes près du carillon ou tu le descends à sa hauteur."
+        },
+        {
+          "titre": "La chanson du soir qui se danse",
+          "texte": "Choisis une chanson douce et reprends-la chaque soir, à la même heure, avec les mêmes gestes : un balancement, un pas de côté, un tour sur toi-même avec lui. Peu à peu, il anticipe le refrain, lève les bras avant toi, ou se laisse bercer en fermant les yeux. La lumière est basse, ta voix aussi. S'il marche déjà, il danse à côté de toi ; sinon, tu le berces, ou vous dansez assis face à face."
+        }
+      ]
+    }
+  }
+}

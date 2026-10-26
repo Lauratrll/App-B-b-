@@ -1,0 +1,110 @@
+{
+  "mois": 22,
+  "tranche_age": "22 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 22 : Le Tendre · Vivre la saison ensemble",
+  "description_m": "{prenom} offre de la tendresse : un bisou à son doudou, un geste doux pour plus petit que lui, un regard attendri devant un animal. La douceur devient son langage.",
+  "description_f": "{prenom} offre de la tendresse : un bisou à son doudou, un geste doux pour plus petit qu'elle, un regard attendri devant un animal. La douceur devient son langage.",
+  "logique_selection": {
+    "regle": "À 22 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année : pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 22 mois, bébé régule très bien sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_22",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Au printemps, le vivant se réveille tout doucement : bourgeons, escargots, nids, pétales. Le Tendre y trouve des merveilles minuscules à regarder de près et à saluer d'un geste lent.",
+      "idees_du_moment": [
+        {
+          "titre": "Dire bonjour à l'escargot",
+          "texte": "Après une averse, les escargots sortent. Quand l'un d'eux apparaît sur un mur ou sur une feuille, vous vous arrêtez, tu t'accroupis, tu chuchotes : « Bonjour, petit escargot. » Il se rapproche, observe les cornes qui se rentrent, la traînée brillante laissée derrière. Il lui parle peut-être, lui envoie un bisou de loin, ou lui offre un brin d'herbe. Quand il est prêt, vous lui souhaitez bon voyage. Debout, assis près de toi ou porté, il a la meilleure place."
+        },
+        {
+          "titre": "Un nid tout doux en laine",
+          "texte": "Rassemble de la laine, des chutes de tissu, des plumes, du coton, des brins de paille. Ensemble, vous roulez, nouez, entassez tout cela dans un grand bol ou une boîte pour faire un nid. Il y dépose un oiseau en pompon, une boule de laine, un caillou lisse, qu'il berce du bout des doigts : « Chhh, dodo. » Tu fredonnes une berceuse. Le nid peut ensuite rester sur l'étagère, comme un petit rendez-vous de tendresse. Il le fabrique debout, assis sur le tapis ou sur tes genoux."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_22",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été ouvre les fenêtres et les bras. Dans l'ombre des arbres, sur l'herbe tiède, au pied d'un mur de pierre, le Tendre trouve de quoi donner et recevoir de la douceur.",
+      "idees_du_moment": [
+        {
+          "titre": "Le câlin de l'arbre",
+          "texte": "Choisis un vieil arbre dans un parc ou au jardin, avec un tronc assez large. Posez vos joues contre l'écorce et écoutez : « Tu entends quelque chose ? » Il pose ses mains sur le tronc, le regarde de haut en bas, lui fait peut-être un bisou. Tu lui murmures que l'arbre est content de la visite. Les feuilles bruissent, comme un merci. Il fait le tour du tronc en marchant, ou à sa façon, ou reste assis au pied, adossé, la main sur une racine."
+        },
+        {
+          "titre": "Des bisous par la fenêtre",
+          "texte": "Installe-le près de la fenêtre, face au jardin, à la rue ou à la cour. Un voisin passe, un oiseau se pose, ou quelqu'un de la famille vit loin et vous pensez à lui. Tu souffles un bisou dans ta paume et tu l'envoies ; il t'imite, la main tendue vers dehors. Un facteur, un chat, un vieux monsieur sur son banc : chacun reçoit le sien. Il peut envoyer ses bisous à pleine main debout, assis sur le canapé ou dans tes bras, bras levés."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_22",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne invite à se lover : plaids, pulls, bottes, soupes qui mijotent. Le Tendre prend soin de tout ce qui l'entoure, et ses peluches sont les premières à être bichonnées.",
+      "idees_du_moment": [
+        {
+          "titre": "Le doudou en écharpe pendant la balade",
+          "texte": "Avant de sortir, noue un foulard sur son torse ou sur le tien, et glisses-y un doudou : le voilà porté, comme lui l'est parfois. Pendant la balade, il le berce d'un pas lent, lui montre les arbres, lui dit « Regarde ! » quand une feuille tombe. Il s'arrête pour le consoler sous une goutte de pluie. Il peut porter lui-même son doudou en marchant, dans la poussette ou dans tes bras ; chacun trouve sa manière de veiller."
+        },
+        {
+          "titre": "Le petit musée dans la boîte à œufs",
+          "texte": "Sur un chemin d'automne, tu trouves une plume, une coquille d'escargot vide ou une graine ailée. Tu la tiens du bout des doigts, tu la montres à bébé, puis tu la lui confies. À la maison, une boîte à œufs devient son petit musée : chaque creux accueille un trésor, sur un peu de coton ou de laine. Il pose la plume, la reprend, la promène sur ta joue, sur celle de son ours : « tout doucement ». S'il marche déjà, il trottine porter sa boîte ; sinon, assis ou porté, elle se pose près de lui."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_22",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver fait de la tendresse une fête : lumières douces, tables dressées, bras qui se retrouvent. Le Tendre y goûte le plaisir de donner, un dessin, un bisou, un regard.",
+      "idees_du_moment": [
+        {
+          "titre": "Un dessin qui voyage jusqu'à mamie",
+          "texte": "Quelqu'un de la famille vit loin et vous pensez à lui. Sur une grande feuille, il laisse ses traces : gribouillis, gommettes, empreintes de mains, un cœur dessiné par toi. Il choisit les couleurs, tu écris le prénom. Ensemble, vous pliez la feuille, la glissez dans une enveloppe, et partez la mettre à la boîte, ou la photographiez pour l'envoyer. Un bisou sur l'enveloppe, et le dessin s'en va. Il peut dessiner debout à la table, assis par terre ou sur tes genoux."
+        },
+        {
+          "titre": "Une écharpe pour l'arbre",
+          "texte": "Au parc ou devant la maison, choisis un arbre tout nu. Sors une écharpe, un morceau de laine ou une bande de tissu, et enroulez-la autour du tronc, comme pour un petit copain frileux. Il tire, il noue, il enroule, il tapote en disant « voilà ». L'arbre est habillé, et ceux qui passent sourient. Vous revenez voir l'effet les jours suivants. Il se tient debout contre le tronc, assis à ses pieds, ou dans tes bras pour atteindre plus haut."
+        }
+      ]
+    }
+  }
+}

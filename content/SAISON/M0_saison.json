@@ -1,0 +1,110 @@
+{
+  "mois": 0,
+  "tranche_age": "0-4 semaines",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 0 : Le Lové · Vivre la saison ensemble",
+  "description_m": "{prenom} vient d'arriver et se love contre toi. Ces premiers jours, son monde tient dans ta voix, ta chaleur et le battement de ton cœur.",
+  "description_f": "{prenom} vient d'arriver et se love contre toi. Ces premiers jours, son monde tient dans ta voix, ta chaleur et le battement de ton cœur.",
+  "logique_selection": {
+    "regle": "Au mois 0, l'app sélectionne la version selon la saison de naissance de bébé. Il restera dans cette saison pendant ses 4 premières semaines, avant de basculer sur le mois civil en cours dès le mois 1.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année : pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "nourrisson",
+    "note_version": "Les premières semaines, bébé ne régule pas du tout sa température : on utilise le schéma 0-4 mois."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_00",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Le printemps entrouvre les fenêtres. Pour un bébé encore tout lové, il arrive en petites touches : un chant d'oiseau, une brise sur la joue, une lumière plus claire.",
+      "idees_du_moment": [
+        {
+          "titre": "Un pas sur le seuil",
+          "texte": "Debout sur le pas de la porte, bébé en écharpe ou dans le creux de ton bras, tu laisses entrer la saison par petites touches. Une brise sur ta joue, l'odeur d'une pelouse tondue, le soleil qui change de côté. Parfois il se blottit davantage, parfois il tourne la tête vers le bruit des branches. Raconte-lui tout bas ce que tu vois, et rentre quand l'envie vous en vient, sans rien décider d'avance."
+        },
+        {
+          "titre": "Le bonjour teinté de la fenêtre",
+          "texte": "Chaque matin, installe-toi près de la fenêtre ouverte, bébé lové contre ton épaule ou allongé sur tes cuisses. Tiens un voile de mousseline ou un foulard clair devant la vitre : la lumière devient rose, puis verte quand tu changes de tissu, et se pose sur sa joue comme une couleur douce. Il cligne des yeux, tourne peut-être le visage vers la clarté, ou se blottit simplement. Murmure-lui le nom de la couleur du jour. Ce petit bonjour à la lumière deviendra votre rituel du matin."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_00",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été étire les journées et les ombres. Lové contre toi, bébé découvre ses premières clartés qui tremblent et des airs qui passent, tout en douceur.",
+      "idees_du_moment": [
+        {
+          "titre": "Ombres de feuilles au plafond",
+          "texte": "Aux heures chaudes, volets mi-clos, la lumière glisse entre les lames et dessine des rayures qui tremblent au plafond. Allongé sur une couverture ou dans tes bras, bébé a peut-être le regard attiré par ces clartés qui bougent. Tu peux faire passer ta main devant, doucement, pour que l'ombre danse, et fredonner une note longue. Dans la pénombre fraîche de la pièce, tout ralentit, et vous avec."
+        },
+        {
+          "titre": "Un éventail de papier",
+          "texte": "Plie une feuille en accordéon et agite-la lentement à quelques pas de lui, à l'ombre. Il y a le petit bruit du papier, le souffle léger qui passe sur ses joues et ses pieds nus, peut-être un frisson ou un clignement d'yeux. Chante un air lent au rythme de l'éventail. Tu observeras ce qui le détend ou l'intrigue, et tu poses ton éventail quand il se blottit contre ton épaule."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_00",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne a la voix de la pluie et l'odeur de la terre mouillée. De quoi envelopper un bébé lové d'une saison feutrée, au rythme de ton souffle.",
+      "idees_du_moment": [
+        {
+          "titre": "La pluie en bande-son",
+          "texte": "Un jour de pluie, tu t'installes près d'une vitre avec bébé contre toi, un plaid sur vos jambes. Les gouttes tapent, coulent, se rejoignent. Ce bruit continu a quelque chose d'une berceuse, et peut-être le sentira-t-il dans ton corps autant qu'il l'entendra. Tu peux te balancer à son rythme, laisser les mots de côté. Parfois, respirer ensemble devant la lumière grise suffit à faire une belle heure."
+        },
+        {
+          "titre": "Le chemin qui sent la terre mouillée",
+          "texte": "Bébé en écharpe, tu marches sur un chemin après la pluie. Tu entends tes pas qui s'enfoncent, les gouttes qui tombent encore des branches, et l'odeur de terre mouillée monte jusqu'à vous. Tu peux ralentir, respirer profondément, dire à voix basse « ça sent la forêt ». Contre ton cœur, il sent peut-être ton souffle changer. Certains bébés s'endorment dans ce balancement, d'autres ouvrent grand les yeux vers le ciel : les deux font une belle promenade."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_00",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver ralentit tout, et les lumières y brillent plus doucement. Bébé, bien lové, y trouve un monde de reflets, de plaids et de voix basses.",
+      "idees_du_moment": [
+        {
+          "titre": "Les lumières du soir dans la vitre",
+          "texte": "À la tombée de la nuit, tu éteins le plafonnier et tu gardes une seule petite lampe. Dans la vitre, le reflet se double : une lueur douce, ton visage, le sien. Tu te promènes lentement dans la pièce, bébé dans les bras, et la lumière glisse avec vous. Passer du clair au sombre, de la lampe à la vitre noire, c'est un petit voyage d'hiver. Murmure, ou chante, ou laisse le silence faire."
+        },
+        {
+          "titre": "Trois étoffes à portée de joue",
+          "texte": "Sur ta couverture préférée, tu poses trois matières de l'hiver : un morceau de laine épaisse, un velours, un coton lisse. Tu effleures doucement sa joue ou le dos de sa main avec l'une, puis avec l'autre. Il se peut qu'il fronce le nez, qu'il se détende, qu'il serre ton doigt. Pas de matière gagnante : tu regardes simplement ce que chacune fait à son visage, et tu gardes celle qui vous plaît à tous les deux."
+        }
+      ]
+    }
+  }
+}

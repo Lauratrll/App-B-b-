@@ -1,0 +1,110 @@
+{
+  "mois": 5,
+  "tranche_age": "5 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 5 : Le Joueur · Vivre la saison ensemble",
+  "description_m": "{prenom} rit quand tu réapparais, redemande le même jeu et guette ce qui va suivre. Chaque réponse de ta part devient une joie.",
+  "description_f": "{prenom} rit quand tu réapparais, redemande le même jeu et guette ce qui va suivre. Chaque réponse de ta part devient une joie.",
+  "logique_selection": {
+    "regle": "À 5 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année : pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À partir de 4 mois, bébé régule mieux sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_05",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Le vent s'amuse avec tout ce qui bouge, les gouttes tambourinent, les bourgeons éclatent. Un printemps de petits spectacles pour un Joueur qui guette déjà la suite.",
+      "idees_du_moment": [
+        {
+          "titre": "Le foulard qui s'envole",
+          "texte": "Dehors, un foulard en soie ou en voile dans la main, tu le laisses flotter dans le courant d'air. Il ondule, monte, retombe doucement sur lui, puis tu le retires d'un coup en disant « coucou ». Au bout de quelques fois, ses yeux s'ouvrent parfois avant même que le foulard bouge. Il rit, l'attrape, ou le suit simplement du regard. Allongé sur une couverture ou porté contre toi, il a sa place dans le jeu."
+        },
+        {
+          "titre": "Le concert de la casserole",
+          "texte": "Tu poses une casserole sur le rebord de la fenêtre ou du balcon, le temps d'une averse. À l'intérieur, vous écoutez ensemble le tambourinage, plus vif, plus lent, puis une pause. Tu réponds avec une cuillère en bois sur un plat : ta-ta-tam, silence, ta-ta-tam. Parfois il attend la réponse en retenant son souffle, agite les bras ou éclate de rire. Tu verras peut-être qu'il commence à te répondre avec sa voix. La pluie devient un orchestre à deux."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_05",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'ombre des feuilles qui danse, les rires d'enfants au loin, un souffle d'air dans les rideaux : l'été est une fête de petites surprises pour un Joueur qui aime attendre la suite.",
+      "idees_du_moment": [
+        {
+          "titre": "Les taches de lumière qui sautent",
+          "texte": "Allongés sur une couverture sous un grand arbre, la lumière tombe en taches mouvantes sur son ventre et ses mains. Tu poses ton doigt sur une tache, elle bouge, tu la rattrapes : « tiens, la voilà ! » Il suit du regard, tend la main, rit quand la lumière saute ailleurs. Il s'intéresse peut-être plus aux feuilles qu'aux taches, ou préfère simplement être contre toi. Il devine parfois où la tache va réapparaître. Le jeu dure autant que vous l'avez envie."
+        },
+        {
+          "titre": "Les rubans dans le courant d'air",
+          "texte": "Fenêtres entrouvertes, tu suspends quelques rubans de couleurs à un cintre ou à une baguette, au-dessus de son tapis. Le courant d'air les fait onduler, s'enrouler, repartir. Il les regarde, tend la main, agite les jambes pour les faire bouger. Tu peux souffler dessus pour relancer le spectacle, ou tirer doucement un ruban dans son champ de vision. Il attrape celui qui passe, ou attend simplement le suivant. C'est souvent le moment où il anticipe la danse avant qu'elle ne commence."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_05",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "Les gouttes qui claquent, les feuilles qui virevoltent, les gros pulls qui sentent la maison : l'automne cache mille surprises à surgir pour un Joueur qui adore attendre la suite.",
+      "idees_du_moment": [
+        {
+          "titre": "Le pull-marionnette",
+          "texte": "Assis par terre, tu tiens un gros pull d'automne devant toi, et ta main surgit par l'encolure en marionnette : « coucou, c'est moi ! » Elle se cache dans la manche, resurgit ailleurs, fait mine de chercher. Il suit, rit, attrape la laine. Tu peux donner une voix à ta main, changer de manche, laisser la marionnette lui chatouiller le ventre. Il préfère parfois juste toucher la maille, ou fixer la main qui apparaît. Un pull peut devenir un complice qui sent bon l'hiver qui arrive."
+        },
+        {
+          "titre": "Le sac de boulangerie qui s'ouvre",
+          "texte": "Rentre avec du pain encore chaud dans un sac en papier, ou garde un sac où repose une pomme à la cannelle sortie du four. Assieds-toi avec bébé dans tes bras, le sac refermé devant vous. Tu fais crisser le papier, tu murmures « Ouvre-toi, sésame » et tu ouvres lentement, pour que l'odeur monte jusqu'à son nez. Il fronce peut-être le nez, sourit ou tend la main vers le bruit. Referme, rouvre, cache le sac derrière ton dos : chaque ouverture est une petite surprise qui sent la maison."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_05",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "Les guirlandes qui clignotent, les ombres qui dansent sur les murs, les fenêtres allumées dans le soir : l'hiver est une scène de lumières idéale pour un Joueur qui guette la suite.",
+      "idees_du_moment": [
+        {
+          "titre": "Les étoiles sur le mur",
+          "texte": "À la fenêtre, tu suspends à un fil une boule brillante ou un vieux CD. Le soleil bas y accroche des éclats qui se promènent sur le mur, glissent, tremblent, disparaissent. Il suit les reflets, tend le bras, agite les jambes. Tu peux faire tourner la boule pour relancer la danse, ou l'arrêter pour qu'il attende. Il préfère peut-être juste observer. Sa tête se tourne parfois avant que l'étoile ne passe. Dans ce coin du salon, la lumière devient un jeu."
+        },
+        {
+          "titre": "La bête d'ombre à pompon",
+          "texte": "Dans le salon, tu éteins tout sauf une lampe et tu installes bébé sur tes genoux, face au mur. Ta main s'approche de l'ampoule : l'ombre grandit, immense. Elle recule : elle rétrécit. Enfile une chaussette à pompon et voilà un drôle d'animal qui trotte, ouvre la bouche, se cache derrière ton coude et ressurgit. Tu prêtes une voix à chaque bond. Il fixe le mur, sourit peut-être avant l'apparition suivante, ou tend le bras vers cette grande bête de lumière. L'après-midi gris devient un petit théâtre à une lampe."
+        }
+      ]
+    }
+  }
+}

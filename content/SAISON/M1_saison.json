@@ -1,0 +1,110 @@
+{
+  "mois": 1,
+  "tranche_age": "1 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 1 : L'Éveillé · Vivre la saison ensemble",
+  "description_m": "À 1 mois, {prenom} ouvre les yeux sur le monde et s'accroche à ton visage. Les premiers sourires arrivent, et son regard reste un peu plus longtemps sur ce qui brille ou bouge.",
+  "description_f": "À 1 mois, {prenom} ouvre les yeux sur le monde et s'accroche à ton visage. Les premiers sourires arrivent, et son regard reste un peu plus longtemps sur ce qui brille ou bouge.",
+  "logique_selection": {
+    "regle": "À partir du mois 1, l'app sélectionne la version saisonnière selon le mois civil en cours (et non plus la saison de naissance).",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année : pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "nourrisson",
+    "note_version": "À 1 mois, bébé régule encore mal sa température : on utilise le schéma 0-4 mois."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_01",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Le printemps déploie des bourgeons, des pétales et des lueurs vertes. Pour un bébé éveillé qui s'accroche aux visages et aux clartés, c'est une saison pleine de choses à regarder.",
+      "idees_du_moment": [
+        {
+          "titre": "Une branche fleurie à hauteur de regard",
+          "texte": "Tu coupes une branche qui bourgeonne ou fleurit et tu la plonges dans un vase, près de la fenêtre. Tu t'assois avec bébé dans les bras, à portée de vue. Les pétales pâles se détachent sur la vitre, la lumière les traverse, un courant d'air les fait frémir. Son regard s'y pose parfois quelques secondes, puis revient vers toi : un début de sourire se dessine peut-être. Tu peux lui dire comment elle s'appelle."
+        },
+        {
+          "titre": "Des rubans qui jouent avec le vent",
+          "texte": "Dehors, tu noues trois rubans clairs, longs et souples, à une branche basse ou à l'anse de la poussette. Bébé est allongé sur une couverture ou dans tes bras, juste dessous. Le vent les soulève, ils glissent, se croisent, se reposent. Les couleurs flottent dans son champ de vision, et ses yeux les suivent parfois un moment. Tu fredonnes au rythme du vent, et s'il préfère ton visage, tu lui laisses la place."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_01",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été éclabousse tout de lumière et de sons lointains. Pour un bébé éveillé, ça fait des reflets qui dansent, des voix du soir et des sourires qui se répondent.",
+      "idees_du_moment": [
+        {
+          "titre": "Les reflets d'un verre d'eau",
+          "texte": "Dans la pièce où le soleil entre, tu poses un verre d'eau sur le rebord de la fenêtre. Il lance sur le mur ou le plafond une tache de lumière qui tremble et se fend en arcs-en-ciel. Bébé dans les bras, tu bouges un peu le verre pour que la lumière glisse. Son regard peut s'accrocher, lâcher, retrouver. Entre deux reflets, tu lui souris : à ce petit jeu-là, c'est souvent toi qui gagnes."
+        },
+        {
+          "titre": "Le soir sur le pas de la porte",
+          "texte": "Quand la journée s'adoucit, tu t'installes à l'ombre du seuil, bébé dans les bras. Les martinets crient, une radio lointaine, des voix de voisins, le parfum d'un barbecue. Tu le regardes bien en face et tu lui souris, puis tu attends un instant pour voir ce qu'il fait de ton sourire. Un regard, un souffle, une petite moue : tu réponds. Ces échanges-là se jouent sans un mot."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_01",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne passe à l'orange, au roux, au moutarde. Un bébé éveillé, dont le regard s'attarde déjà sur les couleurs et les visages, a de quoi s'y perdre avec bonheur.",
+      "idees_du_moment": [
+        {
+          "titre": "Le toit de branches doré",
+          "texte": "Sur une couverture épaisse, à l'abri d'un grand arbre aux feuilles jaunies, tu t'allonges à côté de bébé. Au-dessus de vous, un toit de branches, des taches de ciel, des feuilles qui se détachent une à une. Le vent fait bouger tout cela très lentement. Il regarde parfois en haut, longuement, ou se tourne vers ton souffle. Tu peux simplement dire « regarde, ça bouge », puis te taire et regarder avec lui."
+        },
+        {
+          "titre": "Le vitrail de midi",
+          "texte": "Au milieu de la journée, tu sors et tu cherches le coin où le soleil tombe droit : un banc, un mur, un bout de chemin. Tu t'y arrêtes avec bébé contre toi, et tu tiens un foulard orange ou moutarde à bout de bras, face à la lumière. Le tissu devient un vitrail : tout vire à l'ocre, ton visage aussi, vu de tout près. Tu verras peut-être son regard s'attarder, ou ses yeux se plisser. Puis tu baisses le foulard, et le monde reprend ses couleurs. Ce petit rituel de midi peut revenir chaque jour."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_01",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver garde ses couleurs sourdes et ses lueurs chaudes. Pour un bébé éveillé, ce sont des visages emmitouflés, des petits nuages de souffle et des jeux de cache-cache doux.",
+      "idees_du_moment": [
+        {
+          "titre": "Cache-cache avec l'écharpe",
+          "texte": "Dans ton fauteuil, bébé installé sur tes genoux face à toi, tu relèves une grande écharpe de laine devant ton visage. Tu la gardes un instant, puis tu la baisses lentement en disant « coucou ». Tu varies : plus vite, plus doucement, un côté puis l'autre. Selon le moment, il écarquille les yeux, sourit, ou reste calme et concentré. L'hiver t'offre cet accessoire tout fait, et ton visage qui réapparaît est le plus beau des spectacles."
+        },
+        {
+          "titre": "Des nuages de souffle",
+          "texte": "Sur le pas de la porte ou au bord d'une fenêtre ouverte, bébé porté contre toi, tu souffles doucement dans l'air froid pour dessiner un petit nuage blanc. Tu recommences, plus long, plus court. Tantôt il suit le nuage des yeux, tantôt il sent seulement l'air frais sur sa joue. Tu pousses un « ouh » tout doux, tu lui fais goûter le silence du matin d'hiver, puis vous retournez au chaud lorsque l'envie vous en prend."
+        }
+      ]
+    }
+  }
+}

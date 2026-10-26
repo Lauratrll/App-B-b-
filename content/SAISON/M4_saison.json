@@ -1,0 +1,110 @@
+{
+  "mois": 4,
+  "tranche_age": "4 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 4 : Le Découvreur · Vivre la saison ensemble",
+  "description_m": "{prenom} attrape ce qu'il voit, tourne les objets entre ses doigts et découvre le monde du bout des mains.",
+  "description_f": "{prenom} attrape ce qu'elle voit, tourne les objets entre ses doigts et découvre le monde du bout des mains.",
+  "logique_selection": {
+    "regle": "À 4 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année : pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À partir de 4 mois, bébé régule mieux sa température : on bascule sur le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_04",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "L'herbe est encore fraîche, les pétales ont la douceur du papier de soie et chaque tige semble faite pour être saisie. Un printemps de petit Découvreur, tout en mains qui s'ouvrent.",
+      "idees_du_moment": [
+        {
+          "titre": "Des doigts qui sentent le printemps",
+          "texte": "Sur un plaid au bord d'une pelouse tendre, bébé est allongé sur le dos et tu t'assois près de lui. Tu poses ta main à plat dans l'herbe, puis tu guides doucement la sienne vers les brins. Il referme peut-être le poing, ouvre les doigts, ou préfère regarder sa main bouger. Quand il a fini, tu prends ses doigts et tu les respires bruyamment : « mmh, ça sent le printemps ! » Tu fais pareil avec les tiens, et vous éclatez de rire. S'il est assis ou porté, tu approches simplement l'herbe de ses mains."
+        },
+        {
+          "titre": "Le bouquet qui sent et qui bruisse",
+          "texte": "Près de la fenêtre, tu frottes entre tes doigts une feuille de menthe ou de thym, puis tu l'approches de lui pour qu'il hume. Tu noues ensuite quelques tiges avec un ruban et tu lui tends ce petit bouquet. Il le secoue, l'agite, écoute le froissement. Il se peut qu'il préfère le regarder tourner, ou le passer d'une main à l'autre. Tu peux le reprendre, le faire danser, le lui rendre : le jeu du va-et-vient s'installe doucement."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_04",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "Le sable qui coule, l'ombre qui tremble sous les feuillages, les gouttes qui perlent : l'été déborde de matières à saisir pour un Découvreur curieux de tout.",
+      "idees_du_moment": [
+        {
+          "titre": "Le sable qui file entre les doigts",
+          "texte": "Installés à l'ombre sur une grande serviette, tu prends une poignée de sable sec et tu la laisses couler en mince filet sur sa paume, puis sur son pied. Il regarde le fil tomber, referme la main, la rouvre. Tu peux faire un petit tas et le défaire d'un geste. S'il aime tendre les bras, il ira peut-être chercher la poignée tout seul ; s'il préfère observer, il savourera la pluie fine qui chatouille. Les grains collent, brillent, glissent : toute une symphonie pour ses doigts."
+        },
+        {
+          "titre": "Le linge qui goutte",
+          "texte": "Volets mi-clos, tu trempes un petit linge dans un bol et tu le tords lentement au-dessus de ses mains. Les gouttes tombent, tintent, glissent sur sa peau. Tu peux ensuite poser le tissu humide sur son ventre ou sur son pied et le retirer en chantonnant. Parfois il rit, attrape le linge à pleines mains ou fixe simplement chaque goutte. Ses doigts essaient peut-être d'imiter le geste de presser. L'été tient dans une serviette mouillée."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_04",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "Écorces rugueuses, cônes écailleux, mousse moelleuse, feuilles épaisses : l'automne ouvre une bibliothèque de matières pour un Découvreur dont les mains veulent tout lire.",
+      "idees_du_moment": [
+        {
+          "titre": "La promenade aux poignées",
+          "texte": "Pendant une balade, il est dans l'écharpe ou sur ton bras, et à chaque arrêt tu glisses un trésor dans sa main : un cône, un morceau d'écorce, une touffe de mousse, une feuille épaisse. Tu dis son nom à voix basse, tu le laisses explorer, puis tu en cherches un autre. Il garde parfois le même tout le chemin. Tu peux choisir des morceaux faciles à tenir. Au retour, il reconnaît peut-être la rugosité d'un cône entre mille."
+        },
+        {
+          "titre": "Le bocal à châtaignes",
+          "texte": "Dans un bocal fermé, tu enfermes quelques châtaignes ou des glands ramassés pendant la balade. Assis sur le tapis, tu fais rouler le bocal vers lui : ça gronde, ça cogne, ça s'arrête. Il l'attrape à deux mains, le secoue, le fait tourner. Tantôt il tend le bras pour que tu le renvoies, tantôt il écoute seulement le bruit sourd. Si le bocal s'éloigne, tu peux le ramener d'un petit geste. Le brun luisant des châtaignes se devine à travers le verre."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_04",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver est un jeu de contrastes pour un Découvreur aux doigts curieux : la buée sur la vitre, la laine qui enveloppe, les papiers de fête qui crépitent et brillent sous la lampe.",
+      "idees_du_moment": [
+        {
+          "titre": "Deux empreintes et un sourire sur la vitre",
+          "texte": "Un matin où la cuisine a embué les vitres, tu le tiens debout contre toi, face à la fenêtre. Tu poses ta grande paume : une empreinte claire apparaît. Tu la retires, elle reste. Puis tu guides sa petite main à côté de la tienne et tu dessines du bout du doigt un sourire entre les deux paumes. Il tapote, étale, regarde la trace qu'il laisse, se tourne vers toi. Tu souffles sur la vitre pour que la buée efface votre dessin, prête à en accueillir un autre."
+        },
+        {
+          "titre": "La fleur de papier qui crépite",
+          "texte": "Prends une feuille de papier de soie ou de papier cadeau, froisse-la en boule dans ta main, puis pose-la sur sa paume ou sur son ventre, allongé sur une couverture. Elle se déplie toute seule, tout doucement, avec de petits craquements, comme une fleur qui s'ouvre. Les étoiles dorées accrochent la lumière de la lampe. Il l'attrape, la serre, la froisse à son tour et sursaute peut-être au bruit, puis recommence. Redonne-lui la boule : chaque fois, la fleur renaît."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "mois": 12,
+  "tranche_age": "12 mois",
+  "rubrique": "coucher",
+  "titre_rubrique": "Préparer le coucher",
+  "sous_titre": "Un esprit, un corps, et un cœur apaisé",
+  "description": "À un an, le sommeil de ton enfant se réorganise au fil de ses grandes acquisitions. Beaucoup d'enfants glissent peu à peu vers une seule sieste, et les nouveautés (marche, premiers mots) peuvent agiter les nuits pour un temps. Le rituel reste ton meilleur repère : c'est sa régularité, plus que son contenu, qui ancre la sécurité.",
+  "reperes_cles": [
+    "Vers une seule sieste par jour : beaucoup d'enfants font cette transition entre 12 et 18 mois, à leur rythme. Inutile de la précipiter.",
+    "Une fenêtre d'éveil d'environ 3h30 à 4h avant le coucher : au-delà, la sur-fatigue rend l'endormissement plus difficile.",
+    "Un rituel court et identique chaque soir : à un an, ton enfant comprend l'enchaînement. C'est la prévisibilité qui le rassure."
+  ],
+  "signaux_de_fatigue": [
+    "Yeux frottés, oreilles tirées",
+    "Plus grognon, s'agace pour un rien",
+    "Se cogne, perd l'équilibre plus que d'habitude",
+    "Réclame les bras, cherche le contact",
+    "Le regard se fait lointain, le rythme ralentit"
+  ],
+  "variantes_developpementales": {
+    "intro": "La nuit, le cerveau de ton enfant continue d'apprendre : il consolide ce qu'il a vécu dans la journée. Reconnaître avec lui une compétence qu'il travaille en ce moment l'apaise, et un cerveau rassuré s'agite moins la nuit.",
+    "question_selecteur": "Que cherche [prénom] à développer ce mois-ci ?",
+    "themes_disponibles": [
+      "motricite",
+      "langage"
+    ],
+    "themes": [
+      {
+        "id": "motricite",
+        "titre": "Motricité",
+        "sous_titre": "[Il/Elle] marche, grimpe, déborde d'énergie",
+        "etape_rituel": {
+          "titre": "Le temps de bouger",
+          "description": "Avant de baisser l'ambiance, laisse ton enfant se défouler au sol : ramper, marcher d'un meuble à l'autre, grimper sur un coussin. Quand son corps s'est bien dépensé, il accepte beaucoup mieux le calme. Évite les jeux trop excitants juste avant le lit. Au moment du câlin, tu peux lui dire : « Tes jambes ont bien marché. Maintenant, elles se reposent. »"
+        }
+      },
+      {
+        "id": "langage",
+        "titre": "Langage",
+        "sous_titre": "[Il/Elle] babille, pointe, cherche ses mots",
+        "etape_rituel": {
+          "titre": "Le temps des mots",
+          "description": "Avant de baisser l'ambiance, prends un petit temps de mots : nomme tout simplement ce que ton enfant a vécu aujourd'hui (« le bain », « le chien »), montre du doigt, reprends les sons qu'[il/elle] essaie. Pas besoin qu'[il/elle] répète : t'entendre nommer son monde, lentement, lui suffit. Le petit livre du soir sera un autre beau moment de mots."
+        }
+      }
+    ]
+  },
+  "rituel_etapes": [
+    {
+      "etape": 1,
+      "focus_theme": true,
+      "source": "variantes_developpementales.themes[theme_actif].etape_rituel",
+      "note_rendu": "étape encadrée d'un filet bleu foncé ; titre/durée/description pilotés par le thème sélectionné"
+    },
+    {
+      "etape": 2,
+      "titre": "Baisser l'ambiance",
+      "description": "Lumières tamisées, fin des écrans, on ralentit le rythme de toute la maison. Ce changement d'ambiance est le premier signal que la nuit approche."
+    },
+    {
+      "titre": "Le repas du soir, en famille",
+      "description": "Le dîner se prend à table, à heure régulière, sans écran. À cet âge, ton enfant mange de plus en plus comme vous : propose un repas simple et complet et laisse-le manger seul à sa façon, même maladroite : c'est ainsi qu'il gagne en autonomie. Termine par un temps calme à table plutôt qu'en jeu, pour amorcer la descente vers la nuit. S'il prend encore un lait du soir, il viendra plus tard, dans le calme de la chambre.",
+      "etape": 3
+    },
+    {
+      "etape": 4,
+      "titre": "Bain ou toilette (pas tous les soirs)",
+      "description": "Bain court. Si le bain réveille ton enfant au lieu de l'apaiser, déplace-le au matin."
+    },
+    {
+      "etape": 5,
+      "titre": "Massage, réflexologie, puis pyjama",
+      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud : pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou la séquence de réflexologie « Sommeil paisible ». Mains réchauffées, huile végétale neutre (amande douce, calendula), pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas. L'huile posée, on passe ensuite au pyjama : qu'il peut t'aider à enfiler."
+    },
+    {
+      "etape": 6,
+      "titre": "Lait du soir et brossage des dents",
+      "description": "Lumière tamisée, aucun écran. Ton enfant prend son lait du soir, tout contre toi."
+    },
+    {
+      "etape": 7,
+      "titre": "Histoire du soir et/ou berceuse",
+      "description": "Direction la chambre, lumière éteinte, ~18–20°C. Un petit livre court et calme, et/ou la berceuse à voix très basse, tout contre toi. À toi de choisir ce qui te ressemble (l'histoire, la berceuse, ou les deux) puis garde le même rituel chaque soir : c'est sa constance qui rassure ton enfant."
+    },
+    {
+      "etape": 8,
+      "titre": "Phrase d'ancrage et pose dans le lit",
+      "description": "Pose ton enfant dans son lit, avec une phrase identique chaque soir. Surtout, explique-lui clairement que tu ne restes pas dans la chambre, mais que tu seras juste à côté : « La nuit arrive. Je vais dans la pièce d'à côté, je reste tout près. Tu n'es pas [seul/seule]. » À un an, la peur de la séparation est vive : savoir à l'avance que tu sors, et que tu restes tout proche, évite la mauvaise surprise au réveil. Reste un instant, puis sors doucement."
+    }
+  ],
+  "reflexologie_du_coucher": {
+    "titre": "Réflexologie du soir",
+    "intro": "Après le bain, ton enfant encore au chaud, les pieds découverts. Voix très basse, mouvements infimes. La séquence « Sommeil paisible » se suit pas à pas, animée, dans l'onglet Réflexologie. Elle reste la même tout au long des deux ans : c'est sa répétition, soir après soir, qui en fait un repère.",
+    "consentement": "Avant tout, observe les réactions de ton enfant. La réflexologie se fait avec son accord : à la moindre crispation, si ton enfant retire son pied ou se braque, arrête-toi. C'est un moment de plaisir partagé, jamais une technique à imposer.",
+    "etapes": [],
+    "lien_reflexologie": {
+      "id": "sommeil",
+      "titre": "Sommeil paisible"
+    }
+  },
+  "script_audio_du_soir": {
+    "titre": "Berceuse-rituel « Pendant que tu dors »",
+    "duree": "~4 minutes",
+    "instruction": "À lire ou à chanter à voix grave et lente, volume très bas, dans la pénombre, tout contre toi, juste avant la pose dans le lit. Personnalise si tu veux.",
+    "texte": "[prénom]...\n\nQuelle grande journée tu as vécue.\n\nTu apprends tellement de choses, en ce moment. Ton petit corps et ta petite tête travaillent sans arrêt.\n\n[passage_theme]\n\nEt maintenant, c'est l'heure du repos.\n\nPendant que tu dors, tout ce que tu as appris aujourd'hui se range, tout doucement, à l'intérieur de toi. Ton corps sait comment grandir pendant la nuit.\n\nTu as grandi tellement, cette année. Mais même quand tu grandis, je reste là. La même voix, les mêmes bras, le même amour.\n\nSi tu te réveilles, je serai là, juste à côté, dans mon lit. Tu peux te laisser aller, en confiance, jusqu'à demain matin.\n\nRepose-toi, [mon grand/ma grande]. Demain, il y aura d'autres pas, d'autres mots, d'autres découvertes. Mais cette nuit, on se repose.\n\nTu es en sécurité. Tu es au chaud. Tu es [aimé/aimée].\n\nBonne nuit.",
+    "passage_par_theme": {
+      "motricite": "Aujourd'hui, tes jambes ont tant bougé. Tu t'es [levé/levée], tu as marché, tu es [tombé/tombée], et tu as recommencé. C'était un grand travail.",
+      "langage": "Aujourd'hui, ta voix a tant essayé. Des sons, des mots, des presque-mots. Tu cherches à me dire le monde. C'était un grand travail."
+    }
+  },
+  "erreurs_a_eviter": [
+    "Coucher trop tard en espérant un meilleur sommeil : la sur-fatigue produit l'effet inverse.",
+    "Garder des écrans allumés en soirée : leur lumière retarde l'endormissement, même en fond.",
+    "Changer le rituel chaque soir : à un an, c'est sa constance qui rassure, pas sa variété."
+  ]
+}

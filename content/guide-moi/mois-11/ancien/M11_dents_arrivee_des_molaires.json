@@ -1,0 +1,56 @@
+{
+  "mois": 11,
+  "note": "Retirée le 06/10/2026 : même sujet que Les premières molaires (déplacée à M15). Angle repris à M14 Les réveils dentaires.",
+  "protocoles": [
+    {
+      "categorie": "dents",
+      "situation": "L'arrivée des molaires / Ses réveils reviennent avant son anniversaire",
+      "titre": "Distinguer la dent de l'opposition",
+      "explication": "Les premières molaires se préparent, et les nuits redeviennent difficiles. Mais à onze mois, une autre cause s'installe en parallèle : l'opposition au coucher. Et les deux se ressemblent. Une douleur dentaire réveille en pleine nuit, avec des signes concrets — gencive tendue, salivation, joue rouge, mâchonnement. Une opposition, elle, se manifeste au moment du coucher, pas au milieu de la nuit, et cède quand le cadre est tenu. Confondre les deux conduit à traiter le mauvais problème pendant des semaines.",
+      "ancrage": "La dent réveille en pleine nuit ; l'opposition se joue au coucher. Les confondre fait traiter le mauvais problème.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate — distinguer",
+        "etapes": [
+          "Regarder le moment : réveil en pleine nuit avec pleurs de douleur, ou refus au moment du coucher ?",
+          "Chercher les signes dentaires : gencive tendue, salivation, joue rouge, mâchonnement.",
+          "Tester le cadre : si le refus cède quand le cadre est tenu calmement, c'est de l'opposition.",
+          "Soulager la gencive en journée : froid et pression, pour que la nuit soit plus calme.",
+          "Tenir le rituel : la stabilité aide dans les deux cas."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Réflexologie : accompagner la nuit",
+        "etapes": [
+          "Dans le rituel du soir : toujours au même moment.",
+          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
+          "La séquence « Poussées dentaires » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
+          "Ta voix tout bas pendant la séquence : toujours les mêmes mots, qui deviennent un repère.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ],
+        "lien_reflexologie": {
+          "id": "dents",
+          "titre": "Poussées dentaires"
+        }
+      },
+      "pour_aller_plus_loin": [
+        "Ne pas donner de médicament sans avis médical.",
+        "Ne jamais attribuer une fièvre aux dents : elle se fait examiner.",
+        "Vérifier la journée : sur-fatigue et fenêtres d'éveil mal calibrées hachent la nuit.",
+        "Ne pas changer de méthode à chaque poussée supposée."
+      ],
+      "principe": "La douleur dentaire réveille la nuit ; l'opposition se joue au coucher. Distinguer les deux évite de traiter le mauvais problème pendant des semaines.",
+      "erreurs_a_eviter": [
+        "Attribuer systématiquement tous les réveils aux dents.",
+        "Donner un médicament chaque soir « pour les dents » sans avis médical.",
+        "Changer de méthode de sommeil à chaque poussée supposée.",
+        "Attribuer une fièvre aux dents."
+      ],
+      "consulter_si": "Consulter si : l'enfant a de la fièvre, refuse de boire, présente des vomissements, une diarrhée, une éruption, une gencive rouge ou purulente, s'il paraît anormalement mou, ou si les réveils s'accompagnent de pleurs inconsolables → pédiatre ou médecin traitant.",
+      "source": "Source : ameli.fr (Assurance Maladie) — poussées dentaires : symptômes, soulagement et quand consulter."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "mois": 17,
+  "tranche_age": "17 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 17 : Le Sensible · Vivre la saison ensemble",
+  "description_m": "{prenom} ressent tout en grand : la joie, la tendresse, parfois un chagrin qui déborde. Son monde intérieur s'agrandit, et tes bras restent son plus beau refuge.",
+  "description_f": "{prenom} ressent tout en grand : la joie, la tendresse, parfois un chagrin qui déborde. Son monde intérieur s'agrandit, et tes bras restent son plus beau refuge.",
+  "logique_selection": {
+    "regle": "À 17 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année : pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 17 mois, bébé régule très bien sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_17",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Le printemps arrive en douceur : une lumière tendre, des pétales, des odeurs qui reviennent. Pour le Sensible, qui ressent tout en grand, c'est une saison de petites merveilles à effleurer.",
+      "idees_du_moment": [
+        {
+          "titre": "Pluie de pétales sur les mains",
+          "texte": "Assis dans l'herbe sous un arbre en fleurs, ramasse une poignée de pétales tombés. Tu les laisses glisser sur le dos de sa main, sur ses pieds nus, sur sa joue, en chuchotant le mot « doux ». Il les attrape peut-être, les écrase, les respire ou les regarde simplement tomber, et tout est bien. S'il marche déjà, il en ramasse lui-même pour te les offrir ; s'il se déplace autrement, tu lui apportes la poignée sur ton genou."
+        },
+        {
+          "titre": "Les ombres de feuilles sur le mur",
+          "texte": "Près d'une fenêtre ouverte, quand une branche bouge dehors, des ombres glissent sur le mur comme des poissons. Tu les suis du doigt, tu les nommes tout bas, tu les laisses courir sur sa main. Il tend le bras pour les attraper, ou les regarde, immobile, avec de grands yeux. S'il marche déjà, il va toucher le mur ; s'il est assis ou dans tes bras, tu t'approches doucement pour que la danse soit à portée de sa main."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_17",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été est fait de peau tiède, d'eau qui brille et de soirs qui s'étirent. Le Sensible y vit ses émotions à voix haute, des rires aux grands soupirs, tout près de toi.",
+      "idees_du_moment": [
+        {
+          "titre": "Un fil d'eau sur les pieds",
+          "texte": "À l'ombre, pieds nus, incline un petit arrosoir au-dessus de ses orteils : un fil d'eau fraîche descend sur sa peau. Il regarde, rit, recule peut-être, tend le pied pour recommencer ; chaque réaction a sa place, et tu suis son rythme. Tu restes tout près, tu commentes à voix basse : « ça coule, ça chatouille ». S'il marche déjà, il va se placer sous le fil ; s'il est assis, ses pieds s'étendent vers l'arrosoir."
+        },
+        {
+          "titre": "Doudou a le cœur gros",
+          "texte": "Dans le creux de l'après-midi, volets à moitié fermés, doudou a du chagrin. Tu le poses sur le tapis, tu murmures quelque chose de tendre, et tu tends un foulard pour l'envelopper. Il le borde peut-être, le berce, lui tapote le dos comme tu fais pour lui, ou lui chante un son à sa manière. Ses gestes deviennent parfois très doux. S'il marche déjà, il va chercher un deuxième doudou ; sinon, tout se passe assis près de toi."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_17",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne chuchote : pluie sur les vitres, vent dans les arbres, lumière dorée qui baisse. Le Sensible écoute ce monde qui murmure et s'y blottit, au creux de tes bras.",
+      "idees_du_moment": [
+        {
+          "titre": "Le plaid où il pleut",
+          "texte": "Quand la pluie se met à tomber, installe-toi près de la fenêtre avec lui, sous un plaid. Tu tapotes la laine du bout des doigts, tout doucement, comme des gouttes qui commencent. Puis plus vite, comme une averse, puis de plus en plus lentement, comme un nuage qui s'éloigne. Il écoute, se blottit peut-être, ou tapote à son tour sur le plaid. S'il marche déjà, il vient s'asseoir contre toi ; sinon, il reste dans tes bras. Le plaid devient un petit ciel à vous deux, où la pluie va et vient."
+        },
+        {
+          "titre": "La course des gouttes sur la vitre",
+          "texte": "Quand la pluie tombe, installe-toi à la fenêtre avec lui contre toi. Choisissez chacun une goutte sur la vitre et suivez-la du doigt : elle hésite, rejoint une autre, file d'un coup. Tu chuchotes ce qu'elle fait, « elle glisse, elle s'arrête, elle repart ». Soit il se calme, soit il tape sur le verre pour les faire bouger. S'il marche déjà, il se tient debout contre la vitre ; sinon, il reste dans tes bras, à la bonne hauteur."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_17",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver aime les lueurs, les laines et les nuits longues. Le Sensible s'y niche, entre la chaleur des câlins et les petites lumières qui brillent dans le noir.",
+      "idees_du_moment": [
+        {
+          "titre": "Niché dans ton grand pull",
+          "texte": "Enfile ton plus grand pull, celui qui sent toi, et glisse-le sur vous deux, lui contre ton ventre, le col encadrant vos visages. Il y a la laine, le souffle, ton cœur qui bat, ta voix qui résonne tout près de son oreille. Vous restez là, à chantonner, à ne rien faire. Il peut s'endormir, gigoter ou jouer avec la manche, tout va. S'il marche déjà, il vient s'y glisser de lui-même ; sinon, tu viens à lui, assis par terre ou sur le canapé."
+        },
+        {
+          "titre": "Les fenêtres allumées du soir",
+          "texte": "Au début de la nuit, sors ou reste près d'une fenêtre pour regarder les lumières. Les carrés jaunes des maisons, le lampadaire, le phare d'une voiture qui passe, la lune qui vous suit. Tu les nommes une à une, doucement, comme on salue des amis. S'il marche déjà, il pointe du doigt ou te tire vers la plus belle ; s'il est porté ou en écharpe, il regarde par-dessus ton épaule, et tu tournes lentement pour qu'il voie."
+        }
+      ]
+    }
+  }
+}

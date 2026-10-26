@@ -1,0 +1,110 @@
+{
+  "mois": 2,
+  "tranche_age": "2 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 2 : Le Communicant · Vivre la saison ensemble",
+  "description_m": "À 2 mois, {prenom} gazouille, tourne la tête vers les voix et attend ta réponse. Il se met à parler à sa façon, avec des sons ronds et des silences qui écoutent.",
+  "description_f": "À 2 mois, {prenom} gazouille, tourne la tête vers les voix et attend ta réponse. Elle se met à parler à sa façon, avec des sons ronds et des silences qui écoutent.",
+  "logique_selection": {
+    "regle": "À 2 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année : pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "nourrisson",
+    "note_version": "À 2 mois, bébé régule encore mal sa température : on utilise le schéma 0-4 mois."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_02",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Le printemps est une conversation d'oiseaux, de feuilles neuves et de voix qui sortent. Un bébé communicant, qui gazouille déjà, y trouve de quoi répondre.",
+      "idees_du_moment": [
+        {
+          "titre": "Répondre au merle",
+          "texte": "Tôt le matin ou à la fin de la journée, tu sors sur le balcon ou le seuil avec bébé et tu écoutes un oiseau chanter. Quand il s'arrête, tu fais « tiu-tiu » et tu attends un peu. Puis tu observes bébé : peut-être répondra-t-il d'un petit son, d'un souffle, d'un regard vers toi. Vous jouez alors à la conversation, trois voix à tour de rôle. Même sans réponse, il enregistre le rythme de l'échange."
+        },
+        {
+          "titre": "Le pot qui chuchote",
+          "texte": "Tu remplis un petit pot bien fermé de graines sèches ou de petits cailloux, et tu le secoues doucement à un côté de bébé, puis de l'autre. Ça crépite, ça glisse, ça ressemble au bruit de la pluie qui commence. Au printemps, tu peux y mettre les graines que tu sèmes bientôt. Certains bébés tournent la tête vers le bruit, sourient, ou font un son. Tu lui réponds en imitant son « aaah »."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_02",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été bourdonne : insectes, volets, rires au loin, longues soirées qui s'étirent. Un bébé communicant y découvre qu'un son peut en appeler un autre.",
+      "idees_du_moment": [
+        {
+          "titre": "Chuchoter dans l'herbe haute",
+          "texte": "À l'ombre d'un arbre, tu t'allonges sur une couverture, bébé à côté de toi sur le dos. L'herbe frotte, un bourdon passe, des feuilles remuent. Tu laisses ces sons venir, puis tu en ajoutes un : un « ooh » étiré, un chuchotement, un claquement de langue. Il te regarde parfois la bouche, essaie de t'imiter à sa manière, ou écoute simplement le reste. Vous êtes deux petits explorateurs de sons dans un coin d'herbe."
+        },
+        {
+          "titre": "Une chanson dans la salle de bain",
+          "texte": "Dans la salle de bain carrelée, restée fraîche à l'abri du soleil, bébé dans tes bras, tu chantes une note longue. Les murs la renvoient, plus ronde, plus grande. Tu changes : plus aigu, plus grave, des « la la la » qui rebondissent. C'est souvent le moment où il écarquille les yeux, tourne la tête vers l'écho, ou tente un « euh » qui résonne à son tour. Ta voix se transforme et cet écho est un jeu que tu n'as pas à préparer."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_02",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne a des sons plus bas et plus ronds : vent qui chuchote, pas dans les graviers, bols fumants. Un bébé communicant s'y laisse bercer et s'y exerce à répondre.",
+      "idees_du_moment": [
+        {
+          "titre": "La feuille qui crépite dans ta poche",
+          "texte": "Glisse une feuille d'automne dans ta poche avant de t'installer, bébé dans tes bras. Tu la sors et tu la froisses tout doucement près de son oreille gauche : crrr, crrr. Puis près de la droite. Tu ralentis, tu accélères, tu t'arrêtes net pour qu'il se demande où est passé le son. Regarde son visage : il tourne peut-être la tête, ouvre grand les yeux ou lâche un petit son en réponse. Tu lui renvoies alors ton plus beau « crrr » de la voix, et la conversation commence."
+        },
+        {
+          "titre": "Ta voix dans un grand bol",
+          "texte": "Dans la cuisine, tu prends un grand bol en céramique. Tu le tiens à quelques centimètres de ton visage, bébé face à toi, et tu y dis « bonjour » : la voix devient ronde, profonde, un peu mystérieuse. Tu varies avec un chuchotement, un rire, un « oh ». Il te cherche des yeux, ou répond à sa façon. Et le même bol, rempli de quelque chose de chaud, t'attend pour plus tard."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_02",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver feutre les bruits et rapproche les voix. Pour un bébé communicant, ce sont de longs tête-à-tête, des murmures et des silences qui attendent la réponse.",
+      "idees_du_moment": [
+        {
+          "titre": "Une voix sous le plaid",
+          "texte": "Sur le canapé, tu tires un grand plaid de façon à vous couvrir juste jusqu'aux épaules, bébé contre toi, vos visages libres. Dessous, les sons deviennent doux, les murmures plus proches. Tu lui chantes une comptine presque sans voix, ou tu inventes des syllabes qui roulent. Parfois il te fixe les lèvres, gazouille en retour, ou ferme les yeux. L'hiver rapproche, et ton souffle, ta voix, sa petite réponse suffisent à remplir l'après-midi."
+        },
+        {
+          "titre": "La clochette cachée dans le papier de soie",
+          "texte": "Tu glisses une petite clochette dans une feuille de papier de soie, puis tu refermes ton poing. Silence. Tu rouvres la main tout doucement : le papier crisse, un tintement minuscule perce. Tu fredonnes trois notes d'une mélodie de Noël, tu promènes la clochette à gauche, puis à droite, derrière son oreille. Il tourne peut-être la tête, ses yeux s'arrondissent, sa bouche cherche le son. Dans tes bras ou allongé sur le dos, tu rejoues cette petite apparition tant qu'elle l'amuse. Le tintement des fêtes devient un secret qui se déplie."
+        }
+      ]
+    }
+  }
+}

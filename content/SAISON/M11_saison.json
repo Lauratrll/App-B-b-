@@ -1,0 +1,110 @@
+{
+  "mois": 11,
+  "tranche_age": "11 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 11 : L'Imitateur · Vivre la saison ensemble",
+  "description_m": "À 11 mois, {prenom} te regarde faire et rejoue tes gestes à sa façon. Un sourire, un « au revoir » de la main, un bruit de bouche : tout devient un jeu qu'il reprend.",
+  "description_f": "À 11 mois, {prenom} te regarde faire et rejoue tes gestes à sa façon. Un sourire, un « au revoir » de la main, un bruit de bouche : tout devient un jeu qu'elle reprend.",
+  "logique_selection": {
+    "regle": "À 11 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année : pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 11 mois, bébé régule mieux sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_11",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Au printemps, les gestes se multiplient dehors : on bêche, on arrose, on siffle, on salue. Un bébé Imitateur y trouve mille modèles à reprendre, avec son tempo à lui.",
+      "idees_du_moment": [
+        {
+          "titre": "L'arrosoir qui fait la pluie",
+          "texte": "Pendant que tu fais le tour de tes pots, donne-lui un petit arrosoir ou un gobelet vide. Avant d'arroser, tu dis bonjour à chaque plante : un doigt sur une feuille, un chuchotement. Puis tu inclines et tu fais « chhhhh », le bruit de la pluie. Il t'observe, incline à son tour, et reprend peut-être ton « chhhh » avec son souffle à lui, parfois quelques minutes plus tard. S'il marche déjà, il te suit de pot en pot ; sinon, assis près de toi, un pot à portée de main."
+        },
+        {
+          "titre": "Piou piou à la fenêtre ouverte",
+          "texte": "Fenêtre grande ouverte, écoute les oiseaux du matin. Reproduis un chant avec ta voix, un « piou » aigu, un « tiuu tiuu » qui monte. Il tourne la tête vers toi, essaie sa propre version, parfois un souffle, parfois un cri de joie. Tu réponds à sa façon, il répond à la tienne, et le dialogue s'installe entre vous et le jardin. Les vrais oiseaux se mêlent à votre concert, et il écoute parfois le moindre piaillement pour te le renvoyer."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_11",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été ouvre la maison sur dehors : on mange à l'ombre, on trempe les doigts, on se salue de terrasse en terrasse. Un bébé Imitateur y trouve des gestes simples à rejouer, un par un.",
+      "idees_du_moment": [
+        {
+          "titre": "Plouf, à son tour",
+          "texte": "Au bord d'une fontaine de parc, d'un ruisseau ou d'un grand seau, laisse tomber un petit galet dans l'eau : « plouf ». Tu le regardes, tu souris. Il te regarde puis tente son geste, parfois en lâchant le caillou, parfois en tapant la surface de la main. Les ronds s'élargissent, éclaboussent, brillent au soleil. Tu restes tout près, prêt à rire à chaque plouf. S'il se déplace seul, il ira peut-être chercher de nouveaux cailloux ; sinon, tu les lui apportes, un à la fois."
+        },
+        {
+          "titre": "On borde l'ours pour la sieste",
+          "texte": "À l'heure chaude, installe-toi avec un ours en peluche et un drap léger. Tu le couches doucement, tu le recouvres, tu murmures : « chut, il dort ». Tu poses un baiser sur son nez. Il te regarde avec sérieux puis prend la peluche, la tapote, tente de la recouvrir lui aussi. Il lui offre parfois un baiser maladroit. La scène se rejoue plusieurs fois, avec des variantes : un autre doudou, un rideau tiré, une chanson fredonnée à l'oreille de l'ours."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_11",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne rythme les gestes de la maison : plier, ranger, tapoter, ramasser. Un bébé Imitateur te suit du regard et reprend chaque mouvement avec le sérieux d'un apprenti.",
+      "idees_du_moment": [
+        {
+          "titre": "Plier les serviettes tièdes ensemble",
+          "texte": "Au sortir du sèche-linge, étale un tas de serviettes encore tièdes sur le canapé ou sur un tapis. Elles sentent bon, elles sont douces comme des nuages. Tu plies un coin, tu lisses de la paume, tu poses sur la pile. Il tente de t'imiter, tapote, attrape un bout, enfouit le visage dedans. La pile s'écroule, vous recommencez. Certains jours, il pose la sienne bien au centre de la tienne, avec un air très sérieux. Une petite chorégraphie douce, un jour de pluie."
+        },
+        {
+          "titre": "Le balai de brindilles",
+          "texte": "Ramassez ensemble une poignée de brindilles bien droites, puis noue-les autour d'un bâton avec une ficelle ou un lacet : voilà un balai tout neuf, à la taille de sa main. Dans la cour ou sur la terrasse, tu balaies à grands gestes, lui à côté de toi. S'il marche déjà, il te suit en traînant son balai ; sinon, assis sur un tapis ou porté, il agite le sien au rythme du tien. Poussez les feuilles en un grand tas, puis lancez-les en l'air en chantant « pouf, tout s'envole »."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_11",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver ralentit les gestes et les chants. Un bébé Imitateur s'y glisse doucement, épie tes mains, répète tes mélodies, et le monde devient un théâtre de petits mouvements partagés.",
+      "idees_du_moment": [
+        {
+          "titre": "Une petite neige au bout des doigts",
+          "texte": "Assis face à lui, chante une comptine qui se mime : tes doigts descendent en pluie fine, tes mains dessinent une étoile, tes bras font un grand nuage. Reprends-la plusieurs soirs, avec les mêmes gestes. Il observe, tend les doigts, agite les mains à contretemps, puis à ton rythme. Tu souris à chaque tentative. Le soir tombe tôt, la lampe est douce, et c'est souvent le moment où il anticipe le geste avant même le refrain. Un petit théâtre de doigts, sans accessoire, dans la chaleur du salon."
+        },
+        {
+          "titre": "Soupe de foulard dans son petit bol",
+          "texte": "Pendant que le plat d'hiver mijote, tu installes bébé près de toi avec son propre bol et une cuillère en bois. Dedans, un foulard léger à touiller. Il remue comme toi, les yeux sur tes mains. Tu dis « je remue, tu remues », et vos deux cuillères tournent ensemble. Puis vient le rituel : tu goûtes ta cuillère avec un grand « hmmm » et tu lui tends. Il te rend la sienne, très sérieux. S'il marche déjà, il remue debout à ton côté ; sinon, assis tout près, tout se joue à portée de bras."
+        }
+      ]
+    }
+  }
+}

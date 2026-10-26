@@ -1,0 +1,110 @@
+{
+  "mois": 15,
+  "tranche_age": "15 mois",
+  "rubrique": "saison",
+  "titre_rubrique": "Saison",
+  "sous_titre": "Mois 15 : Le Bavard · Vivre la saison ensemble",
+  "description_m": "{prenom} a plein de sons à lâcher : des babils, des mots à lui, des onomatopées lancées à la ronde. Il parle à tout ce qui bouge.",
+  "description_f": "{prenom} a plein de sons à lâcher : des babils, des mots à elle, des onomatopées lancées à la ronde. Elle parle à tout ce qui bouge.",
+  "logique_selection": {
+    "regle": "À 15 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
+    "mapping": {
+      "printemps": [
+        "mars",
+        "avril",
+        "mai"
+      ],
+      "ete": [
+        "juin",
+        "juillet",
+        "août"
+      ],
+      "automne": [
+        "septembre",
+        "octobre",
+        "novembre"
+      ],
+      "hiver": [
+        "décembre",
+        "janvier",
+        "février"
+      ]
+    }
+  },
+  "habillage_nuit_memo": {
+    "titre": "Bien habiller bébé pour la nuit",
+    "intro": "Un repère à garder en tête toute l'année : pratique aussi quand vous partez en vacances dans une autre saison.",
+    "version_a_afficher": "plus_grand",
+    "note_version": "À 15 mois, bébé régule très bien sa température : on utilise le schéma 4 mois et plus."
+  },
+  "versions": {
+    "printemps": {
+      "id": "saison_printemps_15",
+      "couleur_theme": "#EAF3DE",
+      "couleur_accent": "#27500A",
+      "emoji": "🌱",
+      "ambiance": "Le printemps parle de partout : merles qui sifflent, ruisseaux qui bavardent, portes qui grincent. Le Bavard a mille voix à écouter et à imiter, avec ses mots à lui.",
+      "idees_du_moment": [
+        {
+          "titre": "La conversation avec l'oiseau",
+          "texte": "Arrête-toi sous un arbre où un oiseau chante. Siffle ou chantonne la même petite phrase, puis attends : l'oiseau répond, parfois. À son tour, bébé tente peut-être des « tilili », des babils ou juste un grand sourire. Qu'il marche à côté de toi, soit assis en poussette ou porté contre ton épaule, vous pouvez faire la conversation à tour de rôle : toi, lui, l'oiseau."
+        },
+        {
+          "titre": "Le tube à secrets",
+          "texte": "Fenêtre ouverte, prends un long tube de carton et approche-le de ta bouche pour lui chuchoter ce que tu entends dehors : « cui-cui », « vroum », « bzzz ». Puis tends-le-lui, qu'il y glisse ses sons. Debout, à quatre pattes ou dans tes bras, il peut aussi coller son oreille au tube pour écouter le jardin. Les voix prennent un drôle de timbre, et ça le fait souvent rire."
+        }
+      ]
+    },
+    "ete": {
+      "id": "saison_ete_15",
+      "couleur_theme": "#FAEEDA",
+      "couleur_accent": "#633806",
+      "emoji": "☀️",
+      "ambiance": "L'été parle fort : cigales, rires, cuillères qui tintent, vagues qui chuchotent. Le Bavard y trouve des sons à imiter et des choses à dire à tout le monde.",
+      "idees_du_moment": [
+        {
+          "titre": "L'écho du passage voûté",
+          "texte": "Cherche un endroit où la voix revient : un pont, un passage voûté, un grand mur de pierre au fond du parc. Lance un « ohé » et attends l'écho. Il reste bouche ouverte, écoute, puis tente le sien. Qu'il arrive en marchant, à quatre pattes ou porté contre ton épaule, l'écho est aussi pour lui. À l'ombre de la pierre, vous pouvez jouer longtemps à qui répond."
+        },
+        {
+          "titre": "Les tasses qui chantent",
+          "texte": "Quand l'après-midi s'étire à l'intérieur, aligne trois tasses en métal remplies d'eau à des niveaux différents et fais-les tinter avec une cuillère en bois : ding, dong, dang. Chaque tasse a sa voix. C'est souvent le moment où il répète le son, change de tasse ou te réclame la cuillère. Assis près de toi, debout contre la table basse ou dans tes bras, il dirige l'orchestre à sa manière."
+        }
+      ]
+    },
+    "automne": {
+      "id": "saison_automne_15",
+      "couleur_theme": "#F5E4DE",
+      "couleur_accent": "#C0723A",
+      "emoji": "🍂",
+      "ambiance": "L'automne chuchote : pluie sur les carreaux, bottes qui floc, vent dans les branches, feuilles qui craquent. Une saison de sons à dire à voix haute pour le Bavard.",
+      "idees_du_moment": [
+        {
+          "titre": "Le match de l'écureuil, en direct",
+          "texte": "Pendant la balade, dès qu'un écureuil, une pie ou un pigeon s'agite, tu prends ta voix de commentateur sportif, chuchotée : « et le voilà qui grimpe… il hésite… il saute ! » Ta main fait le micro et suit chaque mouvement. Bébé regarde l'animal, puis toi, et répète peut-être un « oh » ou un « hop ». Quand la bête disparaît, tu annonces : « et c'est la mi-temps ! » S'il marche déjà, il trottine jusqu'à l'arbre ; sinon, depuis la poussette ou tes bras, il suit la scène avec toi."
+        },
+        {
+          "titre": "La promenade des bruitages",
+          "texte": "Pars marcher sans te presser et donne un bruit à tout ce que vous rencontrez : crac sous la botte, floc dans la flaque, pfiou dans le vent, toc sur le tronc. Tu le verras reprendre un bruit au vol, ou en inventer un. S'il marche déjà, il tapera du pied pour provoquer le sien ; s'il est en écharpe ou en poussette, il le dira en pointant. À la fin, la promenade devient une chanson."
+        }
+      ]
+    },
+    "hiver": {
+      "id": "saison_hiver_15",
+      "couleur_theme": "#E4EEF0",
+      "couleur_accent": "#486878",
+      "emoji": "❄️",
+      "ambiance": "L'hiver rapproche les voix : chuchotis sous la couette, buée sur les vitres, chansons dans la cuisine. Le Bavard y trouve des oreilles attentives et des mots à partager.",
+      "idees_du_moment": [
+        {
+          "titre": "Le livre qu'on borde",
+          "texte": "Chaque soir, le même petit livre cartonné, sous la lueur d'une lampe douce. Tu lis lentement, tu pointes, tu fais les bruits. Quand il connaît une phrase, tu t'arrêtes juste avant le dernier mot : il le complète peut-être à sa façon, d'un son ou d'un geste. À la dernière page, vous bordez le livre ensemble : tu le refermes, tu le glisses sous un petit torchon et tu murmures « bonne nuit, le livre ». Un jour, c'est lui qui voudra le border tout seul."
+        },
+        {
+          "titre": "L'escargot qui sort du bonnet",
+          "texte": "Ton poing devient un escargot, et un bonnet de laine sa maison. Tu chantes « Petit escargot » en le faisant sortir lentement, cornes en l'air, puis rentrer d'un coup quand la chanson s'arrête. Rejoue-la en laissant un blanc juste avant le geste : il tend peut-être déjà les doigts, ou fredonne le bout du mot. Puis c'est son tour : il glisse sa main dans le bonnet et l'escargot, c'est lui. Sous une couverture, sur le tapis ou dans tes bras, les après-midis trop frisquets pour sortir longtemps deviennent un petit théâtre à gestes."
+        }
+      ]
+    }
+  }
+}

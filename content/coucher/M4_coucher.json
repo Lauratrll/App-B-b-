@@ -1,0 +1,84 @@
+{
+  "mois": 4,
+  "tranche_age": "4 mois",
+  "rubrique": "preparer_le_coucher",
+  "titre_rubrique": "Préparer le coucher",
+  "sous_titre": "Un esprit, un corps, et un cœur apaisé",
+  "description": "À 4 mois, le sommeil de bébé change en profondeur : c'est la fameuse régression des 4 mois, la plus connue, et la seule vraiment définitive. Son sommeil, jusque-là très simple, se structure en cycles plus proches de ceux de l'adulte, avec des phases légères où il se réveille brièvement entre deux cycles. Beaucoup de bébés qui « faisaient leurs nuits » se remettent alors à se réveiller plusieurs fois : ce n'est pas un retour en arrière ni une rechute, mais le signe que son cerveau mûrit. La phase d'adaptation dure 2 à 6 semaines ; la nouvelle architecture, elle, reste pour de bon. En parallèle, bébé découvre ses mains, fixe longuement les visages, sourit beaucoup : sa journée est riche. Ce que tu remplis dans la journée (câlins, rires, regards) remplit son réservoir émotionnel, et la régularité du rituel, pas son contenu, ancre la sécurité.",
+  "reperes_cles": [
+    "Coucher entre 19h et 20h : fenêtre d'éveil de 1h30 à 1h45 max avant la dernière mise au lit",
+    "Le sommeil se structure en cycles distincts : les micro-réveils entre cycles se multiplient, c'est le cœur de la régression des 4 mois",
+    "Rituel identique à ± 15 min chaque soir : la prévisibilité est ton meilleur outil pendant la régression"
+  ],
+  "signaux_de_fatigue": [
+    "Regard qui se fige ou décroche, perd l'intérêt pour ses mains et les visages",
+    "Frottement des yeux et des oreilles, parfois avec les poings",
+    "Bâillements répétés (souvent signe que la sur-fatigue s'installe déjà)",
+    "Mouvements saccadés des bras et des jambes, agitation inhabituelle",
+    "Grognements et pleurnichements faciles, seuil de tolérance plus bas"
+  ],
+  "rituel_etapes": [
+    {
+      "etape": 1,
+      "titre": "Baisser l'ambiance et clore la journée d'éveil",
+      "description": "Éteindre les plafonniers, allumer des lampes basses. Couper la télévision et la musique. Voix basses, gestes lents. Refuser les visites passé 18h pendant la régression. Couper tous les écrans (téléphone, télé, tablette). Ralentis toi aussi : bébé lit ton apaisement avant tes gestes."
+    },
+    {
+      "etape": 2,
+      "titre": "Bain ou toilette (pas tous les soirs)",
+      "description": "Bain court (5-7 min), eau à 37°C vérifiée au thermomètre. Salle de bain chauffée à l'avance. Lumière tamisée, voix grave et lente. Pas de jouets sonores ni lumineux. Si bébé sort sur-excité du bain régulièrement, déplacer le bain en après-midi pendant 1 semaine pour tester l'effet sur le coucher."
+    },
+    {
+      "etape": 3,
+      "titre": "Massage et réflexologie du soir",
+      "description": "En sortie de bain, ton enfant encore dévêtu mais au chaud : pièce réchauffée, une zone du corps à la fois pour qu'il n'ait pas froid : un temps de massage doux et/ou la séquence de réflexologie « Sommeil paisible ». Mains réchauffées, huile végétale neutre (amande douce, calendula), pas d'huiles essentielles avant 3 ans, mouvements lents, pression 0/10. À toi de choisir ce soir le massage, la réflexologie, ou les deux, selon que ton enfant est réceptif et selon ta propre fatigue ; certains soirs, un simple contact suffit. S'il se détourne, ne force pas."
+    },
+    {
+      "etape": 4,
+      "titre": "Pyjama et gigoteuse",
+      "description": "Habiller bébé pour la nuit : pyjama puis gigoteuse adaptée à la température de la chambre. On habille maintenant, avant la dernière prise de lait : ainsi, si bébé s'endort en buvant, tu pourras le coucher directement sans le réveiller pour le rhabiller. Gestes doux, lumière déjà tamisée."
+    },
+    {
+      "etape": 5,
+      "titre": "Dernière prise de lait",
+      "description": "Dans la pénombre, lumière orange si possible. Aucun écran, aucun téléphone. Bébé déjà en pyjama, tout contre toi : ce dernier temps de lait referme la journée en douceur. Sein ou biberon. S'il s'endort en buvant, le laisser finir tranquillement : tu pourras le poser tel quel. Sinon, rot à la fin et position verticale quelques minutes avant la pose."
+    },
+    {
+      "etape": 6,
+      "titre": "Phrase d'ancrage et pose dans le lit",
+      "description": "Chambre à 18-20°C, complètement obscure (rideaux occultants). Si tu utilises un bruit blanc : léger, faible volume, à distance (jamais près de la tête), coupé une fois bébé endormi (≈ 20-30 min), jamais toute la nuit. Phrase rituelle identique chaque soir : « La journée est finie. Tu es en sécurité. Je suis là, tout contre toi. » Pose en deux temps (fesses puis haut du corps), avec une légère inclinaison sur le côté pour éviter le réflexe de Moro, puis recoucher sur le dos. Main sur le ventre 1-2 min. Sortir en silence."
+    }
+  ],
+  "reflexologie_du_coucher": {
+    "titre": "Réflexologie du soir",
+    "intro": "Après le bain, bébé au chaud, allongé sur le dos, toi face à ses pieds. Voix très basse, mouvements infimes. En pleine régression, ce moment de contact aide bébé à décharger le trop-plein de la journée. La séquence « Sommeil paisible » se suit pas à pas, animée, dans l'onglet Réflexologie. Elle reste la même tout au long des deux ans : c'est sa répétition, soir après soir, qui en fait un repère.",
+    "consentement": "Avant tout, observe les réactions de bébé. La réflexologie se fait avec son accord : à la moindre crispation, s'il retire son pied ou se détourne, arrête-toi. C'est un moment de plaisir partagé, jamais une technique à imposer.",
+    "cloture": "Terminer par quelques secondes immobiles, tes mains posées sur lui. Murmurer : « Tu peux te reposer. Je suis là. »",
+    "etapes": [],
+    "lien_reflexologie": {
+      "id": "sommeil",
+      "titre": "Sommeil paisible"
+    }
+  },
+  "script_audio_du_soir": {
+    "titre": "« Ton sommeil grandit »",
+    "duree": "~5 minutes",
+    "instruction": "À écouter sur enceinte douce pendant la réflexologie et le massage, volume bas. Voix grave et lente. Ou à lire à voix haute, posément, en regardant bébé. Les pauses sont des silences réels, pas des indications de ton. Personnalise si tu veux.",
+    "texte": "[Prénom]...\n\nLa journée se termine maintenant.\n\nTu as tant regardé aujourd'hui.\n\n[Pause de 5 secondes]\n\nTu as découvert tes mains. Tu as suivi les visages des yeux. Tu as souri, encore et encore.\n\nTon cerveau a travaillé sans arrêt à comprendre ce grand monde autour de toi.\n\nC'était beaucoup pour un si petit corps.\n\n[Pause de 5 secondes]\n\nEt tous ces câlins, tous ces rires de la journée : tu les gardes en toi.\n\nIls te tiennent chaud à l'intérieur, même maintenant que la lumière baisse.\n\n[Pause de 5 secondes]\n\nEn ce moment, ton sommeil grandit.\n\nIl apprend à se faire en plusieurs morceaux, comme celui des grands.\n\nC'est pour ça que tu te réveilles parfois entre deux rêves.\n\nCe n'est pas grave. C'est juste ton sommeil qui mûrit.\n\n[Pause de 10 secondes]\n\nSi tu te réveilles cette nuit, je ne suis pas loin.\n\nTon corps sait se reposer. Tu n'as rien à faire : juste respirer, tout doucement.\n\nÉcoute mon souffle. Inspire... expire... Inspire... expire...\n\n[Pause de 5 secondes]\n\nMaintenant, tu peux te déposer, [mon tout petit/ma toute petite].\n\nTu es en sécurité.\n\nTu es au chaud.\n\nTu es [aimé/aimée].\n\nDors, mon amour. Dors.\n\nBonne nuit."
+  },
+  "co_parent": {
+    "titre": "La place du co-parent au coucher à 4 mois",
+    "texte": "À 4 mois, beaucoup de parents ont repris le travail : l'alternance au coucher n'est plus un luxe mais une nécessité d'organisation. Plus tôt le co-parent sait mener seul le rituel complet, plus la famille respire. Et pour bébé, deux figures sécurisantes au coucher valent mieux qu'une.",
+    "actions": [
+      "Le co-parent prend le rituel complet 3 à 4 soirs sur 7",
+      "Si allaitement : le co-parent gère tout sauf la dernière prise de lait, ou propose un biberon de lait tiré",
+      "Le co-parent peut faire la voix du script audio : bébé apprend deux versions du rituel également rassurantes",
+      "Une nuit sur deux minimum, le co-parent se lève pour les réveils non liés à la faim"
+    ]
+  },
+  "erreurs_a_eviter": [
+    "Les écrans (télévision, tablette, téléphone) dans l'heure qui précède le coucher : la lumière bleue inhibe la sécrétion de mélatonine et retarde l'endormissement de 30 à 90 minutes ; concerne aussi les écrans visibles en arrière-plan",
+    "Multiplier les solutions pendant la régression des 4 mois (bercer plus longtemps, ajouter un biberon, changer de pièce chaque soir) : chaque nouvelle habitude s'installe et se paiera après la régression ; la constance est plus efficace que l'inventivité",
+    "Reculer l'heure du coucher en pensant que bébé sera « plus fatigué » : produit l'effet inverse : la sur-fatigue libère du cortisol qui empêche l'endormissement et fragmente le sommeil de la nuit"
+  ]
+}
