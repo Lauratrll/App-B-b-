@@ -15,7 +15,7 @@ const MODULES = [
   // Boîte à outils, contenu à construire (20/10). Sauge poudrée, entre le bleu
   // du coucher et le rose de « Prendre soin de moi ».
   { href: "/apaisement", title: "Gestes d'apaisement", subtitle: "Boîte à outils", bg: "#E5EBDD" },
-  { href: "/soin", title: "Prendre soin de moi", subtitle: "Gestes parentaux", bg: "#F5E4DE" },
+  { href: "/soin", title: "Prendre soin\nde moi", subtitle: "Post-partum", bg: "#F5E4DE" },
   { href: "/reflexologie", title: "Réflexologie plantaire", subtitle: "Apaiser bébé", bg: "#EDE4D4" },
   { href: "/saison", title: "Vivre la saison", subtitle: "Adapté au mois", bg: "#DCE8E4" },
 ] as const;
@@ -61,7 +61,7 @@ export default async function DashboardPage() {
                 style={{ backgroundColor: m.bg }}
               >
                 <p
-                  className="font-display font-semibold leading-[1.15] text-charcoal"
+                  className="whitespace-pre-line font-display font-semibold leading-[1.15] text-charcoal"
                   style={{ fontSize: 17, letterSpacing: "-0.01em" }}
                 >
                   {m.title}
