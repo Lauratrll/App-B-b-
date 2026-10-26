@@ -471,10 +471,12 @@ Navigation fixe (4 entrées, dont 2 boutons ronds — voir ci-dessus)
 | Gauche | Droite |
 |---|---|
 | Préparer le coucher (nom à changer) | Guide-moi ! |
-| Gestes d'apaisement — *Boîte à outils* (`/apaisement`, à construire, fond `#E5EBDD`) | Prendre soin de moi |
+| Gestes d'apaisement — *Boîte à outils* (`/apaisement`, à construire, fond `#E5EBDD`) | Prendre soin / de moi — *Post-partum* (titre sur deux lignes, 26/10) |
 | Réflexologie plantaire | Vivre la saison |
 
 S.O.S n'est plus une case de l'accueil : son entrée est le bouton rond de la barre du bas.
+
+**Vivre la saison (26/10/2026)** : les parents ne voient que la saison du moment, sans sélecteur. Les admins ont les 4 saisons au choix (boutons en haut de la page). Les visuels de la page restent à travailler.
 
 ---
 

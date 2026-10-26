@@ -10,7 +10,7 @@
 >
 > Légende : ✅ en vigueur · 🔁 remplacée · 🟠 ouvert, à trancher · ⚠️ point de vigilance
 
-Dernière mise à jour : 17 octobre 2026.
+Dernière mise à jour : 26 octobre 2026.
 
 ---
 
@@ -407,6 +407,8 @@ Historique : 🔁 28/08 « seuls les critères de dépistage » → 🔁 08/09 p
 - ✅ (20/10) **S.O.S, page 1** (Laura) : « Repères officiels » retiré du bas de l'écran, il est déjà écrit en sous-titre. Reste en bas : « En cas de doute, appelez le 15. »
 
 - ✅ (20/10) **Nouvel accueil** (Laura). Grille : Préparer le coucher (nom à changer) · Guide-moi ! / Gestes d'apaisement, sous-titre *Boîte à outils* (vide, à construire) · Prendre soin de moi / Réflexologie · Vivre la saison. **Barre du bas réduite à 4 entrées** : Accueil · Cohérence cardiaque · SOS · Épinglés. Cohérence (2e) et SOS (au centre) = **boutons ronds, 2/3 sur la barre, 1/3 au-dessus sur le fond, visibles mais pas principaux** ; cohérence = picto cœur traversé d'une onde (contenu à créer) ; SOS = juste écrit « SOS », c'est sa nouvelle porte d'entrée (plus de case à l'accueil). Accueil et Épinglés = pictos seuls, sans mot, dans le style des pictos des slots. **Menu « 3 traits » en haut à gauche = réglages** : Mon bébé · Mes informations · Mon abonnement, + Nous contacter et Mentions légales (cases placées, à remplir), + Se déconnecter. Détail : `SKILL_ui.md`, « Navigation principale » et « Structure de la page d'accueil ».
+- ✅ (26/10) **Accueil, case « Prendre soin de moi »** (Laura) : titre sur deux lignes, « Prendre soin / de moi » ; sous-titre « Gestes parentaux » remplacé par **« Post-partum »**. Code : `app/(app)/dashboard/page.tsx`.
+- ✅ (26/10) **Vivre la saison : saison bloquée pour les parents** (Laura). Les parents voient uniquement la saison du moment, sans sélecteur (le lien `?s=` est ignoré). **Les admins gardent les 4 saisons en libre changement**, pour relire tous les contenus. Les visuels de la page seront retravaillés plus tard. Code : `app/(app)/saison/page.tsx`.
 - ✅ Palette : dernière case bleue `#D5E7EB` ; carte Parents submergés lavande `#DBD7EA`, attribuée **par identifiant** (`slotForCategorie`).
 - ✅ `protocole-view.tsx` rend `*italique*` et `**gras**` ; bouton « Ouvrir la séquence » vers `lien_reflexologie` (Guide-moi et Coucher).
 - ✅ `soin-detail.tsx` met en gras tout numéro d'appel de l'encart d'urgence.

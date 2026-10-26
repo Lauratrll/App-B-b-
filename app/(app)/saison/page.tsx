@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { requireProfile } from "@/lib/auth";
+import { requireProfile, isCurrentUserAdmin } from "@/lib/auth";
 import { getBabyMonth, getSeason } from "@/lib/utils";
 import { getSaisonMeta, getSaisonVersion, type SaisonKey } from "@/lib/content";
 import { SaisonView } from "@/components/modules/saison-view";
@@ -16,11 +16,17 @@ export default async function SaisonPage({
 }: {
   searchParams: { s?: string };
 }) {
-  const { profile } = await requireProfile();
+  const [{ profile }, isAdmin] = await Promise.all([
+    requireProfile(),
+    isCurrentUserAdmin(),
+  ]);
   const mois = getBabyMonth(new Date(profile.birthdate));
   const saisonCourante = getSeason(new Date());
-  const saisonChoisie =
-    SAISONS.find((s) => s.key === searchParams.s)?.key ?? saisonCourante;
+  // Parents : toujours la saison du moment (le paramètre ?s= est ignoré).
+  // Admins : les 4 saisons au choix, pour relire tous les contenus.
+  const saisonChoisie = isAdmin
+    ? SAISONS.find((s) => s.key === searchParams.s)?.key ?? saisonCourante
+    : saisonCourante;
   // Libellé affiché dans le titre : « Vivre la saison — Printemps/Été/… ».
   const saisonLabel =
     SAISONS.find((s) => s.key === saisonChoisie)?.label ?? "";
@@ -55,6 +61,7 @@ export default async function SaisonPage({
         ) : null}
       </header>
 
+      {isAdmin ? (
       <nav className="grid grid-cols-4 gap-2">
         {SAISONS.map((s) => {
           const isActive = s.key === saisonChoisie;
@@ -76,11 +83,12 @@ export default async function SaisonPage({
           );
         })}
       </nav>
+      ) : null}
 
-      {saisonChoisie !== saisonCourante ? (
+      {isAdmin && saisonChoisie !== saisonCourante ? (
         <p className="rounded-xl bg-neutral-50 p-3 text-xs italic text-neutral-600">
-          Tu consultes une saison qui n&apos;est pas la saison courante. Bascule
-          revient sur la saison actuelle dans la navigation ci-dessus.
+          Aperçu admin : ce n&apos;est pas la saison du moment. Les parents ne
+          voient que la saison en cours.
         </p>
       ) : null}
 
