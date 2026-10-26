@@ -1,6 +1,6 @@
 // scripts/import-content.mjs
 // ===========================================================================
-// Importe le contenu des fichiers JSON de /content/mois-XX/ dans la table
+// Importe le contenu des fichiers JSON de /content (guide-moi/mois-XX, coucher, prendre-soin, SAISON, jeux) dans la table
 // Supabase `content`, en décomposant chaque module selon sa structure :
 //
 //   guide    → 1 ligne par protocole + 1 ligne metadata (categorie='_meta')
@@ -333,8 +333,32 @@ const ignoredFiles = [];
 
 // ----- Import par mois ----------------------------------------------------
 
+// Rangement par catégorie (depuis le 26/10/2026) :
+//   content/guide-moi/mois-XX/…   guide (M{n}_guide_moi_N{slot}_….json)
+//   content/coucher/M{n}_coucher.json
+//   content/prendre-soin/M{n}_soin.json
+//   content/SAISON/M{n}_saison.json
+//   content/jeux/M{n}_jeux.json
+// Chaque fichier est rapproché de son nom historique (02-coucher.json, etc.)
+// pour retrouver son handler ; `pathOf` garde le vrai chemin.
+const EXTRA_DIRS = [
+  { dir: "coucher", suffix: "coucher", legacy: "02-coucher.json" },
+  { dir: "prendre-soin", suffix: "soin", legacy: "03-soin.json" },
+  { dir: "SAISON", suffix: "saison", legacy: "04-saison.json" },
+  { dir: "jeux", suffix: "jeux", legacy: "06-jeux.json" },
+];
+
 async function importMois(mois, dir) {
+  const pathOf = new Map();
   const allFiles = readdirSync(dir).filter((f) => f.endsWith(".json"));
+  for (const f of allFiles) pathOf.set(f, join(dir, f));
+  for (const { dir: d, suffix, legacy } of EXTRA_DIRS) {
+    const p = join(CONTENT_DIR, d, `M${mois}_${suffix}.json`);
+    if (existsSync(p)) {
+      allFiles.push(legacy);
+      pathOf.set(legacy, p);
+    }
+  }
 
   // Séparer les fichiers guide « par catégorie » (nouveau format N{slot}) du reste.
   const guideCatFiles = [];
@@ -355,7 +379,7 @@ async function importMois(mois, dir) {
     const parsed = [];
     for (const { file, slot } of guideCatFiles) {
       try {
-        const json = JSON.parse(readFileSync(join(dir, file), "utf-8"));
+        const json = JSON.parse(readFileSync(pathOf.get(file), "utf-8"));
         parsed.push({ file, slot, json });
       } catch (err) {
         console.error(`  ✗ ${file} : JSON invalide → ${err.message}`);
@@ -395,7 +419,7 @@ async function importMois(mois, dir) {
       );
       continue;
     }
-    const path = join(dir, f);
+    const path = pathOf.get(f);
     let json;
     try {
       json = JSON.parse(readFileSync(path, "utf-8"));
@@ -407,11 +431,15 @@ async function importMois(mois, dir) {
     perFile.push({ file: f, module: handler.module, rows });
   }
 
-  // 2) Purge unique de tout le mois (tous modules) pour l'idempotence
+  // 2) Purge unique de tout le mois (tous modules) pour l'idempotence,
+  //    SAUF les fiches de Réflexologie plantaire (module 'reflexo', categorie
+  //    'plantaire', rangées au mois 0) : ce script ne les recrée pas, et elles
+  //    ne doivent jamais être supprimées (cf. CLAUDE.md).
   const { error: delErr } = await supabase
     .from("content")
     .delete()
-    .eq("mois", mois);
+    .eq("mois", mois)
+    .or("module.neq.reflexo,categorie.neq.plantaire");
   if (delErr) {
     console.error(`  ✗ erreur DELETE mois ${mois} → ${delErr.message}`);
     return;
@@ -445,13 +473,14 @@ async function main() {
     process.exit(1);
   }
 
-  const dirs = readdirSync(CONTENT_DIR, { withFileTypes: true })
+  const GUIDE_DIR = join(CONTENT_DIR, "guide-moi");
+  const dirs = readdirSync(GUIDE_DIR, { withFileTypes: true })
     .filter((d) => d.isDirectory() && d.name.startsWith("mois-"))
     .map((d) => d.name)
     .sort();
 
   if (dirs.length === 0) {
-    console.error("Aucun dossier mois-XX trouvé dans /content/");
+    console.error("Aucun dossier mois-XX trouvé dans /content/guide-moi/");
     process.exit(1);
   }
 
@@ -461,7 +490,7 @@ async function main() {
     const mois = parseInt(d.replace("mois-", ""), 10);
     if (Number.isNaN(mois)) continue;
     console.log(`=== Mois ${String(mois).padStart(2, "0")} ===`);
-    await importMois(mois, join(CONTENT_DIR, d));
+    await importMois(mois, join(GUIDE_DIR, d));
     console.log("");
   }
 
