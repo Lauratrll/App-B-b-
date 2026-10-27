@@ -4,7 +4,7 @@
 // prototypes (les tracés bakés `tr-<…>`, source de vérité) vers un JSON que le
 // lecteur fait suivre au doigt (moteur de traînée) :
 //
-//     reflexologie/mouvements-trace.json
+//     content/reflexologie/mouvements-trace.json
 //
 //   node scripts/extract-mouvements-trace.mjs
 //
@@ -24,7 +24,7 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const R = (f) => join(process.cwd(), "reflexologie", f);
+const R = (f) => join(process.cwd(), "content", "reflexologie", f);
 const OUT = R("mouvements-trace.json");
 
 // Récupère tous les tracés tr- d'un prototype : id → { d, sw, op }.

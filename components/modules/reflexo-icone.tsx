@@ -1,6 +1,6 @@
 // Icône d'un protocole de Réflexologie.
 //
-// Source de vérité : les SVG dessinés par Laura dans reflexologie/visuels-icones/
+// Source de vérité : les SVG dessinés par Laura dans content/reflexologie/visuels-icones/
 // (un fichier `icone-<id>.svg` par protocole, en noir pur). Le script de synchro
 // en extrait les tracés vers `icones-protocoles.json`, importé statiquement par
 // lib/reflexologie.ts.

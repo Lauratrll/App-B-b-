@@ -32,7 +32,7 @@ import {
 } from "@/components/modules/reflexo-design";
 
 // Écran d'un protocole de « Réflexologie ».
-// Ordre imposé par reflexologie/CONSIGNES_CLAUDE_CODE_onglet_reflexologie.md §4 :
+// Ordre imposé par content/reflexologie/CONSIGNES_CLAUDE_CODE_onglet_reflexologie.md §4 :
 // titre + intro (l'accueil de l'émotion y est intégré) → ouverture → carte des
 // zones → séquence repliée → régularité (toujours) → disclaimer (toujours).
 // La note de fin ne s'affiche plus ici : elle vit dans le lecteur animé.

@@ -2,7 +2,7 @@
 // ===========================================================================
 // Rend épinglables les fiches de l'onglet Réflexologie plantaire (20/10/2026).
 //
-// Les fiches sont lues en imports statiques (reflexologie/*.json), pas dans
+// Les fiches sont lues en imports statiques (content/reflexologie/*.json), pas dans
 // Supabase. Or une épingle pointe vers une ligne de la table `content`. Ce
 // script crée donc UNE LIGNE PAR FICHE PUBLIÉE, qui ne porte que l'identifiant
 // et le titre : module='reflexo', categorie='plantaire', situation=<id>,
@@ -37,7 +37,7 @@ const supabase = createClient(SUPABASE_URL, SERVICE_ROLE_KEY, {
   auth: { persistSession: false, autoRefreshToken: false },
 });
 
-const index = JSON.parse(readFileSync("reflexologie/protocoles-index.json", "utf8"));
+const index = JSON.parse(readFileSync("content/reflexologie/protocoles-index.json", "utf8"));
 const publies = index.protocoles.filter((p) => p.lancement !== false);
 
 const { data: existants, error } = await supabase

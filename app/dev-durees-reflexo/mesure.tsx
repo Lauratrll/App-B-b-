@@ -33,7 +33,7 @@ export function MesureDurees({ cas }: { cas: Cas[] }) {
       <h1 style={{ fontSize: 20, margin: "0 0 6px" }}>Durées des lectures animées</h1>
       <p style={{ fontSize: 13, color: "#7A6E62", margin: "0 0 16px" }}>
         {fini
-          ? `${cas.length} cas mesurés. Copier le bloc ci-dessous dans reflexologie/durees-protocoles.json.`
+          ? `${cas.length} cas mesurés. Copier le bloc ci-dessous dans content/reflexologie/durees-protocoles.json.`
           : `Mesure ${i + 1} / ${cas.length} : ${courant.titre}…`}
       </p>
 

@@ -1,10 +1,10 @@
 // scripts/extract-glisse-geometrie.mjs
 // ===========================================================================
 // Extrait la géométrie VALIDÉE du mouvement « pression glissée » depuis le
-// prototype reflexologie/mouvement-pression-glissee.html (les lignes médianes
+// prototype content/reflexologie/mouvement-pression-glissee.html (les lignes médianes
 // `pts` bakées, la source de vérité) vers un JSON exploitable par le lecteur :
 //
-//     reflexologie/mouvements-glisse.json
+//     content/reflexologie/mouvements-glisse.json
 //
 //   node scripts/extract-glisse-geometrie.mjs
 //
@@ -17,8 +17,8 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const SRC = join(process.cwd(), "reflexologie", "mouvement-pression-glissee.html");
-const OUT = join(process.cwd(), "reflexologie", "mouvements-glisse.json");
+const SRC = join(process.cwd(), "content", "reflexologie", "mouvement-pression-glissee.html");
+const OUT = join(process.cwd(), "content", "reflexologie", "mouvements-glisse.json");
 
 const html = readFileSync(SRC, "utf-8");
 

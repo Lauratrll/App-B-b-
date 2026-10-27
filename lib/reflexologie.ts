@@ -4,7 +4,7 @@
 //
 // Contrairement aux 6 modules mensuels, ces protocoles ne dépendent PAS du mois
 // de bébé : c'est une bibliothèque fixe, la même pour tout le monde. Ils sont
-// donc lus directement depuis /reflexologie/*.json (embarqués au build via des
+// donc lus directement depuis content/reflexologie/*.json (embarqués au build via des
 // imports statiques — la voie fiable pour que Vercel les inclue), et non depuis
 // la table Supabase `content`.
 //
@@ -23,38 +23,38 @@
 // `retires_deontologie` dans protocoles-index.json (cf. RETIRES_DEONTOLOGIE).
 // ===========================================================================
 
-import indexJson from "@/reflexologie/protocoles-index.json";
-import accueilJson from "@/reflexologie/accueil-onglet-reflexologie.json";
-import ouvertureJson from "@/reflexologie/_ouverture-commune.json";
-import catalogueJson from "@/reflexologie/zones-mouvements.json";
-import iconesJson from "@/reflexologie/icones-protocoles.json";
-import dureesJson from "@/reflexologie/durees-protocoles.json";
+import indexJson from "@/content/reflexologie/protocoles-index.json";
+import accueilJson from "@/content/reflexologie/accueil-onglet-reflexologie.json";
+import ouvertureJson from "@/content/reflexologie/_ouverture-commune.json";
+import catalogueJson from "@/content/reflexologie/zones-mouvements.json";
+import iconesJson from "@/content/reflexologie/icones-protocoles.json";
+import dureesJson from "@/content/reflexologie/durees-protocoles.json";
 
-import accueilNouveauNe from "@/reflexologie/protocole-accueil-nouveau-ne.json";
-import agitationConcentration from "@/reflexologie/protocole-agitation-concentration.json";
-import allergies from "@/reflexologie/protocole-allergies.json";
-import anxieteNervosite from "@/reflexologie/protocole-anxiete-nervosite.json";
-import bronchiteAsthme from "@/reflexologie/protocole-bronchite-asthme.json";
-import cesarienne from "@/reflexologie/protocole-cesarienne.json";
-import coliques from "@/reflexologie/protocole-coliques.json";
-import confianceEnSoi from "@/reflexologie/protocole-confiance-en-soi.json";
-import constipation from "@/reflexologie/protocole-constipation.json";
-import dents from "@/reflexologie/protocole-dents.json";
-import diarrhee from "@/reflexologie/protocole-diarrhee.json";
-import difficultesATeter from "@/reflexologie/protocole-difficultes-a-teter.json";
-import eczema from "@/reflexologie/protocole-eczema.json";
-import frustrationMotrice from "@/reflexologie/protocole-frustration-motrice.json";
-import ictere from "@/reflexologie/protocole-ictere.json";
-import inconfortDigestif from "@/reflexologie/protocole-inconfort-digestif.json";
-import jalousieFratrie from "@/reflexologie/protocole-jalousie-fratrie.json";
-import malDesTransports from "@/reflexologie/protocole-mal-des-transports.json";
-import meconium from "@/reflexologie/protocole-meconium.json";
-import oppositionFrustration from "@/reflexologie/protocole-opposition-frustration.json";
-import prematurite from "@/reflexologie/protocole-prematurite.json";
-import reflux from "@/reflexologie/protocole-reflux.json";
-import rhumeOtite from "@/reflexologie/protocole-rhume-otite.json";
-import separation from "@/reflexologie/protocole-separation.json";
-import sommeil from "@/reflexologie/protocole-sommeil.json";
+import accueilNouveauNe from "@/content/reflexologie/protocole-accueil-nouveau-ne.json";
+import agitationConcentration from "@/content/reflexologie/protocole-agitation-concentration.json";
+import allergies from "@/content/reflexologie/protocole-allergies.json";
+import anxieteNervosite from "@/content/reflexologie/protocole-anxiete-nervosite.json";
+import bronchiteAsthme from "@/content/reflexologie/protocole-bronchite-asthme.json";
+import cesarienne from "@/content/reflexologie/protocole-cesarienne.json";
+import coliques from "@/content/reflexologie/protocole-coliques.json";
+import confianceEnSoi from "@/content/reflexologie/protocole-confiance-en-soi.json";
+import constipation from "@/content/reflexologie/protocole-constipation.json";
+import dents from "@/content/reflexologie/protocole-dents.json";
+import diarrhee from "@/content/reflexologie/protocole-diarrhee.json";
+import difficultesATeter from "@/content/reflexologie/protocole-difficultes-a-teter.json";
+import eczema from "@/content/reflexologie/protocole-eczema.json";
+import frustrationMotrice from "@/content/reflexologie/protocole-frustration-motrice.json";
+import ictere from "@/content/reflexologie/protocole-ictere.json";
+import inconfortDigestif from "@/content/reflexologie/protocole-inconfort-digestif.json";
+import jalousieFratrie from "@/content/reflexologie/protocole-jalousie-fratrie.json";
+import malDesTransports from "@/content/reflexologie/protocole-mal-des-transports.json";
+import meconium from "@/content/reflexologie/protocole-meconium.json";
+import oppositionFrustration from "@/content/reflexologie/protocole-opposition-frustration.json";
+import prematurite from "@/content/reflexologie/protocole-prematurite.json";
+import reflux from "@/content/reflexologie/protocole-reflux.json";
+import rhumeOtite from "@/content/reflexologie/protocole-rhume-otite.json";
+import separation from "@/content/reflexologie/protocole-separation.json";
+import sommeil from "@/content/reflexologie/protocole-sommeil.json";
 
 // --- Types -----------------------------------------------------------------
 
@@ -333,7 +333,7 @@ export function getIdsPublies(): string[] {
 
 /**
  * Icône d'un protocole : les tracés extraits du SVG dessiné par Laura
- * (reflexologie/visuels-icones/icone-<id>.svg → icones-protocoles.json, généré
+ * (content/reflexologie/visuels-icones/icone-<id>.svg → icones-protocoles.json, généré
  * par scripts/sync-reflexo-visuels.mjs). Aucune couleur : l'icône prend celle
  * du texte qui l'entoure.
  */
@@ -513,7 +513,7 @@ export function getStepsAnimation(
  *
  * Le champ `visuel` du JSON vaut « visuels-protocoles/Visuel - <titre>.png ».
  * Les images sont copiées dans `public/reflexologie/visuels/` (source de
- * vérité : `reflexologie/visuels-protocoles/`, cf. scripts/sync-reflexo-visuels.mjs).
+ * vérité : `content/reflexologie/visuels-protocoles/`, cf. scripts/sync-reflexo-visuels.mjs).
  * On garde le nom de fichier tel quel (espaces/accents) et on l'encode pour l'URL.
  */
 export function visuelUrl(visuel: string | undefined): string | null {

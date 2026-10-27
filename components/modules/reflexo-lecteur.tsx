@@ -1,7 +1,7 @@
 "use client";
 
 // Lecteur animé d'un protocole de Réflexologie — mode paysage.
-// Reproduit la maquette validée (reflexologie/maquette-lecteur-paysage.html) :
+// Reproduit la maquette validée (content/reflexologie/maquette-lecteur-paysage.html) :
 // l'illustration des pieds calée à gauche (fond #DFBEB0), le texte synchronisé
 // sur le côté (nom « Le Cardia » / intention / description), UNE seule zone
 // travaillée par étape, animée selon son mouvement.
@@ -250,7 +250,7 @@ type CibleInfo = {
 };
 
 // Médiane validée d'une zone (le trait que suit le doigt), extraite des
-// prototypes → reflexologie/mouvements-glisse.json.
+// prototypes → content/reflexologie/mouvements-glisse.json.
 // Géométrie d'une zone, deux formes :
 //  - glissé : médiane échantillonnée (pts = [x, y, épaisseur_locale]) + epMax.
 //  - tracé  : chemin baké brut `d` (spirale, boucles, circulaire, composite)
@@ -2447,7 +2447,7 @@ export function ReflexoCarte({
   noteFin?: string;
   /**
    * Durée totale MESURÉE de l'animation (ms), lue dans
-   * reflexologie/durees-protocoles.json — jamais estimée à la main.
+   * content/reflexologie/durees-protocoles.json — jamais estimée à la main.
    */
   dureeMs?: number;
 }) {

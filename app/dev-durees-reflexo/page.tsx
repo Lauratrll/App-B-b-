@@ -12,7 +12,7 @@ import { MesureDurees } from "./mesure";
 // premier réglage de mouvement.
 //
 // Mode d'emploi : `npm run dev`, ouvrir /dev-durees-reflexo, attendre la fin du
-// balayage, copier le JSON affiché dans reflexologie/durees-protocoles.json.
+// balayage, copier le JSON affiché dans content/reflexologie/durees-protocoles.json.
 // À relancer après CHAQUE modification des constantes de temps du lecteur.
 
 export const dynamic = "force-static";

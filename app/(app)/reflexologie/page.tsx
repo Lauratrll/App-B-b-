@@ -12,7 +12,7 @@ import {
 } from "@/components/modules/reflexo-design";
 
 // Onglet « Réflexologie plantaire » — remplace l'onglet « Jeux ».
-// Consignes : reflexologie/CONSIGNES_CLAUDE_CODE_onglet_reflexologie.md
+// Consignes : content/reflexologie/CONSIGNES_CLAUDE_CODE_onglet_reflexologie.md
 // Le bloc « Bienvenue » est toujours en 1re position, avant la liste.
 
 export default async function ReflexologiePage() {

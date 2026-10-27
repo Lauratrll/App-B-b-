@@ -1,13 +1,13 @@
 // scripts/sync-reflexo-visuels.mjs
 // ===========================================================================
 // Copie les cartes récapitulatives des protocoles de Réflexologie depuis la
-// source de vérité (reflexologie/visuels-protocoles/) vers le dossier servi
+// source de vérité (content/reflexologie/visuels-protocoles/) vers le dossier servi
 // par Next.js (public/reflexologie/visuels/).
 //
 //   node scripts/sync-reflexo-visuels.mjs
 //
-// À relancer chaque fois que les PNG de reflexologie/visuels-protocoles/ sont
-// ajoutés ou modifiés (le dossier reflexologie/ est édité en parallèle). Les
+// À relancer chaque fois que les PNG de content/reflexologie/visuels-protocoles/ sont
+// ajoutés ou modifiés (le dossier content/reflexologie/ est édité en parallèle). Les
 // noms de fichiers sont conservés tels quels (espaces/accents) ; l'app les
 // encode pour l'URL via visuelUrl() dans lib/reflexologie.ts.
 // ===========================================================================
@@ -24,7 +24,7 @@ import {
 import { join } from "node:path";
 import { execSync } from "node:child_process";
 
-const REFLEXO = join(process.cwd(), "reflexologie");
+const REFLEXO = join(process.cwd(), "content", "reflexologie");
 const SRC = join(REFLEXO, "visuels-protocoles");
 const DEST_VISUELS = join(process.cwd(), "public", "reflexologie", "visuels");
 const DEST_REFLEXO = join(process.cwd(), "public", "reflexologie");
@@ -72,7 +72,7 @@ for (const GEOM of ["mouvements-glisse.json", "mouvements-trace.json"]) {
 }
 
 // ---------------------------------------------------------------------------
-// Icônes de protocole : reflexologie/visuels-icones/icone-<id>.svg
+// Icônes de protocole : content/reflexologie/visuels-icones/icone-<id>.svg
 //
 // Laura les dessine dans Illustrator, un fichier par protocole, nommé d'après
 // l'id du protocole. On en extrait les seuls tracés vers un JSON importé
@@ -109,7 +109,7 @@ if (existsSync(ICONES_SRC)) {
     ICONES_JSON,
     `${JSON.stringify(
       {
-        _note: "GÉNÉRÉ par scripts/sync-reflexo-visuels.mjs depuis reflexologie/visuels-icones/. Ne pas éditer à la main : modifier le SVG et relancer `npm run sync-visuels`.",
+        _note: "GÉNÉRÉ par scripts/sync-reflexo-visuels.mjs depuis content/reflexologie/visuels-icones/. Ne pas éditer à la main : modifier le SVG et relancer `npm run sync-visuels`.",
         icones,
       },
       null,

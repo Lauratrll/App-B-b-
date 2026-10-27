@@ -1,6 +1,6 @@
 // scripts/import-content.mjs
 // ===========================================================================
-// Importe le contenu des fichiers JSON de /content (guide-moi/mois-XX, coucher, prendre-soin, SAISON, jeux) dans la table
+// Importe le contenu des fichiers JSON de /content (guide-moi/mois-XX, coucher, prendre-soin, saison, jeux) dans la table
 // Supabase `content`, en décomposant chaque module selon sa structure :
 //
 //   guide    → 1 ligne par protocole + 1 ligne metadata (categorie='_meta')
@@ -337,14 +337,14 @@ const ignoredFiles = [];
 //   content/guide-moi/mois-XX/…   guide (M{n}_guide_moi_N{slot}_….json)
 //   content/coucher/M{n}_coucher.json
 //   content/prendre-soin/M{n}_soin.json
-//   content/SAISON/M{n}_saison.json
+//   content/saison/M{n}_saison.json
 //   content/jeux/M{n}_jeux.json
 // Chaque fichier est rapproché de son nom historique (02-coucher.json, etc.)
 // pour retrouver son handler ; `pathOf` garde le vrai chemin.
 const EXTRA_DIRS = [
   { dir: "coucher", suffix: "coucher", legacy: "02-coucher.json" },
   { dir: "prendre-soin", suffix: "soin", legacy: "03-soin.json" },
-  { dir: "SAISON", suffix: "saison", legacy: "04-saison.json" },
+  { dir: "saison", suffix: "saison", legacy: "04-saison.json" },
   { dir: "jeux", suffix: "jeux", legacy: "06-jeux.json" },
 ];
 
