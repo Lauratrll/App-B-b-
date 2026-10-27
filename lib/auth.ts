@@ -2,6 +2,7 @@ import { cache } from "react";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
+import { getSeason, type Season } from "@/lib/utils";
 
 export type Genre = "garcon" | "fille";
 
@@ -64,17 +65,26 @@ export const isCurrentUserAdmin = cache(async (): Promise<boolean> => {
 });
 
 // ----- Aperçu admin -----------------------------------------
-// Les admins choisissent un mois et un genre ; stockés en cookie, ils
-// remplacent l'âge réel et le genre dans toute l'app. Le profil en base
-// n'est jamais touché.
+// Les admins choisissent un mois, un genre et une saison ; stockés en cookie,
+// ils remplacent l'âge réel, le genre et la saison du moment dans toute
+// l'app. Le profil en base n'est jamais touché.
 export const APERCU_MOIS_COOKIE = "apercu_mois";
 export const APERCU_GENRE_COOKIE = "apercu_genre";
+export const APERCU_SAISON_COOKIE = "apercu_saison";
 export const APERCU_MOIS_MAX = 23;
+export const SAISONS_APERCU: readonly Season[] = [
+  "printemps",
+  "ete",
+  "automne",
+  "hiver",
+];
 
 export type Apercu = {
   mois: number | null;
   // "aucun" = simuler un profil sans genre renseigné.
   genre: Genre | "aucun" | null;
+  // null = la saison du moment.
+  saison: Season | null;
 };
 
 export const getApercu = cache(async (): Promise<Apercu | null> => {
@@ -91,8 +101,18 @@ export const getApercu = cache(async (): Promise<Apercu | null> => {
     genreRaw === "garcon" || genreRaw === "fille" || genreRaw === "aucun"
       ? genreRaw
       : null;
-  return { mois, genre };
+  const saisonRaw = store.get(APERCU_SAISON_COOKIE)?.value;
+  const saison =
+    SAISONS_APERCU.find((s) => s === saisonRaw) ?? null;
+  return { mois, genre, saison };
 });
+
+// Saison affichée : celle du moment pour les parents ; pour un admin, celle
+// choisie dans le bandeau d'aperçu (sinon celle du moment).
+export async function getCurrentSeason(): Promise<Season> {
+  const apercu = await getApercu();
+  return apercu?.saison ?? getSeason(new Date());
+}
 
 // Date de naissance fictive qui donne exactement `mois` via getBabyMonth :
 // le 1er du mois, `mois` mois avant le mois courant.

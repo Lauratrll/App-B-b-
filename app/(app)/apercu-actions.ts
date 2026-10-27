@@ -6,6 +6,8 @@ import {
   APERCU_GENRE_COOKIE,
   APERCU_MOIS_COOKIE,
   APERCU_MOIS_MAX,
+  APERCU_SAISON_COOKIE,
+  SAISONS_APERCU,
   isCurrentUserAdmin,
 } from "@/lib/auth";
 
@@ -33,6 +35,14 @@ export async function setApercu(formData: FormData) {
     store.set(APERCU_GENRE_COOKIE, genre, COOKIE_OPTIONS);
   } else {
     store.delete(APERCU_GENRE_COOKIE);
+  }
+
+  // Vide = revenir à la saison du moment.
+  const saison = String(formData.get("saison") ?? "");
+  if (SAISONS_APERCU.some((s) => s === saison)) {
+    store.set(APERCU_SAISON_COOKIE, saison, COOKIE_OPTIONS);
+  } else {
+    store.delete(APERCU_SAISON_COOKIE);
   }
 
   revalidatePath("/", "layout");

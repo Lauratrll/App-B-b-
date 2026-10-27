@@ -476,7 +476,7 @@ Navigation fixe (4 entrées, dont 2 boutons ronds — voir ci-dessus)
 
 S.O.S n'est plus une case de l'accueil : son entrée est le bouton rond de la barre du bas.
 
-**Vivre la saison (26/10/2026)** : les parents ne voient que la saison du moment, sans sélecteur. Les admins ont les 4 saisons au choix (boutons en haut de la page). Les visuels de la page restent à travailler.
+**Vivre la saison (26/10, revu le 27/10)** : une seule saison affichée, sans sélecteur sur la page. Parents : la saison du moment. Admins : la saison choisie dans le bandeau « Aperçu admin » (mois · genre · saison). Les visuels de la page restent à travailler.
 
 ---
 

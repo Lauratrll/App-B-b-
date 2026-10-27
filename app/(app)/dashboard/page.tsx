@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { requireProfile } from "@/lib/auth";
-import { getBabyMonth, getSeason } from "@/lib/utils";
+import { getCurrentSeason, requireProfile } from "@/lib/auth";
+import { getBabyMonth } from "@/lib/utils";
 import { AppMenu } from "@/components/ui/app-menu";
 
 // Couleurs conformes au SKILL_ui.md (section "Cases modules — validé").
@@ -28,9 +28,11 @@ const SEASON_LABELS: Record<string, string> = {
 };
 
 export default async function DashboardPage() {
-  const { profile } = await requireProfile();
+  const [{ profile }, season] = await Promise.all([
+    requireProfile(),
+    getCurrentSeason(),
+  ]);
   const babyMonth = getBabyMonth(new Date(profile.birthdate));
-  const season = getSeason(new Date());
 
   // pb-4 : le tiers des boutons ronds de la barre du bas dépasse au-dessus.
   return (

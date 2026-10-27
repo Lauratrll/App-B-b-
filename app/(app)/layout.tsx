@@ -26,9 +26,10 @@ export default async function AppLayout({
           l'accueil, à droite du prénom et de l'âge (app/(app)/dashboard). */}
       {apercu && profile && babyMonth !== null ? (
         <ApercuAdminBar
-          key={`${babyMonth}-${profile.genre}`}
+          key={`${babyMonth}-${profile.genre}-${apercu.saison}`}
           mois={babyMonth}
           genre={profile.genre}
+          saison={apercu.saison}
         />
       ) : null}
 

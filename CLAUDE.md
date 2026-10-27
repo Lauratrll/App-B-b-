@@ -134,7 +134,7 @@ CREATE TABLE admins (
 );
 -- RLS activée SANS policy : gérée uniquement depuis le dashboard Supabase.
 -- Fonction is\_admin() (SECURITY DEFINER) : l'utilisateur connecté est-il admin ?
--- Aperçu stocké en cookies (apercu\_mois, apercu\_genre), appliqué par
+-- Aperçu stocké en cookies (apercu\_mois, apercu\_genre, apercu\_saison), appliqué par
 -- getCurrentProfile() dans lib/auth.ts ; le profil réel = getRealProfile().
 -- Migration : supabase/migrations/0004\_admins\_et\_verrou\_profil.sql
 
