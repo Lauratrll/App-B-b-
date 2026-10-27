@@ -47,11 +47,11 @@
       "idees_du_moment": [
         {
           "titre": "La conversation avec l'oiseau",
-          "texte": "Arrête-toi sous un arbre où un oiseau chante. Siffle ou chantonne la même petite phrase, puis attends : l'oiseau répond, parfois. À son tour, bébé tente peut-être des « tilili », des babils ou juste un grand sourire. Qu'il marche à côté de toi, soit assis en poussette ou porté contre ton épaule, vous pouvez faire la conversation à tour de rôle : toi, lui, l'oiseau."
+          "texte": "Arrête-toi sous un arbre où un oiseau chante. Siffle ou chantonne la même petite phrase, puis attends : l'oiseau répond, parfois. À son tour, bébé tente des « tilili », des babils ou juste un grand sourire. Redis ce que l'oiseau a chanté, avec la même mélodie, un peu plus bas. Vous faites la conversation à tour de rôle : toi, lui, l'oiseau. Tu peux lui répondre en imitant sa petite mélodie."
         },
         {
           "titre": "Le tube à secrets",
-          "texte": "Fenêtre ouverte, prends un long tube de carton et approche-le de ta bouche pour lui chuchoter ce que tu entends dehors : « cui-cui », « vroum », « bzzz ». Puis tends-le-lui, qu'il y glisse ses sons. Debout, à quatre pattes ou dans tes bras, il peut aussi coller son oreille au tube pour écouter le jardin. Les voix prennent un drôle de timbre, et ça le fait souvent rire."
+          "texte": "Fenêtre ouverte, prends un long tube de carton et approche-le de ta bouche pour lui chuchoter ce que tu entends dehors : « cui-cui », « vroum », « bzzz ». Puis tends-le-lui, qu'il y glisse ses sons. Il peut aussi coller son oreille au tube pour écouter le jardin. Les voix prennent un drôle de timbre, et ça le fait souvent rire. Chuchote, puis parle fort, puis tout bas : le tube change chaque fois."
         }
       ]
     },
@@ -64,11 +64,11 @@
       "idees_du_moment": [
         {
           "titre": "L'écho du passage voûté",
-          "texte": "Cherche un endroit où la voix revient : un pont, un passage voûté, un grand mur de pierre au fond du parc. Lance un « ohé » et attends l'écho. Il reste bouche ouverte, écoute, puis tente le sien. Qu'il arrive en marchant, à quatre pattes ou porté contre ton épaule, l'écho est aussi pour lui. À l'ombre de la pierre, vous pouvez jouer longtemps à qui répond."
+          "texte": "Cherche un endroit où la voix revient : un pont, un passage voûté, un grand mur de pierre au fond du parc. Lance un « ohé » et attends l'écho. Il reste bouche ouverte, écoute, puis tente le sien. Change de voix : grave, aiguë, chuchotée, et écoute comment la pierre te les rend. À l'ombre, vous jouez longtemps à qui répond. Tu peux aussi taper dans tes mains et écouter l'écho les rendre."
         },
         {
           "titre": "Les tasses qui chantent",
-          "texte": "Quand l'après-midi s'étire à l'intérieur, aligne trois tasses en métal remplies d'eau à des niveaux différents et fais-les tinter avec une cuillère en bois : ding, dong, dang. Chaque tasse a sa voix. C'est souvent le moment où il répète le son, change de tasse ou te réclame la cuillère. Assis près de toi, debout contre la table basse ou dans tes bras, il dirige l'orchestre à sa manière."
+          "texte": "Quand l'après-midi s'étire à l'intérieur, aligne trois tasses en métal remplies d'eau à des niveaux différents et fais-les tinter avec une cuillère en bois : ding, dong, dang. Chaque tasse a sa voix. C'est souvent le moment où il répète le son, change de tasse ou te réclame la cuillère. Assis tout près de toi, il dirige l'orchestre à sa manière. Frappe une tasse plus fort, puis tout doux, et laisse le son s'éteindre."
         }
       ]
     },
@@ -81,11 +81,11 @@
       "idees_du_moment": [
         {
           "titre": "Le match de l'écureuil, en direct",
-          "texte": "Pendant la balade, dès qu'un écureuil, une pie ou un pigeon s'agite, tu prends ta voix de commentateur sportif, chuchotée : « et le voilà qui grimpe… il hésite… il saute ! » Ta main fait le micro et suit chaque mouvement. Bébé regarde l'animal, puis toi, et répète peut-être un « oh » ou un « hop ». Quand la bête disparaît, tu annonces : « et c'est la mi-temps ! » S'il marche déjà, il trottine jusqu'à l'arbre ; sinon, depuis la poussette ou tes bras, il suit la scène avec toi."
+          "texte": "Pendant la balade, dès qu'un écureuil, une pie ou un pigeon s'agite, tu prends ta voix de commentateur sportif, chuchotée : « et le voilà qui grimpe… il hésite… il saute ! » Ta main fait le micro et suit chaque mouvement. Bébé regarde l'animal, puis toi, et répète parfois un « oh » ou un « hop ». Quand la bête disparaît, tu annonces : « et c'est la mi-temps ! »"
         },
         {
           "titre": "La promenade des bruitages",
-          "texte": "Pars marcher sans te presser et donne un bruit à tout ce que vous rencontrez : crac sous la botte, floc dans la flaque, pfiou dans le vent, toc sur le tronc. Tu le verras reprendre un bruit au vol, ou en inventer un. S'il marche déjà, il tapera du pied pour provoquer le sien ; s'il est en écharpe ou en poussette, il le dira en pointant. À la fin, la promenade devient une chanson."
+          "texte": "Pars marcher sans te presser et donne un bruit à tout ce que vous rencontrez : crac sous la botte, floc dans la flaque, pfiou dans le vent, toc sur le tronc. Tu le verras reprendre un bruit au vol, ou en inventer un. Il tape du pied pour provoquer le sien, ou le dit en pointant du doigt. À la fin, la promenade devient une chanson."
         }
       ]
     },
@@ -97,12 +97,12 @@
       "ambiance": "L'hiver rapproche les voix : chuchotis sous la couette, buée sur les vitres, chansons dans la cuisine. Le Bavard y trouve des oreilles attentives et des mots à partager.",
       "idees_du_moment": [
         {
-          "titre": "Le livre qu'on borde",
-          "texte": "Chaque soir, le même petit livre cartonné, sous la lueur d'une lampe douce. Tu lis lentement, tu pointes, tu fais les bruits. Quand il connaît une phrase, tu t'arrêtes juste avant le dernier mot : il le complète peut-être à sa façon, d'un son ou d'un geste. À la dernière page, vous bordez le livre ensemble : tu le refermes, tu le glisses sous un petit torchon et tu murmures « bonne nuit, le livre ». Un jour, c'est lui qui voudra le border tout seul."
+          "titre": "Comptine sous le plaid éclairé",
+          "texte": "Un soir de grand froid, glissez-vous sous un plaid en laine avec une petite lampe de poche. Fais un cercle de lumière sur le tissu et chuchote une comptine dans son oreille, la tête tout contre la sienne. Arrête-toi juste avant le dernier mot : il le complète d'un son ou d'un geste. Éteins la lampe, la voix reste, puis rallume : le cercle réapparaît, et tu recommences."
         },
         {
           "titre": "L'escargot qui sort du bonnet",
-          "texte": "Ton poing devient un escargot, et un bonnet de laine sa maison. Tu chantes « Petit escargot » en le faisant sortir lentement, cornes en l'air, puis rentrer d'un coup quand la chanson s'arrête. Rejoue-la en laissant un blanc juste avant le geste : il tend peut-être déjà les doigts, ou fredonne le bout du mot. Puis c'est son tour : il glisse sa main dans le bonnet et l'escargot, c'est lui. Sous une couverture, sur le tapis ou dans tes bras, les après-midis trop frisquets pour sortir longtemps deviennent un petit théâtre à gestes."
+          "texte": "Ton poing devient un escargot, et un bonnet de laine sa maison. Tu chantes « Petit escargot » en le faisant sortir lentement, cornes en l'air, puis rentrer d'un coup quand la chanson s'arrête. Rejoue-la en laissant un blanc juste avant le geste : il tend déjà les doigts, ou fredonne le bout du mot. Puis c'est son tour : il glisse sa main dans le bonnet et l'escargot, c'est lui."
         }
       ]
     }
