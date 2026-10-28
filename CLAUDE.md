@@ -205,7 +205,7 @@ function getBabyMonth(birthdate: Date): number {
   const today = new Date()
   const months = (today.getFullYear() - birthdate.getFullYear()) \* 12
     + today.getMonth() - birthdate.getMonth()
-  return Math.max(0, Math.min(24, months))
+  return Math.max(0, Math.min(23, months))  // pas de M24 : au-delà, M23
 }
 
 // Calcul de la saison (hémisphère nord)

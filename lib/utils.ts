@@ -21,7 +21,8 @@ export function getBabyMonth(birthdate: Date): number {
   if (today.getDate() < birthdate.getDate()) {
     months -= 1;
   }
-  return Math.max(0, Math.min(24, months));
+  // Plafond M23 : le contenu s'arrête à M23 (pas de M24), au-delà on garde M23.
+  return Math.max(0, Math.min(23, months));
 }
 
 export function getSeason(date: Date): Season {
