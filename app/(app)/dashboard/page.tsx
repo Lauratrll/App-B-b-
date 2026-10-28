@@ -5,12 +5,12 @@ import { AppMenu } from "@/components/ui/app-menu";
 
 // Couleurs conformes au SKILL_ui.md (section "Cases modules — validé").
 // Ordre de la grille arrêté par Laura le 20/10/2026, ligne par ligne :
-//   Préparer le coucher · Guide-moi !
+//   Sommeil et endormissement · Guide-moi !
 //   Gestes d'apaisement · Prendre soin de moi
 //   Réflexologie plantaire · Vivre la saison
 // S.O.S n'est plus une case : il a son bouton rond dans la barre du bas.
 const MODULES = [
-  { href: "/coucher", title: "Préparer le coucher", subtitle: "Rituel du soir", bg: "#E4EEF0" },
+  { href: "/coucher", title: "Sommeil et endormissement", subtitle: "Rythme et Rituels", bg: "#E4EEF0" },
   { href: "/guide", title: "Guide-moi !", subtitle: "Protocoles", bg: "#EDE0D4" },
   // Boîte à outils, contenu à construire (20/10). Sauge poudrée, entre le bleu
   // du coucher et le rose de « Prendre soin de moi ».

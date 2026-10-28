@@ -12,7 +12,7 @@ import { RemovePinButton } from "@/components/modules/remove-pin-button";
 
 const MODULE_LABELS: Record<PinnableModule, string> = {
   guide: "🧭 Guide-moi !",
-  coucher: "🌙 Préparer le coucher",
+  coucher: "🌙 Sommeil et endormissement",
   reflexo: "💫 Réflexologie",
 };
 

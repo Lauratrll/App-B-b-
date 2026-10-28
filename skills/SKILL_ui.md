@@ -470,7 +470,7 @@ Navigation fixe (4 entrées, dont 2 boutons ronds — voir ci-dessus)
 
 | Gauche | Droite |
 |---|---|
-| Préparer le coucher (nom à changer) | Guide-moi ! |
+| Sommeil et endormissement — *Rythme et Rituels* (nom du 28/10) | Guide-moi ! |
 | Gestes d'apaisement — *Boîte à outils* (`/apaisement`, à construire, fond `#E5EBDD`) | Prendre soin / de moi — *Post-partum* (titre sur deux lignes, 26/10) |
 | Réflexologie plantaire | Vivre la saison |
 

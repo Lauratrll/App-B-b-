@@ -1,0 +1,3 @@
+## 1 · REPÈRES CLÉS
+
+<!-- Slot sans texte : la roue du sommeil du mois (infographie) et ses repères viennent de content/sommeil/reperes_cles.json (M2 à M5). -->

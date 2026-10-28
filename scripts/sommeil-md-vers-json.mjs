@@ -22,7 +22,7 @@
 // dans « Toujours accessible »).
 // ===========================================================================
 
-import { readFileSync, writeFileSync, readdirSync } from "node:fs";
+import { readFileSync, writeFileSync, readdirSync, statSync } from "node:fs";
 import { join } from "node:path";
 
 const DIR = join(process.cwd(), "content", "sommeil");
@@ -192,9 +192,39 @@ for (const t of tranches) {
   const fin = Number(t[3]);
   const md = readFileSync(join(DIR, t[0]), "utf-8");
   const { mois, ...reste } = convertir(md, debut);
+  // « Sommeil de 9 à 11 mois » garde l'id « comprendre-son-sommeil » (thème et onglet).
+  // Seulement pour l'ancienne structure en deux parties (« Sommeil de X à Y mois ») :
+  // une tranche réécrite en slots garde l'id calculé depuis chaque titre de slot.
+  if (reste.parties[0] && /^Sommeil de /.test(reste.parties[0].titre)) reste.parties[0].id = "comprendre-son-sommeil";
   const sortie = { tranche: { debut, fin }, ...reste };
   writeFileSync(join(DIR, `${t[1]}.json`), JSON.stringify(sortie, null, 2) + "\n", "utf-8");
 }
 if (tranches.length > 0) {
   console.log(`Sommeil : ${tranches.length} tranches converties (${tranches.map((t) => `M${t[2]}-M${t[3]}`).join(", ")}).`);
+}
+
+// Tranche en dossier (28/10) : content/sommeil/T{n}_M{a}-M{b}/ = 00_entete.md + un fichier par slot
+// (01_…, 02_…). Les fichiers sont assemblés dans l'ordre, écrits dans _tranche_complete.md (relecture),
+// puis convertis en T{n}_M{a}-M{b}_sommeil.json.
+const DOSSIER_RE = /^(T\d+_M(\d+)-M(\d+))$/;
+const dossiers = readdirSync(DIR)
+  .map((f) => f.match(DOSSIER_RE))
+  .filter((m) => m && statSync(join(DIR, m[0])).isDirectory())
+  .sort((a, b) => Number(a[2]) - Number(b[2]));
+for (const t of dossiers) {
+  const dossier = join(DIR, t[0]);
+  const morceaux = readdirSync(dossier)
+    .filter((f) => /^\d\d_.+\.md$/.test(f))
+    .sort()
+    .map((f) => readFileSync(join(dossier, f), "utf-8").trim());
+  const md = morceaux.join("\n\n---\n\n") + "\n";
+  writeFileSync(join(dossier, "_tranche_complete.md"), md, "utf-8");
+  const debut = Number(t[2]);
+  const fin = Number(t[3]);
+  const { mois, ...reste } = convertir(md, debut);
+  const sortie = { tranche: { debut, fin }, ...reste };
+  writeFileSync(join(DIR, `${t[1]}_sommeil.json`), JSON.stringify(sortie, null, 2) + "\n", "utf-8");
+}
+if (dossiers.length > 0) {
+  console.log(`Sommeil : ${dossiers.length} tranche(s) en dossier (${dossiers.map((t) => t[0]).join(", ")}).`);
 }

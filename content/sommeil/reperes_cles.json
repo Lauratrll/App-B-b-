@@ -1,0 +1,35 @@
+{
+  "_note": "Données de la roue du sommeil du mois (M2 à M5). Valeurs validées sauf mention. À brancher par Code (infographie). Durées d'éveil : moyennes observées, échelle de Laura (naissance 10 min, M0 10-30 min, M1 ~1 h, M2 ~1 h 30, M3 1 h 30-2 h) ; M4 et M5 proposées, à confirmer avec le document d'Élodie.",
+  "2": {
+    "sommeil_24h": "14 à 17 h",
+    "siestes": "environ 5",
+    "cycle": "environ 45 minutes",
+    "coucher": "20 h – 21 h",
+    "nuits": "pas de repère chiffré",
+    "duree_eveil_moyenne": "environ 1 h 30"
+  },
+  "3": {
+    "sommeil_24h": "14 à 17 h",
+    "siestes": "3 à 4",
+    "cycle": "environ 1 heure",
+    "nuits": "environ 5 h d'affilée",
+    "coucher": "19 h – 20 h 30",
+    "duree_eveil_moyenne": "1 h 30 à 2 h"
+  },
+  "4": {
+    "sommeil_24h": "12 à 15 h",
+    "siestes": "plutôt 3",
+    "cycle": "cycles distincts",
+    "nuits": "pas de repère chiffré",
+    "coucher": "18 h – 20 h",
+    "duree_eveil_moyenne": "environ 2 h (à confirmer)"
+  },
+  "5": {
+    "sommeil_24h": "12 à 15 h",
+    "siestes": "plutôt 3",
+    "cycle": "environ 1 heure",
+    "nuits": "pas de repère chiffré",
+    "coucher": "18 h – 20 h",
+    "duree_eveil_moyenne": "2 h à 2 h 30 (à confirmer)"
+  }
+}

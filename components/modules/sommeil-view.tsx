@@ -34,17 +34,34 @@ import {
 const BOITE = "la-boite-a-outils";
 const TOUJOURS = "toujours-accessible";
 
-// Couleurs des volets par onglet.
-const THEME_PARTIE: Record<string, { bg: string; accent: string; label: string }> = {
+export type ThemeVolet = { bg: string; accent: string; label: string };
+
+// Couleurs des volets par partie (onglet ou slot).
+// Slots (pilote M2-M5, 28/10) : une couleur par groupe de deux slots, la même
+// que la carte de la grille (sommeil-slots.tsx).
+const BLEU_PLUIE: ThemeVolet = { bg: "#E8F0F2", accent: "#8FB4BC", label: "#3A5A64" };
+const SAUGE: ThemeVolet = { bg: "#E5EBDD", accent: "#82A56A", label: "#3F5C2E" };
+export const THEME_PARTIE: Record<string, ThemeVolet> = {
   "comprendre-son-sommeil": C.cequisepasse,
   "son-rythme": C.reperes,
 };
-const THEME_DEFAUT = C.cequisepasse;
+// Slots : la tranche en slots a aussi « comprendre-son-sommeil », mais en bleu.
+export const THEME_SLOT: Record<string, ThemeVolet> = {
+  "reperes-cles": BLEU_PLUIE,
+  "comprendre-son-sommeil": BLEU_PLUIE,
+  "journee-et-siestes": C.reperes,
+  "fin-de-journee": C.reperes,
+  endormissement: C.cequisepasse,
+  "reveils-nocturnes": C.cequisepasse,
+  "mon-rituel": SAUGE,
+  "theme-du-mois": SAUGE,
+};
+export const THEME_DEFAUT = C.cequisepasse;
 const SECURITE = { bg: "#EDE9E4", accent: "#D4604A", label: "#8A3020" };
 const REVEILS = { bg: "#E4DDD6", accent: "#B4A89C", label: "#5A4A40" };
 
 // Gras **…** et italique *…* (italique réservé aux titres d'études).
-function Inline({ texte }: { texte: string }) {
+export function Inline({ texte }: { texte: string }) {
   const morceaux = texte.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g);
   return (
     <>
@@ -233,7 +250,7 @@ function Selecteur({
   );
 }
 
-function Volet({
+export function Volet({
   volet,
   p,
   theme,
@@ -332,7 +349,7 @@ function Volet({
   );
 }
 
-function Sources({ texte, p }: { texte: string; p: (t?: string) => string }) {
+export function Sources({ texte, p }: { texte: string; p: (t?: string) => string }) {
   const [open, setOpen] = useState(false);
   return (
     <div style={{ margin: "4px 0 10px" }}>
@@ -364,7 +381,7 @@ function Sources({ texte, p }: { texte: string; p: (t?: string) => string }) {
   );
 }
 
-function TitreSection({ titre, color }: { titre: string; color: string }) {
+export function TitreSection({ titre, color }: { titre: string; color: string }) {
   return (
     <div style={{ ...labelStyle, color, margin: "14px 0 7px" }}>{titre}</div>
   );
@@ -592,8 +609,18 @@ export function SommeilView({
             margin: "8px 0 6px",
           }}
         >
-          Sommeil
+          Sommeil et endormissement
         </h1>
+        <div
+          style={{
+            ...labelStyle,
+            color: "#8A9E98",
+            letterSpacing: ".15em",
+            marginBottom: sommeil.exergue ? 8 : 0,
+          }}
+        >
+          Rythme et Rituels
+        </div>
         {sommeil.exergue ? (
           <p
             style={{

@@ -14,6 +14,7 @@ import t4 from "@/content/sommeil/T4_M9-M11_sommeil.json";
 import t5 from "@/content/sommeil/T5_M12-M14_sommeil.json";
 import t6 from "@/content/sommeil/T6_M15-M17_sommeil.json";
 import t7 from "@/content/sommeil/T7_M18-M23_sommeil.json";
+import reperesCles from "@/content/sommeil/reperes_cles.json";
 
 export type SommeilBloc =
   | { type: "p"; texte: string }
@@ -37,10 +38,27 @@ export type SommeilPartie = {
   sources: string | null;
 };
 
+/** Repères chiffrés de la roue du mois (content/sommeil/reperes_cles.json). */
+export type SommeilReperes = {
+  sommeil_24h?: string;
+  siestes?: string;
+  duree_eveil_moyenne?: string;
+  cycle?: string;
+  nuits?: string;
+  coucher?: string;
+};
+
 export type SommeilMois = {
   mois: number;
   exergue: string | null;
   parties: SommeilPartie[];
+  /** Tranche d'âge du contenu (ex. 2 à 5). */
+  tranche?: { debut: number; fin: number };
+  /** « slots » : première page en grille de cartes (pilote M2-M5, 28/10).
+   *  « onglets » : affichage d'origine (onglets en haut). */
+  forme?: "slots" | "onglets";
+  /** Repères de la roue du mois (forme « slots » seulement). */
+  reperes?: SommeilReperes | null;
 };
 
 type SommeilTranche = {
@@ -69,6 +87,8 @@ function moisEmprunt(mois: number): string {
 
 function emprunter(mois: number, parties: SommeilPartie[]): SommeilPartie[] {
   if (!EMPRUNT_ACTIF) return parties;
+  // Tranche en slots (M2-M5) : plus d'emprunt (28/10).
+  if (estEnSlots(parties)) return parties;
   const source = ANCIEN[moisEmprunt(mois)];
   if (!source) return parties;
   const ajouts = PARTIES_EMPRUNTEES.filter(
@@ -80,10 +100,66 @@ function emprunter(mois: number, parties: SommeilPartie[]): SommeilPartie[] {
 }
 // ─── fin de l'emprunt temporaire ──────────────────────────────────────────
 
+// ─── Tranche en slots (pilote M2-M5, 28/10) ───────────────────────────────
+// Une tranche est « en slots » quand son premier slot est « Repères clés ».
+// Les textes qui changent d'un mois à l'autre ne montrent que le mois affiché :
+// - « Comprendre son sommeil » > « Ce qu'il se passe » : un volet par mois ;
+// - « Thème du mois » : une section par mois, titre du slot « Thème du mois 3 ».
+function estEnSlots(parties: SommeilPartie[]): boolean {
+  return parties[0]?.id === "reperes-cles";
+}
+
+const REPERES = reperesCles as unknown as Record<string, SommeilReperes | string>;
+
+function duMois(titre: string | null, mois: number): boolean {
+  return new RegExp(`^M${mois}(?![0-9])`).test((titre ?? "").trim());
+}
+
+function filtrerMois(parties: SommeilPartie[], mois: number): SommeilPartie[] {
+  return parties.map((pt) => {
+    if (pt.id === "comprendre-son-sommeil") {
+      return {
+        ...pt,
+        sections: pt.sections.map((s) =>
+          s.id === "ce-qu-il-se-passe"
+            ? { ...s, volets: s.volets.filter((v) => duMois(v.titre, mois)) }
+            : s,
+        ),
+      };
+    }
+    if (pt.id === "theme-du-mois") {
+      return {
+        ...pt,
+        titre: `Thème du mois ${mois}`,
+        sections: pt.sections.filter((s) => duMois(s.titre, mois)),
+      };
+    }
+    return pt;
+  });
+}
+// ─── fin tranche en slots ─────────────────────────────────────────────────
+
 export function getSommeil(mois: number): SommeilMois | null {
   const t = TRANCHES.find(
     (x) => mois >= x.tranche.debut && mois <= x.tranche.fin,
   );
   if (!t) return null;
-  return { mois, exergue: t.exergue, parties: emprunter(mois, t.parties) };
+  if (estEnSlots(t.parties)) {
+    const r = REPERES[String(mois)];
+    return {
+      mois,
+      exergue: t.exergue,
+      parties: filtrerMois(t.parties, mois),
+      tranche: t.tranche,
+      forme: "slots",
+      reperes: r && typeof r === "object" ? r : null,
+    };
+  }
+  return {
+    mois,
+    exergue: t.exergue,
+    parties: emprunter(mois, t.parties),
+    tranche: t.tranche,
+    forme: "onglets",
+  };
 }
