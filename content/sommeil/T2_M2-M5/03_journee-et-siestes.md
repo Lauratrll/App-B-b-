@@ -30,7 +30,7 @@ C'est le moment de lui proposer de dormir, avant les pleurs. **Regarde ton béb�
 
 #### Combien de siestes ?
 À cet âge, les siestes ne suivent pas encore d'horaire :
-- **à 2 mois, environ cinq** ;
+- **à 2 mois, quatre à cinq** ;
 - **à 3 mois, trois à quatre** ;
 - **de 4 à 5 mois, plutôt trois**.
 

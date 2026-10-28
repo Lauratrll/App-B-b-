@@ -8,18 +8,15 @@ S'endormir, c'est descendre les marches une à une. Entre deux cycles, tout le m
 
 ---
 
-## 1 · COMPRENDRE SON SOMMEIL
+## 1 · SOMMEIL DE 9 À 11 MOIS
 
 ### Son sommeil aujourd'hui
 
 #### Un sommeil qui ressemble au tien
-À 9 mois, **son sommeil ressemble déjà beaucoup au tien**. Il entre dans la nuit par le sommeil calme, passe par le sommeil léger, puis descend en début de nuit jusqu'au sommeil profond, celui qui répare surtout le corps : c'est en y entrant que **l'hormone de croissance est libérée**¹. Le sommeil paradoxal, celui qui répare surtout le cerveau, arrive à présent plutôt en fin de nuit. À la naissance, le sommeil agité occupait 50 à 60 % de son sommeil ; le sommeil paradoxal qu'il est devenu n'en occupe plus qu'environ 20 %.
+Entre 9 et 11 mois, **son sommeil ressemble déjà beaucoup au tien**. Il entre dans la nuit par le sommeil calme, passe par le sommeil léger, puis descend en début de nuit jusqu'au sommeil profond, celui qui répare surtout le corps : c'est en y entrant que **l'hormone de croissance est libérée**¹. Le sommeil paradoxal, celui qui répare surtout le cerveau, arrive à présent plutôt en fin de nuit. À la naissance, le sommeil agité occupait 50 à 60 % de son sommeil ; le sommeil paradoxal qu'il est devenu n'en occupe plus qu'environ 20 %. Ses cycles restent plus courts que les tiens : ils s'allongeront peu à peu jusque vers 3 ou 4 ans.
 
 #### Son horloge est réglée
 Son corps a bien fait le lien : la lumière signale le jour et la période d'éveil ; la pénombre indique la nuit et appelle le sommeil. **Son rythme circadien est installé.** Ses deux horloges hormonales sont en place : la mélatonine monte le soir et agit enfin vraiment sur son rythme ; le cortisol, qui donne l'élan du matin, est haut le matin puis redescend dès la fin d'après-midi, pour laisser la place à la mélatonine. Ce rythme s'installe vraiment entre 6 et 9 mois². Ces hormones donnent l'heure ; **mais l'endormissement et le sommeil restent le travail du cerveau.** Horloge installée ne veut pas dire horaires fixes : **les horaires restent souples.**
-
-#### Ce qui n'est pas encore là
-Son sommeil n'a pas encore toute l'organisation du tien : elle s'achève entre 12 et 18 mois. Et ses cycles restent plus courts : ils s'allongeront peu à peu jusque vers 3 ou 4 ans.
 
 ### Ce qui bouge en ce moment
 

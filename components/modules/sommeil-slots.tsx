@@ -139,7 +139,7 @@ const LIBELLES_REPERES: [keyof SommeilReperes, string][] = [
   ["siestes", "Siestes"],
   ["duree_eveil_moyenne", "Durée d'éveil moyenne"],
   ["cycle", "Cycle de sommeil"],
-  ["nuits", "Nuits d'affilée"],
+  ["nuits", "Enchaînement de nuit"],
   ["coucher", "Coucher"],
 ];
 
@@ -204,7 +204,7 @@ function Slot({
       <NavBack href="/coucher" label="Sommeil" />
       <Entete
         titre={partie.titre}
-        petit={age(sommeil)}
+        petit={partie.id === "reperes-cles" ? undefined : age(sommeil)}
         sousTitre={estTheme ? SOUS_TITRE_THEME : undefined}
       />
 

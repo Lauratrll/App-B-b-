@@ -8,7 +8,7 @@ S'endormir, c'est descendre les marches une à une. Entre deux cycles, tout le m
 
 ---
 
-## 1 · COMPRENDRE SON SOMMEIL
+## 1 · SOMMEIL DE 0 À 1 MOIS
 
 ### Son sommeil aujourd'hui
 
@@ -45,12 +45,11 @@ Puis vient le sommeil calme : immobile, la respiration régulière. À cet âge
 #### Il dort par petits morceaux
 Sur 24 heures, ton bébé dort beaucoup, mais **par petits morceaux, de jour comme de nuit**, au rythme de ses besoins : manger, dormir, regarder, recommencer. Pas de sieste à compter, pas de nuit à réussir : à cet âge, tout cela n'existe pas encore.
 
-#### Ce qui n'est pas encore là
-**Il n'a pas encore d'horloge.** Sa mélatonine, l'hormone qui donne l'heure au corps, vient de toi : elle passe par le placenta avant la naissance, puis par le lait maternel s'il est allaité, plus riche la nuit que le jour⁴. La sienne ne se mettra à fonctionner que vers 3 mois⁴. Il ne fait donc pas encore la différence entre le jour et la nuit : ce n'est ni un caprice ni un défaut, son corps n'est pas encore équipé pour.
-
 ### Ce qui bouge en ce moment
 
 #### Un rythme jour et nuit qui s'ébauche
+**Il n'a pas encore d'horloge.** Sa mélatonine, l'hormone qui donne l'heure au corps, vient de toi : elle passe par le placenta avant la naissance, puis par le lait maternel s'il est allaité, plus riche la nuit que le jour. La sienne ne se mettra à fonctionner que vers 3 mois⁴. Il ne fait donc pas encore la différence entre le jour et la nuit : ce n'est ni un caprice ni un défaut, son corps n'est pas encore équipé pour.
+
 Vers la fin du premier mois, **les choses commencent à bouger** : ses éveils de jour s'allongent, il est plus souvent calme et attentif, et chez certains bébés, une période de sommeil un peu plus longue apparaît, souvent la nuit. Ce n'est qu'une ébauche, elle va et vient d'un jour à l'autre.
 
 ### Ce que ça va donner à la maison

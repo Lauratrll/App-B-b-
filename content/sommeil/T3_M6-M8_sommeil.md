@@ -8,21 +8,18 @@ S'endormir, c'est descendre les marches une à une. Entre deux cycles, tout le m
 
 ---
 
-## 1 · COMPRENDRE SON SOMMEIL
+## 1 · SOMMEIL DE 6 À 8 MOIS
 
 ### Son sommeil aujourd'hui
 
 #### Les marches s'inversent
-Jusqu'ici, il entrait dans le sommeil par la marche du haut, le sommeil agité. **Vers 6 mois, l'ordre s'inverse** : il s'endort à présent surtout par le sommeil calme, comme toi¹. Quelques endormissements par le sommeil agité peuvent encore arriver jusqu'à 12 mois, mais ils deviennent rares. Et son sommeil agité, lui, **est devenu un sommeil paradoxal**, celui où le cerveau travaille et où le corps reste tranquille : **tu n'as plus à le distinguer d'un éveil agité**, ses grimaces et ses sursauts se font de plus en plus discrets.
+Jusqu'ici, il entrait dans le sommeil par la marche du haut, le sommeil agité. **Vers 6 mois, l'ordre s'inverse** : il s'endort à présent surtout par le sommeil calme, comme toi¹. Quelques endormissements par le sommeil agité peuvent encore arriver jusqu'à 12 mois, mais ils deviennent rares. Et son sommeil agité, lui, **est devenu un sommeil paradoxal**, celui où le cerveau travaille et où le corps reste tranquille : **tu n'as plus à le distinguer d'un éveil agité**, ses grimaces et ses sursauts se font de plus en plus discrets. Ses cycles sont plus courts que les tiens, et l'organisation de son sommeil ne s'achève qu'entre 12 et 18 mois.
 
 #### Un sommeil qui se range
 Son sommeil calme s'est divisé en **sommeil léger** puis **sommeil profond**, et ce sommeil profond, celui qui répare surtout le corps, **se place maintenant en début de nuit** : c'est en y entrant que l'hormone de croissance est libérée². Le sommeil paradoxal, celui qui répare surtout le cerveau, arrive plutôt en fin de nuit. **Un cycle complet dure environ une heure**, et s'allonge peu à peu vers 70 minutes dans la deuxième moitié de la première année.
 
 #### Son horloge se règle
 Son corps a bien fait le lien : la lumière signale le jour et la période d'éveil ; la pénombre indique la nuit et appelle le sommeil. Entre 6 et 9 mois, **un deuxième repère s'installe : le rythme du cortisol**, l'hormone du réveil, qui monte le matin et redescend au fil de la journée³. Côté mélatonine, celle qu'il fabrique lui-même se renforce, mais elle ne pèsera vraiment sur ses nuits que vers 9 mois. Ces hormones donnent l'heure ; **l'endormissement et le sommeil restent le travail du cerveau.**
-
-#### Ce qui n'est pas encore là
-Son sommeil n'a pas encore toute l'organisation du tien : elle s'achève entre 12 et 18 mois. Ses cycles sont plus courts que les tiens. Et ses nuits ne sont pas encore d'une traite : **il reste des réveils à accompagner**.
 
 ### Ce qui bouge en ce moment
 

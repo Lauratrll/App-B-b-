@@ -8,18 +8,15 @@ S'endormir, c'est descendre les marches une à une. Entre deux cycles, tout le m
 
 ---
 
-## 1 · COMPRENDRE SON SOMMEIL
+## 1 · SOMMEIL DE 18 À 23 MOIS
 
 ### Son sommeil aujourd'hui
 
 #### Un sommeil d'adulte, en plus profond
-Dès 18 mois, **son sommeil a pris l'organisation de celui d'un adulte** : ce passage se fait entre 12 et 18 mois¹. Il s'endort par le sommeil léger et plonge vite dans **un sommeil profond, plus profond encore que le tien**, qui domine le début de nuit : c'est là que son corps se répare. Le sommeil paradoxal, celui qui répare surtout le cerveau, revient par vagues de plus en plus longues vers le matin.
+Dès 18 mois, **son sommeil a pris l'organisation de celui d'un adulte** : ce passage se fait entre 12 et 18 mois¹. Il s'endort par le sommeil léger et plonge vite dans **un sommeil profond, plus profond encore que le tien**, qui domine le début de nuit : c'est là que son corps se répare. Le sommeil paradoxal, celui qui répare surtout le cerveau, revient par vagues de plus en plus longues vers le matin. Ses cycles ne sont pas encore aussi longs que les tiens : ils le seront vers 3 ou 4 ans².
 
 #### Ses réveils et sa sieste
 Entre deux cycles, il remonte près de la surface plusieurs fois par nuit, comme toi, **le plus souvent sans que tu le saches.** La plupart des enfants de cet âge ne font plus qu'une sieste, et **elle leur restera utile bien après 2 ans.**
-
-#### Ce qui n'est pas encore là
-Ses cycles ne sont pas encore aussi longs que les tiens : ils le seront vers 3 ou 4 ans². Son horloge, elle, est installée depuis ses 9 mois : elle s'ancre un peu plus chaque mois.
 
 ### Ce qui bouge en ce moment
 

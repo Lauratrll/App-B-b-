@@ -8,18 +8,15 @@ S'endormir, c'est descendre les marches une à une. Entre deux cycles, tout le m
 
 ---
 
-## 1 · COMPRENDRE SON SOMMEIL
+## 1 · SOMMEIL DE 12 À 14 MOIS
 
 ### Son sommeil aujourd'hui
 
 #### Un sommeil qui se rapproche du tien
-À 12 mois, **un cycle de sommeil dure environ 70 minutes**¹, et son sommeil paradoxal, celui qui répare surtout le cerveau, a pris sa place d'adulte : environ 20 à 25 % de son sommeil². Son sommeil est **en route vers l'organisation du tien, qui s'achève entre 12 et 18 mois**. Il s'endort par le sommeil léger, descend vite dans un sommeil profond en début de nuit, et le sommeil paradoxal revient par vagues vers le matin.
+Entre 12 et 14 mois, **un cycle de sommeil dure environ 70 minutes**¹, et son sommeil paradoxal, celui qui répare surtout le cerveau, a pris sa place d'adulte : environ 20 à 25 % de son sommeil². Son sommeil est **en route vers l'organisation du tien, qui s'achève entre 12 et 18 mois**. Il s'endort par le sommeil léger, descend vite dans un sommeil profond en début de nuit, et le sommeil paradoxal revient par vagues vers le matin. Ses cycles sont encore plus courts que les tiens : ils s'allongeront jusque vers 3 ou 4 ans.
 
 #### Son horloge est installée
 Son rythme circadien est en place depuis ses 9 mois : la lumière signale le jour et la période d'éveil, la pénombre indique la nuit et appelle le sommeil. Elle s'ancre un peu plus chaque mois. Ces hormones donnent l'heure ; **l'endormissement et le sommeil restent le travail du cerveau.**
-
-#### Ce qui n'est pas encore là
-Ses cycles sont encore plus courts que les tiens : ils s'allongeront jusque vers 3 ou 4 ans. Et il remonte près de la surface entre chaque cycle, plusieurs fois par nuit, comme toi, **le plus souvent sans que tu le saches.**
 
 ### Ce qui bouge en ce moment
 
