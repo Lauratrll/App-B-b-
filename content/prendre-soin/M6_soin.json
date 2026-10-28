@@ -4,7 +4,7 @@
   "rubrique": "prendre_soin_de_moi",
   "titre_rubrique": "Prendre soin de moi",
   "sous_titre": "Mois 6 · Tu es au creux, et c'est documenté",
-  "description": "À 6 mois, beaucoup de parents traversent ce qu'on pourrait appeler « le creux » : la nouveauté du début est passée, l'entourage est moins présent, bébé n'est pas encore autonome, et la perspective d'un futur plus léger reste floue. C'est aussi un moment statistique de bascule possible vers une dépression post-partum tardive, souvent invisible parce qu'on ne s'y attend plus à 6 mois. 6 propositions concrètes pour te soutenir maintenant.",
+  "description": "À 6 mois, beaucoup de parents traversent ce qu'on pourrait appeler « le creux » : la nouveauté du début est passée, l'entourage est moins présent, bébé n'est pas encore autonome, et la perspective d'un futur plus léger reste floue. C'est aussi un moment où une dépression post-partum tardive peut s'installer, souvent invisible parce qu'on ne s'y attend plus à 6 mois. 6 propositions concrètes pour te soutenir maintenant.",
   "conseils": [
     {
       "id": "auto_massage_reflexologie",
@@ -87,7 +87,7 @@
       "icone": "💬",
       "nom_outil": "La réalité du post-partum",
       "promesse": "Le creux des 6 mois, et le risque de bascule",
-      "intro": "À 6 mois, le post-partum n'est officiellement plus reconnu socialement : l'entourage considère que « ça doit aller maintenant ». Pourtant, c'est statistiquement l'un des moments les plus vulnérables : pic de fatigue cumulative, perte du soutien initial, anticipation du retour pro pour beaucoup, et bascule possible vers la dépression post-partum tardive, qui peut survenir jusqu'à 12 mois après la naissance.",
+      "intro": "À 6 mois, le post-partum n'est officiellement plus reconnu socialement : l'entourage considère que « ça doit aller maintenant ». Pourtant, c'est un moment vulnérable : fatigue cumulative, perte du soutien initial, anticipation du retour pro pour beaucoup, et risque de dépression post-partum tardive. La dépression peut survenir tout au long de la première année, avec un second pic de fréquence entre 6 et 9 mois.¹",
       "pour_la_maman": {
         "titre": "Côté maman",
         "contenu": "Cycle menstruel qui peut revenir (selon allaitement), avec syndrome prémenstruel parfois amplifié post-partum\n\nFatigue cumulative qui dure : différente de l'épuisement aigu des premières semaines\n\nAnxiété de fond souvent installée (vigilance permanente sur bébé, charge mentale)\n\nSensation de perte d'identité, de « ne plus se reconnaître » dans le miroir\n\nLibido souvent toujours basse : c'est physiologique et hormonal, pas un échec\n\nCharge mentale documentée comme à son pic dans les couples hétérosexuels : la mère pense 2,5x plus aux tâches de l'enfant que le père en moyenne (étude INED 2019)"
@@ -115,7 +115,8 @@
         "Aide à domicile de la CAF : une intervention à la maison existe pour les familles en difficulté passagère, elle se demande à ta caisse",
         "Cercles de parole en PMI ou en associations locales (La Maison Bleue, La Maison des 1000 jours selon territoires)",
         "Médiation familiale gratuite via la CAF si tensions dans le couple"
-      ]
+      ],
+      "source": "Source : ¹ la dépression post-partum tout au long de la première année, avec un pic de fréquence entre 2 et 4 mois puis un autre 6 à 9 mois après l'accouchement, Psycom (organisme public d'information sur la santé mentale), « Santé mentale, grossesse et parentalité », collection « Santé mentale et… », brochure SM6, mars 2025, page 7."
     },
     {
       "id": "challenge_couple",

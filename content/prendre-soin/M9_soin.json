@@ -4,7 +4,7 @@
   "rubrique": "prendre_soin_de_moi",
   "titre_rubrique": "Prendre soin de moi",
   "sous_titre": "Mois 9 · Le retour, la séparation, et toi qui restes",
-  "description": "À 9 mois, beaucoup de parents traversent une bascule particulière : le retour au travail est souvent passé (ou imminent), bébé connaît un pic d'angoisse de séparation qui culpabilise les départs, et la fatigue cumulative atteint un palier rarement reconnu. La dépression post-partum tardive peut encore survenir jusqu'à 12 mois. 6 propositions concrètes pour te soutenir maintenant, alors que le monde considère que « tout va bien puisque bébé tient assis ».",
+  "description": "À 9 mois, beaucoup de parents traversent une bascule particulière : le retour au travail est souvent passé (ou imminent), bébé connaît un pic d'angoisse de séparation qui culpabilise les départs, et la fatigue cumulative est rarement reconnue. La dépression post-partum peut survenir tout au long de la première année. 6 propositions concrètes pour te soutenir maintenant, alors que le monde considère que « tout va bien puisque bébé tient assis ».",
   "conseils": [
     {
       "id": "auto_massage_reflexologie",
@@ -83,10 +83,10 @@
       "icone": "💬",
       "nom_outil": "La réalité du post-partum",
       "promesse": "Le retour pro, et la fatigue cumulative à son pic",
-      "intro": "À 9 mois, le post-partum est officiellement disqualifié socialement : l'entourage considère que tu n'es « plus en post-partum ». Pourtant, la médecine reconnaît une période post-partum jusqu'à 12 mois minimum, et la dépression post-partum tardive peut encore survenir. Beaucoup de parents traversent à ce moment une fatigue cumulative au pic, parfois aggravée par le retour au travail récent.",
+      "intro": "À 9 mois, le post-partum est officiellement disqualifié socialement : l'entourage considère que tu n'es « plus en post-partum ». Pourtant, la dépression post-partum peut survenir tout au long de la première année, avec un pic de fréquence entre 6 et 9 mois.¹ Beaucoup de parents traversent à ce moment une fatigue cumulative, parfois aggravée par le retour au travail récent.",
       "pour_la_maman": {
         "titre": "Côté maman",
-        "contenu": "Cycle menstruel souvent revenu, avec parfois un syndrome prémenstruel intense, et un risque accru d'anémie (réserves épuisées par grossesse + allaitement + règles)\n\nFatigue cumulative au plus haut : différente de l'épuisement aigu : c'est une fatigue qui s'imprime dans le corps et le cerveau\n\nRetour au travail souvent passé, avec parfois un sentiment d'incompétence dans les deux rôles (ni assez parent, ni assez pro)\n\nCharge mentale toujours au plus haut : anticipation crèche/nounou, repas, vêtements de saison, vaccins, rendez-vous médicaux\n\nLibido souvent encore basse, parfois revenue partiellement, variable et physiologique\n\nChute de cheveux post-partum encore possible jusqu'à 12 mois, sans être forcément un signe de carence systématique mais à explorer (ferritine, vitamine D)\n\nSentiment d'avoir « perdu » la première année dans une brume, fréquent et normalisé"
+        "contenu": "Cycle menstruel souvent revenu, avec parfois un syndrome prémenstruel intense, et un risque accru d'anémie (réserves épuisées par grossesse + allaitement + règles)\n\nFatigue cumulative qui dure : différente de l'épuisement aigu : c'est une fatigue qui s'imprime dans le corps et le cerveau\n\nRetour au travail souvent passé, avec parfois un sentiment d'incompétence dans les deux rôles (ni assez parent, ni assez pro)\n\nCharge mentale toujours au plus haut : anticipation crèche/nounou, repas, vêtements de saison, vaccins, rendez-vous médicaux\n\nLibido souvent encore basse, parfois revenue partiellement, variable et physiologique\n\nChute de cheveux post-partum encore possible jusqu'à 12 mois, sans être forcément un signe de carence systématique mais à explorer (ferritine, vitamine D)\n\nSentiment d'avoir « perdu » la première année dans une brume, fréquent et normalisé"
       },
       "pour_le_papa_co_parent": {
         "titre": "Côté co-parent",
@@ -112,7 +112,8 @@
         "Médiation familiale gratuite via la CAF si tensions de couple aggravées par la reprise pro",
         "Cercles de parole en PMI ou associations locales (La Maison Bleue, La Maison des 1000 jours selon territoires)",
         "Coaching parental ou consultation co-parentale spécialisée si la charge mentale est devenue invivable"
-      ]
+      ],
+      "source": "Source : ¹ la dépression post-partum tout au long de la première année, avec un pic de fréquence entre 2 et 4 mois puis un autre 6 à 9 mois après l'accouchement, Psycom (organisme public d'information sur la santé mentale), « Santé mentale, grossesse et parentalité », collection « Santé mentale et… », brochure SM6, mars 2025, page 7."
     },
     {
       "id": "challenge_couple",

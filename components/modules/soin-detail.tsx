@@ -1002,6 +1002,15 @@ export function SoinDetail({ conseil, prenom = "" }: { conseil: ConseilSoin; pre
       {numero === 3 ? <B3 c={c} /> : null}
       {numero === 4 ? <B4 c={c} /> : null}
       {numero === 5 ? <B5 c={c} prenom={prenom} /> : null}
+
+      {/* Source : ligne discrète, optionnelle (même style que Guide-moi !) */}
+      {str(c.source) ? (
+        <div style={{ marginTop: 18, paddingTop: 8, borderTop: "0.5px solid #E4DDD6" }}>
+          <div style={{ fontSize: 9, fontStyle: "italic", color: "#8A9E98", lineHeight: 1.4 }}>
+            {str(c.source)}
+          </div>
+        </div>
+      ) : null}
     </div>
   );
 }

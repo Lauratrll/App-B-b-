@@ -1,4 +1,4 @@
-import { isCurrentUserAdmin, requireProfile } from "@/lib/auth";
+import { requireProfile } from "@/lib/auth";
 import { getBabyMonth } from "@/lib/utils";
 import { getCoucher } from "@/lib/content";
 import { getSommeil } from "@/lib/sommeil";
@@ -10,10 +10,10 @@ export default async function CoucherPage() {
   const mois = getBabyMonth(new Date(profile.birthdate));
   const result = await getCoucher(mois);
 
-  // Nouvelle structure Sommeil (tranches M0 à M23) : réservée aux
-  // admins tant que Laura ne l'a pas validée à l'écran.
+  // Nouvelle structure Sommeil (tranches M0 à M23) : ouverte à tous les
+  // parents depuis le 28/10 (avant : admins seulement).
   const sommeil = getSommeil(mois);
-  if (sommeil && (await isCurrentUserAdmin())) {
+  if (sommeil) {
     return (
       <section>
         <SommeilView

@@ -4,7 +4,7 @@
   "rubrique": "prendre_soin_de_moi",
   "titre_rubrique": "Prendre soin de moi",
   "sous_titre": "Mois 3 · Le post-partum n'est pas fini, toi non plus",
-  "description": "À 3 mois, tu as quitté la bulle des premières semaines. L'organisation immédiate retombe, l'entourage est moins présent, la fatigue s'accumule : c'est précisément la période où la dépression post-partum est la plus fréquente. Et souvent, le retour au travail approche. 6 propositions concrètes pour ne pas te perdre dans la transition.",
+  "description": "À 3 mois, tu as quitté la bulle des premières semaines. L'organisation immédiate retombe, l'entourage est moins présent, la fatigue s'accumule : c'est l'une des périodes où la dépression post-partum est la plus fréquente. Et souvent, le retour au travail approche. 6 propositions concrètes pour ne pas te perdre dans la transition.",
   "conseils": [
     {
       "id": "auto_massage_reflexologie",
@@ -81,10 +81,10 @@
       "id": "realite_post_partum",
       "numero": 4,
       "icone": "💬",
-      "intro": "Le mois 3 est un cap statistiquement difficile. L'entourage est passé à autre chose, les visites se sont espacées, et l'organisation immédiate retombe, sans pour autant que la fatigue diminue. C'est précisément à ce moment que la dépression post-partum atteint son pic clinique. Et souvent, la reprise du travail approche, ajoutant une couche d'anxiété rarement nommée.",
+      "intro": "Le mois 3 est un cap statistiquement difficile. L'entourage est passé à autre chose, les visites se sont espacées, et l'organisation immédiate retombe, alors que le sommeil des parents est au plus bas durant les trois premiers mois.¹ La dépression post-partum a un pic de fréquence entre 2 et 4 mois.² Et souvent, la reprise du travail approche, ajoutant une couche d'anxiété rarement nommée.",
       "pour_la_maman": {
         "titre": "Côté maman",
-        "contenu": "À 3 mois, ton corps continue son travail invisible. Les hormones ne sont pas revenues à leur état d'avant (et ne reviendront pas avant 6-12 mois). La libido peut être inexistante : c'est physiologique, pas un manque d'amour. Les cheveux qui tombent par poignées (chute hormonale post-partum) commencent souvent maintenant. La cicatrice de césarienne ou du périnée peut encore tirailler.\n\nÉmotionnellement, c'est entre 2 et 3 mois que la dépression post-partum est la plus fréquente. Si tu ressens une tristesse persistante, une absence de plaisir, un détachement de ton bébé, ou des pensées noires : ce n'est pas un défaut d'amour. C'est une souffrance reconnue, et qui s'accompagne. Dis-le à ton médecin, à ta sage-femme ou à la PMI. Et si ces pensées prennent trop de place, le 3114 répond jour et nuit, gratuitement : ce sont des infirmiers et des psychologues formés pour ça. Plus tôt on en parle, plus vite on retrouve son souffle."
+        "contenu": "À 3 mois, ton corps continue son travail invisible. Les hormones ne sont pas revenues à leur état d'avant (et ne reviendront pas avant 6-12 mois). La libido peut être inexistante : c'est physiologique, pas un manque d'amour. Les cheveux qui tombent par poignées (chute hormonale post-partum) commencent souvent maintenant. La cicatrice de césarienne ou du périnée peut encore tirailler.\n\nÉmotionnellement, la dépression post-partum est la plus fréquente entre 2 et 4 mois.² Si tu ressens une tristesse persistante, une absence de plaisir, un détachement de ton bébé, ou des pensées noires : ce n'est pas un défaut d'amour. C'est une souffrance reconnue, et qui s'accompagne. Dis-le à ton médecin, à ta sage-femme ou à la PMI. Et si ces pensées prennent trop de place, le 3114 répond jour et nuit, gratuitement : ce sont des infirmiers et des psychologues formés pour ça. Plus tôt on en parle, plus vite on retrouve son souffle."
       },
       "pour_le_papa_co_parent": {
         "titre": "Côté papa / co-parent",
@@ -109,7 +109,8 @@
         "Maman Blues : association nationale de soutien à la dépression post-partum (mamanblues.fr)"
       ],
       "nom_outil": "La réalité du post-partum",
-      "promesse": "La dépression post-partum, et le silence autour"
+      "promesse": "La dépression post-partum, et le silence autour",
+      "source": "Source : ¹ le sommeil des parents au plus bas durant les trois premiers mois, Richter D., Krämer M. D., Tang N. K. Y., Montgomery-Downs H. E., Lemola S., « Long-term effects of pregnancy and childbirth on sleep satisfaction and duration of first-time and experienced mothers and fathers », Sleep, volume 42, numéro 4, 2019 ; ² le pic de fréquence de la dépression post-partum entre 2 et 4 mois, Psycom (organisme public d'information sur la santé mentale), « Santé mentale, grossesse et parentalité », collection « Santé mentale et… », brochure SM6, mars 2025, page 7."
     },
     {
       "id": "challenge_couple",
