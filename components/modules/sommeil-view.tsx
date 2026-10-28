@@ -580,22 +580,6 @@ export function SommeilView({
 
   return (
     <div style={{ padding: "4px 16px 80px" }}>
-      <div
-        style={{
-          fontSize: 10,
-          color: "#7A5038",
-          background: "#FBF1E3",
-          border: "1px solid #E8CFA8",
-          borderRadius: 8,
-          padding: "6px 9px",
-          marginBottom: 12,
-          lineHeight: 1.4,
-        }}
-      >
-        Aperçu admin : nouvelle structure Sommeil, visible par toi seule. Les parents
-        voient encore l&apos;ancien écran.
-      </div>
-
       <header style={{ textAlign: "center", marginBottom: 14 }}>
         <LuneEtoile />
         <h1
