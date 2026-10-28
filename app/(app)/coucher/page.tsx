@@ -10,7 +10,7 @@ export default async function CoucherPage() {
   const mois = getBabyMonth(new Date(profile.birthdate));
   const result = await getCoucher(mois);
 
-  // Nouvelle structure Sommeil (M3, M9, M20 pour l'instant) : réservée aux
+  // Nouvelle structure Sommeil (tranches M0 à M23) : réservée aux
   // admins tant que Laura ne l'a pas validée à l'écran.
   const sommeil = getSommeil(mois);
   if (sommeil && (await isCurrentUserAdmin())) {

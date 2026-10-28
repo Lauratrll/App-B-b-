@@ -1,0 +1,128 @@
+# M15–M17 · Sommeil · tranche 6 sur 7 (nom de travail : « Une seule sieste »)
+
+> Rubrique Sommeil, mois 15 à 17. Trois choses se jouent ici : le passage de deux siestes à une, les premières terreurs nocturnes possibles, et la nouvelle vague de séparation qui commence vers M17 (et se poursuit en M18–M19, voir tranche suivante : écrite dans les deux, avec un renvoi). Structure du 06/10 : 1. Comprendre son sommeil · 2. Son rythme · 3. La boîte à outils (onglet à remplir, hors de ce document) · toujours accessibles : La sécurité, Il se réveille plus que d'habitude ?
+> Brouillon du 28/10 à valider. Écrit sur le modèle de M9 et M20 (versions locales du 27/10). Ne remplace aucun fichier existant.
+
+**Exergue, commun aux 24 mois**
+S'endormir, c'est descendre les marches une à une. Entre deux cycles, tout le monde remonte près de la surface. Se réveiller, c'est remonter une marche de plus.
+
+---
+
+## 1 · COMPRENDRE SON SOMMEIL
+
+### Son sommeil aujourd'hui
+
+#### Un sommeil qui a pris l'organisation du tien
+Entre 12 et 18 mois, **son sommeil prend l'organisation de celui d'un adulte**¹. Il s'endort par le sommeil léger et plonge vite dans un sommeil profond, qui domine le début de nuit : c'est là que son corps se répare. Le sommeil paradoxal, celui qui répare surtout le cerveau, revient par vagues vers le matin. **Un cycle dure environ 70 minutes**², plus court que les tiens. Son horloge, installée depuis ses 9 mois, s'ancre un peu plus chaque mois.
+
+#### Ses réveils
+Entre deux cycles, il remonte près de la surface plusieurs fois par nuit, comme toi, **le plus souvent sans que tu le saches.** Et il peut arriver, en début de nuit, qu'il se réveille **à moitié** (voir « Ce que tu vas peut-être voir »).
+
+### Ce qui bouge en ce moment
+
+#### Plusieurs chantiers à la fois
+Dans cette période, tout avance en même temps : **la marche**, qui s'affirme, **les mots**, qui arrivent, et une envie de plus en plus nette de décider. Les études le confirment³ : quand une compétence arrive, les réveils augmentent. **Ce n'est pas son sommeil qui recule, c'est son cerveau qui travaille ailleurs.**
+
+#### Une sieste qui change
+Entre 15 et 18 mois, **la plupart des enfants passent de deux siestes à une**, le plus souvent en supprimant celle du matin⁴. C'est la transition la plus longue et la plus chahutée, parce qu'elle tombe en pleine période d'acquisitions : elle peut prendre **plusieurs semaines**.
+
+#### Une nouvelle vague de séparation
+Vers 17-18 mois, beaucoup d'enfants traversent une **nouvelle vague de réactions à la séparation**⁵ : ils s'accrochent plus, protestent davantage au moment du départ ou du coucher. C'est une étape normale, pas un recul.
+
+### Ce que ça va donner à la maison
+
+#### Ce que tu vas peut-être voir
+Une **matinée où il résiste à sa sieste**, puis une fin d'après-midi où il s'effondre. Des couchers plus agités pendant l'adaptation. Des nuits remuées. Parfois, **en début de nuit, un cri** : il est assis, les yeux ouverts, il ne te reconnaît pas. À cet âge, cela peut être **une terreur nocturne, un réveil incomplet du sommeil profond**⁶. Le test facile : **est-ce qu'il interagit avec toi ? Si non, cela peut être le signe qu'il dort encore, même s'il a les yeux ouverts.** Il n'en gardera aucun souvenir et ça passe tout seul, en quelques minutes. **Ne le réveille pas** : reste tout près, écarte ce qui pourrait le blesser, et attends. Le pas à pas est dans Guide-moi.
+
+#### Ce que ça veut dire
+Rien de tout ça n'est de la mauvaise volonté : c'est la face nocturne d'un cerveau qui grandit vite. **Un enfant qui fait encore deux siestes à 15 mois n'a aucun retard.** Et si la transition déraille, revenir en arrière n'est pas un échec.
+
+### La nuit, ce qui est normal
+
+#### Ses repères, de 15 à 17 mois
+**Sur 24 heures** : environ 11 à 14 heures de sommeil⁷ : autour de 12 heures la nuit, avec des réveils, et une à deux siestes dans la journée. Entre deux enfants du même âge, 2 à 3 heures d'écart sont normales : il y a des petits et des gros dormeurs.
+
+**Faire ses nuits** : entre 1 et 3 ans, **la plupart des enfants se réveillent encore la nuit, plusieurs fois**⁸. Le repère, à présent, ce n'est plus de dormir d'une traite : **c'est de savoir se rendormir**, le plus souvent sans que tu l'entendes. Certaines nuits, il t'appellera quand même, et c'est normal. Il y a toujours des réveils nocturnes et ton enfant a encore besoin d'être accompagné : c'est justement pour qu'il y arrive tout seul qu'on y travaille.
+
+`source` : ¹ Organisation du sommeil entre 12 et 18 mois : Réseau Morphée ; ² La durée des cycles de sommeil au fil des âges : Inserm, *Expertise collective*, 2001 ; INSV, *Le sommeil de 0 à 3 ans* ; ³ Les réveils quand une compétence motrice arrive : O'Connor C. et al., *Pediatric Research*, 2026 ; ⁴ Le passage à une sieste entre 15 et 18 mois : Réseau Morphée ; INSV ; ⁵ Une nouvelle vague de réaction à la séparation vers 18 mois : Merck Manual, « Separation anxiety » ; ⁶ Les terreurs nocturnes : American Academy of Sleep Medicine, ICSD-3-TR, parasomnies ; Petit D., Montplaisir J., *Encyclopédie sur le développement des jeunes enfants*, 2020 ; ⁷ Les durées de sommeil recommandées : Hirshkowitz M. et al. (National Sleep Foundation), *Sleep Health*, 2015 ; ⁸ Les réveils de nuit jusqu'à 3 ans : ameli.fr ; Petit D., Montplaisir J., 2020
+
+---
+
+## 2 · SON RYTHME
+
+### La journée
+
+#### Ses signaux de fatigue
+À cet âge, la fatigue ne se voit pas toujours là où on l'attend. **Les signaux à guetter** :
+- son regard se fige, part dans le vague ;
+- il se frotte les yeux ou les oreilles ;
+- **une excitation soudaine**, comme un regain d'énergie, ou au contraire un repli ;
+- ses émotions débordent plus vite ;
+- il cherche son doudou, le contact, tes bras.
+
+C'est le moment de ralentir.
+
+#### Le passage à une seule sieste
+Les signes, à voir **plusieurs jours de suite** : il refuse la sieste du matin de façon **constante et sereine**, il tient jusqu'à midi sans s'effondrer, et ses nuits restent bonnes. Un refus irrégulier, avec de la fatigue en fin de journée, ne veut pas dire qu'il est prêt. Un seul signe ne suffit pas, et une dent, un rhume ou un changement (voyage, nouvelle garde) peuvent imiter une transition. Pendant l'adaptation, **la sieste se place plutôt après le repas de midi, et avancer un peu le coucher du soir** aide : c'est normal, et ça ne dure pas.
+
+#### Quand ça déraille
+Si les nuits se dégradent ou si les fins d'après-midi deviennent difficiles, **revenir à deux siestes n'est pas un échec** : c'était peut-être un peu tôt. Un **temps calme** à la place de la sieste du matin peut aussi faire le relais : un coin tranquille, des livres, le doudou, sans obligation de dormir.
+
+#### La sieste et le coucher
+**Une sieste qui finit tard peut décaler le coucher** : plus la sieste se termine tard, plus l'endormissement du soir recule⁹. Si le coucher recule, regarde deux heures : celle de son lever et celle de la fin de sa sieste.
+
+#### Réveiller en douceur
+Si une sieste se prolonge et risque de décaler le coucher, ou s'il faut le réveiller le matin, tu peux le faire **en douceur**. **Ouvre la porte, laisse entrer la lumière et les bruits de la maison, parle doucement à côté** : il sortira du sommeil quand il sera prêt, sans être réveillé en plein milieu d'un sommeil profond.
+
+#### Dehors, chaque jour
+Sortir chaque jour reste **le repère le plus fort pour son horloge biologique**. Et c'est dehors que son corps trouve l'espace dont il a besoin : marcher, courir, grimper.
+
+### La fin de journée
+
+#### La redescente
+Après la sieste, l'après-midi est fait pour bouger. **Le soir, son corps a besoin de redescendre**, et à cet âge, il ne sait pas encore freiner seul. Dès la fin d'après-midi, son cortisol redescend et sa mélatonine commence à monter¹⁰ : c'est un bon moment pour baisser les lumières et le rythme. Garde les chatouilles et les courses-poursuites pour avant le dîner. Après, place aux jeux calmes : livres, dessins, bain.
+
+#### Un moment rien qu'à vous
+Avec la nouvelle vague de séparation, **un moment de proximité avant le rituel**, sans téléphone, l'aide à faire le plein de toi avant la nuit. Ce n'est pas la prolonger : c'est la préparer.
+
+#### Le moment à son image
+**Où en est ton enfant en ce moment ? Choisis ce qui l'occupe le plus, et le dernier moment de sa journée suivra son élan.**
+
+*Sélecteur : Motricité · Langage · Émotions. Le choix colore aussi un passage du script audio du soir.*
+
+- **Motricité, décharger le corps** : un dernier moment de mouvement libre, avant de baisser la lumière. Marcher d'un meuble à l'autre, un petit parcours doux au sol. Pas de chatouilles : son corps dépense ses dernières réserves, puis on ralentit franchement.
+- **Langage, mettre des mots sur sa journée** : un moment calme pour raconter. « Ce matin, tu as vu le chien, tu as mangé des pâtes, tu as dit au revoir. » Laisse-le répéter, montrer un imagier, finir tes phrases. Mettre des mots l'aide à poser sa journée.
+- **Émotions, accueillir ce qui a pesé** : un temps dans tes bras. « Tu étais très fâché tout à l'heure, quand il a fallu ranger. C'est passé. Je suis là. » Nommer sans raviver, et laisser retomber. Respire lentement, tout contre lui.
+
+#### La lumière et les écrans
+En fin de journée, **baisse les lumières**. Chez le jeune enfant, **même une lumière de pièce ordinaire freine fortement la mélatonine**, le signal du soir qui annonce la nuit¹¹. **Un écran ajoute sa propre lumière, tout près des yeux**, et des images qui bougent vite : de quoi exciter un cerveau qu'on cherche à apaiser. Éteins-les dans la pièce où il est.
+
+#### Quand tu es à bout
+**Un enfant ne se secoue jamais, même une seconde, même doucement.**
+Si tu sens que tu craques : **couche-le sur le dos dans son lit, sors de la pièce, respire, appelle quelqu'un.** Allo Parents Bébé : 0 800 00 34 56 (gratuit). Danger immédiat : le 15.
+
+### L'heure du coucher
+
+#### L'heure du coucher
+Le coucher se fait **le plus souvent entre 18 h et 20 h**. Ce n'est pas une heure à tenir à la minute : elle dépend de ton enfant, et aussi de ta famille, de vos journées. Si tu veux partager le dîner en famille, ce sont les adultes qui se calent sur l'heure de son repas.
+
+#### Si la mise au lit s'éternise
+Regarde ton enfant :
+- **Il est en forme**, joue, réclame encore : il n'a pas encore sommeil. Le coucher arrive peut-être un peu tôt, ou la sieste a fini tard.
+- **Il s'agite, pleure pour un rien**, a comme un regain d'énergie alors qu'il se fait tard : c'est souvent la **surfatigue**. Le coucher arrive peut-être un peu tard.
+
+### La nuit
+
+#### Quand ton enfant t'appelle
+**Attends quelques instants avant d'agir** : souvent, il se tourne, grogne, et se rendort. S'il t'appelle vraiment, viens, et **fais court** : la phrase du soir, le doudou retrouvé, une main posée sur lui. Tu le prends dans tes bras si ça ne suffit pas. Jamais le laisser pleurer seul : il n'a pas toujours les capacités pour s'apaiser à nouveau.
+
+#### Quand consulter
+**Appelle le 15** s'il fait des pauses respiratoires, si ses lèvres bleuissent, ou s'il respire avec difficulté.
+**Consulte ton médecin** si les terreurs nocturnes deviennent très fréquentes ou s'il se blesse, s'il **ronfle presque toutes les nuits, hors rhume**, s'il dort la bouche ouverte, s'il transpire beaucoup en dormant ou si son sommeil est très agité. Et pour la fièvre, les repères sont dans SOS.
+Et si les nuits t'épuisent, **parles-en** : médecin, PMI, ou Allo Parents Bébé : 0 800 00 34 56 (gratuit).
+
+`source` : ⁹ Fin de la sieste et heure d'endormissement, mesurées à 18 mois : Nakagawa M. et al., *Scientific Reports*, 2016 ; ¹⁰ Le cortisol qui redescend au fil de la journée : Legler J. et al., *J Clin Endocrinol Metab*, 1982 ; Kervezee L. et al., *J Clin Endocrinol Metab*, 2025 ; ¹¹ La lumière du soir et la mélatonine chez les enfants de 3 à 5 ans : Hartstein L. E. et al., *Journal of Pineal Research*, 2022 ; Conduite à tenir quand le parent est à bout : HAS, 2017 ; Santé publique France, 2025 ; Signes d'urgence : ameli.fr, « Bronchiolite : que faire ? », 2026 ; Signes respiratoires du sommeil : SFORL, recommandations 2017 et 2020
+
+---
+
+<!-- TOUJOURS ACCESSIBLE : La sécurité et Il se réveille plus que d'habitude ? → blocs communs (_blocs_communs.md), recopiés par script, non modifiés ici. -->

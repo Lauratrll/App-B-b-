@@ -36,33 +36,43 @@
                 ]
               },
               {
-                "titre": "Bébé bouge pendant son sommeil",
+                "titre": "Bébé bouge et pleure pendant son sommeil",
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Depuis sa naissance, il entre dans le sommeil par la marche du haut, le sommeil agité. Il bouge, grimace, entrouvre les yeux, et pourtant il s'est endormi. Le test facile : **est-ce qu'il interagit avec toi ? Si non, cela peut être le signe qu'il dort encore, même s'il a les yeux ouverts.**"
+                    "texte": "Depuis sa naissance, il entre dans le sommeil par le sommeil agité, **un sommeil paradoxal en construction** : il bouge, grimace, entrouvre les yeux, pousse de petits pleurs, et pourtant il dort. Ces mouvements ne sont pas des réveils, et des chercheurs pensent même qu'ils aident son cerveau à faire connaissance avec son corps². **Un bébé peut pleurer en dormant** : c'est souvent en se précipitant vers lui qu'on le réveille sans le vouloir. Le test facile : **est-ce qu'il interagit avec toi ? Si non, cela peut être le signe qu'il dort encore, même s'il a les yeux ouverts.**"
                   },
                   {
                     "type": "p",
-                    "texte": "Le sommeil agité du nourrisson, celui qui répare surtout le cerveau, est **un sommeil paradoxal en construction**. Chez l'adulte, le sommeil paradoxal est un sommeil où le cerveau s'active mais où le corps reste immobile. Chez ton bébé de 3 mois, il s'accompagne encore de petits mouvements : grimaces, sursauts, petits pleurs non rythmés, doigts qui s'agitent… Mois après mois, ces gestes diminuent : son corps apprend à rester tranquille pendant que son cerveau travaille. **Ces mouvements-là ne sont pas des réveils** : des chercheurs pensent même qu'ils aident son cerveau à faire connaissance avec son corps²."
+                    "texte": "**Sommeil agité ou éveil agité ?**"
                   },
                   {
                     "type": "p",
-                    "texte": "**Un bébé peut pleurer en dormant.** Il peut bouger beaucoup, gémir, pousser de petits pleurs, et pourtant dormir, et aller bien. À la naissance, ce sommeil agité occupe environ la moitié de son sommeil, et à 3 mois, il en tient encore une grande part. C'est souvent en se précipitant vers lui à ce moment-là qu'on le réveille sans le vouloir. **Apprendre à le reconnaître, c'est lui laisser son sommeil.**"
+                    "texte": "| Ce que tu observes | Sommeil agité : il dort | Éveil agité : il est réveillé |"
                   },
                   {
                     "type": "p",
-                    "texte": "**Sommeil agité ou éveil agité ? Les signaux qui les distinguent :**"
+                    "texte": "|---|---|---|"
                   },
                   {
-                    "type": "liste",
-                    "items": [
-                      "**ses yeux** : fermés ou entrouverts, le regard ne se pose sur rien en sommeil agité ; ouverts, ils cherchent, ils te trouvent quand il est éveillé ;",
-                      "**ses pleurs** : brefs, irréguliers, ils s'arrêtent d'eux-mêmes en sommeil agité ; à l'éveil, ils montent et s'installent ;",
-                      "**ses mouvements** : des sursauts, des grimaces, des doigts qui s'agitent, par à-coups, en sommeil agité ; des mouvements de plus en plus amples à l'éveil ;",
-                      "**sa respiration** : irrégulière en sommeil agité ;",
-                      "**ta présence** : en sommeil agité, il ne réagit ni à ta voix ni à ton visage ; éveillé, il te répond."
-                    ]
+                    "type": "p",
+                    "texte": "| **Ses yeux** | fermés ou entrouverts, le regard ne se pose sur rien | ouverts, ils cherchent, ils te trouvent |"
+                  },
+                  {
+                    "type": "p",
+                    "texte": "| **Ses pleurs** | brefs, irréguliers, ils s'arrêtent d'eux-mêmes | ils montent et s'installent |"
+                  },
+                  {
+                    "type": "p",
+                    "texte": "| **Ses mouvements** | sursauts, grimaces, doigts qui s'agitent, par à-coups | des mouvements de plus en plus amples |"
+                  },
+                  {
+                    "type": "p",
+                    "texte": "| **Sa respiration** | irrégulière | — |"
+                  },
+                  {
+                    "type": "p",
+                    "texte": "| **Ta présence** | il ne réagit ni à ta voix ni à ton visage | il te répond |"
                   },
                   {
                     "type": "p",
@@ -110,7 +120,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Entre 3 et 4 mois, **son sommeil se réorganise vraiment** : c'est ce que beaucoup de parents vivent comme une « régression ». Peu à peu, l'ordre des marches s'inverse. Son sommeil calme devient plus profond et se divise en deux paliers, un sommeil léger puis un sommeil profond."
+                    "texte": "**La transition commence** : son sommeil se réorganise. Son sommeil calme, devenu plus profond vers 2 mois, s'allège et se divise peu à peu en deux paliers, un sommeil léger puis un sommeil profond. Ce changement peut **perturber de nouveau ses nuits** : beaucoup de parents le vivent comme une « régression ». Peu à peu, l'ordre des marches s'inverse."
                   }
                 ]
               },
@@ -166,7 +176,7 @@
                   },
                   {
                     "type": "p",
-                    "texte": "**Faire ses nuits** : à 3 mois, c'est enchaîner **environ 5 heures d'affilée**. **S'il dort 5 heures d'affilée, c'est merveilleux : c'est déjà une vraie nuit.** Certains bébés vont déjà plus loin et dorment toute la nuit d'une traite, jusqu'à 12 heures : chez eux, le besoin de boire la nuit s'est déjà espacé. Mais c'est très variable d'un bébé à l'autre : beaucoup ont encore besoin de manger la nuit pour grandir, surtout ceux qui sont allaités. **Reste à l'écoute de ton bébé** : s'il réclame, c'est qu'il en a besoin. Et s'il n'y est pas encore, rien ne va mal."
+                    "texte": "**Faire ses nuits** : à 3 mois, c'est enchaîner **environ 5 heures d'affilée**. **S'il dort 5 heures d'affilée, c'est merveilleux : c'est déjà une vraie nuit.** Certains bébés vont déjà plus loin et dorment toute la nuit d'une traite, jusqu'à 12 heures : chez eux, le besoin de boire la nuit s'est déjà espacé. Mais c'est très variable d'un bébé à l'autre : beaucoup ont encore besoin de manger la nuit pour grandir, surtout ceux qui sont allaités. Vers 3 mois, beaucoup de bébés réclament plus souvent pendant quelques jours et rapprochent les tétées : c'est une observation courante, pas une règle, et chaque bébé est différent. Y répondre n'est pas prendre une mauvaise habitude. **Reste à l'écoute de ton bébé** : s'il réclame, c'est qu'il en a besoin. Et s'il n'y est pas encore, rien ne va mal."
                   },
                   {
                     "type": "p",
@@ -194,7 +204,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "À 3 mois, ses moments d'**éveil calme** durent environ 30 minutes, 4 fois par jour : près de 2 heures en tout. C'est là qu'il est le plus disponible : yeux ouverts et brillants, il te regarde, suit ce qui bouge, bouge peu. C'est le moment des échanges, des jeux de visage, du temps au sol."
+                    "texte": "À 3 mois, ses moments d'**éveil calme** durent environ 2 heures. C'est là qu'il est le plus disponible : yeux ouverts et brillants, il te regarde, suit ce qui bouge, bouge peu. C'est le moment des échanges, des jeux de visage, du temps au sol."
                   }
                 ]
               },
@@ -226,7 +236,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "À cet âge, les siestes ne suivent pas encore d'horaire : **en moyenne trois par jour, mais d'un bébé à l'autre, d'une à cinq**⁴. Ce qui compte, ce n'est pas le nombre, c'est qu'il puisse dormir quand l'éveil calme se termine. Pour les siestes de la journée, **une petite pénombre suffit** : garder un peu de lumière du jour l'aide à faire la différence avec la nuit."
+                    "texte": "À cet âge, les siestes ne suivent pas encore d'horaire : **souvent trois à quatre par jour, mais d'un bébé à l'autre, cela varie**⁴. Ce qui compte, ce n'est pas le nombre, c'est qu'il puisse dormir quand l'éveil calme se termine. Pour les siestes de la journée, **une petite pénombre suffit** : garder un peu de lumière du jour l'aide à faire la différence avec la nuit."
                   }
                 ]
               },
@@ -318,7 +328,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "À 3 mois, **l'heure du coucher n'est pas encore fixe** : siestes et nuit se dessinent à peine. **Comme pour les siestes, c'est la fin de son éveil calme qui te dit quand proposer la nuit.** Si la dernière sieste finit vers 17 h, ou si les pleurs du soir s'installent, la nuit commencera plus tard, et c'est normal. Dans les mois qui viennent, le coucher se calera peu à peu, le plus souvent entre 18 h et 20 h."
+                    "texte": "À 3 mois, **le coucher se fait le plus souvent entre 19 h et 20 h 30**, mais ce n'est pas une heure à tenir à la minute : elle dépend de ton bébé, et aussi de ta famille, de vos journées, de votre travail. **Comme pour les siestes, c'est la fin de son éveil calme qui te dit quand proposer la nuit.** S'il boit encore la nuit, si sa dernière sieste finit vers 17 h ou si les pleurs du soir s'installent, il peut se coucher plus tard, et c'est normal. Dans les mois qui viennent, le coucher se calera peu à peu."
                   }
                 ]
               },
@@ -642,7 +652,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Son corps a bien fait le lien : la lumière signale le jour et la période d'éveil ; la pénombre indique la nuit et appelle le sommeil. **Son rythme circadien est installé.** Ses deux horloges hormonales sont en place : la mélatonine monte le soir et agit enfin vraiment sur son rythme ; le cortisol monte au réveil. Ce rythme s'installe vraiment entre 6 et 9 mois². Ces hormones donnent l'heure ; **mais l'endormissement et le sommeil restent le travail du cerveau.**"
+                    "texte": "Son corps a bien fait le lien : la lumière signale le jour et la période d'éveil ; la pénombre indique la nuit et appelle le sommeil. **Son rythme circadien est installé.** Ses deux horloges hormonales sont en place : la mélatonine monte le soir et agit enfin vraiment sur son rythme ; le cortisol, qui donne l'élan du matin, est haut le matin puis redescend dès la fin d'après-midi, pour laisser la place à la mélatonine. Ce rythme s'installe vraiment entre 6 et 9 mois². Ces hormones donnent l'heure ; **mais l'endormissement et le sommeil restent le travail du cerveau.**"
                   }
                 ]
               },
@@ -694,7 +704,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Chez beaucoup de bébés, **les appels de nuit reviennent**, alors que c'était réglé. S'il commence à se hisser, tu le retrouveras peut-être debout contre les barreaux, à moitié endormi, sans savoir encore redescendre. **Le coucher peut s'étirer** : il sait à présent que tu pars. Ses siestes bougent aussi : la troisième commence souvent à résister, et le passage à deux se fait entre 9 et 12 mois."
+                    "texte": "Chez beaucoup de bébés, **les appels de nuit reviennent**, alors que c'était réglé. S'il commence à se hisser, tu le retrouveras peut-être debout contre les barreaux, à moitié endormi, sans savoir encore redescendre. **Le coucher peut s'étirer** : il sait à présent que tu pars. Ses siestes bougent aussi : la troisième commence souvent à résister, et le passage à deux se fait le plus souvent autour de 7-8 mois, parfois un peu plus tard."
                   }
                 ]
               },
@@ -720,11 +730,11 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**Sur 24 heures** : environ 12 à 15 heures de sommeil : 10 à 12 heures la nuit, et 2 à 3 heures de jour, en 2 ou 3 siestes. Entre deux bébés du même âge, 2 à 3 heures d'écart sont normales : il y a des petits et des gros dormeurs."
+                    "texte": "**Sur 24 heures** : environ 12 à 15 heures de sommeil : environ 12 heures la nuit, avec des réveils, et le reste en deux siestes dans la journée. Entre deux bébés du même âge, 2 à 3 heures d'écart sont normales : il y a des petits et des gros dormeurs."
                   },
                   {
                     "type": "p",
-                    "texte": "**Faire ses nuits** : entre 6 mois et 1 an, le repère devient **environ 6 heures d'affilée**. **S'il les enchaîne, c'est une vraie nuit.** Certains bébés dorment déjà toute la nuit d'une traite ; beaucoup n'y sont pas encore à 1 an, et ça ne dit rien de leur développement."
+                    "texte": "**Faire ses nuits** : à partir de 6 mois, le repère devient **environ 10 heures de sommeil la nuit, entrecoupées de réveils** ; vers 9 mois, **environ 12 heures**, toujours avec des réveils. **Il y a toujours des réveils nocturnes, et ton bébé a toujours besoin que tu l'accompagnes pour se rendormir** : c'est justement pour qu'il y arrive tout seul qu'on y travaille. Certains bébés dorment déjà toute la nuit d'une traite ; beaucoup n'y sont pas encore à 1 an, et ça ne dit rien de leur développement."
                   },
                   {
                     "type": "p",
@@ -774,7 +784,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "À cet âge, **en moyenne deux siestes par jour, mais d'un bébé à l'autre, d'une à trois, parfois plus**⁴. **La troisième, celle de fin d'après-midi, commence souvent à résister.** Le passage à deux siestes se fait le plus souvent entre 9 et 12 mois."
+                    "texte": "À cet âge, **deux siestes par jour**, même si d'un bébé à l'autre, cela varie⁴. **La troisième, celle de fin d'après-midi, commence souvent à résister.** Le passage de trois à deux siestes se fait le plus souvent vers 7-8 mois, chez certains un peu plus tard."
                   }
                 ]
               },
@@ -1233,7 +1243,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "Ses cycles ne sont pas encore aussi longs que les tiens : ils le seront vers 3 ou 4 ans. Et son horloge à lui, du matin ou du soir, n'est pas encore marquée : elle prendra plus de place en grandissant."
+                    "texte": "Ses cycles ne sont pas encore aussi longs que les tiens : ils le seront vers 3 ou 4 ans. Son horloge, elle, est installée depuis ses 9 mois : elle s'ancre un peu plus chaque mois."
                   }
                 ]
               }
@@ -1319,11 +1329,11 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**Sur 24 heures** : environ 11 à 14 heures de sommeil : autour de 11 heures la nuit, et une sieste d'environ 2 heures. Entre deux enfants du même âge, 2 à 3 heures d'écart sont normales : il y a des petits et des gros dormeurs."
+                    "texte": "**Sur 24 heures** : environ 11 à 14 heures de sommeil : autour de 12 heures la nuit, avec des réveils, et une sieste dans la journée. Entre deux enfants du même âge, 2 à 3 heures d'écart sont normales : il y a des petits et des gros dormeurs."
                   },
                   {
                     "type": "p",
-                    "texte": "**Faire ses nuits** : à cet âge, faire ses nuits ne veut plus dire ne pas se réveiller. Entre 1 et 3 ans, **la plupart des enfants se réveillent encore la nuit, environ 3 fois** : ils remontent près de la surface, se retournent, et redescendent. Le repère, à présent, ce n'est plus de dormir d'une traite : **c'est de savoir se rendormir seul**, le plus souvent sans que tu l'entendes. Certaines nuits, il t'appellera quand même, et c'est normal."
+                    "texte": "**Faire ses nuits** : à cet âge, faire ses nuits ne veut plus dire ne pas se réveiller. Entre 1 et 3 ans, **la plupart des enfants se réveillent encore la nuit, plusieurs fois** : ils remontent près de la surface, se retournent, et redescendent. Le repère, à présent, ce n'est plus de dormir d'une traite : **c'est de savoir se rendormir seul**, le plus souvent sans que tu l'entendes. Certaines nuits, il t'appellera quand même, et c'est normal. Il y a toujours des réveils nocturnes et ton enfant a encore besoin d'être accompagné : c'est justement pour qu'il y arrive tout seul qu'on y travaille."
                   }
                 ]
               },
@@ -1383,7 +1393,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "À 20 mois, **la plupart des enfants font une seule sieste**, le plus souvent après le repas de midi, d'environ 2 heures. Ce n'est pas un reste de bébé : **elle reste utile bien après 2 ans.**"
+                    "texte": "À 20 mois, **la plupart des enfants font une seule sieste**, le plus souvent après le repas de midi. Ce n'est pas un reste de bébé : **elle reste utile bien après 2 ans.**"
                   }
                 ]
               },
@@ -1410,7 +1420,7 @@
                 "blocs": [
                   {
                     "type": "p",
-                    "texte": "**Une sieste qui finit tard peut décaler le coucher** : à cet âge, plus la sieste se termine tard, plus l'endormissement du soir recule¹. Il te semble « du soir » ? Avant de conclure, regarde deux heures : celle de son lever et celle de la fin de sa sieste. À son âge, ce sont elles qui décident le plus souvent du coucher. Son horloge biologique à lui prendra plus de place en grandissant."
+                    "texte": "**Une sieste qui finit tard peut décaler le coucher** : à cet âge, plus la sieste se termine tard, plus l'endormissement du soir recule¹. Si le coucher recule, regarde deux heures : celle de son lever et celle de la fin de sa sieste. À son âge, ce sont elles qui décident le plus souvent du coucher. Son horloge biologique, installée depuis ses 9 mois, s'ancre de plus en plus."
                   }
                 ]
               },

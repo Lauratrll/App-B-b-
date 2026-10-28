@@ -1,0 +1,143 @@
+# M18–M23 · Sommeil · tranche 7 sur 7 (nom de travail : « Structure adulte »)
+
+> Rubrique Sommeil, mois 18 à 23. Tranche la plus longue (six mois) et la moins riche en événements de structure : ce qui bouge n'est plus l'escalier du sommeil, c'est ce que l'enfant emporte en le descendant (images, mots, peurs, affirmation de soi). On y fait des réajustements selon l'évolution de l'enfant. Structure du 06/10 : 1. Comprendre son sommeil · 2. Son rythme · 3. La boîte à outils (onglet à remplir, hors de ce document) · toujours accessibles : La sécurité, Il se réveille plus que d'habitude ?
+> Brouillon du 28/10 à valider. Reprend M20 (version locale du 27/10) en l'élargissant à la tranche. Ne remplace aucun fichier existant.
+
+**Exergue, commun aux 24 mois**
+S'endormir, c'est descendre les marches une à une. Entre deux cycles, tout le monde remonte près de la surface. Se réveiller, c'est remonter une marche de plus.
+
+---
+
+## 1 · COMPRENDRE SON SOMMEIL
+
+### Son sommeil aujourd'hui
+
+#### Un sommeil d'adulte, en plus profond
+Dès 18 mois, **son sommeil a pris l'organisation de celui d'un adulte** : ce passage se fait entre 12 et 18 mois¹. Il s'endort par le sommeil léger et plonge vite dans **un sommeil profond, plus profond encore que le tien**, qui domine le début de nuit : c'est là que son corps se répare. Le sommeil paradoxal, celui qui répare surtout le cerveau, revient par vagues de plus en plus longues vers le matin.
+
+#### Ses réveils et sa sieste
+Entre deux cycles, il remonte près de la surface plusieurs fois par nuit, comme toi, **le plus souvent sans que tu le saches.** La plupart des enfants de cet âge ne font plus qu'une sieste, et **elle leur restera utile bien après 2 ans.**
+
+#### Ce qui n'est pas encore là
+Ses cycles ne sont pas encore aussi longs que les tiens : ils le seront vers 3 ou 4 ans². Son horloge, elle, est installée depuis ses 9 mois : elle s'ancre un peu plus chaque mois.
+
+### Ce qui bouge en ce moment
+
+#### Ce qu'il emporte dans son sommeil
+Ce qui bouge n'est plus l'escalier : **c'est ce qu'il emporte en le descendant.** Il vient d'entrer dans le monde des images et des mots : il fait semblant, il nomme, il invente.
+
+#### Des peurs nouvelles
+Un cerveau qui imagine peut aussi imaginer ce qui fait peur, l'ombre dans le coin, le bruit derrière la porte. **Ces peurs ne sont pas des caprices : il ne les choisit pas.**
+
+#### Le coucher, une petite séparation
+Et il se découvre quelqu'un de séparé de toi, qui veut, qui refuse, qui négocie. **Le coucher devient le moment où sa journée s'arrête**, pendant que celle des autres continue. La vague de séparation qui commence vers 17-18 mois se poursuit ici (voir la tranche précédente) : c'est une étape normale, qui passe.
+
+### Ce que ça va donner à la maison
+
+#### Des couchers qui s'éternisent
+Un verre d'eau, une dernière histoire, encore un câlin.
+
+#### Les terreurs nocturnes
+Parfois, en début de nuit, un cri : il est assis, les yeux ouverts, il ne te reconnaît pas. À cet âge, cela ressemble le plus souvent à **une terreur nocturne, un réveil incomplet du sommeil profond**, dont le pic se situe autour de 18 mois³. Le test facile, encore : **est-ce qu'il interagit avec toi ? Si non, cela peut être le signe qu'il dort encore, même s'il a les yeux ouverts.** Ton enfant ne vit pas l'épisode comme toi et **n'en gardera aucun souvenir** ; il passe tout seul, en quelques minutes.
+
+**Ne le réveille pas** : reste tout près, écarte ce qui pourrait le blesser, et attends que ça passe. Le pas à pas est dans Guide-moi.
+
+Rien de tout ça n'est de la mauvaise volonté : c'est la face nocturne d'un cerveau qui grandit vite.
+
+### La nuit, ce qui est normal
+
+#### Ses repères, de 18 à 23 mois
+**Sur 24 heures** : environ 11 à 14 heures de sommeil⁴ : autour de 12 heures la nuit, avec des réveils, et une sieste dans la journée. Entre deux enfants du même âge, 2 à 3 heures d'écart sont normales : il y a des petits et des gros dormeurs.
+
+**Faire ses nuits** : à cet âge, faire ses nuits ne veut plus dire ne pas se réveiller. Entre 1 et 3 ans, **la plupart des enfants se réveillent encore la nuit, plusieurs fois**⁵ : ils remontent près de la surface, se retournent, et redescendent. Le repère, à présent, ce n'est plus de dormir d'une traite : **c'est de savoir se rendormir seul**, le plus souvent sans que tu l'entendes. Certaines nuits, il t'appellera quand même, et c'est normal. Il y a toujours des réveils nocturnes et ton enfant a encore besoin d'être accompagné : c'est justement pour qu'il y arrive tout seul qu'on y travaille.
+
+#### Et les cauchemars ?
+Fait-il déjà de mauvais rêves ? **Personne ne peut le savoir tant qu'il ne sait pas raconter ce qu'il a vu**⁶. Les cauchemars qu'on peut reconnaître apparaissent plutôt vers 2 ans et demi ou 3 ans³, donc le plus souvent après cette tranche. Mais si, en fin de nuit, il se réveille en pleurs, **te reconnaît et se calme dans tes bras**, ça ressemble à un mauvais rêve : console-le, redis la phrase du soir, reste le temps qu'il faut. C'est l'inverse de la terreur nocturne, où il ne te reconnaît pas.
+Ce qui l'aide à s'endormir apaisé : **un coucher calme, des histoires douces, et un moment pour déposer sa journée** avant le rituel.
+
+`source` : ¹ Organisation du sommeil entre 12 et 18 mois : Réseau Morphée ; ² La durée des cycles de sommeil au fil des âges : Inserm, *Expertise collective*, 2001 ; INSV, *Le sommeil de 0 à 3 ans* ; ³ Les terreurs nocturnes (pic vers 18 mois) et les cauchemars (dès 2 ans et demi) : American Academy of Sleep Medicine, ICSD-3-TR, parasomnies ; Petit D., Montplaisir J., *Encyclopédie sur le développement des jeunes enfants*, 2020 ; ⁴ Les durées de sommeil recommandées : Hirshkowitz M. et al. (National Sleep Foundation), *Sleep Health*, 2015 ; ⁵ Les réveils de nuit jusqu'à 3 ans : ameli.fr ; Petit D., Montplaisir J., 2020 ; ⁶ Les rêves avant 3 ans : Foulkes D., 1982 et 1999 ; Sándor P. et al., *Frontiers in Psychology*, 2015
+
+---
+
+## 2 · SON RYTHME
+
+### La journée
+
+#### Ses signaux de fatigue
+À cet âge, la fatigue ne se voit pas toujours là où on l'attend. **Les signaux à guetter** :
+- son regard se fige, part dans le vague ;
+- il se frotte les yeux ou les oreilles ;
+- **une excitation soudaine**, comme un regain d'énergie, ou au contraire un repli ;
+- ses émotions débordent plus vite, ses petites peurs aussi ;
+- il cherche son doudou, le contact, tes bras.
+
+C'est le moment de ralentir.
+
+#### Une seule sieste
+À cet âge, **la plupart des enfants font une seule sieste**, le plus souvent après le repas de midi : à 18 mois, presque tous la font encore⁷. Ce n'est pas un reste de bébé : **elle reste utile bien après 2 ans.** Ne cherche pas à la supprimer avant que ton enfant n'en montre vraiment le signe.
+
+#### Le refus de sieste
+À cet âge, refuser la sieste ne veut pas forcément dire ne plus en avoir besoin : **c'est souvent l'affirmation de soi**, le « non » qui s'invite partout. Les signes que le besoin est toujours là : il s'endort en voiture dès que ça roule, il est très irritable en fin d'après-midi, il s'effondre au dîner, et, paradoxe fréquent, **ses nuits se dégradent les jours sans sieste**.
+
+#### Le temps calme
+**La sieste reste nécessaire à cet âge.** Un **temps calme** juste avant l'aide à y entrer : sa chambre ou un coin tranquille, des livres, le doudou, une petite pénombre. Les jours où elle ne passe pas, garde ce temps calme à la même heure, sans obligation de dormir : son corps se repose quand même, et souvent l'enfant qui « refuse de dormir » s'endort une fois la pression retirée.
+
+#### La sieste et le coucher
+**Une sieste qui finit tard peut décaler le coucher** : à cet âge, plus la sieste se termine tard, plus l'endormissement du soir recule⁸. Si le coucher recule, regarde deux heures : celle de son lever et celle de la fin de sa sieste. À son âge, ce sont elles qui décident le plus souvent du coucher. Son horloge biologique, installée depuis ses 9 mois, s'ancre de plus en plus.
+
+#### Réveiller en douceur
+Si une sieste se prolonge et risque de décaler le coucher, ou s'il faut le réveiller le matin, tu peux le faire **en douceur**. **Ouvre la porte, laisse entrer la lumière et les bruits de la maison, parle doucement à côté** : il sortira du sommeil quand il sera prêt, sans être réveillé en plein milieu d'un sommeil profond.
+
+#### Dehors, chaque jour
+Sortir chaque jour reste **le repère le plus fort pour son horloge biologique**. Et c'est dehors que son corps trouve l'espace dont il a besoin : courir, grimper, sauter.
+
+### La fin de journée
+
+#### La redescente
+Après la sieste, l'après-midi est fait pour bouger : dehors, courir, grimper. **Le soir, son corps a besoin de redescendre**, et à cet âge, il ne sait pas encore freiner seul. Dès la fin d'après-midi, son cortisol redescend et sa mélatonine commence à monter⁹ : c'est un bon moment pour baisser les lumières et le rythme. Garde les chatouilles, les courses-poursuites et les bagarres pour avant le dîner. Après, place aux jeux calmes : livres, dessins, pâte à modeler, bain.
+
+#### Annoncer ce qui vient
+Il supporte mieux d'arrêter quand il sait ce qui vient. **Annonce les étapes à l'avance** : « Après le bain, on lit l'histoire, puis dodo. » Un dernier tour de jeu, un minuteur, une chanson de rangement : la fin de la journée devient un passage, plus une coupure.
+
+#### Le moment à son image
+**Où en est ton enfant en ce moment ? Choisis ce qui l'occupe le plus, et le dernier moment de sa journée suivra son élan.**
+
+*Sélecteur : Motricité · Langage · Émotions · Imaginaire. Le choix colore aussi un passage du script audio du soir.*
+
+- **Motricité, décharger le corps** : un dernier moment de mouvement libre, avant de baisser la lumière. Marcher d'un meuble à l'autre, un petit parcours doux au sol. Pas de chatouilles : son corps dépense ses dernières réserves, puis on ralentit franchement.
+- **Langage, mettre des mots sur sa journée** : un moment calme pour raconter. « Ce matin, tu as vu le chien, tu as mangé des pâtes, tu as dit au revoir. » Laisse-le répéter, montrer un imagier, finir tes phrases. Mettre des mots l'aide à poser sa journée.
+- **Émotions, accueillir ce qui a pesé** : un temps dans tes bras. « Tu étais très fâché tout à l'heure, quand il a fallu ranger. C'est passé. Je suis là. » Nommer sans raviver, et laisser retomber. Respire lentement, tout contre lui.
+- **Imaginaire, coucher l'imagination** : coucher le doudou « pour la nuit » avec lui, ranger les jouets « qui vont dormir aussi ». L'imaginaire se met au service du sommeil. Si une petite peur apparaît, accueille-la simplement.
+
+#### La lumière et les écrans
+En fin de journée, **baisse les lumières**. Chez le jeune enfant, **même une lumière de pièce ordinaire freine fortement la mélatonine**, le signal du soir qui annonce la nuit¹⁰. **Un écran ajoute sa propre lumière, tout près des yeux**, et des images qui bougent vite : de quoi exciter un cerveau qu'on cherche à apaiser. Éteins-les dans la pièce où il est.
+
+#### Quand tu es à bout
+**Un enfant ne se secoue jamais, même une seconde, même doucement.**
+Si tu sens que tu craques : **couche-le sur le dos dans son lit, sors de la pièce, respire, appelle quelqu'un.** Allo Parents Bébé : 0 800 00 34 56 (gratuit). Danger immédiat : le 15.
+
+### L'heure du coucher
+
+#### Le dîner
+Si tu veux partager le dîner en famille, ce sont les adultes qui se calent sur l'heure de son repas.
+
+#### L'heure du coucher
+Le coucher se fait **le plus souvent entre 18 h et 20 h**. Ce n'est pas une heure à tenir à la minute : elle dépend de ton enfant, et aussi de ta famille, de vos journées. Si la mise au lit s'éternise, regarde ton enfant :
+- **Il est en forme**, joue, réclame encore : il n'a pas encore sommeil. Le coucher arrive peut-être un peu tôt, ou la sieste a fini tard.
+- **Il s'agite, pleure pour un rien**, a comme un regain d'énergie alors qu'il se fait tard : c'est souvent la **surfatigue**. Le coucher arrive peut-être un peu tard.
+
+### La nuit
+
+#### Quand ton enfant t'appelle
+Viens, et **fais court** : la phrase du soir, le doudou retrouvé, la gourde à portée de main s'il a soif, puis tu ressors. La nuit n'est pas le moment de discuter : **les mêmes mots, chaque fois**, c'est ce qui le rassure. S'il a peur, reste le temps qu'il faut, calmement : il ne la choisit pas.
+
+#### Quand consulter
+**Appelle le 15** s'il fait des pauses respiratoires, si ses lèvres bleuissent, ou s'il respire avec difficulté.
+**Consulte ton médecin** s'il **ronfle presque toutes les nuits, hors rhume**, s'il respire par la bouche la nuit comme le jour, fait des pauses suivies d'une reprise bruyante, transpire beaucoup en dormant, ou si l'oreiller est souvent mouillé le matin¹¹. Consulte aussi si les terreurs nocturnes deviennent très fréquentes ou s'il se blesse.
+Et si les nuits t'épuisent, **parles-en** : ton médecin, la PMI, ou Allo Parents Bébé : 0 800 00 34 56 (gratuit).
+
+`source` : ⁷ La sieste à 18 mois et à 2 ans : Iglowstein I. et al., *Pediatrics*, 2003 ; ⁸ Fin de la sieste et heure d'endormissement à 18 mois : Nakagawa M. et al., *Scientific Reports*, 2016 ; ⁹ Le cortisol qui redescend au fil de la journée : Legler J. et al., *J Clin Endocrinol Metab*, 1982 ; Kervezee L. et al., *J Clin Endocrinol Metab*, 2025 ; ¹⁰ La lumière du soir et la mélatonine chez les enfants de 3 à 5 ans : Hartstein L. E. et al., *Journal of Pineal Research*, 2022 ; ¹¹ Signes respiratoires du sommeil : SFORL, recommandations 2017 et 2020 ; CHU de Nantes, « La respiration nasale » ; Signes d'urgence : ameli.fr, « Bronchiolite : que faire ? », 2026 ; Conduite à tenir quand le parent est à bout : HAS, 2017 ; Santé publique France, 2025
+
+---
+
+<!-- TOUJOURS ACCESSIBLE : La sécurité et Il se réveille plus que d'habitude ? → blocs communs (_blocs_communs.md), recopiés par script, non modifiés ici. -->

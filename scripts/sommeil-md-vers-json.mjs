@@ -28,6 +28,8 @@ import { join } from "node:path";
 const DIR = join(process.cwd(), "content", "sommeil");
 const OUT = join(DIR, "sommeil.json");
 const FILE_RE = /^M(\d+)_sommeil\.md$/;
+// Tranches d'âge (28/10) : T{n}_M{a}-M{b}_sommeil.md → T{n}_M{a}-M{b}_sommeil.json
+const TRANCHE_RE = /^(T\d+_M(\d+)-M(\d+)_sommeil)\.md$/;
 
 // Garde, dans une ligne, les passages `[Mx-My]` qui concernent ce mois.
 // Le texte avant le premier marqueur est toujours gardé.
@@ -169,7 +171,30 @@ for (const m of fichiers) {
   resultat[String(mois)] = convertir(md, mois);
 }
 
-writeFileSync(OUT, JSON.stringify(resultat, null, 2) + "\n", "utf-8");
-console.log(
-  `Sommeil : ${fichiers.length} mois convertis (${Object.keys(resultat).join(", ")}) → content/sommeil/sommeil.json`,
-);
+// sommeil.json n'est réécrit que s'il y a des M{n}_sommeil.md : sans eux
+// (déplacés en _sauvegardes le 28/10), le fichier existant est conservé.
+if (fichiers.length > 0) {
+  writeFileSync(OUT, JSON.stringify(resultat, null, 2) + "\n", "utf-8");
+  console.log(
+    `Sommeil : ${fichiers.length} mois convertis (${Object.keys(resultat).join(", ")}) → content/sommeil/sommeil.json`,
+  );
+} else {
+  console.log("Sommeil : aucun M{n}_sommeil.md, sommeil.json conservé tel quel.");
+}
+
+// Une tranche d'âge = un fichier JSON : { tranche: {debut, fin}, mois, exergue, parties }.
+const tranches = readdirSync(DIR)
+  .map((f) => f.match(TRANCHE_RE))
+  .filter(Boolean)
+  .sort((a, b) => Number(a[2]) - Number(b[2]));
+for (const t of tranches) {
+  const debut = Number(t[2]);
+  const fin = Number(t[3]);
+  const md = readFileSync(join(DIR, t[0]), "utf-8");
+  const { mois, ...reste } = convertir(md, debut);
+  const sortie = { tranche: { debut, fin }, ...reste };
+  writeFileSync(join(DIR, `${t[1]}.json`), JSON.stringify(sortie, null, 2) + "\n", "utf-8");
+}
+if (tranches.length > 0) {
+  console.log(`Sommeil : ${tranches.length} tranches converties (${tranches.map((t) => `M${t[2]}-M${t[3]}`).join(", ")}).`);
+}
