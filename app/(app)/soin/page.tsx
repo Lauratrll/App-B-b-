@@ -68,7 +68,9 @@ export default async function SoinPage() {
         flexDirection: "column",
         justifyContent: "center",
         flex: 1,
-        paddingTop: 36,
+        // 29/10 : plus de marge de 36 px en haut (elle faussait le centrage) ; 8 px en bas
+        // compensent l'écart du cadre (24 px en haut, 16 px en bas) : espaces égaux.
+        paddingBottom: 8,
       }}
     >
       {/* §5 — En-tête : label AU-DESSUS du grand titre (typos respectives).
