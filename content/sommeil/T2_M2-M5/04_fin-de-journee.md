@@ -26,10 +26,10 @@ Un bébé qui a eu sa dose de contact, de regards et de voix dans la journée se
 ### Le coucher
 
 #### L'heure du coucher
-Le coucher avance peu à peu : **autour de 2 mois, le plus souvent entre 20 h et 21 h ; vers 3 mois, entre 19 h et 20 h 30 ; de 4 à 5 mois, entre 18 h et 20 h**. Mais ce n'est jamais une heure à tenir à la minute : elle dépend de ton bébé, et aussi de ta famille, de vos journées, de votre travail. **Comme pour les siestes, c'est la fin de son éveil calme qui te dit quand proposer la nuit.** S'il boit encore la nuit, si sa dernière sieste finit vers 17 h ou si les pleurs du soir s'installent, il peut se coucher plus tard, et c'est normal. Dans les mois qui viennent, le coucher se calera peu à peu.
+Le coucher avance peu à peu : **autour de 2 mois, le plus souvent entre 20h et 21h ; vers 3 mois, entre 19h et 20h30 ; de 4 à 5 mois, entre 18h et 20h**. Mais ce n'est jamais une heure à tenir à la minute : elle dépend de ton bébé, et aussi de ta famille, de vos journées, de votre travail. **Comme pour les siestes, c'est la fin de son éveil calme qui te dit quand proposer la nuit.** S'il boit encore la nuit, si sa dernière sieste finit vers 17h ou si les pleurs du soir s'installent, il peut se coucher plus tard, et c'est normal. Dans les mois qui viennent, le coucher se calera peu à peu.
 
 #### La tétée de fin de soirée
-**La mise au lit du soir et la tétée de fin de soirée sont deux moments différents.** S'il se réveille encore pour boire vers 23 h, **tu n'as pas à l'attendre pour aller dormir** : couche-toi quand il dort, il saura t'appeler.
+**La mise au lit du soir et la tétée de fin de soirée sont deux moments différents.** S'il se réveille encore pour boire vers 23h, **tu n'as pas à l'attendre pour aller dormir** : couche-toi quand il dort, il saura t'appeler.
 
 ### Le relais du co-parent
 

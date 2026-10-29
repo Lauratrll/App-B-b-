@@ -102,10 +102,10 @@ C'est par ce calme-là qu'il va apprendre à entrer dans la nuit. Les enregistre
 
 #### Combien de temps éveillé ?
 Entre deux sommeils, voici les durées d'éveil moyennes observées chez beaucoup de bébés :
-- **vers 2 mois : environ 1 h 30** ;
-- **vers 3 mois : de 1 h 30 à 2 h** ;
-- **vers 4 mois : de 1 h 30 à 2 h 30** ;
-- **vers 5 mois : de 2 h à 3 h**.
+- **vers 2 mois : environ 1h30** ;
+- **vers 3 mois : de 1h30 à 2h** ;
+- **vers 4 mois : de 1h30 à 2h30** ;
+- **vers 5 mois : de 2h à 3h**.
 
 **Ce sont des moyennes, pas des règles** : cela varie d'un bébé à l'autre, et d'un jour à l'autre. Si, le soir, tu le couches souvent bien après ces durées, c'est une raison de regarder s'il n'arrive pas trop fatigué.
 
@@ -183,10 +183,10 @@ Un bébé qui a eu sa dose de contact, de regards et de voix dans la journée se
 ### Le coucher
 
 #### L'heure du coucher
-Le coucher avance peu à peu : **autour de 2 mois, le plus souvent entre 20 h et 21 h ; vers 3 mois, entre 19 h et 20 h 30 ; de 4 à 5 mois, entre 18 h et 20 h**. Mais ce n'est jamais une heure à tenir à la minute : elle dépend de ton bébé, et aussi de ta famille, de vos journées, de votre travail. **Comme pour les siestes, c'est la fin de son éveil calme qui te dit quand proposer la nuit.** S'il boit encore la nuit, si sa dernière sieste finit vers 17 h ou si les pleurs du soir s'installent, il peut se coucher plus tard, et c'est normal. Dans les mois qui viennent, le coucher se calera peu à peu.
+Le coucher avance peu à peu : **autour de 2 mois, le plus souvent entre 20h et 21h ; vers 3 mois, entre 19h et 20h30 ; de 4 à 5 mois, entre 18h et 20h**. Mais ce n'est jamais une heure à tenir à la minute : elle dépend de ton bébé, et aussi de ta famille, de vos journées, de votre travail. **Comme pour les siestes, c'est la fin de son éveil calme qui te dit quand proposer la nuit.** S'il boit encore la nuit, si sa dernière sieste finit vers 17h ou si les pleurs du soir s'installent, il peut se coucher plus tard, et c'est normal. Dans les mois qui viennent, le coucher se calera peu à peu.
 
 #### La tétée de fin de soirée
-**La mise au lit du soir et la tétée de fin de soirée sont deux moments différents.** S'il se réveille encore pour boire vers 23 h, **tu n'as pas à l'attendre pour aller dormir** : couche-toi quand il dort, il saura t'appeler.
+**La mise au lit du soir et la tétée de fin de soirée sont deux moments différents.** S'il se réveille encore pour boire vers 23h, **tu n'as pas à l'attendre pour aller dormir** : couche-toi quand il dort, il saura t'appeler.
 
 ### Le relais du co-parent
 

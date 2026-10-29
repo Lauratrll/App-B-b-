@@ -34,14 +34,14 @@ const SOUS_TITRE_THEME = "Ce qu'on travaille en ce moment";
 // soleil couchant (rouge-violet doux) pour mon rituel / thème du mois.
 // Couleur de la carte, par groupe de slots (même groupe = même couleur).
 const CARTE: Record<string, string> = {
-  "reperes-cles": "#FBE9BE",
-  "comprendre-son-sommeil": "#F8D49E",
-  "journee-et-siestes": "#B1CAD0",
-  "fin-de-journee": "#8FB4BC",
-  endormissement: "#779FAD",
-  "reveils-nocturnes": "#6692A2",
-  "mon-rituel": "#EDC6D6",
-  "theme-du-mois": "#D8A6C6",
+  "reperes-cles": "#F3E7CF",
+  "comprendre-son-sommeil": "#DCDAC7",
+  "journee-et-siestes": "#CDDDE1",
+  "fin-de-journee": "#B7CFD4",
+  endormissement: "#A1C0C7",
+  "reveils-nocturnes": "#8FB4BC",
+  "mon-rituel": "#B5B4C0",
+  "theme-du-mois": "#D2B5C4",
 };
 
 // Slots qui changent chaque mois : pas de tranche d'âge affichée.
@@ -118,7 +118,17 @@ const PICTO_SLOT: Record<string, React.ReactNode> = {
   ),
 };
 
-function SlotPicto({ id, taille = 22, couleur = "#3A3228" }: { id: string; taille?: number; couleur?: string }) {
+function SlotPicto({
+  id,
+  taille = 22,
+  couleur = "#3A3228",
+  epaisseur = 1.6,
+}: {
+  id: string;
+  taille?: number;
+  couleur?: string;
+  epaisseur?: number;
+}) {
   return (
     <svg
       width={taille}
@@ -126,7 +136,7 @@ function SlotPicto({ id, taille = 22, couleur = "#3A3228" }: { id: string; taill
       viewBox="0 0 24 24"
       fill="none"
       stroke={couleur}
-      strokeWidth="1.6"
+      strokeWidth={epaisseur}
       strokeLinecap="round"
       strokeLinejoin="round"
       aria-hidden
@@ -174,7 +184,7 @@ function Entete({
         {suite ? (
           <>
             {" / "}
-            <span style={{ ...labelStyle, fontFamily: "Arial, Helvetica, sans-serif", fontSize: 13, color: "#5C6E68", letterSpacing: ".08em" }}>
+            <span style={{ ...labelStyle, fontFamily: "Arial, Helvetica, sans-serif", fontSize: 13, color: TEXT, letterSpacing: ".08em" }}>
               {suite}
             </span>
           </>
@@ -245,7 +255,7 @@ function Grille({ sommeil }: { sommeil: SommeilMois }) {
                 {MENSUELS.has(pt.id) ? null : (
                   <>
                     {" / "}
-                    <span style={{ ...labelStyle, fontFamily: "Arial, Helvetica, sans-serif", fontSize: 10, color: "#5C6E68", letterSpacing: ".08em" }}>
+                    <span style={{ ...labelStyle, fontFamily: "Arial, Helvetica, sans-serif", fontSize: 10, color: TEXT, letterSpacing: ".08em" }}>
                       {ageCarte(sommeil)}
                     </span>
                   </>
@@ -399,8 +409,9 @@ function Slot({
       ) : (
         <Entete
           picto={
-            <span style={{ display: "inline-flex", width: 44, height: 44, borderRadius: "50%", alignItems: "center", justifyContent: "center", background: theme.bg, border: `1px solid ${theme.accent}` }}>
-              <SlotPicto id={partie.id} couleur={theme.label} />
+            // 29/10 : pas de rond autour du picto, juste la couleur du slot.
+            <span style={{ display: "flex", justifyContent: "center" }}>
+              <SlotPicto id={partie.id} taille={36} epaisseur={2} couleur={CARTE[partie.id] ?? theme.label} />
             </span>
           }
           titre={partie.titre}

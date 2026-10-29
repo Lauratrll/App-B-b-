@@ -4,10 +4,10 @@
 
 #### Combien de temps éveillé ?
 Entre deux sommeils, voici les durées d'éveil moyennes observées chez beaucoup de bébés :
-- **vers 2 mois : environ 1 h 30** ;
-- **vers 3 mois : de 1 h 30 à 2 h** ;
-- **vers 4 mois : de 1 h 30 à 2 h 30** ;
-- **vers 5 mois : de 2 h à 3 h**.
+- **vers 2 mois : environ 1h30** ;
+- **vers 3 mois : de 1h30 à 2h** ;
+- **vers 4 mois : de 1h30 à 2h30** ;
+- **vers 5 mois : de 2h à 3h**.
 
 **Ce sont des moyennes, pas des règles** : cela varie d'un bébé à l'autre, et d'un jour à l'autre. Si, le soir, tu le couches souvent bien après ces durées, c'est une raison de regarder s'il n'arrive pas trop fatigué.
 

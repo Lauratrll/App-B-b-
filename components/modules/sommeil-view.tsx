@@ -48,14 +48,14 @@ export const THEME_PARTIE: Record<string, ThemeVolet> = {
 // (journée → réveils nocturnes), soleil couchant rouge-violet (mon rituel, thème du mois). Même couleurs que les cartes.
 const T = (bg: string, accent: string, label: string): ThemeVolet => ({ bg, accent, label });
 export const THEME_SLOT: Record<string, ThemeVolet> = {
-  "reperes-cles": T("#FDF4DC", "#F3D27A", "#7A5A10"),
-  "comprendre-son-sommeil": T("#FBEBD3", "#EFB96C", "#7A4A10"),
-  "journee-et-siestes": T("#E9F5FE", "#7FC0F0", "#1F5A85"),
-  "fin-de-journee": T("#E0EFFC", "#6DAEEA", "#1E5080"),
-  endormissement: T("#D8E9FA", "#5C9DE4", "#1D4678"),
-  "reveils-nocturnes": T("#D3E2F8", "#5088DA", "#1C3F70"),
-  "mon-rituel": T("#F8E9EF", "#DDA3BC", "#6E2F4F"),
-  "theme-du-mois": T("#F1E0EC", "#C88BB0", "#5E2A4B"),
+  "reperes-cles": T("#FAF5EC", "#F3E7CF", "#5E4E2E"),
+  "comprendre-son-sommeil": T("#F1F0E9", "#DCDAC7", "#4F4B35"),
+  "journee-et-siestes": T("#F1F5F7", "#CDDDE1", "#1F3F52"),
+  "fin-de-journee": T("#EBF2F3", "#B7CFD4", "#1F3F52"),
+  endormissement: T("#E5EDEF", "#A1C0C7", "#1F3F52"),
+  "reveils-nocturnes": T("#E0EAEC", "#8FB4BC", "#1F3F52"),
+  "mon-rituel": T("#E1E1E6", "#B5B4C0", "#473F58"),
+  "theme-du-mois": T("#EDE1E7", "#D2B5C4", "#58384A"),
 };
 export const THEME_DEFAUT = C.cequisepasse;
 const SECURITE = { bg: "#EDE9E4", accent: "#D4604A", label: "#8A3020" };
@@ -422,7 +422,7 @@ function Bientot({ titre, items, p }: { titre: string; items: string[]; p: (t?: 
             textTransform: "uppercase",
             letterSpacing: ".05em",
             color: "#FFFFFF",
-            background: "#8FB4BC",
+            background: "#CDDDE1",
             borderRadius: 6,
             padding: "2px 7px",
             flexShrink: 0,
