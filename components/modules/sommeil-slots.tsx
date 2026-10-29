@@ -49,9 +49,7 @@ const CARTE: Record<string, string> = {
 const MENSUELS = new Set(["reperes-cles", "comprendre-son-sommeil", "mon-rituel", "theme-du-mois"]);
 const PHRASE_REPERES = "Une journée type, pas un objectif : chaque bébé a son rythme.";
 
-const age = (s: SommeilMois) =>
-  s.tranche ? `${s.tranche.debut} - ${s.tranche.fin} mois` : `${s.mois} mois`;
-// Sur les cartes de la grille : « 2 à 5 mois » (exemple de Laura, 29/10).
+// Tranche d'âge : « 2 à 5 mois » (cartes et pages des slots, Laura 29/10).
 const ageCarte = (s: SommeilMois) =>
   s.tranche ? `${s.tranche.debut} à ${s.tranche.fin} mois` : `${s.mois} mois`;
 
@@ -167,9 +165,6 @@ function Entete({
   return (
     <header style={{ textAlign: "center", marginBottom: picto === null && phrase ? 6 : 16 }}>
       {picto === null ? null : (picto ?? <LuneEtoile />)}
-      {petit ? (
-        <div style={{ ...labelStyle, color: EUCAL, letterSpacing: ".15em", marginTop: 6 }}>{petit}</div>
-      ) : null}
       <h1
         style={{
           fontFamily: PLAYFAIR,
@@ -191,6 +186,10 @@ function Entete({
           </>
         ) : null}
       </h1>
+      {/* 29/10 : la tranche d'âge passe sous le titre. */}
+      {petit ? (
+        <div style={{ ...labelStyle, color: EUCAL, letterSpacing: ".15em", marginBottom: 2 }}>{petit}</div>
+      ) : null}
       {sousTitre ? (
         <div style={{ ...labelStyle, color: EUCAL, letterSpacing: ".15em" }}>{sousTitre}</div>
       ) : null}
@@ -204,8 +203,10 @@ function Entete({
 
 function Grille({ sommeil }: { sommeil: SommeilMois }) {
   return (
-    <div style={{ padding: "4px 16px 80px" }}>
-      <Entete picto={null} titre="Sommeil et endormissement" sousTitre="Rythme et Rituels" />
+    // 29/10 : grille centrée entre le haut de l'écran et la barre du bas (espaces égaux).
+    <div style={{ flex: 1, display: "flex", flexDirection: "column", padding: "0 16px 8px" }}>
+      <div aria-hidden style={{ flex: 1 }} />
+      <Entete picto={null} titre="Sommeil & Endormissement" sousTitre="Rythme et Rituels" />
       {/* 29/10 : mêmes cartes que la page 1 de Guide-moi (taille, rond, flèche à droite).
           La tranche d'âge suit le titre sur la même ligne : « Fin de journée / 2 À 5 MOIS ». */}
       <ul
@@ -270,6 +271,7 @@ function Grille({ sommeil }: { sommeil: SommeilMois }) {
           </li>
         ))}
       </ul>
+      <div aria-hidden style={{ flex: 1 }} />
     </div>
   );
 }
@@ -417,7 +419,7 @@ function Slot({
             </span>
           }
           titre={partie.titre}
-          petit={MENSUELS.has(partie.id) ? undefined : age(sommeil)}
+          petit={MENSUELS.has(partie.id) ? undefined : ageCarte(sommeil)}
           sousTitre={estTheme ? SOUS_TITRE_THEME : undefined}
         />
       )}

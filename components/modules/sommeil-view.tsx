@@ -624,7 +624,7 @@ export function SommeilView({
             margin: "8px 0 6px",
           }}
         >
-          Sommeil et endormissement
+          Sommeil & Endormissement
         </h1>
         <div
           style={{

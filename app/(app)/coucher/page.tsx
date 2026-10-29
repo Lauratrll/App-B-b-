@@ -6,7 +6,7 @@ import { CoucherView } from "@/components/modules/coucher-view";
 import { SommeilView } from "@/components/modules/sommeil-view";
 import { SommeilSlots } from "@/components/modules/sommeil-slots";
 
-// Page « Sommeil et endormissement · Rythme et Rituels » (28/10).
+// Page « Sommeil & Endormissement · Rythme et Rituels » (28/10).
 // ?slot=… : slot ouvert (tranche en slots, pilote M2-M5).
 export default async function CoucherPage({
   searchParams,
@@ -21,8 +21,13 @@ export default async function CoucherPage({
   // parents depuis le 28/10 (avant : admins seulement).
   const sommeil = getSommeil(mois);
   if (sommeil?.forme === "slots") {
+    // 29/10 : sur la grille (pas de slot ouvert), la page prend toute la hauteur pour se centrer.
+    const grille = !searchParams?.slot;
     return (
-      <section>
+      <section
+        className={grille ? "centre-vertical" : undefined}
+        style={grille ? { display: "flex", flexDirection: "column", flex: 1 } : undefined}
+      >
         <SommeilSlots
           sommeil={sommeil}
           slot={searchParams?.slot ?? null}
@@ -50,7 +55,7 @@ export default async function CoucherPage({
       <section className="space-y-5">
         <header className="space-y-1">
           <p className="text-2xl" aria-hidden>🌙</p>
-          <h1 className="text-2xl font-semibold">Sommeil et endormissement</h1>
+          <h1 className="text-2xl font-semibold">Sommeil & Endormissement</h1>
         </header>
         <p className="rounded-xl bg-amber-50 p-4 text-sm text-amber-900">
           Le rituel du coucher du mois {mois} n&apos;est pas encore disponible.
