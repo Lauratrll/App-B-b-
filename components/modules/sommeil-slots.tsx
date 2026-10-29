@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import type React from "react";
 import Link from "next/link";
 import type { SommeilMois, SommeilPartie, SommeilReperes } from "@/lib/sommeil";
@@ -7,7 +8,7 @@ import type { Genre } from "@/lib/auth";
 import { LuneEtoile, TEXT, labelStyle, personaliser } from "@/components/modules/coucher-view";
 import { NavBack } from "@/components/ui/nav-context";
 import { teinteAuDessus } from "@/lib/couleurs";
-import { LegendeRoue, RoueSommeil, aUneRoue } from "@/components/modules/sommeil-roue";
+import { COULEURS_ROUE, LegendeRoue, RoueSommeil, aUneRoue } from "@/components/modules/sommeil-roue";
 import {
   Blocs,
   Inline,
@@ -47,7 +48,7 @@ const CARTE: Record<string, string> = {
 
 // Slots qui changent chaque mois : pas de tranche d'âge affichée.
 const MENSUELS = new Set(["reperes-cles", "comprendre-son-sommeil", "mon-rituel", "theme-du-mois"]);
-const PHRASE_REPERES = "Une journée type, pas un objectif : chaque bébé a son rythme.";
+const PHRASE_REPERES = "Une journée type, pas un objectif\u00a0: chaque bébé a son rythme.";
 
 // Tranche d'âge : « 2 à 5 mois » (cartes et pages des slots, Laura 29/10).
 const ageCarte = (s: SommeilMois) =>
@@ -276,23 +277,39 @@ function Grille({ sommeil }: { sommeil: SommeilMois }) {
   );
 }
 
-const LIBELLES_REPERES: [keyof SommeilReperes, string][] = [
-  ["sommeil_24h", "Sommeil sur 24h"],
-  ["siestes", "Siestes"],
-  ["duree_eveil_moyenne", "Fenêtre d'éveil"],
-  ["cycle", "Cycle de sommeil"],
-  ["coucher", "Coucher"],
-];
+// ----------------------------------------------------------------------------
+// Repères clés (refonte 29/10, Laura) : tout tient sur un écran, sans défiler.
+// Titre « Repères clés » + « à 4 mois » à la ligne ; la phrase en sous-titre ;
+// la roue agrandie ; les repères en deux colonnes en quinconce, aux couleurs
+// de la roue (nuit, sieste, éveil) ; un bouton vers l'outil « rythme » (à venir).
+// ----------------------------------------------------------------------------
 
-// 29/10 : pas de cadres. Chaque repère est une forme ovale asymétrique, dans un dégradé de bleus,
-// avec un pictogramme (style infographie).
-const NAVY = "#1F3A5F";
-const BLOBS = [
-  "M28 10 C60 -4 118 2 146 26 C166 46 150 90 112 100 C70 112 20 100 8 66 C-2 40 8 20 28 10 Z",
-  "M40 6 C84 -6 140 10 152 44 C162 76 128 106 86 104 C42 102 4 92 6 56 C8 30 22 12 40 6 Z",
-  "M20 24 C44 2 104 -2 136 14 C164 28 158 72 130 92 C98 114 44 106 18 84 C-2 66 -2 40 20 24 Z",
+type Forme = { fond: string; texte: string; d: string; marge: string };
+
+// Formes ovales asymétriques (viewBox 160 x 100, étirées à la taille de la case).
+const OVALES = [
+  "M28 9 C60 -4 118 2 146 24 C166 42 150 82 112 91 C70 102 20 91 8 60 C-2 36 8 18 28 9 Z",
+  "M40 5 C84 -5 140 9 152 40 C162 69 128 96 86 95 C42 93 4 84 6 51 C8 27 22 11 40 5 Z",
+  "M20 22 C44 2 104 -2 136 13 C164 25 158 65 130 84 C98 104 44 96 18 76 C-2 60 -2 36 20 22 Z",
 ];
-const BLEUS = ["#D6EAFB", "#C2DDF6", "#AED0F1", "#9CC3EC", "#8DB7E6"];
+// Fenêtre d'éveil : forme plus large et plus droite, pour que les horaires (« 2h30 à 3h45 ») tiennent.
+const OVALE_LARGE = "M22 8 C62 0 122 0 148 14 C162 26 162 72 148 86 C122 100 52 100 20 92 C2 86 -2 60 2 40 C5 20 10 12 22 8 Z";
+
+const NUIT = { fond: COULEURS_ROUE.nuit, texte: "#FFFFFF" };
+const SIESTE = { fond: COULEURS_ROUE.sieste, texte: TEXT };
+const EVEIL = { fond: COULEURS_ROUE.eveil, texte: TEXT };
+
+// Colonne de gauche : sommeil (nuit), fenêtre d'éveil (éveil), coucher (sieste).
+// Colonne de droite, décalée d'une demi-case : siestes (sieste), cycle (nuit).
+const GAUCHE: [keyof SommeilReperes, string, Forme][] = [
+  ["sommeil_24h", "Sommeil sur 24h", { ...NUIT, d: OVALES[0], marge: "14%" }],
+  ["duree_eveil_moyenne", "Fenêtre d'éveil", { ...EVEIL, d: OVALE_LARGE, marge: "7%" }],
+  ["coucher", "Coucher", { ...SIESTE, d: OVALES[2], marge: "12%" }],
+];
+const DROITE: [keyof SommeilReperes, string, Forme][] = [
+  ["siestes", "Siestes", { ...SIESTE, d: OVALES[1], marge: "14%" }],
+  ["cycle", "Cycle de sommeil", { ...NUIT, d: OVALES[2], marge: "10%" }],
+];
 
 const PICTO: Record<string, React.ReactNode> = {
   sommeil_24h: <path d="M17 14.5A7.5 7.5 0 0 1 9.5 7 7.5 7.5 0 1 0 17 14.5z" />,
@@ -323,46 +340,41 @@ const PICTO: Record<string, React.ReactNode> = {
   coucher: <path d="M12 3l2.6 5.6 6 .7-4.5 4.1 1.2 6L12 16.6 6.7 19.4l1.2-6L3.4 9.3l6-.7z" />,
 };
 
-function Bulle({ cle, libelle, valeur, i }: { cle: string; libelle: string; valeur: string; i: number }) {
+// Hauteur d'une case = 58 % de sa largeur ; le décalage de la colonne de droite en dépend.
+const RATIO = 58;
+const ECART = 6;
+
+function Bulle({ cle, libelle, valeur, forme }: { cle: string; libelle: string; valeur: string; forme: Forme }) {
   return (
-    <div style={{ position: "relative", minWidth: 0, aspectRatio: "160 / 110" }}>
+    <div style={{ position: "relative", minWidth: 0, aspectRatio: `100 / ${RATIO}` }}>
       <svg
-        viewBox="0 0 160 110"
+        viewBox="0 0 160 100"
         preserveAspectRatio="none"
         aria-hidden
         style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }}
       >
-        <path d={BLOBS[i % BLOBS.length]} fill={BLEUS[i % BLEUS.length]} />
+        <path d={forme.d} fill={forme.fond} />
       </svg>
       <div
         style={{
           position: "relative",
           height: "100%",
           boxSizing: "border-box",
-          padding: "0 12%",
+          padding: `0 ${forme.marge}`,
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
           textAlign: "center",
           gap: 2,
+          color: forme.texte,
         }}
       >
-        <svg
-          width="17"
-          height="17"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke={NAVY}
-          strokeWidth="1.6"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          aria-hidden
-        >
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
           {PICTO[cle]}
         </svg>
-        <div style={{ ...labelStyle, fontSize: 7, letterSpacing: ".04em", lineHeight: 1.2, color: NAVY, opacity: 0.75 }}>{libelle}</div>
-        <div style={{ fontFamily: PLAYFAIR, fontSize: 13.5, fontWeight: 700, color: NAVY, lineHeight: 1.1, whiteSpace: "nowrap" }}>
+        <div style={{ ...labelStyle, fontSize: 8.5, letterSpacing: ".05em", lineHeight: 1.2 }}>{libelle}</div>
+        <div style={{ fontFamily: PLAYFAIR, fontSize: 16.5, fontWeight: 700, lineHeight: 1.1, whiteSpace: "nowrap" }}>
           {valeur}
         </div>
       </div>
@@ -370,28 +382,94 @@ function Bulle({ cle, libelle, valeur, i }: { cle: string; libelle: string; vale
   );
 }
 
+function Colonne({ items, r, decalee }: { items: [keyof SommeilReperes, string, Forme][]; r: SommeilReperes; decalee?: boolean }) {
+  return (
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        gap: ECART,
+        minWidth: 0,
+        // Quinconce : la colonne de droite descend d'une demi-case.
+        paddingTop: decalee ? `calc((100% * ${RATIO} / 100 + ${ECART}px) / 2)` : 0,
+      }}
+    >
+      {items
+        .filter(([k]) => r[k])
+        .map(([k, libelle, forme]) => (
+          <Bulle key={k} cle={k} libelle={libelle} valeur={String(r[k])} forme={forme} />
+        ))}
+    </div>
+  );
+}
+
+function BoutonRythme() {
+  const [ouvert, setOuvert] = useState(false);
+  return (
+    <div style={{ textAlign: "center" }}>
+      {/* Mènera à l'outil « rythme de mon bébé », à développer plus tard. */}
+      <button
+        type="button"
+        onClick={() => setOuvert(true)}
+        style={{
+          width: "100%",
+          border: "none",
+          borderRadius: 999,
+          padding: "12px 16px",
+          background: COULEURS_ROUE.nuit,
+          color: "#FFFFFF",
+          fontFamily: PLAYFAIR,
+          fontSize: 15,
+          fontWeight: 600,
+          cursor: "pointer",
+        }}
+      >
+        Enregistrer le rythme de mon bébé
+      </button>
+      {ouvert ? (
+        <p style={{ ...labelStyle, color: EUCAL, letterSpacing: ".12em", margin: "6px 0 0" }}>Bientôt disponible</p>
+      ) : null}
+    </div>
+  );
+}
+
 function ReperesCles({ sommeil }: { sommeil: SommeilMois }) {
   const r = sommeil.reperes ?? {};
-  const cartes = LIBELLES_REPERES.filter(([k]) => r[k]);
   return (
-    <>
-      {/* 29/10 : « Éveil / Sommeil sur 24h » est au centre de la roue ; repères sur 3 colonnes
-          pour que la page tienne sur un écran. */}
-      {/* 29/10 : pas de roue pour ce mois (journée type pas encore dessinée) : ni roue ni légende. */}
+    <div style={{ flex: 1, display: "flex", flexDirection: "column", padding: "0 16px 8px" }}>
+      <NavBack href="/coucher" label="Sommeil" />
+      <div aria-hidden style={{ flex: 1 }} />
+      <header style={{ textAlign: "center", marginBottom: 14 }}>
+        <h1
+          style={{
+            fontFamily: PLAYFAIR,
+            fontSize: 22,
+            fontWeight: 600,
+            color: TEXT,
+            lineHeight: 1.15,
+            margin: "0 0 6px",
+          }}
+        >
+          Repères clés
+          <br />à {sommeil.mois} mois
+        </h1>
+        <p style={{ ...labelStyle, color: EUCAL, letterSpacing: ".15em", lineHeight: 1.5, margin: 0, textWrap: "balance" }}>
+          {PHRASE_REPERES}
+        </p>
+      </header>
       {aUneRoue(sommeil.mois) ? (
-        <div style={{ padding: "0 0 2px", marginBottom: 2 }}>
-        <RoueSommeil mois={sommeil.mois} />
-        <LegendeRoue />
-      </div>
-      ) : null}
-      {cartes.length > 0 ? (
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0, 1fr))", gap: 2 }}>
-          {cartes.map(([k, libelle], i) => (
-            <Bulle key={k} cle={k} libelle={libelle} valeur={String(r[k])} i={i} />
-          ))}
+        <div style={{ marginBottom: 6 }}>
+          <RoueSommeil mois={sommeil.mois} taille={250} />
+          <LegendeRoue />
         </div>
       ) : null}
-    </>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: ECART, margin: "6px 0 14px" }}>
+        <Colonne items={GAUCHE} r={r} />
+        <Colonne items={DROITE} r={r} decalee />
+      </div>
+      <BoutonRythme />
+      <div aria-hidden style={{ flex: 1 }} />
+    </div>
   );
 }
 
@@ -406,28 +484,22 @@ function Slot({
 }) {
   const theme = THEME_SLOT[partie.id] ?? THEME_DEFAUT;
   const estTheme = partie.id === "theme-du-mois";
-  const estReperes = partie.id === "reperes-cles";
+  // Repères clés : page à part, qui tient sur un écran (refonte 29/10).
+  if (partie.id === "reperes-cles") return <ReperesCles sommeil={sommeil} />;
   return (
     <div style={{ padding: "4px 16px 80px" }}>
       <NavBack href="/coucher" label="Sommeil" />
-      {estReperes ? (
-        // 29/10 : tout tient sur un écran ; pas de picto, le mois suit le titre, la phrase en sous-titre.
-        <Entete picto={null} titre={partie.titre} suite={`${sommeil.mois} mois`} phrase={PHRASE_REPERES} />
-      ) : (
-        <Entete
-          picto={
-            // 29/10 : pas de rond autour du picto, juste la couleur du slot.
-            <span style={{ display: "flex", justifyContent: "center" }}>
-              <SlotPicto id={partie.id} taille={36} epaisseur={2} couleur={CARTE[partie.id] ?? theme.label} />
-            </span>
-          }
-          titre={partie.titre}
-          petit={MENSUELS.has(partie.id) ? undefined : ageCarte(sommeil)}
-          sousTitre={estTheme ? SOUS_TITRE_THEME : undefined}
-        />
-      )}
-
-      {partie.id === "reperes-cles" ? <ReperesCles sommeil={sommeil} /> : null}
+      <Entete
+        picto={
+          // 29/10 : pas de rond autour du picto, juste la couleur du slot.
+          <span style={{ display: "flex", justifyContent: "center" }}>
+            <SlotPicto id={partie.id} taille={36} epaisseur={2} couleur={CARTE[partie.id] ?? theme.label} />
+          </span>
+        }
+        titre={partie.titre}
+        petit={MENSUELS.has(partie.id) ? undefined : ageCarte(sommeil)}
+        sousTitre={estTheme ? SOUS_TITRE_THEME : undefined}
+      />
 
       {partie.sections.map((s) => {
         if (estCadre(s)) {

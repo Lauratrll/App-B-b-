@@ -21,8 +21,9 @@ export default async function CoucherPage({
   // parents depuis le 28/10 (avant : admins seulement).
   const sommeil = getSommeil(mois);
   if (sommeil?.forme === "slots") {
-    // 29/10 : sur la grille (pas de slot ouvert), la page prend toute la hauteur pour se centrer.
-    const grille = !searchParams?.slot;
+    // 29/10 : sur la grille (pas de slot ouvert) et sur Repères clés, la page prend toute la
+    // hauteur de l'écran pour se centrer.
+    const grille = !searchParams?.slot || searchParams.slot === "reperes-cles";
     return (
       <section
         className={grille ? "centre-vertical" : undefined}

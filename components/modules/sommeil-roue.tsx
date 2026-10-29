@@ -57,6 +57,152 @@ const JOURNEES: Record<number, Journee> = {
       ["16:45", "17:20"],
     ],
   },
+  // 29/10 : 6, 7 et 8 mois, repris tels quels de sommeil_24h.html (SRC.refs « 6m » à « 8m »).
+  6: {
+    coucher: "19:45",
+    sommeils: [
+      ["19:45", "00:30"],
+      ["01:05", "07:00"],
+      ["09:00", "11:00"],
+      ["13:00", "15:00"],
+      ["17:00", "17:30"],
+    ],
+  },
+  7: {
+    coucher: "19:45",
+    sommeils: [
+      ["19:45", "00:30"],
+      ["01:05", "07:00"],
+      ["09:00", "10:55"],
+      ["13:15", "15:20"],
+      ["17:00", "17:30"],
+    ],
+  },
+  8: {
+    coucher: "19:45",
+    sommeils: [
+      ["19:45", "00:45"],
+      ["01:05", "06:45"],
+      ["09:00", "10:50"],
+      ["13:30", "15:45"],
+      ["17:00", "17:20"],
+    ],
+  },
+  // 29/10 : 9 à 23 mois, repris tels quels de sommeil_24h.html (SRC.refs « 9m » à « 23m »).
+  9: {
+    coucher: "19:30",
+    sommeils: [
+      ["19:30", "06:30"],
+      ["09:00", "10:45"],
+      ["13:30", "15:50"],
+    ],
+  },
+  10: {
+    coucher: "19:30",
+    sommeils: [
+      ["19:30", "06:30"],
+      ["09:15", "10:45"],
+      ["13:30", "15:50"],
+    ],
+  },
+  11: {
+    coucher: "19:30",
+    sommeils: [
+      ["19:30", "06:30"],
+      ["09:30", "10:45"],
+      ["13:30", "15:50"],
+    ],
+  },
+  12: {
+    coucher: "19:30",
+    sommeils: [
+      ["19:30", "06:30"],
+      ["09:45", "10:55"],
+      ["13:30", "15:50"],
+    ],
+  },
+  13: {
+    coucher: "19:30",
+    sommeils: [
+      ["19:30", "06:30"],
+      ["10:00", "10:55"],
+      ["13:30", "15:50"],
+    ],
+  },
+  14: {
+    coucher: "19:30",
+    sommeils: [
+      ["19:30", "06:45"],
+      ["10:15", "10:55"],
+      ["13:30", "15:50"],
+    ],
+  },
+  15: {
+    coucher: "19:30",
+    sommeils: [
+      ["19:30", "06:45"],
+      ["10:30", "11:05"],
+      ["13:30", "15:50"],
+    ],
+  },
+  16: {
+    coucher: "19:30",
+    sommeils: [
+      ["19:30", "06:45"],
+      ["10:45", "11:20"],
+      ["13:15", "15:35"],
+    ],
+  },
+  17: {
+    coucher: "19:30",
+    sommeils: [
+      ["19:30", "06:45"],
+      ["11:00", "11:30"],
+      ["13:00", "15:20"],
+    ],
+  },
+  18: {
+    coucher: "19:00",
+    sommeils: [
+      ["19:00", "06:45"],
+      ["12:30", "14:50"],
+    ],
+  },
+  19: {
+    coucher: "19:00",
+    sommeils: [
+      ["19:00", "06:45"],
+      ["12:30", "14:45"],
+    ],
+  },
+  20: {
+    coucher: "19:00",
+    sommeils: [
+      ["19:00", "06:45"],
+      ["12:30", "14:30"],
+    ],
+  },
+  21: {
+    coucher: "19:00",
+    sommeils: [
+      ["19:00", "06:45"],
+      ["12:30", "14:25"],
+    ],
+  },
+  22: {
+    coucher: "19:30",
+    sommeils: [
+      ["19:30", "07:00"],
+      ["12:30", "14:20"],
+    ],
+  },
+  23: {
+    coucher: "19:30",
+    sommeils: [
+      ["19:30", "07:00"],
+      ["12:30", "14:15"],
+    ],
+  },
 };
 
 export const COULEURS_ROUE = {
@@ -95,7 +241,7 @@ export function aUneRoue(mois: number) {
   return Boolean(JOURNEES[mois]);
 }
 
-export function RoueSommeil({ mois }: { mois: number }) {
+export function RoueSommeil({ mois, taille = 215 }: { mois: number; taille?: number }) {
   const j = JOURNEES[mois];
   if (!j) return null;
   const cx = 130;
@@ -108,7 +254,7 @@ export function RoueSommeil({ mois }: { mois: number }) {
       viewBox="0 32 260 222"
       role="img"
       aria-label={`Roue du sommeil sur 24 heures, journée type à ${mois} mois : la nuit et les siestes en bleu, l'éveil en clair.`}
-      style={{ display: "block", width: "100%", maxWidth: 215, height: "auto", margin: "0 auto" }}
+      style={{ display: "block", width: "100%", maxWidth: taille, height: "auto", margin: "0 auto" }}
     >
       {/* Anneau d'éveil : ce qui reste entre deux sommeils. */}
       <circle
