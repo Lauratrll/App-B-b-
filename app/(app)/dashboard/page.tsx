@@ -36,7 +36,10 @@ export default async function DashboardPage() {
 
   // pb-4 : le tiers des boutons ronds de la barre du bas dépasse au-dessus.
   return (
-    <section className="space-y-5 pb-4">
+    // 29/10 : accueil centré entre le haut de l'écran et le haut de la barre du bas
+    // En bas : 8 px compensent l'écart du cadre (24 px en haut, 16 px en bas) + 18 px, le tiers
+    // des boutons ronds qui dépasse au-dessus de la barre (ROND / 3) : on centre jusqu'à leur sommet.
+    <section className="centre-vertical flex flex-1 flex-col justify-center gap-5 pb-[26px]">
       <header className="space-y-1">
         {/* Prénom et âge, et à droite le menu « 3 traits » des réglages (20/10). */}
         <div className="flex items-center justify-between">
