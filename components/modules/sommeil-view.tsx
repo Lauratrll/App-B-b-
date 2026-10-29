@@ -39,22 +39,23 @@ export type ThemeVolet = { bg: string; accent: string; label: string };
 // Couleurs des volets par partie (onglet ou slot).
 // Slots (pilote M2-M5, 28/10) : une couleur par groupe de deux slots, la même
 // que la carte de la grille (sommeil-slots.tsx).
-const BLEU_PLUIE: ThemeVolet = { bg: "#E8F0F2", accent: "#8FB4BC", label: "#3A5A64" };
-const SAUGE: ThemeVolet = { bg: "#E5EBDD", accent: "#82A56A", label: "#3F5C2E" };
 export const THEME_PARTIE: Record<string, ThemeVolet> = {
   "comprendre-son-sommeil": C.cequisepasse,
   "son-rythme": C.reperes,
 };
 // Slots : la tranche en slots a aussi « comprendre-son-sommeil », mais en bleu.
+// 29/10 : pastels, trois familles. Soleil levant jaune-orangé (repères, comprendre), dégradé de bleu du ciel à la nuit
+// (journée → réveils nocturnes), soleil couchant rouge-violet (mon rituel, thème du mois). Même couleurs que les cartes.
+const T = (bg: string, accent: string, label: string): ThemeVolet => ({ bg, accent, label });
 export const THEME_SLOT: Record<string, ThemeVolet> = {
-  "reperes-cles": BLEU_PLUIE,
-  "comprendre-son-sommeil": BLEU_PLUIE,
-  "journee-et-siestes": C.reperes,
-  "fin-de-journee": C.reperes,
-  endormissement: C.cequisepasse,
-  "reveils-nocturnes": C.cequisepasse,
-  "mon-rituel": SAUGE,
-  "theme-du-mois": SAUGE,
+  "reperes-cles": T("#FDF4DC", "#F3D27A", "#7A5A10"),
+  "comprendre-son-sommeil": T("#FBEBD3", "#EFB96C", "#7A4A10"),
+  "journee-et-siestes": T("#E9F5FE", "#7FC0F0", "#1F5A85"),
+  "fin-de-journee": T("#E0EFFC", "#6DAEEA", "#1E5080"),
+  endormissement: T("#D8E9FA", "#5C9DE4", "#1D4678"),
+  "reveils-nocturnes": T("#D3E2F8", "#5088DA", "#1C3F70"),
+  "mon-rituel": T("#F8E9EF", "#DDA3BC", "#6E2F4F"),
+  "theme-du-mois": T("#F1E0EC", "#C88BB0", "#5E2A4B"),
 };
 export const THEME_DEFAUT = C.cequisepasse;
 const SECURITE = { bg: "#EDE9E4", accent: "#D4604A", label: "#8A3020" };
@@ -129,7 +130,7 @@ function Chevron({ open, accent }: { open: boolean; accent: string }) {
   );
 }
 
-function Blocs({
+export function Blocs({
   blocs,
   p,
   color,
@@ -256,7 +257,9 @@ export function Volet({
   theme,
   numero,
   selecteur,
+  majuscules,
 }: {
+  majuscules?: boolean;
   volet: SommeilVolet;
   p: (t?: string) => string;
   theme: { bg: string; accent: string; label: string };
@@ -311,7 +314,19 @@ export function Volet({
         ) : null}
         <span style={{ flex: 1 }}>
           <span
-            style={{ display: "block", fontSize: 12, fontWeight: 700, color: TEXT, lineHeight: 1.3 }}
+            style={
+              majuscules
+                ? {
+                    display: "block",
+                    fontSize: 10,
+                    fontWeight: 700,
+                    color: TEXT,
+                    lineHeight: 1.35,
+                    textTransform: "uppercase",
+                    letterSpacing: ".07em",
+                  }
+                : { display: "block", fontSize: 12, fontWeight: 700, color: TEXT, lineHeight: 1.3 }
+            }
           >
             {titre}
           </span>
@@ -381,9 +396,9 @@ export function Sources({ texte, p }: { texte: string; p: (t?: string) => string
   );
 }
 
-export function TitreSection({ titre, color }: { titre: string; color: string }) {
+export function TitreSection({ titre, color, grand }: { titre: string; color: string; grand?: boolean }) {
   return (
-    <div style={{ ...labelStyle, color, margin: "14px 0 7px" }}>{titre}</div>
+    <div style={{ ...labelStyle, ...(grand ? { fontSize: 12 } : {}), color, margin: "14px 0 7px" }}>{titre}</div>
   );
 }
 

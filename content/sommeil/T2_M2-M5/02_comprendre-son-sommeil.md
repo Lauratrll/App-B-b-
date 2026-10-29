@@ -3,16 +3,16 @@
 ### Ce qu'il se passe
 
 #### M2 · Le sourire
-À 2 mois, ton bébé te sourit pour de vrai : le lien se tisse, et il est de plus en plus présent à ce qui l'entoure. Son sommeil calme devient plus profond, mais son sommeil agité tient encore une grande place. Il fait beaucoup de siestes, sans horaire fixe : c'est sa fatigue qui te guide, pas l'horloge. Les pleurs du soir diminuent peu à peu après les premières semaines.
+Vers 2 mois, ton bébé te sourit pour de vrai : le lien se tisse, et il est de plus en plus présent à ce qui l'entoure. Son sommeil calme devient plus profond, mais son sommeil agité tient encore une grande place. Il fait beaucoup de siestes, sans horaire fixe : c'est sa fatigue qui te guide, pas l'horloge. Les pleurs du soir diminuent peu à peu après les premières semaines.
 
 #### M3 · Un sommeil qui se réorganise
-À 3 mois, le sommeil de ton bébé change de forme : son sommeil calme se divise en deux paliers, un sommeil léger puis un sommeil profond, et son propre cerveau commence à fabriquer de la mélatonine. Certaines nuits sont plus longues, d'autres plus agitées : c'est un équilibre qui se cherche, pas un retour en arrière. Ce mois-ci, ce qui t'aide le plus, c'est de l'observer et de répondre à ce qu'il te dit.
+Vers 3 mois, le sommeil de ton bébé change de forme : son sommeil calme se divise en deux paliers, un sommeil léger puis un sommeil profond, et son propre cerveau commence à fabriquer de la mélatonine. Certaines nuits sont plus longues, d'autres plus agitées : c'est un équilibre qui se cherche, pas un retour en arrière. Ce mois-ci, ce qui t'aide le plus, c'est de l'observer et de répondre à ce qu'il te dit.
 
 #### M4 · Le curieux
-À 4 mois, ton bébé est de plus en plus curieux : il découvre ses mains, fixe longuement les visages, sourit beaucoup. Son sommeil continue de se réorganiser : beaucoup de parents vivent cette période comme une « régression », alors que son cerveau apprend à enchaîner ses cycles. Il peut se réveiller plus souvent, et ce n'est ni de ta faute, ni un caprice. Son rythme de 24 heures commence à prendre le relais : la lumière et l'animation le jour, la pénombre et le calme la nuit.
+Vers 4 mois, ton bébé est de plus en plus curieux : il découvre ses mains, fixe longuement les visages, sourit beaucoup. Son sommeil continue de se réorganiser : beaucoup de parents vivent cette période comme une « régression », alors que son cerveau apprend à enchaîner ses cycles. Il peut se réveiller plus souvent, et ce n'est ni de ta faute, ni un caprice. Son rythme de 24 heures commence à prendre le relais : la lumière et l'animation le jour, la pénombre et le calme la nuit.
 
 #### M5 · Le petit joueur
-À 5 mois, ton bébé est un petit joueur : il attrape, secoue, porte tout à la bouche, rit et s'intéresse à tout. Cette vitalité remplit ses journées, et elle peut aussi l'agiter en fin de journée : plus il est stimulé, plus la redescente prend du temps. Ses nuits s'allongent parfois, et tâtonnent d'autres fois : les deux sont normaux. Il fait en général trois siestes, et c'est la fin de son éveil calme qui te dit quand lui proposer de dormir.
+Vers 5 mois, ton bébé est un petit joueur : il attrape, secoue, porte tout à la bouche, rit et s'intéresse à tout. Cette vitalité remplit ses journées, et elle peut aussi l'agiter en fin de journée : plus il est stimulé, plus la redescente prend du temps. Ses nuits s'allongent parfois, et tâtonnent d'autres fois : les deux sont normaux. Il fait en général trois siestes, et c'est la fin de son éveil calme qui te dit quand lui proposer de dormir.
 
 ### Ce que tu observes
 
@@ -32,7 +32,7 @@ Le sommeil de ton bébé n'est pas un interrupteur : **c'est son cerveau qui pas
 - **l'éveil agité** : il s'agite, ses mouvements deviennent désordonnés ;
 - **les pleurs**.
 
-À 2 mois, **un cycle complet dure environ 45 minutes**. Vers 3 mois, **il dure environ une heure**, de jour comme de nuit.
+**Un cycle complet dure environ 45 minutes** autour de 2 mois, puis **environ une heure** vers 3 mois, de jour comme de nuit.
 
 #### Bébé bouge et pleure pendant son sommeil
 Il entre encore dans le sommeil par le sommeil agité, **un sommeil paradoxal en construction** : il bouge, grimace, entrouvre les yeux, pousse de petits pleurs, et pourtant il dort. Au fil des mois, ce sommeil agité prend de moins en moins de place, et ses mouvements diminuent : son corps apprend à rester tranquille pendant que son cerveau travaille. **Ces mouvements-là ne sont pas des réveils** : des chercheurs pensent même qu'ils aident son cerveau à faire connaissance avec son corps².
@@ -62,13 +62,13 @@ Côté hormones, la mélatonine donne l'heure, elle n'endort pas. S'il est allai
 
 ### Ce qui bouge de 2 à 5 mois
 
-#### À 2 mois, un sommeil qui s'approfondit
-Son sommeil calme devient plus profond. **Plus profond ne veut pas dire que les nuits s'arrangent** : cela veut dire qu'il a moins de possibilités de se réveiller seul. Les consignes de sécurité du couchage restent donc les mêmes, tous les soirs.
+#### Un sommeil qui s'approfondit
+Vers 2 mois, son sommeil calme devient plus profond. **Plus profond ne veut pas dire que les nuits s'arrangent** : cela veut dire qu'il a moins de possibilités de se réveiller seul. Les consignes de sécurité du couchage restent donc les mêmes, tous les soirs.
 
-#### À 3 mois, un sommeil qui se réorganise
-Entre 3 et 4 mois, **son sommeil se réorganise vraiment** : c'est ce que beaucoup de parents vivent comme une « régression ». Son sommeil calme s'allège et se divise en deux paliers, un sommeil léger puis un sommeil profond. Peu à peu, l'ordre des marches s'inverse.
+#### Un sommeil qui se réorganise
+Autour de 3 à 4 mois, **son sommeil se réorganise vraiment** : c'est ce que beaucoup de parents vivent comme une « régression ». Son sommeil calme s'allège et se divise en deux paliers, un sommeil léger puis un sommeil profond. Peu à peu, l'ordre des marches s'inverse.
 
 #### Une nouvelle porte d'entrée dans la nuit
-C'est par ce calme-là qu'il va apprendre à entrer dans la nuit. Les enregistrements du sommeil des bébés le montrent⁴ : jusqu'à 3 mois, ils s'endorment surtout par le sommeil agité ; à partir de 6 mois, surtout par le sommeil calme. **Entre les deux, tout se mélange d'un soir à l'autre**, et c'est le cas jusqu'à la fin de cette tranche.
+C'est par ce calme-là qu'il va apprendre à entrer dans la nuit. Les enregistrements du sommeil des bébés le montrent⁴ : jusque vers 3 mois, ils s'endorment surtout par le sommeil agité ; vers 6 mois, surtout par le sommeil calme. **Entre les deux, tout se mélange d'un soir à l'autre**, et c'est le cas jusqu'à la fin de cette tranche.
 
 `source` : ¹ Les états de vigilance : Brazelton T. B., *Neonatal Behavioral Assessment Scale*, 1973 ; ² Les mouvements du sommeil agité, qui diminuent avec les mois, et leur rôle possible : Sokoloff G. et al., *Developmental Psychobiology*, 2020 ; ³ La mélatonine fabriquée par bébé vers 3 mois : revue *Children*, 2024, 11(10):1197 ; ⁴ L'endormissement par le sommeil agité puis par le sommeil calme : O'Connor C. et al., *Pediatric Research*, 2026

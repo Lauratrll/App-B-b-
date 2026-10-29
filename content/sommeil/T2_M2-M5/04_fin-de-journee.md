@@ -6,7 +6,7 @@
 Ton bébé a vu, entendu, senti beaucoup de choses depuis ce matin. Pour s'endormir, il a besoin de **redescendre** : plus la journée a été riche, plus ce moment compte. Dès la fin d'après-midi, tu peux baisser peu à peu le rythme : moins d'activité, moins de monde, des gestes plus lents.
 
 #### Le pic de pleurs du soir
-Chez beaucoup de bébés, **les pleurs se regroupent en fin d'après-midi et en soirée**¹. Bonne nouvelle : après le pic des premières semaines, ils diminuent peu à peu², et à 3 mois, le plus fort est en général derrière vous. Certains soirs, pourtant, rien ne marche. **Certains pleurs ne s'arrêtent pas, et ce n'est pas ta faute**³ : rester près de lui, c'est déjà l'aider.
+Chez beaucoup de bébés, **les pleurs se regroupent en fin d'après-midi et en soirée**¹. Bonne nouvelle : après le pic des premières semaines, ils diminuent peu à peu², et vers 3 mois, le plus fort est en général derrière vous. Certains soirs, pourtant, rien ne marche. **Certains pleurs ne s'arrêtent pas, et ce n'est pas ta faute**³ : rester près de lui, c'est déjà l'aider.
 
 ### Pour l'aider à redescendre
 
@@ -26,10 +26,15 @@ Un bébé qui a eu sa dose de contact, de regards et de voix dans la journée se
 ### Le coucher
 
 #### L'heure du coucher
-Le coucher monte peu à peu : **à 2 mois, le plus souvent entre 20 h et 21 h ; à 3 mois, entre 19 h et 20 h 30 ; de 4 à 5 mois, entre 18 h et 20 h**. Mais ce n'est jamais une heure à tenir à la minute : elle dépend de ton bébé, et aussi de ta famille, de vos journées, de votre travail. **Comme pour les siestes, c'est la fin de son éveil calme qui te dit quand proposer la nuit.** S'il boit encore la nuit, si sa dernière sieste finit vers 17 h ou si les pleurs du soir s'installent, il peut se coucher plus tard, et c'est normal. Dans les mois qui viennent, le coucher se calera peu à peu.
+Le coucher avance peu à peu : **autour de 2 mois, le plus souvent entre 20 h et 21 h ; vers 3 mois, entre 19 h et 20 h 30 ; de 4 à 5 mois, entre 18 h et 20 h**. Mais ce n'est jamais une heure à tenir à la minute : elle dépend de ton bébé, et aussi de ta famille, de vos journées, de votre travail. **Comme pour les siestes, c'est la fin de son éveil calme qui te dit quand proposer la nuit.** S'il boit encore la nuit, si sa dernière sieste finit vers 17 h ou si les pleurs du soir s'installent, il peut se coucher plus tard, et c'est normal. Dans les mois qui viennent, le coucher se calera peu à peu.
 
 #### La tétée de fin de soirée
 **La mise au lit du soir et la tétée de fin de soirée sont deux moments différents.** S'il se réveille encore pour boire vers 23 h, **tu n'as pas à l'attendre pour aller dormir** : couche-toi quand il dort, il saura t'appeler.
+
+### Le relais du co-parent
+
+#### Qui fait le coucher ce soir ?
+En fin d'après-midi, parlez-en : **le co-parent peut prendre le bain, le massage ou la dernière tétée**, avec ses gestes et sa voix. Le coucher n'appartient pas à un seul parent.
 
 ### Quand tu es à bout
 

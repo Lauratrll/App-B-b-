@@ -10,6 +10,8 @@
 // Le bouton « Construire ma roue » viendra plus tard, ailleurs.
 // ----------------------------------------------------------------------------
 
+import type React from "react";
+
 type Journee = { coucher: string; sommeils: [string, string][] };
 
 const JOURNEES: Record<number, Journee> = {
@@ -63,6 +65,8 @@ export const COULEURS_ROUE = {
   eveil: "#F3E1D3",
   coucher: "#D4604A",
 };
+
+const HEURE: React.CSSProperties = { fontSize: 10.5, fontWeight: 600, fill: "#5C7480" };
 
 const minutes = (t: string) => {
   const [h, m] = t.split(":").map(Number);
@@ -130,17 +134,14 @@ export function aUneRoue(mois: number) {
 export function RoueSommeil({ mois }: { mois: number }) {
   const j = JOURNEES[mois];
   if (!j) return null;
-  const cx = 120;
-  const cy = 120;
+  const cx = 130;
+  const cy = 138;
   const ro = 88;
   const ri = 54;
-  const fc = minutes(j.coucher) / 1440;
-  const t0 = point(cx, cy, ri - 5, fc);
-  const t1 = point(cx, cy, ro + 5, fc);
 
   return (
     <svg
-      viewBox="0 0 240 240"
+      viewBox="0 0 260 276"
       role="img"
       aria-label={`Roue du sommeil sur 24 heures, journée type à ${mois} mois : la nuit et les siestes en bleu, l'éveil en clair.`}
       style={{ display: "block", width: "100%", maxWidth: 250, height: "auto", margin: "0 auto" }}
@@ -163,24 +164,18 @@ export function RoueSommeil({ mois }: { mois: number }) {
             key={i}
             d={arc(cx, cy, ro, ri, d / 1440, f / 1440)}
             fill={estNuit(d) ? COULEURS_ROUE.nuit : COULEURS_ROUE.sieste}
-            stroke="#FFFFFF"
-            strokeWidth={1.5}
+            stroke={estNuit(d) ? COULEURS_ROUE.nuit : COULEURS_ROUE.sieste}
+            strokeWidth={0.4}
           />
         );
       })}
-      {/* Trait du coucher. */}
-      <line
-        x1={t0[0]}
-        y1={t0[1]}
-        x2={t1[0]}
-        y2={t1[1]}
-        stroke={COULEURS_ROUE.coucher}
-        strokeWidth={2.5}
-        strokeLinecap="round"
-      />
-      {/* Minuit en haut, midi en bas : une lune, un soleil, sans heure écrite. */}
-      <Lune x={cx - 2} y={cy - ro - 15} />
-      <Soleil x={cx} y={cy + ro + 15} />
+      {/* Repères d'heure (29/10) : 0 h en haut, 12 h en bas, pour valider la compréhension. */}
+      <Lune x={cx - 2} y={cy - ro - 36} />
+      <text x={cx} y={cy - ro - 7} textAnchor="middle" style={HEURE}>0 h</text>
+      <text x={cx + ro + 8} y={cy + 3.5} textAnchor="start" style={HEURE}>6 h</text>
+      <text x={cx} y={cy + ro + 17} textAnchor="middle" style={HEURE}>12 h</text>
+      <text x={cx - ro - 8} y={cy + 3.5} textAnchor="end" style={HEURE}>18 h</text>
+      <Soleil x={cx} y={cy + ro + 38} />
       <text
         x={cx}
         y={cy + 2}
@@ -188,9 +183,6 @@ export function RoueSommeil({ mois }: { mois: number }) {
         style={{ fontFamily: "var(--font-playfair), Georgia, serif", fontSize: 21, fontWeight: 600, fill: "#3A3228" }}
       >
         {mois} mois
-      </text>
-      <text x={cx} y={cy + 18} textAnchor="middle" style={{ fontSize: 9.5, fill: "#5C7480" }}>
-        sur 24 heures
       </text>
     </svg>
   );
@@ -223,16 +215,11 @@ export function LegendeRoue() {
               height: 11,
               borderRadius: 3,
               background: c,
-              border: "1px solid rgba(58,50,40,.12)",
             }}
           />
           {nom}
         </span>
       ))}
-      <span style={{ display: "inline-flex", alignItems: "center", gap: 5 }}>
-        <span aria-hidden style={{ width: 12, height: 2.5, borderRadius: 2, background: COULEURS_ROUE.coucher }} />
-        Coucher
-      </span>
     </div>
   );
 }

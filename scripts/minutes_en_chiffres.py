@@ -69,7 +69,7 @@ def _restaure(t):
 
 def main(ecrire):
     tot = 0; touches = []; a_relire = collections.OrderedDict()
-    for f in sorted(glob.glob("content/mois-*/*.json")):
+    for f in sorted(glob.glob("content/guide-moi/mois-*/*.json")):
         if any(x in f for x in ("_avant","anciens","_sauvegardes","_archive")): continue
         try: d = json.load(io.open(f, encoding="utf-8"))
         except Exception: continue

@@ -14,7 +14,7 @@ ECRIRE = "--ecrire" in sys.argv
 CLASSEUR = "GUIDE2_situations.xlsx"
 
 def fiches():
-    for f in sorted(glob.glob("content/mois-*/M*_guide_moi_N*.json")):
+    for f in sorted(glob.glob("content/guide-moi/mois-*/M*_guide_moi_N*.json")):
         if "_avant" in f or "anciens" in f: continue
         d = json.load(open(f, encoding="utf-8"))
         m = int(re.search(r"mois-(\d+)", f).group(1))

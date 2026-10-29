@@ -418,6 +418,8 @@ Pour les fichiers `01_protocoles.json` déjà produits **avant l'introduction de
 - `amenagement_chambre` (liste simple)
 - `moral_hiver` ou `moral_lumiere_decroissante` (uniquement automne/hiver)
 
+**Schéma en vigueur depuis le 26/10/2026 (fichiers `content/mois-XX/04-saison.json`) :** chaque variante saisonnière contient `ambiance` (l'intro, 1 à 2 phrases liées au thème de bébé du mois) et `idees_du_moment` (2 idées, `titre` + `texte`). Le champ `a_savoir_cette_saison` n'existe plus. Aucun conseil de santé ni de sécurité dans cette rubrique ; les idées restent créatives et sensorielles (voir DECISIONS.md, 26/10).
+
 **Règles :**
 - Pas de `erreurs_a_eviter` ni de `phrases_ancrage` à la fin (trop éditorial)
 - Couleurs thématiques fixes : printemps `#EAF3DE`, été `#FAEEDA`, automne `#F5E4DE`, hiver `#E4EEF0`

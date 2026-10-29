@@ -514,7 +514,8 @@ def verifier_fichier(chemin, check_only=False):
 # refuse de rendre un verdict s'il n'a rien lu.
 # ---------------------------------------------------------------------------
 RACINE = pathlib.Path(__file__).resolve().parent.parent
-EXCLUS = ("_avant", "anciens", "_sauvegardes", "_archive")
+# content/reflexologie : fiches d'une autre structure (protocoles de réflexologie plantaire), hors de ce contrôle.
+EXCLUS = ("_avant", "anciens", "_sauvegardes", "_archive", "content/reflexologie/")
 
 
 def corpus_vivant():

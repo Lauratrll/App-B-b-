@@ -11,7 +11,7 @@ Ce ne sont pas la même chose. **Le rituel prépare** : c'est la suite de gestes
 ### Ses façons de s'endormir
 
 #### Au sein ou au biberon
-La succion l'apaise, et à cet âge, s'endormir en tétant est **physiologique**. À 2 mois, **on répond à la faim**, sans la retarder pour travailler l'endormissement. Si tu as envie de varier :
+La succion l'apaise, et à cet âge, s'endormir en tétant est **physiologique**. Chez les plus petits, jusqu'à environ 3 mois, **on répond à la faim**, sans la retarder pour travailler l'endormissement. Si tu as envie de varier :
 - le co-parent donne la tétée ou le biberon, ou prend les bras juste après ;
 - tu arrêtes quand la succion devient lente, avant qu'il soit profondément endormi : un rot, un câlin à la verticale, puis la pose ;
 - tu sépares la tétée du lit : même rituel, mais la tétée dans un autre endroit ou sous une autre lumière.
