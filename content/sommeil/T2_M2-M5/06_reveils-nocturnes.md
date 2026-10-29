@@ -72,7 +72,7 @@ Les nuits n'appartiennent pas à un seul parent. Le co-parent peut **se lever po
 ### Que regarder cette semaine
 
 #### Un petit carnet de nuit
-Pendant trois nuits, note en quelques mots : **l'heure des réveils, ce qu'il lui fallait** (faim, couche, câlin) **et ce qui l'a apaisé**. Pas pour compter, juste pour voir ce qui revient et ce qui marche. Ces repères te serviront dans les prochains slots.
+Pendant trois nuits, note en quelques mots : **l'heure des réveils, ce qu'il lui fallait** (faim, couche, câlin) **et ce qui l'a apaisé**. Pas pour compter, juste pour voir ce qui revient et ce qui marche. Ces repères te serviront dans les prochaines catégories.
 
 ### Quand consulter
 

@@ -94,6 +94,6 @@ Pour que son cerveau puisse lâcher prise et dormir, il a besoin de se sentir en
 Pendant trois jours, à un moment calme de la journée :
 - **regarde ce qui l'apaise** : ta voix, tes bras, le mouvement, le sein ou le biberon, la pénombre ;
 - **repère ses signes de fatigue** avant les pleurs : regard qui s'éteint, mouvements désordonnés, gestes sur le visage ;
-- **note-le** : quelques mots suffisent, ils te serviront dans les prochains slots.
+- **note-le** : quelques mots suffisent, ils te serviront dans les prochaines catégories.
 
 `source` : ¹ Les états de vigilance : Brazelton T. B., *Neonatal Behavioral Assessment Scale*, 1973 ; ² Les mouvements du sommeil agité, qui diminuent avec les mois, et leur rôle possible : Sokoloff G. et al., *Developmental Psychobiology*, 2020 ; ³ La mélatonine fabriquée par bébé vers 3 mois : revue *Children*, 2024, 11(10):1197 ; ⁴ L'endormissement par le sommeil agité puis par le sommeil calme : O'Connor C. et al., *Pediatric Research*, 2026 ; ⁵ Un bébé ne fait pas exprès, les besoins fondamentaux et le maternage proximal : formation EDPP, *Pleurs et sommeil* ; ⁶ Sommeil des parents au plus bas dans les trois mois après la naissance : Richter D. et al., *Sleep*, 2019 (cité dans la formation EDPP)

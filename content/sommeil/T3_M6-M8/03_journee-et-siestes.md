@@ -2,6 +2,10 @@
 
 ### Ce qui se passe dans sa journée
 
+#### La fenêtre d'éveil et la pression du sommeil
+La **fenêtre d'éveil**, c'est le temps entre le moment où ton bébé se réveille et celui où il a besoin de se rendormir. Pendant qu'il est éveillé, **la pression du sommeil monte**¹ : c'est un besoin de dormir qui s'accumule peu à peu, comme une jauge qui se remplit, et qui ne redescend que pendant le sommeil.
+À cet âge, ses fenêtres s'allongent, et tu peux t'en servir pour **organiser ses siestes** : trop tôt, la jauge n'est pas assez remplie et il met du temps à s'endormir ; trop tard, la fatigue se transforme en agitation. Si le soir est difficile, regarde d'abord la dernière fenêtre de la journée. Ajuste par petits pas, et **fie-toi à ses signaux plus qu'à l'horloge**.
+
 #### Combien de temps éveillé ?
 Ses temps d'éveil s'allongent. Voici l'ordre de grandeur observé chez beaucoup de bébés entre deux sommeils :
 - **vers 6 mois : de 2h à 3h** ;
@@ -23,10 +27,10 @@ C'est le moment de proposer la sieste, avant les pleurs. **Regarde ton bébé pl
 ### Ses siestes
 
 #### Combien de siestes ?
-À 6 mois, **souvent trois siestes par jour**. Entre 6 et 11 mois, **en moyenne deux, mais d'un bébé à l'autre, de une à trois**¹. Le nombre baisse peu à peu, sans que tu aies à le provoquer.
+À 6 mois, **souvent trois siestes par jour**. Entre 6 et 11 mois, **en moyenne deux, mais d'un bébé à l'autre, de une à trois**². Le nombre baisse peu à peu, sans que tu aies à le provoquer.
 
 #### Le passage à deux siestes
-**La troisième sieste, celle de fin d'après-midi, commence souvent à résister** : elle devient un petit somme, de plus en plus court, puis elle disparaît. Le passage de trois à deux siestes se fait le plus souvent vers 7-8 mois, chez certains un peu plus tard².
+**La troisième sieste, celle de fin d'après-midi, commence souvent à résister** : elle devient un petit somme, de plus en plus court, puis elle disparaît. Le passage de trois à deux siestes se fait le plus souvent vers 7-8 mois, chez certains un peu plus tard³.
 
 Les signes, à voir **plusieurs jours de suite** :
 - il refuse la troisième sieste sereinement ;
@@ -43,7 +47,7 @@ Un seul signe ne suffit pas. Un refus irrégulier, avec de la fatigue en fin de 
 - Le soir, arrive-t-il plus agité que calme ?
 
 #### Réveiller en douceur
-S'il faut le réveiller, pour un départ ou une sieste qui s'étire et risque de décaler le coucher, fais-le **en douceur**. **Ouvre la porte, laisse entrer la lumière et les bruits de la maison, mets une petite musique douce, parle doucement à côté** : le mieux est qu'il émerge en fin de sommeil paradoxal, le cerveau déjà actif, il sera plus joyeux³.
+S'il faut le réveiller, pour un départ ou une sieste qui s'étire et risque de décaler le coucher, fais-le **en douceur**. **Ouvre la porte, laisse entrer la lumière et les bruits de la maison, mets une petite musique douce, parle doucement à côté** : le mieux est qu'il émerge en fin de sommeil paradoxal, le cerveau déjà actif, il sera plus joyeux⁴.
 
 ### Son rythme, la lumière et la famille
 
@@ -70,6 +74,6 @@ Dans ses bras, en portage, dans son lit : **tous ces endroits sont possibles à
 ### Toi aussi, tu as besoin de te poser
 
 #### Dors quand il dort, au moins un peu
-**C'est parfois difficile, et tu fais de ton mieux.** Quand il fait sa sieste, pose-toi 10 à 20 minutes : une sieste courte suffit déjà à reposer⁴. Le ménage peut attendre.
+**C'est parfois difficile, et tu fais de ton mieux.** Quand il fait sa sieste, pose-toi 10 à 20 minutes : une sieste courte suffit déjà à reposer⁵. Le ménage peut attendre.
 
-`source` : ¹ Le nombre de siestes de 6 à 11 mois (moyenne 2,2, de 0,9 à 3,5) : Galland B. C. et al., *Sleep Medicine Reviews*, 2012 ; ² Le passage de trois à deux siestes, vers 7-8 mois, chez certains plus tard (la littérature donne aussi 9 à 12 mois) : repère de la frise du sommeil ; Réseau Morphée ; INSV ; ³ Réveiller en fin de sommeil paradoxal : formation EDPP, *Pleurs et sommeil* ; ⁴ La sieste courte de 10 à 20 minutes chez l'adulte : Brooks A., Lack L., *Sleep*, 2006
+`source` : ¹ La pression de sommeil monte pendant l'éveil et redescend pendant le sommeil (principe général du sommeil, modèle à deux processus) : Borbély A. A., Daan S., Wirz-Justice A., Deboer T., *Journal of Sleep Research*, 2016, 25(2):131-143 ; ² Le nombre de siestes de 6 à 11 mois (moyenne 2,2, de 0,9 à 3,5) : Galland B. C. et al., *Sleep Medicine Reviews*, 2012 ; ³ Le passage de trois à deux siestes, vers 7-8 mois, chez certains plus tard (la littérature donne aussi 9 à 12 mois) : repère de la frise du sommeil ; Réseau Morphée ; INSV ; ⁴ Réveiller en fin de sommeil paradoxal : formation EDPP, *Pleurs et sommeil* ; ⁵ La sieste courte de 10 à 20 minutes chez l'adulte : Brooks A., Lack L., *Sleep*, 2006

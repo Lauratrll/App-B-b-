@@ -2,8 +2,12 @@
 
 ### Ce qui se passe dans sa journée
 
+#### La fenêtre d'éveil et la pression du sommeil
+La **fenêtre d'éveil**, c'est le temps entre le moment où ton bébé se réveille et celui où il a besoin de se rendormir. Pendant qu'il est éveillé, **la pression du sommeil monte**¹ : c'est un besoin de dormir qui s'accumule peu à peu, comme une jauge qui se remplit, et qui ne redescend que pendant le sommeil. Chez un tout-petit, les fenêtres d'éveil restent courtes.
+Quand la jauge est bien remplie, il s'endort plus facilement. Trop tôt, il a plus de mal. Trop tard, la fatigue se transforme en agitation. C'est pour cela que **la durée compte moins que ses signaux** : tu les retrouves plus bas.
+
 #### Combien de temps éveillé ?
-Entre deux sommeils, voici les durées d'éveil moyennes observées chez beaucoup de bébés :
+Voici les fenêtres d'éveil moyennes observées chez beaucoup de bébés :
 - **vers 2 mois : environ 1h30** ;
 - **vers 3 mois : de 1h30 à 2h** ;
 - **vers 4 mois : de 1h30 à 2h30** ;
@@ -34,7 +38,7 @@ C'est le moment de lui proposer de dormir, avant les pleurs. **Regarde ton béb�
 - **vers 3 mois, trois à quatre** ;
 - **vers 4 à 5 mois, environ trois**.
 
-D'un bébé à l'autre, cela varie¹. **Le nombre baisse peu à peu, sans que tu aies à le provoquer** : ce qui compte, ce n'est pas le compte, c'est qu'il puisse dormir quand son éveil calme se termine. Pour les siestes de la journée, **une petite pénombre suffit** : garder un peu de lumière du jour l'aide à faire la différence avec la nuit.
+D'un bébé à l'autre, cela varie². **Le nombre baisse peu à peu, sans que tu aies à le provoquer** : ce qui compte, ce n'est pas le compte, c'est qu'il puisse dormir quand son éveil calme se termine. Pour les siestes de la journée, **une petite pénombre suffit** : garder un peu de lumière du jour l'aide à faire la différence avec la nuit.
 
 #### Des questions à te poser
 - Dort-il quand ses signaux de fatigue apparaissent, ou seulement quand il craque ?
@@ -43,7 +47,7 @@ D'un bébé à l'autre, cela varie¹. **Le nombre baisse peu à peu, sans que tu
 - Le soir, arrive-t-il plus agité que calme ?
 
 #### La sieste de 45 minutes
-Une sieste de 45 minutes s'arrête souvent quand un cycle se termine, au moment où il remonte près de la surface. **Avant de conclure qu'il est réveillé, regarde** : s'il bouge, grimace, ouvre un œil sans interagir avec toi, il dort peut-être encore, en sommeil agité. Laisse-lui quelques secondes : il peut repartir pour un cycle. Et si la sieste s'arrête là, **elle n'est pas ratée** : dès l'âge de 3 mois environ, un petit somme aide à retenir ce qu'il vient de découvrir².
+Une sieste de 45 minutes s'arrête souvent quand un cycle se termine, au moment où il remonte près de la surface. **Avant de conclure qu'il est réveillé, regarde** : s'il bouge, grimace, ouvre un œil sans interagir avec toi, il dort peut-être encore, en sommeil agité. Laisse-lui quelques secondes : il peut repartir pour un cycle. Et si la sieste s'arrête là, **elle n'est pas ratée** : dès l'âge de 3 mois environ, un petit somme aide à retenir ce qu'il vient de découvrir³.
 
 #### Réveiller en douceur
 S'il faut le réveiller, pour un départ le matin ou une sieste qui s'étire tard dans la journée, tu peux le faire **en douceur**. **Ouvre la porte, laisse entrer la lumière et les bruits de la maison, parle doucement à côté** : il sortira du sommeil quand il sera prêt, sans être réveillé en plein milieu d'un sommeil calme.
@@ -74,6 +78,6 @@ Dans ses bras, en portage, dans son lit : **tous ces endroits sont possibles à
 ### Toi aussi, tu as besoin de te poser
 
 #### Dors quand il dort, au moins un peu
-**C'est parfois difficile, et tu fais de ton mieux.** Quand il fait sa sieste, pose-toi 10 à 20 minutes : une sieste courte suffit déjà à reposer³. Le ménage peut attendre.
+**C'est parfois difficile, et tu fais de ton mieux.** Quand il fait sa sieste, pose-toi 10 à 20 minutes : une sieste courte suffit déjà à reposer⁴. Le ménage peut attendre.
 
-`source` : ¹ Le nombre de siestes avant 6 mois : Galland B. C. et al., *Sleep Medicine Reviews*, 2012 ; ² Une sieste courte aide la mémoire dès 3 mois : Horváth K. et al., *Developmental Science*, 2018 ; ³ La sieste courte de 10 à 20 minutes chez l'adulte : Brooks A., Lack L., *Sleep*, 2006
+`source` : ¹ La pression de sommeil monte pendant l'éveil et redescend pendant le sommeil (principe général du sommeil, modèle à deux processus) : Borbély A. A., Daan S., Wirz-Justice A., Deboer T., *Journal of Sleep Research*, 2016, 25(2):131-143 ; ² Le nombre de siestes avant 6 mois : Galland B. C. et al., *Sleep Medicine Reviews*, 2012 ; ³ Une sieste courte aide la mémoire dès 3 mois : Horváth K. et al., *Developmental Science*, 2018 ; ⁴ Une sieste de 10 minutes est la plus réparatrice, une de 20 minutes l'est aussi (étude chez l'adulte) : Brooks A., Lack L., *Sleep*, 2006

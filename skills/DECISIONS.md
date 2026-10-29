@@ -632,6 +632,7 @@ Ces documents restent consultables pour l'argumentaire, les sources et les chiff
 - ✅ (29/10, soir) **Repères clés** : titre sur une seule ligne « Repères clés à X mois » ; bouton « Enregistrer le rythme de mon bébé » dans le vert du slot (`#DCDDBB`, texte vert foncé `#4A4E2A`) pour le mettre en lumière.
 - ✅ (29/10, soir) **Bandeau admin caché par défaut** (vue « parent ») : il descend en glissant l'écran vers le bas tout en haut de la page (ordinateur : molette vers le haut en haut de page), remonte en glissant vers le haut ou en touchant ailleurs, et se referme après un changement. Pour les admins, le « tirer pour rafraîchir » du navigateur est désactivé. Code : `components/modules/apercu-tiroir.tsx`.
 - ✅ (29/10, soir) **Repères clés sur tous les téléphones** : la roue, les ovales, les textes et les espaces suivent la hauteur de l'écran (bornés en bas et en haut). Mesuré sans défilement de ≈ 550 px (iPhone SE dans le navigateur) à 844 px. Texte du centre de la roue et heures un peu agrandis.
+- ✅ (29/10, soir) **Roue de 1 mois** ajoutée (sommeil_24h.html, « 1m ») ; pas de journée type à 0 mois, donc pas de roue à 0 mois. Les valeurs longues des repères (« Pas de comptage ») passent à la ligne dans leur ovale.
 - ✅ (29/10, soir) **Picto en haut des slots Sommeil** : plus de rond autour ; le picto prend simplement la couleur de la carte du slot. Code : `sommeil-slots.tsx` (Slot).
 - ✅ (29/10, 13h) **Sommeil, couleurs des blocs par rôle, fixes quel que soit le slot** : ce qui se passe (bleu-gris), action (orange doux), co-parent (vert d'eau), cadre de sécurité (gris + bordure rouge, comme Guide-moi). Titres de partie et de volet plus petits et colorés selon le rôle. Code : `sommeil-slots.tsx`, `sommeil-view.tsx`.
 - ✅ (29/10, 13h) **Pas de « Quand tu es à bout » dans les slots Sommeil** (répétitif, déjà dans Guide-moi) ; un cadre de sécurité global sera peut-être ajouté plus tard. Seul « Quand consulter » reste dans Réveils nocturnes.
@@ -656,3 +657,92 @@ Phrase à déconstruire : porter son bébé est bon, ce n'est pas une mauvaise h
   8. **T2, 05_endormissement.md** : le chapeau contient un `{N}` littéral (« te fatiguer{N}: »). Non corrigé (T2 non touchée) ; T3 n'a pas de renvoi à cet endroit.
   9. **Formation** : le livret PDF (55 pages) n'a pas été relu page par page, seulement les notes .docx. Les sources « livret p. 44 » viennent de la frise.
 - ✅ (29/10) T2 `05_endormissement.md` : `{N}` littéral retiré du chapeau « Ses façons de s'endormir » (« te fatiguer : c'est humain… »). Sauvegarde : `_sauvegardes/2026-10-29/`.
+
+## 29/10 : Tranche M9–M11 écrite en slots (brouillon, rien déployé)
+- ✅ (29/10) **T4 M9–M11 réécrite en 8 slots** : `content/sommeil/T4_M9-M11/00_` à `08_`, même structure et mêmes règles que T3. Ancienne version : `content/sommeil/_sauvegardes/2026-10-29_T4_avant_slots/`. Autres tranches non touchées. Repères clés : clés "9", "10", "11" ajoutées à `reperes_cles.json`. Doc pour Code : `docs/sommeil-contenus/38_prompt_code_slots_T4_M9-M11.md`.
+- ✅ (29/10) Retiré de T4 : « Quand tu es à bout » (consigne bébé secoué dans « Quand consulter ») et « Jamais le laisser pleurer seul ».
+- 🟡 **À trancher avec Laura** :
+  1. **Durées d'éveil M9–M11** : « 2h30 à 3h30 », déduit des roues types (aucune mesure publiée). Les roues 10m et 11m sont encore en brouillon.
+  2. **Siestes** : 2 par jour (frise, Morphée, INSV). Si la 3e résiste, on renvoie au « chez certains plus tard ». Bornes Morphée reprises : sieste du matin pas avant 9h, sieste d'après-midi pas au-delà de 16h.
+  3. **Cycle** « ≈ 60 à 70 min » dans les repères.
+  4. **Déductions sans source** : laisser s'entraîner le jour plutôt que dans le lit ; garder la séquence quand les nuits sont mauvaises ; l'imitation comme alliée du rituel (« faire avec toi ») ; objet doux hors du lit avant 1 an ; dépense vers 17h (notes EDPP).
+  5. **Mélatonine qui monte dès la fin d'après-midi** : source = notes EDPP seulement.
+  6. **Bébé secoué** : placé dans « Quand consulter » (comme T3).
+  7. **Thèmes du mois M9–M11** : brouillons, à valider (doc 31).
+  8. **Livret PDF EDPP** non relu page par page.
+
+## 29/10 : Tranche M12–M14 écrite en slots (brouillon, rien déployé)
+- ✅ (29/10) **T5 M12–M14 réécrite en 8 slots** : `content/sommeil/T5_M12-M14/00_` à `08_`, même structure et mêmes règles que T3 et T4. Ancienne version : `content/sommeil/_sauvegardes/2026-10-29_T5_avant_slots/`. Autres tranches non touchées. Repères clés : clés "12", "13", "14" ajoutées à `reperes_cles.json`. Doc pour Code : `docs/sommeil-contenus/40_prompt_code_slots_T5_M12-M14.md` ; scan d'écart : `41_scan_enrichissements_T5_M12-M14.md`.
+- ✅ (29/10) Retiré de T5 : « Quand tu es à bout » (consigne bébé secoué dans « Quand consulter », formulée « un enfant ne se secoue jamais ») et « Jamais le laisser pleurer seul ». Pas de tiret cadratin, pas de tableau, heures sans espace.
+- 🟡 **À trancher avec Laura** :
+  1. **Durées d'éveil M12–M14** : « 2h30 à 3h45 », déduit des roues types (12m : 3h15 / 2h35 / 3h40 ; 13m et 14m en brouillon). Aucune mesure publiée.
+  2. **Siestes** : « une à deux selon les enfants » (Galland 2012), chez la plupart encore deux ; passage à une seule « entre 15 et 18 mois » annoncé comme plus tard, sans précipitation (Morphée, INSV, doc 16).
+  3. **Faux refus de la sieste du matin** (M12) : formulation d'observation sans âge ni règle, sans source publiée (cadrage non sourcé).
+  4. **Déductions sans source** : choix simple dans le rituel (quel livre, quel doudou) ; deux choix face au « non » ; mouvement (marche, quelques pas) avant de se poser ; dépense vers 17h (notes EDPP) ; « les couchers remuants » liés à l'affirmation de soi.
+  5. **Doudou dans le lit après 1 an** : la règle HAS 2007 dit « rien dans le lit la première année » ; la suite (petit, sans ruban ni attache) est une déduction à confirmer.
+  6. **Matelas réglé au plus bas** quand il se met debout (slot Réveils) : conseil de bon sens, source de sécurité à trouver.
+  7. **Écrans** : « pas d'écran avant 3 ans » cité HCSP et rapport « Enfants et écrans » 2024 (doc 11), à vérifier avant publication.
+  8. **Repère de consultation à partir de 1 an** : écrit sans chiffres (plus d'un mois, presque chaque nuit, éveil long, endormissement très long). Chiffres du doc 11 (Gaylor 2001 : au moins 2 réveils signalés presque chaque nuit, au moins 20 minutes d'éveil, endormissement de plus de 30 minutes) non repris.
+  9. **Marche et premiers mots** : marche « entre 8 et 17 mois » (OMS 2006) ; aucune source pour la date des premiers mots.
+  10. **Formation** : « chambre lieu vivant », « ne pas forcer à manger le soir », « se retrouver avant la nuit », « quand c'est fini, c'est fini » viennent des notes EDPP et du livret (analyse doc 11). **Le livret PDF n'a pas été relu page par page.**
+  11. **Thèmes du mois M12–M14** (slot 08) : brouillons, à valider (doc 31).
+  12. **Bébé secoué** : placé dans « Quand consulter » (comme T3 et T4).
+
+## 29/10 : Tranche M15–M17 écrite en slots (brouillon, rien déployé)
+- ✅ (29/10) **T6 M15–M17 réécrite en 8 slots** : `content/sommeil/T6_M15-M17/00_` à `08_`, mêmes structure et règles que T3 à T5. Ancienne version : `content/sommeil/_sauvegardes/2026-10-29_T6_avant_slots/`. Autres tranches non touchées. Repères clés : clés "15", "16", "17" ajoutées à `reperes_cles.json`. Doc pour Code : `docs/sommeil-contenus/42_prompt_code_slots_T6_M15-M17.md` ; scan d'écart : `43_scan_enrichissements_T6_M15-M17.md`.
+- ✅ (29/10) Retiré de T6 : « Quand tu es à bout » (consigne bébé secoué dans « Quand consulter ») et « Jamais le laisser pleurer seul ». Séparation : « il se demande si tu reviens », « réactions à la séparation », jamais « angoisse ».
+- 🟡 **À trancher avec Laura** :
+  1. **Durées d'éveil M15–M17** : « 3h à 4h », déduit des roues types (15m validée ; 16m et 17m en brouillon, avec une sieste du matin qui raccourcit). Aucune mesure publiée.
+  2. **Siestes** : « 1 à 2 » dans les repères ; passage « entre 15 et 18 mois », parfois sur plusieurs semaines (Morphée, INSV). « Rapprocher la sieste du déjeuner par petites étapes » est une déduction tirée des roues types.
+  3. **Terreurs nocturnes** : les sources (Petit et Montplaisir 2020) disent « à partir de 18 mois » ; l'inventaire dit « dès 15 mois ». Écrit : « le plus souvent vers 18 mois, parfois un peu avant ».
+  4. **Cauchemars** : volontairement absents (sources : à partir de 2 ans). Le thème du mois M15 « Terreur nocturne ou cauchemar ? » (doc 31) est à reformuler ou à garder avec cette nuance.
+  5. **Départ nommé plutôt que furtif** : déduction sans source.
+  6. **Déductions déjà signalées à T4 et T5** : choix simple dans le rituel, deux choix face au « non », mouvement avant de se poser, doudou dans le lit (règle HAS « première année »), matelas au plus bas, dépense vers 17h (notes EDPP).
+  7. **Écrans** : « pas d'écran avant 3 ans » (HCSP, rapport « Enfants et écrans » 2024), à vérifier avant publication.
+  8. **Repère de consultation dès 1 an** : écrit sans chiffres (comme T5).
+  9. **Vague de séparation** : source Merck Manual seule (pas de source française). Écrite aussi dans la tranche suivante, avec un renvoi.
+  10. **Thèmes du mois M15–M17** (slot 08) : brouillons, à valider (doc 31).
+  11. **Livret PDF EDPP** non relu page par page.
+
+## 29/10 : Tranche M18–M23 écrite en slots (brouillon, rien déployé)
+- ✅ (29/10) **T7 M18–M23 réécrite en 8 slots** : `content/sommeil/T7_M18-M23/00_` à `08_`, mêmes structure et règles que T3 à T6 (six volets « Ce qu'il se passe » M18 à M23, six sections « Thème du mois »). Ancienne version : `content/sommeil/_sauvegardes/2026-10-29_T7_avant_slots/`. Autres tranches non touchées (M3, M9, M20 validés non modifiés). Repères clés : clés "18" à "23" ajoutées à `reperes_cles.json`. Doc pour Code : `docs/sommeil-contenus/46_prompt_code_slots_T7_M18-M23.md` ; scan d'écart : `47_scan_enrichissements_T7_M18-M23.md`.
+- ✅ (29/10) Retiré de T7 : « Quand tu es à bout » (consigne bébé secoué dans « Quand consulter ») et « Jamais le laisser pleurer seul ». Séparation : renvoi à T6 (volet de deux phrases + une mention), « il se demande si tu reviens », jamais « angoisse ». Corrections du 27/10 appliquées : horloge installée dès M9 et qui s'ancre, aucun chronotype. Pas de tiret cadratin, pas de tableau, heures sans espace.
+- 🟡 **À trancher avec Laura** :
+  1. **Durées d'éveil M18–M23** : « 4h à 5h30 », déduit des roues types (18m : 5h45 / 4h10 ; 19m : 5h45 / 4h15 ; 20m : 5h45 / 4h30 ; 21m : 5h45 / 4h35 ; 22m : 5h30 / 5h10 ; 23m : 5h30 / 5h15). 18m et 23m validées, 19m à 22m en brouillon. Aucune mesure publiée.
+  2. **Siestes** : « 1 » ; « presque tous à 18 mois, la plupart à 2 ans » (Iglowstein 2003) écrit sans pourcentage ; « la moitié des enfants de 3 ans » non repris (Staton 2020 non lu).
+  3. **Livret relu par reconnaissance de caractères** (sans pack français) : pages 3, 20 à 23, 44 à 55 relues, **les 55 pages non relues une à une** (mots-clés sur les autres). Nouveautés reprises : peur du noir non volontaire, veilleuse, ombres de la nuit, porte ouverte (p. 54) ; histoires douces, voix monocorde, débriefer (p. 55) ; week-ends et vacances sans décalage (p. 55).
+  4. **Durée du rituel** : le livret dit 15 à 20 minutes, la décision de Laura ≈ 1h (dont 15 min de mise en condition). Gardé ≈ 1h.
+  5. **Cauchemars** : écrits « vers 2 ans, parfois un peu plus tard » (Naître et grandir, Fondation Sommeil : dès 2 ans ; ICSD-3-TR : dès 2 ans et demi) ; donc visibles en fin de tranche. L'ancien T7 et M20 disaient « 2 ans et demi ou 3 ans, donc après cette tranche ». La note EDPP « premiers cauchemars dès 6 mois » n'est pas reprise (aucune source).
+  6. **Terreurs nocturnes** : pic vers 18 mois (Petit et Montplaisir 2020, ICSD-3-TR) ; sources françaises divergentes (Morphée « avant 2 ans », ameli « avant 4 ans »).
+  7. **Peur du noir et des monstres** : source = formation EDPP (livret p. 54), « vers 2 ans » non daté dans le texte ; aucune source institutionnelle française relue. **Veilleuse** : règle du 06/10 appliquée (de 18 à 24 mois, seulement si besoin, lumière orange très faible hors du regard). « Porte entrouverte » = adaptation du livret (« lit près de la porte ouverte »).
+  8. **Lit au sol / sécurité de la chambre** : sources lues par extraits (Santé.fr « Éviter les accidents domestiques des enfants » : meubles fixés au mur ; Santé publique France, campagne défenestrations : rien à escalader sous la fenêtre, un dispositif ne remplace pas la surveillance). Prises protégées et cordons de stores : sources françaises non relues en entier (Santé.fr, Bercy infos ; Santé Canada pour les cordons). Aucune source française sur le lit au sol lui-même.
+  9. **Écrans** : « pas d'écran avant 3 ans, même en fond, ni avant de dormir ni pour calmer » = commission « Enfants et écrans » (avril 2024) et service-public.gouv.fr (2025), vérifié par recherche web ; T3 à T6 citent le HCSP : à harmoniser. Les notes EDPP disent « nuancer » (Tisseron) et le livret « pas d'écran après 16h » : non suivis.
+  10. **Déductions sans source** : coucher un peu plus tôt après une sieste courte ou une journée chargée ; « retire une étape plutôt que d'en ajouter » ; prévoir d'avance le verre d'eau, le câlin, l'histoire courte, puis « c'est fini » ; limite ajustée à froid ; choix simple et deux choix face au « non » ; mouvement avant de se poser ; doudou dans le lit après 1 an (règle HAS « première année ») ; matelas au plus bas ; dépense vers 17h (notes EDPP) ; départ nommé ; question « tu as aimé ? » après l'histoire (adaptée du livret).
+  11. **Signes que la sieste reste nécessaire** (voiture, irritable en fin d'après-midi, s'effondre au dîner, nuits dégradées sans sieste) et « faux refus à observer sur plusieurs jours » : reprise de l'ancien T7, cadrage non sourcé.
+  12. **Repère de consultation dès 1 an** : sans chiffres (comme T5 et T6). Ronflement : « presque toutes les nuits, hors rhume », sans seuil ; « pauses suivies d'une reprise bruyante » tiré de la SFORL 2017. **M20 validé garde « plus de 3 nuits par semaine, porte fermée » (introuvable dans la reco SFORL 2017) et une page CHU de Nantes introuvable** : non modifié, à corriger à la republication.
+  13. **Vague de séparation** : source Merck Manual seule ; écrite dans T6, renvoi ici.
+  14. **Nouveau titre de section** « Tes gestes pour ses peurs du soir » (slot Endormissement), reconnu par `estAction` (« tes gestes »).
+  15. **Sélecteur « Le moment à son image »** : quatre choix (Motricité · Langage · Émotions · Imaginaire), repris de l'ancien T7 ; « Autonomie » (to-do sommeil) non réintégré.
+  16. **Bébé secoué** : placé dans « Quand consulter » (comme T3 à T6).
+  17. **Thèmes du mois M18–M23** (slot 08) : brouillons, à valider (doc 31). M21 « Peurs, terreurs, cauchemars » devient « Peurs et terreurs : s'y retrouver ».
+
+## 29/10 : Tranche M0–M1 écrite en slots (brouillon, rien déployé)
+- ✅ (29/10) **T1 M0–M1 réécrite en 8 slots** : `content/sommeil/T1_M0-M1/00_` à `08_` + `README.md`, mêmes structure et règles que T2 à T7 (deux volets « Ce qu'il se passe » M0 et M1, deux sections « Thème du mois »). Ancienne version : `content/sommeil/_sauvegardes/2026-10-29_T1_avant_slots/` (le `.md` d'origine y est retiré du dossier de travail pour que le script lise le dossier). `DECISIONS.md` sauvegardé dans `_sauvegardes/2026-10-29/`. Autres tranches non touchées. Repères clés : clés "0" et "1" ajoutées à `reperes_cles.json`. Doc pour Code : `docs/sommeil-contenus/48_prompt_code_slots_T1_M0-M1.md` ; scan : `49_scan_enrichissements_T1_M0-M1.md`. `sommeil-md-vers-json.mjs` et `tsc` sans erreur.
+- ✅ (29/10) **Mon rituel = repères + temps calme** (choix de Laura) : repères jour/nuit, temps calme de sieste (livret p. 43), un geste de fin de journée très court, pas de rituel du soir avant 2 mois.
+- ✅ (29/10) **Coucher** : pas d'heure à M0, « entre 21h et 22h » à M1. **Cycle ≈ 45 min** (choix de Laura).
+- ✅ (29/10) Retiré : « Quand tu es à bout » (consigne bébé secoué dans « Quand consulter » et « Ces soirs-là sont durs ») ; tableau sommeil agité / éveil agité (listes). 3114 seulement dans le volet M0.
+- 🟡 **À trancher avec Laura** :
+  1. **Cycle ≈ 45 min** : décision de Laura, mais les sources donnent plutôt 50 à 60 min chez le nouveau-né ; écrit 45 partout, écart à confirmer.
+  2. **Éveil calme 5-10 min** (naissance) puis ≈ 30 min (1 mois) : source formation EDPP seule ; durée d'éveil M0 « 10 à 30 min », M1 « ≈ 1h » (échelle de Laura), non mesurées.
+  3. **Volets M0 / M1 hors « Ce qu'il se passe »** : le 3114 (M0 seulement), le coucher M0/M1 et les « Que regarder cette semaine » demandent que Code étende `filtrerMois` ; sans cela, les deux volets s'affichent (voir doc 48).
+  4. **Pauses respiratoires** : normales en sommeil agité chez le nouveau-né ; « Appelle le 15 » dit « pauses respiratoires prolongées » en T1 alors que T2 à T7 disent « pauses respiratoires » : à harmoniser.
+  5. **Faim de nuit** : aucune règle des 3 heures, aucun nombre de tétées (renvoi sage-femme, médecin, carnet de santé). « Un bébé qui dort très longtemps sans réclamer, ou difficile à réveiller → consulter » (notes et livret EDPP) : cadrage non sourcé institutionnellement.
+  6. **Tétine au premier mois** : « sans forcer, jamais attachée » (ameli 2024) ; aucune règle sur l'attente de l'allaitement installé relue.
+  7. **Dormir en peau à peau / portage** : parent éveillé, visage visible (HAS, flash sécurité patient avril 2026) ; le « bébé qui dort contre son parent aide le sommeil calme » vient de la formation EDPP seule.
+  8. **Chambre des parents au moins 6 mois** : HAS/CNP 2020 et AAP 2022 ; la note EDPP « cododo conseillé 0–6 mois » n'est pas reprise (lit à lui).
+  9. **Baby-blues** : « chute d'hormones dans les 15 jours » vient de la formation EDPP ; aucune source française relue (HAS, ameli).
+  10. **Pic de pleurs vers 6 semaines** (Vermillet 2022) et pleurs regroupés (Soltis 2004) : repris du T1 d'origine.
+  11. **Livret relu par reconnaissance de caractères** (sans pack français) : pages 3 à 8 et 17 à 55 lues, **pages 9 à 16 seulement survolées**. Nouveautés reprises : p. 43 (temps calme de sieste) ; éveil calme et bâillement (notes). Non repris : Stop Pleurs, roulé-boulé, bain enveloppé (gestes à illustrer, boîte à outils), bébé qui tète en dormant, 21 jours.
+  12. **Nouvelles sections** : « Pour dormir en sécurité » (slot Comprendre), « Il est fatigué, il ne sait pas le dire » et « Le contenir » (Fin de journée), « On ne compte pas les siestes », « S'il dort beaucoup » (Journée) ; « Le premier mois, tout est permis » (Endormissement).
+  13. **Thèmes du mois M0–M1** (slot 08) : brouillons, à valider (doc 31). **Deux vidéos** (sommeil agité / éveil agité) à produire : signalées en commentaire dans le slot Comprendre, non rédigées.
+  14. **Roues M0 et M1** : à confirmer dans `sommeil_24h.html`.

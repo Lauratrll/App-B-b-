@@ -380,7 +380,7 @@ function Bulle({ cle, libelle, valeur, forme }: { cle: string; libelle: string; 
           {PICTO[cle]}
         </svg>
         <div style={{ ...labelStyle, fontSize: "clamp(7.5px, 1.15dvh, 8.5px)", letterSpacing: ".05em", lineHeight: 1.2 }}>{libelle}</div>
-        <div style={{ fontFamily: PLAYFAIR, fontSize: "clamp(13px, 2.1dvh, 16.5px)", fontWeight: 700, lineHeight: 1.1, whiteSpace: "nowrap" }}>
+        <div style={{ fontFamily: PLAYFAIR, fontSize: "clamp(13px, 2.1dvh, 16.5px)", fontWeight: 700, lineHeight: 1.05, textWrap: "balance" }}>
           {valeur}
         </div>
       </div>

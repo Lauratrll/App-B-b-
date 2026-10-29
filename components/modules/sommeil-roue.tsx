@@ -15,6 +15,20 @@ import type React from "react";
 type Journee = { coucher: string; sommeils: [string, string][] };
 
 const JOURNEES: Record<number, Journee> = {
+  // 29/10 : 1 mois, repris tel quel de sommeil_24h.html (SRC.refs « 1m »). Pas de journée type à 0 mois.
+  1: {
+    coucher: "21:45",
+    sommeils: [
+      ["21:45", "00:00"],
+      ["00:45", "03:00"],
+      ["03:45", "05:45"],
+      ["07:00", "08:30"],
+      ["09:15", "11:00"],
+      ["12:30", "14:30"],
+      ["16:00", "18:15"],
+      ["18:45", "21:00"],
+    ],
+  },
   2: {
     coucher: "20:45",
     sommeils: [

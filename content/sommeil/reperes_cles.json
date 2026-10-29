@@ -1,52 +1,171 @@
 {
-  "_note": "Données de la roue du sommeil du mois (M2 à M8). Valeurs validées sauf mention. À brancher par Code (infographie). Durées d'éveil : moyennes observées, échelle de Laura (naissance 10 min, M0 10-30 min, M1 ~1h, M2 ~1h30, M3 1h30-2h) ; M4 et M5 proposées, à confirmer avec le document d'Élodie. M6 à M8 (29/10) : durées d'éveil M6-M8 = ordre de grandeur proposé, aucune mesure publiée, à confirmer par Laura ; siestes M7-M8 = 2 à 3 (passage de 3 à 2).",
-  "2": {
-    "sommeil_24h": "14 à 17h",
-    "siestes": "4 à 5",
-    "cycle": "≈ 45 min",
-    "coucher": "20h – 21h",
-    "duree_eveil_moyenne": "≈ 1h30"
-  },
-  "3": {
-    "sommeil_24h": "14 à 17h",
-    "siestes": "3 à 4",
-    "cycle": "≈ 60 min",
-    "coucher": "19h – 20h30",
-    "duree_eveil_moyenne": "1h30 à 2h"
-  },
-  "4": {
-    "sommeil_24h": "12 à 15h",
-    "siestes": "≈ 3",
-    "cycle": "≈ 60 min",
-    "coucher": "18h – 20h",
-    "duree_eveil_moyenne": "1h30 à 2h30"
-  },
-  "5": {
-    "sommeil_24h": "12 à 15h",
-    "siestes": "≈ 3",
-    "cycle": "≈ 60 min",
-    "coucher": "18h – 20h",
-    "duree_eveil_moyenne": "2h à 3h"
-  },
-  "6": {
-    "sommeil_24h": "12 à 15h",
-    "siestes": "≈ 3",
-    "cycle": "≈ 60 min",
-    "coucher": "18h – 20h",
-    "duree_eveil_moyenne": "2h à 3h"
-  },
-  "7": {
-    "sommeil_24h": "12 à 15h",
-    "siestes": "2 à 3",
-    "cycle": "≈ 60 min",
-    "coucher": "18h – 20h",
-    "duree_eveil_moyenne": "2h à 3h30"
-  },
-  "8": {
-    "sommeil_24h": "12 à 15h",
-    "siestes": "2 à 3",
-    "cycle": "≈ 60 min",
-    "coucher": "18h – 20h",
-    "duree_eveil_moyenne": "2h à 3h30"
-  }
+ "_note": "Données de la roue du sommeil du mois (M2 à M23). Valeurs validées sauf mention. À brancher par Code (infographie). Durées d'éveil : moyennes observées, échelle de Laura (naissance 10 min, M0 10-30 min, M1 ~1h, M2 ~1h30, M3 1h30-2h) ; M4 et M5 proposées, à confirmer avec le document d'Élodie. M6 à M8 (29/10) : durées d'éveil M6-M8 = ordre de grandeur proposé, aucune mesure publiée, à confirmer par Laura ; siestes M7-M8 = 2 à 3 (passage de 3 à 2). M9 à M11 (29/10) : durées d'éveil déduites des roues types (9h-10h45 / 13h30-15h50, coucher 19h30), à confirmer par Laura ; roues 10m et 11m encore en brouillon dans sommeil_24h.html. M12 à M14 (29/10) : sommeil sur 24h = 11 à 14h (National Sleep Foundation 2015), 2 siestes (une à deux selon les enfants, Galland 2012), cycle ≈ 70 min (Inserm, INSV), durées d'éveil déduites des roues types 12m, 13m et 14m (3h15 / 2h35 / 3h40, coucher 19h30), à confirmer par Laura ; roues 13m et 14m encore en brouillon dans sommeil_24h.html. M15 à M17 (29/10) : sommeil sur 24h = 11 à 14h (National Sleep Foundation 2015), siestes 1 à 2 (passage entre 15 et 18 mois, Morphée, INSV), cycle ≈ 70 min, durées d'éveil déduites des roues types (15m : 3h45 / 2h25 / 3h40 ; 16m : 4h / 1h55 / 3h55 ; 17m : 4h15 / 1h30 / 4h10, coucher 19h30), à confirmer par Laura ; roues 16m et 17m encore en brouillon dans sommeil_24h.html. M18 à M23 (29/10) : sommeil sur 24h = 11 à 14h (National Sleep Foundation 2015), 1 sieste (Iglowstein 2003 : presque tous les enfants la font encore à 18 mois ; roue type : environ 12h30-14h50), cycle ≈ 70 min (Inserm, INSV), durées d'éveil déduites des roues types (18m : 5h45 / 4h10 ; 19m : 5h45 / 4h15 ; 20m : 5h45 / 4h30 ; 21m : 5h45 / 4h35 ; 22m : 5h30 / 5h10 ; 23m : 5h30 / 5h15), écrites « 4h à 5h30 » (le plus long éveil du matin atteint 5h45), à confirmer par Laura ; coucher 18h – 20h (décision du 27/10) ; roues 18m et 23m validées, 19m à 22m encore en brouillon dans sommeil_24h.html. M0 et M1 (29/10) : sommeil sur 24h = 14 à 17h (National Sleep Foundation 2015), pas de comptage des siestes, cycle ≈ 45 min (décision de Laura 29/10 : les sources donnent plutôt 50 à 60 min, écart à trancher), coucher M0 « pas d'heure » et M1 « 21h – 22h » (décision de Laura 29/10), durées d'éveil selon l'échelle de Laura (M0 10 à 30 min, M1 ≈ 1h ; éveil calme 5-10 min à la naissance, ≈ 30 min à 1 mois, formation EDPP). Roues M0 et M1 : à confirmer dans sommeil_24h.html.",
+ "0": {
+  "sommeil_24h": "14 à 17h",
+  "siestes": "Pas de comptage",
+  "cycle": "≈ 45 min",
+  "coucher": "Pas d'heure",
+  "duree_eveil_moyenne": "10 à 30 min"
+ },
+ "1": {
+  "sommeil_24h": "14 à 17h",
+  "siestes": "Pas de comptage",
+  "cycle": "≈ 45 min",
+  "coucher": "21h – 22h",
+  "duree_eveil_moyenne": "≈ 1h"
+ },
+ "2": {
+  "sommeil_24h": "14 à 17h",
+  "siestes": "4 à 5",
+  "cycle": "≈ 45 min",
+  "coucher": "20h – 21h",
+  "duree_eveil_moyenne": "≈ 1h30"
+ },
+ "3": {
+  "sommeil_24h": "14 à 17h",
+  "siestes": "3 à 4",
+  "cycle": "≈ 60 min",
+  "coucher": "19h – 20h30",
+  "duree_eveil_moyenne": "1h30 à 2h"
+ },
+ "4": {
+  "sommeil_24h": "12 à 15h",
+  "siestes": "≈ 3",
+  "cycle": "≈ 60 min",
+  "coucher": "18h – 20h",
+  "duree_eveil_moyenne": "1h30 à 2h30"
+ },
+ "5": {
+  "sommeil_24h": "12 à 15h",
+  "siestes": "≈ 3",
+  "cycle": "≈ 60 min",
+  "coucher": "18h – 20h",
+  "duree_eveil_moyenne": "2h à 3h"
+ },
+ "6": {
+  "sommeil_24h": "12 à 15h",
+  "siestes": "≈ 3",
+  "cycle": "≈ 60 min",
+  "coucher": "18h – 20h",
+  "duree_eveil_moyenne": "2h à 3h"
+ },
+ "7": {
+  "sommeil_24h": "12 à 15h",
+  "siestes": "2 à 3",
+  "cycle": "≈ 60 min",
+  "coucher": "18h – 20h",
+  "duree_eveil_moyenne": "2h à 3h30"
+ },
+ "8": {
+  "sommeil_24h": "12 à 15h",
+  "siestes": "2 à 3",
+  "cycle": "≈ 60 min",
+  "coucher": "18h – 20h",
+  "duree_eveil_moyenne": "2h à 3h30"
+ },
+ "9": {
+  "sommeil_24h": "12 à 15h",
+  "siestes": "2",
+  "cycle": "≈ 60 à 70 min",
+  "coucher": "18h – 20h",
+  "duree_eveil_moyenne": "2h30 à 3h30"
+ },
+ "10": {
+  "sommeil_24h": "12 à 15h",
+  "siestes": "2",
+  "cycle": "≈ 60 à 70 min",
+  "coucher": "18h – 20h",
+  "duree_eveil_moyenne": "2h30 à 3h30"
+ },
+ "11": {
+  "sommeil_24h": "12 à 15h",
+  "siestes": "2",
+  "cycle": "≈ 60 à 70 min",
+  "coucher": "18h – 20h",
+  "duree_eveil_moyenne": "2h30 à 3h30"
+ },
+ "12": {
+  "sommeil_24h": "11 à 14h",
+  "siestes": "2",
+  "cycle": "≈ 70 min",
+  "coucher": "18h – 20h",
+  "duree_eveil_moyenne": "2h30 à 3h45"
+ },
+ "13": {
+  "sommeil_24h": "11 à 14h",
+  "siestes": "2",
+  "cycle": "≈ 70 min",
+  "coucher": "18h – 20h",
+  "duree_eveil_moyenne": "2h30 à 3h45"
+ },
+ "14": {
+  "sommeil_24h": "11 à 14h",
+  "siestes": "2",
+  "cycle": "≈ 70 min",
+  "coucher": "18h – 20h",
+  "duree_eveil_moyenne": "2h30 à 3h45"
+ },
+ "15": {
+  "sommeil_24h": "11 à 14h",
+  "siestes": "1 à 2",
+  "cycle": "≈ 70 min",
+  "coucher": "18h – 20h",
+  "duree_eveil_moyenne": "3h à 4h"
+ },
+ "16": {
+  "sommeil_24h": "11 à 14h",
+  "siestes": "1 à 2",
+  "cycle": "≈ 70 min",
+  "coucher": "18h – 20h",
+  "duree_eveil_moyenne": "3h à 4h"
+ },
+ "17": {
+  "sommeil_24h": "11 à 14h",
+  "siestes": "1 à 2",
+  "cycle": "≈ 70 min",
+  "coucher": "18h – 20h",
+  "duree_eveil_moyenne": "3h à 4h"
+ },
+ "18": {
+  "sommeil_24h": "11 à 14h",
+  "siestes": "1",
+  "cycle": "≈ 70 min",
+  "coucher": "18h – 20h",
+  "duree_eveil_moyenne": "4h à 5h30"
+ },
+ "19": {
+  "sommeil_24h": "11 à 14h",
+  "siestes": "1",
+  "cycle": "≈ 70 min",
+  "coucher": "18h – 20h",
+  "duree_eveil_moyenne": "4h à 5h30"
+ },
+ "20": {
+  "sommeil_24h": "11 à 14h",
+  "siestes": "1",
+  "cycle": "≈ 70 min",
+  "coucher": "18h – 20h",
+  "duree_eveil_moyenne": "4h à 5h30"
+ },
+ "21": {
+  "sommeil_24h": "11 à 14h",
+  "siestes": "1",
+  "cycle": "≈ 70 min",
+  "coucher": "18h – 20h",
+  "duree_eveil_moyenne": "4h à 5h30"
+ },
+ "22": {
+  "sommeil_24h": "11 à 14h",
+  "siestes": "1",
+  "cycle": "≈ 70 min",
+  "coucher": "18h – 20h",
+  "duree_eveil_moyenne": "4h à 5h30"
+ },
+ "23": {
+  "sommeil_24h": "11 à 14h",
+  "siestes": "1",
+  "cycle": "≈ 70 min",
+  "coucher": "18h – 20h",
+  "duree_eveil_moyenne": "4h à 5h30"
+ }
 }

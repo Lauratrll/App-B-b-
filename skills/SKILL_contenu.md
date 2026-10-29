@@ -1478,3 +1478,9 @@ L'absolu « tu ne le laisses jamais pleurer » est **culpabilisant et épuisant*
 ## Vocabulaire : « conditionnement » (décision de Laura, 29/10/2026)
 
 Ne pas écrire « conditionnement » (évoque le dressage). On écrit **créer / varier / adapter les conditions** (d'endormissement). Le mot « conditions » reste, le verbe porte l'intention.
+
+## Vocabulaire : ne jamais écrire « slot » dans le contenu
+« Slot » est un mot de travail, pas du langage courant. Dans les textes destinés aux parents, écrire « catégorie », « rubrique » ou « page ».
+
+## Chaque source citée est vérifiée
+Avant d'écrire une source dans une ligne `source`, la retrouver en ligne (PubMed, éditeur, DOI) : auteurs, revue, année, volume/pages exacts, et que l'article dit bien ce qu'on lui fait dire (public concerné : adultes, animaux, bébés). Jamais de référence de mémoire. Si la source ne porte pas sur les bébés, le dire (« principe général… ») et ne pas extrapoler. Si on ne la retrouve pas : ne pas la citer, marquer « à vérifier » ou retirer l'affirmation.
