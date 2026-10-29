@@ -25,3 +25,11 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Pages centrées de haut en bas (Guide-moi page 1, Prendre soin), 29/10.
+   Le <main> du layout devient une colonne flexible seulement sur ces pages,
+   pour que la page occupe toute la hauteur disponible et que le centrage fonctionne. */
+main:has(> .centre-vertical) {
+  display: flex;
+  flex-direction: column;
+}

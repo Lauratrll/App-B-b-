@@ -41,7 +41,8 @@ export default async function GuidePage() {
 
   return (
     <div
-      style={{ display: "flex", flexDirection: "column", minHeight: "100%" }}
+      className="centre-vertical"
+      style={{ display: "flex", flexDirection: "column", flex: 1 }}
     >
       {/* Titre éditorial centré — marginTop auto : centre le bloc verticalement */}
       <div

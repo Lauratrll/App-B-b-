@@ -62,11 +62,12 @@ export default async function SoinPage() {
 
   return (
     <div
+      className="centre-vertical"
       style={{
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
-        minHeight: "100%",
+        flex: 1,
         paddingTop: 36,
       }}
     >
