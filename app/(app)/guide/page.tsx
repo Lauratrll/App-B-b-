@@ -2,6 +2,7 @@ import Link from "next/link";
 import { requireProfile } from "@/lib/auth";
 import { getBabyMonth } from "@/lib/utils";
 import { getGuideMeta } from "@/lib/content";
+import { teinteAuDessus } from "@/lib/couleurs";
 import {
   CategoryIcon,
   GUIDE_MUTED,
@@ -112,7 +113,8 @@ export default async function GuidePage() {
                   width: 28,
                   height: 28,
                   borderRadius: "50%",
-                  background: slot.avatarBg,
+                  // 29/10 : rond une teinte au-dessus de la carte, picto noir (comme Réflexologie).
+                  background: teinteAuDessus(slot.bg),
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",

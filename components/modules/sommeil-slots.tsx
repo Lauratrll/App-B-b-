@@ -6,6 +6,7 @@ import type { SommeilMois, SommeilPartie, SommeilReperes } from "@/lib/sommeil";
 import type { Genre } from "@/lib/auth";
 import { LuneEtoile, TEXT, labelStyle, personaliser } from "@/components/modules/coucher-view";
 import { NavBack } from "@/components/ui/nav-context";
+import { teinteAuDessus } from "@/lib/couleurs";
 import { LegendeRoue, RoueSommeil } from "@/components/modules/sommeil-roue";
 import {
   Blocs,
@@ -194,7 +195,8 @@ function Entete({
         <div style={{ ...labelStyle, color: EUCAL, letterSpacing: ".15em" }}>{sousTitre}</div>
       ) : null}
       {phrase ? (
-        <p style={{ fontSize: 11.5, fontStyle: "italic", color: "#5C7480", margin: "6px 0 0" }}>{phrase}</p>
+        // 29/10 : la phrase prend la typo du sous-titre (capitales eucalyptus).
+        <p style={{ ...labelStyle, color: EUCAL, letterSpacing: ".15em", lineHeight: 1.5, margin: "4px 0 0", textWrap: "balance" }}>{phrase}</p>
       ) : null}
     </header>
   );
@@ -236,7 +238,7 @@ function Grille({ sommeil }: { sommeil: SommeilMois }) {
             >
               <span
                 aria-hidden
-                style={{ width: 28, height: 28, borderRadius: "50%", background: "rgba(255,255,255,.55)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}
+                style={{ width: 28, height: 28, borderRadius: "50%", background: teinteAuDessus(CARTE[pt.id] ?? "#E4EEF0"), display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}
               >
                 <SlotPicto id={pt.id} taille={17} couleur={TEXT} />
               </span>

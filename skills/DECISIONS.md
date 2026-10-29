@@ -622,4 +622,6 @@ Ces documents restent consultables pour l'argumentaire, les sources et les chiff
 - ✅ (29/10, soir) **Titres des slots Sommeil tout en noir** (`#3A3228`), tranche d'âge comprise (cartes et titre « Repères clés / X MOIS »).
 - ✅ (29/10, soir) **Page 1 Sommeil (grille des slots) sans picto en haut** : titre « Sommeil et endormissement » + « Rythme et Rituels » seulement.
 - ✅ (29/10, soir) **Guide-moi page 1, centrage optique** : le bloc (titre, cases, mention) est un peu au-dessus du centre, 40 % de l'espace libre au-dessus et 60 % en dessous, entre le haut de l'écran et la barre du bas. Code : `app/(app)/guide/page.tsx`.
+- ✅ (29/10, soir) **Ronds des pictos « une teinte au-dessus »** (Sommeil et Guide-moi page 1, comme Réflexologie) : le rond reprend la couleur de la carte, plus foncée et plus soutenue (OKLCH : clarté −0,078, intensité ×1,62, même teinte), picto noir `#3A3228`. Calculé par `teinteAuDessus()` dans `lib/couleurs.ts`, donc il suit les couleurs des cartes.
+- ✅ (29/10, soir) **Repères clés** : la phrase « Une journée type, pas un objectif… » prend la typo du sous-titre (capitales eucalyptus).
 - ✅ (29/10, soir) **Picto en haut des slots Sommeil** : plus de rond autour ; le picto prend simplement la couleur de la carte du slot. Code : `sommeil-slots.tsx` (Slot).
