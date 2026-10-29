@@ -44,9 +44,12 @@ export default async function GuidePage() {
       className="centre-vertical"
       style={{ display: "flex", flexDirection: "column", flex: 1 }}
     >
-      {/* Titre éditorial centré — marginTop auto : centre le bloc verticalement */}
+      {/* 29/10 : centrage optique, le bloc est un peu au-dessus du centre exact
+          (40 % de l'espace libre au-dessus, 60 % en dessous). */}
+      <div aria-hidden style={{ flex: 2 }} />
+      {/* Titre éditorial centré */}
       <div
-        style={{ padding: "8px 0 22px", textAlign: "center", marginTop: "auto" }}
+        style={{ padding: "8px 0 22px", textAlign: "center" }}
       >
         <h1
           style={{
@@ -153,7 +156,7 @@ export default async function GuidePage() {
         })}
       </div>
 
-      {/* Mention préventive — marginBottom auto : ferme le centrage vertical */}
+      {/* Mention préventive */}
       <div
         style={{
           padding: "26px 4px 8px",
@@ -162,11 +165,11 @@ export default async function GuidePage() {
           lineHeight: 1.4,
           textAlign: "center",
           fontStyle: "italic",
-          marginBottom: "auto",
         }}
       >
         En cas de doute médical, contacte le 15 ou ton pédiatre.
       </div>
+      <div aria-hidden style={{ flex: 3 }} />
     </div>
   );
 }

@@ -48,14 +48,14 @@ export const THEME_PARTIE: Record<string, ThemeVolet> = {
 // (journée → réveils nocturnes), soleil couchant rouge-violet (mon rituel, thème du mois). Même couleurs que les cartes.
 const T = (bg: string, accent: string, label: string): ThemeVolet => ({ bg, accent, label });
 export const THEME_SLOT: Record<string, ThemeVolet> = {
-  "reperes-cles": T("#FAF5EC", "#F3E7CF", "#5E4E2E"),
-  "comprendre-son-sommeil": T("#F1F0E9", "#DCDAC7", "#4F4B35"),
-  "journee-et-siestes": T("#F1F5F7", "#CDDDE1", "#1F3F52"),
-  "fin-de-journee": T("#EBF2F3", "#B7CFD4", "#1F3F52"),
-  endormissement: T("#E5EDEF", "#A1C0C7", "#1F3F52"),
-  "reveils-nocturnes": T("#E0EAEC", "#8FB4BC", "#1F3F52"),
-  "mon-rituel": T("#E1E1E6", "#B5B4C0", "#473F58"),
-  "theme-du-mois": T("#EDE1E7", "#D2B5C4", "#58384A"),
+  "reperes-cles": T("#F1F1E4", "#DCDDBB", "#4A4E2A"),
+  "comprendre-son-sommeil": T("#E9F3EA", "#C7E1CA", "#2F4D3A"),
+  "journee-et-siestes": T("#EBF4F6", "#CEE4E8", "#1F4650"),
+  "fin-de-journee": T("#E2EFF1", "#B6D6DD", "#1F4650"),
+  endormissement: T("#D8E9ED", "#9EC9D1", "#1F4650"),
+  "reveils-nocturnes": T("#D0E5E9", "#89BDC8", "#1F4650"),
+  "mon-rituel": T("#EBE7EF", "#CDC2D6", "#46405A"),
+  "theme-du-mois": T("#F0E7ED", "#DAC3D3", "#5E3A52"),
 };
 export const THEME_DEFAUT = C.cequisepasse;
 const SECURITE = { bg: "#EDE9E4", accent: "#D4604A", label: "#8A3020" };

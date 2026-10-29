@@ -34,14 +34,14 @@ const SOUS_TITRE_THEME = "Ce qu'on travaille en ce moment";
 // soleil couchant (rouge-violet doux) pour mon rituel / thème du mois.
 // Couleur de la carte, par groupe de slots (même groupe = même couleur).
 const CARTE: Record<string, string> = {
-  "reperes-cles": "#F3E7CF",
-  "comprendre-son-sommeil": "#DCDAC7",
-  "journee-et-siestes": "#CDDDE1",
-  "fin-de-journee": "#B7CFD4",
-  endormissement: "#A1C0C7",
-  "reveils-nocturnes": "#8FB4BC",
-  "mon-rituel": "#B5B4C0",
-  "theme-du-mois": "#D2B5C4",
+  "reperes-cles": "#DCDDBB",
+  "comprendre-son-sommeil": "#C7E1CA",
+  "journee-et-siestes": "#CEE4E8",
+  "fin-de-journee": "#B6D6DD",
+  endormissement: "#9EC9D1",
+  "reveils-nocturnes": "#89BDC8",
+  "mon-rituel": "#CDC2D6",
+  "theme-du-mois": "#DAC3D3",
 };
 
 // Slots qui changent chaque mois : pas de tranche d'âge affichée.
@@ -164,7 +164,7 @@ function Entete({
   phrase?: string;
 }) {
   return (
-    <header style={{ textAlign: "center", marginBottom: picto === null ? 6 : 16 }}>
+    <header style={{ textAlign: "center", marginBottom: picto === null && phrase ? 6 : 16 }}>
       {picto === null ? null : (picto ?? <LuneEtoile />)}
       {petit ? (
         <div style={{ ...labelStyle, color: EUCAL, letterSpacing: ".15em", marginTop: 6 }}>{petit}</div>
@@ -203,7 +203,7 @@ function Entete({
 function Grille({ sommeil }: { sommeil: SommeilMois }) {
   return (
     <div style={{ padding: "4px 16px 80px" }}>
-      <Entete titre="Sommeil et endormissement" sousTitre="Rythme et Rituels" />
+      <Entete picto={null} titre="Sommeil et endormissement" sousTitre="Rythme et Rituels" />
       {/* 29/10 : mêmes cartes que la page 1 de Guide-moi (taille, rond, flèche à droite).
           La tranche d'âge suit le titre sur la même ligne : « Fin de journée / 2 À 5 MOIS ». */}
       <ul
