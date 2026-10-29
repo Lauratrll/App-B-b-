@@ -3,6 +3,7 @@ import { getApercu, getCurrentProfile, requireUser } from "@/lib/auth";
 import { getBabyMonth } from "@/lib/utils";
 import { PinToast } from "@/components/modules/pin-toast";
 import { ApercuAdminBar } from "@/components/modules/apercu-admin-bar";
+import { ApercuTiroir } from "@/components/modules/apercu-tiroir";
 import { BottomNav } from "@/components/ui/bottom-nav";
 import { NavProvider } from "@/components/ui/nav-context";
 
@@ -25,12 +26,10 @@ export default async function AppLayout({
       {/* Plus de bandeau en haut (Laura, 20/10) : le menu « 3 traits » est sur
           l'accueil, à droite du prénom et de l'âge (app/(app)/dashboard). */}
       {apercu && profile && babyMonth !== null ? (
-        <ApercuAdminBar
-          key={`${babyMonth}-${profile.genre}-${apercu.saison}`}
-          mois={babyMonth}
-          genre={profile.genre}
-          saison={apercu.saison}
-        />
+        // 29/10 : bandeau caché, il descend en glissant l'écran vers le bas (vue « parent » par défaut).
+        <ApercuTiroir key={`${babyMonth}-${profile.genre}-${apercu.saison}`}>
+          <ApercuAdminBar mois={babyMonth} genre={profile.genre} saison={apercu.saison} />
+        </ApercuTiroir>
       ) : null}
 
       <main className="flex-1 px-5 pt-6 pb-4">{children}</main>
