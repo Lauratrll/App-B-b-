@@ -318,9 +318,9 @@ export function Volet({
               majuscules
                 ? {
                     display: "block",
-                    fontSize: 10,
+                    fontSize: 9.5,
                     fontWeight: 700,
-                    color: TEXT,
+                    color: theme.label,
                     lineHeight: 1.35,
                     textTransform: "uppercase",
                     letterSpacing: ".07em",
@@ -398,7 +398,7 @@ export function Sources({ texte, p }: { texte: string; p: (t?: string) => string
 
 export function TitreSection({ titre, color, grand }: { titre: string; color: string; grand?: boolean }) {
   return (
-    <div style={{ ...labelStyle, ...(grand ? { fontSize: 12 } : {}), color, margin: "14px 0 7px" }}>{titre}</div>
+    <div style={{ ...labelStyle, ...(grand ? { fontSize: 10.5 } : {}), color, margin: "14px 0 7px" }}>{titre}</div>
   );
 }
 

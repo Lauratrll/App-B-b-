@@ -1462,3 +1462,19 @@ Ne jamais livrer un contenu en laissant croire qu'il est parfaitement conforme q
 - [ ] **Difficultés, alertes et interrogations signalées à la fondatrice**
 - [ ] La phrase "ce n'est pas un substitut au médecin" est présente si pertinent
 - [ ] Les numéros d'urgence sont cités si le contexte le demande
+
+## Pleurs : ne jamais écrire « jamais le laisser pleurer » (décision de Laura, 29/10/2026)
+
+L'absolu « tu ne le laisses jamais pleurer » est **culpabilisant et épuisant**, et il pousse des parents à prendre bébé dès les premiers pleurs, y compris pendant un **sommeil agité** (gémissements, yeux fermés) où il aurait pu se rendormir seul. Dans les textes parents :
+- on écrit « s'il pleure, reste près de lui et accompagne-le : il n'a pas à traverser cela seul », jamais « jamais » ni « tu ne dois pas le laisser pleurer » ;
+- on invite d'abord à regarder s'il est vraiment éveillé (sommeil agité ou éveil), puis à répondre ;
+- la posture de fond ne change pas (jamais un bébé abandonné à sa détresse), mais elle se dit par la présence, pas par l'interdit ;
+- même logique pour « rien n'est pressé » : ne pas inviter à attendre. Dire « rien n'est à corriger, tout est à accompagner ».
+
+## Maternage proximal (définition de Laura, 29/10/2026, formation EDPP)
+
+« Maternage proximal » : **les bras des parents sont le nid naturel du bébé**. Formule de la formation : « 9 mois dans le ventre, 9 mois sur le ventre ». S'écrit avec le co-parent inclus (« les bras de ses parents »). Source : `EDPP/PLEURS et SOMMEIL/Contenu de formation/EDPP - notes Pleurs et Sommeil.docx`. Avant d'écrire sur les besoins de bébé ou la proximité, relire ces notes, et marquer « formation » ce qui n'a pas d'autre source.
+
+## Vocabulaire : « conditionnement » (décision de Laura, 29/10/2026)
+
+Ne pas écrire « conditionnement » (évoque le dressage). On écrit **créer / varier / adapter les conditions** (d'endormissement). Le mot « conditions » reste, le verbe porte l'intention.

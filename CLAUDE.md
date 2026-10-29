@@ -21,6 +21,18 @@ Positionnement : zéro jargon médical, parentalité consciente, solutions actio
 
 \---
 
+## 📚 Sources de la formation (EDPP) : à consulter avant d'écrire du contenu
+
+Les documents de la formation de Laura (EDPP) sont dans le dossier **`APP BEBE / EDPP`**, accessible depuis toutes les sessions :
+- `EDPP/PLEURS et SOMMEIL/Contenu de formation/EDPP - notes Pleurs et Sommeil.docx` : ses notes (auto-hypnose, maternage proximal, rituels, siestes…)
+- `EDPP/PLEURS et SOMMEIL/Contenu de formation/livret pleurs et sommeil bebe.pdf` : le livret de formation (55 pages, scanné : pas de texte sélectionnable, le lire page par page comme des images, 20 pages au maximum à la fois ; diapositives du 20/09/2021)
+- `EDPP/PLEURS et SOMMEIL/Contenu de formation/articles/` et `liens videos/` : articles et vidéos de la formation
+- `EDPP/REFLEXOLOGIE/` : formation réflexologie plantaire parents-bébés
+
+**Il faut s'appuyer sur ces documents et y puiser les informations** (ils ne sont pas copiés dans le projet Claude, pour ne pas le surcharger). **La formation fait foi** sur la posture et le vocabulaire. Avant d'écrire un texte sur les besoins de bébé, le sommeil ou les pleurs, relire ces documents, marquer « formation » ce qui n'a pas d'autre source, et vérifier les affirmations scientifiques (analyses dans `claude/analyse_sommeil/10`, `10b`, `11` du projet).
+
+\---
+
 ## 🛠️ Stack technique
 
 ```

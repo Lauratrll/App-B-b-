@@ -58,24 +58,24 @@ const ageCarte = (s: SommeilMois) =>
 const sansMois = (titre: string | null) =>
   titre ? titre.replace(/^M\d+\s*·\s*/, "") : titre;
 
-// 29/10 : camaïeu par slot (chaque grande partie reprend la couleur du slot, un peu plus soutenue),
-// une couleur fixe pour le relais du co-parent dans tous les slots, et le cadre rouge de
-// « Quand consulter », le même que le « Cadre de sécurité » de Guide-moi (protocole-view.tsx).
+// 29/10 : couleurs des blocs FIXES par rôle dans l'argumentaire, quel que soit le slot
+// (même logique que les protocoles de Guide-moi, protocole-view.tsx) :
+//   ce qui se passe = observation / explication · action = quoi faire · co-parent · cadre de sécurité.
+const OBSERVATION: ThemeVolet = { bg: "#E8F0F2", accent: "#8FB4BC", label: "#3A5A64" };
+const ACTION: ThemeVolet = { bg: "#F8E4D4", accent: "#DB936B", label: "#9A4F2A" };
 const CO_PARENT: ThemeVolet = { bg: "#DDF1EC", accent: "#7CC4B4", label: "#1F5E52" };
 const CADRE = { bg: "#EDE9E4", accent: "#D4604A", label: "#8A3020", texte: "#5A4A40" };
 
-function melange(a: string, b: string, t: number) {
-  const n = (h: string, i: number) => parseInt(h.slice(1 + 2 * i, 3 + 2 * i), 16);
-  const c = [0, 1, 2].map((i) => Math.round(n(a, i) * (1 - t) + n(b, i) * t).toString(16).padStart(2, "0"));
-  return `#${c.join("")}`;
-}
-const nuance = (th: ThemeVolet, i: number): ThemeVolet => ({
-  ...th,
-  bg: melange(th.bg, th.accent, [0, 0.3, 0.55][i % 3]),
-});
 const estCoParent = (s: SommeilPartie["sections"][number]) =>
-  /co-parent|relais/i.test([s.titre, ...s.volets.map((v) => v.titre ?? "")].join(" "));
-const estConsulter = (s: SommeilPartie["sections"][number]) => /^quand consulter$/i.test(s.titre ?? "");
+  /co-parent|relais|partager les nuits/i.test(s.titre ?? "");
+const estCadre = (s: SommeilPartie["sections"][number]) =>
+  /^(quand consulter)$/i.test(s.titre ?? "");
+const estAction = (s: SommeilPartie["sections"][number]) =>
+  /redescendre|le coucher|façons de s'endormir|chemin vers|que regarder|ses siestes|premier rituel|besoins|la pose|rythme|tes gestes|cette semaine/i.test(
+    s.titre ?? "",
+  );
+const roleTheme = (s: SommeilPartie["sections"][number]): ThemeVolet =>
+  estCoParent(s) ? CO_PARENT : estAction(s) ? ACTION : OBSERVATION;
 
 // 29/10 : un pictogramme par slot (traits simples, style infographie).
 const SOL = (n: number) => (
@@ -426,8 +426,8 @@ function Slot({
 
       {partie.id === "reperes-cles" ? <ReperesCles sommeil={sommeil} /> : null}
 
-      {partie.sections.map((s, idx) => {
-        if (estConsulter(s)) {
+      {partie.sections.map((s) => {
+        if (estCadre(s)) {
           return (
             <div
               key={s.id}
@@ -447,7 +447,7 @@ function Slot({
             </div>
           );
         }
-        const th = estCoParent(s) ? CO_PARENT : nuance(theme, idx);
+        const th = roleTheme(s);
         return (
           <div key={s.id}>
             {/* Thème du mois : la section porte seulement le mois (« M3 »), déjà dans le titre. */}

@@ -1,13 +1,13 @@
 ## 8 · Thème du mois
 
-<!-- BROUILLON. Chaque section « M{n} » ne s'affiche que pour le mois en cours. Thèmes de docs/sommeil-contenus/31_ce_mois_ci_themes_a_valider.md, à valider puis à rédiger. Sous-titre du slot : « Ce qu'on travaille en ce moment ». -->
+<!-- BROUILLON. Chaque section « M{n} » ne s'affiche que pour le mois en cours. Thèmes de docs/sommeil-contenus/31_ce_mois_ci_themes_a_valider.md, à valider puis à rédiger. Sous-titre du slot : « Ce qu'on travaille en ce moment ». -->
 
 ### M2
 
 #### Créer un premier rituel
 À rédiger après validation du thème.
 
-#### Rituel du soir et conditions d'endormissement : deux choses différentes
+#### Rituel du soir et conditions d'endormissement : deux choses différentes
 À rédiger après validation du thème.
 
 #### Un sommeil plus profond ne veut pas dire que ça s'arrange
@@ -32,7 +32,7 @@
 
 ### M4
 
-#### Dents ou autre chose ?
+#### Dents ou autre chose ?
 À rédiger après validation du thème.
 
 #### Caler de vraies siestes
@@ -43,7 +43,7 @@
 
 ### M5
 
-#### Faim ou besoin de réconfort ?
+#### Faim ou besoin de réconfort ?
 À rédiger après validation du thème.
 
 #### Consolider le rituel avant 6 mois
