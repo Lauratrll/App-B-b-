@@ -47,6 +47,9 @@ Il vient d'entrer dans le monde des images : il fait semblant, il nomme, il inv
 #### Des peurs nouvelles
 Un cerveau qui imagine peut aussi imaginer ce qui fait peur : l'ombre, le bruit, le noir, les monstres. **Ces peurs ne sont pas des caprices : l'enfant qui a peur du noir ne le fait pas exprès**⁵. Vers 2 ans, certains commencent aussi à avoir de mauvais rêves, qu'on ne peut reconnaître que s'ils savent les raconter⁶.
 
+#### Des émotions plus grandes que lui
+Peurs, colères, joies fortes : ses émotions sont intenses, et il ne sait pas encore les calmer seul. Le soir, quand la fatigue s'ajoute, la petite tempête intérieure peut éclater en pleurs ou en refus. Il ne le fait pas exprès. Nomme ce qu'il vit (« tu es en colère, tu es fatigué »), reste près de lui, garde tes gestes habituels : tu l'aides à retrouver son calme, et c'est ainsi qu'il apprendra à le faire seul.
+
 #### Une sieste qui reste
 À 18 mois, presque tous les enfants font encore la sieste, et la plupart la font encore à 2 ans⁷. Ce n'est pas un reste de bébé : **elle lui reste utile bien après 2 ans.**
 

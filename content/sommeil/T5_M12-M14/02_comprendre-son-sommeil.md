@@ -35,6 +35,9 @@ Ses cycles sont encore plus courts que les tiens : ils s'allongeront peu à peu
 #### Un cerveau qui travaille ailleurs
 Dans cette période, **ce qui bouge n'est pas son sommeil, c'est le reste** : la marche, qui arrive à son heure, entre 8 et 17 mois selon les enfants⁴, les premiers mots, la découverte de ce qu'il peut faire et de ce qu'il ne peut pas. Les études le confirment⁵ : **quand une compétence motrice arrive, les réveils augmentent.** Ce n'est pas son sommeil qui recule, c'est son cerveau qui travaille ailleurs, au rythme de son acquisition à lui, pas de son âge.
 
+#### Des envies plus grandes que ses moyens
+Il veut marcher, attraper, dire, et il n'y arrive pas toujours. Ce décalage entre ce qu'il veut et ce qu'il sait faire peut le frustrer, jusqu'aux pleurs, surtout quand la fatigue s'en mêle : c'est comme une petite tempête intérieure. Il ne le fait pas exprès. Accompagne-le avec des mots simples (« tu voulais y arriver, c'est difficile ») et reste près de lui : ta bienveillance l'aide à traverser ces moments.
+
 #### À partir de 1 an, un peu de recul
 Avant 1 an, on ne parle pas de trouble du sommeil⁶. À partir de 1 an, on peut commencer à en parler, mais seulement quand les difficultés durent et pèsent sur toute la famille : les repères sont dans « Quand consulter » du slot Réveils nocturnes. Dans l'immense majorité des cas, ce que tu vois est **un enfant qui grandit**, pas un problème à régler.
 

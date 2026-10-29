@@ -70,6 +70,7 @@ Autour de 3 à 4 mois, **son sommeil se réorganise vraiment** : c'est ce que b
 
 #### Une nouvelle porte d'entrée dans la nuit
 C'est par ce calme-là qu'il va apprendre à entrer dans la nuit. Les enregistrements du sommeil des bébés le montrent⁴ : jusque vers 3 mois, ils s'endorment surtout par le sommeil agité ; vers 6 mois, surtout par le sommeil calme. **Entre les deux, tout se mélange d'un soir à l'autre**, et c'est le cas jusqu'à la fin de cette tranche.
+C'est un vrai bouleversement pour son cerveau : ses repères d'endormissement changent, et il peut se sentir un peu perdu, jusqu'à pleurer sans raison visible, comme dans une petite tempête intérieure. Il ne le fait pas exprès, et il a besoin de ta bienveillance et de ton accompagnement.
 
 ### Ce dont ton bébé a besoin
 

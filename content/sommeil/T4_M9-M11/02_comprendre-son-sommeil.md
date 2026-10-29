@@ -35,6 +35,9 @@ Se hisser, se mettre debout, avancer le long des meubles, chacun à son heure :
 #### Une découverte : tu existes même quand il ne te voit pas
 Il comprend que tu continues d'exister quand tu quittes la pièce⁵. Avant, tu disparaissais ; à présent, tu es quelque part, et il peut t'appeler. Il se demande si tu reviens : c'est une inquiétude réelle, pas un caprice, et elle s'apaise quand il découvre, jour après jour, que tu reviens. Il commence aussi à te regarder pour faire comme toi : il imite.
 
+#### Un cerveau qui avance à toute vitesse
+Se hisser, comprendre que tu existes même quand tu n'es pas là, imiter : en quelques semaines, son cerveau fait des bonds. Ces progrès l'enthousiasment, mais ils le fatiguent, et il a du mal à décrocher. Certains soirs, il se débat ou pleure sans raison visible : c'est comme une petite tempête intérieure, un trop-plein de nouveautés à digérer. Il ne le fait pas exprès. Ta présence calme et tes gestes habituels l'aident à retrouver ses repères.
+
 ### Ce dont ton bébé a besoin
 
 #### Un petit être qui ne fait rien exprès

@@ -82,11 +82,20 @@
           "chapeau": null,
           "volets": [
             {
-              "titre": "Les marches s'inversent",
+              "titre": "La marche du haut change de nature",
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Jusqu'ici, il entrait dans le sommeil par la marche du haut, le sommeil agité. **Vers 6 mois, l'ordre s'inverse** : il s'endort à présent surtout par le sommeil calme, comme toi¹. Quelques endormissements par le sommeil agité peuvent encore arriver jusqu'à 12 mois, mais ils deviennent rares."
+                  "texte": "Pour s'endormir, ton bébé descend une succession de marches, de l'éveil jusqu'au sommeil profond. **La marche du haut reste la porte d'entrée de son sommeil : ce qui change, c'est ce qu'il y a derrière.** Jusqu'à 3 mois environ, il entrait dans le sommeil par le sommeil agité. **Vers 6 mois, il y entre surtout par le sommeil calme, comme toi**¹. Quelques endormissements par le sommeil agité peuvent encore arriver jusqu'à 12 mois, mais ils deviennent rares."
+                }
+              ]
+            },
+            {
+              "titre": "Un bouleversement neurologique, une tempête intérieure",
+              "blocs": [
+                {
+                  "type": "p",
+                  "texte": "Ce changement n'est pas un détail : **son cerveau réorganise la façon dont il entre dans le sommeil**, et ses repères changent. Pendant cette période, il peut sembler un peu perdu, désorienté, et **pleurer sans raison visible** : c'est comme une petite tempête intérieure qu'il ne sait ni comprendre ni nommer. Il ne le fait pas exprès. Ce qu'il lui faut, c'est de la **bienveillance et de l'accompagnement** : reste près de lui, avec ta voix, tes bras, tes gestes habituels. Tu ne règles pas cette tempête, tu l'aides à la traverser."
                 }
               ]
             },

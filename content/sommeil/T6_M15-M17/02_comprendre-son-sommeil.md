@@ -32,6 +32,9 @@ Entre deux cycles, il remonte près de la surface plusieurs fois par nuit, comme
 #### Plusieurs chantiers à la fois
 Dans cette période, tout avance en même temps : **la marche**, qui s'affirme, **les mots**, qui arrivent, et une envie de plus en plus nette de décider. Les études le confirment⁴ : **quand une compétence arrive, les réveils augmentent.** Ce n'est pas son sommeil qui recule, c'est son cerveau qui travaille ailleurs, au rythme de son acquisition à lui, pas de son âge.
 
+#### Vouloir décider, sans pouvoir tout
+Son envie de décider grandit plus vite que sa capacité à gérer ses émotions. Quand il ne peut pas, ou quand il est trop fatigué, ses émotions débordent : pleurs, colère, refus. C'est comme une petite tempête intérieure, qu'il ne sait pas encore calmer seul. Il ne le fait pas exprès. Ton calme et tes mots l'aident à retrouver le sien : **il apprend à se calmer à travers toi**.
+
 #### Une sieste qui change
 Entre 15 et 18 mois, **beaucoup d'enfants passent de deux siestes à une**, le plus souvent en supprimant celle du matin⁵. C'est la transition la plus longue et la plus chahutée, parce qu'elle tombe en pleine période d'acquisitions : elle peut prendre **plusieurs semaines**.
 

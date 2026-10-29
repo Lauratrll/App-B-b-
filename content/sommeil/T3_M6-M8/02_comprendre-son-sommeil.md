@@ -21,8 +21,11 @@ Des **appels de nuit qui reviennent**, alors que c'était réglé. Un endormisse
 
 ### Ce qui se passe dans son sommeil
 
-#### Les marches s'inversent
-Jusqu'ici, il entrait dans le sommeil par la marche du haut, le sommeil agité. **Vers 6 mois, l'ordre s'inverse** : il s'endort à présent surtout par le sommeil calme, comme toi¹. Quelques endormissements par le sommeil agité peuvent encore arriver jusqu'à 12 mois, mais ils deviennent rares.
+#### La marche du haut change de nature
+Pour s'endormir, ton bébé descend une succession de marches, de l'éveil jusqu'au sommeil profond. **La marche du haut reste la porte d'entrée de son sommeil : ce qui change, c'est ce qu'il y a derrière.** Jusqu'à 3 mois environ, il entrait dans le sommeil par le sommeil agité. **Vers 6 mois, il y entre surtout par le sommeil calme, comme toi**¹. Quelques endormissements par le sommeil agité peuvent encore arriver jusqu'à 12 mois, mais ils deviennent rares.
+
+#### Un bouleversement neurologique, une tempête intérieure
+Ce changement n'est pas un détail : **son cerveau réorganise la façon dont il entre dans le sommeil**, et ses repères changent. Pendant cette période, il peut sembler un peu perdu, désorienté, et **pleurer sans raison visible** : c'est comme une petite tempête intérieure qu'il ne sait ni comprendre ni nommer. Il ne le fait pas exprès. Ce qu'il lui faut, c'est de la **bienveillance et de l'accompagnement** : reste près de lui, avec ta voix, tes bras, tes gestes habituels. Tu ne règles pas cette tempête, tu l'aides à la traverser.
 
 #### Son sommeil agité est devenu un sommeil paradoxal
 Le sommeil agité a diminué peu à peu depuis 2 mois : **vers 6 mois, c'est devenu un sommeil paradoxal**², celui où le cerveau travaille et où le corps reste tranquille. **Tu n'as plus à le distinguer d'un éveil agité** : ses grimaces et ses sursauts se font de plus en plus discrets, et tu sais vite qu'il dort.
