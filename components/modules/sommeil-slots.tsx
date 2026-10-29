@@ -344,13 +344,15 @@ const PICTO: Record<string, React.ReactNode> = {
   coucher: <path d="M12 3l2.6 5.6 6 .7-4.5 4.1 1.2 6L12 16.6 6.7 19.4l1.2-6L3.4 9.3l6-.7z" />,
 };
 
-// Hauteur d'une case = 58 % de sa largeur ; le décalage de la colonne de droite en dépend.
-const RATIO = 58;
+// 29/10 : tailles qui suivent la HAUTEUR de l'écran (dvh), bornées en bas et en haut, pour que
+// la page tienne sans défiler du petit téléphone (≈ 550 px visibles) au grand (≈ 850 px).
+const H_CASE = "clamp(46px, 9.5dvh, 86px)"; // hauteur d'un ovale ; le décalage en quinconce en dépend
 const ECART = 6;
+const T_PICTO = "clamp(12px, 2.2dvh, 18px)";
 
 function Bulle({ cle, libelle, valeur, forme }: { cle: string; libelle: string; valeur: string; forme: Forme }) {
   return (
-    <div style={{ position: "relative", minWidth: 0, aspectRatio: `100 / ${RATIO}` }}>
+    <div style={{ position: "relative", minWidth: 0, height: H_CASE }}>
       <svg
         viewBox="0 0 160 100"
         preserveAspectRatio="none"
@@ -374,11 +376,11 @@ function Bulle({ cle, libelle, valeur, forme }: { cle: string; libelle: string; 
           color: forme.texte,
         }}
       >
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden style={{ width: T_PICTO, height: T_PICTO, flexShrink: 0 }}>
           {PICTO[cle]}
         </svg>
-        <div style={{ ...labelStyle, fontSize: 8.5, letterSpacing: ".05em", lineHeight: 1.2 }}>{libelle}</div>
-        <div style={{ fontFamily: PLAYFAIR, fontSize: 16.5, fontWeight: 700, lineHeight: 1.1, whiteSpace: "nowrap" }}>
+        <div style={{ ...labelStyle, fontSize: "clamp(7.5px, 1.15dvh, 8.5px)", letterSpacing: ".05em", lineHeight: 1.2 }}>{libelle}</div>
+        <div style={{ fontFamily: PLAYFAIR, fontSize: "clamp(13px, 2.1dvh, 16.5px)", fontWeight: 700, lineHeight: 1.1, whiteSpace: "nowrap" }}>
           {valeur}
         </div>
       </div>
@@ -395,7 +397,7 @@ function Colonne({ items, r, decalee }: { items: [keyof SommeilReperes, string, 
         gap: ECART,
         minWidth: 0,
         // Quinconce : la colonne de droite descend d'une demi-case.
-        paddingTop: decalee ? `calc((100% * ${RATIO} / 100 + ${ECART}px) / 2)` : 0,
+        paddingTop: decalee ? `calc((${H_CASE} + ${ECART}px) / 2)` : 0,
       }}
     >
       {items
@@ -418,13 +420,13 @@ function BoutonRythme() {
         style={{
           width: "100%",
           borderRadius: 999,
-          padding: "12px 16px",
+          padding: "clamp(8px, 1.5dvh, 12px) 16px",
           // 29/10 : le vert du slot Repères clés, pour le mettre en lumière.
           background: CARTE["reperes-cles"],
           border: `1px solid ${teinteAuDessus(CARTE["reperes-cles"])}`,
           color: (THEME_SLOT["reperes-cles"] ?? THEME_DEFAUT).label,
           fontFamily: PLAYFAIR,
-          fontSize: 15,
+          fontSize: "clamp(13.5px, 2dvh, 15px)",
           fontWeight: 600,
           cursor: "pointer",
         }}
@@ -444,11 +446,11 @@ function ReperesCles({ sommeil }: { sommeil: SommeilMois }) {
     <div style={{ flex: 1, display: "flex", flexDirection: "column", padding: "0 16px 8px" }}>
       <NavBack href="/coucher" label="Sommeil" />
       <div aria-hidden style={{ flex: 1 }} />
-      <header style={{ textAlign: "center", marginBottom: 14 }}>
+      <header style={{ textAlign: "center", marginBottom: "clamp(4px, 1.8dvh, 16px)" }}>
         <h1
           style={{
             fontFamily: PLAYFAIR,
-            fontSize: 22,
+            fontSize: "clamp(18px, 2.8dvh, 22px)",
             fontWeight: 600,
             color: TEXT,
             lineHeight: 1.15,
@@ -466,12 +468,12 @@ function ReperesCles({ sommeil }: { sommeil: SommeilMois }) {
         </p>
       </header>
       {aUneRoue(sommeil.mois) ? (
-        <div style={{ marginBottom: 6 }}>
-          <RoueSommeil mois={sommeil.mois} taille={250} />
-          <LegendeRoue />
+        <div style={{ marginBottom: 2 }}>
+          <RoueSommeil mois={sommeil.mois} taille="clamp(138px, 29dvh, 250px)" />
+          <LegendeRoue serree />
         </div>
       ) : null}
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: ECART, margin: "6px 0 14px" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: ECART, margin: "clamp(4px, 1dvh, 8px) 0 clamp(8px, 1.8dvh, 16px)" }}>
         <Colonne items={GAUCHE} r={r} />
         <Colonne items={DROITE} r={r} decalee />
       </div>

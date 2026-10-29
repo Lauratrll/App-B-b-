@@ -212,7 +212,7 @@ export const COULEURS_ROUE = {
   coucher: "#D4604A",
 };
 
-const HEURE: React.CSSProperties = { fontSize: 10.5, fontWeight: 600, fill: "#5C7480" };
+const HEURE: React.CSSProperties = { fontSize: 12, fontWeight: 600, fill: "#5C7480" };
 
 const minutes = (t: string) => {
   const [h, m] = t.split(":").map(Number);
@@ -241,7 +241,7 @@ export function aUneRoue(mois: number) {
   return Boolean(JOURNEES[mois]);
 }
 
-export function RoueSommeil({ mois, taille = 215 }: { mois: number; taille?: number }) {
+export function RoueSommeil({ mois, taille = 215 }: { mois: number; taille?: number | string }) {
   const j = JOURNEES[mois];
   if (!j) return null;
   const cx = 130;
@@ -290,7 +290,7 @@ export function RoueSommeil({ mois, taille = 215 }: { mois: number; taille?: num
         x={cx}
         y={cy - 3}
         textAnchor="middle"
-        style={{ fontSize: 9.5, fontWeight: 700, letterSpacing: ".06em", fill: "#3A3228", textTransform: "uppercase" }}
+        style={{ fontSize: 10, fontWeight: 700, letterSpacing: ".02em", fill: "#3A3228", textTransform: "uppercase" }}
       >
         <tspan x={cx}>Éveil / Sommeil</tspan>
         <tspan x={cx} dy={14}>sur 24h</tspan>
@@ -299,7 +299,7 @@ export function RoueSommeil({ mois, taille = 215 }: { mois: number; taille?: num
   );
 }
 
-export function LegendeRoue() {
+export function LegendeRoue({ serree }: { serree?: boolean } = {}) {
   const items: [string, string][] = [
     ["Nuit", COULEURS_ROUE.nuit],
     ["Siestes", COULEURS_ROUE.sieste],
@@ -312,7 +312,7 @@ export function LegendeRoue() {
         flexWrap: "wrap",
         justifyContent: "center",
         gap: "6px 14px",
-        margin: "10px 0 4px",
+        margin: serree ? "clamp(2px, 1dvh, 10px) 0 2px" : "10px 0 4px",
         fontSize: 10.5,
         color: "#3A3228",
       }}
