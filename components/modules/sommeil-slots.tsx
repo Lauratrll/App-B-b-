@@ -2,11 +2,11 @@
 
 import type React from "react";
 import Link from "next/link";
-import type { SommeilMois, SommeilPartie, SommeilReperes } from "#/lib/sommeil";
-import type { Genre } from "#/lib/auth";
-import { LuneEtoile, TEXT, labelStyle, personaliser } from "#/components/modules/coucher-view";
-import { NavBack } from "#/components/ui/nav-context";
-import { LegendeRoue, RoueSommeil } from "#/components/modules/sommeil-roue";
+import type { SommeilMois, SommeilPartie, SommeilReperes } from "@/lib/sommeil";
+import type { Genre } from "@/lib/auth";
+import { LuneEtoile, TEXT, labelStyle, personaliser } from "@/components/modules/coucher-view";
+import { NavBack } from "@/components/ui/nav-context";
+import { LegendeRoue, RoueSommeil } from "@/components/modules/sommeil-roue";
 import {
   Blocs,
   Inline,
@@ -16,7 +16,7 @@ import {
   TitreSection,
   Volet,
   type ThemeVolet,
-} from "#/components/modules/sommeil-view";
+} from "@/components/modules/sommeil-view";
 
 // ----------------------------------------------------------------------------
 // Sommeil en slots (pilote tranche M2-M5, 28/10).
