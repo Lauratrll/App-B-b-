@@ -275,7 +275,7 @@ Pendant neuf mois, il a vécu bercé, contenu, au chaud, contre ta voix et ton c
 
 ### Ses façons de s'endormir
 
-> Chacune répond à un besoin de ton bébé. Certaines peuvent aussi te fatiguer{N}: c'est humain, et tu fais de ton mieux.
+> Chacune répond à un besoin de ton bébé. Certaines peuvent aussi te fatiguer : c'est humain, et tu fais de ton mieux.
 
 #### Au sein ou au biberon
 La succion l'apaise, et à cet âge, s'endormir en tétant est **physiologique**. Chez les plus petits, jusqu'à environ 3 mois, **on répond à la faim**, sans la retarder pour travailler l'endormissement. Si tu as envie de varier :

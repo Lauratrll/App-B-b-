@@ -636,3 +636,19 @@ Ces documents restent consultables pour l'argumentaire, les sources et les chiff
 
 ## 29/10 : « Je ne veux pas habituer mon bébé aux bras »
 Phrase à déconstruire : porter son bébé est bon, ce n'est pas une mauvaise habitude. Jamais de « déshabituer ». Varier les conditions d'endormissement ≠ porter moins.
+
+## 29/10 : Tranche M6–M8 écrite en slots (brouillon, rien déployé)
+- ✅ (29/10) **T3 M6–M8 réécrite en 8 slots** : `content/sommeil/T3_M6-M8/00_` à `08_` (même structure que T2). Ancienne version : `content/sommeil/_sauvegardes/2026-10-29_T3_avant_slots/`. T2 et autres tranches non touchées.
+- ✅ (29/10) Retiré de T3 : « Quand tu es à bout » (la consigne bébé secoué est dans « Quand consulter », sans le titre) et « Jamais le laisser pleurer seul » (remplacé par « reste près de lui et accompagne-le »).
+- ✅ (29/10) Séparation : « il se demande si tu reviens », « peur des visages inconnus et réaction à la séparation », jamais « angoisse » (formation EDPP : inquiétude, pas angoisse).
+- 🟡 **À trancher avec Laura** :
+  1. **Durées d'éveil M6–M8** : aucune mesure publiée. Proposé : M6 2h à 3h ; M7 et M8 2h à 3h30 (dans `reperes_cles.json` et le slot Journée). À confirmer.
+  2. **Siestes** : « souvent trois à 6 mois », puis passage à deux « vers 7-8 mois, chez certains plus tard » (INSV/Morphée disent plutôt 9-12 mois). Repères clés : M6 ≈ 3, M7 et M8 « 2 à 3 ».
+  3. **Objet doux hors du lit avant 1 an** (slot Endormissement) : [Déduction] sans source.
+  4. **Motricité dans le rituel** (slot Mon rituel) : [Déduction] sans source.
+  5. **« Se dépenser vers 17h »** : vient des notes EDPP (décharges), pas d'étude.
+  6. **Bébé secoué** : placé dans « Quand consulter » (Réveils nocturnes) faute de « Quand tu es à bout ». À revoir si un cadre global est ajouté.
+  7. **Thèmes du mois** M6–M8 (slot 08) : brouillon, à valider (doc 31).
+  8. **T2, 05_endormissement.md** : le chapeau contient un `{N}` littéral (« te fatiguer{N}: »). Non corrigé (T2 non touchée) ; T3 n'a pas de renvoi à cet endroit.
+  9. **Formation** : le livret PDF (55 pages) n'a pas été relu page par page, seulement les notes .docx. Les sources « livret p. 44 » viennent de la frise.
+- ✅ (29/10) T2 `05_endormissement.md` : `{N}` littéral retiré du chapeau « Ses façons de s'endormir » (« te fatiguer : c'est humain… »). Sauvegarde : `_sauvegardes/2026-10-29/`.

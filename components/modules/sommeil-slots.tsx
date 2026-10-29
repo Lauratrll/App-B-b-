@@ -7,7 +7,7 @@ import type { Genre } from "@/lib/auth";
 import { LuneEtoile, TEXT, labelStyle, personaliser } from "@/components/modules/coucher-view";
 import { NavBack } from "@/components/ui/nav-context";
 import { teinteAuDessus } from "@/lib/couleurs";
-import { LegendeRoue, RoueSommeil } from "@/components/modules/sommeil-roue";
+import { LegendeRoue, RoueSommeil, aUneRoue } from "@/components/modules/sommeil-roue";
 import {
   Blocs,
   Inline,
@@ -377,10 +377,13 @@ function ReperesCles({ sommeil }: { sommeil: SommeilMois }) {
     <>
       {/* 29/10 : « Éveil / Sommeil sur 24h » est au centre de la roue ; repères sur 3 colonnes
           pour que la page tienne sur un écran. */}
-      <div style={{ padding: "0 0 2px", marginBottom: 2 }}>
+      {/* 29/10 : pas de roue pour ce mois (journée type pas encore dessinée) : ni roue ni légende. */}
+      {aUneRoue(sommeil.mois) ? (
+        <div style={{ padding: "0 0 2px", marginBottom: 2 }}>
         <RoueSommeil mois={sommeil.mois} />
         <LegendeRoue />
       </div>
+      ) : null}
       {cartes.length > 0 ? (
         <div style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0, 1fr))", gap: 2 }}>
           {cartes.map(([k, libelle], i) => (
