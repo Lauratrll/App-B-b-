@@ -2,11 +2,11 @@
 
 import type React from "react";
 import Link from "next/link";
-import type { SommeilMois, SommeilPartie, SommeilReperes } from "@/lib/sommeil";
-import type { Genre } from "@/lib/auth";
-import { LuneEtoile, TEXT, labelStyle, personaliser } from "@/components/modules/coucher-view";
-import { NavBack } from "@/components/ui/nav-context";
-import { LegendeRoue, RoueSommeil } from "@/components/modules/sommeil-roue";
+import type { SommeilMois, SommeilPartie, SommeilReperes } from "#/lib/sommeil";
+import type { Genre } from "#/lib/auth";
+import { LuneEtoile, TEXT, labelStyle, personaliser } from "#/components/modules/coucher-view";
+import { NavBack } from "#/components/ui/nav-context";
+import { LegendeRoue, RoueSommeil } from "#/components/modules/sommeil-roue";
 import {
   Blocs,
   Inline,
@@ -16,7 +16,7 @@ import {
   TitreSection,
   Volet,
   type ThemeVolet,
-} from "@/components/modules/sommeil-view";
+} from "#/components/modules/sommeil-view";
 
 // ----------------------------------------------------------------------------
 // Sommeil en slots (pilote tranche M2-M5, 28/10).
@@ -36,10 +36,10 @@ const SOUS_TITRE_THEME = "Ce qu'on travaille en ce moment";
 const CARTE: Record<string, string> = {
   "reperes-cles": "#FBE9BE",
   "comprendre-son-sommeil": "#F8D49E",
-  "journee-et-siestes": "#D2EAFB",
-  "fin-de-journee": "#B8DAF7",
-  endormissement: "#9EC7F1",
-  "reveils-nocturnes": "#8FB2EB",
+  "journee-et-siestes": "#B1CAD0",
+  "fin-de-journee": "#8FB4BC",
+  endormissement: "#779FAD",
+  "reveils-nocturnes": "#6692A2",
   "mon-rituel": "#EDC6D6",
   "theme-du-mois": "#D8A6C6",
 };
@@ -50,6 +50,9 @@ const PHRASE_REPERES = "Une journée type, pas un objectif : chaque bébé a son
 
 const age = (s: SommeilMois) =>
   s.tranche ? `${s.tranche.debut} - ${s.tranche.fin} mois` : `${s.mois} mois`;
+// Sur les cartes de la grille : « 2 à 5 mois » (exemple de Laura, 29/10).
+const ageCarte = (s: SommeilMois) =>
+  s.tranche ? `${s.tranche.debut} à ${s.tranche.fin} mois` : `${s.mois} mois`;
 
 // « M3 · Un sommeil qui se réorganise » → « Un sommeil qui se réorganise » :
 // on n'affiche qu'un mois à la fois, le repère « M3 » est inutile à l'écran.
@@ -135,20 +138,24 @@ function SlotPicto({ id, taille = 22, couleur = "#3A3228" }: { id: string; taill
 
 function Entete({
   titre,
+  suite,
   sousTitre,
   petit,
   phrase,
   picto,
 }: {
+  /** null = pas de picto (Repères clés, 29/10). */
   picto?: React.ReactNode;
   titre: string;
+  /** Suite du titre en majuscules, sur la même ligne : « Repères clés / 3 MOIS ». */
+  suite?: string;
   sousTitre?: string;
   petit?: string;
   phrase?: string;
 }) {
   return (
-    <header style={{ textAlign: "center", marginBottom: 16 }}>
-      {picto ?? <LuneEtoile />}
+    <header style={{ textAlign: "center", marginBottom: picto === null ? 6 : 16 }}>
+      {picto === null ? null : (picto ?? <LuneEtoile />)}
       {petit ? (
         <div style={{ ...labelStyle, color: EUCAL, letterSpacing: ".15em", marginTop: 6 }}>{petit}</div>
       ) : null}
@@ -164,6 +171,14 @@ function Entete({
         }}
       >
         {titre}
+        {suite ? (
+          <>
+            {" / "}
+            <span style={{ ...labelStyle, fontFamily: "Arial, Helvetica, sans-serif", fontSize: 13, color: "#5C6E68", letterSpacing: ".08em" }}>
+              {suite}
+            </span>
+          </>
+        ) : null}
       </h1>
       {sousTitre ? (
         <div style={{ ...labelStyle, color: EUCAL, letterSpacing: ".15em" }}>{sousTitre}</div>
@@ -179,63 +194,66 @@ function Grille({ sommeil }: { sommeil: SommeilMois }) {
   return (
     <div style={{ padding: "4px 16px 80px" }}>
       <Entete titre="Sommeil et endormissement" sousTitre="Rythme et Rituels" />
+      {/* 29/10 : mêmes cartes que la page 1 de Guide-moi (taille, rond, flèche à droite).
+          La tranche d'âge suit le titre sur la même ligne : « Fin de journée / 2 À 5 MOIS ». */}
       <ul
         style={{
           listStyle: "none",
           padding: 0,
           margin: 0,
           display: "grid",
-          gridTemplateColumns: "minmax(0, 1fr)",
+          gridTemplateColumns: "max-content",
+          justifyContent: "center",
           gap: 10,
+          maxWidth: "100%",
         }}
       >
         {sommeil.parties.map((pt) => (
-          <li key={pt.id}>
+          <li key={pt.id} style={{ display: "flex" }}>
             <Link
               prefetch
               href={`/coucher?slot=${pt.id}`}
               style={{
-                boxSizing: "border-box",
-                display: "flex",
-                flexDirection: "row",
-                justifyContent: "flex-start",
-                alignItems: "center",
-                gap: 14,
-                minHeight: 64,
-                padding: "10px 14px",
-                borderRadius: 14,
-                border: "1px solid rgba(0,0,0,.06)",
                 background: CARTE[pt.id] ?? "#E4EEF0",
-                textAlign: "left",
+                borderRadius: 11,
+                display: "flex",
+                alignItems: "center",
+                gap: 12,
+                padding: "11px 14px",
+                width: "100%",
                 textDecoration: "none",
               }}
             >
               <span
                 aria-hidden
-                style={{ display: "inline-flex", flexShrink: 0, width: 42, height: 42, borderRadius: "50%", alignItems: "center", justifyContent: "center", background: "rgba(255,255,255,.55)" }}
+                style={{ width: 28, height: 28, borderRadius: "50%", background: "rgba(255,255,255,.55)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}
               >
-                <SlotPicto id={pt.id} />
+                <SlotPicto id={pt.id} taille={17} couleur={TEXT} />
               </span>
-              <span style={{ display: "flex", flexDirection: "column", gap: 4, minWidth: 0 }}>
               <span
                 style={{
+                  flex: 1,
                   fontFamily: PLAYFAIR,
                   fontWeight: 600,
                   fontSize: 15,
-                  lineHeight: 1.15,
                   color: TEXT,
                   letterSpacing: "-.01em",
-                  textWrap: "balance",
+                  whiteSpace: "nowrap",
                 }}
               >
                 {pt.titre}
+                {MENSUELS.has(pt.id) ? null : (
+                  <>
+                    {" / "}
+                    <span style={{ ...labelStyle, fontFamily: "Arial, Helvetica, sans-serif", fontSize: 10, color: "#5C6E68", letterSpacing: ".08em" }}>
+                      {ageCarte(sommeil)}
+                    </span>
+                  </>
+                )}
               </span>
-              {MENSUELS.has(pt.id) ? null : (
-                <span style={{ ...labelStyle, fontSize: 8.5, color: "#5C6E68", letterSpacing: ".12em" }}>
-                  {age(sommeil)}
-                </span>
-              )}
-              </span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke={TEXT} strokeWidth="1.7" strokeLinecap="round" aria-hidden>
+                <path d="M9 6l6 6-6 6" />
+              </svg>
             </Link>
           </li>
         ))}
@@ -245,7 +263,7 @@ function Grille({ sommeil }: { sommeil: SommeilMois }) {
 }
 
 const LIBELLES_REPERES: [keyof SommeilReperes, string][] = [
-  ["sommeil_24h", "Sommeil sur 24 heures"],
+  ["sommeil_24h", "Sommeil sur 24h"],
   ["siestes", "Siestes"],
   ["duree_eveil_moyenne", "Fenêtre d'éveil"],
   ["cycle", "Cycle de sommeil"],
@@ -307,17 +325,18 @@ function Bulle({ cle, libelle, valeur, i }: { cle: string; libelle: string; vale
           position: "relative",
           height: "100%",
           boxSizing: "border-box",
-          padding: "0 16% 0 14%",
+          padding: "0 12%",
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-          alignItems: "flex-start",
-          gap: 3,
+          alignItems: "center",
+          textAlign: "center",
+          gap: 2,
         }}
       >
         <svg
-          width="22"
-          height="22"
+          width="17"
+          height="17"
           viewBox="0 0 24 24"
           fill="none"
           stroke={NAVY}
@@ -328,8 +347,8 @@ function Bulle({ cle, libelle, valeur, i }: { cle: string; libelle: string; vale
         >
           {PICTO[cle]}
         </svg>
-        <div style={{ ...labelStyle, fontSize: 8.5, color: NAVY, opacity: 0.75 }}>{libelle}</div>
-        <div style={{ fontFamily: PLAYFAIR, fontSize: 17, fontWeight: 700, color: NAVY, lineHeight: 1.15 }}>
+        <div style={{ ...labelStyle, fontSize: 7, letterSpacing: ".04em", lineHeight: 1.2, color: NAVY, opacity: 0.75 }}>{libelle}</div>
+        <div style={{ fontFamily: PLAYFAIR, fontSize: 13.5, fontWeight: 700, color: NAVY, lineHeight: 1.1, whiteSpace: "nowrap" }}>
           {valeur}
         </div>
       </div>
@@ -337,22 +356,19 @@ function Bulle({ cle, libelle, valeur, i }: { cle: string; libelle: string; vale
   );
 }
 
-function ReperesCles({ sommeil, theme }: { sommeil: SommeilMois; theme: ThemeVolet }) {
+function ReperesCles({ sommeil }: { sommeil: SommeilMois }) {
   const r = sommeil.reperes ?? {};
   const cartes = LIBELLES_REPERES.filter(([k]) => r[k]);
   return (
     <>
-      <div style={{ padding: "4px 0 6px", marginBottom: 6 }}>
-        <div
-          style={{ ...labelStyle, textAlign: "center", color: theme.label, letterSpacing: ".12em", marginBottom: 4 }}
-        >
-          Éveil / Sommeil sur 24 h
-        </div>
+      {/* 29/10 : « Éveil / Sommeil sur 24h » est au centre de la roue ; repères sur 3 colonnes
+          pour que la page tienne sur un écran. */}
+      <div style={{ padding: "0 0 2px", marginBottom: 2 }}>
         <RoueSommeil mois={sommeil.mois} />
         <LegendeRoue />
       </div>
       {cartes.length > 0 ? (
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: 4 }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0, 1fr))", gap: 2 }}>
           {cartes.map(([k, libelle], i) => (
             <Bulle key={k} cle={k} libelle={libelle} valeur={String(r[k])} i={i} />
           ))}
@@ -373,22 +389,27 @@ function Slot({
 }) {
   const theme = THEME_SLOT[partie.id] ?? THEME_DEFAUT;
   const estTheme = partie.id === "theme-du-mois";
+  const estReperes = partie.id === "reperes-cles";
   return (
     <div style={{ padding: "4px 16px 80px" }}>
       <NavBack href="/coucher" label="Sommeil" />
-      <Entete
-        picto={
-          <span style={{ display: "inline-flex", width: 44, height: 44, borderRadius: "50%", alignItems: "center", justifyContent: "center", background: theme.bg, border: `1px solid ${theme.accent}` }}>
-            <SlotPicto id={partie.id} couleur={theme.label} />
-          </span>
-        }
-        titre={partie.titre}
-        petit={MENSUELS.has(partie.id) ? undefined : age(sommeil)}
-        sousTitre={estTheme ? SOUS_TITRE_THEME : partie.id === "reperes-cles" ? `${sommeil.mois} mois` : undefined}
-        phrase={partie.id === "reperes-cles" ? PHRASE_REPERES : undefined}
-      />
+      {estReperes ? (
+        // 29/10 : tout tient sur un écran ; pas de picto, le mois suit le titre, la phrase en sous-titre.
+        <Entete picto={null} titre={partie.titre} suite={`${sommeil.mois} mois`} phrase={PHRASE_REPERES} />
+      ) : (
+        <Entete
+          picto={
+            <span style={{ display: "inline-flex", width: 44, height: 44, borderRadius: "50%", alignItems: "center", justifyContent: "center", background: theme.bg, border: `1px solid ${theme.accent}` }}>
+              <SlotPicto id={partie.id} couleur={theme.label} />
+            </span>
+          }
+          titre={partie.titre}
+          petit={MENSUELS.has(partie.id) ? undefined : age(sommeil)}
+          sousTitre={estTheme ? SOUS_TITRE_THEME : undefined}
+        />
+      )}
 
-      {partie.id === "reperes-cles" ? <ReperesCles sommeil={sommeil} theme={theme} /> : null}
+      {partie.id === "reperes-cles" ? <ReperesCles sommeil={sommeil} /> : null}
 
       {partie.sections.map((s, idx) => {
         if (estConsulter(s)) {

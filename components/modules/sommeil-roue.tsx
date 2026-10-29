@@ -91,42 +91,6 @@ function arc(cx: number, cy: number, ro: number, ri: number, f0: number, f1: num
   return `M${a} A${ro},${ro} 0 ${big} 1 ${b} L${c} A${ri},${ri} 0 ${big} 0 ${d} Z`;
 }
 
-function Lune({ x, y }: { x: number; y: number }) {
-  return (
-    <path
-      d={`M${x + 3.5} ${y - 6} a7 7 0 1 0 3.5 11 a5.5 5.5 0 1 1 -3.5 -11 z`}
-      fill="none"
-      stroke="#5C7480"
-      strokeWidth={1.4}
-      strokeLinejoin="round"
-    />
-  );
-}
-
-function Soleil({ x, y }: { x: number; y: number }) {
-  const rayons = Array.from({ length: 8 }, (_, i) => {
-    const a = (i * Math.PI) / 4;
-    return (
-      <line
-        key={i}
-        x1={x + 6 * Math.cos(a)}
-        y1={y + 6 * Math.sin(a)}
-        x2={x + 8.5 * Math.cos(a)}
-        y2={y + 8.5 * Math.sin(a)}
-        stroke="#C89878"
-        strokeWidth={1.4}
-        strokeLinecap="round"
-      />
-    );
-  });
-  return (
-    <g>
-      <circle cx={x} cy={y} r={3.8} fill="none" stroke="#C89878" strokeWidth={1.4} />
-      {rayons}
-    </g>
-  );
-}
-
 export function aUneRoue(mois: number) {
   return Boolean(JOURNEES[mois]);
 }
@@ -141,10 +105,10 @@ export function RoueSommeil({ mois }: { mois: number }) {
 
   return (
     <svg
-      viewBox="0 0 260 276"
+      viewBox="0 32 260 222"
       role="img"
       aria-label={`Roue du sommeil sur 24 heures, journée type à ${mois} mois : la nuit et les siestes en bleu, l'éveil en clair.`}
-      style={{ display: "block", width: "100%", maxWidth: 250, height: "auto", margin: "0 auto" }}
+      style={{ display: "block", width: "100%", maxWidth: 215, height: "auto", margin: "0 auto" }}
     >
       {/* Anneau d'éveil : ce qui reste entre deux sommeils. */}
       <circle
@@ -170,19 +134,20 @@ export function RoueSommeil({ mois }: { mois: number }) {
         );
       })}
       {/* Repères d'heure (29/10) : 0 h en haut, 12 h en bas, pour valider la compréhension. */}
-      <Lune x={cx - 2} y={cy - ro - 36} />
-      <text x={cx} y={cy - ro - 7} textAnchor="middle" style={HEURE}>0 h</text>
-      <text x={cx + ro + 8} y={cy + 3.5} textAnchor="start" style={HEURE}>6 h</text>
-      <text x={cx} y={cy + ro + 17} textAnchor="middle" style={HEURE}>12 h</text>
-      <text x={cx - ro - 8} y={cy + 3.5} textAnchor="end" style={HEURE}>18 h</text>
-      <Soleil x={cx} y={cy + ro + 38} />
+      {/* 29/10 : lune et soleil retirés, les 4 repères d'heure suffisent. */}
+      <text x={cx} y={cy - ro - 7} textAnchor="middle" style={HEURE}>0h</text>
+      <text x={cx + ro + 8} y={cy + 3.5} textAnchor="start" style={HEURE}>6h</text>
+      <text x={cx} y={cy + ro + 17} textAnchor="middle" style={HEURE}>12h</text>
+      <text x={cx - ro - 8} y={cy + 3.5} textAnchor="end" style={HEURE}>18h</text>
+      {/* 29/10 : le titre du schéma au centre (le mois est déjà dans le grand titre). */}
       <text
         x={cx}
-        y={cy + 2}
+        y={cy - 3}
         textAnchor="middle"
-        style={{ fontFamily: "var(--font-playfair), Georgia, serif", fontSize: 21, fontWeight: 600, fill: "#3A3228" }}
+        style={{ fontSize: 9.5, fontWeight: 700, letterSpacing: ".06em", fill: "#3A3228", textTransform: "uppercase" }}
       >
-        {mois} mois
+        <tspan x={cx}>Éveil / Sommeil</tspan>
+        <tspan x={cx} dy={14}>sur 24h</tspan>
       </text>
     </svg>
   );
