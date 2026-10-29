@@ -48,7 +48,11 @@ const CARTE: Record<string, string> = {
 
 // Slots qui changent chaque mois : pas de tranche d'âge affichée.
 const MENSUELS = new Set(["reperes-cles", "comprendre-son-sommeil", "mon-rituel", "theme-du-mois"]);
-const PHRASE_REPERES = "Une journée type, pas un objectif\u00a0: chaque bébé a son rythme.";
+const PHRASES_REPERES = [
+  "Exemple d'une journée type, pas un objectif.",
+  "Il y a des petits et des gros dormeurs.",
+  "Chaque bébé et chaque famille a son rythme.",
+];
 
 // Tranche d'âge : « 2 à 5 mois » (cartes et pages des slots, Laura 29/10).
 const ageCarte = (s: SommeilMois) =>
@@ -413,11 +417,12 @@ function BoutonRythme() {
         onClick={() => setOuvert(true)}
         style={{
           width: "100%",
-          border: "none",
           borderRadius: 999,
           padding: "12px 16px",
-          background: COULEURS_ROUE.nuit,
-          color: "#FFFFFF",
+          // 29/10 : le vert du slot Repères clés, pour le mettre en lumière.
+          background: CARTE["reperes-cles"],
+          border: `1px solid ${teinteAuDessus(CARTE["reperes-cles"])}`,
+          color: (THEME_SLOT["reperes-cles"] ?? THEME_DEFAUT).label,
           fontFamily: PLAYFAIR,
           fontSize: 15,
           fontWeight: 600,
@@ -450,11 +455,14 @@ function ReperesCles({ sommeil }: { sommeil: SommeilMois }) {
             margin: "0 0 6px",
           }}
         >
-          Repères clés
-          <br />à {sommeil.mois} mois
+          Repères clés à {sommeil.mois} mois
         </h1>
-        <p style={{ ...labelStyle, color: EUCAL, letterSpacing: ".15em", lineHeight: 1.5, margin: 0, textWrap: "balance" }}>
-          {PHRASE_REPERES}
+        <p style={{ ...labelStyle, color: EUCAL, letterSpacing: ".15em", lineHeight: 1.5, margin: 0 }}>
+          {PHRASES_REPERES.map((ph, i) => (
+            <span key={i} style={{ display: "block" }}>
+              {ph}
+            </span>
+          ))}
         </p>
       </header>
       {aUneRoue(sommeil.mois) ? (
