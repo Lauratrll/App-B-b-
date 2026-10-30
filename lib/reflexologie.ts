@@ -2,9 +2,10 @@
 // ===========================================================================
 // Couche données de l'onglet « Réflexologie plantaire » (remplace « Jeux »).
 //
-// Contrairement aux 6 modules mensuels, ces protocoles ne dépendent PAS du mois
-// de bébé : c'est une bibliothèque fixe, la même pour tout le monde. Ils sont
-// donc lus directement depuis content/reflexologie/*.json (embarqués au build via des
+// Bibliothèque fixe, mais chaque protocole couvre une tranche d'âge
+// (`age_min_mois` → `age_max_mois`, validées par Laura le 30/10/2026) : hors de
+// sa tranche, il est TOTALEMENT bloqué (absent de la liste, page en 404,
+// épingle non cliquable). Les protocoles sont lus directement depuis content/reflexologie/*.json (embarqués au build via des
 // imports statiques — la voie fiable pour que Vercel les inclue), et non depuis
 // la table Supabase `content`.
 //
@@ -137,6 +138,9 @@ export type ReflexoProtocole = {
   /** Intitulé de cet encart, en capitales (défaut : « Jour après jour »). */
   regularite_titre?: string;
   disclaimer: string;
+  /** Tranche d'âge du protocole, bornes incluses (en mois). */
+  age_min_mois?: number;
+  age_max_mois?: number;
   lancement: boolean;
   /** Termes prudents obligatoires : accompagner / apaiser, jamais soigner. */
   sujet_sensible?: boolean;
@@ -251,10 +255,9 @@ const ORDRE_REPORTES: string[] = (
   (indexJson as { reportes?: string[] }).reportes ?? []
 ).filter((id) => !RETIRES_DEONTOLOGIE.has(id));
 
-// ⚠️ TEMPORAIRE (demande Laura) : afficher TOUS les protocoles, publiés ET
-// reportés, le temps de la relecture. Repasser à `false` pour ne montrer que
-// les protocoles `lancement === true` (comportement cible + futur filtre par âge).
-const TOUT_VISIBLE = true;
+// Mode relecture (tous les protocoles, publiés ET reportés). Repassé à `false`
+// le 30/10/2026 avec l'arrivée du filtre par âge : seuls les `lancement === true`.
+const TOUT_VISIBLE = false;
 // Ordre d'affichage quand tout est visible : lancement d'abord, puis reportés.
 const ORDRE_AFFICHAGE = [...ORDRE_LANCEMENT, ...ORDRE_REPORTES];
 
@@ -272,9 +275,30 @@ function accrocheDepuisIntro(intro: string): string {
  * Un protocole publié mais absent de l'index est ajouté à la fin plutôt
  * qu'ignoré silencieusement.
  */
-export function getProtocolesPublies(): ReflexoListItem[] {
+/**
+ * Le protocole convient-il à un bébé de `mois` mois ? Bornes incluses.
+ * Sans borne écrite, pas de limite de ce côté-là.
+ */
+export function adapteAuMois(
+  p: Pick<ReflexoProtocole, "age_min_mois" | "age_max_mois">,
+  mois: number,
+): boolean {
+  if (typeof p.age_min_mois === "number" && mois < p.age_min_mois) return false;
+  if (typeof p.age_max_mois === "number" && mois > p.age_max_mois) return false;
+  return true;
+}
+
+/**
+ * Avec `mois` : seulement ceux de la tranche d'âge de bébé. Sans `mois` : tous
+ * (pour `generateStaticParams` et les outils internes).
+ */
+export function getProtocolesPublies(mois?: number): ReflexoListItem[] {
   const ordre = TOUT_VISIBLE ? ORDRE_AFFICHAGE : ORDRE_LANCEMENT;
-  const visibles = PROTOCOLES.filter((p) => TOUT_VISIBLE || p.lancement === true);
+  const visibles = PROTOCOLES.filter(
+    (p) =>
+      (TOUT_VISIBLE || p.lancement === true) &&
+      (mois === undefined || adapteAuMois(p, mois)),
+  );
   const rang = (id: string) => {
     const i = ordre.indexOf(id);
     return i === -1 ? Number.MAX_SAFE_INTEGER : i;
@@ -322,8 +346,17 @@ export function getDureeAnimation(
  * Sert à retrouver SA couleur : la gamme est attribuée par position, donc la
  * fiche doit reprendre la teinte de la ligne sur laquelle le parent a tapé.
  */
-export function getRangProtocole(id: string): number {
-  return getProtocolesPublies().findIndex((p) => p.id === id);
+export function getRangProtocole(id: string, mois?: number): number {
+  return getProtocolesPublies(mois).findIndex((p) => p.id === id);
+}
+
+/**
+ * Un protocole, seulement s'il est publié ET dans la tranche d'âge de bébé.
+ * Hors tranche → null : la page répond 404 (blocage total, choix Laura 30/10).
+ */
+export function getProtocolePourMois(id: string, mois: number): ReflexoProtocole | null {
+  const p = getProtocole(id);
+  return p && adapteAuMois(p, mois) ? p : null;
 }
 
 /** Ids des protocoles publiés — pour `generateStaticParams`. */

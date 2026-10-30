@@ -309,7 +309,7 @@ Quand la thématique du protocole correspond à un protocole de l'onglet **Réfl
 **Deux conditions cumulatives, aucune exception :**
 
 1. **La thématique correspond vraiment.** Sommeil ↔ `sommeil`, régurgitations ↔ `reflux`, selles ↔ `constipation`, coliques ↔ `coliques`, séparation ↔ `separation`, dents ↔ `dents`, etc. Pas de rapprochement approximatif : un protocole sur les pleurs de sur-stimulation n'est pas un protocole « anxiété ».
-2. **Le protocole de réflexologie est disponible au mois travaillé.** ⚠️ C'est l'erreur la plus facile à commettre. Les bornes d'âge sont dans **`content/reflexologie/protocoles-index.json`** (champs `age_min_mois` / `age_max_mois`, résumés par le champ `age`). Exemple : `coliques` s'arrête à M2, donc un protocole M3 « la fin des coliques » ne peut **pas** pointer dessus ; `separation` ne démarre qu'à M6, donc pas de lien depuis un M3 sur la reprise du travail. **Toujours ouvrir le tableau de répartition avant d'écrire un lien.**
+2. **Le protocole de réflexologie est disponible au mois travaillé.** ⚠️ C'est l'erreur la plus facile à commettre. Les bornes d'âge sont dans **`content/reflexologie/protocoles-index.json`** (champs `age_min_mois` / `age_max_mois`, résumés par le champ `age`). Exemple : `coliques` s'arrête à M2, donc un protocole M3 « la fin des coliques » ne peut **pas** pointer dessus ; `separation` ne démarre qu'à M6, donc pas de lien depuis un M3 sur la reprise du travail. **Toujours ouvrir le tableau de répartition avant d'écrire un lien.** Depuis le 30/10/2026 l'app **bloque** un protocole hors de sa tranche : un lien hors bornes mènerait à une page introuvable.
 
 #### On n'invente jamais une séquence de réflexologie ⭐⭐ — arrêté le 9 septembre 2026
 

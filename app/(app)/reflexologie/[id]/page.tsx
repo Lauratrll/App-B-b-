@@ -4,7 +4,7 @@ import { getBabyMonth } from "@/lib/utils";
 import {
   getDureeAnimation,
   getIdsPublies,
-  getProtocole,
+  getProtocolePourMois,
   getRangProtocole,
   getStepsAnimation,
   ouvertureCommune,
@@ -48,14 +48,15 @@ export default async function ProtocoleReflexoPage({
 }) {
   const { profile } = await requireProfile();
   const moisBebe = getBabyMonth(new Date(profile.birthdate));
-  const protocole = getProtocole(params.id);
+  const protocole = getProtocolePourMois(params.id, moisBebe);
 
-  // Protocole inconnu OU reporté (lancement: false) → 404, jamais affiché.
+  // Protocole inconnu, reporté (lancement: false) OU hors de la tranche d'âge
+  // de bébé (blocage total, choix Laura 30/10) → 404, jamais affiché.
   if (!protocole) notFound();
 
-  // La couleur PROPRE au protocole : celle de sa ligne dans la liste, pour que
-  // l'ouverture de la fiche prolonge la case sur laquelle le parent a tapé.
-  const famille = slotReflexo(Math.max(0, getRangProtocole(params.id)));
+  // La couleur PROPRE au protocole : celle de sa ligne dans la liste (filtrée
+  // sur l'âge de bébé), pour que la fiche prolonge la case tapée.
+  const famille = slotReflexo(Math.max(0, getRangProtocole(params.id, moisBebe)));
 
   // Chaque bloc de la fiche prend une famille de la gamme, toujours la même
   // d'un protocole à l'autre : c'est la fonction du bloc qui donne la couleur,

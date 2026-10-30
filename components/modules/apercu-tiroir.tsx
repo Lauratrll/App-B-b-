@@ -8,14 +8,17 @@ import { useEffect, useRef, useState } from "react";
 // est tout en haut de la page (sur ordinateur : molette vers le haut, en haut
 // de page). Il remonte en glissant vers le haut, en touchant l'écran ailleurs,
 // ou tout seul après un changement (la page se recharge).
+// 30/10 : le geste était trop difficile à trouver. Une petite poignée discrète,
+// en haut au centre, ouvre aussi le tiroir d'un simple toucher (admins seulement).
 // ----------------------------------------------------------------------------
 
-const SEUIL = 70; // px à glisser pour ouvrir
+const SEUIL = 45; // px à glisser pour ouvrir
 
 export function ApercuTiroir({ children }: { children: React.ReactNode }) {
   const [ouvert, setOuvert] = useState(false);
   const tiroir = useRef<HTMLDivElement>(null);
   const depart = useRef<number | null>(null);
+  const cumulMolette = useRef(0);
 
   useEffect(() => {
     // Pas de « tirer pour rafraîchir » du navigateur : le geste sert au tiroir (admins seulement).
@@ -42,8 +45,17 @@ export function ApercuTiroir({ children }: { children: React.ReactNode }) {
     const fin = () => {
       depart.current = null;
     };
+    // Molette ou pavé tactile : on additionne les petits crans vers le haut.
     const molette = (e: WheelEvent) => {
-      if (!ouvert && e.deltaY < -30 && enHaut()) setOuvert(true);
+      if (ouvert || !enHaut() || e.deltaY >= 0) {
+        cumulMolette.current = 0;
+        return;
+      }
+      cumulMolette.current += -e.deltaY;
+      if (cumulMolette.current > 40) {
+        cumulMolette.current = 0;
+        setOuvert(true);
+      }
     };
     const toucheAilleurs = (e: Event) => {
       if (ouvert && !surTiroir(e)) setOuvert(false);
@@ -65,23 +77,58 @@ export function ApercuTiroir({ children }: { children: React.ReactNode }) {
   }, [ouvert]);
 
   return (
-    <div
-      ref={tiroir}
-      aria-hidden={!ouvert}
-      style={{
-        position: "fixed",
-        top: 0,
-        left: "50%",
-        width: "100%",
-        maxWidth: 390,
-        zIndex: 40,
-        transform: `translate(-50%, ${ouvert ? "0" : "-100%"})`,
-        transition: "transform 220ms ease",
-        boxShadow: ouvert ? "0 4px 12px rgba(0,0,0,.08)" : "none",
-        visibility: ouvert ? "visible" : "hidden",
-      }}
-    >
-      {children}
-    </div>
+    <>
+      {/* Poignée discrète : un toucher ouvre le bandeau. */}
+      {!ouvert && (
+        <button
+          type="button"
+          aria-label="Ouvrir le bandeau d'aperçu admin"
+          onClick={() => setOuvert(true)}
+          style={{
+            position: "fixed",
+            top: 0,
+            left: "50%",
+            transform: "translateX(-50%)",
+            zIndex: 40,
+            width: 80,
+            height: 24,
+            display: "flex",
+            alignItems: "flex-start",
+            justifyContent: "center",
+            paddingTop: 6,
+            background: "transparent",
+            border: "none",
+            cursor: "pointer",
+          }}
+        >
+          <span
+            style={{
+              width: 40,
+              height: 5,
+              borderRadius: 3,
+              background: "rgba(0,0,0,.22)",
+            }}
+          />
+        </button>
+      )}
+      <div
+        ref={tiroir}
+        aria-hidden={!ouvert}
+        style={{
+          position: "fixed",
+          top: 0,
+          left: "50%",
+          width: "100%",
+          maxWidth: 390,
+          zIndex: 40,
+          transform: `translate(-50%, ${ouvert ? "0" : "-100%"})`,
+          transition: "transform 220ms ease",
+          boxShadow: ouvert ? "0 4px 12px rgba(0,0,0,.08)" : "none",
+          visibility: ouvert ? "visible" : "hidden",
+        }}
+      >
+        {children}
+      </div>
+    </>
   );
 }

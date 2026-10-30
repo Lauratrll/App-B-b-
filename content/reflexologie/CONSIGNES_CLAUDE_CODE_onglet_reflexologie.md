@@ -37,7 +37,7 @@ Accueil du nouveau-né · **Prématurité** · Césarienne _(bébé né d'une c�
 
 _(Césarienne et Confiance en soi sont **deux protocoles distincts** ; Inconfort digestif reprend la séquence de Coliques avec un texte d'ouverture propre.)_
 
-> **Bornes d'âge — BROUILLON, ne pas activer le filtre.** Chaque protocole porte désormais `age_min_mois` / `age_max_mois` **et** `age_statut: "brouillon"` ; l'index porte le drapeau `_bornes_age`. **Claude Code ne doit PAS activer le filtre par âge** tant que ce drapeau est là : Laura veut d'abord relire toutes les bornes librement. Afficher tous les protocoles publiés sans restriction d'âge pour l'instant.
+> **Bornes d'âge — VALIDÉES le 30/10/2026, filtre actif.** Chaque protocole porte `age_min_mois` / `age_max_mois` (bornes incluses) et `age_statut: "valide"`. Hors de sa tranche, un protocole est **totalement bloqué** : absent de la liste, page en 404, épingle grisée non cliquable (« Ce geste ne correspond plus à l'âge de bébé »), qu'on peut encore retirer. Code : `lib/reflexologie.ts` (`adapteAuMois`, `getProtocolePourMois`).
 >
 > _Sommeil_ : bornes M0–M23, avec une note — version de base M0–M11, version **avec vésicule** M12–M23 (variante à intégrer plus tard).
 

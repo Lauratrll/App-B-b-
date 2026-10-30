@@ -293,5 +293,5 @@
       "raison_report": "sujet trop médical, reporté à un cadre ultérieur"
     }
   ],
-  "_bornes_age": "BROUILLON : Laura doit relire toutes les bornes d'âge (age_min_mois/age_max_mois) avant validation. NE PAS activer le filtre par âge tant que ce drapeau est présent."
+  "_bornes_age": "VALIDÉ par Laura le 30/10/2026 : chaque protocole n'est accessible que dans sa tranche (age_min_mois → age_max_mois, bornes incluses) ; hors tranche, il est totalement bloqué (liste, page, épingle)."
 }

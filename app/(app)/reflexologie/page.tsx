@@ -1,4 +1,5 @@
 import { requireProfile } from "@/lib/auth";
+import { getBabyMonth } from "@/lib/utils";
 import { accueilReflexo, getProtocolesPublies } from "@/lib/reflexologie";
 import { ReflexoListe } from "@/components/modules/reflexo-liste";
 import { ReflexoReplier } from "@/components/modules/reflexo-replier";
@@ -16,8 +17,9 @@ import {
 // Le bloc « Bienvenue » est toujours en 1re position, avant la liste.
 
 export default async function ReflexologiePage() {
-  await requireProfile();
-  const protocoles = getProtocolesPublies();
+  const { profile } = await requireProfile();
+  // Seulement les protocoles de la tranche d'âge de bébé (30/10/2026).
+  const protocoles = getProtocolesPublies(getBabyMonth(new Date(profile.birthdate)));
 
   return (
     // 8 px de marge latérale sur TOUTE la page : l'introduction, le titre

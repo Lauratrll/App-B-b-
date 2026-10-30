@@ -3,6 +3,7 @@ import { requireProfile } from "@/lib/auth";
 import { getBabyMonth } from "@/lib/utils";
 import { getPins, PIN_QUOTAS, type PinnedItem } from "@/lib/pinned";
 import { RemovePinButton } from "@/components/modules/remove-pin-button";
+import { adapteAuMois, getProtocole } from "@/lib/reflexologie";
 
 export default async function EpinglesPage() {
   const { profile } = await requireProfile();
@@ -65,6 +66,9 @@ export default async function EpinglesPage() {
                     : `/epingle/${pin.content_id}`
                 }
                 sansMois={pin.categorie === "plantaire"}
+                // Hors de la tranche d'âge de bébé : la fiche est bloquée
+                // (30/10), l'épingle reste visible pour pouvoir la retirer.
+                horsAge={pin.categorie === "plantaire" && ficheHorsAge(pin.situation, moisActuel)}
                 fallbackTitre={`Réflexologie · ${pin.categorie ?? ""} · mois ${pin.mois}`}
               />
             ))}
@@ -124,18 +128,26 @@ export default async function EpinglesPage() {
   );
 }
 
+/** Fiche de Réflexologie plantaire hors de la tranche d'âge (ou plus publiée). */
+function ficheHorsAge(id: string | null, mois: number): boolean {
+  const p = id ? getProtocole(id) : null;
+  return !p || !adapteAuMois(p, mois);
+}
+
 function PinCard({
   pin,
   moisActuel,
   href,
   fallbackTitre,
   sansMois = false,
+  horsAge = false,
 }: {
   pin: PinnedItem;
   moisActuel: number;
   href: string;
   fallbackTitre?: string;
   sansMois?: boolean;
+  horsAge?: boolean;
 }) {
   const titre =
     ((pin.data as { titre?: string }).titre as string) ??
@@ -150,14 +162,25 @@ function PinCard({
   return (
     <li className="rounded-2xl border border-neutral-200 p-4">
       <div className="flex items-start justify-between gap-3">
-        <Link prefetch
-          href={href}
-          className="flex-1 text-sm font-medium leading-tight text-neutral-900"
-        >
-          {titre}
-        </Link>
+        {horsAge ? (
+          <span className="flex-1 text-sm font-medium leading-tight text-neutral-400">
+            {titre}
+          </span>
+        ) : (
+          <Link prefetch
+            href={href}
+            className="flex-1 text-sm font-medium leading-tight text-neutral-900"
+          >
+            {titre}
+          </Link>
+        )}
         <RemovePinButton pinId={pin.id} confirmMessage={confirmMessage} />
       </div>
+      {horsAge ? (
+        <p className="mt-1.5 text-xs text-neutral-500">
+          Ce geste ne correspond plus à l&apos;âge de bébé.
+        </p>
+      ) : null}
       {sansMois ? null : (
       <p className="mt-1.5 text-xs text-neutral-500">
         Mois {pin.mois}
