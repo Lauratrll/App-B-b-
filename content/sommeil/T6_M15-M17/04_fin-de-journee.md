@@ -1,6 +1,6 @@
 ## 4 · FIN DE JOURNÉE
 
-### Ce qui se passe en fin de journée
+### La redescente du soir
 
 #### La redescente
 Après la sieste, l'après-midi est fait pour bouger. **Le soir, son corps a besoin de redescendre**, et à cet âge, il ne sait pas encore freiner seul. Dès la fin d'après-midi, son cortisol redescend et sa mélatonine commence à monter¹ : c'est un bon moment pour baisser les lumières et le rythme. Garde les jeux qui excitent, chatouilles, courses-poursuites, lancers de balle, pour plus tôt, et passe le dernier moment de la journée à des jeux calmes : livres, dessins, câlins.

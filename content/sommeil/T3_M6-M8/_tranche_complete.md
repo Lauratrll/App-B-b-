@@ -20,7 +20,7 @@ Ancienne version : content/sommeil/_sauvegardes/2026-10-29_T3_avant_slots/ · f
 
 ## 2 · COMPRENDRE SON SOMMEIL
 
-### Ce qu'il se passe
+### Mois par mois
 
 #### M6 · Il bouge, il goûte
 À 6 mois, ton bébé s'endort à présent surtout par le sommeil calme, et ses nuits, d'environ 10 heures, restent entrecoupées de réveils. Il se retourne, essaie de nouvelles positions, et la diversification alimentaire commence souvent : sa journée change, et sa nuit avec elle. Ces nouveautés peuvent le réveiller, sans que ce soit un problème de sommeil.
@@ -37,18 +37,18 @@ Ancienne version : content/sommeil/_sauvegardes/2026-10-29_T3_avant_slots/ · f
 Des **appels de nuit qui reviennent**, alors que c'était réglé. Un endormissement qui s'étire, parce qu'il sait maintenant que tu pars. Un bébé qui s'agite dans son lit pour s'asseoir ou se hisser. Une **troisième sieste qui commence à résister**. Ou, au contraire, des nuits qui s'allongent : les deux existent, parfois chez le même bébé, d'une semaine à l'autre.
 
 #### Ce que ça veut dire
-**Ce n'est pas toi qui as perdu la main**, et il ne le fait pas exprès : il ne peut pas faire autrement. **T'appeler pour se rendormir n'est pas une mauvaise habitude** : il apprend à redescendre, et c'est parce que tu l'accompagnes qu'il y arrivera un jour seul. Avant 1 an, on ne parle pas de trouble du sommeil. Quand la nouvelle compétence est installée, son sommeil se repose.
+**Ce n'est pas toi qui as perdu la main**, et il ne peut pas faire autrement. **T'appeler pour se rendormir n'est pas une mauvaise habitude** : il apprend à redescendre, et c'est parce que tu l'accompagnes qu'il y arrivera un jour seul. Avant 1 an, on ne parle pas de trouble du sommeil. Quand la nouvelle compétence est installée, son sommeil se repose.
 
-### Ce qui se passe dans son sommeil
-
-#### La marche du haut change de nature
-Pour s'endormir, ton bébé descend une succession de marches, de l'éveil jusqu'au sommeil profond. **La marche du haut reste la porte d'entrée de son sommeil : ce qui change, c'est ce qu'il y a derrière.** Jusqu'à 3 mois environ, il entrait dans le sommeil par le sommeil agité. **Vers 6 mois, il y entre surtout par le sommeil calme, comme toi**¹. Quelques endormissements par le sommeil agité peuvent encore arriver jusqu'à 12 mois, mais ils deviennent rares.
-
-#### Un bouleversement neurologique, une tempête intérieure
-Ce changement n'est pas un détail : **son cerveau réorganise la façon dont il entre dans le sommeil**, et ses repères changent. Pendant cette période, il peut sembler un peu perdu, désorienté, et **pleurer sans raison visible** : c'est comme une petite tempête intérieure qu'il ne sait ni comprendre ni nommer. Il ne le fait pas exprès. Ce qu'il lui faut, c'est de la **bienveillance et de l'accompagnement** : reste près de lui, avec ta voix, tes bras, tes gestes habituels. Tu ne règles pas cette tempête, tu l'aides à la traverser.
+### Son sommeil, de l'intérieur
 
 #### Son sommeil agité est devenu un sommeil paradoxal
-Le sommeil agité a diminué peu à peu depuis 2 mois : **vers 6 mois, c'est devenu un sommeil paradoxal**², celui où le cerveau travaille et où le corps reste tranquille. **Tu n'as plus à le distinguer d'un éveil agité** : ses grimaces et ses sursauts se font de plus en plus discrets, et tu sais vite qu'il dort.
+Le sommeil agité a diminué peu à peu depuis 2 mois : **vers 6 mois, c'est devenu un sommeil paradoxal**¹, celui où le cerveau travaille et où le corps reste tranquille. **Tu n'as plus à le distinguer d'un éveil agité** : ses grimaces et ses sursauts se font de plus en plus discrets, et tu sais vite qu'il dort.
+
+#### La marche du haut change de nature
+Pour s'endormir, ton bébé descend une succession de marches, de l'éveil jusqu'au sommeil profond. **La marche du haut reste la porte d'entrée de son sommeil : ce qui change, c'est ce qu'il y a derrière.** Jusqu'à 3 mois environ, il entrait dans le sommeil par le sommeil agité. **Vers 6 mois, il y entre surtout par le sommeil calme, comme toi**². Quelques endormissements par le sommeil agité peuvent encore arriver jusqu'à 12 mois, mais ils deviennent rares.
+
+#### Un bouleversement neurologique, une tempête intérieure
+Ce changement n'est pas un détail : **son cerveau réorganise la façon dont il entre dans le sommeil**, et ses repères changent. Pendant cette période, il peut sembler un peu perdu, désorienté, et **pleurer sans raison visible** : c'est comme une petite tempête intérieure qu'il ne sait ni comprendre ni nommer. Ce qu'il lui faut, c'est de la **bienveillance et de l'accompagnement** : reste près de lui, avec ta voix, tes bras, tes gestes habituels. Tu ne règles pas cette tempête, tu l'aides à la traverser.
 
 #### Un sommeil qui se range
 Son sommeil calme s'est divisé en **sommeil léger** puis **sommeil profond**. Ce sommeil profond, celui qui répare surtout le corps, **se place maintenant en début de nuit** : c'est en y entrant que l'hormone de croissance est libérée³. Le sommeil paradoxal, qui répare surtout le cerveau, arrive plutôt en fin de nuit. **Un cycle complet dure environ une heure**, et s'allonge peu à peu vers 70 minutes dans la deuxième moitié de la première année. Ses cycles restent plus courts que les tiens, et l'organisation de son sommeil ne s'achève qu'entre 12 et 18 mois.
@@ -56,7 +56,7 @@ Son sommeil calme s'est divisé en **sommeil léger** puis **sommeil profond**. 
 #### Son horloge se règle
 Son corps a bien fait le lien : la lumière signale le jour et la période d'éveil ; la pénombre indique la nuit et appelle le sommeil. Entre 6 et 9 mois, **un deuxième repère s'installe : le rythme du cortisol**, l'hormone du réveil, qui monte le matin et redescend au fil de la journée⁴. Côté mélatonine, celle qu'il fabrique lui-même se renforce, mais elle ne pèsera vraiment sur ses nuits que vers 9 mois. Ces hormones donnent l'heure : **l'endormissement et le sommeil restent le travail du cerveau.**
 
-### Ce qui bouge de 6 à 8 mois
+### Ses apprentissages et son sommeil
 
 #### Un corps qui apprend
 À cet âge, le sommeil encaisse ce que le reste vit. S'asseoir, ramper, se hisser, parfois se mettre debout : chacun à son heure, car les âges possibles sont très larges⁵. Les études le confirment⁶ : **quand une compétence motrice arrive, les réveils augmentent**. Ce n'est pas son sommeil qui recule, c'est son cerveau qui travaille ailleurs, au rythme de son apprentissage à lui, pas de son âge.
@@ -72,8 +72,8 @@ La diversification est là pour la curiosité et la découverte, pas pour nourri
 
 ### Ce dont ton bébé a besoin
 
-#### Un petit être qui ne fait rien exprès
-Si ton bébé ne dort pas comme tu le voudrais, **il ne le fait pas exprès : il ne peut pas faire autrement**⁹. Il n'a ni caprice ni stratégie. Quand il pleure ou se réveille, **il exprime un besoin**, même quand tu ne le trouves pas.
+#### Un petit être qui dépend de vous
+Si ton bébé ne dort pas comme tu le voudrais, **il ne peut pas faire autrement**⁹. Il n'a ni caprice ni stratégie. Quand il pleure ou se réveille, **il exprime un besoin**, même quand tu ne le trouves pas.
 
 #### Ses besoins fondamentaux
 Pour que son cerveau puisse lâcher prise et dormir, il a besoin de se sentir en sécurité :
@@ -87,25 +87,17 @@ Pour que son cerveau puisse lâcher prise et dormir, il a besoin de se sentir en
 #### Et toi, dans tout ça
 **C'est parfois difficile, et c'est normal.** À 6 mois, les acquisitions s'enchaînent et beaucoup de parents se sentent submergés : c'est un des moments où l'on a le plus besoin d'aide. Le sommeil des parents est au plus bas dans les premiers mois et peut mettre des années à se remettre¹⁰. Tu ne peux pas répondre à tout, tout le temps : **tu fais de ton mieux, et c'est déjà beaucoup.** Prendre soin de toi, c'est aussi prendre soin de lui.
 
-### Que regarder cette semaine
-
-#### Trois minutes pour l'observer
-Pendant trois jours, à un moment calme :
-- **regarde ce qu'il vient d'apprendre ou de s'entraîner à faire** : s'asseoir, se hisser, ramper ;
-- **observe comment il réagit quand tu sors de la pièce** : il te cherche, il proteste, il se rassure vite ?
-- **note-le** : quelques mots suffisent, ils te serviront dans les prochains slots.
-
-`source` : ¹ L'endormissement par le sommeil agité puis par le sommeil calme : O'Connor C. et al., *Pediatric Research*, 2026 ; ² Le sommeil agité devenu paradoxal vers 6 mois : livret de formation EDPP, p. 44 ; formation EDPP, *Pleurs et sommeil* ; ³ L'hormone de croissance et le sommeil profond : Takahashi Y., Kipnis D. M., Daughaday W. H., *J Clin Invest*, 1968 ; ⁴ Le rythme du cortisol entre 6 et 9 mois : Kervezee L. et al., *J Clin Endocrinol Metab*, 2025 ; ⁵ Des repères moteurs qui sont des fenêtres larges : OMS, *Acta Paediatrica*, 2006 ; ⁶ Les réveils quand une compétence motrice arrive : O'Connor C. et al., *Pediatric Research*, 2026 ; ⁷ La permanence de l'objet : Baillargeon R., *Developmental Psychology*, 1987 ; formation EDPP, *Pleurs et sommeil* ; ⁸ La peur de l'étranger et la réaction à la séparation, étape normale : mpedia.fr (Association française de pédiatrie ambulatoire), « Peur des autres, angoisse de la séparation, le 8ème mois » ; ⁹ Le lait comme aliment principal avant 1 an, un bébé ne fait pas exprès, les besoins fondamentaux et le maternage proximal : formation EDPP, *Pleurs et sommeil* ; ¹⁰ Sommeil des parents au plus bas après la naissance : Richter D. et al., *Sleep*, 2019 (cité dans la formation EDPP)
+`source` : ¹ Le sommeil agité devenu paradoxal vers 6 mois : livret de formation EDPP, p. 44 ; formation EDPP, *Pleurs et sommeil* ; ² L'endormissement par le sommeil agité puis par le sommeil calme : O'Connor C. et al., *Pediatric Research*, 2026 ; ³ L'hormone de croissance et le sommeil profond : Takahashi Y., Kipnis D. M., Daughaday W. H., *J Clin Invest*, 1968 ; ⁴ Le rythme du cortisol entre 6 et 9 mois : Kervezee L. et al., *J Clin Endocrinol Metab*, 2025 ; ⁵ Des repères moteurs qui sont des fenêtres larges : OMS, *Acta Paediatrica*, 2006 ; ⁶ Les réveils quand une compétence motrice arrive : O'Connor C. et al., *Pediatric Research*, 2026 ; ⁷ La permanence de l'objet : Baillargeon R., *Developmental Psychology*, 1987 ; formation EDPP, *Pleurs et sommeil* ; ⁸ La peur de l'étranger et la réaction à la séparation, étape normale : mpedia.fr (Association française de pédiatrie ambulatoire), « Peur des autres, angoisse de la séparation, le 8ème mois » ; ⁹ Le lait comme aliment principal avant 1 an, un bébé ne fait pas exprès, les besoins fondamentaux et le maternage proximal : formation EDPP, *Pleurs et sommeil* ; ¹⁰ Sommeil des parents au plus bas après la naissance : Richter D. et al., *Sleep*, 2019 (cité dans la formation EDPP)
 
 ---
 
 ## 3 · JOURNÉE ET SIESTES
 
-### Ce qui se passe dans sa journée
+### Éveils et fenêtres d'éveil
 
 #### La fenêtre d'éveil et la pression du sommeil
 La **fenêtre d'éveil**, c'est le temps entre le moment où ton bébé se réveille et celui où il a besoin de se rendormir. Pendant qu'il est éveillé, **la pression du sommeil monte**¹ : c'est un besoin de dormir qui s'accumule peu à peu, comme une jauge qui se remplit, et qui ne redescend que pendant le sommeil.
-À cet âge, ses fenêtres s'allongent, et tu peux t'en servir pour **organiser ses siestes** : trop tôt, la jauge n'est pas assez remplie et il met du temps à s'endormir ; trop tard, la fatigue se transforme en agitation. Si le soir est difficile, regarde d'abord la dernière fenêtre de la journée. Ajuste par petits pas, et **fie-toi à ses signaux plus qu'à l'horloge**.
+À cet âge, ses fenêtres s'allongent, et tu peux t'en servir pour **organiser ses siestes** : trop tôt, la jauge n'est pas assez remplie et il met du temps à s'endormir ; trop tard, la fatigue se transforme en agitation. Si le soir est difficile, regarde d'abord la dernière fenêtre de la journée. Ajuste par petits pas, et **fie-toi à ses signaux plus qu'à l'horloge**.
 
 #### Combien de temps éveillé ?
 Ses temps d'éveil s'allongent. Voici l'ordre de grandeur observé chez beaucoup de bébés entre deux sommeils :
@@ -167,23 +159,23 @@ Un bébé trop fatigué ne s'endort pas plus vite : il s'agite, pleure, se camb
 - tu lui dis ce qui va se passer : « on va faire une sieste » ;
 - un peu de pénombre suffit, les bruits normaux de la maison restent ;
 - un câlin, une berceuse, puis tu le poses.
-**Répète-le même s'il ne dort pas.** S'il pleure, reste près de lui : il peut chercher son sommeil sans avoir à s'inquiéter seul. Une sieste n'empêche pas la nuit.
+**Répète-le même s'il ne dort pas.** S'il pleure, reste près de lui : il peut chercher son sommeil sans avoir à s'inquiéter seul. Une sieste dans la journée ne l'empêche pas de bien dormir la nuit (seule une sieste très tardive peut décaler le coucher).
 
 #### Où dormir sa sieste ?
-Dans ses bras, en portage, dans son lit : **tous ces endroits sont possibles à cet âge**, et porter ton bébé n'est pas une mauvaise habitude. Si tu le laisses dormir contre toi ou en portage, **reste éveillé, son visage dégagé**. S'il dort dans son lit, sur le dos, à plat, sans rien autour. La sieste hors de la maison, en poussette ou en voiture, est un dépannage précieux : garde-la pour les jours où tu sors, et la sieste à la maison pour travailler le reste.
+Dans vos bras, en portage, dans son lit : **tous ces endroits sont possibles à cet âge**, et porter ton bébé n'est pas une mauvaise habitude. Si tu le laisses dormir contre toi ou en portage, **reste éveillé, son visage dégagé**. S'il dort dans son lit, sur le dos, à plat, sans rien autour. La sieste hors de la maison, en poussette ou en voiture, est un dépannage précieux : garde-la pour les jours où tu sors, et la sieste à la maison pour travailler le reste.
 
 ### Toi aussi, tu as besoin de te poser
 
 #### Dors quand il dort, au moins un peu
 **C'est parfois difficile, et tu fais de ton mieux.** Quand il fait sa sieste, pose-toi 10 à 20 minutes : une sieste courte suffit déjà à reposer⁵. Le ménage peut attendre.
 
-`source` : ¹ La pression de sommeil monte pendant l'éveil et redescend pendant le sommeil (principe général du sommeil, modèle à deux processus) : Borbély A. A., Daan S., Wirz-Justice A., Deboer T., *Journal of Sleep Research*, 2016, 25(2):131-143 ; ² Le nombre de siestes de 6 à 11 mois (moyenne 2,2, de 0,9 à 3,5) : Galland B. C. et al., *Sleep Medicine Reviews*, 2012 ; ³ Le passage de trois à deux siestes, vers 7-8 mois, chez certains plus tard (la littérature donne aussi 9 à 12 mois) : repère de la frise du sommeil ; Réseau Morphée ; INSV ; ⁴ Réveiller en fin de sommeil paradoxal : formation EDPP, *Pleurs et sommeil* ; ⁵ La sieste courte de 10 à 20 minutes chez l'adulte : Brooks A., Lack L., *Sleep*, 2006
+`source` : ¹ La pression de sommeil s'accumule beaucoup plus vite chez le nourrisson que chez l'adulte, et se dissipe plus vite : Webb L., Phillips A. J. K., Roberts J. A., *PLOS Computational Biology*, 2024, 20(10):e1012541 ; ² Le nombre de siestes de 6 à 11 mois (moyenne 2,2, de 0,9 à 3,5) : Galland B. C. et al., *Sleep Medicine Reviews*, 2012 ; ³ Le passage de trois à deux siestes, vers 7-8 mois, chez certains plus tard (la littérature donne aussi 9 à 12 mois) : repère de la frise du sommeil ; Réseau Morphée ; INSV ; ⁴ Réveiller en fin de sommeil paradoxal : formation EDPP, *Pleurs et sommeil* ; ⁵ La sieste courte de 10 à 20 minutes chez l'adulte : Brooks A., Lack L., *Sleep*, 2006
 
 ---
 
 ## 4 · FIN DE JOURNÉE
 
-### Ce qui se passe en fin de journée
+### La redescente du soir
 
 #### La redescente
 Après une journée à ramper, se hisser, tout explorer, **son corps a besoin de redescendre avant la nuit.** Dès la fin d'après-midi, tu peux baisser peu à peu le rythme : moins d'activité, moins de monde, des gestes plus lents. Garde les jeux qui excitent pour plus tôt, et passe le dernier moment de la journée à des jeux calmes : livres, câlins, transvasements.
@@ -244,25 +236,29 @@ En fin d'après-midi, parlez-en : **le co-parent peut prendre le bain, le massa
 
 #### Ce qui l'endort, c'est un ensemble
 Ton bébé s'endort dans les conditions qu'il connaît : le sein ou le biberon, tes bras, le mouvement, ta voix, la tétine. Ces conditions ne sont pas un détail : ce sont elles qui **mettent son cerveau en état de plonger dans le sommeil**. C'est un peu comme un adulte qui se laisse glisser dans une détente profonde, presque une auto-hypnose, en répétant les mêmes gestes ou les mêmes images : ton bébé s'abandonne parce que ces repères lui sont familiers.
-À la fin de chaque cycle, il remonte près de la surface, et si les conditions ont changé, il peut avoir des difficultés pour se rendormir¹. **À cet âge, c'est normal : rien n'est à corriger, tout est à accompagner.** Tu peux commencer à varier, pour diversifier les conditions d'endormissement de ton bébé.
+À la fin de chaque cycle, il remonte près de la surface, et si les conditions ont changé, il peut avoir des difficultés pour se rendormir¹. **À 6-8 mois, il remarque davantage ce qui change autour de lui (tes bras, la tétine, la lumière) : c'est normal, rien n'est à corriger, tout est à accompagner.** Tu peux commencer à varier, pour diversifier les conditions d'endormissement de ton bébé.
 
 #### Le rituel du soir et l'endormissement
 Ce ne sont pas la même chose. **Le rituel prépare** : c'est la suite de gestes qui annonce la nuit, toujours dans le même ordre (tétée, bain, histoire, câlin…), environ une heure. **Les conditions d'endormissement** sont la phase de mise en condition au sommeil, les 15 dernières minutes environ : celles où son cerveau se met en état de plonger dans le sommeil, sans entrer dans une nouvelle activité. On peut travailler l'un sans toucher à l'autre.
 
 #### Pourquoi l'endormissement s'étire parfois
-Il s'endort maintenant par le sommeil calme, et il sait que tu pars. Résultat, certains soirs, **il lutte pour rester avec toi** : ce n'est pas une lubie, c'est de l'attachement. Plus il est rassuré avant la pose, plus il lâche prise.
+Il s'endort maintenant par le sommeil calme, il distingue les visages familiers, et il sait que tu pars. Résultat, certains soirs, **il lutte pour rester avec toi** : ce n'est pas une lubie, c'est de l'attachement. Plus il est rassuré avant la pose, plus il lâche prise.
 
 #### « Je ne veux pas l'habituer aux bras »
 Cette phrase, beaucoup de parents l'entendent, ou se la répètent. Elle mérite d'être déconstruite : **porter son bébé, c'est bon pour lui. Ce n'est pas une mauvaise habitude.**
-Pendant neuf mois, il a vécu bercé, contenu, au chaud, contre ta voix et ton cœur. **Les bras de ses parents sont son nid naturel.** En le portant, tu ne le rends pas dépendant : tu lui donnes la sécurité qui, plus tard, lui permettra de s'éloigner de toi en confiance². Un bébé ne peut pas « faire exprès » ni « profiter » : il exprime un besoin.
+Pendant neuf mois, il a vécu bercé, contenu, au chaud, contre ta voix et ton cœur. **Les bras de ses parents sont son nid naturel.** Même s'il est plus lourd et plus mobile, en le portant, tu ne le rends pas dépendant : tu lui donnes la sécurité qui, plus tard, lui permettra de s'éloigner de toi en confiance². Un bébé n'a ni calcul ni caprice : il exprime un besoin.
 **Être accompagné pour s'endormir ou se rendormir n'est donc pas un problème à régler.** Varier les conditions, ce n'est pas le porter moins : c'est lui offrir, en plus des bras, d'autres façons de s'apaiser : ta voix, ta main, le relais de l'autre parent.
 
 ### Ses façons de s'endormir
 
 > Chacune répond à un besoin de ton bébé. Certaines peuvent aussi te fatiguer : c'est humain, et tu fais de ton mieux.
 
+#### Contre toi
+Le contact, ta chaleur, ton rythme respiratoire : c'est la condition qu'il connaît le mieux, même s'il se tortille davantage : un câlin calme et court suffit. Pour le peau à peau, **reste éveillé, son visage visible**⁵. Si tu as envie de varier : main sur son ventre, puis sur sa jambe, puis ta main près de lui sans le toucher.
+
 #### Au sein ou au biberon
-La succion l'apaise, et à cet âge, s'endormir en tétant reste **physiologique**. Si tu as envie de varier :
+La succion l'apaise, et à cet âge, s'endormir en tétant reste **physiologique**, d'autant que la diversification ne fait que commencer : le lait garde une grande place.
+**Et toi ?** « Il ne s'endort qu'en tétant », « je suis la seule à pouvoir le coucher ».
 - le co-parent donne le biberon, ou prend les bras juste après ;
 - tu arrêtes quand la succion devient lente, avant qu'il soit profondément endormi : un rot, un câlin à la verticale, puis la pose ;
 - tu sépares la tétée du lit : même rituel, mais la tétée dans un autre endroit ou sous une autre lumière.
@@ -270,14 +266,17 @@ La succion l'apaise, et à cet âge, s'endormir en tétant reste **physiologique
 Si tu risques de t'endormir en le nourrissant, fais-le dans ton lit, jamais sur un canapé ou dans un fauteuil.
 
 #### Dans les bras, bercé
-Le mouvement lent, la contenance de tes bras l'apaisent. Si tu as envie de varier :
+Le mouvement lent, la contenance de tes bras l'apaisent.
+**Et toi ?** « Il se réveille dès que je le pose », « il est devenu lourd, j'ai mal au dos ».
 - allège le bercement : mouvements plus petits, plus lents, quand il est calme ;
 - arrête de bercer quand il est somnolent, pas endormi ;
 - pose-le avec contenance : sur le dos, les fesses puis la tête, une main sur son ventre ;
+- **descends-le vers le matelas en le penchant sur le côté**, contre toi, puis remets-le sur le dos : tu limites la sensation de chute qui peut le réveiller
 - fais passer le bercement de ton corps à ta voix, ou à ta main sur le matelas.
 
 #### En portage, en marchant
-Mouvement, contact, position en grenouille : un bébé porté pleure moins³. Si tu as envie de varier :
+Mouvement, contact, position en grenouille : un bébé porté pleure moins³. Il est plus lourd et plus actif : le portage reste un refuge, pas une obligation.
+**Et toi ?** « Il est lourd, et je marche des heures dans le salon ».
 - arrête de marcher dès qu'il est somnolent, reste immobile, puis assieds-toi ;
 - sors-le du porte-bébé somnolent et termine en l'enveloppant de tes mains dans son lit ;
 - laisse le co-parent prendre le relais de la marche.
@@ -285,7 +284,8 @@ Mouvement, contact, position en grenouille : un bébé porté pleure moins³. S
 Ne le laisse pas dormir dans le porte-bébé sans surveillance.
 
 #### En mouvement : voiture, poussette
-Le mouvement continu et le bruit régulier l'apaisent. C'est un dépannage précieux les jours difficiles, mieux vaut ne pas en faire une condition. Si tu as envie de varier :
+Le mouvement continu et le bruit régulier l'apaisent. C'est un dépannage précieux les jours difficiles, mieux vaut ne pas en faire une condition.
+**Et toi ?** « Il s'endort plus facilement en voiture qu'à la maison. »
 - à la maison, reproduis ce qui l'apaise : mouvement lent, bruit régulier à faible volume, pénombre ;
 - garde les sommes en mouvement pour les siestes en déplacement.
 
@@ -293,35 +293,33 @@ Le mouvement continu et le bruit régulier l'apaisent. C'est un dépannage préc
 Sucer l'apaise : c'est un besoin, pas un caprice. Au coucher, **sans forcer s'il n'en veut pas, jamais attachée**⁴. Si elle tombe pendant qu'il dort, il peut se réveiller et la chercher : c'est une raison de plus de ne pas en faire la seule condition.
 
 #### Avec un objet doux
-Vers la fin de cette tranche, certains bébés s'attachent à un petit tissu ou à un doudou. **Avant 1 an, garde-le hors du lit** (rien dans le lit, sur le dos, à plat). Tu peux le proposer pendant le câlin du rituel, puis le garder à portée de main dans la pièce : il fera le lien avec toi.
+Dès 6-8 mois, certains bébés s'attachent à un petit tissu ou à un doudou. **Avant 1 an, garde-le hors du lit** (rien dans le lit, sur le dos, à plat). Tu peux le proposer pendant le câlin du rituel, puis le garder à portée de main dans la pièce : il fera le lien avec toi.
 
-#### Contre toi
-Le contact, ta chaleur, ton rythme respiratoire : c'est la condition qu'il connaît le mieux. Pour le peau à peau, **reste éveillé, son visage visible**⁵. Si tu as envie de varier : main sur son ventre, puis sur sa jambe, puis ta main près de lui sans le toucher.
+### Diversifier ses conditions d'endormissement, pas à pas
 
-### Le chemin vers l'endormissement autonome
+#### Le principe
+Ici, **on n'utilise aucune méthode où l'on laisse pleurer son bébé seul**. L'endormissement autonome est un objectif lointain, qui se construit à son rythme. Ce que l'on cherche, c'est **créer de nouvelles connexions dans son cerveau, par l'expérience**, pour diversifier peu à peu les conditions dans lesquelles il s'endort paisiblement⁶. Compte au moins 3 semaines de répétition, souvent plusieurs semaines. À 6-8 mois, il comprend mieux que tu t'éloignes, et ses repères comptent beaucoup : c'est pour ça qu'on change **une chose à la fois**. Il a encore besoin de beaucoup de proximité : diversifier ses conditions, ce n'est pas s'éloigner de lui.
 
-#### Le but, c'est « somnolent », pas « seul »
-Poser ton bébé **somnolent**, encore conscient de la pose, avec toi à côté : c'est le but à cet âge. **S'il pleure, reste près de lui et accompagne-le** : il n'a pas à traverser cela seul. Avant de le reprendre, regarde s'il est vraiment éveillé : il peut gémir ou bouger les yeux fermés, et se rendormir seul. Si c'est trop dur un soir, tu arrêtes, tu reprends plus tard : ce n'est pas un échec.
+#### Pas à pas
+- **Étape 1 · Choisis une seule condition à assouplir** (par exemple, la tétée à l'endroit du coucher), garde tout le reste identique, et garde ce changement quelques jours avant le suivant.
+- **Étape 2 · Repère le bon moment** : quand il est apaisé et somnolent, encore conscient de la pose. Si tu le poses déjà endormi, le sommeil agité est le moment le plus favorable, et non le sommeil calme, qui marque la fin de son cycle⁶.
+- **Étape 3 · Pose-le avec contenance**, et reste à côté : main sur son ventre, ta voix.
+- **Étape 4 · S'il pleure, reste près de lui et accompagne-le** : il n'a pas à traverser cela seul. Monte d'un cran, si besoin : ta présence, ta voix, ta main posée, un câlin dans les bras, le bercement⁷. Avant de le reprendre, regarde s'il est vraiment éveillé : en sommeil agité, il peut gémir ou bouger les yeux fermés, et pourtant il dort.
+- **Étape 5 · Redescends d'un cran quand ça fonctionne** : quand tu as trouvé ce qui le rassure, tu continues, et de temps en temps tu proposes l'étape en dessous, pour alléger peu à peu ton intervention⁷.
 
-#### Les règles du chemin
-- **un seul changement à la fois**, gardé quelques jours avant le suivant ;
-- **ça prend du temps**, souvent plusieurs semaines ;
-- **rien ne change** pendant une poussée, une maladie, une dent, un vaccin ou un voyage, ni quand il apprend une nouvelle compétence ;
-- **le relais du co-parent** est l'outil le plus puissant : ses gestes et sa voix sont différents, bébé ne cherche pas « la même chose ».
-
-**L'endormissement autonome se construit pas à pas, mais il ne faut pas l'attendre dès aujourd'hui.** Ton bébé a encore besoin de beaucoup de proximité (maternage proximal) : **les bras de ses parents sont son nid naturel**. Ce que tu peux faire dès maintenant : observer ce qui l'apaise et varier une condition à la fois.
+Si c'est trop dur un soir, tu arrêtes, tu reprends plus tard : ce n'est pas un échec.
 
 ### Le relais du co-parent
 
-#### Un autre point d'appui
-Le co-parent a ses propres gestes et sa propre voix : ton bébé ne cherche pas « la même chose » avec lui, et c'est justement ce qui aide. Quelques façons de le faire :
+#### Deux parents qui savent l'endormir
+**Il est important que vous puissiez tous les deux endormir bébé sereinement.** Ce ne sera pas toujours facile, mais c'est important pour la suite : pour toi qui as besoin de souffler, et pour lui qui apprend qu'il y a plusieurs bras sûrs. Le co-parent a ses propres gestes et sa propre voix : ton bébé ne cherche pas « la même chose » avec lui, et c'est justement ce qui aide. Quelques façons de le faire :
 - il prend les bras ou le bercement juste après la tétée ou le biberon ;
 - il fait la pose, avec sa main sur le ventre et sa voix ;
 - il accompagne l'endormissement un soir sur deux, à vous de voir ce qui vous convient.
 
 Et si les pleurs montent, **il l'accompagne contre lui, avec sa voix** : appeler l'autre n'est jamais un échec.
 
-`source` : ¹ Les conditions d'endormissement et les réveils entre deux cycles : American Academy of Sleep Medicine, *International Classification of Sleep Disorders* ; ² Les bras des parents, le nid naturel et la base de sécurité : formation EDPP, *Pleurs et sommeil* ; Bowlby J., *Attachment and Loss*, 1969 ; Ainsworth M., 1978 ; ³ Un bébé porté pleure moins : Hunziker U. A., Barr R. G., *Pediatrics*, 1986 ; ⁴ Tétine au coucher, sans forcer, jamais attachée : ameli.fr, 2024 ; ⁵ Peau à peau, parent éveillé et visage de bébé visible : HAS, Flash Sécurité Patient, avril 2026
+`source` : ¹ Les conditions d'endormissement et les réveils entre deux cycles : American Academy of Sleep Medicine, *International Classification of Sleep Disorders* ; ² Les bras des parents, le nid naturel et la base de sécurité : formation EDPP, *Pleurs et sommeil* ; Bowlby J., *Attachment and Loss*, 1969 ; Ainsworth M., 1978 ; ³ Un bébé porté pleure moins : Hunziker U. A., Barr R. G., *Pediatrics*, 1986 ; ⁴ Tétine au coucher, sans forcer, jamais attachée : ameli.fr, 2024 ; ⁵ Peau à peau, parent éveillé et visage de bébé visible : HAS, Flash Sécurité Patient, avril 2026 ; ⁶ Créer de nouvelles connexions par l'expérience, préparer le cerveau à d'autres conditions d'endormissement, poser un bébé en sommeil agité, créer une nouvelle habitude (au moins 3 semaines de répétition) : formation EDPP, *Pleurs et sommeil* ; ⁷ La présence mesurée, étape par étape, et redescendre d'un cran quand ça fonctionne : formation EDPP, *Pleurs et sommeil* (d'après la réponse mesurée aux pleurs de T. B. Brazelton)
 
 ---
 
@@ -330,7 +328,7 @@ Et si les pleurs montent, **il l'accompagne contre lui, avec sa voix** : appele
 ### Se réveiller la nuit est normal
 
 #### Pourquoi se réveille-t-il ?
-Dans un cycle de sommeil, il y a des **micro-réveils**, de quelques secondes¹ : ils permettent au cerveau de passer d'un état à un autre. Un adulte enchaîne ses cycles sans s'en rendre compte. Ton bébé n'a pas encore cette capacité : **il a encore besoin d'être accompagné.** À cet âge, ce qui se joue la nuit est surtout neurologique : il apprend à se rendormir entre deux cycles, en plein chantier. Les réveils sont physiologiques : ce n'est ni un défaut de ton bébé, ni de ta faute.
+Dans un cycle de sommeil, il y a des **micro-réveils**, de quelques secondes¹ : ils permettent au cerveau de passer d'un état à un autre. Un adulte enchaîne ses cycles sans s'en rendre compte. Son horloge interne se renforce, mais n'est pas encore pleinement installée : sa mélatonine, l'hormone qui donne l'heure de la nuit, n'est pas encore bien active. Ton bébé n'a pas encore cette capacité : **il a encore besoin d'être accompagné.** À cet âge, ce qui se joue la nuit est surtout neurologique : il apprend à se rendormir entre deux cycles, en plein chantier. Les réveils sont physiologiques : ce n'est ni un défaut de ton bébé, ni de ta faute.
 
 C'est pendant ces micro-réveils qu'il peut ressentir :
 - **la faim** ;
@@ -346,7 +344,7 @@ C'est pendant ces micro-réveils qu'il peut ressentir :
 #### La tétée de nuit
 Garde la nuit **sombre et calme** : une lumière ambrée et faible pour toi, une voix basse, pas de jeu, pas de téléphone. Change la couche si c'est nécessaire, dans la pénombre. Au biberon, **prépare-le au moment de le donner**³. Puis tu le recouches **sur le dos**.
 
-### Que regarder, dans cet ordre
+### Quand il se réveille, dans cet ordre
 > Quand il se réveille, pose-toi ces questions l'une après l'autre.
 
 #### 1. Dort-il encore ?
@@ -365,13 +363,45 @@ En dix secondes, vérifie :
 
 Sur quelques jours : les dents peuvent gêner, mais **tous les réveils ne sont pas dus aux dents**⁴. Un rhume, un vaccin, un changement dans sa vie.
 
-#### 4. A-t-il besoin d'être rassuré ?
+#### 4. Sa journée a-t-elle été très chargée ?
+Une journée très remplie (visites, bruit, beaucoup de nouveautés), une fin de journée agitée ou un coucher très tardif peuvent rendre la nuit plus agitée, avec plus de réveils. Regarde ce qui s'est passé dans la journée, et allège la fin de journée les jours suivants : tu trouveras des idées dans la catégorie Fin de journée.
+
+#### 5. A-t-il besoin d'être rassuré ?
 Il est vraiment réveillé, il t'appelle, il se calme dans tes bras sans avoir faim. **S'il se réveille vraiment et t'appelle, tu viens**, et **tu commences par le moins** : ta voix, la phrase du soir, une main posée sur lui. Tu le prends dans tes bras si ça ne suffit pas. Il peut avoir besoin d'être câliné et rassuré⁵ : ce n'est pas lui donner une mauvaise habitude.
+Parfois aussi, **il ne retrouve pas les conditions dans lesquelles il s'est endormi** (tes bras, la tétée, le bercement). Au milieu de la nuit, il s'en rend compte, et il t'appelle pour les retrouver.
+
+#### 6. Montre-t-il des signes qui méritent un avis médical ?
+Fièvre, difficulté à respirer, pleurs inhabituels, refus de boire, bébé difficile à réveiller : ces signes sont dans « Quand consulter », en bas de cette page. Et certaines causes médicales peuvent perturber ses nuits sans être urgentes : tu les trouves juste en dessous.
+
+### Quand une cause médicale perturbe ses nuits
+> Dans la grande majorité des cas, les réveils sont normaux. Ici, pas de diagnostic : si plusieurs signes te parlent, parles-en à ton médecin.
+
+#### Le reflux (RGO)
+**Les régurgitations sont très fréquentes** entre 1 mois et environ un an : elles arrivent sans effort, ne gênent pas le bébé et n'empêchent pas sa croissance⁶. C'est banal, et sans gravité. **Consulte** si tu observes :
+- des vomissements violents, en jet, à chaque repas ;
+- des vomissements vert fluorescent ;
+- du sang dans les régurgitations ;
+- des refus répétés de boire, ou une prise de poids insuffisante.
+Les pleurs de fin de journée, eux, ne s'expliquent pas par le reflux⁶. Ce qui aide : respecter sa faim, faire des pauses et un rot pendant le repas, le garder droit après, et le coucher sur le dos.
+
+#### L'allergie aux protéines de lait de vache (APLV)
+Elle peut apparaître dès les premières semaines, jusqu'à 8-10 mois⁷. **Ce que tu peux observer** :
+- la peau : rougeurs, démangeaisons ;
+- le ventre : régurgitations ou vomissements plus fréquents, constipation, diarrhée, ou les deux en alternance ;
+- des coliques régulières ou des diarrhées dans les heures qui suivent un biberon ;
+- une irritabilité constante.
+**Consulte ton médecin ou ton pédiatre** : lui seul peut dire s'il faut changer de lait. Ne donne ni lait de chèvre, de brebis, de jument, ni lait de soja sans son avis⁷.
+
+#### Un frein de langue restrictif
+Il ne concerne que les bébés qui ont **des difficultés à téter** : succion difficile, tétées douloureuses pour la mère, allaitement qui s'arrête tôt⁸. Un frein court ou épais qui ne gêne pas la tétée n'est pas un problème. Si la tétée est difficile, demande d'abord l'évaluation d'un professionnel formé à l'allaitement (sage-femme, médecin, puéricultrice), avec ton médecin traitant : une intervention n'est envisagée qu'exceptionnellement, après avoir essayé les autres solutions⁸.
+
+#### Une respiration par la bouche, des ronflements
+Une **respiration buccale qui dure**, des ronflements, un sommeil très agité ou des otites qui reviennent peuvent venir d'un nez ou d'une gorge obstrués, par exemple par des végétations⁹. Un simple rhume bouche le nez de façon passagère, et c'est fréquent. **Si ça dure hors rhume**, parles-en à ton médecin, qui t'orientera vers un spécialiste si besoin.
 
 ### Ce dont il a besoin la nuit
 
-#### Il ne le fait pas exprès
-Si ton bébé se réveille, il ne le fait pas exprès, **il ne peut pas faire autrement**⁶. La nuit comme le jour, il a besoin de ta proximité, de ta voix, de tes bras : **c'est son nid naturel**. Plus il se sent en sécurité, plus il retrouvera facilement le sommeil.
+#### Il est en alerte, car il dépend de toi
+N'oublie pas : **les réveils nocturnes sont normaux**. Ton bébé reste en alerte la nuit parce qu'il dépend de ses parents¹⁰. Il a besoin de ta proximité, de ta voix, de tes bras, et le réconforter n'est pas lui donner une mauvaise habitude. Plus il se sent en sécurité, plus il retrouvera facilement le sommeil.
 
 #### Debout dans son lit
 S'il vient d'apprendre à se hisser, tu le retrouveras peut-être debout contre les barreaux, à moitié endormi, sans savoir redescendre. **Recouche-le calmement, sans en faire un jeu.** Et le jour, laisse-le s'entraîner à redescendre : plier les genoux, poser les fesses. Quand il saura, les nuits se reposeront.
@@ -388,7 +418,7 @@ S'il vient d'apprendre à se hisser, tu le retrouveras peut-être debout contre 
 #### Le relais de nuit
 Les nuits n'appartiennent pas à un seul parent. Le co-parent peut **se lever pour les réveils qui ne sont pas des tétées** : le consoler, le recoucher, l'aider à redescendre quand il est debout. Vous vous relayez pour que chacun ait un vrai bloc de sommeil. Si vraiment rien n'apaise, appeler l'autre n'est pas un échec.
 
-### Que regarder cette semaine
+### À noter cette semaine
 
 #### Un petit carnet de nuit
 Pendant trois nuits, note en quelques mots : **l'heure des réveils, ce qu'il lui fallait** (faim, position, câlin) **et ce qui l'a apaisé**. Note aussi ce qu'il a appris dans la journée. Pas pour compter, juste pour voir ce qui revient et ce qui marche.
@@ -396,12 +426,12 @@ Pendant trois nuits, note en quelques mots : **l'heure des réveils, ce qu'il l
 ### Quand consulter
 
 #### Quand consulter
-- **Appelle le 15** s'il fait des pauses respiratoires, si ses lèvres bleuissent, s'il est difficile à réveiller ou respire avec difficulté⁷.
+- **Appelle le 15** s'il fait des pauses respiratoires, si ses lèvres bleuissent, s'il est difficile à réveiller ou respire avec difficulté¹¹.
 - **Consulte ton médecin** s'il **ronfle presque toutes les nuits, hors rhume**, s'il dort la bouche ouverte, s'il transpire beaucoup en dormant, si son sommeil est très agité, ou si ses pleurs de nuit sont inhabituels. Chaque situation a aussi sa fiche pas à pas dans Guide-moi.
-- Un bébé ne se secoue **jamais**, même une seconde, même doucement. Si tu sens que tu craques, **couche-le sur le dos dans son lit, sors de la pièce, respire, appelle quelqu'un**⁸. Allo Parents Bébé : 0 800 00 34 56 (gratuit).
+- Un bébé ne se secoue **jamais**, même une seconde, même doucement. Si tu sens que tu craques, **couche-le sur le dos dans son lit, sors de la pièce, respire, appelle quelqu'un**¹². Allo Parents Bébé : 0 800 00 34 56 (gratuit).
 - Et si les nuits t'épuisent au point de ne plus tenir, **parles-en** : médecin, sage-femme, PMI, ou Allo Parents Bébé.
 
-`source` : ¹ Un micro-éveil dure quelques secondes (défini à partir de 3 secondes) : American Academy of Sleep Medicine, *Manuel de cotation du sommeil* ; ² Plus de lait le soir, pas moins de réveils : Brown A., Harries V., *Breastfeeding Medicine*, 2015 ; ³ Biberon préparé au moment : ANSES ; ⁴ Les dents gênent quelques jours autour de leur sortie : Macknin M. L. et al., *Pediatrics*, 2000 ; ⁵ Besoin de réconfort la nuit : Santé publique France, *Les 1000 premiers jours* ; ⁶ Un bébé ne fait pas exprès, besoin de proximité et de réconfort : formation EDPP, *Pleurs et sommeil* ; ⁷ Signes d'urgence : ameli.fr, « Bronchiolite : que faire ? », 2026 ; signes respiratoires du sommeil : SFORL, recommandations 2017 et 2020 ; ⁸ Conduite à tenir quand le parent est à bout : HAS, 2017 ; Santé publique France, 2025
+`source` : ¹ Un micro-éveil dure quelques secondes (défini à partir de 3 secondes) : American Academy of Sleep Medicine, *Manuel de cotation du sommeil* ; ² Plus de lait le soir, pas moins de réveils : Brown A., Harries V., *Breastfeeding Medicine*, 2015 ; ³ Biberon préparé au moment : ANSES ; ⁴ Les dents gênent quelques jours autour de leur sortie : Macknin M. L. et al., *Pediatrics*, 2000 ; ⁵ Besoin de réconfort la nuit : Santé publique France, *Les 1000 premiers jours* ; ⁶ Reflux banal, signes d'alerte, pleurs non attribués au reflux : Haute Autorité de santé, *Reflux du nourrisson : un médicament est-il nécessaire ?*, 2024 ; ⁷ Allergie aux protéines de lait de vache, symptômes et conduite à tenir : Santé.fr (Service public d'information en santé), « Allergie aux protéines du lait de vache » ; ⁸ Frein de langue : difficultés de succion, évaluation, frénotomie exceptionnelle : Association française de pédiatrie ambulatoire et sociétés savantes, « Section de freins de langue chez les nourrissons et les enfants », 2021 ; ⁹ Respiration buccale, ronflements, otites et végétations adénoïdes : *Manuel MSD* (professionnels), « Hypertrophie des végétations adénoïdes » ; ¹⁰ Un bébé ne fait pas exprès, besoin de proximité et de réconfort : formation EDPP, *Pleurs et sommeil* ; ¹¹ Signes d'urgence : ameli.fr, « Bronchiolite : que faire ? », 2026 ; signes respiratoires du sommeil : SFORL, recommandations 2017 et 2020 ; ¹² Conduite à tenir quand le parent est à bout : HAS, 2017 ; Santé publique France, 2025
 
 ---
 

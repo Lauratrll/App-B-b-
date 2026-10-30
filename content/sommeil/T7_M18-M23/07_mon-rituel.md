@@ -1,6 +1,6 @@
 ## 7 · Mon rituel
 
-### Un rituel qui se stabilise
+### Un rituel qu'il connaît par cœur
 
 #### Plus court, plus clair
 Ton rituel du soir est maintenant bien installé : **les mêmes gestes, les mêmes mots, dans le même ordre**. Il dure environ une heure, et se termine par les 15 dernières minutes où son cerveau se met en état de dormir, sans nouvelle activité. C'est sa régularité, et non sa richesse, qui compte. Il commence quand ses signaux de fatigue te le disent, pas à l'heure pile. À cet âge, **un rituel plus court et plus clair** vaut mieux qu'un rituel qui s'allonge : si le coucher s'étire, retire une étape plutôt que d'en ajouter. Choisis un geste dans chacun des quatre besoins de ton enfant, et construis le tien.

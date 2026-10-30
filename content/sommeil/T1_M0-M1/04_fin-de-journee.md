@@ -1,6 +1,6 @@
 ## 4 · FIN DE JOURNÉE
 
-### Ce qui se passe en fin de journée
+### La redescente du soir
 
 #### Le pic de pleurs du soir
 Chez beaucoup de bébés, **les pleurs se regroupent en fin d'après-midi et en soirée**¹, et montent au fil des semaines jusqu'à un pic, vers 6 semaines². Ce n'est pas le signe que tu fais quelque chose de travers : c'est une courbe que traversent la plupart des bébés, et elle redescend. Certains soirs, pourtant, rien ne marche. **Certains pleurs ne s'arrêtent pas, et ce n'est pas ta faute**³ : rester près de lui, c'est déjà l'aider.

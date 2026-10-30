@@ -1,6 +1,6 @@
 ## 2 · COMPRENDRE SON SOMMEIL
 
-### Ce qu'il se passe
+### Mois par mois
 
 #### M0 · Les premiers jours
 Ton bébé vient d'arriver, et son sommeil n'est pas encore organisé : il dort beaucoup, par petits morceaux, de jour comme de nuit, au rythme de ses besoins. Il n'a pas encore d'horloge : ni nuit à réussir, ni siestes à compter. Ses moments d'éveil calme sont très courts, quelques minutes entre deux sommeils : c'est là qu'il te regarde, qu'il te reconnaît. Le reste du temps, il dort, il tète, il récupère. Ces premiers jours, tu n'as rien à apprendre à ton bébé : tu apprends à le connaître.
@@ -16,7 +16,7 @@ Des **nuits coupées**, des tétées rapprochées certains jours, des soirs agit
 #### Ce que ça veut dire
 **Ce n'est pas toi qui t'y prends mal** : son cerveau n'a pas fini de construire son sommeil. Il ne se réveille pas contre toi, il se réveille parce qu'à cet âge, le sommeil et la faim se succèdent de très près.
 
-### Ce qui se passe dans son sommeil
+### Son sommeil, de l'intérieur
 
 #### Un cerveau qui change d'état
 Le sommeil de ton bébé n'est pas un interrupteur : **c'est son cerveau qui passe d'un état de vigilance à un autre**¹, de l'éveil au sommeil, et du sommeil à l'éveil. Ces états, tu peux apprendre à les reconnaître :
@@ -59,7 +59,7 @@ Sur 24 heures, ton bébé dort beaucoup, mais **par petits morceaux, de jour com
 #### Il n'a pas encore d'horloge
 Côté hormones, la mélatonine donne l'heure au corps, elle n'endort pas. **La sienne vient de toi** : elle passe par le placenta avant la naissance, puis par le lait maternel s'il est allaité, plus riche le soir que le matin⁴. Son propre cerveau ne commencera à en fabriquer que vers 3 mois. Il ne fait donc pas encore la différence entre le jour et la nuit : ce n'est ni un caprice ni un défaut, son corps n'est pas encore équipé pour. Vers la fin du premier mois, **les choses commencent à bouger** : ses éveils de jour s'allongent, il est plus souvent calme et attentif. Ce n'est qu'une ébauche.
 
-### Ce qui bouge de 0 à 1 mois
+### Un sommeil qui se construit
 
 #### Des éveils calmes qui s'allongent
 À la naissance, ses moments d'éveil calme durent **5 à 10 minutes**, deux fois par jour seulement. Vers 1 mois, ils atteignent **environ 30 minutes**⁵, deux fois par jour. Chaque éveil lui demande beaucoup d'effort : c'est pour ça qu'il s'épuise vite, et qu'il a besoin de dormir après.
@@ -69,8 +69,8 @@ Un nouveau-né ne peut pas enchaîner une nuit : son sommeil n'est pas organisé
 
 ### Ce dont ton bébé a besoin
 
-#### Un petit être qui ne fait rien exprès
-Si ton bébé ne dort pas comme tu le voudrais, **il ne le fait pas exprès : il ne peut pas faire autrement**⁵. Il n'a ni caprice ni stratégie, il n'a pas les moyens de « tester » ses parents. Quand il pleure ou se réveille, **il exprime un besoin**, même quand tu ne le trouves pas.
+#### Un petit être qui dépend de vous
+Si ton bébé ne dort pas comme tu le voudrais, **il ne peut pas faire autrement**⁵. Il n'a ni caprice ni stratégie, il n'a pas les moyens de « tester » ses parents. Quand il pleure ou se réveille, **il exprime un besoin**, même quand tu ne le trouves pas.
 
 #### Ses besoins fondamentaux
 Pour que son cerveau puisse lâcher prise et dormir, il a besoin de se sentir en sécurité :
@@ -95,19 +95,5 @@ Le détail est dans « La sécurité », toujours accessible dans Guide-moi.
 
 #### M0 · Si les pensées noires s'installent
 Le manque de sommeil des premiers jours pèse sur l'humeur. Une grande fatigue et des larmes dans les quinze jours qui suivent la naissance sont fréquentes : ce sont les hormones qui retombent⁹. **Si des pensées noires s'installent, ou durent, parles-en** à ta sage-femme, à ton médecin ou à la PMI. Le 3114 répond jour et nuit.
-
-### Que regarder cette semaine
-
-#### M0 · Trois minutes pour l'observer
-Pendant trois jours, à un moment calme de la journée :
-- **regarde quand il est en éveil calme**, même cinq minutes : le regard ouvert, qui te suit ;
-- **repère ce qui l'apaise** : ta voix, tes bras, le mouvement, le sein ou le biberon, la pénombre ;
-- **note-le** : quelques mots suffisent, ils te serviront dans les prochains slots.
-
-#### M1 · Trois minutes pour l'observer
-Pendant trois jours, à un moment calme de la journée :
-- **repère ses signes de fatigue** avant les pleurs : regard qui s'éteint, mouvements désordonnés, gestes sur le visage ;
-- **regarde combien de temps dure son éveil calme** : quand il se termine, c'est le moment de dormir ;
-- **note-le** : quelques mots suffisent, ils te serviront dans les prochains slots.
 
 `source` : ¹ Les états de vigilance : Brazelton T. B., *Neonatal Behavioral Assessment Scale*, 1973 ; ² La part du sommeil agité à la naissance : Inserm, *Expertise collective*, 2001 ; Challamel M.-J., Franco P., *Réalités pédiatriques*, 2014 ; ³ Les mouvements du sommeil agité, qui diminuent avec les mois, et leur rôle possible : Sokoloff G. et al., *Developmental Psychobiology*, 2020 ; ⁴ La mélatonine transmise par le lait, plus riche le soir, puis fabriquée par bébé vers 3 mois : revue *Children*, 2024, 11(10):1197 ; formation EDPP, *Pleurs et sommeil* ; ⁵ Durée de l'éveil calme (5 à 10 minutes à la naissance, environ 30 minutes à 1 mois), pas de trouble du sommeil avant 1 an, un bébé ne fait pas exprès, besoins fondamentaux et maternage proximal : formation EDPP, *Pleurs et sommeil* ; ⁶ Dos, matelas ferme, lit nu, chambre des parents : HAS et CNP de pédiatrie, fiche mémo, 2020 ; American Academy of Pediatrics, *Pediatrics*, 2022 ; ameli.fr ; ⁷ Canapé et fauteuil : American Academy of Pediatrics, *Pediatrics*, 2022 ; ⁸ Sommeil des parents au plus bas dans les trois mois après la naissance : Richter D. et al., *Sleep*, 2019 (cité dans la formation EDPP) ; ⁹ Baby-blues, chute hormonale dans les quinze jours après la naissance : formation EDPP, *Pleurs et sommeil*

@@ -76,7 +76,7 @@ const estCoParent = (s: SommeilPartie["sections"][number]) =>
 const estCadre = (s: SommeilPartie["sections"][number]) =>
   /^(quand consulter)$/i.test(s.titre ?? "");
 const estAction = (s: SommeilPartie["sections"][number]) =>
-  /redescendre|le coucher|façons de s'endormir|chemin vers|que regarder|ses siestes|premier rituel|besoins|la pose|rythme|tes gestes|cette semaine/i.test(
+  /redescendre|le coucher|façons de s'endormir|chemin vers|que regarder|ses siestes|premier rituel|besoins|la pose|rythme|tes gestes|cette semaine|dans cet ordre|diversifier ses conditions/i.test(
     s.titre ?? "",
   );
 const roleTheme = (s: SommeilPartie["sections"][number]): ThemeVolet =>

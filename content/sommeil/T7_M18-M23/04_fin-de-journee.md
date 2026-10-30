@@ -1,6 +1,6 @@
 ## 4 · FIN DE JOURNÉE
 
-### Ce qui se passe en fin de journée
+### La redescente du soir
 
 #### La redescente
 Après la sieste, l'après-midi est fait pour bouger : dehors, courir, grimper. **Le soir, son corps a besoin de redescendre**, et à cet âge, il ne sait pas encore freiner seul. Dès la fin d'après-midi, son cortisol redescend et sa mélatonine commence à monter¹ : c'est un bon moment pour baisser les lumières et le rythme. Garde les jeux qui excitent, chatouilles, courses-poursuites, lancers de balle, pour plus tôt, et passe le dernier moment de la journée à des jeux calmes : livres, dessins, pâte à modeler, bain.
@@ -9,7 +9,7 @@ Après la sieste, l'après-midi est fait pour bouger : dehors, courir, grimper.
 S'il n'a pas assez bougé dans la journée, un temps de **dépense en fin d'après-midi, vers 17h**, l'aide à évacuer le trop-plein : dehors, avec du mouvement, des rires, du contact². C'est le bon moment pour ce qui le travaille en ce moment : courir, grimper, sauter, parler. Ensuite, on redescend.
 
 #### Quand la séparation pèse encore
-Il sait que tu pars quand tu sors de la pièce, et il se demande si tu reviens. Si la vague de réactions à la séparation est encore là (voir la tranche précédente), **le soir, la nuit qui arrive peut peser plus lourd** : cela explique un coucher qui s'étire. Ce n'est pas un caprice, c'est un attachement qui grandit. Dis-lui ton départ et ton retour : « je sors, je reviens ».
+Il sait que tu pars quand tu sors de la pièce, et il se demande si tu reviens. Si la vague de réactions à la séparation est encore là (voir les mois précédents), **le soir, la nuit qui arrive peut peser plus lourd** : cela explique un coucher qui s'étire. Ce n'est pas un caprice, c'est un attachement qui grandit. Dis-lui ton départ et ton retour : « je sors, je reviens ».
 
 #### Ces soirs-là sont durs, pour lui comme pour toi
 **C'est parfois difficile, et tu fais de ton mieux.** Ton enfant sent ton état, ton ton, ta tension : s'il y réagit, c'est la preuve du lien entre vous, pas de ton échec². Ce n'est pas à toi d'être parfaitement calme. Quelques gestes qui aident :

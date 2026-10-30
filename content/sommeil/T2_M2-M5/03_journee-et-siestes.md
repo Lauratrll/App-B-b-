@@ -1,9 +1,9 @@
 ## 3 · JOURNÉE ET SIESTES
 
-### Ce qui se passe dans sa journée
+### Éveils et fenêtres d'éveil
 
 #### La fenêtre d'éveil et la pression du sommeil
-La **fenêtre d'éveil**, c'est le temps entre le moment où ton bébé se réveille et celui où il a besoin de se rendormir. Pendant qu'il est éveillé, **la pression du sommeil monte**¹ : c'est un besoin de dormir qui s'accumule peu à peu, comme une jauge qui se remplit, et qui ne redescend que pendant le sommeil. Chez un tout-petit, les fenêtres d'éveil restent courtes.
+La **fenêtre d'éveil**, c'est le temps entre le moment où ton bébé se réveille et celui où il a besoin de se rendormir. Pendant qu'il est éveillé, **la pression du sommeil monte**¹ : c'est un besoin de dormir qui s'accumule peu à peu, comme une jauge qui se remplit, et qui ne redescend que pendant le sommeil. Chez le tout-petit, elle s'accumule beaucoup plus vite que chez l'adulte, d'où des fenêtres d'éveil courtes.
 Quand la jauge est bien remplie, il s'endort plus facilement. Trop tôt, il a plus de mal. Trop tard, la fatigue se transforme en agitation. C'est pour cela que **la durée compte moins que ses signaux** : tu les retrouves plus bas.
 
 #### Combien de temps éveillé ?
@@ -47,7 +47,7 @@ D'un bébé à l'autre, cela varie². **Le nombre baisse peu à peu, sans que tu
 - Le soir, arrive-t-il plus agité que calme ?
 
 #### La sieste de 45 minutes
-Une sieste de 45 minutes s'arrête souvent quand un cycle se termine, au moment où il remonte près de la surface. **Avant de conclure qu'il est réveillé, regarde** : s'il bouge, grimace, ouvre un œil sans interagir avec toi, il dort peut-être encore, en sommeil agité. Laisse-lui quelques secondes : il peut repartir pour un cycle. Et si la sieste s'arrête là, **elle n'est pas ratée** : dès l'âge de 3 mois environ, un petit somme aide à retenir ce qu'il vient de découvrir³.
+Une sieste de 45 minutes s'arrête souvent quand un cycle se termine, au moment où il remonte près de la surface. **Avant de conclure qu'il est réveillé, regarde** : s'il bouge, grimace, ouvre un œil sans interagir avec toi, il dort peut-être encore, en sommeil agité. **Un micro-réveil entre deux cycles est normal.** Si ton bébé est calme, laisse-lui l'occasion de retomber dans le sommeil, sans te précipiter : il peut repartir pour un cycle. Et si la sieste s'arrête là, **elle n'est pas ratée** : dès l'âge de 3 mois environ, un petit somme aide à retenir ce qu'il vient de découvrir³.
 
 #### Réveiller en douceur
 S'il faut le réveiller, pour un départ le matin ou une sieste qui s'étire tard dans la journée, tu peux le faire **en douceur**. **Ouvre la porte, laisse entrer la lumière et les bruits de la maison, parle doucement à côté** : il sortira du sommeil quand il sera prêt, sans être réveillé en plein milieu d'un sommeil calme.
@@ -59,25 +59,25 @@ Sors avec lui dans la journée, le matin si tu peux : **la lumière du jour est
 
 ### Quand la fatigue ressemble à de l'agitation
 
-#### Il n'est pas « énervé », il est fatigué
+#### Il n'est pas « énervé », il est fatigué
 Un bébé trop fatigué ne s'endort pas plus vite : il s'agite, pleure, se cambre. Ce n'est pas un caprice, **il ne peut pas faire autrement** : son corps n'arrive plus à se calmer seul. Le bâillement arrive souvent tard. Si tu le vois souvent à ce moment-là, **prévois la sieste un peu plus tôt**, dès les premiers signaux.
 
 ### Tes gestes pour ses siestes
 
 #### Un mini-rituel de sieste
 Dès la naissance, un petit repère aide : **la même suite de gestes avant chaque sieste**, courte. Par exemple :
-- tu lui dis ce qui va se passer : « on va faire une sieste » ;
+- tu lui dis ce qui va se passer : « on va faire une sieste » ;
 - la lumière du jour reste présente, un peu de pénombre suffit ;
 - tu gardes les bruits normaux de la maison ;
 - un câlin, une berceuse, puis tu le poses.
-**Répète-le même s'il ne dort pas.** S'il pleure, reste près de lui : il peut chercher son sommeil, sans avoir à s'inquiéter seul. Une sieste n'empêche pas la nuit.
+**Répète-le même s'il ne dort pas.** S'il pleure, reste près de lui : il peut chercher son sommeil, sans avoir à s'inquiéter seul. Une sieste dans la journée ne l'empêche pas de bien dormir la nuit (seule une sieste très tardive peut décaler le coucher).
 
 #### Où dormir sa sieste ?
-Dans ses bras, en portage, dans son lit : **tous ces endroits sont possibles à cet âge**, et porter ton bébé n'est pas une mauvaise habitude. Si tu le laisses dormir contre toi ou en portage, **reste éveillé, son visage dégagé**. S'il dort dans son lit, sur le dos, à plat, sans rien autour.
+Dans vos bras, en portage, dans son lit : **tous ces endroits sont possibles à cet âge**, et porter ton bébé n'est pas une mauvaise habitude. Si tu le laisses dormir contre toi ou en portage, **reste éveillé, son visage dégagé**. S'il dort dans son lit, sur le dos, à plat, sans rien autour.
 
 ### Toi aussi, tu as besoin de te poser
 
 #### Dors quand il dort, au moins un peu
 **C'est parfois difficile, et tu fais de ton mieux.** Quand il fait sa sieste, pose-toi 10 à 20 minutes : une sieste courte suffit déjà à reposer⁴. Le ménage peut attendre.
 
-`source` : ¹ La pression de sommeil monte pendant l'éveil et redescend pendant le sommeil (principe général du sommeil, modèle à deux processus) : Borbély A. A., Daan S., Wirz-Justice A., Deboer T., *Journal of Sleep Research*, 2016, 25(2):131-143 ; ² Le nombre de siestes avant 6 mois : Galland B. C. et al., *Sleep Medicine Reviews*, 2012 ; ³ Une sieste courte aide la mémoire dès 3 mois : Horváth K. et al., *Developmental Science*, 2018 ; ⁴ Une sieste de 10 minutes est la plus réparatrice, une de 20 minutes l'est aussi (étude chez l'adulte) : Brooks A., Lack L., *Sleep*, 2006
+`source` : ¹ La pression de sommeil s'accumule beaucoup plus vite chez le nourrisson que chez l'adulte, et se dissipe plus vite : Webb L., Phillips A. J. K., Roberts J. A., *PLOS Computational Biology*, 2024, 20(10):e1012541 ; ² Le nombre de siestes avant 6 mois : Galland B. C. et al., *Sleep Medicine Reviews*, 2012 ; ³ Une sieste courte aide la mémoire dès 3 mois : Horváth K. et al., *Developmental Science*, 2018 ; ⁴ Une sieste de 10 minutes est la plus réparatrice, une de 20 minutes l'est aussi (étude chez l'adulte) : Brooks A., Lack L., *Sleep*, 2006

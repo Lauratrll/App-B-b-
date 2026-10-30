@@ -1,10 +1,10 @@
 ## 3 · JOURNÉE ET SIESTES
 
-### Ce qui se passe dans sa journée
+### Éveils et fenêtres d'éveil
 
 #### La fenêtre d'éveil et la pression du sommeil
 La **fenêtre d'éveil**, c'est le temps entre le moment où ton bébé se réveille et celui où il a besoin de se rendormir. Pendant qu'il est éveillé, **la pression du sommeil monte**¹ : c'est un besoin de dormir qui s'accumule peu à peu, comme une jauge qui se remplit, et qui ne redescend que pendant le sommeil.
-À cet âge, cela explique plusieurs situations : **une sieste tardive ou longue** vide une partie de la jauge, et le coucher du soir devient plus difficile ; une sieste qui résiste, c'est parfois une jauge qui n'est pas encore assez remplie. Tu peux décaler la sieste ou le coucher par petits pas, en gardant un œil sur ses signaux.
+À cet âge, cela explique plusieurs situations : **une sieste tardive ou longue** vide une partie de la jauge, et le coucher du soir devient plus difficile ; une sieste qui résiste, c'est parfois une jauge qui n'est pas encore assez remplie. Tu peux décaler la sieste ou le coucher par petits pas, en gardant un œil sur ses signaux.
 
 #### Combien de temps éveillé ?
 Ses temps d'éveil sont plus longs. Voici l'ordre de grandeur observé chez beaucoup de bébés entre deux sommeils :
@@ -60,14 +60,14 @@ Un bébé trop fatigué ne s'endort pas plus vite : il s'agite, pleure, se camb
 - tu lui dis ce qui va se passer : « on va faire une sieste » ;
 - un peu de pénombre suffit, les bruits normaux de la maison restent ;
 - un câlin, une berceuse, puis tu le poses.
-**Répète-le même s'il ne dort pas.** S'il pleure, reste près de lui : il peut chercher son sommeil sans avoir à s'inquiéter seul. Une sieste n'empêche pas la nuit.
+**Répète-le même s'il ne dort pas.** S'il pleure, reste près de lui : il peut chercher son sommeil sans avoir à s'inquiéter seul. Une sieste dans la journée ne l'empêche pas de bien dormir la nuit (seule une sieste très tardive peut décaler le coucher).
 
 #### Où dormir sa sieste ?
-Dans ses bras, en portage, dans son lit : **tous ces endroits sont possibles à cet âge**, et porter ton bébé n'est pas une mauvaise habitude. S'il dort contre toi ou en portage, **reste éveillé, son visage dégagé**. S'il dort dans son lit, sur le dos, à plat, sans rien autour. La sieste hors de la maison est un dépannage précieux : garde-la pour les jours où tu sors.
+Dans vos bras, en portage, dans son lit : **tous ces endroits sont possibles à cet âge**, et porter ton bébé n'est pas une mauvaise habitude. S'il dort contre toi ou en portage, **reste éveillé, son visage dégagé**. S'il dort dans son lit, sur le dos, à plat, sans rien autour. La sieste hors de la maison est un dépannage précieux : garde-la pour les jours où tu sors.
 
 ### Toi aussi, tu as besoin de te poser
 
 #### Dors quand il dort, au moins un peu
 **C'est parfois difficile, et tu fais de ton mieux.** Quand il fait sa sieste, pose-toi 10 à 20 minutes : une sieste courte suffit déjà à reposer⁵. Le ménage peut attendre.
 
-`source` : ¹ La pression de sommeil monte pendant l'éveil et redescend pendant le sommeil (principe général du sommeil, modèle à deux processus) : Borbély A. A., Daan S., Wirz-Justice A., Deboer T., *Journal of Sleep Research*, 2016, 25(2):131-143 ; ² Le nombre de siestes de 6 à 11 mois (moyenne 2,2, de 0,9 à 3,5) : Galland B. C. et al., *Sleep Medicine Reviews*, 2012 ; ³ Deux siestes entre 9 et 12 mois, sieste du matin pas trop tôt (pas avant 9h) et sieste d'après-midi qui ne dépasse pas 16h : Réseau Morphée ; INSV ; ⁴ Réveiller en fin de sommeil paradoxal : formation EDPP, *Pleurs et sommeil* ; ⁵ La sieste courte de 10 à 20 minutes chez l'adulte : Brooks A., Lack L., *Sleep*, 2006
+`source` : ¹ La pression de sommeil s'accumule beaucoup plus vite chez le nourrisson que chez l'adulte, et se dissipe plus vite : Webb L., Phillips A. J. K., Roberts J. A., *PLOS Computational Biology*, 2024, 20(10):e1012541 ; ² Le nombre de siestes de 6 à 11 mois (moyenne 2,2, de 0,9 à 3,5) : Galland B. C. et al., *Sleep Medicine Reviews*, 2012 ; ³ Deux siestes entre 9 et 12 mois, sieste du matin pas trop tôt (pas avant 9h) et sieste d'après-midi qui ne dépasse pas 16h : Réseau Morphée ; INSV ; ⁴ Réveiller en fin de sommeil paradoxal : formation EDPP, *Pleurs et sommeil* ; ⁵ La sieste courte de 10 à 20 minutes chez l'adulte : Brooks A., Lack L., *Sleep*, 2006

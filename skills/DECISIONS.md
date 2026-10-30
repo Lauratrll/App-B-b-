@@ -748,3 +748,15 @@ Phrase à déconstruire : porter son bébé est bon, ce n'est pas une mauvaise h
   12. **Nouvelles sections** : « Pour dormir en sécurité » (slot Comprendre), « Il est fatigué, il ne sait pas le dire » et « Le contenir » (Fin de journée), « On ne compte pas les siestes », « S'il dort beaucoup » (Journée) ; « Le premier mois, tout est permis » (Endormissement).
   13. **Thèmes du mois M0–M1** (slot 08) : brouillons, à valider (doc 31). **Deux vidéos** (sommeil agité / éveil agité) à produire : signalées en commentaire dans le slot Comprendre, non rédigées.
   14. **Roues M0 et M1** : à confirmer dans `sommeil_24h.html`.
+
+
+## 30/10/2026 — Prendre soin de moi : suites de la relecture
+- Sauvegarde : `_sauvegardes/2026-10-30_avant_M12_fatigue/`.
+- **Psycom validé comme source** (santé mentale) : ajouté à la liste des sources de `SKILL_contenu.md`.
+- **M12** : « la fatigue du post-partum commence à se réparer » devient « commence à s'alléger » (une fatigue ne se répare pas).
+- **Affichage des sources** : le champ `source` est déjà rendu en bas de chaque écran par `soin-detail.tsx` (B1 à B5, y compris « Réalité du post-partum »). À importer ensuite avec `npm run import-content`.
+- **ANSES (besoins en énergie de la maman qui allaite)** : source non retrouvée par Laura. La phrase reste sans exposant, sans chiffre.
+- 🟠 À décider : M19 « c'est précisément le rythme propre qui la répare » (même problème de mot).
+
+- 30/10 : « maternage proximal » = terme lié aux « 9 mois dans le ventre, 9 mois sur le ventre » : on l'emploie jusqu'à M8 seulement. À partir de M9, on parle de co-régulation, contenance, réassurance, tendresse, réservoir affectif de bébé (selon le contexte). Ces principes existent aussi avant M9.
+- 30/10 : « nid naturel » lié aux 9 mois comme « maternage proximal » : on l'emploie jusqu'à M8 ; à partir de M9, on dit « refuge », contenance, tendresse, réservoir affectif.

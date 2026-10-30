@@ -1,10 +1,10 @@
 ## 3 · JOURNÉE ET SIESTES
 
-### Ce qui se passe dans sa journée
+### Éveils et fenêtres d'éveil
 
 #### La fenêtre d'éveil et la pression du sommeil
 La **fenêtre d'éveil**, c'est le temps entre le moment où ton enfant se réveille et celui où il a besoin de se rendormir. Pendant qu'il est éveillé, **la pression du sommeil monte**¹ : c'est un besoin de dormir qui s'accumule peu à peu, comme une jauge qui se remplit, et qui ne redescend que pendant le sommeil.
-Au moment du passage à une seule sieste, **la jauge doit se remplir plus longtemps** : c'est pour cela que la sieste glisse vers midi, et que le temps calme du matin aide à patienter. Si la sieste de l'après-midi finit tard, la jauge est trop vide au coucher : décale la sieste, ou raccourcis-la, par petits pas.
+Au moment du passage à une seule sieste, **la jauge doit se remplir plus longtemps** : c'est pour cela que la sieste glisse vers midi, et que le temps calme du matin aide à patienter. Si la sieste de l'après-midi finit tard, la jauge est trop vide au coucher : décale la sieste, ou raccourcis-la, par petits pas.
 
 #### Combien de temps éveillé ?
 Ses temps d'éveil sont longs, et plus longs encore quand la sieste du matin raccourcit. Voici l'ordre de grandeur observé chez beaucoup d'enfants entre deux sommeils :
@@ -75,14 +75,14 @@ Un enfant trop fatigué ne s'endort pas plus vite : il s'agite, pleure, se camb
 - tu lui dis ce qui va se passer : « on va faire une sieste » ;
 - un peu de pénombre suffit, les bruits normaux de la maison restent ;
 - un câlin, une berceuse ou un livre, puis tu le poses.
-**Répète-le même s'il ne dort pas.** S'il pleure, reste près de lui : il peut chercher son sommeil sans avoir à s'inquiéter seul. Une sieste n'empêche pas la nuit.
+**Répète-le même s'il ne dort pas.** S'il pleure, reste près de lui : il peut chercher son sommeil sans avoir à s'inquiéter seul. Une sieste dans la journée ne l'empêche pas de bien dormir la nuit (seule une sieste très tardive peut décaler le coucher).
 
 #### Où dormir sa sieste ?
-Dans ses bras, en portage, dans son lit, en poussette : **tous ces endroits sont possibles à cet âge**, et porter ton enfant n'est pas une mauvaise habitude. S'il dort contre toi ou en portage, **reste éveillé, son visage dégagé**. S'il dort dans son lit, c'est sur le dos. La sieste hors de la maison est un dépannage précieux : garde-la pour les jours où tu sors.
+Dans vos bras, en portage, dans son lit, en poussette : **tous ces endroits sont possibles à cet âge**, et porter ton enfant n'est pas une mauvaise habitude. S'il dort contre toi ou en portage, **reste éveillé, son visage dégagé**. S'il dort dans son lit, c'est sur le dos. La sieste hors de la maison est un dépannage précieux : garde-la pour les jours où tu sors.
 
 ### Toi aussi, tu as besoin de te poser
 
 #### Dors quand il dort, au moins un peu
 **C'est parfois difficile, et tu fais de ton mieux.** Quand il fait sa sieste, pose-toi 10 à 20 minutes : une sieste courte suffit déjà à reposer⁶. Le ménage peut attendre.
 
-`source` : ¹ La pression de sommeil monte pendant l'éveil et redescend pendant le sommeil (principe général du sommeil, modèle à deux processus) : Borbély A. A., Daan S., Wirz-Justice A., Deboer T., *Journal of Sleep Research*, 2016, 25(2):131-143 ; ² Le nombre de siestes entre 12 et 24 mois : Galland B. C. et al., *Sleep Medicine Reviews*, 2012 ; ³ Le passage à une sieste entre 15 et 18 mois : Réseau Morphée ; INSV ; ⁴ Fin de la sieste et heure d'endormissement, mesurées à 18 mois : Nakagawa M. et al., *Scientific Reports*, 2016 ; ⁵ Réveiller en fin de sommeil paradoxal : formation EDPP, *Pleurs et sommeil* ; ⁶ La sieste courte de 10 à 20 minutes chez l'adulte : Brooks A., Lack L., *Sleep*, 2006
+`source` : ¹ La pression de sommeil s'accumule beaucoup plus vite chez le nourrisson que chez l'adulte, et se dissipe plus vite : Webb L., Phillips A. J. K., Roberts J. A., *PLOS Computational Biology*, 2024, 20(10):e1012541 ; ² Le nombre de siestes entre 12 et 24 mois : Galland B. C. et al., *Sleep Medicine Reviews*, 2012 ; ³ Le passage à une sieste entre 15 et 18 mois : Réseau Morphée ; INSV ; ⁴ Fin de la sieste et heure d'endormissement, mesurées à 18 mois : Nakagawa M. et al., *Scientific Reports*, 2016 ; ⁵ Réveiller en fin de sommeil paradoxal : formation EDPP, *Pleurs et sommeil* ; ⁶ La sieste courte de 10 à 20 minutes chez l'adulte : Brooks A., Lack L., *Sleep*, 2006

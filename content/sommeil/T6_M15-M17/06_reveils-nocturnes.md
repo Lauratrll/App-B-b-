@@ -25,7 +25,7 @@ Garde la nuit **sombre et calme** : une lumière ambrée et faible pour toi, un
 ### Si c'est une terreur nocturne
 
 #### Ce que tu vois
-En début de nuit, souvent une à deux heures après l'endormissement, **il crie, il est assis, les yeux ouverts, il ne te reconnaît pas**. Ce n'est pas un cauchemar : c'est un réveil incomplet du sommeil profond, proche du somnambulisme³. Les terreurs nocturnes apparaissent le plus souvent vers 18 mois, parfois un peu avant : tu peux les rencontrer dans cette tranche. Le test facile : **est-ce qu'il interagit avec toi ?** Si non, **il dort encore**, même s'il a les yeux ouverts. Il n'en gardera aucun souvenir et ça passe tout seul, en quelques minutes.
+En début de nuit, souvent une à deux heures après l'endormissement, **il crie, il est assis, les yeux ouverts, il ne te reconnaît pas**. Ce n'est pas un cauchemar : c'est un réveil incomplet du sommeil profond, proche du somnambulisme³. Les terreurs nocturnes apparaissent le plus souvent vers 18 mois, parfois un peu avant : tu peux les rencontrer dans cette période. Le test facile : **est-ce qu'il interagit avec toi ?** Si non, **il dort encore**, même s'il a les yeux ouverts. Il n'en gardera aucun souvenir et ça passe tout seul, en quelques minutes.
 
 #### Ce que tu fais
 - **Ne le réveille pas** : le réveiller le désoriente.
@@ -38,7 +38,7 @@ Ce qui les espace : **des horaires réguliers et assez de sommeil**⁶. C'est l
 #### Et s'il se réveille en pleurs ?
 S'il pleure, **te reconnaît et se calme dans tes bras**, ce n'est pas une terreur : il a besoin d'être rassuré (séparation, dent, journée chargée). Console-le, redis la phrase du soir, reste le temps qu'il faut.
 
-### Que regarder, dans cet ordre
+### Quand il se réveille, dans cet ordre
 > Quand il se réveille, pose-toi ces questions l'une après l'autre.
 
 #### 1. Dort-il encore ?
@@ -49,7 +49,7 @@ Il cherche à téter, ouvre la bouche, porte ses mains à la bouche, s'agite ava
 
 #### 3. Quelque chose le gêne-t-il ?
 En dix secondes, vérifie :
-- la température de la chambre (18 à 20 °C ; nuque chaude et moite : il a trop chaud) ;
+- la température de la chambre (18 à 20 °C ; nuque chaude et moite : il a trop chaud) ;
 - ses vêtements, sa couche ;
 - un bruit ou une lumière ;
 - la tétine perdue (jamais attachée) ;
@@ -57,13 +57,29 @@ En dix secondes, vérifie :
 
 Sur quelques jours : les dents peuvent gêner, mais **tous les réveils ne sont pas dus aux dents**⁷. Un rhume, un vaccin, un changement dans sa vie.
 
-#### 4. A-t-il besoin d'être rassuré ?
+#### 4. Sa journée a-t-elle été très chargée ?
+Une journée très remplie (visites, bruit, beaucoup de nouveautés), une fin de journée agitée ou un coucher très tardif peuvent rendre la nuit plus agitée, avec plus de réveils. Regarde ce qui s'est passé dans la journée, et allège la fin de journée les jours suivants : tu trouveras des idées dans la catégorie Fin de journée.
+
+#### 5. A-t-il besoin d'être rassuré ?
 Il est vraiment réveillé, il t'appelle, il se calme dans tes bras sans avoir faim. **S'il se réveille vraiment et t'appelle, tu viens**, et **tu commences par le moins** : ta voix, la phrase du soir, une main posée sur lui. Tu le prends dans tes bras si ça ne suffit pas. Il peut avoir besoin d'être câliné et rassuré⁸ : ce n'est pas lui donner une mauvaise habitude.
+Parfois aussi, **il ne retrouve pas les conditions dans lesquelles il s'est endormi** (ta présence, la lumière, son doudou, la musique, la façon dont tu l'as accompagné). Au milieu de la nuit, il s'en rend compte, et il t'appelle pour les retrouver.
+
+#### 6. Montre-t-il des signes qui méritent un avis médical ?
+Fièvre, difficulté à respirer, pleurs inhabituels, refus de boire, enfant difficile à réveiller : ces signes sont dans « Quand consulter », en bas de cette page. Et certaines causes médicales peuvent perturber ses nuits sans être urgentes : tu les trouves juste en dessous.
+
+### Quand une cause médicale perturbe ses nuits
+> Dans la grande majorité des cas, les réveils sont normaux. Ici, pas de diagnostic : si plusieurs signes te parlent, parles-en à ton médecin.
+
+#### Un frein de langue restrictif
+Il ne concerne que les enfants qui ont **des difficultés réelles** : succion, déglutition, alimentation⁹. Un frein court ou épais qui ne gêne pas n'est pas un problème. Si tu as un doute, parles-en à ton médecin traitant, qui t'orientera vers un professionnel formé : une intervention n'est envisagée qu'exceptionnellement, après avoir essayé les autres solutions⁹.
+
+#### Une respiration par la bouche, des ronflements
+Une **respiration buccale qui dure**, des ronflements, un sommeil très agité ou des otites qui reviennent peuvent venir d'un nez ou d'une gorge obstrués, par exemple par des végétations¹⁰. Un simple rhume bouche le nez de façon passagère, et c'est fréquent. **Si ça dure hors rhume**, parles-en à ton médecin, qui t'orientera vers un spécialiste si besoin.
 
 ### Ce dont il a besoin la nuit
 
-#### Il ne le fait pas exprès
-Si ton enfant se réveille, il ne le fait pas exprès, **il ne peut pas faire autrement**⁹. La nuit comme le jour, il a besoin de ta proximité, de ta voix, de tes bras : **c'est son nid naturel**. Plus il se sent en sécurité, plus il retrouvera facilement le sommeil.
+#### Il est en alerte, car il dépend de toi
+N'oublie pas : **les réveils nocturnes sont normaux**. Ton enfant reste en alerte la nuit parce qu'il dépend de ses parents¹¹. Il a besoin de ta proximité, de ta voix, de tes bras, et le réconforter n'est pas lui donner une mauvaise habitude. Plus il se sent en sécurité, plus il retrouvera facilement le sommeil.
 
 #### Debout dans son lit
 S'il se relève dans son lit, à moitié endormi, **recouche-le calmement, sans en faire un jeu.** Vérifie que son matelas est réglé au plus bas. Et le jour, laisse-le s'entraîner à se relever et à se rasseoir : quand il saura, les nuits se reposeront.
@@ -80,7 +96,7 @@ S'il se relève dans son lit, à moitié endormi, **recouche-le calmement, sans 
 #### Le relais de nuit
 Les nuits n'appartiennent pas à un seul parent. Le co-parent peut **se lever pour les réveils qui ne sont pas des tétées** : le consoler, le recoucher, l'aider à se rasseoir quand il est debout. Vous vous relayez pour que chacun ait un vrai bloc de sommeil. Si vraiment rien n'apaise, appeler l'autre n'est pas un échec.
 
-### Que regarder cette semaine
+### À noter cette semaine
 
 #### Un petit carnet de nuit
 Pendant trois nuits, note en quelques mots : **l'heure des réveils, ce qu'il lui fallait** (faim, position, câlin) **et ce qui l'a apaisé**. Note aussi ce qu'il a vécu dans la journée : une sieste en moins, un départ, une nouveauté. Pas pour compter, juste pour voir ce qui revient et ce qui marche.
@@ -88,11 +104,11 @@ Pendant trois nuits, note en quelques mots : **l'heure des réveils, ce qu'il l
 ### Quand consulter
 
 #### Quand consulter
-- **Appelle le 15** s'il fait des pauses respiratoires, si ses lèvres bleuissent, s'il est difficile à réveiller ou respire avec difficulté¹⁰.
+- **Appelle le 15** s'il fait des pauses respiratoires, si ses lèvres bleuissent, s'il est difficile à réveiller ou respire avec difficulté¹².
 - **Consulte ton médecin** si les terreurs nocturnes deviennent très fréquentes ou s'il se blesse, s'il **ronfle presque toutes les nuits, hors rhume**, s'il dort la bouche ouverte, s'il transpire beaucoup en dormant, si son sommeil est très agité, ou si ses pleurs de nuit sont inhabituels. Chaque situation a aussi sa fiche pas à pas dans Guide-moi.
 - **Une nuit morcelée accompagnée de fièvre ou de douleur** n'est pas une affaire d'acquisition : consulte.
 - **À partir de 1 an, parles-en aussi à ton médecin** si, depuis plus d'un mois, ses réveils reviennent presque chaque nuit, qu'il reste longtemps éveillé, ou qu'il met très longtemps à s'endormir, et que toute la famille en souffre².
-- Un enfant ne se secoue **jamais**, même une seconde, même doucement. Si tu sens que tu craques, **couche-le sur le dos dans son lit, sors de la pièce, respire, appelle quelqu'un**¹¹. Allo Parents Bébé : 0 800 00 34 56 (gratuit).
+- Un enfant ne se secoue **jamais**, même une seconde, même doucement. Si tu sens que tu craques, **couche-le sur le dos dans son lit, sors de la pièce, respire, appelle quelqu'un**¹³. Allo Parents Bébé : 0 800 00 34 56 (gratuit).
 - Et si les nuits t'épuisent au point de ne plus tenir, **parles-en** : médecin, sage-femme, PMI, ou Allo Parents Bébé.
 
-`source` : ¹ Un micro-éveil dure quelques secondes (défini à partir de 3 secondes) : American Academy of Sleep Medicine, *Manuel de cotation du sommeil* ; ² Les réveils de nuit entre 1 et 3 ans, repères de consultation à partir de 12 mois : ameli.fr ; Petit D., Montplaisir J., *Encyclopédie sur le développement des jeunes enfants*, 2020 ; Gaylor E. et al., 2001, cité dans Petit et Montplaisir, 2020 ; ³ Les durées de sommeil recommandées : Hirshkowitz M. et al. (National Sleep Foundation), *Sleep Health*, 2015 ; les terreurs nocturnes, réveil incomplet du sommeil profond, premières vers 18 mois : American Academy of Sleep Medicine, ICSD-3-TR, parasomnies ; Petit D., Montplaisir J., 2020 ; ⁴ Forcer à manger le soir, l'alimentation se compte sur la journée : formation EDPP, *Pleurs et sommeil* ; ⁵ Biberon préparé au moment : ANSES ; ⁶ Terreurs nocturnes, régularité et sommeil suffisant : Réseau Morphée ; ⁷ Les dents gênent quelques jours autour de leur sortie : Macknin M. L. et al., *Pediatrics*, 2000 ; ⁸ Besoin de réconfort la nuit : Santé publique France, *Les 1000 premiers jours* ; ⁹ Un bébé ne fait pas exprès, besoin de proximité et de réconfort : formation EDPP, *Pleurs et sommeil* ; ¹⁰ Signes d'urgence : ameli.fr, « Bronchiolite : que faire ? », 2026 ; signes respiratoires du sommeil : SFORL, recommandations 2017 et 2020 ; ¹¹ Conduite à tenir quand le parent est à bout : HAS, 2017 ; Santé publique France, 2025
+`source` : ¹ Un micro-éveil dure quelques secondes (défini à partir de 3 secondes) : American Academy of Sleep Medicine, *Manuel de cotation du sommeil* ; ² Les réveils de nuit entre 1 et 3 ans, repères de consultation à partir de 12 mois : ameli.fr ; Petit D., Montplaisir J., *Encyclopédie sur le développement des jeunes enfants*, 2020 ; Gaylor E. et al., 2001, cité dans Petit et Montplaisir, 2020 ; ³ Les durées de sommeil recommandées : Hirshkowitz M. et al. (National Sleep Foundation), *Sleep Health*, 2015 ; les terreurs nocturnes, réveil incomplet du sommeil profond, premières vers 18 mois : American Academy of Sleep Medicine, ICSD-3-TR, parasomnies ; Petit D., Montplaisir J., 2020 ; ⁴ Forcer à manger le soir, l'alimentation se compte sur la journée : formation EDPP, *Pleurs et sommeil* ; ⁵ Biberon préparé au moment : ANSES ; ⁶ Terreurs nocturnes, régularité et sommeil suffisant : Réseau Morphée ; ⁷ Les dents gênent quelques jours autour de leur sortie : Macknin M. L. et al., *Pediatrics*, 2000 ; ⁸ Besoin de réconfort la nuit : Santé publique France, *Les 1000 premiers jours* ; ⁹ Frein de langue : difficultés de succion, évaluation, frénotomie exceptionnelle : Association française de pédiatrie ambulatoire et sociétés savantes, « Section de freins de langue chez les nourrissons et les enfants », 2021 ; ¹⁰ Respiration buccale, ronflements, otites et végétations adénoïdes : *Manuel MSD* (professionnels), « Hypertrophie des végétations adénoïdes » ; ¹¹ Un bébé ne fait pas exprès, besoin de proximité et de réconfort : formation EDPP, *Pleurs et sommeil* ; ¹² Signes d'urgence : ameli.fr, « Bronchiolite : que faire ? », 2026 ; signes respiratoires du sommeil : SFORL, recommandations 2017 et 2020 ; ¹³ Conduite à tenir quand le parent est à bout : HAS, 2017 ; Santé publique France, 2025

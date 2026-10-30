@@ -3,7 +3,7 @@
 ### Se réveiller la nuit est normal
 
 #### Pourquoi se réveille-t-il ?
-Dans un cycle de sommeil, il y a des **micro-réveils**, de quelques secondes¹ : ils permettent au cerveau de passer d'un état à un autre. Un adulte enchaîne ses cycles sans s'en rendre compte. Ton bébé n'a pas encore cette capacité : **il a encore besoin d'être accompagné.** À cet âge, ce qui se joue la nuit est surtout neurologique : il apprend à se rendormir entre deux cycles, en plein chantier. Les réveils sont physiologiques : ce n'est ni un défaut de ton bébé, ni de ta faute.
+Dans un cycle de sommeil, il y a des **micro-réveils**, de quelques secondes¹ : ils permettent au cerveau de passer d'un état à un autre. Un adulte enchaîne ses cycles sans s'en rendre compte. Son horloge interne se renforce, mais n'est pas encore pleinement installée : sa mélatonine, l'hormone qui donne l'heure de la nuit, n'est pas encore bien active. Ton bébé n'a pas encore cette capacité : **il a encore besoin d'être accompagné.** À cet âge, ce qui se joue la nuit est surtout neurologique : il apprend à se rendormir entre deux cycles, en plein chantier. Les réveils sont physiologiques : ce n'est ni un défaut de ton bébé, ni de ta faute.
 
 C'est pendant ces micro-réveils qu'il peut ressentir :
 - **la faim** ;
@@ -19,7 +19,7 @@ C'est pendant ces micro-réveils qu'il peut ressentir :
 #### La tétée de nuit
 Garde la nuit **sombre et calme** : une lumière ambrée et faible pour toi, une voix basse, pas de jeu, pas de téléphone. Change la couche si c'est nécessaire, dans la pénombre. Au biberon, **prépare-le au moment de le donner**³. Puis tu le recouches **sur le dos**.
 
-### Que regarder, dans cet ordre
+### Quand il se réveille, dans cet ordre
 > Quand il se réveille, pose-toi ces questions l'une après l'autre.
 
 #### 1. Dort-il encore ?
@@ -38,13 +38,45 @@ En dix secondes, vérifie :
 
 Sur quelques jours : les dents peuvent gêner, mais **tous les réveils ne sont pas dus aux dents**⁴. Un rhume, un vaccin, un changement dans sa vie.
 
-#### 4. A-t-il besoin d'être rassuré ?
+#### 4. Sa journée a-t-elle été très chargée ?
+Une journée très remplie (visites, bruit, beaucoup de nouveautés), une fin de journée agitée ou un coucher très tardif peuvent rendre la nuit plus agitée, avec plus de réveils. Regarde ce qui s'est passé dans la journée, et allège la fin de journée les jours suivants : tu trouveras des idées dans la catégorie Fin de journée.
+
+#### 5. A-t-il besoin d'être rassuré ?
 Il est vraiment réveillé, il t'appelle, il se calme dans tes bras sans avoir faim. **S'il se réveille vraiment et t'appelle, tu viens**, et **tu commences par le moins** : ta voix, la phrase du soir, une main posée sur lui. Tu le prends dans tes bras si ça ne suffit pas. Il peut avoir besoin d'être câliné et rassuré⁵ : ce n'est pas lui donner une mauvaise habitude.
+Parfois aussi, **il ne retrouve pas les conditions dans lesquelles il s'est endormi** (tes bras, la tétée, le bercement). Au milieu de la nuit, il s'en rend compte, et il t'appelle pour les retrouver.
+
+#### 6. Montre-t-il des signes qui méritent un avis médical ?
+Fièvre, difficulté à respirer, pleurs inhabituels, refus de boire, bébé difficile à réveiller : ces signes sont dans « Quand consulter », en bas de cette page. Et certaines causes médicales peuvent perturber ses nuits sans être urgentes : tu les trouves juste en dessous.
+
+### Quand une cause médicale perturbe ses nuits
+> Dans la grande majorité des cas, les réveils sont normaux. Ici, pas de diagnostic : si plusieurs signes te parlent, parles-en à ton médecin.
+
+#### Le reflux (RGO)
+**Les régurgitations sont très fréquentes** entre 1 mois et environ un an : elles arrivent sans effort, ne gênent pas le bébé et n'empêchent pas sa croissance⁶. C'est banal, et sans gravité. **Consulte** si tu observes :
+- des vomissements violents, en jet, à chaque repas ;
+- des vomissements vert fluorescent ;
+- du sang dans les régurgitations ;
+- des refus répétés de boire, ou une prise de poids insuffisante.
+Les pleurs de fin de journée, eux, ne s'expliquent pas par le reflux⁶. Ce qui aide : respecter sa faim, faire des pauses et un rot pendant le repas, le garder droit après, et le coucher sur le dos.
+
+#### L'allergie aux protéines de lait de vache (APLV)
+Elle peut apparaître dès les premières semaines, jusqu'à 8-10 mois⁷. **Ce que tu peux observer** :
+- la peau : rougeurs, démangeaisons ;
+- le ventre : régurgitations ou vomissements plus fréquents, constipation, diarrhée, ou les deux en alternance ;
+- des coliques régulières ou des diarrhées dans les heures qui suivent un biberon ;
+- une irritabilité constante.
+**Consulte ton médecin ou ton pédiatre** : lui seul peut dire s'il faut changer de lait. Ne donne ni lait de chèvre, de brebis, de jument, ni lait de soja sans son avis⁷.
+
+#### Un frein de langue restrictif
+Il ne concerne que les bébés qui ont **des difficultés à téter** : succion difficile, tétées douloureuses pour la mère, allaitement qui s'arrête tôt⁸. Un frein court ou épais qui ne gêne pas la tétée n'est pas un problème. Si la tétée est difficile, demande d'abord l'évaluation d'un professionnel formé à l'allaitement (sage-femme, médecin, puéricultrice), avec ton médecin traitant : une intervention n'est envisagée qu'exceptionnellement, après avoir essayé les autres solutions⁸.
+
+#### Une respiration par la bouche, des ronflements
+Une **respiration buccale qui dure**, des ronflements, un sommeil très agité ou des otites qui reviennent peuvent venir d'un nez ou d'une gorge obstrués, par exemple par des végétations⁹. Un simple rhume bouche le nez de façon passagère, et c'est fréquent. **Si ça dure hors rhume**, parles-en à ton médecin, qui t'orientera vers un spécialiste si besoin.
 
 ### Ce dont il a besoin la nuit
 
-#### Il ne le fait pas exprès
-Si ton bébé se réveille, il ne le fait pas exprès, **il ne peut pas faire autrement**⁶. La nuit comme le jour, il a besoin de ta proximité, de ta voix, de tes bras : **c'est son nid naturel**. Plus il se sent en sécurité, plus il retrouvera facilement le sommeil.
+#### Il est en alerte, car il dépend de toi
+N'oublie pas : **les réveils nocturnes sont normaux**. Ton bébé reste en alerte la nuit parce qu'il dépend de ses parents¹⁰. Il a besoin de ta proximité, de ta voix, de tes bras, et le réconforter n'est pas lui donner une mauvaise habitude. Plus il se sent en sécurité, plus il retrouvera facilement le sommeil.
 
 #### Debout dans son lit
 S'il vient d'apprendre à se hisser, tu le retrouveras peut-être debout contre les barreaux, à moitié endormi, sans savoir redescendre. **Recouche-le calmement, sans en faire un jeu.** Et le jour, laisse-le s'entraîner à redescendre : plier les genoux, poser les fesses. Quand il saura, les nuits se reposeront.
@@ -61,7 +93,7 @@ S'il vient d'apprendre à se hisser, tu le retrouveras peut-être debout contre 
 #### Le relais de nuit
 Les nuits n'appartiennent pas à un seul parent. Le co-parent peut **se lever pour les réveils qui ne sont pas des tétées** : le consoler, le recoucher, l'aider à redescendre quand il est debout. Vous vous relayez pour que chacun ait un vrai bloc de sommeil. Si vraiment rien n'apaise, appeler l'autre n'est pas un échec.
 
-### Que regarder cette semaine
+### À noter cette semaine
 
 #### Un petit carnet de nuit
 Pendant trois nuits, note en quelques mots : **l'heure des réveils, ce qu'il lui fallait** (faim, position, câlin) **et ce qui l'a apaisé**. Note aussi ce qu'il a appris dans la journée. Pas pour compter, juste pour voir ce qui revient et ce qui marche.
@@ -69,9 +101,9 @@ Pendant trois nuits, note en quelques mots : **l'heure des réveils, ce qu'il l
 ### Quand consulter
 
 #### Quand consulter
-- **Appelle le 15** s'il fait des pauses respiratoires, si ses lèvres bleuissent, s'il est difficile à réveiller ou respire avec difficulté⁷.
+- **Appelle le 15** s'il fait des pauses respiratoires, si ses lèvres bleuissent, s'il est difficile à réveiller ou respire avec difficulté¹¹.
 - **Consulte ton médecin** s'il **ronfle presque toutes les nuits, hors rhume**, s'il dort la bouche ouverte, s'il transpire beaucoup en dormant, si son sommeil est très agité, ou si ses pleurs de nuit sont inhabituels. Chaque situation a aussi sa fiche pas à pas dans Guide-moi.
-- Un bébé ne se secoue **jamais**, même une seconde, même doucement. Si tu sens que tu craques, **couche-le sur le dos dans son lit, sors de la pièce, respire, appelle quelqu'un**⁸. Allo Parents Bébé : 0 800 00 34 56 (gratuit).
+- Un bébé ne se secoue **jamais**, même une seconde, même doucement. Si tu sens que tu craques, **couche-le sur le dos dans son lit, sors de la pièce, respire, appelle quelqu'un**¹². Allo Parents Bébé : 0 800 00 34 56 (gratuit).
 - Et si les nuits t'épuisent au point de ne plus tenir, **parles-en** : médecin, sage-femme, PMI, ou Allo Parents Bébé.
 
-`source` : ¹ Un micro-éveil dure quelques secondes (défini à partir de 3 secondes) : American Academy of Sleep Medicine, *Manuel de cotation du sommeil* ; ² Plus de lait le soir, pas moins de réveils : Brown A., Harries V., *Breastfeeding Medicine*, 2015 ; ³ Biberon préparé au moment : ANSES ; ⁴ Les dents gênent quelques jours autour de leur sortie : Macknin M. L. et al., *Pediatrics*, 2000 ; ⁵ Besoin de réconfort la nuit : Santé publique France, *Les 1000 premiers jours* ; ⁶ Un bébé ne fait pas exprès, besoin de proximité et de réconfort : formation EDPP, *Pleurs et sommeil* ; ⁷ Signes d'urgence : ameli.fr, « Bronchiolite : que faire ? », 2026 ; signes respiratoires du sommeil : SFORL, recommandations 2017 et 2020 ; ⁸ Conduite à tenir quand le parent est à bout : HAS, 2017 ; Santé publique France, 2025
+`source` : ¹ Un micro-éveil dure quelques secondes (défini à partir de 3 secondes) : American Academy of Sleep Medicine, *Manuel de cotation du sommeil* ; ² Plus de lait le soir, pas moins de réveils : Brown A., Harries V., *Breastfeeding Medicine*, 2015 ; ³ Biberon préparé au moment : ANSES ; ⁴ Les dents gênent quelques jours autour de leur sortie : Macknin M. L. et al., *Pediatrics*, 2000 ; ⁵ Besoin de réconfort la nuit : Santé publique France, *Les 1000 premiers jours* ; ⁶ Reflux banal, signes d'alerte, pleurs non attribués au reflux : Haute Autorité de santé, *Reflux du nourrisson : un médicament est-il nécessaire ?*, 2024 ; ⁷ Allergie aux protéines de lait de vache, symptômes et conduite à tenir : Santé.fr (Service public d'information en santé), « Allergie aux protéines du lait de vache » ; ⁸ Frein de langue : difficultés de succion, évaluation, frénotomie exceptionnelle : Association française de pédiatrie ambulatoire et sociétés savantes, « Section de freins de langue chez les nourrissons et les enfants », 2021 ; ⁹ Respiration buccale, ronflements, otites et végétations adénoïdes : *Manuel MSD* (professionnels), « Hypertrophie des végétations adénoïdes » ; ¹⁰ Un bébé ne fait pas exprès, besoin de proximité et de réconfort : formation EDPP, *Pleurs et sommeil* ; ¹¹ Signes d'urgence : ameli.fr, « Bronchiolite : que faire ? », 2026 ; signes respiratoires du sommeil : SFORL, recommandations 2017 et 2020 ; ¹² Conduite à tenir quand le parent est à bout : HAS, 2017 ; Santé publique France, 2025

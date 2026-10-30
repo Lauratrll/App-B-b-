@@ -1,6 +1,6 @@
 ## 4 · FIN DE JOURNÉE
 
-### Ce qui se passe en fin de journée
+### La redescente du soir
 
 #### La redescente
 Après une journée à ramper, se hisser, tout explorer, **son corps a besoin de redescendre avant la nuit.** Dès la fin d'après-midi, tu peux baisser peu à peu le rythme : moins d'activité, moins de monde, des gestes plus lents. Garde les jeux qui excitent pour plus tôt, et passe le dernier moment de la journée à des jeux calmes : livres, câlins, transvasements.

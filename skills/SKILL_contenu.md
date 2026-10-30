@@ -747,7 +747,7 @@ Toute source citée porte sa **référence complète** dans la ligne `source` (a
 
 ### Quelles sources
 
-- **Institutions françaises uniquement** : HAS, Santé publique France, ameli.fr, sante.fr, mpedia.fr (AFPA), Haut Conseil de la santé publique, Inserm, 1000-premiers-jours.fr, UFSBD, PNNS, ANSES. **Pas le CERIN** : financé par la filière laitière, retiré du corpus le 08/09/2026.
+- **Institutions françaises uniquement** : HAS, Santé publique France, ameli.fr, sante.fr, mpedia.fr (AFPA), Haut Conseil de la santé publique, Inserm, 1000-premiers-jours.fr, UFSBD, PNNS, ANSES, Psycom (santé mentale, validé le 30/10/2026). **Pas le CERIN** : financé par la filière laitière, retiré du corpus le 08/09/2026.
 - **Les institutions françaises d'abord, une étude étrangère quand il n'y a rien en France ⭐⭐ — arrêté le 28 septembre 2026.** Décision de Laura, qui remplace l'interdiction des sources étrangères : « ce n'est pas grave si ce sont des sources étrangères, quand il n'y a pas de sources française, le principal c'est la validité de l'étude. […] Les études libres d'usage, c'est ce qui donnera de la crédibilité à nos propos. » Donc :
   1. **On cherche d'abord en France** (liste ci-dessus). Une recommandation française existante gagne toujours contre une étude étrangère.
   2. **À défaut, une étude ou une recommandation étrangère est citable**, à condition qu'elle soit **identifiable et vérifiée** : auteurs, année, revue ou institution. Une étude de référence, une revue à comité de lecture, une société savante ou une association professionnelle. Jamais un blog, jamais un cabinet privé, jamais un compte de réseau social.
@@ -1484,3 +1484,10 @@ Ne pas écrire « conditionnement » (évoque le dressage). On écrit **créer /
 
 ## Chaque source citée est vérifiée
 Avant d'écrire une source dans une ligne `source`, la retrouver en ligne (PubMed, éditeur, DOI) : auteurs, revue, année, volume/pages exacts, et que l'article dit bien ce qu'on lui fait dire (public concerné : adultes, animaux, bébés). Jamais de référence de mémoire. Si la source ne porte pas sur les bébés, le dire (« principe général… ») et ne pas extrapoler. Si on ne la retrouve pas : ne pas la citer, marquer « à vérifier » ou retirer l'affirmation.
+
+## Formulations à éviter (30/10)
+- « Il ne le fait pas exprès » : trop répété, retiré. Dire plutôt « il ne peut pas faire autrement », « il dépend de toi », « c'est un besoin ».
+- « Nid naturel » : une fois par catégorie au plus. Varier (refuge, premier abri…).
+- « 21 jours pour une habitude » : mythe, ne pas l'écrire (Lally 2010 : 66 jours en moyenne chez l'adulte, de 18 à 254). Dire « plusieurs semaines de répétition ».
+- Causes médicales du sommeil (RGO, APLV, frein, respiration) : toujours avec symptômes observables, qui consulter, et source vérifiée (HAS, Santé.fr, sociétés savantes).
+- Pleurs du soir : ne pas les attribuer au reflux (HAS 2024).

@@ -1,6 +1,6 @@
 ## 7 · Mon rituel
 
-### Un rituel qui se stabilise
+### Un rituel bien en place
 
 #### Mêmes gestes, même ordre
 Ton rituel du soir est maintenant bien installé : **les mêmes gestes, les mêmes mots, dans le même ordre**. Il dure environ une heure, et se termine par les 15 dernières minutes où son cerveau se met en état de dormir, sans nouvelle activité. C'est sa régularité, et non sa richesse, qui compte. Il commence quand ses signaux de fatigue te le disent, pas à l'heure pile. Pendant le passage à une seule sieste, ou si le coucher s'éternise, il peut être raccourci : un rituel court et identique fait le même effet. Choisis un geste dans chacun des quatre besoins de ton enfant, et construis le tien.

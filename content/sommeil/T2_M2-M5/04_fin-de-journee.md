@@ -1,6 +1,6 @@
 ## 4 · FIN DE JOURNÉE
 
-### Ce qui se passe en fin de journée
+### La redescente du soir
 
 #### La redescente commence dès la fin d'après-midi
 Ton bébé a vu, entendu, senti beaucoup de choses depuis ce matin. Pour s'endormir, il a besoin de **redescendre** : plus la journée a été riche, plus ce moment compte. Dès la fin d'après-midi, tu peux baisser peu à peu le rythme : moins d'activité, moins de monde, des gestes plus lents.

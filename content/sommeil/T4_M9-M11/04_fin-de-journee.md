@@ -1,6 +1,6 @@
 ## 4 · FIN DE JOURNÉE
 
-### Ce qui se passe en fin de journée
+### La redescente du soir
 
 #### La redescente
 Après une journée à se hisser, avancer le long des meubles, tout explorer, **son corps a besoin de redescendre avant la nuit.** Dès la fin d'après-midi, son cortisol redescend et sa mélatonine commence à monter¹ : c'est un bon moment pour baisser les lumières et le rythme. Garde les jeux qui excitent, chatouilles, courses, lancers de balle, pour plus tôt, et passe le dernier moment de la journée à des jeux calmes : livres, transvasements, câlins.
