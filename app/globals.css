@@ -29,6 +29,18 @@ body {
 /* Pages centrées de haut en bas (Guide-moi page 1, Prendre soin), 29/10.
    Le <main> du layout devient une colonne flexible seulement sur ces pages,
    pour que la page occupe toute la hauteur disponible et que le centrage fonctionne. */
+/* Vivre la saison (01/11) : le fond de la saison couvre tout le <main>,
+   du haut de l'écran jusqu'à la barre du bas. La page reprend le padding. */
+main:has(> .page-saison) {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.page-saison {
+  flex: 1;
+  padding: 1.5rem 1.25rem 1rem;
+}
+
 main:has(> .centre-vertical) {
   display: flex;
   flex-direction: column;

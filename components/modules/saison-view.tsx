@@ -1,250 +1,189 @@
-import type { SaisonVersion } from "@/lib/content";
+import type React from "react";
+import type { SaisonKey, SaisonVersion } from "@/lib/content";
 
-function ListSection({
-  title,
-  items,
-}: {
-  title: string;
-  items?: string[];
-}) {
-  if (!items || items.length === 0) return null;
+// ----------------------------------------------------------------------------
+// Vivre la saison : design du 01/11 (Laura).
+// - Même typographie et mêmes tailles que Sommeil, S.O.S et Guide-moi :
+//   titre Playfair 21, sous-titre en capitales 9 px, titres de cartes 12 px
+//   gras, textes 11 px (interligne 1,55).
+// - Fond de page propre à la saison, clair et pastel, tiré d'une couleur
+//   existante de l'app (version éclaircie en OKLCH : clarté 0,955, intensité
+//   x 0,75, teinte inchangée) :
+//     hiver     ← bleu du slot 3 de Sommeil      #CEE4E8 (journee-et-siestes)
+//     printemps ← vert du slot 1 de Sommeil      #DCDDBB (reperes-cles)
+//     été       ← jaune du slot 1 de S.O.S       #FBE8C0
+//     automne   ← terracotta du slot 1 Guide-moi #F0B8A8
+// - Cadres de texte en blanc transparent posés sur ce fond.
+// Les couleurs couleur_theme / couleur_accent / emoji du JSON ne sont plus
+// utilisées : la page prend la gamme de la saison.
+// ----------------------------------------------------------------------------
+
+const PLAYFAIR = "var(--font-playfair), Georgia, serif";
+const TEXT = "#3A3228";
+export const CADRE_BLANC = "rgba(255,255,255,.6)";
+
+export type SaisonTon = {
+  /** Fond de toute la page (pastel). */
+  fond: string;
+  /** Sous-titre, intitulés de section (teinte foncée de la saison). */
+  label: string;
+  /** Pastilles numérotées et picto (teinte moyenne). */
+  accent: string;
+};
+
+export const SAISON_TONS: Record<SaisonKey, SaisonTon> = {
+  hiver: { fond: "#E3F4F7", label: "#2E5D65", accent: "#86ADB4" },
+  printemps: { fond: "#F2F2D9", label: "#5A5910", accent: "#A9A96C" },
+  ete: { fond: "#FDEFD1", label: "#6C5105", accent: "#C1A056" },
+  automne: { fond: "#FFE5D8", label: "#7F4130", accent: "#E7876C" },
+};
+
+// Pictos traits simples (style des slots Sommeil), un par saison.
+const PICTO: Record<SaisonKey, React.ReactNode> = {
+  hiver: (
+    <>
+      <path d="M12 3v18M4.2 7.5l15.6 9M4.2 16.5l15.6-9" />
+      <path d="M9.8 4.6L12 6.5l2.2-1.9M9.8 19.4L12 17.5l2.2 1.9" />
+    </>
+  ),
+  printemps: (
+    <>
+      <path d="M12 21v-9" />
+      <path d="M12 12c0-4 3-6.5 7-6.5 0 4-3 6.5-7 6.5z" />
+      <path d="M12 15c0-3-2.5-5.2-6-5.2 0 3 2.5 5.2 6 5.2z" />
+    </>
+  ),
+  ete: (
+    <>
+      <circle cx="12" cy="12" r="3.6" />
+      {Array.from({ length: 8 }, (_, i) => {
+        const a = (i * Math.PI) / 4;
+        return (
+          <line key={i} x1={12 + 6.5 * Math.cos(a)} y1={12 + 6.5 * Math.sin(a)} x2={12 + 9 * Math.cos(a)} y2={12 + 9 * Math.sin(a)} />
+        );
+      })}
+    </>
+  ),
+  automne: (
+    <>
+      <path d="M5 19C5 10.5 10.5 5 19.5 4.5 19 13.5 13.5 19 5 19z" />
+      <path d="M5 19l8.5-8.5" />
+    </>
+  ),
+};
+
+export function SaisonPicto({ saison }: { saison: SaisonKey }) {
   return (
-    <section className="space-y-2">
-      <h3 className="text-xs font-semibold uppercase tracking-wide text-neutral-500">
-        {title}
-      </h3>
-      <ul className="space-y-1.5 text-sm leading-relaxed text-neutral-800">
-        {items.map((it, i) => (
-          <li key={i} className="flex gap-2">
-            <span aria-hidden className="text-neutral-400">·</span>
-            <span>{it}</span>
-          </li>
-        ))}
-      </ul>
-    </section>
+    <svg
+      width={36}
+      height={36}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke={SAISON_TONS[saison].label}
+      strokeWidth={1.4}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden
+      style={{ display: "block", margin: "0 auto" }}
+    >
+      {PICTO[saison]}
+    </svg>
   );
 }
 
-export function SaisonView({ version }: { version: SaisonVersion }) {
-  const fond = version.couleur_theme ?? "#F5F5F4";
-  const accent = version.couleur_accent ?? "#525252";
+const labelStyle: React.CSSProperties = {
+  fontSize: 9,
+  fontWeight: 700,
+  textTransform: "uppercase",
+  letterSpacing: ".07em",
+};
+
+export function SaisonEntete({
+  saison,
+  sousTitre,
+}: {
+  saison: SaisonKey;
+  sousTitre: string;
+}) {
+  const ton = SAISON_TONS[saison];
+  return (
+    <header style={{ textAlign: "center", marginBottom: 16 }}>
+      <SaisonPicto saison={saison} />
+      <h1
+        style={{
+          fontFamily: PLAYFAIR,
+          fontSize: 21,
+          fontWeight: 600,
+          color: TEXT,
+          lineHeight: 1.2,
+          margin: "6px 0 5px",
+          textWrap: "balance",
+        }}
+      >
+        Vivre la saison
+      </h1>
+      <div style={{ ...labelStyle, color: ton.label, letterSpacing: ".15em" }}>{sousTitre}</div>
+    </header>
+  );
+}
+
+const cadre: React.CSSProperties = {
+  background: CADRE_BLANC,
+  borderRadius: 12,
+  padding: "11px 13px",
+  marginBottom: 8,
+};
+
+export function SaisonView({ version, saison }: { version: SaisonVersion; saison: SaisonKey }) {
+  const ton = SAISON_TONS[saison];
+  const idees = version.idees_du_moment ?? [];
 
   return (
-    <article className="space-y-6">
-      <header
-        className="space-y-2 rounded-3xl p-6"
-        style={{ backgroundColor: fond, color: accent }}
-      >
-        <p className="text-4xl" aria-hidden>
-          {version.emoji}
-        </p>
-        {version.titre ? (
-          <h2 className="text-2xl font-semibold leading-tight">
-            {version.titre}
-          </h2>
-        ) : null}
-        {version.ambiance ? (
-          <p className="text-sm font-medium">{version.ambiance}</p>
-        ) : null}
-        {version.ancrage ? (
-          <p className="mt-3 text-sm leading-relaxed">{version.ancrage}</p>
-        ) : null}
-      </header>
-
-      {/* Nouveau schéma : à savoir cette saison */}
-      {version.a_savoir_cette_saison ? (
-        <section className="space-y-2">
-          <h3 className="text-xs font-semibold uppercase tracking-wide text-neutral-500">
-            À savoir cette saison
-          </h3>
-          <p className="rounded-2xl bg-neutral-50 p-4 text-sm leading-relaxed text-neutral-800">
-            {version.a_savoir_cette_saison}
+    <article>
+      {version.ambiance ? (
+        <div style={cadre}>
+          <p style={{ fontSize: 11, fontStyle: "italic", color: TEXT, lineHeight: 1.55, margin: 0 }}>
+            {version.ambiance}
           </p>
-        </section>
+        </div>
       ) : null}
 
-      {/* Nouveau schéma : idées du moment */}
-      {version.idees_du_moment && version.idees_du_moment.length > 0 ? (
-        <section className="space-y-3">
-          <h3 className="text-xs font-semibold uppercase tracking-wide text-neutral-500">
-            Idées du moment
-          </h3>
-          <ul className="space-y-3">
-            {version.idees_du_moment.map((idee, i) => (
-              <li
-                key={i}
-                className="space-y-2 rounded-2xl border border-neutral-200 p-4"
-              >
-                <p className="font-medium leading-tight text-neutral-900">
-                  {idee.titre}
-                </p>
-                {/* Nouveau schéma : un seul champ "texte" */}
-                {idee.texte ? (
-                  <p className="text-sm leading-relaxed text-neutral-700">
-                    {idee.texte}
-                  </p>
-                ) : null}
-                {/* Fallback anciens champs */}
-                {!idee.texte && idee.ce_que_ca_apporte ? (
-                  <p className="text-sm leading-relaxed text-neutral-700">
-                    <span className="font-medium">Ce que ça apporte&nbsp;:</span>{" "}
-                    {idee.ce_que_ca_apporte}
-                  </p>
-                ) : null}
-                {!idee.texte && idee.comment ? (
-                  <p className="text-sm italic leading-relaxed text-neutral-600">
-                    <span className="font-medium not-italic">Comment&nbsp;:</span>{" "}
-                    {idee.comment}
-                  </p>
-                ) : null}
-              </li>
-            ))}
-          </ul>
-        </section>
-      ) : null}
-
-      {version.principes && version.principes.length > 0 ? (
-        <section className="space-y-2">
-          <h3 className="text-xs font-semibold uppercase tracking-wide text-neutral-500">
-            Principes du mois
-          </h3>
-          <ul className="space-y-2 text-sm leading-relaxed text-neutral-800">
-            {version.principes.map((p, i) => (
-              <li key={i} className="rounded-xl border border-neutral-200 p-3">
-                {p}
-              </li>
-            ))}
-          </ul>
-        </section>
-      ) : null}
-
-      {version.habillage ? (
-        <section className="space-y-3">
-          <h3 className="text-sm font-semibold uppercase tracking-wide text-neutral-500">
-            Habillage
-          </h3>
-          {version.habillage.principe ? (
-            <p className="rounded-xl bg-neutral-50 p-3 text-sm italic leading-relaxed text-neutral-700">
-              {version.habillage.principe}
-            </p>
-          ) : null}
-          {version.habillage.guide_temperature &&
-          version.habillage.guide_temperature.length > 0 ? (
-            <ul className="space-y-2">
-              {version.habillage.guide_temperature.map((t, i) => (
-                <li
-                  key={i}
-                  className="rounded-xl border border-neutral-200 p-3"
+      {idees.length > 0 ? (
+        <>
+          <div style={{ ...labelStyle, color: ton.label, margin: "14px 0 7px" }}>Idées du moment</div>
+          {idees.map((idee, i) => (
+            <div key={i} style={cadre}>
+              <div style={{ display: "flex", gap: 9, alignItems: "flex-start" }}>
+                <span
+                  style={{
+                    width: 19,
+                    height: 19,
+                    borderRadius: "50%",
+                    fontSize: 10,
+                    fontWeight: 700,
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    flexShrink: 0,
+                    marginTop: 1,
+                    background: ton.accent,
+                    color: "#FFFFFF",
+                  }}
                 >
-                  <p
-                    className="text-xs font-semibold uppercase tracking-wide"
-                    style={{ color: accent }}
-                  >
-                    {t.temperature}
-                  </p>
-                  <p className="mt-1 text-sm leading-relaxed text-neutral-800">
-                    {t.tenue}
-                  </p>
-                </li>
-              ))}
-            </ul>
-          ) : null}
-        </section>
-      ) : null}
-
-      {version.sorties ? (
-        <section className="space-y-3">
-          <h3 className="text-sm font-semibold uppercase tracking-wide text-neutral-500">
-            Sorties
-          </h3>
-          {version.sorties.frequence_conseillee ? (
-            <p className="rounded-xl bg-neutral-50 p-3 text-sm text-neutral-700">
-              <strong>Fréquence :</strong>{" "}
-              {version.sorties.frequence_conseillee}
-            </p>
-          ) : null}
-          <ListSection
-            title="Moments idéaux"
-            items={version.sorties.moments_ideaux}
-          />
-          <ListSection
-            title="Lieux recommandés"
-            items={version.sorties.lieux_recommandes}
-          />
-          <ListSection
-            title="Équipement"
-            items={version.sorties.equipement}
-          />
-        </section>
-      ) : null}
-
-      {version.diversification_de_saison ? (
-        <section className="space-y-3 rounded-2xl bg-lime-50 p-5">
-          <h3 className="text-sm font-semibold uppercase tracking-wide text-lime-900">
-            {version.diversification_de_saison.titre ?? "Diversification"}
-          </h3>
-          {version.diversification_de_saison.intro ? (
-            <p className="text-sm leading-relaxed text-lime-950">
-              {version.diversification_de_saison.intro}
-            </p>
-          ) : null}
-          <ListSection
-            title="Légumes prioritaires"
-            items={version.diversification_de_saison.legumes_prioritaires}
-          />
-          <ListSection
-            title="Fruits prioritaires"
-            items={version.diversification_de_saison.fruits_prioritaires}
-          />
-          {version.diversification_de_saison.vigilance_allergies ? (
-            <p className="rounded-xl bg-white p-3 text-xs italic leading-relaxed text-lime-900">
-              ⚠ {version.diversification_de_saison.vigilance_allergies}
-            </p>
-          ) : null}
-        </section>
-      ) : null}
-
-      {version.particularites_sante ? (
-        <section className="space-y-3">
-          <h3 className="text-sm font-semibold uppercase tracking-wide text-neutral-500">
-            Santé du mois
-          </h3>
-          <ListSection
-            title="Points de vigilance"
-            items={version.particularites_sante.vigilance as string[] | undefined}
-          />
-          <ListSection
-            title="Signes pour consulter"
-            items={
-              version.particularites_sante.signes_consultation as
-                | string[]
-                | undefined
-            }
-          />
-          {version.particularites_sante.vitamine_d ? (
-            <p className="rounded-xl bg-yellow-50 p-3 text-sm leading-relaxed text-yellow-900">
-              <strong>Vitamine D :</strong>{" "}
-              {String(version.particularites_sante.vitamine_d)}
-            </p>
-          ) : null}
-        </section>
-      ) : null}
-
-      {version.alimentation_maman ? (
-        <section className="space-y-2 rounded-2xl bg-rose-50 p-5">
-          <h3 className="text-xs font-semibold uppercase tracking-wide text-rose-900">
-            {version.alimentation_maman.titre ??
-              "Soutenir le post-partum cette saison"}
-          </h3>
-          <ul className="space-y-1.5 text-sm leading-relaxed text-rose-950">
-            {(version.alimentation_maman.elements ?? []).map((e, i) => (
-              <li key={i} className="flex gap-2">
-                <span aria-hidden>·</span>
-                <span>{e}</span>
-              </li>
-            ))}
-          </ul>
-        </section>
+                  {i + 1}
+                </span>
+                <span style={{ flex: 1, fontSize: 12, fontWeight: 700, color: TEXT, lineHeight: 1.3 }}>
+                  {idee.titre}
+                </span>
+              </div>
+              {idee.texte ?? idee.ce_que_ca_apporte ? (
+                <p style={{ fontSize: 11, color: TEXT, lineHeight: 1.55, margin: "9px 0 0" }}>
+                  {idee.texte ?? idee.ce_que_ca_apporte}
+                </p>
+              ) : null}
+            </div>
+          ))}
+        </>
       ) : null}
     </article>
   );

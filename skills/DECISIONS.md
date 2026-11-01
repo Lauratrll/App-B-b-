@@ -760,3 +760,13 @@ Phrase à déconstruire : porter son bébé est bon, ce n'est pas une mauvaise h
 
 - 30/10 : « maternage proximal » = terme lié aux « 9 mois dans le ventre, 9 mois sur le ventre » : on l'emploie jusqu'à M8 seulement. À partir de M9, on parle de co-régulation, contenance, réassurance, tendresse, réservoir affectif de bébé (selon le contexte). Ces principes existent aussi avant M9.
 - 30/10 : « nid naturel » lié aux 9 mois comme « maternage proximal » : on l'emploie jusqu'à M8 ; à partir de M9, on dit « refuge », contenance, tendresse, réservoir affectif.
+
+## 01/11/2026 : Vivre la saison, nouveau design de page
+
+- ✅ (01/11) **Vivre la saison : nouveau design** (demande de Laura ; captures des 4 saisons à valider avant commit).
+  - **Titre « Vivre la saison »**, sous-titre **« [thème du mois] en/au [saison] »** : « Le Découvreur en automne », « L'Attentif au printemps ». « au printemps », mais « en hiver », « en été », « en automne ». Le thème est pris tel qu'il est stocké dans le sous-titre Saison de chaque mois (« Mois 4 : Le Découvreur · … »), avec son article et son élision.
+  - **Même typographie et mêmes tailles** que Sommeil, S.O.S et Guide-moi : titre Playfair 21, sous-titre en capitales 9 px, titres de cartes 12 px gras, textes 11 px.
+  - **Fond de page coloré selon la saison**, clair et pastel, tiré de couleurs déjà dans l'app : hiver `#E3F4F7` (bleu du slot 3 de Sommeil `#CEE4E8`), printemps `#F2F2D9` (vert du slot 1 de Sommeil `#DCDDBB`), été `#FDEFD1` (jaune du slot 1 de S.O.S `#FBE8C0`), automne `#FFE5D8` (terracotta du slot 1 de Guide-moi `#F0B8A8`). Seule page de l'app qui ne soit pas sur le fond Cream.
+  - **Cadres de texte en blanc transparent** (`rgba(255,255,255,.6)`) : l'intro (ambiance, en italique) puis les 2 idées du moment, numérotées.
+  - Un picto trait par saison (flocon, pousse, soleil, feuille). Les couleurs et l'emoji propres à chaque version du JSON ne sont plus affichés.
+  - Code : `app/(app)/saison/page.tsx`, `components/modules/saison-view.tsx` (gamme `SAISON_TONS`), `app/globals.css` (`.page-saison`). Détail : `SKILL_ui.md`, « Vivre la saison ». Sauvegarde : `_sauvegardes/2026-11-01/saison_design/`.

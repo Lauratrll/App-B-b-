@@ -1,56 +1,52 @@
 import { getCurrentSeason, requireProfile } from "@/lib/auth";
 import { getBabyMonth } from "@/lib/utils";
 import { getSaisonMeta, getSaisonVersion, type SaisonKey } from "@/lib/content";
-import { SaisonView } from "@/components/modules/saison-view";
+import { CADRE_BLANC, SAISON_TONS, SaisonEntete, SaisonView } from "@/components/modules/saison-view";
 
-const SAISON_LABELS: Record<SaisonKey, string> = {
-  printemps: "Printemps",
-  ete: "Été",
-  automne: "Automne",
-  hiver: "Hiver",
+// « en hiver », « en été », « en automne », mais « au printemps » (Laura, 01/11).
+const EN_SAISON: Record<SaisonKey, string> = {
+  printemps: "au printemps",
+  ete: "en été",
+  automne: "en automne",
+  hiver: "en hiver",
 };
+
+// Thème du mois tel qu'il est stocké dans le sous-titre Saison de chaque mois :
+// « Mois 4 : Le Découvreur · Vivre la saison ensemble » → « Le Découvreur ».
+function themeDuMois(sousTitre?: string): string | null {
+  const m = /^Mois\s*\d+\s*:\s*(.+?)\s*·/.exec(sousTitre ?? "");
+  return m ? m[1] : null;
+}
 
 // Une seule saison affichée, sans sélecteur (Laura, 26-27/10) : la saison du
 // moment pour les parents ; pour un admin, celle choisie dans le bandeau
 // d'aperçu en haut de l'app (getCurrentSeason).
+// Design du 01/11 : fond pastel de la saison sur toute la page (classe
+// page-saison, voir globals.css), cadres blancs transparents.
 export default async function SaisonPage() {
   const [{ profile }, saison] = await Promise.all([
     requireProfile(),
     getCurrentSeason(),
   ]);
   const mois = getBabyMonth(new Date(profile.birthdate));
-  const saisonLabel = SAISON_LABELS[saison];
 
-  const meta = await getSaisonMeta(mois);
-  const version = await getSaisonVersion(mois, saison);
-
-  if (!meta || !version) {
-    return (
-      <section className="space-y-5">
-        <header className="space-y-1">
-          <p className="text-2xl" aria-hidden>🌿</p>
-          <h1 className="text-2xl font-semibold">Vivre la saison&nbsp;: {saisonLabel}</h1>
-        </header>
-        <p className="rounded-xl bg-amber-50 p-4 text-sm text-amber-900">
-          Le conseil de saison du mois {mois} n&apos;est pas encore disponible.
-        </p>
-      </section>
-    );
-  }
+  const [meta, version] = await Promise.all([
+    getSaisonMeta(mois),
+    getSaisonVersion(mois, saison),
+  ]);
+  const theme = themeDuMois(meta?.sous_titre);
+  const sousTitre = theme ? `${theme} ${EN_SAISON[saison]}` : EN_SAISON[saison];
 
   return (
-    <section className="space-y-5">
-      <header className="space-y-1">
-        <p className="text-2xl" aria-hidden>🌿</p>
-        <h1 className="text-2xl font-semibold leading-tight">
-          Vivre la saison&nbsp;: {saisonLabel}
-        </h1>
-        {meta.sous_titre ? (
-          <p className="text-sm text-neutral-600">{meta.sous_titre}</p>
-        ) : null}
-      </header>
-
-      <SaisonView version={version} />
+    <section className="page-saison" style={{ background: SAISON_TONS[saison].fond }}>
+      <SaisonEntete saison={saison} sousTitre={sousTitre} />
+      {meta && version ? (
+        <SaisonView version={version} saison={saison} />
+      ) : (
+        <p style={{ background: CADRE_BLANC, borderRadius: 12, padding: "11px 13px", fontSize: 11, lineHeight: 1.55 }}>
+          Le conseil de saison du mois {mois} n&apos;est pas encore disponible.
+        </p>
+      )}
     </section>
   );
 }

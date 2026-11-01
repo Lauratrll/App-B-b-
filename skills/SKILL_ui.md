@@ -87,7 +87,7 @@
 | 🧭 Guide-moi ! | `#EDE0D4` | `#C89878` |
 | 🌙 Préparer le coucher | `#E8F0F2` | `#8A9E98` |
 | 🌸 Prendre soin de moi | `#F5D0C8` | `#D4604A` |
-| 🌿 Conseil de saison | `#D4E0DC` | `#8A9E98` |
+| 🌿 Vivre la saison | fond selon la saison (voir « Vivre la saison ») | cadres blanc transparent |
 | 🆘 S.O.S Dois-je consulter ? | `#FFE3CD` | jaune `#FFCD67` · orange `#FFC18F` · sanguine `#FFBAA5` (cf. sos-design.tsx) |
 | 🎯 Jeux & stimulation | `#EDE0D4` | `#C89878` |
 
@@ -477,6 +477,17 @@ Navigation fixe (4 entrées, dont 2 boutons ronds — voir ci-dessus)
 S.O.S n'est plus une case de l'accueil : son entrée est le bouton rond de la barre du bas.
 
 **Vivre la saison (26/10, revu le 27/10)** : une seule saison affichée, sans sélecteur sur la page. Parents : la saison du moment. Admins : la saison choisie dans le bandeau « Aperçu admin » (mois · genre · saison). Les visuels de la page restent à travailler.
+
+**Design de la page (01/11, Laura)** : titre « Vivre la saison » ; sous-titre en capitales « [thème du mois] en/au [saison] » (« au printemps », « en hiver / été / automne » ; thème lu dans le `sous_titre` Saison du mois, tel quel). Typo et tailles de Sommeil, S.O.S, Guide-moi (titre Playfair 21, sous-titre 9 px capitales, titres de cartes 12 px gras, textes 11 px). **Fond de toute la page selon la saison** (exception au fond Cream) et cadres en blanc transparent `rgba(255,255,255,.6)` :
+
+| Saison | Fond de page | Tiré de | Intitulés | Pastilles |
+|---|---|---|---|---|
+| Hiver | `#E3F4F7` | slot 3 Sommeil `#CEE4E8` | `#2E5D65` | `#86ADB4` |
+| Printemps | `#F2F2D9` | slot 1 Sommeil `#DCDDBB` | `#5A5910` | `#A9A96C` |
+| Été | `#FDEFD1` | slot 1 S.O.S `#FBE8C0` | `#6C5105` | `#C1A056` |
+| Automne | `#FFE5D8` | slot 1 Guide-moi `#F0B8A8` | `#7F4130` | `#E7876C` |
+
+Fonds pastel obtenus en OKLCH (clarté 0,955, intensité × 0,75, teinte inchangée). Code : `components/modules/saison-view.tsx` (`SAISON_TONS`).
 
 ---
 
