@@ -795,3 +795,7 @@ Phrase à déconstruire : porter son bébé est bon, ce n'est pas une mauvaise h
 - Respiration (à partir de 3 mois) : les 7 signes du carnet et la section « symptômes de bronchiolite » (même signaux : toux, sifflement, essoufflement) passent dans le niveau urgence. Le niveau « rapidement » ne garde que le rhume qui dure.
 - Fièvre : item « convulsions fébriles » retiré (la phrase « il ne faut pas s'affoler inutilement » minimise ; classé « dans la journée » par ameli, contraire à notre garde-fou).
 - mpedia « (absence d'urines ou léthargie) » : abandonné.
+
+## 02/11/2026 — Mise en ligne des corrections du 01/11
+- (Laura) **Les contenus `content/coucher/` ne sont plus affichés dans l'app** : ils sont réintroduits dans la structure Sommeil. On ne les importe plus dans Supabase.
+- Guide-moi et Vivre la saison publiés dans Supabase **en place** avec `node scripts/maj-textes-en-place.mjs` (simulation par défaut, `--ecrire` pour écrire) : seul le texte des lignes existantes change, rien n'est supprimé, les épingles des parents restent. 118 lignes mises à jour (guide 24, saison 96). Les changements de structure (carte ajoutée ou retirée) passent toujours par les scripts d'import.

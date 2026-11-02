@@ -18,6 +18,7 @@ import { config } from "dotenv";
 import { createClient } from "@supabase/supabase-js";
 import { readFileSync, readdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
+import { pathToFileURL } from "node:url";
 import {
   GUIDE_CAT_FILE_RE,
   decomposeGuideCategories,
@@ -45,7 +46,7 @@ const CONTENT_DIR = join(process.cwd(), "content");
 
 // ----- Décomposeurs par module --------------------------------------------
 
-function decomposeGuide(json, mois) {
+export function decomposeGuide(json, mois) {
   const rows = [];
   const { protocoles, categories, ...rest } = json;
 
@@ -157,7 +158,7 @@ function decomposeSoin(json, mois) {
   return rows;
 }
 
-function decomposeSaison(json, mois) {
+export function decomposeSaison(json, mois) {
   const rows = [];
   const { versions, ...meta } = json;
   rows.push({
@@ -549,7 +550,11 @@ async function main() {
   }
 }
 
-main().catch((err) => {
-  console.error("Erreur fatale :", err);
-  process.exit(1);
-});
+// Lancé directement (npm run import-content) : on importe. Importé par un autre
+// script (maj-textes-en-place.mjs) : on ne fait que prêter les décomposeurs.
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((err) => {
+    console.error("Erreur fatale :", err);
+    process.exit(1);
+  });
+}
