@@ -47,7 +47,7 @@ D'un bébé à l'autre, cela varie². **Le nombre baisse peu à peu, sans que tu
 - Le soir, arrive-t-il plus agité que calme ?
 
 #### La sieste de 45 minutes
-Une sieste de 45 minutes s'arrête souvent quand un cycle se termine, au moment où il remonte près de la surface. **Avant de conclure qu'il est réveillé, regarde** : s'il bouge, grimace, ouvre un œil sans interagir avec toi, il dort peut-être encore, en sommeil agité. **Un micro-réveil entre deux cycles est normal.** Si ton bébé est calme, laisse-lui l'occasion de retomber dans le sommeil, sans te précipiter : il peut repartir pour un cycle. Et si la sieste s'arrête là, **elle n'est pas ratée** : dès l'âge de 3 mois environ, un petit somme aide à retenir ce qu'il vient de découvrir³.
+Une sieste de 45 minutes s'arrête souvent quand un cycle se termine, au moment du micro-réveil, quand il remonte à la surface. **Avant de conclure qu'il est réveillé, regarde** : s'il bouge, grimace, ouvre un œil sans interagir avec toi, il dort peut-être encore, en sommeil agité. **Un micro-réveil entre deux cycles est normal.** Si ton bébé est calme, laisse-lui l'occasion de retomber dans le sommeil, sans te précipiter : il peut repartir pour un cycle. Et si la sieste s'arrête là, **elle n'est pas ratée** : dès l'âge de 3 mois environ, un petit somme aide à retenir ce qu'il vient de découvrir³.
 
 #### Réveiller en douceur
 S'il faut le réveiller, pour un départ le matin ou une sieste qui s'étire tard dans la journée, tu peux le faire **en douceur**. **Ouvre la porte, laisse entrer la lumière et les bruits de la maison, parle doucement à côté** : il sortira du sommeil quand il sera prêt, sans être réveillé en plein milieu d'un sommeil calme.

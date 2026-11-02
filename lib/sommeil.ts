@@ -120,11 +120,11 @@ function filtrerMois(parties: SommeilPartie[], mois: number): SommeilPartie[] {
     if (pt.id === "comprendre-son-sommeil") {
       return {
         ...pt,
-        sections: pt.sections.map((s) =>
-          s.id === "ce-qu-il-se-passe"
-            ? { ...s, volets: s.volets.filter((v) => duMois(v.titre, mois)) }
-            : s,
-        ),
+        sections: pt.sections.map((s) => ({
+          ...s,
+          // un volet « M3 · … » ne s'affiche que ce mois-là (intros du mois, « M0 · Si les pensées noires… »)
+          volets: s.volets.filter((v) => !/^M\d+(?![0-9])/.test((v.titre ?? "").trim()) || duMois(v.titre, mois)),
+        })),
       };
     }
     if (pt.id === "theme-du-mois") {

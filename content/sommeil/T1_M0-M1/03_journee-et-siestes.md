@@ -34,7 +34,7 @@ C'est le moment de lui proposer de dormir, avant les pleurs. **Regarde ton béb�
 À cet âge, **on ne compte pas les siestes** : il dort quand il a sommeil, à toute heure, et c'est normal. Ce qui compte, c'est de lui laisser le temps de dormir quand l'éveil calme se termine. Pour ses sommeils de la journée, **laisse la lumière du jour et les bruits de la maison** : une petite pénombre suffit. Il apprend ainsi, tout doucement, que le jour n'est pas la nuit.
 
 #### La sieste de 45 minutes
-Une sieste de 45 minutes s'arrête souvent quand un cycle se termine, au moment où il remonte près de la surface. **Avant de conclure qu'il est réveillé, regarde** : s'il bouge, grimace, ouvre un œil sans interagir avec toi, il dort peut-être encore, en sommeil agité. Laisse-lui quelques instants. Et si la sieste s'arrête là, **elle n'est pas ratée**.
+Une sieste de 45 minutes s'arrête souvent quand un cycle se termine, au moment du micro-réveil, quand il remonte à la surface. **Avant de conclure qu'il est réveillé, regarde** : s'il bouge, grimace, ouvre un œil sans interagir avec toi, il dort peut-être encore, en sommeil agité. Laisse-lui quelques instants. Et si la sieste s'arrête là, **elle n'est pas ratée**.
 
 #### S'il dort beaucoup
 Certains bébés dorment longtemps, d'autres peu : **2 à 3 heures d'écart entre deux bébés du même âge sont normales**³. Mais **un bébé qui dort trop, qui ne se réveille pas pour manger ou qui est difficile à réveiller**, ce n'est pas normal : c'est une raison de consulter sans attendre². Les repères sur le nombre de tétées par jour te sont donnés par ta sage-femme ou ton médecin, et par la courbe de croissance du carnet de santé.

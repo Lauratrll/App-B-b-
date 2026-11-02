@@ -1017,6 +1017,7 @@ En typographie française, une **espace insécable** (caractère U+00A0, pas une
 - **Avant** les ponctuations doubles : `:` `;` `!` `?`
 - **Avant** le guillemet fermant : `»`
 - **Après** le guillemet ouvrant : `«`
+- **Entre le nombre et l'unité d'une température** : « 38,5 °C », « 19 °C », « 40 °C » (fièvre, chambre, bain, etc., partout dans l'app). Jamais « 38,5°C », « 38,5 °C » avec une espace normale ni « 38,5° C ». Décimale avec une virgule (« 38,5 », pas « 38.5 »). Règle du 01/11/2026 ; `qa_contenu.py` la contrôle (ERREUR).
 
 Exemples (l'espace figurée ici est en réalité un U+00A0) :
 - « Guide-moi ! » — « Et toi : comment tu te sens ? » — « Tu as le droit ; vraiment. »
@@ -1443,7 +1444,7 @@ Ne jamais livrer un contenu en laissant croire qu'il est parfaitement conforme q
 - [ ] **Le bébé est une personne dès sa naissance : jamais « il devient quelqu'un »**
 - [ ] Aucun terme médical non expliqué
 - [ ] « dépression post-partum » écrite en toutes lettres partout (aucun « DPP »)
-- [ ] Espaces insécables (U+00A0) présentes avant `: ; ! ?` et `»`, et après `«`
+- [ ] Espaces insécables (U+00A0) présentes avant `: ; ! ?` et `»`, et après `«`, et entre le nombre et `°C` (« 38,5 °C »)
 - [ ] Le tutoiement est systématique
 - [ ] Le cadre de sécurité est présent avec des critères objectifs
 - [ ] La longueur respecte les limites définies

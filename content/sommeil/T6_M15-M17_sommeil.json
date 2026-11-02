@@ -16,8 +16,8 @@
       "titre": "Comprendre son sommeil",
       "sections": [
         {
-          "id": "mois-par-mois",
-          "titre": "Mois par mois",
+          "id": "ce-qui-se-passe",
+          "titre": "Ce qui se passe",
           "chapeau": null,
           "volets": [
             {
@@ -25,7 +25,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "À 15 mois, le sommeil de ton enfant a presque pris l'organisation du tien. Ce qui bouge, c'est sa journée : la sieste du matin commence à se raccourcir ou à résister, et le passage à une seule sieste se prépare, parfois sur plusieurs semaines. Ce n'est pas une régression, c'est un rythme qui change. Ce mois-ci, ce qui l'aide, c'est que tu observes avant de toucher à quoi que ce soit."
+                  "texte": "À 15 mois, le sommeil de ton enfant a presque pris l'organisation du tien. Ce qui bouge, c'est sa journée : la sieste du matin commence à se raccourcir ou à résister, et le passage à une seule sieste se prépare, parfois sur plusieurs semaines. Ce n'est pas une régression, c'est un rythme qui change. Ce mois-ci, tu observes le passage à une seule sieste, qui peut prendre des semaines, et tu apprends à distinguer une terreur nocturne d'un cauchemar."
                 }
               ]
             },
@@ -43,18 +43,10 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "À 17 mois, beaucoup d'enfants traversent une nouvelle vague de réactions à la séparation : ils s'accrochent plus, protestent davantage au moment du départ ou du coucher. Il sait que tu pars, et il se demande si tu reviens. Ce n'est pas un recul, c'est une étape. Ce qui l'aide, ce sont des repères qui ne changent pas, et des mots simples pour nommer ton départ et ton retour."
+                  "texte": "À 17 mois, beaucoup d'enfants traversent une nouvelle vague de réactions à la séparation : ils s'accrochent plus, protestent davantage au moment du départ ou du coucher. Il sait que tu pars, et il se demande si tu reviens. Ce n'est pas un recul, c'est une étape. Ce qui l'aide, ce sont des repères qui ne changent pas, et des mots simples pour nommer ton départ et ton retour. Ce mois-ci, tu apprends à distinguer séparation, terreur nocturne et simple éveil."
                 }
               ]
-            }
-          ],
-          "sources": null
-        },
-        {
-          "id": "ce-que-tu-observes",
-          "titre": "Ce que tu observes",
-          "chapeau": null,
-          "volets": [
+            },
             {
               "titre": "Ce que tu vas peut-être voir",
               "blocs": [
@@ -95,7 +87,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Entre deux cycles, il remonte près de la surface plusieurs fois par nuit, comme toi, **le plus souvent sans que tu le saches.** Et il peut arriver, en début de nuit, qu'il se réveille **à moitié**, quand il sort du sommeil profond : c'est ce qu'on appelle une terreur nocturne³."
+                  "texte": "Entre deux cycles, il remonte à la surface avec un micro-réveil, plusieurs fois par nuit, comme toi, **le plus souvent sans que tu le saches.** Et il peut arriver, en début de nuit, qu'il se réveille **à moitié**, quand il sort du sommeil profond : c'est ce qu'on appelle une terreur nocturne³."
                 }
               ]
             }
@@ -156,7 +148,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Si ton enfant ne dort pas comme tu le voudrais, **il ne peut pas faire autrement**⁷. Il n'a ni caprice ni stratégie, et se mettre à ta place, il ne le saura que vers 4 ans. Quand il pleure ou se réveille, **il exprime un besoin**, même quand tu ne le trouves pas."
+                  "texte": "Si ton enfant ne dort pas comme tu le voudrais, **il ne peut pas faire autrement**⁷. Il n'a ni caprice ni stratégie, et se mettre à ta place, il ne le saura que vers 4 ans. Quand il pleure ou se réveille, **il exprime un besoin**, et il n'est pas toujours facile à deviner : tu n'as pas à tout comprendre du premier coup, tu cherches avec lui."
                 }
               ]
             },
@@ -172,14 +164,10 @@
                   "items": [
                     "**être nourri**, quand il a faim, sans attendre ;",
                     "**être au chaud**, ni trop ni pas assez couvert ;",
-                    "**être touché, contenu, porté** : neuf mois dans le ventre, neuf mois sur le ventre ;",
+                    "**être contenu, porté** : neuf mois dans le ventre, neuf mois sur le ventre. Même quand il marche, court et dit « non », **porter son enfant, c'est bon pour lui. Les bras de ses parents restent l'endroit où il vient puiser de la tendresse** : quand tu le rassures, tu l'aides à retrouver son calme (c'est la co-régulation), et tu remplis son réservoir affectif⁷. Plus il se sent en sécurité, plus il ose s'éloigner ;",
                     "**être entendu** : ta voix, ta présence, une réponse quand il appelle ;",
                     "**être rassuré** : savoir que tu es là, et que tu reviens quand tu sors."
                   ]
-                },
-                {
-                  "type": "p",
-                  "texte": "Même quand il marche, court et dit « non », **porter son enfant, c'est bon pour lui. Les bras de ses parents restent son refuge** : quand tu le rassures, tu l'aides à retrouver son calme (c'est la co-régulation), et tu remplis son réservoir affectif⁷. Plus il se sent en sécurité, plus il ose s'éloigner."
                 }
               ]
             },
@@ -672,7 +660,7 @@
                 },
                 {
                   "type": "p",
-                  "texte": "À la fin de chaque cycle, il remonte près de la surface, et si les conditions ont changé, il peut avoir des difficultés pour se rendormir¹. **À cet âge, c'est normal : rien n'est à corriger, tout est à accompagner.** Avec la vague de réactions à la séparation, ses repères lui disent que tu reviens. Tu peux continuer à varier, pour diversifier les conditions d'endormissement de ton enfant."
+                  "texte": "Entre chaque cycle, il remonte à la surface avec un micro-réveil, et si les conditions ont changé, il peut avoir des difficultés pour se rendormir¹. **À cet âge, c'est normal : rien n'est à corriger, tout est à accompagner.** Avec la vague de réactions à la séparation, ses repères lui disent que tu reviens. Tu peux continuer à varier, pour diversifier les conditions d'endormissement de ton enfant."
                 }
               ]
             },
@@ -703,7 +691,7 @@
                 },
                 {
                   "type": "p",
-                  "texte": "Contre toi, il retrouve la contenance, la chaleur et la voix qu'il connaît depuis toujours. **Les bras de ses parents sont son refuge.** En le portant, tu ne le rends pas dépendant : tu lui donnes la sécurité qui lui permet de s'éloigner de toi en confiance, et c'est ce que tu vois aujourd'hui, quand il part explorer et revient vers toi². Un enfant n'a ni calcul ni caprice : il exprime un besoin."
+                  "texte": "Contre toi, il retrouve la contenance, la chaleur et la voix qu'il connaît depuis toujours. **Tes bras sont l'endroit où il se sent en confiance.** En le portant, tu ne le rends pas dépendant : tu lui donnes la sécurité qui lui permet de s'éloigner de toi en confiance, et c'est ce que tu vois aujourd'hui, quand il part explorer et revient vers toi². Un enfant n'a ni calcul ni caprice : il exprime un besoin."
                 },
                 {
                   "type": "p",
@@ -733,7 +721,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Le contact, ta chaleur, ton rythme respiratoire : c'est la condition qu'il connaît le mieux, et elle reste son refuge même quand il court partout et dit « non » : un câlin assis près de son lit avant la pose compte beaucoup. Si tu as envie de varier : main sur son ventre, puis sur sa jambe, puis ta main près de lui sans le toucher."
+                  "texte": "Le contact, ta chaleur, ton rythme respiratoire : c'est la condition qu'il connaît le mieux, et elle reste l'endroit où il se sent bien même quand il court partout et dit « non » : un câlin assis près de son lit avant la pose compte beaucoup. Si tu as envie de varier : main sur son ventre, puis sur sa jambe, puis ta main près de lui sans le toucher."
                 }
               ]
             },
@@ -798,7 +786,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Mouvement, contact : le portage l'apaise, et les bras de ses parents sont toujours son refuge."
+                  "texte": "Mouvement, contact : le portage l'apaise, et les bras de ses parents sont toujours un câlin qui le rassure."
                 },
                 {
                   "type": "p",
@@ -925,7 +913,7 @@
           "sources": null
         }
       ],
-      "sources": "¹ Les conditions d'endormissement et les réveils entre deux cycles : American Academy of Sleep Medicine, *International Classification of Sleep Disorders* ; ² Les bras des parents, le refuge, la base de sécurité et la chambre comme lieu vivant : formation EDPP, *Pleurs et sommeil* ; Bowlby J., *Attachment and Loss*, 1969 ; Ainsworth M., 1978 ; ³ Pas de sommeil partagé sur un canapé ou dans un fauteuil : HAS, 2007 ; Blair P. S. et al., *BMJ*, 2009 ; ⁴ Tétine au coucher, sans forcer, jamais attachée : ameli.fr, 2024 ; ⁵ Rien dans le lit la première année : HAS, 2007 ; ⁶ Créer de nouvelles connexions par l'expérience, préparer le cerveau à d'autres conditions d'endormissement, poser un bébé en sommeil agité, créer une nouvelle habitude (au moins 3 semaines de répétition) : formation EDPP, *Pleurs et sommeil* ; ⁷ La présence mesurée, étape par étape, et redescendre d'un cran quand ça fonctionne : formation EDPP, *Pleurs et sommeil* (d'après la réponse mesurée aux pleurs de T. B. Brazelton)"
+      "sources": "¹ Les conditions d'endormissement et les réveils entre deux cycles : American Academy of Sleep Medicine, *International Classification of Sleep Disorders* ; ² Les bras des parents, la tendresse, la base de sécurité et la chambre comme lieu vivant : formation EDPP, *Pleurs et sommeil* ; Bowlby J., *Attachment and Loss*, 1969 ; Ainsworth M., 1978 ; ³ Pas de sommeil partagé sur un canapé ou dans un fauteuil : HAS, 2007 ; Blair P. S. et al., *BMJ*, 2009 ; ⁴ Tétine au coucher, sans forcer, jamais attachée : ameli.fr, 2024 ; ⁵ Rien dans le lit la première année : HAS, 2007 ; ⁶ Créer de nouvelles connexions par l'expérience, préparer le cerveau à d'autres conditions d'endormissement, poser un bébé en sommeil agité, créer une nouvelle habitude (au moins 3 semaines de répétition) : formation EDPP, *Pleurs et sommeil* ; ⁷ La présence mesurée, étape par étape, et redescendre d'un cran quand ça fonctionne : formation EDPP, *Pleurs et sommeil* (d'après la réponse mesurée aux pleurs de T. B. Brazelton)"
     },
     {
       "id": "reveils-nocturnes",
@@ -1073,7 +1061,7 @@
                 {
                   "type": "liste",
                   "items": [
-                    "la température de la chambre (18 à 20 °C ; nuque chaude et moite : il a trop chaud) ;",
+                    "la température de la chambre (18 à 20 °C ; nuque chaude et moite : il a trop chaud) ;",
                     "ses vêtements, sa couche ;",
                     "un bruit ou une lumière ;",
                     "la tétine perdue (jamais attachée) ;",

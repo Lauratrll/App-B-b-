@@ -3,7 +3,7 @@
 ### Comment il s'endort aujourd'hui
 
 #### Le premier mois, tout est permis
-Pendant le premier mois, **s'endormir au sein, au biberon ou dans les bras, c'est normal, et ce n'est pas un problème**¹. Il ne s'agit pas encore d'apprendre quoi que ce soit : ton bébé a besoin de téter, d'être contre toi, d'être bercé. Tu n'as rien à corriger. Ce sont les conditions qu'il connaît, et elles **mettent son cerveau en état de plonger dans le sommeil**. À la fin de chaque cycle, il remonte près de la surface, et si les conditions ont changé, il peut avoir du mal à se rendormir² : à cet âge, c'est normal, rien n'est à corriger, tout est à accompagner.
+Pendant le premier mois, **s'endormir au sein, au biberon ou dans les bras, c'est normal, et ce n'est pas un problème**¹. Il ne s'agit pas encore d'apprendre quoi que ce soit : ton bébé a besoin de téter, d'être contre toi, d'être bercé. Tu n'as rien à corriger. Ce sont les conditions qu'il connaît, et elles **mettent son cerveau en état de plonger dans le sommeil**. Entre chaque cycle, il remonte à la surface avec un micro-réveil, et si les conditions ont changé, il peut avoir du mal à se rendormir² : à cet âge, c'est normal, rien n'est à corriger, tout est à accompagner.
 
 #### « Je ne veux pas l'habituer aux bras »
 Cette phrase, beaucoup de parents l'entendent, ou se la répètent. Elle mérite d'être déconstruite : **porter son bébé, c'est bon pour lui. Ce n'est pas une mauvaise habitude.**

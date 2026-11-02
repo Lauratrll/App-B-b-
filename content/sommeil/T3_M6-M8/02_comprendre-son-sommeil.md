@@ -1,17 +1,15 @@
 ## 2 · COMPRENDRE SON SOMMEIL
 
-### Mois par mois
+### Ce qui se passe
 
 #### M6 · Il bouge, il goûte
-À 6 mois, ton bébé s'endort à présent surtout par le sommeil calme, et ses nuits, d'environ 10 heures, restent entrecoupées de réveils. Il se retourne, essaie de nouvelles positions, et la diversification alimentaire commence souvent : sa journée change, et sa nuit avec elle. Ces nouveautés peuvent le réveiller, sans que ce soit un problème de sommeil.
+À 6 mois, ton bébé s'endort à présent surtout par le sommeil calme, et ses nuits, d'environ 10 heures, restent entrecoupées de réveils. Il se retourne, essaie de nouvelles positions, et la diversification alimentaire commence souvent : sa journée change, et sa nuit avec elle. Ces nouveautés peuvent le réveiller, sans que ce soit un problème de sommeil. Ce mois-ci, tu comprends les transformations de son sommeil, tu l'accompagnes pour se rendormir (ce n'est pas une mauvaise habitude) et tu ajustes son rituel.
 
 #### M7 · Le mobile
-À 7 mois, ton bébé devient mobile : il s'assoit, roule, commence parfois à ramper, et son cerveau répète ces nouveaux gestes jusque dans la nuit. Il peut se retrouver coincé dans une position et se réveiller frustré, sans savoir revenir en arrière : c'est le prix d'un grand apprentissage, pas un caprice. Il te cherche aussi du regard dès que tu t'éloignes, signe que son attachement grandit. Ses siestes bougent : le plus souvent vers 7 ou 8 mois, il passe de trois à deux siestes, parfois un peu plus tard.
+À 7 mois, ton bébé devient mobile : il s'assoit, roule, commence parfois à ramper, et son cerveau répète ces nouveaux gestes jusque dans la nuit. Il peut se retrouver coincé dans une position et se réveiller frustré, sans savoir revenir en arrière : c'est le prix d'un grand apprentissage, pas un caprice. Il te cherche aussi du regard dès que tu t'éloignes, signe que son attachement grandit. Ses siestes bougent : le plus souvent vers 7 ou 8 mois, il passe de trois à deux siestes, parfois un peu plus tard. Ce mois-ci, tu nommes tes départs (« je sors, je reviens »), tu regardes si sa troisième sieste refuse vraiment, et tu ajoutes un peu de mouvement à son rituel.
 
 #### M8 · Il te reconnaît
-À 8 mois, ton bébé distingue clairement les visages familiers des visages inconnus, et il le fait savoir : il peut protester quand tu quittes la pièce, ou se méfier d'un nouveau visage. C'est une étape normale : il s'attache, il reconnaît. Il s'entraîne aussi à se mettre debout, parfois jusque dans son lit. Le passage à deux siestes se poursuit, et le soir, ta présence compte encore plus.
-
-### Ce que tu observes
+À 8 mois, ton bébé distingue clairement les visages familiers des visages inconnus, et il le fait savoir : il peut protester quand tu quittes la pièce, ou se méfier d'un nouveau visage. C'est une étape normale : il s'attache, il reconnaît. Il s'entraîne aussi à se mettre debout, parfois jusque dans son lit. Le passage à deux siestes se poursuit, et le soir, ta présence compte encore plus. Ce mois-ci, tu rassures son coucher qui s'étire, tu l'aides à se recoucher quand il est debout dans son lit et tu lui proposes un petit objet de réconfort.
 
 #### Ce que tu vas peut-être voir
 Des **appels de nuit qui reviennent**, alors que c'était réglé. Un endormissement qui s'étire, parce qu'il sait maintenant que tu pars. Un bébé qui s'agite dans son lit pour s'asseoir ou se hisser. Une **troisième sieste qui commence à résister**. Ou, au contraire, des nuits qui s'allongent : les deux existent, parfois chez le même bébé, d'une semaine à l'autre.
@@ -41,11 +39,8 @@ Son corps a bien fait le lien : la lumière signale le jour et la période d'é
 #### Un corps qui apprend
 À cet âge, le sommeil encaisse ce que le reste vit. S'asseoir, ramper, se hisser, parfois se mettre debout : chacun à son heure, car les âges possibles sont très larges⁵. Les études le confirment⁶ : **quand une compétence motrice arrive, les réveils augmentent**. Ce n'est pas son sommeil qui recule, c'est son cerveau qui travaille ailleurs, au rythme de son apprentissage à lui, pas de son âge.
 
-#### Une découverte : tu existes même quand il ne te voit pas
-Les chercheurs montrent que cette idée s'amorce dès 4 mois, et qu'il te cherche activement vers 8-9 mois⁷. Avant, tu disparaissais ; à présent, tu es quelque part, et il peut t'appeler. Il se demande parfois si tu vas revenir : c'est une vraie inquiétude, pas un caprice, et elle passe quand il découvre, jour après jour, que tu reviens.
-
-#### Peur des visages inconnus et réaction à la séparation
-Vers 8-10 mois, beaucoup de bébés traversent une étape normale : **il se méfie des visages inconnus et réagit vivement quand tu t'éloignes**⁸. Ce n'est pas un trouble. C'est un désagrément réel, souvent bref, et il est plus facile à vivre quand tu l'accompagnes.
+#### Il te cherche, il se demande si tu reviens
+Les chercheurs montrent que l'idée que tu existes même quand il ne te voit pas s'amorce dès 4 mois, et qu'il te cherche activement vers 8-9 mois⁷. Avant, tu disparaissais ; à présent, tu es quelque part, et il peut t'appeler. Il se demande parfois si tu vas revenir : c'est une vraie inquiétude, pas un caprice, et elle passe quand il découvre, jour après jour, que tu reviens. Vers 8-10 mois, beaucoup de bébés traversent aussi une étape normale : **il se méfie des visages inconnus et réagit vivement quand tu t'éloignes**⁸. Ce n'est pas un trouble : c'est un désagrément réel, souvent bref, et il est plus facile à vivre quand tu l'accompagnes.
 
 #### La diversification : découvrir, pas remplir
 La diversification est là pour la curiosité et la découverte, pas pour nourrir : **avant 1 an, le lait reste son aliment principal**⁹. Elle change sa journée, ses sensations, parfois son ventre, et peut agiter une nuit ou deux. Ce n'est pas un défaut de sommeil.
@@ -53,16 +48,15 @@ La diversification est là pour la curiosité et la découverte, pas pour nourri
 ### Ce dont ton bébé a besoin
 
 #### Un petit être qui dépend de vous
-Si ton bébé ne dort pas comme tu le voudrais, **il ne peut pas faire autrement**⁹. Il n'a ni caprice ni stratégie. Quand il pleure ou se réveille, **il exprime un besoin**, même quand tu ne le trouves pas.
+Si ton bébé ne dort pas comme tu le voudrais, **il ne peut pas faire autrement**⁹. Il n'a ni caprice ni stratégie. Quand il pleure ou se réveille, **il exprime un besoin**, et il n'est pas toujours facile à deviner : tu n'as pas à tout comprendre du premier coup, tu cherches avec lui.
 
 #### Ses besoins fondamentaux
 Pour que son cerveau puisse lâcher prise et dormir, il a besoin de se sentir en sécurité :
 - **être nourri**, quand il a faim, sans attendre ;
 - **être au chaud**, ni trop ni pas assez couvert ;
-- **être touché, contenu, porté** : neuf mois dans le ventre, neuf mois sur le ventre ;
+- **être contenu, porté** : neuf mois dans le ventre, neuf mois sur le ventre. **Porter son bébé, c'est bon pour lui. Les bras de ses parents sont son nid naturel** (maternage proximal)⁹ ;
 - **être entendu** : ta voix, ta présence, une réponse quand il appelle ;
 - **être rassuré** : savoir que tu es là, et que tu reviens quand tu sors.
-**Porter son bébé, c'est bon pour lui. Les bras de ses parents sont son nid naturel** (maternage proximal)⁹.
 
 #### Et toi, dans tout ça
 **C'est parfois difficile, et c'est normal.** À 6 mois, les acquisitions s'enchaînent et beaucoup de parents se sentent submergés : c'est un des moments où l'on a le plus besoin d'aide. Le sommeil des parents est au plus bas dans les premiers mois et peut mettre des années à se remettre¹⁰. Tu ne peux pas répondre à tout, tout le temps : **tu fais de ton mieux, et c'est déjà beaucoup.** Prendre soin de toi, c'est aussi prendre soin de lui.

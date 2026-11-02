@@ -33,7 +33,7 @@ Il cherche à téter, ouvre la bouche, porte ses mains à la bouche, s'agite ava
 
 #### 3. Quelque chose le gêne-t-il ?
 En dix secondes, vérifie :
-- la température de la chambre (18 à 20 °C ; nuque chaude et moite : il a trop chaud) ;
+- la température de la chambre (18 à 20 °C ; nuque chaude et moite : il a trop chaud) ;
 - ses vêtements, sa couche ;
 - un bruit ou une lumière ;
 - la tétine perdue (jamais attachée) ;

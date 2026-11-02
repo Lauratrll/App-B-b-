@@ -16,8 +16,8 @@
       "titre": "Comprendre son sommeil",
       "sections": [
         {
-          "id": "mois-par-mois",
-          "titre": "Mois par mois",
+          "id": "ce-qui-se-passe",
+          "titre": "Ce qui se passe",
           "chapeau": null,
           "volets": [
             {
@@ -25,7 +25,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Vers 18 mois, son sommeil a l'organisation du tien et il n'a plus qu'une sieste, en milieu de journée. Ce qui bouge, ce n'est plus l'escalier du sommeil : c'est **ce qu'il emporte en le descendant**, ses images, ses mots, ses premières peurs. Les terreurs nocturnes sont aussi les plus fréquentes autour de cet âge. Ce mois-ci, ce qui l'aide, c'est de **poser sa journée avant le coucher**, en la racontant avec des mots simples."
+                  "texte": "Vers 18 mois, son sommeil a l'organisation du tien et il n'a plus qu'une sieste, en milieu de journée. Ce qui bouge, ce n'est plus l'escalier du sommeil : c'est **ce qu'il emporte en le descendant**, ses images, ses mots, ses premières peurs. Les terreurs nocturnes sont aussi les plus fréquentes autour de cet âge. Ce mois-ci, ce qui l'aide, c'est de **poser sa journée avant le coucher**, en la racontant avec des mots simples, et de savoir distinguer une terreur nocturne d'une peur de l'imaginaire."
                 }
               ]
             },
@@ -43,7 +43,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Vers 20 mois, son horloge est installée depuis longtemps et elle s'ancre un peu plus chaque mois. Le coucher dépend beaucoup de deux heures : celle de son lever et celle de la fin de sa sieste. Le soir, les histoires prennent de la place : **d'abord l'imaginaire, puis le calme**."
+                  "texte": "Vers 20 mois, son horloge est installée depuis longtemps et elle s'ancre un peu plus chaque mois. Le coucher dépend beaucoup de deux heures : celle de son lever et celle de la fin de sa sieste. Le soir, les histoires prennent de la place : **d'abord l'imaginaire, puis le calme**. Ce mois-ci, tu choisis avec lui le moment qui lui ressemble (mouvement, mots, émotions, imaginaire)."
                 }
               ]
             },
@@ -61,7 +61,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Vers 2 ans, certains enfants commencent à avoir de mauvais rêves qu'ils peuvent raconter. Ce n'est pas la même chose qu'une terreur nocturne : **il te reconnaît, il se console dans tes bras, il s'en souvient**. Ce mois-ci, ce qui l'aide, c'est une réponse calme à sa peur, avec les mêmes mots chaque nuit."
+                  "texte": "Vers 2 ans, certains enfants commencent à avoir de mauvais rêves qu'ils peuvent raconter. Ce n'est pas la même chose qu'une terreur nocturne : **il te reconnaît, il se console dans tes bras, il s'en souvient**. Ce mois-ci, ce qui l'aide, c'est une réponse calme à sa peur, avec les mêmes mots chaque nuit, et un petit objet de réconfort s'il en a un."
                 }
               ]
             },
@@ -73,15 +73,7 @@
                   "texte": "Vers 23 mois, beaucoup d'enfants disent « non » à la sieste sans pour autant ne plus en avoir besoin. **Ses nuits te le disent** : si elles se dégradent les jours sans sieste, elle lui sert encore. Le temps calme peut faire le relais, sans qu'on ait à anticiper la fin de la sieste."
                 }
               ]
-            }
-          ],
-          "sources": null
-        },
-        {
-          "id": "ce-que-tu-observes",
-          "titre": "Ce que tu observes",
-          "chapeau": null,
-          "volets": [
+            },
             {
               "titre": "Ce que tu vas peut-être voir",
               "blocs": [
@@ -122,7 +114,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Entre deux cycles, il remonte près de la surface plusieurs fois par nuit, comme toi, **le plus souvent sans que tu le saches.** Et il peut arriver, en début de nuit, qu'il se réveille **à moitié**, quand il sort du sommeil profond : c'est ce qu'on appelle une terreur nocturne³. Elles sont les plus fréquentes autour de 18 mois."
+                  "texte": "Entre deux cycles, il remonte à la surface avec un micro-réveil, plusieurs fois par nuit, comme toi, **le plus souvent sans que tu le saches.** Et il peut arriver, en début de nuit, qu'il se réveille **à moitié**, quand il sort du sommeil profond : c'est ce qu'on appelle une terreur nocturne³. Elles sont les plus fréquentes autour de 18 mois."
                 }
               ]
             }
@@ -148,7 +140,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Il vient d'entrer dans le monde des images : il fait semblant, il nomme, il invente. Ce qui bouge n'est plus l'escalier du sommeil, c'est **ce qu'il emporte en le descendant**. Il garde la trace de ce qu'il a vu, entendu, vécu dans la journée, et c'est pour cela que **poser sa journée avant le coucher** l'aide."
+                  "texte": "Il vient d'entrer dans le monde des images : il fait semblant, il nomme, il invente. Ce qui bouge n’est plus la façon d’entrer dans le sommeil, c’est **ce qu'il emporte en le descendant**. Il garde la trace de ce qu'il a vu, entendu, vécu dans la journée, et c'est pour cela que **poser sa journée avant le coucher** l'aide."
                 }
               ]
             },
@@ -157,7 +149,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Un cerveau qui imagine peut aussi imaginer ce qui fait peur : l'ombre, le bruit, le noir, les monstres. **Ces peurs ne sont pas des caprices** : l'enfant qui a peur du noir la ressent vraiment⁵. Vers 2 ans, certains commencent aussi à avoir de mauvais rêves, qu'on ne peut reconnaître que s'ils savent les raconter⁶."
+                  "texte": "Un cerveau qui imagine peut aussi imaginer ce qui fait peur : l'ombre, le bruit, le noir, les monstres. **Ces peurs ne sont pas des caprices** : l'enfant qui a peur du noir la ressent vraiment⁵. Vers 2 ans, certains commencent aussi à avoir de mauvais rêves, qu'on ne peut reconnaître que s'ils savent les raconter⁶."
                 }
               ]
             },
@@ -166,7 +158,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Peurs, colères, joies fortes : ses émotions sont intenses, et il ne sait pas encore les calmer seul. Le soir, quand la fatigue s'ajoute, la petite tempête intérieure peut éclater en pleurs ou en refus. Nomme ce qu'il vit (« tu es en colère, tu es fatigué »), reste près de lui, garde tes gestes habituels : tu l'aides à retrouver son calme, et c'est ainsi qu'il apprendra à le faire seul."
+                  "texte": "Peurs, colères, joies fortes : ses émotions sont intenses, et il ne sait pas encore les calmer seul. Le soir, quand la fatigue s'ajoute, la petite tempête intérieure peut éclater en pleurs ou en refus. Nomme ce qu'il vit (« tu es en colère, tu es fatigué »), reste près de lui, garde tes gestes habituels : tu l'aides à retrouver son calme, et c'est ainsi qu'il apprendra à le faire seul."
                 }
               ]
             },
@@ -210,7 +202,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Si ton enfant ne dort pas comme tu le voudrais, **il ne peut pas faire autrement**⁵. Il n'a ni caprice ni stratégie, et se mettre à ta place, il ne le saura que vers 4 ans. Quand il pleure, se réveille ou retarde le coucher, **il exprime un besoin**, même quand tu ne le trouves pas."
+                  "texte": "Si ton enfant ne dort pas comme tu le voudrais, **il ne peut pas faire autrement**⁵. Il n'a ni caprice ni stratégie, et se mettre à ta place, il ne le saura que vers 4 ans. Quand il pleure, se réveille ou retarde le coucher, **il exprime un besoin**, et il n'est pas toujours facile à deviner : tu n'as pas à tout comprendre du premier coup, tu cherches avec lui."
                 }
               ]
             },
@@ -226,14 +218,10 @@
                   "items": [
                     "**être nourri**, quand il a faim, sans attendre ;",
                     "**être au chaud**, ni trop ni pas assez couvert ;",
-                    "**être touché, contenu, porté** : neuf mois dans le ventre, neuf mois sur le ventre ;",
+                    "**être contenu, porté** : neuf mois dans le ventre, neuf mois sur le ventre. Même quand il court et dit « non », **porter son enfant, c'est bon pour lui. Les bras de ses parents restent le premier endroit où il se sent aimé et compris** : quand tu le rassures, tu l'aides à retrouver son calme (c'est la co-régulation), et tu remplis son réservoir affectif⁵. Plus il se sent en sécurité, plus il ose s'éloigner ;",
                     "**être entendu** : ta voix, ta présence, une réponse quand il appelle ;",
                     "**être rassuré** : savoir que tu es là, et que tu reviens quand tu sors."
                   ]
-                },
-                {
-                  "type": "p",
-                  "texte": "Même quand il court et dit « non », **porter son enfant, c'est bon pour lui. Les bras de ses parents restent son refuge** : quand tu le rassures, tu l'aides à retrouver son calme (c'est la co-régulation), et tu remplis son réservoir affectif⁵. Plus il se sent en sécurité, plus il ose s'éloigner."
                 }
               ]
             },
@@ -753,7 +741,7 @@
                 },
                 {
                   "type": "p",
-                  "texte": "À la fin de chaque cycle, il remonte près de la surface, et si les conditions ont changé, il peut avoir des difficultés pour se rendormir¹. **À cet âge, c'est normal : rien n'est à corriger, tout est à accompagner.** Il sait de plus en plus ce qui va se passer, et les mots l'aident. Tu peux continuer à varier, pour diversifier les conditions d'endormissement de ton enfant."
+                  "texte": "Entre chaque cycle, il remonte à la surface avec un micro-réveil, et si les conditions ont changé, il peut avoir des difficultés pour se rendormir¹. **À cet âge, c'est normal : rien n'est à corriger, tout est à accompagner.** Il sait de plus en plus ce qui va se passer, et les mots l'aident. Tu peux continuer à varier, pour diversifier les conditions d'endormissement de ton enfant."
                 }
               ]
             },
@@ -784,7 +772,7 @@
                 },
                 {
                   "type": "p",
-                  "texte": "Contre toi, il retrouve la contenance, la chaleur et la voix qu'il connaît depuis toujours. **Les bras de ses parents sont son refuge.** En le portant, tu ne le rends pas dépendant : tu lui donnes la sécurité qui lui permet de s'éloigner de toi en confiance, et c'est ce que tu vois aujourd'hui, quand il part explorer et revient vers toi². Un enfant n'a ni calcul ni caprice : il exprime un besoin."
+                  "texte": "Contre toi, il retrouve la contenance, la chaleur et la voix qu'il connaît depuis toujours. **Tes bras, c'est là qu'il se sent aimé tel qu'il est.** En le portant, tu ne le rends pas dépendant : tu lui donnes la sécurité qui lui permet de s'éloigner de toi en confiance, et c'est ce que tu vois aujourd'hui, quand il part explorer et revient vers toi². Un enfant n'a ni calcul ni caprice : il exprime un besoin."
                 },
                 {
                   "type": "p",
@@ -814,7 +802,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Le contact, ta chaleur, ton rythme respiratoire : c'est la condition qu'il connaît le mieux, et elle reste son refuge, même grand : un câlin assis près de son lit avant la pose compte beaucoup. Si tu as envie de varier : main sur son ventre, puis sur sa jambe, puis ta main près de lui sans le toucher."
+                  "texte": "Le contact, ta chaleur, ton rythme respiratoire : c'est la condition qu'il connaît le mieux, et elle reste l'endroit où il se sent bien, même grand : un câlin assis près de son lit avant la pose compte beaucoup. Si tu as envie de varier : main sur son ventre, puis sur sa jambe, puis ta main près de lui sans le toucher."
                 }
               ]
             },
@@ -1043,7 +1031,7 @@
           "sources": null
         }
       ],
-      "sources": "¹ Les conditions d'endormissement et les réveils entre deux cycles : American Academy of Sleep Medicine, *International Classification of Sleep Disorders* ; ² Les bras des parents, le refuge, la base de sécurité, la chambre comme lieu vivant, la peur du noir qui n'est pas volontaire, la veilleuse, les ombres de la nuit, les histoires qui font peur : formation EDPP, *Pleurs et sommeil* (notes et livret) ; Bowlby J., *Attachment and Loss*, 1969 ; Ainsworth M., 1978 ; ³ Pas de sommeil partagé sur un canapé ou dans un fauteuil : HAS, 2007 ; Blair P. S. et al., *BMJ*, 2009 ; ⁴ Tétine au coucher, sans forcer, jamais attachée : ameli.fr, 2024 ; ⁵ Rien dans le lit la première année : HAS, 2007 ; ⁶ La lumière du soir freine la mélatonine chez le jeune enfant, et une lumière chaude moins qu'une froide : Hartstein L. E. et al., *Journal of Pineal Research*, 2022 ; *Journal of Biological Rhythms*, 2025 ; ⁷ Créer de nouvelles connexions par l'expérience, préparer le cerveau à d'autres conditions d'endormissement, poser un bébé en sommeil agité, créer une nouvelle habitude (au moins 3 semaines de répétition) : formation EDPP, *Pleurs et sommeil* ; ⁸ La présence mesurée, étape par étape, et redescendre d'un cran quand ça fonctionne : formation EDPP, *Pleurs et sommeil* (d'après la réponse mesurée aux pleurs de T. B. Brazelton)"
+      "sources": "¹ Les conditions d'endormissement et les réveils entre deux cycles : American Academy of Sleep Medicine, *International Classification of Sleep Disorders* ; ² Les bras des parents, la tendresse, la base de sécurité, la chambre comme lieu vivant, la peur du noir qui n'est pas volontaire, la veilleuse, les ombres de la nuit, les histoires qui font peur : formation EDPP, *Pleurs et sommeil* (notes et livret) ; Bowlby J., *Attachment and Loss*, 1969 ; Ainsworth M., 1978 ; ³ Pas de sommeil partagé sur un canapé ou dans un fauteuil : HAS, 2007 ; Blair P. S. et al., *BMJ*, 2009 ; ⁴ Tétine au coucher, sans forcer, jamais attachée : ameli.fr, 2024 ; ⁵ Rien dans le lit la première année : HAS, 2007 ; ⁶ La lumière du soir freine la mélatonine chez le jeune enfant, et une lumière chaude moins qu'une froide : Hartstein L. E. et al., *Journal of Pineal Research*, 2022 ; *Journal of Biological Rhythms*, 2025 ; ⁷ Créer de nouvelles connexions par l'expérience, préparer le cerveau à d'autres conditions d'endormissement, poser un bébé en sommeil agité, créer une nouvelle habitude (au moins 3 semaines de répétition) : formation EDPP, *Pleurs et sommeil* ; ⁸ La présence mesurée, étape par étape, et redescendre d'un cran quand ça fonctionne : formation EDPP, *Pleurs et sommeil* (d'après la réponse mesurée aux pleurs de T. B. Brazelton)"
     },
     {
       "id": "reveils-nocturnes",
@@ -1200,7 +1188,7 @@
                 {
                   "type": "liste",
                   "items": [
-                    "la température de la chambre (18 à 20 °C ; nuque chaude et moite : il a trop chaud) ;",
+                    "la température de la chambre (18 à 20 °C ; nuque chaude et moite : il a trop chaud) ;",
                     "ses vêtements, sa couche ;",
                     "un bruit ou une lumière ;",
                     "la tétine perdue (jamais attachée) ;",
@@ -1459,7 +1447,7 @@
                 {
                   "type": "liste",
                   "items": [
-                    "un bain court, pas tous les soirs : **eau à 37 °C vérifiée au thermomètre de bain**, pièce chauffée, lumière tamisée, voix lente ; **tiens-le toujours, visage hors de l'eau**, ne le lâche jamais, même une seconde, surtout maintenant qu'il marche et bouge sans cesse ;",
+                    "un bain court, pas tous les soirs : **eau à 37 °C vérifiée au thermomètre de bain**, pièce chauffée, lumière tamisée, voix lente ; **tiens-le toujours, visage hors de l'eau**, ne le lâche jamais, même une seconde, surtout maintenant qu'il marche et bouge sans cesse ;",
                     "le brossage des dents ;",
                     "un changement de couche ;",
                     "le pyjama et la gigoteuse."

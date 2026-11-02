@@ -23,7 +23,7 @@ Termine toujours par la même phrase, avec le même ton : « La nuit arrive. T
 La dernière tétée ou le dernier biberon, tout contre toi, si c'est encore le cas. Dans la pénombre, une **lumière ambrée et faible** si tu as besoin d'y voir, sans téléphone. S'il s'endort en buvant, laisse-le finir tranquillement. Un moment à la verticale contre toi, puis tu le poses. Un verre d'eau peut faire partie du rituel, prévu d'avance.
 
 #### Soin
-- un bain court, pas tous les soirs : **eau à 37 °C vérifiée au thermomètre de bain**, pièce chauffée, lumière tamisée, voix lente ; **tiens-le toujours, visage hors de l'eau**, ne le lâche jamais, même une seconde, surtout maintenant qu'il marche et bouge sans cesse ;
+- un bain court, pas tous les soirs : **eau à 37 °C vérifiée au thermomètre de bain**, pièce chauffée, lumière tamisée, voix lente ; **tiens-le toujours, visage hors de l'eau**, ne le lâche jamais, même une seconde, surtout maintenant qu'il marche et bouge sans cesse ;
 - le brossage des dents ;
 - un changement de couche ;
 - le pyjama et la gigoteuse.

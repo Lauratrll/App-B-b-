@@ -71,6 +71,17 @@ const ACTION: ThemeVolet = { bg: "#F8E4D4", accent: "#DB936B", label: "#9A4F2A" 
 const CO_PARENT: ThemeVolet = { bg: "#DDF1EC", accent: "#7CC4B4", label: "#1F5E52" };
 const CADRE = { bg: "#EDE9E4", accent: "#D4604A", label: "#8A3020", texte: "#5A4A40" };
 
+// 01/11 : Comprendre son sommeil — couleurs par fonction de volet pour dynamiser la lecture.
+const AFFECT: ThemeVolet = { bg: "#F6E3E6", accent: "#D98A99", label: "#8A3A4C" };
+const REPERE: ThemeVolet = { bg: "#F5EDD2", accent: "#D4B24C", label: "#7A5E12" };
+const voletTheme = (partieId: string, base: ThemeVolet, titre: string | null): ThemeVolet => {
+  if (partieId !== "comprendre-son-sommeil") return base;
+  const ti = (titre ?? "").replace(/^M\d+\s*·\s*/, "");
+  if (/^(et toi|un petit être|un bouleversement|ce que ça veut dire)/i.test(ti)) return AFFECT;
+  if (/^(bébé bouge|ce que tu vas)/i.test(ti)) return REPERE;
+  return base;
+};
+
 const estCoParent = (s: SommeilPartie["sections"][number]) =>
   /co-parent|relais|partager les nuits/i.test(s.titre ?? "");
 const estCadre = (s: SommeilPartie["sections"][number]) =>
@@ -507,7 +518,7 @@ function Slot({
           </span>
         }
         titre={partie.titre}
-        petit={MENSUELS.has(partie.id) ? undefined : ageCarte(sommeil)}
+        petit={MENSUELS.has(partie.id) && partie.id !== "comprendre-son-sommeil" ? undefined : ageCarte(sommeil)}
         sousTitre={estTheme ? SOUS_TITRE_THEME : undefined}
       />
 
@@ -547,7 +558,7 @@ function Slot({
                 key={i}
                 volet={{ ...v, titre: sansMois(v.titre) }}
                 p={p}
-                theme={th}
+                theme={voletTheme(partie.id, th, v.titre)}
                 majuscules
                 numero={Number(v.titre?.match(/^(\d+)\./)?.[1]) || undefined}
               />

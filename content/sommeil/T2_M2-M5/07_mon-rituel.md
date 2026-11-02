@@ -14,7 +14,7 @@ Un bébé ne connaît pas encore l'heure, mais il reconnaît ce qui se répète.
 La dernière tétée ou le dernier biberon, tout contre toi. Dans la pénombre, une **lumière ambrée et faible** si tu as besoin d'y voir, sans téléphone. S'il s'endort en buvant, laisse-le finir tranquillement. Un rot, un moment à la verticale contre toi, puis tu le poses.
 
 #### Soin
-- un bain court, pas tous les soirs : **eau à 37 °C vérifiée au thermomètre de bain**, pièce chauffée, lumière tamisée, voix lente ; **tiens-le toujours, visage hors de l'eau**, ne le lâche jamais, même une seconde, et ne touche pas son visage (le réflexe des points cardinaux pourrait lui faire tourner la tête vers l'eau) ;
+- un bain court, pas tous les soirs : **eau à 37 °C vérifiée au thermomètre de bain**, pièce chauffée, lumière tamisée, voix lente ; **tiens-le toujours, visage hors de l'eau**, ne le lâche jamais, même une seconde, et ne touche pas son visage (le réflexe des points cardinaux pourrait lui faire tourner la tête vers l'eau) ;
 - un changement de couche ;
 - le pyjama et la gigoteuse : s'il s'endort au sein ou au biberon, tu pourras le poser sans le rhabiller.
 

@@ -16,8 +16,8 @@
       "titre": "Comprendre son sommeil",
       "sections": [
         {
-          "id": "mois-par-mois",
-          "titre": "Mois par mois",
+          "id": "ce-qui-se-passe",
+          "titre": "Ce qui se passe",
           "chapeau": null,
           "volets": [
             {
@@ -25,7 +25,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Vers 2 mois, ton bébé te sourit pour de vrai : le lien se tisse, et il est de plus en plus présent à ce qui l'entoure. Son sommeil calme devient plus profond, mais son sommeil agité tient encore une grande place. Il fait beaucoup de siestes, sans horaire fixe : c'est sa fatigue qui te guide, pas l'horloge. Les pleurs du soir diminuent peu à peu après les premières semaines."
+                  "texte": "Vers 2 mois, ton bébé te sourit pour de vrai : le lien se tisse, et il est de plus en plus présent à ce qui l'entoure. Son sommeil calme devient plus profond, mais son sommeil agité tient encore une grande place. Il fait beaucoup de siestes, sans horaire fixe : c'est sa fatigue qui te guide, pas l'horloge. Les pleurs du soir diminuent peu à peu après les premières semaines. Ce mois-ci, c'est le moment de créer un premier rituel, de faire la différence entre ce rituel et l'endormissement, et de donner à ses journées un lever à peu près régulier, avec la lumière du matin."
                 }
               ]
             },
@@ -34,7 +34,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Vers 3 mois, le sommeil de ton bébé change de forme : son sommeil calme se divise en deux paliers, un sommeil léger puis un sommeil profond, et son propre cerveau commence à fabriquer de la mélatonine. Certaines nuits sont plus longues, d'autres plus agitées : c'est un équilibre qui se cherche, pas un retour en arrière. Ce mois-ci, ce qui t'aide le plus, c'est de l'observer et de répondre à ce qu'il te dit."
+                  "texte": "Vers 3 mois, le sommeil de ton bébé change de forme : son sommeil calme se divise en deux paliers, un sommeil léger puis un sommeil profond, et son propre cerveau commence à fabriquer de la mélatonine. Certaines nuits sont plus longues, d'autres plus agitées : c'est un équilibre qui se cherche, pas un retour en arrière. Ce mois-ci, tu peux regarder ce qui a changé dans ce qui l'endormait, alléger les stimulations du soir, comprendre que sa sieste de 45 minutes n'est pas une sieste ratée et faire évoluer son rituel en douceur."
                 }
               ]
             },
@@ -43,7 +43,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Vers 4 mois, ton bébé est de plus en plus curieux : il découvre ses mains, fixe longuement les visages, sourit beaucoup. Son sommeil continue de se réorganiser : beaucoup de parents vivent cette période comme une « régression », alors que son cerveau apprend à enchaîner ses cycles. Il peut se réveiller plus souvent, et ce n'est ni de ta faute, ni un caprice. Il commence à distinguer le jour de la nuit : la lumière et l'animation le jour, la pénombre et le calme la nuit l'aident à s'y repérer."
+                  "texte": "Vers 4 mois, ton bébé est de plus en plus curieux : il découvre ses mains, fixe longuement les visages, sourit beaucoup. Son sommeil continue de se réorganiser : beaucoup de parents vivent cette période comme une « régression », alors que son cerveau apprend à enchaîner ses cycles. Il peut se réveiller plus souvent, et ce n'est ni de ta faute, ni un caprice. Il commence à distinguer le jour de la nuit : la lumière et l'animation le jour, la pénombre et le calme la nuit l'aident à s'y repérer. Ce mois-ci, tu apprends à distinguer les dents d'un autre inconfort, à caler de vraies siestes et à sortir sans que la sieste devienne une contrainte."
                 }
               ]
             },
@@ -52,18 +52,10 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Vers 5 mois, ton bébé est un petit joueur : il attrape, secoue, porte tout à la bouche, rit et s'intéresse à tout. Cette vitalité remplit ses journées, et elle peut aussi l'agiter en fin de journée : plus il est stimulé, plus la redescente prend du temps. Ses nuits s'allongent parfois, et tâtonnent d'autres fois : les deux sont normaux. Il fait en général trois siestes, et c'est la fin de son éveil calme qui te dit quand lui proposer de dormir."
+                  "texte": "Vers 5 mois, ton bébé est un petit joueur : il attrape, secoue, porte tout à la bouche, rit et s'intéresse à tout. Cette vitalité remplit ses journées, et elle peut aussi l'agiter en fin de journée : plus il est stimulé, plus la redescente prend du temps. Ses nuits s'allongent parfois, et tâtonnent d'autres fois : les deux sont normaux. Il fait en général trois siestes, et à 5 mois, on commence à proposer un rythme régulier, tout en s'adaptant à sa pression de sommeil. Ce mois-ci, tu apprends à faire la différence entre faim et besoin de réconfort, à consolider son rituel avant 6 mois et à te préparer à ce qui arrive ensuite."
                 }
               ]
-            }
-          ],
-          "sources": null
-        },
-        {
-          "id": "ce-que-tu-observes",
-          "titre": "Ce que tu observes",
-          "chapeau": null,
-          "volets": [
+            },
             {
               "titre": "Ce que tu vas peut-être voir",
               "blocs": [
@@ -106,7 +98,7 @@
                 },
                 {
                   "type": "p",
-                  "texte": "Un sommeil agité suivi d'un sommeil calme, c'est **un cycle de sommeil**. Il dure environ 45 minutes autour de 2 mois, puis **environ une heure** vers 3 mois, de jour comme de nuit. À la fin de chaque cycle, il remonte près de la surface : c'est là qu'il peut se réveiller."
+                  "texte": "Un sommeil agité suivi d'un sommeil calme, c'est **un cycle de sommeil**. Il dure environ 45 minutes à la naissance, et s'étend autour d'**1 heure** vers 3 mois, de jour comme de nuit. Entre chaque état de sommeil, il remonte à la surface avec un micro-réveil, de quelques secondes à quelques minutes. C'est là que son cerveau va naturellement soit poursuivre ses cycles de sommeil, soit se réveiller pleinement."
                 }
               ]
             },
@@ -115,7 +107,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Il entre encore dans le sommeil par le sommeil agité, **un sommeil paradoxal en construction** : il bouge, grimace, entrouvre les yeux, pousse de petits pleurs, et pourtant il dort. Au fil des mois, ce sommeil agité prend de moins en moins de place, et ses mouvements diminuent : son corps apprend à rester tranquille pendant que son cerveau travaille. **Ces mouvements-là ne sont pas des réveils** : des chercheurs pensent même qu'ils aident son cerveau à faire connaissance avec son corps²."
+                  "texte": "Il entre encore parfois dans le sommeil par le sommeil agité, **un sommeil paradoxal en construction** : il bouge, grimace, entrouvre les yeux, pousse de petits pleurs, et pourtant il dort. Au fil des mois, ce sommeil agité prend de moins en moins de place, et ses mouvements diminuent : son corps apprend à rester tranquille pendant que son cerveau travaille. **Ces mouvements-là ne sont pas des réveils** : des chercheurs pensent même qu'ils aident son cerveau à faire connaissance avec son corps²."
                 },
                 {
                   "type": "p",
@@ -168,33 +160,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Côté hormones, la mélatonine donne l'heure, elle n'endort pas. S'il est allaité, il en reçoit depuis ses premiers jours par le lait maternel, qui en est plus riche le soir. Et vers 3 mois, son propre cerveau commence à en fabriquer³. Son corps commence aussi à faire le lien : **la lumière signale le jour et la période d'éveil ; la pénombre indique la nuit et appelle le sommeil.** C'est ce qu'on appelle le rythme circadien, et il se met doucement en place. À partir de 4 mois, ce rythme de 24 heures commence à prendre le relais de ses petits cycles de quelques heures. Il ne sera pleinement installé qu'autour de 9 mois."
-                }
-              ]
-            }
-          ],
-          "sources": null
-        },
-        {
-          "id": "un-sommeil-qui-se-transforme",
-          "titre": "Un sommeil qui se transforme",
-          "chapeau": null,
-          "volets": [
-            {
-              "titre": "Un sommeil qui s'approfondit",
-              "blocs": [
-                {
-                  "type": "p",
-                  "texte": "Vers 2 mois, son sommeil calme devient plus profond : il est moins facile à interrompre, et il réagit moins aux stimulations (un bruit, un inconfort). **Plus profond ne veut pas dire que les nuits s'arrangent** : il se réveille encore à la fin de chaque cycle. Les consignes de sécurité du couchage restent donc les mêmes, tous les soirs."
-                }
-              ]
-            },
-            {
-              "titre": "Un sommeil qui se réorganise",
-              "blocs": [
-                {
-                  "type": "p",
-                  "texte": "Autour de 3 à 4 mois, **son sommeil se réorganise vraiment** : c'est ce que beaucoup de parents vivent comme une « régression ». Son sommeil calme se divise en deux paliers (voir plus haut). Peu à peu, la porte d'entrée de son sommeil change de nature."
+                  "texte": "Côté hormones, la mélatonine donne l'heure, elle n'endort pas encore. S'il est allaité, il en reçoit depuis ses premiers jours par le lait maternel, qui en est plus riche le soir. Et vers 3 mois, sa glande pinéale, dans son cerveau, commence à en fabriquer³. Son corps commence aussi à faire le lien : **la lumière signale le jour et la période d'éveil ; la pénombre indique la nuit et appelle le sommeil.** C'est ce qu'on appelle le rythme circadien, et il se met doucement en place. Il ne sera pleinement installé qu'autour de 9 mois."
                 }
               ]
             },
@@ -203,7 +169,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Pour s'endormir, on descend une succession de marches, de l'éveil jusqu'au sommeil profond. **La marche du haut est la porte d'entrée du sommeil : ce qui change, c'est ce qu'il y a derrière.** C'est par le sommeil calme que ton bébé va apprendre à entrer dans la nuit. Les enregistrements du sommeil des bébés le montrent⁴ : jusque vers 3 mois, ils s'endorment surtout par le sommeil agité ; vers 6 mois, surtout par le sommeil calme. **Entre les deux, tout se mélange d'un soir à l'autre**, et c'est le cas jusqu'à la fin de cette période."
+                  "texte": "C'est par le sommeil calme que ton bébé va apprendre à entrer dans la nuit. Les enregistrements du sommeil des bébés le montrent⁴ : jusque vers 3 mois, ils s'endorment surtout par le sommeil agité ; vers 6 mois, surtout par le sommeil calme. **Entre les deux, tout se mélange d'un soir à l'autre**, et c'est le cas jusqu'à la fin de cette période."
                 }
               ]
             },
@@ -229,7 +195,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Si ton bébé ne dort pas comme tu le voudrais, **il ne peut pas faire autrement**⁵. Il n'a ni caprice ni stratégie, il n'a pas les moyens de « tester » ses parents. Quand il pleure ou se réveille, **il exprime un besoin**, même quand tu ne le trouves pas. **Son besoin de proximité est un vrai besoin**, pas une habitude : il dépend entièrement de vous pour se sentir en sécurité."
+                  "texte": "Si ton bébé ne dort pas comme tu le voudrais, **il ne peut pas faire autrement**⁵. Il n'a ni caprice ni stratégie, il n'a pas les moyens de « tester » ses parents. Quand il pleure ou se réveille, **il exprime un besoin**, et il n'est pas toujours facile à deviner : tu n'as pas à tout comprendre du premier coup, tu cherches avec lui. **Son besoin de proximité n'est pas à sous-estimer** : c'est un vrai besoin biologique, pas une mauvaise habitude. Il dépend entièrement de vous pour se sentir en sécurité."
                 }
               ]
             },
@@ -245,14 +211,10 @@
                   "items": [
                     "**être nourri**, quand il a faim, sans attendre ;",
                     "**être au chaud**, ni trop ni pas assez couvert ;",
-                    "**être touché, contenu, porté** : neuf mois dans le ventre, neuf mois sur le ventre ;",
+                    "**être contenu, porté** : neuf mois dans le ventre, neuf mois sur le ventre. **Porter son bébé, c'est bon pour lui : les bras de ses parents sont son nid naturel** (maternage proximal)⁵ ;",
                     "**être entendu** : ta voix, ta présence, une réponse quand il appelle ;",
                     "**être rassuré** : il comprend déjà ton ton et ton état, il a besoin de te sentir là."
                   ]
-                },
-                {
-                  "type": "p",
-                  "texte": "**Porter son bébé, c'est bon pour lui. Les bras de ses parents sont son nid naturel** (maternage proximal)⁵."
                 }
               ]
             },
@@ -403,7 +365,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Une sieste de 45 minutes s'arrête souvent quand un cycle se termine, au moment où il remonte près de la surface. **Avant de conclure qu'il est réveillé, regarde** : s'il bouge, grimace, ouvre un œil sans interagir avec toi, il dort peut-être encore, en sommeil agité. **Un micro-réveil entre deux cycles est normal.** Si ton bébé est calme, laisse-lui l'occasion de retomber dans le sommeil, sans te précipiter : il peut repartir pour un cycle. Et si la sieste s'arrête là, **elle n'est pas ratée** : dès l'âge de 3 mois environ, un petit somme aide à retenir ce qu'il vient de découvrir³."
+                  "texte": "Une sieste de 45 minutes s'arrête souvent quand un cycle se termine, au moment du micro-réveil, quand il remonte à la surface. **Avant de conclure qu'il est réveillé, regarde** : s'il bouge, grimace, ouvre un œil sans interagir avec toi, il dort peut-être encore, en sommeil agité. **Un micro-réveil entre deux cycles est normal.** Si ton bébé est calme, laisse-lui l'occasion de retomber dans le sommeil, sans te précipiter : il peut repartir pour un cycle. Et si la sieste s'arrête là, **elle n'est pas ratée** : dès l'âge de 3 mois environ, un petit somme aide à retenir ce qu'il vient de découvrir³."
                 }
               ]
             },
@@ -682,7 +644,7 @@
                 },
                 {
                   "type": "p",
-                  "texte": "À la fin de chaque cycle, il remonte près de la surface, et si les conditions ont changé, il peut avoir des difficultés pour se rendormir¹. **À cet âge, c'est normal : rien n'est à corriger, tout est à accompagner.** Il est important de commencer à diversifier les conditions d'endormissement de ton bébé."
+                  "texte": "Entre chaque cycle, il remonte à la surface avec un micro-réveil, et si les conditions ont changé, il peut avoir des difficultés pour se rendormir¹. **À cet âge, c'est normal : rien n'est à corriger, tout est à accompagner.** Il est important de commencer à diversifier les conditions d'endormissement de ton bébé."
                 }
               ]
             },
@@ -1041,7 +1003,7 @@
                 {
                   "type": "liste",
                   "items": [
-                    "la température de la chambre (18 à 20 °C ; nuque chaude et moite : il a trop chaud) ;",
+                    "la température de la chambre (18 à 20 °C ; nuque chaude et moite : il a trop chaud) ;",
                     "ses vêtements, sa couche ;",
                     "un bruit ou une lumière ;",
                     "la tétine perdue (jamais attachée)."
@@ -1300,7 +1262,7 @@
                 {
                   "type": "liste",
                   "items": [
-                    "un bain court, pas tous les soirs : **eau à 37 °C vérifiée au thermomètre de bain**, pièce chauffée, lumière tamisée, voix lente ; **tiens-le toujours, visage hors de l'eau**, ne le lâche jamais, même une seconde, et ne touche pas son visage (le réflexe des points cardinaux pourrait lui faire tourner la tête vers l'eau) ;",
+                    "un bain court, pas tous les soirs : **eau à 37 °C vérifiée au thermomètre de bain**, pièce chauffée, lumière tamisée, voix lente ; **tiens-le toujours, visage hors de l'eau**, ne le lâche jamais, même une seconde, et ne touche pas son visage (le réflexe des points cardinaux pourrait lui faire tourner la tête vers l'eau) ;",
                     "un changement de couche ;",
                     "le pyjama et la gigoteuse : s'il s'endort au sein ou au biberon, tu pourras le poser sans le rhabiller."
                   ]

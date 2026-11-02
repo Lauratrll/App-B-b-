@@ -14,7 +14,7 @@
 `[M0-M5]` **Son lit dans ta chambre, les 6 premiers mois** : dormir près de toi le protège, chacun dans son lit. `[M0-M23]` **Ne t'endors jamais avec lui sur un canapé ou dans un fauteuil.** Si tu sens que tu risques de t'endormir en le nourrissant la nuit, fais-le dans ton lit plutôt que sur un canapé, et repose-le dans son lit dès que possible.
 
 #### Une chambre fraîche, un air sans tabac
-**Entre 18 et 20 °C**, sans trop le couvrir, la tête toujours dégagée : un peu frais vaut mieux que trop chaud. **Aucune fumée** dans le logement ni près de lui.
+**Entre 18 et 20 °C**, sans trop le couvrir, la tête toujours dégagée : un peu frais vaut mieux que trop chaud. **Aucune fumée** dans le logement ni près de lui.
 
 #### La tétine
 **Au moment de dormir, sans forcer** s'il n'en veut pas, **jamais attachée**. S'il est allaité, une fois l'allaitement bien installé.
@@ -30,7 +30,7 @@ Si tu utilises un bruit blanc : **volume bas, loin du lit, pas toute la nuit.**
 **Avant de chercher loin, vérifie le plus simple.**
 
 #### En dix secondes
-La température de la chambre (18 à 20 °C ; sa nuque chaude et moite, il a trop chaud), ses vêtements, sa couche, un bruit ou une lumière, **la tétine perdue** (jamais attachée). `[M0-M5]` Et tout simplement la faim.
+La température de la chambre (18 à 20 °C ; sa nuque chaude et moite, il a trop chaud), ses vêtements, sa couche, un bruit ou une lumière, **la tétine perdue** (jamais attachée). `[M0-M5]` Et tout simplement la faim.
 
 #### Sur quelques jours
 Une dent qui perce (quelques jours autour de sa sortie, mais **tous les réveils ne sont pas dus aux dents**), un rhume, un vaccin, un changement dans sa vie, une nouvelle acquisition.

@@ -38,7 +38,7 @@ Source : ameli.fr — « Votre enfant a de la fièvre : que faire et quand consu
 
 **Consultez en urgence si :**
 - Votre bébé vomit de manière répétée et ne boit plus
-- Votre nourrisson de moins de 6 semaines vomit en jet juste après la tétée
+- Votre nourrisson de moins de 6 semaines vomit en jet juste après la tétée (il ne s'agit pas de régurgitations) alors que son appétit est conservé
 - Votre nourrisson présente des vomissements bilieux (verdâtres)
 - Si votre nourrisson refuse la solution de réhydratation orale, vomit fréquemment ou présente des signes de déshydratation
 
@@ -93,8 +93,8 @@ Sources : ameli.fr — « Nausées et vomissements : un réflexe mécanique dû 
 Solution de réhydratation orale, disponible sans ordonnance en pharmacie : un sachet à diluer dans 200 ml d'eau fraîche non sucrée.
 - Tant que vous n'avez pas vu votre médecin, alimentez votre nourrisson fréquemment sans changer son alimentation (continuez l'allaitement maternel ou poursuivez l'alimentation avec son lait habituel) et complétez les prises de nourriture par une solution de réhydratation.
 - Si vous allaitez, poursuivez l'allaitement comme d'habitude et proposez à votre enfant de la solution de réhydratation orale entre les tétées.
-- Dans un premier temps, proposez à votre enfant la solution de réhydratation orale plusieurs fois par heure et en très petites quantités.
-- Si votre enfant vomit, donnez-lui la boisson bien fraîche, par petites gorgées ou à la cuillère.
+- Dans un premier temps, proposez à votre enfant la solution de réhydratation orale plusieurs fois par heure et en très petites quantités, puis augmentez progressivement les quantités.
+- Si votre enfant vomit, donnez-lui la boisson bien fraîche, par petites gorgées ou à la cuillère, toutes les 5 à 10 minutes. Puis, laissez-le boire la solution de réhydratation orale à volonté, selon sa soif, tant que dure la diarrhée et que le risque de déshydratation persiste.
 
 Sources : Carnet de santé, édition 2024 ; ameli.fr — « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025
 
@@ -103,7 +103,7 @@ Sources : Carnet de santé, édition 2024 ; ameli.fr — « Diarrhée et gastro-
 **Consultez en urgence si :**
 - Votre enfant ne mange plus et ne boit plus
 - La diarrhée persiste plus de deux jours, s'aggrave
-- La diarrhée s'accompagne d'une fièvre supérieure à 38,5° C
+- La diarrhée s'accompagne d'une fièvre supérieure à 38,5 °C
 - Les selles contiennent des glaires ou du sang
 - Votre enfant présente des signes de déshydratation
 - Si votre nourrisson refuse la solution de réhydratation orale, vomit fréquemment ou présente des signes de déshydratation
@@ -111,7 +111,7 @@ Sources : Carnet de santé, édition 2024 ; ameli.fr — « Diarrhée et gastro-
 Sources : ameli.fr — « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025 ; mpedia.fr (AFPA) — « Gastro-entérite aiguë chez l'enfant : que faire ? », 18 septembre 2024 (refus de la solution)
 
 **Consultez rapidement votre médecin si :**
-- Si votre nourrisson (de moins de 2 ans) a une diarrhée aiguë (au moins trois selles liquides en quelques heures) avec ou sans vomissements, il est important de consulter rapidement.
+- Si votre nourrisson (de moins de 2 ans) a une diarrhée aiguë (au moins trois selles liquides en quelques heures) avec ou sans vomissements, il est important de consulter rapidement son médecin ou pédiatre.
 
 Source : ameli.fr — « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025
 
@@ -152,30 +152,47 @@ Source : mpedia.fr (AFPA) — « Diarrhée de bébé : causes, symptômes et tra
 Solution de réhydratation orale, disponible sans ordonnance en pharmacie : un sachet à diluer dans 200 ml d'eau fraîche non sucrée.
 - Tant que vous n'avez pas vu votre médecin, alimentez votre nourrisson fréquemment sans changer son alimentation (continuez l'allaitement maternel ou poursuivez l'alimentation avec son lait habituel) et complétez les prises de nourriture par une solution de réhydratation.
 - Si vous allaitez, poursuivez l'allaitement comme d'habitude et proposez à votre enfant de la solution de réhydratation orale entre les tétées.
-- Dans un premier temps, proposez à votre enfant la solution de réhydratation orale plusieurs fois par heure et en très petites quantités.
-- Si votre enfant vomit, donnez-lui la boisson bien fraîche, par petites gorgées ou à la cuillère.
+- Dans un premier temps, proposez à votre enfant la solution de réhydratation orale plusieurs fois par heure et en très petites quantités, puis augmentez progressivement les quantités.
+- Si votre enfant vomit, donnez-lui la boisson bien fraîche, par petites gorgées ou à la cuillère, toutes les 5 à 10 minutes. Puis, laissez-le boire la solution de réhydratation orale à volonté, selon sa soif, tant que dure la diarrhée et que le risque de déshydratation persiste.
 
 Sources : Carnet de santé, édition 2024 ; ameli.fr — « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025
 
 ### Difficultés à respirer
 
-**Consultez en urgence si :**
+**Consultez en urgence si :**
+**Sa respiration**
+- Il a de plus en plus de mal à respirer : sa respiration est rapide et plus courte ou irrégulière et lente, il fait des pauses respiratoires, il présente des battements des narines, les espaces entre ses côtes et au-dessus de ses clavicules se creusent (tirage intercostal).
+
+**Son aspect**
+- Il est pâle, il geint et/ou ses lèvres et ses doigts bleuissent.
+
+**Son comportement et son alimentation**
+- Son comportement m'inquiète : il dort tout le temps et il manque de tonus (il paraît « mou ») ou, au contraire, il pleure de façon inhabituelle, il est agité et ne parvient pas à s'endormir.
+- Il boit moins de la moitié de ses biberons à 3 repas consécutifs ou il ne parvient pas à téter en cas d'allaitement maternel.
+- Il vomit systématiquement... ce qui peut entraîner une déshydratation.
+
+**Sa situation**
 - Mon nourrisson est âgé de moins de 2 mois.
 - Il est né prématurément (avant 36 semaines d'aménorrhée).
-- Il est atteint d'une maladie cardiaque, d'une maladie respiratoire ou d'un déficit immunitaire
-- Il boit moins de la moitié de ses biberons à 3 repas consécutifs
-- Il vomit systématiquement
-- Son comportement m'inquiète : il dort tout le temps et il manque de tonus
-- Il est pâle, il geint et/ou ses lèvres et ses doigts bleuissent
-- Il a de plus en plus de mal à respirer : sa respiration est rapide et plus courte ou irrégulière et lente, il fait des pauses respiratoires, il présente des battements des narines, les espaces entre ses côtes et au-dessus de ses clavicules se creusent (tirage intercostal).
-- → Je contacte sans tarder le service d'aide médicale d'urgence (Samu) : 15 ou 112.
+- Il est atteint d'une maladie cardiaque, d'une maladie respiratoire ou d'un déficit immunitaire ou il a un handicap qui l'empêche de tousser.
 
-Source : ameli.fr — « Bronchiolite : que faire ? », 3 juillet 2026
+- → Je contacte sans tarder le service d'aide médicale d'urgence (Samu) : 15 ou 112.
 
-**Une cause possible : la bronchiolite**
+Source : ameli.fr — « Bronchiolite : que faire ? », 3 juillet 2026
+
+**Un simple rhume, ou une gêne respiratoire ?**
+*Si sa respiration change, regardez d'abord les signes en haut de page : ils passent avant tout le reste.*
+**Un rhume**
+- La rhinopharyngite de l'enfant est une maladie souvent bénigne qui guérit en moins de dix jours.
+- Les lavages de nez et le mouchage sont indispensables et suffisants dans la rhinopharyngite.
+- Ne vous inquiétez pas si votre enfant tousse. La toux lui permet d'expulser les sécrétions et de dégager ses voies respiratoires pour mieux respirer.
+
+Source : ameli.fr — « Rhinopharyngite de l'enfant : que faire et quand consulter ? », 5 février 2026
+
+**Une cause possible : la bronchiolite**
 *Seul un médecin peut dire s'il s'agit d'une bronchiolite ou d'autre chose.*
 - La bronchiolite du nourrisson est une infection virale aiguë qui touche les bronchioles (petites bronches).
-- Elle atteint les nourrissons (enfant de moins de 2 ans)
+- Elle atteint les nourrissons (enfant de moins de 2 ans) et se caractérise par un épisode de gêne respiratoire dont les signes sont une toux et une respiration rapide et sifflante.
 - Sévit sous forme d'épidémies en automne dès le mois d'octobre et en hiver.
 - La bronchiolite débute généralement par un simple rhume ou rhinopharyngite avec une légère fièvre.
 - Petit à petit, une toux sèche apparaît.
@@ -183,7 +200,16 @@ Source : ameli.fr — « Bronchiolite : que faire ? », 3 juillet 2026
 - À ce stade de la maladie, l'enfant peut avoir des difficultés à s'alimenter et à dormir.
 - La bronchiolite ne relève pas de l'automédication.
 
-Sources : ameli.fr — « Reconnaître la bronchiolite », 3 juillet 2026 ; « Bronchiolite : que faire ? », 3 juillet 2026
+Sources : ameli.fr — « Reconnaître la bronchiolite », 3 juillet 2026 ; « Bronchiolite : que faire ? », 3 juillet 2026
+
+**Les gestes qui soulagent**
+- Désencombrez le nez de votre enfant avant les repas et régulièrement (autant de fois que nécessaire) en faisant des lavages de nez. Le désencombrement régulier du nez, en particulier pour les nourrissons de moins de 6 mois qui ne sont pas encore en mesure de respirer par la bouche, leur permet de moins lutter pour respirer
+- Lorsqu'il est éveillé, gardez votre enfant droit, ce qui peut l'aider à mieux respirer
+- Pour dormir, continuez à coucher votre enfant sur le dos comme habituellement
+- Continuez à l'alimenter normalement en fractionnant ses repas s'il est fatigué. Poursuivez son lait habituel. Si vous allaitez et que votre bébé est trop fatigué pour téter, pensez à tirer votre lait.
+- Aérez sa chambre fréquemment et maintenez la température à 19 °C au maximum
+
+Source : ameli.fr — « Bronchiolite : que faire ? », 3 juillet 2026
 
 ### Choc à la tête
 

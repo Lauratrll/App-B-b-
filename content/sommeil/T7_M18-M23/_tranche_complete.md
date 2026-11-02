@@ -24,27 +24,25 @@ Ancienne version : content/sommeil/_sauvegardes/2026-10-29_T7_avant_slots/ · f
 
 ## 2 · COMPRENDRE SON SOMMEIL
 
-### Mois par mois
+### Ce qui se passe
 
 #### M18 · Poser sa journée
-Vers 18 mois, son sommeil a l'organisation du tien et il n'a plus qu'une sieste, en milieu de journée. Ce qui bouge, ce n'est plus l'escalier du sommeil : c'est **ce qu'il emporte en le descendant**, ses images, ses mots, ses premières peurs. Les terreurs nocturnes sont aussi les plus fréquentes autour de cet âge. Ce mois-ci, ce qui l'aide, c'est de **poser sa journée avant le coucher**, en la racontant avec des mots simples.
+Vers 18 mois, son sommeil a l'organisation du tien et il n'a plus qu'une sieste, en milieu de journée. Ce qui bouge, ce n'est plus l'escalier du sommeil : c'est **ce qu'il emporte en le descendant**, ses images, ses mots, ses premières peurs. Les terreurs nocturnes sont aussi les plus fréquentes autour de cet âge. Ce mois-ci, ce qui l'aide, c'est de **poser sa journée avant le coucher**, en la racontant avec des mots simples, et de savoir distinguer une terreur nocturne d'une peur de l'imaginaire.
 
 #### M19 · Un coucher qui s'éternise
 Vers 19 mois, beaucoup de couchers s'étirent : un verre d'eau, une dernière histoire, encore un câlin. Derrière, il y a tantôt une peur, tantôt l'envie de jouer, tantôt un « non » qui s'affirme, et parfois encore la vague de réactions à la séparation (voir les mois précédents). Ce mois-ci, ce qui l'aide, c'est **un rituel plus court, plus clair, avec des limites douces**.
 
 #### M20 · La sieste et le coucher
-Vers 20 mois, son horloge est installée depuis longtemps et elle s'ancre un peu plus chaque mois. Le coucher dépend beaucoup de deux heures : celle de son lever et celle de la fin de sa sieste. Le soir, les histoires prennent de la place : **d'abord l'imaginaire, puis le calme**.
+Vers 20 mois, son horloge est installée depuis longtemps et elle s'ancre un peu plus chaque mois. Le coucher dépend beaucoup de deux heures : celle de son lever et celle de la fin de sa sieste. Le soir, les histoires prennent de la place : **d'abord l'imaginaire, puis le calme**. Ce mois-ci, tu choisis avec lui le moment qui lui ressemble (mouvement, mots, émotions, imaginaire).
 
 #### M21 · Des peurs qui arrivent
 Vers 21 mois, un cerveau qui imagine peut aussi imaginer ce qui fait peur : l'ombre dans le coin, le bruit derrière la porte, le noir. **Il ne les choisit pas.** Ce qui l'aide : une réponse calme, une lumière du matin pour caler sa journée, un temps calme avant la sieste.
 
 #### M22 · Cauchemar ou terreur ?
-Vers 2 ans, certains enfants commencent à avoir de mauvais rêves qu'ils peuvent raconter. Ce n'est pas la même chose qu'une terreur nocturne : **il te reconnaît, il se console dans tes bras, il s'en souvient**. Ce mois-ci, ce qui l'aide, c'est une réponse calme à sa peur, avec les mêmes mots chaque nuit.
+Vers 2 ans, certains enfants commencent à avoir de mauvais rêves qu'ils peuvent raconter. Ce n'est pas la même chose qu'une terreur nocturne : **il te reconnaît, il se console dans tes bras, il s'en souvient**. Ce mois-ci, ce qui l'aide, c'est une réponse calme à sa peur, avec les mêmes mots chaque nuit, et un petit objet de réconfort s'il en a un.
 
 #### M23 · Refuser la sieste, ou en avoir encore besoin ?
 Vers 23 mois, beaucoup d'enfants disent « non » à la sieste sans pour autant ne plus en avoir besoin. **Ses nuits te le disent** : si elles se dégradent les jours sans sieste, elle lui sert encore. Le temps calme peut faire le relais, sans qu'on ait à anticiper la fin de la sieste.
-
-### Ce que tu observes
 
 #### Ce que tu vas peut-être voir
 Un **coucher qui s'étire**. Un « non » à la sieste. De petites peurs, le soir, qui arrivent avec les mots : « monstre », « noir », « peur ». Une nuit agitée après une journée chargée ou sans sieste. Parfois, **en début de nuit, un cri** : il est assis, les yeux ouverts, il ne te reconnaît pas (voir « Si c'est une terreur nocturne », dans Réveils nocturnes). Et, vers la fin de cette période, un **réveil en pleurs** : il te reconnaît et se console dans tes bras.
@@ -58,7 +56,7 @@ Un **coucher qui s'étire**. Un « non » à la sieste. De petites peurs, le s
 Entre 12 et 18 mois, **son sommeil prend l'organisation de celui d'un adulte**¹. Il s'endort par le sommeil léger et plonge vite dans un sommeil profond, qui domine le début de nuit : c'est là que son corps se répare. Le sommeil paradoxal, celui qui répare surtout le cerveau, revient par vagues de plus en plus longues vers le matin. **Un cycle dure environ 70 minutes**², plus court que les tiens : ils s'allongeront peu à peu jusque vers 3 ou 4 ans. Son horloge est installée depuis ses 9 mois environ et s'ancre un peu plus chaque mois, mais **horloge installée ne veut pas dire horaires fixes** : les horaires restent souples.
 
 #### Ses réveils
-Entre deux cycles, il remonte près de la surface plusieurs fois par nuit, comme toi, **le plus souvent sans que tu le saches.** Et il peut arriver, en début de nuit, qu'il se réveille **à moitié**, quand il sort du sommeil profond : c'est ce qu'on appelle une terreur nocturne³. Elles sont les plus fréquentes autour de 18 mois.
+Entre deux cycles, il remonte à la surface avec un micro-réveil, plusieurs fois par nuit, comme toi, **le plus souvent sans que tu le saches.** Et il peut arriver, en début de nuit, qu'il se réveille **à moitié**, quand il sort du sommeil profond : c'est ce qu'on appelle une terreur nocturne³. Elles sont les plus fréquentes autour de 18 mois.
 
 ### Ses apprentissages et son sommeil
 
@@ -66,13 +64,13 @@ Entre deux cycles, il remonte près de la surface plusieurs fois par nuit, comme
 La marche et la course, les mots qui s'enchaînent, l'imagination, l'envie de décider : ses chantiers s'accélèrent. Les mêmes études⁴ montrent que **les réveils augmentent à chaque nouvelle compétence** : ce n'est pas un recul du sommeil, c'est la preuve qu'il grandit.
 
 #### Ce qu'il emporte dans son sommeil
-Il vient d'entrer dans le monde des images : il fait semblant, il nomme, il invente. Ce qui bouge n'est plus l'escalier du sommeil, c'est **ce qu'il emporte en le descendant**. Il garde la trace de ce qu'il a vu, entendu, vécu dans la journée, et c'est pour cela que **poser sa journée avant le coucher** l'aide.
+Il vient d'entrer dans le monde des images : il fait semblant, il nomme, il invente. Ce qui bouge n’est plus la façon d’entrer dans le sommeil, c’est **ce qu'il emporte en le descendant**. Il garde la trace de ce qu'il a vu, entendu, vécu dans la journée, et c'est pour cela que **poser sa journée avant le coucher** l'aide.
 
 #### Des peurs nouvelles
-Un cerveau qui imagine peut aussi imaginer ce qui fait peur : l'ombre, le bruit, le noir, les monstres. **Ces peurs ne sont pas des caprices** : l'enfant qui a peur du noir la ressent vraiment⁵. Vers 2 ans, certains commencent aussi à avoir de mauvais rêves, qu'on ne peut reconnaître que s'ils savent les raconter⁶.
+Un cerveau qui imagine peut aussi imaginer ce qui fait peur : l'ombre, le bruit, le noir, les monstres. **Ces peurs ne sont pas des caprices** : l'enfant qui a peur du noir la ressent vraiment⁵. Vers 2 ans, certains commencent aussi à avoir de mauvais rêves, qu'on ne peut reconnaître que s'ils savent les raconter⁶.
 
 #### Des émotions plus grandes que lui
-Peurs, colères, joies fortes : ses émotions sont intenses, et il ne sait pas encore les calmer seul. Le soir, quand la fatigue s'ajoute, la petite tempête intérieure peut éclater en pleurs ou en refus. Nomme ce qu'il vit (« tu es en colère, tu es fatigué »), reste près de lui, garde tes gestes habituels : tu l'aides à retrouver son calme, et c'est ainsi qu'il apprendra à le faire seul.
+Peurs, colères, joies fortes : ses émotions sont intenses, et il ne sait pas encore les calmer seul. Le soir, quand la fatigue s'ajoute, la petite tempête intérieure peut éclater en pleurs ou en refus. Nomme ce qu'il vit (« tu es en colère, tu es fatigué »), reste près de lui, garde tes gestes habituels : tu l'aides à retrouver son calme, et c'est ainsi qu'il apprendra à le faire seul.
 
 #### Une sieste qui reste
 À 18 mois, presque tous les enfants font encore la sieste, et la plupart la font encore à 2 ans⁷. Ce n'est pas un reste de bébé : **elle lui reste utile bien après 2 ans.**
@@ -86,16 +84,15 @@ La nouvelle vague de réactions à la séparation, commencée vers 17 mois, peut
 ### Ce dont ton enfant a besoin
 
 #### Un petit être qui dépend de vous
-Si ton enfant ne dort pas comme tu le voudrais, **il ne peut pas faire autrement**⁵. Il n'a ni caprice ni stratégie, et se mettre à ta place, il ne le saura que vers 4 ans. Quand il pleure, se réveille ou retarde le coucher, **il exprime un besoin**, même quand tu ne le trouves pas.
+Si ton enfant ne dort pas comme tu le voudrais, **il ne peut pas faire autrement**⁵. Il n'a ni caprice ni stratégie, et se mettre à ta place, il ne le saura que vers 4 ans. Quand il pleure, se réveille ou retarde le coucher, **il exprime un besoin**, et il n'est pas toujours facile à deviner : tu n'as pas à tout comprendre du premier coup, tu cherches avec lui.
 
 #### Ses besoins fondamentaux
 Pour que son cerveau puisse lâcher prise et dormir, il a besoin de se sentir en sécurité :
 - **être nourri**, quand il a faim, sans attendre ;
 - **être au chaud**, ni trop ni pas assez couvert ;
-- **être touché, contenu, porté** : neuf mois dans le ventre, neuf mois sur le ventre ;
+- **être contenu, porté** : neuf mois dans le ventre, neuf mois sur le ventre. Même quand il court et dit « non », **porter son enfant, c'est bon pour lui. Les bras de ses parents restent le premier endroit où il se sent aimé et compris** : quand tu le rassures, tu l'aides à retrouver son calme (c'est la co-régulation), et tu remplis son réservoir affectif⁵. Plus il se sent en sécurité, plus il ose s'éloigner ;
 - **être entendu** : ta voix, ta présence, une réponse quand il appelle ;
 - **être rassuré** : savoir que tu es là, et que tu reviens quand tu sors.
-Même quand il court et dit « non », **porter son enfant, c'est bon pour lui. Les bras de ses parents restent son refuge** : quand tu le rassures, tu l'aides à retrouver son calme (c'est la co-régulation), et tu remplis son réservoir affectif⁵. Plus il se sent en sécurité, plus il ose s'éloigner.
 
 #### Et toi, dans tout ça
 **C'est parfois difficile, et c'est normal.** Une sieste qui change, des peurs, des couchers qui s'étirent, des nuits remuées : tout ça en même temps, c'est beaucoup. Le sommeil des parents est au plus bas dans les premiers mois et peut mettre des années à se remettre⁹. Tu ne peux pas répondre à tout, tout le temps : **tu fais de ton mieux, et c'est déjà beaucoup.** Prendre soin de toi, c'est aussi prendre soin de lui.
@@ -281,7 +278,7 @@ En fin d'après-midi, parlez-en : **le co-parent peut prendre le bain, le massa
 
 #### Ce qui l'endort, c'est un ensemble
 Ton enfant s'endort dans les conditions qu'il connaît : le sein ou le biberon, tes bras, ta voix, une histoire, la tétine, son doudou. Ces conditions ne sont pas un détail : ce sont elles qui **mettent son cerveau en état de plonger dans le sommeil**. C'est un peu comme un adulte qui se laisse glisser dans une détente profonde, presque une auto-hypnose, en répétant les mêmes gestes ou les mêmes images : ton enfant s'abandonne parce que ces repères lui sont familiers.
-À la fin de chaque cycle, il remonte près de la surface, et si les conditions ont changé, il peut avoir des difficultés pour se rendormir¹. **À cet âge, c'est normal : rien n'est à corriger, tout est à accompagner.** Il sait de plus en plus ce qui va se passer, et les mots l'aident. Tu peux continuer à varier, pour diversifier les conditions d'endormissement de ton enfant.
+Entre chaque cycle, il remonte à la surface avec un micro-réveil, et si les conditions ont changé, il peut avoir des difficultés pour se rendormir¹. **À cet âge, c'est normal : rien n'est à corriger, tout est à accompagner.** Il sait de plus en plus ce qui va se passer, et les mots l'aident. Tu peux continuer à varier, pour diversifier les conditions d'endormissement de ton enfant.
 
 #### Le rituel du soir et l'endormissement
 Ce ne sont pas la même chose. **Le rituel prépare** : c'est la suite de gestes qui annonce la nuit, toujours dans le même ordre (bain, pyjama, histoire, une phrase du soir, câlin…), environ une heure. **Les conditions d'endormissement** sont la phase de mise en condition au sommeil, les 15 dernières minutes environ : celles où son cerveau se met en état de plonger dans le sommeil, sans entrer dans une nouvelle activité. On peut travailler l'un sans toucher à l'autre.
@@ -291,7 +288,7 @@ Derrière un coucher qui s'étire, il y a le plus souvent une de ces choses, par
 
 #### « Je ne veux pas l'habituer aux bras »
 Cette phrase, beaucoup de parents l'entendent, ou se la répètent. Elle mérite d'être déconstruite : **porter son enfant, c'est bon pour lui. Ce n'est pas une mauvaise habitude.**
-Contre toi, il retrouve la contenance, la chaleur et la voix qu'il connaît depuis toujours. **Les bras de ses parents sont son refuge.** En le portant, tu ne le rends pas dépendant : tu lui donnes la sécurité qui lui permet de s'éloigner de toi en confiance, et c'est ce que tu vois aujourd'hui, quand il part explorer et revient vers toi². Un enfant n'a ni calcul ni caprice : il exprime un besoin.
+Contre toi, il retrouve la contenance, la chaleur et la voix qu'il connaît depuis toujours. **Tes bras, c'est là qu'il se sent aimé tel qu'il est.** En le portant, tu ne le rends pas dépendant : tu lui donnes la sécurité qui lui permet de s'éloigner de toi en confiance, et c'est ce que tu vois aujourd'hui, quand il part explorer et revient vers toi². Un enfant n'a ni calcul ni caprice : il exprime un besoin.
 **Être accompagné pour s'endormir ou se rendormir n'est donc pas un problème à régler.** Varier les conditions, ce n'est pas le porter moins : c'est lui offrir, en plus des bras, d'autres façons de s'apaiser : ta voix, une histoire, ta main, le relais de l'autre parent.
 
 #### Sa chambre, un lieu où il aime être
@@ -302,7 +299,7 @@ Sa chambre est un lieu vivant, où il aime passer du temps, **et qui n'est pas u
 > Chacune répond à un besoin de ton enfant. Certaines peuvent aussi te fatiguer : c'est humain, et tu fais de ton mieux.
 
 #### Contre toi
-Le contact, ta chaleur, ton rythme respiratoire : c'est la condition qu'il connaît le mieux, et elle reste son refuge, même grand : un câlin assis près de son lit avant la pose compte beaucoup. Si tu as envie de varier : main sur son ventre, puis sur sa jambe, puis ta main près de lui sans le toucher.
+Le contact, ta chaleur, ton rythme respiratoire : c'est la condition qu'il connaît le mieux, et elle reste l'endroit où il se sent bien, même grand : un câlin assis près de son lit avant la pose compte beaucoup. Si tu as envie de varier : main sur son ventre, puis sur sa jambe, puis ta main près de lui sans le toucher.
 
 #### Au sein ou au biberon
 La succion l'apaise, et à cet âge, s'endormir en tétant reste possible : c'est surtout un moment de réconfort et de lien.
@@ -382,7 +379,7 @@ Si c'est trop dur un soir, tu arrêtes, tu reprends plus tard : ce n'est pas un
 
 Et si les pleurs montent, **il l'accompagne contre lui, avec sa voix** : appeler l'autre n'est jamais un échec.
 
-`source` : ¹ Les conditions d'endormissement et les réveils entre deux cycles : American Academy of Sleep Medicine, *International Classification of Sleep Disorders* ; ² Les bras des parents, le refuge, la base de sécurité, la chambre comme lieu vivant, la peur du noir qui n'est pas volontaire, la veilleuse, les ombres de la nuit, les histoires qui font peur : formation EDPP, *Pleurs et sommeil* (notes et livret) ; Bowlby J., *Attachment and Loss*, 1969 ; Ainsworth M., 1978 ; ³ Pas de sommeil partagé sur un canapé ou dans un fauteuil : HAS, 2007 ; Blair P. S. et al., *BMJ*, 2009 ; ⁴ Tétine au coucher, sans forcer, jamais attachée : ameli.fr, 2024 ; ⁵ Rien dans le lit la première année : HAS, 2007 ; ⁶ La lumière du soir freine la mélatonine chez le jeune enfant, et une lumière chaude moins qu'une froide : Hartstein L. E. et al., *Journal of Pineal Research*, 2022 ; *Journal of Biological Rhythms*, 2025 ; ⁷ Créer de nouvelles connexions par l'expérience, préparer le cerveau à d'autres conditions d'endormissement, poser un bébé en sommeil agité, créer une nouvelle habitude (au moins 3 semaines de répétition) : formation EDPP, *Pleurs et sommeil* ; ⁸ La présence mesurée, étape par étape, et redescendre d'un cran quand ça fonctionne : formation EDPP, *Pleurs et sommeil* (d'après la réponse mesurée aux pleurs de T. B. Brazelton)
+`source` : ¹ Les conditions d'endormissement et les réveils entre deux cycles : American Academy of Sleep Medicine, *International Classification of Sleep Disorders* ; ² Les bras des parents, la tendresse, la base de sécurité, la chambre comme lieu vivant, la peur du noir qui n'est pas volontaire, la veilleuse, les ombres de la nuit, les histoires qui font peur : formation EDPP, *Pleurs et sommeil* (notes et livret) ; Bowlby J., *Attachment and Loss*, 1969 ; Ainsworth M., 1978 ; ³ Pas de sommeil partagé sur un canapé ou dans un fauteuil : HAS, 2007 ; Blair P. S. et al., *BMJ*, 2009 ; ⁴ Tétine au coucher, sans forcer, jamais attachée : ameli.fr, 2024 ; ⁵ Rien dans le lit la première année : HAS, 2007 ; ⁶ La lumière du soir freine la mélatonine chez le jeune enfant, et une lumière chaude moins qu'une froide : Hartstein L. E. et al., *Journal of Pineal Research*, 2022 ; *Journal of Biological Rhythms*, 2025 ; ⁷ Créer de nouvelles connexions par l'expérience, préparer le cerveau à d'autres conditions d'endormissement, poser un bébé en sommeil agité, créer une nouvelle habitude (au moins 3 semaines de répétition) : formation EDPP, *Pleurs et sommeil* ; ⁸ La présence mesurée, étape par étape, et redescendre d'un cran quand ça fonctionne : formation EDPP, *Pleurs et sommeil* (d'après la réponse mesurée aux pleurs de T. B. Brazelton)
 
 ---
 
@@ -440,7 +437,7 @@ Il cherche à téter, ouvre la bouche, porte ses mains à la bouche, s'agite ava
 
 #### 3. Quelque chose le gêne-t-il ?
 En dix secondes, vérifie :
-- la température de la chambre (18 à 20 °C ; nuque chaude et moite : il a trop chaud) ;
+- la température de la chambre (18 à 20 °C ; nuque chaude et moite : il a trop chaud) ;
 - ses vêtements, sa couche ;
 - un bruit ou une lumière ;
 - la tétine perdue (jamais attachée) ;
@@ -532,7 +529,7 @@ Termine toujours par la même phrase, avec le même ton : « La nuit arrive. T
 La dernière tétée ou le dernier biberon, tout contre toi, si c'est encore le cas. Dans la pénombre, une **lumière ambrée et faible** si tu as besoin d'y voir, sans téléphone. S'il s'endort en buvant, laisse-le finir tranquillement. Un moment à la verticale contre toi, puis tu le poses. Un verre d'eau peut faire partie du rituel, prévu d'avance.
 
 #### Soin
-- un bain court, pas tous les soirs : **eau à 37 °C vérifiée au thermomètre de bain**, pièce chauffée, lumière tamisée, voix lente ; **tiens-le toujours, visage hors de l'eau**, ne le lâche jamais, même une seconde, surtout maintenant qu'il marche et bouge sans cesse ;
+- un bain court, pas tous les soirs : **eau à 37 °C vérifiée au thermomètre de bain**, pièce chauffée, lumière tamisée, voix lente ; **tiens-le toujours, visage hors de l'eau**, ne le lâche jamais, même une seconde, surtout maintenant qu'il marche et bouge sans cesse ;
 - le brossage des dents ;
 - un changement de couche ;
 - le pyjama et la gigoteuse.

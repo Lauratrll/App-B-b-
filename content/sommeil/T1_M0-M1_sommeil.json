@@ -16,8 +16,8 @@
       "titre": "Comprendre son sommeil",
       "sections": [
         {
-          "id": "mois-par-mois",
-          "titre": "Mois par mois",
+          "id": "ce-qui-se-passe",
+          "titre": "Ce qui se passe",
           "chapeau": null,
           "volets": [
             {
@@ -25,7 +25,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Ton bébé vient d'arriver, et son sommeil n'est pas encore organisé : il dort beaucoup, par petits morceaux, de jour comme de nuit, au rythme de ses besoins. Il n'a pas encore d'horloge : ni nuit à réussir, ni siestes à compter. Ses moments d'éveil calme sont très courts, quelques minutes entre deux sommeils : c'est là qu'il te regarde, qu'il te reconnaît. Le reste du temps, il dort, il tète, il récupère. Ces premiers jours, tu n'as rien à apprendre à ton bébé : tu apprends à le connaître."
+                  "texte": "Ton bébé vient d'arriver, et son sommeil n'est pas encore organisé : il dort beaucoup, par petits morceaux, de jour comme de nuit, au rythme de ses besoins. Il n'a pas encore d'horloge : ni nuit à réussir, ni siestes à compter. Ses moments d'éveil calme sont très courts, quelques minutes entre deux sommeils : c'est là qu'il te regarde, qu'il te reconnaît. Le reste du temps, il dort, il tète, il récupère. Ces premiers jours, tu n'as rien à apprendre à ton bébé : tu apprends à le connaître. Ce mois-ci, tu apprends à reconnaître son sommeil agité, à repérer la fin de ses éveils calmes et à lui donner doucement des repères entre le jour et la nuit."
                 }
               ]
             },
@@ -34,18 +34,10 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Vers 1 mois, ses éveils calmes s'allongent peu à peu : il est plus attentif, il suit ton visage, il écoute ta voix. Son sommeil reste morcelé, de jour comme de nuit, et les soirs peuvent être agités : c'est la période où les pleurs du soir sont les plus fréquents. Chez certains bébés, une période de sommeil un peu plus longue apparaît, souvent la nuit : ce n'est qu'une ébauche, elle va et vient d'un jour à l'autre. Rien ne s'installe encore, et c'est normal."
+                  "texte": "Vers 1 mois, ses éveils calmes s'allongent peu à peu : il est plus attentif, il suit ton visage, il écoute ta voix. Son sommeil reste morcelé, de jour comme de nuit, et les soirs peuvent être agités : c'est la période où les pleurs du soir sont les plus fréquents. Chez certains bébés, une période de sommeil un peu plus longue apparaît, souvent la nuit : ce n'est qu'une ébauche, elle va et vient d'un jour à l'autre. Rien ne s'installe encore, et c'est normal. Ce mois-ci, tu apprends à reconnaître ses signes de fatigue, à traverser les pleurs de fin de journée et à répondre à ses tétées rapprochées sans culpabiliser."
                 }
               ]
-            }
-          ],
-          "sources": null
-        },
-        {
-          "id": "ce-que-tu-observes",
-          "titre": "Ce que tu observes",
-          "chapeau": null,
-          "volets": [
+            },
             {
               "titre": "Ce que tu vas peut-être voir",
               "blocs": [
@@ -60,7 +52,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "**Ce n'est pas toi qui t'y prends mal** : son cerveau n'a pas fini de construire son sommeil. Il ne se réveille pas contre toi, il se réveille parce qu'à cet âge, le sommeil et la faim se succèdent de très près."
+                  "texte": "**Ce n'est pas toi qui t'y prends mal** : son cerveau n'a pas fini de construire son sommeil. Il ne se réveille pas contre toi, il se réveille parce qu'à cet âge, le sommeil et la faim se succèdent de très près."
                 }
               ]
             }
@@ -77,15 +69,15 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Le sommeil de ton bébé n'est pas un interrupteur : **c'est son cerveau qui passe d'un état de vigilance à un autre**¹, de l'éveil au sommeil, et du sommeil à l'éveil. Ces états, tu peux apprendre à les reconnaître :"
+                  "texte": "Le sommeil de ton bébé n'est pas un interrupteur : **c'est son cerveau qui passe d'un état de vigilance à un autre**¹, de l'éveil au sommeil, et du sommeil à l'éveil. Ces états, tu peux apprendre à les reconnaître :"
                 },
                 {
                   "type": "liste",
                   "items": [
-                    "**le sommeil agité** : il bouge, grimace, ses yeux roulent sous ses paupières, et pourtant il dort ;",
-                    "**le sommeil calme** : il est immobile, sa respiration est régulière ;",
-                    "**l'éveil calme** : ses yeux sont ouverts et brillants, il te regarde, il bouge peu ;",
-                    "**l'éveil agité** : il s'agite, ses mouvements deviennent désordonnés ;",
+                    "**le sommeil agité** : il bouge, grimace, ses yeux roulent sous ses paupières, et pourtant il dort ;",
+                    "**le sommeil calme** : il est immobile, sa respiration est régulière ;",
+                    "**l'éveil calme** : ses yeux sont ouverts et brillants, il te regarde, il bouge peu ;",
+                    "**l'éveil agité** : il s'agite, ses mouvements deviennent désordonnés ;",
                     "**les pleurs**."
                   ]
                 },
@@ -100,42 +92,42 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Pendant ces premières semaines, **il dort surtout d'un sommeil agité** : il représente 50 à 60 % de son temps de sommeil². C'est aussi par là qu'il entre dans le sommeil, et par là qu'il en sort : il bouge, grimace, entrouvre les yeux, pousse de petits pleurs, et pourtant il dort. Ce sommeil agité est **un sommeil paradoxal en construction** : ses mouvements ne sont pas des réveils, et des chercheurs pensent même qu'ils aident son cerveau à faire connaissance avec son corps³."
+                  "texte": "Pendant ces premières semaines, **il dort surtout d'un sommeil agité** : il représente 50 à 60 % de son temps de sommeil². C'est aussi par là qu'il entre dans le sommeil, et par là qu'il en sort : il bouge, grimace, entrouvre les yeux, pousse de petits pleurs, et pourtant il dort. Ce sommeil agité est **un sommeil paradoxal en construction** : ses mouvements ne sont pas des réveils, et des chercheurs pensent même qu'ils aident son cerveau à faire connaissance avec son corps³."
                 },
                 {
                   "type": "p",
-                  "texte": "**Un bébé peut pleurer en dormant.** C'est souvent en se précipitant vers lui qu'on le réveille sans le vouloir. Le test facile : **est-ce qu'il interagit avec toi ? Si non, cela peut être le signe qu'il dort encore, même s'il a les yeux ouverts.**"
+                  "texte": "**Un bébé peut pleurer en dormant.** C'est souvent en se précipitant vers lui qu'on le réveille sans le vouloir. Le test facile : **est-ce qu'il interagit avec toi ? Si non, cela peut être le signe qu'il dort encore, même s'il a les yeux ouverts.**"
                 },
                 {
                   "type": "p",
-                  "texte": "Quand il dort, en sommeil agité :"
+                  "texte": "Quand il dort, en sommeil agité :"
                 },
                 {
                   "type": "liste",
                   "items": [
-                    "ses yeux sont fermés ou entrouverts, le regard ne se pose sur rien ;",
-                    "ses pleurs sont brefs, irréguliers, ils s'arrêtent d'eux-mêmes ;",
-                    "ses mouvements sont des sursauts, des grimaces, des doigts qui s'agitent, par à-coups ;",
-                    "sa respiration est irrégulière ;",
+                    "ses yeux sont fermés ou entrouverts, le regard ne se pose sur rien ;",
+                    "ses pleurs sont brefs, irréguliers, ils s'arrêtent d'eux-mêmes ;",
+                    "ses mouvements sont des sursauts, des grimaces, des doigts qui s'agitent, par à-coups ;",
+                    "sa respiration est irrégulière ;",
                     "il ne réagit ni à ta voix ni à ton visage."
                   ]
                 },
                 {
                   "type": "p",
-                  "texte": "Quand il est réveillé, en éveil agité :"
+                  "texte": "Quand il est réveillé, en éveil agité :"
                 },
                 {
                   "type": "liste",
                   "items": [
-                    "ses yeux sont ouverts, ils cherchent, ils te trouvent ;",
-                    "ses pleurs montent et s'installent ;",
-                    "ses mouvements sont de plus en plus amples ;",
+                    "ses yeux sont ouverts, ils cherchent, ils te trouvent ;",
+                    "ses pleurs montent et s'installent ;",
+                    "ses mouvements sont de plus en plus amples ;",
                     "il te répond."
                   ]
                 },
                 {
                   "type": "p",
-                  "texte": "Dans le doute, **attends quelques instants et observe** : s'il dort, ça passe tout seul."
+                  "texte": "Dans le doute, **attends quelques instants et observe** : s'il dort, ça passe tout seul."
                 }
               ]
             },
@@ -144,16 +136,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Puis vient le sommeil calme : immobile, la respiration régulière. À cet âge, il ne dure qu'une vingtaine de minutes, en un seul bloc. **C'est pour ça qu'on croit parfois que bébé fait des siestes de 20 minutes, alors qu'il a dormi 45 minutes** : le sommeil agité, lui, ne se voit pas toujours comme du sommeil."
-                }
-              ]
-            },
-            {
-              "titre": "Il dort par petits morceaux",
-              "blocs": [
-                {
-                  "type": "p",
-                  "texte": "Sur 24 heures, ton bébé dort beaucoup, mais **par petits morceaux, de jour comme de nuit**, au rythme de ses besoins : manger, dormir, regarder, recommencer. Pas de sieste à compter, pas de nuit à réussir : à cet âge, tout cela n'existe pas encore."
+                  "texte": "Puis vient le sommeil calme : immobile, la respiration régulière. À cet âge, il ne dure qu'une vingtaine de minutes, en un seul bloc. **C'est pour ça qu'on croit parfois que bébé fait des siestes de 20 minutes, alors qu'il a dormi 45 minutes** : le sommeil agité, lui, ne se voit pas toujours comme du sommeil."
                 }
               ]
             },
@@ -162,33 +145,25 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Côté hormones, la mélatonine donne l'heure au corps, elle n'endort pas. **La sienne vient de toi** : elle passe par le placenta avant la naissance, puis par le lait maternel s'il est allaité, plus riche le soir que le matin⁴. Son propre cerveau ne commencera à en fabriquer que vers 3 mois. Il ne fait donc pas encore la différence entre le jour et la nuit : ce n'est ni un caprice ni un défaut, son corps n'est pas encore équipé pour. Vers la fin du premier mois, **les choses commencent à bouger** : ses éveils de jour s'allongent, il est plus souvent calme et attentif. Ce n'est qu'une ébauche."
+                  "texte": "Côté hormones, la mélatonine donne l'heure au corps, elle n'endort pas encore. **La sienne vient de toi** : elle passe par le placenta avant la naissance, puis par le lait maternel s'il est allaité, plus riche le soir que le matin⁴. Son propre cerveau (par sa glande pinéale) ne commencera à en fabriquer que vers 3 mois. Il ne fait donc pas encore la différence entre le jour et la nuit : ce n'est ni un caprice ni un défaut, son corps n'est pas encore équipé pour. Vers la fin du premier mois, **les choses commencent à bouger** : ses éveils de jour s'allongent, il est plus souvent calme et attentif. Ce n'est qu'une ébauche."
                 }
               ]
-            }
-          ],
-          "sources": null
-        },
-        {
-          "id": "un-sommeil-qui-se-construit",
-          "titre": "Un sommeil qui se construit",
-          "chapeau": null,
-          "volets": [
+            },
             {
               "titre": "Des éveils calmes qui s'allongent",
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "À la naissance, ses moments d'éveil calme durent **5 à 10 minutes**, deux fois par jour seulement. Vers 1 mois, ils atteignent **environ 30 minutes**⁵, deux fois par jour. Chaque éveil lui demande beaucoup d'effort : c'est pour ça qu'il s'épuise vite, et qu'il a besoin de dormir après."
+                  "texte": "À la naissance, ses moments d'éveil calme durent **5 à 10 minutes**, deux fois par jour seulement. Vers 1 mois, ils atteignent **environ 30 minutes**⁵, deux fois par jour. Chaque éveil lui demande beaucoup d'effort : c'est pour ça qu'il s'épuise vite, et qu'il a besoin de dormir après."
                 }
               ]
             },
             {
-              "titre": "Un sommeil qui n'est pas encore une nuit",
+              "titre": "Pas encore de nuit, pas encore de siestes",
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Un nouveau-né ne peut pas enchaîner une nuit : son sommeil n'est pas organisé pour ça. **Avant 1 an, on ne parle d'ailleurs pas de trouble du sommeil**⁵ : ce que tu observes, c'est un sommeil en construction."
+                  "texte": "Sur 24 heures, ton bébé dort beaucoup, mais **par petits morceaux, de jour comme de nuit**, au rythme de ses besoins : manger, dormir, regarder, recommencer. Il ne peut pas encore enchaîner une nuit : son sommeil n'est pas organisé pour ça, et il n'y a pas non plus de sieste à compter. **Avant 1 an, on ne parle d'ailleurs pas de trouble du sommeil**⁵ : ce que tu observes, c'est un sommeil en construction."
                 }
               ]
             }
@@ -205,7 +180,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Si ton bébé ne dort pas comme tu le voudrais, **il ne peut pas faire autrement**⁵. Il n'a ni caprice ni stratégie, il n'a pas les moyens de « tester » ses parents. Quand il pleure ou se réveille, **il exprime un besoin**, même quand tu ne le trouves pas."
+                  "texte": "Si ton bébé ne dort pas comme tu le voudrais, **il ne peut pas faire autrement**⁵. Il n'a ni caprice ni stratégie, il n'a pas les moyens de « tester » ses parents. Quand il pleure ou se réveille, **il exprime un besoin**, et il n'est pas toujours facile à deviner : tu n'as pas à tout comprendre du premier coup, tu cherches avec lui."
                 }
               ]
             },
@@ -214,21 +189,17 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Pour que son cerveau puisse lâcher prise et dormir, il a besoin de se sentir en sécurité :"
+                  "texte": "Pour que son cerveau puisse lâcher prise et dormir, il a besoin de se sentir en sécurité :"
                 },
                 {
                   "type": "liste",
                   "items": [
-                    "**être nourri**, quand il a faim, sans attendre ;",
-                    "**être au chaud**, ni trop ni pas assez couvert ;",
-                    "**être touché, contenu, porté** : neuf mois dans le ventre, neuf mois sur le ventre ;",
-                    "**être entendu** : ta voix, ta présence, une réponse quand il appelle ;",
-                    "**être rassuré** : il reconnaît déjà ta voix et ton odeur, il a besoin de te sentir là."
+                    "**être nourri**, quand il a faim, sans attendre ;",
+                    "**être au chaud**, ni trop ni pas assez couvert ;",
+                    "**être contenu, porté** : neuf mois dans le ventre, neuf mois sur le ventre. **Porter son bébé, c'est bon pour lui. Les bras de ses parents sont son nid naturel** (maternage proximal)⁵ ;",
+                    "**être entendu** : ta voix, ta présence, une réponse quand il appelle ;",
+                    "**être rassuré** : il reconnaît déjà ta voix et ton odeur, il a besoin de te sentir là."
                   ]
-                },
-                {
-                  "type": "p",
-                  "texte": "**Porter son bébé, c'est bon pour lui. Les bras de ses parents sont son nid naturel** (maternage proximal)⁵."
                 }
               ]
             },
@@ -237,21 +208,21 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Ces règles valent pour **chaque sommeil**, de jour comme de nuit, et elles sont encore plus importantes dans les premiers mois :"
+                  "texte": "Ces règles valent pour **chaque sommeil**, de jour comme de nuit, et elles sont encore plus importantes dans les premiers mois :"
                 },
                 {
                   "type": "liste",
                   "items": [
-                    "**sur le dos**, toujours, pour chaque sommeil⁶ ;",
-                    "**sur un matelas ferme et plat**, dans un lit à barreaux ou un couffin aux normes, **sans rien d'autre** : ni oreiller, ni couette, ni tour de lit, ni peluche⁶ ;",
-                    "**dans la chambre des parents**, dans son propre lit, au moins les 6 premiers mois⁶ ;",
-                    "**jamais sur un canapé ou dans un fauteuil**, ni seul, ni avec un adulte⁷ ;",
-                    "**ni trop chaud, ni trop couvert** : une gigoteuse adaptée plutôt qu'une couverture, la tête non couverte⁶."
+                    "**sur le dos**, toujours, pour chaque sommeil⁶ ;",
+                    "**sur un matelas ferme et plat**, dans un lit à barreaux ou un couffin aux normes, **sans rien d'autre** : ni oreiller, ni couette, ni tour de lit, ni peluche⁶ ;",
+                    "**dans la chambre des parents**, dans son propre lit, au moins les 6 premiers mois⁶ ;",
+                    "**jamais sur un canapé ou dans un fauteuil**, ni seul, ni avec un adulte⁷ ;",
+                    "**ni trop chaud, ni trop couvert** : une gigoteuse adaptée plutôt qu'une couverture, la tête non couverte⁶."
                   ]
                 },
                 {
                   "type": "p",
-                  "texte": "Le détail est dans « La sécurité », toujours accessible dans Guide-moi."
+                  "texte": "Le détail est dans « La sécurité », toujours accessible dans Guide-moi."
                 }
               ]
             },
@@ -260,7 +231,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "**C'est parfois difficile, et c'est normal.** Le sommeil des parents est au plus bas pendant les trois premiers mois après la naissance, et il peut mettre des années à s'en remettre⁸. Tu ne peux pas répondre à tout, tout le temps : **tu fais de ton mieux, et c'est déjà beaucoup.** Prendre soin de toi, c'est aussi prendre soin de lui."
+                  "texte": "**C'est parfois difficile, et c'est normal.** Le sommeil des parents est au plus bas pendant les trois premiers mois après la naissance, et il peut mettre des années à s'en remettre⁸. Tu ne peux pas répondre à tout, tout le temps : **tu fais de ton mieux, et c'est déjà beaucoup.** Prendre soin de toi, c'est aussi prendre soin de lui."
                 }
               ]
             },
@@ -269,7 +240,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Le manque de sommeil des premiers jours pèse sur l'humeur. Une grande fatigue et des larmes dans les quinze jours qui suivent la naissance sont fréquentes : ce sont les hormones qui retombent⁹. **Si des pensées noires s'installent, ou durent, parles-en** à ta sage-femme, à ton médecin ou à la PMI. Le 3114 répond jour et nuit."
+                  "texte": "Le manque de sommeil des premiers jours pèse sur l'humeur. Une grande fatigue et des larmes dans les quinze jours qui suivent la naissance sont fréquentes : ce sont les hormones qui retombent⁹. **Si des pensées noires s'installent, ou durent, parles-en** à ta sage-femme, à ton médecin ou à la PMI. Le 3114 répond jour et nuit."
                 }
               ]
             }
@@ -277,7 +248,7 @@
           "sources": null
         }
       ],
-      "sources": "¹ Les états de vigilance : Brazelton T. B., *Neonatal Behavioral Assessment Scale*, 1973 ; ² La part du sommeil agité à la naissance : Inserm, *Expertise collective*, 2001 ; Challamel M.-J., Franco P., *Réalités pédiatriques*, 2014 ; ³ Les mouvements du sommeil agité, qui diminuent avec les mois, et leur rôle possible : Sokoloff G. et al., *Developmental Psychobiology*, 2020 ; ⁴ La mélatonine transmise par le lait, plus riche le soir, puis fabriquée par bébé vers 3 mois : revue *Children*, 2024, 11(10):1197 ; formation EDPP, *Pleurs et sommeil* ; ⁵ Durée de l'éveil calme (5 à 10 minutes à la naissance, environ 30 minutes à 1 mois), pas de trouble du sommeil avant 1 an, un bébé ne fait pas exprès, besoins fondamentaux et maternage proximal : formation EDPP, *Pleurs et sommeil* ; ⁶ Dos, matelas ferme, lit nu, chambre des parents : HAS et CNP de pédiatrie, fiche mémo, 2020 ; American Academy of Pediatrics, *Pediatrics*, 2022 ; ameli.fr ; ⁷ Canapé et fauteuil : American Academy of Pediatrics, *Pediatrics*, 2022 ; ⁸ Sommeil des parents au plus bas dans les trois mois après la naissance : Richter D. et al., *Sleep*, 2019 (cité dans la formation EDPP) ; ⁹ Baby-blues, chute hormonale dans les quinze jours après la naissance : formation EDPP, *Pleurs et sommeil*"
+      "sources": "¹ Les états de vigilance : Brazelton T. B., *Neonatal Behavioral Assessment Scale*, 1973 ; ² La part du sommeil agité à la naissance : Inserm, *Expertise collective*, 2001 ; Challamel M.-J., Franco P., *Réalités pédiatriques*, 2014 ; ³ Les mouvements du sommeil agité, qui diminuent avec les mois, et leur rôle possible : Sokoloff G. et al., *Developmental Psychobiology*, 2020 ; ⁴ La mélatonine transmise par le lait, plus riche le soir, puis fabriquée par bébé vers 3 mois : revue *Children*, 2024, 11(10):1197 ; formation EDPP, *Pleurs et sommeil* ; ⁵ Durée de l'éveil calme (5 à 10 minutes à la naissance, environ 30 minutes à 1 mois), pas de trouble du sommeil avant 1 an, un bébé ne fait pas exprès, besoins fondamentaux et maternage proximal : formation EDPP, *Pleurs et sommeil* ; ⁶ Dos, matelas ferme, lit nu, chambre des parents : HAS et CNP de pédiatrie, fiche mémo, 2020 ; American Academy of Pediatrics, *Pediatrics*, 2022 ; ameli.fr ; ⁷ Canapé et fauteuil : American Academy of Pediatrics, *Pediatrics*, 2022 ; ⁸ Sommeil des parents au plus bas dans les trois mois après la naissance : Richter D. et al., *Sleep*, 2019 (cité dans la formation EDPP) ; ⁹ Baby-blues, chute hormonale dans les quinze jours après la naissance : formation EDPP, *Pleurs et sommeil*"
     },
     {
       "id": "journee-et-siestes",
@@ -383,7 +354,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Une sieste de 45 minutes s'arrête souvent quand un cycle se termine, au moment où il remonte près de la surface. **Avant de conclure qu'il est réveillé, regarde** : s'il bouge, grimace, ouvre un œil sans interagir avec toi, il dort peut-être encore, en sommeil agité. Laisse-lui quelques instants. Et si la sieste s'arrête là, **elle n'est pas ratée**."
+                  "texte": "Une sieste de 45 minutes s'arrête souvent quand un cycle se termine, au moment du micro-réveil, quand il remonte à la surface. **Avant de conclure qu'il est réveillé, regarde** : s'il bouge, grimace, ouvre un œil sans interagir avec toi, il dort peut-être encore, en sommeil agité. Laisse-lui quelques instants. Et si la sieste s'arrête là, **elle n'est pas ratée**."
                 }
               ]
             },
@@ -678,7 +649,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Pendant le premier mois, **s'endormir au sein, au biberon ou dans les bras, c'est normal, et ce n'est pas un problème**¹. Il ne s'agit pas encore d'apprendre quoi que ce soit : ton bébé a besoin de téter, d'être contre toi, d'être bercé. Tu n'as rien à corriger. Ce sont les conditions qu'il connaît, et elles **mettent son cerveau en état de plonger dans le sommeil**. À la fin de chaque cycle, il remonte près de la surface, et si les conditions ont changé, il peut avoir du mal à se rendormir² : à cet âge, c'est normal, rien n'est à corriger, tout est à accompagner."
+                  "texte": "Pendant le premier mois, **s'endormir au sein, au biberon ou dans les bras, c'est normal, et ce n'est pas un problème**¹. Il ne s'agit pas encore d'apprendre quoi que ce soit : ton bébé a besoin de téter, d'être contre toi, d'être bercé. Tu n'as rien à corriger. Ce sont les conditions qu'il connaît, et elles **mettent son cerveau en état de plonger dans le sommeil**. Entre chaque cycle, il remonte à la surface avec un micro-réveil, et si les conditions ont changé, il peut avoir du mal à se rendormir² : à cet âge, c'est normal, rien n'est à corriger, tout est à accompagner."
                 }
               ]
             },
@@ -946,7 +917,7 @@
                 {
                   "type": "liste",
                   "items": [
-                    "la température de la chambre (18 à 20 °C ; nuque chaude et moite : il a trop chaud) ;",
+                    "la température de la chambre (18 à 20 °C ; nuque chaude et moite : il a trop chaud) ;",
                     "ses vêtements, sa couche ;",
                     "un bruit ou une lumière."
                   ]

@@ -48,6 +48,9 @@ CHAMPS_OBLIGATOIRES = [
 # (motif regex, message, gravite)
 INTERDITS = [
     (r"—", "tiret cadratin", "ERREUR"),
+    # 01/11 : temperature = nombre + espace INSECABLE + °C (« 38,5 °C »).
+    (r"\d[ \u202f]?°(?=[ \u00a0\u202f]?[CF])|°[ \u00a0\u202f][CF]\b", "temperature sans espace insecable avant °C (attendu : « 38,5 °C » avec U+00A0)", "ERREUR"),
+    (r"\d\.\d+\u00a0°C", "decimale au point dans une temperature (attendu : virgule)", "ERREUR"),
     (r"[\"“”]", "guillemet droit ou typographique anglais", "ERREUR"),
     # 06/10 : « massage » (bien-etre) est autorise ; seul le massage therapeutique / de reeducation / medical est interdit.
     (r"\bmassages?\s+(th[ée]rapeutiques?|de\s+r[ée][ée]ducation|m[ée]dicaux|m[ée]dical)", "« massage therapeutique / de reeducation / medical » (acte reserve au kine)", "ERREUR"),

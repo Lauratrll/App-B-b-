@@ -26,11 +26,12 @@
 ### Fièvre
 
 **Consultez en urgence si :**
-- Une température élevée (supérieure à 40 °C)
-- Un état général qui se dégrade (il ne mange plus, refuse de boire, il est somnolent)
+- Une température élevée (supérieure à 40 °C)
+- Un état général qui se dégrade (il ne mange plus, refuse de boire, il est somnolent, il réagit lorsque vous le stimulez, ses cris sont faibles, sa peau est marbrée)
 - Des maux de tête importants, une raideur de la nuque, des vomissements
-- Une déshydratation (muqueuses sèches, urines moins fréquentes)
-- Une respiration difficile (respiration rapide et plus courte, pauses respiratoires)
+- Une déshydratation (muqueuses sèches, urines moins fréquentes...)
+- Des maux de ventre et une diarrhée abondante
+- Une respiration difficile (respiration rapide et plus courte, pauses respiratoires, respiration irrégulière, signes de lutte respiratoire avec battements des narines, espaces se creusant entre ses côtes et au-dessus de ses clavicules)
 
 **Consultez rapidement votre médecin si :**
 - Votre enfant fiévreux est suivi pour une maladie chronique
@@ -40,23 +41,23 @@
 - Elle est accompagnée de tout autre symptôme qui vous inquiète
 
 **C'est quoi ?**
-On parle de fièvre si la température corporelle dépasse 38 °C
+On parle de fièvre si la température corporelle dépasse 38 °C lorsqu'elle est prise chez un enfant normalement couvert, non exposé à une atmosphère très chaude et n'ayant pas fait une activité physique intense avant la prise de température.
 
 **Les bons réflexes**
-- Mettez votre enfant dans une pièce fraîche et aérée (entre 18 et 20 °C)
-- Ne le couvrez pas trop ; enlevez-lui des épaisseurs de vêtements
-- Donnez-lui souvent de l'eau fraîche ou une boisson qu'il aime
+- Mettez votre enfant dans une pièce fraîche et aérée (entre 18 et 20 °C) et évitez les pièces surchauffées
+- Ne le couvrez pas trop ; enlevez-lui des épaisseurs de vêtements pour permettre à la chaleur de s'échapper et abaisser sa température corporelle. Ne le déshabillez pas complètement, car il pourrait alors avoir trop froid et commencer à grelotter.
+- Donnez-lui souvent de l'eau fraîche ou une boisson qu'il aime pour qu'il boive avec plaisir. Ne le limitez pas dans la prise des boissons et pensez à lui proposer souvent à boire même s'il ne vous le demande pas. A fortiori, si votre enfant est trop petit pour manifester sa soif, pensez à lui donner souvent à boire. C'est capital pour éviter la déshydratation.
 
 **Observer son comportement**
 Le comportement de votre enfant est également révélateur. S'il n'est pas comme d'habitude, surveillez-le attentivement.
 
 **Les médicaments**
-- Il n'est pas toujours nécessaire de donner un médicament si la température ne dépasse pas 38,5 °C.
-- Privilégiez l'utilisation du paracétamol
-- N'utilisez qu'un seul type de médicament pour faire baisser la fièvre
+- Il n'est pas toujours nécessaire de donner un médicament si la température ne dépasse pas 38,5 °C.
+- Privilégiez l'utilisation du paracétamol (c'est aussi le seul médicament utilisable avant l'âge de 3 mois)
+- N'utilisez qu'un seul type de médicament pour faire baisser la fièvre et privilégiez toujours l'utilisation du paracétamol
 - La dose doit être adaptée à son poids
 - Assurez-vous qu'il n'a pas déjà reçu un antipyrétique sous une forme ou une autre
-- L'aspirine ne doit pas être administrée chez l'enfant sans avis médical
+- L'aspirine ne doit pas être administrée chez l'enfant sans avis médical, en raison du risque de survenue d'une maladie rare mais grave, le Syndrome de Reye.
 
 Sources : ameli.fr — « Votre enfant a de la fièvre : que faire et quand consulter ? », « Comprendre et gérer la fièvre chez l'enfant », « Les médicaments en cas de fièvre chez l'enfant », 3 septembre 2024
 
@@ -74,7 +75,7 @@ Sources : ameli.fr — « Diarrhée et gastro-entérite de l'enfant : que faire 
 **Consultez rapidement votre médecin si :**
 **Il vomit**
 - Les vomissements s'aggravent ou persistent plus de 2 jours.
-- D'autres symptômes apparaissent
+- D'autres symptômes apparaissent (fièvre, maux de tête, fatigue, perte de poids, douleurs...)
 
 **Il régurgite**
 - Consultez si les régurgitations apparaissent après l'âge de 6 mois ou persistent au-delà d'un an.
@@ -122,8 +123,8 @@ Sources : ameli.fr — « Nausées et vomissements : un réflexe mécanique dû 
 Solution de réhydratation orale, disponible sans ordonnance en pharmacie : un sachet à diluer dans 200 ml d'eau fraîche non sucrée.
 - Tant que vous n'avez pas vu votre médecin, alimentez votre nourrisson fréquemment sans changer son alimentation (continuez l'allaitement maternel ou poursuivez l'alimentation avec son lait habituel) et complétez les prises de nourriture par une solution de réhydratation.
 - Si vous allaitez, poursuivez l'allaitement comme d'habitude et proposez à votre enfant de la solution de réhydratation orale entre les tétées.
-- Dans un premier temps, proposez à votre enfant la solution de réhydratation orale plusieurs fois par heure et en très petites quantités.
-- Si votre enfant vomit, donnez-lui la boisson bien fraîche, par petites gorgées ou à la cuillère.
+- Dans un premier temps, proposez à votre enfant la solution de réhydratation orale plusieurs fois par heure et en très petites quantités, puis augmentez progressivement les quantités.
+- Si votre enfant vomit, donnez-lui la boisson bien fraîche, par petites gorgées ou à la cuillère, toutes les 5 à 10 minutes. Puis, laissez-le boire la solution de réhydratation orale à volonté, selon sa soif, tant que dure la diarrhée et que le risque de déshydratation persiste.
 
 Sources : Carnet de santé, édition 2024 ; ameli.fr — « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025
 
@@ -132,7 +133,7 @@ Sources : Carnet de santé, édition 2024 ; ameli.fr — « Diarrhée et gastro-
 **Consultez en urgence si :**
 - Votre enfant ne mange plus et ne boit plus
 - La diarrhée persiste plus de deux jours, s'aggrave
-- La diarrhée s'accompagne d'une fièvre supérieure à 38,5° C
+- La diarrhée s'accompagne d'une fièvre supérieure à 38,5 °C
 - Les selles contiennent des glaires ou du sang
 - Votre enfant présente des signes de déshydratation
 - Si votre nourrisson refuse la solution de réhydratation orale, vomit fréquemment ou présente des signes de déshydratation
@@ -140,7 +141,7 @@ Sources : Carnet de santé, édition 2024 ; ameli.fr — « Diarrhée et gastro-
 Sources : ameli.fr — « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025 ; mpedia.fr (AFPA) — « Gastro-entérite aiguë chez l'enfant : que faire ? », 18 septembre 2024 (refus de la solution)
 
 **Consultez rapidement votre médecin si :**
-- Si votre nourrisson (de moins de 2 ans) a une diarrhée aiguë (au moins trois selles liquides en quelques heures) avec ou sans vomissements, il est important de consulter rapidement.
+- Si votre nourrisson (de moins de 2 ans) a une diarrhée aiguë (au moins trois selles liquides en quelques heures) avec ou sans vomissements, il est important de consulter rapidement son médecin ou pédiatre.
 - Si la gastro-entérite persiste plus de deux jours ou s'aggrave
 - Si la diarrhée survient dans le cadre d'une toxi-infection collective (crèche, école)
 
@@ -183,32 +184,69 @@ Source : mpedia.fr (AFPA) — « Diarrhée de bébé : causes, symptômes et tra
 Solution de réhydratation orale, disponible sans ordonnance en pharmacie : un sachet à diluer dans 200 ml d'eau fraîche non sucrée.
 - Tant que vous n'avez pas vu votre médecin, alimentez votre nourrisson fréquemment sans changer son alimentation (continuez l'allaitement maternel ou poursuivez l'alimentation avec son lait habituel) et complétez les prises de nourriture par une solution de réhydratation.
 - Si vous allaitez, poursuivez l'allaitement comme d'habitude et proposez à votre enfant de la solution de réhydratation orale entre les tétées.
-- Dans un premier temps, proposez à votre enfant la solution de réhydratation orale plusieurs fois par heure et en très petites quantités.
-- Si votre enfant vomit, donnez-lui la boisson bien fraîche, par petites gorgées ou à la cuillère.
+- Dans un premier temps, proposez à votre enfant la solution de réhydratation orale plusieurs fois par heure et en très petites quantités, puis augmentez progressivement les quantités.
+- Si votre enfant vomit, donnez-lui la boisson bien fraîche, par petites gorgées ou à la cuillère, toutes les 5 à 10 minutes. Puis, laissez-le boire la solution de réhydratation orale à volonté, selon sa soif, tant que dure la diarrhée et que le risque de déshydratation persiste.
 
 Sources : Carnet de santé, édition 2024 ; ameli.fr — « Diarrhée et gastro-entérite de l'enfant : que faire et quand consulter ? », 3 janvier 2025
 
 ### Difficultés à respirer
 
-**Consultez en urgence si :**
+**Consultez en urgence si :**
+**Le début est brutal**
+Si le début de la gêne est brutal et/ou que votre enfant a avalé quelque chose de travers, appelez le 15 (SAMU).
+
+**Sa respiration**
+- Il a de plus en plus de mal à respirer : sa respiration est rapide et plus courte ou irrégulière et lente, il fait des pauses respiratoires, il présente des battements des narines, les espaces entre ses côtes et au-dessus de ses clavicules se creusent (tirage intercostal).
+
+**Son aspect**
+- Il est pâle, il geint et/ou ses lèvres et ses doigts bleuissent.
+
+**Son comportement et son alimentation**
+- Son comportement m'inquiète : il dort tout le temps et il manque de tonus (il paraît « mou ») ou, au contraire, il pleure de façon inhabituelle, il est agité et ne parvient pas à s'endormir.
+- Il boit moins de la moitié de ses biberons à 3 repas consécutifs ou il ne parvient pas à téter en cas d'allaitement maternel.
+- Il vomit systématiquement... ce qui peut entraîner une déshydratation.
+
+**Sa situation**
 - Il est né prématurément (avant 36 semaines d'aménorrhée).
-- Il est atteint d'une maladie cardiaque, d'une maladie respiratoire ou d'un déficit immunitaire
-- Il boit moins de la moitié de ses biberons à 3 repas consécutifs
-- Il vomit systématiquement
-- Son comportement m'inquiète : il dort tout le temps et il manque de tonus
-- Il est pâle, il geint et/ou ses lèvres et ses doigts bleuissent
-- Il a de plus en plus de mal à respirer : sa respiration est rapide et plus courte ou irrégulière et lente, il fait des pauses respiratoires, il présente des battements des narines, les espaces entre ses côtes et au-dessus de ses clavicules se creusent (tirage intercostal).
-- → Je contacte sans tarder le service d'aide médicale d'urgence (Samu) : 15 ou 112.
+- Il est atteint d'une maladie cardiaque, d'une maladie respiratoire ou d'un déficit immunitaire ou il a un handicap qui l'empêche de tousser.
 
-Source : ameli.fr — « Bronchiolite : que faire ? », 3 juillet 2026
+**Et aussi, si votre enfant :**
+- Tousse sans arrêt
+- Siffle en respirant
+- Est gêné pour manger ou boire
+- Est très essoufflé
+- N'est pas comme d'habitude
+- A une température supérieure à 38,5 °C
+- A une voix différente
 
-**Consultez rapidement votre médecin si :**
+**Si les symptômes ressemblent à une bronchiolite**
 Mon nourrisson de plus de 2 mois a des symptômes de bronchiolite, son état général est conservé et il continue à s'alimenter. Je contacte mon médecin sans attendre.
+- Je consulte également à nouveau si les symptômes de bronchiolite s'aggravent ou si, après quelques jours, la fièvre augmente et les sécrétions bronchiques sont épaisses, jaunes ou verdâtres (une surinfection bactérienne est possible).
 
-**Une cause possible : la bronchiolite**
+- → Je contacte sans tarder le service d'aide médicale d'urgence (Samu) : 15 ou 112.
+
+Sources : ameli.fr — « Bronchiolite : que faire ? », 3 juillet 2026 ; Carnet de santé, édition 2024, p. 25
+
+**Consultez rapidement votre médecin si :**
+**Si c'est un rhume qui dure ou qui s'aggrave**
+- La toux, le nez qui coule (ou bouché) ne s'améliorent pas après dix jours
+- Une fièvre apparaît après 3 jours d'évolution de la rhinopharyngite
+
+Source : ameli.fr — « Rhinopharyngite de l'enfant : que faire et quand consulter ? », 5 février 2026
+
+**Un simple rhume, ou une gêne respiratoire ?**
+*Si sa respiration change, regardez d'abord les signes en haut de page : ils passent avant tout le reste.*
+**Un rhume**
+- La rhinopharyngite de l'enfant est une maladie souvent bénigne qui guérit en moins de dix jours.
+- Les lavages de nez et le mouchage sont indispensables et suffisants dans la rhinopharyngite.
+- Ne vous inquiétez pas si votre enfant tousse. La toux lui permet d'expulser les sécrétions et de dégager ses voies respiratoires pour mieux respirer.
+
+Source : ameli.fr — « Rhinopharyngite de l'enfant : que faire et quand consulter ? », 5 février 2026
+
+**Une cause possible : la bronchiolite**
 *Seul un médecin peut dire s'il s'agit d'une bronchiolite ou d'autre chose.*
 - La bronchiolite du nourrisson est une infection virale aiguë qui touche les bronchioles (petites bronches).
-- Elle atteint les nourrissons (enfant de moins de 2 ans)
+- Elle atteint les nourrissons (enfant de moins de 2 ans) et se caractérise par un épisode de gêne respiratoire dont les signes sont une toux et une respiration rapide et sifflante.
 - Sévit sous forme d'épidémies en automne dès le mois d'octobre et en hiver.
 - La bronchiolite débute généralement par un simple rhume ou rhinopharyngite avec une légère fièvre.
 - Petit à petit, une toux sèche apparaît.
@@ -216,13 +254,16 @@ Mon nourrisson de plus de 2 mois a des symptômes de bronchiolite, son état gé
 - À ce stade de la maladie, l'enfant peut avoir des difficultés à s'alimenter et à dormir.
 - La bronchiolite ne relève pas de l'automédication.
 
-Sources : ameli.fr — « Reconnaître la bronchiolite », 3 juillet 2026 ; « Bronchiolite : que faire ? », 3 juillet 2026
+Sources : ameli.fr — « Reconnaître la bronchiolite », 3 juillet 2026 ; « Bronchiolite : que faire ? », 3 juillet 2026
 
 **Les gestes qui soulagent**
-- Désencombrez le nez de votre enfant avant les repas et régulièrement
+- Désencombrez le nez de votre enfant avant les repas et régulièrement (autant de fois que nécessaire) en faisant des lavages de nez. Le désencombrement régulier du nez, en particulier pour les nourrissons de moins de 6 mois qui ne sont pas encore en mesure de respirer par la bouche, leur permet de moins lutter pour respirer
 - Lorsqu'il est éveillé, gardez votre enfant droit, ce qui peut l'aider à mieux respirer
-- Continuez à l'alimenter normalement en fractionnant ses repas s'il est fatigué
-- Aérez sa chambre fréquemment et maintenez la température à 19 °C au maximum
+- Pour dormir, continuez à coucher votre enfant sur le dos comme habituellement
+- Continuez à l'alimenter normalement en fractionnant ses repas s'il est fatigué. Poursuivez son lait habituel. Si vous allaitez et que votre bébé est trop fatigué pour téter, pensez à tirer votre lait.
+- Aérez sa chambre fréquemment et maintenez la température à 19 °C au maximum
+
+Source : ameli.fr — « Bronchiolite : que faire ? », 3 juillet 2026
 
 ### Choc à la tête
 
