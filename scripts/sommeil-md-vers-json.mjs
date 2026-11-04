@@ -83,7 +83,7 @@ function convertir(md, mois) {
     if (!section) return;
     if (!volet) nouveauVolet(null);
     const dernier = volet.blocs[volet.blocs.length - 1];
-    if (bloc.type === "liste" && dernier?.type === "liste") {
+    if (bloc.type === "liste" && dernier?.type === "liste" && !!dernier.numerotee === !!bloc.numerotee) {
       dernier.items.push(...bloc.items);
     } else {
       volet.blocs.push(bloc);
@@ -135,6 +135,12 @@ function convertir(md, mois) {
       // Citation juste sous le titre de section, avant tout volet : chapeau.
       if (section && section.volets.length === 0) section.chapeau = citation;
       else ajouterBloc({ type: "citation", texte: citation });
+      continue;
+    }
+    // Liste numérotée (04/11) : « 1. … » → puces à numéros.
+    const numerotee = texte.match(/^\d+\.\s+(.*)$/);
+    if (numerotee) {
+      ajouterBloc({ type: "liste", items: [numerotee[1].trim()], numerotee: true });
       continue;
     }
     if (texte.startsWith("- ")) {

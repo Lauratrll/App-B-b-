@@ -28,7 +28,7 @@ Il ne comprend pas encore les mots, mais il reconnaît ta voix et ton ton. **Un 
 ### La pose
 
 #### Sur le dos, dans son lit nu
-Pose-le **sur le dos, dans son lit nu**, les fesses puis la tête, dans ta chambre². Une main posée sur son ventre quelques instants, puis tu la retires doucement. **Termine par de la tendresse** : un dernier regard, un mot doux. Pas d'oreiller, pas de couverture, rien autour de lui². Si tu utilises un bruit blanc : **volume bas, loin du lit, pas toute la nuit**³.
+Pose-le **sur le dos, dans son lit nu**, les fesses puis la tête, dans ta chambre². Descends-le doucement en le positionnant un peu de côté, puis tourne-le sur le dos : cela évite de déclencher le réflexe de Moro, encore bien présent à cet âge. Une main posée sur son ventre quelques instants, puis tu la retires doucement. **Termine par de la tendresse** : un dernier regard, un mot doux. Pas d'oreiller, pas de couverture, rien autour de lui². Si tu utilises un bruit blanc : **volume bas, loin du lit, pas toute la nuit**³.
 
 ### La place du co-parent
 

@@ -23,12 +23,12 @@ Il comprend que tu pars quand tu sors de la pièce, et pas encore que tu reviens
 En fin de journée, **baisse les lumières** : des lampes basses et chaudes plutôt que le plafonnier. **Les écrans allumés, télévision en fond comprise, ajoutent les deux choses qu'on cherche à retirer le soir** : de la lumière et de l'agitation, des images et des sons qui changent sans arrêt. Éteins-les dans la pièce où il est.
 
 #### Remplir son réservoir émotionnel
-Imagine un petit réservoir que ton bébé remplit, au fil de la journée, de **ta présence, de ta tendresse et de ton attention**. Un bébé qui se sent aimé et accompagné se sent **en sécurité**, et c'est cette sécurité qui lui permet de se détendre : il a moins besoin de t'appeler ou de s'accrocher à toi, et il peut lâcher prise pour s'endormir. Les recherches vont dans ce sens : c'est **près de toi qu'il apprend à apaiser ses émotions**³, et un parent présent et chaleureux est pour lui une base de sécurité⁴. C'est une image, pas un compte à tenir. Certains soirs, il protestera quand même : ce n'est pas que tu n'en as pas assez donné.
+Imagine un petit réservoir que ton bébé remplit, au fil de la journée, de **ta présence, de ta tendresse et de ton attention**. Un bébé qui se sent aimé et accompagné se sent **en sécurité**, et c'est cette sécurité qui lui permet de se détendre : il a moins besoin de t'appeler ou de s'accrocher à toi, et il peut lâcher prise pour s'endormir. Les recherches vont dans ce sens : **c'est près de toi qu'il apprend à apaiser ses émotions**³, et un parent présent et chaleureux est pour lui une base de sécurité⁴. C'est une image, pas un compte à tenir. Certains soirs, il protestera quand même : ce n'est pas que tu n'en as pas assez donné.
 Quelques façons de le remplir :
 - **de la présence entière** : quelques minutes avec lui, sans téléphone, à hauteur de son regard ;
 - **du contact** : câlin, portage lent, massage ;
 - **des échanges** : un regard, une chanson, quelques mots sur sa journée ;
-- **du jeu ensemble** : coucou-caché avec un tissu, un livre à tourner, faire « au revoir » de la main ;
+- **du jeu ensemble, des rires** : coucou-caché avec un tissu, un livre à tourner, faire « au revoir » de la main ;
 - **de la réassurance** : quand il proteste, viens près de lui et dis-lui ce qu'il vit (« tu aimerais que je reste, je suis là ») ;
 - **du doux avant la nuit** : les mêmes gestes, les mêmes mots, la même lumière chaque soir.
 

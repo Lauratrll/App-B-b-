@@ -15,7 +15,7 @@ Après une journée où il a vu, entendu, senti beaucoup de choses, son éveil c
 **C'est parfois difficile, et tu fais de ton mieux.** Ton bébé sent ton état, ton ton, ta tension : s'il y réagit, c'est la preuve du lien entre vous, pas de ton échec. Ce n'est pas à toi d'être parfaitement calme. Quelques gestes qui aident :
 - **souffle lentement**, relâche les épaules, parle-lui doucement, même si tu ne sais pas quoi dire ;
 - **sors prendre l'air** avec lui, quelques minutes, au calme ;
-- **passe le relais** à l'autre parent, sans culpabiliser : chacun a des gestes et une voix différents.
+- **passe le relais** à l'autre parent, sans culpabiliser : chacun a une voix et des gestes différents.
 **Un bébé ne se secoue jamais, même une seconde, même doucement.** Si tu sens que tu craques, **couche-le sur le dos dans son lit, sors de la pièce, respire, appelle quelqu'un**⁵.
 
 ### Pour l'aider à redescendre
@@ -30,7 +30,7 @@ En fin de journée, **baisse les lumières** : des lampes basses et chaudes plut
 Un bébé porté pleure moins⁷. Contre toi, en portage ou en peau à peau, il retrouve la contenance qu'il connaissait : mains regroupées, dos enroulé, contact. Quand tu le prends, **reste éveillé, son visage visible**.
 
 #### Remplir son réservoir émotionnel
-Imagine un petit réservoir que ton bébé remplit, au fil de la journée, de **ta présence, de ta tendresse et de ton attention**. Un bébé qui se sent aimé et accompagné se sent **en sécurité**, et c'est cette sécurité qui lui permet de se détendre. Les recherches vont dans ce sens : c'est **près de toi qu'il apprend à apaiser ses émotions**⁸. C'est une image, pas un compte à tenir. Certains soirs, il pleurera quand même : ce n'est pas que tu n'en as pas assez donné.
+Imagine un petit réservoir que ton bébé remplit, au fil de la journée, de **ta présence, de ta tendresse et de ton attention**. Un bébé qui se sent aimé et accompagné se sent **en sécurité**, et c'est cette sécurité qui lui permet de se détendre. Les recherches vont dans ce sens : **c'est près de toi qu'il apprend à apaiser ses émotions**⁸. C'est une image, pas un compte à tenir. Certains soirs, il pleurera quand même : ce n'est pas que tu n'en as pas assez donné.
 Quelques façons de le remplir, à choisir selon ce qui vous ressemble :
 - **de la présence entière** : quelques minutes avec lui, sans écran ni autre tâche, à hauteur de son regard ;
 - **du contact** : peau contre peau, câlin, portage lent ;

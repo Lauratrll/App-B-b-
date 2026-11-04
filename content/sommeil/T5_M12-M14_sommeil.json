@@ -25,7 +25,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "À 12 mois, le sommeil de ton enfant a presque trouvé son organisation d'adulte : il dort environ 12 heures la nuit, avec des réveils, et le reste en deux siestes. Rien ne change dans sa structure ce mois-ci. Ce qui change, c'est tout le reste : son corps se prépare à marcher, il comprend de plus en plus de choses, et son sommeil s'en ressent parfois. Ce n'est pas une régression, c'est un cerveau qui travaille. Ce mois-ci, tu observes si son refus de la sieste du matin est vrai ou faux, et tu lui laisses une petite part de choix dans son rituel (quel livre, quel doudou)."
+                  "texte": "À 12 mois, le sommeil de ton enfant a presque trouvé son organisation d'adulte : il dort environ 12 heures la nuit, avec des réveils, et le reste en 2 siestes. Rien ne change dans sa structure ce mois-ci. Ce qui change, c'est tout le reste : son corps se prépare à marcher, il comprend de plus en plus de choses, et son sommeil s'en ressent parfois. **Ce n'est pas une régression, c'est un cerveau qui travaille**. Ce mois-ci, tu observes si son refus de la sieste du matin est vrai ou faux, et tu lui laisses une petite part de choix dans son rituel (quel livre, quel doudou)."
                 }
               ]
             },
@@ -34,7 +34,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "À 13 mois, beaucoup d'enfants marchent, ou y sont presque : debout, quelques pas, puis encore debout. Son corps s'entraîne partout, y compris la nuit : il peut se relever dans son lit, s'agiter, t'appeler, puis se rendormir. Ses journées sont pleines, et il a besoin de les poser le soir. Ce n'est pas un caprice, c'est un enfant qui découvre ce qu'il sait faire. Ce mois-ci, tu distingues les réveils liés à la marche de ceux liés aux dents, et tu gardes un rituel inchangé pendant ces journées actives."
+                  "texte": "À 13 mois, beaucoup d'enfants marchent, ou y sont presque : debout, quelques pas, puis encore debout. **Son corps s'entraîne partout, y compris la nuit** : il peut se relever dans son lit, s'agiter, t'appeler, puis se rendormir. Ses journées sont pleines, et **il a besoin de les poser le soir**. Ce n'est pas un caprice, c'est un enfant qui découvre ce qu'il sait faire. Ce mois-ci, tu distingues les réveils liés à la marche de ceux liés aux dents, et tu gardes un rituel inchangé pendant ces journées actives."
                 }
               ]
             },
@@ -43,7 +43,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "À 14 mois, il comprend beaucoup plus qu'il ne sait dire, et ses premiers mots arrivent, chacun à son heure. Il affirme aussi ses envies : il montre du doigt, il refuse, il dit « non » de la tête. Le soir, cela peut donner des couchers plus remuants. Ce n'est pas de la mauvaise volonté : il découvre qu'il a un avis. Son sommeil, lui, reste stable : deux siestes, une nuit longue entrecoupée de réveils. Ce mois-ci, tu regardes la durée et la fin de sa sieste par rapport à l'heure du coucher, sans anticiper le passage à une seule sieste."
+                  "texte": "À 14 mois, il comprend beaucoup plus qu'il ne sait dire, et ses premiers mots arrivent, chacun à son heure. Il affirme aussi ses envies : il montre du doigt, il refuse, il dit « non » de la tête. Le soir, cela peut donner des couchers plus remuants. Ce n'est pas de la mauvaise volonté : **il découvre qu'il a un avis**. Son sommeil, lui, reste stable : 2 siestes, une nuit longue entrecoupée de réveils. Ce mois-ci, tu regardes la durée et la fin de sa sieste par rapport à l'heure du coucher, **sans anticiper le passage à une seule sieste**."
                 }
               ]
             },
@@ -182,6 +182,29 @@
       "titre": "Journée et siestes",
       "sections": [
         {
+          "id": "ce-qu-on-va-analyser",
+          "titre": "Ce qu'on va analyser",
+          "chapeau": null,
+          "volets": [
+            {
+              "titre": "Des questions à te poser",
+              "blocs": [
+                {
+                  "type": "liste",
+                  "items": [
+                    "Dort-il quand ses signaux de fatigue apparaissent, ou seulement quand il craque ?",
+                    "Sa sieste du matin résiste-t-elle depuis plusieurs jours, ou seulement par moments ?",
+                    "Sa sieste d'après-midi se termine-t-elle assez tôt pour laisser la place au coucher ?",
+                    "Le soir, arrive-t-il plus agité que calme ?"
+                  ],
+                  "numerotee": true
+                }
+              ]
+            }
+          ],
+          "sources": null
+        },
+        {
           "id": "eveils-et-fenetres-d-eveil",
           "titre": "Éveils et fenêtres d'éveil",
           "chapeau": null,
@@ -217,6 +240,15 @@
                   "texte": "**Ce sont des repères, pas des règles** : cela varie d'un enfant à l'autre, et d'un jour à l'autre. Si, le soir, tu le couches souvent bien après ces durées, c'est une raison de regarder s'il n'arrive pas trop fatigué."
                 }
               ]
+            },
+            {
+              "titre": "La fatigue ressemble à de l'agitation",
+              "blocs": [
+                {
+                  "type": "p",
+                  "texte": "Un enfant trop fatigué ne s'endort pas plus vite : il s'agite, pleure, se cambre. Ce n'est pas un caprice, **il ne peut pas faire autrement** : son corps n'arrive plus à se calmer seul. Si tu le vois souvent à ce moment-là, **prévois la sieste un peu plus tôt**, dès les premiers signaux."
+                }
+              ]
             }
           ],
           "sources": null
@@ -231,7 +263,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Il bouge, il marche, il explore : **sa fatigue ne se voit pas toujours là où on l'attend.** Les signaux à guetter :"
+                  "texte": "Il bouge, il marche, il explore : **sa fatigue ne se voit pas toujours là où on l'attend.** Elle dit qu'il a besoin de dormir, que sa pression du sommeil est montée. Les signaux à guetter :"
                 },
                 {
                   "type": "liste",
@@ -262,7 +294,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "À cet âge, **une à deux siestes par jour, selon les enfants**² : chez la plupart, encore deux. Une au milieu de la matinée, une début d'après-midi : une sieste du matin pas trop tôt, et une sieste d'après-midi qui ne s'étire pas trop tard, laissent la nuit tranquille³."
+                  "texte": "À cet âge, **1 à 2 siestes par jour, selon les enfants**² : chez la plupart, encore 2. Une au milieu de la matinée, une début d'après-midi : une sieste du matin pas trop tôt, et une sieste d'après-midi qui ne s'étire pas trop tard, laissent la nuit tranquille³."
                 }
               ]
             },
@@ -271,7 +303,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Le passage à une seule sieste se joue plus tard, entre 15 et 18 mois environ, parfois sur plusieurs semaines. **Il n'y a rien à anticiper** : un enfant qui fait encore deux siestes à 15 mois n'a aucun retard. Tant que ses signes ne sont pas là, garde tes deux siestes."
+                  "texte": "Le passage à une seule sieste se joue plus tard, entre 15 et 18 mois environ, parfois sur plusieurs semaines. **Il n'y a rien à anticiper** : un enfant qui fait encore 2 siestes à 15 mois n'a aucun retard. Tant que ses signes ne sont pas là, garde tes 2 siestes."
                 }
               ]
             },
@@ -294,16 +326,11 @@
               ]
             },
             {
-              "titre": "Des questions à te poser",
+              "titre": "Où dormir sa sieste ?",
               "blocs": [
                 {
-                  "type": "liste",
-                  "items": [
-                    "Dort-il quand ses signaux de fatigue apparaissent, ou seulement quand il craque ?",
-                    "A-t-il une heure de lever à peu près régulière, et de la lumière du jour dans la journée ?",
-                    "Sa sieste d'après-midi se termine-t-elle assez tôt pour laisser la place au coucher ?",
-                    "Le soir, arrive-t-il plus agité que calme ?"
-                  ]
+                  "type": "p",
+                  "texte": "Dans vos bras, en portage, dans son lit, en poussette : **tous ces endroits sont possibles à cet âge**, et porter ton enfant n'est pas une mauvaise habitude. S'il dort contre toi ou en portage, **reste éveillé, son visage dégagé**. S'il dort dans son lit, c'est sur le dos. La sieste hors de la maison est un dépannage précieux : garde-la pour les jours où tu sors."
                 }
               ]
             }
@@ -337,9 +364,9 @@
           "sources": null
         },
         {
-          "id": "son-rythme-la-lumiere-et-la-famille",
-          "titre": "Son rythme, la lumière et la famille",
-          "chapeau": null,
+          "id": "des-reperes-a-mettre-en-place",
+          "titre": "Des repères à mettre en place",
+          "chapeau": "Un rythme et son horloge biologique",
           "volets": [
             {
               "titre": "Dehors, chaque jour",
@@ -358,32 +385,7 @@
                   "texte": "Laisse-lui du **temps libre au sol**, pieds nus : c'est le jour qu'il s'entraîne à ce qu'il apprend, à son rythme, et non la nuit dans son lit. Plus il a pu bouger dans la journée, plus la redescente du soir se fait facilement."
                 }
               ]
-            }
-          ],
-          "sources": null
-        },
-        {
-          "id": "quand-la-fatigue-ressemble-a-de-l-agitation",
-          "titre": "Quand la fatigue ressemble à de l'agitation",
-          "chapeau": null,
-          "volets": [
-            {
-              "titre": "Il n'est pas « énervé », il est fatigué",
-              "blocs": [
-                {
-                  "type": "p",
-                  "texte": "Un enfant trop fatigué ne s'endort pas plus vite : il s'agite, pleure, se cambre. Ce n'est pas un caprice, **il ne peut pas faire autrement** : son corps n'arrive plus à se calmer seul. Si tu le vois souvent à ce moment-là, **prévois la sieste un peu plus tôt**, dès les premiers signaux."
-                }
-              ]
-            }
-          ],
-          "sources": null
-        },
-        {
-          "id": "tes-gestes-pour-ses-siestes",
-          "titre": "Tes gestes pour ses siestes",
-          "chapeau": null,
-          "volets": [
+            },
             {
               "titre": "Un mini-rituel de sieste",
               "blocs": [
@@ -402,15 +404,6 @@
                 {
                   "type": "p",
                   "texte": "**Répète-le même s'il ne dort pas.** S'il pleure, reste près de lui : il peut chercher son sommeil sans avoir à s'inquiéter seul. Une sieste dans la journée ne l'empêche pas de bien dormir la nuit (seule une sieste très tardive peut décaler le coucher)."
-                }
-              ]
-            },
-            {
-              "titre": "Où dormir sa sieste ?",
-              "blocs": [
-                {
-                  "type": "p",
-                  "texte": "Dans vos bras, en portage, dans son lit, en poussette : **tous ces endroits sont possibles à cet âge**, et porter ton enfant n'est pas une mauvaise habitude. S'il dort contre toi ou en portage, **reste éveillé, son visage dégagé**. S'il dort dans son lit, c'est sur le dos. La sieste hors de la maison est un dépannage précieux : garde-la pour les jours où tu sors."
                 }
               ]
             }
@@ -435,7 +428,7 @@
           "sources": null
         }
       ],
-      "sources": "¹ La pression de sommeil s'accumule beaucoup plus vite chez le nourrisson que chez l'adulte, et se dissipe plus vite : Webb L., Phillips A. J. K., Roberts J. A., *PLOS Computational Biology*, 2024, 20(10):e1012541 ; ² Le nombre de siestes entre 12 et 24 mois : Galland B. C. et al., *Sleep Medicine Reviews*, 2012 ; ³ Deux siestes entre 9 et 12 mois, sieste du matin pas trop tôt et sieste d'après-midi qui ne s'étire pas trop tard : Réseau Morphée ; INSV ; ⁴ Fin de la sieste et heure d'endormissement, mesurées à 18 mois : Nakagawa M. et al., *Scientific Reports*, 2016 ; ⁵ Réveiller en fin de sommeil paradoxal : formation EDPP, *Pleurs et sommeil* ; ⁶ La sieste courte de 10 à 20 minutes chez l'adulte : Brooks A., Lack L., *Sleep*, 2006"
+      "sources": "¹ La pression de sommeil s'accumule beaucoup plus vite chez le nourrisson que chez l'adulte, et se dissipe plus vite : Webb L., Phillips A. J. K., Roberts J. A., *PLOS Computational Biology*, 2024, 20(10):e1012541 ; ² Le nombre de siestes entre 12 et 24 mois : Galland B. C. et al., *Sleep Medicine Reviews*, 2012 ; ³ 2 siestes entre 9 et 12 mois, sieste du matin pas trop tôt et sieste d'après-midi qui ne s'étire pas trop tard : Réseau Morphée ; INSV ; ⁴ Fin de la sieste et heure d'endormissement, mesurées à 18 mois : Nakagawa M. et al., *Scientific Reports*, 2016 ; ⁵ Réveiller en fin de sommeil paradoxal : formation EDPP, *Pleurs et sommeil* ; ⁶ La sieste courte de 10 à 20 minutes chez l'adulte : Brooks A., Lack L., *Sleep*, 2006"
     },
     {
       "id": "fin-de-journee",
@@ -512,7 +505,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Imagine un petit réservoir que ton enfant remplit, au fil de la journée, de **ta présence, de ta tendresse et de ton attention**. Un enfant qui se sent aimé et accompagné se sent **en sécurité**, et c'est cette sécurité qui lui permet de se détendre : il a moins besoin de t'appeler ou de s'accrocher à toi, et il peut lâcher prise pour s'endormir. Les recherches vont dans ce sens : c'est **près de toi qu'il apprend à apaiser ses émotions**⁴, et un parent présent et chaleureux est pour lui une base de sécurité⁵. C'est une image, pas un compte à tenir. Certains soirs, il protestera quand même : ce n'est pas que tu n'en as pas assez donné."
+                  "texte": "Imagine un petit réservoir que ton enfant remplit, au fil de la journée, de **ta présence, de ta tendresse et de ton attention**. Un enfant qui se sent aimé et accompagné se sent **en sécurité**, et c'est cette sécurité qui lui permet de se détendre : il a moins besoin de t'appeler ou de s'accrocher à toi, et il peut lâcher prise pour s'endormir. Les recherches vont dans ce sens : **c'est près de toi qu'il apprend à apaiser ses émotions**⁴, et un parent présent et chaleureux est pour lui une base de sécurité⁵. C'est une image, pas un compte à tenir. Certains soirs, il protestera quand même : ce n'est pas que tu n'en as pas assez donné."
                 },
                 {
                   "type": "p",
@@ -524,7 +517,7 @@
                     "**de la présence entière** : quelques minutes avec lui, sans téléphone, à hauteur de son regard ;",
                     "**du contact** : câlin, portage lent, massage ;",
                     "**des échanges** : un regard, une chanson, quelques mots sur sa journée ;",
-                    "**du jeu ensemble** : coucou-caché avec un tissu, un livre à tourner, faire « au revoir » de la main ;",
+                    "**du jeu ensemble, des rires** : coucou-caché avec un tissu, un livre à tourner, faire « au revoir » de la main ;",
                     "**de la réassurance** : quand il proteste, viens près de lui et dis-lui ce qu'il vit (« tu aimerais que je reste, je suis là ») ;",
                     "**du doux avant la nuit** : les mêmes gestes, les mêmes mots, la même lumière chaque soir."
                   ]
@@ -921,8 +914,9 @@
                   "type": "liste",
                   "items": [
                     "**la faim** ;",
-                    "**une gêne** : trop chaud, la couche, un bruit, une dent ;",
-                    "**le besoin d'être rassuré**, surtout maintenant qu'il sait que tu peux t'éloigner."
+                    "**une gêne** : chaud/froid, couche pleine, bruit, une dent ;",
+                    "**le besoin d'être rassuré**, surtout maintenant qu'il sait que tu peux t'éloigner ;",
+                    "**une cause médicale** : consulter."
                   ]
                 }
               ]
@@ -967,9 +961,9 @@
           "sources": null
         },
         {
-          "id": "quand-il-se-reveille-dans-cet-ordre",
-          "titre": "Quand il se réveille, dans cet ordre",
-          "chapeau": "Quand il se réveille, pose-toi ces questions l'une après l'autre.",
+          "id": "quand-il-se-reveille-demande-toi",
+          "titre": "Quand il se réveille, demande-toi :",
+          "chapeau": null,
           "volets": [
             {
               "titre": "1. Dort-il encore ?",
@@ -994,7 +988,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "En dix secondes, vérifie :"
+                  "texte": "Vérifie :"
                 },
                 {
                   "type": "liste",
@@ -1003,17 +997,38 @@
                     "ses vêtements, sa couche ;",
                     "un bruit ou une lumière ;",
                     "la tétine perdue (jamais attachée) ;",
-                    "**sa position** : s'il est debout ou coincé contre les barreaux, il ne sait pas toujours se rasseoir."
+                    "**sa position** : s'il est debout ou coincé contre les barreaux, il ne sait pas toujours se rasseoir ;",
+                    "les dents : gencives gonflées, salive abondante, besoin de mordiller, enfant irritable. Les dents continuent de sortir au fil des mois, mais le calendrier varie selon les enfants. Elles gênent surtout quelques jours autour de leur sortie, et **tous les réveils ne sont pas dus aux dents**⁶ ;",
+                    "un rhume, un vaccin, un début de maladie ;",
+                    "un bouleversement dans sa vie, une nouvelle acquisition."
                   ]
-                },
-                {
-                  "type": "p",
-                  "texte": "Sur quelques jours : les dents peuvent gêner, mais **tous les réveils ne sont pas dus aux dents**⁶. Un rhume, un vaccin, un changement dans sa vie, une marche toute neuve."
                 }
               ]
             },
             {
-              "titre": "4. Sa journée a-t-elle été très chargée ?",
+              "titre": "4. A-t-il besoin d'être rassuré ?",
+              "blocs": [
+                {
+                  "type": "p",
+                  "texte": "Il est vraiment réveillé, il t'appelle, il se calme avec ta présence sans avoir faim. **S'il se réveille vraiment et t'appelle, tu viens**, et **tu commences par le moins** : ta voix, la phrase du soir, une main posée sur lui. Tu le prends dans tes bras si ça ne suffit pas. Il peut avoir besoin d'être câliné et rassuré⁷ : ce n'est pas lui donner une mauvaise habitude."
+                }
+              ]
+            },
+            {
+              "titre": "5. Retrouve-t-il ses conditions d'endormissement ?",
+              "blocs": [
+                {
+                  "type": "p",
+                  "texte": "Il s'est endormi dans certaines conditions (ta présence, la lumière, son doudou, la musique, la façon dont tu l'as accompagné). **Si elles ne sont plus là au milieu de la nuit, il s'en rend compte** et il t'appelle pour les retrouver."
+                },
+                {
+                  "type": "p",
+                  "texte": "Pour les varier pas à pas, tu trouveras des idées dans la catégorie Endormissement, « Diversifier ses conditions d'endormissement, pas à pas »."
+                }
+              ]
+            },
+            {
+              "titre": "6. Sa journée a-t-elle été très chargée ?",
               "blocs": [
                 {
                   "type": "p",
@@ -1022,20 +1037,7 @@
               ]
             },
             {
-              "titre": "5. A-t-il besoin d'être rassuré ?",
-              "blocs": [
-                {
-                  "type": "p",
-                  "texte": "Il est vraiment réveillé, il t'appelle, il se calme dans tes bras sans avoir faim. **S'il se réveille vraiment et t'appelle, tu viens**, et **tu commences par le moins** : ta voix, la phrase du soir, une main posée sur lui. Tu le prends dans tes bras si ça ne suffit pas. Il peut avoir besoin d'être câliné et rassuré⁷ : ce n'est pas lui donner une mauvaise habitude."
-                },
-                {
-                  "type": "p",
-                  "texte": "Parfois aussi, **il ne retrouve pas les conditions dans lesquelles il s'est endormi** (ta présence, la lumière, son doudou, la musique, la façon dont tu l'as accompagné). Au milieu de la nuit, il s'en rend compte, et il t'appelle pour les retrouver."
-                }
-              ]
-            },
-            {
-              "titre": "6. Montre-t-il des signes qui méritent un avis médical ?",
+              "titre": "7. Montre-t-il des signes qui méritent un avis médical ?",
               "blocs": [
                 {
                   "type": "p",
@@ -1047,16 +1049,25 @@
           "sources": null
         },
         {
-          "id": "quand-une-cause-medicale-perturbe-ses-nuits",
-          "titre": "Quand une cause médicale perturbe ses nuits",
-          "chapeau": "Dans la grande majorité des cas, les réveils sont normaux. Ici, pas de diagnostic : si plusieurs signes te parlent, parles-en à ton médecin.",
+          "id": "des-causes-medicales-qui-perturbent-ses-nuits",
+          "titre": "Des causes médicales qui perturbent ses nuits",
+          "chapeau": "Ici, pas de diagnostic : si plusieurs signes te parlent, parles-en à ton médecin.",
           "volets": [
+            {
+              "titre": "Le reflux (RGO) interne",
+              "blocs": [
+                {
+                  "type": "p",
+                  "texte": "**Si ton enfant régurgite encore en journée, cela mérite aussi ton attention la nuit.** Les régurgitations disparaissent le plus souvent vers un an⁸ : si elles persistent au-delà, signale-le à ton médecin. Mais le reflux peut aussi être « interne » : une fois allongé, l'acidité de l'estomac remonte plus facilement vers l'œsophage, sans qu'on voie de régurgitation⁸. La nuit, tu peux alors observer des réveils fréquents, un sommeil agité, parfois une toux⁸. Un seul de ces signes ne suffit pas à conclure, mais s'ils se répètent, parles-en à ton médecin."
+                }
+              ]
+            },
             {
               "titre": "Un frein de langue restrictif",
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Il ne concerne que les enfants qui ont **des difficultés réelles** : succion, déglutition, alimentation⁸. Un frein court ou épais qui ne gêne pas n'est pas un problème. Si tu as un doute, parles-en à ton médecin traitant, qui t'orientera vers un professionnel formé : une intervention n'est envisagée qu'exceptionnellement, après avoir essayé les autres solutions⁸."
+                  "texte": "Il ne concerne que les enfants qui ont **des difficultés réelles** : succion, déglutition, alimentation⁹. Un frein court ou épais qui ne gêne pas n'est pas un problème. **Pourquoi peut-il gêner les nuits ?** Un frein restrictif limite la mobilité de la langue : certaines études observent un lien avec des difficultés à respirer pendant le sommeil, avec des ronflements, un sommeil agité ou une respiration par la bouche. Ce lien reste débattu, et les sociétés savantes françaises rappellent qu'il manque de preuves scientifiques⁹. Si tu as un doute, parles-en à ton médecin traitant, qui t'orientera vers un professionnel formé : une intervention n'est envisagée qu'exceptionnellement, après avoir essayé les autres solutions⁹."
                 }
               ]
             },
@@ -1065,7 +1076,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Une **respiration buccale qui dure**, des ronflements, un sommeil très agité ou des otites qui reviennent peuvent venir d'un nez ou d'une gorge obstrués, par exemple par des végétations⁹. Un simple rhume bouche le nez de façon passagère, et c'est fréquent. **Si ça dure hors rhume**, parles-en à ton médecin, qui t'orientera vers un spécialiste si besoin."
+                  "texte": "Une **respiration buccale qui dure**, des ronflements, un sommeil très agité ou des otites qui reviennent peuvent venir d'un nez ou d'une gorge obstrués, par exemple par des végétations¹⁰. Un simple rhume bouche le nez de façon passagère, et c'est fréquent. **Si ça dure hors rhume**, parles-en à ton médecin, qui t'orientera vers un spécialiste si besoin."
                 }
               ]
             }
@@ -1073,8 +1084,8 @@
           "sources": null
         },
         {
-          "id": "ce-dont-il-a-besoin-la-nuit",
-          "titre": "Ce dont il a besoin la nuit",
+          "id": "il-a-besoin-de-vous-prenez-soin-de-vous",
+          "titre": "Il a besoin de vous, prenez soin de vous",
           "chapeau": null,
           "volets": [
             {
@@ -1082,7 +1093,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "N'oublie pas : **les réveils nocturnes sont normaux**. Ton enfant reste en alerte la nuit parce qu'il dépend de ses parents¹⁰. Il a besoin de ta proximité, de ta voix, de tes bras, et le réconforter n'est pas lui donner une mauvaise habitude. Plus il se sent en sécurité, plus il retrouvera facilement le sommeil."
+                  "texte": "N'oublie pas : **les réveils nocturnes sont normaux**. Ton enfant reste en alerte la nuit parce qu'il dépend de ses parents¹¹. Il a besoin de ta proximité, de ta voix, de tes bras, et le réconforter n'est pas lui donner une mauvaise habitude. Plus il se sent en sécurité, plus il retrouvera facilement le sommeil."
                 }
               ]
             },
@@ -1105,24 +1116,15 @@
                 {
                   "type": "liste",
                   "items": [
-                    "**dors quand il dort**, même par petits blocs de 20 minutes ;",
                     "**couche-toi tôt** certains soirs, plutôt que de profiter du calme ;",
                     "**partage ce que tu peux** : les courses, les repas, une nuit sur deux avec l'autre parent ;",
                     "**accepte qu'on ne puisse pas tout faire**."
                   ]
                 }
               ]
-            }
-          ],
-          "sources": null
-        },
-        {
-          "id": "partager-les-nuits",
-          "titre": "Partager les nuits",
-          "chapeau": null,
-          "volets": [
+            },
             {
-              "titre": "Le relais de nuit",
+              "titre": "Partager les nuits",
               "blocs": [
                 {
                   "type": "p",
@@ -1161,11 +1163,11 @@
                 {
                   "type": "liste",
                   "items": [
-                    "**Appelle le 15** s'il fait des pauses respiratoires, si ses lèvres bleuissent, s'il est difficile à réveiller ou respire avec difficulté¹¹.",
+                    "**Appelle le 15** s'il fait des pauses respiratoires, si ses lèvres bleuissent, s'il est difficile à réveiller ou respire avec difficulté¹².",
                     "**Une nuit morcelée accompagnée de fièvre ou de douleur** n'est pas une affaire d'acquisition : consulte.",
-                    "**Consulte ton médecin** s'il **ronfle presque toutes les nuits, hors rhume**, s'il dort la bouche ouverte, s'il transpire beaucoup en dormant, si son sommeil est très agité, ou si ses pleurs de nuit sont inhabituels. Chaque situation a aussi sa fiche pas à pas dans Guide-moi.",
+                    "**Consulte ton médecin** s'il **ronfle presque toutes les nuits, hors rhume**, s'il dort la bouche ouverte, s'il transpire beaucoup en dormant, si son sommeil est très agité, ou si ses pleurs de nuit sont inhabituels.",
                     "**À partir de 1 an, parles-en aussi à ton médecin** si, depuis plus d'un mois, ses réveils reviennent presque chaque nuit, qu'il reste longtemps éveillé, ou qu'il met très longtemps à s'endormir, et que toute la famille en souffre².",
-                    "Un enfant ne se secoue **jamais**, même une seconde, même doucement. Si tu sens que tu craques, **couche-le sur le dos dans son lit, sors de la pièce, respire, appelle quelqu'un**¹². Allo Parents Bébé : 0 800 00 34 56 (gratuit).",
+                    "Un enfant ne se secoue **jamais**, même une seconde, même doucement. Si tu sens que tu craques, **couche-le sur le dos dans son lit, sors de la pièce, respire, appelle quelqu'un**¹³. Allo Parents Bébé : 0 800 00 34 56 (gratuit).",
                     "Et si les nuits t'épuisent au point de ne plus tenir, **parles-en** : médecin, sage-femme, PMI, ou Allo Parents Bébé."
                   ]
                 }
@@ -1175,7 +1177,7 @@
           "sources": null
         }
       ],
-      "sources": "¹ Un micro-éveil dure quelques secondes (défini à partir de 3 secondes) : American Academy of Sleep Medicine, *Manuel de cotation du sommeil* ; ² Les réveils de nuit entre 1 et 3 ans, repères de consultation à partir de 12 mois : ameli.fr ; Petit D., Montplaisir J., *Encyclopédie sur le développement des jeunes enfants*, 2020 ; Gaylor E. et al., 2001, cité dans Petit et Montplaisir, 2020 ; ³ Les durées de sommeil recommandées : Hirshkowitz M. et al. (National Sleep Foundation), *Sleep Health*, 2015 ; ⁴ Forcer à manger le soir, l'alimentation se compte sur la journée : formation EDPP, *Pleurs et sommeil* ; ⁵ Biberon préparé au moment : ANSES ; ⁶ Les dents gênent quelques jours autour de leur sortie : Macknin M. L. et al., *Pediatrics*, 2000 ; ⁷ Besoin de réconfort la nuit : Santé publique France, *Les 1000 premiers jours* ; ⁸ Frein de langue : difficultés de succion, évaluation, frénotomie exceptionnelle : Association française de pédiatrie ambulatoire et sociétés savantes, « Section de freins de langue chez les nourrissons et les enfants », 2021 ; ⁹ Respiration buccale, ronflements, otites et végétations adénoïdes : *Manuel MSD* (professionnels), « Hypertrophie des végétations adénoïdes » ; ¹⁰ Un bébé ne fait pas exprès, besoin de proximité et de réconfort : formation EDPP, *Pleurs et sommeil* ; ¹¹ Signes d'urgence : ameli.fr, « Bronchiolite : que faire ? », 2026 ; signes respiratoires du sommeil : SFORL, recommandations 2017 et 2020 ; ¹² Conduite à tenir quand le parent est à bout : HAS, 2017 ; Santé publique France, 2025"
+      "sources": "¹ Un micro-éveil dure quelques secondes (défini à partir de 3 secondes) : American Academy of Sleep Medicine, *Manuel de cotation du sommeil* ; ² Les réveils de nuit entre 1 et 3 ans, repères de consultation à partir de 12 mois : ameli.fr ; Petit D., Montplaisir J., *Encyclopédie sur le développement des jeunes enfants*, 2020 ; Gaylor E. et al., 2001, cité dans Petit et Montplaisir, 2020 ; ³ Les durées de sommeil recommandées : Hirshkowitz M. et al. (National Sleep Foundation), *Sleep Health*, 2015 ; ⁴ Forcer à manger le soir, l'alimentation se compte sur la journée : formation EDPP, *Pleurs et sommeil* ; ⁵ Biberon préparé au moment : ANSES ; ⁶ Les dents gênent quelques jours autour de leur sortie : Macknin M. L. et al., *Pediatrics*, 2000 ; ⁷ Besoin de réconfort la nuit : Santé publique France, *Les 1000 premiers jours* ; ⁸ Régurgitations disparaissant le plus souvent vers un an, persistance au-delà : Haute Autorité de santé, fiche « RGO de l'enfant de moins d'un an », février 2024 ; reflux aggravé en position allongée : *Manuel MSD* (grand public), « Reflux gastro-œsophagien (RGO) », 2026 ; troubles du sommeil, régurgitations nocturnes : Haute Autorité de santé, même fiche ; ⁹ Frein de langue : difficultés de succion, évaluation, frénotomie exceptionnelle : Association française de pédiatrie ambulatoire et sociétés savantes, « Section de freins de langue chez les nourrissons et les enfants », 2021 ; lien possible avec la respiration pendant le sommeil : Bussi M. T. et al., *Brazilian Journal of Otorhinolaryngology*, 2022 (revue de la littérature, 4 études) ; preuves jugées insuffisantes : sociétés savantes françaises, 2021 ; Académie nationale de médecine, 2022 ; ¹⁰ Respiration buccale, ronflements, otites et végétations adénoïdes : *Manuel MSD* (professionnels), « Hypertrophie des végétations adénoïdes » ; ¹¹ Un bébé ne fait pas exprès, besoin de proximité et de réconfort : formation EDPP, *Pleurs et sommeil* ; ¹² Signes d'urgence : ameli.fr, « Bronchiolite : que faire ? », 2026 ; signes respiratoires du sommeil : SFORL, recommandations 2017 et 2020 ; ¹³ Conduite à tenir quand le parent est à bout : HAS, 2017 ; Santé publique France, 2025"
     },
     {
       "id": "mon-rituel",

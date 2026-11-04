@@ -32,13 +32,13 @@
 
 ### M4
 
-#### Dents ou autre chose ?
-À rédiger après validation du thème.
-
 #### Caler de vraies siestes
 À rédiger après validation du thème.
 
 #### Sortir sans que la sieste devienne une contrainte
+À rédiger après validation du thème.
+
+#### Les 2 parents savent l'endormir
 À rédiger après validation du thème.
 
 ### M5

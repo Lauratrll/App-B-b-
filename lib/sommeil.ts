@@ -19,7 +19,7 @@ import reperesCles from "@/content/sommeil/reperes_cles.json";
 export type SommeilBloc =
   | { type: "p"; texte: string }
   | { type: "citation"; texte: string }
-  | { type: "liste"; items: string[] };
+  | { type: "liste"; items: string[]; numerotee?: boolean };
 
 export type SommeilVolet = { titre: string | null; blocs: SommeilBloc[] };
 

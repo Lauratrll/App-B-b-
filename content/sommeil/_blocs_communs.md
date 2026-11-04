@@ -36,6 +36,6 @@ La température de la chambre (18 à 20 °C ; sa nuque chaude et moite, il a t
 Une dent qui perce (quelques jours autour de sa sortie, mais **tous les réveils ne sont pas dus aux dents**), un rhume, un vaccin, un changement dans sa vie, une nouvelle acquisition.
 
 #### Si quelque chose t'inquiète
-Fièvre, pleurs inhabituels, respiration qui t'inquiète : **les repères sont dans SOS**. Et chaque situation a sa fiche pas à pas dans **Guide-moi**.
+Fièvre, pleurs inhabituels, respiration qui t'inquiète : **les repères sont dans SOS**.
 
 `source` : Les dents : Macknin M. L. et al., *Pediatrics*, 2000 ; Tétine jamais attachée : ameli.fr

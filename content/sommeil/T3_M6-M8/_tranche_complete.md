@@ -23,13 +23,13 @@ Ancienne version : content/sommeil/_sauvegardes/2026-10-29_T3_avant_slots/ · f
 ### Ce qui se passe
 
 #### M6 · Il bouge, il goûte
-À 6 mois, ton bébé s'endort à présent surtout par le sommeil calme, et ses nuits, d'environ 10 heures, restent entrecoupées de réveils. Il se retourne, essaie de nouvelles positions, et la diversification alimentaire commence souvent : sa journée change, et sa nuit avec elle. Ces nouveautés peuvent le réveiller, sans que ce soit un problème de sommeil. Ce mois-ci, tu comprends les transformations de son sommeil, tu l'accompagnes pour se rendormir (ce n'est pas une mauvaise habitude) et tu ajustes son rituel.
+À 6 mois, ton bébé s'endort à présent surtout par le sommeil calme, et ses nuits, d'environ 10 heures, restent entrecoupées de réveils. Il se retourne, essaie de nouvelles positions, et la diversification alimentaire commence souvent : sa journée change, et sa nuit avec elle. Ces nouveautés peuvent le réveiller, **sans que ce soit un problème de sommeil**. Ce mois-ci, tu comprends les transformations de son sommeil, tu l'accompagnes pour se rendormir (**ce n'est pas une mauvaise habitude**) tu ajustes son rituel, et tu apprends à distinguer les dents d'un autre inconfort.
 
 #### M7 · Le mobile
-À 7 mois, ton bébé devient mobile : il s'assoit, roule, commence parfois à ramper, et son cerveau répète ces nouveaux gestes jusque dans la nuit. Il peut se retrouver coincé dans une position et se réveiller frustré, sans savoir revenir en arrière : c'est le prix d'un grand apprentissage, pas un caprice. Il te cherche aussi du regard dès que tu t'éloignes, signe que son attachement grandit. Ses siestes bougent : le plus souvent vers 7 ou 8 mois, il passe de trois à deux siestes, parfois un peu plus tard. Ce mois-ci, tu nommes tes départs (« je sors, je reviens »), tu regardes si sa troisième sieste refuse vraiment, et tu ajoutes un peu de mouvement à son rituel.
+À 7 mois, ton bébé devient mobile : il s'assoit, roule, commence parfois à ramper, et son cerveau répète ces nouveaux gestes jusque dans la nuit. Il peut se retrouver coincé dans une position et se réveiller frustré, sans savoir revenir en arrière : c'est **le prix d'un grand apprentissage, pas un caprice**. Il te cherche aussi du regard dès que tu t'éloignes, signe que son attachement grandit. Ses siestes bougent : le plus souvent vers 7 ou 8 mois, il passe **de 3 à 2 siestes**, parfois un peu plus tard. Ce mois-ci, tu nommes tes départs (« je sors, je reviens »), tu regardes si sa troisième sieste refuse vraiment, et tu ajoutes un peu de mouvement à son rituel.
 
 #### M8 · Il te reconnaît
-À 8 mois, ton bébé distingue clairement les visages familiers des visages inconnus, et il le fait savoir : il peut protester quand tu quittes la pièce, ou se méfier d'un nouveau visage. C'est une étape normale : il s'attache, il reconnaît. Il s'entraîne aussi à se mettre debout, parfois jusque dans son lit. Le passage à deux siestes se poursuit, et le soir, ta présence compte encore plus. Ce mois-ci, tu rassures son coucher qui s'étire, tu l'aides à se recoucher quand il est debout dans son lit et tu lui proposes un petit objet de réconfort.
+À 8 mois, ton bébé distingue clairement les visages familiers des visages inconnus, et il le fait savoir : il peut protester quand tu quittes la pièce, ou se méfier d'un nouveau visage. **C'est une étape normale** : il s'attache, il reconnaît. Il s'entraîne aussi à se mettre debout, parfois jusque dans son lit. Le passage à 2 siestes se poursuit, et le soir, **ta présence compte encore plus**. Ce mois-ci, tu rassures son coucher qui s'étire, tu l'aides à se recoucher quand il est debout dans son lit et tu lui proposes un petit objet de réconfort.
 
 #### Ce que tu vas peut-être voir
 Des **appels de nuit qui reviennent**, alors que c'était réglé. Un endormissement qui s'étire, parce qu'il sait maintenant que tu pars. Un bébé qui s'agite dans son lit pour s'asseoir ou se hisser. Une **troisième sieste qui commence à résister**. Ou, au contraire, des nuits qui s'allongent : les deux existent, parfois chez le même bébé, d'une semaine à l'autre.
@@ -87,6 +87,14 @@ Pour que son cerveau puisse lâcher prise et dormir, il a besoin de se sentir en
 
 ## 3 · JOURNÉE ET SIESTES
 
+### Ce qu'on va analyser
+
+#### Des questions à te poser
+1. Dort-il quand ses signaux de fatigue apparaissent, ou seulement quand il craque ?
+2. La troisième sieste, celle de fin d'après-midi, résiste-t-elle plusieurs jours de suite, ou seulement certains jours ?
+3. Sa dernière fenêtre d'éveil avant le coucher est-elle trop longue : arrive-t-il plus agité que calme ?
+4. A-t-il une heure de lever à peu près régulière, et de la lumière du jour dans la journée ?
+
 ### Éveils et fenêtres d'éveil
 
 #### La fenêtre d'éveil et la pression du sommeil
@@ -100,10 +108,13 @@ Ses temps d'éveil s'allongent. Voici l'ordre de grandeur observé chez beaucoup
 
 **Ce sont des repères, pas des règles** : cela varie d'un bébé à l'autre, et d'un jour à l'autre. Si, le soir, tu le couches souvent bien après ces durées, c'est une raison de regarder s'il n'arrive pas trop fatigué.
 
+#### La fatigue ressemble à de l'agitation
+Un bébé trop fatigué ne s'endort pas plus vite : il s'agite, pleure, se cambre. Ce n'est pas un caprice, **il ne peut pas faire autrement** : son corps n'arrive plus à se calmer seul. Si tu le vois souvent à ce moment-là, **prévois la sieste un peu plus tôt**, dès les premiers signaux.
+
 ### Ses signaux de fatigue
 
 #### Ses signaux changent
-À cet âge, ses temps d'éveil sont plus longs, et **ses signaux changent** :
+À cet âge, ses temps d'éveil sont plus longs, et **ses signaux changent**. Ils disent qu'il a besoin de dormir, que sa pression du sommeil est montée :
 - son regard se fige ou décroche, **l'intérêt pour ses jouets tombe** ;
 - il se frotte les yeux, les oreilles ou le nez ;
 - une agitation inhabituelle : il se tortille, se hisse sans cesse, ses mouvements deviennent désordonnés ;
@@ -114,10 +125,10 @@ C'est le moment de proposer la sieste, avant les pleurs. **Regarde ton bébé pl
 ### Ses siestes
 
 #### Combien de siestes ?
-À 6 mois, **souvent trois siestes par jour**. Entre 6 et 11 mois, **en moyenne deux, mais d'un bébé à l'autre, de une à trois**². Le nombre baisse peu à peu, sans que tu aies à le provoquer.
+Vers 6 mois, **souvent 3 siestes par jour**. Entre 6 et 11 mois, **en moyenne 2 siestes, mais d'un bébé à l'autre, de 1 à 3 siestes**². Le nombre baisse peu à peu, sans que tu aies à le provoquer.
 
-#### Le passage à deux siestes
-**La troisième sieste, celle de fin d'après-midi, commence souvent à résister** : elle devient un petit somme, de plus en plus court, puis elle disparaît. Le passage de trois à deux siestes se fait le plus souvent vers 7-8 mois, chez certains un peu plus tard³.
+#### Le passage à 2 siestes
+**La troisième sieste, celle de fin d'après-midi, commence souvent à résister** : elle devient un petit somme, de plus en plus court, puis elle disparaît. Le passage de 3 à 2 siestes se fait le plus souvent vers 7-8 mois, chez certains un peu plus tard³.
 
 Les signes, à voir **plusieurs jours de suite** :
 - il refuse la troisième sieste sereinement ;
@@ -125,28 +136,20 @@ Les signes, à voir **plusieurs jours de suite** :
 - il tient jusqu'au coucher sans s'effondrer ;
 - ses nuits restent bonnes.
 
-Un seul signe ne suffit pas. Un refus irrégulier, avec de la fatigue en fin de journée, ne veut pas dire qu'il est prêt. Pendant l'adaptation, **avancer un peu le coucher du soir** aide : c'est normal, et ça ne dure pas. Et si les nuits se dégradent, revenir à trois siestes n'est pas un échec : c'était peut-être un peu tôt.
-
-#### Des questions à te poser
-- Dort-il quand ses signaux de fatigue apparaissent, ou seulement quand il craque ?
-- Sa sieste s'arrête-t-elle à la fin d'un cycle, vers une heure ?
-- A-t-il une heure de lever à peu près régulière, et de la lumière du jour dans la journée ?
-- Le soir, arrive-t-il plus agité que calme ?
+Un seul signe ne suffit pas. Un refus irrégulier, avec de la fatigue en fin de journée, ne veut pas dire qu'il est prêt. Pendant l'adaptation, **avancer un peu le coucher du soir** aide : c'est normal, et ça ne dure pas. Et si les nuits se dégradent, revenir à 3 siestes n'est pas un échec : c'était peut-être un peu tôt.
 
 #### Réveiller en douceur
 S'il faut le réveiller, pour un départ ou une sieste qui s'étire et risque de décaler le coucher, fais-le **en douceur**. **Ouvre la porte, laisse entrer la lumière et les bruits de la maison, mets une petite musique douce, parle doucement à côté** : le mieux est qu'il émerge en fin de sommeil paradoxal, le cerveau déjà actif, il sera plus joyeux⁴.
 
-### Son rythme, la lumière et la famille
+#### Où dormir sa sieste ?
+Dans vos bras, en portage, dans son lit : **tous ces endroits sont possibles à cet âge**, et porter ton bébé n'est pas une mauvaise habitude. Si tu le laisses dormir contre toi ou en portage, **reste éveillé, son visage dégagé**. S'il dort dans son lit, sur le dos, à plat, sans rien autour. La sieste hors de la maison, en poussette ou en voiture, est un dépannage précieux : garde-la pour les jours où tu sors, et la sieste à la maison pour travailler le reste.
+
+### Des repères à mettre en place
+
+> Un rythme et son horloge biologique
 
 #### Le corps, la lumière et le rythme de la famille
 Laisse-lui du **temps libre au sol**, sous ton regard : c'est là qu'il s'entraîne à ce qu'il apprend, à son rythme. Et sors chaque jour, le matin si tu peux, avec une heure de lever à peu près régulière : **ce sont les repères qui entretiennent son rythme de 24 heures**. Ton rythme de vie reste son premier repère : repas, sorties, visites. Pas besoin d'un planning.
-
-### Quand la fatigue ressemble à de l'agitation
-
-#### Il n'est pas « énervé », il est fatigué
-Un bébé trop fatigué ne s'endort pas plus vite : il s'agite, pleure, se cambre. Ce n'est pas un caprice, **il ne peut pas faire autrement** : son corps n'arrive plus à se calmer seul. Si tu le vois souvent à ce moment-là, **prévois la sieste un peu plus tôt**, dès les premiers signaux.
-
-### Tes gestes pour ses siestes
 
 #### Un mini-rituel de sieste
 **La même suite de gestes avant chaque sieste**, courte. Par exemple :
@@ -155,15 +158,12 @@ Un bébé trop fatigué ne s'endort pas plus vite : il s'agite, pleure, se camb
 - un câlin, une berceuse, puis tu le poses.
 **Répète-le même s'il ne dort pas.** S'il pleure, reste près de lui : il peut chercher son sommeil sans avoir à s'inquiéter seul. Une sieste dans la journée ne l'empêche pas de bien dormir la nuit (seule une sieste très tardive peut décaler le coucher).
 
-#### Où dormir sa sieste ?
-Dans vos bras, en portage, dans son lit : **tous ces endroits sont possibles à cet âge**, et porter ton bébé n'est pas une mauvaise habitude. Si tu le laisses dormir contre toi ou en portage, **reste éveillé, son visage dégagé**. S'il dort dans son lit, sur le dos, à plat, sans rien autour. La sieste hors de la maison, en poussette ou en voiture, est un dépannage précieux : garde-la pour les jours où tu sors, et la sieste à la maison pour travailler le reste.
-
 ### Toi aussi, tu as besoin de te poser
 
 #### Dors quand il dort, au moins un peu
 **C'est parfois difficile, et tu fais de ton mieux.** Quand il fait sa sieste, pose-toi 10 à 20 minutes : une sieste courte suffit déjà à reposer⁵. Le ménage peut attendre.
 
-`source` : ¹ La pression de sommeil s'accumule beaucoup plus vite chez le nourrisson que chez l'adulte, et se dissipe plus vite : Webb L., Phillips A. J. K., Roberts J. A., *PLOS Computational Biology*, 2024, 20(10):e1012541 ; ² Le nombre de siestes de 6 à 11 mois (moyenne 2,2, de 0,9 à 3,5) : Galland B. C. et al., *Sleep Medicine Reviews*, 2012 ; ³ Le passage de trois à deux siestes, vers 7-8 mois, chez certains plus tard (la littérature donne aussi 9 à 12 mois) : repère de la frise du sommeil ; Réseau Morphée ; INSV ; ⁴ Réveiller en fin de sommeil paradoxal : formation EDPP, *Pleurs et sommeil* ; ⁵ La sieste courte de 10 à 20 minutes chez l'adulte : Brooks A., Lack L., *Sleep*, 2006
+`source` : ¹ La pression de sommeil s'accumule beaucoup plus vite chez le nourrisson que chez l'adulte, et se dissipe plus vite : Webb L., Phillips A. J. K., Roberts J. A., *PLOS Computational Biology*, 2024, 20(10):e1012541 ; ² Le nombre de siestes de 6 à 11 mois (moyenne 2,2, de 0,9 à 3,5) : Galland B. C. et al., *Sleep Medicine Reviews*, 2012 ; ³ Le passage de 3 à 2 siestes, vers 7-8 mois, chez certains plus tard (la littérature donne aussi 9 à 12 mois) : repère de la frise du sommeil ; Réseau Morphée ; INSV ; ⁴ Réveiller en fin de sommeil paradoxal : formation EDPP, *Pleurs et sommeil* ; ⁵ La sieste courte de 10 à 20 minutes chez l'adulte : Brooks A., Lack L., *Sleep*, 2006
 
 ---
 
@@ -183,7 +183,7 @@ S'il n'a pas assez bougé dans la journée, un temps de **dépense en fin d'apr�
 #### Ces soirs-là sont durs, pour lui comme pour toi
 **C'est parfois difficile, et tu fais de ton mieux.** Ton bébé sent ton état, ton ton, ta tension : s'il y réagit, c'est la preuve du lien entre vous, pas de ton échec². Ce n'est pas à toi d'être parfaitement calme. Quelques gestes qui aident :
 - **souffle lentement**, relâche les épaules, parle-lui doucement ;
-- **passe le relais** à l'autre parent, sans culpabiliser : une personne plus détendue l'aide à redescendre, et chacun a des gestes et une voix différents ;
+- **passe le relais** à l'autre parent, sans culpabiliser : une personne plus détendue l'aide à redescendre, et chacun a une voix et des gestes différents ;
 - **sors prendre l'air** avec lui, quelques minutes.
 
 ### Pour l'aider à redescendre
@@ -192,12 +192,12 @@ S'il n'a pas assez bougé dans la journée, un temps de **dépense en fin d'apr�
 En fin de journée, **baisse les lumières** : des lampes basses et chaudes plutôt que le plafonnier. **Les écrans allumés, télévision en fond comprise, ajoutent les deux choses qu'on cherche à retirer le soir** : de la lumière et de l'agitation. Éteins-les dans la pièce où il est.
 
 #### Remplir son réservoir émotionnel
-Imagine un petit réservoir que ton bébé remplit, au fil de la journée, de **ta présence, de ta tendresse et de ton attention**. Un bébé qui se sent aimé et accompagné se sent **en sécurité**, et c'est cette sécurité qui lui permet de se détendre : il a moins besoin de t'appeler ou de s'accrocher à toi, et il peut lâcher prise pour s'endormir. Les recherches vont dans ce sens : c'est **près de toi qu'il apprend à apaiser ses émotions**³, et un parent présent et chaleureux est pour lui une base de sécurité⁴. C'est une image, pas un compte à tenir. Certains soirs, il protestera quand même : ce n'est pas que tu n'en as pas assez donné.
+Imagine un petit réservoir que ton bébé remplit, au fil de la journée, de **ta présence, de ta tendresse et de ton attention**. Un bébé qui se sent aimé et accompagné se sent **en sécurité**, et c'est cette sécurité qui lui permet de se détendre : il a moins besoin de t'appeler ou de s'accrocher à toi, et il peut lâcher prise pour s'endormir. Les recherches vont dans ce sens : **c'est près de toi qu'il apprend à apaiser ses émotions**³, et un parent présent et chaleureux est pour lui une base de sécurité⁴. C'est une image, pas un compte à tenir. Certains soirs, il protestera quand même : ce n'est pas que tu n'en as pas assez donné.
 Quelques façons de le remplir :
 - **de la présence entière** : quelques minutes avec lui, sans téléphone, à hauteur de son regard ;
 - **du contact** : câlin, portage lent, massage ;
 - **des échanges** : un regard, une chanson, quelques mots sur sa journée ;
-- **du jeu ensemble** : coucou, cache-cache avec un tissu, un livre à tourner ;
+- **du jeu ensemble, des rires** : coucou, cache-cache avec un tissu, un livre à tourner ;
 - **de la réassurance** : quand il proteste, viens près de lui et dis-lui ce qu'il vit (« tu aimerais que je reste, je suis là ») ;
 - **du doux avant la nuit** : les mêmes gestes, les mêmes mots, la même lumière chaque soir.
 
@@ -322,12 +322,13 @@ Et si les pleurs montent, **il l'accompagne contre lui, avec sa voix** : appele
 ### Se réveiller la nuit est normal
 
 #### Pourquoi se réveille-t-il ?
-Dans un cycle de sommeil, il y a des **micro-réveils**, de quelques secondes¹ : ils permettent au cerveau de passer d'un état à un autre. Un adulte enchaîne ses cycles sans s'en rendre compte. Son horloge interne se renforce, mais n'est pas encore pleinement installée : sa mélatonine, l'hormone qui donne l'heure de la nuit, n'est pas encore bien active. Ton bébé n'a pas encore cette capacité : **il a encore besoin d'être accompagné.** À cet âge, ce qui se joue la nuit est surtout neurologique : il apprend à se rendormir entre deux cycles, en plein chantier. Les réveils sont physiologiques : ce n'est ni un défaut de ton bébé, ni de ta faute.
+Dans un cycle de sommeil, il y a des **micro-réveils**, de quelques secondes¹ : ils permettent au cerveau de passer d'un état à un autre. Un adulte enchaîne ses cycles sans s'en rendre compte. Son horloge interne à lui se renforce, mais n'est pas encore pleinement installée : sa mélatonine, l'hormone qui donne l'heure de la nuit, n'est pas encore bien active. Ton bébé n'a pas encore cette capacité : **il a encore besoin d'être accompagné.** À cet âge, ce qui se joue la nuit est surtout neurologique : il apprend à se rendormir entre deux cycles, en plein chantier. Les réveils sont physiologiques : ce n'est ni un défaut de ton bébé, ni de ta faute.
 
 C'est pendant ces micro-réveils qu'il peut ressentir :
 - **la faim** ;
-- **une gêne** : trop chaud, la couche, un bruit ;
-- **le besoin d'être rassuré**, surtout maintenant qu'il sait que tu peux t'éloigner.
+- **une gêne** : chaud/froid, couche pleine, bruit ;
+- **le besoin d'être rassuré**, surtout maintenant qu'il sait que tu peux t'éloigner ;
+- **une cause médicale** : consulter.
 
 #### Faire ses nuits, ça veut dire quoi ?
 À partir de 6 mois, le repère est **environ 10 heures de sommeil la nuit, entrecoupées de réveils**. **Il y a toujours des réveils nocturnes, et ton bébé a toujours besoin que tu l'accompagnes pour se rendormir** : c'est en l'accompagnant que tu l'aides à y arriver, un jour, seul. Certains bébés dorment déjà toute la nuit d'une traite ; beaucoup n'y sont pas encore à 1 an, et ça ne dit rien de leur développement.
@@ -338,8 +339,7 @@ C'est pendant ces micro-réveils qu'il peut ressentir :
 #### La tétée de nuit
 Garde la nuit **sombre et calme** : une lumière ambrée et faible pour toi, une voix basse, pas de jeu, pas de téléphone. Change la couche si c'est nécessaire, dans la pénombre. Au biberon, **prépare-le au moment de le donner**³. Puis tu le recouches **sur le dos**.
 
-### Quand il se réveille, dans cet ordre
-> Quand il se réveille, pose-toi ces questions l'une après l'autre.
+### Quand il se réveille, demande-toi :
 
 #### 1. Dort-il encore ?
 **Attends quelques instants avant d'agir** : souvent, il se tourne, grogne, et se rendort. Vers 6 mois, son sommeil agité est devenu un sommeil paradoxal, et il bouge moins : s'il n'interagit pas avec toi, il peut dormir encore, même avec les yeux ouverts. **Lui laisser sa chance, ce n'est pas le laisser en détresse** : si ses pleurs montent et s'installent, tu viens.
@@ -348,38 +348,37 @@ Garde la nuit **sombre et calme** : une lumière ambrée et faible pour toi, un
 Il cherche à téter, ouvre la bouche, porte ses mains à la bouche, s'agite avant de pleurer. Dans ce cas, **réponds à sa faim** : une tétée de nuit calme et sombre, sans jeu ni téléphone.
 
 #### 3. Quelque chose le gêne-t-il ?
-En dix secondes, vérifie :
+Vérifie :
 - la température de la chambre (18 à 20 °C ; nuque chaude et moite : il a trop chaud) ;
 - ses vêtements, sa couche ;
 - un bruit ou une lumière ;
 - la tétine perdue (jamais attachée) ;
-- **sa position** : s'il est coincé assis ou à plat ventre, il ne sait pas toujours se remettre dans l'autre sens.
+- **sa position** : s'il est coincé assis ou à plat ventre, il ne sait pas toujours se remettre dans l'autre sens ;
+- les dents : gencives gonflées, salive abondante, besoin de mordiller, bébé irritable. Les premières dents apparaissent souvent vers 6 mois, mais le calendrier varie selon les bébés. Elles gênent surtout quelques jours autour de leur sortie, et **tous les réveils ne sont pas dus aux dents**⁴ ;
+- un rhume, un vaccin, un début de maladie ;
+- un bouleversement dans sa vie.
 
-Sur quelques jours : les dents peuvent gêner, mais **tous les réveils ne sont pas dus aux dents**⁴. Un rhume, un vaccin, un changement dans sa vie.
+#### 4. A-t-il besoin d'être rassuré ?
+Il est vraiment réveillé, il t'appelle, il se calme avec ta présence sans avoir faim. **S'il se réveille vraiment et t'appelle, tu viens**, et **tu commences par le moins** : ta voix, la phrase du soir, une main posée sur lui. Tu le prends dans tes bras si ça ne suffit pas. Il peut avoir besoin d'être câliné et rassuré⁵ : ce n'est pas lui donner une mauvaise habitude.
 
-#### 4. Sa journée a-t-elle été très chargée ?
+#### 5. Retrouve-t-il ses conditions d'endormissement ?
+Il s'est endormi dans certaines conditions (tes bras, la tétée, le bercement). **Si elles ne sont plus là au milieu de la nuit, il s'en rend compte** et il t'appelle pour les retrouver.
+Pour les varier pas à pas, tu trouveras des idées dans la catégorie Endormissement, « Diversifier ses conditions d'endormissement, pas à pas ».
+
+#### 6. Sa journée a-t-elle été très chargée ?
 Une journée très remplie (visites, bruit, beaucoup de nouveautés), une fin de journée agitée ou un coucher très tardif peuvent rendre la nuit plus agitée, avec plus de réveils. Regarde ce qui s'est passé dans la journée, et allège la fin de journée les jours suivants : tu trouveras des idées dans la catégorie Fin de journée.
 
-#### 5. A-t-il besoin d'être rassuré ?
-Il est vraiment réveillé, il t'appelle, il se calme dans tes bras sans avoir faim. **S'il se réveille vraiment et t'appelle, tu viens**, et **tu commences par le moins** : ta voix, la phrase du soir, une main posée sur lui. Tu le prends dans tes bras si ça ne suffit pas. Il peut avoir besoin d'être câliné et rassuré⁵ : ce n'est pas lui donner une mauvaise habitude.
-Parfois aussi, **il ne retrouve pas les conditions dans lesquelles il s'est endormi** (tes bras, la tétée, le bercement). Au milieu de la nuit, il s'en rend compte, et il t'appelle pour les retrouver.
-
-#### 6. Montre-t-il des signes qui méritent un avis médical ?
+#### 7. Montre-t-il des signes qui méritent un avis médical ?
 Fièvre, difficulté à respirer, pleurs inhabituels, refus de boire, bébé difficile à réveiller : ces signes sont dans « Quand consulter », en bas de cette page. Et certaines causes médicales peuvent perturber ses nuits sans être urgentes : tu les trouves juste en dessous.
 
-### Quand une cause médicale perturbe ses nuits
-> Dans la grande majorité des cas, les réveils sont normaux. Ici, pas de diagnostic : si plusieurs signes te parlent, parles-en à ton médecin.
+### Des causes médicales qui perturbent ses nuits
+> Ici, pas de diagnostic : si plusieurs signes te parlent, parles-en à ton médecin.
 
-#### Le reflux (RGO)
-**Les régurgitations sont très fréquentes** entre 1 mois et environ un an : elles arrivent sans effort, ne gênent pas le bébé et n'empêchent pas sa croissance⁶. C'est banal, et sans gravité. **Consulte** si tu observes :
-- des vomissements violents, en jet, à chaque repas ;
-- des vomissements vert fluorescent ;
-- du sang dans les régurgitations ;
-- des refus répétés de boire, ou une prise de poids insuffisante.
-Les pleurs de fin de journée, eux, ne s'expliquent pas par le reflux⁶. Ce qui aide : respecter sa faim, faire des pauses et un rot pendant le repas, le garder droit après, et le coucher sur le dos.
+#### Le reflux (RGO) interne
+**Si ton bébé régurgite en journée, cela mérite aussi ton attention la nuit.** Les régurgitations sont très fréquentes jusqu'à environ un an, et le plus souvent sans gravité⁶. Mais le reflux peut aussi être « interne » : une fois allongé, l'acidité de l'estomac remonte plus facilement vers l'œsophage, sans qu'on voie de régurgitation⁶. La nuit, tu peux alors observer des réveils fréquents, un sommeil agité, parfois une toux⁶. Un seul de ces signes ne suffit pas à conclure, mais s'ils se répètent, parles-en à ton médecin.
 
 #### L'allergie aux protéines de lait de vache (APLV)
-Elle peut apparaître dès les premières semaines, jusqu'à 8-10 mois⁷. **Ce que tu peux observer** :
+Elle peut apparaître dès les premières semaines, comme plusieurs mois après⁷. **Ce que tu peux observer** :
 - la peau : rougeurs, démangeaisons ;
 - le ventre : régurgitations ou vomissements plus fréquents, constipation, diarrhée, ou les deux en alternance ;
 - des coliques régulières ou des diarrhées dans les heures qui suivent un biberon ;
@@ -387,12 +386,12 @@ Elle peut apparaître dès les premières semaines, jusqu'à 8-10 mois⁷. **Ce 
 **Consulte ton médecin ou ton pédiatre** : lui seul peut dire s'il faut changer de lait. Ne donne ni lait de chèvre, de brebis, de jument, ni lait de soja sans son avis⁷.
 
 #### Un frein de langue restrictif
-Il ne concerne que les bébés qui ont **des difficultés à téter** : succion difficile, tétées douloureuses pour la mère, allaitement qui s'arrête tôt⁸. Un frein court ou épais qui ne gêne pas la tétée n'est pas un problème. Si la tétée est difficile, demande d'abord l'évaluation d'un professionnel formé à l'allaitement (sage-femme, médecin, puéricultrice), avec ton médecin traitant : une intervention n'est envisagée qu'exceptionnellement, après avoir essayé les autres solutions⁸.
+Il ne concerne que les bébés qui ont **des difficultés à téter** : succion difficile, tétées douloureuses pour la mère, allaitement qui s'arrête tôt⁸. Un frein court ou épais qui ne gêne pas la tétée n'est pas un problème. **Pourquoi peut-il gêner les nuits ?** Un frein restrictif limite la mobilité de la langue : certaines études observent un lien avec des difficultés à respirer pendant le sommeil, avec des ronflements, un sommeil agité ou une respiration par la bouche. Ce lien reste débattu, et les sociétés savantes françaises rappellent qu'il manque de preuves scientifiques⁸. Si ton bébé a ces signes, parles-en à ton médecin plutôt que d'en conclure que c'est le frein. Si la tétée est difficile, demande d'abord l'évaluation d'un professionnel formé à l'allaitement (sage-femme, médecin, puéricultrice), avec ton médecin traitant : une intervention n'est envisagée qu'exceptionnellement, après avoir essayé les autres solutions⁸.
 
 #### Une respiration par la bouche, des ronflements
 Une **respiration buccale qui dure**, des ronflements, un sommeil très agité ou des otites qui reviennent peuvent venir d'un nez ou d'une gorge obstrués, par exemple par des végétations⁹. Un simple rhume bouche le nez de façon passagère, et c'est fréquent. **Si ça dure hors rhume**, parles-en à ton médecin, qui t'orientera vers un spécialiste si besoin.
 
-### Ce dont il a besoin la nuit
+### Il a besoin de vous, prenez soin de vous
 
 #### Il est en alerte, car il dépend de toi
 N'oublie pas : **les réveils nocturnes sont normaux**. Ton bébé reste en alerte la nuit parce qu'il dépend de ses parents¹⁰. Il a besoin de ta proximité, de ta voix, de tes bras, et le réconforter n'est pas lui donner une mauvaise habitude. Plus il se sent en sécurité, plus il retrouvera facilement le sommeil.
@@ -402,14 +401,11 @@ S'il vient d'apprendre à se hisser, tu le retrouveras peut-être debout contre 
 
 #### Et toi, avec ces nuits
 **C'est parfois difficile, et tu fais de ton mieux.** Les nuits hachées épuisent, c'est normal :
-- **dors quand il dort**, même par petits blocs de 20 minutes ;
 - **couche-toi tôt** certains soirs, plutôt que de profiter du calme ;
 - **partage ce que tu peux** : les courses, les repas, une nuit sur deux avec l'autre parent ;
 - **accepte qu'on ne puisse pas tout faire**.
 
-### Partager les nuits
-
-#### Le relais de nuit
+#### Partager les nuits
 Les nuits n'appartiennent pas à un seul parent. Le co-parent peut **se lever pour les réveils qui ne sont pas des tétées** : le consoler, le recoucher, l'aider à redescendre quand il est debout. Vous vous relayez pour que chacun ait un vrai bloc de sommeil. Si vraiment rien n'apaise, appeler l'autre n'est pas un échec.
 
 ### À noter cette semaine
@@ -421,11 +417,11 @@ Pendant trois nuits, note en quelques mots : **l'heure des réveils, ce qu'il l
 
 #### Quand consulter
 - **Appelle le 15** s'il fait des pauses respiratoires, si ses lèvres bleuissent, s'il est difficile à réveiller ou respire avec difficulté¹¹.
-- **Consulte ton médecin** s'il **ronfle presque toutes les nuits, hors rhume**, s'il dort la bouche ouverte, s'il transpire beaucoup en dormant, si son sommeil est très agité, ou si ses pleurs de nuit sont inhabituels. Chaque situation a aussi sa fiche pas à pas dans Guide-moi.
+- **Consulte ton médecin** s'il **ronfle presque toutes les nuits, hors rhume**, s'il dort la bouche ouverte, s'il transpire beaucoup en dormant, si son sommeil est très agité, ou si ses pleurs de nuit sont inhabituels.
 - Un bébé ne se secoue **jamais**, même une seconde, même doucement. Si tu sens que tu craques, **couche-le sur le dos dans son lit, sors de la pièce, respire, appelle quelqu'un**¹². Allo Parents Bébé : 0 800 00 34 56 (gratuit).
 - Et si les nuits t'épuisent au point de ne plus tenir, **parles-en** : médecin, sage-femme, PMI, ou Allo Parents Bébé.
 
-`source` : ¹ Un micro-éveil dure quelques secondes (défini à partir de 3 secondes) : American Academy of Sleep Medicine, *Manuel de cotation du sommeil* ; ² Plus de lait le soir, pas moins de réveils : Brown A., Harries V., *Breastfeeding Medicine*, 2015 ; ³ Biberon préparé au moment : ANSES ; ⁴ Les dents gênent quelques jours autour de leur sortie : Macknin M. L. et al., *Pediatrics*, 2000 ; ⁵ Besoin de réconfort la nuit : Santé publique France, *Les 1000 premiers jours* ; ⁶ Reflux banal, signes d'alerte, pleurs non attribués au reflux : Haute Autorité de santé, *Reflux du nourrisson : un médicament est-il nécessaire ?*, 2024 ; ⁷ Allergie aux protéines de lait de vache, symptômes et conduite à tenir : Santé.fr (Service public d'information en santé), « Allergie aux protéines du lait de vache » ; ⁸ Frein de langue : difficultés de succion, évaluation, frénotomie exceptionnelle : Association française de pédiatrie ambulatoire et sociétés savantes, « Section de freins de langue chez les nourrissons et les enfants », 2021 ; ⁹ Respiration buccale, ronflements, otites et végétations adénoïdes : *Manuel MSD* (professionnels), « Hypertrophie des végétations adénoïdes » ; ¹⁰ Un bébé ne fait pas exprès, besoin de proximité et de réconfort : formation EDPP, *Pleurs et sommeil* ; ¹¹ Signes d'urgence : ameli.fr, « Bronchiolite : que faire ? », 2026 ; signes respiratoires du sommeil : SFORL, recommandations 2017 et 2020 ; ¹² Conduite à tenir quand le parent est à bout : HAS, 2017 ; Santé publique France, 2025
+`source` : ¹ Un micro-éveil dure quelques secondes (défini à partir de 3 secondes) : American Academy of Sleep Medicine, *Manuel de cotation du sommeil* ; ² Plus de lait le soir, pas moins de réveils : Brown A., Harries V., *Breastfeeding Medicine*, 2015 ; ³ Biberon préparé au moment : ANSES ; ⁴ Les dents gênent quelques jours autour de leur sortie : Macknin M. L. et al., *Pediatrics*, 2000 ; ⁵ Besoin de réconfort la nuit : Santé publique France, *Les 1000 premiers jours* ; ⁶ Régurgitations fréquentes, le plus souvent sans gravité : Haute Autorité de santé, *Reflux du nourrisson : un médicament est-il nécessaire ?*, 2024 ; reflux aggravé en position allongée : *Manuel MSD* (grand public), « Reflux gastro-œsophagien (RGO) », 2026 ; troubles du sommeil, régurgitations nocturnes, lien avec la toux non démontré : Haute Autorité de santé, fiche « RGO de l'enfant de moins d'un an », février 2024 ; ⁷ Allergie aux protéines de lait de vache, symptômes et conduite à tenir : Santé.fr (Service public d'information en santé), « Allergie aux protéines du lait de vache » ; ⁸ Frein de langue : difficultés de succion, évaluation, frénotomie exceptionnelle : Association française de pédiatrie ambulatoire et sociétés savantes, « Section de freins de langue chez les nourrissons et les enfants », 2021 ; lien possible avec la respiration pendant le sommeil : Bussi M. T. et al., *Brazilian Journal of Otorhinolaryngology*, 2022 (revue de la littérature, 4 études) ; preuves jugées insuffisantes : sociétés savantes françaises, 2021 ; Académie nationale de médecine, 2022 ; ⁹ Respiration buccale, ronflements, otites et végétations adénoïdes : *Manuel MSD* (professionnels), « Hypertrophie des végétations adénoïdes » ; ¹⁰ Un bébé ne fait pas exprès, besoin de proximité et de réconfort : formation EDPP, *Pleurs et sommeil* ; ¹¹ Signes d'urgence : ameli.fr, « Bronchiolite : que faire ? », 2026 ; signes respiratoires du sommeil : SFORL, recommandations 2017 et 2020 ; ¹² Conduite à tenir quand le parent est à bout : HAS, 2017 ; Santé publique France, 2025
 
 ---
 
@@ -492,6 +488,9 @@ Pose-le **sur le dos, dans son lit nu**, les fesses puis la tête. Une main pos�
 À rédiger après validation du thème.
 
 #### Ajuster le rituel
+À rédiger après validation du thème.
+
+#### Dents ou autre chose ?
 À rédiger après validation du thème.
 
 ### M7

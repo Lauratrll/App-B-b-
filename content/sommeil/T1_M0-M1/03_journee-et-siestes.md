@@ -1,5 +1,13 @@
 ## 3 · JOURNÉE ET SIESTES
 
+### Ce qu'on va analyser
+
+#### Des questions à te poser
+1. Dort-il quand ses signaux de fatigue apparaissent, ou seulement quand il craque ?
+2. Ses sommeils de la journée se passent-ils à la lumière du jour, avec les bruits normaux de la maison ?
+3. Un même temps calme précède-t-il ses siestes, même quand il ne s'endort pas ?
+4. Se réveille-t-il de lui-même pour manger, ou est-il difficile à réveiller ?
+
 ### Éveils et fenêtres d'éveil
 
 #### La fenêtre d'éveil et la pression du sommeil
@@ -16,10 +24,13 @@ La **fenêtre d'éveil**, c'est le temps entre le moment où ton bébé se réve
 #### L'éveil calme, le moment pour créer du lien
 Pendant ces moments d'éveil, il y a un temps où il est le plus disponible : yeux ouverts et brillants, il te regarde, il bouge peu. **À la naissance, il dure 5 à 10 minutes ; vers 1 mois, environ 30 minutes**². C'est le moment des échanges : ta voix, ton visage tout près, ton sourire. Quand il se termine, il a besoin de dormir.
 
+#### La fatigue ressemble à de l'agitation
+Un bébé trop fatigué ne s'endort pas plus vite : il s'agite, pleure, se cambre. Ce n'est pas un caprice, **il ne peut pas faire autrement** : son corps n'arrive plus à se calmer seul. Si tu le vois souvent à ce moment-là, **propose-lui de dormir un peu plus tôt**, dès les premiers signaux.
+
 ### Ses signaux de fatigue
 
 #### La fin de l'éveil calme est ton signal
-Quand il a reçu tout ce qu'il pouvait recevoir, il passe de l'éveil calme à l'éveil agité : c'est le signe qu'il a besoin de dormir. Les signaux à guetter :
+Quand il a reçu tout ce qu'il pouvait recevoir, il passe de l'éveil calme à l'éveil agité : c'est le signe qu'il a besoin de dormir, que sa pression du sommeil est montée. Les signaux à guetter :
 - son regard se fige, décroche, part dans le vague ;
 - il détourne la tête dès que tu lui parles ;
 - il se frotte les yeux ou le visage ;
@@ -39,17 +50,15 @@ Une sieste de 45 minutes s'arrête souvent quand un cycle se termine, au moment 
 #### S'il dort beaucoup
 Certains bébés dorment longtemps, d'autres peu : **2 à 3 heures d'écart entre deux bébés du même âge sont normales**³. Mais **un bébé qui dort trop, qui ne se réveille pas pour manger ou qui est difficile à réveiller**, ce n'est pas normal : c'est une raison de consulter sans attendre². Les repères sur le nombre de tétées par jour te sont donnés par ta sage-femme ou ton médecin, et par la courbe de croissance du carnet de santé.
 
-### Son rythme, la lumière et la famille
+#### Où dormir sa sieste ?
+Dans vos bras, en portage, dans son lit : **tous ces endroits sont possibles à cet âge**, et porter ton bébé n'est pas une mauvaise habitude. Si tu le laisses dormir contre toi ou en portage, **reste éveillé, son visage dégagé, bien visible**⁴. S'il dort dans son lit, c'est **sur le dos, à plat, sans rien autour**⁵. **Jamais sur un canapé ou dans un fauteuil.**
+
+### Des repères à mettre en place
+
+> Un rythme et son horloge biologique
 
 #### La lumière et les premiers repères
 Sors avec lui dans la journée si tu le peux : **la lumière du jour est le repère le plus fort pour une horloge qui va se mettre en route**. Il ne s'en sert pas encore, mais tu lui prépares le terrain. Une heure de lever à peu près régulière te donne aussi un point de départ, sans la tenir à la minute. Le soir, des lumières basses et chaudes.
-
-### Quand la fatigue ressemble à de l'agitation
-
-#### Il n'est pas « énervé », il est fatigué
-Un bébé trop fatigué ne s'endort pas plus vite : il s'agite, pleure, se cambre. Ce n'est pas un caprice, **il ne peut pas faire autrement** : son corps n'arrive plus à se calmer seul. Si tu le vois souvent à ce moment-là, **propose-lui de dormir un peu plus tôt**, dès les premiers signaux.
-
-### Tes gestes pour ses siestes
 
 #### Un temps calme de sieste
 Dès la naissance, un petit repère aide : **le même temps calme avant chaque sieste**, court, même s'il ne s'endort pas². Il aide à mettre en place le rythme de la famille. Par exemple :
@@ -58,9 +67,6 @@ Dès la naissance, un petit repère aide : **le même temps calme avant chaque 
 - tu le laisses chercher son sommeil, à la lumière du jour, **mais sans le laisser s'inquiéter ni pleurer seul** : reste près de lui, rassure-le ;
 - tu gardes les bruits normaux de la maison, sans bruit fort ; un bruit blanc doux est parfait.
 **Répète-le chaque jour, même s'il ne dort pas.** Une sieste n'empêche pas la nuit².
-
-#### Où dormir sa sieste ?
-Dans vos bras, en portage, dans son lit : **tous ces endroits sont possibles à cet âge**, et porter ton bébé n'est pas une mauvaise habitude. Si tu le laisses dormir contre toi ou en portage, **reste éveillé, son visage dégagé, bien visible**⁴. S'il dort dans son lit, c'est **sur le dos, à plat, sans rien autour**⁵. **Jamais sur un canapé ou dans un fauteuil.**
 
 ### Toi aussi, tu as besoin de te poser
 

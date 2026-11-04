@@ -13,6 +13,9 @@
 #### Ajuster le rituel
 À rédiger après validation du thème.
 
+#### Dents ou autre chose ?
+À rédiger après validation du thème.
+
 ### M7
 
 #### Vrai ou faux refus de la troisième sieste

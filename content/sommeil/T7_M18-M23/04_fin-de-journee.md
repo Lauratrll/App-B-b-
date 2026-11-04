@@ -29,12 +29,12 @@ En fin de journée, **baisse les lumières** : des lampes basses et chaudes plu
 Avant le rituel, prends quelques minutes pour **déposer la journée** avec lui. Raconte-la avec des mots simples : « Ce matin, tu as vu le chien, tu as mangé des pâtes, tu as dit au revoir. » S'il parle, laisse-le répéter ou ajouter un mot ; s'il ne parle pas encore, c'est toi qui mets des mots pour lui². Nomme aussi ce qui a pesé : « Tu étais très fâché quand il a fallu ranger. C'est passé. » Il emporte ainsi moins de sa journée dans son sommeil.
 
 #### Remplir son réservoir émotionnel
-Imagine un petit réservoir que ton enfant remplit, au fil de la journée, de **ta présence, de ta tendresse et de ton attention**. Un enfant qui se sent aimé et accompagné se sent **en sécurité**, et c'est cette sécurité qui lui permet de se détendre : il a moins besoin de t'appeler ou de s'accrocher à toi, et il peut lâcher prise pour s'endormir. Les recherches vont dans ce sens : c'est **près de toi qu'il apprend à apaiser ses émotions**⁵, et un parent présent et chaleureux est pour lui une base de sécurité⁶. C'est une image, pas un compte à tenir. Certains soirs, il protestera quand même : ce n'est pas que tu n'en as pas assez donné.
+Imagine un petit réservoir que ton enfant remplit, au fil de la journée, de **ta présence, de ta tendresse et de ton attention**. Un enfant qui se sent aimé et accompagné se sent **en sécurité**, et c'est cette sécurité qui lui permet de se détendre : il a moins besoin de t'appeler ou de s'accrocher à toi, et il peut lâcher prise pour s'endormir. Les recherches vont dans ce sens : **c'est près de toi qu'il apprend à apaiser ses émotions**⁵, et un parent présent et chaleureux est pour lui une base de sécurité⁶. C'est une image, pas un compte à tenir. Certains soirs, il protestera quand même : ce n'est pas que tu n'en as pas assez donné.
 Quelques façons de le remplir :
 - **de la présence entière** : quelques minutes avec lui, sans téléphone, à hauteur de son regard ;
 - **du contact** : câlin, portage lent, massage ;
 - **des échanges** : un regard, une chanson, quelques mots sur sa journée ;
-- **du jeu ensemble** : faire semblant, un livre à tourner, un câlin au doudou ;
+- **du jeu ensemble, des rires** : faire semblant, un livre à tourner, un câlin au doudou ;
 - **de la réassurance** : quand il proteste, viens près de lui et dis-lui ce qu'il vit (« tu aimerais que je reste, je suis là ») ;
 - **du doux avant la nuit** : les mêmes gestes, les mêmes mots, la même lumière chaque soir.
 

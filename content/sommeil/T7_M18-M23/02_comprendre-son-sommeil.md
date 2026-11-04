@@ -3,19 +3,19 @@
 ### Ce qui se passe
 
 #### M18 · Poser sa journée
-Vers 18 mois, son sommeil a l'organisation du tien et il n'a plus qu'une sieste, en milieu de journée. Ce qui bouge, ce n'est plus l'escalier du sommeil : c'est **ce qu'il emporte en le descendant**, ses images, ses mots, ses premières peurs. Les terreurs nocturnes sont aussi les plus fréquentes autour de cet âge. Ce mois-ci, ce qui l'aide, c'est de **poser sa journée avant le coucher**, en la racontant avec des mots simples, et de savoir distinguer une terreur nocturne d'une peur de l'imaginaire.
+Vers 18 mois, son sommeil a l'organisation du tien et **il n'a plus qu'une sieste**, en milieu de journée. Ce qui bouge, ce n'est plus l'escalier du sommeil : c'est **ce qu'il emporte en le descendant**, ses images, ses mots, ses premières peurs. **Les terreurs nocturnes sont aussi les plus fréquentes** autour de cet âge. Ce mois-ci, ce qui l'aide, c'est de **poser sa journée avant le coucher**, en la racontant avec des mots simples, et de savoir distinguer une terreur nocturne d'une peur de l'imaginaire.
 
 #### M19 · Un coucher qui s'éternise
 Vers 19 mois, beaucoup de couchers s'étirent : un verre d'eau, une dernière histoire, encore un câlin. Derrière, il y a tantôt une peur, tantôt l'envie de jouer, tantôt un « non » qui s'affirme, et parfois encore la vague de réactions à la séparation (voir les mois précédents). Ce mois-ci, ce qui l'aide, c'est **un rituel plus court, plus clair, avec des limites douces**.
 
 #### M20 · La sieste et le coucher
-Vers 20 mois, son horloge est installée depuis longtemps et elle s'ancre un peu plus chaque mois. Le coucher dépend beaucoup de deux heures : celle de son lever et celle de la fin de sa sieste. Le soir, les histoires prennent de la place : **d'abord l'imaginaire, puis le calme**. Ce mois-ci, tu choisis avec lui le moment qui lui ressemble (mouvement, mots, émotions, imaginaire).
+Vers 20 mois, son horloge est installée depuis longtemps et elle s'ancre un peu plus chaque mois. Le coucher dépend beaucoup de deux heures : **celle de son lever et celle de la fin de sa sieste**. Le soir, les histoires prennent de la place : **d'abord l'imaginaire, puis le calme**. Ce mois-ci, tu choisis avec lui le moment qui lui ressemble (mouvement, mots, émotions, imaginaire).
 
 #### M21 · Des peurs qui arrivent
 Vers 21 mois, un cerveau qui imagine peut aussi imaginer ce qui fait peur : l'ombre dans le coin, le bruit derrière la porte, le noir. **Il ne les choisit pas.** Ce qui l'aide : une réponse calme, une lumière du matin pour caler sa journée, un temps calme avant la sieste.
 
 #### M22 · Cauchemar ou terreur ?
-Vers 2 ans, certains enfants commencent à avoir de mauvais rêves qu'ils peuvent raconter. Ce n'est pas la même chose qu'une terreur nocturne : **il te reconnaît, il se console dans tes bras, il s'en souvient**. Ce mois-ci, ce qui l'aide, c'est une réponse calme à sa peur, avec les mêmes mots chaque nuit, et un petit objet de réconfort s'il en a un.
+Vers 2 ans, certains enfants commencent à avoir de mauvais rêves qu'ils peuvent raconter. Ce n'est **pas la même chose qu'une terreur nocturne** : **il te reconnaît, il se console dans tes bras, il s'en souvient**. Ce mois-ci, ce qui l'aide, c'est une réponse calme à sa peur, avec les mêmes mots chaque nuit, et un petit objet de réconfort s'il en a un.
 
 #### M23 · Refuser la sieste, ou en avoir encore besoin ?
 Vers 23 mois, beaucoup d'enfants disent « non » à la sieste sans pour autant ne plus en avoir besoin. **Ses nuits te le disent** : si elles se dégradent les jours sans sieste, elle lui sert encore. Le temps calme peut faire le relais, sans qu'on ait à anticiper la fin de la sieste.

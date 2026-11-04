@@ -32,7 +32,7 @@ La dernière tétée ou le dernier biberon, tout contre toi. Dans la pénombre, 
 ### La pose
 
 #### La phrase et la pose
-Pose-le **sur le dos, dans son lit nu**, les fesses puis la tête. Une main posée sur son ventre quelques instants, puis tu sors en silence. **Termine par de la tendresse** : un dernier regard, un mot doux, avant de le laisser à la nuit. Si tu utilises un bruit blanc : **volume bas, loin du lit, pas toute la nuit.**
+Pose-le **sur le dos, dans son lit nu**, les fesses puis la tête. Descends-le doucement en le positionnant un peu de côté, puis tourne-le sur le dos : cela évite de déclencher le réflexe de Moro, qui peut encore être présent à cet âge. Une main posée sur son ventre quelques instants, puis tu sors en silence. **Termine par de la tendresse** : un dernier regard, un mot doux, avant de le laisser à la nuit. Si tu utilises un bruit blanc : **volume bas, loin du lit, pas toute la nuit.**
 
 ### La place du co-parent
 

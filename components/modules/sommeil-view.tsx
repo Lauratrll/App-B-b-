@@ -153,7 +153,7 @@ export function Blocs({
                   style={{ display: "flex", gap: 7, alignItems: "flex-start", marginBottom: 5 }}
                 >
                   <span style={{ color: accent, fontWeight: 700, lineHeight: 1.5, flexShrink: 0 }}>
-                    •
+                    {b.numerotee ? `${j + 1}.` : "•"}
                   </span>
                   <div style={{ fontSize: 11, color, lineHeight: 1.55 }}>
                     <Inline texte={p(it)} />

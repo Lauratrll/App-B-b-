@@ -69,16 +69,21 @@ const sansMois = (titre: string | null) =>
 const OBSERVATION: ThemeVolet = { bg: "#E8F0F2", accent: "#8FB4BC", label: "#3A5A64" };
 const ACTION: ThemeVolet = { bg: "#F8E4D4", accent: "#DB936B", label: "#9A4F2A" };
 const CO_PARENT: ThemeVolet = { bg: "#DDF1EC", accent: "#7CC4B4", label: "#1F5E52" };
+// 04/11 : Réveils nocturnes — trois parties qui se détachent, couleurs Guide-moi.
+const CAUSES_MEDICALES: ThemeVolet = { bg: "#DBD7EA", accent: "#BBB4D1", label: "#46405A" }; // violet « parent submergé »
+const POUR_TOI_PARENT: ThemeVolet = { bg: "#F8E0D8", accent: "#E0A48E", label: "#8A4030" }; // « pour toi parent »
+const ACTION_IMMEDIATE: ThemeVolet = { bg: "#F5D0C8", accent: "#D4604A", label: "#8A3020" }; // rouge « action immédiate »
+const GESTE_DOUX: ThemeVolet = { bg: "#DCE9CF", accent: "#82A56A", label: "#3F5C2E" }; // vert « geste doux »
 const CADRE = { bg: "#EDE9E4", accent: "#D4604A", label: "#8A3020", texte: "#5A4A40" };
 
-// 01/11 : Comprendre son sommeil — couleurs par fonction de volet pour dynamiser la lecture.
-const AFFECT: ThemeVolet = { bg: "#F6E3E6", accent: "#D98A99", label: "#8A3A4C" };
-const REPERE: ThemeVolet = { bg: "#F5EDD2", accent: "#D4B24C", label: "#7A5E12" };
+// 04/11 : Comprendre son sommeil — bleu (observation), orange-beige (de l'intérieur / apprentissages),
+// « pour toi parent » (ce que ça veut dire, bouleversement, et toi), vert « geste doux » (besoins de bébé).
 const voletTheme = (partieId: string, base: ThemeVolet, titre: string | null): ThemeVolet => {
   if (partieId !== "comprendre-son-sommeil") return base;
   const ti = (titre ?? "").replace(/^M\d+\s*·\s*/, "");
-  if (/^(et toi|un petit être|un bouleversement|ce que ça veut dire)/i.test(ti)) return AFFECT;
-  if (/^(bébé bouge|ce que tu vas)/i.test(ti)) return REPERE;
+  if (/^(et toi|ce que ça veut dire|un bouleversement)/i.test(ti)) return POUR_TOI_PARENT;
+  if (/^(si les pensées noires)/i.test(ti)) return POUR_TOI_PARENT;
+  if (/^(ce que tu vas|m\d+\s*·)/i.test(titre ?? "")) return OBSERVATION;
   return base;
 };
 
@@ -87,11 +92,28 @@ const estCoParent = (s: SommeilPartie["sections"][number]) =>
 const estCadre = (s: SommeilPartie["sections"][number]) =>
   /^(quand consulter)$/i.test(s.titre ?? "");
 const estAction = (s: SommeilPartie["sections"][number]) =>
-  /redescendre|le coucher|façons de s'endormir|chemin vers|que regarder|ses siestes|premier rituel|besoins|la pose|rythme|tes gestes|cette semaine|dans cet ordre|diversifier ses conditions/i.test(
+  /redescendre|le coucher|façons de s'endormir|chemin vers|que regarder|ses siestes|premier rituel|besoins|la pose|rythme|tes gestes|cette semaine|dans cet ordre|demande-toi|diversifier ses conditions/i.test(
     s.titre ?? "",
   );
-const roleTheme = (s: SommeilPartie["sections"][number]): ThemeVolet =>
-  estCoParent(s) ? CO_PARENT : estAction(s) ? ACTION : OBSERVATION;
+// 04/11 : Journée et siestes — une couleur Guide-moi par grande partie.
+const roleTheme = (s: SommeilPartie["sections"][number], partieId = ""): ThemeVolet => {
+  const ti = s.titre ?? "";
+  if (/causes médicales|^ses signaux de fatigue/i.test(ti)) return CAUSES_MEDICALES; // violet « parent submergé »
+  if (/prenez soin de vous|^toi aussi, tu as besoin/i.test(ti)) return POUR_TOI_PARENT;
+  if (/^à noter cette semaine|^des repères à mettre en place/i.test(ti)) return ACTION_IMMEDIATE;
+  if (/^ses siestes/i.test(ti)) return GESTE_DOUX;
+  if (partieId === "mon-rituel") {
+    if (/^la pose/i.test(ti)) return GESTE_DOUX;
+    if (/^la place du co-parent/i.test(ti)) return POUR_TOI_PARENT;
+    if (/rituel|^des repères|^un geste de fin|^un temps calme/i.test(ti)) return OBSERVATION; // 1re section : « ce qui se passe »
+  }
+  if (partieId === "fin-de-journee" && /^le coucher$/i.test(ti)) return GESTE_DOUX;
+  if (partieId === "fin-de-journee" && /^le relais du co-parent/i.test(ti)) return POUR_TOI_PARENT;
+  if (/^ce dont (ton|votre) (bébé|enfant)/i.test(ti)) return GESTE_DOUX;
+  if (/^(son sommeil, de l'intérieur|ses apprentissages)/i.test(ti)) return ACTION;
+  if (/^ce qu'on va analyser/i.test(ti)) return ACTION; // orange-beige, comme « demande-toi »
+  return estCoParent(s) ? CO_PARENT : estAction(s) ? ACTION : OBSERVATION;
+};
 
 // 29/10 : un pictogramme par slot (traits simples, style infographie).
 const SOL = (n: number) => (
@@ -543,7 +565,7 @@ function Slot({
             </div>
           );
         }
-        const th = roleTheme(s);
+        const th = roleTheme(s, partie.id);
         return (
           <div key={s.id}>
             {/* Thème du mois : la section porte seulement le mois (« M3 »), déjà dans le titre. */}

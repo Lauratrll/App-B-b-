@@ -14,7 +14,7 @@ S'il n'a pas assez bougé dans la journée, un temps de **dépense en fin d'apr�
 #### Ces soirs-là sont durs, pour lui comme pour toi
 **C'est parfois difficile, et tu fais de ton mieux.** Ton bébé sent ton état, ton ton, ta tension : s'il y réagit, c'est la preuve du lien entre vous, pas de ton échec². Ce n'est pas à toi d'être parfaitement calme. Quelques gestes qui aident :
 - **souffle lentement**, relâche les épaules, parle-lui doucement ;
-- **passe le relais** à l'autre parent, sans culpabiliser : une personne plus détendue l'aide à redescendre, et chacun a des gestes et une voix différents ;
+- **passe le relais** à l'autre parent, sans culpabiliser : une personne plus détendue l'aide à redescendre, et chacun a une voix et des gestes différents ;
 - **sors prendre l'air** avec lui, quelques minutes.
 
 ### Pour l'aider à redescendre
@@ -23,12 +23,12 @@ S'il n'a pas assez bougé dans la journée, un temps de **dépense en fin d'apr�
 En fin de journée, **baisse les lumières** : des lampes basses et chaudes plutôt que le plafonnier. **Les écrans allumés, télévision en fond comprise, ajoutent les deux choses qu'on cherche à retirer le soir** : de la lumière et de l'agitation. Éteins-les dans la pièce où il est.
 
 #### Remplir son réservoir émotionnel
-Imagine un petit réservoir que ton bébé remplit, au fil de la journée, de **ta présence, de ta tendresse et de ton attention**. Un bébé qui se sent aimé et accompagné se sent **en sécurité**, et c'est cette sécurité qui lui permet de se détendre : il a moins besoin de t'appeler ou de s'accrocher à toi, et il peut lâcher prise pour s'endormir. Les recherches vont dans ce sens : c'est **près de toi qu'il apprend à apaiser ses émotions**³, et un parent présent et chaleureux est pour lui une base de sécurité⁴. C'est une image, pas un compte à tenir. Certains soirs, il protestera quand même : ce n'est pas que tu n'en as pas assez donné.
+Imagine un petit réservoir que ton bébé remplit, au fil de la journée, de **ta présence, de ta tendresse et de ton attention**. Un bébé qui se sent aimé et accompagné se sent **en sécurité**, et c'est cette sécurité qui lui permet de se détendre : il a moins besoin de t'appeler ou de s'accrocher à toi, et il peut lâcher prise pour s'endormir. Les recherches vont dans ce sens : **c'est près de toi qu'il apprend à apaiser ses émotions**³, et un parent présent et chaleureux est pour lui une base de sécurité⁴. C'est une image, pas un compte à tenir. Certains soirs, il protestera quand même : ce n'est pas que tu n'en as pas assez donné.
 Quelques façons de le remplir :
 - **de la présence entière** : quelques minutes avec lui, sans téléphone, à hauteur de son regard ;
 - **du contact** : câlin, portage lent, massage ;
 - **des échanges** : un regard, une chanson, quelques mots sur sa journée ;
-- **du jeu ensemble** : coucou, cache-cache avec un tissu, un livre à tourner ;
+- **du jeu ensemble, des rires** : coucou, cache-cache avec un tissu, un livre à tourner ;
 - **de la réassurance** : quand il proteste, viens près de lui et dis-lui ce qu'il vit (« tu aimerais que je reste, je suis là ») ;
 - **du doux avant la nuit** : les mêmes gestes, les mêmes mots, la même lumière chaque soir.
 

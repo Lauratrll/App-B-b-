@@ -1,5 +1,13 @@
 ## 3 · JOURNÉE ET SIESTES
 
+### Ce qu'on va analyser
+
+#### Des questions à te poser
+1. Dort-il quand ses signaux de fatigue apparaissent, ou seulement quand il craque ?
+2. Quand il refuse la sieste, le besoin est-il encore là : s'endort-il en voiture, s'effondre-t-il en fin de journée ?
+3. Sa sieste se termine-t-elle assez tôt pour que le coucher reste facile ?
+4. Un temps calme précède-t-il la sieste, ou la remplace-t-il les jours où elle ne passe pas ?
+
 ### Éveils et fenêtres d'éveil
 
 #### La fenêtre d'éveil et la pression du sommeil
@@ -12,10 +20,13 @@ Avec une seule sieste, ses temps d'éveil sont longs. Voici l'ordre de grandeur 
 
 **Ce sont des repères, pas des règles** : cela varie d'un enfant à l'autre, et d'un jour à l'autre. Si, le soir, tu le couches souvent bien après ces durées, c'est une raison de regarder s'il n'arrive pas trop fatigué.
 
+#### La fatigue ressemble à de l'agitation
+Un enfant trop fatigué ne s'endort pas plus vite : il s'agite, pleure, se cambre. Ce n'est pas un caprice, **il ne peut pas faire autrement** : son corps n'arrive plus à se calmer seul. Si tu le vois souvent à ce moment-là, **prévois la sieste ou le coucher un peu plus tôt**, dès les premiers signaux.
+
 ### Ses signaux de fatigue
 
 #### Ses signaux changent
-Il court, il explore, il décide : **sa fatigue ne se voit pas toujours là où on l'attend.** Les signaux à guetter :
+Il court, il explore, il décide : **sa fatigue ne se voit pas toujours là où on l'attend.** Elle dit qu'il a besoin de dormir, que sa pression du sommeil est montée. Les signaux à guetter :
 - son regard se fige ou décroche, **l'intérêt pour ses jouets tombe** ;
 - il se frotte les yeux, les oreilles ou le nez ;
 - **une excitation soudaine**, comme un regain d'énergie : il court, grimpe, ses mouvements deviennent désordonnés ;
@@ -43,6 +54,9 @@ C'est le moment de proposer la sieste ou le coucher, avant les pleurs. **Regarde
 #### Quand ça déraille
 Si les nuits se dégradent après une sieste sautée ou écourtée, **revenir à la sieste à heure régulière n'est pas un échec**, c'est un réajustement. Il n'y a rien à rattraper.
 
+#### Où dormir sa sieste ?
+Dans vos bras, en portage, dans son lit, en poussette : **tous ces endroits sont possibles à cet âge**, et porter ton enfant n'est pas une mauvaise habitude. S'il dort contre toi ou en portage, **reste éveillé, son visage dégagé**. S'il dort dans son lit, c'est sur le dos. La sieste hors de la maison est un dépannage précieux : garde-la pour les jours où tu sors.
+
 ### La sieste et le coucher
 
 #### Une sieste qui finit tard
@@ -54,7 +68,9 @@ Si la sieste a été écourtée (garde, voyage, sortie) ou la journée très cha
 #### Réveiller en douceur
 Si une sieste se prolonge et risque de décaler le coucher, ou s'il faut le réveiller le matin, fais-le **en douceur**. **Ouvre la porte, laisse entrer la lumière et les bruits de la maison, mets une petite musique douce, parle doucement à côté** : le mieux est qu'il émerge en fin de sommeil paradoxal, le cerveau déjà actif, il sera plus joyeux⁵.
 
-### Son rythme, la lumière et la famille
+### Des repères à mettre en place
+
+> Un rythme et son horloge biologique
 
 #### Dehors, chaque jour
 **Sortir chaque jour reste le repère le plus fort pour son horloge.** Avec une heure de lever à peu près régulière et la lumière du matin, c'est ce qui entretient son rythme de 24 heures. Et c'est dehors que son corps trouve l'espace dont il a besoin : courir, grimper, sauter.
@@ -65,22 +81,12 @@ Laisse-lui du **temps libre**, dehors ou au sol : c'est le jour qu'il s'entraî
 #### Les week-ends, les vacances, les changements
 Un voyage, des vacances, une nouvelle garde : ses repères bougent, ses nuits aussi. **Garde ce qui ne change pas** : le rituel, le doudou, les mêmes mots. Un week-end ou des vacances qui décalent les horaires lui font perdre un peu son rythme⁶ : quelques jours de retour au calme suffisent le plus souvent.
 
-### Quand la fatigue ressemble à de l'agitation
-
-#### Il n'est pas « énervé », il est fatigué
-Un enfant trop fatigué ne s'endort pas plus vite : il s'agite, pleure, se cambre. Ce n'est pas un caprice, **il ne peut pas faire autrement** : son corps n'arrive plus à se calmer seul. Si tu le vois souvent à ce moment-là, **prévois la sieste ou le coucher un peu plus tôt**, dès les premiers signaux.
-
-### Tes gestes pour ses siestes
-
 #### Un mini-rituel de sieste
 **La même suite de gestes avant chaque sieste**, courte. Par exemple :
 - tu lui dis ce qui va se passer : « on va faire une sieste » ;
 - un peu de pénombre suffit, les bruits normaux de la maison restent ;
 - un câlin, une berceuse ou un livre, puis tu le poses.
 **Répète-le même s'il ne dort pas.** S'il pleure, reste près de lui : il peut chercher son sommeil sans avoir à s'inquiéter seul. Une sieste dans la journée ne l'empêche pas de bien dormir la nuit (seule une sieste très tardive peut décaler le coucher).
-
-#### Où dormir sa sieste ?
-Dans vos bras, en portage, dans son lit, en poussette : **tous ces endroits sont possibles à cet âge**, et porter ton enfant n'est pas une mauvaise habitude. S'il dort contre toi ou en portage, **reste éveillé, son visage dégagé**. S'il dort dans son lit, c'est sur le dos. La sieste hors de la maison est un dépannage précieux : garde-la pour les jours où tu sors.
 
 ### Toi aussi, tu as besoin de te poser
 

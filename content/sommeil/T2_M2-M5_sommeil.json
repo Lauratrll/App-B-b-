@@ -25,7 +25,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Vers 2 mois, ton bébé te sourit pour de vrai : le lien se tisse, et il est de plus en plus présent à ce qui l'entoure. Son sommeil calme devient plus profond, mais son sommeil agité tient encore une grande place. Il fait beaucoup de siestes, sans horaire fixe : c'est sa fatigue qui te guide, pas l'horloge. Les pleurs du soir diminuent peu à peu après les premières semaines. Ce mois-ci, c'est le moment de créer un premier rituel, de faire la différence entre ce rituel et l'endormissement, et de donner à ses journées un lever à peu près régulier, avec la lumière du matin."
+                  "texte": "Vers 2 mois, ton bébé te sourit pour de vrai : le lien se tisse, et il est de plus en plus présent à ce qui l'entoure. Son sommeil calme devient plus profond, mais son sommeil agité tient encore une grande place. Il fait beaucoup de siestes, sans horaire fixe : **c'est sa fatigue qui te guide, pas l'horloge**. Les pleurs du soir diminuent peu à peu après les premières semaines. Ce mois-ci, c'est le moment de créer **un premier rituel**, de faire la différence entre ce rituel et l'endormissement, et de donner à ses journées un lever à peu près régulier, avec la lumière du matin."
                 }
               ]
             },
@@ -34,7 +34,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Vers 3 mois, le sommeil de ton bébé change de forme : son sommeil calme se divise en deux paliers, un sommeil léger puis un sommeil profond, et son propre cerveau commence à fabriquer de la mélatonine. Certaines nuits sont plus longues, d'autres plus agitées : c'est un équilibre qui se cherche, pas un retour en arrière. Ce mois-ci, tu peux regarder ce qui a changé dans ce qui l'endormait, alléger les stimulations du soir, comprendre que sa sieste de 45 minutes n'est pas une sieste ratée et faire évoluer son rituel en douceur."
+                  "texte": "Vers 3 mois, le sommeil de ton bébé change de forme : son sommeil calme se divise en deux paliers, un sommeil léger puis un sommeil profond, et son propre cerveau commence à fabriquer de la mélatonine. Certaines nuits sont plus longues, d'autres plus agitées : c'est un équilibre qui se cherche, **pas un retour en arrière**. Ce mois-ci, tu peux regarder ce qui a changé dans ce qui l'endormait, alléger les stimulations du soir, comprendre que **sa sieste de 45 minutes n'est pas une sieste ratée** et faire évoluer son rituel en douceur."
                 }
               ]
             },
@@ -43,7 +43,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Vers 4 mois, ton bébé est de plus en plus curieux : il découvre ses mains, fixe longuement les visages, sourit beaucoup. Son sommeil continue de se réorganiser : beaucoup de parents vivent cette période comme une « régression », alors que son cerveau apprend à enchaîner ses cycles. Il peut se réveiller plus souvent, et ce n'est ni de ta faute, ni un caprice. Il commence à distinguer le jour de la nuit : la lumière et l'animation le jour, la pénombre et le calme la nuit l'aident à s'y repérer. Ce mois-ci, tu apprends à distinguer les dents d'un autre inconfort, à caler de vraies siestes et à sortir sans que la sieste devienne une contrainte."
+                  "texte": "Vers 4 mois, ton bébé est de plus en plus curieux : il découvre ses mains, fixe longuement les visages, sourit beaucoup. Son sommeil continue de se réorganiser : beaucoup de parents vivent cette période comme une **« régression »**, alors que son cerveau apprend à enchaîner ses cycles. Il peut se réveiller plus souvent, et ce n'est **ni de ta faute, ni un caprice**. Il commence à distinguer le jour de la nuit : la lumière et l'animation le jour, **la pénombre et le calme la nuit** l'aident à s'y repérer. Ce mois-ci, tu apprends à caler de vraies siestes, à sortir sans que la sieste devienne une contrainte, et vous apprenez, toi et l'autre parent, à l'endormir chacun avec vos gestes."
                 }
               ]
             },
@@ -52,7 +52,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Vers 5 mois, ton bébé est un petit joueur : il attrape, secoue, porte tout à la bouche, rit et s'intéresse à tout. Cette vitalité remplit ses journées, et elle peut aussi l'agiter en fin de journée : plus il est stimulé, plus la redescente prend du temps. Ses nuits s'allongent parfois, et tâtonnent d'autres fois : les deux sont normaux. Il fait en général trois siestes, et à 5 mois, on commence à proposer un rythme régulier, tout en s'adaptant à sa pression de sommeil. Ce mois-ci, tu apprends à faire la différence entre faim et besoin de réconfort, à consolider son rituel avant 6 mois et à te préparer à ce qui arrive ensuite."
+                  "texte": "Vers 5 mois, ton bébé est un petit joueur : il attrape, secoue, porte tout à la bouche, rit et s'intéresse à tout. Cette vitalité remplit ses journées, et elle peut aussi l'agiter en fin de journée : **plus il est stimulé, plus la redescente prend du temps**. Ses nuits s'allongent parfois, et tâtonnent d'autres fois : **les deux sont normaux**. Il fait en général 3 siestes, et à 5 mois, on commence à proposer **un rythme régulier**, tout en s'adaptant à sa pression de sommeil. Ce mois-ci, tu apprends à faire la différence entre faim et besoin de réconfort, à consolider son rituel avant 6 mois et à te préparer à ce qui arrive ensuite."
                 }
               ]
             },
@@ -238,6 +238,29 @@
       "titre": "Journée et siestes",
       "sections": [
         {
+          "id": "ce-qu-on-va-analyser",
+          "titre": "Ce qu'on va analyser",
+          "chapeau": null,
+          "volets": [
+            {
+              "titre": "Des questions à te poser",
+              "blocs": [
+                {
+                  "type": "liste",
+                  "items": [
+                    "Dort-il quand ses signaux de fatigue apparaissent, ou seulement quand il craque ?",
+                    "Sa sieste s'arrête-t-elle à la fin d'un cycle, vers 45 minutes ?",
+                    "A-t-il une heure de lever à peu près régulière, et un peu de lumière du jour dans la journée ?",
+                    "Le soir, arrive-t-il plus agité que calme ?"
+                  ],
+                  "numerotee": true
+                }
+              ]
+            }
+          ],
+          "sources": null
+        },
+        {
           "id": "eveils-et-fenetres-d-eveil",
           "titre": "Éveils et fenêtres d'éveil",
           "chapeau": null,
@@ -285,6 +308,15 @@
                   "texte": "Pendant ces moments d'éveil, il y a un temps où il est le plus disponible : yeux ouverts et brillants, il te regarde, suit ce qui bouge, bouge peu. C'est le moment des échanges, des jeux de visage, du temps au sol. Quand il se termine, il a besoin de dormir."
                 }
               ]
+            },
+            {
+              "titre": "La fatigue ressemble à de l'agitation",
+              "blocs": [
+                {
+                  "type": "p",
+                  "texte": "Un bébé trop fatigué ne s'endort pas plus vite : il s'agite, pleure, se cambre. Ce n'est pas un caprice, **il ne peut pas faire autrement** : son corps n'arrive plus à se calmer seul. Le bâillement arrive souvent tard. Si tu le vois souvent à ce moment-là, **prévois la sieste un peu plus tôt**, dès les premiers signaux."
+                }
+              ]
             }
           ],
           "sources": null
@@ -299,7 +331,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Quand il a reçu tout ce qu'il pouvait recevoir, il passe de l'éveil calme à l'éveil agité : c'est le signe qu'il a besoin de dormir. Les signaux à guetter :"
+                  "texte": "Quand il a reçu tout ce qu'il pouvait recevoir, il passe de l'éveil calme à l'éveil agité : c'est le signe qu'il a besoin de dormir, que sa pression du sommeil est montée. Les signaux à guetter :"
                 },
                 {
                   "type": "liste",
@@ -335,28 +367,14 @@
                 {
                   "type": "liste",
                   "items": [
-                    "**vers 2 mois, quatre à cinq** ;",
-                    "**vers 3 mois, trois à quatre** ;",
-                    "**vers 4 à 5 mois, environ trois**."
+                    "**vers 2 mois : 4 à 5 siestes** ;",
+                    "**vers 3 mois : 3 à 4 siestes** ;",
+                    "**vers 4 à 5 mois : environ 3 siestes**."
                   ]
                 },
                 {
                   "type": "p",
                   "texte": "D'un bébé à l'autre, cela varie². **Le nombre baisse peu à peu, sans que tu aies à le provoquer** : ce qui compte, ce n'est pas le compte, c'est qu'il puisse dormir quand son éveil calme se termine. Pour les siestes de la journée, **une petite pénombre suffit** : garder un peu de lumière du jour l'aide à faire la différence avec la nuit."
-                }
-              ]
-            },
-            {
-              "titre": "Des questions à te poser",
-              "blocs": [
-                {
-                  "type": "liste",
-                  "items": [
-                    "Dort-il quand ses signaux de fatigue apparaissent, ou seulement quand il craque ?",
-                    "Sa sieste s'arrête-t-elle à la fin d'un cycle, vers 45 minutes ?",
-                    "A-t-il une heure de lever à peu près régulière, et un peu de lumière du jour dans la journée ?",
-                    "Le soir, arrive-t-il plus agité que calme ?"
-                  ]
                 }
               ]
             },
@@ -377,14 +395,23 @@
                   "texte": "S'il faut le réveiller, pour un départ le matin ou une sieste qui s'étire tard dans la journée, tu peux le faire **en douceur**. **Ouvre la porte, laisse entrer la lumière et les bruits de la maison, parle doucement à côté** : il sortira du sommeil quand il sera prêt, sans être réveillé en plein milieu d'un sommeil calme."
                 }
               ]
+            },
+            {
+              "titre": "Où dormir sa sieste ?",
+              "blocs": [
+                {
+                  "type": "p",
+                  "texte": "Dans vos bras, en portage, dans son lit : **tous ces endroits sont possibles à cet âge**, et porter ton bébé n'est pas une mauvaise habitude. Si tu le laisses dormir contre toi ou en portage, **reste éveillé, son visage dégagé**. S'il dort dans son lit, sur le dos, à plat, sans rien autour."
+                }
+              ]
             }
           ],
           "sources": null
         },
         {
-          "id": "son-rythme-la-lumiere-et-la-famille",
-          "titre": "Son rythme, la lumière et la famille",
-          "chapeau": null,
+          "id": "des-reperes-a-mettre-en-place",
+          "titre": "Des repères à mettre en place",
+          "chapeau": "Un rythme et son horloge biologique",
           "volets": [
             {
               "titre": "La lumière, le mouvement et le rythme de la famille",
@@ -394,32 +421,7 @@
                   "texte": "Sors avec lui dans la journée, le matin si tu peux : **la lumière du jour est le repère le plus fort pour son horloge biologique**. Une heure de lever à peu près régulière donne aussi un point de départ à sa journée. À partir de 4 mois, **ton rythme de vie devient son premier repère** : repas, sorties, visites. Pas besoin d'un planning, ces repères suffisent. Et dans ses moments d'éveil, du temps au sol, sous ton regard."
                 }
               ]
-            }
-          ],
-          "sources": null
-        },
-        {
-          "id": "quand-la-fatigue-ressemble-a-de-l-agitation",
-          "titre": "Quand la fatigue ressemble à de l'agitation",
-          "chapeau": null,
-          "volets": [
-            {
-              "titre": "Il n'est pas « énervé », il est fatigué",
-              "blocs": [
-                {
-                  "type": "p",
-                  "texte": "Un bébé trop fatigué ne s'endort pas plus vite : il s'agite, pleure, se cambre. Ce n'est pas un caprice, **il ne peut pas faire autrement** : son corps n'arrive plus à se calmer seul. Le bâillement arrive souvent tard. Si tu le vois souvent à ce moment-là, **prévois la sieste un peu plus tôt**, dès les premiers signaux."
-                }
-              ]
-            }
-          ],
-          "sources": null
-        },
-        {
-          "id": "tes-gestes-pour-ses-siestes",
-          "titre": "Tes gestes pour ses siestes",
-          "chapeau": null,
-          "volets": [
+            },
             {
               "titre": "Un mini-rituel de sieste",
               "blocs": [
@@ -439,15 +441,6 @@
                 {
                   "type": "p",
                   "texte": "**Répète-le même s'il ne dort pas.** S'il pleure, reste près de lui : il peut chercher son sommeil, sans avoir à s'inquiéter seul. Une sieste dans la journée ne l'empêche pas de bien dormir la nuit (seule une sieste très tardive peut décaler le coucher)."
-                }
-              ]
-            },
-            {
-              "titre": "Où dormir sa sieste ?",
-              "blocs": [
-                {
-                  "type": "p",
-                  "texte": "Dans vos bras, en portage, dans son lit : **tous ces endroits sont possibles à cet âge**, et porter ton bébé n'est pas une mauvaise habitude. Si tu le laisses dormir contre toi ou en portage, **reste éveillé, son visage dégagé**. S'il dort dans son lit, sur le dos, à plat, sans rien autour."
                 }
               ]
             }
@@ -522,7 +515,7 @@
                   "items": [
                     "**souffle lentement**, relâche les épaules, parle-lui doucement, même si tu ne sais pas quoi dire ;",
                     "**sors prendre l'air** avec lui, quelques minutes, au calme ;",
-                    "**passe le relais** à l'autre parent, sans culpabiliser : chacun a des gestes et une voix différents."
+                    "**passe le relais** à l'autre parent, sans culpabiliser : chacun a une voix et des gestes différents."
                   ]
                 }
               ]
@@ -558,7 +551,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Imagine un petit réservoir que ton bébé remplit, au fil de la journée, de **ta présence, de ta tendresse et de ton attention**. Chaque câlin, chaque regard, chaque sourire, chaque mot doux y ajoute un peu d'amour. Un bébé qui se sent aimé et accompagné se sent **en sécurité**, et c'est cette sécurité qui lui permet de se détendre : son corps relâche, il a moins besoin de t'appeler ou de s'accrocher à toi, et il peut lâcher prise pour s'endormir. Les recherches vont dans ce sens : c'est **près de toi qu'il apprend à apaiser ses émotions**⁶, et un parent présent et chaleureux est pour lui une base de sécurité⁷. C'est une image, pas un compte à tenir. Certains soirs, il pleurera quand même : ce n'est pas que tu n'en as pas assez donné."
+                  "texte": "Imagine un petit réservoir que ton bébé remplit, au fil de la journée, de **ta présence, de ta tendresse et de ton attention**. Chaque câlin, chaque regard, chaque sourire, chaque mot doux y ajoute un peu d'amour. Un bébé qui se sent aimé et accompagné se sent **en sécurité**, et c'est cette sécurité qui lui permet de se détendre : son corps relâche, il a moins besoin de t'appeler ou de s'accrocher à toi, et il peut lâcher prise pour s'endormir. Les recherches vont dans ce sens : **c'est près de toi qu'il apprend à apaiser ses émotions**⁶, et un parent présent et chaleureux est pour lui une base de sécurité⁷. C'est une image, pas un compte à tenir. Certains soirs, il pleurera quand même : ce n'est pas que tu n'en as pas assez donné."
                 },
                 {
                   "type": "p",
@@ -570,7 +563,7 @@
                     "**de la présence entière** : quelques minutes avec lui, sans écran ni autre tâche, à hauteur de son regard ;",
                     "**du contact** : peau contre peau, câlin, portage lent, massage ;",
                     "**des échanges** : un regard, un sourire, une chanson, quelques mots sur sa journée. Réponds à ses petits sons et à ses mimiques : c'est ainsi que le lien se tisse ;",
-                    "**du jeu ensemble : des rires** : grimaces, chatouilles douces, coucou, un hochet à attraper ensemble ;",
+                    "**du jeu ensemble, des rires** : grimaces, chatouilles douces, coucou, un hochet à attraper ensemble ;",
                     "**de la réassurance** : quand il pleure, viens près de lui et dis-lui ce qu'il vit (« tu es fatigué, je suis là »). Il apprend que tu réponds toujours ;",
                     "**du doux avant la nuit** : les mêmes gestes, les mêmes mots, la même lumière chaque soir. Il sait ce qui vient, et c'est une dernière façon de le rassurer avant de se séparer."
                   ]
@@ -899,7 +892,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Dans un cycle de sommeil, il y a des **micro-réveils**, de quelques secondes² : ils permettent au cerveau de passer d'un état à un autre. Un adulte enchaîne ses cycles sans s'en rendre compte. Son horloge interne est encore en construction : sa mélatonine, l'hormone qui donne l'heure de la nuit, n'est pas encore bien active¹. Ton bébé n'a pas encore cette capacité neurologique : **il a encore besoin d'être accompagné.** À cet âge, **les réveils sont physiologiques** : ce n'est ni un défaut de ton bébé, ni de ta faute."
+                  "texte": "Dans un cycle de sommeil, il y a des **micro-réveils**, de quelques secondes² : ils permettent au cerveau de passer d'un état à un autre. Un adulte enchaîne ses cycles sans s'en rendre compte. Son horloge interne à lui est encore en construction : sa mélatonine, l'hormone qui donne l'heure de la nuit, n'est pas encore bien active¹. Ton bébé n'a pas encore cette capacité neurologique : **il a encore besoin d'être accompagné.** À cet âge, **les réveils sont physiologiques** : ce n'est ni un défaut de ton bébé, ni de ta faute."
                 },
                 {
                   "type": "p",
@@ -909,8 +902,9 @@
                   "type": "liste",
                   "items": [
                     "**la faim** ;",
-                    "**une gêne** : trop chaud, la couche, un bruit ;",
-                    "**le besoin d'être rassuré**."
+                    "**une gêne** : chaud/froid, couche pleine, bruit ;",
+                    "**le besoin d'être rassuré** ;",
+                    "**une cause médicale** : consulter."
                   ]
                 },
                 {
@@ -954,9 +948,9 @@
           "sources": null
         },
         {
-          "id": "quand-il-se-reveille-dans-cet-ordre",
-          "titre": "Quand il se réveille, dans cet ordre",
-          "chapeau": "Quand il se réveille, pose-toi ces questions l'une après l'autre.",
+          "id": "quand-il-se-reveille-demande-toi",
+          "titre": "Quand il se réveille, demande-toi :",
+          "chapeau": null,
           "volets": [
             {
               "titre": "1. Dort-il encore ?",
@@ -998,7 +992,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "En dix secondes, vérifie :"
+                  "texte": "Vérifie :"
                 },
                 {
                   "type": "liste",
@@ -1006,17 +1000,38 @@
                     "la température de la chambre (18 à 20 °C ; nuque chaude et moite : il a trop chaud) ;",
                     "ses vêtements, sa couche ;",
                     "un bruit ou une lumière ;",
-                    "la tétine perdue (jamais attachée)."
+                    "la tétine perdue (jamais attachée) ;",
+                    "les dents : gencives gonflées, salive abondante, besoin de mordiller, bébé irritable. Les premières dents apparaissent souvent vers 6 mois, mais le calendrier varie selon les bébés. Elles gênent surtout quelques jours autour de leur sortie, et **tous les réveils ne sont pas dus aux dents**⁵ ;",
+                    "un rhume, un vaccin, un début de maladie ;",
+                    "un bouleversement dans sa vie."
                   ]
-                },
-                {
-                  "type": "p",
-                  "texte": "Sur quelques jours : vers 4 mois, ce sont plutôt les gencives qui travaillent, quelques jours autour de sa sortie, mais **tous les réveils ne sont pas dus aux dents**⁵. Un rhume, un vaccin, un changement dans sa vie."
                 }
               ]
             },
             {
-              "titre": "4. Sa journée a-t-elle été très chargée ?",
+              "titre": "4. A-t-il besoin d'être rassuré ?",
+              "blocs": [
+                {
+                  "type": "p",
+                  "texte": "Il peut aussi avoir besoin d'être câliné et rassuré⁶. Il est vraiment réveillé, il t'appelle, il se calme avec ta présence sans avoir faim. **Commence par le moins** : ta voix, ta main posée sur lui, puis un câlin si ça ne suffit pas. Regarde ce qui l'apaise."
+                }
+              ]
+            },
+            {
+              "titre": "5. Retrouve-t-il ses conditions d'endormissement ?",
+              "blocs": [
+                {
+                  "type": "p",
+                  "texte": "Il s'est endormi dans certaines conditions (tes bras, la tétée, le bercement). **Si elles ne sont plus là au milieu de la nuit, il s'en rend compte** et il t'appelle pour les retrouver."
+                },
+                {
+                  "type": "p",
+                  "texte": "Pour les varier pas à pas, tu trouveras des idées dans la catégorie Endormissement, « Diversifier ses conditions d'endormissement, pas à pas »."
+                }
+              ]
+            },
+            {
+              "titre": "6. Sa journée a-t-elle été très chargée ?",
               "blocs": [
                 {
                   "type": "p",
@@ -1025,20 +1040,7 @@
               ]
             },
             {
-              "titre": "5. A-t-il besoin d'être rassuré ?",
-              "blocs": [
-                {
-                  "type": "p",
-                  "texte": "Il peut aussi avoir besoin d'être câliné et rassuré⁶. Il est vraiment réveillé, il t'appelle, il se calme dans tes bras sans avoir faim. **Commence par le moins** : ta voix, ta main posée sur lui, puis un câlin si ça ne suffit pas. Regarde ce qui l'apaise."
-                },
-                {
-                  "type": "p",
-                  "texte": "Parfois aussi, **il ne retrouve pas les conditions dans lesquelles il s'est endormi** (tes bras, la tétée, le bercement). Au milieu de la nuit, il s'en rend compte, et il t'appelle pour les retrouver."
-                }
-              ]
-            },
-            {
-              "titre": "6. Montre-t-il des signes qui méritent un avis médical ?",
+              "titre": "7. Montre-t-il des signes qui méritent un avis médical ?",
               "blocs": [
                 {
                   "type": "p",
@@ -1050,29 +1052,16 @@
           "sources": null
         },
         {
-          "id": "quand-une-cause-medicale-perturbe-ses-nuits",
-          "titre": "Quand une cause médicale perturbe ses nuits",
-          "chapeau": "Dans la grande majorité des cas, les réveils sont normaux. Ici, pas de diagnostic : si plusieurs signes te parlent, parles-en à ton médecin.",
+          "id": "des-causes-medicales-qui-perturbent-ses-nuits",
+          "titre": "Des causes médicales qui perturbent ses nuits",
+          "chapeau": "Ici, pas de diagnostic : si plusieurs signes te parlent, parles-en à ton médecin.",
           "volets": [
             {
-              "titre": "Le reflux (RGO)",
+              "titre": "Le reflux (RGO) interne",
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "**Les régurgitations sont très fréquentes** entre 1 mois et environ un an : elles arrivent sans effort, ne gênent pas le bébé et n'empêchent pas sa croissance⁷. C'est banal, et sans gravité. **Consulte** si tu observes :"
-                },
-                {
-                  "type": "liste",
-                  "items": [
-                    "des vomissements violents, en jet, à chaque repas ;",
-                    "des vomissements vert fluorescent ;",
-                    "du sang dans les régurgitations ;",
-                    "des refus répétés de boire, ou une prise de poids insuffisante."
-                  ]
-                },
-                {
-                  "type": "p",
-                  "texte": "Les pleurs de fin de journée, eux, ne s'expliquent pas par le reflux⁷. Ce qui aide : respecter sa faim, faire des pauses et un rot pendant le repas, le garder droit après, et le coucher sur le dos."
+                  "texte": "**Si ton bébé régurgite en journée, cela mérite aussi ton attention la nuit.** Les régurgitations sont très fréquentes jusqu'à environ un an, et le plus souvent sans gravité⁷. Mais le reflux peut aussi être « interne » : une fois allongé, l'acidité de l'estomac remonte plus facilement vers l'œsophage, sans qu'on voie de régurgitation⁷. La nuit, tu peux alors observer des réveils fréquents, un sommeil agité, parfois une toux⁷. Un seul de ces signes ne suffit pas à conclure, mais s'ils se répètent, parles-en à ton médecin."
                 }
               ]
             },
@@ -1081,7 +1070,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Elle peut apparaître dès les premières semaines, jusqu'à 8-10 mois⁸. **Ce que tu peux observer** :"
+                  "texte": "Elle peut apparaître dès les premières semaines, comme plusieurs mois après⁸. **Ce que tu peux observer** :"
                 },
                 {
                   "type": "liste",
@@ -1103,7 +1092,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Il ne concerne que les bébés qui ont **des difficultés à téter** : succion difficile, tétées douloureuses pour la mère, allaitement qui s'arrête tôt⁹. Un frein court ou épais qui ne gêne pas la tétée n'est pas un problème. Si la tétée est difficile, demande d'abord l'évaluation d'un professionnel formé à l'allaitement (sage-femme, médecin, puéricultrice), avec ton médecin traitant : une intervention n'est envisagée qu'exceptionnellement, après avoir essayé les autres solutions⁹."
+                  "texte": "Il ne concerne que les bébés qui ont **des difficultés à téter** : succion difficile, tétées douloureuses pour la mère, allaitement qui s'arrête tôt⁹. Un frein court ou épais qui ne gêne pas la tétée n'est pas un problème. **Pourquoi peut-il gêner les nuits ?** Un frein restrictif limite la mobilité de la langue : certaines études observent un lien avec des difficultés à respirer pendant le sommeil, avec des ronflements, un sommeil agité ou une respiration par la bouche. Ce lien reste débattu, et les sociétés savantes françaises rappellent qu'il manque de preuves scientifiques⁹. Si ton bébé a ces signes, parles-en à ton médecin plutôt que d'en conclure que c'est le frein. Si la tétée est difficile, demande d'abord l'évaluation d'un professionnel formé à l'allaitement (sage-femme, médecin, puéricultrice), avec ton médecin traitant : une intervention n'est envisagée qu'exceptionnellement, après avoir essayé les autres solutions⁹."
                 }
               ]
             },
@@ -1120,8 +1109,8 @@
           "sources": null
         },
         {
-          "id": "ce-dont-il-a-besoin-la-nuit",
-          "titre": "Ce dont il a besoin la nuit",
+          "id": "il-a-besoin-de-vous-prenez-soin-de-vous",
+          "titre": "Il a besoin de vous, prenez soin de vous",
           "chapeau": null,
           "volets": [
             {
@@ -1143,24 +1132,15 @@
                 {
                   "type": "liste",
                   "items": [
-                    "**dors quand il dort**, même par petits blocs de 20 minutes ;",
                     "**couche-toi tôt** certains soirs, plutôt que de profiter du calme ;",
                     "**partage ce que tu peux** : les courses, les repas, une nuit sur deux avec l'autre parent ;",
                     "**accepte qu'on ne puisse pas tout faire**."
                   ]
                 }
               ]
-            }
-          ],
-          "sources": null
-        },
-        {
-          "id": "partager-les-nuits",
-          "titre": "Partager les nuits",
-          "chapeau": null,
-          "volets": [
+            },
             {
-              "titre": "Le relais de nuit",
+              "titre": "Partager les nuits",
               "blocs": [
                 {
                   "type": "p",
@@ -1200,7 +1180,7 @@
                   "type": "liste",
                   "items": [
                     "**Appelle le 15** s'il fait des pauses respiratoires, si ses lèvres bleuissent, s'il est difficile à réveiller ou respire avec difficulté¹².",
-                    "**Consulte ton médecin** si ses pleurs de nuit sont inhabituels et que tu ne le reconnais pas, s'il refuse de boire, ou s'il a de la fièvre. Chaque situation a aussi sa fiche pas à pas dans Guide-moi.",
+                    "**Consulte ton médecin** si ses pleurs de nuit sont inhabituels et que tu ne le reconnais pas, s'il refuse de boire, ou s'il a de la fièvre.",
                     "Et si les nuits t'épuisent au point de ne plus tenir, **parles-en** : médecin, sage-femme, PMI, ou Allo Parents Bébé : 0 800 00 34 56 (gratuit)."
                   ]
                 }
@@ -1210,7 +1190,7 @@
           "sources": null
         }
       ],
-      "sources": "¹ La mélatonine fabriquée par bébé vers 3 mois : revue *Children*, 2024, 11(10):1197 ; ² Un micro-éveil dure quelques secondes (défini à partir de 3 secondes) : American Academy of Sleep Medicine, *Manuel de cotation du sommeil* ; ³ Poussées de croissance et repas rapprochés, passagers : Santé publique France, *Guide de l'allaitement maternel*, 2023 (tétées groupées) ; âges observés (3 et 6 semaines, 3 et 6 mois) : avis d'expert, mpedia (Association française de pédiatrie ambulatoire), sans étude ; ⁴ Biberon préparé au moment : ANSES ; ⁵ Les dents gênent quelques jours autour de leur sortie : Macknin M. L. et al., *Pediatrics*, 2000 ; ⁶ Besoin de réconfort la nuit : Santé publique France, *Les 1000 premiers jours* ; ⁷ Reflux banal, signes d'alerte, pleurs non attribués au reflux : Haute Autorité de santé, *Reflux du nourrisson : un médicament est-il nécessaire ?*, 2024 ; ⁸ Allergie aux protéines de lait de vache, symptômes et conduite à tenir : Santé.fr (Service public d'information en santé), « Allergie aux protéines du lait de vache » ; ⁹ Frein de langue : difficultés de succion, évaluation, frénotomie exceptionnelle : Association française de pédiatrie ambulatoire et sociétés savantes, « Section de freins de langue chez les nourrissons et les enfants », 2021 ; ¹⁰ Respiration buccale, ronflements, otites et végétations adénoïdes : *Manuel MSD* (professionnels), « Hypertrophie des végétations adénoïdes » ; ¹¹ Un bébé dépend de ses parents, besoin de proximité et de réconfort : formation EDPP, *Pleurs et sommeil* ; ¹² Signes d'urgence : ameli.fr, « Bronchiolite : que faire ? », 2026"
+      "sources": "¹ La mélatonine fabriquée par bébé vers 3 mois : revue *Children*, 2024, 11(10):1197 ; ² Un micro-éveil dure quelques secondes (défini à partir de 3 secondes) : American Academy of Sleep Medicine, *Manuel de cotation du sommeil* ; ³ Poussées de croissance et repas rapprochés, passagers : Santé publique France, *Guide de l'allaitement maternel*, 2023 (tétées groupées) ; âges observés (3 et 6 semaines, 3 et 6 mois) : avis d'expert, mpedia (Association française de pédiatrie ambulatoire), sans étude ; ⁴ Biberon préparé au moment : ANSES ; ⁵ Les dents gênent quelques jours autour de leur sortie : Macknin M. L. et al., *Pediatrics*, 2000 ; ⁶ Besoin de réconfort la nuit : Santé publique France, *Les 1000 premiers jours* ; ⁷ Régurgitations fréquentes, le plus souvent sans gravité : Haute Autorité de santé, *Reflux du nourrisson : un médicament est-il nécessaire ?*, 2024 ; reflux aggravé en position allongée : *Manuel MSD* (grand public), « Reflux gastro-œsophagien (RGO) », 2026 ; troubles du sommeil, régurgitations nocturnes, lien avec la toux non démontré : Haute Autorité de santé, fiche « RGO de l'enfant de moins d'un an », février 2024 ; ⁸ Allergie aux protéines de lait de vache, symptômes et conduite à tenir : Santé.fr (Service public d'information en santé), « Allergie aux protéines du lait de vache » ; ⁹ Frein de langue : difficultés de succion, évaluation, frénotomie exceptionnelle : Association française de pédiatrie ambulatoire et sociétés savantes, « Section de freins de langue chez les nourrissons et les enfants », 2021 ; lien possible avec la respiration pendant le sommeil : Bussi M. T. et al., *Brazilian Journal of Otorhinolaryngology*, 2022 (revue de la littérature, 4 études) ; preuves jugées insuffisantes : sociétés savantes françaises, 2021 ; Académie nationale de médecine, 2022 ; ¹⁰ Respiration buccale, ronflements, otites et végétations adénoïdes : *Manuel MSD* (professionnels), « Hypertrophie des végétations adénoïdes » ; ¹¹ Un bébé dépend de ses parents, besoin de proximité et de réconfort : formation EDPP, *Pleurs et sommeil* ; ¹² Signes d'urgence : ameli.fr, « Bronchiolite : que faire ? », 2026"
     },
     {
       "id": "mon-rituel",
@@ -1309,7 +1289,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Pose-le **sur le dos, dans son lit nu**, les fesses puis la tête. Une main posée sur son ventre quelques instants, puis tu sors en silence. **Termine par de la tendresse** : un dernier regard, un mot doux, avant de le laisser à la nuit. Si tu utilises un bruit blanc : **volume bas, loin du lit, pas toute la nuit.**"
+                  "texte": "Pose-le **sur le dos, dans son lit nu**, les fesses puis la tête. Descends-le doucement en le positionnant un peu de côté, puis tourne-le sur le dos : cela évite de déclencher le réflexe de Moro, qui peut encore être présent à cet âge. Une main posée sur son ventre quelques instants, puis tu sors en silence. **Termine par de la tendresse** : un dernier regard, un mot doux, avant de le laisser à la nuit. Si tu utilises un bruit blanc : **volume bas, loin du lit, pas toute la nuit.**"
                 }
               ]
             }
@@ -1444,15 +1424,6 @@
           "chapeau": null,
           "volets": [
             {
-              "titre": "Dents ou autre chose ?",
-              "blocs": [
-                {
-                  "type": "p",
-                  "texte": "À rédiger après validation du thème."
-                }
-              ]
-            },
-            {
               "titre": "Caler de vraies siestes",
               "blocs": [
                 {
@@ -1463,6 +1434,15 @@
             },
             {
               "titre": "Sortir sans que la sieste devienne une contrainte",
+              "blocs": [
+                {
+                  "type": "p",
+                  "texte": "À rédiger après validation du thème."
+                }
+              ]
+            },
+            {
+              "titre": "Les 2 parents savent l'endormir",
               "blocs": [
                 {
                   "type": "p",
