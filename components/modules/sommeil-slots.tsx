@@ -102,6 +102,7 @@ const roleTheme = (s: SommeilPartie["sections"][number], partieId = ""): ThemeVo
   if (/prenez soin de vous|^toi aussi, tu as besoin/i.test(ti)) return POUR_TOI_PARENT;
   if (/^à noter cette semaine|^des repères à mettre en place/i.test(ti)) return ACTION_IMMEDIATE;
   if (/^ses siestes/i.test(ti)) return GESTE_DOUX;
+  if (partieId === "endormissement" && /^le relais du co-parent/i.test(ti)) return POUR_TOI_PARENT;
   if (partieId === "mon-rituel") {
     if (/^la pose/i.test(ti)) return GESTE_DOUX;
     if (/^la place du co-parent/i.test(ti)) return POUR_TOI_PARENT;

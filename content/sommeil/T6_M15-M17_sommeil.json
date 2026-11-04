@@ -654,13 +654,26 @@
       "titre": "Endormissement",
       "sections": [
         {
-          "id": "comment-il-s-endort-aujourd-hui",
-          "titre": "Comment il s'endort aujourd'hui",
+          "id": "deux-phases-a-distinguer",
+          "titre": "Deux phases à distinguer",
           "chapeau": null,
           "volets": [
             {
-              "titre": "Ce qui l'endort, c'est un ensemble",
+              "titre": "Le rituel qui rythme le soir",
               "blocs": [
+                {
+                  "type": "p",
+                  "texte": "**Le rituel prépare** : c'est la suite de gestes qui annonce la nuit, toujours dans le même ordre (bain, pyjama, histoire, câlin…), environ une heure."
+                }
+              ]
+            },
+            {
+              "titre": "Les conditions d'endormissement",
+              "blocs": [
+                {
+                  "type": "p",
+                  "texte": "**Les conditions d'endormissement** sont la phase de mise en condition au sommeil, les 15 dernières minutes environ avant qu'il s'endorme, sans entrer dans une nouvelle activité. On peut travailler les conditions d'endormissement sans toucher au rituel."
+                },
                 {
                   "type": "p",
                   "texte": "Ton enfant s'endort dans les conditions qu'il connaît : le sein ou le biberon, tes bras, le mouvement, ta voix, la tétine, son doudou. Ces conditions ne sont pas un détail : ce sont elles qui **mettent son cerveau en état de plonger dans le sommeil**. C'est un peu comme un adulte qui se laisse glisser dans une détente profonde, presque une auto-hypnose, en répétant les mêmes gestes ou les mêmes images : ton enfant s'abandonne parce que ces repères lui sont familiers."
@@ -668,15 +681,6 @@
                 {
                   "type": "p",
                   "texte": "Entre chaque cycle, il remonte à la surface avec un micro-réveil, et si les conditions ont changé, il peut avoir des difficultés pour se rendormir¹. **À cet âge, c'est normal : rien n'est à corriger, tout est à accompagner.** Avec la vague de réactions à la séparation, ses repères lui disent que tu reviens. Tu peux continuer à varier, pour diversifier les conditions d'endormissement de ton enfant."
-                }
-              ]
-            },
-            {
-              "titre": "Le rituel du soir et l'endormissement",
-              "blocs": [
-                {
-                  "type": "p",
-                  "texte": "Ce ne sont pas la même chose. **Le rituel prépare** : c'est la suite de gestes qui annonce la nuit, toujours dans le même ordre (bain, pyjama, histoire, câlin…), environ une heure. **Les conditions d'endormissement** sont la phase de mise en condition au sommeil, les 15 dernières minutes environ : celles où son cerveau se met en état de plonger dans le sommeil, sans entrer dans une nouvelle activité. On peut travailler l'un sans toucher à l'autre."
                 }
               ]
             },
@@ -721,14 +725,18 @@
         {
           "id": "ses-facons-de-s-endormir",
           "titre": "Ses façons de s'endormir",
-          "chapeau": "Chacune répond à un besoin de ton enfant. Certaines peuvent aussi te fatiguer : c'est humain, et tu fais de ton mieux.",
+          "chapeau": "Elles répondent toutes à un besoin, et elles peuvent varier.",
           "volets": [
             {
               "titre": "Contre toi",
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Le contact, ta chaleur, ton rythme respiratoire : c'est la condition qu'il connaît le mieux, et elle reste l'endroit où il se sent bien même quand il court partout et dit « non » : un câlin assis près de son lit avant la pose compte beaucoup. Si tu as envie de varier : main sur son ventre, puis sur sa jambe, puis ta main près de lui sans le toucher."
+                  "texte": "Le contact, ta chaleur, ton rythme respiratoire : c'est la condition qu'il connaît le mieux, et elle reste l'endroit où il se sent bien même quand il court partout et dit « non » : un câlin assis près de son lit avant la pose compte beaucoup."
+                },
+                {
+                  "type": "p",
+                  "texte": "**Si tu as envie de varier :** main sur son ventre, puis sur sa jambe, puis ta main près de lui sans le toucher."
                 }
               ]
             },
@@ -741,19 +749,19 @@
                 },
                 {
                   "type": "p",
-                  "texte": "**Et toi ?** « Il refuse de s'endormir sans le sein ou le biberon », « à la crèche il s'endort sans nous, mais pas à la maison »."
+                  "texte": "**Et toi ? Tu penses peut-être :** « Il refuse de s'endormir sans le sein ou le biberon », « à la crèche il s'endort sans nous, mais pas à la maison », « je lui donne la tétée toute la nuit »."
+                },
+                {
+                  "type": "p",
+                  "texte": "**Si tu as envie de varier :**"
                 },
                 {
                   "type": "liste",
                   "items": [
-                    "le co-parent donne le biberon, ou prend les bras juste après ;",
+                    "le co-parent donne le biberon, ou prend ton enfant dans les bras après la tétée, avant qu'il s'endorme, pour varier ses repères ;",
                     "tu arrêtes quand la succion devient lente, avant qu'il soit profondément endormi : un câlin à la verticale, puis la pose ;",
                     "tu sépares la tétée du lit : même rituel, mais la tétée dans un autre endroit ou sous une autre lumière."
                   ]
-                },
-                {
-                  "type": "p",
-                  "texte": "Si tu risques de t'endormir en le nourrissant, fais-le dans ton lit, pas sur un canapé ou dans un fauteuil³."
                 }
               ]
             },
@@ -775,7 +783,7 @@
                 },
                 {
                   "type": "p",
-                  "texte": "**Et toi ?** « Il veut que je reste jusqu'à ce qu'il dorme », « il me redemande à chaque fois »."
+                  "texte": "**Et toi ? Tu penses peut-être :** « Il veut que je reste jusqu'à ce qu'il dorme », « il me redemande à chaque fois »."
                 },
                 {
                   "type": "liste",
@@ -797,7 +805,7 @@
                 },
                 {
                   "type": "p",
-                  "texte": "**Et toi ?** « Il est trop lourd pour le porter, mais il le réclame »."
+                  "texte": "**Et toi ? Tu penses peut-être :** « Il est trop lourd pour le porter, mais il le réclame »."
                 },
                 {
                   "type": "liste",
@@ -822,7 +830,7 @@
                 },
                 {
                   "type": "p",
-                  "texte": "**Et toi ?** « Le tour de voiture est devenu mon seul moyen. »"
+                  "texte": "**Et toi ? Tu penses peut-être :** « Le tour de voiture est devenu mon seul moyen. »"
                 },
                 {
                   "type": "liste",
@@ -838,7 +846,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Sucer l'apaise : c'est un besoin, pas un caprice. Au coucher, **sans forcer s'il n'en veut pas, jamais attachée**⁴. Si elle tombe pendant qu'il dort, il peut se réveiller et la chercher : c'est une raison de plus de ne pas en faire la seule condition."
+                  "texte": "Sucer l'apaise : c'est un besoin, pas un caprice. Au coucher, **sans forcer s'il n'en veut pas, jamais attachée**³. Si elle tombe pendant qu'il dort, il peut se réveiller et la chercher : c'est une raison de plus de ne pas en faire la seule condition."
                 }
               ]
             },
@@ -847,7 +855,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Un petit doudou peut rejoindre son lit, s'il s'y attache⁵. Choisis-le petit, sans ruban ni attache, que rien ne puisse s'enrouler autour de son cou. Pendant la vague de réactions à la séparation, il devient un vrai repère : tu peux le proposer pendant le câlin du rituel, il fera le lien avec toi."
+                  "texte": "Un petit doudou peut rejoindre son lit, s'il s'y attache⁴. Choisis-le petit, sans ruban ni attache, que rien ne puisse s'enrouler autour de son cou. Pendant la vague de réactions à la séparation, il devient un vrai repère : tu peux le proposer pendant le câlin du rituel, il fera le lien avec toi."
                 }
               ]
             }
@@ -864,7 +872,7 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "Ici, **on n'utilise aucune méthode où l'on laisse pleurer son enfant seul**. L'endormissement autonome est un objectif lointain, qui se construit à son rythme. Ce que l'on cherche, c'est **créer de nouvelles connexions dans son cerveau, par l'expérience**, pour diversifier peu à peu les conditions dans lesquelles il s'endort paisiblement⁶. Compte au moins 3 semaines de répétition, souvent plusieurs semaines. Pendant la vague de réactions à la séparation, il a besoin que tu reviennes comme tu l'as dit : les mêmes mots et les mêmes gestes chaque soir le rassurent, et rendent le changement plus facile à accepter. L'apaisement et la relaxation restent la clé à tout âge : c'est ce qui aide la tension de la journée à retomber."
+                  "texte": "Ici, **on n'utilise aucune méthode où l'on laisse pleurer son enfant seul**. L'endormissement autonome est un objectif lointain, qui se construit à son rythme. Ce que l'on cherche, c'est **créer de nouvelles connexions dans son cerveau, par l'expérience**, pour diversifier peu à peu les conditions dans lesquelles il s'endort paisiblement⁵. Compte au moins 3 semaines de répétition, souvent plusieurs semaines. Pendant la vague de réactions à la séparation, il a besoin que tu reviennes comme tu l'as dit : les mêmes mots et les mêmes gestes chaque soir le rassurent, et rendent le changement plus facile à accepter. L'apaisement et la relaxation restent la clé à tout âge : c'est ce qui aide la tension de la journée à retomber."
                 }
               ]
             },
@@ -875,10 +883,10 @@
                   "type": "liste",
                   "items": [
                     "**Étape 1 · Choisis une seule condition à assouplir** (par exemple, ta présence jusqu'à ce qu'il s'endorme), garde tout le reste identique, et garde ce changement quelques jours avant le suivant.",
-                    "**Étape 2 · Repère le bon moment** : quand il est apaisé et somnolent, encore conscient de la pose. Si tu le poses déjà endormi, le sommeil agité est le moment le plus favorable, et non le sommeil calme, qui marque la fin de son cycle⁶.",
+                    "**Étape 2 · Repère le bon moment** : quand il est apaisé et somnolent, encore conscient de la pose. Si tu le poses déjà endormi, le sommeil agité est le moment le plus favorable, et non le sommeil calme, qui marque la fin de son cycle⁵.",
                     "**Étape 3 · Pose-le avec contenance**, dis-lui avec des mots simples ce qui va se passer (« je reste là, je te dis bonne nuit »), et reste à côté.",
-                    "**Étape 4 · S'il pleure, reste près de lui et accompagne-le** : il n'a pas à traverser cela seul. Monte d'un cran, si besoin : ta présence, ta voix avec des mots simples, ta main posée, un câlin dans les bras⁷. Avant de le reprendre, regarde s'il est vraiment éveillé : en sommeil agité, il peut gémir ou bouger les yeux fermés, et pourtant il dort.",
-                    "**Étape 5 · Redescends d'un cran quand ça fonctionne** : quand tu as trouvé ce qui le rassure, tu continues, et de temps en temps tu proposes l'étape en dessous, pour alléger peu à peu ton intervention⁷."
+                    "**Étape 4 · S'il pleure, reste près de lui et accompagne-le** : il n'a pas à traverser cela seul. Monte d'un cran, si besoin : ta présence, ta voix avec des mots simples, ta main posée, un câlin dans les bras⁶. Avant de le reprendre, regarde s'il est vraiment éveillé : en sommeil agité, il peut gémir ou bouger les yeux fermés, et pourtant il dort.",
+                    "**Étape 5 · Redescends d'un cran quand ça fonctionne** : quand tu as trouvé ce qui le rassure, tu continues, et de temps en temps tu proposes l'étape en dessous, pour alléger peu à peu ton intervention⁶."
                   ]
                 },
                 {
@@ -900,19 +908,15 @@
               "blocs": [
                 {
                   "type": "p",
-                  "texte": "**Il est important que vous puissiez tous les deux endormir votre enfant sereinement.** Ce ne sera pas toujours facile, mais c'est important pour la suite : pour toi qui as besoin de souffler, et pour lui qui apprend qu'il y a plusieurs bras sûrs. C'est aussi ce qui rend possible une soirée chez les grands-parents, ou le relais de la crèche ou de la nounou. Le co-parent a ses propres gestes et sa propre voix : ton enfant ne cherche pas « la même chose » avec lui, et c'est justement ce qui aide. Quelques façons de le faire :"
-                },
-                {
-                  "type": "liste",
-                  "items": [
-                    "il prend les bras ou le bercement juste après la tétée ou le biberon ;",
-                    "il fait la pose, avec sa main sur le ventre et sa voix ;",
-                    "il accompagne l'endormissement un soir sur deux, à vous de voir ce qui vous convient."
-                  ]
+                  "texte": "**Il est important que vous puissiez tous les deux endormir votre enfant sereinement.** C'est important pour la suite : pour toi, qui as besoin de souffler, et pour lui, qui apprend qu'il y a plusieurs bras sûrs. C'est ce qui rend possible une soirée chez les grands-parents, ou le relais de la crèche ou de la nounou. Le co-parent a sa propre voix et ses propres gestes : ton enfant ne cherche pas « la même chose » avec lui, et c'est justement ce qui aide."
                 },
                 {
                   "type": "p",
-                  "texte": "Et si les pleurs montent, **il l'accompagne contre lui, avec sa voix** : appeler l'autre n'est jamais un échec."
+                  "texte": "**Un soir sur deux**, à vous de voir ce qui vous convient : il fait la pose, avec sa main sur le ventre et sa voix, ou il prend le relais pour le câlin et l'histoire."
+                },
+                {
+                  "type": "p",
+                  "texte": "Si c'est difficile (il ne veut que toi, ou il pleure), **ce n'est pas un échec**. Dans ce cas, c'est le lien en journée qu'il faut favoriser : les repas, le bain, les jeux, les balades avec le co-parent. Ce lien-là prépare aussi le soir. Et si les pleurs montent, il l'accompagne contre lui, avec sa voix."
                 }
               ]
             }
@@ -920,7 +924,7 @@
           "sources": null
         }
       ],
-      "sources": "¹ Les conditions d'endormissement et les réveils entre deux cycles : American Academy of Sleep Medicine, *International Classification of Sleep Disorders* ; ² Les bras des parents, la tendresse, la base de sécurité et la chambre comme lieu vivant : formation EDPP, *Pleurs et sommeil* ; Bowlby J., *Attachment and Loss*, 1969 ; Ainsworth M., 1978 ; ³ Pas de sommeil partagé sur un canapé ou dans un fauteuil : HAS, 2007 ; Blair P. S. et al., *BMJ*, 2009 ; ⁴ Tétine au coucher, sans forcer, jamais attachée : ameli.fr, 2024 ; ⁵ Rien dans le lit la première année : HAS, 2007 ; ⁶ Créer de nouvelles connexions par l'expérience, préparer le cerveau à d'autres conditions d'endormissement, poser un bébé en sommeil agité, créer une nouvelle habitude (au moins 3 semaines de répétition) : formation EDPP, *Pleurs et sommeil* ; ⁷ La présence mesurée, étape par étape, et redescendre d'un cran quand ça fonctionne : formation EDPP, *Pleurs et sommeil* (d'après la réponse mesurée aux pleurs de T. B. Brazelton)"
+      "sources": "¹ Les conditions d'endormissement et les réveils entre deux cycles : American Academy of Sleep Medicine, *International Classification of Sleep Disorders* ; ² Les bras des parents, la tendresse, la base de sécurité et la chambre comme lieu vivant : formation EDPP, *Pleurs et sommeil* ; Bowlby J., *Attachment and Loss*, 1969 ; Ainsworth M., 1978 ; ³ Tétine au coucher, sans forcer, jamais attachée : ameli.fr, 2024 ; ⁴ Rien dans le lit la première année : HAS, 2007 ; ⁵ Créer de nouvelles connexions par l'expérience, préparer le cerveau à d'autres conditions d'endormissement, poser un bébé en sommeil agité : formation EDPP, *Pleurs et sommeil* ; ⁶ La présence mesurée, étape par étape, et redescendre d'un cran quand ça fonctionne : formation EDPP, *Pleurs et sommeil* (d'après la réponse mesurée aux pleurs de T. B. Brazelton)"
     },
     {
       "id": "reveils-nocturnes",

@@ -208,14 +208,15 @@ En fin d'après-midi, parlez-en : **le co-parent peut prendre le bain, le massa
 
 ## 5 · ENDORMISSEMENT
 
-### Comment il s'endort aujourd'hui
+### Deux phases à distinguer
 
-#### Ce qui l'endort, c'est un ensemble
+#### Le rituel qui rythme le soir
+**Le rituel prépare** : c'est la suite de gestes qui annonce la nuit, toujours dans le même ordre (tétée, bain, histoire, câlin…), environ une heure.
+
+#### Les conditions d'endormissement
+**Les conditions d'endormissement** sont la phase de mise en condition au sommeil, les 15 dernières minutes environ avant qu'il s'endorme, sans entrer dans une nouvelle activité. On peut travailler les conditions d'endormissement sans toucher au rituel.
 Ton bébé s'endort dans les conditions qu'il connaît : le sein ou le biberon, tes bras, le mouvement, ta voix, la tétine. Ces conditions ne sont pas un détail : ce sont elles qui **mettent son cerveau en état de plonger dans le sommeil**. C'est un peu comme un adulte qui se laisse glisser dans une détente profonde, presque une auto-hypnose, en répétant les mêmes gestes ou les mêmes images : ton bébé s'abandonne parce que ces repères lui sont familiers.
 Entre chaque cycle, il remonte à la surface avec un micro-réveil, et si les conditions ont changé, il peut avoir des difficultés pour se rendormir¹. **À 9-11 mois, il reconnaît le rituel et sait ce qui vient : c'est normal, rien n'est à corriger, tout est à accompagner.** Il peut aussi se réveiller debout dans son lit sans savoir se rasseoir : retrouver ses repères l'aide à se rendormir. Tu peux commencer à varier, pour diversifier les conditions d'endormissement de ton bébé.
-
-#### Le rituel du soir et l'endormissement
-Ce ne sont pas la même chose. **Le rituel prépare** : c'est la suite de gestes qui annonce la nuit, toujours dans le même ordre (tétée, bain, histoire, câlin…), environ une heure. **Les conditions d'endormissement** sont la phase de mise en condition au sommeil, les 15 dernières minutes environ : celles où son cerveau se met en état de plonger dans le sommeil, sans entrer dans une nouvelle activité. On peut travailler l'un sans toucher à l'autre.
 
 #### Pourquoi l'endormissement s'étire parfois
 Il s'endort maintenant par le sommeil calme, et il sait que tu pars. Comme son corps s'entraîne partout, y compris dans son lit (se hisser, se rasseoir, recommencer), l'endormissement s'étire. Résultat, certains soirs, **il lutte pour rester avec toi** : ce n'est pas une lubie, c'est de l'attachement. Plus il est rassuré avant la pose, plus il lâche prise.
@@ -227,26 +228,25 @@ Contre toi, il retrouve la contenance, la chaleur et la voix qu'il connaît depu
 
 ### Ses façons de s'endormir
 
-> Chacune répond à un besoin de ton bébé. Certaines peuvent aussi te fatiguer : c'est humain, et tu fais de ton mieux.
+> Elles répondent toutes à un besoin, et elles peuvent varier.
 
 #### Contre toi
-Le contact, ta chaleur, ton rythme respiratoire : c'est la condition qu'il connaît le mieux, même s'il veut bouger : un câlin calme et court suffit. Pour le peau à peau, **reste éveillé, son visage visible**⁵. Si tu as envie de varier : main sur son ventre, puis sur sa jambe, puis ta main près de lui sans le toucher.
+Le contact, ta chaleur, ton rythme respiratoire : c'est la condition qu'il connaît le mieux, même s'il veut bouger : un câlin calme et court suffit. **Si tu as envie de varier :** main sur son ventre, puis sur sa jambe, puis ta main près de lui sans le toucher.
 
 #### Au sein ou au biberon
 La succion l'apaise, et à cet âge, s'endormir en tétant reste **physiologique** : avec les repas solides, la tétée du soir sert autant à se détendre qu'à se nourrir.
-**Et toi ?** « Il ne s'endort qu'en tétant », « impossible de le laisser un soir à ses grands-parents ».
-- le co-parent donne le biberon, ou prend les bras juste après ;
+**Et toi ? Tu penses peut-être :** « Il ne s'endort qu'en tétant », « impossible de le laisser un soir à ses grands-parents », « je lui donne la tétée toute la nuit », « je prépare des biberons mais il ne les boit pas ».
+**Si tu as envie de varier :**
+- le co-parent donne le biberon, ou prend bébé dans les bras après la tétée, avant qu'il s'endorme, pour varier ses repères ;
 - tu arrêtes quand la succion devient lente, avant qu'il soit profondément endormi : un rot, un câlin à la verticale, puis la pose ;
 - tu sépares la tétée du lit : même rituel, mais la tétée dans un autre endroit ou sous une autre lumière.
-
-Si tu risques de t'endormir en le nourrissant, fais-le dans ton lit, jamais sur un canapé ou dans un fauteuil.
 
 #### Faire avec toi
 Il imite : il peut participer aux petits gestes qui annoncent la nuit, éteindre la lampe avec toi, faire « au revoir » au jour, ranger un jouet. **Se sentir acteur** de ce moment l'aide à lâcher prise.
 
 #### Dans les bras, bercé
 Le mouvement lent, la contenance de tes bras l'apaisent.
-**Et toi ?** « Il se réveille dès que je le pose », « j'ai mal au dos ».
+**Et toi ? Tu penses peut-être :** « Il se réveille dès que je le pose », « j'ai mal au dos ».
 - allège le bercement : mouvements plus petits, plus lents, quand il est calme ;
 - arrête de bercer quand il est somnolent, pas endormi ;
 - pose-le avec contenance : sur le dos, les fesses puis la tête, une main sur son ventre ;
@@ -254,7 +254,7 @@ Le mouvement lent, la contenance de tes bras l'apaisent.
 
 #### En portage, en marchant
 Mouvement, contact, position en grenouille : un bébé porté pleure moins³. À cet âge, il veut aussi explorer : le portage reste un refuge, pas une obligation.
-**Et toi ?** « Il est lourd, et je marche des heures ».
+**Et toi ? Tu penses peut-être :** « Il est lourd, et je marche des heures ».
 - arrête de marcher dès qu'il est somnolent, reste immobile, puis assieds-toi ;
 - sors-le du porte-bébé somnolent et termine en l'enveloppant de tes mains dans son lit ;
 - laisse le co-parent prendre le relais de la marche.
@@ -263,7 +263,7 @@ Ne le laisse pas dormir dans le porte-bébé sans surveillance.
 
 #### En mouvement : voiture, poussette
 Le mouvement continu et le bruit régulier l'apaisent. C'est un dépannage précieux les jours difficiles, mieux vaut ne pas en faire une condition.
-**Et toi ?** « Il s'endort plus facilement en poussette ou en voiture qu'à la maison. »
+**Et toi ? Tu penses peut-être :** « Il s'endort plus facilement en poussette ou en voiture qu'à la maison. »
 - à la maison, reproduis ce qui l'apaise : mouvement lent, bruit régulier à faible volume, pénombre ;
 - garde les sommes en mouvement pour les siestes en déplacement.
 
@@ -276,28 +276,25 @@ Beaucoup de bébés s'attachent à un petit tissu ou à un doudou, en même temp
 ### Diversifier ses conditions d'endormissement, pas à pas
 
 #### Le principe
-Ici, **on n'utilise aucune méthode où l'on laisse pleurer son bébé seul**. L'endormissement autonome est un objectif lointain, qui se construit à son rythme. Ce que l'on cherche, c'est **créer de nouvelles connexions dans son cerveau, par l'expérience**, pour diversifier peu à peu les conditions dans lesquelles il s'endort paisiblement⁶. Compte au moins 3 semaines de répétition, souvent plusieurs semaines. À 9-11 mois, il imite, il comprend, il participe : tu peux l'inviter à faire avec toi (éteindre la lampe, dire « au revoir » au jour), et le nouveau repère devient plus un jeu qu'une séparation.
+Ici, **on n'utilise aucune méthode où l'on laisse pleurer son bébé seul**. L'endormissement autonome est un objectif lointain, qui se construit à son rythme. Ce que l'on cherche, c'est **créer de nouvelles connexions dans son cerveau, par l'expérience**, pour diversifier peu à peu les conditions dans lesquelles il s'endort paisiblement⁵. Compte au moins 3 semaines de répétition, souvent plusieurs semaines. À 9-11 mois, il imite, il comprend, il participe : tu peux l'inviter à faire avec toi (éteindre la lampe, dire « au revoir » au jour), et le nouveau repère devient plus un jeu qu'une séparation.
 
 #### Pas à pas
 - **Étape 1 · Choisis une seule condition à assouplir** (par exemple, la tétée à l'endroit du coucher), garde tout le reste identique, et garde ce changement quelques jours avant le suivant.
-- **Étape 2 · Repère le bon moment** : quand il est apaisé et somnolent, encore conscient de la pose. Si tu le poses déjà endormi, le sommeil agité est le moment le plus favorable, et non le sommeil calme, qui marque la fin de son cycle⁶.
+- **Étape 2 · Repère le bon moment** : quand il est apaisé et somnolent, encore conscient de la pose. Si tu le poses déjà endormi, le sommeil agité est le moment le plus favorable, et non le sommeil calme, qui marque la fin de son cycle⁵.
 - **Étape 3 · Pose-le avec contenance**, et reste à côté : main sur son ventre, ta voix.
-- **Étape 4 · S'il pleure, reste près de lui et accompagne-le** : il n'a pas à traverser cela seul. Monte d'un cran, si besoin : ta présence, ta voix, ta main posée, un câlin dans les bras, le bercement⁷. Avant de le reprendre, regarde s'il est vraiment éveillé : en sommeil agité, il peut gémir ou bouger les yeux fermés, et pourtant il dort.
-- **Étape 5 · Redescends d'un cran quand ça fonctionne** : quand tu as trouvé ce qui le rassure, tu continues, et de temps en temps tu proposes l'étape en dessous, pour alléger peu à peu ton intervention⁷.
+- **Étape 4 · S'il pleure, reste près de lui et accompagne-le** : il n'a pas à traverser cela seul. Monte d'un cran, si besoin : ta présence, ta voix, ta main posée, un câlin dans les bras, le bercement⁶. Avant de le reprendre, regarde s'il est vraiment éveillé : en sommeil agité, il peut gémir ou bouger les yeux fermés, et pourtant il dort.
+- **Étape 5 · Redescends d'un cran quand ça fonctionne** : quand tu as trouvé ce qui le rassure, tu continues, et de temps en temps tu proposes l'étape en dessous, pour alléger peu à peu ton intervention⁶.
 
 Si c'est trop dur un soir, tu arrêtes, tu reprends plus tard : ce n'est pas un échec.
 
 ### Le relais du co-parent
 
 #### Deux parents qui savent l'endormir
-**Il est important que vous puissiez tous les deux endormir bébé sereinement.** Ce ne sera pas toujours facile, mais c'est important pour la suite : pour toi qui as besoin de souffler, et pour lui qui apprend qu'il y a plusieurs bras sûrs. Le co-parent a ses propres gestes et sa propre voix : ton bébé ne cherche pas « la même chose » avec lui, et c'est justement ce qui aide. Quelques façons de le faire :
-- il prend les bras ou le bercement juste après la tétée ou le biberon ;
-- il fait la pose, avec sa main sur le ventre et sa voix ;
-- il accompagne l'endormissement un soir sur deux, à vous de voir ce qui vous convient.
+**Il est important que vous puissiez tous les deux endormir bébé sereinement.** C'est important pour la suite : pour toi, qui as besoin de souffler, et pour lui, qui apprend qu'il y a plusieurs bras sûrs. Le co-parent a sa propre voix et ses propres gestes : ton bébé ne cherche pas « la même chose » avec lui, et c'est justement ce qui aide.
+**Un soir sur deux**, à vous de voir ce qui vous convient : il fait la pose, avec sa main sur le ventre et sa voix, ou il prend les bras après la tétée ou le biberon.
+Si c'est difficile (il ne veut que toi, ou il pleure), **ce n'est pas un échec**. Dans ce cas, c'est le lien en journée qu'il faut favoriser : les repas, le bain, les jeux, les balades avec le co-parent. Ce lien-là prépare aussi le soir. Et si les pleurs montent, il l'accompagne contre lui, avec sa voix.
 
-Et si les pleurs montent, **il l'accompagne contre lui, avec sa voix** : appeler l'autre n'est jamais un échec.
-
-`source` : ¹ Les conditions d'endormissement et les réveils entre deux cycles : American Academy of Sleep Medicine, *International Classification of Sleep Disorders* ; ² Les bras des parents, la tendresse et la base de sécurité : formation EDPP, *Pleurs et sommeil* ; Bowlby J., *Attachment and Loss*, 1969 ; Ainsworth M., 1978 ; ³ Un bébé porté pleure moins : Hunziker U. A., Barr R. G., *Pediatrics*, 1986 ; ⁴ Tétine au coucher, sans forcer, jamais attachée : ameli.fr, 2024 ; ⁵ Peau à peau, parent éveillé et visage de bébé visible : HAS, Flash Sécurité Patient, avril 2026 ; ⁶ Créer de nouvelles connexions par l'expérience, préparer le cerveau à d'autres conditions d'endormissement, poser un bébé en sommeil agité, créer une nouvelle habitude (au moins 3 semaines de répétition) : formation EDPP, *Pleurs et sommeil* ; ⁷ La présence mesurée, étape par étape, et redescendre d'un cran quand ça fonctionne : formation EDPP, *Pleurs et sommeil* (d'après la réponse mesurée aux pleurs de T. B. Brazelton)
+`source` : ¹ Les conditions d'endormissement et les réveils entre deux cycles : American Academy of Sleep Medicine, *International Classification of Sleep Disorders* ; ² Les bras des parents, la tendresse et la base de sécurité : formation EDPP, *Pleurs et sommeil* ; Bowlby J., *Attachment and Loss*, 1969 ; Ainsworth M., 1978 ; ³ Un bébé porté pleure moins : Hunziker U. A., Barr R. G., *Pediatrics*, 1986 ; ⁴ Tétine au coucher, sans forcer, jamais attachée : ameli.fr, 2024 ; ⁵ Créer de nouvelles connexions par l'expérience, préparer le cerveau à d'autres conditions d'endormissement, poser un bébé en sommeil agité : formation EDPP, *Pleurs et sommeil* ; ⁶ La présence mesurée, étape par étape, et redescendre d'un cran quand ça fonctionne : formation EDPP, *Pleurs et sommeil* (d'après la réponse mesurée aux pleurs de T. B. Brazelton)
 
 ---
 

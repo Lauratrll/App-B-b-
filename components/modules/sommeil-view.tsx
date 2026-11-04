@@ -152,9 +152,42 @@ export function Blocs({
                   key={j}
                   style={{ display: "flex", gap: 7, alignItems: "flex-start", marginBottom: 5 }}
                 >
-                  <span style={{ color: accent, fontWeight: 700, lineHeight: 1.5, flexShrink: 0 }}>
-                    {b.numerotee ? `${j + 1}.` : "•"}
-                  </span>
+                  {b.numerotee ? (
+                    // Rond de couleur, numéro blanc (comme les actions de Guide-moi), aligné sur la 1re ligne.
+                    <span
+                      style={{
+                        width: 18,
+                        height: 18,
+                        borderRadius: "50%",
+                        background: accent,
+                        color: "#fff",
+                        fontSize: 10,
+                        fontWeight: 700,
+                        lineHeight: 1,
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        flexShrink: 0,
+                        marginTop: 0,
+                      }}
+                    >
+                      {j + 1}
+                    </span>
+                  ) : (
+                    <span
+                      style={{
+                        color: accent,
+                        fontWeight: 700,
+                        fontSize: 11,
+                        lineHeight: "17px",
+                        width: 10,
+                        textAlign: "center",
+                        flexShrink: 0,
+                      }}
+                    >
+                      •
+                    </span>
+                  )}
                   <div style={{ fontSize: 11, color, lineHeight: 1.55 }}>
                     <Inline texte={p(it)} />
                   </div>

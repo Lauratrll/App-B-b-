@@ -21,7 +21,6 @@ La succion l'apaise, et à cet âge, s'endormir en tétant est **physiologique**
 - **donne le biberon ou le sein bébé éveillé**, jamais à un bébé profondément endormi ;
 - **prépare le biberon au moment de le donner**⁴ ;
 - une fois qu'il a fini, **un rot, un câlin à la verticale**, puis tu le poses sur le dos dans son lit ;
-- **si tu risques de t'endormir en le nourrissant**, fais-le dans ton lit, jamais sur un canapé ou dans un fauteuil⁵.
 
 #### Dans les bras, bercé
 Le mouvement lent, la contenance de tes bras le regroupent et l'apaisent. Quand on le pose à plat, la perte de contact peut le réveiller : c'est le réflexe de Moro, qui dure jusqu'à 3-6 mois environ. Pour le poser :
