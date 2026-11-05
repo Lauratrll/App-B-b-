@@ -28,7 +28,13 @@ const SECONDAIRES = [
 
 export function AppMenu() {
   const [ouvert, setOuvert] = useState(false);
+  // Le tiroir d'aperçu n'existe que pour les admins (ApercuTiroir pose ce drapeau).
+  const [admin, setAdmin] = useState(false);
   const pathname = usePathname();
+
+  useEffect(() => {
+    if (ouvert) setAdmin(document.documentElement.dataset.apercu === "1");
+  }, [ouvert]);
 
   // Une navigation referme le menu.
   useEffect(() => {
@@ -165,6 +171,25 @@ export function AppMenu() {
                 </li>
               ))}
             </ul>
+            {/* Admins seulement (04/11) : accès sûr au bandeau d'aperçu. */}
+            {admin ? (
+              <ul className="mt-3 border-t pt-3" style={{ borderColor: "#E4DDD6" }}>
+                <li>
+                  <button
+                    type="button"
+                    tabIndex={ouvert ? 0 : -1}
+                    onClick={() => {
+                      setOuvert(false);
+                      window.dispatchEvent(new Event("ouvrir-apercu"));
+                    }}
+                    className="flex min-h-[44px] w-full items-center px-3 text-left text-sm"
+                    style={{ color: TEXT }}
+                  >
+                    Aperçu admin (mois, genre, saison)
+                  </button>
+                </li>
+              </ul>
+            ) : null}
           </nav>
 
           <form

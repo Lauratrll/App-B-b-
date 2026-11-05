@@ -10,6 +10,9 @@ import { useEffect, useRef, useState } from "react";
 // ou tout seul après un changement (la page se recharge).
 // 30/10 : le geste était trop difficile à trouver. Une petite poignée discrète,
 // en haut au centre, ouvre aussi le tiroir d'un simple toucher (admins seulement).
+// 04/11 : toujours difficile. Poignée plus grande, plus visible, descendue sous
+// la zone de l'heure de l'iPhone (safe-area) ; et entrée « Aperçu admin » dans
+// le menu 3 traits de l'accueil (événement « ouvrir-apercu »).
 // ----------------------------------------------------------------------------
 
 const SEUIL = 45; // px à glisser pour ouvrir
@@ -19,6 +22,18 @@ export function ApercuTiroir({ children }: { children: React.ReactNode }) {
   const tiroir = useRef<HTMLDivElement>(null);
   const depart = useRef<number | null>(null);
   const cumulMolette = useRef(0);
+
+  // Le menu 3 traits voit qu'on est admin et peut ouvrir le tiroir.
+  useEffect(() => {
+    const racine = document.documentElement;
+    racine.dataset.apercu = "1";
+    const ouvrir = () => setOuvert(true);
+    window.addEventListener("ouvrir-apercu", ouvrir);
+    return () => {
+      delete racine.dataset.apercu;
+      window.removeEventListener("ouvrir-apercu", ouvrir);
+    };
+  }, []);
 
   useEffect(() => {
     // Pas de « tirer pour rafraîchir » du navigateur : le geste sert au tiroir (admins seulement).
@@ -86,27 +101,28 @@ export function ApercuTiroir({ children }: { children: React.ReactNode }) {
           onClick={() => setOuvert(true)}
           style={{
             position: "fixed",
-            top: 0,
+            top: "env(safe-area-inset-top, 0px)",
             left: "50%",
             transform: "translateX(-50%)",
             zIndex: 40,
-            width: 80,
-            height: 24,
+            width: 120,
+            height: 36,
             display: "flex",
             alignItems: "flex-start",
             justifyContent: "center",
-            paddingTop: 6,
+            paddingTop: 8,
             background: "transparent",
             border: "none",
             cursor: "pointer",
+            touchAction: "manipulation",
           }}
         >
           <span
             style={{
-              width: 40,
-              height: 5,
+              width: 56,
+              height: 6,
               borderRadius: 3,
-              background: "rgba(0,0,0,.22)",
+              background: "rgba(58,50,40,.45)",
             }}
           />
         </button>
