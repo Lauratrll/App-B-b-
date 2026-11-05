@@ -5,6 +5,7 @@ import {
   PLACEHOLDER_VISUEL,
 } from "@/lib/apaisement";
 import { ApaisementIcone, familleDuPicto } from "./apaisement-icone";
+import { ApaisementSources } from "./apaisement-sources";
 import { APAISEMENT, CADRE_SECURITE, PLAYFAIR, styleIntitule, texteRiche } from "./apaisement-design";
 
 // Fiche d'un geste d'apaisement. Ordre imposé par le brief (§4.4) :
@@ -193,20 +194,12 @@ export function GesteFiche({ geste }: { geste: Geste }) {
         </section>
       ) : null}
 
-      {/* 7. Sources : discrètes, posées sur le fond */}
+      {/* 7. Sources : en petit, repliées, à déplier en tapant « Sources »
+          (même composant que la rubrique Sommeil, choix Laura 05/11). */}
       {geste.sources.length > 0 ? (
-        <section style={{ padding: "0 4px" }}>
-          <h2 style={{ ...styleIntitule(APAISEMENT.muted), fontSize: 9, margin: "0 0 5px" }}>
-            Sources
-          </h2>
-          <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gap: 3 }}>
-            {geste.sources.map((s, i) => (
-              <li key={i} style={{ fontSize: 11, lineHeight: 1.5, color: APAISEMENT.texte, opacity: 0.7 }}>
-                {texteRiche(s)}
-              </li>
-            ))}
-          </ul>
-        </section>
+        <div style={{ padding: "0 4px", marginTop: -6 }}>
+          <ApaisementSources sources={geste.sources} />
+        </div>
       ) : null}
     </article>
   );
