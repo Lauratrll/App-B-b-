@@ -54,15 +54,22 @@ export function GesteFiche({ geste }: { geste: Geste }) {
           {geste.titre}
         </h1>
         {geste.objectif ? (
+          // Objectif mis en valeur (Laura, 05/11) : bandeau vert de la rubrique,
+          // petites capitales blanches (6,5 de contraste sur ce vert).
           <p
             style={{
-              fontSize: 14,
-              lineHeight: 1.55,
-              color: APAISEMENT.texte,
-              opacity: 0.85,
-              fontStyle: "italic",
-              margin: "10px auto 0",
-              maxWidth: 320,
+              display: "inline-block",
+              background: APAISEMENT.profond,
+              color: "#FFFFFF",
+              fontVariantCaps: "all-small-caps",
+              fontSize: 15,
+              fontWeight: 600,
+              letterSpacing: ".06em",
+              lineHeight: 1.4,
+              borderRadius: 12,
+              padding: "9px 16px 11px",
+              margin: "14px auto 0",
+              maxWidth: 340,
             }}
           >
             {texteRiche(geste.objectif)}

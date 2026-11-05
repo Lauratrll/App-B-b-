@@ -820,3 +820,4 @@ Phrase à déconstruire : porter son bébé est bon, ce n'est pas une mauvaise h
 - (Laura, 05/11) **Sources des gestes d'apaisement : en petit, repliées**, à déplier en tapant « Sources », comme dans les autres catégories (même composant que Sommeil : `Sources` de `sommeil-view.tsx`).
 - (Laura, 05/11) ✅ **Épingle proposée sur les gestes d'apaisement.** Migration 0005 exécutée dans Supabase par Laura, puis `node scripts/import-apaisement.mjs` : 23 lignes `content` créées (module `apaisement`, la Cohérence cardiaque n'en a pas). Quota 6.
 - (Laura, 05/11) **Sommeil, Endormissement (T2 à T7)** : « compte au moins 3 semaines de répétition » retiré ; il reste « ça prend souvent plusieurs semaines ».
+- (Laura, 05/11) **Fiche d'un geste d'apaisement : l'objectif (sous-titre) dans un bandeau vert `#526528`, en petites capitales blanches**, pour le mettre en valeur.
