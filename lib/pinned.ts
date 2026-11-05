@@ -14,6 +14,8 @@ export const PIN_QUOTAS = {
   guide: 6,
   coucher: 2,
   reflexo: 6,
+  // Gestes d'apaisement (05/11/2026) : 6 par défaut, à confirmer par Laura.
+  apaisement: 6,
 } as const;
 
 export type PinnableModule = keyof typeof PIN_QUOTAS;
@@ -22,6 +24,7 @@ export const PINNABLE_MODULES: PinnableModule[] = [
   "guide",
   "coucher",
   "reflexo",
+  "apaisement",
 ];
 
 // =========================================================================

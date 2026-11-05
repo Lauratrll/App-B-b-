@@ -67,7 +67,7 @@ Format cible    : Mobile-first, max-width 390px
     /coucher        → Module Préparer le coucher
     /sos            → Module S.O.S Dois-je consulter ? (remplace /audio le 08/10/2026)
     /jeux           → Module Jeux \& stimulation
-    /apaisement     → Gestes d'apaisement, boîte à outils (20/10/2026, à construire)
+    /apaisement     → Gestes d'apaisement, boîte à outils (construite le 05/11/2026, JSON statique content/apaisement/)
     /coherence      → Cohérence cardiaque, bouton rond de la barre du bas (20/10/2026, à créer)
     /compte         → Mes informations (menu des réglages « 3 traits »)
     /contact        → Nous contacter (à remplir)
@@ -149,6 +149,11 @@ CREATE TABLE admins (
 -- Aperçu stocké en cookies (apercu\_mois, apercu\_genre, apercu\_saison), appliqué par
 -- getCurrentProfile() dans lib/auth.ts ; le profil réel = getRealProfile().
 -- Migration : supabase/migrations/0004\_admins\_et\_verrou\_profil.sql
+
+-- content, module 'apaisement', categorie 'geste' (05/11/2026) : une ligne par geste d'apaisement
+-- (situation = id, mois = 0, data = {id, titre}), pour l'épingler ; créée par
+-- scripts/import-apaisement.mjs, jamais supprimée. Le CHECK de content.module accepte
+-- 'apaisement' depuis supabase/migrations/0005_add_apaisement_module.sql.
 
 -- content, module 'reflexo', categorie 'plantaire' (20/10/2026) : une ligne par fiche de
 -- l'onglet Réflexologie plantaire (situation = id, mois = 0, data = {id, titre}), qui ne sert

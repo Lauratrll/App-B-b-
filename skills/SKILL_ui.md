@@ -87,6 +87,7 @@
 | 🧭 Guide-moi ! | `#EDE0D4` | `#C89878` |
 | 🌙 Préparer le coucher | `#E8F0F2` | `#8A9E98` |
 | 🌸 Prendre soin de moi | `#F5D0C8` | `#D4604A` |
+| 🌿 Gestes d'apaisement | `#E5EBDD` (sauge poudrée) | `#526528` (intitulés, pastilles, onglet actif) · rond des pictos `#CCD8C1` (cf. apaisement-design.tsx) |
 | 🌿 Vivre la saison | fond selon la saison (voir « Vivre la saison ») | cadres blanc transparent |
 | 🆘 S.O.S Dois-je consulter ? | `#FFE3CD` | jaune `#FFCD67` · orange `#FFC18F` · sanguine `#FFBAA5` (cf. sos-design.tsx) |
 | 🎯 Jeux & stimulation | `#EDE0D4` | `#C89878` |

@@ -785,3 +785,21 @@ export const getReflexoPlantaireContentId = unstable_cache(
   ["reflexo-plantaire"],
   CACHE_OPTIONS,
 );
+
+/** Ligne `content` d'un geste d'apaisement (module 'apaisement'), pour l'épingler.
+ *  Créée par scripts/import-apaisement.mjs ; null tant qu'elle n'existe pas. */
+export const getApaisementContentId = unstable_cache(
+  async (id: string): Promise<string | null> => {
+    const supabase = createAdminClient();
+    const { data, error } = await supabase
+      .from("content")
+      .select("id")
+      .eq("module", "apaisement")
+      .eq("situation", id)
+      .maybeSingle();
+    if (error || !data) return null;
+    return data.id as string;
+  },
+  ["apaisement-geste"],
+  CACHE_OPTIONS,
+);

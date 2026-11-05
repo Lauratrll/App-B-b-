@@ -13,6 +13,7 @@ export default async function EpinglesPage() {
   const guides = pins.filter((p) => p.module === "guide");
   const couchers = pins.filter((p) => p.module === "coucher");
   const reflexos = pins.filter((p) => p.module === "reflexo");
+  const apaisements = pins.filter((p) => p.module === "apaisement");
 
   // Grouper les guides par catégorie
   const guidesByCategorie = guides.reduce<Record<string, PinnedItem[]>>(
@@ -33,7 +34,8 @@ export default async function EpinglesPage() {
         <p className="text-sm text-neutral-600">
           {couchers.length}/{PIN_QUOTAS.coucher} Coucher · {guides.length}/
           {PIN_QUOTAS.guide} Guide-moi ! · {reflexos.length}/
-          {PIN_QUOTAS.reflexo} Réflexo
+          {PIN_QUOTAS.reflexo} Réflexo · {apaisements.length}/
+          {PIN_QUOTAS.apaisement} Apaisement
         </p>
       </header>
 
@@ -41,7 +43,8 @@ export default async function EpinglesPage() {
         <p className="rounded-xl bg-neutral-50 p-5 text-sm text-neutral-700">
           Aucune épingle pour le moment. Tu peux épingler jusqu&apos;à{" "}
           {PIN_QUOTAS.coucher} rituels Coucher, {PIN_QUOTAS.guide} protocoles
-          Guide-moi ! et {PIN_QUOTAS.reflexo} gestes de réflexologie pour les
+          Guide-moi !, {PIN_QUOTAS.reflexo} gestes de réflexologie et{" "}
+          {PIN_QUOTAS.apaisement} gestes d&apos;apaisement pour les
           retrouver ici en un clic.
         </p>
       ) : null}
@@ -70,6 +73,28 @@ export default async function EpinglesPage() {
                 // (30/10), l'épingle reste visible pour pouvoir la retirer.
                 horsAge={pin.categorie === "plantaire" && ficheHorsAge(pin.situation, moisActuel)}
                 fallbackTitre={`Réflexologie · ${pin.categorie ?? ""} · mois ${pin.mois}`}
+              />
+            ))}
+          </ul>
+        </section>
+      ) : null}
+
+      {/* Section Gestes d'apaisement : la fiche reste ouverte après le mois
+          de fin du geste (brief du 05/11, §4.5). */}
+      {apaisements.length > 0 ? (
+        <section className="space-y-3">
+          <h2 className="text-sm font-semibold uppercase tracking-wide text-neutral-500">
+            🌿 Gestes d&apos;apaisement
+          </h2>
+          <ul className="space-y-2">
+            {apaisements.map((pin) => (
+              <PinCard
+                key={pin.id}
+                pin={pin}
+                moisActuel={moisActuel}
+                href={`/apaisement/${pin.situation}`}
+                sansMois
+                fallbackTitre="Geste d'apaisement"
               />
             ))}
           </ul>

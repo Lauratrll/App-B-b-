@@ -171,6 +171,7 @@ function BoutonRond({
 const LIBELLES: Record<string, string> = {
   "/guide": "Guide-moi !",
   "/reflexologie": "Réflexologie",
+  "/apaisement": "Apaisement",
   "/sos": "Dois-je consulter ?",
   "/soin": "Prendre soin de moi",
   "/epingles": "Mes épingles",

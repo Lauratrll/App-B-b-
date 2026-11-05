@@ -14,6 +14,7 @@ const MODULE_LABELS: Record<PinnableModule, string> = {
   guide: "🧭 Guide-moi !",
   coucher: "🌙 Sommeil & Endormissement",
   reflexo: "💫 Réflexologie",
+  apaisement: "🌿 Gestes d'apaisement",
 };
 
 export default async function GererEpinglesPage({
