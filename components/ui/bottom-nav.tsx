@@ -94,6 +94,14 @@ const ICONE_COHERENCE = (
   </>
 );
 
+// Loupe : « Que me dit bébé ? », l'analyse du comportement (Laura, 05/11/2026).
+const ICONE_LOUPE = (
+  <>
+    <circle cx="10.5" cy="10.5" r="6" />
+    <path d="M15 15l5 5" />
+  </>
+);
+
 function OngletPicto({
   href,
   label,
@@ -257,10 +265,12 @@ export function BottomNav() {
   const estSur = (base: string) =>
     pathname === base || pathname.startsWith(base + "/");
 
-  // Accueil : Accueil · Cohérence (rond) · SOS (rond) · Épinglés.
+  // Accueil : Accueil · Cohérence (rond) · SOS (rond) · Que me dit bébé ? (rond)
+  // · Épinglés. Ordre et variante « rond, mot sous la loupe » : Laura, 05/11/2026.
+  // Visible pour tous les comptes (app pas encore commercialisée).
   if (estSur("/dashboard")) {
     return (
-      <nav aria-label="Navigation principale" className="sticky bottom-0 z-30 grid grid-cols-4" style={STYLE_BARRE}>
+      <nav aria-label="Navigation principale" className="sticky bottom-0 z-30 grid grid-cols-5" style={STYLE_BARRE}>
         <OngletPicto href="/dashboard" label="Accueil" actif>
           {ICONE_ACCUEIL}
         </OngletPicto>
@@ -272,6 +282,18 @@ export function BottomNav() {
         <BoutonRond href="/sos" label="SOS, dois-je consulter ?" actif={false} fond="#FAD2B3" bord="#EDA36E">
           <span className="font-display font-bold" style={{ fontSize: 15, letterSpacing: "0.04em", color: "#A4471F" }}>
             SOS
+          </span>
+        </BoutonRond>
+        <BoutonRond href="/que-me-dit-bebe" label="Que me dit bébé ?" actif={false} fond="#FFFFFF" bord={INACTIVE}>
+          <span className="flex flex-col items-center" style={{ color: "#384E48" }}>
+            <svg width={19} height={19} viewBox="0 0 24 24" fill="none" stroke="#384E48" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+              {ICONE_LOUPE}
+            </svg>
+            <span aria-hidden className="text-center font-semibold" style={{ fontSize: 8, lineHeight: 1.05, marginTop: 2 }}>
+              Que me dit
+              <br />
+              bébé ?
+            </span>
           </span>
         </BoutonRond>
         <OngletPicto href="/epingles" label="Épinglés" actif={false}>
