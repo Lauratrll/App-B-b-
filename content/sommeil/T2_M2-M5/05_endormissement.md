@@ -68,7 +68,7 @@ Ici, **on n'utilise aucune méthode où l'on laisse pleurer son bébé seul**. L
 
 #### Les règles du chemin
 - **un seul changement à la fois**, gardé plusieurs jours avant le suivant ;
-- **ça prend du temps** : compte au moins 3 semaines de répétition, souvent plusieurs semaines⁵ ;
+- **ça prend du temps** : souvent plusieurs semaines⁵ ;
 - **tu t'arrêtes** si c'est trop dur un soir, et tu reprends plus tard : ce n'est pas un échec.
 
 #### Pas à pas

@@ -68,7 +68,7 @@ Beaucoup de bébés s'attachent à un petit tissu ou à un doudou, en même temp
 ### Diversifier ses conditions d'endormissement, pas à pas
 
 #### Le principe
-Ici, **on n'utilise aucune méthode où l'on laisse pleurer son bébé seul**. L'endormissement autonome est un objectif lointain, qui se construit à son rythme. Ce que l'on cherche, c'est **créer de nouvelles connexions dans son cerveau, par l'expérience**, pour diversifier peu à peu les conditions dans lesquelles il s'endort paisiblement⁵. Compte au moins 3 semaines de répétition, souvent plusieurs semaines. À 9-11 mois, il imite, il comprend, il participe : tu peux l'inviter à faire avec toi (éteindre la lampe, dire « au revoir » au jour), et le nouveau repère devient plus un jeu qu'une séparation.
+Ici, **on n'utilise aucune méthode où l'on laisse pleurer son bébé seul**. L'endormissement autonome est un objectif lointain, qui se construit à son rythme. Ce que l'on cherche, c'est **créer de nouvelles connexions dans son cerveau, par l'expérience**, pour diversifier peu à peu les conditions dans lesquelles il s'endort paisiblement⁵. Ça prend souvent plusieurs semaines. À 9-11 mois, il imite, il comprend, il participe : tu peux l'inviter à faire avec toi (éteindre la lampe, dire « au revoir » au jour), et le nouveau repère devient plus un jeu qu'une séparation.
 
 #### Pas à pas
 - **Étape 1 · Choisis une seule condition à assouplir** (par exemple, la tétée à l'endroit du coucher), garde tout le reste identique, et garde ce changement quelques jours avant le suivant.

@@ -308,7 +308,7 @@ Il a passé 1 an : **un petit doudou peut maintenant rejoindre son lit**, s'il 
 ### Diversifier ses conditions d'endormissement, pas à pas
 
 #### Le principe
-Ici, **on n'utilise aucune méthode où l'on laisse pleurer son enfant seul**. L'endormissement autonome est un objectif lointain, qui se construit à son rythme. Ce que l'on cherche, c'est **créer de nouvelles connexions dans son cerveau, par l'expérience**, pour diversifier peu à peu les conditions dans lesquelles il s'endort paisiblement⁵. Compte au moins 3 semaines de répétition, souvent plusieurs semaines. Après 1 an, il a un avis et il le dit : tu peux lui annoncer, avec des mots simples, ce qui va se passer, et lui laisser un petit choix (quel livre, quel doudou). L'apaisement et la relaxation restent la clé à tout âge : c'est ce qui aide la tension de la journée à retomber.
+Ici, **on n'utilise aucune méthode où l'on laisse pleurer son enfant seul**. L'endormissement autonome est un objectif lointain, qui se construit à son rythme. Ce que l'on cherche, c'est **créer de nouvelles connexions dans son cerveau, par l'expérience**, pour diversifier peu à peu les conditions dans lesquelles il s'endort paisiblement⁵. Ça prend souvent plusieurs semaines. Après 1 an, il a un avis et il le dit : tu peux lui annoncer, avec des mots simples, ce qui va se passer, et lui laisser un petit choix (quel livre, quel doudou). L'apaisement et la relaxation restent la clé à tout âge : c'est ce qui aide la tension de la journée à retomber.
 
 #### Pas à pas
 - **Étape 1 · Choisis une seule condition à assouplir** (par exemple, le bercement avant la pose), garde tout le reste identique, et garde ce changement quelques jours avant le suivant.

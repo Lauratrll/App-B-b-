@@ -66,7 +66,7 @@ Dès 6-8 mois, certains bébés s'attachent à un petit tissu ou à un doudou. *
 ### Diversifier ses conditions d'endormissement, pas à pas
 
 #### Le principe
-Ici, **on n'utilise aucune méthode où l'on laisse pleurer son bébé seul**. L'endormissement autonome est un objectif lointain, qui se construit à son rythme. Ce que l'on cherche, c'est **créer de nouvelles connexions dans son cerveau, par l'expérience**, pour diversifier peu à peu les conditions dans lesquelles il s'endort paisiblement⁵. Compte au moins 3 semaines de répétition, souvent plusieurs semaines. À 6-8 mois, il comprend mieux que tu t'éloignes, et ses repères comptent beaucoup : c'est pour ça qu'on change **une chose à la fois**. Il a encore besoin de beaucoup de proximité : diversifier ses conditions, ce n'est pas s'éloigner de lui.
+Ici, **on n'utilise aucune méthode où l'on laisse pleurer son bébé seul**. L'endormissement autonome est un objectif lointain, qui se construit à son rythme. Ce que l'on cherche, c'est **créer de nouvelles connexions dans son cerveau, par l'expérience**, pour diversifier peu à peu les conditions dans lesquelles il s'endort paisiblement⁵. Ça prend souvent plusieurs semaines. À 6-8 mois, il comprend mieux que tu t'éloignes, et ses repères comptent beaucoup : c'est pour ça qu'on change **une chose à la fois**. Il a encore besoin de beaucoup de proximité : diversifier ses conditions, ce n'est pas s'éloigner de lui.
 
 #### Pas à pas
 - **Étape 1 · Choisis une seule condition à assouplir** (par exemple, la tétée à l'endroit du coucher), garde tout le reste identique, et garde ce changement quelques jours avant le suivant.
