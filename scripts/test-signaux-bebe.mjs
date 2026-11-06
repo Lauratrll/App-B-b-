@@ -51,6 +51,7 @@ for (const t of donnees.tests_attendus) {
 // Garde-fous d'affichage : rien d'interne ne doit sortir.
 const interdits = /\bS\d{2}\b|à valider|non sourcé|EDPP|formation/i;
 const affiches = [
+  ...Object.values(donnees.cartes ?? {}).flatMap((c) => [c.titre, c.sens, ...c.gestes, c.observer ?? "", c.consulter ?? ""].map((x) => nettoyerTexte(x))),
   ...donnees.pistes.flatMap((p) => [p.action, p.observer ?? "", p.consulter ?? ""].map((x) => nettoyerTexte(x))),
   ...donnees.etapes.map((e) => nettoyerTexte(e.texte)),
   ...alertesAffichees(donnees.alertes).flatMap((al) => [al.situation, al.a_dire].map((x) => nettoyerTexte(x ?? ""))),

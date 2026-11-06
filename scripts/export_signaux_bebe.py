@@ -55,7 +55,14 @@ alertes = []
 for row in wa.iter_rows(min_row=2, values_only=True):
     if row[0]:
         decl = [x.strip() for x in str(row[5]).split("|") if x.strip()] if len(row) > 5 and row[5] else []
-        alertes.append({"situation": row[0], "pourquoi": row[1], "a_dire": row[2], "sources": row[3], "urgence": row[4], "declencheurs": decl})
+        combi = None
+        if len(row) > 6 and row[6]:
+            combi = {"tous": [], "un_parmi": []}
+            for bloc in str(row[6]).split(" ; "):
+                cle, _, reste = bloc.partition(":")
+                liste = [x.strip() for x in reste.split("|") if x.strip()]
+                combi["tous" if cle.strip().upper().startswith("TOUS") else "un_parmi"] = liste
+        alertes.append({"situation": row[0], "pourquoi": row[1], "a_dire": row[2], "sources": row[3], "urgence": row[4], "declencheurs": decl, "combinaison": combi})
 
 # --- références des sources (onglet Sources) : titre, auteur, lien
 sources_reference = {}
@@ -64,6 +71,18 @@ if "Sources" in wb.sheetnames:
         if row[0] and re.fullmatch(r"S\d+", str(row[0])):
             lien = row[4] if row[4] and str(row[4]).startswith("http") else None
             sources_reference[row[0]] = {"titre": row[1], "auteur": row[2], "lien": lien}
+
+# --- cartes hypothèses (onglet « Cartes hypothèses », v2) : une carte par piste
+cartes = {}
+if "Cartes hypothèses" in wb.sheetnames:
+    for row in wb["Cartes hypothèses"].iter_rows(min_row=2, values_only=True):
+        if row[0]:
+            cartes[row[0]] = {
+                "titre": row[1], "sens": row[2], "sources_sens": row[3],
+                "gestes": [x.strip() for x in str(row[4] or "").split("\n") if x.strip()], "sources_gestes": row[5],
+                "observer": row[6], "sources_observer": row[7],
+                "consulter": row[8], "sources_consulter": row[9],
+            }
 
 # --- étapes « à essayer dans l'ordre »
 etapes = []
@@ -109,6 +128,7 @@ out = {
     "options": options,
     "alertes": alertes,
     "sources_reference": sources_reference,
+    "cartes": cartes,
     "etapes": etapes,
     "messages": messages,
     "confiance": confiance,

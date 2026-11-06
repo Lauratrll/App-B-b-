@@ -41,11 +41,25 @@ const idsPublics = (brut: unknown): string[] =>
     .map((x) => x.trim())
     .filter((x) => /^S\d+$/.test(x) && !SOURCES_INTERNES.has(x));
 
+export type Carte = {
+  titre: string;
+  sens: string;
+  sources_sens: string[];
+  gestes: string[];
+  sources_gestes: string[];
+  observer: string | null;
+  sources_observer: string[];
+  consulter: string | null;
+  sources_consulter: string[];
+};
+
 export type SourceRef = { titre: string; auteur: string | null; lien: string | null };
 
 export type ContenuSignaux = DonneesSignaux & {
   /** Références des sources publiques (numérotées à l'affichage, dépliées en bas). */
   sourcesRef: Record<string, SourceRef>;
+  /** Une carte « hypothèse » par piste : sens, gestes pas à pas, à observer, quand consulter. */
+  cartes: Record<string, Carte>;
   /** Catégories dans l'ordre du classeur, libellé sans le numéro (« Regard et visage »). */
   categories: { id: string; titre: string }[];
   phrases: Record<string, string>;
@@ -57,6 +71,7 @@ const source = brut as unknown as {
   alertes: DonneesSignaux["alertes"];
   etapes: (DonneesSignaux["etapes"][number] & { sources?: string | null })[];
   sources_reference: Record<string, SourceRef>;
+  cartes: Record<string, Record<string, unknown>>;
   messages: DonneesSignaux["messages"];
   confiance: DonneesSignaux["confiance"];
 };
@@ -87,9 +102,6 @@ export function getContenuSignaux(): ContenuSignaux {
       nom: p.nom,
       libelle: p.libelle,
       action: nettoyerTexte(p.action),
-      observer: p.observer ? nettoyerTexte(p.observer) : null,
-      consulter: p.consulter ? nettoyerTexte(p.consulter) : null,
-      sources: idsPublics((p as unknown as { sources_conseils?: string }).sources_conseils),
     })),
     options,
     alertes: alertesAffichees(source.alertes).map((a) => ({
@@ -98,9 +110,26 @@ export function getContenuSignaux(): ContenuSignaux {
       a_dire: nettoyerTexte(a.a_dire ?? ""),
       urgence: a.urgence,
       declencheurs: a.declencheurs ?? [],
+      combinaison: a.combinaison ?? null,
       sources: idsPublics(a.sources),
     })),
     etapes: source.etapes.map((e) => ({ n: e.n, texte: nettoyerTexte(e.texte), sources: idsPublics(e.sources) })),
+    cartes: Object.fromEntries(
+      Object.entries(source.cartes ?? {}).map(([code, c]) => [
+        code,
+        {
+          titre: String(c.titre),
+          sens: nettoyerTexte(String(c.sens)),
+          sources_sens: idsPublics(c.sources_sens),
+          gestes: ((c.gestes as string[]) ?? []).map((g) => nettoyerTexte(g)),
+          sources_gestes: idsPublics(c.sources_gestes),
+          observer: c.observer ? nettoyerTexte(String(c.observer)) : null,
+          sources_observer: idsPublics(c.sources_observer),
+          consulter: c.consulter ? nettoyerTexte(String(c.consulter)) : null,
+          sources_consulter: idsPublics(c.sources_consulter),
+        },
+      ]),
+    ),
     sourcesRef: Object.fromEntries(
       Object.entries(source.sources_reference ?? {}).filter(([id]) => !SOURCES_INTERNES.has(id)),
     ),

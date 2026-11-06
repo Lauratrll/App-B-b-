@@ -1,8 +1,8 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { analyserSignaux, estValable } from "@/lib/signaux-bebe";
-import type { ContenuSignaux, SourceRef } from "@/lib/signaux-bebe-contenu";
+import { alertesDeclenchees, analyserSignaux, estValable, forceIndices } from "@/lib/signaux-bebe";
+import type { Carte, ContenuSignaux, SourceRef } from "@/lib/signaux-bebe-contenu";
 
 // ----------------------------------------------------------------------------
 // « Que me dit bébé ? » : les écrans (maquette validée par Laura le 05/11/2026).
@@ -91,7 +91,6 @@ export function SignauxBebeOutil({ contenu, ageProfil }: Props) {
         <EcranCategorie
           index={ecran}
           total={categories.length}
-          titre={categories[ecran].titre}
           options={categories[ecran].options}
           coches={coches}
           basculer={basculer}
@@ -118,7 +117,7 @@ export function SignauxBebeOutil({ contenu, ageProfil }: Props) {
         />
       )}
 
-      <MentionFixe />
+      {ecran >= categories.length ? <MentionFixe /> : null}
     </div>
   );
 }
@@ -183,7 +182,6 @@ function Bouton({
 function EcranCategorie({
   index,
   total,
-  titre,
   options,
   coches,
   basculer,
@@ -194,7 +192,6 @@ function EcranCategorie({
 }: {
   index: number;
   total: number;
-  titre: string;
   options: ContenuSignaux["options"];
   coches: Set<string>;
   basculer: (id: string) => void;
@@ -213,7 +210,7 @@ function EcranCategorie({
 
   return (
     <>
-      {index === 0 ? <Titre sousTitre="Ce qu'il te dit peut-être">Que me dit bébé ?</Titre> : null}
+      {/* Bandeau d'avancement, toujours tout en haut */}
       <div>
         <div style={{ display: "flex", justifyContent: "space-between", fontSize: 11, color: C.muted }}>
           <span>
@@ -224,43 +221,39 @@ function EcranCategorie({
           </span>
         </div>
         <div style={{ height: 3, background: C.bordure, borderRadius: 2, marginTop: 6 }}>
-          <div
-            style={{
-              width: `${((index + 1) / total) * 100}%`,
-              height: 3,
-              background: C.corail,
-              borderRadius: 2,
-              transition: "width .25s",
-            }}
-          />
+          <div style={{ width: `${((index + 1) / total) * 100}%`, height: 3, background: C.corail, borderRadius: 2, transition: "width .25s" }} />
         </div>
       </div>
 
-      <h1 style={{ fontFamily: PLAYFAIR, fontWeight: 700, fontSize: 24, lineHeight: 1.15, margin: 0 }}>{titre}</h1>
+      <Titre sousTitre="Observons son comportement">Que me dit bébé ?</Titre>
 
-      {questions.map((q) => (
-        <fieldset key={q.question} style={{ border: 0, padding: 0, margin: 0 }}>
-          <legend style={{ ...LABEL, padding: 0 }}>{q.question}</legend>
-          <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
-            {q.options.map((o) => {
-              const coche = coches.has(o.id);
-              return (
-                <label
-                  key={o.id}
-                  style={{
-                    display: "flex",
-                    gap: 11,
-                    alignItems: "flex-start",
-                    background: coche ? "#FBEDE9" : "#fff",
-                    border: `1px solid ${coche ? C.corailClair : "transparent"}`,
-                    borderRadius: 12,
-                    padding: "11px 12px",
-                    fontSize: 14,
-                    lineHeight: 1.4,
-                    cursor: "pointer",
-                  }}
-                >
-                  <input
+      {/* Bloc question + réponses, centré */}
+      <div style={{ flex: 1, display: "flex", flexDirection: "column", justifyContent: "center", gap: 16, width: "100%", maxWidth: 420, margin: "0 auto", minHeight: "52vh" }}>
+        {questions.map((q) => (
+          <fieldset key={q.question} style={{ border: 0, padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: 14 }}>
+            <legend style={{ fontFamily: PLAYFAIR, fontWeight: 700, fontSize: 24, lineHeight: 1.15, textAlign: "center", padding: 0, width: "100%", marginBottom: 14 }}>
+              {q.question}
+            </legend>
+            <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+              {q.options.map((o) => {
+                const coche = coches.has(o.id);
+                return (
+                  <label
+                    key={o.id}
+                    style={{
+                      display: "flex",
+                      gap: 11,
+                      alignItems: "flex-start",
+                      background: coche ? "#FBEDE9" : "#fff",
+                      border: `1px solid ${coche ? C.corailClair : "transparent"}`,
+                      borderRadius: 12,
+                      padding: "11px 12px",
+                      fontSize: 14,
+                      lineHeight: 1.4,
+                      cursor: "pointer",
+                    }}
+                  >
+                    <input
                     type="checkbox"
                     checked={coche}
                     onChange={() => basculer(o.id)}
@@ -291,9 +284,13 @@ function EcranCategorie({
                 </label>
               );
             })}
-          </div>
-        </fieldset>
-      ))}
+            </div>
+            <p style={{ fontSize: 12, fontStyle: "italic", color: C.muted, textAlign: "center", margin: 0 }}>
+              Coche aucune ou plusieurs réponses.
+            </p>
+          </fieldset>
+        ))}
+      </div>
 
       <div style={{ display: "flex", gap: 8 }}>
         {precedent ? (
@@ -417,6 +414,120 @@ function SourcesNumerotees({ liste }: { liste: { n: number; ref: SourceRef }[] }
   );
 }
 
+/** Camaïeu de sauge (rubrique Apaisement) : de l'hypothèse la plus forte (foncée) à la plus faible (claire). */
+const CAMAIEU = [
+  { fond: "#B5C7A5", bord: "#526528" },
+  { fond: "#CCD8C1", bord: "#6F8559" },
+  { fond: "#E5EBDD", bord: "#8FA37B" },
+];
+const SAUGE_PROFOND = "#526528";
+
+function Indices({ n }: { n: number }) {
+  return (
+    <span aria-label={`Indices : ${n} sur 5`} style={{ display: "inline-flex", alignItems: "center", gap: 3 }}>
+      {[1, 2, 3, 4, 5].map((i) => (
+        <span
+          key={i}
+          style={{
+            width: 7,
+            height: 7,
+            borderRadius: "50%",
+            background: i <= n ? SAUGE_PROFOND : "transparent",
+            border: `1px solid ${SAUGE_PROFOND}`,
+          }}
+        />
+      ))}
+      <span style={{ fontSize: 10.5, color: C.doux, marginLeft: 4 }}>{n} sur 5</span>
+    </span>
+  );
+}
+
+function CarteHypothese({
+  rang,
+  carte,
+  score,
+  ouverte,
+  basculer,
+  refs,
+}: {
+  rang: number;
+  carte: Carte;
+  score: number;
+  ouverte: boolean;
+  basculer: () => void;
+  refs: { sens: number[]; gestes: number[]; observer: number[]; consulter: number[] };
+}) {
+  const teinte = CAMAIEU[Math.min(rang - 1, CAMAIEU.length - 1)];
+  const intitule: React.CSSProperties = { ...LABEL, color: SAUGE_PROFOND, margin: "10px 0 4px" };
+  return (
+    <article style={{ background: teinte.fond, borderLeft: `4px solid ${teinte.bord}`, borderRadius: 14, overflow: "hidden" }}>
+      <button
+        type="button"
+        onClick={basculer}
+        aria-expanded={ouverte}
+        style={{ all: "unset", cursor: "pointer", display: "flex", alignItems: "center", gap: 10, padding: "12px 14px", width: "100%", boxSizing: "border-box" }}
+      >
+        <span style={{ flex: 1 }}>
+          <span style={{ ...LABEL, display: "block", color: SAUGE_PROFOND, margin: "0 0 2px" }}>Hypothèse {rang}</span>
+          <span style={{ display: "block", fontFamily: PLAYFAIR, fontSize: 18, lineHeight: 1.25, color: C.texte, marginBottom: 5 }}>
+            {carte.titre}
+          </span>
+          <Indices n={forceIndices(score)} />
+        </span>
+        <svg width={16} height={16} viewBox="0 0 24 24" fill="none" stroke={SAUGE_PROFOND} strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round" aria-hidden style={{ transform: ouverte ? "rotate(180deg)" : "none", flexShrink: 0 }}>
+          <path d="M6 9l6 6 6-6" />
+        </svg>
+      </button>
+      {ouverte ? (
+        <div style={{ padding: "0 14px 14px", fontSize: 13, lineHeight: 1.5, color: C.doux }}>
+          <p style={{ margin: 0 }}>
+            {carte.sens}
+            <Refs n={refs.sens} />
+          </p>
+
+          <p style={intitule}>Comment lui répondre</p>
+          <ol style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: 7 }}>
+            {carte.gestes.map((g, i) => (
+              <li key={i} style={{ display: "flex", gap: 10 }}>
+                <span
+                  aria-hidden
+                  style={{ flexShrink: 0, width: 20, height: 20, borderRadius: "50%", background: SAUGE_PROFOND, color: "#fff", fontSize: 10.5, fontWeight: 700, display: "flex", alignItems: "center", justifyContent: "center" }}
+                >
+                  {i + 1}
+                </span>
+                <span>
+                  {g}
+                  {i === carte.gestes.length - 1 ? <Refs n={refs.gestes} /> : null}
+                </span>
+              </li>
+            ))}
+          </ol>
+
+          {carte.observer ? (
+            <>
+              <p style={intitule}>À observer</p>
+              <p style={{ margin: 0 }}>
+                {carte.observer}
+                <Refs n={refs.observer} />
+              </p>
+            </>
+          ) : null}
+
+          {carte.consulter ? (
+            <>
+              <p style={{ ...intitule, color: C.corailFonce }}>Quand consulter</p>
+              <p style={{ margin: 0, color: C.corailFonce }}>
+                {carte.consulter}
+                <Refs n={refs.consulter} />
+              </p>
+            </>
+          ) : null}
+        </div>
+      ) : null}
+    </article>
+  );
+}
+
 function EcranResultat({
   contenu,
   resultat,
@@ -436,7 +547,17 @@ function EcranResultat({
   modifier: () => void;
   recommencer: () => void;
 }) {
-  // Numérotation des sources dans l'ordre d'apparition à l'écran (appel, cartes, étapes, liste).
+  // Première hypothèse ouverte, les autres repliées.
+  const [ouvertes, setOuvertes] = useState<Set<string>>(() => new Set(resultat.top3.slice(0, 1).map((c) => c.piste.code)));
+  const basculerCarte = (code: string) =>
+    setOuvertes((prev) => {
+      const n = new Set(prev);
+      if (n.has(code)) n.delete(code);
+      else n.add(code);
+      return n;
+    });
+
+  // Numérotation des sources dans l'ordre d'apparition à l'écran.
   const numeros = new Map<string, number>();
   const ref = (ids: string[] | undefined): number[] => {
     const out: number[] = [];
@@ -448,15 +569,19 @@ function EcranResultat({
     return out.sort((x, y) => x - y);
   };
 
-  const valables = contenu.options.filter((o) => coches.has(o.id) && estValable(o, age));
-  const reponsesAlerte = new Set(valables.filter((o) => o.type === "alerte").map((o) => o.reponse));
-  const declenchees = contenu.alertes.filter((a) => (a.declencheurs ?? []).some((r) => reponsesAlerte.has(r)));
+  const declenchees = alertesDeclenchees(contenu, age, coches);
   const refsAppel = declenchees.map((a) => ref(a.sources));
-  const sourcesPiste = (code: string) =>
-    valables.filter((o) => (o.points[code] ?? 0) > 0).flatMap((o) => o.sources ?? []);
-  const sourcesConseils = (code: string) => contenu.pistes.find((p) => p.code === code)?.sources ?? [];
-  const refsCartes = resultat.top3.map((c) => ref([...sourcesPiste(c.piste.code), ...sourcesConseils(c.piste.code)]));
-  const refsEtapes = contenu.etapes.map((e) => ref(e.sources));
+  const cartes = resultat.top3
+    .map((c) => ({ c, carte: contenu.cartes[c.piste.code] }))
+    .filter((x): x is { c: (typeof resultat.top3)[number]; carte: Carte } => Boolean(x.carte));
+  const refsCartes = cartes.map(({ carte }) => ({
+    sens: ref(carte.sources_sens),
+    gestes: ref(carte.sources_gestes),
+    observer: ref(carte.sources_observer),
+    consulter: ref(carte.sources_consulter),
+  }));
+  const pourToi = contenu.etapes.filter((e) => /^Pour toi/.test(e.texte));
+  const refsPourToi = pourToi.map((e) => ref(e.sources));
   const refsToutes = voirAlertes ? contenu.alertes.map((a) => ref(a.sources)) : [];
   const liste = Array.from(numeros.entries())
     .map(([id, n]) => ({ n, ref: contenu.sourcesRef[id] }))
@@ -468,29 +593,18 @@ function EcranResultat({
 
       {declenchees.length > 0 ? <AppelConsulter alertes={declenchees} refs={refsAppel} /> : null}
 
-      {resultat.top3.length > 0 ? (
+      {cartes.length > 0 ? (
         <section style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-          {resultat.top3.map((c, i) => (
-            <article key={c.piste.code} style={{ background: "#fff", borderRadius: 14, padding: "12px 14px" }}>
-              <p style={{ ...LABEL, color: C.corail, margin: "0 0 3px" }}>
-                {c.rang} · {c.piste.nom}
-              </p>
-              <p style={{ fontFamily: PLAYFAIR, fontSize: 17, lineHeight: 1.3, margin: "0 0 5px" }}>
-                {contenu.phrases[c.piste.code] ?? c.piste.nom}
-                <Refs n={refsCartes[i]} />
-              </p>
-              <p style={{ fontSize: 13, color: C.doux, lineHeight: 1.5, margin: 0 }}>{c.piste.action}</p>
-              {c.piste.observer ? (
-                <p style={{ fontSize: 12.5, color: C.doux, lineHeight: 1.5, margin: "7px 0 0" }}>
-                  <strong style={{ fontWeight: 600 }}>À observer :</strong> {c.piste.observer}
-                </p>
-              ) : null}
-              {c.piste.consulter ? (
-                <p style={{ fontSize: 12.5, color: C.corailFonce, lineHeight: 1.5, margin: "5px 0 0" }}>
-                  <strong style={{ fontWeight: 600 }}>Quand consulter :</strong> {c.piste.consulter}
-                </p>
-              ) : null}
-            </article>
+          {cartes.map(({ c, carte }, i) => (
+            <CarteHypothese
+              key={c.piste.code}
+              rang={c.rang}
+              carte={carte}
+              score={c.score}
+              ouverte={ouvertes.has(c.piste.code)}
+              basculer={() => basculerCarte(c.piste.code)}
+              refs={refsCartes[i]}
+            />
           ))}
         </section>
       ) : null}
@@ -516,39 +630,21 @@ function EcranResultat({
         <span style={{ ...LABEL, display: "inline", margin: 0 }}>Confiance</span>
         <br />
         {resultat.confiance}
+        <br />
+        <span style={{ fontSize: 11.5, color: C.muted }}>
+          Les points sur 5 comptent les indices que tu as cochés. Ce n&apos;est pas une probabilité.
+        </span>
       </p>
 
-      <section>
-        <p style={LABEL}>À essayer dans l&apos;ordre</p>
-        <ol style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: 7 }}>
-          {contenu.etapes.map((e, i) => (
-            <li key={e.n} style={{ display: "flex", gap: 10, fontSize: 13, lineHeight: 1.5, color: C.doux }}>
-              <span
-                aria-hidden
-                style={{
-                  flexShrink: 0,
-                  width: 22,
-                  height: 22,
-                  borderRadius: "50%",
-                  background: C.corailClair,
-                  color: C.corailFonce,
-                  fontSize: 11,
-                  fontWeight: 600,
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                }}
-              >
-                {e.n}
-              </span>
-              <span>
-                {e.texte}
-                <Refs n={refsEtapes[i]} />
-              </span>
-            </li>
-          ))}
-        </ol>
-      </section>
+      {pourToi.map((e, i) => (
+        <p
+          key={e.n}
+          style={{ background: C.principeFond, color: C.principeTexte, borderRadius: 12, padding: "11px 13px", fontSize: 13, lineHeight: 1.5, margin: 0 }}
+        >
+          {e.texte}
+          <Refs n={refsPourToi[i]} />
+        </p>
+      ))}
 
       {voirAlertes ? <BlocAlertes alertes={contenu.alertes} refs={refsToutes} /> : null}
 
