@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import type React from "react";
 import Link from "next/link";
 import type { SommeilMois, SommeilPartie, SommeilReperes } from "@/lib/sommeil";
@@ -444,15 +443,15 @@ function Colonne({ items, r, decalee }: { items: [keyof SommeilReperes, string, 
 }
 
 function BoutonRythme() {
-  const [ouvert, setOuvert] = useState(false);
+  // 06/11 : ouvre l'outil « Le rythme de bébé » (roue modifiable, journées gardées).
   return (
     <div style={{ textAlign: "center" }}>
-      {/* Mènera à l'outil « rythme de mon bébé », à développer plus tard. */}
-      <button
-        type="button"
-        onClick={() => setOuvert(true)}
+      <Link
+        href="/rythme"
         style={{
+          display: "block",
           width: "100%",
+          boxSizing: "border-box",
           borderRadius: 999,
           padding: "clamp(8px, 1.5dvh, 12px) 16px",
           // 29/10 : le vert du slot Repères clés, pour le mettre en lumière.
@@ -462,14 +461,11 @@ function BoutonRythme() {
           fontFamily: PLAYFAIR,
           fontSize: "clamp(13.5px, 2dvh, 15px)",
           fontWeight: 600,
-          cursor: "pointer",
+          textDecoration: "none",
         }}
       >
         Enregistrer le rythme de mon bébé
-      </button>
-      {ouvert ? (
-        <p style={{ ...labelStyle, color: EUCAL, letterSpacing: ".12em", margin: "6px 0 0" }}>Bientôt disponible</p>
-      ) : null}
+      </Link>
     </div>
   );
 }

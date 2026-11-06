@@ -50,6 +50,36 @@ export type Database = {
         }
         Relationships: []
       }
+      journees_rythme: {
+        Row: {
+          created_at: string
+          evenements: Json
+          id: string
+          jour: string
+          mois_bebe: number | null
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          evenements?: Json
+          id?: string
+          jour: string
+          mois_bebe?: number | null
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          evenements?: Json
+          id?: string
+          jour?: string
+          mois_bebe?: number | null
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
       pinned: {
         Row: {
           content_id: string

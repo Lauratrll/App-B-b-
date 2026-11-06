@@ -29,6 +29,10 @@ export const BOTTOM_NAV_HEIGHT = 56;
 
 /** Diamètre des boutons ronds : 1/3 dépasse au-dessus de la barre. */
 const ROND = 54;
+const TAILLE_ROND = `min(${ROND}px, 14.5vw)`;
+
+/** Essai 06/11 : les deux ronds extérieurs (Cohérence, Rythme) un peu plus haut, en arc. */
+const HAUSSE_EXTERIEURS = 12;
 
 function Picto({ children, color }: { children: React.ReactNode; color: string }) {
   return (
@@ -107,6 +111,15 @@ const LETTRES_SOS = (
 );
 
 // Loupe : « Que me dit bébé ? », l'analyse du comportement (Laura, 05/11/2026).
+// Moitié soleil (à gauche, avec ses rayons) / moitié lune (croissant à droite) : le rythme veille-sommeil.
+const ICONE_SOLEIL_LUNE = (
+  <>
+    <path d="M12 6a6 6 0 0 0 0 12" />
+    <path d="M12 1.8v2M4.8 4.8l1.4 1.4M1.8 12h2M4.8 19.2l1.4-1.4M12 20.2v2" />
+    <path d="M12 6a6 6 0 0 1 0 12a3 6 0 0 0 0-12z" fill="currentColor" />
+  </>
+);
+
 const ICONE_LOUPE = (
   <>
     <circle cx="10.5" cy="10.5" r="6" />
@@ -154,6 +167,7 @@ function BoutonRond({
   actif,
   fond,
   bord,
+  hausse = 0,
   children,
 }: {
   href: string;
@@ -161,6 +175,8 @@ function BoutonRond({
   actif: boolean;
   fond: string;
   bord: string;
+  /** Remonte le rond de quelques pixels (ronds extérieurs en arc, 06/11). */
+  hausse?: number;
   children: React.ReactNode;
 }) {
   return (
@@ -171,9 +187,10 @@ function BoutonRond({
         aria-current={actif ? "page" : undefined}
         className="absolute flex items-center justify-center rounded-full transition-transform active:scale-[0.95]"
         style={{
-          width: ROND,
-          height: ROND,
-          top: -ROND / 3,
+          // 54 px, un peu moins sur les petits écrans (320 px : ≈ 46 px) pour que les quatre ronds respirent.
+          width: TAILLE_ROND,
+          height: TAILLE_ROND,
+          top: `calc(${TAILLE_ROND} / -3 - ${hausse}px)`,
           background: fond,
           border: `${actif ? 2 : 1.5}px solid ${actif ? ACTIVE : bord}`,
           boxShadow: "0 2px 8px rgba(58,50,40,.12)",
@@ -278,16 +295,16 @@ export function BottomNav() {
     pathname === base || pathname.startsWith(base + "/");
 
   // Accueil : Accueil · Cohérence (rond) · SOS (rond) · Que me dit bébé ? (rond)
-  // · Épinglés. Ordre et variante « rond, mot sous la loupe » : Laura, 05/11/2026.
+  // · Le rythme de bébé (rond, 06/11) · Épinglés. Ordre et variante « rond, mot sous la loupe » : Laura, 05/11/2026.
   // Visible pour tous les comptes (app pas encore commercialisée).
   if (estSur("/dashboard")) {
     return (
-      <nav aria-label="Navigation principale" className="sticky bottom-0 z-30 grid grid-cols-5" style={STYLE_BARRE}>
+      <nav aria-label="Navigation principale" className="sticky bottom-0 z-30 grid" style={{ ...STYLE_BARRE, gridTemplateColumns: "52px repeat(4, 1fr) 52px" }}>
         <OngletPicto href="/dashboard" label="Accueil" actif>
           {ICONE_ACCUEIL}
         </OngletPicto>
         {/* Lavande « parents submergés », sans contour (Laura, 06/11/2026). */}
-        <BoutonRond href="/coherence" label="Cohérence cardiaque" actif={false} fond="#DBD7EA" bord="transparent">
+        <BoutonRond href="/coherence" label="Cohérence cardiaque" actif={false} fond="#DBD7EA" bord="transparent" hausse={HAUSSE_EXTERIEURS}>
           <svg width={28} height={28} viewBox="0 0 24 24" fill="none" stroke="#46405A" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
             {ICONE_COHERENCE}
           </svg>
@@ -302,6 +319,12 @@ export function BottomNav() {
         <BoutonRond href="/que-me-dit-bebe" label="Que me dit bébé ?" actif={false} fond="#F0B8A8" bord="transparent">
           <svg width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="#7A3E2E" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
             {ICONE_LOUPE}
+          </svg>
+        </BoutonRond>
+        {/* Le rythme de bébé : vert du slot Repères clés, picto soleil/lune, sans contour (Laura, 06/11). */}
+        <BoutonRond href="/rythme" label="Le rythme de bébé" actif={false} fond="#DCDDBB" bord="transparent" hausse={HAUSSE_EXTERIEURS}>
+          <svg width={28} height={28} viewBox="0 0 24 24" fill="none" color="#4A4E2A" stroke="#4A4E2A" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+            {ICONE_SOLEIL_LUNE}
           </svg>
         </BoutonRond>
         <OngletPicto href="/epingles" label="Épinglés" actif={false}>
