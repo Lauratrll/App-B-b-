@@ -828,3 +828,13 @@ Phrase à déconstruire : porter son bébé est bon, ce n'est pas une mauvaise h
 - Pictos : « Détente » regroupant onze gestes, chaque geste garde un picto selon sa nature (contenance, cocon, voix…), sinon celui de son onglet ; nouveau picto « Portage ». Liste dans `PICTO_PAR_GESTE` (`components/modules/apaisement-icone.tsx`).
 - Données : tableau, JSON et README dans `content/apaisement/` ; export par `scripts/export_gestes_apaisement.py` (remplace `docs/apaisement notes/generer_json_gestes.py`).
 - Épingles : les 3 identifiants changés (massage du ventre, pédalage des jambes, éveil calme / éveil agité) ont été **renommés en place dans Supabase** (aucune épingle n'existait, rien n'a été supprimé) ; 23 gestes épinglables.
+
+## 06/11/2026 — Cohérence cardiaque : « Le Métronome du souffle » (Laura)
+- (Laura) La page `/coherence` s'appelle **« Le Métronome du souffle »** (surtitre « Cohérence cardiaque »). Une **vague douce défile** de droite à gauche ; la **bille reste au milieu**, sur un axe vertical, et semble la suivre : elle **grossit en montant (inspiration)** et **diminue en descendant (expiration)**.
+- (Laura) Montée et descente : **5 s chacune par défaut**, réglable **4, 5, 6 ou 7 s**. Le choix est gardé sur l'appareil (stockage du navigateur), pas dans le compte.
+- (Laura) **Rien de médical visuellement**, plutôt méditatif : pas de tracé type électrocardiogramme, pas de chiffre de fréquence. Couleurs : la **lavande de la carte « Parents submergés »** (`#DBD7EA`, `#E4E1ED`, `#CFC9E1`, `#BBB4D1`, texte `#46405A`) + un violet plus profond `#8F86B0` (choix de Claude) pour la bille et le trait.
+- (Laura) **Bouton rond de l'accueil en lavande `#DBD7EA`, sans contour**, picto `#46405A`.
+- (Laura, 06/11) **Pas de bouton « Recommencer ».** Une séance dure **5 min par défaut, puis s'arrête** (la bille finit son expiration et s'arrête en bas) ; on relance avec « Commencer ». Pendant la séance : Pause / Reprendre.
+- (Laura, 06/11) **Un léger « ding » de méditation à chaque changement de mouvement**, pour suivre les yeux fermés. Fabriqué par le navigateur (Web Audio, aucun fichier son, donc aucun droit d'auteur) : un son de bol chantant, plus clair en haut (on expire), une quinte plus grave en bas (on inspire), un ding plus long à la fin de la séance. 🟠 Choix de Claude : un bouton cloche pour couper le son, retenu sur l'appareil.
+- 🟠 Choix de Claude à valider : la consigne « Inspire / Expire » écrite au-dessus de la vague, la phrase d'introduction, l'écran qui reste allumé pendant l'exercice.
+- Code : `components/modules/metronome-souffle.tsx`, `app/(app)/coherence/page.tsx`.

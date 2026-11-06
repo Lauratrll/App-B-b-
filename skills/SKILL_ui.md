@@ -408,7 +408,7 @@ Code : `components/ui/bottom-nav.tsx`. Ordre : **Accueil · Cohérence cardiaque
 
 - **Accueil** et **Épinglés** : picto seul, sans mot (libellé en `aria-label`), dans une pastille ronde de 40 px. Même trait que les pictos des cases Guide-moi (grille 24, trait 1,6, bouts arrondis). Inactif Eucalyptus `#8A9E98` sur pastille blanche translucide ; actif Corail `#D4604A` sur pastille `#F5D0C8`.
 - **Cohérence cardiaque** (2e position) et **SOS** (3e, au centre) : **boutons ronds de 54 px, 2/3 sur la barre, 1/3 au-dessus, sur le fond de la page**. Visibles, pas principaux.
-  - Cohérence : fond `#F5D0C8`, bord `#E0A48E`, picto cœur traversé d'une onde douce `#8A3020` → `/coherence` (contenu à créer).
+  - Cohérence : fond lavande « Parents submergés » `#DBD7EA`, **sans contour** (06/11), picto cœur traversé d'une onde douce `#46405A` → `/coherence` (« Le Métronome du souffle », `components/modules/metronome-souffle.tsx`).
   - SOS : fond orange S.O.S `#FAD2B3`, bord `#EDA36E`, mot « SOS » en Playfair `#A4471F` → `/sos`.
 - Barre : fond `#F2EDE8`, filet haut `0.5px #C8D8DC`, hauteur 56 px + encoche iPhone.
 - **Les deux boutons ronds et les Épinglés n'apparaissent que sur l'accueil** (20/10) : ce sont des portes d'entrée. **Dans toutes les autres pages**, la barre devient : **Accueil · Retour · (Épingler)**.

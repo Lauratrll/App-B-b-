@@ -274,8 +274,9 @@ export function BottomNav() {
         <OngletPicto href="/dashboard" label="Accueil" actif>
           {ICONE_ACCUEIL}
         </OngletPicto>
-        <BoutonRond href="/coherence" label="Cohérence cardiaque" actif={false} fond="#F5D0C8" bord="#E0A48E">
-          <svg width={28} height={28} viewBox="0 0 24 24" fill="none" stroke="#8A3020" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+        {/* Lavande « parents submergés », sans contour (Laura, 06/11/2026). */}
+        <BoutonRond href="/coherence" label="Cohérence cardiaque" actif={false} fond="#DBD7EA" bord="transparent">
+          <svg width={28} height={28} viewBox="0 0 24 24" fill="none" stroke="#46405A" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
             {ICONE_COHERENCE}
           </svg>
         </BoutonRond>
