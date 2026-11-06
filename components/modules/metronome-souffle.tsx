@@ -13,14 +13,7 @@ import { useEffect, useRef, useState } from "react";
 // « Parents submergés » de Guide-moi (GUIDE_SLOT_PARENT, guide-design.tsx).
 // ----------------------------------------------------------------------------
 
-export const LAVANDE = {
-  fond: "#DBD7EA",
-  clair: "#E4E1ED",
-  moyen: "#CFC9E1",
-  soutenu: "#BBB4D1",
-  profond: "#8F86B0",
-  texte: "#46405A",
-} as const;
+import { LAVANDE } from "./metronome-design";
 
 const RYTHMES = [4, 5, 6, 7] as const;
 type Rythme = (typeof RYTHMES)[number];

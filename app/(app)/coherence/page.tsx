@@ -1,5 +1,6 @@
 import { requireProfile } from "@/lib/auth";
-import { LAVANDE, MetronomeSouffle } from "@/components/modules/metronome-souffle";
+import { MetronomeSouffle } from "@/components/modules/metronome-souffle";
+import { LAVANDE } from "@/components/modules/metronome-design";
 
 // Cohérence cardiaque — bouton rond de la barre du bas (20/10/2026).
 // Contenu : « Le Métronome du souffle » (Laura, 06/11/2026).
