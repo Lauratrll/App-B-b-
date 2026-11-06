@@ -225,7 +225,10 @@ function EcranCategorie({
         </div>
       </div>
 
-      <Titre sousTitre="Observons son comportement">Que me dit bébé ?</Titre>
+      {/* En-tête : seulement « Observons son comportement » (Laura, 06/11) ; la question fait le titre. */}
+      <header style={{ textAlign: "center", padding: "4px 0 2px" }}>
+        <p style={{ ...LABEL, letterSpacing: ".15em", fontSize: 9, margin: 0 }}>Observons son comportement</p>
+      </header>
 
       {/* Bloc question + réponses, centré */}
       <div style={{ flex: 1, display: "flex", flexDirection: "column", justifyContent: "center", gap: 16, width: "100%", maxWidth: 420, margin: "0 auto", minHeight: "52vh" }}>
