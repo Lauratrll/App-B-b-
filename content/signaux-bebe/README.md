@@ -5,7 +5,7 @@ Pour Claude Code : spécification complète dans `PROMPT_que_me_dit_bebe.md` (à
 ## Contenu de ce dossier
 - `Signaux_bebe_reference_v2.xlsx` : **source de vérité** du questionnaire « pleurs » court (6 écrans, 41 réponses, 06/11/2026). Laura corrige ici.
 - `signaux_bebe_v2.json` : **généré** depuis le classeur v2 (lu par l'app). Ne jamais l'éditer à la main.
-- `Signaux_bebe_reference.xlsx` + `signaux_bebe.json` : version 1 (77 réponses), **gardée intacte** pour un futur questionnaire sommeil.
+- Version 1 (77 réponses, `Signaux_bebe_reference.xlsx` + `signaux_bebe.json`) : **rangée, intacte, dans `docs/signaux-bebe-v1/`** pour un futur questionnaire sommeil. Pour recréer le classeur v2 : `python scripts/build_signaux_bebe_v2.py docs/signaux-bebe-v1/Signaux_bebe_reference.xlsx content/signaux-bebe/Signaux_bebe_reference_v2.xlsx`.
 
 ## Régénérer le JSON après une correction du classeur
 `python scripts/export_signaux_bebe.py content/signaux-bebe/Signaux_bebe_reference_v2.xlsx content/signaux-bebe/signaux_bebe_v2.json`

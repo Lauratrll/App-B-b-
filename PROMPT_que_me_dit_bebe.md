@@ -20,9 +20,9 @@ Un outil pour une maman démunie face aux pleurs ou au comportement de son béb�
 
 | Fichier | Rôle |
 |---|---|
-| `content/signaux-bebe/Signaux_bebe_reference_v2.xlsx` | **Source de vérité** du questionnaire « pleurs » court (v2, 06/11). Laura corrige dans Excel. Ne jamais éditer le JSON à la main. L'original `Signaux_bebe_reference.xlsx` (+ `signaux_bebe.json`) est conservé intact pour un futur questionnaire sommeil. |
+| `content/signaux-bebe/Signaux_bebe_reference_v2.xlsx` | **Source de vérité** du questionnaire « pleurs » court (v2, 06/11). Laura corrige dans Excel. Ne jamais éditer le JSON à la main. L'original `Signaux_bebe_reference.xlsx` (+ `signaux_bebe.json`) est rangé intact dans `docs/signaux-bebe-v1/` pour un futur questionnaire sommeil. |
 | `content/signaux-bebe/signaux_bebe_v2.json` | Le contenu pour l'app (lu par `lib/signaux-bebe-contenu.ts`) : 10 pistes, 41 réponses avec points, 16 alertes (avec `declencheurs`), `sources_reference`, 9 étapes, 3 messages conditionnels, règles de confiance, et `tests_attendus` (10 scénarios calculés par le classeur). |
-| `scripts/export_signaux_bebe.py` | Régénère le JSON depuis le classeur : `python scripts/export_signaux_bebe.py content/signaux-bebe/Signaux_bebe_reference_v2.xlsx content/signaux-bebe/signaux_bebe_v2.json`, puis `python scripts/calc_tests_signaux_bebe.py <classeur v2> <json v2>` (recalcule `tests_attendus` avec LibreOffice). `scripts/build_signaux_bebe_v2.py` recrée le classeur v2 depuis l'original. |
+| `scripts/export_signaux_bebe.py` | Régénère le JSON depuis le classeur : `python scripts/export_signaux_bebe.py content/signaux-bebe/Signaux_bebe_reference_v2.xlsx content/signaux-bebe/signaux_bebe_v2.json`, puis `python scripts/calc_tests_signaux_bebe.py <classeur v2> <json v2>` (recalcule `tests_attendus` avec LibreOffice). `scripts/build_signaux_bebe_v2.py` recrée le classeur v2 depuis l'original (`docs/signaux-bebe-v1/`). |
 
 Le JSON contient `algorithme` (règles de calcul en toutes lettres). Lis-le : c'est la spécification.
 

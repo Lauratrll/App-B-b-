@@ -1,14 +1,14 @@
 // ----------------------------------------------------------------------------
 // « Que me dit bébé ? » : le moteur de calcul (05/11/2026).
 //
-// Fonction PURE : elle reçoit le contenu (signaux_bebe.json), l'âge et les
+// Fonction PURE : elle reçoit le contenu (signaux_bebe_v2.json), l'âge et les
 // réponses cochées, et renvoie le résultat. Elle n'enregistre rien, n'appelle
 // rien, ne lit ni base ni cookie : tout vit en mémoire dans la page (règle de
 // confidentialité du prompt, §7).
 //
 // La spécification est le champ `algorithme` du JSON, calqué sur l'onglet
-// « Résultat » du classeur Signaux_bebe_reference.xlsx. Validé par
-// scripts/test-signaux-bebe.mjs (les 6 `tests_attendus` du classeur).
+// « Résultat » du classeur Signaux_bebe_reference_v2.xlsx. Validé par
+// scripts/test-signaux-bebe.mjs (les 10 `tests_attendus` du classeur v2).
 //
 // Pas d'import ici : le fichier doit pouvoir être lu tel quel par Node
 // (scripts de test) comme par Next.
