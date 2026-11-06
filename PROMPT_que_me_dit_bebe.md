@@ -21,7 +21,7 @@ Un outil pour une maman démunie face aux pleurs ou au comportement de son béb�
 | Fichier | Rôle |
 |---|---|
 | `content/signaux-bebe/Signaux_bebe_reference_v2.xlsx` | **Source de vérité** du questionnaire « pleurs » court (v2, 06/11). Laura corrige dans Excel. Ne jamais éditer le JSON à la main. L'original `Signaux_bebe_reference.xlsx` (+ `signaux_bebe.json`) est rangé intact dans `docs/signaux-bebe-v1/` pour un futur questionnaire sommeil. |
-| `content/signaux-bebe/signaux_bebe_v2.json` | Le contenu pour l'app (lu par `lib/signaux-bebe-contenu.ts`) : 10 pistes, 41 réponses avec points, 16 alertes (avec `declencheurs`), `sources_reference`, 9 étapes, 3 messages conditionnels, règles de confiance, et `tests_attendus` (10 scénarios calculés par le classeur). |
+| `content/signaux-bebe/signaux_bebe_v2.json` | Le contenu pour l'app (lu par `lib/signaux-bebe-contenu.ts`) : 9 pistes, 44 réponses avec points, 16 alertes (avec `declencheurs` et `combinaison`), `sources_reference`, 9 étapes, 3 messages conditionnels, règles de confiance, et `tests_attendus` (12 scénarios calculés par le classeur). |
 | `scripts/export_signaux_bebe.py` | Régénère le JSON depuis le classeur : `python scripts/export_signaux_bebe.py content/signaux-bebe/Signaux_bebe_reference_v2.xlsx content/signaux-bebe/signaux_bebe_v2.json`, puis `python scripts/calc_tests_signaux_bebe.py <classeur v2> <json v2>` (recalcule `tests_attendus` avec LibreOffice). `scripts/build_signaux_bebe_v2.py` recrée le classeur v2 depuis l'original (`docs/signaux-bebe-v1/`). |
 
 Le JSON contient `algorithme` (règles de calcul en toutes lettres). Lis-le : c'est la spécification.
@@ -42,13 +42,13 @@ Crée `lib/signaux-bebe.ts` : une fonction pure, sans effet de bord, qui prend `
 Mobile d'abord (max 390 px), fond Cream `#F2EDE8`, titres Playfair Display, corail `#D4604A`, vert eucalyptus `#8A9E98`, icônes SVG outline (jamais d'emoji), `padding-bottom` 80 px (barre fixe). Respecte `skills/SKILL_ui.md` : ne modifie aucune page existante.
 
 1. **Pas d'écran « âge »** (décision 06/11) : l'âge est celui du bébé du profil (`getBabyMonth`), jamais redemandé ni modifiable ici.
-2. **Questions par catégorie**, une catégorie par écran (champ `categorie` du JSON, dans l'ordre : Pleurs, Regard, Visage, Corps et mouvements, Environnement, Rythme de la journée). Cases à cocher, plusieurs réponses possibles. Les réponses hors âge (`age_min`/`age_max`) **ne s'affichent pas**. Un indicateur discret « 3 observations cochées » suffit.
+2. **Questions par catégorie**, une catégorie par écran (champ `categorie` du JSON, dans l'ordre : Pleurs, Regard, Visage, Corps, Mouvements, Environnement, Journée). Le titre de l'écran est la question (« Ses pleurs ? »), sous l'en-tête « Que me dit bébé ? / Observons son comportement » ; bandeau d'avancement tout en haut ; bloc question + réponses centré ; en italique sous les réponses : « Coche aucune ou plusieurs réponses. » ; la mention « pas un diagnostic » n'apparaît qu'au résultat. Cases à cocher, plusieurs réponses possibles. Les réponses hors âge (`age_min`/`age_max`) **ne s'affichent pas**. Un indicateur discret « 3 observations cochées » suffit.
 3. **Résultat** :
-   - un message d'appel à consulter d'abord (« Parles-en vite à un professionnel de santé », lien 15), avec seulement les alertes déclenchées par les réponses cochées (`declencheurs`), sobre, jamais anxiogène ; un lien « Quand consulter ? » ouvre la liste complète en bas du résultat ;
-   - les 3 pistes : nom court (`nom`), formulée avec prudence (« il cherche peut-être à manger ») + `action` ;
+   - un message d'appel à consulter d'abord (alertes déclenchées par une réponse, ou par une combinaison : `alertesDeclenchees` dans le moteur, ex. « mou » + « fixe dans le vide » + un autre signe = bébé qui paraît malade) (« Parles-en vite à un professionnel de santé », lien 15), avec seulement les alertes déclenchées par les réponses cochées (`declencheurs`), sobre, jamais anxiogène ; un lien « Quand consulter ? » ouvre la liste complète en bas du résultat ;
+   - les 3 hypothèses, en cartes déroulantes (la 1re ouverte), titrées « Hypothèse 1 » + nom (`cartes[code].titre`), avec « points sur 5 » (`forceIndices`, jamais 5 sur 5, ce n'est pas une probabilité) et un camaïeu de sauge du plus foncé (hypothèse 1) au plus clair. Dans chaque carte : sens, « Comment lui répondre » (gestes pas à pas), « À observer », « Quand consulter », chacun avec ses numéros de sources. Plus de liste d'actions globale : les actions sont toujours celles de l'hypothèse ;
    - les messages conditionnels ;
    - le niveau de confiance ;
-   - « À essayer dans l'ordre » (`etapes`), toujours visible ;
+   - le bloc « Pour toi » (étape 9 des `etapes`) ;
    - bouton « Recommencer ».
 4. **Mentions fixes** (en bas, discrètes) : « Ce n'est pas un diagnostic et ne remplace pas un avis médical. En cas de doute, appelez le 15. » (même formule que la page SOS.)
 

@@ -7,16 +7,18 @@ import openpyxl
 
 xlsx, jpath = sys.argv[1], sys.argv[2]
 SCEN = [
-    ("faim_et_fatigue_2_mois", 2, ["Il se frotte les yeux ou il bâille", "Il cherche à téter : il tourne la tête, ouvre la bouche, se lèche les lèvres"]),
+    ("faim_et_fatigue_2_mois", 2, ["Il se frotte les yeux ou il bâille", "Il porte les mains à la bouche, suce son poing ou ses doigts"]),
     ("bailler_seul_naissance", 0, ["Il se frotte les yeux ou il bâille"]),
     ("pleurs_intenses_14_mois", 14, ["Pleurs intenses qui montent, difficiles à calmer"]),
-    ("alerte_cochee", 3, ["Il a l'air malade : mou, très peu tonique, il ne réagit pas", "Il se frotte les yeux ou il bâille"]),
-    ("ventre_soir_3_mois", 3, ["Il replie ses jambes contre le ventre, son ventre est dur ou gonflé", "Il se raidit : bras et jambes tendus, dos arqué", "Pleurs à la même heure chaque jour"]),
+    ("alerte_cri_aigu_3_mois", 3, ["Cri aigu, inhabituel, qui me fait peur", "Il se frotte les yeux ou il bâille"]),
+    ("malade_combinaison_3_mois", 3, ["Il est mou, peu tonique", "Il fixe dans le vide, sans réaction", "Petits pleurs, gémissements, grognements"]),
+    ("mou_et_fixe_sans_autre_3_mois", 3, ["Il est mou, peu tonique", "Il fixe dans le vide, sans réaction"]),
+    ("ventre_soir_3_mois", 3, ["Il est regroupé : membres repliés vers l'intérieur", "Il est crispé et raide", "Il arque le dos", "Pleurs à la même heure chaque jour"]),
     ("rien_coche", 5, []),
-    ("dans_les_bras_stimule_8_mois", 8, ["Dans mes bras ou en portage, en mouvement", "Stimulant : écran, bruit, agitation, lumière forte", "Il détourne le regard ou me fuit"]),
+    ("bras_mouvement_8_mois", 8, ["Dans mes bras ou en portage", "En mouvement", "Stimulant : écran, bruit, agitation, lumière forte", "Il détourne le regard ou me fuit"]),
     ("vaccin_4_mois", 4, ["Un vaccin ces dernières 48 h", "Visage crispé, yeux serrés, front bombé"]),
-    ("tetee_alerte_2_mois", 2, ["Il pleure à chaque tétée ou biberon, pendant ou juste après", "Il cherche à téter : il tourne la tête, ouvre la bouche, se lèche les lèvres"]),
-    ("contraint_9_mois", 9, ["Il a été plutôt contraint (siège, transat, parc, porte-bébé…)", "Il essaie de se retourner, ramper, se redresser ; il répète un geste"]),
+    ("contraint_9_mois", 9, ["Il a été plutôt contraint (siège, transat, parc, porte-bébé…)", "Il cherche à changer de position"]),
+    ("tetee_alerte_2_mois", 2, ["Il pleure à chaque tétée ou biberon, pendant ou juste après", "Ses paupières papillonnent"]),
 ]
 tmp = tempfile.mkdtemp()
 out = []

@@ -46,6 +46,8 @@ export type Alerte = {
   urgence: string | null;
   /** Réponses du questionnaire qui déclenchent cette alerte (appel à consulter). */
   declencheurs?: string[];
+  /** Alerte déclenchée par plusieurs réponses : toutes celles de `tous`, et au moins une de `un_parmi`. */
+  combinaison?: { tous: string[]; un_parmi: string[] } | null;
   sources?: string[];
 };
 
@@ -100,6 +102,18 @@ export function alertesAffichees(alertes: Alerte[]): Alerte[] {
     .map(({ a }) => a);
 }
 
+/** Alertes déclenchées par les réponses cochées et valables à cet âge :
+ *  une réponse « déclencheur » cochée, ou une combinaison de réponses (ex. mou + regard dans le vide + un autre signe). */
+export function alertesDeclenchees(donnees: DonneesSignaux, age: number, idsCoches: Iterable<string>): Alerte[] {
+  const coches = new Set(idsCoches);
+  const reps = new Set(donnees.options.filter((o) => coches.has(o.id) && estValable(o, age)).map((o) => o.reponse));
+  return donnees.alertes.filter((a) => {
+    if ((a.declencheurs ?? []).some((r) => reps.has(r))) return true;
+    const c = a.combinaison;
+    return Boolean(c && c.tous.length > 0 && c.tous.every((r) => reps.has(r)) && c.un_parmi.some((r) => reps.has(r)));
+  });
+}
+
 /** Retire d'un texte ce qui ne doit pas être montré aux parents : les
  *  identifiants de sources (« (S09) », « (S07, S22) ») et les notes de
  *  travail du classeur (« (action à valider) », « (durée non sourcée) »).
@@ -110,6 +124,16 @@ export function nettoyerTexte(texte: string): string {
     .replace(/\s*\([^()]*(?:à valider|non sourcé)[^()]*\)/gi, "")
     .replace(/\s{2,}/g, " ")
     .trim();
+}
+
+/** Force des indices, de 1 à 4 sur 5 (jamais 5 sur 5 : une piste n'est jamais une certitude).
+ *  Seuils du score brut : 1-2 → 1, 3-4 → 2, 5-6 → 3, 7 et plus → 4. Ce n'est pas une probabilité :
+ *  seulement « combien d'indices cochés pointent vers cette piste ». */
+export function forceIndices(score: number): number {
+  if (score >= 7) return 4;
+  if (score >= 5) return 3;
+  if (score >= 3) return 2;
+  return 1;
 }
 
 /** Le calcul complet. `idsCoches` : identifiants des réponses cochées (o001…). */
@@ -141,7 +165,8 @@ export function analyserSignaux(
   const rang = (code: string): number | null =>
     classement.find((c) => c.piste.code === code)?.rang ?? null;
 
-  const alerte = valables.some((o) => o.type === "alerte");
+  const alerte =
+    valables.some((o) => o.type === "alerte") || donnees.alertes.some((a) => a.combinaison && alertesDeclenchees({ ...donnees, alertes: [a] }, age, coches).length > 0);
 
   // Confiance : mêmes conditions, dans le même ordre, que la formule du classeur.
   const texteConfiance = (i: number) => donnees.confiance[i]?.texte ?? "";
