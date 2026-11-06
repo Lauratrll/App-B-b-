@@ -5,7 +5,8 @@
 // Les gestes sont lus depuis content/apaisement/gestes_apaisement.json, en
 // import statique (comme la Réflexologie plantaire), et non depuis Supabase.
 // Ce JSON est GÉNÉRÉ par docs/apaisement notes/generer_json_gestes.py à partir
-// du tableau Gestes_apaisement_reference.xlsx : ne jamais le modifier à la main.
+// du tableau content/apaisement/Gestes_apaisement_reference.xlsx par
+// scripts/export_gestes_apaisement.py : ne jamais le modifier à la main.
 //
 // La table `content` ne porte qu'une ligne par geste (module 'apaisement'),
 // pour l'épingler : scripts/import-apaisement.mjs.
@@ -34,7 +35,8 @@ export type Geste = {
   titre: string;
   mois_debut: number;
   mois_fin: number;
-  familles: string[];
+  /** Un seul onglet par geste (Laura, 05/11). */
+  onglet: string;
   format_prevu: string;
   visuel_attendu: boolean;
   objectif: string | null;
@@ -46,8 +48,6 @@ export type Geste = {
   type?: string;
 };
 
-export type Famille = { id: string; label: string; onglet: boolean };
-
 export type Onglet = { id: string; label: string; nombre: number };
 
 type Donnees = {
@@ -55,7 +55,7 @@ type Donnees = {
   mention_description: string;
   onglet_par_defaut: string;
   masquer_onglet_sous_n_gestes: number;
-  familles: Famille[];
+  onglets: { id: string; label: string }[];
   gestes: Geste[];
 };
 
@@ -93,26 +93,26 @@ export function getGeste(id: string): Geste | null {
 }
 
 /**
- * Les onglets du mois, dans l'ordre arrêté par Laura (brief §4.2) : Tous ·
- * Stop pleurs · Mal de ventre, gaz · Zones de détente · In-utéro · Guide.
- * Seules les familles `onglet: true` en font un ; un onglet qui a moins de
- * `masquer_onglet_sous_n_gestes` gestes visibles est masqué (« Tous » jamais).
+ * Les onglets du mois, dans l'ordre du bloc « onglets » du JSON (Mal
+ * de ventre, gaz · Stop pleurs · Détente · Portage · Guide). Pas d'onglet
+ * « Tous » ; un onglet qui a moins de « masquer_onglet_sous_n_gestes » gestes
+ * visibles est masqué.
  */
-const ORDRE_ONGLETS = ["tous", "stop_pleurs", "ventre_gaz", "zones_detente", "in_utero", "guide"];
-
 export function getOnglets(mois: number): Onglet[] {
   const gestes = getGestesDuMois(mois);
-  const rang = (id: string) => {
-    const i = ORDRE_ONGLETS.indexOf(id);
-    return i === -1 ? ORDRE_ONGLETS.length : i;
-  };
-  return D.familles
-    .filter((f) => f.onglet)
-    .map((f) => ({
-      id: f.id,
-      label: f.label,
-      nombre: f.id === "tous" ? gestes.length : gestes.filter((g) => g.familles.includes(f.id)).length,
-    }))
-    .filter((o) => o.id === "tous" || o.nombre >= D.masquer_onglet_sous_n_gestes)
-    .sort((a, b) => rang(a.id) - rang(b.id));
+  return D.onglets
+    .map((o) => ({ ...o, nombre: gestes.filter((g) => g.onglet === o.id).length }))
+    .filter((o) => o.nombre >= D.masquer_onglet_sous_n_gestes);
+}
+
+/** L'onglet à ouvrir (brief §4.3) : la première fois, « onglet_par_defaut » ;
+ *  ensuite le dernier consulté ; s'il est masqué ce mois-ci, le premier onglet
+ *  visible. */
+export function ongletAOuvrir(onglets: Onglet[], memorise: string | undefined): string {
+  const visible = (id?: string) => Boolean(id) && onglets.some((o) => o.id === id);
+  const premier = onglets[0]?.id ?? D.onglet_par_defaut;
+  // Un onglet qui n'existe plus (l'ancien « Tous ») compte comme une première visite.
+  const connu = D.onglets.some((o) => o.id === memorise);
+  if (memorise && connu) return visible(memorise) ? memorise : premier;
+  return visible(D.onglet_par_defaut) ? D.onglet_par_defaut : premier;
 }

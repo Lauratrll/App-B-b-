@@ -1,6 +1,8 @@
-// Pictos de la rubrique « Gestes d'apaisement » : un par famille, au trait,
-// dans l'esprit des pictos des slots (SVG outline, jamais d'emoji). Un geste
-// prend le picto de sa PREMIÈRE famille. La couleur vient de `currentColor`.
+// Pictos de la rubrique « Gestes d'apaisement », au trait, dans l'esprit des
+// pictos des slots (SVG outline, jamais d'emoji). Depuis le 05/11 un geste n'a
+// qu'un onglet, et « Détente » en regroupe onze : pour que la liste ne soit pas
+// une colonne de feuilles identiques, chaque geste garde un picto qui dit sa
+// nature (PICTO_PAR_GESTE) ; à défaut, celui de son onglet. Couleur : `currentColor`.
 
 const TRACES: Record<string, React.ReactNode> = {
   // Stop pleurs : une larme qu'une main recueille.
@@ -18,8 +20,8 @@ const TRACES: Record<string, React.ReactNode> = {
       <circle cx="12.6" cy="12.4" r="3" />
     </>
   ),
-  // Zones de détente : une feuille souple et sa nervure.
-  zones_detente: (
+  // Détente : une feuille souple et sa nervure.
+  detente: (
     <>
       <path d="M5 19c0-8 5.2-13.5 14-14-.4 8.8-6 14-14 14Z" />
       <path d="M5 19c3.2-3.6 6.2-6.5 9.4-9" />
@@ -43,6 +45,15 @@ const TRACES: Record<string, React.ReactNode> = {
       <path d="M9.5 17.5V6.2l8-1.7v10.8" />
       <circle cx="7.6" cy="17.6" r="2" />
       <circle cx="15.6" cy="15.4" r="2" />
+    </>
+  ),
+  // Portage : un adulte qui porte un petit contre lui.
+  portage: (
+    <>
+      <circle cx="12" cy="4.8" r="2" />
+      <path d="M7.5 21v-7.5c0-2.6 2-4.6 4.5-4.6s4.5 2 4.5 4.6V21" />
+      <path d="M8.6 12.2c1 2.6 2.4 3.8 3.4 3.8s2.4-1.2 3.4-3.8" />
+      <circle cx="12" cy="12.6" r="1.5" />
     </>
   ),
   // Guide : un œil qui observe.
@@ -74,13 +85,31 @@ export function ApaisementIcone({ famille, taille = 18 }: { famille: string; tai
       strokeLinejoin="round"
       aria-hidden
     >
-      {TRACES[famille] ?? TRACES.zones_detente}
+      {TRACES[famille] ?? TRACES.detente}
     </svg>
   );
 }
 
-/** Le picto d'un geste : celui de sa première famille. */
-export function familleDuPicto(g: { familles: string[]; type?: string }): string {
+/** Gestes dont la nature appelle un autre picto que celui de leur onglet. */
+const PICTO_PAR_GESTE: Record<string, string> = {
+  // Contenance : le corps tenu, enveloppé.
+  "le-sansula": "limites_corps",
+  "le-roule-boule": "limites_corps",
+  "les-bras-qui-enveloppent": "limites_corps",
+  "l-emmaillotage": "limites_corps",
+  // Comme dans le ventre : le cocon.
+  "le-peau-a-peau": "in_utero",
+  "bercer-osciller": "in_utero",
+  "la-succion": "in_utero",
+  "bruit-blanc": "in_utero",
+  "le-bain-enveloppe": "in_utero",
+  // La voix.
+  "la-berceuse": "voix",
+  "l-histoire-du-soir": "voix",
+};
+
+/** Le picto d'un geste : le sien s'il en a un, sinon celui de son onglet. */
+export function familleDuPicto(g: { id: string; onglet: string; type?: string }): string {
   if (g.type === "lien_coherence_cardiaque") return "coherence";
-  return g.familles[0] ?? "zones_detente";
+  return PICTO_PAR_GESTE[g.id] ?? g.onglet;
 }

@@ -1,6 +1,6 @@
 "use client";
 
-// Onglets de familles + liste des gestes de la rubrique « Gestes d'apaisement ».
+// Onglets (un seul par geste, pas de « Tous ») + liste des gestes de la rubrique « Gestes d'apaisement ».
 // Les onglets passent à la ligne (jamais de défilement horizontal, SKILL_ui).
 // Le dernier onglet consulté est gardé dans un cookie (lu côté serveur à
 // l'ouverture suivante, donc sans clignotement) ; la page retombe sur « Tous »
@@ -36,11 +36,11 @@ export function ApaisementOnglets({
     }
   }
 
-  const affiches = actif === "tous" ? gestes : gestes.filter((g) => g.familles.includes(actif));
+  const affiches = gestes.filter((g) => g.onglet === actif);
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-      <div role="tablist" aria-label="Familles de gestes" style={{ display: "flex", flexWrap: "wrap", gap: 7 }}>
+      <div role="tablist" aria-label="Onglets des gestes" style={{ display: "flex", flexWrap: "wrap", gap: 7 }}>
         {onglets.map((o) => {
           const estActif = o.id === actif;
           return (

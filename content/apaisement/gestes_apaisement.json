@@ -5,475 +5,42 @@
   "sous_titre": "Boîte à outils",
   "placeholder_visuel": "Contenu visuel en cours de réalisation",
   "mention_description": "Description en cours de création",
-  "onglet_par_defaut": "tous",
+  "onglet_par_defaut": "stop_pleurs",
   "masquer_onglet_sous_n_gestes": 1,
-  "familles": [
+  "onglets": [
     {
-      "id": "tous",
-      "label": "Tous",
-      "onglet": true
+      "id": "ventre_gaz",
+      "label": "Mal de ventre, gaz"
     },
     {
       "id": "stop_pleurs",
-      "label": "Stop pleurs",
-      "onglet": true
+      "label": "Stop pleurs"
     },
     {
-      "id": "in_utero",
-      "label": "In-utéro",
-      "onglet": true
+      "id": "detente",
+      "label": "Détente"
     },
     {
-      "id": "zones_detente",
-      "label": "Zones de détente",
-      "onglet": true
-    },
-    {
-      "id": "limites_corps",
-      "label": "Limites du corps",
-      "onglet": false
-    },
-    {
-      "id": "ventre_gaz",
-      "label": "Mal de ventre, gaz",
-      "onglet": true
-    },
-    {
-      "id": "voix",
-      "label": "La voix",
-      "onglet": false
+      "id": "portage",
+      "label": "Portage"
     },
     {
       "id": "guide",
-      "label": "Guide",
-      "onglet": true
+      "label": "Guide"
     }
   ],
   "gestes": [
     {
-      "id": "observer-ses-signaux",
+      "id": "massage-du-ventre",
       "ordre": 1,
-      "titre": "Observer ses signaux",
-      "mois_debut": 0,
-      "mois_fin": 11,
-      "familles": [
-        "guide"
-      ],
-      "format_prevu": "Texte et infographie",
-      "visuel_attendu": true,
-      "objectif": "Repérer ce que communique bébé avant de choisir une réponse.",
-      "pourquoi": "Un bébé pleure pour des raisons très différentes, et a des comportements et des gestuelles qui nous donne des indices (faim, fatigue, trop de stimulation, inconfort, fatigue etc). Lire ses signaux nous permet de choisir notre réponse",
-      "pas_a_pas": null,
-      "cadre_securite": null,
-      "sources": []
-    },
-    {
-      "id": "eveil-calme-eveil-agite-vs-sommeil-agite-distinguer-les-signes",
-      "ordre": 2,
-      "titre": "Eveil calme, Eveil agité vs Sommeil agité - distinguer les signes",
-      "mois_debut": 0,
-      "mois_fin": 5,
-      "familles": [
-        "guide"
-      ],
-      "format_prevu": "Texte + 3 vidéos",
-      "visuel_attendu": true,
-      "objectif": "Comprendre dans quel état se trouve bébé pour adapter son rythme éveil-sommeil, et pour distinguer à quel moment il dort même en étant agité.",
-      "pourquoi": "Les différents indices du comportement de bébé nous permettent de déterminer son état.",
-      "pas_a_pas": null,
-      "cadre_securite": null,
-      "sources": []
-    },
-    {
-      "id": "bruit-blanc",
-      "ordre": 3,
-      "titre": "Bruit blanc (60 dB max, appareil loin, durée courte)",
-      "mois_debut": 0,
-      "mois_fin": 6,
-      "familles": [
-        "in_utero"
-      ],
-      "format_prevu": "Texte",
-      "visuel_attendu": false,
-      "objectif": "Offrir un fond sonore continu et rassurant.",
-      "pourquoi": "In utero, bébé baigne dans les bruits du corps de sa mère (circulation du sang, souffle). Un son continu les rappelle. Volume 60 dB maximum, appareil éloigné du lit (recommandations 2024 des pédiatres américains).",
-      "pas_a_pas": null,
-      "cadre_securite": null,
-      "sources": []
-    },
-    {
-      "id": "le-sansula",
-      "ordre": 4,
-      "titre": "Le sansula",
-      "mois_debut": 2,
-      "mois_fin": 23,
-      "familles": [
-        "limites_corps"
-      ],
-      "format_prevu": "Texte + image",
-      "visuel_attendu": true,
-      "objectif": "Aider bébé à sentir les limites de son corps grâce à une vibration très douce.",
-      "pourquoi": "Les vibrations douces se transmettent par la peau et les os (résonance osseuse) : bébé perçoit mieux les limites de son corps, il ressent sa propre contenance. Cela apporte à la fois de la découverte et un sentiment de sécurité interne.",
-      "pas_a_pas": {
-        "intro": [
-          "Prendre un sansula au **bois plein** (non creu), **adapté à la taille de bébé**, et le posé sur son ventre ou son dos, en fonction de sa position de détente. Jouer de la musique sur lui pour créer des sensations. Voici un petit conseil : jouez les notes **d'un côté entre elles, puis de l'autre**, pour garder l'harmonie de cet instrument."
-        ],
-        "etapes": [],
-        "suite": []
-      },
-      "cadre_securite": null,
-      "sources": []
-    },
-    {
-      "id": "la-berceuse",
-      "ordre": 5,
-      "titre": "La berceuse",
+      "titre": "Massage du ventre",
       "mois_debut": 0,
       "mois_fin": 23,
-      "familles": [
-        "stop_pleurs",
-        "voix"
-      ],
-      "format_prevu": "Texte, audio possible",
-      "visuel_attendu": false,
-      "objectif": "Rassurer bébé par une voix qu'il connaît.",
-      "pourquoi": "Bébé reconnaît les voix entendues avant la naissance. Un rythme lent et mélodique favorise la détente (parler ou chantonner : conseil de sante.fr). Chanter régulièrement les mêmes paroles, ou garder le même rythme créé des repères rassurants.",
-      "pas_a_pas": null,
-      "cadre_securite": null,
-      "sources": [
-        "sante.fr"
-      ]
-    },
-    {
-      "id": "l-histoire-du-soir",
-      "ordre": 6,
-      "titre": "L'histoire du soir",
-      "mois_debut": 3,
-      "mois_fin": 23,
-      "familles": [
-        "voix"
-      ],
-      "format_prevu": "Texte, audio possible",
-      "visuel_attendu": false,
-      "objectif": "Installer un moment calme et régulier qui annonce le sommeil.",
-      "pourquoi": "Une voix douce et un rituel répété chaque soir donnent à bébé des repères : il sait que la nuit arrive et peut se détendre.",
-      "pas_a_pas": null,
-      "cadre_securite": null,
-      "sources": []
-    },
-    {
-      "id": "les-bras-qui-enveloppent",
-      "ordre": 7,
-      "titre": "Les bras qui enveloppent",
-      "mois_debut": 0,
-      "mois_fin": 5,
-      "familles": [
-        "stop_pleurs",
-        "in_utero",
-        "limites_corps"
-      ],
-      "format_prevu": "Vidéo",
-      "visuel_attendu": true,
-      "objectif": "Redonner à bébé la sensation d'être contenu, comme dans l'utérus.",
-      "pourquoi": "Les mains qui enveloppent rappellent l'espace réduit de l'utérus et limitent les mouvements brusques des bras (réflexe de Moro, qui disparaît vers 4-6 mois).",
-      "pas_a_pas": {
-        "intro": [
-          "Bébé **regroupé et enroulé**, jambes repliées, **mains vers le centre**.",
-          "Envelopper bébé de toutes la **longueur de nos bras**."
-        ],
-        "etapes": [],
-        "suite": []
-      },
-      "cadre_securite": null,
-      "sources": []
-    },
-    {
-      "id": "l-emmaillotage",
-      "ordre": 8,
-      "titre": "L'emmaillotage",
-      "mois_debut": 0,
-      "mois_fin": 3,
-      "familles": [
-        "in_utero",
-        "limites_corps"
-      ],
-      "format_prevu": "Vidéo uniquement",
-      "visuel_attendu": true,
-      "objectif": "Offrir à bébé une contenance enveloppante pour l'aider à se calmer et à s'endormir.",
-      "pourquoi": "L'enveloppement rappelle l'espace réduit de l'utérus et limite les mouvements brusques des bras (réflexe de Moro, qui disparaît vers 4-6 mois).",
-      "pas_a_pas": {
-        "intro": [
-          "Position : bébé sur le dos, sur une surface plane, dans un **lange fin** (tissu fin, jamais de couverture épaisse). Il reste regroupé : **bras ramenés vers le milieu du corps**, **jambes libres de se plier**."
-        ],
-        "etapes": [
-          "Étale le lange en losange et plie le coin du haut pour former un **bord droit**.",
-          "Installe bébé sur le lange, les **épaules alignées** avec ce bord.",
-          "Ramène ses bras contre sa poitrine.",
-          "Rabats un côté du lange sur sa poitrine et glisse-le sous son corps. Fais de même de l'autre côté.",
-          "Replie ou torsade le bas du lange et glisse-le sous bébé, **sans serrer** : ses jambes restent libres de se plier vers le haut et vers l'extérieur, ses hanches peuvent bouger. **Jamais les jambes droites et serrées**."
-        ],
-        "suite": []
-      },
-      "cadre_securite": [
-        "**Dégage bien son visage** : le lange ne remonte jamais vers son visage.",
-        "**Arrête dès les premiers signes de retournement**, parfois dès 2 mois."
-      ],
-      "sources": [
-        "American Academy of Pediatrics, HealthyChildren.org, « Swaddling: Is it Safe? »",
-        "Children's Healthcare of Atlanta, « How to Safely Swaddle Your Baby »"
-      ]
-    },
-    {
-      "id": "la-prise-stop-pleurs",
-      "ordre": 9,
-      "titre": "La prise Stop Pleurs",
-      "mois_debut": 0,
-      "mois_fin": 3,
-      "familles": [
-        "stop_pleurs",
-        "zones_detente",
-        "ventre_gaz"
-      ],
-      "format_prevu": "Vidéo uniquement",
-      "visuel_attendu": true,
-      "objectif": "Rappeler la position fœtale et apporter plusieurs stimulations liées à la détente.",
-      "pourquoi": "La position fœtale offre un sentiment de sécurité. L'appui sur le plancher pelvien sollicite le nerf pelvien sacré, l'un des deux « boutons » du système parasympathique. Le mouvement oscillatoire avant-arrière rappelle le bercement in utero, et mouvement du bassin détend l'intérieur du corps de bébé et peut libérer des gaz.",
-      "pas_a_pas": {
-        "intro": [
-          "Bébé reste regroupé : **bras croisés sur son torse**, **dos arrondi**, **jambes repliées**, sans jamais forcer la position. Son **visage reste dégagé**."
-        ],
-        "etapes": [
-          "Prends bébé dans tes bras, **de côté, tout contre toi**. Croise ses bras sur son torse et pose doucement une main dessus, pour bien les maintenir avec ta paume.",
-          "Avec cette même main, replie **ton pouce et ton index** pour soutenir son **menton**, dans l'axe naturel de sa trachée. Ta main maintien sa **nuque**.",
-          "Glisse ton autre main **sous son bassin**, en appui doux sur le plancher pelvien.",
-          "Penche-le doucement vers l'avant, **à environ 45 degrés** : sa tête **ne bascule pas en arrière** et son poids repose sur ta main.",
-          "Cale tes **coudes sur tes hanches** pour le tenir sans effort.",
-          "Berce-le doucement **d'avant en arrière**, quelques instants.",
-          "Puis, bouge délicatement son bassin **de gauche à droite**, comme un tendre mouvement de **moulin à poivre**.",
-          "Ensuite, reprends bébé en **position bouddha**."
-        ],
-        "suite": []
-      },
-      "cadre_securite": null,
-      "sources": [
-        "Technique du Dr Robert Hamilton, pédiatre, « The Hold » (2015)"
-      ]
-    },
-    {
-      "id": "le-roule-boule",
-      "ordre": 10,
-      "titre": "Le roulé-boulé",
-      "mois_debut": 5,
-      "mois_fin": 8,
-      "familles": [
-        "limites_corps"
-      ],
-      "format_prevu": "Vidéo",
-      "visuel_attendu": true,
-      "objectif": "Aider bébé à sentir les contours de son corps et à se bercer seul.",
-      "pourquoi": "Les appuis sur le dos et les côtés renseignent bébé sur la position et les limites de son corps (sens proprioceptif). Le balancement qu'il crée lui-même l'aide à se rassembler (auto-bercement).",
-      "pas_a_pas": {
-        "intro": [
-          "Bébé en **position bouddha allongé**, pieds et mains regroupés, **genoux repliés vers le ventre**.",
-          "Le bercer **de gauche à droite**, en douceur, **sans forcer**."
-        ],
-        "etapes": [],
-        "suite": []
-      },
-      "cadre_securite": null,
-      "sources": []
-    },
-    {
-      "id": "la-position-bouddha",
-      "ordre": 11,
-      "titre": "La position bouddha",
-      "mois_debut": 1,
-      "mois_fin": 8,
-      "familles": [
-        "stop_pleurs",
-        "in_utero",
-        "ventre_gaz"
-      ],
-      "format_prevu": "Vidéo",
-      "visuel_attendu": true,
-      "objectif": "Offrir à bébé une position de contenance rassurante, respectueuse de son corps.",
-      "pourquoi": "La position physiologique (dos arrondi, jambes repliées) rappelle la posture de l'utérus : bébé se sent contenu et soutenu.",
-      "pas_a_pas": {
-        "intro": [
-          "Bébé est **regroupé et enroulé** : **dos contre notre torse**, **genoux remontés vers le ventre**, **pieds croisés**, bras ramenés vers l'avant, **corps aligné**.",
-          "**Une main le porte par la base**, sous les fesses. L'autre main est sur son tronc, en appui contre nous, et sa tête reste soutenue contre nous, **jamais dans le vide**, **sans appuyer sur sa nuque**.",
-          "Variante : « bouddha inversé » (bébé face à nous)."
-        ],
-        "etapes": [],
-        "suite": []
-      },
-      "cadre_securite": null,
-      "sources": [
-        "Brochure « La position physiologique pour votre bébé » (HEPL Liège, mise en ligne par le CHR de la Citadelle ; validée par deux kinésithérapeutes pédiatriques et un néonatologue)"
-      ]
-    },
-    {
-      "id": "position-avant-bras",
-      "ordre": 12,
-      "titre": "Position avant-bras",
-      "mois_debut": 0,
-      "mois_fin": 5,
-      "familles": [
-        "ventre_gaz"
-      ],
-      "format_prevu": "Vidéo",
-      "visuel_attendu": true,
-      "objectif": "Soulager un petit bébé inconfortable au ventre.",
-      "pourquoi": "Le ventre repose sur l'avant-bras, au chaud : l'appui doux et la chaleur favorisent la détente. Position proposée par sante.fr pour calmer les pleurs.",
-      "pas_a_pas": {
-        "intro": [
-          "Bébé tenu en **petit bouddha**, dos contre nous.",
-          "Une main en « **pince** » (pouce et index écartés) **sous le creux d'un genou**, puis bébé est déposé sur l'**avant-bras**, ses deux **bras regroupés**.",
-          "*Si l'inconfort perdure, parles-en à un pédiatre.*"
-        ],
-        "etapes": [],
-        "suite": []
-      },
-      "cadre_securite": null,
-      "sources": [
-        "sante.fr, Wolke 2017",
-        "Brochure « La position physiologique pour votre bébé » (HEPL Liège, mise en ligne par le CHR de la Citadelle ; validée par deux kinésithérapeutes pédiatriques et un néonatologue)"
-      ]
-    },
-    {
-      "id": "le-peau-a-peau",
-      "ordre": 13,
-      "titre": "Le peau à peau",
-      "mois_debut": 0,
-      "mois_fin": 5,
-      "familles": [
-        "stop_pleurs",
-        "in_utero",
-        "zones_detente"
-      ],
-      "format_prevu": "Texte + visuel des règles de sécurité",
-      "visuel_attendu": true,
-      "objectif": "Rassurer bébé et le calmer par le contact direct.",
-      "pourquoi": "Le contact peau contre peau favorise la sécrétion d'ocytocine, l'hormone de l'attachement et de la détente, chez le bébé comme chez le parent (conseil de sante.fr).",
-      "pas_a_pas": {
-        "intro": [
-          "Bébé contre le torse du parent, **dos arrondi**, **jambes repliées**, **tête dégagée**, **voies respiratoires libres**."
-        ],
-        "etapes": [],
-        "suite": []
-      },
-      "cadre_securite": null,
-      "sources": [
-        "sante.fr"
-      ]
-    },
-    {
-      "id": "bercer-osciller",
-      "ordre": 14,
-      "titre": "Bercer, osciller",
-      "mois_debut": 0,
-      "mois_fin": 17,
-      "familles": [
-        "stop_pleurs",
-        "in_utero"
-      ],
-      "format_prevu": "Texte",
-      "visuel_attendu": false,
-      "objectif": "Retrouver le balancement doux connu avant la naissance.",
-      "pourquoi": "Le mouvement oscillatoire rappelle les déplacements de la mère pendant la grossesse ; bercer est un conseil classique de sante.fr.",
-      "pas_a_pas": {
-        "intro": [
-          "Bébé tenu **dos arrondi**, jambes repliées, **tête soutenue**.",
-          "Mouvements oscillatoires **lents, sans secousse**."
-        ],
-        "etapes": [],
-        "suite": []
-      },
-      "cadre_securite": null,
-      "sources": [
-        "sante.fr"
-      ]
-    },
-    {
-      "id": "portage-en-echarpe-ou-porte-bebe",
-      "ordre": 15,
-      "titre": "Portage en écharpe ou porte-bébé",
-      "mois_debut": 0,
-      "mois_fin": 15,
-      "familles": [
-        "in_utero"
-      ],
-      "format_prevu": "Vidéo",
-      "visuel_attendu": true,
-      "objectif": "Garder bébé contre soi, rassuré, en ayant les mains libres.",
-      "pourquoi": "Chaleur, battements du cœur et mouvements du parent : bébé retrouve les repères du ventre maternel.",
-      "pas_a_pas": {
-        "intro": [
-          "**Dos arrondi**, **genoux plus hauts que les fesses** (jambes en « M »), **tête soutenue**, **voies respiratoires libres**. L'écharpe ou le porte-bébé maintient cette position."
-        ],
-        "etapes": [],
-        "suite": []
-      },
-      "cadre_securite": null,
-      "sources": []
-    },
-    {
-      "id": "la-succion",
-      "ordre": 16,
-      "titre": "La succion (sein, doigt, tétine)",
-      "mois_debut": 0,
-      "mois_fin": 11,
-      "familles": [
-        "stop_pleurs",
-        "in_utero"
-      ],
-      "format_prevu": "Texte",
-      "visuel_attendu": false,
-      "objectif": "Apaiser bébé par la succion.",
-      "pourquoi": "La succion est un réflexe de réconfort dès avant la naissance : téter, même sans lait, détend bébé.",
-      "pas_a_pas": null,
-      "cadre_securite": null,
-      "sources": []
-    },
-    {
-      "id": "massage-doux-de-detente",
-      "ordre": 17,
-      "titre": "Massage doux de détente (avant le sommeil)",
-      "mois_debut": 4,
-      "mois_fin": 23,
-      "familles": [
-        "zones_detente"
-      ],
-      "format_prevu": "Vidéo",
-      "visuel_attendu": true,
-      "objectif": "Offrir un moment de détente avant le sommeil.",
-      "pourquoi": "Le toucher lent et régulier active les récepteurs de la peau liés à la détente et favorise l'ocytocine.",
-      "pas_a_pas": {
-        "intro": [
-          "Bébé installé dans une **position naturelle**, jambes détendues, **sans jamais forcer**.",
-          "Massage doux, gestes à montrer en vidéo."
-        ],
-        "etapes": [],
-        "suite": []
-      },
-      "cadre_securite": null,
-      "sources": [
-        "sante.fr"
-      ]
-    },
-    {
-      "id": "massage-du-ventre-les-cercles-dans-le-sens-du-transit",
-      "ordre": 18,
-      "titre": "Massage du ventre : les cercles dans le sens du transit",
-      "mois_debut": 0,
-      "mois_fin": 23,
-      "familles": [
-        "ventre_gaz"
-      ],
+      "onglet": "ventre_gaz",
       "format_prevu": "Vidéo",
       "visuel_attendu": true,
       "objectif": "Soulager un bébé qui a mal au ventre.",
-      "pourquoi": "Le massage doux du ventre accompagne le transit et détend la paroi du ventre ; la chaleur des mains rassure.",
+      "pourquoi": "Le massage doux du ventre accompagne le transit et détend la paroi du ventre ; la chaleur des mains rassure.",
       "pas_a_pas": {
         "intro": [
           "Bébé sur le dos, jambes repliées vers le ventre, dos non forcé, sur une surface plane et ferme. Fais-le quand il est calme et à l'aise allongé."
@@ -481,7 +48,7 @@
         "etapes": [
           "Pose ta main à plat sur son ventre, tout doucement.",
           "Fais de **petits cercles** dans le **sens des aiguilles d'une montre**, comme si son ventre était un cadran que tu regardes. Ce sens accompagne le trajet de l'intestin, donc le transit.",
-          "**Reste léger** : tu glisses, tu n'appuies pas.",
+          "**Reste léger** : tu glisses, tu n'appuies pas.",
           "Continue quelques minutes, et recommence plusieurs fois dans la journée si ça lui fait du bien. **Arrête s'il se raidit ou pleure plus fort**."
         ],
         "suite": [
@@ -490,19 +57,17 @@
       },
       "cadre_securite": null,
       "sources": [
-        "sante.fr, « Coliques et pleurs du nourrisson, comment les décoder ? »",
-        "Naître et grandir, « Les coliques (pleurs intenses) »"
+        "sante.fr, « Coliques et pleurs du nourrisson, comment les décoder ? »",
+        "Naître et grandir, « Les coliques (pleurs intenses) »"
       ]
     },
     {
-      "id": "massage-du-ventre-le-pedalage-des-jambes",
-      "ordre": 19,
-      "titre": "Massage du ventre : le pédalage des jambes",
+      "id": "pedalage-des-jambes",
+      "ordre": 2,
+      "titre": "Pédalage des jambes",
       "mois_debut": 0,
       "mois_fin": 23,
-      "familles": [
-        "ventre_gaz"
-      ],
+      "onglet": "ventre_gaz",
       "format_prevu": "Vidéo",
       "visuel_attendu": true,
       "objectif": "Détendre le ventre de bébé en bougeant doucement ses jambes.",
@@ -515,9 +80,9 @@
           "Installe-toi **à côté de lui**, assis ou à genoux, à sa hauteur.",
           "Tiens doucement ses jambes, **au niveau des cuisses**.",
           "Ramène-les **légèrement vers son ventre**.",
-          "Fais-les bouger **comme s'il pédalait** : une jambe se plie pendant que l'autre s'étire, **lentement** et tout en douceur.",
+          "Fais-les bouger **comme s'il pédalait** : une jambe se plie pendant que l'autre s'étire, **lentement** et tout en douceur.",
           "Observe ses signaux. S'il s'agite, **arrête tout de suite**. S'il est à l'aise, poursuis **quelques minutes**.",
-          "Tu peux recommencer autant que nécessaire : certains bébés ont besoin de plus de temps."
+          "Tu peux recommencer autant que nécessaire : certains bébés ont besoin de plus de temps."
         ],
         "suite": [
           "*Si l'inconfort perdure, parles-en à un pédiatre.*"
@@ -525,37 +90,274 @@
       },
       "cadre_securite": null,
       "sources": [
-        "ameli.fr, « Constipation de l'enfant : que faire et quand consulter ? »",
-        "NHS, Best Start in Life, « Constipation » (bébé nourri au biberon)",
-        "American Academy of Pediatrics, HealthyChildren.org, « Gas Relief for Babies »",
-        "Mayo Clinic, « Infant constipation: How is it treated? »"
+        "ameli.fr, « Constipation de l'enfant : que faire et quand consulter ? »",
+        "NHS, Best Start in Life, « Constipation » (bébé nourri au biberon)",
+        "American Academy of Pediatrics, HealthyChildren.org, « Gas Relief for Babies »",
+        "Mayo Clinic, « Infant constipation: How is it treated? »"
+      ]
+    },
+    {
+      "id": "position-avant-bras",
+      "ordre": 3,
+      "titre": "Position avant-bras",
+      "mois_debut": 0,
+      "mois_fin": 5,
+      "onglet": "ventre_gaz",
+      "format_prevu": "Vidéo",
+      "visuel_attendu": true,
+      "objectif": "Soulager un petit bébé inconfortable au ventre.",
+      "pourquoi": "Le ventre repose sur l'avant-bras, au chaud : l'appui doux et la chaleur favorisent la détente.",
+      "pas_a_pas": {
+        "intro": [
+          "Bébé tenu en **petit bouddha**, dos contre toi.",
+          "Une main en « **pince** » (pouce et index écartés) **sous le creux d'un genou**, puis bébé est déposé sur l'**avant-bras**, ses deux **bras regroupés**.",
+          "*Si l'inconfort perdure, parles-en à un pédiatre.*"
+        ],
+        "etapes": [],
+        "suite": []
+      },
+      "cadre_securite": null,
+      "sources": [
+        "sante.fr",
+        "Brochure « La position physiologique pour votre bébé » (HEPL Liège, mise en ligne par le CHR de la Citadelle ; validée par deux kinésithérapeutes pédiatriques et un néonatologue)"
+      ]
+    },
+    {
+      "id": "la-prise-stop-pleurs",
+      "ordre": 4,
+      "titre": "La prise Stop Pleurs",
+      "mois_debut": 0,
+      "mois_fin": 4,
+      "onglet": "stop_pleurs",
+      "format_prevu": "Vidéo uniquement",
+      "visuel_attendu": true,
+      "objectif": "Rappeler la position fœtale et apporter plusieurs stimulations liées à la détente.",
+      "pourquoi": "La position fœtale offre un sentiment de sécurité. L'appui sur le plancher pelvien sollicite le nerf pelvien sacré, l'un des deux « boutons » du système parasympathique. Le mouvement oscillatoire avant-arrière rappelle le bercement in utero, et le mouvement du bassin détend l'intérieur du corps de bébé et peut libérer des gaz.",
+      "pas_a_pas": {
+        "intro": [
+          "Bébé reste regroupé : **bras croisés sur son torse**, **dos arrondi**, **jambes repliées**, sans jamais forcer la position. Son **visage reste dégagé**."
+        ],
+        "etapes": [
+          "Prends bébé dans tes bras, **de côté, tout contre toi**. Croise ses bras sur son torse et pose doucement une main dessus, pour bien les maintenir avec ta paume.",
+          "Avec cette même main, replie **ton pouce et ton index** pour soutenir son **menton**, dans l'axe naturel de sa trachée. Ta main maintient sa **nuque**.",
+          "Glisse ton autre main **sous son bassin**, en appui doux sur le plancher pelvien.",
+          "Penche-le doucement vers l'avant, **à environ 45 degrés** : sa tête **ne bascule pas en arrière** et son poids repose sur ta main.",
+          "Cale tes **coudes sur tes hanches** pour le tenir sans effort.",
+          "Berce-le doucement **d'avant en arrière**, quelques instants.",
+          "Puis, bouge délicatement son bassin **de gauche à droite**, comme un tendre mouvement de **moulin à poivre**.",
+          "Ensuite, reprends bébé en **position bouddha**."
+        ],
+        "suite": []
+      },
+      "cadre_securite": null,
+      "sources": [
+        "Technique du Dr Robert Hamilton, pédiatre, « The Hold » (2015)"
+      ]
+    },
+    {
+      "id": "la-reponse-progressive-aux-pleurs",
+      "ordre": 5,
+      "titre": "La réponse progressive aux pleurs",
+      "mois_debut": 3,
+      "mois_fin": 23,
+      "onglet": "stop_pleurs",
+      "format_prevu": "Texte + schéma des paliers",
+      "visuel_attendu": true,
+      "objectif": "Répondre aux pleurs par paliers, du plus simple au plus engageant.",
+      "pourquoi": "Les pleurs sont normaux : environ 2 heures par jour en moyenne les 6 premières semaines. Avancer par étapes évite de s'épuiser.",
+      "pas_a_pas": {
+        "intro": [],
+        "etapes": [
+          "**Ta présence** : regarde-le.",
+          "Parle-lui : ta voix le rassure.",
+          "**Un contact physique** : pose tes mains sur lui.",
+          "Prends-le dans tes bras, en restant calme et silencieux.",
+          "Berce-le.",
+          "Si rien ne fonctionne : **la totale** (gros câlin, bercements, parler, sortir prendre l'air).",
+          "Et si besoin, vérifie s'il a faim."
+        ],
+        "suite": [
+          "Quand tu as trouvé ce qui le rassure, continue, et de temps en temps **reprends le palier du dessous**.",
+          "Gros chagrin : ne te pose pas la question, **prends-le dans tes bras et console-le**."
+        ]
+      },
+      "cadre_securite": null,
+      "sources": [
+        "Wolke D., Bilgin A., Samara M., The Journal of Pediatrics, 2017, 185:55-61 : revue systématique des durées de pleurs"
+      ]
+    },
+    {
+      "id": "le-peau-a-peau",
+      "ordre": 6,
+      "titre": "Le peau à peau",
+      "mois_debut": 0,
+      "mois_fin": 5,
+      "onglet": "detente",
+      "format_prevu": "Texte + visuel des règles de sécurité",
+      "visuel_attendu": true,
+      "objectif": "Rassurer bébé et le calmer par le contact direct.",
+      "pourquoi": "Le contact peau contre peau favorise la sécrétion d'ocytocine, l'hormone de l'attachement et de la détente, chez bébé comme chez toi.",
+      "pas_a_pas": {
+        "intro": [
+          "Bébé contre ton torse, **dos arrondi**, **jambes repliées**, **tête dégagée**, **voies respiratoires libres**."
+        ],
+        "etapes": [],
+        "suite": []
+      },
+      "cadre_securite": null,
+      "sources": [
+        "sante.fr"
+      ]
+    },
+    {
+      "id": "la-succion",
+      "ordre": 7,
+      "titre": "La succion",
+      "mois_debut": 0,
+      "mois_fin": 11,
+      "onglet": "detente",
+      "format_prevu": "Texte",
+      "visuel_attendu": false,
+      "objectif": "Apaiser bébé par la succion.",
+      "pourquoi": "La succion est un réflexe de réconfort dès avant la naissance : téter, même sans lait, détend bébé.",
+      "pas_a_pas": {
+        "intro": [
+          "Propose-lui ce qui le réconforte, selon ce que tu as choisi pour lui.",
+          "**Le sein** : même sans faim, téter le détend.",
+          "**Ton doigt** : propre, laisse-le téter à son rythme.",
+          "**La tétine** : si tu en proposes une, elle peut l'aider à s'apaiser.",
+          "Quand il est détendu, laisse-le lâcher de lui-même."
+        ],
+        "etapes": [],
+        "suite": []
+      },
+      "cadre_securite": null,
+      "sources": []
+    },
+    {
+      "id": "bercer-osciller",
+      "ordre": 8,
+      "titre": "Bercer, osciller",
+      "mois_debut": 0,
+      "mois_fin": 17,
+      "onglet": "detente",
+      "format_prevu": "Texte",
+      "visuel_attendu": false,
+      "objectif": "Retrouver le balancement doux connu avant la naissance.",
+      "pourquoi": "Le mouvement oscillatoire rappelle les déplacements de la mère pendant la grossesse.",
+      "pas_a_pas": {
+        "intro": [
+          "Bébé tenu **dos arrondi**, jambes repliées, **tête soutenue**.",
+          "Mouvements oscillatoires **lents, sans secousse**.",
+          "Si l'envie te vient, fredonne-lui quelques mots tendres : il reconnaît ta voix."
+        ],
+        "etapes": [],
+        "suite": []
+      },
+      "cadre_securite": null,
+      "sources": [
+        "sante.fr"
+      ]
+    },
+    {
+      "id": "le-roule-boule",
+      "ordre": 9,
+      "titre": "Le roulé-boulé",
+      "mois_debut": 5,
+      "mois_fin": 8,
+      "onglet": "detente",
+      "format_prevu": "Vidéo",
+      "visuel_attendu": true,
+      "objectif": "Aider bébé à sentir les contours de son corps et à se bercer seul.",
+      "pourquoi": "Les appuis sur le dos et les côtés renseignent bébé sur la position et les limites de son corps (sens proprioceptif). Le balancement qu'il crée lui-même l'aide à se rassembler (auto-bercement).",
+      "pas_a_pas": {
+        "intro": [
+          "Bébé en **position bouddha allongé**, pieds et mains regroupés, **genoux repliés vers le ventre**.",
+          "Berce-le **de gauche à droite**, en douceur, **sans forcer**."
+        ],
+        "etapes": [],
+        "suite": []
+      },
+      "cadre_securite": null,
+      "sources": []
+    },
+    {
+      "id": "les-bras-qui-enveloppent",
+      "ordre": 10,
+      "titre": "Les bras qui enveloppent",
+      "mois_debut": 0,
+      "mois_fin": 3,
+      "onglet": "detente",
+      "format_prevu": "Vidéo",
+      "visuel_attendu": true,
+      "objectif": "Redonner à bébé la sensation d'être contenu, comme dans l'utérus.",
+      "pourquoi": "Les mains qui enveloppent rappellent l'espace réduit de l'utérus et limitent les mouvements brusques des bras (réflexe de Moro, qui disparaît vers 4-6 mois).",
+      "pas_a_pas": {
+        "intro": [
+          "Bébé **regroupé et enroulé**, jambes repliées, **mains vers le centre**.",
+          "Enveloppe bébé de toute la **longueur de tes bras**."
+        ],
+        "etapes": [],
+        "suite": []
+      },
+      "cadre_securite": null,
+      "sources": []
+    },
+    {
+      "id": "l-emmaillotage",
+      "ordre": 11,
+      "titre": "L'emmaillotage",
+      "mois_debut": 0,
+      "mois_fin": 3,
+      "onglet": "detente",
+      "format_prevu": "Vidéo uniquement",
+      "visuel_attendu": true,
+      "objectif": "Offrir à bébé une contenance enveloppante pour l'aider à se calmer et à s'endormir.",
+      "pourquoi": "L'enveloppement rappelle l'espace réduit de l'utérus et limite les mouvements brusques des bras (réflexe de Moro, qui disparaît vers 4-6 mois).",
+      "pas_a_pas": {
+        "intro": [
+          "Position : bébé sur le dos, sur une surface plane, dans un **lange fin** (tissu fin, jamais de couverture épaisse). Il reste regroupé : **bras ramenés vers le milieu du corps**, **jambes libres de se plier**."
+        ],
+        "etapes": [
+          "Étale le lange en losange et plie le coin du haut pour former un **bord droit**.",
+          "Installe bébé sur le lange, les **épaules alignées** avec ce bord.",
+          "Ramène ses bras contre sa poitrine.",
+          "Rabats un côté du lange sur sa poitrine et glisse-le sous son corps. Fais de même de l'autre côté.",
+          "Replie ou torsade le bas du lange et glisse-le sous bébé, **sans serrer** : ses jambes restent libres de se plier vers le haut et vers l'extérieur, ses hanches peuvent bouger. **Jamais les jambes droites et serrées**."
+        ],
+        "suite": []
+      },
+      "cadre_securite": [
+        "**Dégage bien son visage** : le lange ne remonte jamais vers son visage.",
+        "**Arrête dès les premiers signes de retournement**, parfois dès 2 mois."
+      ],
+      "sources": [
+        "American Academy of Pediatrics, HealthyChildren.org, « Swaddling: Is it Safe? »",
+        "Children's Healthcare of Atlanta, « How to Safely Swaddle Your Baby »"
       ]
     },
     {
       "id": "le-bain-enveloppe",
-      "ordre": 20,
+      "ordre": 12,
       "titre": "Le bain enveloppé",
       "mois_debut": 0,
       "mois_fin": 4,
-      "familles": [
-        "in_utero",
-        "limites_corps",
-        "ventre_gaz"
-      ],
+      "onglet": "detente",
       "format_prevu": "Vidéo",
       "visuel_attendu": true,
       "objectif": "Prolonger dans l'eau la sensation d'être contenu.",
-      "pourquoi": "La chaleur de l'eau et l'enveloppement rappellent le liquide amniotique ; le corps se relâche.",
+      "pourquoi": "La chaleur de l'eau et l'enveloppement rappellent le liquide amniotique ; le corps se relâche.",
       "pas_a_pas": {
         "intro": [
           "Bébé **enveloppé dans un lange**, regroupé et enroulé, **tête soutenue**, puis mis dans l'eau.",
-          "Le lange l'aide à se regrouper, à retrouver de l'enroulement et à dépenser moins d'énergie dans le bain."
+          "Le lange l'aide à se regrouper, à retrouver de l'enroulement et à dépenser moins d'énergie dans le bain.",
+          "Reste calme et doux pendant le bain : c'est un moment de tendresse à deux."
         ],
         "etapes": [],
         "suite": []
       },
       "cadre_securite": [
-        "**Ne le lâche jamais dans le bain**, même une seconde : une main tient en permanence sa nuque et sa tête, son **visage reste hors de l'eau**.",
+        "**Ne le lâche jamais dans le bain**, même une seconde : une main tient en permanence sa nuque et sa tête, son **visage reste hors de l'eau**.",
         "Le **niveau d'eau reste bas**, et il n'y a rien d'autre dans l'eau que le lange et tes mains.",
         "Tu décides de la fin du bain avant qu'il se refroidisse, **sans jamais rajouter d'eau chaude**.",
         "Jusque vers 3 à 4 mois, si le lange ou une main touche sa joue, il peut tourner la tête vers l'eau.",
@@ -565,59 +367,77 @@
       "sources": []
     },
     {
-      "id": "la-reponse-progressive-aux-pleurs",
-      "ordre": 21,
-      "titre": "La réponse progressive aux pleurs",
-      "mois_debut": 3,
+      "id": "massage-doux-de-detente",
+      "ordre": 13,
+      "titre": "Massage doux de détente",
+      "mois_debut": 4,
       "mois_fin": 23,
-      "familles": [
-        "stop_pleurs"
-      ],
-      "format_prevu": "Texte + schéma des paliers",
+      "onglet": "detente",
+      "format_prevu": "Vidéo",
       "visuel_attendu": true,
-      "objectif": "Répondre aux pleurs par paliers, du plus simple au plus engageant.",
-      "pourquoi": "Les pleurs sont normaux : environ 2 heures par jour en moyenne les 6 premières semaines (Wolke 2017). Avancer par étapes évite de s'épuiser.",
+      "objectif": "Offrir un moment de détente avant le sommeil.",
+      "pourquoi": "Le toucher lent et régulier active les récepteurs de la peau liés à la détente et favorise l'ocytocine.",
       "pas_a_pas": {
-        "intro": [],
-        "etapes": [
-          "**Notre présence** : le regarder.",
-          "Lui parler, que notre voix le rassure.",
-          "**Un contact physique** : poser nos mains sur lui.",
-          "Le prendre dans les bras, en restant calme et silencieux.",
-          "Le bercer.",
-          "Si rien ne fonctionne : **la totale** (gros câlin, bercements, parler, sortir prendre l'air).",
-          "Et si besoin, vérifier s'il a faim."
+        "intro": [
+          "À proposer le soir, avant le sommeil.",
+          "Bébé installé dans une position naturelle, jambes détendues, sans jamais forcer.",
+          "Prends ton temps, dans le calme : c'est un moment de lien entre vous deux."
         ],
-        "suite": [
-          "Quand on a trouvé ce qui le rassure, on continue, et de temps en temps **on repropose le palier du dessous**.",
-          "Gros chagrin : on ne se pose pas la question, **on prend dans les bras et on console**."
-        ]
+        "etapes": [],
+        "suite": []
+      },
+      "cadre_securite": null,
+      "sources": [
+        "sante.fr"
+      ]
+    },
+    {
+      "id": "la-caresse-sur-le-visage",
+      "ordre": 14,
+      "titre": "La caresse sur le visage",
+      "mois_debut": 4,
+      "mois_fin": 23,
+      "onglet": "detente",
+      "format_prevu": "Vidéo",
+      "visuel_attendu": true,
+      "objectif": "Accompagner bébé vers le calme et l'endormissement par des caresses très douces sur son visage.",
+      "pourquoi": "Le toucher est l'un des premiers sens de bébé : il lui apporte sécurité et réconfort. Des caresses légères sur son visage, surtout entre les sourcils, lui rappellent la douceur du contact enveloppant d'avant la naissance, et l'aident à relâcher ses muscles.",
+      "pas_a_pas": {
+        "intro": [
+          "Bébé est installé confortablement, dans tes bras ou allongé sur le dos, calme ou prêt à s'endormir."
+        ],
+        "etapes": [
+          "**Ralentis ton souffle** et ton geste : tu t'apprêtes à lui offrir un moment de douceur.",
+          "Pose **un doigt** très doucement sur son front, **entre ses sourcils**.",
+          "Caresse-le d'un **mouvement lent et léger**, **sans toucher ses yeux**. Tu peux ensuite caresser son front et ses joues.",
+          "Garde un geste régulier, sans te presser, et laisse-le se détendre à son rythme.",
+          "**S'il détourne la tête ou se crispe, arrête** : ce n'est pas le bon moment."
+        ],
+        "suite": []
       },
       "cadre_securite": null,
       "sources": []
     },
     {
       "id": "le-calin-papillon-un-geste-de-relaxation",
-      "ordre": 22,
+      "ordre": 15,
       "titre": "Le câlin papillon, un geste de relaxation",
       "mois_debut": 12,
       "mois_fin": 23,
-      "familles": [
-        "zones_detente"
-      ],
+      "onglet": "detente",
       "format_prevu": "Vidéo uniquement",
       "visuel_attendu": true,
       "objectif": "Apaiser son enfant par un contact enveloppant et un rythme lent, quand l'émotion déborde.",
-      "pourquoi": "Un geste de relaxation : on touche doucement un côté du corps puis l'autre, pendant que le parent respire lentement. L'enfant est entouré et peut se caler sur ce rythme.",
+      "pourquoi": "Un geste de relaxation : tu touches doucement un côté de son corps puis l'autre, pendant que tu respires lentement. L'enfant est entouré et peut se caler sur ce rythme.",
       "pas_a_pas": {
         "intro": [
-          "Position : l'enfant est **assis sur toi, son dos contre ton torse**."
+          "Position : l'enfant est **assis sur toi, son dos contre ton torse**."
         ],
         "etapes": [
           "Tes bras passent devant lui et l'entourent **en se croisant devant lui**. Tes mains à plat, tel un papillon, se posent sur le haut de ses bras ou de ses épaules.",
           "**Tapote doucement**, un côté puis l'autre (droite, gauche, droite, gauche), environ **une fois par seconde**.",
-          "Respire lentement ; tu peux murmurer toujours la même phrase rassurante.",
-          "Continue **1 à 3 minutes**, ou jusqu'à ce qu'il se détende. **Arrête dès qu'il se tend ou se dégage** : il doit pouvoir sortir de tes bras quand il le veut."
+          "Respire lentement ; tu peux murmurer toujours la même phrase rassurante.",
+          "Continue **1 à 3 minutes**, ou jusqu'à ce qu'il se détende. **Arrête dès qu'il se tend ou se dégage** : il doit pouvoir sortir de tes bras quand il le veut."
         ],
         "suite": []
       },
@@ -627,43 +447,12 @@
       ]
     },
     {
-      "id": "la-caresse-sur-le-visage",
-      "ordre": 23,
-      "titre": "La caresse sur le visage",
-      "mois_debut": 4,
-      "mois_fin": 23,
-      "familles": [
-        "zones_detente"
-      ],
-      "format_prevu": "Vidéo",
-      "visuel_attendu": true,
-      "objectif": "Accompagner bébé vers le calme et l'endormissement par des caresses très douces sur son visage.",
-      "pourquoi": "Le toucher est l'un des premiers sens de bébé : il lui apporte sécurité et réconfort. Des caresses légères sur son visage, surtout entre les sourcils, lui rappellent la douceur du contact enveloppant d'avant la naissance, et l'aident à relâcher ses muscles.",
-      "pas_a_pas": {
-        "intro": [
-          "Bébé est installé confortablement, dans tes bras ou allongé sur le dos, calme ou prêt à s'endormir."
-        ],
-        "etapes": [
-          "**Ralentis ton souffle** et ton geste : tu t'apprêtes à lui offrir un moment de douceur.",
-          "Pose **un doigt** très doucement sur son front, **entre ses sourcils**.",
-          "Caresse-le d'un **mouvement lent et léger**, **sans toucher ses yeux**. Tu peux ensuite caresser son front et ses joues.",
-          "Garde un geste régulier, sans te presser, et laisse-le se détendre à son rythme.",
-          "**S'il détourne la tête ou se crispe, arrête** : ce n'est pas le bon moment."
-        ],
-        "suite": []
-      },
-      "cadre_securite": null,
-      "sources": []
-    },
-    {
       "id": "coherence-cardiaque",
-      "ordre": 24,
-      "titre": "Cohérence Cardiaque",
+      "ordre": 16,
+      "titre": "Cohérence cardiaque",
       "mois_debut": 0,
       "mois_fin": 23,
-      "familles": [
-        "zones_detente"
-      ],
+      "onglet": "detente",
       "format_prevu": "Texte et bouton",
       "visuel_attendu": false,
       "objectif": null,
@@ -672,6 +461,188 @@
       "cadre_securite": null,
       "sources": [],
       "type": "lien_coherence_cardiaque"
+    },
+    {
+      "id": "bruit-blanc",
+      "ordre": 17,
+      "titre": "Bruit blanc",
+      "mois_debut": 0,
+      "mois_fin": 6,
+      "onglet": "detente",
+      "format_prevu": "Texte",
+      "visuel_attendu": false,
+      "objectif": "Offrir un fond sonore continu et rassurant.",
+      "pourquoi": "In utero, bébé baigne dans les bruits du corps de sa mère (souffle, battements du cœur, digestion), étouffés par le liquide amniotique. Un son continu peut lui rappeler cet environnement et l'aider à se détendre. Les preuves restent limitées : c'est une aide possible, pas un outil validé.",
+      "pas_a_pas": {
+        "intro": [
+          "Un son continu et doux, à installer avec trois précautions : le volume, la distance et la durée."
+        ],
+        "etapes": [
+          "**Volume bas.** Règle-le au plus bas qui reste efficace : autour de **50 dB**, comme une conversation à voix douce, et **60 dB au maximum**. Au volume maximum, la plupart des appareils du commerce dépassent bien ces niveaux : vérifie avec une appli sonomètre, à l'endroit où se trouve sa tête.",
+          "**Loin de lui.** Place l'appareil à **2 mètres du lit au moins**, jamais dans le lit ni accroché aux barreaux. Évite un téléphone posé près de sa tête.",
+          "**Courte durée.** Lance-le pour l'aider à s'apaiser, puis **coupe-le dès qu'il est endormi**, ou au bout de **30 minutes** au plus (utilise la minuterie de l'appareil). Pas toute la nuit."
+        ],
+        "suite": []
+      },
+      "cadre_securite": null,
+      "sources": [
+        "Hugh et al., Pediatrics, 2014, 133(4):677-681 : « Infant Sleep Machines and Hazardous Sound Pressure Levels »",
+        "Erbele et al., Sleep Medicine, 2024 : appareils et applications de bruit blanc pour nourrissons"
+      ]
+    },
+    {
+      "id": "la-berceuse",
+      "ordre": 18,
+      "titre": "La berceuse",
+      "mois_debut": 0,
+      "mois_fin": 23,
+      "onglet": "detente",
+      "format_prevu": "Texte, audio possible",
+      "visuel_attendu": false,
+      "objectif": "Rassurer bébé par une voix qu'il connaît.",
+      "pourquoi": "Bébé reconnaît les voix entendues avant la naissance. Un rythme lent et mélodique favorise la détente. Chanter régulièrement les mêmes paroles, ou garder le même rythme crée des repères rassurants.",
+      "pas_a_pas": {
+        "intro": [
+          "Chante ou murmure doucement, même sans mélodie parfaite : ta voix est la plus belle des berceuses pour lui.",
+          "Choisis quelques paroles et reprends-les à chaque fois."
+        ],
+        "etapes": [],
+        "suite": []
+      },
+      "cadre_securite": null,
+      "sources": [
+        "sante.fr"
+      ]
+    },
+    {
+      "id": "l-histoire-du-soir",
+      "ordre": 19,
+      "titre": "L'histoire du soir",
+      "mois_debut": 3,
+      "mois_fin": 23,
+      "onglet": "detente",
+      "format_prevu": "Texte, audio possible",
+      "visuel_attendu": false,
+      "objectif": "Installer un moment calme et régulier qui annonce le sommeil.",
+      "pourquoi": "Une voix douce et un rituel répété chaque soir donnent à bébé des repères : il sait que la nuit arrive et peut se détendre.",
+      "pas_a_pas": {
+        "intro": [
+          "Installe-toi tout contre lui, dans la pénombre, et raconte d'une voix douce et lente.",
+          "Peu importe l'histoire : ce qui compte, c'est ta voix et ce moment à deux."
+        ],
+        "etapes": [],
+        "suite": []
+      },
+      "cadre_securite": null,
+      "sources": []
+    },
+    {
+      "id": "le-sansula",
+      "ordre": 20,
+      "titre": "Le sansula",
+      "mois_debut": 2,
+      "mois_fin": 23,
+      "onglet": "detente",
+      "format_prevu": "Texte + image",
+      "visuel_attendu": true,
+      "objectif": "Aider bébé à sentir les limites de son corps grâce à une vibration très douce.",
+      "pourquoi": "Les vibrations douces se transmettent par la peau et les os (résonance osseuse) : bébé perçoit mieux les limites de son corps, il ressent sa propre contenance. Cela apporte à la fois de la découverte et un sentiment de sécurité interne.",
+      "pas_a_pas": {
+        "intro": [
+          "Prends un sansula au **bois plein** (non creux), **adapté à la taille de bébé**, et pose-le sur son ventre ou son dos, en fonction de sa position de détente. Joue de la musique sur lui pour créer des sensations. Voici un petit conseil : joue les notes **d'un côté entre elles, puis de l'autre**, pour garder l'harmonie de cet instrument."
+        ],
+        "etapes": [],
+        "suite": []
+      },
+      "cadre_securite": null,
+      "sources": []
+    },
+    {
+      "id": "la-position-bouddha",
+      "ordre": 21,
+      "titre": "La position bouddha",
+      "mois_debut": 1,
+      "mois_fin": 8,
+      "onglet": "portage",
+      "format_prevu": "Vidéo",
+      "visuel_attendu": true,
+      "objectif": "Offrir à bébé une position de contenance rassurante, respectueuse de son corps.",
+      "pourquoi": "La position physiologique (dos arrondi, jambes repliées) rappelle la posture de l'utérus : bébé se sent contenu et soutenu.",
+      "pas_a_pas": {
+        "intro": [
+          "Bébé est **regroupé et enroulé** : **dos contre ton torse**, **genoux remontés vers le ventre**, **pieds croisés**, bras ramenés vers l'avant, **corps aligné**.",
+          "**Une main le porte par la base**, sous les fesses. L'autre main est sur son tronc, en appui contre toi, et sa tête reste soutenue contre toi, **jamais dans le vide**, **sans appuyer sur sa nuque**.",
+          "Variante : « bouddha inversé » (bébé face à toi)."
+        ],
+        "etapes": [],
+        "suite": []
+      },
+      "cadre_securite": null,
+      "sources": [
+        "Brochure « La position physiologique pour votre bébé » (HEPL Liège, mise en ligne par le CHR de la Citadelle ; validée par deux kinésithérapeutes pédiatriques et un néonatologue)"
+      ]
+    },
+    {
+      "id": "portage-en-echarpe-ou-porte-bebe",
+      "ordre": 22,
+      "titre": "Portage en écharpe ou porte-bébé",
+      "mois_debut": 0,
+      "mois_fin": 15,
+      "onglet": "portage",
+      "format_prevu": "Vidéo",
+      "visuel_attendu": true,
+      "objectif": "Garder bébé contre soi, rassuré, en ayant les mains libres.",
+      "pourquoi": "Ta chaleur, les battements de ton cœur et tes mouvements : bébé retrouve les repères du ventre maternel.",
+      "pas_a_pas": {
+        "intro": [
+          "**Dos arrondi**, **genoux plus hauts que les fesses** (jambes en « M »), **tête soutenue**, **voies respiratoires libres**. L'écharpe ou le porte-bébé maintient cette position."
+        ],
+        "etapes": [],
+        "suite": []
+      },
+      "cadre_securite": null,
+      "sources": []
+    },
+    {
+      "id": "observer-ses-signaux",
+      "ordre": 23,
+      "titre": "Observer ses signaux",
+      "mois_debut": 0,
+      "mois_fin": 11,
+      "onglet": "guide",
+      "format_prevu": "Texte et infographie",
+      "visuel_attendu": true,
+      "objectif": "Repérer ce que communique bébé avant de choisir une réponse.",
+      "pourquoi": "Un bébé pleure pour des raisons très différentes, et a des comportements et des gestuelles qui te donnent des indices (faim, fatigue, trop de stimulation, inconfort, etc.). Lire ses signaux te permet de choisir ta réponse.",
+      "pas_a_pas": null,
+      "cadre_securite": null,
+      "sources": []
+    },
+    {
+      "id": "eveil-calme-eveil-agite-ou-sommeil-agite-distinguer-les-signes",
+      "ordre": 24,
+      "titre": "Éveil calme, éveil agité ou sommeil agité : distinguer les signes",
+      "mois_debut": 0,
+      "mois_fin": 5,
+      "onglet": "guide",
+      "format_prevu": "Texte + 3 vidéos",
+      "visuel_attendu": true,
+      "objectif": "Comprendre dans quel état se trouve bébé pour adapter son rythme éveil-sommeil, et pour distinguer à quel moment il dort même en étant agité.",
+      "pourquoi": "Les différents indices du comportement de bébé te permettent de déterminer son état.",
+      "pas_a_pas": {
+        "intro": [
+          "**L'éveil calme.** Il a les yeux ouverts et brillants, il te regarde, il bouge peu. C'est le moment où il est le plus attentif à ce qui l'entoure et le plus disponible pour un échange. Au début, il ne dure que quelques minutes, puis il s'allonge au fil des semaines.",
+          "**L'éveil agité.** Il est réveillé, mais ses mouvements deviennent désordonnés et de plus en plus amples. Il est peu attentif à ce qui l'entoure, et il peut pleurer : des pleurs qui montent et s'installent. C'est souvent le signe qu'il a besoin d'aide pour se calmer (faim, fatigue, trop de stimulation, inconfort).",
+          "**Le sommeil agité.** Il dort, même si ça n'en a pas l'air. Il grimace, sursaute, ses doigts s'agitent, sa respiration est irrégulière, il peut grogner ou pousser de petits pleurs brefs qui s'arrêtent d'eux-mêmes. Ses yeux sont fermés ou entrouverts, et son regard ne se pose sur rien. **Le test : est-ce qu'il interagit avec toi ?** S'il ne réagit ni à ta voix ni à ton visage, il dort sans doute encore. Dans le doute, attends quelques instants et observe : s'il dort, ça passe tout seul."
+        ],
+        "etapes": [],
+        "suite": []
+      },
+      "cadre_securite": null,
+      "sources": [
+        "Santé.fr (Réseau Morphée), « Sommeil normal du bébé : de la naissance à 3 ans »",
+        "Institut national de santé publique du Québec, « Sommeil dans les premières semaines de vie »"
+      ]
     }
   ]
 }

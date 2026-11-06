@@ -1,7 +1,7 @@
 import { cookies } from "next/headers";
 import { requireProfile } from "@/lib/auth";
 import { getBabyMonth } from "@/lib/utils";
-import { COOKIE_ONGLET, ONGLET_PAR_DEFAUT, getGestesDuMois, getOnglets } from "@/lib/apaisement";
+import { COOKIE_ONGLET, getGestesDuMois, getOnglets, ongletAOuvrir } from "@/lib/apaisement";
 import { ApaisementOnglets } from "@/components/modules/apaisement-onglets";
 import { APAISEMENT, PLAYFAIR } from "@/components/modules/apaisement-design";
 
@@ -15,10 +15,9 @@ export default async function ApaisementPage() {
   const gestes = getGestesDuMois(mois);
   const onglets = getOnglets(mois);
 
-  // Dernier onglet consulté ; « Tous » la première fois, ou s'il est masqué ce mois-ci.
-  const memorise = cookies().get(COOKIE_ONGLET)?.value;
-  const ongletInitial =
-    memorise && onglets.some((o) => o.id === memorise) ? memorise : ONGLET_PAR_DEFAUT;
+  // Dernier onglet consulté ; « onglet_par_defaut » la première fois, et le
+  // premier onglet visible si celui-ci est masqué ce mois-ci.
+  const ongletInitial = ongletAOuvrir(onglets, cookies().get(COOKIE_ONGLET)?.value);
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 20, padding: "0 8px" }}>

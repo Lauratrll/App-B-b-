@@ -821,3 +821,10 @@ Phrase à déconstruire : porter son bébé est bon, ce n'est pas une mauvaise h
 - (Laura, 05/11) ✅ **Épingle proposée sur les gestes d'apaisement.** Migration 0005 exécutée dans Supabase par Laura, puis `node scripts/import-apaisement.mjs` : 23 lignes `content` créées (module `apaisement`, la Cohérence cardiaque n'en a pas). Quota 6.
 - (Laura, 05/11) **Sommeil, Endormissement (T2 à T7)** : « compte au moins 3 semaines de répétition » retiré ; il reste « ça prend souvent plusieurs semaines ».
 - (Laura, 05/11) **Fiche d'un geste d'apaisement : l'objectif (sous-titre) dans un bandeau vert `#526528`, en petites capitales blanches**, pour le mettre en valeur.
+
+## 06/11/2026 — Gestes d'apaisement : 5 onglets, un seul par geste (brief du 05/11, version onglets)
+- (Laura, 05/11) **5 onglets** dans cet ordre : Mal de ventre, gaz · Stop pleurs · Détente · Portage · Guide. **Un geste n'est que dans un seul onglet**, **plus d'onglet « Tous »**. L'onglet d'arrivée est `onglet_par_defaut` (« Stop pleurs », 🟠 choix de Claude à confirmer). Ensuite la page rouvre sur le dernier onglet consulté (cookie) ; s'il est masqué ce mois-ci, elle ouvre le premier onglet visible ; l'ancien « Tous » mémorisé compte comme une première visite.
+- 🟠 À confirmer par Laura : « Détente » reprend aussi le sansula, le roulé-boulé, l'emmaillotage (anciennes « Limites du corps »), la berceuse et l'histoire du soir (ancienne « La voix »).
+- Pictos : « Détente » regroupant onze gestes, chaque geste garde un picto selon sa nature (contenance, cocon, voix…), sinon celui de son onglet ; nouveau picto « Portage ». Liste dans `PICTO_PAR_GESTE` (`components/modules/apaisement-icone.tsx`).
+- Données : tableau, JSON et README dans `content/apaisement/` ; export par `scripts/export_gestes_apaisement.py` (remplace `docs/apaisement notes/generer_json_gestes.py`).
+- Épingles : les 3 identifiants changés (massage du ventre, pédalage des jambes, éveil calme / éveil agité) ont été **renommés en place dans Supabase** (aucune épingle n'existait, rien n'a été supprimé) ; 23 gestes épinglables.
