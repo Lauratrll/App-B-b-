@@ -836,5 +836,15 @@ Phrase à déconstruire : porter son bébé est bon, ce n'est pas une mauvaise h
 - (Laura) **Bouton rond de l'accueil en lavande `#DBD7EA`, sans contour**, picto `#46405A`.
 - (Laura, 06/11) **Pas de bouton « Recommencer ».** Une séance dure **5 min par défaut, puis s'arrête** (la bille finit son expiration et s'arrête en bas) ; on relance avec « Commencer ». Pendant la séance : Pause / Reprendre.
 - (Laura, 06/11) **Un léger « ding » de méditation à chaque changement de mouvement**, pour suivre les yeux fermés. Fabriqué par le navigateur (Web Audio, aucun fichier son, donc aucun droit d'auteur) : un son de bol chantant, plus clair en haut (on expire), une quinte plus grave en bas (on inspire), un ding plus long à la fin de la séance. 🟠 Choix de Claude : un bouton cloche pour couper le son, retenu sur l'appareil.
-- 🟠 Choix de Claude à valider : la consigne « Inspire / Expire » écrite au-dessus de la vague, la phrase d'introduction, l'écran qui reste allumé pendant l'exercice.
+- 🟠 Choix de Claude à valider : la consigne « Inspire / Expire » écrite au-dessus de la vague, l'écran qui reste allumé pendant l'exercice.
+- (Laura, 06/11) Sous-titre : **« 5 min de cohérence cardiaque »**. Phrase d'introduction (texte de Laura) : « En respirant lentement et profondément, notre cœur trouve un rythme calme et régulier, et bébé, blotti contre nous, s’accorde naturellement sur cette douceur. »
+- (Laura, 06/11) **Toute la page a le fond lavande** `#DBD7EA`. **La vague va d'un bord à l'autre de l'écran.** Le tout est **centré en hauteur**, les options un peu plus bas.
+- (Laura, 06/11) **La bulle est un aplat** du violet le plus foncé de la gamme (`#766C9E`, choix de Claude), **sans relief**, avec **une zone autour plus transparente qui grandit** avec l'inspiration et donne le rythme, comme le point de pression de la réflexologie.
+- (Laura, 06/11) **Ding plus chaleureux, moins aigu** : notes une octave plus bas (330 et 247 Hz), attaque plus douce, aigus filtrés, résonance plus longue.
 - Code : `components/modules/metronome-souffle.tsx`, `app/(app)/coherence/page.tsx`.
+
+## 06/11/2026 — Barre du bas : les trois boutons ronds (Laura)
+- (Laura) **Plus de contour sur les trois ronds** de l'accueil : Cohérence, SOS, Que me dit bébé ?
+- (Laura) **SOS écrit au trait, sans sérif**, pour avoir le même trait que les pictos (remplace le « SOS » en Playfair).
+- (Laura) **Que me dit bébé ? : on n'écrit plus le nom.** Rond couleur **slot 1 de Guide-moi** (pêche `#F0B8A8`), sans contour, **juste la loupe** (trait `#7A3E2E`, choix de Claude). Le nom reste lu par les lecteurs d'écran.
+- Code : `components/ui/bottom-nav.tsx` ; détail dans `SKILL_ui.md`, « Navigation principale ».

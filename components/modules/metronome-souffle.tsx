@@ -44,18 +44,26 @@ function creerContexte(): Ctx | null {
   }
 }
 
-function carillon(ctx: Ctx, frequence: number, volume = 0.18, duree = 3.2) {
+// Version « plus chaleureuse, moins aiguë » (Laura, 06/11) : notes plus graves,
+// attaque plus douce, harmoniques aiguës atténuées et un filtre qui adoucit
+// le haut du son.
+function carillon(ctx: Ctx, frequence: number, volume = 0.26, duree = 4.2) {
   const t = ctx.currentTime + 0.01;
+  const filtre = ctx.createBiquadFilter();
+  filtre.type = "lowpass";
+  filtre.frequency.setValueAtTime(1400, t);
+  filtre.Q.setValueAtTime(0.5, t);
   const sortie = ctx.createGain();
   sortie.gain.setValueAtTime(0, t);
-  sortie.gain.linearRampToValueAtTime(volume, t + 0.015);
+  sortie.gain.linearRampToValueAtTime(volume, t + 0.04);
   sortie.gain.exponentialRampToValueAtTime(0.0001, t + duree);
-  sortie.connect(ctx.destination);
-  // Harmoniques d'un bol : rapports ≈ 1 · 2,76 · 5,4, de plus en plus brefs.
+  sortie.connect(filtre).connect(ctx.destination);
+  // Harmoniques d'un bol : rapports ≈ 1 · 2 · 2,76, de plus en plus brefs.
+  // La légère octave (2) donne de la rondeur.
   const partiels: [number, number, number][] = [
     [1, 1, 1],
-    [2.76, 0.35, 0.55],
-    [5.4, 0.12, 0.3],
+    [2, 0.22, 0.6],
+    [2.76, 0.12, 0.4],
   ];
   for (const [ratio, gain, part] of partiels) {
     const osc = ctx.createOscillator();
@@ -70,18 +78,23 @@ function carillon(ctx: Ctx, frequence: number, volume = 0.18, duree = 3.2) {
   }
 }
 
-const NOTE_HAUT = 660; // mi : début de l'expiration
-const NOTE_BAS = 495; // si, une quinte plus bas : début de l'inspiration
+const NOTE_HAUT = 330; // mi grave : début de l'expiration
+const NOTE_BAS = 247; // si, une quarte plus bas : début de l'inspiration
 
-// Dessin (unités du viewBox SVG).
-const W = 340;
+// Dessin (unités du viewBox SVG). Largeur = celle de l'écran de l'app (390) :
+// la vague va d'un bord à l'autre.
+const W = 390;
 const H = 300;
 const CX = W / 2;
 const MILIEU = H / 2;
 const AMPLITUDE = 92;
-const LONGUEUR_ONDE = 250; // une respiration complète = une longueur d'onde
+const LONGUEUR_ONDE = 260; // une respiration complète = une longueur d'onde
+// Bulle : aplat sans relief, comme le point de pression de la réflexologie,
+// avec une zone autour, plus transparente, qui grandit avec l'inspiration.
 const R_MIN = 9;
-const R_MAX = 24;
+const R_MAX = 17;
+const HALO_MIN = 1.5; // rayon de la zone, en multiple de la bulle
+const HALO_MAX = 2.9;
 
 /** Hauteur de la vague, de -1 (en bas) à 1 (en haut), pour une phase en tours. */
 const hauteur = (phase: number) => -Math.cos(2 * Math.PI * phase);
@@ -231,66 +244,41 @@ export function MetronomeSouffle() {
   const chemin = cheminVague(phase);
 
   return (
-    <div className="flex flex-col items-center" style={{ gap: 18 }}>
-      <div
-        className="relative w-full overflow-hidden"
+    <div className="flex w-full flex-col items-center">
+      <p
+        aria-live="polite"
+        className="font-display text-center"
         style={{
-          borderRadius: 28,
-          background: `linear-gradient(180deg, ${LAVANDE.clair} 0%, ${LAVANDE.fond} 100%)`,
+          margin: "0 0 4px 0",
+          fontSize: 22,
+          fontStyle: "italic",
+          color: LAVANDE.texte,
+          opacity: enCours ? 0.55 + 0.45 * Math.sin(Math.PI * ((frac * 2) % 1)) : 0.8,
         }}
       >
-        <p
-          aria-live="polite"
-          className="font-display text-center"
-          style={{
-            position: "absolute",
-            top: 18,
-            left: 0,
-            right: 0,
-            margin: 0,
-            fontSize: 22,
-            fontStyle: "italic",
-            color: LAVANDE.texte,
-            opacity: enCours ? 0.55 + 0.45 * Math.sin(Math.PI * ((frac * 2) % 1)) : 0.8,
-          }}
-        >
-          {consigne}
-        </p>
+        {consigne}
+      </p>
 
-        <svg viewBox={`0 0 ${W} ${H}`} className="block w-full" aria-hidden style={{ marginTop: 34 }}>
-          <defs>
-            {/* La vague s'efface sur les bords : elle vient de loin et repart. */}
-            <linearGradient id="ms-trait" x1="0" x2="1" y1="0" y2="0">
-              <stop offset="0" stopColor={LAVANDE.profond} stopOpacity="0" />
-              <stop offset="0.35" stopColor={LAVANDE.profond} stopOpacity="0.35" />
-              <stop offset="0.5" stopColor={LAVANDE.profond} stopOpacity="0.75" />
-              <stop offset="0.75" stopColor={LAVANDE.profond} stopOpacity="0.55" />
-              <stop offset="1" stopColor={LAVANDE.profond} stopOpacity="0" />
-            </linearGradient>
-            <radialGradient id="ms-bille" cx="0.38" cy="0.35" r="0.7">
-              <stop offset="0" stopColor="#FFFFFF" />
-              <stop offset="0.45" stopColor={LAVANDE.moyen} />
-              <stop offset="1" stopColor={LAVANDE.profond} />
-            </radialGradient>
-            <radialGradient id="ms-halo">
-              <stop offset="0" stopColor="#FFFFFF" stopOpacity="0.7" />
-              <stop offset="1" stopColor="#FFFFFF" stopOpacity="0" />
-            </radialGradient>
-          </defs>
-
+      {/* La vague va d'un bord à l'autre de l'écran : on sort des marges
+          du <main> (px-5 = 20 px de chaque côté). */}
+      <div className="-mx-5 self-stretch">
+        <svg viewBox={`0 0 ${W} ${H}`} className="block w-full" aria-hidden>
           {/* Écho de la vague, plus large et plus pâle, pour la douceur. */}
-          <path d={chemin} fill="none" stroke={LAVANDE.soutenu} strokeOpacity="0.35" strokeWidth={14} strokeLinecap="round" />
-          <path d={chemin} fill="none" stroke="url(#ms-trait)" strokeWidth={3} strokeLinecap="round" />
+          <path d={chemin} fill="none" stroke={LAVANDE.soutenu} strokeOpacity="0.45" strokeWidth={14} strokeLinecap="round" />
+          <path d={chemin} fill="none" stroke={LAVANDE.profond} strokeOpacity="0.7" strokeWidth={3} strokeLinecap="round" />
 
-          {/* Le rail vertical de la bille, à peine visible. */}
-          <line x1={CX} x2={CX} y1={MILIEU - AMPLITUDE} y2={MILIEU + AMPLITUDE} stroke="#FFFFFF" strokeOpacity="0.5" strokeWidth={1} strokeDasharray="2 6" />
-
-          <circle cx={CX} cy={yBille} r={rBille * 2.4} fill="url(#ms-halo)" opacity={0.4 + 0.6 * montee} />
-          <circle cx={CX} cy={yBille} r={rBille} fill="url(#ms-bille)" />
+          {/* Zone autour de la bulle, plus transparente : elle grandit avec
+              l'inspiration et donne le rythme (comme les ondes du point de
+              pression de la réflexologie). */}
+          <circle cx={CX} cy={yBille} r={rBille * (HALO_MIN + (HALO_MAX - HALO_MIN) * montee)} fill={LAVANDE.bulle} opacity={0.14} />
+          <circle cx={CX} cy={yBille} r={rBille * (1 + (HALO_MIN + (HALO_MAX - HALO_MIN) * montee - 1) * 0.55)} fill={LAVANDE.bulle} opacity={0.22} />
+          {/* La bulle : un aplat, sans relief. */}
+          <circle cx={CX} cy={yBille} r={rBille} fill={LAVANDE.bulle} />
         </svg>
       </div>
 
-      <div className="flex flex-col items-center" style={{ gap: 8 }}>
+      {/* Options un peu plus bas (Laura, 06/11). */}
+      <div className="flex flex-col items-center" style={{ gap: 8, marginTop: 36 }}>
         <p
           className="m-0 font-semibold uppercase"
           style={{ fontSize: 9, letterSpacing: ".15em", color: LAVANDE.texte, opacity: 0.75 }}
@@ -324,7 +312,7 @@ export function MetronomeSouffle() {
         </div>
       </div>
 
-      <div className="flex items-center" style={{ gap: 10 }}>
+      <div className="flex items-center" style={{ gap: 10, marginTop: 18 }}>
         <button
           type="button"
           onClick={lancerOuPause}

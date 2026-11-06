@@ -94,6 +94,18 @@ const ICONE_COHERENCE = (
   </>
 );
 
+// « SOS » dessiné au trait (grille 36 × 16), sans sérif : deux S et un O.
+const LETTRE_S = (
+  <path d="M8.4 4.3C7.8 3 6.6 2.2 5 2.2 3 2.2 1.7 3.3 1.7 4.9c0 1.7 1.4 2.4 3.4 3 2.2.6 3.7 1.4 3.7 3.3 0 1.7-1.5 2.8-3.7 2.8-1.8 0-3.2-.8-3.9-2.2" />
+);
+const LETTRES_SOS = (
+  <>
+    {LETTRE_S}
+    <ellipse cx={18} cy={8.1} rx={5} ry={5.9} />
+    <g transform="translate(26 0)">{LETTRE_S}</g>
+  </>
+);
+
 // Loupe : « Que me dit bébé ? », l'analyse du comportement (Laura, 05/11/2026).
 const ICONE_LOUPE = (
   <>
@@ -280,22 +292,17 @@ export function BottomNav() {
             {ICONE_COHERENCE}
           </svg>
         </BoutonRond>
-        <BoutonRond href="/sos" label="SOS, dois-je consulter ?" actif={false} fond="#FAD2B3" bord="#EDA36E">
-          <span className="font-display font-bold" style={{ fontSize: 15, letterSpacing: "0.04em", color: "#A4471F" }}>
-            SOS
-          </span>
+        {/* SOS écrit au trait, sans sérif, du même trait que les pictos ; sans contour (Laura, 06/11). */}
+        <BoutonRond href="/sos" label="SOS, dois-je consulter ?" actif={false} fond="#FAD2B3" bord="transparent">
+          <svg width={30} height={14} viewBox="0 0 36 16" fill="none" stroke="#A4471F" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+            {LETTRES_SOS}
+          </svg>
         </BoutonRond>
-        <BoutonRond href="/que-me-dit-bebe" label="Que me dit bébé ?" actif={false} fond="#FFFFFF" bord={INACTIVE}>
-          <span className="flex flex-col items-center" style={{ color: "#384E48" }}>
-            <svg width={19} height={19} viewBox="0 0 24 24" fill="none" stroke="#384E48" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-              {ICONE_LOUPE}
-            </svg>
-            <span aria-hidden className="text-center font-semibold" style={{ fontSize: 8, lineHeight: 1.05, marginTop: 2 }}>
-              Que me dit
-              <br />
-              bébé ?
-            </span>
-          </span>
+        {/* Rond pêche du slot 1 de Guide-moi, loupe seule, sans mot ni contour (Laura, 06/11). */}
+        <BoutonRond href="/que-me-dit-bebe" label="Que me dit bébé ?" actif={false} fond="#F0B8A8" bord="transparent">
+          <svg width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="#7A3E2E" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+            {ICONE_LOUPE}
+          </svg>
         </BoutonRond>
         <OngletPicto href="/epingles" label="Épinglés" actif={false}>
           {ICONE_EPINGLE}

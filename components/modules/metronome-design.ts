@@ -9,5 +9,7 @@ export const LAVANDE = {
   moyen: "#CFC9E1",
   soutenu: "#BBB4D1",
   profond: "#8F86B0",
+  /** La bulle : le violet le plus foncé de la gamme, en aplat (06/11). */
+  bulle: "#766C9E",
   texte: "#46405A",
 } as const;
