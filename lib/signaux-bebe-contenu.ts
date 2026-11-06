@@ -1,7 +1,7 @@
 // ----------------------------------------------------------------------------
 // « Que me dit bébé ? » : préparation du contenu côté serveur (05/11/2026).
 //
-// Lit content/signaux-bebe/signaux_bebe_v2.json (questionnaire « pleurs » court, 06/11/2026 ; l'original signaux_bebe.json est gardé pour un questionnaire sommeil ; généré depuis le classeur par
+// Lit content/signaux-bebe/signaux_bebe_v2.json (questionnaire « pleurs » court, 06/11/2026 ; l'original est rangé dans docs/signaux-bebe-v1/ pour un questionnaire sommeil ; généré depuis le classeur par
 // scripts/export_signaux_bebe.py ; ne jamais l'éditer à la main) et ne garde
 // QUE ce qui s'affiche. Les champs internes (note_interne, sources,
 // statut_preuve, pourquoi, tests) ne partent jamais vers le téléphone.
