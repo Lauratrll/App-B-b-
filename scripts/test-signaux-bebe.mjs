@@ -6,7 +6,7 @@ import { readFileSync } from "node:fs";
 import { analyserSignaux, alertesAffichees, nettoyerTexte } from "../lib/signaux-bebe.ts";
 
 const donnees = JSON.parse(
-  readFileSync(new URL("../content/signaux-bebe/signaux_bebe.json", import.meta.url), "utf8"),
+  readFileSync(new URL("../content/signaux-bebe/signaux_bebe_v2.json", import.meta.url), "utf8"),
 );
 
 let echecs = 0;
@@ -51,7 +51,7 @@ for (const t of donnees.tests_attendus) {
 // Garde-fous d'affichage : rien d'interne ne doit sortir.
 const interdits = /\bS\d{2}\b|à valider|non sourcé|EDPP|formation/i;
 const affiches = [
-  ...donnees.pistes.map((p) => nettoyerTexte(p.action)),
+  ...donnees.pistes.flatMap((p) => [p.action, p.observer ?? "", p.consulter ?? ""].map((x) => nettoyerTexte(x))),
   ...donnees.etapes.map((e) => nettoyerTexte(e.texte)),
   ...alertesAffichees(donnees.alertes).flatMap((al) => [al.situation, al.a_dire].map((x) => nettoyerTexte(x ?? ""))),
   ...donnees.messages.map((m) => nettoyerTexte(m.texte)),

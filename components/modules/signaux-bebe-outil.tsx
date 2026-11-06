@@ -2,11 +2,12 @@
 
 import { useMemo, useState } from "react";
 import { analyserSignaux, estValable } from "@/lib/signaux-bebe";
-import type { ContenuSignaux } from "@/lib/signaux-bebe-contenu";
+import type { ContenuSignaux, SourceRef } from "@/lib/signaux-bebe-contenu";
 
 // ----------------------------------------------------------------------------
 // « Que me dit bébé ? » : les écrans (maquette validée par Laura le 05/11/2026).
-//   1. Âge   2. Une catégorie par écran   3. Résultat
+//   1. Une catégorie par écran   2. Résultat
+//   (06/11 : plus d'écran « âge » : l'app connaît déjà l'âge de bébé, pris dans le profil.)
 // AUCUNE donnée enregistrée : pas de base, pas de cookie, pas de stockage
 // local, pas d'analytics. Tout est dans l'état React de la page et disparaît
 // quand on la quitte (prompt §7 : données sur un mineur, proches de la santé).
@@ -43,11 +44,11 @@ const AGE_MAX = 23;
 type Props = { contenu: ContenuSignaux; ageProfil: number };
 
 export function SignauxBebeOutil({ contenu, ageProfil }: Props) {
-  const ageDepart = Math.max(AGE_MIN, Math.min(AGE_MAX, ageProfil));
-  const [age, setAge] = useState(ageDepart);
+  // L'âge vient du profil : on ne le redemande pas.
+  const age = Math.max(AGE_MIN, Math.min(AGE_MAX, ageProfil));
   const [coches, setCoches] = useState<Set<string>>(() => new Set());
-  // -1 = écran de l'âge ; 0..n-1 = catégories ; n = résultat.
-  const [ecran, setEcran] = useState(-1);
+  // 0..n-1 = catégories ; n = résultat.
+  const [ecran, setEcran] = useState(0);
   const [voirAlertes, setVoirAlertes] = useState(false);
 
   // Catégories qui ont au moins une réponse à cet âge (les autres sont sautées).
@@ -79,17 +80,14 @@ export function SignauxBebeOutil({ contenu, ageProfil }: Props) {
     });
 
   const recommencer = () => {
-    setAge(ageDepart);
     setCoches(new Set());
     setVoirAlertes(false);
-    aller(-1);
+    aller(0);
   };
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 16, padding: "0 4px", color: C.texte }}>
-      {ecran === -1 ? (
-        <EcranAge age={age} setAge={setAge} onCommencer={() => aller(0)} />
-      ) : ecran < categories.length ? (
+      {ecran < categories.length ? (
         <EcranCategorie
           index={ecran}
           total={categories.length}
@@ -98,7 +96,7 @@ export function SignauxBebeOutil({ contenu, ageProfil }: Props) {
           coches={coches}
           basculer={basculer}
           nbCoches={nbCoches}
-          precedent={() => aller(ecran - 1)}
+          precedent={ecran > 0 ? () => aller(ecran - 1) : undefined}
           suivant={() => aller(ecran + 1)}
           dernier={ecran === categories.length - 1}
         />
@@ -106,16 +104,14 @@ export function SignauxBebeOutil({ contenu, ageProfil }: Props) {
         <EcranResultat
           contenu={contenu}
           resultat={resultat}
+          coches={coches}
+          age={age}
           voirAlertes={voirAlertes}
           quandConsulter={() => {
-            if (resultat.alerte) {
-              document.getElementById("alertes")?.scrollIntoView({ behavior: "smooth" });
-            } else {
-              setVoirAlertes(true);
-              requestAnimationFrame(() =>
-                document.getElementById("alertes")?.scrollIntoView({ behavior: "smooth" }),
-              );
-            }
+            setVoirAlertes(true);
+            requestAnimationFrame(() =>
+              document.getElementById("alertes")?.scrollIntoView({ behavior: "smooth" }),
+            );
           }}
           modifier={() => aller(categories.length - 1)}
           recommencer={recommencer}
@@ -182,75 +178,7 @@ function Bouton({
   );
 }
 
-// --- 1. Âge ------------------------------------------------------------------
-
-function EcranAge({
-  age,
-  setAge,
-  onCommencer,
-}: {
-  age: number;
-  setAge: (n: number) => void;
-  onCommencer: () => void;
-}) {
-  const rond = (signe: "-" | "+", desactive: boolean, onClick: () => void) => (
-    <button
-      type="button"
-      onClick={onClick}
-      disabled={desactive}
-      aria-label={signe === "-" ? "Un mois de moins" : "Un mois de plus"}
-      style={{
-        width: 44,
-        height: 44,
-        borderRadius: "50%",
-        border: `1.5px solid ${C.muted}`,
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        opacity: desactive ? 0.35 : 1,
-        background: "transparent",
-      }}
-    >
-      <svg width={18} height={18} viewBox="0 0 24 24" fill="none" stroke={C.muted} strokeWidth={1.8} strokeLinecap="round" aria-hidden>
-        <path d="M6 12h12" />
-        {signe === "+" ? <path d="M12 6v12" /> : null}
-      </svg>
-    </button>
-  );
-
-  return (
-    <>
-      <Titre sousTitre="Ce qu'il te dit peut-être">Que me dit bébé ?</Titre>
-      <section>
-        <p style={LABEL}>Quel âge a bébé ?</p>
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "space-between",
-            background: "#fff",
-            borderRadius: 16,
-            padding: "14px 16px",
-          }}
-        >
-          {rond("-", age <= AGE_MIN, () => setAge(Math.max(AGE_MIN, age - 1)))}
-          <span aria-live="polite" style={{ fontFamily: PLAYFAIR, fontSize: 32, lineHeight: 1 }}>
-            {age} <span style={{ fontSize: 15, color: C.muted, fontFamily: "inherit" }}>mois</span>
-          </span>
-          {rond("+", age >= AGE_MAX, () => setAge(Math.min(AGE_MAX, age + 1)))}
-        </div>
-        <p style={{ fontSize: 12, color: C.muted, margin: "8px 2px 0", lineHeight: 1.5 }}>
-          L&apos;âge de ton profil, modifiable de 0 à 23 mois.
-        </p>
-      </section>
-      <div style={{ display: "flex" }}>
-        <Bouton onClick={onCommencer}>Commencer</Bouton>
-      </div>
-    </>
-  );
-}
-
-// --- 2. Une catégorie par écran ---------------------------------------------
+// --- 1. Une catégorie par écran ---------------------------------------------
 
 function EcranCategorie({
   index,
@@ -271,7 +199,7 @@ function EcranCategorie({
   coches: Set<string>;
   basculer: (id: string) => void;
   nbCoches: number;
-  precedent: () => void;
+  precedent?: () => void;
   suivant: () => void;
   dernier: boolean;
 }) {
@@ -285,6 +213,7 @@ function EcranCategorie({
 
   return (
     <>
+      {index === 0 ? <Titre sousTitre="Ce qu'il te dit peut-être">Que me dit bébé ?</Titre> : null}
       <div>
         <div style={{ display: "flex", justifyContent: "space-between", fontSize: 11, color: C.muted }}>
           <span>
@@ -367,23 +296,36 @@ function EcranCategorie({
       ))}
 
       <div style={{ display: "flex", gap: 8 }}>
-        <Bouton secondaire onClick={precedent}>
-          Précédent
-        </Bouton>
+        {precedent ? (
+          <Bouton secondaire onClick={precedent}>
+            Précédent
+          </Bouton>
+        ) : null}
         <Bouton onClick={suivant}>{dernier ? "Voir le résultat" : "Suivant"}</Bouton>
       </div>
     </>
   );
 }
 
-// --- 3. Résultat -------------------------------------------------------------
+// --- 2. Résultat -------------------------------------------------------------
 
-function ListeAlertes({ alertes }: { alertes: ContenuSignaux["alertes"] }) {
+/** Petits numéros de notes, comme dans les autres rubriques : le détail est en bas, dans « Sources ». */
+function Refs({ n }: { n: number[] }) {
+  if (n.length === 0) return null;
+  return (
+    <sup style={{ fontSize: 9, fontWeight: 600, color: C.muted, marginLeft: 3, whiteSpace: "nowrap" }}>
+      {n.join(", ")}
+    </sup>
+  );
+}
+
+function ListeAlertes({ alertes, refs }: { alertes: ContenuSignaux["alertes"]; refs: number[][] }) {
   return (
     <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: 8 }}>
-      {alertes.map((a) => (
+      {alertes.map((a, i) => (
         <li key={a.situation} style={{ fontSize: 13, lineHeight: 1.45 }}>
           <span>{a.situation}</span>
+          <Refs n={refs[i] ?? []} />
           <span style={{ display: "block", fontWeight: 600, color: C.corailFonce }}>{a.a_dire}</span>
         </li>
       ))}
@@ -391,7 +333,30 @@ function ListeAlertes({ alertes }: { alertes: ContenuSignaux["alertes"] }) {
   );
 }
 
-function BlocAlertes({ alertes, enTete }: { alertes: ContenuSignaux["alertes"]; enTete: boolean }) {
+/** Message d'appel : seulement les signes cochés qui demandent un avis. */
+function AppelConsulter({ alertes, refs }: { alertes: ContenuSignaux["alertes"]; refs: number[][] }) {
+  const immediat = alertes.some((a) => a.urgence === "Immédiate");
+  return (
+    <section
+      id="appel"
+      style={{ background: C.corailClair, border: `1.5px solid ${C.corail}`, borderRadius: 14, padding: "14px 15px" }}
+    >
+      <p style={{ fontSize: 15, fontWeight: 700, color: C.corailFonce, margin: "0 0 4px" }}>
+        {immediat ? "Consulte sans attendre" : "Parles-en vite à un professionnel de santé"}
+      </p>
+      <p style={{ fontSize: 12.5, color: C.corailFonce, margin: "0 0 10px", lineHeight: 1.45 }}>
+        Ce que tu as coché mérite un avis médical, avant de chercher une piste ci-dessous. En cas de doute, appelle le{" "}
+        <a href="tel:15" style={{ color: C.corailFonce, fontWeight: 700 }}>
+          15
+        </a>
+        .
+      </p>
+      <ListeAlertes alertes={alertes} refs={refs} />
+    </section>
+  );
+}
+
+function BlocAlertes({ alertes, refs }: { alertes: ContenuSignaux["alertes"]; refs: number[][] }) {
   return (
     <section
       id="alertes"
@@ -403,17 +368,60 @@ function BlocAlertes({ alertes, enTete }: { alertes: ContenuSignaux["alertes"]; 
         scrollMarginTop: 16,
       }}
     >
-      <p style={{ fontSize: 14, fontWeight: 600, color: C.corailFonce, margin: "0 0 10px" }}>
-        {enTete ? "Avant tout, ces signes demandent un avis" : "Quand consulter ?"}
-      </p>
-      <ListeAlertes alertes={alertes} />
+      <p style={{ fontSize: 14, fontWeight: 600, color: C.corailFonce, margin: "0 0 10px" }}>Quand consulter ?</p>
+      <ListeAlertes alertes={alertes} refs={refs} />
     </section>
+  );
+}
+
+/** Même mécanisme que les autres rubriques : lien « Sources » souligné, liste repliée. */
+function SourcesNumerotees({ liste }: { liste: { n: number; ref: SourceRef }[] }) {
+  const [ouvert, setOuvert] = useState(false);
+  if (liste.length === 0) return null;
+  return (
+    <div style={{ margin: "0" }}>
+      <button
+        type="button"
+        onClick={() => setOuvert((o) => !o)}
+        aria-expanded={ouvert}
+        style={{
+          all: "unset",
+          cursor: "pointer",
+          fontSize: 10,
+          fontWeight: 600,
+          color: "#8A9E98",
+          textDecoration: "underline",
+        }}
+      >
+        {ouvert ? "Masquer les sources" : "Sources"}
+      </button>
+      {ouvert ? (
+        <div style={{ fontSize: 10, color: "#6E7B72", lineHeight: 1.5, marginTop: 5 }}>
+          {liste.map(({ n, ref }) => (
+            <div key={n} style={{ marginBottom: 3 }}>
+              {n}. {ref.titre}
+              {ref.auteur ? `, ${ref.auteur}` : ""}
+              {ref.lien ? (
+                <>
+                  {" "}
+                  <a href={ref.lien} target="_blank" rel="noopener noreferrer" style={{ color: "#6E7B72" }}>
+                    (lien)
+                  </a>
+                </>
+              ) : null}
+            </div>
+          ))}
+        </div>
+      ) : null}
+    </div>
   );
 }
 
 function EcranResultat({
   contenu,
   resultat,
+  coches,
+  age,
   voirAlertes,
   quandConsulter,
   modifier,
@@ -421,28 +429,67 @@ function EcranResultat({
 }: {
   contenu: ContenuSignaux;
   resultat: ReturnType<typeof analyserSignaux>;
+  coches: Set<string>;
+  age: number;
   voirAlertes: boolean;
   quandConsulter: () => void;
   modifier: () => void;
   recommencer: () => void;
 }) {
+  // Numérotation des sources dans l'ordre d'apparition à l'écran (appel, cartes, étapes, liste).
+  const numeros = new Map<string, number>();
+  const ref = (ids: string[] | undefined): number[] => {
+    const out: number[] = [];
+    for (const id of ids ?? []) {
+      if (!contenu.sourcesRef[id]) continue;
+      if (!numeros.has(id)) numeros.set(id, numeros.size + 1);
+      out.push(numeros.get(id)!);
+    }
+    return out.sort((x, y) => x - y);
+  };
+
+  const valables = contenu.options.filter((o) => coches.has(o.id) && estValable(o, age));
+  const reponsesAlerte = new Set(valables.filter((o) => o.type === "alerte").map((o) => o.reponse));
+  const declenchees = contenu.alertes.filter((a) => (a.declencheurs ?? []).some((r) => reponsesAlerte.has(r)));
+  const refsAppel = declenchees.map((a) => ref(a.sources));
+  const sourcesPiste = (code: string) =>
+    valables.filter((o) => (o.points[code] ?? 0) > 0).flatMap((o) => o.sources ?? []);
+  const sourcesConseils = (code: string) => contenu.pistes.find((p) => p.code === code)?.sources ?? [];
+  const refsCartes = resultat.top3.map((c) => ref([...sourcesPiste(c.piste.code), ...sourcesConseils(c.piste.code)]));
+  const refsEtapes = contenu.etapes.map((e) => ref(e.sources));
+  const refsToutes = voirAlertes ? contenu.alertes.map((a) => ref(a.sources)) : [];
+  const liste = Array.from(numeros.entries())
+    .map(([id, n]) => ({ n, ref: contenu.sourcesRef[id] }))
+    .sort((x, y) => x.n - y.n);
+
   return (
     <>
       <Titre>Ce qu&apos;il te dit peut-être</Titre>
 
-      {resultat.alerte ? <BlocAlertes alertes={contenu.alertes} enTete /> : null}
+      {declenchees.length > 0 ? <AppelConsulter alertes={declenchees} refs={refsAppel} /> : null}
 
       {resultat.top3.length > 0 ? (
         <section style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-          {resultat.top3.map((c) => (
+          {resultat.top3.map((c, i) => (
             <article key={c.piste.code} style={{ background: "#fff", borderRadius: 14, padding: "12px 14px" }}>
               <p style={{ ...LABEL, color: C.corail, margin: "0 0 3px" }}>
                 {c.rang} · {c.piste.nom}
               </p>
               <p style={{ fontFamily: PLAYFAIR, fontSize: 17, lineHeight: 1.3, margin: "0 0 5px" }}>
                 {contenu.phrases[c.piste.code] ?? c.piste.nom}
+                <Refs n={refsCartes[i]} />
               </p>
               <p style={{ fontSize: 13, color: C.doux, lineHeight: 1.5, margin: 0 }}>{c.piste.action}</p>
+              {c.piste.observer ? (
+                <p style={{ fontSize: 12.5, color: C.doux, lineHeight: 1.5, margin: "7px 0 0" }}>
+                  <strong style={{ fontWeight: 600 }}>À observer :</strong> {c.piste.observer}
+                </p>
+              ) : null}
+              {c.piste.consulter ? (
+                <p style={{ fontSize: 12.5, color: C.corailFonce, lineHeight: 1.5, margin: "5px 0 0" }}>
+                  <strong style={{ fontWeight: 600 }}>Quand consulter :</strong> {c.piste.consulter}
+                </p>
+              ) : null}
             </article>
           ))}
         </section>
@@ -474,7 +521,7 @@ function EcranResultat({
       <section>
         <p style={LABEL}>À essayer dans l&apos;ordre</p>
         <ol style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: 7 }}>
-          {contenu.etapes.map((e) => (
+          {contenu.etapes.map((e, i) => (
             <li key={e.n} style={{ display: "flex", gap: 10, fontSize: 13, lineHeight: 1.5, color: C.doux }}>
               <span
                 aria-hidden
@@ -494,13 +541,18 @@ function EcranResultat({
               >
                 {e.n}
               </span>
-              <span>{e.texte}</span>
+              <span>
+                {e.texte}
+                <Refs n={refsEtapes[i]} />
+              </span>
             </li>
           ))}
         </ol>
       </section>
 
-      {voirAlertes && !resultat.alerte ? <BlocAlertes alertes={contenu.alertes} enTete={false} /> : null}
+      {voirAlertes ? <BlocAlertes alertes={contenu.alertes} refs={refsToutes} /> : null}
+
+      <SourcesNumerotees liste={liste} />
 
       <div style={{ display: "flex", gap: 8 }}>
         <Bouton secondaire onClick={modifier}>

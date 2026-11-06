@@ -14,7 +14,17 @@
 // (scripts de test) comme par Next.
 // ----------------------------------------------------------------------------
 
-export type Piste = { code: string; nom: string; libelle: string; action: string };
+export type Piste = {
+  code: string;
+  nom: string;
+  libelle: string;
+  action: string;
+  /** Pistes d'observation : ce qui permet de confirmer ou non. */
+  observer?: string | null;
+  /** Quand consulter pour cette piste. */
+  consulter?: string | null;
+  sources?: string[];
+};
 
 export type OptionSignal = {
   id: string;
@@ -25,6 +35,8 @@ export type OptionSignal = {
   age_max: number;
   type: "signe" | "alerte" | string;
   points: Record<string, number>;
+  /** Identifiants de sources publiques (S07…), jamais les sources internes. */
+  sources?: string[];
 };
 
 export type Alerte = {
@@ -32,9 +44,12 @@ export type Alerte = {
   pourquoi: string | null;
   a_dire: string | null;
   urgence: string | null;
+  /** Réponses du questionnaire qui déclenchent cette alerte (appel à consulter). */
+  declencheurs?: string[];
+  sources?: string[];
 };
 
-export type Etape = { n: number; texte: string };
+export type Etape = { n: number; texte: string; sources?: string[] };
 export type MessageConditionnel = { id: string; texte: string; quand: string };
 export type NiveauConfiance = { quand: string; texte: string };
 

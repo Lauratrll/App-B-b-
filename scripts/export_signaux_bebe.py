@@ -23,6 +23,10 @@ for k, ci in enumerate(pts_cols):
         "nom": hdr[ci].replace("Points : ", ""),
         "libelle": wr.cell(row=9 + k, column=1).value,
         "action": wr.cell(row=9 + k, column=10).value,
+        **({"observer": wr.cell(row=9 + k, column=11).value,
+            "consulter": wr.cell(row=9 + k, column=12).value,
+            "sources_conseils": wr.cell(row=9 + k, column=13).value}
+           if wr.cell(row=8, column=11).value == "À observer" else {}),
     })
 
 # --- options du questionnaire
@@ -50,7 +54,16 @@ for n, row in enumerate(wq.iter_rows(min_row=2, values_only=True), 1):
 alertes = []
 for row in wa.iter_rows(min_row=2, values_only=True):
     if row[0]:
-        alertes.append({"situation": row[0], "pourquoi": row[1], "a_dire": row[2], "sources": row[3], "urgence": row[4]})
+        decl = [x.strip() for x in str(row[5]).split("|") if x.strip()] if len(row) > 5 and row[5] else []
+        alertes.append({"situation": row[0], "pourquoi": row[1], "a_dire": row[2], "sources": row[3], "urgence": row[4], "declencheurs": decl})
+
+# --- références des sources (onglet Sources) : titre, auteur, lien
+sources_reference = {}
+if "Sources" in wb.sheetnames:
+    for row in wb["Sources"].iter_rows(min_row=2, values_only=True):
+        if row[0] and re.fullmatch(r"S\d+", str(row[0])):
+            lien = row[4] if row[4] and str(row[4]).startswith("http") else None
+            sources_reference[row[0]] = {"titre": row[1], "auteur": row[2], "lien": lien}
 
 # --- étapes « à essayer dans l'ordre »
 etapes = []
@@ -95,6 +108,7 @@ out = {
     "pistes": pistes,
     "options": options,
     "alertes": alertes,
+    "sources_reference": sources_reference,
     "etapes": etapes,
     "messages": messages,
     "confiance": confiance,

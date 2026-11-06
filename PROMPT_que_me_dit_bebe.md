@@ -8,7 +8,7 @@ Ce prompt est autonome. Lis-le en entier avant de coder. Laura n'a pas de compé
 
 ## 1. Ce qu'on construit
 
-Un outil pour une maman démunie face aux pleurs ou au comportement de son bébé. Elle indique l'âge de bébé, coche ce qu'elle observe, et reçoit :
+Un outil pour une maman démunie face aux pleurs ou au comportement de son bébé. Elle coche ce qu'elle observe (l'âge de bébé vient du profil, on ne le lui demande pas), et reçoit :
 - des **pistes classées** (jamais un diagnostic),
 - une **action à essayer** pour chaque piste,
 - des **messages** quand une situation précise le justifie,
@@ -20,9 +20,9 @@ Un outil pour une maman démunie face aux pleurs ou au comportement de son béb�
 
 | Fichier | Rôle |
 |---|---|
-| `content/signaux-bebe/Signaux_bebe_reference.xlsx` | **Source de vérité.** Laura corrige dans Excel. Ne jamais éditer le JSON à la main. |
-| `content/signaux-bebe/signaux_bebe.json` | Le contenu pour l'app : 12 pistes, 77 réponses avec points, 15 alertes, 10 étapes, 3 messages conditionnels, règles de confiance, et `tests_attendus` (6 scénarios calculés par le classeur). |
-| `scripts/export_signaux_bebe.py` | Régénère le JSON depuis le classeur : `python scripts/export_signaux_bebe.py content/signaux-bebe/Signaux_bebe_reference.xlsx content/signaux-bebe/signaux_bebe.json` |
+| `content/signaux-bebe/Signaux_bebe_reference_v2.xlsx` | **Source de vérité** du questionnaire « pleurs » court (v2, 06/11). Laura corrige dans Excel. Ne jamais éditer le JSON à la main. L'original `Signaux_bebe_reference.xlsx` (+ `signaux_bebe.json`) est conservé intact pour un futur questionnaire sommeil. |
+| `content/signaux-bebe/signaux_bebe_v2.json` | Le contenu pour l'app (lu par `lib/signaux-bebe-contenu.ts`) : 10 pistes, 41 réponses avec points, 16 alertes (avec `declencheurs`), `sources_reference`, 9 étapes, 3 messages conditionnels, règles de confiance, et `tests_attendus` (10 scénarios calculés par le classeur). |
+| `scripts/export_signaux_bebe.py` | Régénère le JSON depuis le classeur : `python scripts/export_signaux_bebe.py content/signaux-bebe/Signaux_bebe_reference_v2.xlsx content/signaux-bebe/signaux_bebe_v2.json`, puis `python scripts/calc_tests_signaux_bebe.py <classeur v2> <json v2>` (recalcule `tests_attendus` avec LibreOffice). `scripts/build_signaux_bebe_v2.py` recrée le classeur v2 depuis l'original. |
 
 Le JSON contient `algorithme` (règles de calcul en toutes lettres). Lis-le : c'est la spécification.
 
@@ -35,16 +35,16 @@ Crée `lib/signaux-bebe.ts` : une fonction pure, sans effet de bord, qui prend `
 - Classement : score décroissant, uniquement les scores `> 0`. **À égalité, l'ordre de la liste `pistes` départage** (la première gagne).
 - Alerte : si une réponse de `type: "alerte"` est cochée et valable, afficher **avant** tout résultat la liste `alertes` du JSON (colonnes `situation`, `a_dire`, `urgence`), triée par urgence (« Immédiate » d'abord). Le classeur ne relie pas une réponse à une ligne précise : on affiche donc toute la liste. Les réponses d'alerte n'ont aucun point.
 - Confiance et messages : voir `confiance` et `messages` dans le JSON. Les conditions sont écrites dans le champ `quand` ; `rang(X)` = rang de la piste X dans le classement.
-- **Valide ton moteur avec `tests_attendus`** (script de test, ex. `scripts/test-signaux-bebe.mjs`). Les 6 scénarios doivent sortir exactement les mêmes top 3, la même confiance, la même alerte et les mêmes messages. Montre le résultat à Laura.
+- **Valide ton moteur avec `tests_attendus`** (script de test, ex. `scripts/test-signaux-bebe.mjs`). Les scénarios doivent sortir exactement les mêmes top 3, la même confiance, la même alerte et les mêmes messages. Montre le résultat à Laura.
 
 ## 4. Les écrans
 
 Mobile d'abord (max 390 px), fond Cream `#F2EDE8`, titres Playfair Display, corail `#D4604A`, vert eucalyptus `#8A9E98`, icônes SVG outline (jamais d'emoji), `padding-bottom` 80 px (barre fixe). Respecte `skills/SKILL_ui.md` : ne modifie aucune page existante.
 
-1. **Âge** : choix de l'âge en mois (0 à 23). Par défaut, l'âge du bébé déjà enregistré dans le profil, modifiable.
-2. **Questions par catégorie**, une catégorie par écran (champ `categorie` du JSON, dans l'ordre). Cases à cocher, plusieurs réponses possibles. Les réponses hors âge (`age_min`/`age_max`) **ne s'affichent pas**. Un indicateur discret « 3 observations cochées » suffit.
+1. **Pas d'écran « âge »** (décision 06/11) : l'âge est celui du bébé du profil (`getBabyMonth`), jamais redemandé ni modifiable ici.
+2. **Questions par catégorie**, une catégorie par écran (champ `categorie` du JSON, dans l'ordre : Pleurs, Regard, Visage, Corps et mouvements, Environnement, Rythme de la journée). Cases à cocher, plusieurs réponses possibles. Les réponses hors âge (`age_min`/`age_max`) **ne s'affichent pas**. Un indicateur discret « 3 observations cochées » suffit.
 3. **Résultat** :
-   - la liste des alertes d'abord, si une réponse d'alerte est cochée (sobre, jamais anxiogène) ; un lien « Quand consulter ? » vers cette même liste reste toujours visible en bas du résultat ;
+   - un message d'appel à consulter d'abord (« Parles-en vite à un professionnel de santé », lien 15), avec seulement les alertes déclenchées par les réponses cochées (`declencheurs`), sobre, jamais anxiogène ; un lien « Quand consulter ? » ouvre la liste complète en bas du résultat ;
    - les 3 pistes : nom court (`nom`), formulée avec prudence (« il cherche peut-être à manger ») + `action` ;
    - les messages conditionnels ;
    - le niveau de confiance ;
@@ -76,11 +76,11 @@ Accueil · Cohérence cardiaque · **SOS** · Que me dit bébé ? · Épinglés
 ## 7. Contraintes éditoriales et de confidentialité (non négociables)
 
 - **Pistes, pas diagnostic.** Jamais « il a faim » : « il cherche peut-être à manger ».
-- **Ne jamais afficher** : le champ `note_interne`, les identifiants de sources, ni les sources internes (S13, S14, S24, S29). Pas de mention de la formation EDPP dans l'app.
+- **Ne jamais afficher** : le champ `note_interne`, les identifiants de sources dans les phrases (numéros de notes à la place), ni les sources internes (S13, S14, S19, S24, S27, S29). Pas de mention de la formation EDPP dans l'app.
 - Ne pas inventer de texte : tout ce qui s'affiche vient du JSON (ou des mentions du §4). Si un texte manque, demande à Laura.
 - Tutoiement. Ton bienveillant, jamais culpabilisant (aucune piste « stress du parent »).
-- **Aucune donnée enregistrée** : ni réponses, ni résultats, ni âge saisi, ni analytics, aucune écriture en base. Tout vit en mémoire dans la page. (Données sur un mineur, proches de la santé : on ne les garde pas.)
-- Les sources du contenu sont dans le classeur (onglet Sources) ; ne pas les afficher.
+- **Aucune donnée enregistrée** : ni réponses, ni résultats, ni âge, ni analytics, aucune écriture en base. Tout vit en mémoire dans la page. (Données sur un mineur, proches de la santé : on ne les garde pas.)
+- Les sources publiques s'affichent en notes numérotées dans l'ordre d'apparition, dépliées sous « Sources » en bas du résultat (même mécanisme que Sommeil) ; les sources internes jamais.
 
 ## 8. Ce qu'on ne fait PAS
 
