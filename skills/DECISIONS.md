@@ -851,3 +851,8 @@ Phrase à déconstruire : porter son bébé est bon, ce n'est pas une mauvaise h
 - (Laura) **SOS écrit au trait, sans sérif**, pour avoir le même trait que les pictos (remplace le « SOS » en Playfair).
 - (Laura) **Que me dit bébé ? : on n'écrit plus le nom.** Rond couleur **slot 1 de Guide-moi** (pêche `#F0B8A8`), sans contour, **juste la loupe** (trait `#7A3E2E`, choix de Claude). Le nom reste lu par les lecteurs d'écran.
 - Code : `components/ui/bottom-nav.tsx` ; détail dans `SKILL_ui.md`, « Navigation principale ».
+
+## 06/11/2026 — Que me dit bébé ? : en-tête des écrans de questions (Laura)
+- (Laura) **En-tête réduit à « Observons son comportement »**, sans « Que me dit bébé ? » au-dessus. La question est le seul grand titre (« Ses pleurs ? », « Son regard ? »…), sans sous-titre.
+- (Laura) **Écran de résultat inchangé** : titre « Ce qu'il te dit peut-être ».
+- Code : `components/modules/signaux-bebe-outil.tsx` ; spécification : `PROMPT_que_me_dit_bebe.md` §4.
