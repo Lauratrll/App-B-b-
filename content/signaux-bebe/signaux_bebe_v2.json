@@ -1,0 +1,1490 @@
+{
+  "_info": "Généré par scripts/export_signaux_bebe.py depuis Signaux_bebe_reference.xlsx. Ne pas modifier à la main : corriger le classeur puis relancer le script.",
+  "algorithme": {
+    "age": "âge de bébé en mois entier, 0 à 23",
+    "option_valable": "age_min <= age <= age_max",
+    "score_piste": "somme, pour chaque option cochée ET valable, de points[code_piste] (les négatifs comptent)",
+    "classement": "tri par score décroissant, seulement score > 0 ; à égalité, l'ordre de la liste « pistes » départage (la première gagne)",
+    "affichage": "3 premières pistes avec score > 0 : nom + action ; puis messages conditionnels ; puis la liste « etapes » toujours visible",
+    "alerte": "si une option de type « alerte » est cochée et valable : afficher l'alerte AVANT tout résultat ; les alertes n'ont aucun point",
+    "interdits": "ne jamais afficher « il a faim » mais « il cherche peut-être à manger » ; pas de diagnostic ; ne jamais afficher les sources internes (S13, S14, S24, S29) ni le champ note_interne"
+  },
+  "pistes": [
+    {
+      "code": "FA",
+      "nom": "Faim",
+      "libelle": "A faim / cherche à manger (3 niveaux d'intensité)",
+      "action": "Proposer à manger. S'il pleure fort : le calmer d'abord (câlin, voix douce), puis lui proposer à manger",
+      "observer": "Il prend avec appétit et se calme après quelques minutes. Les signes précoces (il cherche, mains à la bouche) précèdent les pleurs.",
+      "consulter": "S'il refuse de boire, vomit ou régurgite beaucoup, ou prend peu de poids : en parler à un professionnel de santé.",
+      "sources_conseils": "S09, S07, S08"
+    },
+    {
+      "code": "VE",
+      "nom": "Ventre / gaz",
+      "libelle": "Inconfort du ventre, gaz, coliques",
+      "action": "Rot, jambes repliées doucement vers le ventre (voir Alertes si signes inquiétants)",
+      "observer": "Les crises reviennent à heures régulières ; il se soulage après un rot ou les jambes repliées doucement. Repère des coliques : plus de 3 h par jour, 3 jours par semaine, depuis plus d'une semaine.",
+      "consulter": "Pleurs qui augmentent après la 8e semaine, sang dans les selles, fièvre, vomissements : consulter.",
+      "sources_conseils": "S08, S09, S07, S21"
+    },
+    {
+      "code": "FT",
+      "nom": "Fatigue",
+      "libelle": "Fatigue, besoin de dormir (évolutif avec l'âge)",
+      "action": "Proposer une sieste",
+      "observer": "Compte le temps d'éveil et regarde ses yeux. Il se calme quand on l'installe pour dormir.",
+      "consulter": null,
+      "sources_conseils": "S05"
+    },
+    {
+      "code": "CT",
+      "nom": "Contact",
+      "libelle": "Besoin de contact, de présence, de réassurance",
+      "action": "Le prendre dans les bras, le porter",
+      "observer": "Le test : le prendre dans les bras. Un calme rapide confirme le besoin de contact.",
+      "consulter": null,
+      "sources_conseils": "S07, S15, S31"
+    },
+    {
+      "code": "SU",
+      "nom": "Sur-stimulation",
+      "libelle": "Trop de stimulations, besoin d'une pause",
+      "action": "Calme, pause, apaisement",
+      "observer": "Il s'apaise au calme, lumière basse, avec moins de monde. Il s'agite plus quand on le porte ou le stimule.",
+      "consulter": null,
+      "sources_conseils": "S06, S10"
+    },
+    {
+      "code": "SO",
+      "nom": "Pleurs du soir",
+      "libelle": "Pleurs du soir / pic des pleurs (3 sem. à 4 mois)",
+      "action": "Pas de cause à chercher : le porter, le bercer, se relayer (action à valider)",
+      "observer": "Âge de 2 semaines à 3-4 mois, fin d'après-midi ou soirée, début et fin brusques, rien d'autre ne l'explique, les essais ne marchent pas.",
+      "consulter": "Pleurs sans horaire précis, qui augmentent après la 8e semaine, qui durent plus de 3 h par jour ou après 3 mois : en parler à un professionnel de santé.",
+      "sources_conseils": "S07, S08, S09, S11"
+    },
+    {
+      "code": "ET",
+      "nom": "Nouvelle étape",
+      "libelle": "Il a besoin de bouger, de s'exercer (nouvelle étape)",
+      "action": "Lui laisser l'espace de s'exercer, rester disponible (action à valider)",
+      "observer": "Il répète un geste, il est plus agité et plus collant depuis quelques jours, et un progrès visible suit.",
+      "consulter": null,
+      "sources_conseils": "S18"
+    },
+    {
+      "code": "EN",
+      "nom": "Ennui / échange",
+      "libelle": "Veut de l'échange, de l'activité (ajout proposé)",
+      "action": "Jeu, échange",
+      "observer": "Un jeu ou un échange le calme et le fait sourire.",
+      "consulter": null,
+      "sources_conseils": "S06, S10"
+    },
+    {
+      "code": "IN",
+      "nom": "Inconfort local",
+      "libelle": "Gêne : couche, chaud ou froid, vêtement, fesses, vaccin, dents",
+      "action": "Regarder la couche, toucher la nuque ou la poitrine (trop chaud ? trop froid ?), vérifier que rien ne serre ni ne gratte, inspecter le corps",
+      "observer": "Regarde et touche la couche ; touche la nuque ou la poitrine (moite : trop chaud) ; cherche une étiquette, une couture, un cheveu autour d'un orteil ; après un vaccin, regarde la zone d'injection.",
+      "consulter": "Après un vaccin : fièvre supérieure à 39 °C, éruption, pleurs inconsolables ou ronchon plus de 24 h. Il tire sur son oreille avec de la fièvre : consulter.",
+      "sources_conseils": "S07, S10, S22, S32"
+    },
+    {
+      "code": "SA",
+      "nom": "Sommeil agité",
+      "libelle": "Il dort (sommeil agité normal) : ne pas le réveiller",
+      "action": "Ne pas le réveiller",
+      "observer": "Il n'interagit pas, mains ouvertes, petites mimiques : attends quelques instants avant d'intervenir.",
+      "consulter": null,
+      "sources_conseils": "S31"
+    }
+  ],
+  "options": [
+    {
+      "id": "o001",
+      "categorie": "1. Pleurs",
+      "question": "Comment sont ses pleurs ?",
+      "reponse": "Petits pleurs, gémissements, grognements",
+      "age_min": 0,
+      "age_max": 9,
+      "type": "signe",
+      "points": {
+        "FA": 1,
+        "FT": 1,
+        "CT": 1,
+        "SU": 1,
+        "EN": 1
+      },
+      "sources": [
+        "S10",
+        "S13"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Début de l'escalade : peu distinctif."
+    },
+    {
+      "id": "o002",
+      "categorie": "1. Pleurs",
+      "question": "Comment sont ses pleurs ?",
+      "reponse": "Pleurs intenses qui montent, difficiles à calmer",
+      "age_min": 0,
+      "age_max": 9,
+      "type": "signe",
+      "points": {
+        "FA": 1,
+        "VE": 1,
+        "FT": 1,
+        "SU": 1,
+        "SO": 1
+      },
+      "sources": [
+        "S08",
+        "S09",
+        "S11",
+        "S04",
+        "S28"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Faim, niveau 3 : signe tardif de la faim à tout âge (décision Laura 05/11). Poids volontairement faible : les pleurs intenses ont d'autres causes. Le message « le calmer d'abord » dépend de ce texte exact."
+    },
+    {
+      "id": "o003",
+      "categorie": "1. Pleurs",
+      "question": "Comment sont ses pleurs ?",
+      "reponse": "Pleurs intenses qui montent, difficiles à calmer",
+      "age_min": 10,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "FA": 1,
+        "VE": 1,
+        "FT": 1,
+        "SU": 1
+      },
+      "sources": [
+        "S04",
+        "S28"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Même ligne, pour les âges où les pleurs du soir ne s'appliquent plus."
+    },
+    {
+      "id": "o004",
+      "categorie": "1. Pleurs",
+      "question": "Comment sont ses pleurs ?",
+      "reponse": "Pleurs qui commencent et s'arrêtent brusquement",
+      "age_min": 0,
+      "age_max": 4,
+      "type": "signe",
+      "points": {
+        "SO": 2
+      },
+      "sources": [
+        "S14",
+        "S07",
+        "S31"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Rythme : début et fin brusques, difficiles à consoler (pleurs du soir)."
+    },
+    {
+      "id": "o005",
+      "categorie": "1. Pleurs",
+      "question": "Comment sont ses pleurs ?",
+      "reponse": "Pleurs à la même heure chaque jour",
+      "age_min": 0,
+      "age_max": 4,
+      "type": "signe",
+      "points": {
+        "VE": 2,
+        "SO": 2
+      },
+      "sources": [
+        "S08",
+        "S07"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Régularité : crises à heures régulières (S08). Se distinguent par le contexte."
+    },
+    {
+      "id": "o006",
+      "categorie": "1. Pleurs",
+      "question": "Comment sont ses pleurs ?",
+      "reponse": "Il pleure depuis longtemps : plus de 3 h par jour",
+      "age_min": 0,
+      "age_max": 11,
+      "type": "alerte",
+      "points": {},
+      "sources": [
+        "S08",
+        "S09",
+        "S31"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Durée. S31 : environ 2 h par 24 h en moyenne. S08 range les pleurs de plus de 3 h par jour parmi les signes à faire évaluer. Voir « Alertes »."
+    },
+    {
+      "id": "o007",
+      "categorie": "1. Pleurs",
+      "question": "Comment sont ses pleurs ?",
+      "reponse": "Cri aigu, inhabituel, qui me fait peur",
+      "age_min": 0,
+      "age_max": 23,
+      "type": "alerte",
+      "points": {},
+      "sources": [
+        "S08"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Voir « Alertes » : cri qui change."
+    },
+    {
+      "id": "o008",
+      "categorie": "1. Pleurs",
+      "question": "Comment sont ses pleurs ?",
+      "reponse": "Il pleure à chaque tétée ou biberon, pendant ou juste après",
+      "age_min": 0,
+      "age_max": 11,
+      "type": "alerte",
+      "points": {},
+      "sources": [
+        "S08",
+        "S07",
+        "S31"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Point distinctif (décision Laura 06/11) : s'il est systématique, S08 le range parmi les signes à faire évaluer. S31/S07 : réflexe gastro-colique, reflux. Voir « Alertes »."
+    },
+    {
+      "id": "o009",
+      "categorie": "2. Regard",
+      "question": "Que fait son regard ?",
+      "reponse": "Il me regarde, cherche mon regard, sourit",
+      "age_min": 0,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "CT": 1,
+        "SU": -1,
+        "EN": 2
+      },
+      "sources": [
+        "S06"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Signaux d'engagement : éveil calme, disponible pour l'échange."
+    },
+    {
+      "id": "o010",
+      "categorie": "2. Regard",
+      "question": "Que fait son regard ?",
+      "reponse": "Il détourne le regard ou me fuit",
+      "age_min": 0,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "FT": 2,
+        "SU": 3
+      },
+      "sources": [
+        "S06",
+        "S13"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Partagé entre sur-stimulation (calme, pause) et fatigue (sieste)."
+    },
+    {
+      "id": "o011",
+      "categorie": "2. Regard",
+      "question": "Que fait son regard ?",
+      "reponse": "Il fixe dans le vide, ses paupières papillonnent, il louche",
+      "age_min": 0,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "FT": 3
+      },
+      "sources": [
+        "S05"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Signe de fatigue."
+    },
+    {
+      "id": "o012",
+      "categorie": "3. Visage",
+      "question": "Que fait son visage ?",
+      "reponse": "Il cherche à téter : il tourne la tête, ouvre la bouche, se lèche les lèvres",
+      "age_min": 0,
+      "age_max": 6,
+      "type": "signe",
+      "points": {
+        "FA": 3
+      },
+      "sources": [
+        "S03",
+        "S04",
+        "S10"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Faim, niveau 1. Regroupe les deux anciennes lignes de « Bouche et succion » (la faim reste la cause n°1)."
+    },
+    {
+      "id": "o013",
+      "categorie": "3. Visage",
+      "question": "Que fait son visage ?",
+      "reponse": "Il se frotte les yeux ou il bâille",
+      "age_min": 0,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "FT": 3,
+        "SU": 1
+      },
+      "sources": [
+        "S05",
+        "S10",
+        "S30",
+        "S06",
+        "S13"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Regroupe « se frotte les yeux » (FT 3) et « bâille » (FT 2, SU 1)."
+    },
+    {
+      "id": "o014",
+      "categorie": "3. Visage",
+      "question": "Que fait son visage ?",
+      "reponse": "Il met ses mains devant le visage, doigts écartés",
+      "age_min": 0,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "FT": 1,
+        "SU": 3
+      },
+      "sources": [
+        "S06"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Geste de protection."
+    },
+    {
+      "id": "o015",
+      "categorie": "3. Visage",
+      "question": "Que fait son visage ?",
+      "reponse": "Visage crispé, yeux serrés, front bombé",
+      "age_min": 0,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "VE": 1,
+        "IN": 1
+      },
+      "sources": [
+        "S06"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Signaux d'inconfort ou de douleur. Si ça dure : voir « Alertes »."
+    },
+    {
+      "id": "o016",
+      "categorie": "3. Visage",
+      "question": "Que fait son visage ?",
+      "reponse": "Visage qui exprime la douleur mais je ne trouve rien",
+      "age_min": 0,
+      "age_max": 4,
+      "type": "signe",
+      "points": {
+        "SO": 2
+      },
+      "sources": [
+        "S11"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Le visage « de douleur » fait partie de la courbe normale des pleurs, même sans douleur."
+    },
+    {
+      "id": "o017",
+      "categorie": "3. Visage",
+      "question": "Que fait son visage ?",
+      "reponse": "Il tire sur ses oreilles",
+      "age_min": 0,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "FT": 1,
+        "IN": 1
+      },
+      "sources": [
+        "S05",
+        "S07",
+        "S30"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Peut aussi venir d'une otite : si fièvre, consulter (S07)."
+    },
+    {
+      "id": "o018",
+      "categorie": "3. Visage",
+      "question": "Que fait son visage ?",
+      "reponse": "Petites mimiques (sourire, grimaces), yeux qui clignent, mains ouvertes, il n'interagit pas",
+      "age_min": 0,
+      "age_max": 9,
+      "type": "signe",
+      "points": {
+        "VE": -2,
+        "FT": -1,
+        "SA": 3
+      },
+      "sources": [
+        "S13"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Sommeil agité : les grimaces ne sont pas des plaintes. Ne pas le réveiller. Regroupe l'ancienne ligne de « Corps et tonus »."
+    },
+    {
+      "id": "o019",
+      "categorie": "3. Visage",
+      "question": "Que fait son visage ?",
+      "reponse": "Il bave, mord, se frotte les gencives",
+      "age_min": 4,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "IN": 1
+      },
+      "sources": [
+        "S07"
+      ],
+      "statut_preuve": "Prudence",
+      "note_interne": "Poussée dentaire : effets souvent surestimés, poids faible (prudence)."
+    },
+    {
+      "id": "o020",
+      "categorie": "4. Corps et mouvements",
+      "question": "Comment est son corps, comment bouge-t-il ?",
+      "reponse": "Il se raidit : bras et jambes tendus, dos arqué",
+      "age_min": 0,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "VE": 2,
+        "FT": 1,
+        "SU": 2
+      },
+      "sources": [
+        "S08",
+        "S06",
+        "S05"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Regroupe « tendus, raidis » et « arque le dos » (mêmes points)."
+    },
+    {
+      "id": "o021",
+      "categorie": "4. Corps et mouvements",
+      "question": "Comment est son corps, comment bouge-t-il ?",
+      "reponse": "Il replie ses jambes contre le ventre, son ventre est dur ou gonflé",
+      "age_min": 0,
+      "age_max": 6,
+      "type": "signe",
+      "points": {
+        "VE": 3
+      },
+      "sources": [
+        "S08",
+        "S07"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Regroupe « replie ses jambes » (VE 2) et « ventre dur ou gonflé » (VE 3). Avec « se raidit » et « même heure chaque jour », le ventre ressort par association."
+    },
+    {
+      "id": "o022",
+      "categorie": "4. Corps et mouvements",
+      "question": "Comment est son corps, comment bouge-t-il ?",
+      "reponse": "Il s'agite : mouvements saccadés, désorganisés, il pousse des pieds",
+      "age_min": 0,
+      "age_max": 9,
+      "type": "signe",
+      "points": {
+        "FA": 1,
+        "VE": 1,
+        "FT": 2,
+        "CT": 1,
+        "SU": 2
+      },
+      "sources": [
+        "S13",
+        "S05",
+        "S06"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Regroupe « s'agite » et « pousse des pieds contre un appui ». L'ancienne ligne « regroupé, pieds cherchent un appui » est retirée (deux positions mélangées)."
+    },
+    {
+      "id": "o023",
+      "categorie": "4. Corps et mouvements",
+      "question": "Comment est son corps, comment bouge-t-il ?",
+      "reponse": "Il porte les mains à la bouche, suce son poing ou ses doigts",
+      "age_min": 0,
+      "age_max": 5,
+      "type": "signe",
+      "points": {
+        "FA": 2,
+        "FT": 1,
+        "SU": 1
+      },
+      "sources": [
+        "S04",
+        "S03",
+        "S02",
+        "S06",
+        "S05",
+        "S31"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Faim, niveau 2. Suce ses doigts : aussi un geste d'auto-apaisement."
+    },
+    {
+      "id": "o024",
+      "categorie": "4. Corps et mouvements",
+      "question": "Comment est son corps, comment bouge-t-il ?",
+      "reponse": "Il a les bras et les jambes très relâchés, il se laisse aller",
+      "age_min": 0,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "FA": -2,
+        "FT": 2
+      },
+      "sources": [
+        "S03",
+        "S13"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Signe de satiété ou de fatigue."
+    },
+    {
+      "id": "o025",
+      "categorie": "4. Corps et mouvements",
+      "question": "Comment est son corps, comment bouge-t-il ?",
+      "reponse": "Il essaie de se retourner, ramper, se redresser ; il répète un geste",
+      "age_min": 3,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "ET": 3
+      },
+      "sources": [
+        "S18"
+      ],
+      "statut_preuve": "Preuve partielle",
+      "note_interne": "Signe observable du geste en cours. Calendrier non confirmé (S27)."
+    },
+    {
+      "id": "o026",
+      "categorie": "4. Corps et mouvements",
+      "question": "Comment est son corps, comment bouge-t-il ?",
+      "reponse": "Il a l'air malade : mou, très peu tonique, il ne réagit pas",
+      "age_min": 0,
+      "age_max": 23,
+      "type": "alerte",
+      "points": {},
+      "sources": [
+        "S08",
+        "S07",
+        "S31"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Voir « Alertes ». S31 : un bébé qui souffre est plutôt geignard et mou que hurlant."
+    },
+    {
+      "id": "o027",
+      "categorie": "5. Environnement",
+      "question": "Dans quel environnement est-il maintenant ?",
+      "reponse": "Stimulant : écran, bruit, agitation, lumière forte",
+      "age_min": 0,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "FT": 1,
+        "SU": 3
+      },
+      "sources": [
+        "S31",
+        "S06"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "S31 : un bruit ou une lumière trop forts peuvent déranger bébé."
+    },
+    {
+      "id": "o028",
+      "categorie": "5. Environnement",
+      "question": "Dans quel environnement est-il maintenant ?",
+      "reponse": "Calme, lumière douce",
+      "age_min": 0,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "SU": -2
+      },
+      "sources": [
+        "S31",
+        "S06"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Contre la piste sur-stimulation."
+    },
+    {
+      "id": "o029",
+      "categorie": "5. Environnement",
+      "question": "Dans quel environnement est-il maintenant ?",
+      "reponse": "Posé, en sécurité (lit, tapis, transat, chaise…)",
+      "age_min": 0,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "CT": 2
+      },
+      "sources": [
+        "S31",
+        "S15"
+      ],
+      "statut_preuve": "Preuve partielle",
+      "note_interne": "S31 : le contact est la principale cause. Pleurs posé : le test est de le prendre."
+    },
+    {
+      "id": "o030",
+      "categorie": "5. Environnement",
+      "question": "Dans quel environnement est-il maintenant ?",
+      "reponse": "Dans mes bras, en statique",
+      "age_min": 0,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "CT": -2
+      },
+      "sources": [
+        "S31"
+      ],
+      "statut_preuve": "Proposition à valider",
+      "note_interne": "Déjà dans les bras : le manque de contact est moins probable."
+    },
+    {
+      "id": "o031",
+      "categorie": "5. Environnement",
+      "question": "Dans quel environnement est-il maintenant ?",
+      "reponse": "Dans mes bras ou en portage, en mouvement",
+      "age_min": 0,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "CT": -2,
+        "SU": 1
+      },
+      "sources": [
+        "S31",
+        "S06"
+      ],
+      "statut_preuve": "Proposition à valider",
+      "note_interne": "S06 : il peut s'agiter davantage quand on le porte ou le stimule."
+    },
+    {
+      "id": "o032",
+      "categorie": "6. Rythme de la journée",
+      "question": "Comment s'est passée sa journée ?",
+      "reponse": "Journée très remplie : visites, sorties…",
+      "age_min": 0,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "FT": 1,
+        "SU": 2
+      },
+      "sources": [
+        "S07",
+        "S10",
+        "S24"
+      ],
+      "statut_preuve": "Source interne",
+      "note_interne": "S07 recommande un environnement calme. Lien visite/pleurs : carte éditoriale interne, sans étude. L'explication « cortisol » n'est pas retenue (S29)."
+    },
+    {
+      "id": "o033",
+      "categorie": "6. Rythme de la journée",
+      "question": "Comment s'est passée sa journée ?",
+      "reponse": "Journée stimulante : écran, bruit, agitation, lumière forte",
+      "age_min": 0,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "SU": 2
+      },
+      "sources": [
+        "S31",
+        "S06",
+        "S24"
+      ],
+      "statut_preuve": "Preuve partielle",
+      "note_interne": "Bruit et lumière trop forts : S31. Écran : source interne uniquement."
+    },
+    {
+      "id": "o034",
+      "categorie": "6. Rythme de la journée",
+      "question": "Comment s'est passée sa journée ?",
+      "reponse": "Crèche ou nounou : bruits, autres enfants",
+      "age_min": 0,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "FT": 1,
+        "SU": 1
+      },
+      "sources": [
+        "S24"
+      ],
+      "statut_preuve": "Proposition à valider",
+      "note_interne": "Proposition éditoriale (v2), sans source externe."
+    },
+    {
+      "id": "o035",
+      "categorie": "6. Rythme de la journée",
+      "question": "Comment s'est passée sa journée ?",
+      "reponse": "Changement de repères : nouveau lieu, rythme, garde…",
+      "age_min": 0,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "CT": 1,
+        "SU": 1
+      },
+      "sources": [
+        "S24"
+      ],
+      "statut_preuve": "Source interne",
+      "note_interne": "Source interne uniquement."
+    },
+    {
+      "id": "o036",
+      "categorie": "6. Rythme de la journée",
+      "question": "Comment s'est passée sa journée ?",
+      "reponse": "Un vaccin ces dernières 48 h",
+      "age_min": 0,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "IN": 2
+      },
+      "sources": [
+        "S32"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "S32 : irritabilité et douleur au point d'injection possibles, réactions normales jusqu'à 2 jours. Voir « Alertes » (fièvre > 39 °C, pleurs inconsolables)."
+    },
+    {
+      "id": "o037",
+      "categorie": "6. Rythme de la journée",
+      "question": "Comment s'est passée sa journée ?",
+      "reponse": "Journée calme, lumière douce",
+      "age_min": 0,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "SU": -1
+      },
+      "sources": [
+        "S31",
+        "S06"
+      ],
+      "statut_preuve": "Proposition à valider",
+      "note_interne": "Contre la piste sur-stimulation. Proposition éditoriale."
+    },
+    {
+      "id": "o038",
+      "categorie": "6. Rythme de la journée",
+      "question": "Comment s'est passée sa journée ?",
+      "reponse": "Bébé beaucoup posé",
+      "age_min": 0,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "CT": 2
+      },
+      "sources": [
+        "S31",
+        "S15"
+      ],
+      "statut_preuve": "Preuve partielle",
+      "note_interne": "S31 : le besoin de contact est la principale cause de pleurs. S15 : un bébé porté davantage pleure moins (lien à retrouver)."
+    },
+    {
+      "id": "o039",
+      "categorie": "6. Rythme de la journée",
+      "question": "Comment s'est passée sa journée ?",
+      "reponse": "Bébé beaucoup porté",
+      "age_min": 0,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "CT": -1
+      },
+      "sources": [
+        "S15"
+      ],
+      "statut_preuve": "Preuve partielle",
+      "note_interne": "S15 : porté davantage, il pleure moins. Le besoin de contact est déjà comblé."
+    },
+    {
+      "id": "o040",
+      "categorie": "6. Rythme de la journée",
+      "question": "Comment s'est passée sa journée ?",
+      "reponse": "Il a eu du temps pour explorer, bouger librement",
+      "age_min": 6,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "ET": -1
+      },
+      "sources": [
+        "S24"
+      ],
+      "statut_preuve": "Proposition à valider",
+      "note_interne": "À partir de 6 mois (mobilité). Proposition éditoriale, sans source."
+    },
+    {
+      "id": "o041",
+      "categorie": "6. Rythme de la journée",
+      "question": "Comment s'est passée sa journée ?",
+      "reponse": "Il a été plutôt contraint (siège, transat, parc, porte-bébé…)",
+      "age_min": 6,
+      "age_max": 23,
+      "type": "signe",
+      "points": {
+        "ET": 2,
+        "EN": 1
+      },
+      "sources": [
+        "S24"
+      ],
+      "statut_preuve": "Proposition à valider",
+      "note_interne": "À partir de 6 mois (mobilité). Proposition éditoriale, sans source."
+    }
+  ],
+  "alertes": [
+    {
+      "situation": "Fièvre chez un bébé de moins de 3 mois",
+      "pourquoi": "Avis rapide nécessaire",
+      "a_dire": "Consulter sans attendre.",
+      "sources": "S09, S08",
+      "urgence": "Immédiate",
+      "declencheurs": []
+    },
+    {
+      "situation": "Sang dans les selles",
+      "pourquoi": "À faire évaluer",
+      "a_dire": "Consulter sans attendre.",
+      "sources": "S09, S08, S21",
+      "urgence": "Immédiate",
+      "declencheurs": []
+    },
+    {
+      "situation": "Selles très pâles, grises ou beige pâle",
+      "pourquoi": "Peut signaler un problème du foie",
+      "a_dire": "Consulter rapidement.",
+      "sources": "S21",
+      "urgence": "Rapide",
+      "declencheurs": []
+    },
+    {
+      "situation": "Selles dures et sèches ; plus de 48 h sans selle avant 6 semaines",
+      "pourquoi": "À évaluer",
+      "a_dire": "En parler à un professionnel.",
+      "sources": "S21",
+      "urgence": "Rapide",
+      "declencheurs": []
+    },
+    {
+      "situation": "Pleurs dès les premiers jours de vie",
+      "pourquoi": "Hors courbe habituelle",
+      "a_dire": "En parler à un professionnel.",
+      "sources": "S08",
+      "urgence": "Rapide",
+      "declencheurs": []
+    },
+    {
+      "situation": "Pleurs qui augmentent après la 8e semaine, ou ne diminuent pas au 3e mois ; pleurs excessifs plus de 3 mois",
+      "pourquoi": "Hors courbe habituelle",
+      "a_dire": "En parler à un professionnel.",
+      "sources": "S08, S09, S07",
+      "urgence": "Rapide",
+      "declencheurs": []
+    },
+    {
+      "situation": "Pleurs sans horaire précis, pas plus intenses en fin de journée",
+      "pourquoi": "Ne ressemble pas aux pleurs du soir",
+      "a_dire": "En parler à un professionnel.",
+      "sources": "S08",
+      "urgence": "Rapide",
+      "declencheurs": []
+    },
+    {
+      "situation": "Pleurs systématiques pendant ou juste après les boires, régurgitations ou vomissements, prise de poids ralentie ou refus de boire",
+      "pourquoi": "À faire évaluer",
+      "a_dire": "Consulter.",
+      "sources": "S08, S07",
+      "urgence": "Rapide",
+      "declencheurs": [
+        "Il pleure à chaque tétée ou biberon, pendant ou juste après"
+      ]
+    },
+    {
+      "situation": "Changement de comportement, faible tonus musculaire, bébé qui paraît malade, cri inhabituel",
+      "pourquoi": "Signe général d'alerte",
+      "a_dire": "Consulter.",
+      "sources": "S08, S07",
+      "urgence": "Rapide",
+      "declencheurs": [
+        "Cri aigu, inhabituel, qui me fait peur",
+        "Il a l'air malade : mou, très peu tonique, il ne réagit pas"
+      ]
+    },
+    {
+      "situation": "Diarrhée, vomissements",
+      "pourquoi": "À faire évaluer",
+      "a_dire": "Consulter.",
+      "sources": "S08, S07",
+      "urgence": "Rapide",
+      "declencheurs": []
+    },
+    {
+      "situation": "Chute ou blessure récente",
+      "pourquoi": "À faire évaluer",
+      "a_dire": "Consulter.",
+      "sources": "S08, S07",
+      "urgence": "Rapide",
+      "declencheurs": []
+    },
+    {
+      "situation": "Après un vaccin : fièvre supérieure à 39 °C, éruption, pleurs inconsolables ou bébé anormalement ronchon plus de 24 h, somnolence anormale, inflammation qui s'aggrave",
+      "pourquoi": "Réaction qui dépasse l'attendu",
+      "a_dire": "Consulter.",
+      "sources": "S32",
+      "urgence": "Rapide",
+      "declencheurs": []
+    },
+    {
+      "situation": "Bébé qui dort trop et ne se réveille pas pour téter",
+      "pourquoi": "Risque de ne pas être nourri suffisamment (formation)",
+      "a_dire": "En parler à un professionnel.",
+      "sources": "S13",
+      "urgence": "Rapide",
+      "declencheurs": []
+    },
+    {
+      "situation": "Pleurs de plus de 3 h par jour",
+      "pourquoi": "S08 le range parmi les signes à faire évaluer",
+      "a_dire": "En parler à un professionnel ; vérifier les autres signes d'alerte.",
+      "sources": "S08, S09",
+      "urgence": "Rapide",
+      "declencheurs": [
+        "Il pleure depuis longtemps : plus de 3 h par jour"
+      ]
+    },
+    {
+      "situation": "Tu es à bout face aux pleurs",
+      "pourquoi": "Ça arrive à tous les parents",
+      "a_dire": "Poser bébé en sécurité dans son lit, t'éloigner quelques minutes, respirer lentement, appeler un proche (S09).",
+      "sources": "S09",
+      "urgence": "Pour toi",
+      "declencheurs": []
+    },
+    {
+      "situation": "Liste à faire relire par un professionnel de santé avant publication.",
+      "pourquoi": null,
+      "a_dire": null,
+      "sources": null,
+      "urgence": null,
+      "declencheurs": []
+    }
+  ],
+  "sources_reference": {
+    "S01": {
+      "titre": "Nutrition du nourrisson né à terme et en bonne santé : 6 à 24 mois",
+      "auteur": "Santé Canada, avec la Société canadienne de pédiatrie, les Diététistes du Canada et le Comité canadien pour l'allaitement",
+      "lien": "https://www.canada.ca/en/health-canada/services/canada-food-guide/resources/nutrition-healthy-term-infants/nutrition-healthy-term-infants-recommendations-birth-six-months/6-24-months.html"
+    },
+    "S02": {
+      "titre": "Feeding Guidelines for Infants and Young Toddlers: A Responsive Parenting Approach, encadré 3 « Évolution des signaux de faim et de satiété pendant les deux premières années »",
+      "auteur": "Healthy Eating Research (Fondation Robert Wood Johnson), panel d'experts ; Pérez-Escamilla, Segura-Pérez, Lott ; adapté de Butte et al. 2004 et du programme WIC 2009",
+      "lien": "https://healthyeatingresearch.org/wp-content/uploads/2017/02/her_feeding_guidelines_report_021416-1.pdf"
+    },
+    "S03": {
+      "titre": "Premiers signes de faim (fiche en français)",
+      "auteur": "HealthLink BC (page sans auteur ni date dans le texte lu)",
+      "lien": "https://www.healthlinkbc.ca/sites/default/files/documents/bf_french_6_gettingstartedandfeedingcues_0.pdf"
+    },
+    "S04": {
+      "titre": "Mieux vivre avec notre enfant, chapitre Alimentation, « Les signes de faim » (p. 367)",
+      "auteur": "Institut national de santé publique du Québec (INSPQ)",
+      "lien": "https://www.inspq.qc.ca/sites/default/files/mieux-vivre/pdf/mv2022_s4_alimentation.pdf"
+    },
+    "S05": {
+      "titre": "Tired signs: why they're important",
+      "auteur": "Raising Children Network (Australie) ; organisme et date non précisés dans l'extrait lu",
+      "lien": "https://raisingchildren.net.au/articles/is_my_child_tired.html"
+    },
+    "S06": {
+      "titre": "Understanding Your Baby's Cues",
+      "auteur": "INFANT Centre (Irlande)",
+      "lien": "https://www.infantcentre.ie/?p=2331"
+    },
+    "S07": {
+      "titre": "Les pleurs de bébé (0-12 mois)",
+      "auteur": "Naître et grandir (Fondation Lucie et André Chagnon)",
+      "lien": "https://naitreetgrandir.com/fr/etape/0_12_mois/soins/naitre-grandir-bebe-pleurs-comprendre/"
+    },
+    "S08": {
+      "titre": "Les coliques (pleurs intenses)",
+      "auteur": "Naître et grandir",
+      "lien": "https://naitreetgrandir.com/fr/sante/naitre-grandir-sante-bebe-mal-ventre-colique-pleur/"
+    },
+    "S09": {
+      "titre": "Les coliques et les pleurs",
+      "auteur": "Société canadienne de pédiatrie (Soins de nos enfants)",
+      "lien": "https://soinsdenosenfants.cps.ca/handouts/pregnancy-and-babies/colic_and_crying"
+    },
+    "S10": {
+      "titre": "Pleurs de bébé : avant l'âge d'un an",
+      "auteur": "Télésoins Nouvelle-Écosse (811), adapté de familydoctor.org (American Academy of Family Physicians)",
+      "lien": "https://811.novascotia.ca/health_topics/pleurs-de-bebe-avant-lage-dun-an/?lang=fr"
+    },
+    "S11": {
+      "titre": "Period of PURPLE Crying (programme de prévention du traumatisme crânien non accidentel)",
+      "auteur": "London Health Sciences Centre (Ontario)",
+      "lien": "https://www.lhsc.on.ca/trauma/the-period-of-purple-crying-shaken-baby-syndrome/abusive-head-trauma-prevention-program-0"
+    },
+    "S12": {
+      "titre": "What's in a nappy? (dépliant)",
+      "auteur": "NHS Health Scotland",
+      "lien": "https://www.birthingrampian.scot.nhs.uk/wp-content/uploads/2020/08/120-Whats-in-a-nappy-Poster-02-16.pdf"
+    },
+    "S13": {
+      "titre": "Formation EDPP : notes personnelles de Laura + livret « Pleurs et sommeil » (diapos 38-41, états de vigilance)",
+      "auteur": "EDPP (formation suivie en 2026)",
+      "lien": null
+    },
+    "S14": {
+      "titre": "Formation EDPP : livret « Pleurs et sommeil » (diapos 59-62, pleurs de bébé)",
+      "auteur": "EDPP",
+      "lien": null
+    },
+    "S15": {
+      "titre": "Increased carrying reduces infant crying: a randomized controlled trial",
+      "auteur": "Hunziker U.A. & Barr R.G., Pediatrics, 1986 (cité dans la formation)",
+      "lien": null
+    },
+    "S18": {
+      "titre": "Le Grand Livre du développement de bébé (édition française de The Wonder Weeks)",
+      "auteur": "Dr Hetty Van de Rijt et Dr Frans Plooij, éditions Leduc",
+      "lien": null
+    },
+    "S19": {
+      "titre": "Doc projet « verif_allaitement_pleurs.md » (vérification interne)",
+      "auteur": "Guide-moi (analyse interne s'appuyant sur mpedia/AFPA et Barr)",
+      "lien": null
+    },
+    "S21": {
+      "titre": "Les selles de bébé",
+      "auteur": "Naître et grandir",
+      "lien": "https://naitreetgrandir.com/fr/etape/0_12_mois/soins/selles-bebe/"
+    },
+    "S22": {
+      "titre": "Safer sleep in hot weather / Safer sleep in cold weather",
+      "auteur": "The Lullaby Trust (Royaume-Uni)",
+      "lien": "https://www.lullabytrust.org.uk/baby-safety/travel-and-weather/hot-weather/"
+    },
+    "S23": {
+      "titre": "Horaire des boires (Tiny tot)",
+      "auteur": "INSPQ",
+      "lien": "https://www.inspq.qc.ca/en/tiny-tot/newborn/feeding/schedule"
+    },
+    "S24": {
+      "titre": "Cartes éditoriales internes Guide-moi (sur-stimulation, pleurs)",
+      "auteur": "Guide-moi (projet)",
+      "lien": null
+    },
+    "S25": {
+      "titre": "Effets de la respiration lente à 6 cycles par minute (revue systématique et méta-analyse)",
+      "auteur": "Laborde S. et al., Neuroscience & Biobehavioral Reviews, 2022",
+      "lien": null
+    },
+    "S26": {
+      "titre": "Respiration lente et stress ressenti (méta-analyse d'essais randomisés)",
+      "auteur": "Fincham et al., Scientific Reports, 2023",
+      "lien": null
+    },
+    "S27": {
+      "titre": "Vérification interne « Les semaines miracles (The Wonder Weeks) » (29/09/2026)",
+      "auteur": "Guide-moi (analyse interne : de Weerth & van Geert 1998 ; Heimann 2003 ; Scher & Cohen 2015 ; Atun-Einy & Scher 2016 ; Waugh & Berger 2026 ; OMS 2006 ; Vermillet 2022)",
+      "lien": null
+    },
+    "S28": {
+      "titre": "Dans la tête des bébés",
+      "auteur": "Florence Millot, Mango éditions",
+      "lien": null
+    },
+    "S29": {
+      "titre": "Enquête interne « Les pleurs de décharge » (29/09/2026)",
+      "auteur": "Guide-moi (analyse interne : Solter, Woldenberg 1976, Hunziker & Barr 1986, Barr/PURPLE)",
+      "lien": null
+    },
+    "S30": {
+      "titre": "Responsive settling: tired signs and infant cues",
+      "auteur": "Children's Health Queensland Hospital and Health Service (Australie)",
+      "lien": "https://www.childrens.health.qld.gov.au/__data/assets/pdf_file/0023/292118/EBFC-Responsive-settling-tired-signs-and-infant-cues.pdf"
+    },
+    "S31": {
+      "titre": "Pleurs de mon enfant, les comprendre et les calmer",
+      "auteur": "sante.fr (service public d'information en santé)",
+      "lien": "https://www.sante.fr/node/1068787"
+    },
+    "S32": {
+      "titre": "Après une vaccination, quand dois-je m'inquiéter et appeler un médecin ?",
+      "auteur": "sante.fr",
+      "lien": "https://www.sante.fr/apres-une-vaccination-quand-dois-je-minquieter-et-appeler-un-medecin"
+    }
+  },
+  "etapes": [
+    {
+      "n": 1,
+      "texte": "Lui proposer à manger. S'il pleure très fort : le calmer d'abord (câlin, voix douce), puis lui proposer à manger",
+      "sources": "S09, S07, S28"
+    },
+    {
+      "n": 2,
+      "texte": "Regarder la couche ; toucher la nuque ou la poitrine (ajouter ou enlever une couche si besoin) ; vérifier que rien ne serre",
+      "sources": "S07, S22, S31"
+    },
+    {
+      "n": 3,
+      "texte": "Rot, jambes repliées doucement vers le ventre",
+      "sources": "S07"
+    },
+    {
+      "n": 4,
+      "texte": "Le prendre dans les bras, le porter, le bercer doucement",
+      "sources": "S09, S07, S31"
+    },
+    {
+      "n": 5,
+      "texte": "Si trop de stimulation : calme, pause, apaisement (lumière basse, moins de bruit et de monde)",
+      "sources": "S09, S10"
+    },
+    {
+      "n": 6,
+      "texte": "Si fatigué : proposer une sieste",
+      "sources": "S05, S13"
+    },
+    {
+      "n": 7,
+      "texte": "Laisser quelques minutes à chaque essai avant de conclure (durée non sourcée)",
+      "sources": "—"
+    },
+    {
+      "n": 8,
+      "texte": "Si ça dure ou si un autre signe inquiète : voir Alertes",
+      "sources": "S08, S09"
+    },
+    {
+      "n": 9,
+      "texte": "Pour toi : quelques respirations lentes, par exemple 5 secondes en inspirant, 5 secondes en expirant (cohérence cardiaque). Si tu es à bout : poser bébé en sécurité dans son lit et t'éloigner quelques minutes",
+      "sources": "S09, S25, S26"
+    }
+  ],
+  "messages": [
+    {
+      "id": "m0_dormeur",
+      "texte": "Les premières semaines, un bébé très dormeur peut ne pas se réveiller assez pour boire. Vérifie qu'il mange régulièrement, en suivant ses signes d'éveil. En cas de doute, parles-en à un professionnel de santé.",
+      "quand": "age == 0 ET rang(FT) <= 3"
+    },
+    {
+      "id": "pleurs_calmer_puis_nourrir",
+      "texte": "Il pleure fort : le calmer d'abord (câlin, voix douce), puis lui proposer à manger. Ce signe seul ne dit pas que c'est la faim.",
+      "quand": "une option « Pleurs intenses qui montent, difficiles à calmer » est cochée et valable à l'âge saisi"
+    },
+    {
+      "id": "faim_et_fatigue",
+      "texte": "Faim et fatigue ressortent ensemble : s'il montre des signes de faim, on le nourrit, puis on lui propose une sieste. On ne couche pas un bébé qui montre des signes de faim.",
+      "quand": "rang(FA) <= 2 ET rang(FT) <= 2"
+    }
+  ],
+  "confiance": [
+    {
+      "quand": "aucune réponse cochée valable à cet âge",
+      "texte": "Aucune réponse cochée"
+    },
+    {
+      "quand": "aucune piste n'a un score > 0",
+      "texte": "Aucune piste ne ressort : voir les essais plus bas"
+    },
+    {
+      "quand": "nb réponses valables < 3",
+      "texte": "Faible : trop peu d'éléments, plusieurs pistes possibles"
+    },
+    {
+      "quand": "score1 - score2 < 2",
+      "texte": "Moyenne : les deux premières pistes sont proches, essayer les deux"
+    },
+    {
+      "quand": "sinon",
+      "texte": "Meilleure : une piste ressort"
+    }
+  ],
+  "tests_attendus": [
+    {
+      "nom": "faim_et_fatigue_2_mois",
+      "age": 2,
+      "reponses_cochees": [
+        "Il se frotte les yeux ou il bâille",
+        "Il cherche à téter : il tourne la tête, ouvre la bouche, se lèche les lèvres"
+      ],
+      "attendu": {
+        "nb_reponses_valables": 2,
+        "alerte": "Non",
+        "top3": [
+          {
+            "nom": "A faim / cherche à manger (3 niveaux d'intensité)",
+            "score": 3
+          },
+          {
+            "nom": "Fatigue, besoin de dormir (évolutif avec l'âge)",
+            "score": 3
+          },
+          {
+            "nom": "Trop de stimulations, besoin d'une pause",
+            "score": 1
+          }
+        ],
+        "confiance": "Faible : trop peu d'éléments, plusieurs pistes possibles",
+        "messages": [
+          "Faim et fatigue ressortent ensemble : s'il montre des signes de faim, on le nourrit, puis on lui propose une sieste. On ne couche pas un bébé qui montre des signes de faim."
+        ]
+      }
+    },
+    {
+      "nom": "bailler_seul_naissance",
+      "age": 0,
+      "reponses_cochees": [
+        "Il se frotte les yeux ou il bâille"
+      ],
+      "attendu": {
+        "nb_reponses_valables": 1,
+        "alerte": "Non",
+        "top3": [
+          {
+            "nom": "Fatigue, besoin de dormir (évolutif avec l'âge)",
+            "score": 3
+          },
+          {
+            "nom": "Trop de stimulations, besoin d'une pause",
+            "score": 1
+          }
+        ],
+        "confiance": "Faible : trop peu d'éléments, plusieurs pistes possibles",
+        "messages": [
+          "Les premières semaines, un bébé très dormeur peut ne pas se réveiller assez pour boire. Vérifie qu'il mange régulièrement, en suivant ses signes d'éveil. En cas de doute, parles-en à un professionnel de santé."
+        ]
+      }
+    },
+    {
+      "nom": "pleurs_intenses_14_mois",
+      "age": 14,
+      "reponses_cochees": [
+        "Pleurs intenses qui montent, difficiles à calmer"
+      ],
+      "attendu": {
+        "nb_reponses_valables": 1,
+        "alerte": "Non",
+        "top3": [
+          {
+            "nom": "A faim / cherche à manger (3 niveaux d'intensité)",
+            "score": 1
+          },
+          {
+            "nom": "Inconfort du ventre, gaz, coliques",
+            "score": 1
+          },
+          {
+            "nom": "Fatigue, besoin de dormir (évolutif avec l'âge)",
+            "score": 1
+          }
+        ],
+        "confiance": "Faible : trop peu d'éléments, plusieurs pistes possibles",
+        "messages": [
+          "Il pleure fort : le calmer d'abord (câlin, voix douce), puis lui proposer à manger. Ce signe seul ne dit pas que c'est la faim."
+        ]
+      }
+    },
+    {
+      "nom": "alerte_cochee",
+      "age": 3,
+      "reponses_cochees": [
+        "Il a l'air malade : mou, très peu tonique, il ne réagit pas",
+        "Il se frotte les yeux ou il bâille"
+      ],
+      "attendu": {
+        "nb_reponses_valables": 2,
+        "alerte": "⚠ OUI : lis l'onglet Alertes avant tout",
+        "top3": [
+          {
+            "nom": "Fatigue, besoin de dormir (évolutif avec l'âge)",
+            "score": 3
+          },
+          {
+            "nom": "Trop de stimulations, besoin d'une pause",
+            "score": 1
+          }
+        ],
+        "confiance": "Faible : trop peu d'éléments, plusieurs pistes possibles",
+        "messages": []
+      }
+    },
+    {
+      "nom": "ventre_soir_3_mois",
+      "age": 3,
+      "reponses_cochees": [
+        "Il replie ses jambes contre le ventre, son ventre est dur ou gonflé",
+        "Il se raidit : bras et jambes tendus, dos arqué",
+        "Pleurs à la même heure chaque jour"
+      ],
+      "attendu": {
+        "nb_reponses_valables": 3,
+        "alerte": "Non",
+        "top3": [
+          {
+            "nom": "Inconfort du ventre, gaz, coliques",
+            "score": 7
+          },
+          {
+            "nom": "Trop de stimulations, besoin d'une pause",
+            "score": 2
+          },
+          {
+            "nom": "Pleurs du soir / pic des pleurs (3 sem. à 4 mois)",
+            "score": 2
+          }
+        ],
+        "confiance": "Meilleure : une piste ressort",
+        "messages": []
+      }
+    },
+    {
+      "nom": "rien_coche",
+      "age": 5,
+      "reponses_cochees": [],
+      "attendu": {
+        "nb_reponses_valables": 0,
+        "alerte": "Non",
+        "top3": [],
+        "confiance": "Aucune réponse cochée",
+        "messages": []
+      }
+    },
+    {
+      "nom": "dans_les_bras_stimule_8_mois",
+      "age": 8,
+      "reponses_cochees": [
+        "Dans mes bras ou en portage, en mouvement",
+        "Stimulant : écran, bruit, agitation, lumière forte",
+        "Il détourne le regard ou me fuit"
+      ],
+      "attendu": {
+        "nb_reponses_valables": 3,
+        "alerte": "Non",
+        "top3": [
+          {
+            "nom": "Trop de stimulations, besoin d'une pause",
+            "score": 7
+          },
+          {
+            "nom": "Fatigue, besoin de dormir (évolutif avec l'âge)",
+            "score": 3
+          }
+        ],
+        "confiance": "Meilleure : une piste ressort",
+        "messages": []
+      }
+    },
+    {
+      "nom": "vaccin_4_mois",
+      "age": 4,
+      "reponses_cochees": [
+        "Un vaccin ces dernières 48 h",
+        "Visage crispé, yeux serrés, front bombé"
+      ],
+      "attendu": {
+        "nb_reponses_valables": 2,
+        "alerte": "Non",
+        "top3": [
+          {
+            "nom": "Gêne : couche, chaud ou froid, vêtement, fesses, vaccin, dents",
+            "score": 3
+          },
+          {
+            "nom": "Inconfort du ventre, gaz, coliques",
+            "score": 1
+          }
+        ],
+        "confiance": "Faible : trop peu d'éléments, plusieurs pistes possibles",
+        "messages": []
+      }
+    },
+    {
+      "nom": "tetee_alerte_2_mois",
+      "age": 2,
+      "reponses_cochees": [
+        "Il pleure à chaque tétée ou biberon, pendant ou juste après",
+        "Il cherche à téter : il tourne la tête, ouvre la bouche, se lèche les lèvres"
+      ],
+      "attendu": {
+        "nb_reponses_valables": 2,
+        "alerte": "⚠ OUI : lis l'onglet Alertes avant tout",
+        "top3": [
+          {
+            "nom": "A faim / cherche à manger (3 niveaux d'intensité)",
+            "score": 3
+          }
+        ],
+        "confiance": "Faible : trop peu d'éléments, plusieurs pistes possibles",
+        "messages": []
+      }
+    },
+    {
+      "nom": "contraint_9_mois",
+      "age": 9,
+      "reponses_cochees": [
+        "Il a été plutôt contraint (siège, transat, parc, porte-bébé…)",
+        "Il essaie de se retourner, ramper, se redresser ; il répète un geste"
+      ],
+      "attendu": {
+        "nb_reponses_valables": 2,
+        "alerte": "Non",
+        "top3": [
+          {
+            "nom": "Il a besoin de bouger, de s'exercer (nouvelle étape)",
+            "score": 5
+          },
+          {
+            "nom": "Veut de l'échange, de l'activité (ajout proposé)",
+            "score": 1
+          }
+        ],
+        "confiance": "Faible : trop peu d'éléments, plusieurs pistes possibles",
+        "messages": []
+      }
+    }
+  ]
+}
