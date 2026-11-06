@@ -68,6 +68,7 @@ Format cible    : Mobile-first, max-width 390px
     /sos            → Module S.O.S Dois-je consulter ? (remplace /audio le 08/10/2026)
     /jeux           → Module Jeux \& stimulation
     /apaisement     → Gestes d'apaisement, boîte à outils (construite le 05/11/2026, JSON statique content/apaisement/)
+    /rythme         → Le rythme de bébé : roue modifiable + journées enregistrées (06/11/2026)
     /coherence      → Cohérence cardiaque, bouton rond de la barre du bas (20/10/2026, à créer)
     /compte         → Mes informations (menu des réglages « 3 traits »)
     /contact        → Nous contacter (à remplir)
@@ -158,6 +159,20 @@ CREATE TABLE admins (
 -- content, module 'reflexo', categorie 'plantaire' (20/10/2026) : une ligne par fiche de
 -- l'onglet Réflexologie plantaire (situation = id, mois = 0, data = {id, titre}), qui ne sert
 -- qu'à l'épingler ; créée par scripts/import-reflexo-plantaire.mjs, jamais supprimée.
+
+-- Journées de rythme notées par le parent (06/11/2026, page /rythme) : autant qu'il veut,
+-- un jour du calendrier par ligne. evenements = moments notés [{t:"reveil"|"endormi", h:"06:30", veille?:true}].
+CREATE TABLE journees_rythme (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id UUID REFERENCES auth.users(id) ON DELETE CASCADE,
+  jour DATE NOT NULL,
+  mois_bebe INTEGER CHECK (mois_bebe BETWEEN 0 AND 23),
+  evenements JSONB NOT NULL DEFAULT '[]',
+  created_at TIMESTAMPTZ DEFAULT now(),
+  updated_at TIMESTAMPTZ DEFAULT now(),
+  UNIQUE(user_id, jour)
+);
+-- RLS : chacun ne voit que ses journées. Migration : supabase/migrations/0006_journees_rythme.sql
 
 -- Épinglés
 CREATE TABLE pinned (

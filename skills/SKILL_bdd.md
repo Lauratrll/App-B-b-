@@ -253,6 +253,25 @@ CREATE POLICY "users can manage own pinned"
 
 ---
 
+### Table : `journees_rythme` (06/11/2026)
+Journées de rythme notées par le parent (outil « Enregistrer le rythme de mon bébé », page `/rythme`). Une ligne = un jour du calendrier (0h-24h). Autant de journées qu'il veut ; l'écran enregistre tout seul à chaque moment noté. Migration : `supabase/migrations/0006_journees_rythme.sql`.
+
+```sql
+CREATE TABLE public.journees_rythme (
+  id           UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id      UUID NOT NULL REFERENCES auth.users(id) ON DELETE CASCADE,
+  jour         DATE NOT NULL,
+  mois_bebe    INTEGER CHECK (mois_bebe BETWEEN 0 AND 23),
+  evenements   JSONB NOT NULL DEFAULT '[]',  -- [{"t":"endormi","h":"19:45","veille":true}, {"t":"reveil","h":"06:30"}, …]
+  created_at   TIMESTAMPTZ NOT NULL DEFAULT now(),
+  updated_at   TIMESTAMPTZ NOT NULL DEFAULT now(),
+  UNIQUE (user_id, jour)
+);
+-- RLS : "own journees rythme" FOR ALL USING/WITH CHECK (auth.uid() = user_id)
+```
+
+---
+
 ## Requêtes TypeScript fréquentes
 
 ### Récupérer le profil bébé

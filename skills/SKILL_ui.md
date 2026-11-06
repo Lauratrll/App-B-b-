@@ -411,6 +411,7 @@ Code : `components/ui/bottom-nav.tsx`. Ordre : **Accueil · Cohérence cardiaque
   - Cohérence : fond lavande « Parents submergés » `#DBD7EA`, **sans contour** (06/11), picto cœur traversé d'une onde douce `#46405A` → `/coherence` (« Le Métronome du souffle », `components/modules/metronome-souffle.tsx`).
   - SOS : fond orange S.O.S `#FAD2B3`, **sans contour** (06/11), « SOS » **dessiné au trait, sans sérif**, du même trait que les pictos (`LETTRES_SOS`), `#A4471F` → `/sos`.
   - Que me dit bébé ? (ajouté le 05/11, après SOS) : **rond pêche du slot 1 de Guide-moi `#F0B8A8`, sans contour, loupe seule** `#7A3E2E`, sans mot (06/11) → `/que-me-dit-bebe`.
+  - Le rythme de bébé (ajouté le 06/11, après Que me dit bébé ?) : **rond vert du slot Repères clés `#DCDDBB`, sans contour, picto moitié soleil / moitié lune** `#4A4E2A`, sans mot → `/rythme`. Barre de l'accueil : colonnes `52px repeat(4, 1fr) 52px` ; **les deux ronds extérieurs (Cohérence, Rythme) remontés de 12 px, en arc** (essai du 06/11) ; ronds de 54 px, réduits à 14,5 % de la largeur sur petit écran (≈ 46 px à 320 px).
   - **Aucun des trois ronds n'a de contour** (Laura, 06/11).
 - Barre : fond `#F2EDE8`, filet haut `0.5px #C8D8DC`, hauteur 56 px + encoche iPhone.
 - **Les deux boutons ronds et les Épinglés n'apparaissent que sur l'accueil** (20/10) : ce sont des portes d'entrée. **Dans toutes les autres pages**, la barre devient : **Accueil · Retour · (Épingler)**.
