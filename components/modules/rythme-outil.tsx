@@ -235,14 +235,23 @@ const LIGNE = 30; // hauteur d'un chiffre
 const HEURES = Array.from({ length: 24 }, (_, i) => deux(i));
 const MINUTES = Array.from({ length: 12 }, (_, i) => deux(i * 5));
 
+// 07/11 (Laura) : les chiffres tournent en boucle (23 → 00, 55 → 00). La liste est
+// répétée plusieurs fois ; quand le défilement s'arrête, on revient sans bruit sur
+// la copie du milieu, pour ne jamais buter sur un bout.
+const COPIES = 9;
+
 function Colonne({ valeurs, index, onChange, label }: { valeurs: string[]; index: number; onChange: (i: number) => void; label: string }) {
   const ref = useRef<HTMLDivElement>(null);
-  const [centre, setCentre] = useState(index);
+  const n = valeurs.length;
+  const milieu = Math.floor(COPIES / 2) * n;
+  const [pos, setPos] = useState(milieu + index); // ligne au centre, toutes copies comprises
+  const pause = useRef<number | undefined>(undefined);
   // Position de départ, une seule fois : ensuite c'est le doigt qui décide.
   useLayoutEffect(() => {
-    if (ref.current) ref.current.scrollTop = index * LIGNE;
+    if (ref.current) ref.current.scrollTop = (milieu + index) * LIGNE;
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+  useEffect(() => () => window.clearTimeout(pause.current), []);
   return (
     <div
       ref={ref}
@@ -250,11 +259,21 @@ function Colonne({ valeurs, index, onChange, label }: { valeurs: string[]; index
       aria-label={label}
       className="rythme-roulette"
       onScroll={(ev) => {
-        const i = Math.max(0, Math.min(valeurs.length - 1, Math.round(ev.currentTarget.scrollTop / LIGNE)));
-        if (i !== centre) {
-          setCentre(i);
-          onChange(i);
+        const el = ev.currentTarget;
+        const p = Math.max(0, Math.min(n * COPIES - 1, Math.round(el.scrollTop / LIGNE)));
+        if (p !== pos) {
+          setPos(p);
+          if (p % n !== pos % n) onChange(p % n);
         }
+        window.clearTimeout(pause.current);
+        pause.current = window.setTimeout(() => {
+          const q = Math.round(el.scrollTop / LIGNE);
+          const recentre = milieu + (((q % n) + n) % n);
+          if (q !== recentre) {
+            el.scrollTop = recentre * LIGNE;
+            setPos(recentre);
+          }
+        }, 180);
       }}
       style={{
         height: LIGNE * 3,
@@ -269,27 +288,32 @@ function Colonne({ valeurs, index, onChange, label }: { valeurs: string[]; index
       }}
     >
       <div style={{ height: LIGNE }} />
-      {valeurs.map((v, i) => (
-        <div
-          key={v}
-          role="option"
-          aria-selected={i === centre}
-          onClick={() => ref.current?.scrollTo({ top: i * LIGNE, behavior: "smooth" })}
-          style={{
-            height: LIGNE,
-            lineHeight: `${LIGNE}px`,
-            textAlign: "center",
-            scrollSnapAlign: "center",
-            fontSize: i === centre ? 19 : 16,
-            fontWeight: i === centre ? 700 : 500,
-            color: TEXT,
-            fontVariantNumeric: "tabular-nums",
-            cursor: "pointer",
-          }}
-        >
-          {v}
-        </div>
-      ))}
+      {Array.from({ length: n * COPIES }, (_, p) => {
+        const v = valeurs[p % n];
+        const ici = p === pos;
+        return (
+          <div
+            key={p}
+            role="option"
+            aria-selected={ici}
+            aria-hidden={Math.abs(p - pos) > 1}
+            onClick={() => ref.current?.scrollTo({ top: p * LIGNE, behavior: "smooth" })}
+            style={{
+              height: LIGNE,
+              lineHeight: `${LIGNE}px`,
+              textAlign: "center",
+              scrollSnapAlign: "center",
+              fontSize: ici ? 19 : 16,
+              fontWeight: ici ? 700 : 500,
+              color: TEXT,
+              fontVariantNumeric: "tabular-nums",
+              cursor: "pointer",
+            }}
+          >
+            {v}
+          </div>
+        );
+      })}
       <div style={{ height: LIGNE }} />
     </div>
   );
@@ -570,6 +594,11 @@ export function RythmeOutil({
     .filter((j) => jours[j].length)
     .sort((a, b) => (a < b ? 1 : -1));
 
+  // 07/11 (Laura) : les deux boutons au début de la roue, ensuite seulement l'autre moment
+  // que le dernier noté ; celui qui n'est pas accessible passe en gris clair.
+  const dernierNote = tries.length ? tries[tries.length - 1].t : null;
+  const permis = (t: "reveil" | "endormi") => dernierNote !== t;
+
   const boutonMoment = (t: "reveil" | "endormi"): React.CSSProperties => ({
     flex: 1,
     display: "flex",
@@ -579,12 +608,12 @@ export function RythmeOutil({
     padding: "12px 10px",
     borderRadius: 16,
     border: ajout === t ? `2px solid ${VERT_TEXTE}` : "2px solid transparent",
-    background: t === "reveil" ? C.eveil : C.nuit,
-    color: TEXT,
+    background: !permis(t) ? "rgba(255,255,255,.45)" : t === "reveil" ? C.eveil : C.nuit,
+    color: permis(t) ? TEXT : "rgba(58,50,40,.3)",
     fontFamily: PLAYFAIR,
     fontSize: 16,
     fontWeight: 600,
-    cursor: "pointer",
+    cursor: permis(t) ? "pointer" : "default",
   });
 
   const fleche: React.CSSProperties = {
@@ -662,16 +691,16 @@ export function RythmeOutil({
 
         {/* Saisie d'un moment. */}
         <div style={{ display: "flex", gap: 10 }}>
-          <button type="button" style={boutonMoment("reveil")} onClick={() => ouvrirAjout("reveil")}>
+          <button type="button" style={boutonMoment("reveil")} disabled={!permis("reveil")} onClick={() => ouvrirAjout("reveil")}>
             <IconeSoleil /> Réveillé{e}
           </button>
-          <button type="button" style={boutonMoment("endormi")} onClick={() => ouvrirAjout("endormi")}>
+          <button type="button" style={boutonMoment("endormi")} disabled={!permis("endormi")} onClick={() => ouvrirAjout("endormi")}>
             <IconeLune /> Endormi{e}
           </button>
         </div>
         {/* 07/11 : la case de l'heure, plus étroite, et « Ajouter » sur la même ligne. Pas de bouton Annuler :
             toucher à nouveau Réveillé / Endormi referme la saisie. */}
-        {ajout ? (
+        {ajout && permis(ajout) ? (
           <div style={{ background: CARTE, borderRadius: 16, padding: "8px 12px", display: "flex", alignItems: "center", gap: 10 }}>
             <span style={{ flex: 1, fontSize: 14, color: TEXT, fontWeight: 600 }}>{ajout === "reveil" ? `Réveillé${e} à` : `Endormi${e} à`}</span>
             <SelecteurHeure valeur={heureAjout} onChange={setHeureAjout} type={ajout} />
