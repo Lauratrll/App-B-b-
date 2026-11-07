@@ -716,9 +716,10 @@ export function RythmeOutil({
           </p>
         ) : null}
 
+        {/* 07/11 : lignes resserrées vers le centre du cadre (moins de vide au milieu). */}
         <section style={{ background: CARTE, borderRadius: 18, padding: "10px 12px" }} aria-label="Moments notés">
           {lignes.length ? (
-            <ul style={{ margin: 0, padding: 0 }}>{lignes}</ul>
+            <ul style={{ margin: "0 auto", padding: 0, maxWidth: 270 }}>{lignes}</ul>
           ) : (
             <p style={{ margin: "6px 0", fontSize: 13, color: DOUX, textAlign: "center", lineHeight: 1.45 }}>
               Commence par le moment que tu veux : un réveil, une sieste ou le coucher du soir.
