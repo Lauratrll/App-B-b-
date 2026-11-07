@@ -321,9 +321,9 @@ export function BottomNav() {
             {ICONE_LOUPE}
           </svg>
         </BoutonRond>
-        {/* Le rythme de bébé : vert du slot Repères clés, picto soleil/lune, sans contour (Laura, 06/11). */}
-        <BoutonRond href="/rythme" label="Le rythme de bébé" actif={false} fond="#DCDDBB" bord="transparent" hausse={HAUSSE_EXTERIEURS}>
-          <svg width={28} height={28} viewBox="0 0 24 24" fill="none" color="#4A4E2A" stroke="#4A4E2A" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+        {/* Le rythme de bébé : bleu ciel #D3E5F2 (Laura, 07/11 : remplace le vert), picto soleil/lune bleu profond, sans contour. */}
+        <BoutonRond href="/rythme" label="Le rythme de bébé" actif={false} fond="#D3E5F2" bord="transparent" hausse={HAUSSE_EXTERIEURS}>
+          <svg width={28} height={28} viewBox="0 0 24 24" fill="none" color="#2F6081" stroke="#2F6081" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
             {ICONE_SOLEIL_LUNE}
           </svg>
         </BoutonRond>

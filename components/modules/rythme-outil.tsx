@@ -34,13 +34,13 @@ import {
 } from "@/lib/rythme";
 
 const TEXT = "#3A3228";
-const DOUX = "#5E5A40";
+const DOUX = "#4E5E6A"; // gris bleuté (07/11, avec le fond bleu ciel)
 const PLAYFAIR = "var(--font-playfair), Georgia, serif";
-const FOND = "#DCDDBB"; // vert du slot Repères clés
-const VERT_TEXTE = "#4A4E2A";
+const FOND = "#D3E5F2"; // bleu ciel de la gamme Réflexologie (Laura, 07/11 : remplace le vert)
+const VERT_TEXTE = "#2F6081"; // bleu profond de la même famille (nom gardé)
 const EUCAL = "#8A9E98";
 const CARTE = "rgba(255,255,255,.55)";
-const BORD = "rgba(74,78,42,.16)";
+const BORD = "rgba(47,96,129,.16)";
 
 export const COULEURS_RYTHME = {
   base: "rgba(255,255,255,.75)",
