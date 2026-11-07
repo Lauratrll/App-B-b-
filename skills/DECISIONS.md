@@ -859,3 +859,6 @@ Phrase à déconstruire : porter son bébé est bon, ce n'est pas une mauvaise h
 - (Laura) **En-tête réduit à « Observons son comportement »**, sans « Que me dit bébé ? » au-dessus. La question est le seul grand titre (« Ses pleurs ? », « Son regard ? »…), sans sous-titre.
 - (Laura) **Écran de résultat inchangé** : titre « Ce qu'il te dit peut-être ».
 - Code : `components/modules/signaux-bebe-outil.tsx` ; spécification : `PROMPT_que_me_dit_bebe.md` §4.
+
+## 07/11/2026 — Métronome du souffle : consignes (Laura)
+- (Laura) Consignes au-dessus de la vague : **« Inspire par le nez »** et **« Expire par la bouche »**, écrites **un peu plus petit** (19 px au lieu de 22).

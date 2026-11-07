@@ -240,7 +240,7 @@ export function MetronomeSouffle() {
   const rBille = R_MIN + (R_MAX - R_MIN) * montee;
   const frac = phase - Math.floor(phase);
   const inspire = frac < 0.5;
-  const consigne = !enCours ? "Quand tu veux" : inspire ? "Inspire" : "Expire";
+  const consigne = !enCours ? "Quand tu veux" : inspire ? "Inspire par le nez" : "Expire par la bouche";
   const chemin = cheminVague(phase);
 
   return (
@@ -250,7 +250,7 @@ export function MetronomeSouffle() {
         className="font-display text-center"
         style={{
           margin: "0 0 4px 0",
-          fontSize: 22,
+          fontSize: 19,
           fontStyle: "italic",
           color: LAVANDE.texte,
           opacity: enCours ? 0.55 + 0.45 * Math.sin(Math.PI * ((frac * 2) % 1)) : 0.8,
