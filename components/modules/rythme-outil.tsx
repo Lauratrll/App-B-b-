@@ -11,7 +11,7 @@
 // « Fenêtre d'éveil » ; dégradé de sommeil = bleu du rond de Journée et siestes.
 // ----------------------------------------------------------------------------
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import type React from "react";
 import { teinteAuDessus } from "@/lib/couleurs";
 import { COULEURS_ROUE } from "@/components/modules/sommeil-roue";
@@ -38,6 +38,7 @@ const DOUX = "#5E5A40";
 const PLAYFAIR = "var(--font-playfair), Georgia, serif";
 const FOND = "#DCDDBB"; // vert du slot Repères clés
 const VERT_TEXTE = "#4A4E2A";
+const EUCAL = "#8A9E98";
 const CARTE = "rgba(255,255,255,.55)";
 const BORD = "rgba(74,78,42,.16)";
 
@@ -169,9 +170,11 @@ export function RoueRythme({ dessin, mini, maintenant }: { dessin: Dessin; mini?
   );
 }
 
-function Legende({ fenetre, mois }: { fenetre: FenetreEveil | null; mois: number }) {
-  const p = (fond: string, large?: boolean): React.CSSProperties => ({
-    width: large ? 22 : 11,
+// 07/11 (Laura) : la légende ne garde que les trois couleurs pleines (plus de ligne
+// pour les dégradés « éveil moyen » et « sommeil en cours »).
+function Legende() {
+  const p = (fond: string): React.CSSProperties => ({
+    width: 11,
     height: 11,
     borderRadius: 3,
     background: fond,
@@ -188,8 +191,6 @@ function Legende({ fenetre, mois }: { fenetre: FenetreEveil | null; mois: number
       {item(p(C.nuit), "Nuit")}
       {item(p(C.sieste), "Sieste")}
       {item(p(C.eveil), "Éveil")}
-      {fenetre ? item({ ...p(C.haloEveil, true), background: `linear-gradient(90deg, ${C.haloEveil} 45%, transparent)` }, `Éveil moyen à ${mois} mois : ${fenetre.texte.replace("≈", "environ")}`) : null}
-      {item({ ...p(C.haloSommeil, true), background: `linear-gradient(90deg, ${C.haloSommeil}, transparent)` }, "Sommeil en cours")}
     </div>
   );
 }
@@ -221,17 +222,133 @@ const maintenantMinutes = () => {
 // L'écran
 // ---------------------------------------------------------------------------
 
-const champHeure: React.CSSProperties = {
+// Teintes légères de la case de l'heure (07/11) : pêche pour un réveil, bleu pour un endormissement.
+const TEINTE = { reveil: "#F8DDD4", endormi: "#D3E7EC" } as const;
+const PLEIN = { reveil: C.eveil, endormi: C.nuit } as const;
+
+// ---------------------------------------------------------------------------
+// Sélecteur d'heure à faire défiler, comme les réveils de téléphone (07/11) :
+// heures de 0 à 23, minutes de 5 en 5. Directement dans la case, sans fenêtre.
+// ---------------------------------------------------------------------------
+
+const LIGNE = 30; // hauteur d'un chiffre
+const HEURES = Array.from({ length: 24 }, (_, i) => deux(i));
+const MINUTES = Array.from({ length: 12 }, (_, i) => deux(i * 5));
+
+function Colonne({ valeurs, index, onChange, label }: { valeurs: string[]; index: number; onChange: (i: number) => void; label: string }) {
+  const ref = useRef<HTMLDivElement>(null);
+  const [centre, setCentre] = useState(index);
+  // Position de départ, une seule fois : ensuite c'est le doigt qui décide.
+  useLayoutEffect(() => {
+    if (ref.current) ref.current.scrollTop = index * LIGNE;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+  return (
+    <div
+      ref={ref}
+      role="listbox"
+      aria-label={label}
+      className="rythme-roulette"
+      onScroll={(ev) => {
+        const i = Math.max(0, Math.min(valeurs.length - 1, Math.round(ev.currentTarget.scrollTop / LIGNE)));
+        if (i !== centre) {
+          setCentre(i);
+          onChange(i);
+        }
+      }}
+      style={{
+        height: LIGNE * 3,
+        width: 38,
+        overflowY: "scroll",
+        scrollSnapType: "y mandatory",
+        scrollbarWidth: "none",
+        WebkitMaskImage: "linear-gradient(transparent, #000 32%, #000 68%, transparent)",
+        maskImage: "linear-gradient(transparent, #000 32%, #000 68%, transparent)",
+        position: "relative",
+        zIndex: 1,
+      }}
+    >
+      <div style={{ height: LIGNE }} />
+      {valeurs.map((v, i) => (
+        <div
+          key={v}
+          role="option"
+          aria-selected={i === centre}
+          onClick={() => ref.current?.scrollTo({ top: i * LIGNE, behavior: "smooth" })}
+          style={{
+            height: LIGNE,
+            lineHeight: `${LIGNE}px`,
+            textAlign: "center",
+            scrollSnapAlign: "center",
+            fontSize: i === centre ? 19 : 16,
+            fontWeight: i === centre ? 700 : 500,
+            color: TEXT,
+            fontVariantNumeric: "tabular-nums",
+            cursor: "pointer",
+          }}
+        >
+          {v}
+        </div>
+      ))}
+      <div style={{ height: LIGNE }} />
+    </div>
+  );
+}
+
+function SelecteurHeure({ valeur, onChange, type }: { valeur: string; onChange: (h: string) => void; type: "reveil" | "endormi" }) {
+  const [h, m] = valeur.split(":").map(Number);
+  const iH = h;
+  const iM = Math.min(11, Math.round(m / 5));
+  const cur = useRef({ h: iH, m: iM });
+  const envoyer = () => onChange(`${HEURES[cur.current.h]}:${MINUTES[cur.current.m]}`);
+  return (
+    <div
+      style={{
+        position: "relative",
+        display: "flex",
+        alignItems: "center",
+        gap: 2,
+        padding: "0 8px",
+        borderRadius: 14,
+        background: TEINTE[type],
+        flexShrink: 0,
+      }}
+    >
+      {/* La bande du milieu : la valeur choisie. */}
+      <div aria-hidden style={{ position: "absolute", left: 6, right: 6, top: LIGNE, height: LIGNE, borderRadius: 8, background: "rgba(255,255,255,.7)" }} />
+      <Colonne valeurs={HEURES} index={iH} label="Heure" onChange={(i) => ((cur.current.h = i), envoyer())} />
+      <span style={{ position: "relative", zIndex: 1, fontSize: 18, fontWeight: 700, color: TEXT }}>:</span>
+      <Colonne valeurs={MINUTES} index={iM} label="Minutes" onChange={(i) => ((cur.current.m = i), envoyer())} />
+    </div>
+  );
+}
+
+/** L'heure d'un moment noté : une case étroite, teintée selon le moment ; la toucher rouvre le sélecteur. */
+const caseHeure = (type: "reveil" | "endormi"): React.CSSProperties => ({
   font: "inherit",
-  fontSize: 16,
+  fontSize: 15,
+  fontWeight: 600,
   fontVariantNumeric: "tabular-nums",
   color: TEXT,
-  background: "rgba(255,255,255,.8)",
-  border: `1px solid ${BORD}`,
+  background: TEINTE[type],
+  border: "none",
   borderRadius: 10,
-  padding: "6px 8px",
-  minWidth: 0,
-};
+  padding: "4px 10px",
+  cursor: "pointer",
+  flexShrink: 0,
+});
+
+const boutonPlein = (type: "reveil" | "endormi"): React.CSSProperties => ({
+  padding: "9px 16px",
+  borderRadius: 999,
+  border: "none",
+  background: PLEIN[type],
+  color: TEXT,
+  fontSize: 14,
+  fontWeight: 700,
+  cursor: "pointer",
+  flexShrink: 0,
+});
 
 const croix: React.CSSProperties = {
   width: 30,
@@ -279,6 +396,9 @@ export function RythmeOutil({
   const [jour, setJour] = useState(aujourdhui);
   const [ajout, setAjout] = useState<null | "reveil" | "endormi">(null);
   const [heureAjout, setHeureAjout] = useState("07:00");
+  // Moment de la liste dont on change l'heure (index dans l'ordre de la journée).
+  const [edition, setEdition] = useState<number | null>(null);
+  const [heureEdition, setHeureEdition] = useState("07:00");
   const [message, setMessage] = useState<string | null>(null);
   const [etat, setEtat] = useState<"" | "enregistrement" | "enregistre" | "erreur">("");
   const file = useRef<Promise<unknown>>(Promise.resolve());
@@ -324,6 +444,7 @@ export function RythmeOutil({
       }
     }
     setJours(tous);
+    setEdition(null);
     sauver(j, tries);
     if (suiteChangee) sauver(lendemain, suiteChangee);
   };
@@ -341,6 +462,9 @@ export function RythmeOutil({
 
   const ouvrirAjout = (t: "reveil" | "endormi") => {
     setMessage(null);
+    // Toucher le bouton déjà choisi referme la saisie ; changer de bouton garde l'heure choisie.
+    if (ajout === t) return setAjout(null);
+    if (ajout) return setAjout(t);
     setAjout(t);
     const dernier = moments.length ? trier(moments)[moments.length - 1] : null;
     let h: number;
@@ -375,17 +499,20 @@ export function RythmeOutil({
     if (!j || j > aujourdhui()) return;
     setJour(j);
     setAjout(null);
+    setEdition(null);
     setMessage(null);
   };
 
-  // Lignes de la liste, dans l'ordre de la journée.
+  // Lignes de la liste (07/11) : le premier moment en bas, le plus récent en haut.
+  // La durée de chaque phase s'écrit au-dessus du moment qui l'ouvre.
   const tries = trier(moments);
   const lignes = tries.map((m, i) => {
     const suivant = tries[i + 1];
     const a = m.veille ? 0 : enMinutes(m.h);
     const nuit = m.t === "endormi" && (m.veille || estNuit(m.h));
     const couleur = m.t === "reveil" ? C.eveil : nuit ? C.nuit : C.sieste;
-    const libelle = m.veille ? `Endormi${e} hier soir` : m.t === "reveil" ? "Réveil" : nuit ? `Endormi${e} pour la nuit` : `Endormi${e} pour la sieste`;
+    const libelle = m.veille ? `Endormi${e} hier soir` : m.t === "reveil" ? `Réveillé${e}` : `Endormi${e}`;
+    const enEdition = edition === i && !m.veille;
     let apres: string | null = null;
     if (suivant) {
       // La nuit reprise de la veille se compte depuis le coucher d'hier soir.
@@ -396,34 +523,48 @@ export function RythmeOutil({
     else apres = suiteDort(jour) ? `nuit jusqu’à minuit, ${duree(UNE_JOURNEE - a)}` : "sommeil en cours";
     return (
       <li key={`${m.veille ? "v" : ""}${m.t}${m.h}`} style={{ listStyle: "none" }}>
-        <div style={{ display: "flex", alignItems: "center", gap: 8, padding: "5px 0" }}>
-          <span aria-hidden style={{ width: 10, height: 28, borderRadius: 5, background: couleur, flexShrink: 0 }} />
+        {apres ? <div style={{ padding: "0 0 0 18px", fontSize: 12, lineHeight: 1.3, color: DOUX }}>{apres}</div> : null}
+        <div style={{ display: "flex", alignItems: "center", gap: 8, padding: "2px 0" }}>
+          <span aria-hidden style={{ width: 10, height: enEdition ? 60 : 24, borderRadius: 5, background: couleur, flexShrink: 0 }} />
           <span style={{ flex: 1, fontSize: 14, fontWeight: 600, color: TEXT }}>{libelle}</span>
-          {m.veille ? (
-            <span style={{ fontSize: 16, color: TEXT, padding: "6px 8px", fontVariantNumeric: "tabular-nums" }}>{m.h}</span>
+          {enEdition ? (
+            <>
+              <SelecteurHeure valeur={heureEdition} onChange={setHeureEdition} type={m.t} />
+              <button
+                type="button"
+                style={{ ...boutonPlein(m.t), padding: "8px 12px" }}
+                onClick={() => {
+                  if (heureEdition === m.h) return setEdition(null);
+                  if (essayer(tries.map((x, k) => (k === i ? { ...x, h: heureEdition } : x)))) setEdition(null);
+                }}
+              >
+                OK
+              </button>
+            </>
+          ) : m.veille ? (
+            <span style={{ ...caseHeure(m.t), cursor: "default" }}>{m.h}</span>
           ) : (
-            <input
-              type="time"
-              step={300}
-              value={m.h}
-              aria-label={`${libelle} à`}
-              onChange={(e) => {
-                const v = e.target.value;
-                if (!v) return;
-                const ms = tries.map((x, k) => (k === i ? { ...x, h: v } : x));
-                essayer(ms);
+            <button
+              type="button"
+              aria-label={`Modifier l’heure : ${libelle} à ${heureLisible(m.h)}`}
+              style={caseHeure(m.t)}
+              onClick={() => {
+                setMessage(null);
+                setHeureEdition(m.h);
+                setEdition(i);
               }}
-              style={champHeure}
-            />
+            >
+              {m.h}
+            </button>
           )}
           <button type="button" aria-label="Retirer ce moment" style={croix} onClick={() => retirer(i)}>
             ×
           </button>
         </div>
-        {apres ? <div style={{ padding: "0 0 4px 18px", fontSize: 12.5, color: DOUX }}>{apres}</div> : null}
       </li>
     );
   });
+  lignes.reverse();
 
   const sauvegardes = Object.keys(jours)
     .filter((j) => jours[j].length)
@@ -474,13 +615,15 @@ export function RythmeOutil({
         className="pointer-events-none fixed inset-y-0 left-1/2 -translate-x-1/2"
         style={{ width: "min(100vw, 390px)", background: FOND, zIndex: 0 }}
       />
+      <style>{`.rythme-roulette::-webkit-scrollbar{display:none}`}</style>
       <div style={{ position: "relative", zIndex: 1, display: "flex", flexDirection: "column", gap: 14, paddingBottom: 12 }}>
         <header style={{ textAlign: "center" }}>
           <h1 style={{ fontFamily: PLAYFAIR, fontSize: 24, fontWeight: 600, color: TEXT, margin: "0 0 4px", lineHeight: 1.15 }}>
             Le rythme de {prenom}
           </h1>
-          <p style={{ fontSize: 13, color: DOUX, margin: 0, lineHeight: 1.45 }}>
-            Note ses réveils et ses endormissements : la roue se dessine au fil de la journée.
+          {/* 07/11 : sous-titre en capitales eucalyptus (typo des sous-titres de Sommeil). */}
+          <p style={{ fontSize: 9, fontWeight: 700, textTransform: "uppercase", letterSpacing: ".15em", color: EUCAL, margin: 0 }}>
+            Ses périodes d’éveil et de sommeil
           </p>
         </header>
 
@@ -515,30 +658,25 @@ export function RythmeOutil({
         <div style={{ maxWidth: 290, width: "100%", margin: "0 auto" }}>
           <RoueRythme dessin={dessin} maintenant={estAujourdhui ? maintenantMinutes() : null} />
         </div>
-        <Legende fenetre={fenetre} mois={mois} />
+        <Legende />
 
         {/* Saisie d'un moment. */}
         <div style={{ display: "flex", gap: 10 }}>
           <button type="button" style={boutonMoment("reveil")} onClick={() => ouvrirAjout("reveil")}>
-            <IconeSoleil /> Réveil
+            <IconeSoleil /> Réveillé{e}
           </button>
           <button type="button" style={boutonMoment("endormi")} onClick={() => ouvrirAjout("endormi")}>
             <IconeLune /> Endormi{e}
           </button>
         </div>
+        {/* 07/11 : la case de l'heure, plus étroite, et « Ajouter » sur la même ligne. Pas de bouton Annuler :
+            toucher à nouveau Réveillé / Endormi referme la saisie. */}
         {ajout ? (
-          <div style={{ background: CARTE, borderRadius: 16, padding: 12, display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
-            <span style={{ fontSize: 14, color: TEXT, fontWeight: 600 }}>{ajout === "reveil" ? `Réveillé${e} à` : `Endormi${e} à`}</span>
-            <input type="time" step={300} value={heureAjout} onChange={(e) => e.target.value && setHeureAjout(e.target.value)} style={champHeure} aria-label="Heure" />
-            <button
-              type="button"
-              onClick={valider}
-              style={{ marginLeft: "auto", padding: "8px 16px", borderRadius: 999, border: "none", background: VERT_TEXTE, color: "#fff", fontSize: 14, fontWeight: 600, cursor: "pointer" }}
-            >
+          <div style={{ background: CARTE, borderRadius: 16, padding: "8px 12px", display: "flex", alignItems: "center", gap: 10 }}>
+            <span style={{ flex: 1, fontSize: 14, color: TEXT, fontWeight: 600 }}>{ajout === "reveil" ? `Réveillé${e} à` : `Endormi${e} à`}</span>
+            <SelecteurHeure valeur={heureAjout} onChange={setHeureAjout} type={ajout} />
+            <button type="button" onClick={valider} style={boutonPlein(ajout)}>
               Ajouter
-            </button>
-            <button type="button" onClick={() => setAjout(null)} style={{ ...croix, width: "auto", padding: "0 4px", fontSize: 13, textDecoration: "underline" }}>
-              Annuler
             </button>
           </div>
         ) : null}
