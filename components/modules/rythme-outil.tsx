@@ -432,7 +432,13 @@ export function RythmeOutil({
     setMonte(true);
     setJour(aujourdhui());
   }, []);
-  const e = genre === "fille" ? "e" : "";
+  // 12/11 : redessine chaque minute, pour que « éveil depuis… » et l'aiguille de la roue avancent seuls.
+  const [, setTic] = useState(0);
+  useEffect(() => {
+    const id = window.setInterval(() => setTic((n) => n + 1), 60_000);
+    return () => window.clearInterval(id);
+  }, []);
+  const e =genre === "fille" ? "e" : "";
 
   const momentsDe = (j: string, tous = jours) => tous[j] ?? repriseDeLaVeille(tous[decaler(j, -1)]);
   const suiteDort = (j: string, tous = jours) => Boolean(tous[decaler(j, 1)]?.[0]?.veille);
@@ -543,7 +549,11 @@ export function RythmeOutil({
       const depuis = m.veille ? enMinutes(m.h) - UNE_JOURNEE : a;
       const d = duree(enMinutes(suivant.h) - depuis);
       apres = m.t === "reveil" ? `éveil ${d}` : `${nuit ? "nuit" : "sieste"} ${d}`;
-    } else if (m.t === "reveil") apres = "éveil en cours";
+    } else if (m.t === "reveil") {
+      // 12/11 (Laura) : aujourd'hui, le temps d'éveil écoulé depuis ce réveil, à la place de « éveil en cours ».
+      const ecoule = estAujourdhui ? maintenantMinutes() - a : -1;
+      apres = ecoule >= 0 ? `éveil depuis ${duree(ecoule)}` : "éveil en cours";
+    }
     else apres = suiteDort(jour) ? `nuit jusqu’à minuit, ${duree(UNE_JOURNEE - a)}` : "sommeil en cours";
     return (
       <li key={`${m.veille ? "v" : ""}${m.t}${m.h}`} style={{ listStyle: "none" }}>
@@ -717,14 +727,11 @@ export function RythmeOutil({
         ) : null}
 
         {/* 07/11 : lignes resserrées vers le centre du cadre (moins de vide au milieu). */}
+        {/* 12/11 (Laura) : plus de « Commence par le moment que tu veux… » ni de « Demain, sa roue
+            commencera… », l'outil est assez intuitif. Le cadre n'apparaît que s'il a quelque chose à montrer. */}
+        {lignes.length || !disponible || etat === "enregistrement" || etat === "erreur" ? (
         <section style={{ background: CARTE, borderRadius: 18, padding: "10px 12px" }} aria-label="Moments notés">
-          {lignes.length ? (
-            <ul style={{ margin: "0 auto", padding: 0, maxWidth: 270 }}>{lignes}</ul>
-          ) : (
-            <p style={{ margin: "6px 0", fontSize: 13, color: DOUX, textAlign: "center", lineHeight: 1.45 }}>
-              Commence par le moment que tu veux : un réveil, une sieste ou le coucher du soir.
-            </p>
-          )}
+          {lignes.length ? <ul style={{ margin: "0 auto", padding: 0, maxWidth: 270 }}>{lignes}</ul> : null}
           {/* Plus de « Chaque moment est enregistré tout seul. » (Laura, 12/11/2026) :
               on n'écrit rien quand tout va bien, seulement l'enregistrement en cours ou un souci. */}
           {!disponible || etat === "enregistrement" || etat === "erreur" ? (
@@ -737,12 +744,9 @@ export function RythmeOutil({
             </p>
           ) : null}
         </section>
+        ) : null}
 
-        {estAujourdhui ? (
-          <p style={{ margin: 0, fontSize: 12.5, color: DOUX, textAlign: "center", lineHeight: 1.45 }}>
-            Demain, sa roue commencera avec le coucher de ce soir.
-          </p>
-        ) : (
+        {estAujourdhui ? null : (
           <button
             type="button"
             onClick={() => allerA(decaler(jour, 1))}

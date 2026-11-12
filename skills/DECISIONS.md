@@ -871,3 +871,5 @@ Phrase à déconstruire : porter son bébé est bon, ce n'est pas une mauvaise h
 - (Laura) **« Chaque moment est enregistré tout seul. » est retirée**, phrase inutile. Sous la liste des moments, on n'écrit plus rien quand tout va bien ; restent seulement « Enregistrement… » pendant l'envoi et « Pas enregistré : vérifie ta connexion. » en cas de souci.
 - (12/11) Table `journees_rythme` créée dans Supabase (migration 0006 lancée par Laura) : les journées sont désormais gardées.
 - Code : `components/modules/rythme-outil.tsx`.
+- (Laura, 12/11) **« éveil en cours » remplacé par le temps d'éveil écoulé** depuis le dernier réveil : « éveil depuis 1h20 », recalculé chaque minute (aujourd'hui seulement ; un jour passé garde « éveil en cours »).
+- (Laura, 12/11) **Retirés : « Commence par le moment que tu veux… » et « Demain, sa roue commencera avec le coucher de ce soir. »**, l'outil est assez intuitif. Sans moment noté, le cadre de la liste ne s'affiche pas.
