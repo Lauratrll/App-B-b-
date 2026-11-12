@@ -42,6 +42,7 @@ const TEXT = "#3A3228";
 const DOUX = "#4E5E6A"; // gris bleuté (07/11, avec le fond bleu ciel)
 const PLAYFAIR = "var(--font-playfair), Georgia, serif";
 const FOND = "#D3E5F2"; // bleu ciel de la gamme Réflexologie (Laura, 07/11 : remplace le vert)
+const FOND_JOURNEES = "#C6DAE8"; // 12/11 : un cran plus soutenu (« Bleu ciel » de la réflexologie, fond de carte)
 const VERT_TEXTE = "#2F6081"; // bleu profond de la même famille (nom gardé)
 const CARTE = "rgba(255,255,255,.55)";
 
@@ -434,6 +435,20 @@ const boutonPlein = (type: Saisie): React.CSSProperties => ({
   cursor: "pointer",
   flexShrink: 0,
 });
+
+/** Bouton en simple texte souligné (12/11 : « En voir plus » / « Voir moins »). */
+const lienTexte: React.CSSProperties = {
+  background: "none",
+  border: "none",
+  padding: "4px 2px",
+  font: "inherit",
+  fontSize: 14,
+  fontWeight: 600,
+  color: VERT_TEXTE,
+  textDecoration: "underline",
+  textUnderlineOffset: 3,
+  cursor: "pointer",
+};
 
 const croix: React.CSSProperties = {
   width: 30,
@@ -1175,10 +1190,15 @@ export function RythmeOutil({
         {/* 12/11 (Laura) : plus de bouton « Journée suivante → » ici ; les flèches du haut suffisent. */}
 
         {/* 12/11 (Laura) : « Ses journées précédentes », sans phrase d'aide ; les 3 plus récentes avant
-            aujourd'hui, puis « En voir plus » (6 de plus à chaque fois). Rien s'il n'y en a pas. */}
+            aujourd'hui, puis « En voir plus » (6 de plus à chaque fois). Rien s'il n'y en a pas.
+            12/11 (Laura) : bande de fond bleu un cran plus soutenu (même gamme), d’un bord à l’autre et
+            jusqu’en bas, pour séparer les journées précédentes du reste ; plus de marge au-dessus. */}
         {precedentes.length ? (
-        <section aria-label="Ses journées précédentes">
-          <h2 style={{ fontFamily: PLAYFAIR, fontSize: 18, fontWeight: 600, color: TEXT, margin: "6px 0 10px" }}>Ses journées précédentes</h2>
+        <section
+          aria-label="Ses journées précédentes"
+          style={{ margin: "18px -20px -28px", padding: "18px 20px 28px", background: FOND_JOURNEES, borderRadius: "22px 22px 0 0" }}
+        >
+          <h2 style={{ fontFamily: PLAYFAIR, fontSize: 18, fontWeight: 600, color: TEXT, margin: "0 0 12px", textAlign: "center" }}>Ses journées précédentes</h2>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 8 }}>
             {precedentes.slice(0, nbVisibles).map((j) => (
               <button
@@ -1201,26 +1221,20 @@ export function RythmeOutil({
               </button>
             ))}
           </div>
-          {precedentes.length > nbVisibles ? (
-            <button
-              type="button"
-              onClick={() => setNbVisibles((n) => n + 6)}
-              style={{
-                display: "block",
-                margin: "12px auto 0",
-                padding: "10px 20px",
-                borderRadius: 999,
-                border: "none",
-                background: CARTE,
-                color: VERT_TEXTE,
-                fontFamily: PLAYFAIR,
-                fontSize: 15,
-                fontWeight: 600,
-                cursor: "pointer",
-              }}
-            >
-              En voir plus
-            </button>
+          {/* 12/11 (Laura) : « En voir plus » / « Voir moins » en simple texte souligné. */}
+          {precedentes.length > nbVisibles || nbVisibles > 3 ? (
+            <div style={{ display: "flex", justifyContent: "center", gap: 24, marginTop: 12 }}>
+              {precedentes.length > nbVisibles ? (
+                <button type="button" onClick={() => setNbVisibles((n) => n + 6)} style={lienTexte}>
+                  En voir plus
+                </button>
+              ) : null}
+              {nbVisibles > 3 ? (
+                <button type="button" onClick={() => setNbVisibles(3)} style={lienTexte}>
+                  Voir moins
+                </button>
+              ) : null}
+            </div>
           ) : null}
         </section>
         ) : null}
