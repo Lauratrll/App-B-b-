@@ -287,6 +287,9 @@ const maintenantMinutes = () => {
 // 12/11 : réveil un cran plus clair avec le nouvel éveil ; lait et selles dans leurs teintes.
 type Saisie = "reveil" | "endormi" | "lait" | "selle";
 const TEINTE: Record<Saisie, string> = { reveil: "#FCEDE4", endormi: "#D3E7EC", lait: "#FAE7E2", selle: "#E4EAD9" };
+// 12/11 (Laura) : bouton Réveillé / Endormi mis en retrait. Le bleu de la case d’heure (#D3E7EC) se perdait
+// sur le fond de page (#D3E5F2) : Endormi prend un bleu-vert un peu plus soutenu (choix de Claude).
+const RETRAIT = { reveil: "#FCEDE4", endormi: "#BEDCE2" } as const;
 const PLEIN: Record<Saisie, string> = { reveil: C.eveil, endormi: C.nuit, lait: C.lait, selle: C.selle };
 
 // ---------------------------------------------------------------------------
@@ -1023,7 +1026,7 @@ export function RythmeOutil({
     borderRadius: 16,
     border: ajout === t ? `2px solid ${VERT_TEXTE}` : "2px solid transparent",
     // 12/11 (Laura) : le bouton mis en retrait garde une teinte légère de sa couleur (pas le blanc des cadres).
-    background: ajout !== t && !logique(t) ? TEINTE[t] : t === "reveil" ? C.eveil : C.nuit,
+    background: ajout !== t && !logique(t) ? RETRAIT[t] : t === "reveil" ? C.eveil : C.nuit,
     color: TEXT,
     fontFamily: PLAYFAIR,
     fontSize: 16,
