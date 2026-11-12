@@ -142,11 +142,7 @@ export function RoueRythme({ dessin, mini, maintenant }: { dessin: Dessin; mini?
       <circle cx={cx} cy={cy} r={(ro + ri) / 2} fill="none" stroke={C.base} strokeWidth={ro - ri} />
       {formes}
       {traits}
-      {dessin.couchers.map((m) => {
-        const a = point(cx, cy, ri - 4, m / F);
-        const b = point(cx, cy, ro + 4, m / F);
-        return <line key={`c${m}`} x1={a[0]} y1={a[1]} x2={b[0]} y2={b[1]} stroke={C.coucher} strokeWidth={mini ? 4 : 2.5} strokeLinecap="round" />;
-      })}
+      {/* 12/11 (Laura) : plus de barre rouge au coucher du soir (dessin.couchers reste calculé, non affiché). */}
       {maintenant !== null && maintenant !== undefined && !mini ? (
         <circle cx={point(cx, cy, ro + 14, maintenant / F)[0]} cy={point(cx, cy, ro + 14, maintenant / F)[1]} r={3.2} fill={VERT_TEXTE} />
       ) : null}

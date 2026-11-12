@@ -879,3 +879,4 @@ Phrase à déconstruire : porter son bébé est bon, ce n'est pas une mauvaise h
 - (Laura, 12/11) **Deux nuits, deux couleurs** : la nuit précédente (après minuit) garde `#89BDC8` ; la nuit qui commence le soir (avant minuit) passe en bleu un cran plus soutenu `#74A8BA` (choix de Claude ; 1er essai `#5F93AB` jugé trop éloigné par Laura). Règle : une nuit dont le début est après midi est celle du soir. Légende : Nuit précédente · Éveil · Sieste · Nuit suivante. Même couleur sur la barre de la liste.
 - (Laura, 12/11) **Heures sur la roue : 0h, 3h, 6h, 9h, 12h, 15h, 18h, 21h** (avant : 0h, 6h, 12h, 18h), même style.
 - (Laura, 12/11) **Légende : les deux carrés bleus côte à côte, un seul mot « Nuit »** (remplace « Nuit précédente » / « Nuit suivante »). Ordre : Nuit · Éveil · Sieste.
+- (Laura, 12/11) **Barre rouge du coucher retirée de la roue** (le calcul `couchers` reste, non affiché).
