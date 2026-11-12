@@ -44,7 +44,8 @@ const BORD = "rgba(47,96,129,.16)";
 
 export const COULEURS_RYTHME = {
   base: "rgba(255,255,255,.75)",
-  nuit: "#89BDC8", // slot Réveils nocturnes
+  nuit: "#89BDC8", // slot Réveils nocturnes : la nuit précédente, après minuit
+  nuitSoir: "#5F93AB", // 12/11 (Laura) : la nuit qui commence le soir, avant minuit, plus soutenue (choix de Claude)
   sieste: "#B6D6DD", // slot Fin de journée
   eveil: "#F0B8A8", // pêche
   haloEveil: COULEURS_ROUE.eveil, // beige de la case « Fenêtre d'éveil »
@@ -107,7 +108,9 @@ export function RoueRythme({ dessin, mini, maintenant }: { dessin: Dessin; mini?
     }
   }
   for (const z of dessin.zones) {
-    if (z.k === "nuit" || z.k === "sieste" || z.k === "eveil") plage(z.a, z.b, C[z.k]);
+    // 12/11 (Laura) : deux nuits, deux couleurs. Une nuit qui commence après midi est celle du soir.
+    if (z.k === "nuit") plage(z.a, z.b, z.a >= 12 * 60 ? C.nuitSoir : C.nuit);
+    else if (z.k === "sieste" || z.k === "eveil") plage(z.a, z.b, C[z.k]);
   }
 
   const traits: React.ReactNode[] = [];
@@ -188,9 +191,10 @@ function Legende() {
   );
   return (
     <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "6px 14px", fontSize: 11, color: TEXT }}>
-      {item(p(C.nuit), "Nuit")}
-      {item(p(C.sieste), "Sieste")}
+      {item(p(C.nuit), "Nuit précédente")}
       {item(p(C.eveil), "Éveil")}
+      {item(p(C.sieste), "Sieste")}
+      {item(p(C.nuitSoir), "Nuit suivante")}
     </div>
   );
 }
@@ -545,7 +549,7 @@ export function RythmeOutil({
     const suivant = tries[i + 1];
     const a = m.veille ? 0 : enMinutes(m.h);
     const nuit = m.t === "endormi" && (m.veille || estNuit(m.h));
-    const couleur = m.t === "reveil" ? C.eveil : nuit ? C.nuit : C.sieste;
+    const couleur = m.t === "reveil" ? C.eveil : !nuit ? C.sieste : !m.veille && a >= 12 * 60 ? C.nuitSoir : C.nuit;
     const libelle = m.veille ? `Endormi${e} hier soir` : m.t === "reveil" ? `Réveillé${e}` : `Endormi${e}`;
     const enEdition = edition === i && !m.veille;
     let apres: string | null = null;
