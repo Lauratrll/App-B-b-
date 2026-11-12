@@ -45,7 +45,6 @@ const FOND = "#D3E5F2"; // bleu ciel de la gamme Réflexologie (Laura, 07/11 : r
 const VERT_TEXTE = "#2F6081"; // bleu profond de la même famille (nom gardé)
 const EUCAL = "#8A9E98";
 const CARTE = "rgba(255,255,255,.55)";
-const BORD = "rgba(47,96,129,.16)";
 
 export const COULEURS_RYTHME = {
   base: "rgba(255,255,255,.75)",
@@ -53,10 +52,10 @@ export const COULEURS_RYTHME = {
   nuitSoir: "#74A8BA", // 12/11 (Laura) : la nuit qui commence le soir, avant minuit, un cran plus soutenue (choix de Claude ; 1er essai #5F93AB trop loin)
   sieste: "#B6D6DD", // slot Fin de journée
   eveil: "#F8DBC9", // 12/11 (Laura) : adouci, couleur du slot 3 de Guide-moi (avant : pêche #F0B8A8)
-  // 12/11 (Laura) : prises de lait = vert du slot Repères clés, picto plus foncé ;
+  // 12/11 (Laura) : prises de lait = violet bleuté du slot 1 de la réflexologie, picto plus foncé ;
   // selles = brun clair du cadre « Introduction » de la réflexologie, picto plus foncé.
-  lait: "#DCDDBB",
-  laitPicto: "#4A4E2A",
+  lait: "#D3D5EA", // 12/11 (Laura) : violet du slot 1 de la réflexologie (avant : vert Repères clés #DCDDBB)
+  laitPicto: "#545584",
   selle: "#DFBEB0",
   sellePicto: "#6B3D2B",
   haloEveil: COULEURS_ROUE.eveil, // beige de la case « Fenêtre d'éveil »
@@ -286,7 +285,7 @@ const maintenantMinutes = () => {
 // Teintes légères de la case de l'heure (07/11) : pêche pour un réveil, bleu pour un endormissement.
 // 12/11 : réveil un cran plus clair avec le nouvel éveil ; lait et selles dans leurs teintes.
 type Saisie = "reveil" | "endormi" | "lait" | "selle";
-const TEINTE: Record<Saisie, string> = { reveil: "#FCEDE4", endormi: "#D3E7EC", lait: "#EDEEDD", selle: "#EFDDD5" };
+const TEINTE: Record<Saisie, string> = { reveil: "#FCEDE4", endormi: "#D3E7EC", lait: "#E6E7F7", selle: "#EFDDD5" };
 const PLEIN: Record<Saisie, string> = { reveil: C.eveil, endormi: C.nuit, lait: C.lait, selle: C.selle };
 
 // ---------------------------------------------------------------------------
@@ -782,9 +781,31 @@ export function RythmeOutil({
         placeItems: "center",
         cursor: "pointer",
         flexShrink: 0,
+        position: "relative",
       }}
     >
       <PictoRythme quoi={quoi} taille={28} couleur={quoi === "lait" ? C.laitPicto : C.sellePicto} />
+      {/* 12/11 (Laura) : petit « + » en haut à droite, pour dire qu'on ajoute. */}
+      <span
+        aria-hidden
+        style={{
+          position: "absolute",
+          top: -4,
+          right: -4,
+          width: 18,
+          height: 18,
+          borderRadius: 999,
+          background: "#fff",
+          color: quoi === "lait" ? C.laitPicto : C.sellePicto,
+          fontSize: 15,
+          fontWeight: 700,
+          lineHeight: "18px",
+          textAlign: "center",
+          boxShadow: "0 1px 2px rgba(0,0,0,.12)",
+        }}
+      >
+        +
+      </span>
     </button>
   );
 
@@ -960,15 +981,7 @@ export function RythmeOutil({
           </p>
         ) : null}
 
-        {estAujourdhui ? null : (
-          <button
-            type="button"
-            onClick={() => allerA(decaler(jour, 1))}
-            style={{ padding: "11px 16px", borderRadius: 999, border: `1px solid ${BORD}`, background: CARTE, color: VERT_TEXTE, fontFamily: PLAYFAIR, fontSize: 15, fontWeight: 600, cursor: "pointer" }}
-          >
-            Journée suivante →
-          </button>
-        )}
+        {/* 12/11 (Laura) : plus de bouton « Journée suivante → » ici ; les flèches du haut suffisent. */}
 
         <section aria-label="Ses journées">
           <h2 style={{ fontFamily: PLAYFAIR, fontSize: 18, fontWeight: 600, color: TEXT, margin: "6px 0 4px" }}>Ses journées</h2>
