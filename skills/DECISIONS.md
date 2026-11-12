@@ -866,3 +866,8 @@ Phrase à déconstruire : porter son bébé est bon, ce n'est pas une mauvaise h
 ## 12/11/2026 — Réflexologie plantaire : cadre « Les zones réflexes, en bref » masqué (Laura)
 - (Laura) **Le cadre repliable « Les zones réflexes, en bref »** (aide-mémoire écrit des étapes, sous la carte des pieds) **n'est plus affiché** : l'animation porte déjà les mêmes textes.
 - (Laura) **Gardé en mémoire, pas supprimé** : code et données (`sequence`) intacts. Pour le faire revenir : `AFFICHER_ZONES_EN_BREF = true` dans `app/(app)/reflexologie/[id]/page.tsx`.
+
+## 12/11/2026 — Le rythme de bébé : phrase sous la roue retirée (Laura)
+- (Laura) **« Chaque moment est enregistré tout seul. » est retirée**, phrase inutile. Sous la liste des moments, on n'écrit plus rien quand tout va bien ; restent seulement « Enregistrement… » pendant l'envoi et « Pas enregistré : vérifie ta connexion. » en cas de souci.
+- (12/11) Table `journees_rythme` créée dans Supabase (migration 0006 lancée par Laura) : les journées sont désormais gardées.
+- Code : `components/modules/rythme-outil.tsx`.

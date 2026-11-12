@@ -725,15 +725,17 @@ export function RythmeOutil({
               Commence par le moment que tu veux : un réveil, une sieste ou le coucher du soir.
             </p>
           )}
-          <p style={{ margin: "6px 0 0", fontSize: 11.5, color: DOUX, textAlign: "center" }}>
-            {!disponible
-              ? "L’enregistrement des journées arrive bientôt : cette roue n’est pas gardée."
-              : etat === "enregistrement"
-                ? "Enregistrement…"
-                : etat === "erreur"
-                  ? "Pas enregistré : vérifie ta connexion."
-                  : "Chaque moment est enregistré tout seul."}
-          </p>
+          {/* Plus de « Chaque moment est enregistré tout seul. » (Laura, 12/11/2026) :
+              on n'écrit rien quand tout va bien, seulement l'enregistrement en cours ou un souci. */}
+          {!disponible || etat === "enregistrement" || etat === "erreur" ? (
+            <p style={{ margin: "6px 0 0", fontSize: 11.5, color: DOUX, textAlign: "center" }}>
+              {!disponible
+                ? "L’enregistrement des journées arrive bientôt : cette roue n’est pas gardée."
+                : etat === "enregistrement"
+                  ? "Enregistrement…"
+                  : "Pas enregistré : vérifie ta connexion."}
+            </p>
+          ) : null}
         </section>
 
         {estAujourdhui ? (
