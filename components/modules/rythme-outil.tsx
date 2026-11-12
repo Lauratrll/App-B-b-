@@ -80,7 +80,7 @@ export function RoueRythme({ dessin, mini, maintenant }: { dessin: Dessin; mini?
   const cx = 150;
   const cy = 150;
   const ro = 108;
-  const ri = 64;
+  const ri = 72; // 12/11 (Laura) : anneau affiné, 36 d'épaisseur au lieu de 44
   const F = UNE_JOURNEE;
   const formes: React.ReactNode[] = [];
   let k = 0;
@@ -556,11 +556,11 @@ export function RythmeOutil({
     }
     else if (suiteDort(jour)) apres = `nuit jusqu’à minuit, ${duree(UNE_JOURNEE - a)}`;
     else {
-      // 12/11 (Laura) : pareil pour le sommeil, « sieste depuis 40 min » / « nuit depuis 9h ».
+      // 12/11 (Laura) : pareil pour le sommeil, « sommeil depuis 40 min », même phrase pour la nuit et les siestes.
       // La nuit reprise de la veille se compte depuis le coucher d'hier soir.
       const debut = m.veille ? enMinutes(m.h) - UNE_JOURNEE : a;
       const ecoule = estAujourdhui ? maintenantMinutes() - debut : -1;
-      apres = ecoule >= 0 ? `${nuit ? "nuit" : "sieste"} depuis ${duree(ecoule)}` : "sommeil en cours";
+      apres = ecoule >= 0 ? `sommeil depuis ${duree(ecoule)}` : "sommeil en cours";
     }
     return (
       <li key={`${m.veille ? "v" : ""}${m.t}${m.h}`} style={{ listStyle: "none" }}>
