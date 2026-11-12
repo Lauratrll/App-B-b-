@@ -873,3 +873,4 @@ Phrase à déconstruire : porter son bébé est bon, ce n'est pas une mauvaise h
 - Code : `components/modules/rythme-outil.tsx`.
 - (Laura, 12/11) **« éveil en cours » remplacé par le temps d'éveil écoulé** depuis le dernier réveil : « éveil depuis 1h20 », recalculé chaque minute (aujourd'hui seulement ; un jour passé garde « éveil en cours »).
 - (Laura, 12/11) **Retirés : « Commence par le moment que tu veux… » et « Demain, sa roue commencera avec le coucher de ce soir. »**, l'outil est assez intuitif. Sans moment noté, le cadre de la liste ne s'affiche pas.
+- (Laura, 12/11) **Pareil pour le sommeil** : « sommeil en cours » devient « sieste depuis 40 min » ou « nuit depuis 9h » (aujourd'hui seulement).

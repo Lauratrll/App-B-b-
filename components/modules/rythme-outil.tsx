@@ -554,7 +554,14 @@ export function RythmeOutil({
       const ecoule = estAujourdhui ? maintenantMinutes() - a : -1;
       apres = ecoule >= 0 ? `éveil depuis ${duree(ecoule)}` : "éveil en cours";
     }
-    else apres = suiteDort(jour) ? `nuit jusqu’à minuit, ${duree(UNE_JOURNEE - a)}` : "sommeil en cours";
+    else if (suiteDort(jour)) apres = `nuit jusqu’à minuit, ${duree(UNE_JOURNEE - a)}`;
+    else {
+      // 12/11 (Laura) : pareil pour le sommeil, « sieste depuis 40 min » / « nuit depuis 9h ».
+      // La nuit reprise de la veille se compte depuis le coucher d'hier soir.
+      const debut = m.veille ? enMinutes(m.h) - UNE_JOURNEE : a;
+      const ecoule = estAujourdhui ? maintenantMinutes() - debut : -1;
+      apres = ecoule >= 0 ? `${nuit ? "nuit" : "sieste"} depuis ${duree(ecoule)}` : "sommeil en cours";
+    }
     return (
       <li key={`${m.veille ? "v" : ""}${m.t}${m.h}`} style={{ listStyle: "none" }}>
         {apres ? <div style={{ padding: "0 0 0 18px", fontSize: 12, lineHeight: 1.3, color: DOUX }}>{apres}</div> : null}
