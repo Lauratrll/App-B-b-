@@ -348,7 +348,7 @@ function Colonne({ valeurs, index, onChange, label }: { valeurs: string[]; index
       }}
       style={{
         height: LIGNE * 3,
-        width: 38,
+        width: 34, // 12/11 : un peu plus étroit (avant 38)
         overflowY: "scroll",
         scrollSnapType: "y mandatory",
         scrollbarWidth: "none",
@@ -374,7 +374,7 @@ function Colonne({ valeurs, index, onChange, label }: { valeurs: string[]; index
               lineHeight: `${LIGNE}px`,
               textAlign: "center",
               scrollSnapAlign: "center",
-              fontSize: ici ? 19 : 16,
+              fontSize: ici ? 17 : 14, // 12/11 : un peu plus petit (avant 19 / 16)
               fontWeight: ici ? 700 : 500,
               color: TEXT,
               fontVariantNumeric: "tabular-nums",
@@ -403,7 +403,7 @@ function SelecteurHeure({ valeur, onChange, type }: { valeur: string; onChange: 
         display: "flex",
         alignItems: "center",
         gap: 2,
-        padding: "0 8px",
+        padding: "0 6px",
         borderRadius: 14,
         background: TEINTE[type],
         flexShrink: 0,
@@ -412,7 +412,7 @@ function SelecteurHeure({ valeur, onChange, type }: { valeur: string; onChange: 
       {/* La bande du milieu : la valeur choisie. */}
       <div aria-hidden style={{ position: "absolute", left: 6, right: 6, top: LIGNE, height: LIGNE, borderRadius: 8, background: "rgba(255,255,255,.7)" }} />
       <Colonne valeurs={HEURES} index={iH} label="Heure" onChange={(i) => ((cur.current.h = i), envoyer())} />
-      <span style={{ position: "relative", zIndex: 1, fontSize: 18, fontWeight: 700, color: TEXT }}>:</span>
+      <span style={{ position: "relative", zIndex: 1, fontSize: 16, fontWeight: 700, color: TEXT }}>:</span>
       <Colonne valeurs={MINUTES} index={iM} label="Minutes" onChange={(i) => ((cur.current.m = i), envoyer())} />
     </div>
   );
@@ -434,12 +434,12 @@ const caseHeure = (type: Saisie): React.CSSProperties => ({
 });
 
 const boutonPlein = (type: Saisie): React.CSSProperties => ({
-  padding: "9px 16px",
+  padding: "8px 13px", // 12/11 : un peu plus petit (avant 9px 16px, 14 px)
   borderRadius: 999,
   border: "none",
   background: PLEIN[type],
   color: TEXT,
-  fontSize: 14,
+  fontSize: 13,
   fontWeight: 700,
   cursor: "pointer",
   flexShrink: 0,
@@ -601,6 +601,15 @@ export function RythmeOutil({
   // 12/11 : calendrier ouvert sous la date ; nombre de journées précédentes montrées.
   const [calOuvert, setCalOuvert] = useState(false);
   const [nbVisibles, setNbVisibles] = useState(3);
+  // 12/11 (Laura) : la ligne de saisie est réglée pour un écran de 390 px et rétrécit d’un bloc,
+  // proportionnellement, sur les écrans plus petits (zoom CSS), pour que « Ajouter » reste dans la case.
+  const [echelle, setEchelle] = useState(1);
+  useEffect(() => {
+    const calculer = () => setEchelle(Math.min(1, window.innerWidth / 390));
+    calculer();
+    window.addEventListener("resize", calculer);
+    return () => window.removeEventListener("resize", calculer);
+  }, []);
   const [jour, setJour] = useState(aujourdhui);
   const [ajout, setAjout] = useState<null | Saisie>(null);
   const [ml, setMl] = useState(""); // quantité de lait saisie, en mL (facultative)
@@ -761,7 +770,7 @@ export function RythmeOutil({
         onChange={(ev) => changer(ev.target.value.replace(/[^0-9]/g, "").slice(0, 4))}
         aria-label="Quantité bue, en mL (facultatif)"
         style={{
-          width: 54,
+          width: 48,
           padding: "7px 8px",
           borderRadius: 10,
           border: `1.5px solid ${C.laitPicto}`,
@@ -1145,12 +1154,12 @@ export function RythmeOutil({
             <div
               style={
                 ajout === "lait"
-                  ? { display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap", justifyContent: "flex-end" }
-                  : { display: "grid", gridTemplateColumns: "1fr auto 1fr", alignItems: "center", gap: 8 }
+                  ? { display: "flex", alignItems: "center", gap: 6, flexWrap: "wrap", justifyContent: "flex-end", zoom: echelle }
+                  : { display: "grid", gridTemplateColumns: "1fr auto 1fr", alignItems: "center", gap: 8, zoom: echelle }
               }
             >
               {/* 12/11 (Laura) : un peu plus petit, sur une seule ligne (« Endormie à »). */}
-              <span style={{ flex: 1, fontSize: 13, color: TEXT, fontWeight: 600, whiteSpace: "nowrap" }}>
+              <span style={{ flex: 1, fontSize: 12, color: TEXT, fontWeight: 600, whiteSpace: "nowrap" }}>
                 {ajout === "reveil" ? `Réveillé${e} à` : ajout === "endormi" ? `Endormi${e} à` : ajout === "lait" ? "Lait à" : "Selle à"}
               </span>
               <SelecteurHeure valeur={heureAjout} onChange={setHeureAjout} type={ajout} />
@@ -1159,7 +1168,7 @@ export function RythmeOutil({
               <button
                 type="button"
                 onClick={valider}
-                style={ajout === "lait" ? { ...boutonPlein(ajout), padding: "9px 12px" } : { ...boutonPlein(ajout), padding: "9px 13px", justifySelf: "end" }}
+                style={ajout === "lait" ? { ...boutonPlein(ajout), padding: "8px 11px" } : { ...boutonPlein(ajout), justifySelf: "end" }}
               >
                 Ajouter
               </button>
