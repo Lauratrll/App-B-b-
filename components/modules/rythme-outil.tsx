@@ -43,7 +43,6 @@ const DOUX = "#4E5E6A"; // gris bleuté (07/11, avec le fond bleu ciel)
 const PLAYFAIR = "var(--font-playfair), Georgia, serif";
 const FOND = "#D3E5F2"; // bleu ciel de la gamme Réflexologie (Laura, 07/11 : remplace le vert)
 const VERT_TEXTE = "#2F6081"; // bleu profond de la même famille (nom gardé)
-const EUCAL = "#8A9E98";
 const CARTE = "rgba(255,255,255,.55)";
 
 export const COULEURS_RYTHME = {
@@ -52,12 +51,12 @@ export const COULEURS_RYTHME = {
   nuitSoir: "#74A8BA", // 12/11 (Laura) : la nuit qui commence le soir, avant minuit, un cran plus soutenue (choix de Claude ; 1er essai #5F93AB trop loin)
   sieste: "#B6D6DD", // slot Fin de journée
   eveil: "#F8DBC9", // 12/11 (Laura) : adouci, couleur du slot 3 de Guide-moi (avant : pêche #F0B8A8)
-  // 12/11 (Laura) : prises de lait = violet bleuté du slot 1 de la réflexologie, picto plus foncé ;
-  // selles = brun clair du cadre « Introduction » de la réflexologie, picto plus foncé.
-  lait: "#D3D5EA", // 12/11 (Laura) : violet du slot 1 de la réflexologie (avant : vert Repères clés #DCDDBB)
-  laitPicto: "#545584",
-  selle: "#DFBEB0",
-  sellePicto: "#6B3D2B",
+  // 12/11 (Laura) : prises de lait = rosé du slot 2 de Guide-moi ; selles = vert du slot 5 ;
+  // picto plus foncé de la même teinte, repris en contour des petits ronds de la roue.
+  lait: "#F5D0C8", // 12/11 (Laura) : rosé du slot 2 de Guide-moi (avant : violet réflexo #D3D5EA, vert Repères clés #DCDDBB)
+  laitPicto: "#9A5444", // rosé foncé (choix de Claude)
+  selle: "#BECEA9", // 12/11 (Laura) : vert du slot 5 de Guide-moi (avant : brun réflexo #DFBEB0)
+  sellePicto: "#4F6236", // vert foncé (choix de Claude)
   haloEveil: COULEURS_ROUE.eveil, // beige de la case « Fenêtre d'éveil »
   haloSommeil: teinteAuDessus("#CEE4E8"), // rond du picto de Journée et siestes
   coucher: COULEURS_ROUE.coucher,
@@ -188,7 +187,7 @@ export function RoueRythme({
               const taille = rayon * 1.45;
               return (
                 <g key={`r${i}`}>
-                  <circle cx={x} cy={y} r={rayon} fill={lait ? C.lait : C.selle} stroke="#fff" strokeWidth={1.2} />
+                  <circle cx={x} cy={y} r={rayon} fill={lait ? C.lait : C.selle} stroke={lait ? C.laitPicto : C.sellePicto} strokeWidth={1.2} />
                   <PictoRythme quoi={r.t} taille={taille} couleur={lait ? C.laitPicto : C.sellePicto} x={x - taille / 2} y={y - taille / 2} />
                 </g>
               );
@@ -285,7 +284,7 @@ const maintenantMinutes = () => {
 // Teintes légères de la case de l'heure (07/11) : pêche pour un réveil, bleu pour un endormissement.
 // 12/11 : réveil un cran plus clair avec le nouvel éveil ; lait et selles dans leurs teintes.
 type Saisie = "reveil" | "endormi" | "lait" | "selle";
-const TEINTE: Record<Saisie, string> = { reveil: "#FCEDE4", endormi: "#D3E7EC", lait: "#E6E7F7", selle: "#EFDDD5" };
+const TEINTE: Record<Saisie, string> = { reveil: "#FCEDE4", endormi: "#D3E7EC", lait: "#FAE7E2", selle: "#E4EAD9" };
 const PLEIN: Record<Saisie, string> = { reveil: C.eveil, endormi: C.nuit, lait: C.lait, selle: C.selle };
 
 // ---------------------------------------------------------------------------
@@ -491,6 +490,10 @@ export function RythmeOutil({
   const [heureAjout, setHeureAjout] = useState("07:00");
   // Moment de la liste dont on change l'heure (index dans l'ordre de la journée).
   const [edition, setEdition] = useState<number | null>(null);
+  // 12/11 : lait ou selle du détail dont on change l'heure (et la quantité pour le lait).
+  const [editionR, setEditionR] = useState<Repere | null>(null);
+  const [heureR, setHeureR] = useState("07:00");
+  const [mlR, setMlR] = useState("");
   const [heureEdition, setHeureEdition] = useState("07:00");
   const [message, setMessage] = useState<string | null>(null);
   const [etat, setEtat] = useState<"" | "enregistrement" | "enregistre" | "erreur">("");
@@ -622,8 +625,40 @@ export function RythmeOutil({
     setJour(j);
     setAjout(null);
     setEdition(null);
+    setEditionR(null);
     setMessage(null);
   };
+
+  /**
+   * Champ « … mL » (facultatif) du lait, entre la roulette et « Ajouter » (Laura, 12/11 : sans texte
+   * « Quantité bue », bien visible : fond blanc, contour rosé foncé).
+   */
+  const champMl = (valeur: string, changer: (v: string) => void) => (
+    <label style={{ display: "inline-flex", alignItems: "center", gap: 4, fontSize: 14, color: C.laitPicto, fontWeight: 700, flexShrink: 0 }}>
+      <input
+        type="text"
+        inputMode="numeric"
+        pattern="[0-9]*"
+        placeholder="…"
+        value={valeur}
+        onChange={(ev) => changer(ev.target.value.replace(/[^0-9]/g, "").slice(0, 4))}
+        aria-label="Quantité bue, en mL (facultatif)"
+        style={{
+          width: 54,
+          padding: "7px 8px",
+          borderRadius: 10,
+          border: `1.5px solid ${C.laitPicto}`,
+          background: "#fff",
+          font: "inherit",
+          fontSize: 16,
+          fontWeight: 700,
+          textAlign: "center",
+          color: TEXT,
+        }}
+      />
+      mL
+    </label>
+  );
 
   // Lignes de la liste (07/11) : le premier moment en bas, le plus récent en haut.
   // La durée de chaque phase s'écrit au-dessus du moment qui l'ouvre.
@@ -707,24 +742,75 @@ export function RythmeOutil({
       .map((r, i) => {
         const prec = liste[i - 1];
         const ecart = prec ? enMinutes(r.h) - enMinutes(prec.h) : null;
+        const enEdition = editionR === r;
+        const libelle = r.t === "lait" ? (r.ml ? `${r.ml} mL` : "Lait") : "Selle";
+        // 12/11 (Laura) : toucher l'heure (ou la quantité) d'un lait ouvre la roulette et la quantité ;
+        // pour une selle, la roulette seule.
+        const ouvrir = () => {
+          setMessage(null);
+          setHeureR(r.h);
+          setMlR(r.t === "lait" && r.ml ? String(r.ml) : "");
+          setEditionR(r);
+        };
+        const validerEdition = () => {
+          let nouveau: Repere = { t: "selle", h: heureR };
+          if (r.t === "lait") {
+            const q = Number(mlR.trim());
+            const quantite = mlR.trim() && Number.isInteger(q) && q > 0 && q <= ML_MAX ? q : undefined;
+            if (mlR.trim() && quantite === undefined) return setMessage(`La quantité doit être un nombre entier de mL (jusqu’à ${ML_MAX}).`);
+            nouveau = quantite ? { t: "lait", h: heureR, ml: quantite } : { t: "lait", h: heureR };
+          }
+          changerReperes(reperes.map((x) => (x === r ? nouveau : x)));
+          setEditionR(null);
+        };
+        // 12/11 (Laura) : au-dessus du dernier lait d'aujourd'hui, « il y a 2h15 » (recalculé chaque minute).
+        const ilYa = quoi === "lait" && estAujourdhui && i === liste.length - 1 ? maintenantMinutes() - enMinutes(r.h) : -1;
         return (
           <li key={`${quoi}${r.h}${i}`} style={{ listStyle: "none" }}>
+            {ilYa >= 0 ? <div style={{ padding: "0 0 0 32px", fontSize: 12, lineHeight: 1.3, color: DOUX }}>il y a {duree(ilYa)}</div> : null}
             <div style={{ display: "flex", alignItems: "center", gap: 8, padding: "2px 0" }}>
               <span aria-hidden style={{ width: 24, height: 24, borderRadius: 999, background: PLEIN[quoi], display: "grid", placeItems: "center", flexShrink: 0 }}>
                 <PictoRythme quoi={quoi} taille={16} couleur={quoi === "lait" ? C.laitPicto : C.sellePicto} />
               </span>
-              <span style={{ flex: 1, fontSize: 14, fontWeight: 600, color: TEXT }}>
-                {r.t === "lait" ? (r.ml ? `${r.ml} mL` : "Lait") : "Selle"}
-              </span>
-              <span style={{ ...caseHeure(quoi), cursor: "default" }}>{r.h}</span>
-              <button
-                type="button"
-                aria-label={quoi === "lait" ? "Retirer cette prise de lait" : "Retirer cette selle"}
-                style={croix}
-                onClick={() => changerReperes(reperes.filter((x) => x !== r))}
-              >
-                ×
-              </button>
+              {enEdition ? (
+                <>
+                  <span style={{ flex: 1 }} />
+                  <SelecteurHeure valeur={heureR} onChange={setHeureR} type={quoi} />
+                  {r.t === "lait" ? champMl(mlR, setMlR) : null}
+                  <button type="button" style={{ ...boutonPlein(quoi), padding: "8px 11px" }} onClick={validerEdition}>
+                    OK
+                  </button>
+                </>
+              ) : (
+                <>
+                  {r.t === "lait" ? (
+                    <button
+                      type="button"
+                      onClick={ouvrir}
+                      aria-label={r.ml ? `Modifier la quantité : ${r.ml} mL` : "Ajouter la quantité"}
+                      style={{ flex: 1, textAlign: "left", background: "none", border: "none", padding: 0, font: "inherit", fontSize: 14, fontWeight: 600, color: TEXT, cursor: "pointer" }}
+                    >
+                      {libelle}
+                    </button>
+                  ) : (
+                    <span style={{ flex: 1, fontSize: 14, fontWeight: 600, color: TEXT }}>{libelle}</span>
+                  )}
+                  <button type="button" aria-label={`Modifier l’heure : ${libelle} à ${heureLisible(r.h)}`} style={caseHeure(quoi)} onClick={ouvrir}>
+                    {r.h}
+                  </button>
+                </>
+              )}
+              {/* Pendant la modification d'un lait, la croix s'efface pour laisser la place à la quantité. */}
+              {enEdition && r.t === "lait" ? null : (
+                <button
+                  type="button"
+                  aria-label={quoi === "lait" ? "Retirer cette prise de lait" : "Retirer cette selle"}
+                  style={croix}
+                  onClick={() => changerReperes(reperes.filter((x) => x !== r))}
+                >
+                  ×
+                </button>
+              )}
             </div>
             {ecart !== null ? (
               <div style={{ padding: "0 0 0 32px", fontSize: 12, lineHeight: 1.3, color: DOUX }}>{duree(ecart)} après la précédente</div>
@@ -866,10 +952,7 @@ export function RythmeOutil({
           <h1 style={{ fontFamily: PLAYFAIR, fontSize: 24, fontWeight: 600, color: TEXT, margin: "0 0 4px", lineHeight: 1.15 }}>
             Le rythme de {prenom}
           </h1>
-          {/* 07/11 : sous-titre en capitales eucalyptus (typo des sous-titres de Sommeil). */}
-          <p style={{ fontSize: 9, fontWeight: 700, textTransform: "uppercase", letterSpacing: ".15em", color: EUCAL, margin: 0 }}>
-            Ses périodes d’éveil et de sommeil
-          </p>
+          {/* 12/11 (Laura) : sous-titre « Ses périodes d’éveil et de sommeil » retiré, pour alléger. */}
         </header>
 
         {/* Choix du jour : flèches, ou toucher la date pour ouvrir le calendrier. */}
@@ -879,7 +962,7 @@ export function RythmeOutil({
           </button>
           <label style={{ position: "relative", flex: 1, textAlign: "center", cursor: "pointer" }}>
             <span style={{ display: "block", fontFamily: PLAYFAIR, fontSize: 17, fontWeight: 600, color: TEXT }}>{dateLongue(jour)}</span>
-            <span style={{ display: "block", fontSize: 11.5, color: DOUX }}>{estAujourdhui ? "aujourd’hui" : "toucher pour changer de date"}</span>
+            <span style={{ display: "block", fontSize: 10, color: DOUX }}>{estAujourdhui ? "aujourd’hui" : "toucher pour changer de date"}</span>
             <input
               type="date"
               value={jour}
@@ -922,30 +1005,17 @@ export function RythmeOutil({
             toucher à nouveau le bouton choisi referme la saisie. Pour le lait, une 2e ligne : la quantité. */}
         {ajout ? (
           <div style={{ background: CARTE, borderRadius: 16, padding: "8px 12px", display: "grid", gap: 8 }}>
-            <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: ajout === "lait" ? 8 : 10, flexWrap: "wrap", justifyContent: "flex-end" }}>
               <span style={{ flex: 1, fontSize: 14, color: TEXT, fontWeight: 600 }}>
                 {ajout === "reveil" ? `Réveillé${e} à` : ajout === "endormi" ? `Endormi${e} à` : ajout === "lait" ? "Lait à" : "Selle à"}
               </span>
               <SelecteurHeure valeur={heureAjout} onChange={setHeureAjout} type={ajout} />
-              <button type="button" onClick={valider} style={boutonPlein(ajout)}>
+              {/* 12/11 (Laura) : la quantité entre l'heure et « Ajouter ». */}
+              {ajout === "lait" ? champMl(ml, setMl) : null}
+              <button type="button" onClick={valider} style={ajout === "lait" ? { ...boutonPlein(ajout), padding: "9px 12px" } : boutonPlein(ajout)}>
                 Ajouter
               </button>
             </div>
-            {ajout === "lait" ? (
-              <label style={{ display: "flex", alignItems: "center", gap: 8, fontSize: 14, color: TEXT, fontWeight: 600 }}>
-                <span style={{ flex: 1 }}>Quantité bue</span>
-                <input
-                  type="text"
-                  inputMode="numeric"
-                  pattern="[0-9]*"
-                  value={ml}
-                  onChange={(ev) => setMl(ev.target.value.replace(/[^0-9]/g, "").slice(0, 4))}
-                  aria-label="Quantité bue, en mL (facultatif)"
-                  style={{ width: 70, padding: "6px 10px", borderRadius: 10, border: "none", background: TEINTE.lait, font: "inherit", fontSize: 16, textAlign: "right", color: TEXT }}
-                />
-                <span>mL</span>
-              </label>
-            ) : null}
           </div>
         ) : null}
 
