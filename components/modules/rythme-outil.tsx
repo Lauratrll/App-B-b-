@@ -1005,14 +1005,26 @@ export function RythmeOutil({
             toucher à nouveau le bouton choisi referme la saisie. Pour le lait, une 2e ligne : la quantité. */}
         {ajout ? (
           <div style={{ background: CARTE, borderRadius: 16, padding: "8px 12px", display: "grid", gap: 8 }}>
-            <div style={{ display: "flex", alignItems: "center", gap: ajout === "lait" ? 8 : 10, flexWrap: "wrap", justifyContent: "flex-end" }}>
+            {/* 12/11 (Laura) : roulette centrée dans la case (grille 1fr / roulette / 1fr) ; pour le lait,
+                la quantité prend la place, la ligne reste en flex. */}
+            <div
+              style={
+                ajout === "lait"
+                  ? { display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap", justifyContent: "flex-end" }
+                  : { display: "grid", gridTemplateColumns: "1fr auto 1fr", alignItems: "center", gap: 10 }
+              }
+            >
               <span style={{ flex: 1, fontSize: 14, color: TEXT, fontWeight: 600 }}>
                 {ajout === "reveil" ? `Réveillé${e} à` : ajout === "endormi" ? `Endormi${e} à` : ajout === "lait" ? "Lait à" : "Selle à"}
               </span>
               <SelecteurHeure valeur={heureAjout} onChange={setHeureAjout} type={ajout} />
               {/* 12/11 (Laura) : la quantité entre l'heure et « Ajouter ». */}
               {ajout === "lait" ? champMl(ml, setMl) : null}
-              <button type="button" onClick={valider} style={ajout === "lait" ? { ...boutonPlein(ajout), padding: "9px 12px" } : boutonPlein(ajout)}>
+              <button
+                type="button"
+                onClick={valider}
+                style={ajout === "lait" ? { ...boutonPlein(ajout), padding: "9px 12px" } : { ...boutonPlein(ajout), justifySelf: "end" }}
+              >
                 Ajouter
               </button>
             </div>
