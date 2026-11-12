@@ -482,8 +482,8 @@ export function RythmeOutil({
   const [reperesJours, setReperesJours] = useState<Record<string, Repere[]>>(() =>
     Object.fromEntries(journees.map((j) => [j.jour, separer(j.evenements).reperes]).filter(([, rs]) => rs.length)),
   );
-  // Cadres déroulants du détail (12/11) : Éveil & Sommeil ouvert d'emblée.
-  const [ouverts, setOuverts] = useState({ sommeil: true, lait: false, selles: false });
+  // 12/11 (Laura) : les trois cadres fermés à l’ouverture, pour voir toute la page sur un écran.
+  const [ouverts, setOuverts] = useState({ sommeil: false, lait: false, selles: false });
   const [jour, setJour] = useState(aujourdhui);
   const [ajout, setAjout] = useState<null | Saisie>(null);
   const [ml, setMl] = useState(""); // quantité de lait saisie, en mL (facultative)
@@ -839,7 +839,7 @@ export function RythmeOutil({
       }}
       style={{ background: CARTE, borderRadius: 18, overflow: "hidden" }}
     >
-      <summary style={{ cursor: "pointer", display: "flex", alignItems: "center", gap: 10, padding: "12px 14px" }}>
+      <summary style={{ cursor: "pointer", display: "flex", alignItems: "center", gap: 10, padding: "10px 14px" }}>
         <span style={{ flex: 1, fontFamily: PLAYFAIR, fontSize: 16, fontWeight: 600, color: TEXT }}>{titre}</span>
         <span style={{ fontSize: 12, color: DOUX }}>{resume}</span>
         <svg className="rythme-chevron" width={14} height={14} viewBox="0 0 24 24" fill="none" stroke={VERT_TEXTE} strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" aria-hidden style={{ flexShrink: 0, transition: "transform .2s ease" }}>
@@ -947,7 +947,8 @@ export function RythmeOutil({
         style={{ width: "min(100vw, 390px)", background: FOND, zIndex: 0 }}
       />
       <style>{`.rythme-roulette::-webkit-scrollbar{display:none}`}</style>
-      <div style={{ position: "relative", zIndex: 1, display: "flex", flexDirection: "column", gap: 14, paddingBottom: 12 }}>
+      {/* 12/11 (Laura) : tout tenir sur un écran, du titre au cadre « Selles » fermé : espaces de 10, roue de 256. */}
+      <div style={{ position: "relative", zIndex: 1, display: "flex", flexDirection: "column", gap: 10, paddingBottom: 12 }}>
         <header style={{ textAlign: "center" }}>
           <h1 style={{ fontFamily: PLAYFAIR, fontSize: 24, fontWeight: 600, color: TEXT, margin: "0 0 4px", lineHeight: 1.15 }}>
             Le rythme de {prenom}
@@ -983,12 +984,19 @@ export function RythmeOutil({
           </button>
         </div>
 
-        <div style={{ maxWidth: 290, width: "100%", margin: "0 auto" }}>
+        <div style={{ maxWidth: 256, width: "100%", margin: "-4px auto" }}>
           <RoueRythme dessin={dessin} maintenant={estAujourdhui ? maintenantMinutes() : null} reperes={reperes} />
         </div>
-        <Legende />
+        {/* 12/11 (Laura) : Lait à gauche de la légende, Selles à droite, au-dessus de Réveillé / Endormi. */}
+        <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+          {boutonRond("lait")}
+          <div style={{ flex: 1, minWidth: 0 }}>
+            <Legende />
+          </div>
+          {boutonRond("selle")}
+        </div>
 
-        {/* Saisie d'un moment. 12/11 : deux boutons ronds, Lait et Selles, sous Réveillé / Endormi. */}
+        {/* Saisie d’un moment. */}
         <div style={{ display: "flex", gap: 10 }}>
           <button type="button" style={boutonMoment("reveil")} onClick={() => ouvrirAjout("reveil")}>
             <IconeSoleil /> Réveillé{e}
@@ -996,10 +1004,6 @@ export function RythmeOutil({
           <button type="button" style={boutonMoment("endormi")} onClick={() => ouvrirAjout("endormi")}>
             <IconeLune /> Endormi{e}
           </button>
-        </div>
-        <div style={{ display: "flex", justifyContent: "center", gap: 16 }}>
-          {boutonRond("lait")}
-          {boutonRond("selle")}
         </div>
         {/* 07/11 : la case de l'heure, plus étroite, et « Ajouter » sur la même ligne. Pas de bouton Annuler :
             toucher à nouveau le bouton choisi referme la saisie. Pour le lait, une 2e ligne : la quantité. */}
