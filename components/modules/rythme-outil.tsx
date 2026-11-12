@@ -24,6 +24,7 @@ import {
   estNuit,
   heureLisible,
   horloge,
+  insertion,
   repriseDeLaVeille,
   trier,
   verifier,
@@ -430,6 +431,7 @@ export function RythmeOutil({
   const [jour, setJour] = useState(aujourdhui);
   const [ajout, setAjout] = useState<null | "reveil" | "endormi">(null);
   const [heureAjout, setHeureAjout] = useState("07:00");
+  const [heureAutre, setHeureAutre] = useState<string | null>(null); // l'autre bout d'une période insérée
   // Moment de la liste dont on change l'heure (index dans l'ordre de la journée).
   const [edition, setEdition] = useState<number | null>(null);
   const [heureEdition, setHeureEdition] = useState("07:00");
@@ -509,6 +511,7 @@ export function RythmeOutil({
     setMessage(null);
     // Toucher le bouton déjà choisi referme la saisie ; changer de bouton garde l'heure choisie.
     if (ajout === t) return setAjout(null);
+    setHeureAutre(null);
     if (ajout) return setAjout(t);
     setAjout(t);
     const dernier = moments.length ? trier(moments)[moments.length - 1] : null;
@@ -519,9 +522,17 @@ export function RythmeOutil({
     setHeureAjout(horloge(Math.min(h, UNE_JOURNEE - 5)));
   };
 
+  // 12/11 (Laura) : on peut ajouter un moment n'importe où. S'il tombe au milieu d'une phase
+  // du même genre (une sieste dans un éveil déjà noté, un réveil dans la nuit), on demande
+  // aussi l'autre bout de la période.
+  const ins = ajout ? insertion(moments, ajout, heureAjout) : null;
+  const heureAutreAffichee = ins && !ins.seul ? heureAutre ?? ins.suggestion : null;
+
   const valider = () => {
-    if (!ajout) return;
-    if (essayer([...moments, { t: ajout, h: heureAjout }])) setAjout(null);
+    if (!ajout || !ins) return;
+    const ajoutes: Moment[] = [{ t: ajout, h: heureAjout }];
+    if (!ins.seul && heureAutreAffichee) ajoutes.push({ t: ins.autre, h: heureAutreAffichee });
+    if (essayer([...moments, ...ajoutes])) setAjout(null);
   };
 
   const retirer = (i: number) => {
@@ -626,10 +637,11 @@ export function RythmeOutil({
     .filter((j) => jours[j].length)
     .sort((a, b) => (a < b ? 1 : -1));
 
-  // 07/11 (Laura) : les deux boutons au début de la roue, ensuite seulement l'autre moment
-  // que le dernier noté ; celui qui n'est pas accessible passe en gris clair.
+  // 12/11 (Laura) : les deux boutons restent toujours actifs (avant, le 07/11 : seulement
+  // l'autre moment que le dernier noté, ce qui empêchait d'ajouter un oubli).
+  // Celui qui n'est pas le moment logique suivant perd sa couleur, mais reste cliquable.
   const dernierNote = tries.length ? tries[tries.length - 1].t : null;
-  const permis = (t: "reveil" | "endormi") => dernierNote !== t;
+  const logique = (t: "reveil" | "endormi") => dernierNote !== t;
 
   const boutonMoment = (t: "reveil" | "endormi"): React.CSSProperties => ({
     flex: 1,
@@ -640,12 +652,12 @@ export function RythmeOutil({
     padding: "12px 10px",
     borderRadius: 16,
     border: ajout === t ? `2px solid ${VERT_TEXTE}` : "2px solid transparent",
-    background: !permis(t) ? "rgba(255,255,255,.45)" : t === "reveil" ? C.eveil : C.nuit,
-    color: permis(t) ? TEXT : "rgba(58,50,40,.3)",
+    background: ajout !== t && !logique(t) ? "rgba(255,255,255,.55)" : t === "reveil" ? C.eveil : C.nuit,
+    color: TEXT,
     fontFamily: PLAYFAIR,
     fontSize: 16,
     fontWeight: 600,
-    cursor: permis(t) ? "pointer" : "default",
+    cursor: "pointer",
   });
 
   const fleche: React.CSSProperties = {
@@ -723,23 +735,39 @@ export function RythmeOutil({
 
         {/* Saisie d'un moment. */}
         <div style={{ display: "flex", gap: 10 }}>
-          <button type="button" style={boutonMoment("reveil")} disabled={!permis("reveil")} onClick={() => ouvrirAjout("reveil")}>
+          <button type="button" style={boutonMoment("reveil")} onClick={() => ouvrirAjout("reveil")}>
             <IconeSoleil /> Réveillé{e}
           </button>
-          <button type="button" style={boutonMoment("endormi")} disabled={!permis("endormi")} onClick={() => ouvrirAjout("endormi")}>
+          <button type="button" style={boutonMoment("endormi")} onClick={() => ouvrirAjout("endormi")}>
             <IconeLune /> Endormi{e}
           </button>
         </div>
         {/* 07/11 : la case de l'heure, plus étroite, et « Ajouter » sur la même ligne. Pas de bouton Annuler :
             toucher à nouveau Réveillé / Endormi referme la saisie. */}
-        {ajout && permis(ajout) ? (
-          <div style={{ background: CARTE, borderRadius: 16, padding: "8px 12px", display: "flex", alignItems: "center", gap: 10 }}>
-            <span style={{ flex: 1, fontSize: 14, color: TEXT, fontWeight: 600 }}>{ajout === "reveil" ? `Réveillé${e} à` : `Endormi${e} à`}</span>
-            <SelecteurHeure valeur={heureAjout} onChange={setHeureAjout} type={ajout} />
-            <button type="button" onClick={valider} style={boutonPlein(ajout)}>
-              Ajouter
-            </button>
-          </div>
+        {ajout && ins ? (
+          (() => {
+            const libelle = (t: "reveil" | "endormi") => (t === "reveil" ? `Réveillé${e} à` : `Endormi${e} à`);
+            const bouton = (
+              <button type="button" onClick={valider} style={boutonPlein(ajout)}>
+                Ajouter
+              </button>
+            );
+            const ligne = (t: "reveil" | "endormi", valeur: string, onChange: (h: string) => void, avecBouton: boolean) => (
+              <div key={t} style={{ display: "flex", alignItems: "center", gap: 10 }}>
+                <span style={{ flex: 1, fontSize: 14, color: TEXT, fontWeight: 600 }}>{libelle(t)}</span>
+                <SelecteurHeure valeur={valeur} onChange={onChange} type={t} />
+                {avecBouton ? bouton : <span aria-hidden style={{ ...boutonPlein(ajout), visibility: "hidden" }}>Ajouter</span>}
+              </div>
+            );
+            const principale = ligne(ajout, heureAjout, setHeureAjout, ins.seul || ins.apres === false);
+            const autre = !ins.seul && heureAutreAffichee ? ligne(ins.autre, heureAutreAffichee, setHeureAutre, ins.apres) : null;
+            return (
+              <div style={{ background: CARTE, borderRadius: 16, padding: "8px 12px", display: "grid", gap: 8 }}>
+                {/* Les deux lignes dans l'ordre de la journée ; « Ajouter » sur la dernière. */}
+                {!ins.seul && !ins.apres ? [autre, principale] : [principale, autre]}
+              </div>
+            );
+          })()
         ) : null}
 
         {message ? (

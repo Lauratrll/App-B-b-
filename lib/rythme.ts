@@ -72,6 +72,35 @@ export function trier(ms: Moment[]): Moment[] {
   return [...ms].sort((a, b) => position(a) - position(b));
 }
 
+/**
+ * Ajout d'un moment n'importe où dans la journée (Laura, 12/11) : un sommeil
+ * oublié à 1h, une sieste au milieu d'un éveil déjà noté…
+ * - `seul` : le moment s'insère tel quel ;
+ * - sinon il tombe au milieu d'une phase du même genre et il faut l'autre bout de
+ *   la période : `apres` = l'autre moment vient après (avant le moment suivant),
+ *   sinon il vient avant (après le moment précédent). `suggestion` : heure proposée.
+ */
+export type Insertion =
+  | { seul: true }
+  | { seul: false; autre: "reveil" | "endormi"; apres: boolean; suggestion: string };
+
+export function insertion(ms: Moment[], t: "reveil" | "endormi", h: string): Insertion {
+  const s = trier(ms);
+  const x = enMinutes(h);
+  const avant = s.filter((m) => position(m) < x).pop();
+  const suivant = s.find((m) => position(m) > x);
+  const autre = t === "reveil" ? "endormi" : "reveil";
+  if (suivant && suivant.t === t) {
+    const fin = Math.max(x + 5, Math.min(x + 30, position(suivant) - 5));
+    return { seul: false, autre, apres: true, suggestion: horloge(Math.min(fin, UNE_JOURNEE - 5)) };
+  }
+  if (avant && avant.t === t) {
+    const debut = Math.min(x - 5, Math.max(x - 30, Math.max(0, position(avant)) + 5));
+    return { seul: false, autre, apres: false, suggestion: horloge(Math.max(debut, 0)) };
+  }
+  return { seul: true };
+}
+
 /** null si la suite est cohérente ; sinon une phrase pour le parent. */
 export function verifier(ms: Moment[]): string | null {
   const s = trier(ms);
