@@ -21,7 +21,7 @@ export default async function RythmePage() {
     .from("journees_rythme")
     .select("id, jour, mois_bebe, evenements")
     .order("jour", { ascending: false })
-    .limit(200);
+    .limit(400); // 12/11 : un peu plus d’un an de journées, pour remonter les mois dans le calendrier
 
   const journees = (data ?? []) as unknown as JourneeEnregistree[];
 

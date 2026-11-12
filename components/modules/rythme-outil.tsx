@@ -460,6 +460,96 @@ const IconeLune = () => (
   </svg>
 );
 
+// ---------------------------------------------------------------------------
+// Calendrier (12/11, Laura) : remplace celui du téléphone, qui ne sait pas marquer de jours.
+// Un mois à la fois, lundi en premier ; un point sous chaque jour noté ; flèches pour
+// remonter les mois (sans aller au-delà du mois en cours). Jours futurs grisés.
+// ---------------------------------------------------------------------------
+
+const JOURS_SEMAINE = ["L", "M", "M", "J", "V", "S", "D"];
+
+function Calendrier({ jour, marques, onChoisir }: { jour: string; marques: Set<string>; onChoisir: (j: string) => void }) {
+  const auj = aujourdhui();
+  const [mois, setMois] = useState(jour.slice(0, 7)); // « 2026-11 »
+  const [a, m] = mois.split("-").map(Number);
+  const premier = new Date(a, m - 1, 1);
+  const nbJours = new Date(a, m, 0).getDate();
+  const decalage = (premier.getDay() + 6) % 7; // lundi = 0
+  const changerMois = (n: number) => {
+    const d = new Date(a, m - 1 + n, 1);
+    setMois(`${d.getFullYear()}-${deux(d.getMonth() + 1)}`);
+  };
+  const titre = premier.toLocaleDateString("fr-FR", { month: "long", year: "numeric" });
+  const dernierMois = mois >= auj.slice(0, 7);
+  const notesDuMois = Array.from(marques).filter((j) => j.startsWith(mois)).length;
+  const fleche: React.CSSProperties = { width: 34, height: 34, borderRadius: 999, border: "none", background: "rgba(255,255,255,.7)", color: VERT_TEXTE, fontSize: 18, cursor: "pointer" };
+  return (
+    <div style={{ background: CARTE, borderRadius: 18, padding: "10px 12px 12px" }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 6 }}>
+        <button type="button" aria-label="Mois précédent" style={fleche} onClick={() => changerMois(-1)}>
+          ‹
+        </button>
+        <span style={{ flex: 1, textAlign: "center", fontFamily: PLAYFAIR, fontSize: 16, fontWeight: 600, color: TEXT }}>
+          {titre.charAt(0).toUpperCase() + titre.slice(1)}
+          <span style={{ display: "block", fontFamily: "inherit", fontSize: 10, fontWeight: 400, color: DOUX }}>
+            {notesDuMois ? `${notesDuMois} jour${notesDuMois > 1 ? "s" : ""} noté${notesDuMois > 1 ? "s" : ""}` : "aucun jour noté"}
+          </span>
+        </span>
+        <button type="button" aria-label="Mois suivant" style={{ ...fleche, opacity: dernierMois ? 0.35 : 1 }} disabled={dernierMois} onClick={() => changerMois(1)}>
+          ›
+        </button>
+      </div>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(7, 1fr)", gap: 2, textAlign: "center" }}>
+        {JOURS_SEMAINE.map((l, i) => (
+          <span key={i} aria-hidden style={{ fontSize: 10, fontWeight: 700, color: DOUX, padding: "2px 0" }}>
+            {l}
+          </span>
+        ))}
+        {Array.from({ length: decalage }, (_, i) => (
+          <span key={`v${i}`} />
+        ))}
+        {Array.from({ length: nbJours }, (_, i) => {
+          const j = `${mois}-${deux(i + 1)}`;
+          const futur = j > auj;
+          const choisi = j === jour;
+          const note = marques.has(j);
+          return (
+            <button
+              key={j}
+              type="button"
+              disabled={futur}
+              onClick={() => onChoisir(j)}
+              aria-label={`${dateLongue(j)}${note ? ", journée notée" : ""}`}
+              aria-pressed={choisi}
+              style={{
+                height: 36,
+                borderRadius: 10,
+                border: j === auj && !choisi ? `1.5px solid ${VERT_TEXTE}` : "1.5px solid transparent",
+                background: choisi ? VERT_TEXTE : "transparent",
+                color: choisi ? "#fff" : TEXT,
+                opacity: futur ? 0.3 : 1,
+                fontSize: 14,
+                fontWeight: note ? 700 : 500,
+                cursor: futur ? "default" : "pointer",
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+                gap: 2,
+                padding: 0,
+              }}
+            >
+              {i + 1}
+              {/* Jour noté : un petit point (blanc sur le jour choisi). */}
+              <span aria-hidden style={{ width: 5, height: 5, borderRadius: 999, background: note ? (choisi ? "#fff" : VERT_TEXTE) : "transparent" }} />
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
 export function RythmeOutil({
   prenom,
   mois,
@@ -484,6 +574,9 @@ export function RythmeOutil({
   );
   // 12/11 (Laura) : les trois cadres fermés à l’ouverture, pour voir toute la page sur un écran.
   const [ouverts, setOuverts] = useState({ sommeil: false, lait: false, selles: false });
+  // 12/11 : calendrier ouvert sous la date ; nombre de journées précédentes montrées.
+  const [calOuvert, setCalOuvert] = useState(false);
+  const [nbVisibles, setNbVisibles] = useState(3);
   const [jour, setJour] = useState(aujourdhui);
   const [ajout, setAjout] = useState<null | Saisie>(null);
   const [ml, setMl] = useState(""); // quantité de lait saisie, en mL (facultative)
@@ -827,6 +920,7 @@ export function RythmeOutil({
   const sauvegardes = Array.from(new Set([...Object.keys(jours), ...Object.keys(reperesJours)]))
     .filter((j) => (jours[j]?.length ?? 0) + (reperesJours[j]?.length ?? 0) > 0)
     .sort((a, b) => (a < b ? 1 : -1));
+  const precedentes = sauvegardes.filter((j) => j < aujourdhui());
 
   /** Un cadre déroulant du détail (12/11) : titre, petit résumé à droite, chevron. */
   const cadre = (cle: keyof typeof ouverts, titre: string, resume: string, contenu: React.ReactNode) => (
@@ -962,18 +1056,17 @@ export function RythmeOutil({
           <button type="button" aria-label="Journée précédente" style={fleche} onClick={() => allerA(decaler(jour, -1))}>
             ‹
           </button>
-          <label style={{ position: "relative", flex: 1, textAlign: "center", cursor: "pointer" }}>
+          {/* 12/11 (Laura) : calendrier maison (plus celui du téléphone), qui marque les jours notés. */}
+          <button
+            type="button"
+            aria-expanded={calOuvert}
+            aria-label="Choisir la date dans le calendrier"
+            onClick={() => setCalOuvert((o) => !o)}
+            style={{ flex: 1, textAlign: "center", cursor: "pointer", background: "none", border: "none", padding: 0, font: "inherit" }}
+          >
             <span style={{ display: "block", fontFamily: PLAYFAIR, fontSize: 17, fontWeight: 600, color: TEXT }}>{dateLongue(jour)}</span>
             <span style={{ display: "block", fontSize: 10, color: DOUX }}>{estAujourdhui ? "aujourd’hui" : "toucher pour changer de date"}</span>
-            <input
-              type="date"
-              value={jour}
-              max={aujourdhui()}
-              aria-label="Choisir la date"
-              onChange={(e) => allerA(e.target.value)}
-              style={{ position: "absolute", inset: 0, opacity: 0, width: "100%", cursor: "pointer" }}
-            />
-          </label>
+          </button>
           <button
             type="button"
             aria-label="Journée suivante"
@@ -984,6 +1077,16 @@ export function RythmeOutil({
             ›
           </button>
         </div>
+        {calOuvert ? (
+          <Calendrier
+            jour={jour}
+            marques={new Set(sauvegardes)}
+            onChoisir={(j) => {
+              allerA(j);
+              setCalOuvert(false);
+            }}
+          />
+        ) : null}
 
         <div style={{ maxWidth: 256, width: "100%", margin: "-4px auto" }}>
           <RoueRythme dessin={dessin} maintenant={estAujourdhui ? maintenantMinutes() : null} reperes={reperes} />
@@ -1071,13 +1174,13 @@ export function RythmeOutil({
 
         {/* 12/11 (Laura) : plus de bouton « Journée suivante → » ici ; les flèches du haut suffisent. */}
 
-        <section aria-label="Ses journées">
-          <h2 style={{ fontFamily: PLAYFAIR, fontSize: 18, fontWeight: 600, color: TEXT, margin: "6px 0 4px" }}>Ses journées</h2>
-          <p style={{ fontSize: 12.5, color: DOUX, margin: "0 0 10px", lineHeight: 1.4 }}>
-            {sauvegardes.length ? "Touche une roue pour la revoir ou la compléter." : "Les journées notées s’afficheront ici, côte à côte."}
-          </p>
+        {/* 12/11 (Laura) : « Ses journées précédentes », sans phrase d'aide ; les 3 plus récentes avant
+            aujourd'hui, puis « En voir plus » (6 de plus à chaque fois). Rien s'il n'y en a pas. */}
+        {precedentes.length ? (
+        <section aria-label="Ses journées précédentes">
+          <h2 style={{ fontFamily: PLAYFAIR, fontSize: 18, fontWeight: 600, color: TEXT, margin: "6px 0 10px" }}>Ses journées précédentes</h2>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 8 }}>
-            {sauvegardes.map((j) => (
+            {precedentes.slice(0, nbVisibles).map((j) => (
               <button
                 key={j}
                 type="button"
@@ -1098,7 +1201,29 @@ export function RythmeOutil({
               </button>
             ))}
           </div>
+          {precedentes.length > nbVisibles ? (
+            <button
+              type="button"
+              onClick={() => setNbVisibles((n) => n + 6)}
+              style={{
+                display: "block",
+                margin: "12px auto 0",
+                padding: "10px 20px",
+                borderRadius: 999,
+                border: "none",
+                background: CARTE,
+                color: VERT_TEXTE,
+                fontFamily: PLAYFAIR,
+                fontSize: 15,
+                fontWeight: 600,
+                cursor: "pointer",
+              }}
+            >
+              En voir plus
+            </button>
+          ) : null}
         </section>
+        ) : null}
       </div>
     </>
   );
