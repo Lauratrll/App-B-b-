@@ -24,7 +24,6 @@ import {
   estNuit,
   heureLisible,
   horloge,
-  insertion,
   repriseDeLaVeille,
   trier,
   verifier,
@@ -431,8 +430,6 @@ export function RythmeOutil({
   const [jour, setJour] = useState(aujourdhui);
   const [ajout, setAjout] = useState<null | "reveil" | "endormi">(null);
   const [heureAjout, setHeureAjout] = useState("07:00");
-  // Premier bout d'une période insérée, en attente de l'autre (`apres` : l'autre vient après lui).
-  const [attente, setAttente] = useState<{ m: Moment; apres: boolean } | null>(null);
   // Moment de la liste dont on change l'heure (index dans l'ordre de la journée).
   const [edition, setEdition] = useState<number | null>(null);
   const [heureEdition, setHeureEdition] = useState("07:00");
@@ -511,7 +508,6 @@ export function RythmeOutil({
   const ouvrirAjout = (t: "reveil" | "endormi") => {
     setMessage(null);
     // Toucher le bouton déjà choisi referme la saisie ; changer de bouton garde l'heure choisie.
-    setAttente(null);
     if (ajout === t) return setAjout(null);
     if (ajout) return setAjout(t);
     setAjout(t);
@@ -523,47 +519,15 @@ export function RythmeOutil({
     setHeureAjout(horloge(Math.min(h, UNE_JOURNEE - 5)));
   };
 
-  // 12/11 (Laura) : on peut ajouter un moment n'importe où. S'il tombe au milieu d'une phase
-  // du même genre (une sieste dans un éveil déjà noté, un réveil dans la nuit), il faut aussi
-  // l'autre bout de la période : une seule roulette à la fois, donc en deux temps. Le premier
-  // moment attend (`attente`), la roulette passe à l'autre moment, « Ajouter » enregistre les deux.
-  const ins = ajout && !attente ? insertion(moments, ajout, heureAjout) : null;
-
+  // 12/11 (Laura) : un moment s'ajoute toujours seul, n'importe où, même deux réveils ou deux
+  // endormissements à la suite ; le parent complétera l'autre état après coup.
   const valider = () => {
     if (!ajout) return;
-    if (attente) {
-      if (essayer([...moments, attente.m, { t: ajout, h: heureAjout }])) {
-        setAttente(null);
-        setAjout(null);
-      }
-      return;
-    }
-    if (!ins) return;
-    if (ins.seul) {
-      if (essayer([...moments, { t: ajout, h: heureAjout }])) setAjout(null);
-      return;
-    }
-    setMessage(null);
-    setAttente({ m: { t: ajout, h: heureAjout }, apres: ins.apres });
-    setAjout(ins.autre);
-    setHeureAjout(ins.suggestion);
+    if (essayer([...moments, { t: ajout, h: heureAjout }])) setAjout(null);
   };
 
-  const retirer = (i: number) => {
-    const s = trier(moments);
-    const sans = (...idx: number[]) => s.filter((_, k) => !idx.includes(k));
-    if (verifier(sans(i)) === null) return essayer(sans(i));
-    // Retirer un moment au milieu laisserait deux réveils (ou deux endormissements) à la suite :
-    // on retire aussi le moment qui le suit, comme on effacerait une sieste entière.
-    if (i + 1 < s.length && verifier(sans(i, i + 1)) === null) {
-      return essayer(sans(i, i + 1), `Le moment de ${heureLisible(s[i + 1].h)} est retiré aussi, pour garder l’enchaînement.`);
-    }
-    if (i > 0 && verifier(sans(i - 1, i)) === null) {
-      const p = s[i - 1];
-      return essayer(sans(i - 1, i), `Le moment ${p.veille ? "d’hier soir" : `de ${heureLisible(p.h)}`} est retiré aussi, pour garder l’enchaînement.`);
-    }
-    setMessage("Ce moment ne peut pas être retiré seul.");
-  };
+  // Retirer un moment le retire seul (deux états identiques à la suite sont permis depuis le 12/11).
+  const retirer = (i: number) => essayer(trier(moments).filter((_, k) => k !== i));
 
   const allerA = (j: string) => {
     if (!j || j > aujourdhui()) return;
@@ -760,16 +724,8 @@ export function RythmeOutil({
             toucher à nouveau Réveillé / Endormi referme la saisie. */}
         {ajout ? (
           <div style={{ background: CARTE, borderRadius: 16, padding: "8px 12px", display: "flex", alignItems: "center", gap: 10 }}>
-            <span style={{ flex: 1, fontSize: 14, color: TEXT, fontWeight: 600, lineHeight: 1.25 }}>
-              {/* 2e temps d'une période insérée : on rappelle le moment en attente. */}
-              {attente ? (
-                <span style={{ display: "block", fontSize: 11.5, fontWeight: 400, color: DOUX }}>
-                  {attente.m.t === "reveil" ? `Réveillé${e}` : `Endormi${e}`} à {heureLisible(attente.m.h)}, {attente.apres ? "puis" : "juste avant"}
-                </span>
-              ) : null}
-              {ajout === "reveil" ? `Réveillé${e} à` : `Endormi${e} à`}
-            </span>
-            <SelecteurHeure key={`${ajout}${attente ? "-2" : ""}`} valeur={heureAjout} onChange={setHeureAjout} type={ajout} />
+            <span style={{ flex: 1, fontSize: 14, color: TEXT, fontWeight: 600 }}>{ajout === "reveil" ? `Réveillé${e} à` : `Endormi${e} à`}</span>
+            <SelecteurHeure valeur={heureAjout} onChange={setHeureAjout} type={ajout} />
             <button type="button" onClick={valider} style={boutonPlein(ajout)}>
               Ajouter
             </button>
