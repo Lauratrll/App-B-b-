@@ -448,7 +448,7 @@ const lienTexte: React.CSSProperties = {
   border: "none",
   padding: "4px 2px",
   font: "inherit",
-  fontSize: 14,
+  fontSize: 12, // 12/11 (Laura) : plus petit
   fontWeight: 600,
   color: VERT_TEXTE,
   textDecoration: "underline",
@@ -956,8 +956,8 @@ export function RythmeOutil({
       style={{ ...ALIGNE, background: CARTE, borderRadius: 14, overflow: "hidden" }}
     >
       <summary style={{ cursor: "pointer", display: "flex", alignItems: "center", gap: 10, padding: "9px 14px" }}>
-        {/* 12/11 (Laura) : titre en petites capitales espacées (typo des intitulés de section). */}
-        <span style={{ flex: 1, fontSize: 11, fontWeight: 700, letterSpacing: ".13em", textTransform: "uppercase", color: VERT_TEXTE }}>{titre}</span>
+        {/* 12/11 (Laura) : titre en petites capitales, comme les titres de paragraphe de Guide-moi (9 px, .07em). */}
+        <span style={{ flex: 1, fontSize: 9, fontWeight: 700, letterSpacing: ".07em", textTransform: "uppercase", color: VERT_TEXTE }}>{titre}</span>
         <span style={{ fontSize: 11.5, color: DOUX }}>{resume}</span>
         <svg className="rythme-chevron" width={14} height={14} viewBox="0 0 24 24" fill="none" stroke={VERT_TEXTE} strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" aria-hidden style={{ flexShrink: 0, transition: "transform .2s ease" }}>
           <path d="M6 9l6 6 6-6" />
