@@ -39,3 +39,19 @@ export function isSubscriptionActive(subscription: Subscription): boolean {
     new Date(subscription.current_period_end) > new Date()
   );
 }
+
+/**
+ * « de » ou « d’ » devant un prénom (Laura, 12/11/2026) : « Le rythme de Léo », « d’Emma ».
+ * - voyelle (accentuée ou non) → d’ ;
+ * - H → d’ (h muet, le cas le plus courant : d’Hugo, d’Hélène) ;
+ * - Y suivi d’une consonne (prononcé « i ») → d’ (d’Yves) ; Y suivi d’une voyelle → de (de Yanis) ;
+ * - sinon → de.
+ * Renvoie le mot avec son espace : « de » + espace, ou « d’ » collé au prénom.
+ */
+export function deDevant(prenom: string): "de " | "d’" {
+  const p = prenom.trim().normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  const voyelle = (c: string | undefined) => c !== undefined && "aeiou".includes(c);
+  if (voyelle(p[0]) || p[0] === "h") return "d’";
+  if (p[0] === "y") return voyelle(p[1]) ? "de " : "d’";
+  return "de ";
+}

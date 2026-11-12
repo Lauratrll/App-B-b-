@@ -37,6 +37,7 @@ import {
   type Repere,
 } from "@/lib/rythme";
 import { PICTOS_RYTHME } from "@/lib/rythme-pictos";
+import { deDevant } from "@/lib/utils";
 
 const TEXT = "#3A3228";
 const DOUX = "#4E5E6A"; // gris bleuté (07/11, avec le fond bleu ciel)
@@ -946,11 +947,13 @@ export function RythmeOutil({
         const ouvert = (ev.currentTarget as HTMLDetailsElement).open;
         if (ouvert !== ouverts[cle]) setOuverts((o) => ({ ...o, [cle]: ouvert }));
       }}
-      style={{ background: CARTE, borderRadius: 18, overflow: "hidden" }}
+      // 12/11 (Laura) : cadres plus fins et moins larges (16 px de retrait de chaque côté).
+      style={{ background: CARTE, borderRadius: 14, overflow: "hidden", width: "calc(100% - 32px)", marginLeft: "auto", marginRight: "auto" }}
     >
-      <summary style={{ cursor: "pointer", display: "flex", alignItems: "center", gap: 10, padding: "10px 14px" }}>
-        <span style={{ flex: 1, fontFamily: PLAYFAIR, fontSize: 16, fontWeight: 600, color: TEXT }}>{titre}</span>
-        <span style={{ fontSize: 12, color: DOUX }}>{resume}</span>
+      <summary style={{ cursor: "pointer", display: "flex", alignItems: "center", gap: 10, padding: "9px 14px" }}>
+        {/* 12/11 (Laura) : titre en petites capitales espacées (typo des intitulés de section). */}
+        <span style={{ flex: 1, fontSize: 11, fontWeight: 700, letterSpacing: ".13em", textTransform: "uppercase", color: VERT_TEXTE }}>{titre}</span>
+        <span style={{ fontSize: 11.5, color: DOUX }}>{resume}</span>
         <svg className="rythme-chevron" width={14} height={14} viewBox="0 0 24 24" fill="none" stroke={VERT_TEXTE} strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" aria-hidden style={{ flexShrink: 0, transition: "transform .2s ease" }}>
           <path d="M6 9l6 6 6-6" />
         </svg>
@@ -1061,7 +1064,8 @@ export function RythmeOutil({
       <div style={{ position: "relative", zIndex: 1, display: "flex", flexDirection: "column", gap: 10, paddingBottom: 12 }}>
         <header style={{ textAlign: "center", marginTop: 14 }}>
           <h1 style={{ fontFamily: PLAYFAIR, fontSize: 24, fontWeight: 600, color: TEXT, margin: "0 0 4px", lineHeight: 1.15 }}>
-            Le rythme de {prenom}
+            {/* 12/11 (Laura) : « de » ou « d’ » selon le prénom (lib/utils.ts, deDevant). */}
+            Le rythme {deDevant(prenom)}{prenom}
           </h1>
           {/* 12/11 (Laura) : sous-titre « Ses périodes d’éveil et de sommeil » retiré, pour alléger. */}
         </header>
