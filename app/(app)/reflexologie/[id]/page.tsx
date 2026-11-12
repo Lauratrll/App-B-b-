@@ -37,6 +37,10 @@ import {
 // zones → séquence repliée → régularité (toujours) → disclaimer (toujours).
 // La note de fin ne s'affiche plus ici : elle vit dans le lecteur animé.
 
+// Cadre « Les zones réflexes, en bref » (séquence repliée) : masqué le 12/11/2026,
+// l'animation porte les mêmes textes. Gardé en mémoire, pas supprimé.
+const AFFICHER_ZONES_EN_BREF = false;
+
 export function generateStaticParams() {
   return getIdsPublies().map((id) => ({ id }));
 }
@@ -263,6 +267,10 @@ export default async function ProtocoleReflexoPage({
           le fond du lecteur — celui de l'image des pieds juste au-dessus — pour
           rattacher l'aide-mémoire à la carte qu'il sert à décoder, et des étapes
           en cartes blanches à l'intérieur. */}
+      {/* MASQUÉ le 12/11/2026 (choix Laura) : l'animation porte déjà les mêmes
+          textes. Code et données gardés : repasser AFFICHER_ZONES_EN_BREF à true
+          pour le faire revenir. */}
+      {AFFICHER_ZONES_EN_BREF ? (
       <details
         className="reflexo-sequence"
         style={{
@@ -335,6 +343,7 @@ export default async function ProtocoleReflexoPage({
           ))}
         </div>
       </details>
+      ) : null}
 
       {/* 4 ter. Régularité — encart COMMUN à tous les protocoles, placé juste
           après l'aide-mémoire des zones (choix Laura) : c'est la

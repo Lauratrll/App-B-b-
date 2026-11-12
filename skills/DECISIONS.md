@@ -862,3 +862,7 @@ Phrase à déconstruire : porter son bébé est bon, ce n'est pas une mauvaise h
 
 ## 07/11/2026 — Métronome du souffle : consignes (Laura)
 - (Laura) Consignes au-dessus de la vague : **« Inspire par le nez »** et **« Expire par la bouche »**, écrites **un peu plus petit** (19 px au lieu de 22).
+
+## 12/11/2026 — Réflexologie plantaire : cadre « Les zones réflexes, en bref » masqué (Laura)
+- (Laura) **Le cadre repliable « Les zones réflexes, en bref »** (aide-mémoire écrit des étapes, sous la carte des pieds) **n'est plus affiché** : l'animation porte déjà les mêmes textes.
+- (Laura) **Gardé en mémoire, pas supprimé** : code et données (`sequence`) intacts. Pour le faire revenir : `AFFICHER_ZONES_EN_BREF = true` dans `app/(app)/reflexologie/[id]/page.tsx`.

@@ -149,3 +149,5 @@ Au clic sur ▶, le protocole se **lance en animation**. Comportement voulu (à 
 - La **table de correspondance** Guide-moi → protocole (quel sujet mensuel renvoie vers quel protocole).
 - Le **niveau des intentions** : elles sont aujourd'hui génériques par zone (réutilisées d'un protocole à l'autre). À personnaliser protocole par protocole si on veut plus de sur-mesure.
 - Faut-il un **écran d'accueil de l'onglet** (présentation de la Réflexologie, précautions générales) avant la liste ?
+
+> **12/11/2026 (Laura)** : le cadre « Les zones réflexes, en bref » (séquence repliée, §4) est **masqué** de l'écran du protocole, l'animation portant les mêmes textes. Code et données gardés (`AFFICHER_ZONES_EN_BREF` dans `app/(app)/reflexologie/[id]/page.tsx`).
