@@ -9,17 +9,17 @@
 import { revalidatePath } from "next/cache";
 import { createClient } from "@/lib/supabase/server";
 import { requireUser } from "@/lib/auth";
-import { JOUR_RE, momentsValides, trier, type JourneeEnregistree, type Moment } from "@/lib/rythme";
+import { JOUR_RE, evenementsValides, separer, type Evenement, type JourneeEnregistree } from "@/lib/rythme";
 
 type Resultat = { ok: true; journee: JourneeEnregistree | null } | { ok: false; message: string };
 
 export async function enregistrerJournee(entree: {
   jour: string;
   mois_bebe: number;
-  evenements: Moment[];
+  evenements: Evenement[];
 }): Promise<Resultat> {
   const user = await requireUser();
-  if (!JOUR_RE.test(entree.jour) || !momentsValides(entree.evenements)) {
+  if (!JOUR_RE.test(entree.jour) || !evenementsValides(entree.evenements)) {
     return { ok: false, message: "Cette journée n'a pas pu être enregistrée : vérifie les heures." };
   }
   const supabase = createClient();
@@ -31,7 +31,12 @@ export async function enregistrerJournee(entree: {
   }
 
   const mois = Number.isInteger(entree.mois_bebe) ? Math.max(0, Math.min(23, entree.mois_bebe)) : null;
-  const evenements = trier(entree.evenements).map((m) => (m.veille ? { t: m.t, h: m.h, veille: true } : { t: m.t, h: m.h }));
+  // Moments d'éveil-sommeil d'abord (dans l'ordre de la journée), puis lait et selles (12/11).
+  const { moments, reperes } = separer(entree.evenements);
+  const evenements = [
+    ...moments.map((m) => (m.veille ? { t: m.t, h: m.h, veille: true } : { t: m.t, h: m.h })),
+    ...reperes.map((r) => (r.t === "lait" && r.ml ? { t: r.t, h: r.h, ml: r.ml } : { t: r.t, h: r.h })),
+  ];
   const { data, error } = await supabase
     .from("journees_rythme")
     .upsert(

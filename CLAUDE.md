@@ -161,7 +161,8 @@ CREATE TABLE admins (
 -- qu'à l'épingler ; créée par scripts/import-reflexo-plantaire.mjs, jamais supprimée.
 
 -- Journées de rythme notées par le parent (06/11/2026, page /rythme) : autant qu'il veut,
--- un jour du calendrier par ligne. evenements = moments notés [{t:"reveil"|"endormi", h:"06:30", veille?:true}].
+-- un jour du calendrier par ligne. evenements = moments notés [{t:"reveil"|"endormi", h:"06:30", veille?:true}]
+-- + (12/11/2026) prises de lait {t:"lait", h, ml?} (mL entier, 1 à 2000) et selles {t:"selle", h}, dans le même tableau (pas de migration).
 CREATE TABLE journees_rythme (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   user_id UUID REFERENCES auth.users(id) ON DELETE CASCADE,

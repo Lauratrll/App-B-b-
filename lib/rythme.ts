@@ -17,7 +17,26 @@
 import reperes from "@/content/sommeil/reperes_cles.json";
 
 export type Moment = { t: "reveil" | "endormi"; h: string; veille?: boolean };
-export type JourneeEnregistree = { id: string; jour: string; mois_bebe: number | null; evenements: Moment[] };
+/**
+ * 12/11/2026 (Laura) : repères posés sur la roue, hors éveil et sommeil. Rangés dans la
+ * même colonne `evenements` (pas de migration) ; ils ne comptent pas dans le rythme.
+ */
+export type Repere = { t: "lait"; h: string; ml?: number } | { t: "selle"; h: string };
+export type Evenement = Moment | Repere;
+export type JourneeEnregistree = { id: string; jour: string; mois_bebe: number | null; evenements: Evenement[] };
+
+export const estMoment = (x: Evenement): x is Moment => x.t === "reveil" || x.t === "endormi";
+export const trierReperes = (r: Repere[]): Repere[] => [...r].sort((a, b) => enMinutes(a.h) - enMinutes(b.h));
+/** Une journée enregistrée → ses moments d'éveil et de sommeil, et ses repères (lait, selles). */
+export function separer(evs: Evenement[] | null | undefined): { moments: Moment[]; reperes: Repere[] } {
+  const l = evs ?? [];
+  return {
+    moments: trier(l.filter(estMoment)),
+    reperes: trierReperes(l.filter((x): x is Repere => !estMoment(x))),
+  };
+}
+/** Quantité de lait acceptée, en mL. */
+export const ML_MAX = 2000;
 
 export type Zone =
   | { k: "nuit" | "sieste" | "eveil"; a: number; b: number }
@@ -173,20 +192,16 @@ export function fenetreEveil(mois: number): FenetreEveil | null {
   return v === null ? null : { min: Math.max(5, v - 15), max: v + 15, texte };
 }
 
-/** Contrôle des données reçues (actions serveur). */
-export function momentsValides(x: unknown): x is Moment[] {
-  return (
-    Array.isArray(x) &&
-    x.length <= 40 &&
-    x.every(
-      (m) =>
-        m &&
-        typeof m === "object" &&
-        ((m as Moment).t === "reveil" || (m as Moment).t === "endormi") &&
-        typeof (m as Moment).h === "string" &&
-        HEURE_RE.test((m as Moment).h) &&
-        ((m as Moment).veille === undefined || (m as Moment).veille === true),
-    ) &&
-    verifier(x as Moment[]) === null
-  );
+/** Contrôle des données reçues (actions serveur) : moments d'éveil-sommeil + repères lait / selles. */
+export function evenementsValides(x: unknown): x is Evenement[] {
+  if (!Array.isArray(x) || x.length > 150) return false;
+  const ok = x.every((m) => {
+    if (!m || typeof m !== "object") return false;
+    const e = m as Record<string, unknown>;
+    if (typeof e.h !== "string" || !HEURE_RE.test(e.h)) return false;
+    if (e.t === "reveil" || e.t === "endormi") return e.veille === undefined || e.veille === true;
+    if (e.t === "lait") return e.ml === undefined || (Number.isInteger(e.ml) && (e.ml as number) > 0 && (e.ml as number) <= ML_MAX);
+    return e.t === "selle";
+  });
+  return ok && verifier((x as Evenement[]).filter(estMoment)) === null;
 }

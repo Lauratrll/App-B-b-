@@ -24,14 +24,19 @@ import {
   estNuit,
   heureLisible,
   horloge,
+  ML_MAX,
   repriseDeLaVeille,
+  separer,
   trier,
+  trierReperes,
   verifier,
   type Dessin,
   type FenetreEveil,
   type JourneeEnregistree,
   type Moment,
+  type Repere,
 } from "@/lib/rythme";
+import { PICTOS_RYTHME } from "@/lib/rythme-pictos";
 
 const TEXT = "#3A3228";
 const DOUX = "#4E5E6A"; // gris bleuté (07/11, avec le fond bleu ciel)
@@ -47,7 +52,13 @@ export const COULEURS_RYTHME = {
   nuit: "#89BDC8", // slot Réveils nocturnes : la nuit précédente, après minuit
   nuitSoir: "#74A8BA", // 12/11 (Laura) : la nuit qui commence le soir, avant minuit, un cran plus soutenue (choix de Claude ; 1er essai #5F93AB trop loin)
   sieste: "#B6D6DD", // slot Fin de journée
-  eveil: "#F0B8A8", // pêche
+  eveil: "#F8DBC9", // 12/11 (Laura) : adouci, couleur du slot 3 de Guide-moi (avant : pêche #F0B8A8)
+  // 12/11 (Laura) : prises de lait = vert du slot Repères clés, picto plus foncé ;
+  // selles = brun clair du cadre « Introduction » de la réflexologie, picto plus foncé.
+  lait: "#DCDDBB",
+  laitPicto: "#4A4E2A",
+  selle: "#DFBEB0",
+  sellePicto: "#6B3D2B",
   haloEveil: COULEURS_ROUE.eveil, // beige de la case « Fenêtre d'éveil »
   haloSommeil: teinteAuDessus("#CEE4E8"), // rond du picto de Journée et siestes
   coucher: COULEURS_ROUE.coucher,
@@ -77,7 +88,29 @@ function cheminArc(cx: number, cy: number, ro: number, ri: number, f0: number, f
   return `M${a} A${ro},${ro} 0 ${big} 1 ${b} L${c} A${ri},${ri} 0 ${big} 0 ${d} Z`;
 }
 
-export function RoueRythme({ dessin, mini, maintenant }: { dessin: Dessin; mini?: boolean; maintenant?: number | null }) {
+/** Picto biberon ou selle (tracés de la réflexologie), à poser dans un <svg> ou seul. */
+function PictoRythme({ quoi, taille, couleur, x, y }: { quoi: "lait" | "selle"; taille: number; couleur: string; x?: number; y?: number }) {
+  const p = PICTOS_RYTHME[quoi];
+  return (
+    <svg x={x} y={y} width={taille} height={taille} viewBox={p.viewBox} fill={couleur} aria-hidden style={{ display: "block", flexShrink: 0 }}>
+      {p.traces.map((d, i) => (
+        <path key={i} d={d} />
+      ))}
+    </svg>
+  );
+}
+
+export function RoueRythme({
+  dessin,
+  mini,
+  maintenant,
+  reperes,
+}: {
+  dessin: Dessin;
+  mini?: boolean;
+  maintenant?: number | null;
+  reperes?: Repere[];
+}) {
   const cx = 150;
   const cy = 150;
   const ro = 108;
@@ -143,6 +176,24 @@ export function RoueRythme({ dessin, mini, maintenant }: { dessin: Dessin; mini?
       {formes}
       {traits}
       {/* 12/11 (Laura) : plus de barre rouge au coucher du soir (dessin.couchers reste calculé, non affiché). */}
+      {/* 12/11 (Laura) : un petit rond par selle, posé à moitié sur la bordure extérieure, et par prise
+          de lait, aux deux tiers à l'extérieur. Les ronds peuvent se chevaucher. Selles dessinées d'abord. */}
+      {mini
+        ? null
+        : [...(reperes ?? [])]
+            .sort((a, b) => (a.t === b.t ? 0 : a.t === "selle" ? -1 : 1))
+            .map((r, i) => {
+              const rayon = 10;
+              const lait = r.t === "lait";
+              const [x, y] = point(cx, cy, lait ? ro + rayon / 3 : ro, enMinutes(r.h) / F);
+              const taille = rayon * 1.45;
+              return (
+                <g key={`r${i}`}>
+                  <circle cx={x} cy={y} r={rayon} fill={lait ? C.lait : C.selle} stroke="#fff" strokeWidth={1.2} />
+                  <PictoRythme quoi={r.t} taille={taille} couleur={lait ? C.laitPicto : C.sellePicto} x={x - taille / 2} y={y - taille / 2} />
+                </g>
+              );
+            })}
       {maintenant !== null && maintenant !== undefined && !mini ? (
         <circle cx={point(cx, cy, ro + 14, maintenant / F)[0]} cy={point(cx, cy, ro + 14, maintenant / F)[1]} r={3.2} fill={VERT_TEXTE} />
       ) : null}
@@ -233,8 +284,10 @@ const maintenantMinutes = () => {
 // ---------------------------------------------------------------------------
 
 // Teintes légères de la case de l'heure (07/11) : pêche pour un réveil, bleu pour un endormissement.
-const TEINTE = { reveil: "#F8DDD4", endormi: "#D3E7EC" } as const;
-const PLEIN = { reveil: C.eveil, endormi: C.nuit } as const;
+// 12/11 : réveil un cran plus clair avec le nouvel éveil ; lait et selles dans leurs teintes.
+type Saisie = "reveil" | "endormi" | "lait" | "selle";
+const TEINTE: Record<Saisie, string> = { reveil: "#FCEDE4", endormi: "#D3E7EC", lait: "#EDEEDD", selle: "#EFDDD5" };
+const PLEIN: Record<Saisie, string> = { reveil: C.eveil, endormi: C.nuit, lait: C.lait, selle: C.selle };
 
 // ---------------------------------------------------------------------------
 // Sélecteur d'heure à faire défiler, comme les réveils de téléphone (07/11) :
@@ -329,7 +382,7 @@ function Colonne({ valeurs, index, onChange, label }: { valeurs: string[]; index
   );
 }
 
-function SelecteurHeure({ valeur, onChange, type }: { valeur: string; onChange: (h: string) => void; type: "reveil" | "endormi" }) {
+function SelecteurHeure({ valeur, onChange, type }: { valeur: string; onChange: (h: string) => void; type: Saisie }) {
   const [h, m] = valeur.split(":").map(Number);
   const iH = h;
   const iM = Math.min(11, Math.round(m / 5));
@@ -358,7 +411,7 @@ function SelecteurHeure({ valeur, onChange, type }: { valeur: string; onChange: 
 }
 
 /** L'heure d'un moment noté : une case étroite, teintée selon le moment ; la toucher rouvre le sélecteur. */
-const caseHeure = (type: "reveil" | "endormi"): React.CSSProperties => ({
+const caseHeure = (type: Saisie): React.CSSProperties => ({
   font: "inherit",
   fontSize: 15,
   fontWeight: 600,
@@ -372,7 +425,7 @@ const caseHeure = (type: "reveil" | "endormi"): React.CSSProperties => ({
   flexShrink: 0,
 });
 
-const boutonPlein = (type: "reveil" | "endormi"): React.CSSProperties => ({
+const boutonPlein = (type: Saisie): React.CSSProperties => ({
   padding: "9px 16px",
   borderRadius: 999,
   border: "none",
@@ -425,10 +478,17 @@ export function RythmeOutil({
   disponible: boolean;
 }) {
   const [jours, setJours] = useState<Record<string, Moment[]>>(() =>
-    Object.fromEntries(journees.map((j) => [j.jour, trier(j.evenements ?? [])])),
+    Object.fromEntries(journees.map((j) => [j.jour, separer(j.evenements).moments]).filter(([, ms]) => ms.length)),
   );
+  // 12/11 : prises de lait et selles de chaque jour, rangées à part des moments d'éveil-sommeil.
+  const [reperesJours, setReperesJours] = useState<Record<string, Repere[]>>(() =>
+    Object.fromEntries(journees.map((j) => [j.jour, separer(j.evenements).reperes]).filter(([, rs]) => rs.length)),
+  );
+  // Cadres déroulants du détail (12/11) : Éveil & Sommeil ouvert d'emblée.
+  const [ouverts, setOuverts] = useState({ sommeil: true, lait: false, selles: false });
   const [jour, setJour] = useState(aujourdhui);
-  const [ajout, setAjout] = useState<null | "reveil" | "endormi">(null);
+  const [ajout, setAjout] = useState<null | Saisie>(null);
+  const [ml, setMl] = useState(""); // quantité de lait saisie, en mL (facultative)
   const [heureAjout, setHeureAjout] = useState("07:00");
   // Moment de la liste dont on change l'heure (index dans l'ordre de la journée).
   const [edition, setEdition] = useState<number | null>(null);
@@ -461,11 +521,14 @@ export function RythmeOutil({
   const estAujourdhui = jour === aujourdhui();
   const dessin = dessiner(moments, fenetre, suiteDort(jour));
 
-  const sauver = (j: string, ms: Moment[]) => {
+  const reperes = reperesJours[jour] ?? [];
+
+  /** Enregistre une journée : ses moments + ses prises de lait et selles (`rs`, celles du jour par défaut). */
+  const sauver = (j: string, ms: Moment[], rs: Repere[] = reperesJours[j] ?? []) => {
     if (!disponible) return;
     setEtat("enregistrement");
     file.current = file.current.then(async () => {
-      const r = await enregistrerJournee({ jour: j, mois_bebe: mois, evenements: ms });
+      const r = await enregistrerJournee({ jour: j, mois_bebe: mois, evenements: [...ms, ...rs] });
       setEtat(r.ok ? "enregistre" : "erreur");
       if (!r.ok) setMessage(r.message);
     });
@@ -505,15 +568,29 @@ export function RythmeOutil({
     return true;
   };
 
-  const ouvrirAjout = (t: "reveil" | "endormi") => {
+  /** Change les prises de lait et selles du jour affiché, et enregistre. */
+  const changerReperes = (rs: Repere[]) => {
+    const tries = trierReperes(rs);
+    const tous = { ...reperesJours };
+    if (tries.length) tous[jour] = tries;
+    else delete tous[jour];
+    setReperesJours(tous);
+    // La journée garde ses moments, dont l'« endormi hier soir » repris de la veille.
+    if (!jours[jour] && moments.length) setJours({ ...jours, [jour]: moments });
+    sauver(jour, moments, tries);
+  };
+
+  const ouvrirAjout = (t: Saisie) => {
     setMessage(null);
     // Toucher le bouton déjà choisi referme la saisie ; changer de bouton garde l'heure choisie.
     if (ajout === t) return setAjout(null);
+    if (t === "lait") setMl("");
     if (ajout) return setAjout(t);
     setAjout(t);
     const dernier = moments.length ? trier(moments)[moments.length - 1] : null;
     let h: number;
     if (estAujourdhui) h = Math.round(maintenantMinutes() / 5) * 5;
+    else if (t === "lait" || t === "selle") h = 12 * 60;
     else if (dernier && !dernier.veille) h = enMinutes(dernier.h) + (dernier.t === "reveil" ? Math.round(((fenetre?.min ?? 90) + (fenetre?.max ?? 90)) / 2) : 60);
     else h = t === "reveil" ? 7 * 60 : 13 * 60;
     setHeureAjout(horloge(Math.min(h, UNE_JOURNEE - 5)));
@@ -523,6 +600,18 @@ export function RythmeOutil({
   // endormissements à la suite ; le parent complétera l'autre état après coup.
   const valider = () => {
     if (!ajout) return;
+    if (ajout === "lait" || ajout === "selle") {
+      if (ajout === "selle") changerReperes([...reperes, { t: "selle", h: heureAjout }]);
+      else {
+        const q = Number(ml.trim());
+        const quantite = ml.trim() && Number.isInteger(q) && q > 0 && q <= ML_MAX ? q : undefined;
+        if (ml.trim() && quantite === undefined) return setMessage(`La quantité doit être un nombre entier de mL (jusqu’à ${ML_MAX}).`);
+        changerReperes([...reperes, quantite ? { t: "lait", h: heureAjout, ml: quantite } : { t: "lait", h: heureAjout }]);
+      }
+      setMessage(null);
+      setAjout(null);
+      return;
+    }
     if (essayer([...moments, { t: ajout, h: heureAjout }])) setAjout(null);
   };
 
@@ -611,9 +700,93 @@ export function RythmeOutil({
   });
   lignes.reverse();
 
-  const sauvegardes = Object.keys(jours)
-    .filter((j) => jours[j].length)
+  // 12/11 (Laura) : détail des prises de lait et des selles, le plus récent en haut. Sous chaque
+  // ligne, l'écart avec la précédente (« 3h10 après la précédente », même phrase pour les deux).
+  const lignesReperes = (quoi: "lait" | "selle") => {
+    const liste = reperes.filter((r) => r.t === quoi);
+    return liste
+      .map((r, i) => {
+        const prec = liste[i - 1];
+        const ecart = prec ? enMinutes(r.h) - enMinutes(prec.h) : null;
+        return (
+          <li key={`${quoi}${r.h}${i}`} style={{ listStyle: "none" }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 8, padding: "2px 0" }}>
+              <span aria-hidden style={{ width: 24, height: 24, borderRadius: 999, background: PLEIN[quoi], display: "grid", placeItems: "center", flexShrink: 0 }}>
+                <PictoRythme quoi={quoi} taille={16} couleur={quoi === "lait" ? C.laitPicto : C.sellePicto} />
+              </span>
+              <span style={{ flex: 1, fontSize: 14, fontWeight: 600, color: TEXT }}>
+                {r.t === "lait" ? (r.ml ? `${r.ml} mL` : "Lait") : "Selle"}
+              </span>
+              <span style={{ ...caseHeure(quoi), cursor: "default" }}>{r.h}</span>
+              <button
+                type="button"
+                aria-label={quoi === "lait" ? "Retirer cette prise de lait" : "Retirer cette selle"}
+                style={croix}
+                onClick={() => changerReperes(reperes.filter((x) => x !== r))}
+              >
+                ×
+              </button>
+            </div>
+            {ecart !== null ? (
+              <div style={{ padding: "0 0 0 32px", fontSize: 12, lineHeight: 1.3, color: DOUX }}>{duree(ecart)} après la précédente</div>
+            ) : null}
+          </li>
+        );
+      })
+      .reverse();
+  };
+  const lignesLait = lignesReperes("lait");
+  const lignesSelles = lignesReperes("selle");
+  const totalMl = reperes.reduce((s, r) => s + (r.t === "lait" && r.ml ? r.ml : 0), 0);
+
+  const sauvegardes = Array.from(new Set([...Object.keys(jours), ...Object.keys(reperesJours)]))
+    .filter((j) => (jours[j]?.length ?? 0) + (reperesJours[j]?.length ?? 0) > 0)
     .sort((a, b) => (a < b ? 1 : -1));
+
+  /** Un cadre déroulant du détail (12/11) : titre, petit résumé à droite, chevron. */
+  const cadre = (cle: keyof typeof ouverts, titre: string, resume: string, contenu: React.ReactNode) => (
+    <details
+      className="rythme-cadre"
+      open={ouverts[cle]}
+      onToggle={(ev) => {
+        const ouvert = (ev.currentTarget as HTMLDetailsElement).open;
+        if (ouvert !== ouverts[cle]) setOuverts((o) => ({ ...o, [cle]: ouvert }));
+      }}
+      style={{ background: CARTE, borderRadius: 18, overflow: "hidden" }}
+    >
+      <summary style={{ cursor: "pointer", display: "flex", alignItems: "center", gap: 10, padding: "12px 14px" }}>
+        <span style={{ flex: 1, fontFamily: PLAYFAIR, fontSize: 16, fontWeight: 600, color: TEXT }}>{titre}</span>
+        <span style={{ fontSize: 12, color: DOUX }}>{resume}</span>
+        <svg className="rythme-chevron" width={14} height={14} viewBox="0 0 24 24" fill="none" stroke={VERT_TEXTE} strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" aria-hidden style={{ flexShrink: 0, transition: "transform .2s ease" }}>
+          <path d="M6 9l6 6 6-6" />
+        </svg>
+      </summary>
+      <ul style={{ margin: "0 auto", padding: "0 12px 12px", maxWidth: 294 }}>{contenu}</ul>
+    </details>
+  );
+
+  /** Bouton rond Lait / Selles (12/11) : fond plein, picto plus foncé ; entouré quand la saisie est ouverte. */
+  const boutonRond = (quoi: "lait" | "selle") => (
+    <button
+      type="button"
+      aria-label={quoi === "lait" ? "Noter une prise de lait" : "Noter une selle"}
+      aria-pressed={ajout === quoi}
+      onClick={() => ouvrirAjout(quoi)}
+      style={{
+        width: 48,
+        height: 48,
+        borderRadius: 999,
+        border: ajout === quoi ? `2px solid ${VERT_TEXTE}` : "2px solid transparent",
+        background: PLEIN[quoi],
+        display: "grid",
+        placeItems: "center",
+        cursor: "pointer",
+        flexShrink: 0,
+      }}
+    >
+      <PictoRythme quoi={quoi} taille={28} couleur={quoi === "lait" ? C.laitPicto : C.sellePicto} />
+    </button>
+  );
 
   // 12/11 (Laura) : les deux boutons restent toujours actifs (avant, le 07/11 : seulement
   // l'autre moment que le dernier noté, ce qui empêchait d'ajouter un oubli).
@@ -707,11 +880,11 @@ export function RythmeOutil({
         </div>
 
         <div style={{ maxWidth: 290, width: "100%", margin: "0 auto" }}>
-          <RoueRythme dessin={dessin} maintenant={estAujourdhui ? maintenantMinutes() : null} />
+          <RoueRythme dessin={dessin} maintenant={estAujourdhui ? maintenantMinutes() : null} reperes={reperes} />
         </div>
         <Legende />
 
-        {/* Saisie d'un moment. */}
+        {/* Saisie d'un moment. 12/11 : deux boutons ronds, Lait et Selles, sous Réveillé / Endormi. */}
         <div style={{ display: "flex", gap: 10 }}>
           <button type="button" style={boutonMoment("reveil")} onClick={() => ouvrirAjout("reveil")}>
             <IconeSoleil /> Réveillé{e}
@@ -720,15 +893,38 @@ export function RythmeOutil({
             <IconeLune /> Endormi{e}
           </button>
         </div>
+        <div style={{ display: "flex", justifyContent: "center", gap: 16 }}>
+          {boutonRond("lait")}
+          {boutonRond("selle")}
+        </div>
         {/* 07/11 : la case de l'heure, plus étroite, et « Ajouter » sur la même ligne. Pas de bouton Annuler :
-            toucher à nouveau Réveillé / Endormi referme la saisie. */}
+            toucher à nouveau le bouton choisi referme la saisie. Pour le lait, une 2e ligne : la quantité. */}
         {ajout ? (
-          <div style={{ background: CARTE, borderRadius: 16, padding: "8px 12px", display: "flex", alignItems: "center", gap: 10 }}>
-            <span style={{ flex: 1, fontSize: 14, color: TEXT, fontWeight: 600 }}>{ajout === "reveil" ? `Réveillé${e} à` : `Endormi${e} à`}</span>
-            <SelecteurHeure valeur={heureAjout} onChange={setHeureAjout} type={ajout} />
-            <button type="button" onClick={valider} style={boutonPlein(ajout)}>
-              Ajouter
-            </button>
+          <div style={{ background: CARTE, borderRadius: 16, padding: "8px 12px", display: "grid", gap: 8 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+              <span style={{ flex: 1, fontSize: 14, color: TEXT, fontWeight: 600 }}>
+                {ajout === "reveil" ? `Réveillé${e} à` : ajout === "endormi" ? `Endormi${e} à` : ajout === "lait" ? "Lait à" : "Selle à"}
+              </span>
+              <SelecteurHeure valeur={heureAjout} onChange={setHeureAjout} type={ajout} />
+              <button type="button" onClick={valider} style={boutonPlein(ajout)}>
+                Ajouter
+              </button>
+            </div>
+            {ajout === "lait" ? (
+              <label style={{ display: "flex", alignItems: "center", gap: 8, fontSize: 14, color: TEXT, fontWeight: 600 }}>
+                <span style={{ flex: 1 }}>Quantité bue</span>
+                <input
+                  type="text"
+                  inputMode="numeric"
+                  pattern="[0-9]*"
+                  value={ml}
+                  onChange={(ev) => setMl(ev.target.value.replace(/[^0-9]/g, "").slice(0, 4))}
+                  aria-label="Quantité bue, en mL (facultatif)"
+                  style={{ width: 70, padding: "6px 10px", borderRadius: 10, border: "none", background: TEINTE.lait, font: "inherit", fontSize: 16, textAlign: "right", color: TEXT }}
+                />
+                <span>mL</span>
+              </label>
+            ) : null}
           </div>
         ) : null}
 
@@ -741,21 +937,27 @@ export function RythmeOutil({
         {/* 07/11 : lignes resserrées vers le centre du cadre (moins de vide au milieu). */}
         {/* 12/11 (Laura) : plus de « Commence par le moment que tu veux… » ni de « Demain, sa roue
             commencera… », l'outil est assez intuitif. Le cadre n'apparaît que s'il a quelque chose à montrer. */}
-        {lignes.length || !disponible || etat === "enregistrement" || etat === "erreur" ? (
-        <section style={{ background: CARTE, borderRadius: 18, padding: "10px 12px" }} aria-label="Moments notés">
-          {lignes.length ? <ul style={{ margin: "0 auto", padding: 0, maxWidth: 270 }}>{lignes}</ul> : null}
-          {/* Plus de « Chaque moment est enregistré tout seul. » (Laura, 12/11/2026) :
-              on n'écrit rien quand tout va bien, seulement l'enregistrement en cours ou un souci. */}
-          {!disponible || etat === "enregistrement" || etat === "erreur" ? (
-            <p style={{ margin: "6px 0 0", fontSize: 11.5, color: DOUX, textAlign: "center" }}>
-              {!disponible
-                ? "L’enregistrement des journées arrive bientôt : cette roue n’est pas gardée."
-                : etat === "enregistrement"
-                  ? "Enregistrement…"
-                  : "Pas enregistré : vérifie ta connexion."}
-            </p>
-          ) : null}
-        </section>
+        {/* 12/11 (Laura) : le détail en 3 cadres déroulants, chacun seulement s'il a quelque chose à montrer. */}
+        <style>{`
+          details.rythme-cadre > summary { list-style: none; }
+          details.rythme-cadre > summary::-webkit-details-marker { display: none; }
+          details.rythme-cadre[open] .rythme-chevron { transform: rotate(180deg); }
+        `}</style>
+        {lignes.length ? cadre("sommeil", "Éveil & Sommeil", dessin.sommeil ? `${duree(dessin.sommeil)} de sommeil` : "", lignes) : null}
+        {lignesLait.length
+          ? cadre("lait", "Prises de lait", `${lignesLait.length}${totalMl ? ` · ${totalMl} mL` : ""}`, lignesLait)
+          : null}
+        {lignesSelles.length ? cadre("selles", "Selles", String(lignesSelles.length), lignesSelles) : null}
+        {/* Plus de « Chaque moment est enregistré tout seul. » (Laura, 12/11/2026) :
+            on n'écrit rien quand tout va bien, seulement l'enregistrement en cours ou un souci. */}
+        {!disponible || etat === "enregistrement" || etat === "erreur" ? (
+          <p style={{ margin: 0, fontSize: 11.5, color: DOUX, textAlign: "center" }}>
+            {!disponible
+              ? "L’enregistrement des journées arrive bientôt : cette roue n’est pas gardée."
+              : etat === "enregistrement"
+                ? "Enregistrement…"
+                : "Pas enregistré : vérifie ta connexion."}
+          </p>
         ) : null}
 
         {estAujourdhui ? null : (
@@ -790,7 +992,7 @@ export function RythmeOutil({
                   cursor: "pointer",
                 }}
               >
-                <RoueRythme dessin={dessiner(jours[j], fenetre, suiteDort(j))} mini />
+                <RoueRythme dessin={dessiner(jours[j] ?? [], fenetre, suiteDort(j))} mini />
                 <span style={{ display: "block", marginTop: 4, fontSize: 11.5, fontWeight: 600, color: TEXT }}>{dateCourte(j)}</span>
               </button>
             ))}

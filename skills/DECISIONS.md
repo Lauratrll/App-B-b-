@@ -908,3 +908,26 @@ Phrase à déconstruire : porter son bébé est bon, ce n'est pas une mauvaise h
 - ✅ (12/11) Dermato-Info ajouté à la liste des sources acceptées (SKILL_contenu).
 - (Laura, 12/11) **Une seule roulette à la fois**, celle du moment choisi (pas deux roulettes). Pour une période insérée, « Ajouter » enchaîne : la roulette passe à l'autre moment (heure proposée), avec un rappel discret du premier (« Endormi à 10h, puis »), et le 2e « Ajouter » enregistre les deux.
 - (Laura, 12/11, remplace les deux points précédents sur la période insérée) **Pas de saisie d'une période complète d'un coup** (ça perturbe), pas de rappel gris. **Deux réveils ou deux endormissements à la suite sont permis** : chaque moment compte jusqu'au suivant, dans son propre état (ex. endormi 9h puis endormi 13h → sommeil de 9h à 13h, puis de 13h au réveil) ; le parent ajoutera l'autre état ensuite. Retirer un moment le retire seul (plus de retrait du moment voisin). Seuls refus restants : deux moments à la même heure, deux « endormi hier soir ».
+
+## 12/11/2026 — Skill Guide-moi : règles de sources, ton et sécurité (Laura)
+- ✅ **La règle la plus récente gagne** entre deux décisions datées qui se contredisent ; toute contradiction repérée est signalée à Laura avant de sourcer et d'écrire, puis consignée ici.
+- ✅ **Mois, semaines et jours en chiffres** dans le corps des fiches. **Sigles développés**, sauf PMI.
+- ✅ **Emmaillotage** : ne pas l'écrire dans une fiche Guide-moi sans demander à Laura.
+- ✅ **Posture** : ferme sur les repères, précise sur les gestes, honnête sur les limites, toujours avec bienveillance et en sachant que chaque bébé et chaque famille est unique.
+- ✅ **Deux types de sources** : (1) études scientifiques : toute étude solide, valide et non réfutée est citable, française ou non ; en cas de doute, demander à Laura. (2) règles de sécurité, comportements à adopter, gestes de kiné, règles d'alimentation : France d'abord, étranger seulement avec validation de Laura.
+- ✅ **Accès à pousser** : ne jamais rester dans l'ignorance d'une information importante faute d'accès à un site ou un document ; demander l'accès à Laura.
+- ✅ **Feuille « Sources »** créée dans `GUIDE2_situations.xlsx` (14 colonnes, une ligne par source utilisée, URL toujours consignée).
+- ✅ **Sujets banals : la fenêtre de durée reste un indicatif important** (sauf santé mentale périnatale).
+- ✅ **Tristesse persistante** : écrite sans durée ; « 2 semaines » seulement accompagnée de la source Psycom adaptée, affichée dans la ligne `source` et consignée dans « Sources » ; sinon aucune durée.
+- ✅ **3114** : seulement dans une fiche dont le sujet nomme les pensées noires ou les idées suicidaires, jamais pour remplir ; aujourd'hui M0, M3, M7, à revérifier à chaque fiche.
+- ✅ **Parents submergés** : les accords au féminin sont corrects quand la fiche parle de la maman.
+- ✅ **Sommeil ordinaire ou touchant à la santé** : pas de règle figée, la situation à traiter donne la logique ; source obligatoire dès qu'il y a un enjeu de santé ou de sécurité.
+- ✅ **Chiffres de fréquence** (baby blues, dépression post-partum, papas) : gardés s'ils sont sourcés.
+- ✅ **Seuils de dépistage** (ex. nombre de mots à 24 mois) : indiqués si la situation s'y prête, seulement s'ils sont sourcés, écrits comme un repère et non comme une norme.
+
+## 12/11/2026 — Le rythme de bébé : prises de lait et selles (Laura)
+- (Laura) **Deux boutons ronds** sous Réveillé / Endormi : **Lait** (vert du slot Repères clés `#DCDDBB`, picto biberon plus foncé `#4A4E2A`, repris de la réflexologie « Difficultés à téter ») et **Selles** (brun clair du cadre Introduction de la réflexologie `#DFBEB0`, picto plus foncé `#6B3D2B`, repris de « Constipation »). On touche, on règle l'heure (même roulette), « Ajouter ». **Lait : quantité en mL facultative** (2e ligne « Quantité bue … mL »). Selles : autant qu'on veut.
+- (Laura) **Sur la roue** : un petit rond avec le picto, **lait posé aux 2/3 à l'extérieur de la bordure, selle à moitié** ; les ronds peuvent se chevaucher.
+- (Laura) **Détail en 3 cadres déroulants** : Éveil & Sommeil (ouvert d'emblée, résumé « 8h20 de sommeil »), Prises de lait (résumé « 3 · 270 mL » : heure, quantité, « 3h10 après la précédente »), Selles (heure, écart avec la précédente). 🟠 Choix de Claude : un cadre n'apparaît que s'il a quelque chose ; les écarts se calculent dans la journée (pas avec la veille) ; lait et selles se retirent avec la croix (pas de modification d'heure).
+- (Laura) **Éveil adouci** : couleur du **slot 3 de Guide-moi `#F8DBC9`** (avant : pêche `#F0B8A8`) ; case de l'heure du réveil éclaircie en `#FCEDE4`.
+- Données : même colonne `evenements` de `journees_rythme`, types `lait` (`ml` facultatif) et `selle` ; aucune migration. Code : `lib/rythme.ts` (`separer`, `evenementsValides`), `lib/rythme-pictos.ts`, `components/modules/rythme-outil.tsx`.
