@@ -46,6 +46,8 @@ const FOND = "#D3E5F2"; // bleu ciel de la gamme Réflexologie (Laura, 07/11 : r
 const FOND_JOURNEES = "#C6DAE8"; // 12/11 : un cran plus soutenu (« Bleu ciel » de la réflexologie, fond de carte)
 const VERT_TEXTE = "#2F6081"; // bleu profond de la même famille (nom gardé)
 const CARTE = "rgba(255,255,255,.55)";
+// 12/11 (Laura) : boutons, saisie et cadres de détail sur la même largeur (16 px de retrait de chaque côté).
+const ALIGNE: React.CSSProperties = { width: "calc(100% - 32px)", marginLeft: "auto", marginRight: "auto" };
 
 export const COULEURS_RYTHME = {
   base: "rgba(255,255,255,.75)",
@@ -202,7 +204,7 @@ export function RoueRythme({
         : etiquettes.map(([t, f]) => {
             const p = point(cx, cy, ro + 24, f);
             return (
-              <text key={t} x={p[0]} y={p[1] + 4.5} textAnchor="middle" style={{ fontSize: 13, fontWeight: 600, fill: VERT_TEXTE }}>
+              <text key={t} x={p[0]} y={p[1] + 4.5} textAnchor="middle" style={{ fontSize: 12, fontWeight: 600, fill: VERT_TEXTE }}>
                 {t}
               </text>
             );
@@ -951,7 +953,7 @@ export function RythmeOutil({
         if (ouvert !== ouverts[cle]) setOuverts((o) => ({ ...o, [cle]: ouvert }));
       }}
       // 12/11 (Laura) : cadres plus fins et moins larges (16 px de retrait de chaque côté).
-      style={{ background: CARTE, borderRadius: 14, overflow: "hidden", width: "calc(100% - 32px)", marginLeft: "auto", marginRight: "auto" }}
+      style={{ ...ALIGNE, background: CARTE, borderRadius: 14, overflow: "hidden" }}
     >
       <summary style={{ cursor: "pointer", display: "flex", alignItems: "center", gap: 10, padding: "9px 14px" }}>
         {/* 12/11 (Laura) : titre en petites capitales espacées (typo des intitulés de section). */}
@@ -1110,11 +1112,11 @@ export function RythmeOutil({
           />
         ) : null}
 
-        <div style={{ maxWidth: 256, width: "100%", margin: "-4px auto" }}>
+        <div style={{ maxWidth: 276, width: "100%", margin: "-4px auto" }}>
           <RoueRythme dessin={dessin} maintenant={estAujourdhui ? maintenantMinutes() : null} reperes={reperes} />
         </div>
         {/* 12/11 (Laura) : Lait à gauche de la légende, Selles à droite, au-dessus de Réveillé / Endormi. */}
-        <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+        <div style={{ ...ALIGNE, display: "flex", alignItems: "center", gap: 8 }}>
           {boutonRond("lait")}
           <div style={{ flex: 1, minWidth: 0 }}>
             <Legende />
@@ -1123,7 +1125,7 @@ export function RythmeOutil({
         </div>
 
         {/* Saisie d’un moment. */}
-        <div style={{ display: "flex", gap: 10 }}>
+        <div style={{ ...ALIGNE, display: "flex", gap: 10 }}>
           <button type="button" style={boutonMoment("reveil")} onClick={() => ouvrirAjout("reveil")}>
             <IconeSoleil /> Réveillé{e}
           </button>
@@ -1134,7 +1136,7 @@ export function RythmeOutil({
         {/* 07/11 : la case de l'heure, plus étroite, et « Ajouter » sur la même ligne. Pas de bouton Annuler :
             toucher à nouveau le bouton choisi referme la saisie. Pour le lait, une 2e ligne : la quantité. */}
         {ajout ? (
-          <div style={{ background: CARTE, borderRadius: 16, padding: "8px 12px", display: "grid", gap: 8 }}>
+          <div style={{ ...ALIGNE, background: CARTE, borderRadius: 16, padding: "8px 12px", display: "grid", gap: 8 }}>
             {/* 12/11 (Laura) : roulette centrée dans la case (grille 1fr / roulette / 1fr) ; pour le lait,
                 la quantité prend la place, la ligne reste en flex. */}
             <div
