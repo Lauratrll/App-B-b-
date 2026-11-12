@@ -47,7 +47,8 @@ const FOND_JOURNEES = "#C6DAE8"; // 12/11 : un cran plus soutenu (« Bleu ciel �
 const VERT_TEXTE = "#2F6081"; // bleu profond de la même famille (nom gardé)
 const CARTE = "rgba(255,255,255,.55)";
 // 12/11 (Laura) : boutons, saisie et cadres de détail sur la même largeur (16 px de retrait de chaque côté).
-const ALIGNE: React.CSSProperties = { width: "calc(100% - 32px)", marginLeft: "auto", marginRight: "auto" };
+// Le retrait fond de 16 à 0 px entre 352 et 320 px de large, pour que la saisie tienne sur les petits écrans.
+const ALIGNE: React.CSSProperties = { width: "calc(100% - 2 * clamp(0px, (100vw - 320px) / 2, 16px))", marginLeft: "auto", marginRight: "auto" };
 
 export const COULEURS_RYTHME = {
   base: "rgba(255,255,255,.75)",
@@ -185,7 +186,7 @@ export function RoueRythme({
         : [...(reperes ?? [])]
             .sort((a, b) => (a.t === b.t ? 0 : a.t === "selle" ? -1 : 1))
             .map((r, i) => {
-              const rayon = 10;
+              const rayon = 11.5; // 12/11 (Laura) : un peu plus grands (avant : 10)
               const lait = r.t === "lait";
               const [x, y] = point(cx, cy, lait ? ro + rayon / 3 : ro, enMinutes(r.h) / F);
               const taille = rayon * 1.45;
@@ -292,6 +293,8 @@ const TEINTE: Record<Saisie, string> = { reveil: "#FCEDE4", endormi: "#D3E7EC", 
 // 12/11 (Laura) : bouton Réveillé / Endormi mis en retrait. Le bleu de la case d’heure (#D3E7EC) se perdait
 // sur le fond de page (#D3E5F2) : Endormi prend un bleu-vert un peu plus soutenu (choix de Claude).
 const RETRAIT = { reveil: "#FCEDE4", endormi: "#BEDCE2" } as const;
+// 12/11 (Laura) : contour du bouton choisi dans une teinte plus foncée de sa propre couleur (plus le bleu profond).
+const CONTOUR: Record<Saisie, string> = { reveil: "#D9A285", endormi: "#4F8D9C", lait: C.laitPicto, selle: C.sellePicto };
 const PLEIN: Record<Saisie, string> = { reveil: C.eveil, endormi: C.nuit, lait: C.lait, selle: C.selle };
 
 // ---------------------------------------------------------------------------
@@ -978,7 +981,7 @@ export function RythmeOutil({
         width: 48,
         height: 48,
         borderRadius: 999,
-        border: ajout === quoi ? `2px solid ${VERT_TEXTE}` : "2px solid transparent",
+        border: ajout === quoi ? `2px solid ${CONTOUR[quoi]}` : "2px solid transparent",
         background: PLEIN[quoi],
         display: "grid",
         placeItems: "center",
@@ -1026,7 +1029,7 @@ export function RythmeOutil({
     gap: 8,
     padding: "12px 10px",
     borderRadius: 16,
-    border: ajout === t ? `2px solid ${VERT_TEXTE}` : "2px solid transparent",
+    border: ajout === t ? `2px solid ${CONTOUR[t]}` : "2px solid transparent",
     // 12/11 (Laura) : le bouton mis en retrait garde une teinte légère de sa couleur (pas le blanc des cadres).
     background: ajout !== t && !logique(t) ? RETRAIT[t] : t === "reveil" ? C.eveil : C.nuit,
     color: TEXT,
@@ -1136,17 +1139,18 @@ export function RythmeOutil({
         {/* 07/11 : la case de l'heure, plus étroite, et « Ajouter » sur la même ligne. Pas de bouton Annuler :
             toucher à nouveau le bouton choisi referme la saisie. Pour le lait, une 2e ligne : la quantité. */}
         {ajout ? (
-          <div style={{ ...ALIGNE, background: CARTE, borderRadius: 16, padding: "8px 12px", display: "grid", gap: 8 }}>
+          <div style={{ ...ALIGNE, background: CARTE, borderRadius: 16, padding: "8px 10px", display: "grid", gap: 8 }}>
             {/* 12/11 (Laura) : roulette centrée dans la case (grille 1fr / roulette / 1fr) ; pour le lait,
                 la quantité prend la place, la ligne reste en flex. */}
             <div
               style={
                 ajout === "lait"
                   ? { display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap", justifyContent: "flex-end" }
-                  : { display: "grid", gridTemplateColumns: "1fr auto 1fr", alignItems: "center", gap: 10 }
+                  : { display: "grid", gridTemplateColumns: "1fr auto 1fr", alignItems: "center", gap: 8 }
               }
             >
-              <span style={{ flex: 1, fontSize: 14, color: TEXT, fontWeight: 600 }}>
+              {/* 12/11 (Laura) : un peu plus petit, sur une seule ligne (« Endormie à »). */}
+              <span style={{ flex: 1, fontSize: 13, color: TEXT, fontWeight: 600, whiteSpace: "nowrap" }}>
                 {ajout === "reveil" ? `Réveillé${e} à` : ajout === "endormi" ? `Endormi${e} à` : ajout === "lait" ? "Lait à" : "Selle à"}
               </span>
               <SelecteurHeure valeur={heureAjout} onChange={setHeureAjout} type={ajout} />
@@ -1155,7 +1159,7 @@ export function RythmeOutil({
               <button
                 type="button"
                 onClick={valider}
-                style={ajout === "lait" ? { ...boutonPlein(ajout), padding: "9px 12px" } : { ...boutonPlein(ajout), justifySelf: "end" }}
+                style={ajout === "lait" ? { ...boutonPlein(ajout), padding: "9px 12px" } : { ...boutonPlein(ajout), padding: "9px 13px", justifySelf: "end" }}
               >
                 Ajouter
               </button>
