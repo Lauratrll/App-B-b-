@@ -45,7 +45,7 @@ const BORD = "rgba(47,96,129,.16)";
 export const COULEURS_RYTHME = {
   base: "rgba(255,255,255,.75)",
   nuit: "#89BDC8", // slot Réveils nocturnes : la nuit précédente, après minuit
-  nuitSoir: "#5F93AB", // 12/11 (Laura) : la nuit qui commence le soir, avant minuit, plus soutenue (choix de Claude)
+  nuitSoir: "#74A8BA", // 12/11 (Laura) : la nuit qui commence le soir, avant minuit, un cran plus soutenue (choix de Claude ; 1er essai #5F93AB trop loin)
   sieste: "#B6D6DD", // slot Fin de journée
   eveil: "#F0B8A8", // pêche
   haloEveil: COULEURS_ROUE.eveil, // beige de la case « Fenêtre d'éveil »
