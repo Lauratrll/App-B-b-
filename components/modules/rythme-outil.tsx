@@ -244,7 +244,9 @@ function Legende() {
   );
   return (
     <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "6px 14px", fontSize: 11, color: TEXT }}>
-      {/* 12/11 (Laura) : les deux bleus de nuit côte à côte, un seul mot « Nuit ». */}
+      {/* 12/11 (Laura) : ordre Éveil, Sieste, Nuit ; les deux bleus de nuit côte à côte, un seul mot « Nuit ». */}
+      {item(p(C.eveil), "Éveil")}
+      {item(p(C.sieste), "Sieste")}
       <span style={{ display: "inline-flex", alignItems: "center", gap: 5 }}>
         <span aria-hidden style={{ display: "inline-flex", gap: 2 }}>
           <span style={p(C.nuit)} />
@@ -252,8 +254,6 @@ function Legende() {
         </span>
         Nuit
       </span>
-      {item(p(C.eveil), "Éveil")}
-      {item(p(C.sieste), "Sieste")}
     </div>
   );
 }
