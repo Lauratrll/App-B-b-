@@ -882,3 +882,28 @@ Phrase à déconstruire : porter son bébé est bon, ce n'est pas une mauvaise h
 - (Laura, 12/11) **Barre rouge du coucher retirée de la roue** (le calcul `couchers` reste, non affiché).
 - (Laura, 12/11) **On peut ajouter un moment oublié n'importe où** : les boutons Réveillé et Endormi restent **toujours actifs** (remplace la règle du 07/11 « seulement l'autre que le dernier noté »). Si l'heure choisie tombe au milieu d'une phase du même genre (une sieste dans un éveil déjà noté, un réveil en pleine nuit), **une 2e ligne apparaît pour l'autre bout de la période** (heure proposée : 30 min après ou avant, dans les limites), les deux lignes dans l'ordre de la journée. Sinon le moment s'ajoute seul (ex. un sommeil à 1h sur une roue qui commence par le réveil de 7h). Code : `insertion()` dans `lib/rythme.ts`.
 - (Laura, 12/11) Précision : **le bouton qui n'est pas le moment logique suivant perd sa couleur** (blanc translucide) pour guider le parent, **mais reste cliquable** ; il reprend sa couleur quand on le touche.
+
+## 12/11/2026 — Prendre soin de moi M4 : réalité du post-partum (Laura)
+- ✅ **Cheveux** : « elle dure généralement 3 à 4 mois² avant que les cheveux repoussent. Adopte une routine capillaire douce et consulte si elle persiste ou t'inquiète. » Source retenue : Dermato-Info, « La chute des cheveux ? » (màj 03/12/2019), seule page qui porte cette durée. 🔁 « Tout savoir sur l'alopécie » **non citée** : l'effluvium du post-partum n'est pas une alopécie ; on ne cite pas une source qu'on n'utilise pas.
+- ✅ **Diastasis** : « peut encore diminuer au cours de la première année post-partum¹. Une rééducation adaptée peut t'être proposée par un professionnel de santé. » Source : Sperstad et al., *British Journal of Sports Medicine*, 2016 (étude étrangère, la HAS/ANAES 2002 ne documente pas l'évolution au-delà de 3 mois). Remplace « avec une rééducation adaptée, jusqu'à environ 1 an ».
+- ✅ **Numérotation dans l'ordre de lecture** : ¹ diastasis, ² cheveux.
+- ✅ **Pas de diagnostic** : « (possible problème thyroïdien) » retiré du signal « chute de cheveux ».
+- ✅ **Encart « En cas d'urgence » (M4)** : on ne garde que le numéro (« Allo Parents Bébé, 0 800 00 34 56 : gratuit, des psychologues au bout du fil. »). « Se priver de manger… » retiré, ce n'est pas le propos de Laura.
+- ✅ **Règle : jamais de cap rassurant sur la tristesse** (voir `SKILL_contenu`, section dépression post-partum).
+- ✅ **Vocabulaire** : on n'écrit pas « effluvium » (trop scientifique, et ce n'est pas une alopécie) mais « perte de cheveux ». M4 : « La perte de cheveux post-partum apparaît entre 4 et 12 semaines après l'accouchement et inquiète beaucoup : c'est physiologique, elle dure généralement 3 à 4 mois² avant que les cheveux repoussent. » (début aligné sur la source retenue).
+- ✅ **Tristesse : pas de durée dans les signaux** (M1, M2, M4) : « Tristesse persistante ».
+- ✅ **Pas de diagnostic** : « possible anémie post-partum tardive » et « (bilan thyroïdien) » / « d'anémie » retirés (M4).
+- ✅ **Signaux à ne pas négliger, M4 réduit à 4** : saignements, tristesse persistante, dégoût de son corps, ne plus se reconnaître. Périnée, incontinence, cheveux, fatigue : déjà couverts par « Qui consulter ». M4 seulement pour l'instant.
+- ✅ **Urgence** : c'est le contenu qui était alarmant, pas le design (cadre et titre inchangés). Le texte « Se priver de manger… » n'existait qu'en M4.
+- 🟠 **En attente** : même réduction des signaux dans les autres mois  ; ajout de Dermato-Info à la liste des sources.
+- ✅ **Repère des 2 semaines gardé (Laura, 12/11)** : « tristesse au-delà de deux semaines » reste en M0 (signal et urgence), M12 (urgence), M14 (signal) et dans l'exemple de `SKILL_contenu`, car il est sourcé (Psycom). Seuls M1 « au-delà de 2 semaines » et M2 « au-delà de 2 mois » ont été retirés (accord du 12/11).
+- ✅ **Interdit de diagnostiquer une dépression (Laura, 12/11)** : on ne dit jamais « on parle de dépression », « c'est une dépression » ; on renvoie vers les professionnels. Exemple de `SKILL_contenu` reformulé.
+- ✅ **M1 : « Tristesse persistante au-delà de 2 semaines¹, sans amélioration »** rétabli avec la source Psycom (brochure SM6, mars 2025, pages 6 et 7), validée par Laura. M2 reste sans durée (c'était « 2 mois », sans source).
+
+### Extension aux autres mois (signaux et « Qui consulter ») — validé par Laura, 12/11/2026
+- ✅ 10 signaux retirés (physiques ou redondants) : M8 (1), M10 (3), M11 (1), M12 (1), M18 (1), M19 (2), M23 (1).
+- ✅ Termes de diagnostic retirés : « anhédonie » (M10, M14), « (pas physiologique) » et « fatigue chronique » (M23), bilans entre parenthèses (ferritine, TSH, vitamine D, B12) dans « Qui consulter » M9, M10, M12, M19, M23.
+- ✅ Les lignes « Qui consulter » où le médecin « évalue » restent telles quelles : c'est le professionnel qui évalue (M5, M7, M11, M12, M13, M15, M16, M18, M19).
+- ✅ (12/11) Urgence : les sauts de ligne s'affichent (`whiteSpace: "pre-line"` dans `soin-detail.tsx`), utilisés en M0 (un numéro ou une info par ligne).
+- ✅ (12/11) Dermato-Info ajouté à la liste des sources acceptées (SKILL_contenu).
+- (Laura, 12/11) **Une seule roulette à la fois**, celle du moment choisi (pas deux roulettes). Pour une période insérée, « Ajouter » enchaîne : la roulette passe à l'autre moment (heure proposée), avec un rappel discret du premier (« Endormi à 10h, puis »), et le 2e « Ajouter » enregistre les deux.

@@ -431,7 +431,8 @@ export function RythmeOutil({
   const [jour, setJour] = useState(aujourdhui);
   const [ajout, setAjout] = useState<null | "reveil" | "endormi">(null);
   const [heureAjout, setHeureAjout] = useState("07:00");
-  const [heureAutre, setHeureAutre] = useState<string | null>(null); // l'autre bout d'une période insérée
+  // Premier bout d'une période insérée, en attente de l'autre (`apres` : l'autre vient après lui).
+  const [attente, setAttente] = useState<{ m: Moment; apres: boolean } | null>(null);
   // Moment de la liste dont on change l'heure (index dans l'ordre de la journée).
   const [edition, setEdition] = useState<number | null>(null);
   const [heureEdition, setHeureEdition] = useState("07:00");
@@ -510,8 +511,8 @@ export function RythmeOutil({
   const ouvrirAjout = (t: "reveil" | "endormi") => {
     setMessage(null);
     // Toucher le bouton déjà choisi referme la saisie ; changer de bouton garde l'heure choisie.
+    setAttente(null);
     if (ajout === t) return setAjout(null);
-    setHeureAutre(null);
     if (ajout) return setAjout(t);
     setAjout(t);
     const dernier = moments.length ? trier(moments)[moments.length - 1] : null;
@@ -523,16 +524,29 @@ export function RythmeOutil({
   };
 
   // 12/11 (Laura) : on peut ajouter un moment n'importe où. S'il tombe au milieu d'une phase
-  // du même genre (une sieste dans un éveil déjà noté, un réveil dans la nuit), on demande
-  // aussi l'autre bout de la période.
-  const ins = ajout ? insertion(moments, ajout, heureAjout) : null;
-  const heureAutreAffichee = ins && !ins.seul ? heureAutre ?? ins.suggestion : null;
+  // du même genre (une sieste dans un éveil déjà noté, un réveil dans la nuit), il faut aussi
+  // l'autre bout de la période : une seule roulette à la fois, donc en deux temps. Le premier
+  // moment attend (`attente`), la roulette passe à l'autre moment, « Ajouter » enregistre les deux.
+  const ins = ajout && !attente ? insertion(moments, ajout, heureAjout) : null;
 
   const valider = () => {
-    if (!ajout || !ins) return;
-    const ajoutes: Moment[] = [{ t: ajout, h: heureAjout }];
-    if (!ins.seul && heureAutreAffichee) ajoutes.push({ t: ins.autre, h: heureAutreAffichee });
-    if (essayer([...moments, ...ajoutes])) setAjout(null);
+    if (!ajout) return;
+    if (attente) {
+      if (essayer([...moments, attente.m, { t: ajout, h: heureAjout }])) {
+        setAttente(null);
+        setAjout(null);
+      }
+      return;
+    }
+    if (!ins) return;
+    if (ins.seul) {
+      if (essayer([...moments, { t: ajout, h: heureAjout }])) setAjout(null);
+      return;
+    }
+    setMessage(null);
+    setAttente({ m: { t: ajout, h: heureAjout }, apres: ins.apres });
+    setAjout(ins.autre);
+    setHeureAjout(ins.suggestion);
   };
 
   const retirer = (i: number) => {
@@ -744,30 +758,22 @@ export function RythmeOutil({
         </div>
         {/* 07/11 : la case de l'heure, plus étroite, et « Ajouter » sur la même ligne. Pas de bouton Annuler :
             toucher à nouveau Réveillé / Endormi referme la saisie. */}
-        {ajout && ins ? (
-          (() => {
-            const libelle = (t: "reveil" | "endormi") => (t === "reveil" ? `Réveillé${e} à` : `Endormi${e} à`);
-            const bouton = (
-              <button type="button" onClick={valider} style={boutonPlein(ajout)}>
-                Ajouter
-              </button>
-            );
-            const ligne = (t: "reveil" | "endormi", valeur: string, onChange: (h: string) => void, avecBouton: boolean) => (
-              <div key={t} style={{ display: "flex", alignItems: "center", gap: 10 }}>
-                <span style={{ flex: 1, fontSize: 14, color: TEXT, fontWeight: 600 }}>{libelle(t)}</span>
-                <SelecteurHeure valeur={valeur} onChange={onChange} type={t} />
-                {avecBouton ? bouton : <span aria-hidden style={{ ...boutonPlein(ajout), visibility: "hidden" }}>Ajouter</span>}
-              </div>
-            );
-            const principale = ligne(ajout, heureAjout, setHeureAjout, ins.seul || ins.apres === false);
-            const autre = !ins.seul && heureAutreAffichee ? ligne(ins.autre, heureAutreAffichee, setHeureAutre, ins.apres) : null;
-            return (
-              <div style={{ background: CARTE, borderRadius: 16, padding: "8px 12px", display: "grid", gap: 8 }}>
-                {/* Les deux lignes dans l'ordre de la journée ; « Ajouter » sur la dernière. */}
-                {!ins.seul && !ins.apres ? [autre, principale] : [principale, autre]}
-              </div>
-            );
-          })()
+        {ajout ? (
+          <div style={{ background: CARTE, borderRadius: 16, padding: "8px 12px", display: "flex", alignItems: "center", gap: 10 }}>
+            <span style={{ flex: 1, fontSize: 14, color: TEXT, fontWeight: 600, lineHeight: 1.25 }}>
+              {/* 2e temps d'une période insérée : on rappelle le moment en attente. */}
+              {attente ? (
+                <span style={{ display: "block", fontSize: 11.5, fontWeight: 400, color: DOUX }}>
+                  {attente.m.t === "reveil" ? `Réveillé${e}` : `Endormi${e}`} à {heureLisible(attente.m.h)}, {attente.apres ? "puis" : "juste avant"}
+                </span>
+              ) : null}
+              {ajout === "reveil" ? `Réveillé${e} à` : `Endormi${e} à`}
+            </span>
+            <SelecteurHeure key={`${ajout}${attente ? "-2" : ""}`} valeur={heureAjout} onChange={setHeureAjout} type={ajout} />
+            <button type="button" onClick={valider} style={boutonPlein(ajout)}>
+              Ajouter
+            </button>
+          </div>
         ) : null}
 
         {message ? (
