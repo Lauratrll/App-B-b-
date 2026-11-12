@@ -877,3 +877,4 @@ Phrase à déconstruire : porter son bébé est bon, ce n'est pas une mauvaise h
 - (Laura, 12/11) **Roue affinée** : anneau de 36 au lieu de 44 d'épaisseur (bord extérieur inchangé, intérieur élargi).
 - (Laura, 12/11) **La nuit ne se colore pas tant que le réveil n'est pas noté** : après « Endormi » le soir, seul le dégradé reste. La soirée ne passe en couleur pleine jusqu'à minuit qu'une fois le réveil du lendemain renseigné (avant : dès que le lendemain existait).
 - (Laura, 12/11) **Deux nuits, deux couleurs** : la nuit précédente (après minuit) garde `#89BDC8` ; la nuit qui commence le soir (avant minuit) passe en bleu plus soutenu `#5F93AB` (choix de Claude). Règle : une nuit dont le début est après midi est celle du soir. Légende : Nuit précédente · Éveil · Sieste · Nuit suivante. Même couleur sur la barre de la liste.
+- (Laura, 12/11) **Heures sur la roue : 0h, 3h, 6h, 9h, 12h, 15h, 18h, 21h** (avant : 0h, 6h, 12h, 18h), même style.

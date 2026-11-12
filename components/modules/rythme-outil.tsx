@@ -123,9 +123,13 @@ export function RoueRythme({ dessin, mini, maintenant }: { dessin: Dessin; mini?
   }
   const etiquettes: [string, number][] = [
     ["0h", 0],
+    ["3h", 0.125], // 12/11 (Laura) : 3h, 9h, 15h, 21h ajoutées
     ["6h", 0.25],
+    ["9h", 0.375],
     ["12h", 0.5],
+    ["15h", 0.625],
     ["18h", 0.75],
+    ["21h", 0.875],
   ];
 
   return (
