@@ -940,3 +940,12 @@ Phrase à déconstruire : porter son bébé est bon, ce n'est pas une mauvaise h
 - (Laura, 12/11) **Au-dessus du dernier lait d'aujourd'hui : « il y a 2h15 »**, recalculé chaque minute (comme « éveil depuis »).
 - (Laura, 12/11) **Roulette centrée dans la case de saisie** (Réveillé, Endormi, Selle) : libellé à gauche, roulette au milieu, « Ajouter » à droite. Pour le lait, la quantité prend la place entre l'heure et « Ajouter ».
 - (Laura, 12/11) **Boutons Lait et Selles de chaque côté de la légende** (Lait à gauche, Selles à droite), au-dessus de Réveillé / Endormi. **Tout tenir sur un écran**, du titre au cadre « Selles » fermé : espaces de 10 px (au lieu de 14), roue de 256 px de large (au lieu de 290), en-têtes des cadres resserrés. 🟠 Choix de Claude : **les trois cadres sont fermés à l'ouverture** (avant : Éveil & Sommeil ouvert). Mesuré : la page tient dans ~700 px de hauteur visible (barre du bas comprise).
+
+## 12/11 (suite) : bloc Corps & soins, 7 fiches de la première année
+
+- Ordre du portage : la cambrure en portage passe en M3, le face au monde en M4, le portage sur la hanche en M5 (c'est la cambrure qui pousse les parents à tourner l'enfant).
+- Peau à peau (M0, Lien & attachement) : on part du doute du parent, on dit pourquoi il fait du bien, et les règles de sécurité sont dans l'action immédiate.
+- Face au monde : position non conseillée par les professionnels, la fiche oriente vers d'autres solutions. Source française à trouver, ou source étrangère à faire valider par Laura avant publication.
+- Massage (M3) : douceur, contact, faire sentir les limites du corps ; jamais un soin. Source : Cochrane 2022 (pas d'effet fiable démontré).
+- Rappel : les fiches de portage, de peau à peau et de temps sur le ventre sont à relire par un professionnel (rappel donné à Laura dans la conversation, jamais dans le contenu).
+- (Laura, 12/11) **Marge de 14 px au-dessus du titre** « Le rythme de … » ; **6 px de plus entre les boutons et le premier cadre** du détail. **Bouton Réveillé / Endormi mis en retrait : teinte légère de sa couleur** (pêche très clair `#FCEDE4` / bleu clair `#D3E7EC`, les teintes des cases d'heure) au lieu du blanc translucide, pour ne pas se confondre avec les cadres.

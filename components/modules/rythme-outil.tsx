@@ -910,7 +910,8 @@ export function RythmeOutil({
     padding: "12px 10px",
     borderRadius: 16,
     border: ajout === t ? `2px solid ${VERT_TEXTE}` : "2px solid transparent",
-    background: ajout !== t && !logique(t) ? "rgba(255,255,255,.55)" : t === "reveil" ? C.eveil : C.nuit,
+    // 12/11 (Laura) : le bouton mis en retrait garde une teinte légère de sa couleur (pas le blanc des cadres).
+    background: ajout !== t && !logique(t) ? TEINTE[t] : t === "reveil" ? C.eveil : C.nuit,
     color: TEXT,
     fontFamily: PLAYFAIR,
     fontSize: 16,
@@ -949,7 +950,7 @@ export function RythmeOutil({
       <style>{`.rythme-roulette::-webkit-scrollbar{display:none}`}</style>
       {/* 12/11 (Laura) : tout tenir sur un écran, du titre au cadre « Selles » fermé : espaces de 10, roue de 256. */}
       <div style={{ position: "relative", zIndex: 1, display: "flex", flexDirection: "column", gap: 10, paddingBottom: 12 }}>
-        <header style={{ textAlign: "center" }}>
+        <header style={{ textAlign: "center", marginTop: 14 }}>
           <h1 style={{ fontFamily: PLAYFAIR, fontSize: 24, fontWeight: 600, color: TEXT, margin: "0 0 4px", lineHeight: 1.15 }}>
             Le rythme de {prenom}
           </h1>
@@ -1049,6 +1050,7 @@ export function RythmeOutil({
           details.rythme-cadre > summary { list-style: none; }
           details.rythme-cadre > summary::-webkit-details-marker { display: none; }
           details.rythme-cadre[open] .rythme-chevron { transform: rotate(180deg); }
+          details.rythme-cadre:first-of-type { margin-top: 6px; }
         `}</style>
         {lignes.length ? cadre("sommeil", "Éveil & Sommeil", dessin.sommeil ? `${duree(dessin.sommeil)} de sommeil` : "", lignes) : null}
         {lignesLait.length
