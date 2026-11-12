@@ -875,3 +875,4 @@ Phrase à déconstruire : porter son bébé est bon, ce n'est pas une mauvaise h
 - (Laura, 12/11) **Retirés : « Commence par le moment que tu veux… » et « Demain, sa roue commencera avec le coucher de ce soir. »**, l'outil est assez intuitif. Sans moment noté, le cadre de la liste ne s'affiche pas.
 - (Laura, 12/11) **Pareil pour le sommeil** : « sommeil en cours » devient **« sommeil depuis 40 min »**, même phrase pour la nuit et les siestes (aujourd’hui seulement).
 - (Laura, 12/11) **Roue affinée** : anneau de 36 au lieu de 44 d'épaisseur (bord extérieur inchangé, intérieur élargi).
+- (Laura, 12/11) **La nuit ne se colore pas tant que le réveil n'est pas noté** : après « Endormi » le soir, seul le dégradé reste. La soirée ne passe en couleur pleine jusqu'à minuit qu'une fois le réveil du lendemain renseigné (avant : dès que le lendemain existait).

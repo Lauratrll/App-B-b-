@@ -441,7 +441,12 @@ export function RythmeOutil({
   const e =genre === "fille" ? "e" : "";
 
   const momentsDe = (j: string, tous = jours) => tous[j] ?? repriseDeLaVeille(tous[decaler(j, -1)]);
-  const suiteDort = (j: string, tous = jours) => Boolean(tous[decaler(j, 1)]?.[0]?.veille);
+  // 12/11 (Laura) : la nuit ne se colore jusqu'à minuit que si le RÉVEIL du lendemain est noté.
+  // Tant qu'il ne l'est pas, bébé peut encore se réveiller : seul reste le dégradé.
+  const suiteDort = (j: string, tous = jours) => {
+    const suite = tous[decaler(j, 1)];
+    return Boolean(suite?.[0]?.veille && suite.some((m) => m.t === "reveil"));
+  };
   const moments = momentsDe(jour);
   const estAujourdhui = jour === aujourdhui();
   const dessin = dessiner(moments, fenetre, suiteDort(jour));
