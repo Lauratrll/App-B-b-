@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Playfair_Display, Nunito } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -71,6 +72,9 @@ export default function RootLayout({
         >
           {children}
         </div>
+        {/* Mesure d'audience Vercel : globale et anonyme, sans cookie,
+            jamais reliée à un compte (choix RGPD de Laura, 18/11/2026). */}
+        <Analytics />
       </body>
     </html>
   );
