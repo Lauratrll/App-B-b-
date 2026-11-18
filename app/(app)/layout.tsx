@@ -1,5 +1,6 @@
 import { Suspense } from "react";
-import { getApercu, getCurrentProfile, requireUser } from "@/lib/auth";
+import { getApercu, getCurrentProfile, isCurrentUserAdmin, requireUser } from "@/lib/auth";
+import { ExclureAppareilDeLaMesure } from "@/components/ui/mesure-audience";
 import { getBabyMonth } from "@/lib/utils";
 import { PinToast } from "@/components/modules/pin-toast";
 import { ApercuAdminBar } from "@/components/modules/apercu-admin-bar";
@@ -16,10 +17,13 @@ export default async function AppLayout({
   const profile = await getCurrentProfile();
   const babyMonth = profile ? getBabyMonth(new Date(profile.birthdate)) : null;
   const apercu = await getApercu();
+  const isAdmin = await isCurrentUserAdmin();
 
   return (
     <NavProvider>
     <div className="flex min-h-dvh flex-col">
+      {/* Les visites des admins ne comptent pas dans Vercel Analytics. */}
+      {isAdmin ? <ExclureAppareilDeLaMesure /> : null}
       <Suspense fallback={null}>
         <PinToast />
       </Suspense>
