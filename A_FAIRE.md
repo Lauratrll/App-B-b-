@@ -6,9 +6,9 @@
 
 Principe (Laura, 18/11/2026) : **aucun email ne part vers un parent tant que Laura n'en a pas validé le texte.**
 
-- [ ] **Email de confirmation d'inscription** (Laura, 18/11 : on garde la confirmation, en français, aux couleurs de l'app) : modèle prêt dans `supabase/emails/confirmation-inscription.html`, **validé par Laura le 18/11**, à coller dans Supabase → Authentication → Emails → « Confirm signup » (onglet Source), objet « Confirmez votre adresse email ». Tant qu'il n'est pas collé, Supabase envoie son modèle en anglais, et son lien ne marche pas si l'email est ouvert sur un autre appareil.
-- [ ] **Supabase → Authentication → URL Configuration** : vérifier que « Site URL » est https://app-b-b-i6ai.vercel.app et ajouter `https://app-b-b-i6ai.vercel.app/auth/confirm` dans « Redirect URLs » (sert aux deux emails).
-- [ ] **Email « Mot de passe oublié »** : modèle prêt dans `supabase/emails/mot-de-passe.html` (français, couleurs de l'app), **validé par Laura le 18/11**, à coller dans Supabase → Authentication → Emails → « Reset password » (onglet Source), objet « Choisissez un nouveau mot de passe ».
+- [x] **Email de confirmation d'inscription** : validé et collé dans Supabase le 18/11.
+- [x] **URL Configuration** Supabase faite le 18/11.
+- [x] **Email « Mot de passe oublié »** : validé (version « Ça arrive ! ») et collé dans Supabase le 18/11.
 - [x] **Page « Choisir un nouveau mot de passe »** : faite le 18/11 (`/nouveau-mot-de-passe`). Elle ne marche qu'une fois le modèle ci-dessus collé dans Supabase.
 
 ## Connecter Resend (pas encore fait : Laura ne connaît pas l'outil, à faire ensemble pas à pas)
@@ -26,4 +26,5 @@ Resend est le service qui envoie les emails de l'app. Il sert à deux choses :
 
 ## Inscription
 
-- [ ] Lancer `supabase/migrations/0007_codes_activation.sql` dans le SQL Editor Supabase, **avant** la mise en ligne de la nouvelle page d'inscription.
+- [x] Migration 0007 lancée, adresses de retour et deux emails collés dans Supabase, mise en ligne (18/11/2026).
+- [ ] **Tester une vraie inscription sur téléphone** (adresse Gmail avec +test1, code BONNENUIT) : écran « Ouvrez vos emails », email reçu et picto lune visible, confirmation, « Présentez votre bébé », installation. Puis supprimer le compte fictif si besoin.
