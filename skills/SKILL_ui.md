@@ -408,6 +408,7 @@ Code : `components/ui/bottom-nav.tsx`. Ordre : **Accueil · Cohérence cardiaque
 
 - **Accueil** et **Épinglés** : picto seul, sans mot (libellé en `aria-label`), dans une pastille ronde de 40 px. Même trait que les pictos des cases Guide-moi (grille 24, trait 1,6, bouts arrondis). Inactif Eucalyptus `#8A9E98` sur pastille blanche translucide ; actif Corail `#D4604A` sur pastille `#F5D0C8`.
 - **Cohérence cardiaque** (2e position) et **SOS** (3e, au centre) : **boutons ronds de 54 px, 2/3 sur la barre, 1/3 au-dessus, sur le fond de la page**. Visibles, pas principaux.
+  - 🔁 **Couleurs des ronds depuis le 18/11** (accueil B2) : Cohérence sauge `#D2DACB` / `#435530`, SOS rosé `#EABDB1` / `#8A3020`, Que me dit bébé ? rosé `#F5D0C8` / `#8A4030`, Rythme inchangé. Les couleurs ci-dessous sont l'archive.
   - Cohérence : fond lavande « Parents submergés » `#DBD7EA`, **sans contour** (06/11), picto cœur traversé d'une onde douce `#46405A` → `/coherence` (« Le Métronome du souffle », `components/modules/metronome-souffle.tsx`).
   - SOS : fond orange S.O.S `#FAD2B3`, **sans contour** (06/11), « SOS » **dessiné au trait, sans sérif**, du même trait que les pictos (`LETTRES_SOS`), `#A4471F` → `/sos`.
   - Que me dit bébé ? (ajouté le 05/11, après SOS) : **rond pêche du slot 1 de Guide-moi `#F0B8A8`, sans contour, loupe seule** `#7A3E2E`, sans mot (06/11) → `/que-me-dit-bebe`.
@@ -465,6 +466,29 @@ Code : `components/ui/bottom-nav.tsx`. Ordre : **Accueil · Cohérence cardiaque
 
 ## Structure de la page d'accueil (Dashboard)
 
+### Accueil « B2 · Auréoles » (validé le 18/11/2026) — fait foi
+
+Code : `app/(app)/dashboard/page.tsx`. 🔁 Remplace la grille et l'ordre du 20/10 ci-dessous.
+
+- **En-tête** : initiale du bébé (carré arrondi 48 px, fond `#F5D0C8`, Playfair, brun `#8A4030`) · « Bonjour ! » 13 px gras brun · « Prénom, X mois » Playfair 24 semi-gras · menu 3 traits à droite. **Pas de saison en haut.**
+- **Fond de l'accueil** : rosé `#FAEEE9` sur tout l'écran ; la barre du bas y est translucide (`rgba(255,255,255,.6)`).
+- **Disposition** : Sommeil (toute la largeur, grande case) · Guide-moi ! (case haute à gauche) | Gestes d'apaisement puis Réflexologie plantaire (à droite, l'une sous l'autre, **toujours côte à côte**) · Prendre soin de moi | Vivre la saison. Cases arrondies 26 px, espacées de 12 px.
+- **Cases** : pas de picto ; titre centré Playfair semi-gras (17 px, 22 px pour Sommeil et Guide-moi), `#3A3228` ; sous-titre en capitales espacées (10 px, `letter-spacing` .15em), **non gras**.
+
+| Case | Fond | Auréole soutenue · intermédiaire | Direction (soutenue → intermédiaire) | Sous-titre |
+|---|---|---|---|---|
+| Sommeil & Endormissement | `#C6DAE8` bleu ciel | `#A3C2D9` · `#B9D2E6` | bas droite → haut gauche | `#285470` |
+| Guide-moi ! | `#F5D0C8` | `#E3AFA0` · `#EABDB1` | haut gauche → bas droite | `#8A4030` |
+| Gestes d'apaisement | `#E5EBDD` | `#BECEA9` · `#CCD7B9` | haut droite → bas gauche | `#435530` |
+| Réflexologie plantaire | `#BECEA9` | `#9AB283` · `#A9BE93` | bas gauche → haut droite | `#435530` |
+| Prendre soin de moi | `#EABDB1` | `#DB9C86` · `#E4A894` | bas → haut | `#8A4030` |
+| Vivre la saison | `#F8DBC9` | `#E7B99F` · `#EEC7B0` | droite → gauche | `#8A4030` |
+
+- **Auréoles** : deux `radial-gradient` par case, la soutenue à pleine intensité jusqu'à 78 %, l'intermédiaire à 85 % jusqu'à 62 %. **Jamais de ton plus clair que la case ni de blanc** (refusé deux fois par Laura).
+- **Ronds de la barre du bas** (pictos inchangés) : Cohérence `#D2DACB` / `#435530` · SOS `#EABDB1` / `#8A3020` · Que me dit bébé ? `#F5D0C8` / `#8A4030` · Rythme `#D3E5F2` / `#2F6081`.
+
+### Avant le 18/11 (archive)
+
 ```
 Titre « Prénom, X mois » + picto « 3 traits » à droite, saison en dessous (pas de bandeau, 20/10)
 ↓
@@ -477,7 +501,7 @@ Card "Épinglé récemment" (Cream + bordure Coral à gauche)
 Navigation fixe (4 entrées, dont 2 boutons ronds — voir ci-dessus)
 ```
 
-**Ordre de la grille (20/10/2026)**, ligne par ligne :
+**Ordre de la grille (20/10/2026)** 🔁 remplacé le 18/11 (voir « Accueil B2 » ci-dessus), ligne par ligne :
 
 | Gauche | Droite |
 |---|---|

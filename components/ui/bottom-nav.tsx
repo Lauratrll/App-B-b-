@@ -288,6 +288,12 @@ const STYLE_BARRE = {
   paddingBottom: "env(safe-area-inset-bottom)",
 } as const;
 
+// Accueil « B2 · Auréoles » (Laura, 18/11/2026) : la barre est translucide sur le fond rosé de l'accueil.
+const STYLE_BARRE_ACCUEIL = {
+  background: "rgba(255,255,255,.6)",
+  borderTop: "0.5px solid rgba(58,50,40,.06)",
+} as const;
+
 export function BottomNav() {
   const pathname = usePathname() ?? "";
   const { back } = useNav();
@@ -299,25 +305,26 @@ export function BottomNav() {
   // Visible pour tous les comptes (app pas encore commercialisée).
   if (estSur("/dashboard")) {
     return (
-      <nav aria-label="Navigation principale" className="sticky bottom-0 z-30 grid" style={{ ...STYLE_BARRE, gridTemplateColumns: "52px repeat(4, 1fr) 52px" }}>
+      <nav aria-label="Navigation principale" className="sticky bottom-0 z-30 grid" style={{ ...STYLE_BARRE, ...STYLE_BARRE_ACCUEIL, gridTemplateColumns: "52px repeat(4, 1fr) 52px" }}>
         <OngletPicto href="/dashboard" label="Accueil" actif>
           {ICONE_ACCUEIL}
         </OngletPicto>
-        {/* Lavande « parents submergés », sans contour (Laura, 06/11/2026). */}
-        <BoutonRond href="/coherence" label="Cohérence cardiaque" actif={false} fond="#DBD7EA" bord="transparent" hausse={HAUSSE_EXTERIEURS}>
-          <svg width={28} height={28} viewBox="0 0 24 24" fill="none" stroke="#46405A" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+        {/* Sauge du camaïeu frais de l'accueil B2 (18/11/2026 ; avant : lavande #DBD7EA / #46405A), sans contour. */}
+        <BoutonRond href="/coherence" label="Cohérence cardiaque" actif={false} fond="#D2DACB" bord="transparent" hausse={HAUSSE_EXTERIEURS}>
+          <svg width={28} height={28} viewBox="0 0 24 24" fill="none" stroke="#435530" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
             {ICONE_COHERENCE}
           </svg>
         </BoutonRond>
         {/* SOS écrit au trait, sans sérif, du même trait que les pictos ; sans contour (Laura, 06/11). */}
-        <BoutonRond href="/sos" label="SOS, dois-je consulter ?" actif={false} fond="#FAD2B3" bord="transparent">
-          <svg width={30} height={14} viewBox="0 0 36 16" fill="none" stroke="#A4471F" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+        {/* Accueil B2 (18/11/2026) : rosé soutenu du camaïeu chaud, trait brique (avant : #FAD2B3 / #A4471F). */}
+        <BoutonRond href="/sos" label="SOS, dois-je consulter ?" actif={false} fond="#EABDB1" bord="transparent">
+          <svg width={30} height={14} viewBox="0 0 36 16" fill="none" stroke="#8A3020" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
             {LETTRES_SOS}
           </svg>
         </BoutonRond>
-        {/* Rond pêche du slot 1 de Guide-moi, loupe seule, sans mot ni contour (Laura, 06/11). */}
-        <BoutonRond href="/que-me-dit-bebe" label="Que me dit bébé ?" actif={false} fond="#F0B8A8" bord="transparent">
-          <svg width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="#7A3E2E" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+        {/* Loupe seule, sans mot ni contour (Laura, 06/11) ; rosé de Prendre soin de moi depuis l'accueil B2 (18/11, avant : pêche #F0B8A8 / #7A3E2E). */}
+        <BoutonRond href="/que-me-dit-bebe" label="Que me dit bébé ?" actif={false} fond="#F5D0C8" bord="transparent">
+          <svg width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="#8A4030" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
             {ICONE_LOUPE}
           </svg>
         </BoutonRond>
