@@ -11,10 +11,10 @@ import {
 import { RemovePinButton } from "@/components/modules/remove-pin-button";
 
 const MODULE_LABELS: Record<PinnableModule, string> = {
-  guide: "🧭 Guide-moi !",
-  coucher: "🌙 Sommeil & Endormissement",
-  reflexo: "💫 Réflexologie",
-  apaisement: "🌿 Gestes d'apaisement",
+  guide: "Guide-moi !",
+  coucher: "Sommeil & Endormissement",
+  reflexo: "Réflexologie",
+  apaisement: "Gestes d'apaisement",
 };
 
 export default async function GererEpinglesPage({

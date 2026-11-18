@@ -4,6 +4,7 @@ import { getBabyMonth } from "@/lib/utils";
 import { getPins, PIN_QUOTAS, type PinnedItem } from "@/lib/pinned";
 import { RemovePinButton } from "@/components/modules/remove-pin-button";
 import { adapteAuMois, getProtocole } from "@/lib/reflexologie";
+import { PictoEpingle } from "@/components/ui/pictos-trait";
 
 export default async function EpinglesPage() {
   const { profile } = await requireProfile();
@@ -29,7 +30,7 @@ export default async function EpinglesPage() {
   return (
     <section className="space-y-5">
       <header className="space-y-1">
-        <p className="text-2xl" aria-hidden>📌</p>
+        <PictoEpingle className="h-8 w-8" />
         <h1 className="text-2xl font-semibold">Mes épingles</h1>
         <p className="text-sm text-neutral-600">
           {couchers.length}/{PIN_QUOTAS.coucher} Coucher · {guides.length}/
@@ -53,7 +54,7 @@ export default async function EpinglesPage() {
       {reflexos.length > 0 ? (
         <section className="space-y-3">
           <h2 className="text-sm font-semibold uppercase tracking-wide text-neutral-500">
-            💫 Gestes de réflexologie
+            Gestes de réflexologie
           </h2>
           <ul className="space-y-2">
             {reflexos.map((pin) => (
@@ -84,7 +85,7 @@ export default async function EpinglesPage() {
       {apaisements.length > 0 ? (
         <section className="space-y-3">
           <h2 className="text-sm font-semibold uppercase tracking-wide text-neutral-500">
-            🌿 Gestes d&apos;apaisement
+            Gestes d&apos;apaisement
           </h2>
           <ul className="space-y-2">
             {apaisements.map((pin) => (
@@ -105,7 +106,7 @@ export default async function EpinglesPage() {
       {couchers.length > 0 ? (
         <section className="space-y-3">
           <h2 className="text-sm font-semibold uppercase tracking-wide text-neutral-500">
-            🌙 Sommeil & Endormissement
+            Sommeil & Endormissement
           </h2>
           <ul className="space-y-2">
             {couchers.map((pin) => (
@@ -125,7 +126,7 @@ export default async function EpinglesPage() {
       {guides.length > 0 ? (
         <section className="space-y-4">
           <h2 className="text-sm font-semibold uppercase tracking-wide text-neutral-500">
-            🧭 Guide-moi !
+            Guide-moi !
           </h2>
           {Object.entries(guidesByCategorie).map(([cat, items]) => (
             <div key={cat} className="space-y-2">

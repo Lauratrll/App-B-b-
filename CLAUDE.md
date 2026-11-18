@@ -175,6 +175,25 @@ CREATE TABLE journees_rythme (
 );
 -- RLS : chacun ne voit que ses journées. Migration : supabase/migrations/0006_journees_rythme.sql
 
+-- Codes d'activation et inscriptions (18/11/2026) : inscription fermée sans code pendant les tests.
+-- RLS activée SANS policy sur les deux tables : lues et écrites par l'app avec la clé service
+-- (lib/inscription.ts), gérées par Laura dans le Table Editor. Migration : supabase/migrations/0007_codes_activation.sql
+CREATE TABLE codes_activation (
+  code TEXT PRIMARY KEY CHECK (code = upper(code)),  -- ex. BONNENUIT
+  actif BOOLEAN NOT NULL DEFAULT true,               -- false = code fermé
+  note TEXT,
+  created_at TIMESTAMPTZ DEFAULT now()
+);
+CREATE TABLE inscriptions (
+  user_id UUID PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,
+  email TEXT,
+  nom TEXT,              -- nom de famille du parent, saisi à l'inscription
+  prenom TEXT,           -- prénom du parent, saisi à l'inscription
+  code TEXT NOT NULL,    -- code utilisé ; AVANT_LES_CODES pour les comptes antérieurs
+  created_at TIMESTAMPTZ DEFAULT now()
+);
+-- Vue inscriptions_par_code : nombre d'inscrits par code.
+
 -- Épinglés
 CREATE TABLE pinned (
   id UUID PRIMARY KEY DEFAULT gen\_random\_uuid(),
@@ -318,6 +337,7 @@ Les autres modules (Soin, Saison, Coucher, Audio, Jeux) n'ont pas été audités
 ## 🔗 Ressources
 
 * Skills éditoriaux : `/skills/SKILL\_protocole.md`, `/skills/SKILL\_contenu.md`
+* **Liste à faire : `/A_FAIRE.md`** (chantiers en attente, dont les emails aux parents)
 * **Registre des décisions : `/skills/DECISIONS.md`** (source unique des décisions de Laura)
 * ⭐ **Règle de tenue des fichiers (17/10/2026)** : on travaille sur l'ordinateur, sur le fichier qui est lu, **sans créer de versions** (pas de `_v2`, pas d'addendum). Chaque décision de Laura est inscrite dans `skills/DECISIONS.md` ET reportée dans le skill concerné **dans le même geste**, avant de passer à la suite. Sauvegarde avant modification dans `_sauvegardes/AAAA-MM-JJ/`. La copie du projet Claude (`claude/DECISIONS.md`, `claude/SKILL_*.md`) est écrasée par celle de l'ordinateur, jamais l'inverse.
 * Skills techniques : `/skills/SKILL\_bdd.md`, `/skills/SKILL\_ui.md`

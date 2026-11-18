@@ -15,6 +15,7 @@ import {
   SoinPicto,
   estMasque,
 } from "@/components/modules/soin-design";
+import { PictoFleur } from "@/components/ui/pictos-trait";
 
 // Écran A — accueil « Prendre soin de moi ».
 // Spec de référence (figée V1) :
@@ -42,7 +43,7 @@ export default async function SoinPage() {
     return (
       <section className="space-y-5">
         <header className="space-y-1">
-          <p className="text-2xl" aria-hidden>🌸</p>
+          <PictoFleur className="h-8 w-8" />
           <h1 className="text-2xl font-semibold">Prends soin de toi</h1>
         </header>
         <p className="rounded-xl bg-amber-50 p-4 text-sm text-amber-900">

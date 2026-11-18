@@ -1,5 +1,11 @@
 import { getRealProfile, isCurrentUserAdmin, requireUser } from "@/lib/auth";
 import { getBabyMonth } from "@/lib/utils";
+import { getInscription } from "@/lib/inscription";
+import { BoutonValiderInstaller } from "@/components/ui/installer-app";
+import {
+  PictoBebe,
+  PresentezVotreBebe,
+} from "@/components/modules/presentez-bebe";
 import { upsertProfile } from "./actions";
 
 const ERROR_MESSAGES: Record<string, string> = {
@@ -10,6 +16,8 @@ const ERROR_MESSAGES: Record<string, string> = {
     "Merci de cocher la case pour confirmer que les informations sont exactes.",
   profil_verrouille:
     "Le profil ne peut plus être modifié. Écrivez-nous pour toute correction.",
+  code_invalide:
+    "Ce code d'activation n'est pas reconnu. Vérifiez-le auprès de la personne qui vous l'a transmis.",
   sauvegarde_echouee: "L'enregistrement a échoué. Réessayez dans un instant.",
 };
 
@@ -33,9 +41,13 @@ export default async function ProfilPage({
 }: {
   searchParams: { error?: string };
 }) {
-  await requireUser();
+  const user = await requireUser();
   const profile = await getRealProfile();
   const isAdmin = await isCurrentUserAdmin();
+  // Compte sans code d'activation (créé hors de la page d'inscription) :
+  // le code est demandé avec le profil.
+  const codeRequis =
+    !profile && !isAdmin && !(await getInscription(user.id));
   const errorMsg = searchParams.error
     ? (ERROR_MESSAGES[searchParams.error] ?? "Une erreur est survenue.")
     : null;
@@ -47,12 +59,20 @@ export default async function ProfilPage({
   const today = new Date().toISOString().split("T")[0];
   const verrouille = profile !== null && !isAdmin;
 
+  if (!profile) {
+    return (
+      <PresentezVotreBebe
+        errorMsg={errorMsg}
+        today={today}
+        codeRequis={codeRequis}
+      />
+    );
+  }
+
   return (
     <section className="space-y-6">
       <header className="space-y-1">
-        <p className="text-2xl" aria-hidden>
-          👶
-        </p>
+        <PictoBebe className="h-8 w-8" />
         <h1 className="text-2xl font-semibold">
           {profile ? "Profil bébé" : "Bienvenue !"}
         </h1>
@@ -159,6 +179,22 @@ export default async function ProfilPage({
               ))}
             </div>
           </fieldset>
+          {codeRequis ? (
+            <label className="block space-y-1.5">
+              <span className="text-sm font-medium text-neutral-700">
+                Code d&apos;activation
+              </span>
+              <input
+                type="text"
+                name="code"
+                required
+                autoComplete="off"
+                autoCapitalize="characters"
+                spellCheck={false}
+                className="w-full rounded-xl border border-neutral-300 px-4 py-3 text-base uppercase tracking-[.15em]"
+              />
+            </label>
+          ) : null}
           {!profile ? (
             <label className="flex min-h-[44px] cursor-pointer items-start gap-3 text-sm text-neutral-700">
               <input
@@ -174,12 +210,18 @@ export default async function ProfilPage({
               </span>
             </label>
           ) : null}
-          <button
-            type="submit"
-            className="w-full rounded-2xl bg-neutral-900 px-6 py-4 text-base font-medium text-white"
-          >
-            {profile ? "Enregistrer (admin)" : "C'est parti"}
-          </button>
+          {profile ? (
+            <button
+              type="submit"
+              className="w-full rounded-2xl bg-neutral-900 px-6 py-4 text-base font-medium text-white"
+            >
+              Enregistrer (admin)
+            </button>
+          ) : (
+            // Validation définitive du profil, puis installation de l'app
+            // sur le téléphone (Laura, 18/11/2026).
+            <BoutonValiderInstaller className="w-full rounded-2xl bg-neutral-900 px-6 py-4 text-base font-medium text-white disabled:opacity-70" />
+          )}
         </form>
       )}
     </section>

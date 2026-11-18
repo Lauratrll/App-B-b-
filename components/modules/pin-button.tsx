@@ -1,4 +1,5 @@
 import { togglePinAction } from "@/lib/pinned-actions";
+import { PictoEpingle } from "@/components/ui/pictos-trait";
 
 export function PinButton({
   contentId,
@@ -22,7 +23,7 @@ export function PinButton({
             : "inline-flex items-center gap-1.5 rounded-full border border-neutral-300 px-3 py-1.5 text-xs font-medium text-neutral-700"
         }
       >
-        <span aria-hidden>📌</span>
+        <PictoEpingle className="h-3.5 w-3.5" />
         <span>{isPinned ? "Épinglé" : "Épingler"}</span>
       </button>
     </form>

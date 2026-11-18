@@ -1,6 +1,7 @@
 import type { ConseilSoin } from "@/lib/content";
 import { VoiceRecorder } from "./voice-recorder";
 import { ChallengeDone } from "./challenge-done";
+import { PictoAlerte } from "@/components/ui/pictos-trait";
 
 // Type helpers pour les structures imbriquées variables
 type Point = { zone: string; geste: string; effet?: string };
@@ -199,7 +200,7 @@ export function ConseilView({ conseil }: { conseil: ConseilSoin }) {
       {typeof conseil.urgence === "string" ? (
         <section className="rounded-2xl border border-red-200 bg-red-50 p-5">
           <p className="text-sm font-medium leading-relaxed text-red-950">
-            ⚠ {conseil.urgence}
+            <PictoAlerte className="inline h-[1.1em] w-[1.1em] align-[-0.2em]" /> {conseil.urgence}
           </p>
         </section>
       ) : null}

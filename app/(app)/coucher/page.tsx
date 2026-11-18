@@ -5,6 +5,7 @@ import { getSommeil } from "@/lib/sommeil";
 import { CoucherView } from "@/components/modules/coucher-view";
 import { SommeilView } from "@/components/modules/sommeil-view";
 import { SommeilSlots } from "@/components/modules/sommeil-slots";
+import { PictoLune } from "@/components/ui/pictos-trait";
 
 // Page « Sommeil & Endormissement · Rythme et Rituels » (28/10).
 // ?slot=… : slot ouvert (tranche en slots, pilote M2-M5).
@@ -55,7 +56,7 @@ export default async function CoucherPage({
     return (
       <section className="space-y-5">
         <header className="space-y-1">
-          <p className="text-2xl" aria-hidden>🌙</p>
+          <PictoLune className="h-8 w-8" />
           <h1 className="text-2xl font-semibold">Sommeil & Endormissement</h1>
         </header>
         <p className="rounded-xl bg-amber-50 p-4 text-sm text-amber-900">

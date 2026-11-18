@@ -1,0 +1,95 @@
+<!--
+  Email « Installer l'app sur votre téléphone » (Laura, 18/11/2026) — À VALIDER PAR LAURA.
+  Envoyé par l'app (Resend), PAS par Supabase : il ne part qu'une fois
+  Resend connecté avec un nom de domaine à soi (voir A_FAIRE.md).
+  Moment proposé : juste après la validation du profil du bébé.
+  Objet : Retrouvez l'app sur votre écran d'accueil
+  {{PRENOM_BEBE}} et {{LIEN_APP}} sont remplacés par l'app à l'envoi.
+  Picto au trait (pas d'emoji) : public/emails/telephone.png, visible une fois l'app en ligne.
+  Couleurs : slot 2 de Guide-moi (lib/couleurs-inscription.ts).
+-->
+<!doctype html>
+<html lang="fr">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"></head>
+<body style="margin:0;padding:0;background:#F5D0C8;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F5D0C8;">
+  <tr>
+    <td align="center" style="padding:36px 16px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:440px;background:#FBF1EE;border-radius:24px;">
+        <tr>
+          <td align="center" style="padding:36px 28px 8px;">
+            <div style="width:64px;height:64px;border-radius:32px;background:#F3DFD9;"><img src="https://app-b-b-i6ai.vercel.app/emails/telephone.png" width="32" height="32" alt="" style="display:block;border:0;padding:16px;"></div>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" style="padding:8px 28px 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;color:#9A5444;">
+            Le profil de {{PRENOM_BEBE}} est prêt
+          </td>
+        </tr>
+        <tr>
+          <td align="center" style="padding:8px 28px 0;font-family:Georgia,'Times New Roman',serif;font-size:24px;font-weight:bold;line-height:1.25;color:#5E3328;">
+            Gardez l'app à portée de main
+          </td>
+        </tr>
+        <tr>
+          <td align="center" style="padding:14px 32px 0;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.6;color:#5E3328;">
+            Installée sur votre écran d'accueil, elle s'ouvre d'un geste, comme une app, sans repasser par le navigateur. Si c'est déjà fait, vous pouvez ignorer cet email.
+          </td>
+        </tr>
+
+        <!-- iPhone -->
+        <tr>
+          <td style="padding:24px 24px 0;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F3DFD9;border-radius:18px;">
+              <tr>
+                <td style="padding:16px 18px;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.6;color:#5E3328;">
+                  <div style="font-size:11px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;color:#9A5444;padding-bottom:6px;">Sur iPhone</div>
+                  1. Ouvrez le lien ci-dessous dans <b>Safari</b>.<br>
+                  2. Touchez le bouton <b>Partager</b> (le carré avec une flèche vers le haut), en bas de l'écran.<br>
+                  3. Choisissez <b>« Sur l'écran d'accueil »</b>, puis <b>« Ajouter »</b>.<br>
+                  4. Ouvrez l'app depuis sa nouvelle icône et connectez-vous une fois.
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- Android -->
+        <tr>
+          <td style="padding:12px 24px 0;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#EFCDC2;border-radius:18px;">
+              <tr>
+                <td style="padding:16px 18px;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.6;color:#5E3328;">
+                  <div style="font-size:11px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;color:#9A5444;padding-bottom:6px;">Sur Android</div>
+                  1. Ouvrez le lien ci-dessous dans <b>Chrome</b>.<br>
+                  2. Touchez le menu <b>⋮</b>, en haut à droite.<br>
+                  3. Choisissez <b>« Installer l'application »</b> (ou « Ajouter à l'écran d'accueil »).<br>
+                  4. L'icône apparaît sur votre écran d'accueil&nbsp;: l'app s'ouvre directement.
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="center" style="padding:26px 28px 8px;">
+            <a href="{{LIEN_APP}}"
+               style="display:inline-block;background:#9A5444;color:#FFFFFF;font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:bold;text-decoration:none;padding:15px 30px;border-radius:16px;">
+              Ouvrir l'app
+            </a>
+          </td>
+        </tr>
+        <tr><td style="padding:0 0 24px;"></td></tr>
+      </table>
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:440px;">
+        <tr>
+          <td align="center" style="padding:18px 16px 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#9A5444;">
+            Parentalité consciente, de 0 à 23 mois
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

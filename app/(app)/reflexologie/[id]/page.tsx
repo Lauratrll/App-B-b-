@@ -30,6 +30,7 @@ import {
   slotReflexo,
   texteGras,
 } from "@/components/modules/reflexo-design";
+import { PictoAlerte, PictoDoigt } from "@/components/ui/pictos-trait";
 
 // Écran d'un protocole de « Réflexologie ».
 // Ordre imposé par content/reflexologie/CONSIGNES_CLAUDE_CODE_onglet_reflexologie.md §4 :
@@ -463,7 +464,7 @@ export default async function ProtocoleReflexoPage({
             aria-hidden
             style={{ marginRight: 7 }}
           >
-            ⚠️
+            <PictoAlerte className="inline h-[1.1em] w-[1.1em] align-[-0.2em]" />
           </span>
           {texteGras(protocole.vigilance)}
         </p>
@@ -655,7 +656,7 @@ function EmplacementNote({ zones }: { zones: ReflexoZoneTexte[] }) {
       }}
     >
       <span aria-hidden style={{ marginRight: 6 }}>
-        👆
+        <PictoDoigt className="inline h-[1.1em] w-[1.1em] align-[-0.2em]" />
       </span>
       {/* Capitales via textTransform : à l'écran c'est bien « SUR LE DESSUS DU
           PIED » (choix Laura, l'info est contre-intuitive), mais les lecteurs

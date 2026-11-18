@@ -9,6 +9,7 @@ import {
   GUIDE_TEXT,
   slotForCategorie,
 } from "@/components/modules/guide-design";
+import { PictoBoussole } from "@/components/ui/pictos-trait";
 
 // Page 1 « Guide-moi ! » — grille des catégories du mois.
 // Design : skills/CONSIGNES_CLAUDE_CODE_guide_moi_page1.md (V10), adapté au
@@ -25,9 +26,7 @@ export default async function GuidePage() {
     return (
       <section className="space-y-5">
         <header className="space-y-1">
-          <p className="text-2xl" aria-hidden>
-            🧭
-          </p>
+          <PictoBoussole className="h-8 w-8" />
           <h1 className="text-2xl font-semibold">Guide-moi !</h1>
           <p className="text-sm text-neutral-600">
             {profile.baby_name} a {mois} mois.

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getCurrentSeason, requireProfile } from "@/lib/auth";
 import { getBabyMonth } from "@/lib/utils";
 import { AppMenu } from "@/components/ui/app-menu";
+import { AideInstallationAccueil } from "@/components/ui/installer-app";
 
 // Couleurs conformes au SKILL_ui.md (section "Cases modules — validé").
 // Ordre de la grille arrêté par Laura le 20/10/2026, ligne par ligne :
@@ -40,6 +41,7 @@ export default async function DashboardPage() {
     // En bas : 8 px compensent l'écart du cadre (24 px en haut, 16 px en bas) + 18 px, le tiers
     // des boutons ronds qui dépasse au-dessus de la barre (ROND / 3) : on centre jusqu'à leur sommet.
     <section className="centre-vertical flex flex-1 flex-col justify-center gap-5 pb-[26px]">
+      <AideInstallationAccueil />
       <header className="space-y-1">
         {/* Prénom et âge, et à droite le menu « 3 traits » des réglages (20/10). */}
         <div className="flex items-center justify-between">

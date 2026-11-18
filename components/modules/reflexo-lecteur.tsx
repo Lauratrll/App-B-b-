@@ -21,6 +21,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { texteGras, REFLEXO_FOND_LECTEUR } from "./reflexo-design";
 import type { ReflexoAnimStep } from "@/lib/reflexologie";
+import { PictoDoigt, PictoLecture, PictoPause } from "@/components/ui/pictos-trait";
 
 const SVG_URL = "/reflexologie/pieds_bebe_zones_reflexes.svg";
 const GEOM_URL = "/reflexologie/mouvements-glisse.json";
@@ -2261,7 +2262,7 @@ export function ReflexoLecteur({
               }}
             >
               {/* Capitales via textTransform : voir la note de la page protocole. */}
-              👆 Ce geste se fait{" "}
+              <PictoDoigt className="inline h-[1.1em] w-[1.1em] align-[-0.2em]" /> Ce geste se fait{" "}
               <strong style={{ textTransform: "uppercase" }}>sur le dessus du pied</strong>,
               autour de l&apos;ongle du gros orteil, et non sous la plante.
             </p>
@@ -2320,7 +2321,11 @@ export function ReflexoLecteur({
               aria-label={playing ? "Mettre en pause" : "Lancer la lecture"}
               style={ctlSolid}
             >
-              {playing ? "❚❚" : "▶"}
+              {playing ? (
+                <PictoPause className="block h-[18px] w-[18px]" />
+              ) : (
+                <PictoLecture className="block h-[18px] w-[18px]" />
+              )}
             </button>
             <button
               onClick={goNext}

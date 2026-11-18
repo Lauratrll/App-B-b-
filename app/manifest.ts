@@ -6,7 +6,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "Parentalité consciente",
     short_name: "Parentalité",
     description:
-      "Accompagnement de parentalité consciente pour les parents de bébés de 0 à 24 mois.",
+      "Accompagnement de parentalité consciente pour les parents de bébés de 0 à 23 mois.",
     start_url: "/",
     display: "standalone",
     background_color: "#F2EDE8",

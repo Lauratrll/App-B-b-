@@ -1,0 +1,62 @@
+<!--
+  Email « Mot de passe oublié » (Laura, 18/11/2026) — À VALIDER PAR LAURA.
+  À coller dans Supabase → Authentication → Emails → « Reset password »
+  (onglet Source). Objet : Choisissez un nouveau mot de passe
+  Picto au trait (pas d'emoji) : public/emails/cadenas.png, visible une fois l'app en ligne.
+  Couleurs : slot 2 de Guide-moi (lib/couleurs-inscription.ts).
+  Le lien passe par /auth/confirm puis /nouveau-mot-de-passe.
+-->
+<!doctype html>
+<html lang="fr">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"></head>
+<body style="margin:0;padding:0;background:#F5D0C8;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F5D0C8;">
+  <tr>
+    <td align="center" style="padding:36px 16px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:440px;background:#FBF1EE;border-radius:24px;">
+        <tr>
+          <td align="center" style="padding:36px 28px 8px;">
+            <div style="width:64px;height:64px;border-radius:32px;background:#F3DFD9;"><img src="https://app-b-b-i6ai.vercel.app/emails/cadenas.png" width="32" height="32" alt="" style="display:block;border:0;padding:16px;"></div>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" style="padding:8px 28px 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;color:#9A5444;">
+            Mot de passe oublié
+          </td>
+        </tr>
+        <tr>
+          <td align="center" style="padding:8px 28px 0;font-family:Georgia,'Times New Roman',serif;font-size:26px;font-weight:bold;line-height:1.25;color:#5E3328;">
+            Un nouveau mot de passe
+          </td>
+        </tr>
+        <tr>
+          <td align="center" style="padding:16px 32px 0;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.6;color:#5E3328;">
+            Vous avez demandé à changer votre mot de passe. Touchez le bouton ci-dessous pour en choisir un nouveau.
+          </td>
+        </tr>
+        <tr>
+          <td align="center" style="padding:28px 28px 8px;">
+            <a href="{{ .RedirectTo }}?token_hash={{ .TokenHash }}&type=recovery"
+               style="display:inline-block;background:#9A5444;color:#FFFFFF;font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:bold;text-decoration:none;padding:15px 30px;border-radius:16px;">
+              Choisir mon mot de passe
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" style="padding:20px 32px 32px;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:1.5;color:#9A5444;">
+            Vous n'avez rien demandé ? Ignorez cet email : votre mot de passe reste le même.
+          </td>
+        </tr>
+      </table>
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:440px;">
+        <tr>
+          <td align="center" style="padding:18px 16px 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#9A5444;">
+            Parentalité consciente, de 0 à 23 mois
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

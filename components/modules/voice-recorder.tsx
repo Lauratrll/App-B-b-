@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
+import { PictoMicro, PictoStop, PictoTelecharger } from "@/components/ui/pictos-trait";
 
 type RecorderState = "idle" | "recording" | "stopped" | "denied" | "unsupported";
 
@@ -183,7 +184,7 @@ export function VoiceRecorder({ filename }: { filename?: string }) {
           onClick={startRecording}
           className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-rose-600 px-4 py-3 text-sm font-medium text-white shadow-sm transition-colors hover:bg-rose-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-400"
         >
-          <span aria-hidden>🎙️</span>
+          <PictoMicro className="h-4 w-4" />
           Démarrer l&apos;enregistrement
         </button>
       ) : null}
@@ -194,7 +195,7 @@ export function VoiceRecorder({ filename }: { filename?: string }) {
           onClick={stopRecording}
           className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-neutral-900 px-4 py-3 text-sm font-medium text-white shadow-sm transition-colors hover:bg-neutral-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-500"
         >
-          <span aria-hidden>⏹</span>
+          <PictoStop className="h-4 w-4" />
           Arrêter
         </button>
       ) : null}
@@ -213,7 +214,7 @@ export function VoiceRecorder({ filename }: { filename?: string }) {
               onClick={downloadRecording}
               className="inline-flex flex-1 items-center justify-center gap-1 rounded-full border border-rose-300 bg-white px-3 py-2 text-xs font-medium text-rose-900 hover:bg-rose-100"
             >
-              ⬇ Télécharger
+              <PictoTelecharger className="h-3.5 w-3.5" /> Télécharger
             </button>
             <button
               type="button"

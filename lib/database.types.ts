@@ -14,6 +14,18 @@ export type Database = {
   }
   public: {
     Tables: {
+      codes_activation: {
+        Row: { code: string; actif: boolean; note: string | null; created_at: string }
+        Insert: { code: string; actif?: boolean; note?: string | null; created_at?: string }
+        Update: { code?: string; actif?: boolean; note?: string | null; created_at?: string }
+        Relationships: []
+      }
+      inscriptions: {
+        Row: { user_id: string; email: string | null; nom: string | null; prenom: string | null; code: string; created_at: string }
+        Insert: { user_id: string; email?: string | null; nom?: string | null; prenom?: string | null; code: string; created_at?: string }
+        Update: { user_id?: string; email?: string | null; nom?: string | null; prenom?: string | null; code?: string; created_at?: string }
+        Relationships: []
+      }
       content: {
         Row: {
           categorie: string | null
