@@ -51,7 +51,8 @@ const MONTH_CAT_RE = new RegExp(
 
 async function main() {
   const m = String(MOIS).padStart(2, "0");
-  const dir = join(process.cwd(), "content", `mois-${m}`);
+  // Les fiches vivent dans content/guide-moi/mois-XX depuis le rangement par rubrique.
+  const dir = join(process.cwd(), "content", "guide-moi", `mois-${m}`);
   console.log(`Import surgical du module « guide » — mois ${MOIS}\n`);
 
   if (!existsSync(dir)) {
