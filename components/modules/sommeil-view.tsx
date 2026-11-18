@@ -667,7 +667,7 @@ export function SommeilView({
             marginBottom: sommeil.exergue ? 8 : 0,
           }}
         >
-          Rythme et Rituels
+          Rythmes et Rituels
         </div>
         {sommeil.exergue ? (
           <p

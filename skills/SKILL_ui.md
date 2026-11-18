@@ -517,7 +517,7 @@ Navigation fixe (4 entrées, dont 2 boutons ronds — voir ci-dessus)
 
 | Gauche | Droite |
 |---|---|
-| Sommeil et endormissement — *Rythme et Rituels* (nom du 28/10) | Guide-moi ! |
+| Sommeil et endormissement — *Rythmes et Rituels* (nom du 28/10, pluriel le 18/11) | Guide-moi ! |
 | Gestes d'apaisement — *Boîte à outils* (`/apaisement`, à construire, fond `#E5EBDD`) | Prendre soin / de moi — *Post-partum* (titre sur deux lignes, 26/10) |
 | Réflexologie plantaire | Vivre la saison |
 

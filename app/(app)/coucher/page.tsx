@@ -7,7 +7,7 @@ import { SommeilView } from "@/components/modules/sommeil-view";
 import { SommeilSlots } from "@/components/modules/sommeil-slots";
 import { PictoLune } from "@/components/ui/pictos-trait";
 
-// Page « Sommeil & Endormissement · Rythme et Rituels » (28/10).
+// Page « Sommeil & Endormissement · Rythmes et Rituels » (28/10).
 // ?slot=… : slot ouvert (tranche en slots, pilote M2-M5).
 export default async function CoucherPage({
   searchParams,

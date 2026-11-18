@@ -244,7 +244,7 @@ function Grille({ sommeil }: { sommeil: SommeilMois }) {
     // 29/10 : grille centrée entre le haut de l'écran et la barre du bas (espaces égaux).
     <div style={{ flex: 1, display: "flex", flexDirection: "column", padding: "0 16px 8px" }}>
       <div aria-hidden style={{ flex: 1 }} />
-      <Entete picto={null} titre="Sommeil & Endormissement" sousTitre="Rythme et Rituels" />
+      <Entete picto={null} titre="Sommeil & Endormissement" sousTitre="Rythmes et Rituels" />
       {/* 29/10 : mêmes cartes que la page 1 de Guide-moi (taille, rond, flèche à droite).
           La tranche d'âge suit le titre sur la même ligne : « Fin de journée / 2 À 5 MOIS ». */}
       <ul

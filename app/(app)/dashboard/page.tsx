@@ -119,7 +119,7 @@ export default async function DashboardPage() {
       </header>
 
       <div className="flex flex-col gap-3">
-        <CaseAccueil c={CASES.sommeil} subtitle="Rythme et rituels" hauteur={H_GRANDE} grand />
+        <CaseAccueil c={CASES.sommeil} subtitle="Rythmes et rituels" hauteur={H_GRANDE} grand />
         <div className="grid grid-cols-2 gap-3">
           {/* Guide-moi prend la hauteur des deux cases de droite. */}
           <CaseAccueil c={CASES.guide} subtitle="Protocoles" grand />
