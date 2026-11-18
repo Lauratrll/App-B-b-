@@ -1,8 +1,9 @@
 "use client";
 
+import Link from "next/link";
 import { useMemo, useState } from "react";
 import { alertesDeclenchees, analyserSignaux, estValable, forceIndices } from "@/lib/signaux-bebe";
-import type { Carte, ContenuSignaux, SourceRef } from "@/lib/signaux-bebe-contenu";
+import { carteAgee, type Carte, type ContenuSignaux, type SourceRef } from "@/lib/signaux-bebe-contenu";
 
 // ----------------------------------------------------------------------------
 // « Que me dit bébé ? » : les écrans (maquette validée par Laura le 05/11/2026).
@@ -39,7 +40,7 @@ const LABEL: React.CSSProperties = {
 };
 
 const AGE_MIN = 0;
-const AGE_MAX = 23;
+const AGE_MAX = 11; // Laura 18/11 : dès 12 mois, l'outil n'est plus proposé (Guide-moi prend le relais)
 
 type Props = { contenu: ContenuSignaux; ageProfil: number };
 
@@ -319,6 +320,24 @@ function Refs({ n }: { n: number[] }) {
   );
 }
 
+/** « SOS » dans un texte d'alerte devient un lien vers la rubrique SOS (Laura, 18/11/2026). */
+function TexteAvecSos({ texte }: { texte: string }) {
+  const morceaux = texte.split(/\b(SOS)\b/);
+  return (
+    <>
+      {morceaux.map((m, i) =>
+        m === "SOS" ? (
+          <Link key={i} href="/sos" style={{ color: "inherit", textDecoration: "underline", textUnderlineOffset: 2 }}>
+            SOS
+          </Link>
+        ) : (
+          <span key={i}>{m}</span>
+        ),
+      )}
+    </>
+  );
+}
+
 function ListeAlertes({ alertes, refs }: { alertes: ContenuSignaux["alertes"]; refs: number[][] }) {
   return (
     <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: 8 }}>
@@ -326,7 +345,7 @@ function ListeAlertes({ alertes, refs }: { alertes: ContenuSignaux["alertes"]; r
         <li key={a.situation} style={{ fontSize: 13, lineHeight: 1.45 }}>
           <span>{a.situation}</span>
           <Refs n={refs[i] ?? []} />
-          <span style={{ display: "block", fontWeight: 600, color: C.corailFonce }}>{a.a_dire}</span>
+          <span style={{ display: "block", fontWeight: 600, color: C.corailFonce }}><TexteAvecSos texte={a.a_dire ?? ""} /></span>
         </li>
       ))}
     </ul>
@@ -445,6 +464,17 @@ function Indices({ n }: { n: number }) {
   );
 }
 
+/** Une étape « Amorce : suite » : l'amorce (avant le premier deux-points) est en gras. */
+function Geste({ texte }: { texte: string }) {
+  const m = texte.match(/^([^:\u00a0]{2,60}?)[\u00a0 ]?:\s+([\s\S]*)$/);
+  if (!m) return <>{texte}</>;
+  return (
+    <>
+      <strong style={{ fontWeight: 700, color: C.texte }}>{m[1]}&nbsp;:</strong> {m[2]}
+    </>
+  );
+}
+
 function CarteHypothese({
   rang,
   carte,
@@ -499,7 +529,7 @@ function CarteHypothese({
                   {i + 1}
                 </span>
                 <span>
-                  {g}
+                  <Geste texte={g} />
                   {i === carte.gestes.length - 1 ? <Refs n={refs.gestes} /> : null}
                 </span>
               </li>
@@ -575,7 +605,7 @@ function EcranResultat({
   const declenchees = alertesDeclenchees(contenu, age, coches);
   const refsAppel = declenchees.map((a) => ref(a.sources));
   const cartes = resultat.top3
-    .map((c) => ({ c, carte: contenu.cartes[c.piste.code] }))
+    .map((c) => ({ c, carte: contenu.cartes[c.piste.code] ? carteAgee(contenu.cartes[c.piste.code], contenu.cartesParAge[c.piste.code], age) : undefined }))
     .filter((x): x is { c: (typeof resultat.top3)[number]; carte: Carte } => Boolean(x.carte));
   const refsCartes = cartes.map(({ carte }) => ({
     sens: ref(carte.sources_sens),

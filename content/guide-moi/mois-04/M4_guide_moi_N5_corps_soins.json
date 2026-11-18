@@ -40,26 +40,24 @@
       },
       "pour_aller_plus_loin": [
         "Préférer les matières au bruit : bois, tissu, silicone, tout ce qui donne une information à la main.",
-        "Limiter transat et coque : ils immobilisent le corps et empêchent la préhension libre.",
         "Vérifier les dimensions : tout ce qui passe dans un rouleau de papier toilette peut être avalé.",
         "Se rappeler la fourchette : la préhension volontaire se construit sur plusieurs mois, chaque enfant à son rythme."
       ],
       "principe": "Une compétence motrice s'acquiert dans les essais ratés, pas dans les réussites offertes. Ce qui ressemble à de la maladresse est en réalité le travail lui-même.",
       "erreurs_a_eviter": [
-        "Refermer sa main sur l'objet à sa place.",
-        "Guider ou corriger son geste.",
-        "Changer de proposition dès qu'il rate : la répétition est justement ce qui fait progresser.",
-        "Le laisser de longues heures en transat, mains inaccessibles."
+        "Refermer sa main sur l'objet à sa place : il obtient l'objet, mais n'apprend rien.",
+        "Guider ou corriger son geste : il perd le fil de son propre essai.",
+        "Changer de proposition dès qu'il rate : la répétition est ce qui le fait progresser."
       ],
-      "consulter_si": "Consulter si : bébé ne tend jamais la main vers un objet vers cinq mois, ne suit pas un objet du regard, n'ouvre pas les mains, paraît anormalement mou ou raide, ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre ou PMI, qui orientera si nécessaire vers un kinésithérapeute pédiatrique ou un psychomotricien.",
+      "consulter_si": "Consulter si : bébé ne tend jamais la main vers un objet vers 5 mois, n'ouvre pas les mains, ou paraît anormalement mou ou raide → pédiatre ou PMI.",
       "source": "Source : mpedia.fr (Association Française de Pédiatrie Ambulatoire), le développement moteur du bébé de 0 à 6 mois."
     },
     {
       "categorie": "corps",
-      "situation": "La tête plate d'un côté / Sa tête reste plate malgré les changements",
+      "situation": "La tête plate d'un côté / Elle reste plate malgré tout",
       "titre": "Quand varier les positions ne suffit plus",
       "explication": "Tu as alterné les positions, changé l'orientation du lit, varié les sollicitations, et la zone plate est toujours là, voire s'accentue. Posons le seuil clairement : le repositionnement est le premier geste, et il fonctionne souvent. Mais quand il ne suffit pas, la bonne réponse n'est pas de persévérer plus longtemps ni de bricoler à la maison. C'est de consulter, et sans attendre : le crâne est très malléable à cet âge, et plus la prise en charge est précoce, plus elle est simple et efficace.",
-      "ancrage": "Persévérer seul.e n'est pas la bonne réponse quand la variation ne suffit pas. Consulter tôt est le geste le plus efficace, et cela ne veut pas dire que tu as mal fait.",
+      "ancrage": "Consulter tôt est le geste le plus efficace, et cela ne veut pas dire que tu as mal fait.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -68,7 +66,7 @@
           "Prendre rendez-vous : chez le pédiatre ou le médecin traitant, sans attendre. C'est de loin le geste le plus important.",
           "Continuer la variation : alterner l'orientation dans le lit, le côté du portage, le côté des sollicitations.",
           "Multiplier le temps sur le ventre, éveillé et surveillé : plusieurs fois par jour. C'est ce qui soulage le plus l'appui du crâne.",
-          "Réduire drastiquement transat et coque : ils maintiennent la tête dans la même position.",
+          "Limiter transat et coque : ils maintiennent la tête dans la même position.",
           "Aucun cale-tête, aucun coussin de positionnement : ces dispositifs augmentent le risque d'étouffement."
         ]
       },
@@ -87,22 +85,20 @@
       "pour_aller_plus_loin": [
         "Se laisser du temps après la consultation : la correction se joue sur plusieurs mois, pas sur quelques jours.",
         "Se laisser orienter : le pédiatre peut adresser à un kinésithérapeute pédiatrique, c'est un parcours banal.",
-        "Continuer le couchage sur le dos : cette règle ne se discute pas ; c'est la variation, pas la position de sommeil, qui est le levier.",
-        "Se déculpabiliser : une zone plate n'est pas la preuve que tu as mal fait."
+        "Continuer le couchage sur le dos : cette règle ne se discute pas ; c'est la variation, pas la position de sommeil, qui est le levier."
       ],
       "principe": "Sur un crâne de nourrisson, le temps est le facteur qui décide de tout. Chaque semaine gagnée rend la correction plus simple, et aucune ne se rattrape ensuite.",
       "erreurs_a_eviter": [
-        "Attendre plusieurs mois « pour voir si ça se corrige tout seul ».",
-        "Se dire qu'une zone plate « se verra moins avec les cheveux ».",
-        "Coucher bébé sur le côté ou sur le ventre pour soulager l'appui.",
-        "Tourner ou maintenir la tête de bébé de force."
+        "Attendre plusieurs mois « pour voir si ça se corrige tout seul » : plus on regarde tôt, plus c'est simple.",
+        "Coucher bébé sur le côté ou sur le ventre pour soulager l'appui : le dos reste la seule position sûre.",
+        "Tourner ou maintenir la tête de bébé de force : cela peut le blesser."
       ],
-      "consulter_si": "Consulter si : l'aplatissement persiste ou s'accentue malgré la variation des positions, si tu observes une asymétrie du visage ou des oreilles, si bébé résiste ou paraît gêné quand tu l'orientes d'un côté, ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre ou médecin traitant sans tarder, qui orientera vers un kinésithérapeute pédiatrique si nécessaire.",
+      "consulter_si": "Consulter si : l'aplatissement persiste ou s'accentue malgré la variation, si le visage ou les oreilles paraissent asymétriques, ou si bébé résiste quand tu l'orientes d'un côté → pédiatre ou médecin traitant, qui orientera si besoin.",
       "source": "Source : Haute Autorité de Santé, « Prévenir la tête plate : conseils aux parents »."
     },
     {
       "categorie": "corps",
-      "situation": "La peau sèche / Il a des plaques rugueuses qui tiraillent",
+      "situation": "La peau sèche / Des plaques rugueuses qui tiraillent",
       "titre": "La même routine, tous les jours",
       "explication": "Des plaques sèches, rugueuses, parfois rouges, apparaissent sur les joues, les bras, les jambes. La peau du nourrisson est fine, sa barrière cutanée immature, et elle perd l'eau plus vite que la nôtre. La réponse tient en un mot : hydrater, régulièrement, avec un produit simple, sans parfum. Ce qui aggrave la situation : les bains longs et chauds, les savons décapants, la multiplication des produits, et surtout les remèdes maison. Une plaque qui s'étend, qui démange ou qui suinte se fait examiner, plutôt que se traiter au hasard.",
       "ancrage": "Sa peau n'est pas abîmée, elle est encore en construction. Ce qu'elle demande est ennuyeux et efficace : la même chose, tous les jours.",
@@ -133,22 +129,20 @@
       "pour_aller_plus_loin": [
         "Choisir un produit simple : plus la liste d'ingrédients est courte, mieux la peau se porte.",
         "Éviter les huiles essentielles : contre-indiquées chez le nourrisson, y compris en diffusion.",
-        "Éviter l'huile d'amande douce : elle peut sensibiliser bébé et favoriser une allergie à l'amande.",
         "Habiller en coton : éviter la laine à même la peau et les matières synthétiques."
       ],
       "principe": "Une barrière cutanée immature se répare par la régularité, pas par la richesse du produit. C'est le même geste, répété, qui la répare, et c'est presque toujours ce qu'on ajoute qui l'abîme.",
       "erreurs_a_eviter": [
-        "Multiplier les crèmes et les produits « spécial bébé ».",
+        "Multiplier les crèmes et les produits « spécial bébé » : cela fragilise une peau déjà immature.",
         "Utiliser des remèdes maison : huiles végétales non adaptées, huiles essentielles, préparations trouvées en ligne.",
-        "Appliquer une crème à la cortisone sans avis médical.",
-        "Donner des bains longs et chauds tous les jours."
+        "Donner des bains longs et chauds tous les jours : cela dessèche davantage."
       ],
-      "consulter_si": "Consulter si : les plaques s'étendent, démangent visiblement, suintent, saignent, se couvrent de croûtes jaunâtres ou de pus, si bébé dort mal ou se gratte, ou s'il présente de la fièvre → pédiatre ou médecin traitant. Une peau très sèche et qui démange chez un nourrisson mérite un avis : il existe des soins efficaces, mais ils se décident avec un médecin, ils ne s'improvisent pas.",
+      "consulter_si": "Consulter si : les plaques s'étendent, démangent, suintent, saignent ou se couvrent de croûtes jaunâtres, ou si bébé dort mal, se gratte ou a de la fièvre → pédiatre ou médecin traitant.",
       "source": "Source : ameli.fr (Assurance Maladie), peau sèche et dermatite atopique de l'enfant : soins quotidiens et quand consulter."
     },
     {
       "categorie": "corps",
-      "situation": "Le change qui devient un combat / Il se tortille et refuse d'être allongé",
+      "situation": "Le change en combat / Il se tortille et refuse",
       "titre": "Lui donner un rôle pendant le change",
       "explication": "Le change était un moment simple, et c'est devenu une lutte : il se cambre, se retourne, hurle. Rien de mystérieux, à quatre mois, il a découvert qu'il peut bouger, et rester allongé sans rien faire est devenu insupportable. Il ne s'oppose pas à toi : il s'oppose à l'immobilité. La réponse n'est pas de le tenir plus fermement, ce qui transforme le change en rapport de force quotidien. C'est de lui donner quelque chose à faire, un objet dans les mains, un échange, un rôle.",
       "ancrage": "Il ne refuse pas le change, il refuse de ne rien faire. Et s'agacer six fois par jour sur une table à langer n'a rien d'anormal : c'est une situation qui use, pas un défaut de patience. Lui donner un rôle vaut mieux que lui tenir les jambes.",
@@ -179,17 +173,15 @@
       "pour_aller_plus_loin": [
         "Réduire le nombre de changes forcés : changer aux moments où il est calme, pas juste après une sieste ou un jeu excitant.",
         "Faire tourner l'objet du change : un objet toujours nouveau garde son pouvoir d'attention.",
-        "Passer le relais : le co-parent a souvent une autre dynamique, cela suffit parfois à débloquer.",
-        "Poser bébé au sol si la tension monte : un change peut attendre 1 minute, le temps de souffler."
+        "Passer le relais : le co-parent a souvent une autre dynamique, cela suffit parfois à débloquer."
       ],
       "principe": "À partir du moment où un bébé peut agir, l'immobilité imposée devient une contrainte. Presque tous les bras de fer du quotidien se dénouent en lui rendant quelque chose à faire.",
       "erreurs_a_eviter": [
-        "Le maintenir de force pour finir le change.",
-        "Le soulever par les chevilles : dangereux pour ses hanches.",
-        "Changer en hauteur maintenant qu'il se retourne : le sol est plus sûr.",
-        "Transformer le change en affrontement quotidien."
+        "Le maintenir de force pour finir le change : la lutte s'installe chaque jour.",
+        "Le soulever par les chevilles : mieux vaut glisser une main sous son siège.",
+        "Changer en hauteur maintenant qu'il se retourne : le sol est plus sûr."
       ],
-      "consulter_si": "Consulter si : bébé pleure de douleur au change de façon répétée, si tu observes une gêne quand tu mobilises ses hanches ou ses jambes, une asymétrie des plis, une raideur permanente, ou s'il refuse tout contact → pédiatre ou médecin traitant. En cas de chute de la table à langer : appeler le 15 ou consulter en urgence, même si bébé semble aller bien."
+      "consulter_si": "Consulter si : bébé pleure de douleur au change de façon répétée, ou si tu observes une gêne quand tu mobilises ses hanches ou ses jambes → pédiatre ou médecin traitant."
     },
     {
       "categorie": "corps",
@@ -217,25 +209,65 @@
           "Le redresser tout de suite : contre toi, vertical, quelques instants.",
           "Un temps de contact : sans parler, sans reproche, sans commentaire.",
           "Choisir les bons moments : avant les prises et avant le coucher, là où le bénéfice est réel.",
-          "S'en tenir à quelques lavages par jour : aux moments utiles, avant la tétée et avant le coucher.",
           "Aucun produit dans le nez : ni huile, ni pommade, ni spray décongestionnant."
         ]
       },
       "pour_aller_plus_loin": [
         "Utiliser des dosettes à usage unique : jetées après chaque narine, jamais réutilisées.",
-        "Observer la respiration plutôt que le bruit : une respiration rapide, sifflante, avec creusement entre les côtes ou battement des ailes du nez, est un signal d'appel.",
-        "Vérifier les prises : un bébé qui lâche le sein ou le biberon pour respirer et qui boit moins doit être vu.",
+        "Observer la respiration plutôt que le bruit : un nez bouché fait du bruit sans gêner la respiration.",
         "Éviter la fumée : le tabagisme dans l'environnement aggrave l'encombrement et les risques respiratoires."
       ],
       "principe": "Un geste désagréable devient supportable quand il est prévisible et qu'il est court. Négocier l'allonge, l'annoncer l'abrège.",
       "erreurs_a_eviter": [
         "Utiliser un mouche-bébé de façon répétée et agressive : cela irrite la muqueuse et fait saigner.",
-        "Introduire un coton-tige ou un objet dans le nez.",
-        "Donner un sirop ou un décongestionnant : contre-indiqués chez le nourrisson.",
-        "Renoncer au lavage alors que bébé ne peut plus téter ni dormir correctement."
+        "Introduire un coton-tige ou un objet dans le nez : il peut blesser la muqueuse.",
+        "Renoncer au lavage alors que bébé ne tète plus ni ne dort correctement : la gêne s'installe."
       ],
-      "consulter_si": "Consulter si : bébé respire vite, siffle, creuse entre les côtes, bat des ailes du nez, change de couleur, marque des pauses respiratoires ; s'il refuse de boire ou boit beaucoup moins ; s'il a de la fièvre ; ou s'il paraît anormalement mou → appeler le 15 en cas de gêne respiratoire, et le pédiatre sans délai dans les autres cas.",
+      "consulter_si": "Consulter si : bébé respire vite, siffle, creuse entre les côtes, boit beaucoup moins ou a de la fièvre → pédiatre sans délai ; gêne respiratoire franche → le 15.",
       "source": "Source : ameli.fr (Assurance Maladie), comment pratiquer un lavage de nez chez un enfant."
+    },
+    {
+      "categorie": "corps",
+      "situation": "Le portage face au monde / Il veut voir, je le tourne ?",
+      "titre": "Lui montrer le monde sans le tourner",
+      "explication": "À 4 mois, ton bébé tient sa tête et veut tout voir, alors le tourner vers l'avant paraît naturel. Ce n'est pas interdit, mais ce n'est pas la position conseillée avant 6 mois pour ses hanches.¹ Tourné vers l'avant, il ne peut plus se blottir contre toi quand il en a assez, il reçoit tout de face sans pouvoir s'en détourner, et son dos n'est plus arrondi. Face à toi, il voit déjà beaucoup et garde ton visage pour se rassurer.",
+      "ancrage": "Le voir si curieux te donne envie de lui offrir le monde entier, et c'est un très bon réflexe. Tu n'as rien à te reprocher si tu l'as déjà tourné : tu peux changer de position dès aujourd'hui.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : lui donner à voir, autrement",
+        "etapes": [
+          "Le garder face à toi : joue contre ta poitrine, tête tournée sur le côté, il voit autour de lui et peut se réfugier contre toi.",
+          "Orienter ton corps : tourne-toi vers ce qu'il veut regarder ou penche-toi légèrement, il suit ton regard sans que tu le retournes.",
+          "Le sortir un moment : au sol sur le dos, ou contre ton épaule, il regarde librement et bouge à son rythme.",
+          "Lui décrire ce qu'il voit : ta voix lui donne un point d'attache, il sait que tu es là même sans te voir.",
+          "Surveiller sa fatigue : s'il détourne la tête, ferme les yeux ou s'agite, il a assez vu, un temps de calme lui fera du bien."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Observer bébé : ce qui l'attire",
+        "etapes": [
+          "Regarder ce qui l'attire : un visage, un objet, une lumière, et avance doucement pour qu'il le voie sans que tu le retournes.",
+          "Faire des pauses : quand il tourne la tête vers toi, arrête-toi, souris-lui et laisse-le se blottir un moment.",
+          "Le tenir contre ton épaule : il regarde par-dessus, une main sous ses fesses et l'autre dans son dos, tête soutenue.",
+          "Choisir des endroits calmes : un parc ou une rue tranquille suffisent, trop de monde ou de bruit le fatigue vite."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Choisir un porte-bébé polyvalent : un modèle qui permet le portage face à toi évite de dépendre d'une seule position.",
+        "Reposer la question vers ses 6 mois : la recommandation porte sur les six premiers mois, la suite se voit avec ton porte-bébé et un professionnel du portage.",
+        "Le poser plus souvent : pour regarder, un bébé gagne à être au sol ou tenu à bras, plus qu'à rester longtemps porté."
+      ],
+      "principe": "Un bébé curieux n'a pas besoin de tourner le dos à ses parents pour voir le monde. Tant que son refuge reste contre toi, il peut regarder autant qu'il veut.",
+      "erreurs_a_eviter": [
+        "Le tourner vers l'extérieur pour l'apaiser : il ne peut plus chercher ton visage.",
+        "Le laisser longtemps ainsi : la fatigue s'ajoute vite, sans qu'il puisse s'en couper.",
+        "Acheter un porte-bébé uniquement pour cette position : choisis un modèle qui porte aussi face à toi."
+      ],
+      "consulter_si": "Consulter si : il pleure à chaque installation, se cambre de façon répétée ou devient raide en permanence → pédiatre. S'il change de couleur ou respire avec difficulté pendant le portage → le 15.",
+      "source": "Source : ¹ position du portage et hanches : International Hip Dysplasia Institute, « Baby Wearing », page mise à jour en mars 2025."
     }
   ]
 }

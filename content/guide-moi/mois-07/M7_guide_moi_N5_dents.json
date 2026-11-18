@@ -10,56 +10,10 @@
   "protocoles": [
     {
       "categorie": "dents",
-      "situation": "La peau déjà abîmée / Son menton est craquelé et suinte",
-      "titre": "Quand la barrière est rompue",
-      "explication": "Ce n'est plus une rougeur : la peau est craquelée, elle suinte par endroits, elle peut saigner un peu quand il tourne la tête. À ce stade, la barrière cutanée est rompue, et deux choses changent. D'abord, les gestes qui suffisaient jusque-là, tamponner et hydrater, ne suffisent plus seuls. Ensuite, une peau ouverte peut se surinfecter, ou révéler autre chose qu'une irritation de salive, un eczéma par exemple. Ce n'est plus une question de routine, c'est une consultation, et elle ne se remplace ni par une crème choisie en pharmacie ni par un conseil lu en ligne.",
-      "ancrage": "Une peau qui suinte a dépassé le stade des gestes du quotidien. Continuer à hydrater sans avis, c'est perdre du temps sur quelque chose qui se règle vite quand c'est vu.",
-      "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate : protéger en attendant l'avis",
-        "etapes": [
-          "Nettoyer à l'eau tiède : sans savon, une fois par jour.",
-          "Sécher en tamponnant : jamais en frottant, en insistant sous le menton.",
-          "Appliquer un émollient simple : sans parfum, et seulement sur les zones non ouvertes.",
-          "Changer bavoir et vêtements : dès qu'ils sont humides.",
-          "Prendre rendez-vous cette semaine : médecin traitant, pédiatre ou PMI."
-        ]
-      },
-      "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
-        "titre": "Protéger sans irriter",
-        "etapes": [
-          "Appliquer avant les phases de bave : une barrière protège mieux qu'elle ne répare.",
-          "Application lente : à mains réchauffées, pression douce et constante, sans frotter.",
-          "Laisser respirer : quelques minutes sans bavoir, à l'air libre.",
-          "Un bavoir en coton : changé souvent, plutôt qu'une peau constamment humide.",
-          "S'arrêter s'il se crispe : le soin doit rester bref."
-        ]
-      },
-      "pour_aller_plus_loin": [
-        "Photographier la zone : l'évolution sur quelques jours aide beaucoup le professionnel.",
-        "N'appliquer aucune crème médicamenteuse sans avis : ni cortisone, ni antifongique, ni antibiotique local.",
-        "Écarter les huiles essentielles : elles sont contre-indiquées chez le nourrisson.",
-        "Vérifier les plis du cou : l'humidité y stagne, et c'est souvent là que cela s'aggrave en premier."
-      ],
-      "principe": "Une peau rouge se protège, une peau ouverte se fait examiner. Ce n'est pas une question de gravité ressentie, c'est une question de barrière : dès qu'elle est rompue, le relais est médical.",
-      "erreurs_a_eviter": [
-        "Empiler les produits pour trouver celui qui marche : plus la liste s'allonge, moins on sait ce qui irrite.",
-        "Appliquer une crème donnée pour un autre enfant : une peau ouverte ne pardonne pas l'approximation.",
-        "Attendre que cela passe parce que « ce sont les dents » : la dent n'a rien à voir avec la peau.",
-        "Frotter pour nettoyer une zone qui suinte : le frottement retire ce qui reste de barrière."
-      ],
-      "consulter_si": "Consulter si : la peau suinte, saigne, se couvre de croûtes jaunâtres, si des zones apparaissent ailleurs que sur le menton, si bébé a de la fièvre, ou si rien ne s'améliore en quelques jours malgré les soins → médecin traitant, pédiatre ou PMI.",
-      "source": "Source : ameli.fr (Assurance Maladie), peau sèche et irritations de l'enfant : soins quotidiens et quand consulter."
-    },
-    {
-      "categorie": "dents",
-      "situation": "La percée de la première dent / Sa gencive est gonflée, ses nuits agitées",
-      "titre": "Quelques jours, pas des semaines",
-      "explication": "La gencive est gonflée, tendue, blanchâtre au sommet : la dent va percer. Cette phase de percée est réellement inconfortable, mais elle est courte : quelques jours, pas des semaines. C'est important, parce que « les dents » servent ensuite d'explication universelle à tous les réveils pendant des mois. Ce qui soulage : le froid, la pression, la patience. Et pour tout le reste, tout ce qui s'applique ou se met dans sa bouche, la bonne personne à qui demander est le pharmacien.",
-      "ancrage": "Une percée dure quelques jours, pas des semaines. Le froid et la pression soulagent ; pour tout produit, demande avant d'appliquer.",
+      "situation": "La première dent / Gencive gonflée, nuits agitées",
+      "titre": "Soulager sans produit",
+      "explication": "La gencive est gonflée, tendue, blanchâtre au sommet : la dent va percer. Cette phase est réellement inconfortable. Ce qui soulage : le froid, la pression douce, la présence. Et pour tout ce qui s'applique ou se met dans sa bouche, la bonne personne à qui demander est le pharmacien.",
+      "ancrage": "Le froid et la pression soulagent ; pour tout produit, demande avant d'appliquer.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -69,45 +23,36 @@
           "Un linge propre et frais : humidifié, à mordiller sous surveillance.",
           "Une pression du doigt propre : quelques secondes sur la gencive, sans forcer.",
           "Proposer des aliments frais : purée sortie du réfrigérateur, le froid soulage.",
-          "Accepter quelques nuits difficiles : elles sont limitées dans le temps."
+          "Accepter quelques nuits difficiles : cela passe."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Traverser la percée",
-        "etapes": [
-          "Beaucoup de contact : le portage et la présence apaisent plus que n'importe quel remède.",
-          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
-          "Suivre la séquence « Poussées dentaires » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Un rituel de coucher inchangé : la stabilité rassure pendant une phase inconfortable.",
-          "Protéger la peau du menton : la bave augmente pendant la percée.",
-          "S'arrêter s'il se crispe : le geste doit rester agréable."
-        ],
+        "titre": "Réflexologie : poussées dentaires",
+        "etapes": [],
         "lien_reflexologie": {
           "id": "dents",
           "titre": "Poussées dentaires"
         }
       },
       "pour_aller_plus_loin": [
-        "Noter les vraies dates : trois ou quatre nuits difficiles, pas trois semaines, c'est le repère qui évite d'attribuer tout aux dents.",
         "Demander au pharmacien avant tout produit : gels, granules ou sirops, il connaît ce qui convient à son âge.",
-        "Ne pas attribuer une fièvre aux dents : une fièvre a toujours une autre cause, et elle se fait examiner.",
-        "Commencer le brossage : dès la première dent, avec une brosse adaptée et un dentifrice fluoré au dosage indiqué par le professionnel."
+        "Commencer le brossage : dès la première dent, avec une brosse adaptée et un dentifrice fluoré au dosage indiqué par le professionnel.",
+        "Garder un rituel de coucher inchangé : la stabilité rassure pendant une phase inconfortable."
       ],
-      "principe": "Une percée dure quelques jours. Le froid et la pression soulagent, et une fièvre ne s'explique jamais par les dents : elle se fait examiner.",
+      "principe": "Le froid et la pression soulagent : pour tout le reste, le pharmacien.",
       "erreurs_a_eviter": [
         "Donner un antalgique de ta propre initiative : la dose et le produit se décident avec un professionnel.",
-        "Appliquer un produit sur la gencive sans avis : demande au pharmacien avant.",
-        "Mettre un anneau de dentition au congélateur.",
-        "Attribuer une fièvre, une diarrhée ou des pleurs intenses aux dents."
+        "Mettre un anneau de dentition au congélateur : le froid extrême brûle.",
+        "Attribuer une fièvre, une diarrhée ou des pleurs intenses aux dents : une autre cause reste à chercher."
       ],
-      "consulter_si": "Consulter si : bébé a de la fièvre, refuse de boire, présente des plaques blanches dans la bouche, une éruption qui s'étend, une gencive qui saigne abondamment, ou paraît anormalement mou → pédiatre ou médecin traitant sans délai. Une fièvre ne s'explique jamais par les dents.",
-      "source": "Source : ameli.fr (Assurance Maladie), poussées dentaires : symptômes, soulagement et quand consulter."
+      "consulter_si": "Consulter si : bébé refuse de boire, a une gencive qui saigne beaucoup, des plaques blanches dans la bouche, ou une fièvre qui dure → pédiatre ou médecin traitant.",
+      "source": "Source : Santé.fr, « Poussée dentaire » ; UFSBD (Union française pour la santé bucco-dentaire), le brossage dès la première dent."
     },
     {
       "categorie": "dents",
-      "situation": "La morsure qui recommence / Il mord et il guette ma réaction",
+      "situation": "La morsure qui recommence / Il mord, puis me guette",
       "titre": "Une réaction neutre, toujours la même",
       "explication": "À cinq mois, la morsure était une gencive qui cherchait un appui. À sept mois, les dents sont sorties et quelque chose s'ajoute : il a découvert que mordre déclenche une réaction spectaculaire, un sursaut, un cri, un visage. Désormais il regarde ce qui se passe. À partir de là, plus la réaction est expressive, plus le geste se répète. Ce qui casse la boucle n'est pas la fermeté, c'est la platitude : le même geste neutre, la même phrase courte, la même interruption brève, à chaque fois. C'est la prévisibilité qui rend la morsure inintéressante.",
       "ancrage": "Il ne cherche pas à te faire mal, il cherche à voir ce qui arrive. Ce que tu retires, ce n'est pas ton attention, c'est le spectacle.",
@@ -138,64 +83,16 @@
       "pour_aller_plus_loin": [
         "Repérer le moment : la morsure arrive presque toujours en fin de tétée, quand il n'a plus faim.",
         "Faire vérifier ta poitrine : une douleur ou une crevasse qui persiste se montre à une sage-femme, une consultante en lactation (IBCLC) ou la PMI.",
-        "Soulager la gencive à distance des tétées : un anneau frais, jamais sorti du congélateur, une dizaine de minutes avant.",
-        "Se rappeler l'échéance : la plupart des bébés cessent en deux à trois semaines quand la réaction reste constante."
+        "Soulager la gencive à distance des tétées : un anneau frais, jamais sorti du congélateur, une dizaine de minutes avant."
       ],
       "principe": "Une réaction forte enseigne, une réaction plate n'enseigne rien, et c'est exactement ce qu'on veut ici. Un geste qui ne produit plus d'effet finit par s'éteindre de lui-même.",
       "erreurs_a_eviter": [
         "Réagir fort une fois sur deux : l'irrégularité entretient le geste bien plus que la sévérité.",
         "Rire ou faire une grimace amusante : la morsure devient un jeu à refaire.",
-        "Décider d'arrêter l'allaitement dans la semaine qui suit : cette décision se prend au calme, pas sous le coup de la douleur.",
-        "Laisser le sein en bouche alors qu'il joue et ne tète plus : c'est exactement là que la morsure arrive."
+        "Décider d'arrêter l'allaitement dans la semaine qui suit : cette décision se prend au calme, pas sous le coup de la douleur."
       ],
-      "consulter_si": "Consulter si : ta poitrine reste douloureuse plus de 48 heures, si une crevasse saigne, si tu as de la fièvre ou une zone rouge et dure, ou si l'envie d'arrêter s'installe alors que tu ne le souhaites pas → sage-femme, consultante en lactation (IBCLC) ou médecin.",
+      "consulter_si": "Consulter si : ta poitrine reste douloureuse, si une crevasse saigne ou persiste, ou si tu as de la fièvre ou une zone rouge et dure → sage-femme, consultante en lactation (IBCLC) ou médecin.",
       "source": "Source : Haute Autorité de Santé, « Allaitement maternel : mise en œuvre et poursuite dans les 6 premiers mois de vie de l'enfant »."
-    },
-    {
-      "categorie": "dents",
-      "situation": "La gencive bleutée / Il a une petite boule sombre sur la gencive",
-      "titre": "Une bulle avant la dent",
-      "explication": "Une petite boule bleutée ou violacée apparaît sur la gencive, là où la dent va percer. C'est impressionnant, et cela ressemble à un hématome. Il s'agit le plus souvent d'un kyste d'éruption : une petite poche de liquide qui se forme au-dessus de la dent en train de sortir. C'est bénin, cela ne demande aucun geste, et cela disparaît de soi-même quand la dent perce. Le savoir évite deux choses : une panique inutile, et surtout un geste dangereux, à savoir percer, inciser, ou frotter énergiquement.",
-      "ancrage": "Cette boule impressionne, et elle est bénigne. Ce qui compte, c'est de ne rien faire, et surtout pas de la percer.",
-      "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate : ne rien faire",
-        "etapes": [
-          "Ne pas percer, ne pas inciser, ne rien introduire : jamais, en raison du risque d'infection et de lésion.",
-          "Ne pas frotter énergiquement : la gencive est fragile.",
-          "Soulager comme pour une percée : froid, pression douce, patience.",
-          "Observer : cela disparaît en général quand la dent perce.",
-          "Montrer au professionnel : si tu as le moindre doute sur l'aspect."
-        ]
-      },
-      "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
-        "titre": "Le confort de la gencive",
-        "etapes": [
-          "Un anneau réfrigéré : sorti du réfrigérateur, jamais du congélateur.",
-          "Un linge propre et frais : à mordiller sous surveillance.",
-          "Une pression du doigt propre : quelques secondes, sans forcer, à distance de la bulle.",
-          "Des aliments frais : purée sortie du réfrigérateur.",
-          "S'arrêter s'il se crispe : le geste doit rester agréable."
-        ]
-      },
-      "pour_aller_plus_loin": [
-        "Se rappeler que c'est bénin : cela évolue seul, sans traitement.",
-        "Demander avant d'appliquer quoi que ce soit : sur une gencive gonflée, le pharmacien est le bon interlocuteur.",
-        "Montrer au professionnel si l'aspect change : gonflement important, rougeur qui s'étend, pus.",
-        "Distinguer de la fièvre : une fièvre ne s'explique jamais par les dents."
-      ],
-      "principe": "Une bulle bleutée avant une dent est le plus souvent bénigne et disparaît seule. Ce qui se perce s'infecte ; ce qu'on laisse tranquille se résorbe.",
-      "erreurs_a_eviter": [
-        "Percer, inciser ou frotter la boule.",
-        "Introduire un objet dans la bouche pour « faire sortir » la dent.",
-        "Appliquer un produit dessus sans avis : cette bulle ne demande aucun soin.",
-        "Attribuer une fièvre aux dents."
-      ],
-      "consulter_si": "Consulter si : la boule grossit rapidement, si la gencive devient très rouge, chaude, purulente, si bébé a de la fièvre, refuse de boire, présente une joue gonflée, ou paraît anormalement mou → pédiatre, médecin traitant ou chirurgien-dentiste sans délai.",
-      "source": "Source : ameli.fr (Assurance Maladie), poussées dentaires : symptômes, soulagement et quand consulter."
     }
   ]
 }

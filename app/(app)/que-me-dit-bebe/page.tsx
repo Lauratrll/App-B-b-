@@ -1,3 +1,4 @@
+import { redirect } from "next/navigation";
 import { requireProfile } from "@/lib/auth";
 import { getBabyMonth } from "@/lib/utils";
 import { getContenuSignaux } from "@/lib/signaux-bebe-contenu";
@@ -12,5 +13,7 @@ import { SignauxBebeOutil } from "@/components/modules/signaux-bebe-outil";
 export default async function QueMeDitBebePage() {
   const { profile } = await requireProfile();
   const mois = getBabyMonth(new Date(profile.birthdate));
+  // Laura 18/11 : dès 12 mois, plus de « Que me dit bébé ? » (le bouton disparaît aussi de l'accueil).
+  if (mois >= 12) redirect("/dashboard");
   return <SignauxBebeOutil contenu={getContenuSignaux()} ageProfil={mois} />;
 }

@@ -48,10 +48,9 @@
       "erreurs_a_eviter": [
         "Prendre la force de l'émotion pour une preuve : plus elle est forte, moins elle est informative.",
         "Compenser le soir par des journées surchargées : un enfant fatigué a besoin de calme, pas de rattrapage.",
-        "Chercher des signes de reproche chez lui : ses pleurs du soir sont de la décharge, pas un procès.",
-        "Se juger sur les matins difficiles : ils existent chez presque tous les enfants, dans presque tous les modes de garde."
+        "Chercher des signes de reproche chez lui : ses pleurs du soir sont de la décharge, pas un procès."
       ],
-      "consulter_si": "Consulter si : la culpabilité devient envahissante, si elle s'accompagne d'insomnies, d'une perte d'intérêt pour tout, ou d'une tristesse qui dure plus de deux semaines → médecin, sage-femme ou PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+      "consulter_si": "Consulter si : la culpabilité devient envahissante, elle s'accompagne d'insomnies ou d'une perte d'intérêt pour tout → médecin, sage-femme ou PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
     },
     {
       "categorie": "parent",
@@ -93,10 +92,9 @@
       "erreurs_a_eviter": [
         "Vérifier davantage pour être tranquille : chaque vérification renforce le besoin de la suivante.",
         "Être la seule personne à connaître les consignes : cela rend impossible de passer la main.",
-        "Dormir avec l'écoute-bébé à côté de l'oreille : il amplifie des bruits qui n'appellent rien.",
-        "Se juger sévèrement pour cette vigilance : elle a une histoire, et elle se déprogramme progressivement."
+        "Dormir avec l'écoute-bébé à côté de l'oreille : il amplifie des bruits qui n'appellent rien."
       ],
-      "consulter_si": "Consulter si : la vigilance devient impossible à interrompre, si elle s'accompagne de vérifications incessantes, d'insomnies même quand ton enfant dort, d'attaques de panique, ou d'une tristesse qui dure plus de deux semaines → médecin, sage-femme ou PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+      "consulter_si": "Consulter si : la vigilance devient impossible à interrompre, elle s'accompagne de vérifications incessantes ou d'insomnies même quand ton enfant dort → médecin, sage-femme ou PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
     },
     {
       "categorie": "parent",
@@ -138,10 +136,9 @@
       "erreurs_a_eviter": [
         "En parler pendant la nuit : aucune conversation de 3h du matin ne débouche sur un accord.",
         "Se lever quand même « parce que ça ira plus vite » : c'est exactement ce qui empêche l'habitude de changer.",
-        "Attendre que l'autre propose : il ne voit pas ce qu'il ne vit pas.",
-        "Renoncer parce que l'enfant réclame l'autre parent : cela dure quelques nuits, puis cela passe."
+        "Attendre que l'autre propose : il ne voit pas ce qu'il ne vit pas."
       ],
-      "consulter_si": "Consulter si : la privation de sommeil s'accompagne d'une tristesse qui dure plus de deux semaines, d'une irritabilité permanente, ou de somnolence au volant → médecin sans attendre. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+      "consulter_si": "Consulter si : la privation de sommeil s'accompagne d'une tristesse qui s'installe, d'une irritabilité permanente ou de somnolence au volant → médecin sans attendre. Allo Parents Bébé, 0 800 00 34 56, gratuit."
     },
     {
       "categorie": "parent",
@@ -183,10 +180,10 @@
       "erreurs_a_eviter": [
         "Attendre d'avoir touché le fond : plus c'est dit tôt, plus c'est court.",
         "Se dire qu'on n'a pas de raison valable : elle n'en demande aucune.",
-        "Minimiser une fois sur place parce que ça va mieux : la description porte sur les mois, pas sur l'heure.",
-        "Craindre qu'on te retire ton enfant : les professionnels de la périnatalité accompagnent, ils ne sanctionnent pas."
+        "Minimiser une fois sur place parce que ça va mieux : la description porte sur les mois, pas sur l'heure."
       ],
-      "consulter_si": "Consulter si : la tristesse dure plus de deux semaines, si plus rien ne te fait envie, si tu dors mal même quand bébé dort, ou si tu te sens vide ou détachée de lui → médecin, sage-femme ou PMI sans attendre. Allo Parents Bébé, 0 800 00 34 56, gratuit. Si les pensées noires s'installent, le 3114 répond jour et nuit."
+      "consulter_si": "Consulter si : la tristesse dure plus de deux semaines¹, plus rien ne te fait envie ou tu dors mal même quand bébé dort → médecin, sage-femme ou PMI sans attendre. Allo Parents Bébé, 0 800 00 34 56, gratuit.",
+      "source": "Source : ¹ tristesse persistante au-delà de 2 semaines : Psycom, brochure « Santé mentale, grossesse et parentalité », mars 2025, pages 6-7."
     }
   ]
 }

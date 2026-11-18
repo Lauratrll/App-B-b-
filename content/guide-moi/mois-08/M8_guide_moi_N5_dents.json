@@ -10,10 +10,10 @@
   "protocoles": [
     {
       "categorie": "dents",
-      "situation": "La deuxième vague de dents / Il a les incisives du haut qui arrivent",
-      "titre": "Souvent plus dure que la première",
-      "explication": "Les deux incisives du bas sont sorties, et celles du haut poussent. Beaucoup de parents trouvent cette deuxième vague plus difficile que la première, et il y a une raison anatomique : les incisives du haut sont plus larges, elles traversent une gencive plus épaisse, et elles sortent souvent à deux ou à quatre en même temps. La gencive est tendue, la salive coule davantage, l'humeur se durcit. Une percée reste pourtant courte : quelques jours par dent, pas plusieurs semaines d'affilée.",
-      "ancrage": "Ce qui soulage vraiment tient en deux mots : le froid et la pression. Et une percée a une fin, même quand la troisième nuit difficile donne le sentiment inverse.",
+      "situation": "La deuxième vague de dents / Les incisives du haut",
+      "titre": "Le même soulagement, à chaque vague",
+      "explication": "Les deux incisives du bas sont sorties, et celles du haut poussent. Cette nouvelle vague peut remettre la gencive en tension : la salive coule davantage, l'humeur se durcit. Ce qui soulage reste le même : le froid et une pression douce, directement sur la gencive.",
+      "ancrage": "Ce qui soulage vraiment tient en deux mots : le froid et la pression. Chaque percée passe, même quand une nuit difficile donne le sentiment inverse.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -30,37 +30,29 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : traverser la percée",
-        "etapes": [
-          "Au calme, en fin de journée : jamais au plus fort de la douleur.",
-          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
-          "La séquence « Poussées dentaires » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Parler doucement pendant la séquence : raconter ce que tu fais, sur le même ton.",
-          "T'arrêter s'il se détourne : le geste doit rester agréable, sinon il n'apaise plus rien."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "dents",
           "titre": "Poussées dentaires"
         }
       },
       "pour_aller_plus_loin": [
-        "Compter en jours : une dent perturbe quelques jours, et les vagues sont espacées de plusieurs semaines.",
-        "Ne jamais expliquer une fièvre par les dents : elle a toujours une autre cause, et elle se fait examiner.",
         "Ne donner aucun médicament, même en vente libre, sans avis médical : les doses dépendent du poids.",
-        "Prévoir des journées plus calmes pendant la percée : moins de sorties, plus de contact, un coucher plus tôt."
+        "Prévoir des journées plus calmes pendant la percée : moins de sorties, plus de contact, un coucher plus tôt.",
+        "Garder le même rituel de coucher : la stabilité rassure pendant une phase inconfortable."
       ],
-      "principe": "La douleur d'une percée est locale et brève. Ce qui la calme agit sur la gencive elle-même, par le froid ou par la pression, pas sur l'ensemble du corps.",
+      "principe": "Une gencive douloureuse se calme par ce qu'on lui donne à sentir d'autre : du froid, un appui.",
       "erreurs_a_eviter": [
-        "Mettre l'anneau de dentition au congélateur : le froid extrême brûle la gencive au lieu de l'endormir.",
-        "Mettre une fièvre, une diarrhée ou des pleurs intenses sur le compte des dents : la vraie cause reste sans réponse pendant ce temps.",
-        "Multiplier les remèdes en même temps : tu ne sais plus ce qui aide et ce qui gêne.",
-        "Attendre plusieurs semaines avant de consulter parce que « c'est les dents » : une percée qui dure des semaines n'est pas une percée."
+        "Mettre l'anneau de dentition au congélateur : le froid extrême brûle la gencive.",
+        "Mettre une fièvre, une diarrhée ou des pleurs intenses sur le compte des dents : une autre cause reste à chercher.",
+        "Multiplier les remèdes en même temps : tu ne sais plus ce qui aide et ce qui gêne."
       ],
-      "consulter_si": "Consulter si : bébé a de la fièvre, refuse de boire, présente des plaques blanches dans la bouche, une éruption qui s'étend, une gencive qui saigne abondamment, ou paraît anormalement mou → pédiatre ou médecin traitant sans délai. Une fièvre ne s'explique jamais par les dents.",
-      "source": "Source : ameli.fr (Assurance Maladie), poussées dentaires : symptômes, soulagement et quand consulter."
+      "consulter_si": "Consulter si : bébé refuse de boire, a une gencive qui saigne beaucoup, des plaques blanches dans la bouche, ou une fièvre qui dure → pédiatre ou médecin traitant.",
+      "source": "Source : Santé.fr, « Poussée dentaire »."
     },
     {
       "categorie": "dents",
-      "situation": "Le refus du brossage / Il serre les lèvres et tourne la tête",
+      "situation": "Le refus du brossage / Il serre les lèvres",
       "titre": "Apprivoiser avant de frotter",
       "explication": "Les premières dents sont là, et avec elles la question du brossage. Deux choses sont vraies en même temps. Les dents de lait se carient, et elles se carient d'autant plus vite qu'elles sont poreuses et que le sucre stagne la nuit. Et un bébé de huit mois vit une brosse dans sa bouche comme une intrusion : il serre, il tourne la tête, il pleure. Un brossage obtenu de force marche une fois, puis installe un refus qui peut durer des années.",
       "ancrage": "Tu n'as rien à réussir ce soir. Un brossage raté n'est pas un soin manqué, et un bébé qui refuse n'est pas un bébé négligé : à cet âge, ce qui s'installe, c'est l'habitude, pas la performance.",
@@ -89,34 +81,32 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Connaître les repères sans t'y enfermer : deux fois par jour, un dentifrice fluoré à 1 000 ppm, et le geste fait par l'adulte jusque vers cinq ans.",
-        "Faire passer quelques gorgées d'eau après un biberon du soir : le lait qui stagne la nuit est ce qui abîme le plus les dents.",
+        "Connaître les repères sans t'y enfermer : deux fois par jour, une trace de dentifrice fluoré, et le geste fait par l'adulte jusque vers cinq ans",
         "Préférer peu et serein à rien et conflictuel : une fois par jour tenue vaut mieux que deux fois arrachées.",
         "Poser tes questions au dentiste : une première visite peut se faire sans problème particulier, juste pour voir."
       ],
       "principe": "Un soin obtenu par la force s'obtient une fois. Un soin apprivoisé s'obtient tous les jours pendant des années.",
       "erreurs_a_eviter": [
-        "Forcer l'ouverture de la bouche ou maintenir la tête : le refus se fixe, et il devient beaucoup plus difficile à lever plus tard.",
-        "En faire un rendez-vous de conflit quotidien : la salle de bains devient un endroit qu'il refuse d'avance.",
-        "Mettre une noisette de dentifrice : à cet âge il l'avale, et la quantité utile est une simple trace.",
-        "Culpabiliser d'un brossage oublié : la culpabilité fait renoncer plus sûrement que l'oubli lui-même."
+        "Forcer l'ouverture de la bouche ou maintenir la tête : le refus se fixe, et il devient plus difficile à lever.",
+        "Mettre une noisette de dentifrice : à cet âge il l'avale, une simple trace suffit.",
+        "Culpabiliser d'un brossage oublié : la culpabilité fait renoncer plus sûrement que l'oubli."
       ],
-      "consulter_si": "Consulter si : tu observes une tache blanche, brune ou noire sur une dent, une gencive rouge, gonflée ou qui saigne, une dent qui bouge, ou si bébé a mal en mangeant → chirurgien-dentiste ou pédiatre.",
-      "source": "Source : Union française pour la santé bucco-dentaire (UFSBD) et ameli.fr, brossage des dents de l'enfant et dosage du dentifrice fluoré."
+      "consulter_si": "Consulter si : tu observes une tache blanche, brune ou noire sur une dent, une gencive rouge, gonflée ou qui saigne, ou une dent qui bouge → chirurgien-dentiste ou pédiatre.",
+      "source": "Source : Union française pour la santé bucco-dentaire (UFSBD), recommandations sur le fluor et le brossage de l'enfant, 2024."
     },
     {
       "categorie": "dents",
-      "situation": "La nuit agitée et la joue rouge / Je mets ça sur le compte des dents",
-      "titre": "Trois ou quatre nuits, pas trois semaines",
+      "situation": "La nuit agitée, la joue rouge / Je pense aux dents",
+      "titre": "Regarder avant de conclure",
       "explication": "Il se réveille, il a la joue rouge, la gencive gonflée : la dent est une explication crédible. Elle devient pourtant l'explication de tout, et c'est là que le problème commence, parce qu'une cause invoquée est une cause qu'on ne cherche plus. Une percée s'accompagne de signes visibles et simultanés : gencive tendue, salivation abondante, besoin de mordre, joue chaude. Sans ces signes, ou au-delà de quelques nuits, ce sont d'autres pistes qui expliquent les réveils à huit mois : un progrès moteur en cours, une fatigue accumulée, ou le pic de l'angoisse de séparation.",
-      "ancrage": "Une dent explique quelques nuits, pas trois semaines. Regarder ce qui se passe vraiment évite de bouleverser un coucher qui fonctionnait.",
+      "ancrage": "Regarder ce qui se passe vraiment évite de bouleverser un coucher qui fonctionnait.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
         "titre": "Action immédiate : faire la part des choses",
         "etapes": [
           "Regarder sa gencive à la lumière : tendue et blanchie sur la crête, ou normale.",
-          "Compter les nuits : au-delà de trois ou quatre, la piste dentaire s'épuise.",
+          "Compter les nuits : si les réveils durent, la piste dentaire s'épuise.",
           "Passer en revue ses acquisitions du moment : se hisser, ramper, se déplacer.",
           "Regarder sa journée : trop peu de sieste, trop de stimulation, un coucher trop tardif.",
           "Ne rien changer au rituel pendant que tu observes : une seule variable à la fois."
@@ -126,13 +116,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : reposer la nuit",
-        "etapes": [
-          "Dans le rituel du soir : au même moment chaque jour, avant la mise au lit.",
-          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
-          "Suivre la séquence « Sommeil paisible » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Garder ta voix posée : quelques mots toujours identiques, ou un air fredonné.",
-          "Finir main posée sur son torse : jusqu'à ce que sa respiration se pose."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "sommeil",
           "titre": "Sommeil paisible"
@@ -141,17 +125,15 @@
       "pour_aller_plus_loin": [
         "Soulager la gencive en journée : ce qui est apaisé le jour se rejoue moins la nuit.",
         "Tenir le même cadre de coucher pendant la phase : changer de méthode en plein milieu allonge la période.",
-        "Ne donner aucun médicament du soir en routine sans avis médical.",
         "Reparler des réveils à la consultation de suivi : ils font partie des questions ordinaires."
       ],
       "principe": "Une explication trop commode empêche de chercher la vraie. Un symptôme qui dure plus longtemps que la cause supposée mérite qu'on reprenne l'observation à zéro.",
       "erreurs_a_eviter": [
         "Mettre tous les réveils sur le compte des dents : la cause réelle continue pendant ce temps.",
-        "Donner un médicament chaque soir pour les dents sans avis médical : tu masques un signal utile.",
-        "Changer de méthode de sommeil à chaque poussée supposée : il perd ses repères et se réveille davantage.",
-        "Attribuer une fièvre aux dents : une fièvre a toujours une autre cause et se fait examiner."
+        "Donner un médicament chaque soir pour les dents sans avis : tu masques un signal utile.",
+        "Changer de méthode de sommeil à chaque poussée supposée : il perd ses repères et se réveille davantage."
       ],
-      "consulter_si": "Consulter si : bébé a de la fièvre, refuse de boire, présente des vomissements, une diarrhée, une éruption, s'il paraît anormalement mou, ou si les réveils s'accompagnent de pleurs inconsolables → pédiatre ou médecin traitant. Une fièvre ne s'explique jamais par les dents.",
+      "consulter_si": "Consulter si : bébé a de la fièvre, refuse de boire, vomit, a la diarrhée ou une éruption, ou si les réveils s'accompagnent de pleurs inconsolables → pédiatre ou médecin traitant.",
       "source": "Source : ameli.fr (Assurance Maladie), poussées dentaires : symptômes, soulagement et quand consulter."
     },
     {
@@ -186,19 +168,17 @@
       },
       "pour_aller_plus_loin": [
         "Garder deux anneaux en rotation au réfrigérateur : il y en a toujours un de frais quand l'autre sert.",
-        "Trier le sol une fois par semaine : tout ce qui passe dans un rouleau de papier toilette peut être avalé.",
         "Ranger les piles boutons en hauteur et fermées : avalées, elles provoquent des lésions graves en quelques heures.",
         "Dire à la personne qui le garde ce qui est autorisé : les objets sûrs, et ceux qui n'entrent jamais dans sa bouche."
       ],
       "principe": "Un besoin qui insiste ne se supprime pas, il se canalise. On remplace l'objet, on ne retire pas le geste.",
       "erreurs_a_eviter": [
-        "Lui laisser mordre ce qui traîne : un objet qui n'est pas prévu pour cela peut se casser dans sa bouche.",
-        "Mettre un produit sur sa gencive sans avoir demandé : le pharmacien te dira ce qui convient.",
-        "Mettre l'anneau au congélateur : le froid extrême blesse la muqueuse au lieu de la calmer.",
+        "Lui laisser mordre ce qui traîne : un objet non prévu pour cela peut se casser dans sa bouche.",
+        "Mettre l'anneau au congélateur : le froid extrême blesse la muqueuse.",
         "Laisser un objet à mordiller dans le lit pendant le sommeil : tout objet libre dans un lit est un risque d'étouffement."
       ],
-      "consulter_si": "Consulter si : bébé a avalé ou inhalé un objet → appeler le 15 immédiatement, en particulier s'il s'agit d'une pile bouton, même sans aucun symptôme. Consulter si : il a de la fièvre, refuse de boire, se met à saliver soudainement avec une difficulté à avaler, ou respire mal → appeler le 15 en cas de gêne respiratoire, sinon pédiatre sans délai.",
-      "source": "Source : ameli.fr (Assurance Maladie), poussées dentaires : symptômes, soulagement et quand consulter."
+      "consulter_si": "Consulter si : bébé a avalé un objet ou une pile bouton, même sans symptôme → appeler le 15. Il a de la fièvre, refuse de boire ou respire mal → pédiatre ; le 15 en cas de gêne respiratoire.",
+      "source": "Source : Santé.fr, « Poussée dentaire » ; Santé publique France, prévention des ingestions de piles boutons chez le jeune enfant."
     }
   ]
 }

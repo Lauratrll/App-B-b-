@@ -10,7 +10,7 @@
   "protocoles": [
     {
       "categorie": "sepa",
-      "situation": "L'attente du premier sourire / Il ne m'a toujours pas souri",
+      "situation": "L'attente du premier sourire / Il ne m'a pas souri",
       "titre": "L'attente qui pèse",
       "explication": "Tu guettes ce sourire, celui qui te serait adressé, à toi. Le sourire social apparaît en général autour de six à huit semaines, mais la fourchette est large et certains bébés prennent leur temps. En attendant, ton bébé communique déjà : il fixe ton visage, se calme au son de ta voix, tourne la tête vers ton odeur, ajuste sa respiration sur la tienne. Ce dialogue-là est réel, même s'il ne ressemble pas à ce que tu attendais. Le sourire viendra confirmer un lien qui existe déjà, il ne le créera pas.",
       "ancrage": "L'absence de sourire n'est pas une absence de lien. Il te reconnaît déjà par des canaux que tu ne vois pas à l'œuvre, et le sourire n'est pas un test que tu passes ou que tu rates.",
@@ -30,13 +30,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : un temps de dialogue tranquille",
-        "etapes": [
-          "Bébé éveillé et calme : sur le dos, dans le silence, sans écran autour.",
-          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
-          "Suivre la séquence « Accueil du nouveau-né » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Parler pendant le geste : ta voix associée à ton toucher renforce le repère sensoriel.",
-          "S'arrêter à sa demande : un mouvement de retrait, un regard qui se détourne, on arrête."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "accueil-nouveau-ne",
           "titre": "Accueil du nouveau-né"
@@ -79,13 +73,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : un moment de présence, sans attente",
-        "etapes": [
-          "Bébé sur le dos, éveillé et détendu : lumière douce, pas de bruit autour.",
-          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
-          "La séquence « Accueil du nouveau-né » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Rester dans son champ : ton visage à trente centimètres pendant le geste.",
-          "S'arrêter à sa demande : ce moment n'a aucun objectif de performance."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "accueil-nouveau-ne",
           "titre": "Accueil du nouveau-né"
@@ -108,7 +96,7 @@
     },
     {
       "categorie": "sepa",
-      "situation": "La peur de rater le lien / Je ne sens pas l'attachement se faire",
+      "situation": "Le lien qui tarde / Je ne sens pas l'attachement",
       "titre": "Il se fait sans se voir",
       "explication": "L'attachement n'est pas un déclic : c'est un tissage. Il se construit dans la répétition d'interactions minuscules. Tu réponds à un pleur, tu le nourris, tu le changes, tu croises son regard, tu recommences. Des milliers de fois. Ce n'est pas spectaculaire, ce n'est pas romantique, et c'est exactement là que le lien se fabrique. Les recherches sur l'attachement montrent qu'un parent n'a pas besoin d'être parfaitement ajusté : il a besoin de revenir. C'est la constance, pas l'intensité du sentiment, qui construit la sécurité de ton bébé.",
       "ancrage": "Tu es peut-être en train de construire le lien précisément pendant que tu crains de ne pas y arriver. Ce sont tes gestes répétés, pas ton état intérieur, qui font le travail.",
@@ -128,13 +116,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : un rendez-vous quotidien avec lui",
-        "etapes": [
-          "Un moment court et régulier : quelques minutes chaque jour, toujours au même moment.",
-          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
-          "Suivre la séquence « Accueil du nouveau-né » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Parler doucement pendant la séquence : raconter ce que tu fais, sur le même ton.",
-          "Se laisser regarder : ce temps n'a pas d'objectif. C'est un temps de lien, pour vous deux."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "accueil-nouveau-ne",
           "titre": "Accueil du nouveau-né"
@@ -157,7 +139,7 @@
     },
     {
       "categorie": "sepa",
-      "situation": "La place de l'autre parent / Il reste à distance et n'ose pas",
+      "situation": "La place de l'autre parent / Il reste à distance",
       "titre": "Des moments à lui seul",
       "explication": "Quand l'un des deux parents allaite ou passe l'essentiel du temps avec le bébé, l'autre peut se sentir spectateur : maladroit, en retrait, réduit au rôle d'assistant. Ce retrait n'est pas de l'indifférence, et il n'est pas une fatalité. Un bébé s'attache à plusieurs personnes, par des canaux différents : une odeur, une voix, une façon de porter, un rythme. Le co-parent ne construit pas le lien en « aidant » l'autre parent. Il le construit en ayant des moments qui lui appartiennent, où il fait à sa façon, sans être corrigé.",
       "ancrage": "Le lien ne se délègue pas, il se vit. Le co-parent a besoin de territoires à lui, et l'autre parent a besoin de lâcher un peu de contrôle sur la façon dont ils sont tenus.",

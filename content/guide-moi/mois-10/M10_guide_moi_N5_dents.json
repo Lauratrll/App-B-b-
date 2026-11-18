@@ -10,9 +10,9 @@
   "protocoles": [
     {
       "categorie": "dents",
-      "situation": "La lèvre gonflée / Il refuse la cuillère depuis que ses dents du haut percent",
+      "situation": "La lèvre gonflée / Il refuse la cuillère, ça perce",
       "titre": "Adapter les repas pendant la percée",
-      "explication": "Les incisives du haut poussent contre la lèvre supérieure, qui gonfle et devient sensible. C'est là que tout change par rapport à la première dent : ce n'est plus seulement la gencive qui gêne, c'est tout ce qui touche la lèvre. La cuillère, le bord de la tasse, le sein, le bord du biberon appuient exactement là où c'est douloureux. L'enfant se met alors à refuser le repas, et on cherche du côté de l'appétit ou du goût, alors que la cause est mécanique. Ce qui se change n'est donc pas le menu, c'est la façon dont la nourriture entre dans la bouche.",
+      "explication": "Quand les incisives du haut poussent, la lèvre supérieure peut devenir sensible. La cuillère, le bord de la tasse, le sein ou le bord du biberon appuient alors là où c'est inconfortable, et l'enfant refuse le repas. On cherche du côté de l'appétit ou du goût, alors que la cause peut être mécanique. Ce qui se change n'est donc pas le menu, c'est la façon dont la nourriture entre dans la bouche.",
       "ancrage": "Il ne refuse pas de manger, il refuse ce qui appuie sur sa lèvre. Change la cuillère avant de changer le repas.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -23,44 +23,36 @@
           "Servir frais plutôt que tiède : le froid engourdit légèrement la zone.",
           "Proposer à la paille ou au bec souple : le bord rigide d'une tasse appuie sur la lèvre.",
           "Le laisser porter à la bouche lui-même : il dose la pression bien mieux que toi.",
-          "Compter en jours : la lèvre dégonfle en général en trois à cinq jours."
+          "Laisser passer quelques jours : la sensibilité de la lèvre baisse avec la percée."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Réflexologie : accompagner les nuits difficiles",
-        "etapes": [
-          "Dans le rituel du soir : toujours au même moment.",
-          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
-          "La séquence « Poussées dentaires » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Ta voix tout bas pendant la séquence : toujours les mêmes mots, qui deviennent un repère.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
-        ],
+        "titre": "Réflexologie : poussées dentaires",
+        "etapes": [],
         "lien_reflexologie": {
           "id": "dents",
           "titre": "Poussées dentaires"
         }
       },
       "pour_aller_plus_loin": [
-        "Regarder la lèvre, pas seulement la gencive : elle est souvent plus gonflée que la gencive elle-même.",
-        "Maintenir les apports de lait : au moins 500 ml par jour, ils passent quand les morceaux ne passent plus.",
+        "Regarder la lèvre, pas seulement la gencive : c'est elle qui touche la cuillère.",
         "Ne pas conclure à un refus alimentaire durable : ce qui commence avec une dent finit avec elle.",
-        "Une petite bulle bleutée peut apparaître : elle est le plus souvent bénigne, et elle ne se perce jamais."
+        "Garder les prises de lait habituelles : elles couvrent ses besoins pendant ces quelques jours."
       ],
       "principe": "Une percée du haut ne se vit pas comme une percée du bas : ce qui fait mal n'est plus seulement la gencive, c'est la lèvre. Quand un refus alimentaire apparaît en même temps qu'une dent du haut, la cause est mécanique avant d'être une affaire de goût.",
       "erreurs_a_eviter": [
-        "Insister avec la cuillère habituelle : chaque bouchée appuie sur la zone douloureuse.",
+        "Insister avec la cuillère habituelle : chaque bouchée appuie sur la zone sensible.",
         "Revenir aux purées lisses par précaution : le refus vient de la lèvre, pas de la texture.",
-        "Attribuer une fièvre à cette percée : une fièvre se fait examiner, quelle que soit la dent qui pousse.",
-        "Frotter la gencive avec un doigt ou un tissu rêche : cela ajoute de la douleur là où il y en a déjà."
+        "Attribuer une fièvre à cette percée : une autre cause reste à chercher."
       ],
-      "consulter_si": "Consulter si : le refus dure plus d'une semaine, s'il ne boit plus assez, s'il perd du poids, s'il a de la fièvre, si la gencive saigne, ou si la lèvre est très enflée et chaude → pédiatre ou médecin traitant.",
-      "source": "Source : ameli.fr (Assurance Maladie), poussées dentaires : symptômes, soulagement et quand consulter."
+      "consulter_si": "Consulter si : le refus dure plus d'une semaine, bébé ne boit plus assez, ou il a de la fièvre ou une gencive qui saigne → pédiatre ou médecin traitant.",
+      "source": "Source : Santé.fr, « Poussée dentaire »."
     },
     {
       "categorie": "dents",
-      "situation": "Le grincement de dents / Il grince des dents et le bruit m'inquiète",
+      "situation": "Le grincement de dents / Je m'inquiète du bruit",
       "titre": "Une exploration bénigne",
       "explication": "Le bruit est désagréable, presque insupportable, et il inquiète. Le grincement des dents chez un tout-petit qui vient d'en acquérir est le plus souvent une exploration : il découvre une sensation nouvelle, celle de ses dents qui se rencontrent, et il la teste. C'est une phase, elle est bénigne, et elle passe le plus souvent seule. La dramatiser, ou chercher à l'en empêcher activement, ne fait que renforcer le comportement, parce que la réaction devient intéressante.",
       "ancrage": "Le bruit dérange, mais le geste est bénin : il découvre une sensation nouvelle. Réagir fortement ne fait que le renforcer.",
@@ -79,15 +71,8 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Canaliser le besoin",
-        "etapes": [
-          "Offrir des supports à mordiller : anneau, linge frais, le besoin de pression est réel.",
-          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
-          "Suivre la séquence « Poussées dentaires » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Nommer sans dramatiser : « tu découvres tes dents ».",
-          "Un environnement calme : le grincement augmente souvent avec la tension.",
-          "S'arrêter s'il se détourne : le geste doit rester agréable."
-        ],
+        "titre": "Réflexologie : poussées dentaires",
+        "etapes": [],
         "lien_reflexologie": {
           "id": "dents",
           "titre": "Poussées dentaires"
@@ -95,74 +80,21 @@
       },
       "pour_aller_plus_loin": [
         "Se rappeler que c'est bénin : le grincement du jeune enfant est une phase d'exploration fréquente.",
-        "Ne pas chercher à l'empêcher activement : cela renforce le comportement.",
         "En parler lors d'une visite : si le grincement est intense, fréquent, ou surtout nocturne et durable.",
         "Surveiller l'usure : un professionnel peut vérifier l'état des dents lors d'une visite."
       ],
       "principe": "Le grincement est une exploration de sensations nouvelles, bénigne le plus souvent. La dramatiser le renforce ; le laisser passer, sans réaction forte, l'éteint.",
       "erreurs_a_eviter": [
-        "Réagir fortement à chaque grincement.",
-        "Introduire un dispositif dans sa bouche pour l'en empêcher.",
-        "Appliquer un produit dans sa bouche pour arrêter le bruit : le grincement n'est pas une douleur à traiter.",
-        "S'inquiéter d'un grincement occasionnel chez un enfant qui va bien."
+        "Réagir fortement à chaque grincement : la réaction rend le geste intéressant.",
+        "Introduire un dispositif dans sa bouche pour l'en empêcher : risque de blessure.",
+        "Appliquer un produit dans sa bouche pour arrêter le bruit : le grincement n'est pas une douleur à traiter."
       ],
-      "consulter_si": "Consulter si : le grincement est intense, très fréquent, surtout nocturne et durable, si tu observes une usure visible des dents, une douleur, une gencive rouge ou gonflée, ou si bébé se plaint en mangeant → chirurgien-dentiste ou pédiatre lors d'une visite.",
+      "consulter_si": "Consulter si : le grincement est intense, très fréquent et durable, ou si tu observes une usure des dents, une douleur ou une gencive rouge → chirurgien-dentiste ou pédiatre, lors d'une visite.",
       "source": "Source : Union française pour la santé bucco-dentaire (UFSBD), les dents de l'enfant de la naissance à 6 ans."
     },
     {
       "categorie": "dents",
-      "situation": "La toux de la nuit / Il bave et tousse en dormant",
-      "titre": "Le confort de couchage avant tout",
-      "explication": "La nuit, la salive s'accumule, il tousse, se réveille, tousse encore. Ce n'est pas une infection, et ce n'est pas une toux à traiter : c'est de la salive, produite en abondance pendant les poussées dentaires, qu'il n'avale pas suffisamment en dormant. Ce qui se traite, ce n'est donc pas la toux, c'est le confort du couchage. Et un rappel important : les sirops antitussifs sont contre-indiqués chez le jeune enfant, et n'ont ici aucune justification.",
-      "ancrage": "Ce n'est pas une toux à traiter : c'est de la salive. Ce qui se traite, c'est le confort, jamais avec un sirop.",
-      "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate : le confort de couchage",
-        "etapes": [
-          "Un lavage de nez avant le coucher : un nez dégagé permet d'avaler et de respirer plus facilement.",
-          "Une chambre entre 18 et 20 °C : ni surchauffée, ni sèche.",
-          "Aérer la chambre chaque jour : l'air sec aggrave l'irritation.",
-          "Un temps vertical après le dernier repas : le garder redressé contre toi un moment avant le coucher aide à mieux avaler.",
-          "Aucun sirop : les antitussifs sont contre-indiqués chez le jeune enfant."
-        ]
-      },
-      "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
-        "titre": "Soulager avant la nuit",
-        "etapes": [
-          "Soulager la gencive en journée : le froid et la pression réduisent la salivation réflexe.",
-          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
-          "La séquence « Poussées dentaires » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Protéger la peau du menton : tamponner, sécher, appliquer un émollient simple.",
-          "Un bavoir changé souvent : plutôt qu'une peau constamment humide.",
-          "S'arrêter s'il se crispe : le geste doit rester agréable."
-        ],
-        "lien_reflexologie": {
-          "id": "dents",
-          "titre": "Poussées dentaires"
-        }
-      },
-      "pour_aller_plus_loin": [
-        "Distinguer la salive d'une vraie toux : une toux qui persiste en journée, sèche ou grasse, avec fièvre ou gêne respiratoire, est autre chose, et elle se montre.",
-        "Ne jamais donner de sirop antitussif : contre-indiqué chez le jeune enfant.",
-        "Humidifier l'air si besoin : une chambre trop sèche, à cause du chauffage, aggrave l'irritation de la gorge.",
-        "Observer la respiration plutôt que le bruit : c'est elle qui décide d'un appel."
-      ],
-      "principe": "Une toux nocturne liée à la salive ne se traite pas : elle s'accompagne. Ce qui distingue les deux, c'est le jour : la salive ne fait tousser qu'en dormant.",
-      "erreurs_a_eviter": [
-        "Donner un sirop antitussif : ces sirops sont contre-indiqués chez le jeune enfant, et ne changent rien à une toux de salive.",
-        "Coucher l'enfant juste après le dernier biberon, sans temps vertical.",
-        "Introduire un objet dans le nez ou la bouche.",
-        "Attribuer une fièvre aux dents."
-      ],
-      "consulter_si": "Consulter si : bébé respire vite, siffle, creuse entre les côtes, bat des ailes du nez, change de couleur, marque des pauses respiratoires ; si la toux persiste en journée, s'accompagne de fièvre, d'un refus de boire, ou s'il paraît anormalement mou → appeler le 15 en cas de gêne respiratoire, et le pédiatre sans délai dans les autres cas.",
-      "source": "Source : ameli.fr (Assurance Maladie), poussées dentaires : symptômes, soulagement et quand consulter."
-    },
-    {
-      "categorie": "dents",
-      "situation": "Les genoux et les mains rêches / Il rampe toute la journée et sa peau tire",
+      "situation": "Les genoux et mains rêches / Il rampe, sa peau tire",
       "titre": "Les zones qui frottent, et l'air de la maison",
       "explication": "Depuis qu'il se déplace, sa peau ne sèche plus aux mêmes endroits. Les genoux, le dessus des pieds, les paumes et les avant-bras frottent sur le sol des heures par jour, et l'hiver ajoute sa part : chauffage, air sec, écarts de température entre l'intérieur et l'extérieur. Les mains sont un cas à part, parce qu'elles vont sans arrêt à la bouche : la salive les mouille, elles sèchent, et le cercle recommence. Ce qui se règle ici n'est donc pas seulement la crème, c'est le sol sur lequel il rampe et l'air qu'il respire.",
       "ancrage": "Regarde où sa peau tire, cela te dira ce qui la frotte. À cet âge ce sont les genoux et les mains, et la maison compte autant que le tube de crème.",
@@ -186,29 +118,26 @@
           "Réchauffer la crème dans tes mains : avant de l'appliquer.",
           "Application lente et enveloppante : à mains pleines, pression douce et constante, sans frotter.",
           "Habiller en coton : éviter la laine à même la peau.",
-          "Humidifier l'air : un chauffage trop fort assèche, une chambre à 18-20 °C suffit.",
           "S'arrêter s'il se crispe : le soin doit rester agréable."
         ]
       },
       "pour_aller_plus_loin": [
         "Choisir un produit court en ingrédients : sans parfum, sans antibactérien, sans huile essentielle.",
-        "Habiller en coton : la laine à même la peau et les matières synthétiques entretiennent l'irritation.",
         "Passer un chiffon humide au sol : la poussière sèche s'accroche aux zones déjà irritées.",
         "Regarder les plis en même temps : coudes et genoux marquent en premier quand un eczéma s'installe."
       ],
       "principe": "Une peau sèche à dix mois est d'abord une peau qui frotte. Ce qui la répare tient à deux choses : la même crème tous les jours, et un sol et un air qui l'agressent moins.",
       "erreurs_a_eviter": [
         "Multiplier les produits pour trouver le bon : plus la liste s'allonge, moins on sait ce qui irrite.",
-        "Appliquer une crème à la cortisone sans avis médical : elle peut masquer une surinfection.",
-        "Empêcher le rampé pour protéger la peau : c'est l'apprentissage qu'on freine, pas la sécheresse qu'on règle.",
-        "Monter le chauffage parce qu'il rampe au sol : l'air sec aggrave exactement ce qu'on veut soulager."
+        "Empêcher le rampé pour protéger la peau : c'est l'apprentissage qu'on freine.",
+        "Monter le chauffage parce qu'il rampe au sol : l'air sec aggrave la sécheresse."
       ],
-      "consulter_si": "Consulter si : les plaques démangent, suintent ou s'étendent, si elles réapparaissent dès qu'on arrête la crème, si le sommeil est perturbé par les démangeaisons, ou si la peau se fissure → médecin traitant ou pédiatre.",
+      "consulter_si": "Consulter si : les plaques démangent, suintent ou s'étendent, si le sommeil est perturbé par les démangeaisons, ou si la peau se fissure → médecin traitant ou pédiatre.",
       "source": "Source : ameli.fr (Assurance Maladie), peau sèche et dermatite atopique de l'enfant : soins quotidiens et quand consulter."
     },
     {
       "categorie": "dents",
-      "situation": "Le premier brossage / Il serre les lèvres dès qu'il voit la brosse",
+      "situation": "Le premier brossage / Il serre les lèvres",
       "titre": "Court, prévisible, sans rapport de force",
       "explication": "Il serre les lèvres, tourne la tête, se débat. Voici l'information, sans injonction : les dents de lait peuvent se carier, et le brossage aide à l'éviter. Et voici la réalité : un brossage arraché de force n'apporte rien, il installe un rapport de force qui peut durer des années. Ce qui compte à cet âge, ce n'est pas la performance : c'est d'installer le geste comme un jeu court et prévisible, avant que le conflit ne s'installe. Et de faire ce qui est possible chez vous, sans culpabilité.",
       "ancrage": "Tu n'as rien à réussir. Un brossage raté n'est pas grave, et forcer coûte bien plus cher que renoncer aujourd'hui.",
@@ -239,18 +168,16 @@
       "pour_aller_plus_loin": [
         "Y aller à ton rythme : une fois par jour, ou quelques jours par semaine, mieux vaut peu et serein que rien et conflictuel.",
         "Se rappeler les repères, si tu veux les suivre : deux fois par jour, une trace de dentifrice fluoré, geste fait par l'adulte jusque vers cinq ans.",
-        "Si le biberon fait partie de son rituel du coucher : c'est courant et cela n'a rien de honteux, et quelques gorgées d'eau après, ou un linge doux sur les dents quand c'est possible, suffisent à limiter le sucre qui stagne.",
         "En parler au professionnel : le pédiatre ou le dentiste répondront sans jugement."
       ],
       "principe": "Un brossage arraché de force n'apporte rien et installe un rapport de force durable. Ce qui compte, c'est un geste court, prévisible, et un rythme qui est le vôtre.",
       "erreurs_a_eviter": [
-        "Forcer l'ouverture de la bouche ou maintenir la tête.",
-        "Transformer le brossage en conflit quotidien.",
-        "Culpabiliser d'un brossage raté ou oublié.",
+        "Forcer l'ouverture de la bouche ou maintenir la tête : le refus s'installe.",
+        "Transformer le brossage en conflit quotidien : la salle de bains devient un lieu qu'il refuse.",
         "Mettre une noisette de dentifrice : la quantité utile est une simple trace."
       ],
-      "consulter_si": "Consulter si : tu observes une tache blanche, brune ou noire sur une dent, une gencive rouge, gonflée ou qui saigne, une dent qui bouge, ou si bébé a mal en mangeant → chirurgien-dentiste ou pédiatre. Une visite peut aussi se faire simplement pour poser tes questions.",
-      "source": "Source : Union française pour la santé bucco-dentaire (UFSBD), les dents de l'enfant de la naissance à 6 ans."
+      "consulter_si": "Consulter si : tu observes une tache blanche, brune ou noire sur une dent, une gencive rouge, gonflée ou qui saigne, ou si bébé a mal en mangeant → chirurgien-dentiste ou pédiatre.",
+      "source": "Source : Union française pour la santé bucco-dentaire (UFSBD), recommandations sur le fluor et le brossage de l'enfant, 2024."
     }
   ]
 }

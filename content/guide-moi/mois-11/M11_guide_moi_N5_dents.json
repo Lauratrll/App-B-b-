@@ -10,10 +10,10 @@
   "protocoles": [
     {
       "categorie": "dents",
-      "situation": "Les quatre dents ensemble / Il a mal partout et ne dort plus",
-      "titre": "Une phase intense, mais limitée",
-      "explication": "Quatre dents bougent en même temps, et la douleur déborde : nuits hachées, humeur impossible, refus de manger, joues rouges. Les poussées groupées de la fin de la première année sont souvent les plus intenses. Ce qui soulage reste inchangé : le froid, la pression douce, le confort, la présence et la stabilité des repères. Ce qui ne change pas non plus, c'est la règle sur les produits : tout ce qui s'applique dans la bouche d'un enfant de cet âge se demande d'abord au pharmacien.",
-      "ancrage": "Une poussée groupée est intense mais limitée dans le temps. Le froid, la pression et la stabilité des repères sont ce qui aide réellement.",
+      "situation": "Les 4 dents ensemble / Il a mal et ne dort plus",
+      "titre": "Tenir bon, sans rien ajouter",
+      "explication": "Plusieurs dents bougent en même temps, et la gêne déborde : nuits hachées, humeur difficile, refus de manger, joues rouges. Ce qui soulage reste inchangé : le froid, la pression douce, le confort, la présence et la stabilité des repères. La règle sur les produits ne change pas non plus : tout ce qui s'applique dans la bouche d'un enfant de cet âge se demande d'abord au pharmacien.",
+      "ancrage": "Le froid, la pression et la stabilité des repères sont ce qui aide réellement.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -30,13 +30,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : accompagner les nuits difficiles",
-        "etapes": [
-          "Dans le rituel du soir : toujours au même moment.",
-          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
-          "La séquence « Poussées dentaires » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Parler doucement pendant la séquence : raconter ce que tu fais, sur le même ton.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "dents",
           "titre": "Poussées dentaires"
@@ -45,18 +39,16 @@
       "pour_aller_plus_loin": [
         "Demander au pharmacien avant tout produit : gels, granules ou sirops se choisissent avec lui.",
         "Renouveler les anneaux abîmés : un anneau fendu ou percé se remplace tout de suite.",
-        "Ne pas attribuer une fièvre aux dents : elle a toujours une autre cause, et elle se fait examiner.",
-        "Ne donner aucun médicament sans avis médical."
+        "Garder les nouveautés pour plus tard : mieux vaut conserver les repères tels qu'ils sont pendant la poussée."
       ],
-      "principe": "Une poussée groupée est intense, mais elle passe. Le froid, la pression et la stabilité aident ; pour tout produit, l'avis se demande avant d'appliquer.",
+      "principe": "Pendant une poussée groupée, le froid, la pression et la stabilité aident ; pour tout produit, l'avis se demande avant d'appliquer.",
       "erreurs_a_eviter": [
-        "Enchaîner les nouveautés pendant la poussée : mieux vaut garder les repères tels qu'ils sont.",
+        "Enchaîner les nouveautés pendant la poussée : mieux vaut garder les repères.",
         "Appliquer un produit sur la gencive sans avis : le pharmacien est là pour cela.",
-        "Mettre un anneau de dentition au congélateur.",
-        "Attribuer une fièvre, une diarrhée ou des pleurs intenses aux dents."
+        "Mettre un anneau de dentition au congélateur : le froid extrême brûle."
       ],
-      "consulter_si": "Consulter si : l'enfant a de la fièvre, refuse de boire, présente une gencive rouge, gonflée ou purulente, des plaques blanches dans la bouche, une éruption qui s'étend, ou paraît anormalement mou → pédiatre ou médecin traitant sans délai. Une fièvre ne s'explique jamais par les dents.",
-      "source": "Source : ameli.fr (Assurance Maladie), poussées dentaires : symptômes, soulagement et quand consulter."
+      "consulter_si": "Consulter si : l'enfant refuse de boire, a une gencive rouge, gonflée ou purulente, des plaques blanches, ou une fièvre qui dure → pédiatre ou médecin traitant.",
+      "source": "Source : Santé.fr, « Poussée dentaire »."
     },
     {
       "categorie": "dents",
@@ -80,13 +72,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : redescendre après la crise",
-        "etapes": [
-          "Une fois consolé et la vague passée : contre toi, ou allongé au calme s'il préfère.",
-          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
-          "Suivre la séquence « Poussées dentaires » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Garder ta voix posée : quelques mots toujours identiques, ou un air fredonné.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "dents",
           "titre": "Poussées dentaires"
@@ -95,24 +81,22 @@
       "pour_aller_plus_loin": [
         "Repérer les déclencheurs : fatigue, faim, sur-stimulation, frustration. C'est là qu'on agit.",
         "Anticiper : réduire les situations qui saturent, avant la morsure.",
-        "Ne jamais mordre en retour : cela n'enseigne rien et légitime le geste.",
         "Prévenir le lieu de garde : pour une réponse cohérente entre les adultes."
       ],
       "principe": "Mordre est une décharge de tension, pas une intention de faire mal. Nommer, offrir un exutoire, tenir la limite, et jamais mordre en retour.",
       "erreurs_a_eviter": [
-        "Mordre en retour pour « lui montrer ».",
-        "Crier, punir ou humilier.",
-        "Interpréter la morsure comme de la méchanceté.",
-        "Ignorer la morsure sans poser de limite."
+        "Mordre en retour pour « lui montrer » : cela n'enseigne rien et légitime le geste.",
+        "Crier, punir ou humilier : la tension monte, la morsure aussi.",
+        "Ignorer la morsure sans poser de limite : il ne sait pas où elle se trouve."
       ],
-      "consulter_si": "Consulter si : les morsures deviennent quotidiennes et incontrôlables, si l'enfant se blesse ou blesse gravement, s'il se cogne volontairement la tête de façon répétée, ou si tu sens ta colère devenir difficile à contenir → pédiatre, PMI, ou Allo Parents Bébé (0 800 00 34 56).",
+      "consulter_si": "Consulter si : les morsures deviennent quotidiennes et difficiles à contenir, ou si tu sens ta colère devenir difficile à contenir → pédiatre, PMI, ou Allo Parents Bébé (0 800 00 34 56).",
       "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), les étapes du développement de bébé."
     },
     {
       "categorie": "dents",
-      "situation": "Le retour des rougeurs / Sa peau redevient rouge à chaque change",
+      "situation": "Le retour des rougeurs / Sa peau rougit au change",
       "titre": "Reprendre la routine du début",
-      "explication": "Depuis que l'alimentation s'est diversifiée, les selles ont changé (plus acides, plus fréquentes, parfois plus irritantes) et les rougeurs du siège reviennent. Ce n'est pas un défaut de soin : c'est une peau fragile face à des selles nouvelles. La routine reste la même, et elle reste efficace : changer souvent, nettoyer à l'eau, sécher soigneusement, aérer, protéger. Et une rougeur qui résiste plus de trois à quatre jours, qui s'étend ou qui suinte, se montre : elle ne se traite pas au hasard.",
+      "explication": "Depuis que l'alimentation s'est diversifiée, les selles ont changé (plus acides, plus fréquentes, parfois plus irritantes) et les rougeurs du siège reviennent. Ce n'est pas un défaut de soin : c'est une peau fragile face à des selles nouvelles. La routine reste la même, et elle reste efficace : changer souvent, nettoyer à l'eau, sécher soigneusement, aérer, protéger. Et une rougeur qui résiste plusieurs jours, qui s'étend ou qui suinte, se montre : elle ne se traite pas au hasard.",
       "ancrage": "Ce n'est pas un défaut de soin : les selles ont changé. La routine reste la même, et une rougeur qui résiste se montre.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -140,18 +124,16 @@
       },
       "pour_aller_plus_loin": [
         "Tester une autre couche : marque et absorption changent parfois tout.",
-        "Ne jamais appliquer de crème médicamenteuse sans avis : antifongique, corticoïde ou antibiotique se décident avec un médecin.",
         "Surveiller les selles : une diarrhée irrite très vite la peau.",
         "Photographier la lésion : cela aide le professionnel si l'aspect change entre-temps."
       ],
       "principe": "Les selles changent avec l'alimentation, et la peau réagit. La routine reste la même, et une rougeur qui résiste ne se traite pas au hasard.",
       "erreurs_a_eviter": [
-        "Frotter la peau irritée pour la nettoyer.",
-        "Utiliser des lingettes parfumées ou du talc.",
-        "Appliquer une crème médicamenteuse sans avis médical.",
-        "Laisser une couche souillée plusieurs heures."
+        "Frotter la peau irritée pour la nettoyer : la peau se lèse davantage.",
+        "Utiliser des lingettes parfumées ou du talc : ils irritent une peau déjà fragile.",
+        "Laisser une couche souillée plusieurs heures : l'humidité entretient la rougeur."
       ],
-      "consulter_si": "Consulter si : la rougeur persiste au-delà de trois à quatre jours malgré la routine, si elle s'étend, si la peau suinte, saigne, se couvre de vésicules, de pus ou de plaques bien délimitées, si l'enfant a de la fièvre, ou s'il paraît douloureux au change → pédiatre ou médecin traitant.",
+      "consulter_si": "Consulter si : la rougeur persiste plusieurs jours malgré la routine, s'étend, suinte, saigne ou se couvre de vésicules ou de pus, ou si l'enfant a de la fièvre → pédiatre ou médecin traitant.",
       "source": "Source : ameli.fr (Assurance Maladie), érythème fessier du nourrisson : les bons réflexes."
     }
   ]

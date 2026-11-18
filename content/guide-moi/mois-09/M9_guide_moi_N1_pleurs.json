@@ -10,7 +10,7 @@
   "protocoles": [
     {
       "categorie": "pleurs",
-      "situation": "Les pleurs avant le départ / Il pleure dès que je prends mon sac",
+      "situation": "Les pleurs au départ / Il pleure en voyant mon sac",
       "titre": "Annoncer plutôt que ruser",
       "explication": "Tu attrapes ton sac, tes clés, ton manteau, et il fond en larmes avant que tu aies fait un pas. Quelque chose de nouveau vient d'apparaître chez lui : il ne réagit plus à ton départ, il le prévoit. Pour cela il lui a fallu mémoriser une suite de gestes, la relier à ce qui arrive ensuite, et se projeter quelques minutes en avant. Ses pleurs ont donc changé de nature : ils ne disent plus « tu es partie », ils disent « je sais ce qui va se passer ».",
       "ancrage": "Voir son enfant pleurer avant même d'être parti donne envie de faire disparaître les préparatifs. C'est pourtant ce qu'il vient de comprendre qui pleure, et ce qu'il a compris ne se retire plus.",
@@ -30,13 +30,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : un repère avant la séparation",
-        "etapes": [
-          "Un moment fixe dans la journée : pas juste avant de partir, plutôt au calme du matin ou du soir.",
-          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
-          "La séquence « Angoisse de séparation » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Dire toujours la même phrase pendant le geste : le toucher et ta voix finissent par aller ensemble.",
-          "T'arrêter s'il se détourne : un repère se construit sur des séances courtes et répétées."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "separation",
           "titre": "Angoisse de séparation"
@@ -46,11 +40,10 @@
         "Prendre l'habitude d'annoncer les petits départs aussi : la douche, la poubelle, la cave, pas seulement le travail.",
         "Confier de courts moments à un autre adulte : plusieurs fois par semaine, plutôt qu'une longue fois.",
         "Décrire à voix haute ce que tu fais dans la maison : il apprend qu'on peut être ailleurs et toujours là.",
-        "Compter en semaines : l'anticipation s'installe autour de neuf mois, et elle se calme à mesure que les retours s'accumulent."
+        "Compter en semaines : l'anticipation s'installe autour de 9 mois, et elle se calme à mesure que les retours s'accumulent."
       ],
       "principe": "Un enfant qui peut être quitté sans prévenir se met à surveiller en permanence. Prévenir coûte des pleurs sur le moment et fait gagner de la tranquillité le reste du temps.",
       "erreurs_a_eviter": [
-        "Préparer tes affaires en cachette ou sortir pendant qu'il joue : il apprend à te surveiller pour ne plus être pris de court.",
         "Repousser le départ à cause des pleurs : la séparation finit par se faire dans la précipitation, sans rituel.",
         "Rallonger les au revoir : plus le moment s'étire, plus il devient un événement qui mérite d'être redouté.",
         "Lui promettre un retour rapide quand ce n'est pas vrai : la parole donnée est justement ce sur quoi il apprend à s'appuyer."
@@ -59,10 +52,10 @@
     },
     {
       "categorie": "pleurs",
-      "situation": "Les pleurs de nuit / Il me réclame, moi, et personne d'autre",
+      "situation": "Les pleurs de nuit / Il ne veut que moi",
       "titre": "Passer le relais à l'autre parent",
-      "explication": "Il se réveille, l'autre parent y va, et les cris redoublent. Puis tu arrives, et cela s'arrête. Vers neuf mois, un bébé ne se contente plus d'être consolé : il classe les personnes, et il en désigne une en priorité, celle qui l'a le plus souvent apaisé jusque-là. La nuit, quand il est peu réveillé et peu tolérant, cette préférence devient absolue. Ce n'est pas une question de compétence entre vous deux, c'est une habitude installée, et une habitude se déplace.",
-      "ancrage": "Être la seule à pouvoir calmer une nuit est valorisant trois jours et épuisant trois semaines. Beaucoup de mères s'entendent penser qu'elles n'en peuvent plus tout en n'osant pas laisser la place. Le relais se prépare le jour, il ne s'improvise pas à 3h du matin.",
+      "explication": "Il se réveille, l'autre parent y va, et les cris redoublent. Puis tu arrives, et cela s'arrête. Vers 9 mois, un bébé ne se contente plus d'être consolé : il classe les personnes, et il en désigne une en priorité, celle qui l'a le plus souvent apaisé jusque-là. La nuit, quand il est peu réveillé et peu tolérant, cette préférence devient absolue. Ce n'est pas une question de compétence entre vous deux, c'est une habitude installée, et une habitude se déplace.",
+      "ancrage": "Être la seule à pouvoir calmer une nuit est valorisant 3 jours et épuisant 3 semaines. Le relais se prépare le jour, il ne s'improvise pas à 3h du matin.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -95,7 +88,6 @@
       ],
       "principe": "Un enfant se console avec ce qu'il connaît, pas avec qui il préfère. Ce qui déplace une préférence nocturne, c'est le nombre de fois où l'autre adulte va jusqu'au bout.",
       "erreurs_a_eviter": [
-        "Prendre le relais dès que les cris montent : bébé apprend que la protestation ramène la personne attendue.",
         "Commenter la manière de faire de l'autre parent : il perd sa confiance, et bébé perçoit son hésitation.",
         "Le sortir du lit et le bercer longuement : l'appel devient un moment agréable qui se répète la nuit suivante.",
         "Le nourrir par réflexe à chaque réveil : la faim et l'appel se mélangent, et plus rien ne se distingue."
@@ -104,9 +96,9 @@
     },
     {
       "categorie": "pleurs",
-      "situation": "La rage devant un objet / Il hurle devant ce qu'il n'atteint pas",
+      "situation": "La rage devant un objet / Il hurle, ne l'atteint pas",
       "titre": "Aider d'un cran, pas plus",
-      "explication": "Il tend le bras vers l'objet, il se déplace, il l'atteint presque, et il explose. À neuf mois, il attrape désormais presque tout ce qu'il voit, ce qui rend d'autant plus violent le peu qui lui échappe : ce qui est trop haut, ce qu'un adulte tient, ce qu'on vient de lui retirer. Sa colère se dirige d'ailleurs souvent vers toi, avec le regard, parce qu'il a compris que quelqu'un décide. Cette rage n'est ni un débordement inutile ni une exigence : c'est l'énergie qui lui sert à recommencer.",
+      "explication": "Il tend le bras vers l'objet, il se déplace, il l'atteint presque, et il explose. À 9 mois, il attrape désormais presque tout ce qu'il voit, ce qui rend d'autant plus violent le peu qui lui échappe : ce qui est trop haut, ce qu'un adulte tient, ce qu'on vient de lui retirer. Sa colère se dirige d'ailleurs souvent vers toi, avec le regard, parce qu'il a compris que quelqu'un décide. Cette rage n'est ni un débordement inutile ni une exigence : c'est l'énergie qui lui sert à recommencer.",
       "ancrage": "Assister à cette colère sans y mettre fin demande beaucoup, surtout quand la journée touche à sa fin. Tu n'as pas à choisir entre tout lui donner et le laisser s'effondrer : il existe un cran entre les deux.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -124,13 +116,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : après la colère",
-        "etapes": [
-          "Consoler d'abord, proposer le geste ensuite : pendant la crise, c'est toi qu'il lui faut, pas un geste.",
-          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
-          "Suivre la séquence « Frustration motrice » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "L'installer contre toi, pieds libres : sur tes genoux ou allongé face à toi.",
-          "Finir par de longs effleurements sur les mollets : ils relâchent des jambes qui ont beaucoup poussé."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "frustration-motrice",
           "titre": "Frustration motrice"
@@ -145,18 +131,16 @@
       "principe": "Un effort n'apprend quelque chose que s'il reste à portée de réussite. Le rôle de l'adulte est de régler la difficulté, pas de supprimer l'obstacle.",
       "erreurs_a_eviter": [
         "Céder quand la colère monte : il retient que c'est l'intensité qui obtient, pas l'essai.",
-        "Retirer l'objet en cachette pour éviter la crise : il cherche ensuite partout, et la méfiance s'installe.",
-        "Faire à sa place dès la première difficulté : la fierté d'y arriver seul disparaît avec l'effort.",
-        "Laisser la crise aller jusqu'à l'épuisement : la détresse remplace l'apprentissage et la soirée entière en pâtit."
+        "Retirer l'objet en cachette pour éviter la crise : il cherche ensuite partout, et la méfiance s'installe."
       ],
       "consulter_si": "Consulter si : bébé ne se déplace d'aucune manière vers dix mois, ne tend jamais la main vers un objet, ne se sert que d'un seul côté du corps, paraît anormalement mou ou raide, ou perd une compétence qu'il avait acquise → pédiatre ou PMI, qui orientera si besoin.",
       "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), l'activité physique et la motricité libre du tout-petit."
     },
     {
       "categorie": "pleurs",
-      "situation": "La peur de l'étranger / Il refuse que les inconnus l'approchent",
+      "situation": "La peur de l'étranger / Il refuse les inconnus",
       "titre": "Le protéger sans t'excuser",
-      "explication": "Une personne se penche sur la poussette, lui parle, lui prend la main, et il hurle. La peur des visages non familiers est à son maximum autour de neuf mois, et elle est d'autant plus vive que la personne s'approche vite, de face, et le regarde dans les yeux. Ce qui complique le moment n'est pas sa réaction, qui est prévisible : c'est l'adulte en face, souvent vexé, qui insiste, plaisante, ou attend une explication.",
+      "explication": "Une personne se penche sur la poussette, lui parle, lui prend la main, et il hurle. La peur des visages non familiers est à son maximum autour de 9 mois, et elle est d'autant plus vive que la personne s'approche vite, de face, et le regarde dans les yeux. Ce qui complique le moment n'est pas sa réaction, qui est prévisible : c'est l'adulte en face, souvent vexé, qui insiste, plaisante, ou attend une explication.",
       "ancrage": "Devoir gérer sa peur et la susceptibilité d'un adulte en même temps, au supermarché, épuise. Tu as le droit de couper court : ta place est du côté de ton enfant, pas du côté de la politesse.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -176,7 +160,6 @@
         "titre": "Le laisser revenir",
         "etapes": [
           "Le garder contre toi le temps qu'il veut : c'est lui qui décide quand il se retourne.",
-          "Une main immobile dans son dos : la pression constante fait redescendre plus vite que le bercement.",
           "Ne rien commenter de la scène : ni reproche à lui, ni justification devant lui.",
           "Attendre qu'il reprenne le contact visuel : c'est le signe qu'il est revenu.",
           "Reprendre le cours normal des choses : sans en faire un événement, il retient ce que tu en fais."
@@ -192,8 +175,7 @@
       "erreurs_a_eviter": [
         "Le mettre dans les bras d'une personne qu'il ne connaît pas : la peur se confirme au lieu de s'apaiser, et le souvenir reste.",
         "T'excuser de sa réaction devant lui : il comprend, au ton, qu'il vient de mal faire quelque chose.",
-        "Le présenter comme difficile ou sauvage : une étiquette dite devant lui finit par lui coller à l'âge où il la comprendra.",
-        "Insister pour obtenir un sourire ou un au revoir : la demande transforme une peur en obligation."
+        "Le présenter comme difficile ou sauvage : une étiquette dite devant lui finit par lui coller à l'âge où il la comprendra."
       ],
       "consulter_si": "Consulter si : bébé ne sourit à personne, pas même à toi, ne fixe pas les visages, ne réagit pas aux bruits, ne babille pas, ne cherche jamais le contact, ou paraît anormalement mou ou éteint → pédiatre ou PMI."
     }

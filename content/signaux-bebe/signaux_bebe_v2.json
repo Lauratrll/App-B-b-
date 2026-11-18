@@ -1,7 +1,7 @@
 {
   "_info": "Généré par scripts/export_signaux_bebe.py depuis Signaux_bebe_reference.xlsx. Ne pas modifier à la main : corriger le classeur puis relancer le script.",
   "algorithme": {
-    "age": "âge de bébé en mois entier, 0 à 23",
+    "age": "âge de bébé en mois entier, 0 à 11",
     "option_valable": "age_min <= age <= age_max",
     "score_piste": "somme, pour chaque option cochée ET valable, de points[code_piste] (les négatifs comptent)",
     "classement": "tri par score décroissant, seulement score > 0 ; à égalité, l'ordre de la liste « pistes » départage (la première gagne)",
@@ -63,6 +63,12 @@
       "nom": "Inconfort local",
       "libelle": "Gêne : couche, chaud ou froid, vêtement, fesses, vaccin, dents",
       "action": "Regarder la couche, toucher la nuque ou la poitrine (trop chaud ? trop froid ?), vérifier que rien ne serre ni ne gratte, inspecter le corps"
+    },
+    {
+      "code": "FR",
+      "nom": "Frustration",
+      "libelle": "Frustration : veut faire et n'y arrive pas (dès 6 mois)",
+      "action": "Voir ce qui vient de se passer, nommer ce qu'il vit, l'aider juste ce qu'il faut"
     }
   ],
   "options": [
@@ -94,7 +100,7 @@
       "question": "Ses pleurs ?",
       "reponse": "Pleurs intenses qui montent, difficiles à calmer",
       "age_min": 0,
-      "age_max": 9,
+      "age_max": 4,
       "type": "signe",
       "points": {
         "FA": 1,
@@ -118,8 +124,8 @@
       "categorie": "1. Pleurs",
       "question": "Ses pleurs ?",
       "reponse": "Pleurs intenses qui montent, difficiles à calmer",
-      "age_min": 10,
-      "age_max": 23,
+      "age_min": 5,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "FA": 1,
@@ -195,7 +201,7 @@
       "question": "Ses pleurs ?",
       "reponse": "Cri aigu, inhabituel, qui me fait peur",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "alerte",
       "points": {},
       "sources": [
@@ -227,7 +233,7 @@
       "question": "Son regard ?",
       "reponse": "Il me regarde, cherche mon regard",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "CT": 1,
@@ -246,7 +252,7 @@
       "question": "Son regard ?",
       "reponse": "Il détourne le regard ou me fuit",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "FT": 2,
@@ -284,7 +290,7 @@
       "question": "Son regard ?",
       "reponse": "Il fixe dans le vide, sans réaction",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "FT": 2
@@ -301,7 +307,7 @@
       "question": "Son regard ?",
       "reponse": "Ses paupières papillonnent",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "FT": 3
@@ -318,7 +324,7 @@
       "question": "Son visage ?",
       "reponse": "Il se frotte les yeux ou il bâille",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "FT": 3,
@@ -340,7 +346,7 @@
       "question": "Son visage ?",
       "reponse": "Il met ses mains devant le visage, doigts écartés",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "FT": 1,
@@ -358,7 +364,7 @@
       "question": "Son visage ?",
       "reponse": "Visage crispé, yeux serrés, front bombé",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "VE": 1,
@@ -393,7 +399,7 @@
       "question": "Son visage ?",
       "reponse": "Il tire sur ses oreilles",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "FT": 1,
@@ -413,7 +419,7 @@
       "question": "Son visage ?",
       "reponse": "Il bave, mord, se frotte les gencives",
       "age_min": 4,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "IN": 1
@@ -430,7 +436,7 @@
       "question": "Son corps ?",
       "reponse": "Il est crispé et raide",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "VE": 2,
@@ -451,7 +457,7 @@
       "question": "Son corps ?",
       "reponse": "Il est mou, peu tonique",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "FA": -2,
@@ -494,7 +500,7 @@
       "question": "Son corps ?",
       "reponse": "Il est ouvert : membres tendus",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "FT": 1,
@@ -512,7 +518,7 @@
       "question": "Son corps ?",
       "reponse": "Il arque le dos",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "VE": 2,
@@ -554,7 +560,7 @@
       "question": "Ses mouvements ?",
       "reponse": "Ils sont fluides",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "FT": -1,
@@ -574,7 +580,7 @@
       "question": "Ses mouvements ?",
       "reponse": "Il cherche à changer de position",
       "age_min": 3,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "ET": 3
@@ -615,7 +621,7 @@
       "question": "Son environnement ?",
       "reponse": "Stimulant : écran, bruit, agitation, lumière forte",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "FT": 1,
@@ -634,7 +640,7 @@
       "question": "Son environnement ?",
       "reponse": "Calme, lumière douce",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "SU": -2
@@ -652,7 +658,7 @@
       "question": "Son environnement ?",
       "reponse": "Posé, en sécurité (lit, tapis, transat, chaise…)",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "CT": 2
@@ -670,7 +676,7 @@
       "question": "Son environnement ?",
       "reponse": "Dans mes bras ou en portage",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "CT": -2
@@ -687,7 +693,7 @@
       "question": "Son environnement ?",
       "reponse": "En statique",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "SU": -1
@@ -704,7 +710,7 @@
       "question": "Son environnement ?",
       "reponse": "En mouvement",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "SU": 1
@@ -721,7 +727,7 @@
       "question": "Sa journée ?",
       "reponse": "Très remplie : visites, sorties…",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "FT": 1,
@@ -741,7 +747,7 @@
       "question": "Sa journée ?",
       "reponse": "Stimulante : écran, bruit, agitation, lumière forte",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "SU": 2
@@ -760,7 +766,7 @@
       "question": "Sa journée ?",
       "reponse": "Crèche ou nounou en journée",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "FT": 1,
@@ -778,7 +784,7 @@
       "question": "Sa journée ?",
       "reponse": "Changement de repères : nouveau lieu, rythme, garde…",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "CT": 1,
@@ -796,7 +802,7 @@
       "question": "Sa journée ?",
       "reponse": "Un vaccin ces dernières 48 h",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "IN": 2
@@ -813,7 +819,7 @@
       "question": "Sa journée ?",
       "reponse": "Calme, peu de monde, lumière douce",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "SU": -1
@@ -831,7 +837,7 @@
       "question": "Sa journée ?",
       "reponse": "Bébé beaucoup posé",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "CT": 2
@@ -849,7 +855,7 @@
       "question": "Sa journée ?",
       "reponse": "Bébé beaucoup porté",
       "age_min": 0,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "CT": -1
@@ -866,7 +872,7 @@
       "question": "Sa journée ?",
       "reponse": "Il a eu du temps pour explorer, bouger librement",
       "age_min": 6,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "ET": -1
@@ -883,51 +889,89 @@
       "question": "Sa journée ?",
       "reponse": "Il a été plutôt contraint (siège, transat, parc, porte-bébé…)",
       "age_min": 6,
-      "age_max": 23,
+      "age_max": 11,
       "type": "signe",
       "points": {
         "ET": 2,
-        "EN": 1
+        "EN": 1,
+        "FR": 2
       },
       "sources": [
-        "S24"
+        "S24",
+        "S35"
       ],
       "statut_preuve": "Proposition à valider",
       "note_interne": "À partir de 6 mois (mobilité). Proposition éditoriale, sans source."
+    },
+    {
+      "id": "o045",
+      "categorie": "5. Mouvements",
+      "question": "Ses mouvements ?",
+      "reponse": "Il essaie d'attraper, de se déplacer ou de se redresser, et n'y arrive pas",
+      "age_min": 6,
+      "age_max": 11,
+      "type": "signe",
+      "points": {
+        "ET": 1,
+        "FR": 3
+      },
+      "sources": [
+        "S35"
+      ],
+      "statut_preuve": "Sourcé",
+      "note_interne": "Frustration : l'écart entre ce qu'il cherche à faire et ce que son corps permet (S35). Nouveau 18/11."
+    },
+    {
+      "id": "o046",
+      "categorie": "7. Journée",
+      "question": "Sa journée ?",
+      "reponse": "On vient de l'interrompre ou de lui retirer un objet",
+      "age_min": 6,
+      "age_max": 11,
+      "type": "signe",
+      "points": {
+        "FR": 3
+      },
+      "sources": [
+        "S35"
+      ],
+      "statut_preuve": "Proposition à valider",
+      "note_interne": "Déclencheur classique de frustration. Proposition éditoriale à valider. Nouveau 18/11."
+    },
+    {
+      "id": "o047",
+      "categorie": "1. Pleurs",
+      "question": "Ses pleurs ?",
+      "reponse": "Il crie fort, jette ou frappe ses jouets",
+      "age_min": 6,
+      "age_max": 11,
+      "type": "signe",
+      "points": {
+        "SU": 1,
+        "FR": 2
+      },
+      "sources": [
+        "S35",
+        "S36"
+      ],
+      "statut_preuve": "Proposition à valider",
+      "note_interne": "Expression de frustration, partagée avec la sur-stimulation. Proposition éditoriale à valider. Nouveau 18/11."
     }
   ],
   "alertes": [
     {
-      "situation": "Fièvre chez un bébé de moins de 3 mois",
-      "pourquoi": "Avis rapide nécessaire",
-      "a_dire": "Consulter sans attendre.",
-      "sources": "S09, S08",
-      "urgence": "Immédiate",
-      "declencheurs": [],
-      "combinaison": null
-    },
-    {
-      "situation": "Sang dans les selles",
-      "pourquoi": "À faire évaluer",
-      "a_dire": "Consulter sans attendre.",
-      "sources": "S09, S08, S21",
-      "urgence": "Immédiate",
-      "declencheurs": [],
-      "combinaison": null
-    },
-    {
       "situation": "Selles très pâles, grises ou beige pâle",
       "pourquoi": "Peut signaler un problème du foie",
-      "a_dire": "Consulter rapidement.",
+      "a_dire": "Consulte rapidement, ouvre SOS.",
       "sources": "S21",
       "urgence": "Rapide",
       "declencheurs": [],
       "combinaison": null
     },
     {
-      "situation": "Selles dures et sèches ; plus de 48 h sans selle avant 6 semaines",
+      "situation": "Selles dures et sèches, ou plus de 48 h sans selle avant 6 semaines",
       "pourquoi": "À évaluer",
-      "a_dire": "En parler à un professionnel.",
+      "a_dire": "Parles-en à ton pédiatre, ouvre SOS.",
       "sources": "S21",
       "urgence": "Rapide",
       "declencheurs": [],
@@ -993,28 +1037,10 @@
       }
     },
     {
-      "situation": "Diarrhée, vomissements",
-      "pourquoi": "À faire évaluer",
-      "a_dire": "Consulter.",
-      "sources": "S08, S07",
-      "urgence": "Rapide",
-      "declencheurs": [],
-      "combinaison": null
-    },
-    {
       "situation": "Chute ou blessure récente",
       "pourquoi": "À faire évaluer",
       "a_dire": "Consulter.",
       "sources": "S08, S07",
-      "urgence": "Rapide",
-      "declencheurs": [],
-      "combinaison": null
-    },
-    {
-      "situation": "Après un vaccin : fièvre supérieure à 39 °C, éruption, pleurs inconsolables ou bébé anormalement ronchon plus de 24 h, somnolence anormale, inflammation qui s'aggrave",
-      "pourquoi": "Réaction qui dépasse l'attendu",
-      "a_dire": "Consulter.",
-      "sources": "S32",
       "urgence": "Rapide",
       "declencheurs": [],
       "combinaison": null
@@ -1203,126 +1229,151 @@
       "titre": "Après une vaccination, quand dois-je m'inquiéter et appeler un médecin ?",
       "auteur": "sante.fr",
       "lien": "https://www.sante.fr/apres-une-vaccination-quand-dois-je-minquieter-et-appeler-un-medecin"
+    },
+    "S33": {
+      "titre": "Pleurs du nouveau-né (Mieux vivre avec notre enfant)",
+      "auteur": "Institut national de santé publique du Québec (INSPQ)",
+      "lien": "https://www.inspq.qc.ca/mieux-vivre/bebe/facons-communiquer/pleurs"
+    },
+    "S34": {
+      "titre": "Brochure « Les pleurs de bébé » (reprend la BD « De quoi as-tu besoin ?! », Éditions First, 2022)",
+      "auteur": "Fondation pour l'enfance",
+      "lien": "https://www.fondation-enfance.org/wp-content/uploads/2025/07/Brochure-les-pleurs-de-bebe_version-consultable_.pdf"
+    },
+    "S35": {
+      "titre": "The Magic of Everyday Moments : 6-9 Months",
+      "auteur": "Claire Lerner, Amy Dombro, Karen Levine ; ZERO TO THREE et Johnson & Johnson Pediatric Institute",
+      "lien": "https://www.zerotothree.org/wp-content/uploads/2016/04/6-to-9-Months.pdf"
+    },
+    "S36": {
+      "titre": "Les bébés et les comportements agressifs (« Une approche parentale simple : réconforter, jouer et enseigner »)",
+      "auteur": "Fondation Investir dans l'enfance (Toronto, Canada), sur Enfant-encyclopédie",
+      "lien": "https://www.enfant-encyclopedie.com/sites/default/files/agressivite-chez-les-bebes.pdf"
     }
   },
   "cartes": {
     "FA": {
       "titre": "Faim",
-      "sens": "Il cherche peut-être à manger. Les pleurs sont le signe tardif de la faim : avant, il cherche le sein, ouvre la bouche, porte les mains à la bouche.",
+      "sens": "Il cherche peut-être à manger. Les pleurs arrivent en dernier : avant, il cherche le sein ou le biberon, ouvre la bouche, se lèche les lèvres, porte les mains à la bouche.",
       "sources_sens": "S03, S04, S10",
       "gestes": [
-        "S'il pleure très fort, calme-le d'abord : câlin, voix douce.",
-        "Propose-lui le sein ou le biberon.",
-        "Laisse-le téter à son rythme.",
-        "Il a assez mangé quand il serre les lèvres, tourne la tête, ralentit ou lâche : arrête là."
+        "Le calmer d'abord : s'il pleure très fort, un câlin et une voix douce l'aideront à boire plus sereinement.",
+        "Lui proposer à manger : le sein ou le biberon, installés confortablement tous les deux.",
+        "Suivre son rythme : laisse-le téter ou boire à son rythme, sans compter ni chronométrer.",
+        "Repérer la satiété : il serre les lèvres, tourne la tête, ralentit, lâche ou s'endort. Tu peux t'arrêter là."
       ],
       "sources_gestes": "S09, S07, S02, S03",
-      "observer": "Il prend avec appétit et se calme. Les signes précoces (il cherche, mains à la bouche) précèdent les pleurs.",
+      "observer": "Il prend avec appétit et se calme. Les premiers signes (il cherche, mains à la bouche) arrivent avant les pleurs : tu pourras ainsi répondre avant les cris.",
       "sources_observer": "S04, S07",
-      "consulter": "S'il refuse de boire, vomit ou régurgite beaucoup, ou prend peu de poids : en parler à un professionnel de santé.",
+      "consulter": "Consulte ton médecin traitant, ton pédiatre ou la PMI s'il boit peu ou refuse de boire, ou s'il prend peu de poids.",
       "sources_consulter": "S08, S07"
     },
     "VE": {
       "titre": "Ventre et gaz",
-      "sens": "Il a peut-être mal au ventre ou des gaz. Signes : jambes repliées ou raides, dos arqué, ventre dur, crises à heures régulières.",
+      "sens": "Il a peut-être mal au ventre ou des gaz. Pleurer lui fait aussi avaler de l'air, ce qui en ajoute. Signes possibles : jambes repliées ou raides, dos arqué, ventre dur, crises à heures régulières.",
       "sources_sens": "S08, S07",
       "gestes": [
-        "Garde-le contre toi, dos soutenu, et aide-le à faire son rot en tapotant ou en frottant doucement son dos.",
-        "Replie doucement ses jambes vers son ventre.",
-        "Vérifie que la couche et les vêtements ne serrent pas son ventre.",
-        "Porte-le, berce-le doucement."
+        "Faire son rot : garde-le contre toi, dos soutenu, et tapote ou frotte doucement son dos.",
+        "Replier ses jambes : ramène doucement ses jambes vers son ventre.",
+        "Libérer son ventre : vérifie que la couche et les vêtements ne le compriment pas, et desserre ce qui serre.",
+        "L'allonger sur ton avant-bras : à plat ventre, son dos contre ton ventre, sa tête au creux de ton coude, ta main entre ses jambes. Cette position est souvent apaisante.",
+        "Le bercer : porte-le et berce-le lentement."
       ],
-      "sources_gestes": "S07, S10, S31",
-      "observer": "Il se soulage après un rot ou les jambes repliées. Les crises reviennent à heures régulières. Repère des coliques : plus de 3 h par jour, 3 jours par semaine, depuis plus d'une semaine.",
+      "sources_gestes": "S07, S10, S31, S33",
+      "observer": "Il se soulage après un rot, quand ses jambes sont repliées ou quand son ventre n'est plus comprimé. Les crises reviennent à heures régulières. Les professionnels parlent de coliques quand les pleurs durent plus de 3 heures par jour, 3 jours par semaine, depuis plus d'une semaine : c'est un repère, pas un diagnostic.",
       "sources_observer": "S08, S09",
-      "consulter": "Pleurs qui augmentent après la 8e semaine, sang dans les selles, fièvre, vomissements : consulter.",
-      "sources_consulter": "S08, S09, S21"
+      "consulter": "Consulte ton pédiatre, ton médecin traitant ou la PMI si les pleurs augmentent après 8 semaines ou si, après plusieurs jours d'essais, il reste souvent inconsolable.",
+      "sources_consulter": "S08, S09, S33"
     },
     "FT": {
       "titre": "Fatigue",
-      "sens": "Il est peut-être fatigué. Signes : il détourne le regard, se frotte les yeux, bâille, regard vide, paupières qui papillonnent. Les pleurs sont un signe tardif.",
+      "sens": "Il est peut-être fatigué. Signes possibles : il détourne le regard, se frotte les yeux, bâille, a le regard vide, ses paupières papillonnent. Les pleurs arrivent en dernier.",
       "sources_sens": "S05, S10, S30",
       "gestes": [
-        "Installe-le dans un endroit calme, lumière basse.",
-        "Berce-le ou porte-le doucement, sans le stimuler.",
-        "Propose-lui de dormir.",
-        "S'il montre aussi des signes de faim, nourris-le d'abord, puis propose-lui la sieste."
+        "Rester présent : en éveil agité, il a besoin de ta voix et de ton contact pour s'apaiser.",
+        "Choisir le calme : installe-le dans un endroit calme, lumière basse.",
+        "Le bercer : berce-le ou porte-le doucement, sans le stimuler.",
+        "Passer au sommeil : propose-lui de dormir. S'il montre aussi des signes de faim, donne-lui à manger d'abord."
       ],
       "sources_gestes": "S05, S10",
-      "observer": "Compte le temps d'éveil. Il se calme quand on l'installe pour dormir.",
+      "observer": "Compte depuis combien de temps il est éveillé. Il se calme quand tu l'installes pour dormir.",
       "sources_observer": "S05",
       "consulter": null,
       "sources_consulter": null
     },
     "CT": {
       "titre": "Besoin de contact",
-      "sens": "Il a peut-être besoin de contact. C'est la principale cause de pleurs : il cherche la chaleur, le bercement et la voix de ses parents pour se sentir en sécurité.",
-      "sources_sens": "S31, S07",
+      "sens": "Il a peut-être besoin de contact. C'est un vrai besoin : il cherche ta chaleur, ton bercement et ta voix pour se sentir en sécurité. À cet âge, il n'a pas encore la notion du temps et attend une réponse rapide.",
+      "sources_sens": "S31, S07, S33",
       "gestes": [
-        "Prends-le dans les bras, contre toi.",
-        "Parle-lui doucement, berce-le.",
-        "Si ça le calme vite, c'était bien le contact : porte-le (dans les bras ou en porte-bébé)."
+        "Le prendre contre toi : dans tes bras, en peau à peau ou en porte-bébé.",
+        "Lui parler doucement : ta voix lui est familière, dis-lui ce que tu fais.",
+        "Le bercer : un mouvement lent et régulier.",
+        "Observer sa réaction : s'il se calme vite, le contact y est sans doute pour beaucoup, et tu peux continuer à le porter."
       ],
       "sources_gestes": "S07, S15, S31",
-      "observer": "Le test : le prendre dans les bras. Un calme rapide confirme le besoin de contact.",
+      "observer": "Le test : le prendre dans les bras. Un calme rapide va dans le sens d'un besoin de contact.",
       "sources_observer": "S07, S15",
       "consulter": null,
       "sources_consulter": null
     },
     "SU": {
       "titre": "Sur-stimulation",
-      "sens": "Il a peut-être eu trop de stimulations. Signes : il détourne le regard, met les mains devant le visage, se raidit, dos arqué. Contexte : visites, bruit, lumière forte, écran.",
+      "sens": "Il a peut-être eu trop de stimulations. Signes possibles : il détourne le regard, met les mains devant le visage, se raidit, cambre le dos. Contexte : visites, bruit, lumière forte, écran.",
       "sources_sens": "S06, S10",
       "gestes": [
-        "Emmène-le dans une pièce calme, lumière basse, écran éteint.",
-        "Réduis le nombre de personnes autour de lui.",
-        "Tiens-le contre toi en le berçant très doucement : il peut s'agiter davantage quand on le stimule.",
-        "Laisse-lui quelques minutes pour redescendre."
+        "Changer de pièce : emmène-le dans un endroit calme, lumière basse, écran éteint.",
+        "Faire le calme : garde peu de monde autour de lui, moins de voix, moins de mains.",
+        "Le tenir tout contre toi : berce-le très doucement, car il peut s'agiter davantage si on le stimule.",
+        "Lui laisser le temps : accompagne-le le temps qu'il redescende."
       ],
       "sources_gestes": "S06, S10, S09",
-      "observer": "Il s'apaise au calme, avec moins de monde. Il s'agite plus quand on le porte ou le stimule.",
+      "observer": "Il s'apaise au calme, avec moins de monde. Il s'agite davantage quand on le porte ou qu'on le stimule.",
       "sources_observer": "S06, S10",
       "consulter": null,
       "sources_consulter": null
     },
     "SO": {
       "titre": "Pleurs du soir",
-      "sens": "Ce sont peut-être les pleurs du soir : fréquents entre 2 semaines et 3-4 mois, surtout en fin d'après-midi et le soir. Ils commencent et s'arrêtent brusquement, sans cause trouvée, et passent avec l'âge.",
+      "sens": "Ce sont peut-être les pleurs du soir, que l'on appelle aussi pleurs de décharge. Ils sont fréquents de 2 semaines à 3 ou 4 mois, surtout en fin d'après-midi et le soir. Ils commencent et s'arrêtent brusquement, résistent souvent à l'apaisement et diminuent avec l'âge.",
       "sources_sens": "S07, S11, S31",
       "gestes": [
-        "Il n'y a pas de cause à chercher, et tu n'y es pour rien.",
-        "Porte-le, berce-le, change de position ou de pièce.",
-        "Relaie-toi avec quelqu'un si tu peux.",
-        "Si tu es à bout : pose-le en sécurité dans son lit, éloigne-toi quelques minutes, respire lentement."
+        "Vérifier ses besoins : faim, couche, chaud ou froid, rot. Si tout est comblé, tu peux accepter ces pleurs.",
+        "Rester près de lui : ta présence et ton regard comptent déjà, même s'il continue de pleurer.",
+        "Monter d'un cran : parle-lui doucement, pose tes mains sur lui, prends-le contre toi en restant calme et silencieux, puis berce-le.",
+        "Changer d'air : si rien ne marche, change de pièce ou sors avec lui prendre l'air.",
+        "Garder ce qui l'apaise : quand tu trouves, continue, et reviens de temps en temps au geste plus léger.",
+        "Passer le relais : demande à quelqu'un de te remplacer, si tu peux.",
+        "T'écouter : si tu es à bout, pose-le sur le dos dans son lit, éloigne-toi quelques minutes et respire lentement. Allo Parents Bébé, au 0 800 00 34 56, répond gratuitement."
       ],
-      "sources_gestes": "S09, S11",
-      "observer": "Âge de 2 semaines à 3-4 mois, fin d'après-midi ou soirée, début et fin brusques, rien d'autre ne l'explique, les essais ne marchent pas.",
+      "sources_gestes": "S09, S11, S33, S34",
+      "observer": "Il a entre 2 semaines et 3 ou 4 mois, les pleurs viennent en fin d'après-midi ou en soirée, commencent et finissent brusquement, rien d'autre ne les explique et les essais ne les calment pas.",
       "sources_observer": "S07, S11",
-      "consulter": "Pleurs sans horaire précis, qui augmentent après la 8e semaine, qui durent plus de 3 h par jour ou qui continuent après 3 mois : en parler à un professionnel de santé.",
+      "consulter": "Parles-en à ton pédiatre, à ton médecin traitant ou à la PMI si les pleurs n'ont pas d'horaire précis, augmentent après 8 semaines, durent plus de 3 heures par jour ou continuent après 3 mois.",
       "sources_consulter": "S08, S09"
     },
     "ET": {
       "titre": "Nouvelle étape",
-      "sens": "Il traverse peut-être une nouvelle étape : il s'exerce à un geste (se retourner, ramper, s'asseoir), ou il est plus agité et plus collant depuis quelques jours.",
+      "sens": "Il traverse peut-être une nouvelle étape : il s'exerce à un nouveau geste, ou il est plus agité et plus collant depuis quelques jours. Chaque bébé vit ces turbulences à son rythme, quand lui y arrive.",
       "sources_sens": "S18",
       "gestes": [
-        "Laisse-lui de l'espace pour s'exercer : tapis, sol, sans le contraindre.",
-        "Reste près de lui, disponible, et encourage-le.",
-        "Si c'est du contact qu'il cherche, donne-lui plus de présence ces jours-là."
+        "Lui laisser de l'espace : tapis, sol, sans le contraindre.",
+        "Rester près de lui : sois disponible et encourage-le.",
+        "Donner de la présence : s'il cherche surtout ton contact, offre-lui plus de bras ces jours-là."
       ],
       "sources_gestes": "S18",
-      "observer": "Il répète un geste, il est plus agité et plus collant depuis quelques jours, et un progrès visible suit.",
+      "observer": "Il répète un geste, il est plus agité et plus collant depuis quelques jours, rien d'autre ne l'explique, et un progrès se voit ensuite.",
       "sources_observer": "S18",
       "consulter": null,
       "sources_consulter": null
     },
     "EN": {
       "titre": "Envie d'échanger",
-      "sens": "Il cherche peut-être à jouer, à échanger. Signes : il te regarde, cherche ton regard, gazouille.",
+      "sens": "Il cherche peut-être à jouer, à échanger. Signes possibles : il te regarde, cherche ton regard, gazouille.",
       "sources_sens": "S06, S10",
       "gestes": [
-        "Mets-toi face à lui, parle-lui, souris-lui.",
-        "Propose-lui un jeu simple : une chanson, un objet à regarder ou à attraper."
+        "Se mettre face à lui : parle-lui, souris-lui, laisse-lui le temps de répondre.",
+        "Proposer un jeu simple : une chanson, un objet à regarder ou à attraper."
       ],
       "sources_gestes": "S06, S10, S07",
       "observer": "Il se calme et sourit quand tu joues avec lui.",
@@ -1331,21 +1382,203 @@
       "sources_consulter": null
     },
     "IN": {
-      "titre": "Gêne (couche, chaud ou froid, vêtement…)",
-      "sens": "Quelque chose le gêne peut-être : couche sale ou serrée, trop chaud ou trop froid, vêtement, fesses irritées, vaccin récent, dents.",
+      "titre": "Une gêne : couche, température, vêtement",
+      "sens": "Quelque chose le gêne peut-être : une couche sale ou serrée, trop chaud ou trop froid, un vêtement, des fesses irritées, un vaccin récent.",
       "sources_sens": "S07, S10, S22, S32",
       "gestes": [
-        "Regarde la couche et change-la si besoin.",
-        "Touche sa nuque ou sa poitrine : moite, il a trop chaud ; fraîche, il a froid. Ajuste ses couches. Des mains et des pieds froids ne comptent pas.",
-        "Cherche ce qui gratte ou serre : étiquette, couture, cheveu enroulé autour d'un doigt ou d'un orteil.",
-        "Après un vaccin, regarde la zone d'injection et reste près de lui."
+        "Regarder la couche : change-la si besoin.",
+        "Toucher sa nuque ou sa poitrine : moite, il a peut-être trop chaud ; fraîche, il a peut-être froid. Ajoute ou retire une épaisseur de vêtement. Ses mains et ses pieds sont souvent frais : ils ne disent rien de sa température.",
+        "Chercher ce qui gratte : étiquette, couture, cheveu enroulé autour d'un doigt ou d'un orteil.",
+        "Après un vaccin : regarde la zone d'injection et reste près de lui."
       ],
       "sources_gestes": "S07, S10, S22, S32",
-      "observer": "Il se calme après le change ou l'ajustement. Repère de température de chambre : 16-20 °C.",
+      "observer": "Il se calme après le change ou l'ajustement. Repère pour la chambre : de 16 à 20 °C.",
       "sources_observer": "S22",
-      "consulter": "Après un vaccin : fièvre supérieure à 39 °C, éruption, pleurs inconsolables ou ronchon plus de 24 h. Il tire sur son oreille avec de la fièvre : consulter.",
-      "sources_consulter": "S32, S07"
+      "consulter": null,
+      "sources_consulter": null
+    },
+    "FR": {
+      "titre": "Frustration : il veut, mais n'y arrive pas",
+      "sens": "Il est peut-être frustré. À cet âge, il découvre qu'il peut agir sur les objets et cherche à faire plus que ce que son corps permet encore : attraper, ramper, se redresser. Signes possibles : il grogne et s'agite avant de pleurer, crie fort, jette ses jouets, se raidit, se cambre, souvent juste après un essai raté ou une interruption.",
+      "sources_sens": "S35, S36",
+      "gestes": [
+        "Regarder ce qui vient de se passer : jouet tombé ou hors de portée, essai raté, activité interrompue, position qui le coince.",
+        "Nommer ce qu'il vit : « Tu voulais l'attraper, c'est difficile. » Une phrase simple, d'une voix calme.",
+        "L'aider juste ce qu'il faut : rapproche un peu le jouet, ou pose ta main contre la plante de ses pieds pour qu'il se pousse lui-même. Laisse-lui l'essentiel du geste.",
+        "Accepter son mécontentement : même aidé, il peut pleurer encore, car il cherche à y arriver seul. Reste près de lui, sans te presser de tout arranger.",
+        "Changer de position ou de jouet : si ça dure, installe-le autrement (sur le dos, assis, au sol) ou propose un jouet plus facile à attraper.",
+        "Prévoir ses essais : place un jouet un peu hors de portée, pas trop loin, pour qu'il réussisse souvent."
+      ],
+      "sources_gestes": "S35, S36",
+      "observer": "Il se calme quand tu l'aides un peu, rapproches le jouet ou changes sa position. Les pleurs montent surtout après une interruption ou quand il est contraint (siège, transat, parc).",
+      "sources_observer": "S35",
+      "consulter": "Consulte ton pédiatre, ton médecin traitant ou la PMI si, après plusieurs jours d'essais, il reste souvent inconsolable.",
+      "sources_consulter": null
     }
+  },
+  "cartes_par_age": {
+    "FA": [
+      {
+        "age_min": 6,
+        "age_max": 11,
+        "tranche": "6 à 11 mois",
+        "gestes": [
+          "Le calmer d'abord : s'il pleure très fort, prends-le contre toi, voix douce ; il mangera plus sereinement.",
+          "Lui proposer à manger : le sein, le biberon ou son repas, installé confortablement face à toi.",
+          "Suivre ses signes : il ouvre la bouche quand il en veut, serre les lèvres ou détourne la tête quand il n'en veut plus.",
+          "S'arrêter à son signal : s'il tourne la tête, refuse ou se met à jouer, il a sans doute assez mangé, même s'il reste dans l'assiette."
+        ],
+        "observer": "Il mange avec appétit et se calme. S'il refuse, joue ou détourne la tête, il n'a probablement pas faim : une autre piste peut mieux convenir.",
+        "sources_sens": null,
+        "sources_gestes": "S01, S02, S09",
+        "sources_observer": "S01, S04",
+        "sources_consulter": null
+      }
+    ],
+    "VE": [
+      {
+        "age_min": 3,
+        "age_max": 8,
+        "tranche": "3 à 8 mois",
+        "sens": "Il a peut-être des gaz ou un ventre inconfortable. Pleurer lui fait aussi avaler de l'air, ce qui en ajoute. Signes possibles : jambes repliées ou raides, dos arqué, ventre tendu, il se tortille.",
+        "gestes": [
+          "Faire son rot : garde-le contre toi, dos soutenu, et tapote ou frotte doucement son dos.",
+          "Replier ses jambes : ramène doucement ses jambes vers son ventre.",
+          "Libérer son ventre : vérifie que la couche et les vêtements ne le compriment pas, et desserre ce qui serre.",
+          "L'allonger sur ton avant-bras : à plat ventre, son dos contre ton ventre, sa tête au creux de ton coude, ta main entre ses jambes. Cette position est souvent apaisante.",
+          "Le bercer : porte-le et berce-le lentement."
+        ],
+        "observer": "Il se soulage après un rot, quand ses jambes sont repliées ou quand son ventre n'est plus comprimé.",
+        "consulter": "Consulte ton pédiatre, ton médecin traitant ou la PMI si, après plusieurs jours d'essais, il reste souvent inconsolable.",
+        "sources_sens": "S33",
+        "sources_gestes": "S07, S10, S33",
+        "sources_observer": "S07",
+        "sources_consulter": "S33"
+      },
+      {
+        "age_min": 9,
+        "age_max": 11,
+        "tranche": "9 à 11 mois",
+        "sens": "Il a peut-être des gaz ou un ventre inconfortable. Signes possibles : il se tortille, plie les jambes, porte la main à son ventre, son ventre est tendu.",
+        "gestes": [
+          "Libérer son ventre : vérifie que la couche, le pantalon ou la ceinture ne le compriment pas, et desserre ce qui serre.",
+          "Le tenir contre toi : dos soutenu, berce-le ou marche doucement avec lui.",
+          "Replier ses jambes : s'il est allongé, ramène doucement ses jambes vers son ventre.",
+          "Lui proposer de bouger : un moment au sol, à son rythme, quand il en a envie."
+        ],
+        "observer": "Il se soulage quand son ventre n'est plus comprimé ou après avoir bougé.",
+        "consulter": "Consulte ton pédiatre, ton médecin traitant ou la PMI si, après plusieurs jours d'essais, il reste souvent inconsolable.",
+        "sources_sens": "S33",
+        "sources_gestes": "S07",
+        "sources_observer": "S07",
+        "sources_consulter": "S33"
+      }
+    ],
+    "FT": [
+      {
+        "age_min": 3,
+        "age_max": 11,
+        "tranche": "3 à 11 mois",
+        "sens": "Il est peut-être fatigué. À cet âge, la fatigue se voit aussi à son comportement : maladresse, demande de contact, grognements ou pleurs, ennui de ses jouets, plus d'agitation, en plus du regard qui fuit, des yeux frottés et des bâillements. Les pleurs arrivent en dernier.",
+        "gestes": [
+          "Baisser la stimulation : coupe les jeux, l'écran, la musique forte, lumière basse.",
+          "Choisir le calme : installe-le dans un endroit calme, avec ton contact ou sa couverture.",
+          "Proposer la sieste : installe-le comme pour dormir, avec ses gestes habituels.",
+          "Penser à manger : s'il montre aussi des signes de faim, donne-lui à manger d'abord, puis la sieste."
+        ],
+        "observer": "Compte depuis combien de temps il est éveillé et ce qu'il a fait. Il se calme quand tu l'installes pour dormir.",
+        "sources_sens": "S05, S10, S30",
+        "sources_gestes": "S05, S10",
+        "sources_observer": "S05",
+        "sources_consulter": null
+      }
+    ],
+    "CT": [
+      {
+        "age_min": 9,
+        "age_max": 11,
+        "tranche": "9 à 11 mois",
+        "sens": "Il a peut-être besoin de contact et de réassurance. C'est un vrai besoin : il a besoin de te sentir, de te voir et de t'entendre pour se sentir en sécurité.",
+        "gestes": [
+          "Le prendre contre toi : dans tes bras ou sur tes genoux, le temps qu'il se rassure.",
+          "Nommer ce qu'il ressent : « Tu veux des bras. Je suis là. » Une phrase simple suffit.",
+          "Rester à portée de vue : s'il t'a perdu des yeux, dis-lui où tu es.",
+          "Annoncer avant de partir : « Je vais dans la cuisine, je reviens. »"
+        ],
+        "observer": "Un câlin le calme vite, ou il se calme quand il te voit ou t'entend.",
+        "sources_sens": "S31, S07",
+        "sources_gestes": "S31, S07",
+        "sources_observer": "S07",
+        "sources_consulter": null
+      }
+    ],
+    "SU": [
+      {
+        "age_min": 6,
+        "age_max": 11,
+        "tranche": "6 à 11 mois",
+        "gestes": [
+          "Offrir un sas : quelques instants sans rien proposer, lumière basse, sans question.",
+          "Réduire les entrées : coupe écran, musique, bruit, et éloigne-le du groupe.",
+          "Rester disponible : tiens-le contre toi ou à côté de toi, sans le stimuler.",
+          "L'accueillir : s'il pleure, laisse-le pleurer contre toi, sans chercher à l'arrêter."
+        ],
+        "observer": "Il s'apaise au calme, avec moins de monde, et s'agite quand on le stimule.",
+        "sources_sens": null,
+        "sources_gestes": "S06, S10",
+        "sources_observer": "S06, S10",
+        "sources_consulter": null
+      }
+    ],
+    "EN": [
+      {
+        "age_min": 3,
+        "age_max": 8,
+        "tranche": "3 à 8 mois",
+        "gestes": [
+          "Se mettre face à lui : parle-lui, souris-lui, laisse-lui le temps de répondre.",
+          "Proposer un jeu simple : une chanson, un hochet, un objet à regarder ou à attraper.",
+          "Jouer à coucou : cache ton visage, puis montre-le avec un grand sourire."
+        ],
+        "sources_sens": null,
+        "sources_gestes": "S06, S10",
+        "sources_observer": "S06, S10",
+        "sources_consulter": null
+      },
+      {
+        "age_min": 9,
+        "age_max": 11,
+        "tranche": "9 à 11 mois",
+        "gestes": [
+          "Se mettre à sa hauteur : regarde-le, parle-lui, laisse-lui le temps de répondre.",
+          "Proposer un jeu simple : cache-cache avec un objet, un livre cartonné, une chanson avec des gestes.",
+          "L'imiter : reproduis un son ou un geste, et laisse-le te copier à son tour."
+        ],
+        "sources_sens": null,
+        "sources_gestes": "S06, S10",
+        "sources_observer": "S06, S10",
+        "sources_consulter": null
+      }
+    ],
+    "IN": [
+      {
+        "age_min": 4,
+        "age_max": 11,
+        "tranche": "4 à 11 mois",
+        "sens": "Quelque chose le gêne peut-être : une couche sale ou serrée, trop chaud ou trop froid, un vêtement, des fesses irritées, un vaccin récent, des dents qui poussent.",
+        "gestes": [
+          "Regarder la couche : change-la si besoin.",
+          "Toucher sa nuque ou sa poitrine : moite, il a peut-être trop chaud ; fraîche, il a peut-être froid. Ajoute ou retire une épaisseur de vêtement. Ses mains et ses pieds sont souvent frais : ils ne disent rien de sa température.",
+          "Chercher ce qui gratte : étiquette, couture, cheveu enroulé autour d'un doigt ou d'un orteil.",
+          "Regarder ses gencives : gonflées ou rouges, avec de la bave et l'envie de mordre, elles peuvent le gêner. Avant tout produit pour ses gencives, demande conseil à ton pharmacien.",
+          "Après un vaccin : regarde la zone d'injection et reste près de lui."
+        ],
+        "sources_sens": "S07, S10, S22, S32",
+        "sources_gestes": "S07, S10, S22, S32",
+        "sources_observer": null,
+        "sources_consulter": null
+      }
+    ]
   },
   "etapes": [
     {
@@ -1490,8 +1723,8 @@
       }
     },
     {
-      "nom": "pleurs_intenses_14_mois",
-      "age": 14,
+      "nom": "pleurs_intenses_11_mois",
+      "age": 11,
       "reponses_cochees": [
         "Pleurs intenses qui montent, difficiles à calmer"
       ],
@@ -1699,7 +1932,35 @@
             "score": 5
           },
           {
+            "nom": "Frustration : veut faire et n'y arrive pas (dès 6 mois)",
+            "score": 2
+          },
+          {
             "nom": "Veut de l'échange, de l'activité (ajout proposé)",
+            "score": 1
+          }
+        ],
+        "confiance": "Faible : trop peu d'éléments, plusieurs pistes possibles",
+        "messages": []
+      }
+    },
+    {
+      "nom": "frustration_8_mois",
+      "age": 8,
+      "reponses_cochees": [
+        "Il essaie d'attraper, de se déplacer ou de se redresser, et n'y arrive pas",
+        "On vient de l'interrompre ou de lui retirer un objet"
+      ],
+      "attendu": {
+        "nb_reponses_valables": 2,
+        "alerte": "Non",
+        "top3": [
+          {
+            "nom": "Frustration : veut faire et n'y arrive pas (dès 6 mois)",
+            "score": 6
+          },
+          {
+            "nom": "Il a besoin de bouger, de s'exercer (nouvelle étape)",
             "score": 1
           }
         ],

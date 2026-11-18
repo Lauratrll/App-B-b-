@@ -236,7 +236,7 @@ protocole propose de faire, ramené à son principe.
 ```
 
 **Règles :**
-- **5 étapes**, 6 au maximum si une idée mérite sa ligne (voir « Un point de plus, quand une idée le mérite »)
+- **Nombre d'étapes libre** (décision du 17/11) : autant que d'idées différentes, souvent 3 à 6, jamais pour atteindre un chiffre (voir « Nombre de points libre »)
 - Chaque étape : 1 phrase de 15-25 mots max
 - **Format « Amorce : suite » imposé** : chaque étape commence par une amorce courte (2-4 mots ou un verbe d'action), suivie de « : », puis du détail. L'amorce est mise en gras à l'affichage. Ex : « S'accroupir : se mettre à sa hauteur, sans le toucher tout de suite. »
 - Le `titre` inclut un complément après un deux-points (ex. « Action immédiate : désamorcer le moment du repas »)
@@ -347,7 +347,7 @@ ou d'une durée de geste réflexe ? Si oui, la phrase sort, et le lien la rempla
 Sont hors périmètre du lien : les protocoles retirés pour déontologie (`bronchite-asthme`, `eczema`, `allergies`, `ictere`, `meconium`) et tout protocole `lancement: false`.
 
 **Règles :**
-- **5 étapes**, 6 au maximum si une idée mérite sa ligne
+- **Nombre d'étapes libre** (17/11) : un simple câlin peut tenir en 3 étapes, un geste à plusieurs temps en demandera plus
 - **Format « Amorce : suite » imposé** : chaque étape commence par une amorce courte suivie de « : », puis du détail. L'amorce est mise en gras à l'affichage. Ex : « Une main à plat sur son ventre : immobile, chaude, sans appuyer. »
 - **Titre — le mot « Réflexologie » doit apparaître quand le geste en relève.** Quand le geste doux repose sur la réflexologie (le cas le plus fréquent), le titre commence par « Réflexologie » pour que le parent comprenne immédiatement de quoi il s'agit. **Format : « Réflexologie : [précision courte] »** (ex. « Réflexologie : apaisement et sécurité », « Réflexologie : préparer une transition »). Pour un geste **non** réflexologique (contact, pression proprioceptive, portage, respiration), **le titre est la précision seule, sans préfixe** : « Le sceau des au revoir », « Se retrouver sans discussion ».
 - **Plus jamais de préfixe « Geste doux » ⭐ — arrêté le 22 septembre 2026.** Décision de Laura, en relisant M12 : « Geste doux : le titre va pas. Garder juste la 2e partie du titre. […] Finalement généraliser ça. » Le mot ne disait rien au parent : la couleur du bloc suffit à le situer, et c'est la précision qui porte le sens. Propagation faite le 22/09 : **313 titres dans 109 fichiers**, première lettre passée en majuscule. Les autres préfixes restent, parce qu'eux disent quelque chose : `Réflexologie :`, `Observer bébé :`, `Si ça arrive :` et les titres thématisés. `qa_contenu.py` signale tout titre qui recommence par « Geste doux ».
@@ -386,39 +386,43 @@ Sont hors périmètre du lien : les protocoles retirés pour déontologie (`bron
   **Contextes où la Réflexologie est AUTORISÉE, contrairement à ce qui était écrit avant ⭐ :**
   - **digestion et transit** : l'onglet Réflexologie comporte des protocoles *Constipation*, *Diarrhée* et *Inconfort digestif*. Le geste et le lien sont donc légitimes sur ces sujets, dans les bornes d'âge de chaque protocole.
   - **poussée dentaire** : autorisée **seulement quand le protocole traite réellement de la dent ou du besoin de soulager une gencive**. Un protocole où la gencive n'est qu'un décor (une morsure pendant la tétée, une salivation qu'on explique par autre chose) ne reçoit ni geste ni lien. Le test : si on retirait la douleur de gencive, le protocole existerait-il encore de la même façon ? Si oui, pas de réflexologie.
-- **Clause d'arrêt, à inclure quand c'est pertinent** : « S'arrêter à sa demande : s'il retire son pied ou se crispe, on arrête sans insister. » Le geste est toujours réalisé **par le parent, sur son propre enfant**.
+- **Plus de clause d'arrêt systématique** (décision du 17/11) : « S'arrêter à sa demande : le geste doit rester agréable » est de la logique, pas une information, et sur un simple câlin il n'y a rien à forcer. On ne l'écrit pas. Une phrase d'arrêt ne reste que si elle **apprend quelque chose** (le signe à lire, ce que veut dire son retrait, ce qu'on fait à la place) ou si le geste peut réellement être subi (appui sur le corps, soin). Le geste est toujours réalisé **par le parent, sur son propre enfant**.
+- **Le `geste_doux` s'adapte à la situation et se diversifie** (décision du 17/11). Ce n'est pas forcément un « geste doux » au sens du contact : c'est **ce que le parent fait, en lien avec l'enfant, une fois la vague passée**, pensé pour **cette** situation, avec de l'émotion et de la créativité. **Interdit de retomber par défaut** sur « bébé contre toi », « main à plat », « souffler / respirer longuement », « balancement » ou « câlin » : sur 470 gestes du corpus, « respirer » revient 97 fois, « contre toi » 86, « souffler » 74, « main à plat » 51, « câlin » 18, et les titres « Le rituel de descente » ou « Décharger le trop-plein » reviennent 4 à 5 fois. À la longue, cela fait perdre de la valeur et du professionnel à l'app.
+  - **Règle** : un contact (bras, main à plat, peau à peau, respiration) est possible, **une fois par fiche au plus** et jamais en première étape par réflexe ; il n'apparaît pas dans deux fiches d'une même carte.
+  - **Palette pour diversifier** (piocher selon la situation) : un **jeu qui ralentit** (imiter le calme, le doudou qui s'endort, le tambour qui s'éteint) ; un **rituel de passage** (dire bonjour à la maison pièce par pièce, saluer le jeu avant d'en changer, dire bonne nuit aux lumières) ; un **geste sensoriel** (gant tiède sur les mains et le visage, lumière qui baisse, texture) ; un **mouvement lent** (rouler ensemble, marcher au pas lent) ; la **voix et les mots** (chuchoter, nommer ce qu'on retire ou ce qu'on fait) ; l'**objet** (une peluche, un tissu, un livre cartonné) ; un **temps à deux** sans objectif (face à face, regarder par la fenêtre).
+  - **Test** : le geste répond-il à **cette** scène ? Un parent qui vient de lire la fiche voisine y retrouverait-il le même geste ? Alors on le change. Le titre du bloc dit ce que le parent fait (« Dire bonne nuit aux lumières »), jamais « geste doux ».
 - **Réflexologie — vocabulaire imposé (RÈGLE MISE À JOUR) :**
   - **Jamais de pression chiffrée.** Ne plus écrire « pression 0/10 » ni aucune échelle numérique. Décrire la pression de façon qualitative : « pression douce et constante », « toucher doux et enveloppant », « appui léger et maintenu ».
   - **« Massage » est autorisé (règle du 29/08, rappelée le 06/10 par Laura) : c'est le massage *thérapeutique* (ou de rééducation, ou médical) qui est interdit, pas le mot « massage ».** Le massage bien-être, fait par le parent sur son enfant, s'écrit « massage », « massage doux ». Ne jamais le remplacer par « moment de toucher » ou une périphrase (Laura préfère « massage »). Pour décrire un appui de réflexologie, « pression douce », « appui maintenu » restent plus précis. La formule « ce n'est pas un massage » reste proscrite (elle est fausse).
   - **Ne jamais employer « caresse ».** Une caresse chatouille et peut être désagréable — ce n'est pas la sensation recherchée. Vocabulaire autorisé : « toucher », « pression douce », « geste doux », « stimulation des zones réflexes », « geste de balayage ».
 - Couleurs fixes : fond `#E1F5EE`, texte `#085041` (vert sauge — codes verrouillés, cf. M14 réel)
 
-### Un point de plus, quand une idée le mérite ⭐ — arrêté le 8 septembre 2026
+### Nombre de points libre ⭐ — arrêté le 17 novembre 2026 (remplace « Un point de plus », 8 septembre)
 
-**Décision de Laura**, en deux temps : « pourquoi se limiter à 4 points s'il en faut plus ? La table
-à langer nécessite son point à elle seule », puis « on ajoute de la souplesse dans le nombre de
-points dans les catégories. Si c'est nécessaire, on ajoute un point ».
+**Décision de Laura** : « ce n'est pas obligatoire d'avoir 5 points énumérés », puis « skill à enrichir :
+avoir une flexibilité pour un contenu de qualité, riche et activable, avec des principes de connaissance
+des bébés, des réactions, des actions à proposer, sans trop se répéter. Pas un nombre de points précis
+obligatoire à avoir. »
 
-**Le compte de référence ne bouge pas.** C'est le standard visuel de l'app, et surtout il oblige à
-choisir, ce qui est la moitié du travail d'écriture :
+**Il n'y a plus de compte de référence** (ni 5 étapes, ni 4 points, ni 4 erreurs). Chaque bloc a **autant
+de points que d'idées différentes**, ni un de plus ni un de moins. Un bloc à 2 ou 3 points est normal
+quand le sujet est simple.
 
-| Bloc | Référence | Toléré |
-|---|---|---|
-| `action_immediate.etapes` | 5 | 6 |
-| `geste_doux.etapes` | 5 | 6 |
-| `pour_aller_plus_loin` | 4 | 5 |
-| `erreurs_a_eviter` | 4 | 5 |
+**Le test, point par point :** ce point dit-il quelque chose que les autres du bloc **et des autres
+blocs** ne disent pas ? Sinon il saute. Il vaut mieux 3 points qui portent chacun une idée que 5 dont
+deux se répètent.
 
-**Ce qui change, c'est la sanction.** Le point supplémentaire n'est plus une erreur : il est admis
-**quand une idée est écrasée en étant fondue dans une autre**. C'est le seul motif recevable.
+**Quand une fiche paraît pauvre ou redondante, on a deux leviers, jamais le remplissage :**
+1. **Simplifier** : retirer les points et surtout les **erreurs-miroir** (la négation d'une étape déjà
+   écrite). Une fiche peut n'avoir que 2 erreurs.
+2. **Enrichir par des notions différentes**, prises dans cette palette : *connaître le bébé* (ce qu'il vit,
+   ce que son âge change), *lire ses réactions* (le signe, ce que sa réaction veut dire),
+   *agir* (un geste, une phrase à dire, un matériel, un aménagement), *rythme et timing*,
+   *relais* (co-parent, entourage), *ressources*. Ne jamais redire en changeant les mots.
 
-**Le test :** est-ce que ce point dit quelque chose que les autres ne disent pas, et est-ce que
-l'y fondre lui ferait perdre son sens ? Si oui, il prend sa ligne. Sinon, il n'existe pas.
-
-> **Le cas qui a produit la règle.** Le protocole *Le combat du matin* (M19) traitait dans une seule
-> ligne les gestes à mettre à sa portée et le fait de l'habiller au sol plutôt que sur la table à
-> langer. Deux idées différentes, dont l'une répondait à une question précise du parent : la table à
-> langer y perdait son explication. Elle a désormais sa ligne.
+**Garde-fous restants** : le volume (350 à 800 mots ; une fiche plus courte et claire est acceptée si
+rien n'y manque), la variété des solutions (§11 du skill de contenu), et le minimum de **1** point par
+bloc (maximum 8, sinon la fiche traite deux sujets).
 
 **Et le plafond de mots ne coupe pas une carte validée ⭐ — arrêté le 9 septembre 2026.**
 Décision de Laura, à propos du *Combat du matin* (M19), qui pèse 812 mots pour un plafond de 800 :
@@ -426,7 +430,7 @@ Décision de Laura, à propos du *Combat du matin* (M19), qui pèse 812 mots pou
 la dérive, pas à raboter une carte relue ligne à ligne par la fondatrice — ni à faire payer à un
 protocole la longueur de son `consulter_si`, qui n'est pas de la rédaction mais de la protection.
 
-**Ce que la souplesse n'autorise pas.** Elle ne sert **jamais** à caser une pensée de plus, ni à
+**Ce que la liberté n'autorise pas.** Elle ne sert **jamais** à caser une pensée de plus, ni à
 éviter de trancher entre deux formulations, ni à compenser un protocole qui n'a pas trouvé son
 angle. Un bloc qui déborde systématiquement signale presque toujours que le protocole traite deux
 sujets et qu'il faut en couper un.
@@ -453,12 +457,11 @@ ce qui distingue ce corpus d'un article de blog : elle vaut plus qu'une puce de 
 volume du protocole, et un bloc qui déborde de deux points signale toujours un protocole qui traite
 deux sujets. **On passe à 5, pas à 6.**
 
-### 3.8 `pour_aller_plus_loin` (liste — 4 points, 5 quand une idée mérite sa ligne)
+### 3.8 `pour_aller_plus_loin` (liste — nombre libre)
 **Objectif :** ce que le parent peut faire à plus long terme.
 
 **Règles :**
-- **4 points par défaut, 5 au maximum.** Voir la règle générale de souplesse ci-dessous : elle vaut
-  pour tous les blocs, pas seulement pour celui-ci.
+- **Nombre libre** (17/11) : autant de points que d'idées différentes. Voir « Nombre de points libre » ci-dessus : la règle vaut pour tous les blocs.
 - **Format imposé « Amorce : suite »** : chaque point commence par une amorce courte de 2-4 mots, suivie de « : », puis du développement. L'amorce est mise en gras à l'affichage (lecture rapide). Ex : « Tenir un journal : noter les déclencheurs sur une semaine. »
 - Amorce = un groupe nominal ou verbal court (pas une phrase complète) ; pas de « : » ailleurs dans le point
 - Chaque point : 1-2 phrases max après l'amorce
@@ -473,11 +476,11 @@ deux sujets. **On passe à 5, pas à 6.**
 - "La régularité est plus puissante que le contenu du rituel. Même rituel à ± 15 min chaque soir."
 - "Plus tu offres d'inputs sensoriels adaptés dans la journée, moins le besoin de se cogner sera intense en crise."
 
-### 3.10 `erreurs_a_eviter` (liste — 4 erreurs, 5 quand une idée mérite sa ligne)
+### 3.10 `erreurs_a_eviter` (liste — nombre libre)
 **Objectif :** les pièges fréquents — informatif, pas culpabilisant.
 
 **Règles :**
-- **4 erreurs**, 5 au maximum si une idée mérite sa ligne (voir « Un point de plus, quand une idée le mérite »)
+- **Nombre libre** (17/11) : 2 erreurs suffisent si les autres n'étaient que des miroirs d'étapes ou des redites du principe ou du titre (voir « Nombre de points libre »)
 - Formuler comme un constat factuel suivi de sa conséquence neurologique/développementale
 - ✅ "Reculer l'heure du coucher espérant qu'il soit plus fatigué — crée la sur-fatigue qui empêche le sommeil"
 - ❌ "Ne reculez pas l'heure du coucher !" (injonction)
@@ -531,6 +534,23 @@ Champ **facultatif**, ajouté **uniquement quand c'est nécessaire**, pour rendr
 | `principe` | Que retenir si on oublie tout le reste ? | Une loi générale, formulée en abstraction | Pas de résumé des étapes, pas de consigne pratique nouvelle |
 | `erreurs_a_eviter` | Quel piège fréquent, et quelle conséquence ? | Constat + conséquence, sur des pièges non traités ailleurs | Pas la simple négation de ce qui vient d'être conseillé (1 maximum) |
 | `consulter_si` | Quand ce n'est plus de notre ressort ? | Critères observables + professionnel nommé | Aucun conseil d'accompagnement |
+
+### Règle d'or de non-redondance entre les blocs ⭐ — insistance de Laura, 17/11/2026
+
+**Chaque idée vit dans UN seul bloc, et aucune phrase ne se retrouve dans deux blocs.** Laura a relevé la même faute sur deux fiches de M10 : la formule du titre (« exutoire, pas calme forcé » ; « court et répété, pas long et rare ») réapparaissait mot pour mot dans « Ce qui se passe » (`explication`), dans « Pour toi, parent » (`ancrage`), dans l'action, dans le principe et dans les erreurs.
+
+1. **Une idée, un bloc.** Avant d'écrire, attribuer chaque idée de la fiche à son bloc (matrice ci-dessus). L'idée du titre n'est ensuite **jamais redite** : l'explication dit pourquoi, l'ancrage parle du parent, l'action dit le geste, le principe pose un critère nouveau.
+2. **`explication` et `ancrage` ne partagent jamais une phrase, ni une formule, ni un chiffre.** Ce sont les deux blocs lus à la suite (« Ce qui se passe », puis « Pour toi, parent ») : le parent ne doit pas relire la même chose deux fois.
+3. **Le `principe` n'est ni le titre reformulé, ni un résumé.** S'il redit le titre ou l'ancrage, il est **réécrit avec un critère différent** (ex. « une sortie se juge à l'état dans lequel il repart, pas à sa durée »), ou raccourci à une phrase. Test : le supprimer fait-il perdre quelque chose ? Non : il est mal posé.
+4. **Une erreur n'est jamais le miroir d'une étape, d'un point de « pour aller plus loin » ou de l'ancrage** (ex. erreur « culpabiliser d'avoir écourté » quand l'ancrage déculpabilise déjà). Mieux vaut 2 erreurs vraies que 4 dont 2 miroirs.
+5. **Test des 8 lignes, puis test de la phrase jumelle** : relire tous les blocs à la suite et chercher toute phrase ou formule (≥ 4 mots) qui revient. Une seule survit, dans son bloc.
+6. **En cas de doute, on retire plutôt qu'on reformule** : redire autrement la même idée reste une redite.
+
+**Autres points de justesse rappelés le même jour :**
+- **Pertinence d'âge** : une situation doit être propre à l'âge du mois. Test : un parent d'un enfant de 2 ans dirait-il exactement la même chose ? Alors elle est trop banale, on la retravaille autour de ce que l'âge change (capacités, lieux réellement fréquentés, vécu du parent).
+- **Durées et seuils réalistes** : jamais une durée qui dépasse ce que l'enfant tient (proposer « 20 à 30 minutes » à un bébé qui craque en 10 est une exagération). On ancre la durée sur la limite observée de l'enfant (« repartir avant le moment où il craque »).
+- **Langage courant** : pas de terme technique là où un mot simple existe (« habituation » → « s'y faire petit à petit »). Un terme jugé trop savant par Laura est remplacé sans discussion.
+- **Dire où se passe l'événement avec le mot juste** : « il ne rate pas l'activité » (et non « la sortie »), quand c'est l'activité qui sature.
 
 ### La seule répétition autorisée
 
@@ -660,8 +680,8 @@ Si un protocole fait moins de 350 mots, il est probablement trop sec — étoffe
 - [ ] Les 9 champs obligatoires sont présents
 - [ ] L'explication est 3-5 phrases, bienveillante envers l'enfant
 - [ ] L'ancrage est 1-2 phrases adressées au parent
-- [ ] Action immédiate = 5 étapes (6 si une idée le justifie)
-- [ ] Geste doux = 5 étapes (6 si une idée le justifie), **aucune zone réflexe** : la réflexologie passe par `lien_reflexologie` et une étape de renvoi
+- [ ] Action immédiate : chaque étape porte une idée différente (pas de nombre imposé)
+- [ ] Geste doux : pas de nombre imposé, pas de clause « S'arrêter à sa demande » vide, **aucune zone réflexe** : la réflexologie passe par `lien_reflexologie` et une étape de renvoi
 - [ ] Titre du geste doux : jamais de préfixe « Geste doux » (22/09), la précision seule, ou un préfixe qui dit quelque chose (`Réflexologie :`, `Observer bébé :`, `Si ça arrive :`, titre thématisé)
 - [ ] Geste doux : AUCUNE pression chiffrée, AUCUN « massage thérapeutique / de rééducation / médical » (« massage » bien-être autorisé), AUCUN « caresse »
 - [ ] Typographie : guillemets « » + espaces insécables (avant : ; ! ? et autour des guillemets), « Réflexologie » en toutes lettres
@@ -670,9 +690,9 @@ Si un protocole fait moins de 350 mots, il est probablement trop sec — étoffe
 - [ ] Émotion de l'enfant validée/reformulée avant la résolution (sauf nourrisson pré-verbal et éveil partiel type terreur nocturne)
 - [ ] Titre construit en deux parties « Thème / précision de la situation » (séparateur « / »)
 - [ ] `source` (si sujet sensible uniquement) : source française vérifiée et attribuée, une ligne discrète ; aucune source sur les sujets libres
-- [ ] Pour aller plus loin = 4 points (5 si une idée le justifie) · Erreurs = 4 (5 si justifié) · Étapes = 5 (6 si justifié)
+- [ ] Pour aller plus loin, erreurs, étapes : nombre libre, chaque point apporte une idée que les autres blocs ne disent pas
 - [ ] Principe = 1-2 phrases de fond
-- [ ] Erreurs à éviter = 4 erreurs (5 si une idée le justifie), formulées comme constats
+- [ ] Erreurs à éviter : nombre libre, formulées comme constats, aucune erreur-miroir d'une étape
 - [ ] Consulter_si = critères objectifs uniquement
 - [ ] Aucune formulation interdite (votre enfant, il faut, malheureusement)
 - [ ] Aucune précaution interdite (huiles essentielles, lidocaïne, miel...)

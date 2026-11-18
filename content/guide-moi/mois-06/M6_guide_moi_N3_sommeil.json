@@ -10,10 +10,10 @@
   "protocoles": [
     {
       "categorie": "sommeil",
-      "situation": "La réorganisation des six mois / Ses nuits se défont d'un coup",
+      "situation": "La réorganisation des 6 mois / Ses nuits se défont",
       "titre": "Ce n'est pas un recul",
-      "explication": "Autour de six mois, le sommeil de ton bébé achève une réorganisation profonde : ses cycles se stabilisent dans une architecture proche de celle de l'adulte, avec de courts passages d'éveil entre chaque cycle. Le paradoxe est réel : plus le sommeil mûrit, plus les réveils deviennent visibles. Ce qui ressemble à un retour en arrière est en fait la dernière grande étape de mise en place. La durée de cette phase varie beaucoup d'un bébé à l'autre, quelques jours pour certains, plusieurs semaines pour d'autres.",
-      "ancrage": "Cette phase n'est la conséquence d'aucune erreur de ta part. À six mois de nuits coupées, beaucoup de parents ne se reconnaissent plus : plus irritables, à bout plus vite, parfois honteux de l'être. Tu n'as rien à réparer, tu as à traverser, et à te faire relayer pendant ce temps.",
+      "explication": "Autour de 6 mois, le sommeil de ton bébé achève une réorganisation profonde : ses cycles se stabilisent dans une architecture proche de celle de l'adulte, avec de courts passages d'éveil entre chaque cycle. Le paradoxe est réel : plus le sommeil mûrit, plus les réveils deviennent visibles. Ce qui ressemble à un retour en arrière est en fait la dernière grande étape de mise en place. La durée de cette phase varie beaucoup d'un bébé à l'autre, quelques jours pour certains, plusieurs semaines pour d'autres.",
+      "ancrage": "Cette phase n'est la conséquence d'aucune erreur de ta part. À 6 mois de nuits coupées, beaucoup de parents ne se reconnaissent plus : plus irritables, à bout plus vite, parfois honteux de l'être. Tu n'as rien à réparer, tu as à traverser, et à te faire relayer pendant ce temps.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -29,13 +29,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : soutenir la phase",
-        "etapes": [
-          "Dans le rituel du soir : toujours au même moment, après le bain.",
-          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
-          "Suivre la séquence « Sommeil paisible » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Ta voix tout bas pendant la séquence : toujours les mêmes mots, qui deviennent un repère.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "sommeil",
           "titre": "Sommeil paisible"
@@ -50,7 +44,7 @@
       "principe": "Ce qui ressemble à un recul est souvent le signe qu'une compétence se réorganise. Un cerveau qui apprend défait avant de refaire, et le sommeil n'échappe pas à cette règle.",
       "erreurs_a_eviter": [
         "Changer de méthode de sommeil en pleine phase : l'instabilité s'ajoute à l'instabilité, et plus rien n'est lisible.",
-        "Laisser pleurer seul un bébé de six mois pour rétablir les nuits : à cet âge il appelle sans pouvoir se réguler seul.",
+        "Laisser pleurer seul un bébé de 6 mois pour rétablir les nuits : à cet âge il appelle sans pouvoir se réguler seul.",
         "Repousser le coucher pour qu'il dorme mieux : la sur-fatigue augmente le nombre de réveils au lieu de le réduire.",
         "Conclure que tout ce que tu avais mis en place était faux : cette phase arrive quels que soient les choix des parents."
       ],
@@ -58,7 +52,7 @@
     },
     {
       "categorie": "sommeil",
-      "situation": "Le blocage après un retournement / Il se réveille coincé sur le ventre",
+      "situation": "Le blocage après retournement / Il se réveille coincé",
       "titre": "Le retour s'apprend en journée",
       "explication": "Il se retourne sur le ventre pendant la nuit, ne sait pas encore revenir, et se réveille furieux. Son cerveau rejoue la nuit ce qu'il travaille le jour : c'est exactement ce qui doit se passer, et c'est le signe que l'acquisition est en cours. Le retournement dos-ventre arrive presque toujours avant le retour ventre-dos, et l'écart entre les deux dure quelques semaines. Pendant ce temps, il se retrouve dans une position qu'il a choisie sans savoir la quitter.",
       "ancrage": "Ce n'est pas la nuit que cela se règle, c'est le jour. Chaque minute passée au sol le rapproche du moment où il saura revenir seul.",
@@ -71,20 +65,14 @@
           "Le laisser dans la position qu'il a prise : s'il s'est retourné tout seul, il peut y rester.",
           "Un lit totalement vide : sans doudou, sans couverture, sans coussin, sans tour de lit.",
           "Le rassurer sans le sortir du lit : la voix, puis une main posée.",
-          "Arrêter l'emmaillotage : dès qu'un bébé cherche à se retourner, l'emmaillotage devient dangereux."
+          "Dormir en gigoteuse, les bras libres : dès qu'il cherche à se retourner, rien ne doit le retenir ni le couvrir."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : préparer une nuit plus calme",
-        "etapes": [
-          "Dans le rituel du soir : bébé sur le dos, lumière tamisée, après le bain.",
-          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
-          "La séquence « Sommeil paisible » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Parler doucement pendant la séquence : raconter ce que tu fais, sur le même ton.",
-          "S'arrêter à sa demande : un mouvement de retrait, une crispation, on arrête."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "sommeil",
           "titre": "Sommeil paisible"
@@ -93,7 +81,7 @@
       "pour_aller_plus_loin": [
         "Multiplier le temps sur le ventre : éveillé et surveillé, plusieurs fois par jour, c'est là que le retour s'entraîne.",
         "Poser un objet sur le côté : à bonne distance, il donne envie de pivoter et transforme l'exercice en jeu.",
-        "Limiter transat, coque et poussette : chaque heure passée sanglé est une heure sans entraînement.",
+        "Limiter transat, siège-coque et poussette : le mouvement libre se travaille au sol, pas sanglé.",
         "Vérifier la chambre entre 18 et 20 °C : la surchauffe est un facteur de risque de mort inattendue du nourrisson."
       ],
       "principe": "Une acquisition motrice ne s'arrête pas au coucher : le cerveau la rejoue la nuit jusqu'à ce qu'elle devienne automatique. C'est le temps au sol qui raccourcit ces nuits, pas la correction des positions.",
@@ -131,7 +119,6 @@
         "etapes": [
           "Rester à hauteur du lit : sans le prendre, sans allumer, sans parler fort.",
           "Main posée sur son torse : immobile, jusqu'à ce que sa respiration se pose.",
-          "Une deuxième main sur le haut de sa tête : le contact des deux extrémités contient beaucoup.",
           "Ta voix, très bas : toujours la même phrase courte, répétée sur le même ton.",
           "Retirer les mains progressivement : d'abord l'une, puis l'autre, sans geste brusque."
         ]
@@ -153,9 +140,9 @@
     },
     {
       "categorie": "sommeil",
-      "situation": "Le passage à deux siestes / Ses fenêtres d'éveil s'allongent",
+      "situation": "Le passage à deux siestes / Ses éveils s'allongent",
       "titre": "Réajuster sans supprimer",
-      "explication": "Les trois siestes ne tiennent plus : la dernière est refusée, ou elle décale le coucher, ou elle s'effondre au bout de 20 minutes. C'est le signe que ses fenêtres d'éveil se sont allongées, elles atteignent souvent 2 à 3 heures à cet âge. La transition s'étale sur plusieurs semaines, et elle avance rarement en ligne droite : certains jours il aura encore besoin de trois siestes, d'autres de deux, selon sa nuit et selon ce qu'il a dépensé.",
+      "explication": "La dernière des trois siestes ne tient plus : elle est refusée, ou elle décale le coucher, ou elle s'effondre au bout de 20 minutes. Vers 6 mois, beaucoup de bébés font encore 3 siestes ; le passage à 2 siestes arrive le plus souvent vers 7 ou 8 mois, chez certains plus tard, et parfois un peu avant. C'est le signe que ses fenêtres d'éveil s'allongent, elles atteignent souvent 2 à 3 heures à cet âge. La transition s'étale sur plusieurs semaines, et elle avance rarement en ligne droite : certains jours il aura encore besoin de trois siestes, d'autres de deux, selon sa nuit et selon ce qu'il a dépensé.",
       "ancrage": "Tu n'as pas à trancher entre deux et trois siestes. Tu peux suivre ce que son corps demande, jour après jour, sans figer de règle.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -173,30 +160,24 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : favoriser la détente avant la sieste",
-        "etapes": [
-          "Avant le coucher : bébé calme, sur le dos, lumière tamisée.",
-          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
-          "Suivre la séquence « Sommeil paisible » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Garder ta voix posée : quelques mots toujours identiques, ou un air fredonné.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "sommeil",
           "titre": "Sommeil paisible"
         }
       },
       "pour_aller_plus_loin": [
-        "Protéger la première sieste : c'est la plus réparatrice, et celle qui se maintiendra le plus longtemps.",
+        "Revenir à trois siestes si les nuits se dégradent : ce n'est pas un échec, c'était peut-être un peu tôt.",
         "Sortir le matin : la lumière du jour cale l'horloge interne mieux que n'importe quel horaire.",
         "Recalibrer régulièrement : les fenêtres d'éveil continueront de s'allonger tout au long de l'année.",
-        "Prévenir le mode de garde : une transition suivie de la même façon à la maison et chez la nounou avance deux fois plus vite."
+        "Prévenir le mode de garde : une transition suivie de la même façon à la maison et chez la nounou avance plus sereinement."
       ],
       "principe": "Le rythme d'un bébé se lit sur sa fatigue, pas sur l'horloge. Une sieste disparaît quand elle n'est plus prise, jamais parce que l'âge dit qu'elle devrait disparaître.",
       "erreurs_a_eviter": [
         "Supprimer une sieste d'un coup : la dette de sommeil se paie la nuit suivante, en réveils multiples.",
         "Repousser le coucher parce qu'il a moins dormi : la sur-fatigue rend l'endormissement plus difficile, pas plus facile.",
         "Réveiller bébé pour forcer un rythme : le rythme suit la maturation, il ne se décrète pas.",
-        "Juger la transition sur trois jours : elle se lit sur plusieurs semaines, avec des allers-retours."
+        "Juger la transition sur 3 jours : elle se lit sur plusieurs semaines, avec des allers-retours."
       ],
       "consulter_si": "Consulter si : bébé dort très peu au total et ne prend pas de poids, s'il est agité et inconsolable, s'il est difficile à réveiller, ou s'il présente des pauses respiratoires → pédiatre ou PMI ; le 15 en cas de trouble respiratoire."
     }

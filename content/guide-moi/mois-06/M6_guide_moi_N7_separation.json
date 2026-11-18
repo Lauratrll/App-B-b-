@@ -10,9 +10,9 @@
   "protocoles": [
     {
       "categorie": "sepa",
-      "situation": "Les prémices de la séparation / Il me cherche du regard quand je sors",
+      "situation": "Les prémices de la séparation / Il me cherche des yeux",
       "titre": "Annoncer les départs et les retours",
-      "explication": "Il te suit des yeux, se fige quand tu sors du champ, cherche ton visage dans la pièce. C'est le tout début de la permanence : il commence à comprendre que tu es une personne distincte, qui va et qui vient, et non un décor toujours présent. Cette compréhension est un progrès considérable, et c'est aussi le terreau de l'angoisse de séparation, dont le pic se situe le plus souvent entre huit et douze mois. Autrement dit, ce mois-ci est une fenêtre calme, avant la vraie montée.",
+      "explication": "Il te suit des yeux, se fige quand tu sors du champ, cherche ton visage dans la pièce. C'est le tout début de la permanence : il commence à comprendre que tu es une personne distincte, qui va et qui vient, et non un décor toujours présent. Cette compréhension est un progrès considérable, et c'est aussi le terreau de l'angoisse de séparation, qui se marque davantage dans les mois qui suivent. Ce mois-ci est une fenêtre calme, avant la montée.",
       "ancrage": "C'est encore léger en ce moment, et c'est ce qui rend ce mois précieux. Ce que tu poses maintenant, sans effort, tiendra quand ce sera plus dur.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -30,13 +30,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : nourrir le sentiment de lien",
-        "etapes": [
-          "Un moment quotidien : bébé sur le dos, éveillé et calme, dans une pièce à bonne température.",
-          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
-          "La séquence « Angoisse de séparation » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Ta voix tout bas pendant la séquence : toujours les mêmes mots, qui deviennent un repère.",
-          "S'arrêter à sa demande : un mouvement de retrait, une crispation, on arrête."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "separation",
           "titre": "Angoisse de séparation"
@@ -52,14 +46,13 @@
       "erreurs_a_eviter": [
         "Partir en cachette pour éviter les pleurs : il apprend à surveiller tes déplacements au lieu de faire confiance au retour.",
         "Éviter toute séparation pour ne pas le perturber : sans expérience de retour, le pic à venir arrive sans aucun repère.",
-        "Y voir une manœuvre : à cet âge, il te cherche, tout simplement.",
         "Multiplier les au revoir prolongés : plus le départ s'étire, plus il devient un événement qui mérite d'être craint."
       ],
-      "consulter_si": "Consulter si : bébé ne cherche jamais ton visage ni ta voix, ne réagit pas aux bruits forts, ne sourit pas, paraît anormalement mou ou éteint, ou ne cherche jamais le contact → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition et de la vision."
+      "consulter_si": "Consulter si : bébé ne cherche jamais ton visage ni ta voix, ne sourit pas ou paraît éteint → pédiatre ou PMI."
     },
     {
       "categorie": "sepa",
-      "situation": "La préférence exclusive / Il ne veut que moi, jamais l'autre",
+      "situation": "La préférence exclusive / Il ne veut que moi",
       "titre": "L'autre parent gagne sa place",
       "explication": "Il hurle dès que quelqu'un d'autre le prend, même le co-parent. Cette préférence exclusive est éprouvante, et elle est d'abord le signe d'un attachement qui fonctionne : il a identifié sa figure principale et il la réclame. Elle contient pourtant un piège bien connu : plus une seule personne réussit, plus les autres se retirent, et plus cette personne devient irremplaçable. Le cercle se referme sans que personne ne l'ait décidé, et il se paie en épuisement.",
       "ancrage": "Cette préférence dit que le lien fonctionne. Tu as le droit de vouloir la desserrer, et vouloir la desserrer n'enlève rien à ce lien.",
@@ -79,13 +72,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : un repère transmissible",
-        "etapes": [
-          "Le co-parent fait le geste : la même séquence, dans le même ordre, au même moment.",
-          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
-          "Suivre la séquence « Angoisse de séparation » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Parler doucement pendant la séquence : raconter ce que tu fais, sur le même ton.",
-          "S'arrêter à sa demande : le geste doit rester agréable, quel que soit l'adulte qui le fait."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "separation",
           "titre": "Angoisse de séparation"
@@ -101,16 +88,15 @@
       "erreurs_a_eviter": [
         "Rester dans la pièce pour rassurer pendant que le co-parent s'en occupe : bébé se tourne vers toi et le relais n'a jamais lieu.",
         "Renoncer aux relais parce qu'il ne veut que toi : la charge se concentre, et l'épuisement referme le cercle.",
-        "Corriger la façon de faire du co-parent : sa manière propre est justement ce qui deviendra son repère.",
-        "Imposer une longue séparation d'un coup : une absence non préparée renforce l'exclusivité au lieu de l'ouvrir."
+        "Corriger la façon de faire du co-parent : sa manière propre est justement ce qui deviendra son repère."
       ],
-      "consulter_si": "Consulter si : bébé refuse tout contact avec quiconque, y compris toi, s'il paraît éteint ou apathique, s'il ne sourit à personne, ou si l'épuisement lié à cette exclusivité devient dangereux pour toi → pédiatre, PMI, ou Allo Parents Bébé (0 800 00 34 56)."
+      "consulter_si": "Consulter si : bébé refuse tout contact, y compris avec toi, paraît éteint, ou si l'épuisement devient trop lourd pour toi → pédiatre, PMI ou Allo Parents Bébé (0 800 00 34 56)."
     },
     {
       "categorie": "sepa",
-      "situation": "L'impossibilité de m'éloigner / Je ne peux plus aller aux toilettes",
+      "situation": "L'impossibilité de m'éloigner / Même pas les toilettes",
       "titre": "La voix prend le relais du regard",
-      "explication": "Il ne supporte plus de ne pas te voir. Une porte de salle de bain, un pas dans le couloir, et il panique. À six mois, le lien passe encore massivement par les yeux : ce qui sort du champ visuel cesse provisoirement d'exister. L'oreille, elle, est déjà mature, et elle le restera présente là où le regard ne va plus. Concrètement, cela veut dire que la journée entière se réorganise autour d'une question simple : comment rester audible quand on ne peut plus être visible.",
+      "explication": "Il ne supporte plus de ne pas te voir. Une porte de salle de bain, un pas dans le couloir, et il panique. À cet âge, ce qui sort de son champ de vision lui semble disparaître. Ta voix, elle, peut rester présente quand ton visage ne l'est pas. Concrètement, cela veut dire que la journée entière se réorganise autour d'une question simple : comment rester audible quand on ne peut plus être visible.",
       "ancrage": "Tu n'as pas à renoncer à te doucher ni à cuisiner. Tu as juste, pendant quelques semaines, à te rendre audible en continu.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -142,20 +128,19 @@
         "Utiliser le portage pour les tâches longues : la cuisine et le ménage redeviennent possibles.",
         "Se rappeler que c'est temporaire : quand la permanence sera installée, cette anxiété-là se transformera."
       ],
-      "principe": "Chez le tout-petit, les sens ne mûrissent pas au même rythme : l'oreille est prête bien avant la mémoire des visages. Quand les yeux ne suffisent plus à te garder près de lui, c'est l'oreille qui tient le fil.",
+      "principe": "Quand les yeux ne suffisent plus à te garder près de lui, ta voix tient le fil.",
       "erreurs_a_eviter": [
         "Partir en silence pour aller plus vite : la disparition sans signal est précisément ce qui fait douter du retour.",
         "Le prendre dans les bras à chaque appel : il n'expérimente jamais que la voix seule peut suffire.",
-        "Renoncer à toutes tes tâches jusqu'à la fin de la phase : l'épuisement viendra plus vite que la permanence.",
-        "L'occuper devant un écran pendant ton absence : l'attention est captée, la question du retour n'est pas travaillée."
+        "Renoncer à toutes tes tâches jusqu'à la fin de la phase : l'épuisement viendra plus vite que la permanence."
       ],
-      "consulter_si": "Consulter si : bébé ne se calme jamais, même quand tu reviens, s'il ne cherche jamais ton visage ni ta voix, s'il ne réagit pas aux bruits forts, ou s'il paraît anormalement mou ou éteint → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition et de la vision."
+      "consulter_si": "Consulter si : bébé ne se calme jamais, même à ton retour, ou ne cherche jamais ton visage ni ta voix → pédiatre ou PMI."
     },
     {
       "categorie": "sepa",
-      "situation": "La décharge du retour / Il hurle plus fort quand je rentre",
+      "situation": "La décharge du retour / Il hurle à mon retour",
       "titre": "Une preuve de sécurité",
-      "explication": "Il a passé une bonne journée chez la personne qui le garde, et dès que tu franchis la porte, il hurle. C'est violent à recevoir, et cela ressemble à un reproche. Ce n'en est pas un. Toute la journée, il a tenu : il s'est adapté, il a contenu, il a fait avec des repères qui ne sont pas les siens. Ton retour est le signal que le relâchement devient possible, parce qu'avec toi il n'a rien à prouver. Les professionnels de la petite enfance connaissent bien ce contraste, et il ne dit rien de la qualité de la journée.",
+      "explication": "Il a passé une bonne journée chez la personne qui le garde, et dès que tu franchis la porte, il hurle. C'est violent à recevoir, et cela ressemble à un reproche. Ce n'en est pas un. Toute la journée, il a tenu : il s'est adapté, il a contenu, il a fait avec des repères qui ne sont pas les siens. Ton retour est le signal que le relâchement devient possible, parce qu'avec toi il n'a rien à prouver. Il ne dit rien de la qualité de la journée.",
       "ancrage": "Il ne te reproche rien, il se relâche : tu es le lieu où il peut arrêter de tenir. Recevoir ça après une journée entière loin de lui pique, et beaucoup de parents s'en veulent d'être déçus au lieu d'être heureux.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -173,13 +158,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : le rituel des retrouvailles",
-        "etapes": [
-          "Une fois la vague passée : bébé sur le dos, toujours au même moment de la soirée.",
-          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
-          "La séquence « Angoisse de séparation » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Garder ta voix posée : quelques mots toujours identiques, ou un air fredonné.",
-          "S'arrêter à sa demande : après une journée en collectivité, il peut avoir besoin de calme d'abord."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "separation",
           "titre": "Angoisse de séparation"
@@ -195,10 +174,9 @@
       "erreurs_a_eviter": [
         "Compenser par du jeu, une sortie ou une animation : la stimulation empêche exactement le relâchement qu'il cherche.",
         "Lire ces pleurs comme la preuve qu'il a été malheureux : il ne pleurerait pas ainsi devant quelqu'un qui le sécurise moins.",
-        "Enchaîner les tâches ménagères dès le retour : la présence morcelée coûte plus d'énergie à tout le monde qu'une demi-heure entière.",
-        "S'excuser auprès de lui : l'excuse lui apprend qu'il s'est passé quelque chose de regrettable."
+        "Enchaîner les tâches ménagères dès le retour : la présence morcelée coûte plus d'énergie à tout le monde qu'une demi-heure entière."
       ],
-      "consulter_si": "Consulter si : bébé paraît éteint ou apathique, s'il refuse de boire ou de manger chez la personne qui le garde pendant plusieurs jours, s'il perd du poids, ou s'il pleure de façon inconsolable en permanence → pédiatre, PMI, ou psychologue de la petite enfance."
+      "consulter_si": "Consulter si : bébé paraît éteint, refuse de manger ou de boire plusieurs jours chez la personne qui le garde, ou pleure de façon inconsolable en permanence → pédiatre ou PMI."
     }
   ]
 }

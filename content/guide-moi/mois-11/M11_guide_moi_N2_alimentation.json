@@ -12,7 +12,7 @@
       "categorie": "alim",
       "situation": "Le refus de ce qu'il aimait / Il rejette tout d'un coup",
       "titre": "L'affirmation de soi passe par l'assiette",
-      "explication": "Du jour au lendemain, il refuse les légumes qu'il adorait, recrache ce qu'il réclamait la semaine dernière. Ce n'est pas un dégoût, et ce n'est pas un problème de goût : c'est l'affirmation de soi qui passe par l'assiette. Le repas est l'un des rares terrains où un enfant de onze mois peut exercer un pouvoir réel, et il l'exerce. La réponse qui aggrave tout : transformer le repas en enjeu. La réponse qui fonctionne : maintenir l'offre, sans commentaire, et laisser le pouvoir là où il compte peu.",
+      "explication": "Du jour au lendemain, il refuse les légumes qu'il adorait, recrache ce qu'il réclamait la semaine dernière. Ce n'est pas un dégoût, et ce n'est pas un problème de goût : c'est l'affirmation de soi qui passe par l'assiette. Le repas est l'un des rares terrains où un enfant de 11 mois peut exercer un pouvoir réel, et il l'exerce. La réponse qui aggrave tout : transformer le repas en enjeu. La réponse qui fonctionne : maintenir l'offre, sans commentaire, et laisser le pouvoir là où il compte peu.",
       "ancrage": "Tu te demandes ce que tu as changé, et tu n'as rien changé. Ce refus ne parle pas de ta cuisine : il parle de lui, qui vient de découvrir qu'il peut dire non quelque part.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -33,9 +33,7 @@
         "etapes": [
           "Manger ensemble : l'imitation reste le moteur le plus puissant.",
           "Le laisser se servir seul : rendre le pouvoir là où il est sans conséquence.",
-          "Un repas court : quelques minutes suffisent.",
-          "Un environnement calme : sans écran, sans public, sans pression.",
-          "S'arrêter s'il se braque : le repas ne se force jamais."
+          "Un repas court : quelques minutes suffisent."
         ]
       },
       "pour_aller_plus_loin": [
@@ -46,10 +44,10 @@
       ],
       "principe": "Un enfant de cet âge cherche un endroit où son avis pèse, et l'assiette est le premier qu'il trouve. Lui répondre, c'est lui donner un terrain qui compte moins, pas lui reprendre celui-là.",
       "erreurs_a_eviter": [
-        "Forcer, négocier ou récompenser pour qu'il mange.",
-        "Cuisiner un second plat quand le premier est refusé.",
-        "Commenter ou dramatiser le refus.",
-        "Compenser un refus de légumes par un dessert sucré."
+        "Forcer, négocier ou récompenser pour qu'il mange : le repas devient le terrain du pouvoir.",
+        "Cuisiner un second plat quand le premier est refusé : il retient qu'un refus produit mieux.",
+        "Commenter ou dramatiser le refus : l'attention nourrit l'enjeu.",
+        "Compenser un refus de légumes par un dessert sucré : le sucré prend de la valeur et le reste en perd."
       ],
       "consulter_si": "Consulter si : l'enfant refuse de manger depuis plusieurs jours, ne prend pas de poids, si sa courbe casse, s'il vomit de façon répétée, ou si le refus s'accompagne d'une fatigue inhabituelle ou d'une pâleur → pédiatre ou médecin traitant.",
       "source": "Source : Santé publique France et ANSES, recommandations sur la diversification alimentaire des enfants de moins de 3 ans."
@@ -67,7 +65,7 @@
         "etapes": [
           "Une tétée à la fois : jamais deux, jamais toutes en même temps.",
           "Commencer par la moins chargée : souvent celle du milieu de journée.",
-          "Attendre trois à sept jours : entre chaque retrait, pour que la production s'ajuste.",
+          "Attendre 3 à 7 jours : entre chaque retrait, pour que la production s'ajuste.",
           "Garder le soir et le matin pour la fin : ce sont les plus chargées, physiologiquement et affectivement.",
           "Remplacer le moment : un câlin, une histoire, au même endroit et à la même heure."
         ]
@@ -81,11 +79,10 @@
           "Du froid sur les seins : après la mise au sein, pour réduire l'inconfort.",
           "Un soutien-gorge confortable : ni compressif, ni serré.",
           "Surveiller les signes : un sein rouge, dur, douloureux, avec de la fièvre, se montre sans attendre.",
-          "S'arrêter et ralentir : si ton corps réagit mal, ralentir le rythme du sevrage."
+          "Ralentir si besoin : si ton corps réagit mal, espacer davantage les retraits."
         ]
       },
       "pour_aller_plus_loin": [
-        "Aucune date imposée : le sevrage se décide par toi, et l'allaitement peut se poursuivre aussi longtemps que tu le souhaites.",
         "Se faire accompagner : sage-femme, consultante en lactation (IBCLC) ou PMI, surtout si le sevrage doit être rapide.",
         "Le lait reste nécessaire : au moins 500 ml par jour de lait de suite jusqu'à un an, en remplacement.",
         "Accueillir l'ambivalence : soulagement et tristesse coexistent très souvent, les deux sont légitimes."
@@ -93,9 +90,9 @@
       "principe": "Le sevrage protège deux choses : ton corps et le rituel. Une tétée à la fois, plusieurs jours d'écart, et aucune date que tu n'aurais pas choisie.",
       "erreurs_a_eviter": [
         "Sevrer brutalement : risque d'engorgement et de douleur.",
-        "Supprimer plusieurs tétées en même temps.",
-        "Se laisser imposer une date par l'entourage ou le travail.",
-        "Commencer par la tétée du soir : c'est la plus chargée."
+        "Supprimer plusieurs tétées en même temps : l'engorgement menace et bébé perd tous ses repères.",
+        "Se laisser imposer une date par l'entourage ou le travail : le rythme n'est plus le tien.",
+        "Commencer par la tétée du soir : c'est la plus chargée, et il vit mal l'absence de son rituel."
       ],
       "consulter_si": "Consulter si : un sein devient rouge, dur, chaud et douloureux, avec de la fièvre ou des courbatures, si une boule persiste, ou si le sevrage s'accompagne chez toi d'une tristesse durable ou de pensées noires → sage-femme, consultante en lactation (IBCLC), médecin ou PMI sans attendre. Si les pensées noires s'installent, le 3114 répond jour et nuit.",
       "source": "Source : Haute Autorité de Santé, « Allaitement maternel : mise en œuvre et poursuite » ; 1000-premiers-jours.fr, l'allaitement au fil des mois."
@@ -126,22 +123,20 @@
           "Manger devant lui : l'imitation guide le geste.",
           "Ne pas guider sa main : le laisser trouver seul.",
           "Nommer ce qu'il fait : « tu piques, tu y arrives ».",
-          "Un repas court : quelques minutes suffisent.",
-          "S'arrêter s'il se braque : le repas ne se force jamais."
+          "Un repas court : quelques minutes suffisent."
         ]
       },
       "pour_aller_plus_loin": [
         "Le lait continue son travail pendant ce temps-là : ce qu'il perd en cuillerées arrivées à destination, il ne le perd pas dans sa journée.",
-        "Ne pas reprendre la main : quelques cuillerées perdues se rattrapent au repas suivant, une lutte installée, beaucoup moins.",
         "Toujours assis, tronc droit, surveillé : jamais en mouvement, jamais seul.",
         "Bannir les aliments à risque : raisin entier, fruits à coque, rondelles, morceaux durs ou glissants."
       ],
       "principe": "Vouloir la fourchette est un progrès, et un progrès ne se juge pas au résultat du soir. Ce qui s'abîme au repas ne se répare pas vite, alors que le désordre, lui, se ramasse.",
       "erreurs_a_eviter": [
-        "Lutter pour garder le couvert.",
-        "Reprendre le contrôle « parce qu'il ne mange rien ».",
-        "Empêcher les doigts dans l'assiette.",
-        "Donner un aliment à risque d'étouffement."
+        "Lutter pour garder le couvert : le repas devient un bras de fer.",
+        "Reprendre le contrôle « parce qu'il ne mange rien » : le refus du repas s'installe.",
+        "Empêcher les doigts dans l'assiette : il perd l'exploration qui l'aide à accepter.",
+        "Donner un aliment à risque d'étouffement : il peut boucher sa gorge."
       ],
       "consulter_si": "Consulter si : l'enfant s'étouffe, silence, absence de toux, changement de couleur → appeler immédiatement le 15. Consulter si : il refuse de manger depuis plusieurs jours, ne prend pas de poids, ou si sa courbe casse → pédiatre ou médecin traitant.",
       "source": "Source : ANSES et ameli.fr, aliments à risque de fausse route et corps étranger inhalé chez le jeune enfant."
@@ -172,22 +167,19 @@
           "Un format court : une à 2 heures maximum.",
           "Peu d'invités : les fêtes d'un an submergent presque toujours l'enfant.",
           "Respecter la sieste : elle prime sur l'horaire de la fête.",
-          "Un lieu de repli : une pièce calme, identifiée dès l'arrivée.",
-          "S'arrêter s'il sature : écourter n'est pas un échec."
+          "Un lieu de repli : une pièce calme, identifiée dès l'arrivée."
         ]
       },
       "pour_aller_plus_loin": [
         "Prévoir sa part à part : un petit gâteau à lui, préparé par toi, règle la question sans avoir à discuter avec qui que ce soit.",
-        "Les bougies et la décoration : une bougie, et rien qui se détache. Billes de sucre, perles, petits éléments plantés dessus finissent tous dans une bouche.",
-        "Se rappeler que la fête est pour les adultes : lui n'a besoin que d'un moment tranquille.",
-        "Se former aux gestes qui sauvent : dans une fête, avec des aliments partout, cela prend tout son sens."
+        "Les bougies et la décoration : une bougie, et rien qui se détache. Billes de sucre, perles, petits éléments plantés dessus finissent tous dans une bouche."
       ],
       "principe": "Un premier anniversaire se fête d'abord pour ceux qui regardent, rarement pour celui qui souffle. Deux interdits tiennent le cadre, et tout le reste est du plaisir.",
       "erreurs_a_eviter": [
         "Accepter un gâteau apporté sans demander ce qu'il y a dedans : le miel se cache souvent dans les pâtisseries, et la cuisson ne l'enlève pas.",
-        "Laisser des fruits à coque, des raisins entiers ou des bonbons à portée.",
+        "Laisser des fruits à coque, des raisins entiers ou des bonbons à portée : ils bloquent la gorge d'un enfant de cet âge.",
         "Le faire souffler au milieu de dix adultes qui filment : à un an, c'est la surcharge qui gâche la fête, pas le gâteau.",
-        "Le laisser manger sans surveillance pendant la fête."
+        "Le laisser manger sans surveillance pendant la fête : une fausse route passe inaperçue dans le bruit."
       ],
       "consulter_si": "Consulter si : l'enfant s'étouffe, silence, absence de toux, changement de couleur → appeler immédiatement le 15 ou le 112. Consulter si : après avoir mangé, il présente des plaques qui s'étendent, un gonflement du visage ou des lèvres, des vomissements, une pâleur, ou une gêne à respirer → appeler immédiatement le 15.",
       "source": "Source : Santé publique France / mangerbouger.fr, à partir d'un an : comment l'aider à manger comme les grands."
@@ -196,7 +188,7 @@
       "categorie": "alim",
       "situation": "La peur d'aller à la selle / Il se retient, ça fait mal",
       "titre": "Défaire un cercle déjà installé",
-      "explication": "À onze mois, il a compris. Il a eu mal une fois, il sait ce qui va se passer, et il fait tout pour l'éviter : il se raidit, croise les jambes, se cache derrière un meuble, rougit et retient. Ce n'est plus seulement une question de transit, c'est devenu une peur, et la peur est ce qui alimente le cercle. Plus il se retient, plus la selle durcit dans le rectum, plus elle fera mal, plus il se retiendra. À ce stade les leviers de la maison aident, mais ils suffisent rarement seuls.",
+      "explication": "À 11 mois, il a compris. Il a eu mal une fois, il sait ce qui va se passer, et il fait tout pour l'éviter : il se raidit, croise les jambes, se cache derrière un meuble, rougit et retient. Ce n'est plus seulement une question de transit, c'est devenu une peur, et la peur est ce qui alimente le cercle. Plus il se retient, plus la selle durcit dans le rectum, plus elle fera mal, plus il se retiendra. À ce stade les leviers de la maison aident, mais ils suffisent rarement seuls.",
       "ancrage": "Il ne fait pas de caprice, il évite une douleur qu'il connaît. Ce que tu peux faire de plus utile est de retirer toute tension de ce moment, et de ne pas attendre pour demander un avis.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -213,14 +205,8 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Hors du repas : les leviers de fond",
-        "etapes": [
-          "L'eau toujours à portée : une tasse sur la table basse, dans le sac, à chaque repas, sans attendre qu'il réclame.",
-          "Des fibres à chaque assiette : légumes verts et fruits cuits, pas seulement la carotte et la banane.",
-          "Bouger tous les jours : à quatre pattes, debout, en poussant un chariot, le corps entier soutient le transit.",
-          "Un moment tranquille après le repas du matin : c'est souvent là que le corps se met en route, à condition qu'on ne le presse pas.",
-          "Le bain du soir : de l'eau tiède, du temps, et rien qu'on attende de lui."
-        ],
+        "titre": "Réflexologie : accompagner la retenue",
+        "etapes": [],
         "lien_reflexologie": {
           "id": "constipation",
           "titre": "Constipation"
@@ -228,9 +214,9 @@
       },
       "pour_aller_plus_loin": [
         "Consulter sans attendre : une rétention installée demande souvent un accompagnement médical, et plus on tarde plus c'est long.",
-        "Tenir l'eau et les fibres dans la durée : ce sont des leviers de fond, ils agissent sur des semaines et pas sur un jour.",
         "Ne rien introduire pour faire venir la selle : ces gestes confirment sa peur et peuvent blesser.",
-        "Garder le sujet hors de la conversation familiale : ce qui se commente devant lui devient un enjeu de plus."
+        "Garder le sujet hors de la conversation familiale : ce qui se commente devant lui devient un enjeu de plus.",
+        "Tenir les leviers de fond : l'eau toujours à portée, des fibres à chaque assiette, du mouvement chaque jour, un moment tranquille après le repas du matin et un bain tiède le soir."
       ],
       "principe": "Une fois la peur installée, ce n'est plus le transit qu'on traite en premier, c'est la douleur et l'enjeu. Un enfant lâche ce qu'il retient quand il cesse d'avoir mal et quand plus personne ne l'observe.",
       "erreurs_a_eviter": [
@@ -254,7 +240,6 @@
         "titre": "Action immédiate : la transition progressive",
         "etapes": [
           "Ne bouger qu'une chose : le lait, et rien d'autre cette semaine. Ni nouvelle texture, ni nouvel aliment.",
-          "Ne changer qu'une chose à la fois : ni nouvelle texture, ni nouvel aliment en même temps.",
           "Respecter la préparation : les doses indiquées sur la boîte, sans jamais forcer sur la poudre.",
           "Observer le transit : selles, confort, ventre, sur plusieurs jours.",
           "Ne rien décider seul.e : un changement de lait se décide avec le professionnel."
@@ -268,8 +253,7 @@
           "Proposer de l'eau : à chaque repas.",
           "Beaucoup de mouvement : il soutient le transit.",
           "Main posée sur le ventre : ta paume réchauffée, immobile, pression douce et constante.",
-          "Soin du siège : les selles qui changent irritent vite la peau.",
-          "S'arrêter dès qu'il se crispe : le soin doit rester bref."
+          "Soin du siège : les selles qui changent irritent vite la peau."
         ]
       },
       "pour_aller_plus_loin": [
@@ -280,10 +264,10 @@
       ],
       "principe": "Un transit qui bouge après un lait nouveau dit simplement qu'une flore se réinstalle, et cela prend du temps. Ce qui rend la période lisible, c'est de n'avoir touché qu'un seul paramètre.",
       "erreurs_a_eviter": [
-        "Changer de lait d'un coup.",
-        "Changer plusieurs choses le même jour.",
-        "Donner du lait demi-écrémé. Les besoins en matières grasses sont élevés jusqu'à trois ans.",
-        "Changer de lait sans avis médical."
+        "Changer de lait d'un coup : l'estomac et le transit se dérèglent.",
+        "Changer plusieurs choses le même jour : plus rien n'est lisible.",
+        "Donner du lait demi-écrémé : les besoins en matières grasses sont élevés jusqu'à 3 ans.",
+        "Changer de lait sans avis médical : la cause d'un trouble de transit reste inconnue."
       ],
       "consulter_si": "Consulter si : le transit reste perturbé plusieurs jours, si les selles deviennent liquides et très fréquentes, si l'enfant vomit, refuse de boire, présente du sang dans les selles, une pâleur, une fatigue inhabituelle, ou s'il ne prend pas de poids → pédiatre ou médecin traitant.",
       "source": "Source : ameli.fr (Assurance Maladie) et ANSES, l'alimentation de l'enfant de 0 à 3 ans : lait de suite, lait de croissance et besoins en fer."

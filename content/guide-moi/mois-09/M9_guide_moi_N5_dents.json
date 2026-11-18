@@ -10,9 +10,9 @@
   "protocoles": [
     {
       "categorie": "dents",
-      "situation": "Les dents qui poussent ensemble / Il est douloureux toute la journée",
+      "situation": "Plusieurs dents à la fois / Il a mal toute la journée",
       "titre": "Répartir le soulagement sur la journée",
-      "explication": "Après les incisives du centre viennent celles qui les encadrent, et elles arrivent souvent par deux ou par quatre. La douleur n'est alors plus un pic du soir : elle est là au réveil, au repas, au moment de jouer. Elle se voit sur trois choses en particulier à cet âge : il mange moins parce que mâcher appuie sur la gencive, il se frotte l'oreille du côté qui pousse, parce que la douleur se propage le long de la mâchoire, et il tolère beaucoup moins bien tout le reste de la journée.",
+      "explication": "Après les incisives du centre viennent d'autres dents, et plusieurs peuvent pousser à la suite. La gêne n'est plus un pic du soir : elle peut être là au réveil, au repas, au moment de jouer. Il mange parfois moins parce que mâcher appuie sur la gencive, et il tolère moins bien tout le reste de la journée.",
       "ancrage": "Accompagner un enfant douloureux du matin au soir, plusieurs jours de suite, est épuisant, et l'agacement qui monte en fin de journée n'enlève rien à ta patience. Le soulagement se répartit sur la journée plutôt que de se concentrer sur le coucher.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -30,13 +30,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : accompagner la poussée",
-        "etapes": [
-          "Au calme, à distance des repas : jamais au plus fort de la douleur.",
-          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
-          "La séquence « Poussées dentaires » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Garder ta voix posée : quelques mots toujours identiques, ou un air fredonné.",
-          "T'arrêter s'il se détourne : le geste vaut par ce qu'il apaise, pas par sa durée."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "dents",
           "titre": "Poussées dentaires"
@@ -45,22 +39,20 @@
       "pour_aller_plus_loin": [
         "Répartir les moments de soulagement comme des rendez-vous : au réveil, avant chaque repas, en milieu d'après-midi.",
         "Garder deux anneaux en rotation au réfrigérateur : il y en a toujours un de frais quand l'autre sert.",
-        "Faire baisser les exigences de la journée : moins de sorties, un coucher un peu plus tôt, plus de contact.",
-        "Demander l'avis d'un professionnel avant tout médicament : y compris en vente libre, les doses se calculent sur le poids."
+        "Faire baisser les exigences de la journée : moins de sorties, un coucher un peu plus tôt, plus de contact."
       ],
       "principe": "Une douleur qui dure toute la journée demande des gestes répartis sur toute la journée. Concentrer le soulagement au coucher laisse les heures précédentes sans réponse.",
       "erreurs_a_eviter": [
-        "Sortir l'anneau du congélateur : à cette température il blesse la muqueuse au lieu de l'endormir.",
-        "Faire porter aux dents une diarrhée, une éruption ou une fièvre : la cause véritable reste sans réponse pendant ce temps.",
-        "Retirer les morceaux parce qu'il mange moins ces jours-ci : la douleur passe en quelques jours, l'habitude de refuser reste.",
-        "Essayer trois choses le même jour : plus rien n'est attribuable, et tu recommences la semaine suivante."
+        "Sortir l'anneau du congélateur : à cette température il blesse la muqueuse.",
+        "Faire porter aux dents une diarrhée, une éruption ou une fièvre : une autre cause reste à chercher.",
+        "Essayer trois choses le même jour : plus rien n'est attribuable."
       ],
-      "consulter_si": "Consulter si : bébé a de la fièvre, refuse de boire, présente des plaques blanches dans la bouche, une éruption qui s'étend, une gencive qui saigne abondamment, ou paraît anormalement mou → pédiatre ou médecin traitant sans délai. Une fièvre ne s'explique jamais par les dents.",
-      "source": "Source : ameli.fr (Assurance Maladie), poussées dentaires : symptômes, soulagement et quand consulter."
+      "consulter_si": "Consulter si : bébé refuse de boire, a une gencive qui saigne beaucoup, des plaques blanches dans la bouche, ou une fièvre qui dure → pédiatre ou médecin traitant.",
+      "source": "Source : Santé.fr, « Poussée dentaire »."
     },
     {
       "categorie": "dents",
-      "situation": "Le besoin de mordre / Il mordille tout, et il me mord aussi",
+      "situation": "Le besoin de mordre / Il mordille tout, me mord",
       "titre": "Répondre sans en faire un jeu",
       "explication": "Il mordille les barreaux jusqu'à y laisser des traces, et il se met à mordre les épaules, les doigts, le sein. Deux choses se croisent. Le besoin d'appuyer sur une gencive douloureuse est réel, et à neuf mois il a de quoi appuyer fort. Et la morsure d'une personne est encore un geste d'exploration, pas une agression : il ne mesure pas encore ce qu'elle provoque, et il découvre que son geste entraîne une réaction. Cette réaction peut l'intéresser dès la deuxième fois.",
       "ancrage": "Se faire mordre par son bébé surprend, fait mal, et met souvent mal à l'aise à raconter. Il n'y a rien à corriger dans son caractère : il y a une réaction à rendre ennuyeuse et un objet à lui mettre à la place.",
@@ -91,32 +83,30 @@
       "pour_aller_plus_loin": [
         "Prévenir les autres adultes de la réponse choisie : une réaction amusée d'un côté annule tout le reste.",
         "Vérifier les objets qu'il mordille : anneau fendu, peinture qui s'écaille, jouet abîmé, tout cela se retire.",
-        "Demander au pharmacien avant tout produit : c'est lui qui sait ce qui est adapté à son âge.",
         "Vérifier les barreaux mordillés : une protection adaptée existe, à condition qu'elle soit bien fixée."
       ],
       "principe": "Un geste qui produit une grande réaction se répète. Ce qui le fait disparaître, c'est une réponse identique, brève et sans intérêt, associée à une solution de remplacement.",
       "erreurs_a_eviter": [
         "Crier ou sursauter fortement : la réaction devient le but du geste, et il recommence pour la revoir.",
-        "En rire ou trouver cela mignon : il retient que mordre déclenche de l'attention agréable.",
-        "Le mordre en retour pour qu'il comprenne : il ne fait pas ce lien, et il apprend que mordre est ce qu'on fait entre nous.",
-        "Le gronder longuement : à neuf mois, la longueur du discours efface le message qu'il contenait."
+        "En rire ou trouver cela mignon : il retient que mordre déclenche une attention amusée.",
+        "Le mordre en retour pour qu'il comprenne : il ne fait pas ce lien."
       ],
-      "consulter_si": "Consulter si : bébé a avalé ou inhalé un morceau d'objet → appeler le 15 immédiatement, en particulier s'il s'agit d'une pile bouton, même sans symptôme. Consulter si : sa gencive saigne abondamment, s'il a de la fièvre, refuse de boire, ou présente des plaques blanches dans la bouche → pédiatre sans délai.",
+      "consulter_si": "Consulter si : bébé a avalé un morceau d'objet ou une pile bouton, même sans symptôme → appeler le 15. Sa gencive saigne beaucoup ou il a de la fièvre → pédiatre.",
       "source": "Source : mpedia.fr (Association française de pédiatrie ambulatoire), les poussées dentaires du nourrisson."
     },
     {
       "categorie": "dents",
-      "situation": "Les réveils attribués aux dents / Il se réveille encore et encore",
+      "situation": "Les réveils et les dents / Il se réveille sans cesse",
       "titre": "Distinguer la dent de la séparation",
-      "explication": "Les réveils reviennent, et la dent est la première explication qui vient. À neuf mois, une autre cause occupe pourtant le même terrain : l'angoisse de la séparation est à son maximum, et elle réveille aussi. Les deux ne se ressemblent qu'en apparence. Une douleur dentaire réveille au milieu d'un cycle, sans prévenir, avec des signes visibles au même moment : gencive tendue, salive abondante, besoin de mordre. Un réveil d'angoisse, lui, arrive plutôt en début de nuit ou en fin de nuit, et il s'arrête dès que quelqu'un apparaît.",
-      "ancrage": "Se tromper de cause pendant trois semaines est décourageant, et cela arrive à beaucoup de parents sur ce sujet précis. Une observation de deux ou trois nuits suffit le plus souvent à trancher.",
+      "explication": "Les réveils reviennent, et la dent est la première explication qui vient. À neuf mois, une autre cause occupe pourtant le même terrain : l'angoisse de séparation, qui réveille aussi. Une douleur dentaire s'accompagne de signes visibles dans la journée : gencive tendue, salive abondante, besoin de mordre. Un réveil d'angoisse s'apaise dès que quelqu'un apparaît.",
+      "ancrage": "Se tromper de cause pendant quelques semaines est décourageant, et cela arrive à beaucoup de parents. Observer quelques nuits aide à y voir clair.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
         "titre": "Action immédiate : observer avant d'agir",
         "etapes": [
           "Soulever sa lèvre du bout du doigt : une crête blanchie et bombée signe une dent qui traverse, une gencive rose ne dit rien.",
-          "Noter l'heure des réveils : le milieu de nuit oriente vers la douleur, les extrémités vers l'angoisse.",
+          "Noter les réveils : heure, durée, et ce qui l'apaise.",
           "Regarder ce qui l'apaise : ta seule apparition, ou bien la fraîcheur et la pression sur la gencive.",
           "Regarder la journée qui a précédé : une séparation, un changement de garde, une absence inhabituelle.",
           "Ne rien modifier au rituel pendant l'observation : une seule variable à la fois."
@@ -137,22 +127,20 @@
       "pour_aller_plus_loin": [
         "Regarder aussi ce qui change chez lui la journée : un début de garde, une absence, une personne partie.",
         "Poser les mêmes questions à la personne qui le garde : elle voit des choses que tu ne peux pas voir.",
-        "Recommencer l'observation si la première piste ne donne rien : une cause écartée en laisse une autre à examiner.",
         "Noter les heures pendant une semaine : le schéma apparaît sur une semaine, jamais sur une nuit."
       ],
-      "principe": "Deux causes différentes produisent des réveils qui se ressemblent. Ce qui les sépare n'est pas leur intensité, c'est le moment où ils arrivent et ce qui les fait cesser.",
+      "principe": "Deux causes différentes produisent des réveils qui se ressemblent. Ce qui les sépare, c'est ce qui les accompagne et ce qui les fait cesser.",
       "erreurs_a_eviter": [
         "Traiter les deux causes en même temps : si les réveils s'espacent, tu ne sauras pas laquelle agissait.",
-        "Conclure au bout d'une nuit : une nuit isolée ne distingue rien, il en faut deux ou trois.",
-        "Ajouter un médicament du soir pendant l'observation : il efface précisément le signe que tu cherches à voir.",
-        "Expliquer une fièvre par les dents : une fièvre a toujours une autre cause et se fait examiner."
+        "Conclure au bout d'une nuit : une nuit isolée ne distingue rien.",
+        "Ajouter un médicament du soir pendant l'observation : il efface le signe que tu cherches à voir."
       ],
-      "consulter_si": "Consulter si : bébé a de la fièvre, refuse de boire, présente des vomissements, une diarrhée, une éruption, s'il paraît anormalement mou, ou si les réveils s'accompagnent de pleurs inconsolables → pédiatre ou médecin traitant. Une fièvre ne s'explique jamais par les dents.",
+      "consulter_si": "Consulter si : bébé a de la fièvre, refuse de boire, vomit, a la diarrhée ou une éruption, ou si les réveils s'accompagnent de pleurs inconsolables → pédiatre ou médecin traitant.",
       "source": "Source : ameli.fr (Assurance Maladie), poussées dentaires : symptômes, soulagement et quand consulter."
     },
     {
       "categorie": "dents",
-      "situation": "Les dents espacées ou de travers / Je m'inquiète pour la suite",
+      "situation": "Les dents de travers / Je m'inquiète pour la suite",
       "titre": "Regarder la dent, pas la géométrie",
       "explication": "Une dent sort en biais, une autre laisse un espace visible avec sa voisine. C'est fréquent et cela n'annonce rien pour la suite : les dents de lait poussent dans une mâchoire qui grandit encore, elles se replacent souvent d'elles-mêmes au cours des mois suivants, et les espaces entre elles sont plutôt une bonne chose, puisque les dents définitives seront nettement plus larges. Ce qui compte à cet âge n'est pas l'alignement, ce sont l'aspect de la dent et la santé de la gencive autour.",
       "ancrage": "Une photo croisée sur un écran suffit à faire naître une inquiétude durable. Ce qui se regarde à neuf mois tient en deux points, et l'alignement n'en fait pas partie.",
@@ -176,29 +164,26 @@
           "Passer un linge doux sur les dents chaque soir : si la brosse est encore refusée.",
           "Une brosse à petite tête et poils très souples : quelques secondes suffisent à cet âge.",
           "Une trace de dentifrice fluoré : de la largeur de la brosse, pas davantage.",
-          "Quelques gorgées d'eau après le biberon du soir : c'est le lait qui stagne la nuit qui abîme le plus les dents.",
           "T'arrêter dès qu'il se braque : on repropose le lendemain, jamais en maintenant la tête."
         ]
       },
       "pour_aller_plus_loin": [
         "Retenir que les espaces sont utiles : les dents définitives sont plus larges et auront besoin de place.",
         "Attendre plusieurs mois avant de juger d'un alignement : la mâchoire continue de grandir.",
-        "Prévoir une première visite chez le dentiste : elle peut se faire sans problème particulier, simplement pour voir.",
         "Se méfier des comparaisons entre enfants : l'ordre et la position des premières dents varient beaucoup."
       ],
       "principe": "Ce qu'on regarde dans une bouche d'un an, c'est l'état de la dent et de la gencive, pas la géométrie. La place se juge bien plus tard, quand la mâchoire a fini de grandir.",
       "erreurs_a_eviter": [
         "Chercher à redresser une dent en appuyant dessus : le geste peut blesser la gencive et ne déplace rien.",
-        "Comparer sa dentition à celle d'un autre bébé : l'ordre d'apparition varie de plusieurs mois d'un enfant à l'autre.",
-        "Renoncer au brossage parce que les dents sont mal placées : ce sont justement les zones serrées qui se carient le plus.",
-        "Attendre une visite plus tard alors qu'une tache est apparue : une tache sur une dent de lait se montre sans attendre."
+        "Comparer sa dentition à celle d'un autre bébé : l'ordre d'apparition varie beaucoup.",
+        "Renoncer au brossage parce que les dents sont mal placées : ce sont les zones serrées qui se carient le plus."
       ],
-      "consulter_si": "Consulter si : tu observes une tache blanche, brune ou noire sur une dent, une gencive rouge, gonflée ou qui saigne, une dent qui bouge en dehors d'une chute, ou si bébé a mal en mangeant → chirurgien-dentiste ou pédiatre.",
+      "consulter_si": "Consulter si : tu observes une tache blanche, brune ou noire sur une dent, une gencive rouge, gonflée ou qui saigne, ou si bébé a mal en mangeant → chirurgien-dentiste ou pédiatre.",
       "source": "Source : Union française pour la santé bucco-dentaire (UFSBD), la santé bucco-dentaire du jeune enfant."
     },
     {
       "categorie": "dents",
-      "situation": "La lutte du lavage de nez / Il se débat et je finis par renoncer",
+      "situation": "La lutte du lavage de nez / Il se débat, je renonce",
       "titre": "À deux, et bouclé en 10 secondes",
       "explication": "Le lavage de nez tourne à la bagarre : il se cambre, tourne la tête, repousse ta main, et tu finis par renoncer. Ce qui a changé, ce n'est pas le geste, c'est lui : à neuf mois il est fort, mobile, et il anticipe ce qui arrive dès qu'il voit la dosette. Le nez encombré, lui, reste un vrai sujet à cet âge, surtout en collectivité, parce qu'un tout-petit respire mal par la bouche en dormant et en buvant.",
       "ancrage": "Maintenir un enfant qui hurle pour un geste d'hygiène met profondément mal à l'aise, et beaucoup de parents finissent par y renoncer. Un lavage à deux, annoncé et bouclé en 10 secondes, change complètement ce moment.",
@@ -218,13 +203,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : après le lavage",
-        "etapes": [
-          "Une fois calmé, contre toi : pieds libres, sans reparler de ce qui vient de se passer.",
-          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
-          "Suivre la séquence « Rhume et oreilles » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Ta voix tout bas pendant la séquence : toujours les mêmes mots, qui deviennent un repère.",
-          "T'arrêter s'il se crispe : ce moment doit compenser le précédent, pas s'y ajouter."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "rhume-otite",
           "titre": "Rhume et oreilles"
@@ -233,17 +212,15 @@
       "pour_aller_plus_loin": [
         "Le faire avant le repas et avant le coucher : ce sont les deux moments où le nez bouché gêne le plus.",
         "S'y mettre à deux quand c'est possible : l'un tient et rassure, l'autre lave, et tout va deux fois plus vite.",
-        "Utiliser du sérum physiologique en dosettes : une dosette par narine, jetée après usage.",
-        "Prévenir la personne qui le garde de la séquence : la même façon de faire des deux côtés réduit l'appréhension."
+        "Utiliser du sérum physiologique en dosettes : une dosette par narine, jetée après usage."
       ],
       "principe": "Un geste désagréable devient supportable quand il est annoncé, très court, et suivi immédiatement de réconfort. C'est la durée et l'imprévisibilité qui le rendent insupportable, pas le geste lui-même.",
       "erreurs_a_eviter": [
-        "Négocier ou t'y reprendre à cinq fois : le moment s'étire et devient bien plus difficile que le geste.",
-        "Le faire par surprise pendant qu'il joue : il se met ensuite à se méfier de tous tes gestes.",
-        "Renoncer parce qu'il pleure : le nez encombré gêne les repas et le sommeil, et la gêne dure plus longtemps que le lavage.",
-        "Utiliser un mouche-bébé à répétition sans avis : l'aspiration répétée irrite la muqueuse et entretient l'encombrement."
+        "Négocier ou t'y reprendre à cinq fois : le moment s'étire et devient plus difficile que le geste.",
+        "Le faire par surprise pendant qu'il joue : il se méfie ensuite de tes gestes.",
+        "Utiliser un mouche-bébé à répétition : l'aspiration répétée irrite la muqueuse."
       ],
-      "consulter_si": "Consulter si : bébé respire vite ou difficilement, creuse entre les côtes, refuse de boire, a de la fièvre plus de 48 heures, tire sur son oreille avec de la fièvre, ou paraît anormalement mou → médecin traitant ou pédiatre sans délai ; appeler le 15 en cas de gêne respiratoire marquée.",
+      "consulter_si": "Consulter si : bébé respire vite ou difficilement, creuse entre les côtes, refuse de boire ou a de la fièvre → médecin traitant ou pédiatre ; gêne respiratoire marquée → le 15.",
       "source": "Source : ameli.fr (Assurance Maladie), rhinopharyngite de l'enfant : lavage de nez et signes qui doivent alerter."
     }
   ]

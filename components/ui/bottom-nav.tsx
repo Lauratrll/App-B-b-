@@ -294,7 +294,7 @@ const STYLE_BARRE_ACCUEIL = {
   borderTop: "0.5px solid rgba(58,50,40,.06)",
 } as const;
 
-export function BottomNav() {
+export function BottomNav({ afficherLoupe = true }: { afficherLoupe?: boolean }) {
   const pathname = usePathname() ?? "";
   const { back } = useNav();
   const estSur = (base: string) =>
@@ -305,7 +305,7 @@ export function BottomNav() {
   // Visible pour tous les comptes (app pas encore commercialisée).
   if (estSur("/dashboard")) {
     return (
-      <nav aria-label="Navigation principale" className="sticky bottom-0 z-30 grid" style={{ ...STYLE_BARRE, ...STYLE_BARRE_ACCUEIL, gridTemplateColumns: "52px repeat(4, 1fr) 52px" }}>
+      <nav aria-label="Navigation principale" className="sticky bottom-0 z-30 grid" style={{ ...STYLE_BARRE, ...STYLE_BARRE_ACCUEIL, gridTemplateColumns: `52px repeat(${afficherLoupe ? 4 : 3}, 1fr) 52px` }}>
         <OngletPicto href="/dashboard" label="Accueil" actif>
           {ICONE_ACCUEIL}
         </OngletPicto>
@@ -322,12 +322,17 @@ export function BottomNav() {
             {LETTRES_SOS}
           </svg>
         </BoutonRond>
+        {/* Dès 12 mois, la loupe disparaît (Laura, 18/11/2026). */}
+        {afficherLoupe ? (
+          <>
         {/* Loupe seule, sans mot ni contour (Laura, 06/11) ; rosé de Prendre soin de moi depuis l'accueil B2 (18/11, avant : pêche #F0B8A8 / #7A3E2E). */}
         <BoutonRond href="/que-me-dit-bebe" label="Que me dit bébé ?" actif={false} fond="#F5D0C8" bord="transparent">
           <svg width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="#8A4030" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
             {ICONE_LOUPE}
           </svg>
         </BoutonRond>
+          </>
+        ) : null}
         {/* Le rythme de bébé : bleu ciel #D3E5F2 (Laura, 07/11 : remplace le vert), picto soleil/lune bleu profond, sans contour. */}
         <BoutonRond href="/rythme" label="Le rythme de bébé" actif={false} fond="#D3E5F2" bord="transparent" hausse={HAUSSE_EXTERIEURS}>
           <svg width={28} height={28} viewBox="0 0 24 24" fill="none" color="#2F6081" stroke="#2F6081" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden>

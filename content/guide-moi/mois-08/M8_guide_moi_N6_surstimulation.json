@@ -10,10 +10,10 @@
   "protocoles": [
     {
       "categorie": "stimu",
-      "situation": "L'exploration sans fin / Il n'arrête jamais, puis il s'effondre",
+      "situation": "L'exploration sans fin / Il explore, puis s'effondre",
       "titre": "Poser les pauses à sa place",
       "explication": "Depuis qu'il se déplace, il ne s'arrête plus : il rampe, se hisse, attrape, recommence, jusqu'à l'effondrement. Sa motricité toute neuve le tire en avant, et la fonction qui permet de s'arrêter, de renoncer à ce qui attire, se construit pendant toute l'enfance et n'est pas encore là. Il ne peut donc pas décrocher seul. Ce qui s'accumule pendant la journée ne se voit pas sur le moment : cela ressort le soir, sous forme de pleurs qu'aucun câlin ne calme.",
-      "ancrage": "Il ne sait pas encore s'arrêter, et il ne réclamera pas la pause dont il a besoin. C'est toi qui la poses, et ce n'est pas le priver de quelque chose.",
+      "ancrage": "Poser une pause à un bébé qui a l'air en pleine forme demande de te fier à autre chose qu'à ce qu'il montre : tu ne le prives de rien.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -29,13 +29,12 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "La pause posée",
+        "titre": "Un coin de pause",
         "etapes": [
-          "Bébé contre toi, lumière tamisée : le corps entier au repos.",
-          "T'asseoir au sol avec lui contre toi : à sa hauteur, sans rien lui demander.",
-          "Mettre un mot sur ce qu'il vient de vivre : « c'était beaucoup », une phrase, pas plus.",
-          "Une main posée sur son dos : immobile, le temps que sa respiration ralentisse.",
-          "T'arrêter s'il s'agite : la pause s'arrête aussi quand elle ne prend pas."
+          "Un tapis ou une couverture à l'écart : toujours la même, dans un coin calme.",
+          "Un seul objet familier : son doudou ou un tissu qu'il connaît bien.",
+          "Rester à côté sans animer : tu regardes la lumière ou la fenêtre, tout près de lui.",
+          "Le laisser quitter le coin : quand il repart, la pause est faite."
         ]
       },
       "pour_aller_plus_loin": [
@@ -44,11 +43,9 @@
         "Aucun écran à cet âge : ils captent l'attention au lieu de la libérer, et ils n'apaisent pas.",
         "Alterner sur toute la journée : un temps d'exploration, un temps de calme, sans attendre la crise."
       ],
-      "principe": "Un bébé va au bout de ce qui l'attire tant que rien ne l'arrête. À cet âge, le frein est extérieur : il est porté par l'adulte.",
+      "principe": "À cet âge, le frein est extérieur : il est porté par l'adulte.",
       "erreurs_a_eviter": [
         "Attendre les signes de fatigue pour le poser : quand ils apparaissent, la limite est déjà dépassée.",
-        "Le laisser explorer jusqu'à l'effondrement : la soirée entière en paie le prix.",
-        "Utiliser un écran pour le calmer : il se fige sans se reposer, et la tension ressort ensuite.",
         "Enchaîner les activités sans temps vide : la journée devient une montée continue."
       ],
       "consulter_si": "Consulter si : bébé reste inconsolable plusieurs heures malgré le retour au calme, refuse de boire, présente de la fièvre, ou paraît anormalement mou ou difficile à réveiller → pédiatre ou médecin traitant ; appeler le 15 selon l'urgence."
@@ -56,13 +53,13 @@
     {
       "categorie": "stimu",
       "situation": "Le retour de garde / Il explose dès que j'arrive",
-      "titre": "20 minutes sans rien",
-      "explication": "On te dit que la journée s'est très bien passée, et il explose à la seconde où tu arrives. Toute la journée, il s'est tenu : il s'est adapté à d'autres bras, d'autres bruits, d'autres rythmes, et cet effort a un coût qu'il ne peut pas évacuer sur place. Ton arrivée est le signal que le relâchement devient possible. Cette décharge se produit auprès de la personne qui le sécurise le plus, ce qui explique qu'elle te soit réservée.",
-      "ancrage": "Ces retrouvailles qui commencent par des cris sont décourageantes, surtout après une journée de travail. Il ne te reproche rien : il lâche enfin, et c'est à toi qu'il peut le faire.",
+      "titre": "Retrouvailles d'abord, le reste après",
+      "explication": "On te dit que la journée s'est très bien passée, et il explose à la seconde où tu arrives. Toute la journée, il s'est tenu : il s'est adapté à d'autres bras, d'autres bruits, d'autres rythmes, et cet effort a un coût qu'il ne peut pas évacuer sur place. Ton arrivée est le signal que le relâchement devient possible.",
+      "ancrage": "Ces retrouvailles qui commencent par des cris sont décourageantes, surtout après une journée de travail. Ce moment-là ne te demande rien d'autre que d'être là.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate : 20 minutes de rien",
+        "titre": "Action immédiate : accueillir sans animer",
         "etapes": [
           "L'accueillir sans animer : le prendre, le tenir, sans jeu ni flot de paroles.",
           "Poser le téléphone : la première demi-heure se passe sans écran, pour lui comme pour toi.",
@@ -75,13 +72,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : le rituel des retrouvailles",
-        "etapes": [
-          "Au même moment chaque soir : une fois assis, une fois les manteaux enlevés.",
-          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
-          "Suivre la séquence « Angoisse de séparation » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Parler doucement pendant la séquence : raconter ce que tu fais, sur le même ton.",
-          "Attendre s'il refuse d'abord : après une journée en collectivité, certains bébés ont besoin de silence avant le toucher."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "separation",
           "titre": "Angoisse de séparation"
@@ -93,21 +84,19 @@
         "Prévenir l'autre parent du fonctionnement : la décharge se produit avec celui qui rentre, à tour de rôle.",
         "Garder le même ordre chaque soir : retrouvailles, calme, puis le reste."
       ],
-      "principe": "Un enfant relâche sa tension là où il se sent le plus en sécurité. Les cris du retour mesurent la confiance qu'il te fait, pas la qualité de sa journée.",
+      "principe": "Les cris du retour ne mesurent pas la qualité de sa journée, mais la confiance qu'il te fait.",
       "erreurs_a_eviter": [
         "Compenser par du jeu, une sortie ou un cadeau : tu ajoutes de la stimulation là où il demande du vide.",
-        "Lire ses pleurs comme la preuve qu'il a été malheureux : tu doutes d'un mode de garde qui se passe bien.",
-        "Enchaîner les tâches dès l'arrivée : la décharge repart de zéro à chaque interruption.",
-        "Allumer un écran pour souffler : la tension ne s'évacue pas, elle se reporte au coucher."
+        "Lire ses pleurs comme la preuve qu'il a été malheureux : tu doutes d'un mode de garde qui se passe bien."
       ],
       "consulter_si": "Consulter si : bébé paraît éteint ou apathique, refuse de manger ou de boire chez la personne qui le garde plusieurs jours de suite, perd du poids, ou pleure de façon inconsolable en permanence → pédiatre, PMI, ou psychologue de la petite enfance."
     },
     {
       "categorie": "stimu",
-      "situation": "Les jeux qui secouent / Il hurle de rire quand on le chahute",
+      "situation": "Les jeux qui secouent / Il hurle de rire, chahuté",
       "titre": "Ce qui ne se fait jamais, même en riant",
-      "explication": "Les chatouilles, le cheval sur les genoux, le lancer en l'air : à huit mois ces jeux déclenchent des rires énormes, et c'est exactement ce qui les rend difficiles à arrêter. Deux choses se jouent en même temps. La première est une règle de sécurité qui ne se discute pas : un bébé ne se secoue jamais et ne se lance jamais en l'air, même en riant, parce que sa tête est lourde et que son cou ne la retient pas encore. La seconde est que le rire, à cet âge, ne dit plus qu'il en veut encore : il dit qu'il est déjà au maximum.",
-      "ancrage": "Le rire n'est pas un feu vert. Et il existe un geste qui ne devient jamais acceptable, quel que soit le plaisir qu'il déclenche.",
+      "explication": "Les chatouilles, le cheval sur les genoux, le lancer en l'air : à 8 mois ces jeux déclenchent des rires énormes, et c'est exactement ce qui les rend difficiles à arrêter. Deux choses se jouent en même temps. La première est une règle de sécurité qui ne se discute pas : un bébé ne se secoue jamais et ne se lance jamais en l'air, même en riant, parce que sa tête est lourde et que son cou ne la retient pas encore. La seconde est que le rire, à cet âge, ne dit plus qu'il en veut encore : il dit qu'il est déjà au maximum.",
+      "ancrage": "Ces jeux sont ceux que tout le monde a connus, souvent transmis avec amour : tu peux les changer sans gâcher le plaisir.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -123,13 +112,12 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Le corps qui redescend",
+        "titre": "Un jeu qui ralentit",
         "etapes": [
-          "L'installer contre ton torse, sa tête sous ton menton : il cale sa respiration sur la tienne.",
-          "Une main large et immobile entre ses omoplates : le poids constant apaise plus que le mouvement.",
-          "Un seul canal à la fois : parler ou toucher, jamais les deux ensemble pendant la descente.",
-          "Ralentir ta propre respiration : le rythme se transmet en 1 minute environ.",
-          "Attendre que ses mains s'ouvrent : des poings desserrés indiquent que la tension retombe."
+          "Un jeu de doigts au ralenti : la même comptine, dite deux fois plus lentement.",
+          "Un tissu qu'on soulève : cache-cache tout doux, assis au sol.",
+          "Baisser la voix : jusqu'au chuchotement, pour qu'il se penche vers toi.",
+          "Finir sur un geste qui se répète : un câlin de doigts, toujours le même, qui dit que c'est fini."
         ]
       },
       "pour_aller_plus_loin": [
@@ -138,7 +126,7 @@
         "Éloigner ces jeux du coucher : ils repoussent l'endormissement d'une bonne demi-heure.",
         "Savoir que le risque existe aussi dans le jeu : il n'est pas réservé aux moments de colère."
       ],
-      "principe": "Un rire fort mesure l'intensité, pas le consentement. Et la sécurité d'un jeu ne dépend jamais de la réaction qu'il provoque.",
+      "principe": "La sécurité d'un jeu ne dépend jamais de la réaction qu'il provoque.",
       "erreurs_a_eviter": [
         "Lancer bébé en l'air, le secouer ou le faire tournoyer, même en riant : ces mouvements peuvent provoquer des lésions cérébrales immédiates et irréversibles.",
         "Continuer parce qu'il en redemande : à huit mois, redemander ne veut pas dire pouvoir encaisser.",
@@ -150,10 +138,10 @@
     },
     {
       "categorie": "stimu",
-      "situation": "Le repas de famille / Il hurle, trop de bras et trop de bruit",
+      "situation": "Le repas de famille / Il hurle : trop de monde",
       "titre": "Un repli et deux règles annoncées",
-      "explication": "Dix adultes, du bruit, des bras qui se tendent, des voix qui montent, et un bébé qui hurle. Trois choses se cumulent à huit mois : il ne dispose d'aucun moyen de dire qu'il sature, il vient d'entrer dans la peur des personnes non familières, et il traverse le pic de l'angoisse de séparation. Un grand repas est donc, pour lui, une épreuve à la fois sensorielle et affective, et ce qu'il exprime en fin de repas s'est accumulé bien avant.",
-      "ancrage": "Ces repas où l'on ne mange rien, où l'on s'excuse en boucle et où l'on repart épuisée, beaucoup de parents les connaissent à cet âge. Ce qui change tout se prépare avant d'arriver, pas pendant la crise.",
+      "explication": "Dix adultes, du bruit, des bras qui se tendent, des voix qui montent, et un bébé qui hurle. Trois choses se cumulent à 8 mois : il ne dispose d'aucun moyen de dire qu'il sature, il vient d'entrer dans la peur des personnes non familières, et il traverse le pic de l'angoisse de séparation. Un grand repas est donc, pour lui, une épreuve à la fois sensorielle et affective, et ce qu'il exprime en fin de repas s'est accumulé bien avant.",
+      "ancrage": "Ces repas où l'on ne mange rien, où l'on s'excuse en boucle et où l'on repart épuisée, beaucoup de parents les connaissent à cet âge. Tu as le droit de quitter la table pour lui, sans t'en excuser.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -169,13 +157,12 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Décharger une fois au calme",
+        "titre": "Un coin à lui",
         "etapes": [
-          "Vous isoler dans la pièce repérée : lumière basse, porte fermée, plus personne autour.",
-          "L'installer face à toi contre ton torse : sans le stimuler, sans commenter ce qui vient de se passer.",
-          "Une main immobile sur son dos : la pression constante fait redescendre plus vite que le bercement.",
-          "Attendre en silence : 2 à 3 minutes sans rien, avant même d'envisager de repartir.",
-          "Reprendre le contact visuel doucement : quand il te cherche du regard, il est revenu."
+          "Un objet qui vient de la maison : son doudou, sa couverture, un livre qu'il connaît.",
+          "Lui dire où vous êtes : « ici, c'est calme, on est ensemble ».",
+          "Lui montrer quelque chose de simple : une plante, un rideau, un seul point à regarder.",
+          "Revenir à table avec lui : quand il se tourne vers la salle de lui-même."
         ]
       },
       "pour_aller_plus_loin": [
@@ -184,10 +171,8 @@
         "Arriver après sa sieste plutôt qu'avant : il a alors de la réserve pour la nouveauté.",
         "Prévoir de partir tôt en l'annonçant à l'arrivée : personne ne le prend mal quand c'est dit d'avance."
       ],
-      "principe": "Un bébé qui n'a pas de mot pour dire stop le dit avec son corps, et toujours en retard sur ce qu'il ressent. C'est l'adulte qui anticipe la limite à sa place.",
+      "principe": "Quand un bébé ne peut pas dire stop, la limite se pose avant lui, à voix haute et sans s'excuser.",
       "erreurs_a_eviter": [
-        "Le faire passer de bras en bras pour ne vexer personne : il n'a aucun moyen de refuser, et la saturation arrive en quelques minutes.",
-        "Forcer le contact avec une personne qu'il ne reconnaît pas : la peur se renforce au lieu de s'apaiser.",
         "Décaler la sieste ou le coucher pour le repas : le manque de sommeil fait payer la nuit entière.",
         "Rester parce qu'on y est : passé le point de saturation, plus rien de ce que tu feras ne le calmera sur place."
       ],

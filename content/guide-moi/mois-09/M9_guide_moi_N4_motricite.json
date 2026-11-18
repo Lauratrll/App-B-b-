@@ -10,7 +10,7 @@
   "protocoles": [
     {
       "categorie": "motricite",
-      "situation": "L'absence de quatre pattes / Il ne s'y met toujours pas à neuf mois",
+      "situation": "L'absence de quatre pattes / Toujours pas à 9 mois",
       "titre": "Ce que le suivi médical regarde",
       "explication": "Neuf mois, et il ne s'est toujours pas mis à quatre pattes. Autour de toi, la question revient à chaque repas de famille. Or ce n'est pas la position sur les mains et les genoux qui est observée lors du suivi médical de cet âge : ce qui est regardé, c'est qu'il tienne assis sans appui, qu'il se serve de ses deux mains, qu'il attrape et fasse passer un objet d'une main à l'autre, qu'il réagisse à son prénom et qu'il babille. Le quatre pattes ne figure dans aucune de ces observations, parce qu'une part importante des enfants ne le fait jamais.",
       "ancrage": "Les remarques répétées de l'entourage finissent par installer un doute même quand tout va bien. Tu peux répondre une fois, avec ce qui est réellement observé, et laisser tomber le reste.",
@@ -56,7 +56,7 @@
     },
     {
       "categorie": "motricite",
-      "situation": "Le blocage debout / Il se hisse partout et ne sait pas redescendre",
+      "situation": "Le blocage debout / Il se hisse, ne sait pas descendre",
       "titre": "Lui apprendre la descente en journée",
       "explication": "Il se hisse dix fois par jour et reste planté, incapable de revenir au sol. Redescendre n'est pas l'inverse de monter, c'est un enchaînement à part entière : reculer le bassin, plier les genoux, poser une main plus bas, puis lâcher. Chacun de ces gestes existe déjà chez lui séparément, mais il ne sait pas encore les mettre bout à bout, et il n'a aucune raison de les découvrir en restant debout à crier. C'est en les répétant au calme, en journée, que la séquence finit par se relier toute seule.",
       "ancrage": "Ce sont des dizaines de répétitions qui font la différence, pas une explication. Tu n'as pas à lui apprendre à descendre en une fois : tu as à lui en donner l'occasion souvent, quelques secondes à chaque fois.",
@@ -66,47 +66,41 @@
         "titre": "Action immédiate : décomposer la descente",
         "etapes": [
           "Choisir un appui bas et stable : un pouf ferme, une caisse, plutôt que le canapé.",
-          "Faire glisser sa main vers le bas de l'appui : la descente commence par la main, pas par les jambes.",
-          "Reculer légèrement son bassin : une main à plat au creux des reins suffit à amorcer le mouvement.",
-          "Fléchir ses genoux du bout des doigts : une pression légère derrière le genou déclenche la flexion.",
-          "Le laisser terminer seul les derniers centimètres : c'est cette fin de geste qui s'imprime."
+          "Montrer avec ton propre corps : à sa hauteur, plie tes genoux et pose tes fesses devant lui, plusieurs fois.",
+          "Attendre qu'il essaie : quelques secondes pour chercher le mouvement seul, ta main prête à le rattraper, sans le guider.",
+          "Nommer chaque étape : « tu plies les genoux, tu poses les fesses », sans insister.",
+          "Le laisser terminer seul : une chute sur les fesses, sur un sol amorti, fait partie du chemin."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : après la colère",
-        "etapes": [
-          "Consoler d'abord, proposer le geste ensuite : pendant la crise, c'est toi qu'il lui faut, pas un geste.",
-          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
-          "Suivre la séquence « Frustration motrice » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "L'installer contre toi, pieds libres : assis sur tes genoux ou allongé face à toi.",
-          "Finir par de longs effleurements sur les mollets : pour relâcher des jambes qui ont beaucoup poussé."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "frustration-motrice",
           "titre": "Frustration motrice"
         }
       },
       "pour_aller_plus_loin": [
-        "Répéter très souvent et très brièvement : cinq fois 30 secondes valent mieux qu'une séance de 5 minutes.",
+        "Répéter souvent et brièvement : plusieurs essais courts valent mieux qu'une longue séance.",
         "Proposer des hauteurs différentes : un appui bas, puis un peu plus haut, à mesure qu'il réussit.",
         "Poser un tapis dans sa zone d'entraînement : les chutes sur les fesses font partie du programme.",
-        "Regarder le progrès sur deux semaines : il descend d'abord en tombant, puis en se retenant, puis proprement."
+        "Regarder le progrès sur quelques semaines : il descend d'abord en tombant, puis en se retenant, puis proprement."
       ],
-      "principe": "Un mouvement complexe s'acquiert en morceaux avant de s'enchaîner. Montrer la première étape suffit souvent à débloquer toutes les suivantes.",
+      "principe": "Un mouvement complexe s'acquiert en morceaux avant de s'enchaîner. Le montrer par l'exemple aide souvent à débloquer les étapes suivantes.",
       "erreurs_a_eviter": [
         "Le reposer au sol à sa place chaque fois : le geste se fait sans lui, et il n'en garde rien.",
-        "Lui expliquer avec des mots : à cet âge, seule la main guidée transmet un mouvement.",
+        "Lui expliquer longuement : à cet âge, il apprend en voyant et en essayant, pas en écoutant.",
         "Multiplier les séances longues : la fatigue transforme l'entraînement en échec et il refuse d'essayer.",
         "L'entraîner sur un appui instable : une chaise légère ou une table à roulettes bascule avec lui."
       ],
-      "consulter_si": "Consulter si : après une chute, bébé perd connaissance, vomit, devient anormalement somnolent, pleure de façon inconsolable, présente une bosse importante, un saignement, ou un membre qu'il ne bouge plus → appeler le 15. En cas de meuble tombé sur lui, appeler le 15 même s'il semble aller bien.",
+      "consulter_si": "Consulter si : après une chute, son comportement te paraît inhabituel (somnolence, vomissements, pâleur, pleurs inconsolables) → appeler le 15 sans attendre. Après une chute d'une hauteur, faire examiner bébé même s'il semble aller bien.",
       "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), l'activité physique et la motricité libre du tout-petit."
     },
     {
       "categorie": "motricite",
-      "situation": "Les blocages sous les meubles / Il se coince et ne sait pas repartir",
+      "situation": "Coincé sous les meubles / Il ne sait pas repartir",
       "titre": "Attendre 10 secondes avant d'intervenir",
       "explication": "Il avance sur le ventre, se glisse sous le canapé, arrive au bout et ne sait plus repartir. Se déplacer vers l'avant s'acquiert bien avant la marche arrière, qui demande de pousser au lieu de tirer et de coordonner autrement les appuis. Il se retrouve donc régulièrement bloqué là où il est entré tout seul. Ces quelques secondes de blocage sont précisément le moment où le mouvement suivant se cherche : c'est en poussant dans tous les sens qu'il finit par trouver la marche arrière.",
       "ancrage": "Entendre son enfant hurler sous un meuble donne envie de le dégager immédiatement, et personne ne va te reprocher de le faire. Lui laisser 10 secondes d'essai n'est pas de l'indifférence, c'est ce qui lui apprend à sortir seul la prochaine fois.",
@@ -115,7 +109,7 @@
         "couleur_texte": "#A32D2D",
         "titre": "Action immédiate : au moment du blocage",
         "etapes": [
-          "Compter une dizaine de secondes avant d'agir : beaucoup de blocages se résolvent seuls.",
+          "Compter une dizaine de secondes avant d'agir : beaucoup de blocages se résolvent seuls, si rien ne peut tomber sur lui.",
           "Rester visible et calme : ta présence suffit à soutenir l'effort.",
           "Mettre des mots sur ce qu'il cherche : « tu es coincé, tu cherches comment sortir ».",
           "Aider d'un cran seulement : écarter l'obstacle, plutôt que de le retirer complètement.",
@@ -129,7 +123,7 @@
         "etapes": [
           "Beaucoup de temps sur le ventre, sur sol ferme : c'est là que se construit la poussée des bras.",
           "Poser un objet légèrement derrière son épaule : il apprend à pivoter avant d'apprendre à reculer.",
-          "Poser ta main à plat contre la plante de ses pieds : il pousse dessus et découvre l'appui.",
+          "Un obstacle mou derrière lui : un coussin ferme lui donne un appui pour pousser, éveillé et surveillé.",
           "Le laisser râler un peu : l'agacement fait partie de la recherche.",
           "T'arrêter quand il fatigue : un corps fatigué se coince davantage."
         ]
@@ -152,9 +146,9 @@
     },
     {
       "categorie": "motricite",
-      "situation": "Le déplacement sur les fesses / Il avance assis et ne rampe jamais",
+      "situation": "Se déplacer sur les fesses / Il ne rampe jamais",
       "titre": "Lui rendre du temps au sol",
-      "explication": "Il ne rampe pas et ne se met pas à quatre pattes : assis, il pousse sur ses mains et sur ses talons et traverse ainsi toute la pièce. Autour de toi, on dit que c'est une façon d'avancer comme une autre. Les kinésithérapeutes et les psychomotriciens qui suivent les tout-petits le connaissent bien, et ils le relient à deux choses : peu de temps passé sur le ventre, et une assise installée avant que l'enfant sache s'y mettre seul. Et cela se mesure : plus un bébé passe de temps éveillé sur le ventre, plus ses acquisitions motrices avancent à 4 et à 6 mois, comme l'a montré l'étude de *Majnemer et Barr, 2005*. Assis, ces enfants sont stables, mais ils ne découvrent pas le chemin pour en sortir : basculer sur le côté, prendre appui sur une main, passer à quatre pattes. Ce n'est la faute de personne, beaucoup de parents assoient leur bébé en toute confiance. Et à neuf mois, il est encore temps de lui rendre ce qui lui manque, par le jeu.",
+      "explication": "Il ne rampe pas et ne se met pas à quatre pattes : assis, il pousse sur ses mains et ses talons et traverse la pièce. Les kinésithérapeutes et les psychomotriciens relient souvent ce déplacement à peu de temps passé sur le ventre et à une assise installée avant qu'il sache s'y mettre seul. Plus un bébé passe de temps éveillé sur le ventre, plus ses acquisitions motrices avancent à 4 et 6 mois (Majnemer et Barr, 2005). Assis, il est stable, mais il ne découvre pas le chemin pour en sortir. Ce n'est la faute de personne, et à 9 mois il est encore temps de lui rendre du temps au sol.",
       "ancrage": "Tu n'as rien abîmé. Ce qu'il lui faut maintenant, c'est du temps au sol et des occasions de sortir de l'assise par lui-même, pas un exercice.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -177,7 +171,7 @@
           "Changer de surface dans la journée : tapis, parquet, herbe, la sensation guide le mouvement.",
           "Proposer un appui bas et stable : un pouf ferme, une caisse, pour qu'il tire dessus s'il en a envie.",
           "Mettre des mots sur ce qu'il fait : « tu avances à ta façon », plutôt que de nommer ce qu'il ne fait pas.",
-          "T'arrêter quand il se détourne : le jeu s'arrête à sa demande."
+          "T'arrêter quand il se détourne : il indique qu'il en a assez."
         ]
       },
       "pour_aller_plus_loin": [
@@ -195,6 +189,51 @@
       ],
       "consulter_si": "Consulter si : bébé ne se déplace d'aucune manière vers dix mois, ne passe jamais seul de l'assise au ventre ou à quatre pattes, ne se sert que d'un seul côté du corps, paraît anormalement mou ou raide, ou perd une compétence qu'il avait acquise → pédiatre ou PMI, qui orientera si besoin vers un kinésithérapeute ou un psychomotricien.",
       "source": "Source : motricité libre et positions atteintes seul, 1000-premiers-jours.fr (ministère chargé de la Santé) ; temps éveillé sur le ventre et acquisitions motrices, Majnemer et Barr, 2005, Developmental Medicine & Child Neurology ; repères sur le déplacement assis et signes à faire évaluer, Association of Paediatric Chartered Physiotherapists, 2024."
+    },
+    {
+      "categorie": "motricite",
+      "situation": "Le quatre-pattes de travers / Il tire une jambe",
+      "titre": "L'observer sans le corriger",
+      "explication": "Il avance à quatre pattes, mais une jambe traîne, ou il pose un pied à plat et un genou, ou un côté pousse plus que l'autre. Quand le quatre-pattes s'installe, l'enfant utilise tour à tour son côté droit et son côté gauche et apprend à coordonner le haut et le bas du corps¹. Ce n'est pas une étape que tous les bébés traversent de la même façon : il invente sa manière, par essais, et il en a d'autres pour se déplacer³. Un quatre-pattes encore bancal est donc fréquent au début, et ce qui compte est que son geste évolue². S'il n'en fait pas encore, ce n'est pas inquiétant : chacun son rythme.",
+      "ancrage": "Tu n'as rien à redresser. Observer calmement est déjà la meilleure aide que tu puisses lui donner.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : observer et lui laisser le sol",
+        "etapes": [
+          "Regarder sans intervenir : quel côté pousse, quelle jambe traîne, est-ce que cela change selon le jeu ou la surface ?",
+          "Ne pas replacer sa jambe ni le positionner : son corps cherche seul, et c'est ainsi que le geste s'organise.",
+          "Poser les jouets tantôt à droite, tantôt à gauche : il se tourne et s'appuie des deux côtés.",
+          "Dégager un sol ferme et libre : vêtements souples, pieds et genoux qui glissent sans frotter.",
+          "Filmer quelques secondes : cela t'aidera à montrer ce que tu vois si un doute reste."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Jouer à changer de côté",
+        "etapes": [
+          "Te mettre au sol face à lui : il se tourne vers toi, tantôt d'un côté, tantôt de l'autre.",
+          "Proposer un appui à sa hauteur : coffre, petite table stable, coussin ferme à franchir.",
+          "Rouler une balle d'un côté puis de l'autre : il la suit des deux côtés en rampant ou à quatre pattes.",
+          "Mettre des mots sur ce qu'il fait : « tu avances à ta façon », sans nommer ce qui manque.",
+          "T'arrêter quand il se détourne : il indique qu'il en a assez."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Lui laisser beaucoup de temps libre au sol : le cosy, le transat et la poussette limitent ses mouvements²",
+        "Écarter le trotteur : il est déconseillé, et il ne fait marcher personne plus tôt²",
+        "Ne pas le laisser sans surveillance quand il explore : il bouge vite et se glisse partout³",
+        "En parler à la consultation de suivi ou à la PMI : conseils gratuits, même pour un simple doute²"
+      ],
+      "principe": "Un quatre-pattes n'a pas besoin d'être parfait pour être le sien. Ce qui compte, c'est que le geste évolue et que les deux côtés travaillent, à son rythme.",
+      "erreurs_a_eviter": [
+        "Le remettre à quatre pattes ou lui redresser la jambe : il apprend à s'appuyer sur toi, pas sur son corps.",
+        "Le comparer à un autre bébé : chacun a sa manière et son âge, et la comparaison ajoute de l'inquiétude pour rien.",
+        "L'installer longtemps assis ou en cosy : il bouge moins, donc il s'entraîne moins."
+      ],
+      "consulter_si": "Consulter si : le même côté travaille toujours moins que l'autre, la différence persiste ou s'accentue, il perd un geste qu'il savait faire, paraît mou ou raide, ou si tu as un doute → pédiatre, kinésithérapeute pédiatrique ou PMI.",
+      "source": "Source : ¹ alternance droite et gauche, quatre pattes, Petit guide de la motricité, Ville de Paris, Direction des familles et de la petite enfance, 2019 ; ² motricité libre, positions à éviter, conseil de consulter en cas de doute, Motricité de l'enfant, Département de Loire-Atlantique (PMI) avec l'IFM3R, 2019 ; ³ autres façons de se déplacer, surveillance, sante.fr (mpedia, bébé de 9 à 12 mois), 2025."
     }
   ]
 }

@@ -12,7 +12,7 @@
       "categorie": "corpo",
       "situation": "Les molaires / Il bave, mâchouille et devient grognon",
       "titre": "Soulager une gêne qui dure des jours",
-      "explication": "Vers 23 mois arrivent souvent les deuxièmes molaires : de grosses dents qui percent une gencive épaisse, ce qui peut gêner ton enfant. Il bave, mâchouille tout, dort parfois moins bien, cherche à mordre pour soulager la pression. Contrairement à une idée répandue, une poussée dentaire reste une gêne modérée : elle ne donne pas de vraie fièvre et ne rend pas malade. Si de la fièvre ou d'autres symptômes apparaissent, ils ont une autre cause à chercher ailleurs. Chaque enfant vit ses dents différemment, et cette étape passe.",
+      "explication": "Vers 23 mois arrivent souvent les deuxièmes molaires : de grosses dents qui percent une gencive épaisse, ce qui peut gêner ton enfant. Il bave, mâchouille tout, dort parfois moins bien, cherche à mordre pour soulager la pression. Chaque enfant vit ses dents différemment, et cette étape passe. La fièvre et la diarrhée ne sont pas dues aux dents : si elles apparaissent, une autre cause est à chercher.",
       "ancrage": "Tu ne peux pas faire pousser ses dents plus vite, mais tu peux l'aider à traverser l'inconfort. Le froid et ta présence sont tes meilleurs alliés.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -40,18 +40,16 @@
       "pour_aller_plus_loin": [
         "Proposer du froid plutôt qu'un produit : un anneau réfrigéré, un linge frais, un aliment sortant du réfrigérateur.",
         "Demander conseil au médecin ou au pharmacien avant tout produit : c'est le bon interlocuteur pour la gencive.",
-        "Ne pas tout attribuer aux dents : une fièvre, une diarrhée importante ou un abattement ont une autre origine à explorer.",
         "Anticiper le sommeil perturbé : quelques nuits plus agitées sont possibles ; garder le cadre du coucher stable aide à traverser."
       ],
-      "principe": "Une poussée dentaire ne se raccourcit pas, elle s'accompagne : froid, contre-pression douce, présence. Ce qui dépasse la gêne d'une gencive se fait examiner, plutôt que d'être mis sur le compte des dents.",
+      "principe": "Une poussée dentaire s'accompagne : froid, contre-pression douce, présence.",
       "erreurs_a_eviter": [
         "Ajouter une nouveauté au coucher pendant la poussée : les repères habituels aident plus que tout.",
-        "Utiliser un produit sans avis : la sécurité et la dose se vérifient avec un professionnel.",
-        "Attribuer une forte fièvre « aux dents » et attendre : c'est passer à côté d'une autre cause.",
-        "Donner un médicament « au cas où » sans dose vérifiée par un professionnel : jamais d'automédication à l'aveugle."
+        "Utiliser un produit sans avis : le pharmacien indique ce qui convient.",
+        "Attribuer une fièvre « aux dents » et attendre : une autre cause reste à chercher."
       ],
-      "consulter_si": "Consulter si : fièvre élevée ou persistante, diarrhée importante, refus de boire, abattement inhabituel, ou douleur qui ne cède à rien → pédiatre, car ce n'est pas la faute des dents. Pour toute douleur nécessitant un médicament, demander la dose adaptée au poids à ton pédiatre ou pharmacien. En cas d'inquiétude sur l'état général : 15 (SAMU).",
-      "source": "Source : poussées dentaires de l'enfant, mpedia.fr (Association française de pédiatrie ambulatoire)."
+      "consulter_si": "Consulter si : fièvre persistante, diarrhée, refus de boire ou abattement inhabituel → pédiatre : ces signes ne relèvent pas des dents.",
+      "source": "Source : Santé.fr, « Poussée dentaire » ; mpedia.fr (Association française de pédiatrie ambulatoire)."
     }
   ]
 }

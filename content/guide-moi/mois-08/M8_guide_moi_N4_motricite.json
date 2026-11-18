@@ -10,53 +10,7 @@
   "protocoles": [
     {
       "categorie": "motricite",
-      "situation": "Le touche-à-tout / Je passe ma journée à dire non",
-      "titre": "Sécuriser pour pouvoir dire oui",
-      "explication": "Depuis qu'il se déplace, il va vers les prises, les coins de table, l'escalier, les plantes. Ce n'est pas de la provocation : à huit mois, un bébé apprend en attrapant, en tirant, en portant à la bouche, et il n'a encore aucune notion de danger, parce que la partie du cerveau qui anticipe les conséquences se construit pendant des années. Un « non » répété toute la journée ne lui apprend donc presque rien, et il finit par ne plus l'entendre du tout.",
-      "ancrage": "Passer ses journées à surveiller épuise, et l'agacement qui monte au dixième « non » est le signe d'une charge trop lourde, pas d'un défaut de patience. Une maison sécurisée une bonne fois te rend ta journée, et lui rend sa liberté de chercher.",
-      "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate : le tour de la maison",
-        "etapes": [
-          "Escaliers : une barrière en haut et une en bas, fermées même pour 1 minute.",
-          "Produits ménagers et médicaments : en hauteur et fermés à clé, jamais sous l'évier.",
-          "Prises, câbles, cordons de rideaux : cache-prises posés, câbles rangés, cordons relevés et attachés.",
-          "Meubles et téléviseurs : fixés au mur, car un meuble qui bascule sur un bébé peut être mortel.",
-          "Petits objets et piles boutons : hors de portée, tout ce qui passe dans un rouleau de papier toilette est avalable."
-        ]
-      },
-      "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
-        "titre": "Lui ouvrir un espace à lui",
-        "etapes": [
-          "Te mettre à quatre pattes une fois : à sa hauteur, tu vois exactement ce qu'il voit.",
-          "Délimiter une zone où tout est permis : une pièce, un tapis, un coin de salon.",
-          "Lui laisser un placard bas rien qu'à lui : des objets sûrs qu'il peut vider et remplir.",
-          "Garder le « non » pour le danger réel : employé partout, il ne signale plus rien.",
-          "Le reprendre dans tes bras quand il sature : explorer est un effort, et il fatigue vite."
-        ]
-      },
-      "pour_aller_plus_loin": [
-        "Sécuriser en avance : ce qu'il n'atteint pas cette semaine, il l'atteindra la suivante.",
-        "Vérifier les plantes de la maison : plusieurs plantes d'intérieur courantes sont toxiques.",
-        "Jamais seul près de l'eau : une baignoire, un seau ou une piscine, même très peu profonde.",
-        "Tourner les poignées de casseroles vers l'intérieur : le four, les plaques et les boissons chaudes sont la première cause de brûlure à cet âge."
-      ],
-      "principe": "Un bébé n'apprend pas le danger par l'interdiction, il l'apprend par des années de maturation. En attendant, c'est l'environnement qui protège, pas la surveillance.",
-      "erreurs_a_eviter": [
-        "Le suivre en disant « non » toute la journée : le mot perd son sens, et il ne servira plus le jour où il y aura un vrai danger.",
-        "Ranger les produits ménagers sous l'évier : c'est le placard le plus accessible de la maison pour un bébé qui se déplace.",
-        "Laisser un meuble non fixé : il se hisse dessus, et le meuble bascule avec lui.",
-        "Laisser une barrière d'escalier ouverte le temps d'un aller-retour : la chute arrive presque toujours pendant cette minute-là."
-      ],
-      "consulter_si": "Consulter si : bébé a avalé un produit ménager, un médicament ou un objet → appeler le 15 ou un centre antipoison sans le faire boire ni vomir. En cas de pile bouton avalée → appeler le 15 immédiatement, même s'il va bien. En cas de brûlure, de chute d'une hauteur ou de passage sous l'eau même bref → appeler le 15.",
-      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), prévenir les accidents domestiques du tout-petit."
-    },
-    {
-      "categorie": "motricite",
-      "situation": "Le ramper sur le ventre / Il rampe au lieu de faire du quatre pattes",
+      "situation": "Le ramper sur le ventre / Il ne fait pas quatre pattes",
       "titre": "La forme n'annonce rien",
       "explication": "Il se déplace en se tirant sur les bras, parfois de travers, parfois en reculant. Autour de toi, on s'étonne qu'il ne fasse pas de quatre pattes. Or la façon de se déplacer ne prédit ni la marche, ni la suite : certains bébés rampent, d'autres roulent, d'autres se déplacent très peu au sol avant de se mettre debout, et tous marchent. Ce qui compte n'est pas la forme du mouvement, c'est qu'il ait trouvé un moyen d'aller vers ce qu'il veut et qu'il progresse de semaine en semaine.",
       "ancrage": "Il a trouvé sa solution, et elle fonctionne. Les comparaisons entre bébés du même âge inquiètent beaucoup et renseignent très peu.",
@@ -93,7 +47,7 @@
       "principe": "Une acquisition motrice se juge au progrès dans le temps, jamais à la forme qu'elle prend. Deux bébés en bonne santé peuvent apprendre le même mouvement par deux chemins différents.",
       "erreurs_a_eviter": [
         "L'installer ou le maintenir en position quatre pattes : il subit une position au lieu de construire la sienne.",
-        "Utiliser un trotteur ou un youpala : ils retardent l'appui du pied au sol et provoquent des chutes dans les escaliers.",
+        "Utiliser un trotteur ou un youpala : ils ne font pas marcher plus tôt et provoquent des chutes dans les escaliers.",
         "Comparer sa progression à celle d'un autre bébé du même âge : la comparaison alimente une inquiétude que rien ne justifie.",
         "Le caler assis avec des coussins ou le mettre debout pour l'aider : sans l'appui qu'il aurait construit lui-même, il tombe plus souvent."
       ],
@@ -102,55 +56,9 @@
     },
     {
       "categorie": "motricite",
-      "situation": "La table à langer / Il s'est retourné d'un coup, je l'ai rattrapé",
-      "titre": "Le sol supprime le risque",
-      "explication": "Il s'est retourné en une seconde, tu l'as rattrapé de justesse, et tu as eu très peur. À huit mois, un bébé peut passer du dos au ventre plus vite qu'un adulte ne réagit : le temps de réaction humain est d'environ une demi-seconde, et un retournement en prend moins. C'est ce qui rend la table à langer différente de ce qu'elle était il y a deux mois. Et ce retournement n'a rien d'un accident : c'est le mouvement qu'il répète toute la journée au sol, sauf qu'ici il le fait à soixante-dix centimètres du carrelage.",
-      "ancrage": "Cette peur-là marque, et beaucoup de parents la vivent au même âge. Changer bébé au sol coûte un peu de confort de dos, et cela retire le risque au lieu de te demander de le surveiller.",
-      "action_immediate": {
-        "couleur_fond": "#FCEBEB",
-        "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate : descendre au sol",
-        "etapes": [
-          "Changer au sol : un tapis, une serviette pliée, et la chute devient impossible.",
-          "Tout préparer avant de commencer : couche, lingettes, vêtements à portée de main.",
-          "Ne jamais le laisser seul en hauteur : ni le temps d'un geste, ni sanglé.",
-          "Si tu changes en hauteur : une main posée sur lui en permanence, sans exception.",
-          "Lui donner un objet à tenir : des mains occupées, ce sont moins de torsions brusques."
-        ]
-      },
-      "geste_doux": {
-        "couleur_fond": "#E1F5EE",
-        "couleur_texte": "#085041",
-        "titre": "Un change qui ne se bagarre pas",
-        "etapes": [
-          "Annoncer chaque geste avant de le faire : « je soulève tes jambes », il anticipe et se raidit moins.",
-          "Glisser une main à plat sous son siège pour le soulever : jamais en le tirant par les chevilles.",
-          "Le laisser bouger : au sol, une jambe qui gigote ne pose plus aucun problème.",
-          "Aller à l'essentiel : un change rapide vaut mieux qu'un change parfait.",
-          "Finir par quelques secondes de contact : une main sur le ventre, le temps qu'il se pose."
-        ]
-      },
-      "pour_aller_plus_loin": [
-        "Appliquer la même règle au lit, au canapé et au lit parental : la hauteur est comparable.",
-        "Connaître les signes qui suivent une chute : perte de connaissance même brève, vomissements, somnolence inhabituelle, pâleur.",
-        "Faire examiner bébé après toute chute d'une hauteur : les signes peuvent apparaître plusieurs heures après.",
-        "Prévenir toutes les personnes qui le gardent : la règle du sol vaut chez elles aussi."
-      ],
-      "principe": "Quand un risque devient plus rapide que l'attention humaine, on le supprime au lieu de le surveiller. C'est le seul choix qui tient les jours de fatigue.",
-      "erreurs_a_eviter": [
-        "Le laisser seul sur la table à langer, même une seconde : c'est précisément la durée d'un retournement.",
-        "Compter sur la sangle : elle se contourne dès qu'il pousse sur ses jambes.",
-        "Te retourner pour attraper une couche oubliée : le geste dure plus longtemps qu'une chute.",
-        "Le changer sur un lit ou un canapé en le quittant des yeux : la hauteur suffit à provoquer un traumatisme crânien."
-      ],
-      "consulter_si": "Consulter si : après une chute d'une hauteur, bébé perd connaissance même brièvement, vomit, devient anormalement somnolent ou difficile à réveiller, pleure de façon inconsolable et inhabituelle, pâlit, présente une bosse importante, un saignement, ou un membre qu'il ne bouge plus → appeler le 15 sans attendre. Après une chute de la table à langer, faire examiner bébé même s'il semble aller bien.",
-      "source": "Source : Santé publique France, prévention des accidents de la vie courante chez le jeune enfant."
-    },
-    {
-      "categorie": "motricite",
       "situation": "La mise debout / Il se hisse et reste bloqué",
       "titre": "La colère d'être coincé",
-      "explication": "Il se hisse sur le canapé, la table basse, tes jambes, puis il reste planté debout à hurler. Ce qu'il vit à ce moment-là, c'est une colère d'impuissance : son corps est allé quelque part et ne sait pas encore en revenir. Chez un bébé de huit mois, cette frustration monte très vite, parce qu'il n'a encore aucun moyen interne de la calmer. Et pendant ces quelques semaines, il attrape désormais tout ce qui est en hauteur, ce qui change complètement la liste de ce qui est dangereux chez toi.",
+      "explication": "Il se hisse sur le canapé, la table basse, tes jambes, puis il reste planté debout à hurler. Ce qu'il vit à ce moment-là, c'est une colère d'impuissance : son corps est allé quelque part et ne sait pas encore en revenir. Chez un bébé de 8 mois, cette frustration monte très vite, parce qu'il n'a encore aucun moyen interne de la calmer. Et pendant ces quelques semaines, il attrape désormais tout ce qui est en hauteur, ce qui change complètement la liste de ce qui est dangereux chez toi.",
       "ancrage": "Sa colère n'est pas dirigée contre toi, elle est dirigée contre un corps qui ne suit pas encore. Tu peux l'aider deux fois : en le laissant chercher un peu, et en rendant sa chute sans conséquence.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -159,7 +67,7 @@
         "etapes": [
           "Aller vers lui sans le rasseoir tout de suite : nommer ce qui se passe, « tu es debout et tu veux descendre ».",
           "Lui laisser quelques secondes d'essai : c'est en cherchant que le mouvement se construit.",
-          "Guider ses genoux du bout des doigts : une pression légère derrière le genou déclenche la flexion.",
+          "Lui montrer la descente : à sa hauteur, plier tes propres genoux devant lui, sans toucher les siens.",
           "Le reprendre avant l'effondrement : quand la colère devient détresse, il n'apprend plus rien.",
           "Le reposer au sol et passer à autre chose : l'entraînement reprendra tout seul dans 10 minutes."
         ]
@@ -168,13 +76,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : après la colère",
-        "etapes": [
-          "Consoler d'abord, proposer le geste ensuite : pendant la crise, c'est toi qu'il lui faut, pas un geste.",
-          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
-          "Suivre la séquence « Frustration motrice » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "L'installer contre toi, pieds libres : assis sur tes genoux ou allongé face à toi.",
-          "Terminer par les mollets : de longs effleurements descendants, pour relâcher des jambes qui ont beaucoup poussé."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "frustration-motrice",
           "titre": "Frustration motrice"
@@ -184,7 +86,7 @@
         "Fixer au mur tout ce qui peut basculer : commode, étagère, téléviseur, dès aujourd'hui.",
         "Retirer les appuis instables de son parcours : tabourets, chaises légères, tables basses à roulettes.",
         "Sécuriser les fenêtres : entrebâilleur posé, et jamais de meuble ni de carton sous une fenêtre.",
-        "Compter en semaines : redescendre s'acquiert quelques semaines après se hisser, chez tous les bébés."
+        "Compter en semaines : redescendre s'acquiert quelques semaines après se hisser, chez la plupart des bébés."
       ],
       "principe": "La frustration motrice est le moteur de l'apprentissage tant qu'elle reste supportable. Le rôle de l'adulte est de doser le temps d'effort, pas de le supprimer.",
       "erreurs_a_eviter": [
@@ -193,7 +95,7 @@
         "Laisser un meuble non fixé dans la pièce où il s'entraîne : il tire dessus pour se hisser et le fait tomber sur lui.",
         "Utiliser un trotteur pour le stabiliser : il se déplace sans construire l'équilibre, et l'engin est une cause connue d'accidents graves."
       ],
-      "consulter_si": "Consulter si : après une chute, bébé perd connaissance, vomit, devient anormalement somnolent, pleure de façon inconsolable, présente une bosse importante, un saignement, ou un membre qu'il ne bouge plus → appeler le 15. En cas de meuble tombé sur lui, appeler le 15 même s'il semble aller bien.",
+      "consulter_si": "Consulter si : après une chute, son comportement te paraît inhabituel (somnolence, vomissements, pâleur, pleurs inconsolables) → appeler le 15 sans attendre. Après une chute d'une hauteur, faire examiner bébé même s'il semble aller bien.",
       "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), l'activité physique et la motricité libre du tout-petit."
     }
   ]

@@ -10,7 +10,7 @@
   "protocoles": [
     {
       "categorie": "sommeil",
-      "situation": "La transition des bras au lit / Il se réveille dès que je le pose",
+      "situation": "La transition bras-lit / Il se réveille dès la pose",
       "titre": "Par étapes, sans jamais forcer",
       "explication": "À un mois, ton bébé s'endort dans tes bras et se réveille dès que tu le poses. Deux mécanismes se conjuguent : il a besoin de ton système nerveux pour calmer le sien, et la perte d'appui au moment de la pose déclenche un réflexe de sursaut. Rien de tout cela ne relève de la mauvaise habitude. C'est le fonctionnement normal de cet âge. Ce qui se travaille, ce n'est pas son besoin de contact, mais la manière de faire la transition : le moment choisi, l'ordre des appuis, le temps de contact maintenu après la pose.",
       "ancrage": "Tu ne « rates » pas la pose : tu apprends un geste technique. Le besoin de contact, lui, n'a pas à être corrigé, il a à être accompagné.",
@@ -19,8 +19,8 @@
         "couleur_texte": "#A32D2D",
         "titre": "Action immédiate : la transition en étapes",
         "etapes": [
-          "Attendre le sommeil profond : bras relâchés, mains ouvertes, respiration lente et régulière.",
-          "Rester collé.e : se pencher très près du matelas, sans distance de chute.",
+          "Attendre qu'il soit détendu : bras relâchés, mains ouvertes, respiration lente et régulière.",
+          "Rester tout près : se pencher contre le matelas, sans distance de chute.",
           "Poser les pieds d'abord : puis le siège, puis le dos, la tête en dernier, jamais la tête d'abord.",
           "Maintenir tes deux mains : une sur le torse, une sur les jambes, immobiles, quelques instants.",
           "Se retirer par étapes : une main, puis l'autre, ta voix continuant pendant le retrait."
@@ -30,13 +30,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : accompagner l'endormissement",
-        "etapes": [
-          "Bébé sur le dos dans son lit : lumière tamisée, pièce calme, ta voix posée.",
-          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
-          "La séquence « Sommeil paisible » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Ta voix tout bas pendant la séquence : toujours les mêmes mots, qui deviennent un repère.",
-          "Terminer par l'immobilité : une main posée sur son torse jusqu'à ce que sa respiration s'installe."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "sommeil",
           "titre": "Sommeil paisible"
@@ -48,7 +42,7 @@
         "Accepter l'échec d'une pose : réessayer au cycle suivant n'est pas un recul.",
         "Ne rien viser d'autre pour l'instant : l'endormissement autonome se construira plus tard, chaque enfant à son rythme."
       ],
-      "principe": "Une pose réussie tient au moment choisi, pas à la fermeté du geste. Un bébé posé en sommeil profond se réveille beaucoup moins qu'un bébé posé vite et bien.",
+      "principe": "Une pose réussie tient à la contenance et au temps de contact, pas à la fermeté du geste. Une pose ratée ne dit rien de ton bébé : réessayer au cycle suivant fait partie du geste.",
       "erreurs_a_eviter": [
         "Laisser pleurer un bébé d'un mois pour lui « apprendre » à s'endormir : inefficace et source de stress.",
         "Poser bébé tête la première : la sensation de chute déclenche le sursaut.",
@@ -80,13 +74,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : préparer la nuit",
-        "etapes": [
-          "Un moment fixe : après le bain, toujours au même moment de la soirée.",
-          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
-          "Suivre la séquence « Sommeil paisible » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Parler doucement pendant la séquence : raconter ce que tu fais, sur le même ton.",
-          "Terminer dans la pénombre : coucher bébé sur le dos sans relancer la lumière ni la parole."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "sommeil",
           "titre": "Sommeil paisible"
@@ -96,7 +84,7 @@
         "Compter en régularité, pas en résultat : c'est la répétition des signaux qui agit, pas leur intensité.",
         "Se relayer la nuit : chaque parent dispose d'un bloc de sommeil continu, à tour de rôle.",
         "Protéger ton propre sommeil : dormir quand bébé dort, même en journée, ce n'est pas un luxe.",
-        "Se rappeler la fourchette : le rythme se cale souvent entre trois et six mois, avec de grandes variations d'un enfant à l'autre."
+        "Se rappeler la fourchette : sa propre mélatonine ne démarre que vers 3 mois, puis son rythme jour-nuit s'affine pendant des mois, avec de grandes variations d'un enfant à l'autre."
       ],
       "principe": "Une horloge biologique se cale sur des contrastes, pas sur des consignes. Plus la différence entre le jour et la nuit est marquée, plus vite elle se met en place.",
       "erreurs_a_eviter": [
@@ -112,8 +100,8 @@
       "categorie": "sommeil",
       "situation": "Les mini-siestes / Il ne dort que 20 minutes",
       "titre": "Des cycles courts, et c'est normal",
-      "explication": "Ton bébé s'endort, et 20 à 40 minutes plus tard, il est réveillé. C'est décourageant, et pourtant c'est la norme. Les cycles de sommeil du nourrisson sont courts, et l'enchaînement de deux cycles sans se réveiller est une compétence qui vient plus tard, chaque enfant à son rythme. Une sieste courte n'est donc pas une sieste ratée : c'est un cycle complet. Chercher à allonger les siestes par la contrainte ne fonctionne pas ; ce qui aide, c'est de respecter ses signaux de fatigue et d'éviter la sur-fatigue, qui rend l'endormissement plus difficile encore.",
-      "ancrage": "Une sieste de 20 minutes n'est pas un échec, c'est un cycle. Ne jamais disposer de plus de 20 minutes à soi, en revanche, use n'importe qui, et le dire tout haut fait déjà du bien. Ton objectif n'est pas d'allonger ses siestes, c'est d'éviter qu'il ne s'épuise entre deux.",
+      "explication": "Ton bébé s'endort, et 20 à 45 minutes plus tard, il est réveillé. C'est décourageant, et pourtant c'est fréquent. Son sommeil est fait de cycles courts, d'environ 45 minutes : une vingtaine de minutes de sommeil calme, immobile, en un seul bloc, précédées d'un sommeil agité qui bouge, grogne et ne se voit pas toujours comme du sommeil. Enchaîner deux cycles sans se réveiller est une compétence qui vient plus tard, chaque enfant à son rythme. Une sieste courte n'est donc pas une sieste ratée. Chercher à l'allonger par la contrainte ne fonctionne pas ; ce qui aide, c'est de respecter ses signaux de fatigue et d'éviter la sur-fatigue, qui rend l'endormissement plus difficile encore.",
+      "ancrage": "Une sieste courte n'est pas un échec, c'est un cycle. Ne jamais avoir plus de 20 minutes à soi use n'importe qui, et le dire tout haut fait déjà du bien. Ton objectif n'est pas d'allonger ses siestes, c'est d'éviter qu'il ne s'épuise entre deux.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -130,13 +118,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : favoriser la détente avant la sieste",
-        "etapes": [
-          "Avant le coucher : bébé calme, sur le dos, lumière tamisée.",
-          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
-          "La séquence « Sommeil paisible » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Garder ta voix posée : quelques mots toujours identiques, ou un air fredonné.",
-          "S'arrêter à sa demande : un mouvement de retrait, une crispation, on arrête sans insister."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "sommeil",
           "titre": "Sommeil paisible"
@@ -151,8 +133,8 @@
       "principe": "Un cycle de sommeil ne s'étire pas sur commande. Ce qui change les siestes d'un nourrisson, c'est la qualité de l'éveil qui les précède, jamais l'insistance au moment du coucher.",
       "erreurs_a_eviter": [
         "Réveiller ou stimuler bébé pour « caler » un rythme de siestes : cela crée de la sur-fatigue.",
-        "Le laisser éveillé longtemps entre deux siestes en espérant qu'il dorme mieux ensuite.",
-        "Multiplier les accessoires pour prolonger la sieste : balancelle, transat, coque : jamais pour dormir.",
+        "Le laisser éveillé longtemps entre deux siestes en espérant qu'il dorme mieux ensuite : la sur-fatigue s'installe et l'endormissement se complique.",
+        "Multiplier les accessoires pour prolonger la sieste : balancelle, transat, siège-coque ne sont jamais des lieux pour dormir.",
         "Comparer la durée de ses siestes à celle d'un autre bébé : la variabilité est énorme."
       ],
       "consulter_si": "Consulter si : bébé dort très peu au total et ne prend pas de poids, s'il est agité en permanence et inconsolable, s'il est difficile à réveiller pour les prises, ou s'il présente une gêne à respirer ou des pauses respiratoires → pédiatre sans délai ; le 15 en cas de trouble respiratoire. Rappel : le sommeil se fait sur le dos, sur un plan ferme, jamais en transat ni en coque.",
@@ -162,31 +144,25 @@
       "categorie": "sommeil",
       "situation": "Les sursauts nocturnes / Il se réveille en sursautant",
       "titre": "Un couchage sûr et contenant",
-      "explication": "Ton bébé dort, et soudain ses bras s'écartent, ses mains s'ouvrent en éventail : il se réveille en pleurant. C'est le réflexe de Moro, un réflexe archaïque normal, présent à la naissance et qui s'atténue de lui-même au fil des premiers mois. On ne le supprime pas : on amortit ce qui le déclenche. Un couchage contenu, bras ramenés près du corps, jambes libres et pliées, sur le dos, réduit fortement ces réveils. Mais la contenance ne se fait jamais au prix de la sécurité : rien ne couvre le visage, rien n'entrave les hanches, rien ne traîne dans le lit.",
+      "explication": "Ton bébé dort, et soudain ses bras s'écartent, ses mains s'ouvrent en éventail : il se réveille en pleurant. C'est le réflexe de Moro, un réflexe archaïque normal, présent à la naissance et qui dure jusqu'à 3-6 mois environ. On ne le supprime pas : on amortit ce qui le déclenche, c'est-à-dire la sensation de perte d'appui. Une pose contenue, des mains qui restent sur lui un instant et un lit bien préparé aident. Mais la contenance ne se fait jamais au prix de la sécurité : rien ne couvre le visage, rien ne traîne dans le lit.",
       "ancrage": "Il ne se réveille pas parce que tu t'y prends mal. Son cerveau déclenche encore un réflexe qu'il n'a pas fini de ranger, et le lit peut faire une partie du travail à ta place.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
         "titre": "Action immédiate : le coucher contenu",
         "etapes": [
-          "Emmailloter le haut du corps, si cela l'apaise : bras ramenés près du torse, tissu léger, jamais serré.",
-          "Laisser les jambes libres : hanches et genoux fléchis et mobiles, jamais de jambes tendues et serrées.",
-          "Coucher sur le dos : toujours, sans exception, même emmailloté.",
-          "Visage entièrement dégagé : aucun tissu ne remonte au-dessus des épaules.",
-          "Garder tes mains posées après la pose : une sur le torse, une sur les jambes, immobiles quelques instants."
+          "Garder bébé tout contre toi : jusqu'à la pose, bras ramenés vers son torse, sans le lâcher d'un coup.",
+          "Poser sur le dos : toujours, sans exception, les fesses puis la tête, une main sur son ventre.",
+          "Visage entièrement dégagé : une gigoteuse adaptée plutôt qu'une couverture, aucun tissu au-dessus des épaules.",
+          "Laisser les jambes libres : une gigoteuse assez large pour que hanches et genoux restent fléchis, jamais tendus et serrés.",
+          "Garder tes mains posées : une sur le torse, une sur les jambes, immobiles quelques instants, puis les retirer doucement."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : détendre avant le coucher",
-        "etapes": [
-          "Juste avant la nuit : bébé calme, dans son lit, lumière basse.",
-          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
-          "Suivre la séquence « Sommeil paisible » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Ta voix tout bas pendant la séquence : toujours les mêmes mots, qui deviennent un repère.",
-          "Finir mains posées : une main sur le torse, le temps que sa respiration se pose."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "sommeil",
           "titre": "Sommeil paisible"
@@ -194,13 +170,11 @@
       },
       "pour_aller_plus_loin": [
         "Vérifier la sécurité du lit : matelas ferme, drap tendu, aucun objet, pas de doudou, de couverture ni de tour de lit.",
-        "Préchauffer le lit avec ta main : le choc de température participe au réveil.",
-        "Arrêter l'emmaillotage dès qu'il cherche à se retourner : à partir de ce moment, il devient dangereux.",
+        "Enchaîner dans l'ordre : après la tétée ou le biberon, un rot, un câlin à la verticale, puis la pose sur le dos.",
         "Attendre la maturation : le réflexe s'atténue de lui-même au fil des mois, chaque bébé à son rythme."
       ],
-      "principe": "Un réflexe de sursaut se contient, il ne se supprime pas. La seule contenance sûre passe par le lit lui-même : sur le dos, jambes libres, visage dégagé, rien autour.",
+      "principe": "Un réflexe de sursaut se contient, il ne se supprime pas. La contenance sûre se joue dans la pose et dans le lit : sur le dos, visage dégagé, rien autour.",
       "erreurs_a_eviter": [
-        "Emmailloter les jambes serrées et tendues : mauvais pour le développement des hanches.",
         "Laisser un tissu remonter sur le visage ou utiliser une couverture dans le lit : risque d'étouffement.",
         "Coucher sur le côté ou sur le ventre pour éviter les sursauts : le dos reste la seule position sûre.",
         "Utiliser cale-bébé, réducteur ou coussin de positionnement : ces dispositifs augmentent le risque d'enfouissement."

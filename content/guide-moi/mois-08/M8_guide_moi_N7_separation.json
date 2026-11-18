@@ -12,7 +12,7 @@
       "categorie": "sepa",
       "situation": "Le pic de l'angoisse / Je ne peux plus quitter la pièce",
       "titre": "Annoncer, partir, revenir",
-      "explication": "Il pleure dès que tu quittes la pièce, te suit partout, panique quand une porte se ferme. Cette angoisse culmine entre huit et dix mois chez la plupart des bébés, et elle vient d'un progrès : il a compris que tu continues d'exister quand il ne te voit plus. Ce qu'il n'a pas encore, c'est la certitude que tu reviens. Cette certitude ne se construit pas par le raisonnement, elle se construit par l'expérience : autant de départs suivis d'un retour, autant de fois où la chose se vérifie.",
+      "explication": "Il pleure dès que tu quittes la pièce, te suit partout, panique quand une porte se ferme. Cette angoisse apparaît vers 8 mois, avec un pic entre 10 et 18 mois, et elle vient d'un progrès : il a compris que tu continues d'exister quand il ne te voit plus. Ce qu'il n'a pas encore, c'est la certitude que tu reviens. Cette certitude ne se construit pas par le raisonnement, elle se construit par l'expérience : autant de départs suivis d'un retour, autant de fois où la chose se vérifie.",
       "ancrage": "Être réclamée en permanence, ne plus pouvoir aller aux toilettes seule, cela devient lourd au bout de quelques semaines, et l'agacement qui monte n'enlève rien à ton lien avec lui. Ce qui l'apaise n'est pas de rester collée, c'est de partir et de revenir souvent.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -30,13 +30,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : installer un repère",
-        "etapes": [
-          "Un moment quotidien fixe : bébé sur le dos, éveillé et calme.",
-          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
-          "La séquence « Angoisse de séparation » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Parler pendant le geste : la même phrase chaque fois, pour que ta voix et le toucher aillent ensemble.",
-          "T'arrêter s'il se détourne : un repère se construit sur des séances courtes et régulières."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "separation",
           "titre": "Angoisse de séparation"
@@ -52,15 +46,14 @@
       "erreurs_a_eviter": [
         "Éviter toute séparation pour ne pas le perturber : il n'a alors aucune occasion de vérifier que tu reviens.",
         "Partir en cachette : la disparition sans signal lui apprend à surveiller ton départ au lieu de jouer.",
-        "Étirer les au revoir ou revenir plusieurs fois : l'incertitude dure plus longtemps et la détresse avec elle.",
         "Y voir un problème d'éducation : cette angoisse apparaît chez les bébés bien entourés, elle est le signe d'un lien qui fonctionne."
       ],
-      "consulter_si": "Consulter si : bébé ne se calme jamais, même à ton retour, ne cherche jamais ton visage ni ta voix, ne réagit pas aux bruits, ne babille pas, ou paraît anormalement mou ou éteint → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition.",
-      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), les étapes du développement de bébé."
+      "consulter_si": "Consulter si : bébé ne se calme jamais, même à ton retour, ou ne cherche jamais ton visage ni ta voix → pédiatre ou PMI.",
+      "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), les étapes du développement de bébé ; Le Manuel MSD (édition professionnelle), « Anxiété de séparation et peur de l'étranger », D. M. Consolini, relu par A. R. Pekarsky, mars 2025."
     },
     {
       "categorie": "sepa",
-      "situation": "Le refus de l'autre parent / Il le repousse et se tend vers moi",
+      "situation": "Le refus de l'autre parent / Il le repousse, vers moi",
       "titre": "Ce qui la renverse, c'est la présence",
       "explication": "Il hurle dès que l'autre parent le prend, se tend vers toi, le repousse des deux mains. Entre huit et douze mois, beaucoup de bébés concentrent leur attachement sur une figure principale, celle qui les a le plus souvent apaisés jusque-là. Ce n'est pas une préférence définitive, et cela ne dit rien de la qualité du lien avec l'autre parent. Ce qui compte, c'est ce qui se passe ensuite : plus l'adulte rejeté s'efface, moins le bébé a d'occasions d'apprendre qu'il est apaisant lui aussi.",
       "ancrage": "Se faire repousser par son enfant, jour après jour, fait mal, et beaucoup de parents n'osent pas le dire. Ce n'est pas un jugement sur lui, et cela se renverse par la présence, pas par le retrait.",
@@ -80,13 +73,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : un repère qui n'appartient qu'à eux",
-        "etapes": [
-          "C'est l'autre parent qui fait le geste : à sa manière, avec ses mains, sans copier les tiennes.",
-          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
-          "Suivre la séquence « Angoisse de séparation » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Toujours au même moment de la journée : la régularité fabrique le repère.",
-          "Arrêter si bébé se crispe : le geste vaut par ce qu'il apaise, pas par sa durée."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "separation",
           "titre": "Angoisse de séparation"
@@ -102,17 +89,16 @@
       "erreurs_a_eviter": [
         "Reprendre bébé dès qu'il pleure avec l'autre parent : il apprend que pleurer met fin au moment.",
         "Rester dans la pièce pour rassurer : ta présence l'empêche d'investir l'autre adulte.",
-        "Corriger la façon de faire de l'autre : il perd sa confiance, et le bébé la perçoit.",
-        "Lire ses pleurs comme la preuve qu'il n'y arrive pas : c'est la phase qui parle, pas la compétence."
+        "Corriger la façon de faire de l'autre : il perd sa confiance, et le bébé la perçoit."
       ],
-      "consulter_si": "Consulter si : l'autre parent se sent durablement exclu, triste, irritable ou détaché, s'il s'isole ou perd tout intérêt pour le bébé → en parler au médecin traitant, à la sage-femme, à la PMI ou à un psychologue de la périnatalité ; la dépression périnatale touche aussi les seconds parents.",
+      "consulter_si": "Consulter si : l'autre parent se sent durablement exclu, triste ou détaché → en parler au médecin traitant, à la sage-femme ou à la PMI.",
       "source": "Source : ameli.fr (Assurance Maladie), la dépression périnatale : reconnaître les signes et trouver de l'aide."
     },
     {
       "categorie": "sepa",
       "situation": "Le matin à la crèche / Il hurle en me lâchant la main",
       "titre": "Court, identique, prévisible",
-      "explication": "Il s'accroche, il hurle, il te regarde partir. Ce moment est difficile pour tout le monde, et il obéit à une règle simple : ce qui apaise un tout-petit, c'est la prévisibilité. Un au revoir qui s'étire, avec des retours en arrière et des explications qui s'allongent, maintient la situation ouverte et prolonge sa détresse, parce qu'il ne sait plus si tu pars ou si tu restes. Un au revoir court et toujours identique referme la question. Et la plupart des bébés se calment dans les minutes qui suivent le départ.",
+      "explication": "Il s'accroche, il hurle, il te regarde partir. Ce moment est difficile pour tout le monde, et il obéit à une règle simple : ce qui apaise un tout-petit, c'est la prévisibilité. Un au revoir qui s'étire, avec des retours en arrière et des explications qui s'allongent, maintient la situation ouverte et prolonge sa détresse, parce qu'il ne sait plus si tu pars ou si tu restes. Un au revoir court et toujours identique referme la question.",
       "ancrage": "Partir pendant qu'il pleure demande beaucoup, et la culpabilité qui suit dans la voiture est partagée par presque tous les parents qui font garder leur enfant. Ce que tu peux lui offrir de plus utile, c'est un départ clair et toujours le même.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -140,7 +126,7 @@
       },
       "pour_aller_plus_loin": [
         "Transmettre ses repères par écrit : signes de fatigue, façon de le calmer, déroulé du repas.",
-        "Compter en semaines : la plupart des adaptations se stabilisent en une à trois semaines.",
+        "Compter en semaines : l'adaptation prend du temps, chaque enfant à son rythme.",
         "Parler de ta culpabilité à quelqu'un : elle est réelle, elle est fréquente, et elle s'allège quand elle se dit.",
         "Ne pas juger la qualité de la garde à ses pleurs du matin : ce sont deux questions différentes."
       ],
@@ -148,16 +134,15 @@
       "erreurs_a_eviter": [
         "Étirer l'au revoir, revenir, le reprendre : la séparation recommence à zéro à chaque fois.",
         "Partir en cachette pour éviter les pleurs : il se met à surveiller ta présence toute la journée.",
-        "Changer de rituel chaque matin : il ne peut rien anticiper et se tient en alerte.",
         "Juger la garde à partir de ses pleurs de séparation : ces pleurs disent la séparation, pas le lieu."
       ],
-      "consulter_si": "Consulter si : bébé refuse de manger et de boire sur son lieu de garde plusieurs jours de suite, perd du poids, paraît éteint ou apathique, ou si l'angoisse de le confier devient envahissante pour toi → pédiatre, PMI, ou psychologue de la petite enfance."
+      "consulter_si": "Consulter si : bébé refuse de manger et de boire plusieurs jours de suite sur son lieu de garde, ou paraît éteint ou apathique → pédiatre ou PMI."
     },
     {
       "categorie": "sepa",
-      "situation": "Les retrouvailles contrariées / Il tend les bras puis me repousse",
+      "situation": "Les retrouvailles tendues / Il tend les bras, repousse",
       "titre": "Deux émotions qui sortent ensemble",
-      "explication": "Tu arrives, il tend les bras vers toi, et à la seconde où tu le prends il se cambre et te repousse. Ce mouvement contradictoire porte un nom chez les tout-petits : il veut deux choses en même temps, venir vers toi et te faire sentir qu'il t'a attendue, et il n'a aucun moyen de trier ces deux élans. Ce n'est donc pas un rejet, et il ne cherche pas à te punir : c'est un mélange de soulagement et de colère qui sort d'un seul bloc, parce que rien en lui ne sait encore les séparer.",
+      "explication": "Tu arrives, il tend les bras vers toi, et à la seconde où tu le prends il se cambre et te repousse. Ce mouvement est contradictoire : il veut deux choses en même temps, venir vers toi et te faire sentir qu'il t'a attendue, et il n'a aucun moyen de trier ces deux élans. Ce n'est donc pas un rejet, et il ne cherche pas à te punir : c'est un mélange de soulagement et de colère qui sort d'un seul bloc, parce que rien en lui ne sait encore les séparer.",
       "ancrage": "Se faire repousser au moment que l'on a attendu toute la journée serre le cœur. Il ne te punit pas : il te montre, avec les moyens qu'il a, que ton absence a compté.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -193,10 +178,9 @@
       "erreurs_a_eviter": [
         "Insister pour le garder dans tes bras : tu ajoutes une contrainte à un moment déjà saturé.",
         "Te retirer par dépit : il perd la disponibilité dont il a précisément besoin.",
-        "Lui reprocher son accueil, même en plaisantant : il perçoit le ton bien avant les mots.",
-        "En conclure qu'il a mal vécu sa journée : c'est le retour qui déclenche la décharge, pas ce qui l'a précédé."
+        "Lui reprocher son accueil, même en plaisantant : il perçoit le ton bien avant les mots."
       ],
-      "consulter_si": "Consulter si : bébé paraît éteint ou apathique, refuse le contact de façon systématique et durable, ne sourit plus, ou perd des compétences qu'il avait acquises → pédiatre ou PMI."
+      "consulter_si": "Consulter si : bébé paraît éteint ou apathique, refuse le contact de façon durable, ou perd des compétences acquises → pédiatre ou PMI."
     }
   ]
 }

@@ -10,10 +10,10 @@
   "protocoles": [
     {
       "categorie": "stimu",
-      "situation": "Le trop de bras / Il s'agite dans les bras des visiteurs",
+      "situation": "Le trop de bras / Il s'agite dans leurs bras",
       "titre": "Traduire ses signaux à l'entourage",
-      "explication": "On se le passe, on le chatouille, on l'appelle, on le photographie, et il s'agite, se raidit, finit par hurler. À sept mois, il ne sait pas dire stop, et il vient en plus d'entrer dans la peur de l'étranger. Il envoie pourtant des signaux clairs : il détourne le regard, se cambre, cherche ton visage, se fige. Personne ne les lit, et c'est ton rôle de les traduire. Ce n'est pas de l'impolitesse : c'est ce que ferait n'importe quel adulte pour une personne qui ne peut pas parler.",
-      "ancrage": "Il envoie des signaux que personne ne lit. Traduire pour lui n'est pas être désagréable : c'est le protéger.",
+      "explication": "On se le passe, on le chatouille, on l'appelle, on le photographie, et il s'agite, se raidit, finit par hurler. À 7 mois, il ne sait pas dire stop, et il vient en plus d'entrer dans la peur de l'étranger. Il envoie pourtant des signaux clairs : il détourne le regard, se cambre, cherche ton visage, se fige. Personne autour de lui ne les lit.",
+      "ancrage": "Traduire pour lui n'est pas de l'impolitesse : c'est ce que ferait n'importe quel adulte pour quelqu'un qui ne peut pas parler.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -29,13 +29,12 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Décharger après la visite",
+        "titre": "Se retirer ensemble",
         "etapes": [
-          "Une fois au calme : bébé contre toi, dans le silence.",
-          "Sa tête au creux de ton épaule : ta main à plat dans son dos, qui ne bouge pas.",
-          "Un balancement très lent, puis plus rien : le mouvement qui s'arrête l'aide à s'arrêter aussi.",
-          "Souffler longuement près de lui : ton calme passe par ton corps avant tes mots.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
+          "Changer de pièce : un coin calme, loin des voix, avec lui contre toi.",
+          "Lui dire ce qui vient de se passer : « il y avait beaucoup de monde, maintenant c'est fini ».",
+          "Un objet à lui : son doudou ou un livre en tissu, qu'il explore à son rythme.",
+          "Revenir quand il est prêt : il le montre en se tournant à nouveau vers les autres."
         ]
       },
       "pour_aller_plus_loin": [
@@ -44,22 +43,21 @@
         "Ne pas s'excuser de sa réaction : elle est normale et attendue à cet âge.",
         "Protéger la fin de journée : éviter les visites dans la fenêtre où il est déjà saturé."
       ],
-      "principe": "Il ne sait pas dire stop : c'est toi qui traduis. Le retirer d'une situation qui le sature n'est pas de l'impolitesse, c'est une réponse à un signal.",
+      "principe": "À cet âge, un bébé ne peut pas se protéger seul d'un trop-plein de monde : quelqu'un le fait pour lui, et c'est le rôle du parent.",
       "erreurs_a_eviter": [
-        "Le faire passer de bras en bras pour ne vexer personne.",
-        "Forcer le contact avec une personne qu'il ne connaît pas.",
-        "S'excuser de sa réaction devant les visiteurs.",
-        "Réveiller bébé pour qu'il « profite » des visiteurs."
+        "Le faire passer de bras en bras pour ne vexer personne : chaque nouveau visage relance la charge.",
+        "Forcer le contact avec une personne qu'il ne connaît pas : il apprend que son signal ne sert à rien.",
+        "Réveiller bébé pour qu'il « profite » des visiteurs : la visite se fait sur un sommeil qu'il n'a pas."
       ],
       "consulter_si": "Consulter si : bébé reste inconsolable plusieurs heures malgré le retour au calme, s'il refuse de boire, présente de la fièvre, ou paraît anormalement mou ou difficile à réveiller → pédiatre, le 15 selon l'urgence.",
       "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), les étapes du développement de bébé."
     },
     {
       "categorie": "stimu",
-      "situation": "L'immobilisation en sortie / Il se débat dans la poussette et le caddie",
+      "situation": "L'immobilisation en sortie / Il se débat en poussette",
       "titre": "Bouger avant, pas pendant",
       "explication": "Depuis qu'il se déplace au sol, rester sanglé est devenu une contrainte physique, plus seulement un ennui. Un enfant qui vient de découvrir qu'il peut aller chercher lui-même ce qu'il voit supporte mal qu'on l'attache face à des rayons pleins de choses hors de portée. Ce n'est donc plus la durée de la sortie qui décide, c'est le rapport entre le temps immobile et le temps où il a pu bouger avant. Une sortie qui suit une heure au sol se passe tout autrement qu'une sortie qui suit une sieste et un trajet en voiture.",
-      "ancrage": "Il ne se plaint pas de la sortie, il se plaint d'être empêché. Ce qui se prépare, ce n'est pas la sortie, c'est ce qui vient juste avant.",
+      "ancrage": "Courses, rendez-vous : tu n'as pas toujours le choix du moment. Quand tu ne peux pas, même un court moment au sol avant de partir compte.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -76,13 +74,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : décharger le trop-plein",
-        "etapes": [
-          "Une fois la première vague passée : bébé sur le dos, dans le silence.",
-          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
-          "Suivre la séquence « Frustration motrice » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Garder ta voix posée : quelques mots toujours identiques, ou un air fredonné.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "frustration-motrice",
           "titre": "Frustration motrice"
@@ -94,7 +86,7 @@
         "Garder un objet réservé aux sorties : sorti seulement là, il garde son intérêt.",
         "Reporter sans culpabiliser : une course remise à demain vaut mieux qu'une course finie en crise."
       ],
-      "principe": "Un enfant qui vient d'acquérir le déplacement tolère l'immobilité en proportion de ce qu'il a bougé avant. Une sortie ne se règle pas pendant, elle se règle dans l'heure qui précède.",
+      "principe": "Un enfant qui vient d'apprendre à se déplacer tolère l'immobilité en proportion de ce qu'il a bougé avant.",
       "erreurs_a_eviter": [
         "Le rattacher aussitôt qu'il proteste : son corps a besoin de quelques secondes libres, pas d'une lutte.",
         "Lui donner un produit du rayon pour le calmer : il faudra le reprendre, et la crise arrivera là.",
@@ -105,10 +97,10 @@
     },
     {
       "categorie": "stimu",
-      "situation": "La télévision qui tient compagnie / Je l'allume parce que je suis seule",
+      "situation": "La télé de compagnie / Je suis seule, je l'allume",
       "titre": "Remplacer l'image par du son",
-      "explication": "La télévision n'est pas allumée pour lui, elle est allumée pour toi. Des journées entières sans adulte à qui parler, et un poste qui fait du bruit humain dans la pièce : la raison est compréhensible, et elle ne mérite aucun reproche. La recommandation nationale est nette, pas d'écran avant trois ans, bruit de fond compris, et il vaut la peine de savoir pourquoi. Ce qui gêne n'est pas le bruit, c'est l'image qui change : elle capte le regard d'un bébé de sept mois qui vient tout juste de pouvoir se déplacer vers ce qui l'attire, elle interrompt son exploration à chaque plan, et elle réduit le nombre de mots que les adultes lui adressent. Le son seul ne fait rien de tout cela. C'est pour cette raison que passer à la radio, à un podcast ou à de la musique règle l'essentiel sans rien te retirer.",
-      "ancrage": "Tu n'as pas à supprimer ce qui te tient compagnie. Tu as à choisir une compagnie qui n'attrape pas son regard.",
+      "explication": "Ce qui gêne dans l'écran allumé, ce n'est pas le bruit, c'est l'image qui change. Elle capte le regard d'un bébé de 7 mois qui vient tout juste de pouvoir se déplacer vers ce qui l'attire, elle interrompt son exploration à chaque plan, et elle réduit le nombre de mots que les adultes lui adressent. La recommandation nationale est nette : pas d'écran avant 3 ans, bruit de fond compris. Le son seul ne produit rien de tout cela.",
+      "ancrage": "Allumer la télévision quand on passe des journées seule avec un bébé, c'est humain, et cela ne dit rien de toi comme mère.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -124,13 +116,12 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Après la sur-stimulation",
+        "titre": "Lui rendre le sol",
         "etapes": [
-          "Une fois l'écran éteint : bébé contre toi, dans le silence.",
-          "T'asseoir au sol avec lui contre toi : à sa hauteur, sans rien lui demander.",
-          "Mettre un mot sur ce qu'il vient de vivre : « c'était beaucoup », une phrase, pas plus.",
-          "Une main posée sur son dos : immobile, le temps que sa respiration ralentisse.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
+          "T'asseoir au sol : à sa hauteur, avec un seul jouet entre vous.",
+          "Nommer ce que tu fais : « je prends le panier, je le pose », tout bas.",
+          "Chanter une comptine lente : la même, deux ou trois fois de suite.",
+          "Te laisser guider : il montre l'objet qui l'intéresse, tu le suis."
         ]
       },
       "pour_aller_plus_loin": [
@@ -139,22 +130,21 @@
         "Ne pas viser le zéro absolu du jour au lendemain : commencer par les heures de jeu au sol.",
         "Chercher une compagnie réelle en parallèle : la radio comble le silence, elle ne remplace pas un contact."
       ],
-      "principe": "Ce qui perturbe un bébé dans un écran allumé, c'est l'image qui change, pas le bruit. Une voix qui parle dans une pièce ne coûte rien à son attention, une image lui en coûte à chaque plan.",
+      "principe": "Une voix qui parle dans une pièce ne coûte rien à son attention, une image lui en coûte à chaque plan.",
       "erreurs_a_eviter": [
         "Baisser le son plutôt qu'éteindre : une image muette reste une lumière qui change.",
-        "Se dire qu'il est trop petit pour être gêné : c'est précisément à cet âge que l'attention se construit.",
-        "Utiliser une vidéo pour le calmer : l'apaisement est immédiat, et le contrecoup arrive juste après.",
-        "Se juger sévèrement : la question est pratique, elle n'est pas morale."
+        "Se dire qu'il est trop petit pour être gêné : c'est à cet âge que l'attention se construit.",
+        "Utiliser une vidéo pour le calmer : l'apaisement est immédiat, et le contrecoup arrive juste après."
       ],
       "consulter_si": "Consulter si : il ne réagit ni aux sons ni à ton appel, s'il ne suit pas des yeux un objet qui bouge, s'il ne babille pas du tout, ou s'il paraît absent quand on lui parle → pédiatre ou PMI. Le sujet des écrans se discute aussi lors du bilan des neuf mois.",
       "source": "Source : Haut Conseil de la santé publique, avis sur les effets de l'exposition des enfants et des jeunes aux écrans ; repères du carnet de santé."
     },
     {
       "categorie": "stimu",
-      "situation": "La relance sans fin / Il en redemande et ne sait plus s'arrêter",
+      "situation": "La relance sans fin / Il ne sait plus s'arrêter",
       "titre": "Remplacer le jeu, pas seulement l'arrêter",
-      "explication": "À sept mois, il ne reçoit plus le jeu, il le réclame : il tape ta main, tend les bras, refait lui-même le geste qui t'a fait rire. Arrêter ne suffit donc plus, puisque c'est lui qui relance. Et l'adulte lit cette relance comme une demande, alors que c'est un système nerveux monté trop haut qui cherche à retrouver ce qui l'a mis là. Ce qui le fait redescendre à cet âge n'est pas l'arrêt du jeu : c'est le changement d'activité. Il se déplace maintenant, et un changement de plan au sol fait le travail que le silence faisait il y a deux mois.",
-      "ancrage": "Sa relance n'est pas une demande, c'est un moteur qui tourne à vide. Tu n'as pas à négocier avec elle, tu as à proposer autre chose.",
+      "explication": "À 7 mois, il ne reçoit plus le jeu, il le réclame : il tape ta main, tend les bras, refait lui-même le geste qui t'a fait rire. Arrêter ne suffit donc plus, puisque c'est lui qui relance. Cette relance ressemble à une demande, mais c'est un système nerveux monté trop haut qui cherche à retrouver ce qui l'a mis là. Il se déplace maintenant, et un changement de plan au sol fait le travail que le silence faisait deux mois plus tôt.",
+      "ancrage": "Tu n'as pas à négocier avec sa relance, ni à te sentir cruelle de ne pas céder : tu proposes autre chose, et c'est une façon de jouer aussi.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -170,13 +160,12 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Le rituel de descente",
+        "titre": "Un geste lent à deux",
         "etapes": [
-          "Juste après le jeu : bébé contre toi, dans le calme.",
-          "Une main à plat sur son ventre : immobile, chaude, sans appuyer.",
-          "Ta respiration lente, tout près de lui : il la sent, et finit souvent par la suivre.",
-          "Sa tête au creux de ton épaule : ta main à plat dans son dos, qui ne bouge pas.",
-          "Un seul canal à la fois : ne pas parler et toucher en même temps."
+          "Une balle ou un tissu : le faire rouler très lentement entre vous, au sol.",
+          "Baisser la voix d'un cran : puis encore un, jusqu'au murmure.",
+          "Dire au revoir au jeu : « c'est fini, on dit au revoir », et ranger un objet avec lui.",
+          "Tourner vers la fenêtre ou la lumière douce : un seul endroit à regarder ensemble."
         ]
       },
       "pour_aller_plus_loin": [
@@ -185,7 +174,7 @@
         "Compter les relances plutôt que les minutes : trois reprises d'affilée annoncent la chute mieux qu'une durée.",
         "Observer où il redescend le mieux : au sol pour certains, en portage pour d'autres, cela se repère en quelques jours."
       ],
-      "principe": "Un bébé qui relance ne réclame pas la suite du jeu, il cherche à retrouver l'état où il était. À sept mois, ce n'est pas l'arrêt qui fait redescendre, c'est le changement d'activité.",
+      "principe": "Redescendre, un bébé ne sait pas encore le faire seul : c'est l'adulte qui lui prête son frein.",
       "erreurs_a_eviter": [
         "Céder à la relance parce qu'il rit : le rire de trop est déjà le signe que ça déborde.",
         "Arrêter net sans rien proposer : le vide relance l'excitation au lieu de la faire tomber.",

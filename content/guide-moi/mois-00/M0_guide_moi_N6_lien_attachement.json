@@ -10,7 +10,7 @@
   "protocoles": [
     {
       "categorie": "sepa",
-      "situation": "Le décodage des pleurs / Je n'arrive pas à savoir ce qu'il veut",
+      "situation": "Le décodage des pleurs / Je ne sais pas ce qu'il veut",
       "titre": "Un apprentissage, pas un instinct",
       "explication": "Personne ne naît en sachant lire les pleurs d'un nouveau-né. L'idée d'un « instinct maternel » qui saurait d'emblée est un mythe, et il fait beaucoup de dégâts : il transforme un apprentissage normal en preuve d'incompétence. D'ailleurs, le son d'un pleur ne dit pas sa cause : des chercheurs ont analysé près de 40 000 pleurs de bébés de moins de quatre mois, et ni des adultes entraînés ni un ordinateur n'ont su dire s'il avait faim, s'il était inconfortable ou s'il voulait être pris, *d'après une étude française de 2023*. Ce qui te guide, c'est le contexte : l'heure de la dernière tétée, sa journée, ce qui l'a calmé la dernière fois. Le décodage se construit dans la répétition. Tu essaies, tu observes, tu ajustes, et progressivement des régularités apparaissent. Cela ne dit rien de toi. Et il reste toujours une part de pleurs sans cause identifiable : c'est normal.",
       "ancrage": "Ne pas savoir n'est pas échouer. Tu apprends à connaître une personne que tu rencontres depuis quelques jours à peine. Cela prend du temps, et c'est exactement ce qui doit se passer.",
@@ -30,13 +30,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : un temps de connexion",
-        "etapes": [
-          "Un moment tranquille : bébé éveillé et calme, sur le dos, dans une pièce silencieuse.",
-          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
-          "Suivre la séquence « Accueil du nouveau-né » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Observer ses réactions : ses mimiques, sa respiration, ses mains. C'est là que tu apprends à le lire.",
-          "S'arrêter à sa demande : un mouvement de retrait est une réponse, et la reconnaître fait partie du décodage."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "accueil-nouveau-ne",
           "titre": "Accueil du nouveau-né"
@@ -60,7 +54,7 @@
     },
     {
       "categorie": "sepa",
-      "situation": "Le sentiment d'incompétence / J'ai l'impression de ne pas savoir faire",
+      "situation": "Le sentiment d'incompétence / Je ne sais pas faire",
       "titre": "Présent vaut mieux que parfait",
       "explication": "Ce sentiment est l'un des plus partagés des premières semaines, et l'un des moins dits. Tu compares ton intérieur, fait de doutes et de fatigue, à l'extérieur des autres, fait de photos et de récits lissés. La sécurité affective de ton bébé ne se construit pas sur des gestes parfaits : elle se construit sur la répétition de réponses suffisamment bonnes. Les recherches sur l'attachement montrent qu'un parent n'a pas besoin d'être ajusté en permanence : il a besoin de revenir, encore et encore. C'est la réparation, pas la perfection, qui construit le lien.",
       "ancrage": "Tu n'as pas à être un.e parent parfait.e. Tu as à être présent.e, et à revenir après les moments ratés. C'est différent, et c'est largement suffisant.",
@@ -80,13 +74,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : un rendez-vous quotidien avec lui",
-        "etapes": [
-          "Un moment court et régulier : quelques minutes chaque jour, toujours au même moment.",
-          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
-          "La séquence « Accueil du nouveau-né » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Ta voix tout bas pendant la séquence : toujours les mêmes mots, qui deviennent un repère.",
-          "Se laisser regarder : ce moment n'a pas d'objectif de performance. C'est un temps de lien, pour vous deux."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "accueil-nouveau-ne",
           "titre": "Accueil du nouveau-né"
@@ -109,7 +97,7 @@
     },
     {
       "categorie": "sepa",
-      "situation": "La reconnaissance / J'ai l'impression qu'il ne me reconnaît pas",
+      "situation": "La reconnaissance / Il ne semble pas me reconnaître",
       "titre": "Il te connaît déjà par l'odeur et la voix",
       "explication": "Tu attends un signe : un regard, un sourire, une réaction qui dise « c'est toi ». Ces signes visibles arrivent plus tard. Le sourire volontaire apparaît souvent vers six à huit semaines, avec une fourchette large. Mais ton bébé te reconnaît déjà, autrement : à ton odeur, à ta voix qu'il entendait avant de naître, au rythme de ton cœur, à ta façon de le porter. Cette reconnaissance sensorielle précède largement la reconnaissance visuelle. L'absence de retour visible n'est pas une absence de lien : c'est un lien qui ne parle pas encore ta langue.",
       "ancrage": "Il te reconnaît déjà, avec des sens que tu ne vois pas à l'œuvre. Le lien n'attend pas son premier sourire pour exister : il existe pendant que tu l'attends.",
@@ -129,13 +117,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : un temps rien qu'à vous deux",
-        "etapes": [
-          "Un moment sans objectif : bébé éveillé et calme, dans le silence.",
-          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
-          "Suivre la séquence « Accueil du nouveau-né » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Parler pendant le geste : ta voix associée à ton toucher renforce le repère sensoriel.",
-          "S'arrêter à sa demande : le plaisir partagé est le seul objectif de ce moment."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "accueil-nouveau-ne",
           "titre": "Accueil du nouveau-né"
@@ -178,13 +160,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : le contact au quotidien",
-        "etapes": [
-          "Un rendez-vous régulier : chaque jour, quelques minutes, dans le calme.",
-          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
-          "La séquence « Accueil du nouveau-né » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Garder ta voix posée : quelques mots toujours identiques, ou un air fredonné.",
-          "Profiter du moment : ce temps de contact nourrit le lien autant que le portage."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "accueil-nouveau-ne",
           "titre": "Accueil du nouveau-né"
@@ -204,6 +180,51 @@
         "Porter dans un dispositif non physiologique pour porter plus longtemps : la sécurité prime sur la durée."
       ],
       "consulter_si": "Consulter si : bébé ne se calme jamais, même porté ; s'il refuse le contact de façon systématique ; s'il pleure de façon inconsolable plusieurs heures par jour → pédiatre ou PMI. Si les remarques de l'entourage deviennent une pression qui te met en difficulté → en parler à la sage-femme, à la PMI ou à un psychologue périnatal."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Le peau à peau / Je ne sais pas si j'en fais assez",
+      "titre": "Pourquoi le peau à peau fait du bien",
+      "explication": "Le peau à peau, c'est ton bébé en couche, posé à plat ventre contre ta peau nue, sous une couverture. Chez le nouveau-né en bonne santé, il aide à garder sa température, à stabiliser sa respiration et son cœur, et à démarrer l'allaitement quand on le souhaite.¹ Il n'existe pas de dose à atteindre : chaque moment compte, et il ne remplace ni les bras ni la voix. Sa seule vraie condition tient à la sécurité : le visage de bébé doit rester visible et surveillé.²",
+      "ancrage": "Tu n'as pas à compter les heures ni à te demander si tu en fais assez. Ton bébé reconnaît ta chaleur, ton odeur et ta voix : tu les lui donnes déjà chaque fois que tu le gardes contre toi.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : s'installer en sécurité",
+        "etapes": [
+          "T'installer : semi-assis, dos calé, dans un endroit où tu peux rester attentif à bébé sans risquer de t'endormir pendant le contact.²",
+          "Poser bébé : en couche, à plat ventre sur ton torse nu, avec une couverture sur son dos pour qu'il garde bien chaud.",
+          "Dégager son visage : tête tournée sur le côté, cou non plié, nez et bouche visibles en permanence, jamais couverts.²",
+          "Garder les yeux sur lui : regarde régulièrement sa couleur et sa respiration, surtout quand il s'endort ou quand la fatigue te prend.",
+          "Le reposer au moindre doute : si tu sens le sommeil venir, couche-le sur le dos dans son lit, ou confie-le à quelqu'un d'éveillé.²"
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Le peau à peau au quotidien",
+        "etapes": [
+          "Choisir un moment calme : maison tranquille, quelques minutes sans autre tâche que de le garder contre toi.",
+          "Poser une main sur son dos : légère et immobile, elle suit sa respiration et l'enveloppe sans le serrer.",
+          "Parler tout bas : quelques mots ou un air fredonné suffisent à l'accompagner, sans chercher à le calmer.",
+          "Partager avec l'autre parent : le peau à peau n'est pas réservé à celui ou celle qui allaite, chacun peut le donner."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Choisir ses vêtements : un haut ample ou une chemise ouverte évite de te dévêtir en entier et permet de le recouvrir vite.",
+        "Demander à la sage-femme : à la maternité ou lors de sa visite à domicile, elle peut te montrer l'installation qui te convient.",
+        "Multiplier les contacts : bras, portage, voix, regard et peau à peau se complètent, aucun ne remplace les autres.",
+        "Le proposer quand il est calme : l'objectif est la proximité, pas un résultat à obtenir ni un nombre de minutes."
+      ],
+      "principe": "Le peau à peau est une présence avant d'être une technique. Un parent attentif, un visage toujours visible et un bébé au chaud : voilà ce qui compte, bien plus que la durée ou la fréquence.",
+      "erreurs_a_eviter": [
+        "Te laisser gagner par le sommeil : tu ne le surveilles plus, et son nez ou sa bouche peuvent se retrouver gênés.²",
+        "Plier son cou ou couvrir son visage : sa respiration peut être gênée, il lui faut le nez et la bouche dégagés.",
+        "Compter les minutes ou te reprocher d'en faire trop peu : il n'existe pas de quota, et la culpabilité n'aide personne.",
+        "Le laisser seul en peau à peau sur un canapé ou dans un lit : sans toi éveillé à côté, la position n'est plus sûre."
+      ],
+      "consulter_si": "Consulter si : pendant le peau à peau, bébé devient pâle, bleuté ou grisâtre, respire avec effort ou bruyamment, ou ne réagit plus quand tu lui parles ou le touches → appeler le 15 immédiatement. Si tu hésites sur l'installation, une sage-femme ou la PMI peut te la montrer.",
+      "source": "Source : ¹ bénéfices du peau à peau chez le nouveau-né en bonne santé : Cochrane, « Early skin-to-skin contact for mothers and their healthy newborn infants », 2016 ; ² consignes de sécurité : Haute Autorité de Santé, Flash Sécurité Patient « Peau à peau et allaitement du nouveau-né à la maternité », avril 2026 ; Réseau Sécurité Naissance des Pays de la Loire, « Indications et surveillance du nouveau-né à terme en peau à peau en salle de naissance », 2013. Recommandations HAS (2026) inscrites dans le cadre de la maternité, que nous prolongeons dans le cadre de la maison."
     }
   ]
 }

@@ -10,7 +10,7 @@
   "protocoles": [
     {
       "categorie": "stimu",
-      "situation": "L'imitation en boucle / Il imite tout et l'excitation monte",
+      "situation": "L'imitation en boucle / Il imite tout, il s'excite",
       "titre": "Il ralentit quand tu ralentis",
       "explication": "Il t'imite, tu réponds, il recommence, et le jeu s'emballe. L'imitation est un moteur d'apprentissage extraordinairement puissant à cet âge, et c'est aussi une machine à excitation : chaque tour ajoute un cran, et il n'a aucun frein pour s'arrêter. Le jeu bascule alors en pleurs, et on ne comprend pas pourquoi un si bon moment finit si mal. La régulation ne viendra pas de lui : c'est à l'adulte de baisser le rythme, progressivement, avant le point de bascule.",
       "ancrage": "L'imitation s'emballe et il n'a pas de frein. C'est toi qui baisses le rythme, avant que le jeu ne bascule.",
@@ -29,13 +29,12 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Le rituel de descente",
+        "titre": "Faire imiter le calme",
         "etapes": [
-          "Juste après le jeu : bébé contre toi, dans le calme.",
-          "Une main à plat sur son ventre : immobile, chaude, sans appuyer.",
-          "Ta respiration lente, tout près de lui : il la sent, et finit souvent par la suivre.",
-          "Sa tête au creux de ton épaule : ta main à plat dans son dos, qui ne bouge pas.",
-          "Un seul canal à la fois : ne pas parler et toucher en même temps."
+          "Ralentir le même geste : tu répètes un geste du jeu de plus en plus lentement, il te suit comme il suit tes grimaces.",
+          "Le doudou qui s'endort : tu berces une peluche en lui chuchotant de dormir, et ton enfant t'imite.",
+          "Baisser la voix d'un cran : à chaque phrase, tu chuchotes un peu plus, la sienne descend avec la tienne.",
+          "Un au revoir au jeu : tu salues le jeu de la main avant de changer de pièce, pour que la fin soit nette."
         ]
       },
       "pour_aller_plus_loin": [
@@ -56,46 +55,42 @@
     },
     {
       "categorie": "stimu",
-      "situation": "La décharge motrice du soir / Il tape et se cogne en fin de journée",
+      "situation": "La décharge motrice du soir / Il tape et se cogne",
       "titre": "Un exutoire, pas un calme forcé",
-      "explication": "En fin de journée, il tape, se cogne, se jette contre les meubles, s'agite sans arrêt. Le réflexe est de le mettre au calme : le poser, le contenir, baisser les lumières. Cela fonctionne pour une décharge sensorielle. Mais à dix mois, la décharge du soir est aussi motrice : son corps a accumulé de l'énergie toute la journée, et il a besoin de la sortir. Un calme forcé ne fait alors qu'augmenter la tension. Ce qu'il lui faut, c'est un exutoire physique, encadré, sécurisé, mais réel.",
-      "ancrage": "Ce n'est pas toujours du calme qu'il lui faut : c'est un exutoire. Une décharge motrice se sort par le corps, pas par le silence.",
+      "explication": "En fin de journée, il tape, se cogne aux meubles, s'agite sans pouvoir s'arrêter. Le réflexe est de le poser et de baisser les lumières, et cela aide quand il est saturé de bruit ou de monde. Mais vers 10 mois, beaucoup d'enfants rampent, se hissent et explorent toute la journée. Taper et se jeter est aussi, souvent, une façon d'éprouver ce que son corps sait faire. Le soir, fatigué, il bouge vite et mesure moins ses gestes : son corps a encore besoin de sortir ce trop-plein, et un calme imposé peut faire monter la tension.",
+      "ancrage": "À cette heure-là, tu es toi aussi au bout de ta journée, et tout ce que tu veux, c'est qu'il se calme. Lui laisser de la place pour bouger l'aide à y arriver plus vite.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
         "titre": "Action immédiate : offrir un exutoire",
         "etapes": [
-          "Un espace de mouvement : un grand tapis, sécurisé, où il peut se déplacer librement.",
-          "Un moment de décharge physique : ramper, grimper sur un coussin ferme, taper sur un tambour.",
-          "Sécuriser d'abord : angles protégés, meubles fixés, rien de dur à portée.",
-          "Puis descendre : après la décharge, ralentir progressivement.",
-          "Distinguer les deux : s'il fuit le regard et s'agite sans but, c'est une surcharge sensorielle, et là on baisse tout."
+          "Sécuriser l'espace : angles protégés, meubles fixés, rien de dur à portée, et un grand tapis où il peut ramper et grimper à son aise.",
+          "Proposer de quoi taper : un tambour, ou une casserole et une cuillère en bois. Il frappe, tu restes près de lui.",
+          "Rediriger les coups : s'il tape sur toi ou sur un meuble, dis « les coups font mal, tape ici » en lui montrant le tambour.",
+          "Lire son état : s'il fuit le regard et s'agite sans but, il est saturé, alors on baisse la lumière et le bruit au lieu de lui proposer du mouvement.",
+          "Ralentir par paliers : le jeu devient plus lent, ta voix plus basse, puis vient le contact."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Après la décharge",
+        "titre": "Redescendre en mouvement",
         "etapes": [
-          "Une fois le corps déchargé : bébé contre toi, dans le calme.",
-          "Sa tête au creux de ton épaule : ta main à plat dans son dos, qui ne bouge pas.",
-          "Un balancement très lent, puis plus rien : le mouvement qui s'arrête l'aide à s'arrêter aussi.",
-          "Souffler longuement près de lui : ton calme passe par ton corps avant tes mots.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
+          "Le tambour qui s'éteint : tu tapes de plus en plus doucement, il t'imite, jusqu'au silence.",
+          "Rouler au ralenti : sur le tapis, vous roulez ensemble comme des vagues qui se calment.",
+          "Dire bonne nuit aux lumières : dans tes bras, vous faites le tour de la pièce et vous éteignez chaque lampe, une à une."
         ]
       },
       "pour_aller_plus_loin": [
-        "Offrir du mouvement dans la journée : un enfant qui a bougé décharge moins le soir.",
-        "Protéger la sieste : la sur-fatigue aggrave la décharge motrice.",
-        "Rediriger les coups : « les coups font mal, tape ici », en proposant un support.",
-        "Ne jamais taper en retour : la violence, même légère, n'enseigne rien."
+        "Bouger dans la journée : de vrais temps de mouvement, au sol ou dehors, aident souvent à décharger moins le soir.",
+        "Protéger la sieste : la fatigue accumulée aggrave la décharge de fin de journée.",
+        "Avancer le temps de mouvement : un jeu physique en fin d'après-midi, puis des lumières plus basses et un rythme plus calme avant le repas.",
+        "Se relayer : quand vous êtes deux, l'un reste avec lui sur le tapis pendant que l'autre prépare le repas, puis vous échangez."
       ],
-      "principe": "Une décharge motrice ne se calme pas par le silence : elle se sort par le corps. Un exutoire encadré vaut mieux qu'une mise au calme qui augmente la tension.",
+      "principe": "D'abord le corps, ensuite le calme : un enfant qui a pu se dépenser en sécurité redescend plus facilement, et c'est toi qui choisis le moment de ralentir avec lui.",
       "erreurs_a_eviter": [
-        "Imposer un calme forcé à un corps qui a besoin de bouger.",
-        "Le contenir physiquement pour l'empêcher de s'agiter.",
-        "Taper sa main en retour quand il tape.",
-        "Réduire le mouvement de la journée par peur qu'il s'excite."
+        "Le contenir physiquement pour l'empêcher de s'agiter : il se débat plus fort et la tension monte.",
+        "Taper sa main en retour quand il tape : la violence, même légère, blesse et ne lui montre pas où mettre son geste."
       ],
       "consulter_si": "Consulter si : bébé se cogne volontairement la tête de façon répétée, s'il se blesse, si les crises deviennent quotidiennes et inconsolables, ou si tu sens ta colère devenir difficile à contenir → pédiatre, PMI, ou Allo Parents Bébé (0 800 00 34 56).",
       "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), l'activité physique du tout-petit."
@@ -149,45 +144,40 @@
     {
       "categorie": "stimu",
       "situation": "Les lieux de jeu collectifs / Il craque en 10 minutes",
-      "titre": "Court et répété, pas long et rare",
-      "explication": "Ludothèque, salle de jeux, groupe de parents : 10 minutes et il s'effondre. Un espace collectif concentre tout ce que son cerveau ne filtre pas encore : bruit, mouvements, enfants qui crient, objets partout, adultes inconnus. Il ne « rate » pas la sortie : il sature. La stratégie qui fonctionne est contre-intuitive : viser des sorties courtes et répétées plutôt que longues et rares. 20 minutes deux fois par semaine construisent l'habituation ; 2 heures une fois par mois produisent un effondrement.",
-      "ancrage": "Court et répété bat long et rare. 20 minutes construisent l'habituation ; 2 heures produisent un effondrement.",
+      "titre": "Partir avant qu'il craque",
+      "explication": "Éveil musical, groupe de parents, salle d'activités : au bout de 10 minutes, il se crispe, fuit le regard ou se colle à toi. Dans une pièce pleine, il reçoit en même temps le bruit, les enfants qui bougent, les visages inconnus et les objets partout, et son cerveau ne sait pas encore tout filtrer. À cet âge, il ne peut ni décider de partir ni se protéger seul. Il ne « rate » pas l'activité : il sature.",
+      "ancrage": "Tu as fait le trajet, préparé le sac, et déjà c'est l'heure de repartir : c'est décevant, et parfois gênant devant les autres parents. Partir au bon moment, c'est lui rendre service.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate : court et répété",
+        "titre": "Action immédiate : prévoir court, partir tôt",
         "etapes": [
-          "Viser 20 à 30 minutes : pas davantage, dans un lieu collectif.",
-          "Répéter souvent : deux fois par semaine vaut mieux qu'une longue sortie mensuelle.",
-          "Repérer les signaux : regard qui fuit, agitation, mains crispées, recherche de ton visage.",
-          "Partir à ce moment-là : ne pas attendre les pleurs.",
-          "Un sas au retour : pièce sombre, silence, aucune stimulation."
+          "Prévoir court : s'il craque vers 10 minutes, prévois de repartir avant, même si l'activité vient à peine de commencer.",
+          "Choisir sa place : un coin près de la sortie, le dos au mur. Il voit moins de monde et tu pars sans traverser la salle.",
+          "Partir au premier signe : regard qui fuit, mains crispées, il se colle à toi. Une phrase suffit aux autres, « on va se reposer ».",
+          "Un sas au retour : pièce calme, lumière basse, aucune sollicitation."
         ]
       },
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Décharger le trop-plein",
+        "titre": "Retrouver la maison",
         "etapes": [
-          "Une fois rentré : bébé contre toi, dans le silence.",
-          "L'envelopper sans serrer : tes bras autour de lui, ses mains ramenées vers le centre de son corps.",
-          "Tes mains posées sur ses épaules : une pression douce et immobile, qui lui redonne ses contours.",
-          "Une main à plat sur son ventre : immobile, chaude, sans appuyer.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
+          "Lui dire bonjour à la maison : tu entres pièce par pièce, à voix basse, comme s'il revenait de voyage.",
+          "Enlever les couches une à une : manteau, chaussures, chaussettes, en nommant chaque chose que tu retires.",
+          "Un gant tiède : tu le passes doucement sur ses mains et son visage, pour effacer le bruit de la journée."
         ]
       },
       "pour_aller_plus_loin": [
-        "Choisir les horaires creux : les lieux collectifs sont bien plus supportables quand ils sont peu remplis.",
-        "Rester sa base sûre : s'asseoir avec lui plutôt que de l'envoyer jouer.",
-        "Assumer sans culpabilité : écourter une sortie n'est pas un échec, c'est un réglage.",
-        "Se rappeler que l'habituation se construit : elle vient par la répétition, pas par la durée."
+        "Choisir les horaires creux : un lieu peu rempli est bien plus supportable pour lui.",
+        "Rester sa base sûre : t'asseoir avec lui, au sol ou sur tes genoux, et le laisser observer avant de se mêler aux autres.",
+        "Commencer petit : un ou deux bébés chez quelqu'un avant une salle pleine, pour découvrir les autres enfants sans le bruit.",
+        "Revenir souvent, peu longtemps : plusieurs courtes visites l'aident à s'y faire petit à petit, mieux qu'une longue sortie rare."
       ],
-      "principe": "Les lieux collectifs saturent vite. Ce qui construit l'habituation, ce sont des sorties courtes et répétées, jamais des sorties longues et rares.",
+      "principe": "Une sortie se juge à l'état dans lequel il repart, pas au temps passé sur place.",
       "erreurs_a_eviter": [
-        "Prolonger « puisqu'on a fait le déplacement ».",
-        "L'envoyer jouer seul dans un lieu inconnu.",
-        "Enchaîner plusieurs lieux dans la même sortie.",
-        "Culpabiliser d'avoir écourté."
+        "Prolonger « puisqu'on a fait le déplacement » : il craque devant tout le monde et le retour devient plus dur.",
+        "Enchaîner plusieurs lieux dans la même sortie : la saturation s'additionne d'un endroit à l'autre."
       ],
       "consulter_si": "Consulter si : bébé reste inconsolable plusieurs heures malgré le retour au calme, s'il refuse de boire, présente de la fièvre, ou paraît anormalement mou ou difficile à réveiller → pédiatre, le 15 selon l'urgence."
     }

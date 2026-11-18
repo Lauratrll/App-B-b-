@@ -49,10 +49,9 @@
       "erreurs_a_eviter": [
         "Attendre de se sentir sociable pour y aller : c'est le fait d'y aller qui rend sociable.",
         "Juger un lieu sur une seule visite : la deuxième fois ne ressemble presque jamais à la première.",
-        "Chercher une amitié tout de suite : l'objectif est de croiser des gens régulièrement, pas de se lier.",
-        "Se dire qu'on n'a pas le temps : ces créneaux durent une heure et rendent les autres heures plus faciles."
+        "Chercher une amitié tout de suite : l'objectif est de croiser des gens régulièrement, pas de se lier."
       ],
-      "consulter_si": "Consulter si : le manque de lien s'accompagne d'une tristesse qui dure plus de deux semaines, d'une perte d'intérêt pour tout, d'insomnies même quand bébé dort, ou d'une irritabilité permanente → médecin, sage-femme ou PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+      "consulter_si": "Consulter si : le manque de lien s'accompagne d'une tristesse qui s'installe, d'une perte d'intérêt pour tout ou d'insomnies même quand bébé dort → médecin, sage-femme ou PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
     },
     {
       "categorie": "parent",
@@ -94,10 +93,9 @@
       "erreurs_a_eviter": [
         "Distribuer des tâches ponctuelles : elles laissent l'organisation exactement là où elle était.",
         "Faire la liste au milieu d'une dispute : elle devient une accusation au lieu d'un outil.",
-        "Vérifier chaque soir que c'est fait : le contrôle ramène la charge dans ta tête.",
-        "Renoncer au premier oubli de l'autre : les débuts sont maladroits, c'est le cas pour tout le monde."
+        "Vérifier chaque soir que c'est fait : le contrôle ramène la charge dans ta tête."
       ],
-      "consulter_si": "Consulter si : la charge s'accompagne d'une irritabilité permanente, d'insomnies même quand bébé dort, d'une perte d'intérêt pour tout, ou d'une tristesse qui dure plus de deux semaines → médecin, sage-femme ou PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+      "consulter_si": "Consulter si : la charge s'accompagne d'une irritabilité permanente, d'insomnies même quand bébé dort ou d'une perte d'intérêt pour tout → médecin, sage-femme ou PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
     },
     {
       "categorie": "parent",
@@ -139,10 +137,9 @@
       "erreurs_a_eviter": [
         "Entraîner son bébé pour rattraper : les acquisitions motrices arrivent quand le corps est prêt.",
         "Chercher des vidéos de bébés du même âge : elles montrent ceux qui savent faire, jamais les autres.",
-        "Multiplier les avis de l'entourage : ils fabriquent de l'inquiétude sans jamais fournir de repère.",
-        "Se taire au rendez-vous parce que le médecin a l'air pressé : cette question fait partie de la consultation."
+        "Multiplier les avis de l'entourage : ils fabriquent de l'inquiétude sans jamais fournir de repère."
       ],
-      "consulter_si": "Consulter si : ton bébé perd une capacité qu'il avait acquise, s'il ne réagit pas aux sons ou à ta voix, s'il ne suit pas du regard, si son corps est très mou ou très raide, ou si un côté du corps bouge nettement moins que l'autre → médecin ou PMI sans attendre."
+      "consulter_si": "Consulter si : ton bébé perd une capacité qu'il avait acquise, s'il ne réagit pas aux sons ou à ta voix ou s'il ne suit pas du regard → médecin ou PMI sans attendre."
     },
     {
       "categorie": "parent",
@@ -184,10 +181,10 @@
       "erreurs_a_eviter": [
         "Écarter l'hypothèse parce que c'est trop tard : le délai n'existe pas.",
         "Attendre d'avoir une raison valable de se sentir mal : elle n'a pas besoin de raison.",
-        "Mettre tout sur le compte de la fatigue : la fatigue explique beaucoup, pas l'extinction du plaisir.",
-        "Y aller un jour où ça va mieux et minimiser : la description porte sur les semaines, pas sur l'heure du rendez-vous."
+        "Mettre tout sur le compte de la fatigue : la fatigue explique beaucoup, pas l'extinction du plaisir."
       ],
-      "consulter_si": "Consulter si : la tristesse dure plus de deux semaines, si plus rien ne te fait envie, si tu dors mal même quand bébé dort, ou si tu te sens vide ou détachée de lui → médecin, sage-femme ou PMI sans attendre. Allo Parents Bébé, 0 800 00 34 56, gratuit. Si les pensées noires s'installent, le 3114 répond jour et nuit."
+      "consulter_si": "Consulter si : la tristesse dure plus de deux semaines¹, plus rien ne te fait envie ou tu dors mal même quand bébé dort → médecin, sage-femme ou PMI sans attendre. Allo Parents Bébé, 0 800 00 34 56, gratuit.",
+      "source": "Source : ¹ tristesse persistante au-delà de 2 semaines : Psycom, brochure « Santé mentale, grossesse et parentalité », mars 2025, pages 6-7."
     }
   ]
 }

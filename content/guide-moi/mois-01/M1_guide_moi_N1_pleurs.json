@@ -10,9 +10,9 @@
   "protocoles": [
     {
       "categorie": "pleurs",
-      "situation": "Le pic des pleurs / Il pleure plus que jamais, chaque soir",
+      "situation": "Le pic des pleurs / Il pleure plus que jamais le soir",
       "titre": "La courbe atteint son sommet, puis descend",
-      "explication": "Les pleurs du nourrisson suivent une courbe : ils augmentent semaine après semaine, culminent autour de six à huit semaines, puis déclinent d'eux-mêmes. Ton bébé est en plein sur ce sommet. Ce n'est pas une aggravation, ce n'est pas quelque chose que tu as mal fait : c'est le point haut d'une trajectoire connue. Savoir où l'on se situe sur cette courbe change tout, non pas parce que les pleurs diminuent, mais parce que tu cesses de chercher une cause qui n'existe pas et de mesurer ta valeur à leur durée.",
+      "explication": "Les pleurs du nourrisson suivent une courbe : ils augmentent semaine après semaine, culminent autour de 6 à 8 semaines, puis déclinent d'eux-mêmes. Ton bébé est en plein sur ce sommet. Ce n'est pas une aggravation, ce n'est pas quelque chose que tu as mal fait : c'est le point haut d'une trajectoire connue. Savoir où l'on se situe sur cette courbe change tout, non pas parce que les pleurs diminuent, mais parce que tu cesses de chercher une cause qui n'existe pas et de mesurer ta valeur à leur durée.",
       "ancrage": "Tu es au sommet, pas au début : ce que tu traverses est le point le plus dur, et il redescend. C'est aussi le moment où le ras-le-bol monte, chez les parents les plus patients. Ton objectif du soir n'est pas d'arrêter les pleurs, c'est de passer la main avant d'être à bout.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -29,37 +29,33 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Accompagner le pic",
+        "titre": "Un tour de garde qui se voit",
         "etapes": [
-          "Choisir un moment hors crise : après le bain ou en début d'après-midi, jamais au cœur des pleurs.",
-          "Une main à plat sur son ventre : immobile, chaude, sans appuyer.",
-          "Ta respiration lente, tout près de lui : il la sent, et finit souvent par la suivre.",
-          "Un seul son doux, ou le silence : ta voix tout bas, toujours la même phrase.",
-          "S'arrêter à sa demande : un mouvement de retrait, une crispation, on arrête sans insister."
+          "Écrire les tours : qui prend la première heure, qui prend la suivante, sur un papier visible.",
+          "Un minuteur à portée : l'alarme dit quand passer la main, tu n'as pas à décider à bout de forces.",
+          "Celui qui est libre l'est vraiment : une autre pièce, hors de portée de voix, pour dormir ou souffler.",
+          "Se dire merci à la fin : 2 minutes pour se retrouver avant la nuit."
         ]
       },
       "pour_aller_plus_loin": [
-        "Situer le moment : le pic se joue autour de six à huit semaines, puis les pleurs diminuent. Chaque bébé à son rythme, mais la trajectoire est la même.",
         "Alléger la semaine : reporter les visites, les courses et les rendez-vous non urgents hors de la fenêtre du soir.",
-        "Organiser le relais : décider à l'avance qui prend le relais chaque soir, plutôt que d'improviser à bout de forces.",
         "Préparer le plan de secours : savoir où poser bébé en sécurité et qui appeler, écrit à l'avance, pas décidé dans l'épuisement."
       ],
       "principe": "Les pleurs qui suivent une courbe ne réclament pas de solution, ils réclament un tour de garde. Ce qui protège un bébé pendant ce pic, c'est un adulte qui peut passer la main avant d'être à bout.",
       "erreurs_a_eviter": [
         "Chercher une cause nouvelle à chaque soirée difficile : l'agitation autour de bébé prolonge la crise.",
         "Enchaîner les tétées de consolation à toute vitesse : un ventre trop plein ajoute de l'inconfort.",
-        "Rester seul.e des heures dans le noir avec les pleurs : l'isolement est le facteur de risque principal de perte de contrôle.",
-        "Mesurer ta compétence à la durée des pleurs : elle ne dit rien de toi."
+        "Rester seul.e des heures dans le noir avec les pleurs : l'isolement est le facteur de risque principal de perte de contrôle."
       ],
       "consulter_si": "Consulter si : les pleurs s'accompagnent de fièvre, de vomissements répétés, de sang dans les selles, d'un refus de boire, d'une cassure de la courbe de poids, ou d'un bébé anormalement mou → pédiatre sans délai, ou le 15 si l'état général se dégrade. Si tu sens la perte de contrôle monter : poser bébé sur le dos dans son lit, sortir de la pièce, appeler un proche ou Allo Parents Bébé (0 800 00 34 56).",
       "source": "Source : Haute Autorité de Santé, recommandation de bonne pratique « Syndrome du bébé secoué ou traumatisme crânien non accidentel par secouement »."
     },
     {
       "categorie": "pleurs",
-      "situation": "Les pleurs pendant la tétée / Il pleure au sein et se cambre",
+      "situation": "Les pleurs à la tétée / Il pleure au sein et se cambre",
       "titre": "Explorer l'inconfort, une piste à la fois",
-      "explication": "Un bébé qui pleure au moment même de la tétée dit quelque chose sur la prise, pas sur sa faim. Plusieurs pistes existent, et elles s'explorent une par une : une position qui tire, un flux de lait trop rapide qui le fait s'étrangler, un débit de tétine inadapté, de l'air avalé, ou un simple besoin de pause. À un mois, il n'a aucun moyen de te dire lequel. Il proteste, il lâche, il se cambre. Ton travail n'est pas de deviner : c'est d'explorer méthodiquement, et de demander de l'aide sans attendre.",
-      "ancrage": "Ces pleurs ne sont pas un rejet de toi. Ils signalent un inconfort qui a presque toujours une explication mécanique, et qui s'ajuste, souvent en quelques essais.",
+      "explication": "Un bébé qui pleure au moment même de la tétée dit quelque chose sur la prise, pas sur sa faim. Plusieurs pistes existent : une position qui tire, un flux de lait trop rapide qui le fait s'étrangler, un débit de tétine inadapté, de l'air avalé, ou un simple besoin de pause. À un mois, il n'a aucun moyen de te dire lequel. Il proteste, il lâche, il se cambre.",
+      "ancrage": "Voir son bébé pleurer au moment du lait est éprouvant, et on s'en veut vite. Ce n'est pas un rejet de toi : cela s'ajuste, souvent en quelques essais.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -80,32 +76,29 @@
           "Peau à peau avant la prise : quelques minutes contre toi, sans objectif de téter.",
           "Nourrir avant les pleurs : proposer aux premiers signes d'éveil, mains à la bouche, recherche, plutôt qu'aux cris.",
           "Environnement calme : pièce silencieuse, lumière basse, pas d'écran ni de conversation.",
-          "Position redressée après : le garder vertical contre toi, sans le remuer.",
-          "S'arrêter s'il se cabre : mieux vaut une pause et une reprise plus tard qu'une lutte."
+          "Position redressée après : le garder vertical contre toi, sans le remuer."
         ]
       },
       "pour_aller_plus_loin": [
         "Demander de l'aide tôt : consultante en lactation (IBCLC), sage-femme ou PMI, une observation de tétée règle souvent en une séance ce qu'on cherche depuis des semaines.",
         "Vérifier le matériel : au biberon, une tétine trop rapide ou trop lente fatigue bébé et le fait pleurer.",
-        "Observer le moment : pleurs au début, au milieu ou à la fin de la prise, cette information oriente le professionnel.",
-        "Ne rien conclure seul.e : ni intolérance, ni reflux, ni « mauvais lait ». Ces hypothèses se posent avec un médecin, jamais à la maison."
+        "Observer le moment : pleurs au début, au milieu ou à la fin de la prise, cette information oriente le professionnel."
       ],
       "principe": "Des pleurs pendant la tétée signalent presque toujours un inconfort mécanique, pas un problème de faim ni d'amour. Cela s'explore point par point, et cela va beaucoup plus vite avec quelqu'un qui regarde une tétée en vrai.",
       "erreurs_a_eviter": [
         "Insister en maintenant bébé au sein ou au biberon alors qu'il pleure : la lutte installe une aversion.",
         "Changer de lait ou de préparation de sa propre initiative : cela se décide avec le pédiatre.",
-        "Conclure à un reflux ou une intolérance en cherchant sur internet : ces hypothèses appartiennent au médecin.",
-        "Attendre plusieurs semaines avant de demander de l'aide : plus on attend, plus la difficulté s'installe."
+        "Conclure à un reflux ou une intolérance en cherchant sur internet : ces hypothèses appartiennent au médecin."
       ],
       "consulter_si": "Consulter si : bébé pleure à chaque prise, refuse de boire, ne prend pas de poids, mouille peu ses couches, tousse ou s'étouffe régulièrement en buvant, ou si les tétées sont douloureuses pour toi → sage-femme, consultante en lactation (IBCLC), PMI ou pédiatre. Une pesée et une observation de tétée lèvent la plupart des doutes.",
       "source": "Source : Haute Autorité de Santé, « Allaitement maternel : mise en œuvre et poursuite dans les 6 premiers mois de vie de l'enfant »."
     },
     {
       "categorie": "pleurs",
-      "situation": "Le besoin de mouvement / Il ne s'apaise qu'en étant bercé",
+      "situation": "Le besoin de mouvement / Il ne s'apaise que bercé",
       "titre": "Bercer sans s'épuiser",
-      "explication": "Ton bébé ne se calme qu'en mouvement : dans les bras qui bercent, dans l'écharpe qui marche, dans la voiture. Pendant neuf mois, il a été bercé en permanence par tes déplacements ; l'immobilité est pour lui une nouveauté déroutante. Le mouvement lent et régulier agit directement sur son système nerveux et l'aide à se réguler. Ce qui compte, c'est la qualité du mouvement : lent, continu, prévisible. Un bercement rapide ou saccadé fait l'inverse, il stimule au lieu d'apaiser.",
-      "ancrage": "Bercer n'est pas céder : c'est offrir la régulation qu'il ne sait pas encore produire seul. Et au bout de 40 minutes debout, en avoir assez n'est pas un manque de patience, c'est le corps qui parle. Ton enjeu n'est pas d'arrêter, c'est de te faire relayer.",
+      "explication": "Ton bébé ne se calme qu'en mouvement : dans les bras qui bercent, dans l'écharpe qui marche, dans la voiture. Pendant 9 mois, il a été bercé en permanence par tes déplacements ; l'immobilité est pour lui une nouveauté déroutante. Le mouvement lent et régulier agit directement sur son système nerveux et l'aide à se réguler. Ce qui compte, c'est la qualité du mouvement : lent, continu, prévisible. Un bercement rapide ou saccadé fait l'inverse, il stimule au lieu d'apaiser.",
+      "ancrage": "Bercer n'est pas céder : c'est offrir la régulation qu'il ne sait pas encore produire seul. Et au bout de 40 minutes debout, en avoir assez n'est pas un manque de patience, c'est le corps qui parle.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -126,22 +119,19 @@
           "Une fois bébé calme : le poser sur le dos, dans son lit, lumière basse.",
           "Garder le contact : une main immobile sur son torse pendant les premières secondes d'immobilité.",
           "Rester penché sur lui, sans parler : ton visage proche, ta respiration lente qu'il peut entendre.",
-          "Retirer ta main très progressivement : d'abord alléger, puis lever.",
-          "S'arrêter à sa demande : s'il se crispe ou se détourne, on arrête sans insister."
+          "Retirer ta main très progressivement : d'abord alléger, puis lever."
         ]
       },
       "pour_aller_plus_loin": [
         "Préserver ton dos : porte-bébé physiologique ou écharpe plutôt que les bras, en alternant les épaules.",
         "Se relayer sur le portage : l'autre parent, un proche. Le mouvement n'a pas besoin d'être toujours le tien.",
-        "Éviter les substituts mécaniques prolongés : balancelles et transats vibrants ne remplacent pas le contact et ne conviennent pas au sommeil.",
         "Accepter la trajectoire : ce besoin de mouvement s'atténue au fil des mois, chaque bébé à son rythme. Il n'y a rien à corriger."
       ],
-      "principe": "Le mouvement lent est un régulateur, pas une mauvaise habitude : c'est le rythme qu'il connaissait déjà avant de naître. Et un parent relayé tient bien plus longtemps qu'un parent héroïque.",
+      "principe": "Le mouvement lent est un régulateur, pas une mauvaise habitude : c'est le rythme qu'il connaissait déjà avant de naître.",
       "erreurs_a_eviter": [
         "Bercer vite ou secouer pour calmer plus fort, jamais : toute secousse est dangereuse.",
         "Laisser bébé dormir dans une balancelle ou un transat. Le sommeil se fait sur le dos, sur un plan ferme.",
-        "Multiplier les moyens de bercement dans la même crise : chaque changement relance la stimulation.",
-        "Porter des heures sans relais jusqu'à l'épuisement : le relais n'est pas une option, c'est ce qui rend la soirée tenable."
+        "Multiplier les moyens de bercement dans la même crise : chaque changement relance la stimulation."
       ],
       "consulter_si": "Consulter si : bébé ne se calme jamais, même porté et bercé, plusieurs heures d'affilée ; s'il devient très mou ou raide en permanence ; s'il refuse de boire ou ne prend pas de poids → pédiatre ou PMI. Rappel : le sommeil se fait toujours sur le dos, dans un lit à plat, jamais en balancelle ni en coque.",
       "source": "Source : Santé publique France, le couchage sécurisé du nourrisson et la prévention de la mort inattendue du nourrisson."
@@ -155,10 +145,10 @@
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
-        "titre": "Action immédiate : la grille de discrimination",
+        "titre": "Action immédiate : observer puis appeler",
         "etapes": [
           "Déshabiller et regarder : peau marbrée, grise, bleutée, taches qui ne s'effacent pas à la pression.",
-          "Prendre la température : avant trois mois, la fièvre est toujours un motif d'appel.",
+          "Prendre la température : avant 3 mois, la fièvre est toujours un motif d'appel.",
           "Regarder la respiration : rapide, sifflante, avec creusement entre les côtes ou battement des ailes du nez.",
           "Observer le tonus et la prise : bébé mou, difficile à réveiller, qui refuse de boire.",
           "Appeler sans attendre : le 15 dès qu'un de ces signes est présent, sans chercher à apaiser d'abord."
@@ -178,25 +168,22 @@
       },
       "pour_aller_plus_loin": [
         "Distinguer décharge et alerte : un bébé qui se console entre deux crises, boit et mouille ses couches décharge ; un bébé qui ne boit plus ou devient mou s'appelle.",
-        "Se fier à ton impression : « il n'est pas comme d'habitude » est une information clinique, pas une angoisse de jeune parent.",
-        "Garder les numéros à portée : le 15, le pédiatre, la PMI, notés là où tu les vois.",
-        "Ne pas attendre le lendemain : chez un bébé de moins de trois mois, la fièvre ne se surveille pas à la maison."
+        "Garder les numéros à portée : le 15, le pédiatre, la PMI, notés là où tu les vois."
       ],
       "principe": "Le doute, chez un nourrisson, ne se garde pas pour soi. Un appel de trop ne coûte rien, un appel de moins peut coûter cher.",
       "erreurs_a_eviter": [
         "Chercher à décoder le type de cri sur internet, aucune méthode ne permet de conclure à l'oreille.",
         "Donner un médicament, même en vente libre, pour calmer un cri inhabituel.",
-        "Attendre « de voir » quand il y a de la fièvre chez un bébé de moins de trois mois.",
-        "Culpabiliser d'avoir appelé pour rien : l'appel est le bon réflexe, y compris quand tout va bien."
+        "Attendre « de voir » quand il y a de la fièvre chez un bébé de moins de 3 mois."
       ],
       "consulter_si": "Consulter si : fièvre avant trois mois, bébé anormalement mou ou difficile à réveiller, gêne à respirer, teinte grise ou bleutée, refus de boire répété, taches qui ne s'effacent pas à la pression, ou cri franchement différent de d'habitude → appeler le 15. En dehors de l'urgence, tout doute se pose au pédiatre ou à la PMI.",
       "source": "Source : ameli.fr (Assurance Maladie), syndrome du bébé secoué : reconnaître, prévenir, agir ; Lockhart-Bouron M. et al., « Infant cries convey both stable and dynamic information about age and identity », Communications Psychology, 2023."
     },
     {
       "categorie": "pleurs",
-      "situation": "Le trop-plein de contact / Il finit par s'agacer même du câlin",
+      "situation": "Le trop-plein de contact / Même le câlin l'agace",
       "titre": "S'arrêter avant la saturation",
-      "explication": "Tu as tout essayé : le portage, le peau à peau, le bercement, et il pleure plus fort. C'est déroutant, parce qu'on t'a dit que le contact apaise toujours. À un mois, le contact est aussi une stimulation : de la chaleur, une odeur, un mouvement, une voix. Quand le système nerveux est déjà saturé, ajouter du contact ajoute de l'information à traiter. Ce dont il a besoin alors n'est pas de plus, mais de moins : moins de lumière, moins de bruit, moins de manipulation. Le calme devient le soin.",
+      "explication": "Tu as tout essayé : le portage, le peau à peau, le bercement, et il pleure plus fort. C'est déroutant, parce qu'on t'a dit que le contact apaise toujours. À un mois, le contact est aussi une stimulation : de la chaleur, une odeur, un mouvement, une voix. Quand le système nerveux est déjà saturé, ajouter du contact ajoute de l'information à traiter.",
       "ancrage": "Le contact n'est pas une solution universelle. Savoir s'arrêter et offrir du vide n'est pas de l'abandon : c'est une réponse juste à un système nerveux saturé.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -213,33 +200,29 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Redescendre après la saturation",
+        "titre": "Être là sans toucher",
         "etapes": [
-          "Une fois la première vague passée : bébé calmé, dans le silence, contre toi.",
-          "Sa tête au creux de ton épaule : ta main à plat dans son dos, qui ne bouge pas.",
-          "Un balancement très lent, puis plus rien : le mouvement qui s'arrête l'aide à s'arrêter aussi.",
-          "Un seul geste à la fois : ne pas parler et toucher en même temps, une entrée sensorielle suffit.",
-          "S'arrêter à sa demande : s'il se crispe ou se détourne, on arrête sans insister."
+          "T'asseoir près de son lit : à portée de son regard, sans le toucher.",
+          "Baisser ta propre agitation : épaules, mâchoire, quelques respirations lentes pour toi.",
+          "Un seul son bas si besoin : un fredonnement, toujours le même, ou le silence.",
+          "Attendre le premier signe de détente : mains qui s'ouvrent, respiration qui ralentit."
         ]
       },
       "pour_aller_plus_loin": [
         "Repérer les moments à risque : après une sortie, des visites, une journée chargée. La saturation arrive après, pas pendant.",
         "Doser la stimulation en amont : moins de bras, moins d'activités, moins de bruit de fond dans la journée.",
-        "Garder l'environnement sonore calme : un écran ou une musique posés par-dessus les pleurs ajoutent une couche à traiter.",
         "Alterner les réponses : si le contact ne fonctionne pas ce soir, essayer le calme. Ce n'est ni un recul, ni une contradiction."
       ],
       "principe": "Un bébé sur-stimulé ne demande pas plus de soin, il demande moins de tout. La bonne dose de contact est celle qui fait baisser les pleurs, pas celle qui rassure l'adulte.",
       "erreurs_a_eviter": [
         "Enchaîner toutes les techniques d'apaisement l'une après l'autre : chaque nouvelle tentative est une stimulation de plus.",
-        "Mettre de la musique ou la télévision pour couvrir les pleurs : la surcharge sonore aggrave la crise.",
-        "Passer bébé de bras en bras pour trouver qui le calme.",
-        "Se reprocher de le poser. Un bébé posé en sécurité, à côté d'un parent calme, n'est pas un bébé abandonné."
+        "Mettre de la musique ou la télévision pour couvrir les pleurs : la surcharge sonore aggrave la crise."
       ],
       "consulter_si": "Consulter si : bébé reste inconsolable plusieurs heures malgré le retour au calme, refuse de boire, présente de la fièvre avant trois mois, ou paraît anormalement mou → pédiatre, ou le 15 selon l'urgence. Si ces épisodes t'épuisent au point que tu ne tiens plus → PMI, sage-femme, ou Allo Parents Bébé (0 800 00 34 56)."
     },
     {
       "categorie": "pleurs",
-      "situation": "Les signaux de retrait / Il détourne le regard quand je lui parle",
+      "situation": "Les signaux de retrait / Il détourne le regard",
       "titre": "Lire ses signaux faibles",
       "explication": "Bien avant de pleurer, ton bébé prévient. Il détourne les yeux, bâille, hoquette, écarte les doigts, devient pâle autour de la bouche, s'agite. Ce sont ses mots : « c'est trop pour moi, là ». À un mois, il ne peut pas fuir une stimulation, ni la réduire, ni la demander autrement. Il ne peut que se retirer du regard. Apprendre à lire ces signaux change complètement la journée : tu interviens avant la crise plutôt que de tenter de la réparer après. Chaque bébé a son propre seuil, et la fourchette est large.",
       "ancrage": "Détourner le regard n'est pas un rejet de toi. C'est une compétence : il se protège avec les seuls moyens dont il dispose. Ton rôle est de l'entendre, et de t'arrêter.",
@@ -258,27 +241,23 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Un temps sans sollicitation",
+        "titre": "Rouvrir l'échange en douceur",
         "etapes": [
-          "Choisir un moment de calme : bébé éveillé, détendu, sans bruit autour.",
-          "L'envelopper sans serrer : tes bras autour de lui, ses mains ramenées vers le centre de son corps.",
-          "Tes mains posées sur ses épaules : une pression douce et immobile, qui lui redonne ses contours.",
-          "Observer ses réactions : mains qui s'ouvrent, respiration qui ralentit, regard qui revient, ce sont ses réponses.",
-          "S'arrêter à sa demande : un mouvement de retrait, un regard qui fuit, on arrête sans insister."
+          "Te placer un peu de côté : un face-à-face intense relance le retrait.",
+          "Revenir par un seul canal : ta voix tout bas, ou ton visage, pas les deux ensemble.",
+          "Sourire sans rien demander : tu lui laisses le choix de répondre ou non.",
+          "Finir avant qu'il se retire : quelques secondes d'échange réussi valent mieux qu'1 minute de trop."
         ]
       },
       "pour_aller_plus_loin": [
-        "Connaître la liste : détourner le regard, bâiller, hoqueter, éternuer, écarter les doigts, s'agiter, pâlir autour de la bouche.",
         "Doser les temps d'éveil : à un mois, quelques minutes d'échange suffisent, la qualité prime largement sur la durée.",
         "Prévenir l'entourage : expliquer que bébé s'arrête quand il détourne les yeux, pour éviter les sollicitations en cascade.",
         "Observer sans écran : les échanges de regard se font sans téléphone à la main, le tien capte son attention autant que le sien."
       ],
       "principe": "Les signaux de retrait sont un langage, pas un rejet. Un parent qui s'arrête au premier signal évite la crise ; un parent qui insiste la déclenche.",
       "erreurs_a_eviter": [
-        "Insister pour capter son regard en agitant un objet ou en haussant la voix.",
-        "Interpréter le détournement du regard comme un désintérêt ou un problème de lien.",
-        "Enchaîner les temps de stimulation « pour l'éveiller », à cet âge, le calme construit autant que l'échange.",
-        "Laisser l'entourage le solliciter en continu pendant une visite."
+        "Interpréter le détournement du regard comme un désintérêt ou un problème de lien : tu retires la pause dont il a besoin.",
+        "Enchaîner les temps de stimulation « pour l'éveiller », à cet âge, le calme construit autant que l'échange."
       ],
       "consulter_si": "Consulter si : bébé ne cherche jamais ton regard, ne réagit pas aux bruits forts, ne se calme jamais au contact, paraît anormalement mou ou raide, ou ne fixe pas ton visage vers deux mois → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition et de la vision. Chaque enfant a son rythme, et la fourchette est large."
     }

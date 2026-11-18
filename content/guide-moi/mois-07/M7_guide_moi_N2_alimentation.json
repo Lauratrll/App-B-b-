@@ -12,7 +12,7 @@
       "categorie": "alim",
       "situation": "Le passage aux textures / Il recrache au moindre bout",
       "titre": "Avancer par micro-étapes",
-      "explication": "Il acceptait les purées lisses, et dès qu'un grumeau apparaît, il recrache tout. La tentation est d'attendre « qu'il soit prêt ». C'est une erreur : la fenêtre d'apprentissage des textures se situe entre six et huit mois environ, et retarder les morceaux au-delà rend leur acceptation nettement plus difficile ensuite. Ce qui fonctionne n'est ni d'attendre, ni de forcer : c'est d'épaissir imperceptiblement, sur plusieurs semaines, sans jamais lui annoncer que quelque chose a changé.",
+      "explication": "Il acceptait les purées lisses, et dès qu'un grumeau apparaît, il recrache tout. La tentation est d'attendre « qu'il soit prêt ». C'est une erreur : la fenêtre d'apprentissage des textures se situe entre six et 8 mois environ, et retarder les morceaux au-delà rend leur acceptation nettement plus difficile ensuite. Ce qui fonctionne n'est ni d'attendre, ni de forcer : c'est d'épaissir imperceptiblement, sur plusieurs semaines, sans jamais lui annoncer que quelque chose a changé.",
       "ancrage": "Tu as l'impression de le brusquer à chaque cuillerée, et d'être la seule à qui ça résiste. Tu ne le brusques pas. Tu lui laisses le temps d'apprendre, et ce temps-là se compte en semaines, pas en repas.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -34,8 +34,7 @@
           "Lui laisser toucher : mettre les doigts dans la purée fait partie de l'apprentissage.",
           "Proposer un aliment fondant à tenir : sous surveillance constante, jamais rond ni dur.",
           "Le laisser fixer le rythme : il ouvre la bouche, on avance ; il détourne, on arrête.",
-          "Un environnement calme : sans écran, sans public, sans pression.",
-          "S'arrêter s'il se braque : le repas ne se force jamais."
+          "Un environnement calme : sans écran, sans public, sans pression."
         ]
       },
       "pour_aller_plus_loin": [
@@ -47,9 +46,9 @@
       "principe": "On n'attend pas qu'il soit prêt, et on n'insiste pas : on monte d'un cran, et on recommence le lendemain. C'est la répétition qui apprend, pas la cuillerée d'aujourd'hui.",
       "erreurs_a_eviter": [
         "Attendre qu'il « soit prêt » pour les morceaux : chaque semaine de retard complique l'acceptation ultérieure.",
-        "Passer brutalement du lisse aux morceaux.",
-        "Insister ou forcer une cuillerée.",
-        "Nourrir bébé allongé, en mouvement, ou sans surveillance."
+        "Passer brutalement du lisse aux morceaux : le haut-le-cœur s'installe et le refus avec lui.",
+        "Insister ou forcer une cuillerée : le repas devient un enjeu et la texture un mauvais souvenir.",
+        "Nourrir bébé allongé, en mouvement, ou sans surveillance : la fausse route devient possible."
       ],
       "consulter_si": "Consulter si : bébé refuse toute texture épaissie depuis plusieurs semaines, s'il vomit de façon répétée, ne prend pas de poids, si sa courbe casse → pédiatre ou médecin traitant. En cas d'étouffement (silence, absence de toux, changement de couleur) → appeler immédiatement le 15.",
       "source": "Source : Santé publique France et ANSES, recommandations sur la diversification alimentaire des enfants de moins de 3 ans : introduction des nouvelles textures entre 6 et 8 mois."
@@ -77,25 +76,22 @@
         "couleur_texte": "#085041",
         "titre": "Un repas apaisé",
         "etapes": [
-          "Bébé assis, tronc droit : toujours, et toujours surveillé.",
-          "Un environnement calme : sans écran, sans public, sans agitation.",
+          "Un bavoir à manches et un tapis sous la chaise : le désordre devient supportable pour toi.",
           "Un temps court : quelques minutes suffisent, car l'attention est limitée.",
-          "Nommer ce qu'il fait : « tu tiens ta cuillère, tu touches, c'est bien ».",
-          "S'arrêter s'il se braque : le repas ne se force jamais."
+          "Nommer ce qu'il fait : « tu tiens ta cuillère, tu touches, c'est bien »."
         ]
       },
       "pour_aller_plus_loin": [
-        "Se rappeler l'enjeu : la pression au repas est le facteur qui installe le plus durablement les difficultés alimentaires.",
         "Accepter qu'il mange peu : le lait reste l'aliment principal, au moins 500 ml par jour jusqu'à un an.",
         "Ne jamais distraire pour faire avaler : écran, jeu, chanson, tout cela court-circuite ses signaux de satiété.",
         "Laisser l'exploration précéder l'ingestion : toucher, écraser, sentir, tout cela fait partie du repas."
       ],
       "principe": "La lutte pour la cuillère est une lutte perdue, et coûteuse. Deux cuillères rendent à bébé son besoin d'agir sans que tu perdes le fil du repas.",
       "erreurs_a_eviter": [
-        "Lutter pour garder la cuillère.",
-        "Empêcher bébé de toucher la nourriture.",
-        "Distraire avec un écran ou un jeu pour faire avaler.",
-        "Forcer une cuillerée de plus."
+        "Lutter pour garder la cuillère : chaque repas devient un bras de fer.",
+        "Empêcher bébé de toucher la nourriture : il perd l'exploration qui prépare l'acceptation.",
+        "Distraire avec un écran ou un jeu pour faire avaler : il mange sans percevoir quand il a assez.",
+        "Forcer une cuillerée de plus : la tension au repas s'installe durablement."
       ],
       "consulter_si": "Consulter si : bébé refuse de manger depuis plusieurs jours, ne prend pas de poids, si sa courbe casse, s'il vomit de façon répétée, ou si les repas deviennent une source de conflit permanent → pédiatre, médecin traitant ou PMI.",
       "source": "Source : ameli.fr (Assurance Maladie) et Santé publique France, l'alimentation de l'enfant de 0 à 3 ans : au moins 500 ml de lait par jour jusqu'à un an."
@@ -115,7 +111,7 @@
           "Compter sur la journée : au moins 500 ml, maternel ou infantile, tant qu'il n'a pas un an, *d'après l'Assurance Maladie*.",
           "Réduire le volume des solides plutôt que de l'augmenter : c'est la place qui manque, pas l'appétit.",
           "Ne pas remplacer sans avis : un lait de croissance ou une boisson végétale ne se substituent pas de sa propre initiative.",
-          "Reprendre le compte sur trois jours : une seule journée creuse ne dit rien, trois de suite se signalent."
+          "Reprendre le compte sur 3 jours : une seule journée creuse ne dit rien, trois de suite se signalent."
         ]
       },
       "geste_doux": {
@@ -123,7 +119,7 @@
         "couleur_texte": "#085041",
         "titre": "Lui rendre l'envie de boire",
         "etapes": [
-          "Une pièce calme : sans écran ni public, un bébé de sept mois lâche la tétine au moindre bruit.",
+          "Une pièce calme : sans écran ni public, un bébé de 7 mois lâche la tétine au moindre bruit.",
           "Une position qu'il connaît : le même bras, la même lumière, ta voix. À cet âge, le rituel fait plus que la quantité.",
           "Respecter les pauses : le laisser souffler, puis reproposer, sans jamais remettre la tétine de force.",
           "Ne pas finir le biberon pour lui : c'est son signal de satiété, et il en aura besoin longtemps.",
@@ -138,10 +134,10 @@
       ],
       "principe": "Avant un an, l'assiette accompagne le lait, elle ne le relaie pas encore. Quand les deux se disputent la place, c'est le lait qui passe devant.",
       "erreurs_a_eviter": [
-        "Augmenter les solides parce qu'il boit moins de lait.",
-        "Donner du lait de vache comme boisson principale avant un an.",
+        "Augmenter les solides parce qu'il boit moins de lait : le lait recule encore et ses apports manquent.",
+        "Donner du lait de vache comme boisson principale avant un an : il ne couvre pas ses besoins, notamment en fer.",
         "Introduire un lait végétal sans avis médical : les boissons végétales ne couvrent pas les besoins d'un nourrisson et exposent à des carences graves.",
-        "Donner des jus de fruits pour « hydrater »."
+        "Donner des jus de fruits pour « hydrater » : le sucre prend la place du lait et de l'eau."
       ],
       "consulter_si": "Consulter si : bébé boit nettement moins que le demi-litre quotidien, s'il ne prend pas de poids, si sa courbe casse, s'il refuse le lait de façon répétée, ou s'il paraît anormalement pâle ou fatigué → pédiatre, médecin traitant ou PMI.",
       "source": "Source : ameli.fr (Assurance Maladie) et Santé publique France, l'alimentation de l'enfant de 0 à 3 ans : au moins 500 ml de lait par jour jusqu'à un an."
@@ -149,8 +145,8 @@
     {
       "categorie": "alim",
       "situation": "Les régurgitations / Il rend depuis les purées",
-      "titre": "Ce qui aide encore à sept mois",
-      "explication": "Sept mois que tu changes des bavoirs, que tu poses un lange sur ton épaule, que tu laves. Cette fatigue-là est réelle, et elle est rarement prise au sérieux autour de toi, parce que ce n'est « que » du linge. Deux choses. La première : il n'y a plus grand-chose de nouveau à essayer. Les leviers sont connus, ils sont peu nombreux, et ils tiennent en trois gestes autour du repas. Chercher le quatrième t'usera sans rien changer. La seconde : à sept mois, la question n'est plus de savoir si cela dure, mais de savoir si cela lui coûte quelque chose. Un bébé qui grossit, qui mange, qui dort et qui ne se plaint pas régurgite sans que ce soit un problème pour lui, même si c'en est un pour ta machine à laver.",
+      "titre": "Ce qui aide encore à 7 mois",
+      "explication": "Sept mois que tu changes des bavoirs, que tu poses un lange sur ton épaule, que tu laves. Cette fatigue-là est réelle, et elle est rarement prise au sérieux autour de toi, parce que ce n'est « que » du linge. Deux choses. La première : il n'y a plus grand-chose de nouveau à essayer. Les leviers sont connus, ils sont peu nombreux, et ils tiennent en trois gestes autour du repas. Chercher le quatrième t'usera sans rien changer. La seconde : à 7 mois, la question n'est plus de savoir si cela dure, mais de savoir si cela lui coûte quelque chose. Un bébé qui grossit, qui mange, qui dort et qui ne se plaint pas régurgite sans que ce soit un problème pour lui, même si c'en est un pour ta machine à laver.",
       "ancrage": "Tu as le droit de trouver ça long. Ce n'est pas grave et c'est fatigant, et les deux peuvent être vrais en même temps.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -159,7 +155,7 @@
         "etapes": [
           "Alléger chaque prise : un peu moins à la fois, un peu plus souvent, plutôt qu'un gros repas.",
           "Le tenir droit après : 20 à 30 minutes, sans le remuer ni le faire jouer.",
-          "Éviter le siège incliné : transat, cosy et balancelle compriment le ventre juste après le repas.",
+          "Éviter le siège incliné : transat, siège-coque et balancelle compriment le ventre juste après le repas.",
           "Vérifier ce qui serre : sangle de chaise haute, élastique de body, couche trop ajustée.",
           "Renoncer au reste : il n'y a pas de quatrième levier à trouver, et le chercher use pour rien."
         ]
@@ -167,14 +163,8 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Hors du repas : la journée d'un bébé qui rend",
-        "etapes": [
-          "Le sol plutôt que le siège : entre les repas, à plat sur un tapis ferme, il bouge et son ventre travaille.",
-          "Le portage haut : en écharpe ou en porte-bébé physiologique, il reste vertical et tu gardes tes mains.",
-          "Des jeux calmes après le repas : rien qui secoue, rien qui plie le ventre, pendant la demi-heure qui suit.",
-          "Le change avant le repas plutôt qu'après : coucher et plier un bébé qui vient de boire, c'est provoquer ce qu'on veut éviter.",
-          "Changer de position s'il se cambre : au sol comme en portage, il dit quand il n'est plus bien."
-        ],
+        "titre": "Réflexologie : accompagner les remontées",
+        "etapes": [],
         "lien_reflexologie": {
           "id": "reflux",
           "titre": "Reflux"
@@ -183,10 +173,10 @@
       "pour_aller_plus_loin": [
         "Se donner un vrai critère : le poids, la douleur, le sommeil, l'appétit. Si les quatre vont bien, cela va.",
         "Organiser plutôt que combattre : plusieurs langes en circulation, des vêtements sombres, une pile de bavoirs. Ce n'est pas un renoncement.",
-        "Ne rien surélever soi-même : coussins, cales et matelas inclinés augmentent le risque d'étouffement.",
-        "En parler au rendez-vous plutôt qu'entre deux : ce n'est pas une urgence, mais c'est un vrai motif de consultation."
+        "En parler au rendez-vous plutôt qu'entre deux : ce n'est pas une urgence, mais c'est un vrai motif de consultation.",
+        "Organiser la journée : le sol plutôt que le siège, le portage vertical, le change avant le repas plutôt qu'après, et des jeux calmes pendant la demi-heure qui suit."
       ],
-      "principe": "Après sept mois, la bonne question n'est plus « est-ce que ça va durer ? » mais « est-ce que mon bébé en souffre ? ». La première épuise sans rien apprendre. La seconde se répond en regardant son poids, sa douleur, son sommeil et son appétit.",
+      "principe": "Après 7 mois, la bonne question n'est plus « est-ce que ça va durer ? » mais « est-ce que mon bébé en souffre ? ». La première épuise sans rien apprendre. La seconde se répond en regardant son poids, sa douleur, son sommeil et son appétit.",
       "erreurs_a_eviter": [
         "Chercher un remède de plus alors que rien n'a fonctionné jusqu'ici.",
         "Surélever la tête du lit, incliner son matelas ou glisser une cale dessous : ces montages augmentent le risque d'étouffement.",
@@ -222,22 +212,19 @@
           "Appliquer un émollient avant le repas : une barrière fine sur le pourtour des lèvres et le menton.",
           "Tamponner après : sans frotter, avec un linge doux.",
           "Sécher soigneusement : particulièrement dans les plis.",
-          "Éviter les produits parfumés : ils aggravent l'irritation.",
-          "S'arrêter s'il se crispe : le soin doit rester bref."
+          "Éviter les produits parfumés : ils aggravent l'irritation."
         ]
       },
       "pour_aller_plus_loin": [
-        "Ne jamais exclure un aliment sans avis médical : une exclusion inutile appauvrit l'alimentation et peut aggraver le risque d'allergie.",
-        "Continuer les autres allergènes : la démarche d'introduction ne s'arrête pas pour une rougeur localisée qui s'efface toute seule.",
         "Photographier les plaques : une photo datée vaut mieux qu'un souvenir, parce qu'à la consultation, la rougeur aura disparu.",
         "Un allergène à la fois : cela reste la règle, pour pouvoir identifier ce qui réagit."
       ],
       "principe": "Une rougeur localisée à la zone de contact, chez un bébé qui va bien, est une irritation. Une réaction qui s'étend ou s'accompagne d'autres signes appartient au médecin, et un aliment ne s'exclut jamais sans avis.",
       "erreurs_a_eviter": [
-        "Exclure un aliment de sa propre initiative.",
-        "Arrêter d'introduire les allergènes après une simple irritation.",
-        "Appliquer une crème à la cortisone sans avis médical.",
-        "Redonner l'aliment après une vraie réaction, sans avoir consulté."
+        "Exclure un aliment de sa propre initiative : l'alimentation s'appauvrit et le risque d'allergie peut augmenter.",
+        "Arrêter d'introduire les allergènes après une simple irritation : on retarde justement ce qui protège.",
+        "Appliquer une crème à la cortisone sans avis médical : sur une peau fragile, elle masque et peut aggraver.",
+        "Redonner l'aliment après une vraie réaction, sans avoir consulté : la réaction suivante peut être plus forte."
       ],
       "consulter_si": "Consulter si : les plaques s'étendent au-delà de la zone de contact, si le visage, les lèvres ou les paupières gonflent, si bébé vomit, devient pâle, présente une gêne à respirer, une voix ou un cri modifié → appeler immédiatement le 15. Pour toute réaction plus légère ou tout doute → pédiatre ou médecin traitant avant de redonner l'aliment.",
       "source": "Source : ANSES (avis 2018) et Santé publique France, introduction des allergènes alimentaires dès le début de la diversification."
@@ -263,14 +250,8 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Ce qui détend au moment de l'effort",
-        "etapes": [
-          "L'accroupir plutôt que l'allonger : genoux plus hauts que les fesses, c'est la position qui ouvre le passage.",
-          "Rester à côté sans commenter : pas de regard insistant, pas d'encouragement, ta présence suffit.",
-          "Une paume tiède sur son ventre : immobile, sans appuyer, entre deux efforts.",
-          "Le bain tiède du soir : il détend le ventre et le siège, et il n'attend rien de lui.",
-          "Veiller au siège : une peau irritée ou une petite fissure font retenir davantage."
-        ],
+        "titre": "Réflexologie : accompagner le transit",
+        "etapes": [],
         "lien_reflexologie": {
           "id": "constipation",
           "titre": "Constipation"
@@ -278,9 +259,9 @@
       },
       "pour_aller_plus_loin": [
         "Ne rien introduire pour faire venir la selle : le geste peut blesser la muqueuse, et le suppositoire ne fait qu'avancer une selle à venir.",
-        "Changer de lait, sa dose ou sa dilution de sa propre initiative : cela se décide avec le médecin, et le transit met une à deux semaines à se remettre en place.",
+        "Changer de lait, sa dose ou sa dilution de sa propre initiative : cela se décide avec le médecin, et le transit met une à 2 semaines à se remettre en place.",
         "Préférer l'eau aux jus de fruits : ils sont sucrés, et un enfant de cet âge n'en a pas besoin.",
-        "Consulter tôt plutôt que tard : à sept mois, une constipation qui commence se règle vite ; installée, elle demande des mois."
+        "Aider la position : accroupi, genoux plus hauts que les fesses, et un bain tiède le soir pour détendre le ventre."
       ],
       "principe": "Ce n'est pas le rythme des selles qui fait la constipation, c'est leur dureté. Une selle molle, même espacée, ne pose pas de problème ; une selle dure, même quotidienne, en annonce un.",
       "erreurs_a_eviter": [
@@ -295,7 +276,7 @@
     {
       "categorie": "alim",
       "situation": "Le ventre ballonné / Il gargouille et il est gonflé",
-      "titre": "Un aliment à la fois, trois jours",
+      "titre": "Un aliment à la fois, 3 jours",
       "explication": "Son ventre est tendu, il gargouille depuis le goûter, et tu passes en revue tout ce qu'il a mangé aujourd'hui. Jusqu'ici son intestin ne digérait que du lait. Depuis quelques semaines il reçoit des fibres, des amidons, des protéines végétales, et sa flore se réorganise pour les traiter. Cette réorganisation fait du bruit et produit des gaz, c'est mécanique et c'est passager. Le réflexe est de désigner un aliment coupable et de le retirer. C'est presque toujours une fausse piste : les exclusions s'enchaînent, l'alimentation s'appauvrit, et la vraie cause reste invisible parce que rien n'a jamais été introduit assez lentement pour être observé.",
       "ancrage": "Un ventre qui gargouille est un ventre qui apprend. Ce que tu peux faire n'est pas de retirer, c'est de ralentir assez pour voir ce qui se passe.",
       "action_immediate": {
@@ -313,14 +294,8 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Hors du repas : faire circuler l'air",
-        "etapes": [
-          "Beaucoup de sol après les repas : ramper et rouler font sortir les gaz mieux que n'importe quel geste appliqué.",
-          "Ramener ses genoux vers son ventre : quelques secondes, on relâche, on recommence sans forcer.",
-          "Le porter ventre contre ton avant-bras : la pression douce de ton bras l'apaise souvent d'un coup.",
-          "Desserrer ce qui comprime : une couche moins ajustée, un body à sa taille, une sangle qui ne barre pas le ventre.",
-          "S'arrêter à sa demande : s'il se crispe ou se détourne, on arrête sans insister."
-        ],
+        "titre": "Réflexologie : apaiser le ventre",
+        "etapes": [],
         "lien_reflexologie": {
           "id": "inconfort-digestif",
           "titre": "Inconfort digestif"
@@ -328,16 +303,17 @@
       },
       "pour_aller_plus_loin": [
         "Garder les légumes : ce sont eux qui apportent les fibres dont le transit a besoin, même s'ils font du bruit.",
-        "Attendre trois à quatre semaines : la flore met ce temps-là à s'adapter aux nouvelles familles d'aliments.",
+        "Attendre 3 à 4 semaines : la flore met ce temps-là à s'adapter aux nouvelles familles d'aliments.",
         "Ne donner aucun produit anti-gaz sans avis : c'est au pharmacien ou au médecin de dire ce qui convient à son âge.",
-        "Montrer ton carnet de notes : quelques lignes sur deux semaines valent mieux qu'un long récit en consultation."
+        "Montrer ton carnet de notes : quelques lignes sur 2 semaines valent mieux qu'un long récit en consultation.",
+        "Faire circuler les gaz : beaucoup de sol après les repas, genoux ramenés vers le ventre quelques secondes, et rien qui comprime."
       ],
       "principe": "On n'identifie un aliment qu'en le laissant seul assez longtemps pour être vu. Retirer sans avoir observé enlève un aliment de son alimentation sans rien apprendre sur son ventre.",
       "erreurs_a_eviter": [
         "Introduire deux ou trois nouveautés le même jour : plus rien n'est attribuable, et l'exclusion se fait au hasard.",
         "Supprimer une famille entière d'aliments sans avis : l'alimentation s'appauvrit et le goût s'appauvrit avec.",
         "Revenir au tout lisse pour calmer le ventre : la texture n'est pas en cause dans les gaz.",
-        "Mettre tous les pleurs sur le compte du ventre : à sept mois beaucoup d'autres choses font pleurer."
+        "Mettre tous les pleurs sur le compte du ventre : à 7 mois beaucoup d'autres choses font pleurer."
       ],
       "consulter_si": "Consulter si : bébé pleure de douleur après les repas de façon répétée, si son ventre reste dur et tendu entre les repas, s'il vomit, s'il a du sang dans les selles, une diarrhée qui dure, des plaques après un aliment, ou s'il ne prend plus de poids → pédiatre ou médecin traitant. Appeler le 15 si le ventre est dur et tendu avec des vomissements et plus aucune selle ni aucun gaz.",
       "source": "Source : introduire un aliment à la fois et progresser lentement dans la diversification, Santé publique France et ANSES, recommandations pour les enfants de moins de 3 ans ; repères pédiatriques mpedia.fr (AFPA)."

@@ -10,7 +10,7 @@
   "protocoles": [
     {
       "categorie": "sommeil",
-      "situation": "Les nuits d'avant la marche / Il se réveille sans arrêt depuis peu",
+      "situation": "Les nuits d'avant la marche / Il se réveille souvent",
       "titre": "Le cerveau consolide la nuit",
       "explication": "Juste avant les premiers pas, les nuits se dérèglent. Ce n'est pas un hasard : le cerveau consolide pendant le sommeil ce que le corps travaille le jour, et une acquisition de cette ampleur produit une activité nocturne intense. Il s'agite, se réveille, s'entraîne même à moitié endormi. C'est temporaire, et cela se reproduira à chaque grand acquis. Ce qui fait la différence, ce n'est pas une nouvelle méthode : c'est un cadre de coucher qui ne bouge pas pendant que le cerveau travaille.",
       "ancrage": "Ses nuits se dérèglent parce que son cerveau consolide. Ce n'est pas une méthode à changer : c'est un cadre à tenir.",
@@ -30,13 +30,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : soutenir la phase",
-        "etapes": [
-          "Dans le rituel du soir : toujours au même moment.",
-          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
-          "Suivre la séquence « Sommeil paisible » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Parler doucement pendant la séquence : raconter ce que tu fais, sur le même ton.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "sommeil",
           "titre": "Sommeil paisible"
@@ -50,17 +44,17 @@
       ],
       "principe": "Chaque grand acquis moteur agite les nuits, temporairement. Ce qui rallonge la phase, c'est de changer de méthode en plein milieu, pas le progrès lui-même.",
       "erreurs_a_eviter": [
-        "Changer de méthode de sommeil en pleine phase.",
-        "Laisser pleurer seul pour « rétablir » les nuits.",
-        "Repousser le coucher pour qu'il dorme mieux.",
-        "Supprimer une sieste alors qu'il est épuisé."
+        "Changer de méthode de sommeil en pleine phase : le bouleversement s'ajoute à celui que son cerveau traverse déjà.",
+        "Laisser pleurer seul pour « rétablir » les nuits : le stress s'ajoute, rien ne se consolide.",
+        "Repousser le coucher pour qu'il dorme mieux : la sur-fatigue aggrave les réveils.",
+        "Supprimer une sieste alors qu'il est épuisé : la dette de sommeil se paie la nuit."
       ],
       "consulter_si": "Consulter si : l'enfant dort très peu au total et ne prend pas de poids, s'il est agité et inconsolable en permanence, s'il est difficile à réveiller, ou s'il présente des pauses respiratoires ou un ronflement important → pédiatre ; le 15 en cas de trouble respiratoire.",
       "source": "Source : Institut national du sommeil et de la vigilance et ameli.fr, le sommeil de l'enfant : étapes, siestes et réveils."
     },
     {
       "categorie": "sommeil",
-      "situation": "Le lit devenu barre / Il s'entraîne à marcher au lieu de dormir",
+      "situation": "Le lit devenu barre / Il s'entraîne au lieu de dormir",
       "titre": "Offrir le debout en journée",
       "explication": "Il se met debout, s'agrippe aux barreaux, longe, retombe, recommence. Son lit est devenu une barre d'entraînement. Ce n'est pas de la provocation : son cerveau est en train de consolider une acquisition majeure, et il ne peut pas s'arrêter. Le recoucher vingt fois ne lui apprend rien. Ce qui réduit l'entraînement nocturne, c'est d'offrir massivement du temps debout en journée, plus il s'entraîne au sol, moins son corps a besoin de le faire la nuit.",
       "ancrage": "Il ne joue pas : il s'entraîne. Plus il aura le droit de s'entraîner debout en journée, moins il le fera la nuit.",
@@ -84,7 +78,7 @@
           "Beaucoup de temps debout au sol : contre des appuis stables, plusieurs fois par jour.",
           "Un parcours sûr : coussins fermes, meubles bas fixés, sol amortissant.",
           "Lui montrer la descente : plier les genoux, poser les fesses.",
-          "Le laisser tomber et se relever : c'est le chemin.",
+          "Le laisser se relever seul : une chute sur un sol amorti, sous ta surveillance, fait partie de l'apprentissage.",
           "S'arrêter s'il fatigue : la fatigue multiplie les chutes."
         ]
       },
@@ -96,17 +90,17 @@
       ],
       "principe": "Il s'entraîne, il ne joue pas. Offrir massivement du temps debout en journée est ce qui réduit l'entraînement nocturne, pas une nouvelle méthode de sommeil.",
       "erreurs_a_eviter": [
-        "Le recoucher en jouant avec lui.",
+        "Le recoucher en jouant avec lui : le lit reste un terrain de jeu.",
         "S'agacer ou réagir fortement : toute réaction relance le jeu.",
-        "Laisser le matelas en position haute.",
-        "Réduire le temps de mouvement en journée."
+        "Laisser le matelas en position haute : debout, il peut basculer par-dessus les barreaux.",
+        "Réduire le temps de mouvement en journée : le corps s'entraîne alors la nuit."
       ],
       "consulter_si": "Consulter si : l'enfant présente des pauses respiratoires, une respiration bruyante, un ronflement important, ou si le manque de sommeil devient dangereux pour toi → pédiatre, PMI, ou Allo Parents Bébé (0 800 00 34 56) ; le 15 en cas de trouble respiratoire.",
       "source": "Source : ameli.fr (Assurance Maladie), comment bien coucher un bébé : les règles du couchage sécurisé."
     },
     {
       "categorie": "sommeil",
-      "situation": "Le coucher en bras de fer / Il refuse tout au moment du coucher",
+      "situation": "Le coucher en bras de fer / Il refuse tout au coucher",
       "titre": "Des choix limités dans un cadre fixe",
       "explication": "Le coucher est devenu un champ de bataille : il refuse le bain, le pyjama, le lit, l'histoire, tout. L'opposition naissante a atteint le rituel du soir, au pire moment de la journée, quand tout le monde est vidé. Le bras de fer ne se gagne pas : plus tu forces, plus il résiste. Ce qui désamorce : un cadre fixe et non négociable (l'heure, l'ordre des étapes) dans lequel on insère des choix limités : quel pyjama, quel livre, quelle chanson. Il choisit dans le cadre, jamais le cadre lui-même.",
       "ancrage": "Le cadre ne se négocie pas ; ce qui se choisit, c'est dedans. Deux options, jamais une question ouverte.",
@@ -126,13 +120,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : le cœur du rituel",
-        "etapes": [
-          "Toujours au même moment : après le pyjama, avant l'histoire.",
-          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
-          "La séquence « Sommeil paisible » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Garder ta voix posée : quelques mots toujours identiques, ou un air fredonné.",
-          "Terminer par l'immobilité : une main posée sur son torse."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "sommeil",
           "titre": "Sommeil paisible"
@@ -142,13 +130,13 @@
         "Avancer le coucher : la sur-fatigue de fin de journée aggrave massivement l'opposition.",
         "Raccourcir le rituel s'il est trop long : un rituel interminable épuise tout le monde.",
         "Se relayer : le co-parent peut prendre le coucher, ce qui change souvent la dynamique.",
-        "Ne jamais céder sur le cadre : céder une fois relance la négociation chaque soir."
+        "Tenir le cadre : une règle qui cède sous la pression relance la négociation chaque soir. Elle se revoit à froid, jamais en pleine crise."
       ],
       "principe": "Le cadre est fixe, les choix sont dedans. Il choisit son pyjama, jamais l'heure du coucher, et cette distinction désamorce le bras de fer.",
       "erreurs_a_eviter": [
-        "Négocier l'heure ou le cadre.",
-        "Poser une question ouverte : « tu veux te coucher ? ».",
-        "Entrer en bras de fer et hausser le ton.",
+        "Négocier l'heure ou le cadre : chaque soir devient une négociation.",
+        "Poser une question ouverte : « tu veux te coucher ? » : la réponse est non, et le bras de fer commence.",
+        "Entrer en bras de fer et hausser le ton : plus tu forces, plus il résiste.",
         "Repousser le coucher parce qu'il refuse : la sur-fatigue aggrave tout."
       ],
       "consulter_si": "Consulter si : l'enfant ne parvient jamais à s'endormir malgré un cadre calme, s'il est inconsolable, s'il présente des pauses respiratoires, ou si le manque de sommeil devient dangereux pour toi → pédiatre, PMI, médecin, ou Allo Parents Bébé (0 800 00 34 56).",
@@ -156,7 +144,7 @@
     },
     {
       "categorie": "sommeil",
-      "situation": "La tétée du soir / Je veux l'arrêter sans casser l'endormissement",
+      "situation": "La tétée du soir / Je veux l'arrêter sans drame",
       "titre": "Reconstruire avant de retirer",
       "explication": "La tétée du soir est souvent la dernière, et la plus difficile, parce qu'elle n'est pas qu'un repas : c'est le rituel d'endormissement. La retirer sans avoir reconstruit un rituel de remplacement, c'est retirer en même temps l'aliment et le moyen de s'endormir. Le résultat est prévisible : l'endormissement s'effondre. La méthode qui fonctionne inverse l'ordre : on construit d'abord le nouveau rituel, on le tient plusieurs semaines pendant que la tétée existe encore, et seulement ensuite, on retire la tétée.",
       "ancrage": "On ne retire pas l'ancien avant d'avoir installé le nouveau. Construis le rituel de remplacement d'abord : la tétée s'enlève après.",
@@ -168,7 +156,7 @@
           "Installer le nouveau rituel maintenant : histoire, berceuse, réflexologie, à la même place, à la même heure.",
           "Le tenir pendant que la tétée existe encore : plusieurs semaines, sans rien retirer.",
           "Déplacer la tétée en début de rituel : avant le bain, plutôt qu'en dernier.",
-          "Puis raccourcir la tétée : d'1 minute tous les deux ou trois soirs.",
+          "Puis raccourcir la tétée : par petits paliers, quelques instants de moins tous les deux ou trois soirs.",
           "Retirer en dernier : quand le nouveau rituel porte déjà l'endormissement."
         ]
       },
@@ -176,13 +164,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : le rituel de remplacement",
-        "etapes": [
-          "À la place de la tétée : toujours au même moment, au même endroit.",
-          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
-          "Suivre la séquence « Sommeil paisible » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Ta voix tout bas pendant la séquence : toujours les mêmes mots, qui deviennent un repère.",
-          "Terminer par l'immobilité : une main posée sur son torse."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "sommeil",
           "titre": "Sommeil paisible"
@@ -196,10 +178,10 @@
       ],
       "principe": "On reconstruit avant de retirer. La tétée du soir n'est pas qu'un repas : c'est un endormissement, et son successeur doit exister avant de la supprimer.",
       "erreurs_a_eviter": [
-        "Retirer la tétée du soir en premier.",
-        "Supprimer sans avoir installé de rituel de remplacement.",
-        "Laisser pleurer seul pour « casser » l'association.",
-        "Se laisser imposer une date par l'entourage."
+        "Retirer la tétée du soir en premier : l'endormissement s'effondre avant que rien ne l'ait remplacée.",
+        "Commencer pendant une maladie, une poussée dentaire ou un changement de garde : trop de repères bougent à la fois.",
+        "Laisser pleurer seul pour « casser » l'association : le stress remplace le repère, sans rien construire.",
+        "Se laisser imposer une date par l'entourage : le sevrage se vit comme une urgence au lieu de suivre le rythme de la famille."
       ],
       "consulter_si": "Consulter si : un sein devient rouge, dur et douloureux avec de la fièvre, si l'enfant refuse de boire, ne prend pas de poids, ou si le sevrage s'accompagne chez toi d'une tristesse durable ou de pensées noires → sage-femme, consultante en lactation (IBCLC), médecin ou PMI. Si les pensées noires s'installent, le 3114 répond jour et nuit.",
       "source": "Source : Haute Autorité de Santé (« Allaitement maternel : mise en œuvre et poursuite » ; 1000-premiers-jours.fr) l'allaitement au fil des mois."

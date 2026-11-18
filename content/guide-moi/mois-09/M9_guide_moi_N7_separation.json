@@ -10,7 +10,7 @@
   "protocoles": [
     {
       "categorie": "sepa",
-      "situation": "Les pleurs dès que je sors / Il ne supporte pas 2 minutes seul",
+      "situation": "Les pleurs dès que je sors / Pas 2 minutes seul",
       "titre": "Le jeu de la voix qui répond",
       "explication": "Tu sors de la pièce, et les pleurs démarrent avant que la porte soit franchie. Ce qui lui manque n'est pas ta présence, c'est le moyen de te faire exister pendant qu'il ne te voit pas. Or il vient d'acquérir quelque chose de très utile pour cela : il babille, il émet des syllabes répétées, et il attend une réponse. Sa voix et la tienne peuvent donc se répondre à travers un mur, et chaque échange lui donne une preuve que tu es toujours là, sans que tu aies besoin de revenir.",
       "ancrage": "Ne plus pouvoir aller aux toilettes seule finit par peser plus lourd que les nuits. Ce que tu peux lui apprendre en ce moment, ce n'est pas à se passer de toi, c'est à te retrouver autrement que par les yeux.",
@@ -30,13 +30,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : nourrir le sentiment de sécurité",
-        "etapes": [
-          "Un moment fixe chaque jour : bébé sur le dos, éveillé et calme.",
-          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
-          "La séquence « Angoisse de séparation » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Reprendre les sons qu'il émet pendant le geste : le toucher, ta voix et la sienne s'associent.",
-          "T'arrêter s'il se détourne : des séances courtes et régulières valent mieux qu'une longue."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "separation",
           "titre": "Angoisse de séparation"
@@ -52,16 +46,15 @@
       "erreurs_a_eviter": [
         "Sortir en silence pour ne pas déclencher les pleurs : il se met à surveiller tes déplacements toute la journée.",
         "Attendre qu'il pleure pour revenir : il apprend que c'est le pleur qui te ramène.",
-        "Renoncer à sortir de la pièce : sans occasion de vérifier, la représentation ne s'entraîne pas.",
-        "Allonger l'absence d'un coup parce qu'une fois s'est bien passée : une réussite isolée ne dit pas encore que l'étape est acquise."
+        "Renoncer à sortir de la pièce : sans occasion de vérifier, la représentation ne s'entraîne pas."
       ],
-      "consulter_si": "Consulter si : bébé ne se calme jamais, même à ton retour, ne cherche jamais ton visage ni ta voix, ne réagit pas aux bruits, ne babille pas, ou paraît anormalement mou ou éteint → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition."
+      "consulter_si": "Consulter si : bébé ne se calme jamais, même à ton retour, ou ne cherche jamais ton visage ni ta voix → pédiatre ou PMI."
     },
     {
       "categorie": "sepa",
-      "situation": "Le refus des grands-parents / Il hurle avec des gens qu'il connaît",
+      "situation": "Le refus des grands-parents / Il hurle avec eux",
       "titre": "Les vingt premières minutes de la visite",
-      "explication": "Il les connaît, il les voit régulièrement, et il hurle dès qu'ils s'approchent. Ce qui se joue ici surprend souvent : à cet âge, ce n'est pas la connaissance d'un visage qui rassure, c'est sa fréquence récente. Une personne vue toutes les deux semaines redevient partiellement étrangère entre deux visites. S'y ajoute une différence de rythme : un adulte qui n'a pas vu son petit-enfant depuis quinze jours arrive avec de l'élan, des bras tendus et une voix forte, exactement ce qui déclenche le repli.",
+      "explication": "Il les connaît, il les voit régulièrement, et il hurle dès qu'ils s'approchent. Ce qui se joue ici surprend souvent : à cet âge, ce n'est pas la connaissance d'un visage qui rassure, c'est sa fréquence récente. Une personne vue toutes les deux semaines peut redevenir partiellement étrangère entre deux visites. S'y ajoute une différence de rythme : un adulte qui n'a pas vu son petit-enfant depuis quinze jours arrive avec de l'élan, des bras tendus et une voix forte, exactement ce qui déclenche le repli.",
       "ancrage": "Voir ses parents blessés par la réaction de son enfant met dans une position inconfortable des deux côtés. Personne n'est en cause, et ce qui se déroule dans les vingt premières minutes décide de tout le reste de la visite.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -97,16 +90,15 @@
       "erreurs_a_eviter": [
         "Le mettre dans les bras pour faire plaisir : la peur se confirme et la visite suivante commence plus mal.",
         "T'excuser de sa réaction devant lui : il perçoit au ton qu'il vient de décevoir.",
-        "Espacer les visites parce que cela se passe mal : chaque semaine sans se voir rend la personne un peu plus étrangère.",
-        "Le laisser seul avec eux sans transition : la séparation brutale s'ajoute à la peur au lieu de la lever."
+        "Espacer les visites parce que cela se passe mal : chaque semaine sans se voir rend la personne un peu plus étrangère."
       ],
-      "consulter_si": "Consulter si : bébé ne sourit à personne, pas même à toi, ne réagit pas aux bruits, ne babille pas, ne cherche jamais le contact, ou paraît anormalement mou ou éteint → pédiatre ou PMI."
+      "consulter_si": "Consulter si : bébé ne sourit à personne, pas même à toi, ou paraît éteint → pédiatre ou PMI."
     },
     {
       "categorie": "sepa",
-      "situation": "La vérification nocturne / Il se réveille, me voit, et se rendort",
+      "situation": "La vérification nocturne / Il me voit, puis se rendort",
       "titre": "Travailler le jour pour alléger la nuit",
-      "explication": "Il se réveille, appelle, se rendort dès qu'il t'a vue ou entendue. Ce type de réveil ne vient ni de la faim ni de la douleur : c'est une vérification, et elle se produit dans le sommeil léger de fin de cycle, au moment où un bébé remonte brièvement à la surface. Ce qu'il vérifie la nuit est exactement ce qui l'inquiète le jour. C'est pour cela qu'une nuit travaillée seule change peu de choses, alors qu'une journée mieux entraînée allège les nuits en une à deux semaines.",
+      "explication": "Il se réveille, appelle, se rendort dès qu'il t'a vue ou entendue. Ce type de réveil n'est pas toujours de la faim ou de la douleur : c'est une vérification, et elle se produit dans le sommeil léger de fin de cycle, au moment où un bébé remonte brièvement à la surface. Ce qu'il vérifie la nuit est exactement ce qui l'inquiète le jour. C'est pour cela qu'une nuit travaillée seule change peu de choses, alors qu'une journée mieux entraînée allège souvent les nuits.",
       "ancrage": "Travailler sur les journées quand on est réveillée toutes les nuits demande une énergie que l'on n'a pas toujours. Il ne s'agit pas d'en faire plus, mais de placer autrement quelques minutes déjà existantes.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -142,14 +134,13 @@
       "erreurs_a_eviter": [
         "Chercher une solution qui n'agit que sur la nuit : la cause reste entière et la nuit revient.",
         "Supprimer les séparations de la journée pour qu'il dorme mieux : il a alors encore moins de preuves que tu reviens.",
-        "Introduire un changement important pendant cette phase : tout ce qui bouge relance la vérification.",
-        "Juger l'effet sur deux nuits : ce type de réglage se mesure sur deux semaines."
+        "Introduire un changement important pendant cette phase : tout ce qui bouge relance la vérification."
       ],
-      "consulter_si": "Consulter si : bébé se réveille en hurlant de façon inconsolable, présente de la fièvre, refuse de boire, ne prend pas de poids, ou présente des pauses respiratoires, une respiration bruyante ou un ronflement important → pédiatre ; appeler le 15 en cas de trouble respiratoire."
+      "consulter_si": "Consulter si : bébé se réveille en hurlant de façon inconsolable, a de la fièvre ou refuse de boire → pédiatre."
     },
     {
       "categorie": "sepa",
-      "situation": "Le refus soudain de la garde / Il hurle chaque matin depuis une semaine",
+      "situation": "Le refus soudain de la garde / Il hurle chaque matin",
       "titre": "Chercher ce qui a changé sur place",
       "explication": "Pendant des mois tout s'est bien passé, et depuis une semaine il hurle chaque matin. Un basculement aussi net a presque toujours une cause identifiable, et elle est rarement chez lui seul : une personne de référence partie ou absente, un changement de groupe ou de salle, un enfant nouveau, une maladie récente qui a coupé le rythme, ou une semaine de vacances qui a suffi à défaire l'habitude. Le pic de l'angoisse de séparation, à cet âge, amplifie tout le reste.",
       "ancrage": "Un refus qui apparaît d'un coup fait immédiatement douter du lieu et de la décision de le confier. Avant d'en conclure quoi que ce soit, il y a une question simple à poser sur place : qu'est-ce qui a changé.",
@@ -180,17 +171,16 @@
       "pour_aller_plus_loin": [
         "Écrire ses repères pour l'équipe : signes de fatigue, façon de le calmer, déroulé du repas.",
         "Demander un point à la fin de la semaine : plutôt qu'une inquiétude qui grandit tous les matins.",
-        "Compter en semaines : un refus lié à un changement se résorbe en général en une à trois semaines.",
+        "Compter en semaines : un refus lié à un changement se résorbe souvent avec le temps.",
         "Distinguer le refus du matin de la journée entière : ce sont deux informations différentes."
       ],
       "principe": "Un comportement qui change brutalement répond presque toujours à un changement extérieur. La première question à poser n'est pas comment le faire cesser, mais ce qui a bougé autour de lui.",
       "erreurs_a_eviter": [
         "Décider de changer de mode de garde dans la semaine : le pic d'angoisse est le pire moment pour trancher.",
         "Espacer les jours pour le ménager : chaque absence supplémentaire rend le retour plus difficile.",
-        "Allonger les au revoir : la séparation s'étire et la détresse avec elle.",
         "Juger la qualité du lieu à partir de ses pleurs du matin : ces pleurs disent la séparation, pas l'endroit."
       ],
-      "consulter_si": "Consulter si : bébé refuse de manger et de boire sur son lieu de garde plusieurs jours de suite, perd du poids, paraît éteint ou apathique, perd des compétences acquises, ou si tu observes des marques inexpliquées → pédiatre, PMI ou médecin traitant sans attendre."
+      "consulter_si": "Consulter si : bébé refuse de manger et de boire plusieurs jours de suite, paraît éteint ou apathique, perd des compétences acquises, ou si tu observes des marques inexpliquées → pédiatre, PMI ou médecin traitant."
     }
   ]
 }

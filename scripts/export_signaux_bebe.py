@@ -84,6 +84,20 @@ if "Cartes hypothèses" in wb.sheetnames:
                 "consulter": row[8], "sources_consulter": row[9],
             }
 
+# --- variantes par âge (onglet « Cartes par âge ») : remplacent les champs renseignés de la carte de base
+cartes_par_age = {}
+if "Cartes par âge" in wb.sheetnames:
+    for row in wb["Cartes par âge"].iter_rows(min_row=2, values_only=True):
+        if row[0] and row[1] is not None:
+            var = {"age_min": int(row[1]), "age_max": int(row[2]), "tranche": row[3]}
+            if row[4]: var["sens"] = row[4]
+            if row[5]: var["gestes"] = [x.strip() for x in str(row[5]).split("\n") if x.strip()]
+            if row[6]: var["observer"] = row[6]
+            if row[7]: var["consulter"] = row[7]
+            for cle, i in (("sources_sens", 8), ("sources_gestes", 9), ("sources_observer", 10), ("sources_consulter", 11)):
+                var[cle] = row[i]
+            cartes_par_age.setdefault(row[0], []).append(var)
+
 # --- étapes « à essayer dans l'ordre »
 etapes = []
 r = 27
@@ -116,7 +130,7 @@ confiance = [
 out = {
     "_info": "Généré par scripts/export_signaux_bebe.py depuis Signaux_bebe_reference.xlsx. Ne pas modifier à la main : corriger le classeur puis relancer le script.",
     "algorithme": {
-        "age": "âge de bébé en mois entier, 0 à 23",
+        "age": "âge de bébé en mois entier, 0 à 11",
         "option_valable": "age_min <= age <= age_max",
         "score_piste": "somme, pour chaque option cochée ET valable, de points[code_piste] (les négatifs comptent)",
         "classement": "tri par score décroissant, seulement score > 0 ; à égalité, l'ordre de la liste « pistes » départage (la première gagne)",
@@ -129,6 +143,7 @@ out = {
     "alertes": alertes,
     "sources_reference": sources_reference,
     "cartes": cartes,
+    "cartes_par_age": cartes_par_age,
     "etapes": etapes,
     "messages": messages,
     "confiance": confiance,

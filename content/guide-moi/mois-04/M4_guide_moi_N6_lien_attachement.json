@@ -10,7 +10,7 @@
   "protocoles": [
     {
       "categorie": "sepa",
-      "situation": "Les premières préférences / Il ne sourit qu'à certaines personnes",
+      "situation": "Les premières préférences / Il ne sourit qu'à certains",
       "titre": "Un progrès de l'attachement",
       "explication": "Il souriait à tout le monde ; maintenant il trie. Il sourit à toi, au co-parent, à la nounou, et il fixe les autres sans réagir, parfois il se fige. Ce changement inquiète souvent l'entourage, qui le prend pour de la timidité ou de la mauvaise humeur. C'est en réalité un progrès majeur : ton bébé distingue désormais les visages familiers des visages inconnus. Cette discrimination sociale est le socle de l'attachement, et elle annonce, dans les mois à venir, une phase où les inconnus pourront franchement l'inquiéter.",
       "ancrage": "Il ne devient pas difficile : il devient capable de te reconnaître entre tous. C'est une compétence, et c'est une excellente nouvelle.",
@@ -34,8 +34,7 @@
           "Après une rencontre : bébé contre toi, dans le calme.",
           "Peau à peau quelques minutes : contre ton torse, une couverture sur vous deux.",
           "Une main posée sur son ventre : immobile, chaude, sans appuyer.",
-          "Ta voix pendant le geste : elle est le repère familier par excellence.",
-          "S'arrêter à sa demande : un mouvement de retrait, un regard qui fuit, et on s'arrête là."
+          "Ta voix pendant le geste : elle est le repère familier par excellence."
         ]
       },
       "pour_aller_plus_loin": [
@@ -100,7 +99,7 @@
     },
     {
       "categorie": "sepa",
-      "situation": "La mise à l'écart de l'autre parent / Il ne veut que moi",
+      "situation": "L'autre parent écarté / Il ne veut que moi",
       "titre": "Des moments entiers à lui seul",
       "explication": "« Il ne veut que toi. » Le co-parent le dit, souvent avec un mélange de tristesse et de soulagement, car cette phrase est aussi une porte de sortie. Elle est fausse : un bébé peut s'attacher à plusieurs adultes, par des canaux différents. Mais elle devient vraie si le co-parent se retire. Le lien ne se construit pas en observant, ni en aidant, ni en attendant que bébé « veuille bien » : il se construit dans des temps exclusifs, où le co-parent fait à sa façon, sans être supervisé, et sans que le parent préféré soit dans la pièce.",
       "ancrage": "« Il ne veut que toi » devient vrai à force d'être dit. Ce qui inverse la situation, ce ne sont pas les explications : ce sont les temps exclusifs.",
@@ -145,7 +144,7 @@
     },
     {
       "categorie": "sepa",
-      "situation": "La préparation de la séparation / L'adaptation approche et j'appréhende",
+      "situation": "Avant la séparation / J'appréhende l'adaptation",
       "titre": "Par toutes petites doses",
       "explication": "On te dira de « ne pas en faire toute une histoire », et c'est le conseil le plus coûteux qu'on puisse te donner. Ton bébé n'a pas peur de te perdre, il est trop jeune pour cela. En revanche, il fonctionne entièrement sur des repères : des bras qu'il connaît, une odeur, un rythme, un timbre de voix. Tout changer le même matin, c'est lui demander de refaire ses repères d'un coup, un jour où toi-même tu es à cran. Étalé sur quelques semaines, le même changement devient une série de petites marches, et il monte chacune sans effort.",
       "ancrage": "Il ne mémorise pas ton départ, il mémorise que tu es revenue. C'est cette moitié-là qu'on lui donne l'occasion de vivre, plusieurs fois, avant le vrai jour.",
@@ -187,6 +186,51 @@
         "Laisser un doudou ou un tissu dans le lit pendant le sommeil : le lit reste vide."
       ],
       "consulter_si": "Consulter si : bébé refuse de boire chez la personne qui garde pendant plusieurs jours, s'il perd du poids, s'il paraît éteint ou apathique, s'il pleure de façon inconsolable en permanence, ou si l'angoisse de la séparation devient envahissante pour toi → pédiatre, PMI, ou psychologue périnatal."
+    },
+    {
+      "categorie": "sepa",
+      "situation": "Le caractère qui se dessine / Il vit tout très fort",
+      "titre": "Une façon d'être qui se dessine",
+      "explication": "Il rit aux éclats, puis s'effondre en larmes ; un bruit le fait sursauter, une nouveauté le captive ou le submerge. Chaque bébé a sa manière de réagir au monde, et elle s'observe dès les premiers mois : intensité, rythme, accueil de la nouveauté¹. Ce que tu vois à 4 mois est une tendance qui commence à se dessiner, pas un verdict, et elle évolue avec ce qu'il vit. Un bébé qui ressent fort est aussi plus réceptif à son environnement, dans ce qu'il a de difficile comme dans ce qu'il a de doux². Ton ajustement compte donc beaucoup.",
+      "ancrage": "Il n'est ni trop, ni pas assez : il est lui. Tu n'as pas à le changer, seulement à apprendre à le lire.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : lire sa façon de réagir",
+        "etapes": [
+          "Observer ce qui l'enchante ou le dépasse : lumière, bruit, nouveauté, visages. Quelques jours de regard suffisent à repérer ses déclencheurs.",
+          "Doser plutôt que corriger : un visiteur à la fois, une lumière douce, une activité après l'autre quand il monte trop.",
+          "Annoncer ce qui va arriver : « je te prends, on va au bain », d'une voix calme, avant le geste.",
+          "Laisser redescendre à son rythme : rester près de lui, en contact, sans le distraire ni le gronder.",
+          "Garder les moments qu'il savoure : proposer ce qui le fait rire, sans chercher à en faire plus."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Redescendre ensemble",
+        "etapes": [
+          "Le prendre contre toi : peau contre peau ou tout contre ton torse, sans bouger.",
+          "Ralentir ta respiration : il se cale sur ton rythme sans que tu aies besoin de rien dire.",
+          "Baisser la lumière et le volume : une pièce plus calme l'aide à retrouver son souffle.",
+          "Le bercer doucement ou le porter : un mouvement lent et régulier, jusqu'à ce qu'il se détende.",
+          "S'arrêter quand il se détourne : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Prévenir l'entourage avec des mots simples : « il ressent fort, il a besoin de temps », cela évite les étiquettes.",
+        "Garder des repères réguliers : repas, bain, coucher dans le même ordre, ce qui est prévisible l'apaise.",
+        "Noter ce qui marche : après quelques semaines, tu connaîtras ses besoins mieux que n'importe quel guide.",
+        "En parler à la consultation de suivi ou à la PMI si cela t'épuise : tu as droit à du soutien."
+      ],
+      "principe": "Ressentir fort n'est pas un défaut à corriger : c'est sa façon d'être au monde. Ton ajustement, jour après jour, l'aide à s'y sentir en sécurité.",
+      "erreurs_a_eviter": [
+        "Lui coller une étiquette (« difficile », « sensible ») : elle s'installe et guide ton regard plus que lui.",
+        "Le comparer à un autre bébé : chacun a son rythme et sa manière, et la comparaison inquiète sans rien apprendre.",
+        "Le distraire à tout prix pour qu'il se calme : il n'apprend pas à retrouver seul son calme avec toi."
+      ],
+      "consulter_si": "Consulter si : il est inconsolable la plupart du temps malgré ton aide, ne te regarde pas ou ne sourit pas, paraît très raide ou très mou, ou si ses réactions t'épuisent et te dépassent → pédiatre ou PMI.",
+      "source": "Source : ¹ tempérament observable dès les premiers mois, New York Longitudinal Study, Thomas et Chess, depuis 1956 ; ² sensibilité accrue à l'environnement, Boyce et Ellis, 2005, Development and Psychopathology."
     }
   ]
 }

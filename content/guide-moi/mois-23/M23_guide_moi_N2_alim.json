@@ -35,8 +35,7 @@
           "Toucher hors des repas : sentir, écraser, casser l'aliment cru, sans aucune obligation de goûter.",
           "Cuisiner ensemble : laver, mélanger, déchirer les feuilles, le contact réduit la méfiance.",
           "Nommer les couleurs et les odeurs en jouant : l'aliment devient familier avant d'être mangé.",
-          "Féliciter l'exploration, pas la consommation : « tu as senti la tomate, bravo ».",
-          "S'arrêter s'il se braque : le but est qu'il garde envie de revenir près de l'aliment, pas qu'il le goûte aujourd'hui."
+          "Féliciter l'exploration, pas la consommation : « tu as senti la tomate, bravo »."
         ]
       },
       "pour_aller_plus_loin": [
@@ -87,7 +86,7 @@
       },
       "pour_aller_plus_loin": [
         "Poser le bon partage : le parent choisit ce qui est proposé et le cadre du repas, l'enfant décide s'il mange et en quelle quantité. Les pédiatres recommandent de ne pas forcer et de respecter l'appétit.",
-        "Lire sur sept jours : ce qui s'équilibre à cet âge s'équilibre sur la semaine, jamais sur un dîner.",
+        "Lire sur 7 jours : ce qui s'équilibre à cet âge s'équilibre sur la semaine, jamais sur un dîner.",
         "Proposer des aliments simples et nourrissants qu'il apprécie, sans multiplier les options qui dispersent.",
         "Se fier aux repères objectifs : énergie, humeur, sommeil et courbe de croissance disent l'essentiel."
       ],
@@ -104,7 +103,7 @@
       "categorie": "alim",
       "situation": "Les goûts qui changent / Il rejette ce qu'il adorait",
       "titre": "Servir sans commenter le refus",
-      "explication": "Les pâtes, c'était tous les jours pendant deux semaines. Depuis hier, il n'en veut plus. À 23 mois, ton enfant peut adorer les pâtes pendant deux semaines puis les refuser du jour au lendemain : ce sont les fixations et revirements alimentaires, très courants et transitoires. Deux moteurs : son goût se développe et change, et il découvre le pouvoir de dire « non » pour s'affirmer. Ce n'est pas une régression ni un défaut d'éducation. Ces variations passent d'elles-mêmes tant qu'elles ne deviennent pas un enjeu entre vous. La constance tranquille de l'offre finit toujours par l'emporter.",
+      "explication": "Les pâtes, c'était tous les jours pendant 2 semaines. Depuis hier, il n'en veut plus. À 23 mois, ton enfant peut adorer les pâtes pendant 2 semaines puis les refuser du jour au lendemain : ce sont les fixations et revirements alimentaires, très courants et transitoires. Deux moteurs : son goût se développe et change, et il découvre le pouvoir de dire « non » pour s'affirmer. Ce n'est pas une régression ni un défaut d'éducation. Ces variations passent d'elles-mêmes tant qu'elles ne deviennent pas un enjeu entre vous. La constance tranquille de l'offre finit toujours par l'emporter.",
       "ancrage": "Ce n'est pas contre toi : il teste, il change, il grandit. Tu n'as pas à courir après ses goûts du jour, juste à continuer d'offrir, calmement.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -165,14 +164,8 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Refermer l'épisode une fois la table quittée",
-        "etapes": [
-          "Le prendre dans les bras une fois la table quittée : sans revenir sur ce qui vient de se passer.",
-          "Un contact large et immobile : ta main à plat dans son dos, pendant que vous regardez autre chose.",
-          "Baisser la voix et le rythme : parler moins fort et plus lentement fait redescendre les deux.",
-          "Changer de pièce : quitter le lieu du repas referme l'épisode mieux que n'importe quelle phrase.",
-          "Ne pas y revenir plus tard : ce qui est fini est fini, et cela ne se rejoue pas au moment du coucher."
-        ],
+        "titre": "Réflexologie : redescendre après la frustration",
+        "etapes": [],
         "lien_reflexologie": {
           "id": "opposition-frustration",
           "titre": "Opposition, frustration"
@@ -182,7 +175,8 @@
         "Ajuster les attentes à son âge : viser un moment court et convivial, pas un repas long et immobile.",
         "Bien l'installer : chaise adaptée, pieds calés, table à bonne hauteur aident à tenir assis.",
         "Le rendre acteur : servir, choisir sa cuillère, débarrasser son assiette, l'implication réduit l'agitation.",
-        "Dépenser avant, apaiser autour : du mouvement avant le repas et un climat calme pendant facilitent le fait de rester."
+        "Dépenser avant, apaiser autour : du mouvement avant le repas et un climat calme pendant facilitent le fait de rester.",
+        "Refermer l'épisode : le prendre dans les bras sans revenir sur ce qui vient de se passer, changer de pièce, baisser la voix, et ne pas y revenir au moment du coucher."
       ],
       "principe": "Un tout-petit ne tient pas longtemps à table, et c'est développemental, pas éducatif. Le parent pose un cadre simple et constant, tout en gardant la table courte et paisible. La régularité tranquille apprend, la sévérité braque.",
       "erreurs_a_eviter": [

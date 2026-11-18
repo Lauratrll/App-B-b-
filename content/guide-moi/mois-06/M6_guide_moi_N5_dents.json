@@ -12,8 +12,8 @@
       "categorie": "dents",
       "situation": "La première dent / Sa gencive est gonflée et il bave",
       "titre": "Le froid et la pression, rien d'autre",
-      "explication": "Gencives gonflées, joues rouges, mâchonnement, salivation abondante, humeur en dents de scie : la première dent se prépare. Elle apparaît en moyenne vers six mois, mais la fourchette est très large, certains enfants dès trois mois, d'autres après un an, et l'ordre d'arrivée varie tout autant. Ce qui fait mal n'est pas la dent elle-même : c'est la gencive qu'elle traverse, une zone très innervée, où la pression et le froid agissent directement en atténuant la sensation.",
-      "ancrage": "Tu peux vraiment le soulager, et avec très peu de choses. Les deux remèdes qu'on te conseillera le plus souvent sont justement ceux à écarter.",
+      "explication": "Gencives gonflées, joues rouges, mâchonnement, salivation abondante, humeur en dents de scie : la première dent se prépare. Elle apparaît le plus souvent entre 3 et 8 mois, et l'ordre d'arrivée varie d'un enfant à l'autre. Ce qui fait mal n'est pas la dent elle-même : c'est la gencive qu'elle traverse, une zone très innervée, où le froid et une pression douce apaisent.",
+      "ancrage": "Tu peux vraiment le soulager, et avec très peu de choses.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -30,13 +30,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : apaiser la bouche et la mâchoire",
-        "etapes": [
-          "Dans le calme, à distance des repas : bébé sur le dos, pieds nus, dans une pièce à bonne température.",
-          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
-          "Suivre la séquence « Poussées dentaires » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Ta voix tout bas pendant la séquence : toujours les mêmes mots, qui deviennent un repère.",
-          "S'arrêter à sa demande : un mouvement de retrait, une crispation, on arrête sans insister."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "dents",
           "titre": "Poussées dentaires"
@@ -44,23 +38,21 @@
       },
       "pour_aller_plus_loin": [
         "Commencer le brossage dès la première dent : une brosse à poils souples, un geste très court, et un dentifrice fluoré au dosage indiqué par le professionnel.",
-        "Garder une trace des poussées : quelques mots sur les jours difficiles aident à reconnaître la prochaine bien plus vite.",
         "Alléger la journée pendant la percée : une gencive douloureuse consomme déjà toute son énergie, le reste peut attendre.",
         "Prévenir le mode de garde : la nounou ou la crèche relisent son humeur au lieu de la subir, et le rythme de la journée s'adapte."
       ],
       "principe": "Une gencive qui fait mal se calme par ce qu'on lui donne à sentir d'autre : du froid, un appui. C'est simple, c'est gratuit, et c'est ce qui marche le mieux. Les produits qui promettent davantage coûtent plus qu'ils n'apportent.",
       "erreurs_a_eviter": [
-        "Attribuer une fièvre à la dent : une fièvre se fait examiner, quelle que soit la dent qui pousse.",
         "Mettre un produit sur la gencive sans avoir demandé : le pharmacien te dira ce qui est adapté à son âge.",
-        "Placer le support de dentition au congélateur : le froid extrême brûle la muqueuse au lieu de l'apaiser.",
-        "Attribuer une fièvre, une diarrhée ou des pleurs intenses aux dents : l'explication rassure sur le moment et retarde l'examen d'une autre cause."
+        "Placer l'anneau de dentition au congélateur : le froid extrême brûle la muqueuse.",
+        "Attribuer une fièvre, une diarrhée ou des pleurs intenses à la dent : une autre cause reste à chercher."
       ],
-      "consulter_si": "Consulter si : bébé a de la fièvre, refuse de boire, présente des plaques blanches dans la bouche, une éruption qui s'étend, une gencive qui saigne abondamment, ou paraît anormalement mou → pédiatre ou médecin traitant sans délai. Une fièvre ne s'explique pas par les dents : elle se fait examiner.",
-      "source": "Source : ameli.fr (Assurance Maladie), poussées dentaires : symptômes, soulagement et quand consulter ; Union française pour la santé bucco-dentaire (UFSBD), le brossage dès la première dent."
+      "consulter_si": "Consulter si : bébé refuse de boire, a une gencive qui saigne beaucoup, des plaques blanches dans la bouche, ou une fièvre qui dure → pédiatre ou médecin traitant.",
+      "source": "Source : Santé.fr, « Poussée dentaire » ; UFSBD (Union française pour la santé bucco-dentaire), le brossage dès la première dent."
     },
     {
       "categorie": "dents",
-      "situation": "Le refus de manger / Il refuse tout depuis que ça pousse",
+      "situation": "Le refus de manger / Il refuse tout, ça pousse",
       "titre": "C'est la gencive, pas le goût",
       "explication": "La diversification vient de commencer, et la première dent arrive : le calendrier tombe mal. Une gencive douloureuse rend le contact de la cuillère désagréable, et bébé refuse ce qu'il acceptait la veille. Ce n'est ni un dégoût, ni un recul de la diversification : c'est une bouche qui protège une zone sensible. Quelques jours de moindre appétit ne posent aucun problème à cet âge, parce que le lait reste l'aliment principal et qu'il couvre l'essentiel de ses besoins.",
       "ancrage": "Il ne refuse pas la nourriture, il refuse la douleur. Tu peux traiter la gencive avant le repas, et laisser le repas tranquille.",
@@ -84,29 +76,26 @@
           "Un repas court : quelques minutes, sans objectif de quantité.",
           "Bébé assis, tronc droit : toujours, et toujours sous surveillance d'un adulte.",
           "Un environnement calme : sans écran, sans public, sans commentaire sur ce qu'il mange.",
-          "Une pression du doigt propre sur la gencive : quelques secondes, juste avant de commencer.",
           "S'arrêter s'il se braque : la prochaine proposition se passera mieux si celle-ci reste paisible."
         ]
       },
       "pour_aller_plus_loin": [
         "Compter en jours : ces phases durent quelques jours et se résolvent d'elles-mêmes.",
         "Reprendre normalement après : sans rattrapage, sans repas de compensation.",
-        "Garder les nouveautés pour plus tard : un aliment découvert pendant une poussée risque d'être associé à l'inconfort.",
-        "Demander un avis avant tout médicament : y compris ceux qui se vendent sans ordonnance."
+        "Garder les nouveautés pour plus tard : un aliment découvert pendant une poussée risque d'être associé à l'inconfort."
       ],
       "principe": "Un enfant qui a mal ne peut pas apprendre en même temps. Quel que soit le sujet, on s'occupe d'abord de ce qui fait mal : le reste repart tout seul ensuite.",
       "erreurs_a_eviter": [
-        "Insister pour ne pas perdre les acquis : la diversification ne se perd pas en trois jours, l'appétit se dégrade bien plus vite.",
-        "Conclure qu'il n'aime pas l'aliment proposé : il sera probablement accepté sans difficulté la semaine suivante.",
-        "Compenser par de plus grosses quantités de lait le lendemain : l'appétit se régule seul sur plusieurs jours.",
-        "Donner un médicament sans avis médical : la douleur dentaire s'apaise le plus souvent sans, et un antalgique masque d'autres signes."
+        "Insister pour ne pas perdre les acquis : la diversification ne se perd pas en trois jours.",
+        "Conclure qu'il n'aime pas l'aliment proposé : il sera probablement accepté la semaine suivante.",
+        "Compenser par de plus grosses quantités de lait le lendemain : l'appétit se régule seul sur plusieurs jours."
       ],
-      "consulter_si": "Consulter si : bébé refuse de boire, présente de la fièvre, ne prend pas de poids, si sa courbe casse, s'il vomit de façon répétée, ou si le refus alimentaire dure plus de quelques jours → pédiatre ou médecin traitant.",
+      "consulter_si": "Consulter si : bébé refuse de boire, a de la fièvre, ne prend pas de poids, ou si le refus alimentaire dure plus de quelques jours → pédiatre ou médecin traitant.",
       "source": "Source : ameli.fr (Assurance Maladie), poussées dentaires : symptômes, soulagement et quand consulter."
     },
     {
       "categorie": "dents",
-      "situation": "Les réveils dentaires / Il se réveille et je pense aux dents",
+      "situation": "Les réveils dentaires / Il se réveille : les dents ?",
       "titre": "Est-ce vraiment la dent",
       "explication": "Il se réveille la nuit, et l'entourage a sa réponse toute prête : ce sont les dents. C'est l'explication universelle, et elle recouvre souvent autre chose. Une poussée dentaire perturbe réellement quelques nuits, et elle laisse alors des traces visibles pendant la journée, pas seulement la nuit. Autour de six mois, deux causes sont statistiquement bien plus fréquentes : la réorganisation du sommeil, qui s'achève à cette période, et les acquis moteurs que le cerveau rejoue la nuit.",
       "ancrage": "« C'est les dents » est l'explication qui empêche de chercher. Tu as le droit de la mettre de côté quelques jours pour regarder ce qui se passe vraiment.",
@@ -126,13 +115,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : accompagner la nuit",
-        "etapes": [
-          "Dans le rituel du soir : toujours au même moment, après le bain.",
-          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
-          "La séquence « Sommeil paisible » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Garder ta voix posée : quelques mots toujours identiques, ou un air fredonné.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "sommeil",
           "titre": "Sommeil paisible"
@@ -141,17 +124,15 @@
       "pour_aller_plus_loin": [
         "Soulager la gencive en journée : le froid et la pression agissent au moment où ils sont appliqués, pas 8 heures plus tard.",
         "Tenir un relevé sur dix jours : les réveils et ce que tu observes en journée, côte à côte, rendent la cause évidente.",
-        "Se rappeler la trajectoire : les nuits se réorganisent en ce moment, et cela prend des semaines.",
-        "Se relayer : une cause qu'on met du temps à identifier coûte des nuits, autant les partager."
+        "Se rappeler la trajectoire : les nuits se réorganisent en ce moment, et cela prend des semaines."
       ],
       "principe": "Une explication qui sert à tout finit par ne plus rien dire. Les dents ont bon dos, et pendant qu'on les accuse, la vraie raison passe inaperçue.",
       "erreurs_a_eviter": [
-        "Donner un antalgique chaque soir pour les dents : le médicament devient un rituel de coucher et masque la vraie cause.",
-        "Changer de méthode de sommeil à chaque poussée supposée : le cadre bouge sans arrêt et plus rien n'est lisible.",
-        "Attribuer une fièvre aux dents : la fièvre a toujours une autre origine, et elle se fait examiner.",
+        "Donner un antalgique chaque soir pour les dents : le médicament devient un rituel et masque la vraie cause.",
+        "Changer de méthode de sommeil à chaque poussée supposée : le cadre bouge sans arrêt.",
         "Chercher une cause unique : une nuit difficile combine souvent une gencive, une fatigue et un progrès moteur."
       ],
-      "consulter_si": "Consulter si : bébé a de la fièvre, refuse de boire, présente des vomissements, une diarrhée, une éruption, s'il paraît anormalement mou, ou si les réveils s'accompagnent de pleurs inconsolables → pédiatre ou médecin traitant.",
+      "consulter_si": "Consulter si : bébé a de la fièvre, refuse de boire, vomit, a la diarrhée ou une éruption, ou si les réveils s'accompagnent de pleurs inconsolables → pédiatre ou médecin traitant.",
       "source": "Source : ameli.fr (Assurance Maladie), poussées dentaires : symptômes attribués à tort et repères de consultation."
     },
     {
@@ -168,8 +149,7 @@
           "Balayer le sol du regard : tout ce qui tient dans le creux de ta main se ramasse.",
           "Retirer les petites pièces : boutons, capuchons, morceaux détachables, risque d'étouffement.",
           "Vérifier les jouets : rien de collé, rien de vissé, aucune ficelle, aucun cordon.",
-          "Offrir des supports sûrs : anneau de dentition, linge propre, objets assez gros et solides.",
-          "Ranger les piles boutons en hauteur : télécommandes, balances, bougies, cartes musicales."
+          "Offrir des supports sûrs : anneau de dentition, linge propre, objets assez gros et solides."
         ]
       },
       "geste_doux": {
@@ -187,24 +167,22 @@
       "pour_aller_plus_loin": [
         "Sécuriser la maison en avance : ce qu'il n'attrape pas encore, il l'attrapera dans quelques jours.",
         "Choisir les anneaux d'un seul tenant : une seule pièce de silicone ou de caoutchouc, sans perle ni cordon.",
-        "Connaître le danger des piles boutons : avalée, une pile peut provoquer des lésions graves en quelques heures.",
-        "Confier le tri à quelqu'un d'autre : un regard neuf repère au sol ce que l'habitude ne voit plus."
+        "Ranger les piles boutons hors de portée : télécommandes, balances, cartes musicales, bougies, la pile ne se voit pas dans l'objet."
       ],
       "principe": "Chez le tout-petit, la bouche apprend avant les mains. Il n'y a rien à mettre à la place de ce geste : tout le travail consiste à rendre sûr ce qu'il peut attraper.",
       "erreurs_a_eviter": [
         "Retirer les objets de sa bouche à chaque fois : il perd sa principale source d'information sur le monde.",
-        "Laisser à portée des objets plus petits qu'une balle de ping-pong : c'est la taille de référence du risque d'étouffement.",
-        "Laisser un anneau fendu ou abîmé à portée : il se remplace dès qu'il se dégrade.",
-        "Laisser accessible un appareil à pile bouton : la pile ne se voit pas, et l'ingestion est souvent silencieuse au début."
+        "Laisser à portée des objets assez petits pour passer dans un rouleau de papier toilette : ils peuvent être avalés.",
+        "Laisser un anneau fendu ou abîmé à portée : il se remplace dès qu'il se dégrade."
       ],
-      "consulter_si": "Consulter si : bébé a avalé ou inhalé un objet, et tout particulièrement une pile bouton même sans aucun symptôme → appeler immédiatement le 15. Consulter aussi sans délai si : toux persistante, respiration bruyante, gêne à respirer, salivation soudaine avec difficulté à avaler, ou refus de boire → pédiatre ; le 15 en cas de difficulté à respirer.",
+      "consulter_si": "Consulter si : bébé a avalé un objet ou une pile bouton, même sans symptôme → appeler le 15. Toux persistante ou gêne à respirer → pédiatre ; le 15 en cas de difficulté à respirer.",
       "source": "Source : Santé publique France, prévention des ingestions de piles boutons chez le jeune enfant."
     },
     {
       "categorie": "dents",
-      "situation": "Le menton irrité / Il a le menton rouge à force de baver",
+      "situation": "Le menton irrité / Rouge à force de baver",
       "titre": "Protéger la peau avant qu'elle rougisse",
-      "explication": "La salive coule en permanence, et la peau du menton, du cou et parfois du torse rougit, tiraille, se craquelle. La salive est irritante par nature, et une peau de nourrisson, quatre à cinq fois plus fine que celle d'un adulte, s'abîme vite quand elle reste humide des heures durant. Ce n'est pas un problème dentaire, c'est un problème de peau. Les plis du cou, où l'humidité stagne le plus, sont presque toujours la zone qui marque en premier.",
+      "explication": "La salive coule en permanence, et la peau du menton, du cou et parfois du torse rougit, tiraille, se craquelle. La salive est irritante par nature, et une peau de nourrisson, très fine, s'abîme vite quand elle reste humide des heures durant. Ce n'est pas un problème dentaire, c'est un problème de peau. Les plis du cou, où l'humidité stagne le plus, sont presque toujours la zone qui marque en premier.",
       "ancrage": "Ce n'est pas la dent qu'on traite ici, c'est la peau. Sécher souvent et protéger avec un produit simple suffit dans la grande majorité des cas.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -233,17 +211,15 @@
       "pour_aller_plus_loin": [
         "Écarter les produits parfumés : lingettes, laits parfumés et poudres aggravent l'irritation.",
         "Écarter les huiles essentielles : elles sont contre-indiquées chez le nourrisson.",
-        "Demander un avis avant toute crème médicamenteuse : ni cortisone, ni antifongique de sa propre initiative.",
         "Protéger avant l'irritation : appliquer l'émollient le matin, avant les heures de bave intense, plutôt qu'une fois la peau rouge."
       ],
       "principe": "Une peau que la salive abîme se répare par ce qu'on lui enlève, pas par ce qu'on lui ajoute. C'est le linge passé dix fois dans la journée qui fait le travail, pas la crème la plus riche.",
       "erreurs_a_eviter": [
-        "Frotter la peau irritée pour la nettoyer : le frottement retire la fine couche qui protège encore.",
-        "Utiliser des lingettes parfumées ou du talc : l'alcool et les parfums brûlent une peau déjà à vif, le talc s'agglomère dans les plis.",
-        "Appliquer une crème à la cortisone sans avis médical : elle peut aggraver une surinfection qu'on n'a pas identifiée.",
+        "Frotter la peau irritée pour la nettoyer : le frottement retire la fine couche qui la protège.",
+        "Utiliser des lingettes parfumées ou du talc : ils irritent une peau déjà à vif.",
         "Multiplier les produits différents : plus la liste s'allonge, plus il devient impossible de savoir lequel irrite."
       ],
-      "consulter_si": "Consulter si : la peau suinte, saigne, se couvre de croûtes jaunâtres ou de pus, si les plaques s'étendent au visage ou au corps, si bébé se gratte, dort mal, ou présente de la fièvre → pédiatre ou médecin traitant.",
+      "consulter_si": "Consulter si : la peau suinte, saigne ou se couvre de croûtes jaunâtres, si les plaques s'étendent, ou si bébé a de la fièvre → pédiatre ou médecin traitant.",
       "source": "Source : ameli.fr (Assurance Maladie), peau sèche et irritations de l'enfant : soins quotidiens et quand consulter."
     }
   ]

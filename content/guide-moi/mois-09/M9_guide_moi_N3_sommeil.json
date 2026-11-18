@@ -10,7 +10,7 @@
   "protocoles": [
     {
       "categorie": "sommeil",
-      "situation": "Les nuits debout / Il se réveille debout et ne sait plus se rasseoir",
+      "situation": "Les nuits debout / Il ne sait plus se rasseoir",
       "titre": "Traverser la nuit au plus court",
       "explication": "Il se hisse aux barreaux dans son sommeil, se retrouve debout, et se réveille pour de bon parce qu'il ne sait pas redescendre. Chez beaucoup de bébés, cela se produit plusieurs fois dans la même nuit pendant quelques semaines. La raison est simple : le mouvement qu'il travaille toute la journée continue de se rejouer la nuit, y compris pendant le sommeil léger de fin de cycle. Ce qui se passe à minuit n'est donc pas un problème de sommeil, c'est un mouvement qui déborde sur la nuit.",
       "ancrage": "Se relever cinq fois pour rasseoir un bébé debout, nuit après nuit, épuise vraiment. La nuit n'est pas le moment où il apprendra quoi que ce soit : elle se traverse le plus brièvement possible.",
@@ -32,10 +32,8 @@
         "titre": "Le recoucher sans le réveiller",
         "etapes": [
           "Poser d'abord une main immobile sur son dos : il perçoit une présence avant un mouvement.",
-          "Décrocher ses mains des barreaux une par une : lentement, un doigt après l'autre.",
-          "L'accompagner jusqu'au matelas sans le lâcher : le contact se maintient pendant toute la descente.",
-          "Garder ta main posée le temps d'une respiration : puis alléger avant de la retirer.",
-          "Éviter son visage et ses mains : ce sont les zones les plus réactives pendant le sommeil."
+          "L'accompagner jusqu'au matelas sans le lâcher : le contact se maintient pendant toute la descente, sans forcer ses mains.",
+          "Garder ta main posée le temps d'une respiration : puis alléger avant de la retirer."
         ]
       },
       "pour_aller_plus_loin": [
@@ -57,7 +55,7 @@
       "categorie": "sommeil",
       "situation": "Le réveil de l'aube / Il est réveillé à 4h, pour de bon",
       "titre": "Ce qui se règle la veille au soir",
-      "explication": "À 4h, il est réveillé et ne se rendort pas. Ce n'est pas un hasard d'horaire : la fin de nuit est faite presque uniquement de sommeil léger, celui d'où l'on émerge au moindre signal. Un rai de lumière, un bruit de chauffage, une couche pleine ou une faim naissante suffisent à transformer un micro-réveil ordinaire en réveil complet. Et une fois éveillé à cette heure-là, un bébé de neuf mois n'a plus assez de pression de sommeil pour repartir facilement.",
+      "explication": "À 4h, il est réveillé et ne se rendort pas. Ce n'est pas un hasard d'horaire : la fin de nuit est faite presque uniquement de sommeil léger, celui d'où l'on émerge au moindre signal. Un rai de lumière, un bruit de chauffage, une couche pleine ou une faim naissante suffisent à transformer un micro-réveil ordinaire en réveil complet. Et une fois éveillé à cette heure-là, un bébé de 9 mois n'a plus assez de pression de sommeil pour repartir facilement.",
       "ancrage": "Commencer sa journée à 4h, plusieurs jours d'affilée, casse tout le reste. Ce qui se joue à cette heure-là s'est décidé bien avant, et c'est plutôt une bonne nouvelle : cela se règle ailleurs qu'au milieu de la nuit.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -84,7 +82,7 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "Occulter la chambre pour de bon : rideaux épais, interstices bouchés, veilleuse éteinte ou très basse.",
+        "Occulter la chambre pour de bon : rideaux épais, interstices bouchés, veilleuse éteinte.",
         "Vérifier l'heure du coucher : un coucher trop tardif fatigue à l'excès et avance le réveil au lieu de le retarder.",
         "Regarder le sommeil sur 24 heures : siestes comprises, c'est le total qui compte.",
         "Se relayer sur les levers : un matin sur deux chacun change la semaine entière."
@@ -100,9 +98,9 @@
     },
     {
       "categorie": "sommeil",
-      "situation": "Le refus de la sieste du matin / Il a arrêté du jour au lendemain",
+      "situation": "La sieste du matin refusée / Il l'a arrêtée d'un coup",
       "titre": "Décaler l'horaire, pas supprimer la sieste",
-      "explication": "Depuis quelques jours, il ne s'endort plus le matin : il joue, il babille, il se met debout. La conclusion qui vient à l'esprit est qu'il n'en a plus besoin. C'est presque toujours trop tôt : la sieste du matin disparaît en général bien plus tard, autour de quinze à dix-huit mois. Ce qui change à neuf mois, c'est le temps qu'il tient éveillé au réveil, qui s'allonge de quelques dizaines de minutes. Proposée à l'ancien horaire, la sieste tombe alors trop tôt, et un bébé qui n'a pas encore assez de fatigue ne s'endort pas.",
+      "explication": "Depuis quelques jours, il ne s'endort plus le matin : il joue, il babille, il se met debout. La conclusion qui vient à l'esprit est qu'il n'en a plus besoin. C'est presque toujours trop tôt : la sieste du matin disparaît en général bien plus tard, autour de quinze à dix-8 mois. Ce qui change à 9 mois, c'est le temps qu'il tient éveillé au réveil, qui s'allonge de quelques dizaines de minutes. Proposée à l'ancien horaire, la sieste tombe alors trop tôt, et un bébé qui n'a pas encore assez de fatigue ne s'endort pas.",
       "ancrage": "Un matin sans sieste transforme la journée entière, et il est tentant d'en tirer une conclusion définitive. Quelques jours de refus ne disent rien encore : c'est l'horaire qui se déplace, pas le besoin qui disparaît.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -111,7 +109,7 @@
         "etapes": [
           "Repousser la sieste de 15 à 30 minutes : la fenêtre d'éveil du matin s'est allongée.",
           "Repérer ses signes de fatigue plutôt que l'heure : regard qui se perd, gestes plus lents, frottement des yeux.",
-          "Assombrir la chambre autant que le soir : la lumière du matin retarde l'endormissement.",
+          "Garder une petite pénombre : un peu de lumière du jour l'aide à faire la différence avec la nuit.",
           "Proposer le temps calme même s'il ne dort pas : 20 minutes au calme dans la pénombre réparent déjà.",
           "Coucher un peu plus tôt le soir ces jours-là : la dette de la journée se rattrape par le soir, pas par une sieste plus tardive."
         ]
@@ -120,20 +118,14 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : préparer la sieste",
-        "etapes": [
-          "Juste avant le coucher, dans la pénombre : bébé calme, allongé sur le dos.",
-          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
-          "La séquence « Sommeil paisible » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Ta voix tout bas pendant la séquence : toujours les mêmes mots, qui deviennent un repère.",
-          "Terminer par une main posée sur son torse : jusqu'à ce que sa respiration se pose."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "sommeil",
           "titre": "Sommeil paisible"
         }
       },
       "pour_aller_plus_loin": [
-        "Connaître l'ordre des disparitions : c'est la sieste de fin d'après-midi qui s'efface la première, entre neuf et douze mois.",
+        "Se rappeler l'ordre : la troisième sieste, celle de fin d'après-midi, s'efface la première, le plus souvent vers 7 ou 8 mois, chez certains plus tard. À 9 mois, 2 siestes sont la norme.",
         "Relier le refus à ce qu'il apprend : un refus passager suit souvent une acquisition motrice récente.",
         "Tenir le même horaire plusieurs jours : un réglage ne se juge pas sur une matinée.",
         "Transmettre le nouvel horaire à la personne qui le garde : une sieste décalée d'un côté seulement ne s'installe pas."

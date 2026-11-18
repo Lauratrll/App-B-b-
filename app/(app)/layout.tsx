@@ -38,7 +38,7 @@ export default async function AppLayout({
 
       <main className="flex-1 px-5 pt-6 pb-4">{children}</main>
 
-      <BottomNav />
+      <BottomNav afficherLoupe={babyMonth === null || babyMonth < 12} />
     </div>
     </NavProvider>
   );

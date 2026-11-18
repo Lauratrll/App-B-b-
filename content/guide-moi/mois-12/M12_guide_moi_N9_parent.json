@@ -48,10 +48,10 @@
       "erreurs_a_eviter": [
         "Faire le bilan un soir de fatigue : c'est le moment où il est le plus faux.",
         "Comparer l'année vécue à l'année rêvée : la seconde n'a jamais existé.",
-        "Chercher ce qu'on aurait dû faire autrement : on ne juge pas avec un regard reposé des décisions prises dans l'épuisement.",
-        "Garder ce bilan pour soi : dit à voix haute, il se corrige presque toujours."
+        "Chercher ce qu'on aurait dû faire autrement : on ne juge pas avec un regard reposé des décisions prises dans l'épuisement."
       ],
-      "consulter_si": "Consulter si : la tristesse dure plus de deux semaines, si plus rien ne te fait envie, si tu dors mal même quand bébé dort, ou si tu te sens vide ou détachée de lui → médecin, sage-femme ou PMI sans attendre. Allo Parents Bébé, 0 800 00 34 56, gratuit. Si les pensées noires s'installent, le 3114 répond jour et nuit."
+      "consulter_si": "Consulter si : la tristesse dure plus de deux semaines¹, plus rien ne te fait envie ou tu dors mal même quand bébé dort → médecin, sage-femme ou PMI sans attendre. Allo Parents Bébé, 0 800 00 34 56, gratuit.",
+      "source": "Source : ¹ tristesse persistante au-delà de 2 semaines : Psycom, brochure « Santé mentale, grossesse et parentalité », mars 2025, pages 6-7."
     },
     {
       "categorie": "parent",
@@ -94,10 +94,9 @@
       "erreurs_a_eviter": [
         "Chercher une explication psychologique avant d'avoir regardé les faits : le motif est souvent bien plus simple.",
         "Se promettre de mieux se contrôler : la promesse ne modifie aucune des conditions.",
-        "Ne rien noter parce qu'on croit déjà savoir : le relevé montre presque toujours autre chose que ce qu'on pensait.",
-        "Attendre un épisode plus grave pour en parler : c'est maintenant que c'est le plus simple à dire."
+        "Ne rien noter parce qu'on croit déjà savoir : le relevé montre presque toujours autre chose que ce qu'on pensait."
       ],
-      "consulter_si": "Consulter si : tu as peur de tes propres gestes, si l'envie de secouer te traverse, ou si tu te sens au bord de perdre le contrôle → poser bébé en sécurité, appeler un proche ou Allo Parents Bébé, 0 800 00 34 56, gratuit. Un bébé ne doit jamais être secoué : quelques secondes suffisent à provoquer des lésions graves. Si tu penses l'avoir secoué, même légèrement : appeler le 15 immédiatement, même sans symptôme."
+      "consulter_si": "Consulter si : tu as peur de tes propres gestes, l'envie de secouer te traverse ou tu te sens au bord de perdre le contrôle → poser bébé en sécurité, appeler un proche ou Allo Parents Bébé, 0 800 00 34 56, gratuit. Un bébé ne doit jamais être secoué : quelques secondes suffisent à provoquer des lésions graves. Si tu penses l'avoir secoué, même légèrement : appeler le 15 immédiatement, même sans symptôme."
     },
     {
       "categorie": "parent",
@@ -139,14 +138,13 @@
       "erreurs_a_eviter": [
         "Attendre d'avoir du temps et de l'énergie : ils ne reviendront pas d'eux-mêmes cette année.",
         "Utiliser ce moment pour régler les sujets qui fâchent : il n'y survivra pas.",
-        "Viser une grande soirée : elle se prépare, se reporte, et n'a jamais lieu.",
-        "Conclure du silence actuel que quelque chose est fini : la plupart des couples traversent cette année-là."
+        "Viser une grande soirée : elle se prépare, se reporte, et n'a jamais lieu."
       ],
-      "consulter_si": "Consulter si : la tension dans le couple devient permanente, si l'un des deux se sent durablement exclu, triste ou détaché → en parler au médecin, à la sage-femme ou à la PMI. Si la relation devient violente, en paroles, en gestes ou par le contrôle → 3919, Violences Femmes Info, gratuit et anonyme."
+      "consulter_si": "Consulter si : la tension dans le couple devient permanente, l'un des deux se sent durablement exclu ou triste ou détaché → en parler au médecin, à la sage-femme ou à la PMI. Si la relation devient violente, en paroles, en gestes ou par le contrôle → 3919, Violences Femmes Info, gratuit et anonyme."
     },
     {
       "categorie": "parent",
-      "situation": "La comparaison des étapes / J'ai peur qu'il soit en retard",
+      "situation": "La comparaison des étapes / J'ai peur du retard",
       "titre": "C'est l'âge où les écarts sont les plus visibles",
       "explication": "Au goûter d'anniversaire, deux enfants couraient entre les jambes des adultes, un troisième réclamait « encore » en tendant son verre. Le tien se déplaçait toujours à quatre pattes, pas très vite, mais content. Tu n'as pensé qu'à ça de toute l'après-midi. Autour d'un an, les écarts entre enfants sont à leur maximum, et pas seulement pour la marche : certains disent quelques mots, d'autres aucun, certains mangent seuls, d'autres refusent encore les morceaux, certains vont vers les autres enfants, d'autres restent collés à leur parent. Un anniversaire pousse tout le monde à faire le point en même temps, et la comparaison s'installe sans qu'on la décide. Elle a deux effets qu'on voit mal. Elle cache ce que ton enfant est en train de conquérir, lui. Et elle se transmet à lui, par les regards inquiets, les petits tests et les encouragements trop pressants. Or ces écarts ne disent presque rien de la suite : on peut marcher à 18 mois sans que cela n'inquiète personne, et un enfant qui marche ou parle plus tard ne marchera ni ne parlera moins bien. Ce que le suivi médical regarde, ce n'est pas une date : c'est que les acquisitions progressent et qu'aucune ne disparaisse.",
       "ancrage": "Ton enfant ne fait pas la course. Ce qu'il perçoit, en revanche, c'est si tu le regardes avec fierté ou avec inquiétude, et c'est ce regard-là qui l'aide à avancer.",
@@ -184,10 +182,9 @@
       "erreurs_a_eviter": [
         "L'entraîner pour rattraper les autres : le faire marcher tenu par les mains, lui faire répéter des mots, insister sur les morceaux. Chaque acquisition arrive quand il est prêt.",
         "Parler de son « retard » devant lui : il comprend le ton très tôt, et il sent qu'il déçoit.",
-        "Interroger tout l'entourage : chaque réponse ajoute de l'inquiétude sans ajouter de repère.",
-        "Prendre l'avance d'un autre enfant pour une note attribuée à ses parents."
+        "Interroger tout l'entourage : chaque réponse ajoute de l'inquiétude sans ajouter de repère."
       ],
-      "consulter_si": "Consulter si : ton enfant perd une capacité qu'il avait acquise, s'il ne se déplace pas du tout d'une manière ou d'une autre, s'il ne babille pas, s'il ne réagit pas à son prénom, s'il ne pointe pas du doigt, ou si un côté du corps bouge nettement moins que l'autre → médecin ou PMI sans attendre. Et si la peur du retard ne te quitte plus, en parler au médecin : une consultation suffit souvent à la poser."
+      "consulter_si": "Consulter si : ton enfant perd une capacité qu'il avait acquise, s'il ne se déplace pas du tout d'une manière ou d'une autre ou s'il ne babille pas → médecin ou PMI sans attendre. Et si la peur du retard ne te quitte plus, en parler au médecin : une consultation suffit souvent à la poser."
     }
   ]
 }

@@ -30,7 +30,8 @@ export const PHRASES_PISTES: Record<string, string> = {
   SO: "Ce sont peut-être les pleurs du soir",
   ET: "Il a peut-être besoin de bouger, de s'exercer",
   EN: "Il cherche peut-être à jouer, à échanger",
-  IN: "Quelque chose le gêne peut-être (couche, chaleur, vêtement…)",
+  FR: "Il est peut-être frustré",
+  IN: "Quelque chose le gêne peut-être : couche, chaleur, vêtement",
   SA: "Il dort peut-être d'un sommeil agité",
 };
 
@@ -53,6 +54,38 @@ export type Carte = {
   sources_consulter: string[];
 };
 
+/** Variante d'une carte pour une tranche d'âge : ne remplace que les champs renseignés
+ *  (avec leurs propres sources). Âge en mois, bornes comprises. */
+export type VarianteCarte = {
+  age_min: number;
+  age_max: number;
+  sens?: string;
+  sources_sens?: string[];
+  gestes?: string[];
+  sources_gestes?: string[];
+  observer?: string;
+  sources_observer?: string[];
+  consulter?: string;
+  sources_consulter?: string[];
+};
+
+/** Carte adaptée à l'âge de bébé : la variante de sa tranche, sinon la carte de base. */
+export function carteAgee(carte: Carte, variantes: VarianteCarte[] | undefined, age: number): Carte {
+  const v = (variantes ?? []).find((x) => x.age_min <= age && age <= x.age_max);
+  if (!v) return carte;
+  return {
+    ...carte,
+    sens: v.sens ?? carte.sens,
+    sources_sens: v.sens ? (v.sources_sens ?? []) : carte.sources_sens,
+    gestes: v.gestes && v.gestes.length > 0 ? v.gestes : carte.gestes,
+    sources_gestes: v.gestes && v.gestes.length > 0 ? (v.sources_gestes ?? []) : carte.sources_gestes,
+    observer: v.observer ?? carte.observer,
+    sources_observer: v.observer ? (v.sources_observer ?? []) : carte.sources_observer,
+    consulter: v.consulter ?? carte.consulter,
+    sources_consulter: v.consulter ? (v.sources_consulter ?? []) : carte.sources_consulter,
+  };
+}
+
 export type SourceRef = { titre: string; auteur: string | null; lien: string | null };
 
 export type ContenuSignaux = DonneesSignaux & {
@@ -60,6 +93,8 @@ export type ContenuSignaux = DonneesSignaux & {
   sourcesRef: Record<string, SourceRef>;
   /** Une carte « hypothèse » par piste : sens, gestes pas à pas, à observer, quand consulter. */
   cartes: Record<string, Carte>;
+  /** Variantes de cartes par tranche d'âge (voir carteAgee). */
+  cartesParAge: Record<string, VarianteCarte[]>;
   /** Catégories dans l'ordre du classeur, libellé sans le numéro (« Regard et visage »). */
   categories: { id: string; titre: string }[];
   phrases: Record<string, string>;
@@ -72,6 +107,7 @@ const source = brut as unknown as {
   etapes: (DonneesSignaux["etapes"][number] & { sources?: string | null })[];
   sources_reference: Record<string, SourceRef>;
   cartes: Record<string, Record<string, unknown>>;
+  cartes_par_age?: Record<string, Record<string, unknown>[]>;
   messages: DonneesSignaux["messages"];
   confiance: DonneesSignaux["confiance"];
 };
@@ -128,6 +164,23 @@ export function getContenuSignaux(): ContenuSignaux {
           consulter: c.consulter ? nettoyerTexte(String(c.consulter)) : null,
           sources_consulter: idsPublics(c.sources_consulter),
         },
+      ]),
+    ),
+    cartesParAge: Object.fromEntries(
+      Object.entries(source.cartes_par_age ?? {}).map(([code, liste]) => [
+        code,
+        liste.map((c) => ({
+          age_min: Number(c.age_min),
+          age_max: Number(c.age_max),
+          sens: c.sens ? nettoyerTexte(String(c.sens)) : undefined,
+          sources_sens: idsPublics(c.sources_sens),
+          gestes: c.gestes ? (c.gestes as string[]).map((g) => nettoyerTexte(g)) : undefined,
+          sources_gestes: idsPublics(c.sources_gestes),
+          observer: c.observer ? nettoyerTexte(String(c.observer)) : undefined,
+          sources_observer: idsPublics(c.sources_observer),
+          consulter: c.consulter ? nettoyerTexte(String(c.consulter)) : undefined,
+          sources_consulter: idsPublics(c.sources_consulter),
+        })),
       ]),
     ),
     sourcesRef: Object.fromEntries(

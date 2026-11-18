@@ -10,7 +10,7 @@
   "protocoles": [
     {
       "categorie": "sommeil",
-      "situation": "La descente qui manque / Il reste debout dans son lit, la nuit",
+      "situation": "La descente qui manque / Il reste debout la nuit",
       "titre": "Elle s'apprend le jour, pas à minuit",
       "explication": "Tu le retrouves debout, cramponné aux barreaux, en larmes, incapable de se rasseoir. Son corps a appris à se hisser avant d'apprendre à redescendre, et cet ordre est le même chez tous les bébés : redescendre demande de plier les genoux et de lâcher les barreaux en même temps, deux gestes qu'il ne sait pas encore coordonner. La nuit, il ne peut donc que rester debout et appeler. Ce n'est ni de l'opposition ni un sommeil qui se dérègle : c'est un mouvement commencé et pas encore terminé.",
       "ancrage": "Il sait monter, la descente viendra. Ce que tu fais à minuit ne la lui apprendra pas ; ce qui règle la nuit se joue au sol, en journée, quand vous êtes tous les deux disponibles.",
@@ -31,17 +31,17 @@
         "couleur_texte": "#085041",
         "titre": "Lui apprendre à se rasseoir",
         "etapes": [
-          "En journée, contre un meuble bas : c'est là qu'il apprend, pas dans son lit.",
-          "Guider ses genoux du bout des doigts : une légère pression derrière le genou suffit à déclencher la flexion.",
-          "Poser ton autre main à plat sur ses fesses : il sent où se trouve le sol.",
-          "Le laisser chercher seul ensuite : plusieurs essais par jour, très courts.",
+          "Au sol, près d'un meuble stable : c'est là qu'il s'entraîne, pas dans son lit.",
+          "Poser un jouet un peu plus bas : en le cherchant, il fléchit les genoux de lui-même.",
+          "Rester à côté, les mains libres : tu surveilles, sans le guider ni le retenir.",
+          "Le laisser chercher seul : plusieurs essais par jour, très courts.",
           "S'arrêter dès qu'il se lasse : quelques minutes valent mieux qu'une longue séance."
         ]
       },
       "pour_aller_plus_loin": [
         "Beaucoup de temps libre au sol dans la journée : c'est le seul entraînement qui compte.",
         "Fixer les meubles au mur : dès qu'il se hisse, une commode ou une étagère peut basculer.",
-        "Limiter le transat et la coque : assis attaché, il ne s'entraîne pas.",
+        "Limiter le transat et le siège-coque : assis attaché, il ne s'entraîne pas.",
         "Compter en semaines : la descente arrive quelques semaines après la montée, et elle arrive toujours."
       ],
       "principe": "Un mouvement s'apprend là où le corps est disponible, pas là où il est épuisé. Ce qui se joue la nuit s'entraîne dans la journée.",
@@ -56,7 +56,7 @@
     },
     {
       "categorie": "sommeil",
-      "situation": "Les nuits hachées / Il se réveille depuis qu'il se déplace",
+      "situation": "Les nuits hachées / Depuis qu'il se déplace",
       "titre": "La phase passe si le cadre tient",
       "explication": "Depuis qu'il se déplace, il se réveille plusieurs fois. Chaque grande acquisition motrice agite le sommeil : le cerveau rejoue la nuit ce qu'il a travaillé le jour, et le corps s'entraîne même endormi, ce qui multiplie les micro-réveils entre deux cycles. C'est un mécanisme connu, il est temporaire, et il reviendra à chaque étape suivante, quand il se hissera, puis quand il marchera. Le sommeil ne recule pas : il est occupé ailleurs.",
       "ancrage": "Des semaines de nuits coupées, cela use vraiment. L'épuisement, l'agacement au troisième réveil, l'impression de tout rater : c'est ce que traversent la plupart des parents à cette période, et cela ne dit rien de ce que tu vaux pour lui. Ce dont il a besoin en ce moment, ce n'est pas d'une nouvelle méthode, c'est de la même, quelques semaines de plus.",
@@ -76,13 +76,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : accompagner la phase",
-        "etapes": [
-          "Toujours au même moment du soir : juste avant la mise au lit.",
-          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
-          "La séquence « Sommeil paisible » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Garder ta voix posée : quelques mots toujours identiques, ou un air fredonné.",
-          "S'arrêter dès qu'il se détourne : le geste reste une proposition."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "sommeil",
           "titre": "Sommeil paisible"
@@ -97,7 +91,7 @@
       "principe": "Chaque progrès moteur désorganise les nuits pendant quelques semaines. Ce qui allonge cette période, ce n'est jamais le progrès, c'est de changer de cadre en plein milieu.",
       "erreurs_a_eviter": [
         "Changer de méthode de sommeil pendant la phase : il repart de zéro, et la période s'allonge.",
-        "Le laisser pleurer seul pour rétablir les nuits : à huit mois, seul dans le noir, il n'a aucun moyen de se calmer.",
+        "Le laisser pleurer seul pour rétablir les nuits : à 8 mois, seul dans le noir, il n'a aucun moyen de se calmer.",
         "Repousser le coucher en espérant qu'il dorme mieux : un bébé trop fatigué s'endort moins bien et se réveille davantage.",
         "Mettre tous les réveils sur le compte des dents : la vraie cause reste sans réponse."
       ],
@@ -105,7 +99,7 @@
     },
     {
       "categorie": "sommeil",
-      "situation": "La mobilité nocturne / Je le retrouve en travers de son lit",
+      "situation": "La mobilité nocturne / Je le retrouve en travers",
       "titre": "C'est le lit qui protège, pas la position",
       "explication": "Tu le couches dans un sens, tu le retrouves en travers, la tête contre les barreaux ou à l'autre bout du lit. Cette mobilité nocturne est normale à cet âge : il roule, il se pousse, il se déplace même endormi, et il ne souffre pas de finir la nuit ailleurs. Ce qui change, en revanche, c'est ce qu'il atteint désormais : un bébé qui se déplace attrape ce qui est autour de lui, et un objet mou ramené contre son visage devient un risque d'étouffement, y compris pendant son sommeil.",
       "ancrage": "Sa position ne te demande rien. Le lit, lui, se vérifie une fois, le soir, et tu peux dormir dessus le reste de la nuit.",
@@ -127,21 +121,19 @@
         "titre": "Rajuster sans le réveiller",
         "etapes": [
           "Poser d'abord une main immobile sur son dos : il perçoit une présence avant un mouvement.",
-          "Attendre une respiration complète : un geste posé sur un temps d'expiration réveille moins.",
           "Remonter la gigoteuse d'un seul geste lent : les gestes hachés réveillent plus que les gestes lents.",
-          "Éviter le visage et les mains : ce sont les zones les plus réactives au toucher pendant le sommeil.",
           "Retirer la main progressivement : alléger la pression avant de l'enlever tout à fait."
         ]
       },
       "pour_aller_plus_loin": [
-        "Refaire le tour du lit une fois par mois : un couchage sûr à six mois ne l'est plus forcément à huit.",
+        "Refaire le tour du lit une fois par mois : un couchage sûr à 6 mois ne l'est plus forcément à huit.",
         "Retirer cale-bébé, réducteur et coussin de positionnement : ils sont déconseillés pour le sommeil.",
         "Garder la chambre entre 18 et 20 °C : la surchauffe est un facteur de risque reconnu.",
         "Sécuriser autour du lit : meubles fixés au mur, cordons de rideaux hors d'atteinte, rien à portée de bras."
       ],
       "principe": "La position dans laquelle tu le retrouves ne dit rien de son confort. Ce qui le protège, c'est ce que tu as retiré du lit, pas ce que tu y as ajouté.",
       "erreurs_a_eviter": [
-        "Ajouter un coussin ou un tour de lit pour qu'il ne se cogne pas : ces objets sont la première cause d'étouffement dans le lit.",
+        "Ajouter un coussin ou un tour de lit pour qu'il ne se cogne pas : ces objets augmentent le risque d'étouffement dans le lit.",
         "Utiliser un cale-bébé ou un réducteur : ils bloquent le mouvement et ne protègent de rien.",
         "Mettre une couverture libre : elle remonte sur le visage sans qu'il puisse la repousser.",
         "Passer la nuit à le remettre droit : tu perds ton sommeil et le sien, pour un résultat qui ne tient pas 10 minutes."
@@ -151,7 +143,7 @@
     },
     {
       "categorie": "sommeil",
-      "situation": "Le réveil 20 minutes après / Il se réveille dès que je sors",
+      "situation": "Le réveil 20 min après / Il se réveille quand je sors",
       "titre": "Se réveiller dans le décor du coucher",
       "explication": "Il s'endort dans tes bras, tu le poses, tu sors, et 20 minutes plus tard il appelle. Entre deux cycles de sommeil, un bébé remonte brièvement à la surface et vérifie sans se réveiller vraiment que rien n'a changé autour de lui. S'il s'est endormi contre ton épaule et qu'il émerge seul dans le noir, l'écart est trop grand pour qu'il se rendorme seul : il appelle pour retrouver ce qu'il avait en s'endormant. Ce n'est pas ton départ qu'il repère, c'est la différence entre les deux décors.",
       "ancrage": "Il ne te réclame pas plus longtemps, il te réclame au même endroit. Poser un bébé encore un peu éveillé demande quelques soirs d'ajustement, et cela se fait par petits pas, pas d'un coup.",
@@ -164,7 +156,7 @@
           "Rester contre le lit : une main posée, une voix basse, la présence continue même si la position change.",
           "Le laisser terminer son endormissement dans le lit : c'est ce décor qu'il retrouvera tout à l'heure.",
           "Se retirer par étapes : d'abord la main, puis un pas en arrière, puis la porte.",
-          "Revenir s'il pleure : à huit mois, on répond toujours."
+          "Revenir s'il pleure : à 8 mois, on répond toujours."
         ]
       },
       "geste_doux": {
@@ -189,7 +181,7 @@
       "erreurs_a_eviter": [
         "Le poser toujours profondément endormi : il continue de se réveiller ailleurs que là où il s'est endormi, et les appels reviennent chaque cycle.",
         "Sortir de la chambre d'un coup : la disparition brutale est précisément ce qui l'alerte.",
-        "Le laisser pleurer seul pour qu'il apprenne : il apprend surtout que l'appel ne sert à rien.",
+        "Le laisser pleurer seul pour qu'il s'y fasse : il reste seul avec une détresse qu'il ne sait pas calmer.",
         "Changer de stratégie chaque soir : sans repère stable, chaque coucher recommence à zéro."
       ],
       "consulter_si": "Consulter si : bébé ne parvient jamais à s'endormir malgré un cadre calme et régulier, s'il est inconsolable, difficile à réveiller, s'il ne prend pas de poids, ou si le manque de sommeil devient dangereux pour toi → pédiatre, PMI, médecin traitant, ou Allo Parents Bébé (0 800 00 34 56)."

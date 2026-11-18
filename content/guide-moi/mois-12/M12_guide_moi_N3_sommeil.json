@@ -10,10 +10,10 @@
   "protocoles": [
     {
       "categorie": "sommeil",
-      "situation": "La sieste du matin / Il la refuse et s'écroule avant midi",
+      "situation": "La sieste du matin / Il la refuse et s'écroule",
       "titre": "Le rythme commence à bouger",
       "explication": "Vers 12 mois, la plupart des enfants font encore deux siestes, une le matin et une l'après-midi. Le passage à une sieste unique se produit le plus souvent entre 15 et 18 mois, parfois plus tard : à un an, il est rarement installé. Ce qui arrive, c'est une phase de flottement. Ton enfant repousse la sieste du matin plusieurs jours, la réclame ensuite, ou s'endort au moment du repas. Ce désordre passager accompagne les grandes acquisitions motrices mais ne signifie pas qu'il est prêt à s'en passer.",
-      "ancrage": "Personne ne peut faire dormir un enfant, et ce n'est pas ce qu'on te demande. Ce qui reste dans tes mains, c'est le calme, l'horaire et l'obscurité.",
+      "ancrage": "Personne ne peut faire dormir un enfant, et ce n'est pas ce qu'on te demande. Ce qui reste dans tes mains, c'est le calme, l'horaire et la pénombre.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -30,20 +30,14 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : inviter au repos de la journée",
-        "etapes": [
-          "Choisir le moment juste avant la sieste : enfant allongé, pièce dans la pénombre.",
-          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
-          "Suivre la séquence « Sommeil paisible » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Ralentir progressivement le geste : la main qui ralentit invite le corps à ralentir aussi.",
-          "S'arrêter s'il s'anime : un enfant qui rit ou se redresse n'est pas en train de recevoir le geste."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "sommeil",
           "titre": "Sommeil paisible"
         }
       },
       "pour_aller_plus_loin": [
-        "Observer sur deux semaines : noter les heures d'endormissement et de réveil montre s'il s'agit d'une phase ou d'un vrai virage.",
+        "Observer sur 2 semaines : noter les heures d'endormissement et de réveil montre s'il s'agit d'une phase ou d'un vrai virage.",
         "Décaler par petits pas : quand la sieste unique s'installe vraiment, avancer celle du matin par tranches de 15 minutes.",
         "Protéger la lumière du matin : sortir tôt aide l'horloge interne à caler les temps de repos.",
         "Accorder les lieux de garde : crèche, assistante maternelle et maison gagnent à viser les mêmes créneaux."
@@ -60,7 +54,7 @@
     },
     {
       "categorie": "sommeil",
-      "situation": "Le debout dans le lit / Il se met debout et ne se recouche plus",
+      "situation": "Le debout dans le lit / Il ne se recouche plus",
       "titre": "La descente s'apprend en journée",
       "explication": "Se hisser debout est l'acquisition motrice du moment, et le cerveau s'entraîne la nuit à ce qu'il vient d'apprendre le jour. Ton enfant se retrouve debout, agrippé aux barreaux, sans savoir encore refaire le chemin inverse : se rasseoir demande un contrôle qui arrive un peu plus tard. Il appelle parce qu'il est coincé, pas parce qu'il veut jouer. Cette phase dure généralement quelques semaines, le temps que la descente devienne aussi automatique que la montée.",
       "ancrage": "Il ne cherche pas à prolonger la soirée : il est bloqué et il te le dit. Tu peux lui donner un coup de main sans transformer le moment en échange.",
@@ -70,7 +64,7 @@
         "titre": "Action immédiate : quand il appelle debout",
         "etapes": [
           "Y aller sans lumière : la pénombre garde la nuit du côté de la nuit.",
-          "L'aider à s'asseoir plutôt qu'à s'allonger : plier ses genoux, poser ses mains, le laisser terminer le mouvement.",
+          "Accompagner son mouvement : une main sur son dos pendant qu'il se rasseoit, sans plier ses jambes à sa place.",
           "Réduire l'échange au minimum : pas de jeu, pas de mot supplémentaire, pas de sortie de chambre.",
           "Reposer et sortir vite : rester longtemps installe une nouvelle habitude d'endormissement.",
           "Recommencer autant de fois que nécessaire : c'est la répétition tranquille qui raccourcit la phase."
@@ -79,7 +73,7 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Redescendre dans le corps",
+        "titre": "Redescendre dans le calme",
         "etapes": [
           "Main large sur le dos : une fois couché, poser la paume entière sans bouger.",
           "Pression douce et constante : le poids de la main donne une sensation d'enveloppe.",
@@ -89,7 +83,7 @@
         ]
       },
       "pour_aller_plus_loin": [
-        "S'entraîner le jour : jouer à monter et redescendre d'un coussin ou du canapé apprend la descente en pleine lumière.",
+        "S'entraîner le jour : monter et redescendre d'un coussin ferme, sous ta surveillance, apprend la descente en pleine lumière.",
         "Baisser le sommier : dès qu'il se hisse debout, le matelas au niveau le plus bas devient indispensable.",
         "Vérifier la sécurité du lit : rien à escalader autour, aucun cordon ni tour de lit à portée.",
         "Prévoir des temps de mouvement en fin de journée : un corps qui s'est beaucoup exercé s'entraîne moins la nuit."
@@ -98,7 +92,7 @@
       "erreurs_a_eviter": [
         "Le rallonger de force en le maintenant : il se redresse aussitôt et l'énervement s'ajoute au blocage.",
         "Entraver les jambes pour l'empêcher de se lever : dangereux, et sans effet sur l'apprentissage.",
-        "Faire durer le moment avec un long câlin : l'enfant retient qu'être debout ramène du temps avec toi.",
+        "Faire durer le moment avec un long câlin : l'éveil s'allonge et le rendormissement recule.",
         "Laisser le lit en position haute : la chute par-dessus les barreaux devient possible en quelques jours."
       ],
       "consulter_si": "Consulter si : ton enfant ne se hisse debout d'aucune façon à 15 mois, s'il n'utilise qu'un seul côté du corps pour se lever, s'il chute très souvent de tout son long, ou s'il pleure de douleur en s'appuyant sur une jambe → en parler au pédiatre, qui pourra orienter vers un kinésithérapeute pédiatrique ou un psychomotricien."
@@ -106,7 +100,7 @@
     {
       "categorie": "sommeil",
       "situation": "Le coucher qui s'étire / Il se relève dès que je sors",
-      "titre": "La première limite qu'il teste",
+      "titre": "Une limite claire, un rituel stable",
       "explication": "À un an, ton enfant sait en général que tu continues d'exister derrière la porte, et il peut avoir du mal à te quitter pour la nuit. Se relever dès que tu sors peut être sa façon de vérifier que tu reviens, et de découvrir où se situe la limite. Il ne cherche pas forcément à te défier : c'est surtout un besoin de sécurité qui rencontre une capacité motrice toute neuve. Un rituel court, identique et prévisible est ce qui referme le mieux la soirée à cet âge.",
       "ancrage": "Ta constance vaut mieux que ta fermeté d'un seul soir. Tu peux revenir dix fois avec le même calme, c'est cette répétition qui installe le cadre.",
       "action_immediate": {
@@ -125,13 +119,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : apaiser avant de quitter la chambre",
-        "etapes": [
-          "S'installer au bord du lit : lumière basse, voix qui ralentit, quelques minutes seulement.",
-          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
-          "La séquence « Sommeil paisible » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Terminer toujours pareil : la même phrase courte à la fin du geste devient le signal de la sortie.",
-          "S'arrêter s'il se réanime : quand le geste excite au lieu d'apaiser, on le réserve à un autre moment."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "sommeil",
           "titre": "Sommeil paisible"
@@ -154,7 +142,7 @@
     },
     {
       "categorie": "sommeil",
-      "situation": "Le réveil de 5h / Il se réveille à 5h et ne se rendort pas",
+      "situation": "Le réveil de 5h / Il ne se rendort pas",
       "titre": "Agir sur la journée, pas sur l'aube",
       "explication": "Un réveil à 5h n'est pas un caprice matinal : c'est le résultat de plusieurs réglages. En fin de nuit, le sommeil devient plus léger, la moindre lumière ou le moindre bruit suffit à faire basculer l'enfant dans l'éveil. S'y ajoutent souvent une sieste terminée trop tard, un coucher trop tardif qui crée de la sur-fatigue, ou une chambre qui s'éclaire tôt. Ce sont ces réglages qui bougent, bien plus que la volonté de ton enfant, sur qui rien ne peut être exigé à cette heure.",
       "ancrage": "Tu ne peux pas lui demander de se rendormir, tu peux modifier ce qui l'entoure. Le levier est dans la journée d'avant, pas dans le petit matin.",
@@ -177,14 +165,13 @@
         "etapes": [
           "Main immobile sur le dos : présence chaude et discrète, sans parler.",
           "Pression douce et constante : le poids de la main invite le corps à rester couché.",
-          "Respiration lente près de lui : ralentir ton souffle donne un rythme à suivre.",
           "Aucun contact visuel appuyé : le regard et le sourire réveillent complètement à cette heure.",
           "Se retirer en douceur : alléger la main progressivement dès qu'il se rendort."
         ]
       },
       "pour_aller_plus_loin": [
         "Occulter vraiment la chambre : rideaux épais et veilleuse éteinte, la lumière du petit matin est le déclencheur le plus fréquent.",
-        "Reculer la fin de la dernière sieste : la terminer avant 16h évite un endormissement trop précoce le soir.",
+        "Reculer la fin de la dernière sieste : plus elle finit tard, plus l'endormissement du soir recule.",
         "Avancer plutôt que reculer le coucher : la sur-fatigue provoque des réveils de fin de nuit.",
         "Repérer les bruits du matin : chauffage, volets des voisins, réveil d'un adulte, tout se déclenche à la même heure."
       ],

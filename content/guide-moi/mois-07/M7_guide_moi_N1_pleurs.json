@@ -10,10 +10,10 @@
   "protocoles": [
     {
       "categorie": "pleurs",
-      "situation": "La rage de l'immobile / Il veut avancer et n'y arrive pas",
+      "situation": "La rage de l'immobile / Il veut avancer et ne peut pas",
       "titre": "Soutenir l'effort sans le supprimer",
-      "explication": "Il voit l'objet, il tend le bras, il pousse sur ses jambes, et il ne bouge pas. Ou il recule. La rage est immédiate et totale. À sept mois, l'intention de se déplacer est bien installée, mais la coordination ne suit pas encore. Cette frustration est le moteur même de l'apprentissage : c'est en ratant qu'il ajuste. Ton rôle n'est ni de faire à sa place, ce qui supprimerait l'apprentissage, ni de le laisser s'épuiser. C'est d'ajuster la difficulté : rapprocher l'objet un peu, jamais complètement, pour que l'effort reste possible.",
-      "ancrage": "Sa rage dit que son intelligence dépasse son corps. Rapproche l'objet un peu, jamais complètement.",
+      "explication": "Il voit l'objet, il tend le bras, il pousse sur ses jambes, et il ne bouge pas. Ou il recule. La rage est immédiate et totale. À 7 mois, l'intention de se déplacer est bien installée, mais la coordination ne suit pas encore. Cette frustration est le moteur même de l'apprentissage : c'est en ratant qu'il ajuste.",
+      "ancrage": "Le voir s'acharner donne envie d'intervenir. Rester à côté sans faire à sa place, c'est déjà l'aider.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -30,13 +30,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : redescendre après la frustration",
-        "etapes": [
-          "Une fois consolé et la crise passée : contre toi, ou allongé au calme s'il préfère.",
-          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
-          "Suivre la séquence « Frustration motrice » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Ta voix tout bas pendant la séquence : toujours les mêmes mots, qui deviennent un repère.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "frustration-motrice",
           "titre": "Frustration motrice"
@@ -48,21 +42,19 @@
         "Doser les sessions : quelques minutes suffisent, car la fatigue transforme l'effort en détresse.",
         "Ne jamais l'installer dans une position qu'il n'atteint pas seul."
       ],
-      "principe": "Faire à sa place supprime l'apprentissage. Ce qui aide n'est pas de résoudre, mais d'ajuster la difficulté pour que l'effort reste à sa portée.",
+      "principe": "Faire à sa place supprime l'apprentissage.",
       "erreurs_a_eviter": [
-        "Mettre l'objet dans sa main dès qu'il s'énerve.",
-        "Retirer tous les objets pour lui éviter la frustration.",
-        "Le caler assis ou le mettre debout pour « faciliter ».",
-        "Laisser la crise s'installer jusqu'à l'épuisement."
+        "Mettre l'objet dans sa main dès qu'il s'énerve : il n'apprend plus à l'atteindre lui-même.",
+        "Retirer tous les objets pour lui éviter la frustration : sans effort possible, il n'y a plus rien à apprendre."
       ],
       "consulter_si": "Consulter si : bébé ne se déplace d'aucune façon vers dix mois, ne se retourne pas, ne tend jamais la main vers un objet, paraît anormalement mou ou raide, s'il perd une compétence acquise, ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre ou PMI, qui orientera si nécessaire vers un kinésithérapeute pédiatrique ou un psychomotricien.",
       "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), l'activité physique du tout-petit et les étapes du développement de bébé."
     },
     {
       "categorie": "pleurs",
-      "situation": "La permanence qui démarre / Il pleure dès que je sors de la pièce",
+      "situation": "La permanence qui démarre / Il pleure si je sors",
       "titre": "Ta voix comble le vide",
-      "explication": "Il commence à comprendre que tu continues d'exister ailleurs, et c'est précisément cela qui le fait pleurer. Tant qu'il ne le savait pas, ton absence était un vide neutre. Maintenant, il sait que tu es quelque part, et il ne peut pas te rejoindre. C'est un progrès cognitif majeur, et il est douloureux. Ta voix devient l'outil central : elle est la preuve, entendue, que tu es toujours là. Elle relie quand le corps s'éloigne, et lui apprend, séparation après séparation, que tu reviens.",
+      "explication": "Il commence à comprendre que tu continues d'exister ailleurs, et c'est précisément cela qui le fait pleurer. Tant qu'il ne le savait pas, ton absence était un vide neutre. Maintenant, il sait que tu es quelque part, et il ne peut pas te rejoindre. C'est un progrès cognitif majeur, et il est douloureux.",
       "ancrage": "Il ne pleure pas parce qu'il est fragile : il pleure parce qu'il a compris. Ta voix est la preuve sonore que tu existes encore.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -80,13 +72,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : ancrer la sécurité",
-        "etapes": [
-          "Un moment quotidien : bébé sur le dos, éveillé et calme.",
-          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
-          "La séquence « Angoisse de séparation » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Ta voix pendant le geste : associée au toucher, elle devient un repère.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "separation",
           "titre": "Angoisse de séparation"
@@ -100,8 +86,6 @@
       ],
       "principe": "La permanence se construit par la répétition du couple départ-retour. Ta voix est ce qui comble le vide, et c'est elle qui lui apprend, peu à peu, à te laisser partir.",
       "erreurs_a_eviter": [
-        "Partir en cachette pour éviter les pleurs.",
-        "Éviter toute absence pour ne pas le perturber.",
         "Le prendre dans les bras à chaque appel : ta voix suffit souvent, et le porter à chaque fois lui apprend à ne plus s'en contenter.",
         "Penser qu'il pleure pour te retenir : à cet âge, il t'appelle parce qu'il a besoin de toi."
       ],
@@ -110,10 +94,10 @@
     },
     {
       "categorie": "pleurs",
-      "situation": "L'objet retiré / Il hurle dès qu'on lui reprend quelque chose",
+      "situation": "L'objet retiré / Il hurle quand on le lui reprend",
       "titre": "Proposer l'échange plutôt que l'arrachage",
-      "explication": "Tu lui retires la télécommande, un câble, un objet dangereux, et il hurle de rage. C'est son premier heurt frontal entre son désir et un interdit, et il n'a aucun outil pour le gérer. Arracher l'objet déclenche une crise maximale ; expliquer ne sert à rien à cet âge. Ce qui fonctionne, c'est l'échange : lui tendre autre chose d'intéressant au moment même où tu retires. Son attention se déplace bien plus facilement qu'elle ne se raisonne, et cela ne l'empêche pas d'apprendre la limite.",
-      "ancrage": "À sept mois, on ne raisonne pas une limite : on la pose et on propose autre chose. L'échange désamorce ce que l'arrachage déclenche.",
+      "explication": "Tu lui retires la télécommande, un câble, un objet dangereux, et il hurle de rage. C'est son premier heurt frontal entre son désir et un interdit, et il n'a aucun outil pour le gérer. Arracher l'objet déclenche une crise maximale ; expliquer ne sert à rien à cet âge. Son attention se déplace bien plus facilement qu'elle ne se raisonne.",
+      "ancrage": "Reprendre un objet à un bébé qui hurle donne l'impression d'être dure. Tu protèges, tu n'es pas méchante.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -129,13 +113,12 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "Redescendre après la crise",
+        "titre": "Un jeu pour passer à autre chose",
         "etapes": [
-          "Une fois la crise passée : bébé contre toi, dans le calme.",
-          "Une main à plat sur son ventre : immobile, chaude, sans appuyer.",
-          "Ta respiration lente, tout près de lui : il la sent, et finit souvent par la suivre.",
-          "Un seul son doux, ou le silence : ta voix tout bas, toujours la même phrase.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
+          "Reproposer l'objet de remplacement : tendu sans insister, il le prend ou non.",
+          "T'asseoir près de lui avec un jeu simple : tu joues, tu ne l'invites pas.",
+          "Un doudou à tenir : il se console par lui-même si besoin.",
+          "Laisser la colère partir : elle passe plus vite quand l'attention change."
         ]
       },
       "pour_aller_plus_loin": [
@@ -146,8 +129,6 @@
       ],
       "principe": "À cet âge, une limite se pose et se remplace ; elle ne s'explique pas. L'échange déplace l'attention ; l'arrachage déclenche la crise.",
       "erreurs_a_eviter": [
-        "Arracher l'objet sans rien proposer.",
-        "Rendre l'objet après la crise pour la faire cesser.",
         "Expliquer longuement : son cerveau n'en a pas encore les moyens, et le discours prolonge la crise.",
         "Hausser le ton ou taper sur la main : la violence, même légère, n'enseigne rien et abîme la confiance."
       ],
@@ -156,10 +137,10 @@
     },
     {
       "categorie": "pleurs",
-      "situation": "L'arrivée de la peur de l'étranger / Il pleure à l'approche d'un inconnu",
+      "situation": "La peur de l'étranger / Il pleure devant un inconnu",
       "titre": "Laisser venir lentement",
-      "explication": "Il souriait à tout le monde ; maintenant il se fige, pleure, se colle à toi dès qu'un visage inconnu s'approche. Sa mémoire des visages s'est précisée : il sait désormais distinguer les siens des autres. Cette peur est un progrès cognitif, pas un défaut de sociabilité, et elle est parfaitement normale. Deux erreurs à éviter : forcer le contact « pour qu'il s'habitue », et s'excuser de sa réaction devant la personne. Ce dont il a besoin, c'est de temps, et d'une base sûre, toi, pour observer avant d'approcher.",
-      "ancrage": "Il ne devient pas sauvage : il devient capable de reconnaître les siens. Cette peur est un progrès : elle ne se corrige pas, elle s'accompagne.",
+      "explication": "Il souriait à tout le monde ; maintenant il se fige, pleure, se colle à toi dès qu'un visage inconnu s'approche. Sa mémoire des visages s'est précisée : il sait désormais distinguer les siens des autres. Cette peur est un progrès cognitif, pas un défaut de sociabilité, et elle est parfaitement normale. Il a besoin de temps, et d'une base sûre, toi, pour observer avant d'approcher.",
+      "ancrage": "Quand il pleure devant une grand-mère ou une voisine, la gêne vient vite. Tu n'as pas à t'excuser pour lui.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -176,30 +157,21 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : après une rencontre",
-        "etapes": [
-          "Une fois au calme : bébé sur le dos, dans une pièce silencieuse.",
-          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
-          "La séquence « Angoisse de séparation » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Ta voix tout bas pendant la séquence : toujours les mêmes mots, qui deviennent un repère.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "separation",
           "titre": "Angoisse de séparation"
         }
       },
       "pour_aller_plus_loin": [
-        "Ne pas s'excuser de sa réaction : « il fait la différence, c'est bon signe » suffit.",
         "Familiariser progressivement : plusieurs rencontres courtes valent mieux qu'une longue.",
         "Prévenir la personne qui garde : cette peur peut compliquer une adaptation, mieux vaut l'anticiper.",
         "Se rappeler que cela passe : cette phase s'atténue au fil des mois, chaque enfant à son rythme."
       ],
       "principe": "La peur de l'étranger est un progrès de la mémoire, pas un défaut de caractère. Ton rôle est d'être sa base sûre, pas de le pousser au contact.",
       "erreurs_a_eviter": [
-        "Forcer bébé à aller dans les bras d'un inconnu.",
-        "S'excuser de sa réaction ou le présenter comme « difficile ».",
-        "Le laisser seul avec une personne qu'il ne connaît pas, sans transition.",
-        "Insister pour obtenir un sourire devant un visiteur."
+        "Forcer bébé à aller dans les bras d'un inconnu : la peur se confirme au lieu de s'apaiser.",
+        "Le laisser seul avec une personne qu'il ne connaît pas, sans transition : la rupture est brutale."
       ],
       "consulter_si": "Consulter si : bébé ne sourit à personne, y compris à toi, ne fixe pas les visages, ne réagit pas aux bruits, ne cherche jamais le contact, ou paraît anormalement mou ou éteint → pédiatre ou PMI.",
       "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), les étapes du développement de bébé."

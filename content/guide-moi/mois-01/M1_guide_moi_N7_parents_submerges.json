@@ -49,10 +49,9 @@
       "erreurs_a_eviter": [
         "Attendre qu'on propose : les proches regardent des photos de bébé et en concluent que ça va.",
         "Demander « de l'aide » sans dire quoi : la question renvoie toute l'organisation à celui qui est déjà à bout.",
-        "Remplir les sept cases d'un coup : un plan trop ambitieux s'effondre au deuxième jour.",
-        "Considérer le calendrier comme définitif : il se refait le dimanche, en 5 minutes."
+        "Remplir les sept cases d'un coup : un plan trop ambitieux s'effondre au deuxième jour."
       ],
-      "consulter_si": "Consulter si : l'épuisement s'accompagne d'une tristesse qui dure plus de deux semaines, d'insomnies même quand bébé dort, d'une irritabilité permanente, ou si tu ressens de la somnolence au volant → médecin, sage-femme ou PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
+      "consulter_si": "Consulter si : l'épuisement s'accompagne d'une tristesse qui s'installe, d'insomnies même quand bébé dort ou d'une irritabilité permanente → médecin, sage-femme ou PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
     },
     {
       "categorie": "parent",
@@ -92,12 +91,12 @@
       ],
       "principe": "C'est la durée qui distingue le baby blues d'une dépression du post-partum, pas la violence des larmes. Au-delà de deux semaines de tristesse quotidienne, la question n'est plus de tenir, elle est d'en parler à un professionnel.",
       "erreurs_a_eviter": [
-        "Attendre que cela passe tout seul : passé deux semaines, l'attente allonge la traversée.",
+        "Garder cette tristesse pour soi : en parler à quelqu'un de proche ou à un professionnel allège la traversée.",
         "Mesurer sa tristesse à celle des autres : la comparaison ne dit rien de ce que toi tu vis.",
-        "Se dire que ce serait injuste de se plaindre avec un bébé en bonne santé : les deux n'ont aucun rapport.",
-        "Ne rien dire au rendez-vous parce que ce jour-là ça va mieux : la description porte sur les semaines, pas sur l'heure."
+        "Se dire que ce serait injuste de se plaindre avec un bébé en bonne santé : les deux n'ont aucun rapport."
       ],
-      "consulter_si": "Consulter si : la tristesse dure plus de deux semaines, si plus rien ne te fait envie, si tu dors mal même quand bébé dort, ou si tu te sens vide, ou loin de lui → médecin, sage-femme ou PMI sans attendre. Allo Parents Bébé, 0 800 00 34 56, gratuit. Si les pensées noires s'installent, le 3114 répond jour et nuit."
+      "consulter_si": "Consulter si : la tristesse dure plus de deux semaines¹, plus rien ne te fait envie ou tu dors mal même quand bébé dort → médecin, sage-femme ou PMI sans attendre. Allo Parents Bébé, 0 800 00 34 56, gratuit.",
+      "source": "Source : ¹ tristesse persistante au-delà de 2 semaines : Psycom, brochure « Santé mentale, grossesse et parentalité », mars 2025, pages 6-7."
     },
     {
       "categorie": "parent",
@@ -140,10 +139,9 @@
       "erreurs_a_eviter": [
         "Attendre que les gens comprennent d'eux-mêmes : ils voient un bébé qui grandit, pas les nuits qui s'accumulent.",
         "Refuser une proposition parce que la maison n'est pas présentable : personne ne vient pour la maison.",
-        "Ne relancer personne après un silence : un rendez-vous annulé n'est pas un rejet.",
-        "Attendre d'aller mieux pour voir du monde : c'est très souvent le fait de voir du monde qui fait aller mieux."
+        "Ne relancer personne après un silence : un rendez-vous annulé n'est pas un rejet."
       ],
-      "consulter_si": "Consulter si : la solitude s'accompagne d'une tristesse qui dure plus de deux semaines, d'une perte d'intérêt pour tout, d'insomnies même quand bébé dort, ou d'une irritabilité permanente → médecin, sage-femme ou PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit. Si les pensées noires s'installent, le 3114 répond jour et nuit."
+      "consulter_si": "Consulter si : la solitude s'accompagne d'une tristesse qui s'installe, d'une perte d'intérêt pour tout ou d'insomnies même quand bébé dort → médecin, sage-femme ou PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit."
     },
     {
       "categorie": "parent",
@@ -186,10 +184,9 @@
       "erreurs_a_eviter": [
         "Comparer ses coulisses aux façades des autres : la comparaison est faussée dès le départ.",
         "Changer de méthode tous les deux jours : un ajustement demande quelques jours pour montrer ce qu'il vaut.",
-        "Chercher la bonne réponse universelle : elle n'existe pas, il n'existe que ce qui convient à ton bébé.",
-        "Se taire par peur d'avoir l'air de ne pas savoir : les professionnels attendent exactement ces questions-là."
+        "Chercher la bonne réponse universelle : elle n'existe pas, il n'existe que ce qui convient à ton bébé."
       ],
-      "consulter_si": "Consulter si : le doute s'accompagne d'une anxiété qui t'empêche de fonctionner, de vérifications incessantes, de troubles du sommeil même quand bébé dort, ou d'une tristesse qui dure plus de deux semaines → médecin, sage-femme ou PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit.",
+      "consulter_si": "Consulter si : le doute s'accompagne d'une anxiété qui t'empêche de fonctionner, de vérifications incessantes ou de troubles du sommeil même quand bébé dort → médecin, sage-femme ou PMI. Allo Parents Bébé, 0 800 00 34 56, gratuit.",
       "source": "Source : Bouchet H. et al., « Baby cry recognition is independent of motherhood but improved by experience and exposure », Proceedings of the Royal Society B, 2020."
     },
     {

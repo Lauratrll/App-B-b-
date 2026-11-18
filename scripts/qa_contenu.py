@@ -345,31 +345,23 @@ def verifier_protocole(proto, etiquette, rapport):
         if champ not in proto:
             dire("ERREUR", f"champ manquant « {champ} »")
 
-    # Souplesse d'un point sur chaque bloc — arretee le 8 septembre 2026.
-    # Decision de Laura : « pourquoi se limiter a 4 points s'il en faut plus ? »,
-    # puis « on ajoute de la souplesse dans le nombre de points dans les categories.
-    # Si c'est necessaire, on ajoute un point. »
-    #
-    # Le compte de reference ne bouge pas : 4 points, 4 erreurs, 5 etapes. C'est le
-    # standard visuel de l'app et il oblige a choisir. Ce qui change, c'est qu'UN
-    # point de plus est admis quand une idee est ecrasee en etant fondue dans une
-    # autre — jamais pour caser une pensee supplementaire.
-    # Le vrai plafond n'est pas le nombre de puces : c'est le volume du protocole,
-    # qui reste entre 350 et 800 mots.
-    for champ, mini, maxi in [("pour_aller_plus_loin", 4, 5), ("erreurs_a_eviter", 4, 5)]:
+    # Nombre de points libre — decision de Laura du 17/11/2026 : « pas un nombre de
+    # points precis obligatoire ». Le bon nombre est celui qui porte des idees
+    # differentes, sans redite. Seul garde-fou : un minimum de 2 et un maximum de 8
+    # (au-dela, la fiche traite deux sujets). Le vrai plafond reste le volume.
+    for champ in ["pour_aller_plus_loin", "erreurs_a_eviter"]:
         val = proto.get(champ)
-        if isinstance(val, list) and not (mini <= len(val) <= maxi):
-            attendu = str(mini) if mini == maxi else f"{mini} ou {maxi}"
-            dire("ERREUR", f"{champ} = {len(val)} elements (attendu {attendu})")
+        # erreurs_a_eviter peut etre vide (Laura, 18/11/2026 : pas d'erreurs obligatoires)
+        mini = 0 if champ == "erreurs_a_eviter" else 1
+        if isinstance(val, list) and not (mini <= len(val) <= 8):
+            dire("ERREUR", f"{champ} = {len(val)} elements (de {mini} a 8, sans nombre impose)")
 
     for champ in ["action_immediate", "geste_doux"]:
         bloc = proto.get(champ)
         if isinstance(bloc, dict):
             etapes = bloc.get("etapes", [])
-            if len(etapes) > 6:
-                dire("ERREUR", f"{champ} = {len(etapes)} etapes (5, 6 au maximum)")
-            elif len(etapes) == 6:
-                dire("ALERTE", f"{champ} = 6 etapes — le 6e est-il vraiment une idee a part ?")
+            if len(etapes) > 8:
+                dire("ERREUR", f"{champ} = {len(etapes)} etapes (8 au maximum, sans nombre impose)")
             sans_amorce = [e for e in etapes if ":" not in e[:60]]
             if sans_amorce:
                 dire("ALERTE", f"{champ} : {len(sans_amorce)} etape(s) sans amorce « Amorce : suite »")

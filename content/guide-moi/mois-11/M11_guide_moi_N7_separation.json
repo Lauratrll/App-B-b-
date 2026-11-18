@@ -10,7 +10,7 @@
   "protocoles": [
     {
       "categorie": "sepa",
-      "situation": "L'accrochage aux jambes / Il s'accroche et je ne peux plus bouger",
+      "situation": "L'accrochage aux jambes / Je ne peux plus bouger",
       "titre": "S'accroupir libère souvent le mouvement",
       "explication": "Il s'agrippe à tes jambes et ne lâche plus : tu ne peux plus faire un pas. Ce comportement mêle deux choses à cet âge : l'angoisse de séparation, encore vive, et l'équilibre : tes jambes sont un appui stable pour un marcheur débutant. Le réflexe est de le décrocher ou de le porter. Ce qui fonctionne souvent mieux, et surprend : s'accroupir à son niveau. Se mettre à sa hauteur, quelques instants, recharge la sécurité, et il repart, bien plus vite que si tu l'avais porté.",
       "ancrage": "Il s'accroche par angoisse et pour tenir debout. S'accroupir à son niveau recharge plus vite que de le porter.",
@@ -30,13 +30,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : recharger la sécurité",
-        "etapes": [
-          "Un moment quotidien : l'enfant sur le dos, éveillé et calme.",
-          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
-          "Suivre la séquence « Angoisse de séparation » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Garder ta voix posée : quelques mots toujours identiques, ou un air fredonné.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "separation",
           "titre": "Angoisse de séparation"
@@ -52,17 +46,16 @@
       "erreurs_a_eviter": [
         "Le décrocher brutalement.",
         "Le porter systématiquement.",
-        "Se déplacer sans arrêt en le traînant.",
-        "S'agacer de son agrippement."
+        "Se déplacer sans arrêt en le traînant."
       ],
-      "consulter_si": "Consulter si : l'enfant ne se déplace d'aucune façon vers douze mois, ne se met jamais debout, paraît anormalement mou ou raide, ou s'il perd une compétence acquise → pédiatre ou PMI.",
+      "consulter_si": "Consulter si : l'enfant ne se déplace d'aucune façon vers 12 mois, ne se met jamais debout, ou paraît anormalement mou ou raide → pédiatre ou PMI.",
       "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), l'activité physique du tout-petit."
     },
     {
       "categorie": "sepa",
-      "situation": "La rechute d'angoisse / Il replonge alors que c'était passé",
+      "situation": "La rechute d'angoisse / Il replonge, c'était passé",
       "titre": "Réactiver, ne pas réinventer",
-      "explication": "L'angoisse de séparation semblait derrière vous, et elle revient d'un coup. Ces rechutes ne sont pas un recul : elles accompagnent presque toujours une grande acquisition. Apprendre à marcher, c'est aussi découvrir qu'on peut s'éloigner, et cette découverte réveille l'angoisse. Le réflexe est d'inventer une nouvelle stratégie. C'est l'inverse qui fonctionne : réactiver les rituels qui marchaient déjà. Ce qui l'a rassuré à huit mois le rassurera encore, parce qu'il les connaît.",
+      "explication": "L'angoisse de séparation semblait derrière vous, et elle revient d'un coup. Ces rechutes ne sont pas un recul : elles accompagnent souvent une grande acquisition. Apprendre à marcher, c'est aussi découvrir qu'on peut s'éloigner, et cette découverte réveille l'angoisse. Le réflexe est d'inventer une nouvelle stratégie. C'est l'inverse qui fonctionne : réactiver les rituels qui marchaient déjà. Ce qui l'a rassuré à huit mois le rassurera encore, parce qu'il les connaît.",
       "ancrage": "Une rechute accompagne un progrès. Ne réinvente rien : réactive les rituels qu'il connaît déjà.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -80,37 +73,30 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : ancrer la sécurité",
-        "etapes": [
-          "Un moment quotidien : toujours au même moment.",
-          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
-          "La séquence « Angoisse de séparation » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Ta voix pendant le geste : associée au toucher, elle reste un repère puissant.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "separation",
           "titre": "Angoisse de séparation"
         }
       },
       "pour_aller_plus_loin": [
-        "Relier au progrès : une rechute suit presque toujours une nouvelle acquisition.",
+        "Relier au progrès : une rechute suit souvent une nouvelle acquisition.",
         "Compter en semaines : elle s'atténue quand l'acquisition est digérée.",
         "Ne pas culpabiliser : tu n'as rien cassé.",
         "S'attendre à d'autres rechutes : à chaque grande étape."
       ],
-      "principe": "Les rechutes accompagnent les progrès. Ce qui rassure, ce sont les rituels qu'il connaît, pas les stratégies nouvelles, qui ajoutent de l'incertitude.",
+      "principe": "Les rechutes accompagnent souvent les progrès. Ce qui rassure, ce sont les rituels qu'il connaît, pas les stratégies nouvelles, qui ajoutent de l'incertitude.",
       "erreurs_a_eviter": [
         "Inventer une nouvelle stratégie à chaque rechute.",
         "Éviter les séparations pour le préserver.",
-        "Partir en cachette.",
-        "Interpréter la rechute comme un recul."
+        "Partir en cachette."
       ],
-      "consulter_si": "Consulter si : l'enfant ne se calme jamais, même quand tu reviens, ne cherche jamais ton visage ni ta voix, ne babille pas, ne réagit pas aux bruits, perd des compétences acquises, ou paraît anormalement mou ou éteint → pédiatre ou PMI.",
+      "consulter_si": "Consulter si : l'enfant ne se calme jamais, même à ton retour, ou perd des compétences acquises → pédiatre ou PMI.",
       "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), les étapes du développement de bébé."
     },
     {
       "categorie": "sepa",
-      "situation": "Le rituel d'au revoir qui s'use / Il pleure à chaque départ malgré tout",
+      "situation": "Le rituel d'au revoir usé / Il pleure à chaque départ",
       "titre": "Le réactualiser, pas l'allonger",
       "explication": "Le rituel de départ fonctionnait, et il ne fonctionne plus. C'est normal : un rituel s'use quand l'enfant grandit, parce que sa compréhension change. À onze mois, il comprend beaucoup plus qu'à six : il peut suivre une séquence, anticiper, comprendre des mots simples. Un rituel qui ne s'adresse plus à son niveau devient un geste vide. Le réactualiser (en y ajoutant des mots, une séquence claire, un repère de retour qu'il peut comprendre) lui rend le départ prévisible.",
       "ancrage": "Un rituel s'use quand l'enfant grandit. Le réactualiser à son nouveau niveau de compréhension lui rend le départ prévisible.",
@@ -130,13 +116,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : le rituel des retrouvailles",
-        "etapes": [
-          "Au retour, chaque jour : toujours au même moment.",
-          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
-          "Suivre la séquence « Angoisse de séparation » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Parler doucement pendant la séquence : raconter ce que tu fais, sur le même ton.",
-          "S'arrêter à sa demande : il peut avoir besoin de calme d'abord."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "separation",
           "titre": "Angoisse de séparation"
@@ -152,15 +132,14 @@
       "erreurs_a_eviter": [
         "Garder un rituel qui ne fonctionne plus.",
         "Étirer l'au revoir par culpabilité.",
-        "Partir en cachette.",
-        "Changer de rituel chaque matin."
+        "Partir en cachette."
       ],
-      "consulter_si": "Consulter si : l'enfant refuse de manger et de boire à la garde pendant plusieurs jours, s'il perd du poids, s'il paraît éteint ou apathique, ou s'il régresse durablement → pédiatre, PMI, ou psychologue périnatal.",
+      "consulter_si": "Consulter si : l'enfant refuse de manger et de boire à la garde plusieurs jours, ou paraît éteint ou apathique → pédiatre ou PMI.",
       "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), les étapes du développement de bébé."
     },
     {
       "categorie": "sepa",
-      "situation": "Le doudou qui ne console plus / Il le refuse au moment de partir",
+      "situation": "Le doudou qui ne console plus / Il le refuse au départ",
       "titre": "Chercher un autre relais",
       "explication": "Le doudou faisait le relais, et il ne le fait plus. L'objet transitionnel peut perdre son pouvoir, parce qu'il a changé d'odeur après un lavage, parce que l'enfant a grandi, ou parce que l'angoisse a monté d'un cran. Ce n'est pas un échec, et cela ne veut pas dire qu'il n'y a plus de relais possible. Ce qui fonctionne : chercher avec le lieu de garde ce qui, aujourd'hui, fait relais pour lui : une photo, un vêtement, une chanson, un adulte référent, un rituel d'arrivée.",
       "ancrage": "Un doudou peut perdre son pouvoir. Le relais se cherche avec le lieu de garde : il en existe d'autres.",
@@ -180,14 +159,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : un repère transmissible",
-        "etapes": [
-          "Un geste que l'équipe peut reproduire : la même séquence, à l'identique.",
-          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
-          "La séquence « Angoisse de séparation » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Toujours au même moment : le repère vient de la régularité.",
-          "Le pratiquer aussi à la maison : pour qu'il soit reconnu ailleurs.",
-          "S'arrêter à sa demande : le geste doit rester agréable, quel que soit l'adulte."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "separation",
           "titre": "Angoisse de séparation"
@@ -196,17 +168,16 @@
       "pour_aller_plus_loin": [
         "Ne pas forcer le doudou : un objet imposé ne devient jamais un objet transitionnel.",
         "En avoir deux identiques : pour les lavages et les pertes.",
-        "Vérifier la sécurité : un doudou plat, léger, en un seul morceau, et jamais d'objet dans le lit avant six mois.",
+        "Vérifier la sécurité : un doudou plat, léger, en un seul morceau, proposé à l'éveil et jamais dans le lit pour dormir.",
         "Travailler avec l'équipe : le relais se construit à deux, pas seule à la maison."
       ],
       "principe": "Un objet transitionnel peut perdre son pouvoir. Le relais existe ailleurs, et il se cherche avec le lieu de garde, pas seule à la maison.",
       "erreurs_a_eviter": [
         "Forcer un doudou qu'il ne choisit pas.",
         "Laver le doudou juste avant une séparation difficile.",
-        "Multiplier les objets dans son lit.",
-        "Chercher la solution seule, sans parler à l'équipe."
+        "Laisser des objets dans son lit pour dormir : risque d'étouffement."
       ],
-      "consulter_si": "Consulter si : l'enfant refuse de manger et de boire à la garde pendant plusieurs jours, s'il perd du poids, s'il paraît éteint ou apathique, ou s'il régresse durablement → pédiatre, PMI, ou psychologue périnatal."
+      "consulter_si": "Consulter si : l'enfant refuse de manger et de boire à la garde plusieurs jours, ou paraît éteint ou apathique → pédiatre ou PMI."
     }
   ]
 }

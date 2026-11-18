@@ -10,7 +10,7 @@
   "protocoles": [
     {
       "categorie": "motricite",
-      "situation": "Le longement des meubles / Il longe les meubles et lâche une main",
+      "situation": "Le longement des meubles / Il longe et lâche une main",
       "titre": "L'équilibre se construit par le déséquilibre",
       "explication": "Il se déplace le long du canapé, lâche une main, vacille, se rattrape. Ce moment est décisif : l'équilibre debout ne se construit pas en étant tenu, il se construit en se déséquilibrant et en se rattrapant. Tenir ses mains pour l'aider à marcher lui donne un équilibre qui n'est pas le sien, et le prive du travail intérieur qui le construira. Ce qui l'aide : un environnement où il peut se déséquilibrer sans danger, et des appuis à la bonne hauteur.",
       "ancrage": "On n'apprend pas l'équilibre en étant tenu. Baisse les obstacles plutôt que de tenir ses mains.",
@@ -29,37 +29,37 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "L'éveil libre",
+        "titre": "Un terrain pour longer",
         "etapes": [
           "Beaucoup de temps au sol : c'est le seul « exercice » qui compte.",
           "Placer un objet sur un meuble bas : pour donner envie de se lever et de longer.",
-          "Le laisser tomber : les chutes basses font partie de l'apprentissage.",
+          "Le laisser se rattraper seul : une chute basse, sur sol amorti, fait partie de l'apprentissage.",
           "Ta présence à sa hauteur : disponible, sans le soutenir.",
-          "S'arrêter s'il fatigue : la fatigue multiplie les chutes."
+          "Finir avant la fatigue : la fatigue multiplie les chutes."
         ]
       },
       "pour_aller_plus_loin": [
         "Éviter les chaussures rigides : elles n'ont aucune utilité avant la marche assurée à l'extérieur.",
-        "Ne jamais utiliser de trotteur : il n'accélère rien et présente des risques réels.",
+        "Éviter le trotteur : il n'accélère rien et présente des risques réels.",
         "Fixer les meubles au mur : un meuble qui bascule peut tuer.",
         "Sécuriser les escaliers : barrières en haut et en bas."
       ],
       "principe": "L'équilibre se construit par le déséquilibre, jamais en étant tenu. Ce qui aide, c'est un environnement où se rattraper est possible, pas une main qui soutient.",
       "erreurs_a_eviter": [
-        "Tenir ses mains pour l'aider à marcher.",
-        "Utiliser un trotteur ou un youpala.",
-        "Le chausser avec des chaussures rigides à l'intérieur.",
-        "Laisser un meuble instable comme appui."
+        "Tenir ses mains pour l'aider à marcher : il avance avec un équilibre qui n'est pas le sien.",
+        "Utiliser un trotteur ou un youpala : il se déplace sans équilibre acquis, et les chutes dans les escaliers sont graves.",
+        "Le chausser avec des chaussures rigides à l'intérieur : le pied perd les informations du sol.",
+        "Laisser un meuble instable comme appui : il se hisse dessus et le meuble bascule."
       ],
       "consulter_si": "Consulter si : bébé ne se déplace d'aucune façon vers douze mois, ne se met jamais debout, paraît anormalement mou ou raide, s'il perd une compétence acquise, ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre ou PMI, qui orientera si nécessaire vers un kinésithérapeute pédiatrique ou un psychomotricien.",
       "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), l'activité physique du tout-petit et les étapes du développement."
     },
     {
       "categorie": "motricite",
-      "situation": "L'absence de marche / Il ne marche toujours pas à dix mois",
-      "titre": "La fourchette normale va jusqu'à dix-huit mois",
-      "explication": "Dix mois, et il ne marche pas. Certains bébés du même âge font déjà leurs premiers pas, et l'inquiétude s'installe. La fourchette normale de la marche est extrêmement large : elle s'étale entre dix et dix-huit mois environ, et un enfant qui marche à seize mois n'a aucun retard. Rien ne se stimule, rien ne s'entraîne : la marche vient quand le corps est prêt. Ce qui la prépare vraiment, c'est le temps passé libre au sol, pas les exercices, pas les mains tenues, et surtout pas un trotteur.",
-      "ancrage": "Marcher entre dix et dix-huit mois est normal. Rien ne se stimule, tout se laisse venir, au sol.",
+      "situation": "L'absence de marche / Il ne marche pas à 10 mois",
+      "titre": "La fourchette normale va jusqu'à dix-8 mois",
+      "explication": "Dix mois, et il ne marche pas. Certains bébés du même âge font déjà leurs premiers pas, et l'inquiétude s'installe. La fourchette normale de la marche est extrêmement large : elle s'étale entre huit et dix-8 mois environ, et un enfant qui marche à seize mois n'a aucun retard. Rien ne se stimule, rien ne s'entraîne : la marche vient quand le corps est prêt. Ce qui la prépare vraiment, c'est le temps passé libre au sol, pas les exercices, pas les mains tenues, et surtout pas un trotteur.",
+      "ancrage": "Marcher entre huit et dix-8 mois est normal. Rien ne se stimule, tout se laisse venir, au sol.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
@@ -67,7 +67,7 @@
         "etapes": [
           "Du temps libre au sol : c'est le seul « exercice » qui compte.",
           "Ne pas le faire marcher en le tenant : cela ne l'entraîne pas, cela le contraint.",
-          "Ne jamais utiliser de trotteur : il n'accélère rien.",
+          "Éviter le trotteur : il n'accélère rien et présente des risques réels.",
           "Pieds nus à la maison : la sensation du sol guide l'équilibre.",
           "Aménager des appuis stables : à sa hauteur, fixés, sans rien qui bascule."
         ]
@@ -75,36 +75,36 @@
       "geste_doux": {
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
-        "titre": "L'éveil libre",
+        "titre": "Laisser venir la marche",
         "etapes": [
           "Varier les surfaces : tapis, parquet, herbe, chacune informe différemment.",
-          "Placer des objets sur des meubles bas : pour donner envie de se lever.",
-          "Le laisser tomber et se relever : c'est le chemin.",
+          "Des jeux accroupi : ramasser un objet, se relever, recommencer, un objet à la fois.",
+          "Le laisser se relever seul : une chute basse, sur sol amorti, fait partie du chemin.",
           "Ta présence, sans soutien : à côté de lui, disponible.",
-          "S'arrêter s'il fatigue : quelques minutes suffisent."
+          "Finir avant la fatigue : quelques minutes suffisent."
         ]
       },
       "pour_aller_plus_loin": [
-        "Retenir la fourchette : la marche arrive en général entre dix et dix-huit mois, et un enfant qui marche tard n'a pas de retard.",
+        "Retenir la fourchette : la marche arrive en général entre huit et dix-8 mois, et un enfant qui marche tard n'a pas de retard.",
         "Ne pas comparer : c'est la comparaison, pas le développement, qui crée l'inquiétude.",
         "Poser tes questions en consultation : le suivi médical existe pour cela.",
         "Se méfier des accessoires vendus comme des aides : trotteurs, chaussures rigides, harnais de marche."
       ],
-      "principe": "La marche vient quand le corps est prêt : entre dix et dix-huit mois, la fourchette est très large. Rien ne s'accélère, le sol fait tout le travail.",
+      "principe": "La marche vient quand le corps est prêt : entre huit et dix-8 mois, la fourchette est très large. Rien ne s'accélère, le sol fait tout le travail.",
       "erreurs_a_eviter": [
-        "Utiliser un trotteur ou un harnais de marche.",
-        "Tenir ses mains pour le faire marcher.",
-        "Le chausser rigidement à l'intérieur.",
-        "Comparer sa progression à celle d'un autre enfant."
+        "Utiliser un trotteur ou un harnais de marche : il est tenu dans une position qu'il n'atteint pas seul, et le harnais le prive de ses rattrapages.",
+        "Tenir ses mains pour le faire marcher : il suit ton rythme au lieu de construire le sien.",
+        "Le chausser rigidement à l'intérieur : le pied ne sent plus le sol.",
+        "Comparer sa progression à celle d'un autre enfant : l'ordre d'arrivée ne prédit rien de la suite."
       ],
       "consulter_si": "Consulter si : bébé ne se déplace d'aucune façon vers douze mois, ne se met jamais debout vers douze mois, ne marche pas du tout vers dix-huit mois, paraît anormalement mou ou raide, s'il perd une compétence acquise, ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre ou PMI, qui orientera si nécessaire.",
       "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), l'activité physique du tout-petit et les étapes du développement."
     },
     {
       "categorie": "motricite",
-      "situation": "Les chutes à répétition / Il tombe chaque fois qu'il se lève",
+      "situation": "Les chutes à répétition / Il tombe en se levant",
       "titre": "Amortir le sol plutôt que le retenir",
-      "explication": "Il tombe dix fois par heure. Chaque chute te fait sursauter, et tu passes tes journées en alerte. Les chutes basses font partie de l'apprentissage : c'est en tombant qu'il apprend à se rattraper, à amortir, à anticiper. Le retenir en permanence l'en empêche. Ce qui change tout, c'est de sécuriser l'environnement une fois pour toutes : angles protégés, sol amortissant, meubles fixés, rien de dur à portée. Une chute sur un tapis, sans obstacle, ne demande aucune intervention, et elle t'épargne une alerte permanente.",
+      "explication": "Il tombe souvent. Chaque chute te fait sursauter, et tu passes tes journées en alerte. Les chutes basses font partie de l'apprentissage : c'est en tombant qu'il apprend à se rattraper, à amortir, à anticiper. Le retenir en permanence l'en empêche. Ce qui change tout, c'est de sécuriser l'environnement une fois pour toutes : angles protégés, sol amortissant, meubles fixés, rien de dur à portée. Une chute sur un tapis, sans obstacle, ne demande aucune intervention, et elle t'épargne une alerte permanente.",
       "ancrage": "Ce n'est pas son corps qu'on protège, c'est le sol. Une chute sans obstacle est un apprentissage, pas une alerte.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -138,12 +138,12 @@
       ],
       "principe": "Les chutes basses construisent l'équilibre. Ce qui se sécurise, c'est l'environnement, et cela t'épargne une vigilance permanente.",
       "erreurs_a_eviter": [
-        "Retenir bébé en permanence.",
-        "Laisser un meuble non fixé au mur.",
-        "Paniquer à chaque chute.",
+        "Retenir bébé en permanence : il ne développe pas ses réflexes de rattrapage.",
+        "Laisser un meuble non fixé au mur : en se hissant, il le fait basculer sur lui.",
+        "Paniquer à chaque chute : il apprend la peur d'un événement qu'il aurait traversé sans rien.",
         "Utiliser un trotteur pour éviter les chutes : il les multiplie et les aggrave."
       ],
-      "consulter_si": "Consulter si : après un choc à la tête, bébé perd connaissance même brièvement, vomit, devient anormalement somnolent ou difficile à réveiller, pleure de façon inconsolable, présente une pâleur, une bosse importante, un saignement, ou un membre qu'il ne mobilise plus → appeler le 15 sans attendre. En cas de chute d'une hauteur ou dans un escalier : urgence immédiate.",
+      "consulter_si": "Consulter si : après une chute, son comportement te paraît inhabituel (somnolence, vomissements, pâleur, pleurs inconsolables) → appeler le 15 sans attendre. Après une chute d'une hauteur, faire examiner l'enfant même s'il semble aller bien.",
       "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), éviter les accidents domestiques des enfants."
     },
     {
@@ -172,7 +172,7 @@
           "Du temps libre au sol : plusieurs fois par jour, sans entrave.",
           "Des appuis stables à sa hauteur : meubles fixés, rien qui bascule.",
           "Pieds nus : la sensation du sol guide l'équilibre.",
-          "Le laisser tomber et se relever : c'est le chemin.",
+          "Le laisser se relever seul : sur sol amorti, la chute basse fait partie du chemin.",
           "S'arrêter s'il fatigue : quelques minutes suffisent."
         ]
       },
@@ -184,13 +184,58 @@
       ],
       "principe": "Le trotteur n'accélère rien et expose à des chutes graves. Le sol libre, avec des appuis stables, est le meilleur terrain d'entraînement qui existe.",
       "erreurs_a_eviter": [
-        "Utiliser un trotteur ou un youpala.",
-        "Installer bébé debout dans un dispositif qu'il n'atteint pas seul.",
+        "Utiliser un trotteur ou un youpala : il n'accélère rien et expose à des chutes graves.",
+        "Installer bébé debout dans un dispositif qu'il n'atteint pas seul : l'équilibre est artificiel et ne l'entraîne à rien.",
         "Laisser un trotteur près d'un escalier : une chute dans les marches est le scénario le plus grave.",
-        "Céder à la pression de l'entourage sur ce point."
+        "Céder à la pression de l'entourage sur ce point : le risque est pour lui, le confort pour les autres."
       ],
-      "consulter_si": "Consulter si : après une chute, bébé perd connaissance, vomit, devient anormalement somnolent, pleure de façon inconsolable, présente une bosse importante, un saignement, ou un membre qu'il ne mobilise plus → appeler le 15. En cas de chute dans un escalier : urgence immédiate.",
+      "consulter_si": "Consulter si : après une chute, son comportement te paraît inhabituel (somnolence, vomissements, pâleur, pleurs inconsolables) → appeler le 15 sans attendre. Après une chute d'une hauteur, faire examiner l'enfant même s'il semble aller bien.",
       "source": "Source : Commission de la sécurité des consommateurs et DGCCRF (economie.gouv.fr), accidents liés aux produits de puériculture ; 1000-premiers-jours.fr, éviter les accidents domestiques."
+    },
+    {
+      "categorie": "motricite",
+      "situation": "La pince pouce-index / Il attrape les miettes",
+      "titre": "Une belle étape à fêter et à encadrer",
+      "explication": "Il ratissait tout avec la main entière ; maintenant il pince une miette, un fil, un grain de poussière entre le pouce et l'index. La pince pouce-index est une étape importante de sa motricité fine¹. Elle apparaît en général entre 8 et 12 mois environ, chacun à son rythme². Il ne s'amuse pas : il apprend ce que ses doigts savent faire, et il porte tout à la bouche pour mieux explorer.",
+      "ancrage": "Tu peux t'émerveiller. Ce geste minuscule est un vrai progrès, et il n'a pas besoin d'être applaudi pour compter.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : fêter et sécuriser",
+        "etapes": [
+          "Regarder et nommer : « tu as attrapé la petite miette ». Un mot simple suffit, sans lui demander de recommencer.",
+          "Ramasser ce qui traîne au sol : miettes, boutons, piles, pièces, tout ce qu'il pourrait saisir et avaler.",
+          "Rester à portée de main : ne pas le laisser seul avec de petits objets, il les porte tous à la bouche.",
+          "Lui proposer des objets faits pour lui : boulier, cubes, anneaux, que ses doigts peuvent saisir sans risque¹.",
+          "Lui laisser le temps : il rate, il recommence, et la précision vient avec l'essai."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Jouer avec ses doigts",
+        "etapes": [
+          "Cacher un objet sous un tissu : il le cherche, le trouve et le saisit du bout des doigts¹.",
+          "Faire coulisser les boules d'un boulier : un geste de pince, simple et satisfaisant¹.",
+          "Lui offrir des matières à toucher : papier à déchirer, eau, sable propre, pâte à sel, sous ta surveillance³.",
+          "Chanter des comptines à gestes : jeux de doigts et de mains, face à face, dans un moment calme³.",
+          "T'arrêter quand il se lasse : le jeu doit rester un plaisir."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Lui laisser tenir sa cuillère et son verre aux repas : tenir, lâcher et viser lui servent d'entraînement²",
+        "Proposer de remplir et vider un sac ou une boîte : il adore, et ses doigts travaillent sans que tu aies à diriger²",
+        "Empiler 2 ou 3 cubes, avec toi : puis des encastrements simples, toujours accompagnés par un adulte²",
+        "En parler à la consultation de suivi ou à la PMI : le carnet de santé suit aussi l'usage de ses mains²"
+      ],
+      "principe": "Une main qui apprend a besoin d'objets simples, de temps et d'un adulte qui regarde. Ce geste est à observer avec plaisir, pas un exercice à réussir.",
+      "erreurs_a_eviter": [
+        "Lui faire répéter pour montrer : le geste devient une performance, il perd le plaisir de chercher.",
+        "Laisser de petits objets à portée en pensant qu'il « sait » : il les porte tous à sa bouche.",
+        "Comparer l'âge d'arrivée de la pince avec d'autres bébés : chacun son rythme, et la comparaison inquiète pour rien."
+      ],
+      "consulter_si": "Consulter si : il ne se sert jamais de ses doigts pour saisir, n'utilise qu'une seule main, garde les poings serrés ou perd un geste qu'il avait acquis, ou si tu as un doute → pédiatre ou PMI.",
+      "source": "Source : ¹ pince pouce-index, boulier et cache-cache, sante.fr (mpedia, bébé de 6 à 9 mois), 2025 ; ² cuillère, verre, remplir et vider, empiler, encastrements, surveillance, sante.fr (mpedia, bébé de 9 à 12 mois), 2025 ; ³ jeux de matières et comptines, Petit guide de la motricité, Ville de Paris, 2019."
     }
   ]
 }

@@ -48,16 +48,15 @@
       "erreurs_a_eviter": [
         "S'éclipser quand il a le dos tourné : l'enfant devient vigilant et supporte encore moins les séparations suivantes.",
         "Étirer les au revoir en multipliant les câlins : la tension monte à chaque minute supplémentaire.",
-        "Promettre d'arriver tôt sans pouvoir le tenir : la parole donnée perd sa valeur de repère.",
         "Changer d'organisation après une journée difficile : les pleurs du début ne mesurent pas la qualité de la garde."
       ],
-      "consulter_si": "Consulter si : ton enfant refuse de boire et de manger sur place, régresse nettement à la maison, ou devient éteint et sans réaction → en parler avec l'équipe et avec le pédiatre ou la PMI."
+      "consulter_si": "Consulter si : ton enfant refuse de boire et de manger sur place, ou devient éteint et sans réaction → en parler avec l'équipe et avec le pédiatre ou la PMI."
     },
     {
       "categorie": "sepa",
       "situation": "L'accrochage à ma jambe / Il me suit dans chaque pièce",
       "titre": "Rassurer à la voix",
-      "explication": "Ton enfant vient de comprendre que tu existes toujours quand tu n'es plus visible, et cette découverte le rend d'abord plus inquiet : il sait maintenant que quelque chose lui manque. Il te suit, s'accroche à ta jambe, proteste dès que la porte se ferme. Cette phase apparaît chez la plupart des enfants entre 8 et 18 mois, avec des pics et des accalmies. Elle est le signe d'un attachement qui fonctionne, et elle s'apaise quand l'expérience lui montre, dix fois par jour, que tu reviens.",
+      "explication": "Ton enfant vient de comprendre que tu existes toujours quand tu n'es plus visible, et cette découverte le rend d'abord plus inquiet : il sait maintenant que quelque chose lui manque. Il te suit, s'accroche à ta jambe, proteste dès que la porte se ferme. Cette phase est fréquente à cet âge, avec des pics et des accalmies. Elle est le signe d'un attachement qui fonctionne, et elle s'apaise quand l'expérience lui montre, jour après jour, que tu reviens.",
       "ancrage": "Répondre à ce besoin ne le rend pas plus collant, c'est ce qui l'autorise à s'éloigner ensuite. Tu peux l'emmener avec toi pour l'instant, sans t'inquiéter pour plus tard.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -75,13 +74,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : nourrir le réservoir de sécurité",
-        "etapes": [
-          "Prévoir un moment fixe : chaque jour à la même heure, 10 minutes rien qu'à vous deux.",
-          "L'installer au calme : allongé sur le dos, éveillé et détendu, dans un endroit qu'il connaît.",
-          "Suivre la séquence Angoisse de séparation : elle est détaillée et animée dans l'onglet Réflexologie.",
-          "Regard et voix disponibles : le geste compte moins que ton attention entière pendant ces minutes.",
-          "S'arrêter quand il part jouer : c'est le meilleur signe que le réservoir est plein."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "separation",
           "titre": "Angoisse de séparation"
@@ -97,16 +90,15 @@
       "erreurs_a_eviter": [
         "Se cacher pour tester s'il pleure : le doute qui s'installe augmente la surveillance.",
         "Le laisser seul pour l'habituer : à cet âge, l'entraînement à la séparation ne fabrique aucune sécurité.",
-        "Le confier brusquement à un adulte peu familier : la nouveauté au mauvais moment renforce l'agrippement.",
-        "Le traiter de collant devant lui : il comprend le ton et la répétition bien avant les mots."
+        "Le confier brusquement à un adulte peu familier : la nouveauté au mauvais moment renforce l'agrippement."
       ],
-      "consulter_si": "Consulter si : ton enfant ne se détache jamais, même quelques secondes, même en ta présence, s'il ne s'intéresse à aucun jeu, s'il ne cherche jamais le contact avec d'autres adultes familiers, ou si cette phase ne s'atténue pas du tout après 18 mois → en parler au pédiatre ou à la PMI."
+      "consulter_si": "Consulter si : ton enfant ne s'intéresse à aucun jeu, ne cherche jamais le contact avec d'autres adultes familiers, ou si cette phase ne s'atténue pas du tout → pédiatre ou PMI."
     },
     {
       "categorie": "sepa",
-      "situation": "Le refus des bras des grands-parents / Il les refuse même s'il les connaît",
+      "situation": "Le refus des grands-parents / Même s'il les connaît",
       "titre": "Protéger sans froisser",
-      "explication": "Autour de la première année, ton enfant trie très clairement les personnes : il distingue les visages familiers des autres, et il choisit qui a le droit de le porter. Refuser les bras d'un grand-parent qu'il voit pourtant souvent n'a rien d'un rejet affectif : c'est une prudence normale, qui apparaît chez la plupart des enfants entre 8 et 18 mois. Elle s'accentue quand il est fatigué ou dans un lieu inhabituel. Forcer le contact à ce moment-là ne rapproche pas, cela renforce la méfiance.",
+      "explication": "Autour de la première année, ton enfant trie très clairement les personnes : il distingue les visages familiers des autres, et il choisit qui a le droit de le porter. Refuser les bras d'un grand-parent qu'il voit pourtant souvent n'a rien d'un rejet affectif : c'est une prudence normale, fréquente à cet âge. Elle s'accentue quand il est fatigué ou dans un lieu inhabituel. Forcer le contact à ce moment-là ne rapproche pas, cela renforce la méfiance.",
       "ancrage": "Ce refus n'est pas un jugement sur les proches, et tu n'as pas à le corriger. Ton rôle est de protéger son rythme, en trouvant les mots pour l'expliquer aux adultes.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -142,16 +134,15 @@
       "erreurs_a_eviter": [
         "Le déposer de force dans les bras d'un proche : le message reçu est que son refus ne compte pas.",
         "L'accuser d'être timide ou capricieux devant tout le monde : l'étiquette colle et la gêne augmente.",
-        "Multiplier les visages nouveaux dans la même journée : la méfiance se cumule au lieu de s'apprivoiser.",
-        "S'excuser longuement auprès des adultes vexés : la scène se prolonge sous ses yeux au lieu de se refermer."
+        "Multiplier les visages nouveaux dans la même journée : la méfiance se cumule au lieu de s'apprivoiser."
       ],
-      "consulter_si": "Consulter si : ton enfant refuse aussi le contact avec ses parents, s'il ne sourit à personne, s'il ne cherche jamais le regard des adultes qu'il connaît, ou s'il devient soudainement méfiant après un événement précis → en parler au pédiatre ou à la PMI."
+      "consulter_si": "Consulter si : ton enfant refuse aussi le contact avec ses parents, ne sourit à personne, ou devient soudainement méfiant après un événement précis → pédiatre ou PMI."
     },
     {
       "categorie": "sepa",
-      "situation": "Les retrouvailles froides / Il m'ignore quand je viens le chercher",
+      "situation": "Les retrouvailles froides / Il m'ignore quand je viens",
       "titre": "Le rejet du soir n'en est pas un",
-      "explication": "Tu arrives, tu tends les bras, et ton enfant se détourne, continue de jouer, ou part vers l'adulte qui l'a gardé. Ce moment déroute beaucoup de parents. Il ne s'agit ni de bouderie ni de préférence : à un an, un enfant n'a pas les moyens de bouder, ce qui suppose une intention et une mémoire du reproche. Ce qu'il montre, c'est un temps de transition dont il a besoin pour passer d'un monde à l'autre, et parfois la trace de l'effort qu'il a fourni toute la journée.",
+      "explication": "Tu arrives, tu tends les bras, et ton enfant se détourne, continue de jouer, ou part vers l'adulte qui l'a gardé. Ce moment déroute beaucoup de parents. Il ne s'agit ni de bouderie ni de préférence : à un an, bouder est peu probable. Ce qu'il montre, c'est un temps de transition dont il a besoin pour passer d'un monde à l'autre, et parfois la trace de l'effort qu'il a fourni toute la journée.",
       "ancrage": "Ce moment ne dit rien de ton lien avec lui, et il ne se répare pas en insistant. Tu peux te rendre disponible et attendre qu'il vienne.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -187,10 +178,9 @@
       "erreurs_a_eviter": [
         "Insister pour obtenir un câlin immédiat : la pression prolonge le retrait au lieu de le lever.",
         "Interpréter le geste comme une préférence pour l'autre adulte : l'attachement ne se mesure pas à cet instant.",
-        "Reprocher le comportement à l'enfant ou à la personne qui l'a gardé : la tension s'ajoute à la fatigue du soir.",
         "Tenter de compenser par un cadeau ou une sortie : le besoin du moment est le calme et la présence."
       ],
-      "consulter_si": "Consulter si : ton enfant ne manifeste aucune réaction à ton arrivée, jamais, quel que soit le jour, s'il paraît éteint ou triste plusieurs jours de suite, ou si ces retours s'accompagnent de régressions marquées du sommeil et de l'alimentation → en parler au pédiatre ou à la PMI."
+      "consulter_si": "Consulter si : ton enfant ne manifeste aucune réaction à ton arrivée, jamais, ou paraît éteint ou triste plusieurs jours de suite → pédiatre ou PMI."
     }
   ]
 }

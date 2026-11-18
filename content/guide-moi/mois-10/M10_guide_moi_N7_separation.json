@@ -30,13 +30,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : ancrer la sécurité",
-        "etapes": [
-          "Un moment quotidien : bébé sur le dos, éveillé et calme.",
-          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
-          "La séquence « Angoisse de séparation » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Ta voix pendant le geste : associée au toucher, elle devient un repère.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "separation",
           "titre": "Angoisse de séparation"
@@ -52,10 +46,9 @@
       "erreurs_a_eviter": [
         "Éviter de fermer la porte pour ne pas le perturber.",
         "Partir en silence.",
-        "Le laisser dans une pièce non sécurisée pour avoir la paix.",
         "Prolonger l'absence alors qu'il panique."
       ],
-      "consulter_si": "Consulter si : bébé ne se calme jamais, même quand tu reviens, ne cherche jamais ton visage ni ta voix, ne réagit pas aux bruits, ne babille pas, ou paraît anormalement mou ou éteint → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition.",
+      "consulter_si": "Consulter si : bébé ne se calme jamais, même à ton retour, ou ne cherche jamais ton visage ni ta voix → pédiatre ou PMI.",
       "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), les étapes du développement de bébé."
     },
     {
@@ -80,13 +73,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : recharger la base",
-        "etapes": [
-          "Un moment quotidien : bébé sur le dos, éveillé et calme.",
-          "Un temps de contact d'abord : ta main à plat sur son torse, sans bouger, quelques respirations.",
-          "Suivre la séquence « Angoisse de séparation » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Parler doucement pendant la séquence : raconter ce que tu fais, sur le même ton.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "separation",
           "titre": "Angoisse de séparation"
@@ -95,24 +82,22 @@
       "pour_aller_plus_loin": [
         "Comprendre le mécanisme : plus la base est fiable, plus l'exploration est audacieuse.",
         "Sécuriser l'espace : pour pouvoir rester immobile sans avoir à intervenir.",
-        "Ne pas se réjouir trop fort de son éloignement : cela peut l'inquiéter et le faire revenir.",
-        "Se rappeler que le va-et-vient est un signe de sécurité."
+        "Ne pas se réjouir trop fort de son éloignement : cela peut l'inquiéter et le faire revenir."
       ],
       "principe": "Le va-et-vient est le signe d'une base sûre. Rester disponible et immobile soutient l'exploration bien mieux que de l'accompagner partout.",
       "erreurs_a_eviter": [
         "Le suivre partout où il explore.",
         "Le repousser vers le jeu quand il revient.",
-        "Se lever et changer de place sans le prévenir.",
-        "Interpréter son retour comme de la dépendance."
+        "Se lever et changer de place sans le prévenir."
       ],
-      "consulter_si": "Consulter si : bébé n'explore jamais, ne s'éloigne jamais de toi, ne cherche jamais le contact, ne babille pas, ou paraît anormalement mou ou éteint → pédiatre ou PMI.",
+      "consulter_si": "Consulter si : bébé n'explore jamais, ne s'éloigne jamais de toi ou ne cherche jamais le contact → pédiatre ou PMI.",
       "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), les étapes du développement de bébé."
     },
     {
       "categorie": "sepa",
-      "situation": "Le guet de mon visage / Il me regarde avant de faire quelque chose",
+      "situation": "Le guet de mon visage / Il me regarde avant d'agir",
       "titre": "Ta réaction est sa boussole",
-      "explication": "Avant de toucher un objet, avant de descendre d'un coussin, avant d'approcher un inconnu, il te cherche du regard. C'est une compétence majeure : il utilise ton visage pour évaluer le risque. Ton expression devient littéralement sa boussole : si tu paniques, il conclut au danger ; si tu restes calme, il essaie. Cela veut dire deux choses. Ta réaction compte plus que tes mots. Et cela veut dire aussi que ton anxiété se transmet directement, avant même que tu aies parlé.",
+      "explication": "Avant de toucher un objet, avant de descendre d'un coussin, avant d'approcher un inconnu, il te cherche du regard. C'est une compétence majeure : il utilise ton visage pour évaluer le risque. Ton expression devient littéralement sa boussole : si tu paniques, il conclut au danger ; si tu restes calme, il essaie. Cela veut dire deux choses. Ta réaction compte plus que tes mots. Et cela veut dire aussi que ton anxiété peut se ressentir, avant même que tu aies parlé.",
       "ancrage": "Il lit ton visage avant d'agir. Ton calme n'est pas de l'indifférence : c'est l'information dont il a besoin pour oser.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
@@ -130,38 +115,30 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : réguler ta propre tension",
-        "etapes": [
-          "Trois respirations lentes : avant d'intervenir, quand ta tension monte.",
-          "Se poser ensemble avant de commencer : ta respiration lente, près de lui, qu'il peut sentir.",
-          "La séquence « Angoisse de séparation » : tu la trouves pas à pas, animée, dans l'onglet Réflexologie.",
-          "Ancrage au sol : pieds à plat, épaules relâchées, mâchoire desserrée.",
-          "Un moment de contact quotidien avec lui : dans le calme.",
-          "S'arrêter à sa demande : le geste doit rester agréable."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "separation",
           "titre": "Angoisse de séparation"
         }
       },
       "pour_aller_plus_loin": [
-        "Comprendre l'enjeu : ton anxiété se transmet directement, et un parent hypervigilant produit un enfant prudent.",
+        "Comprendre l'enjeu : ton calme lui donne l'information dont il a besoin pour oser.",
         "Sécuriser l'environnement : c'est ce qui te permet de rester calme sans effort.",
         "Réserver l'alerte au danger réel : un visage inquiet en permanence le rend craintif.",
         "Travailler ta propre régulation : c'est un acte pour lui, pas un luxe."
       ],
-      "principe": "Ton visage est sa boussole. Ton calme lui permet d'oser ; ton anxiété le rend prudent, bien avant que tu aies prononcé un mot.",
+      "principe": "Ton visage est sa boussole. Ton calme lui permet d'oser ; ton inquiétude le rend plus prudent, bien avant que tu aies prononcé un mot.",
       "erreurs_a_eviter": [
         "Paniquer ou crier à chaque risque.",
         "Surjouer l'enthousiasme à chaque geste.",
-        "Utiliser un visage inquiet en permanence.",
         "Utiliser le « non » pour tout, y compris ce qui n'est pas dangereux."
       ],
-      "consulter_si": "Consulter si : bébé ne cherche jamais ton regard, ne réagit pas à ton expression, ne babille pas, ne pointe pas du doigt vers douze mois, ou paraît anormalement mou ou éteint → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition et de la vision.",
+      "consulter_si": "Consulter si : bébé ne cherche jamais ton regard ou ne réagit pas à ton expression → pédiatre ou PMI.",
       "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), les étapes du développement de bébé."
     },
     {
       "categorie": "sepa",
-      "situation": "Le coucher refusé à l'autre parent / Il ne veut que moi le soir",
+      "situation": "Le coucher refusé à l'autre / Il ne veut que moi",
       "titre": "Commencer par la journée",
       "explication": "Le co-parent tente le coucher, et c'est un échec : hurlements, refus, et tu finis par prendre le relais. C'est logique : le coucher est le moment le plus chargé de la journée en angoisse de séparation. Vouloir y installer le co-parent d'emblée, c'est commencer par le plus difficile. La stratégie qui fonctionne est l'inverse : le co-parent s'installe d'abord dans les rituels du jour (le bain, le repas, le jeu, la sieste), et le coucher vient en dernier, quand le lien est déjà installé.",
       "ancrage": "Le coucher est le moment le plus chargé : c'est le pire endroit pour commencer. Le co-parent s'installe d'abord dans les rituels du jour.",
@@ -181,13 +158,7 @@
         "couleur_fond": "#E1F5EE",
         "couleur_texte": "#085041",
         "titre": "Réflexologie : un repère transmissible",
-        "etapes": [
-          "Le co-parent fait le geste : la même séquence, à l'identique.",
-          "Commencer par un temps immobile : une main posée sur son ventre, le temps que vous vous posiez tous les deux.",
-          "Suivre la séquence « Angoisse de séparation » : elle se fait pas à pas, animée, dans l'onglet Réflexologie.",
-          "Toujours au même moment : le repère vient de la régularité, pas de la personne.",
-          "S'arrêter à sa demande : le geste doit rester agréable, quel que soit l'adulte."
-        ],
+        "etapes": [],
         "lien_reflexologie": {
           "id": "separation",
           "titre": "Angoisse de séparation"
@@ -203,10 +174,9 @@
       "erreurs_a_eviter": [
         "Imposer le coucher au co-parent d'emblée.",
         "Reprendre bébé dès qu'il pleure.",
-        "Rester dans la pièce « pour rassurer ».",
-        "Corriger la façon de faire de l'autre."
+        "Rester dans la pièce « pour rassurer »."
       ],
-      "consulter_si": "Consulter si : le co-parent se sent durablement exclu, triste, irritable ou détaché, s'il s'isole ou perd tout intérêt pour l'enfant → la dépression périnatale touche aussi les co-parents : en parler au médecin, à la sage-femme, à la PMI ou à un psychologue périnatal."
+      "consulter_si": "Consulter si : le co-parent se sent durablement exclu, triste ou détaché → en parler au médecin, à la sage-femme ou à la PMI."
     }
   ]
 }
