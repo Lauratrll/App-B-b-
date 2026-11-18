@@ -980,6 +980,10 @@ export function RythmeOutil({
   );
 
   /** Bouton rond Lait / Selles (12/11) : fond plein, picto plus foncé ; entouré quand la saisie est ouverte. */
+  // 18/11 (Laura) : Réveillé / Endormi / Lait / Selles en relief, ombre douce teintée du bleu de la page,
+  // comme les cases de l'accueil.
+  const RELIEF = "0 6px 14px -6px rgba(47,96,129,.40), 0 2px 4px rgba(47,96,129,.10)";
+
   const boutonRond = (quoi: "lait" | "selle") => (
     <button
       type="button"
@@ -997,6 +1001,7 @@ export function RythmeOutil({
         cursor: "pointer",
         flexShrink: 0,
         position: "relative",
+        boxShadow: RELIEF,
       }}
     >
       <PictoRythme quoi={quoi} taille={28} couleur={quoi === "lait" ? C.laitPicto : C.sellePicto} />
@@ -1046,6 +1051,7 @@ export function RythmeOutil({
     fontSize: 16,
     fontWeight: 600,
     cursor: "pointer",
+    boxShadow: RELIEF,
   });
 
   const fleche: React.CSSProperties = {
