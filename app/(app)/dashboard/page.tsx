@@ -4,20 +4,19 @@ import { getBabyMonth } from "@/lib/utils";
 import { AppMenu } from "@/components/ui/app-menu";
 import { AideInstallationAccueil } from "@/components/ui/installer-app";
 
-// Accueil « B · une rangée apaiser bébé, avec relief », choisi par Laura le 18/11/2026
-// (🔁 remplace la disposition B2 du même jour, jugée plus complexe à lire).
-// 6 cases égales sur 2 colonnes, une rangée par thème :
-//   Sommeil & Endormissement · Guide-moi !
-//   Gestes d'apaisement · Réflexologie plantaire   (toujours côte à côte)
-//   Prendre soin de moi · Vivre la saison
-// Couleurs B2 : chaud (Guide-moi / Prendre soin de moi) pour Guide-moi, Prendre
-// soin et Saison ; sauge pour Apaisement ; turquoise vert clair (gamme
-// Réflexologie) pour Réflexologie ; bleu ciel pour Sommeil, comme le rond du rythme.
-// Chaque case porte deux auréoles, deux tons PLUS SOUTENUS de son camaïeu (jamais
-// plus clairs, jamais de blanc), dans une direction propre à sa place, et une
-// ombre douce (relief). Pas de picto, titres centrés en Playfair, sous-titre en
-// capitales non grasses. La saison n'est plus en haut : elle est le sous-titre de
-// « Vivre la saison ».
+// Accueil à cases de tailles différentes (« B2 »), remis par Laura le 18/11/2026
+// après comparaison avec la grille de 6 cases égales, avec deux ajouts : le relief
+// (ombre douce sous les cases) et la Réflexologie en turquoise vert clair.
+//   Sommeil & Endormissement (toute la largeur)
+//   Guide-moi ! (case haute) | Gestes d'apaisement, puis Réflexologie plantaire
+//   Prendre soin de moi | Vivre la saison
+// Deux camaïeux : chaud (Guide-moi / Prendre soin de moi) pour Guide-moi, Prendre
+// soin et Saison ; frais pour Apaisement (sauge), Réflexologie (turquoise vert) et
+// Sommeil (bleu ciel, comme le rond du rythme). Chaque case porte deux auréoles,
+// deux tons PLUS SOUTENUS de son camaïeu (jamais plus clairs, jamais de blanc),
+// dans une direction propre à la case. Pas de picto, titres centrés en Playfair,
+// sous-titre en capitales non grasses. Pas de saison en haut : elle est le
+// sous-titre de « Vivre la saison ».
 
 const FOND_ACCUEIL = "#FAEEE9";
 const TEXTE = "#3A3228";
@@ -26,26 +25,23 @@ const BRUN = "#8A4030"; // sous-titres des cases chaudes (labels de Prendre soin
 type Case = {
   href: string;
   title: string;
-  subtitle?: string;
   fond: string;
   /** Ton soutenu (auréole principale) puis ton intermédiaire (auréole secondaire). */
   aureoles: [string, string];
-  /** Origine de chaque auréole, en position CSS : elle change avec la place de la case. */
+  /** Origine de chaque auréole, en position CSS. */
   directions: [string, string];
   sousTitre: string;
 };
 
-// Dans l'ordre d'affichage, ligne par ligne.
-const CASES: Case[] = [
-  { href: "/coucher", title: "Sommeil & Endormissement", subtitle: "Rythme et rituels", fond: "#C6DAE8", aureoles: ["#A3C2D9", "#B9D2E6"], directions: ["0% 0%", "100% 100%"], sousTitre: "#285470" },
-  { href: "/guide", title: "Guide-moi !", subtitle: "Protocoles", fond: "#F5D0C8", aureoles: ["#E3AFA0", "#EABDB1"], directions: ["100% 0%", "0% 100%"], sousTitre: BRUN },
-  { href: "/apaisement", title: "Gestes d'apaisement", subtitle: "Boîte à outils", fond: "#E5EBDD", aureoles: ["#BECEA9", "#CCD7B9"], directions: ["100% 50%", "0% 50%"], sousTitre: "#435530" },
+const CASES = {
+  sommeil: { href: "/coucher", title: "Sommeil & Endormissement", fond: "#C6DAE8", aureoles: ["#A3C2D9", "#B9D2E6"], directions: ["100% 100%", "0% 0%"], sousTitre: "#285470" },
+  guide: { href: "/guide", title: "Guide-moi !", fond: "#F5D0C8", aureoles: ["#E3AFA0", "#EABDB1"], directions: ["0% 0%", "100% 100%"], sousTitre: BRUN },
+  apaisement: { href: "/apaisement", title: "Gestes d'apaisement", fond: "#E5EBDD", aureoles: ["#BECEA9", "#CCD7B9"], directions: ["100% 0%", "0% 100%"], sousTitre: "#435530" },
   // Turquoise vert éclairci (Laura, 18/11 : « un peu plus clair, un peu plus vert-bleu »).
-  { href: "/reflexologie", title: "Réflexologie plantaire", subtitle: "Apaiser bébé", fond: "#D2E4DC", aureoles: ["#AFCBBF", "#C0D8CD"], directions: ["0% 50%", "100% 50%"], sousTitre: "#2F5A4A" },
-  { href: "/soin", title: "Prendre soin de moi", subtitle: "Post-partum", fond: "#EABDB1", aureoles: ["#DB9C86", "#E4A894"], directions: ["0% 100%", "100% 0%"], sousTitre: BRUN },
-  // Sans sous-titre fixe : il suit la saison en cours.
-  { href: "/saison", title: "Vivre la saison", fond: "#F8DBC9", aureoles: ["#E7B99F", "#EEC7B0"], directions: ["100% 100%", "0% 0%"], sousTitre: BRUN },
-];
+  reflexo: { href: "/reflexologie", title: "Réflexologie plantaire", fond: "#D2E4DC", aureoles: ["#AFCBBF", "#C0D8CD"], directions: ["0% 100%", "100% 0%"], sousTitre: "#2F5A4A" },
+  soin: { href: "/soin", title: "Prendre soin de moi", fond: "#EABDB1", aureoles: ["#DB9C86", "#E4A894"], directions: ["50% 125%", "50% -25%"], sousTitre: BRUN },
+  saison: { href: "/saison", title: "Vivre la saison", fond: "#F8DBC9", aureoles: ["#E7B99F", "#EEC7B0"], directions: ["125% 50%", "-25% 50%"], sousTitre: BRUN },
+} satisfies Record<string, Case>;
 
 const SEASON_LABELS: Record<string, string> = {
   printemps: "Printemps",
@@ -54,16 +50,21 @@ const SEASON_LABELS: Record<string, string> = {
   hiver: "Hiver",
 };
 
-function CaseAccueil({ c, subtitle }: { c: Case; subtitle: string }) {
+// Hauteurs de la maquette comparée par Laura (140 / 98 px ; Guide-moi = 2 petites
+// cases + l'espace), un peu moins sur les petits écrans.
+const H_GRANDE = "clamp(112px, 17dvh, 140px)";
+const H_PETITE = "clamp(80px, 12dvh, 98px)";
+
+function CaseAccueil({ c, subtitle, hauteur, grand = false }: { c: Case; subtitle: string; hauteur?: string; grand?: boolean }) {
   const [a, b] = c.aureoles;
   const [pa, pb] = c.directions;
   return (
     <Link
       prefetch
       href={c.href}
-      // 130 px sur un téléphone courant, un peu moins sur les petits écrans.
-      className="flex h-[clamp(104px,16dvh,130px)] flex-col items-center justify-center gap-[7px] rounded-[24px] px-3 text-center transition-transform active:scale-[0.97]"
+      className="flex h-full flex-col items-center justify-center gap-[7px] rounded-[24px] px-3 text-center transition-transform active:scale-[0.97]"
       style={{
+        height: hauteur,
         backgroundColor: c.fond,
         // Hex à 8 chiffres (alpha) plutôt que transparent/color-mix : rendu sûr sur tous les Safari.
         backgroundImage: `radial-gradient(circle at ${pa}, ${a} 0, ${a}00 78%), radial-gradient(circle at ${pb}, ${b}D9 0, ${b}00 62%)`,
@@ -73,7 +74,7 @@ function CaseAccueil({ c, subtitle }: { c: Case; subtitle: string }) {
     >
       <p
         className="font-display font-semibold"
-        style={{ color: TEXTE, fontSize: 17, lineHeight: 1.15, letterSpacing: "-0.01em", textWrap: "balance" }}
+        style={{ color: TEXTE, fontSize: grand ? 22 : 17, lineHeight: 1.15, letterSpacing: "-0.01em", textWrap: "balance" }}
       >
         {c.title}
       </p>
@@ -103,7 +104,7 @@ export default async function DashboardPage() {
         <span
           aria-hidden
           className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl font-display text-[22px] font-semibold"
-          style={{ background: "#F5D0C8", color: BRUN }}
+          style={{ background: CASES.guide.fond, color: BRUN }}
         >
           {initiale}
         </span>
@@ -116,13 +117,22 @@ export default async function DashboardPage() {
         <AppMenu />
       </header>
 
-      <ul className="grid grid-cols-2 gap-3">
-        {CASES.map((c) => (
-          <li key={c.href}>
-            <CaseAccueil c={c} subtitle={c.subtitle ?? SEASON_LABELS[season]} />
-          </li>
-        ))}
-      </ul>
+      <div className="flex flex-col gap-3">
+        <CaseAccueil c={CASES.sommeil} subtitle="Rythme et rituels" hauteur={H_GRANDE} grand />
+        <div className="grid grid-cols-2 gap-3">
+          {/* Guide-moi prend la hauteur des deux cases de droite. */}
+          <CaseAccueil c={CASES.guide} subtitle="Protocoles" grand />
+          <div className="flex flex-col gap-3">
+            <CaseAccueil c={CASES.apaisement} subtitle="Boîte à outils" hauteur={H_PETITE} />
+            <CaseAccueil c={CASES.reflexo} subtitle="Apaiser bébé" hauteur={H_PETITE} />
+          </div>
+        </div>
+        <div className="grid grid-cols-2 gap-3">
+          <CaseAccueil c={CASES.soin} subtitle="Post-partum" hauteur={H_PETITE} />
+          {/* « Vivre la saison » : le sous-titre suit la saison en cours. */}
+          <CaseAccueil c={CASES.saison} subtitle={SEASON_LABELS[season]} hauteur={H_PETITE} />
+        </div>
+      </div>
     </section>
   );
 }

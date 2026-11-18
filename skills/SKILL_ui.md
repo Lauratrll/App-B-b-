@@ -466,7 +466,7 @@ Code : `components/ui/bottom-nav.tsx`. Ordre : **Accueil · Cohérence cardiaque
 
 ## Structure de la page d'accueil (Dashboard)
 
-### Accueil « 6 cases, rangée apaiser bébé, relief » (validé le 18/11/2026, fin de journée) — fait foi
+### Accueil « 6 cases, rangée apaiser bébé, relief » (18/11/2026) — 🔁 annulé le soir même : retour à B2 (ci-dessous), en gardant le relief et la couleur Réflexologie de ce bloc
 
 Code : `app/(app)/dashboard/page.tsx`. 🔁 Remplace la **disposition** de B2 ci-dessous ; ses couleurs, auréoles, typo, en-tête, fond et barre du bas restent valables.
 
@@ -476,7 +476,9 @@ Code : `app/(app)/dashboard/page.tsx`. 🔁 Remplace la **disposition** de B2 ci
 - **Réflexologie** : `#D2E4DC` (turquoise vert clair), auréoles `#AFCBBF` · `#C0D8CD`, sous-titre `#2F5A4A`. Les autres cases gardent les couleurs du tableau B2.
 - **Directions d'auréole par place** (soutenue → intermédiaire) : haut gauche → bas droite · haut droite → bas gauche · droite → gauche · gauche → droite · bas gauche → haut droite · bas droite → haut gauche.
 
-### Accueil « B2 · Auréoles » (validé le 18/11/2026) — disposition 🔁 remplacée, couleurs en vigueur
+### Accueil « B2 · Auréoles » (validé le 18/11/2026, remis le soir même) — fait foi
+
+Ajouts du soir : **relief** (ombre du bloc ci-dessus), **Réflexologie `#D2E4DC`** · auréoles `#AFCBBF` · `#C0D8CD` · sous-titre `#2F5A4A` (remplace la ligne Réflexologie du tableau), titre Sommeil sur une ligne, hauteurs Sommeil 140 px / petites cases 98 px, sous-titres 9,5 px.
 
 Code : `app/(app)/dashboard/page.tsx`. 🔁 Remplace la grille et l'ordre du 20/10 ci-dessous.
 
