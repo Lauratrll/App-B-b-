@@ -478,6 +478,8 @@ Code : `app/(app)/dashboard/page.tsx`. 🔁 Remplace la **disposition** de B2 ci
 
 ### Accueil « B2 · Auréoles » (validé le 18/11/2026, remis le soir même) — fait foi
 
+**Dernier état (18/11, nuit)** : Prendre soin `#F8DBC9` (auréoles `#E7B99F` · `#EEC7B0`) ; Vivre la saison abricot doré adouci `#F9E3C8` (auréoles `#F0CB9E` · `#F5D8B6`, sous-titre `#7E4E22`) ; Gestes d'apaisement `#DFE7D5` (auréoles `#BECEA9` · `#C9D5B6`) ; marge sous le prénom 48 px. **Page figée** : pas de défilement, hauteur de l'écran (`accueil-fige` dans globals.css), rangées en proportions 108 / 208 / 98 plafonnées. Code : `components/modules/accueil-vue.tsx`.
+
 Ajouts du soir : **relief** (ombre du bloc ci-dessus), **Réflexologie `#D2E4DC`** · auréoles `#AFCBBF` · `#C0D8CD` · sous-titre `#2F5A4A` (remplace la ligne Réflexologie du tableau), titre Sommeil sur une ligne, hauteurs Sommeil **108 px au plus** (affinée le 18/11 au soir, titre sur une ligne) / petites cases 98 px, sous-titres 9,5 px.
 
 Code : `app/(app)/dashboard/page.tsx`. 🔁 Remplace la grille et l'ordre du 20/10 ci-dessous.

@@ -45,3 +45,19 @@ main:has(> .centre-vertical) {
   display: flex;
   flex-direction: column;
 }
+
+/* Accueil figé (Laura, 18/11/2026) : la page ne défile pas. Le cadre de l'app prend
+   exactement la hauteur de l'écran, le <main> ne déborde plus, et les cases se
+   partagent la place qui reste (app/(app)/dashboard/page.tsx). */
+body:has(.accueil-fige) {
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+div:has(> main > .accueil-fige) {
+  height: 100dvh;
+  min-height: 0;
+}
+main:has(> .accueil-fige) {
+  min-height: 0;
+  overflow: hidden;
+}
