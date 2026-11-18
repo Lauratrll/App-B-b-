@@ -715,7 +715,7 @@ function B4({ c }: { c: Rec }) {
       ) : null}
       {str(c.urgence) ? (
         <Cadre bg="#EDE9E4" border={`1px solid ${CORAL}`} label="En cas d'urgence" labelColor={CORAL_DARK}>
-          <p style={{ fontSize: 12.5, lineHeight: 1.55, color: WARM_BODY, margin: 0 }}>
+          <p style={{ fontSize: 12.5, lineHeight: 1.55, color: WARM_BODY, margin: 0, whiteSpace: "pre-line" }}>
             {renderUrgence(str(c.urgence))}
           </p>
         </Cadre>
