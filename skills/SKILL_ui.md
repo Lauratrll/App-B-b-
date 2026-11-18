@@ -466,7 +466,17 @@ Code : `components/ui/bottom-nav.tsx`. Ordre : **Accueil · Cohérence cardiaque
 
 ## Structure de la page d'accueil (Dashboard)
 
-### Accueil « B2 · Auréoles » (validé le 18/11/2026) — fait foi
+### Accueil « 6 cases, rangée apaiser bébé, relief » (validé le 18/11/2026, fin de journée) — fait foi
+
+Code : `app/(app)/dashboard/page.tsx`. 🔁 Remplace la **disposition** de B2 ci-dessous ; ses couleurs, auréoles, typo, en-tête, fond et barre du bas restent valables.
+
+- **6 cases égales sur 2 colonnes** (130 px, rayon 24, espacées de 12), une rangée par thème : Sommeil & Endormissement · Guide-moi ! / Gestes d'apaisement · Réflexologie plantaire (**toujours côte à côte**) / Prendre soin de moi · Vivre la saison.
+- **Relief** : `box-shadow: 0 8px 18px -8px rgba(110,60,45,.30), 0 2px 4px rgba(110,60,45,.06)`.
+- **Titres** Playfair semi-gras 17 px, centrés, retour à la ligne naturel ; **sous-titres** 9,5 px capitales espacées, non gras.
+- **Réflexologie** : `#D2E4DC` (turquoise vert clair), auréoles `#AFCBBF` · `#C0D8CD`, sous-titre `#2F5A4A`. Les autres cases gardent les couleurs du tableau B2.
+- **Directions d'auréole par place** (soutenue → intermédiaire) : haut gauche → bas droite · haut droite → bas gauche · droite → gauche · gauche → droite · bas gauche → haut droite · bas droite → haut gauche.
+
+### Accueil « B2 · Auréoles » (validé le 18/11/2026) — disposition 🔁 remplacée, couleurs en vigueur
 
 Code : `app/(app)/dashboard/page.tsx`. 🔁 Remplace la grille et l'ordre du 20/10 ci-dessous.
 
