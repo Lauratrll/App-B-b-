@@ -478,7 +478,7 @@ Code : `app/(app)/dashboard/page.tsx`. 🔁 Remplace la **disposition** de B2 ci
 
 ### Accueil « B2 · Auréoles » (validé le 18/11/2026, remis le soir même) — fait foi
 
-Ajouts du soir : **relief** (ombre du bloc ci-dessus), **Réflexologie `#D2E4DC`** · auréoles `#AFCBBF` · `#C0D8CD` · sous-titre `#2F5A4A` (remplace la ligne Réflexologie du tableau), titre Sommeil sur une ligne, hauteurs Sommeil 140 px / petites cases 98 px, sous-titres 9,5 px.
+Ajouts du soir : **relief** (ombre du bloc ci-dessus), **Réflexologie `#D2E4DC`** · auréoles `#AFCBBF` · `#C0D8CD` · sous-titre `#2F5A4A` (remplace la ligne Réflexologie du tableau), titre Sommeil sur une ligne, hauteurs Sommeil **108 px au plus** (affinée le 18/11 au soir, titre sur une ligne) / petites cases 98 px, sous-titres 9,5 px.
 
 Code : `app/(app)/dashboard/page.tsx`. 🔁 Remplace la grille et l'ordre du 20/10 ci-dessous.
 

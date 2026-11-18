@@ -52,7 +52,8 @@ const SEASON_LABELS: Record<string, string> = {
 
 // Hauteurs de la maquette comparée par Laura (140 / 98 px ; Guide-moi = 2 petites
 // cases + l'espace), un peu moins sur les petits écrans.
-const H_GRANDE = "clamp(112px, 17dvh, 140px)";
+// Sommeil affinée (Laura, 18/11 soir) : 108 px au plus, titre sur une ligne.
+const H_GRANDE = "clamp(88px, 13dvh, 108px)";
 const H_PETITE = "clamp(80px, 12dvh, 98px)";
 
 function CaseAccueil({ c, subtitle, hauteur, grand = false }: { c: Case; subtitle: string; hauteur?: string; grand?: boolean }) {
