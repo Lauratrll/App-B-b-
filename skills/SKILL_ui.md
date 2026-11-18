@@ -477,7 +477,7 @@ Code : `app/(app)/dashboard/page.tsx`. 🔁 Remplace la grille et l'ordre du 20/
 
 | Case | Fond | Auréole soutenue · intermédiaire | Direction (soutenue → intermédiaire) | Sous-titre |
 |---|---|---|---|---|
-| Sommeil & Endormissement | `#C6DAE8` bleu ciel | `#A3C2D9` · `#B9D2E6` | bas droite → haut gauche | `#285470` |
+| Sommeil (à la ligne) & endormissement, case fine de 128 px au plus (18/11) | `#C6DAE8` bleu ciel | `#A3C2D9` · `#B9D2E6` | bas droite → haut gauche | `#285470` |
 | Guide-moi ! | `#F5D0C8` | `#E3AFA0` · `#EABDB1` | haut gauche → bas droite | `#8A4030` |
 | Gestes d'apaisement | `#E5EBDD` | `#BECEA9` · `#CCD7B9` | haut droite → bas gauche | `#435530` |
 | Réflexologie plantaire | `#BECEA9` | `#9AB283` · `#A9BE93` | bas gauche → haut droite | `#435530` |

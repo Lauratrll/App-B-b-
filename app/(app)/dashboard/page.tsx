@@ -33,7 +33,8 @@ type Case = {
 };
 
 const CASES = {
-  sommeil: { href: "/coucher", title: "Sommeil & Endormissement", subtitle: "Rythme et rituels", fond: "#C6DAE8", aureoles: ["#A3C2D9", "#B9D2E6"], directions: ["100% 100%", "0% 0%"], sousTitre: BLEU_PROFOND },
+  // Titre sur deux lignes, case plus fine (Laura, 18/11/2026).
+  sommeil: { href: "/coucher", title: "Sommeil\n& endormissement", subtitle: "Rythme et rituels", fond: "#C6DAE8", aureoles: ["#A3C2D9", "#B9D2E6"], directions: ["100% 100%", "0% 0%"], sousTitre: BLEU_PROFOND },
   guide: { href: "/guide", title: "Guide-moi !", subtitle: "Protocoles", fond: "#F5D0C8", aureoles: ["#E3AFA0", "#EABDB1"], directions: ["0% 0%", "100% 100%"], sousTitre: BRUN },
   apaisement: { href: "/apaisement", title: "Gestes d'apaisement", subtitle: "Boîte à outils", fond: "#E5EBDD", aureoles: ["#BECEA9", "#CCD7B9"], directions: ["100% 0%", "0% 100%"], sousTitre: SAUGE_PROFOND },
   reflexo: { href: "/reflexologie", title: "Réflexologie plantaire", subtitle: "Apaiser bébé", fond: "#BECEA9", aureoles: ["#9AB283", "#A9BE93"], directions: ["0% 100%", "100% 0%"], sousTitre: SAUGE_PROFOND },
@@ -50,7 +51,7 @@ const SEASON_LABELS: Record<string, string> = {
 
 // Hauteurs : 168 / 104 px sur un téléphone courant, un peu moins sur les petits
 // écrans pour que tout tienne au-dessus de la barre du bas.
-const H_GRANDE = "clamp(118px, 20dvh, 168px)";
+const H_GRANDE = "clamp(100px, 15dvh, 128px)"; // Sommeil, affinée le 18/11 (avant : jusqu'à 168 px)
 const H_PETITE = "clamp(76px, 12.5dvh, 104px)";
 
 function CaseAccueil({ c, subtitle, hauteur, grand = false }: { c: Case; subtitle: string; hauteur?: string; grand?: boolean }) {
@@ -69,7 +70,7 @@ function CaseAccueil({ c, subtitle, hauteur, grand = false }: { c: Case; subtitl
       }}
     >
       <p
-        className="font-display font-semibold"
+        className="whitespace-pre-line font-display font-semibold"
         style={{ color: TEXTE, fontSize: grand ? 22 : 17, lineHeight: 1.15, letterSpacing: "-0.01em", textWrap: "balance" }}
       >
         {c.title}
