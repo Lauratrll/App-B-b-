@@ -32,10 +32,17 @@ import themesDuMois from "@/content/Compétences bébé/themes_du_mois.json";
 const PHOTO_ACCUEIL: {
   src: string;
   cadrage: CSSProperties;
+  /** Hauteur visible de la photo (les cases suivent : plus basse = boutons plus haut). */
+  hauteur: string;
+  /** Hauteur sur laquelle la photo est cadrée ; ce qui dépasse `hauteur` est coupé en bas. */
+  hauteurCadrage: string;
   /** De combien (px) la case Sommeil remonte sur la photo. */
   chevauchement: number;
 } | null = {
   src: "/images/accueil/peau-a-peau-recentre.jpg",
+  // Bas de la photo coupé (Laura, 19/11 ; avant clamp(190px, 36dvh, 310px)).
+  hauteur: "clamp(170px, 31dvh, 265px)",
+  hauteurCadrage: "clamp(190px, 36dvh, 310px)",
   cadrage: { objectPosition: "70% 30%", transform: "scale(1.15)", transformOrigin: "50% 100%" },
   chevauchement: 30,
 };
@@ -164,16 +171,19 @@ export function AccueilVue({ prenom, mois, saison }: { prenom: string; mois: num
       {PHOTO_ACCUEIL ? (
         // Photo en haut, bord à bord (annule les marges du <main>), bandeau posé dessus.
         // Pas de fondu ni de voile blanc, en haut comme en bas (Laura, 19/11).
-        <div className="relative -mx-5 -mt-6 shrink-0 overflow-hidden" style={{ height: "clamp(190px, 36dvh, 310px)" }}>
-          <Image
-            src={PHOTO_ACCUEIL.src}
-            alt=""
-            fill
-            priority
-            sizes="(max-width: 430px) 100vw, 430px"
-            className="object-cover"
-            style={PHOTO_ACCUEIL.cadrage}
-          />
+        <div className="relative -mx-5 -mt-6 shrink-0 overflow-hidden" style={{ height: PHOTO_ACCUEIL.hauteur }}>
+          {/* La photo garde son cadrage sur une hauteur plus grande ; le cadre la coupe par le bas. */}
+          <div className="absolute inset-x-0 top-0" style={{ height: PHOTO_ACCUEIL.hauteurCadrage }}>
+            <Image
+              src={PHOTO_ACCUEIL.src}
+              alt=""
+              fill
+              priority
+              sizes="(max-width: 430px) 100vw, 430px"
+              className="object-cover"
+              style={PHOTO_ACCUEIL.cadrage}
+            />
+          </div>
           <header className="relative flex items-center gap-3 px-5 pt-6">{bandeau}</header>
         </div>
       ) : (
