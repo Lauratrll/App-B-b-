@@ -11,7 +11,7 @@ export default function manifest(): MetadataRoute.Manifest {
     // aller-retour de plus au lancement. Sans session, l'accueil renvoie à /login.
     start_url: "/dashboard",
     display: "standalone",
-    background_color: "#F2EDE8",
+    background_color: "#FBF2E7",
     theme_color: "#DB936B",
     icons: [
       { src: "/icon.svg", sizes: "any", type: "image/svg+xml" },

@@ -13,7 +13,7 @@ const config: Config = {
         foreground: "var(--foreground)",
         // Palette officielle BeSerene (SKILL_ui.md)
         cream: {
-          DEFAULT: "#F2EDE8",
+          DEFAULT: "#FBF2E7",
           dark: "#E4DDD6",
         },
         peach: {

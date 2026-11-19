@@ -61,7 +61,7 @@ export default function RootLayout({
       >
         <div
           className="mx-auto min-h-dvh max-w-[390px] shadow-sm"
-          style={{ backgroundColor: "#F2EDE8" }}
+          style={{ backgroundColor: "#FBF2E7" }}
         >
           {children}
         </div>

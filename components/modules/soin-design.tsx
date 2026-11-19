@@ -11,7 +11,7 @@ import type { ReactNode } from "react";
 export const PLAYFAIR = "var(--font-playfair), 'Playfair Display', Georgia, serif";
 
 // §4.1 — palette restreinte (chaude + neutres ; pas de bleu).
-export const CREAM = "#F2EDE8";
+export const CREAM = "#FBF2E7";
 export const CREAM_DARK = "#E4DDD6";
 export const INK = "#3A3228";
 export const EUCAL = "#8A9E98";

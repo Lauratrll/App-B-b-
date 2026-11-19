@@ -292,7 +292,7 @@ function BoutonRetour({ href, label }: { href: string; label: string }) {
 }
 
 const STYLE_BARRE = {
-  background: "#F2EDE8",
+  background: "#FBF2E7",
   borderTop: "0.5px solid #C8D8DC",
   paddingBottom: "env(safe-area-inset-bottom)",
 } as const;

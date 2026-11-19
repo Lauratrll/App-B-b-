@@ -12,7 +12,7 @@
 
 | Nom | Hex | Usage principal |
 |-----|-----|-----------------|
-| **Cream** | `#F2EDE8` | Fond général de l'app, fond des pages |
+| **Crème abricot** | `#FBF2E7` | Fond général de l'app, fond des pages (Laura, 19/11/2026 ; avant Cream `#F2EDE8`, jugé trop gris). L'accueil garde son rosé `#FAEEE9`. |
 | **Peach** | `#F0B8A8` | Topbar, accents doux, badges, hover |
 | **Coral** | `#D4604A` | Action immédiate, alertes, CTA principal |
 | **Latte** | `#C89878` | Explications, éléments neutres chauds, icônes |
@@ -23,7 +23,7 @@
 
 ```css
 /* CREAM */
---cream:      #F2EDE8;   /* fond principal */
+--cream:      #FBF2E7;   /* fond principal, crème abricot (19/11/2026) */
 --cream-dark: #E4DDD6;   /* fond secondaire, séparateurs */
 
 /* PEACH */
@@ -101,7 +101,7 @@ Format cible    : Mobile-first portrait
 Largeur max app : 390px (iPhone standard)
 Padding latéral : 16px (1rem)
 Border radius   : 14px (cards), 9px (boutons), 6px (tags)
-Fond général    : #F2EDE8 (Cream)
+Fond général    : #FBF2E7 (Crème abricot, 19/11/2026 ; avant #F2EDE8)
 ```
 
 L'app est conçue pour être utilisée **d'une main, la nuit, avec un bébé dans l'autre bras.**
@@ -422,7 +422,7 @@ Code : `components/ui/bottom-nav.tsx`. Ordre : **Accueil · Cohérence cardiaque
   - Page `/rythme`, saisie (12/11) : bouton choisi entouré de 2 px dans sa couleur foncée (Réveillé `#D9A285`, Endormi `#4F8D9C`, Lait / Selles couleur du picto). Libellé « Réveillée à » / « Endormie à » en 12 px, sur une ligne. Roulette : colonnes 34 px, chiffres 17 / 14. « Ajouter » 13 px. **Ligne de saisie proportionnelle** : zoom CSS = min(1, largeur d’écran / 390). Retrait latéral `clamp` : 16 px au-delà de 352 px de large, 0 à 320 px.
   - **Aucun des trois ronds n'a de contour** (Laura, 06/11).
   - **Auréoles et relief sur les ronds** (Laura, 19/11/2026) : même recette que les cases de l'accueil. Fond inchangé + deux auréoles en tons plus soutenus de leur camaïeu, directions variées ; ombre `0 6px 12px -5px rgba(110,60,45,.32), 0 2px 4px rgba(110,60,45,.07)`. Cohérence `#BECEA9`/`#C9D5B6`, SOS `#D99E8D`/`#E2AE9F`, Que me dit bébé ? `#E3AFA0`/`#EABDB1`, Rythme `#A3C2D9`/`#B9D2E6`.
-- Barre : fond `#F2EDE8`, filet haut `0.5px #C8D8DC`, hauteur 56 px + encoche iPhone.
+- Barre : fond `#FBF2E7` (crème abricot), filet haut `0.5px #C8D8DC`, hauteur 56 px + encoche iPhone.
 - **Les deux boutons ronds et les Épinglés n'apparaissent que sur l'accueil** (20/10) : ce sont des portes d'entrée. **Dans toutes les autres pages**, la barre devient : **Accueil · Retour · (Épingler)**.
   - **Retour** : flèche + **nom de la page où l'on revient** (« ‹ GUIDE-MOI ! », « ‹ ALIMENTATION », « ‹ RÉFLEXOLOGIE »…), dans une pastille blanche qui englobe le texte, typographie du sous-titre « Dans quelles situations ? » (capitales espacées, 10 px, gras, Eucalyptus). Il remplace le lien qui était en haut des pages (retiré partout). Absent sur la page d'une rubrique (c'est Accueil qui ramène). Libellé par défaut d'après la page parente ; une page dont le libellé dépend des données le déclare avec `<NavBack />` (fiche Guide-moi → nom de la catégorie).
   - **Épingler** : épingle + petit « + », calé à droite, **seulement sur une fiche qui s'épingle** : Guide-moi, Réflexologie plantaire, fiche ouverte depuis les épingles. Sinon rien. (La réflexologie de Prendre soin de moi est masquée pour l'instant, slot 1 de `SLOTS_MASQUES` : sa fiche n'est pas accessible, donc pas d'épingle ; le code reste prêt si on la rouvre.) Déjà épinglée = épingle + coche, en Corail. La page le déclare avec `<NavPin />` (`components/ui/nav-context.tsx`). Plus aucun bouton « Épingler » en haut des fiches.

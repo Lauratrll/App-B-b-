@@ -17,7 +17,7 @@ import React from "react";
 
 export const GUIDE_TEXT = "#3A3228";
 export const GUIDE_MUTED = "#8A9E98";
-export const GUIDE_CREAM = "#F2EDE8";
+export const GUIDE_CREAM = "#FBF2E7";
 
 export type SlotStyle = {
   /** Couleur de fond de la case (page 1) + couleur du picto 32px (page 2). */

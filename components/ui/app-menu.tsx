@@ -97,7 +97,7 @@ export function AppMenu() {
           aria-label="Réglages"
           className="absolute right-0 top-0 flex h-full w-[78%] max-w-[300px] flex-col transition-transform duration-200 ease-out"
           style={{
-            background: "#F2EDE8",
+            background: "#FBF2E7",
             transform: ouvert ? "translateX(0)" : "translateX(100%)",
             boxShadow: ouvert ? "-4px 0 18px rgba(58,50,40,.15)" : "none",
           }}
