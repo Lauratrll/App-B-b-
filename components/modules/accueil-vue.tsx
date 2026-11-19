@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { AppMenu } from "@/components/ui/app-menu";
 import { AideInstallationAccueil } from "@/components/ui/installer-app";
+import { ThemeDuMois, type ThemeDuMoisData } from "@/components/modules/theme-du-mois";
+import themesDuMois from "@/content/Compétences bébé/themes_du_mois.json";
 
 // Accueil à cases de tailles différentes (« B2 »), Laura, 18/11/2026 :
 //   Sommeil & Endormissement (toute la largeur)
@@ -84,6 +86,19 @@ function CaseAccueil({ c, subtitle, grand = false }: { c: Case; subtitle: string
   );
 }
 
+/** Thème du mois de bébé (0 à 23), ou null si hors bornes ou sans donnée. */
+function themeDuMois(mois: number): ThemeDuMoisData | null {
+  if (!Number.isInteger(mois) || mois < 0 || mois > 23) return null;
+  const m = themesDuMois.mois?.find((x) => x.mois === mois);
+  if (!m?.mot || !m?.texte) return null;
+  return {
+    mot: m.mot,
+    texte: m.texte,
+    intro: themesDuMois.introduction?.texte ?? "",
+    introCourte: themesDuMois.introduction?.version_courte ?? "",
+  };
+}
+
 // Proportions des trois rangées (hauteurs de la maquette, en px sur un téléphone courant).
 const RANG = { sommeil: 108, milieu: 208, bas: 98 } as const;
 const ECARTS = 2 * 12;
@@ -92,6 +107,7 @@ const HAUTEUR_MAX = RANG.sommeil + RANG.milieu + RANG.bas + ECARTS;
 /** Accueil, sans la lecture des données (testable seul). */
 export function AccueilVue({ prenom, mois, saison }: { prenom: string; mois: number; saison: string }) {
   const initiale = prenom.trim().charAt(0).toUpperCase();
+  const theme = themeDuMois(mois);
 
   // pb : le tiers des boutons ronds de la barre du bas dépasse au-dessus.
   return (
@@ -102,13 +118,18 @@ export function AccueilVue({ prenom, mois, saison }: { prenom: string; mois: num
 
       {/* Marge sous le prénom : 48 px sur un téléphone courant (Laura, 18/11), moins sur les petits écrans. */}
       <header className="flex shrink-0 items-center gap-3" style={{ marginBottom: "clamp(16px, 5.5dvh, 48px)" }}>
-        <span
-          aria-hidden
-          className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl font-display text-[22px] font-semibold"
-          style={{ background: CASES.guide.fond, color: BRUN }}
-        >
-          {initiale}
-        </span>
+        {/* L'encart de l'initiale ouvre le « Thème du mois » (19/11) ; sans donnée, il reste un simple encart. */}
+        {theme ? (
+          <ThemeDuMois initiale={initiale} theme={theme} />
+        ) : (
+          <span
+            aria-hidden
+            className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl font-display text-[22px] font-semibold"
+            style={{ background: CASES.guide.fond, color: BRUN }}
+          >
+            {initiale}
+          </span>
+        )}
         <div className="min-w-0 flex-1">
           <p className="text-[13px] font-bold" style={{ color: BRUN }}>Bonjour !</p>
           <h1 className="font-display text-2xl font-semibold leading-tight text-charcoal">
