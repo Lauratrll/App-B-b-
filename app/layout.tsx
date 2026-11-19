@@ -1,19 +1,11 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import { Playfair_Display, Nunito } from "next/font/google";
 import { MesureAudience } from "@/components/ui/mesure-audience";
 import "./globals.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+// 19/11/2026 (lenteur au premier lancement sur téléphone) : polices Geist
+// retirées (jamais utilisées, le texte courant est en Arial, mais
+// téléchargées à chaque premier lancement : ~135 ko).
 // Playfair Display = font serif des titres (cases modules, headers).
 // Définie comme font-display dans SKILL_ui.md.
 const playfair = Playfair_Display({
@@ -22,8 +14,10 @@ const playfair = Playfair_Display({
   weight: ["500", "600", "700"],
 });
 // Nunito = font de la berceuse-rituel (Coucher), en italique. Cf.
-// skills/CONSIGNES_CLAUDE_CODE_coucher.md §7.
+// skills/CONSIGNES_CLAUDE_CODE_coucher.md §7. Pas préchargée (19/11) : elle ne
+// sert que sur la page Coucher, qui la télécharge seulement à l'ouverture.
 const nunito = Nunito({
+  preload: false,
   subsets: ["latin"],
   variable: "--font-nunito",
   weight: ["400", "600"],
@@ -63,7 +57,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} ${nunito.variable} antialiased text-[#3A3228]`}
+        className={`${playfair.variable} ${nunito.variable} antialiased text-[#3A3228]`}
         style={{ backgroundColor: "#E4DDD6" }}
       >
         <div

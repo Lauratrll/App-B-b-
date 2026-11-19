@@ -7,7 +7,9 @@ export default function manifest(): MetadataRoute.Manifest {
     short_name: "Parentalité",
     description:
       "Accompagnement de parentalité consciente pour les parents de bébés de 0 à 23 mois.",
-    start_url: "/",
+    // Directement l'accueil (19/11/2026) : « / » ne fait que rediriger, un
+    // aller-retour de plus au lancement. Sans session, l'accueil renvoie à /login.
+    start_url: "/dashboard",
     display: "standalone",
     background_color: "#F2EDE8",
     theme_color: "#DB936B",
