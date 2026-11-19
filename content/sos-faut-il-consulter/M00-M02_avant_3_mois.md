@@ -161,33 +161,24 @@ Sources : Carnet de santé, édition 2024 ; ameli.fr — « Diarrhée et gastro-
 
 **Consultez en urgence si :**
 **Sa respiration**
-- Il a de plus en plus de mal à respirer : sa respiration est rapide et plus courte ou irrégulière et lente, il fait des pauses respiratoires, il présente des battements des narines, les espaces entre ses côtes et au-dessus de ses clavicules se creusent (tirage intercostal).
+- Il a **de plus en plus de mal à respirer** : sa respiration est rapide et plus courte ou irrégulière et lente, il fait des **pauses respiratoires**, il présente des **battements des narines**, les espaces entre ses côtes et au-dessus de ses clavicules se creusent (**tirage intercostal**).
 
-**Son aspect**
-- Il est pâle, il geint et/ou ses lèvres et ses doigts bleuissent.
+**Son aspect (lèvres bleues : cyanose)**
+- **Il est pâle**, **il geint** et/ou **ses lèvres et ses doigts bleuissent**.
 
 **Son comportement et son alimentation**
-- Son comportement m'inquiète : il dort tout le temps et il manque de tonus (il paraît « mou ») ou, au contraire, il pleure de façon inhabituelle, il est agité et ne parvient pas à s'endormir.
-- Il boit moins de la moitié de ses biberons à 3 repas consécutifs ou il ne parvient pas à téter en cas d'allaitement maternel.
-- Il vomit systématiquement... ce qui peut entraîner une déshydratation.
+- Son comportement m'inquiète : **il dort tout le temps** et **il manque de tonus** (il paraît « mou ») ou, au contraire, **il pleure de façon inhabituelle**, il est agité et ne parvient pas à s'endormir.
+- Il **boit moins de la moitié de ses biberons à 3 repas consécutifs** ou il **ne parvient pas à téter** en cas d'allaitement maternel.
+- Il **vomit systématiquement**... ce qui peut entraîner une déshydratation.
 
 **Sa situation**
 - Mon nourrisson est âgé de moins de 2 mois.
-- Il est né prématurément (avant 36 semaines d'aménorrhée).
-- Il est atteint d'une maladie cardiaque, d'une maladie respiratoire ou d'un déficit immunitaire ou il a un handicap qui l'empêche de tousser.
+- Il est **né prématurément** (avant 36 semaines d'aménorrhée).
+- Il est atteint d'une **maladie cardiaque**, d'une maladie respiratoire ou d'un déficit immunitaire ou il a un **handicap qui l'empêche de tousser**.
 
 - → Je contacte sans tarder le service d'aide médicale d'urgence (Samu) : 15 ou 112.
 
 Source : ameli.fr — « Bronchiolite : que faire ? », 3 juillet 2026
-
-**Un simple rhume, ou une gêne respiratoire ?**
-*Si sa respiration change, regardez d'abord les signes en haut de page : ils passent avant tout le reste.*
-**Un rhume**
-- La rhinopharyngite de l'enfant est une maladie souvent bénigne qui guérit en moins de dix jours.
-- Les lavages de nez et le mouchage sont indispensables et suffisants dans la rhinopharyngite.
-- Ne vous inquiétez pas si votre enfant tousse. La toux lui permet d'expulser les sécrétions et de dégager ses voies respiratoires pour mieux respirer.
-
-Source : ameli.fr — « Rhinopharyngite de l'enfant : que faire et quand consulter ? », 5 février 2026
 
 **Une cause possible : la bronchiolite**
 *Seul un médecin peut dire s'il s'agit d'une bronchiolite ou d'autre chose.*
@@ -202,6 +193,42 @@ Source : ameli.fr — « Rhinopharyngite de l'enfant : que faire et quand con
 
 Sources : ameli.fr — « Reconnaître la bronchiolite », 3 juillet 2026 ; « Bronchiolite : que faire ? », 3 juillet 2026
 
+**Un rhume**
+*Si sa respiration change, regardez d'abord les signes en haut de page : ils passent avant tout le reste.*
+- La rhinopharyngite de l'enfant est une maladie souvent bénigne qui guérit en moins de dix jours.
+- Les lavages de nez et le mouchage sont indispensables et suffisants dans la rhinopharyngite.
+- Ne vous inquiétez pas si votre enfant tousse. La toux lui permet d'expulser les sécrétions et de dégager ses voies respiratoires pour mieux respirer.
+
+- Les médicaments vasoconstricteurs en pulvérisation utilisés dans le rhume sont contre-indiqués chez les enfants de moins de 15 ans.
+Source : ameli.fr — « Rhinopharyngite de l'enfant : que faire et quand consulter ? », 5 février 2026
+
+**Le lavage de nez, comment le faire ?**
+**Quand le faire ?**
+Dès qu'un bébé présente une rhinopharyngite, isolée ou associée à une bronchiolite, il est important de désencombrer son nez dès qu'il paraît être plein de sécrétions. Cela aide le nourrisson, qui ne sait respirer que par le nez, à se sentir mieux. Le lavage de nez doit être fait **avant les repas** (pour éviter les vomissements) et **juste avant le coucher**. Sa fréquence dépend de la gêne à respirer : **de 4 à 6 fois par jour**, voire plus en cas de nez très encombré.
+**Avant de commencer**
+Demandez à votre médecin, pédiatre ou kinésithérapeute comment procéder. Le lavage de nez peut se révéler désagréable, mais il est indolore. Avant de commencer, lavez-vous les mains et munissez-vous de **dosettes de sérum physiologique à usage unique**. En effet, **l'utilisation d'eau minérale ou du robinet est déconseillée**, car ces eaux ne sont pas suffisamment salées et peuvent contenir des germes.
+**Les 5 étapes**
+Ensuite, procédez en cinq étapes, sans précipitation et avec douceur :
+1. **Allongez votre bébé** sur le côté (ou éventuellement sur le dos), et maintenez sa tête sur le côté. Cela est très important, **pour éviter les risques de fausse route** (passage involontaire de sérum dans les voies respiratoires). Si nécessaire, faites-vous aider pour maintenir votre enfant dans cette position.
+2. **Placez doucement l'embout de la dosette** à l'entrée de la narine située le plus haut, par rapport à la position de votre bébé.
+3. **En appuyant sur la dosette**, introduisez son contenu dans la narine. Fréquemment, du sérum ressort par l'autre narine avec les sécrétions nasales.
+4. **Attendez** que votre bébé ait dégluti correctement et que les sécrétions du nez se soient bien écoulées.
+5. **Essuyez son nez** à l'aide d'un mouchoir jetable.
+**Si le nez n'est pas suffisamment désobstrué**
+Répétez cette opération pour l'autre narine :
+- En couchant votre bébé sur l'autre côté et en lui tournant la tête de l'autre côté
+- En utilisant une autre dosette
+**Une seule narine suffit-elle ?**
+Si le nez est bien désobstrué après un lavage par une narine, **il est inutile de répéter le lavage par la deuxième narine**. Dans ce cas, **changez de narine au prochain lavage**.
+**Le lavage de nez est préférable à l'utilisation d'un mouche-bébé**
+Un mouche-bébé est un appareil employé pour aspirer les mucosités, fluidifiées auparavant par l'administration dans le nez de quelques gouttes de sérum physiologique. Toutefois, ce système est moins efficace que le lavage de nez, car il débouche moins bien le nez.
+**Par ailleurs**
+N'oubliez pas, par ailleurs, de lui donner à boire régulièrement, de fractionner les repas, de la coucher sur le dos, d'aérer et d'humidifier sa chambre.
+**Sprays et solutions pour le nez**
+L'emploi de sprays ou solutions nasales contenant des vasoconstricteurs **est proscrite chez le bébé** et jusqu'à l'âge de 15 ans. En effet, avant cet âge, ces médicaments peuvent avoir des effets secondaires graves.
+
+Source : ameli.fr — « Comment pratiquer un lavage de nez chez un enfant ? », page consultée le 19 novembre 2026
+
 **Les gestes qui soulagent**
 - Désencombrez le nez de votre enfant avant les repas et régulièrement (autant de fois que nécessaire) en faisant des lavages de nez. Le désencombrement régulier du nez, en particulier pour les nourrissons de moins de 6 mois qui ne sont pas encore en mesure de respirer par la bouche, leur permet de moins lutter pour respirer
 - Lorsqu'il est éveillé, gardez votre enfant droit, ce qui peut l'aider à mieux respirer
@@ -210,6 +237,7 @@ Sources : ameli.fr — « Reconnaître la bronchiolite », 3 juillet 2026 ; 
 - Aérez sa chambre fréquemment et maintenez la température à 19 °C au maximum
 
 Source : ameli.fr — « Bronchiolite : que faire ? », 3 juillet 2026
+
 
 ### Choc à la tête
 

@@ -97,6 +97,51 @@
       ],
       "consulter_si": "Consulter si : après une chute, son comportement te paraît inhabituel (somnolence, vomissements, pâleur, pleurs inconsolables) → appeler le 15 sans attendre. Après une chute d'une hauteur, faire examiner bébé même s'il semble aller bien.",
       "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), l'activité physique et la motricité libre du tout-petit."
+    },
+    {
+      "categorie": "motricite",
+      "situation": "Le jeu tout seul / Il ne joue jamais sans moi",
+      "titre": "Un coin sûr, toi à côté",
+      "explication": "Vers 8 ou 9 mois, il veut ta présence, et c'est normal : les premières difficultés de séparation apparaissent à cet âge³. Jouer seul lui est pourtant bénéfique, à condition qu'il soit en sécurité et que cela ne dure pas trop longtemps : ce jeu libre, à son rythme, développe son autonomie et sa créativité¹. Il se construit à petits pas : quelques minutes, toi dans la pièce, puis un peu plus. Pour que tu puisses lui faire confiance et te détendre, l'espace doit être sûr².",
+      "ancrage": "S'il ne joue pas sans toi, ce n'est pas que tu l'as « trop porté » : il est à l'âge où il a besoin de te sentir près. Tu peux l'accompagner vers le jeu seul sans le presser.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : sécuriser, puis s'éloigner d'un pas",
+        "etapes": [
+          "Parcourir la pièce à quatre pattes : tu vois ce qu'il verra, tout ce qu'il peut attraper.",
+          "Protéger les prises : cache-prises, câbles et rallonges hors de portée².",
+          "Ranger en hauteur ce qui intoxique : produits ménagers et médicaments dans un meuble fermé à clé ou un tiroir inaccessible².",
+          "Fermer l'accès aux escaliers : une barrière en bas et en haut².",
+          "Poser deux ou trois jouets seulement : tu les renouvelles de temps en temps³."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Rester là sans intervenir",
+        "etapes": [
+          "T'installer dans la pièce : assise près de lui, avec une tâche calme, un livre ou un thé.",
+          "Le regarder jouer : un sourire, un regard, sans le diriger.",
+          "Nommer doucement ce qu'il fait : « tu explores le tissu », en quelques mots.",
+          "Ne pas l'interrompre quand il est absorbé : un jeu qui se prolonge est un jeu qui marche³.",
+          "T'éloigner d'un pas, puis d'un autre : rester visible ou audible, revenir sans attendre qu'il pleure."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Alterner jeu avec toi et jeu libre : coucou, cache-cache, chansons, puis un temps à lui¹.",
+        "Garder des temps calmes dans la journée : ils sont indispensables, eux aussi¹.",
+        "Renouveler les jouets de temps en temps : plutôt que de les accumuler³.",
+        "Se rappeler que ça vient : son envie de jouer seul augmentera avec le temps, à son rythme."
+      ],
+      "principe": "Jouer seul s'apprend près de toi, pas loin de toi. Un espace sûr et ta présence discrète lui donnent la confiance d'explorer, et à toi celle de le laisser faire.",
+      "erreurs_a_eviter": [
+        "L'interrompre sans cesse pour l'animer : il perd le fil de son jeu et attend que tu relances³.",
+        "Compter sur son calme pour baisser la garde : à cet âge il se déplace vite, et la surveillance reste la tienne².",
+        "Le laisser pleurer seul pour qu'il « apprenne » : le jeu seul vient de la confiance, pas de la détresse."
+      ],
+      "consulter_si": "Consulter si : bébé ne s'intéresse à aucun objet, ne réagit pas aux sons, ne cherche pas ton regard, ou paraît anormalement mou ou raide → pédiatre ou PMI.",
+      "source": "Source : ¹ jouer tout seul, jeu libre, temps calmes, coucou et cache-cache, sante.fr (Santé publique France, 1000 premiers jours, Les activités avec bébé), 2025 ; ² prises, produits rangés en hauteur, escaliers, surveillance, sante.fr (Santé publique France, 1000 premiers jours, Éviter les accidents domestiques des enfants), juillet 2025 ; ³ deux à trois jouets, ne pas interrompre un enfant absorbé, premières difficultés de séparation vers 8-9 mois, Éveil et jeux de l'enfant de 0 à 12 mois, Département de la Marne (PMI), 2018."
     }
   ]
 }

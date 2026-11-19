@@ -74,7 +74,7 @@ export default async function SosThemePage({
       </div>
 
       {theme.blocs.map((b, i) => (
-        <SosBlocView key={i} bloc={b} />
+        <SosBlocView key={i} bloc={b} mois={mois} />
       ))}
     </div>
   );

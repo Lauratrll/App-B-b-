@@ -183,6 +183,51 @@
         "Répondre différemment chaque nuit : sans réponse prévisible, il appelle plus fort pour savoir à quoi s'attendre."
       ],
       "consulter_si": "Consulter si : bébé se réveille en hurlant de façon inconsolable, présente de la fièvre, refuse de boire, ne prend pas de poids, ou présente des pauses respiratoires, une respiration bruyante ou un ronflement important → pédiatre ; appeler le 15 en cas de trouble respiratoire."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Les journées trop calmes / Il bouge peu, nuits hachées",
+      "titre": "Plus de sol, moins de siège",
+      "explication": "Il bouge peu dans la journée, et la nuit se fait par petits bouts. Les deux peuvent aller ensemble, mais le mouvement n'est qu'une piste parmi d'autres, et rien ne promet que les nuits changeront. Ce qui est sûr, c'est qu'il en a besoin : au moins 30 minutes sur le ventre réparties dans la journée tant qu'il se déplace peu, et pas plus d'une heure d'affilée assis ou allongé en dehors du sommeil¹. Les temps calmes restent indispensables aussi², il ne s'agit pas d'ajouter un programme.",
+      "ancrage": "Ce n'est pas un défaut de ta journée : c'est une piste de plus, sans obligation. Il s'agit seulement de lui rendre du sol.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : rendre du sol à sa journée",
+        "etapes": [
+          "Compter le temps assis ou allongé : transat, siège, parc, poussette, sans te juger, tu additionnes.",
+          "Le poser au sol dès qu'il est éveillé : tapis ferme, jouets à portée.",
+          "Varier les positions : sur le ventre, sur le côté, assis s'il y arrive seul, debout contre un meuble stable.",
+          "Placer un jouet un peu plus loin : pour l'inviter à ramper, rouler ou se hisser.",
+          "Sortir un peu : dehors, il change de position, regarde et bouge autrement."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Bouger ensemble",
+        "etapes": [
+          "Le porter en marchant : dans tes bras ou en porte-bébé, tu avances, il observe.",
+          "Danser doucement : une musique douce, des mouvements lents, il bouge avec toi.",
+          "Rouler ensemble : allongés au sol, il roule vers toi, tu roules vers lui.",
+          "Une pente douce de coussins fermes : il monte, descend, bascule, sous ton regard.",
+          "T'arrêter quand il se lasse : le moment doit rester un plaisir."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Préparer un coin de sol permanent : tapis ferme et jouets à portée dans la pièce où tu vis.",
+        "Limiter transat, siège et poussette hors trajets : ils maintiennent des postures qui limitent ses mouvements³.",
+        "Garder un temps calme avant le coucher : éviter les activités trop excitantes le soir².",
+        "Regarder ce qui s'est passé avant les nuits hachées : une acquisition, un changement, une dent, le mouvement n'est qu'une des pistes."
+      ],
+      "principe": "Le mouvement fait partie de la journée d'un bébé : du sol, du portage, des changements de position. Sans promesse sur la nuit, c'est un cadeau simple à lui offrir.",
+      "erreurs_a_eviter": [
+        "Programmer des activités pour le fatiguer : il se surexcite, et le coucher devient plus difficile².",
+        "Le laisser longtemps en siège ou en parc pour avoir la paix : il bouge moins, donc il s'entraîne moins³.",
+        "Compter sur le mouvement comme seule solution : les nuits hachées ont plusieurs causes, et tu t'épuises à chercher la seule."
+      ],
+      "consulter_si": "Consulter si : bébé présente des pauses respiratoires, une respiration bruyante, un ronflement important, paraît anormalement mou ou raide, ou perd une compétence qu'il avait acquise → pédiatre ; appeler le 15 en cas de trouble respiratoire.",
+      "source": "Source : ¹ au moins 30 minutes sur le ventre réparties dans la journée, pas plus d'une heure d'affilée assis ou allongé hors sommeil, sante.fr (Santé publique France, Manger Bouger), octobre 2023 ; ² temps calmes indispensables, éviter les activités trop excitantes le soir, sante.fr (Santé publique France, 1000 premiers jours, Les activités avec bébé), 2025 ; ³ limiter cosy, transat et poussette, motricité libre, Motricité de l'enfant, Département de Loire-Atlantique (PMI) avec l'IFM3R, 2019."
     }
   ]
 }

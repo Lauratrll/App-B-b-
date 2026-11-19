@@ -187,6 +187,51 @@
       ],
       "consulter_si": "Consulter si : bébé présente des pauses respiratoires, une respiration bruyante, un ronflement important, ou si tu as un doute sur la sécurité de son couchage → pédiatre, PMI, ou médecin traitant ; le 15 en cas de trouble respiratoire. Rappel : couchage sur le dos, matelas ferme, lit sans objet superflu, rien autour du cou.",
       "source": "Source : ameli.fr (Assurance Maladie), comment bien coucher un bébé : les règles du couchage sécurisé."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Les siestes à la crèche / Il ne dort pas, rentre épuisé",
+      "titre": "Ce qui se demande, ce qui se rattrape",
+      "explication": "À la crèche, les siestes suivent le rythme du groupe : bruit, lumière, autres enfants, un lit qui n'est pas le sien. Certains bébés dorment peu ou par petits bouts, et rentrent à bout de forces. À cet âge, le nombre de siestes varie beaucoup d'un bébé à l'autre, de une à trois environ¹. Ce n'est la faute ni de l'équipe, ni de ton bébé : il s'adapte à un nouveau cadre, et tu peux l'aider à rattraper sa fatigue le soir.",
+      "ancrage": "Tu n'as pas à choisir entre ton bébé et l'équipe : tu peux demander ce qui aide et accepter ce qui ne bouge pas. Ce n'est pas un échec.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : en parler à l'équipe, adapter le soir",
+        "etapes": [
+          "Demander ce qui se passe : combien de temps il dort, où et dans quelles conditions.",
+          "Proposer ce qui l'aide : son doudou, un tissu qui a ton odeur, le même ordre de gestes avant la sieste.",
+          "Dire ses signes de fatigue : l'équipe peut le coucher plus tôt si elle les connaît².",
+          "Avancer le coucher du soir : un peu plus tôt, plutôt que d'allonger une sieste tardive en rentrant.",
+          "Calmer le retour : un temps tranquille à la maison avant le dîner, avec peu de stimulation."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Un retour tout en douceur",
+        "etapes": [
+          "L'accueillir sans l'interroger : un câlin, quelques mots, sans lui demander s'il a bien dormi.",
+          "Le prendre contre toi : quelques minutes, lumière douce, sans écran ni bruit.",
+          "Chanter ou lire une courte histoire : il retrouve tes repères.",
+          "Garder les mêmes gestes chaque soir : le rituel signale que le sommeil approche².",
+          "T'arrêter quand il se détend : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ouvrir la porte à l'équipe : si les siestes se passent toujours mal, ils peuvent adapter l'heure ou le lieu dans la mesure du possible.",
+        "Observer les jours sans crèche : le temps qu'il dort chez toi te dit ce dont il a besoin.",
+        "Laisser les rythmes s'installer peu à peu : on ne les force pas².",
+        "En parler à la PMI ou au médecin : ils peuvent t'aider si la fatigue s'installe²."
+      ],
+      "principe": "Une crèche impose un rythme, pas un verdict. Ce que tu peux demander à l'équipe, tu le demandes ; le reste, tu le rattrapes à la maison avec un soir plus calme et un coucher plus tôt.",
+      "erreurs_a_eviter": [
+        "Rattraper par une sieste tardive en rentrant : elle risque de repousser le coucher et de décaler la nuit.",
+        "Reprocher à l'équipe ce qui ne se négocie pas : le rythme collectif existe, et une relation tendue ne l'aide pas.",
+        "Te culpabiliser de la garde : tu fais ce que ta vie demande, et un bébé fatigué un temps n'est pas un bébé abîmé."
+      ],
+      "consulter_si": "Consulter si : bébé paraît éteint ou apathique, refuse de manger ou de boire sur son lieu d'accueil plusieurs jours de suite, perd du poids, présente des pauses respiratoires, une respiration bruyante ou un ronflement important, ou pleure de façon inconsolable en permanence → pédiatre ou PMI ; appeler le 15 en cas de trouble respiratoire.",
+      "source": "Source : ¹ nombre de siestes selon l'âge, de 6 à 11 mois, Galland, Taylor, Elder et Herbison, Sleep Medicine Reviews, 2012 ; ² signes de fatigue, coucher sans trop attendre, horaires non forcés, rituel, sante.fr (Santé publique France, 1000 premiers jours, Le sommeil de bébé), décembre 2024."
     }
   ]
 }

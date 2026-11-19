@@ -185,6 +185,51 @@
         "Changer de stratégie chaque soir : sans repère stable, chaque coucher recommence à zéro."
       ],
       "consulter_si": "Consulter si : bébé ne parvient jamais à s'endormir malgré un cadre calme et régulier, s'il est inconsolable, difficile à réveiller, s'il ne prend pas de poids, ou si le manque de sommeil devient dangereux pour toi → pédiatre, PMI, médecin traitant, ou Allo Parents Bébé (0 800 00 34 56)."
+    },
+    {
+      "categorie": "sommeil",
+      "situation": "Les micro-siestes / Il dort 20 min, journée intenable",
+      "titre": "Compléter le cycle, caler les éveils",
+      "explication": "Il s'endort, et 20 minutes plus tard il est réveillé, grognon. À cet âge, un cycle de sommeil dure environ une heure¹ : 20 minutes, c'est le début d'un cycle, pas une sieste complète. Deux choses peuvent l'interrompre : un temps d'éveil devenu trop long, car son besoin de sommeil monte vite³, et une nouvelle compétence motrice, comme se hisser ou se déplacer, qui perturbe son sommeil un temps². Cela se voit dans la journée : il est irritable, collant, difficile à distraire.",
+      "ancrage": "Une sieste courte ne veut pas dire que tu fais mal. Tu peux ajuster deux ou trois choses, et accepter les jours où ça ne marche pas.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : attendre, puis rendormir ou recaler",
+        "etapes": [
+          "Attendre quelques instants : il se tourne, grogne, et se rendort parfois seul.",
+          "Le rendormir en douceur : voix basse, main posée, bercer s'il en a besoin, sans le prendre d'emblée.",
+          "Accepter une sieste finie : s'il est vraiment réveillé, le prendre, ce n'est pas un échec.",
+          "Raccourcir un peu l'éveil suivant : ses signes de fatigue te guident, plus que l'horloge⁴.",
+          "Protéger la sieste de l'après-midi : un moment calme, sans sortie ni visite."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Préparer la sieste en douceur",
+        "etapes": [
+          "Baisser la lumière : fermer les volets, une pièce calme.",
+          "Garder les mêmes gestes avant chaque sieste : le rituel signale que le sommeil approche⁴.",
+          "Le tenir contre toi quelques minutes : calme, sans parler beaucoup, avant de le poser.",
+          "Le poser éveillé mais calme : sur le dos, dans son lit.",
+          "Rester près de lui : ta voix basse, une main posée, jusqu'à l'endormissement."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Avancer ou reculer un peu la sieste : en observant ses signes plutôt que l'horloge⁴.",
+        "Lui laisser du temps au sol dans la journée : l'acquisition motrice se construit en éveil, pas la nuit.",
+        "Garder une idée de son sommeil total : 12 à 16 heures sur 24, siestes comprises, avec des écarts d'un bébé à l'autre⁴.",
+        "Accepter les jours courts : le nombre de siestes varie d'un bébé à l'autre⁵."
+      ],
+      "principe": "Une sieste de 20 minutes est un début, pas une fin. Un éveil mieux calé et des signes de fatigue observés l'aident souvent à rester endormi ; les jours où ça ne passe pas, un temps calme compte aussi.",
+      "erreurs_a_eviter": [
+        "Le prendre dès le premier bruit : il sort d'un cycle qu'il aurait peut-être poursuivi.",
+        "Tenir un horaire malgré ses signes : l'horloge ne décide pas de sa fatigue, c'est lui qui la montre.",
+        "Te juger parce qu'il dort peu : le nombre et la durée des siestes varient beaucoup d'un bébé à l'autre⁵."
+      ],
+      "consulter_si": "Consulter si : bébé ronfle presque toutes les nuits hors rhume, dort la bouche ouverte, présente des pauses respiratoires ou une respiration bruyante, paraît anormalement mou ou raide, ou perd une compétence qu'il avait acquise → pédiatre ; appeler le 15 en cas de pauses respiratoires.",
+      "source": "Source : ¹ durée du cycle de sommeil au cours de la première année, Hammad et al., Sleep, 2026 ; ² perturbation du sommeil autour d'une acquisition motrice, Atun-Einy et Scher, Infant Behavior and Development, 2016 ; ³ pression de sommeil qui s'accumule vite, Webb, Phillips et Roberts, PLOS Computational Biology, 2024 ; ⁴ signes de fatigue, rituel, durée de sommeil, horaires non forcés, sante.fr (Santé publique France, 1000 premiers jours, Le sommeil de bébé), décembre 2024 ; ⁵ nombre de siestes de 6 à 11 mois, Galland et al., Sleep Medicine Reviews, 2012."
     }
   ]
 }

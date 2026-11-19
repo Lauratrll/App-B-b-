@@ -180,6 +180,50 @@
         "Enchaîner plusieurs lieux dans la même sortie : la saturation s'additionne d'un endroit à l'autre."
       ],
       "consulter_si": "Consulter si : bébé reste inconsolable plusieurs heures malgré le retour au calme, s'il refuse de boire, présente de la fièvre, ou paraît anormalement mou ou difficile à réveiller → pédiatre, le 15 selon l'urgence."
+    },
+    {
+      "categorie": "stimu",
+      "situation": "Le bruit de fond / Radio et musique toute la journée",
+      "titre": "Des temps de silence, une voix qui compte",
+      "explication": "La radio, la musique, parfois la télévision : le bruit de fond est devenu le décor de beaucoup de maisons. À cet âge, il écoute tout et apprend en imitant les voix autour de lui. Les chansons et la musique partagées sont encouragées¹ ; ce qui manque souvent, ce sont les plages sans rien. Les temps calmes sont indispensables à ses journées¹, et l'exposition aux écrans est proscrite avant 3 ans, y compris en bruit de fond². Une pièce plus silencieuse lui laisse entendre ta voix, ses propres sons et le vrai son des choses.",
+      "ancrage": "Tu n'as pas à faire silence total : une maison vit et fait du bruit. Il s'agit d'offrir des plages sans fond sonore, pas de bannir la musique.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : couper pour mieux écouter",
+        "etapes": [
+          "Éteindre un moment : la radio ou la musique, pendant les repas et les jeux avec lui.",
+          "Éteindre l'écran allumé en fond : il n'a pas sa place en arrière-plan avant 3 ans².",
+          "Choisir le son : une chanson, une comptine, un instrument, à un moment précis¹.",
+          "Lui parler à la place : commenter ce qu'il fait, répondre à ses sons.",
+          "Laisser le silence : quelques minutes sans rien, il en a besoin¹."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Écouter ensemble",
+        "etapes": [
+          "Chanter pour lui : une berceuse ou une comptine, face à lui, sans accompagnement.",
+          "Écouter le dehors : fenêtre ouverte, oiseaux, vent, voitures, tu nommes ce qu'il entend.",
+          "Faire sonner un objet : un grelot, une boîte, puis laisser le silence revenir.",
+          "Danser avec lui : une musique, quelques minutes, puis on éteint.",
+          "T'arrêter quand il se détourne : il indique qu'il en a assez."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Prévoir des plages sans son : repas, change, bain, coucher.",
+        "Éteindre avant le coucher : le soir, éviter les activités trop excitantes¹.",
+        "Garder la musique pour des moments choisis : en jouant, en cuisinant, en dansant.",
+        "En parler à l'entourage : grands-parents, nounou, pour que le fond sonore ne soit pas permanent."
+      ],
+      "principe": "La musique est un cadeau quand on la choisit. Un temps sans fond sonore lui laisse entendre ta voix, ses propres sons et le silence.",
+      "erreurs_a_eviter": [
+        "Laisser la télévision allumée « pour la compagnie » : il n'y a aucun échange, et les écrans sont proscrits en fond avant 3 ans².",
+        "Te sentir coupable de la musique : elle est encouragée¹, ce sont les plages de silence qui manquent."
+      ],
+      "consulter_si": "Consulter si : il ne réagit pas aux sons ni à son prénom, ne babille pas, ne cherche pas la source d'un bruit, ou sursaute à peine aux bruits forts → pédiatre ou PMI, qui pourra proposer un contrôle de l'audition.",
+      "source": "Source : ¹ musique et chant encouragés, temps calmes, éviter les activités trop excitantes le soir, sante.fr (Santé publique France, 1000 premiers jours, Les activités avec bébé), 2025 ; ² exposition aux écrans proscrite avant 3 ans, y compris en bruit de fond, solidarites.gouv.fr (ministères chargés de la Santé et des Solidarités), 2025."
     }
   ]
 }

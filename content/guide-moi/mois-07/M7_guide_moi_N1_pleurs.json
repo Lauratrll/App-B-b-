@@ -175,6 +175,51 @@
       ],
       "consulter_si": "Consulter si : bébé ne sourit à personne, y compris à toi, ne fixe pas les visages, ne réagit pas aux bruits, ne cherche jamais le contact, ou paraît anormalement mou ou éteint → pédiatre ou PMI.",
       "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), les étapes du développement de bébé."
+    },
+    {
+      "categorie": "pleurs",
+      "situation": "La fatigue qu'on rate / Il craque sans prévenir",
+      "titre": "Repérer la fatigue avant le craquage",
+      "explication": "Il jouait tranquillement, et d'un coup il hurle, s'agite, se raidit. Ce n'est pas arrivé sans prévenir : à cet âge, un bébé tient peu de temps éveillé, car son besoin de sommeil monte vite¹. Avant les pleurs, il y a souvent de petits signes : les yeux qu'il frotte, des pleurnicheries sans raison, une agitation inhabituelle². Ils passent facilement inaperçus quand on est occupé. Quand on les manque, la fatigue prend le dessus, et il devient irritable, accroché, difficile à calmer.",
+      "ancrage": "Tu n'as pas « raté » quelque chose : ces signes sont discrets et la journée est pleine. Les repérer s'apprend avec le temps, ce n'est pas un test.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : le ramener au calme",
+        "etapes": [
+          "Arrêter ce qui se passe : jeu, sortie, visite, tout ce qui stimule peut attendre.",
+          "Le prendre contre toi : bras, voix basse, lumière douce, sans le distraire.",
+          "Vérifier l'essentiel : faim, couche, douleur, puis penser à la fatigue.",
+          "Lui proposer le sommeil : dans son lit habituel, avec son rituel, même si c'est plus court.",
+          "Accompagner ses larmes : elles passent mieux dans tes bras que tout seul."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Redescendre ensemble",
+        "etapes": [
+          "Bébé contre ton torse : sa joue sur ton épaule, une main sur son dos.",
+          "Marcher doucement : un pas régulier, dans une pièce sans bruit autour.",
+          "Murmurer toujours la même phrase : elle devient un repère pour lui.",
+          "Baisser la lumière : fermer un volet, aller dans une pièce calme.",
+          "Le poser quand il se détend : jamais pendant qu'il lutte encore."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Observer ses signes à lui : en quelques jours, tu repères les siens, ils sont personnels.",
+        "Proposer le sommeil sans trop attendre : dès qu'il montre des signes, le moment passe vite².",
+        "Garder un rythme souple : des siestes à des heures à peu près régulières, sans horaire forcé².",
+        "Partager ses signes avec les autres adultes : grands-parents, nounou, crèche, ils peuvent les repérer aussi."
+      ],
+      "principe": "La fatigue se voit avant de s'entendre. Quand tu repères ses petits signes, tu lui évites le craquage ; quand tu les manques, tu l'aides à redescendre : dans les deux cas, tu fais bien.",
+      "erreurs_a_eviter": [
+        "Attendre « encore un peu » pour finir la sortie : le bon moment passe, et l'endormissement devient plus difficile².",
+        "Le stimuler pour le tenir éveillé : l'agitation remplace la somnolence, et il devient plus difficile à calmer.",
+        "Te reprocher de ne pas avoir vu : ces signes sont discrets et varient d'un bébé à l'autre."
+      ],
+      "consulter_si": "Consulter si : bébé paraît éteint ou apathique, pleure de façon inconsolable malgré ton aide, refuse de manger ou de boire, ou a de la fièvre → pédiatre ou PMI ; appeler le 15 s'il respire avec difficulté ou reste difficile à réveiller.",
+      "source": "Source : ¹ pression de sommeil qui s'accumule vite chez le tout-petit, Webb, Phillips et Roberts, PLOS Computational Biology, 2024 ; ² signes de fatigue, coucher sans trop attendre, horaires non forcés, rituel, sante.fr (Santé publique France, 1000 premiers jours, Le sommeil de bébé), décembre 2024."
     }
   ]
 }

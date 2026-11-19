@@ -195,10 +195,10 @@
         "titre": "Action immédiate : le geste bref",
         "etapes": [
           "Annoncer, toujours pareil : la même phrase, le même ordre, la prévisibilité réduit la lutte.",
-          "Installer bébé sur le côté : tête tournée, allongé, ton bras le maintenant doucement.",
-          "Introduire l'embout sans forcer : juste à l'entrée de la narine du haut.",
-          "Instiller franchement : un geste net, pour que le sérum traverse et ressorte par l'autre narine.",
-          "Terminer immédiatement : essuyer, redresser, câliner, le geste dure quelques secondes, pas 1 minute."
+          "Installer bébé sur le côté : allongé, tête tournée sur le côté pour éviter la fausse route ; fais-toi aider si besoin.",
+          "Placer l'embout doucement : à l'entrée de la narine du haut, avec douceur.",
+          "Appuyer sur la dosette : le sérum ressort souvent par l'autre narine ; attends qu'il ait dégluti.",
+          "Terminer par du réconfort : essuyer avec un mouchoir jetable, redresser, câliner."
         ]
       },
       "geste_doux": {
@@ -209,7 +209,8 @@
           "Le redresser tout de suite : contre toi, vertical, quelques instants.",
           "Un temps de contact : sans parler, sans reproche, sans commentaire.",
           "Choisir les bons moments : avant les prises et avant le coucher, là où le bénéfice est réel.",
-          "Aucun produit dans le nez : ni huile, ni pommade, ni spray décongestionnant."
+          "Aucun produit dans le nez : ni huile, ni pommade, ni spray décongestionnant.",
+          "Une narine peut suffire : si son nez est dégagé après la première, change de narine au prochain lavage."
         ]
       },
       "pour_aller_plus_loin": [
@@ -219,12 +220,12 @@
       ],
       "principe": "Un geste désagréable devient supportable quand il est prévisible et qu'il est court. Négocier l'allonge, l'annoncer l'abrège.",
       "erreurs_a_eviter": [
-        "Utiliser un mouche-bébé de façon répétée et agressive : cela irrite la muqueuse et fait saigner.",
+        "Utiliser trop souvent le mouche-bébé : il peut être irritant, et il débouche moins bien le nez que le lavage.",
         "Introduire un coton-tige ou un objet dans le nez : il peut blesser la muqueuse.",
         "Renoncer au lavage alors que bébé ne tète plus ni ne dort correctement : la gêne s'installe."
       ],
       "consulter_si": "Consulter si : bébé respire vite, siffle, creuse entre les côtes, boit beaucoup moins ou a de la fièvre → pédiatre sans délai ; gêne respiratoire franche → le 15.",
-      "source": "Source : ameli.fr (Assurance Maladie), comment pratiquer un lavage de nez chez un enfant."
+      "source": "Source : ameli.fr (Assurance Maladie), comment pratiquer un lavage de nez chez un enfant ; rhinopharyngite de l'enfant : que faire et quand consulter ?"
     },
     {
       "categorie": "corps",

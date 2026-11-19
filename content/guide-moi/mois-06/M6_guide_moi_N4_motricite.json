@@ -190,6 +190,51 @@
       ],
       "consulter_si": "Consulter si : bébé refuse systématiquement toute position au sol, ne bouge pas quand il y est posé, paraît anormalement mou ou raide, ne se retourne pas du tout vers neuf mois, ou si tu observes une asymétrie entre les deux côtés du corps → pédiatre ou PMI.",
       "source": "Source : 1000-premiers-jours.fr (ministère chargé de la Santé), l'éveil et le jeu libre du tout-petit."
+    },
+    {
+      "categorie": "motricite",
+      "situation": "Le bébé calé assis / Est-ce une bonne idée ?",
+      "titre": "Lui montrer la pièce sans le caler",
+      "explication": "Entre des coussins, il tient assis, il voit tout et il a les mains libres : on comprend l'envie. Mais il n'y est pas arrivé seul. Il apprend à s'asseoir seul entre 7 et 9 mois, avec la force de son tronc et son équilibre ; avant cela, il adopte surtout la position en trépied, dos rond et mains loin devant, que la page décrit comme inconfortable¹. Faire tenir un bébé assis entre des coussins risque de le contrarier, car il ne maîtrise pas encore cette position². Rien de grave : il suffit de changer la façon de le mettre au centre.",
+      "ancrage": "Tu as voulu qu'il participe, et c'est une bonne intention. Tu n'as rien abîmé : il suffit de lui offrir d'autres façons d'être avec vous.",
+      "action_immediate": {
+        "couleur_fond": "#FCEBEB",
+        "couleur_texte": "#A32D2D",
+        "titre": "Action immédiate : le sortir des coussins, pas de la fête",
+        "etapes": [
+          "Le poser sur le dos ou sur le ventre : au sol, à plat, c'est la position où il bouge le plus librement².",
+          "Lui montrer la pièce autrement : le tenir assis contre ton torse, soutenu, le temps d'un regard.",
+          "Mettre les jouets à sa portée : autour de lui, pour qu'il pivote et s'étire.",
+          "Rester près de lui : ta présence compte plus que son point de vue sur la pièce.",
+          "Observer ses réactions : s'il se crispe ou proteste, le reposer au sol."
+        ]
+      },
+      "geste_doux": {
+        "couleur_fond": "#E1F5EE",
+        "couleur_texte": "#085041",
+        "titre": "Lui offrir un autre point de vue",
+        "etapes": [
+          "Assis contre toi : sur tes genoux, dos contre ton torse, il voit la pièce et sent ton appui.",
+          "Jouet suspendu : allongé sur le dos, il attrape, tape et regarde.",
+          "Face à face : sur le ventre, toi au sol devant lui, il lève la tête pour te voir.",
+          "Pivoter sur le côté : un jouet devant lui, il apprend à tourner à son rythme.",
+          "S'arrêter à sa demande : le geste doit rester agréable."
+        ]
+      },
+      "pour_aller_plus_loin": [
+        "Ne pas le laisser immobile plus d'une heure d'affilée : en dehors du sommeil, transat, siège et poussette compris³.",
+        "Limiter cosy, transat et poussette : ils maintiennent des postures qui limitent ses mouvements².",
+        "Garder le sol comme lieu principal : un coin ferme et dégagé là où tu vis suffit.",
+        "Rassurer l'entourage : « il s'assiéra quand son corps sera prêt », c'est une façon d'éviter le caler."
+      ],
+      "principe": "Un bébé s'assoit quand son corps y est prêt, pas quand on l'installe. Le sol et ta présence font le travail ; le point de vue sur la pièce se partage autrement.",
+      "erreurs_a_eviter": [
+        "Le caler avec des coussins pour qu'il tienne : il se retrouve dans une position qu'il ne maîtrise pas, et il peut s'en trouver contrarié².",
+        "Chercher à avancer le calendrier : chaque bébé s'assoit à son rythme, et la comparaison ne l'aide pas.",
+        "Te culpabiliser de l'avoir fait : c'est très répandu, et ce qui compte est ce que tu proposes à partir d'aujourd'hui."
+      ],
+      "consulter_si": "Consulter si : bébé ne se retourne d'aucun côté, paraît anormalement mou ou raide, perd un geste qu'il savait faire, ou si tu as un doute sur ses mouvements → pédiatre ou PMI.",
+      "source": "Source : ¹ apprentissage de la position assise seul, trépied, sante.fr (mpedia, bébé de 6 à 9 mois), 2025 ; ² motricité libre, position qu'il ne maîtrise pas seul, assis entre des coussins, postures limitantes, Motricité de l'enfant, Département de Loire-Atlantique (PMI) avec l'IFM3R, 2019 ; ³ pas plus d'une heure d'affilée assis ou allongé hors sommeil, sante.fr (Santé publique France, Manger Bouger), 2023."
     }
   ]
 }

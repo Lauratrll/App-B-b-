@@ -26,7 +26,7 @@ export type SosBloc = {
   texte?: string;
   items?: string[];
   // Sous-parties d'un même bloc (README §16), chacune avec son titre en gras.
-  sections?: { titre: string; texte?: string; items?: string[] }[];
+  sections?: { titre: string; texte?: string; items?: string[]; numerote?: boolean; mois_min?: number; mois_max?: number; info?: { titre: string; texte: string; source: string } }[];
   conclusion?: string;
   source?: string;
 };
@@ -352,15 +352,21 @@ const sourceStyle: React.CSSProperties = {
 };
 
 // Bloc page 2 — même gabarit que les encarts des protocoles Guide-moi.
-export function SosBlocView({ bloc }: { bloc: SosBloc }) {
+export function SosBlocView({ bloc, mois }: { bloc: SosBloc; mois?: number }) {
   const ton = TON_NIVEAU[bloc.niveau];
+  // Texte courant en noir (19/11, Laura) ; titres, sous-titres et conclusion gardent la couleur du niveau.
   const texte: React.CSSProperties = {
     fontSize: 11,
-    color: ton.label,
+    color: "#1E1A17",
     lineHeight: 1.55,
     margin: 0,
   };
-  const liste = (items: string[]) => (
+  // **gras** dans un item = simple mise en forme (le texte reste mot pour mot).
+  const gras = (s: string) =>
+    s.split(/\*\*(.+?)\*\*/g).map((part, k) =>
+      k % 2 === 1 ? <strong key={k} style={{ fontWeight: 700 }}>{part}</strong> : part,
+    );
+  const liste = (items: string[], numerote?: boolean) => (
     <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
       {items.map((it, i) => (
         <li
@@ -372,18 +378,39 @@ export function SosBlocView({ bloc }: { bloc: SosBloc }) {
             marginTop: i === 0 ? 0 : 5,
           }}
         >
-          <span
-            aria-hidden
-            style={{
-              width: 5,
-              height: 5,
-              borderRadius: "50%",
-              background: ton.accent,
-              flexShrink: 0,
-              marginTop: 6,
-            }}
-          />
-          <span>{it}</span>
+          {numerote ? (
+            <span
+              aria-hidden
+              style={{
+                width: 16,
+                height: 16,
+                borderRadius: "50%",
+                background: ton.accent,
+                color: "#FFFFFF",
+                fontSize: 9.5,
+                fontWeight: 700,
+                lineHeight: "16px",
+                textAlign: "center",
+                flexShrink: 0,
+                marginTop: 1,
+              }}
+            >
+              {i + 1}
+            </span>
+          ) : (
+            <span
+              aria-hidden
+              style={{
+                width: 5,
+                height: 5,
+                borderRadius: "50%",
+                background: ton.accent,
+                flexShrink: 0,
+                marginTop: 6,
+              }}
+            />
+          )}
+          <span>{gras(it)}</span>
         </li>
       ))}
     </ul>
@@ -401,7 +428,7 @@ export function SosBlocView({ bloc }: { bloc: SosBloc }) {
       >
         {bloc.titre ? <div style={labelStyle(ton.label)}>{bloc.titre}</div> : null}
         {bloc.niveau !== "comprendre" && SOS.niveaux?.[bloc.niveau]?.sous_titre ? (
-          <p style={{ ...texte, fontSize: 10.5, fontWeight: 600, marginBottom: 7 }}>
+          <p style={{ ...texte, color: ton.label, fontSize: 10.5, fontWeight: 600, marginBottom: 7 }}>
             {SOS.niveaux[bloc.niveau]!.sous_titre}
           </p>
         ) : null}
@@ -413,17 +440,63 @@ export function SosBlocView({ bloc }: { bloc: SosBloc }) {
             {bloc.definition}
           </p>
         ) : null}
-        {bloc.texte ? <p style={texte}>{bloc.texte}</p> : null}
+        {bloc.texte ? <p style={texte}>{gras(bloc.texte)}</p> : null}
         {bloc.items && bloc.items.length > 0 ? liste(bloc.items) : null}
-        {bloc.sections?.map((sec, si) => (
+        {bloc.sections
+          ?.filter(
+            (sec) =>
+              mois === undefined ||
+              ((sec.mois_min === undefined || mois >= sec.mois_min) &&
+                (sec.mois_max === undefined || mois <= sec.mois_max)),
+          )
+          .map((sec, si) => (
           <div key={si} style={{ marginTop: si === 0 ? 0 : 11 }}>
-            <p style={{ ...texte, fontWeight: 700, marginBottom: 5 }}>{sec.titre}</p>
-            {sec.texte ? <p style={{ ...texte, marginBottom: 5 }}>{sec.texte}</p> : null}
-            {sec.items && sec.items.length > 0 ? liste(sec.items) : null}
+            <p style={{ ...texte, color: ton.label, fontWeight: 700, marginBottom: 5 }}>{sec.titre}</p>
+            {sec.info ? (
+              <details style={{ marginBottom: 5 }}>
+                <summary
+                  aria-label={sec.info.titre}
+                  style={{
+                    listStyle: "none",
+                    cursor: "pointer",
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: 5,
+                    ...texte,
+                    fontSize: 10.5,
+                  }}
+                >
+                  <span
+                    aria-hidden
+                    style={{
+                      width: 15,
+                      height: 15,
+                      borderRadius: "50%",
+                      border: `1.5px solid ${ton.accent}`,
+                      color: ton.accent,
+                      fontSize: 9.5,
+                      fontWeight: 700,
+                      lineHeight: "12px",
+                      textAlign: "center",
+                      fontStyle: "italic",
+                    }}
+                  >
+                    i
+                  </span>
+                  {sec.info.titre}
+                </summary>
+                <div style={{ background: "#FFFFFF99", borderRadius: 8, padding: "7px 9px", marginTop: 4 }}>
+                  <p style={{ ...texte, marginBottom: 3 }}>{sec.info.texte}</p>
+                  <p style={{ ...texte, fontSize: 9, fontStyle: "italic", color: "#8A8078" }}>{sec.info.source}</p>
+                </div>
+              </details>
+            ) : null}
+            {sec.texte ? <p style={{ ...texte, marginBottom: 5 }}>{gras(sec.texte)}</p> : null}
+            {sec.items && sec.items.length > 0 ? liste(sec.items, sec.numerote) : null}
           </div>
         ))}
         {bloc.conclusion ? (
-          <p style={{ ...texte, fontWeight: 700, marginTop: 8 }}>
+          <p style={{ ...texte, color: ton.label, fontWeight: 700, marginTop: 8 }}>
             {bloc.conclusion}
           </p>
         ) : null}

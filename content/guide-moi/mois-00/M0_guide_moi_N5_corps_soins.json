@@ -145,18 +145,19 @@
       "categorie": "corps",
       "situation": "Le nez bouché / Il respire bruyamment",
       "titre": "Le lavage de nez, bref et prévisible",
-      "explication": "Ton bébé respire uniquement par le nez pendant les premières semaines : un nez encombré le gêne pour téter, pour dormir, pour respirer tranquillement. Il grogne, siffle, semble « pris ». Chez le nouveau-né, un nez bruyant est très souvent lié à des sécrétions dans un nez minuscule, pas à une maladie. Le geste utile est le lavage de nez au sérum physiologique : c'est un geste d'hygiène, simple, à faire avant les prises et avant le coucher.",
+      "explication": "Ton bébé respire surtout par le nez pendant les premières semaines : un nez encombré le gêne pour téter, pour dormir, pour respirer tranquillement. Il grogne, siffle, semble « pris ». Chez le nouveau-né, un nez bruyant est très souvent lié à des sécrétions dans un nez minuscule, pas à une maladie. Le geste utile est le lavage de nez au sérum physiologique : c'est un geste d'hygiène, simple, à faire avant les prises et avant le coucher.",
       "ancrage": "Un nez bruyant n'est pas forcément un bébé en difficulté. Ce que tu regardes, ce n'est pas le bruit : c'est la façon dont il respire, et dont il boit.",
       "action_immediate": {
         "couleur_fond": "#FCEBEB",
         "couleur_texte": "#A32D2D",
         "titre": "Action immédiate : le lavage de nez",
         "etapes": [
-          "Installer bébé sur le côté : tête tournée, allongé, ton bras le maintenant doucement.",
-          "Introduire l'embout sans forcer : juste à l'entrée de la narine du haut, sans l'enfoncer.",
-          "Instiller franchement : appuyer d'un geste net pour que le sérum traverse et ressorte par l'autre narine.",
-          "Recommencer de l'autre côté : tourner la tête et répéter dans l'autre narine.",
-          "Essuyer et redresser : nettoyer le visage, puis garder bébé quelques instants vertical contre toi."
+          "Installer bébé sur le côté : allongé, tête tournée sur le côté pour éviter la fausse route ; fais-toi aider pour le maintenir si besoin.",
+          "Placer l'embout doucement : à l'entrée de la narine du haut, sans précipitation.",
+          "Appuyer sur la dosette : le sérum entre dans la narine et ressort souvent par l'autre avec les sécrétions.",
+          "Attendre : que bébé ait dégluti et que les sécrétions se soient bien écoulées.",
+          "Essuyer son nez : avec un mouchoir jetable, puis garder bébé quelques instants vertical contre toi.",
+          "Selon son nez : s'il reste bouché, recommence de l'autre côté, bébé couché sur l'autre côté, avec une autre dosette ; s'il est dégagé, change de narine au prochain lavage."
         ]
       },
       "geste_doux": {
@@ -164,26 +165,27 @@
         "couleur_texte": "#085041",
         "titre": "Respirer plus librement",
         "etapes": [
-          "Avant les prises : un lavage juste avant le sein ou le biberon lui permet de téter sans lâcher pour respirer.",
+          "Avant les prises et le coucher : un lavage juste avant le sein, le biberon ou la nuit lui permet de respirer sans lâcher.",
           "Hydrater l'air : une pièce entre 18 et 20 °C, pas surchauffée, aérée chaque jour.",
           "Position verticale : le garder contre toi quelques minutes après le lavage.",
           "Aucun produit dans le nez : ni huile, ni pommade, ni spray décongestionnant chez un nourrisson.",
-          "Répéter sans excès : quelques lavages par jour, aux moments utiles, pas en continu."
+          "Selon la gêne : de 4 à 6 fois par jour, voire plus si son nez est très encombré."
         ]
       },
       "pour_aller_plus_loin": [
         "Utiliser des dosettes de sérum physiologique à usage unique : jetées après chaque narine, jamais réutilisées.",
         "Vérifier les prises : un bébé qui lâche le sein ou le biberon pour respirer et qui boit moins doit être vu.",
-        "Éviter la fumée : le tabagisme dans l'environnement aggrave l'encombrement et les risques respiratoires."
+        "Éviter la fumée : le tabagisme dans l'environnement aggrave l'encombrement et les risques respiratoires.",
+        "Pas d'eau du robinet ni d'eau minérale : elles ne sont pas assez salées et peuvent contenir des germes."
       ],
       "principe": "Le lavage de nez est un geste d'hygiène, pas un traitement. Il soulage le confort et facilite les prises, mais c'est la qualité de la respiration, jamais le bruit, qui décide d'un appel au médecin.",
       "erreurs_a_eviter": [
-        "Utiliser un mouche-bébé de façon répétée et agressive : cela irrite la muqueuse et fait saigner.",
+        "Utiliser trop souvent le mouche-bébé : il peut être irritant, et il débouche moins bien le nez que le lavage.",
         "Introduire un coton-tige ou un objet dans le nez : il peut blesser la muqueuse.",
         "Donner un sirop ou un décongestionnant : contre-indiqués chez le nourrisson."
       ],
       "consulter_si": "Consulter si : bébé respire vite, siffle, creuse entre les côtes ou bat des ailes du nez, change de couleur, boit beaucoup moins, ou a de la fièvre avant trois mois → appeler le 15 en cas de gêne respiratoire, sinon le pédiatre sans délai.",
-      "source": "Source : ameli.fr (Assurance Maladie), comment pratiquer un lavage de nez chez un enfant."
+      "source": "Source : ameli.fr (Assurance Maladie), comment pratiquer un lavage de nez chez un enfant ; rhinopharyngite de l'enfant : que faire et quand consulter ?"
     },
     {
       "categorie": "corps",
