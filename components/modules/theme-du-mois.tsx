@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 
 // « Thème du mois » (Laura, 19/11/2026) : l'encart de l'initiale, en haut à gauche
 // de l'accueil, devient un bouton qui ouvre un panneau plein écran avec le mot du
-// mois, son texte, puis le repère d'introduction. Textes validés et lus à voix
+// mois et son texte. Textes validés et lus à voix
 // haute (content/Compétences bébé/themes_du_mois.json) : affichés tels quels.
 // Le panneau reste sur l'accueil : « Retour » le ferme et rend la main au bouton.
 
@@ -12,12 +12,12 @@ const FOND = "#FAEEE9"; // fond de l'accueil
 const TEXTE = "#3A3228";
 const BRUN = "#8A4030";
 const ROSE = "#F5D0C8"; // fond de la case Guide-moi, celui de l'encart
+const AUREOLES = ["#E3AFA0", "#EABDB1"] as const; // auréoles de la case Guide-moi (accueil-vue.tsx)
 const GRIS = "#8A9E98"; // gris du Retour de la barre du bas
 
 export type ThemeDuMoisData = {
   mot: string;
   texte: string;
-  intro: string;
   introCourte: string;
 };
 
@@ -56,19 +56,17 @@ export function ThemeDuMois({ initiale, theme }: { initiale: string; theme: Them
         aria-label={`Thème du mois : ${theme.mot}`}
         aria-haspopup="dialog"
         className="relative flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl font-display text-[22px] font-semibold transition-transform active:scale-[0.95] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
-        style={{ background: ROSE, color: BRUN, ["--tw-ring-color" as string]: BRUN, ["--tw-ring-offset-color" as string]: FOND }}
+        style={{
+          backgroundColor: ROSE,
+          // Indice « bouton » (Laura, 19/11) : auréoles et ombre de la case Guide-moi de l'accueil.
+          backgroundImage: `radial-gradient(circle at 0% 0%, ${AUREOLES[0]} 0, ${AUREOLES[0]}00 78%), radial-gradient(circle at 100% 100%, ${AUREOLES[1]}D9 0, ${AUREOLES[1]}00 62%)`,
+          boxShadow: "0 8px 18px -8px rgba(110,60,45,.30), 0 2px 4px rgba(110,60,45,.06)",
+          color: BRUN,
+          ["--tw-ring-color" as string]: BRUN,
+          ["--tw-ring-offset-color" as string]: FOND,
+        }}
       >
         {initiale}
-        {/* Petit indice « cliquable » : une pastille avec une étincelle, au coin. */}
-        <span
-          aria-hidden
-          className="absolute -bottom-1 -right-1 flex h-[18px] w-[18px] items-center justify-center rounded-full"
-          style={{ background: "#fff", boxShadow: "0 1px 3px rgba(110,60,45,.25)" }}
-        >
-          <svg width={10} height={10} viewBox="0 0 24 24" fill="none" stroke={BRUN} strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round">
-            <path d="M12 3v4M12 17v4M3 12h4M17 12h4" />
-          </svg>
-        </span>
       </button>
 
       {ouvert ? (
@@ -107,19 +105,7 @@ export function ThemeDuMois({ initiale, theme }: { initiale: string; theme: Them
                 {theme.texte}
               </p>
 
-              {theme.intro ? (
-                <details className="mt-6 rounded-[16px] px-4 py-3" style={{ background: "rgba(255,255,255,.55)" }}>
-                  <summary
-                    className="cursor-pointer rounded focus-visible:outline-none focus-visible:ring-2"
-                    style={{ fontSize: 10, color: BRUN, letterSpacing: ".07em", textTransform: "uppercase", fontWeight: 600, ["--tw-ring-color" as string]: BRUN }}
-                  >
-                    À propos de ce repère
-                  </summary>
-                  <p className="mt-3" style={{ fontSize: 13, color: TEXTE, lineHeight: 1.55 }}>
-                    {theme.intro}
-                  </p>
-                </details>
-              ) : null}
+              {/* « À propos de ce repère » (introduction.texte) retiré à la demande de Laura, 19/11. */}
             </div>
 
             <button

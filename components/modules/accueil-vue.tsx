@@ -94,7 +94,6 @@ function themeDuMois(mois: number): ThemeDuMoisData | null {
   return {
     mot: m.mot,
     texte: m.texte,
-    intro: themesDuMois.introduction?.texte ?? "",
     introCourte: themesDuMois.introduction?.version_courte ?? "",
   };
 }
