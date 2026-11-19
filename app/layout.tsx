@@ -14,10 +14,9 @@ const playfair = Playfair_Display({
   weight: ["500", "600", "700"],
 });
 // Nunito = font de la berceuse-rituel (Coucher), en italique. Cf.
-// skills/CONSIGNES_CLAUDE_CODE_coucher.md §7. Pas préchargée (19/11) : elle ne
-// sert que sur la page Coucher, qui la télécharge seulement à l'ouverture.
+// skills/CONSIGNES_CLAUDE_CODE_coucher.md §7. (19/11 : essayer preload:false a
+// fait échouer le build Vercel — Google Fonts ne répondait plus — laissée telle quelle.)
 const nunito = Nunito({
-  preload: false,
   subsets: ["latin"],
   variable: "--font-nunito",
   weight: ["400", "600"],
