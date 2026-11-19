@@ -499,7 +499,7 @@ Code : `app/(app)/dashboard/page.tsx`. 🔁 Remplace la grille et l'ordre du 20/
 | Vivre la saison | `#F8DBC9` | `#E7B99F` · `#EEC7B0` | droite → gauche | `#8A4030` |
 
 - **Auréoles** : deux `radial-gradient` par case, la soutenue à pleine intensité jusqu'à 78 %, l'intermédiaire à 85 % jusqu'à 62 %. **Jamais de ton plus clair que la case ni de blanc** (refusé deux fois par Laura).
-- **Ronds de la barre du bas** (pictos inchangés) : Cohérence `#D2DACB` / `#435530` · SOS `#EABDB1` / `#8A3020` · Que me dit bébé ? `#F5D0C8` / `#8A4030` · Rythme `#D3E5F2` / `#2F6081`.
+- **Ronds de la barre du bas** (pictos inchangés) : Cohérence `#DFE7D5` / `#435530` (vert de la case Apaisement, 19/11) · SOS `#EABDB1` / `#8A3020` · Que me dit bébé ? `#F5D0C8` / `#8A4030` · Rythme `#D3E5F2` / `#2F6081`.
 
 ### Avant le 18/11 (archive)
 

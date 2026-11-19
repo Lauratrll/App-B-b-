@@ -309,8 +309,8 @@ export function BottomNav({ afficherLoupe = true }: { afficherLoupe?: boolean })
         <OngletPicto href="/dashboard" label="Accueil" actif>
           {ICONE_ACCUEIL}
         </OngletPicto>
-        {/* Sauge du camaïeu frais de l'accueil B2 (18/11/2026 ; avant : lavande #DBD7EA / #46405A), sans contour. */}
-        <BoutonRond href="/coherence" label="Cohérence cardiaque" actif={false} fond="#D2DACB" bord="transparent" hausse={HAUSSE_EXTERIEURS}>
+        {/* Même vert que la case Gestes d'apaisement (Laura, 19/11 ; avant #D2DACB, puis lavande #DBD7EA à l'origine), sans contour. */}
+        <BoutonRond href="/coherence" label="Cohérence cardiaque" actif={false} fond="#DFE7D5" bord="transparent" hausse={HAUSSE_EXTERIEURS}>
           <svg width={28} height={28} viewBox="0 0 24 24" fill="none" stroke="#435530" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
             {ICONE_COHERENCE}
           </svg>
