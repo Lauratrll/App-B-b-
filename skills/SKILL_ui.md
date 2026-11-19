@@ -92,6 +92,8 @@
 | 🆘 S.O.S Dois-je consulter ? | `#FFE3CD` | jaune `#FFCD67` · orange `#FFC18F` · sanguine `#FFBAA5` (cf. sos-design.tsx) |
 | 🎯 Jeux & stimulation | `#EDE0D4` | `#C89878` |
 
+- Page `/apaisement` (19/11/2026) : titre « Que cherches-tu ? » (Playfair 18, `#435530`) et options dans un **bloc sauge à auréoles** en relief (fond `#DFE7D5`, auréoles `#BECEA9` · `#C9D5B6`, rayon 22, ombre des cases de l’accueil). Options centrées, fond blanc .72 ; option choisie `#526528` avec ombre. Code : `components/modules/apaisement-onglets.tsx`.
+
 ---
 
 ## Contraintes de format

@@ -123,8 +123,40 @@
       ]
     },
     {
-      "id": "la-prise-stop-pleurs",
+      "id": "faire-son-rot",
       "ordre": 4,
+      "titre": "Faire son rot",
+      "mois_debut": 0,
+      "mois_fin": 8,
+      "onglet": "ventre_gaz",
+      "format_prevu": "Vidéo",
+      "visuel_attendu": true,
+      "objectif": "Aider bébé à évacuer l'air avalé en buvant.",
+      "pourquoi": "En tétant, en buvant au biberon ou en pleurant, bébé avale de l'air, qui peut le gêner au ventre. Le rot le fait remonter.",
+      "pas_a_pas": {
+        "intro": [
+          "Fais-le après la tétée ou le biberon, ou en cours de boire s'il se tortille ou semble inconfortable."
+        ],
+        "etapes": [
+          "Installe-toi assis et assieds bébé sur tes genoux.",
+          "Maintiens sa tête et son cou d'une main, pour dégager sa trachée, sans appuyer sur sa gorge.",
+          "Avec l'autre main, frotte doucement son dos, du bas vers le haut, pendant quelques minutes.",
+          "Rot ou pas rot : s'il le fait, parfait. S'il n'en fait pas au bout de quelques minutes, n'insiste pas, certains bébés n'en font pas.",
+          "Vérifie s'il a encore faim : s'il cherche encore à téter ou à boire, redonne-lui la tétée ou le biberon, puis refais un essai de rot."
+        ],
+        "suite": [
+          "Si l'inconfort perdure, parles-en à un pédiatre."
+        ]
+      },
+      "cadre_securite": null,
+      "sources": [
+        "Institut national de santé publique du Québec (INSPQ), Mieux vivre avec notre enfant, « Rots, régurgitations, hoquet et gaz chez le nouveau-né » (mise à jour 17/02/2026)",
+        "INSPQ, Mieux vivre avec notre enfant, « Tenir votre nouveau-né »"
+      ]
+    },
+    {
+      "id": "la-prise-stop-pleurs",
+      "ordre": 5,
       "titre": "La prise Stop Pleurs",
       "mois_debut": 0,
       "mois_fin": 4,
@@ -156,7 +188,7 @@
     },
     {
       "id": "la-reponse-progressive-aux-pleurs",
-      "ordre": 5,
+      "ordre": 6,
       "titre": "La réponse progressive aux pleurs",
       "mois_debut": 3,
       "mois_fin": 23,
@@ -188,7 +220,7 @@
     },
     {
       "id": "le-peau-a-peau",
-      "ordre": 6,
+      "ordre": 7,
       "titre": "Le peau à peau",
       "mois_debut": 0,
       "mois_fin": 5,
@@ -211,7 +243,7 @@
     },
     {
       "id": "la-succion",
-      "ordre": 7,
+      "ordre": 8,
       "titre": "La succion",
       "mois_debut": 0,
       "mois_fin": 11,
@@ -236,7 +268,7 @@
     },
     {
       "id": "bercer-osciller",
-      "ordre": 8,
+      "ordre": 9,
       "titre": "Bercer, osciller",
       "mois_debut": 0,
       "mois_fin": 17,
@@ -261,7 +293,7 @@
     },
     {
       "id": "le-roule-boule",
-      "ordre": 9,
+      "ordre": 10,
       "titre": "Le roulé-boulé",
       "mois_debut": 5,
       "mois_fin": 8,
@@ -283,7 +315,7 @@
     },
     {
       "id": "les-bras-qui-enveloppent",
-      "ordre": 10,
+      "ordre": 11,
       "titre": "Les bras qui enveloppent",
       "mois_debut": 0,
       "mois_fin": 3,
@@ -305,7 +337,7 @@
     },
     {
       "id": "l-emmaillotage",
-      "ordre": 11,
+      "ordre": 12,
       "titre": "L'emmaillotage",
       "mois_debut": 0,
       "mois_fin": 3,
@@ -338,7 +370,7 @@
     },
     {
       "id": "le-bain-enveloppe",
-      "ordre": 12,
+      "ordre": 13,
       "titre": "Le bain enveloppé",
       "mois_debut": 0,
       "mois_fin": 4,
@@ -368,7 +400,7 @@
     },
     {
       "id": "massage-doux-de-detente",
-      "ordre": 13,
+      "ordre": 14,
       "titre": "Massage doux de détente",
       "mois_debut": 4,
       "mois_fin": 23,
@@ -393,7 +425,7 @@
     },
     {
       "id": "la-caresse-sur-le-visage",
-      "ordre": 14,
+      "ordre": 15,
       "titre": "La caresse sur le visage",
       "mois_debut": 4,
       "mois_fin": 23,
@@ -420,7 +452,7 @@
     },
     {
       "id": "le-calin-papillon-un-geste-de-relaxation",
-      "ordre": 15,
+      "ordre": 16,
       "titre": "Le câlin papillon, un geste de relaxation",
       "mois_debut": 12,
       "mois_fin": 23,
@@ -448,7 +480,7 @@
     },
     {
       "id": "coherence-cardiaque",
-      "ordre": 16,
+      "ordre": 17,
       "titre": "Cohérence cardiaque",
       "mois_debut": 0,
       "mois_fin": 23,
@@ -464,7 +496,7 @@
     },
     {
       "id": "bruit-blanc",
-      "ordre": 17,
+      "ordre": 18,
       "titre": "Bruit blanc",
       "mois_debut": 0,
       "mois_fin": 6,
@@ -492,7 +524,7 @@
     },
     {
       "id": "la-berceuse",
-      "ordre": 18,
+      "ordre": 19,
       "titre": "La berceuse",
       "mois_debut": 0,
       "mois_fin": 23,
@@ -516,7 +548,7 @@
     },
     {
       "id": "l-histoire-du-soir",
-      "ordre": 19,
+      "ordre": 20,
       "titre": "L'histoire du soir",
       "mois_debut": 3,
       "mois_fin": 23,
@@ -538,7 +570,7 @@
     },
     {
       "id": "le-sansula",
-      "ordre": 20,
+      "ordre": 21,
       "titre": "Le sansula",
       "mois_debut": 2,
       "mois_fin": 23,
@@ -559,7 +591,7 @@
     },
     {
       "id": "la-position-bouddha",
-      "ordre": 21,
+      "ordre": 22,
       "titre": "La position bouddha",
       "mois_debut": 1,
       "mois_fin": 8,
@@ -584,7 +616,7 @@
     },
     {
       "id": "portage-en-echarpe-ou-porte-bebe",
-      "ordre": 22,
+      "ordre": 23,
       "titre": "Portage en écharpe ou porte-bébé",
       "mois_debut": 0,
       "mois_fin": 15,
@@ -605,7 +637,7 @@
     },
     {
       "id": "observer-ses-signaux",
-      "ordre": 23,
+      "ordre": 24,
       "titre": "Observer ses signaux",
       "mois_debut": 0,
       "mois_fin": 11,
@@ -620,7 +652,7 @@
     },
     {
       "id": "eveil-calme-eveil-agite-ou-sommeil-agite-distinguer-les-signes",
-      "ordre": 24,
+      "ordre": 25,
       "titre": "Éveil calme, éveil agité ou sommeil agité : distinguer les signes",
       "mois_debut": 0,
       "mois_fin": 5,

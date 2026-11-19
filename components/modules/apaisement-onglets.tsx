@@ -14,6 +14,14 @@ import { ApaisementIcone, familleDuPicto } from "./apaisement-icone";
 
 const UN_AN = 60 * 60 * 24 * 365;
 
+// Bloc des options : les couleurs de la case Gestes d'apaisement de l'accueil
+// (fond + auréoles soutenues), titre au vert foncé de son sous-titre.
+const BLOC = {
+  fond: "#DFE7D5",
+  aureoles: ["#BECEA9", "#C9D5B6"] as const,
+  titre: "#435530",
+};
+
 export function ApaisementOnglets({
   onglets,
   gestes,
@@ -40,7 +48,34 @@ export function ApaisementOnglets({
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-      <div role="tablist" aria-label="Onglets des gestes" style={{ display: "flex", flexWrap: "wrap", gap: 7 }}>
+      {/* Bloc « Que cherches-tu ? » (Laura, 19/11/2026) : les options sont portées par un
+          bloc sauge à auréoles, comme la case Gestes d'apaisement de l'accueil. */}
+      <section
+        aria-labelledby="que-cherches-tu"
+        style={{
+          borderRadius: 22,
+          padding: "16px 14px 16px",
+          backgroundColor: BLOC.fond,
+          backgroundImage: `radial-gradient(circle at 100% 0%, ${BLOC.aureoles[0]} 0, ${BLOC.aureoles[0]}00 75%), radial-gradient(circle at 0% 100%, ${BLOC.aureoles[1]}D9 0, ${BLOC.aureoles[1]}00 60%)`,
+          boxShadow: "0 8px 18px -8px rgba(110,60,45,.30), 0 2px 4px rgba(110,60,45,.06)",
+        }}
+      >
+        <h2
+          id="que-cherches-tu"
+          style={{
+            fontFamily: PLAYFAIR,
+            fontWeight: 700,
+            fontSize: 18,
+            color: BLOC.titre,
+            letterSpacing: "-.01em",
+            lineHeight: 1.15,
+            textAlign: "center",
+            margin: "0 0 12px 0",
+          }}
+        >
+          Que cherches-tu&nbsp;?
+        </h2>
+      <div role="tablist" aria-label="Que cherches-tu ?" style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 7 }}>
         {onglets.map((o) => {
           const estActif = o.id === actif;
           return (
@@ -57,8 +92,9 @@ export function ApaisementOnglets({
                 minHeight: 36,
                 padding: "0 13px",
                 borderRadius: 999,
-                border: estActif ? `1px solid ${APAISEMENT.profond}` : "1px solid rgba(0,0,0,.07)",
-                background: estActif ? APAISEMENT.profond : "rgba(255,255,255,.55)",
+                border: estActif ? `1px solid ${APAISEMENT.profond}` : "1px solid rgba(255,255,255,.9)",
+                background: estActif ? APAISEMENT.profond : "rgba(255,255,255,.72)",
+                boxShadow: estActif ? "0 4px 10px -4px rgba(82,101,40,.55)" : "none",
                 color: estActif ? "#FFFFFF" : APAISEMENT.texte,
                 fontSize: 12.5,
                 fontWeight: 600,
@@ -80,6 +116,7 @@ export function ApaisementOnglets({
           );
         })}
       </div>
+      </section>
 
       <ul role="tabpanel" style={{ display: "grid", gap: 9, listStyle: "none", margin: 0, padding: 0 }}>
         {affiches.map((g) => (
