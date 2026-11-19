@@ -36,12 +36,17 @@ const PHOTO_ACCUEIL: {
   hauteur: string;
   /** Hauteur sur laquelle la photo est cadrée ; ce qui dépasse `hauteur` est coupé en bas. */
   hauteurCadrage: string;
+  /** Espace (px) sous les cases, au-dessus des boutons ronds de la barre du bas. Sans
+   *  lui, les cases s'agrandiraient pour remplir la place libérée par la photo. */
+  margeBas: number;
   /** De combien (px) la case Sommeil remonte sur la photo. */
   chevauchement: number;
 } | null = {
   src: "/images/accueil/peau-a-peau-recentre.jpg",
   // Bas de la photo coupé (Laura, 19/11 ; avant clamp(190px, 36dvh, 310px)).
-  hauteur: "clamp(170px, 31dvh, 265px)",
+  hauteur: "clamp(150px, 27dvh, 240px)",
+  // Marge entre les cases du bas et les boutons ronds (Laura, 19/11 ; avant 26 px).
+  margeBas: 52,
   hauteurCadrage: "clamp(190px, 36dvh, 310px)",
   cadrage: { objectPosition: "70% 30%", transform: "scale(1.15)", transformOrigin: "50% 100%" },
   chevauchement: 30,
@@ -162,7 +167,8 @@ export function AccueilVue({ prenom, mois, saison }: { prenom: string; mois: num
   // pb : le tiers des boutons ronds de la barre du bas dépasse au-dessus.
   return (
     <section
-      className={`accueil-fige centre-vertical flex min-h-0 flex-1 flex-col pb-[26px] ${PHOTO_ACCUEIL ? "justify-start" : "justify-center"}`}
+      className={`accueil-fige centre-vertical flex min-h-0 flex-1 flex-col ${PHOTO_ACCUEIL ? "justify-start" : "justify-center"}`}
+      style={{ paddingBottom: PHOTO_ACCUEIL ? PHOTO_ACCUEIL.margeBas : 26 }}
     >
       {/* Fond coloré de l'accueil, sur tout l'écran (derrière la barre du bas, translucide ici). */}
       <div aria-hidden className="pointer-events-none fixed inset-0 -z-10" style={{ background: FOND_ACCUEIL }} />
