@@ -9,11 +9,11 @@ import { useEffect, useRef, useState } from "react";
 // Elle grossit en montant (inspiration), diminue en descendant (expiration).
 // Montée et descente : 5 s par défaut, réglable 4, 5, 6 ou 7 s.
 // Rien de médical : pas de tracé type électrocardiogramme, pas de chiffre de
-// fréquence, juste une onde lente. Couleurs : la lavande de la carte
+// fréquence, juste une onde lente. Couleurs (19/11) : la sauge de la case Gestes d'apaisement ; avant : la lavande de la carte
 // « Parents submergés » de Guide-moi (GUIDE_SLOT_PARENT, guide-design.tsx).
 // ----------------------------------------------------------------------------
 
-import { LAVANDE } from "./metronome-design";
+import { SAUGE } from "./metronome-design";
 
 const RYTHMES = [4, 5, 6, 7] as const;
 type Rythme = (typeof RYTHMES)[number];
@@ -252,7 +252,7 @@ export function MetronomeSouffle() {
           margin: "0 0 4px 0",
           fontSize: 19,
           fontStyle: "italic",
-          color: LAVANDE.texte,
+          color: SAUGE.texte,
           opacity: enCours ? 0.55 + 0.45 * Math.sin(Math.PI * ((frac * 2) % 1)) : 0.8,
         }}
       >
@@ -264,16 +264,16 @@ export function MetronomeSouffle() {
       <div className="-mx-5 self-stretch">
         <svg viewBox={`0 0 ${W} ${H}`} className="block w-full" aria-hidden>
           {/* Écho de la vague, plus large et plus pâle, pour la douceur. */}
-          <path d={chemin} fill="none" stroke={LAVANDE.soutenu} strokeOpacity="0.45" strokeWidth={14} strokeLinecap="round" />
-          <path d={chemin} fill="none" stroke={LAVANDE.profond} strokeOpacity="0.7" strokeWidth={3} strokeLinecap="round" />
+          <path d={chemin} fill="none" stroke={SAUGE.soutenu} strokeOpacity="0.45" strokeWidth={14} strokeLinecap="round" />
+          <path d={chemin} fill="none" stroke={SAUGE.profond} strokeOpacity="0.7" strokeWidth={3} strokeLinecap="round" />
 
           {/* Zone autour de la bulle, plus transparente : elle grandit avec
               l'inspiration et donne le rythme (comme les ondes du point de
               pression de la réflexologie). */}
-          <circle cx={CX} cy={yBille} r={rBille * (HALO_MIN + (HALO_MAX - HALO_MIN) * montee)} fill={LAVANDE.bulle} opacity={0.14} />
-          <circle cx={CX} cy={yBille} r={rBille * (1 + (HALO_MIN + (HALO_MAX - HALO_MIN) * montee - 1) * 0.55)} fill={LAVANDE.bulle} opacity={0.22} />
+          <circle cx={CX} cy={yBille} r={rBille * (HALO_MIN + (HALO_MAX - HALO_MIN) * montee)} fill={SAUGE.bulle} opacity={0.14} />
+          <circle cx={CX} cy={yBille} r={rBille * (1 + (HALO_MIN + (HALO_MAX - HALO_MIN) * montee - 1) * 0.55)} fill={SAUGE.bulle} opacity={0.22} />
           {/* La bulle : un aplat, sans relief. */}
-          <circle cx={CX} cy={yBille} r={rBille} fill={LAVANDE.bulle} />
+          <circle cx={CX} cy={yBille} r={rBille} fill={SAUGE.bulle} />
         </svg>
       </div>
 
@@ -281,7 +281,7 @@ export function MetronomeSouffle() {
       <div className="flex flex-col items-center" style={{ gap: 8, marginTop: 36 }}>
         <p
           className="m-0 font-semibold uppercase"
-          style={{ fontSize: 9, letterSpacing: ".15em", color: LAVANDE.texte, opacity: 0.75 }}
+          style={{ fontSize: 9, letterSpacing: ".15em", color: SAUGE.texte, opacity: 0.75 }}
         >
           Durée d&apos;une montée et d&apos;une descente
         </p>
@@ -301,8 +301,8 @@ export function MetronomeSouffle() {
                   height: 36,
                   fontSize: 14,
                   fontWeight: choisi ? 700 : 500,
-                  color: choisi ? "#FFFFFF" : LAVANDE.texte,
-                  background: choisi ? LAVANDE.profond : "rgba(255,255,255,.6)",
+                  color: choisi ? "#FFFFFF" : SAUGE.texte,
+                  background: choisi ? SAUGE.profond : "rgba(255,255,255,.6)",
                 }}
               >
                 {r} s
@@ -322,7 +322,7 @@ export function MetronomeSouffle() {
             padding: "0 28px",
             fontSize: 15,
             color: "#FFFFFF",
-            background: LAVANDE.texte,
+            background: SAUGE.texte,
           }}
         >
           {enCours ? "Pause" : phase > 0 ? "Reprendre" : "Commencer"}
@@ -336,7 +336,7 @@ export function MetronomeSouffle() {
           className="flex items-center justify-center rounded-full"
           style={{ width: 46, height: 46, background: "rgba(255,255,255,.6)" }}
         >
-          <svg width={20} height={20} viewBox="0 0 24 24" fill="none" stroke={LAVANDE.texte} strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden style={{ opacity: son ? 1 : 0.55 }}>
+          <svg width={20} height={20} viewBox="0 0 24 24" fill="none" stroke={SAUGE.texte} strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden style={{ opacity: son ? 1 : 0.55 }}>
             <path d="M6 16.5V11a6 6 0 0112 0v5.5l1.5 1.5h-15L6 16.5z" />
             <path d="M10 20.5a2 2 0 004 0" />
             {son ? null : <path d="M4 4l16 16" />}
