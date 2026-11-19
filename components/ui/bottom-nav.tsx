@@ -168,6 +168,7 @@ function BoutonRond({
   fond,
   bord,
   hausse = 0,
+  aureoles,
   children,
 }: {
   href: string;
@@ -177,6 +178,9 @@ function BoutonRond({
   bord: string;
   /** Remonte le rond de quelques pixels (ronds extérieurs en arc, 06/11). */
   hausse?: number;
+  /** Auréoles comme les cases de l'accueil (Laura, 19/11/2026) : [ton soutenu, ton
+   *  intermédiaire] du camaïeu du rond, et leurs origines (directions variées). */
+  aureoles?: { tons: [string, string]; directions: [string, string] };
   children: React.ReactNode;
 }) {
   return (
@@ -191,9 +195,14 @@ function BoutonRond({
           width: TAILLE_ROND,
           height: TAILLE_ROND,
           top: `calc(${TAILLE_ROND} / -3 - ${hausse}px)`,
-          background: fond,
+          backgroundColor: fond,
+          // Hex à 8 chiffres (alpha) : rendu sûr sur tous les Safari (même recette que les cases).
+          backgroundImage: aureoles
+            ? `radial-gradient(circle at ${aureoles.directions[0]}, ${aureoles.tons[0]} 0, ${aureoles.tons[0]}00 80%), radial-gradient(circle at ${aureoles.directions[1]}, ${aureoles.tons[1]}D9 0, ${aureoles.tons[1]}00 65%)`
+            : undefined,
           border: `${actif ? 2 : 1.5}px solid ${actif ? ACTIVE : bord}`,
-          boxShadow: "0 2px 8px rgba(58,50,40,.12)",
+          // Relief des cases de l'accueil, à l'échelle du rond.
+          boxShadow: "0 6px 12px -5px rgba(110,60,45,.32), 0 2px 4px rgba(110,60,45,.07)",
         }}
       >
         {children}
@@ -310,14 +319,14 @@ export function BottomNav({ afficherLoupe = true }: { afficherLoupe?: boolean })
           {ICONE_ACCUEIL}
         </OngletPicto>
         {/* Même vert que la case Gestes d'apaisement (Laura, 19/11 ; avant #D2DACB, puis lavande #DBD7EA à l'origine), sans contour. */}
-        <BoutonRond href="/coherence" label="Cohérence cardiaque" actif={false} fond="#DFE7D5" bord="transparent" hausse={HAUSSE_EXTERIEURS}>
+        <BoutonRond href="/coherence" label="Cohérence cardiaque" actif={false} fond="#DFE7D5" bord="transparent" hausse={HAUSSE_EXTERIEURS} aureoles={{ tons: ["#BECEA9", "#C9D5B6"], directions: ["100% 0%", "0% 100%"] }}>
           <svg width={28} height={28} viewBox="0 0 24 24" fill="none" stroke="#435530" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
             {ICONE_COHERENCE}
           </svg>
         </BoutonRond>
         {/* SOS écrit au trait, sans sérif, du même trait que les pictos ; sans contour (Laura, 06/11). */}
         {/* Accueil B2 (18/11/2026) : rosé soutenu du camaïeu chaud, trait brique (avant : #FAD2B3 / #A4471F). */}
-        <BoutonRond href="/sos" label="SOS, dois-je consulter ?" actif={false} fond="#EABDB1" bord="transparent">
+        <BoutonRond href="/sos" label="SOS, dois-je consulter ?" actif={false} fond="#EABDB1" bord="transparent" aureoles={{ tons: ["#D99E8D", "#E2AE9F"], directions: ["0% 0%", "100% 100%"] }}>
           <svg width={30} height={14} viewBox="0 0 36 16" fill="none" stroke="#8A3020" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
             {LETTRES_SOS}
           </svg>
@@ -326,7 +335,7 @@ export function BottomNav({ afficherLoupe = true }: { afficherLoupe?: boolean })
         {afficherLoupe ? (
           <>
         {/* Loupe seule, sans mot ni contour (Laura, 06/11) ; rosé de Prendre soin de moi depuis l'accueil B2 (18/11, avant : pêche #F0B8A8 / #7A3E2E). */}
-        <BoutonRond href="/que-me-dit-bebe" label="Que me dit bébé ?" actif={false} fond="#F5D0C8" bord="transparent">
+        <BoutonRond href="/que-me-dit-bebe" label="Que me dit bébé ?" actif={false} fond="#F5D0C8" bord="transparent" aureoles={{ tons: ["#E3AFA0", "#EABDB1"], directions: ["100% 100%", "0% 0%"] }}>
           <svg width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="#8A4030" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
             {ICONE_LOUPE}
           </svg>
@@ -334,7 +343,7 @@ export function BottomNav({ afficherLoupe = true }: { afficherLoupe?: boolean })
           </>
         ) : null}
         {/* Le rythme de bébé : bleu ciel #D3E5F2 (Laura, 07/11 : remplace le vert), picto soleil/lune bleu profond, sans contour. */}
-        <BoutonRond href="/rythme" label="Le rythme de bébé" actif={false} fond="#D3E5F2" bord="transparent" hausse={HAUSSE_EXTERIEURS}>
+        <BoutonRond href="/rythme" label="Le rythme de bébé" actif={false} fond="#D3E5F2" bord="transparent" hausse={HAUSSE_EXTERIEURS} aureoles={{ tons: ["#A3C2D9", "#B9D2E6"], directions: ["0% 100%", "100% 0%"] }}>
           <svg width={28} height={28} viewBox="0 0 24 24" fill="none" color="#2F6081" stroke="#2F6081" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
             {ICONE_SOLEIL_LUNE}
           </svg>
