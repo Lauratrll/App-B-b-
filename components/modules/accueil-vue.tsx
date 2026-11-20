@@ -44,9 +44,10 @@ const PHOTO_ACCUEIL: {
 } | null = {
   // 20/11 : « Bebe Laura (1 sur 4) » (couleurs corrigées), découpée sur la même zone que
   // l'ancienne « lumineux - recentré » (peau-a-peau-recentre.jpg, gardée pour revenir).
-  // 20/11 : « Accueil - T1 peau à peau - ok », même découpe (déjà essayées :
-  // peau-a-peau-1-recadree.jpg, -3-recadree.jpg, -4-recadree.jpg).
-  src: "/images/accueil/peau-a-peau-ok-recadree.jpg",
+  // 20/11 : « Accueil - T1 peau à peau - zoom », déjà recadrée par Laura comme
+  // peau-a-peau-recentre.jpg (copiée telle quelle). Déjà essayées : peau-a-peau-1-,
+  // -3-, -4-, -ok-recadree.jpg (découpées dans la photo entière).
+  src: "/images/accueil/peau-a-peau-zoom.jpg",
   // Bas de la photo coupé (Laura, 19/11 ; avant clamp(190px, 36dvh, 310px)).
   hauteur: "clamp(150px, 27dvh, 240px)",
   // Marge entre les cases du bas et les boutons ronds (Laura, 19/11 ; avant 26 px).
