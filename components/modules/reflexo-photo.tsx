@@ -26,6 +26,8 @@ export function ReflexoPhoto() {
         alt=""
         fill
         priority
+        // Moins compressée que le réglage par défaut (75) : peau, cheveux et maille.
+        quality={90}
         sizes="(max-width: 430px) 100vw, 430px"
         style={{ objectFit: "cover", objectPosition: "50% 0%" }}
       />
