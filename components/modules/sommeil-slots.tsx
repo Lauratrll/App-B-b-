@@ -470,10 +470,36 @@ function BoutonRythme() {
   );
 }
 
+// Bandeau en haut de chaque partie, le temps de finaliser les textes (Laura, 21/11/2026).
+// Pour le retirer partout : remplacer la phrase par `null`.
+const BANDEAU_EN_COURS: string | null = "En cours de travail";
+
+function BandeauEnCours() {
+  if (!BANDEAU_EN_COURS) return null;
+  return (
+    <div
+      role="status"
+      style={{
+        ...labelStyle,
+        background: CADRE.bg,
+        color: CADRE.label,
+        borderRadius: 8,
+        padding: "7px 10px",
+        marginBottom: 8,
+        textAlign: "center",
+        flexShrink: 0,
+      }}
+    >
+      {BANDEAU_EN_COURS}
+    </div>
+  );
+}
+
 function ReperesCles({ sommeil }: { sommeil: SommeilMois }) {
   const r = sommeil.reperes ?? {};
   return (
     <div style={{ flex: 1, display: "flex", flexDirection: "column", padding: "0 16px 8px" }}>
+      <BandeauEnCours />
       <NavBack href="/coucher" label="Sommeil" />
       <div aria-hidden style={{ flex: 1 }} />
       <header style={{ textAlign: "center", marginBottom: "clamp(4px, 1.8dvh, 16px)" }}>
@@ -528,6 +554,7 @@ function Slot({
   if (partie.id === "reperes-cles") return <ReperesCles sommeil={sommeil} />;
   return (
     <div style={{ padding: "4px 16px 80px" }}>
+      <BandeauEnCours />
       <NavBack href="/coucher" label="Sommeil" />
       <Entete
         picto={
