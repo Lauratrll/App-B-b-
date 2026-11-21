@@ -10,7 +10,7 @@ import { ReflexoIcone } from "./reflexo-icone";
 
 export function ReflexoListe({ protocoles }: { protocoles: ReflexoListItem[] }) {
   // La marge latérale est portée par le conteneur de la page, pour que la
-  // liste, le titre « Les protocoles » et l'introduction soient ferrés sur la
+  // liste, le titre « Les séquences » et l'introduction soient ferrés sur la
   // même ligne. Rien ici.
   return (
     <ul style={{ display: "grid", gap: 9, listStyle: "none", margin: 0, padding: 0 }}>

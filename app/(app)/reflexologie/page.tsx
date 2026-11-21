@@ -3,7 +3,11 @@ import { getBabyMonth } from "@/lib/utils";
 import { accueilReflexo, getProtocolesPublies } from "@/lib/reflexologie";
 import { ReflexoListe } from "@/components/modules/reflexo-liste";
 import { ReflexoReplier } from "@/components/modules/reflexo-replier";
-import { ReflexoPhoto, REFLEXO_PHOTO_CHEVAUCHEMENT } from "@/components/modules/reflexo-photo";
+import {
+  ReflexoHautFixe,
+  ReflexoPhoto,
+  REFLEXO_PHOTO_CHEVAUCHEMENT,
+} from "@/components/modules/reflexo-photo";
 import {
   PLAYFAIR,
   REFLEXO_MUTED,
@@ -24,8 +28,10 @@ export default async function ReflexologiePage() {
 
   return (
     // 8 px de marge latérale sur TOUTE la page : l'introduction, le titre
-    // « Les protocoles » et les cases sont ferrés sur la même ligne.
-    <div style={{ display: "flex", flexDirection: "column", gap: 22, padding: "0 8px" }}>
+    // « Les séquences » et les cases sont ferrés sur la même ligne.
+    <div style={{ display: "flex", flexDirection: "column", gap: 4, padding: "0 8px" }}>
+      {/* Haut de page fixe : les séquences défilent sous « Les séquences ». */}
+      <ReflexoHautFixe>
       {/* En-tête : photo bord à bord, titre et sous-titre posés dessus */}
       <ReflexoPhoto />
 
@@ -47,8 +53,8 @@ export default async function ReflexologiePage() {
         className="reflexo-intro"
         style={{
           position: "relative",
-          // 22 px = l'écart de la page, à annuler pour chevaucher vraiment la photo.
-          marginTop: -(22 + REFLEXO_PHOTO_CHEVAUCHEMENT),
+          // 14 px = l'écart du haut de page, à annuler pour chevaucher vraiment la photo.
+          marginTop: -(14 + REFLEXO_PHOTO_CHEVAUCHEMENT),
           background: REFLEXO_FOND_LECTEUR,
           borderRadius: 14,
           overflow: "hidden",
@@ -192,8 +198,6 @@ export default async function ReflexologiePage() {
         </div>
       </details>
 
-      {/* Liste des protocoles publiés, dans l'ordre éditorial de l'index */}
-      <section style={{ display: "flex", flexDirection: "column", gap: 12 }}>
         <h2
           style={{
             fontSize: 10,
@@ -204,11 +208,15 @@ export default async function ReflexologiePage() {
             margin: 0,
           }}
         >
-          Les protocoles
+          Les séquences
         </h2>
+      </ReflexoHautFixe>
+
+      {/* Liste des séquences publiées, dans l'ordre éditorial de l'index */}
+      <section style={{ display: "flex", flexDirection: "column" }}>
         {protocoles.length === 0 ? (
           <p style={{ fontSize: 13, color: REFLEXO_MUTED, fontStyle: "italic" }}>
-            Aucun protocole n&apos;est publié pour le moment.
+            Aucune séquence n&apos;est publiée pour le moment.
           </p>
         ) : (
           <ReflexoListe protocoles={protocoles} />
@@ -225,7 +233,8 @@ export default async function ReflexologiePage() {
           color: REFLEXO_TEXT,
           opacity: 0.7,
           fontStyle: "italic",
-          margin: 0,
+          // 28 px en bas : les boutons ronds de la barre dépassent au-dessus d'elle.
+          margin: "18px 0 28px",
         }}
       >
         {accueilReflexo.disclaimer}

@@ -1,5 +1,9 @@
+import type { ReactNode } from "react";
 import Image from "next/image";
-import { PLAYFAIR, REFLEXO_MUTED, REFLEXO_TEXT } from "@/components/modules/reflexo-design";
+import { PLAYFAIR } from "@/components/modules/reflexo-design";
+
+// Noir pur sur la photo, pour la lisibilité (Laura, 21/11/2026).
+const TITRE_SUR_PHOTO = "#000000";
 
 // Photo en haut de la page 1 de la Réflexologie (Laura, 21/11/2026), bord à bord,
 // moins haute que celle de l'accueil, coupée juste sous les yeux du papa. Le titre
@@ -9,13 +13,41 @@ import { PLAYFAIR, REFLEXO_MUTED, REFLEXO_TEXT } from "@/components/modules/refl
 /** De combien (px) le bloc Introduction remonte sur la photo. */
 export const REFLEXO_PHOTO_CHEVAUCHEMENT = 26;
 
+/**
+ * Tout le haut de la page, de la photo au titre « Les séquences » : il reste fixe
+ * et les séquences défilent dessous (Laura, 21/11/2026). Son fond est opaque pour
+ * les masquer. Quand l'Introduction est ouverte, il redevient normal : son long
+ * texte doit pouvoir défiler. Sans `:has`, la règle est ignorée et rien ne se fige.
+ */
+export function ReflexoHautFixe({ children }: { children: ReactNode }) {
+  return (
+    <div
+      className="reflexo-haut"
+      style={{
+        // Annule les marges du <main> (24 px en haut, 20 px sur les côtés) et de la page (8 px).
+        margin: "-24px -28px 0",
+        padding: "0 28px 10px",
+        background: "#FBF2E7",
+        display: "flex",
+        flexDirection: "column",
+        gap: 14,
+      }}
+    >
+      <style>{`
+        .reflexo-haut:not(:has(details[open])) { position: sticky; top: 0; z-index: 10; }
+      `}</style>
+      {children}
+    </div>
+  );
+}
+
 export function ReflexoPhoto() {
   return (
     <header
       style={{
         position: "relative",
-        // Annule les marges du <main> (20 px) et de la page (8 px).
-        margin: "-24px -28px 0",
+        // Bord à bord : annule le retrait de ReflexoHautFixe.
+        margin: "0 -28px",
         height: "clamp(150px, 23dvh, 195px)",
         overflow: "hidden",
         flexShrink: 0,
@@ -49,7 +81,7 @@ export function ReflexoPhoto() {
             fontFamily: PLAYFAIR,
             fontWeight: 700,
             fontSize: 26,
-            color: REFLEXO_TEXT,
+            color: TITRE_SUR_PHOTO,
             letterSpacing: "-.015em",
             lineHeight: 1.1,
             margin: "0 0 8px 0",
@@ -60,7 +92,7 @@ export function ReflexoPhoto() {
         <p
           style={{
             fontSize: 9,
-            color: REFLEXO_MUTED,
+            color: TITRE_SUR_PHOTO,
             letterSpacing: ".15em",
             textTransform: "uppercase",
             fontWeight: 600,
