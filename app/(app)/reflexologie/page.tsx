@@ -3,6 +3,7 @@ import { getBabyMonth } from "@/lib/utils";
 import { accueilReflexo, getProtocolesPublies } from "@/lib/reflexologie";
 import { ReflexoListe } from "@/components/modules/reflexo-liste";
 import { ReflexoReplier } from "@/components/modules/reflexo-replier";
+import { ReflexoPhoto, REFLEXO_PHOTO_CHEVAUCHEMENT } from "@/components/modules/reflexo-photo";
 import {
   PLAYFAIR,
   REFLEXO_MUTED,
@@ -25,34 +26,8 @@ export default async function ReflexologiePage() {
     // 8 px de marge latérale sur TOUTE la page : l'introduction, le titre
     // « Les protocoles » et les cases sont ferrés sur la même ligne.
     <div style={{ display: "flex", flexDirection: "column", gap: 22, padding: "0 8px" }}>
-      {/* En-tête : titre Playfair + sous-titre capitales Eucalyptus */}
-      <header style={{ textAlign: "center", padding: "4px 0 2px" }}>
-        <h1
-          style={{
-            fontFamily: PLAYFAIR,
-            fontWeight: 700,
-            fontSize: 26,
-            color: REFLEXO_TEXT,
-            letterSpacing: "-.015em",
-            lineHeight: 1.1,
-            margin: "0 0 8px 0",
-          }}
-        >
-          Réflexologie plantaire
-        </h1>
-        <p
-          style={{
-            fontSize: 9,
-            color: REFLEXO_MUTED,
-            letterSpacing: ".15em",
-            textTransform: "uppercase",
-            fontWeight: 600,
-            margin: 0,
-          }}
-        >
-          Apaiser bébé
-        </p>
-      </header>
+      {/* En-tête : photo bord à bord, titre et sous-titre posés dessus */}
+      <ReflexoPhoto />
 
       {/* Introduction — PREMIÈRE BRIQUE de la catégorie, à OUVRIR (fermée par
           défaut). Pas un protocole : présentation + précautions, à lire une fois.
@@ -71,6 +46,9 @@ export default async function ReflexologiePage() {
       <details
         className="reflexo-intro"
         style={{
+          position: "relative",
+          // 22 px = l'écart de la page, à annuler pour chevaucher vraiment la photo.
+          marginTop: -(22 + REFLEXO_PHOTO_CHEVAUCHEMENT),
           background: REFLEXO_FOND_LECTEUR,
           borderRadius: 14,
           overflow: "hidden",
