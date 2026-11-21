@@ -8,6 +8,36 @@
 
 ---
 
+## 0. Mise à jour du 21 novembre 2026 (supersède les sections 1 et 9)
+
+Décisions de Laura, appliquées dans `protocoles-index.json`, dans les fichiers `protocole-*.json` et dans les titres de `PROTOCOLES_textes_app.md` (sauvegardes dans `_sauvegardes/2026-11-21-bornes-reflexo/`). Le filtre par âge est actif depuis le 30/10 : hors tranche, le protocole est bloqué.
+
+| Protocole | Avant | Maintenant |
+|---|---|---|
+| Naissance prématurée | M0–M5 | **M0–M3** |
+| Difficultés à téter | M0–M2 | **M0–M6** |
+| Reflux | M0–M8 | **M0–M11** |
+| Rhume et oreilles | M6–M23 | **M4–M23** |
+| Coliques | M0–M3 | inchangé |
+| Inconfort digestif | M4–M12 | inchangé (laissé à M12) |
+
+**Lien posé** : M4, *Le lavage de nez* → `rhume-otite` (le geste de contact existant est conservé).
+
+**Liens possibles, à valider par Laura** (rien n'est posé) :
+
+| Mois | Fiche | Lien | Point de vigilance |
+|---|---|---|---|
+| M6 | Les régurgitations / Il rend encore à six mois | `reflux` | sujet digestion, pas appétit |
+| M8 | Les régurgitations / Il rend encore, assis à table | `reflux` | bloc « Observer bébé » : le lien reste possible |
+| M4 | Les tétées courtes | `difficultes-a-teter` | limite avec l'exclusion alimentation et appétit |
+| M4 | Le sein refusé d'un côté | `difficultes-a-teter` | le geste actuel soulage le sein de la mère, pas bébé : probablement sans lien |
+
+**Hors périmètre, pas de lien** : M4 *La tétée pour s'endormir* et M5 *La morsure du sein* (exclusions du 25 août) ; M11 *Les pleurs du sevrage*, *L'arrêt de l'allaitement* (hors bornes tétée, sevrage).
+
+**Constats** : aucune fiche de régurgitations n'a été trouvée de M9 à M11 (repérage sur les champs `situation` et `titre`), donc reflux à M11 n'ouvre pas de nouveau lien pour l'instant. Aucune fiche sur le nez ou les oreilles de M5 à M8. Les liens `rhume-otite` actuels sont à M4 et M9.
+
+---
+
 ## 1. Ce qui existe aujourd'hui
 
 Source : `reflexologie/protocoles-index.json` (bornes d'âge encore marquées BROUILLON dans le fichier).

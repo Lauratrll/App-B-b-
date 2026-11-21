@@ -49,7 +49,7 @@ Les premières semaines, tout est nouveau pour lui : la lumière, les bruits, l'
 
 ---
 
-## Naissance prématurée · M0-M5
+## Naissance prématurée · M0-M3
 
 _Sous-titre (liste) : Rassurer un bébé arrivé plus tôt que prévu, avec une grande douceur._
 
@@ -115,7 +115,7 @@ _Ce que l'on nourrit ici, c'est sa sécurité affective, ce socle intérieur dep
 
 ---
 
-## Difficultés à téter · M0-M2
+## Difficultés à téter · M0-M6
 
 _Sous-titre (liste) : Détendre la sphère orale pour accompagner la succion, sans forcer._
 
@@ -217,7 +217,7 @@ _Sa colère de ne pas encore réussir dit son élan et son envie de grandir._
 
 ---
 
-## Reflux · M0-M8
+## Reflux · M0-M11
 
 _Sous-titre (liste) : Apaiser les remontées et l'inconfort du haut du ventre._
 
@@ -350,7 +350,7 @@ _Ton propre apaisement compte autant que le geste._
 
 ---
 
-## Rhume et oreilles · M6-M23
+## Rhume et oreilles · M4-M23
 
 _Sous-titre (liste) : Soulager le nez encombré et l'inconfort des oreilles._
 
