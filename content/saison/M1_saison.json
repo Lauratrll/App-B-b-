@@ -3,9 +3,9 @@
   "tranche_age": "1 mois",
   "rubrique": "saison",
   "titre_rubrique": "Saison",
-  "sous_titre": "Mois 1 : L'Éveillé · Vivre la saison ensemble",
-  "description_m": "À 1 mois, {prenom} ouvre les yeux sur le monde et s'accroche à ton visage. Les premiers sourires arrivent, et son regard reste un peu plus longtemps sur ce qui brille ou bouge.",
-  "description_f": "À 1 mois, {prenom} ouvre les yeux sur le monde et s'accroche à ton visage. Les premiers sourires arrivent, et son regard reste un peu plus longtemps sur ce qui brille ou bouge.",
+  "sous_titre": "Mois 1 : L'Éveillé · Vivre la saison ensemble",
+  "description_m": "{prenom} ouvre les yeux sur le monde et s'accroche à ton visage. Son regard reste un peu plus longtemps sur ce qui brille ou bouge.",
+  "description_f": "{prenom} ouvre les yeux sur le monde et s'accroche à ton visage. Son regard reste un peu plus longtemps sur ce qui brille ou bouge.",
   "logique_selection": {
     "regle": "À partir du mois 1, l'app sélectionne la version saisonnière selon le mois civil en cours (et non plus la saison de naissance).",
     "mapping": {

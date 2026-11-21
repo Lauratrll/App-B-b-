@@ -2,14 +2,14 @@
 
 ### Ce qui se passe
 
-#### M15 · Entre deux siestes
-À 15 mois, le sommeil de ton enfant a presque pris l'organisation du tien. Ce qui bouge, c'est sa journée : la sieste du matin commence à se raccourcir ou à résister, et **le passage à une seule sieste se prépare**, parfois sur plusieurs semaines. **Ce n'est pas une régression, c'est un rythme qui change**. Ce mois-ci, tu observes le passage à une seule sieste, qui peut prendre des semaines, et tu apprends à distinguer une terreur nocturne d'un cauchemar.
+#### M15 · Le Nommeur
+À 15 mois, ton enfant se met à nommer le monde, et son sommeil a presque pris l'organisation du tien. Ce qui bouge, c'est sa journée : la sieste du matin commence à se raccourcir ou à résister, et **le passage à une seule sieste se prépare**, parfois sur plusieurs semaines. **Ce n'est pas une régression, c'est un rythme qui change**. Ce mois-ci, tu observes le passage à une seule sieste, qui peut prendre des semaines, et tu apprends à distinguer une terreur nocturne d'un cauchemar.
 
-#### M16 · Le temps calme
-À 16 mois, beaucoup d'enfants sont en plein milieu de cette transition : une matinée où ils refusent de dormir, une fin d'après-midi où ils s'effondrent. Un **temps calme** à la place de la sieste du matin peut faire le relais : il se repose sans avoir à dormir. Si les nuits se dégradent, **revenir en arrière n'est pas un échec**.
+#### M16 · Le Participant
+À 16 mois, ton enfant veut faire comme toi, et beaucoup sont en plein milieu de la transition de la sieste : une matinée où ils refusent de dormir, une fin d'après-midi où ils s'effondrent. Un **temps calme** à la place de la sieste du matin peut faire le relais : il se repose sans avoir à dormir. Si les nuits se dégradent, **revenir en arrière n'est pas un échec**.
 
-#### M17 · Il se demande si tu reviens
-À 17 mois, beaucoup d'enfants traversent une nouvelle vague de réactions à la séparation : ils s'accrochent plus, protestent davantage au moment du départ ou du coucher. Il sait que tu pars, et il se demande si tu reviens. **Ce n'est pas un recul, c'est une étape**. Ce qui l'aide, ce sont **des repères qui ne changent pas**, et des mots simples pour nommer ton départ et ton retour. Ce mois-ci, tu apprends à distinguer séparation, terreur nocturne et simple éveil.
+#### M17 · L'Expressif
+À 17 mois, les émotions de ton enfant sont plus fortes, et beaucoup d'enfants traversent une nouvelle vague de réactions à la séparation : ils s'accrochent plus, protestent davantage au moment du départ ou du coucher. Il sait que tu pars, et il se demande si tu reviens. **Ce n'est pas un recul, c'est une étape**. Ce qui l'aide, ce sont **des repères qui ne changent pas**, et des mots simples pour nommer ton départ et ton retour. Ce mois-ci, tu apprends à distinguer séparation, terreur nocturne et simple éveil.
 
 #### Ce que tu vas peut-être voir
 Une **matinée où il résiste à sa sieste**, puis une fin d'après-midi où il s'effondre. Des couchers plus agités pendant l'adaptation. Des nuits remuées. Un **coucher qui s'étire** parce qu'il voudrait que tu restes. Parfois, **en début de nuit, un cri** : il est assis, les yeux ouverts, il ne te reconnaît pas (voir « Si c'est une terreur nocturne », dans Réveils nocturnes).

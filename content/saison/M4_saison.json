@@ -3,9 +3,9 @@
   "tranche_age": "4 mois",
   "rubrique": "saison",
   "titre_rubrique": "Saison",
-  "sous_titre": "Mois 4 : Le Découvreur · Vivre la saison ensemble",
-  "description_m": "{prenom} attrape ce qu'il voit, tourne les objets entre ses doigts et découvre le monde du bout des mains.",
-  "description_f": "{prenom} attrape ce qu'elle voit, tourne les objets entre ses doigts et découvre le monde du bout des mains.",
+  "sous_titre": "Mois 4 : L'Émerveillé · Vivre la saison ensemble",
+  "description_m": "{prenom} s'émerveille de ses mains, attrape ce qu'il voit, tourne les objets entre ses doigts et découvre le monde du bout des mains.",
+  "description_f": "{prenom} s'émerveille de ses mains, attrape ce qu'elle voit, tourne les objets entre ses doigts et découvre le monde du bout des mains.",
   "logique_selection": {
     "regle": "À 4 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
     "mapping": {
@@ -43,7 +43,7 @@
       "couleur_theme": "#EAF3DE",
       "couleur_accent": "#27500A",
       "emoji": "🌱",
-      "ambiance": "L'herbe est encore fraîche, les pétales ont la douceur du papier de soie et chaque tige semble faite pour être saisie. Un printemps de petit Découvreur, tout en mains qui s'ouvrent.",
+      "ambiance": "L'herbe est encore fraîche, les pétales ont la douceur du papier de soie et chaque tige semble faite pour être saisie. Un printemps tout en mains qui s'ouvrent, et en grands yeux ronds.",
       "idees_du_moment": [
         {
           "titre": "Toucher l'herbe du bout des doigts",
@@ -60,7 +60,7 @@
       "couleur_theme": "#FAEEDA",
       "couleur_accent": "#633806",
       "emoji": "☀️",
-      "ambiance": "Le sable qui coule, l'ombre qui tremble sous les feuillages, les gouttes qui perlent : l'été déborde de matières à saisir pour un Découvreur curieux de tout.",
+      "ambiance": "Le sable qui coule, l'ombre qui tremble sous les feuillages, les gouttes qui perlent : l'été déborde de matières à saisir, et de petites merveilles pour ses yeux.",
       "idees_du_moment": [
         {
           "titre": "Faire couler du sable sur ses mains",
@@ -77,7 +77,7 @@
       "couleur_theme": "#F5E4DE",
       "couleur_accent": "#C0723A",
       "emoji": "🍂",
-      "ambiance": "Écorces rugueuses, cônes écailleux, mousse moelleuse, feuilles épaisses : l'automne ouvre une bibliothèque de matières pour un Découvreur dont les mains veulent tout lire.",
+      "ambiance": "Écorces rugueuses, cônes écailleux, mousse moelleuse, feuilles épaisses : l'automne ouvre une bibliothèque de matières, et ses mains veulent tout lire.",
       "idees_du_moment": [
         {
           "titre": "Tenir les trésors de la nature",
@@ -94,7 +94,7 @@
       "couleur_theme": "#E4EEF0",
       "couleur_accent": "#486878",
       "emoji": "❄️",
-      "ambiance": "L'hiver est un jeu de contrastes pour un Découvreur aux doigts curieux : la buée sur la vitre, la laine qui enveloppe, les papiers de fête qui crépitent et brillent sous la lampe.",
+      "ambiance": "L'hiver est un jeu de contrastes : la buée sur la vitre, la laine qui enveloppe, les papiers de fête qui crépitent et brillent sous la lampe. De quoi écarquiller les yeux.",
       "idees_du_moment": [
         {
           "titre": "Poser les mains sur une vitre embuée",

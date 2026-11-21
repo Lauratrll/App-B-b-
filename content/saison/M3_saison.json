@@ -3,9 +3,9 @@
   "tranche_age": "3 mois",
   "rubrique": "saison",
   "titre_rubrique": "Saison",
-  "sous_titre": "Mois 3 : L'Attentif · Vivre la saison ensemble",
-  "description_m": "À 3 mois, {prenom} suit du regard, attrape ce qui passe à portée de ses mains et reste captivé par les moindres mouvements. Il semble guetter ce que le monde a à lui montrer.",
-  "description_f": "À 3 mois, {prenom} suit du regard, attrape ce qui passe à portée de ses mains et reste captivée par les moindres mouvements. Elle semble guetter ce que le monde a à lui montrer.",
+  "sous_titre": "Mois 3 : L'Attentif · Vivre la saison ensemble",
+  "description_m": "{prenom} suit du regard les moindres mouvements et s'éveille au monde. Il semble guetter ce que la vie a à lui montrer.",
+  "description_f": "{prenom} suit du regard les moindres mouvements et s'éveille au monde. Elle semble guetter ce que la vie a à lui montrer.",
   "logique_selection": {
     "regle": "À 3 mois, l'app sélectionne la version saisonnière selon le mois civil en cours (et non plus la saison de naissance).",
     "mapping": {

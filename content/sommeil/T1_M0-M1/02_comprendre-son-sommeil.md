@@ -2,10 +2,10 @@
 
 ### Ce qui se passe
 
-#### M0 · Les premiers jours
+#### M0 · Le Lové
 Ton bébé vient d'arriver, et son sommeil n'est pas encore organisé : il dort beaucoup, par petits morceaux, de jour comme de nuit, au rythme de ses besoins. **Il n'a pas encore d'horloge** : ni nuit à réussir, ni siestes à compter. Ses moments d'éveil calme sont très courts, quelques minutes entre deux sommeils : c'est là qu'il te regarde, qu'il te reconnaît. Le reste du temps, il dort, il tète, il récupère. Ces premiers jours, **tu n'as rien à apprendre à ton bébé : tu apprends à le connaître**. Ce mois-ci, tu apprends à reconnaître son sommeil agité, à repérer la fin de ses éveils calmes et à lui donner doucement des repères entre le jour et la nuit.
 
-#### M1 · Les éveils s'allongent
+#### M1 · L'Éveillé
 Vers 1 mois, ses éveils calmes s'allongent peu à peu : il est plus attentif, il suit ton visage, il écoute ta voix. Son sommeil reste morcelé, de jour comme de nuit, et les soirs peuvent être agités : c'est la période où **les pleurs du soir sont les plus fréquents**. Chez certains bébés, une période de sommeil un peu plus longue apparaît, souvent la nuit : ce n'est qu'une ébauche, elle va et vient d'un jour à l'autre. **Rien ne s'installe encore, et c'est normal**. Ce mois-ci, tu apprends à reconnaître ses signes de fatigue, à traverser les pleurs de fin de journée et à répondre à ses tétées rapprochées sans culpabiliser.
 
 #### Ce que tu vas peut-être voir

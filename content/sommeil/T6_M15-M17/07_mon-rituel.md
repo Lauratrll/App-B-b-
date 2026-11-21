@@ -43,11 +43,11 @@ Pose-le **sur le dos, dans son lit**, sans tour de lit, sans couette ni oreiller
 
 ### La place du co-parent
 
-#### Le coucher n'appartient pas à un seul parent
-**Quand le co-parent le prend régulièrement**, chacun y gagne : le parent qui allaite récupère un peu de temps pour lui, le co-parent construit son propre lien **et sa confiance en lui**, et ton enfant apprend qu'il y a plusieurs bras sûrs pour l'accompagner vers la nuit. Les mêmes étapes, dans le même ordre, mais **avec ses gestes et sa voix à lui** : pas une copie, sa version.
+#### S'organiser à deux
+Le rituel peut se partager : le parent qui allaite récupère un peu de temps pour lui, et le co-parent construit son propre lien **et sa confiance en lui**. Les mêmes étapes, dans le même ordre, mais **avec ses gestes et sa voix à lui** : pas une copie, sa version.
 - **prendre le bain et le massage**, en semaine aussi, pas seulement le week-end ;
 - **si ton enfant est allaité** : le co-parent fait tout le rituel jusqu'à la dernière tétée, puis le lui confie ;
-- **chacun prend sa place.** Si tu reprends la main dès que ton enfant proteste, l'autre parent n'a pas la chance de trouver sa façon de faire. Les pleurs, le co-parent les accompagne lui-même, contre lui, avec sa voix : **c'est aussi dans ces moments-là que leur lien se construit** ;
-- **si vraiment rien n'apaise, appeler l'autre n'est pas un échec**, même si ça en a le goût sur le moment.
+- **si quelque chose bloque** : parlez-en pour ajuster votre organisation commune ;
+- **quand les pleurs montent**, chacun peut l'accompagner à sa façon : **c'est aussi dans ces moments-là que le lien se construit**.
 
 `source` : ¹ La fin du rituel qui ne bouge pas, la lecture qui nourrit le lien plutôt que d'endormir : formation EDPP, *Pleurs et sommeil* (notes et livret)

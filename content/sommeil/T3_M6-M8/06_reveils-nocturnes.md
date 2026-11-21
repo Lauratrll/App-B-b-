@@ -44,19 +44,19 @@ Il est vraiment réveillé, il t'appelle, il se calme avec ta présence sans avo
 
 #### 5. Retrouve-t-il ses conditions d'endormissement ?
 Il s'est endormi dans certaines conditions (tes bras, la tétée, le bercement). **Si elles ne sont plus là au milieu de la nuit, il s'en rend compte** et il t'appelle pour les retrouver.
-Pour les varier pas à pas, tu trouveras des idées dans la catégorie Endormissement, « Diversifier ses conditions d'endormissement, pas à pas ».
+Pour les varier pas à pas, tu trouveras des idées dans la catégorie Endormissement, « Diversifier ses conditions, pas à pas ».
 
 #### 6. Sa journée a-t-elle été très chargée ?
 Une journée très remplie (visites, bruit, beaucoup de nouveautés), une fin de journée agitée ou un coucher très tardif peuvent rendre la nuit plus agitée, avec plus de réveils. Regarde ce qui s'est passé dans la journée, et allège la fin de journée les jours suivants : tu trouveras des idées dans la catégorie Fin de journée.
 
 #### 7. Montre-t-il des signes qui méritent un avis médical ?
-Fièvre, difficulté à respirer, pleurs inhabituels, refus de boire, bébé difficile à réveiller : ces signes sont dans « Quand consulter », en bas de cette page. Et certaines causes médicales peuvent perturber ses nuits sans être urgentes : tu les trouves juste en dessous.
+Certaines causes médicales peuvent perturber ses nuits : tu les trouves juste en dessous.
 
 ### Des causes médicales qui perturbent ses nuits
 > Ici, pas de diagnostic : si plusieurs signes te parlent, parles-en à ton médecin.
 
-#### Le reflux (RGO) interne
-**Si ton bébé régurgite en journée, cela mérite aussi ton attention la nuit.** Les régurgitations sont très fréquentes jusqu'à environ un an, et le plus souvent sans gravité⁶. Mais le reflux peut aussi être « interne » : une fois allongé, l'acidité de l'estomac remonte plus facilement vers l'œsophage, sans qu'on voie de régurgitation⁶. La nuit, tu peux alors observer des réveils fréquents, un sommeil agité, parfois une toux⁶. Un seul de ces signes ne suffit pas à conclure, mais s'ils se répètent, parles-en à ton médecin.
+#### Le reflux interne
+**Si ton bébé régurgite en journée, cela mérite aussi ton attention la nuit.** Les régurgitations sont très fréquentes jusqu'à environ un an, et le plus souvent sans gravité⁶. Mais le reflux peut aussi être « interne » : une fois allongé, il peut y avoir une remontée involontaire du contenu de l'estomac dans l'œsophage⁶. Cela peut provoquer une gêne plus difficile à détecter, car il arrive qu'il n'y ait pas de régurgitation visible⁶. La nuit, tu peux alors observer des réveils fréquents, un sommeil agité, parfois une toux⁶. Un seul de ces signes ne suffit pas à conclure, mais s'ils se répètent, parles-en à ton médecin.
 
 #### L'allergie aux protéines de lait de vache (APLV)
 Elle peut apparaître dès les premières semaines, comme plusieurs mois après⁷. **Ce que tu peux observer** :
@@ -67,15 +67,19 @@ Elle peut apparaître dès les premières semaines, comme plusieurs mois après�
 **Consulte ton médecin ou ton pédiatre** : lui seul peut dire s'il faut changer de lait. Ne donne ni lait de chèvre, de brebis, de jument, ni lait de soja sans son avis⁷.
 
 #### Un frein de langue restrictif
-Il ne concerne que les bébés qui ont **des difficultés à téter** : succion difficile, tétées douloureuses pour la mère, allaitement qui s'arrête tôt⁸. Un frein court ou épais qui ne gêne pas la tétée n'est pas un problème. **Pourquoi peut-il gêner les nuits ?** Un frein restrictif limite la mobilité de la langue : certaines études observent un lien avec des difficultés à respirer pendant le sommeil, avec des ronflements, un sommeil agité ou une respiration par la bouche. Ce lien reste débattu, et les sociétés savantes françaises rappellent qu'il manque de preuves scientifiques⁸. Si ton bébé a ces signes, parles-en à ton médecin plutôt que d'en conclure que c'est le frein. Si la tétée est difficile, demande d'abord l'évaluation d'un professionnel formé à l'allaitement (sage-femme, médecin, puéricultrice), avec ton médecin traitant : une intervention n'est envisagée qu'exceptionnellement, après avoir essayé les autres solutions⁸.
+Il ne concerne que les bébés qui ont **des difficultés à téter** : succion difficile, tétées douloureuses pour la mère, allaitement qui s'arrête tôt⁸. Un frein court ou épais qui ne gêne pas la tétée n'est pas un problème. **Pourquoi peut-il gêner les nuits ?** Un frein restrictif limite la mobilité de la langue : certaines études évoquent un lien possible avec une respiration plus difficile pendant le sommeil (ronflements, sommeil agité, bouche ouverte). Si tu observes ces signes, parles-en à ton médecin avant de conclure. Si la tétée est difficile, demande d'abord l'évaluation d'un professionnel formé à l'allaitement⁸.
 
-#### Une respiration par la bouche, des ronflements
-Une **respiration buccale qui dure**, des ronflements, un sommeil très agité ou des otites qui reviennent peuvent venir d'un nez ou d'une gorge obstrués, par exemple par des végétations⁹. Un simple rhume bouche le nez de façon passagère, et c'est fréquent. **Si ça dure hors rhume**, parles-en à ton médecin, qui t'orientera vers un spécialiste si besoin.
+#### Une respiration buccale, des ronflements
+Si ton bébé **respire par la bouche** durablement, **ronfle** ou a des **otites qui reviennent**, son nez ou sa gorge sont peut-être obstrués, par exemple par des végétations⁹.
+
+Quand la bouche reste ouverte, la langue retombe en bas au lieu de se poser contre le palais. Là, elle ne stimule plus la croissance de la mâchoire du haut. Et l'air qui passe par la bouche n'est ni filtré ni réchauffé : cela favorise les troubles ORL¹⁰.
+
+**Si ça dure hors rhume**, parles-en à ton médecin, qui t'orientera vers un spécialiste si besoin.
 
 ### Il a besoin de vous, prenez soin de vous
 
 #### Il est en alerte, car il dépend de toi
-N'oublie pas : **les réveils nocturnes sont normaux**. Ton bébé reste en alerte la nuit parce qu'il dépend de ses parents¹⁰. Il a besoin de ta proximité, de ta voix, de tes bras, et le réconforter n'est pas lui donner une mauvaise habitude. Plus il se sent en sécurité, plus il retrouvera facilement le sommeil.
+N'oublie pas : **les réveils nocturnes sont normaux**. Ton bébé reste en alerte la nuit parce qu'il dépend de ses parents¹¹. Il a besoin de ta proximité, de ta voix, de tes bras, et le réconforter n'est pas lui donner une mauvaise habitude. Plus il se sent en sécurité, plus il retrouvera facilement le sommeil.
 
 #### Debout dans son lit
 S'il vient d'apprendre à se hisser, tu le retrouveras peut-être debout contre les barreaux, à moitié endormi, sans savoir redescendre. **Recouche-le calmement, sans en faire un jeu.** Et le jour, laisse-le s'entraîner à redescendre : plier les genoux, poser les fesses. Quand il saura, les nuits se reposeront.
@@ -87,19 +91,11 @@ S'il vient d'apprendre à se hisser, tu le retrouveras peut-être debout contre 
 - **accepte qu'on ne puisse pas tout faire**.
 
 #### Partager les nuits
-Les nuits n'appartiennent pas à un seul parent. Le co-parent peut **se lever pour les réveils qui ne sont pas des tétées** : le consoler, le recoucher, l'aider à redescendre quand il est debout. Vous vous relayez pour que chacun ait un vrai bloc de sommeil. Si vraiment rien n'apaise, appeler l'autre n'est pas un échec.
+Le co-parent peut **se lever pour les réveils qui ne sont pas des tétées** : le consoler, le recoucher, l'aider à redescendre quand il est debout. Vous vous relayez pour que chacun ait un vrai bloc de sommeil. Si vraiment rien n'apaise, appeler l'autre n'est pas un échec.
 
 ### À noter cette semaine
 
 #### Un petit carnet de nuit
 Pendant trois nuits, note en quelques mots : **l'heure des réveils, ce qu'il lui fallait** (faim, position, câlin) **et ce qui l'a apaisé**. Note aussi ce qu'il a appris dans la journée. Pas pour compter, juste pour voir ce qui revient et ce qui marche.
 
-### Quand consulter
-
-#### Quand consulter
-- **Appelle le 15** s'il fait des pauses respiratoires, si ses lèvres bleuissent, s'il est difficile à réveiller ou respire avec difficulté¹¹.
-- **Consulte ton médecin** s'il **ronfle presque toutes les nuits, hors rhume**, s'il dort la bouche ouverte, s'il transpire beaucoup en dormant, si son sommeil est très agité, ou si ses pleurs de nuit sont inhabituels.
-- Un bébé ne se secoue **jamais**, même une seconde, même doucement. Si tu sens que tu craques, **couche-le sur le dos dans son lit, sors de la pièce, respire, appelle quelqu'un**¹². Allo Parents Bébé : 0 800 00 34 56 (gratuit).
-- Et si les nuits t'épuisent au point de ne plus tenir, **parles-en** : médecin, sage-femme, PMI, ou Allo Parents Bébé.
-
-`source` : ¹ Un micro-éveil dure quelques secondes (défini à partir de 3 secondes) : American Academy of Sleep Medicine, *Manuel de cotation du sommeil* ; ² Plus de lait le soir, pas moins de réveils : Brown A., Harries V., *Breastfeeding Medicine*, 2015 ; ³ Biberon préparé au moment : ANSES ; ⁴ Les dents gênent quelques jours autour de leur sortie : Macknin M. L. et al., *Pediatrics*, 2000 ; ⁵ Besoin de réconfort la nuit : Santé publique France, *Les 1000 premiers jours* ; ⁶ Régurgitations fréquentes, le plus souvent sans gravité : Haute Autorité de santé, *Reflux du nourrisson : un médicament est-il nécessaire ?*, 2024 ; reflux aggravé en position allongée : *Manuel MSD* (grand public), « Reflux gastro-œsophagien (RGO) », 2026 ; troubles du sommeil, régurgitations nocturnes, lien avec la toux non démontré : Haute Autorité de santé, fiche « RGO de l'enfant de moins d'un an », février 2024 ; ⁷ Allergie aux protéines de lait de vache, symptômes et conduite à tenir : Santé.fr (Service public d'information en santé), « Allergie aux protéines du lait de vache » ; ⁸ Frein de langue : difficultés de succion, évaluation, frénotomie exceptionnelle : Association française de pédiatrie ambulatoire et sociétés savantes, « Section de freins de langue chez les nourrissons et les enfants », 2021 ; lien possible avec la respiration pendant le sommeil : Bussi M. T. et al., *Brazilian Journal of Otorhinolaryngology*, 2022 (revue de la littérature, 4 études) ; preuves jugées insuffisantes : sociétés savantes françaises, 2021 ; Académie nationale de médecine, 2022 ; ⁹ Respiration buccale, ronflements, otites et végétations adénoïdes : *Manuel MSD* (professionnels), « Hypertrophie des végétations adénoïdes » ; ¹⁰ Un bébé ne fait pas exprès, besoin de proximité et de réconfort : formation EDPP, *Pleurs et sommeil* ; ¹¹ Signes d'urgence : ameli.fr, « Bronchiolite : que faire ? », 2026 ; signes respiratoires du sommeil : SFORL, recommandations 2017 et 2020 ; ¹² Conduite à tenir quand le parent est à bout : HAS, 2017 ; Santé publique France, 2025
+`source` : ¹ Un micro-éveil dure quelques secondes (défini à partir de 3 secondes) : American Academy of Sleep Medicine, *Manuel de cotation du sommeil* ; ² Plus de lait le soir, pas moins de réveils : Brown A., Harries V., *Breastfeeding Medicine*, 2015 ; ³ Biberon préparé au moment : ANSES ; ⁴ Les dents gênent quelques jours autour de leur sortie : Macknin M. L. et al., *Pediatrics*, 2000 ; ⁵ Besoin de réconfort la nuit : Santé publique France, *Les 1000 premiers jours* ; ⁶ Régurgitations fréquentes, le plus souvent sans gravité : Haute Autorité de santé, *Reflux du nourrisson : un médicament est-il nécessaire ?*, 2024 ; reflux aggravé en position allongée, toux parmi les difficultés respiratoires du reflux pathologique : *Manuel MSD* (grand public), « Reflux gastro-œsophagien chez le nourrisson » ; remontée involontaire du contenu de l'estomac : ameli.fr, « Définition et causes du reflux gastro-œsophagien du nourrisson » ; reflux non extériorisé, « probablement beaucoup plus rare qu'on ne le pense » : mpedia (Association française de pédiatrie ambulatoire), « RGO : comment distinguer les régurgitations physiologiques d'un RGO pathologique » ; lien entre reflux et complications respiratoires discuté : mpedia, même article ; troubles du sommeil, régurgitations nocturnes, lien avec la toux non démontré : Haute Autorité de santé, fiche « RGO de l'enfant de moins d'un an », février 2024 ; ⁷ Allergie aux protéines de lait de vache, symptômes et conduite à tenir : Santé.fr (Service public d'information en santé), « Allergie aux protéines du lait de vache » ; ⁸ Frein de langue : difficultés de succion, évaluation, frénotomie exceptionnelle : Association française de pédiatrie ambulatoire et sociétés savantes, « Section de freins de langue chez les nourrissons et les enfants », 2021 ; lien possible avec la respiration pendant le sommeil : Bussi M. T. et al., *Brazilian Journal of Otorhinolaryngology*, 2022 (revue de la littérature, 4 études) ; preuves jugées insuffisantes : sociétés savantes françaises, 2021 ; Académie nationale de médecine, 2022 ; ⁹ Respiration buccale, ronflements, otites et végétations adénoïdes : *Manuel MSD* (professionnels), « Hypertrophie des végétations adénoïdes » ; ¹⁰ Respiration buccale et position de la langue : formation EDPP, *Pleurs et sommeil* ; CHU de Nantes, « La respiration nasale », fiche pour les parents ; ¹¹ Un bébé ne fait pas exprès, besoin de proximité et de réconfort : formation EDPP, *Pleurs et sommeil*

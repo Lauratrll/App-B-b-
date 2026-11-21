@@ -3,9 +3,9 @@
   "tranche_age": "15 mois",
   "rubrique": "saison",
   "titre_rubrique": "Saison",
-  "sous_titre": "Mois 15 : Le Bavard · Vivre la saison ensemble",
-  "description_m": "{prenom} a plein de sons à lâcher : des babils, des mots à lui, des onomatopées lancées à la ronde. Il parle à tout ce qui bouge.",
-  "description_f": "{prenom} a plein de sons à lâcher : des babils, des mots à elle, des onomatopées lancées à la ronde. Elle parle à tout ce qui bouge.",
+  "sous_titre": "Mois 15 : Le Nommeur · Vivre la saison ensemble",
+  "description_m": "{prenom} découvre que chaque chose a un nom. Il montre du doigt, lance un son, répète un mot, parfois en invente un, et attend que tu lui répondes.",
+  "description_f": "{prenom} découvre que chaque chose a un nom. Elle montre du doigt, lance un son, répète un mot, parfois en invente un, et attend que tu lui répondes.",
   "logique_selection": {
     "regle": "À 15 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
     "mapping": {
@@ -43,7 +43,7 @@
       "couleur_theme": "#EAF3DE",
       "couleur_accent": "#27500A",
       "emoji": "🌱",
-      "ambiance": "Le printemps parle de partout : merles qui sifflent, ruisseaux qui bavardent, portes qui grincent. Le Bavard a mille voix à écouter et à imiter, avec ses mots à lui.",
+      "ambiance": "Le printemps parle de partout : merles qui sifflent, ruisseaux qui bavardent, portes qui grincent. Autant de sons à écouter et de noms à dire, à sa façon, avec ses mots à lui.",
       "idees_du_moment": [
         {
           "titre": "Répondre à un oiseau avec bébé",
@@ -60,7 +60,7 @@
       "couleur_theme": "#FAEEDA",
       "couleur_accent": "#633806",
       "emoji": "☀️",
-      "ambiance": "L'été parle fort : cigales, rires, cuillères qui tintent, vagues qui chuchotent. Le Bavard y trouve des sons à imiter et des choses à dire à tout le monde.",
+      "ambiance": "L'été parle fort : cigales, rires, cuillères qui tintent. Il y a des sons à imiter, et des choses à montrer du doigt pour que tu leur donnes un nom.",
       "idees_du_moment": [
         {
           "titre": "Lancer des « ohé » sous une voûte",
@@ -77,7 +77,7 @@
       "couleur_theme": "#F5E4DE",
       "couleur_accent": "#C0723A",
       "emoji": "🍂",
-      "ambiance": "L'automne chuchote : pluie sur les carreaux, bottes qui floc, vent dans les branches, feuilles qui craquent. Une saison de sons à dire à voix haute pour le Bavard.",
+      "ambiance": "L'automne chuchote : pluie sur les carreaux, bottes qui font floc, feuilles qui craquent. Une saison de bruits à dire à voix haute et de mots à retenir.",
       "idees_du_moment": [
         {
           "titre": "Croquer une pomme en disant les mots",
@@ -94,7 +94,7 @@
       "couleur_theme": "#E4EEF0",
       "couleur_accent": "#486878",
       "emoji": "❄️",
-      "ambiance": "L'hiver rapproche les voix : chuchotis sous la couette, buée sur les vitres, chansons dans la cuisine. Le Bavard y trouve des oreilles attentives et des mots à partager.",
+      "ambiance": "L'hiver rapproche les voix : chuchotis sous la couette, buée sur les vitres, chansons dans la cuisine. Un bon moment pour nommer ce qui l'entoure, tout près de toi.",
       "idees_du_moment": [
         {
           "titre": "Nommer ses vêtements devant un miroir",

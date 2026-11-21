@@ -32,12 +32,12 @@ Pose-le **sur le dos, dans son lit nu**, les fesses puis la tête, dans ta chamb
 
 ### La place du co-parent
 
-#### Le coucher n'appartient pas à un seul parent
-**Quand le co-parent s'implique dès les premières semaines**, chacun y gagne : le parent qui allaite récupère un peu de temps pour lui, le co-parent construit son propre lien **et sa confiance en lui**, et ton bébé apprend qu'il y a plusieurs bras sûrs. Avec ses gestes et sa voix à lui : pas une copie, sa version.
+#### S'organiser à deux
+Le rituel peut se partager : le parent qui allaite récupère un peu de temps pour lui, et le co-parent construit son propre lien **et sa confiance en lui**. Avec ses gestes et sa voix à lui : pas une copie, sa version.
 - **prendre le peau à peau**, en restant éveillé, ou le portage ;
 - **faire la pose** après la tétée, avec sa main sur le ventre ;
 - **dire la phrase** de fin de journée avec sa propre voix ;
-- **chacun prend sa place.** Si tu reprends la main dès que bébé pleure, l'autre parent n'a pas la chance de trouver sa façon de faire. Tu restes disponible à côté, sans prendre le relais, sauf s'il te le demande ;
-- **si vraiment rien n'apaise, appeler l'autre n'est pas un échec**, même si ça en a le goût sur le moment.
+- **si quelque chose bloque** : parlez-en pour ajuster votre organisation commune ;
+- **quand les pleurs montent**, chacun peut l'accompagner à sa façon : **c'est aussi dans ces moments-là que le lien se construit**.
 
 `source` : ¹ Pas de rituel d'endormissement avant 2 mois, temps calme de sieste, rythme de la famille : formation EDPP, *Pleurs et sommeil* (livret, p. 43) ; ² Dos, lit nu, chambre des parents : HAS et CNP de pédiatrie, fiche mémo, 2020 ; American Academy of Pediatrics, *Pediatrics*, 2022 ; ³ Bruit blanc, volume bas et loin du lit : Hugh S. C. et al., *Pediatrics*, 2014

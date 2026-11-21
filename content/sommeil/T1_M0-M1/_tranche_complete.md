@@ -25,10 +25,10 @@ Ancienne version : content/sommeil/_sauvegardes/2026-10-29_T1_avant_slots/ · fi
 
 ### Ce qui se passe
 
-#### M0 · Les premiers jours
+#### M0 · Le Lové
 Ton bébé vient d'arriver, et son sommeil n'est pas encore organisé : il dort beaucoup, par petits morceaux, de jour comme de nuit, au rythme de ses besoins. **Il n'a pas encore d'horloge** : ni nuit à réussir, ni siestes à compter. Ses moments d'éveil calme sont très courts, quelques minutes entre deux sommeils : c'est là qu'il te regarde, qu'il te reconnaît. Le reste du temps, il dort, il tète, il récupère. Ces premiers jours, **tu n'as rien à apprendre à ton bébé : tu apprends à le connaître**. Ce mois-ci, tu apprends à reconnaître son sommeil agité, à repérer la fin de ses éveils calmes et à lui donner doucement des repères entre le jour et la nuit.
 
-#### M1 · Les éveils s'allongent
+#### M1 · L'Éveillé
 Vers 1 mois, ses éveils calmes s'allongent peu à peu : il est plus attentif, il suit ton visage, il écoute ta voix. Son sommeil reste morcelé, de jour comme de nuit, et les soirs peuvent être agités : c'est la période où **les pleurs du soir sont les plus fréquents**. Chez certains bébés, une période de sommeil un peu plus longue apparaît, souvent la nuit : ce n'est qu'une ébauche, elle va et vient d'un jour à l'autre. **Rien ne s'installe encore, et c'est normal**. Ce mois-ci, tu apprends à reconnaître ses signes de fatigue, à traverser les pleurs de fin de journée et à répondre à ses tétées rapprochées sans culpabiliser.
 
 #### Ce que tu vas peut-être voir
@@ -258,23 +258,19 @@ Parlez-en en fin d'après-midi : **le co-parent peut prendre le portage, le bain
 ### Comment il s'endort aujourd'hui
 
 #### Le premier mois, tout est permis
-Pendant le premier mois, **s'endormir au sein, au biberon ou dans les bras, c'est normal, et ce n'est pas un problème**¹. Il ne s'agit pas encore d'apprendre quoi que ce soit : ton bébé a besoin de téter, d'être contre toi, d'être bercé. Tu n'as rien à corriger. Ce sont les conditions qu'il connaît, et elles **mettent son cerveau en état de plonger dans le sommeil**. Entre chaque cycle, il remonte à la surface avec un micro-réveil, et si les conditions ont changé, il peut avoir du mal à se rendormir² : à cet âge, c'est normal, rien n'est à corriger, tout est à accompagner.
-
-#### « Je ne veux pas l'habituer aux bras »
-Cette phrase, beaucoup de parents l'entendent, ou se la répètent. Elle mérite d'être déconstruite : **porter son bébé, c'est bon pour lui. Ce n'est pas une mauvaise habitude.**
-Pendant neuf mois, il a vécu bercé, contenu, au chaud, contre ta voix et ton cœur. À la naissance, il a besoin de retrouver ce cocon : neuf mois dans le ventre, neuf mois sur le ventre. **Les bras de ses parents sont son nid naturel.** En le portant, tu ne le rends pas dépendant : tu lui donnes la sécurité qui, plus tard, lui permettra de s'éloigner de toi en confiance³. Un bébé n'a ni calcul ni caprice : il exprime un besoin.
+Pendant le premier mois, s'endormir en tétant ou dans les bras, c'est **totalement normal**¹. Tu es **son nid naturel**. Après neuf mois bercé, contenu, au chaud, contre ta voix et ton cœur : toutes ses sensations lui rappellent la sécurité du ventre maternel¹. C'est ce qui **met son cerveau en état d'apaisement**, pour mieux plonger dans le sommeil. Entre chaque cycle, il remonte à la surface avec un micro-réveil, et si les conditions ont changé, il peut avoir du mal à se rendormir² : à cet âge, c'est normal, il faut juste l'accompagner.
 
 ### Ses façons de s'endormir
 
 > Chacune répond à un besoin de ton bébé. Certaines peuvent aussi te fatiguer : c'est humain, et tu fais de ton mieux.
 
 #### Contre toi, en peau à peau
-Le contact, ta chaleur, ton rythme respiratoire : c'est la condition qu'il connaît le mieux. Dormir contre son parent, en peau à peau, aide à organiser son sommeil calme¹. **Reste éveillé, son visage visible**⁵, et repose-le dans son lit avant de te rendormir.
+Le contact, ta chaleur, ton rythme respiratoire : c'est la condition qu'il connaît le mieux. Dormir contre son parent, en peau à peau, aide à organiser son sommeil calme¹. **Reste éveillé, son visage visible**⁴, et repose-le dans son lit avant de te rendormir.
 
 #### Au sein ou au biberon
 La succion l'apaise, et à cet âge, s'endormir en tétant est **physiologique**. **On répond à la faim**, sans la retarder. Quelques repères de sécurité :
 - **donne le biberon ou le sein bébé éveillé**, jamais à un bébé profondément endormi ;
-- **prépare le biberon au moment de le donner**⁴ ;
+- **prépare le biberon au moment de le donner**³ ;
 - une fois qu'il a fini, **un rot, un câlin à la verticale**, puis tu le poses sur le dos dans son lit ;
 
 #### Dans les bras, bercé
@@ -285,33 +281,32 @@ Le mouvement lent, la contenance de tes bras le regroupent et l'apaisent. Quand 
 - s'il se réveille, reprends-le : il n'y a rien à prouver.
 
 #### En portage, en marchant
-Mouvement, contact, position en grenouille : un bébé porté pleure moins⁶. **Reste éveillé, son visage dégagé et visible, son menton qui ne touche pas sa poitrine**, et ne le laisse pas dormir dans le porte-bébé sans surveillance⁵. Ne t'endors pas avec lui contre toi.
+Mouvement, contact, position en grenouille : un bébé porté pleure moins⁵. **Reste éveillé, son visage dégagé et visible, son menton qui ne touche pas sa poitrine**, et ne le laisse pas dormir dans le porte-bébé sans surveillance⁴. Ne t'endors pas avec lui contre toi.
 
 #### En mouvement : voiture, poussette
-Le mouvement continu et le bruit régulier l'apaisent. C'est un dépannage précieux les jours difficiles. Pour ses sommes en poussette ou en voiture, **vérifie souvent sa respiration et son visage**, et repose-le à plat dès l'arrivée. Pas de bruit blanc fort : **volume bas, loin du lit, pas toute la nuit**⁷.
+Le mouvement continu et le bruit régulier l'apaisent. C'est un dépannage précieux les jours difficiles. Pour ses sommes en poussette ou en voiture, **vérifie souvent sa respiration et son visage**, et repose-le à plat dès l'arrivée. Pas de bruit blanc fort : **volume bas, loin du lit, pas toute la nuit**⁶.
 
 #### Avec la tétine
-Sucer l'apaise : c'est un besoin, pas un caprice. Au coucher, **sans forcer s'il n'en veut pas, jamais attachée**⁸. Si elle tombe pendant qu'il dort, ce n'est pas grave.
+Sucer l'apaise : c'est un besoin, pas un caprice. Au coucher, **sans forcer s'il n'en veut pas, jamais attachée**⁷. Si elle tombe pendant qu'il dort, ce n'est pas grave.
 
-### Diversifier ses conditions d'endormissement, pas à pas
+### Diversifier ses conditions, pas à pas
 
-#### Il est trop tôt pour y travailler
-À cet âge, **il n'y a rien à travailler** : ton bébé a encore besoin de beaucoup de proximité (maternage proximal), et ses repères d'endormissement se construisent d'abord par ta présence. **Ce que tu peux faire dès maintenant** : observer ce qui l'apaise, et noter ce qui marche. À partir de 2 mois environ, tu pourras commencer à varier les conditions, un changement à la fois¹. **Aucune méthode où l'on laisse pleurer son bébé seul** n'est proposée ici : il s'agira de l'accompagner, pas à pas.
+#### Observer ce qui l'apaise
+À cet âge, il n'y a pas de méthode à suivre : **teste, et regarde ce que ton bébé apprécie**. Les bras, le peau à peau, la tétée, le bercement, ta voix, le portage : n'hésite pas à varier dès le début, selon les moments. Certains bébés aiment **retrouver un repère en particulier** : si c'est le cas, garde-le, il le rassure. Note ce qui marche : cela te servira quand tu voudras faire évoluer ses conditions, à partir de 2 mois environ¹.
+**Aucune méthode où l'on laisse pleurer son bébé seul** n'est proposée ici : il s'agira de l'accompagner.
 
 ### Le relais du co-parent
 
 #### Deux parents qui savent l'endormir
-**Il est important que vous puissiez tous les deux endormir bébé sereinement.** Ce ne sera pas toujours facile, mais c'est important pour la suite : pour toi qui as besoin de souffler, et pour lui qui apprend qu'il y a plusieurs bras sûrs.
+**Pouvoir l'endormir à deux, c'est précieux** : pour toi qui as besoin de souffler, et pour lui qui découvre qu'il y a plusieurs bras sûrs.
 
 #### Un autre point d'appui
-Le co-parent a ses propres gestes et sa propre voix : ton bébé ne cherche pas « la même chose » avec lui, et c'est justement ce qui aide. Dès maintenant, il peut :
+Chacun a ses propres gestes et sa propre voix : ton bébé ne cherche pas « la même chose » avec chacun, et c'est justement ce qui aide. Dès maintenant, le co-parent peut :
 - **prendre les bras** juste après la tétée ou le biberon, pour le rot et le câlin ;
 - **faire la pose**, avec sa main sur le ventre et sa voix ;
 - **s'occuper du peau à peau**, en restant éveillé.
 
-Et si les pleurs montent, **il l'accompagne contre lui, avec sa voix** : appeler l'autre n'est jamais un échec.
-
-`source` : ¹ Premier mois : s'endormir au sein, au biberon ou dans les bras, peau à peau et sommeil calme, varier les conditions à partir de 2 mois : formation EDPP, *Pleurs et sommeil* ; ² Les conditions d'endormissement et les réveils entre deux cycles : American Academy of Sleep Medicine, *International Classification of Sleep Disorders* ; ³ Les bras des parents, le nid naturel et la base de sécurité : formation EDPP, *Pleurs et sommeil* ; Bowlby J., *Attachment and Loss*, 1969 ; Ainsworth M., 1978 ; ⁴ Biberon préparé au moment : ANSES ; ⁵ Ne pas s'endormir avec bébé, canapé et fauteuil, portage et peau à peau, parent éveillé et visage visible : HAS, Flash Sécurité Patient, avril 2026 ; American Academy of Pediatrics, *Pediatrics*, 2022 ; ⁶ Un bébé porté pleure moins : Hunziker U. A., Barr R. G., *Pediatrics*, 1986 ; ⁷ Bruit blanc, volume bas et loin du lit : Hugh S. C. et al., *Pediatrics*, 2014 ; ⁸ Tétine au coucher, sans forcer, jamais attachée : ameli.fr, 2024
+`source` : ¹ Premier mois : s'endormir au sein, au biberon ou dans les bras, les bras comme nid naturel, peau à peau et sommeil calme, varier les conditions à partir de 2 mois : formation EDPP, *Pleurs et sommeil* ; ² Les conditions d'endormissement et les réveils entre deux cycles : American Academy of Sleep Medicine, *International Classification of Sleep Disorders* ; ³ Biberon préparé au moment : ANSES ; ⁴ Ne pas s'endormir avec bébé, canapé et fauteuil, portage et peau à peau, parent éveillé et visage visible : HAS, Flash Sécurité Patient, avril 2026 ; American Academy of Pediatrics, *Pediatrics*, 2022 ; ⁵ Un bébé porté pleure moins : Hunziker U. A., Barr R. G., *Pediatrics*, 1986 ; ⁶ Bruit blanc, volume bas et loin du lit : Hugh S. C. et al., *Pediatrics*, 2014 ; ⁷ Tétine au coucher, sans forcer, jamais attachée : ameli.fr, 2024
 
 ---
 
@@ -364,19 +359,19 @@ Il peut aussi avoir besoin d'être câliné et rassuré⁷. Il est vraiment rév
 
 #### 5. Retrouve-t-il ses conditions d'endormissement ?
 Il s'est endormi dans certaines conditions (tes bras, la tétée, le bercement). **Si elles ne sont plus là au milieu de la nuit, il s'en rend compte** et il t'appelle pour les retrouver.
-Pour les varier pas à pas, tu trouveras des idées dans la catégorie Endormissement, « Diversifier ses conditions d'endormissement, pas à pas ».
+Pour les varier pas à pas, tu trouveras des idées dans la catégorie Endormissement, « Diversifier ses conditions, pas à pas ».
 
 #### 6. Sa journée a-t-elle été très chargée ?
 Une journée très remplie (visites, bruit, beaucoup de nouveautés) ou une fin de journée agitée peuvent rendre la nuit plus agitée, avec plus de réveils. Regarde ce qui s'est passé dans la journée, et allège la fin de journée les jours suivants : tu trouveras des idées dans la catégorie Fin de journée.
 
 #### 7. Montre-t-il des signes qui méritent un avis médical ?
-Fièvre, difficulté à respirer, pleurs inhabituels, refus de boire, bébé difficile à réveiller : ces signes sont dans « Quand consulter », en bas de cette page. Et certaines causes médicales peuvent perturber ses nuits sans être urgentes : tu les trouves juste en dessous.
+Certaines causes médicales peuvent perturber ses nuits : tu les trouves juste en dessous.
 
 ### Des causes médicales qui perturbent ses nuits
 > Ici, pas de diagnostic : si plusieurs signes te parlent, parles-en à ton médecin.
 
-#### Le reflux (RGO) interne
-**Si ton bébé régurgite en journée, cela mérite aussi ton attention la nuit.** Les régurgitations sont très fréquentes jusqu'à environ un an, et le plus souvent sans gravité⁸. Mais le reflux peut aussi être « interne » : une fois allongé, l'acidité de l'estomac remonte plus facilement vers l'œsophage, sans qu'on voie de régurgitation⁸. La nuit, tu peux alors observer des réveils fréquents, un sommeil agité, parfois une toux⁸. Un seul de ces signes ne suffit pas à conclure, mais s'ils se répètent, parles-en à ton médecin.
+#### Le reflux interne
+**Si ton bébé régurgite en journée, cela mérite aussi ton attention la nuit.** Les régurgitations sont très fréquentes jusqu'à environ un an, et le plus souvent sans gravité⁸. Mais le reflux peut aussi être « interne » : une fois allongé, il peut y avoir une remontée involontaire du contenu de l'estomac dans l'œsophage⁸. Cela peut provoquer une gêne plus difficile à détecter, car il arrive qu'il n'y ait pas de régurgitation visible⁸. La nuit, tu peux alors observer des réveils fréquents, un sommeil agité, parfois une toux⁸. Un seul de ces signes ne suffit pas à conclure, mais s'ils se répètent, parles-en à ton médecin.
 
 #### L'allergie aux protéines de lait de vache (APLV)
 Elle peut apparaître dès les premières semaines, comme plusieurs mois après⁹. **Ce que tu peux observer** :
@@ -387,10 +382,14 @@ Elle peut apparaître dès les premières semaines, comme plusieurs mois après�
 **Consulte ton médecin ou ton pédiatre** : lui seul peut dire s'il faut changer de lait. Ne donne ni lait de chèvre, de brebis, de jument, ni lait de soja sans son avis⁹.
 
 #### Un frein de langue restrictif
-Il ne concerne que les bébés qui ont **des difficultés à téter** : succion difficile, tétées douloureuses pour la mère, allaitement qui s'arrête tôt¹⁰. Un frein court ou épais qui ne gêne pas la tétée n'est pas un problème. **Pourquoi peut-il gêner les nuits ?** Un frein restrictif limite la mobilité de la langue : certaines études observent un lien avec des difficultés à respirer pendant le sommeil, avec des ronflements, un sommeil agité ou une respiration par la bouche. Ce lien reste débattu, et les sociétés savantes françaises rappellent qu'il manque de preuves scientifiques¹⁰. Si ton bébé a ces signes, parles-en à ton médecin plutôt que d'en conclure que c'est le frein. Si la tétée est difficile, demande d'abord l'évaluation d'un professionnel formé à l'allaitement (sage-femme, médecin, puéricultrice), avec ton médecin traitant : une intervention n'est envisagée qu'exceptionnellement, après avoir essayé les autres solutions¹⁰.
+Il ne concerne que les bébés qui ont **des difficultés à téter** : succion difficile, tétées douloureuses pour la mère, allaitement qui s'arrête tôt¹⁰. Un frein court ou épais qui ne gêne pas la tétée n'est pas un problème. **Pourquoi peut-il gêner les nuits ?** Un frein restrictif limite la mobilité de la langue : certaines études évoquent un lien possible avec une respiration plus difficile pendant le sommeil (ronflements, sommeil agité, bouche ouverte). Si tu observes ces signes, parles-en à ton médecin avant de conclure. Si la tétée est difficile, demande d'abord l'évaluation d'un professionnel formé à l'allaitement¹⁰.
 
-#### Une respiration par la bouche, des ronflements
-Une **respiration buccale qui dure**, des ronflements, un sommeil très agité ou des otites qui reviennent peuvent venir d'un nez ou d'une gorge obstrués, par exemple par des végétations¹¹. Un simple rhume bouche le nez de façon passagère, et c'est fréquent. **Si ça dure hors rhume**, parles-en à ton médecin, qui t'orientera vers un spécialiste si besoin.
+#### Une respiration buccale, des ronflements
+Un nouveau-né respire surtout par le nez, et il passe plus difficilement en respiration buccale quand son nez est bouché. Si ton bébé **respire souvent par la bouche**, **ronfle** ou a le nez **encombré**, un lavage de nez au sérum physiologique peut l'aider¹¹.
+
+Quand la bouche reste ouverte, la langue retombe en bas au lieu de se poser contre le palais. Là, elle ne stimule plus la croissance de la mâchoire du haut. Et l'air qui passe par la bouche n'est ni filtré ni réchauffé : cela favorise les troubles ORL¹².
+
+**Si ça dure hors rhume**, parles-en à ton médecin, qui t'orientera vers un spécialiste si besoin.
 
 ### Il a besoin de vous, prenez soin de vous
 
@@ -404,7 +403,7 @@ N'oublie pas : **les réveils nocturnes sont normaux**. Ton bébé reste en ale
 - **accepte qu'on ne puisse pas tout faire**.
 
 #### Partager les nuits
-Les nuits n'appartiennent pas à un seul parent. Le co-parent peut **se lever pour les réveils qui ne sont pas des tétées** : le changer, le consoler, le recoucher. Si tu allaites, il peut te l'apporter et le reprendre après la tétée. Vous vous relayez pour que chacun ait un vrai bloc de sommeil. Si vraiment rien n'apaise, appeler l'autre n'est pas un échec.
+Le co-parent peut **se lever pour les réveils qui ne sont pas des tétées** : le changer, le consoler, le recoucher. Si tu allaites, il peut te l'apporter et le reprendre après la tétée. Vous vous relayez pour que chacun ait un vrai bloc de sommeil. Si vraiment rien n'apaise, appeler l'autre n'est pas un échec.
 
 ### À noter cette semaine
 
@@ -414,15 +413,7 @@ Pendant trois nuits, note en quelques mots : **l'heure des réveils, ce qu'il l
 #### M1 · Un petit carnet de nuit
 Pendant trois nuits, note en quelques mots : **l'heure des réveils, ce qu'il lui fallait** (faim, couche, câlin) **et ce qui l'a apaisé**. Regarde aussi s'il y a, parfois, un sommeil un peu plus long : il va et vient, c'est normal.
 
-### Quand consulter
-
-#### Quand consulter
-- **Appelle le 15** s'il fait des pauses respiratoires prolongées, si ses lèvres bleuissent, s'il est difficile à réveiller ou respire avec difficulté¹².
-- **Consulte ton médecin** s'il dort très longtemps sans réclamer à manger, s'il a l'air de souffrir, s'il refuse de boire, si ses pleurs sont inhabituels et que tu ne le reconnais pas, ou s'il a de la fièvre.
-- Un enfant ne se secoue **jamais**, même une seconde, même doucement. Si tu sens que tu craques, **couche-le sur le dos dans son lit, sors de la pièce, respire, appelle quelqu'un**¹³. Allo Parents Bébé : 0 800 00 34 56 (gratuit).
-- Et si les nuits t'épuisent au point de ne plus tenir, **parles-en** : médecin, sage-femme, PMI, ou Allo Parents Bébé.
-
-`source` : ¹ Un micro-éveil dure quelques secondes (défini à partir de 3 secondes) : American Academy of Sleep Medicine, *Manuel de cotation du sommeil* ; ² La mélatonine fabriquée par bébé vers 3 mois : revue *Children*, 2024, 11(10):1197 ; ³ Bébé programmé pour réveiller son parent, faim et réveil, un bébé qui dort trop, nuit de 5 heures, un bébé ne fait pas exprès : formation EDPP, *Pleurs et sommeil* ; ⁴ Poussées de croissance et repas rapprochés, passagers : Santé publique France, *Guide de l'allaitement maternel*, 2023 (tétées groupées) ; âges observés : avis d'expert, mpedia (Association française de pédiatrie ambulatoire), sans étude ; ⁵ Biberon préparé au moment : ANSES ; ⁶ Dos, lit nu, chambre des parents, canapé et fauteuil : HAS et CNP de pédiatrie, fiche mémo, 2020 ; American Academy of Pediatrics, *Pediatrics*, 2022 ; ⁷ Besoin de réconfort la nuit : Santé publique France, *Les 1000 premiers jours* ; ⁸ Régurgitations fréquentes, le plus souvent sans gravité : Haute Autorité de santé, *Reflux du nourrisson : un médicament est-il nécessaire ?*, 2024 ; reflux aggravé en position allongée : *Manuel MSD* (grand public), « Reflux gastro-œsophagien (RGO) », 2026 ; troubles du sommeil, régurgitations nocturnes, lien avec la toux non démontré : Haute Autorité de santé, fiche « RGO de l'enfant de moins d'un an », février 2024 ; ⁹ Allergie aux protéines de lait de vache, symptômes et conduite à tenir : Santé.fr (Service public d'information en santé), « Allergie aux protéines du lait de vache » ; ¹⁰ Frein de langue : difficultés de succion, évaluation, frénotomie exceptionnelle : Association française de pédiatrie ambulatoire et sociétés savantes, « Section de freins de langue chez les nourrissons et les enfants », 2021 ; lien possible avec la respiration pendant le sommeil : Bussi M. T. et al., *Brazilian Journal of Otorhinolaryngology*, 2022 (revue de la littérature, 4 études) ; preuves jugées insuffisantes : sociétés savantes françaises, 2021 ; Académie nationale de médecine, 2022 ; ¹¹ Respiration buccale, ronflements, otites et végétations adénoïdes : *Manuel MSD* (professionnels), « Hypertrophie des végétations adénoïdes » ; ¹² Signes d'urgence : ameli.fr, « Bronchiolite : que faire ? », 2026 ; ¹³ Conduite à tenir quand le parent est à bout : HAS, 2017 ; Santé publique France, 2025
+`source` : ¹ Un micro-éveil dure quelques secondes (défini à partir de 3 secondes) : American Academy of Sleep Medicine, *Manuel de cotation du sommeil* ; ² La mélatonine fabriquée par bébé vers 3 mois : revue *Children*, 2024, 11(10):1197 ; ³ Bébé programmé pour réveiller son parent, faim et réveil, un bébé qui dort trop, nuit de 5 heures, un bébé ne fait pas exprès : formation EDPP, *Pleurs et sommeil* ; ⁴ Poussées de croissance et repas rapprochés, passagers : Santé publique France, *Guide de l'allaitement maternel*, 2023 (tétées groupées) ; âges observés : avis d'expert, mpedia (Association française de pédiatrie ambulatoire), sans étude ; ⁵ Biberon préparé au moment : ANSES ; ⁶ Dos, lit nu, chambre des parents, canapé et fauteuil : HAS et CNP de pédiatrie, fiche mémo, 2020 ; American Academy of Pediatrics, *Pediatrics*, 2022 ; ⁷ Besoin de réconfort la nuit : Santé publique France, *Les 1000 premiers jours* ; ⁸ Régurgitations fréquentes, le plus souvent sans gravité : Haute Autorité de santé, *Reflux du nourrisson : un médicament est-il nécessaire ?*, 2024 ; reflux aggravé en position allongée, toux parmi les difficultés respiratoires du reflux pathologique : *Manuel MSD* (grand public), « Reflux gastro-œsophagien chez le nourrisson » ; remontée involontaire du contenu de l'estomac : ameli.fr, « Définition et causes du reflux gastro-œsophagien du nourrisson » ; reflux non extériorisé, « probablement beaucoup plus rare qu'on ne le pense » : mpedia (Association française de pédiatrie ambulatoire), « RGO : comment distinguer les régurgitations physiologiques d'un RGO pathologique » ; lien entre reflux et complications respiratoires discuté : mpedia, même article ; troubles du sommeil, régurgitations nocturnes, lien avec la toux non démontré : Haute Autorité de santé, fiche « RGO de l'enfant de moins d'un an », février 2024 ; ⁹ Allergie aux protéines de lait de vache, symptômes et conduite à tenir : Santé.fr (Service public d'information en santé), « Allergie aux protéines du lait de vache » ; ¹⁰ Frein de langue : difficultés de succion, évaluation, frénotomie exceptionnelle : Association française de pédiatrie ambulatoire et sociétés savantes, « Section de freins de langue chez les nourrissons et les enfants », 2021 ; lien possible avec la respiration pendant le sommeil : Bussi M. T. et al., *Brazilian Journal of Otorhinolaryngology*, 2022 (revue de la littérature, 4 études) ; preuves jugées insuffisantes : sociétés savantes françaises, 2021 ; Académie nationale de médecine, 2022 ; ¹¹ Un nouveau-né respire surtout par le nez, mais pas exclusivement : Rodenstein D. O. et al., *American Review of Respiratory Disease*, 1985 ; Bergeson P. S., Shaw J. C., *Clinical Pediatrics*, 2001 ; lavage de nez au sérum physiologique : CHU de Nantes, « La respiration nasale », fiche pour les parents ; ¹² Respiration buccale et position de la langue : formation EDPP, *Pleurs et sommeil* ; CHU de Nantes, « La respiration nasale », fiche pour les parents
 
 ---
 
@@ -460,13 +451,13 @@ Pose-le **sur le dos, dans son lit nu**, les fesses puis la tête, dans ta chamb
 
 ### La place du co-parent
 
-#### Le coucher n'appartient pas à un seul parent
-**Quand le co-parent s'implique dès les premières semaines**, chacun y gagne : le parent qui allaite récupère un peu de temps pour lui, le co-parent construit son propre lien **et sa confiance en lui**, et ton bébé apprend qu'il y a plusieurs bras sûrs. Avec ses gestes et sa voix à lui : pas une copie, sa version.
+#### S'organiser à deux
+Le rituel peut se partager : le parent qui allaite récupère un peu de temps pour lui, et le co-parent construit son propre lien **et sa confiance en lui**. Avec ses gestes et sa voix à lui : pas une copie, sa version.
 - **prendre le peau à peau**, en restant éveillé, ou le portage ;
 - **faire la pose** après la tétée, avec sa main sur le ventre ;
 - **dire la phrase** de fin de journée avec sa propre voix ;
-- **chacun prend sa place.** Si tu reprends la main dès que bébé pleure, l'autre parent n'a pas la chance de trouver sa façon de faire. Tu restes disponible à côté, sans prendre le relais, sauf s'il te le demande ;
-- **si vraiment rien n'apaise, appeler l'autre n'est pas un échec**, même si ça en a le goût sur le moment.
+- **si quelque chose bloque** : parlez-en pour ajuster votre organisation commune ;
+- **quand les pleurs montent**, chacun peut l'accompagner à sa façon : **c'est aussi dans ces moments-là que le lien se construit**.
 
 `source` : ¹ Pas de rituel d'endormissement avant 2 mois, temps calme de sieste, rythme de la famille : formation EDPP, *Pleurs et sommeil* (livret, p. 43) ; ² Dos, lit nu, chambre des parents : HAS et CNP de pédiatrie, fiche mémo, 2020 ; American Academy of Pediatrics, *Pediatrics*, 2022 ; ³ Bruit blanc, volume bas et loin du lit : Hugh S. C. et al., *Pediatrics*, 2014
 

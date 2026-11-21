@@ -3,9 +3,9 @@
   "tranche_age": "16 mois",
   "rubrique": "saison",
   "titre_rubrique": "Saison",
-  "sous_titre": "Mois 16 : L'Indépendant · Vivre la saison ensemble",
-  "description_m": "{prenom} veut faire seul, et il le dit à sa façon : « moi ! ». Chaque petit geste réussi sans aide devient une victoire qu'il savoure.",
-  "description_f": "{prenom} veut faire seule, et elle le dit à sa façon : « moi ! ». Chaque petit geste réussi sans aide devient une victoire qu'elle savoure.",
+  "sous_titre": "Mois 16 : Le Participant · Vivre la saison ensemble",
+  "description_m": "{prenom} veut faire comme toi, avec toi. Il verse, porte, essuie, range à sa façon, et chaque geste de grand lui fait briller les yeux.",
+  "description_f": "{prenom} veut faire comme toi, avec toi. Elle verse, porte, essuie, range à sa façon, et chaque geste de grand lui fait briller les yeux.",
   "logique_selection": {
     "regle": "À 16 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
     "mapping": {
@@ -43,7 +43,7 @@
       "couleur_theme": "#EAF3DE",
       "couleur_accent": "#27500A",
       "emoji": "🌱",
-      "ambiance": "Au printemps, l'eau gicle, l'herbe pousse, les odeurs reviennent. Pour l'Indépendant qui dit « moi », c'est un grand terrain de gestes à faire tout seul, du bout des doigts.",
+      "ambiance": "Au printemps, le jardin se remet au travail : on creuse, on arrose, on plante. Il y a plein de vrais gestes de grands à partager, et lui veut y mettre la main.",
       "idees_du_moment": [
         {
           "titre": "Creuser et cacher des trésors",
@@ -60,7 +60,7 @@
       "couleur_theme": "#FAEEDA",
       "couleur_accent": "#633806",
       "emoji": "☀️",
-      "ambiance": "L'été étire les journées, et le dedans se mêle au dehors. L'Indépendant y trouve de la place pour ses grands projets : porter, choisir, peindre, tout faire à sa manière, sans toi, mais pas trop loin.",
+      "ambiance": "L'été sort tout dehors : le seau, l'eau, le panier du marché. Les gestes du quotidien deviennent des jeux de grands, à faire côte à côte, sans se presser.",
       "idees_du_moment": [
         {
           "titre": "Peindre un mur avec de l'eau",
@@ -77,11 +77,11 @@
       "couleur_theme": "#F5E4DE",
       "couleur_accent": "#C0723A",
       "emoji": "🍂",
-      "ambiance": "L'automne sent la terre mouillée et le bois, et le vent s'invite partout. L'Indépendant y trouve de quoi s'occuper seul, avec des envies précises et un regard qui dit « laisse-moi ».",
+      "ambiance": "L'automne donne du travail aux petites mains : ramasser, porter, remplir, vider. Il y a des feuilles pour tout le monde, et chacun a sa tâche.",
       "idees_du_moment": [
         {
-          "titre": "Cacher une feuille dans ses bottes",
-          "texte": "Glisse une feuille sèche au fond de chaque botte, sans qu'il te voie faire. Assis, il prend sa botte, y regarde, y plonge la main : surprise ! Puis il essaie d'y enfiler son pied. Au fond, la feuille craque sous ses orteils, comme une récompense secrète. Tu le laisses se débrouiller, il proteste, recommence, et si tu l'aides, c'est discrètement, sans un mot. Dehors, la botte dans la flaque fait un tout autre bruit."
+          "titre": "Porter les feuilles jusqu'au tas",
+          "texte": "Avec son petit seau, il ramasse des feuilles sèches pendant que tu fais un tas avec ton râteau. Il remplit, il porte, il vide plus loin, et revient en chercher encore, comme les grands. Tu lui dis « merci, tu m'aides beaucoup », et il se redresse, tout fier. Parfois il refuse ton aide et veut tout faire seul. Le tas grandit, et vous le regardez ensemble, côte à côte."
         },
         {
           "titre": "Lâcher un foulard dans le vent",
@@ -94,11 +94,11 @@
       "couleur_theme": "#E4EEF0",
       "couleur_accent": "#486878",
       "emoji": "❄️",
-      "ambiance": "L'hiver ralentit tout, et les soirs s'allument tôt. L'Indépendant y poursuit ses petites missions à son rythme, dans une lumière douce qui donne à chaque geste un air de cérémonie.",
+      "ambiance": "L'hiver ramène les gestes à la maison : essuyer, chiffonner, décorer, allumer. Autant de petites missions à faire avec toi, à son rythme, comme les grands.",
       "idees_du_moment": [
         {
-          "titre": "Préparer trois haltes sur la balade",
-          "texte": "Avant la balade, repère trois haltes à deux pas de chez toi : un coin de mousse humide, une branche de sapin à froisser sous le nez, une flaque gelée ou une pierre froide à tapoter du bout du doigt. Chemin faisant, tu les lui présentes une à une, en chuchotant ce qu'on sent et ce qu'on touche. Il montre du doigt celle qu'il veut revoir, et vous y retournez. Le froid sur ses doigts, l'odeur de résine, la mousse douce : l'hiver tient dans ces trois gestes."
+          "titre": "Essuyer la buée côte à côte",
+          "texte": "Quand la fenêtre est embuée, donne-lui un chiffon et prends le tien. Vous essuyez chacun votre carreau : ton grand geste, son petit geste, la buée qui disparaît sous vos mains. Il dessine un rond du bout du doigt, puis essuie « comme toi ». Quand la vitre est claire, vous soufflez dessus pour faire revenir la buée, et vous recommencez avec un grand sourire."
         },
         {
           "titre": "Colorer une guirlande de papier de soie",

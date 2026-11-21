@@ -2,14 +2,14 @@
 
 ### Ce qui se passe
 
-#### M12 · Le cap de la première année
+#### M12 · L'Ancré
 À 12 mois, le sommeil de ton enfant a presque trouvé son organisation d'adulte : il dort environ 12 heures la nuit, avec des réveils, et le reste en 2 siestes. Rien ne change dans sa structure ce mois-ci. Ce qui change, c'est tout le reste : son corps se prépare à marcher, il comprend de plus en plus de choses, et son sommeil s'en ressent parfois. **Ce n'est pas une régression, c'est un cerveau qui travaille**. Ce mois-ci, tu observes si son refus de la sieste du matin est vrai ou faux, et tu lui laisses une petite part de choix dans son rituel (quel livre, quel doudou).
 
-#### M13 · Le marcheur
-À 13 mois, beaucoup d'enfants marchent, ou y sont presque : debout, quelques pas, puis encore debout. **Son corps s'entraîne partout, y compris la nuit** : il peut se relever dans son lit, s'agiter, t'appeler, puis se rendormir. Ses journées sont pleines, et **il a besoin de les poser le soir**. Ce n'est pas un caprice, c'est un enfant qui découvre ce qu'il sait faire. Ce mois-ci, tu distingues les réveils liés à la marche de ceux liés aux dents, et tu gardes un rituel inchangé pendant ces journées actives.
+#### M13 · L'Affirmé
+À 13 mois, ton enfant affirme ses préférences, et beaucoup marchent, ou y sont presque. **Son corps s'entraîne partout, y compris la nuit** : il peut se relever dans son lit, s'agiter, t'appeler, puis se rendormir. Ses journées sont pleines, et **il a besoin de les poser le soir**. Ce n'est pas un caprice, c'est un enfant qui découvre ce qu'il sait faire. Ce mois-ci, tu distingues les réveils liés à la marche de ceux liés aux dents, et tu gardes un rituel inchangé pendant ces journées actives.
 
-#### M14 · Les premiers mots
-À 14 mois, il comprend beaucoup plus qu'il ne sait dire, et ses premiers mots arrivent, chacun à son heure. Il affirme aussi ses envies : il montre du doigt, il refuse, il dit « non » de la tête. Le soir, cela peut donner des couchers plus remuants. Ce n'est pas de la mauvaise volonté : **il découvre qu'il a un avis**. Son sommeil, lui, reste stable : 2 siestes, une nuit longue entrecoupée de réveils. Ce mois-ci, tu regardes la durée et la fin de sa sieste par rapport à l'heure du coucher, **sans anticiper le passage à une seule sieste**.
+#### M14 · L'Explorateur
+À 14 mois, ton enfant explore tout ce qui l'entoure, et ses journées sont si pleines que le coucher peut devenir plus remuant. Ce n'est pas de la mauvaise volonté : **il a tant à comprendre**. Son sommeil, lui, reste stable : 2 siestes, une nuit longue entrecoupée de réveils. Ce mois-ci, tu regardes la durée et la fin de sa sieste par rapport à l'heure du coucher, **sans anticiper le passage à une seule sieste**.
 
 #### Ce que tu vas peut-être voir
 Des **nuits remuées** le temps d'une acquisition : il se lève dans son lit, s'agite, t'appelle, puis ça se calme. Un **endormissement qui s'étire**, parce qu'il sait que tu pars et qu'il aimerait que tu restes. Parfois une matinée où il résiste à sa sieste. Et des nuits qui peuvent être mauvaises plusieurs jours de suite, sans raison visible.
@@ -34,7 +34,7 @@ Dans cette période, **ce qui bouge n'est pas son sommeil, c'est le reste** : l
 Il veut marcher, attraper, dire, et il n'y arrive pas toujours. Ce décalage entre ce qu'il veut et ce qu'il sait faire peut le frustrer, jusqu'aux pleurs, surtout quand la fatigue s'en mêle : c'est comme une petite tempête intérieure. Accompagne-le avec des mots simples (« tu voulais y arriver, c'est difficile ») et reste près de lui : ta bienveillance l'aide à traverser ces moments.
 
 #### À partir de 1 an, un peu de recul
-Avant 1 an, on ne parle pas de trouble du sommeil⁶. À partir de 1 an, on peut commencer à en parler, mais seulement quand les difficultés durent et pèsent sur toute la famille : les repères sont dans « Quand consulter » de la catégorie Réveils nocturnes. Dans l'immense majorité des cas, ce que tu vois est **un enfant qui grandit**, pas un problème à régler.
+Avant 1 an, on ne parle pas de trouble du sommeil⁶. À partir de 1 an, on peut commencer à en parler, mais seulement quand les difficultés durent et pèsent sur toute la famille. Dans l'immense majorité des cas, ce que tu vois est **un enfant qui grandit**, pas un problème à régler.
 
 ### Ce dont ton enfant a besoin
 

@@ -36,10 +36,9 @@ Pose-le **sur le dos, dans son lit nu**, les fesses puis la tête. Descends-le d
 
 ### La place du co-parent
 
-#### Le coucher n'appartient pas à un seul parent
-**Quand le co-parent le prend régulièrement, dès les premières semaines**, chacun y gagne : le parent qui allaite récupère un peu de temps pour lui, le co-parent construit son propre lien **et sa confiance en lui**, et ton bébé apprend qu'il y a plusieurs bras sûrs pour l'accompagner vers la nuit. Les mêmes étapes, dans le même ordre, mais **avec ses gestes et sa voix à lui** : pas une copie, sa version.
+#### S'organiser à deux
+Le rituel peut se partager : le parent qui allaite récupère un peu de temps pour lui, et le co-parent construit son propre lien **et sa confiance en lui**. Les mêmes étapes, dans le même ordre, mais **avec ses gestes et sa voix à lui** : pas une copie, sa version.
 - **prendre le bain et le massage**, en semaine aussi, pas seulement le week-end ;
 - **si bébé est allaité** : le co-parent fait tout le rituel jusqu'à la dernière tétée, puis le lui confie ;
-- **enregistrer sa propre voix** pour le script audio : bébé connaîtra deux versions du rituel ;
-- **chacun prend sa place.** Si tu reprends la main dès que bébé pleure, l'autre parent n'a pas la chance de trouver sa façon de faire. Tu restes disponible à côté, sans prendre le relais, sauf s'il te le demande. Les pleurs, le co-parent les accompagne lui-même, contre lui, avec sa voix : **c'est aussi dans ces moments-là que leur lien se construit** ;
-- **si vraiment rien n'apaise, appeler l'autre n'est pas un échec**, même si ça en a le goût sur le moment.
+- **si quelque chose bloque** : parlez-en pour ajuster votre organisation commune ;
+- **quand les pleurs montent**, chacun peut l'accompagner à sa façon : **c'est aussi dans ces moments-là que le lien se construit**.

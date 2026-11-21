@@ -3,9 +3,9 @@
   "tranche_age": "19 mois",
   "rubrique": "saison",
   "titre_rubrique": "Saison",
-  "sous_titre": "Mois 19 : Le Rythmé · Vivre la saison ensemble",
-  "description_m": "{prenom} bat la mesure dès qu'une musique passe. Il aime les refrains qui reviennent et les gestes qu'on répète.",
-  "description_f": "{prenom} bat la mesure dès qu'une musique passe. Elle aime les refrains qui reviennent et les gestes qu'on répète.",
+  "sous_titre": "Mois 19 : L'Anticipateur · Vivre la saison ensemble",
+  "description_m": "{prenom} reconnaît ce qui revient et devine ce qui va suivre. Il attend le « hop », tend sa botte avant que tu la prennes, et sourit d'avance.",
+  "description_f": "{prenom} reconnaît ce qui revient et devine ce qui va suivre. Elle attend le « hop », tend sa botte avant que tu la prennes, et sourit d'avance.",
   "logique_selection": {
     "regle": "À 19 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
     "mapping": {
@@ -43,7 +43,7 @@
       "couleur_theme": "#EAF3DE",
       "couleur_accent": "#27500A",
       "emoji": "🌱",
-      "ambiance": "Le printemps a ses cadences : oiseaux du matin, gouttes sur les feuilles, pas qui s'accélèrent. Le Rythmé s'en empare, tape, balance, répète, et la saison devient une scène où battre la mesure.",
+      "ambiance": "Au printemps, tout a son rythme : l'oiseau du matin, la goutte sur la feuille, le vent qui monte et retombe. Il aime deviner ce qui revient, et le refaire avec toi.",
       "idees_du_moment": [
         {
           "titre": "Faire sonner une clôture",
@@ -60,7 +60,7 @@
       "couleur_theme": "#FAEEDA",
       "couleur_accent": "#633806",
       "emoji": "☀️",
-      "ambiance": "L'été a un tempo lent et ensoleillé : cigales, balançoires, cliquetis, rires qui reviennent. Le Rythmé y bat la mesure partout, avec les mains, les pieds et tout son corps.",
+      "ambiance": "L'été a ses refrains : la balançoire, les cigales, les mêmes gestes d'un jour à l'autre. De quoi jouer au « et après ? » et attendre le « hop ! » ensemble.",
       "idees_du_moment": [
         {
           "titre": "Compter en balançant : un, deux, hop !",
@@ -77,15 +77,15 @@
       "couleur_theme": "#F5E4DE",
       "couleur_accent": "#C0723A",
       "emoji": "🍂",
-      "ambiance": "L'automne joue en sourdine : pluie, gravier, vent, pas pressés. Le Rythmé reconnaît chaque refrain de la saison et le reprend à sa manière.",
+      "ambiance": "L'automne répète ses signes : la pluie qui revient, le gravier qui crisse, le bonnet qu'on remet. Autant de repères qu'il reconnaît et reprend avec plaisir.",
       "idees_du_moment": [
         {
           "titre": "Marcher lent, vite, lent sur le gravier",
           "texte": "Sur un chemin de gravier, de sable ou d'écorce, tes pas craquent et crissent. Joue avec le tempo : craque, craque, craque, puis vite, vite, vite, puis très lent. Il écoute, essaie, accélère ou s'arrête net, et tu t'arrêtes avec lui. Tu marques le rythme de tes pas, il répond avec ses mains ou ses pieds, et vos tempos se répondent sur le sol d'automne."
         },
         {
-          "titre": "Écouter la pluie dans des récipients",
-          "texte": "Quand la pluie tombe, pose sur le rebord de la fenêtre ou sous la gouttière trois récipients différents : une casserole, un verre en plastique, un bol en métal. Ping, plok, tchac : chaque goutte a sa voix. Il écoute, tourne la tête, tape en même temps. Tu changes les récipients de place, et la musique change. Contre toi, il suit le concert du regard."
+          "titre": "Chanter les étapes de la sortie",
+          "texte": "Avant de sortir, chante toujours les mêmes mots sur la même petite mélodie : « bonnet, manteau, bottes… et hop, la porte ! » Fais une pause avant le dernier mot, pour voir s'il le complète, avec un son, un geste ou un grand sourire. Au bout de quelques jours, il tend sa botte dès que tu chantes « bottes ». La sortie devient un petit refrain qu'il reconnaît, et son visage s'éclaire avant même la porte."
         }
       ]
     },
@@ -94,11 +94,11 @@
       "couleur_theme": "#E4EEF0",
       "couleur_accent": "#486878",
       "emoji": "❄️",
-      "ambiance": "L'hiver aime les refrains : souffle visible, clochettes, chansons du soir. Pour le Rythmé, ces rendez-vous qui reviennent font une musique rassurante, tout en douceur.",
+      "ambiance": "L'hiver aime les rendez-vous : la lampe qu'on allume, la chanson du soir, le même plaid. Des petits rituels de saison qu'il attend, et dont il se souviendra.",
       "idees_du_moment": [
         {
-          "titre": "Suspendre des ustensiles au vent",
-          "texte": "Accroche à une branche, un balcon ou un porte-manteau des cuillères, des clés et des couvercles suspendus à des ficelles. Quand le vent passe, tout tinte. Quand il n'y en a pas, c'est à lui de secouer, et le tintement répond. Tu règles la hauteur pour que ses mains l'atteignent. Il écoute, imite, tape en cadence, et chaque objet a sa voix de métal, grave pour les couvercles, claire pour les cuillères."
+          "titre": "Empiler et faire boum !",
+          "texte": "Empile quelques coussins ou de gros cubes de tissu : un, deux, trois… Fais durer le suspense : « et après ? » Il tend les mains, retient son souffle, attend. Puis BOUM : tout s'effondre, et il éclate de rire. Il veut recommencer, et tu le laisses attendre un tout petit peu plus longtemps à chaque tour. Ce moment où il sait ce qui vient est un vrai bonheur à partager."
         },
         {
           "titre": "Danser chaque soir la même chanson",

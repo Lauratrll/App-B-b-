@@ -3,9 +3,9 @@
   "tranche_age": "22 mois",
   "rubrique": "saison",
   "titre_rubrique": "Saison",
-  "sous_titre": "Mois 22 : Le Tendre · Vivre la saison ensemble",
-  "description_m": "{prenom} offre de la tendresse : un bisou à son doudou, un geste doux pour plus petit que lui, un regard attendri devant un animal. La douceur devient son langage.",
-  "description_f": "{prenom} offre de la tendresse : un bisou à son doudou, un geste doux pour plus petit qu'elle, un regard attendri devant un animal. La douceur devient son langage.",
+  "sous_titre": "Mois 22 : Le Papoteur · Vivre la saison ensemble",
+  "description_m": "{prenom} papote avec tout le monde : il babille, répète, lance un « bonjour » ou un mot bien à lui. Il aime qu'on lui réponde.",
+  "description_f": "{prenom} papote avec tout le monde : elle babille, répète, lance un « bonjour » ou un mot bien à elle. Elle aime qu'on lui réponde.",
   "logique_selection": {
     "regle": "À 22 mois, l'app sélectionne la version saisonnière selon le mois civil en cours.",
     "mapping": {
@@ -43,15 +43,15 @@
       "couleur_theme": "#EAF3DE",
       "couleur_accent": "#27500A",
       "emoji": "🌱",
-      "ambiance": "Au printemps, le vivant se réveille tout doucement : bourgeons, escargots, nids, pétales. Le Tendre y trouve des merveilles minuscules à regarder de près et à saluer d'un geste lent.",
+      "ambiance": "Au printemps, le jardin déborde de choses à nommer : merles, escargots, bourgeons. Autant de « c'est quoi ? » à lancer, et de mots à inventer.",
       "idees_du_moment": [
         {
           "titre": "Observer un escargot après la pluie",
           "texte": "Après une averse, les escargots sortent. Quand l'un d'eux apparaît sur un mur ou sur une feuille, vous vous arrêtez, tu t'accroupis, tu chuchotes : « Bonjour, petit escargot. » Il se rapproche, observe les cornes qui se rentrent, la traînée brillante laissée derrière. Il lui parle, lui envoie un bisou de loin, ou lui offre un brin d'herbe. Quand il est prêt, vous lui souhaitez bon voyage, accroupis tous les deux, tout près l'un de l'autre."
         },
         {
-          "titre": "Fabriquer un nid tout doux en laine",
-          "texte": "Rassemble de la laine, des chutes de tissu, des plumes, du coton, des brins de paille. Ensemble, vous roulez, nouez, entassez tout cela dans un grand bol ou une boîte pour faire un nid. Il y dépose un oiseau en pompon, une boule de laine, un caillou lisse, qu'il berce du bout des doigts : « Chhh, dodo. » Tu fredonnes une berceuse. Le nid peut ensuite rester sur l'étagère, comme un petit rendez-vous de tendresse."
+          "titre": "Le jeu du « c'est quoi ? » au jardin",
+          "texte": "Promène-toi lentement et laisse-le te guider du doigt. À chaque « c'est quoi ? », réponds avec un mot simple : « une fleur », « un merle », « un escargot ». Il répète, déforme, invente son propre mot, et tu le lui rends avec un grand sourire. S'il montre sans parler, dis le mot pour lui. Vous rapportez de la balade tout un petit vocabulaire du jardin."
         }
       ]
     },
@@ -60,15 +60,15 @@
       "couleur_theme": "#FAEEDA",
       "couleur_accent": "#633806",
       "emoji": "☀️",
-      "ambiance": "L'été ouvre les fenêtres et les bras. Dans l'ombre des arbres, sur l'herbe tiède, au pied d'un mur de pierre, le Tendre trouve de quoi donner et recevoir de la douceur.",
+      "ambiance": "L'été est une saison à voix haute : on dit bonjour à tout le monde, on appelle, on rit. Pour lui, c'est une grande conversation avec tout ce qui bouge.",
       "idees_du_moment": [
         {
           "titre": "Faire un câlin à un vieil arbre",
           "texte": "Choisis un vieil arbre dans un parc ou au jardin, avec un tronc assez large. Posez vos joues contre l'écorce, tiède et rugueuse, et écoutez : « Tu entends quelque chose ? » Il pose ses mains sur le tronc, le regarde de haut en bas, lui fait un bisou. Tu lui murmures que l'arbre est content de la visite. Les feuilles bruissent, comme un merci. Il fait le tour du tronc, la main sur l'écorce, ou s'adosse au pied, près d'une racine."
         },
         {
-          "titre": "Éventer bébé avec une feuille",
-          "texte": "Cueille une grande feuille, ou prends un éventail ou un carton léger. À l'ombre, face à lui, agite-le doucement : un souffle frais passe sur ses joues, ses bras, ses cheveux. « Un bisou de vent ! » Tu varies : lent, rapide, tout près du nez. Il ferme les yeux, rit, tend les mains pour attraper la brise. Puis il te l'envoie à son tour, avec la feuille ou d'un geste de la main, et l'après-midi se remplit de petits courants d'air tendres."
+          "titre": "Dire bonjour à tout ce qui bouge",
+          "texte": "Pendant la promenade, dites bonjour à tout : un chien, un oiseau, un voisin, un papillon. Commence de loin avec un geste de la main : « bonjour, le chien ! » Il t'imite, lance un « jour », agite les doigts, ou observe en silence, et c'est très bien aussi. Tu ajoutes ce que tu vois : « il est content, il remue la queue ». Une façon de papoter avec le monde entier."
         }
       ]
     },
@@ -77,7 +77,7 @@
       "couleur_theme": "#F5E4DE",
       "couleur_accent": "#C0723A",
       "emoji": "🍂",
-      "ambiance": "L'automne invite à se lover : plaids, pulls, bottes, soupes qui mijotent. Le Tendre prend soin de tout ce qui l'entoure, et ses peluches sont les premières à être bichonnées.",
+      "ambiance": "L'automne chuchote : feuilles, pluie, doudou qu'on borde. Des histoires à raconter tout bas, et des trouvailles à nommer une par une.",
       "idees_du_moment": [
         {
           "titre": "Border doudou avec une feuille",
@@ -94,7 +94,7 @@
       "couleur_theme": "#E4EEF0",
       "couleur_accent": "#486878",
       "emoji": "❄️",
-      "ambiance": "L'hiver fait de la tendresse une fête : lumières douces, tables dressées, bras qui se retrouvent. Le Tendre y goûte le plaisir de donner, un dessin, un bisou, un regard.",
+      "ambiance": "L'hiver rapproche les voix : une lettre à envoyer, un arbre à habiller, de longues conversations au chaud. Même ses babils ont quelque chose à dire.",
       "idees_du_moment": [
         {
           "titre": "Envoyer à mamie une lettre parfumée",

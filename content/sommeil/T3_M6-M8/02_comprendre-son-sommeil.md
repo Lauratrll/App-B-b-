@@ -2,13 +2,13 @@
 
 ### Ce qui se passe
 
-#### M6 · Il bouge, il goûte
+#### M6 · Le Goûteur
 À 6 mois, ton bébé s'endort à présent surtout par le sommeil calme, et ses nuits, d'environ 10 heures, restent entrecoupées de réveils. Il se retourne, essaie de nouvelles positions, et la diversification alimentaire commence souvent : sa journée change, et sa nuit avec elle. Ces nouveautés peuvent le réveiller, **sans que ce soit un problème de sommeil**. Ce mois-ci, tu comprends les transformations de son sommeil, tu l'accompagnes pour se rendormir (**ce n'est pas une mauvaise habitude**) tu ajustes son rituel, et tu apprends à distinguer les dents d'un autre inconfort.
 
-#### M7 · Le mobile
+#### M7 · Le Mobile
 À 7 mois, ton bébé devient mobile : il s'assoit, roule, commence parfois à ramper, et son cerveau répète ces nouveaux gestes jusque dans la nuit. Il peut se retrouver coincé dans une position et se réveiller frustré, sans savoir revenir en arrière : c'est **le prix d'un grand apprentissage, pas un caprice**. Il te cherche aussi du regard dès que tu t'éloignes, signe que son attachement grandit. Ses siestes bougent : le plus souvent vers 7 ou 8 mois, il passe **de 3 à 2 siestes**, parfois un peu plus tard. Ce mois-ci, tu nommes tes départs (« je sors, je reviens »), tu regardes si sa troisième sieste refuse vraiment, et tu ajoutes un peu de mouvement à son rituel.
 
-#### M8 · Il te reconnaît
+#### M8 · L'Attaché
 À 8 mois, ton bébé distingue clairement les visages familiers des visages inconnus, et il le fait savoir : il peut protester quand tu quittes la pièce, ou se méfier d'un nouveau visage. **C'est une étape normale** : il s'attache, il reconnaît. Il s'entraîne aussi à se mettre debout, parfois jusque dans son lit. Le passage à 2 siestes se poursuit, et le soir, **ta présence compte encore plus**. Ce mois-ci, tu rassures son coucher qui s'étire, tu l'aides à se recoucher quand il est debout dans son lit et tu lui proposes un petit objet de réconfort.
 
 #### Ce que tu vas peut-être voir
